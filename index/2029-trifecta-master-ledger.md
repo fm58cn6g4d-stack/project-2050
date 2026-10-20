@@ -333,7 +333,7 @@ Gross outlays and own revenue are shown separately; the three general-fund colum
 | H1b | Medicare and investment-income tax rates to 5% above $400K | General fund | 0.500 | 0.500 | 0.500 | Yes | No | Low | Stacks with SS-1/SS-2 (top rates ~57% federal) | Revenue tab (Treasury via CRFB $412B 2025-34) |
 | G3 | Top rate back to 39.6% above $400K | General fund | 0.300 | 0.300 | 0.300 | Yes | No | Low | Overlaps G9 | Go-big tab (Treasury) |
 | G4 | 25% minimum tax on households over $100M (replaced by G11 in the base, C22) | General fund | 0.580 | 0.550 | 0.600 | No | No | High (Moore) | Overlaps G6 | Go-big tab (Treasury) |
-| G11 | Full mark-to-market for billionaires (Wyden design); replaces G4 in the base (C22) | General fund | 0.650 | 0.550 | 0.800 | Yes | No | Medium-High (realization; deferral-charge fallback) | Replaces G4; trims G6 | JCT $557B 2022-31 (preliminary), Claude's 2030-39 estimate |
+| G11 | Full mark-to-market for billionaires (Wyden design); replaces G4 in the base | General fund | 0.650 | 0.550 | 0.800 | Yes | No | Medium-High (realization; deferral-charge fallback) | Replaces G4; trims G6 | JCT $557B 2022-31 (preliminary), Claude's 2030-39 estimate |
 | G5 | Buyback tax to 4%; corporate minimum to 21% | General fund | 0.400 | 0.400 | 0.400 | Yes | No | Low |  | Go-big tab (Treasury) |
 | G6 | Tax capital gains at death above an exemption | General fund | 0.700 | 0.700 | 0.700 | Yes | No | Medium | Overlaps G4; the education trust-fund design's stepped-up-basis piece is this row, not new revenue | Revenue tab (CBO) |
 | G7 | Tax foreign income at the full corporate rate | General fund | 0.410 | 0.410 | 0.410 | Yes | No | Low |  | Revenue tab (CBO) |

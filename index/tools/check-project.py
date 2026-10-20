@@ -93,6 +93,7 @@ def check_headlines():
             for name, val, fmt, pats, (lo, hi) in FACTS:
                 ctx = FACT_CONTEXT.get(name)
                 if ctx and not ctx.search(line): continue
+                if "quintile" in name and re.search(r"scenario Q-(?:EDU|C19|H5p|SAF)", line): continue   # a variant's figure
                 for p in pats:
                     for m in re.finditer(p, line):
                         x = parse_num(m.group(1))
@@ -160,8 +161,8 @@ STALE = [
  (r"70-77%", r"before (?:the )?haircut|before it", "D8: 65-72% after the avoidance haircut"),
  (r"\bclaude/", r"not claude/|\(not claude/|old `?claude/|claude\.ai Project", "old claude.ai Project path"),
  (r"\$10\.06T|\$3\.69T|\$10\.48T|\$4\.11T|\$4\.13T", None, "an earlier headline figure"),
- (r"Beyond Health Care", r"superseded|archive|ideas only|replaces", "Beyond Health Care is superseded (archive, ideas only)"),
- (r"\$400K pledge", r"no \$400K|not .{0,20}\$400K|drop|is gone", "D3: no $400K pledge"),
+ (r"Beyond Health Care", r"superseded|archive|ideas only|replaces|assume", "Beyond Health Care is superseded (archive, ideas only)"),
+ (r"\$400K pledge", r"no \$400K|not .{0,20}\$400K|drop|is gone|What does the \$400K pledge cover", "D3: no $400K pledge"),
  (r"run `?final_v3\.py", None, "transportation: run report.py (final_v3.py is in legacy/)"),
 ]
 def check_stale():

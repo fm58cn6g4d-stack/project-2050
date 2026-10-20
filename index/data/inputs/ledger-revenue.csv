@@ -4,7 +4,7 @@ H1a,"Extend the 3.8% investment-income tax to active pass-through income, credit
 H1b,Medicare and investment-income tax rates to 5% above $400K,General fund,0.5,0.5,0.5,yes,Low,Stacks with SS-1/SS-2 (top rates ~57% federal),Revenue tab (Treasury via CRFB $412B 2025-34),no
 G3,Top rate back to 39.6% above $400K,General fund,0.3,0.3,0.3,yes,Low,Overlaps G9,Go-big tab (Treasury),no
 G4,"25% minimum tax on households over $100M (replaced by G11 in the base, C22)",General fund,0.55,0.58,0.6,no,High (Moore),Overlaps G6,Go-big tab (Treasury),no
-G11,Full mark-to-market for billionaires (Wyden design); replaces G4 in the base (C22),General fund,0.55,0.65,0.8,yes,Medium-High (realization; deferral-charge fallback),Replaces G4; trims G6,"JCT $557B 2022-31 (preliminary), Claude's 2030-39 estimate",no
+G11,Full mark-to-market for billionaires (Wyden design); replaces G4 in the base,General fund,0.55,0.65,0.8,yes,Medium-High (realization; deferral-charge fallback),Replaces G4; trims G6,"JCT $557B 2022-31 (preliminary), Claude's 2030-39 estimate",no
 G5,Buyback tax to 4%; corporate minimum to 21%,General fund,0.4,0.4,0.4,yes,Low,,Go-big tab (Treasury),no
 G6,Tax capital gains at death above an exemption,General fund,0.7,0.7,0.7,yes,Medium,"Overlaps G4; the education trust-fund design's stepped-up-basis piece is this row, not new revenue",Revenue tab (CBO),no
 G7,Tax foreign income at the full corporate rate,General fund,0.41,0.41,0.41,yes,Low,,Revenue tab (CBO),no
