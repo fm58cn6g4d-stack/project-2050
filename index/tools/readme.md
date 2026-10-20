@@ -2,6 +2,8 @@
 
 **In the repo (since Oct 20): run `bash index/tools/run-all.sh` from the repo root.** It does every step below in `build/`, handles the renames, and shows a diff; add `--write` to copy the outputs into `index/`. The manual steps below are kept for reference.
 
+The transportation model behind Moving America (MOV-) is in `transportation/`, with its own readme; it is not run by run-all.sh.
+
 These scripts regenerate the index/ files. Copy them into one working folder and run them in order:
 
 1. `python3 ledger-build.py` writes ledger.json, bills.csv and the summary from the bill, revenue, conflict and options tables inside the script. Edit the tables there, never the ledger markdown. **Since the Oct 20 full rebuild every row is keyed by its domain-file ID** (HLT-1, CLI-5, IMM-1 ...), with the old ledger ID in a `legacy` column.
