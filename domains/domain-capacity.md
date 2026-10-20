@@ -228,7 +228,7 @@ The appropriations rows (CAP-1, CAP-2, CAP-3, CAP-7, CAP-13) are ◐ rather than
 3. **Envelope size for batch 4.** The reserve holds $37B after the CDC cut. Batch 4 decides whether that covers its agencies; if not, the ~$0.6T rises with matched revenue (D4), or existing lines are trimmed (NOAA next).
 4. **CAP-13 is unsourced.**
 5. **Staffing baselines are counted differently by CRS and Brookings** — pick one method for the findings record.
-6. **CAP-7 remains provisional** under D9 until the whole agenda is priced. C17 was declined (Oct 20). The surge's shape and the sustained level (0.12% of GDP, against 0.10% or 0.148%) are Claude's estimates for Espen to confirm, and the bottom-up review (item 2) should set both.
+6. **CAP-7 remains provisional** under D9 until the whole agenda is priced. C17 was declined (Oct 20). The surge's shape and the sustained level (0.12% of GDP, against 0.10% or 0.148%) were Claude's estimates and are **accepted by Espen as the working figures (Oct 20)**; the bottom-up review (item 2) may revise both.
 7. **Four-plus ledger rows missing** (see crosswalk). At the rebuild, ledger row A1's label also needs the batch 3 agencies (edit the tables in index/tools/ledger-build.py, not the ledger).
 
 ## Sources

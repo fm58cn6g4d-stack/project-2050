@@ -6,12 +6,12 @@ Oct 20, 2026 · prepared for Espen · live doc: https://claude.ai/code/artifact/
 
 | # | Decision | Outcome |
 | --- | --- | --- |
-| 1a | Guardrails | **Agreed, sharpened:** measured against the real (CBO, adjusted) baseline, not held to the program's own debt. Total debt and net interest stay below the baseline, by more each decade. The sustainability layer is a reported track |
+| 1a | Guardrails | **Agreed, sharpened:** measured against the real (CBO, adjusted) baseline, not held to the program's own debt. Total debt and net interest stay below the baseline, by more each decade. The sustainability layer is a reported track. **Confirmed:** permanent programs are still paid for from 2040 |
 | 1b | Envelope | **Agreed:** 0.5% of GDP to 2034, tapering to zero by 2040, with the borrowing readings counted inside it. Espen: a ten-year deficit of $1-2T on a ~$10T program, mostly time-limited, is acceptable |
 | 1c | Judgment Fund | **Agreed:** CLI-9 at full cost when obligated; AAJA damages as a disclosed contingent-liability line |
 | 1d | Maturity test year | **Agreed:** FY2040 and every later year |
 | 2 | Trims and scope | **Agreed:** every trim declined (too small to matter, too valuable to lose; some trims may be revisited later). LAB-9D; NSC-1A, with a study of reducing defense over time later in the project |
-| 2b | CAP-7 (new) | **Restructured:** it was spread evenly (~$60B a year as increments). It is now a front-loaded surge, CAP-7S (the ~$0.6T over FY2030-35, borrowed inside the envelope), plus a lasting increase, CAP-7, lower than the surge (~0.12% of GDP from FY2032). Sizing is Claude's estimate, pending the bottom-up agency review |
+| 2b | CAP-7 (new) | **Restructured:** it was spread evenly (~$60B a year as increments). It is now a front-loaded surge, CAP-7S (the ~$0.6T over FY2030-35, borrowed inside the envelope), plus a lasting increase, CAP-7, lower than the surge (~0.12% of GDP from FY2032). Sizing (surge shape; sustained 0.12% of GDP) **confirmed by Espen as working figures**; the bottom-up agency review may revise it |
 | 3 | Alternatives | **Agreed:** C38 accepted; C39 (TS12), C40 (HP1) and C41 (HP3) accepted; SC1 in reserve; HP2 folded into TS1 |
 
 **Result after the rebuild.** The general fund runs a primary surplus of 0.07% of GDP from 2040. Its ten-year deficit is about $1.21T, almost all borrowing inside the envelope ($1.15T of $1.6T used). Total debt is 162.4% of GDP in 2056 against the baseline's 180.2%, and below it every year. The fourth quintile nets about +$1,269 a year (scenario Q). The figures below are the brief as drafted, before CAP-7 was restructured.

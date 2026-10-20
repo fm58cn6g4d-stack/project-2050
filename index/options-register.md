@@ -36,7 +36,7 @@ Hand-written companion to the generated ledger, Oct 20, 2026 (after Espen's deci
 | G-RECON | Reconciliation R1 / R3 / R4 | Senate Rules Reform: Options | R1 now; R3 vs R4 decided with D2's adoption resolution |
 | G-D4 | D4 as written / D4-B fiscal-arc rule / D4-C deficit allowance | governing doc | **Decided Oct 20: D4-B** (Decision Brief 2): paid for at maturity from FY2040; envelope 0.5% of GDP to 2034 tapering to zero by 2040, holding the borrowing lines; guardrails against the real baseline; Judgment Fund contracts counted |
 | G-TRIMS | C5 / C17 / C33 / C34 / C36 (program trims) | ledger | **All declined Oct 20** (Decision Brief 2); kept as the record, never summed; may be revisited later |
-| G-CAP7 | CAP-7 as an even ten-year line / CAP-7S surge + CAP-7 sustained | domain-capacity.md | **Decided Oct 20: surge + sustained** (sizing is Claude's estimate; sustained level 0.12% of GDP, alternatives 0.10% or 0.148%) |
+| G-CAP7 | CAP-7 as an even ten-year line / CAP-7S surge + CAP-7 sustained | domain-capacity.md | **Decided Oct 20: surge + sustained** (sizing accepted Oct 20 as working figures: sustained 0.12% of GDP; alternatives were 0.10% or 0.148%) |
 | Every lettered set | Each domain's A/B/C/D options for one row (e.g. FAM-1A-D, HOU-3A-D, RTS-3A-E) | Each file | Treated as a group unless the file says an option can stack (e.g. EDU-4B-D add to EDU-4A; CLI-4D-F add to CLI-4A) |
 
 ## 3. Duplicates resolved: two names, one policy
@@ -341,7 +341,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | --- | --- | --- | --- |
 | CAP-4 option | Merkley-Daines appropriations fast track | 0 | Option |
 | CAP-7 at $0.5T (C17) | Agency rebuild at the low end | saves $0.1T | Declined Oct 20 |
-| CAP-7S + CAP-7 | Rebuild surge (~$0.6T, FY2030-35, borrowed inside the envelope, C42) + sustained increase (~0.12% of GDP, ~$0.49T in window) | ~$1.09T in window | **Decided Oct 20** (sizing to confirm) |
+| CAP-7S + CAP-7 | Rebuild surge (~$0.6T, FY2030-35, borrowed inside the envelope, C42) + sustained increase (~0.12% of GDP, ~$0.49T in window) | ~$1.09T in window | **Decided Oct 20** (sizing accepted as working figures) |
 | CAP-7 batch 4 allocations | $31B of the $37B reserve (USCIS asylum $6B, civil-rights offices $6B, CAISI $6B, ATF/NICS $5B, State $8B) | within CAP-7 | Proposed, pending Espen |
 
 ### Amendments (domain-amendments.md)
