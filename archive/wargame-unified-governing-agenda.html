@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Governing Agenda — Ossoff–Moore</title>
+<style>
+  :root{
+    --paper:#F4EFE4; --paper2:#EAE3D3; --ink:#1B2432; --inkdim:#5C6373;
+    --rule:#CDBE9A; --brass:#9C7A16;
+    --dem:#3E6FB0; --care:#4E8A63; --econ:#C08A20; --rev:#7A5E97; --safety:#5E6B80;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+    --mono:ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55}
+  .wrap{max-width:780px;margin:0 auto;padding:56px 28px 110px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass)}
+  h1{font-weight:600;font-size:52px;line-height:1.03;letter-spacing:-.01em;margin:.15em 0 .12em}
+  .dek{font-size:20px;line-height:1.4;font-style:italic;margin:.2em 0 .1em;max-width:44ch}
+  .intro{font-size:17px;margin-top:22px}
+  .intro p{margin:0 0 16px}
+  .rule{height:1px;background:var(--rule);border:0;margin:30px 0}
+
+  /* how it moves box */
+  .moves{background:var(--paper2);border:1px solid var(--rule);border-radius:5px;padding:22px 24px;margin:28px 0}
+  .moves h3{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin:0 0 12px}
+  .moves .seq{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px}
+  .step{flex:1;min-width:150px;background:var(--paper);border:1px solid var(--rule);border-radius:4px;padding:11px 13px}
+  .step .w{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass)}
+  .step .t{font-weight:600;font-size:15px;margin-top:3px;line-height:1.2}
+  .step .d{font-size:13px;color:var(--inkdim);margin-top:4px;line-height:1.35}
+  .moves p{font-size:14.5px;line-height:1.5;margin:10px 0 0;color:var(--ink)}
+
+  /* planks */
+  .plank{margin:40px 0 0}
+  .plank > h2{font-weight:600;margin:0 0 3px;display:flex;align-items:baseline;gap:12px}
+  .plank .rn{font-family:var(--mono);font-size:12px;color:var(--brass);letter-spacing:.1em;font-weight:400}
+  .plank .pt{font-size:26px;letter-spacing:-.01em;line-height:1.1}
+  .plank .frame{font-style:italic;color:var(--inkdim);font-size:15.5px;margin:6px 0 14px;line-height:1.45}
+  .measure{border-top:1px solid var(--rule);padding:12px 0 12px}
+  .measure:first-of-type{border-top:1px solid var(--brass)}
+  .measure .m-h{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+  .measure .name{font-weight:600;font-size:16.5px;line-height:1.25}
+  .measure.core .name:before{content:"◆";color:var(--brass);margin-right:7px;font-size:12px;vertical-align:1px}
+  .measure .desc{font-size:14.5px;line-height:1.46;color:var(--ink);margin-top:5px}
+  .tags{display:inline-flex;gap:6px;flex-wrap:wrap}
+  .tag{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:3px;border:1px solid var(--rule);color:var(--inkdim);white-space:nowrap}
+  .tag.recon{color:#6f5a12;border-color:#d9c78c;background:#efe6c9}
+  .tag.floor{color:var(--dem);border-color:#bcd0e6}
+  .tag.exec{color:var(--rev);border-color:#d3c6e0}
+  .tag.long{color:var(--safety);border-color:#c9d0da}
+  .tag.core{color:var(--brass);border-color:var(--brass);font-weight:600}
+
+  .legendbar{background:var(--paper2);border:1px solid var(--rule);border-radius:5px;padding:16px 20px;margin:30px 0;font-family:var(--mono);font-size:11.5px;line-height:1.9;color:var(--inkdim)}
+  .legendbar b{color:var(--ink)}
+  .legendbar .di{color:var(--brass);font-size:12px}
+  a{color:var(--brass)}
+  @media (max-width:640px){ body{font-size:16px} h1{font-size:38px} .plank .pt{font-size:22px} .wrap{padding:40px 18px 80px} }
+  @media print{ body{background:#fff} .moves,.legendbar,.step{background:#fbf9f3} .plank{break-inside:avoid-page} h2{break-after:avoid} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">A 2029 Trifecta War Game · Unified Governing Agenda</div>
+    <h1>The Governing Agenda</h1>
+    <div class="dek">Ossoff–Moore, 2029: one program for the material and institutional repair of the country.</div>
+    <div class="intro">
+      <p>This is the merged agenda — the transformative legislative core built in the Floor Time war game, combined with the broader Ossoff–Moore program of executive action, foreign-policy reconstruction, and domain build-out. Where the two overlapped, the more progressive version was kept; where the broader program reached into ground the core never covered, it was folded in. The result is a single coherent governing project rather than two lists.</p>
+      <p>Diamonds (<span style="color:var(--brass)">◆</span>) mark the transformative core: the most-felt, most-redistributive measures, several of which exist nowhere else in the broader program. Tags mark how each measure moves.</p>
+    </div>
+  </header>
+
+  <div class="legendbar">
+    <span class="di">◆</span> <b>Transformative core</b> — preserved from the Floor Time agenda &nbsp;·&nbsp;
+    <b>RECON</b> reconciliation &nbsp; <b>FLOOR</b> regular order (needs filibuster reform) &nbsp; <b>EXEC</b> executive action &nbsp; <b>×STATES</b> constitutional amendment
+  </div>
+
+  <div class="moves">
+    <h3>How the agenda moves</h3>
+    <div class="seq">
+      <div class="step"><div class="w">Day 3</div><div class="t">Democracy carve-out</div><div class="d">Simple-majority cloture for voting-rights &amp; election law only. Unlocks the democracy plank immediately.</div></div>
+      <div class="step"><div class="w">Month 3</div><div class="t">Talking filibuster</div><div class="d">Restore the burden of the floor to the obstructing minority. Raises the cost of blocking.</div></div>
+      <div class="step"><div class="w">Month 14</div><div class="t">Full elimination</div><div class="d">After a documented pattern of obstruction, majority cloture chamber-wide — unlocking everything else.</div></div>
+    </div>
+    <p><b>Two reconciliation vehicles</b> carry the fiscal core around the filibuster from the start: an <b>emergency-relief bill (~$2.1T)</b> for housing, health, and the expanded Child Tax Credit, and a <b>structural-transformation bill (~$2.4T)</b> for climate, care, and the public option — each pairing spending with its own pay-for from the revenue plank. The <b>~$4.6T / 10-year</b> revenue package (Plank XII) funds the whole program and holds the deficit picture together.</p>
+  </div>
+
+  <!-- I -->
+  <section class="plank">
+    <h2><span class="rn">I</span><span class="pt">Democracy &amp; Anti-Corruption</span></h2>
+    <div class="frame">The administration's founding thesis: you cannot deliver for a country whose institutions are rotting, so repair the machinery of self-government first and fastest.</div>
+
+    <div class="measure core">
+      <div class="m-h"><span class="name">Freedom to Vote Act</span><span class="tags"><span class="tag floor">Floor · carve-out</span></span></div>
+      <div class="desc">Automatic and same-day registration, standardized early voting and vote-by-mail, paper-ballot backups, and Election Day access — now paired with <b>small-dollar public matching (6:1 up to $200)</b> to rebuild a small-donor base against big money.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">John Lewis Voting Rights Advancement Act</span><span class="tags"><span class="tag floor">Floor · carve-out</span></span></div>
+      <div class="desc">Restore Section 2 scope, a new preclearance regime, and a federal private right of action after the Court's retrenchment. Signed at the Edmund Pettus Bridge; upheld 5–4.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">D.C. Statehood — Washington, Douglass Commonwealth</span><span class="tags"><span class="tag floor">Floor · carve-out</span></span></div>
+      <div class="desc">End the disenfranchisement of 700,000 residents; two senators, one representative, a shrunken federal district, and repeal of the 23rd Amendment. The most permanent act on the board — and unique to this agenda.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Puerto Rico Status Act</span><span class="tags"><span class="tag floor">Floor · carve-out</span></span></div>
+      <div class="desc">A binding, federally sponsored referendum among statehood, independence, and free association — with Congress committed to honor the result. Self-determination for 3.2 million disenfranchised citizens; the democracy plank's unfinished half.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">DISCLOSE Act &amp; Campaign-Finance Transparency</span><span class="tags"><span class="tag floor">Floor · carve-out</span></span></div>
+      <div class="desc">Dark-money donor disclosure, beneficial-ownership rules for LLC political spending, and digital-ad transparency (Honest Ads).</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Government Ethics &amp; Anti-Corruption Act</span><span class="tags"><span class="tag exec">Day-1 EO</span><span class="tag floor">+ Floor</span></span></div>
+      <div class="desc">A Day-1 divestiture executive order (mandatory blind trusts, closed foreign-payment/LLC loopholes) codified into law: the congressional stock-trading ban, real-time foreign-contact disclosure, and criminal emoluments penalties. Paired with a multi-agency enforcement reorientation (DOJ, SEC, CFTC, FTC, CFPB) and DOJ investigations into documented prior-administration corruption.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Supreme Court Ethics &amp; Accountability Act</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">A binding code of conduct, recusal standards, and gift/travel disclosure for the one federal court that lacks them — the most contested of the anti-corruption cluster.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">FEC Restructuring</span><span class="tags"><span class="tag exec">Appointments</span></span></div>
+      <div class="desc">Two genuinely independent (non-party) commissioners nominated to break the historic 3–3 deadlock, enabling enforcement majorities for the first time since <cite>Citizens United</cite>.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Citizens United Constitutional Amendment</span><span class="tags"><span class="tag long">×STATES · long-term</span></span></div>
+      <div class="desc">An explicitly decade-long campaign, run out of an Office of Democracy Renewal, to overturn <cite>Citizens United</cite> by amendment — securing state ratifications, including first Republican-controlled chambers.</div>
+    </div>
+  </section>
+
+  <!-- II -->
+  <section class="plank">
+    <h2><span class="rn">II</span><span class="pt">Care, Health &amp; Family</span></h2>
+    <div class="frame">The most-felt half of the program — the line items in a household budget the government can actually move, and the coverage no market will provide.</div>
+
+    <div class="measure core">
+      <div class="m-h"><span class="name">Universal Pre-K &amp; Child Care</span><span class="tags"><span class="tag recon">Recon · Package B</span></span></div>
+      <div class="desc">Cap child-care costs at 7% of income, universal voluntary pre-K for every 3- and 4-year-old, supply-side grants, and worker-wage parity. <b>Absent from the broader program — restored here as a pillar.</b></div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Permanent Expanded Child Tax Credit</span><span class="tags"><span class="tag recon">Recon · Package A / relief</span></span></div>
+      <div class="desc">$3,600/$3,000 per child, fully refundable, paid monthly — the 2021 credit that halved child poverty, made permanent. <b>Also absent from the broader program; the single fastest-felt benefit in the agenda.</b></div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Paid Family &amp; Medical Leave</span><span class="tags"><span class="tag recon">Recon</span></span></div>
+      <div class="desc">Twelve weeks of paid family and medical leave as national social insurance (the FAMILY Act model) — ending America's status as the only rich country without it. Fully fiscal and reconciliation-eligible.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Social Security Expansion Act</span><span class="tags"><span class="tag floor">Floor · §310(g)-barred</span></span></div>
+      <div class="desc">An across-the-board benefit increase, an accurate elderly cost-of-living index, and the payroll cap lifted above $250K. The Budget Act explicitly bars Social Security from reconciliation — a second Byrd-style wall, so it needs full reform.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Public Option &amp; Medicare at 55</span><span class="tags"><span class="tag recon">Recon · structural</span></span></div>
+      <div class="desc">A public plan on every exchange at Medicare-plus rates and Medicare eligibility lowered to 55 — more transformative than a benefits expansion alone, and the spine this plank is built around.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Medicare Benefit Expansion</span><span class="tags"><span class="tag recon">Recon</span></span></div>
+      <div class="desc">Add dental, vision, and hearing; a long-term-care framework; and enforced mental-health parity, layered onto the public option and lowered eligibility age.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Medicaid Expansion Completion &amp; Drug Pricing</span><span class="tags"><span class="tag recon">Recon</span></span></div>
+      <div class="desc">100% federal match to finish expansion in holdout states (9 of 12 expand), expanded Medicare drug-price negotiation, and the $35 insulin / out-of-pocket caps extended to all payers.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Public-Health Rebuild</span><span class="tags"><span class="tag recon">Recon</span></span></div>
+      <div class="desc">NIH and CDC funding restored and expanded after prior cuts; community health centers grown from 32M to 36M patients served.</div>
+    </div>
+  </section>
+
+  <!-- III -->
+  <section class="plank">
+    <h2><span class="rn">III</span><span class="pt">Work, Wages &amp; Worker Power</span></h2>
+    <div class="frame">Rebalance bargaining power toward the two-thirds of Americans who work for wages — through law, through the floor, and through the agencies.</div>
+
+    <div class="measure">
+      <div class="m-h"><span class="name">PRO Act + Sectoral Bargaining</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">The full PRO Act — ABC test, card-check recognition, striker protections, override of right-to-work — <b>combined with sectoral bargaining frameworks</b> (restaurant, home care, gig) and portable benefits, the more transformative structural reform the broader program contributed.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Living Wage &amp; Small-Business Transition Act</span><span class="tags"><span class="tag floor">Floor · Byrd-barred</span><span class="tag recon">Credit: Recon</span></span></div>
+      <div class="desc">$17, then permanently indexed to two-thirds of the national median — with a longer phase-in for small employers, a regional circuit-breaker that slows (never lowers) the climb in low-wage rural counties, a refundable Small-Business Wage Transition Credit, and a recession off-ramp. The wage mandate needs full reform; the small-business credit can ride reconciliation. <b>Absent from the broader program; a rising tide designed to lift every boat.</b></div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">NLRB &amp; OSHA Executive Action</span><span class="tags"><span class="tag exec">Exec</span></span></div>
+      <div class="desc">Restore captive-audience and joint-employer precedents, 21-day election timelines, an OSHA emergency heat-exposure standard, and a wage-theft enforcement surge ($2.3B+ recovered). Union density modeled rising from 10.1% to 15.8%.</div>
+    </div>
+  </section>
+
+  <!-- IV -->
+  <section class="plank">
+    <h2><span class="rn">IV</span><span class="pt">Housing &amp; Cities</span></h2>
+    <div class="frame">Attack the shortage from every side at once — emergency relief now, structural supply for the decade, and public capital where markets won't build.</div>
+
+    <div class="measure">
+      <div class="m-h"><span class="name">Emergency Housing Response</span><span class="tags"><span class="tag recon">Recon · relief</span></span></div>
+      <div class="desc">An emergency housing declaration and $85B in rental and construction assistance in the first reconciliation bill.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Housing Abundance &amp; Supply Act</span><span class="tags"><span class="tag floor">Floor</span><span class="tag recon">Recon core</span></span></div>
+      <div class="desc">LIHTC expansion and a new middle-income credit, a Neighborhood Homes rehab credit, HUD funding conditioned on local upzoning, and a social-housing pilot. Builds directly on the ROAD to Housing Act (enacted July 2026 without a presidential signature) — supplying the capital and HUD capacity that deregulatory law lacked, so reforms already on the books finally get executed.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Construction &amp; Public Housing Investment</span><span class="tags"><span class="tag recon">Recon · structural</span></span></div>
+      <div class="desc">A $250B mandatory revolving construction-loan fund, the Public Housing Capital Fund raised $3.5B→$9.2B against an $80B repair backlog, 400,000 new Section 8 vouchers, and 450,000 construction apprentices.</div>
+    </div>
+  </section>
+
+  <!-- V -->
+  <section class="plank">
+    <h2><span class="rn">V</span><span class="pt">Climate, Energy &amp; Decarbonization</span></h2>
+    <div class="frame">The one plank where the engineering and the politics finally point the same way: a target, the wires to hit it, and a price whose revenue comes back as a check.</div>
+
+    <div class="measure core">
+      <div class="m-h"><span class="name">Clean Energy Standard &amp; Carbon Dividend Act</span><span class="tags"><span class="tag floor">Floor</span><span class="tag recon">Fee &amp; dividend: Recon</span></span></div>
+      <div class="desc">An 80%-clean-electricity standard by 2035 (100% by 2040), <b>plus an economy-wide carbon fee returned to households as a quarterly Clean Energy Dividend</b> — the price-and-rebate mechanism the broader program lacked, and the move that buys the climate policy its own durable constituency.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Transmission &amp; Permitting Overhaul</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">Federal transmission-permitting authority, FERC interconnection-queue reform with binding timelines, NEPA reform cutting transmission permitting from ~9 years to ~4, and direct-build authority on federal lands — the steel in the ground the standard depends on.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Clean-Energy Finance &amp; Justice</span><span class="tags"><span class="tag recon">Recon</span><span class="tag exec">Exec</span></span></div>
+      <div class="desc">A reactivated DOE Loan Programs Office ($400B), $900B in clean-energy tax credits with domestic-content phase-ins, and an expanded EPA environmental-justice office with Superfund reprioritization.</div>
+    </div>
+  </section>
+
+  <!-- VI -->
+  <section class="plank">
+    <h2><span class="rn">VI</span><span class="pt">Competition, Consumers &amp; Technology</span></h2>
+    <div class="frame">A more competitive, less extractive economy — and rules for the technologies reshaping it faster than law can follow.</div>
+
+    <div class="measure">
+      <div class="m-h"><span class="name">Antitrust Enforcement &amp; Competition Act</span><span class="tags"><span class="tag floor">Floor</span><span class="tag recon">Enforcement: Recon</span></span></div>
+      <div class="desc">Merger-standard overhaul, killer-acquisition and platform self-preferencing rules, a near-total non-compete ban, and DOJ/FTC enforcement capacity — with real cross-ideological reach.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Junk Fees &amp; Consumer Protection Act</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">All-in upfront pricing, bans on surprise overdraft/late/convenience fees, click-to-cancel — felt at the moment of purchase. <b>Absent from the broader program; restored here.</b></div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">AI &amp; Platform Governance</span><span class="tags"><span class="tag exec">Exec · OSTP</span></span></div>
+      <div class="desc">A National AI Safety Framework (explainability, bias auditing, human oversight for government use and procurement), FTC antitrust against platform monopolies, and FCC rules on deepfakes and algorithmic curation.</div>
+    </div>
+  </section>
+
+  <!-- VII -->
+  <section class="plank">
+    <h2><span class="rn">VII</span><span class="pt">Immigration &amp; Belonging</span></h2>
+    <div class="frame">Move millions of long-settled people out of legal limbo, and rebuild the agencies that lost the capacity to process them humanely.</div>
+
+    <div class="measure core">
+      <div class="m-h"><span class="name">Comprehensive Immigration Reform</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">An earned pathway to citizenship for Dreamers, TPS holders, farmworkers, and residents with 10+ years and clean records; cleared green-card backlogs; expanded agricultural and care-worker visas.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">DHS Restructuring</span><span class="tags"><span class="tag exec">Exec</span><span class="tag floor">+ Floor</span></span></div>
+      <div class="desc">Separate customs enforcement (retained) from interior immigration enforcement, replacing the latter with a <b>Humanitarian Processing Service</b>; rebuild USCIS capacity (12,000 hires) and set a 180-day asylum-processing timeline.</div>
+    </div>
+  </section>
+
+  <!-- VII-b -->
+  <section class="plank">
+    <h2><span class="rn">VII·b</span><span class="pt">Rights &amp; Equality</span></h2>
+    <div class="frame">The rights pillar the agenda was missing: bodily autonomy and equal citizenship, codified in statute rather than left to the courts.</div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Reproductive Freedom Act</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">Codify Roe's protections nationally (WHPA), protect contraception and IVF, and shield interstate travel and providers — the post-<cite>Dobbs</cite> restoration, facing certain litigation but backed by the commerce power.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Equality Act</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">Sexual orientation and gender identity written into federal civil-rights law — employment, housing, credit, public accommodations — codifying and extending <cite>Bostock</cite>.</div>
+    </div>
+  </section>
+
+  <!-- VIII -->
+  <section class="plank">
+    <h2><span class="rn">VIII</span><span class="pt">Justice &amp; Public Safety</span></h2>
+    <div class="frame">The most evidence-backed measures available — and the recognition that economic security is itself a form of safety.</div>
+
+    <div class="measure core">
+      <div class="m-h"><span class="name">Universal Background Checks</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">Background checks on all sales and transfers, closing the private-sale and Charleston loopholes. <b>Absent from the broader program; the deepest safety story otherwise runs through the childcare slot, the covered illness, and the livable wage.</b></div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Justice &amp; Public Safety Reform Act</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">Federal cannabis legalization with expungement, sentencing reform (retroactive crack parity, mandatory-minimum relief), and national policing standards (qualified-immunity reform, a decertification registry). The mass-incarceration pillar the agenda was missing — with real libertarian-right crossover on cannabis.</div>
+    </div>
+  </section>
+
+  <!-- IX -->
+  <section class="plank">
+    <h2><span class="rn">IX</span><span class="pt">Education &amp; Opportunity</span></h2>
+    <div class="frame">Fund the obligations already on the books, and lower the cost of the credential the economy now demands.</div>
+
+    <div class="measure">
+      <div class="m-h"><span class="name">K-12 Investment</span><span class="tags"><span class="tag recon">Recon</span></span></div>
+      <div class="desc">Title I restored and expanded ($11.2B→$26B) and a funding pathway toward the full statutory 40% IDEA obligation.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Higher-Education Affordability</span><span class="tags"><span class="tag recon">Recon</span><span class="tag exec">Exec</span></span></div>
+      <div class="desc">Pell Grant maximum raised ($7,395→$9,500), SAVE-plan restoration, and PSLF timeline improvements.</div>
+    </div>
+  </section>
+
+  <!-- X -->
+  <section class="plank">
+    <h2><span class="rn">X</span><span class="pt">Veterans</span></h2>
+    <div class="frame">Deliver the care already promised, faster and closer to where veterans live.</div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Veterans Health &amp; Capacity Act</span><span class="tags"><span class="tag recon">Recon</span><span class="tag exec">+ Exec</span></span></div>
+      <div class="desc">12,000 new mental-health clinicians, a claims-processing overhaul toward a 125-day target, and expanded rural community care — with veteran suicide down 12% from peak by Year 3.</div>
+    </div>
+  </section>
+
+  <!-- XI -->
+  <section class="plank">
+    <h2><span class="rn">XI</span><span class="pt">Foreign Policy &amp; National Security</span></h2>
+    <div class="frame">Democracy as foreign policy: end the inherited war, rebuild the tools of civilian power, and compete with clear eyes.</div>
+
+    <div class="measure">
+      <div class="m-h"><span class="name">War Powers &amp; the Iran Transition</span><span class="tags"><span class="tag floor">Floor</span></span></div>
+      <div class="desc">The War Powers and Iran Accountability Act — a first-ever congressional-notification framework before any strike — plus a VP-chaired Iran Transition Task Force, a Gulf-monitored ceasefire (~Month 8), and a new nuclear-oversight regime replacing the collapsed JCPOA (~Month 10).</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Civilian-Power Reconstruction</span><span class="tags"><span class="tag recon">Recon</span><span class="tag exec">Exec</span></span></div>
+      <div class="desc">USAID rebuilt from the studs ($12B emergency funding; staffing 800→8,000), a "democracy as foreign policy" framework, NATO Article 5 recommitment, and career diplomats over donor appointees.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Managed Competition with China</span><span class="tags"><span class="tag exec">Exec</span></span></div>
+      <div class="desc">Cooperation on climate, pandemics, and nuclear stability; firm pushback on Taiwan, Xinjiang, and trade.</div>
+    </div>
+  </section>
+
+  <!-- XII -->
+  <section class="plank">
+    <h2><span class="rn">XII</span><span class="pt">Fiscal Architecture</span></h2>
+    <div class="frame">The revenue that pays for all of it, raised almost entirely at the top — the pay-for is the point, not an afterthought.</div>
+
+    <div class="measure core">
+      <div class="m-h"><span class="name">Billionaire Minimum Income Tax</span><span class="tags"><span class="tag recon">Recon · Package A</span></span></div>
+      <div class="desc">A 25% minimum on income including unrealized gains for households worth more than $100M. The most legally exposed provision (<cite>Moore</cite>/realization) — which is why the broader corporate/income base sits beneath it.</div>
+    </div>
+    <div class="measure core">
+      <div class="m-h"><span class="name">Corporate &amp; High-Income Tax Fairness</span><span class="tags"><span class="tag recon">Recon · Package B</span></span></div>
+      <div class="desc">Corporate rate 21%→28% with a 15% book minimum, top marginal rate to 39.6%, carried interest closed, capital gains reform, GILTI and buyback-excise increases. The durable, court-safe revenue floor.</div>
+    </div>
+    <div class="measure">
+      <div class="m-h"><span class="name">Enforcement &amp; the Envelope</span><span class="tags"><span class="tag recon">Recon</span></span></div>
+      <div class="desc">IRS enforcement restored ($8B/year, ~6:1 return) as part of a ~$4.6T / 10-year revenue package; domestic discretionary +28% real, defense +3.2% real with procurement savings redirected to readiness.</div>
+    </div>
+  </section>
+
+  <hr class="rule">
+  <p style="font-family:var(--mono);font-size:11.5px;line-height:1.7;color:var(--inkdim)">
+    The transformative core (◆) — universal child care, the permanent Child Tax Credit, paid family leave, the Social Security expansion, the public option and Medicare-at-55, the carbon dividend, D.C. and Puerto Rico self-determination, the living wage, reproductive freedom and the Equality Act, justice reform, universal background checks, Supreme Court ethics, and the junk-fee ban — carries the redistributive and most-felt weight of the program, and several of these appear nowhere else in the broader Ossoff–Moore list. The surrounding planks supply the reach: foreign-policy reconstruction, the anti-corruption enforcement machinery, education, veterans, and technology governance. Together they are one agenda, sequenced around a single filibuster-reform pathway and funded by a single revenue base.
+  </p>
+
+</div>
+</body>
+</html>
