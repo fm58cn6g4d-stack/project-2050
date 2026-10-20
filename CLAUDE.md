@@ -47,7 +47,7 @@ Reciprocity (only rules we'd accept in the minority). Durable instruments: manda
 `index/tools/readme.md` explains each script. Quick version:
 - `bash index/tools/run-all.sh` — rebuild everything in `build/` and diff against `index/`; `--write` to update; `--fetch` to re-download CBO's data (github.com/US-CBO/cbo-data).
 - Ledger tables (bills, revenue, options, conflicts, dynamic sensitivity) live in `ledger-build.py`; incidence rows in `incidence-model.py` (hand-keyed — check against `build/ledger.json`); long-term year profiles in `fiscal-profiles.py`; fiscal scenarios in `fiscal-model.py`.
-- Transportation model: `index/tools/transportation/` (run `final_v3.py`; see its readme). Not part of run-all.sh; MOV- and MR rows in ledger-build.py are keyed by hand from Draft 2.
+- Transportation model: `index/tools/transportation/moving_america.py` (print with `report.py`, check with `test_moving_america.py`; see its readme). run-all.sh runs it first, and the MOV-29/30/31 and MR1-MR6 rows in ledger-build.py come from it. A moved figure is a proposal for Espen.
 - Sprint revenue rows use the prefix TS (TS1-TS12, TSX) so the old tariff row T1 keeps its ID; high-pay options are HP1-HP3.
 
 ## Git

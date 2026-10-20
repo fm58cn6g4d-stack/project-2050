@@ -2,7 +2,7 @@
 
 **In the repo (since Oct 20): run `bash index/tools/run-all.sh` from the repo root.** It does every step below in `build/`, handles the renames, and shows a diff; add `--write` to copy the outputs into `index/`. The manual steps below are kept for reference.
 
-The transportation model behind Moving America (MOV-) is in `transportation/`, with its own readme; it is not run by run-all.sh.
+The transportation model behind Moving America (MOV-) is in `transportation/`, with its own readme. run-all.sh runs its test first (stopping if a Draft 2 figure moved) and writes `build/moving-america.json`, from which `ledger-build.py` takes the MOV-29/30/31 and MR1-MR6 rows.
 
 These scripts regenerate the index/ files. Copy them into one working folder and run them in order:
 

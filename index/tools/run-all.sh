@@ -19,6 +19,8 @@ cp "$TOOLS"/incidence-years.py "$BUILD"/years.py
 cp "$ROOT"/index/2029-trifecta-master-ledger.md "$BUILD"/
 
 cd "$BUILD"
+echo "== 0. transportation";    python3 "$TOOLS"/transportation/test_moving_america.py --quiet
+                                python3 "$TOOLS"/transportation/report.py --json "$BUILD"/moving-america.json >/dev/null
 echo "== 1. ledger";            python3 ledger-build.py >/dev/null
 echo "== 2. floor paths";       python3 ledger-paths.py >/dev/null
 echo "== 3. ledger markdown";   python3 ledger-make-md.py >/dev/null

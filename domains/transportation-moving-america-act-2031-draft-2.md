@@ -31,7 +31,7 @@ The bill is the last of four laws. Each carries only what it can legally carry.
 
 **Calendar.** BUILD America 250-Plus (H.R. 8870, forecast as enacted) authorizes FY2027-31. This bill authorizes FY2032-36, and the next one FY2037-41. Amounts are nominal and were not re-indexed when the calendar moved a year **\[A-5\]**.
 
-**How to read it.** A bold tag such as **\[A-12\]** marks a call listed under "Decisions and assumptions". Every figure comes from `index/tools/transportation/final_bill.py`, which runs `revenue_plan.py`, `final_architecture.py` and `merge_decisions.py` over `transit_fiscal_model.py`. Governing figures now come from index/tools/transportation/final\_v3.py, which adds the fossil premium and the 40-mpg clean-car peg to that stack. The model counts budget authority by fiscal year, not outlays.
+**How to read it.** A bold tag such as **\[A-12\]** marks a call listed under "Decisions and assumptions". Every figure comes from `index/tools/transportation/moving_america.py` (printed by `report.py`). Since Oct 20, 2026 it folds in the old overlay stack (`transit_fiscal_model.py` through `final_v3.py`, kept in `legacy/`) and reproduces its output line for line. The model counts budget authority by fiscal year, not outlays.
 
 ## Decisions and assumptions
 
@@ -1933,7 +1933,7 @@ Four things stand between this draft and a bill that can be scored: the 2028 ext
 - [ ] **Size the 2028 extension's transfer** so both accounts are solvent through FY2031, and model the case where the extension slips or runs longer than a year **\[A-9\]**. It is the largest unmodelled risk.
 - [ ] **Build the trust-fund cash-flow model:** three accounts, outlay timing, the sec. 110(a) cap, the top-ups and the sec. 108(c) backstop. It decides whether the FY2028 floors are real money on Oct 1, 2031.
 - [ ] **Score both reconciliation acts and division A** on CBO and JCT conventions, including fuel demand response to the steps (probably 2-3% of fuel receipts) and to the fossil premium, whose FY2042-46 receipts ($124.8B) are an upper bound. The estimates here are budget authority from this project's model.
-- [ ] **Fold the overlays into the model.** `transit_fiscal_model.py` still carries the superseded sec. 606, revenue and share settings; `merge_decisions.py`, `final_architecture.py` and `final_bill.py` apply this doc's decisions on top.
+- [x] **Fold the overlays into the model.** Done Oct 20, 2026: `moving_america.py` is one model with no patching, checked line for line against the old `final_v3.py` output. One open point: the A-7 equal-coverage solve (50.5/37.6/12.0) came from the old script's 25-mpg / PHEV-50% sensitivity path; on the governing design it is 50.0/38.2/11.8.
 
 ### Revenue and Code
 
@@ -1978,7 +1978,7 @@ Four things stand between this draft and a bill that can be scored: the 2028 ext
 - [American Transit Renewal Act of 2031 — Full Bill Architecture](https://claude.ai/code/artifact/6eded0d5-40fc-433a-b940-8d8ca015f581) (rev 161; repo copy `sources/transportation-atra-2031-bill-architecture.md`)
 - [Surface Transportation Package — Section-by-Section](https://claude.ai/code/artifact/fb14029c-152b-4727-9ae3-b2f055c8b6f7) (rev 119; repo copy `sources/transportation-package-section-by-section.md`)
 
-**Project files:** `index/tools/transportation/transit_fiscal_model.py`, `index/tools/transportation/merge_decisions.py`, `index/tools/transportation/revenue_plan.py`, `index/tools/transportation/funding_stack.py`, `index/tools/transportation/final_architecture.py` and `index/tools/transportation/final_bill.py`, index/tools/transportation/fossil\_final.py and index/tools/transportation/final\_v3.py (every figure here), plus `sources/transportation-calendar-fy2032-36.md`.
+**Project files:** `index/tools/transportation/moving_america.py` and `report.py` (every figure here), with the old overlay stack in `index/tools/transportation/legacy/`, plus `sources/transportation-calendar-fy2032-36.md`.
 
 **Statute:**
 

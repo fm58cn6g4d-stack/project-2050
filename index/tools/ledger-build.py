@@ -36,6 +36,30 @@ RAILS = {
     "T2": "Second trifecta (2033-36)",
 }
 
+def _moving_america():
+    """Draft 2's figures from the transportation model (index/tools/transportation/), at the precision Draft 2 prints:
+    package and top-up amounts to $0.01B, reconciliation scores to $0.1B. run-all.sh writes moving-america.json first."""
+    try:
+        f = json.load(open("moving-america.json"))["ledger"]
+    except FileNotFoundError:
+        import os, sys
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "transportation"))
+        import report
+        f = report.figures()["ledger"]
+    r2 = {k: round(f[k], 2) for k in ("act29_package", "act29_topups", "act30_package", "act30_topups", "expansion_authority")}
+    r1 = {k: round(f[k], 1) for k in ("act29_gross", "act29_net", "act30_gross", "act30_net", "score_fuel_steps",
+                                      "score_truck_excise_ev_fee", "score_weight_distance", "score_rail_aviation")}
+    r1["score_clean_vehicle"] = round(f["score_clean_vehicle"] - 12.9, 1) + 12.9   # clean-car line printed to $0.1B
+    r1["score_offset"] = (r1["act29_net"] + r1["act30_net"]) - (r1["act29_gross"] + r1["act30_gross"])
+    return {**r2, **r1}
+MA = _moving_america()
+MOV29 = round((MA["act29_package"] + MA["act29_topups"]) / 1000, 5)
+MOV30 = round((MA["act30_package"] + MA["act30_topups"]) / 1000, 5)
+DIV_E = 1.0   # $B, division E's general-fund items, FY2032-36 (Draft 2; estimate)
+MOV31 = round((MA["expansion_authority"] + DIV_E) / 1000, 5)
+MR = {k: round(MA[k] / 1000, 4) for k in ("score_fuel_steps", "score_clean_vehicle", "score_truck_excise_ev_fee",
+                                          "score_weight_distance", "score_rail_aviation", "score_offset")}
+
 # id, legacy ledger id, bill, domain, source file, rail, channel, lo, mid, hi, own_rev_mid, basis, note,
 # floor days, months to felt impact (after enactment), durability 0-100, target enactment (YYYY-MM)
 B = [
@@ -113,9 +137,9 @@ B = [
  ("SAF-1","S3","Safe Everywhere Act (rules): clearance, standards and liability, background checks, pretrial, public-servant protection, fraud duties, sentencing and cannabis (SAF-1, 2, 5, 7-9 rules, SAF-11; S4 merged, C25)","Public safety","domain-public-safety.md","FLOOR","None",0,0,0.01,0,"estimate","Bill Books 16 and 24 folded in","6",8,70,"2029-11"),
  ("SAF-10","S5","Safety Compacts and the Safe Everywhere funding titles, as mandatory spending (SAF-10A)","Public safety","domain-public-safety.md; sources/public-safety-safe-everywhere-bill-summary.md","R3","Public safety",0.11,0.122,0.14,0.09,"proposal","$12.1B a year by title plus $0.8B one-time; moved from APPROPS to R3 (Byrd unchecked). Own revenue is durable sources only (~$9.2B a year)","0",12,65,"2030-07"),
  # ---- Transportation (transportation-moving-america-act-2031-draft-2.md, canonical until converted) ----
- ("MOV-29","M1","Moving America: 2029 reconciliation act (fuel-tax steps, clean-vehicle charge, rail and transit package one, FY2032-35 renewal top-ups)","Transportation","transportation-moving-america-act-2031-draft-2.md","R1","General fund top-ups; trust-fund revenue",0.25674,0.25674,0.25674,0.290,"sourced","$47.0B package + $209.74B top-ups; revenue $290.0B net (FY2029-38); project estimates","0",6,75,"2029-05"),
- ("MOV-30","M2","Moving America: 2030 reconciliation act (weight-distance charge, rail diesel, aviation surcharge, package two, FY2035-36 top-ups)","Transportation","transportation-moving-america-act-2031-draft-2.md","R3","General fund top-ups; trust-fund revenue",0.09083,0.09083,0.09083,0.095,"sourced","$33.5B package + $57.33B top-ups; revenue $95.0B net (FY2030-39); rescore on FY2031-40","0",6,70,"2030-07"),
- ("MOV-31","L1","Moving America Act of 2031 (authorization)","Transportation","transportation-moving-america-act-2031-draft-2.md","LATER","General fund",0.1247,0.1247,0.1747,0,"sourced","$123.70B expansion and ~$1B div. E from the general fund, FY2032-36","0",30,70,"2031-09"),
+ ("MOV-29","M1","Moving America: 2029 reconciliation act (fuel-tax steps, clean-vehicle charge, rail and transit package one, FY2032-35 renewal top-ups)","Transportation","transportation-moving-america-act-2031-draft-2.md","R1","General fund top-ups; trust-fund revenue",MOV29,MOV29,MOV29,round(MA["act29_net"] / 1000, 3),"sourced",f"${MA['act29_package']:.1f}B package + ${MA['act29_topups']:.2f}B top-ups; revenue ${MA['act29_net']:.1f}B net (FY2029-38); project estimates","0",6,75,"2029-05"),
+ ("MOV-30","M2","Moving America: 2030 reconciliation act (weight-distance charge, rail diesel, aviation surcharge, package two, FY2035-36 top-ups)","Transportation","transportation-moving-america-act-2031-draft-2.md","R3","General fund top-ups; trust-fund revenue",MOV30,MOV30,MOV30,round(MA["act30_net"] / 1000, 3),"sourced",f"${MA['act30_package']:.1f}B package + ${MA['act30_topups']:.2f}B top-ups; revenue ${MA['act30_net']:.1f}B net (FY2030-39); rescore on FY2031-40","0",6,70,"2030-07"),
+ ("MOV-31","L1","Moving America Act of 2031 (authorization)","Transportation","transportation-moving-america-act-2031-draft-2.md","LATER","General fund",MOV31,MOV31,round(MOV31 + 0.05, 5),0,"sourced",f"${MA['expansion_authority']:.2f}B expansion and ~${DIV_E:.0f}B div. E from the general fund, FY2032-36","0",30,70,"2031-09"),
 ]
 
 REV = [
@@ -170,12 +194,12 @@ REV = [
  ("O2","12.4% Social Security tax on investment income above $400K (SS-2)","Social Security trust fund",0.9,1.1,1.4,False,"Low","Stacks with H1b (audit finding 4)","Estimate; SSA scored the $200K/$250K version at +1.93% of payroll (2023)",False),
  ("OX","Avoidance haircut on SS-2 (15%), matching GX on the same base","Social Security trust fund",-0.21,-0.165,-0.135,False,"","Audit finding 4","Estimate",False),
  ("P1","Paid-leave contribution, 0.6% split employer/employee, stepping toward 0.85% (FAM-3)","Paid-leave fund",0.85,0.9,1.28,False,"Low","High end is the 0.85% cap; above it a repayable Treasury loan bridges","Estimate: 0.6% of ~$15T a year of covered wages",True),
- ("MR1","Fuel taxes permanent and indexed, ten 3-cent Fix-It-First steps with a price pause (2029 act)","Surface transportation trust fund",0.3804,0.3804,0.3804,False,"Low","Upper bound: no demand response","Moving America Draft 2 (FY2029-38)",True),
- ("MR2","Clean-vehicle per-mile charge, cars and trucks (2029 act)","Surface transportation trust fund",0.0294,0.0294,0.0294,False,"Low","Odometer only","Moving America Draft 2",True),
- ("MR3","Zero-emission truck excise at 4%; EV fee ended after FY2030 (2029 act)","Surface transportation trust fund",-0.0231,-0.0231,-0.0231,False,"Low","Revenue losses","Moving America Draft 2",False),
- ("MR4","Weight-distance charge replacing the heavy-vehicle use tax (2030 act)","Surface transportation trust fund",0.0534,0.0534,0.0534,False,"Low","Net of use-tax repeal","Moving America Draft 2 (FY2030-39)",False),
- ("MR5","Rail diesel tax and aviation segment surcharge (2030 act)","Surface transportation trust fund",0.0733,0.0733,0.0733,False,"Low","Rail account only","Moving America Draft 2 (FY2030-39)",True),
- ("MR6","Income and payroll tax offset on new excises (25%)","Surface transportation trust fund",-0.1284,-0.1284,-0.1284,False,"","Scoring convention","Moving America Draft 2",False),
+ ("MR1","Fuel taxes permanent and indexed, ten 3-cent Fix-It-First steps with a price pause (2029 act)","Surface transportation trust fund",MR["score_fuel_steps"],MR["score_fuel_steps"],MR["score_fuel_steps"],False,"Low","Upper bound: no demand response","Moving America Draft 2 (FY2029-38)",True),
+ ("MR2","Clean-vehicle per-mile charge, cars and trucks (2029 act)","Surface transportation trust fund",MR["score_clean_vehicle"],MR["score_clean_vehicle"],MR["score_clean_vehicle"],False,"Low","Odometer only","Moving America Draft 2",True),
+ ("MR3","Zero-emission truck excise at 4%; EV fee ended after FY2030 (2029 act)","Surface transportation trust fund",MR["score_truck_excise_ev_fee"],MR["score_truck_excise_ev_fee"],MR["score_truck_excise_ev_fee"],False,"Low","Revenue losses","Moving America Draft 2",False),
+ ("MR4","Weight-distance charge replacing the heavy-vehicle use tax (2030 act)","Surface transportation trust fund",MR["score_weight_distance"],MR["score_weight_distance"],MR["score_weight_distance"],False,"Low","Net of use-tax repeal","Moving America Draft 2 (FY2030-39)",False),
+ ("MR5","Rail diesel tax and aviation segment surcharge (2030 act)","Surface transportation trust fund",MR["score_rail_aviation"],MR["score_rail_aviation"],MR["score_rail_aviation"],False,"Low","Rail account only","Moving America Draft 2 (FY2030-39)",True),
+ ("MR6","Income and payroll tax offset on new excises (25%)","Surface transportation trust fund",MR["score_offset"],MR["score_offset"],MR["score_offset"],False,"","Scoring convention","Moving America Draft 2",False),
 ]
 
 CONFLICTS = [
@@ -282,7 +306,7 @@ DYNAMIC = [
 GF_RULE = {"FAM-3":"none","CLI-5":"residual","SAF-10":"residual","DEM-1":"all","COM-1":"residual",
            "MOV-29":"all","MOV-30":"all","SS-1":"none","CLI-2":"none"}
 OWN_RANGE = {"FAM-3":(0.85,0.9,1.28),"CLI-5":(0.39,0.47,0.55),"SAF-10":(0.08,0.09,0.10),"SS-1":(2.8,3.0,3.3),
-             "CLI-2":(1.20,1.35,1.50),"MOV-29":(0.290,0.290,0.290),"MOV-30":(0.095,0.095,0.095),"COM-1":(0.004,0.004,0.004)}
+             "CLI-2":(1.20,1.35,1.50),"MOV-29":(round(MA["act29_net"] / 1000, 3),) * 3,"MOV-30":(round(MA["act30_net"] / 1000, 3),) * 3,"COM-1":(0.004,0.004,0.004)}
 ALT_CUTS = {"C29","C19"}  # alternatives to an accepted cut (C29 vs C37, C19 vs C19b); listed, never summed
 DECLINED = {"C5","C17","C33","C34","C36"}  # declined in Decision Brief 2 (Oct 20); kept as the record, never summed
 OWN_CHANNEL = {"MOV-29":"Surface transportation trust fund","MOV-30":"Surface transportation trust fund"}
