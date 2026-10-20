@@ -5,7 +5,7 @@ hi_payroll_ratio,1.25,"estimate: HI's taxable payroll is uncapped, about a quart
 hi_hlt6_share_tn,0.7,"estimate: HLT-6's Part A share of the Medicare Advantage savings, 2030-39 (domain-health.md, range 0.5-0.9)"
 hi_ramp,0.4/0.7/0.9/1/1/1/1/1/1/1,"estimate: HI's program sources ramp in over 2030-33 (weights by year 2030-39, times HI payroll)"
 leave_rate,0.6,"proposal: FAM-3A starting contribution, % of covered wages"
-leave_cap,0.85,"proposal: FAM-3A cap (JCT break-even at FMLA take-up)"
+leave_cap,0.85,proposal: FAM-3A cap (JCT break-even at FMLA take-up)
 leave_step,0.05,proposal: FAM-3A step
 leave_low_years,1,proposal: step up when the reserve is below this many years of next year's benefits
 leave_high_years,1.5,proposal: step down when the reserve is above this many years
@@ -15,6 +15,11 @@ pop_growth,0.004,estimate: population growth a year in the 2030s
 carbon_dividend_share,0.8,proposal: D7 (about 80% rebated)
 edu_point_2030_bn,135,"estimate: the education session's base, about $135B a point of uncapped payroll in 2030"
 edu_base_growth,0.04,estimate: the session's growth of the uncapped payroll base
-edu_estate_growth,0.05,"estimate: estate receipts with a frozen exemption grow about 5% a year (domain-education.md)"
+edu_estate_growth,0.05,estimate: estate receipts with a frozen exemption grow about 5% a year (domain-education.md)
 edu_estate_e1_tn,0.35,"estimate: REV-E1 in 2030-39, gross"
-edu_estate_new_tn,0.15,"estimate: REV-E1's new money after REV-G9"
+edu_estate_new_tn,0.15,estimate: REV-E1's new money after REV-G9
+ss_cap_2026,184500,"sourced: SSA, 2026 contribution and benefit base"
+ss_worker_growth,0.005,"estimate: covered-worker growth a year; the cap grows with taxable payroll per worker (puts the cap above $250,000 in about 2034, as SSA's E2.5 implies)"
+ss_aca_threshold_eff,225000,"estimate: one threshold standing in for the ACA's $200,000 single / $250,000 joint, to fit the investment-income tail between SSA's F9 and F11"
+ss_cpie_ssa_bump,0.15,sourced: SSA's A6 puts CPI-E about 0.15 points a year above CPI-W
+ss_minben_run,run196,sourced: SSA's B5.2 (minimum benefit at 125% of poverty for 30 years of coverage)

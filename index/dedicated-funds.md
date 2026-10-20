@@ -8,23 +8,37 @@ The general-fund ledger counts only general-fund money. This file follows the fu
 
 **Check against the Trustees.** Run on the 2026 Trustees' intermediate rates, the model puts combined-fund depletion in **2034** with **83%** of benefits payable, and the 75-year actuarial balance at **-4.45%** of taxable payroll. The Trustees report 2034, 83% and −4.42% (sourced). The model's balance is the Trustees' summarized-rate formula on their annual rates, so a small difference is rounding in the published rates and the interest path.
 
-**Provisions.** Each is entered as a change in the income or cost rate from its start year, scaled so its 75-year value matches its score; where the ledger carries a ten-year dollar figure (SS-1's O1, SS-2's O2 less the OX haircut), the starting level is set from that figure and the rise from the score, so the two agree. Interactions between provisions are ignored, as in the domain file.
+**How the provisions are evaluated.** Each D8 provision is applied on its face (its rate, threshold, start year and benefit credit) to a tax base taken from SSA's single-year scores of the same kind of provision on the 2026 Trustees' assumptions (`funds-ss-ssa-runs.csv`, sourced). Earnings above the taxable maximum come from SSA's E2.1; thresholds above the maximum follow a Pareto tail fitted to E2.5 ($250K) and E2.17 ($400K) (fitted exponent 1.83); the maximum is $184,500 in 2026 and passes $250,000 in 2034, after which SS-1 taxes all earnings. Investment income above an unindexed threshold comes from F11 ($400K) and F9 (ACA thresholds); active pass-through income from F8. The benefit credit's cost comes from E2.14, CPI-E's from A6 and the minimum benefit's from B5.2, each moved to the D8 start year. SSA's behavioral responses are inside those bases. Interactions between provisions are ignored (SSA's F10, which taxes investment and pass-through income together at $400K, scores 1.81 against F11 plus F8's 2.15, so stacking SS-2 and SS-5 likely overstates them by up to a few tenths of a point).
 
-| ID | Change | 75-year value (% of payroll) | Shape | 2030-39 ($T) | In 2031 / 2050 / 2090 (% of payroll) | Basis |
+**Check: SSA's own provisions rebuilt from the same bases** (75-year change in the actuarial balance, % of payroll):
+
+| SSA provision | Model | SSA | Difference |
+| --- | --- | --- | --- |
+| E2.5: 12.4% above $250K, 2027, no credit | +2.52 | +2.52 | -0.00 |
+| E2.17: 12.4% above $400K, 2027, no credit | +2.32 | +2.33 | -0.01 |
+| E2.14: 12.4% above $250K, 2028, 2% credit | +2.40 | +2.41 | -0.01 |
+| F11: 12.4% on investment income above $400K, 2028 | +1.22 | +1.22 | -0.00 |
+| F9: 12.4% on investment income, ACA thresholds, 2028 | +1.31 | +1.32 | -0.01 |
+| F8: active pass-through income, 2027 | +0.93 | +0.93 | +0.00 |
+| A6: CPI-E COLA from Dec 2028 | -0.35 | -0.33 | -0.02 |
+
+**D8's provisions** (2031 start, the first year after the spring-2030 bill):
+
+| ID | Provision | 75-year value (% of payroll) | Net change in 2031 / 2040 / 2060 / 2090 (% of payroll) | 2030-39 to the trust fund ($T) | Ledger's figure ($T) | Basis |
 | --- | --- | --- | --- | --- | --- | --- |
-| SS-1 | 12.4% on earnings above $250,000 (unindexed), with a benefit credit | +2.35 | rising | 1.90 | 1.04 / 2.11 / 3.53 | sourced 75-year value (SSA, provision E2.16); ten-year level from the ledger's O1; rising because the threshold is unindexed (shape estimate) |
-| SS-2 | 12.4% on investment income above $400,000, after the 15% haircut | +1.23 | rising | 0.94 | 0.50 / 1.09 / 1.88 | estimate (domain file: +1.1 to +1.36 after the haircut, midpoint); ten-year level from the ledger's O2 less OX; rising (unindexed threshold) |
-| SS-3 | Higher minimum benefit | −0.11 | rising | 0.12 | 0.07 / 0.11 / 0.15 | sourced (SSA 2023 letter); builds as new retirees qualify (shape estimate) |
-| SS-4 | CPI-E for cost-of-living adjustments | −0.41 | rising | 0.45 | 0.27 / 0.40 / 0.54 | sourced (SSA 2023 letter); compounds over each beneficiary's retirement (shape estimate) |
-| SS-5 | Investment-income tax on active S-corporation holders and limited partners (closer) | +0.90 | level | 1.45 | 0.98 / 0.98 / 0.98 | sourced (SSA 2023: +0.92); level share of payroll (shape estimate) |
+| SS-1 | 12.4% on earnings above $250,000 (unindexed), with a 2% benefit credit on the added earnings | +2.30 | +2.34 / +2.52 / +2.54 / +2.45 | +3.68 | 1.90 (O1) | proposal (D8); base from SSA's E2.1, E2.5 and E2.17 scores and credit cost from E2.14 (2026 Trustees, sourced) |
+| SS-2 | 12.4% on net investment income above $400,000 (unindexed), with the domain file's 15% stacking haircut | +0.99 | +0.82 / +0.90 / +1.10 / +1.27 | +1.26 | 0.94 (O2+OX) | proposal (D8); base from SSA's F11 ($400K) and F9 scores (2026 Trustees, sourced); the haircut is the domain file's estimate for stacking with REV-H1b |
+| SS-3 | Minimum benefit: 125% of poverty for 30 years of coverage, wage-indexed | -0.11 | +0.00 / -0.04 / -0.14 / -0.19 | -0.02 | — | proposal (D8); cost path from SSA's B5.2, the same design starting 2027, shifted to 2031 (2026 Trustees, sourced) |
+| SS-4 | CPI-E for cost-of-living adjustments | -0.33 | -0.02 / -0.21 / -0.40 / -0.51 | -0.17 | — | proposal (D8); cost path from SSA's A6, shifted to the first COLA after enactment; SSA now puts the CPI-E gap at about 0.15 points a year (2026 Trustees, sourced) |
+| SS-5 | Investment-income tax on active S-corporation holders and limited partners (closer) | +0.87 | +0.89 / +0.90 / +0.95 / +1.00 | +1.32 | — | option (recommended closer); base from SSA's F8 at ACA thresholds (2026 Trustees, sourced) |
 
 | Scenario | Depletion | Payable then | 75-year balance | Share of the gap closed | Sustainable solvency | Trust fund ratio 2040 / 2060 / 2080 / 2100 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Current law | 2034 | 83% | -4.45 | 0% | no | 0% / 0% / 0% / 0% |
-| D8 baseline | 2038 | 93% | -1.39 | 69% | no | 0% / 0% / 0% / 0% |
-| D8 + SS-5 | 2072 | 96% | -0.49 | 89% | no | 40% / 33% / 0% / 0% |
+| D8 baseline | 2062 | 90% | -1.60 | 64% | no | 80% / 20% / 0% / 0% |
+| D8 + SS-5 | 2081 | 86% | -0.73 | 84% | no | 128% / 181% / 15% / 0% |
 
-**Reading.** The D8 baseline closes about 69% of the gap (the domain file's 65-72%, estimate) and moves depletion from 2034 to 2038. With SS-5 it closes 89% (domain file: 86-92%) and depletion moves to 2072. The trust fund ratio is the reserve at the start of a year over that year's cost; 'sustainable' means no depletion through 2100 and a ratio of at least 100% that is not falling at the end, the Trustees' test. All three readings are estimates: the shapes over time are this model's, and only an SSA score of the package would replace them. SS-10 (the bipartisan trade) is not modeled; it needs an SSA score of its pieces.
+**Reading.** Evaluated on their face, the D8 baseline closes about 64% of the 75-year gap and moves depletion from 2034 to 2062; with SS-5 it closes 84% and depletion moves to 2081. The new taxes are large from their first year: SS-1 alone adds about 2.3% of payroll in 2031, against a current-law shortfall of about 2.6%. The trust fund ratio is the reserve at the start of a year over that year's cost; 'sustainable' means no depletion through 2100 and a ratio of at least 100% that is not falling at the end, the Trustees' test. These are estimates built from SSA's scores of each provision alone; an SSA score of the package would replace them. SS-10 (the bipartisan trade) is not modeled; it needs an SSA score of its pieces.
 
 ## Medicare HI (summary level)
 

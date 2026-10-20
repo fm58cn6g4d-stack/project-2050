@@ -116,7 +116,7 @@ def channels(bills):
                          out_lo=round(out[0],3), out_mid=round(out[1],3), out_hi=round(out[2],3), note=note))
     by = {b["id"]:b for b in bills}
     o = lambda i: (by[i]["cost_lo"],by[i]["cost_mid"],by[i]["cost_hi"])
-    add("Social Security (OASDI)", rv["Social Security trust fund"], o("SS-1"), "D8 baseline; closes ~65-72% of the 4.42% gap after the haircut; revenue stays in the trust fund")
+    add("Social Security (OASDI)", rv["Social Security trust fund"], o("SS-1"), "D8 baseline; closes ~64% of the 4.42% gap after the haircut (index/dedicated-funds.md); revenue stays in the trust fund")
     add("Medicare HI", (0.5+0.5,0.5+0.7,0.5+0.9), (0.8,0.85,0.9), "H1a ($0.5T) plus HLT-6's Part A share (~$0.7T, est.); D4 read on a 75-year window, so the ~$0.3T is HI's reserve")
     add("Paid-leave fund", rv["Paid-leave fund"], o("FAM-3"), "Step-up toward 0.85% and a repayable Treasury loan; no general-fund backstop")
     st = rv["Surface transportation trust fund"]

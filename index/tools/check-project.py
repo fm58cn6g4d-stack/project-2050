@@ -158,7 +158,7 @@ STALE = [
  (r"2033 queue", r"no 2033 queue", "D1: no 2033 queue except DEM-3, DEM-4, DEM-9"),
  (r"\bD2\b[^.;]{0,25}\b(?:open|OPEN)\b", r"was open|reopen|no longer open", "D2 is decided (F, Oct 20)"),
  (r"fully paid for over ten years", r"was|before D4-B|D4-A|old", "D4-B (Oct 20): permanent programs paid for at maturity, not over ten years"),
- (r"70-77%", r"before (?:the )?haircut|before it", "D8: 65-72% after the avoidance haircut"),
+ (r"65-72%|65% to 72%|86-92%", r"$^", "D8 on SSA's 2026 scores: about 64%, 84% with SS-5 (index/dedicated-funds.md)"),
  (r"\bclaude/", r"not claude/|\(not claude/|old `?claude/|claude\.ai Project", "old claude.ai Project path"),
  (r"\$10\.06T|\$3\.69T|\$10\.48T|\$4\.11T|\$4\.13T", None, "an earlier headline figure"),
  (r"Beyond Health Care", r"superseded|archive|ideas only|replaces|assume", "Beyond Health Care is superseded (archive, ideas only)"),

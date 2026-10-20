@@ -24,7 +24,7 @@ What the modeling tools do now, and what is planned next, in order. Each item na
 2. **Model upgrades.**
    - *Incidence v2:* D3's pass/fail at years five and ten; the top 10%, 1% and 0.1%; leave at the 0.85% cap; EXE-14B's tariff repeal; typical households inside the fourth quintile; published TPC and CBO distribution tables in place of pattern keys.
    - *Reconciliation vehicle checker:* each bill's Byrd out-year test (permanent spending against revenue on the same bill), PAYGO, the pairing rule, and a Byrd register of provisions at risk. It will use the R2 revenue placement (Oct 20).
-   - *Dedicated funds:* a year-by-year Trustees HI table in place of the summary rates; SSA scores of the D8 package and of SS-10 in place of the provision shapes.
+   - *Dedicated funds:* a year-by-year Trustees HI table in place of the summary rates; an SSA score of the D8 package as a whole (interactions) and of SS-10.
    - *Fiscal fixes:* health provisions' start years, demographic growth for the benefit rows, interest-rate feedback, an AI payroll stress case, the debt-limit date, a fiscal-impulse view, contingent liabilities (Judgment Fund, reinsurance), and NSC-1's alternative bases.
 
 ## Retired

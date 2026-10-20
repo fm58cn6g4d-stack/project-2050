@@ -464,7 +464,7 @@
   "own_revenue": 3.0,
   "net_mid": -2.75,
   "basis": "estimate",
-  "basis_note": "Revenue $1.9T ($250K, scaled CBO) + ~$1.1T (investment income, estimate) less OX; 75-yr: closes ~65-72% of the 4.42% gap",
+  "basis_note": "Revenue $1.9T ($250K, scaled CBO) + ~$1.1T (investment income, estimate) less OX; 75-yr: closes ~64% of the 4.42% gap (index/dedicated-funds.md)",
   "floor_days": 8,
   "felt_months": 12,
   "durability": 92,

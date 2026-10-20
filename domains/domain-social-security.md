@@ -12,26 +12,26 @@ The 2026 Trustees report puts the 75-year deficit at **4.42% of taxable payroll*
 
 | ID | Piece | Effect on the 75-year balance | Basis |
 | --- | --- | --- | --- |
-| SS-1 | 12.4% tax on earnings above $250,000 (unindexed threshold), with a small benefit credit for the new taxes | +2.35 | sourced (SSA actuaries, provision E2.16) |
-| SS-2 | 12.4% Social Security tax on investment income above $400,000, credited to the trust fund | +1.3 to +1.6 before the haircut; about +1.1 to +1.36 after it | estimate. SSA scored the same tax at the ACA thresholds ($200K/$250K) at +1.93 (2023); the $400K threshold reaches less income. A 15% avoidance haircut is booked, matching the general fund's GX on the same base |
-| SS-3 | Higher minimum benefit: 125% of poverty for 30-year workers, wage-indexed | −0.11 | sourced (SSA 2023 letter) |
-| SS-4 | CPI-E for cost-of-living adjustments (about +0.2 points a year) | −0.41 | sourced (SSA 2023 letter) |
-| | **Baseline, net** | **about +2.9 to +3.2** after the SS-2 haircut (+3.1 to +3.4 before) | estimate (interactions ignored) |
-| | **Share of the 4.42% gap** | **about 65% to 72%** (70-77% before the haircut) | |
+| SS-1 | 12.4% tax on earnings above $250,000 (unindexed threshold), with a small benefit credit for the new taxes | +2.30 | estimate on SSA's 2026 scores (index/dedicated-funds.md: E2.5's base and E2.14's 2% credit, from 2031); SSA scores the 2027 versions at +2.37 (E2.16) and +2.41 (E2.14) |
+| SS-2 | 12.4% Social Security tax on investment income above $400,000, credited to the trust fund | +1.17 before the haircut (from 2031); about +0.99 after it | SSA scores this exact tax from 2028 at +1.22 (F11, 2026 Trustees, sourced); the model moves it to 2031. A 15% stacking haircut is booked on top of SSA's behavioral response because REV-H1b taxes the same income (estimate) |
+| SS-3 | Higher minimum benefit: 125% of poverty for 30-year workers, wage-indexed | −0.11 | sourced (SSA B5.2, 2026 Trustees) |
+| SS-4 | CPI-E for cost-of-living adjustments (about +0.15 points a year) | −0.33 | sourced (SSA A6, 2026 Trustees) |
+| | **Baseline, net** | **about +2.85** after the SS-2 haircut (+3.0 before) | estimate (index/dedicated-funds.md; interactions ignored) |
+| | **Share of the 4.42% gap** | **about 64%** (68% before the haircut); depletion moves from 2034 to about 2062 | estimate |
 
-**The baseline does not reach 75-year balance.** A gap of about 1.2-1.5% of payroll remains after the stacking haircut, and because SS-1 and SS-2 start small and grow (their thresholds are unindexed), depletion moves out only a few years: to about 2038 on the baseline and about 2072 with SS-5 (estimate, index/dedicated-funds.md, on the 2026 Trustees' rates; an SSA score would replace the model's provision shapes). The closers below cover the gap.
+**The baseline does not reach 75-year balance.** A gap of about 1.6% of payroll remains after the stacking haircut, and the trust fund runs down from the 2040s to depletion in about 2062 (estimate, index/dedicated-funds.md, built on SSA's 2026 scores of each provision). The closers below cover the gap.
 
 ## Closers (choose at least one)
 
 | ID | Piece | Effect | Basis | Who pays |
 | --- | --- | --- | --- | --- |
-| SS-5 | Investment-income tax on active S-corporation holders and limited partners, as in Sanders-Warren section 8b | +0.9 | sourced (SSA 2023: +0.92) | High-income business owners |
-| SS-6 | Lower SS-2's threshold to $200K/$250K | +0.3 to +0.6 more | estimate (the gap between the 2023 score and SS-2) | Households above $200K/$250K |
+| SS-5 | Investment-income tax on active S-corporation holders and limited partners, as in Sanders-Warren section 8b | +0.87 from 2031 | sourced (SSA F8, 2026 Trustees: +0.93 from 2027) | High-income business owners |
+| SS-6 | Lower SS-2's threshold to $200K/$250K | about +0.1 more | sourced difference (SSA 2026: F9 at the ACA thresholds +1.32 against F11 at $400K +1.22) | Households above $200K/$250K |
 | SS-7 | Raise the payroll rate 1 point (0.5 each side), phased over 10-20 years | +0.9 to +1.0 | estimate (Trustees' rate math) | All covered workers |
 | SS-8 | Invest part of the reserves in equities | +0.5 to +1.0 | estimate | No one directly; market risk |
 | SS-9 | Cover newly hired state and local workers | small | sourced (revenue tab) | New public employees |
 
-**Recommendation (an option, not yet decided): baseline plus SS-5.** It closes about 86-92% of the gap (91-98% before the stacking haircut) without a middle-class rate increase and keeps solvency entirely on high incomes. Adding SS-6 would close the rest. SS-7 is the fallback if the business-income tax proves hard to administer.
+**Recommendation (an option, not yet decided): baseline plus SS-5.** It closes about 84% of the gap (about 88% before the stacking haircut) and moves depletion to about 2081 (estimate, index/dedicated-funds.md), without a middle-class rate increase, keeping solvency entirely on high incomes. It leaves about 0.7% of payroll. SS-6 now adds only about 0.1 (SSA's current scores), so closing the rest needs SS-7 or SS-8, or a further high-income source; SS-7 is also the fallback if the business-income tax proves hard to administer.
 
 ## SS-10. A bipartisan path on the Warren-Moreno framework (option, not chosen; D8 stands unless Espen changes it)
 

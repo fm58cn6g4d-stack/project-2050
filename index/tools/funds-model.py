@@ -47,69 +47,91 @@ def ifac(t): return _geo(t, 2)
 def rate(t): return ifac(t) / ifac(t - 1) - 1
 
 # ---------- Social Security ----------
-def ss_provisions():
-    """Each provision as a change in the income rate (+) or cost rate (-) from its start year, in % of payroll.
-    Shape: 'level', or 'rising' (linear from the start level to a higher level by the end year, then flat).
-    Scaled so the 75-year present value equals the provision's actuarial value; where the ledger carries an
-    in-window dollar figure, the start level is set from it and the slope from the actuarial value."""
-    out = {}
-    for r in read("funds-ss-provisions.csv"):
-        out[r["id"]] = dict(av=float(r["actuarial_value"]), side=r["side"], shape=r["shape"], start=int(r["start"]),
-                            ramp_end=int(r["ramp_end"]) if r["ramp_end"] else None,
-                            window_bn=eval_ledger(r["window_ledger"]) if r["window_ledger"] else None,
-                            label=r["label"], basis=r["basis"])
-    return out
+# Each D8 provision is evaluated on its face: its rate, threshold, start year and benefit credit applied to a tax
+# base taken from SSA's single-year scores of the same kind of provision (2026 Trustees basis), so a changed
+# parameter changes the result. Bases (percent of taxable payroll per point of tax):
+#   earnings above the taxable maximum: E2.1 (all earnings above the cap); thresholds above the cap follow a
+#   Pareto tail fitted to E2.5 ($250K) and E2.17 ($400K) against E2.1
+#   net investment income above an unindexed threshold: F11 ($400K) and F9 (ACA thresholds), a power law between
+#   active pass-through income (SS-5's base): F8
+# Benefit-side provisions (CPI-E, the minimum benefit) take SSA's cost path for the same provision, shifted to the
+# D8 start year and scaled by the parameter that differs (the CPI-E gap).
+RUNS = {}
+for r in read("funds-ss-ssa-runs.csv"):
+    RUNS.setdefault("run" + r["run"], {})[int(r["year"])] = (float(r["cost_change"] or 0), float(r["income_change"] or 0))
+SSA = {"run" + r["run"]: r for r in read("funds-ss-ssa-summary.csv")}
+def run_start(run): return int(SSA[run]["start"])
+def sinc(run, t): return RUNS[run].get(t, RUNS[run][max(RUNS[run])])[1] if t >= run_start(run) else 0.0
+def scost(run, t): return RUNS[run].get(t, RUNS[run][max(RUNS[run])])[0] if t >= run_start(run) else 0.0
+def shifted_cost(run, t, start):
+    """SSA's cost change for the same provision, as if it started in `start` (years since start kept)."""
+    u = t - (start - run_start(run))
+    return scost(run, u) if t >= start else 0.0
 
-def eval_ledger(expr):
-    """'O2+OX' -> the ledger's midpoint sum, in $B."""
-    return 1000 * sum(REV[i.strip()]["mid"] for i in expr.split("+"))
+def cap(t):
+    """Current-law taxable maximum: $184,500 in 2026 (sourced, SSA), growing with the average wage."""
+    return P["ss_cap_2026"] * (payroll(t) / payroll(2026)) / (1 + P["ss_worker_growth"]) ** (t - 2026)
+
+def _fit_alpha():
+    """Pareto tail of earnings above the cap: E2.5/E2.1 = (250000/cap)^(1-a), likewise E2.17; years the cap is below both."""
+    xs = []
+    for run, T in (("run214", 250000), ("run220", 400000)):
+        for t in range(2027, 2034):
+            if cap(t) < T and sinc("run137", t) > 0 and sinc(run, t) > 0:
+                xs.append(1 - math.log(sinc(run, t) / sinc("run137", t)) / math.log(T / cap(t)))
+    return sum(xs) / len(xs)
+ALPHA = _fit_alpha()
+def earn_base(T, t):
+    """Earnings above max(T, cap) as % of payroll per point of tax (after SSA's behavioral response)."""
+    x = sinc("run137", max(t, 2027)) / 12.4
+    return x * (max(T, cap(t)) / cap(t)) ** (1 - ALPHA)
+
+K_NII = math.log(sum(sinc("run258", t) for t in range(2028, 2101)) / sum(sinc("run263", t) for t in range(2028, 2101))) / math.log(400000 / P["ss_aca_threshold_eff"])
+def nii_base(T, t):
+    """Net investment income above an unindexed threshold T, % of payroll per point (F11 at $400K, power law to F9)."""
+    return sinc("run263", max(t, 2028)) / 12.4 * (T / 400000) ** (-K_NII)
+
+def provision_path(p):
+    """(income change, cost change) by year, % of payroll."""
+    s, rt, T = p["start"], p["rate"], p["threshold"]
+    keep = 1 - p["extra_haircut"]
+    def f(t):
+        if t < s: return 0.0, 0.0
+        if p["kind"] == "earnings":
+            inc = rt * earn_base(T, t) * keep
+            cost = shifted_cost("run214", t, s) * rt / 12.4
+            if p["credit_factor"]:
+                cost += p["credit_factor"] / 0.02 * (shifted_cost("run226", t, s) - shifted_cost("run214", t, s))
+            return inc, cost
+        if p["kind"] == "nii": return rt * nii_base(T, t) * keep, 0.0
+        if p["kind"] == "passthrough": return rt / 12.4 * sinc("run259", max(t, run_start("run259"))) * keep, 0.0
+        if p["kind"] == "cola": return 0.0, shifted_cost("run116", t, s) * p["cola_bump"] / P["ss_cpie_ssa_bump"]
+        if p["kind"] == "minbenefit": return 0.0, shifted_cost(P["ss_minben_run"], t, s)
+        raise ValueError(p["kind"])
+    return f
+
+SSP = {}
+for r in read("funds-ss-provisions.csv"):
+    g = lambda k, d=0.0: float(r[k]) if r[k].strip() else d
+    SSP[r["id"]] = dict(label=r["label"], kind=r["kind"], rate=g("rate"), threshold=g("threshold"), start=int(r["start"]),
+                        credit_factor=g("credit_factor"), extra_haircut=g("extra_haircut"), cola_bump=g("cola_bump"),
+                        ledger=r["ledger_rows"], basis=r["basis"])
+SSF = {i: provision_path(p) for i, p in SSP.items()}
+SS_SCEN = {"Current law": [], "D8 baseline": ["SS-1", "SS-2", "SS-3", "SS-4"], "D8 + SS-5": ["SS-1", "SS-2", "SS-3", "SS-4", "SS-5"]}
 
 PV = {t: 1 / ifac(t) for t in range(2025, 2102)}
 PVPAY = sum(payroll(t) * PV[t] for t in YEARS)
 
-def shape_fn(p, a, b):
-    """Level a in the start year, rising linearly to a+b by ramp_end (b = 0 for level)."""
-    def f(t):
-        if t < p["start"]: return 0.0
-        if p["shape"] == "level" or not p["ramp_end"]: return a
-        x = min((t - p["start"]) / (p["ramp_end"] - p["start"]), 1.0)
-        return a + b * x
-    return f
-
-def calibrate(p):
-    """Solve for the start level a and the rise b: the 75-year value always matches; where the ledger has a
-    ten-year figure, the 2030-39 dollars match it too (two equations, two unknowns)."""
-    unit_a = shape_fn(p, 1.0, 0.0)
-    unit_b = shape_fn(p, 0.0, 1.0) if p["shape"] == "rising" else (lambda t: 0.0)
-    pv = lambda f: sum(f(t) / 100 * payroll(t) * PV[t] for t in YEARS)
-    target = p["av"] / 100 * PVPAY
-    if p["window_bn"] is not None and p["shape"] == "rising":
-        s = lambda f: sum(f(t) / 100 * payroll(t) for t in W)
-        a11, a12, a21, a22 = s(unit_a), s(unit_b), pv(unit_a), pv(unit_b)
-        det = a11 * a22 - a12 * a21
-        a = (p["window_bn"] * a22 - a12 * target) / det
-        b = (a11 * target - a21 * p["window_bn"]) / det
-        return shape_fn(p, a, b)
-    unit = (lambda t: unit_a(t) + unit_b(t)) if p["shape"] == "rising" else unit_a
-    k = target / pv(unit)
-    return lambda t: k * unit(t)
-
-SSP = ss_provisions()
-SSF = {i: calibrate(p) for i, p in SSP.items()}
-SS_SCEN = {"Current law": [], "D8 baseline": ["SS-1", "SS-2", "SS-3", "SS-4"], "D8 + SS-5": ["SS-1", "SS-2", "SS-3", "SS-4", "SS-5"]}
-
-def run_ss(ids):
+def run_ss(paths):
+    """paths: functions t -> (income change, cost change)."""
     R = P["ss_reserve_2025"]; rows = []; depl = None
     for t in YEARS:
         inc, cost = RATES[t]
-        for i in ids:
-            d = SSF[i](t)
-            if SSP[i]["side"] == "income": inc += d
-            else: cost += d
+        for f in paths:
+            di, dc = f(t); inc += di; cost += dc
         pay = payroll(t); r = rate(t)
         start = R
-        net = (inc - cost) / 100 * pay
-        R = R * (1 + r) + net * (1 + r / 2)
+        R = R * (1 + r) + (inc - cost) / 100 * pay * (1 + r / 2)
         tfr = start / (cost / 100 * pay) * 100
         if R < 0 and depl is None:
             depl = t; payable = inc / cost
@@ -122,10 +144,26 @@ def run_ss(ids):
     sustainable = depl is None and last[-1] >= 100 and last[-1] >= last[0] - 0.5
     return dict(rows=rows, depletion=depl, payable=(payable * 100 if depl else None), balance=bal, sustainable=sustainable)
 
-ss = {k: run_ss(v) for k, v in SS_SCEN.items()}
+CL = run_ss([])
+def standalone(f): return run_ss([f])["balance"] - CL["balance"]
+ss_value = {i: standalone(f) for i, f in SSF.items()}
+ss_window = {i: sum((SSF[i](t)[0] - SSF[i](t)[1]) / 100 * payroll(t) for t in W) / 1000 for i in SSF}
+ss_window_gross = {i: sum(SSF[i](t)[0] / 100 * payroll(t) for t in W) / 1000 for i in SSF}
+def ledger_sum(expr): return sum(REV[x.strip()]["mid"] for x in expr.split("+")) if expr else None
+
+# validation: SSA's own provisions rebuilt from the same bases, at SSA's parameters and start years
+VALID = [("run214", "E2.5: 12.4% above $250K, 2027, no credit", dict(kind="earnings", rate=12.4, threshold=250000, start=2027, credit_factor=0, extra_haircut=0)),
+         ("run220", "E2.17: 12.4% above $400K, 2027, no credit", dict(kind="earnings", rate=12.4, threshold=400000, start=2027, credit_factor=0, extra_haircut=0)),
+         ("run226", "E2.14: 12.4% above $250K, 2028, 2% credit", dict(kind="earnings", rate=12.4, threshold=250000, start=2028, credit_factor=0.02, extra_haircut=0)),
+         ("run263", "F11: 12.4% on investment income above $400K, 2028", dict(kind="nii", rate=12.4, threshold=400000, start=2028, extra_haircut=0)),
+         ("run258", "F9: 12.4% on investment income, ACA thresholds, 2028", dict(kind="nii", rate=12.4, threshold=P["ss_aca_threshold_eff"], start=2028, extra_haircut=0)),
+         ("run259", "F8: active pass-through income, 2027", dict(kind="passthrough", rate=12.4, threshold=0, start=2027, extra_haircut=0)),
+         ("run116", "A6: CPI-E COLA from Dec 2028", dict(kind="cola", rate=0, threshold=0, start=2029, cola_bump=P["ss_cpie_ssa_bump"], extra_haircut=0))]
+valid = [(run, lab, standalone(provision_path(dict(dict(credit_factor=0, cola_bump=0), **q))), float(SSA[run]["ltr_balance_change"])) for run, lab, q in VALID]
+
+ss = {k: run_ss([SSF[i] for i in v]) for k, v in SS_SCEN.items()}
 base_gap = -ss["Current law"]["balance"]
 for k in ss: ss[k]["closed"] = (ss[k]["balance"] - ss["Current law"]["balance"]) / base_gap * 100
-ss_window = {i: sum(SSF[i](t) / 100 * payroll(t) for t in W) / 1000 for i in SSF}
 
 # ---------- Medicare HI (summary level: the Trustees' cost and income rates, interpolated) ----------
 HI = read("funds-hi-rates.csv")
@@ -246,7 +284,8 @@ edu_out_w = sum(edu_out(t) for t in W) / 1000
 # ---------- outputs ----------
 def tn(x): return f"{x:.2f}"
 out = dict(ss={k: {kk: vv for kk, vv in v.items() if kk != "rows"} | {"tfr": {r["year"]: round(r["tfr"]) for r in v["rows"] if r["year"] % 10 == 0}} for k, v in ss.items()},
-           ss_window_tn={k: round(v, 3) for k, v in ss_window.items()},
+           ss_window_tn={k: round(v, 3) for k, v in ss_window.items()}, ss_value={k: round(v, 3) for k, v in ss_value.items()},
+           ss_validation=[dict(run=r, label=l, model=round(m, 3), ssa=a_) for r, l, m, a_ in valid],
            hi={k: {kk: vv for kk, vv in v.items() if kk != "rows"} for k, v in hi.items()}, hi_window_tn=round(hi_window, 3),
            leave={k: {kk: vv for kk, vv in v.items() if kk != "rows"} for k, v in leave.items()},
            htf=htf, carbon=carbon,
@@ -264,12 +303,20 @@ w("The general-fund ledger counts only general-fund money. This file follows the
 
 w("## Social Security (D8)\n")
 w(f"**Check against the Trustees.** Run on the 2026 Trustees' intermediate rates, the model puts combined-fund depletion in **{cl['depletion']}** with **{cl['payable']:.0f}%** of benefits payable, and the 75-year actuarial balance at **{cl['balance']:.2f}%** of taxable payroll. The Trustees report 2034, 83% and −4.42% (sourced). The model's balance is the Trustees' summarized-rate formula on their annual rates, so a small difference is rounding in the published rates and the interest path.\n")
-w("**Provisions.** Each is entered as a change in the income or cost rate from its start year, scaled so its 75-year value matches its score; where the ledger carries a ten-year dollar figure (SS-1's O1, SS-2's O2 less the OX haircut), the starting level is set from that figure and the rise from the score, so the two agree. Interactions between provisions are ignored, as in the domain file.\n")
-w("| ID | Change | 75-year value (% of payroll) | Shape | 2030-39 ($T) | In 2031 / 2050 / 2090 (% of payroll) | Basis |")
+w(f"**How the provisions are evaluated.** Each D8 provision is applied on its face (its rate, threshold, start year and benefit credit) to a tax base taken from SSA's single-year scores of the same kind of provision on the 2026 Trustees' assumptions (`funds-ss-ssa-runs.csv`, sourced). Earnings above the taxable maximum come from SSA's E2.1; thresholds above the maximum follow a Pareto tail fitted to E2.5 ($250K) and E2.17 ($400K) (fitted exponent {ALPHA:.2f}); the maximum is ${P['ss_cap_2026']:,.0f} in 2026 and passes $250,000 in {next(t for t in YEARS if cap(t) >= 250000)}, after which SS-1 taxes all earnings. Investment income above an unindexed threshold comes from F11 ($400K) and F9 (ACA thresholds); active pass-through income from F8. The benefit credit's cost comes from E2.14, CPI-E's from A6 and the minimum benefit's from B5.2, each moved to the D8 start year. SSA's behavioral responses are inside those bases. Interactions between provisions are ignored (SSA's F10, which taxes investment and pass-through income together at $400K, scores 1.81 against F11 plus F8's 2.15, so stacking SS-2 and SS-5 likely overstates them by up to a few tenths of a point).\n")
+w("**Check: SSA's own provisions rebuilt from the same bases** (75-year change in the actuarial balance, % of payroll):\n")
+w("| SSA provision | Model | SSA | Difference |")
+w("| --- | --- | --- | --- |")
+for run, lab, m, a_ in valid:
+    w(f"| {lab} | {m:+.2f} | {a_:+.2f} | {m-a_:+.2f} |")
+w("")
+w("**D8's provisions** (2031 start, the first year after the spring-2030 bill):\n")
+w("| ID | Provision | 75-year value (% of payroll) | Net change in 2031 / 2040 / 2060 / 2090 (% of payroll) | 2030-39 to the trust fund ($T) | Ledger's figure ($T) | Basis |")
 w("| --- | --- | --- | --- | --- | --- | --- |")
 for i, p in SSP.items():
-    f = SSF[i]
-    w(f"| {i} | {p['label']} | {'+' if p['side']=='income' else '−'}{p['av']:.2f} | {p['shape']} | {ss_window[i]:.2f} | {f(2031):.2f} / {f(2050):.2f} / {f(2090):.2f} | {p['basis']} |")
+    f = SSF[i]; nets = " / ".join(f"{f(t)[0]-f(t)[1]:+.2f}" for t in (2031, 2040, 2060, 2090))
+    lg = ledger_sum(p["ledger"]); led = f"{lg:.2f} ({p['ledger']})" if lg is not None else "—"
+    w(f"| {i} | {p['label']} | {ss_value[i]:+.2f} | {nets} | {ss_window[i]:+.2f} | {led} | {p['basis']} |")
 w("")
 w("| Scenario | Depletion | Payable then | 75-year balance | Share of the gap closed | Sustainable solvency | Trust fund ratio 2040 / 2060 / 2080 / 2100 |")
 w("| --- | --- | --- | --- | --- | --- | --- |")
@@ -280,7 +327,7 @@ for k, v in ss.items():
     w(f"| {k} | {v['depletion'] or 'none by 2100'} | {pay} | {v['balance']:+.2f} | {v['closed']:.0f}% | {'yes' if v['sustainable'] else 'no'} | {tf} |")
 w("")
 d8 = ss["D8 baseline"]; d5 = ss["D8 + SS-5"]
-w(f"**Reading.** The D8 baseline closes about {d8['closed']:.0f}% of the gap (the domain file's 65-72%, estimate) and moves depletion from {cl['depletion']} to {d8['depletion'] or 'beyond 2100'}. With SS-5 it closes {d5['closed']:.0f}% (domain file: 86-92%) and depletion moves to {d5['depletion'] or 'beyond 2100'}. The trust fund ratio is the reserve at the start of a year over that year's cost; 'sustainable' means no depletion through 2100 and a ratio of at least 100% that is not falling at the end, the Trustees' test. All three readings are estimates: the shapes over time are this model's, and only an SSA score of the package would replace them. SS-10 (the bipartisan trade) is not modeled; it needs an SSA score of its pieces.\n")
+w(f"**Reading.** Evaluated on their face, the D8 baseline closes about {d8['closed']:.0f}% of the 75-year gap and moves depletion from {cl['depletion']} to {d8['depletion'] or 'beyond 2100'}; with SS-5 it closes {d5['closed']:.0f}% and depletion moves to {d5['depletion'] or 'beyond 2100'}. The new taxes are large from their first year: SS-1 alone adds about {SSF['SS-1'](2031)[0]:.1f}% of payroll in 2031, against a current-law shortfall of about {RATES[2031][1]-RATES[2031][0]:.1f}%. The trust fund ratio is the reserve at the start of a year over that year's cost; 'sustainable' means no depletion through 2100 and a ratio of at least 100% that is not falling at the end, the Trustees' test. These are estimates built from SSA's scores of each provision alone; an SSA score of the package would replace them. SS-10 (the bipartisan trade) is not modeled; it needs an SSA score of its pieces.\n")
 
 w("## Medicare HI (summary level)\n")
 hc, hp = hi["Current law"], hi["With HI's program sources"]

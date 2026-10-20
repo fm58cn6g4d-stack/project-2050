@@ -178,8 +178,8 @@ The full list is in each file's open items; the per-domain tables below mark eac
 
 | ID | What | Effect (share of the 4.42% gap) | Status |
 | --- | --- | --- | --- |
-| SS-1 to SS-4 | D8 baseline | ~65-72% | Decided (D8) |
-| SS-5 | Investment-income tax on active S-corp holders and LPs | +0.9 (to 86-92%) | Option; **recommended closer** |
+| SS-1 to SS-4 | D8 baseline | ~64% | Decided (D8) |
+| SS-5 | Investment-income tax on active S-corp holders and LPs | +0.87 (to ~84%) | Option; **recommended closer** |
 | SS-6 | Lower SS-2's threshold | +0.3-0.6 | Option |
 | SS-7 | +1 pt payroll, phased | +0.9-1.0 | Option; payroll group |
 | SS-8 | Equities in the reserves | +0.5-1.0 | Option |

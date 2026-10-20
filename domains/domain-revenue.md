@@ -204,7 +204,7 @@ This table is a screen, not the test. The real test needs an incidence model (TP
 The rates count both halves of payroll taxes and are statutory, not effective. With a top state rate (California, 13.3%), the wage figure nears 70%.
 - **Upper end:** that is near Diamond and Saez's revenue-maximizing 73%, which counts federal, state, payroll and sales taxes. It is well above Mankiw, Weinzierl and Yagan's 48% (revenue tab).
 - **Revenue risk:** past the peak, avoidance can eat the scored revenue.
-- **The haircut runs across channels.** REV-GX takes 15% off G11, G6, G9 and H1b, and ledger row OX takes 15% off SS-2 in the trust fund (about −$0.17T, or −0.2 to −0.24 points of payroll). The D8 baseline then closes about 65-72% of the 4.42% gap, or about 86-92% with SS-5.
+- **The haircut runs across channels.** REV-GX takes 15% off G11, G6, G9 and H1b, and ledger row OX takes 15% off SS-2 in the trust fund (about −$0.17T, or −0.2 to −0.24 points of payroll). The D8 baseline then closes about 64% of the 4.42% gap, or about 84% with SS-5 (index/dedicated-funds.md, on SSA's 2026 scores).
 - **Why the rates stay for now.** The usual escape from high rates on gains is holding assets until death. G6 (gains taxed at death) and G11 (yearly mark-to-market at the very top) largely close that, so a combined rate near 37-39% on gains is more defensible here than under current law. Revisit after the incidence and behavioral model.
 - **Ways to ease the stacking (options, not decided):**
   - Set SS-2 at 6.2%, not 12.4%. SS-2 is the investment-income tax in domains/domain-social-security.md. This costs about half its revenue, roughly 0.65-0.8 points of payroll, which a closer would have to replace.

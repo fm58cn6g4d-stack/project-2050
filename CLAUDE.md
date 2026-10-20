@@ -59,6 +59,6 @@ Commit with a short plain message describing what changed and why. Don't rewrite
 
 ## Open queue
 1. Fresh post-2025-law scores for REV-TS1-TS3 and a joint TS1/G1 score; a score for REV-TS12 (joint with G3, G9, C18, SALT). Refine CAP-7's surge and sustained sizing through the bottom-up agency review (domain-capacity.md open item 2). A sustainability-layer menu for the reported fiscal gap. Later: explore ways to reduce defense over time (domain-national-security.md 1a).
-2. SS-10 67-vote comparison (needs an SSA score); an SSA score of the D8 package to replace the funds model's provision shapes (the model finds the D8 baseline moves depletion only to about 2038).
+2. SS-10 67-vote comparison (needs an SSA score); an SSA score of the D8 package as a whole (the funds model scores each provision on SSA's 2026 tables: the baseline closes ~64% and moves depletion to ~2062, ~84% and ~2081 with SS-5; the governing doc's D8 still says 65-72% / 86-92%, pending Espen).
 3. D1 re-baseline after the Nov 3 election.
 4. Revenue strategy session on payroll raisers (EDU-9B note); a fiscal tab on the dashboard; non-tax high-pay companions in domain-competition.md; a synthesis plan document.
