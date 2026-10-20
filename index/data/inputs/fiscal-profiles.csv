@@ -1,0 +1,91 @@
+table,id,kind,cat,start,ramp,grow,end,perm,fade,unified_zero,basis
+bill,HLT-1,,out_health_other,,1,out_health_other,,,,,Repeal of H.R. 1 cuts and permanent ACA credits take full effect at once
+bill,HLT-2,,out_medicare_net,,3,out_medicare_net,,,,,Medicare cap and benefits phase in over three years (dental last)
+bill,HLT-3,,out_health_other,2031,3,out_health_other,,,,,Public option enrollment builds from 2031
+bill,HLT-4,,out_health_other,,3,out_health_other,,,,,Medicaid and LTC expansions phase in
+bill,HLT-5,,out_medicare_net,2031,5,out_medicare_net,,,,,Price caps tighten over five years
+bill,HLT-6,,out_medicare_net,,4,out_medicare_net,,,,,MA payment reform phases in over four years
+bill,FAM-1,,out_other_mandatory,,1,cpi,,,,,CTC indexed to prices; child population roughly flat
+bill,FAM-2,,out_other_mandatory,,6,gdp,,,,,"Child care and pre-K phase in over six years, then track wages (GDP)"
+bill,FAM-3,,out_other_mandatory,,1,gdp,,,,yes,"Paid leave is self-funded by its contribution (net zero, automatic step-up)"
+bill,EDU-1,,out_other_mandatory,,3,gdp,,,,,Formula funding steps up over three years
+bill,EDU-3,,out_other_mandatory,,1,cpi,,,,,"Universal meals at once, price-indexed"
+bill,EDU-4,,out_disc_nondefense,,2,gdp,,,,,
+bill,EDU-5,,out_other_mandatory,,1,cpi,,,,,Pell increment indexed to prices
+bill,EDU-7,,out_other_mandatory,,1,gdp,,,,,Repeal saves from the first year
+bill,EDU-8,,out_disc_nondefense,,2,gdp,,,,,
+bill,SS-1,,out_social_security,,1,special_ss,,,,,"D8 package: net -$2.75T in window; after 2039 the benefit credit and CPI-E grow faster than the revenue, so the net saving shrinks ~1.5% a year relative to GDP (estimate)"
+bill,CLI-1,,out_other_mandatory,,1,gdp,,0.8,0.04,,Clean-energy credits; scale down as deployment saturates after 2039 (estimate)
+bill,CLI-2,,out_other_mandatory,,1,gdp,,,,yes,Dividend is paid from the carbon fee; its 20% remainder funds CLI-5 (counted there)
+bill,CLI-3,,out_disc_nondefense,,2,gdp,,,,,
+bill,CLI-5,,out_other_mandatory,,3,gdp,,0.3,,,"Net of fee and border revenue; capital-heavy, so most ends with the window (estimate)"
+bill,CLI-6,,out_other_mandatory,,1,gdp,,,,,
+bill,CLI-7,,out_other_mandatory,,1,gdp,,,,,
+bill,HOU-1,,out_other_mandatory,,2,gdp,,0.55,,,Emergency aid and public-housing repair are time-limited; credits and vouchers continue (estimate)
+bill,HOU-7,,out_other_mandatory,,1,gdp,,,,,
+bill,LAB-1,,out_disc_nondefense,,1,gdp,,,,,
+bill,LAB-5,,out_other_mandatory,2031,1,gdp,2036,0.0,,,Wage-transition credit is temporary
+bill,LAB-8,,out_disc_nondefense,,2,gdp,,,,,
+bill,LAB-9,,out_other_mandatory,,4,gdp,,,,,National service slots build over four years
+bill,COM-1,,out_disc_nondefense,,1,gdp,,,,,
+bill,IMM-1,,out_other_mandatory,,3,gdp,,,,,Net saving grows as legalized workers enter the tax base
+bill,AI-1,,out_disc_nondefense,,2,gdp,,,,,
+bill,AI-4,,out_other_mandatory,2031,3,gdp,,,,,Displacement-triggered; builds with take-up
+bill,AI-9,,out_other_mandatory,,1,gdp,,,,,
+bill,D2-RULES,,out_disc_nondefense,,1,gdp,,,,,
+bill,DEM-1,,out_disc_nondefense,,1,gdp,,,,,
+bill,DEM-5,,out_disc_nondefense,,1,gdp,,,,,
+bill,DEM-6,,out_disc_nondefense,,1,gdp,,,,,
+bill,DEM-11,,out_disc_nondefense,,1,gdp,,,,,
+bill,DEM-16,,out_disc_nondefense,,1,gdp,,,,,
+bill,DEM-17,,out_disc_nondefense,,1,gdp,2036,0.0,,,Time-limited community infrastructure fund
+bill,DEM-3,,out_disc_nondefense,2033,1,gdp,,,,,House enlargement from 2033
+bill,DEM-4,,out_disc_nondefense,,1,gdp,,,,,
+bill,INT-1,,out_disc_nondefense,,1,gdp,,,,,
+bill,CRT-P1,,out_disc_nondefense,,3,gdp,,,,,Judgeships phased
+bill,EXE-1,,out_disc_nondefense,,1,gdp,,,,,
+bill,CAP-8,,out_disc_nondefense,,2,gdp,,,,,
+bill,CAP-7,,out_disc_nondefense,,3,gdp,,,,,"Sustained capacity increase: steps up over three years to ~0.12% of GDP, then tracks GDP (restructured Oct 20)"
+bill,CAP-7S,,out_disc_nondefense,,,gdp,,0.0,,,"Agency rebuild surge, front-loaded FY2030-35 and then zero (YEARS; Decision Brief 2)"
+bill,NSC-1,,out_disc_defense,,1,gdp,,,,,
+bill,NSC-8,,out_disc_nondefense,,2,gdp,,,,,
+bill,NSC-10,,out_disc_nondefense,,3,gdp,,,,,
+bill,RTS-1,,out_disc_nondefense,,1,gdp,,,,,
+bill,RTS-3,,out_disc_nondefense,,1,gdp,,,,,
+bill,SAF-1,,out_disc_nondefense,,1,gdp,,,,,
+bill,SAF-10,,out_disc_nondefense,,3,gdp,,,,,Compacts build over three years
+bill,MOV-29,,out_disc_nondefense,,1,gdp,,0.3,,,General-fund top-ups and capital lines; mostly time-limited (C30)
+bill,MOV-30,,out_disc_nondefense,,1,gdp,,0.3,,,Same
+bill,MOV-31,,out_disc_nondefense,2032,1,gdp,2036,0.3,,,FY2032-36 renewal top-ups; a successor authorization is assumed at 30% of the run rate
+base revenue,G1,,rev_corporate,,1,rev_corporate,,,,,
+base revenue,H1b,,rev_individual,,1,rev_individual,,,,,
+base revenue,G3,,rev_individual,,1,rev_individual,,,,,
+base revenue,G11,,rev_individual,,1,rev_individual,,,,,"Mark-to-market; the deemed-realization transition is front-loaded in scores, flattened here"
+base revenue,G5,,rev_corporate,,1,rev_corporate,,,,,
+base revenue,G6,,rev_individual,,2,rev_individual,,,,,
+base revenue,G7,,rev_corporate,,1,rev_corporate,,,,,
+base revenue,G8,,rev_individual,,3,rev_individual,,,,,Enforcement yield builds as staff are hired
+base revenue,G9,,rev_individual,,1,rev_individual,,,,,
+base revenue,G10,,rev_other,,1,gdp,,,,,
+base revenue,GX,,rev_individual,,1,rev_individual,,,,,
+option,C18,revenue,rev_individual,,1,rev_individual,,,,,
+option,C35,revenue,rev_other,,1,gdp,,,,,"Estate tax increment; exemption frozen in nominal terms, so it grows faster than GDP in practice (held at GDP)"
+option,C19b,revenue,rev_individual,2031,2,out_medicare_net,,,,,Exclusion cap revenue tracks premium growth (proxied by Medicare per-GDP growth)
+option,C19,revenue,rev_individual,2031,2,out_medicare_net,,,,,
+option,C20,revenue,rev_individual,,1,rev_individual,,,,,
+option,C38,revenue,rev_corporate,,2,rev_corporate,,,,,Sprint package: about three-quarters corporate
+option,C5,trim,out_medicare_net,,1,out_medicare_net,,0.0,,,"Dental delayed past the window: saves inside it, none after"
+option,C17,trim,out_disc_nondefense,,3,gdp,,,,,
+option,C33,trim,out_other_mandatory,,4,gdp,,,,,
+option,C34,trim,out_disc_nondefense,,3,gdp,,,,,
+option,C36,trim,out_other_mandatory,,1,cpi,,,,,
+option,C29,trim,out_other_mandatory,,3,gdp,,0.3,,,
+option,C21,borrow,,,,,,,,,
+option,C30,borrow,,,,,,,,,
+option,C31,borrow,,,,,,,,,
+option,C32,borrow,,,,,,,,,
+option,C37,borrow,,,,,,,,,
+option,C42,borrow,,,,,,,,,
+option,C39,revenue,rev_individual,,1,rev_individual,,,,,"REV-TS12, 28% itemized cap above $450K; grows with top incomes"
+option,C40,revenue,rev_corporate,,1,rev_corporate,,,,,REV-HP1 pay-ratio surtax
+option,C41,revenue,rev_other,,1,rev_corporate,,,,,REV-HP3 excise on top-officer pay

@@ -40,13 +40,13 @@ Reciprocity (only rules we'd accept in the minority). Durable instruments: manda
 - Tag every number as sourced, scaled, estimated or proposal, with its window (default ten years, 2030-39, in trillions).
 - Look up anything that describes the world now before stating it.
 - Name policies by their domain-file IDs.
-- After a domain file changes a number, update the script tables in `index/tools/` (ledger-build.py, incidence-model.py, fiscal-profiles.py as relevant) and regenerate; never edit generated files by hand.
+- After a domain file changes a number, update the input tables in `index/data/inputs/` (ledger-*.csv, incidence-*.csv, fiscal-*.csv as relevant) and regenerate; never edit generated files by hand.
 - Filing: new docs go straight into their role folder, lowercase kebab-case, domain first.
 
 ## Tools
 `index/tools/readme.md` explains each script. Quick version:
 - `bash index/tools/run-all.sh` — rebuild everything in `build/` and diff against `index/`; `--write` to update; `--fetch` to re-download CBO's data (github.com/US-CBO/cbo-data).
-- Ledger tables (bills, revenue, options, conflicts, dynamic sensitivity) live in `ledger-build.py`; incidence rows in `incidence-model.py` (hand-keyed — check against `build/ledger.json`); long-term year profiles in `fiscal-profiles.py`; fiscal scenarios in `fiscal-model.py`.
+- Input tables live in `index/data/inputs/` (CSV; its readme explains each): ledger bills, revenue, options, conflicts and dynamic sensitivity; incidence keys, rows (amounts are formulas over ledger IDs, so they follow the ledger) and phase-ins; long-term year profiles. Scenario lists stay in `incidence-model.py` and `fiscal-model.py`.
 - Transportation model: `index/tools/transportation/moving_america.py` (print with `report.py`, check with `test_moving_america.py`; see its readme). run-all.sh runs it first, and the MOV-29/30/31 and MR1-MR6 rows in ledger-build.py come from it. A moved figure is a proposal for Espen.
 - Sprint revenue rows use the prefix TS (TS1-TS12, TSX) so the old tariff row T1 keeps its ID; high-pay options are HP1-HP3.
 

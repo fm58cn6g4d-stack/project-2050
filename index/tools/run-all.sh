@@ -11,7 +11,7 @@ for a in "$@"; do [[ "$a" == "--write" ]] && WRITE=1; [[ "$a" == "--fetch" ]] &&
 
 rm -rf "$BUILD"; mkdir -p "$BUILD"
 cp "$TOOLS"/ledger-build.py "$TOOLS"/ledger-paths.py "$TOOLS"/ledger-make-md.py "$TOOLS"/incidence-make-md.py \
-   "$TOOLS"/fiscal-data.py "$TOOLS"/fiscal-profiles.py "$TOOLS"/fiscal-model.py "$TOOLS"/fiscal-make-md.py "$BUILD"/
+   "$TOOLS"/fiscal-data.py "$TOOLS"/fiscal-profiles.py "$TOOLS"/inputs.py "$TOOLS"/fiscal-model.py "$TOOLS"/fiscal-make-md.py "$BUILD"/
 # the two incidence scripts import each other under their working names
 cp "$TOOLS"/incidence-model.py "$BUILD"/incidence.py
 cp "$TOOLS"/incidence-years.py "$BUILD"/years.py
