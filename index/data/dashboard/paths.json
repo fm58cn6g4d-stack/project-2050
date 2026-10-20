@@ -1,0 +1,34 @@
+[
+ {
+  "path": "E (bound): majority cloture after normal debate",
+  "days": 166,
+  "bills": 21,
+  "of": 21,
+  "over_first": 3,
+  "key": "E"
+ },
+ {
+  "path": "F (decided Oct 20): graduated cloture, ~4.5 session days minimum per contested bill",
+  "days": 172,
+  "bills": 21,
+  "of": 21,
+  "over_first": 9,
+  "key": "F"
+ },
+ {
+  "path": "C (opening offer to holdouts): talking filibuster with a speech budget; minority picks 6 top fights at ~15 days each",
+  "days": 213,
+  "bills": 21,
+  "of": 21,
+  "over_first": 50,
+  "key": "C"
+ },
+ {
+  "path": "G (written fallback): carve-out only; other contested bills need 60 and are counted as not passing",
+  "days": 73,
+  "bills": 3,
+  "of": 21,
+  "over_first": -90,
+  "key": "G"
+ }
+]

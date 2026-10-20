@@ -30,7 +30,8 @@ else
 fi
 echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fiscal-baseline.csv" > fiscal-model.log; head -1 fiscal-model.log
 python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
-echo "== 7. consistency check"; cp "$TOOLS"/check-project.py "$TOOLS"/window.py "$BUILD"/; python3 check-project.py
+echo "== 7. dashboard data";   python3 "$TOOLS"/dashboard-data.py >/dev/null
+echo "== 8. consistency check"; cp "$TOOLS"/check-project.py "$TOOLS"/window.py "$BUILD"/; python3 check-project.py
 
 declare -A OUT=(
   [2029-trifecta-master-ledger-v2.md]=index/2029-trifecta-master-ledger.md
@@ -39,6 +40,11 @@ declare -A OUT=(
   [fiscal-baseline.csv]=index/data/fiscal-baseline.csv
   [fiscal-paths.csv]=index/data/fiscal-paths.csv
   [check-report.md]=index/check-report.md
+  [dashboard/bills.json]=index/data/dashboard/bills.json
+  [dashboard/revenue.json]=index/data/dashboard/revenue.json
+  [dashboard/cuts.json]=index/data/dashboard/cuts.json
+  [dashboard/conflicts.json]=index/data/dashboard/conflicts.json
+  [dashboard/paths.json]=index/data/dashboard/paths.json
 )
 echo; echo "== changes against the committed files"
 for f in "${!OUT[@]}"; do

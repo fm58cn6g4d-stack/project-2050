@@ -99,7 +99,8 @@ GF_RULE = {"FAM-3":"none","CLI-5":"residual","SAF-10":"residual","DEM-1":"all","
            "MOV-29":"all","MOV-30":"all","SS-1":"none","CLI-2":"none"}
 OWN_RANGE = {"FAM-3":(0.85,0.9,1.28),"CLI-5":(0.39,0.47,0.55),"SAF-10":(0.08,0.09,0.10),"SS-1":(2.8,3.0,3.3),
              "CLI-2":(1.20,1.35,1.50),"MOV-29":(round(MA["act29_net"] / 1000, 3),) * 3,"MOV-30":(round(MA["act30_net"] / 1000, 3),) * 3,"COM-1":(0.004,0.004,0.004)}
-ALT_CUTS = {"C29","C19"}  # alternatives to an accepted cut (C29 vs C37, C19 vs C19b); listed, never summed
+ALT_OF = {"C29":"C37","C19":"C19b"}  # alternatives to an accepted cut; listed, never summed
+ALT_CUTS = set(ALT_OF)
 DECLINED = {"C5","C17","C33","C34","C36"}  # declined in Decision Brief 2 (Oct 20); kept as the record, never summed
 OWN_CHANNEL = {"MOV-29":"Surface transportation trust fund","MOV-30":"Surface transportation trust fund"}
 
@@ -200,7 +201,8 @@ def main():
     json.dump(dict(summary=summary, bills=bills,
                    revenue=[dict(id=r[0],option=r[1],channel=r[2],lo=r[3],mid=r[4],hi=r[5],in_base="Yes" if r[6] else "No",reaches_middle="Yes" if r[10] else "No",legal_risk=r[7],overlap=r[8],source=r[9]) for r in REV],
                    conflicts=[dict(topic=c[0],one_doc=c[1],other_doc=c[2],resolution=c[3]) for c in CONFLICTS],
-                   cuts=[dict(id=c[0],change=c[1],saves_tn=c[2],saves_days=c[3],kind=c[4],why=c[5]) for c in CUTS],
+                   cuts=[dict(id=c[0],change=c[1],saves_tn=c[2],saves_days=c[3],kind=c[4],why=c[5],
+                             alternative_to=ALT_OF.get(c[0]) or ("Declined (Decision Brief 2)" if c[0] in DECLINED else "")) for c in CUTS],
                    dynamic=[dict(id=r[0],effect=r[1],rows=r[2],lo=r[3],mid=r[4],hi=r[5],optimistic=r[6],basis=r[7]) for r in DYNAMIC]),
               open("ledger.json","w"), indent=1)
     print(json.dumps({k:v for k,v in summary.items() if k not in ("channels","by_rail","by_domain")}, indent=1))
