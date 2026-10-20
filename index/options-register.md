@@ -1,6 +1,6 @@
 # Options register: every open choice, listed once
 
-Hand-written companion to the generated ledger, Oct 20, 2026 (after Espen's decisions that day; updated for Decision Brief 1: D2 decided, Package B and the borrowing readings accepted, the top-end sprint added). **Purpose:** one place that lists every option in the project once, says where it lives, and says which options exclude, duplicate or overlap each other, so nothing is counted twice or chosen twice. It sets no policy. The domain files govern each option's design and figures; the ledger (index/2029-trifecta-master-ledger.md) governs totals. If a figure here differs from a domain file, the domain file wins and this register is stale.
+Hand-written companion to the generated ledger, Oct 20, 2026 (after Espen's decisions that day; updated for Decision Brief 1: D2 decided, Package B and the borrowing readings accepted, the top-end sprint added; and for Decision Brief 2: D4-B decided, C38 and C39-C41 accepted, the trims declined, CAP-7 restructured). **Purpose:** one place that lists every option in the project once, says where it lives, and says which options exclude, duplicate or overlap each other, so nothing is counted twice or chosen twice. It sets no policy. The domain files govern each option's design and figures; the ledger (index/2029-trifecta-master-ledger.md) governs totals. If a figure here differs from a domain file, the domain file wins and this register is stale.
 
 **How to read it.**
 - **Status:** *Chosen* (the domain file's design); *Decided* (Espen decided it, Oct 19-20); *Option* (filed, not chosen; needs a decision); *Held* (filed, deliberately parked); *Retired* (ID kept for history, never reused); *Pointer* (the policy lives in another file).
@@ -25,16 +25,18 @@ Hand-written companion to the generated ledger, Oct 20, 2026 (after Espen's deci
 | G-CLI5 | **C29** (CLI-5B, trim the add-ons, $0.13T) / **C37** (CLI-5F, keep CLI-5 whole and borrow ~$0.10T of capital lines) | domain-climate.md | **Decided Oct 20: C37** (Decision Brief 1); C29 is listed in ALT_CUTS and never summed |
 | G-EXCL | **C19** (= W2, median cap, $1.25T) / **C19b** (75th-percentile cap, $0.66T) | domain-revenue.md; incidence model | **Decided Oct 20: C19b** (Package B, the planning basis); C19 is the fallback if the sprint package falls short |
 | G-MIDDLE | **C19/C20** (the middle-reaching closers) / **REV-ED1** used as the closer (incidence scenario G) | domain-revenue.md; domain-education.md | Scenario G replaces C19 and C20 with EDU-9B's contribution; not stacked |
-| G-MEALS | EDU-3A (chosen) / EDU-3B (**C36**) / EDU-3C | domain-education.md | C36 is EDU-3B's saving |
-| G-SERVICE | LAB-9A (chosen) / LAB-9B (**C33**) / LAB-9C / LAB-9D | domain-labor.md | LAB-9D starts at 9B's scale by bipartisan authorization, with 9A's R2 money as fallback |
-| G-SAFCOMP | SAF-10A (chosen) / 10B / 10C / 10D (**C34**) | domain-public-safety.md | |
+| G-MEALS | EDU-3A (chosen) / EDU-3B (**C36**) / EDU-3C | domain-education.md | C36 is EDU-3B's saving; **declined Oct 20** (Decision Brief 2) |
+| G-SERVICE | LAB-9A (fallback) / LAB-9B (**C33**, declined) / LAB-9C / **LAB-9D (chosen Oct 20)** | domain-labor.md | LAB-9D starts at 9B's scale by bipartisan authorization, with 9A's R2 money as fallback; the ledger keeps 9A's cost until an authorization passes |
+| G-SAFCOMP | SAF-10A (chosen) / 10B / 10C / 10D (**C34**) | domain-public-safety.md | C34 declined Oct 20 (Decision Brief 2) |
 | G-CARBON | REV-C1A (decided Oct 20) / C1B / C1F | domain-revenue.md | Price paths. C1C (escalator) can sit on top of any; C1D (convergence) and C1E (gasoline phase-in) are scope choices, not paths |
 | G-DIVSHARE | CLI-2A 80% (chosen) / CLI-2C 85-90% / CLI-2D 70% | domain-climate.md | Moves money between the dividend and CLI-5, not the general fund |
 | G-SS | SS-10A / SS-10B / SS-10C (= D8 as decided) | domain-social-security.md | To do (Oct 20): test the 67-vote premise and compare again |
 | G-DEM1-TIMING | Decided: DEM-1F | domain-democracy.md | Closed Oct 20 |
 | G-D2 | Senate rules paths A-G | Senate Rules Reform: Options; governing doc | **Decided Oct 20: F** with Block 3, week one 2029; C with a 15-day backstop as the opening offer; G the written fallback |
 | G-RECON | Reconciliation R1 / R3 / R4 | Senate Rules Reform: Options | R1 now; R3 vs R4 decided with D2's adoption resolution |
-| G-D4 | D4 as written / D4-B fiscal-arc rule / D4-C deficit allowance | governing doc | Open: Espen directed a loosening (Oct 20); D4-B recommended, parameters pending |
+| G-D4 | D4 as written / D4-B fiscal-arc rule / D4-C deficit allowance | governing doc | **Decided Oct 20: D4-B** (Decision Brief 2): paid for at maturity from FY2040; envelope 0.5% of GDP to 2034 tapering to zero by 2040, holding the borrowing lines; guardrails against the real baseline; Judgment Fund contracts counted |
+| G-TRIMS | C5 / C17 / C33 / C34 / C36 (program trims) | ledger | **All declined Oct 20** (Decision Brief 2); kept as the record, never summed; may be revisited later |
+| G-CAP7 | CAP-7 as an even ten-year line / CAP-7S surge + CAP-7 sustained | domain-capacity.md | **Decided Oct 20: surge + sustained** (sizing is Claude's estimate; sustained level 0.12% of GDP, alternatives 0.10% or 0.148%) |
 | Every lettered set | Each domain's A/B/C/D options for one row (e.g. FAM-1A-D, HOU-3A-D, RTS-3A-E) | Each file | Treated as a group unless the file says an option can stack (e.g. EDU-4B-D add to EDU-4A; CLI-4D-F add to CLI-4A) |
 
 ## 3. Duplicates resolved: two names, one policy
@@ -42,7 +44,10 @@ Hand-written companion to the generated ledger, Oct 20, 2026 (after Espen's deci
 | Names | One policy | Count it as |
 | --- | --- | --- |
 | C19 = W2 | Cap the employer health exclusion at the median premium | C19 (fallback); W2 is the revenue-menu row |
-| C38 = REV-TS1 to TS11 net of REV-TSX | The top-end scoring sprint package (Oct 20) | C38 (~$0.89T); the TS rows are its parts |
+| C38 = REV-TS1 to TS11 net of REV-TSX | The top-end scoring sprint package (Oct 20) | C38 (~$0.89T; accepted Oct 20); the TS rows are its parts |
+| C39 = REV-TS12; C40 = REV-HP1; C41 = REV-HP3 | Alternatives to the trims (Decision Brief 2) | The C-ID in the ledger, the REV- ID in the file |
+| C42 = CAP-7S financing | The rebuild surge borrowed inside the D4-B envelope | Financing choice |
+| REV-HP2 | Folded into REV-TS1's drafting (Oct 20) | Not counted separately |
 | REV-TS3 and REV-SC3 | Fossil-subsidy repeal moved from SC3 to TS3 (Oct 20) | TS3; SC3 is now crop insurance only (~$0.05T) |
 | Ledger revenue row T1 (keep current tariffs) vs REV-TS1 | Different policies; the sprint rows use TS so the old T1 tariff row keeps its ID | — |
 | C20 = W4 | 1-point surtax above $100K/$200K | C20 |
@@ -98,9 +103,9 @@ These are not duplicates, but taking both counts part of the money twice unless 
 
 ## 5. Decisions still open (by owner file)
 
-Governing: D2 decided Oct 20 (F); the **D4 revision** (fiscal-arc options, parameters pending); the D4 Judgment Fund question (CLI-9, AAJA); D9's batch 4 reserve ($31B proposed of $37B); NSC-1's base definition.
+Governing: D2 decided Oct 20 (F); D4 decided Oct 20 (D4-B, with the Judgment Fund question settled); D9's batch 4 reserve ($31B proposed of $37B); NSC-1A confirmed, with a later study of reducing defense over time.
 
-Biggest fiscal choices: confirming the sprint package C38 (TS1-TS3 need fresh scores) and the program trims in Decision Brief 2; LAB-9 scope; EXE-14A vs 14B ($1.5-1.9T claim); the payroll-raiser strategy session.
+Biggest fiscal choices: fresh scores for TS1-TS3 and TS12 (C38 and C39 are accepted on estimates); confirming CAP-7's surge and sustained sizing; EXE-14A vs 14B ($1.5-1.9T claim); the payroll-raiser strategy session; a sustainability-layer menu (the structural gap is a reported track under D4-B).
 
 The full list is in each file's open items; the per-domain tables below mark each open option.
 
@@ -124,7 +129,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | REV-E1 / C35 | Estate tax at 2009 parameters, frozen | **+$0.15T** (beyond G9) | **Accepted (planning basis)** | Restated Oct 20 |
 | REV-E2 | Public investment corporation (= AI-6D) | Subsidy cost in CLI's ~$0.10T line | Option | |
 | REV-ED1 / ED1 | Education contribution, 1.28-1.4 pts uncapped | ~$2.1T to a fund | Held | Revenue strategy session |
-| REV-SC1 | 45% bracket above $5M | +$0.18T | Option | Overlaps G3, G9 |
+| REV-SC1 | 45% bracket above $5M | +$0.18T | Held in reserve (first fallback if TS12 scores low) | Overlaps G3, G9 |
 | REV-SC2 | Pass-through and deferred-comp reform | +$0.35T | Option | Overlaps H1a, SS-5 |
 | REV-SC3 | Crop insurance reform (fossil piece moved to TS3) | +$0.05T | Option | |
 | REV-TS1 | 162(m) $1M pay-deduction limit for all employees of C corporations | +$0.34T | In C38; accepted in principle (Oct 20) | Joint score with G1 |
@@ -132,11 +137,11 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | REV-TS3 | End fossil-fuel preferences, dual-capacity and foreign oil and gas rules | +$0.13T (0.09-0.17) | In C38; accepted in principle (Oct 20) | Green Book $110.2B (2025-34) verified |
 | REV-TS4 to TS11 | Earnings stripping, spin-offs, trusts and GRATs, large retirement balances, partnership basis, like-kind, carried interest, crypto wash sales | +$0.05 / 0.05 / 0.10 / 0.03 / 0.02 / 0.025 / 0.02 / 0.03 | In C38 | |
 | REV-TSX | 10% haircut on TS1-TS11 | −$0.10T | In C38 | |
-| C38 | Sprint package (TS1-TS11 net of TSX) | **+$0.89T (0.60-1.14)** | Option, recommended | Mostly corporations and the top 1% |
-| REV-TS12 | Cap itemized deductions' value at 28% above $450K | +$0.40T (0.25-0.55) | Held in reserve | Unscored |
-| REV-HP1 | Pay-ratio surtax on corporations (high-pay guardrail) | +$0.08T (0.04-0.15) | Option | Sponsor estimate, haircut; stacks on G1 |
-| REV-HP2 | Stock-option deduction limited to book expense | +$0.02T | Option | Net of TS1 |
-| REV-HP3 | 21% excise on public-company top-officer pay above $1M | +$0.06T (0.03-0.10) | Option | On top of TS1 |
+| C38 | Sprint package (TS1-TS11 net of TSX) | **+$0.89T (0.60-1.14)** | **Accepted Oct 20** (Decision Brief 2) | Mostly corporations and the top 1%; TS1-TS3 need fresh scores |
+| REV-TS12 / C39 | Cap itemized deductions' value at 28% above $450K | +$0.40T (0.25-0.55) | **Accepted Oct 20** (Decision Brief 2) | Unscored; joint score with G3, G9, C18, SALT |
+| REV-HP1 / C40 | Pay-ratio surtax on corporations (high-pay guardrail) | +$0.08T (0.04-0.15) | **Accepted Oct 20** | Contractors counted in the median; stacks on G1 |
+| REV-HP2 | Stock-option deduction limited to book expense | +$0.02T | Folded into TS1's drafting | Not counted separately |
+| REV-HP3 / C41 | 21% excise on public-company top-officer pay above $1M | +$0.06T (0.03-0.10) | **Accepted Oct 20** | On top of TS1; pay defined as in 162(m) |
 | REV-HP4 | Tax executives' deferred pay at vesting (sec. 409B) | unscored | Option | Pairs with TS7 |
 | C18 | Top brackets +1, gains +2, LIFO repeal | +$0.62T | **Accepted (planning basis, Oct 20)** | Top-end |
 | C19 (= W2) / C19b | Employer exclusion cap, median / 75th pct | +$1.25T / +$0.66T | **C19b accepted (planning basis)**; C19 fallback | G-EXCL |
@@ -154,7 +159,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | ID | What | Cost | Status | Note |
 | --- | --- | --- | --- | --- |
 | HLT-1 to HLT-6 | Go-big bill, trimmed (D6) | $3.7T net, $4.4T GF | Decided (D6) | |
-| HLT-A1 | Dental in traditional Medicare | in HLT-2 | Decided (kept) | **C5** delays it past the window (saves $0.3T) |
+| HLT-A1 | Dental in traditional Medicare | in HLT-2 | Decided (kept) | **C5** (delay past the window, $0.3T) declined Oct 20 |
 | HLT-A2 | Medicare at 60 | +$0.30-0.36T | Option | Scored separately (D6) |
 | HLT-A3 | Medicare at 55 | +$0.6-0.9T | Option | Excludes A2 (55 contains 60) |
 | HLT-A4 | Medicare for Kids / at Home | needs a broad tax | Option | |
@@ -207,7 +212,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | CLI-6A / 6B / 6C / 6D / 6E | Grid statute / minimums only / clean load standard / Congress permits the backbone / data-center disclosure | ~0 | A chosen |
 | CLI-7 / 7B / 7C | Disaster and flood (unscored) / insurance help via R3 / reinsurance backstop | unscored / — / contingent exposure | 7C needs a D4 treatment |
 | CLI-8 / 8B / 8C | Climate risk / extreme-risk ineligibility zones / electric-ready lending | ~0 | 8B not chosen; 8C option |
-| CLI-9 | Contracts for difference | ~0.15 net | Option; borrowing-eligible (D4, Oct 20); Judgment Fund question open |
+| CLI-9 | Contracts for difference | ~0.15 net | Option; borrowing-eligible (D4, Oct 20); Judgment Fund treatment decided Oct 20 (full cost when obligated) |
 | CLI-10 | Public power and a transmission corporation | in ~0.10 lending line | Option; borrowing-eligible |
 | CLI-11 | Coal securitization and worker guarantees | in ~0.10 line + ~0.08 | Option; overlaps CLI-2 transition share |
 | CLI-12 | State redundancy, payment for results | ~0.15 | Option |
@@ -234,7 +239,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | LAB-4A / 4B / 4C | $17 then 2/3 median / $15 / index only | 0 direct | A chosen |
 | LAB-7B | ABC test in the FLSA | 0 | Option |
 | LAB-8A / **8B** | Apprenticeships / plus instructor pay line | 0.03 / +0.01-0.02 | A chosen; 8B new Oct 20 |
-| LAB-9A / 9B (C33) / 9C / **9D** | Service: universal R2 / appropriations / no mixing / bipartisan authorization first | 0.12 / ~0.05 / — / ~0.05 then 0.12 fallback | A chosen; G-SERVICE |
+| LAB-9A / 9B (C33) / 9C / **9D** | Service: universal R2 / appropriations / no mixing / bipartisan authorization first | 0.12 / ~0.05 / — / ~0.05 then 0.12 fallback | **9D chosen Oct 20** (9A fallback); G-SERVICE |
 | Codetermination; portable benefits | | | Not chosen |
 | AI-4A-F, AI-5B, AI-11 | Cross-listed (home: domain-ai.md) | — | Pointer |
 
@@ -292,7 +297,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 
 | ID | What | Status |
 | --- | --- | --- |
-| NSC-1A / 1B / 1C | Defense base: FY2029 / 2026-28 average / share of GDP | A chosen; base definition open |
+| NSC-1A / 1B / 1C | Defense base: FY2029 / 2026-28 average / share of GDP | **A confirmed Oct 20**; 1C would cost ~$0.89T. Later: study reducing defense over time |
 
 ### Democracy (domain-democracy.md)
 
@@ -335,7 +340,8 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | ID | What | Cost | Status |
 | --- | --- | --- | --- |
 | CAP-4 option | Merkley-Daines appropriations fast track | 0 | Option |
-| CAP-7 at $0.5T (C17) | Agency rebuild at the low end | saves $0.1T | Option |
+| CAP-7 at $0.5T (C17) | Agency rebuild at the low end | saves $0.1T | Declined Oct 20 |
+| CAP-7S + CAP-7 | Rebuild surge (~$0.6T, FY2030-35, borrowed inside the envelope, C42) + sustained increase (~0.12% of GDP, ~$0.49T in window) | ~$1.09T in window | **Decided Oct 20** (sizing to confirm) |
 | CAP-7 batch 4 allocations | $31B of the $37B reserve (USCIS asylum $6B, civil-rights offices $6B, CAISI $6B, ATF/NICS $5B, State $8B) | within CAP-7 | Proposed, pending Espen |
 
 ### Amendments (domain-amendments.md)
@@ -358,4 +364,5 @@ Canonical until converted to a domain file. Its options are not yet given domain
 - index/2029-trifecta-master-ledger.md and index/tools/ledger-build.py (Oct 20, later rebuild): the C-IDs, revenue rows and ALT_CUTS.
 - index/revenue-household-incidence-model.md (v1.4): scenarios B, D, G, H and P (the planning basis).
 - governing/decision-brief-01-senate-rules-and-gap.md (Oct 20): D2, the reconciliation dial, Package B, the borrowing readings and the sprint.
+- governing/decision-brief-02-trims-scope-and-fiscal-rule.md (Oct 20): D4-B, the trims, CAP-7, LAB-9D, NSC-1A and C39-C41.
 - frameworks/scenario-stress-test-talarico-2029-2037.md: where each stress-test proposal was filed.

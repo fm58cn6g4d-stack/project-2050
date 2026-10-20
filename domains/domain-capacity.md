@@ -95,6 +95,15 @@ Committee jurisdiction realignment for AI, climate and cyber is a House rules-pa
 
 ### CAP-7. The agency rebuild line
 
+**Restructured Oct 20 (Espen, Decision Brief 2): a front-loaded surge plus a sustained increase.** As first designed, CAP-7 spread about $0.6T evenly over 2030-39 as increments on top of each agency's baseline: roughly $60B a year, phased in over three years and then held flat as a share of GDP. Espen's call: an even spread is close to useless for a rebuild, which needs a concentrated infusion paired with lasting funding. The line is now two rows (all figures estimates, provisional under D9):
+
+| Row | What it is | Timing | 2030-39 | After 2039 | Financing (D4-B) |
+| --- | --- | --- | --- | --- | --- |
+| **CAP-7S, rebuild surge** | The ~$0.6T reallocated to the front: hiring backlog and onboarding, training, systems (IT modernization at IRS, SSA, CMS), facilities, and clearing claims and service backlogs | ~$70B in FY2030, $120B in 2031, $130B in 2032, $120B in 2033, $100B in 2034, $60B in 2035, then zero | ~$0.60T (0.45-0.75) | None | Time-limited, so borrowed inside the investment envelope (ledger C42); each agency's tranche needs a written return case (service levels, backlog cleared, revenue for IRS) |
+| **CAP-7, sustained increase** | A permanent addition to the same agencies' funding, lower than the surge, that carries the staff the surge hires and the systems it builds | Phases in over FY2030-32 to ~0.12% of GDP (~$50B in 2033, ~$65B in 2040), then tracks GDP | ~$0.49T (0.40-0.60) | Permanent | Paid for at maturity, like any permanent program |
+
+Combined funding peaks at about $180B in FY2032 (surge $130B plus sustained ~$50B), against about $60B that year under the old even spread, and settles at the sustained level (~$56B) from FY2036. The sustained level is Claude's estimate between two alternatives: 0.10% of GDP (~$0.41T in the window, ~$54B in 2040) and the old line's 0.148% (~$0.60T, ~$80B in 2040). **The binding risk is absorption:** agencies cannot hire and onboard this fast without CAP-11's hiring reform (time-to-hire targets, direct-hire authority) and CAP-12's procurement reform, so both should be enacted before the surge's first tranche. The per-agency split below now applies to both rows, pro rata, until the bottom-up review (open item 2) replaces it.
+
 **Design.** About $0.6T over 2030-39 (estimate, provisional under D9) as a named line with **statutory staffing floors** for the agencies delivery depends on. D9 as first filed named: IRS service, SSA, HUD, FTA, USCIS, CDC, NOAA, Education, USAID. Batch 2 added the agencies the democracy, courts, executive-power and integrity files depend on, and CMS, which the health file already names. Batch 3 added FEMA, EPA, DOE and FERC, the NLRB, the Wage and Hour Division and OSHA, and the FTC and DOJ Antitrust. At Espen's request (Oct 19 evening), D9's list was extended to match in both the project copy and the live doc.
 
 **What the line is: increments, not totals.** The figures below are **supplementary to each agency's baseline appropriations**, not total funding levels, and they are ten-year cumulative amounts for 2030-39, not a single fiscal year's. Read the IRS's $130B as roughly $13B a year on top of whatever the baseline provides. That follows from D9, which sizes a "rebuild" line separate from the discretionary baseline, but the ledger does not say so explicitly and the baseline is not modeled. Two consequences: (1) the line only means what it says if baseline funding holds, so the statutory staffing floors matter because a hostile appropriator can cut the baseline and cancel the increment; (2) the true cost of rebuilding is a function of where each agency's baseline now sits against its past level, which this file does not know.
@@ -142,7 +151,7 @@ Committee jurisdiction realignment for AI, climate and cyber is a House rules-pa
 
 **Instrument question (open).** Mandatory funding for named functions through reconciliation is possible where Byrd-eligible — **unchecked**, and worth checking, because the difference between a mandatory line and an appropriations line is the difference between a durable rebuild and one that lasts until the first hostile House.
 
-**Cost.** $0.60T, range $0.50T to $0.75T (estimate), expected to rise when batch 4 lands (see above). Ledger cut C17 would hold it to $0.5T; at that level the remaining reserve goes first, then FTA, then the CDC and NOAA placeholders, and the batch 3 lines would need to be trimmed too.
+**Cost.** CAP-7S about $0.60T (FY2030-35, borrowed inside the envelope) plus CAP-7 about $0.49T in the window and about 0.12% of GDP a year after it (estimates; restructured Oct 20). Ledger cut C17 (holding the old line to $0.5T) was declined in Decision Brief 2.
 
 ### CAP-8. Schedule Policy/Career prohibition
 
@@ -219,7 +228,7 @@ The appropriations rows (CAP-1, CAP-2, CAP-3, CAP-7, CAP-13) are ◐ rather than
 3. **Envelope size for batch 4.** The reserve holds $37B after the CDC cut. Batch 4 decides whether that covers its agencies; if not, the ~$0.6T rises with matched revenue (D4), or existing lines are trimmed (NOAA next).
 4. **CAP-13 is unsourced.**
 5. **Staffing baselines are counted differently by CRS and Brookings** — pick one method for the findings record.
-6. **CAP-7 remains provisional** under D9 until the whole agenda is priced; cut C17 would take it to $0.5T.
+6. **CAP-7 remains provisional** under D9 until the whole agenda is priced. C17 was declined (Oct 20). The surge's shape and the sustained level (0.12% of GDP, against 0.10% or 0.148%) are Claude's estimates for Espen to confirm, and the bottom-up review (item 2) should set both.
 7. **Four-plus ledger rows missing** (see crosswalk). At the rebuild, ledger row A1's label also needs the batch 3 agencies (edit the tables in index/tools/ledger-build.py, not the ledger).
 
 ## Sources

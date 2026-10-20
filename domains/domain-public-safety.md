@@ -130,7 +130,7 @@ Each plank's chosen design is Safe Everywhere's text. Below are the IDs, the veh
 | SAF-10A (chosen) | Mandatory formula funding in R3 with permanent authorization and five-year reviews | ✔; durable; needs a Byrd check title by title |
 | SAF-10B | Annual appropriations (ledger S5 as filed) | ◐; renegotiated every year |
 | SAF-10C | Mandatory core (SAF-1, SAF-3, SAF-8 grants) with the rest appropriated | Splits the difference if some titles fail the Byrd check |
-| SAF-10D | The bill tab's lean version: Titles I, III, VIII and IX whole; II, VI and VII at about a third | About $8B a year (proposal); revenue then covers it without a general-fund residual |
+| SAF-10D | The bill tab's lean version: Titles I, III, VIII and IX whole; II, VI and VII at about a third | About $8B a year (proposal); revenue then covers it without a general-fund residual. Ledger C34; **declined Oct 20 (Decision Brief 2)** |
 
 ## SAF-11. Federal sentencing, cannabis and reentry (Bill Book 24)
 

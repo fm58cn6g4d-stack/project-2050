@@ -185,7 +185,8 @@ A pointer to domain-climate.md. Domestic statutory commitments (multi-year contr
 
 ## Open items
 
-1. **NSC-1's base definition** (A, B or C): Espen's call; it decides what "flat real" means.
+1. **NSC-1's base definition: NSC-1A confirmed** (Decision Brief 2, Oct 20): flat real from the FY2029 base excluding one-time reconciliation money. NSC-1C (flat share of GDP) would cost about $0.89T over 2030-39 and about 0.32% of GDP a year by 2039 (estimate).
+1a. **Explore ways to reduce defense over time (Espen, Oct 20; later in the project).** A study of options to bring the defense envelope down gradually after the first Congress (force structure, procurement, overseas posture, audit findings), with their effects on the fiscal model. Not started; NSC-1A stands meanwhile.
 2. **Re-scope the Iran architecture** in EXE against the June 15, 2026 agreement.
 3. **Source the 2026 chip-export licensing policy** before NSC-7 is drafted.
 4. **NDAA floor time:** decide whether the ledger's 163-day budget already accounts for it.

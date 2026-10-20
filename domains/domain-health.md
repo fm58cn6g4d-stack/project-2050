@@ -25,7 +25,7 @@ Each add-on carries its own score, so it can be added or dropped without reopeni
 
 | ID | Add-on | Cost | Basis | In the base? |
 | --- | --- | --- | --- | --- |
-| HLT-A1 | Dental in traditional Medicare | Part of HLT-2's $0.55-0.65T dental, vision and hearing line. Starting dental after the window saves about $0.3T | sourced (go-big tab) | **Yes, kept in** |
+| HLT-A1 | Dental in traditional Medicare | Part of HLT-2's $0.55-0.65T dental, vision and hearing line. Starting dental after the window saves about $0.3T (C5, **declined Oct 20, Decision Brief 2**: pure timing, nothing after 2039) | sourced (go-big tab) | **Yes, kept in, on schedule** |
 | HLT-A2 | Medicare at 60 | $0.30T to $0.36T; about 7M enrollees, 0.4M newly insured | sourced (go-big tab) | No |
 | HLT-A3 | Medicare at 55 | About $0.6T to $0.9T, my estimate (roughly twice the 60-64 cohort, with higher take-up among 55-59 early retirees). Needs a score | estimate | No |
 | HLT-A4 | Medicare for Kids / Medicare at Home | Each needs a broad-based tax (go-big tab) | sourced (qualitative) | No |

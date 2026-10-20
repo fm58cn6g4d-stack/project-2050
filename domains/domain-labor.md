@@ -178,10 +178,10 @@ Grants go to joint labor-management programs and community colleges, with comple
 
 | Option | Design | Note |
 | --- | --- | --- |
-| LAB-9A (chosen) | Universal offer, statutory mixing, mandatory funding in R2 | Durable; the largest cost |
+| LAB-9A (fallback) | Universal offer, statutory mixing, mandatory funding in R2 | Durable; the largest cost. The R2 fallback if LAB-9D's authorization stalls; the ledger keeps its $0.12T until one passes |
 | LAB-9B | Expand AmeriCorps by about 150,000 slots through appropriations | Cheaper (~$0.05T, estimate); reversible each year; fails design rule 2 |
 | LAB-9C | LAB-9A without the mixing requirement | Easier to administer; loses the reason for the program (Instruments #14) |
-| LAB-9D (Oct 20, Talarico stress test) | Seek a **bipartisan authorization** at about LAB-9B's scale first, with mixing kept, as a regular-order bill; LAB-9A's R2 money is the fallback if it stalls | The model passed service 68-32 as a bipartisan floor bill. It frees R2 room and makes the program harder to repeal, at the cost of floor days and a smaller start |
+| **LAB-9D (chosen Oct 20, Decision Brief 2)** | Seek a **bipartisan authorization** at about LAB-9B's scale first, with mixing kept, as a regular-order bill; LAB-9A's R2 money is the fallback if it stalls | The model passed service 68-32 as a bipartisan floor bill. It frees R2 room and makes the program harder to repeal, at the cost of floor days and a smaller start |
 
 **Overlap (Oct 20).** AI-4F's transitional employment guarantee (domain-ai.md) also pays young people for a year of public-purpose work. If both are taken, AI-4F should be built as LAB-9's open-enrollment track for the unemployed, not as a second program.
 

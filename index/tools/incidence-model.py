@@ -130,6 +130,9 @@ OPTIONS = {
  "C19b": ("cost", 0.66, [("exclusion_cap", 0.66)], "Cap the employer health exclusion at the 75th percentile (CBO alt. 2, scaled)"),
  "C20": ("cost", 0.67, [("surtax", 0.67)], "1-point surtax above $100K/$200K"),
  "C38": ("cost", 0.89, corp(0.665) + [("estate", 0.10), ("above400k", 0.03), ("capital", 0.075), ("above450k", 0.02)], "Top-end sprint package REV-TS1 to TS11, net of a 10% haircut (corporate items on the 25/75 convention)"),
+ "C39": ("cost", 0.40, [("above450k", 0.40)], "28% cap on the value of itemized deductions above $450K (REV-TS12; Decision Brief 2)"),
+ "C40": ("cost", 0.08, corp(0.08), "CEO pay-ratio corporate surtax (REV-HP1; 25/75 convention; Decision Brief 2)"),
+ "C41": ("cost", 0.06, [("billionaires", 0.06)], "21% excise on top-officer pay above $1M (REV-HP3; executives in the top 1%; Decision Brief 2)"),
  "C5":  ("benefit", -0.30, [("medicare", -0.30)], "Dental starts after the window"),
  "SAFR2": ("cost", -0.07, [("alcohol", -0.07)], "SAF-R2: drop the alcohol excise (replaced with top-end revenue, not modeled here)"),
  "C35": ("cost", 0.15, [("estate", 0.15)], "Estate tax at 2009 parameters, exemption frozen (REV-E1), increment beyond G9"),
@@ -180,7 +183,7 @@ def gf_test(opts):
             else: top1 += dist(parts)["T1"]
     for o in opts:
         side, amt, parts, label = OPTIONS[o]
-        if side == "cost" and o not in ("SAFR2", "EDUP"):  # EDUP is a dedicated fund, not general-fund revenue
+        if side == "cost" and o not in ("SAFR2", "EDUP"):  # C40 is corporate: counted with the top 1% via its 75% capital share  # EDUP is a dedicated fund, not general-fund revenue
             total += amt; d = dist(parts); top1 += d["T1"]
     return round(total, 2), round(top1, 2), round(corpstat, 2), round(100 * (top1 + corpstat) / total)
 
@@ -194,6 +197,7 @@ SCEN = {
     "G. EDU-9B education fund as the closer in place of C19 and C20": (["C18", "C5", "EDUP", "EDUB", "C35"], ()),
     "H. B plus the estate tax (C35)": (["C18", "C19", "C20", "C5", "C35"], ()),
     "P. Planning basis: Package B plus the sprint package (C18, C35, C19b, C20, C38; trims not yet decided)": (["C18", "C35", "C19b", "C20", "C38"], ()),
+    "Q. Decided (Decision Brief 2): P plus TS12, HP1 and HP3 (C39-C41); no trims": (["C18", "C35", "C19b", "C20", "C38", "C39", "C40", "C41"], ()),
 }
 
 if __name__ == "__main__":

@@ -24,17 +24,21 @@ Y0, Y1 = 2026, 2056          # model years
 W0, W1 = 2030, 2039          # ledger window
 CPI = {y: 2.26 if y <= 2036 else 2.3 for y in range(2026, 2057)}   # CBO Feb 2026 CPI-U path (rounded)
 
+PBS = ["C18", "C35", "C19b", "C20", "C38"]
+DEC = PBS + ["C39", "C40", "C41"]              # decided in Decision Brief 2 (Oct 20): TS12, HP1, HP3; no trims
+TRIMS = ["C5", "C17", "C33", "C34", "C36"]    # declined in Decision Brief 2; kept for reference
 SCENARIOS = [
     # id, label, cut options included, extra settings
     ("BASE", "Current-law baseline (CBO Feb 2026, adjusted)", None, {}),
     ("GROSS", "Program spending with the top-end base only (no new options)", [], {}),
-    ("PB", "Planning basis: Package B (C18, C35, C19b, C20)", ["C18", "C35", "C19b", "C20"], {}),
-    ("PB+S", "Planning basis + sprint package (C38)", ["C18", "C35", "C19b", "C20", "C38"], {}),
-    ("ALL", "Every open option: planning basis + sprint + program trims", ["C18", "C35", "C19b", "C20", "C38", "C5", "C17", "C33", "C34", "C36"], {}),
-    ("ALL-DYN", "Every option, with CBO-style dynamic feedback (about -$0.56T)", ["C18", "C35", "C19b", "C20", "C38", "C5", "C17", "C33", "C34", "C36"], {"dynamic": "mid"}),
-    ("ALL+ENV", "Every option, plus new time-limited investments filling the whole D4-B envelope (0.5% of GDP to 2034, tapering to 0 by 2040)", ["C18", "C35", "C19b", "C20", "C38", "C5", "C17", "C33", "C34", "C36"], {"envelope": 0.5}),
-    ("ALL-R1", "Every option, with interest rates 1 point higher on all debt from 2030", ["C18", "C35", "C19b", "C20", "C38", "C5", "C17", "C33", "C34", "C36"], {"rate_shift": 1.0}),
+    ("PB", "Package B (C18, C35, C19b, C20)", ["C18", "C35", "C19b", "C20"], {}),
+    ("PB+S", "Package B + sprint package (C38)", PBS, {}),
+    ("DEC", "Decided (Decision Brief 2): Package B + sprint + TS12, HP1, HP3 (C39-C41); no trims", DEC, {}),
+    ("DEC+ENV", "Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S", DEC, {"envelope": 0.5, "net_of_borrow": True}),
+    ("DEC-DYN", "Decided, with CBO-style dynamic feedback (about -$0.56T)", DEC, {"dynamic": "mid"}),
+    ("DEC-R1", "Decided, with interest rates 1 point higher on all debt from 2030", DEC, {"rate_shift": 1.0}),
     ("BASE-R1", "Baseline with interest rates 1 point higher from 2030", None, {"rate_shift": 1.0}),
+    ("DEC+TRIMS", "Decided plus the five trims declined in Decision Brief 2 (reference only)", DEC + TRIMS, {}),
 ]
 
 
@@ -156,6 +160,8 @@ def build(ledger_path, baseline_path):
             continue
         p = row_path(B, -c["saves_tn"], prof, cid)
         opt_rows[cid] = dict(id=cid, label=c["change"], group=prof["kind"], cat=prof["cat"], gf=p, uni=p, basis=prof.get("basis", ""))
+    # borrowing the D4-B envelope already holds (accepted borrow lines: C21, C30-C32, C37, C42)
+    borrow_used = sum(c["saves_tn"] for c in L["cuts"] if c["kind"].startswith("Borrow (accepted"))
     # dynamic sensitivity (not in any ledger total)
     dyn_mid = -sum(d["mid"] for d in L["dynamic"])       # + raises the deficit
     dyn = row_path(B, dyn_mid, dict(cat="rev_individual", start=W0, ramp=10, grow="gdp"))
@@ -207,10 +213,13 @@ def build(ledger_path, baseline_path):
             if cfg.get("dynamic"):
                 for y in prog_uni: prog_uni[y] += dyn[y]; prog_gf[y] += dyn[y]
             if cfg.get("envelope"):
-                for y in range(W0, 2041):
-                    f = 1.0 if y <= 2034 else max(0.0, (2040 - y) / 6)
-                    v = cfg["envelope"] / 100 * f * B[y]["gdp"]
-                    prog_uni[y] += v; prog_gf[y] += v
+                env = {y: cfg["envelope"] / 100 * (1.0 if y <= 2034 else max(0.0, (2040 - y) / 6)) * B[y]["gdp"] for y in range(W0, 2041)}
+                scale = 1.0
+                if cfg.get("net_of_borrow"):  # fill only the room the ledger's borrowing lines leave
+                    tot = sum(env[y] for y in range(W0, W1 + 1)) / 1000
+                    scale = max(0.0, (tot - borrow_used) / tot)
+                for y, v in env.items():
+                    prog_uni[y] += v * scale; prog_gf[y] += v * scale
         PI, PD = debt_roll(B, prog_uni, shift)
         GI, GD = debt_roll(B, prog_gf, shift)
         for y in range(Y0, Y1 + 1):
@@ -242,7 +251,8 @@ def build(ledger_path, baseline_path):
         r["fiscal_gap_hold_2029"] = fiscal_gap(r, r["years"][2029]["debt_pct"], sh)
         r["fiscal_gap_100"] = fiscal_gap(r, 100.0, sh)
 
-    # ---- D4 tests ----
+    # ---- D4 tests (D4-B as decided in Decision Brief 2, Oct 20) ----
+    env10 = sum(0.005 * (1.0 if y <= 2034 else max(0.0, (2040 - y) / 6)) * B[y]["gdp"] for y in range(W0, W1 + 1)) / 1000
     def tests(r):
         Yd = r["years"]
         win = lambda k: sum(Yd[y][k] for y in range(W0, W1 + 1))
@@ -250,25 +260,25 @@ def build(ledger_path, baseline_path):
         t["gf_10yr_primary"] = win("gf_primary") / 1000
         t["unified_10yr_primary"] = win("prog_primary") / 1000
         t["unified_10yr_with_interest"] = (win("prog_primary") + win("prog_interest")) / 1000
+        # 1. permanent programs paid for at maturity: GF balance in FY2040 and every later year at or below zero
         t["gf_2039_pct"] = Yd[2039]["gf_primary_pct"]; t["gf_2040_pct"] = Yd[2040]["gf_primary_pct"]
         t["gf_2045_pct"] = Yd[2045]["gf_primary_pct"]
+        t["gf_worst_2040_56_pct"] = max(Yd[y]["gf_primary_pct"] for y in range(2040, Y1 + 1))
+        t["maturity_pass"] = t["gf_worst_2040_56_pct"] <= 1e-9
+        # 2. investment envelope: 0.5% of GDP to 2034, tapering to zero by 2040; holds the accepted borrowing lines
+        t["envelope_10yr"] = env10; t["envelope_used"] = borrow_used; t["envelope_room"] = env10 - borrow_used
+        # 3. guardrails against the real (CBO, adjusted) baseline
+        t["below_baseline_every_year"] = all(Yd[y]["prog_debt"] <= 1e-9 for y in range(W0, Y1 + 1))
+        t["margin_pts"] = {y: Yd[y]["base_debt_pct"] - Yd[y]["debt_pct"] for y in (2035, 2045, 2056)}
+        t["margin_widening"] = t["margin_pts"][2045] > t["margin_pts"][2035] and t["margin_pts"][2056] > t["margin_pts"][2045]
+        t["interest_pct"] = {y: Yd[y]["interest_pct"] for y in (2035, 2045, 2056)}
+        t["base_interest_pct"] = {y: 100 * Yd[y]["base_interest"] / Yd[y]["gdp"] for y in (2035, 2045, 2056)}
+        t["interest_below_baseline"] = all(t["interest_pct"][y] <= t["base_interest_pct"][y] + 1e-9 for y in (2035, 2045, 2056))
+        # information only (not guardrails under the decided rule)
         t["prog_debt_pct"] = {y: Yd[y]["prog_debt_pct"] for y in (2034, 2039, 2045, 2050, 2056)}
         t["gf_debt_pct"] = {y: Yd[y]["gf_debt_pct"] for y in (2034, 2039, 2045, 2050, 2056)}
-        pk = max(range(W0, Y1 + 1), key=lambda y: Yd[y]["prog_debt_pct"])
-        t["prog_debt_peak_year"], t["prog_debt_peak_pct"] = pk, Yd[pk]["prog_debt_pct"]
         pk2 = max(range(W0, Y1 + 1), key=lambda y: Yd[y]["debt_pct"])
         t["total_debt_peak_year"] = pk2
-        t["below_baseline_2045"] = Yd[2045]["prog_debt"] <= 0
-        t["total_falling_2040s"] = Yd[2049]["debt_pct"] < Yd[2040]["debt_pct"]
-        t["prog_share_falling_2040s"] = Yd[2049]["prog_debt_pct"] < Yd[2040]["prog_debt_pct"]
-        t["interest_pct_2035"], t["interest_pct_2045"], t["interest_pct_2056"] = Yd[2035]["interest_pct"], Yd[2045]["interest_pct"], Yd[2056]["interest_pct"]
-        # D4-B envelope: 0.5% of GDP a year through 2034, tapering to 0 by 2040
-        env = {}
-        for y in range(W0, 2041):
-            f = 1.0 if y <= 2034 else max(0.0, (2040 - y) / 6)
-            env[y] = 0.005 * f * Yd[y]["gdp"]
-        t["envelope_10yr"] = sum(env[y] for y in range(W0, W1 + 1)) / 1000
-        t["envelope_years_over"] = [y for y in range(W0, 2041) if (Yd[y]["gf_primary"] + Yd[y]["gf_interest"]) > env[y] + 1e-9]
         return t
     for r in results.values():
         if r["options"] is not None: r["tests"] = tests(r)
@@ -287,7 +297,7 @@ def build(ledger_path, baseline_path):
             v = base_v - add if k.startswith("rev_") else base_v + add
             c[k] = 100 * v / g
         return c
-    composition = {sid: {y: comp(sid, y) for y in (2026, 2034, 2039, 2045, 2056)} for sid in ("BASE", "ALL")}
+    composition = {sid: {y: comp(sid, y) for y in (2026, 2034, 2039, 2045, 2056)} for sid in ("BASE", "DEC")}
 
     return dict(results=results, rows=rows, opt_rows=opt_rows, dyn=dyn, checks=checks, composition=composition, B=B, ledger_summary=L["summary"])
 

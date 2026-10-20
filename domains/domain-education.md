@@ -86,7 +86,7 @@ Facts below are as reported in the two session analyses (Oct 19, 2026) and were 
 | Option | Design | Cost | Basis |
 | --- | --- | --- | --- |
 | EDU-3A (chosen) | Universal, current rates indexed, Summer EBT at $60 | ~0.27 | estimate from session |
-| EDU-3B | Expand community eligibility instead (lower the threshold, raise the multiplier) | ~0.08 | estimate; ledger option C36 saves ~$0.19T |
+| EDU-3B | Expand community eligibility instead (lower the threshold, raise the multiplier) | ~0.08 | estimate; ledger option C36 saves ~$0.19T. **C36 declined Oct 20 (Decision Brief 2):** universal meals stay; the run rate is covered by top-end revenue instead |
 | EDU-3C | The omnibus as written, at its 2023 rates | ~0.15 | not recommended: per-meal payments would fall for many high-poverty schools |
 
 **Why A.** It is the fastest benefit in the file (meals can go universal mid-year; it is administratively simpler than tiered eligibility), it reaches the fourth quintile (incidence v1.3 moves Q4 on scenario B from +$546 to +$779 a year), and both the session and the Talarico scenario lead with it. Universality also removes the deservingness frame (Talarico finding: "a universal one cannot be racialized").

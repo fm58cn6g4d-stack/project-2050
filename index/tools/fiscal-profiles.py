@@ -72,7 +72,8 @@ BILLS = {
     "CRT-P1": dict(cat="out_disc_nondefense", ramp=3, grow="gdp", basis="Judgeships phased"),
     "EXE-1": dict(cat="out_disc_nondefense", ramp=1, grow="gdp", basis=""),
     "CAP-8": dict(cat="out_disc_nondefense", ramp=2, grow="gdp", basis=""),
-    "CAP-7": dict(cat="out_disc_nondefense", ramp=3, grow="gdp", basis="Agency rebuild steps up over three years, then tracks GDP"),
+    "CAP-7": dict(cat="out_disc_nondefense", ramp=3, grow="gdp", basis="Sustained capacity increase: steps up over three years to ~0.12% of GDP, then tracks GDP (restructured Oct 20)"),
+    "CAP-7S": dict(cat="out_disc_nondefense", grow="gdp", perm=0.0, basis="Agency rebuild surge, front-loaded FY2030-35 and then zero (YEARS; Decision Brief 2)"),
     "NSC-1": dict(cat="out_disc_defense", ramp=1, grow="gdp", basis=""),
     "NSC-8": dict(cat="out_disc_nondefense", ramp=2, grow="gdp", basis=""),
     "NSC-10": dict(cat="out_disc_nondefense", ramp=3, grow="gdp", basis=""),
@@ -118,9 +119,15 @@ CUTS = {
     "C29": dict(kind="trim", cat="out_other_mandatory", ramp=3, grow="gdp", perm=0.3),
     "C21": dict(kind="borrow"), "C30": dict(kind="borrow"), "C31": dict(kind="borrow"),
     "C32": dict(kind="borrow"), "C37": dict(kind="borrow"),
+    "C42": dict(kind="borrow"),
+    # Decision Brief 2 (Oct 20): alternatives to the trims, accepted
+    "C39": dict(kind="revenue", cat="rev_individual", ramp=1, grow="rev_individual", basis="REV-TS12, 28% itemized cap above $450K; grows with top incomes"),
+    "C40": dict(kind="revenue", cat="rev_corporate", ramp=1, grow="rev_corporate", basis="REV-HP1 pay-ratio surtax"),
+    "C41": dict(kind="revenue", cat="rev_other", ramp=1, grow="rev_corporate", basis="REV-HP3 excise on top-officer pay"),
 }
 
 # ----- explicit year-by-year paths that override a profile (billions, 2030-39) -----
 YEARS = {
     # e.g. "HLT-3": [0, 120, 170, 190, 200, 205, 210, 215, 220, 225],
+    "CAP-7S": [70, 120, 130, 120, 100, 60, 0, 0, 0, 0],   # agency rebuild surge, Decision Brief 2 (estimate)
 }

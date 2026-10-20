@@ -282,15 +282,25 @@ On the interim ledger (Oct 19, after the inventory follow-ups), general-fund cla
 | REV-TSX | Overlap, avoidance and post-2025-law baseline haircut (10% of TS1-TS11) | | −0.10 | |
 | | **Sprint package (ledger option C38)** | | **0.89 (0.60-1.14)** | Mostly corporations and the top 1% |
 
-**Held in reserve (not in C38):** REV-TS12, a cap on the value of itemized deductions at 28% for incomes above $450K. That is a rough estimate of 0.25-0.55 (mid 0.40), with no current score: the 2025 law already caps that value at 35% for the top bracket, and the option overlaps G3, G9, C18 and the SALT deduction. Also held: REV-SC1 (a 45% bracket above $5M, 0.18, scenario figure). REV-SC2 is **not usable alongside SS-5** (the same pass-through base); it stays an option only if Social Security takes a different closer.
+**Held in reserve (not in C38; TS12 accepted Oct 20 as C39, see below):** REV-TS12, a cap on the value of itemized deductions at 28% for incomes above $450K. That is a rough estimate of 0.25-0.55 (mid 0.40), with no current score: the 2025 law already caps that value at 35% for the top bracket, and the option overlaps G3, G9, C18 and the SALT deduction. Also held: REV-SC1 (a 45% bracket above $5M, 0.18, scenario figure). REV-SC2 is **not usable alongside SS-5** (the same pass-through base); it stays an option only if Social Security takes a different closer.
 
 **What it does to the gap.** On the planning basis, $1.46T remains after Package B and the borrowing readings. The sprint package (~$0.89T) brings it to about **$0.57T** before the program trims, or about **−$0.12T** (a small cushion) with all of them. Against the dynamic sensitivity (about −$0.56T on conventional assumptions), that cushion is thin. The reserve items (TS12, SC1) are the next layer if the trims are not taken.
+
+**Decided Oct 20 (Espen, Decision Brief 2).** D4-B is adopted, so the test is the general fund's run rate from FY2040 on, not a ten-year sum. The sprint package **C38 is accepted**. The program trims (C5, C17, C33, C34, C36) are **declined**, and three top-end rows replace them:
+
+| Ledger | Option | 2030-39 mid (range) | 2040 effect (% of GDP) | Who pays |
+| --- | --- | --- | --- | --- |
+| C39 | REV-TS12: cap the value of itemized deductions at 28% above $450K | 0.40 (0.25-0.55), unscored | 0.093 | Households above $450K |
+| C40 | REV-HP1: CEO-to-median pay-ratio surtax, with contract and franchise workers counted in the median | 0.08 (0.04-0.15) | 0.018 | Corporations above $100M receipts (25/75 convention) |
+| C41 | REV-HP3: 21% excise on top-five officers' pay above $1M, pay defined as in 162(m) | 0.06 (0.03-0.10) | 0.014 | About 7,500 executives and their firms |
+
+Together about $0.54T. With them the general fund runs a primary surplus from 2040 (index/fiscal-long-term-model.md). On the incidence model (scenario Q) every quintile below the top still comes out ahead; the fourth quintile nets about +$1,269 a year (P: +$1,304, because a quarter of HP1 is counted on workers), and 72% of new general-fund revenue comes from the top 1% and corporations. **REV-SC1 is held in reserve** as the first fallback if TS12 scores low (at the bottom of every range the three rows fall just short of the 2040 shortfall they were sized against). **REV-HP2 is folded into REV-TS1's drafting** rather than counted separately. TS12 needs a joint score with G3, G9, C18 and SALT before drafting.
 
 **Needs before drafting:** fresh JCT-style scores for TS1, TS2 and TS3 (TS3's Green Book components were verified Oct 20; the rough 2030-39 score holds at 0.13) against the post-2025-law baseline (they are three-quarters of the package), and a joint score of TS1 with G1.
 
 ### High-pay guardrails (Oct 20, options; not in C38 or any total)
 
-Espen, Oct 20: "better guardrails on very high corporate pay (esp non wage pay) seem like a growing area of need in the economy." REV-TS1 (162(m) for every employee) is the base instrument, because it reaches stock awards, options and bonuses as well as salary. These are companions, filed once here. Scores are rough (window 2030-39, trillions).
+Espen, Oct 20: "better guardrails on very high corporate pay (esp non wage pay) seem like a growing area of need in the economy." REV-TS1 (162(m) for every employee) is the base instrument, because it reaches stock awards, options and bonuses as well as salary. These are companions, filed once here. Scores are rough (window 2030-39, trillions). **Status (Oct 20, Decision Brief 2):** HP1 and HP3 accepted (ledger C40 and C41); HP2 folded into TS1's drafting; HP4 stays an option.
 
 | ID | Option | 2030-39 mid (range) | Basis | Note |
 | --- | --- | --- | --- | --- |

@@ -6,6 +6,8 @@ This is a first pass at the test Dec. D3 sets: every income group below the top 
 
 **Planning basis (Decision Brief 1, Oct 20): scenario P.** Package B (C18, C35, C19b, C20) plus the top-end sprint package C38 (REV-TS1 to TS11, about $0.89T, mostly corporate and top-1% items) is now the planning basis; the program trims are not yet decided and are left out. Every quintile below the top comes out ahead: Q1 +$10,952, Q2 +$9,429, Q3 +$5,867 and **Q4 +$1,304** a household a year on the ten-year average, and 72% of the new general-fund revenue comes from the top 1% and corporations. Q4 is still behind in 2030 (about −$1,509), roughly even in 2031 (+$380) and +$1,800 by 2034. The 2030 dip is the remaining D3 exposure; its levers are unchanged (start C19b with the public option in 2031, or front-load the dividend).
 
+**Decided package (Decision Brief 2, Oct 20): scenario Q.** Scenario P plus three top-end rows that replace the program trims: REV-TS12 (a 28% cap on itemized deductions above $450K, C39), REV-HP1 (the CEO pay-ratio corporate surtax, C40) and REV-HP3 (an excise on top-officer pay, C41), about $0.54T. No trim is taken, so universal meals (EDU-3) and Medicare dental (C5 declined) stay. Every quintile below the top comes out ahead: Q1 +$10,947, Q2 +$9,419, Q3 +$5,847 and **Q4 +$1,269** a household a year on the ten-year average (P: +$1,304); the new rows fall on the top quintile, above all the top 1% (−$570,874 against −$541,416 on P). 72% of new general-fund revenue comes from the top 1% and corporations (P: 72%). Q4 in 2030 is −$1,539, then +$349 in 2031 and +$1,794 by 2034.
+
 **What changed in v1.4 (later on Oct 20, Espen's decisions).** The carbon fee moves to the durability session's price path ($25 a ton in 2030 rising to about $100 by 2037, road fuels still exempt): the fee is $1.35T, the Climate Dividend $1.08T and the low-income share of the transition money $0.108T over ten years, and all three now follow the fee's own year profile (low early, rising), so the fee's bite in 2030-31 is smaller than on the old path, and so is the early dividend. C35 (the estate tax) is restated as the ~$0.15T increment beyond G9. **Effects:** on scenario B the fourth quintile's ten-year average moves from +$779 to +$756 (the fee grows by $0.10T and the dividend plus low-income share by $0.09T; every quintile still comes out ahead). In 2030 the fourth quintile improves by about $100 (−$1,926 to −$1,823), and 2031 turns slightly positive; the first quintile gives up about $90 in 2030 because the early dividend is smaller too. Front-loading the dividend (paying the 2030 dividend at the 2031 rate from a Treasury advance repaid from later receipts) is the lever if that matters.
 
 **What changed in v1.3 (Oct 20, education batch).** Education moved to its own domain file (domains/domain-education.md):
@@ -41,6 +43,7 @@ Net = benefits minus costs, dollars per household per year, 2030-39 average.
 | G. EDU-9B education fund as the closer in place of C19 and C20 | +$11,111 | +$9,371 | +$5,600 | +$613 | −$36,977 | −$12,447 | −$503,054 | 83% | Yes |
 | H. B plus the estate tax (C35) | +$10,691 | +$9,035 | +$5,314 | +$756 | −$37,077 | −$12,089 | −$511,843 | 70% | Yes |
 | P. Planning basis: Package B plus the sprint package (C18, C35, C19b, C20, C38; trims not yet decided) | +$10,952 | +$9,429 | +$5,867 | +$1,304 | −$38,835 | −$12,383 | −$541,416 | 72% | Yes |
+| Q. Decided (Decision Brief 2): P plus TS12, HP1 and HP3 (C39-C41); no trims | +$10,947 | +$9,419 | +$5,847 | +$1,269 | −$40,693 | −$12,789 | −$570,874 | 72% | Yes |
 
 Scenario B adds the options that reach households: C18, C19 (median), C20 and C5. The other options (C17, C21, C29-C34, C36) do not reach households directly through a tax. Scenario G swaps C19 and C20 for EDU-9B (its contribution EDUP, its added benefits EDUB, and the estate tax dedicated to the fund). Scenario A fails D4 (the gap is unfunded) and is shown for comparison only.
 
@@ -182,6 +185,9 @@ The ledger now carries a dynamic sensitivity table (not in any total): under CBO
 | C19b | Cap the employer health exclusion at the 75th percentile (CBO alt. 2, scaled) | cost | 0.66 | exclusion_cap | ledger option |
 | C20 | 1-point surtax above $100K/$200K | cost | 0.67 | surtax | ledger option |
 | C38 | Top-end sprint package REV-TS1 to TS11, net of a 10% haircut (corporate items on the 25/75 convention) | cost | 0.89 | wages, capital, estate, above400k, capital, above450k | ledger option |
+| C39 | 28% cap on the value of itemized deductions above $450K (REV-TS12; Decision Brief 2) | cost | 0.4 | above450k | ledger option |
+| C40 | CEO pay-ratio corporate surtax (REV-HP1; 25/75 convention; Decision Brief 2) | cost | 0.08 | wages, capital | ledger option |
+| C41 | 21% excise on top-officer pay above $1M (REV-HP3; executives in the top 1%; Decision Brief 2) | cost | 0.06 | billionaires | ledger option |
 | C5 | Dental starts after the window | benefit | -0.3 | medicare | ledger option |
 | SAFR2 | SAF-R2: drop the alcohol excise (replaced with top-end revenue, not modeled here) | cost | -0.07 | alcohol | ledger option |
 | C35 | Estate tax at 2009 parameters, exemption frozen (REV-E1), increment beyond G9 | cost | 0.15 | estate | ledger option |
