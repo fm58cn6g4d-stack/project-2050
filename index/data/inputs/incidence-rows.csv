@@ -16,8 +16,8 @@ package,O2,"SS tax on investment income above $400K, net of haircut",cost,[O2]+[
 package,P1,Paid-leave contribution 0.6%,cost,[P1],wages_cap,,ledger; both halves on workers
 package,C1,Carbon fee (domestic),cost,[C1],energy,,"ledger (durability path, Oct 20); full pass-through to households"
 package,C2,Carbon border adjustment,cost,[C2],consumption,,ledger; full pass-through
-package,MR,Moving America fuel steps and per-mile charge,cost,0.41,gasoline,[MR1]+[MR2],ledger MR1+MR2
-package,MRc,"Moving America truck, rail and aviation charges",cost,0.126,consumption,[MR4]+[MR5],ledger MR4+MR5
+package,MR,Moving America fuel steps and per-mile charge,cost,[MR1]+[MR2],gasoline,,ledger MR1+MR2
+package,MRc,"Moving America truck, rail and aviation charges",cost,[MR4]+[MR5],consumption,,ledger MR4+MR5
 package,PS1,"Safe Everywhere revenue title, durable sources (alcohol $0.07T, fraud assessment $0.012T, firearms and check fees $0.009T)",cost,0.091,alcohol 0.07; consumption 0.021,[PS1],ledger PS1 restated Oct 20; full pass-through
 package,PB,Part B premium increase (a quarter of HLT-2's new benefits),cost,0.3,partb,,estimate from go-big tab (~$18/month)
 package,MA,MA plans' reduced extras after full capture (30% pass-through),cost,-0.3*[HLT-6],ma,,estimate: 30% of HLT-6's $1.25T
