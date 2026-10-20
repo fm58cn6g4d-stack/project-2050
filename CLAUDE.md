@@ -47,6 +47,7 @@ Reciprocity (only rules we'd accept in the minority). Durable instruments: manda
 `index/tools/readme.md` explains each script. Quick version:
 - `bash index/tools/run-all.sh` — rebuild everything in `build/` and diff against `index/`; `--write` to update; `--fetch` to re-download CBO's data (github.com/US-CBO/cbo-data).
 - `index/vote-simulation.md` (run-all) gives the odds the packages and bills pass under each D2 path; its roster (`index/data/inputs/votes-senate.csv`) is the war game's mid-2026 map until the Nov 3 re-baseline.
+- `index/dedicated-funds.md` (run-all, `funds-model.py`) tracks the funds outside the general fund year by year: Social Security and HI over 75 years, paid leave, the Highway Trust Fund's accounts, the carbon dividend, EDU-9B. Trustees inputs are `index/data/inputs/funds-*.csv`; refresh them when the 2027 reports come out.
 - `index/tools/roadmap.md` lists what the tools answer and what comes next. run-all also writes `index/data/dashboard/`, the ledger dashboard's data; after a run that changes it, upload those files to the dashboard (its datasets point at them).
 - `index/check-report.md` (written by run-all) lists documents quoting stale headline figures, unknown IDs, stale phrases, ledger rows that differ from their domain file, and scaled figures re-run. Read it at the start of a session; `index/tools/window.py` restates a figure from another budget window in 2030-39 terms.
 - Input tables live in `index/data/inputs/` (CSV; its readme explains each): ledger bills, revenue, options, conflicts and dynamic sensitivity; incidence keys, rows (amounts are formulas over ledger IDs, so they follow the ledger) and phase-ins; long-term year profiles. Scenario lists stay in `incidence-model.py` and `fiscal-model.py`.
@@ -58,6 +59,6 @@ Commit with a short plain message describing what changed and why. Don't rewrite
 
 ## Open queue
 1. Fresh post-2025-law scores for REV-TS1-TS3 and a joint TS1/G1 score; a score for REV-TS12 (joint with G3, G9, C18, SALT). Refine CAP-7's surge and sustained sizing through the bottom-up agency review (domain-capacity.md open item 2). A sustainability-layer menu for the reported fiscal gap. Later: explore ways to reduce defense over time (domain-national-security.md 1a).
-2. A 75-year Social Security trust-fund module (D8, SS-5) and the SS-10 67-vote comparison.
+2. SS-10 67-vote comparison (needs an SSA score); an SSA score of the D8 package to replace the funds model's provision shapes (the model finds the D8 baseline moves depletion only to about 2038).
 3. D1 re-baseline after the Nov 3 election.
 4. Revenue strategy session on payroll raisers (EDU-9B note); a fiscal tab on the dashboard; non-tax high-pay companions in domain-competition.md; a synthesis plan document.

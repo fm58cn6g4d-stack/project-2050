@@ -15,17 +15,18 @@ What the modeling tools do now, and what is planned next, in order. Each item na
 | Consistency check (`check-project.py`) | Stale figures and phrases in documents, unknown IDs, ledger rows against their domain files, scaled figures re-run |
 | Window rescaler (`window.py`) | A figure from another budget window in 2030-39 terms |
 | Vote simulator (`votes-model.py`) | The odds each package and bill passes under each D2 path, by seat count and holdouts; what the packages lose in the trim |
+| Dedicated-fund engine (`funds-model.py`) | Social Security and HI over 75 years (D8, SS-5), the paid-leave fund's step-up and loan, the Highway Trust Fund's accounts, the carbon dividend by year, the rate EDU-9B would need |
 | Dashboard data (`dashboard-data.py`) | The live ledger dashboard's data files, regenerated on each run |
 
 ## Next, in order
 
-1. **Dedicated-fund engine.** Year-by-year balances for the funds the general-fund ledger leaves out: the paid-leave fund and its step-up toward 0.85%; Social Security and Medicare HI over 75 years (the module D8 and SS-5 need); the Highway Trust Fund's three accounts; the carbon fee's dividend and transition channel; the held education fund (EDU-9B) if it is taken up.
-2. **Uncertainty and shared packages.** One packages file that the ledger, incidence and fiscal models all read (today each keeps its own scenario list). Then a simulation of the gap and the D3 and D4 tests with correlated draws (the Medicare Advantage savings split between the general fund and HI, revenue overlap, take-up) and discrete risks (G8 failing to score, leave take-up), reporting the chance each test passes rather than one midpoint.
-3. **Model upgrades.**
+1. **Uncertainty and shared packages.** One packages file that the ledger, incidence and fiscal models all read (today each keeps its own scenario list). Then a simulation of the gap and the D3 and D4 tests with correlated draws (the Medicare Advantage savings split between the general fund and HI, revenue overlap, take-up) and discrete risks (G8 failing to score, leave take-up), reporting the chance each test passes rather than one midpoint.
+2. **Model upgrades.**
    - *Incidence v2:* D3's pass/fail at years five and ten; the top 10%, 1% and 0.1%; leave at the 0.85% cap; EXE-14B's tariff repeal; typical households inside the fourth quintile; published TPC and CBO distribution tables in place of pattern keys.
    - *Reconciliation vehicle checker:* each bill's Byrd out-year test (permanent spending against revenue on the same bill), PAYGO, the pairing rule, and a Byrd register of provisions at risk. It will use the R2 revenue placement (Oct 20).
+   - *Dedicated funds:* a year-by-year Trustees HI table in place of the summary rates; SSA scores of the D8 package and of SS-10 in place of the provision shapes.
    - *Fiscal fixes:* health provisions' start years, demographic growth for the benefit rows, interest-rate feedback, an AI payroll stress case, the debt-limit date, a fiscal-impulse view, contingent liabilities (Judgment Fund, reinsurance), and NSC-1's alternative bases.
 
 ## Retired
 
-The two code-handoff notes from Oct 19 set up a chat-to-Code workflow through the claude.ai Project; the repo replaced it on Oct 20. Their jobs are done or carried above: Job 0 (reproduce) is `run-all.sh`; Job 1 (linter) and Job 2 (reconcile) are `check-project.py`; Job 3 (one-command rebuild, incidence reading the ledger) is `run-all.sh` with `incidence-rows.csv`; Job 4 (incidence v2) is item 3 above. The notes are in git history.
+The two code-handoff notes from Oct 19 set up a chat-to-Code workflow through the claude.ai Project; the repo replaced it on Oct 20. Their jobs are done or carried above: Job 0 (reproduce) is `run-all.sh`; Job 1 (linter) and Job 2 (reconcile) are `check-project.py`; Job 3 (one-command rebuild, incidence reading the ledger) is `run-all.sh` with `incidence-rows.csv`; Job 4 (incidence v2) is item 2 above. The notes are in git history.

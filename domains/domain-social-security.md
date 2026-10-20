@@ -19,7 +19,7 @@ The 2026 Trustees report puts the 75-year deficit at **4.42% of taxable payroll*
 | | **Baseline, net** | **about +2.9 to +3.2** after the SS-2 haircut (+3.1 to +3.4 before) | estimate (interactions ignored) |
 | | **Share of the 4.42% gap** | **about 65% to 72%** (70-77% before the haircut) | |
 
-**The baseline does not reach 75-year balance.** Depletion moves out by decades (needs a score), but a gap of about 1.2-1.5% of payroll remains after the stacking haircut. The closers below cover it.
+**The baseline does not reach 75-year balance.** A gap of about 1.2-1.5% of payroll remains after the stacking haircut, and because SS-1 and SS-2 start small and grow (their thresholds are unindexed), depletion moves out only a few years: to about 2038 on the baseline and about 2072 with SS-5 (estimate, index/dedicated-funds.md, on the 2026 Trustees' rates; an SSA score would replace the model's provision shapes). The closers below cover the gap.
 
 ## Closers (choose at least one)
 

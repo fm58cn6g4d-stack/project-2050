@@ -1,0 +1,7 @@
+year,cost_rate,income_rate,basis
+2026,3.49,3.49,"sourced: 2026 Medicare Trustees Report, HI cost and income rates, % of HI taxable payroll, intermediate (years published; interpolated between)"
+2040,4.47,,
+2045,4.54,,
+2050,4.58,,
+2085,4.99,,
+2100,4.86,4.51,

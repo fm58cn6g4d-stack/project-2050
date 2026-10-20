@@ -22,6 +22,11 @@ Conventions:
 | `fiscal-profiles.csv` | ledger row's year profile (`table` = bill, base revenue or option) | the long-term fiscal model |
 | `votes-bills.csv` | bill or package provision that faces a vote: Democratic objection rate by archetype, Republican crossover, House exposure, carve-out flag, basis | the vote simulation |
 | `votes-senate.csv` | Democratic senator or race: archetype, margin, and which seat-count scenarios (51-54) include it | the vote simulation |
+| `funds-ss-rates.csv` | year 2026-2100: OASDI income and cost rates (% of taxable payroll), 2026 Trustees intermediate | the dedicated-fund engine (Social Security) |
+| `funds-ss-economics.csv` | Trustees anchor year: taxable payroll, GDP, the trust-fund interest factor (interpolated between) | the dedicated-fund engine (all funds' payroll and interest) |
+| `funds-ss-provisions.csv` | D8 provision (SS-1 to SS-5): side, 75-year value, shape over time, start year, the ledger rows holding its ten-year figure | the dedicated-fund engine (Social Security scenarios) |
+| `funds-hi-rates.csv` | year the Medicare Trustees publish an HI cost or income rate | the dedicated-fund engine (HI) |
+| `funds-parameters.csv` | one parameter (reserves, leave rule, carbon dividend share, population, EDU-9B base), each with its basis | the dedicated-fund engine |
 | `fiscal-years.csv` | row with a year-by-year path ($B, 2030-39) that overrides its profile | the long-term fiscal model |
 
 ## Figures that come from elsewhere
