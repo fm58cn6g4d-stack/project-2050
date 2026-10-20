@@ -256,7 +256,7 @@ LAB-5, LAB-8 and LAB-9 (on its R2 fallback) ride R2 and survive at 51. Everythin
 
 1. **LAB-9 needs a score.** It is the file's largest dollar row, paid for at maturity under D4-B.
 2. **Byrd check** for LAB-9 in R2.
-3. **LAB-9D's floor time.** The bipartisan authorization uses regular-order floor days the ledger does not count (it carries LAB-9 on the R2 fallback).
+3. **LAB-9D's floor time.** The bipartisan authorization is its own regular-order row in the ledger (LAB-9D, about 2 floor days on the bipartisan fast track, estimate); LAB-9's cost stays on the R2 fallback row until an authorization passes.
 4. **Right-to-work override** (LAB-1A vs 1B): Espen's call.
 5. **LAB-8B:** Espen's call.
 6. **AI-4E's pairing with this file:** if AI-4E is taken, decide whether it rides with LAB-5 (R2) or AI-4's benefit (R3).

@@ -17,7 +17,7 @@ All figures are ten-year totals for 2030-39 in trillions unless a table says $B.
 | CAP-5 | Earmarks | Restore transparent, competitively awarded, capped earmarks | 0.00 | FL | ◐ | Yes |
 | CAP-6 | Statute-tracking office | Nonpartisan office tracking judicial readings and drafting overrides | 0.00 | AP | ◐ | No |
 | CAP-7S | Agency rebuild surge | ~$0.6T front-loaded into FY2030-35, borrowed inside the D4-B envelope (C42); per-agency allocation below | 0.60 (0.45-0.75) | AP | ◐ | Partly |
-| CAP-7 | Sustained capacity increase | ~0.12% of GDP from FY2032, permanent, with statutory staffing floors | 0.49 (0.40-0.60) | AP | ◐ | Partly |
+| CAP-7 | Sustained capacity increase | Steps up over FY2030-32 (about $15B, $31B, $49B) to ~0.12% of GDP, then tracks GDP; permanent, with statutory staffing floors | 0.49 (0.40-0.60) | AP | ◐ | Partly |
 | CAP-8 | Schedule Policy/Career prohibition | Statutory prohibition; the executive rescission is EXE-17 | 0.00 | FL | ◐ | Yes |
 | CAP-9 | Civil service modernization | Real performance management with real political insulation | 0.00 (0.00-0.01) | FL | ◐ | No |
 | CAP-10 | Successor architecture | Development and education functions rebuilt, enforcement separated from policy | 0.00 | FL | ◐ | No |
@@ -29,7 +29,7 @@ All figures are ten-year totals for 2030-39 in trillions unless a table says $B.
 | CAP-16 | Committee jurisdiction | Realignment for AI, climate and cyber | 0.00 | RU | ✔ | Yes |
 | CAP-17 | Legal culture | Congressional clerkships, drafting clinics, legislation courses | 0.00 | X | ✔ | No |
 | CAP-18 | Draft in opposition | All successor legislation and delegation templates written 2027-28 | 0.00 | X | ✔ | — |
-| | **General-fund total** | | **1.15 (0.89-1.49)** | | | |
+| | **General-fund total** | | **1.15 (0.89-1.49)**; the ledger carries 1.13 (CAP-7S, CAP-7, and CAP-8 for the congressional and civil-service rows), with CAP-13 unscored and in no total | | | |
 
 The congressional-capacity items (CAP-1 to CAP-6, CAP-14, CAP-15) total about $0.03-0.07T — a few percent of the agency rebuild, and the cheapest high-leverage spending anywhere in the project.
 

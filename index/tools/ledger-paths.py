@@ -6,7 +6,7 @@ fl=[b for b in bills if b['rail']=='FLOOR']
 contested=[b for b in fl if b['floor_days']>0 and b['id']!='D2-RULES']
 carve={'DEM-1','DEM-5','DEM-6'}            # electoral and civil-rights package (with its riders), DC, PR
 topfights=['DEM-1','DEM-5','LAB-1','RTS-1','HLT-3','SS-1']  # assumed minority priority fights under C
-fast={'INT-1','CAP-8'}  # bipartisan-reported, one-day fast track (C27)
+fast={'INT-1','CAP-8','LAB-9D'}  # bipartisan, on the fast track (C27; LAB-9D's authorization)
 def total(fn):
     days=recon+approps+4  # D2 rules vote
     passed=0

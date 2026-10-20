@@ -303,7 +303,7 @@ This is the domain where D2 bites hardest. Eleven of the fourteen representation
 
 ## Dependencies
 
-- **D2:** everything ◐ above. D2 is decided: F, adopted in week one of 2029; the ledger's floor-day figures are modeled on F (170 floor days against 163), with C the opening offer and G the written fallback.
+- **D2:** everything ◐ above. D2 is decided: F, adopted in week one of 2029; the ledger's floor-day figures are modeled on F (172 floor days against 163), with C the opening offer and G the written fallback.
 - **D1:** DEM-1 must-pass by mid-2030; DEM-3, DEM-4 and DEM-9 are one second-term package, 2033 with the one-off 2034 redraw; DEM-2's ban must carry the exception that permits it.
 - **D4:** DEM-17 is time-limited capital, borrowed for inside the D4-B investment envelope (C32).
 - **Amendments file:** AMD-3 is the amendment vehicle for DEM-9; AMD-6 is the 23rd Amendment repeal after DEM-5; AMD-5 is the right to vote under DEM-1.

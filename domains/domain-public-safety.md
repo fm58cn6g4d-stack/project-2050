@@ -61,7 +61,7 @@ The doc also sizes **state and local costs at about $8.5B a year** (states about
 2. **The deployment-savings piece of the revenue package is probably not revenue.** D9 holds defense roughly flat in real terms. Ending domestic deployments frees money *inside* the defense budget. It moves nothing to public safety unless the defense topline is cut by the same amount. The savings sit inside the flat defense line (NSC-1), so counting them in PS1 as well would count them twice. **Recommendation:** leave the deployment piece out of PS1 (as the ledger does), or book it as a matching cut to NSC-1. The bill tab sizes it at about $1.1B a year (CBO: $93M a month for ongoing deployments) and itself rates it "low as a lasting source," since the savings last only while deployments would otherwise continue. Section 1207's bar on routine domestic deployments stays in the bill as policy. Only its revenue credit is dropped. The figures above already exclude it.
 3. **The Crime Victims Fund receipts are a reallocation, and the trust fund conflicts with D4.**
    - *Section 1206* deposits unobligated False Claims Act recoveries (up to $0.75B a year) in the Crime Victims Fund. Those recoveries otherwise reach the Treasury, so the deposit moves general-fund money; it does not raise any. The bill tab itself calls the line volatile ($6.8B of recoveries in FY2025, under $3B the year before). The deposit can stay as a funding mechanism for SAF-7's victim-services floor. It is counted as a general-fund cost, not channel revenue.
-   - *Section 1208* creates a Safe Communities Trust Fund to hold the Section 1201-1205 receipts. D4 bars a new trust fund "just to hold a pay-for." Design rule 2 allows one only where a permanent benefit has a *natural* revenue stream. An alcohol excise paying for clearance grants is a pay-for, not a natural stream. **Recommendation:** drop Section 1208. Fund the titles as mandatory spending (SAF-10A) and send the receipts to the general fund, attributed to the program in the statute (legibility). That is the same structure the revenue audit set for every other channel. It also answers the bill tab's own caution that dedicating these receipts to discretionary programs "would take a trust fund or mandatory funding."
+   - *Section 1208* creates a Safe Communities Trust Fund to hold the Section 1201-1205 receipts. D4 bars a new trust fund "just to hold a pay-for." Design rule 2 allows one only where a permanent benefit has a *natural* revenue stream. An alcohol excise paying for clearance grants is a pay-for, not a natural stream. **Decided (Espen): Section 1208 is dropped.** The titles are funded as mandatory spending (SAF-10A), and the receipts go to the general fund, attributed to the program in the statute (legibility). That is the same structure the revenue audit set for every other channel. It also answers the bill tab's own caution that dedicating these receipts to discretionary programs "would take a trust fund or mandatory funding."
 
 ## SAF-1 to SAF-9: designs
 
@@ -212,13 +212,12 @@ Each plank's chosen design is Safe Everywhere's text. Below are the IDs, the veh
 | Staging 3.6; DEM-14 | SAF-8 |
 | Staging 5.10 | EXE (one statute); SAF-2 references it |
 | Staging 13.9 | SAF-9 |
-| Ledger rows now | SAF-1 (the rules bill, 6 days); SAF-10 in R3 as mandatory spending (no floor days); PS1 at durable sources only (~$0.09T); general-fund residual ~0.03 (0.01-0.05). Section 1208's trust fund is dropped in this file, pending Espen (open item 2) |
+| Ledger rows now | SAF-1 (the rules bill, 6 days); SAF-10 in R3 as mandatory spending (no floor days); PS1 at durable sources only (~$0.09T); general-fund residual ~0.03 (0.01-0.05). Section 1208's trust fund is dropped |
 
 ## Open items
 
 1. **Byrd check, title by title,** for SAF-10A. Section 1101's formula and Title III are the strongest candidates; Titles II and V's grant conditions are the weakest.
-2. **Deployment savings and Section 1208:** this file drops the deployment credit and the trust fund (changes 2 and 3), and the ledger's PS1 already leaves the deployment credit out. Espen's call to confirm.
-2a. **Alcohol excise or top-end revenue (SAF-R2):** Espen's call. The incidence model puts dropping the excise at about $60 a year for the fourth quintile, with about $0.07T moved onto the top-end base.
+2. **Alcohol excise or top-end revenue (SAF-R2):** Espen's call. The incidence model puts dropping the excise at about $60 a year for the fourth quintile, with about $0.07T moved onto the top-end base.
 3. **Move Safe Everywhere to sources/** (proposed). Its content is unchanged; only the role changes.
 4. **SAF-11 cannabis option** (A, B or C): Espen's call.
 

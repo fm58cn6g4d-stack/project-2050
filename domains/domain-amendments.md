@@ -30,7 +30,7 @@ Realistically this list holds about one plausible amendment in twenty years (sta
 | AMD-10 | Ratification operations | ST | ✔ | Continuous |
 | AMD-11 | Subject-limited convention applications as leverage | ST | ✔ | **Hold until AMD-9 is law** (see below) |
 
-**Floor days.** None in the baseline. Proposing an amendment takes a two-thirds vote that is not available, and a messaging vote costs floor time the first Congress lacks (the plan already needs about 170 floor days under F against a 163-day budget). One option: **AMD-1B**, a single recorded vote on AMD-1 in the first Congress, about one floor day (estimate), as a commitment device for 2030 candidates.
+**Floor days.** None in the baseline. Proposing an amendment takes a two-thirds vote that is not available, and a messaging vote costs floor time the first Congress lacks (the plan already needs about 172 floor days under F against a 163-day budget). One option: **AMD-1B**, a single recorded vote on AMD-1 in the first Congress, about one floor day (estimate), as a commitment device for 2030 candidates.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -162,7 +162,7 @@ This is ✔: no federal vote. It runs alongside DEM-8's compact campaign, which 
 ## Open items
 
 1. **Find Espen's seven-amendment agenda** (ratification strategy and whip arithmetic) and fold it in as options.
-2. **AMD-9 in the first Congress?** It adds about 2 floor days (estimate) to a calendar already over budget (170 days under F against 163). It is defensive and possibly bipartisan, so it may fit as a 60-vote bill.
+2. **AMD-9 in the first Congress?** It adds about 2 floor days (estimate) to a calendar already over budget (172 days under F against 163). It is defensive and possibly bipartisan, so it may fit as a 60-vote bill.
 3. **AMD-1B:** whether to spend one floor day on a recorded vote.
 4. **Re-source the balanced-budget application count** before AMD-9 is drafted.
 

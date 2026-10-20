@@ -55,7 +55,7 @@ D2 is decided (Decision Brief 1): path F, graduated cloture with Block 3's minor
 | 1.3 | Path C. Talking filibuster with a speech budget: blockers need 41 present and voting, quorum presumed, 10 amendments per side, dilatory motions limited, optional majority-cloture backstop after N session days | RU | ① | ◐ | Replaces the old “restore the talking filibuster, burden on 41.” Senate doc: a minority can hold a bill about 2-5 weeks (est.). Strongest reciprocity answer among the options that restore majority governance. **D2: the opening offer**, with a 15-day backstop. |
 | 1.4 | Path D. Uncapped talking filibuster | RU | ① | ◐ | The minority can block indefinitely (the 1964 filibuster ran 60 working days); likely stalls its top fights, such as DC statehood and election law. Modeled for completeness. |
 | 1.5 | Path E. Full elimination: majority cloture after normal debate | RU | ① | ◐ | Fastest and least reciprocal: a future Republican majority gets the same power with no delay. About 30 floor days for 20 contested bills (Senate doc, est.). |
-| 1.6 | Path F. Graduated cloture: 60, 57, 54, then a majority over four votes, about 4.5 session days, with minority guarantees | RU | ① | ◐ | The declining-threshold model from Instruments and Consequences. About 90 floor days for 20 contested bills (Senate doc, est.); bipartisan committee-reported bills skip the ladder. **D2: decided**, with 1.8's guarantees; the ledger counts 170 first-Congress floor days under F against 163. |
+| 1.6 | Path F. Graduated cloture: 60, 57, 54, then a majority over four votes, about 4.5 session days, with minority guarantees | RU | ① | ◐ | The declining-threshold model from Instruments and Consequences. About 90 floor days for 20 contested bills (Senate doc, est.); bipartisan committee-reported bills skip the ladder. **D2: decided**, with 1.8's guarantees; the ledger counts 172 first-Congress floor days under F against 163. |
 | 1.7 | Path G. Democracy-and-elections carve-out only (nominations-precedent model) | RU | ① | ◐ | **D2: the written fallback.** Under G only the carve-out (DEM-1 with its riders, DEM-5, DEM-6) passes (ledger path table). Nineteen Months puts expected enactments at 8.1 of 27 bills against 26.3 with full reform (as cited in the Dec. D2 table). |
 | 1.8 | Minority guarantees and reciprocity: 10 guaranteed germane amendments per side, no filling the tree, equal time, and a rule that applies “without regard to which party holds the majority,” stated on the record | RU | ① | ◐ | Merges the old “reciprocity declaration” row into the rule text (Senate doc sec. 301-303). Block 3; adopted with F under D2. |
 | 1.9 | Reconciliation dial: R1 as now, R2 narrowed to deficit reduction now, or R3 narrowed from January 2031 | RU | ② | ◐ | D2: reconciliation stays as now; any narrowing variant is settled with the adoption resolution. Dec. D5 routes the fiscal agenda through three reconciliation bills, so narrowing before summer 2030 would remove the backstop. Senate doc: only the January 2031 variant fits, and only beside a working majority path. |
@@ -416,7 +416,7 @@ Delivery is mostly transfers, which is the submerged-state failure mode; structu
 | ② | 60 |
 | ⟳ | 20 |
 
-Regular-order bills in the first Congress (FL, ①): 80. The ledger groups them into 20 contested regular-order bills and counts the first Congress at 170 Senate floor days under path F against a budget of 163.
+Regular-order bills in the first Congress (FL, ①): 80. The ledger groups them into 21 contested regular-order bills and counts the first Congress at 172 Senate floor days under path F against a budget of 163.
 
 ## What the dual tag shows
 
@@ -544,7 +544,7 @@ Regular-order bills in the first Congress (FL, ①): 80. The ledger groups them 
 - **Slaughter changes the design space more than any other 2026 event.** Five rows (5.5, 5.13, 5.16, 7.3, 12.6) depend on bodies that can no longer lean on removal protection; they are redesigned with structure or placement.
 - **Two 2026 decisions weaken old rows:** Callais narrows what Section 2 guarantees (3.2, 2.3), and NRSC removes party-coordination limits (7.4).
 - **Capacity still gates the list.** Sections 8 and 9 plus Dec. D9’s agency rebuild (the CAP-7S surge and the sustained CAP-7) are the precondition for most of Section 10; domain-capacity.md allocates it by agency as an unsourced first split, pending a bottom-up review.
-- **The first-Congress calendar is still over budget.** Under path F the ledger counts 170 floor days against 163; this file supplies the ✔ list, and the overrun closes through merges or more floor days.
+- **The first-Congress calendar is still over budget.** Under path F the ledger counts 172 floor days against 163; this file supplies the ✔ list, and the overrun closes through merges or more floor days.
 - **Still thin:** federalism (the conditional-funding lever is NFIB-exposed at 2.6), the opposition’s counter-moves (partly addressed by 2.5, 4.16 and 18.11), cost and financing of Sections 7, 8, 12 and 15 (unscored), and failure modes when the Court strikes several items at once.
 
 ## Held or dropped

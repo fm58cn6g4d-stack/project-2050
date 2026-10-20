@@ -27,6 +27,7 @@ bill,LAB-1,,out_disc_nondefense,,1,gdp,,,,,
 bill,LAB-5,,out_other_mandatory,2031,1,gdp,2036,0.0,,,Wage-transition credit is temporary
 bill,LAB-8,,out_disc_nondefense,,2,gdp,,,,,
 bill,LAB-9,,out_other_mandatory,,4,gdp,,,,,National service slots build over four years
+bill,LAB-9D,,out_other_mandatory,,1,gdp,,,,,Authorization only; its cost sits in LAB-9
 bill,COM-1,,out_disc_nondefense,,1,gdp,,,,,
 bill,IMM-1,,out_other_mandatory,,3,gdp,,,,,Net saving grows as legalized workers enter the tax base
 bill,AI-1,,out_disc_nondefense,,2,gdp,,,,,

@@ -158,7 +158,7 @@ It is a time-limited surge (2030-36) that tapers to a small permanent line.
 | --- | --- | --- |
 | EDU-6A (chosen) | The three capacity rules, riding CAP-8 | Zero floor days if CAP-8 carries them |
 | EDU-6B | Add a ban on corporal punishment in federally funded programs (legal in about 17 states), as a condition on new money | ◐; drop the private right of action if it rides R2 |
-| EDU-6C | A first-Congress ESEA reauthorization carrying the held items | Adds a contested floor bill (≥4.5 days under F) when the calendar under F is already over budget (170 days against 163) |
+| EDU-6C | A first-Congress ESEA reauthorization carrying the held items | Adds a contested floor bill (≥4.5 days under F) when the calendar under F is already over budget (172 days against 163) |
 
 ## EDU-7. The federal scholarship tax credit
 

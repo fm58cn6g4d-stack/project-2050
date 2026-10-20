@@ -298,7 +298,7 @@ Espen, Oct 20: "better guardrails on very high corporate pay (esp non wage pay) 
 
 ## Dynamic sensitivity (not in any total)
 
-The base and every option here are conventionally scored, and D4 counts no dynamic revenue. index/2029-trifecta-master-ledger.md carries a dynamic sensitivity table (rows DY1 to DY9). Under CBO/JCT-style conventions the agenda's macroeconomic feedback is about **−$0.56T** over 2030-39 (−$1.42T to +$0.28T, estimate); under the Talarico model's assumptions about +$0.55T. The largest row is this file's: taxing corporations and top earners, about −$0.6T (6-12% of ~$7T of top-end revenue). That is the case for keeping GX's 15% haircut and for preferring base broadening (G11, G6) to rate increases; among the accepted rows, C18 carries the most dynamic risk and REV-E1 almost none. On the conventional mid, the ten-year result after every accepted row would be about +$0.48T rather than −$0.08T. The positive rows (care labor supply, immigration, investment) grow after 2039.
+The base and every option here are conventionally scored, and D4 counts no dynamic revenue. index/2029-trifecta-master-ledger.md carries a dynamic sensitivity table (rows DY1 to DY9). Under CBO/JCT-style conventions the agenda's macroeconomic feedback is about **−$0.56T** over 2030-39 (−$1.52T to +$0.33T, estimate); under the Talarico model's assumptions about +$0.70T. The largest row is this file's: taxing corporations and top earners, about −$0.6T (6-12% of ~$7T of top-end revenue). That is the case for keeping GX's 15% haircut and for preferring base broadening (G11, G6) to rate increases; among the accepted rows, C18 carries the most dynamic risk and REV-E1 almost none. On the conventional mid, the ten-year result after every accepted row would be about +$0.48T rather than −$0.08T. The positive rows (care labor supply, immigration, investment) grow after 2039.
 
 ## Further options (education, climate durability and Talarico reviews)
 
@@ -379,8 +379,8 @@ Scenario figures, not scores; each overlaps rows already in the base and would n
 
 Every general-fund revenue row can ride reconciliation; G8 is counted in the base but may not be credited by an official score on any given vehicle (see its note). The base splits across vehicles:
 - **R1:** G1, G7 and G9, paired with health restoration and the Child Tax Credit.
-- **R2:** G3, G11, G5, G6, G10 and the carbon fee (REV-C1), paired with Medicare upgrades, child care, paid leave, education and climate. REV-E1 (C35) belongs here with the education rows (and with G9's estate piece, which it extends).
-- **R3:** REV-C2 with the Thriving Economy add-ons it finances, and whatever closes the gap.
+- **R2:** G3, G11, G5, G6, G10 and the carbon fee (REV-C1), paired with Medicare upgrades, child care, paid leave, education and climate. REV-E1 (C35) belongs here with the education rows (and with G9's estate piece, which it extends). The other accepted revenue that closes the gap rides here too: C18, C20, C38 (REV-TS1 to TS11) and C39-C41 (REV-TS12, REV-HP1, REV-HP3), with C19b written to take effect in 2031, when the public option opens (the lever for the incidence model's 2030 dip). R2 carries most of the agenda's permanent spending, and the Byrd rule tests each bill's out-years on its own, so R2's run rate has to be covered by revenue in R2.
+- **R3:** REV-C2 with the Thriving Economy add-ons it finances.
 
 REV-C2 rides R3 with CLI-5 so the revenue and the spending it covers move on the same bill, which the accounting rule and the legibility rule both favour. The revenue rows need no regular-order floor days. Social Security's revenue (REV-O1, REV-O2) is barred from reconciliation by section 310(g) and rides the regular-order Social Security bill.
 
