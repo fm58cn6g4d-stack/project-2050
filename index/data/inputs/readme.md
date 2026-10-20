@@ -20,6 +20,8 @@ Conventions:
 | `incidence-rows.csv` | household-facing row (`set` = package) or option (`set` = option) | the D3 household test |
 | `incidence-phase-in.csv` | phase-in profile for the year-by-year incidence | the incidence doc's years table |
 | `fiscal-profiles.csv` | ledger row's year profile (`table` = bill, base revenue or option) | the long-term fiscal model |
+| `votes-bills.csv` | bill or package provision that faces a vote: Democratic objection rate by archetype, Republican crossover, House exposure, carve-out flag, basis | the vote simulation |
+| `votes-senate.csv` | Democratic senator or race: archetype, margin, and which seat-count scenarios (51-54) include it | the vote simulation |
 | `fiscal-years.csv` | row with a year-by-year path ($B, 2030-39) that overrides its profile | the long-term fiscal model |
 
 ## Figures that come from elsewhere

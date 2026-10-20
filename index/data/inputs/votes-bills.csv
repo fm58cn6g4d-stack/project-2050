@@ -1,0 +1,60 @@
+id,vehicle,defect_solid,defect_moderate,defect_populist,defect_progressive,gop_pool,gop_prob,house_sweep,carveout,basis,label
+HLT-1,R1,0.005,0.06,0.06,0,0,0,0.2,no,estimate,Health restoration
+HLT-4,R1,0.005,0.06,0.06,0,0,0,0.15,no,estimate,Medicaid and long-term care
+HLT-6,R1,0.005,0.12,0.1,0,0,0,0.3,no,estimate,Medicare payment reform (Medicare Advantage capture)
+FAM-1,R1,0.01,0.18,0.15,0,0,0,0.25,no,war game: ctc,Child Tax Credit
+MOV-29,R1,0.01,0.12,0.2,0,0,0,0.3,no,estimate,Moving America 2029 act (fuel-tax steps)
+REV-R1,R1,0.02,0.25,0.05,0,0,0,0.3,no,war game: rev,"R1 revenue: corporate rate, foreign income, 2025-cut reversal (G1, G7, G9)"
+HLT-2,R2,0.005,0.08,0.05,0,0,0,0.15,no,estimate,Medicare upgrades
+FAM-2,R2,0.005,0.08,0.08,0,0,0,0.2,no,war game: care,Child care and pre-K
+FAM-3,R2,0.005,0.1,0.08,0,0,0,0.18,no,war game: pfml,Paid leave
+EDU-1,R2,0.005,0.06,0.06,0,0,0,0.12,no,war game: edu,K-12 formula funding
+EDU-4,R2,0.005,0.06,0.06,0,0,0,0.12,no,war game: edu,Educator pipeline
+EDU-5,R2,0.005,0.06,0.06,0,0,0,0.12,no,war game: edu,Higher education
+EDU-3,R2,0.005,0.04,0.04,0,0,0,0.1,no,estimate,Universal school meals
+EDU-7,R2,0.01,0.12,0.08,0,0,0,0.2,no,estimate,Scholarship tax-credit repeal
+CLI-1,R2,0.01,0.1,0.15,0,0,0,0.3,no,estimate,Clean-energy credits
+CLI-2,R2,0.01,0.14,0.26,0,0,0,0.38,no,war game: ces,Carbon fee and Climate Dividend (REV-C1)
+HOU-1,R2,0.005,0.06,0.08,0.01,0,0,0.18,no,war game: hou,Housing title
+LAB-5,R2,0.005,0.04,0.04,0,0,0,0.1,no,estimate,Small-business wage credit
+LAB-8,R2,0.005,0.03,0.03,0,0,0,0.05,no,estimate,Apprenticeships
+LAB-9,R2,0.005,0.08,0.08,0,0,0,0.15,no,estimate,National service money (LAB-9A fallback)
+AI-9,R2,0.005,0.06,0.06,0,0,0,0.1,no,estimate,Local journalism credit
+NSC-10,R2,0.005,0.02,0.02,0,0,0,0.05,no,war game: vets,Veterans health
+REV-R2A,R2,0.01,0.2,0.05,0,0,0,0.3,no,war game: tax,"R2 revenue on wealth: mark-to-market, gains at death, estate tax (G11, G6, C35)"
+REV-R2B,R2,0.02,0.25,0.05,0,0,0,0.3,no,war game: rev,"R2 revenue on rates and corporations (G3, G5, G10, C18, C20, C38-C41)"
+REV-C19B,R2,0.01,0.15,0.15,0,0,0,0.35,no,estimate,"Employer health-exclusion cap at the 75th percentile (C19b, from 2031)"
+CLI-5,R3,0.01,0.08,0.1,0,0,0,0.2,no,estimate,Thriving Economy add-ons
+AI-4,R3,0.005,0.08,0.06,0,0,0,0.15,no,estimate,AI wage insurance
+DEM-17,R3,0.005,0.04,0.04,0,0,0,0.08,no,estimate,Community capital fund
+SAF-10,R3,0.01,0.1,0.1,0,0,0,0.25,no,estimate,Safety Compacts
+MOV-30,R3,0.01,0.08,0.1,0,0,0,0.2,no,estimate,Moving America 2030 act
+REV-C2,R3,0.01,0.06,0.05,0,0,0,0.15,no,estimate,Carbon border adjustment (REV-C2)
+DEM-1,FLOOR,0.005,0.04,0.1,0,1,0.3,0.22,yes,war game: ftv,Electoral and civil-rights package
+DEM-5,FLOOR,0.02,0.3,0.5,0,0,0,0.38,yes,war game: dc,D.C. statehood
+DEM-6,FLOOR,0.015,0.15,0.25,0,2,0.15,0.3,yes,war game: pr,Puerto Rico status
+HLT-3,FLOOR,0.01,0.25,0.12,0,0,0,0.42,no,war game: pub,Public option (carries HLT-5)
+LAB-1,FLOOR,0.0298,0.385,0.232,0,2,0.12,0.38,no,"war game: pro + wage (merged, C23)","Labor bill (PRO Act core, living wage)"
+IMM-1,FLOOR,0.02,0.3,0.45,0,4,0.12,0.62,no,war game: imm,Immigration bill
+SAF-1,FLOOR,0.0298,0.325,0.545,0,4,0.18,0.45,no,war game: gun + cj (merged),Safe Everywhere Act (rules)
+COM-1,FLOOR,0.0249,0.31,0.0975,0,4,0.18,0.3,no,"war game: anti + fees (merged, C24)",Competition bill
+INT-1,FLOOR,0.03,0.18,0.1,0.02,3,0.18,0.28,no,war game: eth,Government ethics
+CRT-P1,FLOOR,0.02,0.28,0.15,0,0,0,0.3,no,war game: scotus,Courts package
+RTS-1,FLOOR,0.005,0.15,0.12,0,2,0.15,0.3,no,war game: repro,Reproductive Freedom Act
+RTS-3,FLOOR,0.005,0.12,0.18,0,2,0.12,0.28,no,war game: eq,Equality Act
+EXE-1,FLOOR,0.01,0.08,0.05,0,4,0.2,0.15,no,war game: wp,Executive-power guardrails
+SS-1,FLOOR,0.01,0.18,0.05,0,1,0.05,0.25,no,war game: ss,Social Security (D8 baseline)
+CLI-3,FLOOR,0.01,0.14,0.26,0,2,0.1,0.38,no,war game: ces,Clean Energy Standard and permitting fixes
+CLI-6,FLOOR,0.01,0.12,0.15,0,2,0.1,0.25,no,estimate,Grid and utility statute
+CLI-7,FLOOR,0.005,0.06,0.06,0,6,0.3,0.15,no,estimate,Disaster response and flood insurance
+HOU-7,FLOOR,0.01,0.1,0.12,0,2,0.15,0.2,no,estimate,Housing floor bill (zoning conditions)
+AI-1,FLOOR,0.01,0.1,0.08,0,4,0.2,0.2,no,estimate,AI bill
+LAB-9D,FLOOR,0.005,0.03,0.03,0,10,0.5,0.05,no,estimate,National service authorization (bipartisan)
+CAP-8,FLOOR,0.01,0.08,0.06,0,4,0.25,0.15,no,estimate,Civil service and congressional capacity
+CAP-7S,APPROPS,0.01,0.08,0.08,0,0,0,0.1,no,estimate,Agency rebuild surge
+CAP-7,APPROPS,0.005,0.06,0.06,0,0,0,0.1,no,estimate,Sustained capacity increase
+NSC-1,APPROPS,0.01,0.04,0.04,0.05,0,0,0.1,no,estimate,Defense flat real
+NSC-8,APPROPS,0.005,0.02,0.02,0,0,0,0.1,no,estimate,Pandemic preparedness
+EDU-8,APPROPS,0.005,0.03,0.03,0,0,0,0.1,no,estimate,AI in education and research
+DEM-11,APPROPS,0.005,0.05,0.08,0,0,0,0.1,no,estimate,Election administration funding
+DEM-16,APPROPS,0.005,0.04,0.04,0,0,0,0.1,no,estimate,Civic education grants

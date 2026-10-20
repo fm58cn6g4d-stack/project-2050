@@ -1,0 +1,18 @@
+seat,state,who,cycle,archetype,margin,independent,in_51,in_52,in_53,in_54,note
+sit-1,,Sitting member (institutionalist),sitting,institutionalist,8,no,yes,yes,yes,yes,Counted in the 43 base seats; a reform holdout type
+sit-2,,Sitting member (moderate),sitting,moderate,6,no,yes,yes,yes,yes,Counted in the 43 base seats
+sit-3,,Sitting member (moderate),sitting,moderate,7,no,yes,yes,yes,yes,Counted in the 43 base seats
+GA,Georgia,Sen. Jon Ossoff (inc.),2026 hold,moderate,2.5,no,yes,yes,yes,yes,
+MI,Michigan,Dem. nominee,2026 hold,moderate,2,no,yes,yes,yes,yes,Open seat
+MN,Minnesota,Dem. nominee,2026 hold,solid,6,no,yes,yes,yes,yes,Open seat
+NH,New Hampshire,Rep. Chris Pappas,2026 hold,moderate,4,no,yes,yes,yes,yes,Open seat
+ME,Maine,Graham Platner,2026 flip,progressive,2,no,yes,yes,yes,yes,
+NC,North Carolina,Fmr. Gov. Roy Cooper,2026 flip,moderate,4,no,yes,yes,yes,yes,Open seat
+OH,Ohio (special),Fmr. Sen. Sherrod Brown,2026 flip,solid,1.5,no,yes,yes,yes,yes,Up again in 2028
+WI28,Wisconsin,Dem. challenger to Sen. Ron Johnson,2028 flip,moderate,2,no,yes,yes,yes,yes,
+IA,Iowa,Rep. Josh Turek,2026 flip,moderate,2,no,no,yes,yes,yes,Open seat
+TX,Texas,Rep. James Talarico,2026 flip,moderate,1.5,no,no,no,yes,yes,The Talarico scenario's premise
+AK,Alaska,Fmr. Rep. Mary Peltola,2026 flip,moderate,1,no,no,no,no,yes,
+NE,Nebraska,Dan Osborn (Ind.),2026 flip,populist,1,yes,no,no,no,no,Not in any default scenario
+MT,Montana,Dem. nominee,2026 flip,populist,1,no,no,no,no,no,Not in any default scenario
+NC28,North Carolina,Dem. challenger to Sen. Ted Budd,2028 flip,moderate,1.5,no,no,no,no,no,Not in any default scenario

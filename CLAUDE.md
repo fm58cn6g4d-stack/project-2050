@@ -46,6 +46,7 @@ Reciprocity (only rules we'd accept in the minority). Durable instruments: manda
 ## Tools
 `index/tools/readme.md` explains each script. Quick version:
 - `bash index/tools/run-all.sh` — rebuild everything in `build/` and diff against `index/`; `--write` to update; `--fetch` to re-download CBO's data (github.com/US-CBO/cbo-data).
+- `index/vote-simulation.md` (run-all) gives the odds the packages and bills pass under each D2 path; its roster (`index/data/inputs/votes-senate.csv`) is the war game's mid-2026 map until the Nov 3 re-baseline.
 - `index/tools/roadmap.md` lists what the tools answer and what comes next. run-all also writes `index/data/dashboard/`, the ledger dashboard's data; after a run that changes it, upload those files to the dashboard (its datasets point at them).
 - `index/check-report.md` (written by run-all) lists documents quoting stale headline figures, unknown IDs, stale phrases, ledger rows that differ from their domain file, and scaled figures re-run. Read it at the start of a session; `index/tools/window.py` restates a figure from another budget window in 2030-39 terms.
 - Input tables live in `index/data/inputs/` (CSV; its readme explains each): ledger bills, revenue, options, conflicts and dynamic sensitivity; incidence keys, rows (amounts are formulas over ledger IDs, so they follow the ledger) and phase-ins; long-term year profiles. Scenario lists stay in `incidence-model.py` and `fiscal-model.py`.
