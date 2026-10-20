@@ -1,6 +1,6 @@
 # Domain file: Competition and consumers (COM)
 
-Canonical as of Oct 19, 2026 (batch 3). This file covers merger law, enforcement capacity and the merger-review fee channel, dominant-platform conduct, labor-market competition (the non-compete ban's one home), junk fees and consumer protection, and the CFPB. It replaces Bill Books 13 and 14, ledger rows E9 and E10, staging inventory rows 10.12, 11.2 and 11.3, and the go-big health bill's Title V non-compete provision on substance.
+Canonical (batch 3). This file covers merger law, enforcement capacity and the merger-review fee channel, dominant-platform conduct, labor-market competition (the non-compete ban's one home), junk fees and consumer protection, and the CFPB. It replaces Bill Books 13 and 14, ledger rows E9 and E10, staging inventory rows 10.12, 11.2 and 11.3, and the go-big health bill's Title V non-compete provision on substance.
 
 All figures are ten-year totals for 2030-39 in trillions unless marked. Basis tags: **sourced**, **scaled** and **estimate** (mine). Survival at 51 (Dec. D1): ✔ survives, ◐ needs a D2 majority-precedent path, ✖ needs 60, 67 or Republican votes.
 
@@ -16,7 +16,7 @@ All figures are ten-year totals for 2030-39 in trillions unless marked. Basis ta
 | COM-6 | CFPB durability | Funding source clarified, statutory staffing floor, director structure kept | 0.00 / 0.00 / 0.01 | — | FL | ◐ | 0 | No |
 | | **General-fund total** | | **0.00 / 0.00 / 0.02** | | | | **5** | |
 
-The ledger carries E9 (antitrust, 5 days, merger-fee channel unsized) and E10 (junk fees, merged into E9 under C24). This file changes no total and **sizes the merger-review channel for the first time**, at about $0.004T a side (estimate). It adds COM-6 to the same bill at no extra floor time.
+The ledger carries the whole bill as row COM-1 (E9, with E10's junk fees merged under C24): 5 floor days, and **the merger-review channel at about $0.004T a side** (estimate; revenue row MF1), with COM-6's remittance effect up to $0.01T. COM-6 rides the same bill at no extra floor time.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -50,12 +50,12 @@ The ledger carries E9 (antitrust, 5 days, merger-fee channel unsized) and E10 (j
 - **Fees:** the HSR fee schedule rises about 2x across the tiers, and the FTC and DOJ Antitrust keep every dollar they collect. That ends the cap that cost Antitrust $49M in FY2025.
 - **Monetary relief:** FTC Act section 13(b) is amended to authorize restitution and disgorgement in federal court. *AMG Capital* (2021) removed that power, the FTC's main tool for returning money to defrauded consumers.
 
-**Channel (sized here for the first time).**
+**Channel.**
 - **Current collections:** roughly $0.3-0.4B a year (estimate: about 2,000 filings across the 2026 fee tiers, weighted toward the lower tiers).
 - **Doubling the schedule:** adds about $0.3-0.4B a year, or about **$0.004T over 2030-39** (estimate).
 - **Spending:** that money funds an enforcement increase of the same size, so the channel nets to zero and the general fund carries nothing at the midpoint.
 
-The revenue file's "merger review: unsized" row can take this figure.
+Ledger revenue row MF1 carries this figure.
 
 **Vehicle.** Fees are offsetting collections and could ride R2 if a reconciled committee has jurisdiction (unchecked). The baseline keeps them in the floor bill with the rest of COM-1.
 
@@ -134,7 +134,7 @@ Everything is one floor bill and needs a D2 path. Under G (carve-out only) it fa
 - **Health.** HLT-5 references COM-4 for the non-compete ban.
 - **Labor.** COM-4 is the labor-market competition piece. LAB-1 to LAB-7 are labor law.
 - **Revenue.** The merger-review channel is about $0.004T a side (estimate). COM-5's bank-fee limits are not taxes and are not in the D3 test, but they are a household benefit the incidence model could note.
-- **Capacity (design rule 6).** The FTC and DOJ Antitrust are funded mostly by COM-2's fees. D9's agency list now names both, and CAP-7 allocates about $3B for whatever the fees do not cover (estimate). The CFPB is funded outside appropriations.
+- **Capacity (design rule 6).** The FTC and DOJ Antitrust are funded mostly by COM-2's fees. D9's agency list names both, and the agency rebuild (CAP-7S, CAP-7) allocates about $3B for whatever the fees do not cover (estimate). The CFPB is funded outside appropriations.
 
 ## Design-rule check
 
@@ -154,9 +154,8 @@ Everything is one floor bill and needs a D2 path. Under G (carve-out only) it fa
 | Ledger E9; Bill Book 13; staging 11.3 | COM-1, COM-2, COM-3, COM-4 |
 | Ledger E10; Bill Book 14; staging 10.12 | COM-5 (merged into the E9 bill, C24) |
 | Staging 11.2; go-big Title V non-compete | COM-4 |
-| Ledger MF1 (merger-filing fees, unsized) | COM-2: about $0.004T, estimate |
+| Ledger MF1 (merger-filing fees) | COM-2: about $0.004T, estimate |
 | Staging 11.6, 11.8 | Options, not in the baseline |
-| **New rows needed at the rebuild** | COM-6 inside E9 (no extra days); MF1 sized |
 
 ## Sources
 
@@ -169,4 +168,4 @@ Everything is one floor bill and needs a D2 path. Under G (carve-out only) it fa
 - [Berkeley Center for Consumer Law, en banc D.C. Circuit on the CFPB (June 2026)](https://consumerlaw.berkeley.edu/node/355)
 - [NOTUS, DOJ says the CFPB must get its funding from Congress](https://www.notus.org/economy/doj-cfpb-funding-run-out-2026)
 - archive/wargame-floor-time-bill-book.html, Bills 13 and 14 (ideas only)
-- index/2029-trifecta-master-ledger.md: E9, E10, MF1, C24
+- index/2029-trifecta-master-ledger.md: row COM-1 (E9, E10), MF1, C24

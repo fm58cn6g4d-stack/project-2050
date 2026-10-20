@@ -1,8 +1,8 @@
 # Domain file: Housing (HOU)
 
-Canonical as of Oct 19, 2026 (batch 3; HOU-3 redesigned the same evening at Espen's request). This file covers emergency housing aid, housing tax credits, construction capital, rental assistance, public housing repair, supply incentives and zoning conditions, and a social-housing pilot. It replaces Bill Book 12, ledger row E6 and staging inventory row 10.13 on substance.
+Canonical (batch 3, with HOU-3C as Espen chose it). This file covers emergency housing aid, housing tax credits, construction capital, rental assistance, public housing repair, supply incentives and zoning conditions, and a social-housing pilot. It replaces Bill Book 12, ledger row E6 and staging inventory row 10.13 on substance.
 
-**Oct 20 (Talarico stress test).** One option row is added, **HOU-9, a federal builder of last resort**, from the Talarico scenario model's central housing finding (frameworks/scenario-stress-test-talarico-2029-2037.md): in that model housing "was never a money problem," conditional grants failed in exactly the states that most needed units, and only a direct federal construction institution moved the number. No chosen design or total changes.
+**Option from the Talarico stress test.** One option row, **HOU-9, a federal builder of last resort**, comes from the Talarico scenario model's central housing finding (frameworks/scenario-stress-test-talarico-2029-2037.md): in that model housing "was never a money problem," conditional grants failed in exactly the states that most needed units, and only a direct federal construction institution moved the number.
 
 All figures are ten-year totals for 2030-39 in trillions unless marked. Basis tags: **sourced**, **scaled** (a cited figure moved to 2030-39 or to this program's size) and **estimate** (mine). Survival at 51 (Dec. D1): ✔ survives, ◐ needs a D2 majority-precedent path, ✖ needs 60, 67 or Republican votes.
 
@@ -19,12 +19,12 @@ All figures are ten-year totals for 2030-39 in trillions unless marked. Basis ta
 | HOU-7 | Institutional investor limit made permanent | Remove the ROAD Act's 15-year sunset | 0 | FL (with HOU-6) | ◐ | 0 | No |
 | HOU-8 | Social housing pilot | A mixed-income public development pilot, capitalized through HOU-3 | 0.005 / 0.01 / 0.02 | R2 | ✔ | 0 | No |
 | | **General-fund total** | | **0.34 / 0.47 / 0.62** | | | **3** | |
-| HOU-9 | *Option (Oct 20), not chosen:* federal builder of last resort | A federal housing construction corporation with borrowing authority that builds on federal and acquired land where state and local channels fail | Subsidy cost plus operating; unscored | FL (corporation) + R2 (capital) | ◐ / ✔ | — | No |
+| HOU-9 | *Option, not chosen:* federal builder of last resort | A federal housing construction corporation with borrowing authority that builds on federal and acquired land where state and local channels fail | Subsidy cost plus operating; unscored | FL (corporation) + R2 (capital) | ◐ / ✔ | — | No |
 
-Ledger E6 carries $0.60T (range $0.45T to $0.80T). This file's midpoint is about **$0.13T lower**:
-- **HOU-3 redesign (decided Oct 19):** most of the construction capital is now federal direct loans, which score at their subsidy cost only. That saves about $0.18T against the $0.25T grant baseline.
-- **HOU-2:** sized for the first time, which adds about $0.15T, partly offsetting the saving.
-- **C21 (borrowing):** under the ledger's open option C21, HOU-3's state capitalization grants (about $0.06T) can be financed by borrowing as time-limited capital (D4). The paid-for claim then falls to about $0.41T.
+The ledger carries the reconciliation title as row HOU-1 (old E6) at **$0.47T** (range $0.34T to $0.62T), and the floor bill (HOU-6's conditions and HOU-7) as row HOU-7 at 3 floor days and no cost:
+- **HOU-3C:** most of the construction capital is federal direct loans, which score at their subsidy cost only: about $0.075T, against $0.25T for an all-grant fund of Bill Book 12's size (HOU-3A).
+- **HOU-2:** about $0.15T (estimate).
+- **Borrowing (D4-B envelope):** C21 finances HOU-3's state capitalization grants (about $0.06T) and C31 finances HOU-5's public housing repair (about $0.06T), both as time-limited capital (accepted, Decision Brief 1). The rest, about $0.35T, is a general-fund claim.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -40,7 +40,7 @@ Ledger E6 carries $0.60T (range $0.45T to $0.80T). This file's midpoint is about
 
 **Design.** $85B of rental assistance and construction gap financing (Bill Book 12), spent over 2030-31 through state housing finance agencies and the Emergency Rental Assistance infrastructure. It carries a declared housing emergency in the findings, and the program is named in statute with attribution on every payment (legibility rule).
 
-**Cost.** $0.085T, range $0.06T to $0.10T (the Bill Book's figure is a proposal, not a score; the range is my estimate of spend-out). This is one-time money, so it needs no permanent pay-for, though D4 still counts it against the ten-year gap.
+**Cost.** $0.085T, range $0.06T to $0.10T (the Bill Book's figure is a proposal, not a score; the range is my estimate of spend-out). This is one-time money, so under D4-B it adds nothing to the FY2040 run rate that must be paid for; it still counts in the ten-year general-fund claims.
 
 **Options.**
 
@@ -71,7 +71,7 @@ Ledger E6 carries $0.60T (range $0.45T to $0.80T). This file's midpoint is about
 
 ## HOU-3. Construction capital
 
-**Decided Oct 19 (Espen): HOU-3C, two channels.** The first is about $72B of capitalization grants to state housing revolving funds, sized to what states can stand up and lend within the window, on the clean water and drinking water state revolving fund model. The second is **$300B of federal direct-loan commitments** for mixed-income and social housing. Together the two channels put about $386B behind construction (with the states' 20% match), against Bill Book 12's $250B. They score at about **$0.075T**, against the $0.25T filed baseline.
+**Chosen (Espen): HOU-3C, two channels.** The first is about $72B of capitalization grants to state housing revolving funds, sized to what states can stand up and lend within the window, on the clean water and drinking water state revolving fund model. The second is **$300B of federal direct-loan commitments** for mixed-income and social housing. Together the two channels put about $386B behind construction (with the states' 20% match), against Bill Book 12's $250B. They score at about **$0.075T**, against $0.25T for an all-grant fund (HOU-3A).
 
 ### Channel 1: state housing revolving funds (grants)
 
@@ -88,7 +88,7 @@ Ledger E6 carries $0.60T (range $0.45T to $0.80T). This file's midpoint is about
 - **The ramp (estimate):** $3B in FY2030 while states write intended-use plans and staff up, $5B in FY2031, then $8B a year from FY2032 through FY2039. The peak is about 60% of the water funds' recent level, reached in year three. Total: **about $72B**, plus about $14B of state match.
 - **Pace risk.** Emergency Rental Assistance in 2021 showed that new state programs start slowly (not re-checked). The ramp assumes the same.
 
-**Cost.** Capitalization grants score as outlays as states draw them. Draws lag awards by two to four years, so about 80-100% of the $72B outlays inside 2030-39. That is **about $0.06T, range $0.055T to $0.07T** (estimate). This is time-limited capital, so ledger option C21 (borrowing under D4) still applies, now to about $0.06T instead of $0.25T.
+**Cost.** Capitalization grants score as outlays as states draw them. Draws lag awards by two to four years, so about 80-100% of the $72B outlays inside 2030-39. That is **about $0.06T, range $0.055T to $0.07T** (estimate). This is time-limited capital, so ledger option C21 (accepted, Decision Brief 1) finances it by borrowing inside the D4-B investment envelope.
 
 ### Channel 2: federal direct loans
 
@@ -106,10 +106,10 @@ Ledger E6 carries $0.60T (range $0.45T to $0.80T). This file's midpoint is about
 
 | Option | Design | General-fund cost | Basis |
 | --- | --- | --- | --- |
-| HOU-3C (chosen Oct 19) | About $72B of state revolving-fund grants (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans through state agencies | About 0.075 (0.061-0.10) | estimate; benchmarked to the water funds' capitalization (CRS); needs CBO's subsidy rate |
-| HOU-3A | $250B of capitalization grants to state revolving funds | 0.25 (borrowing allowed under C21) | Bill Book proposal; the old ledger baseline |
+| HOU-3C (chosen) | About $72B of state revolving-fund grants (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans through state agencies | About 0.075 (0.061-0.10) | estimate; benchmarked to the water funds' capitalization (CRS); needs CBO's subsidy rate |
+| HOU-3A | $250B of capitalization grants to state revolving funds | 0.25 (borrowing allowed under C21) | Bill Book proposal |
 | HOU-3B | $250B of federal direct loans only | About 0.03 (0.01-0.05) | estimate |
-| HOU-3D | An even split: $125B of grants, $125B of loans | About 0.14 | estimate; recommended earlier Oct 19 and superseded by C |
+| HOU-3D | An even split: $125B of grants, $125B of loans | About 0.14 | estimate; not chosen |
 
 **Why C.** It reaches the deepest-affordability projects through the forgivable share of the state funds. It builds lasting state lending capacity that keeps recycling after 2039. It puts most of the volume in loans that come back. The grant channel is sized to what states can administer rather than to a round number. The loan channel is larger because its constraint is origination capacity, which the risk-share widens, not budget cost.
 
@@ -135,7 +135,7 @@ Ledger E6 carries $0.60T (range $0.45T to $0.80T). This file's midpoint is about
 
 **Cost.** About $0.06T, range $0.05T to $0.07T (scaled from the FY2026 level). Against a backlog of $80B to $169B, ten years at this level closes roughly a third to two-thirds of it.
 
-**D4 reading.** A time-limited repair program is plausibly time-limited capital, so borrowing could finance it, as with C30 for Moving America. That would be a new reading (call it C31) and is Espen's call. It is not assumed here.
+**D4 reading.** A time-limited repair program is time-limited capital, so it is financed by borrowing inside the D4-B investment envelope (ledger C31, accepted in Decision Brief 1), as C30 does for Moving America.
 
 ## HOU-6. Housing Supply Fund and zoning conditions
 
@@ -163,7 +163,7 @@ Ledger E6 carries $0.60T (range $0.45T to $0.80T). This file's midpoint is about
 
 **Fit with HOU-3.** This pilot is the first borrower in HOU-3's direct-loan channel. If it works, it is the model for scaling social housing through that channel in the 2030s.
 
-## HOU-9. Federal builder of last resort (option, Oct 20)
+## HOU-9. Federal builder of last resort (option)
 
 **Why it is here.** The Talarico scenario model's housing record is the stress test this file most needs: $95B of production money and a social housing authority delivered about 1.9M units by 2050 against a 4.5M shortfall, rents flat in 23 states and not in 27 (scenario figures). Its diagnosis: the binding constraints were preemption limits, municipal permitting, construction labor competing with the transmission build-out, and materials, not money; and "the instrument used everywhere, conditional grants to states, fails precisely in the states that most need the thing." HOU-3, HOU-6 and HOU-8 are the same instrument family (state channels, competitive grants, conditions on new money), so the project's base case carries the same exposure.
 
@@ -191,16 +191,16 @@ Ledger E6 carries $0.60T (range $0.45T to $0.80T). This file's midpoint is about
 
 Every money row rides R2 and survives at 51. Only HOU-6's conditions on existing programs and HOU-7 need the floor. If D2 lands on G (carve-out only), the fund still moves; the conditions and the sunset repeal wait for a later rules change. HOU-9's corporation needs the floor; its capital does not.
 
-**Stress test (Talarico model, Oct 20).** Transfers and rules are delivered fast; capacity and construction late and short. This file's chosen rows are mostly money through state channels, so they score well on durability and poorly on the construction test. HOU-9 is the option that answers it.
+**Stress test (Talarico model).** Transfers and rules are delivered fast; capacity and construction late and short. This file's chosen rows are mostly money through state channels, so they score well on durability and poorly on the construction test. HOU-9 is the option that answers it.
 
 ## Dependencies
 
 - **Dec. D5.** Everything rides R2. If R1 is lost and its contents move to R2, HOU-1C and HOU-2B are the fallbacks.
-- **Revenue.** About $0.47T of general-fund claims at the midpoint, about $0.41T paid for if C21 is taken for HOU-3's state grants.
+- **Revenue.** About $0.47T of general-fund claims at the midpoint, of which about $0.12T (HOU-3's state grants under C21, HOU-5 under C31) is borrowed inside the D4-B envelope.
 - **Climate.** CLI-8's hazard-resistant code baseline applies to new federal housing aid, including HOU-3 and HOU-6. The map's Safe Growth Bonus is option CLI-5C. CLI-8C (electric-ready lending) and CLI-10 (public power as builder of last resort) parallel HOU-9.
 - **Transportation.** HOU-6's conditions need a matching clause in Moving America's 2031 authorization.
 - **Labor.** Construction workforce: Bill Book 12's 450,000 apprentices are folded into domain-labor.md LAB-8. HOU-9 would draw on LAB-8 and LAB-9.
-- **Capacity (design rule 6).** HUD is in the D9 line ($45B in CAP-7's split): the roughly 35 programs ROAD assigned it, the voucher increase, the supply fund, and now the direct-loan program's credit office. Bill Book 12 reported a 24% HUD staffing cut (not re-checked). The risk-share keeps HUD's underwriting need small, but it still needs a credit office able to run $30B-plus a year of commitments. That should be checked against CAP-7's HUD allocation when it is rebuilt bottom-up. State housing finance agencies carry most of the origination work; CAP-13's state capacity grants are the natural place to fund their ramp.
+- **Capacity (design rule 6).** HUD is in the D9 line ($45B in the agency rebuild's split, CAP-7S and CAP-7): the roughly 35 programs ROAD assigned it, the voucher increase, the supply fund, and the direct-loan program's credit office. Bill Book 12 reported a 24% HUD staffing cut (not re-checked). The risk-share keeps HUD's underwriting need small, but it still needs a credit office able to run $30B-plus a year of commitments. That should be checked against the rebuild's HUD allocation in the bottom-up review. State housing finance agencies carry most of the origination work; CAP-13's state capacity grants are the natural place to fund their ramp.
 
 ## D3
 
@@ -222,18 +222,18 @@ Every housing row is a benefit, with no tax that reaches the middle. HOU-4 and H
 | Policy | Versions | Resolution |
 | --- | --- | --- |
 | Emergency aid timing | Bill Book 12 (first reconciliation bill) vs Dec. D5 (housing in R2) | D5 wins; R1 kept as HOU-1B |
-| Construction fund financing | Ledger E6 (outlay) and C21 (borrow) vs credit-reform direct loans | HOU-3C chosen Oct 19; 3A, 3B and 3D kept as named options |
+| Construction fund financing | Ledger E6 (outlay) and C21 (borrow) vs credit-reform direct loans | HOU-3C chosen; 3A, 3B and 3D kept as named options |
 | Construction apprentices | Bill Book 12 (450,000) and the map's energy apprenticeships | One home: LAB-8 |
-| HUD capacity | Bill Book 12 (inside the housing bill) vs Dec. D9 (agency-rebuild line) | D9 wins; the money sits in CAP-7 |
-| Social housing at scale (Oct 20) | HOU-8 pilot; Talarico scenario's Social Housing Authority and FHIC | HOU-9 option; HOU-9B folds it into HOU-8 |
+| HUD capacity | Bill Book 12 (inside the housing bill) vs Dec. D9 (agency-rebuild line) | D9 wins; the money sits in CAP-7S and CAP-7 |
+| Social housing at scale | HOU-8 pilot; Talarico scenario's Social Housing Authority and FHIC | HOU-9 option; HOU-9B folds it into HOU-8 |
 
 ## Crosswalk
 
 | Old row | New home |
 | --- | --- |
 | Ledger E6; Bill Book 12; staging 10.13 | HOU-1 to HOU-8 |
-| Ledger C21 (borrow for the construction fund) | Now applies to HOU-3's state grants only (about $0.06T, down from $0.25T) |
-| **New rows needed at the rebuild** | Split E6 into a reconciliation row (HOU-1 to HOU-5, HOU-6 fund, HOU-8: $0.47T mid, with HOU-3's direct loans at subsidy cost) and a floor row (HOU-6 conditions, HOU-7: 3 days, no cost) |
+| Ledger C21 (borrow for the construction fund) | HOU-3's state grants only (about $0.06T; accepted) |
+| Ledger E6 split | Rows HOU-1 (reconciliation title: HOU-1 to HOU-5, HOU-6 fund, HOU-8; $0.47T mid) and HOU-7 (floor bill: HOU-6 conditions, HOU-7; 3 days, no cost) |
 
 ## Sources
 
@@ -245,5 +245,5 @@ Every housing row is a benefit, with no tax that reaches the middle. HOU-4 and H
 - sources/climate-thriving-economy-agenda-map.md: the CWSRF leverage figure
 - [CRS, FY2026 appropriations for EPA water infrastructure programs (Mar 19, 2026)](https://www.everycrsreport.com/files/2026-03-19_IF13177_2f2cb0f041c5ca151414082c02ef89d673dedea0.html): regular SRF appropriations ($1.64B clean water, $1.13B drinking water), the infrastructure law's ~$10.2B a year, the 20% state match, and the earmark shares
 - [Sen. Cramer, bipartisan effort to protect water infrastructure funding from earmarks](https://www.cramer.senate.gov/news/press-releases/senator-cramer-co-leads-bipartisan-effort-to-protect-water-infrastructure-funding-from-earmarks): more than $3.7B taken from the water funds for earmarks since 2021
-- index/2029-trifecta-master-ledger.md: E6 and C21
-- frameworks/scenario-stress-test-talarico-2029-2037.md and sources/scenario-talarico-2029-2037.md (Oct 20): HOU-9's rationale and scenario figures
+- index/2029-trifecta-master-ledger.md: rows HOU-1 and HOU-7 (old E6), C21 and C31
+- frameworks/scenario-stress-test-talarico-2029-2037.md and sources/scenario-talarico-2029-2037.md: HOU-9's rationale and scenario figures

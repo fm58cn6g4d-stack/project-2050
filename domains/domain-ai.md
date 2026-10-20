@@ -1,10 +1,10 @@
 # Domain file: AI and the information environment (AI)
 
-Canonical as of Oct 19, 2026 (batch 4). This file covers frontier-AI governance, the federal-state preemption question, AI and work, government use of algorithms, an AI revenue instrument, and the information environment (platforms, synthetic media, local journalism, public media, FOIA). On substance it replaces ledger row E12, staging sections 12 and 13, and staging row 10.4. AI-enabled fraud is designed in domain-public-safety.md (SAF-9) and chip export controls in domain-national-security.md (NSC-7); both are referenced here, not restated.
+Canonical (batch 4). This file covers frontier-AI governance, the federal-state preemption question, AI and work, government use of algorithms, an AI revenue instrument, and the information environment (platforms, synthetic media, local journalism, public media, FOIA). On substance it replaces ledger row E12, staging sections 12 and 13, and staging row 10.4. AI-enabled fraud is designed in domain-public-safety.md (SAF-9) and chip export controls in domain-national-security.md (NSC-7); both are referenced here, not restated.
 
-All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival at 51 (Dec. D1): ✔, ◐, ✖. Espen's Oct 19 call puts E12 among the bills that **must** pass in the first trifecta, so **ledger cut C13 (move AI governance to 2031) is superseded** by that call.
+All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival at 51 (Dec. D1): ✔, ◐, ✖. D1 puts AI-1 and AI-4 among the bills that **must** pass in the first trifecta, so **ledger cut C13 (move AI governance to 2031) is not taken**.
 
-**Oct 20 (education batch and Talarico stress test).** Rep. Bonamici's AI Education and Workforce Readiness Act (sources/education-ai-education-and-workforce-readiness-act-analysis.md) is split three ways: its education chapters become domains/domain-education.md **EDU-8**, whose rules ride AI-1's bill as an education title at no extra floor days; its data-center disclosure title becomes domains/domain-climate.md **CLI-6E**; and its workforce titles land here as options **AI-4C** (a narrowed reskilling credit) and **AI-4D** (the occupations list and displacement data), plus a new row **AI-11** (AI in hiring and workplace evaluation), which rides AI-1. The Talarico scenario model (frameworks/scenario-stress-test-talarico-2029-2037.md) adds options **AI-4E** (an entry-level hiring credit) and **AI-4F** (a transitional employment guarantee). No chosen design or total changes.
+**Other sources folded in.** Rep. Bonamici's AI Education and Workforce Readiness Act (sources/education-ai-education-and-workforce-readiness-act-analysis.md) is split three ways: its education chapters become domains/domain-education.md **EDU-8**, whose rules ride AI-1's bill as an education title at no extra floor days; its data-center disclosure title becomes domains/domain-climate.md **CLI-6E**; and its workforce titles land here as options **AI-4C** (a narrowed reskilling credit) and **AI-4D** (the occupations list and displacement data), plus a new row **AI-11** (AI in hiring and workplace evaluation), which rides AI-1. The Talarico scenario model (frameworks/scenario-stress-test-talarico-2029-2037.md) adds options **AI-4E** (an entry-level hiring credit) and **AI-4F** (a transitional employment guarantee).
 
 ## Summary
 
@@ -20,10 +20,10 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | AI-8 | Synthetic media in political ads | Disclosure on AI-generated political ads | 0 | FL (rides DEM-1) | ◐ | 0 | Yes |
 | AI-9 | Local journalism | A payroll credit conditioned on ownership (no private-equity chains; weighted to nonprofit and local outlets) plus a one-time conversion fund | 0.01 / 0.02 / 0.04 | R2 | ✔ | 0 | Partly |
 | AI-10 | Public media and FOIA | Public media funded outside the annual cycle; FOIA capacity and a statutory presumption of disclosure | 0.00 / 0.01 / 0.02 | FL / AP | ◐ | 0 | No |
-| AI-11 | AI in hiring and workplace evaluation (Oct 20) | EEOC and Labor Department guidance on AI in hiring and evaluation made statutory; human review of automated decisions in federally funded workforce programs; benchmarks for underrepresented groups in AI-augmented jobs | 0 (inside AI-1's row) | FL (rides AI-1) | ◐ | 0 | No |
+| AI-11 | AI in hiring and workplace evaluation | EEOC and Labor Department guidance on AI in hiring and evaluation made statutory; human review of automated decisions in federally funded workforce programs; benchmarks for underrepresented groups in AI-augmented jobs | 0 (inside AI-1's row) | FL (rides AI-1) | ◐ | 0 | No |
 | | **General-fund total (base, AI-6 excluded)** | | **0.11 / 0.24 / 0.50** | | | **5** | |
 
-The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days. This file keeps that figure for AI-4 and adds about $0.04T at the midpoint for AI-9, AI-5 and AI-10. AI-7 adds about one floor day (estimate). Nothing here is scored. **Oct 20:** AI-1's bill also carries EDU-8's education rules (student data, edtech procurement) and AI-11, both at no extra floor days (estimate); EDU-8's money sits in the education file's ledger row.
+The ledger carries three rows (from old row E12): the AI bill, AI-1, at $0.02T (range $0-0.06T; AI-1 to AI-3, AI-5, AI-7 and AI-10) and 5 floor days, AI-7 counting for about one; AI-4 at $0.20T (range $0.10-0.40T); and AI-9 at $0.02T (all estimates). Nothing here is scored. AI-1's bill also carries EDU-8's education rules (student data, edtech procurement) and AI-11, both at no extra floor days (estimate); EDU-8's money sits in the education file's ledger row.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -34,14 +34,14 @@ The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days.
   - asked for a preemption bill.
 
   It exempts child-safety and data-center laws. As of Sept 20, 2026, no task-force lawsuit had been reported (CASRAI; Tech Policy Press).
-- **Congress.** In 2025 the Senate struck a reconciliation moratorium on state AI laws. A bipartisan House discussion draft, the "Great American AI Act" (June 4, 2026), would preempt state rules on how models are *developed* for three years and leave deployment and use alone. It has stalled. More than 200 state lawmakers and labor groups opposed it in July, and Speaker Johnson is skeptical (CASRAI, Sept 2026). **Oct 20:** Rep. Bonamici's AI Education and Workforce Readiness Act (introduced in the House; $1.48B a year authorized for FY2027-31) is the governance-first counter-model on schools and workers; see the education source record.
+- **Congress.** In 2025 the Senate struck a reconciliation moratorium on state AI laws. A bipartisan House discussion draft, the "Great American AI Act" (June 4, 2026), would preempt state rules on how models are *developed* for three years and leave deployment and use alone. It has stalled. More than 200 state lawmakers and labor groups opposed it in July, and Speaker Johnson is skeptical (CASRAI, Sept 2026). Rep. Bonamici's AI Education and Workforce Readiness Act (introduced in the House; $1.48B a year authorized for FY2027-31) is the governance-first counter-model on schools and workers; see the education source record.
 - **States.** States enacted 109 AI laws in the first half of 2026 (Tech Policy Press, July 2026).
   - California's SB 53 (frontier transparency) is in force, and in September 2026 it drew a second public compliance dispute, over a developer's latest model releases.
   - New York's 2025 frontier law requires safety frameworks and incident reporting.
   - Colorado rewrote its 2024 algorithmic-discrimination law into four narrower duties, effective Jan 1, 2027 (SB 26-189).
   - Fourteen companion-chatbot laws passed, in both red and blue states. Illinois passed third-party frontier audits.
 - **Agencies.** NIST's AI Safety Institute was renamed the Center for AI Standards and Innovation (CAISI) in 2025 (my knowledge; not re-checked).
-- **Data centers (Oct 20).** The AI bill session reports a bipartisan local backlash by September 2026 (Gallup: 71% oppose a data center in their area, including 63% of Republicans; Texas paused roughly 1,800 projects), as reported in that session's search results and not independently re-checked. The policy response is in CLI-6E (disclosure and measurement) and CLI-6's large-load floor.
+- **Data centers.** The AI bill session reports a bipartisan local backlash by September 2026 (Gallup: 71% oppose a data center in their area, including 63% of Republicans; Texas paused roughly 1,800 projects), as reported in that session's search results and not independently re-checked. The policy response is in CLI-6E (disclosure and measurement) and CLI-6's large-load floor.
 
 **What this means for 2029.** The live fight is not whether to regulate. It is *who*. States are writing the rules, and the federal executive is trying to stop them without a federal standard. The durable move is a federal floor with deliberately bounded preemption. That gives developers one standard where they need it and keeps states as the laboratory everywhere else.
 
@@ -54,7 +54,7 @@ The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days.
 - **Enforcement:** civil penalties enforced by the FTC and state attorneys general.
 - **Write for this Court:** CAISI's threshold-setting is an express delegation drafted on CRT-8's templates. Disclosure of factual risk information is the kind of compelled disclosure courts have most often upheld (my judgment; *Zauderer* lineage).
 
-**Titles riding the bill (Oct 20).** EDU-8's education rules (no AI-firm control of Title IV-funded curricula, a student data-breach portal, an edtech risk framework, parental opt-outs, the grantee compliance regime) and AI-11. The AI bill session's pitch applies to the whole bill: the AI harms "already showing up in classrooms, paychecks and local water bills" are a stronger public case than frontier risk, and children's safety is where Republicans engage without endorsing a slowdown.
+**Titles riding the bill.** EDU-8's education rules (no AI-firm control of Title IV-funded curricula, a student data-breach portal, an edtech risk framework, parental opt-outs, the grantee compliance regime) and AI-11. The AI bill session's pitch applies to the whole bill: the AI harms "already showing up in classrooms, paychecks and local water bills" are a stronger public case than frontier risk, and children's safety is where Republicans engage without endorsing a slowdown.
 
 ## AI-2. Preemption, decided deliberately
 
@@ -74,7 +74,7 @@ The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days.
 
 **Reciprocity.** A federal floor that a later Congress can raise but not drop below without new law is a rule we would accept in the minority. Field preemption without a federal standard (the EO's posture) is not.
 
-**Leverage note (Oct 20, AI bill session).** If industry seeks preemption in 2027-28, the AI bill's Titles IV and V (data-center disclosure and student and worker data privacy) are a ready list of the federal floor to demand in return.
+**Leverage note (from the AI bill session).** If industry seeks preemption in 2027-28, the AI bill's Titles IV and V (data-center disclosure and student and worker data privacy) are a ready list of the federal floor to demand in return.
 
 ## AI-3. Pre-deployment evaluation
 
@@ -95,13 +95,13 @@ The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days.
   - **portable benefits:** continued coverage while they search.
 - **Vehicle split:** the benefit is direct spending and can ride R3 (✔, Byrd check unchecked). The measurement mandate and trigger design need the floor (◐). If only the R3 half passes, the trigger is set by Labor Department rule. That is weaker but still functions.
 
-**Cost.** $0.20T, range $0.10-0.40T (ledger E12, estimate). It scales with displacement, which is the honest reason for the wide range. **D4:** a permanent program needs a pay-for. AI-6 is the natural one. Until it is scored, this row sits on the general fund.
+**Cost.** $0.20T, range $0.10-0.40T (ledger AI-4, from E12; estimate). It scales with displacement, which is the honest reason for the wide range. **D4 (D4-B):** a permanent program is paid for at maturity (FY2040 and every later year). AI-6 is the natural pay-for. Until it is scored, this row sits on the general fund.
 
 **Connections.** domain-labor.md for unemployment insurance and labor standards; Espen's AI fiscal workstream (payroll-tax displacement projections) for the revenue side.
 
-**Stress test (Oct 20, Talarico scenario).** The model's AI record is the warning this row needs. Its displacement benefit and training programs worked where they were aimed, in construction, transmission and the trades, but the entry-level labor market "improved and never recovered": net employment in affected clusters fell about 2.9M and labor's share of income fell from 58% to 51% over eight years (scenario figures). The four reasons it gives are design lessons for AI-4: **wrong population** (displaced entry-level workers were often credentialed BA holders, with under 6% take-up of training); **wrong timing** (an apprenticeship started in 2030 journeys out in 2034, and cohort effects are permanent); **wrong constraint** (a demand hole inside firms, which no supply-side training fixes); and an **instructor bottleneck** at community colleges, since people able to teach industrial controls earn far more doing them. AI-4 as chosen is supply-side (wage insurance, training accounts). AI-4E is the demand-side complement; REV-E2 in domain-revenue.md is the capital-income complement.
+**Stress test (Talarico scenario).** The model's AI record is the warning this row needs. Its displacement benefit and training programs worked where they were aimed, in construction, transmission and the trades, but the entry-level labor market "improved and never recovered": net employment in affected clusters fell about 2.9M and labor's share of income fell from 58% to 51% over eight years (scenario figures). The four reasons it gives are design lessons for AI-4: **wrong population** (displaced entry-level workers were often credentialed BA holders, with under 6% take-up of training); **wrong timing** (an apprenticeship started in 2030 journeys out in 2034, and cohort effects are permanent); **wrong constraint** (a demand hole inside firms, which no supply-side training fixes); and an **instructor bottleneck** at community colleges, since people able to teach industrial controls earn far more doing them. AI-4 as chosen is supply-side (wage insurance, training accounts). AI-4E is the demand-side complement; REV-E2 in domain-revenue.md is the capital-income complement.
 
-**Options (Oct 20).**
+**Options.**
 
 | Option | Design | Cost | Basis | Vehicle |
 | --- | --- | --- | --- | --- |
@@ -123,7 +123,7 @@ The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days.
 
 **Cost.** About $0.01T, range $0-0.02T (estimate), mostly NAIRR.
 
-**Stress test (Oct 20, Talarico scenario).** In the model, statutory limits on federal use of AI for surveillance, immigration enforcement and benefit adjudication without human review were introduced only in 2039, never passed, and polled at 38%. The lesson for sequencing: AI-5's limits are cheap to pass inside the first-trifecta AI bill and very hard to pass later, once agencies depend on the tools. Option **AI-5B:** add express limits on federal use of AI for mass surveillance and for immigration enforcement decisions without individualized human review, beyond AI-5's due-process duties. ◐, rides AI-1.
+**Stress test (Talarico scenario).** In the model, statutory limits on federal use of AI for surveillance, immigration enforcement and benefit adjudication without human review were introduced only in 2039, never passed, and polled at 38%. The lesson for sequencing: AI-5's limits are cheap to pass inside the first-trifecta AI bill and very hard to pass later, once agencies depend on the tools. Option **AI-5B:** add express limits on federal use of AI for mass surveillance and for immigration enforcement decisions without individualized human review, beyond AI-5's due-process duties. ◐, rides AI-1.
 
 ## AI-6. AI revenue instrument (held)
 
@@ -142,7 +142,7 @@ The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days.
 | AI-6A | Compute levy (per FLOP or per data-center megawatt-hour above a threshold), rebated | Instruments #11; simplest base; overlaps the data-center electricity debates in domain-climate.md |
 | AI-6B | Token-consumption tax on AI services sold, rebated in part | Espen's AI fiscal workstream models this; a consumption base that grows with use |
 | AI-6C | Excess-return tax on AI-attributable corporate profits | Hardest to measure; least distortionary if measurable |
-| AI-6D (Oct 20) | Public equity instead of a tax: stakes taken in exchange for access to public goods (compute access, data licensing, interconnection priority), returns paid through the same dividend channel | The Talarico scenario's "Prosperity Fund"; filed once as REV-E2 in domain-revenue.md with the climate investment corporation |
+| AI-6D | Public equity instead of a tax: stakes taken in exchange for access to public goods (compute access, data licensing, interconnection priority), returns paid through the same dividend channel | The Talarico scenario's "Prosperity Fund"; filed once as REV-E2 in domain-revenue.md with the climate investment corporation |
 
 **Next step.** Score A and B with the incidence model (index/tools/incidence-model.py) once the base is sized. AI-6 is ✔ (a tax can ride reconciliation).
 
@@ -161,7 +161,7 @@ The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days.
 
 **Held (no first-Congress slot).** Ad-targeting limits for political ads (staging 12.5; First Amendment exposure higher than AI-7). Media-ownership limits (12.6; these need an FCC design that survives *Slaughter*). Liability allocation for autonomous systems (13.6). Each waits for a later rules change, per D1's no-2033-queue rule.
 
-## AI-11. AI in hiring and workplace evaluation (Oct 20)
+## AI-11. AI in hiring and workplace evaluation
 
 **Design.** From the AI Education and Workforce Readiness Act's Title III and Title V:
 - **Employer guidance made statutory:** joint EEOC and Labor Department guidance on the use of AI in hiring, promotion and evaluation (the bill's Sec. 307), with a duty on covered employers to give notice when an automated tool materially informs an employment decision.
@@ -170,7 +170,7 @@ The ledger carries E12 at $0.20T (range $0.10-0.40T, estimate) and 4 floor days.
 
 **Why it is separate from AI-4.** AI-4 pays workers once they are displaced; AI-11 governs how AI decides who is hired and kept. It sits beside Colorado's narrowed algorithmic-discrimination law and the state employment laws AI-2 leaves in place, so it is a floor, not preemption.
 
-**Cost and vehicle.** About zero beyond EEOC and DOL staff already proposed in CAP-7's batch 4 allocation (civil-rights offices, $6B). Rides AI-1's bill (◐), no extra floor days (estimate). **Under a 2027-28 deal** the AI bill session expects this piece to be cut first; it belongs in the trifecta bill.
+**Cost and vehicle.** About zero beyond EEOC and DOL staff in the agency rebuild's proposed batch 4 allocation (civil-rights offices, $6B, pending Espen). Rides AI-1's bill (◐), no extra floor days (estimate). **Under a 2027-28 deal** the AI bill session expects this piece to be cut first; it belongs in the trifecta bill.
 
 ## International coordination
 
@@ -190,19 +190,19 @@ Frontier-safety coordination with allies through executive agreements is ✔ (ex
 - **Courts.** AI-1's delegations use CRT-8's templates.
 - **Labor.** AI-4 sits on domain-labor.md's unemployment-insurance base; LAB-8 apprenticeships and LAB-9 national service overlap AI-4F.
 - **Climate.** Data-center electricity and ratepayer protections are in domain-climate.md (CLI-6, and CLI-6E for the AI bill's disclosure title). AI-6A's compute base overlaps it.
-- **Education (Oct 20).** EDU-8's rules ride AI-1; EDU-8's money and EDU-10's research center are in domain-education.md.
+- **Education.** EDU-8's rules ride AI-1; EDU-8's money and EDU-10's research center are in domain-education.md.
 - **Revenue.** AI-6 is a new channel when scored. AI-9 is a general-fund claim. REV-E2 is the public-equity alternative (AI-6D).
 
 ## Capacity note (design rule 6)
 
 | Agency | Rows | Source of funds |
 | --- | --- | --- |
-| NIST CAISI and the DOE national labs (evaluation) | AI-1, AI-2, AI-3 | **Proposed: $6B from CAP-7's batch 4 reserve** (estimate) |
+| NIST CAISI and the DOE national labs (evaluation) | AI-1, AI-2, AI-3 | **Proposed: $6B from the agency rebuild's batch 4 reserve** (estimate, pending Espen) |
 | BLS (displacement measurement) | AI-4 | Inside AI-4's cost (estimate) |
 | OMB and agency chief AI officers | AI-5 | Inside existing agency lines (estimate) |
 | NSF (NAIRR) | AI-5 | Inside AI-5's cost |
 | EEOC and DOL (hiring guidance, benchmarks) | AI-11 | Inside the batch 4 civil-rights allocation (proposed) |
-| Education Department (student data portal, edtech framework) | EDU-8 (rides AI-1) | Education is on D9's list (CAP-7) |
+| Education Department (student data portal, edtech framework) | EDU-8 (rides AI-1) | Education is on D9's list (CAP-7S, CAP-7) |
 
 ## Design-rule check
 
@@ -222,7 +222,7 @@ Frontier-safety coordination with allies through executive agreements is ✔ (ex
 
 | Old row | New home |
 | --- | --- |
-| Ledger E12; staging 13.1, 13.2 | AI-1, AI-4 |
+| Ledger E12 (now rows AI-1 and AI-4); staging 13.1, 13.2 | AI-1, AI-4 |
 | Staging 13.3 | AI-2 |
 | Staging 13.4 | AI-3 |
 | Staging 13.5, 13.7 | AI-5 |
@@ -235,9 +235,9 @@ Frontier-safety coordination with allies through executive agreements is ✔ (ex
 | Staging 12.3 | AI-8 (rides DEM-1) |
 | Staging 12.4, 12.7 | AI-10 |
 | Staging 12.5, 12.6 | Held |
-| Ledger cut C13 | Superseded by Espen's Oct 19 call (E12 must pass in the first trifecta) |
-| **New rows needed at the rebuild** | AI-9 (~$0.02T), AI-5 and AI-10 (~$0.02T together); E12's days 4 to 5 |
-| AI Education and Workforce Readiness Act (Oct 20) | Titles I, III (education), V, Sec. 6: EDU-8; Title II and Secs. 4, 208, 209, 305: AI-4C, AI-4D; Secs. 307, 504: AI-11; Title IV: CLI-6E |
+| Ledger cut C13 | Not taken: AI-1 and AI-4 must pass in the first trifecta (D1) |
+| (new ledger row) | AI-9 (~$0.02T) |
+| AI Education and Workforce Readiness Act | Titles I, III (education), V, Sec. 6: EDU-8; Title II and Secs. 4, 208, 209, 305: AI-4C, AI-4D; Secs. 307, 504: AI-11; Title IV: CLI-6E |
 
 ## Open items
 
@@ -245,7 +245,7 @@ Frontier-safety coordination with allies through executive agreements is ✔ (ex
 2. **Byrd checks** for AI-4's benefit and AI-9's credit.
 3. **AI-1's threshold:** set at drafting from CAISI's data; the statute should name the method, not a number.
 4. **Watch the 2027-28 Congress.** A preemption bill could pass under Trump. If one does, AI-2 becomes a repair bill, the way CLI-3 treats the permitting law.
-5. **(Oct 20)** Choose among AI-4C (narrowed only), AI-4E and AI-5B; score AI-4E if taken up.
+5. Choose among AI-4C (narrowed only), AI-4E and AI-5B; score AI-4E if taken up.
 
 ## Sources
 
@@ -254,6 +254,6 @@ Frontier-safety coordination with allies through executive agreements is ✔ (ex
 - [Akin, EO advancing federal preemption of state AI laws](https://www.akingump.com/en/insights/alerts/president-trump-unveils-ai-eo-advancing-federal-preemption-of-state-laws)
 - frameworks/instruments-and-consequences.md, #11 (AI dividend), #12 (local journalism), #13 (Section 230)
 - *Moody v. NetChoice* (2024), from my knowledge
-- index/2029-trifecta-master-ledger.md, E12 and cut C13; staging/unified-reform-inventory-current.md, sections 12-13 and row 10.4
-- sources/education-ai-education-and-workforce-readiness-act-analysis.md (Oct 20): the AI bill's titles, its $1.48B a year of authorizations, the Sec. 208 credit estimate (session back-of-envelope) and the data-center polling it cites
-- sources/scenario-talarico-2029-2037.md and frameworks/scenario-stress-test-talarico-2029-2037.md (Oct 20): the entry-level labor findings, the hiring credit and the employment guarantee (scenario figures)
+- index/2029-trifecta-master-ledger.md, rows AI-1, AI-4 and AI-9 (old E12) and cut C13; staging/unified-reform-inventory-current.md, sections 12-13 and row 10.4
+- sources/education-ai-education-and-workforce-readiness-act-analysis.md: the AI bill's titles, its $1.48B a year of authorizations, the Sec. 208 credit estimate (session back-of-envelope) and the data-center polling it cites
+- sources/scenario-talarico-2029-2037.md and frameworks/scenario-stress-test-talarico-2029-2037.md: the entry-level labor findings, the hiring credit and the employment guarantee (scenario figures)

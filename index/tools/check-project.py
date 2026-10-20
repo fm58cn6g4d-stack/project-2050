@@ -79,7 +79,7 @@ FACTS = [
  ("baseline debt, 2056", debt(BASE, 2056), "{:.1f}%", [r"baseline'?s? (\d{3}\.\d)%", r"(\d{3}\.\d)% in 2056\b(?! vs)"], (150, 250)),
  ("incidence scenario Q, fourth quintile", Q4, "+${:,}", [r"(?:Q4|fourth quintile)[^$]{0,30}\+\$([\d,]+)"], (0, 5000)),
 ]
-FACT_CONTEXT = {"incidence scenario Q, fourth quintile": re.compile(r"scenario Q\b|\(Q\)|Incidence scenario Q"),
+FACT_CONTEXT = {"incidence scenario Q, fourth quintile": re.compile(r"scenario Q(?![-\w])|\(Q\)|Incidence scenario Q(?![-\w])"),
                 "baseline debt, 2056": re.compile(r"baseline"),
                 "DEC total debt, 2056": re.compile(r"\bDEC\b|decided|total debt")}
 

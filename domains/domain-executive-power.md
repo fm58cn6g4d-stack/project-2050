@@ -1,10 +1,8 @@
 # Domain file: Executive power (EXE)
 
-Canonical as of Oct 19, 2026 (batch 2). This file covers staging inventory section 5, which becomes pointers. It is the domain most changed by 2026: *Trump v. Slaughter* (June 29, 2026) overruled *Humphrey's Executor*, and *Learning Resources v. Trump* (Feb 20, 2026) held that IEEPA does not authorize tariffs. Rows that relied on for-cause removal protection are redesigned with structure or placement.
+Canonical. This file covers staging inventory section 5, which is pointers. It is the domain most changed by 2026: *Trump v. Slaughter* (June 29, 2026) overruled *Humphrey's Executor*, and *Learning Resources v. Trump* (Feb 20, 2026) held that IEEPA does not authorize tariffs. Rows that relied on for-cause removal protection are redesigned with structure or placement.
 
-**Oct 20 (Talarico stress test and climate durability review; Espen adopted the drafting rule).** A new row, **EXE-18 (payment continuity)**, carries the statute behind the new governing design rule: every recurring payment has standing disbursement authority that does not lapse in a shutdown. Its two companion options from the durability review are filed with it: an automatic continuing resolution (a pointer to domain-capacity.md CAP-4, which already designs one) and **EXE-18C**, repeal or long suspension of the debt limit. No total changes.
-
-All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival tags follow D1: ✔, ◐, ✖.
+All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival tags follow D1: ✔, ◐ (needs D2; F is decided), ✖.
 
 ## The two design rules this domain runs on
 
@@ -33,20 +31,21 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | EXE-15 | Succession and continuity | Succession Act reform; 25th Amendment sec. 4 procedure; mass-casualty continuity | 0.00 | FL | ◐ | No |
 | EXE-16 | Presidential immunity | Statutory pieces only; the amendment is held | 0.00 | FL | ◐ | No |
 | EXE-17 | Day-one executive bridge | Pre-drafted rescissions and restorations, signed in week one | 0.00 | X | ✔ | Yes |
-| EXE-18 | Payment continuity (Oct 20) | Standing disbursement authority for every recurring payment, written into each program's statute and a general provision; auto-CR (CAP-4) and debt limit (option) as companions | 0.00 | R1-R3 (per program) + FL | ✔ / ◐ | Yes |
+| EXE-18 | Payment continuity | Standing disbursement authority for every recurring payment, written into each program's statute and a general provision; auto-CR (CAP-4) and debt limit (option) as companions | 0.00 | R1-R3 (per program) + FL | ✔ / ◐ | Yes |
 | | **General-fund total** | | **0.00 / 0.00 / 0.01** | | | |
 
-This domain costs essentially nothing and is worth a great deal. The ledger carries it as one bill (DEM8) at 6 floor days with war powers merged in (cut C10).
+This domain costs essentially nothing and is worth a great deal. The ledger carries it as one bill (EXE-1, old DEM8) at 6 floor days with war powers (old DEM9) merged in (cut C10).
 
 ## Crosswalk
 
 | This file | Ledger row | Staging rows |
 | --- | --- | --- |
-| EXE-1, EXE-3, EXE-4, EXE-8, EXE-14 | DEM8 | 5.1, 5.3, 5.4, 5.8, 5.12 |
-| EXE-2 | DEM9 (merged into DEM8, C10) | 5.2 |
-| EXE-5 to EXE-7, EXE-9 to EXE-11, EXE-13, EXE-15, EXE-16 | (new rows needed) | 5.5-5.7, 5.9, 5.11, 5.13-5.16 |
-| EXE-12 | S5 / Safe Everywhere plank 2 | 5.10 |
+| EXE-1, EXE-3, EXE-4, EXE-8, EXE-14 | EXE-1 (old DEM8) | 5.1, 5.3, 5.4, 5.8, 5.12 |
+| EXE-2 | carried in EXE-1 (old DEM9, merged under C10) | 5.2 |
+| EXE-5 to EXE-7, EXE-9 to EXE-11, EXE-13, EXE-15, EXE-16 | (no ledger rows yet) | 5.5-5.7, 5.9, 5.11, 5.13-5.16 |
+| EXE-12 | SAF-2 (domain-public-safety.md; Safe Everywhere plank 2) | 5.10 |
 | EXE-17 | (no row; executive) | 5.17 |
+| EXE-18 | (no row; drafting rule carried in each program's statute and the EXE-1 bill) | — |
 
 ## EXE-1. National Emergencies Act reform
 
@@ -123,7 +122,7 @@ This domain costs essentially nothing and is worth a great deal. The ledger carr
 
 ## EXE-12. Domestic deployment limits (shared statute)
 
-**Design.** Limits on domestic military deployment and a Posse Comitatus clarification. **One statute, two homes:** it is Safe Everywhere plank 2 ("keep soldiers out of routine policing") and this row, and Safe Everywhere's revenue package counts the savings from ending domestic deployments (inside a flat D9 defense envelope). Safe Everywhere is canonical on the substance; this file carries the executive-power framing.
+**Design.** Limits on domestic military deployment and a Posse Comitatus clarification. **One statute, two homes:** it is Safe Everywhere plank 2 ("keep soldiers out of routine policing", domain-public-safety.md SAF-2) and this row. The public-safety revenue package does not count deployment savings as channel revenue. The public-safety file is canonical on the substance; this file carries the executive-power framing.
 
 **Evidence note.** Niskanen found the Guard deployment in DC cut petty property crime but not violent crime — worth carrying in the record, because it is the strongest available counter to the deployment argument on its own terms.
 
@@ -135,7 +134,7 @@ This domain costs essentially nothing and is worth a great deal. The ledger carr
 
 **Design.** With IEEPA out after *Learning Resources*, narrow the remaining delegations — Section 232 and Section 301 — with congressional-approval triggers for new or increased tariffs above a threshold.
 
-**Revenue interaction, resolved.** After *Learning Resources*, current Section 232/301 tariffs are already in CBO's baseline, so keeping them raises no new revenue (ledger T1, resolved Oct 19). Repeal or narrowing would be a new **claim** of roughly $1.5-1.9T (estimate). This row therefore has a fiscal cost that depends entirely on how far the narrowing reaches, and that cost is not in the ledger. **Flagged:** EXE-14 should be scored before it is drafted, or it will surprise the revenue file.
+**Revenue interaction, resolved.** After *Learning Resources*, current Section 232/301 tariffs are already in CBO's baseline, so keeping them raises no new revenue (ledger revenue row T1). Repeal or narrowing would be a new **claim** of roughly $1.5-1.9T (estimate). This row therefore has a fiscal cost that depends entirely on how far the narrowing reaches, and that cost is not in the ledger. **Flagged:** EXE-14 should be scored before it is drafted, or it will surprise the revenue file.
 
 | Option | Design | Fiscal effect | Basis |
 | --- | --- | --- | --- |
@@ -143,7 +142,7 @@ This domain costs essentially nothing and is worth a great deal. The ledger carr
 | EXE-14B | Approval triggers plus sunset of existing sec. 232/301 actions | A claim of ~$1.5-1.9T | estimate |
 | EXE-14C | Procedural requirements only (findings, comment, reporting) | ~0; weakest constraint | estimate |
 
-**Why A.** B is the better separation-of-powers policy and an unfunded $1.5-1.9T hole in a plan that is already $3.69T short. If B is wanted, it needs a pay-for named at the same time.
+**Why A.** B is the better separation-of-powers policy and an unfunded $1.5-1.9T hole. The plan's general-fund claims run $4.60T above its base, and accepted revenue and envelope borrowing close that only to about −$0.08T over ten years, so B would leave the plan $1.5-1.9T short again. If B is wanted, it needs a pay-for named at the same time.
 
 ## EXE-15. Succession and continuity
 
@@ -167,9 +166,9 @@ This domain costs essentially nothing and is worth a great deal. The ledger carr
 
 **Survival.** ✔ at 51 — it needs no votes at all.
 
-## EXE-18. Payment continuity (Oct 20)
+## EXE-18. Payment continuity
 
-**Design.** The statutory form of the governing doc's new design rule (adopted by Espen, Oct 20): **every recurring payment carries standing disbursement authority that does not lapse in a shutdown.**
+**Design.** The statutory form of the governing doc's design rule "payments do not stop": **every recurring payment carries standing disbursement authority that does not lapse in a shutdown.**
 
 - **In each program's own statute** (✔, rides the program's reconciliation bill): a permanent, indefinite appropriation for the payment and express authority for Treasury and the paying agency to disburse during a lapse in appropriations, with the staff who make the payments designated as excepted. This covers FAM-1's monthly advance payments (which also need express advance-payment authority), the Climate Dividend (CLI-2, whose dividend account already has this drafting note), EDU-3's meal reimbursements, paid-leave benefits (FAM-3), LAB-9 stipends and SS and Medicare changes (already permanent).
 - **A general provision** (◐, rides the EXE bill): any mandatory payment program's administrative staff are excepted in a lapse by operation of law, so that a payment with money cannot stop for want of people to send it.
@@ -193,11 +192,11 @@ This domain costs essentially nothing and is worth a great deal. The ledger carr
 | ◐ needs a D2 path | EXE-1 to EXE-16 |
 | ✖ | none in this file (the self-pardon and immunity amendments sit in the amendments track) |
 
-Sixteen of seventeen items depend on D2, and under path G none of them passes. The executive-power agenda is the clearest case against G: a carve-out limited to democracy and elections leaves the presidency's guardrails unbuilt while a Democratic president holds the office — which means the guardrails are built, if ever, by the next Congress, against the next president, with no reciprocity record.
+Sixteen of eighteen items depend on D2. Under F (decided) they pass; under the written fallback G none of them does. The executive-power agenda is the clearest case against G: a carve-out limited to democracy and elections leaves the presidency's guardrails unbuilt while a Democratic president holds the office — which means the guardrails are built, if ever, by the next Congress, against the next president, with no reciprocity record.
 
 ## Dependencies
 
-- **D2:** EXE-1 to EXE-16.
+- **D2:** EXE-1 to EXE-16 and EXE-18's general provision; all pass under F (decided).
 - **Courts file:** EXE-9 and CRT-5 share the Slaughter design template; EXE-3's forum question is a CRT-7/CRT-9 problem (channeling and remedies) as much as an impoundment one. Draft them together.
 - **Integrity file:** INT-7 (FEC restructuring) is an application of EXE-9.
 - **Capacity file:** CAP-8 (statutory Schedule P/C prohibition) is EXE-17's durable form; CAP-9 (successor architecture) depends on EXE-3 for the money to reach the successors.
@@ -224,8 +223,8 @@ Sixteen of seventeen items depend on D2, and under path G none of them passes. T
 2. **EXE-3's forum must be chosen expressly** (Court of Federal Claims vs district court) after *NIH v. APHA*.
 3. **EXE-9's template is weaker than what it replaces.** Decide how many functions to move out of the executive entirely rather than rebuild in place.
 4. **EXE-8's clemency analysis is mine,** not drawn from a project source; it deserves a real legal review before drafting.
-5. **Nine-plus ledger rows missing** (see crosswalk).
-6. **EXE-18C** (Oct 20): repeal, long suspension or the Gephardt-rule variant; Espen's call. Check when the current limit next binds.
+5. **Nine policies have no ledger rows** (see crosswalk).
+6. **EXE-18C:** repeal, long suspension or the Gephardt-rule variant; Espen's call. Check when the current limit next binds.
 7. **EXE-18's general provision** needs a check against the Antideficiency Act's excepted-employee rules when drafted.
 
 ## Sources
@@ -235,6 +234,6 @@ Sixteen of seventeen items depend on D2, and under path G none of them passes. T
 - frameworks/instruments-and-consequences.md: #8 (grantee cause of action, *Raines*), Part II (continuity of government), Part III (the fast-path rule).
 - sources/climate-thriving-economy-agenda-map.md: Chapter 9 Trump-proofing provisions, folded into EXE-3; the OMB, OSHA and BLM items in EXE-17.
 - OPM final rule, Federal Register Feb 6, 2026; CRS LSB11412 (Mar 26, 2026): Schedule Policy/Career.
-- index/2029-trifecta-master-ledger.md: rows DEM8, DEM9, T1; cut C10.
-- domains/public-safety-safe-everywhere.md: plank 2, canonical for EXE-12.
+- index/2029-trifecta-master-ledger.md: rows EXE-1 and T1; cut C10.
+- domains/domain-public-safety.md, SAF-2 (Safe Everywhere plank 2, evidence in domains/public-safety-safe-everywhere.md): canonical for EXE-12.
 - frameworks/scenario-stress-test-talarico-2029-2037.md and sources/climate-durability-pathway-session-findings.md (Oct 20): EXE-18 and its options.

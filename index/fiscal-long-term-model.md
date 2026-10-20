@@ -178,7 +178,7 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 | DEM-3 | spending | out_disc_nondefense | 0.010 | 0.003 | 0.003 | 0.003 | House enlargement from 2033 |
 | CRT-P1 | spending | out_disc_nondefense | 0.010 | 0.002 | 0.002 | 0.002 | Judgeships phased |
 | CAP-8 | spending | out_disc_nondefense | 0.040 | 0.009 | 0.009 | 0.009 |  |
-| CAP-7 | spending | out_disc_nondefense | 0.490 | 0.121 | 0.121 | 0.121 | Sustained capacity increase: steps up over three years to ~0.12% of GDP, then tracks GDP (restructured Oct 20) |
+| CAP-7 | spending | out_disc_nondefense | 0.490 | 0.121 | 0.121 | 0.121 | Sustained capacity increase: steps up over three years to ~0.12% of GDP, then tracks GDP |
 | CAP-7S | spending | out_disc_nondefense | 0.600 | 0.000 | 0.000 | 0.000 | Agency rebuild surge, front-loaded FY2030-35 and then zero (YEARS; Decision Brief 2) |
 | NSC-8 | spending | out_disc_nondefense | 0.020 | 0.005 | 0.005 | 0.005 |  |
 | NSC-10 | spending | out_disc_nondefense | 0.070 | 0.017 | 0.017 | 0.017 |  |

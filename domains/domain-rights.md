@@ -1,10 +1,8 @@
 # Domain file: Rights and equality (RTS)
 
-Canonical as of Oct 19, 2026 (batch 4). This file covers reproductive freedom, LGBTQ equality, and the enforcement machinery of federal civil-rights law. On substance it replaces Bill Books 22 and 23, ledger rows S1 and S2, and staging inventory rows 19.2 and 19.3. Some rights questions have homes elsewhere: voting rights are in domain-democracy.md (DEM-1), policing and criminal justice in domain-public-safety.md, immigrants' due process in domain-immigration.md, and workers' rights in domain-labor.md.
+Canonical. This file covers reproductive freedom, LGBTQ equality, and the enforcement machinery of federal civil-rights law. On substance it replaces Bill Books 22 and 23, ledger rows S1 and S2, and staging inventory rows 19.2 and 19.3. Some rights questions have homes elsewhere: voting rights are in domain-democracy.md (DEM-1), policing and criminal justice in domain-public-safety.md, immigrants' due process in domain-immigration.md, and workers' rights in domain-labor.md.
 
-**Oct 20 (Talarico stress test).** One option is added, **RTS-3E**: a scoped Equality Act with athletics sent to a joint Education-HHS rulemaking under a five-year sunset. (The stress test called it "RTS-3C," but that letter was already in use here; it is filed as RTS-3E.) No chosen design changes.
-
-All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival at 51 (Dec. D1): ✔, ◐, ✖.
+All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival at 51 (Dec. D1): ✔, ◐ (needs D2; F is decided), ✖.
 
 ## Summary
 
@@ -16,7 +14,7 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | RTS-4 | Civil-rights enforcement | Disparate-impact standards and a private right of action restored in statute; enforcement offices staffed | 0.00 / 0.00 / 0.01 | FL (rides RTS-3) | ◐ | 0 | No |
 | | **Total** | | **0.00 / 0.00 / 0.02** | | | **7** | |
 
-The ledger carries S1 (4 days) and S2 (3 days) at no cost. This file keeps both and adds RTS-4 to the RTS-3 bill at no extra floor time. RTS-2 is an appropriations choice and adds no floor days.
+The ledger carries RTS-1 (old S1, 4 days) and RTS-3 (old S2, 3 days) at no cost, with RTS-4 inside the RTS-3 bill at no extra floor time. RTS-2 is an appropriations choice and adds no floor days.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -53,7 +51,7 @@ The ledger carries S1 (4 days) and S2 (3 days) at no cost. This file keeps both 
 | RTS-1B | Access only: medication abortion, telehealth, travel, contraception, IVF and EMTALA, with no viability standard | More votes; it protects the method most people now use. The fallback if the floor count fails at 50 |
 | RTS-1C | RTS-1B as the opening bill, with the viability right after a second rules fight | Splits the fight; risks the second bill never moving |
 
-**@51.** ◐. Under G (carve-out only) it fails. RTS-1B's contraception and IVF titles have had a handful of Republican votes in the past (my knowledge), but not ten.
+**@51.** ◐. It passes under F (decided); under the written fallback G (carve-out only) it fails. RTS-1B's contraception and IVF titles have had a handful of Republican votes in the past (my knowledge), but not ten.
 
 ## RTS-2. Coverage
 
@@ -79,11 +77,11 @@ The ledger carries S1 (4 days) and S2 (3 days) at no cost. This file keeps both 
 
 | Option | Design | Note |
 | --- | --- | --- |
-| RTS-3A (chosen) | H.R. 15 as drafted | Ledger S2, Bill Book 23 |
+| RTS-3A (chosen) | H.R. 15 as drafted | Ledger RTS-3 (old S2), Bill Book 23 |
 | RTS-3B | H.R. 15 with an athletics provision deferring to sports governing bodies and state law | More votes; leaves *B.P.J.*'s permission in place for sex-separated teams |
 | RTS-3C | H.R. 15 without the RFRA exclusion | Removes the line opponents campaign on most, at small practical cost given *303 Creative* |
-| RTS-3D | Fairness for All framework: protections paired with defined religious exemptions | Has had Republican sponsors (my knowledge); the bipartisan route if D2 fails |
-| RTS-3E (Oct 20, Talarico stress test) | H.R. 15 with athletics carved out to a **joint Education-HHS rulemaking under a five-year sunset**, after which Congress revisits it with the rulemaking's record | A third answer between 3A and 3B. In the model the act passed only in this form, "the cost of avoiding a four-week public argument the minority wins" (scenario). Under path C it also shrinks the minority's best speech-budget fight |
+| RTS-3D | Fairness for All framework: protections paired with defined religious exemptions | Has had Republican sponsors (my knowledge); the bipartisan route if F fails |
+| RTS-3E (Talarico stress test, where it was called "RTS-3C") | H.R. 15 with athletics carved out to a **joint Education-HHS rulemaking under a five-year sunset**, after which Congress revisits it with the rulemaking's record | A third answer between 3A and 3B. In the model the act passed only in this form, "the cost of avoiding a four-week public argument the minority wins" (scenario). Under path C it also shrinks the minority's best speech-budget fight |
 
 ## RTS-4. Civil-rights enforcement
 
@@ -99,9 +97,9 @@ The ledger carries S1 (4 days) and S2 (3 days) at no cost. This file keeps both 
 
 ## Survival at 51 (D1 stress test)
 
-- **Under F or C:** both bills pass with every vote if D2 holds. RTS-1 is the most contested and the likeliest target of the minority's speech budget under path C.
-- **Under G:** both fail. Neither is democracy or elections law.
-- **What survives at 51 without D2:** the executive pieces. Those are the FDA's REMS, which a Democratic FDA can restore to the 2023 conditions; EMTALA guidance; Title X by rule; agency disparate-impact rules; and enforcement priorities. All of them are reversible, and the REMS piece is exposed to the litigation above.
+- **Under F (decided):** both bills pass with every Democratic vote. Under C, the opening offer, they also pass, and RTS-1 is the most contested and the likeliest target of the minority's speech budget.
+- **Under G (the written fallback):** both fail. Neither is democracy or elections law.
+- **What survives at 51 without a rules change:** the executive pieces. Those are the FDA's REMS, which a Democratic FDA can restore to the 2023 conditions; EMTALA guidance; Title X by rule; agency disparate-impact rules; and enforcement priorities. All of them are reversible, and the REMS piece is exposed to the litigation above.
 
 ## Dependencies
 
@@ -115,7 +113,7 @@ The ledger carries S1 (4 days) and S2 (3 days) at no cost. This file keeps both 
 
 | Agency | Rows | Source of funds |
 | --- | --- | --- |
-| DOJ Civil Rights Division, EEOC, HHS OCR, Education OCR | RTS-3, RTS-4 | **Proposed: $6B from CAP-7's batch 4 reserve** (estimate; these are not on D9's list yet) |
+| DOJ Civil Rights Division, EEOC, HHS OCR, Education OCR | RTS-3, RTS-4 | **Proposed: $6B from the agency-rebuild reserve** (domain-capacity.md CAP-7S and CAP-7; estimate; pending Espen, and not on D9's list until accepted) |
 | FDA (REMS, drug approval) | RTS-1 | Existing FDA appropriations and user fees |
 
 ## Design-rule check
@@ -138,7 +136,7 @@ The ledger carries S1 (4 days) and S2 (3 days) at no cost. This file keeps both 
 | Ledger S2; Bill Book 23; staging 19.3 | RTS-3 |
 | Staging 4.14 (statutory repairs pointer, reproductive rights) | RTS-1 |
 | Staging 17.5 (affirmative right to vote) | Unchanged (amendment; democracy file) |
-| **New rows needed at the rebuild** | RTS-4 inside S2 (no extra days); RTS-2 noted against the appropriations rows |
+| **Ledger rows** | RTS-1 (with RTS-2's riders) and RTS-3 (with RTS-4, no extra days) |
 
 ## Open items
 
@@ -153,4 +151,4 @@ The ledger carries S1 (4 days) and S2 (3 days) at no cost. This file keeps both 
 - [Bloomberg Law analysis, legal landscape for abortion pills (June 23, 2026)](https://news.bloomberglaw.com/bloomberg-law-analysis/analysis-legal-landscape-for-abortion-pills-grows-more-complex)
 - [JURIST, Supreme Court upholds West Virginia and Idaho bans (June 30, 2026)](https://www.jurist.org/news/2026/06/supreme-court-upholds-west-virginia-idaho-bans-on-transgender-athletes-in-womens-sports/)
 - *Dobbs v. Jackson Women's Health Organization* (2022); *Gonzales v. Carhart* (2007); *Bostock v. Clayton County* (2020); *United States v. Skrmetti* (2025); *303 Creative v. Elenis* (2023); *Fulton v. Philadelphia* (2021); *Alexander v. Sandoval* (2001), from my knowledge
-- archive/wargame-floor-time-bill-book.html, Bills 22 and 23 (ideas only); index/2029-trifecta-master-ledger.md, S1 and S2
+- archive/wargame-floor-time-bill-book.html, Bills 22 and 23 (ideas only); index/2029-trifecta-master-ledger.md, rows RTS-1 and RTS-3

@@ -1,16 +1,14 @@
 # Domain file: Democracy — representation, elections and civic life (DEM)
 
-Canonical as of Oct 19, 2026 (batch 2; updated the same evening for the second-term package decision, INT-5B and the D9 agency list; **civic-life rows DEM-15 to DEM-20 added later that evening as a batch 4 follow-up, at Espen's request, folding in staging section 15 instead of giving it its own file; national service then moved to domain-labor.md LAB-9 at Espen's request, and DEM-15 is now a pointer**). This file covers representation and apportionment (staging inventory section 2), voting rights and elections (section 3) and civic infrastructure (section 15). It replaces those staging rows, which become pointers. The enabling layer (staging section 1) stays with Decision D2 and is not a policy in this file; money in politics and anti-corruption are in domains/domain-integrity.md; election-worker protection is canonical in domains/domain-public-safety.md (SAF-8, converted from Safe Everywhere plank 8 in batch 4); constitutional amendments, including the popular-vote amendment that carries DEM-9, are in domains/domain-amendments.md.
+Canonical. This file covers representation and apportionment (staging inventory section 2), voting rights and elections (section 3) and civic infrastructure (section 15). It replaces those staging rows, which are pointers. National service (staging 15.1) is canonical in domain-labor.md as LAB-9; DEM-15 is a pointer. The enabling layer (staging section 1) stays with Decision D2 and is not a policy in this file; money in politics and anti-corruption are in domains/domain-integrity.md; election-worker protection is canonical in domains/domain-public-safety.md (SAF-8, converted from Safe Everywhere plank 8 in batch 4); constitutional amendments, including the popular-vote amendment that carries DEM-9, are in domains/domain-amendments.md.
 
-All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled** (a cited score moved to 2030-39) or **estimate** (mine). Survival tags follow D1: ✔ survives at 51, ◐ needs a D2 majority-precedent path (C, D, E, F or G), ✖ needs 60, 67 or Republican votes in any scenario.
+All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled** (a cited score moved to 2030-39) or **estimate** (mine). Survival tags follow D1: ✔ survives at 51, ◐ needs a D2 majority-precedent path (F, decided; C is the opening offer and G the written fallback), ✖ needs 60, 67 or Republican votes in any scenario.
 
 **World-state note.** Claims about the current state of the world (compact membership, redistricting litigation, the Callais holding) carry over from staging/unified-reform-inventory-current.md and sources/courts-rebalancing-the-three-branches-2026.md, both dated Oct 2026, with their citations. They were not independently re-sourced for this file. The civic-life rows (DEM-15 to DEM-20) were sourced on Oct 19, 2026; see their sections.
 
-**Naming conflict, flagged (not resolved here).** The ledger's bill rows are DEM0-DEM13; this file's policy IDs are DEM-1 to DEM-20 with a hyphen. One character is too thin a distinction. The crosswalk below is the bridge until the full rebuild after batch 4, where the recommendation is to rename the ledger's bill rows to a bill- prefix and leave DEM- to this file.
+**Ledger IDs.** The master ledger keys its rows by this file's IDs (DEM-1, DEM-3 ...); the old bill-row IDs (DEM1, DEM10 ...) appear only in its crosswalk column. The crosswalk below maps each policy to the ledger row that carries it.
 
-**Oct 20 (Talarico stress test; Espen's decisions).** **DEM-1F is adopted:** DEM-1 takes the floor after R1 is signed and its benefits are announced (about May-June 2029) and is enacted by spring 2030, not February 2029. D1's mid-2030 deadline is unchanged. **DEM-1E is also adopted** (Espen, Oct 20): DEM-1's Title I names the agenda's benefit-delivery points as voter-registration agencies. **DEM-2E** (criteria and a three-judge backstop, with commissions as a voluntary safe harbor) is filed as an option, not chosen.
-
-**Second-term package (Espen, Oct 19).** DEM-3 (House size), DEM-4 (STV) and DEM-9 (presidential method) are one package, dealt with together in the second trifecta: run on it in 2032, enact in 2033, one-off 2034 redraw. They are not sequenced against each other and none ships alone. This resolves what was open item 1 of the first draft (STV shipping into a plurality-president configuration) by moving the decision from "whether" to "all at once".
+**Decisions in force.** **DEM-1F** (adopted Oct 20): DEM-1 takes the floor after R1 is signed and its benefits are announced (about May-June 2029) and is enacted by spring 2030, inside D1's mid-2030 deadline. **DEM-1E** (adopted Oct 20): DEM-1's Title I names the agenda's benefit-delivery points as voter-registration agencies. **DEM-2E** (criteria and a three-judge backstop, with commissions as a voluntary safe harbor) is an open option. **Second-term package** (Espen, Oct 19): DEM-3 (House size), DEM-4 (STV) and DEM-9 (presidential method) are one package, dealt with together in the second trifecta: run on it in 2032, enact in 2033, one-off 2034 redraw. They are not sequenced against each other and none ships alone, so STV never ships into a plurality-president configuration.
 
 ## Summary
 
@@ -30,9 +28,9 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | DEM-12 | Re-enfranchisement | Federal felony re-enfranchisement on release; pretrial detainee access | 0.00 | None | FL | ◐ | Yes |
 | DEM-13 | Time to vote | Election Day holiday or mandatory paid time | 0.00 (0.00-0.01) | General fund | FL | ◐ | No |
 | DEM-14 | Election-worker protection | Pointer only — canonical in domain-public-safety.md SAF-8 | — | Public safety | FL | ◐ | Yes |
-| DEM-15 | National service | Pointer only — canonical in domain-labor.md LAB-9 | — | — | R2 | ✔ | — |
+| DEM-15 | National service | Pointer only — canonical in domain-labor.md LAB-9 (LAB-9D) | — | — | FL; R2 fallback | ✔ | — |
 | DEM-16 | Civic education | Formula grants to states tied to participation outcomes, not curricula | 0.01 (0.00-0.02) | General fund | AP / FL | ◐ | No |
-| DEM-17 | Public space, libraries and community infrastructure | A time-limited capital fund for libraries, parks and community centers in low-capacity places | 0.03 (0.02-0.05) | General fund (borrowing allowed, D4) | R3 | ✔ | Partly |
+| DEM-17 | Public space, libraries and community infrastructure | A time-limited capital fund for libraries, parks and community centers in low-capacity places | 0.03 (0.02-0.05) | General fund (borrowed inside the D4-B envelope, C32) | R3 | ✔ | Partly |
 | DEM-18 | Citizens' assemblies | Agencies and Congress may convene randomly selected assemblies on referred questions; three federal pilots | 0.00 | General fund | X + FL | ✔ / ◐ | No |
 | DEM-19 | Protect the citizen initiative | State track: constitutional protection of initiatives against legislative nullification | 0.00 | None | ST | ✔ | Partly |
 | DEM-20 | Local self-government | State track: limits on punitive state preemption of local government | 0.00 | None | ST | ✔ | No |
@@ -44,41 +42,39 @@ The representation and elections half of this domain (DEM-1 to DEM-14, 0.04 / 0.
 
 | This file | Ledger row | Staging rows |
 | --- | --- | --- |
-| DEM-1 | DEM1 (with DEM2 merged under C9) | 3.1, 3.2, 3.3, 3.7, 3.8, 3.11, 3.12 |
-| DEM-2 | (new row needed) | 2.4, 2.5, 2.6 |
-| DEM-3 | DEM10 | 2.1, 2.2 |
-| DEM-4 | DEM11 | 2.3 |
-| DEM-5 | DEM3 | 2.7 |
-| DEM-6 | DEM4 | 2.8 |
-| DEM-7 | (new row needed) | 2.9, 2.10, 2.11 |
+| DEM-1 | DEM-1 (old DEM1, with DEM2 merged under C9) | 3.1, 3.2, 3.3, 3.7, 3.8, 3.11, 3.12 |
+| DEM-2 | carried in DEM-1 | 2.4, 2.5, 2.6 |
+| DEM-3 | DEM-3 (old DEM10) | 2.1, 2.2 |
+| DEM-4 | DEM-4 (old DEM11, with DEM-9) | 2.3 |
+| DEM-5 | DEM-5 (old DEM3) | 2.7 |
+| DEM-6 | DEM-6 (old DEM4) | 2.8 |
+| DEM-7 | carried in DEM-6 | 2.9, 2.10, 2.11 |
 | DEM-8 | (no row; state track) | 2.12, 2.13, 2.14 |
-| DEM-9 | (no row; amendment) | 2.15, 2.16 |
+| DEM-9 | carried in DEM-4 (amendment) | 2.15, 2.16 |
 | DEM-10 | (no row; state track) | 2.17, 2.18 |
-| DEM-11 | (new row needed) | 3.4 |
-| DEM-12 | (new row needed) | 3.5, 3.10 |
-| DEM-13 | (new row needed) | 3.9 |
-| DEM-14 | S5 (now SAF-8 in domain-public-safety.md) | 3.6 |
-| DEM-15 | pointer to LAB-9 | 15.1 |
-| DEM-16 | (new row needed) | 15.2 |
-| DEM-17 | (new row needed) | 15.3 |
+| DEM-11 | DEM-11 | 3.4 |
+| DEM-12 | carried in DEM-1 | 3.5, 3.10 |
+| DEM-13 | carried in DEM-1 | 3.9 |
+| DEM-14 | SAF-8 (domain-public-safety.md) | 3.6 |
+| DEM-15 | LAB-9 (domain-labor.md) | 15.1 |
+| DEM-16 | DEM-16 | 15.2 |
+| DEM-17 | DEM-17 (financed by borrowing, C32) | 15.3 |
 | DEM-18 | (no row; executive and pilot) | 15.4 |
 | DEM-19 | (no row; state track) | 15.5 |
 | DEM-20 | (no row; state track) | 15.6 |
-
-Six rows the ledger does not carry are marked "new row needed" for the rebuild, plus two more for the civic-life rows (DEM-16, DEM-17); LAB-9 carries its own.
 
 ## DEM-1. The electoral and civil-rights package
 
 **Design.** One bill, three titles plus a funding title.
 
-- **Title I, the federal floor (Freedom to Vote lineage):** early voting, no-excuse mail voting, same-day registration, automatic registration **at every federal benefit-delivery point (DEM-1E, adopted Oct 20; see below)**, standardized list-maintenance procedure with a ban on partisan purges, paper ballots with risk-limiting audits, certification as a ministerial act hardening what the ECRA left as ordinary statute, and mandatory GSA ascertainment triggers for presidential transitions.
+- **Title I, the federal floor (Freedom to Vote lineage):** early voting, no-excuse mail voting, same-day registration, automatic registration **at every federal benefit-delivery point (DEM-1E; see below)**, standardized list-maintenance procedure with a ban on partisan purges, paper ballots with risk-limiting audits, certification as a ministerial act hardening what the ECRA left as ordinary statute, and mandatory GSA ascertainment triggers for presidential transitions.
 - **Title II, preclearance (John Lewis VRAA):** a modern coverage formula built on recent violations, answering *Shelby County*.
 - **Title III, the Callais response:** restores a results test for Section 2, authorizes race-conscious remedial districting, and carries the Fifteenth Amendment enforcement record the remedy needs.
-- **Title IV:** the 6:1 small-dollar match, designed in domains/domain-integrity.md (INT-5). Per INT-5B (accepted Oct 19), it is **paid from general revenue**; the separate small-dollar matching channel and the fines-surcharge row FS1 are retired. It rides this bill because the ledger carries it here.
+- **Title IV:** the 6:1 small-dollar match, designed in domains/domain-integrity.md (INT-5). Under INT-5B it is **paid from general revenue**, with no separate matching channel or fines surcharge. It rides this bill because the ledger carries it here.
 
 **Why one bill.** Title III is the piece that must be in force before the 2031 maps, and it is the piece with the least independent constituency. Attaching it to the floor provisions, which poll well and have a decade of drafting behind them, is the whole reason for the package shape. D1 makes this must-pass by mid-2030.
 
-**Cost.** About $0.01T, range $0.00T to $0.03T (estimate), all of it the small-dollar match, now a general-fund cost. The floor provisions impose costs on states that DEM-11 funds.
+**Cost.** About $0.01T, range $0.00T to $0.03T (estimate), all of it the small-dollar match, a general-fund cost. The floor provisions impose costs on states that DEM-11 funds.
 
 **Legal exposure.** Title II's coverage formula is written for a Court that struck the last one: the record has to be contemporaneous, violation-based and non-formulaic in the way *Shelby County* said the 1965 formula was not. Title III faces Fourteenth Amendment strict scrutiny of race-conscious remedies — per the *Callais* syllabus, Section 2 now imposes liability only on a strong inference of intentional discrimination, which is in effect the intent standard Congress overrode in 1982. Title III is therefore a re-override, and should be drafted as one, with the 1982 history in the findings.
 
@@ -90,15 +86,15 @@ Six rows the ledger does not carry are marked "new row needed" for the rebuild, 
 | DEM-1B | Split Title III into its own bill | Lets the floor provisions move faster; strands the Callais response, which is the one with the 2031 deadline | estimate |
 | DEM-1C | Floor provisions only, preclearance dropped | Removes the hardest legal fight; abandons the answer to *Shelby County* | estimate |
 | DEM-1D | Add Title III's results test to the civil-rights code generally, not only Section 2 | Broader record, broader exposure | estimate |
-| DEM-1E (**adopted Oct 20**, Talarico stress test; part of A) | In Title I: every benefit-delivery point the agenda creates or expands is a voter-registration agency under the NVRA, with automatic registration on enrollment: the IRS portal for FAM-1's monthly payments, SSA and the IRS non-filer path for the Climate Dividend (CLI-2), the state agencies running EDU-3 (school meals) and FAM-2 (child care), marketplace and Medicaid enrollment (HLT-3), and LAB-9 enrollment. Every payment also names the program and the law (design rule 3) | About zero (agency administration); addresses the beneficiary-voter gap the scenario found (71% presidential-year turnout in high-propensity districts against 44% where child-allowance uptake was highest; scenario figures) | estimate; scenario |
+| DEM-1E (**adopted**, Oct 20; part of A) | In Title I: every benefit-delivery point the agenda creates or expands is a voter-registration agency under the NVRA, with automatic registration on enrollment: the IRS portal for FAM-1's monthly payments, SSA and the IRS non-filer path for the Climate Dividend (CLI-2), the state agencies running EDU-3 (school meals) and FAM-2 (child care), marketplace and Medicaid enrollment (HLT-3), and LAB-9 enrollment. Every payment also names the program and the law (design rule 3) | About zero (agency administration); addresses the beneficiary-voter gap the scenario found (71% presidential-year turnout in high-propensity districts against 44% where child-allowance uptake was highest; scenario figures) | estimate; scenario |
 
-**Timing (DEM-1F, decided Oct 20).** DEM-1 takes the floor after R1 is signed (about May-June 2029) and is enacted by spring 2030, rather than February 2029. The reason is the Talarico model's counterfactual: leading with voting rights in early 2029 cost about forty House seats in 2030 instead of thirteen (scenario figure). The design rule 4 bridge: announce DEM-1 together with R1's benefits. **The cost, stated plainly:** registration provisions take time to land (the model's Texas Valley turnout recovered only in 2032), so a later enactment helps 2030 turnout less. Spring 2030 still leaves time for Title III to be in force before the 2031 maps, which is the deadline that matters. DEM-1E is the piece that lets a later enactment still reach new beneficiaries before November 2030, since enrollment in FAM-1 and HLT-3 is already running.
+**Timing (DEM-1F, adopted Oct 20).** DEM-1 takes the floor after R1 is signed (about May-June 2029) and is enacted by spring 2030. The reason is the Talarico model's counterfactual: leading with voting rights in early 2029 cost about forty House seats in 2030 instead of thirteen (scenario figure). The design rule 4 bridge: announce DEM-1 together with R1's benefits. **The cost, stated plainly:** registration provisions take time to land (the model's Texas Valley turnout recovered only in 2032), so a later enactment helps 2030 turnout less. Spring 2030 still leaves time for Title III to be in force before the 2031 maps, which is the deadline that matters. DEM-1E is the piece that lets a later enactment still reach new beneficiaries before November 2030, since enrollment in FAM-1 and HLT-3 is already running.
 
-**Why A.** B is the version a whip count produces and the version that loses the thing the package exists for. C trades the durable instrument for the quick one. DEM-1E is now part of A, at no floor cost.
+**Why A.** B is the version a whip count produces and the version that loses the thing the package exists for. C trades the durable instrument for the quick one. DEM-1E is part of A, at no floor cost.
 
 **The limit, named (Talarico stress test).** The scenario's beneficiary-voter gap is not solvable by policy alone; the model never solved it. Registration at delivery, universal design (EDU-3A, FAM-1's broad phase-out, both already chosen) and legibility at the point of payment are what policy can do. The rest is a party-building problem, which this project names rather than claims to fix.
 
-**Proposed by batch 4, not yet adopted.** domain-public-safety.md recommends carrying the election-worker half of SAF-8 in DEM-1 as well, and domain-ai.md recommends that AI-8 (synthetic-media disclosure in political ads) ride DEM-1, so both survive under path G. Neither is added to DEM-1's design above until Espen accepts them (open item 9).
+**Proposed riders, not adopted.** domain-public-safety.md recommends carrying the election-worker half of SAF-8 in DEM-1 as well, and domain-ai.md recommends that AI-8 (synthetic-media disclosure in political ads) ride DEM-1, so both survive under path G. Neither is added to DEM-1's design above until Espen accepts them (open item 7).
 
 ## DEM-2. Redistricting commissions and the mid-decade ban
 
@@ -120,7 +116,7 @@ Six rows the ledger does not carry are marked "new row needed" for the rebuild, 
 | DEM-2B | Ban only | Cheapest and most bipartisan-capable; leaves partisan commissions in place | estimate |
 | DEM-2C | Commissions plus a ban with no exception | Cleanest reciprocity story; kills DEM-3 and DEM-4 | estimate |
 | DEM-2D | Add conditional funding for state legislative maps | Reaches the bigger problem; NFIB exposure | estimate |
-| DEM-2E (Oct 20, Talarico stress test) | Substantive criteria (compactness, communities of interest, partisan-symmetry limits) enforced by a three-judge district court backstop, with independent commissions as a voluntary **safe harbor** rather than a mandate; the ban with the 2034 exception kept; all titles severable | Less reach than A; closer to what the model's Court upheld, so more likely to survive | scenario; estimate |
+| DEM-2E (Talarico stress test; open) | Substantive criteria (compactness, communities of interest, partisan-symmetry limits) enforced by a three-judge district court backstop, with independent commissions as a voluntary **safe harbor** rather than a mandate; the ban with the 2034 exception kept; all titles severable | Less reach than A; closer to what the model's Court upheld, so more likely to survive | scenario; estimate |
 
 **On E.** The scenario's lesson is that "redistricting timing is not invertible": the 2031 maps are drawn by legislatures and governors elected in 2030 (a Democratic governor of Texas would hold a veto over 38 House seats). E is the fallback if A's commission mandate looks exposed when drafted; it is not a substitute for winning the 2030 governorships.
 
@@ -128,7 +124,7 @@ Six rows the ledger does not carry are marked "new row needed" for the rebuild, 
 
 **Design.** The House rises to about 692 members on the cube-root rule, with automatic decennial recalculation — about 480,000 constituents per member against about 760,000 now (Instruments and Consequences #1; scaled, arithmetic not re-checked). **Second-term package with DEM-4 and DEM-9:** run on it in 2032, enact in 2033, apply through the one-off 2034 reapportionment and redraw.
 
-**Chamber capacity.** The chamber seats about 448. A reconstruction or distributed-voting architecture has to start in the first Congress for a 2034 seating to be physically possible. This is time-limited capital, so D4 permits borrowing. Unscored; a Capitol-scale construction program is plausibly $0.01-0.03T (estimate) but needs an Architect of the Capitol figure before it goes in any total.
+**Chamber capacity.** The chamber seats about 448. A reconstruction or distributed-voting architecture has to start in the first Congress for a 2034 seating to be physically possible. This is time-limited capital, so once scored it can be proposed for the D4-B investment envelope. Unscored; a Capitol-scale construction program is plausibly $0.01-0.03T (estimate) but needs an Architect of the Capitol figure before it goes in any total.
 
 **Cost.** About $0.01T, range $0.00T to $0.02T (estimate) for member offices and staff, plus the unscored capital line.
 
@@ -150,7 +146,7 @@ Six rows the ledger does not carry are marked "new row needed" for the rebuild, 
 
 **Cost.** None federally.
 
-**Package decision (Espen, Oct 19).** DEM-4 is handled together with DEM-3 and DEM-9 in the second term. The earlier hold ("do not ship without DEM-9") becomes a structural fact rather than a conditional: they are one package, so STV never ships into a plurality-president configuration by design. The residual risk is that the amendment half (DEM-9) fails while the statutory half passes; the options below say what happens then.
+**Package decision (Espen, Oct 19).** DEM-4 is handled together with DEM-3 and DEM-9 in the second term. They are one package, so STV never ships into a plurality-president configuration by design. The residual risk is that the amendment half (DEM-9) fails while the statutory half passes; the options below say what happens then.
 
 **Hard holds that remain.**
 
@@ -234,11 +230,11 @@ Six rows the ledger does not carry are marked "new row needed" for the rebuild, 
 
 ## DEM-14. Election-worker protection (pointer)
 
-Canonical in domains/domain-public-safety.md, SAF-8 (converted from Safe Everywhere plank 8 in batch 4): threat-assessment grants, address privacy, a threat statute fitting the 2023 true-threats standard, and dedicated prosecutors. The old inventory's separate criminal-penalty and private-cause-of-action rows are options there, not here. Listed in this file only so the domain's coverage is complete. SAF-8 recommends that its election-worker half also ride DEM-1 so it survives path G; see the note under DEM-1.
+Canonical in domains/domain-public-safety.md, SAF-8 (Safe Everywhere plank 8): threat-assessment grants, address privacy, a threat statute fitting the 2023 true-threats standard, and dedicated prosecutors. The old inventory's separate criminal-penalty and private-cause-of-action rows are options there, not here. Listed in this file only so the domain's coverage is complete. SAF-8 recommends that its election-worker half also ride DEM-1 so it survives path G; see the note under DEM-1.
 
 ## Civic life (DEM-15 to DEM-20)
 
-Added Oct 19, 2026 at Espen's request: staging section 15 (civic infrastructure) folds into this file instead of a file of its own. The reasoning: four of its six rows are about how citizens take part in self-government (assemblies, initiatives, local self-rule, civic education), which is this file's subject. National service (staging 15.1) went to domain-labor.md as LAB-9 at Espen's request, where it sits beside apprenticeships and the care workforce; its statutory mixing requirement (Instruments #14) travels with it, and DEM-15 is kept as a pointer so the ID stays stable.
+Staging section 15 (civic infrastructure) lives in this file rather than a file of its own, because four of its six rows are about how citizens take part in self-government (assemblies, initiatives, local self-rule, civic education), which is this file's subject. National service (staging 15.1) is canonical in domain-labor.md as LAB-9, where it sits beside apprenticeships and the care workforce; its statutory mixing requirement (Instruments #14) travels with it, and DEM-15 is kept as a pointer so the ID stays stable.
 
 **World state (Oct 2026).**
 
@@ -251,7 +247,7 @@ Added Oct 19, 2026 at Espen's request: staging section 15 (civic infrastructure)
 
 ### DEM-15. National service (pointer)
 
-Canonical in domains/domain-labor.md, LAB-9 (moved Oct 19 at Espen's request): a universal paid service year with an education award, cross-regional and cross-class placement in the statute, mandatory funding in R2, about $0.12T (range $0.06-0.20T, estimate). Listed here so the civic-life coverage is complete.
+Canonical in domains/domain-labor.md, LAB-9: a paid service year with an education award and cross-regional and cross-class placement in the statute. The chosen path is LAB-9D (Decision Brief 2): a bipartisan authorization at about LAB-9B's scale first, as a regular-order bill, with LAB-9A's mandatory R2 funding as the fallback; the ledger carries LAB-9A's $0.12T (range $0.06-0.20T, estimate) until an authorization passes. Listed here so the civic-life coverage is complete.
 
 ### DEM-16. Civic education
 
@@ -263,7 +259,7 @@ Canonical in domains/domain-labor.md, LAB-9 (moved Oct 19 at Espen's request): a
 
 **Design.** A capital fund for libraries, parks, community centers and public plazas, weighted toward places with low fiscal capacity, with a maintenance-endowment match so that buildings are not opened and then abandoned. The Institute of Museum and Library Services' statutory programs are kept, and the fund is administered through it and the Interior Department's outdoor recreation grants.
 
-**Cost.** About $0.03T, range $0.02-0.05T (estimate), as **time-limited capital**: a fixed number of years of grants, then the fund closes. **D4:** borrowing is allowed for time-limited capital, the same reading Espen accepted for Moving America under C30, so this row need not take revenue from the base. The ledger should show it as borrowing-financed.
+**Cost.** About $0.03T, range $0.02-0.05T (estimate), as **time-limited capital**: a fixed number of years of grants, then the fund closes. **D4:** it is borrowed for inside the D4-B investment envelope (C32, accepted in Decision Brief 1), so it takes no revenue from the base; the ledger shows it as borrowing-financed.
 
 **Vehicle.** Capital grants as direct spending in R3 (Byrd unchecked) ✔, or appropriations. Pairs with CAP-13's state and local capacity grants and domain-housing.md's community investments.
 
@@ -301,23 +297,23 @@ Canonical in domains/domain-labor.md, LAB-9 (moved Oct 19 at Espen's request): a
 | ◐ needs a D2 path | DEM-1, DEM-2, DEM-3, DEM-4, DEM-5, DEM-6, DEM-7, DEM-11, DEM-12, DEM-13, DEM-14, DEM-16, DEM-18's statutory half |
 | ✖ needs 60 or 67 | DEM-9 |
 
-This is the domain where D2 bites hardest. Eleven of the fourteen representation and elections items are ◐, and under path G (the failure case) the carve-out covers exactly those — which is the argument for G and also its indictment: G buys the democracy agenda at the price of the other 15 contested bills. Under path A or B, DEM-1 needs 7-8 or 1-3 Republicans respectively (Senate doc estimates), and DEM-1 is the must-pass. The civic-life rows mostly avoid the problem: the money rides reconciliation and the rest is state work.
+This is the domain where D2 bites hardest. Eleven of the fourteen representation and elections items are ◐. Under F (decided) they all pass by graduated cloture. Under G, the written fallback, the carve-out covers exactly those — which is the argument for G and also its indictment: G buys the democracy agenda at the price of the other 15 contested bills. With final passage held at 60, DEM-1 would need 7-8 Republicans (Senate doc estimate, path A), and DEM-1 is the must-pass. The civic-life rows mostly avoid the problem: the money rides reconciliation and the rest is state work.
 
-**The sequencing risk (restated Oct 20 for DEM-1F).** DEM-1 must be in force before the 2031 redistricting, which means enactment by mid-2030 (spring 2030 under DEM-1F). The D2 vote therefore has to happen before DEM-1 takes the floor in mid-2029, after R1, rather than in the first weeks of 2029. The rules vote can still come early; DEM-1F moves the bill, not the rules change. Nothing else in the file has a deadline that tight, and DEM-1F uses up most of the slack: a D2 failure discovered in summer 2029 leaves less than a year to find path G's carve-out or a 60-vote version.
+**The sequencing risk.** DEM-1 must be in force before the 2031 redistricting: enactment by mid-2030, and by spring 2030 under DEM-1F. F is adopted in week one of 2029, well before DEM-1 takes the floor after R1 in mid-2029; DEM-1F moves the bill, not the rules change. Nothing else in the file has a deadline that tight, and DEM-1F uses up most of the slack: if F fails in early 2029, the written fallback G (or a 60-vote version of DEM-1) has to be found within about a year.
 
 ## Dependencies
 
-- **D2:** everything ◐ above. Choose before the floor plan is final; the floor-day figures in the ledger are modeled on F primary, C alternate, G failure case, and are conditional on that choice.
+- **D2:** everything ◐ above. D2 is decided: F, adopted in week one of 2029; the ledger's floor-day figures are modeled on F (170 floor days against 163), with C the opening offer and G the written fallback.
 - **D1:** DEM-1 must-pass by mid-2030; DEM-3, DEM-4 and DEM-9 are one second-term package, 2033 with the one-off 2034 redraw; DEM-2's ban must carry the exception that permits it.
-- **D4:** DEM-17 is time-limited capital and may be borrowed for.
+- **D4:** DEM-17 is time-limited capital, borrowed for inside the D4-B investment envelope (C32).
 - **Amendments file:** AMD-3 is the amendment vehicle for DEM-9; AMD-6 is the 23rd Amendment repeal after DEM-5; AMD-5 is the right to vote under DEM-1.
 - **Integrity file:** INT-5 designs DEM-1's Title IV, and INT-5B puts its cost on the general fund; INT-2 (DISCLOSE) is merged into DEM-1 under ledger cut C9.
 - **Courts file:** CRT-14 is the statutory-repairs pointer that includes the VRA rewrite; this file holds the VRA substance and the courts file points here.
 - **Public safety file:** DEM-14 (SAF-8); DEM-12 (SAF-7).
 - **AI file:** AI-8 proposes to ride DEM-1.
 - **Labor file:** DEM-15 points to LAB-9 (national service).
-- **Capacity:** the EAC is named in D9's extended agency list (Oct 19 amendment) with about $3B in domain-capacity.md CAP-7; DEM-11 is the formula line that flows through it. IMLS is not on D9's list; DEM-17 carries its own administration inside its cost (estimate). DEM-17 pairs with CAP-13.
-- **Revenue:** none for DEM-1 to DEM-14. The small-dollar matching channel and FS1 are retired (INT-5B), so DEM-1's cost sits on the general fund by design, not by default.
+- **Capacity:** the EAC is named in D9's agency list with about $3B in domain-capacity.md's agency rebuild (CAP-7S surge and CAP-7 sustained); DEM-11 is the formula line that flows through it. IMLS is not on D9's list; DEM-17 carries its own administration inside its cost (estimate). DEM-17 pairs with CAP-13.
+- **Revenue:** none for DEM-1 to DEM-14. Under INT-5B there is no separate matching channel, so DEM-1's cost sits on the general fund by design, not by default.
 
 ## Design-rule check
 
@@ -328,7 +324,7 @@ This is the domain where D2 bites hardest. Eleven of the fourteen representation
 | Legibility | Weak for the elections half, and known: no voter experiences "preclearance." The legible pieces are same-day registration, the holiday, the ballot itself |
 | Pairing | DEM-1 is the package: the structural reform (preclearance, Callais) travels with the floor provisions voters recognize. DEM-3, DEM-4 and DEM-9 are likewise one package, not three |
 | Supply with demand | DEM-11 funds the administrative capacity DEM-1's mandates require |
-| Capacity first | EAC named in D9's extended list and allocated in CAP-7 |
+| Capacity first | EAC named in D9's agency list and allocated in CAP-7 |
 | Write for this Court | DEM-1 Title II is drafted against *Shelby County*'s stated objection; Title III against the *Callais* syllabus; DEM-2 uses the Elections Clause hook *Rucho* invited and *Moore* protected; DEM-2D's spending lever is held as NFIB-exposed; DEM-19 stays state-level because the Guarantee Clause is nonjusticiable |
 | One version per policy | House size: 692 chosen, 585 kept as DEM-3B. STV magnitude: five chosen, three as DEM-4B. National service: one home, LAB-9 |
 | Every number has a basis | Tagged; DEM-11, DEM-3's capital line and DEM-17 need real figures |
@@ -340,12 +336,10 @@ This is the domain where D2 bites hardest. Eleven of the fourteen representation
 3. **DEM-3's chamber capital line is unscored** and needs an Architect of the Capitol figure.
 4. **DEM-6's statehood fiscal effect is unscored** anywhere in the project.
 5. **Mid-decade reapportionment needs legal review** before 2032.
-6. **Live D9 doc** needs the extended agency list (EAC and the rest).
-7. **Section 2 modeling rerun** on the post-Callais baseline (ledger cut C14).
-8. **Nine ledger rows are missing** (see the crosswalk) and should be added at the rebuild.
-9. **Batch 4 proposals for DEM-1:** add SAF-8's election-worker half and AI-8's synthetic-media disclosure to DEM-1 so both survive path G (Espen's call).
-11. **DEM-2E** (Oct 20): Espen's call. (DEM-1E was adopted the same day.)
-10. **Byrd check** for DEM-17 (R3).
+6. **Section 2 modeling rerun** on the post-Callais baseline (ledger cut C14).
+7. **Proposed riders for DEM-1:** add SAF-8's election-worker half and AI-8's synthetic-media disclosure to DEM-1 so both survive path G (Espen's call).
+8. **DEM-2E:** Espen's call.
+9. **Byrd check** for DEM-17 (R3).
 
 ## Sources
 
@@ -354,8 +348,8 @@ This is the domain where D2 bites hardest. Eleven of the fourteen representation
 - frameworks/instruments-and-consequences.md: #1 (cube root and chamber capacity), #2 (STV magnitude), #6 (compact consent), #7 (23rd Amendment), Part II (presidential method, primary calendar, fusion voting).
 - frameworks/radical-means-moderate-ends.md: the compact's withdrawal window; RCV and open primaries as deposits.
 - index/2029-trifecta-master-ledger.md: rows DEM1-DEM4, DEM10, DEM11, and cut C9; floor-day figures.
-- governing/project-2050-governing-decisions.md: D1 (the 2033 move and the must-pass deadline), D2 (modeling basis), D4 (capital borrowing for DEM-3 and DEM-17), D9 (EAC in the agency list).
+- governing/project-2050-governing-decisions.md: D1 (the 2033 move and the must-pass deadline), D2 (F, decided), D4 (D4-B; DEM-17's borrowing under C32), D9 (EAC in the agency list).
 - frameworks/scenario-stress-test-talarico-2029-2037.md and sources/scenario-talarico-2029-2037.md (Oct 20): DEM-1F, DEM-1E, DEM-2E; scenario figures, not estimates.
 - Espen Swanson, Oct 20, 2026: DEM-1F and DEM-1E adopted.
-- Espen Swanson, Oct 19, 2026: second-term package decision for DEM-3, DEM-4 and DEM-9; folding civic infrastructure into this file, then moving national service to domain-labor.md LAB-9.
+- Espen Swanson, Oct 19, 2026: second-term package decision for DEM-3, DEM-4 and DEM-9; civic infrastructure in this file; national service in domain-labor.md LAB-9.
 - Civic-life sources (Oct 19, 2026): [Bloomberg Government on the IMLS settlement (Apr 2026)](https://news.bgov.com/litigation/trump-administration-settles-challenge-to-library-agency-cuts); [Boston Globe on legislatures curbing initiatives (Apr 8, 2026)](https://www.bostonglobe.com/2026/04/08/nation/stung-by-voters-republican-legislators-move-curb-citizen-initiatives); [Ballotpedia on the four 2026 counter-measures (July 9, 2026)](https://news.ballotpedia.org/2026/07/09/signatures-submitted-for-four-2026-ballot-measures-that-would-limit-legislative-changes-to-the-initiative-process-in-arkansas-missouri-montana-and-nebraska/).

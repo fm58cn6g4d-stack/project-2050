@@ -1,8 +1,6 @@
 # Domain file: Social Security (SS)
 
-Canonical as of Oct 19, 2026. This file applies Governing Decision D8: solvency first, with a targeted increase, as a regular-order bill in spring 2030. Effects on the 75-year actuarial balance are in percent of taxable payroll. Ten-year dollar figures are for 2030-39 in trillions.
-
-**Oct 20 (Talarico stress test).** One option is added, **SS-10, a bipartisan path on the Warren-Moreno framework** (frameworks/scenario-stress-test-talarico-2029-2037.md). It is not chosen: D8 stands unless Espen changes it. The chosen design, the figures and the vehicle below are unchanged.
+Canonical. This file applies Governing Decision D8: solvency first, with a targeted increase, as a regular-order bill in spring 2030. Effects on the 75-year actuarial balance are in percent of taxable payroll. Ten-year dollar figures are for 2030-39 in trillions.
 
 ## The gap
 
@@ -15,13 +13,13 @@ The 2026 Trustees report puts the 75-year deficit at **4.42% of taxable payroll*
 | ID | Piece | Effect on the 75-year balance | Basis |
 | --- | --- | --- | --- |
 | SS-1 | 12.4% tax on earnings above $250,000 (unindexed threshold), with a small benefit credit for the new taxes | +2.35 | sourced (SSA actuaries, provision E2.16) |
-| SS-2 | 12.4% Social Security tax on investment income above $400,000, credited to the trust fund | +1.3 to +1.6 before the haircut; about +1.1 to +1.36 after it | estimate. SSA scored the same tax at the ACA thresholds ($200K/$250K) at +1.93 (2023); the $400K threshold reaches less income. A 15% avoidance haircut is booked (decided Oct 19), matching the general fund's GX on the same base |
+| SS-2 | 12.4% Social Security tax on investment income above $400,000, credited to the trust fund | +1.3 to +1.6 before the haircut; about +1.1 to +1.36 after it | estimate. SSA scored the same tax at the ACA thresholds ($200K/$250K) at +1.93 (2023); the $400K threshold reaches less income. A 15% avoidance haircut is booked, matching the general fund's GX on the same base |
 | SS-3 | Higher minimum benefit: 125% of poverty for 30-year workers, wage-indexed | −0.11 | sourced (SSA 2023 letter) |
 | SS-4 | CPI-E for cost-of-living adjustments (about +0.2 points a year) | −0.41 | sourced (SSA 2023 letter) |
 | | **Baseline, net** | **about +2.9 to +3.2** after the SS-2 haircut (+3.1 to +3.4 before) | estimate (interactions ignored) |
 | | **Share of the 4.42% gap** | **about 65% to 72%** (70-77% before the haircut) | |
 
-**The baseline does not reach 75-year balance.** My D8 table on Oct 19 said it would come close; that was wrong, because it used a 3.8% gap. Depletion moves out by decades (needs a score), but a gap of about 1.2-1.5% of payroll remains after the stacking haircut. The closers below cover it.
+**The baseline does not reach 75-year balance.** Depletion moves out by decades (needs a score), but a gap of about 1.2-1.5% of payroll remains after the stacking haircut. The closers below cover it.
 
 ## Closers (choose at least one)
 
@@ -33,9 +31,9 @@ The 2026 Trustees report puts the 75-year deficit at **4.42% of taxable payroll*
 | SS-8 | Invest part of the reserves in equities | +0.5 to +1.0 | estimate | No one directly; market risk |
 | SS-9 | Cover newly hired state and local workers | small | sourced (revenue tab) | New public employees |
 
-**Recommendation (an option, not yet decided): baseline plus SS-5.** It closes about 86-92% of the gap (91-98% before the Oct 19 stacking haircut) without a middle-class rate increase and keeps solvency entirely on high incomes. Adding SS-6 would close the rest. SS-7 is the fallback if the business-income tax proves hard to administer.
+**Recommendation (an option, not yet decided): baseline plus SS-5.** It closes about 86-92% of the gap (91-98% before the stacking haircut) without a middle-class rate increase and keeps solvency entirely on high incomes. Adding SS-6 would close the rest. SS-7 is the fallback if the business-income tax proves hard to administer.
 
-## SS-10. A bipartisan path on the Warren-Moreno framework (option, Oct 20)
+## SS-10. A bipartisan path on the Warren-Moreno framework (option, not chosen; D8 stands unless Espen changes it)
 
 **The real-world opening.** On June 23, 2026, Sens. Elizabeth Warren and Bernie Moreno (R-Ohio) published a joint New York Times op-ed proposing to lift the Social Security payroll-tax cap so high earners pay the same share of income as other workers, and said they are working together on legislation to remove the cap (Moreno and Warren press releases, June 23, 2026). No bill text or design details beyond lifting the cap were found; the design below is a scenario, not their bill.
 
@@ -44,7 +42,7 @@ The 2026 Trustees report puts the 75-year deficit at **4.42% of taxable payroll*
 - **Republicans get:** a bend-point adjustment for the top 8% of lifetime earners (lower benefit accrual at the top), no investment-income inclusion (no SS-2), no payroll-rate increase (no SS-7), a "donut" exempting earnings between the current cap and $400,000 that closes by 2040, and an enhanced benefit for long-career low-wage workers.
 - **Result in the model:** solvent to 2081. The model's own figure; it has not been scored by SSA's actuaries.
 
-**Why it matters for the base case.** D8's baseline is a regular-order bill that needs D2's rules change or 60 votes, passes at best with the caucus alone, and leaves 28-35% of the gap open without a closer. A 67-vote law is a different asset from a 51- or 54-vote one: the scenario's finding is that "a 54-vote Social Security law is a repeal target for forty years; a 67-vote one is settled." The cost is the design: SS-10 drops SS-2 (about +1.1 to +1.36 of the balance and $0.75-1.2T of in-window trust-fund revenue) and replaces it with a bend-point change for top earners, which D8's "targeted increase" framing did not include, and the donut delays revenue from earnings between the cap and $400,000 until 2040.
+**Why it matters for the base case.** D8's baseline is a regular-order bill that relies on D2's graduated cloture (F) or 60 votes, passes at best with the caucus alone, and leaves 28-35% of the gap open without a closer. A 67-vote law is a different asset from a 51- or 54-vote one: the scenario's finding is that "a 54-vote Social Security law is a repeal target for forty years; a 67-vote one is settled." The cost is the design: SS-10 drops SS-2 (about +1.1 to +1.36 of the balance and $0.75-1.2T of in-window trust-fund revenue) and replaces it with a bend-point change for top earners, which D8's "targeted increase" framing did not include, and the donut delays revenue from earnings between the cap and $400,000 until 2040.
 
 | Option | Design | Effect | Basis |
 | --- | --- | --- | --- |
@@ -82,16 +80,16 @@ These are trust-fund figures, outside the general fund (D4).
 
 ## Vehicle, timing and floor time
 
-- **Vehicle:** regular order, spring 2030, before the midterm. Section 310(g) bars Social Security from reconciliation, so the bill needs D2's rules change or 60 votes. SS-10 would be a bipartisan alternative negotiated in 2029.
+- **Vehicle:** regular order, spring 2030, before the midterm. Section 310(g) bars Social Security from reconciliation, so the bill relies on D2's graduated cloture (F, adopted week one of 2029) or 60 votes. SS-10 would be a bipartisan alternative negotiated in 2029.
 - **Floor time:** about 8 days.
 - **Survival at 51 (D1):** only with the rules change and full caucus unity. The revenue sits entirely above $250K/$400K, which helps hold the caucus.
 - **Felt date:** the minimum benefit and CPI-E start with the first COLA after enactment, about January 2031. Solvency is "felt" as the absence of the OASI cut (about 2032) and the combined-fund cut (2034).
 
 ## Dependencies
 
-- **D2:** the rules change, or 60 votes (SS-10 aims at 67).
-- **Overlap with REV-H1b:** SS-2's base overlaps H1b's 5% Medicare and investment-income rate above $400K (now in the general fund). Both stack on the same income; since Oct 19 both carry a 15% avoidance haircut (domains/domain-revenue.md, stacking section). A joint behavioral score would replace the flat haircut. SS-10 would drop SS-2 and with it the stacking problem.
-- **Capacity:** SSA staffing is in the D9 rebuild line.
+- **D2:** graduated cloture (F), or 60 votes (SS-10 aims at 67).
+- **Overlap with REV-H1b:** SS-2's base overlaps H1b's 5% Medicare and investment-income rate above $400K (in the general fund). Both stack on the same income, and both carry a 15% avoidance haircut (domains/domain-revenue.md, stacking section). A joint behavioral score would replace the flat haircut. SS-10 would drop SS-2 and with it the stacking problem.
+- **Capacity:** SSA staffing is in CAP-7 (domains/domain-capacity.md).
 
 ## Open items
 
@@ -100,7 +98,7 @@ These are trust-fund figures, outside the general fund (D4).
    - **Solvency:** the share of the 4.42% gap each path closes, on SSA actuarial scores where they exist (SS-10 needs one: the cap lift without SS-2, with the donut and the bend-point change).
    - **Revenue and incidence:** in-window trust-fund revenue (SS-10 drops SS-2's $0.75-1.2T), who pays, and the D3 test for the bend-point change.
    - **Durability and timing:** a 67-vote law in 2029 against a majority-rule law in spring 2030, the OASI depletion date (about 2032, as reported), and the floor days each uses.
-   - **Interaction with D2:** whether pursuing SS-10 first weakens the "credible threat" of the D8 fallback if D2 has not been decided.
+   - **Interaction with D2:** whether pursuing SS-10 first weakens the "credible threat" of the D8 fallback, which rests on D2's graduated cloture being in place.
 2. **SSA actuarial score** of the D8 package as a whole (needed for every path).
 
 ## Design-rule check

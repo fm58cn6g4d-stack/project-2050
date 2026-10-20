@@ -45,7 +45,7 @@ bill,INT-1,,out_disc_nondefense,,1,gdp,,,,,
 bill,CRT-P1,,out_disc_nondefense,,3,gdp,,,,,Judgeships phased
 bill,EXE-1,,out_disc_nondefense,,1,gdp,,,,,
 bill,CAP-8,,out_disc_nondefense,,2,gdp,,,,,
-bill,CAP-7,,out_disc_nondefense,,3,gdp,,,,,"Sustained capacity increase: steps up over three years to ~0.12% of GDP, then tracks GDP (restructured Oct 20)"
+bill,CAP-7,,out_disc_nondefense,,3,gdp,,,,,"Sustained capacity increase: steps up over three years to ~0.12% of GDP, then tracks GDP"
 bill,CAP-7S,,out_disc_nondefense,,,gdp,,0.0,,,"Agency rebuild surge, front-loaded FY2030-35 and then zero (YEARS; Decision Brief 2)"
 bill,NSC-1,,out_disc_defense,,1,gdp,,,,,
 bill,NSC-8,,out_disc_nondefense,,2,gdp,,,,,

@@ -1,27 +1,10 @@
-"""D3 household net test (v1.3, Oct 20, 2026: education batch on top of the full ledger rebuild).
+"""D3 household net test (incidence model).
 
-Distributes every household-facing instrument in the ledger by income quintile, with the
-top 1% split out of the top quintile. Units: ten-year totals for 2030-39 in $T, converted to
-average dollars per household per year. Shares are estimates anchored to the published
-patterns cited in the doc; every row says which pattern it uses.
-
-v1.2 changes (ledger rebuild, Oct 20): housing restated to HOU-1's $0.47T (was E6, $0.60T);
-the public-safety package restated to its durable sources (PS1, $0.09T: deployment savings and
-Crime Victims Fund receipts are not household taxes); LAB-8 apprenticeships and LAB-9 national
-service added as benefits. Row IDs keep their v1 names where unchanged.
-
-v1.3 changes (education batch, Oct 20 evening): F4 becomes EDU (EDU-1 and EDU-5, same $0.65T);
-EDU-3 universal meals ($0.27T, new `meals` key), EDU-4 educator pipeline ($0.03T) and EDU-7
-(repeal of the scholarship tax credit, a $0.04T cost on donors, new `donors` key) added.
-New options: C35 (estate tax at 2009 parameters, new `estate` key), C36 (meals at community-
-eligibility scale), and the EDU-9B education fund (EDUP contribution, EDUB new benefits).
-Scenario G tests EDU-9B as the closer in place of C19 and C20.
-Scenario P (Oct 20, Decision Brief 1) is the planning basis: Package B plus the top-end sprint package C38.
-
-v1.4 changes (Espen's decisions later on Oct 20): the carbon fee moves to the durability path
-($25 rising to ~$100 by 2037; C1 $1.35T, dividend $1.08T, transition share $0.27T); C35 is
-restated as the increment beyond G9 ($0.15T). The ten-year totals hide one gain: the new path's
-lower early price makes 2030-32 better for every quintile than the old path (see the years model).
+Distributes every household-facing instrument in the ledger by income quintile, with the top 1% split out
+of the top quintile. Units: ten-year totals for 2030-39 in $T, converted to average dollars per household
+per year. Rows and amounts come from index/data/inputs/incidence-rows.csv (amounts are formulas over ledger
+IDs); shares are estimates anchored to published patterns (incidence-keys.csv). Scenario Q is the decided
+package; the other scenarios vary one choice against it.
 """
 import json, re
 from inputs import read, num
@@ -111,17 +94,15 @@ def gf_test(opts):
             total += amt; d = dist(parts); top1 += d["T1"]
     return round(total, 2), round(top1, 2), round(corpstat, 2), round(100 * (top1 + corpstat) / total)
 
+QO = ["C18", "C35", "C19b", "C20", "C38", "C39", "C40", "C41"]   # the decided package (Decision Briefs 1 and 2)
+QEDU = ["C18", "C35", "C38", "C39", "C40", "C41", "EDUP", "EDUB"]   # EDU-9B (held) in place of C19b and C20
 SCEN = {
+    "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, and C39-C41": (QO, ()),
     "A. Base package only (gap unfunded)": ([], ()),
-    "B. Base plus the full options list (gap about $0.2T)": (["C18", "C19", "C20", "C5"], ()),
-    "C. B without the employer-exclusion cap (C19)": (["C18", "C20", "C5"], ()),
-    "D. B with the exclusion cap at the 75th percentile (C19b)": (["C18", "C19b", "C20", "C5"], ()),
-    "E. B with no premium pass-through from the price caps": (["C18", "C19", "C20", "C5"], ("H5p",)),
-    "F. B with SAF-R2 (alcohol excise dropped)": (["C18", "C19", "C20", "C5", "SAFR2"], ()),
-    "G. EDU-9B education fund as the closer in place of C19 and C20": (["C18", "C5", "EDUP", "EDUB", "C35"], ()),
-    "H. B plus the estate tax (C35)": (["C18", "C19", "C20", "C5", "C35"], ()),
-    "P. Planning basis: Package B plus the sprint package (C18, C35, C19b, C20, C38; trims not yet decided)": (["C18", "C35", "C19b", "C20", "C38"], ()),
-    "Q. Decided (Decision Brief 2): P plus TS12, HP1 and HP3 (C39-C41); no trims": (["C18", "C35", "C19b", "C20", "C38", "C39", "C40", "C41"], ()),
+    "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)": ([o if o != "C19b" else "C19" for o in QO], ()),
+    "Q-H5p. Q with no hospital-price pass-through to wages": (QO, ("H5p",)),
+    "Q-SAF. Q with SAF-R2 (alcohol excise dropped)": (QO + ["SAFR2"], ()),
+    "Q-EDU. Q with the EDU-9B education fund (held) in place of C19b and C20": (QEDU, ()),
 }
 
 if __name__ == "__main__":
@@ -131,9 +112,9 @@ if __name__ == "__main__":
         out[name] = dict(res=res, gf=gf_test(o))
         print(name, gf_test(o))
         for g in GROUPS + ["Q5x", "T1"]: print("  ", g, res[g])
-    res, lines = run(["C18", "C19", "C20", "C5"])
+    res, lines = run(QO)
     out["lines"] = [(rid, label, side, amt, {g: round(v, 3) for g, v in d.items()}, basis) for rid, label, side, amt, d, basis in lines]
     json.dump(out, open("incidence.json", "w"), indent=1)
-    print("Q4 lines, scenario B:")
+    print("Q4 lines, scenario Q:")
     q4 = sorted(((abs(per_hh(d["Q4"], "Q4")), rid, side, round(per_hh(d["Q4"], "Q4"))) for rid, label, side, amt, d, basis in lines), reverse=True)
     for _, rid, side, v in q4[:30]: print("  ", rid, side, v)

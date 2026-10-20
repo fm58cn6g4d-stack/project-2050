@@ -120,7 +120,7 @@ def channels(bills):
     add("Paid-leave fund", rv["Paid-leave fund"], o("FAM-3"), "Step-up toward 0.85% and a repayable Treasury loan; no general-fund backstop")
     st = rv["Surface transportation trust fund"]
     add("Surface transportation trust fund", st, st, "Receipts net of the 25% offset; spent within receipts; general-fund top-ups counted in MOV-29 and MOV-30")
-    add("Carbon fee (REV-C1)", rv["Carbon fee"], rv["Carbon fee"], "80% dividend (CLI-2, ~$1.00T) plus 20% transition share to CLI-5 (~$0.25T)")
+    add("Carbon fee (REV-C1)", rv["Carbon fee"], rv["Carbon fee"], f"80% dividend (CLI-2, ~${0.8 * rv['Carbon fee'][1]:.2f}T) plus 20% transition share to CLI-5 (~${0.2 * rv['Carbon fee'][1]:.2f}T)")
     add("Carbon border adjustment (REV-C2)", rv["Carbon border adjustment"], o("CLI-5"), "Outlay is CLI-5's gross add-ons, financed by REV-C2 plus REV-C1's transition share; residual to the general fund")
     add("Public safety", rv["Public safety"], o("SAF-10"), "Durable sources only (alcohol, fraud assessment, firearms, fees); residual (~$2.9B a year) to the general fund")
     add("Merger review", rv["Merger review"], (0.004,0.004,0.004), "HSR fee increase funds an equal enforcement increase (COM-2)")

@@ -54,9 +54,8 @@ Reciprocity (only rules we'd accept in the minority). Durable instruments: manda
 ## Git
 Commit with a short plain message describing what changed and why. Don't rewrite history. Work on a branch for anything large and say so.
 
-## Open queue (Oct 20)
-1. Done: Decision Brief 2 (governing/decision-brief-02-trims-scope-and-fiscal-rule.md).
-2. Fresh post-2025-law scores for REV-TS1-TS3 and a joint TS1/G1 score; a score for REV-TS12 (joint with G3, G9, C18, SALT). Refine CAP-7's surge and sustained sizing through the bottom-up agency review (domain-capacity.md open item 2). A sustainability-layer menu for the reported fiscal gap. Later: explore ways to reduce defense over time (domain-national-security.md 1a).
-3. A 75-year Social Security trust-fund module (D8, SS-5) and the SS-10 67-vote comparison.
-4. D1 re-baseline after the Nov 3 election.
-5. Revenue strategy session on payroll raisers (EDU-9B note); a fiscal tab on the dashboard; non-tax high-pay companions in domain-competition.md; a synthesis plan document.
+## Open queue
+1. Fresh post-2025-law scores for REV-TS1-TS3 and a joint TS1/G1 score; a score for REV-TS12 (joint with G3, G9, C18, SALT). Refine CAP-7's surge and sustained sizing through the bottom-up agency review (domain-capacity.md open item 2). A sustainability-layer menu for the reported fiscal gap. Later: explore ways to reduce defense over time (domain-national-security.md 1a).
+2. A 75-year Social Security trust-fund module (D8, SS-5) and the SS-10 67-vote comparison.
+3. D1 re-baseline after the Nov 3 election.
+4. Revenue strategy session on payroll raisers (EDU-9B note); a fiscal tab on the dashboard; non-tax high-pay companions in domain-competition.md; a synthesis plan document.

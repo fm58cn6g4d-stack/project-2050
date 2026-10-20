@@ -1,8 +1,8 @@
 # Domain file: Immigration (IMM)
 
-Canonical as of Oct 19, 2026 (batch 4). This file covers legalization, legal immigration and the backlogs, asylum and border processing, interior enforcement, birthright citizenship and naturalization, and USCIS delivery. On substance it replaces Bill Book 15, ledger row E11 and staging inventory row 19.1. The immigration court is designed in domain-courts.md CRT-5 and is referenced here, not restated.
+Canonical (batch 4). This file covers legalization, legal immigration and the backlogs, asylum and border processing, interior enforcement, birthright citizenship and naturalization, and USCIS delivery. On substance it replaces Bill Book 15, ledger row E11 and staging inventory row 19.1. The immigration court is designed in domain-courts.md CRT-5 and is referenced here, not restated.
 
-All figures are ten-year totals for 2030-39, in trillions unless marked. Basis tags: **sourced**, **scaled** and **estimate** (mine). Survival at 51 (Dec. D1): ✔ survives, ◐ needs a D2 majority-precedent path, ✖ needs 60, 67 or Republican votes. Espen's Oct 19 call puts E11 among the bills that **must** pass in the first trifecta.
+All figures are ten-year totals for 2030-39, in trillions unless marked. Basis tags: **sourced**, **scaled** and **estimate** (mine). Survival at 51 (Dec. D1): ✔ survives, ◐ needs a D2 majority-precedent path, ✖ needs 60, 67 or Republican votes. D1 puts IMM-1 (ledger E11) among the bills that **must** pass in the first trifecta.
 
 ## Summary
 
@@ -13,10 +13,10 @@ All figures are ten-year totals for 2030-39, in trillions unless marked. Basis t
 | IMM-3 | Asylum and border processing | Asylum merits decided by USCIS asylum officers within 180 days; regional processing abroad; statutory refugee floor; port-of-entry screening technology | 0.00 / 0.01 / 0.02 | FL | ◐ | 0 | Partly |
 | IMM-4 | Interior enforcement | Enforcement priorities, detention standards and a detention-capacity cap in statute; officer identification; phased mandatory E-Verify after legalization registration closes | 0 (see note) | FL | ◐ | 0 | Yes |
 | IMM-5 | Birthright citizenship and naturalization | Codify *Trump v. Barbara* in 8 U.S.C. 1401; procedural limits on denaturalization; naturalization fee waivers | 0.00 / 0.00 / 0.01 | FL | ◐ | 0 | Yes |
-| IMM-6 | Delivery | USCIS rebuilt (about 12,000 hires); a statutory processing-time target; an Office of New Americans | in CAP-7 (USCIS, $40B) plus fees | FL / AP | ◐ | 0 | Partly |
+| IMM-6 | Delivery | USCIS rebuilt (about 12,000 hires); a statutory processing-time target; an Office of New Americans | in CAP-7S / CAP-7 (USCIS, $40B) plus fees | FL / AP | ◐ | 0 | Partly |
 | | **General-fund total** | | **-0.25 / -0.14 / -0.02** | | | **12** | |
 
-The ledger carries E11 at -$0.15T and 12 floor days. This file keeps both. It adds IMM-3's processing costs (about $0.01T, estimate) and moves no total by more than that. IMM-1 and IMM-2 are scored together because almost all of the revenue comes from the people they bring into the formal economy.
+The ledger carries the bill as row IMM-1 (E11) at -$0.14T (range -$0.25T to -$0.02T) and 12 floor days: IMM-1 and IMM-2's -$0.15T plus IMM-3's processing costs (about $0.01T, estimate). The H-1B fee is its own channel (ledger IF1). IMM-1 and IMM-2 are scored together because almost all of the revenue comes from the people they bring into the formal economy.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -54,7 +54,7 @@ The ledger carries E11 at -$0.15T and 12 floor days. This file keeps both. It ad
 | IMM-1C | Dignity Act model: legal status and work permits for long-term residents, restitution payments, no citizenship path | The Republican-sponsored floor; trades citizenship for status. Use only as a G-path fallback |
 | IMM-1D | Tiers A, B and C (full U.S. Citizenship Act) | The most complete; the hardest floor vote |
 
-**Cost.** The ledger's -$0.15T, with a range of -$0.25T to -$0.05T (estimate), comes from CBO's score of S. 744 (2013), which cut deficits by about $175B in its first decade (sourced, via the ledger). That figure has not been rescored. Two things push the real number toward the low end: today's fully employed labor market, and the bill's lack of a guest-worker expansion on S. 744's scale. Benefit bars push the other way. The baseline bars tier B from means-tested federal benefits for five years, on the S. 744 model; ACA subsidies and FAM-1's child credit follow their own rules, set in those files. **Needs a real score**, to be done together with CRT-5 (the courts file asks for the same).
+**Cost.** IMM-1 and IMM-2's -$0.15T, with a range of -$0.25T to -$0.05T (estimate), comes from CBO's score of S. 744 (2013), which cut deficits by about $175B in its first decade (sourced, via the ledger). That figure has not been rescored. Two things push the real number toward the low end: today's fully employed labor market, and the bill's lack of a guest-worker expansion on S. 744's scale. Benefit bars push the other way. The baseline bars tier B from means-tested federal benefits for five years, on the S. 744 model; ACA subsidies and FAM-1's child credit follow their own rules, set in those files. **Needs a real score**, to be done together with CRT-5 (the courts file asks for the same).
 
 **Vehicle.** FL. The Senate parliamentarian rejected three legalization designs for the 2021 reconciliation bill (my knowledge; not re-checked). So legalization is not a reconciliation item.
 
@@ -117,7 +117,7 @@ The ledger carries E11 at -$0.15T and 12 floor days. This file keeps both. It ad
 **Design.**
 
 - **Staffing:** USCIS rebuilt with about 12,000 hires (Bill Book 15), a statutory target of six months for standard benefit applications, and online filing for every form.
-- **Funding:** fees fund most adjudication. The CAP-7 USCIS line ($40B over 2030-39, estimate) funds the hiring surge for IMM-1's registration. A further $6B from CAP-7's reserve is proposed for the asylum officer corps and refugee processing (see the capacity note).
+- **Funding:** fees fund most adjudication. The agency rebuild's USCIS line ($40B of the CAP-7S surge, estimate, plus the same share of CAP-7's sustained increase) funds the hiring surge for IMM-1's registration. A further $6B from the rebuild's batch 4 reserve is proposed for the asylum officer corps and refugee processing (pending Espen; see the capacity note).
 - **Integration:** an Office of New Americans for English classes, credential recognition and integration grants (appropriations).
 
 ## Survival at 51 (D1 stress test)
@@ -138,8 +138,8 @@ The ledger carries E11 at -$0.15T and 12 floor days. This file keeps both. It ad
 
 | Agency | Rows | Source of funds (2030-39) |
 | --- | --- | --- |
-| USCIS | IMM-1, IMM-2, IMM-5, IMM-6 | CAP-7 USCIS line ($40B, estimate) plus fees |
-| USCIS asylum division and refugee processing | IMM-3 | **Proposed: $6B from CAP-7's batch 4 reserve** (estimate) |
+| USCIS | IMM-1, IMM-2, IMM-5, IMM-6 | CAP-7S / CAP-7 USCIS line ($40B, estimate) plus fees |
+| USCIS asylum division and refugee processing | IMM-3 | **Proposed: $6B from the rebuild's batch 4 reserve** (estimate, pending Espen) |
 | Immigration court | IMM-3, IMM-4 | CRT-5 (about $0.03T, estimate) |
 | CBP Office of Field Operations | IMM-3 port screening | Inside IMM-3's cost |
 
@@ -172,11 +172,11 @@ The ledger carries E11 at -$0.15T and 12 floor days. This file keeps both. It ad
 | Ledger E11; Bill Book 15; staging 19.1 | IMM-1 to IMM-6 |
 | Unified agenda "DHS Restructuring" | IMM-4B (option) |
 | Staging 4.5 (immigration court) | CRT-5 (unchanged) |
-| **New rows needed at the rebuild** | IMM-3's ~$0.01T inside E11; the H-1B fee channel (~$0.01-0.02T, estimate) |
+| H-1B fee channel | Ledger revenue row IF1 (~$0.01-0.02T, estimate) |
 
 ## Open items
 
-1. **Rescore E11** against current law and the 2030-39 window, together with CRT-5.
+1. **Rescore the immigration bill (ledger IMM-1, E11)** against current law and the 2030-39 window, together with CRT-5.
 2. **Check OBBBA's ICE and detention expiry dates.** If any money runs past FY2029, IMM-4's cap produces bookable savings.
 3. **Tier C:** decide whether to hold it for a later bill or include it (IMM-1D).
 4. **Refugee floor size:** about 50,000 is an estimate, chosen to sit below every ceiling set from 1980 to 2016 (my knowledge; not re-checked).

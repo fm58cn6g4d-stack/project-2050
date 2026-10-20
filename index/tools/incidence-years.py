@@ -21,6 +21,7 @@ def series(opts):
             for g in GROUPS: out[y][g] += sign * d[g] * w[i]
     return {y: {g: round(v * 1e12 / (HH * 0.2)) for g, v in out[y].items()} for y in YRS}
 if __name__ == "__main__":
-    for name, o in [("B", ["C18", "C19", "C20", "C5"]), ("D", ["C18", "C19b", "C20", "C5"]), ("G", ["C18", "C5", "EDUP", "EDUB", "C35"])]:
+    from incidence import QO, QEDU
+    for name, o in [("Q", QO), ("Q-EDU", QEDU)]:
         s = series(o); print(name)
         for y in YRS: print(" ", y, [s[y][g] for g in GROUPS[:4]])

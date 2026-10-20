@@ -1,10 +1,8 @@
 # Domain file: Labor and wages (LAB)
 
-Canonical as of Oct 19, 2026 (batch 3; **LAB-9, national service, added later that evening at Espen's request, moved here from domain-democracy.md, where it was briefly DEM-15**). This file covers labor law (the PRO Act), enforcement after *Trump v. Slaughter*, sectoral standards, the minimum wage, the small-business transition credit, the heat standard, wage enforcement, apprenticeships and national service. It replaces Bill Books 10 and 11, ledger rows E7 and E8 and staging inventory rows 11.4, 11.5, 14.8 and 15.1 on substance. The non-compete ban lives in domains/domain-competition.md (COM-4).
+Canonical. This file covers labor law (the PRO Act), enforcement after *Trump v. Slaughter*, sectoral standards, the minimum wage, the small-business transition credit, the heat standard, wage enforcement, apprenticeships and national service. It replaces Bill Books 10 and 11, ledger rows E7 and E8 and staging inventory rows 11.4, 11.5, 14.8 and 15.1 on substance. The non-compete ban lives in domains/domain-competition.md (COM-4).
 
-**Oct 20 (Talarico stress test and the AI education bill; Espen's request).** The AI-and-work policies are **cross-listed** here in a new section, "AI and work (cross-listed)." Their home stays domain-ai.md (one version per policy), because they hang on AI-4's displacement trigger; this file shows how each meets the labor rows. Two options from the stress test are filed: **LAB-8B** (a community-college technical instructor pay line) and **LAB-9D** (national service as a bipartisan authorization with the R2 money as fallback). No chosen design or total changes.
-
-All figures are ten-year totals for 2030-39 in trillions unless marked. Basis tags: **sourced**, **scaled** and **estimate** (mine). Survival at 51 (Dec. D1): ✔ survives, ◐ needs a D2 majority-precedent path, ✖ needs 60, 67 or Republican votes.
+All figures are ten-year totals for 2030-39 in trillions unless marked. Basis tags: **sourced**, **scaled** and **estimate** (mine). Survival at 51 (D1): ✔ survives, ◐ needs a D2 majority-precedent path, ✖ needs 60, 67 or Republican votes.
 
 ## Summary
 
@@ -16,16 +14,14 @@ All figures are ten-year totals for 2030-39 in trillions unless marked. Basis ta
 | LAB-4 | Living wage | $17, then two-thirds of the median wage; longer phase-ins for small firms and low-wage counties; tipped, youth and 14(c) subminimums phased out | 0 (indirect effects unscored) | FL (with LAB-1) | ◐ | 0 | Partly (first step) |
 | LAB-5 | Small-business wage transition credit | Refundable, declining payroll credit during the phase-in; pays out only once LAB-4 is law | 0.05 / 0.10 / 0.15 | R2 | ✔ | 0 | No |
 | LAB-6 | Heat standard | OSHA's heat illness standard in statute | 0 | FL (with LAB-1) | ◐ | 0 | No |
-| LAB-7 | Wage theft and misclassification | Wage and Hour Division staffing, doubled liquidated damages, the ABC test extended to the FLSA (option) | 0 (staff in the D9 line) | FL (with LAB-1) | ◐ | 0 | No |
+| LAB-7 | Wage theft and misclassification | Wage and Hour Division staffing, doubled liquidated damages, the ABC test extended to the FLSA (option) | 0 (staff in CAP-7) | FL (with LAB-1) | ◐ | 0 | No |
 | LAB-8 | Apprenticeships | One registered-apprenticeship expansion for construction, energy and care | 0.02 / 0.03 / 0.05 | R2 | ✔ | 0 | Partly |
-| LAB-9 | National service | A paid service year open to every 18-to-26-year-old, with an education award; cross-regional and cross-class placement written into the statute; built on AmeriCorps | 0.06 / 0.12 / 0.20 | R2 | ✔ | 0 | Partly |
+| LAB-9 | National service | A paid service year with an education award, cross-regional and cross-class placement written into the statute, built on AmeriCorps; sought first as a bipartisan authorization (LAB-9D), with LAB-9A's universal offer in R2 as the fallback | 0.06 / 0.12 / 0.20 (LAB-9A's cost, kept until an authorization passes) | FL (bipartisan); R2 fallback | ✔ (via the R2 fallback) | 0 | Partly |
 | | **General-fund total** | | **0.13 / 0.25 / 0.41** | | | **8** | |
 
-Ledger E7 (the PRO Act, no cost, 8 days) and E8 (the living wage and credit, $0.10T, merged into E7 under C23) total **$0.10T and 8 days**. This file is **$0.15T higher** at the midpoint:
-- **LAB-8 (+$0.03T)** consolidates apprenticeship lines that sat unsized in Bill Book 12 and the Thriving Economy map.
-- **LAB-9 (+$0.12T)** is a new permanent program that no ledger row carries.
+The ledger carries four rows: LAB-1 (the labor bill: LAB-1 to LAB-4, LAB-6 and LAB-7, the living wage merged in under C23; no cost, 8 days), LAB-5 ($0.10T, R2), LAB-8 ($0.03T, R2; it consolidates apprenticeship lines that sat unsized in Bill Book 12 and the Thriving Economy map) and LAB-9 ($0.12T, a permanent program, at LAB-9A's R2 cost).
 
-Floor days are unchanged, because the heat standard and wage enforcement join the one labor bill and LAB-9 rides R2.
+The file uses 8 floor days, because the heat standard and wage enforcement join the one labor bill and LAB-9 is counted on its R2 fallback.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -58,7 +54,7 @@ Floor days are unchanged, because the heat standard and wage enforcement join th
 | LAB-1B | Full core without the right-to-work override | Removes the single provision most likely to cost frontline and Republican-leaning votes; keeps the remedies, strike and organizing pieces |
 | LAB-1C | Remedies and first-contract arbitration only | The minimum that changes organizing outcomes |
 
-**The right-to-work question is Espen's call.** The override is the most contested provision. If D2 lands on F or C with only one or two defections to spare, B may be the version that passes.
+**The right-to-work question is Espen's call.** The override is the most contested provision. Under D2's graduated cloture (F), with only one or two defections to spare, B may be the version that passes.
 
 ## LAB-2. Enforcement after *Slaughter* and *Jarkesy*
 
@@ -131,7 +127,7 @@ It rides the labor bill (ledger C23 merged E8 into E7). The wage mandate is Byrd
 
 **Options.** LAB-7B: extend the ABC test to the FLSA as well as the NLRA, so wage-and-hour coverage matches organizing coverage. It reaches gig work directly and is more contested than the NLRA test alone.
 
-**Cost.** The enforcement staff come from the D9 line (see the capacity note below), so zero here.
+**Cost.** The enforcement staff come from CAP-7 (see the capacity note below), so zero here.
 
 ## LAB-8. Apprenticeships
 
@@ -151,7 +147,7 @@ Grants go to joint labor-management programs and community colleges, with comple
 | Option | Design | Cost | Note |
 | --- | --- | --- | --- |
 | LAB-8A (chosen) | As above | 0.03 (0.02-0.05) | estimate |
-| LAB-8B (Oct 20, Talarico stress test) | Add an **instructor pay line**: mandatory grants to community colleges and joint programs to pay technical instructors (industrial controls, electrical, HVAC and heat pumps, transmission, care) at a premium near industry wages, with a teach-while-working track for journey-level workers | +0.01-0.02 (estimate) | The scenario's fourth reason training underdelivered: people able to teach industrial controls earn far more doing them, so slots went unfilled. EDU-4's logic (pay, not slots, is the binding constraint) applies |
+| LAB-8B (Talarico stress test) | Add an **instructor pay line**: mandatory grants to community colleges and joint programs to pay technical instructors (industrial controls, electrical, HVAC and heat pumps, transmission, care) at a premium near industry wages, with a teach-while-working track for journey-level workers | +0.01-0.02 (estimate) | The scenario's fourth reason training underdelivered: people able to teach industrial controls earn far more doing them, so slots went unfilled. EDU-4's logic (pay, not slots, is the binding constraint) applies |
 
 **Stress-test note (Talarico scenario).** Apprenticeship starts rose from 190,000 to 340,000 in the model, but an apprenticeship started in 2030 journeys out in 2034, so LAB-8 is a second-term supply instrument, not a 2030 jobs answer. The demand-side answer is AI-4E (below).
 
@@ -168,9 +164,9 @@ Grants go to joint labor-management programs and community colleges, with comple
   - election administration (DEM-11).
 - **Pathways:** completers get a direct path into LAB-8 apprenticeships and the care-worker pipeline that LAB-3's home-care board and FAM-2 depend on. Linking service to the labor market is the advantage of housing it in this file.
 
-**Cost.** About $0.12T, range $0.06-0.20T (estimate). That assumes roughly $35,000 per slot all-in (stipend, benefits and education award; my estimate) and a ramp to 250,000 slots. **D4:** this is a permanent program, so it needs a pay-for from the revenue base.
+**Cost.** About $0.12T, range $0.06-0.20T (estimate). That assumes roughly $35,000 per slot all-in (stipend, benefits and education award; my estimate) and a ramp to 250,000 slots. **D4:** this is a permanent program, so under D4-B it is paid for at maturity from the general-fund base.
 
-**Vehicle.** The stipend, the education award and a formula grant to state service commissions are direct spending and could ride R2 (Byrd eligibility unchecked). ✔ The placement rules ride as conditions on the money.
+**Vehicle.** LAB-9D: a bipartisan regular-order authorization first. The fallback is LAB-9A's R2 route: the stipend, the education award and a formula grant to state service commissions are direct spending and could ride R2 (Byrd eligibility unchecked). ✔ The placement rules ride as conditions on the money.
 
 **Labor standards.** Service members are not employees under the FLSA or the NLRA, which is how AmeriCorps works now. The statute bars displacing paid workers or filling positions vacated by layoffs or strikes (the existing AmeriCorps non-displacement rule, made stricter). Without that bar the PRO Act coalition will oppose it.
 
@@ -179,15 +175,15 @@ Grants go to joint labor-management programs and community colleges, with comple
 | Option | Design | Note |
 | --- | --- | --- |
 | LAB-9A (fallback) | Universal offer, statutory mixing, mandatory funding in R2 | Durable; the largest cost. The R2 fallback if LAB-9D's authorization stalls; the ledger keeps its $0.12T until one passes |
-| LAB-9B | Expand AmeriCorps by about 150,000 slots through appropriations | Cheaper (~$0.05T, estimate); reversible each year; fails design rule 2 |
+| LAB-9B | Expand AmeriCorps by about 150,000 slots through appropriations | Cheaper (~$0.05T, estimate); reversible each year; fails design rule 2. As ledger option C33, declined (Decision Brief 2) |
 | LAB-9C | LAB-9A without the mixing requirement | Easier to administer; loses the reason for the program (Instruments #14) |
-| **LAB-9D (chosen Oct 20, Decision Brief 2)** | Seek a **bipartisan authorization** at about LAB-9B's scale first, with mixing kept, as a regular-order bill; LAB-9A's R2 money is the fallback if it stalls | The model passed service 68-32 as a bipartisan floor bill. It frees R2 room and makes the program harder to repeal, at the cost of floor days and a smaller start |
+| **LAB-9D (chosen, Decision Brief 2)** | Seek a **bipartisan authorization** at about LAB-9B's scale first, with mixing kept, as a regular-order bill; LAB-9A's R2 money is the fallback if it stalls | The model passed service 68-32 as a bipartisan floor bill. It frees R2 room and makes the program harder to repeal, at the cost of floor days and a smaller start |
 
-**Overlap (Oct 20).** AI-4F's transitional employment guarantee (domain-ai.md) also pays young people for a year of public-purpose work. If both are taken, AI-4F should be built as LAB-9's open-enrollment track for the unemployed, not as a second program.
+**Overlap.** AI-4F's transitional employment guarantee (domain-ai.md) also pays young people for a year of public-purpose work. If both are taken, AI-4F should be built as LAB-9's open-enrollment track for the unemployed, not as a second program.
 
 ## AI and work (cross-listed; home: domain-ai.md)
 
-Espen asked (Oct 20) that the AI workforce policies appear here as well as in the AI file. They are listed, not restated: costs, bases and status live in domain-ai.md, and the ledger counts each once there.
+At Espen's request the AI workforce policies appear here as well as in the AI file. They are listed, not restated: costs, bases and status live in domain-ai.md, and the ledger counts each once there.
 
 | ID (home) | What it is | Status | How it meets this file |
 | --- | --- | --- | --- |
@@ -203,7 +199,7 @@ Espen asked (Oct 20) that the AI workforce policies appear here as well as in th
 
 ## Options considered and not chosen for the first Congress
 
-These were wave ② rows in the staging inventory. Dec. D1 keeps every regular-order bill in 2029-30 except House size and STV. So these either join the labor bill or wait for a later rules change, and they are listed here for Espen's call rather than queued for 2033.
+These were wave ② rows in the staging inventory. D1 keeps every regular-order bill in 2029-30 except House size and STV. So these either join the labor bill or wait for a later rules change, and they are listed here for Espen's call rather than queued for 2033.
 
 | Option | Source | Why not in the baseline |
 | --- | --- | --- |
@@ -213,12 +209,12 @@ These were wave ② rows in the staging inventory. Dec. D1 keeps every regular-o
 
 ## Survival at 51 (D1 stress test)
 
-LAB-5, LAB-8 and LAB-9 ride R2 and survive at 51. Everything else is one floor bill and needs a D2 path. Under G (carve-out only) the labor bill does not pass: it is not election law. LAB-5's trigger then keeps the credit from paying out, and LAB-8 and LAB-9 still move. Under F, LAB-1B (without the right-to-work override) is the version most likely to hold with one defection to spare (my judgment).
+LAB-5, LAB-8 and LAB-9 (on its R2 fallback) ride R2 and survive at 51. Everything else is one floor bill and needs a D2 path. Under G (carve-out only) the labor bill does not pass: it is not election law. LAB-5's trigger then keeps the credit from paying out, and LAB-8 and LAB-9 still move. Under F, LAB-1B (without the right-to-work override) is the version most likely to hold with one defection to spare (my judgment).
 
 ## Dependencies
 
-- **Dec. D2.** The whole labor bill depends on it. The ledger lists the PRO Act among "ideally also" first-Congress items.
-- **Dec. D4.** LAB-9 is a permanent program and needs a pay-for (about $0.12T).
+- **D2.** The whole labor bill moves under graduated cloture (F). The ledger lists the PRO Act among "ideally also" first-Congress items.
+- **D4.** LAB-9 is a permanent program, paid for at maturity under D4-B (about $0.12T in the window).
 - **Courts.** LAB-2 relies on CRT-10 (penalties after *Jarkesy*) and the structural rules in EXE-9.
 - **Health.** LAB-3's home-care board needs a Medicaid rate pass-through (HLT-4).
 - **Competition.** The non-compete ban, no-poach agreements and monopsony enforcement live in COM-4.
@@ -228,18 +224,18 @@ LAB-5, LAB-8 and LAB-9 ride R2 and survive at 51. Everything else is one floor b
 
 ## Capacity note
 
-- **Labor enforcement.** Every enforcement row here depends on the NLRB, the Wage and Hour Division and OSHA. At Espen's request (Oct 19 evening), D9's agency list now names all three, and CAP-7 allocates about $4B to the NLRB and $6B to Wage and Hour and OSHA from its former reserve (estimates). The Board's quorum was in dispute after Member Wilcox's removal in 2025. The rebuild needs to start in the first appropriations cycle, not after the PRO Act passes, because LAB-1's new caseload lands on the Board and the courts at once.
-- **National service.** LAB-9 runs through the national service agency (AmeriCorps), which is not on D9's list. Its administration is inside LAB-9's cost (estimate). The agency lost staff in 2025, so the ramp to 250,000 new slots should start small and grow as its capacity is rebuilt.
+- **Labor enforcement.** Every enforcement row here depends on the NLRB, the Wage and Hour Division and OSHA. D9's agency list names all three, and CAP-7 allocates about $4B to the NLRB and $6B to Wage and Hour and OSHA (estimates). The Board's quorum was in dispute after Member Wilcox's removal in 2025. The rebuild needs to start in the first appropriations cycle, not after the PRO Act passes, because LAB-1's new caseload lands on the Board and the courts at once.
+- **National service.** LAB-9 runs through the national service agency (AmeriCorps), which is not on CAP-7's list. Its administration is inside LAB-9's cost (estimate). The agency lost staff in 2025, so the ramp to 250,000 new slots should start small and grow as its capacity is rebuilt.
 
 ## Design-rule check
 
 | Rule | How this file meets it |
 | --- | --- |
-| Durable instruments | Labor doctrine in statute rather than Board precedent; a private right of action; the minimum wage indexed so it never erodes again; LAB-9 as mandatory spending rather than appropriations |
+| Durable instruments | Labor doctrine in statute rather than Board precedent; a private right of action; the minimum wage indexed so it never erodes again; LAB-9 in statute (LAB-9D's authorization, with LAB-9A's mandatory money as the fallback) |
 | Legibility | A single named wage floor; the small-business credit as a visible line; a named service year |
 | Pairing | The wage floor travels with the small-business credit; the PRO Act with the heat standard |
 | Supply with demand | LAB-8 and LAB-9 placements staff FAM-2's supply build-out |
-| Capacity first | NLRB, Wage and Hour and OSHA added to D9's list and funded in CAP-7; LAB-9 builds on the existing national service agency |
+| Capacity first | NLRB, Wage and Hour and OSHA on D9's list and funded in CAP-7; LAB-9 builds on the existing national service agency |
 | Write for this Court | Penalties in district court (*Jarkesy*); no reliance on Board removal protection (*Slaughter*) |
 | One version per policy | Heat standard, apprenticeships, the non-compete ban and national service each have one home |
 | Every number has a basis | LAB-5, LAB-8 and LAB-9 are estimates; LAB-4's indirect effects and LAB-3's Medicaid effect are flagged as unscored |
@@ -251,19 +247,19 @@ LAB-5, LAB-8 and LAB-9 ride R2 and survive at 51. Everything else is one floor b
 | Ledger E7; Bill Book 10; staging 11.4 | LAB-1, LAB-2, LAB-3, LAB-7 |
 | Ledger E8; Bill Book 11; staging 11.5 | LAB-4 (mandate), LAB-5 (credit) |
 | Staging 14.8; Bill Book 10's executive backstop | LAB-6 (statute); EXE-17 (bridge) |
-| Staging 15.1; DEM-15 (briefly, Oct 19) | LAB-9 |
+| Staging 15.1; DEM-15 (a pointer in domain-democracy.md) | LAB-9 |
 | Staging 11.7 | Option, not in the baseline |
 | Staging 11.2 (non-compete) | domain-competition.md COM-4 |
-| **New rows needed at the rebuild** | LAB-5 split from E8 as an R2 row ($0.10T, ✔); LAB-8 as a new R2 row ($0.03T); LAB-9 as a new R2 row ($0.12T, ✔); E7 keeps 8 days with LAB-4 and LAB-6 merged |
+| Ledger rows | LAB-1 (legacy E7, 8 days, LAB-4 and LAB-6 merged); LAB-5 (from E8, R2, $0.10T, ✔); LAB-8 (R2, $0.03T); LAB-9 (R2, $0.12T, ✔) |
 
 ## Open items
 
-1. **LAB-9 needs a score and a pay-for.** It is the file's largest dollar row.
+1. **LAB-9 needs a score.** It is the file's largest dollar row, paid for at maturity under D4-B.
 2. **Byrd check** for LAB-9 in R2.
-3. **LAB-9 scope** (A, B or C): Espen's call.
+3. **LAB-9D's floor time.** The bipartisan authorization uses regular-order floor days the ledger does not count (it carries LAB-9 on the R2 fallback).
 4. **Right-to-work override** (LAB-1A vs 1B): Espen's call.
-5. **LAB-8B and LAB-9D** (Oct 20): Espen's call. LAB-9D trades R2 room for floor days.
-6. **AI-4E's pairing with this file** (Oct 20): if AI-4E is taken, decide whether it rides with LAB-5 (R2) or AI-4's benefit (R3).
+5. **LAB-8B:** Espen's call.
+6. **AI-4E's pairing with this file:** if AI-4E is taken, decide whether it rides with LAB-5 (R2) or AI-4's benefit (R3).
 
 ## Sources
 
@@ -275,4 +271,4 @@ LAB-5, LAB-8 and LAB-9 ride R2 and survive at 51. Everything else is one floor b
 - archive/wargame-floor-time-bill-book.html, Bills 10, 11 and 12 (ideas only): the PRO Act, living-wage and apprenticeship designs
 - sources/climate-thriving-economy-agenda-map.md: heat standard, energy apprenticeships
 - index/2029-trifecta-master-ledger.md: E7, E8, C23
-- frameworks/scenario-stress-test-talarico-2029-2037.md (Oct 20): LAB-8B, LAB-9D, AI-4E, AI-4F; domains/domain-ai.md for the cross-listed AI rows
+- frameworks/scenario-stress-test-talarico-2029-2037.md: LAB-8B, LAB-9D, AI-4E, AI-4F; domains/domain-ai.md for the cross-listed AI rows

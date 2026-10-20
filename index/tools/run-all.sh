@@ -15,8 +15,6 @@ cp "$TOOLS"/ledger-build.py "$TOOLS"/ledger-paths.py "$TOOLS"/ledger-make-md.py 
 # the two incidence scripts import each other under their working names
 cp "$TOOLS"/incidence-model.py "$BUILD"/incidence.py
 cp "$TOOLS"/incidence-years.py "$BUILD"/years.py
-# ledger-make-md.py copies two sections from the current ledger, so it needs a copy beside it
-cp "$ROOT"/index/2029-trifecta-master-ledger.md "$BUILD"/
 
 cd "$BUILD"
 echo "== 0. transportation";    python3 "$TOOLS"/transportation/test_moving_america.py --quiet

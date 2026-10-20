@@ -1,87 +1,45 @@
 import json
 d = json.load(open('ledger.json')); s = d['summary']
 paths = json.load(open('paths.json'))
-old = open('2029-trifecta-master-ledger.md').read()
-def sect(name):
-    i = old.index('## ' + name); j = old.find('\n## ', i + 3)
-    return old[i: j if j > 0 else len(old)].rstrip() + '\n'
-transport = sect('Transportation: the Moving America plan').replace("M1 and M2", "MOV-29 and MOV-30")
-sources = sect('Outside sources used for estimates')
+mv = json.load(open('moving-america.json'))   # written by run-all.sh from index/tools/transportation/
+L = mv['ledger']; r1 = lambda k: round(L[k], 1); r2_ = lambda k: round(L[k], 2)
+mov = {b['id']: b for b in d['bills']}
+transport = f"""## Transportation: the Moving America plan
+
+Moving America (Draft 2) moves most of its money and all of its revenue through two reconciliation acts inside the trifecta window, then authorizes the program in a 2031 bill. Both acts cut deficits on the plan's own scoring, so transportation adds nothing to the general-fund gap. Figures come from the transportation model (index/tools/transportation/).
+
+| Vehicle | In the ledger | Spending | Revenue (net of 25% offset) | Net | Window |
+| --- | --- | --- | --- | --- | --- |
+| 2028 extension (60 votes, before the trifecta) | Conflict row | Transfer to keep both accounts solvent through FY2031, not yet sized | Current rates extended one year | Unsized | — |
+| 2029 reconciliation act | MOV-29, Reconciliation I | ${r1('act29_package')}B rail and transit package + ${r2_('act29_topups')}B FY2032-35 renewal top-ups | ${r1('act29_net')}B (${r1('act29_gross')}B gross): fuel taxes permanent, indexed, ten 3¢ steps; clean-vehicle per-mile charge; truck excises | ~${r1('act29_net') - r1('act29_package') - r2_('act29_topups'):.1f}B deficit reduction | FY2029-38 |
+| 2030 reconciliation act | MOV-30, Reconciliation III | ${r1('act30_package')}B package two + ${r2_('act30_topups')}B FY2035-36 top-ups | ${r1('act30_net')}B (${r1('act30_gross')}B gross): weight-distance charge, rail diesel, aviation surcharge | ~${r1('act30_net') - r1('act30_package') - r2_('act30_topups'):.1f}B deficit reduction | FY2030-39 as drafted; needs rescoring on FY2031-40 if carried on the FY2031 resolution |
+| Moving America Act of 2031 | MOV-31, after the window | ${mv['program_fy32_36']:.2f}B FY2032-36; ${r2_('expansion_authority'):.2f}B expansion and ~$1B division E from the general fund | Restates the 2029-30 revenue | ${mov['MOV-31']['cost_lo']:.2f}-{mov['MOV-31']['cost_hi']:.2f}T general fund | FY2032-36 |
+
+Two consequences for the rest of the agenda: the third reconciliation bill is not optional, because the 2030 act needs it, and the fuel-tax steps (first one Oct 1, 2029) reach most households, so they count in the D3 household net test.
+"""
+sources = """## Outside sources used for estimates
+
+- [Tax Foundation, making the expanded CTC permanent](https://taxfoundation.org/blog/expanded-child-tax-credit-permanent/): $1.56T, 2022-31
+- [CRFB, House child care plan if made permanent](https://crfb.org/blogs/house-child-care-plan-cost-could-double-if-made-permanent): $475-800B through 2031
+- [American Action Forum, paid leave and the reconciliation bill](https://www.americanactionforum.org/daily-dish/paid-leave-and-the-reconciliation-bill/): CBO $547B; JCT 0.85% break-even
+- [SSA Office of the Chief Actuary, Sanders letter, Feb 2023](https://www.ssa.gov/OACT/solvency/BSanders_20230213.pdf): provision scores used in domain-social-security.md
+- [American Action Forum, FAMILY Act costs](https://www.americanactionforum.org/research/the-fiscal-implications-of-the-family-act-how-new-paid-leave-benefits-increase-leave-taking-and-drive-up-estimated-program-costs/): 0.39-0.86% of wages a year
+- [CRFB, breaking down the One Big Beautiful Bill](https://crfb.org/blogs/breaking-down-one-big-beautiful-bill): $571B from clean-energy credit repeal, 2025-34 (House version)
+- [CBO, budget option 52284: increase all taxes on alcoholic beverages to $16 per proof gallon (2016)](https://www.cbo.gov/budget-options/2016/52284): $70B over ten years, scaled in SAF's revenue title
+- Everything else comes from Project 2050's own docs, named in each row; transportation figures are Moving America Draft 2's own estimates, not a CBO or JCT score. Education figures are the education sessions' estimates built from CBO, CRS and CRFB published figures (sources/education-transforming-education-act-analysis-and-trust-fund.md), not scores.
+"""
 g = s['gf_claims']; r = s['base_revenue']
 f = lambda x: (("−" if x < 0 else "") + f"${abs(x):.2f}T")
 pth = {p['path'][0]: p for p in paths}
-PREV_GAP = 4.11; PREV_AFTER = 0.15  # after Espen's Oct 20 morning decisions, before Decision Brief 1
 r2 = [b for b in s['by_rail'] if b['rail'] == 'R2'][0]
 out = []
 A = out.append
 A("# 2029 Trifecta Master Ledger\n")
-A("Full rebuild, Oct 20, 2026 (after batch 4), with the education batch the same evening and Espen's decisions later that day (Decision Briefs 1 and 2) · Espen Swanson · [Live dashboard](https://claude.ai/artifact/RDuHM7DqCwvLUtVaB4ANMs)\n")
-A("This is the full rebuild the governing doc called for once every domain had a file: batches 1-4 plus the two canonical-until-converted files (Moving America, and Safe Everywhere through domain-public-safety.md). **Every row is keyed by its domain-file ID** (HLT-1, CLI-5, IMM-1 ...). The old ledger IDs (H1, E11, DEM1 ...) are kept in a crosswalk column, which ends the DEM0-DEM13 / DEM-1-DEM-20 collision. The accounting rule from the Oct 19 revenue audit still holds: channel revenue is shown at gross and never netted against general-fund outlays, and the gap comes from the general-fund column alone. **Education batch (Oct 20, evening):** education now has its own domain file (domains/domain-education.md); FAM-4 splits into EDU-1 and EDU-5 at the same total, and four education rows are new. The climate durability review and the Talarico scenario stress test add options only (no rows). **Later on Oct 20:** the carbon fee takes the durability path, D4 is read to allow borrowing for climate capital, the estate-tax option is restated as the increment beyond G9, and DEM-1F is adopted. index/options-register.md lists every option once.\n")
+A("Generated from index/data/inputs/ by index/tools/run-all.sh · Espen Swanson · [Live dashboard](https://claude.ai/artifact/RDuHM7DqCwvLUtVaB4ANMs)\n")
+A("One row per bill or title in the agenda, keyed by its domain-file ID (HLT-1, CLI-5, IMM-1 ...), with the old ledger ID kept in a crosswalk column. Channel revenue is shown at gross and never netted against general-fund outlays; the gap comes from the general-fund column alone. index/options-register.md lists every option once, with the ones that exclude or overlap each other. The decisions behind these figures are in governing/project-2050-governing-decisions.md and the decision briefs.\n")
 A(f"**Bottom line.** The agenda asks the general fund for about {f(g['mid'])} net over 2030-39 ({f(s['gf_gross_outlays'])} of outlays less {f(-s['gf_gross_savings'])} of savings) against {f(r['mid'])} from the top-end base: a gap of **{f(s['gap_mid'])}** at the midpoint. **D4 is decided (Decision Brief 2, Oct 20): the fiscal-arc rule, D4-B.** Permanent programs are paid for at maturity (FY2040 and every later year); time-limited investments may be borrowed for inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040 (about $1.6T); guardrails are measured against the real baseline. The accepted revenue (Package B, the sprint package C38, and C39-C41: TS12, HP1, HP3) is {f(s['revenue_accepted'])}, and the accepted borrowing lines (C21, C30-C32, C37 and C42, CAP-7S's rebuild surge) are {f(s['borrow_dollars'])}, inside the envelope. That leaves **{f(s['gap_after_accepted'])}** over ten years, so the ten-year general-fund deficit is the envelope borrowing and nothing more; index/fiscal-long-term-model.md shows the run rate is covered from 2040. **No program trims are taken** (C5, C17, C33, C34 and C36 declined). Alternatives (C19 to C19b, C29 to C37) are listed but not summed. The range is {f(g['lo'])} to {f(g['hi'])} of claims and a gap of {f(s['gap_lo'])} to {f(s['gap_hi'])} (a stress bound). **D2 is decided: graduated cloture (F)**, adopted in week one of 2029, with the talking filibuster (C) as the opening offer and the carve-out (G) as the fallback. The calendar needs **{pth['F']['days']} Senate floor days under F against {s['floor_budget']}** ({s['floor_days_needed']} under majority cloture, E; {pth['C']['days']} under C).\n")
 A("All dollar figures are ten-year totals for 2030-39 in trillions. \"Estimate\" means Claude's estimate where no doc or score exists; \"proposal\" means an author's figure sized against current programs, not a score. Reconciliation bills count 15 floor days plus 2 for the budget resolution; the 163-day budget is 148 discretionary days plus about 15 freed by Block 1's nomination caps.\n")
-A("**Not in any total (unscored or not chosen):** CLI-7 disaster and flood insurance (rough $0.05-0.15T), CRT-5 Article I immigration court (~$0.03T), EXE-14B tariff claim ($1.5-1.9T), DEM-3's chamber capital, DEM-6's statehood fiscal effect, CAP-13, LAB-4's indirect effects, LAB-3's Medicaid rate effect, AI-6 (held), the contingent cannabis excise (PS2), the NDAA's floor time; and, new Oct 20, the EDU-9B education fund and its contribution (ED1, held), the climate durability options CLI-9 to CLI-13 (about $1.8-1.9T net if all were taken, session estimate; about $0.35-0.45T of it borrowing-eligible under the Oct 20 D4 reading), CLI-7C's reinsurance exposure, HOU-9, REV-E2, and the Talarico-derived options (SS-10, AI-4E, AI-4F, REV-SC1 to SC3, LAB-8B, DEM-2E, RTS-3E, CRT-P4, EXE-18C). REV-SC1 is held in reserve as the first fallback if TS12 scores low; REV-HP2 is folded into TS1's drafting.\n")
-A("## What changed with Decision Brief 2 (Oct 20)\n")
-A("| Change | Source | Effect on the general-fund gap (mid) |\n| --- | --- | --- |")
-for row in [
- ("D4 decided: D4-B, the fiscal-arc rule. Paid for at maturity (FY2040, then every year); an investment envelope of 0.5% of GDP to 2034 tapering to zero by 2040, holding the borrowing readings and CAP-7S; guardrails against the real (CBO, adjusted) baseline, not the program's own debt; Judgment Fund-backed contracts counted (CLI-9 at full cost when obligated, AAJA damages as a disclosed contingent-liability line); no dynamic revenue", "Decision Brief 2; governing doc", "0 (the test changes from a ten-year sum to the run rate)"),
- ("Sprint package C38 accepted (TS1-TS3 still need fresh scores); REV-HP2 folded into TS1's drafting", "Decision Brief 2; domain-revenue.md", "Accepted: −$0.89T"),
- ("C39 (REV-TS12, 28% itemized cap above $450K), C40 (REV-HP1, pay-ratio surtax) and C41 (REV-HP3, top-officer pay excise) accepted in place of the trims; REV-SC1 held as the first fallback", "Decision Brief 2; domain-revenue.md", "Accepted: −$0.54T"),
- ("Trims C5, C17, C33, C34 and C36 declined (kept as the record, not summed); LAB-9D chosen for national service, with LAB-9A's cost kept in the ledger until an authorization passes; NSC-1A confirmed", "Decision Brief 2; domain files", "Options −$0.69T removed from the summed list"),
- ("CAP-7 restructured: the even ~$0.6T ten-year line becomes CAP-7S, a front-loaded rebuild surge (~$0.6T over FY2030-35), plus CAP-7, a sustained increase (~0.12% of GDP from FY2032, ~$0.49T in the window); the surge is borrowing-eligible inside the envelope (C42)", "Espen (Oct 20); domain-capacity.md", "+$0.49T of claims; C42 borrows $0.60T"),
- ("Defense: explore ways to reduce defense over time later in the project (NSC-1A stands meanwhile)", "Espen (Oct 20); domain-national-security.md", "0"),
-]: A("| " + " | ".join(row) + " |")
-A("\n## What changed with Decision Brief 1 (Oct 20)\n")
-A("| Change | Source | Effect on the general-fund gap (mid) |\n| --- | --- | --- |")
-for row in [
- ("D2 decided: graduated cloture (F) with Block 3, week one 2029; C with a 15-day backstop as the opening offer; G as fallback. Reconciliation stays as now; R3 vs R4 is decided with the adoption resolution", "Decision Brief 1; Senate Rules Reform: Options", "0 (F needs 170 floor days against 163)"),
- ("Package B accepted as the planning basis: C18, C35, C19b (75th-percentile exclusion cap, new row) and C20; C19 at the median becomes the fallback", "Decision Brief 1; domain-revenue.md", "Accepted: −$2.10T"),
- ("Borrowing readings accepted: C21, C31, C32 and C37 (C37 in place of C29)", "Decision Brief 1; D4", "Accepted: −$0.25T"),
- ("Top-end scoring sprint: REV-TS1 to TS11 (162(m), FDII repeal above the small-business threshold, fossil preferences, earnings stripping, spin-offs, trusts, retirement balances, partnership basis, like-kind, carried interest, crypto), net of a 10% haircut, as option C38; TS12 (28% itemized cap) held in reserve; SC3 narrowed to crop insurance", "domain-revenue.md; Treasury FY2025 Green Book via ITEP; CBO via CRFB", "Option: −$0.89T (0.60-1.14)"),
- ("D4 revision directed (loosen deficit financing while keeping a long-term arc toward solvency): options drafted in the governing doc; nothing changed in the ledger until parameters are chosen", "Governing doc", "0"),
-]: A("| " + " | ".join(row) + " |")
-A("\n## What changed later on Oct 20 (Espen's decisions)\n")
-A("| Change | Source | Effect on the general-fund gap (mid) |\n| --- | --- | --- |")
-for row in [
- ("Carbon fee takes the durability session's price path ($25 a ton in 2030 rising to ~$100 by 2037), road fuels still exempt (D7); C1 $1.25T to $1.35T; dividend $1.00T to $1.08T; transition share $0.25T to $0.27T. Options re-lettered (old path is REV-C1B; convergence REV-C1D stays open, not adopted)", "domain-revenue.md; domain-climate.md", "−$0.02T (CLI-5's residual falls with the larger transition share)"),
- ("D4 read to allow borrowing for time-limited climate capital; new option C37 (CLI-5F: keep CLI-5 whole, borrow ~$0.10T of capital lines), an alternative to C29 (now $0.13T), not summed", "domain-climate.md; governing doc", "0 (options)"),
- ("Estate tax: G9 already reverses most of the 2025 law's $15M exemption, so E1/C35 is restated from $0.35T to the ~$0.15T increment beyond G9", "domain-revenue.md; ACTEC on JCT's estimate", "Options −$0.20T; gap after every option −$0.05T to about +$0.15T"),
- ("DEM-1F adopted (DEM-1 after R1, enacted by spring 2030; target moves from Feb to mid-2029); DEM-1E (registration at benefit-delivery points) adopted into Title I", "domain-democracy.md", "0"),
- ("Standing disbursement authority adopted as a design rule; statute EXE-18 with EXE-18B (pointer to CAP-4's auto-CR) and EXE-18C (debt limit, option)", "governing doc; domain-executive-power.md", "0"),
- ("Stress-test proposals filed: DEM-2E, RTS-3E, LAB-8B, LAB-9D, CRT-P4; AI workforce options cross-listed in domain-labor.md; EDU-9C and EDU-9D retired as duplicates", "domain files", "0"),
- ("index/options-register.md added: every option once, with overlap and exclusivity groups", "index/", "0"),
-]: A("| " + " | ".join(row) + " |")
-A("\n## What changed in the education batch (Oct 20, evening)\n")
-A("| Change | Source | Effect on the general-fund gap (mid) |\n| --- | --- | --- |")
-for row in [
- ("Education gets its own domain file; FAM-4 ($0.65T) splits into EDU-1 (Title I and IDEA, carrying EDU-2, $0.33T) and EDU-5 (Pell, SAVE and PSLF, $0.32T); legacy F4 maps to both", "domain-education.md; domain-family.md", "0"),
- ("EDU-3 universal school meals and Summer EBT at current reimbursement rates (new)", "domain-education.md; Transforming Education analysis", "+$0.27T"),
- ("EDU-4 educator pipeline surge, front-loaded ahead of FAM-2's pre-K hiring (new)", "domain-education.md", "+$0.03T"),
- ("EDU-7 prospective repeal of the federal scholarship tax credit (new; a saving)", "domain-education.md", "−$0.04T"),
- ("EDU-8 AI in education, student data and education research (EDU-10), appropriations; EDU-8's rules ride AI-1 and EDU-6's Education Department protections are proposed to ride CAP-8, at no extra days", "domain-education.md; AI education bill analysis", "+$0.015T"),
- ("Options C35 (REV-E1, estate tax at 2009 parameters, $0.35T) and C36 (EDU-3B, meals at community-eligibility scale, $0.19T) added; ED1 (the education contribution behind EDU-9B) added to the revenue menu, held", "domain-revenue.md; domain-education.md", "Options total +$0.54T"),
- ("Climate durability review folded as options only: CLI-9 to CLI-13, new options under CLI-1 and CLI-3 to CLI-8, REV-C1B to C1E, REV-C2B, REV-E2", "domain-climate.md; domain-revenue.md", "0"),
- ("Talarico scenario stress test filed; options HOU-9, SS-10, AI-4E, AI-4F, AI-5B, CLI-7C, EDU-5D and REV-SC1 to SC3; DEM-1F and other proposals recorded for the files that own them", "frameworks/scenario-stress-test-talarico-2029-2037.md", "0"),
- ("Incidence model re-run (v1.3): education rows; scenarios G (EDU-9B as closer) and H (C35)", "index/revenue-household-incidence-model.md", "Q4 on scenario B: +$779 (was +$546)"),
-]: A("| " + " | ".join(row) + " |")
-A("\n## What changed in the full rebuild (Oct 20)\n")
-A("| Change | Source | Effect on the general-fund gap (mid) |\n| --- | --- | --- |")
-for row in [
- ("Rows keyed by domain-file IDs; legacy IDs kept as a crosswalk column; merged zero-cost rows (DEM2, DEM6, DEM9, DEM12, E10, S4) folded into the rows that carry them", "Governing doc next step; batch 2 conflict row", "0"),
- ("Housing restated: HOU-3C's direct loans at subsidy cost, HOU-2 sized; E6 split into an R2 title (HOU-1, $0.47T) and a floor bill (HOU-7, 3 days)", "domain-housing.md", "−$0.13T"),
- ("Labor: LAB-5 credit split from E8 onto R2; LAB-8 apprenticeships added", "domain-labor.md", "+$0.03T"),
- ("LAB-9 national service added (new permanent program; moved from DEM-15 at Espen's request)", "domain-labor.md", "+$0.12T"),
- ("Climate: E1-E5 become CLI-1 to CLI-7; CLI-4 rides CLI-3; E5 split into CLI-6 and CLI-7 (4 days each); CLI-7 unscored", "domain-climate.md", "0 (CLI-4 adds $0.01T at the high end only)"),
- ("Competition: merger-review channel sized (~$0.004T a side); COM-6 added", "domain-competition.md", "0"),
- ("Immigration: IMM-3 processing (~$0.01T) added to E11", "domain-immigration.md", "+$0.01T"),
- ("AI: E12 split into the AI bill (AI-1, 5 days, ~$0.02T) and AI-4 wage insurance on R3 ($0.20T); AI-9 journalism credit on R2 ($0.02T)", "domain-ai.md", "+$0.04T"),
- ("National security: A2 becomes NSC-1 with a base definition; F6 becomes NSC-10 ($0.07T); NSC-8 preparedness added ($0.02T)", "domain-national-security.md", "+$0.015T"),
- ("Democracy and civic life: DEM-11 election funding (+$0.02T), DEM-16 civic education (+$0.01T), DEM-17 community capital fund (+$0.03T, borrowing allowed as C32), DEM-13 rides DEM-1", "domain-democracy.md", "+$0.06T"),
- ("Public safety: S5 moves from appropriations to R3 (SAF-10A, −3 floor days); PS1 restated to durable sources ($0.09T), dropping deployment savings and Crime Victims Fund receipts", "domain-public-safety.md; bill summary", "+$0.02T"),
- ("Rights and amendments: RTS-1 to RTS-4 carry S1-S2 unchanged; domain-amendments.md has no ledger rows", "domain-rights.md; domain-amendments.md", "0"),
- ("Options: C21 shrinks to $0.06T (HOU-3C); C31 (HOU-5 repair as capital), C32 (DEM-17 as capital), C33 (LAB-9B) and C34 (SAF-10D) added; C13 superseded", "Domain files", "Options total unchanged at $3.64T"),
- ("Incidence model re-run (v1.2): housing, the public-safety package, LAB-8 and LAB-9 updated", "index/revenue-household-incidence-model.md", "Q4 on scenario B: +$546 (was +$463)"),
-]: A("| " + " | ".join(row) + " |")
-A("\nEarlier rebuild records (the Oct 19 audit rebuild and the batch 2 refresh) are in earlier versions of this file and in index/revenue-assignment-audit.md; their resolutions are carried in the conflicts table below.\n")
+A("**Not in any total (unscored or not chosen):** CLI-7 disaster and flood insurance (rough $0.05-0.15T), CRT-5 Article I immigration court (~$0.03T), EXE-14B tariff claim ($1.5-1.9T), DEM-3's chamber capital, DEM-6's statehood fiscal effect, CAP-13, LAB-4's indirect effects, LAB-3's Medicaid rate effect, AI-6 (held), the contingent cannabis excise (PS2), the NDAA's floor time, the EDU-9B education fund and its contribution (ED1, held), the climate durability options CLI-9 to CLI-13 (about $1.8-1.9T net if all were taken, session estimate; about $0.35-0.45T of it borrowing-eligible as time-limited climate capital under D4-B), CLI-7C's reinsurance exposure, HOU-9, REV-E2, and the Talarico-derived options (SS-10, AI-4E, AI-4F, REV-SC1 to SC3, LAB-8B, DEM-2E, RTS-3E, CRT-P4, EXE-18C). REV-SC1 is held in reserve as the first fallback if TS12 scores low; REV-HP2 is folded into TS1's drafting.\n")
 A("## By domain\n\n| Domain | Rows | General fund low | Mid | High | Floor days |\n| --- | --- | --- | --- | --- | --- |")
 for x in s['by_domain']: A(f"| {x['domain']} | {x['rows']} | {x['gf_lo']:.2f} | {x['gf_mid']:.2f} | {x['gf_hi']:.2f} | {x['floor_days']} |")
 A(f"| **Total** | | **{g['lo']:.2f}** | **{g['mid']:.2f}** | **{g['hi']:.2f}** | **{s['regular_floor_days']}** (+{s['recon_days']} for R1-R3) |\n")
@@ -92,7 +50,7 @@ A("")
 A(transport)
 A("## By vehicle\n\n| Vehicle | Rows | General-fund net ($T) | Floor days |\n| --- | --- | --- | --- |")
 for b in s['by_rail']: A(f"| {b['rail_name']} | {b['bills']} | {b['net_mid']:.2f} | {b['floor_days']} |")
-A(f"\nR2 is the heaviest vehicle ({r2['bills']} rows, about ${r2['net_mid']:.1f}T): it carries housing, the labor credits, national service, the journalism credit, veterans health and now five education rows (EDU-1, EDU-3, EDU-4, EDU-5, EDU-7) beside health upgrades, child care, leave, the clean-energy credits and the dividend. If R1 is lost (D5), its contents move here too. The Talarico stress test suggests universal meals (EDU-3) would be felt sooner on R1, but R2's fall-2029 timing still reaches the 2030-31 school year before the midterm.\n")
+A(f"\nR2 is the heaviest vehicle ({r2['bills']} rows, about ${r2['net_mid']:.1f}T): it carries housing, the labor credits, national service, the journalism credit, veterans health and five education rows (EDU-1, EDU-3, EDU-4, EDU-5, EDU-7) beside health upgrades, child care, leave, the clean-energy credits and the dividend. If R1 is lost (D5), its contents move here too. The Talarico stress test suggests universal meals (EDU-3) would be felt sooner on R1, but R2's fall-2029 timing still reaches the 2030-31 school year before the midterm.\n")
 A("## Options still open\n\nRevenue options that reach the middle must pass the D3 household net test.\n")
 A("| # | Change | Closes ($T) | Saves (days) | Kind | Why |\n| --- | --- | --- | --- | --- | --- |")
 for c in d['cuts']: A(f"| {c['id']} | {c['change']} | {c['saves_tn'] if c['saves_tn'] else ''} | {c['saves_days'] if c['saves_days'] else ''} | {c['kind']} | {c['why']} |")
@@ -103,19 +61,19 @@ A("| # | Effect | Rows | Low | Mid | High | Talarico-style | Basis |\n| --- | --
 for r in d['dynamic']: A(f"| {r['id']} | {r['effect']} | {r['rows']} | {r['lo']:+.2f} | {r['mid']:+.2f} | {r['hi']:+.2f} | {r['optimistic']:+.2f} | {r['basis']} |")
 A(f"| | **Total** | | **{s['dynamic_lo']:+.2f}** | **{s['dynamic_mid']:+.2f}** | **{s['dynamic_hi']:+.2f}** | **{s['dynamic_optimistic']:+.2f}** | |\n")
 A("**What it implies.** The dynamic risk sits in the top-end base, which supports keeping GX's 15% haircut and preferring base broadening (G11, G6) to rate increases; among the open options C18 carries the most dynamic risk and C35 almost none.\n")
-A("## Floor time under the D2 paths\n\nD2 was decided Oct 20 (Decision Brief 1): F, graduated cloture with Block 3's minority guarantees. C (with a 15-day backstop) is the opening offer to institutionalist holdouts and G the written fallback; E stays as an upper bound on speed. Days are the first Congress's needs against its 163-day budget, counting the three reconciliation bills and the rules vote. Each path's per-bill cost is my estimate from the Senate Rules doc.\n")
+A("## Floor time under the D2 paths\n\nD2 is decided (Decision Brief 1): F, graduated cloture with Block 3's minority guarantees. C (with a 15-day backstop) is the opening offer to institutionalist holdouts and G the written fallback; E stays as an upper bound on speed. Days are the first Congress's needs against its 163-day budget, counting the three reconciliation bills and the rules vote. Each path's per-bill cost is my estimate from the Senate Rules doc.\n")
 A("| Path | Senate floor days | Contested regular-order bills that pass | Over (+) or under (−) the 163-day budget |\n| --- | --- | --- | --- |")
 for p in paths: A(f"| {p['path']} | {p['days']} | {p['bills']} of {p['of']} | {p['over_first']} |")
-A(f"\nThere are {pth['E']['of']} contested regular-order bills; the education batch adds none (EDU-6 is proposed to ride CAP-8 and EDU-8's rules ride AI-1). Under G only the carve-out (DEM-1 with its riders, DEM-5, DEM-6) passes, and the other 17 bills stay ◐ items for a later rules change. Under D1 there is no 2033 queue except the second-term package, so the overrun closes through D2, merges (CLI-6 into CLI-3 and CLI-7 into a 2027-28 60-vote vehicle would save about 9 days under F, estimate) or more floor days.\n")
-A("**Path C sensitivity (Oct 20, Talarico stress test).** The scenario's contested bills under a talking filibuster took 19-31 days each (mean about 24), not 15. At 20 days per top fight path C needs about 241 days, and at 25 about 271 (estimate, from ledger-paths.py); swapping in the bills the minority is proud to block (IMM-1, RTS-3) changes the total by about a day. Moving Social Security to a negotiated bill (SS-10) would save about 17 days at 25 per fight.\n")
+A(f"\nThere are {pth['E']['of']} contested regular-order bills (EDU-6 is proposed to ride CAP-8 and EDU-8's rules ride AI-1, at no extra days). Under G only the carve-out (DEM-1 with its riders, DEM-5, DEM-6) passes, and the other 17 bills stay ◐ items for a later rules change. Under D1 there is no 2033 queue except the second-term package, so the overrun closes through D2, merges (CLI-6 into CLI-3 and CLI-7 into a 2027-28 60-vote vehicle would save about 9 days under F, estimate) or more floor days.\n")
+A("**Path C sensitivity (Talarico stress test).** The scenario's contested bills under a talking filibuster took 19-31 days each (mean about 24), not 15. At 20 days per top fight path C needs about 241 days, and at 25 about 271 (estimate, from ledger-paths.py); swapping in the bills the minority is proud to block (IMM-1, RTS-3) changes the total by about a day. Moving Social Security to a negotiated bill (SS-10) would save about 17 days at 25 per fight.\n")
 A("""## Calendar under the scenario stipulations
 
 - **2029-30:** a trifecta. **2031-32:** a House possibly lost or narrowed; Senate and White House hold. **2033-36:** a trifecta again, on the condition that the electoral and civil-rights package is in force before the 2031 redistricting.
 - **Assumed done before 2029:** the Bipartisan American Affordability and Jobs Act of 2026 (sources/permitting-aaja-2026-analysis.md); CLI-3 carries the CES in statute with the Sec. 1401 override.
-- **Must pass in the first trifecta (Espen, Oct 19):** HLT-3, CLI-6 and CLI-7 (old E5), IMM-1 (E11), AI-1 and AI-4 (E12). **Ideally also:** COM-1 (E9), SAF-1 (S3), LAB-1 (E7).
-- **Before the 2031 maps:** DEM-1 (with DEM-2's commissions and mid-decade ban, carrying the 2034 exception), must pass by mid-2030. DEM-1F adopted Oct 20: the floor after R1 is signed (mid-2029), enacted by spring 2030; the D2 rules change (F) is adopted in week one, well before it.
+- **Must pass in the first trifecta:** HLT-3, CLI-6 and CLI-7, IMM-1, AI-1 and AI-4. **Ideally also:** COM-1, SAF-1, LAB-1.
+- **Before the 2031 maps:** DEM-1 (with DEM-2's commissions and mid-decade ban, carrying the 2034 exception), must pass by mid-2030. Under DEM-1F it takes the floor after R1 is signed (mid-2029) and is enacted by spring 2030; the D2 rules change (F) is adopted in week one, well before it.
 - **Second trifecta (rail T2):** DEM-3 (House size), DEM-4 (STV) and DEM-9 (presidential method, amendment vehicle AMD-3) as one package: run on in 2032, enacted 2033, one-off 2034 redraw. The climate durability review's 2032-36 lock-in measures would ride the 2033-36 reconciliation bills if taken up.
-- **Accepted Oct 19 and built in:** merges C23-C26 (living wage into the labor bill, junk fees into competition, background checks into SAF-1, congressional capacity into CAP-8), the C27 fast track (INT-1, CAP-8) and C28's nomination caps (+15 days).
+- **Built in:** merges C23-C26 (living wage into the labor bill, junk fees into competition, background checks into SAF-1, congressional capacity into CAP-8), the C27 fast track (INT-1, CAP-8) and C28's nomination caps (+15 days).
 """)
 A("## Crosswalk: legacy ledger IDs to domain IDs\n\n| Legacy ID | Now |\n| --- | --- |")
 cw = {}
@@ -126,7 +84,7 @@ extra = {"DEM2":"DEM-1 (INT-2 rides it)","DEM6":"CRT-P1","DEM9":"EXE-1","DEM12":
 order = lambda k: (k.rstrip('0123456789'), int(''.join(ch for ch in k if ch.isdigit()) or 0))
 for k in sorted(list(cw)+list(extra), key=order):
     A(f"| {k} | {', '.join(cw[k]) if k in cw else extra[k]} |")
-A("\nNew rows with no legacy ID: LAB-8, LAB-9, AI-9, DEM-11, DEM-16, DEM-17, NSC-8, CLI-7 (from E5); and, in the education batch, EDU-3, EDU-4, EDU-7, EDU-8.\n")
+A("\nRows with no legacy ID: LAB-8, LAB-9, AI-9, DEM-11, DEM-16, DEM-17, NSC-8, CLI-7 (from E5), EDU-3, EDU-4, EDU-7, EDU-8, CAP-7S.\n")
 A("## Conflicts between docs\n\n| Topic | One doc says | Another says | Status |\n| --- | --- | --- | --- |")
 for c in d['conflicts']: A(f"| {c['topic']} | {c['one_doc']} | {c['other_doc']} | {c['resolution']} |")
 A("")
@@ -139,15 +97,15 @@ A("")
 A("## Revenue menu\n\n| ID | Option | Channel | Mid ($T) | Low | High | In base | Reaches the middle | Legal risk | Overlap | Source |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |")
 for v in d['revenue']: A(f"| {v['id']} | {v['option']} | {v['channel']} | {v['mid']:.3f} | {v['lo']:.3f} | {v['hi']:.3f} | {v['in_base']} | {v['reaches_middle']} | {v['legal_risk']} | {v['overlap']} | {v['source']} |")
 A("")
-A("""## Where the inputs live (Oct 20 file layout)
+A("""## Where the inputs live
 
-- governing/: Governing Decisions (project copy; the live doc wins)
-- domains/: batch 1 domain-revenue.md, domain-health.md, domain-family.md, domain-social-security.md; batch 2 domain-democracy.md, domain-courts.md, domain-executive-power.md, domain-integrity.md, domain-capacity.md; batch 3 domain-climate.md, domain-housing.md, domain-labor.md, domain-competition.md; batch 4 domain-immigration.md, domain-rights.md, domain-public-safety.md, domain-ai.md, domain-national-security.md, domain-amendments.md; education batch (Oct 20) domain-education.md. Canonical until converted: transportation-moving-america-act-2031-draft-2.md. public-safety-safe-everywhere.md is now the evidence base behind domain-public-safety.md (move to sources/ pending)
-- index/: this ledger (generated; never edit by hand), the tools that build it, the revenue assignment audit and the household incidence model
-- staging/: unified-reform-inventory-current.md (every section now has a domain home; rows become pointers)
-- frameworks/: adds scenario-stress-test-talarico-2029-2037.md (Oct 20)
-- sources/: adds climate-durability-pathway-session-findings.md, education-transforming-education-act-analysis-and-trust-fund.md, education-ai-education-and-workforce-readiness-act-analysis.md and scenario-talarico-2029-2037.md (Oct 20)
-- archive/: adds the two PROJECT 2029 docs (Oct 20), ideas only, flagged for a later read for anything still useful
+- governing/: the governing decisions (repo copy of the live doc) and the decision briefs
+- domains/: one canonical file per domain (domain-revenue.md, domain-health.md, domain-family.md, domain-social-security.md, domain-education.md, domain-democracy.md, domain-courts.md, domain-executive-power.md, domain-integrity.md, domain-capacity.md, domain-climate.md, domain-housing.md, domain-labor.md, domain-competition.md, domain-immigration.md, domain-rights.md, domain-public-safety.md, domain-ai.md, domain-national-security.md, domain-amendments.md), plus transportation-moving-america-act-2031-draft-2.md (canonical until converted) and public-safety-safe-everywhere.md (the evidence base behind domain-public-safety.md)
+- index/: this ledger and the other generated files; data/inputs/ (the tables this ledger is built from); tools/ (the scripts); the options register and the revenue assignment audit (hand-written)
+- staging/: unified-reform-inventory-current.md (rows point to the domain files)
+- frameworks/: reasoning, not policy (Radical Means, Instruments and Consequences, the Talarico stress test, the transit-rail split)
+- sources/: outside inputs behind the domain files
+- archive/: ideas only, never current sources
 """)
 A(sources)
 open('2029-trifecta-master-ledger-v2.md','w').write("\n".join(out))
