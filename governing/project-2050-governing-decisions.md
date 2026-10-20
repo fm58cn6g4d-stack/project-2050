@@ -101,7 +101,7 @@ The agenda asks the general fund for about $10.97T over 2030-39 against a $6.37T
 | Option | Rule | Effect on the agenda (estimate) | Status |
 | --- | --- | --- | --- |
 | A. Fully paid for over ten years | New spending matched by new revenue and savings across the whole budget, borrowing for nothing | Every dollar of the gap must be cut or raised inside the window | Not chosen |
-| D4-A. Paid for over ten years; borrow only for capital | Permanent programs fully offset across the budget by year ten; time-limited capital (housing fund, grid, rail construction) may borrow | Tests the ten-year sum; Decision Brief 2's package missed it narrowly (about $0.03T, before CAP-7's restructuring) | Not chosen |
+| D4-A. Paid for over ten years; borrow only for capital | Permanent programs fully offset across the budget by year ten; time-limited capital (housing fund, grid, rail construction) may borrow | Tests the ten-year sum, which leaves no room for time-limited lines beyond capital | Not chosen |
 | **D4-B. Fiscal arc** | Permanent programs paid for at maturity; time-limited investments with a written return case borrowed inside an envelope scaled to GDP; guardrails against the real baseline | Ten-year general-fund deficit about $1.2T, almost all envelope borrowing; run rate covered from 2040 | **Decided** |
 | D4-C. Deficit allowance | New net borrowing up to about 0.5% of GDP a year (about $2T over the decade), with debt stabilized as a share of GDP by 2045 | Closes the gap on paper without new revenue; the weakest answer to inflation and interest-rate risk, and the easiest for a successor to cite | Not chosen |
 
@@ -177,7 +177,7 @@ Three docs price carbon three ways. The Bill Book rebates an economy-wide fee as
 
 **Decided: B. Gasoline and diesel taxes are set in the surface transportation plan; the fee and dividend governs everything else.** CBO's estimates show that exempting gasoline costs a quarter of a carbon tax's revenue. Exempting it avoids a double hit at the pump, keeps the dividend's constituency, and lets Moving America own transport fuels. Both instruments are built in domains/domain-revenue.md.
 
-**Price path (decided, Espen).** REV-C1, the domestic fee, follows the climate durability session's schedule: **$25 a ton in 2030 rising to about $100 by 2037**, road fuels exempt. It raises about $1.20-1.50T over 2030-39 (mid $1.35T, estimate); REV-C2, the border adjustment, adds about $0.15-0.25T, so the two together raise about $1.35-1.75T. About 80% of the fee is rebated as the Climate Dividend (CLI-2, about $1.08T) and 20% (about $0.27T) goes to transition and low-income help. The 20% share and REV-C2 fund the Thriving Economy add-ons (CLI-5), so those do not compete with family benefits for top-end revenue. The 20% carve-out costs the dividend about $0.16T, roughly $48 a person a year, which the D3 test must carry. The lower starting price keeps the fee's bite small in 2030-31, the years before the midterm (incidence model). Other paths: the $50-plus-5% path is option REV-C1B, not chosen; road-fuel convergence (REV-C1D) is an open option, not adopted.
+**Price path (decided, Espen).** REV-C1, the domestic fee, follows the climate durability session's schedule: **$25 a ton in 2030 rising to about $100 by 2037**, road fuels exempt. It raises about $1.20-1.50T over 2030-39 (mid $1.35T, estimate); REV-C2, the border adjustment, adds about $0.15-0.25T, so the two together raise about $1.35-1.75T. About 80% of the fee is rebated as the Climate Dividend (CLI-2, about $1.08T) and 20% (about $0.27T) goes to transition and low-income help. The 20% share and REV-C2 fund the Thriving Economy add-ons (CLI-5), so those do not compete with family benefits for top-end revenue. The D3 test carries the 20% carve-out. The lower starting price keeps the fee's bite small in 2030-31, the years before the midterm (incidence model). Other paths: the $50-plus-5% path is option REV-C1B, not chosen; road-fuel convergence (REV-C1D) is an open option, not adopted.
 
 ### D8. Social Security: expand first, or fix solvency first?
 
@@ -258,7 +258,7 @@ Eight roles, in order of authority, matching the project instructions. A higher 
 4. **Frameworks (frameworks/):** Radical Means, Instruments and Consequences, and the Talarico scenario stress test. They inform decisions but don't set policy; the stress test's proposals are options, not decisions.
 5. **Staging inventory (staging/):** unified-reform-inventory-current.md. Every section has a domain file, so its rows are pointers; cite the domain file instead.
 6. **Ideas only (archive/ideas-, archive/wargame-):** the old inventory, the war-game set (one 56-seat, full-reform upside scenario) and the two PROJECT 2029 docs from an older project (outdated; each carries a note to revisit for anything still useful). Raw material, never cited as current policy. Four large archive files (the superseded Beyond Health Care agenda and three war-game HTML pages) are held only in the claude.ai Project, not in the repo.
-7. **Outside inputs and source tables (sources/):** the source tables behind the health and revenue files, Thriving Economy, the health working-group memo, the court-reform review, the permitting-law analysis, the Safe Everywhere Act's bill summary, the climate durability session findings, the two education analyses, the Talarico scenario model and Moving America's source docs (transportation-*).
+7. **Outside inputs and source tables (sources/):** the source tables behind the health and revenue files, Thriving Economy, the health working-group memo, the court-reform review, the permitting-law analysis, the Safe Everywhere Act's bill summary, the climate durability session findings, the two education analyses, the Talarico scenario model and Moving America's source docs (transportation-\*).
 8. **Superseded (archive/superseded-):** Beyond Health Care.
 
 | Doc | Role | Notes |
@@ -268,8 +268,8 @@ Eight roles, in order of authority, matching the project instructions. A higher 
 | domains/domain-\<name>.md (the twenty files listed above) | Canonical | One per domain, with stable IDs |
 | domains/transportation-moving-america-act-2031-draft-2.md | Canonical: transportation | Until converted; model scripts in index/tools/transportation/ |
 | domains/public-safety-safe-everywhere.md | Evidence base behind domain-public-safety.md | Not canonical |
-| sources/health-go-big-bill-detail-and-financing.md | Source detail for domain-health.md | |
-| sources/revenue-channels-and-full-menu.md | Source detail for domain-revenue.md | |
+| sources/health-go-big-bill-detail-and-financing.md | Source detail for domain-health.md |  |
+| sources/revenue-channels-and-full-menu.md | Source detail for domain-revenue.md |  |
 | index/2029-trifecta-master-ledger.md, revenue-household-incidence-model.md, fiscal-long-term-model.md | Index (generated) | Regenerate with index/tools/run-all.sh; never hand-edit |
 | index/options-register.md, revenue-assignment-audit.md | Index (hand-written) | Check the register before proposing or summing options |
 | frameworks/radical-means-moderate-ends.md, instruments-and-consequences.md, scenario-stress-test-talarico-2029-2037.md | Framework | Reasoning, not current policy; Instruments and Consequences' corrections override the inventory |
@@ -277,14 +277,14 @@ Eight roles, in order of authority, matching the project instructions. A higher 
 | archive/ideas-unified-reform-inventory-oct13.md | Ideas only | The old inventory |
 | archive/wargame-unified-governing-agenda.html, wargame-trifecta-2029-simulator.jsx (plus Floor Time, Nineteen Months and the Ledger outcomes pages, held in the claude.ai Project) | Ideas only (56-seat war game) | The simulator is to be re-pointed at the domain files |
 | archive/ideas-project-2029-cbo-score-simulator-inputs.md, ideas-project-2029-master-executive-action-inventory.md | Ideas only | Outdated; revisit the executive-action inventory against EXE- and the score inputs as a cross-check on domain-file costs |
-| sources/climate-thriving-economy-agenda-map.md, climate-durability-pathway-session-findings.md | Outside input: climate | |
+| sources/climate-thriving-economy-agenda-map.md, climate-durability-pathway-session-findings.md | Outside input: climate |  |
 | sources/permitting-aaja-2026-analysis.md and permitting-aaja-2026-first-pass.md | Outside input: permitting law | The analysis governs; the first pass is the earlier record |
-| sources/health-working-group-memo-analysis.md | Outside input: health | |
+| sources/health-working-group-memo-analysis.md | Outside input: health |  |
 | sources/courts-rebalancing-the-three-branches-2026.md | Outside input: courts | Its NRSC v. FEC caveat is out of date: decided June 30, 2026, 6-3 |
 | sources/public-safety-safe-everywhere-bill-summary.md | Outside input: public safety | Costs by title and the revenue title |
-| sources/education-transforming-education-act-analysis-and-trust-fund.md, education-ai-education-and-workforce-readiness-act-analysis.md | Outside input: education | |
+| sources/education-transforming-education-act-analysis-and-trust-fund.md, education-ai-education-and-workforce-readiness-act-analysis.md | Outside input: education |  |
 | sources/scenario-talarico-2029-2037.md | Outside input: scenario model | Behind the frameworks stress test |
-| sources/transportation-* | Outside input: transportation | ARCA, ATRA, the section-by-section, the calendar decision, session status |
+| sources/transportation-\* | Outside input: transportation | ARCA, ATRA, the section-by-section, the calendar decision, session status |
 | archive/superseded-beyond-health-care-2029-trifecta-agenda.md | Superseded | Held in the claude.ai Project |
 
 ### Filing conventions
@@ -359,6 +359,6 @@ WORKING RULES
 - Accept or change the batch 4 split of the agency line's reserve ($31B of $37B), then extend D9's agency list.
 - Choose: the Equality Act athletics provision (RTS-3A, 3B or 3E); cannabis (SAF-11A, B or C); the right-to-work override (LAB-1A or 1B); CRT-P2 (with or without P4); DEM-2E; LAB-8B; EXE-18C; the federal builder of last resort (HOU-9A, 9B or 9C) and public power (CLI-10).
 - Education: EDU-1B (a $30B mandatory Title I floor), EDU-4B (the $60K teacher salary floor), EDU-6's vehicle (ride CAP-8 or AI-1).
-- Public safety: drop Section 1208's trust fund (D4)? Keep the alcohol excise or switch to SAF-R2 (incidence model: about $57 a year to the fourth quintile).
+- Public safety: drop Section 1208's trust fund (D4)? Keep the alcohol excise or switch to SAF-R2 (incidence model: about $58 a year to the fourth quintile).
 - Proposed DEM-1 riders: the election-worker half of SAF-8 and AI-8 (synthetic-media disclosure).
 - Scoring: CLI-7 (disaster and flood insurance), and IMM-1 together with CRT-5.
