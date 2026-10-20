@@ -18,11 +18,14 @@ These scripts regenerate the index/ files. Copy them into one working folder and
    - `python3 fiscal-model.py --baseline ../data/fiscal-baseline.csv`: writes fiscal-model.json and fiscal-paths.csv. Year profiles for every ledger row live in `index/data/inputs/fiscal-profiles.csv` (loaded by fiscal-profiles.py): phase-in, growth index, time limits and the share that continues after 2039. A row with no profile is flagged and defaulted. Each profile is calibrated to the row's ledger ten-year midpoint, and a domain file's year-by-year score goes in `fiscal-years.csv`. Scenarios are the SCENARIOS list.
    - `python3 fiscal-make-md.py --baseline ../data/fiscal-baseline.csv`: writes fiscal-long-term-model.md; file it to index/.
 
+8. **Consistency check (new Oct 20).** `python3 check-project.py` (run last; run-all.sh does it) writes index/check-report.md: headline figures quoted in the documents against this run, IDs cited but missing from their domain file, ledger and options-register mismatches, stale phrases from superseded decisions, each ledger row's figure against its domain file, scaled revenue figures re-run, and input-table checks. It changes nothing; the findings are for Espen to decide.
+9. **Window rescaler.** `python3 window.py 272 2025-34` restates a ten-year figure in 2030-39 terms by CBO's nominal GDP path (`--index rev_individual` or another baseline category to track a tax base instead; `--to` for another window). The check uses it on revenue rows marked "scaled".
+
 Two scripts import each other under their working names. Before running, rename incidence-model.py to incidence.py and incidence-years.py to years.py.
 
 The dashboard (https://claude.ai/artifact/RDuHM7DqCwvLUtVaB4ANMs) reads bills.json, revenue.json, cuts.json and conflicts.json, which are split out of ledger.json. 
 
-State saved Oct 20, 2026, after Decision Brief 1: base $6.37T; general-fund claims $10.48T mid; gap $4.11T; **$1.46T on the planning basis** (CUTS rows whose kind contains "accepted": C30, C18, C35, C19b, C20, C21, C31, C32, C37); about −$0.12T with every option (ALT_CUTS = C29, C19 are never summed; C38 is the top-end sprint package, ~$0.89T); D2 decided (F: 170 floor days against 163). Incidence v1.4 with scenario P (the planning basis): Q4 +$1,300. Sprint revenue rows use the prefix TS (TS1-TS12, TSX) so the old tariff row T1 keeps its ID. The dashboard was republished with these figures.
+Current figures are not kept here: they are in the bottom line of index/2029-trifecta-master-ledger.md and the other generated files, and index/check-report.md lists any document still quoting an older figure. Sprint revenue rows use the prefix TS (TS1-TS12, TSX) so the old tariff row T1 keeps its ID.
 
 The dashboard was republished Oct 20 (later) with the education batch and that day's decisions. cuts.json carries an `alternative_to` column: the page leaves those rows (C37) out of the every-option total.
 

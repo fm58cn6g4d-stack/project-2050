@@ -30,8 +30,9 @@ if [[ $FETCH == 1 ]]; then
 else
   echo "== 5. fiscal baseline";  python3 fiscal-data.py --cache "$DATA/cbo" --out "$BUILD/fiscal-baseline.csv"
 fi
-echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fiscal-baseline.csv" | head -1
+echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fiscal-baseline.csv" > fiscal-model.log; head -1 fiscal-model.log
 python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
+echo "== 7. consistency check"; cp "$TOOLS"/check-project.py "$TOOLS"/window.py "$BUILD"/; python3 check-project.py
 
 declare -A OUT=(
   [2029-trifecta-master-ledger-v2.md]=index/2029-trifecta-master-ledger.md
@@ -39,6 +40,7 @@ declare -A OUT=(
   [fiscal-long-term-model.md]=index/fiscal-long-term-model.md
   [fiscal-baseline.csv]=index/data/fiscal-baseline.csv
   [fiscal-paths.csv]=index/data/fiscal-paths.csv
+  [check-report.md]=index/check-report.md
 )
 echo; echo "== changes against the committed files"
 for f in "${!OUT[@]}"; do

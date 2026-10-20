@@ -1,12 +1,12 @@
 # Revenue: D3 household net test, incidence model v1.4
 
-Oct 20, 2026 · Espen Swanson · Generated from index/2029-trifecta-master-ledger.md (education batch on top of the full rebuild: base $6.37T, gap $4.13T, about −$0.05T after every option) by index/tools/incidence-model.py, incidence-years.py and incidence-make-md.py. Role: index. Regenerate it rather than editing by hand.
+Oct 20, 2026 · Espen Swanson · Generated from index/2029-trifecta-master-ledger.md (as of this run: base $6.37T, gap $4.60T, about −$0.08T after the accepted options) by index/tools/incidence-model.py, incidence-years.py and incidence-make-md.py. Role: index. Regenerate it rather than editing by hand.
 
 This is a first pass at the test Dec. D3 sets: every income group below the top comes out ahead on net from the agenda's combined taxes, fees and benefits, and new general-fund revenue comes mostly from the top 1% and corporations. The unit is the bottom four quintiles, with the top quintile split out. Figures are average dollars per household per year over 2030-39 (nominal), from ten-year totals divided across about 140M households (estimate). Every distribution share is an **estimate** anchored to a published pattern; no row is yet a microsimulation.
 
-**Planning basis (Decision Brief 1, Oct 20): scenario P.** Package B (C18, C35, C19b, C20) plus the top-end sprint package C38 (REV-TS1 to TS11, about $0.89T, mostly corporate and top-1% items) is now the planning basis; the program trims are not yet decided and are left out. Every quintile below the top comes out ahead: Q1 +$10,952, Q2 +$9,429, Q3 +$5,867 and **Q4 +$1,304** a household a year on the ten-year average, and 72% of the new general-fund revenue comes from the top 1% and corporations. Q4 is still behind in 2030 (about −$1,509), roughly even in 2031 (+$380) and +$1,800 by 2034. The 2030 dip is the remaining D3 exposure; its levers are unchanged (start C19b with the public option in 2031, or front-load the dividend).
+**Planning basis (Decision Brief 1, Oct 20): scenario P.** Package B (C18, C35, C19b, C20) plus the top-end sprint package C38 (REV-TS1 to TS11, about $0.89T, mostly corporate and top-1% items) is now the planning basis; the program trims are not yet decided and are left out. Every quintile below the top comes out ahead: Q1 +$10,951, Q2 +$9,429, Q3 +$5,867 and **Q4 +$1,304** a household a year on the ten-year average, and 72% of the new general-fund revenue comes from the top 1% and corporations. Q4 is still behind in 2030 (−$1,510), roughly even in 2031 (+$379) and +$1,828 by 2034. The 2030 dip is the remaining D3 exposure; its levers are unchanged (start C19b with the public option in 2031, or front-load the dividend).
 
-**Decided package (Decision Brief 2, Oct 20): scenario Q.** Scenario P plus three top-end rows that replace the program trims: REV-TS12 (a 28% cap on itemized deductions above $450K, C39), REV-HP1 (the CEO pay-ratio corporate surtax, C40) and REV-HP3 (an excise on top-officer pay, C41), about $0.54T. No trim is taken, so universal meals (EDU-3) and Medicare dental (C5 declined) stay. Every quintile below the top comes out ahead: Q1 +$10,947, Q2 +$9,419, Q3 +$5,847 and **Q4 +$1,269** a household a year on the ten-year average (P: +$1,304); the new rows fall on the top quintile, above all the top 1% (−$570,874 against −$541,416 on P). 72% of new general-fund revenue comes from the top 1% and corporations (P: 72%). Q4 in 2030 is −$1,539, then +$349 in 2031 and +$1,794 by 2034.
+**Decided package (Decision Brief 2, Oct 20): scenario Q.** Scenario P plus three top-end rows that replace the program trims: REV-TS12 (a 28% cap on itemized deductions above $450K, C39), REV-HP1 (the CEO pay-ratio corporate surtax, C40) and REV-HP3 (an excise on top-officer pay, C41), about $0.54T. No trim is taken, so universal meals (EDU-3) and Medicare dental (C5 declined) stay. Every quintile below the top comes out ahead: Q1 +$10,947, Q2 +$9,418, Q3 +$5,847 and **Q4 +$1,268** a household a year on the ten-year average (P: +$1,304); the new rows fall on the top quintile, above all the top 1% (−$570,875 against −$541,418 on P). 72% of new general-fund revenue comes from the top 1% and corporations (P: 72%). Q4 in 2030 is −$1,539, then +$348 in 2031 and +$1,793 by 2034.
 
 **What changed in v1.4 (later on Oct 20, Espen's decisions).** The carbon fee moves to the durability session's price path ($25 a ton in 2030 rising to about $100 by 2037, road fuels still exempt): the fee is $1.35T, the Climate Dividend $1.08T and the low-income share of the transition money $0.108T over ten years, and all three now follow the fee's own year profile (low early, rising), so the fee's bite in 2030-31 is smaller than on the old path, and so is the early dividend. C35 (the estate tax) is restated as the ~$0.15T increment beyond G9. **Effects:** on scenario B the fourth quintile's ten-year average moves from +$779 to +$756 (the fee grows by $0.10T and the dividend plus low-income share by $0.09T; every quintile still comes out ahead). In 2030 the fourth quintile improves by about $100 (−$1,926 to −$1,823), and 2031 turns slightly positive; the first quintile gives up about $90 in 2030 because the early dividend is smaller too. Front-loading the dividend (paying the 2030 dividend at the 2031 rate from a Treasury advance repaid from later receipts) is the lever if that matters.
 
@@ -20,9 +20,9 @@ v1.2's changes (housing, the public-safety package, LAB-8 and LAB-9) are carried
 
 ## Bottom line
 
-- **On the full options list (B), the bottom four quintiles all come out ahead; the fourth by about +$756 a household a year** (0.4% of income), up from +$546 in v1.2, mostly because universal meals reach it. The first three gain clearly: +$10,691, +$9,035 and +$5,314.
+- **On the full options list (B), the bottom four quintiles all come out ahead; the fourth by about +$756 a household a year** (0.4% of income), up from +$546 in v1.2, mostly because universal meals reach it. The first three gain clearly: +$10,690, +$9,034 and +$5,313.
 - **The employer health-exclusion cap (C19) is still the swing.** Without it the fourth quintile gains about +$2,229; with the cap at the 75th percentile, about +$1,451. Drop the hospital-price pass-through to wages and the full list lands at +$202 for the fourth quintile, which is a coin-flip.
-- **The education fund (EDU-9B) passes the quintile test as a closer, but it is not free for the fourth quintile.** Replacing C19 and C20 with EDU-9B's contribution (about 1.4 points, all counted on workers) and its added benefits leaves the first three quintiles better off than B (+$11,111, +$9,371, +$5,600) and the fourth slightly worse (+$613 against +$756). It is roughly gap-neutral against B: it relieves the general fund of about $2.0T (claims moved into the fund plus current spending it absorbs) against the $1.92T of C19 and C20 it replaces. Whether to use a middle-reaching contribution at all is a D3 and D4 decision, not a modeling result.
+- **The education fund (EDU-9B) passes the quintile test as a closer, but it is not free for the fourth quintile.** Replacing C19 and C20 with EDU-9B's contribution (about 1.4 points, all counted on workers) and its added benefits leaves the first three quintiles better off than B (+$11,111, +$9,370, +$5,600) and the fourth slightly worse (+$613 against +$756). It is roughly gap-neutral against B: it relieves the general fund of about $2.0T (claims moved into the fund plus current spending it absorbs) against the $1.92T of C19 and C20 it replaces. Whether to use a middle-reaching contribution at all is a D3 and D4 decision, not a modeling result.
 - **The revenue-mix test passes** in every scenario: the top 1% (by incidence) and corporations (statutory) bear about 69% of new general-fund revenue on the full list and 86% on the base alone; the rule is more than half. EDU-9B's contribution is a dedicated fund and is not counted as general-fund revenue.
 - **The estate tax (C35) is invisible below the top:** scenario H moves no quintile below the top and takes about $9,107 more a year from the top 1%.
 - **The 80th-99th percentiles lose about $12,005 a year** on the full list, where C18 and C20 land.
@@ -34,16 +34,16 @@ Net = benefits minus costs, dollars per household per year, 2030-39 average.
 
 | Scenario | Q1 | Q2 | Q3 | Q4 | Q5 | 80-99th | Top 1% | Top 1% + corporations, share of new GF revenue | Passes? |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A. Base package only (gap unfunded) | +$11,037 | +$9,760 | +$6,632 | +$2,721 | −$30,754 | −$8,569 | −$452,272 | 86% | Yes (but the gap is unfunded) |
-| B. Base plus the full options list (gap about $0.2T) | +$10,691 | +$9,035 | +$5,314 | +$756 | −$36,541 | −$12,005 | −$502,736 | 69% | Yes |
-| C. B without the employer-exclusion cap (C19) | +$10,780 | +$9,481 | +$6,385 | +$2,229 | −$35,157 | −$10,642 | −$500,950 | 81% | Yes |
-| D. B with the exclusion cap at the 75th percentile (C19b) | +$10,733 | +$9,245 | +$5,819 | +$1,451 | −$35,888 | −$11,361 | −$501,893 | 74% | Yes |
-| E. B with no premium pass-through from the price caps | +$10,637 | +$8,820 | +$4,885 | +$202 | −$37,077 | −$12,531 | −$503,450 | 69% | Yes |
-| F. B with SAF-R2 (alcohol excise dropped) | +$10,721 | +$9,077 | +$5,366 | +$813 | −$36,474 | −$11,939 | −$502,636 | 69% | Yes |
-| G. EDU-9B education fund as the closer in place of C19 and C20 | +$11,111 | +$9,371 | +$5,600 | +$613 | −$36,977 | −$12,447 | −$503,054 | 83% | Yes |
-| H. B plus the estate tax (C35) | +$10,691 | +$9,035 | +$5,314 | +$756 | −$37,077 | −$12,089 | −$511,843 | 70% | Yes |
-| P. Planning basis: Package B plus the sprint package (C18, C35, C19b, C20, C38; trims not yet decided) | +$10,952 | +$9,429 | +$5,867 | +$1,304 | −$38,835 | −$12,383 | −$541,416 | 72% | Yes |
-| Q. Decided (Decision Brief 2): P plus TS12, HP1 and HP3 (C39-C41); no trims | +$10,947 | +$9,419 | +$5,847 | +$1,269 | −$40,693 | −$12,789 | −$570,874 | 72% | Yes |
+| A. Base package only (gap unfunded) | +$11,037 | +$9,759 | +$6,632 | +$2,721 | −$30,754 | −$8,569 | −$452,274 | 86% | Yes (but the gap is unfunded) |
+| B. Base plus the full options list (gap about $0.2T) | +$10,690 | +$9,034 | +$5,313 | +$756 | −$36,542 | −$12,005 | −$502,738 | 69% | Yes |
+| C. B without the employer-exclusion cap (C19) | +$10,780 | +$9,481 | +$6,385 | +$2,229 | −$35,158 | −$10,642 | −$500,952 | 81% | Yes |
+| D. B with the exclusion cap at the 75th percentile (C19b) | +$10,733 | +$9,245 | +$5,819 | +$1,451 | −$35,889 | −$11,362 | −$501,895 | 74% | Yes |
+| E. B with no premium pass-through from the price caps | +$10,637 | +$8,820 | +$4,885 | +$202 | −$37,078 | −$12,532 | −$503,452 | 69% | Yes |
+| F. B with SAF-R2 (alcohol excise dropped) | +$10,720 | +$9,077 | +$5,366 | +$813 | −$36,474 | −$11,939 | −$502,638 | 69% | Yes |
+| G. EDU-9B education fund as the closer in place of C19 and C20 | +$11,111 | +$9,370 | +$5,600 | +$613 | −$36,978 | −$12,447 | −$503,056 | 83% | Yes |
+| H. B plus the estate tax (C35) | +$10,690 | +$9,034 | +$5,313 | +$756 | −$37,078 | −$12,090 | −$511,845 | 70% | Yes |
+| P. Planning basis: Package B plus the sprint package (C18, C35, C19b, C20, C38; trims not yet decided) | +$10,951 | +$9,429 | +$5,867 | +$1,304 | −$38,836 | −$12,384 | −$541,418 | 72% | Yes |
+| Q. Decided (Decision Brief 2): P plus TS12, HP1 and HP3 (C39-C41); no trims | +$10,947 | +$9,418 | +$5,847 | +$1,268 | −$40,693 | −$12,789 | −$570,875 | 72% | Yes |
 
 Scenario B adds the options that reach households: C18, C19 (median), C20 and C5. The other options (C17, C21, C29-C34, C36) do not reach households directly through a tax. Scenario G swaps C19 and C20 for EDU-9B (its contribution EDUP, its added benefits EDUB, and the estate tax dedicated to the fund). Scenario A fails D4 (the gap is unfunded) and is shown for comparison only.
 
@@ -52,7 +52,7 @@ Scenario B adds the options that reach households: C18, C19 (median), C20 and C5
 | | Q1 | Q2 | Q3 | Q4 | Q5 | Top 1% |
 | --- | --- | --- | --- | --- | --- | --- |
 | Benefits | $12,325 | $12,027 | $9,930 | $7,376 | $4,853 | $3,718 |
-| Costs | $1,634 | $2,992 | $4,616 | $6,620 | $41,394 | $506,454 |
+| Costs | $1,634 | $2,993 | $4,617 | $6,621 | $41,395 | $506,456 |
 | Net, % of income | +46.5% | +15.1% | +5.1% | +0.4% | -7.0% | -11.7% |
 
 Health benefits are valued at government cost, as CBO does, so the bottom quintile's gain is large relative to cash income. Most of it is coverage, not cash.
@@ -93,20 +93,20 @@ Each ten-year total is spread over 2030-39 by a phase-in profile: about 4% annua
 
 | Year | B: Q1 | Q2 | Q3 | Q4 | D (cap at 75th pct): Q4 | G (EDU-9B closer): Q4 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2030 | +$6,544 | +$4,163 | +$1,232 | **−$1,823** | −$1,244 | −$2,198 |
-| 2031 | +$8,350 | +$6,633 | +$3,599 | **+$53** | +$656 | −$231 |
-| 2032 | +$9,799 | +$8,480 | +$5,153 | **+$990** | +$1,617 | +$842 |
-| 2033 | +$10,274 | +$8,893 | +$5,423 | **+$1,072** | +$1,724 | +$993 |
-| 2034 | +$10,821 | +$9,400 | +$5,781 | **+$1,235** | +$1,913 | +$1,154 |
-| 2035 | +$11,287 | +$9,779 | +$5,972 | **+$1,216** | +$1,921 | +$1,131 |
-| 2036 | +$11,735 | +$10,146 | +$6,162 | **+$1,198** | +$1,931 | +$1,110 |
+| 2030 | +$6,544 | +$4,163 | +$1,232 | **−$1,824** | −$1,245 | −$2,199 |
+| 2031 | +$8,350 | +$6,633 | +$3,599 | **+$53** | +$655 | −$231 |
+| 2032 | +$9,799 | +$8,480 | +$5,152 | **+$990** | +$1,616 | +$841 |
+| 2033 | +$10,274 | +$8,893 | +$5,423 | **+$1,072** | +$1,723 | +$993 |
+| 2034 | +$10,821 | +$9,400 | +$5,780 | **+$1,235** | +$1,912 | +$1,153 |
+| 2035 | +$11,286 | +$9,779 | +$5,972 | **+$1,216** | +$1,920 | +$1,131 |
+| 2036 | +$11,735 | +$10,146 | +$6,162 | **+$1,198** | +$1,930 | +$1,109 |
 | 2037 | +$12,211 | +$10,535 | +$6,361 | **+$1,177** | +$1,939 | +$1,085 |
-| 2038 | +$12,684 | +$10,932 | +$6,584 | **+$1,184** | +$1,977 | +$1,089 |
-| 2039 | +$13,201 | +$11,384 | +$6,869 | **+$1,256** | +$2,080 | +$1,157 |
+| 2038 | +$12,684 | +$10,931 | +$6,584 | **+$1,184** | +$1,977 | +$1,088 |
+| 2039 | +$13,200 | +$11,383 | +$6,869 | **+$1,256** | +$2,080 | +$1,156 |
 
-- **The fourth quintile is behind in 2030 and about even in 2031** on scenario B (−$1,823 and +$53), then positive from 2032 and near +$1,250-1,300 from 2034. Universal meals help from late 2030; the early-year shortfall is still the carbon fee, leave contributions and the exclusion cap arriving before the public option and full child care.
+- **The fourth quintile is behind in 2030 and about even in 2031** on scenario B (−$1,824 and +$53), then positive from 2032 and near +$1,250-1,300 from 2034. Universal meals help from late 2030; the early-year shortfall is still the carbon fee, leave contributions and the exclusion cap arriving before the public option and full child care.
 - **Year five (2034) passes for every quintile in every scenario**, which is D3's interim test. The 2030 shortfall still lands just before the November 2030 midterm.
-- **The 75th-percentile cap (D) turns Q4 positive from 2031**, but 2030 is still about −$1,244. **EDU-9B (G) is worse in 2030-31** (−$2,198, −$231) because the contribution starts at full rate while pre-K seats ramp; starting the contribution with the 2031 school year, or at a lower first-year rate, is the lever.
+- **The 75th-percentile cap (D) turns Q4 positive from 2031**, but 2030 is still about −$1,245. **EDU-9B (G) is worse in 2030-31** (−$2,199, −$231) because the contribution starts at full rate while pre-K seats ramp; starting the contribution with the 2031 school year, or at a lower first-year rate, is the lever.
 - **Fixing 2030 is a sequencing choice, not a size choice.** The levers: start C19 and the carbon fee in 2031, front-load the Climate Dividend, or start leave contributions with benefits in 2031. Each costs about a year of revenue and needs a D4 check.
 
 ## Implications for open choices
@@ -155,8 +155,8 @@ The ledger now carries a dynamic sensitivity table (not in any total): under CBO
 | P1 | Paid-leave contribution 0.6% | cost | 0.9 | wages_cap | ledger; both halves on workers |
 | C1 | Carbon fee (domestic) | cost | 1.35 | energy | ledger (durability path, Oct 20); full pass-through to households |
 | C2 | Carbon border adjustment | cost | 0.2 | consumption | ledger; full pass-through |
-| MR | Moving America fuel steps and per-mile charge | cost | 0.41 | gasoline | ledger MR1+MR2 |
-| MRc | Moving America truck, rail and aviation charges | cost | 0.126 | consumption | ledger MR4+MR5 |
+| MR | Moving America fuel steps and per-mile charge | cost | 0.4098 | gasoline | ledger MR1+MR2 |
+| MRc | Moving America truck, rail and aviation charges | cost | 0.1267 | consumption | ledger MR4+MR5 |
 | PS1 | Safe Everywhere revenue title, durable sources (alcohol $0.07T, fraud assessment $0.012T, firearms and check fees $0.009T) | cost | 0.091 | alcohol, consumption | ledger PS1 restated Oct 20; full pass-through |
 | PB | Part B premium increase (a quarter of HLT-2's new benefits) | cost | 0.3 | partb | estimate from go-big tab (~$18/month) |
 | MA | MA plans' reduced extras after full capture (30% pass-through) | cost | 0.375 | ma | estimate: 30% of HLT-6's $1.25T |
