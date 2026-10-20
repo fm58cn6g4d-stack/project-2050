@@ -24,17 +24,18 @@ def check():
     if round(s["net"], 1) != 290.0: fails.append(f"2029 act net revenue {s['net']:.1f}, Draft 2 290.0")
     if round(MA.expansion_authority(), 2) != 123.70: fails.append("expansion authority is not $123.70B")
     lines = []; report.main(out=lines.append)
-    golden = open(os.path.join(HERE, "golden", "final_v3.txt")).read().splitlines()
+    golden = open(os.path.join(HERE, "golden", "report.txt")).read().splitlines()
     if lines != golden:
         bad = next(i for i, (a, b) in enumerate(zip(lines + [""] * len(golden), golden + [""] * len(lines))) if a != b)
-        fails.append(f"printout differs from golden/final_v3.txt at line {bad + 1}: {lines[bad] if bad < len(lines) else ''!r}")
+        fails.append(f"printout differs from golden/report.txt at line {bad + 1}: {lines[bad] if bad < len(lines) else ''!r}")
     if "--legacy" in sys.argv and sys.version_info < (3, 12):
         fails.append("--legacy needs Python 3.12 or later (the old scripts use 3.12 f-string syntax)")
     elif "--legacy" in sys.argv:
         with tempfile.TemporaryDirectory() as tmp:   # the old scripts can write files into the current folder
             old = subprocess.run([sys.executable, os.path.join(HERE, "legacy", "final_v3.py")], cwd=tmp,
                                  capture_output=True, text=True, check=True).stdout.splitlines()
-        if old != golden: fails.append("legacy/final_v3.py no longer matches golden/final_v3.txt")
+        if old != open(os.path.join(HERE, "golden", "legacy-final-v3.txt")).read().splitlines():
+            fails.append("legacy/final_v3.py no longer matches golden/legacy-final-v3.txt")
     return fails
 
 if __name__ == "__main__":

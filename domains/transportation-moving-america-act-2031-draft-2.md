@@ -49,7 +49,7 @@ The calls most likely to change the bill's shape are A-9 (the 2028 extension), A
 | **A-4** | A-7 | 0.206% of GDP is a benchmark, not a cap. What binds is the reconciliation instructions, PAYGO and the Byrd rule | Treat it as a hard cap | FY2029-31 exceed it (0.225% in FY2030) and would have to shrink |
 | **A-5** | A-16 | Nominal levels not re-indexed when the calendar moved a year | Multiply every line by 1.025 | Draw up about 0.004 points |
 | **A-6** | A-6 | Joint terminals: div. D sec. 310 ($20.20B) is the single program for the five nodes; div. C sec. 606 retargeted elsewhere and cut to $3.00B | Split project by project | Up to $13.96B of terminal renewal falls to commuter operators' formula money (see division D) |
-| **A-7** | A-5 | Incremental shares 35 / 50 / 15 through FY2036 | The equal-coverage solve, 50.5 / 37.6 / 12.0 | See A-8 |
+| **A-7** | A-5 | Incremental shares 35 / 50 / 15 through FY2036 | The equal-coverage solve, 50.0 / 38.2 / 11.8 (restated Oct 20, 2026; was 50.5 / 37.6 / 12.0, taken by mistake from the 25-mpg / PHEV-50% sensitivity) | See A-8 |
 
 ### Open: revenue and the vehicles
 
@@ -1933,7 +1933,7 @@ Four things stand between this draft and a bill that can be scored: the 2028 ext
 - [ ] **Size the 2028 extension's transfer** so both accounts are solvent through FY2031, and model the case where the extension slips or runs longer than a year **\[A-9\]**. It is the largest unmodelled risk.
 - [ ] **Build the trust-fund cash-flow model:** three accounts, outlay timing, the sec. 110(a) cap, the top-ups and the sec. 108(c) backstop. It decides whether the FY2028 floors are real money on Oct 1, 2031.
 - [ ] **Score both reconciliation acts and division A** on CBO and JCT conventions, including fuel demand response to the steps (probably 2-3% of fuel receipts) and to the fossil premium, whose FY2042-46 receipts ($124.8B) are an upper bound. The estimates here are budget authority from this project's model.
-- [x] **Fold the overlays into the model.** Done Oct 20, 2026: `moving_america.py` is one model with no patching, checked line for line against the old `final_v3.py` output. One open point: the A-7 equal-coverage solve (50.5/37.6/12.0) came from the old script's 25-mpg / PHEV-50% sensitivity path; on the governing design it is 50.0/38.2/11.8.
+- [x] **Fold the overlays into the model.** Done Oct 20, 2026: `moving_america.py` is one model with no patching, checked line for line against the old `final_v3.py` output. A-7's equal-coverage solve restated to the governing design's 50.0/38.2/11.8 (Espen, Oct 20); the old 50.5/37.6/12.0 came from the old script's 25-mpg / PHEV-50% sensitivity path.
 
 ### Revenue and Code
 

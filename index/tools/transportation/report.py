@@ -57,10 +57,9 @@ def main(out=print):
             f"42-46 {rr[4]['gf_pct_avg']:.3%} cov {'/'.join(f'{c:.0%}' for c in cov)} GF {sum(rr[2]['gf'].values()):.1f}")
     gdp5 = sum(gdp(t) for t in yrs); GF = sum(rows[2]["gf"].values())
     for lab, cut in MA.FALLBACK_CUTS.items(): out(f" fallback {lab} {(GF - cut) / gdp5:.3%}")
-    # Legacy quirk, kept so the output matches Draft 2: the old script ran this solve after its sensitivity loop,
-    # on the 25-mpg / PHEV-50% revenue path. On the governing design the solve is printed on the next line.
-    q = Model(Design(**MA.SENSITIVITIES["25mpg PHEV50"]))
-    out(f" share solve {({k: round(v * 100, 1) for k, v in q.solve_shares(B)[0].items()})}")
+    # A-7, on the governing design. (The old final_v3.py solved this on its last sensitivity's revenue path and
+    # printed 50.5/37.6/12.0; restated Oct 20, 2026.)
+    out(f" share solve {governing_share_solve()}")
     P1 = m.P1
     for t in (2031, 2036, 2046):
         out(f" rates {t} clean c/mi {round(P1.rg(t) / 40, 2)} EV$ {round(P1.rg(t) / 40 * 120)} hybrid40$ {round(P1.gr(t) * 3)} "
