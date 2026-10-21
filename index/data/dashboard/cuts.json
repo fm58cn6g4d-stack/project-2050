@@ -22,7 +22,7 @@
   "change": "More top-end revenue not yet in the base: top four brackets +1 point, capital gains and dividends +2 points, LIFO repeal",
   "saves_tn": 0.62,
   "saves_days": 0,
-  "kind": "Revenue (accepted, planning basis)",
+  "kind": "Revenue (accepted, Decision Brief 1)",
   "why": "Package B, Decision Brief 1; top four brackets and gains",
   "alternative_to": ""
  },
@@ -49,7 +49,7 @@
   "change": "Cap the employer health exclusion at the 75th percentile of premiums (Package B)",
   "saves_tn": 0.66,
   "saves_days": 0,
-  "kind": "Revenue (accepted, planning basis)",
+  "kind": "Revenue (accepted, Decision Brief 1)",
   "why": "Package B, Decision Brief 1: CBO alternative scaled; part of the decided package (incidence scenario Q)",
   "alternative_to": ""
  },
@@ -94,7 +94,7 @@
   "change": "1-point surtax on income above $100K/$200K",
   "saves_tn": 0.67,
   "saves_days": 0,
-  "kind": "Revenue (accepted, planning basis)",
+  "kind": "Revenue (accepted, Decision Brief 1)",
   "why": "Package B, Decision Brief 1; upper-middle; passes D3 on the incidence model",
   "alternative_to": ""
  },
@@ -139,7 +139,7 @@
   "change": "Restore the estate tax at 2009 parameters with a frozen exemption (REV-E1), increment beyond G9",
   "saves_tn": 0.15,
   "saves_days": 0,
-  "kind": "Revenue (accepted, planning basis)",
+  "kind": "Revenue (accepted, Decision Brief 1)",
   "why": "Package B, Decision Brief 1; top 0.2% of estates; counted beyond G9",
   "alternative_to": ""
  },
