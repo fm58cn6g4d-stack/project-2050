@@ -81,16 +81,16 @@ By source, 2030-39: industry $0.65T, buildings $0.35T, power $0.33T, non-road tr
 
 ## Households in 2035 (the carbon channel alone)
 
-Per household, from the model's household module (BLS Consumer Expenditure Survey 2024 quintiles), on the decided package: the fee's cost through heating fuel, electricity and everything else, against the dividend. Gasoline costs nothing here because road fuels are outside the fee; Moving America's fuel steps and every other row are in the incidence model, which remains the D3 test.
+Per household in 2025 dollars, from the model's household module (BLS Consumer Expenditure Survey 2024 quintiles), on the decided package: the fee's cost through heating fuel, electricity and everything else, against the dividend. **The dividend is the same for every person, adult or child, at every income (CLI-2A)**; household totals differ only because households differ in size (the survey's lowest quintile averages 1.6 people, the highest 3.2). Costs rise with income because spending, and the carbon in it, does; an equal payment against costs that rise with income is what makes the dividend progressive. Gasoline costs nothing here because road fuels are outside the fee; Moving America's fuel steps and every other row are in the incidence model, which remains the D3 test.
 
-| Quintile | Heating | Electricity | Other goods | Dividend | Net |
-| --- | --- | --- | --- | --- | --- |
-| All consumer units | -113 | -120 | -702 | +740 | -196 |
-| Lowest 20 percent | -64 | -84 | -308 | +511 | +55 |
-| Second 20 percent | -94 | -110 | -438 | +670 | +27 |
-| Third 20 percent | -102 | -119 | -592 | +793 | -20 |
-| Fourth 20 percent | -127 | -133 | -802 | +899 | -164 |
-| Highest 20 percent | -176 | -156 | -1,368 | +987 | -713 |
+| Quintile | People | Dividend per person | Dividend per household | Heating | Electricity | Other goods | Net per household |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| All consumer units | 2.4 | 312 | +748 | -113 | -120 | -702 | -187 |
+| Lowest 20 percent | 1.6 | 312 | +499 | -64 | -84 | -308 | +43 |
+| Second 20 percent | 2.1 | 312 | +655 | -94 | -110 | -438 | +12 |
+| Third 20 percent | 2.5 | 312 | +780 | -102 | -119 | -592 | -33 |
+| Fourth 20 percent | 2.9 | 312 | +904 | -127 | -133 | -802 | -158 |
+| Highest 20 percent | 3.2 | 312 | +998 | -176 | -156 | -1,368 | -702 |
 
 ## Findings for the ledger (proposals, not applied)
 

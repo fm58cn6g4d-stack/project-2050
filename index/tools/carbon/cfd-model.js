@@ -109,6 +109,7 @@ const CFD = (() => {
     cover: { process: true, methane: true, fgas: true, border: true, bunkers: false }, fgasRate: 0.2,
     credits: false, permitYear: null, standards: false, grid: false, nuclear: false, // companion measures: restored clean energy tax credits from 2030; permitting reform enacted in permitYear
     ces: null, gridStatute: false, weatherize: false, // Project 2050: ces = { start, target, year } (CLI-3: 80% clean electricity by 2035); CLI-6; CLI-5 Weatherization
+    childShare: 0.5, // dividend shares: adult 1, child childShare (Project 2050's CLI-2A: 1, equal per person)
     roadExempt: false, roadPath: null, othRoad: 0.5, // Project 2050 (D7): gasoline and diesel outside the fee; roadPath(y) = their own per-gallon tax increase as $/t (real), e.g. Moving America's fuel steps; othRoad = share of 'other transport' CO2 that is road-type fuel (ASSUMED)
   };
 
@@ -312,14 +313,14 @@ const CFD = (() => {
       for (const k in rev) rev[k] /= 1000; // $bn
       const gross = Object.values(rev).reduce((a, b) => a + b, 0);
       const net = gross * (1 - pol.offset), poolD = net * pol.dividendShare * (1 - pol.admin);
-      const pp = pop(y), perShare = poolD * 1000 / (pp * 0.885);
+      const pp = pop(y), cs = pol.childShare, perShare = poolD * 1000 / (pp * (1 - (1 - cs) * 0.23)); // under-19s are about 23% of the population
       if (y === 2029) e2029 = energy;
       const t35 = E2005 * (1 - pol.target2035), t50 = E2005 * (1 - pol.target2050);
       const target = e2029 !== null && y >= pol.startYear ? (y <= 2035 ? e2029 + (t35 - e2029) * (y - 2029) / 6 : t35 + (t50 - t35) * Math.min(1, (y - 2035) / 15)) : null;
       missedPrev = target !== null && energy > target; frozen = energy <= E2005 * (1 - pol.freezeAt);
       const fMean = FOOT.reduce((a, b) => a + b, 0) / 10, costPc = net * 1000 / pp, divPc = poolD * 1000 / pp;
       rows.push({ year: y, price: P, power, transport, ldv, industry, buildings, energy, process, methane, n2o, hfc: hfcEmis, covered: energy + coveredOther, ghgNet, target,
-        below2005: 1 - energy / E2005, ghgBelow2005: 1 - ghgNet / NET2005, rev, gross, net, pool: poolD, transition: net * (1 - pol.dividendShare), perShare, family4: perShare * 3,
+        below2005: 1 - energy / E2005, ghgBelow2005: 1 - ghgNet / NET2005, rev, gross, net, pool: poolD, transition: net * (1 - pol.dividendShare), perShare, childShare: cs, family4: perShare * (2 + 2 * cs),
         gen: Object.assign({ nuclear: d.nucE, hydro: w.hydroOther + (S.hyd || 0), wind: d.windE * (1 - d.curt), solar: d.solE * (1 - d.curt) }, d.gen), G, cap: Object.assign({}, S), coalCF: d.coalCF,
         credits: credCost + credPower, cleanShare, cesPrice: S.cesL || 0, cesTarget: cesTgt, cesAcp: cesAcpBn, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
         gasoline: 0.0085 * PR, feeGasoline: pol.roadExempt ? 0 : 0.0085 * P, natgas: 0.0551 * P, elecDelta: dRes, deciles: FOOT.map(f => divPc - costPc * f / fMean), pop: pp, unserved: d.unserved, missed: missedPrev });

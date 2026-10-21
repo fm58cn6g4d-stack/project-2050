@@ -42,7 +42,7 @@ MOV = ma.Revenue(ma.Design(), premium=True)
 ROAD_REAL = {y: max(MOV.gr(y) - 18.4, 0) / 100 / defl(y) / 0.0085 if y >= 2029 else 0.0 for y in YRS}
 
 base_pol = {"permitYear": P["permit_year"], "startPrice": 0, "step": 0, "ratchet": False}
-d7_pol = dict(base_pol, roadExempt=True, roadPath=ROAD_REAL, othRoad=P["oth_road"], offset=0, admin=0, dividendShare=P["dividend_share"],
+d7_pol = dict(base_pol, childShare=1, roadExempt=True, roadPath=ROAD_REAL, othRoad=P["oth_road"], offset=0, admin=0, dividendShare=P["dividend_share"],
               cover={"process": False, "methane": False, "fgas": False, "border": False, "bunkers": False}, ratchet=False)
 ces = {"start": P["ces_start"], "target": P["ces_target"], "year": P["ces_year"]}
 full = dict(d7_pol, credits=True, ces=ces, standards=True, gridStatute=True, weatherize=True)
@@ -158,11 +158,11 @@ w(f"**Credits in the model.** The package's credit outlays come to about ${cred_
 hh = R["households"].get(PK)
 if hh:
     w("## Households in 2035 (the carbon channel alone)\n")
-    w("Per household, from the model's household module (BLS Consumer Expenditure Survey 2024 quintiles), on the decided package: the fee's cost through heating fuel, electricity and everything else, against the dividend. Gasoline costs nothing here because road fuels are outside the fee; Moving America's fuel steps and every other row are in the incidence model, which remains the D3 test.\n")
-    w("| Quintile | Heating | Electricity | Other goods | Dividend | Net |")
-    w("| --- | --- | --- | --- | --- | --- |")
+    w("Per household in 2025 dollars, from the model's household module (BLS Consumer Expenditure Survey 2024 quintiles), on the decided package: the fee's cost through heating fuel, electricity and everything else, against the dividend. **The dividend is the same for every person, adult or child, at every income (CLI-2A)**; household totals differ only because households differ in size (the survey's lowest quintile averages 1.6 people, the highest 3.2). Costs rise with income because spending, and the carbon in it, does; an equal payment against costs that rise with income is what makes the dividend progressive. Gasoline costs nothing here because road fuels are outside the fee; Moving America's fuel steps and every other row are in the incidence model, which remains the D3 test.\n")
+    w("| Quintile | People | Dividend per person | Dividend per household | Heating | Electricity | Other goods | Net per household |")
+    w("| --- | --- | --- | --- | --- | --- | --- | --- |")
     for g in hh:
-        w(f"| {g['name']} | {-g['heat']:,.0f} | {-g['elec']:,.0f} | {-g['other']:,.0f} | {g['dividend']:+,.0f} | {g['net']:+,.0f} |")
+        w(f"| {g['name']} | {g['people']:.1f} | {g['perPerson']:,.0f} | {g['dividend']:+,.0f} | {-g['heat']:,.0f} | {-g['elec']:,.0f} | {-g['other']:,.0f} | {g['net']:+,.0f} |")
     w("")
 
 w("## Findings for the ledger (proposals, not applied)\n")
