@@ -27,17 +27,18 @@ Energy CO2 below 2005 (EIA's 2005 level, 5,999 Mt), net greenhouse gases below 2
 | + CLI-3 Clean Energy Standard (80% by 2035) | 30% / 41% / 50% / 57% | 41% / 57% | 76% / 97% |
 | + CLI-4 vehicle and power standards | 30% / 41% / 51% / 62% | 41% / 62% | 76% / 97% |
 | + CLI-5 Weatherization heat pumps and CLI-6 grid statute | 30% / 41% / 52% / 62% | 41% / 62% | 76% / 97% |
-| + REV-C3 methane fee (the IRA charge reinstated, $1,200 a ton of methane in 2030 to $1,500 from 2032, without its intensity exemptions): **the decided package** | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
-| Option: + a funded federal grid build-out (CLI-10's public builder, as the model's grid program) | 31% / 43% / 54% / 63% | 44% / 63% | 82% / 98% |
-| Option: + an advanced nuclear program (CLI-9's reactor fleet order, as the model's nuclear program) | 30% / 41% / 52% / 63% | 42% / 63% | 76% / 98% |
-| Package with the border adjustment switched on (sizes REV-C2) | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
+| + REV-C3 methane fee (the IRA charge reinstated, $1,200 a ton of methane in 2030 to $1,500 from 2032, with a certified leak-prevention exemption): **the decided package** | 30% / 41% / 52% / 62% | 43% / 64% | 76% / 97% |
+| Option: + a funded federal grid build-out (CLI-10's public builder, as the model's grid program) | 31% / 43% / 54% / 63% | 45% / 64% | 82% / 98% |
+| Option: + an advanced nuclear program (CLI-9's reactor fleet order, as the model's nuclear program) | 30% / 41% / 52% / 63% | 43% / 64% | 76% / 98% |
+| Package with the border adjustment switched on (sizes REV-C2) | 30% / 41% / 52% / 62% | 43% / 64% | 76% / 97% |
+| Package with the methane fee on every covered facility (no certification exemption) | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
 | Package with the methane fee on the IRA's own base (intensity thresholds and exemptions kept) | 30% / 41% / 52% / 62% | 41% / 62% | 76% / 97% |
 | Package with the methane fee at three times the carbon fee per ton CO2e (methane's 20-year warming potential), an option | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
-| Package with landfills added to the methane fee | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
-| Package with the carbon fee extended to industrial process CO2 and N2O (an option) | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
-| Package with road fuels priced at the fee too (REV-C1D-style convergence from 2030) | 31% / 42% / 52% / 63% | 43% / 63% | 76% / 97% |
-| Package without the CES (to show what CLI-3 does on top of the rest) | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
-| Package with the fee repealed from 2033 (the durability test: credits, CES and standards carry on) | 28% / 38% / 48% / 56% | 39% / 57% | 73% / 93% |
+| Package with landfills added to the methane fee | 30% / 41% / 52% / 62% | 43% / 64% | 76% / 97% |
+| Package with the carbon fee extended to industrial process CO2 and N2O (an option) | 30% / 41% / 52% / 62% | 43% / 64% | 76% / 97% |
+| Package with road fuels priced at the fee too (REV-C1D-style convergence from 2030) | 31% / 42% / 52% / 63% | 43% / 64% | 76% / 97% |
+| Package without the CES (to show what CLI-3 does on top of the rest) | 30% / 41% / 52% / 62% | 43% / 64% | 76% / 97% |
+| Package with the fee repealed from 2033 (the durability test: credits, CES and standards carry on) | 28% / 38% / 48% / 56% | 40% / 58% | 73% / 93% |
 | The model's own design ($40 a ton in 2030 + $8 a year real, ratchet, wider coverage, 90% dividend; no companion measures) | 29% / 38% / 47% / 60% | 40% / 62% | 69% / 96% |
 
 **Uncertainty** (120 draws over the model's uncertain inputs; 10th-90th percentile): the decided package gives 39%-42% below 2005 in 2035 and 61%-63% in 2050 (the fee alone: 36%-39% and 49%-53%). These bands vary the model's inputs only; the disagreement between published models is wider, so treat them as a floor on the uncertainty.
@@ -79,7 +80,7 @@ By source, 2030-39: industry $0.65T, buildings $0.35T, power $0.33T, non-road tr
 
 **REV-C2 (the border adjustment).** With the border adjustment on at the same price, the model nets about **$0.031T** in 2030-39: charges on the embodied carbon of covered imports (284 Mt, with a 15% credit for carbon prices paid abroad) less rebates on exports (211 Mt), which nearly offset each other. The ledger carries $0.03T (estimate, scaled from a combined border-and-methane figure). The model's border inputs are partly judgment (see `sources/climate-border-adjustment-model-notes.md`).
 
-**REV-C3 (the methane fee).** The IRA's methane charge (the Waste Emissions Charge, Clean Air Act sec. 136) was the first federal fee on a greenhouse gas: $900 a ton of methane in its first year, $1,200 in its second and $1,500 from its third, not indexed, on oil and gas facilities above 25,000 t CO2e, charged only on methane above an intensity threshold and waived where the sec. 111 methane rule is in effect. Congress repealed EPA's rule for it in March 2025 (P.L. 119-2) and the 2025 reconciliation law delayed the charge to 2034 (P.L. 119-21; CRS R48906, April 2026). REV-C3 reinstates it from 2030 at $1,200 a ton of methane, rising to $1,500 by 2032 (about $54 a ton of CO2e), and charges all methane at facilities above the 25,000-ton threshold (about 85% of the sector's methane, estimate), dropping the intensity thresholds and the conditional exemption. That raises about **$0.06T** in 2030-39 (10th-90th percentile $0.06-0.07T). On the IRA's own base (EPA counted 364 facilities, about 0.3% of U.S. emissions) it would raise only about $0.002T: as written the charge was an incentive at the margin, not a revenue source. The rate is fixed in dollars, so it falls below REV-C1 per ton of CO2e from 2033 on; priced at three times the carbon fee (methane's 20-year warming potential) and with coal mines added it would raise $0.22T; adding landfills to the decided design, $0.12T. Net greenhouse gases: 42% below 2005 in 2035 with the fee, against 41% without it.
+**REV-C3 (the methane fee).** The IRA's methane charge (the Waste Emissions Charge, Clean Air Act sec. 136) was the first federal fee on a greenhouse gas: $900 a ton of methane in its first year, $1,200 in its second and $1,500 from its third, not indexed, on oil and gas facilities above 25,000 t CO2e, charged only on methane above an intensity threshold and waived once EPA's sec. 111 methane standards (leak detection and repair, limits on venting and flaring) were in effect in every state. Congress repealed EPA's rule for it in March 2025 (P.L. 119-2) and the 2025 reconciliation law delayed the charge to 2034 (P.L. 119-21; CRS R48906, April 2026). REV-C3 reinstates it from 2030 at $1,200 a ton of methane, rising to $1,500 by 2032 (about $54 a ton of CO2e), on all methane at facilities above the 25,000-ton threshold (about 85% of the sector's methane, estimate), with no intensity threshold. It keeps the IRA's structure of a fee with a way out, made facility by facility: a facility is exempt for a year if it certifies, on an independent audit and measurement-based reporting, that it meets the leak-prevention standards; a super-emitter event or a failed audit ends the exemption. The model assumes 20% of covered methane is at certified facilities in 2030 and 80% by 2035, and that certification cuts a facility's methane by 75% (estimates; EPA put its 2024 standards at nearly 80%). It raises about **$0.022T** in 2030-39 (10th-90th percentile $0.020-0.024T), against $0.06T with no exemption: the exemption trades revenue for compliance, which is the point. On the IRA's own narrow base it would raise only about $0.001T. The rate is fixed in dollars, so it falls below REV-C1 per ton of CO2e from 2033 on. Options: three times the carbon fee per ton of CO2e (methane's 20-year warming potential) with coal mines, $0.22T without the exemption; landfills added, $0.078T. Net greenhouse gases: 43% below 2005 in 2035 with the fee, against 41% without it; methane is 122 Mt CO2e lower in 2035 and 55 Mt lower than the same fee with no exemption would leave it, because certification requires the standards' deeper cuts.
 
 **Industrial process CO2 and N2O (an option).** Extending REV-C1's price to process emissions (cement, steel, ammonia, petrochemicals) would raise about $0.20T more in 2030-39.
 
@@ -91,12 +92,12 @@ Per household in 2025 dollars, from the model's household module (BLS Consumer E
 
 | Quintile | Adults | Dividend per adult | Dividend per household | Heating | Electricity | Other goods | Net per household |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| All consumer units | 1.8 | 405 | +729 | -113 | -120 | -735 | -240 |
-| Lowest 20 percent | 1.3 | 405 | +527 | -64 | -84 | -322 | +56 |
-| Second 20 percent | 1.7 | 405 | +689 | -94 | -110 | -459 | +25 |
-| Third 20 percent | 2.0 | 405 | +810 | -102 | -119 | -620 | -31 |
-| Fourth 20 percent | 2.2 | 405 | +891 | -127 | -133 | -840 | -209 |
-| Highest 20 percent | 2.4 | 405 | +972 | -176 | -156 | -1,433 | -793 |
+| All consumer units | 1.8 | 405 | +729 | -113 | -120 | -709 | -213 |
+| Lowest 20 percent | 1.3 | 405 | +527 | -64 | -84 | -310 | +68 |
+| Second 20 percent | 1.7 | 405 | +689 | -94 | -110 | -442 | +42 |
+| Third 20 percent | 2.0 | 405 | +810 | -102 | -119 | -597 | -9 |
+| Fourth 20 percent | 2.2 | 405 | +891 | -127 | -133 | -810 | -179 |
+| Highest 20 percent | 2.4 | 405 | +972 | -176 | -156 | -1,381 | -741 |
 
 ## Against the ledger
 
@@ -104,7 +105,7 @@ Per household in 2025 dollars, from the model's household module (BLS Consumer E
 | --- | --- | --- | --- |
 | REV-C1 (C1) | 1.53 (1.49-1.63) | 1.45 (1.25-1.60) | the ledger sits below the model because the model responds slowly in the first decade |
 | REV-C2 (C2) | 0.031 | 0.03 (0.02-0.05) | export rebates nearly cancel the import charge |
-| REV-C3 (C3) | 0.059 (0.055-0.066) | 0.06 (0.06-0.07) | credited to CLI-5 |
-| Excise offset (CX) | -0.41 | -0.39 (-0.43--0.33) | 25% of the carbon, border and methane fees (the scorekeepers' convention, as MR6 for Moving America) |
+| REV-C3 (C3) | 0.022 (0.020-0.024) | 0.02 (0.02-0.03) | credited to CLI-5 |
+| Excise offset (CX) | -0.40 | -0.38 (-0.42--0.32) | 25% of the carbon, border and methane fees (the scorekeepers' convention, as MR6 for Moving America) |
 
 CLI-3's 80%-by-2035 target is not met in the model (76% in 2035); its alternative compliance payments, about $0.04T in 2030-39, are an unsized channel. The incidence model spreads REV-C1 over the window with its own profile (`incidence-phase-in.csv`, C1); the model's year-by-year receipts could replace it.

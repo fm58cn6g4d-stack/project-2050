@@ -299,7 +299,12 @@ const CFD = (() => {
       const abOG = x => w.ch4Scale * (0.27 * (1 - Math.exp(-x / 10)) + 0.045 * Math.min(1, x / 15) + 0.135 * Math.min(1, x / 100));
       const ogAb = abOG(mAb);
       const coalIdx = (d.gen.coal || 0) / 753;
-      const ch4OGc = (INV.ch4Gas + INV.ch4Oil) * cov * (1 - Math.min(0.6, ogAb)), ch4OG = ch4OGc + (INV.ch4Gas + INV.ch4Oil) * (1 - cov);
+      // certification (Project 2050, REV-C3): a covered facility that certifies, on independent audit and measurement, that it meets the leak-prevention standards
+      //   (leak detection and repair, no routine venting or flaring) is exempt; its methane falls by cert.abate. The certified share of covered methane rises from cert.s0 to cert.s1 by cert.year.
+      const ct = mf && mf.cert && y >= mf.start ? mf.cert : null, cSh = ct ? ct.s0 + (ct.s1 - ct.s0) * clamp((y - mf.start) / (ct.year - mf.start), 0, 1) : 0;
+      const ogBase = (INV.ch4Gas + INV.ch4Oil) * cov;
+      const ch4OGc = ogBase * (1 - cSh) * (1 - Math.min(0.6, ogAb)), ch4OGcert = ogBase * cSh * (1 - (ct ? ct.abate : 0));
+      const ch4OG = ch4OGc + ch4OGcert + (INV.ch4Gas + INV.ch4Oil) * (1 - cov);
       const ch4Coal = INV.ch4Coal * (0.15 + 0.85 * coalIdx) * (1 - w.ch4Scale * (0.06 * (pCoal > 0 ? 1 : 0) + 0.38 * Math.min(1, pCoal / 60)));
       const ch4LF = INV.ch4Landfill * (1 - w.ch4Scale * 0.11 * Math.min(1, pLF / 50));
       const n2o = INV.n2oInd * (1 - (pol.cover.process ? 0.55 * Math.min(1, P / 20) + 0.17 * Math.min(1, P / 100) : 0));

@@ -124,8 +124,8 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | REV-C1E | Gasoline phase-in from 2032 | +$0.27T gross | Not recommended | Conflicts with D7 |
 | REV-C1F | Talarico path, $70 to $190 | ~2x receipts | Option | G-CARBON |
 | REV-C2 | Border adjustment | $0.03T channel | Chosen | Finances CLI-5 |
-| REV-C3 | Methane fee: the IRA charge reinstated from 2030 ($1,200 to $1,500 a ton of methane), without its intensity exemptions | $0.06T channel | **Decided Oct 21** | Finances CLI-5; options: 3x REV-C1 with coal mines (~$0.22T), landfills |
-| CX | Income and payroll tax offset on the carbon fees (25%) | −$0.39T general fund | **Booked Oct 21** | Scoring convention, as MR6 |
+| REV-C3 | Methane fee: the IRA charge reinstated from 2030 ($1,200 to $1,500 a ton of methane), no intensity threshold, facility exemption for certified leak prevention | $0.02T channel | **Decided Oct 21** | Finances CLI-5; options: 3x REV-C1 with coal mines (~$0.22T), landfills |
+| CX | Income and payroll tax offset on the carbon fees (25%) | −$0.38T general fund | **Booked Oct 21** | Scoring convention, as MR6 |
 | REV-C2B | Clean product standard | 0 (regulatory) | Option | ◐ |
 | REV-P1 | Paid-leave contribution 0.6% to 0.85% | $0.9T channel | Chosen (FAM-3A) | Payroll group |
 | REV-E1 / C35 | Estate tax at 2009 parameters, frozen | **+$0.15T** (beyond G9) | **Accepted (planning basis)** | Increment beyond G9 |

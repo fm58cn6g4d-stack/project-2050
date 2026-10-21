@@ -6,7 +6,7 @@
 
 ## 1. Headline numbers
 
-Current values from this run: general-fund claims $11.06T; top-end base $5.97T; ten-year gap $5.09T; gap after accepted options +0.41T; accepted revenue $3.53T; envelope borrowing $1.15T; Senate floor days under F 172; floor-day budget 163; DEC ten-year general-fund deficit $1.69T; DEC total debt, 2056 153.3%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$1,156.
+Current values from this run: general-fund claims $11.10T; top-end base $5.98T; ten-year gap $5.12T; gap after accepted options +0.44T; accepted revenue $3.53T; envelope borrowing $1.15T; Senate floor days under F 172; floor-day budget 163; DEC ten-year general-fund deficit $1.72T; DEC total debt, 2056 153.4%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$1,189.
 
 Every headline figure quoted in the checked documents matches this run.
 

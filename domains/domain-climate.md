@@ -175,7 +175,7 @@ It rides CLI-3's bill and adds no floor days (estimate).
 | Adaptation finance | CPRG reappropriated, STAG expanded, seed for a Clean Energy State Revolving Fund | 0.05 |
 | **Gross** | | **0.60** (range 0.30-1.00) |
 
-**Financing.** The financing comes from REV-C1's 20% transition share (about $0.29T), REV-C2 (about $0.03T, cut from $0.20T on Oct 21 because export rebates nearly cancel the import charge) and REV-C3, the reinstated IRA methane charge (about $0.06T): about $0.38T in all. The residual falls on the general fund: about $0.22T at the midpoint (ledger). Under C37 (accepted, Decision Brief 1), the adaptation-finance and minerals-offtake lines (about $0.10T) are time-limited capital borrowed for inside the D4-B investment envelope, which leaves about $0.12T of residual. A methane fee at three times REV-C1 per ton of CO2e, with coal mines (about $0.22T, a REV-C3 option), would restore the earlier financing. The components are my split of the ledger's $0.6T; the map sizes none of them except the ag R&D ramp ($100B, a proposal, not a score).
+**Financing.** The financing comes from REV-C1's 20% transition share (about $0.29T), REV-C2 (about $0.03T, cut from $0.20T on Oct 21 because export rebates nearly cancel the import charge) and REV-C3, the reinstated IRA methane charge with its certified leak-prevention exemption (about $0.02T): about $0.34T in all. The residual falls on the general fund: about $0.26T at the midpoint (ledger). Under C37 (accepted, Decision Brief 1), the adaptation-finance and minerals-offtake lines (about $0.10T) are time-limited capital borrowed for inside the D4-B investment envelope, which leaves about $0.16T of residual. A methane fee at three times REV-C1 per ton of CO2e, with coal mines (about $0.22T, a REV-C3 option), would restore the earlier financing. The components are my split of the ledger's $0.6T; the map sizes none of them except the ag R&D ramp ($100B, a proposal, not a score).
 
 **Not inside the $0.60T (unscored):** the insurance affordability program and NFIP premium support (staging 14.2) are in CLI-7. The voluntary relocation program (14.4) is option CLI-5C below.
 
@@ -184,7 +184,7 @@ It rides CLI-3's bill and adds no floor days (estimate).
 | Option | Design | General-fund net (mid) | Basis |
 | --- | --- | --- | --- |
 | CLI-5A | All seven components at $0.60T gross, all paid for | 0.15 | estimate (the ledger's CLI-5 row before C37) |
-| CLI-5B | Sized to its carbon financing, now about $0.38T gross: transmission ITC and 45X kept whole, LIHEAP lines kept, the rest trimmed (cut C29, not taken) | 0.00 | estimate |
+| CLI-5B | Sized to its carbon financing, now about $0.34T gross: transmission ITC and 45X kept whole, LIHEAP lines kept, the rest trimmed (cut C29, not taken) | 0.00 | estimate |
 | CLI-5F (chosen; C37, Decision Brief 1) | CLI-5A whole, with the adaptation-finance and minerals-offtake lines (~$0.10T) financed by borrowing inside the D4-B envelope as time-limited capital | ~0.03 | estimate |
 | CLI-5C | A plus a permanent voluntary relocation program and a National Safe Growth Bonus (map stage 3a) | 0.25-0.35 | estimate; unscored |
 | CLI-5D | Add a data-center "Electron Accelerator" fee and rebate (map chapter 5) to finance 24/7 clean contracts | Unsized; would be its own channel | not modeled; see CLI-6C for the alternative data-center rule |

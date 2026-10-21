@@ -24,3 +24,7 @@ ch4_og_share,0.85,"estimate: share of oil and gas methane at facilities above th
 ch4_og_share_ira,0.03,"estimate: the IRA's own base after its intensity thresholds and exemptions; EPA counted 364 facilities and about 0.3% of U.S. greenhouse gas emissions (CRS R48906), roughly 3% of oil and gas methane"
 ch4_coal,0,"proposal: coal mines not covered (the IRA charge covered oil and gas only); an option"
 ch4_landfill,0,"proposal: landfills not covered; an option"
+cert_s0,0.2,"estimate: share of covered oil and gas methane at facilities certified in 2030 (the leak-prevention exemption; facilities already meeting state or the 2024 federal standards certify first)"
+cert_s1,0.8,"estimate: certified share by cert_year; the rest pay the fee"
+cert_year,2035,"estimate: year certification uptake levels off"
+cert_abate,0.75,"estimate: certified facilities' methane cut by the standards (EPA put its 2024 oil and gas methane rule at nearly 80% from covered sources)"
