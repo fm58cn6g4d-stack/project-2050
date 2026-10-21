@@ -26,14 +26,18 @@ Energy CO2 below 2005 (EIA's 2005 level, 5,999 Mt), net greenhouse gases below 2
 | + CLI-1 restored clean-energy credits | 30% / 41% / 50% / 56% | 41% / 56% | 75% / 96% |
 | + CLI-3 Clean Energy Standard (80% by 2035) | 30% / 41% / 50% / 57% | 41% / 57% | 76% / 97% |
 | + CLI-4 vehicle and power standards | 30% / 41% / 51% / 62% | 41% / 62% | 76% / 97% |
-| + CLI-5 Weatherization heat pumps and CLI-6 grid statute: **the decided package** | 30% / 41% / 52% / 62% | 41% / 62% | 76% / 97% |
-| Option: + a funded federal grid build-out (CLI-10's public builder, as the model's grid program) | 31% / 43% / 54% / 63% | 43% / 63% | 82% / 98% |
-| Option: + an advanced nuclear program (CLI-9's reactor fleet order, as the model's nuclear program) | 30% / 41% / 52% / 63% | 41% / 62% | 76% / 98% |
-| Package with the border adjustment switched on (sizes REV-C2) | 30% / 41% / 52% / 62% | 41% / 62% | 76% / 97% |
-| Package with the fee extended to methane, process CO2 and N2O (sizes the methane-fee line) | 30% / 41% / 52% / 62% | 43% / 64% | 76% / 97% |
-| Package with road fuels priced at the fee too (REV-C1D-style convergence from 2030) | 31% / 42% / 52% / 63% | 42% / 62% | 76% / 97% |
-| Package without the CES (to show what CLI-3 does on top of the rest) | 30% / 41% / 52% / 62% | 41% / 62% | 76% / 97% |
-| Package with the fee repealed from 2033 (the durability test: credits, CES and standards carry on) | 28% / 38% / 48% / 56% | 38% / 56% | 73% / 93% |
+| + CLI-5 Weatherization heat pumps and CLI-6 grid statute | 30% / 41% / 52% / 62% | 41% / 62% | 76% / 97% |
+| + REV-C3 methane fee (the IRA charge reinstated, $1,200 a ton of methane in 2030 to $1,500 from 2032, without its intensity exemptions): **the decided package** | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
+| Option: + a funded federal grid build-out (CLI-10's public builder, as the model's grid program) | 31% / 43% / 54% / 63% | 44% / 63% | 82% / 98% |
+| Option: + an advanced nuclear program (CLI-9's reactor fleet order, as the model's nuclear program) | 30% / 41% / 52% / 63% | 42% / 63% | 76% / 98% |
+| Package with the border adjustment switched on (sizes REV-C2) | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
+| Package with the methane fee on the IRA's own base (intensity thresholds and exemptions kept) | 30% / 41% / 52% / 62% | 41% / 62% | 76% / 97% |
+| Package with the methane fee at three times the carbon fee per ton CO2e (methane's 20-year warming potential), an option | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
+| Package with landfills added to the methane fee | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
+| Package with the carbon fee extended to industrial process CO2 and N2O (an option) | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
+| Package with road fuels priced at the fee too (REV-C1D-style convergence from 2030) | 31% / 42% / 52% / 63% | 43% / 63% | 76% / 97% |
+| Package without the CES (to show what CLI-3 does on top of the rest) | 30% / 41% / 52% / 62% | 42% / 63% | 76% / 97% |
+| Package with the fee repealed from 2033 (the durability test: credits, CES and standards carry on) | 28% / 38% / 48% / 56% | 39% / 57% | 73% / 93% |
 | The model's own design ($40 a ton in 2030 + $8 a year real, ratchet, wider coverage, 90% dividend; no companion measures) | 29% / 38% / 47% / 60% | 40% / 62% | 69% / 96% |
 
 **Uncertainty** (120 draws over the model's uncertain inputs; 10th-90th percentile): the decided package gives 39%-42% below 2005 in 2035 and 61%-63% in 2050 (the fee alone: 36%-39% and 49%-53%). These bands vary the model's inputs only; the disagreement between published models is wider, so treat them as a floor on the uncertainty.
@@ -53,7 +57,7 @@ Energy CO2 below 2005 (EIA's 2005 level, 5,999 Mt), net greenhouse gases below 2
 
 ## Receipts and the dividend
 
-**REV-C1 (the domestic fee), on the decided package.** About **$1.53T** in 2030-39 (10th-90th percentile $1.49-1.63T), against the ledger's $1.35T (range $1.20-1.50T, estimate). The fee alone would raise $1.61T; the companion measures shrink its base by $0.08T. Because the model cuts emissions more slowly in the first decade than the large published models, its receipts sit toward the high side; a faster-responding model would land lower. The dividend (80%) is $1.22T and the transition share $0.31T.
+**REV-C1 (the domestic fee), on the decided package.** About **$1.53T** in 2030-39 (10th-90th percentile $1.49-1.63T), against the ledger's $1.45T (range $1.25-1.60T, estimate). The fee alone would raise $1.61T; the companion measures shrink its base by $0.08T. Because the model cuts emissions more slowly in the first decade than the large published models, its receipts sit toward the high side; a faster-responding model would land lower. The dividend (80%) is $1.22T and the transition share $0.31T.
 
 | Year | Fee ($/t, nominal) | Receipts ($B, nominal) | Energy CO2 (Mt) | Clean electricity | Dividend per adult ($, nominal) | Couple |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -73,9 +77,11 @@ Energy CO2 below 2005 (EIA's 2005 level, 5,999 Mt), net greenhouse gases below 2
 
 By source, 2030-39: industry $0.65T, buildings $0.35T, power $0.33T, non-road transport $0.20T. Industry is the largest base because its abatement (efficiency, capture, electric heat) comes slowly; power is smaller because coal leaves quickly. Receipts keep rising after 2039 because the price (5% a year) rises faster than emissions fall. The per-adult dividend uses CBO's population path (the model's), with adults 77% of it.
 
-**REV-C2 (the border adjustment).** With the border adjustment on at the same price, the model nets about **$0.031T** in 2030-39: charges on the embodied carbon of covered imports (284 Mt, with a 15% credit for carbon prices paid abroad) less rebates on exports (211 Mt), which nearly offset each other. The ledger carries $0.20T (estimate, scaled from a combined border-and-methane figure). The model's border inputs are partly judgment (see `sources/climate-border-adjustment-model-notes.md`).
+**REV-C2 (the border adjustment).** With the border adjustment on at the same price, the model nets about **$0.031T** in 2030-39: charges on the embodied carbon of covered imports (284 Mt, with a 15% credit for carbon prices paid abroad) less rebates on exports (211 Mt), which nearly offset each other. The ledger carries $0.03T (estimate, scaled from a combined border-and-methane figure). The model's border inputs are partly judgment (see `sources/climate-border-adjustment-model-notes.md`).
 
-**Methane and process gases (the unsized methane-fee line).** Extending the same price to methane from oil, gas, coal mines and landfills, and to process CO2 and N2O, would raise about **$0.37T** in 2030-39 and cut net GHG further (row above).
+**REV-C3 (the methane fee).** The IRA's methane charge (the Waste Emissions Charge, Clean Air Act sec. 136) was the first federal fee on a greenhouse gas: $900 a ton of methane in its first year, $1,200 in its second and $1,500 from its third, not indexed, on oil and gas facilities above 25,000 t CO2e, charged only on methane above an intensity threshold and waived where the sec. 111 methane rule is in effect. Congress repealed EPA's rule for it in March 2025 (P.L. 119-2) and the 2025 reconciliation law delayed the charge to 2034 (P.L. 119-21; CRS R48906, April 2026). REV-C3 reinstates it from 2030 at $1,200 a ton of methane, rising to $1,500 by 2032 (about $54 a ton of CO2e), and charges all methane at facilities above the 25,000-ton threshold (about 85% of the sector's methane, estimate), dropping the intensity thresholds and the conditional exemption. That raises about **$0.06T** in 2030-39 (10th-90th percentile $0.06-0.07T). On the IRA's own base (EPA counted 364 facilities, about 0.3% of U.S. emissions) it would raise only about $0.002T: as written the charge was an incentive at the margin, not a revenue source. The rate is fixed in dollars, so it falls below REV-C1 per ton of CO2e from 2033 on; priced at three times the carbon fee (methane's 20-year warming potential) and with coal mines added it would raise $0.22T; adding landfills to the decided design, $0.12T. Net greenhouse gases: 42% below 2005 in 2035 with the fee, against 41% without it.
+
+**Industrial process CO2 and N2O (an option).** Extending REV-C1's price to process emissions (cement, steel, ammonia, petrochemicals) would raise about $0.20T more in 2030-39.
 
 **Credits in the model.** The package's credit outlays come to about $1.49T in 2030-39 in the model's accounting, against the ledger's $0.90T for CLI-1A (range $0.60-1.10T) and CLI-5's transmission ITC and 45X lines (about $0.22T). The model's set includes bonus adders and the hydrogen credit and prices take-up off the larger clean build under the fee and the CES, so it is a cross-check on the high end, not a score.
 
@@ -85,18 +91,20 @@ Per household in 2025 dollars, from the model's household module (BLS Consumer E
 
 | Quintile | Adults | Dividend per adult | Dividend per household | Heating | Electricity | Other goods | Net per household |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| All consumer units | 1.8 | 405 | +729 | -113 | -120 | -702 | -207 |
-| Lowest 20 percent | 1.3 | 405 | +527 | -64 | -84 | -308 | +71 |
-| Second 20 percent | 1.7 | 405 | +689 | -94 | -110 | -438 | +46 |
-| Third 20 percent | 2.0 | 405 | +810 | -102 | -119 | -592 | -3 |
-| Fourth 20 percent | 2.2 | 405 | +891 | -127 | -133 | -802 | -171 |
-| Highest 20 percent | 2.4 | 405 | +972 | -176 | -156 | -1,368 | -728 |
+| All consumer units | 1.8 | 405 | +729 | -113 | -120 | -735 | -240 |
+| Lowest 20 percent | 1.3 | 405 | +527 | -64 | -84 | -322 | +56 |
+| Second 20 percent | 1.7 | 405 | +689 | -94 | -110 | -459 | +25 |
+| Third 20 percent | 2.0 | 405 | +810 | -102 | -119 | -620 | -31 |
+| Fourth 20 percent | 2.2 | 405 | +891 | -127 | -133 | -840 | -209 |
+| Highest 20 percent | 2.4 | 405 | +972 | -176 | -156 | -1,433 | -793 |
 
-## Findings for the ledger (proposals, not applied)
+## Against the ledger
 
-- REV-C1 on the decided package: $1.53T in 2030-39 against the ledger's $1.35T; given the model's slow first-decade response, a ledger midpoint between the two with the range widened downward is the cautious reading.
-- REV-C2 nets about $0.03T once export rebates are counted, against $0.20T; CLI-5's financing leans on it.
-- A methane and process-gas fee at the same price would raise about $0.37T.
-- The general fund carries no income- and payroll-tax offset for REV-C1. Scorekeepers reduce an excise's net receipts by about 25% because it lowers taxable incomes; the ledger books that offset for Moving America (MR6) but not for the carbon fee, so about $0.38T of general-fund revenue loss is uncounted.
-- CLI-3's 80%-by-2035 target is not met in the model (76% in 2035); its alternative compliance payments, about $0.04T in 2030-39, are an unsized channel today.
-- The incidence model spreads REV-C1 over the window with an assumed profile (`incidence-phase-in.csv`, C1); the model's year-by-year receipts could replace it.
+| Row | This model, 2030-39 ($T) | Ledger, mid (range) | Note |
+| --- | --- | --- | --- |
+| REV-C1 (C1) | 1.53 (1.49-1.63) | 1.45 (1.25-1.60) | the ledger sits below the model because the model responds slowly in the first decade |
+| REV-C2 (C2) | 0.031 | 0.03 (0.02-0.05) | export rebates nearly cancel the import charge |
+| REV-C3 (C3) | 0.059 (0.055-0.066) | 0.06 (0.06-0.07) | credited to CLI-5 |
+| Excise offset (CX) | -0.41 | -0.39 (-0.43--0.33) | 25% of the carbon, border and methane fees (the scorekeepers' convention, as MR6 for Moving America) |
+
+CLI-3's 80%-by-2035 target is not met in the model (76% in 2035); its alternative compliance payments, about $0.04T in 2030-39, are an unsized channel. The incidence model spreads REV-C1 over the window with its own profile (`incidence-phase-in.csv`, C1); the model's year-by-year receipts could replace it.

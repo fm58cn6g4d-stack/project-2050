@@ -55,9 +55,9 @@ REV-C1's original design included a border adjustment on imports, and the Thrivi
 
 **Why this over the alternative.** Folding the border adjustment into REV-C1 and trimming the add-ons to the 20% share would add about $0.30T to the general-fund gap, because the add-ons would have to find financing elsewhere. The carve-out resolves the double count with **no effect on the general-fund gap** — the same dollars move from the dividend to the add-ons, inside the carbon channel. The rejected option is recorded in domain-revenue.md's options-not-chosen table.
 
-**What it costs.** Keeping the border adjustment out of the dividend's base means about $0.16T less dividend over ten years (80% of REV-C2), roughly $48 a person a year or $120 for a household of 2.5. That is a distributional cost, not a fiscal one, and it lands on the quintile the D3 test is least sure about: the fourth quintile gets a smaller dividend and bears the border adjustment's pass-through with no rebate behind it. The incidence model carries both (the $1.08T dividend, and REV-C2 as a full pass-through cost).
+**What it costs.** Keeping the border adjustment out of the dividend's base means about $0.02T less dividend over ten years (80% of REV-C2 at its Oct 21 size), a few dollars an adult a year. That is a distributional cost, not a fiscal one, and it lands on the quintile the D3 test is least sure about: the fourth quintile gets a smaller dividend and bears the border adjustment's pass-through with no rebate behind it. The incidence model carries both (the $1.08T dividend, and REV-C2 as a full pass-through cost).
 
-**Governing doc.** D7 shows the two instruments separately: REV-C1 (~$1.35T) and REV-C2 (~$0.20T), with about 80% of REV-C1 rebated.
+**Governing doc.** D7 shows the instruments separately: REV-C1 (~$1.45T), REV-C2 (~$0.03T) and REV-C3, the methane charge (~$0.06T), with about 80% of REV-C1 rebated per adult.
 
 **Open:** REV-C2's $0.15-0.25T is scaled from a combined Thriving Economy figure for the border adjustment and methane fees, so methane fees are not additional money unless REV-C2 is re-sized. Sizing the two separately would firm up both REV-C2 and CLI-5.
 
@@ -67,7 +67,7 @@ REV-C1's original design included a border adjustment on imports, and the Thrivi
 
 HI receives REV-H1a (~$0.50T) plus its share of HLT-6 (~$0.70T, range $0.5-0.9T) — about $1.20T against a ten-year need of $0.8-0.9T over 2030-39.
 
-D4 keeps HI whole on a **75-year window**, the Trustees' standard and the basis of the 0.56%-of-payroll gap, because the HI shortfall grows after 2039. Against that window $1.2T over ten years is not too much. **Current arrangement:** the roughly $0.3T above the ten-year need is HI's reserve, not swept to the general fund and not counted in the $10.97T of claims or the $6.37T base. It also hedges finding 5: if Medicare Advantage capture lands low, HI's share falls toward $0.5T and the reserve absorbs it.
+D4 keeps HI whole on a **75-year window**, the Trustees' standard and the basis of the 0.56%-of-payroll gap, because the HI shortfall grows after 2039. Against that window $1.2T over ten years is not too much. **Current arrangement:** the roughly $0.3T above the ten-year need is HI's reserve, not swept to the general fund and not counted in the $11.06T of claims or the $5.97T base. It also hedges finding 5: if Medicare Advantage capture lands low, HI's share falls toward $0.5T and the reserve absorbs it.
 
 The $0.8-0.9T need is derived from the $85-100B annual shortfall, not from 0.56% of payroll directly. The two reconcile because HI's taxable payroll is uncapped and therefore much larger than OASDI's; applied to OASDI payroll the same percentage gives roughly $0.65T. domain-health.md carries that derivation.
 
@@ -105,7 +105,7 @@ The rule is that trust-fund and other dedicated-channel revenues and outlays are
 | Social Security | 2.83 | 0.25 | SS-1 row and the channel table (D8 baseline) |
 | Medicare HI | 1.20 | 0.85 | H1a row; HLT-6's Part A share; channel table (finding 3) |
 | Paid leave | 0.90 | 0.90 | P1 row and FAM-3's gross outlay |
-| Carbon fee | 1.35 | 1.35 | C1 row; CLI-2's $1.08T dividend plus the $0.27T transition share |
+| Carbon fee | 1.45 | 1.45 | C1 row; CLI-2's $1.16T dividend plus the $0.29T transition share |
 | Carbon border adjustment | 0.20 | 0.60 | C2 row; CLI-5's gross add-ons, residual to the general fund (finding 2) |
 | Surface transportation | 0.39 | 0.39 | MR1-MR6 receipts; MOV-29 and MOV-30 general-fund top-ups counted separately |
 | Public safety | 0.09 | 0.12 | PS1 row; SAF-10's gross outlay, residual (~$2.9B a year) to the general fund |
@@ -113,7 +113,7 @@ The rule is that trust-fund and other dedicated-channel revenues and outlays are
 | Immigration fees | 0.015 | 0.015 | IF1 row (IMM-2) |
 | Small-dollar matching | — | — | No channel: INT-5B pays the match from general revenue, inside DEM-1's general-fund row |
 
-Netting also made the agenda look smaller than it is. At gross the channels carry about $7.0T of revenue beyond the general fund's $10.97T of claims. None belongs in the general-fund gap, but all of it lands on identifiable households, and the payroll, carbon, fuel-tax and alcohol channels reach the middle directly. The incidence model takes each of them as a row.
+Netting also made the agenda look smaller than it is. At gross the channels carry about $7.0T of revenue beyond the general fund's $11.06T of claims. None belongs in the general-fund gap, but all of it lands on identifiable households, and the payroll, carbon, fuel-tax and alcohol channels reach the middle directly. The incidence model takes each of them as a row.
 
 **Still open:** methane fees are not sized apart from REV-C2 (finding 2).
 
@@ -129,7 +129,7 @@ Netting also made the agenda look smaller than it is. At gross the channels carr
 
 The midpoints and the range both reconcile.
 
-**What checks out.** The base total of $5.71 / 6.37 / 7.12T sums correctly across its rows including GX. General-fund claims of $10.97T reconcile to the by-vehicle table ($3.58 + $4.29 + $1.46 + $1.16 + $0.48 = $10.97T). The gap of $4.60T is right. The closing path is right: accepted revenue of $3.53T (Package B: C18 $0.62T, C35 $0.15T, C19b $0.66T, C20 $0.67T; C38 $0.89T; C39-C41 $0.54T) plus $1.15T of borrowing inside the D4-B envelope (C21, C30, C31, C32, C37 and C42), giving −$0.08T.
+**What checks out.** The base total of $5.28 / 5.97 / 6.79T sums correctly across its rows including GX and the carbon fees' offset CX. General-fund claims of $11.06T reconcile to the by-vehicle table ($3.58 + $4.29 + $1.46 + $1.16 + $0.57 = $11.06T). The gap of $5.09T is right. The closing path is right: accepted revenue of $3.53T (Package B: C18 $0.62T, C35 $0.15T, C19b $0.66T, C20 $0.67T; C38 $0.89T; C39-C41 $0.54T) plus $1.15T of borrowing inside the D4-B envelope (C21, C30, C31, C32, C37 and C42), leaving +$0.41T.
 
 **How the range is built.** The ledger shows each row's gross outlay and own (channel) revenue in their own columns, and its general-fund low and high columns are true bounds, so the range rebuilds from the table: claims of $7.68T to $15.42T and a gap of $0.56T to $9.71T, a stress bound that takes every row's high at once. The rows the audit found using low and high for gross figures now read:
 
@@ -147,7 +147,7 @@ The midpoints and the range both reconcile.
 
 ## Net effect on the gap
 
-| Adjustment | Effect on the −$0.08T after accepted options |
+| Adjustment | Effect on the gap after accepted options |
 | --- | --- |
 | Finding 1, H1b in the general fund only | 0 |
 | Finding 2, border adjustment as REV-C2 | 0 to the general fund; about −$0.16T of dividend |
@@ -171,4 +171,4 @@ The accepted path clears the good case and falls about $0.32T short of the bad o
 
 The channel architecture holds up. One fund per permanent benefit with a natural stream, the general fund for everything else, no new trust funds for pay-fors — applied consistently, and both genuine double-assignments came from edits that landed in one file and not its neighbours, not from the design. GX and OX show the project prices an overlap across channels.
 
-The household net test remains the binding constraint on the closing path. The incidence model is built on the post-carve-out figures (a $1.08T dividend, and the border adjustment's pass-through counted as a cost with no rebate behind it); on scenario Q every income group below the top comes out ahead, with the fourth quintile at about +$1,087 a year.
+The household net test remains the binding constraint on the closing path. The incidence model is built on the post-carve-out figures (a $1.16T dividend, and the border adjustment's pass-through counted as a cost with no rebate behind it); on scenario Q every income group below the top comes out ahead, with the fourth quintile at about +$1,156 a year.

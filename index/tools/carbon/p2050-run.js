@@ -7,11 +7,12 @@ const CEX = JSON.parse(fs.readFileSync(__dirname + '/cfd-cex-2024.json', 'utf8')
 const cfg = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const path = tbl => tbl ? (y => tbl[String(y)] != null ? tbl[String(y)] : 0) : null;
 const keep = ['year', 'price', 'power', 'transport', 'ldv', 'industry', 'buildings', 'energy', 'process', 'methane', 'n2o', 'hfc', 'ghgNet',
-  'below2005', 'ghgBelow2005', 'rev', 'gross', 'pool', 'perShare', 'credits', 'cleanShare', 'cesPrice', 'cesAcp', 'evShare', 'hp', 'pop', 'gasoline', 'retail', 'stored'];
+  'below2005', 'ghgBelow2005', 'rev', 'gross', 'pool', 'perShare', 'credits', 'methanePrice', 'cleanShare', 'cesPrice', 'cesAcp', 'evShare', 'hp', 'pop', 'gasoline', 'retail', 'stored'];
 const slim = rows => rows.map(r => Object.fromEntries(keep.map(k => [k, r[k]])));
 function polOf(c) {
   const p = Object.assign({}, c.policy);
   if (p.roadPath) p.roadPath = path(p.roadPath);
+  if (p.methaneFee && p.methaneFee.path) p.methaneFee = Object.assign({}, p.methaneFee, { path: path(p.methaneFee.path) });
   return p;
 }
 const out = { cases: {}, mc: {}, households: {} };

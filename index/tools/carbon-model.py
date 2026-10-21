@@ -45,7 +45,12 @@ base_pol = {"permitYear": P["permit_year"], "startPrice": 0, "step": 0, "ratchet
 d7_pol = dict(base_pol, childShare=0, roadExempt=True, roadPath=ROAD_REAL, othRoad=P["oth_road"], offset=0, admin=0, dividendShare=P["dividend_share"],
               cover={"process": False, "methane": False, "fgas": False, "border": False, "bunkers": False}, ratchet=False)
 ces = {"start": P["ces_start"], "target": P["ces_target"], "year": P["ces_year"]}
-full = dict(d7_pol, credits=True, ces=ces, standards=True, gridStatute=True, weatherize=True)
+def ch4_nominal(y):  # $ a ton of methane
+    if y < P["ch4_start"]: return 0.0
+    return P["ch4_rate_2030"] if y == 2030 else P["ch4_rate_2031"] if y == 2031 else P["ch4_rate_2032"]
+CH4_REAL = {y: ch4_nominal(y) / P["gwp100"] / defl(y) for y in YRS}   # $ a ton of CO2e, 2025 dollars
+MF = {"start": P["ch4_start"], "mult": 0, "path": CH4_REAL, "ogShare": P["ch4_og_share"], "coal": bool(P["ch4_coal"]), "landfill": bool(P["ch4_landfill"])}
+full = dict(d7_pol, credits=True, ces=ces, standards=True, gridStatute=True, weatherize=True, methaneFee=MF)
 CASES = [
     dict(id="cl", label="Current law (with the stipulated 2026-28 permitting deal)", policy=base_pol, price=None),
     dict(id="mov", label="+ Moving America's fuel-tax steps (no carbon fee)", policy=dict(base_pol, roadExempt=True, roadPath=ROAD_REAL), price=None),
@@ -53,11 +58,15 @@ CASES = [
     dict(id="d7cr", label="+ CLI-1 restored clean-energy credits", policy=dict(d7_pol, credits=True), price=D7_REAL),
     dict(id="d7ces", label="+ CLI-3 Clean Energy Standard (80% by 2035)", policy=dict(d7_pol, credits=True, ces=ces), price=D7_REAL),
     dict(id="d7st", label="+ CLI-4 vehicle and power standards", policy=dict(d7_pol, credits=True, ces=ces, standards=True), price=D7_REAL),
-    dict(id="full", label="+ CLI-5 Weatherization heat pumps and CLI-6 grid statute: **the decided package**", policy=full, price=D7_REAL, mc=True, households=2035, householdsBase="mov"),
+    dict(id="nomf", label="+ CLI-5 Weatherization heat pumps and CLI-6 grid statute", policy=dict(full, methaneFee=None), price=D7_REAL),
+    dict(id="full", label="+ REV-C3 methane fee (the IRA charge reinstated, $1,200 a ton of methane in 2030 to $1,500 from 2032, without its intensity exemptions): **the decided package**", policy=full, price=D7_REAL, mc=True, households=2035, householdsBase="mov"),
     dict(id="opt_grid", label="Option: + a funded federal grid build-out (CLI-10's public builder, as the model's grid program)", policy=dict(full, grid=True), price=D7_REAL),
     dict(id="opt_nuc", label="Option: + an advanced nuclear program (CLI-9's reactor fleet order, as the model's nuclear program)", policy=dict(full, nuclear=True), price=D7_REAL),
     dict(id="border", label="Package with the border adjustment switched on (sizes REV-C2)", policy=dict(full, cover=dict(d7_pol["cover"], border=True)), price=D7_REAL),
-    dict(id="methane", label="Package with the fee extended to methane, process CO2 and N2O (sizes the methane-fee line)", policy=dict(full, cover=dict(d7_pol["cover"], methane=True, process=True)), price=D7_REAL),
+    dict(id="ch4ira", label="Package with the methane fee on the IRA's own base (intensity thresholds and exemptions kept)", policy=dict(full, methaneFee=dict(MF, ogShare=P["ch4_og_share_ira"])), price=D7_REAL),
+    dict(id="ch4x3", label="Package with the methane fee at three times the carbon fee per ton CO2e (methane's 20-year warming potential), an option", policy=dict(full, methaneFee={"start": P["ch4_start"], "mult": 3, "floor": 0, "ogShare": P["ch4_og_share"], "coal": True, "landfill": False}), price=D7_REAL),
+    dict(id="ch4lf", label="Package with landfills added to the methane fee", policy=dict(full, methaneFee=dict(MF, landfill=True)), price=D7_REAL),
+    dict(id="proc", label="Package with the carbon fee extended to industrial process CO2 and N2O (an option)", policy=dict(full, cover=dict(d7_pol["cover"], process=True)), price=D7_REAL),
     dict(id="econ", label="Package with road fuels priced at the fee too (REV-C1D-style convergence from 2030)", policy=dict(full, roadExempt=False), price=D7_REAL),
     dict(id="noces", label="Package without the CES (to show what CLI-3 does on top of the rest)", policy=dict(full, ces=None), price=D7_REAL),
     dict(id="nofee", label="Package with the fee repealed from 2033 (the durability test: credits, CES and standards carry on)", policy=dict(full), price={y: (D7_REAL[y] if y < 2033 else 0.0) for y in YRS}),
@@ -75,23 +84,27 @@ def pctile(xs, q):
 E2005, NET2005 = 5999, 6536
 
 PK = "full"
-c1_w = nom_sum(PK, lambda r: r["gross"])
-c1_fee_alone = nom_sum("d7", lambda r: r["gross"])
-c1_rows = {y: C[PK][y]["gross"] * defl(y) for y in range(2030, 2051)}
+c1 = lambda r: r["gross"] - r["rev"]["methane"]
+c1_w = nom_sum(PK, c1)
+c1_fee_alone = nom_sum("d7", c1)
+c1_rows = {y: c1(C[PK][y]) * defl(y) for y in range(2030, 2051)}
+c3_w = nom_sum(PK, lambda r: r["rev"]["methane"])
+c3_ira = nom_sum("ch4ira", lambda r: r["rev"]["methane"]); c3_x3 = nom_sum("ch4x3", lambda r: r["rev"]["methane"]); c3_lf = nom_sum("ch4lf", lambda r: r["rev"]["methane"])
+proc_w = nom_sum("proc", lambda r: r["rev"]["process"])
 c2_w = nom_sum("border", lambda r: r["rev"]["border"])
-meth_w = nom_sum("methane", lambda r: r["rev"]["methane"] + r["rev"]["process"])
-econ_extra = nom_sum("econ", lambda r: r["gross"]) - c1_w
+econ_extra = nom_sum("econ", c1) - c1_w
 cred_w = nom_sum(PK, lambda r: r["credits"])
 acp_w = nom_sum(PK, lambda r: r["cesAcp"])
 mc = R["mc"]
 def band(case, y, f):
     xs = [f({r["year"]: r for r in run}[y]) for run in mc[case]]
     return pctile(xs, 0.1), pctile(xs, 0.9)
-c1_mc = [sum(r["gross"] * defl(r["year"]) for r in run if r["year"] in W) / 1000 for run in mc[PK]]
+c1_mc = [sum((r["gross"] - r["rev"]["methane"]) * defl(r["year"]) for r in run if r["year"] in W) / 1000 for run in mc[PK]]
+c3_mc = [sum(r["rev"]["methane"] * defl(r["year"]) for r in run if r["year"] in W) / 1000 for run in mc[PK]]
 
 out = dict(price_nominal={y: round(d7_nominal(y), 2) for y in YRS}, road_real={y: round(ROAD_REAL[y], 1) for y in YRS},
            c1_2030_39_tn=c1_w, c1_fee_alone_tn=c1_fee_alone, c1_band=[pctile(c1_mc, 0.1), pctile(c1_mc, 0.9)],
-           c1_by_year_bn={y: round(v, 1) for y, v in c1_rows.items()}, c2_2030_39_tn=c2_w, methane_fee_2030_39_tn=meth_w,
+           c1_by_year_bn={y: round(v, 1) for y, v in c1_rows.items()}, c1_mid_ledger_basis="model package midpoint; the ledger sets its own figure", c2_2030_39_tn=c2_w, c3_2030_39_tn=c3_w, c3_band=[pctile(c3_mc, 0.1), pctile(c3_mc, 0.9)], c3_by_year_bn={y: round(C[PK][y]["rev"]["methane"] * defl(y), 1) for y in range(2030, 2051)}, process_option_tn=proc_w,
            road_exemption_revenue_tn=econ_extra, credit_cost_tn=cred_w, ces_acp_tn=acp_w,
            emissions={k: {y: dict(energy=round(C[k][y]["energy"]), below2005=round(C[k][y]["below2005"], 4), ghg_below2005=round(C[k][y]["ghgBelow2005"], 4),
                               clean_share=round(C[k][y]["cleanShare"], 3)) for y in (2030, 2035, 2040, 2050)} for k in C},
@@ -146,13 +159,14 @@ w(f"**REV-C1 (the domestic fee), on the decided package.** About **${c1_w:.2f}T*
 w("| Year | Fee ($/t, nominal) | Receipts ($B, nominal) | Energy CO2 (Mt) | Clean electricity | Dividend per adult ($, nominal) | Couple |")
 w("| --- | --- | --- | --- | --- | --- | --- |")
 for y in (2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2045, 2050):
-    r = fl[y]; dv = P["dividend_share"] * r["gross"] * defl(y) * 1e9 / (r["pop"] * 0.77 * 1e6)
-    w(f"| {y} | {d7_nominal(y):.0f} | {r['gross']*defl(y):,.0f} | {r['energy']:,.0f} | {pct(r['cleanShare'])} | {dv:,.0f} | {2*dv:,.0f} |")
+    r = fl[y]; dv = P["dividend_share"] * c1(r) * defl(y) * 1e9 / (r["pop"] * 0.77 * 1e6)
+    w(f"| {y} | {d7_nominal(y):.0f} | {c1(r)*defl(y):,.0f} | {r['energy']:,.0f} | {pct(r['cleanShare'])} | {dv:,.0f} | {2*dv:,.0f} |")
 w("")
 rv = lambda k: nom_sum(PK, lambda r: r["rev"][k])
 w(f"By source, 2030-39: industry ${rv('industry'):.2f}T, buildings ${rv('buildings'):.2f}T, power ${rv('power'):.2f}T, non-road transport ${rv('transport'):.2f}T. Industry is the largest base because its abatement (efficiency, capture, electric heat) comes slowly; power is smaller because coal leaves quickly. Receipts keep rising after 2039 because the price (5% a year) rises faster than emissions fall. The per-adult dividend uses CBO's population path (the model's), with adults 77% of it.\n")
 w(f"**REV-C2 (the border adjustment).** With the border adjustment on at the same price, the model nets about **${c2_w:.3f}T** in 2030-39: charges on the embodied carbon of covered imports (284 Mt, with a 15% credit for carbon prices paid abroad) less rebates on exports (211 Mt), which nearly offset each other. The ledger carries ${REV['C2']['mid']:.2f}T (estimate, scaled from a combined border-and-methane figure). The model's border inputs are partly judgment (see `sources/climate-border-adjustment-model-notes.md`).\n")
-w(f"**Methane and process gases (the unsized methane-fee line).** Extending the same price to methane from oil, gas, coal mines and landfills, and to process CO2 and N2O, would raise about **${meth_w:.2f}T** in 2030-39 and cut net GHG further (row above).\n")
+w(f"**REV-C3 (the methane fee).** The IRA's methane charge (the Waste Emissions Charge, Clean Air Act sec. 136) was the first federal fee on a greenhouse gas: $900 a ton of methane in its first year, $1,200 in its second and $1,500 from its third, not indexed, on oil and gas facilities above 25,000 t CO2e, charged only on methane above an intensity threshold and waived where the sec. 111 methane rule is in effect. Congress repealed EPA's rule for it in March 2025 (P.L. 119-2) and the 2025 reconciliation law delayed the charge to 2034 (P.L. 119-21; CRS R48906, April 2026). REV-C3 reinstates it from {P['ch4_start']} at ${P['ch4_rate_2030']:,.0f} a ton of methane, rising to ${P['ch4_rate_2032']:,.0f} by 2032 (about ${P['ch4_rate_2032']/P['gwp100']:.0f} a ton of CO2e), and charges all methane at facilities above the 25,000-ton threshold (about {P['ch4_og_share']*100:.0f}% of the sector's methane, estimate), dropping the intensity thresholds and the conditional exemption. That raises about **${c3_w:.2f}T** in 2030-39 (10th-90th percentile ${pctile(c3_mc,0.1):.2f}-{pctile(c3_mc,0.9):.2f}T). On the IRA's own base (EPA counted 364 facilities, about 0.3% of U.S. emissions) it would raise only about ${c3_ira:.3f}T: as written the charge was an incentive at the margin, not a revenue source. The rate is fixed in dollars, so it falls below REV-C1 per ton of CO2e from {next((y for y in range(2030, 2051) if ch4_nominal(y) / P['gwp100'] < d7_nominal(y)), 'no year')} on; priced at three times the carbon fee (methane's 20-year warming potential) and with coal mines added it would raise ${c3_x3:.2f}T; adding landfills to the decided design, ${c3_lf:.2f}T. Net greenhouse gases: {pct(fl[2035]['ghgBelow2005'])} below 2005 in 2035 with the fee, against {pct(C['nomf'][2035]['ghgBelow2005'])} without it.\n")
+w(f"**Industrial process CO2 and N2O (an option).** Extending REV-C1's price to process emissions (cement, steel, ammonia, petrochemicals) would raise about ${proc_w:.2f}T more in 2030-39.\n")
 w(f"**Credits in the model.** The package's credit outlays come to about ${cred_w:.2f}T in 2030-39 in the model's accounting, against the ledger's ${BILL['CLI-1']['cost_mid']:.2f}T for CLI-1A (range ${BILL['CLI-1']['cost_lo']:.2f}-{BILL['CLI-1']['cost_hi']:.2f}T) and CLI-5's transmission ITC and 45X lines (about $0.22T). The model's set includes bonus adders and the hydrogen credit and prices take-up off the larger clean build under the fee and the CES, so it is a cross-check on the high end, not a score.\n")
 
 hh = R["households"].get(PK)
@@ -165,12 +179,14 @@ if hh:
         w(f"| {g['name']} | {g['people']-g['kids']:.1f} | {g['dividend']/max(g['people']-g['kids'],1e-9):,.0f} | {g['dividend']:+,.0f} | {-g['heat']:,.0f} | {-g['elec']:,.0f} | {-g['other']:,.0f} | {g['net']:+,.0f} |")
     w("")
 
-w("## Findings for the ledger (proposals, not applied)\n")
-w(f"- REV-C1 on the decided package: ${c1_w:.2f}T in 2030-39 against the ledger's ${REV['C1']['mid']:.2f}T; given the model's slow first-decade response, a ledger midpoint between the two with the range widened downward is the cautious reading.")
-w(f"- REV-C2 nets about ${c2_w:.2f}T once export rebates are counted, against ${REV['C2']['mid']:.2f}T; CLI-5's financing leans on it.")
-w(f"- A methane and process-gas fee at the same price would raise about ${meth_w:.2f}T.")
-w(f"- The general fund carries no income- and payroll-tax offset for REV-C1. Scorekeepers reduce an excise's net receipts by about 25% because it lowers taxable incomes; the ledger books that offset for Moving America (MR6) but not for the carbon fee, so about ${0.25*c1_w:.2f}T of general-fund revenue loss is uncounted.")
-if capyrs: w(f"- CLI-3's 80%-by-2035 target is not met in the model ({pct(fl[P['ces_year']]['cleanShare'])} in {P['ces_year']}); its alternative compliance payments, about ${acp_w:.2f}T in 2030-39, are an unsized channel today.")
-w("- The incidence model spreads REV-C1 over the window with an assumed profile (`incidence-phase-in.csv`, C1); the model's year-by-year receipts could replace it.\n")
+w("## Against the ledger\n")
+w("| Row | This model, 2030-39 ($T) | Ledger, mid (range) | Note |")
+w("| --- | --- | --- | --- |")
+lg = lambda i: f"{REV[i]['mid']:.2f} ({REV[i]['lo']:.2f}-{REV[i]['hi']:.2f})" if i in REV else "not in the ledger"
+w(f"| REV-C1 (C1) | {c1_w:.2f} ({pctile(c1_mc,0.1):.2f}-{pctile(c1_mc,0.9):.2f}) | {lg('C1')} | the ledger sits below the model because the model responds slowly in the first decade |")
+w(f"| REV-C2 (C2) | {c2_w:.3f} | {lg('C2')} | export rebates nearly cancel the import charge |")
+w(f"| REV-C3 (C3) | {c3_w:.3f} ({pctile(c3_mc,0.1):.3f}-{pctile(c3_mc,0.9):.3f}) | {lg('C3')} | credited to CLI-5 |")
+w(f"| Excise offset (CX) | {-0.25*(c1_w+c2_w+c3_w):.2f} | {lg('CX')} | 25% of the carbon, border and methane fees (the scorekeepers' convention, as MR6 for Moving America) |")
+if capyrs: w(f"\nCLI-3's 80%-by-2035 target is not met in the model ({pct(fl[P['ces_year']]['cleanShare'])} in {P['ces_year']}); its alternative compliance payments, about ${acp_w:.2f}T in 2030-39, are an unsized channel. The incidence model spreads REV-C1 over the window with its own profile (`incidence-phase-in.csv`, C1); the model's year-by-year receipts could replace it.\n")
 open("climate-carbon-model.md", "w").write("\n".join(L_))
-print(f"carbon: package REV-C1 2030-39 ${c1_w:.2f}T (fee alone {c1_fee_alone:.2f}; ledger {REV['C1']['mid']}); energy CO2 below 2005 2035 {pct(fl[2035]['below2005'])}, 2050 {pct(fl[2050]['below2005'])}; clean 2035 {pct(fl[2035]['cleanShare'])}; C2 ${c2_w:.3f}T; methane ${meth_w:.2f}T")
+print(f"carbon: package REV-C1 2030-39 ${c1_w:.2f}T (fee alone {c1_fee_alone:.2f}; ledger {REV['C1']['mid']}); energy CO2 below 2005 2035 {pct(fl[2035]['below2005'])}, 2050 {pct(fl[2050]['below2005'])}; clean 2035 {pct(fl[2035]['cleanShare'])}; C2 ${c2_w:.3f}T; C3 ${c3_w:.2f}T")

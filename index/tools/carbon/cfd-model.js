@@ -290,12 +290,18 @@ const CFD = (() => {
       const retailNext = (avgCost - avg0) / 10;                                         // cents/kWh
 
       // --- non-CO2 and other covered sources ---
-      const mAb = pol.cover.methane ? P : 0;
-      const ogAb = w.ch4Scale * (0.27 * (1 - Math.exp(-mAb / 10)) + 0.045 * Math.min(1, mAb / 15) + 0.135 * Math.min(1, mAb / 100));
+      // methane price ($/t CO2e). Project 2050 (REV-C3): a separate methane fee, mf = { start, mult, floor, ogShare, coal, landfill }: the carbon fee times mult (3 = pricing methane
+      //   on its 20-year warming potential), never below the restored IRA charge (floor, $/t CO2e), on oil and gas facilities above the size threshold (ogShare of the
+      //   sector's methane), coal mines and, optionally, landfills. Without mf, cover.methane prices all three sources at the carbon fee, as the original model did.
+      const mf = pol.methaneFee, Pm = mf && y >= mf.start ? (mf.path ? mf.path(y) : Math.max(P * mf.mult, mf.floor || 0)) : 0; // mf.path(y): a set schedule ($/t CO2e, real) instead of a multiple of the carbon fee
+      const pOG = mf ? Pm : (pol.cover.methane ? P : 0), pCoal = mf ? (mf.coal ? Pm : 0) : pOG, pLF = mf ? (mf.landfill ? Pm : 0) : pOG, cov = mf ? mf.ogShare : 1;
+      const mAb = pOG;
+      const abOG = x => w.ch4Scale * (0.27 * (1 - Math.exp(-x / 10)) + 0.045 * Math.min(1, x / 15) + 0.135 * Math.min(1, x / 100));
+      const ogAb = abOG(mAb);
       const coalIdx = (d.gen.coal || 0) / 753;
-      const ch4OG = (INV.ch4Gas + INV.ch4Oil) * (1 - Math.min(0.6, ogAb));
-      const ch4Coal = INV.ch4Coal * (0.15 + 0.85 * coalIdx) * (1 - w.ch4Scale * (0.06 * (mAb > 0 ? 1 : 0) + 0.38 * Math.min(1, mAb / 60)));
-      const ch4LF = INV.ch4Landfill * (1 - w.ch4Scale * 0.11 * Math.min(1, mAb / 50));
+      const ch4OGc = (INV.ch4Gas + INV.ch4Oil) * cov * (1 - Math.min(0.6, ogAb)), ch4OG = ch4OGc + (INV.ch4Gas + INV.ch4Oil) * (1 - cov);
+      const ch4Coal = INV.ch4Coal * (0.15 + 0.85 * coalIdx) * (1 - w.ch4Scale * (0.06 * (pCoal > 0 ? 1 : 0) + 0.38 * Math.min(1, pCoal / 60)));
+      const ch4LF = INV.ch4Landfill * (1 - w.ch4Scale * 0.11 * Math.min(1, pLF / 50));
       const n2o = INV.n2oInd * (1 - (pol.cover.process ? 0.55 * Math.min(1, P / 20) + 0.17 * Math.min(1, P / 100) : 0));
       const hfcCons = HFC_BASE * hfcCap(y), hfcEmis = INV.hfc * (0.35 + 0.65 * (0.5 * hfcCap(y) + 0.5 * hfcCap(y - 8)) / 0.6);
       const methane = ch4OG + ch4Coal + ch4LF;
@@ -306,13 +312,13 @@ const CFD = (() => {
       const ghgNet = energy + coveredOther + (NET2025 - (E25.power + E25.transport + E25.industry + E25.buildings) - rows0Other(w));
       const imp = w.impEmb * Math.pow(1 + 0.06 * P / 100, -0.5);
       const rev = { power: P * power, transport: pol.roadExempt ? P * (av + oth * (1 - pol.othRoad)) : P * transport, industry: P * industry, buildings: P * buildings,
-        process: pol.cover.process ? P * (process + n2o) : 0, methane: pol.cover.methane ? P * methane : 0,
+        process: pol.cover.process ? P * (process + n2o) : 0, methane: mf ? pOG * ch4OGc + pCoal * ch4Coal + pLF * ch4LF : (pol.cover.methane ? P * methane : 0),
         fgas: pol.cover.fgas ? P * pol.fgasRate * hfcCons : 0,
         border: pol.cover.border ? P * (imp * (1 - w.originCredit) - w.expEmb * (industry + process) / (E25.industry + rows0Proc())) : 0, // export rebates shrink as U.S. industry cleans up
         bunkers: pol.cover.bunkers ? P * INV.bunkers : 0 };
       for (const k in rev) rev[k] /= 1000; // $bn
       const gross = Object.values(rev).reduce((a, b) => a + b, 0);
-      const net = gross * (1 - pol.offset), poolD = net * pol.dividendShare * (1 - pol.admin);
+      const net = gross * (1 - pol.offset), poolD = (gross - (mf ? rev.methane : 0)) * (1 - pol.offset) * pol.dividendShare * (1 - pol.admin); // a separate methane fee (REV-C3) does not feed the dividend
       const pp = pop(y), cs = pol.childShare, perShare = poolD * 1000 / (pp * (1 - (1 - cs) * 0.23)); // under-19s are about 23% of the population
       if (y === 2029) e2029 = energy;
       const t35 = E2005 * (1 - pol.target2035), t50 = E2005 * (1 - pol.target2050);
@@ -322,7 +328,7 @@ const CFD = (() => {
       rows.push({ year: y, price: P, power, transport, ldv, industry, buildings, energy, process, methane, n2o, hfc: hfcEmis, covered: energy + coveredOther, ghgNet, target,
         below2005: 1 - energy / E2005, ghgBelow2005: 1 - ghgNet / NET2005, rev, gross, net, pool: poolD, transition: net * (1 - pol.dividendShare), perShare, childShare: cs, family4: perShare * (2 + 2 * cs),
         gen: Object.assign({ nuclear: d.nucE, hydro: w.hydroOther + (S.hyd || 0), wind: d.windE * (1 - d.curt), solar: d.solE * (1 - d.curt) }, d.gen), G, cap: Object.assign({}, S), coalCF: d.coalCF,
-        credits: credCost + credPower, cleanShare, cesPrice: S.cesL || 0, cesTarget: cesTgt, cesAcp: cesAcpBn, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
+        credits: credCost + credPower, cleanShare, methanePrice: Pm, cesPrice: S.cesL || 0, cesTarget: cesTgt, cesAcp: cesAcpBn, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
         gasoline: 0.0085 * PR, feeGasoline: pol.roadExempt ? 0 : 0.0085 * P, natgas: 0.0551 * P, elecDelta: dRes, deciles: FOOT.map(f => divPc - costPc * f / fMean), pop: pp, unserved: d.unserved, missed: missedPrev });
 
       // --- investment for next year (uses the expected fee) ---

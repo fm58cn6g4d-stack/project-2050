@@ -85,7 +85,7 @@ These are not duplicates, but taking both counts part of the money twice unless 
 | REV-TS12 and G3, G9, C18, SALT | The itemized cap stacks on top-rate options; the 2025 law already caps value at 35% | Accepted as C39 on an estimate; needs a joint score |
 | C18 and REV-SC1; C18 and Talarico capital-gains parity (not added) | Top brackets and gains rates | Joint score |
 | **Payroll raisers** (REV-P1 leave 0.6% to 0.85%; REV-ED1 1.28-1.4 pts; W1 1%; SS-7 1 pt; SS-1 above $250K; SS-2 investment income; REV-H1a 3.8% on pass-through) | All draw on wages or the same high-income base | **Deferred to a revenue strategy session (Espen, Oct 20)**: decide how much of the wage base the agenda uses, in what order; EDU-9B's structure to be weighed "instead of or harmonized with" the others |
-| CLI-11 worker guarantees (~$0.08T) and CLI-2's transition share (~$0.27T) | Same coal and energy-community workers | Draw CLI-11's worker piece from the transition share first |
+| CLI-11 worker guarantees (~$0.08T) and CLI-2's transition share (~$0.29T) | Same coal and energy-community workers | Draw CLI-11's worker piece from the transition share first |
 | CLI-13 agriculture (~$0.08T) and CLI-5's ag R&D line | Same programs | Net against CLI-5 |
 | CLI-1 and CLI-5 (45X and the transmission ITC) | Up to ~$0.2T (open, in the ledger note) | Score together |
 | CLI-6C (clean load standard) and CLI-5D (data-center fee) and CLI-6E (disclosure) | One data-center question | CLI-6C is the home; CLI-5D the alternative; CLI-6E can stack |
@@ -115,15 +115,17 @@ The full list is in each file's open items; the per-domain tables below mark eac
 
 | ID | What | Cost / revenue | Status | Note |
 | --- | --- | --- | --- | --- |
-| REV-G1, G3, G5-G11, H1b, GX | The top-end base | $6.37T mid | Chosen | G4 replaced by G11 |
+| REV-G1, G3, G5-G11, H1b, GX | The top-end base | $5.97T mid (net of CX) | Chosen | G4 replaced by G11 |
 | REV-H1a | 3.8% on active pass-through income, to HI | $0.5T (HI) | Chosen | Channel |
-| REV-C1A | Carbon fee, $25 rising to ~$100 by 2037, road fuels exempt | $1.35T channel | **Decided Oct 20** | G-CARBON |
+| REV-C1A | Carbon fee, $25 rising to ~$100 by 2037, road fuels exempt | $1.45T channel | **Decided Oct 20** (sized Oct 21) | G-CARBON |
 | REV-C1B | Old path, $50 rising 5% | $1.25T channel | Option | G-CARBON |
 | REV-C1C | Emissions-indexed escalator | 0 if targets met | Option (study) | Stacks on C1A |
 | REV-C1D | Road-fuel convergence (~2040) | ~0 in window | **Open, not adopted** | Would depart from D7 |
 | REV-C1E | Gasoline phase-in from 2032 | +$0.27T gross | Not recommended | Conflicts with D7 |
 | REV-C1F | Talarico path, $70 to $190 | ~2x receipts | Option | G-CARBON |
-| REV-C2 | Border adjustment and methane fees | $0.20T channel | Chosen | Finances CLI-5 |
+| REV-C2 | Border adjustment | $0.03T channel | Chosen | Finances CLI-5 |
+| REV-C3 | Methane fee: the IRA charge reinstated from 2030 ($1,200 to $1,500 a ton of methane), without its intensity exemptions | $0.06T channel | **Decided Oct 21** | Finances CLI-5; options: 3x REV-C1 with coal mines (~$0.22T), landfills |
+| CX | Income and payroll tax offset on the carbon fees (25%) | −$0.39T general fund | **Booked Oct 21** | Scoring convention, as MR6 |
 | REV-C2B | Clean product standard | 0 (regulatory) | Option | ◐ |
 | REV-P1 | Paid-leave contribution 0.6% to 0.85% | $0.9T channel | Chosen (FAM-3A) | Payroll group |
 | REV-E1 / C35 | Estate tax at 2009 parameters, frozen | **+$0.15T** (beyond G9) | **Accepted (planning basis)** | Increment beyond G9 |

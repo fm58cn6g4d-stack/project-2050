@@ -69,6 +69,7 @@ base revenue,G8,,rev_individual,,3,rev_individual,,,,,Enforcement yield builds a
 base revenue,G9,,rev_individual,,1,rev_individual,,,,,
 base revenue,G10,,rev_other,,1,gdp,,,,,
 base revenue,GX,,rev_individual,,1,rev_individual,,,,,
+base revenue,CX,,rev_individual,,1,gdp,,,,,"Excise offset on the carbon, border and methane fees; shape follows their receipts (fiscal-years.csv)"
 option,C18,revenue,rev_individual,,1,rev_individual,,,,,
 option,C35,revenue,rev_other,,1,gdp,,,,,"Estate tax increment; exemption frozen in nominal terms, so it grows faster than GDP in practice (held at GDP)"
 option,C19b,revenue,rev_individual,2031,2,out_medicare_net,,,,,Exclusion cap revenue tracks premium growth (proxied by Medicare per-GDP growth)

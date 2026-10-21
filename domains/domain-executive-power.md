@@ -142,7 +142,7 @@ This domain costs essentially nothing and is worth a great deal. The ledger carr
 | EXE-14B | Approval triggers plus sunset of existing sec. 232/301 actions | A claim of ~$1.5-1.9T | estimate |
 | EXE-14C | Procedural requirements only (findings, comment, reporting) | ~0; weakest constraint | estimate |
 
-**Why A.** B is the better separation-of-powers policy and an unfunded $1.5-1.9T hole. The plan's general-fund claims run $4.60T above its base, and accepted revenue and envelope borrowing close that only to about −$0.08T over ten years, so B would leave the plan $1.5-1.9T short again. If B is wanted, it needs a pay-for named at the same time.
+**Why A.** B is the better separation-of-powers policy and an unfunded $1.5-1.9T hole. The plan's general-fund claims run $5.09T above its base, and accepted revenue and envelope borrowing leave about +$0.41T over ten years, so B would leave the plan $1.5-1.9T short again. If B is wanted, it needs a pay-for named at the same time.
 
 ## EXE-15. Succession and continuity
 

@@ -97,8 +97,10 @@ DYNAMIC = [(r["id"], r["effect"], r["rows"], num(r["lo"]), num(r["mid"]), num(r[
 #  all = every outlay is general-fund; residual = the channel pays first, the general fund backstops (floored at zero); none = inside a channel
 GF_RULE = {"FAM-3":"none","CLI-5":"residual","SAF-10":"residual","DEM-1":"all","COM-1":"residual",
            "MOV-29":"all","MOV-30":"all","SS-1":"none","CLI-2":"none"}
-OWN_RANGE = {"FAM-3":(0.85,0.9,1.28),"CLI-5":(0.39,0.47,0.55),"SAF-10":(0.08,0.09,0.10),"SS-1":(2.8,3.0,3.3),
-             "CLI-2":(1.20,1.35,1.50),"MOV-29":(round(MA["act29_net"] / 1000, 3),) * 3,"MOV-30":(round(MA["act30_net"] / 1000, 3),) * 3,"COM-1":(0.004,0.004,0.004)}
+_rv = {r[0]: r[3:6] for r in REV}
+_c5 = tuple(round(0.2 * c1 + c2 + c3, 3) for c1, c2, c3 in zip(_rv["C1"], _rv["C2"], _rv["C3"]))  # CLI-5: REV-C1's 20%, REV-C2 and REV-C3
+OWN_RANGE = {"FAM-3":(0.85,0.9,1.28),"CLI-5":_c5,"SAF-10":(0.08,0.09,0.10),"SS-1":(2.8,3.0,3.3),
+             "CLI-2":tuple(_rv["C1"]),"MOV-29":(round(MA["act29_net"] / 1000, 3),) * 3,"MOV-30":(round(MA["act30_net"] / 1000, 3),) * 3,"COM-1":(0.004,0.004,0.004)}
 ALT_OF = {"C29":"C37","C19":"C19b"}  # alternatives to an accepted cut; listed, never summed
 ALT_CUTS = set(ALT_OF)
 DECLINED = {"C5","C17","C33","C34","C36"}  # declined in Decision Brief 2 (Oct 20); kept as the record, never summed
@@ -122,7 +124,7 @@ def channels(bills):
     st = rv["Surface transportation trust fund"]
     add("Surface transportation trust fund", st, st, "Receipts net of the 25% offset; spent within receipts; general-fund top-ups counted in MOV-29 and MOV-30")
     add("Carbon fee (REV-C1)", rv["Carbon fee"], rv["Carbon fee"], f"80% dividend (CLI-2, ~${0.8 * rv['Carbon fee'][1]:.2f}T) plus 20% transition share to CLI-5 (~${0.2 * rv['Carbon fee'][1]:.2f}T)")
-    add("Carbon border adjustment (REV-C2)", rv["Carbon border adjustment"], o("CLI-5"), "Outlay is CLI-5's gross add-ons, financed by REV-C2 plus REV-C1's transition share; residual to the general fund")
+    add("Carbon border adjustment and methane fee (REV-C2, REV-C3)", rv["Carbon border adjustment"], o("CLI-5"), "Outlay is CLI-5's gross add-ons, financed by REV-C2, REV-C3 and REV-C1's transition share; residual to the general fund")
     add("Public safety", rv["Public safety"], o("SAF-10"), "Durable sources only (alcohol, fraud assessment, firearms, fees); residual (~$2.9B a year) to the general fund")
     add("Merger review", rv["Merger review"], (0.004,0.004,0.004), "HSR fee increase funds an equal enforcement increase (COM-2)")
     add("Immigration fees", rv["Immigration fees"], rv["Immigration fees"], "Statutory H-1B fee spent on adjudication and training (IMM-2)")
