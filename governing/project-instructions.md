@@ -52,5 +52,10 @@ Commit with a short plain message describing what changed and why. Don't rewrite
 - Open a focused pull request for review when asked to prepare changes. Do not merge merely because a proposal was requested; Espen chooses the decisions and integration step.
 - In chat-only tools that do not read repository instruction files automatically, supply this file, the governing document and task-relevant files explicitly. The root entry points are pointers, not a guarantee that every product loads them.
 
+## Model and tool guidance
+- Proactively recommend a different model, thinking level or execution tool when the task's complexity, uncertainty, need for independent review, or repository work makes a switch worthwhile. Explain the expected benefit briefly and account for time, cost and usage limits; avoid unnecessary switching. Do not claim a switch happened unless it actually did.
+- Keep Claude Chat/Cowork, Claude Code, ChatGPT/Codex and Gemini in view as possible collaborators. Preserve continuity through shared sources and task handoffs rather than assigning permanent roles by brand. Verify current capabilities and access before making specific product recommendations.
+- Availability note, recorded Oct 21, 2026: Espen has no Claude compute until Monday, Oct 26 unless they choose to buy credits. Plan work without requiring Claude before then. Espen expects to move some work back to Claude after that date; confirm actual availability when relevant rather than assuming a reset occurred.
+
 ## Open queue
 The governing document's Next steps and Open calls for Espen, the relevant domain's open items, and `index/tools/roadmap.md` hold the working queue. Prioritize a bounded task with Espen; do not treat a recommendation as an adopted decision.
