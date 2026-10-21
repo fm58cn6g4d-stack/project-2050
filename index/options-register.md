@@ -131,7 +131,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | REV-E1 / C35 | Estate tax at 2009 parameters, frozen | **+$0.15T** (beyond G9) | **Accepted (planning basis)** | Increment beyond G9 |
 | REV-E2 | Public investment corporation (= AI-6D) | Subsidy cost in CLI's ~$0.10T line | Option | |
 | REV-ED1 / ED1 | Education contribution, 1.28-1.4 pts uncapped | ~$2.1T to a fund | Held | Revenue strategy session |
-| REV-SC1 | 45% bracket above $5M | +$0.18T | Held in reserve (first fallback if TS12 scores low) | Overlaps G3, G9 |
+| REV-SC1 / C43 | 45% bracket above $5M (ledger option C43) | +$0.18T | **Accepted Oct 21** (closes the 2040 shortfall) | Overlaps G3, G9 |
 | REV-SC2 | Pass-through and deferred-comp reform | +$0.35T | Option | Overlaps H1a, SS-5 |
 | REV-SC3 | Crop insurance reform (fossil piece moved to TS3) | +$0.05T | Option | |
 | REV-TS1 | 162(m) $1M pay-deduction limit for all employees of C corporations | +$0.34T | In C38 (accepted) | Joint score with G1 |

@@ -94,10 +94,10 @@ def gf_test(opts):
             total += amt; d = dist(parts); top1 += d["T1"]
     return round(total, 2), round(top1, 2), round(corpstat, 2), round(100 * (top1 + corpstat) / total)
 
-QO = ["C18", "C35", "C19b", "C20", "C38", "C39", "C40", "C41"]   # the decided package (Decision Briefs 1 and 2)
-QEDU = ["C18", "C35", "C38", "C39", "C40", "C41", "EDUP", "EDUB"]   # EDU-9B (held) in place of C19b and C20
+QO = ["C18", "C35", "C19b", "C20", "C38", "C39", "C40", "C41", "C43"]   # the decided package (Decision Briefs 1 and 2)
+QEDU = ["C18", "C35", "C38", "C39", "C40", "C41", "C43", "EDUP", "EDUB"]   # EDU-9B (held) in place of C19b and C20
 SCEN = {
-    "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, and C39-C41": (QO, ()),
+    "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43": (QO, ()),
     "A. Base package only (gap unfunded)": ([], ()),
     "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)": ([o if o != "C19b" else "C19" for o in QO], ()),
     "Q-H5p. Q with no hospital-price pass-through to wages": (QO, ("H5p",)),

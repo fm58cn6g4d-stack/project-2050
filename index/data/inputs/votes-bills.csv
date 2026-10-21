@@ -22,7 +22,7 @@ LAB-9,R2,0.005,0.08,0.08,0,0,0,0.15,no,estimate,National service money (LAB-9A f
 AI-9,R2,0.005,0.06,0.06,0,0,0,0.1,no,estimate,Local journalism credit
 NSC-10,R2,0.005,0.02,0.02,0,0,0,0.05,no,war game: vets,Veterans health
 REV-R2A,R2,0.01,0.2,0.05,0,0,0,0.3,no,war game: tax,"R2 revenue on wealth: mark-to-market, gains at death, estate tax (G11, G6, C35)"
-REV-R2B,R2,0.02,0.25,0.05,0,0,0,0.3,no,war game: rev,"R2 revenue on rates and corporations (G3, G5, G10, C18, C20, C38-C41)"
+REV-R2B,R2,0.02,0.25,0.05,0,0,0,0.3,no,war game: rev,"R2 revenue on rates and corporations (G3, G5, G10, C18, C20, C38-C41, C43)"
 REV-C19B,R2,0.01,0.15,0.15,0,0,0,0.35,no,estimate,"Employer health-exclusion cap at the 75th percentile (C19b, from 2031)"
 CLI-5,R3,0.01,0.08,0.1,0,0,0,0.2,no,estimate,Thriving Economy add-ons
 AI-4,R3,0.005,0.08,0.06,0,0,0,0.15,no,estimate,AI wage insurance

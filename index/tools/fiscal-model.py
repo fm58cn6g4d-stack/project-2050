@@ -25,7 +25,7 @@ W0, W1 = 2030, 2039          # ledger window
 CPI = {y: 2.26 if y <= 2036 else 2.3 for y in range(2026, 2057)}   # CBO Feb 2026 CPI-U path (rounded)
 
 PBS = ["C18", "C35", "C19b", "C20", "C38"]
-DEC = PBS + ["C39", "C40", "C41"]              # decided in Decision Brief 2 (Oct 20): TS12, HP1, HP3; no trims
+DEC = PBS + ["C39", "C40", "C41", "C43"]       # decided in Decision Brief 2 (Oct 20): TS12, HP1, HP3; no trims; REV-SC1 (C43) adopted Oct 21
 TRIMS = ["C5", "C17", "C33", "C34", "C36"]    # declined in Decision Brief 2; kept for reference
 SCENARIOS = [
     # id, label, cut options included, extra settings
@@ -33,7 +33,7 @@ SCENARIOS = [
     ("GROSS", "Program spending with the top-end base only (no new options)", [], {}),
     ("PB", "Package B (C18, C35, C19b, C20)", ["C18", "C35", "C19b", "C20"], {}),
     ("PB+S", "Package B + sprint package (C38)", PBS, {}),
-    ("DEC", "Decided (Decision Brief 2): Package B + sprint + TS12, HP1, HP3 (C39-C41); no trims", DEC, {}),
+    ("DEC", "Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims", DEC, {}),
     ("DEC+ENV", "Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S", DEC, {"envelope": 0.5, "net_of_borrow": True}),
     ("DEC-DYN", "Decided, with CBO-style dynamic feedback (about -$0.56T)", DEC, {"dynamic": "mid"}),
     ("DEC-R1", "Decided, with interest rates 1 point higher on all debt from 2030", DEC, {"rate_shift": 1.0}),

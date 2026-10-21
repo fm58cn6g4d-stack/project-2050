@@ -91,3 +91,4 @@ option,C42,borrow,,,,,,,,,
 option,C39,revenue,rev_individual,,1,rev_individual,,,,,"REV-TS12, 28% itemized cap above $450K; grows with top incomes"
 option,C40,revenue,rev_corporate,,1,rev_corporate,,,,,REV-HP1 pay-ratio surtax
 option,C41,revenue,rev_other,,1,rev_corporate,,,,,REV-HP3 excise on top-officer pay
+option,C43,revenue,rev_individual,,1,rev_individual,,,,,"REV-SC1, 45% bracket above $5M; grows with top incomes"

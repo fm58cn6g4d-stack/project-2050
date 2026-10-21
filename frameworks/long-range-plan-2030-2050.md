@@ -6,7 +6,7 @@ Reasoning and a work plan, not decided policy (frameworks/). Drafted Oct 21, 202
 
 The first-trifecta package (2029-30) is close to fully specified: every bill is priced, scheduled and voted in simulation, and the D3 and D4 tests run on every rebuild. What the project does not yet have is a picture of 2031-2050: what the second phase must do, what keeps the first phase from being repealed, and whether the country the program builds is on course by 2050. The current state is the starting point for the plan below:
 
-- **The fiscal position.** The ten-year gap after accepted options is about +$0.44T, and the general fund is about 0.04% of GDP short of D4-B's 2040 test. A structural fiscal gap of about 1.5% of GDP remains as a reported sustainability track (index/fiscal-long-term-model.md).
+- **The fiscal position.** The ten-year gap after accepted options is about +$0.26T, and the general fund passes D4-B's 2040 test by about 0.01% of GDP (REV-SC1 adopted Oct 21), a thin margin. A structural fiscal gap of about 1.5% of GDP remains as a reported sustainability track (index/fiscal-long-term-model.md).
 - **Emissions.** The decided climate package reaches about 41% below 2005 in 2035 and 62% in 2050, against net zero (index/climate-carbon-model.md).
 - **Social Security.** It is about 64% solvent on the 75-year test (84% with SS-5), with depletion around 2062 (index/dedicated-funds.md).
 - **The calendar.** Floor time is 9 days over budget under graduated cloture.
@@ -38,7 +38,7 @@ The first-trifecta package (2029-30) is close to fully specified: every bill is 
 Each lists the questions, the deliverable, the tool work and the decisions it will bring to Espen.
 
 ### 1. Fiscal: the 2040 shortfall, the sustainability layer, debt strategy
-- **Now:** close the ~$19B 2040 shortfall. The options are REV-SC1 (recommended), CLI-2B (a taxable dividend) or a declined trim.
+- **Done (Oct 21):** REV-SC1 adopted (C43) to close the 2040 shortfall; the margin is thin (about 0.01% of GDP), so the uncertainty run (task 7) should report the odds it holds.
 - **The sustainability layer** (the ~1.5% of GDP fiscal gap): a menu of health cost growth, revenue that grows with the economy, SS-5 and automatic adjusters, scored to 2075.
 - **Debt strategy:**
   - the interest-rate risk (each point adds ~36 points of debt by 2056 in the model);
@@ -73,7 +73,7 @@ Each lists the questions, the deliverable, the tool work and the decisions it wi
 - **Federalism:** where states lead (climate, labor), and floor-not-ceiling preemption.
 
 ### 5. Democracy
-- Durability of DEM-1 through the 2031 and 2034 redistricting; the 2033 queue (DEM-3, DEM-4, DEM-9); election administration funding; disinformation and AI-generated media; campaign finance after the courts.
+- Durability of DEM-1 through the 2031 and 2034 redistricting; the 2033 bills (DEM-3, DEM-4, DEM-9); election administration funding; disinformation and AI-generated media; campaign finance after the courts.
 - **Tool:** extend the vote simulator to 2033-2040, with the Nov 3 re-baseline (open queue 3) and House scenarios.
 
 ### 6. Civil and human rights
@@ -117,8 +117,8 @@ Each lists the questions, the deliverable, the tool work and the decisions it wi
 
 | Next | What | Brings to Espen |
 | --- | --- | --- |
-| 1 | Close the 2040 shortfall (workstream 1) | One decision: REV-SC1, CLI-2B or a trim |
-| 2 | Tasks 7 and 8 | The odds the D3 and D4 tests pass, not one midpoint |
+| 1 | Tasks 7 and 8 first; the 2040 shortfall is closed (REV-SC1, Oct 21) | The odds the thin 2040 margin holds |
+| 2 | Domain checks on REV-SC1 (a joint score with G3 and G9) | Whether it holds at its midpoint |
 | 3 | Nov 3 re-baseline (D1) | Updated seat scenarios and vote odds |
 | 4 | Revenue strategy session (workstream 2) | A 2040-2050 revenue map |
 | 5 | 2050 scenario engine and benchmarks | Adoption of the benchmark table |

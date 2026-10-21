@@ -49,6 +49,7 @@ option,C20,1-point surtax above $100K/$200K,cost,[C20],surtax,,ledger option
 option,C38,"Top-end sprint package REV-TS1 to TS11, net of a 10% haircut (corporate items on the 25/75 convention)",cost,[C38],wages 0.25*0.665; capital 0.75*0.665; estate 0.10; above400k 0.03; capital 0.075; above450k 0.02,,ledger option
 option,C39,28% cap on the value of itemized deductions above $450K (REV-TS12; Decision Brief 2),cost,[C39],above450k,,ledger option
 option,C40,CEO pay-ratio corporate surtax (REV-HP1; 25/75 convention; Decision Brief 2),cost,[C40],wages 0.25*x; capital 0.75*x,,ledger option
+option,C43,45% bracket on income above $5M (REV-SC1; Oct 21),cost,[C43],above450k,,ledger option
 option,C41,21% excise on top-officer pay above $1M (REV-HP3; executives in the top 1%; Decision Brief 2),cost,[C41],billionaires,,ledger option
 option,C5,Dental starts after the window,benefit,-[C5],medicare,,ledger option
 option,SAFR2,"SAF-R2: drop the alcohol excise (replaced with top-end revenue, not modeled here)",cost,-0.07,alcohol,,ledger option

@@ -313,7 +313,7 @@
  },
  {
   "id": "SC1",
-  "option": "45% bracket on income above $5M (Talarico scenario; held in reserve as the first fallback if TS12 scores low, Decision Brief 2)",
+  "option": "45% bracket on income above $5M (Talarico scenario; adopted Oct 21 as C43 to close the 2040 shortfall)",
   "channel": "General fund",
   "lo": 0.1,
   "mid": 0.18,

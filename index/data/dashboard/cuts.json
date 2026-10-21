@@ -187,5 +187,14 @@
   "kind": "Borrow (accepted, D4-B envelope)",
   "why": "Decision Brief 2: the envelope (0.5% of GDP to 2034, tapering to zero by 2040, ~$1.6T) holds C21, C30-C32, C37 and this line",
   "alternative_to": ""
+ },
+ {
+  "id": "C43",
+  "change": "45% bracket on income above $5M (REV-SC1), closing the 2040 shortfall left by the carbon fees' tax offset",
+  "saves_tn": 0.18,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Oct 21)",
+  "why": "Scenario figure (Talarico model), not a score (0.10-0.25); stacks with G3 and G9 inside GX's logic; adopted by Espen Oct 21 to meet D4-B's FY2040 test",
+  "alternative_to": ""
  }
 ]
