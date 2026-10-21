@@ -45,9 +45,9 @@ W2,Cap the employer health exclusion at the median premium,General fund,1.1,1.25
 W3,"5% value-added tax, narrow base",General fund,2.8,2.8,2.8,no,Low,Regressive without a rebate,Revenue tab (CBO),yes
 W4,1-point surtax on income above $100K/$200K,General fund,0.67,0.67,0.67,no,Low,,Revenue tab (CBO),yes
 T1,"Keep current tariffs (Section 232 and 301, post-Learning Resources)",General fund,0.0,0.0,0.0,no,Medium (301 challenges),In CBO's baseline: no new revenue. Repeal would be a new claim of ~$1.5-1.9T (est.),"CRFB (Jul 2026), Tax Foundation, Penn Wharton (Oct 2026)",yes
-O1,"Social Security tax on earnings above $250K, with a benefit credit (SS-1)",Social Security trust fund,1.9,1.9,1.9,no,Low,Cannot fund general-fund programs,"Revenue tab (CBO via CRFB, no-credit design)",no
-O2,12.4% Social Security tax on investment income above $400K (SS-2),Social Security trust fund,0.9,1.1,1.4,no,Low,Stacks with H1b (audit finding 4),Estimate; SSA scored the $200K/$250K version at +1.93% of payroll (2023),no
-OX,"Avoidance haircut on SS-2 (15%), matching GX on the same base",Social Security trust fund,-0.21,-0.165,-0.135,no,,Audit finding 4,Estimate,no
+O1,"Social Security tax on earnings above $250K, with a 2% benefit credit (SS-1)",Social Security trust fund,3.3,3.67,3.9,no,Low,Cannot fund general-fund programs,"index/dedicated-funds.md: SSA's 2026 single-year scores (E2.5 base, E2.14 credit) applied from 2031; range estimate",no
+O2,12.4% Social Security tax on investment income above $400K (SS-2),Social Security trust fund,1.3,1.48,1.65,no,Low,Stacks with H1b (audit finding 4),"index/dedicated-funds.md: SSA's F11 ($400K, 2026 Trustees) applied from 2031, before the haircut; range estimate",no
+OX,"Stacking haircut on SS-2 (15%), for REV-H1b on the same base",Social Security trust fund,-0.25,-0.22,-0.195,no,,Audit finding 4,Estimate,no
 P1,"Paid-leave contribution, 0.6% split employer/employee, stepping toward 0.85% (FAM-3)",Paid-leave fund,0.85,0.9,1.28,no,Low,High end is the 0.85% cap; above it a repayable Treasury loan bridges,Estimate: 0.6% of ~$15T a year of covered wages,yes
 MR1,"Fuel taxes permanent and indexed, ten 3-cent Fix-It-First steps with a price pause (2029 act)",Surface transportation trust fund,model:MR1,model:MR1,model:MR1,no,Low,Upper bound: no demand response,Moving America Draft 2 (FY2029-38),yes
 MR2,"Clean-vehicle per-mile charge, cars and trucks (2029 act)",Surface transportation trust fund,model:MR2,model:MR2,model:MR2,no,Low,Odometer only,Moving America Draft 2,yes

@@ -228,7 +228,7 @@ A recession of 2.5 points of unemployment in 2036-38 at 1.28 needs about $89B of
 
 **What it does to the general fund (estimate).** The fund would carry about $2.6T of outlays in 2030-39. About $1.23T is general-fund claims already in this ledger (FAM-2 $0.60T, EDU-1 $0.33T, EDU-3 $0.27T, EDU-4 $0.03T); about $0.77T is current spending it absorbs (today's meals, Title I and IDEA baselines); about $0.63T is new benefits (a larger pre-K and child care share, the teacher floor, PARA and mental-health staff, Title I and IDEA top-ups). So it relieves the general fund of about **$2.0T** while raising about $2.3T from workers and $0.35T from estates.
 
-**D3 (incidence model, scenario Q-EDU).** Used as the closer in place of C19b (the exclusion cap) and C20 (the surtax) on the decided package, EDU-9B leaves the first two quintiles better off (Q1 +$11,325, Q2 +$9,544 a household a year against +$10,947 and +$9,418 on scenario Q) and the third and fourth worse (Q3 +$5,628 against +$5,847; Q4 +$430 against +$1,268). Every quintile below the top stays positive, so it **passes the quintile test**, but a fourth-quintile household without children pays the contribution and gets no school benefit, and the fourth quintile is further behind in 2030-31 (−$2,494 and −$538, against −$1,539 and +$348) until pre-K seats ramp.
+**D3 (incidence model, scenario Q-EDU).** Used as the closer in place of C19b (the exclusion cap) and C20 (the surtax) on the decided package, EDU-9B leaves the first two quintiles better off (Q1 +$11,261, Q2 +$9,484 a household a year against +$10,883 and +$9,358 on scenario Q) and the third and fourth worse (Q3 +$5,585 against +$5,804; Q4 +$276 against +$1,114). Every quintile below the top stays positive, so it **passes the quintile test**, but a fourth-quintile household without children pays the contribution and gets no school benefit, and the fourth quintile is further behind in 2030-31 (−$2,606 and −$661, against −$1,651 and +$225) until pre-K seats ramp.
 
 **D4.** Two problems, both Espen's call:
 - **A new dedicated fund.** D4 bars a trust fund "just to hold a pay-for" and allows one where a permanent benefit has a natural revenue stream covering much or all of its cost. The payroll piece is arguable on the FAM-3 pattern (the session's case: a worker pays in for forty years and draws for eighteen per child, close to the Social Security bargain, and a contributory frame changes the politics of cutting). Dedicating the estate tax is a pay-for placed in a fund and fails the rule as written.
@@ -274,7 +274,7 @@ Every money row (EDU-1 to EDU-5, EDU-7) rides R2 and survives at 51, if the R2 f
 
 ## D3
 
-Every chosen row is a benefit except EDU-7, which falls on scholarship donors with tax liability. On the incidence model's decided package (scenario Q) the fourth quintile comes out +$1,268 a year; EDU-3 is the education row that reaches it. EDU-9B is scenario Q-EDU (above).
+Every chosen row is a benefit except EDU-7, which falls on scholarship donors with tax liability. On the incidence model's decided package (scenario Q) the fourth quintile comes out +$1,114 a year; EDU-3 is the education row that reaches it. EDU-9B is scenario Q-EDU (above).
 
 ## Dependencies
 

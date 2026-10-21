@@ -74,9 +74,9 @@ A visible increase needs a matching closer. For example, SS-B2 paired with SS-5 
 ## Ten-year dollars (2030-39)
 
 These are trust-fund figures, outside the general fund (D4).
-- **Revenue:** SS-1 brings about $1.9T (scaled from CBO's no-credit $1.6T for 2025-34; the credit doesn't change in-window revenue). SS-2 brings about $0.9T to $1.4T before the 15% haircut, about $0.75T to $1.2T after it (estimate).
-- **Benefits:** SS-3 and SS-4 cost about $0.15T to $0.35T in the window (estimate), since both compound slowly.
-- **Ledger row:** SS-1 (legacy F5), with trust-fund revenue of about $2.8T at the midpoint after the haircut (row OX).
+- **Revenue:** SS-1 brings about $3.67T to the trust fund (range $3.3-3.9T) and SS-2 about $1.48T before the 15% haircut, about $1.26T after it (estimate: SSA's 2026 single-year scores applied from 2031, index/dedicated-funds.md). These are gross trust-fund receipts; the older $1.9T for SS-1 was scaled from a CBO budget score, which nets out the income-tax offset and is not what the trust fund receives.
+- **Benefits:** SS-3, SS-4 and SS-1's benefit credit cost about $0.19T in the window (range $0.15-0.25T, estimate), since all three build slowly.
+- **Ledger row:** SS-1 (legacy F5), with trust-fund revenue of about $4.93T at the midpoint after the haircut (rows O1, O2, OX).
 
 ## Vehicle, timing and floor time
 
