@@ -16,7 +16,7 @@ const HH = (() => {
       const other = indAll * (T.exp[i] - x.energy) / (T.exp[0] - a.energy);
       const cs = r.childShare != null ? r.childShare : 0.5, dividend = r.perShare * (T.people[i] - (1 - cs) * T.kids[i]); // equal shares per adult; children get cs of a share
       const cost = x.gasoline + x.heat + x.elec + other;
-      return { name, people: T.people[i], perPerson: dividend / T.people[i], gasoline: x.gasoline, heat: x.heat, elec: x.elec, other, cost, dividend, net: dividend - cost, pctInc: T.inc[i] ? 100 * (dividend - cost) / T.inc[i] : null }; });
+      return { name, people: T.people[i], kids: T.kids[i], perPerson: dividend / T.people[i], gasoline: x.gasoline, heat: x.heat, elec: x.elec, other, cost, dividend, net: dividend - cost, pctInc: T.inc[i] ? 100 * (dividend - cost) / T.inc[i] : null }; });
   }
   return { group };
 })();

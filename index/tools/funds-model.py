@@ -249,7 +249,7 @@ c2 = {t: REV["C2"]["mid"] * 1000 * w / sum(cw) for t, w in zip(W, cw)}
 def pop(t): return P["pop_2030_m"] * (1 + P["pop_growth"]) ** (t - 2030)
 carbon = [dict(year=t, c1=c1[t], c2=c2[t], dividend=P["carbon_dividend_share"] * c1[t],
                transition=(1 - P["carbon_dividend_share"]) * c1[t],
-               per_person=P["carbon_dividend_share"] * c1[t] * 1e9 / (pop(t) * 1e6)) for t in W]
+               per_adult=P["carbon_dividend_share"] * c1[t] * 1e9 / (pop(t) * P["adult_share"] * 1e6)) for t in W]
 
 # ---------- EDU-9B (held): payroll contribution + estate component against the session's spending path ----------
 EPATH = {2030: 142, 2033: 264, 2036: 301, 2040: 327, 2049: 442}
@@ -365,11 +365,11 @@ last = htf[-1]
 w(f"Where an account's receipts fall short of its program, the gap is a general-fund top-up, counted in the ledger (MOV-29, MOV-30 and the later-Congress MOV-31), so no account runs a deficit; the top-ups shrink to ${sum(last['gf_'+m] for m in ('hwy','tra','rail')):.0f}B in FY{last['fy']}. Programs here include expansion; on renewal alone, FY2042-46 receipts cover {rc['hwy']}% of highway, {rc['tra']}% of transit and {rc['rail']}% of rail renewal (the transportation model). D4 keeps the Highway Trust Fund whole for 75 years; on Draft 2's figures that holds for renewal from the 2040s on, with expansion still drawing on the general fund.\n")
 
 w("## Carbon channel (D7)\n")
-w(f"REV-C1 (${REV['C1']['mid']:.2f}T) spread over 2030-39 on the fee's durability path (price times a falling emissions index, the C1 profile in `incidence-phase-in.csv`); REV-C2 (${REV['C2']['mid']:.2f}T) on the same path. {P['carbon_dividend_share']*100:.0f}% of C1 is the dividend (CLI-2), the rest the transition share (to CLI-5). The dividend per person uses a population of {P['pop_2030_m']:.0f} million in 2030 growing {P['pop_growth']*100:.1f}% a year (estimate).\n")
-w("| Year | C1 ($B) | Dividend ($B) | Per person ($) | Family of four ($) | Transition ($B) | C2 ($B) |")
+w(f"REV-C1 (${REV['C1']['mid']:.2f}T) spread over 2030-39 on the fee's durability path (price times a falling emissions index, the C1 profile in `incidence-phase-in.csv`); REV-C2 (${REV['C2']['mid']:.2f}T) on the same path. {P['carbon_dividend_share']*100:.0f}% of C1 is the dividend (CLI-2), the rest the transition share (to CLI-5). The dividend is equal per adult (CLI-2A); it uses a population of {P['pop_2030_m']:.0f} million in 2030 growing {P['pop_growth']*100:.1f}% a year, {P['adult_share']*100:.0f}% of it adults (estimates).\n")
+w("| Year | C1 ($B) | Dividend ($B) | Per adult ($) | Couple ($) | Transition ($B) | C2 ($B) |")
 w("| --- | --- | --- | --- | --- | --- | --- |")
 for c in carbon:
-    w(f"| {c['year']} | {c['c1']:.0f} | {c['dividend']:.0f} | {c['per_person']:.0f} | {4*c['per_person']:,.0f} | {c['transition']:.0f} | {c['c2']:.0f} |")
+    w(f"| {c['year']} | {c['c1']:.0f} | {c['dividend']:.0f} | {c['per_adult']:.0f} | {2*c['per_adult']:,.0f} | {c['transition']:.0f} | {c['c2']:.0f} |")
 w(f"| 2030-39 ($T) | {sum(c['c1'] for c in carbon)/1000:.2f} | {sum(c['dividend'] for c in carbon)/1000:.2f} | | | {sum(c['transition'] for c in carbon)/1000:.2f} | {sum(c['c2'] for c in carbon)/1000:.2f} |")
 w("")
 

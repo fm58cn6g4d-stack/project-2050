@@ -7,6 +7,7 @@ alcohol,12,17,21,23,27,2,alcohol excise: flatter than consumption (regressive as
 energy,11,15,20,24,30,3,
 gasoline,10,16,21,25,28,1.5,
 persons,15,18,21,22,24,1,
+adults,15.6,18.6,21.5,21.3,23,1,"adults 18+ (the Climate Dividend, CLI-2A): the persons key times each quintile's adults-to-people ratio in the BLS 2024 Consumer Expenditure Survey (0.81, 0.81, 0.80, 0.76, 0.75), renormalized; estimate"
 above400k,0,0,0,0,100,70,
 above450k,0,0,0,0,100,80,
 above250k_wages,0,0,0,2,98,55,

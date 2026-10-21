@@ -6,7 +6,7 @@
 
 **How Project 2050's climate policy is represented.**
 
-- **REV-C1 (D7):** $25 a ton in 2030 rising in equal steps to $100 in 2037, then 5% a year (nominal). CO2 from coal, natural gas and non-road petroleum; gasoline and diesel are outside it, priced only by Moving America's fuel-tax steps (from the transportation model), and half of other transport fuel is treated as exempt diesel (estimate). No ratchet (REV-C1C is an option). 80% returned per person.
+- **REV-C1 (D7):** $25 a ton in 2030 rising in equal steps to $100 in 2037, then 5% a year (nominal). CO2 from coal, natural gas and non-road petroleum; gasoline and diesel are outside it, priced only by Moving America's fuel-tax steps (from the transportation model), and half of other transport fuel is treated as exempt diesel (estimate). No ratchet (REV-C1C is an option). 80% returned equally per adult (CLI-2A: adults 18 and over, adult dependents included; children are covered by FAM-1).
 - **CLI-1A:** the model's restored credit set (the IRA's credits with bonus adders, from 2030, ten years for consumer credits).
 - **CLI-3A:** a tradable-credit Clean Energy Standard, 80% clean electricity by 2035 on a straight path from the 2029 share, held there after. Fossil output must buy credits; the credit price moves each year toward the level that meets the path and is capped at an alternative compliance payment of $40/MWh (2025 dollars; estimate, CLI-3A sets no figure).
 - **CLI-4A:** the model's standards: vehicle rules as a soft floor on electric sales (25% of cars in 2032, 50% in 2037, 67% in 2040, 100% by 2050; trucks to 65%), unabated coal out by 2040, new baseload gas needing capture from 2033.
@@ -55,23 +55,23 @@ Energy CO2 below 2005 (EIA's 2005 level, 5,999 Mt), net greenhouse gases below 2
 
 **REV-C1 (the domestic fee), on the decided package.** About **$1.53T** in 2030-39 (10th-90th percentile $1.49-1.63T), against the ledger's $1.35T (range $1.20-1.50T, estimate). The fee alone would raise $1.61T; the companion measures shrink its base by $0.08T. Because the model cuts emissions more slowly in the first decade than the large published models, its receipts sit toward the high side; a faster-responding model would land lower. The dividend (80%) is $1.22T and the transition share $0.31T.
 
-| Year | Fee ($/t, nominal) | Receipts ($B, nominal) | Energy CO2 (Mt) | Clean electricity | Dividend per person ($, nominal) | Family of four |
+| Year | Fee ($/t, nominal) | Receipts ($B, nominal) | Energy CO2 (Mt) | Clean electricity | Dividend per adult ($, nominal) | Couple |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2030 | 25 | 67 | 4,173 | 56% | 151 | 606 |
-| 2031 | 36 | 92 | 4,053 | 60% | 208 | 833 |
-| 2032 | 46 | 115 | 3,926 | 64% | 260 | 1,041 |
-| 2033 | 57 | 136 | 3,795 | 68% | 307 | 1,229 |
-| 2034 | 68 | 155 | 3,663 | 72% | 350 | 1,399 |
-| 2035 | 79 | 173 | 3,529 | 76% | 388 | 1,551 |
-| 2036 | 89 | 188 | 3,389 | 80% | 420 | 1,681 |
-| 2037 | 100 | 200 | 3,246 | 83% | 449 | 1,794 |
-| 2038 | 105 | 202 | 3,118 | 87% | 451 | 1,806 |
-| 2039 | 110 | 204 | 2,997 | 89% | 455 | 1,822 |
-| 2040 | 116 | 206 | 2,883 | 92% | 461 | 1,843 |
-| 2045 | 148 | 250 | 2,556 | 94% | 555 | 2,219 |
-| 2050 | 189 | 302 | 2,250 | 97% | 668 | 2,671 |
+| 2030 | 25 | 67 | 4,173 | 56% | 197 | 393 |
+| 2031 | 36 | 92 | 4,053 | 60% | 270 | 541 |
+| 2032 | 46 | 115 | 3,926 | 64% | 338 | 676 |
+| 2033 | 57 | 136 | 3,795 | 68% | 399 | 798 |
+| 2034 | 68 | 155 | 3,663 | 72% | 454 | 908 |
+| 2035 | 79 | 173 | 3,529 | 76% | 503 | 1,007 |
+| 2036 | 89 | 188 | 3,389 | 80% | 546 | 1,091 |
+| 2037 | 100 | 200 | 3,246 | 83% | 583 | 1,165 |
+| 2038 | 105 | 202 | 3,118 | 87% | 586 | 1,172 |
+| 2039 | 110 | 204 | 2,997 | 89% | 591 | 1,183 |
+| 2040 | 116 | 206 | 2,883 | 92% | 598 | 1,197 |
+| 2045 | 148 | 250 | 2,556 | 94% | 721 | 1,441 |
+| 2050 | 189 | 302 | 2,250 | 97% | 867 | 1,734 |
 
-By source, 2030-39: industry $0.65T, buildings $0.35T, power $0.33T, non-road transport $0.20T. Industry is the largest base because its abatement (efficiency, capture, electric heat) comes slowly; power is smaller because coal leaves quickly. Receipts keep rising after 2039 because the price (5% a year) rises faster than emissions fall. The per-person dividend uses CBO's population path (the model's).
+By source, 2030-39: industry $0.65T, buildings $0.35T, power $0.33T, non-road transport $0.20T. Industry is the largest base because its abatement (efficiency, capture, electric heat) comes slowly; power is smaller because coal leaves quickly. Receipts keep rising after 2039 because the price (5% a year) rises faster than emissions fall. The per-adult dividend uses CBO's population path (the model's), with adults 77% of it.
 
 **REV-C2 (the border adjustment).** With the border adjustment on at the same price, the model nets about **$0.031T** in 2030-39: charges on the embodied carbon of covered imports (284 Mt, with a 15% credit for carbon prices paid abroad) less rebates on exports (211 Mt), which nearly offset each other. The ledger carries $0.20T (estimate, scaled from a combined border-and-methane figure). The model's border inputs are partly judgment (see `sources/climate-border-adjustment-model-notes.md`).
 
@@ -81,16 +81,16 @@ By source, 2030-39: industry $0.65T, buildings $0.35T, power $0.33T, non-road tr
 
 ## Households in 2035 (the carbon channel alone)
 
-Per household in 2025 dollars, from the model's household module (BLS Consumer Expenditure Survey 2024 quintiles), on the decided package: the fee's cost through heating fuel, electricity and everything else, against the dividend. **The dividend is the same for every person, adult or child, at every income (CLI-2A)**; household totals differ only because households differ in size (the survey's lowest quintile averages 1.6 people, the highest 3.2). Costs rise with income because spending, and the carbon in it, does; an equal payment against costs that rise with income is what makes the dividend progressive. Gasoline costs nothing here because road fuels are outside the fee; Moving America's fuel steps and every other row are in the incidence model, which remains the D3 test.
+Per household in 2025 dollars, from the model's household module (BLS Consumer Expenditure Survey 2024 quintiles), on the decided package: the fee's cost through heating fuel, electricity and everything else, against the dividend. **The dividend is the same for every adult at every income (CLI-2A); children get no share, since FAM-1's child credit covers them**; household totals differ only because households have different numbers of adults (the survey's lowest quintile averages 1.3, the highest 2.4). Costs rise with income because spending, and the carbon in it, does; an equal payment against costs that rise with income is what makes the dividend progressive. Gasoline costs nothing here because road fuels are outside the fee; Moving America's fuel steps and every other row are in the incidence model, which remains the D3 test.
 
-| Quintile | People | Dividend per person | Dividend per household | Heating | Electricity | Other goods | Net per household |
+| Quintile | Adults | Dividend per adult | Dividend per household | Heating | Electricity | Other goods | Net per household |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| All consumer units | 2.4 | 312 | +748 | -113 | -120 | -702 | -187 |
-| Lowest 20 percent | 1.6 | 312 | +499 | -64 | -84 | -308 | +43 |
-| Second 20 percent | 2.1 | 312 | +655 | -94 | -110 | -438 | +12 |
-| Third 20 percent | 2.5 | 312 | +780 | -102 | -119 | -592 | -33 |
-| Fourth 20 percent | 2.9 | 312 | +904 | -127 | -133 | -802 | -158 |
-| Highest 20 percent | 3.2 | 312 | +998 | -176 | -156 | -1,368 | -702 |
+| All consumer units | 1.8 | 405 | +729 | -113 | -120 | -702 | -207 |
+| Lowest 20 percent | 1.3 | 405 | +527 | -64 | -84 | -308 | +71 |
+| Second 20 percent | 1.7 | 405 | +689 | -94 | -110 | -438 | +46 |
+| Third 20 percent | 2.0 | 405 | +810 | -102 | -119 | -592 | -3 |
+| Fourth 20 percent | 2.2 | 405 | +891 | -127 | -133 | -802 | -171 |
+| Highest 20 percent | 2.4 | 405 | +972 | -176 | -156 | -1,368 | -728 |
 
 ## Findings for the ledger (proposals, not applied)
 

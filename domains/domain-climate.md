@@ -15,7 +15,7 @@ All figures are ten-year totals for 2030-39 in trillions unless marked. Basis ta
 | ID | Program | Chosen design | General-fund net (low / mid / high) | Channel | Vehicle | @51 | Floor days | Felt by Nov 2030? |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | CLI-1 | Clean-energy credits restored | Restore what OBBBA repealed (household, vehicle and wind and solar credits), refundable, direct pay and point of sale; extend the Clean Electricity Investment Credit | 0.60 / 0.90 / 1.10 | General fund | R2 | ✔ | 0 | Yes (point-of-sale rebates) |
-| CLI-2 | Climate Dividend (delivery of REV-C1) | 80% of the domestic carbon fee returned per person, quarterly, with the first payment before the fee reaches prices | 0 (channel: $1.35T in, $1.08T dividend, $0.27T transition) | Carbon fee | R2 | ✔ | 0 | Yes |
+| CLI-2 | Climate Dividend (delivery of REV-C1) | 80% of the domestic carbon fee returned per adult, quarterly, with the first payment before the fee reaches prices | 0 (channel: $1.35T in, $1.08T dividend, $0.27T transition) | Carbon fee | R2 | ✔ | 0 | Yes |
 | CLI-3 | Clean Energy Standard and permitting-law fixes | 80% clean electricity by 2035 in statute, tradable credits; Sec. 1401 override, Judgment Fund damages cap, 401 and rail fixes | 0.00 / 0.02 / 0.05 (0.06 with CLI-4, which rides it; the ledger row carries both) | General fund | FL | ◐ | 6 | No |
 | CLI-4 | Clean Air Act restoration | Statutory endangerment finding and express delegation for vehicle and power-sector standards; rides CLI-3's bill | 0.00 / 0.00 / 0.01 | General fund | FL (with CLI-3) | ◐ | 0 | No |
 | CLI-5 | Thriving Economy add-ons | Transmission ITC (plan-selected lines), 45X expansions, resilience credit, LIHEAP, Weatherization and LIHWAP, ag R&D | 0.00 / 0.15 / 0.61 (gross 0.60) | Carbon border adjustment + REV-C1 transition share | R3 | ✔ | 0 | No |
@@ -83,20 +83,26 @@ Long-dated (through 2039 at least) with no cliffs inside the window, so the cred
 **What this file owns.** The fee itself is REV-C1 in domains/domain-revenue.md: $25 a ton in 2030 rising to about $100 by 2037 (D7), upstream on coal, natural gas and non-transport petroleum, with gasoline and diesel exempt under Dec. D7. It raises $1.20-1.50T (mid $1.35T, estimate). The lower starting price makes "paid first" easier: the first year's dividend is large relative to the first year's price effect. This file owns how the 80% comes back.
 
 **Design.**
-- **Equal per person, quarterly, named.** It is called the Climate Dividend in statute, and every payment carries the name (legibility rule).
+- **Equal per adult, quarterly, named.** Every adult (18 and over) gets one equal share, whatever their income or carbon use; a joint return carries two. Adult dependents (college students, disabled adult children, elderly parents) are counted. Children get no share: FAM-1's child credit ($3,000-3,600 a child) is the child benefit, roughly ten times what a child share would be, and the dividend's weight goes instead to the adults the credit does not reach (single adults, retirees, childless couples) (Espen, Oct 21). It is called the Climate Dividend in statute, and every payment carries the name (legibility rule).
+- **Delivery, on the 2020-21 stimulus-payment model.** Paid through the tax system to filers, automatically to Social Security, SSI, VA and Railroad Retirement beneficiaries from their agencies' payment records, and through a simple non-filer sign-up for everyone else.
 - **Paid first.** The first payment goes out in early 2030, before the fee reaches retail prices. People see the check before the cost.
 - **Channel.** The dividend is paid by the IRS to filers and by SSA to beneficiaries, with an outreach path for non-filers on the Child Tax Credit model. The same IRS build delivers FAM-1's monthly payments.
 - **Transition share (20%, about $0.27T).** This goes to coal and energy communities and to low-income energy help. It co-finances CLI-5's LIHEAP and Weatherization lines (see CLI-5).
 
 **Drafting note (durability session and Talarico scenario; EXE-18).** Both reviews converge on the same instrument detail, which the payment-continuity rule requires. The dividend is paid from a dividend account with a **permanent, indefinite appropriation** (the account passes the trust-fund rule: a permanent benefit with its own revenue) and Treasury's **standing disbursement authority**, so neither a lapse in appropriations nor a hostile Congress can stop a payment without changing the law. In the Talarico model that drafting choice is what made a shutdown fail. The session also pre-funds the first payment and repays it from fee receipts; CLI-2A already pays first, so that is a mechanics note, not a new option.
 
-**Emissions and dividend by year.** index/climate-carbon-model.md runs the structural carbon model on D7 with CLI-1 and CLI-4 layered on: energy CO2 below 2005 by sector to 2050, the dividend per person by year, and what each companion measure adds.
+**Emissions and dividend by year.** index/climate-carbon-model.md runs the structural carbon model on D7 with CLI-1 and CLI-4 layered on: energy CO2 below 2005 by sector to 2050, the dividend per adun by year, and what each companion measure adds.
 
 **Options.**
 
 | Option | Design | Effect | Basis |
 | --- | --- | --- | --- |
-| CLI-2A (chosen) | Tax-free dividend, equal per person | $1.08T returned on the D7 path ($0.96-1.20T) | estimate (domain-revenue.md) |
+| CLI-2A (chosen, Oct 21) | Tax-free dividend, equal per adult (adult dependents included; children covered by FAM-1) | $1.08T returned on the D7 path ($0.96-1.20T); about $405 an adult in 2035 (2025 dollars) on the carbon model's receipts | estimate (domain-revenue.md; index/climate-carbon-model.md) |
+| CLI-2E | Equal per person, children included (the design before Oct 21) | Same total; about $312 a person in 2035; about $10-30 a year more for fourth-quintile and larger families, less for adult-only households | estimate (carbon model household module) |
+| CLI-2F | Children at half a share (the Energy Innovation and Carbon Dividend Act design); or half shares only if FAM-1A is not enacted | Between A and E | estimate |
+| CLI-2G | Per adult plus working teens: 16- and 17-year-olds with earnings above a threshold get an adult share | Same total; a few million teens added (estimate); adds an earnings test | estimate; option |
+| CLI-2H | Per tax return, joint returns doubled (the 2020 stimulus formula) | The same as A on filed returns; misses non-filers and adult dependents unless A's delivery rules are added, which makes it A | estimate |
+| CLI-2I | Per household | Most to the bottom quintile (about +$280 a year against E) but no federal household roster exists, and it rewards splitting households | estimate; not recommended |
 | CLI-2B | Dividend counted as taxable income | More progressive net; returns roughly $0.15-0.2T less to households, which comes back to the general fund | estimate |
 | CLI-2C | Dividend share raised to 85-90%, at the add-ons' expense | Helps the fourth quintile in the D3 test; costs CLI-5 $0.06-0.12T | estimate |
 | CLI-2D (durability session) | Dividend share cut to 70%, with 30% kept for transition | Returns about $0.12T less to households; the session itself defers to CLI-2A's 80% and the D3 test | session; not recommended |

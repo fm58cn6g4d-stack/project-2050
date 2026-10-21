@@ -34,7 +34,7 @@ package,H3,Public option and cost-sharing help (HLT-3),benefit,[HLT-3],public_op
 package,H4,"Medicaid, long-term care, safety net (HLT-4)",benefit,[HLT-4],medicaid_ltc,,ledger
 package,H5p,Hospital and drug price caps: lower employer premiums passed to wages,benefit,0.5,employer_cov,,estimate (go-big tab ~6% premium cut; conservative)
 package,F5,"Social Security minimum benefit and CPI-E (SS-3, SS-4)",benefit,[SS-1],ss_benefit,,ledger
-package,E2d,"Climate Dividend (CLI-2, 80%)",benefit,[CLI-2],persons,,ledger (durability path)
+package,E2d,"Climate Dividend (CLI-2, 80%, per adult)",benefit,[CLI-2],adults,,ledger (durability path)
 package,E2t,Carbon transition share: low-income energy help (40% of $0.27T),benefit,0.4*0.2*[C1],low_income_energy,,estimate
 package,HOU,"Housing (HOU-1 to HOU-6 fund, HOU-8: vouchers, emergency aid, credits, repair)",benefit,[HOU-1],housing,,ledger HOU-1
 package,E1h,"Clean-energy credits, household share (30% of CLI-1)",benefit,0.3*[CLI-1],hh_clean,,estimate: 30% of CLI-1's $0.9T

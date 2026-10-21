@@ -171,4 +171,4 @@ The accepted path clears the good case and falls about $0.32T short of the bad o
 
 The channel architecture holds up. One fund per permanent benefit with a natural stream, the general fund for everything else, no new trust funds for pay-fors — applied consistently, and both genuine double-assignments came from edits that landed in one file and not its neighbours, not from the design. GX and OX show the project prices an overlap across channels.
 
-The household net test remains the binding constraint on the closing path. The incidence model is built on the post-carve-out figures (a $1.08T dividend, and the border adjustment's pass-through counted as a cost with no rebate behind it); on scenario Q every income group below the top comes out ahead, with the fourth quintile at about +$1,114 a year.
+The household net test remains the binding constraint on the closing path. The incidence model is built on the post-carve-out figures (a $1.08T dividend, and the border adjustment's pass-through counted as a cost with no rebate behind it); on scenario Q every income group below the top comes out ahead, with the fourth quintile at about +$1,087 a year.

@@ -23,3 +23,4 @@ ss_worker_growth,0.005,"estimate: covered-worker growth a year; the cap grows wi
 ss_aca_threshold_eff,225000,"estimate: one threshold standing in for the ACA's $200,000 single / $250,000 joint, to fit the investment-income tail between SSA's F9 and F11"
 ss_cpie_ssa_bump,0.15,sourced: SSA's A6 puts CPI-E about 0.15 points a year above CPI-W
 ss_minben_run,run196,sourced: SSA's B5.2 (minimum benefit at 125% of poverty for 30 years of coverage)
+adult_share,0.78,"estimate: adults 18 and over as a share of the population in the 2030s (Census projections put under-18s near 22%)"
