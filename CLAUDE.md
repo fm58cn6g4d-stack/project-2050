@@ -62,4 +62,4 @@ Commit with a short plain message describing what changed and why. Don't rewrite
 1. Fresh post-2025-law scores for REV-TS1-TS3 and a joint TS1/G1 score; a score for REV-TS12 (joint with G3, G9, C18, SALT). Refine CAP-7's surge and sustained sizing through the bottom-up agency review (domain-capacity.md open item 2). A sustainability-layer menu for the reported fiscal gap. Later: explore ways to reduce defense over time (domain-national-security.md 1a).
 2. SS-10 67-vote comparison (needs an SSA score); an SSA score of the D8 package as a whole (the funds model scores each provision alone; interactions, e.g. SS-2 with SS-5, are not modeled).
 3. D1 re-baseline after the Nov 3 election.
-4. Revenue strategy session on payroll raisers (EDU-9B note); a fiscal tab on the dashboard; non-tax high-pay companions in domain-competition.md; a synthesis plan document.
+4. Revenue strategy session on payroll raisers (EDU-9B note); a fiscal tab on the dashboard; non-tax high-pay companions in domain-competition.md. The long-range plan (frameworks/long-range-plan-2030-2050.md) sets the sequence after these items.
