@@ -16,6 +16,7 @@ What the modeling tools do now, and what is planned next, in order. Each item na
 | Window rescaler (`window.py`) | A figure from another budget window in 2030-39 terms |
 | Vote simulator (`votes-model.py`) | The odds each package and bill passes under each D2 path, by seat count and holdouts; what the packages lose in the trim |
 | Dedicated-fund engine (`funds-model.py`) | Social Security and HI over 75 years (D8, SS-5), the paid-leave fund's step-up and loan, the Highway Trust Fund's accounts, the carbon dividend by year, the rate EDU-9B would need |
+| Carbon model (`carbon-model.py`, `carbon/`) | Emissions by sector to 2050 under D7 and the companion measures, REV-C1's receipts and the dividend by year, the size of REV-C2 and a methane fee, what the road-fuel exemption gives up, with uncertainty bands |
 | Dashboard data (`dashboard-data.py`) | The live ledger dashboard's data files, regenerated on each run |
 
 ## Next, in order

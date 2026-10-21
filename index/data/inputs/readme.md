@@ -29,6 +29,7 @@ Conventions:
 | `funds-ss-ssa-summary.csv` | SSA run: provision number, description, start year, 75-year changes, source URL | the same |
 | `funds-hi-rates.csv` | year the Medicare Trustees publish an HI cost or income rate | the dedicated-fund engine (HI) |
 | `funds-parameters.csv` | one parameter (reserves, leave rule, carbon dividend share, population, EDU-9B base), each with its basis | the dedicated-fund engine |
+| `carbon-parameters.csv` | one parameter of the D7 run of the carbon model: REV-C1's price path, inflation, the dividend share, the exempt share of other transport fuel, the permitting year, Monte Carlo size | the carbon model (index/climate-carbon-model.md) |
 | `fiscal-years.csv` | row with a year-by-year path ($B, 2030-39) that overrides its profile | the long-term fiscal model |
 
 ## Figures that come from elsewhere

@@ -31,7 +31,9 @@ else
 fi
 echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fiscal-baseline.csv" > fiscal-model.log; head -1 fiscal-model.log
 python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
-echo "== 6b. dedicated funds";  cp "$TOOLS"/funds-model.py "$BUILD"/; python3 funds-model.py
+echo "== 6b. carbon model";    (cd "$TOOLS"/carbon && node cfd-tests.js >/dev/null) || { echo "carbon model checks failed: run node index/tools/carbon/cfd-tests.js"; exit 1; }
+                                cp "$TOOLS"/carbon-model.py "$BUILD"/; python3 carbon-model.py
+echo "== 6c. dedicated funds";  cp "$TOOLS"/funds-model.py "$BUILD"/; python3 funds-model.py
 echo "== 7. dashboard data";   python3 "$TOOLS"/dashboard-data.py >/dev/null
 echo "== 8. consistency check"; cp "$TOOLS"/check-project.py "$TOOLS"/window.py "$BUILD"/; python3 check-project.py
 
@@ -44,6 +46,7 @@ declare -A OUT=(
   [check-report.md]=index/check-report.md
   [vote-simulation.md]=index/vote-simulation.md
   [dedicated-funds.md]=index/dedicated-funds.md
+  [climate-carbon-model.md]=index/climate-carbon-model.md
   [dashboard/bills.json]=index/data/dashboard/bills.json
   [dashboard/revenue.json]=index/data/dashboard/revenue.json
   [dashboard/cuts.json]=index/data/dashboard/cuts.json

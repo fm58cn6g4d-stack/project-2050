@@ -1,0 +1,11 @@
+key,value,basis
+c1_start_year,2030,proposal: D7 (REV-C1A)
+c1_start_price,25,"proposal: D7, $ a ton in 2030 (nominal)"
+c1_price_2037,100,"proposal: D7, about $100 a ton by 2037 (nominal), rising in equal steps"
+c1_growth_after,0.05,"proposal: REV-C1A, 5% a year (nominal) after 2037"
+inflation,0.022,"estimate: CPI growth a year, to turn nominal prices and receipts into the carbon model's 2025 dollars and back (CBO's long-run CPI-U is about 2.2-2.3%)"
+dividend_share,0.8,proposal: D7 (80% returned per person; 20% transition)
+oth_road,0.5,"estimate: share of 'other transport' CO2 (rail, marine, pipelines, off-road) burned as diesel or gasoline, and so outside REV-C1 under D7"
+permit_year,2027,"stipulated: the 2026-28 permitting deal is treated as enacted (D1); the carbon model phases its effects in over four years"
+mc_draws,120,the carbon model's Monte Carlo size (its 37 uncertain inputs drawn from triangular ranges)
+mc_seed,7,the carbon model's default seed

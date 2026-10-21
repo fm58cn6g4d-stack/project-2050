@@ -90,6 +90,8 @@ Long-dated (through 2039 at least) with no cliffs inside the window, so the cred
 
 **Drafting note (durability session and Talarico scenario; EXE-18).** Both reviews converge on the same instrument detail, which the payment-continuity rule requires. The dividend is paid from a dividend account with a **permanent, indefinite appropriation** (the account passes the trust-fund rule: a permanent benefit with its own revenue) and Treasury's **standing disbursement authority**, so neither a lapse in appropriations nor a hostile Congress can stop a payment without changing the law. In the Talarico model that drafting choice is what made a shutdown fail. The session also pre-funds the first payment and repays it from fee receipts; CLI-2A already pays first, so that is a mechanics note, not a new option.
 
+**Emissions and dividend by year.** index/climate-carbon-model.md runs the structural carbon model on D7 with CLI-1 and CLI-4 layered on: energy CO2 below 2005 by sector to 2050, the dividend per person by year, and what each companion measure adds.
+
 **Options.**
 
 | Option | Design | Effect | Basis |
