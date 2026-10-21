@@ -9,3 +9,9 @@ oth_road,0.5,"estimate: share of 'other transport' CO2 (rail, marine, pipelines,
 permit_year,2027,"stipulated: the 2026-28 permitting deal is treated as enacted (D1); the carbon model phases its effects in over four years"
 mc_draws,120,the carbon model's Monte Carlo size (its 37 uncertain inputs drawn from triangular ranges)
 mc_seed,7,the carbon model's default seed
+ces_target,0.8,"proposal: CLI-3A, 80% clean electricity"
+ces_year,2035,proposal: CLI-3A
+ces_start,2030,"estimate: credits first required in 2030, on a straight path from the 2029 clean share"
+ces_acp,40,"estimate: the alternative compliance payment cap, $ per missing MWh credit (2025 dollars); CLI-3A caps it but sets no figure"
+grid_statute_tx,0.3,"estimate: CLI-6's interregional transfer minimums as added transmission growth (points a year), against 1.0 for the permitting deal and 0.8 for a funded federal build-out"
+weatherize_homes_m,0.25,"estimate: CLI-5's Weatherization and LIHEAP lines funding heat pumps in about 250,000 low-income homes a year"

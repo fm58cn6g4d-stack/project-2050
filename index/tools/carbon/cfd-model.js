@@ -71,6 +71,10 @@ const CFD = (() => {
     pmTx: 1.0, pmIc: 1.5, pmAttr: 0.05, pmFloor: 0.25, pmValue: 0.25, pmCurt: 0.05, gpCurt: 0.05, /* ASSUMED: long-distance lines let more wind and solar be used before output is wasted */ pmCcs: 0.5, // transmission growth back to ~2%/yr (its 1978-2020 average), faster interconnection, fewer federal-nexus cancellations
     feeTx: 0.15, crTx: 0.3, crK: 0.05, // ASSUMED: a fee strengthens the case for new lines; the credit bill includes a transmission investment credit and manufacturing credits
     // restored credits (SOURCED: IRA statutory values; take-up and pass-through ASSUMED)
+    // Project 2050 companion measures (all ASSUMED magnitudes): CLI-3 Clean Energy Standard as a tradable-credit shadow price on fossil MWh, adjusted each year toward the target
+    //   path and capped at the alternative compliance payment; CLI-6 grid statute (interregional transfer minimums) as extra transmission growth and a higher share of wind and solar
+    //   usable before output is wasted; CLI-5 Weatherization able to fund heat pumps as extra conversions of fossil-heated low-income homes.
+    cesAcp: 40, cesGain: 300, gsTx: 0.3, gsCurt: 0.02, wxHomes: 0.25,
     crItc: 0.38, crPtc: 34, crEv: 6800, crEvTake: 0.85, crUsed: 1000, crTruck: 0.08, crHp: 6.9, crPack: 15, crYears: 10, crCharge: 0.03, crInd: 0.15, // ITC and PTC include average bonus adders (ASSUMED 8 points and 10%)
   };
   // Monte Carlo ranges [low, high] around the central value (triangular)
@@ -104,6 +108,7 @@ const CFD = (() => {
     dividendShare: 0.90, offset: 0.25, admin: 0.015, sccRate: '2.0',
     cover: { process: true, methane: true, fgas: true, border: true, bunkers: false }, fgasRate: 0.2,
     credits: false, permitYear: null, standards: false, grid: false, nuclear: false, // companion measures: restored clean energy tax credits from 2030; permitting reform enacted in permitYear
+    ces: null, gridStatute: false, weatherize: false, // Project 2050: ces = { start, target, year } (CLI-3: 80% clean electricity by 2035); CLI-6; CLI-5 Weatherization
     roadExempt: false, roadPath: null, othRoad: 0.5, // Project 2050 (D7): gasoline and diesel outside the fee; roadPath(y) = their own per-gallon tax increase as $/t (real), e.g. Moving America's fuel steps; othRoad = share of 'other transport' CO2 that is road-type fuel (ASSUMED)
   };
 
@@ -112,18 +117,19 @@ const CFD = (() => {
   function tranches(S, w, P, y) {
     const inc = Math.max(P, y <= (S.q45End || 2035) + 12 ? w.q45 : 0); // capture incentive per stored ton (fee avoided or 45Q, not both); 45Q pays for 12 years
     const t = [];
-    const add = (k, gw, hr, fuel, ef, vom, avail, extra) => { if (gw > 0.01) t.push({ k, gw: gw * avail, hr, ef: hr * ef, vc: hr * fuel + vom + P * hr * ef + (extra || 0) }); };
+    const lam = S.cesL || 0; // Clean Energy Standard: a fossil MWh needs credits it must buy ($/MWh)
+    const add = (k, gw, hr, fuel, ef, vom, avail, extra) => { if (gw > 0.01) t.push({ k, gw: gw * avail, hr, ef: hr * ef, vc: hr * fuel + vom + P * hr * ef + lam + (extra || 0) }); };
     add('coal', S.coal * 0.3, 9.8, w.coalPower, EF.coal, w.coalVom, 0.8); add('coal', S.coal * 0.4, 10.5, w.coalPower, EF.coal, w.coalVom, 0.8); add('coal', S.coal * 0.3, 11.6, w.coalPower, EF.coal, w.coalVom, 0.8);
     add('cc', S.cc * 0.35, 6.5, w.gasPower, EF.gas, 2.1, 0.87); add('cc', S.cc * 0.4, 7.0, w.gasPower, EF.gas, 2.1, 0.87); add('cc', S.cc * 0.25, 7.7, w.gasPower, EF.gas, 2.1, 0.87);
     add('ct', S.ct * 0.5, 10.0, w.gasPower, EF.gas, 5, 0.9); add('ct', S.ct * 0.5, 11.5, w.gasPower, EF.gas, 5, 0.9);
     const capt = 7.124 * EF.gas * 0.9;
-    if (S.ccs > 0.01) t.push({ k: 'ccs', gw: S.ccs * 0.85, hr: 7.124, ef: 7.124 * EF.gas * 0.1, vc: 7.124 * w.gasPower + 6.6 + w.ts * capt + P * 7.124 * EF.gas - inc * capt });
+    if (S.ccs > 0.01) t.push({ k: 'ccs', gw: S.ccs * 0.85, hr: 7.124, ef: 7.124 * EF.gas * 0.1, vc: 7.124 * w.gasPower + 6.6 + w.ts * capt + P * 7.124 * EF.gas - inc * capt + 0.1 * lam });
     return t.sort((a, b) => a.vc - b.vc);
   }
   function dispatch(S, G, P, w, y) {
     const windE = S.windE, solE = S.solE, nucE = S.nuc * w.cf.nuc * 8.76;
     const storE = S.storE || S.stor * 4, dur = storE / S.stor, storShift = storE * 0.365, stC = Math.min(0.85, 0.6 + 0.05 * (dur - 4)); // TWh/yr shifted; longer batteries shift more and count for more at the peak
-    const vs = (windE + solE) / G, thr = 0.42 + w.pmCurt * (S.phi || 0) + w.gpCurt * (S.gp || 0) + Math.min(Math.min(0.2, 0.13 * dur / 4), 3 * storShift / G);
+    const vs = (windE + solE) / G, thr = 0.42 + w.pmCurt * (S.phi || 0) + w.gpCurt * (S.gp || 0) + w.gsCurt * (S.gs || 0) + Math.min(Math.min(0.2, 0.13 * dur / 4), 3 * storShift / G);
     const curt = clamp(w.curtSlope * (vs - thr), 0, 0.5);
     const vre = (windE + solE) * (1 - curt);
     const R = Math.max(0, G - nucE - (w.hydroOther + (S.hyd || 0)) - vre), avg = R / 8.76;
@@ -145,7 +151,7 @@ const CFD = (() => {
     let h2Mt = 0; const H = S.h2, gasT = T.filter(t => (t.k === 'cc' || t.k === 'ct') && (t._g || 0) > 0);
     if (H && gasT.length) { const sh = t => logistic(t.hr * (w.gasPower + P * EF.gas - H.mm) / w.siteScale), want = gasT.reduce((a, t) => a + t._g * sh(t) * t.hr, 0), f = Math.min(1, H.mt * 134 / Math.max(1e-9, want));
       gasT.forEach(t => { t._h = t._g * sh(t) * f; h2Mt += t._h * t.hr / 134; }); }
-    T.forEach(t => { const g = t._g || 0, h = t._h || 0; gen[t.k] = (gen[t.k] || 0) + g - h; if (h) gen.h2 = (gen.h2 || 0) + h; emis += (g - h) * t.ef * w.emCal; vcost += g * (t.vc - P * t.ef) + (h ? h * t.hr * (H.mm - w.gasPower) : 0); });
+    T.forEach(t => { const g = t._g || 0, h = t._h || 0; gen[t.k] = (gen[t.k] || 0) + g - h; if (h) gen.h2 = (gen.h2 || 0) + h; emis += (g - h) * t.ef * w.emCal; vcost += g * (t.vc - P * t.ef - (t.k === 'ccs' ? 0.1 : t.k === 'ldes' ? 0 : 1) * (S.cesL || 0)) + (h ? h * t.hr * (H.mm - w.gasPower) : 0); });
     const curtNet = Math.max(0, curt - (gen.ldes || 0) / (S.ldesRte || 0.45) / Math.max(1, windE + solE));
     const firm = S.nuc * w.cf.nuc + (w.hydroOther + (S.hyd || 0)) / 8.76 + (S.coal * 0.8 + S.cc * 0.87 + S.ct * 0.9 + S.ccs * 0.85) + S.wind * 0.12 + S.solar * credS + S.stor * stC + (S.ldes || 0) * 0.9;
     const coalCF = S.coal > 0.5 ? (gen.coal || 0) / (S.coal * 8.76) : 0;
@@ -175,6 +181,7 @@ const CFD = (() => {
     const ccsS = { gasproc: 0, ammonia: 0, cement: 0, steel: 0, refH2: 0 };
     let KC = null, KN = null, nucCum = 1, wave = 0, tx = null, PS = null, PW = null, KS = null, KW = null, bld = { want: 0, ready: 0, grid: 0, industry: 0, built: 0, tx: 0 }, credNext = 0, load0 = 0, powerPrev = 9999, windElig = [], credCost = 0, price = 0, missedPrev = false, frozen = false, ratchetYears = 0, cumAb = 0, e2029 = null, elecLoadPrev = 0, dElast = 0;
     const rows = [];
+    let cesBase = null; const clampT = yy => { const c = pol.ces, b = cesBase === null ? 0.45 : cesBase; return yy >= c.year ? c.target : b + (c.target - b) * (yy - (c.start - 1)) / (c.year - (c.start - 1)); };
     for (let y = Y0; y <= Y1; y++) {
       const n = y - Y0;
       // --- fee ---
@@ -186,7 +193,7 @@ const CFD = (() => {
       const dRes = retailAdj, eRes = w.elecRes + dRes, eCom = w.elecCom + dRes, eInd = w.elecInd + dRes; // cents/kWh
 
       const credPower = credNext;
-      const phi = pol.permitYear ? clamp((y - pol.permitYear) / 4, 0, 1) : 0; S.phi = phi; S.gp = pol.grid ? clamp((y - 2031) / 6, 0, 1) : 0; S.q45End = pol.credits ? 2045 : 2035; // current law: construction must start by end-2032, so plants online by about 2035; the credit bill extends it ten years
+      const phi = pol.permitYear ? clamp((y - pol.permitYear) / 4, 0, 1) : 0; S.phi = phi; S.gp = pol.grid ? clamp((y - 2031) / 6, 0, 1) : 0; S.gs = pol.gridStatute ? clamp((y - 2030) / 4, 0, 1) : 0; S.q45End = pol.credits ? 2045 : 2035; // current law: construction must start by end-2032, so plants online by about 2035; the credit bill extends it ten years
       const crOn = pol.credits && y >= 2030, cy = y - (2030 + w.crYears), crCons = !crOn ? 0 : cy < 0 ? 1 : cy === 0 ? 0.75 : cy === 1 ? 0.5 : 0, // consumer credits: ten years, then 75% and 50%
          crPow = crOn && (y < 2032 || powerPrev > 383); // IRA phase-out: power CO2 at 25% of 2022
       const erode = Math.pow(1.025, -(y - 2029)); credCost = 0;
@@ -232,7 +239,8 @@ const CFD = (() => {
       const fossH = (w.gasBldg + EF.gas * 1000 * Pe / 1000) / 0.85, hpH = ((eRes + eCom) / 2) / 100 * 293.07 / 2.8;
       const hpS = logistic(w.hpAsc - w.hpBeta * (hpH + w.hpPrem - crCons * w.crHp * erode - fossH));
       if (crCons) credCost += crCons * 84 * (1 - hp) / 18 * hpS * 3000 * erode / 1000; // 25C: 84m fossil-heated homes (ASSUMED from RECS shares)
-      if (y > Y0) hp += (1 - hp) / 18 * hpS;
+      if (y > Y0) hp += (1 - hp) / 18 * hpS + (pol.weatherize && y >= 2031 ? w.wxHomes / 84 * (1 - hp) : 0); // CLI-5: Weatherization funds heat pumps, about wxHomes million low-income homes a year
+      if (pol.weatherize && y >= 2031) credCost += 0; // its cost is CLI-5's ledger row, not modeled here
       bEff += 0.2 * ((1 - Math.pow((w.gasBldg + 53.1 * P / 1000) / w.gasBldg, w.bldgElast)) - bEff);
       const bBase = E25.buildings * Math.pow(1 + w.bldgTrend, n);
       const buildings = bBase * (1 - hp) * (1 - bEff);
@@ -271,6 +279,9 @@ const CFD = (() => {
       S.h2 = y >= 2032 ? { mm: (w.h2.p30 * Math.pow(w.h2.p50 / w.h2.p30, clamp((y - 2030) / 20, 0, 1)) - h2Cr) / 0.134, mt: w.h2.s32 + (w.h2.s50 - w.h2.s32) * (y - 2032) / 18 } : null;
       const d = dispatch(S, G, P, w, y);
       const power = d.emis; credCost += d.h2Mt * h2Cr;
+      const fossG = (d.gen.coal || 0) + (d.gen.cc || 0) + (d.gen.ct || 0) + 0.1 * (d.gen.ccs || 0), cleanShare = 1 - fossG / G;
+      if (pol.ces && y === pol.ces.start - 1) cesBase = cleanShare;
+      const cesTgt = pol.ces && y >= pol.ces.start ? clampT(y) : null, cesAcpBn = cesTgt !== null && (S.cesL || 0) >= w.cesAcp - 1e-6 ? Math.max(0, cesTgt - cleanShare) * G * w.cesAcp / 1000 : 0;
       if (fomBase === null) fomBase = S.coal * w.fom.coal;
       const fixed = capNew + (S.coal * w.fom.coal - fomBase) / 1000;                  // $bn/yr vs 2025
       const avgCost = (d.vcost + P * d.emis + fixed * 1000) / G;                       // $/MWh
@@ -310,7 +321,7 @@ const CFD = (() => {
       rows.push({ year: y, price: P, power, transport, ldv, industry, buildings, energy, process, methane, n2o, hfc: hfcEmis, covered: energy + coveredOther, ghgNet, target,
         below2005: 1 - energy / E2005, ghgBelow2005: 1 - ghgNet / NET2005, rev, gross, net, pool: poolD, transition: net * (1 - pol.dividendShare), perShare, family4: perShare * 3,
         gen: Object.assign({ nuclear: d.nucE, hydro: w.hydroOther + (S.hyd || 0), wind: d.windE * (1 - d.curt), solar: d.solE * (1 - d.curt) }, d.gen), G, cap: Object.assign({}, S), coalCF: d.coalCF,
-        credits: credCost + credPower, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
+        credits: credCost + credPower, cleanShare, cesPrice: S.cesL || 0, cesTarget: cesTgt, cesAcp: cesAcpBn, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
         gasoline: 0.0085 * PR, feeGasoline: pol.roadExempt ? 0 : 0.0085 * P, natgas: 0.0551 * P, elecDelta: dRes, deciles: FOOT.map(f => divPc - costPc * f / fMean), pop: pp, unserved: d.unserved, missed: missedPrev });
 
       // --- investment for next year (uses the expected fee) ---
@@ -330,7 +341,8 @@ const CFD = (() => {
       const capt = 7.124 * EF.gas * 0.9, incE = Math.max(Pe, y + 1 <= S.q45End ? w.q45 : 0);
       const effCC0 = lc(w.capex.cc, w.fom.cc, 0.6) + 6.37 * w.gasPower + 2.1 + Pe * 6.37 * EF.gas;
       const effCCS = lc(w.capex.ccs * w.ccsCostMult, w.fom.ccs, 0.8) + 7.124 * w.gasPower + 6.6 + w.ts * capt + Pe * 7.124 * EF.gas - incE * capt;
-      const effCC = pol.standards && y + 1 >= 2033 ? Math.max(effCC0, effCCS) + 5 : effCC0; // rule: new baseload gas needs capture
+      const lamN = S.cesL || 0;
+      const effCC = (pol.standards && y + 1 >= 2033 ? Math.max(effCC0, effCCS) + 5 : effCC0) + lamN; // rule: new baseload gas needs capture; CES credits for fossil output
       const nucCx = Math.max(w.nucFloor, w.nucCapex0 * Math.pow(nucCum, Math.log2(1 - w.nucLearn)));
       const nucItc = pol.nuclear && y + 1 >= 2030 ? w.npItc : (y + 1 <= 2033 ? 0.3 : y + 1 === 2034 ? 0.225 : y + 1 === 2035 ? 0.15 : 0); // current law keeps the nuclear credit to 2035
       const nucFcr = w.fcr - (pol.nuclear && y + 1 >= 2030 ? w.npFcr : 0);
@@ -358,7 +370,7 @@ const CFD = (() => {
       const wantW = Math.max(nn <= 2 ? w.pipeline.wind : w.floor.wind * pmF, (need * ws[1] / wsum + dWd) / (w.cf.newWind * 8.76));
       // what can actually be built: mature projects, industry capacity, grid access
       const gp = pol.grid ? clamp((y + 1 - 2029) / 3, 0, 1) : 0;
-      tx += w.txLag * (w.txBase + w.pmTx * phi + (crNext ? w.crTx : 0) + (Pe > 1 ? w.feeTx : 0) + w.gpTx * gp - tx);
+      tx += w.txLag * (w.txBase + w.pmTx * phi + (crNext ? w.crTx : 0) + (Pe > 1 ? w.feeTx : 0) + w.gpTx * gp + w.gsTx * (S.gs || 0) - tx);
       const T = w.icTime - w.pmIc * phi, at = w.attr - w.pmAttr * phi;
       const readyS = PS / T * (1 - at), readyW = PW / T * (1 - at);
       const grid = w.gridBase + w.gridPerPt * tx + w.gridRetire * ret + w.gpRecon * gp;
@@ -415,6 +427,10 @@ const CFD = (() => {
       if (crNext) credNext += 9; // transmission investment credit: 30% of about $30bn a year (ASSUMED)
       credNext += windElig.filter(c => c.end > y + 1).reduce((a, c) => a + c.twh, 0) * w.crPtc / 1000;
       powerPrev = power; retailAdj = retailNext;
+      if (pol.ces && y + 1 >= pol.ces.start) { // credit price moves toward the level that meets next year's target path, capped at the alternative compliance payment
+        const tgt = clampT(y + 1), sh = cleanShare;
+        S.cesL = clamp((S.cesL || 0) + w.cesGain * (tgt - sh), 0, w.cesAcp);
+      }
     }
     rows.ratchetYears = ratchetYears;
     return rows;

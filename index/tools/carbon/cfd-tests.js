@@ -45,4 +45,17 @@ ok('higher fee raises EV sales even with standards on', M.simulate({ permitYear:
 ok('vehicle rule reaches about 100% of sales by 2050', M.simulate({ permitYear: 2027, standards: true }, w)[25].evShare > 0.97);
 ok('long-duration storage and hydrogen appear under the fee', (fee[25].gen.ldes || 0) > 5 && (fee[25].gen.h2 || 0) > 1, (fee[25].gen.ldes || 0).toFixed(0) + ' and ' + (fee[25].gen.h2 || 0).toFixed(0) + ' TWh in 2050');
 ok('no hydrogen burned without a fee or credit', baseP.every(r => (r.gen.h2 || 0) < 0.5));
+// Project 2050 additions (road-fuel exemption, Clean Energy Standard, grid statute, Weatherization)
+{ const nf = { ...M.NOFEE, permitYear: 2027 }, road = y => (y >= 2030 ? 30 : 0);
+  const ex = M.simulate({ permitYear: 2027, roadExempt: true, roadPath: road }, w), full = M.simulate({ permitYear: 2027 }, w);
+  ok('road exemption: no gasoline in the fee', ex.every(r => r.feeGasoline === 0));
+  ok('road exemption: transport receipts fall', ex[10].rev.transport < 0.5 * full[10].rev.transport, ex[10].rev.transport.toFixed(0) + ' vs ' + full[10].rev.transport.toFixed(0));
+  ok('road exemption: road price still cuts car fuel vs none', M.simulate({ permitYear: 2027, roadExempt: true, roadPath: y => 0 }, w)[20].ldv > ex[20].ldv);
+  const ces = M.simulate({ ...nf, ces: { start: 2030, target: 0.8, year: 2035 } }, w);
+  ok('CES raises the clean share without a fee', ces[10].cleanShare > baseP[10].cleanShare + 0.05, (100 * ces[10].cleanShare).toFixed(0) + '% vs ' + (100 * baseP[10].cleanShare).toFixed(0) + '%');
+  ok('CES credit price stays within the payment cap', ces.every(r => r.cesPrice <= w.cesAcp + 1e-9 && r.cesPrice >= 0));
+  ok('CES: compliance payments only when the price is at the cap', ces.every(r => r.cesAcp === 0 || r.cesPrice >= w.cesAcp - 1e-6));
+  const gs = M.simulate({ ...nf, gridStatute: true }, w), wx = M.simulate({ ...nf, weatherize: true }, w);
+  ok('grid statute does not raise power emissions', gs[15].power <= baseP[15].power + 1);
+  ok('Weatherization adds heat pumps', wx[14].hp > baseP[14].hp); }
 console.log(fail ? fail + ' FAILED' : 'all passed'); process.exit(fail ? 1 : 0);
