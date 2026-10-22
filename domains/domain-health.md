@@ -78,7 +78,7 @@ Only HLT-1 and part of HLT-4 are felt before November 2030.
 
 - **D2:** HLT-3 and HLT-5 need the rules change.
 - **D5:** if R1 is lost, HLT-1, HLT-4 and HLT-6 move to R2, and the restoration's felt date slips a year.
-- **Capacity:** CMS and the marketplaces need the auto-enrollment build. CAP-7 names CMS (domains/domain-capacity.md): systems through the CAP-7S surge, staff through CAP-7's sustained increase.
+- **Capacity:** CMS delivery spans HLT-1 to HLT-6, not only auto-enrollment. CAP-7S's full multi-year surge is immediately available on enactment, targeting R1 in FY2029 (Espen, Oct 21). Continuing operations use CAP-7 or a reconciled HLT allowance. See domain-capacity.md's CMS annex and sources/health-cms-implementation-cost-register.csv. HLT administrative components and FY2029 cash remain unpriced; do not add CAP funding to embedded administration twice. Provider participation and enrollment safeguards need explicit design; no date or benefit change is adopted.
 - **Revenue:** the channel assignment of REV-H1a and REV-H1b is governed by domains/domain-revenue.md.
 
 ## Design-rule check
@@ -89,7 +89,7 @@ Only HLT-1 and part of HLT-4 are felt before November 2030.
 | Legibility | The $5,000 cap, the $2,000 drug cap and the public plan are named, visible benefits |
 | Pairing | The public option (structural) moves with the restoration and premium relief (material) |
 | Supply with demand | 14,000 residency slots and doubled health centers move with the coverage expansions |
-| Capacity first | CMS build named; funded through CAP-7S and CAP-7 |
+| Capacity first | CMS annex covers all six titles; immediate R1 surge availability targeted; recurring operations/state costs separated; delivery dates remain targets requiring validation |
 | Write for this Court | Taxing and spending power; severability between titles |
 | Every number has a basis | Go-big tab ranges; HLT-A3 is my estimate; the HLT-6 split and the HI need are estimates, flagged above |
 
