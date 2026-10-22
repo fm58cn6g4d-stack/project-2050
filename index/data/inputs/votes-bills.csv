@@ -51,7 +51,7 @@ HOU-7,FLOOR,0.01,0.1,0.12,0,2,0.15,0.2,no,estimate,Housing floor bill (zoning co
 AI-1,FLOOR,0.01,0.1,0.08,0,4,0.2,0.2,no,estimate,AI bill
 LAB-9D,FLOOR,0.005,0.03,0.03,0,10,0.5,0.05,no,estimate,National service authorization (bipartisan)
 CAP-8,FLOOR,0.01,0.08,0.06,0,4,0.25,0.15,no,estimate,Civil service and congressional capacity
-CAP-7S,APPROPS,0.01,0.08,0.08,0,0,0,0.1,no,estimate,Agency rebuild surge
+CAP-7S,R1,0.01,0.08,0.08,0,0,0,0.1,no,"estimate; R1 routing assumes eligibility, does not certify it",Agency rebuild surge (R1 target; reconciliation eligibility pending)
 CAP-7,APPROPS,0.005,0.06,0.06,0,0,0,0.1,no,estimate,Sustained capacity increase
 NSC-1,APPROPS,0.01,0.04,0.04,0.05,0,0,0.1,no,estimate,Defense flat real
 NSC-8,APPROPS,0.005,0.02,0.02,0,0,0,0.1,no,estimate,Pandemic preparedness

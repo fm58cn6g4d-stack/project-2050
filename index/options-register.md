@@ -343,7 +343,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | --- | --- | --- | --- |
 | CAP-4 option | Merkley-Daines appropriations fast track | 0 | Option |
 | CAP-7 at $0.5T (C17) | Agency rebuild at the low end | saves $0.1T | Declined Oct 20 |
-| CAP-7S + CAP-7 | Rebuild surge (~$0.6T, FY2030-35, borrowed inside the envelope, C42) + sustained increase (~0.12% of GDP, ~$0.49T in window) | ~$1.09T in window | **Decided Oct 20** (sizing accepted as working figures) |
+| CAP-7S + CAP-7 | ~$0.6T multi-year surge, fully available immediately on enactment, R1 target FY2029 (Oct 21); D4/C42 financing. Sustained increase ~0.12% of GDP, ~$0.49T in window | ~$1.09T in interim cash proxy; FY2029 acceleration unpriced | **Decided Oct 20; availability updated Oct 21.** Agency sizing provisional; Byrd/jurisdiction checks open |
 | CAP-7 batch 4 allocations | $31B of the $37B reserve (USCIS asylum $6B, civil-rights offices $6B, CAISI $6B, ATF/NICS $5B, State $8B) | within CAP-7 | Proposed, pending Espen |
 
 ### Amendments (domain-amendments.md)

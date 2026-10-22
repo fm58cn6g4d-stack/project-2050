@@ -25,7 +25,8 @@ How a vote works (the war game's model, unchanged):
   multi-title package, which the 2021-22 House did not).
 Calendar: under each path a regular-order bill also needs floor days. Bills are taken in target-date order (must-pass items first within a month) against
 the 163-day budget (less the reconciliation bills and the rules vote); one that does not fit gets no first-Congress
-vote. Annual appropriations (CAP-7S, CAP-7, NSC-1 ...) are one omnibus vote with a bipartisan crossover pool.
+vote. Annual appropriations (CAP-7, NSC-1 ...) are one omnibus vote with a bipartisan crossover pool.
+CAP-7S targets R1; this routing assumes eligibility and does not model Byrd/jurisdiction review.
 
 Inputs: index/data/inputs/votes-bills.csv (per-bill parameters, each with its basis) and votes-senate.csv (the
 roster and which seats each seat-count scenario includes). Every parameter is the war game's or an estimate.
@@ -196,6 +197,7 @@ def main():
       f"Some version of each reconciliation bill passes the Senate in {pc(r53['R1']['senate'])} (R1), {pc(r53['R2']['senate'])} (R2) and {pc(r53['R3']['senate'])} (R3) of them, but as written only {pc(r53['R1']['intact'])}, {pc(r53['R2']['intact'])} and {pc(r53['R3']['intact'])}: the rest pass after provisions are dropped. The provisions most often dropped are {dropped}. "
       f"Of {nfloor} regular-order bills, about {expected(base, 'F'):.1f} are enacted on average under F once the calendar is counted, against {expected(base, 'G'):.1f} under the carve-out fallback (G) and {expected(base, 'none'):.1f} with no rules change.\n")
     A("## By rules path\n")
+    A("**CAP-7S routing assumption (Oct 21):** the full multi-year surge targets R1, immediately available on enactment. Vote results assume reconciliation eligibility, not a Byrd/jurisdiction certification, including SSA scope. FY2029 cash costing is separate.\n")
     A(f"{PLANNING_SEATS} seats. Packages need a simple majority whatever the path; the path decides cloture for regular-order bills and the appropriations omnibus.\n")
     A("| Path | Rules change adopted | Regular-order bills enacted (of %d), with the calendar | Without the calendar limit | Appropriations omnibus enacted |\n| --- | --- | --- | --- | --- |" % nfloor)
     for p in PATHS:

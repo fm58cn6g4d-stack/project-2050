@@ -39,3 +39,9 @@ Conventions:
 - **Phase-in methods:** for `ramp`, the yearly levels grow 4% a year and are then normalised. For `norm`, the levels are normalised as typed. `same_as` borrows another row's profile.
 
 The scenario lists (incidence `SCEN`, fiscal `SCENARIOS`) and the accounting rules (`GF_RULE`, `OWN_RANGE` in ledger-build.py) are still in the scripts.
+
+## Surge availability and cash
+
+`capacity-funding.csv` records the approved immediate multi-year availability of CAP-7S (R1 target FY2029), separately from `fiscal-years.csv` cash outlays. Blank FY2029 cash means unpriced, not zero. A priced update needs a reconciled lifetime amount, revised 2030-39 window and C42, and debt/interest/envelope rerun; the diagnostic deliberately rejects an unreconciled number.
+
+The hand-written CMS administrative-cost work register is `sources/health-cms-implementation-cost-register.csv`, not a scored input table. Its blanks must never become zero-cost rows.

@@ -34,32 +34,36 @@ python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 echo "== 6b. carbon model";    (cd "$TOOLS"/carbon && node cfd-tests.js >/dev/null) || { echo "carbon model checks failed: run node index/tools/carbon/cfd-tests.js"; exit 1; }
                                 cp "$TOOLS"/carbon-model.py "$BUILD"/; python3 carbon-model.py
 echo "== 6c. dedicated funds";  cp "$TOOLS"/funds-model.py "$BUILD"/; python3 funds-model.py
+echo "== 6d. surge funding";  python3 "$TOOLS"/test_capacity_funding.py
+                               cp "$TOOLS"/capacity-funding.py "$BUILD"/; python3 capacity-funding.py
 echo "== 7. dashboard data";   python3 "$TOOLS"/dashboard-data.py >/dev/null
 echo "== 8. consistency check"; cp "$TOOLS"/check-project.py "$TOOLS"/window.py "$BUILD"/; python3 check-project.py
 
-declare -A OUT=(
-  [2029-trifecta-master-ledger-v2.md]=index/2029-trifecta-master-ledger.md
-  [revenue-household-incidence-model.md]=index/revenue-household-incidence-model.md
-  [fiscal-long-term-model.md]=index/fiscal-long-term-model.md
-  [fiscal-baseline.csv]=index/data/fiscal-baseline.csv
-  [fiscal-paths.csv]=index/data/fiscal-paths.csv
-  [check-report.md]=index/check-report.md
-  [vote-simulation.md]=index/vote-simulation.md
-  [dedicated-funds.md]=index/dedicated-funds.md
-  [climate-carbon-model.md]=index/climate-carbon-model.md
-  [dashboard/bills.json]=index/data/dashboard/bills.json
-  [dashboard/revenue.json]=index/data/dashboard/revenue.json
-  [dashboard/cuts.json]=index/data/dashboard/cuts.json
-  [dashboard/conflicts.json]=index/data/dashboard/conflicts.json
-  [dashboard/paths.json]=index/data/dashboard/paths.json
+OUT=(
+  'capacity-funding-model.md|index/capacity-funding-model.md'
+  '2029-trifecta-master-ledger-v2.md|index/2029-trifecta-master-ledger.md'
+  'revenue-household-incidence-model.md|index/revenue-household-incidence-model.md'
+  'fiscal-long-term-model.md|index/fiscal-long-term-model.md'
+  'fiscal-baseline.csv|index/data/fiscal-baseline.csv'
+  'fiscal-paths.csv|index/data/fiscal-paths.csv'
+  'check-report.md|index/check-report.md'
+  'vote-simulation.md|index/vote-simulation.md'
+  'dedicated-funds.md|index/dedicated-funds.md'
+  'climate-carbon-model.md|index/climate-carbon-model.md'
+  'dashboard/bills.json|index/data/dashboard/bills.json'
+  'dashboard/revenue.json|index/data/dashboard/revenue.json'
+  'dashboard/cuts.json|index/data/dashboard/cuts.json'
+  'dashboard/conflicts.json|index/data/dashboard/conflicts.json'
+  'dashboard/paths.json|index/data/dashboard/paths.json'
 )
 echo; echo "== changes against the committed files"
-for f in "${!OUT[@]}"; do
-  if diff -q "$BUILD/$f" "$ROOT/${OUT[$f]}" >/dev/null 2>&1; then echo "  unchanged  ${OUT[$f]}";
-  else echo "  CHANGED    ${OUT[$f]}  ($(diff "$BUILD/$f" "$ROOT/${OUT[$f]}" | grep -c '^[<>]') lines differ)"; fi
+for pair in "${OUT[@]}"; do
+  f="${pair%%|*}"; dest="${pair#*|}"
+  if diff -q "$BUILD/$f" "$ROOT/$dest" >/dev/null 2>&1; then echo "  unchanged  $dest";
+  else echo "  CHANGED    $dest  ($(diff "$BUILD/$f" "$ROOT/$dest" | grep -c '^[<>]') lines differ)"; fi
 done
 if [[ $WRITE == 1 ]]; then
-  for f in "${!OUT[@]}"; do cp "$BUILD/$f" "$ROOT/${OUT[$f]}"; done
+  for pair in "${OUT[@]}"; do cp "$BUILD/${pair%%|*}" "$ROOT/${pair#*|}"; done
   echo "Copied outputs into index/."
 else
   echo "Dry run: nothing copied. Rerun with --write to update index/."
