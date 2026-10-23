@@ -137,12 +137,18 @@ def main():
     bills = []
     for r in B:
         (i,legacy,name,dom,src,rail,chan,lo,mid,hi,own,basis,note,days,felt,dur,tgt) = r
-        y,m = map(int,tgt.split("-"))
-        fm = (y-2029)*12 + (m-1) + felt
+        # Revised legislative windows are not verified household-delivery dates.
+        # In particular DEM-1's March target is floor start, not enactment.
+        timing_unverified = rail in ("R1", "R2", "R3") or i in ("DEM-1", "SS-1")
+        if timing_unverified:
+            fm = None
+        else:
+            y,m = map(int,tgt.split("-"))
+            fm = (y-2029)*12 + (m-1) + felt
         bills.append(dict(id=i,legacy=legacy,bill=name,domain=dom,source=src,rail=rail,rail_name=RAILS[rail],channel=chan,
             cost_lo=lo,cost_mid=mid,cost_hi=hi,own_revenue=own,net_mid=round(mid-own,3),
             basis=basis,basis_note=note,floor_days=int(days),felt_months=felt,durability=dur,target=tgt,
-            felt_by_midterm="Yes" if felt_by_mid(fm) else "No"))
+            felt_by_midterm="Unverified" if fm is None else ("Yes" if felt_by_mid(fm) else "No")))
     in_window = [b for b in bills if b["rail"] not in ("LATER","T2")]
     for b in bills:
         rule = GF_RULE.get(b["id"], "all" if b["channel"].startswith("General fund") or b["channel"]=="None" else "none")

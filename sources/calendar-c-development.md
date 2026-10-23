@@ -1,10 +1,15 @@
 # Calendar C: October 23 development case
 
-**Status:** development authorized by Espen; this is a planning specification, not a validated leadership schedule or a model-input change. Source baseline: claude/pensive-mendel-g1lwl5 at e15c5c4a711b4cd2b482bac8300de45f2e08721f. Governing D1/D2/D5/D8 and governing/project-2050-post-pilot-decisions.md control the direction.
+
+**October 23 approval and timing amendment.** DEM-1 floor consideration begins no later than March 2029. The normal sequence follows early R1 signature and its benefits announcement, but an R1 delay must trigger an explicit recovery decision rather than automatically postpone DEM-1 beyond March. The spring-2030 enactment target and mid-2030 outer deadline remain.
+
+Congressional terms begin January 3, before the presidential term begins January 20 (Twentieth Amendment). Organizing, rules, introduction, committee work, scoring and agreed legislative preparation can proceed before inauguration. Other priorities may reach the floor early and move in parallel; R1 and DEM-1 are not a serial gate on the rest of the agenda. Pre-drafted and agreed text can accelerate consideration, subject to actual procedures, votes and floor capacity. Congressional action before inauguration does not assume the incoming President already holds office.
+
+**Status:** development authorized by Espen; this is a planning specification, not a validated leadership schedule. Planning target fields and protected capacity reservations are updated without changing costs or durations. Source baseline: claude/pensive-mendel-g1lwl5 at e15c5c4a711b4cd2b482bac8300de45f2e08721f. Governing D1/D2/D5/D8 and governing/project-2050-post-pilot-decisions.md control the direction.
 
 ## Fixed directions and distinct clocks
 
-R1 targets administration weeks 3–4; February preferred and March latest. It is the affordability/restoration package, with visible household delivery and preparation for longer reforms. D2-F is a first-Senate-week action, not an administration-week-3 action. DEM-1 takes the floor after R1 signature/benefits announcement, without a compulsory midyear delay, and targets spring-2030 enactment within mid-2030. SS remains spring 2030, with its closer open. R2 targets summer 2029 on the FY2030 resolution; R3 remains summer 2030.
+R1 targets administration weeks 3–4; February preferred and March latest. It is the affordability/restoration package, with visible household delivery and preparation for longer reforms. D2-F is a first-Senate-week action, not an administration-week-3 action. DEM-1 takes the floor with floor consideration starting by March 2029 at latest, and targets spring-2030 enactment within mid-2030. SS remains spring 2030, with its closer open. R2 targets summer 2029 on the FY2030 resolution; R3 remains summer 2030.
 
 MOV-31 is considered in the second Congress seated January 2031 for FY2032–36. Its assumed predecessor expiry at end FY2031 is a planning premise requiring verification/continuity planning, not a verified claim that a future authorization has passed. A late authorization may use an explicit extension. Do not accelerate MOV into 2029–30 merely to satisfy general first-Congress wording. The separate 2029/2030 transportation reconciliation components remain. Second Congress 2031–32 differs from the DEM-3/4/9 second-trifecta package in 2033.
 
@@ -12,12 +17,12 @@ MOV-31 is considered in the second Congress seated January 2031 for FY2032–36.
 
 The existing F case is 172 = 51 reconciliation + 4 rules + 117 regular-order days against 163. MOV is already excluded. New CLI-3/6 net savings s and additional reserve/capacity b remain unknown: C = 172 − s + b. Retain CLI-7/8 fallback; count earlier passage only for enacted complete coverage. No extra credit for existing C23–C28 mergers/fast tracks/nomination measures.
 
-The following inventory reproduces the unchanged input targets for traceability; they are **not approved new reservations**. Raw floor inputs pass through ledger-paths.py’s F minimum and fast-track treatment. Durations are legacy planning estimates, not validated procedural estimates. The full 21-bill scope remains visible:
+The following inventory records the updated planning targets; they are **not validated dated reservations**. Raw floor inputs pass through ledger-paths.py’s F minimum and fast-track treatment. Durations are legacy planning estimates, not validated procedural estimates. The full 21-bill scope remains visible:
 
-| Bill | Legacy modeled F days | Existing input target | Scope |
+| Bill | Legacy modeled F days | Current planning target | Scope |
 | --- | --- | --- | --- |
 | HLT-3 | 8 | 2030-02 | Health III: Public option guarantee with auto-enrollment (carries HLT-5) |
-| SS-1 | 8 | 2030-06 | Social Security: solvency first, targeted increase (D8 baseline, SS-1 to SS-4) |
+| SS-1 | 8 | 2030-spring | Social Security: solvency first, targeted increase (D8 baseline, SS-1 to SS-4) |
 | CLI-3 | 6 | 2030-01 | Clean Energy Standard in statute plus AAJA fixes (Sec. 1401 override, Judgment Fund cap, 401 and rail fixes); carries CLI-4 Clean Air Act restoration |
 | CLI-6 | 4.5 | 2030-05 | Grid and utility statute (transfer minimums, PBR standard, utility lobbying ban, RTO governance, large-load floor extension) |
 | CLI-7 | 4.5 | 2030-05 | Disaster response and flood insurance, with CLI-8 climate risk (cabinet FEMA, mitigation set-aside, NFIP with premium support, floodplain standard) |
@@ -27,7 +32,7 @@ The following inventory reproduces the unchanged input targets for traceability;
 | COM-1 | 5 | 2030-03 | Competition bill: merger law, enforcers and HSR fees, platforms, non-compete ban, junk fees, CFPB durability (COM-1 to COM-6; E10 merged, C24) |
 | IMM-1 | 12 | 2029-09 | Immigration bill: tiered legalization, backlogs and H-1B fee, asylum processing, enforcement priorities and detention cap, birthright codification, USCIS delivery (IMM-1 to IMM-6) |
 | AI-1 | 5 | 2030-05 | AI bill: frontier transparency, floor preemption, pre-deployment evaluation, government use, platform transparency, public media and FOIA (AI-1 to AI-3, AI-5, AI-7, AI-10); carries EDU-8's education rules |
-| DEM-1 | 10 | 2029-07 | Electoral and civil-rights package: Freedom to Vote floor, John Lewis VRAA, Callais response, 6:1 match (INT-5B), DISCLOSE (INT-2); carries DEM-2, DEM-12, DEM-13 |
+| DEM-1 | 10 | 2029-03 | Electoral and civil-rights package: Freedom to Vote floor, John Lewis VRAA, Callais response, 6:1 match (INT-5B), DISCLOSE (INT-2); carries DEM-2, DEM-12, DEM-13 |
 | DEM-5 | 5 | 2029-03 | D.C. statehood |
 | DEM-6 | 4.5 | 2029-03 | Puerto Rico Status Act (with DEM-7 territorial and tribal representation) |
 | INT-1 | 1 | 2029-05 | [Fast track C27] Government ethics and anti-corruption (stock ban, divestiture, IGs; INT-1, INT-3, INT-4, INT-6) |
@@ -51,7 +56,7 @@ The table totals 117 modeled days across 21 bills. A reserved earlier SS place m
 | C-05: disaster precursor | Exact earlier enacted CLI-7/8 coverage and residual statutory work | Keep full fallback unless actual scope eliminates it; no hoped-for 4.5-day saving |
 | C-06: full capacity | Explained 163-day basis, appropriations, nominations, NDAA, other business, conference and disruption; every inventory row accounted for | b unknown, not zero; identify additional days or return specific scope choices to Espen |
 | C-07: second-Congress MOV | Predecessor authority/expiry, continuity and coalition; committee/House/conference plan; data/privacy clauses needed before earlier operations | MOV floor duration m₂ and contingency unknown; do not assume a first-Congress vote or free second-Congress passage |
-| C-08: synchronized inputs | Approved windows/dependencies and scenario representation, then generators and diffs | No model input changed in this pass. Do not guess a summer month, merger saving, reserve or launch merely to satisfy schema. |
+| C-08: synchronized inputs | Approved windows/dependencies and scenario representation, then generators and diffs | Planning windows and protected reservations are updated. Do not guess a summer month, merger saving, reserve or launch merely to satisfy schema. |
 
 These are local work labels, not new policy IDs or supported duration estimates.
 
@@ -63,4 +68,4 @@ May–June R1 delays authority for restoration, CTC preparation, transport and s
 
 [2 USC 631](https://uscode.house.gov/us/usc/119-118/t2/s631/) places reconciliation work before October 1; [632(a), (b)(2)](https://uscode.house.gov/us/usc/119-118/t2/s632/) addresses the coming fiscal year’s resolution and instructions; [641](https://uscode.house.gov/us/usc/119-118/t2/s641/) sets the committee/reporting route and OASDI prohibition. This supports pre-FY2030 enactment in principle, not clearance of a bill. [644](https://uscode.house.gov/us/usc/119-118/t2/s644/) still governs extraneous matter. OLRC text inspected October 23; official CRS R44058 retrieval failed. Exact predecessor-reauthorization enactment/expiry was not independently verified in this revision.
 
-Sources: governing decisions D1/D2/D5/D8; democracy DEM-1F; transportation draft/calendar source; index/data/inputs/ledger-bills.csv; ledger-paths.py and votes-model.py; saved legislative-calendar reconciliation and post-pilot brief. No current floor manager, specialist, House calendar or negotiated coalition estimate was obtained. No numerical input or generated output changed.
+Sources: governing decisions D1/D2/D5/D8; democracy DEM-1F; transportation draft/calendar source; index/data/inputs/ledger-bills.csv; ledger-paths.py and votes-model.py; saved legislative-calendar reconciliation and post-pilot brief. No current floor manager, specialist, House calendar or negotiated coalition estimate was obtained. Costs, durations, vote parameters and fiscal profiles are unchanged; planning targets and generated records are updated.

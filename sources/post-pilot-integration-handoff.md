@@ -1,54 +1,48 @@
-# Post-pilot integration: scope, validation and next pass
+# Post-pilot integration handoff
 
-October 23, 2026 · **Draft review branch; not merged.**
+October 23, 2026 · Espen approved PR #4 and the recommended sequence, with **DEM-1 floor consideration beginning no later than March 2029**.
 
-## Why this update
+## Authority and changes
 
-The approved working corpus at claude/pensive-mendel-g1lwl5, e15c5c4a711b4cd2b482bac8300de45f2e08721f, had fallen behind Espen’s post-pilot decisions and saved research. This pass makes those decisions, corrections and source roles reviewable together. It does not turn every research recommendation into adopted policy.
+The starting approved working head is claude/pensive-mendel-g1lwl5 at e15c5c4a711b4cd2b482bac8300de45f2e08721f; PR #4 starts at fe0ab86d241c293eabff259911c2987ae5f737ea. Main is not the selected baseline. The PR/merge record supplies the new working commit. All original tracked files were compared with the PR tree; local snapshot history is not used as the remote parent.
 
-## Changed records
+Governing and canonical records now state the March-latest DEM floor start. Normal sequencing follows early R1; an R1 delay requires an explicit recovery decision rather than automatic postponement. Spring-2030 enactment and the mid-2030 outer deadline remain.
 
-| File | Change | Classification |
+Congressional terms begin January 3, before the January 20 presidential terms. Pre-drafting, organization, committee/scoring work and other priorities can move early/in parallel. The agenda is not serialized behind R1/DEM; incoming presidential authority is not presumed before inauguration.
+
+Planning inputs represent February R1, summer-2029 R2, summer-2030 R3, March-2029 DEM floor start and spring-2030 SS. Seasonal labels avoid invented summer months. Costs, durations, vote parameters, fiscal profiles and health launch dates are unchanged. Canonical health/family prose qualifies the old exactly-one-year lost-R1 delay.
+
+The vote model protects DEM/SS capacity before remaining allocation. This is not actual floor order or proof of dated feasibility. Under unchanged F capacity, CLI-6 and CLI-7 remain excluded; exclusion is not an adopted deferral. MOV remains second Congress. Unknown reserve, merger savings, MOV duration and FY2029 cash remain explicit.
+
+Revised legislative targets no longer automatically imply household receipt: affected felt-by-midterm fields are Unverified. A lower count of Yes labels is not an adopted reduction in benefits or a forecast of delivery failure.
+
+## Verification and differences
+
+The full run-all pipeline passed, including transportation, carbon, capacity checks and six added calendar regressions. A separate rebuild of the prior inputs establishes identical fiscal baseline/path CSVs, carbon JSON and dedicated-fund JSON. Existing input fields other than target are unchanged.
+
+The prior-input rebuild already gives a $5.99T ledger base, $5.11T gap and about +$0.25T after accepted options instead of stale $5.98T/$5.12T/+0.26T headlines. Current prose is synchronized; the calendar change did not cause this discrepancy. The fiscal model's separate calibration convention remains disclosed.
+
+Revenue prose also incorrectly named $3.53T accepted revenue while listing adopted C43; the ledger already includes $3.71T. Current status is corrected: REV-SC1/C43 is adopted and supplies no second reserve if TS12 scores low. No tax amount changes.
+
+All 21 regular-order bills remain in scope. The F accounting is still 117 regular-order + 51 reconciliation + four rules = 172 against 163. Protecting DEM/SS displaces other work and creates no time.
+
+The consistency report retains one dated-audit headline mismatch ($5.12T versus regenerated $5.11T), one unknown ID, one register-ID finding, four domain/ledger findings and two incidence-table findings. These pre-existing issues are preserved for focused reconciliation. A successful software rebuild is not an audit opinion, official score, permission determination or legal clearance.
+
+## Follow-up products and remaining gates
+
+| Work | Completed development layer | Still needed |
 | --- | --- | --- |
-| governing/project-2050-governing-decisions.md | MOV second-Congress exception; R1 weeks 3–4/February preferred/March latest; conditional summer R2; DEM after-signature clarification; approved development directions | Approved direction prepared for integration |
-| governing/project-instructions.md | Read research register/handoff; distinguish stale generated targets and source roles; no email authority | Working-rule/source synchronization |
-| domains/domain-democracy.md | Existing health contacts before 2030; preserve HLT-3 dates; correct unsupported administrative-cost certainty and constitutional-sufficiency claim; retain package/default/DEM-2A | Approved record correction and qualified findings; no numeric rescore |
-| index/options-register.md | Status pointers for approved development and unchosen poverty alternatives | Handwritten register; no new summed option |
-| governing/project-2050-post-pilot-decisions.md | Revised approval record and corrected calendar; child-poverty findings/status; retained decisions | Decision brief, source-referenced |
-| sources/calendar-c-development.md | Full 21-bill inventory and work/dependency gates; capacity/merger/contingency accounting | Authorized planning development; legacy durations explicitly unvalidated |
-| sources/democracy-post-pilot-review-packet.md | Two-path service specification/acceptance cases and parallel legal prototypes/injunction matrix | Authorized development, not adopted legal language or clearance |
-| sources/project-2050-research-register.md | Charter/bibliography/pilot/follow-up identities, completed-poverty-report filing mismatch and retained useful components | Research/source status |
-| sources/post-pilot-integration-handoff.md | This scope/validation/next-pass record | Handoff |
+| Calendar C | Full inventory, windows, protected capacity, conditional alternatives and early/parallel preparation | Supported merger/coalition, capacity/reserve, bicameral dates and actual resolution/procedural review |
+| Registration | Assisted/automatic specifications, acceptance cases, correction and evidence packet | Current permission/operations records, reach, price and successor contracts |
+| Title III | Parallel prototypes, remedy/separability and coverage-loss matrix, focused review packet | Text-specific specialist review, current evidence, state critical paths and costs |
+| Child poverty | Rule sheet, baseline/branch specification, model/data requirements and overlap-safe attribution | Eligibility/provenance choices, data/model access and actual microsimulation |
+| HLT-6/TS12 | Initial mechanism/account/source bridge and selected primary checks | Annual/joint scores, behavior, costs and specialist review |
 
-## Inputs and generated files: explicitly pending
+The latest searches still identify the two named poverty Markdown files as preliminary notes. The separately saved completed report was read; final attachment bodies remain inaccessible. Do not replace preliminary records with reconstructed final text.
 
-No index/data/inputs file, model, generator, generated document, dollar amount, health launch date or adopted eligibility rule is changed here. That protects against invented precision while the approved directions enter review. It also means the following differences are **known outstanding work**, not a clean bill of consistency:
+## Integration and continuity
 
-- R1-linked April and R2 October targets do not implement the new windows. Decide a representation for windows/dependencies before inserting point months.
-- SS-1’s June target conflicts with its protected spring target. DEM must follow R1 signature without a compulsory midyear wait.
-- A target-sort model is not a critical-path scheduler and can displace protected bills. Build dependency/reservation scenarios and expose the bill displaced.
-- CLI-3/6 savings require a supported combined duration/coalition. CLI-7/8 fallback remains unless actual earlier enactment eliminates the work.
-- The 172-day F baseline already excludes MOV. Its 163-day capacity basis and reserve remain to be explained. Second-Congress MOV time and contingency are unknown.
-- Old generator prose about a guaranteed first-Congress fit, midyear DEM and hoped-for nine-day savings must change with the relevant scenario/input pass, then be regenerated—not manually patched.
-- FY2029 surge cash and service costs remain unpriced. Earlier signature is not a new cash profile, poverty outcome or revised long-term fiscal score.
+Proceed with authorized PR #4 integration after final diff/check review. Refresh the saved brief and supply the new commit to other work chats; their context does not update automatically. The charter's e15c5c4 pointer remains the historical approval baseline; the subsequent approved working commit controls current analysis.
 
-A report generated successfully from old inputs remains an old scenario. The approved governing directions take precedence, and every interim analytical task must disclose this mismatch.
+Restoration, DEM-1A, DEM-2A, broader automatic registration and adopted benefit/health designs remain. Narrower prototypes and poverty expansion alternatives are not adopted. No emails, records requests or reviewer contacts were sent.
 
-## Validation performed and blocked
-
-**Performed through available tools:** reverified authoritative working-head commit; retrieved original contents of all four edited existing files at that exact commit; reviewed edits against those originals; reconstructed the 21-row regular-order inventory and F treatment from the pinned CSV, yielding 117 days, and 172 = 117 + 51 + 4; checked MOV exclusion and corrected conditional formulas; checked new local Markdown links/reference labels and restriction boundaries.
-
-**Prior checks retained as dated evidence:** baseline file/blob matches and initial calendar reconstruction; CMS archive source hashes/exact calculations and workbook checks described in the earlier brief. They are not new executions.
-
-**Blocked:** local workspace/exec transport became unavailable. No local run-all, unit suite, full consistency checker, fiscal regeneration, production transaction, current permission check, specialist review or poverty simulation was run for this draft. The saved external Markdown brief could not be refreshed through a local upload; the revised repository brief is the prepared current approval record. Check the actual PR CI separately before merge.
-
-## Next actions, in order
-
-1. Review this focused source/approval diff and reconcile the completed child-poverty final attachment identities. Do not wait for every price or legal answer before updating approved direction records.
-2. Once workspace access is restored, prepare a coordinated calendar input/generator pass: windows, dependencies, protected reservations, separate/no-merger/earlier-disaster scenarios, explicit reserve and MOV’s second-Congress workload. Obtain procedural review for successive resolutions and R1 instruction availability. Avoid invented numerical inputs.
-3. Run the required generators/checks and review every numerical/output difference; retain unknown values and source/basis tags. Then merge only with Espen’s integration authorization and update the selected baseline pointer/external copies.
-4. Advance the authorized registration and Title III packets with focused review; external submissions require permission. Define the FAM-1 eligibility/delivery rule sheet and child-poverty microsimulation brief, with overlapping residual mechanisms handled correctly. Keep HLT-6/REV-TS12 and care-access investigations bounded.
-
-**For Espen:** actual merger/capacity choices, reduced-reach staging if proposed, specific legal standards after review, unresolved family eligibility/provenance and which poverty alternatives to compare. Calendar C development, MOV placement, early R1 priority and the approved parallel tracks do not need to be reauthorized.
-
-No emails, records requests, messages to specialists, merge or adoption of unchosen policy is performed.

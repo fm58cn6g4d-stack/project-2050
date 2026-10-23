@@ -1,5 +1,10 @@
 # Democracy: post-pilot service and Title III review packet
 
+
+**October 23 approval and timing amendment.** DEM-1 floor consideration begins no later than March 2029. The normal sequence follows early R1 signature and its benefits announcement, but an R1 delay must trigger an explicit recovery decision rather than automatically postpone DEM-1 beyond March. The spring-2030 enactment target and mid-2030 outer deadline remain.
+
+Congressional terms begin January 3, before the presidential term begins January 20 (Twentieth Amendment). Organizing, rules, introduction, committee work, scoring and agreed legislative preparation can proceed before inauguration. Other priorities may reach the floor early and move in parallel; R1 and DEM-1 are not a serial gate on the rest of the agenda. Pre-drafted and agreed text can accelerate consideration, subject to actual procedures, votes and floor capacity. Congressional action before inauguration does not assume the incoming President already holds office.
+
 October 23, 2026 · **Authorized development, not adopted operative language or specialist clearance.**
 
 Source baseline: claude/pensive-mendel-g1lwl5, e15c5c4a711b4cd2b482bac8300de45f2e08721f. Espen approved assisted/automatic service development and parallel Title III drafting. Retain DEM-1E’s broader default, DEM-1A’s package, restoration and DEM-2A. Read governing/project-2050-post-pilot-decisions.md and the saved transaction/Title III follow-ups identified in project-2050-research-register.md. This packet develops their choices; it does not certify constitutionality, disclose benefits records or contact reviewers.

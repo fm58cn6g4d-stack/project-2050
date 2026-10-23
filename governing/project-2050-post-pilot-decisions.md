@@ -1,8 +1,13 @@
 # Project 2050: Post-pilot decisions
 
+
+**October 23 approval and timing amendment.** DEM-1 floor consideration begins no later than March 2029. The normal sequence follows early R1 signature and its benefits announcement, but an R1 delay must trigger an explicit recovery decision rather than automatically postpone DEM-1 beyond March. The spring-2030 enactment target and mid-2030 outer deadline remain.
+
+Congressional terms begin January 3, before the presidential term begins January 20 (Twentieth Amendment). Organizing, rules, introduction, committee work, scoring and agreed legislative preparation can proceed before inauguration. Other priorities may reach the floor early and move in parallel; R1 and DEM-1 are not a serial gate on the rest of the agenda. Pre-drafted and agreed text can accelerate consideration, subject to actual procedures, votes and floor capacity. Congressional action before inauguration does not assume the incoming President already holds office.
+
 October 23, 2026 · Revised after Espen’s decisions
 
-**Status:** approved directions recorded; coordinated repository changes prepared for review, not merged. Draft legal/service provisions remain proposals. No model inputs or adopted benefit amounts are changed. No email, records request or outside review has been initiated.
+**Status:** approved directions recorded; approved for integration, with the March floor-start amendment. Draft legal/service provisions remain proposals. Planning targets and capacity reservations are updated; adopted benefit amounts, fiscal profiles and launch dates are unchanged. No email, records request or outside review has been initiated.
 
 **Correction:** MOV-31 belongs in the second Congress, seated January 2031. My first brief incorrectly recommended bringing it into 2029–30. Its FY2032–36 authorization window and the separate transportation reconciliation components in 2029/2030 remain intact. The assumed predecessor’s end-FY2031 expiry does not require calendar-2031 enactment, but does require a continuity strategy if authorization is delayed.
 
@@ -27,11 +32,11 @@ Implement goals as soon as legally and practically possible in a durable, effect
 
 ### Current commitment and verified problem
 
-Retain D2-F and minority guarantees, DEM-1 consideration after R1 signature with spring-2030 enactment targeted and mid-2030 the outer deadline, D8’s spring-2030 SS bill, and R3 in summer 2030. DEM-3/4/9 remain the distinct 2033 second-trifecta package. MOV-31 is a second-Congress authorization, not part of that 2033 package. [G; DEM; SS; MOV]
+Retain D2-F and minority guarantees, DEM-1 floor consideration beginning by March 2029 at latest, normally after early R1 signature, spring-2030 enactment targeted and mid-2030 the outer deadline, D8’s spring-2030 SS bill, and R3 in summer 2030. DEM-3/4/9 remain the distinct 2033 second-trifecta package. MOV-31 is a second-Congress authorization, not part of that 2033 package. [G; DEM; SS; MOV]
 
 The unchanged baseline requires **172 Senate session days against 163**: three reconciliation vehicles consume 51, the rules vote four, and 21 regular-order bills 117. MOV-31 is already on the LATER rail. Keeping it in 2031 therefore supplies **no additional saving** against 172. Existing mergers, fast tracks and nomination savings are already counted. The source inputs and script conventions were independently reconstructed in the initial brief; no new numerical model run is claimed. [BILLS; LP; VM; CAL]
 
-The target-ordered vote model excludes CLI-7 and SS-1 when capacity runs out. Reserving SS-1 earlier changes displacement, not total capacity. Its June input conflicts with D8’s spring window. R1-linked April targets and R2 October targets now also need coordinated input reconciliation. These are explicitly pending, rather than silently replaced with guessed dates. Unknown reserve for appropriations, nominations, NDAA, amendments, conference and disruption remains unknown. [BILLS; VM; LEDGER]
+The earlier target-ordered model excluded CLI-7 and SS-1. The updated capacity allocation reserves DEM-1 and SS-1 first and leaves CLI-6 and CLI-7 outside the unchanged 163-day allowance. This is displacement, not a solved schedule. Targets now represent February R1, summer R2/R3, March DEM floor start and spring SS; no particular summer month is selected. Unknown reserve for appropriations, nominations, NDAA, amendments, conference and disruption remains unknown. [BILLS; VM; LEDGER]
 
 ### Can FY2030 reconciliation pass during FY2029?
 
@@ -61,7 +66,7 @@ CLI-3/6 separately use 6 + 4.5 = 10.5 modeled days under F. If a combined bill n
 | First Senate week, January 2029 | D2-F as adopted | Senate week one differs from administration weeks 3–4 |
 | Administration weeks 3–4; February preferred | R1 affordability/restoration, CTC, transport first act and immediate surge authority | Bicameral agreement, instructions and text-specific eligibility; signature is not household receipt |
 | March latest | Recovery/escalation if February slips | Preserve urgency and identify each benefit/preparation delay |
-| After R1 signature | Earliest workable DEM-1 floor route and benefits explanation | No compulsory May–June wait; preserve spring-2030 target/mid-2030 outer deadline |
+| By March 2029 at latest | Begin DEM-1 floor consideration; normal sequence after early R1 and benefits explanation | No compulsory May–June wait; preserve spring-2030 target/mid-2030 outer deadline |
 | Spring preparation; summer 2029 target | R2 using FY2030 instructions | Verify sequential budget handling, scoring and readiness; earlier enactment does not prove earlier service launch |
 | Remaining 2029–30 | Reserve all other first-Congress bills, House work and conference | A supported complete calendar/reserve remains to be established |
 | Protected spring 2030 | SS-1 and remaining DEM work | D8 closer open; OASDI cannot be shifted into reconciliation under §641(g) |
@@ -99,7 +104,7 @@ This language leaves DEM-1E's automatic-registration commitment in force. It doe
 
 **Evidence that could change the assessment:** a separately approved health-date change; verified reach by contact type, including renewals completed without a response; exact effective dates and enrollment readiness for other programs; and tested registration disposition rather than portal traffic.
 
-**Approval recorded:** Espen approved preparation of this correction across DEM-1E/F and public explanations, preserving HLT-3 dates. The coordinated edits are prepared in a draft PR; integration is not merged. The unsupported about-zero administrative estimate should be flagged for qualification; this brief neither substitutes a numerical score nor changes a ledger row.
+**Approval recorded:** Espen approved preparation of this correction across DEM-1E/F and public explanations, preserving HLT-3 dates. Espen approved the coordinated edits and integration, with DEM-1 floor consideration by March 2029 latest. The unsupported about-zero administrative estimate should be flagged for qualification; no numerical registration cost score is substituted.
 
 ## 3. Choose how to develop the 2030 registration service
 
@@ -170,11 +175,11 @@ The primary National Academies alternatives chapter confirms important differenc
 ### Repository update sequence
 
 1. **Prepare approved records and research links now:** governing D1/D5/DEM timing, democracy E/F/public explanation, research-status register, Calendar C development and registration/Title III review packet. A focused draft branch makes the changes reviewable without treating research recommendations as adopted.
-2. **Reconcile calendar inputs and generators together:** approved R1/R2 windows, spring SS, after-signature DEM, full disaster fallback, second-Congress MOV, reserve and merger scenarios. Do not invent an exact summer month, duration, capacity figure or cash profile. Regenerate and explain numerical differences.
+2. **Calendar inputs and generators reconciled in this integration:** approved R1/R2 windows, spring SS, March-latest DEM floor start, full disaster fallback, second-Congress MOV, reserve and merger scenarios. Do not invent an exact summer month, duration, capacity figure or cash profile. The full rebuild and comparison are documented in the integration handoff.
 3. **Review and merge when authorized:** keep research alternatives separate from policy. Refresh the charter’s working-baseline pointer and other chats only after integration; hand off the new commit and change register. Do not wait for complete costing or a child-poverty simulation before incorporating approved directions and qualified findings.
 4. **Next bounded analytical work:** finish calendar/service/Title III specifications already authorized; define the child-poverty rule sheet and model brief; continue HLT-6/REV-TS12 evidence work and the care-access dependency. Avoid another broad audit or general literature sweep.
 
-The companion integration handoff identifies changed files, pending input/generator reconciliation and validation limits. Local workspace access failed during preparation; no local rebuild or model validation is represented as completed. Repository API edits are prepared directly against the verified head. No inputs, fiscal amounts or generated files are changed in this first pass. Generated date fields remain a known earlier planning snapshot, explicitly not the approved calendar. The prior numerical checks are retained as dated checks, not a new run.
+The companion integration handoff records the restored workspace, full rebuild, calendar regressions and before/after financial comparison. Only legislative targets and capacity allocation change; fiscal input amounts, fiscal paths, carbon and dedicated-fund model results remain identical to a rebuild of the prior inputs. That prior rebuild already produces a $5.99T ledger base and $5.11T gap, differing by $0.01T from stale committed headlines; current summary prose is synchronized, without claiming a new score. Calendar fit, actual dated delivery, permissions and specialist clearance remain unproven.
 
 **Still for Espen:** merger/capacity choices when supported; any registration staging/reduced reach; actual legal liability/remedy choices after focused specialist review; FAM-1 eligibility and FAM-2 approval provenance; and which poverty alternatives to simulate. **Already settled:** MOV’s second-Congress placement, R1 urgency, authorization for Calendar C, the health explanation correction and parallel registration/Title III development.
 

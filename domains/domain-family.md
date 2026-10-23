@@ -98,7 +98,7 @@ All three ride reconciliation and survive at 51, as long as R1 and R2 hold and t
 ## Dependencies
 
 - **D5:**
-  - If R1 is lost, FAM-1 moves to R2 and the first checks slip from mid-2029 to mid-2030.
+  - If R1 is lost, FAM-1 moves to R2. Reassess first-check timing against the summer-2029 R2 target; the earlier mid-2029-to-mid-2030 slip was an old planning assumption, not a validated new payment schedule.
   - FAM-2 and FAM-3 ride R2.
 - **Capacity:**
   - **IRS:** monthly payments.

@@ -2,7 +2,7 @@
 
 October 23, 2026 · Source/status register, not a second policy canon.
 
-**Baseline:** approved working branch claude/pensive-mendel-g1lwl5 at e15c5c4a711b4cd2b482bac8300de45f2e08721f. Main is not the selected baseline. This first integration pass records Espen’s later approvals and qualified findings for review; a draft PR does not itself change approved policy. The approved charter governs purpose, outcomes, evidence and workflow; the governing decision file governs selected policy. Illustrative family scenes are illustrations.
+**Baseline:** approved working branch claude/pensive-mendel-g1lwl5 at e15c5c4a711b4cd2b482bac8300de45f2e08721f. Main is not the selected baseline. Espen approved integration on October 23, with DEM-1 floor consideration beginning by March 2029 latest. The approved charter governs purpose, outcomes, evidence and workflow; the governing decision file governs selected policy. Illustrative family scenes are illustrations.
 
 ## Source identities and roles
 
@@ -20,7 +20,7 @@ October 23, 2026 · Source/status register, not a second policy canon.
 | Legislative calendar reconciliation | [Calendar](https://chatgpt.com/api/library/files/libfile_b4eafe2cbb108191a4c9abb05ef30fd0/download) | Dated alternatives/conflicts. Later post-pilot MOV acceleration recommendation is corrected by Espen: MOV stays second Congress. |
 | DEM-1 Title III alternatives | [Alternatives](https://chatgpt.com/api/library/files/libfile_d9a22873a7ec8191b0f61d57dfbbc052/download) | Research specifications; parallel development now approved, no narrower replacement adopted. |
 | Medicaid-registration transaction | [Transaction](https://chatgpt.com/api/library/files/libfile_3445959ae0fc81919ccefb1b5e18416d/download) | Assisted/conditional automatic routes, safeguards and cost boundaries; no verified launch or price. |
-| Original post-pilot brief | [Saved first version](https://chatgpt.com/api/library/files/libfile_019b7ea7a43c8191aebe0f306c21cb28/download) | Earlier recommendations. Revised approval record is governing/project-2050-post-pilot-decisions.md in this review branch; external saved copy may remain behind while workspace access is unavailable. |
+| Original post-pilot brief | [Saved first version](https://chatgpt.com/api/library/files/libfile_019b7ea7a43c8191aebe0f306c21cb28/download) | Earlier recommendations. Revised approval record is governing/project-2050-post-pilot-decisions.md in this review branch; the external saved copy is refreshed after integration. |
 | Child-poverty evidence-review Markdown | [Accessible preliminary note](https://chatgpt.com/api/library/files/libfile_8613fe8674008191891eaf82cb41d17f/download) | Content file_00000000ae0c81f99f5494f10f886134, 14,660 bytes. Explicitly preliminary; not the completed report. |
 | Child-poverty design-implications Markdown | [Accessible preliminary note](https://chatgpt.com/api/library/files/libfile_fb10af2a5778819184fbd907aea6e4d2/download) | Content file_0000000001a8822fae09800758b1d560, 8,414 bytes. Explicitly preliminary and asks for later completion. |
 | Project 2050 Child-Poverty Evidence Review | [Completed research report](https://chatgpt.com/api/library/files/libfile_59140f7d4d8c8191b9137d9016381db7/download) | Content file_00000000e0dc820cac8847633f139ecb, 626,969-byte native JSON; completed report text retrieved. Final Markdown attachments linked inside the original research workspace were not independently retrievable here. |
@@ -31,7 +31,7 @@ The latest two named Markdown searches exposed earlier preliminary notes; a broa
 
 | Area | Useful existing component | Finding / type | Treatment |
 | --- | --- | --- | --- |
-| Calendar | Complete bill inventory, F/minority guarantees, transport vehicle separation | **Conflicting records:** general D1 language versus second-Congress MOV, late R1 prose and health/DEM explanations | Approved clarifications prepared; input/generator reconciliation pending |
+| Calendar | Complete bill inventory, F/minority guarantees, transport vehicle separation | **Conflicting records:** general D1 language versus second-Congress MOV, late R1 prose and health/DEM explanations | Approved clarifications and planning windows integrated; dated feasibility remains unverified |
 | Calendar | Conditional merger comparison and earlier disaster opportunity | **Missing analysis:** capacity/reserve, coalition/bicameral work and actual combined duration | No zero reserve, speculative savings or validated-duration claim |
 | CMS | Work packages, signed source records and exact calculation chain | **Missing analysis:** quantities, incremental allocation, current permissions and FY2029 cash; **specialist review** of budget/legal routes | Preserve contract caps/rates as observations, not transferable registration/health prices |
 | Registration | Existing agency assistance and conditional Oregon machinery | **Design weakness:** assisted-only service loses automatic reach; **specialist review** of source permissions and government error | Develop both paths; do not narrow DEM-1E or accelerate HLT-3 |
@@ -49,3 +49,9 @@ Access to Library links is user-dependent; they are not anonymous public sources
 ## Handoff
 
 Approved directions are in the governing record; canonical democracy corrections are prepared in this branch. Sources/calendar-c-development.md and democracy-post-pilot-review-packet.md supply the authorized next specifications. Sources/post-pilot-integration-handoff.md separates the first pass from pending input/generator work. Do not contact anyone, change numeric scores or promote research options on the strength of this register.
+
+## Integration follow-up artifacts
+
+- sources/family-child-poverty-model-brief.md: rule sheet, alternative branches, model/data requirements and overlap-safe attribution; no simulation or new policy.
+- sources/health-revenue-priority-evidence-checkpoint.md: selected MedPAC/Section 68 checks and open score bridge; no replacement estimate.
+- sources/post-pilot-integration-handoff.md: full rebuild, financial comparison and remaining evidence limits.
