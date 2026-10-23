@@ -368,3 +368,14 @@ Canonical until converted to a domain file. Its options are not yet given domain
 - governing/decision-brief-01-senate-rules-and-gap.md (Oct 20): D2, the reconciliation dial, Package B, the borrowing readings and the sprint.
 - governing/decision-brief-02-trims-scope-and-fiscal-rule.md (Oct 20): D4-B, the trims, CAP-7, LAB-9D, NSC-1A and C39-C41.
 - frameworks/scenario-stress-test-talarico-2029-2037.md: where each stress-test proposal was filed.
+
+## October 23 post-pilot development status
+
+| Work | Status | Canonical home and boundary |
+| --- | --- | --- |
+| Calendar C / related mergers | Development approved, specific mergers and durations unchosen | Governing D1/D5; sources/calendar-c-development.md. MOV-31 remains second Congress, no new first-Congress saving; retain CLI-7 fallback and explicit reserve. No new ledger option is summed. |
+| Registration service | Assisted floor and conditional automatic development approved | DEM-1E/F remain governing; health dates unchanged. No assisted-only endpoint adopted; no cost input changed. |
+| Title III modules | Parallel drafting/review approved | DEM-1 restoration retained; DEM-1A/DEM-2A unchanged; narrower modules not equivalent substitutes; DEM-2E open. Local packet labels are not new policy IDs. |
+| Child-poverty alternatives | Research findings received, design choices unadopted | FAM-1D, HOU-4C and eligibility/delivery alternatives stay with their existing domain homes; no summed poverty effects or new residual-supplement policy ID. FAM-2 provenance and EDU-3 costing basis remain questions. |
+
+Source identities, source roles and the completed-report/preliminary-filename discrepancy are recorded in sources/project-2050-research-register.md. Pending input/generator reconciliation is explicit in sources/post-pilot-integration-handoff.md.
