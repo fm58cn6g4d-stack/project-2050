@@ -77,7 +77,7 @@ Only HLT-1 and part of HLT-4 are felt before November 2030.
 ## Dependencies
 
 - **D2:** HLT-3 and HLT-5 need the rules change.
-- **D5:** if R1 is lost, HLT-1, HLT-4 and HLT-6 move to R2, and the restoration's felt date slips a year.
+- **D5:** if R1 is lost, HLT-1, HLT-4 and HLT-6 move to R2. Recalculate restoration delivery against the summer-2029 R2 target; the earlier one-year-slip statement is not a validated revised forecast. Adopted health launch dates remain unchanged.
 - **Capacity:** CMS delivery spans HLT-1 to HLT-6, not only auto-enrollment. CAP-7S's full multi-year surge is immediately available on enactment, targeting R1 in FY2029 (Espen, Oct 21). Continuing operations use CAP-7 or a reconciled HLT allowance. See domain-capacity.md's CMS annex and sources/health-cms-implementation-cost-register.csv. HLT administrative components and FY2029 cash remain unpriced; do not add CAP funding to embedded administration twice. Provider participation and enrollment safeguards need explicit design; no date or benefit change is adopted.
 - **Revenue:** the channel assignment of REV-H1a and REV-H1b is governed by domains/domain-revenue.md.
 

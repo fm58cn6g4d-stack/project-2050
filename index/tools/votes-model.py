@@ -23,7 +23,7 @@ How a vote works (the war game's model, unchanged):
 - The House: 34 frontliners each defect with probability house_sweep x 0.11; the bill needs 218. For a package or
   the omnibus a frontliner reacts to its most exposed provision (the war game's any-provision rule would sink every
   multi-title package, which the 2021-22 House did not).
-Calendar: under each path a regular-order bill also needs floor days. Bills are taken in target-date order (must-pass items first within a month) against
+Calendar: under each path a regular-order bill also needs floor days. Capacity is reserved for DEM-1 and SS-1 first, then bills are taken in target-window order (must-pass first within a window) against
 the 163-day budget (less the reconciliation bills and the rules vote); one that does not fit gets no first-Congress
 vote. Annual appropriations (CAP-7, NSC-1 ...) are one omnibus vote with a bipartisan crossover pool.
 CAP-7S targets R1; this routing assumes eligibility and does not model Byrd/jurisdiction review.
@@ -86,10 +86,13 @@ def house_pass(p_frontliner):
     return sum(math.comb(HOUSE_FRONTLINE, k) * p_frontliner ** k * (1 - p_frontliner) ** (HOUSE_FRONTLINE - k) for k in range(min(slack, HOUSE_FRONTLINE) + 1))
 
 def calendar(ledger, paths):
-    """Which regular-order bills get floor time in the first Congress under each path (target-date order)."""
+    """Capacity allocation, not a dated schedule: protect DEM/SS, then target windows.
+    Reservation order does not require other bills to wait for SS or R1.
+    Seasonal labels are windows, not guessed passage months.
+    """
     fast = {"INT-1", "CAP-8", "LAB-9D"}; top = ["DEM-1", "DEM-5", "LAB-1", "RTS-1", "HLT-3", "SS-1"]
     floor = sorted([b for b in ledger["bills"] if b["rail"] == "FLOOR" and b["floor_days"] > 0 and b["id"] != "D2-RULES"],
-                   key=lambda b: (b["target"], b["id"] not in MUST_PASS, b["id"]))
+                   key=lambda b: (b["id"] not in {"DEM-1", "SS-1"}, b["target"], b["id"] not in MUST_PASS, b["id"]))
     days_fn = {"F": lambda b: b["floor_days"] if b["id"] in fast else max(b["floor_days"], 4.5),
                "C": lambda b: max(b["floor_days"], 15) if b["id"] in top else b["floor_days"],
                "E": lambda b: b["floor_days"], "G": lambda b: b["floor_days"], "none": lambda b: b["floor_days"]}
@@ -226,7 +229,7 @@ def main():
     A("| Holdouts | F adopted | C adopted | G adopted |\n| --- | --- | --- | --- |")
     for h in sorted(hold): A(f"| {h} | {pc(hold[h]['F'])} | {pc(hold[h]['C'])} | {pc(hold[h]['G'])} |")
     A("\n## Every regular-order bill\n")
-    A(f"{PLANNING_SEATS} seats. Senate and House columns are for F; \"Floor time\" says whether the bill fits the 163-day calendar in target-date order (no: it waits for a later Congress or a merge).\n")
+    A(f"{PLANNING_SEATS} seats. Senate and House columns are for F; \"Floor time\" says whether the bill fits the 163-day calendar in capacity allocation with protected DEM/SS reservations (no: unresolved capacity, not approved deferral).\n")
     A("| Bill | Senate (F) | House | Enacted (F) | Floor time (F) | Enacted (G) | Basis |\n| --- | --- | --- | --- | --- | --- | --- |")
     basis = {b["id"]: b["basis"] for b in bills}
     for b, d in sorted(base["floor"]["F"].items(), key=lambda kv: -kv[1]["enact"]):
@@ -237,7 +240,7 @@ def main():
     for v, d in r53.items():
         for k, x in sorted(d["survive"].items(), key=lambda kv: kv[1]):
             A(f"| {v} | {k}: {labels[k]} | {pc(x)} | {basis[k]} |")
-    A("\n## Limits\n\n- Objection rates are the war game's archetype rates where a bill maps to one, otherwise estimates; nothing here is polling or whip counts.\n- Objections are independent across senators and bills; real holdouts move together, so the packages' odds are probably too low at the extremes and too high in the middle.\n- Trimming ignores the Byrd rule: a package that drops revenue but keeps permanent spending would fail the out-year test, so a dropped revenue provision means replacement revenue or a smaller program, which the vehicle checker on the roadmap will test.\n- Byrd challenges, amendments, conference and timing inside the year are not modeled; the House model is the war game's frontliner drag (for a package, its most exposed provision).\n- The roster is the war game's mid-2026 map; re-baseline it in votes-senate.csv after Nov 3.\n")
+    A("\n## Limits\n\n- Objection rates are the war game's archetype rates where a bill maps to one, otherwise estimates; nothing here is polling or whip counts.\n- Objections are independent across senators and bills; real holdouts move together, so the packages' odds are probably too low at the extremes and too high in the middle.\n- Trimming ignores the Byrd rule: a package that drops revenue but keeps permanent spending would fail the out-year test, so a dropped revenue provision means replacement revenue or a smaller program, which the vehicle checker on the roadmap will test.\n- DEM-1 must begin floor consideration by March 2029; SS has a spring-2030 target. Capacity reservations protect them but do not validate these dated deadlines. Other priorities can move early/in parallel. Seasonal target labels do not select a passage month.\n- Byrd challenges, amendments, conference and timing inside the year are not modeled; the House model is the war game's frontliner drag (for a package, its most exposed provision).\n- The roster is the war game's mid-2026 map; re-baseline it in votes-senate.csv after Nov 3.\n")
     open("vote-simulation.md", "w").write("\n".join(o) + "\n")
     print(f"votes: F adopted {pc(base['reform']['F'])}; packages as written R1 {pc(r53['R1']['intact'])} R2 {pc(r53['R2']['intact'])} R3 {pc(r53['R3']['intact'])}, some version {pc(r53['R1']['enact'])} {pc(r53['R2']['enact'])} {pc(r53['R3']['enact'])}; regular order {expected(base, 'F'):.1f} of {nfloor}")
 

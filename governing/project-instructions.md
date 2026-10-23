@@ -1,6 +1,6 @@
 # Project 2050: shared project instructions
 
-Read the governing decisions first, then this file, at the start of every session. These working instructions apply to Claude, ChatGPT/Codex, Gemini and other assistants; they do not override policy decisions. Updated Oct 21, 2026.
+Read the governing decisions first, then this file, at the start of every session. These working instructions apply to Claude, ChatGPT/Codex, Gemini and other assistants; they do not override policy decisions. Updated Oct 23, 2026 (post-pilot integration draft).
 
 ## What this is
 Project 2050 designs a coherent, internally consistent set of policy options for a 2029-30 Democratic trifecta and the decades after. The owner is Espen Swanson. Espen is not a programmer: write in plain language, run commands yourself rather than asking Espen to, and report briefly (what you did, what you found, what needs Espen's decision).
@@ -59,3 +59,11 @@ Commit with a short plain message describing what changed and why. Don't rewrite
 
 ## Open queue
 The governing document's Next steps and Open calls for Espen, the relevant domain's open items, and `index/tools/roadmap.md` hold the working queue. Prioritize a bounded task with Espen; do not treat a recommendation as an adopted decision.
+
+## Post-pilot source and synchronization note
+
+Read sources/project-2050-research-register.md and sources/post-pilot-integration-handoff.md when a task depends on the October 23 pilots or approved directions. The approved charter governs project purpose, outcomes and workflow; the approved governing decisions govern selected instruments and policy. Research reports, alternatives and family illustrations do not become adopted policy through filing or favorable findings. Retrieve a referenced source when needed; explicitly report missing access.
+
+The October 23 integration updates legislative target windows, protects DEM/SS capacity and regenerates outputs. DEM-1 starts floor consideration by March 2029 latest; R1 delay is not an automatic gate on DEM or other priorities. Seasonal targets are not guessed passage months. Capacity allocations do not demonstrate dated feasibility. Revised legislative timing is not a household-receipt estimate: relevant felt-by-midterm fields remain Unverified. Unknown merger savings, reserve, MOV floor time and FY2029 cash remain explicit. Never hand-edit generated outputs.
+
+Communications restriction: Espen has expressly withheld authorization for CMS records-request emails or any other email. Preparing a packet does not authorize submission. Child-poverty research completion authorizes reading and synthesis, not adopting new eligibility or benefit rules. Keep the new working commit in each handoff; refresh external copies after integration rather than assume automatic synchronization.

@@ -45,3 +45,7 @@ The scenario lists (incidence `SCEN`, fiscal `SCENARIOS`) and the accounting rul
 `capacity-funding.csv` records the approved immediate multi-year availability of CAP-7S (R1 target FY2029), separately from `fiscal-years.csv` cash outlays. Blank FY2029 cash means unpriced, not zero. A priced update needs a reconciled lifetime amount, revised 2030-39 window and C42, and debt/interest/envelope rerun; the diagnostic deliberately rejects an unreconciled number.
 
 The hand-written CMS administrative-cost work register is `sources/health-cms-implementation-cost-register.csv`, not a scored input table. Its blanks must never become zero-cost rows.
+
+## October 23 calendar targets
+
+The target field is a planning window, not a service launch or proof of enactment: YYYY-MM or YYYY-spring/summer. R1 rows target February 2029 (administration weeks 3–4 main case, March latest); R2 targets summer 2029 without selecting a month; R3 summer 2030; DEM-1 March 2029 is the latest floor-start month, not its signature date; SS is spring 2030. Other early work remains possible. The vote model reserves DEM/SS capacity before allocating remaining rows; reservation order is not actual floor sequence. Costs, durations, vote parameters and cash profiles are unchanged. Reserve and merger savings remain unknown.

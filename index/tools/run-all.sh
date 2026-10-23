@@ -22,6 +22,7 @@ echo "== 0. transportation";    python3 "$TOOLS"/transportation/test_moving_amer
 echo "== 1. ledger";            python3 ledger-build.py >/dev/null
 echo "== 2. floor paths";       python3 ledger-paths.py >/dev/null
 echo "== 2b. vote simulation"; cp "$TOOLS"/votes-model.py "$BUILD"/; python3 votes-model.py
+echo "== 2c. calendar checks"; python3 "$TOOLS"/test_calendar.py
 echo "== 3. ledger markdown";   python3 ledger-make-md.py >/dev/null
 echo "== 4. incidence";         python3 incidence.py >/dev/null; python3 years.py >/dev/null; python3 incidence-make-md.py >/dev/null
 if [[ $FETCH == 1 ]]; then
