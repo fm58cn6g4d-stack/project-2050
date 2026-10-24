@@ -1,0 +1,12 @@
+{
+  "age17_layer": "expansion_only",
+  "min_cell": 1,
+  "parameter_provenance": "synthetic test values, NOT target-year tax law",
+  "phaseout_threshold_index": 1.0,
+  "policy_index": 1.0,
+  "policy_status": "research_only",
+  "receipt_basis": "replace_credit",
+  "reference_age17": 2200,
+  "reference_under17": 2200,
+  "year": 2034
+}

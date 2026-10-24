@@ -1,0 +1,59 @@
+set,id,label,side,amount,parts,check,basis
+package,G1,Corporate rate to 28%,cost,[G1],wages 0.25*x; capital 0.75*x,,ledger; 25/75 incidence
+package,G5,"Buyback tax 4%, corporate minimum 21%",cost,[G5],wages 0.25*x; capital 0.75*x,,ledger; 25/75 incidence
+package,G7,Foreign income at full rate,cost,[G7],wages 0.25*x; capital 0.75*x,,ledger; 25/75 incidence
+package,G3,39.6% top rate above $400K,cost,[G3],above400k,,ledger
+package,G9,2025 cuts reversed above $450K,cost,[G9],above450k,,ledger
+package,G11,Mark-to-market for billionaires,cost,[G11],billionaires,,ledger
+package,G6,Gains taxed at death,cost,[G6],death_gains,,ledger
+package,H1b,Medicare/NIIT to 5% above $400K,cost,[H1b],inv400k,,ledger
+package,GX,Overlap and avoidance haircut,cost,[GX],above450k,,ledger
+package,G8,IRS enforcement,cost,[G8],enforcement,,ledger
+package,G10,Financial transaction tax,cost,[G10],ftt,,ledger
+package,H1a,NIIT on active pass-through income (HI),cost,[H1a],inv400k,,ledger
+package,O1,SS tax above $250K (SS-1),cost,[O1],above250k_wages,,ledger
+package,O2,"SS tax on investment income above $400K, net of haircut",cost,[O2]+[OX],inv400k,,ledger
+package,P1,Paid-leave contribution 0.6%,cost,[P1],wages_cap,,ledger; both halves on workers
+package,C1,Carbon fee (domestic),cost,[C1],energy,,ledger (durability path); full pass-through to households
+package,C2,Carbon border adjustment,cost,[C2],consumption,,ledger; full pass-through
+package,C3,Methane fee (REV-C3),cost,[C3],energy,,ledger; full pass-through into natural gas and fuel prices
+package,MR,Moving America fuel steps and per-mile charge,cost,[MR1]+[MR2],gasoline,,ledger MR1+MR2
+package,MRc,"Moving America truck, rail and aviation charges",cost,[MR4]+[MR5],consumption,,ledger MR4+MR5
+package,PS1,"Safe Everywhere revenue title, durable sources (alcohol $0.07T, fraud assessment $0.012T, firearms and check fees $0.009T)",cost,0.091,alcohol 0.07; consumption 0.021,[PS1],ledger PS1; full pass-through
+package,PB,Part B premium increase (a quarter of HLT-2's new benefits),cost,0.3,partb,,estimate from go-big tab (~$18/month)
+package,MA,MA plans' reduced extras after full capture (30% pass-through),cost,-0.3*[HLT-6],ma,,estimate: 30% of HLT-6's $1.25T
+package,EDU7,Scholarship tax credit repealed (EDU-7): donors lose the credit,cost,-[EDU-7],donors,,ledger EDU-7
+package,F1,Child Tax Credit (FAM-1),benefit,[FAM-1],ctc,,ledger
+package,F2,Child care and pre-K (FAM-2),benefit,[FAM-2],childcare,,ledger
+package,F3,Paid leave benefits (FAM-3),benefit,[FAM-3],leave_benefit,,ledger
+package,EDU,"Education formula funding and higher education (EDU-1, EDU-5)",benefit,[EDU-1]+[EDU-5],education,,ledger EDU-1 + EDU-5
+package,EDU3,Universal school meals and Summer EBT (EDU-3),benefit,[EDU-3],meals,,ledger EDU-3
+package,EDU4,Educator pipeline (EDU-4),benefit,[EDU-4],education,,ledger EDU-4
+package,H1,Health restoration (HLT-1),benefit,[HLT-1],aca_medicaid,,ledger
+package,H2,"Medicare upgrades, gross of premiums (HLT-2)",benefit,[HLT-2]+0.30,medicare,,ledger 1.07 + premiums 0.30
+package,H3,Public option and cost-sharing help (HLT-3),benefit,[HLT-3],public_opt,,ledger
+package,H4,"Medicaid, long-term care, safety net (HLT-4)",benefit,[HLT-4],medicaid_ltc,,ledger
+package,H5p,Hospital and drug price caps: lower employer premiums passed to wages,benefit,0.5,employer_cov,,estimate (go-big tab ~6% premium cut; conservative)
+package,F5,"Social Security minimum benefit and CPI-E (SS-3, SS-4)",benefit,[SS-1],ss_benefit,,ledger
+package,E2d,"Climate Dividend (CLI-2, 80%, per adult)",benefit,[CLI-2],adults,,ledger (durability path)
+package,E2t,Carbon transition share: low-income energy help (40% of $0.27T),benefit,0.4*0.2*[C1],low_income_energy,,estimate
+package,HOU,"Housing (HOU-1 to HOU-6 fund, HOU-8: vouchers, emergency aid, credits, repair)",benefit,[HOU-1],housing,,ledger HOU-1
+package,E1h,"Clean-energy credits, household share (30% of CLI-1)",benefit,0.3*[CLI-1],hh_clean,,estimate: 30% of CLI-1's $0.9T
+package,E12,AI and work transition support (AI-4),benefit,[AI-4],workers_ai,,ledger
+package,LAB8,Registered apprenticeships (LAB-8),benefit,[LAB-8],education,,ledger
+package,LAB9,National service stipend and education award (LAB-9),benefit,[LAB-9],service,,ledger
+option,C18,"Top four brackets +1, gains +2, LIFO",cost,[C18],brackets_top,,ledger option
+option,C19,Cap the employer health exclusion,cost,[C19],exclusion_cap,,ledger option
+option,C19b,"Cap the employer health exclusion at the 75th percentile (CBO alt. 2, scaled)",cost,[C19b],exclusion_cap,,ledger option
+option,C20,1-point surtax above $100K/$200K,cost,[C20],surtax,,ledger option
+option,C38,"Top-end sprint package REV-TS1 to TS11, net of a 10% haircut (corporate items on the 25/75 convention)",cost,[C38],wages 0.25*0.665; capital 0.75*0.665; estate 0.10; above400k 0.03; capital 0.075; above450k 0.02,,ledger option
+option,C39,28% cap on the value of itemized deductions above $450K (REV-TS12; Decision Brief 2),cost,[C39],above450k,,ledger option
+option,C40,CEO pay-ratio corporate surtax (REV-HP1; 25/75 convention; Decision Brief 2),cost,[C40],wages 0.25*x; capital 0.75*x,,ledger option
+option,C43,45% bracket on income above $5M (REV-SC1; Oct 21),cost,[C43],above450k,,ledger option
+option,C41,21% excise on top-officer pay above $1M (REV-HP3; executives in the top 1%; Decision Brief 2),cost,[C41],billionaires,,ledger option
+option,C5,Dental starts after the window,benefit,-[C5],medicare,,ledger option
+option,SAFR2,"SAF-R2: drop the alcohol excise (replaced with top-end revenue, not modeled here)",cost,-0.07,alcohol,,ledger option
+option,C35,"Estate tax at 2009 parameters, exemption frozen (REV-E1), increment beyond G9",cost,[C35],estate,,ledger option
+option,C36,Meals at community-eligibility scale (EDU-3B) instead of universal,benefit,-[C36],meals,,ledger option
+option,EDUP,"EDU-9B education contribution, ~1.4 points uncapped payroll (all on workers)",cost,2.27,wages,[ED1],ledger option
+option,EDUB,"EDU-9B new benefits beyond the chosen rows (pre-K and child care share, teacher floor, PARA, Title I and IDEA top-ups)",benefit,0.63,childcare 0.24; education 0.39,,ledger option

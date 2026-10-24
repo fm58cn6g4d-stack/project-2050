@@ -1,0 +1,4274 @@
+{
+  "archive_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
+  "assumptions_sha256": "f7e1a8c6ffd2915332bab022b24b3128aa77ecba539b8d0fc9182b256e7d0bd7",
+  "cases": [
+    {
+      "assumptions": {
+        "care_2030": 0.3,
+        "care_2034": 0.5,
+        "coverage": 0.9,
+        "ctc_receipt": 0.85,
+        "food_receipt": 0.75,
+        "prek_2030": 0.4,
+        "prek_2034": 0.65,
+        "voucher_leaseup": 0.5
+      },
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0,
+        "expected_leased_households": 50000.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001965231498518584
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 234799.0077448117
+          },
+          "poor_rate": {
+            "lower95": 0.1272192412901725,
+            "se": 0.003423584462767816,
+            "upper95": 0.14063969238422233
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "residual": {
+        "additional_poor_under_selected_delivery": 631184.5116489623,
+        "interpretation": "Ordered scenario comparison, not an estimated causal attribution; food/care eligibility and scarce voucher allocation remain fixed",
+        "poor_even_with_full_modeled_receipt": 7034486.786829982
+      },
+      "scenario": "stressed",
+      "stages": [
+        {
+          "below150_children": 21493133.018908363,
+          "below150_rate": 0.3107460580524809,
+          "child_weighted_gap_dollars": 109137844714.69678,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1797443.1508457414,
+          "deep_poor_rate": 0.02598729432360409,
+          "label": "CTC",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1477.3669730552583,
+          "poor_children": 7774089.150397982,
+          "poor_children_lifted": 1489307.025643643,
+          "poor_rate": 0.11239718082559144,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0013380432093965352
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.021532286011605978,
+              "lower95": -0.02412684058080027,
+              "se": 0.0013237523312215778,
+              "upper95": -0.018937731442411686
+            },
+            "poor_children": {
+              "se": 205748.69315542918
+            },
+            "poor_rate": {
+              "lower95": 0.10653382171729718,
+              "se": 0.002991509749129727,
+              "upper95": 0.1182605399338857
+            }
+          },
+          "stage": 1,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 21357201.33595649,
+          "below150_rate": 0.30878076827343504,
+          "child_weighted_gap_dollars": 108375597680.54883,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1790166.1685140019,
+          "deep_poor_rate": 0.025882084274789136,
+          "label": "CTC + care/pre-K",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1641.8179460499923,
+          "poor_children": 7712972.783529037,
+          "poor_children_lifted": 1550423.3925125888,
+          "poor_rate": 0.11151356511119995,
+          "stage": 2,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 21236922.85038211,
+          "below150_rate": 0.30704179121374436,
+          "child_weighted_gap_dollars": 107144730130.6262,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1780507.1929605298,
+          "deep_poor_rate": 0.025742435551849293,
+          "label": "+ school/summer food",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1900.2599133009644,
+          "poor_children": 7650504.599618169,
+          "poor_children_lifted": 1612891.5764234567,
+          "poor_rate": 0.11061040493036813,
+          "stage": 3,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 21233910.096014958,
+          "below150_rate": 0.3069982330436698,
+          "child_weighted_gap_dollars": 106817783302.51242,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1774316.6174832871,
+          "deep_poor_rate": 0.02565293268947287,
+          "label": "+ scarce vouchers",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1908.536650800251,
+          "poor_children": 7634454.611374647,
+          "poor_children_lifted": 1628941.5646669783,
+          "poor_rate": 0.11037835543930159,
+          "stage": 4,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 21339785.827034708,
+          "below150_rate": 0.3085289761898118,
+          "child_weighted_gap_dollars": 107259472620.82245,
+          "children_newly_poor": 4205.36002823066,
+          "deep_poor_children": 1775031.6804412494,
+          "deep_poor_rate": 0.02566327101452072,
+          "label": "+ employee leave contribution",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1494.723376505598,
+          "poor_children": 7665671.298478944,
+          "poor_children_lifted": 1601930.2375909116,
+          "poor_rate": 0.1108296838917233,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0013271963588179308
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.023099782945474115,
+              "lower95": -0.02571944242533915,
+              "se": 0.0013365609591148148,
+              "upper95": -0.02048012346560908
+            },
+            "poor_children": {
+              "se": 204974.33766647382
+            },
+            "poor_rate": {
+              "lower95": 0.10498415461213033,
+              "se": 0.00298241289775152,
+              "upper95": 0.11667521317131628
+            }
+          },
+          "stage": 5,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        }
+      ],
+      "subgroups": {
+        "adults": {
+          "Multiple/no adults": {
+            "deep_poor_rate": 0.01914672647489213,
+            "poor_children": 5213695.432091615,
+            "poor_rate": 0.08815991293987463,
+            "residual_share": 0.6801355326996787,
+            "unweighted_children": 27170,
+            "weighted_children": 59139071.92316959
+          },
+          "One adult": {
+            "deep_poor_rate": 0.06409713541150876,
+            "poor_children": 2451975.8663873295,
+            "poor_rate": 0.24453350458620896,
+            "residual_share": 0.31986446730032125,
+            "unweighted_children": 4274,
+            "weighted_children": 10027157.098723454
+          }
+        },
+        "age": {
+          "6\u201317": {
+            "deep_poor_rate": 0.025483508550129742,
+            "poor_children": 5250764.629542259,
+            "poor_rate": 0.11011383006683355,
+            "residual_share": 0.6849712732378882,
+            "unweighted_children": 22563,
+            "weighted_children": 47684878.69648444
+          },
+          "Under 6": {
+            "deep_poor_rate": 0.026062312563530123,
+            "poor_children": 2414906.6689366857,
+            "poor_rate": 0.11241875544854747,
+            "residual_share": 0.31502872676211174,
+            "unweighted_children": 8881,
+            "weighted_children": 21481350.325408604
+          }
+        },
+        "children": {
+          "1\u20132 children": {
+            "deep_poor_rate": 0.028303724414077133,
+            "poor_children": 4906057.856080643,
+            "poor_rate": 0.10962104163513317,
+            "residual_share": 0.6400036820068353,
+            "unweighted_children": 19749,
+            "weighted_children": 44754709.3413886
+          },
+          "3+ children": {
+            "deep_poor_rate": 0.020822412027728353,
+            "poor_children": 2759613.4423983013,
+            "poor_rate": 0.11304554073305756,
+            "residual_share": 0.3599963179931646,
+            "unweighted_children": 11695,
+            "weighted_children": 24411519.680504445
+          }
+        },
+        "earnings": {
+          "No positive earnings": {
+            "deep_poor_rate": 0.3188081665741218,
+            "poor_children": 1999780.91718277,
+            "poor_rate": 0.6505871551128076,
+            "residual_share": 0.26087485874584465,
+            "unweighted_children": 1347,
+            "weighted_children": 3073809.406575236
+          },
+          "Positive earnings": {
+            "deep_poor_rate": 0.012029762925314956,
+            "poor_children": 5665890.381296175,
+            "poor_rate": 0.08572678098749813,
+            "residual_share": 0.7391251412541554,
+            "unweighted_children": 30097,
+            "weighted_children": 66092419.61531781
+          }
+        },
+        "head_race_ethnicity": {
+          "Asian non-Hispanic head": {
+            "deep_poor_rate": 0.024335892977623015,
+            "poor_children": 250107.43643102454,
+            "poor_rate": 0.09959718642915553,
+            "residual_share": 0.03262694507663692,
+            "unweighted_children": 1208,
+            "weighted_children": 2511189.77752377
+          },
+          "Black non-Hispanic head": {
+            "deep_poor_rate": 0.03856689442027475,
+            "poor_children": 1661561.0653038067,
+            "poor_rate": 0.1700734977983494,
+            "residual_share": 0.21675349758781084,
+            "unweighted_children": 3091,
+            "weighted_children": 9769664.802648237
+          },
+          "Hispanic head": {
+            "deep_poor_rate": 0.03470967122589835,
+            "poor_children": 2966103.1387171447,
+            "poor_rate": 0.17875428912242872,
+            "residual_share": 0.38693325388289107,
+            "unweighted_children": 6694,
+            "weighted_children": 16593185.837827154
+          },
+          "Other non-Hispanic head": {
+            "deep_poor_rate": 0.022026680665183783,
+            "poor_children": 461576.3953704459,
+            "poor_rate": 0.09415141817160987,
+            "residual_share": 0.060213434335755295,
+            "unweighted_children": 1857,
+            "weighted_children": 4902490.09875911
+          },
+          "White non-Hispanic head": {
+            "deep_poor_rate": 0.018457472725237848,
+            "poor_children": 2326323.2626565224,
+            "poor_rate": 0.06573447531119801,
+            "residual_share": 0.30347286911690585,
+            "unweighted_children": 18594,
+            "weighted_children": 35389698.50513477
+          }
+        },
+        "tenure": {
+          "Owner/other": {
+            "deep_poor_rate": 0.016404149175992123,
+            "poor_children": 2683503.098554722,
+            "poor_rate": 0.057676992171635855,
+            "residual_share": 0.3500675927869741,
+            "unweighted_children": 22367,
+            "weighted_children": 46526405.027660295
+          },
+          "Renter": {
+            "deep_poor_rate": 0.04469140714179698,
+            "poor_children": 4982168.199924223,
+            "poor_rate": 0.22006214364534712,
+            "residual_share": 0.649932407213026,
+            "unweighted_children": 9077,
+            "weighted_children": 22639823.994232748
+          }
+        }
+      },
+      "year": 2030
+    },
+    {
+      "assumptions": {
+        "care_2030": 0.5,
+        "care_2034": 0.75,
+        "coverage": 0.95,
+        "ctc_receipt": 0.95,
+        "food_receipt": 0.9,
+        "prek_2030": 0.6,
+        "prek_2034": 0.85,
+        "voucher_leaseup": 0.65
+      },
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0,
+        "expected_leased_households": 65000.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001965231498518584
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 234799.0077448117
+          },
+          "poor_rate": {
+            "lower95": 0.1272192412901725,
+            "se": 0.003423584462767816,
+            "upper95": 0.14063969238422233
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "residual": {
+        "additional_poor_under_selected_delivery": 306647.04627049714,
+        "interpretation": "Ordered scenario comparison, not an estimated causal attribution; food/care eligibility and scarce voucher allocation remain fixed",
+        "poor_even_with_full_modeled_receipt": 7034486.786829982
+      },
+      "scenario": "moderate",
+      "stages": [
+        {
+          "below150_children": 21312413.098151162,
+          "below150_rate": 0.30813322338861626,
+          "child_weighted_gap_dollars": 103214832333.1371,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1691902.679342832,
+          "deep_poor_rate": 0.02446139833367665,
+          "label": "CTC",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1742.9067884736871,
+          "poor_children": 7506403.247096021,
+          "poor_children_lifted": 1756992.928945605,
+          "poor_rate": 0.10852699869932239,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0013006577643469124
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.02540246813787503,
+              "lower95": -0.028463364214604242,
+              "se": 0.0015616816718006196,
+              "upper95": -0.022341572061145815
+            },
+            "poor_children": {
+              "se": 204443.24688442948
+            },
+            "poor_rate": {
+              "lower95": 0.10270527040625958,
+              "se": 0.0029702695372769436,
+              "upper95": 0.1143487269923852
+            }
+          },
+          "stage": 1,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 21090536.89328605,
+          "below150_rate": 0.30492535434612617,
+          "child_weighted_gap_dollars": 102024029164.27484,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1680714.8671549067,
+          "deep_poor_rate": 0.024299645808692472,
+          "label": "CTC + care/pre-K",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2001.2814188869852,
+          "poor_children": 7406413.685318896,
+          "poor_children_lifted": 1856982.4907227298,
+          "poor_rate": 0.10708135733371497,
+          "stage": 2,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20940396.92122961,
+          "below150_rate": 0.3027546422199971,
+          "child_weighted_gap_dollars": 100592836859.05722,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1668334.2489198996,
+          "deep_poor_rate": 0.02412064778595672,
+          "label": "+ school/summer food",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2311.4117795881516,
+          "poor_children": 7334386.702725038,
+          "poor_children_lifted": 1929009.4733165875,
+          "poor_rate": 0.10603999677940372,
+          "stage": 3,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20935965.47594747,
+          "below150_rate": 0.3026905727261877,
+          "child_weighted_gap_dollars": 100185647827.89848,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1660852.6620178558,
+          "deep_poor_rate": 0.024012479580058494,
+          "label": "+ scarce vouchers",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2322.1715383372243,
+          "poor_children": 7313286.46776757,
+          "poor_children_lifted": 1950109.7082740555,
+          "poor_rate": 0.10573493121119429,
+          "stage": 4,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 21039752.87705264,
+          "below150_rate": 0.30419112295963063,
+          "child_weighted_gap_dollars": 100601102993.89052,
+          "children_newly_poor": 1381.42734197661,
+          "deep_poor_children": 1661064.572772875,
+          "deep_poor_rate": 0.024015543369396382,
+          "label": "+ employee leave contribution",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1908.3582640425711,
+          "poor_children": 7341133.833100479,
+          "poor_children_lifted": 1923643.7702831228,
+          "poor_rate": 0.10613754626953575,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.001283989210986592
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.027791920567661665,
+              "lower95": -0.03086567929607722,
+              "se": 0.001568244249191608,
+              "upper95": -0.024718161839246112
+            },
+            "poor_children": {
+              "se": 203350.6678801636
+            },
+            "poor_rate": {
+              "lower95": 0.10034068948975697,
+              "se": 0.002957579989683054,
+              "upper95": 0.11193440304931454
+            }
+          },
+          "stage": 5,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        }
+      ],
+      "subgroups": {
+        "adults": {
+          "Multiple/no adults": {
+            "deep_poor_rate": 0.018186749694079796,
+            "poor_children": 5015323.723056795,
+            "poor_rate": 0.08480558723634424,
+            "residual_share": 0.6831810776208947,
+            "unweighted_children": 27170,
+            "weighted_children": 59139071.92316959
+          },
+          "One adult": {
+            "deep_poor_rate": 0.05839312866061995,
+            "poor_children": 2325810.110043684,
+            "poor_rate": 0.23195109911460152,
+            "residual_share": 0.31681892237910525,
+            "unweighted_children": 4274,
+            "weighted_children": 10027157.098723454
+          }
+        },
+        "age": {
+          "6\u201317": {
+            "deep_poor_rate": 0.023886404264016257,
+            "poor_children": 5059177.049782506,
+            "poor_rate": 0.10609604528899626,
+            "residual_share": 0.6891547225268057,
+            "unweighted_children": 22563,
+            "weighted_children": 47684878.69648444
+          },
+          "Under 6": {
+            "deep_poor_rate": 0.024302209825728963,
+            "poor_children": 2281956.7833179724,
+            "poor_rate": 0.1062296712613464,
+            "residual_share": 0.31084527747319424,
+            "unweighted_children": 8881,
+            "weighted_children": 21481350.325408604
+          }
+        },
+        "children": {
+          "1\u20132 children": {
+            "deep_poor_rate": 0.0273545853750918,
+            "poor_children": 4758351.403375269,
+            "poor_rate": 0.1063206860998381,
+            "residual_share": 0.6481766320510752,
+            "unweighted_children": 19749,
+            "weighted_children": 44754709.3413886
+          },
+          "3+ children": {
+            "deep_poor_rate": 0.01789393126169422,
+            "poor_children": 2582782.42972521,
+            "poor_rate": 0.10580178798896632,
+            "residual_share": 0.35182336794892477,
+            "unweighted_children": 11695,
+            "weighted_children": 24411519.680504445
+          }
+        },
+        "earnings": {
+          "No positive earnings": {
+            "deep_poor_rate": 0.3060526401096652,
+            "poor_children": 1944581.9981853366,
+            "poor_rate": 0.6326293341498823,
+            "residual_share": 0.26488850937676683,
+            "unweighted_children": 1347,
+            "weighted_children": 3073809.406575236
+          },
+          "Positive earnings": {
+            "deep_poor_rate": 0.010898633956649055,
+            "poor_children": 5396551.8349151425,
+            "poor_rate": 0.08165160038511314,
+            "residual_share": 0.7351114906232331,
+            "unweighted_children": 30097,
+            "weighted_children": 66092419.61531781
+          }
+        },
+        "head_race_ethnicity": {
+          "Asian non-Hispanic head": {
+            "deep_poor_rate": 0.023244099050186047,
+            "poor_children": 238414.34164059698,
+            "poor_rate": 0.09494079012845147,
+            "residual_share": 0.032476501186452865,
+            "unweighted_children": 1208,
+            "weighted_children": 2511189.77752377
+          },
+          "Black non-Hispanic head": {
+            "deep_poor_rate": 0.036513861646300216,
+            "poor_children": 1576079.5366313227,
+            "poor_rate": 0.16132380879680733,
+            "residual_share": 0.21469156842297696,
+            "unweighted_children": 3091,
+            "weighted_children": 9769664.802648237
+          },
+          "Hispanic head": {
+            "deep_poor_rate": 0.031848152103909774,
+            "poor_children": 2845325.4107862017,
+            "poor_rate": 0.1714755345112673,
+            "residual_share": 0.38758664199212634,
+            "unweighted_children": 6694,
+            "weighted_children": 16593185.837827154
+          },
+          "Other non-Hispanic head": {
+            "deep_poor_rate": 0.021611543439522676,
+            "poor_children": 450563.55762014707,
+            "poor_rate": 0.09190504183459566,
+            "residual_share": 0.06137520005269466,
+            "unweighted_children": 1857,
+            "weighted_children": 4902490.09875911
+          },
+          "White non-Hispanic head": {
+            "deep_poor_rate": 0.017280547209076014,
+            "poor_children": 2230750.986422211,
+            "poor_rate": 0.06303390762423552,
+            "residual_share": 0.3038700883457492,
+            "unweighted_children": 18594,
+            "weighted_children": 35389698.50513477
+          }
+        },
+        "tenure": {
+          "Owner/other": {
+            "deep_poor_rate": 0.01581357242390498,
+            "poor_children": 2572481.4022975382,
+            "poor_rate": 0.05529078381981541,
+            "residual_share": 0.35042017497330763,
+            "unweighted_children": 22367,
+            "weighted_children": 46526405.027660295
+          },
+          "Renter": {
+            "deep_poor_rate": 0.04087116125459926,
+            "poor_children": 4768652.430802941,
+            "poor_rate": 0.2106311617977995,
+            "residual_share": 0.6495798250266924,
+            "unweighted_children": 9077,
+            "weighted_children": 22639823.994232748
+          }
+        }
+      },
+      "year": 2030
+    },
+    {
+      "assumptions": {
+        "care_2030": 0.75,
+        "care_2034": 0.9,
+        "coverage": 0.98,
+        "ctc_receipt": 0.98,
+        "food_receipt": 0.98,
+        "prek_2030": 0.85,
+        "prek_2034": 0.95,
+        "voucher_leaseup": 0.85
+      },
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0,
+        "expected_leased_households": 85000.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001965231498518584
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 234799.0077448117
+          },
+          "poor_rate": {
+            "lower95": 0.1272192412901725,
+            "se": 0.003423584462767816,
+            "upper95": 0.14063969238422233
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "residual": {
+        "additional_poor_under_selected_delivery": 131055.20672198385,
+        "interpretation": "Ordered scenario comparison, not an estimated causal attribution; food/care eligibility and scarce voucher allocation remain fixed",
+        "poor_even_with_full_modeled_receipt": 7034486.786829982
+      },
+      "scenario": "enhanced",
+      "stages": [
+        {
+          "below150_children": 21236313.58242868,
+          "below150_rate": 0.30703298246470534,
+          "child_weighted_gap_dollars": 100720705664.82944,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1647460.5462517887,
+          "deep_poor_rate": 0.023818857404099933,
+          "label": "CTC",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1854.7231907480655,
+          "poor_children": 7393683.146723776,
+          "poor_children_lifted": 1869713.029317849,
+          "poor_rate": 0.10689730018942437,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012942667242849706
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.027032166647773054,
+              "lower95": -0.03028943489385697,
+              "se": 0.001661871554124448,
+              "upper95": -0.023774898401689136
+            },
+            "poor_children": {
+              "se": 204285.22462887526
+            },
+            "poor_rate": {
+              "lower95": 0.10108199150654297,
+              "se": 0.0029669942259598968,
+              "upper95": 0.11271260887230576
+            }
+          },
+          "stage": 1,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20906796.125966627,
+          "below150_rate": 0.30226884451585534,
+          "child_weighted_gap_dollars": 98986998280.28664,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1631336.5783454115,
+          "deep_poor_rate": 0.023585738320778597,
+          "label": "CTC + care/pre-K",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2230.5023929345684,
+          "poor_children": 7244929.438448725,
+          "poor_children_lifted": 2018466.7375929002,
+          "poor_rate": 0.10474663055803582,
+          "stage": 2,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20737803.113145504,
+          "below150_rate": 0.29982555658168686,
+          "child_weighted_gap_dollars": 97452802271.38359,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1617493.298846164,
+          "deep_poor_rate": 0.023385593254392722,
+          "label": "+ school/summer food",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2568.1998968091716,
+          "poor_children": 7168190.880349733,
+          "poor_children_lifted": 2095205.295691893,
+          "poor_rate": 0.10363715040877537,
+          "stage": 3,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20731681.2625371,
+          "below150_rate": 0.299737047338159,
+          "child_weighted_gap_dollars": 96932076466.55295,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1608053.35235445,
+          "deep_poor_rate": 0.023249111236720108,
+          "label": "+ scarce vouchers",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2582.270350557959,
+          "poor_children": 7140570.348303343,
+          "poor_children_lifted": 2122825.8277382823,
+          "poor_rate": 0.10323781488858029,
+          "stage": 4,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20836460.298186455,
+          "below150_rate": 0.3012519345472938,
+          "child_weighted_gap_dollars": 97331948496.02989,
+          "children_newly_poor": 479.54302071679945,
+          "deep_poor_children": 1608096.386538546,
+          "deep_poor_rate": 0.0232497334216318,
+          "label": "+ employee leave contribution",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2168.4570762633057,
+          "poor_children": 7165541.993551966,
+          "poor_children_lifted": 2098333.725510376,
+          "poor_rate": 0.10359885300793067,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012721301037125245
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.030330613829266745,
+              "lower95": -0.0336302370353205,
+              "se": 0.0016834812275784451,
+              "upper95": -0.027030990623212993
+            },
+            "poor_children": {
+              "se": 202942.35050288352
+            },
+            "poor_rate": {
+              "lower95": 0.09781351245433706,
+              "se": 0.0029517043640783715,
+              "upper95": 0.10938419356152429
+            }
+          },
+          "stage": 5,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        }
+      ],
+      "subgroups": {
+        "adults": {
+          "Multiple/no adults": {
+            "deep_poor_rate": 0.017734705470393082,
+            "poor_children": 4910655.437555974,
+            "poor_rate": 0.0830357203429848,
+            "residual_share": 0.6853152827762241,
+            "unweighted_children": 27170,
+            "weighted_children": 59139071.92316959
+          },
+          "One adult": {
+            "deep_poor_rate": 0.05577676291318326,
+            "poor_children": 2254886.5559959915,
+            "poor_rate": 0.22487795232439894,
+            "residual_share": 0.31468471722377583,
+            "unweighted_children": 4274,
+            "weighted_children": 10027157.098723454
+          }
+        },
+        "age": {
+          "6\u201317": {
+            "deep_poor_rate": 0.023164126821636693,
+            "poor_children": 4962358.799446054,
+            "poor_rate": 0.10406566893105891,
+            "residual_share": 0.6925308377107435,
+            "unweighted_children": 22563,
+            "weighted_children": 47684878.69648444
+          },
+          "Under 6": {
+            "deep_poor_rate": 0.023439765252710718,
+            "poor_children": 2203183.1941059125,
+            "poor_rate": 0.10256260247755189,
+            "residual_share": 0.3074691622892566,
+            "unweighted_children": 8881,
+            "weighted_children": 21481350.325408604
+          }
+        },
+        "children": {
+          "1\u20132 children": {
+            "deep_poor_rate": 0.026860017982115045,
+            "poor_children": 4671419.447107245,
+            "poor_rate": 0.10437827696463609,
+            "residual_share": 0.6519282772065115,
+            "unweighted_children": 19749,
+            "weighted_children": 44754709.3413886
+          },
+          "3+ children": {
+            "deep_poor_rate": 0.0166308404457402,
+            "poor_children": 2494122.546444721,
+            "poor_rate": 0.10216990089464115,
+            "residual_share": 0.3480717227934885,
+            "unweighted_children": 11695,
+            "weighted_children": 24411519.680504445
+          }
+        },
+        "earnings": {
+          "No positive earnings": {
+            "deep_poor_rate": 0.3003764407032918,
+            "poor_children": 1920869.2185313678,
+            "poor_rate": 0.6249148741696232,
+            "residual_share": 0.2680703316315632,
+            "unweighted_children": 1347,
+            "weighted_children": 3073809.406575236
+          },
+          "Positive earnings": {
+            "deep_poor_rate": 0.010361195150320513,
+            "poor_children": 5244672.775020598,
+            "poor_rate": 0.07935362036291792,
+            "residual_share": 0.7319296683684369,
+            "unweighted_children": 30097,
+            "weighted_children": 66092419.61531781
+          }
+        },
+        "head_race_ethnicity": {
+          "Asian non-Hispanic head": {
+            "deep_poor_rate": 0.02264401315440655,
+            "poor_children": 233320.2085148145,
+            "poor_rate": 0.09291221659276047,
+            "residual_share": 0.03256141806506355,
+            "unweighted_children": 1208,
+            "weighted_children": 2511189.77752377
+          },
+          "Black non-Hispanic head": {
+            "deep_poor_rate": 0.03541499327392763,
+            "poor_children": 1533905.2916668255,
+            "poor_rate": 0.1570069518916385,
+            "residual_share": 0.2140668902711248,
+            "unweighted_children": 3091,
+            "weighted_children": 9769664.802648237
+          },
+          "Hispanic head": {
+            "deep_poor_rate": 0.030559590406119323,
+            "poor_children": 2772214.6367309885,
+            "poor_rate": 0.16706946235792927,
+            "residual_share": 0.38688136071571594,
+            "unweighted_children": 6694,
+            "weighted_children": 16593185.837827154
+          },
+          "Other non-Hispanic head": {
+            "deep_poor_rate": 0.021420105119840365,
+            "poor_children": 443874.5776440611,
+            "poor_rate": 0.09054063724808176,
+            "residual_share": 0.06194570878846139,
+            "unweighted_children": 1857,
+            "weighted_children": 4902490.09875911
+          },
+          "White non-Hispanic head": {
+            "deep_poor_rate": 0.016760457646218613,
+            "poor_children": 2182227.2789952764,
+            "poor_rate": 0.06166278242462711,
+            "residual_share": 0.30454462215963435,
+            "unweighted_children": 18594,
+            "weighted_children": 35389698.50513477
+          }
+        },
+        "tenure": {
+          "Owner/other": {
+            "deep_poor_rate": 0.015536530524432912,
+            "poor_children": 2510944.0441053757,
+            "poor_rate": 0.05396815082989113,
+            "residual_share": 0.3504192769179067,
+            "unweighted_children": 22367,
+            "weighted_children": 46526405.027660295
+          },
+          "Renter": {
+            "deep_poor_rate": 0.03910089914390137,
+            "poor_children": 4654597.949446591,
+            "poor_rate": 0.20559338052417278,
+            "residual_share": 0.6495807230820934,
+            "unweighted_children": 9077,
+            "weighted_children": 22639823.994232748
+          }
+        }
+      },
+      "year": 2030
+    },
+    {
+      "assumptions": {
+        "care_2030": 1,
+        "care_2034": 1,
+        "coverage": 1,
+        "ctc_receipt": 1,
+        "food_receipt": 1,
+        "prek_2030": 1,
+        "prek_2034": 1,
+        "voucher_leaseup": 1
+      },
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0,
+        "expected_leased_households": 100000.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001965231498518584
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 234799.0077448117
+          },
+          "poor_rate": {
+            "lower95": 0.1272192412901725,
+            "se": 0.003423584462767816,
+            "upper95": 0.14063969238422233
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "residual": {
+        "additional_poor_under_selected_delivery": 0.0,
+        "interpretation": "Ordered scenario comparison, not an estimated causal attribution; food/care eligibility and scarce voucher allocation remain fixed",
+        "poor_even_with_full_modeled_receipt": 7034486.786829982
+      },
+      "scenario": "full",
+      "stages": [
+        {
+          "below150_children": 21184266.245250605,
+          "below150_rate": 0.3062804860815123,
+          "child_weighted_gap_dollars": 99014878098.94025,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1617064.8904589508,
+          "deep_poor_rate": 0.02337939935900083,
+          "label": "CTC",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1931.1986575885733,
+          "poor_children": 7316589.6065728115,
+          "poor_children_lifted": 1946806.5694688144,
+          "poor_rate": 0.10578268773705889,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.001293174555261846
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.028146779100138533,
+              "lower95": -0.03153835370039251,
+              "se": 0.0017303952042112133,
+              "upper95": -0.024755204499884553
+            },
+            "poor_children": {
+              "se": 204311.4987742282
+            },
+            "poor_rate": {
+              "lower95": 0.09996795355877537,
+              "se": 0.0029667011113691387,
+              "upper95": 0.1115974219153424
+            }
+          },
+          "stage": 1,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20753522.00772687,
+          "below150_rate": 0.3000528191461443,
+          "child_weighted_gap_dollars": 96781543523.02818,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1596657.6934625464,
+          "deep_poor_rate": 0.02308435368013427,
+          "label": "CTC + care/pre-K",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2400.816944681392,
+          "poor_children": 7120833.012966073,
+          "poor_children_lifted": 2142563.1630755523,
+          "poor_rate": 0.10295245401787238,
+          "stage": 2,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20575130.357979763,
+          "below150_rate": 0.2974736464448157,
+          "child_weighted_gap_dollars": 95234541936.70746,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1582279.1468324822,
+          "deep_poor_rate": 0.022876469762890306,
+          "label": "+ school/summer food",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2745.406234349355,
+          "poor_children": 7043953.0562302945,
+          "poor_children_lifted": 2219443.119811331,
+          "poor_rate": 0.10184092953803636,
+          "stage": 3,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20567667.701172058,
+          "below150_rate": 0.2973657519287602,
+          "child_weighted_gap_dollars": 94631882061.20395,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1571458.2477424846,
+          "deep_poor_rate": 0.02272002203915258,
+          "label": "+ scarce vouchers",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2761.9597093479283,
+          "poor_children": 7011487.197909038,
+          "poor_children_lifted": 2251908.978132588,
+          "poor_rate": 0.101371540664588,
+          "stage": 4,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        },
+        {
+          "below150_children": 20674189.943562668,
+          "below150_rate": 0.29890584228639544,
+          "child_weighted_gap_dollars": 95019510171.21434,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1571458.2477424846,
+          "deep_poor_rate": 0.02272002203915258,
+          "label": "+ employee leave contribution",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2348.146435053275,
+          "poor_children": 7034486.786829982,
+          "poor_children_lifted": 2228909.3892116435,
+          "poor_rate": 0.1017040669457832,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012672563783075214
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.03222539989141422,
+              "lower95": -0.0357037789958537,
+              "se": 0.001774683216550754,
+              "upper95": -0.028747020786974744
+            },
+            "poor_children": {
+              "se": 203065.77905593268
+            },
+            "poor_rate": {
+              "lower95": 0.09591488095079367,
+              "se": 0.0029536663239742495,
+              "upper95": 0.10749325294077272
+            }
+          },
+          "stage": 5,
+          "unweighted_children": 31444,
+          "weighted_children": 69166229.02189304
+        }
+      ],
+      "subgroups": {
+        "adults": {
+          "Multiple/no adults": {
+            "deep_poor_rate": 0.017423513108918653,
+            "poor_children": 4833310.51710016,
+            "poor_rate": 0.08172787228347692,
+            "residual_share": 0.6870878663315027,
+            "unweighted_children": 27170,
+            "weighted_children": 59139071.92316959
+          },
+          "One adult": {
+            "deep_poor_rate": 0.053958250330867596,
+            "poor_children": 2201176.269729822,
+            "poor_rate": 0.21952147034876426,
+            "residual_share": 0.3129121336684974,
+            "unweighted_children": 4274,
+            "weighted_children": 10027157.098723454
+          }
+        },
+        "age": {
+          "6\u201317": {
+            "deep_poor_rate": 0.022670054590773238,
+            "poor_children": 4892430.43183712,
+            "poor_rate": 0.10259920053435753,
+            "residual_share": 0.6954921631236503,
+            "unweighted_children": 22563,
+            "weighted_children": 47684878.69648444
+          },
+          "Under 6": {
+            "deep_poor_rate": 0.022830941123784015,
+            "poor_children": 2142056.3549928623,
+            "poor_rate": 0.09971702535194875,
+            "residual_share": 0.3045078368763498,
+            "unweighted_children": 8881,
+            "weighted_children": 21481350.325408604
+          }
+        },
+        "children": {
+          "1\u20132 children": {
+            "deep_poor_rate": 0.026510748565751637,
+            "poor_children": 4603770.637468521,
+            "poor_rate": 0.10286673079141218,
+            "residual_share": 0.6544572158537185,
+            "unweighted_children": 19749,
+            "weighted_children": 44754709.3413886
+          },
+          "3+ children": {
+            "deep_poor_rate": 0.015770316895391257,
+            "poor_children": 2430716.1493614614,
+            "poor_rate": 0.09957250434116491,
+            "residual_share": 0.3455427841462814,
+            "unweighted_children": 11695,
+            "weighted_children": 24411519.680504445
+          }
+        },
+        "earnings": {
+          "No positive earnings": {
+            "deep_poor_rate": 0.29652029206062824,
+            "poor_children": 1904722.8308687638,
+            "poor_rate": 0.6196619825530952,
+            "residual_share": 0.27076926698260345,
+            "unweighted_children": 1347,
+            "weighted_children": 3073809.406575236
+          },
+          "Positive earnings": {
+            "deep_poor_rate": 0.009986188864132953,
+            "poor_children": 5129763.955961218,
+            "poor_rate": 0.07761501221801731,
+            "residual_share": 0.7292307330173965,
+            "unweighted_children": 30097,
+            "weighted_children": 66092419.61531781
+          }
+        },
+        "head_race_ethnicity": {
+          "Asian non-Hispanic head": {
+            "deep_poor_rate": 0.02226229800632187,
+            "poor_children": 229781.93581416368,
+            "poor_rate": 0.09150321408234892,
+            "residual_share": 0.032665060405595345,
+            "unweighted_children": 1208,
+            "weighted_children": 2511189.77752377
+          },
+          "Black non-Hispanic head": {
+            "deep_poor_rate": 0.034618225463336934,
+            "poor_children": 1504468.453999176,
+            "poor_rate": 0.1539938661550971,
+            "residual_share": 0.21387039304926309,
+            "unweighted_children": 3091,
+            "weighted_children": 9769664.802648237
+          },
+          "Hispanic head": {
+            "deep_poor_rate": 0.02968643043834875,
+            "poor_children": 2713406.5900145923,
+            "poor_rate": 0.16352535411427102,
+            "residual_share": 0.38572914730533747,
+            "unweighted_children": 6694,
+            "weighted_children": 16593185.837827154
+          },
+          "Other non-Hispanic head": {
+            "deep_poor_rate": 0.021287944864514734,
+            "poor_children": 438910.24323593866,
+            "poor_rate": 0.0895280223711279,
+            "residual_share": 0.062394067475920155,
+            "unweighted_children": 1857,
+            "weighted_children": 4902490.09875911
+          },
+          "White non-Hispanic head": {
+            "deep_poor_rate": 0.01639992885485715,
+            "poor_children": 2147919.5637661116,
+            "poor_rate": 0.060693355820888535,
+            "residual_share": 0.30534133176388395,
+            "unweighted_children": 18594,
+            "weighted_children": 35389698.50513477
+          }
+        },
+        "tenure": {
+          "Owner/other": {
+            "deep_poor_rate": 0.015340658162305761,
+            "poor_children": 2462560.8756392454,
+            "poor_rate": 0.052928243094974445,
+            "residual_share": 0.3500697279366094,
+            "unweighted_children": 22367,
+            "weighted_children": 46526405.027660295
+          },
+          "Renter": {
+            "deep_poor_rate": 0.03788512547229417,
+            "poor_children": 4571925.911190737,
+            "poor_rate": 0.20194176034033595,
+            "residual_share": 0.6499302720633907,
+            "unweighted_children": 9077,
+            "weighted_children": 22639823.994232748
+          }
+        }
+      },
+      "year": 2030
+    },
+    {
+      "assumptions": {
+        "care_2030": 0.3,
+        "care_2034": 0.5,
+        "coverage": 0.9,
+        "ctc_receipt": 0.85,
+        "food_receipt": 0.75,
+        "prek_2030": 0.4,
+        "prek_2034": 0.65,
+        "voucher_leaseup": 0.5
+      },
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0,
+        "expected_leased_households": 200000.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "residual": {
+        "additional_poor_under_selected_delivery": 620017.9780964404,
+        "interpretation": "Ordered scenario comparison, not an estimated causal attribution; food/care eligibility and scarce voucher allocation remain fixed",
+        "poor_even_with_full_modeled_receipt": 6588890.844569638
+      },
+      "scenario": "stressed",
+      "stages": [
+        {
+          "below150_children": 20760088.920550343,
+          "below150_rate": 0.31101449048044827,
+          "child_weighted_gap_dollars": 105307165099.23376,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1734487.810231813,
+          "deep_poor_rate": 0.02598499672175273,
+          "label": "CTC",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1442.0640361817786,
+          "poor_children": 7505552.806080902,
+          "poor_children_lifted": 1440896.1244716258,
+          "poor_rate": 0.11244343368137501,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0013355266067312903
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.021586592220430398,
+              "lower95": -0.02418846515843779,
+              "se": 0.0013274861928609146,
+              "upper95": -0.018984719282423006
+            },
+            "poor_children": {
+              "se": 198473.7856359451
+            },
+            "poor_rate": {
+              "lower95": 0.10658277305533503,
+              "se": 0.002990132972469377,
+              "upper95": 0.11830409430741498
+            }
+          },
+          "stage": 1,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 20605251.812318064,
+          "below150_rate": 0.30869481909037744,
+          "child_weighted_gap_dollars": 104147557382.28262,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1715214.436721709,
+          "deep_poor_rate": 0.025696255258986132,
+          "label": "CTC + care/pre-K",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1789.7189176310237,
+          "poor_children": 7432605.618100226,
+          "poor_children_lifted": 1513843.3124523014,
+          "poor_rate": 0.11135058515897138,
+          "stage": 2,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 20290026.54061249,
+          "below150_rate": 0.3039723139199385,
+          "child_weighted_gap_dollars": 100393310179.04283,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1669225.745891107,
+          "deep_poor_rate": 0.025007281849417355,
+          "label": "+ school/summer food",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2421.1199186726185,
+          "poor_children": 7235830.989080379,
+          "poor_children_lifted": 1710617.9414721485,
+          "poor_rate": 0.10840263242050766,
+          "stage": 3,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 20277603.22159889,
+          "below150_rate": 0.3037861956307598,
+          "child_weighted_gap_dollars": 99157279300.04924,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1645627.176277295,
+          "deep_poor_rate": 0.024653743040764092,
+          "label": "+ scarce vouchers",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2454.2281418916814,
+          "poor_children": 7174222.053537339,
+          "poor_children_lifted": 1772226.877015189,
+          "poor_rate": 0.10747964640776501,
+          "stage": 4,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 20346829.879553135,
+          "below150_rate": 0.30482330553109316,
+          "child_weighted_gap_dollars": 99563919262.68988,
+          "children_newly_poor": 2918.0639226082053,
+          "deep_poor_children": 1647356.229765252,
+          "deep_poor_rate": 0.02467964662391484,
+          "label": "+ employee leave contribution",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2040.557601621138,
+          "poor_children": 7208908.822666079,
+          "poor_children_lifted": 1740458.1718090575,
+          "poor_rate": 0.10799930159172277,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012648095691972176
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.02603072431008263,
+              "lower95": -0.028854402727041664,
+              "se": 0.0014406522535505267,
+              "upper95": -0.0232070458931236
+            },
+            "poor_children": {
+              "se": 192674.75660641238
+            },
+            "poor_rate": {
+              "lower95": 0.10230481746363305,
+              "se": 0.0029053490449437356,
+              "upper95": 0.11369378571981249
+            }
+          },
+          "stage": 5,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        }
+      ],
+      "subgroups": {
+        "adults": {
+          "Multiple/no adults": {
+            "deep_poor_rate": 0.018645571077054446,
+            "poor_children": 4920243.224166156,
+            "poor_rate": 0.08619601354029648,
+            "residual_share": 0.6825226043497796,
+            "unweighted_children": 27170,
+            "weighted_children": 57082027.60288852
+          },
+          "One adult": {
+            "deep_poor_rate": 0.06030779617928464,
+            "poor_children": 2288665.598499923,
+            "poor_rate": 0.23673663699005193,
+            "residual_share": 0.3174773956502204,
+            "unweighted_children": 4274,
+            "weighted_children": 9667559.814985868
+          }
+        },
+        "age": {
+          "6\u201317": {
+            "deep_poor_rate": 0.024493976591018003,
+            "poor_children": 4891233.770353757,
+            "poor_rate": 0.1069239396983552,
+            "residual_share": 0.6784984927226235,
+            "unweighted_children": 22563,
+            "weighted_children": 45744982.68724939
+          },
+          "Under 6": {
+            "deep_poor_rate": 0.025084009026794203,
+            "poor_children": 2317675.052312322,
+            "poor_rate": 0.1103412838296891,
+            "residual_share": 0.3215015072773765,
+            "unweighted_children": 8881,
+            "weighted_children": 21004604.73062499
+          }
+        },
+        "children": {
+          "1\u20132 children": {
+            "deep_poor_rate": 0.027281468593015543,
+            "poor_children": 4629924.014688894,
+            "poor_rate": 0.10718041594259821,
+            "residual_share": 0.6422503222861687,
+            "unweighted_children": 19749,
+            "weighted_children": 43197481.31196381
+          },
+          "3+ children": {
+            "deep_poor_rate": 0.01990758269970049,
+            "poor_children": 2578984.8079771847,
+            "poor_rate": 0.10950123935328102,
+            "residual_share": 0.3577496777138313,
+            "unweighted_children": 11695,
+            "weighted_children": 23552106.10591057
+          }
+        },
+        "earnings": {
+          "No positive earnings": {
+            "deep_poor_rate": 0.3102856221897294,
+            "poor_children": 1913646.153982413,
+            "poor_rate": 0.6457099094681245,
+            "residual_share": 0.2654557299941945,
+            "unweighted_children": 1347,
+            "weighted_children": 2963631.386048723
+          },
+          "Positive earnings": {
+            "deep_poor_rate": 0.011409784637248207,
+            "poor_children": 5295262.668683666,
+            "poor_rate": 0.08301612138636949,
+            "residual_share": 0.7345442700058056,
+            "unweighted_children": 30097,
+            "weighted_children": 63785956.031825654
+          }
+        },
+        "head_race_ethnicity": {
+          "Asian non-Hispanic head": {
+            "deep_poor_rate": 0.023988055550507908,
+            "poor_children": 239661.67025157224,
+            "poor_rate": 0.09890877352440489,
+            "residual_share": 0.03324520758232283,
+            "unweighted_children": 1208,
+            "weighted_children": 2423057.750204918
+          },
+          "Black non-Hispanic head": {
+            "deep_poor_rate": 0.03707019237601042,
+            "poor_children": 1569474.8987741782,
+            "poor_rate": 0.16638523395022572,
+            "residual_share": 0.21771324029504616,
+            "unweighted_children": 3091,
+            "weighted_children": 9432777.545895016
+          },
+          "Hispanic head": {
+            "deep_poor_rate": 0.03359956049966487,
+            "poor_children": 2807520.9456495563,
+            "poor_rate": 0.17531074137045013,
+            "residual_share": 0.3894515820233731,
+            "unweighted_children": 6694,
+            "weighted_children": 16014540.373866584
+          },
+          "Other non-Hispanic head": {
+            "deep_poor_rate": 0.021786725583995022,
+            "poor_children": 433411.2983900843,
+            "poor_rate": 0.09156160900439249,
+            "residual_share": 0.06012162298784566,
+            "unweighted_children": 1857,
+            "weighted_children": 4733548.297183072
+          },
+          "White non-Hispanic head": {
+            "deep_poor_rate": 0.01752336347170131,
+            "poor_children": 2158840.0096006873,
+            "poor_rate": 0.06322442709939095,
+            "residual_share": 0.29946834711141224,
+            "unweighted_children": 18594,
+            "weighted_children": 34145663.45072479
+          }
+        },
+        "tenure": {
+          "Owner/other": {
+            "deep_poor_rate": 0.01590091863973493,
+            "poor_children": 2525604.128367219,
+            "poor_rate": 0.05628731532700716,
+            "residual_share": 0.3503448566898606,
+            "unweighted_children": 22367,
+            "weighted_children": 44869863.01788338
+          },
+          "Renter": {
+            "deep_poor_rate": 0.04268263034164275,
+            "poor_children": 4683304.69429886,
+            "poor_rate": 0.21404770045004706,
+            "residual_share": 0.6496551433101394,
+            "unweighted_children": 9077,
+            "weighted_children": 21879724.399991002
+          }
+        }
+      },
+      "year": 2034
+    },
+    {
+      "assumptions": {
+        "care_2030": 0.5,
+        "care_2034": 0.75,
+        "coverage": 0.95,
+        "ctc_receipt": 0.95,
+        "food_receipt": 0.9,
+        "prek_2030": 0.6,
+        "prek_2034": 0.85,
+        "voucher_leaseup": 0.65
+      },
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0,
+        "expected_leased_households": 260000.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "residual": {
+        "additional_poor_under_selected_delivery": 278720.32073271275,
+        "interpretation": "Ordered scenario comparison, not an estimated causal attribution; food/care eligibility and scarce voucher allocation remain fixed",
+        "poor_even_with_full_modeled_receipt": 6588890.844569638
+      },
+      "scenario": "moderate",
+      "stages": [
+        {
+          "below150_children": 20586148.81944551,
+          "below150_rate": 0.30840863016230263,
+          "child_weighted_gap_dollars": 99585696846.11272,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1632502.5353990775,
+          "deep_poor_rate": 0.024457117992042025,
+          "label": "CTC",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1701.258552488961,
+          "poor_children": 7246568.208545152,
+          "poor_children_lifted": 1699880.7220073754,
+          "poor_rate": 0.10856349063521922,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012985117742153167
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.025466535266586182,
+              "lower95": -0.028536065105215818,
+              "se": 0.0015660866523620586,
+              "upper95": -0.022397005427956546
+            },
+            "poor_children": {
+              "se": 197197.117251055
+            },
+            "poor_rate": {
+              "lower95": 0.10274492609103907,
+              "se": 0.002968655379683754,
+              "upper95": 0.11438205517939938
+            }
+          },
+          "stage": 1,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 20357024.766058374,
+          "below150_rate": 0.3049760388572397,
+          "child_weighted_gap_dollars": 97942913951.24428,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1603657.867005998,
+          "deep_poor_rate": 0.024024985457461664,
+          "label": "CTC + care/pre-K",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2193.0077401749313,
+          "poor_children": 7139468.89004459,
+          "poor_children_lifted": 1806980.0405079373,
+          "poor_rate": 0.10695899654553917,
+          "stage": 2,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 19974023.62061568,
+          "below150_rate": 0.299238158515823,
+          "child_weighted_gap_dollars": 93596284501.62592,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1550484.8230898422,
+          "deep_poor_rate": 0.023228380624786445,
+          "label": "+ school/summer food",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2950.688941424845,
+          "poor_children": 6911933.383571347,
+          "poor_children_lifted": 2034515.54698118,
+          "poor_rate": 0.10355020384321434,
+          "stage": 3,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 19955603.20562627,
+          "below150_rate": 0.2989621955368447,
+          "child_weighted_gap_dollars": 92066115269.6745,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1522192.9279400886,
+          "deep_poor_rate": 0.022804529388483857,
+          "label": "+ scarce vouchers",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2993.729631609627,
+          "poor_children": 6831287.153153889,
+          "poor_children_lifted": 2115161.7773986384,
+          "poor_rate": 0.10234201314815301,
+          "stage": 4,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 20020704.001811862,
+          "below150_rate": 0.29993749439192285,
+          "child_weighted_gap_dollars": 92443742345.25865,
+          "children_newly_poor": 858.0514077139635,
+          "deep_poor_children": 1523002.1237566664,
+          "deep_poor_rate": 0.02281665224718427,
+          "label": "+ employee leave contribution",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2580.0590913390834,
+          "poor_children": 6867611.165302351,
+          "poor_children_lifted": 2079695.8166578906,
+          "poor_rate": 0.10288619646903352,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012148505917212876
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.031143829432771886,
+              "lower95": -0.03444654991715357,
+              "se": 0.0016850614716233088,
+              "upper95": -0.0278411089483902
+            },
+            "poor_children": {
+              "se": 189985.2346242191
+            },
+            "poor_rate": {
+              "lower95": 0.09727218388456954,
+              "se": 0.002864292134930605,
+              "upper95": 0.1085002090534975
+            }
+          },
+          "stage": 5,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        }
+      ],
+      "subgroups": {
+        "adults": {
+          "Multiple/no adults": {
+            "deep_poor_rate": 0.01757946306036044,
+            "poor_children": 4716952.232993036,
+            "poor_rate": 0.08263463004166909,
+            "residual_share": 0.6868403174636298,
+            "unweighted_children": 27170,
+            "weighted_children": 57082027.60288852
+          },
+          "One adult": {
+            "deep_poor_rate": 0.053739592828365886,
+            "poor_children": 2150658.9323093155,
+            "poor_rate": 0.22246140427034528,
+            "residual_share": 0.31315968253637017,
+            "unweighted_children": 4274,
+            "weighted_children": 9667559.814985868
+          }
+        },
+        "age": {
+          "6\u201317": {
+            "deep_poor_rate": 0.02271085886802893,
+            "poor_children": 4683763.733733425,
+            "poor_rate": 0.10238857812572616,
+            "residual_share": 0.6820077055901896,
+            "unweighted_children": 22563,
+            "weighted_children": 45744982.68724939
+          },
+          "Under 6": {
+            "deep_poor_rate": 0.02304705488317535,
+            "poor_children": 2183847.431568926,
+            "poor_rate": 0.10396993704836768,
+            "residual_share": 0.31799229440981036,
+            "unweighted_children": 8881,
+            "weighted_children": 21004604.73062499
+          }
+        },
+        "children": {
+          "1\u20132 children": {
+            "deep_poor_rate": 0.02602300945835916,
+            "poor_children": 4473210.345366848,
+            "poor_rate": 0.10355257319430715,
+            "residual_share": 0.6513488078601654,
+            "unweighted_children": 19749,
+            "weighted_children": 43197481.31196381
+          },
+          "3+ children": {
+            "deep_poor_rate": 0.01693579577148895,
+            "poor_children": 2394400.8199355034,
+            "poor_rate": 0.10166397897360914,
+            "residual_share": 0.3486511921398346,
+            "unweighted_children": 11695,
+            "weighted_children": 23552106.10591057
+          }
+        },
+        "earnings": {
+          "No positive earnings": {
+            "deep_poor_rate": 0.29660558490843913,
+            "poor_children": 1857025.0402834897,
+            "poor_rate": 0.6266045936162723,
+            "residual_share": 0.27040334631434143,
+            "unweighted_children": 1347,
+            "weighted_children": 2963631.386048723
+          },
+          "Positive earnings": {
+            "deep_poor_rate": 0.010095835245039991,
+            "poor_children": 5010586.125018861,
+            "poor_rate": 0.0785531241786022,
+            "residual_share": 0.7295966536856585,
+            "unweighted_children": 30097,
+            "weighted_children": 63785956.031825654
+          }
+        },
+        "head_race_ethnicity": {
+          "Asian non-Hispanic head": {
+            "deep_poor_rate": 0.02295857689230693,
+            "poor_children": 228648.76598387197,
+            "poor_rate": 0.09436372945074674,
+            "residual_share": 0.03329378447328061,
+            "unweighted_children": 1208,
+            "weighted_children": 2423057.750204918
+          },
+          "Black non-Hispanic head": {
+            "deep_poor_rate": 0.03478662544828252,
+            "poor_children": 1480943.6451813169,
+            "poor_rate": 0.1569997424380901,
+            "residual_share": 0.21564174347312765,
+            "unweighted_children": 3091,
+            "weighted_children": 9432777.545895016
+          },
+          "Hispanic head": {
+            "deep_poor_rate": 0.03046119867370372,
+            "poor_children": 2692084.0855632075,
+            "poor_rate": 0.16810248828347893,
+            "residual_share": 0.39199716186096667,
+            "unweighted_children": 6694,
+            "weighted_children": 16014540.373866584
+          },
+          "Other non-Hispanic head": {
+            "deep_poor_rate": 0.021320842814029,
+            "poor_children": 419228.7527604396,
+            "poor_rate": 0.08856543261846975,
+            "residual_share": 0.06104433443735639,
+            "unweighted_children": 1857,
+            "weighted_children": 4733548.297183072
+          },
+          "White non-Hispanic head": {
+            "deep_poor_rate": 0.016121881253214534,
+            "poor_children": 2046705.9158135152,
+            "poor_rate": 0.05994043485982028,
+            "residual_share": 0.2980229757552687,
+            "unweighted_children": 18594,
+            "weighted_children": 34145663.45072479
+          }
+        },
+        "tenure": {
+          "Owner/other": {
+            "deep_poor_rate": 0.015266122488401337,
+            "poor_children": 2413133.606675038,
+            "poor_rate": 0.05378072149926682,
+            "residual_share": 0.35137889268790573,
+            "unweighted_children": 22367,
+            "weighted_children": 44869863.01788338
+          },
+          "Renter": {
+            "deep_poor_rate": 0.038300907432280734,
+            "poor_children": 4454477.558627313,
+            "poor_rate": 0.20358929012054397,
+            "residual_share": 0.6486211073120942,
+            "unweighted_children": 9077,
+            "weighted_children": 21879724.399991002
+          }
+        }
+      },
+      "year": 2034
+    },
+    {
+      "assumptions": {
+        "care_2030": 0.75,
+        "care_2034": 0.9,
+        "coverage": 0.98,
+        "ctc_receipt": 0.98,
+        "food_receipt": 0.98,
+        "prek_2030": 0.85,
+        "prek_2034": 0.95,
+        "voucher_leaseup": 0.85
+      },
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0,
+        "expected_leased_households": 340000.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "residual": {
+        "additional_poor_under_selected_delivery": 108559.07670384739,
+        "interpretation": "Ordered scenario comparison, not an estimated causal attribution; food/care eligibility and scarce voucher allocation remain fixed",
+        "poor_even_with_full_modeled_receipt": 6588890.844569638
+      },
+      "scenario": "enhanced",
+      "stages": [
+        {
+          "below150_children": 20512904.22414391,
+          "below150_rate": 0.30731132607197076,
+          "child_weighted_gap_dollars": 97176438578.07121,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1589557.4633058745,
+          "deep_poor_rate": 0.02381374214876748,
+          "label": "CTC",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1810.4030069921305,
+          "poor_children": 7137512.14892828,
+          "poor_children_lifted": 1808936.7816242476,
+          "poor_rate": 0.10692968189069253,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012923180134747736
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.027100344011112873,
+              "lower95": -0.030366799919168165,
+              "se": 0.0016665591367629033,
+              "upper95": -0.02383388810305758
+            },
+            "poor_children": {
+              "se": 197039.85518553318
+            },
+            "poor_rate": {
+              "lower95": 0.10111766521126499,
+              "se": 0.0029653146323609953,
+              "upper95": 0.11274169857012008
+            }
+          },
+          "stage": 1,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 20239717.96968031,
+          "below150_rate": 0.3032186228054567,
+          "child_weighted_gap_dollars": 95255440492.50235,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1555043.8486299613,
+          "deep_poor_rate": 0.02329668105504346,
+          "label": "CTC + care/pre-K",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2383.851476902072,
+          "poor_children": 7010153.600244977,
+          "poor_children_lifted": 1936295.3303075507,
+          "poor_rate": 0.10502167685860152,
+          "stage": 2,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 19820325.67634774,
+          "below150_rate": 0.29693555335804517,
+          "child_weighted_gap_dollars": 90598234534.68875,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1497954.0089892682,
+          "deep_poor_rate": 0.0224413972720398,
+          "label": "+ school/summer food",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 3208.882118263089,
+          "poor_children": 6766135.262260284,
+          "poor_children_lifted": 2180313.6682922435,
+          "poor_rate": 0.10136594882455305,
+          "stage": 3,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 19794834.35606914,
+          "below150_rate": 0.2965536585589206,
+          "child_weighted_gap_dollars": 88642504087.08725,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1462366.6331591445,
+          "deep_poor_rate": 0.02190824976945922,
+          "label": "+ scarce vouchers",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 3265.1660977354964,
+          "poor_children": 6660497.519655826,
+          "poor_children_lifted": 2285951.4108967017,
+          "poor_rate": 0.0997833511383212,
+          "stage": 4,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 19859210.439867444,
+          "below150_rate": 0.29751810023247416,
+          "child_weighted_gap_dollars": 89005548837.28256,
+          "children_newly_poor": 287.54335605408204,
+          "deep_poor_children": 1462719.4581693748,
+          "deep_poor_rate": 0.02191353557007431,
+          "label": "+ employee leave contribution",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2851.495557464953,
+          "poor_children": 6697449.921273486,
+          "poor_children_lifted": 2249286.552635096,
+          "poor_rate": 0.10033694859183541,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012002912328896637
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.033693077309969996,
+              "lower95": -0.03721706785035396,
+              "se": 0.0017979543573387589,
+              "upper95": -0.030169086769586028
+            },
+            "poor_children": {
+              "se": 188715.49631216726
+            },
+            "poor_rate": {
+              "lower95": 0.09476043853022038,
+              "se": 0.002845158194701546,
+              "upper95": 0.10591345865345043
+            }
+          },
+          "stage": 5,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        }
+      ],
+      "subgroups": {
+        "adults": {
+          "Multiple/no adults": {
+            "deep_poor_rate": 0.017063809383004298,
+            "poor_children": 4615815.205796063,
+            "poor_rate": 0.08086284597154865,
+            "residual_share": 0.6891899543936253,
+            "unweighted_children": 27170,
+            "weighted_children": 57082027.60288852
+          },
+          "One adult": {
+            "deep_poor_rate": 0.050548704048438295,
+            "poor_children": 2081634.715477423,
+            "poor_rate": 0.21532162772353802,
+            "residual_share": 0.31081004560637476,
+            "unweighted_children": 4274,
+            "weighted_children": 9667559.814985868
+          }
+        },
+        "age": {
+          "6\u201317": {
+            "deep_poor_rate": 0.021847161803929555,
+            "poor_children": 4580045.463029347,
+            "poor_rate": 0.10012126344745463,
+            "residual_share": 0.683849154061084,
+            "unweighted_children": 22563,
+            "weighted_children": 45744982.68724939
+          },
+          "Under 6": {
+            "deep_poor_rate": 0.022058088006176684,
+            "poor_children": 2117404.458244139,
+            "poor_rate": 0.10080667955426628,
+            "residual_share": 0.316150845938916,
+            "unweighted_children": 8881,
+            "weighted_children": 21004604.73062499
+          }
+        },
+        "children": {
+          "1\u20132 children": {
+            "deep_poor_rate": 0.025340532932438934,
+            "poor_children": 4393136.675171421,
+            "poor_rate": 0.10169890793967921,
+            "residual_share": 0.655941698230136,
+            "unweighted_children": 19749,
+            "weighted_children": 43197481.31196381
+          },
+          "3+ children": {
+            "deep_poor_rate": 0.015627997714088515,
+            "poor_children": 2304313.2461020653,
+            "poor_rate": 0.09783894636598046,
+            "residual_share": 0.34405830176986407,
+            "unweighted_children": 11695,
+            "weighted_children": 23552106.10591057
+          }
+        },
+        "earnings": {
+          "No positive earnings": {
+            "deep_poor_rate": 0.28973069762859593,
+            "poor_children": 1830865.8524769142,
+            "poor_rate": 0.6177778589792591,
+            "residual_share": 0.2733676061782011,
+            "unweighted_children": 1347,
+            "weighted_children": 2963631.386048723
+          },
+          "Positive earnings": {
+            "deep_poor_rate": 0.00947017975044665,
+            "poor_children": 4866584.068796571,
+            "poor_rate": 0.0762955417077768,
+            "residual_share": 0.7266323938217989,
+            "unweighted_children": 30097,
+            "weighted_children": 63785956.031825654
+          }
+        },
+        "head_race_ethnicity": {
+          "Asian non-Hispanic head": {
+            "deep_poor_rate": 0.022415812014810844,
+            "poor_children": 223822.17814396243,
+            "poor_rate": 0.09237178854900746,
+            "residual_share": 0.03341901481532897,
+            "unweighted_children": 1208,
+            "weighted_children": 2423057.750204918
+          },
+          "Black non-Hispanic head": {
+            "deep_poor_rate": 0.033601138002621496,
+            "poor_children": 1438150.6530883645,
+            "poor_rate": 0.15246311556602152,
+            "residual_share": 0.2147310797383174,
+            "unweighted_children": 3091,
+            "weighted_children": 9432777.545895016
+          },
+          "Hispanic head": {
+            "deep_poor_rate": 0.028980251700154575,
+            "poor_children": 2632577.342202161,
+            "poor_rate": 0.16438669363862274,
+            "residual_share": 0.39307159786893786,
+            "unweighted_children": 6694,
+            "weighted_children": 16014540.373866584
+          },
+          "Other non-Hispanic head": {
+            "deep_poor_rate": 0.02105897240219522,
+            "poor_children": 411669.59514225996,
+            "poor_rate": 0.08696850001239957,
+            "residual_share": 0.06146661788909399,
+            "unweighted_children": 1857,
+            "weighted_children": 4733548.297183072
+          },
+          "White non-Hispanic head": {
+            "deep_poor_rate": 0.015453309846557548,
+            "poor_children": 1991230.152696738,
+            "poor_rate": 0.058315755251622484,
+            "residual_share": 0.29731168968832183,
+            "unweighted_children": 18594,
+            "weighted_children": 34145663.45072479
+          }
+        },
+        "tenure": {
+          "Owner/other": {
+            "deep_poor_rate": 0.01498573337758347,
+            "poor_children": 2362026.3687040913,
+            "poor_rate": 0.05264171115839332,
+            "residual_share": 0.3526754804394214,
+            "unweighted_children": 22367,
+            "weighted_children": 44869863.01788338
+          },
+          "Renter": {
+            "deep_poor_rate": 0.03612073168046882,
+            "poor_children": 4335423.552569395,
+            "poor_rate": 0.19814799644236733,
+            "residual_share": 0.6473245195605787,
+            "unweighted_children": 9077,
+            "weighted_children": 21879724.399991002
+          }
+        }
+      },
+      "year": 2034
+    },
+    {
+      "assumptions": {
+        "care_2030": 1,
+        "care_2034": 1,
+        "coverage": 1,
+        "ctc_receipt": 1,
+        "food_receipt": 1,
+        "prek_2030": 1,
+        "prek_2034": 1,
+        "voucher_leaseup": 1
+      },
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0,
+        "expected_leased_households": 400000.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "residual": {
+        "additional_poor_under_selected_delivery": 0.0,
+        "interpretation": "Ordered scenario comparison, not an estimated causal attribution; food/care eligibility and scarce voucher allocation remain fixed",
+        "poor_even_with_full_modeled_receipt": 6588890.844569638
+      },
+      "scenario": "full",
+      "stages": [
+        {
+          "below150_children": 20462809.475025717,
+          "below150_rate": 0.3065608383003448,
+          "child_weighted_gap_dollars": 95528655721.17235,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1560185.7041540465,
+          "deep_poor_rate": 0.023373713074610794,
+          "label": "CTC",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 1885.0510276885993,
+          "poor_children": 7062924.584837984,
+          "poor_children_lifted": 1883524.3457145437,
+          "poor_rate": 0.10581225829339966,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0012913734621166164
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.028217767608405747,
+              "lower95": -0.031618908703840244,
+              "se": 0.0017352760690992326,
+              "upper95": -0.02481662651297125
+            },
+            "poor_children": {
+              "se": 197062.7680826852
+            },
+            "poor_rate": {
+              "lower95": 0.1000008801954067,
+              "se": 0.002964988825506609,
+              "upper95": 0.11162363639139261
+            }
+          },
+          "stage": 1,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 20160649.721631978,
+          "below150_rate": 0.3020340724418217,
+          "child_weighted_gap_dollars": 93432923133.0461,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1521938.9135331768,
+          "deep_poor_rate": 0.02280072390568257,
+          "label": "CTC + care/pre-K",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 2509.001267816136,
+          "poor_children": 6922282.047943267,
+          "poor_children_lifted": 2024166.8826092607,
+          "poor_rate": 0.10370524097186555,
+          "stage": 2,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 19731071.767550156,
+          "below150_rate": 0.29559840788269076,
+          "child_weighted_gap_dollars": 88733459191.67863,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1464235.5484864234,
+          "deep_poor_rate": 0.021936248674015422,
+          "label": "+ school/summer food",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 3350.8692692049285,
+          "poor_children": 6675886.797590129,
+          "poor_children_lifted": 2270562.132962398,
+          "poor_rate": 0.1000139035436561,
+          "stage": 3,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 19700107.304763246,
+          "below150_rate": 0.29513451793243445,
+          "child_weighted_gap_dollars": 86465484329.23737,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1423474.0786104023,
+          "deep_poor_rate": 0.02132558617477268,
+          "label": "+ scarce vouchers",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 3417.085715643055,
+          "poor_children": 6551411.9338617185,
+          "poor_children_lifted": 2395036.9966908093,
+          "poor_rate": 0.09814910005132652,
+          "stage": 4,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        },
+        {
+          "below150_children": 19765001.05263699,
+          "below150_rate": 0.2961067149209714,
+          "child_weighted_gap_dollars": 86819358101.98018,
+          "children_newly_poor": 0.0,
+          "deep_poor_children": 1423474.0786104023,
+          "deep_poor_rate": 0.02132558617477268,
+          "label": "+ employee leave contribution",
+          "mean_unit_resource_gain_per_child_not_fiscal_cost": 3003.4151753725114,
+          "poor_children": 6588890.844569638,
+          "poor_children_lifted": 2357558.0859828894,
+          "poor_rate": 0.09871058533022854,
+          "sampling_uncertainty": {
+            "deep_poor_rate": {
+              "se": 0.0011941901237747306
+            },
+            "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+            "paired_poor_rate_change": {
+              "estimate": -0.03531944057157686,
+              "lower95": -0.03898376709853635,
+              "se": 0.0018695543504895322,
+              "upper95": -0.03165511404461738
+            },
+            "poor_children": {
+              "se": 187942.07239931257
+            },
+            "poor_rate": {
+              "lower95": 0.09315696609980588,
+              "se": 0.0028334791991952387,
+              "upper95": 0.1042642045606512
+            }
+          },
+          "stage": 5,
+          "unweighted_children": 31444,
+          "weighted_children": 66749587.41787438
+        }
+      ],
+      "subgroups": {
+        "adults": {
+          "Multiple/no adults": {
+            "deep_poor_rate": 0.016730095993574508,
+            "poor_children": 4551931.519251986,
+            "poor_rate": 0.07974369009662939,
+            "residual_share": 0.6908494353042058,
+            "unweighted_children": 27170,
+            "weighted_children": 57082027.60288852
+          },
+          "One adult": {
+            "deep_poor_rate": 0.04845962024253507,
+            "poor_children": 2036959.3253176515,
+            "poor_rate": 0.21070046260899492,
+            "residual_share": 0.3091505646957941,
+            "unweighted_children": 4274,
+            "weighted_children": 9667559.814985868
+          }
+        },
+        "age": {
+          "6\u201317": {
+            "deep_poor_rate": 0.02128993124531124,
+            "poor_children": 4515077.885388801,
+            "poor_rate": 0.09870105135371052,
+            "residual_share": 0.6852561367153304,
+            "unweighted_children": 22563,
+            "weighted_children": 45744982.68724939
+          },
+          "Under 6": {
+            "deep_poor_rate": 0.021403237439904584,
+            "poor_children": 2073812.9591808377,
+            "poor_rate": 0.09873134894831852,
+            "residual_share": 0.31474386328466963,
+            "unweighted_children": 8881,
+            "weighted_children": 21004604.73062499
+          }
+        },
+        "children": {
+          "1\u20132 children": {
+            "deep_poor_rate": 0.024900350860011165,
+            "poor_children": 4343197.842992018,
+            "poor_rate": 0.10054284905238543,
+            "residual_share": 0.659169797382749,
+            "unweighted_children": 19749,
+            "weighted_children": 43197481.31196381
+          },
+          "3+ children": {
+            "deep_poor_rate": 0.014769024736451683,
+            "poor_children": 2245693.00157762,
+            "poor_rate": 0.09534998659903486,
+            "residual_share": 0.340830202617251,
+            "unweighted_children": 11695,
+            "weighted_children": 23552106.10591057
+          }
+        },
+        "earnings": {
+          "No positive earnings": {
+            "deep_poor_rate": 0.28525457419190503,
+            "poor_children": 1813339.0012788593,
+            "poor_rate": 0.6118638808507502,
+            "residual_share": 0.27521157112101163,
+            "unweighted_children": 1347,
+            "weighted_children": 2963631.386048723
+          },
+          "Positive earnings": {
+            "deep_poor_rate": 0.009062883203206617,
+            "poor_children": 4775551.843290779,
+            "poor_rate": 0.07486839016582339,
+            "residual_share": 0.7247884288789883,
+            "unweighted_children": 30097,
+            "weighted_children": 63785956.031825654
+          }
+        },
+        "head_race_ethnicity": {
+          "Asian non-Hispanic head": {
+            "deep_poor_rate": 0.02211052724480695,
+            "poor_children": 220549.58026988822,
+            "poor_rate": 0.09102118191414808,
+            "residual_share": 0.03347294491176135,
+            "unweighted_children": 1208,
+            "weighted_children": 2423057.750204918
+          },
+          "Black non-Hispanic head": {
+            "deep_poor_rate": 0.032812867420620534,
+            "poor_children": 1411088.6041313477,
+            "poor_rate": 0.14959417809502246,
+            "residual_share": 0.21416178191725907,
+            "unweighted_children": 3091,
+            "weighted_children": 9432777.545895016
+          },
+          "Hispanic head": {
+            "deep_poor_rate": 0.02801139342981143,
+            "poor_children": 2593067.193699833,
+            "poor_rate": 0.16191955143035788,
+            "residual_share": 0.3935513965657755,
+            "unweighted_children": 6694,
+            "weighted_children": 16014540.373866584
+          },
+          "Other non-Hispanic head": {
+            "deep_poor_rate": 0.02088097291840438,
+            "poor_children": 406951.8369679507,
+            "poor_rate": 0.08597183580235722,
+            "residual_share": 0.061763329605520466,
+            "unweighted_children": 1857,
+            "weighted_children": 4733548.297183072
+          },
+          "White non-Hispanic head": {
+            "deep_poor_rate": 0.015022459033953639,
+            "poor_children": 1957233.6295006184,
+            "poor_rate": 0.05732012301723408,
+            "residual_share": 0.29705054699968364,
+            "unweighted_children": 18594,
+            "weighted_children": 34145663.45072479
+          }
+        },
+        "tenure": {
+          "Owner/other": {
+            "deep_poor_rate": 0.014818711388652811,
+            "poor_children": 2330318.457185961,
+            "poor_rate": 0.05193504727788419,
+            "residual_share": 0.35367385985860395,
+            "unweighted_children": 22367,
+            "weighted_children": 44869863.01788338
+          },
+          "Renter": {
+            "deep_poor_rate": 0.03466956505632741,
+            "poor_children": 4258572.387383677,
+            "poor_rate": 0.19463555890975612,
+            "residual_share": 0.646326140141396,
+            "unweighted_children": 9077,
+            "weighted_children": 21879724.399991002
+          }
+        }
+      },
+      "year": 2034
+    }
+  ],
+  "dollar_year": 2025,
+  "external_comparator": {
+    "absolute_tolerances": {
+      "all_people": 250000,
+      "children": 150000
+    },
+    "income_year": 2025,
+    "interpretation": "Matched source-year element-removal validation; not independent validation of Project eligibility, delivery or future projections",
+    "passed": true,
+    "policy": "Removal of EITC + refundable ACTC only; no behavior change",
+    "population": "All persons and children under18; March2026 ages",
+    "public_use_children_lifted": 3249822.780000001,
+    "public_use_people_lifted": 6141800.500000013,
+    "published_internal_children_lifted_rounded": 3300000.0,
+    "published_internal_people_lifted_rounded": 6100000.0,
+    "source": "https://www2.census.gov/library/publications/2026/demo/p60-290.pdf"
+  },
+  "limitations": [
+    "Conditional legal coverage, receipt and usable service assumptions are not estimated probabilities",
+    "Frozen source-year resources and credits; no comprehensive target-year current-law tax/transfer forecast",
+    "SPM-age and family-size/SMI/enrollment/waitlist/ODC proxies; birth, custody and legal qualification unresolved",
+    "Baseline credits preserved; no recapture or repayment-loss model",
+    "No employment, inflation, long-run child-development or hardship response",
+    "Housing awards use households and include adult-only households; allocation and valuation uncertainty excluded from SDR",
+    "Breakfast, public-service quality and housing construction have no assigned immediate SPM cash value",
+    "SPM resource deltas are not federal cost or social value; D3/D4 remain separate"
+  ],
+  "model": "Project2050-child-poverty-static-agenda-v1",
+  "official_input_hashes": {
+    "cbo-calendar-factors-2026-02.csv": "3df7f94a37ec34e0017d802ca2da2235f5b3b264c5b9025e49f479cb33bda9e4",
+    "cbo-child-population-2026-01.csv": "288938961b1d531eeeec20ff98ae10087e114ad3dd5628c46fb087a1db621228",
+    "cbo-ctc-parameters-2026-02.csv": "05bab26adc644c6fa14fc2f448923a09c86707e6df84fbf5ac025525e722cd84"
+  },
+  "project_base": "df2911d1ae101d6dd73a3c694c8c6874a07433af",
+  "scope": "Joint FAM-1A/FAM-2A/EDU-3A/HOU-4A with FAM-3 employee cost; optional HOU-1, carbon and health proxy sensitivities. Not all Project2050 household/fiscal effects.",
+  "sensitivities": [
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 23727744.00945244,
+        "below150_rate": 0.34305389125583163,
+        "child_weighted_gap_dollars": 164083977710.6932,
+        "deep_poor_children": 2688706.6724906745,
+        "deep_poor_rate": 0.03887311351959963,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 10608676.85502693,
+        "poor_rate": 0.15337943104674664,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "baseline_resource_shift": -0.05
+      },
+      "name": "resources_minus_5pct_threshold",
+      "result": {
+        "below150_children": 22234876.17327442,
+        "below150_rate": 0.3214701233203918,
+        "child_weighted_gap_dollars": 118267916109.78236,
+        "children_newly_poor": 2816.028260930994,
+        "deep_poor_children": 1869392.780343402,
+        "deep_poor_rate": 0.0270275365128217,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1908.3582640425711,
+        "poor_children": 8523534.048304036,
+        "poor_children_lifted": 2087958.834983826,
+        "poor_rate": 0.12323259730707742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21330978.77041093,
+        "below150_rate": 0.3084016444449947,
+        "child_weighted_gap_dollars": 122933374706.84631,
+        "deep_poor_children": 2175992.8137819725,
+        "deep_poor_rate": 0.03146033612867936,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8062897.132473998,
+        "poor_rate": 0.11657274433628391,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "baseline_resource_shift": 0.05
+      },
+      "name": "resources_plus_5pct_threshold",
+      "result": {
+        "below150_children": 19626631.31917764,
+        "below150_rate": 0.283760320559984,
+        "child_weighted_gap_dollars": 85479515608.21878,
+        "children_newly_poor": 3605.265776434325,
+        "deep_poor_children": 1460339.4947116491,
+        "deep_poor_rate": 0.02111347568550269,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1908.3582640425711,
+        "poor_children": 6311986.99044209,
+        "poor_children_lifted": 1754515.4078083427,
+        "poor_rate": 0.09125822066205416,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "index_base_year": 2025
+      },
+      "name": "index_from_2025",
+      "result": {
+        "below150_children": 20562077.385758303,
+        "below150_rate": 0.2972849275800454,
+        "child_weighted_gap_dollars": 95369441127.11159,
+        "children_newly_poor": 1381.42734197661,
+        "deep_poor_children": 1578124.3745102233,
+        "deep_poor_rate": 0.02281640038537742,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2484.429779858101,
+        "poor_children": 6983605.967990756,
+        "poor_children_lifted": 2281171.635392846,
+        "poor_rate": 0.10096843599468536,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "odc_offset": "lower"
+      },
+      "name": "retain_adult_ODC_bound",
+      "result": {
+        "below150_children": 21034900.097773813,
+        "below150_rate": 0.30412096185142146,
+        "child_weighted_gap_dollars": 100449319864.20856,
+        "children_newly_poor": 1381.42734197661,
+        "deep_poor_children": 1661064.572772875,
+        "deep_poor_rate": 0.024015543369396382,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1932.5069153634447,
+        "poor_children": 7326357.858856221,
+        "poor_children_lifted": 1938419.7445273814,
+        "poor_rate": 0.10592391637452468,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "age17_layer": "retained_reference"
+      },
+      "name": "age17_retained_layer",
+      "result": {
+        "below150_children": 21039752.87705264,
+        "below150_rate": 0.30419112295963063,
+        "child_weighted_gap_dollars": 100601102993.89052,
+        "children_newly_poor": 1381.42734197661,
+        "deep_poor_children": 1661064.572772875,
+        "deep_poor_rate": 0.024015543369396382,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1939.754666860429,
+        "poor_children": 7341133.833100479,
+        "poor_children_lifted": 1923643.7702831228,
+        "poor_rate": 0.10613754626953575,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "unassigned_children": "include_proxy"
+      },
+      "name": "resolve_unassigned_proxy",
+      "result": {
+        "below150_children": 20983283.937004343,
+        "below150_rate": 0.30337469938345996,
+        "child_weighted_gap_dollars": 99896336232.53236,
+        "children_newly_poor": 1381.42734197661,
+        "deep_poor_children": 1635177.822453323,
+        "deep_poor_rate": 0.02364127473157086,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1943.8676568847509,
+        "poor_children": 7308758.69150354,
+        "poor_children_lifted": 1956018.9118800622,
+        "poor_rate": 0.10566946897148483,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 4468876.99,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "smi_scale": 0.75
+      },
+      "name": "SMI_minus_25pct",
+      "result": {
+        "below150_children": 21107867.715205576,
+        "below150_rate": 0.30517592203160804,
+        "child_weighted_gap_dollars": 100488621059.56268,
+        "children_newly_poor": 1415.7654701535362,
+        "deep_poor_children": 1657453.378228921,
+        "deep_poor_rate": 0.023963332997441435,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1860.9201942092957,
+        "poor_children": 7341236.068280092,
+        "poor_children_lifted": 1923575.8732316862,
+        "poor_rate": 0.10613902437787069,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 9313823.11,
+        "expected_awarded_households": 99999.99999999999,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "smi_scale": 1.25
+      },
+      "name": "SMI_plus_25pct",
+      "result": {
+        "below150_children": 21012608.883395977,
+        "below150_rate": 0.3037986771946885,
+        "child_weighted_gap_dollars": 100686641328.54791,
+        "children_newly_poor": 1378.74530674436,
+        "deep_poor_children": 1663062.5947557034,
+        "deep_poor_rate": 0.024044430616989364,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1977.2076886407103,
+        "poor_children": 7342502.948315089,
+        "poor_children_lifted": 1922271.9730332813,
+        "poor_rate": 0.10615734083162148,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "prek_expense_fraction": 0.25
+      },
+      "name": "preK_expense_share_25pct",
+      "result": {
+        "below150_children": 21046347.147493932,
+        "below150_rate": 0.3042864624126346,
+        "child_weighted_gap_dollars": 100619705572.57634,
+        "children_newly_poor": 1381.42734197661,
+        "deep_poor_children": 1661064.572772875,
+        "deep_poor_rate": 0.024015543369396382,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1844.5665012085378,
+        "poor_children": 7341623.302165226,
+        "poor_children_lifted": 1923154.301218376,
+        "poor_rate": 0.10614462297548993,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "prek_expense_fraction": 0.75
+      },
+      "name": "preK_expense_share_75pct",
+      "result": {
+        "below150_children": 21028260.611372426,
+        "below150_rate": 0.30402496866955686,
+        "child_weighted_gap_dollars": 100582839282.62053,
+        "children_newly_poor": 1381.42734197661,
+        "deep_poor_children": 1660874.473401639,
+        "deep_poor_rate": 0.02401279492736153,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1972.9521735430285,
+        "poor_children": 7338457.828876736,
+        "poor_children_lifted": 1926319.774506866,
+        "poor_rate": 0.1060988568070396,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "employee_leave_rate": 0.00425
+      },
+      "name": "employee_leave_upper_rate",
+      "result": {
+        "below150_children": 21093367.927393235,
+        "below150_rate": 0.3049662852187098,
+        "child_weighted_gap_dollars": 100776005551.16371,
+        "children_newly_poor": 3735.120720821677,
+        "deep_poor_children": 1666110.5362931304,
+        "deep_poor_rate": 0.024088497520455537,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1735.9360664197986,
+        "poor_children": 7363201.774156632,
+        "poor_children_lifted": 1903929.5226058152,
+        "poor_rate": 0.10645660285781915,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "employer_leave_incidence": 0.003
+      },
+      "name": "employer_leave_fully_wage_borne",
+      "result": {
+        "below150_children": 21151534.414530713,
+        "below150_rate": 0.3058072517996559,
+        "child_weighted_gap_dollars": 101022136949.81682,
+        "children_newly_poor": 5055.117456095542,
+        "deep_poor_children": 1666110.5362931304,
+        "deep_poor_rate": 0.024088497520455537,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1494.5449897479177,
+        "poor_children": 7414838.3873960385,
+        "poor_children_lifted": 1853612.9061016825,
+        "poor_rate": 0.10720316102601221,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "include_carbon_proxy": true
+      },
+      "name": "carbon_dividend_and_cost_proxy",
+      "result": {
+        "below150_children": 20998771.21684685,
+        "below150_rate": 0.3035986132799022,
+        "child_weighted_gap_dollars": 99406951553.61513,
+        "children_newly_poor": 256.93578310216475,
+        "deep_poor_children": 1650107.701071418,
+        "deep_poor_rate": 0.023857129764138403,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1912.4520277288573,
+        "poor_children": 7275644.098314328,
+        "poor_children_lifted": 1988009.0135103995,
+        "poor_rate": 0.10519070073939385,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "health_moop_reduction": 0.15
+      },
+      "name": "health_MOOP_minus_15pct",
+      "result": {
+        "below150_children": 20652231.77017225,
+        "below150_rate": 0.2985883727105499,
+        "child_weighted_gap_dollars": 96399037790.07872,
+        "children_newly_poor": 376.6589287001046,
+        "deep_poor_children": 1567070.6548716004,
+        "deep_poor_rate": 0.022656586560119953,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2959.7430087564007,
+        "poor_children": 7123954.3595589,
+        "poor_children_lifted": 2139818.475411426,
+        "poor_rate": 0.10299758220596311,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "health_moop_reduction": 0.3
+      },
+      "name": "health_MOOP_minus_30pct",
+      "result": {
+        "below150_children": 20173828.49950677,
+        "below150_rate": 0.2916716551529966,
+        "child_weighted_gap_dollars": 92497140984.72832,
+        "children_newly_poor": 301.82560940361424,
+        "deep_poor_children": 1528701.090691011,
+        "deep_poor_rate": 0.02210184236308639,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4011.1277534702303,
+        "poor_children": 6943491.574443806,
+        "poor_children_lifted": 2320206.4272072236,
+        "poor_rate": 0.10038846518936283,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "health_moop_reduction": 0.15,
+        "include_carbon_proxy": true
+      },
+      "name": "carbon_plus_health15pct",
+      "result": {
+        "below150_children": 20586241.528993856,
+        "below150_rate": 0.2976342908976249,
+        "child_weighted_gap_dollars": 95239703926.22896,
+        "children_newly_poor": 2.09660523155831,
+        "deep_poor_children": 1561654.0162042072,
+        "deep_poor_rate": 0.02257827321639727,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2963.836772442687,
+        "poor_children": 7072740.650179226,
+        "poor_children_lifted": 2190657.622467631,
+        "poor_rate": 0.10225713834912854,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "health_moop_reduction": 0.3,
+        "include_carbon_proxy": true
+      },
+      "name": "carbon_plus_health30pct",
+      "result": {
+        "below150_children": 20124247.67923705,
+        "below150_rate": 0.29095481948086493,
+        "child_weighted_gap_dollars": 91364439357.18336,
+        "children_newly_poor": 2.09660523155831,
+        "deep_poor_children": 1514926.4469558394,
+        "deep_poor_rate": 0.021902689627279273,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4015.2215171565167,
+        "poor_children": 6896345.4739831025,
+        "poor_children_lifted": 2367052.798663755,
+        "poor_rate": 0.09970683050828485,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 6755113920.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "emergency_cash_budget_2030": 10000000000.0
+      },
+      "name": "temporary_cash_10B",
+      "result": {
+        "below150_children": 21022310.809203014,
+        "below150_rate": 0.30393894688907885,
+        "child_weighted_gap_dollars": 97341568024.4192,
+        "children_newly_poor": 1377.9289975556721,
+        "deep_poor_children": 1626406.586189642,
+        "deep_poor_rate": 0.02351446087475492,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1983.1595799788506,
+        "poor_children": 7174549.825604634,
+        "poor_children_lifted": 2090224.2794345468,
+        "poor_rate": 0.10372908754840009,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "school_2030_fraction": 1,
+        "summer_2030_fraction": 1
+      },
+      "name": "full_year_food_2030",
+      "result": {
+        "below150_children": 20751583.922243394,
+        "below150_rate": 0.30002479845583224,
+        "child_weighted_gap_dollars": 97502284833.36691,
+        "children_newly_poor": 914.4578639068803,
+        "deep_poor_children": 1619054.645287293,
+        "deep_poor_rate": 0.023408167080712427,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2358.3564301890356,
+        "poor_children": 7185961.675691432,
+        "poor_children_lifted": 2078348.9582141002,
+        "poor_rate": 0.10389407919603186,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 23448636.56555108,
+        "below150_rate": 0.325302363792788,
+        "child_weighted_gap_dollars": 148008023420.86606,
+        "deep_poor_children": 2483011.14386653,
+        "deep_poor_rate": 0.034446753105051325,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9652806.19535192,
+        "poor_rate": 0.1339131451759891,
+        "unweighted_children": 31444,
+        "weighted_children": 72082588.92483012
+      },
+      "changes": {
+        "demographic_growth": false
+      },
+      "name": "fixed_source_population",
+      "result": {
+        "below150_children": 21927912.300349653,
+        "below150_rate": 0.3042053931111816,
+        "child_weighted_gap_dollars": 104775334707.78566,
+        "children_newly_poor": 1453.5143155186004,
+        "deep_poor_children": 1727990.7247203232,
+        "deep_poor_rate": 0.02397237322486188,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1909.1869912915158,
+        "poor_children": 7648871.08478355,
+        "poor_children_lifted": 2005388.6248838883,
+        "poor_rate": 0.10611260220911352,
+        "unweighted_children": 31444,
+        "weighted_children": 72082588.92483012
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 100000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 100000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "changes": {
+        "coverage_pattern": "low_resource_quarter"
+      },
+      "name": "coverage_gap_in_lowest_resource_quarter",
+      "result": {
+        "below150_children": 20992388.198453683,
+        "below150_rate": 0.30350632809270267,
+        "child_weighted_gap_dollars": 106642449520.25412,
+        "children_newly_poor": 3400.4365340962727,
+        "deep_poor_children": 1770361.7204571764,
+        "deep_poor_rate": 0.025595753093562577,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 1799.7546568820153,
+        "poor_children": 7615772.490543861,
+        "poor_children_lifted": 1651024.1220318608,
+        "poor_rate": 0.11010825077847249,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "year": 2030
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 22915979.345378853,
+        "below150_rate": 0.3433126740082644,
+        "child_weighted_gap_dollars": 158370479377.57776,
+        "deep_poor_children": 2595310.1139149624,
+        "deep_poor_rate": 0.03888129072120652,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 10245386.682139376,
+        "poor_rate": 0.1534898877801279,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "baseline_resource_shift": -0.05
+      },
+      "name": "resources_minus_5pct_threshold",
+      "result": {
+        "below150_children": 21219572.27739546,
+        "below150_rate": 0.3178981788239972,
+        "child_weighted_gap_dollars": 108920423799.50339,
+        "children_newly_poor": 1650.8598621473072,
+        "deep_poor_children": 1747721.910384462,
+        "deep_poor_rate": 0.026183261619928042,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2580.0590913390834,
+        "poor_children": 7927677.5718639055,
+        "poor_children_lifted": 2319359.9701376185,
+        "poor_rate": 0.11876743929867364,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 20600427.103673536,
+        "below150_rate": 0.30862253836429104,
+        "child_weighted_gap_dollars": 118643281449.01622,
+        "deep_poor_children": 2100824.818371219,
+        "deep_poor_rate": 0.03147322552301881,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 7785876.2081558,
+        "poor_rate": 0.11664306116850809,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "baseline_resource_shift": 0.05
+      },
+      "name": "resources_plus_5pct_threshold",
+      "result": {
+        "below150_children": 18755040.90705115,
+        "below150_rate": 0.2809761323263082,
+        "child_weighted_gap_dollars": 78453841069.24951,
+        "children_newly_poor": 1420.608416167018,
+        "deep_poor_children": 1343872.0680647471,
+        "deep_poor_rate": 0.020133039319803817,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2580.0590913390834,
+        "poor_children": 5837910.250839671,
+        "poor_children_lifted": 1949386.565732296,
+        "poor_rate": 0.08745987019054413,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "index_base_year": 2025
+      },
+      "name": "index_from_2025",
+      "result": {
+        "below150_children": 19489678.741239063,
+        "below150_rate": 0.29198201060371,
+        "child_weighted_gap_dollars": 87399677621.20969,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1458665.2539703853,
+        "deep_poor_rate": 0.02185279805309748,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3150.447340985876,
+        "poor_children": 6468171.213136468,
+        "poor_children_lifted": 2479135.7688237736,
+        "poor_rate": 0.09690204034735957,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "odc_offset": "lower"
+      },
+      "name": "retain_adult_ODC_bound",
+      "result": {
+        "below150_children": 19998322.117260527,
+        "below150_rate": 0.2996021831875072,
+        "child_weighted_gap_dollars": 92302989757.52242,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1523002.1237566664,
+        "deep_poor_rate": 0.02281665224718427,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2602.508103288626,
+        "poor_children": 6831822.003193068,
+        "poor_children_lifted": 2115484.978767174,
+        "poor_rate": 0.10235002593234943,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "age17_layer": "retained_reference"
+      },
+      "name": "age17_retained_layer",
+      "result": {
+        "below150_children": 20020704.001811862,
+        "below150_rate": 0.29993749439192285,
+        "child_weighted_gap_dollars": 92443583252.09827,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1523002.1237566664,
+        "deep_poor_rate": 0.02281665224718427,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2611.7712779317967,
+        "poor_children": 6867611.165302351,
+        "poor_children_lifted": 2079695.8166578906,
+        "poor_rate": 0.10288619646903352,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "unassigned_children": "include_proxy"
+      },
+      "name": "resolve_unassigned_proxy",
+      "result": {
+        "below150_children": 19960288.394871064,
+        "below150_rate": 0.2990323860717384,
+        "child_weighted_gap_dollars": 91782990669.0959,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1498130.2159427004,
+        "deep_poor_rate": 0.022444037092902346,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2614.0168973757523,
+        "poor_children": 6837794.806349979,
+        "poor_children_lifted": 2109512.175610263,
+        "poor_rate": 0.10243950668253772,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 4468876.99,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "smi_scale": 0.75
+      },
+      "name": "SMI_minus_25pct",
+      "result": {
+        "below150_children": 20026168.33637738,
+        "below150_rate": 0.3000193575880398,
+        "child_weighted_gap_dollars": 91966657958.53976,
+        "children_newly_poor": 858.1840572224274,
+        "deep_poor_children": 1509185.2414810555,
+        "deep_poor_rate": 0.022609656476721862,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2559.3974236294594,
+        "poor_children": 6862029.664333841,
+        "poor_children_lifted": 2085277.4502759096,
+        "poor_rate": 0.10280257796014944,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 9313823.11,
+        "expected_awarded_households": 399999.99999999994,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "smi_scale": 1.25
+      },
+      "name": "SMI_plus_25pct",
+      "result": {
+        "below150_children": 20019331.281047195,
+        "below150_rate": 0.2999169291597204,
+        "child_weighted_gap_dollars": 92795118881.47325,
+        "children_newly_poor": 857.1785210768792,
+        "deep_poor_children": 1530551.517939281,
+        "deep_poor_rate": 0.022929752484573795,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2582.51184127577,
+        "poor_children": 6879861.091708011,
+        "poor_children_lifted": 2067445.0173655935,
+        "poor_rate": 0.10306971710008958,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "prek_expense_fraction": 0.25
+      },
+      "name": "preK_expense_share_25pct",
+      "result": {
+        "below150_children": 20025769.79191538,
+        "below150_rate": 0.3000133868475841,
+        "child_weighted_gap_dollars": 92467810856.97174,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1523002.1237566664,
+        "deep_poor_rate": 0.02281665224718427,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2516.0074705452994,
+        "poor_children": 6868381.941333653,
+        "poor_children_lifted": 2078925.0406265878,
+        "poor_rate": 0.10289774374686876,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "prek_expense_fraction": 0.75
+      },
+      "name": "preK_expense_share_75pct",
+      "result": {
+        "below150_children": 20009879.660517428,
+        "below150_rate": 0.29977533097319387,
+        "child_weighted_gap_dollars": 92415973782.4209,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1522818.8932567977,
+        "deep_poor_rate": 0.022813907204001883,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2651.4331396982657,
+        "poor_children": 6865075.712572409,
+        "poor_children_lifted": 2082231.2693878324,
+        "poor_rate": 0.1028482119236899,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "employee_leave_rate": 0.00425
+      },
+      "name": "employee_leave_upper_rate",
+      "result": {
+        "below150_children": 20051104.033708643,
+        "below150_rate": 0.3003929283964279,
+        "child_weighted_gap_dollars": 92602067592.69687,
+        "children_newly_poor": 1518.4219694094472,
+        "deep_poor_children": 1524263.6385716922,
+        "deep_poor_rate": 0.02283555146235287,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2407.6963662263574,
+        "poor_children": 6874690.711034528,
+        "poor_children_lifted": 2073276.6414874096,
+        "poor_rate": 0.10299225773481867,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "employer_leave_incidence": 0.003
+      },
+      "name": "employer_leave_fully_wage_borne",
+      "result": {
+        "below150_children": 20148637.316268858,
+        "below150_rate": 0.3018541102004385,
+        "child_weighted_gap_dollars": 92824446552.96513,
+        "children_newly_poor": 2526.4356758080276,
+        "deep_poor_children": 1524530.6140524277,
+        "deep_poor_rate": 0.02283955111974497,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2166.3885510685404,
+        "poor_children": 6894825.661640653,
+        "poor_children_lifted": 2054149.7045876826,
+        "poor_rate": 0.103293906799405,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "include_carbon_proxy": true
+      },
+      "name": "carbon_dividend_and_cost_proxy",
+      "result": {
+        "below150_children": 20005560.93319782,
+        "below150_rate": 0.29971063053852937,
+        "child_weighted_gap_dollars": 90554850649.78705,
+        "children_newly_poor": 400.9268456418326,
+        "deep_poor_children": 1490310.6382655017,
+        "deep_poor_rate": 0.022326889137691094,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2445.4777726457614,
+        "poor_children": 6752683.585484827,
+        "poor_children_lifted": 2194166.271913342,
+        "poor_rate": 0.10116442433135663,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "health_moop_reduction": 0.15
+      },
+      "name": "health_MOOP_minus_15pct",
+      "result": {
+        "below150_children": 19702925.962559342,
+        "below150_rate": 0.2951767452765295,
+        "child_weighted_gap_dollars": 88525250505.7838,
+        "children_newly_poor": 126.95469219101825,
+        "deep_poor_children": 1422658.756615358,
+        "deep_poor_rate": 0.021313371537550425,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3630.7634102161655,
+        "poor_children": 6637517.122376872,
+        "poor_children_lifted": 2309058.762867847,
+        "poor_rate": 0.09943907339567257,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "health_moop_reduction": 0.3
+      },
+      "name": "health_MOOP_minus_30pct",
+      "result": {
+        "below150_children": 19217800.031733844,
+        "below150_rate": 0.28790889614678955,
+        "child_weighted_gap_dollars": 84909186604.33807,
+        "children_newly_poor": 54.502147629800845,
+        "deep_poor_children": 1409045.4183050813,
+        "deep_poor_rate": 0.02110942513373144,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4681.467729093246,
+        "poor_children": 6452470.026759474,
+        "poor_children_lifted": 2494033.4059406836,
+        "poor_rate": 0.09666681512748368,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "health_moop_reduction": 0.15,
+        "include_carbon_proxy": true
+      },
+      "name": "carbon_plus_health15pct",
+      "result": {
+        "below150_children": 19625228.318363246,
+        "below150_rate": 0.29401272843085696,
+        "child_weighted_gap_dollars": 86681978763.60435,
+        "children_newly_poor": 0.7626619334270424,
+        "deep_poor_children": 1421062.3434230646,
+        "deep_poor_rate": 0.021289455087216445,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3496.1820915228427,
+        "poor_children": 6566894.709808243,
+        "poor_children_lifted": 2379554.983406218,
+        "poor_rate": 0.09838105318460355,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "health_moop_reduction": 0.3,
+        "include_carbon_proxy": true
+      },
+      "name": "carbon_plus_health30pct",
+      "result": {
+        "below150_children": 19180278.932218034,
+        "below150_rate": 0.28734677882191506,
+        "child_weighted_gap_dollars": 83108023579.78203,
+        "children_newly_poor": 0.7626619334270424,
+        "deep_poor_children": 1401383.4952959195,
+        "deep_poor_rate": 0.02099463906080494,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4546.886410399925,
+        "poor_children": 6380785.400462985,
+        "poor_children_lifted": 2565664.292751476,
+        "poor_rate": 0.09559288150377873,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "emergency_cash_budget_2030": 10000000000.0
+      },
+      "name": "temporary_cash_10B",
+      "result": {
+        "below150_children": 20020704.001811862,
+        "below150_rate": 0.29993749439192285,
+        "child_weighted_gap_dollars": 92443742345.25865,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1523002.1237566664,
+        "deep_poor_rate": 0.02281665224718427,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2580.0590913390834,
+        "poor_children": 6867611.165302351,
+        "poor_children_lifted": 2079695.8166578906,
+        "poor_rate": 0.10288619646903352,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "school_2030_fraction": 1,
+        "summer_2030_fraction": 1
+      },
+      "name": "full_year_food_2030",
+      "result": {
+        "below150_children": 20020704.001811862,
+        "below150_rate": 0.29993749439192285,
+        "child_weighted_gap_dollars": 92443742345.25865,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1523002.1237566664,
+        "deep_poor_rate": 0.02281665224718427,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2580.0590913390834,
+        "poor_children": 6867611.165302351,
+        "poor_children_lifted": 2079695.8166578906,
+        "poor_rate": 0.10288619646903352,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 23448636.56555108,
+        "below150_rate": 0.325302363792788,
+        "child_weighted_gap_dollars": 148008023420.86606,
+        "deep_poor_children": 2483011.14386653,
+        "deep_poor_rate": 0.034446753105051325,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 9652806.19535192,
+        "poor_rate": 0.1339131451759891,
+        "unweighted_children": 31444,
+        "weighted_children": 72082588.92483012
+      },
+      "changes": {
+        "demographic_growth": false
+      },
+      "name": "fixed_source_population",
+      "result": {
+        "below150_children": 21608605.19856758,
+        "below150_rate": 0.29977565346746465,
+        "child_weighted_gap_dollars": 99798305900.03659,
+        "children_newly_poor": 913.8475393154215,
+        "deep_poor_children": 1642545.3799171692,
+        "deep_poor_rate": 0.022786992038119836,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2574.666607800702,
+        "poor_children": 7411837.266697947,
+        "poor_children_lifted": 2241882.776193288,
+        "poor_rate": 0.10282423782568675,
+        "unweighted_children": 31444,
+        "weighted_children": 72082588.92483012
+      },
+      "year": 2034
+    },
+    {
+      "award_checks": {
+        "allocation": "Random across proxy-eligible households, including adult-only households; conditional outcome mixture",
+        "award_cap": 400000,
+        "eligible_households_weighted": 6755113.92,
+        "expected_awarded_households": 400000.0,
+        "expected_emergency_cash_all_households": 0.0
+      },
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "changes": {
+        "coverage_pattern": "low_resource_quarter"
+      },
+      "name": "coverage_gap_in_lowest_resource_quarter",
+      "result": {
+        "below150_children": 19977358.89128572,
+        "below150_rate": 0.29928812542646716,
+        "child_weighted_gap_dollars": 98124453454.60458,
+        "children_newly_poor": 2112.1265420651416,
+        "deep_poor_children": 1625657.8895116209,
+        "deep_poor_rate": 0.024354575846805875,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2469.04309855859,
+        "poor_children": 7124318.820820789,
+        "poor_children_lifted": 1824242.2362738033,
+        "poor_rate": 0.10673202781344862,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    }
+  ],
+  "source_audit": {
+    "child_own_return_differs": 141,
+    "children": 31444,
+    "donor_lunch_value": 861.0,
+    "people": 134729,
+    "smi_fallback_states": [],
+    "smi_national_four_person_proxy": 138351.0,
+    "spm_units": 55401,
+    "tax_units": 72979,
+    "unresolved_child_claimants": 327
+  },
+  "source_baseline": {
+    "below150_children": 23448636.56555108,
+    "below150_rate": 0.325302363792788,
+    "child_weighted_gap_dollars": 148008023420.86606,
+    "deep_poor_children": 2483011.14386653,
+    "deep_poor_rate": 0.034446753105051325,
+    "poor_children": 9652806.19535192,
+    "poor_rate": 0.1339131451759891,
+    "unweighted_children": 31444,
+    "weighted_children": 72082588.92483012
+  },
+  "source_income_year": 2025,
+  "status": "CONDITIONAL_SCENARIOS_NOT_FORECAST",
+  "survey_year": 2026
+}

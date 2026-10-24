@@ -1,0 +1,31 @@
+{
+  "source_reports": [
+    {
+      "filename": "Child Poverty report 1.md",
+      "size_bytes": 30623,
+      "sha256": "e5ed4b98d6bad622fdd24a32c2397193c09e02917500c36cad4b2384cbe84a10",
+      "role": "user-confirmed local research-report export, read in full"
+    },
+    {
+      "filename": "Child Poverty report 2.md",
+      "size_bytes": 27742,
+      "sha256": "5bfcedb6a147bb88ce3eadb615e90496e24550141d7daea16d6b6bfc81c26460",
+      "role": "user-confirmed local research-report export, read in full"
+    },
+    {
+      "filename": "Child Poverty report 3.md",
+      "size_bytes": 32572,
+      "sha256": "e8ce7b220242674e42547783a6841461b4ff439ac3d10ff3de03a5dac53a1c59",
+      "role": "user-confirmed local research-report export, read in full"
+    },
+    {
+      "filename": "Child Poverty Report 4.md",
+      "size_bytes": 25568,
+      "sha256": "5e820770913826fa46b82d84e5734f9e5f229a998a6241d203a18f3b8b893926",
+      "role": "user-confirmed local research-report export, read in full"
+    }
+  ],
+  "recovered_original_sha256": "702c8e45badb933eb59851718a57dfaed7f0164e09a0961c7bdc1b9d88334bb9",
+  "missing_historical_zip_sha256_reported_not_recovered": "b89d08576c280fe4a7d59f5c49d7797206dddfdbd1c50405ba1991c2fbf26c7a",
+  "rebuild_status": "new implementation; no byte-identical package claim"
+}

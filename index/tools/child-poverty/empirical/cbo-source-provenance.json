@@ -1,0 +1,42 @@
+{
+  "retrieved": "2026-10-24",
+  "authoritative_project_base": "bef6a77624e76bdee28ad2ce7888872127ac3984",
+  "official_repository": "US-CBO/cbo-data",
+  "official_repository_confirmation": "https://www.cbo.gov/data/budget-economic-data",
+  "sources": [
+    {
+      "file": "cbo-child-population-2026-01.csv",
+      "source_path": "data/economic/demographic/ss_area_population_2026-01.csv",
+      "full_source_git_blob_sha": "065b262bfea0be0eaadf64471c89079614564f07",
+      "selection": "Exact source rows for years 2026,2030,2034; ages 0–17; both sexes; all four marital categories",
+      "interpretation": "Social Security-area January 1 population; used only for relative growth sensitivity, not absolute CPS controls",
+      "report": "https://www.cbo.gov/publication/61994"
+    },
+    {
+      "file": "cbo-calendar-factors-2026-02.csv",
+      "source_path": "data/economic/economic_projections/calendar_2026-02.csv",
+      "full_source_git_blob_sha": "6d5cd08bb44b4dcda5d9a7f7db31b220cfa15ded",
+      "selection": "Exact rows for calendar years 2025,2030,2034; CPI-U, chained CPI-U, ECI wages/salaries, medical CPI-U",
+      "interpretation": "Forecast vintage February 2026; 2025 levels are labeled projected in source; ratios do not project net SPM resources or statutory tax index windows",
+      "report": "https://www.cbo.gov/publication/61882"
+    },
+    {
+      "file": "cbo-ctc-parameters-2026-02.csv",
+      "source_path": "data/budget/tax_parameters/annual_cy_2026-02.csv",
+      "full_source_git_blob_sha": "f404f6bd2e6868370f5fa0ff1b39be033b0a2432",
+      "selection": "Exact tp_ctc_* rows for calendar years 2025,2030,2034",
+      "interpretation": "Current-law parameters in CBO's February 2026 baseline; future indexed amounts are projections, not announced future IRS limits",
+      "report": "https://www.cbo.gov/data/budget-economic-data"
+    }
+  ],
+  "credit_method_sources": [
+    "https://www.irs.gov/pub/irs-pdf/f1040s8.pdf",
+    "https://www.irs.gov/instructions/i1040s8",
+    "https://www.irs.gov/credits-deductions/individuals/child-tax-credit"
+  ],
+  "cps_method_sources": [
+    "https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asec2026_ddl_pub_full.pdf",
+    "https://www2.census.gov/programs-surveys/supplemental-poverty-measure/datasets/spm/readme.pdf"
+  ],
+  "source_access_limit": "Attached bibliography native JSON returned no readable text; saved-file materialization failed. Not treated as evidence. Previously reviewed child-poverty reports and official data support this technical step."
+}

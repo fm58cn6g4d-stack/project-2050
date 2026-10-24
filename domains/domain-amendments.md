@@ -1,6 +1,6 @@
 # Domain file: Constitutional amendments and Article V (AMD)
 
-Canonical as of Oct 19, 2026 (batch 4 follow-up, at Espen's request). This file covers constitutional amendments in ratification order, the Article V convention, and the state-level ratification operation. On substance it replaces staging inventory section 17. Where an amendment constitutionalizes a statute that lives in another domain file, that file keeps the statute and this file keeps the amendment:
+Canonical. This file covers constitutional amendments in ratification order, the Article V convention, and the state-level ratification operation. On substance it replaces staging inventory section 17. Where an amendment constitutionalizes a statute that lives in another domain file, that file keeps the statute and this file keeps the amendment:
 
 | Amendment | Statute it constitutionalizes |
 | --- | --- |
@@ -8,7 +8,7 @@ Canonical as of Oct 19, 2026 (batch 4 follow-up, at Espen's request). This file 
 | AMD-3 (popular vote) | DEM-8 (compact) and DEM-9 (presidential method) |
 | AMD-6 (23rd Amendment repeal) | DEM-5 (D.C. statehood) |
 
-Survival at 51 (Dec. D1): every amendment is ✖ at any Senate size, because Article V needs two-thirds of both chambers and 38 states. The state-track rows are ✔. The convention-procedure statute is ◐. No amendment has a general-fund cost.
+Survival at 51 (Dec. D1): every amendment is ✖ at any Senate size, because Article V needs two-thirds of both chambers and 38 states. The state-track rows are ✔. The convention-procedure statute is ◐ (it passes under D2's decided path, F). No amendment has a general-fund cost.
 
 ## The premise
 
@@ -30,7 +30,7 @@ Realistically this list holds about one plausible amendment in twenty years (sta
 | AMD-10 | Ratification operations | ST | ✔ | Continuous |
 | AMD-11 | Subject-limited convention applications as leverage | ST | ✔ | **Hold until AMD-9 is law** (see below) |
 
-**Floor days.** None in the baseline. Proposing an amendment takes a two-thirds vote that is not available, and a messaging vote costs floor time the first Congress lacks (163-day budget). One option: **AMD-1B**, a single recorded vote on AMD-1 in the first Congress, about one floor day (estimate), as a commitment device for 2030 candidates.
+**Floor days.** None in the baseline. Proposing an amendment takes a two-thirds vote that is not available, and a messaging vote costs floor time the first Congress lacks (the plan already needs about 172 floor days under F against a 163-day budget). One option: **AMD-1B**, a single recorded vote on AMD-1 in the first Congress, about one floor day (estimate), as a commitment device for 2030 candidates.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -96,7 +96,7 @@ A supermajority to override judicial invalidation of a statute, or a supermajori
 
 **Why it is more urgent now.** The Convention of States campaign (a broad "fiscal restraints, federal power, term limits for Congress" call) reached 20 of 34 in 2026. Without a statute, the first fight over a convention call would be decided by whichever Congress holds the count, on rules written in the moment. A neutral statute is defensive: it protects against a runaway convention from either direction.
 
-**Vehicle.** FL. ◐ Some Republicans have sponsored convention-procedure bills before (my knowledge), so this may be one of the few structural bills with bipartisan potential, and it is worth testing under path G or at 60.
+**Vehicle.** FL. ◐: passes under F (decided). Some Republicans have sponsored convention-procedure bills before (my knowledge), so this may be one of the few structural bills that could also pass at 60.
 
 **Write for this Court.** Whether Congress can bind a convention is untested. *Coleman v. Miller* (1939) treats ratification procedure as a political question (my knowledge), which favors deference to a congressional statute.
 
@@ -162,7 +162,7 @@ This is ✔: no federal vote. It runs alongside DEM-8's compact campaign, which 
 ## Open items
 
 1. **Find Espen's seven-amendment agenda** (ratification strategy and whip arithmetic) and fold it in as options.
-2. **AMD-9 in the first Congress?** It adds about 2 floor days (estimate) to an overfull calendar. It is defensive and possibly bipartisan, so it may fit under path G or as a 60-vote bill.
+2. **AMD-9 in the first Congress?** It adds about 2 floor days (estimate) to a calendar already over budget (172 days under F against 163). It is defensive and possibly bipartisan, so it may fit as a 60-vote bill.
 3. **AMD-1B:** whether to spend one floor day on a recorded vote.
 4. **Re-source the balanced-budget application count** before AMD-9 is drafted.
 

@@ -1,0 +1,200 @@
+[
+ {
+  "id": "C5",
+  "change": "Start Medicare dental after the budget window (dental stays in the package)",
+  "saves_tn": 0.3,
+  "saves_days": 0,
+  "kind": "Declined (Decision Brief 2)",
+  "why": "Go-big tab: about $0.3T; pure timing (nothing after 2039), so it does not help D4-B's maturity test; D6 keeps dental in",
+  "alternative_to": "Declined (Decision Brief 2)"
+ },
+ {
+  "id": "C17",
+  "change": "Hold the agency rebuild to the low end of the D9 direction",
+  "saves_tn": 0.1,
+  "saves_days": 0,
+  "kind": "Declined (Decision Brief 2)",
+  "why": "$0.5T instead of $0.6T; too small to matter, too valuable to lose; CAP-7 is now a surge (CAP-7S) plus a sustained line",
+  "alternative_to": "Declined (Decision Brief 2)"
+ },
+ {
+  "id": "C18",
+  "change": "More top-end revenue not yet in the base: top four brackets +1 point, capital gains and dividends +2 points, LIFO repeal",
+  "saves_tn": 0.62,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Decision Brief 1)",
+  "why": "Package B, Decision Brief 1; top four brackets and gains",
+  "alternative_to": ""
+ },
+ {
+  "id": "C21",
+  "change": "Finance HOU-3's state revolving-fund grants by borrowing (time-limited capital, D4)",
+  "saves_tn": 0.06,
+  "saves_days": 0,
+  "kind": "Borrow (accepted)",
+  "why": "Time-limited capital inside the D4-B envelope; accepted in Decision Brief 1",
+  "alternative_to": ""
+ },
+ {
+  "id": "C19",
+  "change": "Cap the employer health exclusion at the median premium",
+  "saves_tn": 1.25,
+  "saves_days": 0,
+  "kind": "Revenue (fallback to C19b)",
+  "why": "Median cap; the fallback if the sprint package falls short (Decision Brief 1)",
+  "alternative_to": "C19b"
+ },
+ {
+  "id": "C19b",
+  "change": "Cap the employer health exclusion at the 75th percentile of premiums (Package B)",
+  "saves_tn": 0.66,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Decision Brief 1)",
+  "why": "Package B, Decision Brief 1: CBO alternative scaled; part of the decided package (incidence scenario Q)",
+  "alternative_to": ""
+ },
+ {
+  "id": "C38",
+  "change": "Top-end scoring sprint package REV-TS1 to TS11 net of a 10% haircut: 162(m) to all employees, FDII repeal above the small-business threshold, fossil preferences, earnings stripping, spin-offs, trusts and GRATs, large retirement balances, partnership basis, like-kind, carried interest, crypto wash sales",
+  "saves_tn": 0.89,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Decision Brief 2)",
+  "why": "Scaled from Treasury's FY2025 Green Book (pre-2025-law baseline); TS1-TS3 need fresh scores; range 0.60-1.14; REV-HP2 folded into TS1's drafting",
+  "alternative_to": ""
+ },
+ {
+  "id": "C29",
+  "change": "Size CLI-5 to its carbon-channel financing (~$0.47T), CLI-5B",
+  "saves_tn": 0.13,
+  "saves_days": 0,
+  "kind": "Shrink (alternative to C37)",
+  "why": "Not taken: C37 accepted instead (Decision Brief 1)",
+  "alternative_to": "C37"
+ },
+ {
+  "id": "C37",
+  "change": "Keep CLI-5 whole and finance its adaptation-finance and minerals-offtake lines (~$0.10T) by borrowing as time-limited climate capital (CLI-5F, inside the D4-B envelope)",
+  "saves_tn": 0.1,
+  "saves_days": 0,
+  "kind": "Borrow (accepted)",
+  "why": "Accepted in Decision Brief 1 in place of C29; CLI-5 kept whole",
+  "alternative_to": ""
+ },
+ {
+  "id": "C30",
+  "change": "Treat Moving America's 2029-30 renewal top-ups and capital packages as time-limited capital financed by borrowing (D4)",
+  "saves_tn": 0.3,
+  "saves_days": 0,
+  "kind": "Borrow (accepted)",
+  "why": "Accepted (Espen); time-limited capital inside the D4-B envelope",
+  "alternative_to": ""
+ },
+ {
+  "id": "C20",
+  "change": "1-point surtax on income above $100K/$200K",
+  "saves_tn": 0.67,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Decision Brief 1)",
+  "why": "Package B, Decision Brief 1; upper-middle; passes D3 on the incidence model",
+  "alternative_to": ""
+ },
+ {
+  "id": "C31",
+  "change": "Treat HOU-5's ten-year public housing repair as time-limited capital financed by borrowing (D4)",
+  "saves_tn": 0.06,
+  "saves_days": 0,
+  "kind": "Borrow (accepted)",
+  "why": "Time-limited capital inside the D4-B envelope; accepted in Decision Brief 1",
+  "alternative_to": ""
+ },
+ {
+  "id": "C32",
+  "change": "Finance DEM-17's time-limited community-infrastructure fund by borrowing (D4)",
+  "saves_tn": 0.03,
+  "saves_days": 0,
+  "kind": "Borrow (accepted)",
+  "why": "Time-limited capital inside the D4-B envelope; accepted in Decision Brief 1",
+  "alternative_to": ""
+ },
+ {
+  "id": "C33",
+  "change": "National service at appropriations scale (LAB-9B, ~150,000 slots)",
+  "saves_tn": 0.07,
+  "saves_days": 0,
+  "kind": "Declined (Decision Brief 2)",
+  "why": "LAB-9B ~$0.05T instead of LAB-9A's $0.12T; less durable. LAB-9D chosen instead (bipartisan authorization first, LAB-9A's R2 money as fallback); the ledger keeps LAB-9A's cost until an authorization passes",
+  "alternative_to": "Declined (Decision Brief 2)"
+ },
+ {
+  "id": "C34",
+  "change": "Safe Everywhere lean version (SAF-10D, ~$8B a year)",
+  "saves_tn": 0.03,
+  "saves_days": 0,
+  "kind": "Declined (Decision Brief 2)",
+  "why": "Revenue then covers it without a general-fund residual (estimate)",
+  "alternative_to": "Declined (Decision Brief 2)"
+ },
+ {
+  "id": "C35",
+  "change": "Restore the estate tax at 2009 parameters with a frozen exemption (REV-E1), increment beyond G9",
+  "saves_tn": 0.15,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Decision Brief 1)",
+  "why": "Package B, Decision Brief 1; top 0.2% of estates; counted beyond G9",
+  "alternative_to": ""
+ },
+ {
+  "id": "C36",
+  "change": "Universal meals at community-eligibility scale instead (EDU-3B)",
+  "saves_tn": 0.19,
+  "saves_days": 0,
+  "kind": "Declined (Decision Brief 2)",
+  "why": "EDU-3B ~$0.08T instead of EDU-3A's $0.27T; keeps the paperwork and the stigma universal meals remove",
+  "alternative_to": "Declined (Decision Brief 2)"
+ },
+ {
+  "id": "C39",
+  "change": "Cap itemized deductions' value at 28% above $450K (REV-TS12)",
+  "saves_tn": 0.4,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Decision Brief 2)",
+  "why": "Unscored estimate (0.25-0.55); needs a joint score with G3, G9, C18 and SALT; the only single item that covers the year-ten run rate",
+  "alternative_to": ""
+ },
+ {
+  "id": "C40",
+  "change": "CEO-to-median-worker pay-ratio corporate surtax (REV-HP1), contractors counted in the median",
+  "saves_tn": 0.08,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Decision Brief 2)",
+  "why": "Sponsor estimate haircut ~50% (0.04-0.15); high-pay guardrail",
+  "alternative_to": ""
+ },
+ {
+  "id": "C41",
+  "change": "21% excise on public-company top-five officers' pay above $1M (REV-HP3), pay defined as in 162(m)",
+  "saves_tn": 0.06,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Decision Brief 2)",
+  "why": "Estimate (0.03-0.10); scored on top of TS1; high-pay guardrail",
+  "alternative_to": ""
+ },
+ {
+  "id": "C42",
+  "change": "Finance CAP-7S, the time-limited agency rebuild surge, by borrowing inside the D4-B investment envelope",
+  "saves_tn": 0.6,
+  "saves_days": 0,
+  "kind": "Borrow (accepted, D4-B envelope)",
+  "why": "D4 investment financing; full multi-year availability targets R1 FY2029 (Oct 21). Cash proxy remains FY2030-35; FY2029 outlays and envelope treatment unpriced. No extra envelope amount adopted.",
+  "alternative_to": ""
+ },
+ {
+  "id": "C43",
+  "change": "45% bracket on income above $5M (REV-SC1), closing the 2040 shortfall left by the carbon fees' tax offset",
+  "saves_tn": 0.18,
+  "saves_days": 0,
+  "kind": "Revenue (accepted, Oct 21)",
+  "why": "Scenario figure (Talarico model), not a score (0.10-0.25); stacks with G3 and G9 inside GX's logic; adopted by Espen Oct 21 to meet D4-B's FY2040 test",
+  "alternative_to": ""
+ }
+]

@@ -1,0 +1,17 @@
+{
+  "measure": "SPM",
+  "population": "children_under18",
+  "resource_year": 2025,
+  "source_url": "https://www.census.gov/library/publications/2026/demo/p60-290.html",
+  "table": "Table 4 / 8; select exact age row and verify reference year",
+  "vintage": null,
+  "poor_rate": null,
+  "poor_children": null,
+  "weighted_children": null,
+  "absolute_tolerances": {
+    "poor_rate": null,
+    "poor_children": null,
+    "weighted_children": null
+  },
+  "tolerance_rationale": null
+}

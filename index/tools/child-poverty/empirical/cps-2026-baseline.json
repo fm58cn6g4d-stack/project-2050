@@ -1,0 +1,98 @@
+{
+  "all_people": {
+    "poverty_rate": 0.1311167481463561,
+    "unweighted_people": 134729,
+    "unweighted_poor": 16941,
+    "weighted_people": 338554893.5399951,
+    "weighted_poor": 44390216.709999934
+  },
+  "archive_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
+  "census_readme_all_age_crosscheck": {
+    "expected_unweighted_poor": 16941,
+    "expected_weighted_poor_thousands_rounded": 44390,
+    "unweighted_match": true,
+    "weighted_rounded_match": true
+  },
+  "children_marsupwt": {
+    "below150_children": 23448636.96,
+    "below150_rate": 0.32530236508975824,
+    "child_weighted_deep_gap_dollars": 30993968932.83,
+    "child_weighted_gap_dollars": 148008025978.5,
+    "deep_poor_children": 2483011.17,
+    "deep_poor_rate": 0.03444675302548109,
+    "kish_effective_n": 20960.991439021596,
+    "near_only_children": 13795830.46,
+    "near_only_rate": 0.19138921740615014,
+    "poor_children": 9652806.5,
+    "poor_rate": 0.1339131476836081,
+    "suppressed": false,
+    "unweighted_children": 31444,
+    "weighted_children": 72082589.85
+  },
+  "children_precise_replicate_base": {
+    "below150_children": 23448636.56555108,
+    "below150_rate": 0.325302363792788,
+    "child_weighted_deep_gap_dollars": 30993969692.369648,
+    "child_weighted_gap_dollars": 148008023420.86606,
+    "deep_poor_children": 2483011.14386653,
+    "deep_poor_rate": 0.034446753105051325,
+    "kish_effective_n": 20960.9910535021,
+    "near_only_children": 13795830.37019916,
+    "near_only_rate": 0.19138921861679892,
+    "poor_children": 9652806.19535192,
+    "poor_rate": 0.1339131451759891,
+    "suppressed": false,
+    "unweighted_children": 31444,
+    "weighted_children": 72082588.92483012
+  },
+  "children_sampling_uncertainty": {
+    "interval": "normal approximation, 95 percent; sampling uncertainty only",
+    "method": "CPS SDR: 4/R sum squared deviations from full-sample estimate",
+    "metrics": {
+      "below150_rate": {
+        "lower95": 0.3155271699446892,
+        "se": 0.004987343800050394,
+        "upper95": 0.33507755764088676
+      },
+      "child_weighted_gap_dollars": {
+        "lower95": 136236353461.81143,
+        "se": 6005954060.742152,
+        "upper95": 159779693379.9207
+      },
+      "deep_poor_rate": {
+        "lower95": 0.0305926165420103,
+        "se": 0.001966396205633176,
+        "upper95": 0.03830088966809235
+      },
+      "poor_children": {
+        "lower95": 9173110.29035783,
+        "se": 244742.8086704539,
+        "upper95": 10132502.100346008
+      },
+      "poor_rate": {
+        "lower95": 0.12720044089236474,
+        "se": 0.0034248491242981466,
+        "upper95": 0.14062584945961346
+      }
+    },
+    "n_replicates": 160,
+    "status": "computed"
+  },
+  "filedate_counts": {
+    "72726": 134729
+  },
+  "income_year": 2025,
+  "join_complete": true,
+  "join_key": [
+    "PH_SEQ/h_seq",
+    "PPPOS"
+  ],
+  "max_base_weight_rounding_difference": 0.005049899999903573,
+  "nonpositive_threshold_records_excluded": 0,
+  "person_records": 134729,
+  "replicate_records": 134729,
+  "scope": "Observed source-year SPM only; no Project policy, target-year aging, ID imputation or delivery assumptions",
+  "source_url": "https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asecpub26csv.zip",
+  "spm_flag_disagreements": 0,
+  "survey_year": 2026
+}

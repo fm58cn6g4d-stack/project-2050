@@ -1,10 +1,10 @@
 # Domain file: Integrity — anti-corruption and money in politics (INT)
 
-Canonical as of Oct 19, 2026 (batch 2; follow-ups applied the same evening). This file covers staging inventory sections 6 (anti-corruption) and 7 (money in politics), which become pointers. The anti-corruption constitutional amendment stays in the amendments track (staging 17.1), where it is the designated ratification pathfinder.
+Canonical. This file covers staging inventory sections 6 (anti-corruption) and 7 (money in politics), which are pointers. The anti-corruption constitutional amendment stays in the amendments track (staging 17.1), where it is the designated ratification pathfinder.
 
-All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival tags follow D1: ✔, ◐, ✖.
+All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival tags follow D1: ✔, ◐ (needs D2; F is decided), ✖.
 
-**Follow-ups applied Oct 19 (Espen's review).** (1) INT-5B accepted: the small-dollar match is paid from general revenue and the small-dollar matching channel and ledger row FS1 are retired. (2) The agencies this file depends on are now named, with allocations, in domains/domain-capacity.md CAP-7. (3) INT-15 expanded to answer whether Congress or the states act on shareholder approval of political spending.
+**Settled.** The small-dollar match is paid from general revenue (INT-5B, Espen, Oct 19), with no separate channel. The agencies this file depends on are named, with allocations, in domains/domain-capacity.md's agency rebuild (CAP-7S and CAP-7). INT-15 answers whether Congress or the states act on shareholder approval of political spending.
 
 **The 2026 fact that reshapes this domain.** *NRSC v. FEC* (June 30, 2026, 6-3) struck down federal limits on party coordinated expenditures and overruled *Colorado II*. Contribution limits, earmarking rules and the coordination rules for outside groups stand (Wiley, Skadden, Covington, Mayer Brown, June-July 2026). The practical instruction: spend no floor time on party coordination limits, and put the coordination effort entirely into outside groups (INT-8). Note that sources/courts-rebalancing-the-three-branches-2026.md still lists the outcome as unconfirmed; that caveat is out of date and the source file should be annotated.
 
@@ -35,10 +35,10 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 
 | This file | Ledger row | Staging rows |
 | --- | --- | --- |
-| INT-1, INT-3, INT-4, INT-6 | DEM5 (fast track, C27) | 6.1, 6.2, 6.3, 6.4 |
-| INT-2 | DEM2 (merged into DEM1, C9) | 7.2 |
-| INT-5 | DEM1 Title IV (now a general-fund row); FS1 retired Oct 19 | 7.1 |
-| INT-7 to INT-16 | (new rows needed) | 6.5-6.10, 7.3-7.6 |
+| INT-1, INT-3, INT-4, INT-6 | INT-1 (old DEM5; fast track, C27) | 6.1, 6.2, 6.3, 6.4 |
+| INT-2 | carried in DEM-1 (old DEM2, merged under C9) | 7.2 |
+| INT-5 | carried in DEM-1 (Title IV), a general-fund cost | 7.1 |
+| INT-7 to INT-16 | (no ledger rows yet) | 6.5-6.10, 7.3-7.6 |
 | INT-17 | (no row; state) | 7.7, 7.8 |
 
 ## INT-1. Stock ownership and trading ban
@@ -75,14 +75,14 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 
 **Design.** A 6:1 federal match on small contributions, paired with voluntary spending caps for participating candidates. **No trigger-based matching** — *Arizona Free Enterprise* (2011) bars matching funds that rise in response to an opponent's spending, which is the design most reform bills reach for first. Public financing is *Buckley*-compatible as a voluntary subsidy; the trigger is the part that is not.
 
-**Cost and financing (decided Oct 19, Espen: INT-5B).** About $0.01T, range $0.00T to $0.03T (estimate; ledger DEM1's range), paid from general revenue under D4 with no separate channel. The ledger's fines surcharge (FS1, unsized) was a poor fit for the trust-fund rule, which reserves a dedicated channel for a permanent benefit with a natural revenue stream covering much or all of its cost: fine revenue is volatile and politically awkward as a funding source for campaigns. At this size the channel bought nothing and complicated the accounts, so the small-dollar matching channel and row FS1 are retired in the ledger regenerated Oct 19.
+**Cost and financing (INT-5B, decided by Espen).** About $0.01T, range $0.00T to $0.03T (estimate), paid from general revenue under D4 with no separate channel. A fines surcharge is a poor fit for the trust-fund rule, which reserves a dedicated channel for a permanent benefit with a natural revenue stream covering much or all of its cost: fine revenue is volatile and politically awkward as a funding source for campaigns, and at this size a channel buys nothing and complicates the accounts.
 
 **Options.**
 
 | Option | Financing | Assessment | Basis |
 | --- | --- | --- | --- |
-| INT-5B (chosen, Oct 19) | General revenue under D4, no separate channel | Simplest; the base closes it with everything else | estimate |
-| INT-5A (retired) | Fines surcharge, own channel | The earlier ledger design; unsized; weak fit to the trust-fund rule | estimate |
+| INT-5B (chosen) | General revenue under D4, no separate channel | Simplest; the base closes it with everything else | estimate |
+| INT-5A (rejected) | Fines surcharge, own channel | Unsized; weak fit to the trust-fund rule | estimate |
 | INT-5C | A dedicated assessment on federal contractors or lobbying registrants | Closer to a natural stream; invites a First Amendment challenge the match itself would not face | estimate |
 
 **Strategic note.** Public financing is a parallel track that builds toward nothing (Radical Means, rule 1): it does not create a constituency or a precedent that the next reform stands on. It is worth doing on its merits; it should not be sequenced ahead of things that compound.
@@ -97,7 +97,7 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 
 **Honest limit.** Post-*Slaughter*, a restructured FEC is more functional than today's and less insulated than the 1975 design intended. The deadlock is fixable; the independence is not fully restorable by statute.
 
-**Cost.** Nominal. The FEC and the other integrity-enforcement units are now named in the agency-rebuild line with allocations (domains/domain-capacity.md, CAP-7): the FEC about $3B, and about $12B for the FinCEN beneficial-ownership unit, the DOJ FARA unit, the Office of Government Ethics and SEC compliance (all estimates).
+**Cost.** Nominal. The FEC and the other integrity-enforcement units are named in the agency-rebuild line with allocations (domains/domain-capacity.md, CAP-7S and CAP-7): the FEC about $3B, and about $12B for the FinCEN beneficial-ownership unit, the DOJ FARA unit, the Office of Government Ethics and SEC compliance (all estimates).
 
 ## INT-8. Outside-group coordination
 
@@ -158,7 +158,7 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 
 ## Agencies this file depends on
 
-Allocations are in domains/domain-capacity.md, CAP-7 (all estimates, inside D9's ~$0.6T line):
+Allocations are in domains/domain-capacity.md's agency rebuild (all estimates): CAP-7S, the front-loaded ~$0.6T surge over FY2030-35, borrowed inside the D4-B envelope, and CAP-7, the sustained increase from FY2032:
 
 | Agency or unit | Used by |
 | --- | --- |
@@ -180,14 +180,14 @@ INT-1 is the row most likely to attract Republican votes in any scenario, and th
 
 ## Dependencies
 
-- **D2:** INT-1 to INT-16.
-- **D4:** INT-5 is a permanent program paid from general revenue (INT-5B); it is counted in the general-fund claims and closed by the base with everything else.
+- **D2:** INT-1 to INT-16; all pass under F (decided).
+- **D4:** INT-5 is a permanent program paid from general revenue (INT-5B); under D4-B it is counted in the general-fund claims and paid for at maturity with everything else.
 - **Democracy file:** INT-2 and INT-5 ride DEM-1.
 - **Courts file:** INT-12's judiciary half is drafted in CRT-2.
 - **Executive power file:** INT-7 applies the EXE-9 template.
-- **Capacity file:** INT-1 is packaged with CAP-1 (staffing); INT-7, INT-9, INT-11, INT-13 and INT-15 are enforcement-capacity-gated and depend on the CAP-7 allocations.
+- **Capacity file:** INT-1 is packaged with CAP-1 (staffing); INT-7, INT-9, INT-11, INT-13 and INT-15 are enforcement-capacity-gated and depend on the CAP-7S and CAP-7 allocations.
 - **Public safety file:** INT-14 and Safe Everywhere's fraud-carrier assessment touch the same firms.
-- **Ledger:** the small-dollar matching channel and FS1 are retired; DEM1 is a general-fund row.
+- **Ledger:** INT-5 has no separate channel; DEM-1 is a general-fund row.
 
 ## Design-rule check
 
@@ -198,7 +198,7 @@ INT-1 is the row most likely to attract Republican votes in any scenario, and th
 | Legibility | INT-1 is among the most legible items in the whole project — "members of Congress cannot own stocks" needs no explanation |
 | Pairing | INT-1 packaged with CAP-1: accountability buys capacity. This is the clearest pairing trade in the agenda |
 | Supply with demand | n/a |
-| Capacity first | INT-7, INT-9, INT-11, INT-13 and INT-15 name their agencies, now allocated in CAP-7 |
+| Capacity first | INT-7, INT-9, INT-11, INT-13 and INT-15 name their agencies, allocated in CAP-7S and CAP-7 |
 | Write for this Court | INT-5 drops trigger matching (*Arizona Free Enterprise*); INT-2 rests on the 8-1 disclosure holding; INT-8 stays inside what *NRSC* left standing; INT-16 rests on *Bluman*; INT-15 is the item whose First Amendment footing is least settled |
 | One version per policy | INT-1's floor-vs-July-2026-shape is options A-C; INT-5's financing is decided (B); INT-15 has four named options |
 | Every number has a basis | The file is near-zero cost; INT-5 is the only figure and it is an estimate |
@@ -208,9 +208,8 @@ INT-1 is the row most likely to attract Republican votes in any scenario, and th
 1. **INT-1's 2027-28 contingency.** If a weaker ban enacts before 2029, draft the 2029 bill as an amendment to it now.
 2. **INT-15 needs legal review** of the First Amendment footing and a decision on the union-asymmetry question.
 3. **The Rebalancing source still calls *NRSC v. FEC* unconfirmed** — annotate it.
-4. **The CAP-7 allocations to the integrity-enforcement units are estimates** with no project source.
-5. **Ten-plus ledger rows missing** (see crosswalk).
-6. Closed Oct 19: INT-5 financing (INT-5B) and the FEC's absence from the D9 list (named in CAP-7).
+4. **The CAP-7 allocations to the integrity-enforcement units are estimates** with no project source; the bottom-up agency review may revise them.
+5. **INT-7 to INT-16 have no ledger rows** (see crosswalk).
 
 ## Sources
 
@@ -220,4 +219,6 @@ INT-1 is the row most likely to attract Republican votes in any scenario, and th
 - sources/courts-rebalancing-the-three-branches-2026.md, Reform 18: *Citizens United*, *SpeechNow*, *McCutcheon*, *FEC v. Ted Cruz*, *Arizona Free Enterprise*, *Bluman*, *Americans for Prosperity Foundation v. Bonta*.
 - frameworks/radical-means-moderate-ends.md: public financing as a parallel track; the charter-forfeiture theory.
 - frameworks/instruments-and-consequences.md: #15 (staffing packaged with the stock ban).
-- index/2029-trifecta-master-ledger.md: rows DEM1, DEM2, DEM5, FS1 (retired); cuts C9 and C27.
+- index/2029-trifecta-master-ledger.md: rows DEM-1 and INT-1; cuts C9 and C27.
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

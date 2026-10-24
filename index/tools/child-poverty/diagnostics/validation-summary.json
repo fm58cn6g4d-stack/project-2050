@@ -1,0 +1,24 @@
+{
+  "cli_integration": "passed",
+  "errors": 0,
+  "failures": 0,
+  "files": {
+    "cli-integration.json": "a39cb4bc7918df975d453281ed102fe4ea620e67ffd300bbff3668d1d19334c9",
+    "cli-model.json": "00a70fac5a89f48d85de4f9538f6fd6a2b375925164d53e44e1c1f652981a7b7",
+    "legacy-regression.json": "4e55632fddc665071f89ca1ce970aca710b4754d5fd6ff85e8dc7e4cab0e680e",
+    "raw-baseline.json": "f63e065dda2c1440bacf62a1ec0142888f20d7d0280f78ee28dfa8cce814b595",
+    "raw-fixture.zip": "f7df4c26bc9b3384c2f4f24201443b19f280479523f6af444f8d095590a06c72",
+    "raw-mapping.json": "52e2245faf696f4a10c0895463c2028477330df0739b6b5e831a89cc33c5c66b",
+    "raw-normalized.json": "1fc70d10aef53ce6884b070374cdb54fa22ad7b713cb93f7c2b4fd80cfd00eb1",
+    "raw-person.csv": "9dd09db1eac2e710f136e32afdd781a9b5a5e879cdb403736ce2f547fc4940d4",
+    "synthetic-2030.json": "00f4471f1559aeffb0d875ce4481c9f8b342258fc9eeedfb9d1f920a1847be5d",
+    "synthetic-2034.json": "6cbfa728e3f8724b07c6f9bd4e3e884670f1a6be52ad3f186afad1b2c4face74",
+    "synthetic-scenarios.csv": "db7e659435f8b68f2bda0fc5fc111de3ea6399c64d49f67420d91ca7010b325b",
+    "test-results.txt": "ff941a09a0375eb2721ad814440a6e2ba4ec9dc305a21d27c03262da9fa12500"
+  },
+  "legacy_regression": "passed",
+  "national_calibration": "Not run by synthetic suite; see separate empirical source-year audit in empirical/cps-2026-baseline.json",
+  "python": "3.12.14",
+  "scenarios_generated": 24,
+  "tests_run": 102
+}

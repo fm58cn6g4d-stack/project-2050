@@ -1,0 +1,21 @@
+id,method,same_as,y2030,y2031,y2032,y2033,y2034,y2035,y2036,y2037,y2038,y2039,note
+flat,ramp,,1,1,1,1,1,1,1,1,1,1,default for every row without its own profile
+F2,ramp,,.4,.5,.9,1,1,1,1,1,1,1,
+H3,ramp,,0,.5,1,1,1,1,1,1,1,1,
+H2,ramp,,.3,.7,.8,1,1,1,1,1,1,1,
+PB,ramp,,.3,.7,.8,1,1,1,1,1,1,1,
+F3,ramp,,0,1,1,1,1,1,1,1,1,1,
+MR,ramp,,.2,.3,.4,.5,.6,.7,.8,.9,1,1,
+F5,ramp,,.2,.4,.5,.6,.7,.8,.85,.9,.95,1,
+G11,ramp,,1.6,1.6,1.4,1.2,1,.8,.7,.7,.7,.7,
+H5p,ramp,,0,.3,.6,.8,1,1,1,1,1,1,
+C5,ramp,,0,0,0,1,1,1,1,1,1,1,
+LAB9,ramp,,.2,.4,.6,.8,1,1,1,1,1,1,"national service ramps to 250,000 new slots by 2034"
+PS1,ramp,,0,1,1,1,1,1,1,1,1,1,SAF-10 rides R3 (summer 2030); receipts from 2031
+EDU3,ramp,,.35,1,1,1,1,1,1,1,1,1,universal meals from the 2030-31 school year (v1.3)
+EDU4,ramp,,1.4,1.4,1.4,1.2,1,.8,.5,.4,.4,.4,"pipeline surge front-loaded, tapering after 2034 (v1.3)"
+EDU,ramp,,.5,.7,.8,.9,1,1,1,1,1,1,IDEA glide path and Pell ramp (v1.3)
+EDUB,ramp,,.1,.4,.8,1,1,1,1,1,1,1,EDU-9B's added benefits ramp with pre-K (v1.3)
+C1,norm,,25,34.6,42.3,50.2,57.8,64.8,69.4,75.0,75.6,75.9,"carbon fee on the durability path: price $25-110 times an emissions index falling ~4% a year (estimate, v1.4)"
+E2d,,C1,,,,,,,,,,,the dividend follows the fee
+E2t,,C1,,,,,,,,,,,the transition share follows the fee

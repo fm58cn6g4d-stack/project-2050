@@ -1,0 +1,785 @@
+{
+  "archive_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
+  "calendar_year_index_factors_from_2025": {
+    "2030": {
+      "chained_cpiu": 1.1134482024624417,
+      "cpiu": 1.1301267456215995,
+      "cpiu_medical_price_index": 1.1642980393236295,
+      "eci_wages_salaries": 1.1696029676930322
+    },
+    "2034": {
+      "chained_cpiu": 1.2038404230290944,
+      "cpiu": 1.2356767521356917,
+      "cpiu_medical_price_index": 1.3159377854696281,
+      "eci_wages_salaries": 1.3137152438814301
+    }
+  },
+  "current_law_ctc_parameters": {
+    "2025": {
+      "max_refundable": 1700.0,
+      "per_child": 2200.0,
+      "per_other_dependent": 500.0,
+      "refund_rate": 15.0,
+      "refund_threshold": 2500.0
+    },
+    "2030": {
+      "max_refundable": 1900.0,
+      "per_child": 2400.0,
+      "per_other_dependent": 500.0,
+      "refund_rate": 15.0,
+      "refund_threshold": 2500.0
+    },
+    "2034": {
+      "max_refundable": 2100.0,
+      "per_child": 2600.0,
+      "per_other_dependent": 500.0,
+      "refund_rate": 15.0,
+      "refund_threshold": 2500.0
+    }
+  },
+  "demographic_sensitivities": [
+    {
+      "all_children": {
+        "below150_children": 22498592.9416666,
+        "below150_rate": 0.32528292000052755,
+        "child_weighted_deep_gap_dollars": 29775627376.76261,
+        "child_weighted_gap_dollars": 142091331783.0106,
+        "deep_poor_children": 2384631.9559346554,
+        "deep_poor_rate": 0.03447682474029129,
+        "kish_effective_n": 20925.087597030517,
+        "near_only_children": 13235196.765624974,
+        "near_only_rate": 0.1913534531633301,
+        "poor_children": 9263396.176041625,
+        "poor_rate": 0.13392946683719742,
+        "suppressed": false,
+        "unweighted_children": 31444,
+        "weighted_children": 69166229.02189304
+      },
+      "assumptions": "Frozen real resources, thresholds, household composition and within-cell poverty; fixed external age/sex growth ratios",
+      "cells": [
+        {
+          "achieved_count": 1613004.1475578358,
+          "age": 0,
+          "growth_factor": 0.970233675156535,
+          "ratio_target_count": 1613004.1475578356,
+          "sex": "female",
+          "source_cps_count": 1662490.37614325
+        },
+        {
+          "achieved_count": 1704727.1490004603,
+          "age": 0,
+          "growth_factor": 0.9707165620121124,
+          "ratio_target_count": 1704727.1490004603,
+          "sex": "male",
+          "source_cps_count": 1756153.3569252
+        },
+        {
+          "achieved_count": 1820746.9945219476,
+          "age": 1,
+          "growth_factor": 0.9689501046444315,
+          "ratio_target_count": 1820746.9945219476,
+          "sex": "female",
+          "source_cps_count": 1879092.6238561
+        },
+        {
+          "achieved_count": 1890919.5193104073,
+          "age": 1,
+          "growth_factor": 0.9692039762345387,
+          "ratio_target_count": 1890919.5193104073,
+          "sex": "male",
+          "source_cps_count": 1951002.64307296
+        },
+        {
+          "achieved_count": 1707027.4203703795,
+          "age": 2,
+          "growth_factor": 0.9652204375644132,
+          "ratio_target_count": 1707027.4203703795,
+          "sex": "female",
+          "source_cps_count": 1768536.3404424
+        },
+        {
+          "achieved_count": 1826987.8538461777,
+          "age": 2,
+          "growth_factor": 0.9642885834046112,
+          "ratio_target_count": 1826987.853846178,
+          "sex": "male",
+          "source_cps_count": 1894648.43335139
+        },
+        {
+          "achieved_count": 1831932.4516571043,
+          "age": 3,
+          "growth_factor": 0.9534664652050834,
+          "ratio_target_count": 1831932.4516571045,
+          "sex": "female",
+          "source_cps_count": 1921339.15403419
+        },
+        {
+          "achieved_count": 1750774.5590507658,
+          "age": 3,
+          "growth_factor": 0.9529088336490191,
+          "ratio_target_count": 1750774.5590507658,
+          "sex": "male",
+          "source_cps_count": 1837294.91975265
+        },
+        {
+          "achieved_count": 1754883.758724087,
+          "age": 4,
+          "growth_factor": 0.9716859388046201,
+          "ratio_target_count": 1754883.758724087,
+          "sex": "female",
+          "source_cps_count": 1806019.50552353
+        },
+        {
+          "achieved_count": 1947679.76895321,
+          "age": 4,
+          "growth_factor": 0.971124306806317,
+          "ratio_target_count": 1947679.76895321,
+          "sex": "male",
+          "source_cps_count": 2005592.6468965
+        },
+        {
+          "achieved_count": 1797193.132694681,
+          "age": 5,
+          "growth_factor": 0.9895043606901982,
+          "ratio_target_count": 1797193.132694681,
+          "sex": "female",
+          "source_cps_count": 1816255.89951024
+        },
+        {
+          "achieved_count": 1835473.5697215493,
+          "age": 5,
+          "growth_factor": 0.9892299229749932,
+          "ratio_target_count": 1835473.5697215493,
+          "sex": "male",
+          "source_cps_count": 1855456.98435969
+        },
+        {
+          "achieved_count": 1885033.8021491251,
+          "age": 6,
+          "growth_factor": 0.9622315626162602,
+          "ratio_target_count": 1885033.8021491251,
+          "sex": "female",
+          "source_cps_count": 1959023.04121454
+        },
+        {
+          "achieved_count": 1890019.5491832793,
+          "age": 6,
+          "growth_factor": 0.9630854210961894,
+          "ratio_target_count": 1890019.5491832793,
+          "sex": "male",
+          "source_cps_count": 1962463.04614605
+        },
+        {
+          "achieved_count": 1796300.95999423,
+          "age": 7,
+          "growth_factor": 0.968531713876286,
+          "ratio_target_count": 1796300.9599942297,
+          "sex": "female",
+          "source_cps_count": 1854664.05927486
+        },
+        {
+          "achieved_count": 1990148.9459087695,
+          "age": 7,
+          "growth_factor": 0.9701565030485639,
+          "ratio_target_count": 1990148.9459087697,
+          "sex": "male",
+          "source_cps_count": 2051368.9694962
+        },
+        {
+          "achieved_count": 1833844.9733021916,
+          "age": 8,
+          "growth_factor": 0.9398211288091641,
+          "ratio_target_count": 1833844.9733021916,
+          "sex": "female",
+          "source_cps_count": 1951270.21205177
+        },
+        {
+          "achieved_count": 1912692.697344628,
+          "age": 8,
+          "growth_factor": 0.9390978327163108,
+          "ratio_target_count": 1912692.697344628,
+          "sex": "male",
+          "source_cps_count": 2036734.22588169
+        },
+        {
+          "achieved_count": 1788153.1194230968,
+          "age": 9,
+          "growth_factor": 0.9032436755424302,
+          "ratio_target_count": 1788153.1194230968,
+          "sex": "female",
+          "source_cps_count": 1979701.78794692
+        },
+        {
+          "achieved_count": 1863808.707848976,
+          "age": 9,
+          "growth_factor": 0.903112331676485,
+          "ratio_target_count": 1863808.707848976,
+          "sex": "male",
+          "source_cps_count": 2063761.77411852
+        },
+        {
+          "achieved_count": 1780300.4498540282,
+          "age": 10,
+          "growth_factor": 0.9269683286617927,
+          "ratio_target_count": 1780300.4498540282,
+          "sex": "female",
+          "source_cps_count": 1920562.32646496
+        },
+        {
+          "achieved_count": 2011085.9567133214,
+          "age": 10,
+          "growth_factor": 0.92810403067194,
+          "ratio_target_count": 2011085.9567133214,
+          "sex": "male",
+          "source_cps_count": 2166875.57671451
+        },
+        {
+          "achieved_count": 1968958.2025881582,
+          "age": 11,
+          "growth_factor": 0.9352926795905716,
+          "ratio_target_count": 1968958.2025881582,
+          "sex": "female",
+          "source_cps_count": 2105178.67353573
+        },
+        {
+          "achieved_count": 1903585.0843680745,
+          "age": 11,
+          "growth_factor": 0.9353158207342414,
+          "ratio_target_count": 1903585.0843680745,
+          "sex": "male",
+          "source_cps_count": 2035232.42328321
+        },
+        {
+          "achieved_count": 1864253.3159190982,
+          "age": 12,
+          "growth_factor": 0.9647517245269046,
+          "ratio_target_count": 1864253.3159190982,
+          "sex": "female",
+          "source_cps_count": 1932365.8808003599
+        },
+        {
+          "achieved_count": 2025590.0036025085,
+          "age": 12,
+          "growth_factor": 0.9637005649717514,
+          "ratio_target_count": 2025590.0036025085,
+          "sex": "male",
+          "source_cps_count": 2101887.32603045
+        },
+        {
+          "achieved_count": 2054393.740673918,
+          "age": 13,
+          "growth_factor": 0.986421121641304,
+          "ratio_target_count": 2054393.740673918,
+          "sex": "female",
+          "source_cps_count": 2082674.11919933
+        },
+        {
+          "achieved_count": 2063115.386938984,
+          "age": 13,
+          "growth_factor": 0.9883719314175589,
+          "ratio_target_count": 2063115.3869389838,
+          "sex": "male",
+          "source_cps_count": 2087387.67397005
+        },
+        {
+          "achieved_count": 2043893.7521721208,
+          "age": 14,
+          "growth_factor": 0.9999509271370017,
+          "ratio_target_count": 2043893.7521721208,
+          "sex": "female",
+          "source_cps_count": 2043994.05681244
+        },
+        {
+          "achieved_count": 2131946.222178725,
+          "age": 14,
+          "growth_factor": 0.9958777066801051,
+          "ratio_target_count": 2131946.222178725,
+          "sex": "male",
+          "source_cps_count": 2140771.10861921
+        },
+        {
+          "achieved_count": 2000284.7508467608,
+          "age": 15,
+          "growth_factor": 0.9851266110379683,
+          "ratio_target_count": 2000284.7508467608,
+          "sex": "female",
+          "source_cps_count": 2030484.94318835
+        },
+        {
+          "achieved_count": 2077005.5919118973,
+          "age": 15,
+          "growth_factor": 0.9813926658500373,
+          "ratio_target_count": 2077005.5919118975,
+          "sex": "male",
+          "source_cps_count": 2116385.89138313
+        },
+        {
+          "achieved_count": 2231881.906349637,
+          "age": 16,
+          "growth_factor": 0.9595584583524649,
+          "ratio_target_count": 2231881.906349637,
+          "sex": "female",
+          "source_cps_count": 2325946.77991971
+        },
+        {
+          "achieved_count": 2246213.5842490457,
+          "age": 16,
+          "growth_factor": 0.9610772422825337,
+          "ratio_target_count": 2246213.5842490457,
+          "sex": "male",
+          "source_cps_count": 2337183.19967118
+        },
+        {
+          "achieved_count": 2125136.183130363,
+          "age": 17,
+          "growth_factor": 0.9318703548532642,
+          "ratio_target_count": 2125136.183130363,
+          "sex": "female",
+          "source_cps_count": 2280506.26577234
+        },
+        {
+          "achieved_count": 2197231.8098335005,
+          "age": 17,
+          "growth_factor": 0.9301307709413112,
+          "ratio_target_count": 2197231.8098335005,
+          "sex": "male",
+          "source_cps_count": 2362282.67946652
+        }
+      ],
+      "conditional_sampling_uncertainty": {
+        "interval": "normal approximation, 95 percent; sampling uncertainty only",
+        "method": "CPS SDR: 4/R sum squared deviations from full-sample estimate",
+        "metrics": {
+          "below150_rate": {
+            "lower95": 0.31550735124099094,
+            "se": 0.0049875350813962235,
+            "upper95": 0.33505848876006417
+          },
+          "child_weighted_gap_dollars": {
+            "lower95": 130803915660.57925,
+            "se": 5758885776.750685,
+            "upper95": 153378747905.44193
+          },
+          "deep_poor_rate": {
+            "lower95": 0.030624971003194865,
+            "se": 0.001965231498518584,
+            "upper95": 0.03832867847738772
+          },
+          "poor_children": {
+            "lower95": 8803190.120861795,
+            "se": 234799.00774481177,
+            "upper95": 9723602.231221456
+          },
+          "poor_rate": {
+            "lower95": 0.1272192412901725,
+            "se": 0.003423584462767817,
+            "upper95": 0.14063969238422233
+          }
+        },
+        "n_replicates": 160,
+        "status": "computed"
+      },
+      "dollar_year": 2025,
+      "population_base_year": 2026,
+      "status": "DEMOGRAPHIC_SENSITIVITY_NOT_CURRENT_LAW_FORECAST",
+      "year": 2030
+    },
+    {
+      "all_children": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_deep_gap_dollars": 28732425809.066128,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "kish_effective_n": 20887.857341638184,
+        "near_only_children": 12781379.461599244,
+        "near_only_rate": 0.19148252380323497,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "suppressed": false,
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "assumptions": "Frozen real resources, thresholds, household composition and within-cell poverty; fixed external age/sex growth ratios",
+      "cells": [
+        {
+          "achieved_count": 1587023.2481682405,
+          "age": 0,
+          "growth_factor": 0.9546059760357333,
+          "ratio_target_count": 1587023.2481682405,
+          "sex": "female",
+          "source_cps_count": 1662490.37614325
+        },
+        {
+          "achieved_count": 1677455.3184554104,
+          "age": 0,
+          "growth_factor": 0.9551872630260607,
+          "ratio_target_count": 1677455.3184554104,
+          "sex": "male",
+          "source_cps_count": 1756153.3569252
+        },
+        {
+          "achieved_count": 1787201.6308088999,
+          "age": 1,
+          "growth_factor": 0.9510982099122768,
+          "ratio_target_count": 1787201.6308088999,
+          "sex": "female",
+          "source_cps_count": 1879092.6238561
+        },
+        {
+          "achieved_count": 1856376.1610990462,
+          "age": 1,
+          "growth_factor": 0.951498537272676,
+          "ratio_target_count": 1856376.1610990462,
+          "sex": "male",
+          "source_cps_count": 1951002.64307296
+        },
+        {
+          "achieved_count": 1670982.4404069209,
+          "age": 2,
+          "growth_factor": 0.9448391883137238,
+          "ratio_target_count": 1670982.4404069206,
+          "sex": "female",
+          "source_cps_count": 1768536.3404424
+        },
+        {
+          "achieved_count": 1788731.119906307,
+          "age": 2,
+          "growth_factor": 0.9440965872187016,
+          "ratio_target_count": 1788731.119906307,
+          "sex": "male",
+          "source_cps_count": 1894648.43335139
+        },
+        {
+          "achieved_count": 1787543.5049374055,
+          "age": 3,
+          "growth_factor": 0.9303633360014254,
+          "ratio_target_count": 1787543.5049374057,
+          "sex": "female",
+          "source_cps_count": 1921339.15403419
+        },
+        {
+          "achieved_count": 1709037.6078558739,
+          "age": 3,
+          "growth_factor": 0.9301923112517815,
+          "ratio_target_count": 1709037.6078558739,
+          "sex": "male",
+          "source_cps_count": 1837294.91975265
+        },
+        {
+          "achieved_count": 1708066.6739741142,
+          "age": 4,
+          "growth_factor": 0.9457631375243529,
+          "ratio_target_count": 1708066.6739741142,
+          "sex": "female",
+          "source_cps_count": 1806019.50552353
+        },
+        {
+          "achieved_count": 1896872.7144974957,
+          "age": 4,
+          "growth_factor": 0.9457916179702593,
+          "ratio_target_count": 1896872.7144974957,
+          "sex": "male",
+          "source_cps_count": 2005592.6468965
+        },
+        {
+          "achieved_count": 1748676.9798680157,
+          "age": 5,
+          "growth_factor": 0.962792181619095,
+          "ratio_target_count": 1748676.9798680157,
+          "sex": "female",
+          "source_cps_count": 1816255.89951024
+        },
+        {
+          "achieved_count": 1786637.33064726,
+          "age": 5,
+          "growth_factor": 0.9629095935435121,
+          "ratio_target_count": 1786637.3306472597,
+          "sex": "male",
+          "source_cps_count": 1855456.98435969
+        },
+        {
+          "achieved_count": 1828346.0386114907,
+          "age": 6,
+          "growth_factor": 0.9332948108042501,
+          "ratio_target_count": 1828346.0386114907,
+          "sex": "female",
+          "source_cps_count": 1959023.04121454
+        },
+        {
+          "achieved_count": 1831771.1619480841,
+          "age": 6,
+          "growth_factor": 0.9334041553268364,
+          "ratio_target_count": 1831771.1619480844,
+          "sex": "male",
+          "source_cps_count": 1962463.04614605
+        },
+        {
+          "achieved_count": 1721631.8992592306,
+          "age": 7,
+          "growth_factor": 0.9282715598275827,
+          "ratio_target_count": 1721631.8992592306,
+          "sex": "female",
+          "source_cps_count": 1854664.05927486
+        },
+        {
+          "achieved_count": 1906733.9640261293,
+          "age": 7,
+          "growth_factor": 0.929493422382424,
+          "ratio_target_count": 1906733.9640261296,
+          "sex": "male",
+          "source_cps_count": 2051368.9694962
+        },
+        {
+          "achieved_count": 1791804.7834431492,
+          "age": 8,
+          "growth_factor": 0.9182760913256898,
+          "ratio_target_count": 1791804.7834431492,
+          "sex": "female",
+          "source_cps_count": 1951270.21205177
+        },
+        {
+          "achieved_count": 1868554.8447421354,
+          "age": 8,
+          "growth_factor": 0.9174269381824962,
+          "ratio_target_count": 1868554.8447421354,
+          "sex": "male",
+          "source_cps_count": 2036734.22588169
+        },
+        {
+          "achieved_count": 1778547.7314784734,
+          "age": 9,
+          "growth_factor": 0.8983917387491697,
+          "ratio_target_count": 1778547.7314784734,
+          "sex": "female",
+          "source_cps_count": 1979701.78794692
+        },
+        {
+          "achieved_count": 1854070.351531676,
+          "age": 9,
+          "growth_factor": 0.8983935911515717,
+          "ratio_target_count": 1854070.351531676,
+          "sex": "male",
+          "source_cps_count": 2063761.77411852
+        },
+        {
+          "achieved_count": 1721770.311629942,
+          "age": 10,
+          "growth_factor": 0.8964928072910187,
+          "ratio_target_count": 1721770.3116299417,
+          "sex": "female",
+          "source_cps_count": 1920562.32646496
+        },
+        {
+          "achieved_count": 1946839.2899943348,
+          "age": 10,
+          "growth_factor": 0.8984545817560039,
+          "ratio_target_count": 1946839.2899943348,
+          "sex": "male",
+          "source_cps_count": 2166875.57671451
+        },
+        {
+          "achieved_count": 1917562.420369635,
+          "age": 11,
+          "growth_factor": 0.9108787033021829,
+          "ratio_target_count": 1917562.4203696353,
+          "sex": "female",
+          "source_cps_count": 2105178.67353573
+        },
+        {
+          "achieved_count": 1857272.1165401337,
+          "age": 11,
+          "growth_factor": 0.912560204570644,
+          "ratio_target_count": 1857272.1165401337,
+          "sex": "male",
+          "source_cps_count": 2035232.42328321
+        },
+        {
+          "achieved_count": 1761189.8218565919,
+          "age": 12,
+          "growth_factor": 0.9114163313249615,
+          "ratio_target_count": 1761189.8218565919,
+          "sex": "female",
+          "source_cps_count": 1932365.8808003599
+        },
+        {
+          "achieved_count": 1912737.6503869302,
+          "age": 12,
+          "growth_factor": 0.9100096026551808,
+          "ratio_target_count": 1912737.6503869302,
+          "sex": "male",
+          "source_cps_count": 2101887.32603045
+        },
+        {
+          "achieved_count": 1861910.8508234045,
+          "age": 13,
+          "growth_factor": 0.8940000903930201,
+          "ratio_target_count": 1861910.8508234045,
+          "sex": "female",
+          "source_cps_count": 2082674.11919933
+        },
+        {
+          "achieved_count": 1869622.7102723292,
+          "age": 13,
+          "growth_factor": 0.8956758409502588,
+          "ratio_target_count": 1869622.7102723292,
+          "sex": "male",
+          "source_cps_count": 2087387.67397005
+        },
+        {
+          "achieved_count": 1899641.7757795104,
+          "age": 14,
+          "growth_factor": 0.92937734796644,
+          "ratio_target_count": 1899641.7757795104,
+          "sex": "female",
+          "source_cps_count": 2043994.05681244
+        },
+        {
+          "achieved_count": 1985130.0507466292,
+          "age": 14,
+          "growth_factor": 0.9272967309555253,
+          "ratio_target_count": 1985130.0507466292,
+          "sex": "male",
+          "source_cps_count": 2140771.10861921
+        },
+        {
+          "achieved_count": 1874556.7291389315,
+          "age": 15,
+          "growth_factor": 0.9232064169830416,
+          "ratio_target_count": 1874556.7291389315,
+          "sex": "female",
+          "source_cps_count": 2030484.94318835
+        },
+        {
+          "achieved_count": 1947737.9477111532,
+          "age": 15,
+          "growth_factor": 0.9203132357106389,
+          "ratio_target_count": 1947737.9477111534,
+          "sex": "male",
+          "source_cps_count": 2116385.89138313
+        },
+        {
+          "achieved_count": 2156585.1088329465,
+          "age": 16,
+          "growth_factor": 0.9271859216432246,
+          "ratio_target_count": 2156585.1088329465,
+          "sex": "female",
+          "source_cps_count": 2325946.77991971
+        },
+        {
+          "achieved_count": 2168507.7284440305,
+          "age": 16,
+          "growth_factor": 0.9278295893745596,
+          "ratio_target_count": 2168507.7284440305,
+          "sex": "male",
+          "source_cps_count": 2337183.19967118
+        },
+        {
+          "achieved_count": 2102877.7543437234,
+          "age": 17,
+          "growth_factor": 0.9221100533269269,
+          "ratio_target_count": 2102877.754343723,
+          "sex": "female",
+          "source_cps_count": 2280506.26577234
+        },
+        {
+          "achieved_count": 2179579.6453387956,
+          "age": 17,
+          "growth_factor": 0.9226582679050991,
+          "ratio_target_count": 2179579.6453387956,
+          "sex": "male",
+          "source_cps_count": 2362282.67946652
+        }
+      ],
+      "conditional_sampling_uncertainty": {
+        "interval": "normal approximation, 95 percent; sampling uncertainty only",
+        "method": "CPS SDR: 4/R sum squared deviations from full-sample estimate",
+        "metrics": {
+          "below150_rate": {
+            "lower95": 0.315747809676007,
+            "se": 0.0049820102188945494,
+            "upper95": 0.33527728973407367
+          },
+          "child_weighted_gap_dollars": {
+            "lower95": 126269362669.14246,
+            "se": 5545903702.319674,
+            "upper95": 148009305182.23557
+          },
+          "deep_poor_rate": {
+            "lower95": 0.030638647887201505,
+            "se": 0.0019627094359164566,
+            "upper95": 0.038332468875994015
+          },
+          "poor_children": {
+            "lower95": 8502088.845050944,
+            "se": 226714.32933754282,
+            "upper95": 9390809.01605411
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852617,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "n_replicates": 160,
+        "status": "computed"
+      },
+      "dollar_year": 2025,
+      "population_base_year": 2026,
+      "status": "DEMOGRAPHIC_SENSITIVITY_NOT_CURRENT_LAW_FORECAST",
+      "year": 2034
+    }
+  ],
+  "index_factor_limits": "Not used to scale net SPM resources or taxes; CPI-U alone is not an SPM threshold forecast; calendar chained CPI is not the statutory indexing window",
+  "input_subset_sha256": {
+    "cbo-calendar-factors-2026-02.csv": "3df7f94a37ec34e0017d802ca2da2235f5b3b264c5b9025e49f479cb33bda9e4",
+    "cbo-child-population-2026-01.csv": "288938961b1d531eeeec20ff98ae10087e114ad3dd5628c46fb087a1db621228",
+    "cbo-ctc-parameters-2026-02.csv": "05bab26adc644c6fa14fc2f448923a09c86707e6df84fbf5ac025525e722cd84"
+  },
+  "policy_ready": false,
+  "remaining_requirements": [
+    "Reviewed tax-year claimant/eligibility and CTC-only allocation",
+    "Component income aging and joint federal/state tax/transfer recomputation",
+    "SPM threshold/expense and housing-valuation projection",
+    "CPS-universe population controls and replicate calibration",
+    "Reviewed program eligibility, receipt, supply and delivery overlays"
+  ],
+  "source_audit": {
+    "actc_reconciliation": {
+      "max_absolute_difference": 0.0,
+      "units_with_difference_over_2_dollars": 0
+    },
+    "after_credit_federal_tax_reconciliation": {
+      "max_absolute_difference": 0.0,
+      "units_with_difference_over_2_dollars": 0
+    },
+    "children": 31444,
+    "ctc_odc_combined_nonrefundable_positive_tax_units": 15325,
+    "ctc_only_allocation_status": "Not inferred from combined CTC_CRD",
+    "dependent_links": {
+      "children_with_claimant_in_other_tax_unit": 141,
+      "children_without_positive_dependent_pointer": 327,
+      "claimant_in_other_spm_unit": 0,
+      "claimant_in_other_tax_unit": 171,
+      "dependent_pointers": 36346,
+      "missing_claimant_line": 0
+    },
+    "eitc_reconciliation": {
+      "max_absolute_difference": 0.0,
+      "units_with_difference_over_2_dollars": 0
+    },
+    "identification_status": "SSN/ITIN and legal qualifying-child status not observed",
+    "people": 134729,
+    "resource_identity": {
+      "max_absolute_difference": 0.0,
+      "units_reconciled_within_2_dollars": 55401
+    },
+    "spm_units": 55401,
+    "tax_units": 72979,
+    "tax_units_spanning_spm_units": 0
+  },
+  "source_income_year": 2025,
+  "status": "PROJECTION_INPUTS_AND_SENSITIVITY_ONLY",
+  "survey_year": 2026
+}

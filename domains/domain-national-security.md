@@ -1,6 +1,6 @@
 # Domain file: National security and international affairs (NSC)
 
-Canonical as of Oct 19, 2026 (batch 4). This file covers the defense envelope, alliances, diplomatic and development capacity, sanctions, trade agreements, technology competition and export controls, pandemic preparedness, climate finance, nuclear arms control and veterans. On substance it replaces staging inventory section 16, ledger row F6 (Bill Book 26, which had no domain home) and the national-security half of ledger A2. War powers, emergencies and tariff authority stay in domain-executive-power.md (EXE), where batch 2 put them (ledger DEM8 with DEM9 merged under C10). The USAID successor's architecture stays in domain-capacity.md CAP-10. Both are referenced here, not restated.
+Canonical (batch 4). This file covers the defense envelope, alliances, diplomatic and development capacity, sanctions, trade agreements, technology competition and export controls, pandemic preparedness, climate finance, nuclear arms control and veterans. On substance it replaces staging inventory section 16, ledger row F6 (Bill Book 26, which had no domain home) and the national-security half of ledger A2. War powers, emergencies and tariff authority stay in domain-executive-power.md (EXE), where batch 2 put them (ledger DEM8 with DEM9 merged under C10). The USAID successor's architecture stays in domain-capacity.md CAP-10. Both are referenced here, not restated.
 
 The old inventory called this "a second agenda" and kept it thin by design. This file keeps it thin. It sets the envelope, assigns the pieces that touch the domestic agenda, and names what the first Congress must do. Grand strategy is out of scope.
 
@@ -13,7 +13,7 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | NSC-1 | Defense envelope | Roughly flat real from an FY2029 discretionary base that excludes one-time reconciliation money; any increase paid for inside defense (D9) | 0.00 / 0.00 / 0.30 | AP / NDAA | ◐ | No |
 | NSC-2 | War powers and emergencies | Pointer: EXE (statutory notification, AUMF sunsets, funding-cutoff default) | 0 | FL | ◐ | — |
 | NSC-3 | Alliances | NATO commitment kept in statute; burden-sharing by executive agreement; treaty-level changes held | 0 | NDAA / X | ◐ / ✔ | Yes |
-| NSC-4 | Diplomatic capacity | Foreign Service rebuilt to statutory floors; development architecture per CAP-10 | in CAP-7 | AP | ◐ | Partly |
+| NSC-4 | Diplomatic capacity | Foreign Service rebuilt to statutory floors; development architecture per CAP-10 | in CAP-7S / CAP-7 | AP | ◐ | Partly |
 | NSC-5 | Sanctions | Multilateral by default, sunset and review clauses, a humanitarian carve-out standard | 0 | FL / NDAA | ◐ | No |
 | NSC-6 | Trade agreements | Congressional-executive agreements as the default; tariff authority per EXE-14; WTO successor held | 0 | FL | ◐ / ✖ | No |
 | NSC-7 | Technology competition | Chip export controls in statute with congressional review; compute-location verification; CHIPS continuity | 0 | NDAA / FL | ◐ | No |
@@ -23,7 +23,7 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | NSC-11 | Nuclear arms control | A successor framework to New START pursued by executive agreement; testing moratorium kept | 0 | X | ✔ | No |
 | | **General-fund total** | | **0.05 / 0.09 / 0.45** | | | |
 
-The ledger carries F6 at $0.07T and A2 at $0 (range to $0.30T). This file keeps both. It adds NSC-8's preparedness line, about $0.02T (estimate), for **+$0.02T at the midpoint**. Floor days: most NSC rows ride the annual NDAA, so they add **no** first-Congress floor days beyond the NDAA's own (an estimate; the ledger's 163-day budget does not list the NDAA, which is an open question for the rebuild).
+The ledger carries NSC-10 (F6) at $0.07T, NSC-1 (A2) at $0 (range to $0.30T) and NSC-8's preparedness line at about $0.02T (estimate). Floor days: most NSC rows ride the annual NDAA, so they add **no** first-Congress floor days beyond the NDAA's own (an estimate; the ledger's 163-day budget does not list the NDAA, which is an open question for the rebuild).
 
 ## Where things stand (world state, Oct 2026)
 
@@ -52,7 +52,7 @@ The ledger carries F6 at $0.07T and A2 at $0 (range to $0.30T). This file keeps 
 
 | Option | Design | Note |
 | --- | --- | --- |
-| NSC-1A (chosen) | Flat real from the FY2029 base, as defined | D9 |
+| NSC-1A (chosen) | Flat real from the FY2029 base, as defined | D9; confirmed in Decision Brief 2 |
 | NSC-1B | Flat real from a 2026-28 average | Smooths a volatile base; slightly higher claim if FY2027 is high |
 | NSC-1C | Flat share of GDP | Rises with growth; a large claim (estimate: several tenths of a trillion over 2030-39) |
 
@@ -73,7 +73,7 @@ A pointer only. EXE carries statutory notification before strikes, AUMF sunsets,
 
 **Design.** A statutory floor for Foreign Service and Civil Service staffing at State, career appointees for a minimum share of ambassadorships (the Bill Book's "career diplomats over donor appointees"), and restored language and regional training.
 
-**Money.** The USAID successor is already CAP-7's $60B line (CAP-10's architecture). For State's own diplomatic rebuild, **proposed: $8B from CAP-7's batch 4 reserve** (estimate). State is not on D9's list yet.
+**Money.** The USAID successor is the agency rebuild's $60B line (CAP-7S and CAP-7; CAP-10's architecture). For State's own diplomatic rebuild, **proposed: $8B from the rebuild's batch 4 reserve** (estimate, pending Espen). State joins D9's list if it is accepted.
 
 ## NSC-5. Sanctions
 
@@ -106,7 +106,7 @@ Most of it can ride the NDAA. ◐ It pairs with domain-ai.md: AI-3's evaluations
 - **Funding lines:** BARDA and CDC preparedness lines get multi-year funding: biosurveillance, stockpile, and state and local preparedness grants.
 - **IHR:** reform is a treaty-level project and is held. ✖
 
-**This assigns the CDC placeholder its work.** CAP-7 cut CDC to a $15B placeholder because no file gave it work. NSC-8 is that work: biosurveillance and preparedness capacity. **Proposed: keep CDC at $15B in CAP-7**, now with a named dependency, and add about $0.02T (estimate) of program funding here for BARDA and preparedness grants.
+**This is the CDC placeholder's work.** The agency rebuild (CAP-7S and CAP-7) holds CDC at a $15B placeholder; NSC-8 is its named work: biosurveillance and preparedness capacity. **Proposed: keep CDC at $15B in the rebuild**, with this named dependency, and about $0.02T (estimate) of program funding here for BARDA and preparedness grants.
 
 ## NSC-9. Climate finance
 
@@ -139,7 +139,7 @@ A pointer to domain-climate.md. Domestic statutory commitments (multi-year contr
 ## Dependencies
 
 - **Executive power.** War powers, emergencies and tariffs (NSC-2, NSC-6).
-- **Capacity.** CAP-10's development architecture; CAP-7's USAID-successor and CDC lines.
+- **Capacity.** CAP-10's development architecture; the agency rebuild's (CAP-7S, CAP-7) USAID-successor and CDC lines.
 - **AI.** NSC-7 with AI-3.
 - **Public safety.** Domestic-deployment savings (NSC-1 note).
 - **Climate.** NSC-9.
@@ -149,9 +149,9 @@ A pointer to domain-climate.md. Domestic statutory commitments (multi-year contr
 
 | Agency | Rows | Source of funds |
 | --- | --- | --- |
-| State Department (Foreign Service, Civil Service) | NSC-4, NSC-5 | **Proposed: $8B from CAP-7's batch 4 reserve** (estimate) |
-| USAID successor | NSC-4 | CAP-7 ($60B, unchanged) |
-| CDC | NSC-8 | CAP-7 ($15B, now with a named dependency) |
+| State Department (Foreign Service, Civil Service) | NSC-4, NSC-5 | **Proposed: $8B from the rebuild's batch 4 reserve** (estimate, pending Espen) |
+| USAID successor | NSC-4 | CAP-7S / CAP-7 ($60B share) |
+| CDC | NSC-8 | CAP-7S / CAP-7 ($15B share, with NSC-8 as its named work) |
 | VA | NSC-10 | Inside NSC-10's cost (ledger F6) |
 | Commerce BIS (export controls) | NSC-7 | Inside BIS appropriations (estimate; check whether licensing review needs more) |
 
@@ -181,11 +181,12 @@ A pointer to domain-climate.md. Domestic statutory commitments (multi-year contr
 | Ledger F6; Bill Book 26 | NSC-10 |
 | Ledger DEM9; Bill Book 27 | EXE (unchanged); NSC-2 points there |
 | Bill Book appendix (alliances, managed competition with China, career diplomats) | NSC-3, NSC-4, NSC-7 |
-| **New rows needed at the rebuild** | NSC-8 (~$0.02T); A2's label gets NSC-1's base definition; F6's source changes to this file |
+| (new ledger row) | NSC-8 (~$0.02T) |
 
 ## Open items
 
-1. **NSC-1's base definition** (A, B or C): Espen's call; it decides what "flat real" means.
+1. **NSC-1's base definition: NSC-1A** (decided, Decision Brief 2): flat real from the FY2029 base excluding one-time reconciliation money. NSC-1C (flat share of GDP) would cost about $0.89T over 2030-39 and about 0.32% of GDP a year by 2039 (estimate).
+1a. **Explore ways to reduce defense over time (Espen's request; later in the project).** A study of options to bring the defense envelope down gradually after the first Congress (force structure, procurement, overseas posture, audit findings), with their effects on the fiscal model. Not started; NSC-1A stands meanwhile.
 2. **Re-scope the Iran architecture** in EXE against the June 15, 2026 agreement.
 3. **Source the 2026 chip-export licensing policy** before NSC-7 is drafted.
 4. **NDAA floor time:** decide whether the ledger's 163-day budget already accounts for it.

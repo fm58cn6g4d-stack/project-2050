@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "age": {
+      "column": "A_AGE",
+      "scale": 1
+    },
+    "household_id": {
+      "column": "H_SEQ",
+      "scale": 1
+    },
+    "person_number": {
+      "column": "PPPOS",
+      "scale": 1
+    },
+    "person_weight": {
+      "column": "MARSUPWT",
+      "scale": 0.01
+    },
+    "resources": {
+      "column": "SPM_RESOURCES",
+      "scale": 1
+    },
+    "spm_unit_id": {
+      "column": "SPM_ID",
+      "scale": 1
+    },
+    "tax_unit_id": {
+      "column": "TAX_ID",
+      "scale": 1
+    },
+    "threshold": {
+      "column": "SPM_POVTHRESHOLD",
+      "scale": 1
+    },
+    "unit_weight": {
+      "column": "SPM_WEIGHT",
+      "scale": 0.01
+    }
+  },
+  "metadata": {
+    "baseline_description": "synthetic baseline",
+    "dollar_year": 2025,
+    "kind": "synthetic",
+    "resource_year": 2025,
+    "source_vintage": "synthetic CSV",
+    "weight_basis": "explicit scales"
+  }
+}

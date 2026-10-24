@@ -1,0 +1,308 @@
+[
+ {
+  "topic": "Revenue envelope",
+  "one_doc": "The Governing Agenda says ~$4.6T funds the whole program",
+  "other_doc": "That $4.6T counts Social Security cap revenue, which can only go to its trust fund",
+  "resolution": "Resolved (D4): revenue is counted by channel"
+ },
+ {
+  "topic": "Health design",
+  "one_doc": "War game: public option plus Medicare at 55",
+  "other_doc": "Go-big tab: public option plus Medicare at 60",
+  "resolution": "Resolved (D6): go-big bill canonical; buy-in a scored add-on"
+ },
+ {
+  "topic": "Medicare tax revenue",
+  "one_doc": "Go-big Package A spends Medicare and investment-income taxes on new benefits",
+  "other_doc": "Revenue tab names the same taxes as HI's fix",
+  "resolution": "Resolved (D4): H1a plus HI's MA share keep HI whole; H1b in the general-fund base"
+ },
+ {
+  "topic": "Social Security",
+  "one_doc": "Bill Book: lifting the cap funds an expansion",
+  "other_doc": "Revenue tab: that alone closes about half the gap",
+  "resolution": "Resolved (D8): solvency first; closer still to choose (SS-5 recommended)"
+ },
+ {
+  "topic": "Carbon revenue",
+  "one_doc": "Bill Book: fee returned as a dividend",
+  "other_doc": "Thriving Economy: carbon revenue for programs",
+  "resolution": "Resolved (D7): 80% dividend (CLI-2), 20% transition (CLI-5)"
+ },
+ {
+  "topic": "Reconciliation slots",
+  "one_doc": "War game: two packages",
+  "other_doc": "Radical Means: a third slot exists",
+  "resolution": "Resolved (D5): three vehicles with a fallback"
+ },
+ {
+  "topic": "Pay-for pairing",
+  "one_doc": "Package A pairs the Child Tax Credit with the billionaire minimum tax",
+  "other_doc": "Nineteen Months rates that tax the least durable item",
+  "resolution": "Open: pair the most durable benefit with the most durable revenue (corporate rate)"
+ },
+ {
+  "topic": "Floor time",
+  "one_doc": "Inventory: ~148 discretionary floor days",
+  "other_doc": "First-Congress statutory items exceed the budget",
+  "resolution": "Open: under F (D2) the calendar needs 172 floor days against 163; merges or more floor days close it"
+ },
+ {
+  "topic": "2028 extension",
+  "one_doc": "Moving America needs a 60-vote extension by Sept 30, 2028",
+  "other_doc": "The Highway Trust Fund runs dry in 2028",
+  "resolution": "Open: a 2027-28 priority; size the transfer now"
+ },
+ {
+  "topic": "Permitting law and the general fund",
+  "one_doc": "AAJA Secs. 1401-1402 pay damages from the Judgment Fund without appropriation",
+  "other_doc": "A fossil-permit action after 2029 could cost billions per project",
+  "resolution": "Addressed in CLI-3 (damages cap); contingent cost remains until enacted"
+ },
+ {
+  "topic": "Permitting law and passenger rail",
+  "one_doc": "AAJA's ESA exemption covers highway and transit, not FRA rail",
+  "other_doc": "Moving America's rail program gets less relief",
+  "resolution": "Resolved in CLI-3 (rail fixes)"
+ },
+ {
+  "topic": "Methane fees",
+  "one_doc": "domain-revenue.md lists methane fees as unsized financing beyond REV-C2",
+  "other_doc": "REV-C2's scaled figure already includes them",
+  "resolution": "Open: not additional unless REV-C2 is re-sized"
+ },
+ {
+  "topic": "Moving America financing",
+  "one_doc": "MOV-29 and MOV-30 are $0.35T of general-fund outlays",
+  "other_doc": "D4 allows borrowing only for time-limited capital",
+  "resolution": "Resolved: C30 accepted; the time-limited capital is borrowed inside the D4-B envelope"
+ },
+ {
+  "topic": "Investment-income stacking",
+  "one_doc": "GX haircut G11, G6 and G9 only",
+  "other_doc": "SS-2 and H1b stack unhaircut",
+  "resolution": "Resolved: 15% haircut on H1b (GX) and SS-2 (OX)"
+ },
+ {
+  "topic": "DEM-4 and DEM-9",
+  "one_doc": "STV shipping into a plurality-president configuration",
+  "other_doc": "Instruments warns against it",
+  "resolution": "Resolved: one second-term package; fallback DEM-4C or 4D still to choose"
+ },
+ {
+  "topic": "Row IDs",
+  "one_doc": "Ledger bill rows were H1-H6, F1-F6, E1-E12, DEM0-DEM13, S1-S5, A1-A2, M1-M2, L1",
+  "other_doc": "Domain files use HLT-, FAM-, CLI-, DEM-# and other IDs; DEM0-DEM13 collided with DEM-1 to DEM-20",
+  "resolution": "Resolved: every row is keyed by its domain-file ID; legacy IDs kept in a crosswalk column"
+ },
+ {
+  "topic": "Clean-energy credit overlap",
+  "one_doc": "CLI-1 carries E1's $0.9T",
+  "other_doc": "The transmission ITC and 45X moved to CLI-5; E1 may have counted them",
+  "resolution": "Open: CLI-1 may be overstated by up to ~$0.2T; check at rescore"
+ },
+ {
+  "topic": "Disaster and flood insurance",
+  "one_doc": "CLI-7 is a first-Congress floor row",
+  "other_doc": "It is unscored (rough $0.05-0.15T)",
+  "resolution": "Open: not in any total until scored"
+ },
+ {
+  "topic": "Public-safety deployment savings",
+  "one_doc": "PS1 counted ending domestic deployments (~$1.1B/yr) as channel revenue",
+  "other_doc": "NSC-1 holds defense flat, so the savings stay inside defense",
+  "resolution": "Resolved (domain-public-safety.md): dropped from PS1 unless NSC-1 is cut by the same amount"
+ },
+ {
+  "topic": "Crime Victims Fund receipts",
+  "one_doc": "PS1's package counted False Claims Act receipts (~$0.75B/yr)",
+  "other_doc": "Those receipts otherwise reach the Treasury",
+  "resolution": "Resolved: counted as a general-fund cost, not channel revenue"
+ },
+ {
+  "topic": "Safe Communities Trust Fund",
+  "one_doc": "SAF bill Sec. 1208 creates a trust fund for its receipts",
+  "other_doc": "D4 bars a trust fund just to hold a pay-for",
+  "resolution": "Resolved (Espen): Section 1208 is dropped; SAF-10 is funded as mandatory spending (SAF-10A) and the receipts go to the general fund, attributed in statute"
+ },
+ {
+  "topic": "Public-safety vehicle",
+  "one_doc": "Ledger S5 was annual appropriations",
+  "other_doc": "SAF-10A makes the Compact stream mandatory in R3",
+  "resolution": "Resolved: SAF-10A, mandatory spending in R3 (the domain file's chosen design); Byrd check title by title still open"
+ },
+ {
+  "topic": "Housing construction capital",
+  "one_doc": "Ledger E6 counted a $250B grant fund; C21 borrowed for it",
+  "other_doc": "HOU-3C uses ~$72B of grants plus $300B of direct loans at subsidy cost",
+  "resolution": "Resolved: HOU-1 row at $0.47T mid; C21 borrows ~$0.06T inside the D4-B envelope"
+ },
+ {
+  "topic": "AI timing",
+  "one_doc": "Cut C13 would move AI governance to 2031",
+  "other_doc": "Espen's Oct 19 call: E12 must pass in the first trifecta",
+  "resolution": "Resolved: AI-1 and AI-4 must pass in the first trifecta (D1); C13 is dropped"
+ },
+ {
+  "topic": "National service",
+  "one_doc": "Staging 15.1 had no ledger row",
+  "other_doc": "LAB-9 is a new permanent program (~$0.12T)",
+  "resolution": "Resolved (Decision Brief 2): LAB-9D (bipartisan authorization first, LAB-9A's R2 money as fallback); paid for at maturity under D4-B; score and Byrd check still open"
+ },
+ {
+  "topic": "D9 agency list, batch 4",
+  "one_doc": "CAP-7's reserve held $37B for batch 4",
+  "other_doc": "Batch 4 files propose $31B (USCIS asylum, civil-rights offices, CAISI, ATF/NICS, State)",
+  "resolution": "Open: pending Espen; live D9 list still to extend"
+ },
+ {
+  "topic": "Immigration court and immigration bill",
+  "one_doc": "CRT-5 (~$0.03T) is unscored",
+  "other_doc": "IMM-1 relies on it",
+  "resolution": "Open: score the two together"
+ },
+ {
+  "topic": "NDAA floor time",
+  "one_doc": "Most NSC rows ride the annual NDAA",
+  "other_doc": "The 163-day budget does not list the NDAA",
+  "resolution": "Open: decide whether the budget already accounts for it"
+ },
+ {
+  "topic": "Safe Everywhere file role",
+  "one_doc": "domains/public-safety-safe-everywhere.md was canonical until converted",
+  "other_doc": "domain-public-safety.md now governs",
+  "resolution": "Open housekeeping: move it to sources/ (content unchanged)"
+ },
+ {
+  "topic": "Education's home",
+  "one_doc": "FAM-4 held education inside the family file",
+  "other_doc": "Education was the framework's blind spot (Espen, Oct 20)",
+  "resolution": "Resolved: domains/domain-education.md (EDU-1 to EDU-10); FAM-4 is a pointer; legacy F4 maps to EDU-1 and EDU-5 at the same total"
+ },
+ {
+  "topic": "Two pre-K designs",
+  "one_doc": "FAM-2: universal pre-K, phased, inside child care",
+  "other_doc": "Bonamici omnibus: universal pre-K through HHS, 1,020 hours, pay parity, BA in 7 years, 100% federal share stepping to 60%",
+  "resolution": "Resolved: FAM-2 is the home; the omnibus standards are FAM-2D (option); EDU-9B (held) would move FAM-2's financing into an education fund"
+ },
+ {
+  "topic": "Education trust fund and D4",
+  "one_doc": "EDU-9B: an uncapped 1.28-1.4 point payroll contribution plus the estate tax in a dedicated education fund",
+  "other_doc": "D4: no new trust fund just to hold a pay-for; a trust fund only where a permanent benefit has a natural revenue stream",
+  "resolution": "Open: deferred to a revenue strategy session on payroll raisers: the payroll piece is arguable on the FAM-3 pattern; dedicating the estate tax fails the rule as written"
+ },
+ {
+  "topic": "Education trust fund and D3",
+  "one_doc": "EDU-9B's contribution reaches every worker (~$830-900 a year at the median wage)",
+  "other_doc": "D3: every group below the top must come out ahead; middle-reaching options go through the incidence model",
+  "resolution": "Open (EDU-9B held): tested in the incidence model (scenario G); a decision, not a default"
+ },
+ {
+  "topic": "Estate tax and G6",
+  "one_doc": "The education session's estate component includes ending stepped-up basis",
+  "other_doc": "REV-G6 (gains at death, $0.70T) is already in the base",
+  "resolution": "Resolved: REV-E1 is the estate tax alone; the step-up piece is G6 and is not counted twice"
+ },
+ {
+  "topic": "Estate tax and G9",
+  "one_doc": "REV-E1/C35 was counted at ~$0.35T against current law",
+  "other_doc": "G9's reversal of 2025 relief above $450K already includes most of the permanent $15M estate exemption (~$0.2-0.3T)",
+  "resolution": "Resolved: E1/C35 counts only the increment beyond G9 (~$0.15T); G9's note says so; never sum the gross figures"
+ },
+ {
+  "topic": "Payroll raisers",
+  "one_doc": "Seven payroll-type raisers sit in different files (REV-P1, REV-ED1, W1, SS-7, SS-1, SS-2, REV-H1a)",
+  "other_doc": "W1 and REV-ED1 are the same base; SS-7 and the leave step-up stack on every worker",
+  "resolution": "Open: revisit EDU-9B's structure with the other payroll raisers in a later revenue strategy session; listed in domain-revenue.md under REV-ED1"
+ },
+ {
+  "topic": "Payment continuity",
+  "one_doc": "Recurring payments could stop in a shutdown",
+  "other_doc": "Talarico model: standing disbursement authority made a shutdown fail",
+  "resolution": "Resolved: a design rule (payments do not stop); statute EXE-18 (auto-CR at CAP-4; debt limit EXE-18C, option)"
+ },
+ {
+  "topic": "Universal meals",
+  "one_doc": "No ledger row carried school meals",
+  "other_doc": "Both education sources and the Talarico scenario lead with universal meals",
+  "resolution": "Resolved: EDU-3 ($0.27T, chosen); EDU-3B (community eligibility expansion) is the smaller option (C36, declined)"
+ },
+ {
+  "topic": "Climate durability package and D4",
+  "one_doc": "The durability session's expanded plan is ~$2.5T gross, ~$1.8-1.9T net, largely unpaid",
+  "other_doc": "D4-B: permanent programs paid for at maturity; borrowing only for time-limited investments inside the envelope",
+  "resolution": "Partly resolved: climate capital is borrowing-eligible inside the D4-B envelope; ~$0.35-0.45T of the package qualifies; credits and transfers still need pay-fors. Judgment Fund (Decision Brief 2): CLI-9 scored at full expected cost when obligated; AAJA damages carried as a disclosed contingent-liability line, bounded by CLI-3's cap. CLI-9 to CLI-13 remain options"
+ },
+ {
+  "topic": "Road fuels and D7",
+  "one_doc": "The durability session phases gasoline into the fee from 2032",
+  "other_doc": "D7 taxes road fuels only through Moving America",
+  "resolution": "Resolved: D7 kept for road fuels; the session's price path adopted for REV-C1; REV-C1D (convergence) open, not adopted"
+ },
+ {
+  "topic": "Reinsurance exposure",
+  "one_doc": "CLI-7C (federal reinsurance backstop) and the Talarico scenario's $400B facility",
+  "other_doc": "Contingent exposure is off-score; one bad season can draw $150-200B",
+  "resolution": "Open: if chosen, price premiums to expected loss with a repayable Treasury line (FAM-3 pattern)"
+ },
+ {
+  "topic": "DEM-1 timing",
+  "one_doc": "The ledger targets DEM-1 for Feb 2029",
+  "other_doc": "Talarico stress test: leading with a process fight before any benefit is felt cost the most seats; D1 only needs DEM-1 by mid-2030",
+  "resolution": "Resolved: DEM-1F (floor after R1, enacted by spring 2030); the D2 vote in week one of 2029 comes before DEM-1's floor time"
+ },
+ {
+  "topic": "Social Security path",
+  "one_doc": "D8: regular-order bill in spring 2030 (needs D2 or 60)",
+  "other_doc": "Talarico stress test and the real Warren-Moreno framework: a 67-vote deal is available because OASI depletes in Q4 2032",
+  "resolution": "Open: SS-10 (bipartisan framework) filed as an option; D8 stands unless Espen changes it. To do: test whether the 67-vote premise holds and compare SS-10A-C with D8 and its closers"
+ },
+ {
+  "topic": "Talking-filibuster pace",
+  "one_doc": "Path C assumes six minority top fights at ~15 days each (213 days)",
+  "other_doc": "Talarico stress test: contested bills under a talking filibuster took 19-31 days (mean ~24); at 24-25 days path C needs ~267-272 days",
+  "resolution": "Resolved: the sensitivity is in ledger-paths.py; D2 chose F (172 days); SS-10 would move Social Security off the contested list"
+ },
+ {
+  "topic": "Senate rules path (D2)",
+  "one_doc": "D2 open; F primary, C alternate, G failure case",
+  "other_doc": "Talarico pace puts C at ~267-272 days; F at 172",
+  "resolution": "Resolved (Decision Brief 1): F with Block 3, adopted week one 2029; C with a 15-day backstop as the opening offer to holdouts; G the written fallback; reconciliation as now, R3 vs R4 decided with the adoption resolution"
+ },
+ {
+  "topic": "Closing the gap",
+  "one_doc": "Every option reached the middle through C19 (median exclusion cap) and C20",
+  "other_doc": "~$2.1T remained after every top-end option, borrowing reading and trim",
+  "resolution": "Resolved: Package B (C18, C35, C19b, C20) accepted as the planning basis (Decision Brief 1); sprint package C38 (REV-TS1 to TS11, ~$0.89T) accepted (Decision Brief 2); C19 is the fallback"
+ },
+ {
+  "topic": "Agency rebuild timing",
+  "one_doc": "CAP-7 spread ~$0.6T evenly over 2030-39 as increments (~$60B a year)",
+  "other_doc": "Espen (Oct 20): an even spread is close to useless; a rebuild needs a concentrated infusion paired with sustained funding",
+  "resolution": "Resolved (Decision Brief 2): CAP-7S surge (~$0.6T, FY2030-35, borrowing-eligible inside the D4-B envelope) plus CAP-7 sustained (~0.12% of GDP from FY2032, permanent). Sizing accepted by Espen as working figures; the bottom-up per-agency review may revise it"
+ },
+ {
+  "topic": "Program trims",
+  "one_doc": "Five trims (C5, C17, C33, C34, C36) were the menu for closing the run-rate gap",
+  "other_doc": "They are small at maturity (~0.09% of GDP in 2040; C5 nothing after 2039) and each costs a design rule or the fourth quintile",
+  "resolution": "Resolved (Decision Brief 2): all declined; C39-C41 (TS12, HP1, HP3) cover the run rate instead. Trims may be revisited later"
+ },
+ {
+  "topic": "Defense envelope over time",
+  "one_doc": "NSC-1A holds defense flat in real terms from the FY2029 base",
+  "other_doc": "Espen (Oct 20): explore ways to cut defense over time",
+  "resolution": "Open (later in the project): a defense-reduction study; NSC-1A stands meanwhile"
+ },
+ {
+  "topic": "D4 and deficit financing",
+  "one_doc": "D4: borrowing only for time-limited capital",
+  "other_doc": "Espen (Oct 20): open to loosening deficit-financing rules more broadly while keeping the long-term arc toward solvency, sustainability, wellbeing and fairness",
+  "resolution": "Resolved (Decision Brief 2): D4-B. Permanent programs paid for at maturity (FY2040 and every later year); an investment envelope of 0.5% of GDP to 2034 tapering to zero by 2040, holding the borrowing readings and CAP-7S; guardrails measured against the real (CBO, adjusted) baseline, not the program's own debt; Judgment Fund-backed contracts counted"
+ },
+ {
+  "topic": "Surge availability versus cash",
+  "one_doc": "CAP-7S was routed through appropriations with FY2030 start",
+  "other_doc": "All surge funding should be multi-year and available immediately on enactment, targeting R1 FY2029",
+  "resolution": "Decided: immediate availability for all surge funding. Agency sizing remains provisional; old FY2030-35 cash path is an interim proxy, FY2029 outlays unpriced. R1 Byrd/jurisdiction checks pending. No extra borrowing allowance adopted."
+ }
+]

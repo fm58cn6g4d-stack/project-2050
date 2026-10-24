@@ -1,10 +1,8 @@
 # Domain file: Courts and administrative law (CRT)
 
-Canonical as of Oct 19, 2026 (batch 2). This file covers staging inventory section 4, which becomes pointers. Its input is sources/courts-rebalancing-the-three-branches-2026.md, which governs on legal analysis; where this file differs from that review it is because a Governing Decision or a design rule applies, and it says so.
+Canonical. This file covers staging inventory section 4, which is pointers. Its input is sources/courts-rebalancing-the-three-branches-2026.md, which governs on legal analysis; where this file differs from that review it is because a Governing Decision or a design rule applies, and it says so.
 
-**Oct 20 (Talarico stress test).** One packaging option is added, **CRT-P4**: split CRT-1's phased judgeships into a 60-vote bill of their own. No chosen design or total changes.
-
-All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival tags follow D1: ✔, ◐, ✖.
+All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival tags follow D1: ✔, ◐ (needs D2; F is decided), ✖.
 
 **Tiers.** T1 integrity and capacity first, T2 statutory repairs, T3 structural reform used deliberately. The tiering is the file's main argument and comes from the Rebalancing review's sequencing: Package 1 builds the good-faith record that lowers the escalation cost of Package 3. Every row carries aggressive severability and a legislative record, per design rule 7.
 
@@ -33,16 +31,16 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | CRT-19 | State judicial selection | — | End partisan judicial elections | 0.00 | ST | ✔ | No |
 | | **General-fund total** | | | **0.05 / 0.06 / 0.11** | | | |
 
-Like democracy, this domain is cheap in dollars and expensive in floor time. The ledger carries it as one package (DEM7) at 6 days with DEM6 merged in under cut C11.
+Like democracy, this domain is cheap in dollars and expensive in floor time. The ledger carries it as one package (CRT-P1, old DEM7) at 6 days with Supreme Court ethics (old DEM6) merged in under cut C11.
 
 ## Crosswalk
 
 | This file | Ledger row | Staging rows |
 | --- | --- | --- |
-| CRT-1, CRT-3, CRT-15 | DEM7 | 4.1, 4.3, 4.15 |
-| CRT-2 | DEM6 (merged into DEM7, C11) | 4.2 |
-| CRT-4, CRT-6, CRT-7 to CRT-14, CRT-16 | (new rows needed) | 4.4, 4.6-4.14, 4.16 |
-| CRT-5 | pairs with E11 | 4.5 |
+| CRT-1, CRT-3, CRT-15 | CRT-P1 (old DEM7) | 4.1, 4.3, 4.15 |
+| CRT-2 | carried in CRT-P1 (old DEM6, merged under C11) | 4.2 |
+| CRT-4, CRT-6, CRT-7 to CRT-14, CRT-16 | (no ledger rows yet) | 4.4, 4.6-4.14, 4.16 |
+| CRT-5 | noted on CRT-P1; pairs with IMM-1 (old E11) | 4.5 |
 | CRT-17, CRT-18, CRT-19 | (no rows; norms and state) | 4.17-4.19 |
 
 ## The one-bill question
@@ -54,7 +52,7 @@ The ledger merges Supreme Court ethics into the courts package (cut C11), giving
 | CRT-P1 (chosen) | One judiciary bill: T1 items plus CRT-15 | 6 floor days; term limits carried by the package | estimate (ledger) |
 | CRT-P2 | Two bills: a T1 integrity bill on the bipartisan fast track, then CRT-15 separately | Probably 1 day plus 6; the T1 record is built before the structural fight, which is the Rebalancing sequencing | estimate |
 | CRT-P3 | T1 only in the first Congress; CRT-15 in 2033 | Lowest risk; D1 says no 2033 queue, so this is a departure from a Decision | estimate |
-| CRT-P4 (Oct 20, Talarico stress test) | Split CRT-1's phased judgeships into a stand-alone bill aimed at 60 votes; the rest as P2 (integrity bill, then CRT-15) | Takes one item off the contested floor list. The 2024 bill passed the Senate by unanimous consent before the veto; the model passed 74 judgeships 71-29 (scenario). Phasing across terms is what makes Republican votes plausible | estimate; scenario |
+| CRT-P4 (Talarico stress test) | Split CRT-1's phased judgeships into a stand-alone bill aimed at 60 votes; the rest as P2 (integrity bill, then CRT-15) | Takes one item off the contested floor list. The 2024 bill passed the Senate by unanimous consent before the veto; the model passed 74 judgeships 71-29 (scenario). Phasing across terms is what makes Republican votes plausible | estimate; scenario |
 
 **P4 combines with P2.** P4 is not an alternative to P2 but a refinement of it: the judgeships leave the integrity bill and seek 60 votes, early, while the integrity bill and CRT-15 follow P2's order. The risk is that judgeships were the integrity bill's best bipartisan sweetener; without them, CRT-2 to CRT-6 carry less cover.
 
@@ -107,7 +105,7 @@ The ledger merges Supreme Court ethics into the courts package (cut C11), giving
 
 **Scale.** About 3.1 million active cases pending at the end of August 2026 (TRAC); immigration judges fell from 726 (Feb 2025) to 520 IJs and 33 ACIJs (Feb 2026); OBBBA capped immigration judges at 800 while funding 10,000 ICE officers; 94% of asylum cases denied in June 2026. Counts differ by source and date (NPR, TRAC/EOIR, AIC) — the caveat travels with the figure.
 
-**Cost.** About $0.03T, range $0.02T to $0.06T (estimate; unscored). A court of this size with appointed counsel for two populations is the only genuinely expensive item in this file. **Flagged: this needs a real score.** It pairs with ledger E11 (immigration reform, -$0.15T), and the two should be scored together.
+**Cost.** About $0.03T, range $0.02T to $0.06T (estimate; unscored). A court of this size with appointed counsel for two populations is the only genuinely expensive item in this file. **Flagged: this needs a real score.** It pairs with ledger row IMM-1 (the immigration bill, -$0.14T), and the two should be scored together.
 
 **Options.**
 
@@ -173,7 +171,7 @@ The ledger merges Supreme Court ethics into the courts package (cut C11), giving
 
 ### CRT-14. Statutory repairs (pointer)
 
-Each repair lives in its own domain file: the VRA rewrite in domains/domain-democracy.md (DEM-1 Title III); reproductive rights at ledger S1; Clean Water Act and Clean Air Act sec. 111 clarifications in the climate file (batch 3); agency adjudication at CRT-10. Listed here so the courts domain's coverage is visible, with the common drafting requirement: each repair needs the findings record that the post-*Chevron* Court demands.
+Each repair lives in its own domain file: the VRA rewrite in domains/domain-democracy.md (DEM-1 Title III); reproductive rights in domains/domain-rights.md (RTS-1); Clean Water Act and Clean Air Act sec. 111 clarifications in domains/domain-climate.md; agency adjudication at CRT-10. Listed here so the courts domain's coverage is visible, with the common drafting requirement: each repair needs the findings record that the post-*Chevron* Court demands.
 
 ## T3 — Structural reform
 
@@ -222,17 +220,17 @@ Each repair lives in its own domain file: the VRA rewrite in domains/domain-demo
 | ◐ needs a D2 path | CRT-1 to CRT-16 |
 | ✖ | none — the amendment paired with CRT-15 sits in the democracy and amendments track |
 
-Everything that matters here is ◐. Under path G (the democracy-and-elections carve-out), the courts package is outside the carve-out and does not pass — which is the clearest illustration of G's cost.
+Everything that matters here is ◐, and passes under F (decided). Under the written fallback G (the democracy-and-elections carve-out), the courts package is outside the carve-out and does not pass — which is the clearest illustration of G's cost.
 
 ## Dependencies
 
-- **D2:** CRT-1 to CRT-16.
+- **D2:** CRT-1 to CRT-16; all pass under F (decided).
 - **D1:** no 2033 queue, so CRT-P3 (deferring term limits) would be a departure from a Decision and is flagged as such.
 - **Capacity file:** CRT-8 is unenforceable without drafting capacity (CAP-2, CAP-3); CAP-6 (the statute-tracking office) is the institutional form of CRT-14.
 - **Executive power file:** CRT-5's Slaughter design is the same design problem as EXE-9; the two should use one template.
 - **Democracy file:** DEM-1 Title III is CRT-14's VRA repair.
 - **Revenue:** CRT-5 is the only material cost and it is unscored.
-- **Capacity (agencies):** EOIR's successor and the new court's administrative division belong in D9's rebuild line; currently absent. **Flagged for D9.**
+- **Capacity (agencies):** the new court's administrative division (EOIR's successor) is funded inside CRT-5's cost rather than in D9's agency-rebuild line (governing doc, D9).
 
 ## Design-rule check
 
@@ -250,18 +248,18 @@ Everything that matters here is ◐. Under path G (the democracy-and-elections c
 ## Open items
 
 1. **CRT-P1 vs CRT-P2** — the one-bill question. P2 is recommended and P1 is what the ledger carries. This needs a decision, and with it whether to add **P4** (judgeships split for 60 votes).
-2. **CRT-5 is unscored** and is the file's only material cost; score it with ledger E11.
+2. **CRT-5 is unscored** and is the file's only material cost; score it with ledger row IMM-1.
 3. **CRT-15's first effect lands in the 2040s.** If that is unacceptable, the only faster designs are CRT-15B and CRT-16, both of which the source rates as high-risk.
 4. **Emergency-docket grant rates are counted two ways** (67% / 83%); pick one for the findings record.
 5. **The Rebalancing review's caveat that *NRSC v. FEC* was unconfirmed is out of date** — decided June 30, 2026, 6-3. The source file should be annotated.
-6. **Six-plus ledger rows missing** (see crosswalk).
+6. **CRT-4, CRT-6 and CRT-7 to CRT-16 have no ledger rows** (see crosswalk).
 
 ## Sources
 
 - sources/courts-rebalancing-the-three-branches-2026.md — the governing input. Reforms 1-21, the Part III comparison matrix and the Part IV packaging; its own caveats on counting methods and on constitutional prediction travel with every figure here.
 - staging/unified-reform-inventory-current.md, section 4.
 - frameworks/instruments-and-consequences.md: #4 (term limits), #5 (the forum for challenges to this package; the coercion objection to contingent expansion).
-- index/2029-trifecta-master-ledger.md: rows DEM6, DEM7, E11; cut C11.
+- index/2029-trifecta-master-ledger.md: rows CRT-P1 and IMM-1; cut C11.
 - Marquette Law School Poll, Sept 2-9, 2026 (via the Rebalancing review): 89% ethics code, 79% term limits, 53/47 expansion.
 - governing/project-2050-governing-decisions.md: D1, D2, design rule 7.
 - frameworks/scenario-stress-test-talarico-2029-2037.md (Oct 20): CRT-P4.

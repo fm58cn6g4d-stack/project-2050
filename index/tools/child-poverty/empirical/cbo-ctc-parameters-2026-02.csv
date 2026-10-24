@@ -1,0 +1,16 @@
+date,variable,value
+CY2025,tp_ctc_max_refundable,1700.0
+CY2030,tp_ctc_max_refundable,1900.0
+CY2034,tp_ctc_max_refundable,2100.0
+CY2025,tp_ctc_per_child,2200.0
+CY2030,tp_ctc_per_child,2400.0
+CY2034,tp_ctc_per_child,2600.0
+CY2025,tp_ctc_per_other_dependent,500.0
+CY2030,tp_ctc_per_other_dependent,500.0
+CY2034,tp_ctc_per_other_dependent,500.0
+CY2025,tp_ctc_refund_rate,15.0
+CY2030,tp_ctc_refund_rate,15.0
+CY2034,tp_ctc_refund_rate,15.0
+CY2025,tp_ctc_refund_threshold,2500.0
+CY2030,tp_ctc_refund_threshold,2500.0
+CY2034,tp_ctc_refund_threshold,2500.0

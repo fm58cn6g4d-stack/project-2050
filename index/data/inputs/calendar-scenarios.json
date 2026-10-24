@@ -1,0 +1,522 @@
+{
+  "status": "RESEARCH PROTOTYPE: illustrative inputs, not calibrated forecasts or adopted model inputs",
+  "profiles": {
+    "fast": {
+      "debate": {
+        "favorable": 4,
+        "central": 8,
+        "difficult": 16
+      },
+      "votes": {
+        "favorable": 1,
+        "central": 2,
+        "difficult": 4
+      },
+      "return": {
+        "favorable": 0,
+        "central": 2,
+        "difficult": 6
+      },
+      "house": {
+        "favorable": 2,
+        "central": 4,
+        "difficult": 8
+      },
+      "lag_days": {
+        "favorable": 0,
+        "central": 2,
+        "difficult": 7
+      },
+      "min_sittings": {
+        "favorable": 1,
+        "central": 1,
+        "difficult": 1
+      }
+    },
+    "standard": {
+      "debate": {
+        "favorable": 12,
+        "central": 20,
+        "difficult": 36
+      },
+      "votes": {
+        "favorable": 4,
+        "central": 8,
+        "difficult": 16
+      },
+      "return": {
+        "favorable": 0,
+        "central": 4,
+        "difficult": 12
+      },
+      "house": {
+        "favorable": 4,
+        "central": 8,
+        "difficult": 16
+      },
+      "lag_days": {
+        "favorable": 1,
+        "central": 5,
+        "difficult": 14
+      },
+      "min_sittings": {
+        "favorable": 5,
+        "central": 5,
+        "difficult": 5
+      }
+    },
+    "heavy": {
+      "debate": {
+        "favorable": 20,
+        "central": 32,
+        "difficult": 52
+      },
+      "votes": {
+        "favorable": 6,
+        "central": 12,
+        "difficult": 24
+      },
+      "return": {
+        "favorable": 2,
+        "central": 6,
+        "difficult": 16
+      },
+      "house": {
+        "favorable": 6,
+        "central": 12,
+        "difficult": 24
+      },
+      "lag_days": {
+        "favorable": 2,
+        "central": 7,
+        "difficult": 21
+      },
+      "min_sittings": {
+        "favorable": 5,
+        "central": 5,
+        "difficult": 5
+      }
+    },
+    "rules": {
+      "debate": {
+        "favorable": 8,
+        "central": 16,
+        "difficult": 32
+      },
+      "votes": {
+        "favorable": 2,
+        "central": 4,
+        "difficult": 8
+      },
+      "return": {
+        "favorable": 0,
+        "central": 0,
+        "difficult": 0
+      },
+      "house": {
+        "favorable": 0,
+        "central": 0,
+        "difficult": 0
+      },
+      "lag_days": {
+        "favorable": 0,
+        "central": 0,
+        "difficult": 0
+      },
+      "min_sittings": {
+        "favorable": 1,
+        "central": 2,
+        "difficult": 4
+      }
+    },
+    "resolution": {
+      "debate": {
+        "favorable": 16,
+        "central": 32,
+        "difficult": 50
+      },
+      "votes": {
+        "favorable": 4,
+        "central": 8,
+        "difficult": 16
+      },
+      "return": {
+        "favorable": 0,
+        "central": 2,
+        "difficult": 8
+      },
+      "house": {
+        "favorable": 4,
+        "central": 8,
+        "difficult": 14
+      },
+      "lag_days": {
+        "favorable": 0,
+        "central": 2,
+        "difficult": 7
+      },
+      "min_sittings": {
+        "favorable": 1,
+        "central": 1,
+        "difficult": 1
+      }
+    },
+    "R1": {
+      "debate": {
+        "favorable": 10,
+        "central": 16,
+        "difficult": 20
+      },
+      "votes": {
+        "favorable": 6,
+        "central": 12,
+        "difficult": 24
+      },
+      "return": {
+        "favorable": 0,
+        "central": 4,
+        "difficult": 12
+      },
+      "house": {
+        "favorable": 4,
+        "central": 8,
+        "difficult": 16
+      },
+      "lag_days": {
+        "favorable": 0,
+        "central": 3,
+        "difficult": 10
+      },
+      "min_sittings": {
+        "favorable": 1,
+        "central": 1,
+        "difficult": 1
+      }
+    },
+    "R2": {
+      "debate": {
+        "favorable": 10,
+        "central": 16,
+        "difficult": 20
+      },
+      "votes": {
+        "favorable": 8,
+        "central": 18,
+        "difficult": 36
+      },
+      "return": {
+        "favorable": 2,
+        "central": 8,
+        "difficult": 20
+      },
+      "house": {
+        "favorable": 6,
+        "central": 12,
+        "difficult": 24
+      },
+      "lag_days": {
+        "favorable": 1,
+        "central": 5,
+        "difficult": 14
+      },
+      "min_sittings": {
+        "favorable": 1,
+        "central": 1,
+        "difficult": 1
+      }
+    },
+    "R3": {
+      "debate": {
+        "favorable": 10,
+        "central": 16,
+        "difficult": 20
+      },
+      "votes": {
+        "favorable": 6,
+        "central": 14,
+        "difficult": 30
+      },
+      "return": {
+        "favorable": 0,
+        "central": 6,
+        "difficult": 16
+      },
+      "house": {
+        "favorable": 4,
+        "central": 10,
+        "difficult": 20
+      },
+      "lag_days": {
+        "favorable": 0,
+        "central": 4,
+        "difficult": 12
+      },
+      "min_sittings": {
+        "favorable": 1,
+        "central": 1,
+        "difficult": 1
+      }
+    },
+    "climate_merged": {
+      "debate": {
+        "favorable": 20,
+        "central": 36,
+        "difficult": 80
+      },
+      "votes": {
+        "favorable": 6,
+        "central": 14,
+        "difficult": 36
+      },
+      "return": {
+        "favorable": 2,
+        "central": 8,
+        "difficult": 36
+      },
+      "house": {
+        "favorable": 6,
+        "central": 14,
+        "difficult": 28
+      },
+      "lag_days": {
+        "favorable": 2,
+        "central": 10,
+        "difficult": 28
+      },
+      "min_sittings": {
+        "favorable": 5,
+        "central": 5,
+        "difficult": 5
+      }
+    }
+  },
+  "conditions": [
+    "favorable",
+    "central",
+    "difficult"
+  ],
+  "capacity": {
+    "constrained": {
+      "weekdays": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "S_hours": 6,
+      "H_hours": 5,
+      "other_share": 0.45,
+      "reserve_share": 0.15
+    },
+    "working": {
+      "weekdays": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "S_hours": 6,
+      "H_hours": 4,
+      "other_share": 0.35,
+      "reserve_share": 0.1
+    },
+    "expanded": {
+      "weekdays": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S_hours": 9,
+      "H_hours": 7,
+      "other_share": 0.35,
+      "reserve_share": 0.15
+    }
+  },
+  "condition_capacity": {
+    "favorable": 1,
+    "central": 1,
+    "difficult": 0.8
+  },
+  "frontload": {
+    "through": "2029-03-31",
+    "S_extra": 2,
+    "H_extra": 1,
+    "opening_other_share": 0.15
+  },
+  "schema_version": 2,
+  "source_commit": "214a7acc1144d86b547c1bc39d8f99c75533dc32",
+  "horizon": [
+    "2029-01-03",
+    "2031-01-02"
+  ],
+  "blackouts": [
+    [
+      "2029-08-13",
+      "2029-08-31"
+    ],
+    [
+      "2030-08-12",
+      "2030-08-30"
+    ],
+    [
+      "2029-12-23",
+      "2030-01-02"
+    ],
+    [
+      "2030-12-23",
+      "2031-01-02"
+    ]
+  ],
+  "midterm": "2030-11-05",
+  "readiness": {
+    "HLT-3": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "SS-1": {
+      "favorable": "2030-01-15",
+      "central": "2030-03-01",
+      "difficult": "2030-04-15"
+    },
+    "CLI-3": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "CLI-6": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "CLI-7": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "HOU-7": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "LAB-1": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "LAB-9D": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "COM-1": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "IMM-1": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "AI-1": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "DEM-1": {
+      "favorable": "2029-01-15",
+      "central": "2029-02-01",
+      "difficult": "2029-03-01"
+    },
+    "DEM-5": {
+      "favorable": "2029-01-10",
+      "central": "2029-02-01",
+      "difficult": "2029-03-15"
+    },
+    "DEM-6": {
+      "favorable": "2029-01-10",
+      "central": "2029-02-01",
+      "difficult": "2029-03-15"
+    },
+    "INT-1": {
+      "favorable": "2029-01-10",
+      "central": "2029-02-01",
+      "difficult": "2029-03-15"
+    },
+    "CRT-P1": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "EXE-1": {
+      "favorable": "2029-01-10",
+      "central": "2029-02-01",
+      "difficult": "2029-03-15"
+    },
+    "CAP-8": {
+      "favorable": "2029-01-10",
+      "central": "2029-02-01",
+      "difficult": "2029-03-15"
+    },
+    "RTS-1": {
+      "favorable": "2029-01-10",
+      "central": "2029-02-01",
+      "difficult": "2029-03-15"
+    },
+    "RTS-3": {
+      "favorable": "2029-01-10",
+      "central": "2029-02-01",
+      "difficult": "2029-03-15"
+    },
+    "SAF-1": {
+      "favorable": "2029-04-01",
+      "central": "2029-07-01",
+      "difficult": "2030-01-15"
+    },
+    "D2": {
+      "favorable": "2029-01-03",
+      "central": "2029-01-03",
+      "difficult": "2029-01-03"
+    },
+    "R1-BR": {
+      "favorable": "2029-01-03",
+      "central": "2029-01-05",
+      "difficult": "2029-01-15"
+    },
+    "R1": {
+      "favorable": "2029-01-20",
+      "central": "2029-02-01",
+      "difficult": "2029-03-01"
+    },
+    "R2-BR": {
+      "favorable": "2029-04-01",
+      "central": "2029-05-15",
+      "difficult": "2029-07-01"
+    },
+    "R2": {
+      "favorable": "2029-05-01",
+      "central": "2029-06-01",
+      "difficult": "2029-08-01"
+    },
+    "R3-BR": {
+      "favorable": "2030-04-01",
+      "central": "2030-05-15",
+      "difficult": "2030-07-01"
+    },
+    "R3": {
+      "favorable": "2030-05-01",
+      "central": "2030-06-01",
+      "difficult": "2030-08-01"
+    }
+  },
+  "notes": [
+    "All new hour, readiness and capacity inputs remain illustrative, uncalibrated judgments.",
+    "F uses five sitting dates as a conservative whole-day implementation of the legacy 4.5-session-day span; no minority right is changed.",
+    "Blackouts are explicit hypothetical work periods, not future congressional schedules.",
+    "Dated completion is conditional on successful votes and agreement; no probabilities are assigned.",
+    "No independent simulation benefit estimates; legacy felt_months are unvalidated screening lags only."
+  ]
+}

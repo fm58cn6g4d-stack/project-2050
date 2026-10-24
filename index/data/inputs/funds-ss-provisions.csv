@@ -1,0 +1,6 @@
+id,label,kind,rate,threshold,start,credit_factor,extra_haircut,cola_bump,ledger_rows,basis
+SS-1,"12.4% on earnings above $250,000 (unindexed), with a 2% benefit credit on the added earnings",earnings,12.4,250000,2031,0.02,0,,O1,"proposal (D8); base from SSA's E2.1, E2.5 and E2.17 scores and credit cost from E2.14 (2026 Trustees, sourced)"
+SS-2,"12.4% on net investment income above $400,000 (unindexed), with the domain file's 15% stacking haircut",nii,12.4,400000,2031,0,0.15,,O2+OX,"proposal (D8); base from SSA's F11 ($400K) and F9 scores (2026 Trustees, sourced); the haircut is the domain file's estimate for stacking with REV-H1b"
+SS-3,"Minimum benefit: 125% of poverty for 30 years of coverage, wage-indexed",minbenefit,,,2031,,,,,"proposal (D8); cost path from SSA's B5.2, the same design starting 2027, shifted to 2031 (2026 Trustees, sourced)"
+SS-4,CPI-E for cost-of-living adjustments,cola,,,2031,,,0.15,,"proposal (D8); cost path from SSA's A6, shifted to the first COLA after enactment; SSA now puts the CPI-E gap at about 0.15 points a year (2026 Trustees, sourced)"
+SS-5,Investment-income tax on active S-corporation holders and limited partners (closer),passthrough,12.4,,2031,,0,,,"option (recommended closer); base from SSA's F8 at ACA thresholds (2026 Trustees, sourced)"
