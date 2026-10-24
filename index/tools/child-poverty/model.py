@@ -125,6 +125,7 @@ def service_delta(unit, year, scenario):
         cap = 0.07 * family_income if eligible else care_cost
     if flag(unit, "care_slot") and eligible:
         delta += max(0.0, care_cost - cap) * service_fraction(unit, "care", scenario)
+    delta += number(unit, "prek_spm_delta", 0) * service_fraction(unit, "prek", scenario)
     delta += number(unit, "school_meal_spm_delta", 0) * service_fraction(unit, "school_meal", scenario)
     delta += number(unit, "summer_ebt_spm_delta", 0) * service_fraction(unit, "summer_ebt", scenario)
     if flag(unit, "voucher_awarded"):
@@ -151,6 +152,7 @@ def run(args):
         "spm_unit_id", "weight", "spm_threshold", "spm_resources",
         "spm_care_expense", "care_family_income", "state_median_income",
         "care_slot", "care_delivered", "care_enhanced",
+        "prek_spm_delta", "prek_delivered", "prek_enhanced",
         "school_meal_spm_delta", "school_meal_delivered", "school_meal_enhanced",
         "summer_ebt_spm_delta", "summer_ebt_delivered", "summer_ebt_enhanced",
         "voucher_awarded", "voucher_spm_delta", "voucher_leaseup_delivered",
@@ -197,11 +199,11 @@ def run(args):
         number(u, "spm_resources")
         for key in ("care_slot", "voucher_awarded"):
             flag(u, key)
-        for key in ("care", "school_meal", "summer_ebt", "voucher_leaseup", "emergency_aid"):
+        for key in ("care", "prek", "school_meal", "summer_ebt", "voucher_leaseup", "emergency_aid"):
             for scenario in ("delivered", "enhanced"):
                 flag(u, key + "_" + scenario)
         for key in ("spm_care_expense", "care_family_income", "state_median_income",
-                    "school_meal_spm_delta", "summer_ebt_spm_delta",
+                    "prek_spm_delta", "school_meal_spm_delta", "summer_ebt_spm_delta",
                     "voucher_spm_delta", "emergency_aid_spm_delta"):
             number(u, key, 0)
     results = {}
