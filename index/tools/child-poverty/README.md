@@ -1,6 +1,6 @@
 # Child-poverty microsimulation — reconstructed research tool
 
-October 24, 2026. **Implemented and tested on artificial data; no national Project 2050 estimate.** Policy authority is `claude/pensive-mendel-g1lwl5` at `cd6487bb8366b33c50c3665b2fedb785449357d7` (original reconstruction source: `14feb987a7d8aec416ba5bacc50880187a756383`). This tool is a proposed technical addition. It changes no adopted policy, fiscal input or existing generated output.
+October 24, 2026. **Logic tested on artificial data; observed CPS source-year baseline verified with all 160 replicate weights; no national Project 2050 policy estimate.** Integration source is `claude/pensive-mendel-g1lwl5` at `4133d157f5d0ab410b19af6212424b67916c09ab` (reconstruction merged through PR #10; original reconstruction source: `14feb987a7d8aec416ba5bacc50880187a756383`). This changes no adopted policy, fiscal input or existing generated output.
 
 This rebuild uses the four local research-report exports, the three preliminary notes, the canonical rule sheet and the surviving GitHub prototype. It does **not** claim to recover the missing ZIP byte for byte. `recovered/model-upstream-8a8f4b.py` preserves the exact surviving source; its SHA-256 is `702c8e45badb933eb59851718a57dfaed7f0164e09a0961c7bdc1b9d88334bb9`.
 
@@ -37,6 +37,15 @@ Monthly fractions describe the year cash arrives, including late catch-up paymen
 
 ## Prepare a source-year baseline
 
+The official 2026 ASEC archive (income year 2025) has now been executed using the actual poverty and SDR routines. See [the empirical integration report](../../../sources/family-child-poverty-cps-baseline.md) for input URL/hash, field scaling, checks and limitations; results are in [empirical/cps-2026-baseline.json](empirical/cps-2026-baseline.json). Reproduce from the repository root:
+
+```bash
+python3 index/tools/child-poverty/cps_baseline.py \
+  --archive /path/to/asecpub26csv.zip --output /path/to/cps-2026-baseline.json
+```
+
+This source-specific adapter measures existing SPM resources without inventing missing tax or identification assignments. Its successful join and calibration do not validate the generic policy preprocessor's claimant/tax construction. For a separately reviewed policy-ready input, use the generic pipeline below.
+
 ```bash
 python3 index/tools/child-poverty/preprocess.py \
   --raw /path/to/cps-person.csv --mapping /path/to/reviewed-field-map.json \
@@ -68,7 +77,7 @@ Child-weighted gaps repeat a unit's shortfall for each child. They are not a sup
 
 ## Outstanding publication requirements
 
-Real CPS execution and source-vintage calibration; reviewed post-2025 current-law taxes and SPM identities; 2030/2034 projection and controls; legal eligibility/phaseout/reconciliation review; calibrated payment, usable-care, summer-meal and voucher delivery; administrative-alignment sensitivities; supported employment cases with joint tax/transfer recomputation; a matched external comparator; and whole-package interactions. No national poverty percentage, eradication claim, permanent-policy cost or new policy selection follows from the artificial tests.
+Source-year CPS measurement and 160-replicate calibration are complete for the recorded archive. Outstanding: reviewed post-2025 current-law taxes and claimant/SPM identities; 2030/2034 projection and controls; legal eligibility/phaseout/reconciliation review; calibrated payment, usable-care, summer-meal and voucher delivery; administrative-alignment sensitivities; supported employment cases with joint tax/transfer recomputation; a matched external comparator; and whole-package interactions. No Project policy poverty percentage, eradication claim, permanent-policy cost or new policy selection follows from the source-year baseline or artificial tests.
 
 See `sources/family-child-poverty-rebuild-findings-and-integration.md` for recovery findings, policy decisions needed and the staged integration plan. `run-all.sh` is intentionally unchanged: national runs must remain separate from the existing fiscal and quintile tools until the empirical inputs are validated.
 
