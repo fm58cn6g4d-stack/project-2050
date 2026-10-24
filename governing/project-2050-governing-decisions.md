@@ -382,3 +382,7 @@ Medical-debt relief may be explored separately; no amount, eligibility, instrume
 ## Vision frequency clarification: annual exams, October 24
 
 Espen specified annual routine eye examinations. Lenses, frames and contact-lens supply must each have their own benefit frequency; a two-year convention may apply to selected eyewear items, not to routine exams or all items as one bundle. Preserve medically necessary exceptions and existing diagnostic/treatment/cataract benefits. This supersedes earlier shared two-year vision-exam/device wording. Exact item-specific intervals and annual counting mechanics still need specification; the clarification adopts no cost estimate, new launch date or financing amount. Price annual exams separately from device replacements; no numerical model input is changed before a supported decomposition is available.
+
+## Eyewear frequencies approved, October 24
+
+Espen reviewed and approved the proposed eyewear frequencies and all PR #17 diffs, and authorized its merge: annual lens replacement when needed, frames every two years, and an annual contact-lens supply as an alternative to spectacle lenses, with medically necessary exceptions. Annual routine eye exams remain selected. This resolves the earlier item-interval question; annual counting mechanics and detailed coordination remain for later drafting. No new launch date, numerical model input, fee or financing amount is adopted. PR #16 was also reviewed and merged with authorization. Costs remain unpriced pending a supported decomposition.
