@@ -40,3 +40,8 @@ Ask the assistant to return changes as options with their effects (the working r
 ## Opening and delivery follow-up
 
 The next bounded research layer is in `sources/calendar-opening-procedural-packet.md`, `sources/calendar-2030-delivery-paths.md`, `sources/health-2029-restoration-and-2030-medicare-option.md` and `sources/climate-full-scope-bill-outline-and-comparator.md`. `sources/calendar-evidence-observations.csv` distinguishes observed intervals from proposed legislative start dates; `index/tools/calendar/evidence-check.py` reproduces the date arithmetic. These support further specification, not adoption of an accelerated launch, administrator, merger or new numerical model range.
+
+
+## Current research and coordinated next work
+
+Use [sources/project-work-queue.md](sources/project-work-queue.md) for known owners, incoming work, next bounded outputs and integration gates. The [completed health-delivery bridge](sources/health-delivery-resource-bridge.md), [component register](sources/health-delivery-component-register.csv) and [hearing/vision decision packet](sources/health-hearing-vision-decision-packet.md) carry the October 24 research into the repository without selecting a new launch or financing. Local artifacts support research; they are not an automatically synchronized authority. A PR is proposed integration; a reviewed merge updates the working branch.

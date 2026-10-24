@@ -76,3 +76,8 @@ For hearing/vision, prepare a single 2030 launch specification and score request
 ## Integration status
 
 Espen approved saving and integrating these development recommendations on October 23. [The health domain](../domains/domain-health.md#earlier-delivery-alternatives-development-approved-october-23) holds the canonical alternatives; the governing record authorizes their development. The ledger, delivery page and agenda dashboard distinguish those alternatives from the adopted baseline. Integration does not certify six-month implementation, change a launch date or supply an incremental score. Source evidence and access limitations above remain unchanged.
+
+
+## Completed research follow-up: October 24
+
+Continue with [the completed delivery/resource reconciliation](health-delivery-resource-bridge.md) and [bounded decision packet](health-hearing-vision-decision-packet.md). The ordinary MA rate/bid cycle is a real dependency, but distinguish plan-contract inclusion from access through the existing Original-Medicare significant-cost payment bridge. The follow-up report did not evaluate that bridge. Its conditional early-R1 preference is research, not a selected vehicle. Existing starts, full benefits, fast R1 and unpriced costs remain as qualified above.
