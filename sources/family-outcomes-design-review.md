@@ -2,7 +2,7 @@
 
 October 24, 2026 · Review draft; no policy change. Source: `main`, `31d2e584d790c6dc6e3c243e1643b1ab3a8d050e`. No open PRs were found at the start. Espen authorized this bounded assignment after the health design review: use completed research and tools to assess outcomes, compare consequential choices and produce one public family example. This is a synthesis of existing research, not a new future-poverty forecast or an official score.
 
-**Follow-up:** Espen approved necessary delivery improvements, credit comparison including an AFA analogue, and wider rental-assistance exploration. The [model review and extension](family-poverty-model-review-and-extension.md) now examines model scope, adds tested comparison inputs and constant-real 2040/2050 references, and identifies the blocked national rerun. FAM-1D already denotes the AFA option. No alternative, indexing/eligibility rule or financing amount has been adopted.
+**Follow-up:** Espen approved necessary delivery improvements, credit comparison including an AFA analogue, and wider rental-assistance exploration. The [model review and extension](family-poverty-model-review-and-extension.md) now examines model scope, adds tested comparison inputs and constant-real 2040/2050 references, and records the subsequent national comparisons using uploaded Census members. FAM-1D already denotes the AFA option. No alternative, indexing/eligibility rule or financing amount has been adopted.
 
 ## Judgment
 

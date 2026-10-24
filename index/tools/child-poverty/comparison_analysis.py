@@ -7,6 +7,8 @@ import argparse
 import copy
 import json
 import math
+import hashlib
+import zipfile
 from pathlib import Path
 from agenda_analysis import (HERE, parse_archive, prepare_units, unit_effect,
                              aggregate, external_comparator, policy_parameters)
@@ -108,6 +110,27 @@ def evaluate(data, spec, pop, econ, design, delivery_name, awards=400000, overla
                 federal_cost=None, overlay_rows=len(overlays))
 
 
+def contribution_diagnostics(data, spec, pop, econ):
+    prepared,_=prepare_units(data,2034,spec['common'],pop,econ)
+    groups={name:dict(weighted_children=0.,ctc_sum=0.,baseline_credit_sum=0.,positive_increment=0.)
+            for name in ('source_deep_poor','source_poor_not_deep','source_not_poor')}
+    for person in data['children']:
+        uid=person['uid'];unit=data['units'][uid]
+        w=person['weight']*pop[(2034,person['age'],person['sex'])]/pop[(2026,person['age'],person['sex'])]
+        ratio=unit['SPM_RESOURCES']/unit['SPM_POVTHRESHOLD']
+        name='source_deep_poor' if ratio<.5 else 'source_poor_not_deep' if ratio<1 else 'source_not_poor'
+        row=groups[name];row['weighted_children']+=w
+        row['ctc_sum']+=w*prepared[uid]['ctc']
+        row['baseline_credit_sum']+=w*sum(t['nonrefundable']+t['refundable'] for t in data['taxes_by_unit'][uid])
+        row['positive_increment']+=w*(prepared[uid]['ctc']>0)
+    for row in groups.values():
+        weight=row['weighted_children']
+        row['mean_unit_ctc_increment_per_child']=row.pop('ctc_sum')/weight if weight else None
+        row['mean_existing_unit_credit_per_child']=row.pop('baseline_credit_sum')/weight if weight else None
+        row['share_positive_statutory_increment']=row.pop('positive_increment')/weight if weight else None
+    return dict(basis='Child-weighted unit amounts in 2025 dollars before receipt haircut; source-resource groups, not causal attribution or federal costs',groups=groups)
+
+
 def carry_forward(stored):
     """Static reference, not an extrapolation of an improving poverty trend."""
     output = []
@@ -123,7 +146,32 @@ def carry_forward(stored):
     return output
 
 
-def analyze(archive=None, overlays=(), paths=None):
+def verify_archive(archive, stored, manifest_path=None):
+    actual = sha256(archive)
+    if actual == stored['archive_sha256']:
+        return dict(kind='original_archive',archive_sha256=actual)
+    if manifest_path is None:
+        raise ValueError('Source archive differs; uploaded-member manifest required')
+    manifest=json.loads(Path(manifest_path).read_text())
+    if manifest.get('origin') != 'user_supplied_census_members' or manifest.get('original_archive_sha256') != stored['archive_sha256']:
+        raise ValueError('Unrecognized source lineage')
+    required={'hhpub26.csv','pppub26.csv','asec_csv_repwgt_2026.csv'}
+    if not required <= set(manifest['members']):
+        raise ValueError('Incomplete member manifest')
+    with zipfile.ZipFile(archive) as z:
+        for name, expected in manifest['members'].items():
+            if z.getinfo(name).file_size != expected['bytes']:
+                raise ValueError('Source member length changed: '+name)
+            digest=hashlib.sha256()
+            with z.open(name) as f:
+                for block in iter(lambda:f.read(1024*1024),b''):digest.update(block)
+            if digest.hexdigest()!=expected['sha256']:
+                raise ValueError('Source member hash changed: '+name)
+    return dict(kind='uploaded_members_in_local_container_not_original_zip',
+                archive_sha256=actual,manifest_sha256=sha256(manifest_path))
+
+
+def analyze(archive=None, overlays=(), paths=None, manifest_path=None):
     stored_path=HERE/'empirical/agenda-results.json'
     stored=json.loads(stored_path.read_text())
     spec=json.loads((HERE/'agenda-assumptions.json').read_text())
@@ -149,36 +197,43 @@ def analyze(archive=None, overlays=(), paths=None):
             infant_no_bonus=annual_analogue([0],0,'head')))
     out['examples']['infant_no_bonus']=annual_analogue([0],0,'head',newborn=False)
     if archive is not None:
-        if sha256(archive) != stored['archive_sha256']:
-            raise ValueError('Source archive differs from verified vintage')
+        provenance=verify_archive(archive,stored,manifest_path)
         data=parse_archive(archive)
-        external_comparator(data)
+        comparator=external_comparator(data)
+        print('Source parsed and external credit-removal comparator passed.',flush=True)
         pop,econ,_=read_inputs(HERE/'empirical')
         cases=[]
+        cache={}
+        def calculate(design,delivery,cap=400000,shift=0.):
+            key=(design,delivery,cap,shift)
+            if key not in cache:
+                cache[key]=evaluate(data,spec,pop,econ,design,delivery,cap,overlays,shift)
+            return cache[key]
         for design in DESIGNS:
             for delivery in ('moderate','enhanced','full'):
-                cases.append(evaluate(data,spec,pop,econ,design,delivery,overlays=overlays))
+                cases.append(calculate(design,delivery))
+                print(design,delivery, f"{cases[-1]['result']['poor_rate']:.4%}",flush=True)
         # A bounded reach scenario and a full proxy-eligible boundary; not adopted entitlements.
         eligible=prepare_units(data,2034,spec['common'],pop,econ)[1]['eligible_households_weighted']
         for cap in (1000000, math.ceil(eligible)):
             for design in ('FAM-1A','AFA_2025_real'):
-                cases.append(evaluate(data,spec,pop,econ,design,'enhanced',cap,overlays))
+                cases.append(calculate(design,'enhanced',cap))
         reference=next(c for c in stored['cases'] if c['year']==2034 and c['scenario']=='moderate')['stages'][-1]
         if not overlays and abs(cases[0]['result']['poor_rate']-reference['poor_rate'])>1e-12:
             raise ValueError('Legacy moderate reference failed reproduction')
         later=[]
         for path in paths:
             for design in ('FAM-1A','AFA_2025_real'):
-                c=evaluate(data,spec,pop,econ,design,path['delivery'],overlays=overlays,resource_shift=path['resource_shift'])
+                c=calculate(design,path['delivery'],shift=path['resource_shift'])
                 later.append(dict(year=path['year'],reference_year=2034,path=path,**c))
-        out.update(national_cases=cases,later_path_cases=later,archive_sha256=sha256(archive),overlay_sha256=None)
+        out.update(national_cases=cases,later_path_cases=later,archive_sha256=sha256(archive),overlay_sha256=None,source_provenance=provenance,external_comparator=comparator,source_audit=data['audit'],legacy_moderate_reproduced=not overlays,contribution_diagnostics=contribution_diagnostics(data,spec,pop,econ))
     return out
 
 
 def render(r):
     lines=['# Family comparisons and later-year reference checks','',
         'Generated by `index/tools/child-poverty/comparison_analysis.py`; do not hand edit.','',
-        f"Status: **{r['status']}**. New national alternative effects and federal costs are unpriced/uncomputed until an actual verified archive run.", '',
+        f"Status: **{r['status']}**. National effects are populated only after a validated microdata run; federal costs remain unpriced.", '',
         'The table carries the existing 2034 calculation forward with population composition, real resources, policy value and delivery fixed. It shows why a later date alone creates no improvement. Counts are reference-population counts, not projected future populations.', '',
         '| Delivery | 2034 child poverty | 2040 constant-real reference | 2050 constant-real reference |',
         '| --- | ---: | ---: | ---: |']
@@ -202,6 +257,7 @@ def render(r):
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--archive',type=Path)
+    p.add_argument('--source-manifest',type=Path,help='Fingerprint ledger for user-uploaded source members in a repacked local container')
     p.add_argument('--overlays',type=Path)
     p.add_argument('--paths',type=Path,help='Reviewed year/delivery/resource stresses; no inferred economic forecast')
     p.add_argument('--output',type=Path,default=ROOT/'sources/family-comparison-model-checks')
@@ -210,7 +266,7 @@ if __name__=='__main__':
     if rows and args.archive is None:
         p.error('Overlays require a verified archive')
     paths=json.loads(args.paths.read_text()) if args.paths else None
-    result=analyze(args.archive,rows,paths)
+    result=analyze(args.archive,rows,paths,args.source_manifest)
     if args.paths:
         result['paths_sha256']=sha256(args.paths)
     if args.overlays:

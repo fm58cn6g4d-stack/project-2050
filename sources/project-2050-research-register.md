@@ -19,7 +19,7 @@ The opening baseline above is historical. Current integration after promotion is
 
 ## Family model scope and alternatives, October 24
 
-Espen approved the bounded family comparisons and requested model scrutiny, additional policy inputs and later-year analysis. The [model review/extension](family-poverty-model-review-and-extension.md) records the targeted audit, primary House/Senate AFA text, tested adapter and explicit access limits. [Generated checks](family-comparison-model-checks.md) carry the existing 2034 results to constant-real 2040/2050 references; new national alternatives remain null until the official archive is accessible. This is not a new forecast, a rerun national result or adoption of an alternative. 115 tests pass, with legacy results preserved.
+Espen approved the bounded family comparisons and requested model scrutiny, additional policy inputs and later-year analysis. The [model review/extension](family-poverty-model-review-and-extension.md) records the targeted audit, primary House/Senate AFA text, tested adapter and explicit access limits. [Generated checks](family-comparison-model-checks.md) carry the existing 2034 results to constant-real 2040/2050 references; national alternatives now execute using user-uploaded Census members with exact member hashes and legacy-result reproduction; original Census ZIP byte identity is not claimed. This is not a new forecast, a rerun national result or adoption of an alternative. 117 tests pass, with legacy results preserved. Explicit conditional later-year delivery/resource paths are separate from forecasts.
 
 ## Family outcomes review, October 24
 

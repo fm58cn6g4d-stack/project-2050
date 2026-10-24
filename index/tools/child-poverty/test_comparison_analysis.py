@@ -1,14 +1,44 @@
 """Meaningful alternative/later-year boundaries, using artificial units only."""
+from pathlib import Path
 import copy
 import json
 import unittest
+import tempfile
+import zipfile
+import hashlib
 from comparison_analysis import (annual_analogue, alternative_increment,
-    apply_overlays, carry_forward, analyze, evaluate, HERE)
+    apply_overlays, carry_forward, analyze, evaluate, verify_archive, contribution_diagnostics, HERE)
 from test_agenda_analysis import sample
 from cps_projection import read_inputs
 
 
 class ComparisonTests(unittest.TestCase):
+    def test_uploaded_member_integrity_and_distinct_container_provenance(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);archive=root/'members.zip';manifest=root/'manifest.json'
+            members={name:b'artificial fixture only' for name in ('hhpub26.csv','pppub26.csv','asec_csv_repwgt_2026.csv')}
+            with zipfile.ZipFile(archive,'w') as z:
+                for name,content in members.items():z.writestr(name,content)
+            stored={'archive_sha256':'original-archive-checksum'}
+            with self.assertRaises(ValueError):verify_archive(archive,stored)
+            m=dict(origin='user_supplied_census_members',original_archive_sha256=stored['archive_sha256'],
+                   members={n:dict(bytes=len(b),sha256=hashlib.sha256(b).hexdigest()) for n,b in members.items()})
+            manifest.write_text(json.dumps(m))
+            self.assertEqual(verify_archive(archive,stored,manifest)['kind'],'uploaded_members_in_local_container_not_original_zip')
+            m['members']['pppub26.csv']['sha256']='altered'
+            manifest.write_text(json.dumps(m))
+            with self.assertRaises(ValueError):verify_archive(archive,stored,manifest)
+
+    def test_contribution_diagnostics_keep_child_and_budget_units_distinct(self):
+        pop,econ,_=read_inputs(HERE/'empirical')
+        spec=json.loads((HERE/'agenda-assumptions.json').read_text())
+        r=contribution_diagnostics(sample(),spec,pop,econ)
+        row=r['groups']['source_poor_not_deep']
+        self.assertGreater(row['weighted_children'],0)
+        self.assertGreater(row['mean_unit_ctc_increment_per_child'],0)
+        self.assertEqual(row['mean_existing_unit_credit_per_child'],1000)
+        self.assertIsNone(r['groups']['source_deep_poor']['mean_unit_ctc_increment_per_child'])
+
     def test_source_schedule_and_newborn_sensitivity(self):
         self.assertEqual(annual_analogue([0,4,8],0,'head'),6360+4320+3600)
         self.assertEqual(annual_analogue([0],0,'head',newborn=False),4320)
