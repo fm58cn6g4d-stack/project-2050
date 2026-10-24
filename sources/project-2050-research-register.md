@@ -55,3 +55,7 @@ Approved directions are in the governing record; canonical democracy corrections
 - sources/family-child-poverty-model-brief.md: rule sheet, alternative branches, model/data requirements and overlap-safe attribution; no simulation or new policy.
 - sources/health-revenue-priority-evidence-checkpoint.md: selected MedPAC/Section 68 checks and open score bridge; no replacement estimate.
 - sources/post-pilot-integration-handoff.md: full rebuild, financial comparison and remaining evidence limits.
+
+## Scenario calendar integration
+
+`index/calendar-scenarios.md` and `index/calendar-scenario-explorer.html` are the current scenario presentation; `index/calendar-delivery-opportunities.md` keeps possible felt effects separate. Inputs: `index/data/inputs/calendar-scenarios.json` and the live bill inventory; milestone evidence: `sources/calendar-delivery-milestones.csv`; runner/tests: `index/tools/calendar/`. `run-all.sh` regenerates them and dashboard/calendar.json. The 172/163 display is legacy provenance. New numeric ranges are illustrative; vote parameters and fiscal/benefit profiles are unchanged. See `sources/calendar-model-review-and-integration.md` for review findings and limits.

@@ -21,6 +21,7 @@ echo "== 0. transportation";    python3 "$TOOLS"/transportation/test_moving_amer
                                 python3 "$TOOLS"/transportation/report.py --json "$BUILD"/moving-america.json >/dev/null
 echo "== 1. ledger";            python3 ledger-build.py >/dev/null
 echo "== 2. floor paths";       python3 ledger-paths.py >/dev/null
+echo "== 2a. scenario calendar"; python3 "$TOOLS/calendar/test_model.py"; python3 "$TOOLS/calendar/build.py"
 echo "== 2b. vote simulation"; cp "$TOOLS"/votes-model.py "$BUILD"/; python3 votes-model.py
 echo "== 2c. calendar checks"; python3 "$TOOLS"/test_calendar.py
 echo "== 3. ledger markdown";   python3 ledger-make-md.py >/dev/null
@@ -41,6 +42,12 @@ echo "== 7. dashboard data";   python3 "$TOOLS"/dashboard-data.py >/dev/null
 echo "== 8. consistency check"; cp "$TOOLS"/check-project.py "$TOOLS"/window.py "$BUILD"/; python3 check-project.py
 
 OUT=(
+  'calendar-scenarios.md|index/calendar-scenarios.md'
+  'calendar-delivery-opportunities.md|index/calendar-delivery-opportunities.md'
+  'calendar-scenario-explorer.html|index/calendar-scenario-explorer.html'
+  'calendar-scenarios.json|index/data/calendar-scenarios.json'
+  'calendar-delivery.json|index/data/calendar-delivery.json'
+  'dashboard/calendar.json|index/data/dashboard/calendar.json'
   'capacity-funding-model.md|index/capacity-funding-model.md'
   '2029-trifecta-master-ledger-v2.md|index/2029-trifecta-master-ledger.md'
   'revenue-household-incidence-model.md|index/revenue-household-incidence-model.md'
@@ -61,6 +68,7 @@ echo; echo "== changes against the committed files"
 for pair in "${OUT[@]}"; do
   f="${pair%%|*}"; dest="${pair#*|}"
   if diff -q "$BUILD/$f" "$ROOT/$dest" >/dev/null 2>&1; then echo "  unchanged  $dest";
+  elif [[ ! -f "$ROOT/$dest" ]]; then echo "  NEW        $dest";
   else echo "  CHANGED    $dest  ($(diff "$BUILD/$f" "$ROOT/$dest" | grep -c '^[<>]') lines differ)"; fi
 done
 if [[ $WRITE == 1 ]]; then

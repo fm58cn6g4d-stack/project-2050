@@ -254,3 +254,5 @@ Repository links are pinned to the verified policy commit. Library links identif
 [CP-D]: https://chatgpt.com/api/library/files/libfile_fb10af2a5778819184fbd907aea6e4d2/download
 [CP-DR]: https://chatgpt.com/api/library/files/libfile_59140f7d4d8c8191b9137d9016381db7/download
 [CP-NASEM]: https://www.nationalacademies.org/read/29163/chapter/11
+
+**Scenario-method integration (October 23):** The fixed 172/163 arithmetic below is retained as legacy provenance. Current demand/capacity strategies are generated in `index/calendar-scenarios.md`; pre-midterm delivery opportunities are screened separately in `index/calendar-delivery-opportunities.md`. New numeric ranges remain illustrative. No existing policy date, fiscal profile, minority right or full-scope fallback is changed. See `sources/calendar-model-review-and-integration.md`.

@@ -49,3 +49,7 @@ The hand-written CMS administrative-cost work register is `sources/health-cms-im
 ## October 23 calendar targets
 
 The target field is a planning window, not a service launch or proof of enactment: YYYY-MM or YYYY-spring/summer. R1 rows target February 2029 (administration weeks 3–4 main case, March latest); R2 targets summer 2029 without selecting a month; R3 summer 2030; DEM-1 March 2029 is the latest floor-start month, not its signature date; SS is spring 2030. Other early work remains possible. The vote model reserves DEM/SS capacity before allocating remaining rows; reservation order is not actual floor sequence. Costs, durations, vote parameters and cash profiles are unchanged. Reserve and merger savings remain unknown.
+
+## Scenario calendar integration
+
+`index/calendar-scenarios.md` and `index/calendar-scenario-explorer.html` are the current scenario presentation; `index/calendar-delivery-opportunities.md` keeps possible felt effects separate. Inputs: `index/data/inputs/calendar-scenarios.json` and the live bill inventory; milestone evidence: `sources/calendar-delivery-milestones.csv`; runner/tests: `index/tools/calendar/`. `run-all.sh` regenerates them and dashboard/calendar.json. The 172/163 display is legacy provenance. New numeric ranges are illustrative; vote parameters and fiscal/benefit profiles are unchanged. See `sources/calendar-model-review-and-integration.md` for review findings and limits.

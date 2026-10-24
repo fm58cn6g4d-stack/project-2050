@@ -32,3 +32,7 @@ Use a repository connection when available, or download the intended branch as a
 | Social Security | `domains/domain-social-security.md`, `domains/domain-revenue.md` |
 
 Ask the assistant to return changes as options with their effects (the working rule), then bring the result back here, edit the files, and rerun `run-all.sh` if any number changed. Generated files in `index/` should only change by rerunning the scripts.
+
+## Scenario calendar integration
+
+`index/calendar-scenarios.md` and `index/calendar-scenario-explorer.html` are the current scenario presentation; `index/calendar-delivery-opportunities.md` keeps possible felt effects separate. Inputs: `index/data/inputs/calendar-scenarios.json` and the live bill inventory; milestone evidence: `sources/calendar-delivery-milestones.csv`; runner/tests: `index/tools/calendar/`. `run-all.sh` regenerates them and dashboard/calendar.json. The 172/163 display is legacy provenance. New numeric ranges are illustrative; vote parameters and fiscal/benefit profiles are unchanged. See `sources/calendar-model-review-and-integration.md` for review findings and limits.

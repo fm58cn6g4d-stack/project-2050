@@ -24,7 +24,7 @@ paths={
 rows=[]
 for k,fn in paths.items():
     days,passed=total(fn)
-    rows.append(dict(path=k,days=math.ceil(days),bills=passed,of=len(contested),over_first=math.ceil(days)-s['floor_budget']))
+    rows.append(dict(status='legacy_assumption_crosswalk', current_model='calendar-scenarios.json', path=k,days=math.ceil(days),bills=passed,of=len(contested),over_first=math.ceil(days)-s['floor_budget']))
 json.dump(rows,open('paths.json','w'),indent=1)
 for r in rows: print(r)
 print([b['id'] for b in contested])

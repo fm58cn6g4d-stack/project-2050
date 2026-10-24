@@ -23,13 +23,13 @@ Cuts listed in ALT_CUTS are alternatives to another cut and are not summed.
 import csv, json
 from inputs import read, num, flag
 
-BUDGET_DAYS = 163  # 148 discretionary days (unified inventory) + 15 freed by Block 1's nomination caps (C28, hedged; estimate)
-RECON_DAYS = 15    # floor days per reconciliation bill (frameworks/radical-means-moderate-ends.md)
+BUDGET_DAYS = 163  # LEGACY CROSSWALK ONLY; scenario calendar is current. 148 discretionary days (unified inventory) + 15 freed by Block 1's nomination caps (C28, hedged; estimate)
+RECON_DAYS = 15    # LEGACY ASSUMPTION, not statutory duration. floor days per reconciliation bill (frameworks/radical-means-moderate-ends.md)
 RESOLUTION_DAYS = 2  # budget resolution vote-a-rama per vehicle (estimate)
 
 RAILS = {
-    "R1": "Reconciliation I (FY2029 resolution, spring 2029)",
-    "R2": "Reconciliation II (FY2030 resolution, fall 2029)",
+    "R1": "Reconciliation I (FY2029 resolution, February preferred, March latest)",
+    "R2": "Reconciliation II (FY2030 resolution, summer 2029)",
     "R3": "Reconciliation III (FY2031 resolution, summer 2030)",
     "FLOOR": "Regular order (needs majority cloture)",
     "APPROPS": "Annual appropriations",
@@ -137,9 +137,9 @@ def main():
     bills = []
     for r in B:
         (i,legacy,name,dom,src,rail,chan,lo,mid,hi,own,basis,note,days,felt,dur,tgt) = r
-        # Revised legislative windows are not verified household-delivery dates.
-        # In particular DEM-1's March target is floor start, not enactment.
-        timing_unverified = rail in ("R1", "R2", "R3") or i in ("DEM-1", "SS-1")
+        # No legacy lag is a verified household-delivery forecast.
+        # Scenario opportunities and adopted dates are recorded separately.
+        timing_unverified = True  # Legacy felt-month arithmetic is never a verified receipt forecast.
         if timing_unverified:
             fm = None
         else:

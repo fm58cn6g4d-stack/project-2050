@@ -23,9 +23,8 @@ How a vote works (the war game's model, unchanged):
 - The House: 34 frontliners each defect with probability house_sweep x 0.11; the bill needs 218. For a package or
   the omnibus a frontliner reacts to its most exposed provision (the war game's any-provision rule would sink every
   multi-title package, which the 2021-22 House did not).
-Calendar: under each path a regular-order bill also needs floor days. Capacity is reserved for DEM-1 and SS-1 first, then bills are taken in target-window order (must-pass first within a window) against
-the 163-day budget (less the reconciliation bills and the rules vote); one that does not fit gets no first-Congress
-vote. Annual appropriations (CAP-7, NSC-1 ...) are one omnibus vote with a bipartisan crossover pool.
+Legacy calendar diagnostic (not a probability gate): under each path a regular-order bill also needs floor days. Capacity is reserved for DEM-1 and SS-1 first, then bills are taken in target-window order (must-pass first within a window) against
+the 163-day budget (less the reconciliation bills and the rules vote); failure to fit is no longer applied as a zero first-Congress passage probability. Annual appropriations (CAP-7, NSC-1 ...) are one omnibus vote with a bipartisan crossover pool.
 CAP-7S targets R1; this routing assumes eligibility and does not model Byrd/jurisdiction review.
 
 Inputs: index/data/inputs/votes-bills.csv (per-bill parameters, each with its basis) and votes-senate.csv (the
@@ -180,13 +179,13 @@ def main():
     hold = {h: simulate(bills, s, members, holdouts=h)["reform"] for h in (0, 2, 3)}
     hold[HOLDOUTS] = runs[PLANNING_SEATS]["reform"]
     base = runs[PLANNING_SEATS]
-    def floor_enact(res, p, b, cal=True):
+    def floor_enact(res, p, b, cal=False):
         x = res["floor"][p][b]["enact"]
         return x if (not cal or fits[p].get(b, True)) else 0.0
     def expected(res, p):
         return sum(floor_enact(res, p, b) for b in res["floor"][p])
     json.dump(dict(runs={str(k): v for k, v in runs.items()}, holdouts={str(k): v for k, v in hold.items()},
-                   calendar=fits, params=dict(N=N, seed=SEED, house_d=HOUSE_D, holdouts=HOLDOUTS)), open("votes.json", "w"), indent=1)
+                   legacy_calendar=fits, calendar_method="Scenario schedules are separate from vote probabilities; see calendar-scenarios.json", params=dict(N=N, seed=SEED, house_d=HOUSE_D, holdouts=HOLDOUTS)), open("votes.json", "w"), indent=1)
 
     pc = lambda x: f"{round(100 * x)}%"
     nfloor = len(base["floor"]["F"])
@@ -198,20 +197,21 @@ def main():
     dropped = ", ".join(f"{k} ({labels[k]}; missing from {pc(m)} of passing versions)" for v, k, m in lack)
     A(f"**Bottom line ({PLANNING_SEATS} seats, the middle of D1's 52-54; {HOUSE_D} House seats).** Under graduated cloture (F, decided) the rules change is adopted in {pc(base['reform']['F'])} of simulated Congresses. "
       f"Some version of each reconciliation bill passes the Senate in {pc(r53['R1']['senate'])} (R1), {pc(r53['R2']['senate'])} (R2) and {pc(r53['R3']['senate'])} (R3) of them, but as written only {pc(r53['R1']['intact'])}, {pc(r53['R2']['intact'])} and {pc(r53['R3']['intact'])}: the rest pass after provisions are dropped. The provisions most often dropped are {dropped}. "
-      f"Of {nfloor} regular-order bills, about {expected(base, 'F'):.1f} are enacted on average under F once the calendar is counted, against {expected(base, 'G'):.1f} under the carve-out fallback (G) and {expected(base, 'none'):.1f} with no rules change.\n")
+      f"Of {nfloor} regular-order bills, about {expected(base, 'F'):.1f} are enacted on average under F conditional on reaching the floor (the legacy calendar filter is not applied), against {expected(base, 'G'):.1f} under the carve-out fallback (G) and {expected(base, 'none'):.1f} with no rules change.\n")
+    A("**Integrated calendar:** scenario demand, capacity, dated completion and delivery opportunity are reported separately in index/calendar-scenarios.md and index/calendar-delivery-opportunities.md. The legacy 163-day allocation is a historical diagnostic only and does not zero out the default vote estimates. No scenario probability weights or independence assumption are used to combine these models.\n")
     A("## By rules path\n")
     A("**CAP-7S routing assumption (Oct 21):** the full multi-year surge targets R1, immediately available on enactment. Vote results assume reconciliation eligibility, not a Byrd/jurisdiction certification, including SSA scope. FY2029 cash costing is separate.\n")
     A(f"{PLANNING_SEATS} seats. Packages need a simple majority whatever the path; the path decides cloture for regular-order bills and the appropriations omnibus.\n")
-    A("| Path | Rules change adopted | Regular-order bills enacted (of %d), with the calendar | Without the calendar limit | Appropriations omnibus enacted |\n| --- | --- | --- | --- | --- |" % nfloor)
+    A("| Path | Rules change adopted | Regular-order bills enacted (of %d), conditional on floor access | Legacy calendar-filtered diagnostic | Appropriations omnibus enacted |\n| --- | --- | --- | --- | --- |" % nfloor)
     for p in PATHS:
-        A(f"| {PATH_NAMES[p]} | {pc(base['reform'][p]) if PATHS[p][0] else '—'} | {expected(base, p):.1f} | {sum(floor_enact(base, p, b, False) for b in base['floor'][p]):.1f} | {pc(base['omnibus'][p]['enact'])} |")
+        A(f"| {PATH_NAMES[p]} | {pc(base['reform'][p]) if PATHS[p][0] else '—'} | {expected(base, p):.1f} | {sum(floor_enact(base, p, b, True) for b in base['floor'][p]):.1f} | {pc(base['omnibus'][p]['enact'])} |")
     A("\n## Reconciliation packages\n")
     A("A package needs 50 senators plus the Vice President and gets no Republican votes. As written: no provision draws an objection that costs the majority. Some version: leadership drops the provisions holdouts object to until a majority holds (see the provisions table below for what survives).\n")
     A("| Package | Provisions | Passes the Senate as written | Some version passes the Senate | House | Some version enacted |\n| --- | --- | --- | --- | --- | --- |")
     for v, d in r53.items():
         A(f"| {v} | {len(d['members'])} | {pc(d['intact'])} | {pc(d['senate'])} | {pc(d['house'])} | {pc(d['enact'])} |")
     A("\n## Must-pass items (D1)\n")
-    A("| Item | Vehicle | F (decided) | C | G (fallback) | No rules change | Gets floor time under F |\n| --- | --- | --- | --- | --- | --- | --- |")
+    A("| Item | Vehicle | F (decided) | C | G (fallback) | No rules change | Legacy capacity fit under F |\n| --- | --- | --- | --- | --- | --- | --- |")
     veh = {b["id"]: b["vehicle"] for b in bills}
     for b in MUST_PASS:
         if veh[b] == "FLOOR":
@@ -229,8 +229,8 @@ def main():
     A("| Holdouts | F adopted | C adopted | G adopted |\n| --- | --- | --- | --- |")
     for h in sorted(hold): A(f"| {h} | {pc(hold[h]['F'])} | {pc(hold[h]['C'])} | {pc(hold[h]['G'])} |")
     A("\n## Every regular-order bill\n")
-    A(f"{PLANNING_SEATS} seats. Senate and House columns are for F; \"Floor time\" says whether the bill fits the 163-day calendar in capacity allocation with protected DEM/SS reservations (no: unresolved capacity, not approved deferral).\n")
-    A("| Bill | Senate (F) | House | Enacted (F) | Floor time (F) | Enacted (G) | Basis |\n| --- | --- | --- | --- | --- | --- | --- |")
+    A(f"{PLANNING_SEATS} seats. Senate and House columns are for F; \"Floor time\" says whether the bill fits the legacy 163-day allocation with protected DEM/SS reservations (no: unresolved capacity, not approved deferral).\n")
+    A("| Bill | Senate (F) | House | Conditional enactment (F) | Legacy capacity fit (F) | Enacted (G) | Basis |\n| --- | --- | --- | --- | --- | --- | --- |")
     basis = {b["id"]: b["basis"] for b in bills}
     for b, d in sorted(base["floor"]["F"].items(), key=lambda kv: -kv[1]["enact"]):
         A(f"| {b}: {labels[b]} | {pc(d['senate'])} | {pc(d['house'])} | {pc(floor_enact(base, 'F', b))} | {'Yes' if fits['F'].get(b, True) else 'No'} | {pc(floor_enact(base, 'G', b))} | {basis[b]} |")

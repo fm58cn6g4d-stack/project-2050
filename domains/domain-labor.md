@@ -272,3 +272,5 @@ LAB-5, LAB-8 and LAB-9 (on its R2 fallback) ride R2 and survive at 51. Everythin
 - sources/climate-thriving-economy-agenda-map.md: heat standard, energy apprenticeships
 - index/2029-trifecta-master-ledger.md: E7, E8, C23
 - frameworks/scenario-stress-test-talarico-2029-2037.md: LAB-8B, LAB-9D, AI-4E, AI-4F; domains/domain-ai.md for the cross-listed AI rows
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

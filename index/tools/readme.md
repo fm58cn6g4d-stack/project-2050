@@ -27,3 +27,7 @@ The steps, in the order run-all.sh runs them:
 **Roadmap.** `roadmap.md` lists what the tools answer now and what comes next.
 
 Current figures are not kept here: they are in the generated files, and index/check-report.md lists any document still quoting an older one.
+
+## Scenario calendar integration
+
+`index/calendar-scenarios.md` and `index/calendar-scenario-explorer.html` are the current scenario presentation; `index/calendar-delivery-opportunities.md` keeps possible felt effects separate. Inputs: `index/data/inputs/calendar-scenarios.json` and the live bill inventory; milestone evidence: `sources/calendar-delivery-milestones.csv`; runner/tests: `index/tools/calendar/`. `run-all.sh` regenerates them and dashboard/calendar.json. The 172/163 display is legacy provenance. New numeric ranges are illustrative; vote parameters and fiscal/benefit profiles are unchanged. See `sources/calendar-model-review-and-integration.md` for review findings and limits.

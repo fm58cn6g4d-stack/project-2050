@@ -247,3 +247,5 @@ Every housing row is a benefit, with no tax that reaches the middle. HOU-4 and H
 - [Sen. Cramer, bipartisan effort to protect water infrastructure funding from earmarks](https://www.cramer.senate.gov/news/press-releases/senator-cramer-co-leads-bipartisan-effort-to-protect-water-infrastructure-funding-from-earmarks): more than $3.7B taken from the water funds for earmarks since 2021
 - index/2029-trifecta-master-ledger.md: rows HOU-1 and HOU-7 (old E6), C21 and C31
 - frameworks/scenario-stress-test-talarico-2029-2037.md and sources/scenario-talarico-2029-2037.md: HOU-9's rationale and scenario figures
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

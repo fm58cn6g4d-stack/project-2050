@@ -1,5 +1,7 @@
 [
  {
+  "status": "legacy_assumption_crosswalk",
+  "current_model": "calendar-scenarios.json",
   "path": "E (bound): majority cloture after normal debate",
   "days": 166,
   "bills": 21,
@@ -8,6 +10,8 @@
   "key": "E"
  },
  {
+  "status": "legacy_assumption_crosswalk",
+  "current_model": "calendar-scenarios.json",
   "path": "F (decided Oct 20): graduated cloture, ~4.5 session days minimum per contested bill",
   "days": 172,
   "bills": 21,
@@ -16,6 +20,8 @@
   "key": "F"
  },
  {
+  "status": "legacy_assumption_crosswalk",
+  "current_model": "calendar-scenarios.json",
   "path": "C (opening offer to holdouts): talking filibuster with a speech budget; minority picks 6 top fights at ~15 days each",
   "days": 213,
   "bills": 21,
@@ -24,6 +30,8 @@
   "key": "C"
  },
  {
+  "status": "legacy_assumption_crosswalk",
+  "current_model": "calendar-scenarios.json",
   "path": "G (written fallback): carve-out only; other contested bills need 60 and are counted as not passing",
   "days": 73,
   "bills": 3,
