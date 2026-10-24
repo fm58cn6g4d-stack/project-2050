@@ -10,6 +10,10 @@ Read with [canonical health](../domains/domain-health.md), [capacity](../domains
 
 Espen selected **1A, 2A, 3A and 4A** and authorized PR #15's merge: protect rapid R1; examine the existing Original-Medicare bridge first; pursue feasible 2029 restoration component by component; and develop reinstatement plus potential retroactive coverage/claims repair, returning lookback and costs for decision. These are development choices, not adoption of an accelerated launch, new benefit specifications or unpriced financing. See the [governing approval record](../governing/project-2050-governing-decisions.md#health-packet-review-decisions-approved-october-24).
 
+**Next review after PR #15:** [six proposed health design choices](health-design-options.md), with [reproducible checks using the existing models](health-design-model-checks.md). The selected branches and conditions now have an approved review record and a [Pass 2 specification](health-selected-design-specification.md); new operating clauses, launch and financing gates remain for review.
+
+**Latest remedy scope:** historical lookbacks support identification and streamlined restoration of current coverage, not a new general cut-period medical-claims payment program. Medical-debt relief remains a separate possible measure. This clarification supersedes broader remedy-development instructions below; see [the current specification](health-selected-design-specification.md#3-obbba-lookbacks-for-streamlined-coverage-restoration).
+
 ## Decision brief
 
 **Recommendation: do not put January-2030 hearing/vision into R1 on the present evidence. Preserve rapid R1 and the adopted 2031 fallback.** Early R1 remains a conditional route if complete benefit text, a bill-specific score/pay-for, instructions and an executable CMS plan already exist before text freeze. It must not become a reason to delay February-preferred/March-latest R1. The earlier report's conditional preference for R1 is qualified by an existing payment route for MA enrollees; early authority is valuable preparation time, not a demonstrated legal prerequisite for 2030 access.
