@@ -1,0 +1,948 @@
+{
+  "checked_at": "2026-10-24",
+  "repository": "fm58cn6g4d-stack/project-2050",
+  "policy_base": {
+    "branch": "claude/pensive-mendel-g1lwl5",
+    "commit": "14feb987a7d8aec416ba5bacc50880187a756383"
+  },
+  "branch_audit": [
+    {
+      "branch": "claude/funny-brahmagupta-nd8vhl",
+      "head": "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+      "count": 4,
+      "commits": [
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "claude/pensive-mendel-g1lwl5",
+      "head": "14feb987a7d8aec416ba5bacc50880187a756383",
+      "count": 41,
+      "commits": [
+        "14feb987a7d8aec416ba5bacc50880187a756383",
+        "351ed25906f1be1f24480b0188789003a165ed8a",
+        "8d6bb7f6c32bc79628e7e0a3badffc150ff61a19",
+        "d44f2d027258011e2f70d6232bfce65e713f827f",
+        "f159cdf01a8f3352478eaa74cf08c501376af06e",
+        "69173d3c50273b2c9ab1b396cf86c1249ee3dc93",
+        "214a7acc1144d86b547c1bc39d8f99c75533dc32",
+        "99a602e8be3c8a8a31df57c503ec35db0fa7c3c0",
+        "fe0ab86d241c293eabff259911c2987ae5f737ea",
+        "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+        "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+        "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "claude/sharp-curie-2w569d",
+      "head": "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+      "count": 2,
+      "commits": [
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "codex/calendar-scenario-integration",
+      "head": "69173d3c50273b2c9ab1b396cf86c1249ee3dc93",
+      "count": 36,
+      "commits": [
+        "69173d3c50273b2c9ab1b396cf86c1249ee3dc93",
+        "214a7acc1144d86b547c1bc39d8f99c75533dc32",
+        "99a602e8be3c8a8a31df57c503ec35db0fa7c3c0",
+        "fe0ab86d241c293eabff259911c2987ae5f737ea",
+        "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+        "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+        "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "codex/child-poverty-microsim-v1",
+      "head": "8a8f4b80681a00faea9119b1abd6b5b9b91b7266",
+      "count": 44,
+      "commits": [
+        "8a8f4b80681a00faea9119b1abd6b5b9b91b7266",
+        "f0253e7df42cc5cbbd6bb72fc4504a4a22936fb3",
+        "0d9c0d6aff2546e21135020458c5bce8deeca90b",
+        "14feb987a7d8aec416ba5bacc50880187a756383",
+        "351ed25906f1be1f24480b0188789003a165ed8a",
+        "8d6bb7f6c32bc79628e7e0a3badffc150ff61a19",
+        "d44f2d027258011e2f70d6232bfce65e713f827f",
+        "f159cdf01a8f3352478eaa74cf08c501376af06e",
+        "69173d3c50273b2c9ab1b396cf86c1249ee3dc93",
+        "214a7acc1144d86b547c1bc39d8f99c75533dc32",
+        "99a602e8be3c8a8a31df57c503ec35db0fa7c3c0",
+        "fe0ab86d241c293eabff259911c2987ae5f737ea",
+        "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+        "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+        "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "codex/cms-capacity-and-surge-timing",
+      "head": "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+      "count": 31,
+      "commits": [
+        "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+        "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "codex/cms-cost-boundaries",
+      "head": "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+      "count": 32,
+      "commits": [
+        "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+        "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+        "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "codex/health-acceleration-integration",
+      "head": "351ed25906f1be1f24480b0188789003a165ed8a",
+      "count": 40,
+      "commits": [
+        "351ed25906f1be1f24480b0188789003a165ed8a",
+        "8d6bb7f6c32bc79628e7e0a3badffc150ff61a19",
+        "d44f2d027258011e2f70d6232bfce65e713f827f",
+        "f159cdf01a8f3352478eaa74cf08c501376af06e",
+        "69173d3c50273b2c9ab1b396cf86c1249ee3dc93",
+        "214a7acc1144d86b547c1bc39d8f99c75533dc32",
+        "99a602e8be3c8a8a31df57c503ec35db0fa7c3c0",
+        "fe0ab86d241c293eabff259911c2987ae5f737ea",
+        "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+        "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+        "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "codex/opening-delivery-evidence",
+      "head": "d44f2d027258011e2f70d6232bfce65e713f827f",
+      "count": 38,
+      "commits": [
+        "d44f2d027258011e2f70d6232bfce65e713f827f",
+        "f159cdf01a8f3352478eaa74cf08c501376af06e",
+        "69173d3c50273b2c9ab1b396cf86c1249ee3dc93",
+        "214a7acc1144d86b547c1bc39d8f99c75533dc32",
+        "99a602e8be3c8a8a31df57c503ec35db0fa7c3c0",
+        "fe0ab86d241c293eabff259911c2987ae5f737ea",
+        "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+        "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+        "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "codex/post-pilot-approved-directions",
+      "head": "99a602e8be3c8a8a31df57c503ec35db0fa7c3c0",
+      "count": 34,
+      "commits": [
+        "99a602e8be3c8a8a31df57c503ec35db0fa7c3c0",
+        "fe0ab86d241c293eabff259911c2987ae5f737ea",
+        "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+        "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+        "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "codex/shared-project-authority",
+      "head": "5587b1b75e6b664d687d3e83855bf6f6edbe5f8d",
+      "count": 36,
+      "commits": [
+        "5587b1b75e6b664d687d3e83855bf6f6edbe5f8d",
+        "6d81a2a79a9201f89f5ae052ff889148e140159d",
+        "ae14d9a01f6236c139e4b089afd1052e40299568",
+        "bb5b45ba00ffb47bd64b4d41befa5c571882b48e",
+        "ab40f1d239e09fdb99d595dfdd2a11cdfe671ee2",
+        "17e931d88b54f40f5adc3854160795c7488212de",
+        "fedd822a4d87d31d7707f52995d868d6ebadf010",
+        "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+        "a3a85505e238e4892accd510cc136dea4a433083",
+        "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+        "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+        "56e2ee71169869ef2106072026208dd6e83638ee",
+        "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+        "6f800457b726797678457ea71c878b7127ef8e1b",
+        "ac7624c308e7ee1e56a885a3630091efe03c500d",
+        "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+        "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+        "c11f3747769f6531c0bb7529b67bee7294c4497e",
+        "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+        "596508de24051e08c8892adbc6be62c473e661eb",
+        "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+        "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+        "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+        "b3cd6827bb517864820b719873d427905c77cb77",
+        "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+        "03c37655f5c3eb3adbd81997507d953d6922dc91",
+        "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+        "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+        "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+        "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+        "37b6321c1d56017ee949c65ff79478a7429157b2",
+        "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+        "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+        "473fecee4eaf10105674dddfcc83106ad8d7d527",
+        "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    },
+    {
+      "branch": "main",
+      "head": "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14",
+      "count": 1,
+      "commits": [
+        "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14"
+      ]
+    }
+  ],
+  "reachable_commit_trees": [
+    {
+      "commit": "2dbfeba636bca5be2e23aca2203ee58a1e37d9e5",
+      "message": "Record Espen's confirmation of the D4-B baseline reading and CAP-7 sizing",
+      "truncated": false,
+      "blob_count": 76,
+      "relevant_files": []
+    },
+    {
+      "commit": "473fecee4eaf10105674dddfcc83106ad8d7d527",
+      "message": "Record Decision Brief 2 decisions: D4-B, no trims, TS12/HP1/HP3, CAP-7 surge",
+      "truncated": false,
+      "blob_count": 76,
+      "relevant_files": []
+    },
+    {
+      "commit": "04c8fa55043d807f469b63cb2c45a2c5ef98928c",
+      "message": "Add Decision Brief 2: trims, scope and the D4 fiscal-rule choice",
+      "truncated": false,
+      "blob_count": 76,
+      "relevant_files": []
+    },
+    {
+      "commit": "9dbfaa0139d6b0981a12dcbc5307481cbaa86c14",
+      "message": "Import Project 2050 from the claude.ai Project (Oct 20, 2026)",
+      "truncated": false,
+      "blob_count": 75,
+      "relevant_files": []
+    },
+    {
+      "commit": "14feb987a7d8aec416ba5bacc50880187a756383",
+      "message": "Integrate approved health acceleration development",
+      "truncated": false,
+      "blob_count": 194,
+      "relevant_files": [
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "0a35f80d55a56a303e075f007785bbbdfc1ddb53",
+          "size": 12020
+        }
+      ]
+    },
+    {
+      "commit": "351ed25906f1be1f24480b0188789003a165ed8a",
+      "message": "Integrate approved health acceleration development across project",
+      "truncated": false,
+      "blob_count": 194,
+      "relevant_files": [
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "0a35f80d55a56a303e075f007785bbbdfc1ddb53",
+          "size": 12020
+        }
+      ]
+    },
+    {
+      "commit": "8d6bb7f6c32bc79628e7e0a3badffc150ff61a19",
+      "message": "Integrate focused opening and delivery evidence packets",
+      "truncated": false,
+      "blob_count": 194,
+      "relevant_files": [
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "c8293bc197843eb919fd9e5d6aa5192533428563",
+          "size": 11272
+        }
+      ]
+    },
+    {
+      "commit": "d44f2d027258011e2f70d6232bfce65e713f827f",
+      "message": "Add opening, delivery and health acceleration evidence packets",
+      "truncated": false,
+      "blob_count": 194,
+      "relevant_files": [
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "c8293bc197843eb919fd9e5d6aa5192533428563",
+          "size": 11272
+        }
+      ]
+    },
+    {
+      "commit": "f159cdf01a8f3352478eaa74cf08c501376af06e",
+      "message": "Integrate reviewed scenario calendar and delivery-opportunity screen",
+      "truncated": false,
+      "blob_count": 188,
+      "relevant_files": [
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "00777d737a7747934020424ca982fed4a1c13947",
+          "size": 10661
+        }
+      ]
+    },
+    {
+      "commit": "69173d3c50273b2c9ab1b396cf86c1249ee3dc93",
+      "message": "Integrate scenario calendar and separate delivery opportunities from passage",
+      "truncated": false,
+      "blob_count": 188,
+      "relevant_files": [
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "00777d737a7747934020424ca982fed4a1c13947",
+          "size": 10661
+        }
+      ]
+    },
+    {
+      "commit": "214a7acc1144d86b547c1bc39d8f99c75533dc32",
+      "message": "Integrate approved post-pilot decisions and March DEM floor deadline",
+      "truncated": false,
+      "blob_count": 176,
+      "relevant_files": [
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "efe865d7613168c1fa3623df2a7367c483ca8859",
+          "size": 9964
+        }
+      ]
+    },
+    {
+      "commit": "99a602e8be3c8a8a31df57c503ec35db0fa7c3c0",
+      "message": "Require March DEM floor start and synchronize approved calendar planning",
+      "truncated": false,
+      "blob_count": 176,
+      "relevant_files": [
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "efe865d7613168c1fa3623df2a7367c483ca8859",
+          "size": 9964
+        }
+      ]
+    },
+    {
+      "commit": "fe0ab86d241c293eabff259911c2987ae5f737ea",
+      "message": "Prepare approved post-pilot directions and bounded development packets",
+      "truncated": false,
+      "blob_count": 173,
+      "relevant_files": [
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "591a042d48e6dc57fd85b3ec4c5f2132975c7945",
+          "size": 9555
+        }
+      ]
+    },
+    {
+      "commit": "e15c5c4a711b4cd2b482bac8300de45f2e08721f",
+      "message": "Merge pull request #3 from fm58cn6g4d-stack/codex/cms-capacity-and-surge-timing",
+      "truncated": false,
+      "blob_count": 168,
+      "relevant_files": []
+    },
+    {
+      "commit": "0dc5dea7eb6a48b367150b4bbd3541c9dd3fa07b",
+      "message": "Advance surge availability to R1 and add CMS implementation framework",
+      "truncated": false,
+      "blob_count": 168,
+      "relevant_files": []
+    },
+    {
+      "commit": "3797741b409d3a986b2c2bba0ed81388af8f2b5b",
+      "message": "Make GitHub authoritative and share AI working instructions",
+      "truncated": false,
+      "blob_count": 162,
+      "relevant_files": []
+    },
+    {
+      "commit": "06ebb3e7f08c3150e38863e5fdbb957537f90202",
+      "message": "Label Package B's revenue rows plainly as accepted (Decision Brief 1)",
+      "truncated": false,
+      "blob_count": 159,
+      "relevant_files": []
+    },
+    {
+      "commit": "a3a85505e238e4892accd510cc136dea4a433083",
+      "message": "Adopt REV-SC1 (C43) to close the 2040 shortfall; D4-B passes narrowly",
+      "truncated": false,
+      "blob_count": 159,
+      "relevant_files": []
+    },
+    {
+      "commit": "89dfd868d5ed2f0fd6afe1f7b156e8cb4ac7bd79",
+      "message": "Add a long-range plan for 2030-2050: horizons, 2050 benchmarks, ten workstreams, tools and sequence",
+      "truncated": false,
+      "blob_count": 159,
+      "relevant_files": []
+    },
+    {
+      "commit": "e1e3f1383681a6bab824e856aa86e08c6f4ecc40",
+      "message": "Methane fee: add the IRA's compliance exemption, made facility by facility",
+      "truncated": false,
+      "blob_count": 158,
+      "relevant_files": []
+    },
+    {
+      "commit": "56e2ee71169869ef2106072026208dd6e83638ee",
+      "message": "Carbon ledger decisions: REV-C1 up, REV-C2 cut, IRA methane charge reinstated, excise offset booked",
+      "truncated": false,
+      "blob_count": 158,
+      "relevant_files": []
+    },
+    {
+      "commit": "41e786723b6749319ef15cbcfbf7881d35a4dbcf",
+      "message": "Make the Climate Dividend equal per adult (CLI-2A), with children covered by FAM-1",
+      "truncated": false,
+      "blob_count": 158,
+      "relevant_files": []
+    },
+    {
+      "commit": "6f800457b726797678457ea71c878b7127ef8e1b",
+      "message": "Carbon model: pay the dividend equally per person, as CLI-2A specifies",
+      "truncated": false,
+      "blob_count": 158,
+      "relevant_files": []
+    },
+    {
+      "commit": "ac7624c308e7ee1e56a885a3630091efe03c500d",
+      "message": "Fold the rest of the climate package into the carbon model",
+      "truncated": false,
+      "blob_count": 158,
+      "relevant_files": []
+    },
+    {
+      "commit": "1fd6a6c75299db22b773e11a1bc5173cdab2d166",
+      "message": "Bring in Espen's structural carbon model and run it on D7",
+      "truncated": false,
+      "blob_count": 158,
+      "relevant_files": []
+    },
+    {
+      "commit": "4a1331b962ed4a76ff244f89a7109a34c5589f1b",
+      "message": "Carry the Social Security rescore through: ledger trust-fund rows, governing doc, headlines",
+      "truncated": false,
+      "blob_count": 146,
+      "relevant_files": []
+    },
+    {
+      "commit": "c11f3747769f6531c0bb7529b67bee7294c4497e",
+      "message": "Score Social Security's D8 provisions on their face using SSA's 2026 single-year tables",
+      "truncated": false,
+      "blob_count": 146,
+      "relevant_files": []
+    },
+    {
+      "commit": "7f56cb6f307b427ef07bbaef7f09d16d06d36165",
+      "message": "Add the dedicated-fund engine: Social Security and HI over 75 years, paid leave, highway accounts, carbon dividend, EDU-9B",
+      "truncated": false,
+      "blob_count": 144,
+      "relevant_files": []
+    },
+    {
+      "commit": "596508de24051e08c8892adbc6be62c473e661eb",
+      "message": "Add the vote simulator: the war game's model on the ledger's bills and vehicles",
+      "truncated": false,
+      "blob_count": 137,
+      "relevant_files": []
+    },
+    {
+      "commit": "c0363b627b0c2e53d4357a1386e779cbe950c8bb",
+      "message": "Generate the dashboard's data, refresh the live dashboard, add a tools roadmap",
+      "truncated": false,
+      "blob_count": 133,
+      "relevant_files": []
+    },
+    {
+      "commit": "15f28580381c0b54bf8faa368fc51156c23a8ebf",
+      "message": "Apply Espen's Oct 20 calls: R2 revenue, LAB-9D floor time, Section 1208, DY9",
+      "truncated": false,
+      "blob_count": 128,
+      "relevant_files": []
+    },
+    {
+      "commit": "855f49dc0653b8be289d194a13bc1e19fe1c3513",
+      "message": "Bring the options register, revenue audit, staging inventory and frameworks current",
+      "truncated": false,
+      "blob_count": 128,
+      "relevant_files": []
+    },
+    {
+      "commit": "b3cd6827bb517864820b719873d427905c77cb77",
+      "message": "Write the merged governing doc back to the live doc and sync the repo copy",
+      "truncated": false,
+      "blob_count": 128,
+      "relevant_files": []
+    },
+    {
+      "commit": "6fdb8f3af745b0b81632dced2ecd57c555b2fbca",
+      "message": "Make the working files state current decisions and figures",
+      "truncated": false,
+      "blob_count": 128,
+      "relevant_files": []
+    },
+    {
+      "commit": "03c37655f5c3eb3adbd81997507d953d6922dc91",
+      "message": "Add a consistency check and window rescaler; fix run-all's write step",
+      "truncated": false,
+      "blob_count": 128,
+      "relevant_files": []
+    },
+    {
+      "commit": "9cb1e360e19729bbb5e431aa71aa7ef89d74b4c7",
+      "message": "Take incidence MR and MRc from the ledger; compute the incidence doc's header",
+      "truncated": false,
+      "blob_count": 125,
+      "relevant_files": []
+    },
+    {
+      "commit": "ae9c50ea080c8bf8b24cb23ef37e9589dcb84752",
+      "message": "Move the ledger, incidence and fiscal input tables into index/data/inputs",
+      "truncated": false,
+      "blob_count": 125,
+      "relevant_files": []
+    },
+    {
+      "commit": "20c3487b9b8703cd04b21a4664310eaa28e74ec6",
+      "message": "Restate A-7's equal-coverage solve to 50.0/38.2/11.8 (Espen, Oct 20)",
+      "truncated": false,
+      "blob_count": 113,
+      "relevant_files": []
+    },
+    {
+      "commit": "7b84127dec0bcf9451dc2a5a6e5414a678970532",
+      "message": "Fold the Moving America overlays into one model and run it from run-all",
+      "truncated": false,
+      "blob_count": 112,
+      "relevant_files": []
+    },
+    {
+      "commit": "37b6321c1d56017ee949c65ff79478a7429157b2",
+      "message": "Merge remote-tracking branch 'origin/claude/sharp-curie-2w569d' into claude/pensive-mendel-g1lwl5",
+      "truncated": false,
+      "blob_count": 108,
+      "relevant_files": []
+    },
+    {
+      "commit": "67378d7c1f34babe7c1a0c2936d98ceb34c35645",
+      "message": "File the Surface Transportation project's model scripts and source docs",
+      "truncated": false,
+      "blob_count": 107,
+      "relevant_files": []
+    },
+    {
+      "commit": "8a8f4b80681a00faea9119b1abd6b5b9b91b7266",
+      "message": "Document input contracts, statutory assumptions, and validation gates for child SPM model",
+      "truncated": false,
+      "blob_count": 196,
+      "relevant_files": [
+        {
+          "path": "index/tools/child-poverty/README.md",
+          "sha": "491987f81c7d03daca2130217e5704eb2cd1ea5f",
+          "size": 7788
+        },
+        {
+          "path": "index/tools/child-poverty/model.py",
+          "sha": "30372ab061e4570a513c63a7bf5d6ff635b51390",
+          "size": 16314
+        },
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "0a35f80d55a56a303e075f007785bbbdfc1ddb53",
+          "size": 12020
+        }
+      ]
+    },
+    {
+      "commit": "f0253e7df42cc5cbbd6bb72fc4504a4a22936fb3",
+      "message": "Cover pre-K access and distinguish unavailable care slots from failed receipt",
+      "truncated": false,
+      "blob_count": 195,
+      "relevant_files": [
+        {
+          "path": "index/tools/child-poverty/model.py",
+          "sha": "30372ab061e4570a513c63a7bf5d6ff635b51390",
+          "size": 16314
+        },
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "0a35f80d55a56a303e075f007785bbbdfc1ddb53",
+          "size": 12020
+        }
+      ]
+    },
+    {
+      "commit": "0d9c0d6aff2546e21135020458c5bce8deeca90b",
+      "message": "Add first-pass child SPM microsimulation engine with explicit receipt and eligibility branches",
+      "truncated": false,
+      "blob_count": 195,
+      "relevant_files": [
+        {
+          "path": "index/tools/child-poverty/model.py",
+          "sha": "59a5a1a285a666a8c6b04be9b40a5cef9cb6115e",
+          "size": 16137
+        },
+        {
+          "path": "sources/family-child-poverty-model-brief.md",
+          "sha": "2479aaddad468e9a48ccfa7466af59c1ae69eb4f",
+          "size": 5454
+        },
+        {
+          "path": "sources/project-2050-research-register.md",
+          "sha": "0a35f80d55a56a303e075f007785bbbdfc1ddb53",
+          "size": 12020
+        }
+      ]
+    },
+    {
+      "commit": "5587b1b75e6b664d687d3e83855bf6f6edbe5f8d",
+      "message": "Record model guidance preferences and temporary Claude availability",
+      "truncated": false,
+      "blob_count": 162,
+      "relevant_files": []
+    },
+    {
+      "commit": "6d81a2a79a9201f89f5ae052ff889148e140159d",
+      "message": "Point README.md to shared project instructions",
+      "truncated": false,
+      "blob_count": 162,
+      "relevant_files": []
+    },
+    {
+      "commit": "ae14d9a01f6236c139e4b089afd1052e40299568",
+      "message": "Point GEMINI.md to shared project instructions",
+      "truncated": false,
+      "blob_count": 162,
+      "relevant_files": []
+    },
+    {
+      "commit": "bb5b45ba00ffb47bd64b4d41befa5c571882b48e",
+      "message": "Point CLAUDE.md to shared project instructions",
+      "truncated": false,
+      "blob_count": 161,
+      "relevant_files": []
+    },
+    {
+      "commit": "ab40f1d239e09fdb99d595dfdd2a11cdfe671ee2",
+      "message": "Point AGENTS.md to shared project instructions",
+      "truncated": false,
+      "blob_count": 161,
+      "relevant_files": []
+    },
+    {
+      "commit": "17e931d88b54f40f5adc3854160795c7488212de",
+      "message": "Share project working instructions across assistants",
+      "truncated": false,
+      "blob_count": 160,
+      "relevant_files": []
+    },
+    {
+      "commit": "fedd822a4d87d31d7707f52995d868d6ebadf010",
+      "message": "Make GitHub the authority for governing decisions",
+      "truncated": false,
+      "blob_count": 159,
+      "relevant_files": []
+    }
+  ],
+  "limitations": [
+    "Only reachable/accessible refs; no claim about dangling garbage-collected objects",
+    "Repository-wide Actions artifact listing unsupported; three prototype commits returned no PR-triggered runs"
+  ],
+  "recovered_model": {
+    "git_blob": "30372ab061e4570a513c63a7bf5d6ff635b51390",
+    "sha256": "702c8e45badb933eb59851718a57dfaed7f0164e09a0961c7bdc1b9d88334bb9"
+  },
+  "new_model_status": "Implemented locally; transfer of tested bytes pending disconnected environment"
+}
