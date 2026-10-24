@@ -15,7 +15,7 @@ def package(destination):
         if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc":
             files[path.relative_to(ROOT).as_posix()] = path.read_bytes()
     for path in sorted((ROOT/"sources").glob("family-child-poverty-*")):
-        if path.is_file() and any(s in path.name for s in ("rebuild", "minimum-microsimulation", "recovery", "comparator", "cps-baseline")):
+        if path.is_file() and any(s in path.name for s in ("rebuild", "minimum-microsimulation", "recovery", "comparator", "cps-baseline", "target-year")):
             files[path.relative_to(ROOT).as_posix()] = path.read_bytes()
     files["README.md"] = ("# Rebuilt Project 2050 child-poverty research package\n\n"
         "Reconstructed implementation, not the missing historical ZIP. Observed CPS baseline included; no national Project policy estimate.\n\n"

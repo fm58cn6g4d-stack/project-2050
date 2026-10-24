@@ -14,11 +14,11 @@
     "synthetic-2030.json": "00f4471f1559aeffb0d875ce4481c9f8b342258fc9eeedfb9d1f920a1847be5d",
     "synthetic-2034.json": "6cbfa728e3f8724b07c6f9bd4e3e884670f1a6be52ad3f186afad1b2c4face74",
     "synthetic-scenarios.csv": "db7e659435f8b68f2bda0fc5fc111de3ea6399c64d49f67420d91ca7010b325b",
-    "test-results.txt": "ac6f7d77e84b5388c5527684356877ca63342beaa1ec22db881850110c966b6d"
+    "test-results.txt": "b1577fe1095342e677891111f6e48577b4d109d080e2992dac8c9057e4cbd232"
   },
   "legacy_regression": "passed",
-  "national_calibration": "NOT_RUN_NO_CPS_DATA",
+  "national_calibration": "Not run by synthetic suite; see separate empirical source-year audit in empirical/cps-2026-baseline.json",
   "python": "3.12.14",
   "scenarios_generated": 24,
-  "tests_run": 62
+  "tests_run": 83
 }

@@ -1,0 +1,13 @@
+date,variable,value,estimate_type
+2025,chained_cpiu,178.522,projected
+2030,chained_cpiu,198.775,projected
+2034,chained_cpiu,214.912,projected
+2025,cpiu,322.378,projected
+2030,cpiu,364.328,projected
+2034,cpiu,398.355,projected
+2025,cpiu_medical_price_index,581.279,projected
+2030,cpiu_medical_price_index,676.782,projected
+2034,cpiu_medical_price_index,764.927,projected
+2025,eci_wages_salaries,174.142,projected
+2030,eci_wages_salaries,203.677,projected
+2034,eci_wages_salaries,228.773,projected
