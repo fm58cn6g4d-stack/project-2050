@@ -1,0 +1,177 @@
+{
+  "source_commit": "846be172efdc0c383d5d8c24194de3704a1cbaa1",
+  "status": "Research calculations; unit sensitivities, not health cost estimates",
+  "unit": "billions of nominal dollars unless specified",
+  "unit_unfinanced_2030_cost_debt": {
+    "2030": 1.019392,
+    "2039": 1.444876727384184,
+    "2040": 1.5037554540250895,
+    "2056": 2.881627616156992
+  },
+  "unit_setup_shift_2030_to_2029_debt": {
+    "2029": 1.019374,
+    "2030": 0.039517401216,
+    "2039": 0.056011596465051536,
+    "2040": 0.058294069021002384,
+    "2056": 0.11170818945291057
+  },
+  "maturity_headroom_2040_bn": 3.2969570321332213,
+  "maturity_binding_year": 2040,
+  "maturity_headroom_basis": "Unfinanced recurring GF cost starting 2040, growing with GDP; conditional on old surge proxy; not available financing",
+  "calendar": [
+    {
+      "condition": "favorable",
+      "vehicle": "R1",
+      "completion": "2029-01-30",
+      "days_until_2030": 336,
+      "r1_latest": true,
+      "dem_start": true
+    },
+    {
+      "condition": "favorable",
+      "vehicle": "R2",
+      "completion": "2029-06-26",
+      "days_until_2030": 189,
+      "r1_latest": true,
+      "dem_start": true
+    },
+    {
+      "condition": "central",
+      "vehicle": "R1",
+      "completion": "2029-02-20",
+      "days_until_2030": 315,
+      "r1_latest": true,
+      "dem_start": true
+    },
+    {
+      "condition": "central",
+      "vehicle": "R2",
+      "completion": "2029-10-08",
+      "days_until_2030": 85,
+      "r1_latest": true,
+      "dem_start": true
+    },
+    {
+      "condition": "difficult",
+      "vehicle": "R1",
+      "completion": "2029-06-21",
+      "days_until_2030": 194,
+      "r1_latest": false,
+      "dem_start": true
+    },
+    {
+      "condition": "difficult",
+      "vehicle": "R2",
+      "completion": null,
+      "days_until_2030": null,
+      "r1_latest": false,
+      "dem_start": true
+    }
+  ],
+  "surge": {
+    "id": "CAP-7S",
+    "availability_fy": 2029,
+    "target_vehicle": "R1",
+    "available_bn": 600.0,
+    "fy2029_outlay_bn": null,
+    "cash_profile_status": "interim_proxy",
+    "fiscal_validation": "incomplete_for_acceleration",
+    "byrd_status": "pending",
+    "proxy_cash_bn": {
+      "2030": 70.0,
+      "2031": 120.0,
+      "2032": 130.0,
+      "2033": 120.0,
+      "2034": 100.0,
+      "2035": 60.0,
+      "2036": 0.0,
+      "2037": 0.0,
+      "2038": 0.0,
+      "2039": 0.0
+    }
+  },
+  "packages": [
+    {
+      "id": "CMS-IMP-01",
+      "net_increment_bn": null,
+      "fy2029_cash_bn": null
+    },
+    {
+      "id": "CMS-IMP-02",
+      "net_increment_bn": null,
+      "fy2029_cash_bn": null
+    },
+    {
+      "id": "CMS-IMP-03",
+      "net_increment_bn": null,
+      "fy2029_cash_bn": null
+    },
+    {
+      "id": "CMS-IMP-04",
+      "net_increment_bn": null,
+      "fy2029_cash_bn": null
+    },
+    {
+      "id": "CMS-IMP-08",
+      "net_increment_bn": null,
+      "fy2029_cash_bn": null
+    },
+    {
+      "id": "CMS-IMP-11",
+      "net_increment_bn": null,
+      "fy2029_cash_bn": null
+    },
+    {
+      "id": "CMS-IMP-13",
+      "net_increment_bn": null,
+      "fy2029_cash_bn": null
+    }
+  ],
+  "payment_cases": [
+    {
+      "case": "new_MA_item_no_existing_promise",
+      "payer": "Original Medicare if qualifying bridge",
+      "amount": null
+    },
+    {
+      "case": "existing_diagnostic_service",
+      "payer": "MA plan",
+      "amount": null
+    },
+    {
+      "case": "existing_supplemental_item",
+      "payer": "MA plan to contractual extent",
+      "amount": null
+    },
+    {
+      "case": "partial_or_exhausted_allowance",
+      "payer": "Unresolved item/quantity/liability map",
+      "amount": null
+    },
+    {
+      "case": "nonsignificant_change",
+      "payer": "MA plan from statutory effective date",
+      "amount": null
+    },
+    {
+      "case": "first_adjusted_contract_year",
+      "payer": "MA plan; no duplicate FFS payment",
+      "amount": null
+    }
+  ],
+  "actual_benefit_cost": null,
+  "source_sha256": {
+    "index/tools/fiscal-model.py": "323f68f4c6534ae32c0f200c86358165d7e4bf6a1ba810463b8441ab9eae0b3c",
+    "index/tools/calendar/model.py": "518de1501dfd426094aa1755a1bcaaf55fad3a8a0e08447753edd3396e8618b0",
+    "index/tools/capacity-funding.py": "cfb23ff0c8f010ec4ddc8eefb9bbc8ec2330def8c143dd1a4db510e3632f33d7",
+    "index/data/fiscal-baseline.csv": "94660448f9e78071a3647351e2467dc28abd2aea9c8923284a82593403b704e7",
+    "index/data/inputs/ledger-bills.csv": "102859ca5b43e6dc03641e046560e6250223fa5ce70f04795df1156f08ace97c",
+    "index/data/inputs/fiscal-profiles.csv": "70852e2bacd60667b40981f4593b546a326a21d4eb13861ebb993d235ed84636",
+    "index/data/inputs/fiscal-years.csv": "e0cd6fe6ef2ab69c199247812a200639343990933a66af98dd34db34f062016a",
+    "index/data/inputs/calendar-scenarios.json": "1ac930965547eeb079062777162627040a661429c2507007a5ff825b13c0cc39",
+    "index/data/inputs/capacity-funding.csv": "fd6414009b749a7baa094aebe9a8281a7ea7659fa0bc9bcc9f12346b6d465bbc",
+    "sources/health-cms-implementation-cost-register.csv": "5524def658d70907b997a5ba9f5c5e41c633364a5aba34682e4697ec522c821e",
+    "index/tools/health/decision_analysis.py": "68cb650d4f2c33bc1923a85a09c4c919bf8201500e66167faefb0178fe1f270b"
+  },
+  "verification": "Debt zero/linearity and cash-shift conservation; package unknowns retained; existing model checks run by common runner"
+}
