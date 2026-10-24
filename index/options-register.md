@@ -388,3 +388,8 @@ Source identities, source roles and the completed-report/preliminary-filename di
 | HLT-2 hearing/vision | January-2030 alternative approved for development | domain-health.md. Compare existing summer-R2 route with earlier preparation against possible R1 authority; protect fast R1. Keep 2031 fallback, full benefits and dental phase; no earlier vehicle/date selected. |
 
 These alternatives use existing policy IDs and are not additional cost rows. No options are summed, no new lag or score is adopted, and the combined dental/vision/hearing cost cannot price acceleration by simple division. HLT-3 remains 2031/2032. Evidence: sources/health-2029-restoration-and-2030-medicare-option.md.
+
+
+## Health delivery evidence update: October 24
+
+The existing HLT-1/4 and HLT-2 earlier-delivery development options now link to the [completed research reconciliation](../sources/health-delivery-resource-bridge.md). Compare early R1 with summer R2 using either express MA transition machinery or an assessed Original-Medicare payment bridge. These are implementation comparisons under existing option IDs, not additional cost rows or adopted alternatives. No benefit, eligibility, date, lag, fiscal input or numeric score changes; 2031 hearing/vision fallback remains. See the [decision packet](../sources/health-hearing-vision-decision-packet.md).

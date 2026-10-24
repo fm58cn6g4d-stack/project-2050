@@ -35,3 +35,7 @@ The two code-handoff notes from Oct 19 set up a chat-to-Code workflow through th
 ## Scenario calendar integration
 
 `index/calendar-scenarios.md` and `index/calendar-scenario-explorer.html` are the current scenario presentation; `index/calendar-delivery-opportunities.md` keeps possible felt effects separate. Inputs: `index/data/inputs/calendar-scenarios.json` and the live bill inventory; milestone evidence: `sources/calendar-delivery-milestones.csv`; runner/tests: `index/tools/calendar/`. `run-all.sh` regenerates them and dashboard/calendar.json. The 172/163 display is legacy provenance. New numeric ranges are illustrative; vote parameters and fiscal/benefit profiles are unchanged. See `sources/calendar-model-review-and-integration.md` for review findings and limits.
+
+## Child-poverty research tool: October 24 review package
+
+index/tools/child-poverty contains the reconstructed focused SPM engine, CSV/ZIP constructor, baseline calibration comparator, audited projection adapter, synthetic fixtures, 62-test suite, diagnostic runner and packaging script. It runs independently of run-all.sh and does not replace quintile incidence or change fiscal inputs. It has no calibrated national Project 2050 result. Next: exact CPS public-use source-year baseline and 160 replicate weights, reviewed tax/ID rules, target-year population/current-law baselines, calibrated delivery and a matched external comparator. See sources/family-child-poverty-rebuild-findings-and-integration.md.

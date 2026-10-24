@@ -1,0 +1,8 @@
+{
+  "expected_excluded_children": 1,
+  "fixture": "two poor siblings, one SSN and one ITIN, equal person weights",
+  "rebuilt_excluded_children": 1,
+  "status": "original defect reproduced; rebuilt attribution correct",
+  "upstream_excluded_children": 2.0,
+  "upstream_source_sha256": "702c8e45badb933eb59851718a57dfaed7f0164e09a0961c7bdc1b9d88334bb9"
+}

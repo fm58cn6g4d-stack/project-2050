@@ -944,5 +944,14 @@
     "git_blob": "30372ab061e4570a513c63a7bf5d6ff635b51390",
     "sha256": "702c8e45badb933eb59851718a57dfaed7f0164e09a0961c7bdc1b9d88334bb9"
   },
-  "new_model_status": "Implemented locally; transfer of tested bytes pending disconnected environment"
+  "new_model_status": "Research implementation verified locally and staged in the rebuild review branch; national calibration outstanding",
+  "integration_base_commit": "cd6487bb8366b33c50c3665b2fedb785449357d7",
+  "final_validation": {
+    "tests": 62,
+    "python": "3.12.14",
+    "legacy_regression": "passed",
+    "cli_checks": "passed",
+    "synthetic_scenario_rows": 24,
+    "diagnostics_byte_reproducible": true
+  }
 }

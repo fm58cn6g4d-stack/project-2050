@@ -115,3 +115,8 @@ The adopted dates above remain the baseline. Espen approved development and inte
 HLT-2's 24-month legacy lag is not a verified implementation minimum. Do not apply the shortest restoration path to the full HLT-1/4 bundle, or use one title-wide lag to rule out individual earlier benefits. A reduced allowance or exams-only service is not equivalent to the chosen hearing/vision benefits; any staging must disclose excluded services and people and requires Espen's decision. Dental remains in the package on its adopted phase. HLT-3 availability and automatic-enrollment dates remain 2031 and 2032.
 
 Next work: one component schedule and launch specification, separating legal authority, operational availability, first household receipt, broad reach and full rollout; one incremental score/financing bridge, including FY2029. Retain 2031 hearing/vision as the fallback pending that review. The adopted fiscal totals and launch inputs are unchanged.
+
+
+## Completed health-delivery research: October 24 reconciliation
+
+The [completed bridge reconciliation](../sources/health-delivery-resource-bridge.md) supports distinct 2029 HLT-1/4 restoration paths and identifies MA payment-cycle dependencies for January-2030 hearing/vision. The report conditionally favors early R1 authority, but did not analyze the existing Original-Medicare payment bridge under 42 CFR 422.109(c). The [next decision packet](../sources/health-hearing-vision-decision-packet.md) compares both R2 payment subroutes with early R1 and the adopted 2031 fallback. No date, benefit, vehicle, cost or input is changed. The [component register](../sources/health-delivery-component-register.csv) is research metadata; it is not an effective-date or readiness table.

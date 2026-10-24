@@ -1,0 +1,42 @@
+{
+  "all_children": {
+    "below150_children": 3.0,
+    "below150_rate": 1.0,
+    "child_weighted_deep_gap_dollars": 9000.0,
+    "child_weighted_gap_dollars": 19000.0,
+    "deep_poor_children": 1.0,
+    "deep_poor_rate": 0.3333333333333333,
+    "kish_effective_n": 1.8,
+    "near_only_children": 2.0,
+    "near_only_rate": 0.6666666666666666,
+    "poor_children": 1.0,
+    "poor_rate": 0.3333333333333333,
+    "suppressed": false,
+    "unweighted_children": 2,
+    "weighted_children": 3.0
+  },
+  "input_hashes": {
+    "data_sha256": "1fc70d10aef53ce6884b070374cdb54fa22ad7b713cb93f7c2b4fd80cfd00eb1"
+  },
+  "metadata": {
+    "baseline_description": "synthetic baseline",
+    "dollar_year": 2025,
+    "input_hashes": {
+      "mapping": "52e2245faf696f4a10c0895463c2028477330df0739b6b5e831a89cc33c5c66b",
+      "raw": "f7df4c26bc9b3384c2f4f24201443b19f280479523f6af444f8d095590a06c72"
+    },
+    "kind": "synthetic",
+    "resource_year": 2025,
+    "row_count": 2,
+    "source_vintage": "synthetic CSV",
+    "tax_assignment_status": "Census TAX_ID links only; legal dependent/claimant review outstanding",
+    "unassigned_tax_persons": 0,
+    "weight_basis": "explicit scales"
+  },
+  "model": "project-2050-child-spm-rebuild-2",
+  "scope": "source-year public-use baseline; no Project policy",
+  "uncertainty": {
+    "n_replicates": 0,
+    "status": "not_available"
+  }
+}
