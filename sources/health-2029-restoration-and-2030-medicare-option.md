@@ -1,6 +1,6 @@
 # Health acceleration: 2029 restoration and a 2030 hearing/vision option
 
-October 23, 2026 · Preliminary feasibility assessment for Espen. Baseline `claude/pensive-mendel-g1lwl5` at `f159cdf01a8f3352478eaa74cf08c501376af06e`. Research and proposed alternatives; adopted dates and inputs remain unchanged.
+October 23, 2026 · Feasibility assessment for Espen; development recommendations approved for integration October 23. Baseline `claude/pensive-mendel-g1lwl5` at `f159cdf01a8f3352478eaa74cf08c501376af06e`. Research and proposed alternatives; adopted dates and inputs remain unchanged.
 
 **Recommendation:** investigate 2029 delivery of existing-program restoration component by component, and develop January 2030 Medicare hearing/vision coverage as a serious alternative. The repository establishes neither a mandatory 24-month implementation period nor a general requirement to wait for a new insurance plan year before restoring assistance. It also does not yet establish that six months after summer-2029 R2 enactment is enough to launch these new Medicare benefits well.
 
@@ -56,7 +56,7 @@ Current CMS guidance describes the statutory Medicaid work requirement beginning
 
 ## Proposed decision and handoff
 
-The current health file's January-2030 restoration direction should remain the baseline while this earlier alternative is assessed. Espen's question authorizes investigating acceleration; it is not a substitute for approval of new effective dates or financing. Prepare a component map offering: (a) the earliest lawful prospective 2029 restoration, (b) any retroactive tax/coverage remedy requiring explicit authority, and (c) later supply/new-system elements. Separate first receipt, broad reach and full implementation.
+The current health file's January-2030 restoration direction should remain the baseline while this earlier alternative is assessed. Espen approved the acceleration investigation and integration of this assessment; new effective dates and financing remain to be selected after the implementation comparison. Prepare a component map offering: (a) the earliest lawful prospective 2029 restoration, (b) any retroactive tax/coverage remedy requiring explicit authority, and (c) later supply/new-system elements. Separate first receipt, broad reach and full implementation.
 
 For hearing/vision, prepare a single 2030 launch specification and score request covering the two vehicle routes above. Work backward through the actual statutory, rulemaking, payment, claims, supplier and beneficiary milestones. Record which task makes January 2030 fail if it fails. Retain dental's existing phase, the chosen full benefits, HLT-3's dates and the current fallback until a substantive change is approved and integrated.
 
@@ -72,3 +72,7 @@ For hearing/vision, prepare a single 2030 launch specification and score request
 - H6: [CMS implementation explanation](https://www.cms.gov/newsroom/fact-sheets/extended-access-opportunity-enroll-more-affordable-coverage-through-healthcare-gov).
 - H7: [CMS Medicaid work-requirement rule explanation](https://www.cms.gov/newsroom/fact-sheets/medicaid-community-engagement-requirement-certain-individuals-interim-final-rule-comment-period-cms).
 - Repository: `domains/domain-health.md`, `sources/health-go-big-bill-detail-and-financing.md`, governing D5/D6/D9 and CMS annex/cost register. Their combined figures and dates are adopted/working records, not a verified hearing/vision implementation estimate. No CMS production plan, new fiscal score, supplier-readiness estimate or specialist clearance was obtained in this bounded assessment. Rules committee retrieval was blocked; GovInfo supplied the proposal text.
+
+## Integration status
+
+Espen approved saving and integrating these development recommendations on October 23. [The health domain](../domains/domain-health.md#earlier-delivery-alternatives-development-approved-october-23) holds the canonical alternatives; the governing record authorizes their development. The ledger, delivery page and agenda dashboard distinguish those alternatives from the adopted baseline. Integration does not certify six-month implementation, change a launch date or supply an incremental score. Source evidence and access limitations above remain unchanged.

@@ -16,4 +16,4 @@ print("wrote dashboard/: bills, revenue, cuts, conflicts, paths")
 
 C = json.load(open("calendar-scenarios.json"))
 with open("dashboard/calendar.json", "w") as f:
-    json.dump(dict(meta=C["meta"], runs=[{k:r[k] for k in ("run_id","condition","capacity","strategy","merged","frontload","shock","checks","scope_completed","scope_total","unfinished","on_frontier")} for r in C["runs"]]), f, indent=1)
+    json.dump(dict(meta=C["meta"], development=C.get("development", {}), runs=[{k:r[k] for k in ("run_id","condition","capacity","strategy","merged","frontload","shock","checks","scope_completed","scope_total","unfinished","on_frontier")} for r in C["runs"]]), f, indent=1)

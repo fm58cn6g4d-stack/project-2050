@@ -284,3 +284,7 @@ Evidence and limitations: sources/health-cms-capacity-review-2026-10-21.md. No a
 - index/2029-trifecta-master-ledger.md: rows A1 (CAP-7, CAP-7S), DEM12, DEM13; cuts C17, C26, C27, C42.
 - governing/project-2050-governing-decisions.md: D9 (the envelope and the agency list), design rules 2, 5 and 6.
 - Batch 3 domain files (domain-climate.md, domain-housing.md, domain-labor.md, domain-competition.md): the batch 3 agency needs and their proposed allocations.
+
+## Health acceleration dependency: October 23 development direction
+
+Developing 2029 restoration and January-2030 HLT-2 hearing/vision requires a dated CMS/state/provider work plan, not a new title-wide lag. See [canonical health alternatives](domain-health.md#earlier-delivery-alternatives-development-approved-october-23) and [the evidence assessment](../sources/health-2029-restoration-and-2030-medicare-option.md). Identify FY2029 hiring, rulemaking, contractor/claims changes, testing, supplier participation, outreach and state costs. Separate legal availability, obligations and cash; reconcile embedded HLT administration against CAP-7S/CAP-7 before adding costs. Current allocations and outlay proxies do not certify the accelerated launches. No capacity allocation, spending profile or health date is changed by this approved development work.

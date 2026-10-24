@@ -63,3 +63,7 @@ Approved directions are in the governing record; canonical democracy corrections
 ## Opening and delivery follow-up
 
 The next bounded research layer is in `sources/calendar-opening-procedural-packet.md`, `sources/calendar-2030-delivery-paths.md`, `sources/health-2029-restoration-and-2030-medicare-option.md` and `sources/climate-full-scope-bill-outline-and-comparator.md`. `sources/calendar-evidence-observations.csv` distinguishes observed intervals from proposed legislative start dates; `index/tools/calendar/evidence-check.py` reproduces the date arithmetic. These support further specification, not adoption of an accelerated launch, administrator, merger or new numerical model range.
+
+## Health acceleration integration: October 23
+
+Espen approved the health acceleration assessment's development recommendations and integration. The canonical alternative record is now in domains/domain-health.md, linked from the governing decisions, post-pilot brief, capacity domain, options register and generated ledger/dashboard. Sources/health-2029-restoration-and-2030-medicare-option.md remains the evidence and work-package home. This records an approved research direction, not approval of new launch dates. Existing fiscal, benefit, vote and lag inputs remain unchanged; no specialist clearance or new score has been obtained. The next output is a component schedule and a cost/financing bridge, not another title-wide readiness score.

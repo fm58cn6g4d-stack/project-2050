@@ -72,7 +72,7 @@ An add-on rides R2 with HLT-2 if it can be paid for there. Otherwise it waits fo
 - Hearing and vision start in 2031 and dental phases in from 2033.
 - The public option opens for plan year 2031, with auto-enrollment in 2032.
 
-Only HLT-1 and part of HLT-4 are felt before November 2030.
+Under the adopted launch schedule, HLT-1 and part of HLT-4 are the main pre-November-2030 delivery candidates. This is not a verified reach or household-receipt finding; component-level earlier alternatives are being developed below.
 
 ## Dependencies
 
@@ -101,3 +101,17 @@ Only HLT-1 and part of HLT-4 are felt before November 2030.
 - index/revenue-assignment-audit.md: the HI channel assignment and the open items flagged above.
 
 **Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.
+
+## Earlier delivery alternatives: development approved October 23
+
+The adopted dates above remain the baseline. Espen approved development and integration of the following alternatives; no new effective date, benefit scope, vehicle or fiscal profile has been selected. The evidence and detailed comparison live in [the health acceleration assessment](../sources/health-2029-restoration-and-2030-medicare-option.md), which supports this canonical option record rather than creating another policy version.
+
+| Existing policy | Alternative to develop | Required decision evidence |
+| --- | --- | --- |
+| HLT-1; restoration elements of HLT-4 | Deliver feasible existing-program repairs during 2029 rather than apply one January-2030 wait to the whole title | Separate premium assistance, eligibility/renewal repairs, reenrollment, existing grants, coverage-gap infrastructure and care supply. Specify lawful prospective dates, any express retroactive remedy, state participation, first receipt and reach. |
+| HLT-2 hearing and vision | January 2030 launch after summer-2029 R2, with preparation before enactment | Actual statutory/rulemaking, payment, provider/supplier, contractor claims/testing and beneficiary-information schedule; marginal costs and Part B effects; named blockers and a responsible fallback. |
+| HLT-2 authority/vehicle | Compare earlier R1 authority if it buys necessary implementation time without jeopardizing fast R1 | Instructions, jurisdiction and Byrd review; added preparation burden, score and financing across vehicles; FY2029 administrative cash and overlap with CAP-7S. No vehicle change is adopted. |
+
+HLT-2's 24-month legacy lag is not a verified implementation minimum. Do not apply the shortest restoration path to the full HLT-1/4 bundle, or use one title-wide lag to rule out individual earlier benefits. A reduced allowance or exams-only service is not equivalent to the chosen hearing/vision benefits; any staging must disclose excluded services and people and requires Espen's decision. Dental remains in the package on its adopted phase. HLT-3 availability and automatic-enrollment dates remain 2031 and 2032.
+
+Next work: one component schedule and launch specification, separating legal authority, operational availability, first household receipt, broad reach and full rollout; one incremental score/financing bridge, including FY2029. Retain 2031 hearing/vision as the fallback pending that review. The adopted fiscal totals and launch inputs are unchanged.

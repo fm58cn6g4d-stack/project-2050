@@ -7,6 +7,16 @@
   "scope_count": 24,
   "midterm": "2030-11-05"
  },
+ "development": {
+  "health": {
+   "status": "Development approved; earlier launch dates not adopted",
+   "canonical": "../domains/domain-health.md#earlier-delivery-alternatives-development-approved-october-23",
+   "evidence": "../sources/health-2029-restoration-and-2030-medicare-option.md",
+   "restoration": "Develop component-specific 2029 delivery; retain adopted 2030 baseline pending selection",
+   "hearing_vision": "Develop January 2030 option; retain 2031 fallback; compare summer R2 with earlier preparation against possible R1 authority",
+   "limits": "No new CMS critical path or incremental score; 24-month legacy lag is not a verified minimum; dental and HLT-3 dates unchanged"
+  }
+ },
  "runs": [
   {
    "run_id": 0,
