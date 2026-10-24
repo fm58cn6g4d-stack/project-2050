@@ -16,6 +16,8 @@ All dollar figures are ten-year totals for 2030-39 in trillions. "Estimate" mean
 
 **Current calendar method:** index/calendar-scenarios.md and its explorer compare conditional schedules. index/calendar-delivery-opportunities.md screens possible initial effects separately; every legacy felt label remains Unverified. Earlier passage creates opportunity, not a verified receipt date.
 
+**Approved health development (Oct 23):** develop component-level 2029 restoration and January-2030 HLT-2 hearing/vision; compare summer R2 with earlier preparation against possible R1 authority while protecting rapid R1. The legacy 24-month field is not a verified CMS minimum. Current restoration, hearing/vision, dental and HLT-3 launch inputs remain the adopted baseline; no incremental score or CMS launch plan is complete. See [canonical health alternatives](../domains/domain-health.md#earlier-delivery-alternatives-development-approved-october-23) and [health evidence and next work](../sources/health-2029-restoration-and-2030-medicare-option.md).
+
 ## By domain
 
 | Domain | Rows | General fund low | Mid | High | Floor days |

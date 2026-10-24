@@ -58,7 +58,7 @@ The optimistic implication is plausible as a research direction: early benefits,
 
 ## Focused evidence and health acceleration
 
-See [opening procedural packet](../sources/calendar-opening-procedural-packet.md), [priority delivery paths](../sources/calendar-2030-delivery-paths.md) and [2029 restoration / 2030 hearing-vision option](../sources/health-2029-restoration-and-2030-medicare-option.md). The 24-month HLT-2 lag is not a verified minimum; midyear existing-program restoration has precedent. Accelerated dates remain proposals; this generated screen preserves the adopted baseline.
+See [opening procedural packet](../sources/calendar-opening-procedural-packet.md), [priority delivery paths](../sources/calendar-2030-delivery-paths.md) and [2029 restoration / 2030 hearing-vision option](../sources/health-2029-restoration-and-2030-medicare-option.md). The 24-month HLT-2 lag is not a verified minimum; midyear existing-program restoration has precedent. Development of these alternatives is approved. Accelerated dates remain proposals; this generated screen preserves the adopted baseline. Canonical options: [health domain](../domains/domain-health.md#earlier-delivery-alternatives-development-approved-october-23). Next work: component-level delivery schedule and incremental cost/financing bridge, including FY2029 administration and CAP overlap.
 
 ## What to investigate first
 

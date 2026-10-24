@@ -256,3 +256,9 @@ Repository links are pinned to the verified policy commit. Library links identif
 [CP-NASEM]: https://www.nationalacademies.org/read/29163/chapter/11
 
 **Scenario-method integration (October 23):** The fixed 172/163 arithmetic below is retained as legacy provenance. Current demand/capacity strategies are generated in `index/calendar-scenarios.md`; pre-midterm delivery opportunities are screened separately in `index/calendar-delivery-opportunities.md`. New numeric ranges remain illustrative. No existing policy date, fiscal profile, minority right or full-scope fallback is changed. See `sources/calendar-model-review-and-integration.md`.
+
+## Health delivery follow-up: approved for development and integration
+
+Espen approved the health acceleration findings and recommended next work on October 23. Develop feasible 2029 restoration by component and a January-2030 HLT-2 hearing/vision alternative. Compare summer R2 with earlier preparation against earlier R1 authority where necessary, protecting R1's rapid affordability/restoration purpose. The 24-month legacy field is not a verified CMS minimum. The adopted dates remain the baseline, including 2031 hearing/vision as fallback, dental from 2033 and HLT-3 in 2031/2032.
+
+The smallest next decision is approval of a specified launch and financing path once the component schedule, operational blockers and incremental costs are available. Earlier tax rights or funding availability alone do not establish household receipt. Canonical options: [domain-health.md](../domains/domain-health.md#earlier-delivery-alternatives-development-approved-october-23). Evidence and handoff: [health acceleration assessment](../sources/health-2029-restoration-and-2030-medicare-option.md). No benefit or model-input change is adopted through this integration.

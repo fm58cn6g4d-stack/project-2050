@@ -379,3 +379,12 @@ Canonical until converted to a domain file. Its options are not yet given domain
 | Child-poverty alternatives | Research findings received, design choices unadopted | FAM-1D, HOU-4C and eligibility/delivery alternatives stay with their existing domain homes; no summed poverty effects or new residual-supplement policy ID. FAM-2 provenance and EDU-3 costing basis remain questions. |
 
 Source identities, source roles and the completed-report/preliminary-filename discrepancy are recorded in sources/project-2050-research-register.md. Pending input/generator reconciliation is explicit in sources/post-pilot-integration-handoff.md.
+
+## Health acceleration development: October 23
+
+| Existing policy | Status | Canonical home and boundary |
+| --- | --- | --- |
+| HLT-1 / HLT-4 restoration | Earlier 2029 delivery alternative approved for development | domain-health.md, earlier delivery alternatives. Component-specific legal/operational schedule and reach required; January-2030 baseline retained pending selection. |
+| HLT-2 hearing/vision | January-2030 alternative approved for development | domain-health.md. Compare existing summer-R2 route with earlier preparation against possible R1 authority; protect fast R1. Keep 2031 fallback, full benefits and dental phase; no earlier vehicle/date selected. |
+
+These alternatives use existing policy IDs and are not additional cost rows. No options are summed, no new lag or score is adopted, and the combined dental/vision/hearing cost cannot price acceleration by simple division. HLT-3 remains 2031/2032. Evidence: sources/health-2029-restoration-and-2030-medicare-option.md.

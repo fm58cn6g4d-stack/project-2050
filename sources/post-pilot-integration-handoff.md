@@ -47,3 +47,11 @@ Proceed with authorized PR #4 integration after final diff/check review. Refresh
 Restoration, DEM-1A, DEM-2A, broader automatic registration and adopted benefit/health designs remain. Narrower prototypes and poverty expansion alternatives are not adopted. No emails, records requests or reviewer contacts were sent.
 
 **Scenario-method integration (October 23):** The fixed 172/163 arithmetic below is retained as legacy provenance. Current demand/capacity strategies are generated in `index/calendar-scenarios.md`; pre-midterm delivery opportunities are screened separately in `index/calendar-delivery-opportunities.md`. New numeric ranges remain illustrative. No existing policy date, fiscal profile, minority right or full-scope fallback is changed. See `sources/calendar-model-review-and-integration.md`.
+
+## Health acceleration integration handoff: October 23
+
+Source branch: `claude/pensive-mendel-g1lwl5`, baseline commit `8d6bb7f6c32bc79628e7e0a3badffc150ff61a19` (after PR #6). Espen authorized saving/integrating the assessment and recommended development sequence. Canonical health/capacity and governing records now distinguish approved development from adopted launches; generated ledger and agenda dashboard surface the options without changing inputs.
+
+Next: (1) specify HLT-1/4 restoration components and earliest lawful 2029 availability, first receipt, reach and remedies; (2) work backward from January-2030 HLT-2 hearing/vision through rules, provider/payment design and claims testing; (3) compare summer R2 with pre-enactment preparation against earlier R1 authority, preserving fast R1; (4) cost the incremental benefit year, Part B effects and FY2029 administration, reconciling CAP overlap, and obtain focused legal/CMS review when available. Do not assume preparatory production work can begin before its legal/funding authority. Record each unsupported dependency and the evidence needed to resolve it.
+
+Retain the current 2030 restoration baseline, 2031 hearing/vision fallback, dental phase and HLT-3 dates pending Espen's substantive decision. No specialist review, actual CMS launch plan, marginal score or new FY2029 cash estimate is represented as complete. No emails or requests were sent. Repository-backed files are the governing working copies; external dashboards/chats do not synchronize automatically.
