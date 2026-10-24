@@ -2,6 +2,8 @@
 
 October 24, 2026 · Review draft; no policy change. Source: `main`, `31d2e584d790c6dc6e3c243e1643b1ab3a8d050e`. No open PRs were found at the start. Espen authorized this bounded assignment after the health design review: use completed research and tools to assess outcomes, compare consequential choices and produce one public family example. This is a synthesis of existing research, not a new future-poverty forecast or an official score.
 
+**Follow-up:** Espen approved necessary delivery improvements, credit comparison including an AFA analogue, and wider rental-assistance exploration. The [model review and extension](family-poverty-model-review-and-extension.md) now examines model scope, adds tested comparison inputs and constant-real 2040/2050 references, and identifies the blocked national rerun. FAM-1D already denotes the AFA option. No alternative, indexing/eligibility rule or financing amount has been adopted.
+
 ## Judgment
 
 The adopted child-policy package makes a meaningful contribution to family security, but the modeled results do not establish a pathway close to eradicating child poverty. The next design question is whether to strengthen the package's material reach and adequacy, alongside making it easier to receive. The evidence warrants a focused comparison of the already-filed larger child credit and wider rental assistance; it does not select either alternative or establish how much the full agenda would reduce poverty.

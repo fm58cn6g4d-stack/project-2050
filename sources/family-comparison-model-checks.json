@@ -1,0 +1,164 @@
+{
+  "archive_sha256": null,
+  "carry_forward": [
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02467964662391484,
+      "poor_children": 7208908.822666079,
+      "poor_rate": 0.10799930159172277,
+      "reference_year": 2034,
+      "scenario": "stressed",
+      "year": 2034
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02467964662391484,
+      "poor_children": 7208908.822666079,
+      "poor_rate": 0.10799930159172277,
+      "reference_year": 2034,
+      "scenario": "stressed",
+      "year": 2040
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02467964662391484,
+      "poor_children": 7208908.822666079,
+      "poor_rate": 0.10799930159172277,
+      "reference_year": 2034,
+      "scenario": "stressed",
+      "year": 2050
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02281665224718427,
+      "poor_children": 6867611.165302351,
+      "poor_rate": 0.10288619646903352,
+      "reference_year": 2034,
+      "scenario": "moderate",
+      "year": 2034
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02281665224718427,
+      "poor_children": 6867611.165302351,
+      "poor_rate": 0.10288619646903352,
+      "reference_year": 2034,
+      "scenario": "moderate",
+      "year": 2040
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02281665224718427,
+      "poor_children": 6867611.165302351,
+      "poor_rate": 0.10288619646903352,
+      "reference_year": 2034,
+      "scenario": "moderate",
+      "year": 2050
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02191353557007431,
+      "poor_children": 6697449.921273486,
+      "poor_rate": 0.10033694859183541,
+      "reference_year": 2034,
+      "scenario": "enhanced",
+      "year": 2034
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02191353557007431,
+      "poor_children": 6697449.921273486,
+      "poor_rate": 0.10033694859183541,
+      "reference_year": 2034,
+      "scenario": "enhanced",
+      "year": 2040
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02191353557007431,
+      "poor_children": 6697449.921273486,
+      "poor_rate": 0.10033694859183541,
+      "reference_year": 2034,
+      "scenario": "enhanced",
+      "year": 2050
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02132558617477268,
+      "poor_children": 6588890.844569638,
+      "poor_rate": 0.09871058533022854,
+      "reference_year": 2034,
+      "scenario": "full",
+      "year": 2034
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02132558617477268,
+      "poor_children": 6588890.844569638,
+      "poor_rate": 0.09871058533022854,
+      "reference_year": 2034,
+      "scenario": "full",
+      "year": 2040
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02132558617477268,
+      "poor_children": 6588890.844569638,
+      "poor_rate": 0.09871058533022854,
+      "reference_year": 2034,
+      "scenario": "full",
+      "year": 2050
+    }
+  ],
+  "code_sha256": "5ead29d87976844e627de3a5f6a875de93afc82d9d3785df39177063c8ef7f58",
+  "dependencies_sha256": {
+    "agenda-assumptions.json": "f7e1a8c6ffd2915332bab022b24b3128aa77ecba539b8d0fc9182b256e7d0bd7",
+    "agenda_analysis.py": "73de914130638a98f3080551d4bcc9325c42f674a5bc99a8403e90d3e65553dc",
+    "cps_projection.py": "a761d3c642702bf48538e503c1d5d2833c06473796c2401730f2aada5e3832ec",
+    "current_law_ctc.py": "ddf13e33676bbad16d3c8d8abaea338d9fa45a5b869e8e04c0ec947dda87423e",
+    "empirical/cbo-calendar-factors-2026-02.csv": "3df7f94a37ec34e0017d802ca2da2235f5b3b264c5b9025e49f479cb33bda9e4",
+    "empirical/cbo-child-population-2026-01.csv": "288938961b1d531eeeec20ff98ae10087e114ad3dd5628c46fb087a1db621228",
+    "empirical/cbo-ctc-parameters-2026-02.csv": "05bab26adc644c6fa14fc2f448923a09c86707e6df84fbf5ac025525e722cd84",
+    "model.py": "4324141b76453ba72d364cdc3aef0cfc1ae8758f1e484f213e164ece26967c70"
+  },
+  "examples": {
+    "infant_full_year_exposure": 6360.0,
+    "infant_no_bonus": 4320.0,
+    "kind": "Illustrative conditional tax awards only; not national outcomes",
+    "one_child_age4": 4320.0,
+    "one_child_age8": 3600.0
+  },
+  "later_path_cases": null,
+  "missing": "Census archive not locally available",
+  "national_cases": null,
+  "paths": [
+    {
+      "delivery": "moderate",
+      "resource_shift": 0.0,
+      "review": "Constant-real reference; no economic or delivery trend",
+      "year": 2034
+    },
+    {
+      "delivery": "moderate",
+      "resource_shift": 0.0,
+      "review": "Constant-real reference; no economic or delivery trend",
+      "year": 2040
+    },
+    {
+      "delivery": "moderate",
+      "resource_shift": 0.0,
+      "review": "Constant-real reference; no economic or delivery trend",
+      "year": 2050
+    }
+  ],
+  "source_income_year": 2025,
+  "source_main": "31d2e584d790c6dc6e3c243e1643b1ab3a8d050e",
+  "status": "NATIONAL_ALTERNATIVES_NOT_RUN",
+  "stored_sha256": "a1375fc4d265cfbc1940c76af94f5ec45027d3e83511b7845ad8727af8896e4c",
+  "valuation_year": 2034,
+  "years": [
+    2034,
+    2040,
+    2050
+  ]
+}

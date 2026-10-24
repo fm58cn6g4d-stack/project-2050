@@ -34,6 +34,20 @@ python3 index/tools/child-poverty/report_agenda.py \
 
 See the [results and methods](../../../sources/family-child-poverty-agenda-effects.md) and [interactive analysis](../../child-poverty-agenda-analysis.html). Eight main cases and 42 sensitivities cover CTC, joint care/pre-K, net food assistance, scarce household vouchers and employee leave costs, with optional temporary cash, carbon and health proxies. Legal coverage and delivery are research assumptions, never imputed SSN/ITIN status. Main results preserve baseline credits; indexing, age 17, ODC and unresolved claimant conventions are branched. The matched source-year EITC/ACTC-removal comparator passes public-use/internal tolerances. No employment response is credited. Sampling intervals do not cover model or parameter uncertainty; the main estimate is not all Project2050 household effects or a fiscal score.
 
+## Bounded alternatives and later-year references
+
+The [model review](../../../sources/family-poverty-model-review-and-extension.md) distinguishes incomplete scope from demonstrated defects, maps FAM-1D to the American Family Act and records the approved comparison directions. `comparison_analysis.py` reuses the existing parser/service/receipt/replicate routines. It produces [separate generated checks](../../../sources/family-comparison-model-checks.md), leaving the published eight-case experiment intact.
+
+```bash
+python3 -m unittest discover -s index/tools/child-poverty -p 'test_*.py'
+python3 index/tools/child-poverty/comparison_analysis.py
+python3 index/tools/child-poverty/comparison_analysis.py --archive /path/to/asecpub26csv.zip
+```
+
+Without an archive the new national effects are null, explicitly not run. Only the executed constant-real 2034 reference carried to 2040/2050 and conditional tax-award examples are generated. With the hash-verified archive it compares credit/price/newborn, delivery and housing-reach alternatives, including joint cases and signed credit losses. These are annual exposure analogues, not a complete monthly AFA tax-law simulation or adopted changes. New tests use artificial units only. The national matrix has not been executed in this workspace because Census download is blocked.
+
+`--overlays` accepts reviewed net health, tax/transfer/earnings and leave inputs in 2025 dollars; no estimates are supplied by default. `--paths` accepts explicit year/delivery/resource-stress records. Both require documented baseline/overlap or scenario review, and neither predicts economic growth, cohort aging or future child populations. See the review for contracts, primary bill text and access limits. Federal cost stays unpriced; poverty effects do not certify D3/D4.
+
 ## Run a prepared research case
 
 ```bash
