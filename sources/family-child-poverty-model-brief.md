@@ -1,5 +1,7 @@
 # Child poverty: rule sheet and minimum model brief
 
+> Current status, October 24: this is the earlier specification/rule sheet. The executable rebuild, empirical baseline and conditional agenda analysis are merged through PR #13; use [the model README](../index/tools/child-poverty/README.md) and [completed results](family-child-poverty-agenda-effects.md). Do not restart model construction from this brief. Its policy alternatives remain unadopted.
+
 October 23, 2026 · Research development approved; no new eligibility, benefit amount, entitlement or poverty target adopted.
 
 Read the approved charter §§2/5–7, canonical family/education/housing files, the completed child-poverty report and the research register. Bibliography MOD-06 supplies the SPM framework; MOD-01/02/04/07 inform estimating and reproducibility. The incidence model's quintile averages are not child-level poverty estimates.

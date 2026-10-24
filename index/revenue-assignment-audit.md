@@ -1,5 +1,7 @@
 # Revenue assignment audit
 
+> October 24 status: historical audit observations below retain their original scope. Current totals come from the [generated ledger](2029-trifecta-master-ledger.md), not this dated snapshot. Current base is 5.99T at two-place decimal headline precision (5.985T before rounding); accepted revenue including C43 is 3.71T, with 1.15T envelope borrowing and a 0.25T remaining ten-year gap. [The conforming audit](../sources/project-2050-consistency-audit-2026-10-24.md) explains rounding and unresolved input checks. No new score is adopted.
+
 Oct 20, 2026 · Espen Swanson · live doc: https://claude.ai/code/artifact/2b824a7e-c87d-4b21-a1d0-411c000dfeb1
 
 Filed in index/ because this audits the layer the ledger indexes — how the domain files assign revenue to claims — rather than setting policy. It is not generated from the domain files, so unlike the ledger it is edited by hand.
@@ -129,7 +131,7 @@ Netting also made the agenda look smaller than it is. At gross the channels carr
 
 The midpoints and the range both reconcile.
 
-**What checks out.** The base total of $5.29 / 5.98 / 6.80T sums correctly across its rows including GX and the carbon fees' offset CX. General-fund claims of $11.10T reconcile to the by-vehicle table ($3.58 + $4.29 + $1.46 + $1.16 + $0.61 = $11.10T). The gap of $5.12T is right. The closing path is right: accepted revenue of $3.53T (Package B: C18 $0.62T, C35 $0.15T, C19b $0.66T, C20 $0.67T; C38 $0.89T; C39-C41 $0.54T) plus $1.15T of borrowing inside the D4-B envelope (C21, C30, C31, C32, C37 and C42), leaving +$0.44T.
+**Earlier audit snapshot was (superseded, not current totals):** The base total of $5.29 / 5.98 / 6.80T sums correctly across its rows including GX and the carbon fees' offset CX. General-fund claims of $11.10T reconcile to the by-vehicle table ($3.58 + $4.29 + $1.46 + $1.16 + $0.61 = $11.10T). The gap of $5.12T is right. The closing path is right: accepted revenue of $3.53T (Package B: C18 $0.62T, C35 $0.15T, C19b $0.66T, C20 $0.67T; C38 $0.89T; C39-C41 $0.54T) plus $1.15T of borrowing inside the D4-B envelope (C21, C30, C31, C32, C37 and C42), leaving +$0.44T.
 
 **How the range is built.** The ledger shows each row's gross outlay and own (channel) revenue in their own columns, and its general-fund low and high columns are true bounds, so the range rebuilds from the table: claims of $7.68T to $15.42T and a gap of $0.56T to $9.71T, a stress bound that takes every row's high at once. The rows the audit found using low and high for gross figures now read:
 

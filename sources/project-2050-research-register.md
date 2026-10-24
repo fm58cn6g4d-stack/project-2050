@@ -2,9 +2,26 @@
 
 October 23, 2026 · Source/status register, not a second policy canon.
 
-**Baseline:** approved working branch claude/pensive-mendel-g1lwl5 at e15c5c4a711b4cd2b482bac8300de45f2e08721f. Main is not the selected baseline. Espen approved integration on October 23, with DEM-1 floor consideration beginning by March 2029 latest. The approved charter governs purpose, outcomes, evidence and workflow; the governing decision file governs selected policy. Illustrative family scenes are illustrations.
+**Historical October 23 baseline:** approved working branch claude/pensive-mendel-g1lwl5 at e15c5c4a711b4cd2b482bac8300de45f2e08721f. Main is not the selected baseline. Espen approved integration on October 23, with DEM-1 floor consideration beginning by March 2029 latest. The approved charter governs purpose, outcomes, evidence and workflow; the governing decision file governs selected policy. Illustrative family scenes are illustrations.
 
-## Source identities and roles
+## Current reading map: October 24 consolidation
+
+The opening baseline above is historical. Current integration after promotion is live `main`; the audit began at `dafe93e5144f4a87b65709b9ef0b5990c8f9633b`. The [shared queue](project-work-queue.md) governs task status. PRs #9–13 merged health research and the completed poverty work; earlier “next baseline/model” instructions below are checkpoint history, not new assignments.
+
+- [Approved charter](../governing/project-charter.md): complete supplied October 23 editorial revision, with source hash and historical-state notice.
+- [Complete bibliography report](project-2050-annotated-bibliography.md): recovered full text from attached native JSON; original source-search URL index retained, opaque citation crosswalk unverified. Earlier failed-reader statements remain accurate history of those sessions, not current unreadability.
+- [Writing guide](../governing/espen-writing-style-guide.md): dated saved guide for cross-agent use; private samples remain external.
+- [Poverty agenda results](family-child-poverty-agenda-effects.md): completed conditional experiments, source-year measurement and sampling intervals. [Model brief](family-child-poverty-model-brief.md) is policy/rule context, not the current implementation or an instruction to rebuild.
+- [Health packet](health-hearing-vision-decision-packet.md): next bounded development; no new policy adoption.
+- [Audit](project-2050-consistency-audit-2026-10-24.md) and [file exchange](../governing/project-file-exchange.md): conforming changes, validation and remaining source portability gaps.
+
+## Readable pilot and research originals now in GitHub
+
+The October 24 audit exported all available reader lines, without body abridgment, for [CMS pilot](health-cms-imp-02-pilot.md), [CMS evidence follow-up](health-cms-imp-02-evidence-followup.md), [DEM pilot](democracy-dem-1-pilot.md), [Title III alternatives](democracy-dem-1-title-iii-alternatives.md) and [Medicaid-registration transaction](democracy-medicaid-registration-transaction.md). The original Library IDs remain below; repository text is the cross-agent reading path. These are historical reports, not newly validated legal/operating findings.
+
+Supplied child-poverty [report 1](family-child-poverty-report-1.md), [report 2](family-child-poverty-report-2.md) and [report 3](family-child-poverty-report-3.md) are filed in full as original research lineage. Do not confuse them with the current rebuilt model/results. The fourth report's provenance is in the recovery inventory; its original body was not among this audit's supplied attachments. The CMS binary workbook/source ZIP and original health PDF remain external originals; repository records identify them and retain the findings/access limits, without claiming the binaries are committed.
+
+## Source identities and roles (original post-pilot checkpoint)
 
 | Source | Stable source | Role and limitation |
 | --- | --- | --- |
@@ -71,7 +88,7 @@ Espen approved the health acceleration assessment's development recommendations 
 
 ## October 24: completed health delivery report received
 
-**Current coordination baseline:** claude/pensive-mendel-g1lwl5 at 14feb987a7d8aec416ba5bacc50880187a756383; earlier pointers above remain historical. The [completed health bridge reconciliation](health-delivery-resource-bridge.md) records the report's source identity, full local reading, clipped-table limits and independently checked MA-law qualification. Report p.24 confirms no separate Markdown/CSV outputs were produced. The [component register](health-delivery-component-register.csv), [decision-packet scope](health-hearing-vision-decision-packet.md) and [shared work queue](project-work-queue.md) are coordinating products filed here, not missing attachments reconstructed as originals.
+**Historical health-receipt baseline:** claude/pensive-mendel-g1lwl5 at 14feb987a7d8aec416ba5bacc50880187a756383; earlier pointers above remain historical. The [completed health bridge reconciliation](health-delivery-resource-bridge.md) records the report's source identity, full local reading, clipped-table limits and independently checked MA-law qualification. Report p.24 confirms no separate Markdown/CSV outputs were produced. The [component register](health-delivery-component-register.csv), [decision-packet scope](health-hearing-vision-decision-packet.md) and [shared work queue](project-work-queue.md) are coordinating products filed here, not missing attachments reconstructed as originals.
 
 Existing law's Original-Medicare payment bridge must be compared before endorsing the report's conditional Route C preference on the MA issue alone. Earlier 2029 restoration paths remain component-specific; costs, FY2029 cash, broad reach and specialist review remain unresolved. No launch or financing decision is adopted. Child-poverty rebuild ownership stays with its separate session; earlier local draft reconciliation is not a merged result.
 

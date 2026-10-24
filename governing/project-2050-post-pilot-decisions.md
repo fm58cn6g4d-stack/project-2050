@@ -1,5 +1,7 @@
 # Project 2050: Post-pilot decisions
 
+> Historical approved direction and review record, updated through October 24. Its original integration sequence and child-poverty access/execution statements describe earlier checkpoints. PRs #4–13 completed those integrations. Use [the current queue](../sources/project-work-queue.md) and [audit](../sources/project-2050-consistency-audit-2026-10-24.md) for present tasks; do not restart pilots or model construction from this brief.
+
 
 **October 23 approval and timing amendment.** DEM-1 floor consideration begins no later than March 2029. The normal sequence follows early R1 signature and its benefits announcement, but an R1 delay must trigger an explicit recovery decision rather than automatically postpone DEM-1 beyond March. The spring-2030 enactment target and mid-2030 outer deadline remain.
 

@@ -21,7 +21,7 @@ REV-E1/C35 restated as the increment beyond G9 (~$0.15T); DEM-1F adopted (DEM-1 
 Cuts listed in ALT_CUTS are alternatives to another cut and are not summed.
 """
 import csv, json
-from inputs import read, num, flag
+from inputs import read, num, flag, money_sum
 
 BUDGET_DAYS = 163  # LEGACY CROSSWALK ONLY; scenario calendar is current. 148 discretionary days (unified inventory) + 15 freed by Block 1's nomination caps (C28, hedged; estimate)
 RECON_DAYS = 15    # LEGACY ASSUMPTION, not statutory duration. floor days per reconciliation bill (frameworks/radical-means-moderate-ends.md)
@@ -168,7 +168,7 @@ def main():
     gross_out = round(sum(b["gf_mid"] for b in gf if b["gf_mid"]>0),2)
     gross_sav = round(sum(b["gf_mid"] for b in gf if b["gf_mid"]<0),2)
     base = [r for r in REV if r[6] and r[2]=="General fund"]
-    rev = {k: round(sum(r[j] for r in base),2) for k,j in (("lo",3),("mid",4),("hi",5))}
+    rev = {k: money_sum(r[j] for r in base) for k,j in (("lo",3),("mid",4),("hi",5))}
     floor_days = sum(b["floor_days"] for b in in_window)
     recon_vehicles = sorted({b["rail"] for b in in_window if b["rail"].startswith("R")})
     recon_days = len(recon_vehicles)*(RECON_DAYS+RESOLUTION_DAYS)

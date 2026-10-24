@@ -1,12 +1,12 @@
 # Tools roadmap
 
-What the modeling tools do now, and what is planned next, in order. Each item names what it answers for Espen. Update this file when an item lands; the tools readme says how to run what exists.
+What the modeling tools do now, and candidate upgrades. Project-wide priorities are in [the shared queue](../../sources/project-work-queue.md); this roadmap does not set their order. Each item names what it answers for Espen. Update this file when an item lands; the tools readme says how to run what exists.
 
 ## In place
 
 | Tool | What it answers |
 | --- | --- |
-| `run-all.sh` | Rebuilds every generated file from `index/data/inputs/` and shows what changed |
+| `run-all.sh` | Rebuilds the common suite from `index/data/inputs/` and shows what changed |
 | Transportation model (`transportation/`) | Moving America's program, receipts, general-fund draw and act scores; tested against Draft 2 on every run |
 | Ledger (`ledger-build.py`, `ledger-make-md.py`) | General-fund claims against the base, the gap after accepted options, vehicles, channels at gross |
 | Floor paths (`ledger-paths.py`) | Legacy fixed-day crosswalk under each D2 path; current scheduling uses calendar scenarios |
@@ -18,8 +18,11 @@ What the modeling tools do now, and what is planned next, in order. Each item na
 | Dedicated-fund engine (`funds-model.py`) | Social Security and HI over 75 years (D8, SS-5), the paid-leave fund's step-up and loan, the Highway Trust Fund's accounts, the carbon dividend by year, the rate EDU-9B would need |
 | Carbon model (`carbon-model.py`, `carbon/`) | Emissions by sector to 2050 under D7 and the companion measures, REV-C1's receipts and the dividend by year, the size of REV-C2 and a methane fee, what the road-fuel exemption gives up, with uncertainty bands |
 | Dashboard data (`dashboard-data.py`) | The live ledger dashboard's data files, regenerated on each run |
+| Surge funding (`capacity-funding.py`) | Immediate legal availability, unpriced FY2029 cash and overlap/eligibility limits; not an acceleration score |
+| Scenario calendar (`calendar/`) | Conditional preparation/floor/bicameral/delivery comparisons; uncalibrated ranges |
+| Child poverty (`child-poverty/`) | Verified CPS measurement and bounded conditional agenda experiments; independent runner, no future forecast |
 
-## Next, in order
+## Candidate upgrades, subject to a concrete claim or decision
 
 1. **Uncertainty and shared packages.** One packages file that the ledger, incidence and fiscal models all read (today each keeps its own scenario list). Then a simulation of the gap and the D3 and D4 tests with correlated draws (the Medicare Advantage savings split between the general fund and HI, revenue overlap, take-up) and discrete risks (G8 failing to score, leave take-up), reporting the chance each test passes rather than one midpoint.
 2. **Model upgrades.**
