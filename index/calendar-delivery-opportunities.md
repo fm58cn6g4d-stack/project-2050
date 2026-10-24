@@ -56,6 +56,10 @@ The optimistic implication is plausible as a research direction: early benefits,
 | MOV-29 | R1 | 6 | 2029-07 | 2029-08 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
 | MOV-30 | R3 | 6 | 2030-11 | 2031-01 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
 
+## Focused evidence and health acceleration
+
+See [opening procedural packet](../sources/calendar-opening-procedural-packet.md), [priority delivery paths](../sources/calendar-2030-delivery-paths.md) and [2029 restoration / 2030 hearing-vision option](../sources/health-2029-restoration-and-2030-medicare-option.md). The 24-month HLT-2 lag is not a verified minimum; midyear existing-program restoration has precedent. Accelerated dates remain proposals; this generated screen preserves the adopted baseline.
+
 ## What to investigate first
 
 1. Monthly CTC and health restoration: earliest lawful first receipt, non-filer/coverage reach, IRS/CMS/state readiness and real staffing/cash.
