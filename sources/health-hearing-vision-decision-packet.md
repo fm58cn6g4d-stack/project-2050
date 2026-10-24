@@ -6,6 +6,10 @@ October 24, 2026 · HLT-1/2/4 · Completed internal decision brief for review; n
 
 Read with [canonical health](../domains/domain-health.md), [capacity](../domains/domain-capacity.md), [completed research reconciliation](health-delivery-resource-bridge.md), [CMS work packages](health-cms-implementation-cost-register.csv) and the [component schedule](health-delivery-component-register.csv). Governing D3–D6/D9 and post-pilot timing control. The saved Espen writing guide informed this draft; private original writing samples were unavailable. No CMS, counsel, parliamentary, actuarial or affected-person review was obtained.
 
+## Approved review directions: October 24
+
+Espen selected **1A, 2A, 3A and 4A** and authorized PR #15's merge: protect rapid R1; examine the existing Original-Medicare bridge first; pursue feasible 2029 restoration component by component; and develop reinstatement plus potential retroactive coverage/claims repair, returning lookback and costs for decision. These are development choices, not adoption of an accelerated launch, new benefit specifications or unpriced financing. See the [governing approval record](../governing/project-2050-governing-decisions.md#health-packet-review-decisions-approved-october-24).
+
 ## Decision brief
 
 **Recommendation: do not put January-2030 hearing/vision into R1 on the present evidence. Preserve rapid R1 and the adopted 2031 fallback.** Early R1 remains a conditional route if complete benefit text, a bill-specific score/pay-for, instructions and an executable CMS plan already exist before text freeze. It must not become a reason to delay February-preferred/March-latest R1. The earlier report's conditional preference for R1 is qualified by an existing payment route for MA enrollees; early authority is valuable preparation time, not a demonstrated legal prerequisite for 2030 access.
@@ -144,7 +148,7 @@ Remaining repeal completeness must be checked against enacted law, later amendme
 | Budget/parliamentary and CBO/JCT reviewers | Actual R1/R2 instructions, jurisdiction, budget effects, merely-incidental and out-year tests; separate extra 2030 benefits, premium/buy-in effects and FY2029 cash. Which uncommitted financing is legally/scoring available to each bill? |
 | CMS/state/HRSA/HCBS owners | Provision/cohort crosswalk, reinstatement/lookback/remedy authority, state/APD and contract continuity, gap noncooperation route, eligible HCBS financing and provider capacity; price only the supported marginal work |
 
-**Next action:** Espen reviews the route recommendation and open benefit/remedy branches. Then the same bounded packet can support a targeted text/actuarial/operating review and a score request; no outside submission is authorized. Until there is a decision and evidence, keep R1's adopted scope, January-2030 restoration and 2031 hearing/vision baseline in all model inputs. Do not start another queue workstream merely because this internal brief is filed.
+**Next action:** following the approved review directions, resolve the full benefit-rule branches and develop the existing-bridge payer/liability map, alongside component-specific reinstatement and potential retroactive claims repair. Return lookback, costs and any revised dates/financing for decision. The same packet can support targeted text/actuarial/operating review and a score request; no outside submission is authorized. Until there is a decision and evidence, keep R1's adopted scope, January-2030 restoration and 2031 hearing/vision baseline in all model inputs. Do not start another queue workstream merely because this internal brief is filed.
 
 ## Evidence, provenance and validation boundary
 
