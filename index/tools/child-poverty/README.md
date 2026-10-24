@@ -1,6 +1,6 @@
 # Child-poverty microsimulation — reconstructed research tool
 
-October 24, 2026. **Logic tested on artificial data; observed CPS source-year baseline verified with all 160 replicate weights; no national Project 2050 policy estimate.** Integration source is `claude/pensive-mendel-g1lwl5` at `4133d157f5d0ab410b19af6212424b67916c09ab` (reconstruction merged through PR #10; original reconstruction source: `14feb987a7d8aec416ba5bacc50880187a756383`). This changes no adopted policy, fiscal input or existing generated output.
+October 24, 2026. **102 logic tests; verified CPS source-year baseline and all 160 replicates; completed conditional agenda experiments, not a future poverty forecast.** This update's source is `claude/pensive-mendel-g1lwl5` at `df2911d1ae101d6dd73a3c694c8c6874a07433af` (rebuild/baseline/preparation merged through PRs #10–12). Adopted policy and fiscal/incidence inputs are unchanged.
 
 This rebuild uses the four local research-report exports, the three preliminary notes, the canonical rule sheet and the surviving GitHub prototype. It does **not** claim to recover the missing ZIP byte for byte. `recovered/model-upstream-8a8f4b.py` preserves the exact surviving source; its SHA-256 is `702c8e45badb933eb59851718a57dfaed7f0164e09a0961c7bdc1b9d88334bb9`.
 
@@ -12,9 +12,27 @@ Python 3.9 or later, standard library only; verified here with Python 3.12.14. F
 python3 index/tools/child-poverty/run_validation.py
 ```
 
-The runner works from other working directories too. It executes 83 unit/regression tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial. Official-data executions are separately recorded in `empirical/`.
+The runner works from other working directories too. It executes 102 unit/regression tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial. Official-data executions are separately recorded in `empirical/`.
 
 The `synthetic/` JSON fixtures are inspectable and reproducible with `python3 index/tools/child-poverty/fixtures.py`. Test receipt/index/reference values are **not** production tax parameters. A full-receipt case does not create a care slot or award a voucher. Enhanced delivery may explicitly add a service that was unavailable under the supplied baseline supply assumptions.
+
+## Run the completed conditional agenda analysis
+
+Espen authorized completing bounded agenda experiments without overbuilding a speculative 2030/2034 current-law forecast. `agenda_analysis.py` uses the real CPS resource/claimant structure, the shared credit and care arithmetic, discrete receipt/allocation mixtures, and explicit assumptions in `agenda-assumptions.json`. It does not weaken the separate policy-ready validation gates below or label proxy inputs as audited target-year data.
+
+```bash
+python3 index/tools/child-poverty/agenda_analysis.py \
+  --archive /path/to/asecpub26csv.zip \
+  --output index/tools/child-poverty/empirical/agenda-results.json
+python3 index/tools/child-poverty/check_agenda_results.py \
+  --results index/tools/child-poverty/empirical/agenda-results.json
+python3 index/tools/child-poverty/report_agenda.py \
+  --results index/tools/child-poverty/empirical/agenda-results.json \
+  --markdown sources/family-child-poverty-agenda-effects.md \
+  --html index/child-poverty-agenda-analysis.html
+```
+
+See the [results and methods](../../../sources/family-child-poverty-agenda-effects.md) and [interactive analysis](../../child-poverty-agenda-analysis.html). Eight main cases and 42 sensitivities cover CTC, joint care/pre-K, net food assistance, scarce household vouchers and employee leave costs, with optional temporary cash, carbon and health proxies. Legal coverage and delivery are research assumptions, never imputed SSN/ITIN status. Main results preserve baseline credits; indexing, age 17, ODC and unresolved claimant conventions are branched. The matched source-year EITC/ACTC-removal comparator passes public-use/internal tolerances. No employment response is credited. Sampling intervals do not cover model or parameter uncertainty; the main estimate is not all Project2050 household effects or a fiscal score.
 
 ## Run a prepared research case
 
@@ -90,9 +108,9 @@ The SDR routine recomputes estimates under every supplied replicate weight using
 
 Child-weighted gaps repeat a unit's shortfall for each child. They are not a supplement's budget cost. Unit-weighted resource deltas are not federal outlays, scored revenue or social value. The focused model omits other Project taxes/transfers and cannot certify D3 or D4.
 
-## Outstanding publication requirements
+## Refinements and claims beyond the conditional analysis
 
-Source-year CPS measurement and 160-replicate calibration are complete for the recorded archive. Outstanding: reviewed post-2025 current-law taxes and claimant/SPM identities; 2030/2034 projection and controls; legal eligibility/phaseout/reconciliation review; calibrated payment, usable-care, summer-meal and voucher delivery; administrative-alignment sensitivities; supported employment cases with joint tax/transfer recomputation; a matched external comparator; and whole-package interactions. No Project policy poverty percentage, eradication claim, permanent-policy cost or new policy selection follows from the source-year baseline or artificial tests.
+Source-year measurement, tax/SPM reconciliation, replicate calculation, a matched element-removal comparator and conditional joint agenda experiments are complete. More precise claims would require reviewed target-year tax/transfer recomputation and controls, legal identification/phaseout/reconciliation rules, empirically estimated delivery and service supply, administrative alignment, employment responses and remaining whole-package interactions. These are limitations/refinements of the published scenarios; a speculative current-law forecast is not a prerequisite for the bounded experiments Espen requested. No eradication claim, permanent-policy cost or new policy selection follows from them.
 
 See `sources/family-child-poverty-rebuild-findings-and-integration.md` for recovery findings, policy decisions needed and the staged integration plan. `run-all.sh` is intentionally unchanged: national runs must remain separate from the existing fiscal and quintile tools until the empirical inputs are validated.
 

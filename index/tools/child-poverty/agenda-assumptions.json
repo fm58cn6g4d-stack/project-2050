@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "status": "illustrative_research_assumptions_not_adopted_rules_or_forecast",
+  "source_base": "df2911d1ae101d6dd73a3c694c8c6874a07433af",
+  "dollar_base": "2025 real dollars; primary benefit indexing starts in 2030",
+  "scenarios": {
+    "stressed": {
+      "coverage": 0.9,
+      "ctc_receipt": 0.85,
+      "care_2030": 0.3,
+      "care_2034": 0.5,
+      "prek_2030": 0.4,
+      "prek_2034": 0.65,
+      "food_receipt": 0.75,
+      "voucher_leaseup": 0.5
+    },
+    "moderate": {
+      "coverage": 0.95,
+      "ctc_receipt": 0.95,
+      "care_2030": 0.5,
+      "care_2034": 0.75,
+      "prek_2030": 0.6,
+      "prek_2034": 0.85,
+      "food_receipt": 0.9,
+      "voucher_leaseup": 0.65
+    },
+    "enhanced": {
+      "coverage": 0.98,
+      "ctc_receipt": 0.98,
+      "care_2030": 0.75,
+      "care_2034": 0.9,
+      "prek_2030": 0.85,
+      "prek_2034": 0.95,
+      "food_receipt": 0.98,
+      "voucher_leaseup": 0.85
+    },
+    "full": {
+      "coverage": 1,
+      "ctc_receipt": 1,
+      "care_2030": 1,
+      "care_2034": 1,
+      "prek_2030": 1,
+      "prek_2034": 1,
+      "food_receipt": 1,
+      "voucher_leaseup": 1
+    }
+  },
+  "common": {
+    "index_base_year": 2030,
+    "age17_layer": "expansion_only",
+    "odc_offset": "upper",
+    "unassigned_children": "exclude",
+    "baseline_resource_shift": 0,
+    "demographic_growth": true,
+    "prek_expense_fraction": 0.5,
+    "school_2030_fraction": 0.44692737430167595,
+    "summer_2030_fraction": 0,
+    "summer_months": 3,
+    "summer_monthly_nominal": 60,
+    "old_summer_monthly": 40,
+    "employee_leave_rate": 0.003,
+    "employer_leave_incidence": 0,
+    "health_moop_reduction": 0,
+    "include_carbon_proxy": false,
+    "housing_threshold_share": 0.5,
+    "smi_scale": 1,
+    "emergency_cash_budget_2030": 0,
+    "emergency_grant_2025_dollars": 1000
+  },
+  "basis": {
+    "scenarios": "Analyst stress tests, not estimated take-up probabilities or forecast percentiles. Coverage is a conditional eligible-family share, never imputed SSN/ITIN status.",
+    "ctc": "FAM-1A amounts and 2021 increase phaseouts; unselected indexing anchor, age-17 layer and ODC allocation are branched. Incremental-receipt convention preserves source credits.",
+    "care": "FAM-2A income tiers and deduction arithmetic; source paid care identifies monetary exposure. Pre-K expense share and usable access are assumptions.",
+    "smi": "State weighted median cash income of four-person CPS SPM units (>=30 observations); otherwise national fallback, adjusted sqrt(family size/4). Proxy, not official administrative SMI.",
+    "food": "Observed modal free-lunch SPM value among low-income school-age units; net of current school/summer values. Breakfast excluded from SPM. $60 Summer EBT policy through three assumed months and existing 185%-FPG eligibility proxy.",
+    "housing": "100,000 additional awards in 2030, 400,000 in 2034 across all proxy-eligible renter households; random-allocation outcome mixture, lease-up separate. State median proxy is not HUD AMI or an observed waitlist.",
+    "leave": "FAM-3A employee contribution included as cost-side stress; leave benefits not imputed. Employer incidence separate.",
+    "carbon": "Optional reduced-form extension from the existing carbon model, both adult dividend and consumer cost included. Not part of focused child-policy headline.",
+    "health": "Optional proportional reduction in actual SPM MOOP; uncalibrated sensitivity, not a health-policy score.",
+    "emergency": "Primary $0 cash credit because HOU-1 cash/construction split is unsized. Optional bounded research cash scenario expires after 2031.",
+    "baseline": "Source-year net resources held in 2025 purchasing power; +/-5% of each threshold is a resource adequacy stress, not an economic forecast.",
+    "population": "Optional CBO age/sex growth ratios anchored to CPS; not absolute Social Security-area population controls."
+  }
+}

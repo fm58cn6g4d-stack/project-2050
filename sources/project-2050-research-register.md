@@ -77,6 +77,16 @@ Existing law's Original-Medicare payment bridge must be compared before endorsin
 
 ## October 24: child-poverty research-tool reconstruction
 
+Historical reconstruction checkpoint; the empirical and agenda-analysis update below supersedes its execution/status statements.
+
 The [recovery findings and integration plan](family-child-poverty-rebuild-findings-and-integration.md), [minimum empirical specification](family-child-poverty-minimum-microsimulation-spec.md), [comparator register](family-child-poverty-comparator-register.csv) and recovery inventories preserve the four local report exports and the surviving GitHub model lineage. The implementation in index/tools/child-poverty is a new reconstruction, not a byte-identical recovery of a temporary ZIP. Sixty-two synthetic/logic tests, the original sibling-regression demonstration and raw-ZIP/policy CLI checks passed; 24 artificial scenario rows and integrity records are reproducible. Research branch codex/child-poverty-rebuild-v2 is proposed integration, not a merged policy change.
 
 The tool separates person/unit weights, legal exclusions, receipt timing and actual services, and caps expense reductions at the SPM deduction. No real-data national calibration, 2030/2034 baseline or empirical delivery model has been executed. Source-year CPS validation is the next assignment. Report 4's proposed correction to the 13.4% child-poverty benchmark was itself qualified against Census: child SPM and official+ both round to that value in 2025, whereas 13.1% is overall SPM. Keep measure, universe, year and file version explicit.
+
+## October 24: completed conditional child-poverty agenda analysis
+
+Source branch claude/pensive-mendel-g1lwl5 at df2911d1ae101d6dd73a3c694c8c6874a07433af. Rebuild, official baseline and target-year preparation were merged through PRs #10–12. The [completed agenda analysis](family-child-poverty-agenda-effects.md) now records eight joint policy-phasing/delivery cases, 42 sensitivities, 102 passing logic tests, all 160 replicate weights and a matched source-year Census refundable-credit-removal comparator. The generated analysis is index/child-poverty-agenda-analysis.html; code, assumptions and aggregate results are in index/tools/child-poverty.
+
+Espen directed completion and merge while avoiding an overbuilt, uncertain current-law poverty forecast for 2030/2034. The analysis consequently preserves observed source-year net resources and credits and varies policy phasing, indexing, coverage, receipt, usable services and resource adequacy explicitly. Moderate cases reduce child poverty from about 13.4% to 10.6%/10.3%, conditional on the documented 2030/2034 conventions; they are not predictions of those years. Optional carbon and health cases are reduced-form sensitivities. No new eligibility rule, benefit, poverty target or fiscal score is adopted, and the primary headline is not the full Project2050 household effect. The shared queue now points to use/refinement of these results rather than another speculative baseline-building prerequisite.
+
+The four local child-poverty report exports were available. The attached bibliography again yielded no readable text and its saved-file transfer failed; it was excluded as evidence. Numeric fiscal/incidence inputs and common generators remain unchanged.
