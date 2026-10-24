@@ -15,10 +15,10 @@ def package(destination):
         if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc":
             files[path.relative_to(ROOT).as_posix()] = path.read_bytes()
     for path in sorted((ROOT/"sources").glob("family-child-poverty-*")):
-        if path.is_file() and any(s in path.name for s in ("rebuild", "minimum-microsimulation", "recovery", "comparator")):
+        if path.is_file() and any(s in path.name for s in ("rebuild", "minimum-microsimulation", "recovery", "comparator", "cps-baseline")):
             files[path.relative_to(ROOT).as_posix()] = path.read_bytes()
     files["README.md"] = ("# Rebuilt Project 2050 child-poverty research package\n\n"
-        "Reconstructed implementation, not the missing historical ZIP. No national estimate.\n\n"
+        "Reconstructed implementation, not the missing historical ZIP. Observed CPS baseline included; no national Project policy estimate.\n\n"
         "Run: python3 index/tools/child-poverty/run_validation.py\n\n"
         "See index/tools/child-poverty/README.md for inputs and limits, and "
         "sources/family-child-poverty-rebuild-findings-and-integration.md for findings and integration.\n").encode()
