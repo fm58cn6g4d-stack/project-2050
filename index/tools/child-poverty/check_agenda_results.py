@@ -26,6 +26,10 @@ def check(result):
                 assert abs(s['poor_children']-s['poor_rate']*s['weighted_children']) < .01
                 assert abs(c['baseline']['poor_children']-s['poor_children']-
                            (s['poor_children_lifted']-s['children_newly_poor'])) < .01
+                if s['stage'] in (1,5):
+                    ci=s['sampling_uncertainty']['poor_rate']
+                    assert ci['lower95'] <= s['poor_rate'] <= ci['upper95']
+                    assert s['sampling_uncertainty']['paired_poor_rate_change']['se'] >= 0
             a=c['award_checks']
             assert a['expected_awarded_households'] <= a['award_cap']+.01
             assert a['expected_leased_households'] <= a['expected_awarded_households']+.01

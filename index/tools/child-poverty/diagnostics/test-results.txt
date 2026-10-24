@@ -1,4 +1,23 @@
 Python 3.12.14
+test_assumptions_reject_invalid_probability (test_agenda_analysis.AgendaAnalysisTests.test_assumptions_reject_invalid_probability) ... ok
+test_binary_boundaries (test_agenda_analysis.AgendaAnalysisTests.test_binary_boundaries) ... ok
+test_care_reduction_never_exceeds_actual_deduction (test_agenda_analysis.AgendaAnalysisTests.test_care_reduction_never_exceeds_actual_deduction) ... ok
+test_coupled_access_is_normalized (test_agenda_analysis.AgendaAnalysisTests.test_coupled_access_is_normalized) ... ok
+test_coverage_concentration_preserves_total_gap (test_agenda_analysis.AgendaAnalysisTests.test_coverage_concentration_preserves_total_gap) ... ok
+test_emergency_budget_is_separate_and_bounded (test_agenda_analysis.AgendaAnalysisTests.test_emergency_budget_is_separate_and_bounded) ... ok
+test_food_net_of_baseline_and_calendar (test_agenda_analysis.AgendaAnalysisTests.test_food_net_of_baseline_and_calendar) ... ok
+test_guidelines_use_separate_geographies (test_agenda_analysis.AgendaAnalysisTests.test_guidelines_use_separate_geographies) ... ok
+test_housing_cap_net_of_existing_subsidy (test_agenda_analysis.AgendaAnalysisTests.test_housing_cap_net_of_existing_subsidy) ... ok
+test_index_anchor_changes_real_credit (test_agenda_analysis.AgendaAnalysisTests.test_index_anchor_changes_real_credit) ... ok
+test_odc_bounds_and_preservation (test_agenda_analysis.AgendaAnalysisTests.test_odc_bounds_and_preservation) ... ok
+test_probabilities_must_sum_to_one (test_agenda_analysis.AgendaAnalysisTests.test_probabilities_must_sum_to_one) ... ok
+test_probability_mixture_not_mean_income (test_agenda_analysis.AgendaAnalysisTests.test_probability_mixture_not_mean_income) ... ok
+test_sdr_and_lifted_newly_poor_identity (test_agenda_analysis.AgendaAnalysisTests.test_sdr_and_lifted_newly_poor_identity) ... ok
+test_shared_credit_schedule_preserves_existing_engine (test_agenda_analysis.AgendaAnalysisTests.test_shared_credit_schedule_preserves_existing_engine) ... ok
+test_summer_net_of_embedded_baseline (test_agenda_analysis.AgendaAnalysisTests.test_summer_net_of_embedded_baseline) ... ok
+test_temporary_emergency_expires (test_agenda_analysis.AgendaAnalysisTests.test_temporary_emergency_expires) ... ok
+test_voucher_cap_includes_adult_only_households (test_agenda_analysis.AgendaAnalysisTests.test_voucher_cap_includes_adult_only_households) ... ok
+test_weighted_quantile (test_agenda_analysis.AgendaAnalysisTests.test_weighted_quantile) ... ok
 test_adult_itin_branches (test_model.ModelTests.test_adult_itin_branches) ... ok
 test_age17_interpretations_material (test_model.ModelTests.test_age17_interpretations_material) ... ok
 test_baseline_credit_not_double_counted (test_model.ModelTests.test_baseline_credit_not_double_counted) ... ok
@@ -84,6 +103,6 @@ test_resource_formula_includes_refunds_only_once (test_projection_inputs.Project
 test_source_inputs_complete (test_projection_inputs.ProjectionInputTests.test_source_inputs_complete) ... ok
 
 ----------------------------------------------------------------------
-Ran 83 tests (elapsed time omitted for reproducibility)
+Ran 102 tests (elapsed time omitted for reproducibility)
 
 OK

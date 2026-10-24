@@ -17,6 +17,11 @@ def million(value):
 
 
 def markdown(r):
+    intervals=[]
+    for y in (2030,2034):
+        c=next(c for c in r['cases'] if c['year']==y and c['scenario']=='moderate')
+        ci=c['stages'][-1]['sampling_uncertainty']['paired_poor_rate_change']
+        intervals.append(f"{-100*ci['upper95']:.2f}–{-100*ci['lower95']:.2f} points in {y}")
     rows=[]
     for c in r['cases']:
         s=c['stages'][-1]
@@ -62,7 +67,7 @@ The observed source-year child SPM baseline is {pct(r['source_baseline']['poor_r
 
 Stressed, moderate, enhanced and full are analyst assumptions, not measured program-performance estimates, forecast percentiles or confidence bounds. Moderate assumes a 95% conditional coverage share, 95% annual receipt of the incremental CTC, 50%/75% usable care access and 60%/85% pre-K access in 2030/2034, 90% food receipt and 65% voucher lease-up. Full means complete modeled coverage/receipt/access within income rules, the stated food calendar and the voucher award cap; it does not give every eligible renter a voucher. Conditional coverage is an aggregate family-level research convention, not imputed SSN/ITIN status. The main construction leaves the 327 children without a positive Census claimant pointer without a new credit; their proxy inclusion is a separate sensitivity.
 
-The main dollar convention sets the $3,600/$3,000 child credit in 2030 nominal dollars and indexes it thereafter. A coequal sensitivity indexes those amounts from 2025. Neither convention is silently adopted as a legal drafting decision. First-stage increase thresholds follow the 2021 filing-status levels; the retained credit uses the recorded CBO parameter vintage. The age-17 layer is separately branched. Actual source-year credits remain in baseline resources. Receipt applies to the net expansion, preserving baseline credits; this is the explicit increment-only convention, not a model of replacement, reconciliation or repayment losses. Source nonrefundable CTC includes ODC; the main offset subtracts the entire observed combined amount before computing an increment, while the ODC sensitivity retains the maximum possible adult-dependent portion.
+The main dollar convention sets the $3,600/$3,000 child credit in 2030 nominal dollars and indexes it thereafter. A coequal sensitivity indexes those amounts from 2025. Neither convention is silently adopted as a legal drafting decision. First-stage increase thresholds follow the 2021 filing-status levels; the retained credit uses the recorded CBO parameter vintage. The age-17 layer is separately branched. Interview ages proxy for tax-year ages because exact birthdays are unavailable; the Census claimant pointer is not proof of legal qualifying-child status. Actual source-year credits remain in baseline resources. Receipt applies to the net expansion, preserving baseline credits; this is the explicit increment-only convention, not a model of replacement, reconciliation or repayment losses. Source nonrefundable CTC includes ODC; the main offset subtracts the entire observed combined amount before computing an increment, while the ODC sensitivity retains the maximum possible adult-dependent portion.
 
 ## How the channels interact
 
@@ -92,7 +97,7 @@ The carbon extension takes both sides of CLI-2A/REV-C1 from the existing project
 
 The main estimate covers the child-policy channels above. It is not the entire Project 2050 household effect: health coverage and quality, leave benefits, wage and employment changes, other taxes and transfers, public services, housing supply, inflation and long-run child development remain outside the quantified headline. The existing household-incidence and fiscal generators remain the D3/D4 checks. No SPM resource gain or child-weighted poverty gap is presented as a federal budget cost or social value.
 
-All 160 replicate weights are retained, and paired policy changes use the same replicate weights as their baseline. For moderate delivery, the conditional 95% sampling interval for the poverty-rate reduction is about 2.47–3.09 percentage points in 2030 and 2.78–3.44 points in 2034. Sampling intervals exclude uncertainty in legal rules, receipt, proxies, allocation and future conditions. The wider scenario and sensitivity comparisons must be read alongside them. No employment response is credited in the primary runs.
+All 160 replicate weights are retained, and paired policy changes use the same replicate weights as their baseline. For moderate delivery, the conditional 95% sampling intervals for the poverty-rate reduction are {" and ".join(intervals)}. Sampling intervals exclude uncertainty in legal rules, receipt, proxies, allocation and future conditions. The wider scenario and sensitivity comparisons must be read alongside them. No employment response is credited in the primary runs.
 
 ## Who remains poor
 
@@ -166,7 +171,7 @@ const root=document.getElementById('poverty-effects-2050');
 const data=__DATA__;
 const pct=x=>(100*x).toFixed(2)+'%';
 const names={stressed:'Stressed delivery',moderate:'Moderate delivery',enhanced:'Enhanced delivery',full:'Full modeled receipt/access'};
-const sensNames={index_from_2025:'Credit indexed from 2025',carbon_plus_health15pct:'Carbon proxy + 15% MOOP reduction',carbon_plus_health30pct:'Carbon proxy + 30% MOOP reduction'};
+const sensNames={index_from_2025:'Credit indexed from 2025',carbon_plus_health15pct:'Carbon proxy + 15% medical-cost relief',carbon_plus_health30pct:'Carbon proxy + 30% medical-cost relief'};
 const extrema=Object.values(data).flatMap(x=>x.cases.flatMap(c=>[c.baseline.sampling_uncertainty.poor_rate.upper95,c.result.sampling_uncertainty.poor_rate.upper95]));
 const max=Math.ceil(Math.max(...extrema)*100/5)*5;
 function draw(){
