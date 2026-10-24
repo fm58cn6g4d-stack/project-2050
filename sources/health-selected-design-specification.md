@@ -1,10 +1,54 @@
 # Health: selected-design payment and restoration specification
 
-October 24, 2026 · Pass 2 · Draft legislative/operating specification and cost contract; no launch or fiscal certification.
+October 24, 2026 · Selected design merged in PR #16; bounded follow-up assessment proposed for review. No launch or fiscal certification.
 
-**Source:** `main` remains `846be172efdc0c383d5d8c24194de3704a1cbaa1`. This continues draft PR #16 at `c81b3e8a94a1f7538baf2005928440a6584ea221`, including Espen's six selections and conditions, subsequently approved “as such” with an instruction to continue. The [selection record](health-design-options.md#espens-review-selected-specifications-and-conditions) governs this draft. Earlier 2030 restoration, 2031 hearing/vision, dental from 2033 and HLT-3 2031/2032 inputs remain unchanged. Protect fast R1; no new merge or outside-contact authorization is inferred.
+**Historical Pass 2 source:** `main` at `846be172efdc0c383d5d8c24194de3704a1cbaa1`. This continues draft PR #16 at `c81b3e8a94a1f7538baf2005928440a6584ea221`, including Espen's six selections and conditions, subsequently approved “as such” with an instruction to continue. The [selection record](health-design-options.md#espens-review-selected-specifications-and-conditions) governs this draft. Earlier 2030 restoration, 2031 hearing/vision, dental from 2033 and HLT-3 2031/2032 inputs remain unchanged. Protect fast R1; no new merge or outside-contact authorization is inferred.
 
 This specification advances the [payment/vehicle decision packet](health-hearing-vision-decision-packet.md) rather than replace its four-route comparison. It supplies implementable rule structure, a reusable-versus-new enrollment map, nine coverage/tax baseline cohorts, a federal gap-backstop clause map and combined HCBS financing controls. Newly proposed operating provisions are labeled below. Actual fee amounts, workload, utilization and budget remain unpriced. “Draft” does not mean those costs are zero or that counsel/CMS/CBO has approved the text.
+
+## Quick assessment after PR #16
+
+**Context:** HLT-1/2/4; source `main` at `d481bfe5fa92792d6a4c7f8f263f2d51d3b8eee3`, verified October 24, 2026, with no open PRs. Espen reviewed the full specification and authorized PR #16's merge. The subsequent instruction limits this pass to the charter's public and professional levels; detailed implementation guides are deferred. The recommendations here are research, not additional policy selections. The Pass 2 detail below remains supporting work, not a requirement to finish every operating artifact before broader project analysis can proceed.
+
+**Overall recommendation:** retain the selected normal-Medicare benefit and direct-payment approach, take component-specific opportunities for early restoration, and retain the adopted launch schedule while the material evidence gaps remain. There is enough structure for the blueprint to explain what people gain and how it would be delivered. Further health work should concentrate on a defensible marginal score and the few constraints that could change that account.
+
+| Question | Bounded recommendation | What remains consequential |
+| --- | --- | --- |
+| Vision frequency | Keep the approved annual routine exam. For the next comparison, use annual lens replacement when needed, frames every two years, and an annual contact-lens supply as an alternative to spectacle lenses, with medically necessary exceptions. These eyewear intervals and coordination are **proposals**, not adopted benefits or a finding about a universal insurance standard. | Price the glasses/contact choice before selection; clarify whether people can receive both in ordinary circumstances. Calendar versus rolling-year counting can wait. |
+| Hearing | Retain the selected five-year ordinary device interval, clinically needed services and medical exceptions; do not import a severe-only restriction. | Device/service prices and willing providers matter more now than individual billing codes. |
+| Payment and MA | Prefer direct provider/supplier payment. Reuse existing audiology, optometry and eyewear machinery; study allowances only if the marginal supplier work threatens delivery. Keep MA beneficiary access separate from contract integration. | CMS's significant-cost determination, lawful residual payment and provider reach remain material. An allowance is neither a demonstrated shortcut nor an approved substitution. [L4, L6–L7] |
+| Restoration and the gap | Use historical records for outreach and streamlined current eligibility, with ordinary restored application rules. Develop a separately funded direct federal Medicaid-equivalent backstop where states have not expanded. | Current eligibility and lawful data use; federal contracting/network feasibility and the new statute. No general old-claims program or presumed state match. [L8, L11–L12] |
+| HCBS | Combine enhanced service matching with targeted workforce, provider, accessibility and systems support; judge gains by actual care availability. | Match increases can shift financing without adding care. Recurring staff/hours need continuing funding; finite grants cannot stand in for it. [L13] |
+
+### Marginal cost and funding: what the tools can establish now
+
+The existing fiscal/calendar/capacity analysis was rerun, with byte-for-byte reproduction of the [health checks](health-design-model-checks.md). It still does not isolate an actual hearing/vision score from combined HLT-2. The following is a sensitivity to make the financing relationship readable, not a cost range or a proposed fee:
+
+| Illustrative additional annual exam use | Allowed spending | Ordinary Medicare payment | Beneficiary share before other coverage | Illustrative premium / GF financing of Medicare payment |
+| --- | ---: | ---: | ---: | ---: |
+| 1 million additional exams at an assumed $100 allowed amount, deductible already met | $100m | $80m | $20m | $20m premiums / $60m GF, assuming 25% / 75% financing |
+
+This uses the existing tool's `claim_split(100, 0)` (Medicare $80, patient $20) multiplied by one million, and the canonical approximate Part B financing split. Neither quantity nor fee is estimated. It excludes administrative work, premium timing/adjustments, Medicaid buy-in, QMB and other coverage, MA overlap and existing diagnostic payments. It is not a national score or the marginal difference from a biennial benefit: that comparison requires the **additional** exams actually used. Annual entitlement does not imply every enrollee takes an exam. Lenses, frames, contact supply and hearing require separate use/price rows; the combined $18 premium and dental/vision/hearing total cannot supply them.
+
+| Cost item | Treatment in the next supported score | Funding boundary |
+| --- | --- | --- |
+| Extra CY2030 hearing/vision access if accelerated | Additional benefit year plus genuinely new transition work; net existing coverage once | HLT-2 benefit financing, premiums and GF shown separately; no HI reserve use |
+| Setup moved from 2030 to 2029 | Shifted spending unless work actually increases; show FY2029 cash and interest separately | Existing HLT/CAP allowance reconciled first; legal availability is not uncommitted cash |
+| Current-coverage restoration | Additional enrollment months, outreach and case/system work; no cut-period claims total | HLT-1/4 and applicable federal/state shares; CAP only the residual federal work |
+| Federal gap backstop | Reconcile the existing gap allowance against the selected federal architecture | No refusing-state match or free HLT-3 platform assumed |
+| HCBS | Separate new services/grants from federal substitution for existing state spending | HLT-4 first; one owner per cost, lasting funding for recurring capacity |
+
+The completed [Oregon evidence follow-up](health-cms-imp-02-evidence-followup.md#3-attempted-hlt-1-incremental-cost-chain) supplies a useful partial price basis: 100 incremental business-analyst hours at $220 plus 100 functional-SME hours at $268 would equal **$48,800** under the downloaded July 2028–June 2029 rate table. The hours are illustrative; this is not an order, a Medicaid estimate, spare capacity or a national extrapolation. Current amendments, actual quantities and allocation remain missing. The SNAP increment cannot be reused as Medicaid funding. The 13-package [CMS register](health-cms-implementation-cost-register.csv) therefore remains unpriced rather than populated with artificial ranges.
+
+### Delivery judgment and stopping point
+
+The calendar model still gives only 85 calendar days from the central conditional R2 completion to January 2030, versus 315 after R1; these are scenarios, not forecasts or engineering capacity. Protect rapid R1. Earlier HLT-1/4 actions can proceed component by component when authority, funding and delivery permit, while gap coverage, new HCBS slots and national hearing/vision access cannot inherit the fastest subsidy-change timetable. The Oregon base support contract's June 2029 end is a continuity risk to check, not proof of a nationwide delay. Retain the 2031 hearing/vision fallback; no accelerated date is selected here.
+
+**Decisions worth returning to Espen:** the proposed eyewear frequencies/coordination once their cost difference is supported; any acceleration supported by financing and readiness; any actual allowance substitution or new funding amount. Medical-debt relief remains a separate possible design question, reconciled with existing HLT-4 scope. No new decision is required merely to finish this quick pass.
+
+**Defer:** billing-code tables, claim-routing manuals, procurement plans, detailed grant conditions and full state implementation guides. The next useful health contribution is a supported marginal score or evidence that changes a major feasibility judgment, not a larger operating specification. This pass stops here; other workstreams are not launched.
+
+**Evidence and validation limits:** synthesis of the cited primary provisions and completed CMS/pilot records already inspected in this specification; no fresh comprehensive legal audit, new supplier roster, utilization/price dataset or private writing sample obtained. The repository writing guide was used. Existing tools were executed without changing numerical inputs, code or adopted policies. The common rebuild, nine focused tests and generated-report reproduction passed; existing consistency findings remain recorded rather than suppressed. No pilot restart, empirical poverty rerun, outside contact or merge is authorized by this follow-up.
 
 ## 1. Medicare benefit and payment instructions
 
