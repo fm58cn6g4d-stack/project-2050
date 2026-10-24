@@ -206,18 +206,22 @@ def credit_amount(children, tax, branch, policy):
     territories and safe harbors require a reviewed tax baseline/crosswalk.
     """
     kids = [p for p in children if eligible(p, tax, branch)]
-    gross = sum((3600 if p["age"] < 6 else 3000) * policy["policy_index"] for p in kids)
-    reference = sum(policy["reference_under17"] if p["age"] < 17 else
+    return credit_for_ages([p['age'] for p in kids], tax['agi'], tax['filing_status'], policy)
+
+
+def credit_for_ages(ages, agi, filing, policy):
+    """Conditional award arithmetic; callers establish eligibility separately."""
+    gross = sum((3600 if age < 6 else 3000) * policy["policy_index"] for age in ages)
+    reference = sum(policy["reference_under17"] if age < 17 else
                     (policy["reference_age17"] if policy["age17_layer"] == "retained_reference" else 0)
-                    for p in kids)
+                    for age in ages)
     if reference > gross + 1e-8:
         raise ValueError("retained reference exceeds proposed gross credit")
-    filing = tax["filing_status"]
     first = {"joint": 150000, "head": 112500, "other": 75000}[filing] * policy["phaseout_threshold_index"]
     second = (400000 if filing == "joint" else 200000) * policy["phaseout_threshold_index"]
     # Negative AGI is valid and cannot trigger a phaseout.
-    first_cut = 50 * math.ceil(max(0, tax["agi"] - first) / 1000)
-    second_cut = 50 * math.ceil(max(0, tax["agi"] - second) / 1000)
+    first_cut = 50 * math.ceil(max(0, agi - first) / 1000)
+    second_cut = 50 * math.ceil(max(0, agi - second) / 1000)
     return max(0, gross - reference - first_cut) + max(0, reference - second_cut)
 
 
