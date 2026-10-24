@@ -1,12 +1,55 @@
 # Health design: six choices before drafting and costing
 
-October 24, 2026 · Pass 1 for Espen · Proposed choices, not adopted benefit rules.
+October 24, 2026 · Pass 1 reviewed by Espen · Selected specification directions and conditions; launch/financing unresolved.
 
 **Source:** `main` at `846be172efdc0c383d5d8c24194de3704a1cbaa1`, including merged PR #15 and approved 1A/2A/3A/4A development directions. Those decisions protect R1, prioritize existing-bridge assessment, pursue component-specific 2029 restoration and develop reinstatement plus potential retroactive repair. This document makes the next choices reviewable. It does not reopen those four decisions, select launch dates or change numerical inputs. See the [payment/vehicle packet](health-hearing-vision-decision-packet.md) for the statutory and cost questions that remain.
 
-**What is new:** specific benefit branches and recommendations, a tighter gap/HCBS comparison, beneficiary examples and a reproducible application of the existing fiscal/calendar/capacity tools. This is an integration synthesis with new primary-source checks, not a new CMS pilot, counsel opinion or national cost estimate. Choices below need explicit approval; selecting a development priority in choices 5–6 does not settle its spending amount or launch date. The saved [Espen writing guide](../governing/espen-writing-style-guide.md) was used; private original samples remain unavailable.
+**What is new:** specific benefit branches and recommendations, a tighter gap/HCBS comparison, beneficiary examples and a reproducible application of the existing fiscal/calendar/capacity tools. This is an integration synthesis with new primary-source checks, not a new CMS pilot, counsel opinion or national cost estimate. The review record below identifies the selected branches and conditions; design priority does not settle a spending amount or launch date. The saved [Espen writing guide](../governing/espen-writing-style-guide.md) was used; private original samples remain unavailable.
 
-## Choices in plain language
+## Espen's review: selected specifications and conditions
+
+October 24, 2026, following the six-choice review. This record supersedes the earlier “awaiting answers” status; the original comparison remains below for context. These selections direct the next specification/costing pass. They do not establish new launch dates, a marginal score, supplier readiness or legal clearance. PR #16 remains unmerged pending separate authorization.
+
+| Choice | Selection and condition |
+| --- | --- |
+| 1A | Use the defined full hearing/vision specification with ordinary two-/five-year conventions and medically necessary exceptions for the next draft |
+| 2A | Ordinary Part B deductible/20% coinsurance is acceptable insofar as it preserves adding these benefits to normal Medicare. Flag any inconsistency with the adopted intent; do not silently create a standalone cash-benefit program |
+| 3A, conditional 3B exploration | Direct payment to enrolled professionals/suppliers is preferred if implementable. Explore allowance/reimbursement as a bridge or permanent alternative if genuinely new enrollment work would endanger rollout. This authorizes comparison, not automatic substitution or an unpriced allowance amount |
+| 4A | Develop repair from the first attributable loss, using currently available OBBBA provisions and dates as the working legal baseline. Distinguish statutory effective dates from individual coverage loss, eligibility and reimbursable claims |
+| 5A, legally conditional | Develop the federal Medicaid-equivalent backstop for the ACA expansion gap if a lawful pathway can be established. It is distinct from HLT-3 and is not a direction to compel states to expand or to certify existing executive authority |
+| 6A, supplemented | Develop enhanced matching **with targeted grants/other support** for workforce, provider, accessibility, systems and other specific bottlenecks. Grants are part of the combined design, not an excluded alternative; amounts, authority and overlap remain to be specified |
+
+### Answers to the two factual checks
+
+**Normal Medicare:** ordinary Part B sharing is consistent with the intent to add covered services/devices to Medicare. The canonical HLT-2 package expressly uses Part B premium financing and does not adopt universal zero cost sharing; existing covered post-cataract lenses use the deductible/20% structure. No inconsistency with that intent was found. This does not establish that the exact specification is already included in the combined score. The patient can still face material charges, particularly before the adopted $5,000 cap begins in 2031 or without supplemental coverage. An allowance that leaves uncovered device prices would be a different design requiring a visible comparison. [E4, E9]
+
+**Provider enrollment:** this is not an entirely new agency function. CMS already enrolls audiologists and optometrists through existing Medicare processes, and Medicare already pays participating suppliers for covered post-cataract eyewear. Reuse those categories, records, MACs and systems where lawful. New hearing-aid dispensers, retail/OTC sellers, new covered services/device categories, claim codes, scope and workload may still need legislation, enrollment changes and substantial work. Existing enrollment machinery establishes neither enough willing providers nor available processing capacity. Evaluate those marginal gaps before invoking the allowance fallback. An allowance/reimbursement route also needs supplier/quality, fraud, documentation, payment and access rules; it does not automatically eliminate agency work. [E9–E10]
+
+### Coverage-gap context and legal route
+
+The ACA expansion generally reaches adults up to effectively 138% of the federal poverty level in expansion states. The classic coverage gap is narrower: people below poverty who do not qualify under a nonexpansion state's categorical/income rules and generally lack Marketplace credit eligibility. Thus closing HLT-1's gap means reaching people excluded because their state did not expand; it does not automatically adopt a new nationwide income or immigration rule. The existing source's 1.4M figure is a dated working estimate, not a newly verified 2029 cohort. [E11]
+
+Recommend pursuing **new federal legislation under federal taxing/spending authority establishing and funding direct federal coverage**, with a named administrator, covered services, provider/payment contracts, eligibility/correction powers and data authority. This is a plausible legislative pathway to assess, not a claim that CMS can create the full program under existing law. The NFIB decision's Medicaid remedy prevents withholding existing Medicaid funds to force state acceptance of expansion; a direct federal backstop should be designed without that coercive condition or mandatory state administration. That distinction does not itself clear every constitutional, statutory, reconciliation, jurisdiction or administrative-law question. Counsel must assess the actual text, financing, state interfaces and severability before certifying the route. HLT-3's 2031/2032 dates remain separate. [E1, E11–E12]
+
+### Working OBBBA remedy baseline
+
+Use P.L.119-21 as currently enacted, together with accessed CMS implementation guidance, for the first-loss comparison. Do not delay the exercise merely because 2027–28 actual implementation is still future. These are **statutory baseline dates**, not findings that every person lost coverage on that day. Attribute loss case by case and verify eligibility for the relevant month. A later legal/source update can revise the baseline with a documented change.
+
+| Restriction | Currently available baseline | Remedy implication |
+| --- | --- | --- |
+| §71109 Medicaid/CHIP immigration-related funding limit | October 1, 2026 | Assess losses from that restriction separately from other waiting-period rules |
+| §71119 community engagement | January 1, 2027 general implementation deadline, with earlier state implementation permitted and statutory exceptions/transition provisions | Use the applicable state's lawful start and actual attributable denial/termination, not an automatic universal January-2027 loss date |
+| §71107 six-month expansion renewals | Redeterminations scheduled from January 1, 2027 | Identify affected renewal cohorts and resulting losses |
+| §71112 shortened retroactive coverage | Applications made from January 1, 2027 | Identify previously unpaid eligible months/claims; a person may lose retroactive protection without a later termination |
+| §71301 PTC immigration eligibility restrictions | Taxable/plan years beginning in 2027, per subsection-specific clauses | Coordinate tax and Marketplace eligibility records and distinct coverage months |
+| §§71302, 71304, 71305 | §71302 taxable years after 2025; §71304 plan years after 2025; §71305 taxable years after 2025 | Keep PTC eligibility, SEP credit restrictions and APTC recapture remedies distinct; some losses begin in 2026 |
+| §71303 verification requirements | Taxable years beginning after December 31, 2027 under §71303(c); distinguish separately operative regulatory filing requirements | Complete the subsection crosswalk before assuming all verification losses share one date |
+
+The merged packet's S13–S16 provide official law/guidance and the relevant repeal targets. Enrollment-rule moratoria, financing and other cuts also need their own legal/claims crosswalk; this small table does not declare the repeal inventory complete. No twelve-month cap is selected. No universal automatic eligibility, invented claim amount or combined Medicare/Medicaid retroactive start is assumed.
+
+**Next bounded work:** specify the selected normal-Medicare benefit and direct-payment path; inventory reusable enrollment versus marginal supplier work; compare an allowance only under the stated rollout condition; construct first-loss cohorts from the current-law dates; and develop gap-backstop legal text and the combined HCBS match/grant resource map. Continue using the existing model checks and cost work packages; actual costs stay unpriced until supported. No outside contact is authorized.
+
+## Original choices in plain language
 
 | # | Recommended choice | Alternative | Main consequence |
 | --- | --- | --- | --- |
@@ -17,7 +60,7 @@ October 24, 2026 · Pass 1 for Espen · Proposed choices, not adopted benefit ru
 | 5 | **A. Develop a federal Medicaid-equivalent backstop as the preferred gap-closure design**, independent of state expansion decisions | **B. Develop a Marketplace-based gap route first**, with explicit benefits, cost-sharing, enrollment and access protections | A better preserves a Medicaid-equivalent service promise but has substantial institution/payment work. B may reuse more enrollment infrastructure, but is not equivalent merely because premiums are zero. This is a design priority, not selection of a financed operating instrument |
 | 6 | **A. Develop enhanced Medicaid matching plus targeted workforce/administrative support**, using existing state service/payment channels where possible | **B. Develop targeted grants first**, without making a match-rate increase the main HCBS channel | A can connect financing to continuing services and retention but depends on state participation and payment pass-through. B can target bottlenecks but needs separate authority and continuing service financing. Rate, duration and amount remain open |
 
-All recommendations are **A**. Choices 1–4 would authorize specifications to develop and price, not their automatic incorporation in adopted benefits. Choices 5–6 choose which operating design to develop first. Return any concrete new eligibility, benefit level, date, financing or model-input change with its consequences before implementation.
+Espen's responses above govern the next specification/costing pass, including conditional allowance exploration and targeted HCBS grants. The original A/B comparison is retained as review history. Return unresolved eligibility, benefit-level, date, financing and model-input changes with consequences before implementation.
 
 ## Why these choices, and their exact boundaries
 
@@ -98,10 +141,12 @@ Inspected October 24, 2026. Sources below supplement the merged packet's provisi
 | E7 | [CMS SMD 22-002](https://www.medicaid.gov/federal-policy-guidance/downloads/smd22002.pdf), June 3, 2022, pp.1–2 | Historical HCBS match/reinvestment/spending-plan mechanism. No 2029 match, funding amount or delivery-speed inference |
 | E8 | [CMS HCBS authorities](https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities), authority links | Existing state-plan/waiver families; not approval for a particular future benefit, match or state project |
 
+Additional primary sources checked in the review follow-up: **E9**, [Medicare post-cataract eyewear coverage](https://www.medicare.gov/coverage/eyeglasses-contact-lenses), coverage/cost/supplier paragraphs; **E10**, [CMS MLN9658742 provider enrollment](https://www.cms.gov/Outreach-and-Education/Medicare-Learning-Network-MLN/MLNProducts/EnrollmentResources/provider-resources/provider-enrolment/Med-Prov-Enroll-MLN9658742.html), Enrollment and CMS-855I categories (audiologists and optometry), and [CMS PECOS](https://www.cms.gov/medicare/enrollment-renewal/providers-suppliers/chain-ownership-system-pecos/manage-your-enrollment); **E11**, [HealthCare.gov expansion/gap explanation](https://www.healthcare.gov/medicaid-chip/medicaid-expansion-and-you/), eligibility and nonexpansion sections; **E12**, [NFIB v. Sebelius, 567 U.S.519 (2012), official U.S. Reports copy](https://tile.loc.gov/storage-services/service/ll/usrep/usrep567/usrep567519/usrep567519.pdf), Roberts opinion Part IV, especially pp.585–588 remedy. The Supreme Court legacy PDF URL returned 404; Library of Congress supplied the official report. These sources support the distinctions above, not a legal opinion approving proposed text. The first direct diagnostic-hearing coverage URL failed; no new factual claim rests on that failed lookup.
+
 Access limits: a direct ARP §9817 landing-page lookup failed; SMD 22-002 supplied the historical mechanism. Full original health PDF, CMS workbook/source ZIP, APDs, current executed restoration orders and private writing samples were not newly retrieved. Original pilot rates/contracts are attributed to the committed reports with their coverage limits. No specialist, agency, scorer or outside recipient was contacted. No external clearance, current contract capacity, measured national reach or new official cost estimate is claimed.
 
 ## Integration and next decision
 
-This draft belongs on one task branch/PR from the source commit. The six choices are the next user review, with the recommended A branches explicitly proposed. Pass 2 follows the user's selections: exact payment/service definitions, component remedy schedules and a cost/funding bridge sufficient for the next launch/financing decision. Do not merge this update or treat these six choices as approved merely because PR #15 was authorized and merged.
+The selections and conditions above now direct Pass 2: exact payment/service definitions, reusable versus marginal enrollment work, first-loss remedy cohorts, gap-backstop legal text and a combined HCBS match/grant resource map. Launch, financing and legal/operational gates remain open. PR #16 still requires separate merge authorization; PR #15 approval did not authorize its merge.
 
 Validation: the common rebuild completed with all 21 outputs unchanged. The adapter's zero/linearity and fixed-lifetime cash-shift checks passed; null cost/package boundaries were retained. Reproducibility, changed-link checks, whitespace and input-preservation checks belong in the PR completion record. The source SHA manifest in the generated JSON covers reused model code, relevant inputs and the adapter. There is no new empirical poverty execution.
