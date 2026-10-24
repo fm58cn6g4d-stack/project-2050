@@ -1,10 +1,10 @@
 # Project 2050: agent entry point
 
-Before working in this repository:
-1. Read `governing/project-2050-governing-decisions.md` in full, including the design rules and project instructions at the bottom.
-2. Read `governing/project-instructions.md` for shared working rules, file roles, tools and handoffs.
-3. Read the task's canonical domain files and relevant sources.
+Use the live remote repository, not an assumed `main` snapshot. After the October 24 consolidation, `main` is the integration branch; verify its head and incoming PRs before writing. Historical working branch: `claude/pensive-mendel-g1lwl5`.
 
-The approved GitHub governing document is authoritative. Claude artifacts, Google Docs and exports are working copies. Espen approves policy changes; an unmerged proposal does not itself change policy. Identify the branch and commit used, and flag conflicting copies.
+Read once per session, refreshing changed material:
+1. `governing/project-2050-governing-decisions.md` (adopted policy and design rules).
+2. `governing/project-charter.md` (purpose/products) and `governing/project-instructions.md` (shared workflow).
+3. `sources/project-work-queue.md`, then task-relevant domains, sources and validation notes.
 
-Follow the shared instructions rather than maintaining another policy summary here. If those files are unavailable, say so before proceeding with work that depends on them.
+Use `governing/codex-handoff.md` for the transition and `governing/project-file-exchange.md` for research sharing. Follow shared guidance instead of keeping a separate policy summary here. Research does not adopt policy. Keep model inputs unless Espen approves substantive changes; regenerate generated outputs. Use a task branch, validate, open a coherent PR and merge only when authorized. End with commit/PR, checks, limits and next action. No emails or records requests.

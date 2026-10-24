@@ -171,7 +171,7 @@ def build(ledger_path, baseline_path):
     gf_claims = sum(s(r["gf"]) for r in rows if r["group"] == "spending")
     base_rev = -sum(s(r["gf"]) for r in rows if r["group"] == "base revenue")
     later = sum(b["gf_mid"] for b in L["bills"] if b["rail"] in ("LATER", "T2"))
-    checks.append(f"Calibration: program claims {gf_claims:.3f}T = ledger {L['summary']['gf_claims']['mid']}T + {later:.3f}T of later-Congress rows the ledger leaves out of first-Congress claims (MOV-31, DEM-3), which the long-term model includes; base revenue {base_rev:.2f}T (ledger {L['summary']['base_revenue']['mid']}T)")
+    checks.append(f"Calibration: program claims {gf_claims:.3f}T = ledger {L['summary']['gf_claims']['mid']}T + {later:.3f}T of later-Congress rows the ledger leaves out of first-Congress claims (MOV-31, DEM-3), which the long-term model includes; base revenue {base_rev:.3f}T before headline rounding (ledger {L['summary']['base_revenue']['mid']}T)")
 
     # ---- baseline (adjusted) ----
     cbo_debt_2026 = 32095.165  # CBO Feb 2026 end-FY2026 projection

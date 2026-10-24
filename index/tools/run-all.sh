@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Regenerate every generated file in index/ from the scripts in index/tools/.
+# Rebuild the common ledger/fiscal/calendar suite; independent poverty products have their own runners.
 # Usage (from the repo root):   bash index/tools/run-all.sh          # rebuild, show a diff, do not overwrite
 #                               bash index/tools/run-all.sh --write  # rebuild and copy outputs into index/
 #                               bash index/tools/run-all.sh --fetch  # also re-download CBO's data first
@@ -19,6 +19,7 @@ cp "$TOOLS"/incidence-years.py "$BUILD"/years.py
 cd "$BUILD"
 echo "== 0. transportation";    python3 "$TOOLS"/transportation/test_moving_america.py --quiet
                                 python3 "$TOOLS"/transportation/report.py --json "$BUILD"/moving-america.json >/dev/null
+echo "== 0a. ledger precision"; python3 "$TOOLS"/test_ledger_rounding.py
 echo "== 1. ledger";            python3 ledger-build.py >/dev/null
 echo "== 2. floor paths";       python3 ledger-paths.py >/dev/null
 echo "== 2a. scenario calendar"; python3 "$TOOLS/calendar/test_model.py"; python3 "$TOOLS/calendar/build.py"
