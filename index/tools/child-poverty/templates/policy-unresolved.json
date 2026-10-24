@@ -1,0 +1,12 @@
+{
+  "year": null,
+  "policy_index": null,
+  "reference_under17": null,
+  "reference_age17": null,
+  "age17_layer": null,
+  "phaseout_threshold_index": null,
+  "receipt_basis": null,
+  "parameter_provenance": null,
+  "policy_status": "research_only",
+  "min_cell": 30
+}

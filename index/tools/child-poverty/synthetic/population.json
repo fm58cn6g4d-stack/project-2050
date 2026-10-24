@@ -1,0 +1,861 @@
+{
+  "metadata": {
+    "baseline_description": "deliberately artificial; no national interpretation",
+    "dollar_year": 2030,
+    "kind": "synthetic",
+    "resource_year": 2030,
+    "source_vintage": "artificial fixture v2",
+    "weight_basis": "explicit synthetic person/unit weights"
+  },
+  "people": [
+    {
+      "age": 4,
+      "child_id": "ssn",
+      "person_id": "c1",
+      "person_weight": 1,
+      "qualifying_child": true,
+      "replicate_weights": [
+        0.8,
+        1.2
+      ],
+      "spm_unit_id": "u1",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t1"
+    },
+    {
+      "age": 8,
+      "child_id": "ssn",
+      "person_id": "c2",
+      "person_weight": 2,
+      "qualifying_child": true,
+      "replicate_weights": [
+        1.6,
+        2.4
+      ],
+      "spm_unit_id": "u2",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t2"
+    },
+    {
+      "age": 10,
+      "child_id": "itin",
+      "person_id": "c3",
+      "person_weight": 3,
+      "qualifying_child": true,
+      "replicate_weights": [
+        2.4000000000000004,
+        3.5999999999999996
+      ],
+      "spm_unit_id": "u2",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t2"
+    },
+    {
+      "age": 3,
+      "child_id": "ssn",
+      "person_id": "c4",
+      "person_weight": 3,
+      "qualifying_child": true,
+      "replicate_weights": [
+        2.4000000000000004,
+        3.5999999999999996
+      ],
+      "spm_unit_id": "u3",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t3"
+    },
+    {
+      "age": 17,
+      "child_id": "ssn",
+      "person_id": "c5",
+      "person_weight": 1,
+      "qualifying_child": true,
+      "replicate_weights": [
+        0.8,
+        1.2
+      ],
+      "spm_unit_id": "u4",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t4"
+    },
+    {
+      "age": 7,
+      "child_id": "other",
+      "person_id": "c6",
+      "person_weight": 1,
+      "qualifying_child": true,
+      "replicate_weights": [
+        0.8,
+        1.2
+      ],
+      "spm_unit_id": "u5",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t5"
+    },
+    {
+      "age": 5,
+      "child_id": "ssn",
+      "person_id": "c7",
+      "person_weight": 10,
+      "qualifying_child": true,
+      "replicate_weights": [
+        8.0,
+        12.0
+      ],
+      "spm_unit_id": "u6",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t6"
+    },
+    {
+      "age": 35,
+      "child_id": "ssn",
+      "person_id": "a1",
+      "person_weight": 1,
+      "qualifying_child": false,
+      "replicate_weights": [
+        0.8,
+        1.2
+      ],
+      "spm_unit_id": "u1",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t1"
+    },
+    {
+      "age": 35,
+      "child_id": "ssn",
+      "person_id": "a2",
+      "person_weight": 2,
+      "qualifying_child": false,
+      "replicate_weights": [
+        1.6,
+        2.4
+      ],
+      "spm_unit_id": "u2",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t2"
+    },
+    {
+      "age": 35,
+      "child_id": "ssn",
+      "person_id": "a3",
+      "person_weight": 3,
+      "qualifying_child": false,
+      "replicate_weights": [
+        2.4000000000000004,
+        3.5999999999999996
+      ],
+      "spm_unit_id": "u3",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t3"
+    },
+    {
+      "age": 35,
+      "child_id": "ssn",
+      "person_id": "a4",
+      "person_weight": 4,
+      "qualifying_child": false,
+      "replicate_weights": [
+        3.2,
+        4.8
+      ],
+      "spm_unit_id": "u4",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t4"
+    },
+    {
+      "age": 35,
+      "child_id": "ssn",
+      "person_id": "a5",
+      "person_weight": 5,
+      "qualifying_child": false,
+      "replicate_weights": [
+        4.0,
+        6.0
+      ],
+      "spm_unit_id": "u5",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t5"
+    },
+    {
+      "age": 35,
+      "child_id": "ssn",
+      "person_id": "a6",
+      "person_weight": 6,
+      "qualifying_child": false,
+      "replicate_weights": [
+        4.800000000000001,
+        7.199999999999999
+      ],
+      "spm_unit_id": "u6",
+      "subgroups": {
+        "disability": "not_recorded",
+        "earnings_band": "synthetic",
+        "family_structure": "synthetic_family",
+        "geography": "synthetic",
+        "identification": "synthetic_ID",
+        "race_ethnicity": "not_recorded",
+        "tenure": "renter"
+      },
+      "tax_unit_id": "t6"
+    }
+  ],
+  "schema_version": 2,
+  "taxes": [
+    {
+      "agi": 0,
+      "claimant_ids": [
+        "ssn"
+      ],
+      "current_law_ctc": 0,
+      "filing_status": "head",
+      "on_time_months": {
+        "delivered": 6,
+        "enhanced": 12
+      },
+      "receipt": {
+        "delivered": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "enhanced": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "spm_unit_id": "u1",
+      "tax_unit_id": "t1"
+    },
+    {
+      "agi": 0,
+      "claimant_ids": [
+        "ssn"
+      ],
+      "current_law_ctc": 0,
+      "filing_status": "head",
+      "on_time_months": {
+        "delivered": 12,
+        "enhanced": 12
+      },
+      "receipt": {
+        "delivered": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "enhanced": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "spm_unit_id": "u2",
+      "tax_unit_id": "t2"
+    },
+    {
+      "agi": 0,
+      "claimant_ids": [
+        "itin"
+      ],
+      "current_law_ctc": 0,
+      "filing_status": "head",
+      "on_time_months": {
+        "delivered": 12,
+        "enhanced": 12
+      },
+      "receipt": {
+        "delivered": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "enhanced": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "spm_unit_id": "u3",
+      "tax_unit_id": "t3"
+    },
+    {
+      "agi": 140000,
+      "claimant_ids": [
+        "ssn"
+      ],
+      "current_law_ctc": 0,
+      "filing_status": "head",
+      "on_time_months": {
+        "delivered": 12,
+        "enhanced": 12
+      },
+      "receipt": {
+        "delivered": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "enhanced": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "spm_unit_id": "u4",
+      "tax_unit_id": "t4"
+    },
+    {
+      "agi": 0,
+      "claimant_ids": [
+        "ssn"
+      ],
+      "current_law_ctc": 0,
+      "filing_status": "head",
+      "on_time_months": {
+        "delivered": 12,
+        "enhanced": 12
+      },
+      "receipt": {
+        "delivered": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "enhanced": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "spm_unit_id": "u5",
+      "tax_unit_id": "t5"
+    },
+    {
+      "agi": 0,
+      "claimant_ids": [
+        "ssn"
+      ],
+      "current_law_ctc": 2200,
+      "filing_status": "head",
+      "on_time_months": {
+        "delivered": 6,
+        "enhanced": 12
+      },
+      "receipt": {
+        "delivered": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.5
+        ],
+        "enhanced": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      },
+      "spm_unit_id": "u6",
+      "tax_unit_id": "t6"
+    }
+  ],
+  "units": [
+    {
+      "care_family_income": 0,
+      "care_need_eligible": true,
+      "childcare_expense": 6000,
+      "delivery": {
+        "delivered": {
+          "care": false,
+          "emergency_aid": false,
+          "prek": false,
+          "school_meal": true,
+          "summer_ebt": false,
+          "voucher": false
+        },
+        "enhanced": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        },
+        "full_receipt": {
+          "care": false,
+          "emergency_aid": true,
+          "prek": false,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        }
+      },
+      "emergency_aid_awarded": true,
+      "emergency_aid_eligible": true,
+      "emergency_aid_spm_delta": 1000,
+      "housing_increment_cap": 0,
+      "prek_eligible": true,
+      "prek_spm_reduction": 2000,
+      "resources": 2000,
+      "school_meal_spm_delta": 500,
+      "spm_unit_id": "u1",
+      "state_median_income": 50000,
+      "summer_ebt_spm_delta": 60,
+      "threshold": 15000,
+      "unit_weight": 1,
+      "voucher_awarded": false,
+      "voucher_eligible": true,
+      "voucher_spm_delta": 0,
+      "work_care_deduction": 6000,
+      "work_expense": 0
+    },
+    {
+      "care_family_income": 0,
+      "care_need_eligible": false,
+      "childcare_expense": 0,
+      "delivery": {
+        "delivered": {
+          "care": false,
+          "emergency_aid": false,
+          "prek": false,
+          "school_meal": true,
+          "summer_ebt": false,
+          "voucher": false
+        },
+        "enhanced": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        },
+        "full_receipt": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        }
+      },
+      "emergency_aid_awarded": false,
+      "emergency_aid_eligible": false,
+      "emergency_aid_spm_delta": 0,
+      "housing_increment_cap": 4000,
+      "prek_eligible": false,
+      "prek_spm_reduction": 0,
+      "resources": 10000,
+      "school_meal_spm_delta": 1000,
+      "spm_unit_id": "u2",
+      "state_median_income": 50000,
+      "summer_ebt_spm_delta": 0,
+      "threshold": 20000,
+      "unit_weight": 2,
+      "voucher_awarded": true,
+      "voucher_eligible": true,
+      "voucher_spm_delta": 3500,
+      "work_care_deduction": 0,
+      "work_expense": 0
+    },
+    {
+      "care_family_income": 40000,
+      "care_need_eligible": true,
+      "childcare_expense": 7000,
+      "delivery": {
+        "delivered": {
+          "care": true,
+          "emergency_aid": false,
+          "prek": false,
+          "school_meal": false,
+          "summer_ebt": false,
+          "voucher": false
+        },
+        "enhanced": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        },
+        "full_receipt": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        }
+      },
+      "emergency_aid_awarded": false,
+      "emergency_aid_eligible": false,
+      "emergency_aid_spm_delta": 0,
+      "housing_increment_cap": 0,
+      "prek_eligible": false,
+      "prek_spm_reduction": 0,
+      "resources": 38000,
+      "school_meal_spm_delta": 0,
+      "spm_unit_id": "u3",
+      "state_median_income": 50000,
+      "summer_ebt_spm_delta": 0,
+      "threshold": 30000,
+      "unit_weight": 3,
+      "voucher_awarded": false,
+      "voucher_eligible": false,
+      "voucher_spm_delta": 0,
+      "work_care_deduction": 7000,
+      "work_expense": 0
+    },
+    {
+      "care_family_income": 0,
+      "care_need_eligible": false,
+      "childcare_expense": 0,
+      "delivery": {
+        "delivered": {
+          "care": false,
+          "emergency_aid": false,
+          "prek": false,
+          "school_meal": false,
+          "summer_ebt": false,
+          "voucher": false
+        },
+        "enhanced": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        },
+        "full_receipt": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        }
+      },
+      "emergency_aid_awarded": false,
+      "emergency_aid_eligible": false,
+      "emergency_aid_spm_delta": 0,
+      "housing_increment_cap": 0,
+      "prek_eligible": false,
+      "prek_spm_reduction": 0,
+      "resources": 14500,
+      "school_meal_spm_delta": 0,
+      "spm_unit_id": "u4",
+      "state_median_income": 50000,
+      "summer_ebt_spm_delta": 0,
+      "threshold": 16000,
+      "unit_weight": 1,
+      "voucher_awarded": false,
+      "voucher_eligible": false,
+      "voucher_spm_delta": 0,
+      "work_care_deduction": 0,
+      "work_expense": 0
+    },
+    {
+      "care_family_income": 0,
+      "care_need_eligible": false,
+      "childcare_expense": 0,
+      "delivery": {
+        "delivered": {
+          "care": false,
+          "emergency_aid": false,
+          "prek": false,
+          "school_meal": false,
+          "summer_ebt": false,
+          "voucher": false
+        },
+        "enhanced": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        },
+        "full_receipt": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        }
+      },
+      "emergency_aid_awarded": false,
+      "emergency_aid_eligible": false,
+      "emergency_aid_spm_delta": 0,
+      "housing_increment_cap": 0,
+      "prek_eligible": false,
+      "prek_spm_reduction": 0,
+      "resources": -500,
+      "school_meal_spm_delta": 0,
+      "spm_unit_id": "u5",
+      "state_median_income": 50000,
+      "summer_ebt_spm_delta": 0,
+      "threshold": 18000,
+      "unit_weight": 1,
+      "voucher_awarded": false,
+      "voucher_eligible": false,
+      "voucher_spm_delta": 0,
+      "work_care_deduction": 0,
+      "work_expense": 0
+    },
+    {
+      "care_family_income": 0,
+      "care_need_eligible": false,
+      "childcare_expense": 0,
+      "delivery": {
+        "delivered": {
+          "care": false,
+          "emergency_aid": false,
+          "prek": false,
+          "school_meal": false,
+          "summer_ebt": false,
+          "voucher": false
+        },
+        "enhanced": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        },
+        "full_receipt": {
+          "care": true,
+          "emergency_aid": true,
+          "prek": true,
+          "school_meal": true,
+          "summer_ebt": true,
+          "voucher": true
+        }
+      },
+      "emergency_aid_awarded": false,
+      "emergency_aid_eligible": false,
+      "emergency_aid_spm_delta": 0,
+      "housing_increment_cap": 0,
+      "prek_eligible": false,
+      "prek_spm_reduction": 0,
+      "resources": 13000,
+      "school_meal_spm_delta": 0,
+      "spm_unit_id": "u6",
+      "state_median_income": 50000,
+      "summer_ebt_spm_delta": 0,
+      "threshold": 14000,
+      "unit_weight": 8,
+      "voucher_awarded": false,
+      "voucher_eligible": false,
+      "voucher_spm_delta": 0,
+      "work_care_deduction": 0,
+      "work_expense": 0
+    }
+  ]
+}

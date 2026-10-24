@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "kind": "source_year",
+    "source_vintage": "REPLACE WITH EXACT FILE/VERSION",
+    "resource_year": 2025,
+    "dollar_year": 2025,
+    "baseline_description": "Unadjusted public-use SPM resources; no tax/transfer imputation",
+    "weight_basis": "Person MARSUPWT, unit SPM_WEIGHT; verify scales against actual CSV documentation"
+  },
+  "fields": {
+    "household_id": {
+      "column": "H_SEQ",
+      "scale": 1
+    },
+    "person_number": {
+      "column": "PPPOS",
+      "scale": 1
+    },
+    "spm_unit_id": {
+      "column": "SPM_ID",
+      "scale": 1
+    },
+    "tax_unit_id": {
+      "column": "TAX_ID",
+      "scale": 1
+    },
+    "age": {
+      "column": "A_AGE",
+      "scale": 1
+    },
+    "person_weight": {
+      "column": "MARSUPWT",
+      "scale": null
+    },
+    "unit_weight": {
+      "column": "SPM_WEIGHT",
+      "scale": null
+    },
+    "resources": {
+      "column": "SPM_RESOURCES",
+      "scale": 1
+    },
+    "threshold": {
+      "column": "SPM_POVTHRESHOLD",
+      "scale": 1
+    }
+  },
+  "unit_fields": {
+    "childcare_expense": {
+      "column": "SPM_CHILDCAREXPNS",
+      "scale": 1
+    },
+    "work_expense": {
+      "column": "SPM_WKXPNS",
+      "scale": 1
+    },
+    "work_care_deduction": {
+      "column": "SPM_CAPWKCCXPNS",
+      "scale": 1
+    },
+    "baseline_school_meal": {
+      "column": "SPM_SCHLUNCH",
+      "scale": 1
+    },
+    "baseline_housing_subsidy": {
+      "column": "SPM_CAPHOUSESUB",
+      "scale": 1
+    }
+  },
+  "tax_observation_fields": {
+    "AGI": {
+      "column": "AGI",
+      "scale": 1
+    },
+    "CTC_CRD": {
+      "column": "CTC_CRD",
+      "scale": 1
+    },
+    "ACTC_CRD": {
+      "column": "ACTC_CRD",
+      "scale": 1
+    }
+  },
+  "replicate_columns": [],
+  "replicate_scale": null,
+  "missing_tax_ids": [
+    "0",
+    "-1"
+  ],
+  "subgroup_fields": {}
+}
