@@ -220,3 +220,5 @@ INT-1 is the row most likely to attract Republican votes in any scenario, and th
 - frameworks/radical-means-moderate-ends.md: public financing as a parallel track; the charter-forfeiture theory.
 - frameworks/instruments-and-consequences.md: #15 (staffing packaged with the stock ban).
 - index/2029-trifecta-master-ledger.md: rows DEM-1 and INT-1; cuts C9 and C27.
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

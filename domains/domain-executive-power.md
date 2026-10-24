@@ -237,3 +237,5 @@ Sixteen of eighteen items depend on D2. Under F (decided) they pass; under the w
 - index/2029-trifecta-master-ledger.md: rows EXE-1 and T1; cut C10.
 - domains/domain-public-safety.md, SAF-2 (Safe Everywhere plank 2, evidence in domains/public-safety-safe-everywhere.md): canonical for EXE-12.
 - frameworks/scenario-stress-test-talarico-2029-2037.md and sources/climate-durability-pathway-session-findings.md (Oct 20): EXE-18 and its options.
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

@@ -344,3 +344,5 @@ Every chosen row is a benefit except EDU-7, which falls on scholarship donors wi
 - frameworks/scenario-stress-test-talarico-2029-2037.md: universal meals and universality, price-restraint conditions
 - index/revenue-household-incidence-model.md: scenario Q (the decided package) and Q-EDU (EDU-9B as the closer)
 - domains/domain-family.md: FAM-2 and the former FAM-4
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

@@ -1,0 +1,11 @@
+policy,package,not_before,scope_limit,requirements,source
+HLT-1,R1,2030-01-01,Restoration plan year only,Eligibility and payment systems; state and marketplace readiness; lawful effective dates,domains/domain-health.md Felt dates
+HLT-4,R1,2030-01-01,Only adopted early safety-net components,State choices; rates; workforce; CMS authority and funding,domains/domain-health.md Felt dates
+HLT-2,R2,2031-01-01,Hearing/vision 2031; dental 2033,Statutory effective dates; provider and claims readiness,domains/domain-health.md Felt dates
+HLT-3,HLT-3,2031-01-01,Public plan 2031; automatic enrollment 2032,Launch dates fixed; contracts; systems; safeguards; providers,domains/domain-health.md Felt dates
+HLT-5,HLT-3,,Carried price rules; own effective dates unresolved,Hospital and drug provisions need clause-level effective dates,domains/domain-health.md
+SS-1,SS-1,2031-01-01,First COLA benefit timing retained; solvency assurance distinct,SSA score and implementation; adopted closer still open,domains/domain-social-security.md Vehicle timing and floor time
+FAM-1,R1,,Monthly CTC is candidate; payment date unverified,Advance-payment authority; IRS systems; non-filer access; start-up staffing,domains/domain-family.md FAM-1
+FAM-2,R2,2030-01-01,2030-31 initial phase only; full 7 percent cap from 2032,State plans; workforce; provider supply; funding and participation,domains/domain-family.md FAM-2
+CLI-2,R2,2030-01-01,Dividend precedes price collection; receipt date unverified,Non-filer reach; payment design; legal timing with fee,domains/domain-climate.md CLI-2
+DEM-1,DEM-1,,Existing-contact registration and legal protection; not new-plan enrollment,Effective clauses; state implementation; courts; county disposition; accessible correction,domains/domain-democracy.md DEM-1E/F

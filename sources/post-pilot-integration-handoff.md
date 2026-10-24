@@ -46,3 +46,4 @@ Proceed with authorized PR #4 integration after final diff/check review. Refresh
 
 Restoration, DEM-1A, DEM-2A, broader automatic registration and adopted benefit/health designs remain. Narrower prototypes and poverty expansion alternatives are not adopted. No emails, records requests or reviewer contacts were sent.
 
+**Scenario-method integration (October 23):** The fixed 172/163 arithmetic below is retained as legacy provenance. Current demand/capacity strategies are generated in `index/calendar-scenarios.md`; pre-midterm delivery opportunities are screened separately in `index/calendar-delivery-opportunities.md`. New numeric ranges remain illustrative. No existing policy date, fiscal profile, minority right or full-scope fallback is changed. See `sources/calendar-model-review-and-integration.md`.

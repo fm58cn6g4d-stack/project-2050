@@ -128,3 +128,5 @@ All three ride reconciliation and survive at 51, as long as R1 and R2 hold and t
 - [American Action Forum, paid leave and the reconciliation bill](https://www.americanactionforum.org/daily-dish/paid-leave-and-the-reconciliation-bill/): CBO $547B; 0.4% CBO-linked rate; JCT 0.85% break-even
 - Child care: CRFB's $475-800B through 2031, as carried in the original ledger
 - sources/education-transforming-education-act-analysis-and-trust-fund.md: FAM-2D's standards, the under-3 critique and the scale-up evidence
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

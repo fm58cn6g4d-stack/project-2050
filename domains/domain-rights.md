@@ -152,3 +152,5 @@ The ledger carries RTS-1 (old S1, 4 days) and RTS-3 (old S2, 3 days) at no cost,
 - [JURIST, Supreme Court upholds West Virginia and Idaho bans (June 30, 2026)](https://www.jurist.org/news/2026/06/supreme-court-upholds-west-virginia-idaho-bans-on-transgender-athletes-in-womens-sports/)
 - *Dobbs v. Jackson Women's Health Organization* (2022); *Gonzales v. Carhart* (2007); *Bostock v. Clayton County* (2020); *United States v. Skrmetti* (2025); *303 Creative v. Elenis* (2023); *Fulton v. Philadelphia* (2021); *Alexander v. Sandoval* (2001), from my knowledge
 - archive/wargame-floor-time-bill-book.html, Bills 22 and 23 (ideas only); index/2029-trifecta-master-ledger.md, rows RTS-1 and RTS-3
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

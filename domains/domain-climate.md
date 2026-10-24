@@ -476,3 +476,5 @@ The durability session's capacity line (about $0.05T, session estimate) is consi
 - sources/education-ai-education-and-workforce-readiness-act-analysis.md: Title IV data-center disclosure and the Gallup and NRSC data-center findings
 - domains/domain-revenue.md: REV-C1, REV-C2, REV-E2 and the D3 screen
 - index/2029-trifecta-master-ledger.md: the CLI rows' figures and floor days
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.

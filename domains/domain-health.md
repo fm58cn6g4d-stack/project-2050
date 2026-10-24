@@ -99,3 +99,5 @@ Only HLT-1 and part of HLT-4 are felt before November 2030.
 - sources/revenue-channels-and-full-menu.md: the HI gap (0.56% of payroll, Q2 2033 depletion, $85B shortfall in 2033) and the HI revenue rows.
 - domains/domain-revenue.md: governs the channel assignment of REV-H1a and REV-H1b.
 - index/revenue-assignment-audit.md: the HI channel assignment and the open items flagged above.
+
+**Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.
