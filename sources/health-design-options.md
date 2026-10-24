@@ -6,6 +6,8 @@ October 24, 2026 · Pass 1 reviewed by Espen · Selected specification direction
 
 **What is new:** specific benefit branches and recommendations, a tighter gap/HCBS comparison, beneficiary examples and a reproducible application of the existing fiscal/calendar/capacity tools. This is an integration synthesis with new primary-source checks, not a new CMS pilot, counsel opinion or national cost estimate. The review record below identifies the selected branches and conditions; design priority does not settle a spending amount or launch date. The saved [Espen writing guide](../governing/espen-writing-style-guide.md) was used; private original samples remain unavailable.
 
+**Selected-design implementation draft:** [payment, enrollment, first-loss remedies, federal gap authority and HCBS match/grant specification](health-selected-design-specification.md). Espen approved the recorded directions “as such” and authorized continuation; the new operating clauses remain a reviewable draft.
+
 ## Espen's review: selected specifications and conditions
 
 October 24, 2026, following the six-choice review. This record supersedes the earlier “awaiting answers” status; the original comparison remains below for context. These selections direct the next specification/costing pass. They do not establish new launch dates, a marginal score, supplier readiness or legal clearance. PR #16 remains unmerged pending separate authorization.

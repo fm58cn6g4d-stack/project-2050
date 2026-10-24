@@ -50,3 +50,20 @@ Claim boundaries follow the primary-law analysis in the decision packet; they ar
 The household-incidence model values combined HLT-2 benefits and premiums at quintile level. It cannot resolve the distribution of a device copayment or an MA bridge charge for a particular person. Use beneficiary examples for that question; do not claim the existing aggregate D3 result clears a new benefit rule.
 
 Reproduction: run `bash index/tools/run-all.sh`, then `python3 index/tools/health/decision_analysis.py`. Companion JSON includes source SHA-256 values and explicit unknowns. The completed CMS pilot supplies the state/vendor cost-chain method; no pilot or empirical poverty model is rerun.
+
+## Selected-specification accounting examples
+
+Illustrative dollars per assigned covered FFS claim. These assume the payer map and eligibility are already resolved; $1,000 is not a device-price estimate. Other coverage is omitted. For QMBs, the non-Medicare share is not collectible from the patient; this does not imply that Medicaid pays all of it or that Medicare pays more.
+
+| Case | Allowed | Remaining deductible | Medicare | Patient before other coverage (QMB protection applied) | Non-Medicare share |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| ordinary_after_deductible | 1000.00 | 0.00 | 800.00 | 200.00 | 200.00 |
+| ordinary_100_remaining | 1000.00 | 100.00 | 720.00 | 280.00 | 280.00 |
+| QMB_100_remaining | 1000.00 | 100.00 | 720.00 | 0.00 | 280.00 |
+| unknown_allowed_amount | unpriced | 100.00 | unpriced | unpriced | unpriced |
+
+HCBS accounting illustration only: 100 units of eligible services at an assumed 60% base match plus 10 percentage points, and 10 units of **separate** grant-funded work, give federal 80.0, state 30.0, total resources 110.0. None of those rates/amounts is a selected 2029 assumption. Match contributions are shares of the 100 service units, not additional resources on top; the 10 grant units must cover separate costs. An invoice cannot occupy both pools.
+
+The authored work maps contain 9 OBBBA remedy cohorts and 7 enrollment categories. Dates are statutory baseline triggers, not observed loss dates or headcounts. Their complete source hashes are in the JSON. The mapped cohorts do not claim to exhaust every health-cut provision.
+
+Focused boundary tests: `python3 index/tools/health/test_decision_analysis.py`. The payer function tests assumptions and unresolved branches; it does not certify a real claim, significant-cost determination or supplier authority.

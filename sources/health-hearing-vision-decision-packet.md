@@ -10,7 +10,7 @@ Read with [canonical health](../domains/domain-health.md), [capacity](../domains
 
 Espen selected **1A, 2A, 3A and 4A** and authorized PR #15's merge: protect rapid R1; examine the existing Original-Medicare bridge first; pursue feasible 2029 restoration component by component; and develop reinstatement plus potential retroactive coverage/claims repair, returning lookback and costs for decision. These are development choices, not adoption of an accelerated launch, new benefit specifications or unpriced financing. See the [governing approval record](../governing/project-2050-governing-decisions.md#health-packet-review-decisions-approved-october-24).
 
-**Next review after PR #15:** [six proposed health design choices](health-design-options.md), with [reproducible checks using the existing models](health-design-model-checks.md). These Pass 1 proposals are not new approvals.
+**Next review after PR #15:** [six proposed health design choices](health-design-options.md), with [reproducible checks using the existing models](health-design-model-checks.md). The selected branches and conditions now have an approved review record and a [Pass 2 specification](health-selected-design-specification.md); new operating clauses, launch and financing gates remain for review.
 
 ## Decision brief
 

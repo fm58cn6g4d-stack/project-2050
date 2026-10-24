@@ -160,6 +160,59 @@
     }
   ],
   "actual_benefit_cost": null,
+  "normalized_claim_examples": [
+    {
+      "case": "ordinary_after_deductible",
+      "allowed": 1000.0,
+      "remaining_deductible": 0.0,
+      "qmb": false,
+      "medicare": 800.0,
+      "patient": 200.0,
+      "non_medicare_share": 200.0
+    },
+    {
+      "case": "ordinary_100_remaining",
+      "allowed": 1000.0,
+      "remaining_deductible": 100.0,
+      "qmb": false,
+      "medicare": 720.0,
+      "patient": 280.0,
+      "non_medicare_share": 280.0
+    },
+    {
+      "case": "QMB_100_remaining",
+      "allowed": 1000.0,
+      "remaining_deductible": 100.0,
+      "qmb": true,
+      "medicare": 720.0,
+      "patient": 0.0,
+      "non_medicare_share": 280.0
+    },
+    {
+      "case": "unknown_allowed_amount",
+      "allowed": null,
+      "remaining_deductible": 100.0,
+      "qmb": false,
+      "medicare": null,
+      "patient": null,
+      "non_medicare_share": null
+    }
+  ],
+  "normalized_claim_examples_unit": "illustrative dollars per assigned claim, not billions; not price estimates",
+  "normalized_hcbs_example": {
+    "federal": 80.0,
+    "state": 30.000000000000004,
+    "resources": 110.0
+  },
+  "normalized_hcbs_assumptions": {
+    "eligible_spending": 100.0,
+    "base_match": 0.6,
+    "increase": 0.1,
+    "separate_grants": 10.0,
+    "unit": "illustrative currency units; not 2029 assumptions"
+  },
+  "remedy_cohort_count": 9,
+  "enrollment_category_count": 7,
   "source_sha256": {
     "index/tools/fiscal-model.py": "323f68f4c6534ae32c0f200c86358165d7e4bf6a1ba810463b8441ab9eae0b3c",
     "index/tools/calendar/model.py": "518de1501dfd426094aa1755a1bcaaf55fad3a8a0e08447753edd3396e8618b0",
@@ -170,8 +223,11 @@
     "index/data/inputs/fiscal-years.csv": "e0cd6fe6ef2ab69c199247812a200639343990933a66af98dd34db34f062016a",
     "index/data/inputs/calendar-scenarios.json": "1ac930965547eeb079062777162627040a661429c2507007a5ff825b13c0cc39",
     "index/data/inputs/capacity-funding.csv": "fd6414009b749a7baa094aebe9a8281a7ea7659fa0bc9bcc9f12346b6d465bbc",
-    "sources/health-cms-implementation-cost-register.csv": "5524def658d70907b997a5ba9f5c5e41c633364a5aba34682e4697ec522c821e",
-    "index/tools/health/decision_analysis.py": "68cb650d4f2c33bc1923a85a09c4c919bf8201500e66167faefb0178fe1f270b"
+    "sources/health-cms-implementation-cost-register.csv": "5e77d9cd078c1d40bcf434b7275ee36df57f298ad3186d23aa17a238c15ba61a",
+    "index/tools/health/decision_analysis.py": "71e0a4f4c67ee8be02365f762088f6bd7951dc13d243e79046cfa79cb30d9475",
+    "index/tools/health/test_decision_analysis.py": "3173e7b70f81e66d8cad68b20ca3ec7ad3b5c491e4562a4ae301f5c530e95cd4",
+    "sources/health-restoration-remedy-cohorts.csv": "a9ae15bb149d18cb0c5a6e58e2a2ddf30d66aca1dfb9cb8d7a6783dc464af442",
+    "sources/health-enrollment-work-map.csv": "9e8c696f8f7ec57e93ebfd4d0a170ea8d6ae919feef1a37b88e78733dbba78f4"
   },
   "verification": "Debt zero/linearity and cash-shift conservation; package unknowns retained; existing model checks run by common runner"
 }

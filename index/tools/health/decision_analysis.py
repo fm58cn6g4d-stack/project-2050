@@ -24,6 +24,50 @@ def module(name, path):
     return mod
 
 
+def claim_split(allowed, remaining_deductible, qmb=False):
+    """Illustrative assigned FFS 80/20 claim, not actual adjudication.
+    Other coverage and state-payment amounts are unknown; QMB cannot be billed.
+    """
+    if allowed is None or remaining_deductible is None:
+        return dict(medicare=None, patient=None, non_medicare_share=None)
+    if allowed < 0 or remaining_deductible < 0:
+        raise ValueError('Negative allowed amount or deductible')
+    deductible = min(allowed, remaining_deductible)
+    medicare = .8 * (allowed - deductible)
+    share = allowed - medicare
+    return dict(medicare=medicare, patient=0.0 if qmb else share,
+                non_medicare_share=share)
+
+
+def payer_route(enrollment, adjusted=False, existing_obligation=False,
+                significance='unknown', overlap_known=False):
+    """Boundary experiment under the packet's assumptions, not a payer decision.
+    A nominal supplemental allowance does not establish a residual claim amount.
+    """
+    if enrollment not in ('FFS', 'MA'):
+        raise ValueError('Unknown enrollment type')
+    if significance not in ('unknown', 'significant', 'nonsignificant'):
+        raise ValueError('Unknown determination')
+    if enrollment == 'FFS':
+        return 'FFS'
+    if adjusted or existing_obligation or significance == 'nonsignificant':
+        return 'MA'
+    if significance == 'significant' and overlap_known:
+        return 'FFS'
+    return 'unresolved'
+
+
+def hcbs_split(eligible_spending, base_match, increase, separate_grants):
+    """Illustrative separate service/grant resource pools; not a matching ruling."""
+    if any(v is None for v in (eligible_spending, base_match, increase, separate_grants)):
+        return dict(federal=None, state=None, resources=None)
+    if min(eligible_spending, base_match, increase, separate_grants) < 0 or base_match + increase > 1:
+        raise ValueError('Invalid expenditure or match assumptions')
+    federal = (base_match + increase) * eligible_spending + separate_grants
+    state = (1 - base_match - increase) * eligible_spending
+    return dict(federal=federal, state=state, resources=eligible_spending + separate_grants)
+
+
 def analyze():
     fiscal = module('health_fiscal', TOOLS / 'fiscal-model.py')
     cal = module('health_calendar', TOOLS / 'calendar/model.py')
@@ -79,13 +123,33 @@ def analyze():
         dict(case='nonsignificant_change', payer='MA plan from statutory effective date', amount=None),
         dict(case='first_adjusted_contract_year', payer='MA plan; no duplicate FFS payment', amount=None),
     ]
-    files = ['index/tools/fiscal-model.py', 'index/tools/calendar/model.py',
+    claims = [dict(case=name, allowed=allowed, remaining_deductible=deductible, qmb=qmb,
+                   **claim_split(allowed, deductible, qmb))
+              for name, allowed, deductible, qmb in [
+                  ('ordinary_after_deductible', 1000.0, 0.0, False),
+                  ('ordinary_100_remaining', 1000.0, 100.0, False),
+                  ('QMB_100_remaining', 1000.0, 100.0, True),
+                  ('unknown_allowed_amount', None, 100.0, False)]]
+    match_example = hcbs_split(100.0, .60, .10, 10.0)
+    assert abs(match_example['federal'] + match_example['state'] - match_example['resources']) < 1e-10
+    with (ROOT / 'sources/health-restoration-remedy-cohorts.csv').open() as f:
+        cohorts = list(csv.DictReader(f))
+    with (ROOT / 'sources/health-enrollment-work-map.csv').open() as f:
+        enrollment = list(csv.DictReader(f))
+    assert len({x['cohort'] for x in cohorts}) == len(cohorts)
+    assert len({x['category'] for x in enrollment}) == len(enrollment)
+    for x in cohorts:
+        date.fromisoformat(x['baseline_effective_date'])
+    files = ['index/tools/fiscal-model.py' , 'index/tools/calendar/model.py',
              'index/tools/capacity-funding.py', 'index/data/fiscal-baseline.csv',
              'index/data/inputs/ledger-bills.csv', 'index/data/inputs/fiscal-profiles.csv',
              'index/data/inputs/fiscal-years.csv', 'index/data/inputs/calendar-scenarios.json',
              'index/data/inputs/capacity-funding.csv',
              'sources/health-cms-implementation-cost-register.csv',
-             'index/tools/health/decision_analysis.py']
+             'index/tools/health/decision_analysis.py',
+             'index/tools/health/test_decision_analysis.py',
+             'sources/health-restoration-remedy-cohorts.csv',
+             'sources/health-enrollment-work-map.csv']
     return dict(source_commit='846be172efdc0c383d5d8c24194de3704a1cbaa1',
                 status='Research calculations; unit sensitivities, not health cost estimates',
                 unit='billions of nominal dollars unless specified',
@@ -96,6 +160,11 @@ def analyze():
                 calendar=calendar, surge=surge,
                 packages=[dict(id=x['work_package'], net_increment_bn=None, fy2029_cash_bn=None) for x in packages],
                 payment_cases=overlap_cases, actual_benefit_cost=None,
+                normalized_claim_examples=claims,
+                normalized_claim_examples_unit='illustrative dollars per assigned claim, not billions; not price estimates',
+                normalized_hcbs_example=match_example,
+                normalized_hcbs_assumptions=dict(eligible_spending=100.0, base_match=.60, increase=.10, separate_grants=10.0, unit='illustrative currency units; not 2029 assumptions'),
+                remedy_cohort_count=len(cohorts), enrollment_category_count=len(enrollment),
                 source_sha256={p: hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in files},
                 verification='Debt zero/linearity and cash-shift conservation; package unknowns retained; existing model checks run by common runner')
 
@@ -128,6 +197,17 @@ def render(r):
     lines += ['', 'Claim boundaries follow the primary-law analysis in the decision packet; they are an explicit review matrix, not an executable adjudication engine. Partial allowances are deliberately unresolved. Do not treat nominal allowance subtraction as legal claim allocation.', '',
               'The household-incidence model values combined HLT-2 benefits and premiums at quintile level. It cannot resolve the distribution of a device copayment or an MA bridge charge for a particular person. Use beneficiary examples for that question; do not claim the existing aggregate D3 result clears a new benefit rule.', '',
               'Reproduction: run `bash index/tools/run-all.sh`, then `python3 index/tools/health/decision_analysis.py`. Companion JSON includes source SHA-256 values and explicit unknowns. The completed CMS pilot supplies the state/vendor cost-chain method; no pilot or empirical poverty model is rerun.']
+    lines += ['', '## Selected-specification accounting examples', '',
+              'Illustrative dollars per assigned covered FFS claim. These assume the payer map and eligibility are already resolved; $1,000 is not a device-price estimate. Other coverage is omitted. For QMBs, the non-Medicare share is not collectible from the patient; this does not imply that Medicaid pays all of it or that Medicare pays more.', '',
+              '| Case | Allowed | Remaining deductible | Medicare | Patient before other coverage (QMB protection applied) | Non-Medicare share |',
+              '| --- | ---: | ---: | ---: | ---: | ---: |']
+    for c in r['normalized_claim_examples']:
+        def show(v): return 'unpriced' if v is None else f'{v:.2f}'
+        lines.append('| '+c['case']+' | '+' | '.join(show(c[k]) for k in ('allowed','remaining_deductible','medicare','patient','non_medicare_share'))+' |')
+    h = r['normalized_hcbs_example']
+    lines += ['', f"HCBS accounting illustration only: 100 units of eligible services at an assumed 60% base match plus 10 percentage points, and 10 units of **separate** grant-funded work, give federal {h['federal']:.1f}, state {h['state']:.1f}, total resources {h['resources']:.1f}. None of those rates/amounts is a selected 2029 assumption. Match contributions are shares of the 100 service units, not additional resources on top; the 10 grant units must cover separate costs. An invoice cannot occupy both pools.", '',
+              f"The authored work maps contain {r['remedy_cohort_count']} OBBBA remedy cohorts and {r['enrollment_category_count']} enrollment categories. Dates are statutory baseline triggers, not observed loss dates or headcounts. Their complete source hashes are in the JSON. The mapped cohorts do not claim to exhaust every health-cut provision.", '',
+              'Focused boundary tests: `python3 index/tools/health/test_decision_analysis.py`. The payer function tests assumptions and unresolved branches; it does not certify a real claim, significant-cost determination or supplier authority.']
     return '\n'.join(lines)+'\n'
 
 
