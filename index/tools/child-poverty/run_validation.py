@@ -96,7 +96,7 @@ def cli_smoke(out):
 
 def run(out):
     out.mkdir(parents=True, exist_ok=True)
-    suite = unittest.defaultTestLoader.discover(str(ROOT), pattern="test_model.py")
+    suite = unittest.defaultTestLoader.discover(str(ROOT), pattern="test_*.py")
     transcript = io.StringIO()
     result = unittest.TextTestRunner(stream=transcript, verbosity=2).run(suite)
     text = re.sub(r"Ran (\d+) tests in [\d.]+s", r"Ran \1 tests (elapsed time omitted for reproducibility)", transcript.getvalue())
@@ -126,7 +126,8 @@ def run(out):
     hashes = {p.name: sha256(p) for p in files}
     write_json(out/"validation-summary.json", {"tests_run": result.testsRun, "failures": len(result.failures),
         "errors": len(result.errors), "python": platform.python_version(), "scenarios_generated": len(records),
-        "legacy_regression": "passed", "cli_integration": "passed", "national_calibration": "NOT_RUN_NO_CPS_DATA",
+        "legacy_regression": "passed", "cli_integration": "passed",
+        "national_calibration": "Not run by synthetic suite; see separate empirical source-year audit in empirical/cps-2026-baseline.json",
         "files": hashes})
     files.append(out/"validation-summary.json")
     (out/"MANIFEST.sha256").write_text("".join(f"{sha256(p)}  {p.name}\n" for p in sorted(files)), encoding="utf-8")

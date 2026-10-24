@@ -12,7 +12,7 @@ Python 3.9 or later, standard library only; verified here with Python 3.12.14. F
 python3 index/tools/child-poverty/run_validation.py
 ```
 
-The runner works from other working directories too. It executes 62 unit/regression tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial.
+The runner works from other working directories too. It executes 83 unit/regression tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial. Official-data executions are separately recorded in `empirical/`.
 
 The `synthetic/` JSON fixtures are inspectable and reproducible with `python3 index/tools/child-poverty/fixtures.py`. Test receipt/index/reference values are **not** production tax parameters. A full-receipt case does not create a care slot or award a voucher. Enhanced delivery may explicitly add a service that was unavailable under the supplied baseline supply assumptions.
 
@@ -62,6 +62,21 @@ ZIP inputs are supported. Specify `--member` when more than one CSV is present. 
 The production templates intentionally contain nulls. Verify the exact file vintage, weight scaling, replicate column names and unit fields against its documentation. **Do not treat `SPM_CHILDCAREXPNS` as a capped deduction:** Census labels it uncapped; the combined capped field is `SPM_CAPWKCCXPNS`. Person estimates use `MARSUPWT`, not `SPM_WEIGHT`. Retain a named public-use baseline separately from administrative-underreporting adjustments.
 
 Policy overlays add reviewed claimant/dependent assignments, actual current-law tax amounts, identification assumptions and delivery/service inputs. They cannot overwrite the source-year resource/threshold/weight fields. Project the source-year baseline before attaching target-year policy/service overlays. `project.py` imports a complete, externally audited target-year replacement/reweighting ledger and checks population controls. It supplies no invented inflation path, tax projection, cohort aging or demographic weights. Non-synthetic policy runs require the correct target-year/dollar-year and input-review references.
+
+## Target-year preparation
+
+The [target-year preparation report](../../../sources/family-child-poverty-target-year-preparation.md) records the exact source-year tax/SPM reconciliation, separate own-return and dependent-claimant links, official CBO calendar-year and CTC parameter extracts, and two demographic sensitivities. Reproduce the empirical audit and optional claimant crosswalk with:
+
+```bash
+python3 index/tools/child-poverty/cps_projection.py \
+  --archive /path/to/asecpub26csv.zip \
+  --output build/child-poverty/cps-target-year-preparation.json \
+  --crosswalk-output build/child-poverty/cps-claimant-crosswalk.csv
+```
+
+`current_law_ctc.py` calculates conditional Schedule-8812 arithmetic from reviewed qualifying-dependent counts, earned income, MAGI and Worksheet A limits. It uses CBO's February 2026 parameters; it does not recompute total tax liability or infer eligibility from CPS citizenship/age. Its combined CTC/ODC result must not be imported as CTC alone. Census `CTC_CRD` also combines CTC and ODC, and `SPM_FEDTAX` already includes refundable credits. Census dependent pointers and a dependent's own `TAX_ID` can identify different returns.
+
+The demographic sensitivity holds real resources and within-cell poverty fixed while applying CBO Social Security-area age/sex growth ratios to the CPS sample. It does not use CBO's absolute totals as CPS controls. Its outputs have `policy_ready: false`; they are not policy-engine inputs or complete 2030/2034 current-law forecasts. Income, tax/transfer, threshold, expense and delivery projections remain to be jointly reviewed and supplied.
 
 ## Accounting and interpretation
 

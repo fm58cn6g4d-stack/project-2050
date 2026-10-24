@@ -61,8 +61,29 @@ test_projection_without_ledger_refused (test_model.PipelineTests.test_projection
 test_repeated_unit_inconsistency_rejected (test_model.PipelineTests.test_repeated_unit_inconsistency_rejected) ... ok
 test_replicates_join_by_keys (test_model.PipelineTests.test_replicates_join_by_keys) ... ok
 test_unknown_ids_not_fabricated (test_model.PipelineTests.test_unknown_ids_not_fabricated) ... ok
+test_combined_credit_full_phaseout (test_projection_inputs.CurrentLawCreditTests.test_combined_credit_full_phaseout) ... ok
+test_joint_threshold (test_projection_inputs.CurrentLawCreditTests.test_joint_threshold) ... ok
+test_missing_reviews_and_fractional_children_rejected (test_projection_inputs.CurrentLawCreditTests.test_missing_reviews_and_fractional_children_rejected) ... ok
+test_no_earnings_no_refund (test_projection_inputs.CurrentLawCreditTests.test_no_earnings_no_refund) ... ok
+test_odc_not_refundable_or_called_ctc (test_projection_inputs.CurrentLawCreditTests.test_odc_not_refundable_or_called_ctc) ... ok
+test_official_target_parameters (test_projection_inputs.CurrentLawCreditTests.test_official_target_parameters) ... ok
+test_partial_tax_liability_and_refund (test_projection_inputs.CurrentLawCreditTests.test_partial_tax_liability_and_refund) ... ok
+test_phaseout_uses_next_thousand (test_projection_inputs.CurrentLawCreditTests.test_phaseout_uses_next_thousand) ... ok
+test_refund_earned_income_phasein (test_projection_inputs.CurrentLawCreditTests.test_refund_earned_income_phasein) ... ok
+test_refundable_cap (test_projection_inputs.CurrentLawCreditTests.test_refundable_cap) ... ok
+test_source_year_maximum (test_projection_inputs.CurrentLawCreditTests.test_source_year_maximum) ... ok
+test_special_case_rejected (test_projection_inputs.CurrentLawCreditTests.test_special_case_rejected) ... ok
+test_target_year_maxima (test_projection_inputs.CurrentLawCreditTests.test_target_year_maxima) ... ok
+test_three_child_payroll_route (test_projection_inputs.CurrentLawCreditTests.test_three_child_payroll_route) ... ok
+test_three_child_payroll_route_requires_inputs (test_projection_inputs.CurrentLawCreditTests.test_three_child_payroll_route_requires_inputs) ... ok
+test_unsupported_year_rejected (test_projection_inputs.CurrentLawCreditTests.test_unsupported_year_rejected) ... ok
+test_dependent_filer_keeps_own_return_separate (test_projection_inputs.ProjectionInputTests.test_dependent_filer_keeps_own_return_separate) ... ok
+test_no_pointer_does_not_create_claimant (test_projection_inputs.ProjectionInputTests.test_no_pointer_does_not_create_claimant) ... ok
+test_relative_growth_not_absolute_population (test_projection_inputs.ProjectionInputTests.test_relative_growth_not_absolute_population) ... ok
+test_resource_formula_includes_refunds_only_once (test_projection_inputs.ProjectionInputTests.test_resource_formula_includes_refunds_only_once) ... ok
+test_source_inputs_complete (test_projection_inputs.ProjectionInputTests.test_source_inputs_complete) ... ok
 
 ----------------------------------------------------------------------
-Ran 62 tests (elapsed time omitted for reproducibility)
+Ran 83 tests (elapsed time omitted for reproducibility)
 
 OK
