@@ -1,24 +1,24 @@
-# Public-product prototype
+# Project 2050: working public edition
 
-Internal review edition, October 24, 2026. Source `main`: `3594c784b35651ee34fc7661274219bf82f3adcb`. Product proposal and implementation; no adopted policy, date or model input changes. Read the full [blueprint](../../../sources/public-product-blueprint.md) and [three treatments](../../public-2050/directions.html).
+October 25, 2026 · Draft PR #19 on `codex/public-product-blueprint`. Source `main`: `3594c784b35651ee34fc7661274219bf82f3adcb`. The expanded edition implements Espen’s direction: principles, goals and connected policy choices in plain language, with democratic movement and long-term accountability. Detailed funding and model discussion lives in the separate analysis companion. No adopted policy, date or model input changed. Read the [blueprint](../../../sources/public-product-blueprint.md).
 
 ## View it
 
-Open `index/public-2050/index.html` directly in a modern browser. It is self-contained, works offline, and links to `directions.html` and `manifest.json` in the same directory. Download those three files together from the task branch; GitHub's normal HTML view displays source rather than running the page. Professional evidence links use the pinned source commit and may require repository access. No local filesystem or Library link is required to read the scene and its limitations.
-
-For a local HTTP preview, from the repository root:
+Download `index/public-2050/` from the task branch and open `index.html` in a modern browser, or run this command from the repository root:
 
 ```bash
 python3 -m http.server 8765 --bind 127.0.0.1 --directory index/public-2050
 ```
 
-Then open `http://127.0.0.1:8765/` on the **same machine**. A cloud workspace loopback address is not a desktop preview URL. No public or tunnel endpoint was created. Stop the server with Ctrl-C.
+Open `http://127.0.0.1:8765/` on the **same machine**. A cloud workspace loopback address is not a desktop preview URL. No public or tunnel endpoint was created. Stop the server with Ctrl-C. GitHub’s normal HTML view displays source rather than running the page.
 
-Browser screenshots are [desktop](../../public-2050/review-desktop.png), [mobile](../../public-2050/review-mobile.png) and [directions](../../public-2050/review-directions.png). They are review captures, not authoritative model outputs. The HTML is the working interaction.
+The page works offline, with a JavaScript enhancement for choosing scenes. Follow “The analysis” for the companion. Keep these five generated files together: `index.html`, `analysis.html`, `directions.html`, `public-map.json`, `manifest.json`. Professional source links use the pinned commit and may require repository access; the authored public and analytical explanations do not. The original three design treatments remain available from the companion’s edition notes.
 
-## Build and checks
+Review captures: [desktop page](../../public-2050/review-desktop.png), [mobile page](../../public-2050/review-mobile.png), [community story](../../public-2050/review-story.png), [analysis entrance](../../public-2050/review-analysis.png) and [three treatments](../../public-2050/review-directions.png). These are screenshots; the HTML provides the working interaction.
 
-Requires Python 3.9+ and Git; no package installation for the artifact. No source download or model simulation occurs in this publisher.
+## Build and check
+
+Requires Python 3.9+ and Git; the artifact needs no package installation, source download or model simulation.
 
 ```bash
 python3 index/tools/public-product/build.py
@@ -26,32 +26,46 @@ python3 index/tools/public-product/build.py --check
 python3 index/tools/public-product/test_build.py
 ```
 
-The Python publisher reads `content.json`, CSS, the SVG illustration, navigation JavaScript and the direction template. It emits `index/public-2050/index.html`, `directions.html` and `manifest.json`; do not hand-edit these products. It reads the FY2040 DEC `gf_primary` field from the existing fiscal CSV, where positive values are deficits in nominal $B. It reads the three `adopted_cases` from the existing family comparison JSON. It does not add effects, interpolate cases, rephase costs or compute personal benefits.
+The publisher reads `content.json`, `site.html`, CSS, the SVG illustration, navigation JavaScript and the direction template. It generates the five files listed above; do not hand-edit them. The analysis reads FY2040 DEC `gf_primary` and GDP from the existing fiscal CSV, where a positive primary gap is a deficit in nominal $B. It reads three `adopted_cases` from the family comparison JSON. The GDP share is a direct ratio of those same-row fields. It does not add policy effects, interpolate cases, rephase costs or determine personal benefits.
 
-Source evidence bytes must match `content.json`'s immutable commit. When a source changes, review the public claims and model semantics, set the new source commit explicitly and rebuild. The manifest records SHA-256 hashes for the referenced sources, publisher files and generated HTML. The enclosing release Git commit identifies editorial content; the source commit identifies the policy/evidence snapshot. The manifest excludes itself to avoid a circular hash.
+## Keep public wording connected to the analytical project
 
-Optional browser QA requires Playwright resolvable by Node, an installed Chromium and the loopback server above. It reads only that server, aborts HTTPS requests and saves screenshots under ignored `build/public-product-review/`. Set `PUBLIC_PRODUCT_BROWSER` to a different Chromium executable when necessary. The managed browser blocked `file:` navigation, so this pass verified HTTP rendering; direct-file opening is supported by the self-contained artifact but was not verified in this browser.
+- `content.json` holds readable public names and prose. Stable scene, step and policy IDs connect that presentation to canonical policies. Rename a public label without renaming its canonical ID.
+- Each of the 18 policy explanations has `policy_ids`. The policy dictionary records the canonical path, identifying marker and selected-option reference where needed. These are references, not a second policy definition. Technical IDs are present in HTML data attributes and exported data, not in the public reading text.
+- Generated `public-map.json` connects stories, agenda themes and main sections to their source paths and public URLs. The same authored records generate both the public explanations and the companion’s policy references.
+- All referenced evidence must match the pinned source commit. A source edit stops the build and names affected records. After fetching main, report what a newer source version would affect:
+
+```bash
+python3 index/tools/public-product/build.py --review-ref origin/main
+```
+
+The report lists changed sources and affected public URLs. Review the relevant wording, selected-design status and numerical contracts, then explicitly advance `source_commit` and rebuild. The command never changes public copy or adoption decisions. It is a local review tool, not a scheduled GitHub notification service. A future publication workflow should run it in CI against the proposed release sources.
+
+The manifest records SHA-256 hashes for evidence, publisher files and generated products, excluding itself to avoid a circular hash. The release Git commit identifies the editorial edition; `source_commit` identifies the policy/evidence snapshot. The mapping is a practical dependency graph, not a full claims CMS or model compatibility registry. Existing scenario labels remain separate; no global scenario switch is introduced.
+
+## Browser validation
+
+Optional QA requires Playwright resolvable by Node, Chromium and the loopback server above. It reads only that server, aborts HTTPS requests and saves captures under ignored `build/public-product-review/`. Set `PUBLIC_PRODUCT_BROWSER` for another Chromium executable.
 
 ```bash
 node index/tools/public-product/browser-check.cjs
 ```
 
-The check covers all six navigation paths and evidence disclosures, keyboard activation/focus, browser back, deep links, mobile reflow, reduced-motion operation and the no-JavaScript fallback. It also checks all three direction treatments. The Python checks cover pinned-source drift rejection, numeric export fidelity, source/local link targets, unique IDs and manifest integrity. These protect against materially misleading output, not merely markup style.
+The managed browser blocks `file:` navigation, so this pass verifies HTTP rendering. Direct-file opening is supported by the self-contained artifact but was not verified in this browser.
 
-After a reviewed visual change, copy the new browser captures to the three `review-*.png` paths in the public directory. Screenshots are not part of the initial page load. Their hashes are recorded in `review-sha256.txt`; regenerate it with the included screenshot names, never a wildcard that includes the manifest itself.
+After a reviewed visual change, copy the five captures (`desktop`, `mobile`, `story`, `analysis`, `directions`) to the matching `review-*.png` paths. Regenerate `review-sha256.txt` using those explicit filenames. Screenshots are separate from the page payload.
 
-## Validation record for this pass
+## Validation record
 
-- Common `bash index/tools/run-all.sh` completed; all 21 compared generated products reproduced unchanged. Existing consistency findings: zero stale live headlines, four unknown IDs, one ledger-ID finding, four ledger/domain reconciliation findings and two table findings. These are pre-existing and do not certify legal, causal or operational validity.
-- The new Python boundary tests and deterministic `--check` passed.
-- Chromium browser checks passed at 1440px desktop and 320/390/768px reflow widths; desktop/mobile/direction screenshots were visually inspected. All six chapters and evidence paths work; no page JavaScript errors were observed.
-- The current opening HTML is below the proposed 200 KB uncompressed budget, with no external runtime assets. No throttled performance score, screen-reader session, human comprehension study, Safari/Firefox check or WCAG conformance certification is claimed.
-- A source-link target check verifies repository files at the pinned edition. Anonymous access to private repository evidence is not verified and must be addressed with public professional summaries before publication.
-- Existing poverty aggregate outputs were reused. No raw microdata download or national rerun was needed; no new scientific result is asserted.
-- Fifteen existing family-comparison tests passed, as did the stored eight-case/42-sensitivity agenda checks. These validate reuse boundaries; the historical stored cases do not become current adopted-package forecasts.
+- Eight Python publication-boundary tests pass: numerical scope/units, plain public labels, pinned-source drift rejection, affected-story reporting, unknown-policy rejection, full canonical-domain reach, source/local destinations and hash integrity.
+- Deterministic regeneration and `--check` pass. Review against live `origin/main` reports no changed evidence; a simulated family-policy change correctly identifies affected stories and the relevant agenda theme.
+- Chromium checks pass for four principles, six goal/story paths, 18 policy explanations, seven agenda themes, movement content, companion navigation and numerical disclosures. Keyboard activation/focus, back navigation, deep links, reduced motion, no-JavaScript fallback and both pages at 320/390/768px pass. No JavaScript errors observed. Desktop, mobile, story and companion captures were visually inspected.
+- Public HTML remains below 200 KB uncompressed with no external runtime assets. No throttled performance score, screen-reader session, human comprehension study, Safari/Firefox check or WCAG conformance certification is claimed.
+- Source destinations exist at the pinned edition. Anonymous access to private repository evidence is not verified; accessible professional summaries/source passages are still required before publication.
+- The October 24 baseline validation ran the common toolchain and reproduced all 21 compared products unchanged. It reported zero stale live headlines and existing consistency findings (four unknown IDs, one ledger-ID finding, four ledger/domain findings and two table findings). Fifteen family-comparison tests and stored eight-case/42-sensitivity checks also passed then. The October 25 change touches only this publisher and its product documentation; unchanged model generators were not rerun. No raw microdata or new scientific result is involved.
 
-## Review boundaries
+## Scope and publication
 
-The map and related links are navigation. Scenes are fiction. The poverty table is a supported conditional comparison. The fiscal number is an existing working-model output. There are no numerical sliders or live calculations, personal data, accounts, analytics or deployment configuration. Full model compatibility and a comprehensive claims registry are proposed architecture, not implemented features.
+Map points and goals are navigation; scenes are fiction; the companion’s poverty table is a conditional comparison; its fiscal result is a working model output. There are no numerical controls, personal determinations, accounts, behavioral analytics or deployment configuration.
 
-The host recommendation is in the blueprint; no host was provisioned. In this environment an attempt to serve the repository on all network interfaces was rejected by automatic approval review. The safer loopback server served only the prototype directory and succeeded. That restriction does not block the deliverable; the screenshots and self-contained files provide the review path.
+Before publication: focused claim review, accessible supporting evidence, human accessibility/comprehension review and release approval. Resolving the residual fiscal gap is not required to explain the public vision; a fully financed claim would require separate support. More communities, deeper professional features, full scenario reconciliation and operating manuals are later work. The blueprint recommends static hosting; no host was provisioned or deployed.

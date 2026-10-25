@@ -1,7 +1,11 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Explore a possible Project 2050 community and the policies, evidence and unresolved choices behind it. Internal design prototype.">
-<title>A day in a possible 2050 · Project 2050</title><style>:root {
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A fair shot at a good life, and the democratic power to build it. Explore Project 2050’s vision and the connected choices behind it.">
+  <title>A fair shot at a good life · Project 2050</title>
+  <style>:root {
   --paper:#f5f2e9;
   --ink:#173d3b;
   --muted:#4d625d;
@@ -534,12 +538,17 @@ footer {
   .header {
     flex-wrap:wrap;
     gap:0;
-    padding:15px 0
+    padding:15px 5%
   }
   .header nav {
     width:100%;
     margin-top:14px;
-    justify-content:space-between
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px 16px
+  }
+  .header nav a {
+    padding:5px 0
   }
   .intro h1 {
     font-size:43px
@@ -611,17 +620,168 @@ footer {
     color:var(--ink)
   }
 }
-</style></head><body>
-<a class="skip" href="#experience">Skip to the experience</a><header><div class="shell header">
-<a class="brand" href="#"><span class="brand-mark">2050</span>Project 2050</a>
-<nav aria-label="Main"><a href="#experience">Explore</a><a href="#path">The path</a><a href="#agenda">Policy &amp; evidence</a></nav></div></header>
-<main class="shell"><div class="intro"><div><span class="eyebrow">A fair shot at a good life</span>
-<h1>A day in a<br>possible 2050.</h1></div><div><span class="tag">Design prototype · October 24, 2026</span>
-<p>More room to make plans. Care you can depend on. A place in the decisions that shape your life.
-Explore the choices that could make that future possible—and the work still ahead.</p></div></div>
-<p class="notice">This community is fictional. Its places open real project proposals and evidence; they do not predict local outcomes or determine anyone's benefits.</p>
-<section class="journey" id="experience" aria-label="Explore six places"><div class="map-wrap">
-<div class="map"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="map-title map-desc">
+
+/* Public edition: principles, outcomes and connected policy explanations. */
+.public-intro {
+  padding-top:70px;
+  padding-bottom:64px;
+  align-items:center;
+  min-height:430px;
+}
+.public-intro h1 {font-size:clamp(48px,5.6vw,82px)}
+.intro-copy p + p {font-size:16px;margin-top:18px}
+.primary-link {
+  display:inline-flex;
+  align-items:center;
+  gap:25px;
+  padding:14px 0;
+  margin-top:12px;
+  font-size:15px;
+  font-weight:bold;
+}
+.principles {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px 60px;
+  margin:35px 0 15px;
+}
+.principles article {border-top:1px solid var(--line);padding:24px 0 0}
+.principle-number {font:italic 18px Georgia,serif;color:var(--accent)}
+.principles h3 {font:25px/1.25 Georgia,serif;margin:12px 0}
+.principles p {font-size:16px;line-height:1.75;margin:0;max-width:560px}
+.goals {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  margin:30px 0 15px;
+}
+.goal {
+  display:flex;
+  flex-direction:column;
+  padding:25px;
+  border:1px solid var(--line);
+  background:var(--soft);
+  text-decoration:none;
+}
+.goal h3 {font:24px/1.2 Georgia,serif;margin:0 0 14px}
+.goal p {font-size:15px;line-height:1.65;margin:0 0 24px}
+.goal > span {font-size:13px;font-weight:bold;margin-top:auto}
+.goal:hover {background:var(--white)}
+.policy-steps {list-style:none;padding:0;margin:10px 0 25px}
+.policy-steps li {border-bottom:1px solid var(--line);padding:16px 0}
+.policy-steps h3 {font-size:18px;line-height:1.35;margin:0 0 8px}
+.policy-steps li p {margin:0}
+.lived-test {background:var(--soft);padding:18px 20px}
+.lived-test h3 {font:21px Georgia,serif;margin:0 0 12px}
+.lived-test p {margin:0}
+.movement {
+  padding:42px;
+  background:var(--ink);
+  color:var(--white);
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+  gap:30px 60px;
+  margin:10px 0 50px;
+  border:none;
+}
+.movement h2 {font-size:40px;line-height:1.15}
+.movement p {font-size:16px;line-height:1.75}
+.movement .eyebrow {color:#d9dfcb}
+.movement a:hover {color:#e8d6a6}
+.movement a:focus-visible {outline-color:#e8d6a6}
+.movement-steps {padding-left:24px;margin:0}
+.movement-steps li {padding:0 0 22px 15px}
+.movement-steps li::marker {color:#e8d6a6;font:italic 21px Georgia,serif}
+.movement-steps h3 {font:25px Georgia,serif;margin:0 0 10px}
+.movement-steps p {margin:0;font-size:15px}
+.invitation {grid-column:1/-1;border-top:1px solid #68847a;padding-top:26px}
+.invitation h3 {font:27px Georgia,serif;margin:0}
+.invitation p {max-width:900px}
+.invitation a {display:inline-block;padding:10px 0}
+.theme-list {margin:30px 0;max-width:1000px}
+.theme-list details {border-top:1px solid var(--line);padding:8px 0}
+.theme-list summary {font:23px/1.4 Georgia,serif;padding:16px 0;cursor:pointer}
+.theme-list p {font-size:16px;line-height:1.7;max-width:750px}
+.theme-list li {margin-bottom:10px;font-size:15px}
+.theme-list a {display:inline-block;padding:12px 0;margin-bottom:12px}
+.evidence-invitation {display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.evidence-invitation p {font-size:16px;line-height:1.75}
+.footer-layout {display:flex;justify-content:space-between;gap:30px}
+.footer-layout nav {display:flex;gap:25px}
+.analysis-shell {max-width:940px;padding:45px 25px;margin:auto;line-height:1.75}
+.analysis-shell h1 {font:46px/1.15 Georgia,serif;margin:20px 0}
+.analysis-shell h2 {line-height:1.2}
+.analysis-shell code {overflow-wrap:anywhere}
+.analysis-nav {display:flex;flex-wrap:wrap;gap:8px 24px;margin:24px 0 35px}
+.analysis-nav a {padding:8px 0}
+.policy-index {columns:2;column-gap:35px;padding-left:20px}
+.policy-index li {break-inside:avoid;padding-bottom:12px;font-size:15px}
+.technical,.model-details {border:1px solid var(--line);padding:14px 20px;margin:24px 0}
+.technical summary,.model-details summary {cursor:pointer;font-weight:bold;min-height:30px}
+.theme-analysis {padding:12px 0;border-top:1px solid var(--line)}
+.theme-analysis li {padding:5px 0}
+@media(max-width:900px) {
+  .public-intro {padding-top:40px;padding-bottom:40px;min-height:0}
+  .public-intro h1 {font-size:60px}
+  .intro-copy p {max-width:650px}
+  .goals {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .movement {grid-template-columns:1fr;padding:30px;gap:25px}
+  .movement-lead {max-width:650px}
+  .movement-steps {display:grid;grid-template-columns:1fr 1fr;gap:20px 30px}
+  .evidence-invitation {grid-template-columns:1fr;gap:0}
+}
+@media(max-width:560px) {
+  .public-intro h1 {font-size:49px}
+  .header nav {flex-wrap:wrap;gap:6px 16px;line-height:1.8}
+  .header nav a {padding:5px 0}
+  .principles,.goals {grid-template-columns:1fr;gap:20px}
+  .principles h3 {font-size:24px}
+  .goal {padding:22px}
+  .goal p {margin-bottom:14px}
+  .movement {padding:25px 20px}
+  .movement h2 {font-size:33px}
+  .movement-steps {display:block}
+  .movement-steps li {padding-left:5px}
+  .theme-list summary {font-size:22px}
+  .footer-layout {display:block}
+  .footer-layout nav {margin-top:18px;flex-wrap:wrap}
+  .analysis-shell h1 {font-size:35px}
+  .policy-index {columns:1}
+}
+
+.public-intro .eyebrow {font-size:12px;line-height:1.5}
+.chapter h2 {scroll-margin-top:24px}
+</style>
+</head>
+<body>
+<a class="skip" href="#vision">Skip to the vision</a>
+<header><div class="shell header">
+  <a class="brand" href="#"><span class="brand-mark">2050</span>Project 2050</a>
+  <nav aria-label="Main"><a href="#vision">Our vision</a><a href="#experience">Everyday life</a><a href="#movement">Making change</a><a href="analysis.html">The analysis</a></nav>
+</div></header>
+<main class="shell">
+  <div class="intro public-intro">
+    <div><p class="eyebrow">A future we can build together</p><h1>A fair shot<br>at a good life.</h1></div>
+    <div class="intro-copy"><p>Enough security to make plans. Care you can depend on. The freedom to choose a different path—and a real say in the decisions that shape your life.</p>
+    <p>Project 2050 connects that ambition to a governing program for a fairer, more connected and hopeful America. Making it real will take people coming together, electing a coalition for change and holding power accountable long after election day.</p>
+    <a class="primary-link" href="#vision">Explore the vision <span aria-hidden="true">↓</span></a></div>
+  </div>
+  <section id="vision" class="section">
+    <p class="eyebrow">What guides us</p><h2>More room to live. More power to shape our future.</h2>
+    <p class="section-intro">A good life includes security, opportunity, relationships and a sense of belonging. Public choices can make those possibilities available to more people. Four principles guide the program.</p>
+    <div class="principles"><article><span class="principle-number">01</span><h3>Freedom you can use</h3><p>A right matters more when you have the time, security and support to exercise it. A fair shot at a good life means being able to care for someone, change jobs, learn, make a home and take part in your community.</p></article><article><span class="principle-number">02</span><h3>A society that cares for its people</h3><p>Children should grow up without poverty. Illness, disability and aging should bring dependable support. The people who provide care deserve the pay, time and respect that make good care possible.</p></article><article><span class="principle-number">03</span><h3>Power that answers to people</h3><p>Government needs the ability to act and a public with the power to question it. Fair elections, equal rights, independent scrutiny and meaningful participation belong together—even when the people in power are on our side.</p></article><article><span class="principle-number">04</span><h3>Responsibility across generations</h3><p>Prepare for a changing climate and economy, maintain what we build and leave institutions able to learn. Progress should endure because it serves people, with room to correct mistakes and choose a better course.</p></article></div>
+  </section>
+  <section id="goals" class="section">
+    <p class="eyebrow">What we’re working toward</p><h2>Progress people can recognize in their lives.</h2>
+    <p class="section-intro">These are the goals that give the policies their purpose. Follow one into a possible community and see how the choices fit together.</p>
+    <div class="goals"><a class="goal" data-stop="home" href="#home"><h3>A secure start for every child</h3><p>Come as close as possible to ending child poverty, so families have the breathing room to plan and children can grow, learn and belong.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="care" href="#care"><h3>Care people can depend on</h3><p>Make affordable coverage, available services and a sustainable care workforce work together, throughout a person’s life.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="climate" href="#climate"><h3>A cleaner, better-prepared country</h3><p>Cut pollution, build clean power and help communities prepare for heat, floods and the losses we cannot prevent.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="work" href="#work"><h3>A fair share and a voice at work</h3><p>Give people more power over their working lives and a fair chance to benefit as technology and the economy change.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="commons" href="#commons"><h3>A democracy we can shape</h3><p>Make participation easier, protect equal rights and give people real ways to influence decisions and challenge abuse.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="connections" href="#connections"><h3>More opportunity within reach</h3><p>Connect homes to jobs, schools, care and one another, while strengthening the public places that bring communities together.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a></div>
+  </section>
+  <section id="experience" class="section">
+    <p class="eyebrow">Everyday life, connected choices</p><h2>A day in a possible 2050.</h2>
+    <p class="section-intro">Imagine a community where people have more room to plan, care and participate. Choose a place to explore the policies that could help make it possible.</p>
+    <p class="notice">The scenes are fictional illustrations of our goals. They are not predictions or promises about a particular household or place.</p>
+    <div class="journey"><div class="map-wrap">
+      <div class="map"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="map-title map-desc">
 <title id="map-title">An imagined community</title><desc id="map-desc">Homes, a care building, a workshop, a library and a bus stop beside a river. A schematic illustration, not a geographic map or a funded development plan. The numbered links and text list provide navigation.</desc>
 <defs>
  <pattern id="grass" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M5 12h4m12 14h3" stroke="#b9c8af" stroke-width="1"/></pattern>
@@ -669,90 +829,74 @@ Explore the choices that could make that future possible—and the work still ah
 <path d="m52 77 8-4 8 4m27 6 8-4 8 4m501-38 8-4 8 4" stroke="#668578" fill="none" stroke-width="2"/>
 </svg>
 <span class="map-caption">One imagined place.<br>Many connected choices.</span><a class="map-link" data-stop="home" href="#home" aria-label="At home">01</a><a class="map-link" data-stop="care" href="#care" aria-label="The care visit">02</a><a class="map-link" data-stop="climate" href="#climate" aria-label="Along the river">03</a><a class="map-link" data-stop="work" href="#work" aria-label="The workshop">04</a><a class="map-link" data-stop="commons" href="#commons" aria-label="The public library">05</a><a class="map-link" data-stop="connections" href="#connections" aria-label="The bus stop">06</a></div>
-<nav aria-label="Places in the community"><ol class="map-legend"><li><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a></li><li><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a></li><li><a class="stop-link" data-stop="climate" href="#climate" aria-label="Along the river"><b>03</b> Along the river</a></li><li><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a></li><li><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></li><li><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></li></ol></nav>
-<p class="notice">Choose a numbered place or use the text links. This is a schematic illustration, not a geographic map. No local projects are implied.</p>
-</div><div class="chapters"><article class="chapter" id="home" aria-labelledby="title-home">
-        <p class="eyebrow">01 / At home</p><h2 id="title-home" tabindex="-1">Room to plan beyond Friday.</h2>
-        <span class="tag">Fictional scene · possible 2050</span><p class="scene">A parent looks at the week ahead. There is rent to pay, a school trip to arrange and a shift that might change. In this possible future, a missed day does not have to become a cascade of unpaid bills.</p>
-        <p>Family security depends on income, a place to live and care that is actually available. More freedom to plan is the purpose; a credit or voucher is one means of getting there.</p><h3 class="small-title">The choices behind it</h3><p>Project 2050 has adopted the American Family Act credit and one million total new voucher awards, phased over 2030–33. Child care, pre-K, meals and paid leave connect income support to daily life. Broader rental assistance remains an optional addition.</p>
-        <div class="condition"><h3 class="small-title">What still has to work</h3><p>An award must become a usable lease. Payments must reach eligible families, and housing and care supply must grow alongside assistance. The annual AFA model still needs exact statutory mapping; it cannot determine this family&#x27;s eligibility or net gain.</p></div>
-        <p class="question">Who still cannot find a home, obtain care or receive the support intended for them?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
-        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
-        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">FAM-1–3 · credit, child care and leave</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">HOU-4 · awards, supply and lease-up</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-adoption-architecture-bridge.md">Selected package and model limits</a><small>Adoption reconciliation</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-comparison-model-checks.md">Selected-package conditional comparisons</a><small>Generated research results</small></li></ul><div class="table-scroll"><table><caption>Selected channels, different delivery assumptions</caption>
-        <thead><tr><th scope="col">Research case</th><th scope="col">Child SPM poverty</th><th scope="col">Deep poverty</th></tr></thead>
-        <tbody><tr><th scope="row">Moderate</th><td>8.73%</td><td>1.97%</td></tr><tr><th scope="row">Enhanced</th><td>8.34%</td><td>1.85%</td></tr><tr><th scope="row">Full</th><td>8.09%</td><td>1.78%</td></tr></tbody></table></div><p>Same-scenario baseline: 13.40% child poverty.
-        These are conditional results for the credit, care/pre-K expense relief, meals and housing channels, using 2025 source income and a 2034 valuation reference.
-        They are not forecasts of 2050, full-agenda effects or three adopted delivery rates. Deep poverty means resources below half the SPM threshold.</p>
-        <p>These results do not incorporate the full health, paid-leave, tax or earnings effects of the agenda.
-        The annual AFA analogue, legal-eligibility proxies and assumed receipt and lease-up limit the comparison.
-        The linked report and JSON record conditional sampling uncertainty; it does not cover model or policy uncertainty.
-        Near-eradication remains an ambition, not a result established here.</p>
-        <p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-comparison-model-checks.json">Inspect aggregate results and uncertainty</a></p></details>
-        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></div></article><article class="chapter" id="care" aria-labelledby="title-care">
-        <p class="eyebrow">02 / The care visit</p><h2 id="title-care" tabindex="-1">Care that leaves room for a life.</h2>
-        <span class="tag">Fictional scene · possible 2050</span><p class="scene">An older neighbor receives support at home. Her daughter is still part of her care, but their time together is no longer spent only repairing gaps between services. The care worker has time to listen.</p>
-        <p>Dependable care gives people receiving it more say in their lives. It also changes what their relatives can do. That depends on the conditions of the people providing care.</p><h3 class="small-title">The choices behind it</h3><p>HLT-4 connects home- and community-based services to the care workforce. HLT-1 addresses coverage restoration; HLT-3&#x27;s public plan remains scheduled for 2031, with automatic enrollment in 2032. These are project designs, not benefits available through this website.</p>
-        <div class="condition"><h3 class="small-title">What still has to work</h3><p>Coverage is only part of access. Providers, pay, state systems, trained staff and routes to correct mistakes all matter. The completed CMS/Oregon pilot identifies real delivery dependencies; incremental costs and FY2029 cash remain unpriced. Earlier restoration work has not changed adopted launch dates.</p></div>
-        <p class="question">Can people obtain the care they need, in a form they choose, without relying on an exhausted relative?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
-        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
-        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">HLT-1, HLT-3 and HLT-4 · coverage and care</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/health-cms-imp-02-pilot.md">CMS/Oregon pilot · sections 3, 8 and 9</a><small>Completed research; historical source date</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/health-selected-design-specification.md">Current health development boundaries</a><small>Selected specification; costs unresolved</small></li></ul></details>
-        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></div></article><article class="chapter" id="climate" aria-labelledby="title-climate">
-        <p class="eyebrow">03 / Along the river</p><h2 id="title-climate" tabindex="-1">Prepare for the water that still comes.</h2>
-        <span class="tag">Fictional scene · possible 2050</span><p class="scene">After a storm, neighbors check on one another. The river has space to rise, and a public building offers shelter. Some households have moved to safer ground. There are still losses, and difficult decisions about what to rebuild.</p>
-        <p>Climate preparation connects homes, power, transport and public health. Cutting emissions and living with continuing hazards are different jobs; a credible future needs both.</p><h3 class="small-title">The choices behind it</h3><p>The agenda combines clean-energy investment and standards with grid reform, disaster recovery and forward-looking climate risk rules. CLI-7 and CLI-8 connect recovery, insurance support, disclosure and where federal money builds. The river scene illustrates questions these policies must answer; it is not a funded local project.</p>
-        <div class="condition"><h3 class="small-title">What still has to work</h3><p>Disaster and flood-insurance costs remain unscored. Local hazards, maintenance, displacement and who bears the cost require place-specific evidence. A climate-bill merger is under study, not adopted. No national emissions calculation can establish that this neighborhood will be safe.</p></div>
-        <p class="question">Who gets protection, who has to move, and what influence do they have over that decision?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
-        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
-        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">CLI-1, CLI-3, CLI-6–8 · mitigation and preparation</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/climate-full-scope-bill-outline-and-comparator.md">Climate bill scope and separate-bill comparison</a><small>Drafting research; no merger selected</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">Section 3 · preparing for a difficult season</a><small>Approved purpose; fictional scene</small></li></ul></details>
-        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></div></article><article class="chapter" id="work" aria-labelledby="title-work">
-        <p class="eyebrow">04 / The workshop</p><h2 id="title-work" tabindex="-1">A say in how work changes.</h2>
-        <span class="tag">Fictional scene · possible 2050</span><p class="scene">A worker and a colleague are learning a new tool. Across town, someone whose job disappeared is looking for a way into a different occupation. The technology has changed; whether either person gains security or influence is still a public choice.</p>
-        <p>Training, bargaining power, care and income security belong in the same account of working life. A productivity gain does not settle who benefits, or whether an employer has a job to offer.</p><h3 class="small-title">The choices behind it</h3><p>The labor agenda includes organizing rights, labor standards and apprenticeships. AI-4 proposes displacement measurement, wage insurance and training support. AI-5 provides a route to explanation, human review and appeal when federal agencies use algorithms in consequential decisions.</p>
-        <div class="condition"><h3 class="small-title">What still has to work</h3><p>Training needs employers and real opportunities. AI-4&#x27;s measurement and trigger require specification, and its effects depend on how work changes. Entry-level hiring credits and a transitional employment guarantee are options, not selected promises. This scene does not predict employment or wages in 2050.</p></div>
-        <p class="question">Do people gain useful choices and bargaining power, including those whose first opportunity disappears?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
-        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
-        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">LAB-1, LAB-3 and LAB-8 · work and voice</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-ai.md">AI-4 and AI-5 · adjustment and accountable use</a><small>Canonical design; alternatives separately labeled</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">Section 3 · working with new tools</a><small>Approved inquiry; no employment forecast</small></li></ul></details>
-        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></div></article><article class="chapter" id="commons" aria-labelledby="title-commons">
-        <p class="eyebrow">05 / The public library</p><h2 id="title-commons" tabindex="-1">A government you can question.</h2>
-        <span class="tag">Fictional scene · possible 2050</span><p class="scene">Residents meet about an investment proposal. They can inspect the evidence, challenge the presenter and find out what the authority did with their recommendations. Some disagree with the result. Their ability to organize and contest it remains part of the promise.</p>
-        <p>A capable government needs people who can scrutinize its work. Reliable services, rights, public influence and independent review reinforce the purpose of the agenda without guaranteeing trust or electoral support.</p><h3 class="small-title">The choices behind it</h3><p>DEM-1 pursues fairer participation and election protections. DEM-17 supports public places; DEM-18 proposes advisory citizens&#x27; assemblies and a committee hearing on national recommendations. Capacity, integrity and limits on executive power make public accountability a continuing task.</p>
-        <div class="condition"><h3 class="small-title">What still has to work</h3><p>The DEM pilot identifies legal and operational questions, including protected data, voting eligibility, remedies and the Title III litigation risk. Benefit receipt is not proof of voting eligibility and must not depend on registration. A public meeting alone does not give residents meaningful influence.</p></div>
-        <p class="question">Can people who disagree obtain an answer, challenge an error and influence what happens next?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
-        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
-        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">DEM-1, DEM-17 and DEM-18 · participation</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/democracy-dem-1-pilot.md">DEM pilot · legal, delivery and public explanation</a><small>Completed research; historical calendar passages</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">Current timing, reciprocity and capacity rules</a><small>Policy authority; supersedes old pilot timing</small></li></ul></details>
-        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="climate" href="#climate" aria-label="Along the river"><b>03</b> Along the river</a><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a></div></article><article class="chapter" id="connections" aria-labelledby="title-connections">
-        <p class="eyebrow">06 / The bus stop</p><h2 id="title-connections" tabindex="-1">More of life within reach.</h2>
-        <span class="tag">Fictional scene · possible 2050</span><p class="scene">Someone waits for a bus to a class, a shift or a friend. The value of the connection is what it makes possible. In another place the distances are longer, and the right transport answer may look very different.</p>
-        <p>Housing, education, public space and transport shape which opportunities people can use. A connected society also depends on rights, safety and belonging, and on institutions that serve places unlike this imagined neighborhood.</p><h3 class="small-title">The choices behind it</h3><p>Moving America brings highway renewal, transit and passenger rail into one transportation design, with separate legislative vehicles. The agenda also addresses education, immigration, civil rights, competition, public safety, social insurance and America&#x27;s role in the world. Each has its own policy home below.</p>
-        <div class="condition"><h3 class="small-title">What still has to work</h3><p>An authorization does not establish a local route, frequency or completion date. MOV-31 stays in the second Congress, alongside the separate 2029/2030 reconciliation components. Rural communities and Tribal governments need distinct treatment; this diagram cannot represent the country.</p></div>
-        <p class="question">Which opportunities become reachable, for whom, and what is still missing outside this picture?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
-        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
-        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/transportation-moving-america-act-2031-draft-2.md">Moving America · four vehicles, one design</a><small>Canonical transportation draft</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">D1 and D5 · current transport timing</a><small>Policy authority</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">Sections 2–5 · freedom, place and the wider program</a><small>Approved purpose</small></li></ul></details>
-        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a></div></article></div></section>
-<section id="path" class="section"><span class="eyebrow">From a picture to a program</span><h2>How could we get there?</h2>
-<p class="section-intro">The picture asks what a good life could feel like. The governing program has to explain who acts, what it costs, what can fail and how people can obtain a correction.</p>
-<div class="horizon"><div><strong>2029–30</strong><p>Enactment and early delivery. Prepare legislation, funding and institutions together. Political assumptions are planning stipulations, not election forecasts.</p></div>
-<div><strong>2030–33</strong><p>Scale services and assistance. The voucher plan phases one million total new awards over these years. Awards are not successful leases.</p></div>
-<div><strong>2040</strong><p>Permanent programs must be funded at maturity and afterward. The current working fiscal model fails that requirement.</p></div>
-<div><strong>2050</strong><p>Ask what lasted, who was left out and what needs to change. This is a horizon for inquiry, not a forecast produced by the illustration.</p></div></div>
-<div class="finance"><div><span class="eyebrow">Financing remains unresolved</span><span class="amount">≈ $54B</span><p>FY2040 general-fund primary gap<br>Working fiscal case · nominal dollars</p></div>
-<div><p>The adopted family package is included in the current model. A financing strategy that satisfies the project's fiscal rule is still under redesign. None of the three recent financing illustrations has been selected.</p>
-<p>This figure comes from the DEC case; it is not the full federal deficit, an official score or the cost of the whole agenda. The agency-surge cash path remains a proxy, and some policy costs remain unpriced.</p>
-<p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/index/fiscal-long-term-model.md">Read the fiscal analysis</a> · <a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">Read the governing choices</a></p></div></div>
-<p class="notice">This path separates policy timing from household receipt. It does not move MOV-31 out of the second Congress or change any health launch date.</p></section>
-<section id="agenda" class="section"><span class="eyebrow">The wider agenda</span><h2>Enter through the question you bring.</h2>
-<p class="section-intro">These six places are a beginning. The professional layer covers the full program, including questions this community cannot represent. Open a policy home to inspect its selected design, alternatives and dependencies.</p>
-<ul class="agenda"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-ai.md">AI</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-amendments.md">Amendments</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-capacity.md">Capacity</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">Climate</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-competition.md">Competition</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-courts.md">Courts</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">Democracy</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-education.md">Education</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-executive-power.md">Executive power</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">Family</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">Health</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">Housing</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-immigration.md">Immigration</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-integrity.md">Integrity</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">Labor</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-national-security.md">National security</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-public-safety.md">Public safety</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-revenue.md">Revenue</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-rights.md">Rights</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-social-security.md">Social security</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/transportation-moving-america-act-2031-draft-2.md">Transportation</a></li></ul><p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">Read the project charter</a> · <a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/index/tools/readme.md">Inspect the models and reproduction commands</a></p>
-<p class="notice">Repository links open the pinned source edition and may require GitHub access. The explanation and key limitations remain readable here.</p></section>
-<section class="section"><h2>What would make this direction useful?</h2><p class="section-intro">For this design review: can you distinguish the imagined future, the selected policy and the unresolved condition? Can you reach the evidence you would need to challenge the account?</p>
-<a class="review-link" href="directions.html">Compare the three editorial directions →</a></section></main>
-<footer><div class="shell">Internal review prototype · No public deployment · Source edition 2026-10-24 · Commit 3594c784b35651ee34fc7661274219bf82f3adcb<br>
-Authored illustration. Navigation changes the place you are reading; no personal data is collected and no outcome is recalculated.
-<a href="manifest.json">Source and build manifest</a></div></footer><script>// Links navigate authored chapters. They do not alter assumptions or calculate effects.
+      <nav aria-label="Places in the community"><ol class="map-legend"><li><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a></li><li><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a></li><li><a class="stop-link" data-stop="climate" href="#climate" aria-label="Along the river"><b>03</b> Along the river</a></li><li><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a></li><li><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></li><li><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></li></ol></nav>
+      <p class="notice">Use the illustration or the text links. Other communities will need different approaches.</p>
+    </div><div class="chapters"><article class="chapter" id="home" aria-labelledby="title-home">
+<p class="eyebrow">01 / At home</p><h2 id="title-home" tabindex="-1">Room to plan beyond Friday.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">A parent looks at the week ahead. There is rent to pay, a school trip to arrange and a shift that might change. In this possible future, a missed day does not have to become a cascade of unpaid bills.</p>
+<p>A reliable income helps a family plan. Affordable housing gives that plan a foundation. Child care and paid leave make room for work, relationships and the unexpected. Each part does more when the others are there.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-home-income" data-policy-ids="FAM-1"><h3>Income families can count on</h3><p>A monthly, fully refundable child credit would reach families with little or no income-tax liability, with extra support for young children and newborns. Regular payments help support the everyday costs of raising a child.</p></li><li id="step-home-housing" data-policy-ids="HOU-4 HOU-3 HOU-5"><h3>A stable place to call home</h3><p>Expand rental assistance by one million new voucher awards, alongside investment in housing construction and repair. Helping with rent and increasing the supply of homes need to move together.</p></li><li id="step-home-time" data-policy-ids="FAM-2 FAM-3 EDU-3"><h3>Time to work, care and grow</h3><p>Affordable child care and voluntary pre-K, school and summer food support, and paid family and medical leave would help families meet needs that a cash payment alone cannot solve.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Progress means fewer children growing up in poverty, fewer families pushed from their homes and more parents able to plan their lives. It matters most whether help reaches people who have been hardest to reach.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#home">Read about at home in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></div></article><article class="chapter" id="care" aria-labelledby="title-care">
+<p class="eyebrow">02 / The care visit</p><h2 id="title-care" tabindex="-1">Care that leaves room for a life.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">An older neighbor receives support at home. Her daughter is still part of her care, but their time together is no longer spent only repairing gaps between services. The care worker has time to listen.</p>
+<p>Affordable coverage can protect a household’s finances. Care at home can give an older or disabled person more control over daily life. Better jobs for care workers help make that support dependable. These are parts of the same promise.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-care-coverage" data-policy-ids="HLT-1 HLT-3"><h3>Health coverage that stays with you</h3><p>Restore Medicaid and marketplace protections and build a public health-insurance option, so access to affordable coverage depends less on a particular job or where someone lives.</p></li><li id="step-care-medicare" data-policy-ids="HLT-2"><h3>Medicare that meets more everyday needs</h3><p>Add dental, vision and hearing benefits and a limit on out-of-pocket costs in traditional Medicare. Being able to see, hear and eat comfortably belongs in an account of health and independence.</p></li><li id="step-care-home-care" data-policy-ids="HLT-4 FAM-3"><h3>Support at home, and support for the people providing it</h3><p>Invest in home- and community-based care and the workforce behind it. Pair care services with paid leave so relatives can be present without having to carry every responsibility alone.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Judge progress by whether people can actually get care, choose how they live and avoid financial hardship—and by whether care workers can build a sustainable life from their work.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#care">Read about the care visit in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></div></article><article class="chapter" id="climate" aria-labelledby="title-climate">
+<p class="eyebrow">03 / Along the river</p><h2 id="title-climate" tabindex="-1">Prepare for the water that still comes.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">After a storm, neighbors check on one another. The river has space to rise, and a public building offers shelter. Some households have moved to safer ground. There are still losses, and difficult decisions about what to rebuild.</p>
+<p>A cleaner energy system reduces the pollution driving climate change. A stronger grid and better homes make that system useful in daily life. Preparing for hazards protects people while the climate continues to change.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-climate-clean-power" data-policy-ids="CLI-1 CLI-3 CLI-6"><h3>Clean power that can reach people</h3><p>Combine clean-energy investment and standards with a grid able to carry power where it is needed. The plan connects what we build to the rules and institutions needed to make it work.</p></li><li id="step-climate-dividend" data-policy-ids="CLI-2 CLI-5"><h3>Help households share in the transition</h3><p>Return most carbon-fee receipts to adults through a climate dividend, while supporting households and communities through the transition. Pair cleaner technology with practical help to use it.</p></li><li id="step-climate-prepared" data-policy-ids="CLI-7 CLI-8"><h3>Prepare before disaster—and support recovery afterward</h3><p>Strengthen disaster recovery, flood-insurance support and the use of forward-looking risk in building decisions. The aim is to reduce harm while helping people face difficult choices about staying, adapting or moving.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Look at pollution, safety, reliability and affordability together. Progress includes protecting people with the fewest resources and being honest about the losses that remain.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#climate">Read about along the river in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></div></article><article class="chapter" id="work" aria-labelledby="title-work">
+<p class="eyebrow">04 / The workshop</p><h2 id="title-work" tabindex="-1">A say in how work changes.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">A worker and a colleague are learning a new tool. Across town, someone whose job disappeared is looking for a way into a different occupation. The technology has changed; whether either person gains security or influence is still a public choice.</p>
+<p>A new technology can make work easier without giving workers more security. Bargaining power, fair standards, learning opportunities and support through a job change help people shape what progress means for them.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-work-voice" data-policy-ids="LAB-1 LAB-3"><h3>A stronger voice on the job</h3><p>Strengthen organizing and bargaining rights and improve labor standards. Workers should have more power to influence pay, conditions and how their workplaces change.</p></li><li id="step-work-pathways" data-policy-ids="LAB-8 AI-4"><h3>Real routes into new work</h3><p>Expand apprenticeships and connect support for workers affected by AI to wage insurance and training. Learning needs to connect to useful skills and actual opportunities.</p></li><li id="step-work-human-review" data-policy-ids="AI-5"><h3>A human answer when a system gets it wrong</h3><p>Require explanations, human review and appeals when federal agencies use algorithms in consequential decisions. More capable technology should come with more accountable institutions.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Ask whether work offers security, a fair share of the gains and a meaningful voice. Count people whose jobs disappear or whose first opportunity never arrives, as well as people who benefit.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#work">Read about the workshop in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></div></article><article class="chapter" id="commons" aria-labelledby="title-commons">
+<p class="eyebrow">05 / The public library</p><h2 id="title-commons" tabindex="-1">A government you can question.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">Residents meet about an investment proposal. They can inspect the evidence, challenge the presenter and find out what the authority did with their recommendations. Some disagree with the result. Their ability to organize and contest it remains part of the promise.</p>
+<p>People need more than a chance to speak. They need fair elections, rights that can be enforced, institutions that respond and public places where collective life can happen. A government capable of delivering should also be open to challenge.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-commons-elections" data-policy-ids="DEM-1 DEM-2"><h3>Fair elections and equal political voice</h3><p>Protect voting access, strengthen election protections and make congressional mapmaking more accountable. Make it easier for eligible people to participate, without tying access to benefits to voting or political support.</p></li><li id="step-commons-integrity" data-policy-ids="INT-1 INT-2 INT-5"><h3>Public service in the public interest</h3><p>Strengthen disclosure of political spending, curb conflicts of interest and give small donors more influence through voluntary public matching. Public office should serve the public.</p></li><li id="step-commons-participation" data-policy-ids="DEM-17 DEM-18 CAP-7"><h3>Places to gather and ways to be heard</h3><p>Support libraries, parks and community spaces, and create advisory citizens’ assemblies with a defined public response. Build the staffing and expertise that turn a commitment into useful service.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Judge democracy by who can participate, whose rights are protected and whether people can get an answer or remedy. Apply those standards to leaders we support as well as those we oppose.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#commons">Read about the public library in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="climate" href="#climate" aria-label="Along the river"><b>03</b> Along the river</a><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a></div></article><article class="chapter" id="connections" aria-labelledby="title-connections">
+<p class="eyebrow">06 / The bus stop</p><h2 id="title-connections" tabindex="-1">More of life within reach.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">Someone waits for a bus to a class, a shift or a friend. The value of the connection is what it makes possible. In another place the distances are longer, and the right transport answer may look very different.</p>
+<p>An opportunity only helps if you can reach it. Homes near useful connections, reliable transport, well-supported schools and welcoming public places can make more of life available to people.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-connections-transport" data-policy-ids="MOV-31"><h3>Connections to jobs, care and one another</h3><p>Renew roads and bridges while investing in public transit and passenger rail. Different communities need different ways to reach the places that make everyday life possible.</p></li><li id="step-connections-learning" data-policy-ids="EDU-1 EDU-2 EDU-4 EDU-5"><h3>A fair chance to learn</h3><p>Strengthen public-school and special-education funding, build the educator workforce and make higher education more affordable. Education should widen the choices people can make throughout their lives.</p></li><li id="step-connections-places" data-policy-ids="HOU-3 DEM-17"><h3>Homes and shared places that support a community</h3><p>Connect housing investment to libraries, parks and community spaces. Public investment should create places worth belonging to and support the work of keeping them useful.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Look at what people can reach and take part in, including people with disabilities and those in rural communities. Tribal governments and communities need approaches that respect their sovereignty and distinct responsibilities.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#connections">Read about the bus stop in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a></div></article></div></div>
+  </section>
+  <section id="movement" class="section movement">
+    <div class="movement-lead"><p class="eyebrow">The power to make it happen</p><h2>A program becomes possible when people move together.</h2>
+    <p>These changes will take a movement that can connect everyday needs to a shared public purpose, win elections and sustain the work of governing. No single election completes that work.</p>
+    <p>People will bring different experiences and disagree about important choices. A durable coalition needs room for those disagreements, a commitment to equal rights and a common willingness to make things better.</p></div>
+    <ol class="movement-steps"><li><h3>Build a shared purpose</h3><p>Start with the changes people want to see in their lives. Listen across communities, connect struggles that are too often treated separately and organize around a program people can understand and help shape.</p></li><li><h3>Elect a coalition for change</h3><p>Turn that shared purpose into the democratic power to govern. Elect leaders committed to the program, press them to explain how they will deliver it and build a coalition broad enough to act together.</p></li><li><h3>Make the promises real</h3><p>Winning office opens the door. Laws, public investment and capable institutions have to carry change through it. Stay involved as decisions become services, rights and opportunities in people’s lives.</p></li><li><h3>Keep showing up—and keep asking</h3><p>Hold leaders and ourselves accountable over the long term. Look at who benefits, who is still excluded and what causes harm. Defend progress, listen to criticism and change course when the evidence demands it.</p></li></ol>
+    <div class="invitation"><h3>Bring a question from your own life.</h3><p>What would give you, your family or your community more freedom to plan? Explore the related policies, discuss them with others and ask what a coalition for change should be prepared to deliver. Keep that question alive after the votes are counted.</p><a href="#goals">Find a place to begin <span aria-hidden="true">↑</span></a></div>
+  </section>
+  <section id="agenda" class="section">
+    <p class="eyebrow">One connected program</p><h2>Explore the wider agenda.</h2>
+    <p class="section-intro">The six places are starting points. The full program connects material security to rights, democratic power and responsibility for our shared future.</p>
+    <div class="theme-list"><details id="theme-secure-lives"><summary>Security through every stage of life</summary><p>Family income, affordable homes, health care and social insurance form the foundation from which people can make plans.</p><ul><li>Raising a family</li><li>A place to call home</li><li>Health and care</li><li>Security in retirement, disability and loss</li></ul><a href="analysis.html#theme-secure-lives">Explore these policy areas →</a></details><details id="theme-opportunity"><summary>Opportunity and a fair share</summary><p>Learning and innovation should widen people’s choices. Workers need a voice, and economic power needs rules that serve the wider public.</p><ul><li>Learning throughout life</li><li>Good work and fair pay</li><li>Technology that serves people</li><li>Markets that work for more people</li></ul><a href="analysis.html#theme-opportunity">Explore these policy areas →</a></details><details id="theme-shared-future"><summary>A country prepared for the future</summary><p>Clean power, resilient communities and useful transport connect long-term responsibility to everyday needs.</p><ul><li>Clean energy and climate preparation</li><li>Getting where life takes you</li></ul><a href="analysis.html#theme-shared-future">Explore these policy areas →</a></details><details id="theme-democratic-power"><summary>A democracy worthy of its people</summary><p>Fair representation and limits on power help people govern together. The rules should protect us when people we oppose hold office, too.</p><ul><li>A voice in our democracy</li><li>Public service without self-dealing</li><li>Justice and accountable courts</li><li>A presidency bound by law</li><li>Renewing our constitutional democracy</li></ul><a href="analysis.html#theme-democratic-power">Explore these policy areas →</a></details><details id="theme-belonging"><summary>Rights, safety and belonging</summary><p>A good society protects people’s dignity and safety, treats them fairly and makes room for them to contribute.</p><ul><li>Equal rights and personal freedom</li><li>A fair and workable immigration system</li><li>Safe communities and fair treatment</li></ul><a href="analysis.html#theme-belonging">Explore these policy areas →</a></details><details id="theme-public-service"><summary>Government that can keep its promises</summary><p>Shared commitments need public resources, skilled people and institutions that can deliver, listen and correct mistakes.</p><ul><li>Public institutions that work</li><li>Contributing fairly to our shared future</li></ul><a href="analysis.html#theme-public-service">Explore these policy areas →</a></details><details id="theme-world"><summary>Responsibility beyond our borders</summary><p>A safer, more hopeful future also depends on how America works with others and uses its power in the world.</p><ul><li>Security and America’s role in the world</li></ul><a href="analysis.html#theme-world">Explore these policy areas →</a></details></div>
+  </section>
+  <section class="section evidence-invitation"><div><p class="eyebrow">A vision you can examine</p><h2>Follow the argument. Test the choices.</h2></div>
+    <div><p>The public vision and the analytical work develop together. The supporting material explains the policies, evidence, costs and choices in greater depth, including where results depend on assumptions and where decisions remain open.</p><a class="primary-link" href="analysis.html">Explore the analysis <span aria-hidden="true">→</span></a></div>
+  </section>
+</main>
+<footer><div class="shell footer-layout"><span>Project 2050 · A fair shot at a good life.<br>Working public edition · 2026-10-25</span><nav aria-label="Footer"><a href="analysis.html">Policies &amp; evidence</a><a href="#movement">Making change</a></nav></div></footer>
+<script>// Links navigate authored chapters. They do not alter assumptions or calculate effects.
 (() => {
   const chapters = [...document.querySelectorAll('.chapter')];
   const links = [...document.querySelectorAll('[data-stop]')];
-  function show(id, focus = false) {
+  function show(id, focus = false, jump = false) {
     if (!chapters.some(chapter => chapter.id === id)) return;
     document.documentElement.classList.add('enhanced');
     chapters.forEach(chapter => { chapter.hidden = chapter.id !== id; });
@@ -763,17 +907,17 @@ Authored illustration. Navigation changes the place you are reading; no personal
     if (focus) {
       const heading = document.querySelector(`#${id} h2`);
       heading.focus({preventScroll: true});
-      if (matchMedia('(max-width:900px)').matches) heading.scrollIntoView({block: 'start'});
+      if (jump || matchMedia('(max-width:900px)').matches) heading.scrollIntoView({block: 'start'});
     }
   }
   links.forEach(link => link.addEventListener('click', event => {
     event.preventDefault();
     history.pushState(null, '', link.getAttribute('href'));
-    show(link.dataset.stop, true);
+    show(link.dataset.stop, true, !link.closest('.journey'));
   }));
   function restore() {
     const id = location.hash.slice(1);
-    if (chapters.some(chapter => chapter.id === id)) show(id);
+    if (chapters.some(chapter => chapter.id === id)) show(id, false);
     else if (!id) show('home');
   }
   addEventListener('popstate', restore);
@@ -781,4 +925,5 @@ Authored illustration. Navigation changes the place you are reading; no personal
   show('home');
   restore();
 })();
-</script></body></html>
+</script>
+</body></html>

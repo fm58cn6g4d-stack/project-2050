@@ -531,12 +531,17 @@ footer {
   .header {
     flex-wrap:wrap;
     gap:0;
-    padding:15px 0
+    padding:15px 5%
   }
   .header nav {
     width:100%;
     margin-top:14px;
-    justify-content:space-between
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px 16px
+  }
+  .header nav a {
+    padding:5px 0
   }
   .intro h1 {
     font-size:43px
@@ -608,3 +613,134 @@ footer {
     color:var(--ink)
   }
 }
+
+/* Public edition: principles, outcomes and connected policy explanations. */
+.public-intro {
+  padding-top:70px;
+  padding-bottom:64px;
+  align-items:center;
+  min-height:430px;
+}
+.public-intro h1 {font-size:clamp(48px,5.6vw,82px)}
+.intro-copy p + p {font-size:16px;margin-top:18px}
+.primary-link {
+  display:inline-flex;
+  align-items:center;
+  gap:25px;
+  padding:14px 0;
+  margin-top:12px;
+  font-size:15px;
+  font-weight:bold;
+}
+.principles {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px 60px;
+  margin:35px 0 15px;
+}
+.principles article {border-top:1px solid var(--line);padding:24px 0 0}
+.principle-number {font:italic 18px Georgia,serif;color:var(--accent)}
+.principles h3 {font:25px/1.25 Georgia,serif;margin:12px 0}
+.principles p {font-size:16px;line-height:1.75;margin:0;max-width:560px}
+.goals {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  margin:30px 0 15px;
+}
+.goal {
+  display:flex;
+  flex-direction:column;
+  padding:25px;
+  border:1px solid var(--line);
+  background:var(--soft);
+  text-decoration:none;
+}
+.goal h3 {font:24px/1.2 Georgia,serif;margin:0 0 14px}
+.goal p {font-size:15px;line-height:1.65;margin:0 0 24px}
+.goal > span {font-size:13px;font-weight:bold;margin-top:auto}
+.goal:hover {background:var(--white)}
+.policy-steps {list-style:none;padding:0;margin:10px 0 25px}
+.policy-steps li {border-bottom:1px solid var(--line);padding:16px 0}
+.policy-steps h3 {font-size:18px;line-height:1.35;margin:0 0 8px}
+.policy-steps li p {margin:0}
+.lived-test {background:var(--soft);padding:18px 20px}
+.lived-test h3 {font:21px Georgia,serif;margin:0 0 12px}
+.lived-test p {margin:0}
+.movement {
+  padding:42px;
+  background:var(--ink);
+  color:var(--white);
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+  gap:30px 60px;
+  margin:10px 0 50px;
+  border:none;
+}
+.movement h2 {font-size:40px;line-height:1.15}
+.movement p {font-size:16px;line-height:1.75}
+.movement .eyebrow {color:#d9dfcb}
+.movement a:hover {color:#e8d6a6}
+.movement a:focus-visible {outline-color:#e8d6a6}
+.movement-steps {padding-left:24px;margin:0}
+.movement-steps li {padding:0 0 22px 15px}
+.movement-steps li::marker {color:#e8d6a6;font:italic 21px Georgia,serif}
+.movement-steps h3 {font:25px Georgia,serif;margin:0 0 10px}
+.movement-steps p {margin:0;font-size:15px}
+.invitation {grid-column:1/-1;border-top:1px solid #68847a;padding-top:26px}
+.invitation h3 {font:27px Georgia,serif;margin:0}
+.invitation p {max-width:900px}
+.invitation a {display:inline-block;padding:10px 0}
+.theme-list {margin:30px 0;max-width:1000px}
+.theme-list details {border-top:1px solid var(--line);padding:8px 0}
+.theme-list summary {font:23px/1.4 Georgia,serif;padding:16px 0;cursor:pointer}
+.theme-list p {font-size:16px;line-height:1.7;max-width:750px}
+.theme-list li {margin-bottom:10px;font-size:15px}
+.theme-list a {display:inline-block;padding:12px 0;margin-bottom:12px}
+.evidence-invitation {display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.evidence-invitation p {font-size:16px;line-height:1.75}
+.footer-layout {display:flex;justify-content:space-between;gap:30px}
+.footer-layout nav {display:flex;gap:25px}
+.analysis-shell {max-width:940px;padding:45px 25px;margin:auto;line-height:1.75}
+.analysis-shell h1 {font:46px/1.15 Georgia,serif;margin:20px 0}
+.analysis-shell h2 {line-height:1.2}
+.analysis-shell code {overflow-wrap:anywhere}
+.analysis-nav {display:flex;flex-wrap:wrap;gap:8px 24px;margin:24px 0 35px}
+.analysis-nav a {padding:8px 0}
+.policy-index {columns:2;column-gap:35px;padding-left:20px}
+.policy-index li {break-inside:avoid;padding-bottom:12px;font-size:15px}
+.technical,.model-details {border:1px solid var(--line);padding:14px 20px;margin:24px 0}
+.technical summary,.model-details summary {cursor:pointer;font-weight:bold;min-height:30px}
+.theme-analysis {padding:12px 0;border-top:1px solid var(--line)}
+.theme-analysis li {padding:5px 0}
+@media(max-width:900px) {
+  .public-intro {padding-top:40px;padding-bottom:40px;min-height:0}
+  .public-intro h1 {font-size:60px}
+  .intro-copy p {max-width:650px}
+  .goals {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .movement {grid-template-columns:1fr;padding:30px;gap:25px}
+  .movement-lead {max-width:650px}
+  .movement-steps {display:grid;grid-template-columns:1fr 1fr;gap:20px 30px}
+  .evidence-invitation {grid-template-columns:1fr;gap:0}
+}
+@media(max-width:560px) {
+  .public-intro h1 {font-size:49px}
+  .header nav {flex-wrap:wrap;gap:6px 16px;line-height:1.8}
+  .header nav a {padding:5px 0}
+  .principles,.goals {grid-template-columns:1fr;gap:20px}
+  .principles h3 {font-size:24px}
+  .goal {padding:22px}
+  .goal p {margin-bottom:14px}
+  .movement {padding:25px 20px}
+  .movement h2 {font-size:33px}
+  .movement-steps {display:block}
+  .movement-steps li {padding-left:5px}
+  .theme-list summary {font-size:22px}
+  .footer-layout {display:block}
+  .footer-layout nav {margin-top:18px;flex-wrap:wrap}
+  .analysis-shell h1 {font-size:35px}
+  .policy-index {columns:1}
+}
+
+.public-intro .eyebrow {font-size:12px;line-height:1.5}
+.chapter h2 {scroll-margin-top:24px}

@@ -1,8 +1,10 @@
 {
-  "edition_date": "2026-10-24",
+  "edition_date": "2026-10-25",
+  "editorial_mapping": "public-map.json",
   "numeric_contracts": {
     "fiscal_gap": {
       "field": "gf_primary",
+      "gdp_share_percent": 0.09911939003452286,
       "path": "index/data/fiscal-paths.csv",
       "positive": "deficit",
       "selector": {
@@ -10,21 +12,25 @@
         "year": "2040"
       },
       "unit": "nominal USD billion",
-      "value": 53.69
+      "value": 53.69,
+      "view": "analysis.html#funding"
     },
     "poverty": {
       "kind": "conditional_selected_channels_not_forecast",
       "path": "sources/family-comparison-model-checks.json",
       "selector": "adopted_cases",
       "source_income_year": 2025,
-      "valuation_year": 2034
+      "valuation_year": 2034,
+      "view": "analysis.html#poverty"
     }
   },
   "outputs_sha256": {
-    "directions.html": "93af77678dac43aa84ce05661bcf93f0f6f90ca2b583c19c1516f3f2b9ba4eaf",
-    "index.html": "f1c6e5c40de925917474dbb414231594e6c43ccb7260bcf8e643990d369eaa62"
+    "analysis.html": "5a9fbd01035c86af6ee04be69417a47f582ea943a32181b2a310f22a5e26c792",
+    "directions.html": "5a2079e7a45e04c8b37753efb86cfad89372eb56e25845c74f0c9f2edc43d36b",
+    "index.html": "940521e8e3c183d84ddae07e87e8968c941e5bc54ab6358e913c5f0fa31cd9d1",
+    "public-map.json": "cef8c521f79a420b7de6e966df0fb089eccaa726a878029cf31005222567c556"
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "sha256": {
     "domains/domain-ai.md": "fc18c7cd042ea49847bfa9800614168a90e5c0fac4e0b6d83c2388b148dedbfe",
     "domains/domain-amendments.md": "8d813284a918b94e8a55d1bb5df2ea9d8db59e078e18dc4834eebe80cb7bf852",
@@ -52,15 +58,16 @@
     "index/data/fiscal-paths.csv": "a58e1189651b0c38b05349975e7d0e53e3213fe134b73f791821d66c640f48ca",
     "index/fiscal-long-term-model.md": "18f3bf4318e36dd1bc00942637774b7f1baef655640c745eec77c2671f77d020",
     "index/tools/child-poverty/adopted-package.json": "a2447e60d909144180274ddac0029118f23c71e7bd82882675940ea6d1f7b9ed",
-    "index/tools/public-product/README.md": "5d2fb559584ec7aa1402be1ed059825c476d6639b241a17aba3e21e80cabdd80",
-    "index/tools/public-product/browser-check.cjs": "f28c34372ff99775656a5be04bbed7fd0b18231b0fe09e69ae2e7661ee799b16",
-    "index/tools/public-product/build.py": "1db1bb887a3377e89589b4bc431bc28095880a9b3f2be8bb6b55e1f8aca6b852",
+    "index/tools/public-product/README.md": "2381cf7404a05ff38c5adceed5c2b5f74425a72daf5dbc864d893453d5bec067",
+    "index/tools/public-product/browser-check.cjs": "32e98bb83242efbb5711394e4be9d17bd91bae5e59a81d01e2184d29f2007241",
+    "index/tools/public-product/build.py": "0a28b4545a137c9db38aa5dc2b611bd80e2c36182f29e8ed402c17753057bc15",
     "index/tools/public-product/community.svg": "25c8c3a250c72ef5a43962ec28836c8e173a40687d80284c9ae2a751012db3d6",
-    "index/tools/public-product/content.json": "825f09b8307baf4ccdc212b10b6a2dd66ab358dd8c142aec6a25ef8ae91d902a",
+    "index/tools/public-product/content.json": "d5d164706562770f3c0b82092f186e3c703264ddb4719e337336ed315155f5a5",
     "index/tools/public-product/directions.html": "41d7b0ce0f7f4db9cd7e7f95a6ee49292d4ae74af776299e54e694197877bb60",
-    "index/tools/public-product/interaction.js": "eac4b824be06d5cafb6f23232a451eedad2a9120e122eb51d5f7aafe75971cb0",
-    "index/tools/public-product/style.css": "cf165889af02fe6d7596cb8a077a267851caab8459115cb1d5f0cc0e776c2a1c",
-    "index/tools/public-product/test_build.py": "21199b27c429e43f049d1017fbd8d51dad6cf448235b19052e5df0bf18405802",
+    "index/tools/public-product/interaction.js": "f6b72a481e0aea1c0b4920b18471d7bed7c38a2a7d9412a97b287f076936c640",
+    "index/tools/public-product/site.html": "8c65a5fe110c9a02ba73524289515c92dd40c92982df7462090339a14a2ee83f",
+    "index/tools/public-product/style.css": "f647d2ef5a01ef275f797d37ee1af97057b8805679ba014991008c241c769803",
+    "index/tools/public-product/test_build.py": "4a21409f8bd4cf5ce6c597da914877cbb3f1ab5d5e566fef022831c349ed104d",
     "index/tools/readme.md": "d126a5869a05a2a962bed1562ffdb7bd34115418a5cb79e59baab0bfe1f82295",
     "sources/climate-full-scope-bill-outline-and-comparator.md": "8c670b11ba95cabe14495fe7778fac2859a41bfe00b0310f0df7d56451b3db90",
     "sources/democracy-dem-1-pilot.md": "a09e541b3c9c0ef56cf3083595bd7ac56fb24e534edc8e7a65f7892d4e0c134f",
@@ -71,5 +78,5 @@
     "sources/health-selected-design-specification.md": "01ae30dea056fea75867c6102e68b6af48ed2fed521a9fd0c411c529d3211923"
   },
   "source_commit": "3594c784b35651ee34fc7661274219bf82f3adcb",
-  "status": "internal_design_prototype_not_public_release"
+  "status": "working_public_edition_not_deployed"
 }
