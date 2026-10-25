@@ -236,7 +236,7 @@ The rates count both halves of payroll taxes and are statutory, not effective. W
 
 ## Closing the general-fund gap (D4)
 
-General-fund claims are about **$10.97T** (range $7.68T to $15.42T) against the **$6.37T** base, a gap of about **$4.60T** at the midpoint (range $0.56T to $9.71T, a stress bound; index/2029-trifecta-master-ledger.md governs). Under D4-B, permanent programs are paid for at maturity (the general fund's run rate covered in FY2040 and every later year), and time-limited investments may be borrowed for inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040 (~$1.6T). The REV-C2 carve-out does not move the gap: it reallocates carbon-channel money from the dividend to the add-ons.
+Current working claims are **$11.59T** against the **$5.99T** base, with a **$5.60T** initial gap after the family adoption. D4-B still requires permanent financing at maturity and limits investment borrowing; the adopted family package currently leaves an FY2040 gap of about $53.7B. The option table below retains its source estimates and prior decisions; it is not a list of unused revenue.
 
 | Option | Mid | Reaches the middle? | Basis |
 | --- | --- | --- | --- |
@@ -250,7 +250,7 @@ General-fund claims are about **$10.97T** (range $7.68T to $15.42T) against the 
 | *Not available:* "keep current tariffs" | 0 as new revenue | Yes, regressive | See the tariff note below |
 | *Other choices:* 5% VAT, narrow base, with a rebate | 2.8 before the rebate | Yes | scaled (CBO) |
 
-**What closes it.** Accepted revenue is **$3.71T**: Package B (C18, C35, C19b, C20; $2.10T), the sprint package C38 ($0.89T), C39-C41 ($0.54T) and C43 (REV-SC1, $0.18T). Accepted borrowing inside the D4-B envelope is **$1.15T**: C21 ($0.06T), C30 (Moving America's time-limited capital, $0.30T), C31 ($0.06T), C32 ($0.03T), C37 (CLI-5's capital lines, $0.10T, in place of C29) and C42 (CAP-7S's surge, $0.60T). That leaves about **+$0.25T** over ten years, and the run rate is covered from 2040 by a narrow margin (index/fiscal-long-term-model.md). No program trims are taken (C5, C17, C33, C34 and C36 declined, Decision Brief 2). None of this uses a broad payroll tax, a VAT or new tariffs. C18 carries no alcohol-indexing piece: the public-safety channel already uses an alcohol tax change for Safe Everywhere's titles, so counting it here would spend the same revenue twice.
+**What is already committed.** Accepted revenue is **$3.71T** and accepted investment borrowing **$1.15T**, leaving about **$0.74T** over ten years at current working costs. These receipts are already counted. The former $0.25T remainder and narrow maturity pass predate family adoption. No program trims or additional financing are selected. Compare the [bounded financing routes](../sources/family-financing-comparison.md) and return a supported recurring funding choice; do not count existing alcohol revenue, the HI reserve or accepted tax measures again.
 
 **Headroom.** One risk sits outside the range: G8's $0.4T failing to score on the vehicle that needs it. The paid-leave fund has no general-fund backstop (an automatic step-up and a repayable loan), and the HI surplus stays as reserve under the 75-year reading of D4, so it is not available to sweep. REV-SC1 is already adopted as C43 and cannot be counted again as a reserve if TS12 scores low; a shortfall requires a separate decision.
 

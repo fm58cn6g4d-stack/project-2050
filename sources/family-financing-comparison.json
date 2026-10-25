@@ -1,0 +1,327 @@
+{
+  "status": "ILLUSTRATIVE_FINANCING_NOT_ADOPTED_OR_SCORED",
+  "source_main": "31d2e584d790c6dc6e3c243e1643b1ab3a8d050e",
+  "source_pr_head": "b375cc961ce89c3d7c332b8c950772d99fba605b",
+  "corporate_gross_linear_tn": 0.7071428571428571,
+  "corporate_extra_haircut": 0.2,
+  "payroll_point_option_tn": 1.6,
+  "base_fy2040_gap_bn": 53.68983725117867,
+  "base_q4_average_net": 1373,
+  "cases": [
+    {
+      "name": "Corporate 31% illustrative route",
+      "revenue_2030_39_tn": 0.5657142857142857,
+      "fy2040_receipts_bn": 69.06228278689109,
+      "fy2040_primary_gap_bn": -15.372445535712416,
+      "worst_maturity_gap_bn": -15.372445535712416,
+      "binding_year": 2040,
+      "maturity_screen_pass": true,
+      "net_household_annual_average": {
+        "Q1": 11608.69387755102,
+        "Q2": 9899.234693877552,
+        "Q3": 6103.571428571428,
+        "Q4": 1120.4489795918366
+      },
+      "annual_household_net": {
+        "2030": {
+          "Q1": 7113.854252402566,
+          "Q2": 4670.635631006416,
+          "Q3": 1720.9865112119758,
+          "Q4": -1632.8812299786148
+        },
+        "2034": {
+          "Q1": 11806.473227217275,
+          "Q2": 10340.183068043189,
+          "Q3": 6629.2083936806175,
+          "Q4": 1647.9435601439604
+        },
+        "2039": {
+          "Q1": 14372.577315671762,
+          "Q2": 12502.443289179404,
+          "Q3": 7883.694139801555,
+          "Q4": 1743.8109639313486
+        }
+      },
+      "top1_plus_corporations_share_pct_proxy": 74,
+      "window_residual_after_existing_accepted_arrangements_tn": 0.17428571428571427,
+      "revenue_path_bn": {
+        "2026": 0.0,
+        "2027": 0.0,
+        "2028": 0.0,
+        "2029": 0.0,
+        "2030": 48.80539551520972,
+        "2031": 50.45408827651771,
+        "2032": 52.14081599641216,
+        "2033": 53.77274065769817,
+        "2034": 55.11664252775287,
+        "2035": 56.42935982154719,
+        "2036": 58.85654229972954,
+        "2037": 60.91043006339806,
+        "2038": 63.105926476642495,
+        "2039": 66.1223440793779,
+        "2040": 69.06228278689109,
+        "2041": 72.13462813787055,
+        "2042": 75.01976378677529,
+        "2043": 78.07636348285605,
+        "2044": 81.24655683213454,
+        "2045": 84.58105711272601,
+        "2046": 88.56153822221323,
+        "2047": 92.06116339021634,
+        "2048": 95.6058783881566,
+        "2049": 99.34864100647847,
+        "2050": 103.29180286896555,
+        "2051": 107.12218903435353,
+        "2052": 110.99469993882113,
+        "2053": 114.91158496163962,
+        "2054": 118.9589339821901,
+        "2055": 123.2406274249991,
+        "2056": 128.16748374060518
+      }
+    },
+    {
+      "name": "General-fund payroll contribution 0.35 points",
+      "revenue_2030_39_tn": 0.5599999999999999,
+      "fy2040_receipts_bn": 68.26587880825612,
+      "fy2040_primary_gap_bn": -14.576041557077446,
+      "worst_maturity_gap_bn": -14.576041557077446,
+      "binding_year": 2040,
+      "maturity_screen_pass": true,
+      "net_household_annual_average": {
+        "Q1": 11579.0,
+        "Q2": 9795.0,
+        "Q3": 5925.0,
+        "Q4": 853.0000000000001
+      },
+      "annual_household_net": {
+        "2030": {
+          "Q1": 7089.51112179353,
+          "Q2": 4584.53336538059,
+          "Q3": 1573.7259828988276,
+          "Q4": -1852.5702777894053
+        },
+        "2034": {
+          "Q1": 11777.432782453587,
+          "Q2": 10238.29834736076,
+          "Q3": 6454.641506419129,
+          "Q4": 1386.417447931084
+        },
+        "2039": {
+          "Q1": 14337.519439677115,
+          "Q2": 12379.558319031345,
+          "Q3": 7673.1036782779465,
+          "Q4": 1428.1684772016624
+        }
+      },
+      "top1_plus_corporations_share_pct_proxy": 69,
+      "window_residual_after_existing_accepted_arrangements_tn": 0.18000000000000005,
+      "revenue_path_bn": {
+        "2026": 0.0,
+        "2027": 0.0,
+        "2028": 0.0,
+        "2029": 0.0,
+        "2030": 47.12295299270519,
+        "2031": 48.915204848137854,
+        "2032": 50.759884575862195,
+        "2033": 52.67476219990016,
+        "2034": 54.66273637665249,
+        "2035": 56.727335905215725,
+        "2036": 58.870577242216484,
+        "2037": 61.089813788332364,
+        "2038": 63.394875769618025,
+        "2039": 65.78185630135944,
+        "2040": 68.26587880825612,
+        "2041": 70.84820357569971,
+        "2042": 73.5061454666409,
+        "2043": 76.25860876195414,
+        "2044": 79.10433317624775,
+        "2045": 82.02693499943061,
+        "2046": 85.01759223376132,
+        "2047": 88.10277087246405,
+        "2048": 91.28247091553881,
+        "2049": 94.56299378994372,
+        "2050": 97.93803806872064,
+        "2051": 101.41390517882773,
+        "2052": 104.99941711800635,
+        "2053": 108.70465616938954,
+        "2054": 112.53340318915215,
+        "2055": 116.49448017503562,
+        "2056": 120.5967091247813
+      }
+    },
+    {
+      "name": "Median health-exclusion cap replacing 75th-percentile cap",
+      "revenue_2030_39_tn": 0.59,
+      "fy2040_receipts_bn": 90.64610366572809,
+      "fy2040_primary_gap_bn": -36.95626641454942,
+      "worst_maturity_gap_bn": -36.95626641454942,
+      "binding_year": 2040,
+      "maturity_screen_pass": true,
+      "net_household_annual_average": {
+        "Q1": 11597,
+        "Q2": 9764,
+        "Q3": 5740,
+        "Q4": 678
+      },
+      "annual_household_net": {
+        "2030": {
+          "Q1": 7105,
+          "Q2": 4561,
+          "Q3": 1422,
+          "Q4": -1994
+        },
+        "2034": {
+          "Q1": 11795,
+          "Q2": 10209,
+          "Q3": 6274,
+          "Q4": 1217
+        },
+        "2039": {
+          "Q1": 14358,
+          "Q2": 12341,
+          "Q3": 7449,
+          "Q4": 1215
+        }
+      },
+      "top1_plus_corporations_share_pct_proxy": 68,
+      "window_residual_after_existing_accepted_arrangements_tn": 0.15000000000000002,
+      "revenue_path_bn": {
+        "2026": 0.0,
+        "2027": 0.0,
+        "2028": 0.0,
+        "2029": 0.0,
+        "2030": 0.0,
+        "2031": 26.33506410684171,
+        "2032": 55.94819559281541,
+        "2033": 64.34135605507906,
+        "2034": 64.49143554167257,
+        "2035": 63.52244407388393,
+        "2036": 72.20256648559904,
+        "2037": 76.37300927805445,
+        "2038": 80.98808179520282,
+        "2039": 85.79784707085098,
+        "2040": 90.64610366572809,
+        "2041": 95.86787269072278,
+        "2042": 101.1749458108086,
+        "2043": 106.58271955367715,
+        "2044": 112.1246996962572,
+        "2045": 117.79428772668095,
+        "2046": 123.6716922225416,
+        "2047": 129.56903888760272,
+        "2048": 135.73219560573904,
+        "2049": 142.06794006761797,
+        "2050": 148.4774045704201,
+        "2051": 155.1923801727021,
+        "2052": 161.96197678988983,
+        "2053": 168.87886685532692,
+        "2054": 175.97270701401928,
+        "2055": 183.4883020562628,
+        "2056": 191.31772965461948
+      }
+    }
+  ],
+  "stress": [
+    {
+      "name": "Corporate route",
+      "additional_yield_loss": 0,
+      "fy2040_primary_gap_bn": -15.372445535712416,
+      "worst_maturity_gap_bn": -15.372445535712416,
+      "binding_year": 2040,
+      "maturity_screen_pass": true
+    },
+    {
+      "name": "Corporate route",
+      "additional_yield_loss": 0.2,
+      "fy2040_primary_gap_bn": -1.5599889783342036,
+      "worst_maturity_gap_bn": -1.5599889783342036,
+      "binding_year": 2040,
+      "maturity_screen_pass": true
+    },
+    {
+      "name": "Corporate route",
+      "additional_yield_loss": 0.4,
+      "fy2040_primary_gap_bn": 12.252467579044023,
+      "worst_maturity_gap_bn": 12.252467579044023,
+      "binding_year": 2040,
+      "maturity_screen_pass": false
+    },
+    {
+      "name": "Payroll route",
+      "additional_yield_loss": 0,
+      "fy2040_primary_gap_bn": -14.576041557077446,
+      "worst_maturity_gap_bn": -14.576041557077446,
+      "binding_year": 2040,
+      "maturity_screen_pass": true
+    },
+    {
+      "name": "Payroll route",
+      "additional_yield_loss": 0.2,
+      "fy2040_primary_gap_bn": -0.922865795426226,
+      "worst_maturity_gap_bn": -0.922865795426226,
+      "binding_year": 2040,
+      "maturity_screen_pass": true
+    },
+    {
+      "name": "Payroll route",
+      "additional_yield_loss": 0.4,
+      "fy2040_primary_gap_bn": 12.730309966225,
+      "worst_maturity_gap_bn": 12.730309966225,
+      "binding_year": 2040,
+      "maturity_screen_pass": false
+    },
+    {
+      "name": "Median exclusion fallback",
+      "additional_yield_loss": 0,
+      "fy2040_primary_gap_bn": -36.95626641454942,
+      "worst_maturity_gap_bn": -36.95626641454942,
+      "binding_year": 2040,
+      "maturity_screen_pass": true
+    },
+    {
+      "name": "Median exclusion fallback",
+      "additional_yield_loss": 0.2,
+      "fy2040_primary_gap_bn": -18.827045681403803,
+      "worst_maturity_gap_bn": -18.827045681403803,
+      "binding_year": 2040,
+      "maturity_screen_pass": true
+    },
+    {
+      "name": "Median exclusion fallback",
+      "additional_yield_loss": 0.4,
+      "fy2040_primary_gap_bn": -0.6978249482581802,
+      "worst_maturity_gap_bn": -0.6978249482581802,
+      "binding_year": 2040,
+      "maturity_screen_pass": true
+    }
+  ],
+  "thresholds": {
+    "corporate": {
+      "required_2030_39_tn_at_assumed_profile": 0.4397929912683397,
+      "basis": "Break-even calculation under current working paths, not a tax score"
+    },
+    "payroll": {
+      "required_2030_39_tn_at_assumed_profile": 0.4404295291518874,
+      "basis": "Break-even calculation under current working paths, not a tax score"
+    }
+  },
+  "unpriced_high_income_guardrails": [
+    "REV-HP4 deferred-compensation vesting reform; excluded from receipts",
+    "Further high-income base changes need fresh specification/joint scoring; no assumed yield"
+  ],
+  "source_sha256": {
+    "index/tools/family-financing.py": "17c5c1264eaa42119f00fbe14da752f8744b293065f5e6f38325ab6e2108cf12",
+    "index/tools/fiscal-model.py": "104de3cbb37d5a9a5ff43fbf746ca6dec99c7c190755307ebe25df1a7c8c1dd3",
+    "index/tools/fiscal-profiles.py": "b6cf21079a6442b5d98b904932d8b55d044a9c98770f7aae3e1ca9860bea1ebc",
+    "index/tools/incidence-model.py": "f575bc644bc447ae35db6cb86d300e5159fe02ee5fa81af34054dc8d990744fa",
+    "index/tools/incidence-years.py": "e9f1edd683af45112bc1de9f9f69432d70113c79a84febbbeb02b1ca5e248c7e",
+    "index/data/inputs/ledger-bills.csv": "7e468c2a677c77302ebee40fd89a7f7aea3f2684dbc5293849727936a56623db",
+    "index/data/inputs/ledger-revenue.csv": "854075c1f939ede8cb0352cb002eeb335e5805278e05f37789565066f5610e58",
+    "index/data/inputs/ledger-cuts.csv": "844bb315f9d46f1c4a9f0636d5ebc37405936fa2a60d0de8e9b00e1b16bfffa0",
+    "index/data/inputs/fiscal-profiles.csv": "a7c6bba2f3767feb9d7eb8e0d5de08387f4f3002af2b49a554a9139e20d3fc12",
+    "index/data/inputs/fiscal-components.csv": "9118ba7203519d897e996e51e975e9e274811cd156d7ad5bf37f4268665d028e",
+    "index/data/inputs/incidence-keys.csv": "805e2d234a811110d15af6e44a86f2f7648b4f189f4f1a8030e29a5d42f71241",
+    "index/data/inputs/incidence-rows.csv": "41f530a7f5529b8b7533c5e1e294438c91a280c1687e6722e8ef562a171d6781",
+    "index/data/inputs/incidence-phase-in.csv": "dc92d1f98d53c5c821bd895df607c608e097f1d20baeb4f8895e5a734e6727d8",
+    "index/data/fiscal-baseline.csv": "94660448f9e78071a3647351e2467dc28abd2aea9c8923284a82593403b704e7",
+    "domains/domain-revenue.md": "9ea5b7d304416cf24684b5848d1763aa0654cadae72127af3e3ab48f72d2bc78"
+  }
+}

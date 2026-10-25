@@ -47,3 +47,7 @@ The health adapter also reads `sources/health-restoration-remedy-cohorts.csv` an
 ## Family adoption and permanent fiscal components
 
 `fiscal-components.csv` splits an aggregate ledger bill into disjoint paths without adding another spending row. For HOU-1 the legacy $0.47T retains its original path; the extra $0.09T for 600,000 additional awards ramps over four years, grows with CPI and remains fully permanent. `fiscal-model.py` rejects a component sum that differs from the ledger midpoint. `test_fiscal_components.py` verifies calibration, persistence and mismatch rejection and runs in the common suite. Poverty selection and historical versus adopted outputs are documented in the child-poverty README and family adoption bridge.
+
+## Bounded family financing comparison
+
+After the common rebuild, `python3 index/tools/family-financing.py` generates `sources/family-financing-comparison.md` and `.json`. It reuses the fiscal annual-path and incidence allocation functions for illustrative incremental corporate/payroll receipts and the C19-for-C19b replacement. It does not change policy/input tables or select a pay-for. `python3 index/tools/test_family_financing.py` checks replacement versus double counting, receipt calibration, fiscal signs and stress monotonicity. New tax yields and incidence remain assumptions requiring joint scoring and faithful household mapping.
