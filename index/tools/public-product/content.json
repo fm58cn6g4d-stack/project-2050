@@ -1,0 +1,91 @@
+{
+  "source_commit": "3594c784b35651ee34fc7661274219bf82f3adcb",
+  "edition_date": "2026-10-24",
+  "stops": [
+    {
+      "id": "home", "number": "01", "place": "At home", "title": "Room to plan beyond Friday.",
+      "scene": "A parent looks at the week ahead. There is rent to pay, a school trip to arrange and a shift that might change. In this possible future, a missed day does not have to become a cascade of unpaid bills.",
+      "connection": "Family security depends on income, a place to live and care that is actually available. More freedom to plan is the purpose; a credit or voucher is one means of getting there.",
+      "policy": "Project 2050 has adopted the American Family Act credit and one million total new voucher awards, phased over 2030–33. Child care, pre-K, meals and paid leave connect income support to daily life. Broader rental assistance remains an optional addition.",
+      "condition": "An award must become a usable lease. Payments must reach eligible families, and housing and care supply must grow alongside assistance. The annual AFA model still needs exact statutory mapping; it cannot determine this family's eligibility or net gain.",
+      "question": "Who still cannot find a home, obtain care or receive the support intended for them?",
+      "related": ["care", "connections"],
+      "sources": [
+        ["domains/domain-family.md", "FAM-1–3 · credit, child care and leave", "Canonical project design"],
+        ["domains/domain-housing.md", "HOU-4 · awards, supply and lease-up", "Canonical project design"],
+        ["sources/family-adoption-architecture-bridge.md", "Selected package and model limits", "Adoption reconciliation"],
+        ["sources/family-comparison-model-checks.md", "Selected-package conditional comparisons", "Generated research results"]
+      ]
+    },
+    {
+      "id": "care", "number": "02", "place": "The care visit", "title": "Care that leaves room for a life.",
+      "scene": "An older neighbor receives support at home. Her daughter is still part of her care, but their time together is no longer spent only repairing gaps between services. The care worker has time to listen.",
+      "connection": "Dependable care gives people receiving it more say in their lives. It also changes what their relatives can do. That depends on the conditions of the people providing care.",
+      "policy": "HLT-4 connects home- and community-based services to the care workforce. HLT-1 addresses coverage restoration; HLT-3's public plan remains scheduled for 2031, with automatic enrollment in 2032. These are project designs, not benefits available through this website.",
+      "condition": "Coverage is only part of access. Providers, pay, state systems, trained staff and routes to correct mistakes all matter. The completed CMS/Oregon pilot identifies real delivery dependencies; incremental costs and FY2029 cash remain unpriced. Earlier restoration work has not changed adopted launch dates.",
+      "question": "Can people obtain the care they need, in a form they choose, without relying on an exhausted relative?",
+      "related": ["work", "commons"],
+      "sources": [
+        ["domains/domain-health.md", "HLT-1, HLT-3 and HLT-4 · coverage and care", "Canonical project design"],
+        ["sources/health-cms-imp-02-pilot.md", "CMS/Oregon pilot · sections 3, 8 and 9", "Completed research; historical source date"],
+        ["sources/health-selected-design-specification.md", "Current health development boundaries", "Selected specification; costs unresolved"]
+      ]
+    },
+    {
+      "id": "climate", "number": "03", "place": "Along the river", "title": "Prepare for the water that still comes.",
+      "scene": "After a storm, neighbors check on one another. The river has space to rise, and a public building offers shelter. Some households have moved to safer ground. There are still losses, and difficult decisions about what to rebuild.",
+      "connection": "Climate preparation connects homes, power, transport and public health. Cutting emissions and living with continuing hazards are different jobs; a credible future needs both.",
+      "policy": "The agenda combines clean-energy investment and standards with grid reform, disaster recovery and forward-looking climate risk rules. CLI-7 and CLI-8 connect recovery, insurance support, disclosure and where federal money builds. The river scene illustrates questions these policies must answer; it is not a funded local project.",
+      "condition": "Disaster and flood-insurance costs remain unscored. Local hazards, maintenance, displacement and who bears the cost require place-specific evidence. A climate-bill merger is under study, not adopted. No national emissions calculation can establish that this neighborhood will be safe.",
+      "question": "Who gets protection, who has to move, and what influence do they have over that decision?",
+      "related": ["home", "commons"],
+      "sources": [
+        ["domains/domain-climate.md", "CLI-1, CLI-3, CLI-6–8 · mitigation and preparation", "Canonical project design"],
+        ["sources/climate-full-scope-bill-outline-and-comparator.md", "Climate bill scope and separate-bill comparison", "Drafting research; no merger selected"],
+        ["governing/project-charter.md", "Section 3 · preparing for a difficult season", "Approved purpose; fictional scene"]
+      ]
+    },
+    {
+      "id": "work", "number": "04", "place": "The workshop", "title": "A say in how work changes.",
+      "scene": "A worker and a colleague are learning a new tool. Across town, someone whose job disappeared is looking for a way into a different occupation. The technology has changed; whether either person gains security or influence is still a public choice.",
+      "connection": "Training, bargaining power, care and income security belong in the same account of working life. A productivity gain does not settle who benefits, or whether an employer has a job to offer.",
+      "policy": "The labor agenda includes organizing rights, labor standards and apprenticeships. AI-4 proposes displacement measurement, wage insurance and training support. AI-5 provides a route to explanation, human review and appeal when federal agencies use algorithms in consequential decisions.",
+      "condition": "Training needs employers and real opportunities. AI-4's measurement and trigger require specification, and its effects depend on how work changes. Entry-level hiring credits and a transitional employment guarantee are options, not selected promises. This scene does not predict employment or wages in 2050.",
+      "question": "Do people gain useful choices and bargaining power, including those whose first opportunity disappears?",
+      "related": ["care", "connections"],
+      "sources": [
+        ["domains/domain-labor.md", "LAB-1, LAB-3 and LAB-8 · work and voice", "Canonical project design"],
+        ["domains/domain-ai.md", "AI-4 and AI-5 · adjustment and accountable use", "Canonical design; alternatives separately labeled"],
+        ["governing/project-charter.md", "Section 3 · working with new tools", "Approved inquiry; no employment forecast"]
+      ]
+    },
+    {
+      "id": "commons", "number": "05", "place": "The public library", "title": "A government you can question.",
+      "scene": "Residents meet about an investment proposal. They can inspect the evidence, challenge the presenter and find out what the authority did with their recommendations. Some disagree with the result. Their ability to organize and contest it remains part of the promise.",
+      "connection": "A capable government needs people who can scrutinize its work. Reliable services, rights, public influence and independent review reinforce the purpose of the agenda without guaranteeing trust or electoral support.",
+      "policy": "DEM-1 pursues fairer participation and election protections. DEM-17 supports public places; DEM-18 proposes advisory citizens' assemblies and a committee hearing on national recommendations. Capacity, integrity and limits on executive power make public accountability a continuing task.",
+      "condition": "The DEM pilot identifies legal and operational questions, including protected data, voting eligibility, remedies and the Title III litigation risk. Benefit receipt is not proof of voting eligibility and must not depend on registration. A public meeting alone does not give residents meaningful influence.",
+      "question": "Can people who disagree obtain an answer, challenge an error and influence what happens next?",
+      "related": ["climate", "care"],
+      "sources": [
+        ["domains/domain-democracy.md", "DEM-1, DEM-17 and DEM-18 · participation", "Canonical project design"],
+        ["sources/democracy-dem-1-pilot.md", "DEM pilot · legal, delivery and public explanation", "Completed research; historical calendar passages"],
+        ["governing/project-2050-governing-decisions.md", "Current timing, reciprocity and capacity rules", "Policy authority; supersedes old pilot timing"]
+      ]
+    },
+    {
+      "id": "connections", "number": "06", "place": "The bus stop", "title": "More of life within reach.",
+      "scene": "Someone waits for a bus to a class, a shift or a friend. The value of the connection is what it makes possible. In another place the distances are longer, and the right transport answer may look very different.",
+      "connection": "Housing, education, public space and transport shape which opportunities people can use. A connected society also depends on rights, safety and belonging, and on institutions that serve places unlike this imagined neighborhood.",
+      "policy": "Moving America brings highway renewal, transit and passenger rail into one transportation design, with separate legislative vehicles. The agenda also addresses education, immigration, civil rights, competition, public safety, social insurance and America's role in the world. Each has its own policy home below.",
+      "condition": "An authorization does not establish a local route, frequency or completion date. MOV-31 stays in the second Congress, alongside the separate 2029/2030 reconciliation components. Rural communities and Tribal governments need distinct treatment; this diagram cannot represent the country.",
+      "question": "Which opportunities become reachable, for whom, and what is still missing outside this picture?",
+      "related": ["home", "work"],
+      "sources": [
+        ["domains/transportation-moving-america-act-2031-draft-2.md", "Moving America · four vehicles, one design", "Canonical transportation draft"],
+        ["governing/project-2050-governing-decisions.md", "D1 and D5 · current transport timing", "Policy authority"],
+        ["governing/project-charter.md", "Sections 2–5 · freedom, place and the wider program", "Approved purpose"]
+      ]
+    }
+  ]
+}

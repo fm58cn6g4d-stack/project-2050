@@ -1,0 +1,784 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore a possible Project 2050 community and the policies, evidence and unresolved choices behind it. Internal design prototype.">
+<title>A day in a possible 2050 · Project 2050</title><style>:root {
+  --paper:#f5f2e9;
+  --ink:#173d3b;
+  --muted:#4d625d;
+  --line:#c8cfc2;
+  --green:#275a48;
+  --accent:#aa492e;
+  --white:#fffdf7;
+  --soft:#e5ebdf;
+  color-scheme:light;
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--ink);
+  background:var(--paper)
+}
+* {
+  box-sizing:border-box
+}
+body {
+  margin:0
+}
+a {
+  color:inherit;
+  text-underline-offset:4px
+}
+a:hover {
+  color:var(--accent)
+}
+a:focus-visible,summary:focus-visible {
+  outline:3px solid var(--accent);
+  outline-offset:5px
+}
+button,input {
+  font:inherit
+}
+[hidden] {
+  display:none!important
+}
+.skip {
+  position:absolute;
+  left:16px;
+  top:-100px;
+  background:var(--white);
+  padding:14px;
+  z-index:10
+}
+.skip:focus {
+  top:12px
+}
+.shell {
+  max-width:1440px;
+  padding:0 5%;
+  margin:auto
+}
+header {
+  border-bottom:1px solid var(--line)
+}
+.header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+  min-height:86px
+}
+.brand {
+  font-size:19px;
+  font-weight:bold;
+  letter-spacing:-.5px;
+  text-decoration:none;
+  display:flex;
+  align-items:center;
+  gap:13px
+}
+.brand-mark {
+  border:1px solid var(--ink);
+  padding:8px;
+  font:24px Georgia,serif
+}
+.header nav {
+  display:flex;
+  gap:25px;
+  font-size:14px
+}
+.eyebrow {
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:1.8px;
+  font-weight:bold
+}
+.intro {
+  padding-top:47px;
+  padding-bottom:28px;
+  display:grid;
+  grid-template-columns:1.3fr 1fr;
+  gap:50px;
+  align-items:end
+}
+.intro h1 {
+  font:clamp(42px,5vw,72px)/1.03 Georgia,serif;
+  font-weight:normal;
+  letter-spacing:-2px;
+  margin:12px 0 0;
+  max-width:750px
+}
+.intro p {
+  font-size:17px;
+  line-height:1.6;
+  max-width:480px;
+  margin-bottom:0
+}
+.tag {
+  display:inline-block;
+  border:1px solid var(--line);
+  border-radius:3px;
+  padding:5px 8px;
+  font-size:11px;
+  letter-spacing:1px;
+  text-transform:uppercase
+}
+.notice {
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.6
+}
+.journey {
+  display:grid;
+  grid-template-columns:minmax(0,1.5fr) minmax(350px,1fr);
+  gap:35px;
+  align-items:start;
+  margin:24px 0 55px
+}
+.map-wrap {
+  position:sticky;
+  top:20px
+}
+.map {
+  position:relative;
+  background:#e4ebde;
+  overflow:hidden;
+  border:1px solid #cbd5c4;
+  border-radius:4px;
+  aspect-ratio:1.42
+}
+.map svg {
+  width:100%;
+  height:100%;
+  display:block
+}
+.map-link {
+  position:absolute;
+  border:2px solid var(--paper);
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  width:40px;
+  height:40px;
+  background:var(--ink);
+  color:#fff;
+  font-size:13px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 2px 6px #173d3b30;
+  transform:translate(-50%,-50%)
+}
+.map-link:hover,.map-link[aria-current=true] {
+  background:var(--accent);
+  color:#fff;
+  outline:5px solid #fff9
+}
+.map-link:nth-of-type(1) {
+  left:22%;
+  top:36%
+}
+.map-link:nth-of-type(2) {
+  left:47%;
+  top:24%
+}
+.map-link:nth-of-type(3) {
+  left:83%;
+  top:46%
+}
+.map-link:nth-of-type(4) {
+  left:21%;
+  top:73%
+}
+.map-link:nth-of-type(5) {
+  left:52%;
+  top:66%
+}
+.map-link:nth-of-type(6) {
+  left:57%;
+  top:45%
+}
+.map-caption {
+  position:absolute;
+  top:18px;
+  left:20px;
+  font:italic 16px Georgia,serif;
+  max-width:170px
+}
+.map-legend {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  list-style:none;
+  padding:0;
+  margin:14px 0;
+  gap:8px
+}
+.map-legend a {
+  display:flex;
+  gap:9px;
+  align-items:center;
+  font-size:13px;
+  min-height:44px;
+  text-decoration:none;
+  border-bottom:1px solid var(--line)
+}
+.map-legend b {
+  font-size:11px;
+  color:var(--accent)
+}
+.map-legend a[aria-current=true] {
+  border-bottom:3px solid var(--accent);
+  font-weight:bold
+}
+.chapter {
+  border-top:2px solid var(--ink);
+  padding-top:20px;
+  scroll-margin-top:20px
+}
+.chapter+.chapter {
+  margin-top:40px
+}
+.enhanced .chapter {
+  margin-top:0
+}
+.chapter h2 {
+  font:36px/1.1 Georgia,serif;
+  font-weight:normal;
+  letter-spacing:-.7px;
+  margin:12px 0 20px
+}
+.chapter h2:focus {
+  outline:none
+}
+.scene {
+  font:20px/1.5 Georgia,serif;
+  margin:14px 0 18px
+}
+.chapter p:not(.scene):not(.eyebrow) {
+  font-size:15px;
+  line-height:1.65
+}
+.small-title {
+  font-size:13px;
+  text-transform:uppercase;
+  letter-spacing:1.2px;
+  margin:25px 0 0
+}
+.condition {
+  border-left:3px solid var(--accent);
+  padding:0 0 0 17px;
+  margin:24px 0
+}
+.question {
+  background:var(--soft);
+  padding:15px 18px;
+  font:italic 19px/1.45 Georgia,serif
+}
+.evidence {
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  padding:15px 0;
+  margin-top:24px
+}
+.evidence summary {
+  font-size:14px;
+  cursor:pointer;
+  min-height:32px;
+  padding:5px 0;
+  font-weight:bold
+}
+.sources {
+  list-style:none;
+  padding:0
+}
+.sources li {
+  margin:17px 0
+}
+.sources a {
+  font-size:14px
+}
+.sources small {
+  display:block;
+  color:var(--muted);
+  margin-top:6px;
+  line-height:1.5
+}
+.related {
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  margin:22px 0;
+  font-size:13px
+}
+.section {
+  padding:38px 0;
+  border-top:1px solid var(--line)
+}
+.section h2 {
+  font:36px/1.1 Georgia,serif;
+  margin:5px 0 18px;
+  font-weight:normal
+}
+.section-intro {
+  max-width:720px;
+  font-size:17px;
+  line-height:1.65
+}
+.horizon {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:26px;
+  margin:32px 0
+}
+.horizon div {
+  border-top:2px solid var(--green);
+  padding-top:17px
+}
+.horizon strong {
+  font:27px Georgia,serif
+}
+.horizon p {
+  font-size:14px;
+  line-height:1.6
+}
+.finance {
+  background:var(--ink);
+  color:var(--white);
+  padding:34px;
+  border-radius:3px;
+  display:grid;
+  grid-template-columns:1fr 1.3fr;
+  gap:35px;
+  margin:0 0 28px
+}
+.finance .amount {
+  font:60px Georgia,serif;
+  display:block;
+  margin:10px 0
+}
+.finance p {
+  line-height:1.65;
+  font-size:15px;
+  margin:0 0 12px
+}
+.finance a {
+  color:#fff
+}
+.finance .eyebrow {
+  color:#d9dacf
+}
+.agenda {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0 24px;
+  list-style:none;
+  padding:0
+}
+.agenda li {
+  border-bottom:1px solid var(--line)
+}
+.agenda a {
+  display:block;
+  padding:14px 0;
+  font-size:14px;
+  line-height:1.5
+}
+.table-scroll {
+  overflow-x:auto
+}
+table {
+  border-collapse:collapse;
+  width:100%;
+  font-size:13px;
+  margin-top:14px
+}
+th,td {
+  text-align:left;
+  padding:10px 7px;
+  border-bottom:1px solid var(--line)
+}
+caption {
+  text-align:left;
+  margin:15px 0;
+  font-weight:bold;
+  line-height:1.6
+}
+td {
+  font-variant-numeric:tabular-nums
+}
+footer {
+  border-top:1px solid var(--line);
+  padding:25px 0 35px;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.8
+}
+.review-link {
+  display:inline-block;
+  padding:12px 0
+}
+.directions {
+  max-width:1100px;
+  margin:auto;
+  padding:40px 24px
+}
+.directions h1 {
+  font:48px Georgia,serif
+}
+.direction {
+  margin:40px 0;
+  padding-top:25px;
+  border-top:1px solid var(--line)
+}
+.direction h2 {
+  font:30px Georgia,serif
+}
+.mock {
+  background:var(--white);
+  border:1px solid var(--line);
+  padding:28px;
+  margin:20px 0
+}
+.mock h3 {
+  font:32px Georgia,serif;
+  margin:12px 0 20px
+}
+.mock-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px
+}
+.mini-map {
+  background:var(--soft);
+  padding:22px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  font-size:13px
+}
+.mini-map span {
+  padding:18px 8px;
+  background:#fff9;
+  border:1px solid var(--line)
+}
+.life {
+  border-left:3px solid var(--accent);
+  padding-left:24px
+}
+.life p {
+  padding:13px;
+  border-bottom:1px solid var(--line)
+}
+.lab-row {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  border-top:1px solid var(--line);
+  padding:15px 0;
+  gap:20px
+}
+.direction p {
+  line-height:1.65
+}
+.direction strong {
+  color:var(--accent)
+}
+@media(min-width:1500px) {
+  .intro {
+    padding-top:60px
+  }
+  .map {
+    aspect-ratio:1.5
+  }
+}
+@media(max-width:900px) {
+  .shell {
+    padding:0 5%
+  }
+  .intro {
+    grid-template-columns:1fr;
+    gap:10px;
+    padding-top:30px
+  }
+  .intro h1 {
+    max-width:650px
+  }
+  .intro p {
+    max-width:650px
+  }
+  .journey {
+    grid-template-columns:1fr;
+    gap:24px
+  }
+  .map-wrap {
+    position:static
+  }
+  .map {
+    aspect-ratio:1.6
+  }
+  .chapter h2 {
+    font-size:34px
+  }
+  .horizon,.agenda {
+    grid-template-columns:repeat(2,1fr)
+  }
+  .finance {
+    grid-template-columns:1fr;
+    gap:15px
+  }
+  .header nav {
+    gap:14px
+  }
+  .header {
+    min-height:76px
+  }
+  .mock-grid {
+    grid-template-columns:1fr
+  }
+}
+@media(max-width:480px) {
+  .header {
+    flex-wrap:wrap;
+    gap:0;
+    padding:15px 0
+  }
+  .header nav {
+    width:100%;
+    margin-top:14px;
+    justify-content:space-between
+  }
+  .intro h1 {
+    font-size:43px
+  }
+  .map {
+    aspect-ratio:1.25
+  }
+  .map-link {
+    width:36px;
+    height:36px
+  }
+  .map-caption {
+    font-size:13px;
+    top:12px;
+    left:12px
+  }
+  .map-legend {
+    grid-template-columns:repeat(2,1fr)
+  }
+  .horizon {
+    gap:20px
+  }
+  .finance {
+    padding:25px
+  }
+  .agenda {
+    grid-template-columns:1fr 1fr
+  }
+  .mock {
+    padding:15px
+  }
+  .mini-map {
+    gap:8px;
+    padding:10px
+  }
+  .lab-row {
+    font-size:12px;
+    gap:9px
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  * {
+    scroll-behavior:auto!important
+  }
+}
+@media print {
+  .map-wrap {
+    position:static
+  }
+  .journey {
+    display:block
+  }
+  .chapter[hidden] {
+    display:block!important
+  }
+  .chapter {
+    break-inside:avoid;
+    margin-top:30px!important
+  }
+  .skip,.review-link {
+    display:none
+  }
+  .finance {
+    background:white;
+    color:var(--ink);
+    border:1px solid
+  }
+  .finance a {
+    color:var(--ink)
+  }
+}
+</style></head><body>
+<a class="skip" href="#experience">Skip to the experience</a><header><div class="shell header">
+<a class="brand" href="#"><span class="brand-mark">2050</span>Project 2050</a>
+<nav aria-label="Main"><a href="#experience">Explore</a><a href="#path">The path</a><a href="#agenda">Policy &amp; evidence</a></nav></div></header>
+<main class="shell"><div class="intro"><div><span class="eyebrow">A fair shot at a good life</span>
+<h1>A day in a<br>possible 2050.</h1></div><div><span class="tag">Design prototype · October 24, 2026</span>
+<p>More room to make plans. Care you can depend on. A place in the decisions that shape your life.
+Explore the choices that could make that future possible—and the work still ahead.</p></div></div>
+<p class="notice">This community is fictional. Its places open real project proposals and evidence; they do not predict local outcomes or determine anyone's benefits.</p>
+<section class="journey" id="experience" aria-label="Explore six places"><div class="map-wrap">
+<div class="map"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="map-title map-desc">
+<title id="map-title">An imagined community</title><desc id="map-desc">Homes, a care building, a workshop, a library and a bus stop beside a river. A schematic illustration, not a geographic map or a funded development plan. The numbered links and text list provide navigation.</desc>
+<defs>
+ <pattern id="grass" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M5 12h4m12 14h3" stroke="#b9c8af" stroke-width="1"/></pattern>
+ <pattern id="windows" width="35" height="35" patternUnits="userSpaceOnUse"><rect x="9" y="8" width="12" height="18" fill="#e8d6a6"/></pattern>
+ <g id="tree"><path d="M0 6v32" stroke="#665c42" stroke-width="5"/><ellipse cy="-4" rx="22" ry="30" fill="#688e6a"/><ellipse cx="-7" cy="-10" rx="13" ry="22" fill="#89a27b"/></g>
+ <g id="person"><circle cy="-9" r="5" fill="#695040"/><path d="M0 0v15m-6 9 6-9 5 9m-11-18 6-6 6 7" fill="none" stroke="#335655" stroke-width="5" stroke-linecap="round"/></g>
+</defs>
+<rect width="1000" height="700" fill="#e4ebde"/><rect width="1000" height="700" fill="url(#grass)"/>
+<path d="M855-50c-150 140 80 150-30 315S800 498 975 750" stroke="#a5c9ca" stroke-width="112" fill="none"/>
+<path d="M869-30c-145 140 80 150-30 315S814 498 989 750" stroke="#d7e8df" stroke-width="2" fill="none"/>
+<path d="M-80 445 490 115 790 285M110 760 735 395M125 315l625 360" stroke="#d0d4c7" stroke-width="67" fill="none"/>
+<path d="M-80 445 490 115 790 285M110 760 735 395M125 315l625 360" stroke="#f8f5e9" stroke-width="48" fill="none"/>
+<path d="m620 460 330-185" stroke="#d4c9b0" stroke-width="29"/>
+<path d="m730 410 135-78" stroke="#a78c67" stroke-width="37"/><path d="m724 399 135-78m-126 100 135-78" stroke="#6b745b" stroke-width="3"/>
+<!-- Housing: roofs, walls and communal gardens -->
+<path d="m116 210 130-72 97 56-130 75z" fill="#8a604d"/><path d="m116 210 97 59v113l-97-56z" fill="#e2bb8d"/><path d="m213 269 130-75v113l-130 75z" fill="#c49b75"/>
+<path d="m135 238 59 34v74l-59-34z" fill="url(#windows)"/><path d="m231 273 91-52v70l-91 52z" fill="url(#windows)"/>
+<path d="m126 201 122-69 88 51-123 71z" fill="#ad7355"/>
+<path d="m142 198 80-45 38 22-80 45z" fill="#416363"/><path d="m160 190 39 22m-20-34 39 22" stroke="#a5c3b7"/>
+<path d="m80 370 67-38 58 33-68 40z" fill="#bad0a3"/>
+<path d="m95 367 53-30m-39 40 53-30m-39 39 53-30" stroke="#749269" stroke-width="8"/>
+<!-- Care building -->
+<path d="m405 126 118-67 104 60-118 68z" fill="#7d9b8b"/><path d="m405 126 104 61v83l-104-61z" fill="#f1dfba"/><path d="m509 187 118-68v83l-118 68z" fill="#c2c2a4"/>
+<path d="m424 152 66 37v43l-66-38z" fill="url(#windows)"/><path d="m531 190 74-43v43l-74 43z" fill="#6b8980"/>
+<path d="m455 115 37-20 26 15-37 20z" fill="#c8d2b6"/>
+<!-- Workshop -->
+<path d="m102 465 146-83 115 66-145 83z" fill="#ab7354"/><path d="m102 465 116 66v97l-116-66z" fill="#c79271"/><path d="m218 531 145-83v97l-145 83z" fill="#b0795f"/>
+<path d="m239 540 96-56v59l-96 56z" fill="#3f6058"/><path d="m123 493 71 41v45l-71-41z" fill="url(#windows)"/>
+<path d="m149 440 68-38 53 30-67 39z" fill="#f1d2a0"/>
+<!-- Library -->
+<path d="m430 425 143-81 125 72-143 83z" fill="#d6c8a5"/><path d="m430 425 125 74v102l-125-73z" fill="#f0d6ac"/><path d="m555 499 143-83v102l-143 83z" fill="#c5ae8a"/>
+<path d="m454 452 76 43v63l-76-43z" fill="#537970"/><path d="m574 505 102-59v62l-102 59z" fill="#537970"/>
+<path d="m474 464v63m25-48v63m25-48v63m73-72v63m26-78v63m26-78v63" stroke="#e3cfac" stroke-width="6"/>
+<path d="m433 415 140-81 130 75" stroke="#8d8e72" stroke-width="8" fill="none"/>
+<!-- Transit and public space -->
+<path d="m521 310 70-40 51 29-70 41z" fill="#759889"/><path d="m529 315v48m104-57v48" stroke="#446c60" stroke-width="5"/>
+<path d="m557 355 50-28" stroke="#9e7759" stroke-width="8"/>
+<path d="m422 328 66 38v27l-66-38z" fill="#dba34f"/><path d="m428 333 54 31v14l-54-31z" fill="#3f635b"/>
+<ellipse cx="435" cy="360" rx="6" ry="8" fill="#344a43"/><ellipse cx="476" cy="384" rx="6" ry="8" fill="#344a43"/>
+<path d="m755 476 35-20m-17 42 35-20m-17 42 35-20" stroke="#b6c99f" stroke-width="18"/>
+<path d="m777 150 24-13 32 18-23 14z" fill="#e5dbc2"/>
+<use href="#tree" x="80" y="157"/><use href="#tree" x="364" y="116"/><use href="#tree" x="675" y="196"/><use href="#tree" x="733" y="147"/><use href="#tree" x="741" y="530"/><use href="#tree" x="807" y="561"/><use href="#tree" x="91" y="615"/><use href="#tree" x="374" y="632"/><use href="#tree" x="355" y="356"/><use href="#tree" x="930" y="145"/>
+<use href="#person" x="384" y="289"/><use href="#person" x="402" y="298"/><use href="#person" x="601" y="362"/><use href="#person" x="410" y="563"/><use href="#person" x="701" y="396"/><use href="#person" x="166" y="432"/>
+<path d="m886 580 10-25m4 33 12-21m-5 61 6-28" stroke="#688e6a" stroke-width="4"/>
+<path d="m52 77 8-4 8 4m27 6 8-4 8 4m501-38 8-4 8 4" stroke="#668578" fill="none" stroke-width="2"/>
+</svg>
+<span class="map-caption">One imagined place.<br>Many connected choices.</span><a class="map-link" data-stop="home" href="#home" aria-label="At home">01</a><a class="map-link" data-stop="care" href="#care" aria-label="The care visit">02</a><a class="map-link" data-stop="climate" href="#climate" aria-label="Along the river">03</a><a class="map-link" data-stop="work" href="#work" aria-label="The workshop">04</a><a class="map-link" data-stop="commons" href="#commons" aria-label="The public library">05</a><a class="map-link" data-stop="connections" href="#connections" aria-label="The bus stop">06</a></div>
+<nav aria-label="Places in the community"><ol class="map-legend"><li><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a></li><li><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a></li><li><a class="stop-link" data-stop="climate" href="#climate" aria-label="Along the river"><b>03</b> Along the river</a></li><li><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a></li><li><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></li><li><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></li></ol></nav>
+<p class="notice">Choose a numbered place or use the text links. This is a schematic illustration, not a geographic map. No local projects are implied.</p>
+</div><div class="chapters"><article class="chapter" id="home" aria-labelledby="title-home">
+        <p class="eyebrow">01 / At home</p><h2 id="title-home" tabindex="-1">Room to plan beyond Friday.</h2>
+        <span class="tag">Fictional scene · possible 2050</span><p class="scene">A parent looks at the week ahead. There is rent to pay, a school trip to arrange and a shift that might change. In this possible future, a missed day does not have to become a cascade of unpaid bills.</p>
+        <p>Family security depends on income, a place to live and care that is actually available. More freedom to plan is the purpose; a credit or voucher is one means of getting there.</p><h3 class="small-title">The choices behind it</h3><p>Project 2050 has adopted the American Family Act credit and one million total new voucher awards, phased over 2030–33. Child care, pre-K, meals and paid leave connect income support to daily life. Broader rental assistance remains an optional addition.</p>
+        <div class="condition"><h3 class="small-title">What still has to work</h3><p>An award must become a usable lease. Payments must reach eligible families, and housing and care supply must grow alongside assistance. The annual AFA model still needs exact statutory mapping; it cannot determine this family&#x27;s eligibility or net gain.</p></div>
+        <p class="question">Who still cannot find a home, obtain care or receive the support intended for them?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
+        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
+        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">FAM-1–3 · credit, child care and leave</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">HOU-4 · awards, supply and lease-up</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-adoption-architecture-bridge.md">Selected package and model limits</a><small>Adoption reconciliation</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-comparison-model-checks.md">Selected-package conditional comparisons</a><small>Generated research results</small></li></ul><div class="table-scroll"><table><caption>Selected channels, different delivery assumptions</caption>
+        <thead><tr><th scope="col">Research case</th><th scope="col">Child SPM poverty</th><th scope="col">Deep poverty</th></tr></thead>
+        <tbody><tr><th scope="row">Moderate</th><td>8.73%</td><td>1.97%</td></tr><tr><th scope="row">Enhanced</th><td>8.34%</td><td>1.85%</td></tr><tr><th scope="row">Full</th><td>8.09%</td><td>1.78%</td></tr></tbody></table></div><p>Same-scenario baseline: 13.40% child poverty.
+        These are conditional results for the credit, care/pre-K expense relief, meals and housing channels, using 2025 source income and a 2034 valuation reference.
+        They are not forecasts of 2050, full-agenda effects or three adopted delivery rates. Deep poverty means resources below half the SPM threshold.</p>
+        <p>These results do not incorporate the full health, paid-leave, tax or earnings effects of the agenda.
+        The annual AFA analogue, legal-eligibility proxies and assumed receipt and lease-up limit the comparison.
+        The linked report and JSON record conditional sampling uncertainty; it does not cover model or policy uncertainty.
+        Near-eradication remains an ambition, not a result established here.</p>
+        <p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-comparison-model-checks.json">Inspect aggregate results and uncertainty</a></p></details>
+        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></div></article><article class="chapter" id="care" aria-labelledby="title-care">
+        <p class="eyebrow">02 / The care visit</p><h2 id="title-care" tabindex="-1">Care that leaves room for a life.</h2>
+        <span class="tag">Fictional scene · possible 2050</span><p class="scene">An older neighbor receives support at home. Her daughter is still part of her care, but their time together is no longer spent only repairing gaps between services. The care worker has time to listen.</p>
+        <p>Dependable care gives people receiving it more say in their lives. It also changes what their relatives can do. That depends on the conditions of the people providing care.</p><h3 class="small-title">The choices behind it</h3><p>HLT-4 connects home- and community-based services to the care workforce. HLT-1 addresses coverage restoration; HLT-3&#x27;s public plan remains scheduled for 2031, with automatic enrollment in 2032. These are project designs, not benefits available through this website.</p>
+        <div class="condition"><h3 class="small-title">What still has to work</h3><p>Coverage is only part of access. Providers, pay, state systems, trained staff and routes to correct mistakes all matter. The completed CMS/Oregon pilot identifies real delivery dependencies; incremental costs and FY2029 cash remain unpriced. Earlier restoration work has not changed adopted launch dates.</p></div>
+        <p class="question">Can people obtain the care they need, in a form they choose, without relying on an exhausted relative?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
+        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
+        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">HLT-1, HLT-3 and HLT-4 · coverage and care</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/health-cms-imp-02-pilot.md">CMS/Oregon pilot · sections 3, 8 and 9</a><small>Completed research; historical source date</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/health-selected-design-specification.md">Current health development boundaries</a><small>Selected specification; costs unresolved</small></li></ul></details>
+        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></div></article><article class="chapter" id="climate" aria-labelledby="title-climate">
+        <p class="eyebrow">03 / Along the river</p><h2 id="title-climate" tabindex="-1">Prepare for the water that still comes.</h2>
+        <span class="tag">Fictional scene · possible 2050</span><p class="scene">After a storm, neighbors check on one another. The river has space to rise, and a public building offers shelter. Some households have moved to safer ground. There are still losses, and difficult decisions about what to rebuild.</p>
+        <p>Climate preparation connects homes, power, transport and public health. Cutting emissions and living with continuing hazards are different jobs; a credible future needs both.</p><h3 class="small-title">The choices behind it</h3><p>The agenda combines clean-energy investment and standards with grid reform, disaster recovery and forward-looking climate risk rules. CLI-7 and CLI-8 connect recovery, insurance support, disclosure and where federal money builds. The river scene illustrates questions these policies must answer; it is not a funded local project.</p>
+        <div class="condition"><h3 class="small-title">What still has to work</h3><p>Disaster and flood-insurance costs remain unscored. Local hazards, maintenance, displacement and who bears the cost require place-specific evidence. A climate-bill merger is under study, not adopted. No national emissions calculation can establish that this neighborhood will be safe.</p></div>
+        <p class="question">Who gets protection, who has to move, and what influence do they have over that decision?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
+        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
+        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">CLI-1, CLI-3, CLI-6–8 · mitigation and preparation</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/climate-full-scope-bill-outline-and-comparator.md">Climate bill scope and separate-bill comparison</a><small>Drafting research; no merger selected</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">Section 3 · preparing for a difficult season</a><small>Approved purpose; fictional scene</small></li></ul></details>
+        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></div></article><article class="chapter" id="work" aria-labelledby="title-work">
+        <p class="eyebrow">04 / The workshop</p><h2 id="title-work" tabindex="-1">A say in how work changes.</h2>
+        <span class="tag">Fictional scene · possible 2050</span><p class="scene">A worker and a colleague are learning a new tool. Across town, someone whose job disappeared is looking for a way into a different occupation. The technology has changed; whether either person gains security or influence is still a public choice.</p>
+        <p>Training, bargaining power, care and income security belong in the same account of working life. A productivity gain does not settle who benefits, or whether an employer has a job to offer.</p><h3 class="small-title">The choices behind it</h3><p>The labor agenda includes organizing rights, labor standards and apprenticeships. AI-4 proposes displacement measurement, wage insurance and training support. AI-5 provides a route to explanation, human review and appeal when federal agencies use algorithms in consequential decisions.</p>
+        <div class="condition"><h3 class="small-title">What still has to work</h3><p>Training needs employers and real opportunities. AI-4&#x27;s measurement and trigger require specification, and its effects depend on how work changes. Entry-level hiring credits and a transitional employment guarantee are options, not selected promises. This scene does not predict employment or wages in 2050.</p></div>
+        <p class="question">Do people gain useful choices and bargaining power, including those whose first opportunity disappears?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
+        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
+        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">LAB-1, LAB-3 and LAB-8 · work and voice</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-ai.md">AI-4 and AI-5 · adjustment and accountable use</a><small>Canonical design; alternatives separately labeled</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">Section 3 · working with new tools</a><small>Approved inquiry; no employment forecast</small></li></ul></details>
+        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></div></article><article class="chapter" id="commons" aria-labelledby="title-commons">
+        <p class="eyebrow">05 / The public library</p><h2 id="title-commons" tabindex="-1">A government you can question.</h2>
+        <span class="tag">Fictional scene · possible 2050</span><p class="scene">Residents meet about an investment proposal. They can inspect the evidence, challenge the presenter and find out what the authority did with their recommendations. Some disagree with the result. Their ability to organize and contest it remains part of the promise.</p>
+        <p>A capable government needs people who can scrutinize its work. Reliable services, rights, public influence and independent review reinforce the purpose of the agenda without guaranteeing trust or electoral support.</p><h3 class="small-title">The choices behind it</h3><p>DEM-1 pursues fairer participation and election protections. DEM-17 supports public places; DEM-18 proposes advisory citizens&#x27; assemblies and a committee hearing on national recommendations. Capacity, integrity and limits on executive power make public accountability a continuing task.</p>
+        <div class="condition"><h3 class="small-title">What still has to work</h3><p>The DEM pilot identifies legal and operational questions, including protected data, voting eligibility, remedies and the Title III litigation risk. Benefit receipt is not proof of voting eligibility and must not depend on registration. A public meeting alone does not give residents meaningful influence.</p></div>
+        <p class="question">Can people who disagree obtain an answer, challenge an error and influence what happens next?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
+        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
+        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">DEM-1, DEM-17 and DEM-18 · participation</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/democracy-dem-1-pilot.md">DEM pilot · legal, delivery and public explanation</a><small>Completed research; historical calendar passages</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">Current timing, reciprocity and capacity rules</a><small>Policy authority; supersedes old pilot timing</small></li></ul></details>
+        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="climate" href="#climate" aria-label="Along the river"><b>03</b> Along the river</a><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a></div></article><article class="chapter" id="connections" aria-labelledby="title-connections">
+        <p class="eyebrow">06 / The bus stop</p><h2 id="title-connections" tabindex="-1">More of life within reach.</h2>
+        <span class="tag">Fictional scene · possible 2050</span><p class="scene">Someone waits for a bus to a class, a shift or a friend. The value of the connection is what it makes possible. In another place the distances are longer, and the right transport answer may look very different.</p>
+        <p>Housing, education, public space and transport shape which opportunities people can use. A connected society also depends on rights, safety and belonging, and on institutions that serve places unlike this imagined neighborhood.</p><h3 class="small-title">The choices behind it</h3><p>Moving America brings highway renewal, transit and passenger rail into one transportation design, with separate legislative vehicles. The agenda also addresses education, immigration, civil rights, competition, public safety, social insurance and America&#x27;s role in the world. Each has its own policy home below.</p>
+        <div class="condition"><h3 class="small-title">What still has to work</h3><p>An authorization does not establish a local route, frequency or completion date. MOV-31 stays in the second Congress, alongside the separate 2029/2030 reconciliation components. Rural communities and Tribal governments need distinct treatment; this diagram cannot represent the country.</p></div>
+        <p class="question">Which opportunities become reachable, for whom, and what is still missing outside this picture?</p><details class="evidence"><summary>Open the evidence &amp; policy notes</summary>
+        <p>Project choices are not enacted law. These records show the design, its basis and its limits at this edition's source commit.</p>
+        <ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/transportation-moving-america-act-2031-draft-2.md">Moving America · four vehicles, one design</a><small>Canonical transportation draft</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">D1 and D5 · current transport timing</a><small>Policy authority</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">Sections 2–5 · freedom, place and the wider program</a><small>Approved purpose</small></li></ul></details>
+        <div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a></div></article></div></section>
+<section id="path" class="section"><span class="eyebrow">From a picture to a program</span><h2>How could we get there?</h2>
+<p class="section-intro">The picture asks what a good life could feel like. The governing program has to explain who acts, what it costs, what can fail and how people can obtain a correction.</p>
+<div class="horizon"><div><strong>2029–30</strong><p>Enactment and early delivery. Prepare legislation, funding and institutions together. Political assumptions are planning stipulations, not election forecasts.</p></div>
+<div><strong>2030–33</strong><p>Scale services and assistance. The voucher plan phases one million total new awards over these years. Awards are not successful leases.</p></div>
+<div><strong>2040</strong><p>Permanent programs must be funded at maturity and afterward. The current working fiscal model fails that requirement.</p></div>
+<div><strong>2050</strong><p>Ask what lasted, who was left out and what needs to change. This is a horizon for inquiry, not a forecast produced by the illustration.</p></div></div>
+<div class="finance"><div><span class="eyebrow">Financing remains unresolved</span><span class="amount">≈ $54B</span><p>FY2040 general-fund primary gap<br>Working fiscal case · nominal dollars</p></div>
+<div><p>The adopted family package is included in the current model. A financing strategy that satisfies the project's fiscal rule is still under redesign. None of the three recent financing illustrations has been selected.</p>
+<p>This figure comes from the DEC case; it is not the full federal deficit, an official score or the cost of the whole agenda. The agency-surge cash path remains a proxy, and some policy costs remain unpriced.</p>
+<p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/index/fiscal-long-term-model.md">Read the fiscal analysis</a> · <a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">Read the governing choices</a></p></div></div>
+<p class="notice">This path separates policy timing from household receipt. It does not move MOV-31 out of the second Congress or change any health launch date.</p></section>
+<section id="agenda" class="section"><span class="eyebrow">The wider agenda</span><h2>Enter through the question you bring.</h2>
+<p class="section-intro">These six places are a beginning. The professional layer covers the full program, including questions this community cannot represent. Open a policy home to inspect its selected design, alternatives and dependencies.</p>
+<ul class="agenda"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-ai.md">AI</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-amendments.md">Amendments</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-capacity.md">Capacity</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">Climate</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-competition.md">Competition</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-courts.md">Courts</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">Democracy</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-education.md">Education</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-executive-power.md">Executive power</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">Family</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">Health</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">Housing</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-immigration.md">Immigration</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-integrity.md">Integrity</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">Labor</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-national-security.md">National security</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-public-safety.md">Public safety</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-revenue.md">Revenue</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-rights.md">Rights</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-social-security.md">Social security</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/transportation-moving-america-act-2031-draft-2.md">Transportation</a></li></ul><p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">Read the project charter</a> · <a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/index/tools/readme.md">Inspect the models and reproduction commands</a></p>
+<p class="notice">Repository links open the pinned source edition and may require GitHub access. The explanation and key limitations remain readable here.</p></section>
+<section class="section"><h2>What would make this direction useful?</h2><p class="section-intro">For this design review: can you distinguish the imagined future, the selected policy and the unresolved condition? Can you reach the evidence you would need to challenge the account?</p>
+<a class="review-link" href="directions.html">Compare the three editorial directions →</a></section></main>
+<footer><div class="shell">Internal review prototype · No public deployment · Source edition 2026-10-24 · Commit 3594c784b35651ee34fc7661274219bf82f3adcb<br>
+Authored illustration. Navigation changes the place you are reading; no personal data is collected and no outcome is recalculated.
+<a href="manifest.json">Source and build manifest</a></div></footer><script>// Links navigate authored chapters. They do not alter assumptions or calculate effects.
+(() => {
+  const chapters = [...document.querySelectorAll('.chapter')];
+  const links = [...document.querySelectorAll('[data-stop]')];
+  function show(id, focus = false) {
+    if (!chapters.some(chapter => chapter.id === id)) return;
+    document.documentElement.classList.add('enhanced');
+    chapters.forEach(chapter => { chapter.hidden = chapter.id !== id; });
+    links.forEach(link => {
+      if (link.dataset.stop === id) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    });
+    if (focus) {
+      const heading = document.querySelector(`#${id} h2`);
+      heading.focus({preventScroll: true});
+      if (matchMedia('(max-width:900px)').matches) heading.scrollIntoView({block: 'start'});
+    }
+  }
+  links.forEach(link => link.addEventListener('click', event => {
+    event.preventDefault();
+    history.pushState(null, '', link.getAttribute('href'));
+    show(link.dataset.stop, true);
+  }));
+  function restore() {
+    const id = location.hash.slice(1);
+    if (chapters.some(chapter => chapter.id === id)) show(id);
+    else if (!id) show('home');
+  }
+  addEventListener('popstate', restore);
+  addEventListener('hashchange', restore);
+  show('home');
+  restore();
+})();
+</script></body></html>

@@ -1,0 +1,75 @@
+{
+  "edition_date": "2026-10-24",
+  "numeric_contracts": {
+    "fiscal_gap": {
+      "field": "gf_primary",
+      "path": "index/data/fiscal-paths.csv",
+      "positive": "deficit",
+      "selector": {
+        "scenario": "DEC",
+        "year": "2040"
+      },
+      "unit": "nominal USD billion",
+      "value": 53.69
+    },
+    "poverty": {
+      "kind": "conditional_selected_channels_not_forecast",
+      "path": "sources/family-comparison-model-checks.json",
+      "selector": "adopted_cases",
+      "source_income_year": 2025,
+      "valuation_year": 2034
+    }
+  },
+  "outputs_sha256": {
+    "directions.html": "93af77678dac43aa84ce05661bcf93f0f6f90ca2b583c19c1516f3f2b9ba4eaf",
+    "index.html": "f1c6e5c40de925917474dbb414231594e6c43ccb7260bcf8e643990d369eaa62"
+  },
+  "schema_version": 1,
+  "sha256": {
+    "domains/domain-ai.md": "fc18c7cd042ea49847bfa9800614168a90e5c0fac4e0b6d83c2388b148dedbfe",
+    "domains/domain-amendments.md": "8d813284a918b94e8a55d1bb5df2ea9d8db59e078e18dc4834eebe80cb7bf852",
+    "domains/domain-capacity.md": "7c6d7fb15699b60efdeaa8659c2c0752d07398f2b3b5fd397bba1a38049e136c",
+    "domains/domain-climate.md": "6a1a03551ad8d492a05d0d9106e79331a0b0e56d323afd0afc780fa847009b0a",
+    "domains/domain-competition.md": "d168c1e5915dbcca7c38e9ef35c7f99ac57160a5f54cb5348dacddd07f24e169",
+    "domains/domain-courts.md": "4028d33eca2eb0395cc0cf3afc997840770576f3563ef55b28e2b0129a5b889a",
+    "domains/domain-democracy.md": "a1f08570f98f47eb8d658f8bb4b382ace68b8b60eadf889d9d55c0f6c80ff851",
+    "domains/domain-education.md": "bef235e1fd9f10c3860d9cf9a653e3c0f46f67eb227fc43bff7c884b9879a63b",
+    "domains/domain-executive-power.md": "3844ffc5a639ce8be6bdb6e7d65429c4689a261e591c0d6829d4b0daa355a60a",
+    "domains/domain-family.md": "33b106bacfcf9537f787a5939e97db03fad28ab6fa5f415ed58deefcc18aa53f",
+    "domains/domain-health.md": "edcf65af0d0b5ca25c2e074f5139563651c6e8328e310d6ecc84cc89f8f838e7",
+    "domains/domain-housing.md": "afe008f35ec5f368040b1a13cad7fc665ed4b7aa8d898fd0c3c2f878ce896bf1",
+    "domains/domain-immigration.md": "2cc6b2d358d6d878bbf60497cd4d95453f2ad9b6ce12e1614d1ed64ccd3a1478",
+    "domains/domain-integrity.md": "de3495890c7b2512dc438b5c9daa2f50a9ab82b3f3813dac2a1b53ddeb367e00",
+    "domains/domain-labor.md": "1a36eaeaa2d15983f20b19c7d96fc203aceaa8ff526a24fbd7393e157218f62f",
+    "domains/domain-national-security.md": "656b34f7da858daf7147b33cceaa051fe5e7dcb117b8517d665cbfbdf2aa26c2",
+    "domains/domain-public-safety.md": "ac82d0d6758b1846115216a8b90508915a15fc1c1cec991543195ab187eb6994",
+    "domains/domain-revenue.md": "9ea5b7d304416cf24684b5848d1763aa0654cadae72127af3e3ab48f72d2bc78",
+    "domains/domain-rights.md": "2498d4fbfbb8096a91c024d439058068d9495be11fd3b5b3f048c84b63e383ee",
+    "domains/domain-social-security.md": "3a2c01379dbb7d60a7ead61a993d13f7ccb8cb3987f6882f5330cc23dc724230",
+    "domains/transportation-moving-america-act-2031-draft-2.md": "469315b632b6ea0a7995bbb878c606fbaa5240ae8b1ad4477ca4029e6b98be81",
+    "governing/project-2050-governing-decisions.md": "4ed4b4153eb9934710488df8091149d102a26365508dbfd3d799dbd5115aa267",
+    "governing/project-charter.md": "30bfa30ee618449b16bcbdd31f12be7b4bd91ed8429e3ef93e4a2d93edddf649",
+    "index/data/fiscal-paths.csv": "a58e1189651b0c38b05349975e7d0e53e3213fe134b73f791821d66c640f48ca",
+    "index/fiscal-long-term-model.md": "18f3bf4318e36dd1bc00942637774b7f1baef655640c745eec77c2671f77d020",
+    "index/tools/child-poverty/adopted-package.json": "a2447e60d909144180274ddac0029118f23c71e7bd82882675940ea6d1f7b9ed",
+    "index/tools/public-product/README.md": "5d2fb559584ec7aa1402be1ed059825c476d6639b241a17aba3e21e80cabdd80",
+    "index/tools/public-product/browser-check.cjs": "f28c34372ff99775656a5be04bbed7fd0b18231b0fe09e69ae2e7661ee799b16",
+    "index/tools/public-product/build.py": "1db1bb887a3377e89589b4bc431bc28095880a9b3f2be8bb6b55e1f8aca6b852",
+    "index/tools/public-product/community.svg": "25c8c3a250c72ef5a43962ec28836c8e173a40687d80284c9ae2a751012db3d6",
+    "index/tools/public-product/content.json": "825f09b8307baf4ccdc212b10b6a2dd66ab358dd8c142aec6a25ef8ae91d902a",
+    "index/tools/public-product/directions.html": "41d7b0ce0f7f4db9cd7e7f95a6ee49292d4ae74af776299e54e694197877bb60",
+    "index/tools/public-product/interaction.js": "eac4b824be06d5cafb6f23232a451eedad2a9120e122eb51d5f7aafe75971cb0",
+    "index/tools/public-product/style.css": "cf165889af02fe6d7596cb8a077a267851caab8459115cb1d5f0cc0e776c2a1c",
+    "index/tools/public-product/test_build.py": "21199b27c429e43f049d1017fbd8d51dad6cf448235b19052e5df0bf18405802",
+    "index/tools/readme.md": "d126a5869a05a2a962bed1562ffdb7bd34115418a5cb79e59baab0bfe1f82295",
+    "sources/climate-full-scope-bill-outline-and-comparator.md": "8c670b11ba95cabe14495fe7778fac2859a41bfe00b0310f0df7d56451b3db90",
+    "sources/democracy-dem-1-pilot.md": "a09e541b3c9c0ef56cf3083595bd7ac56fb24e534edc8e7a65f7892d4e0c134f",
+    "sources/family-adoption-architecture-bridge.md": "2f764eca4182e78fa93e3f5fdaee71dfe7701f1b1bfc437098797a6da2a492ac",
+    "sources/family-comparison-model-checks.json": "07dca36ddeaa003dad808c6862ddc9fdbd321fd90085bc6307433aa09454025c",
+    "sources/family-comparison-model-checks.md": "a1b211e655813f76d5f6b4855ab503076c6b5c3f00424e3ca13db271f5b79b84",
+    "sources/health-cms-imp-02-pilot.md": "f12bb4b0bba918ab652750e57b95824698566c42ae4492971a62c2b6f09b79d5",
+    "sources/health-selected-design-specification.md": "01ae30dea056fea75867c6102e68b6af48ed2fed521a9fd0c411c529d3211923"
+  },
+  "source_commit": "3594c784b35651ee34fc7661274219bf82f3adcb",
+  "status": "internal_design_prototype_not_public_release"
+}
