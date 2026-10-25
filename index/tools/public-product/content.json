@@ -1,0 +1,812 @@
+{
+  "source_commit": "3594c784b35651ee34fc7661274219bf82f3adcb",
+  "edition_date": "2026-10-25",
+  "stops": [
+    {
+      "id": "home",
+      "number": "01",
+      "place": "At home",
+      "title": "Room to plan beyond Friday.",
+      "scene": "A parent looks at the week ahead. There is rent to pay, a school trip to arrange and a shift that might change. In this possible future, a missed day does not have to become a cascade of unpaid bills.",
+      "connection": "A reliable income helps a family plan. Affordable housing gives that plan a foundation. Child care and paid leave make room for work, relationships and the unexpected. Each part does more when the others are there.",
+      "related": [
+        "care",
+        "connections"
+      ],
+      "sources": [
+        [
+          "domains/domain-family.md",
+          "Family income, child care and paid leave",
+          "Canonical project design"
+        ],
+        [
+          "domains/domain-housing.md",
+          "Housing assistance, construction and repair",
+          "Canonical project design"
+        ],
+        [
+          "sources/family-adoption-architecture-bridge.md",
+          "Selected package and model limits",
+          "Adoption reconciliation"
+        ],
+        [
+          "sources/family-comparison-model-checks.md",
+          "Selected-package conditional comparisons",
+          "Generated research results"
+        ]
+      ],
+      "analysis_notes": "An award must become a usable lease. Payments must reach eligible families, and housing and care supply must grow alongside assistance. The annual AFA model still needs exact statutory mapping; it cannot determine this family's eligibility or net gain.",
+      "lived_test": "Progress means fewer children growing up in poverty, fewer families pushed from their homes and more parents able to plan their lives. It matters most whether help reaches people who have been hardest to reach.",
+      "steps": [
+        {
+          "id": "income",
+          "title": "Income families can count on",
+          "body": "A monthly, fully refundable child credit would reach families with little or no income-tax liability, with extra support for young children and newborns. Regular payments help support the everyday costs of raising a child.",
+          "policy_ids": [
+            "FAM-1"
+          ]
+        },
+        {
+          "id": "housing",
+          "title": "A stable place to call home",
+          "body": "Expand rental assistance by one million new voucher awards, alongside investment in housing construction and repair. Helping with rent and increasing the supply of homes need to move together.",
+          "policy_ids": [
+            "HOU-4",
+            "HOU-3",
+            "HOU-5"
+          ]
+        },
+        {
+          "id": "time",
+          "title": "Time to work, care and grow",
+          "body": "Affordable child care and voluntary pre-K, school and summer food support, and paid family and medical leave would help families meet needs that a cash payment alone cannot solve.",
+          "policy_ids": [
+            "FAM-2",
+            "FAM-3",
+            "EDU-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "care",
+      "number": "02",
+      "place": "The care visit",
+      "title": "Care that leaves room for a life.",
+      "scene": "An older neighbor receives support at home. Her daughter is still part of her care, but their time together is no longer spent only repairing gaps between services. The care worker has time to listen.",
+      "connection": "Affordable coverage can protect a household’s finances. Care at home can give an older or disabled person more control over daily life. Better jobs for care workers help make that support dependable. These are parts of the same promise.",
+      "related": [
+        "work",
+        "commons"
+      ],
+      "sources": [
+        [
+          "domains/domain-health.md",
+          "Health coverage and dependable care",
+          "Canonical project design"
+        ],
+        [
+          "sources/health-cms-imp-02-pilot.md",
+          "How coverage becomes care: the Oregon delivery study",
+          "Completed research; historical source date"
+        ],
+        [
+          "sources/health-selected-design-specification.md",
+          "Current health development boundaries",
+          "Selected specification; costs unresolved"
+        ]
+      ],
+      "analysis_notes": "Coverage is only part of access. Providers, pay, state systems, trained staff and routes to correct mistakes all matter. The completed CMS/Oregon pilot identifies real delivery dependencies; incremental costs and FY2029 cash remain unpriced. Earlier restoration work has not changed adopted launch dates.",
+      "lived_test": "Judge progress by whether people can actually get care, choose how they live and avoid financial hardship—and by whether care workers can build a sustainable life from their work.",
+      "steps": [
+        {
+          "id": "coverage",
+          "title": "Health coverage that stays with you",
+          "body": "Restore Medicaid and marketplace protections and build a public health-insurance option, so access to affordable coverage depends less on a particular job or where someone lives.",
+          "policy_ids": [
+            "HLT-1",
+            "HLT-3"
+          ]
+        },
+        {
+          "id": "medicare",
+          "title": "Medicare that meets more everyday needs",
+          "body": "Add dental, vision and hearing benefits and a limit on out-of-pocket costs in traditional Medicare. Being able to see, hear and eat comfortably belongs in an account of health and independence.",
+          "policy_ids": [
+            "HLT-2"
+          ]
+        },
+        {
+          "id": "home-care",
+          "title": "Support at home, and support for the people providing it",
+          "body": "Invest in home- and community-based care and the workforce behind it. Pair care services with paid leave so relatives can be present without having to carry every responsibility alone.",
+          "policy_ids": [
+            "HLT-4",
+            "FAM-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "climate",
+      "number": "03",
+      "place": "Along the river",
+      "title": "Prepare for the water that still comes.",
+      "scene": "After a storm, neighbors check on one another. The river has space to rise, and a public building offers shelter. Some households have moved to safer ground. There are still losses, and difficult decisions about what to rebuild.",
+      "connection": "A cleaner energy system reduces the pollution driving climate change. A stronger grid and better homes make that system useful in daily life. Preparing for hazards protects people while the climate continues to change.",
+      "related": [
+        "home",
+        "commons"
+      ],
+      "sources": [
+        [
+          "domains/domain-climate.md",
+          "Clean energy and climate preparation",
+          "Canonical project design"
+        ],
+        [
+          "sources/climate-full-scope-bill-outline-and-comparator.md",
+          "Climate bill scope and separate-bill comparison",
+          "Drafting research; no merger selected"
+        ],
+        [
+          "governing/project-charter.md",
+          "The principles behind Project 2050",
+          "Approved purpose; fictional scene"
+        ]
+      ],
+      "analysis_notes": "Disaster and flood-insurance costs remain unscored. Local hazards, maintenance, displacement and who bears the cost require place-specific evidence. A climate-bill merger is under study, not adopted. No national emissions calculation can establish that this neighborhood will be safe.",
+      "lived_test": "Look at pollution, safety, reliability and affordability together. Progress includes protecting people with the fewest resources and being honest about the losses that remain.",
+      "steps": [
+        {
+          "id": "clean-power",
+          "title": "Clean power that can reach people",
+          "body": "Combine clean-energy investment and standards with a grid able to carry power where it is needed. The plan connects what we build to the rules and institutions needed to make it work.",
+          "policy_ids": [
+            "CLI-1",
+            "CLI-3",
+            "CLI-6"
+          ]
+        },
+        {
+          "id": "dividend",
+          "title": "Help households share in the transition",
+          "body": "Return most carbon-fee receipts to adults through a climate dividend, while supporting households and communities through the transition. Pair cleaner technology with practical help to use it.",
+          "policy_ids": [
+            "CLI-2",
+            "CLI-5"
+          ]
+        },
+        {
+          "id": "prepared",
+          "title": "Prepare before disaster—and support recovery afterward",
+          "body": "Strengthen disaster recovery, flood-insurance support and the use of forward-looking risk in building decisions. The aim is to reduce harm while helping people face difficult choices about staying, adapting or moving.",
+          "policy_ids": [
+            "CLI-7",
+            "CLI-8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "number": "04",
+      "place": "The workshop",
+      "title": "A say in how work changes.",
+      "scene": "A worker and a colleague are learning a new tool. Across town, someone whose job disappeared is looking for a way into a different occupation. The technology has changed; whether either person gains security or influence is still a public choice.",
+      "connection": "A new technology can make work easier without giving workers more security. Bargaining power, fair standards, learning opportunities and support through a job change help people shape what progress means for them.",
+      "related": [
+        "care",
+        "connections"
+      ],
+      "sources": [
+        [
+          "domains/domain-labor.md",
+          "Labor rights and routes into work",
+          "Canonical project design"
+        ],
+        [
+          "domains/domain-ai.md",
+          "Work, technology and accountable public decisions",
+          "Canonical design; alternatives separately labeled"
+        ],
+        [
+          "governing/project-charter.md",
+          "The principles behind Project 2050",
+          "Approved inquiry; no employment forecast"
+        ]
+      ],
+      "analysis_notes": "Training needs employers and real opportunities. AI-4's measurement and trigger require specification, and its effects depend on how work changes. Entry-level hiring credits and a transitional employment guarantee are options, not selected promises. This scene does not predict employment or wages in 2050.",
+      "lived_test": "Ask whether work offers security, a fair share of the gains and a meaningful voice. Count people whose jobs disappear or whose first opportunity never arrives, as well as people who benefit.",
+      "steps": [
+        {
+          "id": "voice",
+          "title": "A stronger voice on the job",
+          "body": "Strengthen organizing and bargaining rights and improve labor standards. Workers should have more power to influence pay, conditions and how their workplaces change.",
+          "policy_ids": [
+            "LAB-1",
+            "LAB-3"
+          ]
+        },
+        {
+          "id": "pathways",
+          "title": "Real routes into new work",
+          "body": "Expand apprenticeships and connect support for workers affected by AI to wage insurance and training. Learning needs to connect to useful skills and actual opportunities.",
+          "policy_ids": [
+            "LAB-8",
+            "AI-4"
+          ]
+        },
+        {
+          "id": "human-review",
+          "title": "A human answer when a system gets it wrong",
+          "body": "Require explanations, human review and appeals when federal agencies use algorithms in consequential decisions. More capable technology should come with more accountable institutions.",
+          "policy_ids": [
+            "AI-5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commons",
+      "number": "05",
+      "place": "The public library",
+      "title": "A government you can question.",
+      "scene": "Residents meet about an investment proposal. They can inspect the evidence, challenge the presenter and find out what the authority did with their recommendations. Some disagree with the result. Their ability to organize and contest it remains part of the promise.",
+      "connection": "People need more than a chance to speak. They need fair elections, rights that can be enforced, institutions that respond and public places where collective life can happen. A government capable of delivering should also be open to challenge.",
+      "related": [
+        "climate",
+        "care"
+      ],
+      "sources": [
+        [
+          "domains/domain-democracy.md",
+          "Voting, representation and public participation",
+          "Canonical project design"
+        ],
+        [
+          "sources/democracy-dem-1-pilot.md",
+          "How democratic protections could work in practice",
+          "Completed research; historical calendar passages"
+        ],
+        [
+          "governing/project-2050-governing-decisions.md",
+          "The project’s selected policy choices",
+          "Policy authority; supersedes old pilot timing"
+        ]
+      ],
+      "analysis_notes": "The DEM pilot identifies legal and operational questions, including protected data, voting eligibility, remedies and the Title III litigation risk. Benefit receipt is not proof of voting eligibility and must not depend on registration. A public meeting alone does not give residents meaningful influence.",
+      "lived_test": "Judge democracy by who can participate, whose rights are protected and whether people can get an answer or remedy. Apply those standards to leaders we support as well as those we oppose.",
+      "steps": [
+        {
+          "id": "elections",
+          "title": "Fair elections and equal political voice",
+          "body": "Protect voting access, strengthen election protections and make congressional mapmaking more accountable. Make it easier for eligible people to participate, without tying access to benefits to voting or political support.",
+          "policy_ids": [
+            "DEM-1",
+            "DEM-2"
+          ]
+        },
+        {
+          "id": "integrity",
+          "title": "Public service in the public interest",
+          "body": "Strengthen disclosure of political spending, curb conflicts of interest and give small donors more influence through voluntary public matching. Public office should serve the public.",
+          "policy_ids": [
+            "INT-1",
+            "INT-2",
+            "INT-5"
+          ]
+        },
+        {
+          "id": "participation",
+          "title": "Places to gather and ways to be heard",
+          "body": "Support libraries, parks and community spaces, and create advisory citizens’ assemblies with a defined public response. Build the staffing and expertise that turn a commitment into useful service.",
+          "policy_ids": [
+            "DEM-17",
+            "DEM-18",
+            "CAP-7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connections",
+      "number": "06",
+      "place": "The bus stop",
+      "title": "More of life within reach.",
+      "scene": "Someone waits for a bus to a class, a shift or a friend. The value of the connection is what it makes possible. In another place the distances are longer, and the right transport answer may look very different.",
+      "connection": "An opportunity only helps if you can reach it. Homes near useful connections, reliable transport, well-supported schools and welcoming public places can make more of life available to people.",
+      "related": [
+        "home",
+        "work"
+      ],
+      "sources": [
+        [
+          "domains/transportation-moving-america-act-2031-draft-2.md",
+          "Connecting communities: the transportation plan",
+          "Canonical transportation draft"
+        ],
+        [
+          "governing/project-2050-governing-decisions.md",
+          "The project’s selected policy choices",
+          "Policy authority"
+        ],
+        [
+          "governing/project-charter.md",
+          "The principles behind Project 2050",
+          "Approved purpose"
+        ]
+      ],
+      "analysis_notes": "An authorization does not establish a local route, frequency or completion date. MOV-31 stays in the second Congress, alongside the separate 2029/2030 reconciliation components. Rural communities and Tribal governments need distinct treatment; this diagram cannot represent the country.",
+      "lived_test": "Look at what people can reach and take part in, including people with disabilities and those in rural communities. Tribal governments and communities need approaches that respect their sovereignty and distinct responsibilities.",
+      "steps": [
+        {
+          "id": "transport",
+          "title": "Connections to jobs, care and one another",
+          "body": "Renew roads and bridges while investing in public transit and passenger rail. Different communities need different ways to reach the places that make everyday life possible.",
+          "policy_ids": [
+            "MOV-31"
+          ]
+        },
+        {
+          "id": "learning",
+          "title": "A fair chance to learn",
+          "body": "Strengthen public-school and special-education funding, build the educator workforce and make higher education more affordable. Education should widen the choices people can make throughout their lives.",
+          "policy_ids": [
+            "EDU-1",
+            "EDU-2",
+            "EDU-4",
+            "EDU-5"
+          ]
+        },
+        {
+          "id": "places",
+          "title": "Homes and shared places that support a community",
+          "body": "Connect housing investment to libraries, parks and community spaces. Public investment should create places worth belonging to and support the work of keeping them useful.",
+          "policy_ids": [
+            "HOU-3",
+            "DEM-17"
+          ]
+        }
+      ]
+    }
+  ],
+  "schema_version": 2,
+  "principles": [
+    {
+      "id": "freedom",
+      "title": "Freedom you can use",
+      "body": "A right matters more when you have the time, security and support to exercise it. A fair shot at a good life means being able to care for someone, change jobs, learn, make a home and take part in your community."
+    },
+    {
+      "id": "care",
+      "title": "A society that cares for its people",
+      "body": "Children should grow up without poverty. Illness, disability and aging should bring dependable support. The people who provide care deserve the pay, time and respect that make good care possible."
+    },
+    {
+      "id": "democracy",
+      "title": "Power that answers to people",
+      "body": "Government needs the ability to act and a public with the power to question it. Fair elections, equal rights, independent scrutiny and meaningful participation belong together—even when the people in power are on our side."
+    },
+    {
+      "id": "future",
+      "title": "Responsibility across generations",
+      "body": "Prepare for a changing climate and economy, maintain what we build and leave institutions able to learn. Progress should endure because it serves people, with room to correct mistakes and choose a better course."
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "security",
+      "stop": "home",
+      "title": "A secure start for every child",
+      "body": "Come as close as possible to ending child poverty, so families have the breathing room to plan and children can grow, learn and belong."
+    },
+    {
+      "id": "care",
+      "stop": "care",
+      "title": "Care people can depend on",
+      "body": "Make affordable coverage, available services and a sustainable care workforce work together, throughout a person’s life."
+    },
+    {
+      "id": "climate",
+      "stop": "climate",
+      "title": "A cleaner, better-prepared country",
+      "body": "Cut pollution, build clean power and help communities prepare for heat, floods and the losses we cannot prevent."
+    },
+    {
+      "id": "work",
+      "stop": "work",
+      "title": "A fair share and a voice at work",
+      "body": "Give people more power over their working lives and a fair chance to benefit as technology and the economy change."
+    },
+    {
+      "id": "voice",
+      "stop": "commons",
+      "title": "A democracy we can shape",
+      "body": "Make participation easier, protect equal rights and give people real ways to influence decisions and challenge abuse."
+    },
+    {
+      "id": "connection",
+      "stop": "connections",
+      "title": "More opportunity within reach",
+      "body": "Connect homes to jobs, schools, care and one another, while strengthening the public places that bring communities together."
+    }
+  ],
+  "policies": {
+    "FAM-1": {
+      "name": "Monthly support for raising children",
+      "path": "domains/domain-family.md",
+      "marker": "FAM-1",
+      "status": "selected_project_design",
+      "selected_option": "FAM-1D"
+    },
+    "FAM-2": {
+      "name": "Affordable child care and pre-K",
+      "path": "domains/domain-family.md",
+      "marker": "FAM-2",
+      "status": "selected_project_design"
+    },
+    "FAM-3": {
+      "name": "Paid time to care",
+      "path": "domains/domain-family.md",
+      "marker": "FAM-3",
+      "status": "selected_project_design"
+    },
+    "HOU-3": {
+      "name": "Building more homes",
+      "path": "domains/domain-housing.md",
+      "marker": "HOU-3",
+      "status": "selected_project_design"
+    },
+    "HOU-4": {
+      "name": "Help paying the rent",
+      "path": "domains/domain-housing.md",
+      "marker": "HOU-4",
+      "status": "selected_project_design",
+      "selected_option": "HOU-4A"
+    },
+    "HOU-5": {
+      "name": "Repairing public housing",
+      "path": "domains/domain-housing.md",
+      "marker": "HOU-5",
+      "status": "selected_project_design"
+    },
+    "HLT-1": {
+      "name": "Restoring affordable coverage",
+      "path": "domains/domain-health.md",
+      "marker": "HLT-1",
+      "status": "selected_project_design"
+    },
+    "HLT-2": {
+      "name": "More complete Medicare coverage",
+      "path": "domains/domain-health.md",
+      "marker": "HLT-2",
+      "status": "selected_project_design"
+    },
+    "HLT-3": {
+      "name": "A public health-insurance option",
+      "path": "domains/domain-health.md",
+      "marker": "HLT-3",
+      "status": "selected_project_design"
+    },
+    "HLT-4": {
+      "name": "Care at home and a stronger care workforce",
+      "path": "domains/domain-health.md",
+      "marker": "HLT-4",
+      "status": "selected_project_design"
+    },
+    "CLI-1": {
+      "name": "Investment in clean energy",
+      "path": "domains/domain-climate.md",
+      "marker": "CLI-1",
+      "status": "selected_project_design"
+    },
+    "CLI-2": {
+      "name": "A climate dividend for households",
+      "path": "domains/domain-climate.md",
+      "marker": "CLI-2",
+      "status": "selected_project_design"
+    },
+    "CLI-3": {
+      "name": "A cleaner electricity system",
+      "path": "domains/domain-climate.md",
+      "marker": "CLI-3",
+      "status": "selected_project_design"
+    },
+    "CLI-5": {
+      "name": "Practical support for the energy transition",
+      "path": "domains/domain-climate.md",
+      "marker": "CLI-5",
+      "status": "selected_project_design"
+    },
+    "CLI-6": {
+      "name": "A stronger, more accountable grid",
+      "path": "domains/domain-climate.md",
+      "marker": "CLI-6",
+      "status": "selected_project_design"
+    },
+    "CLI-7": {
+      "name": "Disaster preparation and recovery",
+      "path": "domains/domain-climate.md",
+      "marker": "CLI-7",
+      "status": "selected_project_design"
+    },
+    "CLI-8": {
+      "name": "Building with climate risk in mind",
+      "path": "domains/domain-climate.md",
+      "marker": "CLI-8",
+      "status": "selected_project_design"
+    },
+    "LAB-1": {
+      "name": "A stronger voice at work",
+      "path": "domains/domain-labor.md",
+      "marker": "LAB-1",
+      "status": "selected_project_design"
+    },
+    "LAB-3": {
+      "name": "Fair standards for care and service work",
+      "path": "domains/domain-labor.md",
+      "marker": "LAB-3",
+      "status": "selected_project_design"
+    },
+    "LAB-8": {
+      "name": "Apprenticeships into useful work",
+      "path": "domains/domain-labor.md",
+      "marker": "LAB-8",
+      "status": "selected_project_design"
+    },
+    "AI-4": {
+      "name": "Support when technology changes your job",
+      "path": "domains/domain-ai.md",
+      "marker": "AI-4",
+      "status": "selected_project_design"
+    },
+    "AI-5": {
+      "name": "Human review of automated public decisions",
+      "path": "domains/domain-ai.md",
+      "marker": "AI-5",
+      "status": "selected_project_design"
+    },
+    "DEM-1": {
+      "name": "Fair access to elections",
+      "path": "domains/domain-democracy.md",
+      "marker": "DEM-1",
+      "status": "selected_project_design"
+    },
+    "DEM-2": {
+      "name": "Accountable congressional mapmaking",
+      "path": "domains/domain-democracy.md",
+      "marker": "DEM-2",
+      "status": "selected_project_design"
+    },
+    "DEM-17": {
+      "name": "Libraries, parks and places to gather",
+      "path": "domains/domain-democracy.md",
+      "marker": "DEM-17",
+      "status": "selected_project_design"
+    },
+    "DEM-18": {
+      "name": "A public voice in public decisions",
+      "path": "domains/domain-democracy.md",
+      "marker": "DEM-18",
+      "status": "selected_project_design"
+    },
+    "INT-1": {
+      "name": "Limits on officials’ financial conflicts",
+      "path": "domains/domain-integrity.md",
+      "marker": "INT-1",
+      "status": "selected_project_design"
+    },
+    "INT-2": {
+      "name": "Knowing who funds political spending",
+      "path": "domains/domain-integrity.md",
+      "marker": "INT-2",
+      "status": "selected_project_design"
+    },
+    "INT-5": {
+      "name": "More influence for small donors",
+      "path": "domains/domain-integrity.md",
+      "marker": "INT-5",
+      "status": "selected_project_design"
+    },
+    "CAP-7": {
+      "name": "Public institutions with the capacity to serve",
+      "path": "domains/domain-capacity.md",
+      "marker": "CAP-7",
+      "status": "selected_project_design"
+    },
+    "EDU-1": {
+      "name": "Stronger support for public schools",
+      "path": "domains/domain-education.md",
+      "marker": "EDU-1",
+      "status": "selected_project_design"
+    },
+    "EDU-2": {
+      "name": "Support for students with disabilities",
+      "path": "domains/domain-education.md",
+      "marker": "EDU-2",
+      "status": "selected_project_design"
+    },
+    "EDU-3": {
+      "name": "Meals at school and food support in summer",
+      "path": "domains/domain-education.md",
+      "marker": "EDU-3",
+      "status": "selected_project_design"
+    },
+    "EDU-4": {
+      "name": "Preparing and supporting educators",
+      "path": "domains/domain-education.md",
+      "marker": "EDU-4",
+      "status": "selected_project_design"
+    },
+    "EDU-5": {
+      "name": "More affordable higher education",
+      "path": "domains/domain-education.md",
+      "marker": "EDU-5",
+      "status": "selected_project_design"
+    },
+    "MOV-31": {
+      "name": "Connecting communities by road, transit and rail",
+      "path": "domains/transportation-moving-america-act-2031-draft-2.md",
+      "marker": "Moving America Act of 2031",
+      "status": "selected_project_design"
+    }
+  },
+  "themes": [
+    {
+      "id": "secure-lives",
+      "title": "Security through every stage of life",
+      "body": "Family income, affordable homes, health care and social insurance form the foundation from which people can make plans.",
+      "domains": [
+        [
+          "family",
+          "Raising a family"
+        ],
+        [
+          "housing",
+          "A place to call home"
+        ],
+        [
+          "health",
+          "Health and care"
+        ],
+        [
+          "social-security",
+          "Security in retirement, disability and loss"
+        ]
+      ]
+    },
+    {
+      "id": "opportunity",
+      "title": "Opportunity and a fair share",
+      "body": "Learning and innovation should widen people’s choices. Workers need a voice, and economic power needs rules that serve the wider public.",
+      "domains": [
+        [
+          "education",
+          "Learning throughout life"
+        ],
+        [
+          "labor",
+          "Good work and fair pay"
+        ],
+        [
+          "ai",
+          "Technology that serves people"
+        ],
+        [
+          "competition",
+          "Markets that work for more people"
+        ]
+      ]
+    },
+    {
+      "id": "shared-future",
+      "title": "A country prepared for the future",
+      "body": "Clean power, resilient communities and useful transport connect long-term responsibility to everyday needs.",
+      "domains": [
+        [
+          "climate",
+          "Clean energy and climate preparation"
+        ],
+        [
+          "transportation",
+          "Getting where life takes you"
+        ]
+      ]
+    },
+    {
+      "id": "democratic-power",
+      "title": "A democracy worthy of its people",
+      "body": "Fair representation and limits on power help people govern together. The rules should protect us when people we oppose hold office, too.",
+      "domains": [
+        [
+          "democracy",
+          "A voice in our democracy"
+        ],
+        [
+          "integrity",
+          "Public service without self-dealing"
+        ],
+        [
+          "courts",
+          "Justice and accountable courts"
+        ],
+        [
+          "executive-power",
+          "A presidency bound by law"
+        ],
+        [
+          "amendments",
+          "Renewing our constitutional democracy"
+        ]
+      ]
+    },
+    {
+      "id": "belonging",
+      "title": "Rights, safety and belonging",
+      "body": "A good society protects people’s dignity and safety, treats them fairly and makes room for them to contribute.",
+      "domains": [
+        [
+          "rights",
+          "Equal rights and personal freedom"
+        ],
+        [
+          "immigration",
+          "A fair and workable immigration system"
+        ],
+        [
+          "public-safety",
+          "Safe communities and fair treatment"
+        ]
+      ]
+    },
+    {
+      "id": "public-service",
+      "title": "Government that can keep its promises",
+      "body": "Shared commitments need public resources, skilled people and institutions that can deliver, listen and correct mistakes.",
+      "domains": [
+        [
+          "capacity",
+          "Public institutions that work"
+        ],
+        [
+          "revenue",
+          "Contributing fairly to our shared future"
+        ]
+      ]
+    },
+    {
+      "id": "world",
+      "title": "Responsibility beyond our borders",
+      "body": "A safer, more hopeful future also depends on how America works with others and uses its power in the world.",
+      "domains": [
+        [
+          "national-security",
+          "Security and America’s role in the world"
+        ]
+      ]
+    }
+  ],
+  "movement": [
+    {
+      "id": "organize",
+      "title": "Build a shared purpose",
+      "body": "Start with the changes people want to see in their lives. Listen across communities, connect struggles that are too often treated separately and organize around a program people can understand and help shape."
+    },
+    {
+      "id": "elect",
+      "title": "Elect a coalition for change",
+      "body": "Turn that shared purpose into the democratic power to govern. Elect leaders committed to the program, press them to explain how they will deliver it and build a coalition broad enough to act together."
+    },
+    {
+      "id": "deliver",
+      "title": "Make the promises real",
+      "body": "Winning office opens the door. Laws, public investment and capable institutions have to carry change through it. Stay involved as decisions become services, rights and opportunities in people’s lives."
+    },
+    {
+      "id": "accountability",
+      "title": "Keep showing up—and keep asking",
+      "body": "Hold leaders and ourselves accountable over the long term. Look at who benefits, who is still excluded and what causes harm. Defend progress, listen to criticism and change course when the evidence demands it."
+    }
+  ]
+}

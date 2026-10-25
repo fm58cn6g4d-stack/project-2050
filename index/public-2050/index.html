@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A fair shot at a good life, and the democratic power to build it. Explore Project 2050’s vision and the connected choices behind it.">
+  <title>A fair shot at a good life · Project 2050</title>
+  <style>:root {
+  --paper:#f5f2e9;
+  --ink:#173d3b;
+  --muted:#4d625d;
+  --line:#c8cfc2;
+  --green:#275a48;
+  --accent:#aa492e;
+  --white:#fffdf7;
+  --soft:#e5ebdf;
+  color-scheme:light;
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--ink);
+  background:var(--paper)
+}
+* {
+  box-sizing:border-box
+}
+body {
+  margin:0
+}
+a {
+  color:inherit;
+  text-underline-offset:4px
+}
+a:hover {
+  color:var(--accent)
+}
+a:focus-visible,summary:focus-visible {
+  outline:3px solid var(--accent);
+  outline-offset:5px
+}
+button,input {
+  font:inherit
+}
+[hidden] {
+  display:none!important
+}
+.skip {
+  position:absolute;
+  left:16px;
+  top:-100px;
+  background:var(--white);
+  padding:14px;
+  z-index:10
+}
+.skip:focus {
+  top:12px
+}
+.shell {
+  max-width:1440px;
+  padding:0 5%;
+  margin:auto
+}
+header {
+  border-bottom:1px solid var(--line)
+}
+.header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+  min-height:86px
+}
+.brand {
+  font-size:19px;
+  font-weight:bold;
+  letter-spacing:-.5px;
+  text-decoration:none;
+  display:flex;
+  align-items:center;
+  gap:13px
+}
+.brand-mark {
+  border:1px solid var(--ink);
+  padding:8px;
+  font:24px Georgia,serif
+}
+.header nav {
+  display:flex;
+  gap:25px;
+  font-size:14px
+}
+.eyebrow {
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:1.8px;
+  font-weight:bold
+}
+.intro {
+  padding-top:47px;
+  padding-bottom:28px;
+  display:grid;
+  grid-template-columns:1.3fr 1fr;
+  gap:50px;
+  align-items:end
+}
+.intro h1 {
+  font:clamp(42px,5vw,72px)/1.03 Georgia,serif;
+  font-weight:normal;
+  letter-spacing:-2px;
+  margin:12px 0 0;
+  max-width:750px
+}
+.intro p {
+  font-size:17px;
+  line-height:1.6;
+  max-width:480px;
+  margin-bottom:0
+}
+.tag {
+  display:inline-block;
+  border:1px solid var(--line);
+  border-radius:3px;
+  padding:5px 8px;
+  font-size:11px;
+  letter-spacing:1px;
+  text-transform:uppercase
+}
+.notice {
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.6
+}
+.journey {
+  display:grid;
+  grid-template-columns:minmax(0,1.5fr) minmax(350px,1fr);
+  gap:35px;
+  align-items:start;
+  margin:24px 0 55px
+}
+.map-wrap {
+  position:sticky;
+  top:20px
+}
+.map {
+  position:relative;
+  background:#e4ebde;
+  overflow:hidden;
+  border:1px solid #cbd5c4;
+  border-radius:4px;
+  aspect-ratio:1.42
+}
+.map svg {
+  width:100%;
+  height:100%;
+  display:block
+}
+.map-link {
+  position:absolute;
+  border:2px solid var(--paper);
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  width:40px;
+  height:40px;
+  background:var(--ink);
+  color:#fff;
+  font-size:13px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 2px 6px #173d3b30;
+  transform:translate(-50%,-50%)
+}
+.map-link:hover,.map-link[aria-current=true] {
+  background:var(--accent);
+  color:#fff;
+  outline:5px solid #fff9
+}
+.map-link:nth-of-type(1) {
+  left:22%;
+  top:36%
+}
+.map-link:nth-of-type(2) {
+  left:47%;
+  top:24%
+}
+.map-link:nth-of-type(3) {
+  left:83%;
+  top:46%
+}
+.map-link:nth-of-type(4) {
+  left:21%;
+  top:73%
+}
+.map-link:nth-of-type(5) {
+  left:52%;
+  top:66%
+}
+.map-link:nth-of-type(6) {
+  left:57%;
+  top:45%
+}
+.map-caption {
+  position:absolute;
+  top:18px;
+  left:20px;
+  font:italic 16px Georgia,serif;
+  max-width:170px
+}
+.map-legend {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  list-style:none;
+  padding:0;
+  margin:14px 0;
+  gap:8px
+}
+.map-legend a {
+  display:flex;
+  gap:9px;
+  align-items:center;
+  font-size:13px;
+  min-height:44px;
+  text-decoration:none;
+  border-bottom:1px solid var(--line)
+}
+.map-legend b {
+  font-size:11px;
+  color:var(--accent)
+}
+.map-legend a[aria-current=true] {
+  border-bottom:3px solid var(--accent);
+  font-weight:bold
+}
+.chapter {
+  border-top:2px solid var(--ink);
+  padding-top:20px;
+  scroll-margin-top:20px
+}
+.chapter+.chapter {
+  margin-top:40px
+}
+.enhanced .chapter {
+  margin-top:0
+}
+.chapter h2 {
+  font:36px/1.1 Georgia,serif;
+  font-weight:normal;
+  letter-spacing:-.7px;
+  margin:12px 0 20px
+}
+.chapter h2:focus {
+  outline:none
+}
+.scene {
+  font:20px/1.5 Georgia,serif;
+  margin:14px 0 18px
+}
+.chapter p:not(.scene):not(.eyebrow) {
+  font-size:15px;
+  line-height:1.65
+}
+.small-title {
+  font-size:13px;
+  text-transform:uppercase;
+  letter-spacing:1.2px;
+  margin:25px 0 0
+}
+.condition {
+  border-left:3px solid var(--accent);
+  padding:0 0 0 17px;
+  margin:24px 0
+}
+.question {
+  background:var(--soft);
+  padding:15px 18px;
+  font:italic 19px/1.45 Georgia,serif
+}
+.evidence {
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  padding:15px 0;
+  margin-top:24px
+}
+.evidence summary {
+  font-size:14px;
+  cursor:pointer;
+  min-height:32px;
+  padding:5px 0;
+  font-weight:bold
+}
+.sources {
+  list-style:none;
+  padding:0
+}
+.sources li {
+  margin:17px 0
+}
+.sources a {
+  font-size:14px
+}
+.sources small {
+  display:block;
+  color:var(--muted);
+  margin-top:6px;
+  line-height:1.5
+}
+.related {
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  margin:22px 0;
+  font-size:13px
+}
+.section {
+  padding:38px 0;
+  border-top:1px solid var(--line)
+}
+.section h2 {
+  font:36px/1.1 Georgia,serif;
+  margin:5px 0 18px;
+  font-weight:normal
+}
+.section-intro {
+  max-width:720px;
+  font-size:17px;
+  line-height:1.65
+}
+.horizon {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:26px;
+  margin:32px 0
+}
+.horizon div {
+  border-top:2px solid var(--green);
+  padding-top:17px
+}
+.horizon strong {
+  font:27px Georgia,serif
+}
+.horizon p {
+  font-size:14px;
+  line-height:1.6
+}
+.finance {
+  background:var(--ink);
+  color:var(--white);
+  padding:34px;
+  border-radius:3px;
+  display:grid;
+  grid-template-columns:1fr 1.3fr;
+  gap:35px;
+  margin:0 0 28px
+}
+.finance .amount {
+  font:60px Georgia,serif;
+  display:block;
+  margin:10px 0
+}
+.finance p {
+  line-height:1.65;
+  font-size:15px;
+  margin:0 0 12px
+}
+.finance a {
+  color:#fff
+}
+.finance .eyebrow {
+  color:#d9dacf
+}
+.agenda {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0 24px;
+  list-style:none;
+  padding:0
+}
+.agenda li {
+  border-bottom:1px solid var(--line)
+}
+.agenda a {
+  display:block;
+  padding:14px 0;
+  font-size:14px;
+  line-height:1.5
+}
+.table-scroll {
+  overflow-x:auto
+}
+table {
+  border-collapse:collapse;
+  width:100%;
+  font-size:13px;
+  margin-top:14px
+}
+th,td {
+  text-align:left;
+  padding:10px 7px;
+  border-bottom:1px solid var(--line)
+}
+caption {
+  text-align:left;
+  margin:15px 0;
+  font-weight:bold;
+  line-height:1.6
+}
+td {
+  font-variant-numeric:tabular-nums
+}
+footer {
+  border-top:1px solid var(--line);
+  padding:25px 0 35px;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.8
+}
+.review-link {
+  display:inline-block;
+  padding:12px 0
+}
+.directions {
+  max-width:1100px;
+  margin:auto;
+  padding:40px 24px
+}
+.directions h1 {
+  font:48px Georgia,serif
+}
+.direction {
+  margin:40px 0;
+  padding-top:25px;
+  border-top:1px solid var(--line)
+}
+.direction h2 {
+  font:30px Georgia,serif
+}
+.mock {
+  background:var(--white);
+  border:1px solid var(--line);
+  padding:28px;
+  margin:20px 0
+}
+.mock h3 {
+  font:32px Georgia,serif;
+  margin:12px 0 20px
+}
+.mock-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px
+}
+.mini-map {
+  background:var(--soft);
+  padding:22px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  font-size:13px
+}
+.mini-map span {
+  padding:18px 8px;
+  background:#fff9;
+  border:1px solid var(--line)
+}
+.life {
+  border-left:3px solid var(--accent);
+  padding-left:24px
+}
+.life p {
+  padding:13px;
+  border-bottom:1px solid var(--line)
+}
+.lab-row {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  border-top:1px solid var(--line);
+  padding:15px 0;
+  gap:20px
+}
+.direction p {
+  line-height:1.65
+}
+.direction strong {
+  color:var(--accent)
+}
+@media(min-width:1500px) {
+  .intro {
+    padding-top:60px
+  }
+  .map {
+    aspect-ratio:1.5
+  }
+}
+@media(max-width:900px) {
+  .shell {
+    padding:0 5%
+  }
+  .intro {
+    grid-template-columns:1fr;
+    gap:10px;
+    padding-top:30px
+  }
+  .intro h1 {
+    max-width:650px
+  }
+  .intro p {
+    max-width:650px
+  }
+  .journey {
+    grid-template-columns:1fr;
+    gap:24px
+  }
+  .map-wrap {
+    position:static
+  }
+  .map {
+    aspect-ratio:1.6
+  }
+  .chapter h2 {
+    font-size:34px
+  }
+  .horizon,.agenda {
+    grid-template-columns:repeat(2,1fr)
+  }
+  .finance {
+    grid-template-columns:1fr;
+    gap:15px
+  }
+  .header nav {
+    gap:14px
+  }
+  .header {
+    min-height:76px
+  }
+  .mock-grid {
+    grid-template-columns:1fr
+  }
+}
+@media(max-width:480px) {
+  .header {
+    flex-wrap:wrap;
+    gap:0;
+    padding:15px 5%
+  }
+  .header nav {
+    width:100%;
+    margin-top:14px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px 16px
+  }
+  .header nav a {
+    padding:5px 0
+  }
+  .intro h1 {
+    font-size:43px
+  }
+  .map {
+    aspect-ratio:1.25
+  }
+  .map-link {
+    width:36px;
+    height:36px
+  }
+  .map-caption {
+    font-size:13px;
+    top:12px;
+    left:12px
+  }
+  .map-legend {
+    grid-template-columns:repeat(2,1fr)
+  }
+  .horizon {
+    gap:20px
+  }
+  .finance {
+    padding:25px
+  }
+  .agenda {
+    grid-template-columns:1fr 1fr
+  }
+  .mock {
+    padding:15px
+  }
+  .mini-map {
+    gap:8px;
+    padding:10px
+  }
+  .lab-row {
+    font-size:12px;
+    gap:9px
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  * {
+    scroll-behavior:auto!important
+  }
+}
+@media print {
+  .map-wrap {
+    position:static
+  }
+  .journey {
+    display:block
+  }
+  .chapter[hidden] {
+    display:block!important
+  }
+  .chapter {
+    break-inside:avoid;
+    margin-top:30px!important
+  }
+  .skip,.review-link {
+    display:none
+  }
+  .finance {
+    background:white;
+    color:var(--ink);
+    border:1px solid
+  }
+  .finance a {
+    color:var(--ink)
+  }
+}
+
+/* Public edition: principles, outcomes and connected policy explanations. */
+.public-intro {
+  padding-top:70px;
+  padding-bottom:64px;
+  align-items:center;
+  min-height:430px;
+}
+.public-intro h1 {font-size:clamp(48px,5.6vw,82px)}
+.intro-copy p + p {font-size:16px;margin-top:18px}
+.primary-link {
+  display:inline-flex;
+  align-items:center;
+  gap:25px;
+  padding:14px 0;
+  margin-top:12px;
+  font-size:15px;
+  font-weight:bold;
+}
+.principles {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px 60px;
+  margin:35px 0 15px;
+}
+.principles article {border-top:1px solid var(--line);padding:24px 0 0}
+.principle-number {font:italic 18px Georgia,serif;color:var(--accent)}
+.principles h3 {font:25px/1.25 Georgia,serif;margin:12px 0}
+.principles p {font-size:16px;line-height:1.75;margin:0;max-width:560px}
+.goals {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  margin:30px 0 15px;
+}
+.goal {
+  display:flex;
+  flex-direction:column;
+  padding:25px;
+  border:1px solid var(--line);
+  background:var(--soft);
+  text-decoration:none;
+}
+.goal h3 {font:24px/1.2 Georgia,serif;margin:0 0 14px}
+.goal p {font-size:15px;line-height:1.65;margin:0 0 24px}
+.goal > span {font-size:13px;font-weight:bold;margin-top:auto}
+.goal:hover {background:var(--white)}
+.policy-steps {list-style:none;padding:0;margin:10px 0 25px}
+.policy-steps li {border-bottom:1px solid var(--line);padding:16px 0}
+.policy-steps h3 {font-size:18px;line-height:1.35;margin:0 0 8px}
+.policy-steps li p {margin:0}
+.lived-test {background:var(--soft);padding:18px 20px}
+.lived-test h3 {font:21px Georgia,serif;margin:0 0 12px}
+.lived-test p {margin:0}
+.movement {
+  padding:42px;
+  background:var(--ink);
+  color:var(--white);
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+  gap:30px 60px;
+  margin:10px 0 50px;
+  border:none;
+}
+.movement h2 {font-size:40px;line-height:1.15}
+.movement p {font-size:16px;line-height:1.75}
+.movement .eyebrow {color:#d9dfcb}
+.movement a:hover {color:#e8d6a6}
+.movement a:focus-visible {outline-color:#e8d6a6}
+.movement-steps {padding-left:24px;margin:0}
+.movement-steps li {padding:0 0 22px 15px}
+.movement-steps li::marker {color:#e8d6a6;font:italic 21px Georgia,serif}
+.movement-steps h3 {font:25px Georgia,serif;margin:0 0 10px}
+.movement-steps p {margin:0;font-size:15px}
+.invitation {grid-column:1/-1;border-top:1px solid #68847a;padding-top:26px}
+.invitation h3 {font:27px Georgia,serif;margin:0}
+.invitation p {max-width:900px}
+.invitation a {display:inline-block;padding:10px 0}
+.theme-list {margin:30px 0;max-width:1000px}
+.theme-list details {border-top:1px solid var(--line);padding:8px 0}
+.theme-list summary {font:23px/1.4 Georgia,serif;padding:16px 0;cursor:pointer}
+.theme-list p {font-size:16px;line-height:1.7;max-width:750px}
+.theme-list li {margin-bottom:10px;font-size:15px}
+.theme-list a {display:inline-block;padding:12px 0;margin-bottom:12px}
+.evidence-invitation {display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.evidence-invitation p {font-size:16px;line-height:1.75}
+.footer-layout {display:flex;justify-content:space-between;gap:30px}
+.footer-layout nav {display:flex;gap:25px}
+.analysis-shell {max-width:940px;padding:45px 25px;margin:auto;line-height:1.75}
+.analysis-shell h1 {font:46px/1.15 Georgia,serif;margin:20px 0}
+.analysis-shell h2 {line-height:1.2}
+.analysis-shell code {overflow-wrap:anywhere}
+.analysis-nav {display:flex;flex-wrap:wrap;gap:8px 24px;margin:24px 0 35px}
+.analysis-nav a {padding:8px 0}
+.policy-index {columns:2;column-gap:35px;padding-left:20px}
+.policy-index li {break-inside:avoid;padding-bottom:12px;font-size:15px}
+.technical,.model-details {border:1px solid var(--line);padding:14px 20px;margin:24px 0}
+.technical summary,.model-details summary {cursor:pointer;font-weight:bold;min-height:30px}
+.theme-analysis {padding:12px 0;border-top:1px solid var(--line)}
+.theme-analysis li {padding:5px 0}
+@media(max-width:900px) {
+  .public-intro {padding-top:40px;padding-bottom:40px;min-height:0}
+  .public-intro h1 {font-size:60px}
+  .intro-copy p {max-width:650px}
+  .goals {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .movement {grid-template-columns:1fr;padding:30px;gap:25px}
+  .movement-lead {max-width:650px}
+  .movement-steps {display:grid;grid-template-columns:1fr 1fr;gap:20px 30px}
+  .evidence-invitation {grid-template-columns:1fr;gap:0}
+}
+@media(max-width:560px) {
+  .public-intro h1 {font-size:49px}
+  .header nav {flex-wrap:wrap;gap:6px 16px;line-height:1.8}
+  .header nav a {padding:5px 0}
+  .principles,.goals {grid-template-columns:1fr;gap:20px}
+  .principles h3 {font-size:24px}
+  .goal {padding:22px}
+  .goal p {margin-bottom:14px}
+  .movement {padding:25px 20px}
+  .movement h2 {font-size:33px}
+  .movement-steps {display:block}
+  .movement-steps li {padding-left:5px}
+  .theme-list summary {font-size:22px}
+  .footer-layout {display:block}
+  .footer-layout nav {margin-top:18px;flex-wrap:wrap}
+  .analysis-shell h1 {font-size:35px}
+  .policy-index {columns:1}
+}
+
+.public-intro .eyebrow {font-size:12px;line-height:1.5}
+.chapter h2 {scroll-margin-top:24px}
+</style>
+</head>
+<body>
+<a class="skip" href="#vision">Skip to the vision</a>
+<header><div class="shell header">
+  <a class="brand" href="#"><span class="brand-mark">2050</span>Project 2050</a>
+  <nav aria-label="Main"><a href="#vision">Our vision</a><a href="#experience">Everyday life</a><a href="#movement">Making change</a><a href="analysis.html">The analysis</a></nav>
+</div></header>
+<main class="shell">
+  <div class="intro public-intro">
+    <div><p class="eyebrow">A future we can build together</p><h1>A fair shot<br>at a good life.</h1></div>
+    <div class="intro-copy"><p>Enough security to make plans. Care you can depend on. The freedom to choose a different path—and a real say in the decisions that shape your life.</p>
+    <p>Project 2050 connects that ambition to a governing program for a fairer, more connected and hopeful America. Making it real will take people coming together, electing a coalition for change and holding power accountable long after election day.</p>
+    <a class="primary-link" href="#vision">Explore the vision <span aria-hidden="true">↓</span></a></div>
+  </div>
+  <section id="vision" class="section">
+    <p class="eyebrow">What guides us</p><h2>More room to live. More power to shape our future.</h2>
+    <p class="section-intro">A good life includes security, opportunity, relationships and a sense of belonging. Public choices can make those possibilities available to more people. Four principles guide the program.</p>
+    <div class="principles"><article><span class="principle-number">01</span><h3>Freedom you can use</h3><p>A right matters more when you have the time, security and support to exercise it. A fair shot at a good life means being able to care for someone, change jobs, learn, make a home and take part in your community.</p></article><article><span class="principle-number">02</span><h3>A society that cares for its people</h3><p>Children should grow up without poverty. Illness, disability and aging should bring dependable support. The people who provide care deserve the pay, time and respect that make good care possible.</p></article><article><span class="principle-number">03</span><h3>Power that answers to people</h3><p>Government needs the ability to act and a public with the power to question it. Fair elections, equal rights, independent scrutiny and meaningful participation belong together—even when the people in power are on our side.</p></article><article><span class="principle-number">04</span><h3>Responsibility across generations</h3><p>Prepare for a changing climate and economy, maintain what we build and leave institutions able to learn. Progress should endure because it serves people, with room to correct mistakes and choose a better course.</p></article></div>
+  </section>
+  <section id="goals" class="section">
+    <p class="eyebrow">What we’re working toward</p><h2>Progress people can recognize in their lives.</h2>
+    <p class="section-intro">These are the goals that give the policies their purpose. Follow one into a possible community and see how the choices fit together.</p>
+    <div class="goals"><a class="goal" data-stop="home" href="#home"><h3>A secure start for every child</h3><p>Come as close as possible to ending child poverty, so families have the breathing room to plan and children can grow, learn and belong.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="care" href="#care"><h3>Care people can depend on</h3><p>Make affordable coverage, available services and a sustainable care workforce work together, throughout a person’s life.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="climate" href="#climate"><h3>A cleaner, better-prepared country</h3><p>Cut pollution, build clean power and help communities prepare for heat, floods and the losses we cannot prevent.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="work" href="#work"><h3>A fair share and a voice at work</h3><p>Give people more power over their working lives and a fair chance to benefit as technology and the economy change.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="commons" href="#commons"><h3>A democracy we can shape</h3><p>Make participation easier, protect equal rights and give people real ways to influence decisions and challenge abuse.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a><a class="goal" data-stop="connections" href="#connections"><h3>More opportunity within reach</h3><p>Connect homes to jobs, schools, care and one another, while strengthening the public places that bring communities together.</p><span>Explore this future <span aria-hidden="true">↗</span></span></a></div>
+  </section>
+  <section id="experience" class="section">
+    <p class="eyebrow">Everyday life, connected choices</p><h2>A day in a possible 2050.</h2>
+    <p class="section-intro">Imagine a community where people have more room to plan, care and participate. Choose a place to explore the policies that could help make it possible.</p>
+    <p class="notice">The scenes are fictional illustrations of our goals. They are not predictions or promises about a particular household or place.</p>
+    <div class="journey"><div class="map-wrap">
+      <div class="map"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="map-title map-desc">
+<title id="map-title">An imagined community</title><desc id="map-desc">Homes, a care building, a workshop, a library and a bus stop beside a river. A schematic illustration, not a geographic map or a funded development plan. The numbered links and text list provide navigation.</desc>
+<defs>
+ <pattern id="grass" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M5 12h4m12 14h3" stroke="#b9c8af" stroke-width="1"/></pattern>
+ <pattern id="windows" width="35" height="35" patternUnits="userSpaceOnUse"><rect x="9" y="8" width="12" height="18" fill="#e8d6a6"/></pattern>
+ <g id="tree"><path d="M0 6v32" stroke="#665c42" stroke-width="5"/><ellipse cy="-4" rx="22" ry="30" fill="#688e6a"/><ellipse cx="-7" cy="-10" rx="13" ry="22" fill="#89a27b"/></g>
+ <g id="person"><circle cy="-9" r="5" fill="#695040"/><path d="M0 0v15m-6 9 6-9 5 9m-11-18 6-6 6 7" fill="none" stroke="#335655" stroke-width="5" stroke-linecap="round"/></g>
+</defs>
+<rect width="1000" height="700" fill="#e4ebde"/><rect width="1000" height="700" fill="url(#grass)"/>
+<path d="M855-50c-150 140 80 150-30 315S800 498 975 750" stroke="#a5c9ca" stroke-width="112" fill="none"/>
+<path d="M869-30c-145 140 80 150-30 315S814 498 989 750" stroke="#d7e8df" stroke-width="2" fill="none"/>
+<path d="M-80 445 490 115 790 285M110 760 735 395M125 315l625 360" stroke="#d0d4c7" stroke-width="67" fill="none"/>
+<path d="M-80 445 490 115 790 285M110 760 735 395M125 315l625 360" stroke="#f8f5e9" stroke-width="48" fill="none"/>
+<path d="m620 460 330-185" stroke="#d4c9b0" stroke-width="29"/>
+<path d="m730 410 135-78" stroke="#a78c67" stroke-width="37"/><path d="m724 399 135-78m-126 100 135-78" stroke="#6b745b" stroke-width="3"/>
+<!-- Housing: roofs, walls and communal gardens -->
+<path d="m116 210 130-72 97 56-130 75z" fill="#8a604d"/><path d="m116 210 97 59v113l-97-56z" fill="#e2bb8d"/><path d="m213 269 130-75v113l-130 75z" fill="#c49b75"/>
+<path d="m135 238 59 34v74l-59-34z" fill="url(#windows)"/><path d="m231 273 91-52v70l-91 52z" fill="url(#windows)"/>
+<path d="m126 201 122-69 88 51-123 71z" fill="#ad7355"/>
+<path d="m142 198 80-45 38 22-80 45z" fill="#416363"/><path d="m160 190 39 22m-20-34 39 22" stroke="#a5c3b7"/>
+<path d="m80 370 67-38 58 33-68 40z" fill="#bad0a3"/>
+<path d="m95 367 53-30m-39 40 53-30m-39 39 53-30" stroke="#749269" stroke-width="8"/>
+<!-- Care building -->
+<path d="m405 126 118-67 104 60-118 68z" fill="#7d9b8b"/><path d="m405 126 104 61v83l-104-61z" fill="#f1dfba"/><path d="m509 187 118-68v83l-118 68z" fill="#c2c2a4"/>
+<path d="m424 152 66 37v43l-66-38z" fill="url(#windows)"/><path d="m531 190 74-43v43l-74 43z" fill="#6b8980"/>
+<path d="m455 115 37-20 26 15-37 20z" fill="#c8d2b6"/>
+<!-- Workshop -->
+<path d="m102 465 146-83 115 66-145 83z" fill="#ab7354"/><path d="m102 465 116 66v97l-116-66z" fill="#c79271"/><path d="m218 531 145-83v97l-145 83z" fill="#b0795f"/>
+<path d="m239 540 96-56v59l-96 56z" fill="#3f6058"/><path d="m123 493 71 41v45l-71-41z" fill="url(#windows)"/>
+<path d="m149 440 68-38 53 30-67 39z" fill="#f1d2a0"/>
+<!-- Library -->
+<path d="m430 425 143-81 125 72-143 83z" fill="#d6c8a5"/><path d="m430 425 125 74v102l-125-73z" fill="#f0d6ac"/><path d="m555 499 143-83v102l-143 83z" fill="#c5ae8a"/>
+<path d="m454 452 76 43v63l-76-43z" fill="#537970"/><path d="m574 505 102-59v62l-102 59z" fill="#537970"/>
+<path d="m474 464v63m25-48v63m25-48v63m73-72v63m26-78v63m26-78v63" stroke="#e3cfac" stroke-width="6"/>
+<path d="m433 415 140-81 130 75" stroke="#8d8e72" stroke-width="8" fill="none"/>
+<!-- Transit and public space -->
+<path d="m521 310 70-40 51 29-70 41z" fill="#759889"/><path d="m529 315v48m104-57v48" stroke="#446c60" stroke-width="5"/>
+<path d="m557 355 50-28" stroke="#9e7759" stroke-width="8"/>
+<path d="m422 328 66 38v27l-66-38z" fill="#dba34f"/><path d="m428 333 54 31v14l-54-31z" fill="#3f635b"/>
+<ellipse cx="435" cy="360" rx="6" ry="8" fill="#344a43"/><ellipse cx="476" cy="384" rx="6" ry="8" fill="#344a43"/>
+<path d="m755 476 35-20m-17 42 35-20m-17 42 35-20" stroke="#b6c99f" stroke-width="18"/>
+<path d="m777 150 24-13 32 18-23 14z" fill="#e5dbc2"/>
+<use href="#tree" x="80" y="157"/><use href="#tree" x="364" y="116"/><use href="#tree" x="675" y="196"/><use href="#tree" x="733" y="147"/><use href="#tree" x="741" y="530"/><use href="#tree" x="807" y="561"/><use href="#tree" x="91" y="615"/><use href="#tree" x="374" y="632"/><use href="#tree" x="355" y="356"/><use href="#tree" x="930" y="145"/>
+<use href="#person" x="384" y="289"/><use href="#person" x="402" y="298"/><use href="#person" x="601" y="362"/><use href="#person" x="410" y="563"/><use href="#person" x="701" y="396"/><use href="#person" x="166" y="432"/>
+<path d="m886 580 10-25m4 33 12-21m-5 61 6-28" stroke="#688e6a" stroke-width="4"/>
+<path d="m52 77 8-4 8 4m27 6 8-4 8 4m501-38 8-4 8 4" stroke="#668578" fill="none" stroke-width="2"/>
+</svg>
+<span class="map-caption">One imagined place.<br>Many connected choices.</span><a class="map-link" data-stop="home" href="#home" aria-label="At home">01</a><a class="map-link" data-stop="care" href="#care" aria-label="The care visit">02</a><a class="map-link" data-stop="climate" href="#climate" aria-label="Along the river">03</a><a class="map-link" data-stop="work" href="#work" aria-label="The workshop">04</a><a class="map-link" data-stop="commons" href="#commons" aria-label="The public library">05</a><a class="map-link" data-stop="connections" href="#connections" aria-label="The bus stop">06</a></div>
+      <nav aria-label="Places in the community"><ol class="map-legend"><li><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a></li><li><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a></li><li><a class="stop-link" data-stop="climate" href="#climate" aria-label="Along the river"><b>03</b> Along the river</a></li><li><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a></li><li><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></li><li><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></li></ol></nav>
+      <p class="notice">Use the illustration or the text links. Other communities will need different approaches.</p>
+    </div><div class="chapters"><article class="chapter" id="home" aria-labelledby="title-home">
+<p class="eyebrow">01 / At home</p><h2 id="title-home" tabindex="-1">Room to plan beyond Friday.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">A parent looks at the week ahead. There is rent to pay, a school trip to arrange and a shift that might change. In this possible future, a missed day does not have to become a cascade of unpaid bills.</p>
+<p>A reliable income helps a family plan. Affordable housing gives that plan a foundation. Child care and paid leave make room for work, relationships and the unexpected. Each part does more when the others are there.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-home-income" data-policy-ids="FAM-1"><h3>Income families can count on</h3><p>A monthly, fully refundable child credit would reach families with little or no income-tax liability, with extra support for young children and newborns. Regular payments help support the everyday costs of raising a child.</p></li><li id="step-home-housing" data-policy-ids="HOU-4 HOU-3 HOU-5"><h3>A stable place to call home</h3><p>Expand rental assistance by one million new voucher awards, alongside investment in housing construction and repair. Helping with rent and increasing the supply of homes need to move together.</p></li><li id="step-home-time" data-policy-ids="FAM-2 FAM-3 EDU-3"><h3>Time to work, care and grow</h3><p>Affordable child care and voluntary pre-K, school and summer food support, and paid family and medical leave would help families meet needs that a cash payment alone cannot solve.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Progress means fewer children growing up in poverty, fewer families pushed from their homes and more parents able to plan their lives. It matters most whether help reaches people who have been hardest to reach.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#home">Read about at home in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></div></article><article class="chapter" id="care" aria-labelledby="title-care">
+<p class="eyebrow">02 / The care visit</p><h2 id="title-care" tabindex="-1">Care that leaves room for a life.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">An older neighbor receives support at home. Her daughter is still part of her care, but their time together is no longer spent only repairing gaps between services. The care worker has time to listen.</p>
+<p>Affordable coverage can protect a household’s finances. Care at home can give an older or disabled person more control over daily life. Better jobs for care workers help make that support dependable. These are parts of the same promise.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-care-coverage" data-policy-ids="HLT-1 HLT-3"><h3>Health coverage that stays with you</h3><p>Restore Medicaid and marketplace protections and build a public health-insurance option, so access to affordable coverage depends less on a particular job or where someone lives.</p></li><li id="step-care-medicare" data-policy-ids="HLT-2"><h3>Medicare that meets more everyday needs</h3><p>Add dental, vision and hearing benefits and a limit on out-of-pocket costs in traditional Medicare. Being able to see, hear and eat comfortably belongs in an account of health and independence.</p></li><li id="step-care-home-care" data-policy-ids="HLT-4 FAM-3"><h3>Support at home, and support for the people providing it</h3><p>Invest in home- and community-based care and the workforce behind it. Pair care services with paid leave so relatives can be present without having to carry every responsibility alone.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Judge progress by whether people can actually get care, choose how they live and avoid financial hardship—and by whether care workers can build a sustainable life from their work.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#care">Read about the care visit in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></div></article><article class="chapter" id="climate" aria-labelledby="title-climate">
+<p class="eyebrow">03 / Along the river</p><h2 id="title-climate" tabindex="-1">Prepare for the water that still comes.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">After a storm, neighbors check on one another. The river has space to rise, and a public building offers shelter. Some households have moved to safer ground. There are still losses, and difficult decisions about what to rebuild.</p>
+<p>A cleaner energy system reduces the pollution driving climate change. A stronger grid and better homes make that system useful in daily life. Preparing for hazards protects people while the climate continues to change.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-climate-clean-power" data-policy-ids="CLI-1 CLI-3 CLI-6"><h3>Clean power that can reach people</h3><p>Combine clean-energy investment and standards with a grid able to carry power where it is needed. The plan connects what we build to the rules and institutions needed to make it work.</p></li><li id="step-climate-dividend" data-policy-ids="CLI-2 CLI-5"><h3>Help households share in the transition</h3><p>Return most carbon-fee receipts to adults through a climate dividend, while supporting households and communities through the transition. Pair cleaner technology with practical help to use it.</p></li><li id="step-climate-prepared" data-policy-ids="CLI-7 CLI-8"><h3>Prepare before disaster—and support recovery afterward</h3><p>Strengthen disaster recovery, flood-insurance support and the use of forward-looking risk in building decisions. The aim is to reduce harm while helping people face difficult choices about staying, adapting or moving.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Look at pollution, safety, reliability and affordability together. Progress includes protecting people with the fewest resources and being honest about the losses that remain.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#climate">Read about along the river in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a><a class="stop-link" data-stop="commons" href="#commons" aria-label="The public library"><b>05</b> The public library</a></div></article><article class="chapter" id="work" aria-labelledby="title-work">
+<p class="eyebrow">04 / The workshop</p><h2 id="title-work" tabindex="-1">A say in how work changes.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">A worker and a colleague are learning a new tool. Across town, someone whose job disappeared is looking for a way into a different occupation. The technology has changed; whether either person gains security or influence is still a public choice.</p>
+<p>A new technology can make work easier without giving workers more security. Bargaining power, fair standards, learning opportunities and support through a job change help people shape what progress means for them.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-work-voice" data-policy-ids="LAB-1 LAB-3"><h3>A stronger voice on the job</h3><p>Strengthen organizing and bargaining rights and improve labor standards. Workers should have more power to influence pay, conditions and how their workplaces change.</p></li><li id="step-work-pathways" data-policy-ids="LAB-8 AI-4"><h3>Real routes into new work</h3><p>Expand apprenticeships and connect support for workers affected by AI to wage insurance and training. Learning needs to connect to useful skills and actual opportunities.</p></li><li id="step-work-human-review" data-policy-ids="AI-5"><h3>A human answer when a system gets it wrong</h3><p>Require explanations, human review and appeals when federal agencies use algorithms in consequential decisions. More capable technology should come with more accountable institutions.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Ask whether work offers security, a fair share of the gains and a meaningful voice. Count people whose jobs disappear or whose first opportunity never arrives, as well as people who benefit.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#work">Read about the workshop in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a><a class="stop-link" data-stop="connections" href="#connections" aria-label="The bus stop"><b>06</b> The bus stop</a></div></article><article class="chapter" id="commons" aria-labelledby="title-commons">
+<p class="eyebrow">05 / The public library</p><h2 id="title-commons" tabindex="-1">A government you can question.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">Residents meet about an investment proposal. They can inspect the evidence, challenge the presenter and find out what the authority did with their recommendations. Some disagree with the result. Their ability to organize and contest it remains part of the promise.</p>
+<p>People need more than a chance to speak. They need fair elections, rights that can be enforced, institutions that respond and public places where collective life can happen. A government capable of delivering should also be open to challenge.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-commons-elections" data-policy-ids="DEM-1 DEM-2"><h3>Fair elections and equal political voice</h3><p>Protect voting access, strengthen election protections and make congressional mapmaking more accountable. Make it easier for eligible people to participate, without tying access to benefits to voting or political support.</p></li><li id="step-commons-integrity" data-policy-ids="INT-1 INT-2 INT-5"><h3>Public service in the public interest</h3><p>Strengthen disclosure of political spending, curb conflicts of interest and give small donors more influence through voluntary public matching. Public office should serve the public.</p></li><li id="step-commons-participation" data-policy-ids="DEM-17 DEM-18 CAP-7"><h3>Places to gather and ways to be heard</h3><p>Support libraries, parks and community spaces, and create advisory citizens’ assemblies with a defined public response. Build the staffing and expertise that turn a commitment into useful service.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Judge democracy by who can participate, whose rights are protected and whether people can get an answer or remedy. Apply those standards to leaders we support as well as those we oppose.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#commons">Read about the public library in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="climate" href="#climate" aria-label="Along the river"><b>03</b> Along the river</a><a class="stop-link" data-stop="care" href="#care" aria-label="The care visit"><b>02</b> The care visit</a></div></article><article class="chapter" id="connections" aria-labelledby="title-connections">
+<p class="eyebrow">06 / The bus stop</p><h2 id="title-connections" tabindex="-1">More of life within reach.</h2>
+<span class="tag">Imagine 2050 · an illustrative scene</span><p class="scene">Someone waits for a bus to a class, a shift or a friend. The value of the connection is what it makes possible. In another place the distances are longer, and the right transport answer may look very different.</p>
+<p>An opportunity only helps if you can reach it. Homes near useful connections, reliable transport, well-supported schools and welcoming public places can make more of life available to people.</p><h3 class="small-title">How the choices work together</h3><ol class="policy-steps"><li id="step-connections-transport" data-policy-ids="MOV-31"><h3>Connections to jobs, care and one another</h3><p>Renew roads and bridges while investing in public transit and passenger rail. Different communities need different ways to reach the places that make everyday life possible.</p></li><li id="step-connections-learning" data-policy-ids="EDU-1 EDU-2 EDU-4 EDU-5"><h3>A fair chance to learn</h3><p>Strengthen public-school and special-education funding, build the educator workforce and make higher education more affordable. Education should widen the choices people can make throughout their lives.</p></li><li id="step-connections-places" data-policy-ids="HOU-3 DEM-17"><h3>Homes and shared places that support a community</h3><p>Connect housing investment to libraries, parks and community spaces. Public investment should create places worth belonging to and support the work of keeping them useful.</p></li></ol>
+<div class="lived-test"><h3>What progress would mean</h3><p>Look at what people can reach and take part in, including people with disabilities and those in rural communities. Tribal governments and communities need approaches that respect their sovereignty and distinct responsibilities.</p></div>
+<details class="evidence"><summary>Explore the policies behind this story</summary><p>Read the supporting explanation and evidence for these proposals, including the conditions that matter for their success.</p>
+<a href="analysis.html#connections">Read about the bus stop in the analysis →</a></details>
+<div class="related"><span>Follow the connection →</span><a class="stop-link" data-stop="home" href="#home" aria-label="At home"><b>01</b> At home</a><a class="stop-link" data-stop="work" href="#work" aria-label="The workshop"><b>04</b> The workshop</a></div></article></div></div>
+  </section>
+  <section id="movement" class="section movement">
+    <div class="movement-lead"><p class="eyebrow">The power to make it happen</p><h2>A program becomes possible when people move together.</h2>
+    <p>These changes will take a movement that can connect everyday needs to a shared public purpose, win elections and sustain the work of governing. No single election completes that work.</p>
+    <p>People will bring different experiences and disagree about important choices. A durable coalition needs room for those disagreements, a commitment to equal rights and a common willingness to make things better.</p></div>
+    <ol class="movement-steps"><li><h3>Build a shared purpose</h3><p>Start with the changes people want to see in their lives. Listen across communities, connect struggles that are too often treated separately and organize around a program people can understand and help shape.</p></li><li><h3>Elect a coalition for change</h3><p>Turn that shared purpose into the democratic power to govern. Elect leaders committed to the program, press them to explain how they will deliver it and build a coalition broad enough to act together.</p></li><li><h3>Make the promises real</h3><p>Winning office opens the door. Laws, public investment and capable institutions have to carry change through it. Stay involved as decisions become services, rights and opportunities in people’s lives.</p></li><li><h3>Keep showing up—and keep asking</h3><p>Hold leaders and ourselves accountable over the long term. Look at who benefits, who is still excluded and what causes harm. Defend progress, listen to criticism and change course when the evidence demands it.</p></li></ol>
+    <div class="invitation"><h3>Bring a question from your own life.</h3><p>What would give you, your family or your community more freedom to plan? Explore the related policies, discuss them with others and ask what a coalition for change should be prepared to deliver. Keep that question alive after the votes are counted.</p><a href="#goals">Find a place to begin <span aria-hidden="true">↑</span></a></div>
+  </section>
+  <section id="agenda" class="section">
+    <p class="eyebrow">One connected program</p><h2>Explore the wider agenda.</h2>
+    <p class="section-intro">The six places are starting points. The full program connects material security to rights, democratic power and responsibility for our shared future.</p>
+    <div class="theme-list"><details id="theme-secure-lives"><summary>Security through every stage of life</summary><p>Family income, affordable homes, health care and social insurance form the foundation from which people can make plans.</p><ul><li>Raising a family</li><li>A place to call home</li><li>Health and care</li><li>Security in retirement, disability and loss</li></ul><a href="analysis.html#theme-secure-lives">Explore these policy areas →</a></details><details id="theme-opportunity"><summary>Opportunity and a fair share</summary><p>Learning and innovation should widen people’s choices. Workers need a voice, and economic power needs rules that serve the wider public.</p><ul><li>Learning throughout life</li><li>Good work and fair pay</li><li>Technology that serves people</li><li>Markets that work for more people</li></ul><a href="analysis.html#theme-opportunity">Explore these policy areas →</a></details><details id="theme-shared-future"><summary>A country prepared for the future</summary><p>Clean power, resilient communities and useful transport connect long-term responsibility to everyday needs.</p><ul><li>Clean energy and climate preparation</li><li>Getting where life takes you</li></ul><a href="analysis.html#theme-shared-future">Explore these policy areas →</a></details><details id="theme-democratic-power"><summary>A democracy worthy of its people</summary><p>Fair representation and limits on power help people govern together. The rules should protect us when people we oppose hold office, too.</p><ul><li>A voice in our democracy</li><li>Public service without self-dealing</li><li>Justice and accountable courts</li><li>A presidency bound by law</li><li>Renewing our constitutional democracy</li></ul><a href="analysis.html#theme-democratic-power">Explore these policy areas →</a></details><details id="theme-belonging"><summary>Rights, safety and belonging</summary><p>A good society protects people’s dignity and safety, treats them fairly and makes room for them to contribute.</p><ul><li>Equal rights and personal freedom</li><li>A fair and workable immigration system</li><li>Safe communities and fair treatment</li></ul><a href="analysis.html#theme-belonging">Explore these policy areas →</a></details><details id="theme-public-service"><summary>Government that can keep its promises</summary><p>Shared commitments need public resources, skilled people and institutions that can deliver, listen and correct mistakes.</p><ul><li>Public institutions that work</li><li>Contributing fairly to our shared future</li></ul><a href="analysis.html#theme-public-service">Explore these policy areas →</a></details><details id="theme-world"><summary>Responsibility beyond our borders</summary><p>A safer, more hopeful future also depends on how America works with others and uses its power in the world.</p><ul><li>Security and America’s role in the world</li></ul><a href="analysis.html#theme-world">Explore these policy areas →</a></details></div>
+  </section>
+  <section class="section evidence-invitation"><div><p class="eyebrow">A vision you can examine</p><h2>Follow the argument. Test the choices.</h2></div>
+    <div><p>The public vision and the analytical work develop together. The supporting material explains the policies, evidence, costs and choices in greater depth, including where results depend on assumptions and where decisions remain open.</p><a class="primary-link" href="analysis.html">Explore the analysis <span aria-hidden="true">→</span></a></div>
+  </section>
+</main>
+<footer><div class="shell footer-layout"><span>Project 2050 · A fair shot at a good life.<br>Working public edition · 2026-10-25</span><nav aria-label="Footer"><a href="analysis.html">Policies &amp; evidence</a><a href="#movement">Making change</a></nav></div></footer>
+<script>// Links navigate authored chapters. They do not alter assumptions or calculate effects.
+(() => {
+  const chapters = [...document.querySelectorAll('.chapter')];
+  const links = [...document.querySelectorAll('[data-stop]')];
+  function show(id, focus = false, jump = false) {
+    if (!chapters.some(chapter => chapter.id === id)) return;
+    document.documentElement.classList.add('enhanced');
+    chapters.forEach(chapter => { chapter.hidden = chapter.id !== id; });
+    links.forEach(link => {
+      if (link.dataset.stop === id) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    });
+    if (focus) {
+      const heading = document.querySelector(`#${id} h2`);
+      heading.focus({preventScroll: true});
+      if (jump || matchMedia('(max-width:900px)').matches) heading.scrollIntoView({block: 'start'});
+    }
+  }
+  links.forEach(link => link.addEventListener('click', event => {
+    event.preventDefault();
+    history.pushState(null, '', link.getAttribute('href'));
+    show(link.dataset.stop, true, !link.closest('.journey'));
+  }));
+  function restore() {
+    const id = location.hash.slice(1);
+    if (chapters.some(chapter => chapter.id === id)) show(id, false);
+    else if (!id) show('home');
+  }
+  addEventListener('popstate', restore);
+  addEventListener('hashchange', restore);
+  show('home');
+  restore();
+})();
+</script>
+</body></html>

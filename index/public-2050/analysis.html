@@ -1,0 +1,787 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Policies and evidence · Project 2050</title><style>:root {
+  --paper:#f5f2e9;
+  --ink:#173d3b;
+  --muted:#4d625d;
+  --line:#c8cfc2;
+  --green:#275a48;
+  --accent:#aa492e;
+  --white:#fffdf7;
+  --soft:#e5ebdf;
+  color-scheme:light;
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--ink);
+  background:var(--paper)
+}
+* {
+  box-sizing:border-box
+}
+body {
+  margin:0
+}
+a {
+  color:inherit;
+  text-underline-offset:4px
+}
+a:hover {
+  color:var(--accent)
+}
+a:focus-visible,summary:focus-visible {
+  outline:3px solid var(--accent);
+  outline-offset:5px
+}
+button,input {
+  font:inherit
+}
+[hidden] {
+  display:none!important
+}
+.skip {
+  position:absolute;
+  left:16px;
+  top:-100px;
+  background:var(--white);
+  padding:14px;
+  z-index:10
+}
+.skip:focus {
+  top:12px
+}
+.shell {
+  max-width:1440px;
+  padding:0 5%;
+  margin:auto
+}
+header {
+  border-bottom:1px solid var(--line)
+}
+.header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+  min-height:86px
+}
+.brand {
+  font-size:19px;
+  font-weight:bold;
+  letter-spacing:-.5px;
+  text-decoration:none;
+  display:flex;
+  align-items:center;
+  gap:13px
+}
+.brand-mark {
+  border:1px solid var(--ink);
+  padding:8px;
+  font:24px Georgia,serif
+}
+.header nav {
+  display:flex;
+  gap:25px;
+  font-size:14px
+}
+.eyebrow {
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:1.8px;
+  font-weight:bold
+}
+.intro {
+  padding-top:47px;
+  padding-bottom:28px;
+  display:grid;
+  grid-template-columns:1.3fr 1fr;
+  gap:50px;
+  align-items:end
+}
+.intro h1 {
+  font:clamp(42px,5vw,72px)/1.03 Georgia,serif;
+  font-weight:normal;
+  letter-spacing:-2px;
+  margin:12px 0 0;
+  max-width:750px
+}
+.intro p {
+  font-size:17px;
+  line-height:1.6;
+  max-width:480px;
+  margin-bottom:0
+}
+.tag {
+  display:inline-block;
+  border:1px solid var(--line);
+  border-radius:3px;
+  padding:5px 8px;
+  font-size:11px;
+  letter-spacing:1px;
+  text-transform:uppercase
+}
+.notice {
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.6
+}
+.journey {
+  display:grid;
+  grid-template-columns:minmax(0,1.5fr) minmax(350px,1fr);
+  gap:35px;
+  align-items:start;
+  margin:24px 0 55px
+}
+.map-wrap {
+  position:sticky;
+  top:20px
+}
+.map {
+  position:relative;
+  background:#e4ebde;
+  overflow:hidden;
+  border:1px solid #cbd5c4;
+  border-radius:4px;
+  aspect-ratio:1.42
+}
+.map svg {
+  width:100%;
+  height:100%;
+  display:block
+}
+.map-link {
+  position:absolute;
+  border:2px solid var(--paper);
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  width:40px;
+  height:40px;
+  background:var(--ink);
+  color:#fff;
+  font-size:13px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 2px 6px #173d3b30;
+  transform:translate(-50%,-50%)
+}
+.map-link:hover,.map-link[aria-current=true] {
+  background:var(--accent);
+  color:#fff;
+  outline:5px solid #fff9
+}
+.map-link:nth-of-type(1) {
+  left:22%;
+  top:36%
+}
+.map-link:nth-of-type(2) {
+  left:47%;
+  top:24%
+}
+.map-link:nth-of-type(3) {
+  left:83%;
+  top:46%
+}
+.map-link:nth-of-type(4) {
+  left:21%;
+  top:73%
+}
+.map-link:nth-of-type(5) {
+  left:52%;
+  top:66%
+}
+.map-link:nth-of-type(6) {
+  left:57%;
+  top:45%
+}
+.map-caption {
+  position:absolute;
+  top:18px;
+  left:20px;
+  font:italic 16px Georgia,serif;
+  max-width:170px
+}
+.map-legend {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  list-style:none;
+  padding:0;
+  margin:14px 0;
+  gap:8px
+}
+.map-legend a {
+  display:flex;
+  gap:9px;
+  align-items:center;
+  font-size:13px;
+  min-height:44px;
+  text-decoration:none;
+  border-bottom:1px solid var(--line)
+}
+.map-legend b {
+  font-size:11px;
+  color:var(--accent)
+}
+.map-legend a[aria-current=true] {
+  border-bottom:3px solid var(--accent);
+  font-weight:bold
+}
+.chapter {
+  border-top:2px solid var(--ink);
+  padding-top:20px;
+  scroll-margin-top:20px
+}
+.chapter+.chapter {
+  margin-top:40px
+}
+.enhanced .chapter {
+  margin-top:0
+}
+.chapter h2 {
+  font:36px/1.1 Georgia,serif;
+  font-weight:normal;
+  letter-spacing:-.7px;
+  margin:12px 0 20px
+}
+.chapter h2:focus {
+  outline:none
+}
+.scene {
+  font:20px/1.5 Georgia,serif;
+  margin:14px 0 18px
+}
+.chapter p:not(.scene):not(.eyebrow) {
+  font-size:15px;
+  line-height:1.65
+}
+.small-title {
+  font-size:13px;
+  text-transform:uppercase;
+  letter-spacing:1.2px;
+  margin:25px 0 0
+}
+.condition {
+  border-left:3px solid var(--accent);
+  padding:0 0 0 17px;
+  margin:24px 0
+}
+.question {
+  background:var(--soft);
+  padding:15px 18px;
+  font:italic 19px/1.45 Georgia,serif
+}
+.evidence {
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  padding:15px 0;
+  margin-top:24px
+}
+.evidence summary {
+  font-size:14px;
+  cursor:pointer;
+  min-height:32px;
+  padding:5px 0;
+  font-weight:bold
+}
+.sources {
+  list-style:none;
+  padding:0
+}
+.sources li {
+  margin:17px 0
+}
+.sources a {
+  font-size:14px
+}
+.sources small {
+  display:block;
+  color:var(--muted);
+  margin-top:6px;
+  line-height:1.5
+}
+.related {
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  margin:22px 0;
+  font-size:13px
+}
+.section {
+  padding:38px 0;
+  border-top:1px solid var(--line)
+}
+.section h2 {
+  font:36px/1.1 Georgia,serif;
+  margin:5px 0 18px;
+  font-weight:normal
+}
+.section-intro {
+  max-width:720px;
+  font-size:17px;
+  line-height:1.65
+}
+.horizon {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:26px;
+  margin:32px 0
+}
+.horizon div {
+  border-top:2px solid var(--green);
+  padding-top:17px
+}
+.horizon strong {
+  font:27px Georgia,serif
+}
+.horizon p {
+  font-size:14px;
+  line-height:1.6
+}
+.finance {
+  background:var(--ink);
+  color:var(--white);
+  padding:34px;
+  border-radius:3px;
+  display:grid;
+  grid-template-columns:1fr 1.3fr;
+  gap:35px;
+  margin:0 0 28px
+}
+.finance .amount {
+  font:60px Georgia,serif;
+  display:block;
+  margin:10px 0
+}
+.finance p {
+  line-height:1.65;
+  font-size:15px;
+  margin:0 0 12px
+}
+.finance a {
+  color:#fff
+}
+.finance .eyebrow {
+  color:#d9dacf
+}
+.agenda {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0 24px;
+  list-style:none;
+  padding:0
+}
+.agenda li {
+  border-bottom:1px solid var(--line)
+}
+.agenda a {
+  display:block;
+  padding:14px 0;
+  font-size:14px;
+  line-height:1.5
+}
+.table-scroll {
+  overflow-x:auto
+}
+table {
+  border-collapse:collapse;
+  width:100%;
+  font-size:13px;
+  margin-top:14px
+}
+th,td {
+  text-align:left;
+  padding:10px 7px;
+  border-bottom:1px solid var(--line)
+}
+caption {
+  text-align:left;
+  margin:15px 0;
+  font-weight:bold;
+  line-height:1.6
+}
+td {
+  font-variant-numeric:tabular-nums
+}
+footer {
+  border-top:1px solid var(--line);
+  padding:25px 0 35px;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.8
+}
+.review-link {
+  display:inline-block;
+  padding:12px 0
+}
+.directions {
+  max-width:1100px;
+  margin:auto;
+  padding:40px 24px
+}
+.directions h1 {
+  font:48px Georgia,serif
+}
+.direction {
+  margin:40px 0;
+  padding-top:25px;
+  border-top:1px solid var(--line)
+}
+.direction h2 {
+  font:30px Georgia,serif
+}
+.mock {
+  background:var(--white);
+  border:1px solid var(--line);
+  padding:28px;
+  margin:20px 0
+}
+.mock h3 {
+  font:32px Georgia,serif;
+  margin:12px 0 20px
+}
+.mock-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px
+}
+.mini-map {
+  background:var(--soft);
+  padding:22px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  font-size:13px
+}
+.mini-map span {
+  padding:18px 8px;
+  background:#fff9;
+  border:1px solid var(--line)
+}
+.life {
+  border-left:3px solid var(--accent);
+  padding-left:24px
+}
+.life p {
+  padding:13px;
+  border-bottom:1px solid var(--line)
+}
+.lab-row {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  border-top:1px solid var(--line);
+  padding:15px 0;
+  gap:20px
+}
+.direction p {
+  line-height:1.65
+}
+.direction strong {
+  color:var(--accent)
+}
+@media(min-width:1500px) {
+  .intro {
+    padding-top:60px
+  }
+  .map {
+    aspect-ratio:1.5
+  }
+}
+@media(max-width:900px) {
+  .shell {
+    padding:0 5%
+  }
+  .intro {
+    grid-template-columns:1fr;
+    gap:10px;
+    padding-top:30px
+  }
+  .intro h1 {
+    max-width:650px
+  }
+  .intro p {
+    max-width:650px
+  }
+  .journey {
+    grid-template-columns:1fr;
+    gap:24px
+  }
+  .map-wrap {
+    position:static
+  }
+  .map {
+    aspect-ratio:1.6
+  }
+  .chapter h2 {
+    font-size:34px
+  }
+  .horizon,.agenda {
+    grid-template-columns:repeat(2,1fr)
+  }
+  .finance {
+    grid-template-columns:1fr;
+    gap:15px
+  }
+  .header nav {
+    gap:14px
+  }
+  .header {
+    min-height:76px
+  }
+  .mock-grid {
+    grid-template-columns:1fr
+  }
+}
+@media(max-width:480px) {
+  .header {
+    flex-wrap:wrap;
+    gap:0;
+    padding:15px 5%
+  }
+  .header nav {
+    width:100%;
+    margin-top:14px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px 16px
+  }
+  .header nav a {
+    padding:5px 0
+  }
+  .intro h1 {
+    font-size:43px
+  }
+  .map {
+    aspect-ratio:1.25
+  }
+  .map-link {
+    width:36px;
+    height:36px
+  }
+  .map-caption {
+    font-size:13px;
+    top:12px;
+    left:12px
+  }
+  .map-legend {
+    grid-template-columns:repeat(2,1fr)
+  }
+  .horizon {
+    gap:20px
+  }
+  .finance {
+    padding:25px
+  }
+  .agenda {
+    grid-template-columns:1fr 1fr
+  }
+  .mock {
+    padding:15px
+  }
+  .mini-map {
+    gap:8px;
+    padding:10px
+  }
+  .lab-row {
+    font-size:12px;
+    gap:9px
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  * {
+    scroll-behavior:auto!important
+  }
+}
+@media print {
+  .map-wrap {
+    position:static
+  }
+  .journey {
+    display:block
+  }
+  .chapter[hidden] {
+    display:block!important
+  }
+  .chapter {
+    break-inside:avoid;
+    margin-top:30px!important
+  }
+  .skip,.review-link {
+    display:none
+  }
+  .finance {
+    background:white;
+    color:var(--ink);
+    border:1px solid
+  }
+  .finance a {
+    color:var(--ink)
+  }
+}
+
+/* Public edition: principles, outcomes and connected policy explanations. */
+.public-intro {
+  padding-top:70px;
+  padding-bottom:64px;
+  align-items:center;
+  min-height:430px;
+}
+.public-intro h1 {font-size:clamp(48px,5.6vw,82px)}
+.intro-copy p + p {font-size:16px;margin-top:18px}
+.primary-link {
+  display:inline-flex;
+  align-items:center;
+  gap:25px;
+  padding:14px 0;
+  margin-top:12px;
+  font-size:15px;
+  font-weight:bold;
+}
+.principles {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px 60px;
+  margin:35px 0 15px;
+}
+.principles article {border-top:1px solid var(--line);padding:24px 0 0}
+.principle-number {font:italic 18px Georgia,serif;color:var(--accent)}
+.principles h3 {font:25px/1.25 Georgia,serif;margin:12px 0}
+.principles p {font-size:16px;line-height:1.75;margin:0;max-width:560px}
+.goals {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  margin:30px 0 15px;
+}
+.goal {
+  display:flex;
+  flex-direction:column;
+  padding:25px;
+  border:1px solid var(--line);
+  background:var(--soft);
+  text-decoration:none;
+}
+.goal h3 {font:24px/1.2 Georgia,serif;margin:0 0 14px}
+.goal p {font-size:15px;line-height:1.65;margin:0 0 24px}
+.goal > span {font-size:13px;font-weight:bold;margin-top:auto}
+.goal:hover {background:var(--white)}
+.policy-steps {list-style:none;padding:0;margin:10px 0 25px}
+.policy-steps li {border-bottom:1px solid var(--line);padding:16px 0}
+.policy-steps h3 {font-size:18px;line-height:1.35;margin:0 0 8px}
+.policy-steps li p {margin:0}
+.lived-test {background:var(--soft);padding:18px 20px}
+.lived-test h3 {font:21px Georgia,serif;margin:0 0 12px}
+.lived-test p {margin:0}
+.movement {
+  padding:42px;
+  background:var(--ink);
+  color:var(--white);
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+  gap:30px 60px;
+  margin:10px 0 50px;
+  border:none;
+}
+.movement h2 {font-size:40px;line-height:1.15}
+.movement p {font-size:16px;line-height:1.75}
+.movement .eyebrow {color:#d9dfcb}
+.movement a:hover {color:#e8d6a6}
+.movement a:focus-visible {outline-color:#e8d6a6}
+.movement-steps {padding-left:24px;margin:0}
+.movement-steps li {padding:0 0 22px 15px}
+.movement-steps li::marker {color:#e8d6a6;font:italic 21px Georgia,serif}
+.movement-steps h3 {font:25px Georgia,serif;margin:0 0 10px}
+.movement-steps p {margin:0;font-size:15px}
+.invitation {grid-column:1/-1;border-top:1px solid #68847a;padding-top:26px}
+.invitation h3 {font:27px Georgia,serif;margin:0}
+.invitation p {max-width:900px}
+.invitation a {display:inline-block;padding:10px 0}
+.theme-list {margin:30px 0;max-width:1000px}
+.theme-list details {border-top:1px solid var(--line);padding:8px 0}
+.theme-list summary {font:23px/1.4 Georgia,serif;padding:16px 0;cursor:pointer}
+.theme-list p {font-size:16px;line-height:1.7;max-width:750px}
+.theme-list li {margin-bottom:10px;font-size:15px}
+.theme-list a {display:inline-block;padding:12px 0;margin-bottom:12px}
+.evidence-invitation {display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.evidence-invitation p {font-size:16px;line-height:1.75}
+.footer-layout {display:flex;justify-content:space-between;gap:30px}
+.footer-layout nav {display:flex;gap:25px}
+.analysis-shell {max-width:940px;padding:45px 25px;margin:auto;line-height:1.75}
+.analysis-shell h1 {font:46px/1.15 Georgia,serif;margin:20px 0}
+.analysis-shell h2 {line-height:1.2}
+.analysis-shell code {overflow-wrap:anywhere}
+.analysis-nav {display:flex;flex-wrap:wrap;gap:8px 24px;margin:24px 0 35px}
+.analysis-nav a {padding:8px 0}
+.policy-index {columns:2;column-gap:35px;padding-left:20px}
+.policy-index li {break-inside:avoid;padding-bottom:12px;font-size:15px}
+.technical,.model-details {border:1px solid var(--line);padding:14px 20px;margin:24px 0}
+.technical summary,.model-details summary {cursor:pointer;font-weight:bold;min-height:30px}
+.theme-analysis {padding:12px 0;border-top:1px solid var(--line)}
+.theme-analysis li {padding:5px 0}
+@media(max-width:900px) {
+  .public-intro {padding-top:40px;padding-bottom:40px;min-height:0}
+  .public-intro h1 {font-size:60px}
+  .intro-copy p {max-width:650px}
+  .goals {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .movement {grid-template-columns:1fr;padding:30px;gap:25px}
+  .movement-lead {max-width:650px}
+  .movement-steps {display:grid;grid-template-columns:1fr 1fr;gap:20px 30px}
+  .evidence-invitation {grid-template-columns:1fr;gap:0}
+}
+@media(max-width:560px) {
+  .public-intro h1 {font-size:49px}
+  .header nav {flex-wrap:wrap;gap:6px 16px;line-height:1.8}
+  .header nav a {padding:5px 0}
+  .principles,.goals {grid-template-columns:1fr;gap:20px}
+  .principles h3 {font-size:24px}
+  .goal {padding:22px}
+  .goal p {margin-bottom:14px}
+  .movement {padding:25px 20px}
+  .movement h2 {font-size:33px}
+  .movement-steps {display:block}
+  .movement-steps li {padding-left:5px}
+  .theme-list summary {font-size:22px}
+  .footer-layout {display:block}
+  .footer-layout nav {margin-top:18px;flex-wrap:wrap}
+  .analysis-shell h1 {font-size:35px}
+  .policy-index {columns:1}
+}
+
+.public-intro .eyebrow {font-size:12px;line-height:1.5}
+.chapter h2 {scroll-margin-top:24px}
+</style></head><body>
+<a class="skip" href="#analysis">Skip to the analysis</a><header><div class="shell header"><a class="brand" href="index.html"><span class="brand-mark">2050</span>Project 2050</a><nav aria-label="Main"><a href="index.html">The public vision</a><a href="#models">Models &amp; funding</a><a href="#sources">All policy areas</a></nav></div></header>
+<main class="analysis-shell" id="analysis"><p class="eyebrow">The work behind the vision</p><h1>Policies you can examine.<br>A program you can question.</h1>
+<p class="section-intro">The public vision explains what we are trying to achieve. Here you can examine the designs, evidence and assumptions behind it. Selected project policies are proposals, not enacted law or benefits available through this site.</p>
+<nav class="analysis-nav" aria-label="Analysis topics"><a href="#home">At home</a><a href="#care">The care visit</a><a href="#climate">Along the river</a><a href="#work">The workshop</a><a href="#commons">The public library</a><a href="#connections">The bus stop</a></nav>
+<section class="section analysis-section" id="home"><p class="eyebrow">At home</p><h2>Room to plan beyond Friday.</h2>
+<p class="section-intro">A reliable income helps a family plan. Affordable housing gives that plan a foundation. Child care and paid leave make room for work, relationships and the unexpected. Each part does more when the others are there.</p><h3>Policy designs supporting the story</h3><ul class="policy-index"><li data-policy-id="EDU-3"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-education.md">Meals at school and food support in summer</a></li><li data-policy-id="FAM-1"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">Monthly support for raising children</a></li><li data-policy-id="FAM-2"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">Affordable child care and pre-K</a></li><li data-policy-id="FAM-3"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">Paid time to care</a></li><li data-policy-id="HOU-3"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">Building more homes</a></li><li data-policy-id="HOU-4"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">Help paying the rent</a></li><li data-policy-id="HOU-5"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">Repairing public housing</a></li></ul>
+<details class="technical"><summary>Research questions and delivery conditions</summary><p>An award must become a usable lease. Payments must reach eligible families, and housing and care supply must grow alongside assistance. The annual AFA model still needs exact statutory mapping; it cannot determine this family&#x27;s eligibility or net gain.</p></details>
+<h3>Evidence and further reading</h3><ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">Family income, child care and paid leave</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">Housing assistance, construction and repair</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-adoption-architecture-bridge.md">Selected package and model limits</a><small>Adoption reconciliation</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-comparison-model-checks.md">Selected-package conditional comparisons</a><small>Generated research results</small></li></ul><p><a href="index.html#home">Return to the story →</a></p></section><section class="section analysis-section" id="care"><p class="eyebrow">The care visit</p><h2>Care that leaves room for a life.</h2>
+<p class="section-intro">Affordable coverage can protect a household’s finances. Care at home can give an older or disabled person more control over daily life. Better jobs for care workers help make that support dependable. These are parts of the same promise.</p><h3>Policy designs supporting the story</h3><ul class="policy-index"><li data-policy-id="FAM-3"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">Paid time to care</a></li><li data-policy-id="HLT-1"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">Restoring affordable coverage</a></li><li data-policy-id="HLT-2"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">More complete Medicare coverage</a></li><li data-policy-id="HLT-3"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">A public health-insurance option</a></li><li data-policy-id="HLT-4"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">Care at home and a stronger care workforce</a></li></ul>
+<details class="technical"><summary>Research questions and delivery conditions</summary><p>Coverage is only part of access. Providers, pay, state systems, trained staff and routes to correct mistakes all matter. The completed CMS/Oregon pilot identifies real delivery dependencies; incremental costs and FY2029 cash remain unpriced. Earlier restoration work has not changed adopted launch dates.</p></details>
+<h3>Evidence and further reading</h3><ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">Health coverage and dependable care</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/health-cms-imp-02-pilot.md">How coverage becomes care: the Oregon delivery study</a><small>Completed research; historical source date</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/health-selected-design-specification.md">Current health development boundaries</a><small>Selected specification; costs unresolved</small></li></ul><p><a href="index.html#care">Return to the story →</a></p></section><section class="section analysis-section" id="climate"><p class="eyebrow">Along the river</p><h2>Prepare for the water that still comes.</h2>
+<p class="section-intro">A cleaner energy system reduces the pollution driving climate change. A stronger grid and better homes make that system useful in daily life. Preparing for hazards protects people while the climate continues to change.</p><h3>Policy designs supporting the story</h3><ul class="policy-index"><li data-policy-id="CLI-1"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">Investment in clean energy</a></li><li data-policy-id="CLI-2"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">A climate dividend for households</a></li><li data-policy-id="CLI-3"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">A cleaner electricity system</a></li><li data-policy-id="CLI-5"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">Practical support for the energy transition</a></li><li data-policy-id="CLI-6"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">A stronger, more accountable grid</a></li><li data-policy-id="CLI-7"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">Disaster preparation and recovery</a></li><li data-policy-id="CLI-8"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">Building with climate risk in mind</a></li></ul>
+<details class="technical"><summary>Research questions and delivery conditions</summary><p>Disaster and flood-insurance costs remain unscored. Local hazards, maintenance, displacement and who bears the cost require place-specific evidence. A climate-bill merger is under study, not adopted. No national emissions calculation can establish that this neighborhood will be safe.</p></details>
+<h3>Evidence and further reading</h3><ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">Clean energy and climate preparation</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/climate-full-scope-bill-outline-and-comparator.md">Climate bill scope and separate-bill comparison</a><small>Drafting research; no merger selected</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">The principles behind Project 2050</a><small>Approved purpose; fictional scene</small></li></ul><p><a href="index.html#climate">Return to the story →</a></p></section><section class="section analysis-section" id="work"><p class="eyebrow">The workshop</p><h2>A say in how work changes.</h2>
+<p class="section-intro">A new technology can make work easier without giving workers more security. Bargaining power, fair standards, learning opportunities and support through a job change help people shape what progress means for them.</p><h3>Policy designs supporting the story</h3><ul class="policy-index"><li data-policy-id="AI-4"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-ai.md">Support when technology changes your job</a></li><li data-policy-id="AI-5"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-ai.md">Human review of automated public decisions</a></li><li data-policy-id="LAB-1"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">A stronger voice at work</a></li><li data-policy-id="LAB-3"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">Fair standards for care and service work</a></li><li data-policy-id="LAB-8"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">Apprenticeships into useful work</a></li></ul>
+<details class="technical"><summary>Research questions and delivery conditions</summary><p>Training needs employers and real opportunities. AI-4&#x27;s measurement and trigger require specification, and its effects depend on how work changes. Entry-level hiring credits and a transitional employment guarantee are options, not selected promises. This scene does not predict employment or wages in 2050.</p></details>
+<h3>Evidence and further reading</h3><ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">Labor rights and routes into work</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-ai.md">Work, technology and accountable public decisions</a><small>Canonical design; alternatives separately labeled</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">The principles behind Project 2050</a><small>Approved inquiry; no employment forecast</small></li></ul><p><a href="index.html#work">Return to the story →</a></p></section><section class="section analysis-section" id="commons"><p class="eyebrow">The public library</p><h2>A government you can question.</h2>
+<p class="section-intro">People need more than a chance to speak. They need fair elections, rights that can be enforced, institutions that respond and public places where collective life can happen. A government capable of delivering should also be open to challenge.</p><h3>Policy designs supporting the story</h3><ul class="policy-index"><li data-policy-id="CAP-7"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-capacity.md">Public institutions with the capacity to serve</a></li><li data-policy-id="DEM-1"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">Fair access to elections</a></li><li data-policy-id="DEM-17"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">Libraries, parks and places to gather</a></li><li data-policy-id="DEM-18"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">A public voice in public decisions</a></li><li data-policy-id="DEM-2"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">Accountable congressional mapmaking</a></li><li data-policy-id="INT-1"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-integrity.md">Limits on officials’ financial conflicts</a></li><li data-policy-id="INT-2"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-integrity.md">Knowing who funds political spending</a></li><li data-policy-id="INT-5"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-integrity.md">More influence for small donors</a></li></ul>
+<details class="technical"><summary>Research questions and delivery conditions</summary><p>The DEM pilot identifies legal and operational questions, including protected data, voting eligibility, remedies and the Title III litigation risk. Benefit receipt is not proof of voting eligibility and must not depend on registration. A public meeting alone does not give residents meaningful influence.</p></details>
+<h3>Evidence and further reading</h3><ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">Voting, representation and public participation</a><small>Canonical project design</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/democracy-dem-1-pilot.md">How democratic protections could work in practice</a><small>Completed research; historical calendar passages</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">The project’s selected policy choices</a><small>Policy authority; supersedes old pilot timing</small></li></ul><p><a href="index.html#commons">Return to the story →</a></p></section><section class="section analysis-section" id="connections"><p class="eyebrow">The bus stop</p><h2>More of life within reach.</h2>
+<p class="section-intro">An opportunity only helps if you can reach it. Homes near useful connections, reliable transport, well-supported schools and welcoming public places can make more of life available to people.</p><h3>Policy designs supporting the story</h3><ul class="policy-index"><li data-policy-id="DEM-17"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">Libraries, parks and places to gather</a></li><li data-policy-id="EDU-1"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-education.md">Stronger support for public schools</a></li><li data-policy-id="EDU-2"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-education.md">Support for students with disabilities</a></li><li data-policy-id="EDU-4"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-education.md">Preparing and supporting educators</a></li><li data-policy-id="EDU-5"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-education.md">More affordable higher education</a></li><li data-policy-id="HOU-3"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">Building more homes</a></li><li data-policy-id="MOV-31"><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/transportation-moving-america-act-2031-draft-2.md">Connecting communities by road, transit and rail</a></li></ul>
+<details class="technical"><summary>Research questions and delivery conditions</summary><p>An authorization does not establish a local route, frequency or completion date. MOV-31 stays in the second Congress, alongside the separate 2029/2030 reconciliation components. Rural communities and Tribal governments need distinct treatment; this diagram cannot represent the country.</p></details>
+<h3>Evidence and further reading</h3><ul class="sources"><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/transportation-moving-america-act-2031-draft-2.md">Connecting communities: the transportation plan</a><small>Canonical transportation draft</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">The project’s selected policy choices</a><small>Policy authority</small></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-charter.md">The principles behind Project 2050</a><small>Approved purpose</small></li></ul><p><a href="index.html#connections">Return to the story →</a></p></section>
+<section id="models" class="section"><p class="eyebrow">Inspecting the analytical foundation</p><h2>What the models can—and cannot—tell us.</h2>
+<p>Model results answer particular questions under particular assumptions. A household effect, a federal budget cost and a legislative timetable are different things; they should not be added together or treated as one forecast.</p>
+<details class="model-details" id="poverty"><summary>What the child-poverty experiments show</summary><div class="table-scroll"><table><caption>Selected channels under three delivery assumptions</caption><thead><tr><th scope="col">Research case</th><th scope="col">Child poverty</th><th scope="col">Deep poverty</th></tr></thead><tbody><tr><th scope="row">Moderate</th><td>8.73%</td><td>1.97%</td></tr><tr><th scope="row">Enhanced</th><td>8.34%</td><td>1.85%</td></tr><tr><th scope="row">Full</th><td>8.09%</td><td>1.78%</td></tr></tbody></table></div>
+<p>Same-scenario baseline: 13.40% child poverty using the Supplemental Poverty Measure, which considers resources after taxes and transfers and certain necessary expenses. Deep poverty means resources below half the poverty threshold.</p>
+<p>These are conditional results for credit, care/pre-K expense relief, meals and housing channels using 2025 source income and a 2034 valuation reference. They are not forecasts of 2050, full-agenda effects or adopted delivery rates. They do not include the full health, paid-leave, tax or earnings effects of the agenda.</p>
+<p>The annual American Family Act analogue, eligibility proxies and assumed receipt and lease-up limit the comparison. Conditional sampling intervals in the results exclude model uncertainty. Ending child poverty remains a goal, not a finding established by these experiments.</p><p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/sources/family-comparison-model-checks.json">Inspect aggregate results, assumptions and sampling uncertainty</a></p></details>
+<details class="model-details" id="funding"><summary>How the funding strategy is being assessed</summary>
+<p>The program’s fiscal rule calls for permanent programs to be funded at maturity and afterward. Financing strategy remains under holistic redesign; none of the three recent financing illustrations has been selected.</p>
+<p>The current working case shows a <strong>FY2040 general-fund primary gap of $53.69 billion</strong> in nominal dollars. That is about 0.10% of modeled GDP. It is a fiscal-model finding, not a measure of the whole program’s value or an official score. It does not establish that the agenda is fully financed.</p>
+<p>The existing agency-surge cash profile remains a proxy, and some costs remain unpriced. These questions belong in the continuing funding and distributional analysis.</p>
+<p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/index/fiscal-long-term-model.md">Read the long-term fiscal analysis</a> · <a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/governing/project-2050-governing-decisions.md">Read the selected policy and fiscal rules</a></p></details>
+<p><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/index/tools/readme.md">Models, methods and reproduction commands</a></p></section>
+<section id="sources" class="section"><h2>The wider policy program</h2><p>Each link opens the canonical policy home at this edition’s source version. These documents distinguish selected designs from alternatives and supporting research.</p><section id="theme-secure-lives" class="theme-analysis"><h3>Security through every stage of life</h3><p>Family income, affordable homes, health care and social insurance form the foundation from which people can make plans.</p><ul><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-family.md">Raising a family</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-housing.md">A place to call home</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-health.md">Health and care</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-social-security.md">Security in retirement, disability and loss</a></li></ul></section><section id="theme-opportunity" class="theme-analysis"><h3>Opportunity and a fair share</h3><p>Learning and innovation should widen people’s choices. Workers need a voice, and economic power needs rules that serve the wider public.</p><ul><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-education.md">Learning throughout life</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-labor.md">Good work and fair pay</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-ai.md">Technology that serves people</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-competition.md">Markets that work for more people</a></li></ul></section><section id="theme-shared-future" class="theme-analysis"><h3>A country prepared for the future</h3><p>Clean power, resilient communities and useful transport connect long-term responsibility to everyday needs.</p><ul><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-climate.md">Clean energy and climate preparation</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/transportation-moving-america-act-2031-draft-2.md">Getting where life takes you</a></li></ul></section><section id="theme-democratic-power" class="theme-analysis"><h3>A democracy worthy of its people</h3><p>Fair representation and limits on power help people govern together. The rules should protect us when people we oppose hold office, too.</p><ul><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-democracy.md">A voice in our democracy</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-integrity.md">Public service without self-dealing</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-courts.md">Justice and accountable courts</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-executive-power.md">A presidency bound by law</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-amendments.md">Renewing our constitutional democracy</a></li></ul></section><section id="theme-belonging" class="theme-analysis"><h3>Rights, safety and belonging</h3><p>A good society protects people’s dignity and safety, treats them fairly and makes room for them to contribute.</p><ul><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-rights.md">Equal rights and personal freedom</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-immigration.md">A fair and workable immigration system</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-public-safety.md">Safe communities and fair treatment</a></li></ul></section><section id="theme-public-service" class="theme-analysis"><h3>Government that can keep its promises</h3><p>Shared commitments need public resources, skilled people and institutions that can deliver, listen and correct mistakes.</p><ul><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-capacity.md">Public institutions that work</a></li><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-revenue.md">Contributing fairly to our shared future</a></li></ul></section><section id="theme-world" class="theme-analysis"><h3>Responsibility beyond our borders</h3><p>A safer, more hopeful future also depends on how America works with others and uses its power in the world.</p><ul><li><a href="https://github.com/fm58cn6g4d-stack/project-2050/blob/3594c784b35651ee34fc7661274219bf82f3adcb/domains/domain-national-security.md">Security and America’s role in the world</a></li></ul></section></section>
+<section id="edition" class="section"><h2>About this edition</h2><p>Public wording and policy references are maintained together in GitHub. The publishing tools identify stories affected by a source change for editorial review before a new edition is built.</p>
+<p>Source commit: <code>3594c784b35651ee34fc7661274219bf82f3adcb</code>. Editorial edition: 2026-10-25. Repository documents may require GitHub access. The explanations here remain readable without it.</p>
+<p><a href="public-map.json">Structured story and policy references</a> · <a href="manifest.json">Source and build hashes</a> · <a href="directions.html">Original design treatments</a></p></section></main>
+<footer><div class="shell"><a href="index.html">Return to the public vision</a> · Working edition · 2026-10-25</div></footer></body></html>
