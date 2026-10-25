@@ -69,7 +69,7 @@ REV-C1's original design included a border adjustment on imports, and the Thrivi
 
 HI receives REV-H1a (~$0.50T) plus its share of HLT-6 (~$0.70T, range $0.5-0.9T) — about $1.20T against a ten-year need of $0.8-0.9T over 2030-39.
 
-D4 keeps HI whole on a **75-year window**, the Trustees' standard and the basis of the 0.56%-of-payroll gap, because the HI shortfall grows after 2039. Against that window $1.2T over ten years is not too much. **Current arrangement:** the roughly $0.3T above the ten-year need is HI's reserve, not swept to the general fund and not counted in the $11.10T of claims or the $5.97T base. It also hedges finding 5: if Medicare Advantage capture lands low, HI's share falls toward $0.5T and the reserve absorbs it.
+D4 keeps HI whole on a **75-year window**, the Trustees' standard and the basis of the 0.56%-of-payroll gap, because the HI shortfall grows after 2039. Against that window $1.2T over ten years is not too much. **Current arrangement:** the roughly $0.3T above the ten-year need is HI's reserve, not swept to the general fund and not counted in the $11.59T of claims or the $5.97T base. It also hedges finding 5: if Medicare Advantage capture lands low, HI's share falls toward $0.5T and the reserve absorbs it.
 
 The $0.8-0.9T need is derived from the $85-100B annual shortfall, not from 0.56% of payroll directly. The two reconcile because HI's taxable payroll is uncapped and therefore much larger than OASDI's; applied to OASDI payroll the same percentage gives roughly $0.65T. domain-health.md carries that derivation.
 
@@ -115,7 +115,7 @@ The rule is that trust-fund and other dedicated-channel revenues and outlays are
 | Immigration fees | 0.015 | 0.015 | IF1 row (IMM-2) |
 | Small-dollar matching | — | — | No channel: INT-5B pays the match from general revenue, inside DEM-1's general-fund row |
 
-Netting also made the agenda look smaller than it is. At gross the channels carry about $7.0T of revenue beyond the general fund's $11.10T of claims. None belongs in the general-fund gap, but all of it lands on identifiable households, and the payroll, carbon, fuel-tax and alcohol channels reach the middle directly. The incidence model takes each of them as a row.
+Netting also made the agenda look smaller than it is. At gross the channels carry about $7.0T of revenue beyond the general fund's $11.59T of claims. None belongs in the general-fund gap, but all of it lands on identifiable households, and the payroll, carbon, fuel-tax and alcohol channels reach the middle directly. The incidence model takes each of them as a row.
 
 **Still open:** methane fees are not sized apart from REV-C2 (finding 2).
 
@@ -173,4 +173,8 @@ The accepted path clears the good case and falls about $0.32T short of the bad o
 
 The channel architecture holds up. One fund per permanent benefit with a natural stream, the general fund for everything else, no new trust funds for pay-fors — applied consistently, and both genuine double-assignments came from edits that landed in one file and not its neighbours, not from the design. GX and OX show the project prices an overlap across channels.
 
-The household net test remains the binding constraint on the closing path. The incidence model is built on the post-carve-out figures (a $1.16T dividend, and the border adjustment's pass-through counted as a cost with no rebate behind it); on scenario Q every income group below the top comes out ahead, with the fourth quintile at about +$1,189 a year.
+The household net test remains the binding constraint on the closing path. The incidence model is built on the post-carve-out figures (a $1.16T dividend, and the border adjustment's pass-through counted as a cost with no rebate behind it); on scenario Q every income group below the top comes out ahead, with the fourth quintile at about +$1,373 under retained allocation proxies a year.
+
+## October 24 family adoption: current financing state
+
+FAM-1D/AFA and one million total new HOU-4A awards replace the earlier base. Working claims rise $0.49T, to $11.59T; the top-end base stays $5.99T and gap $5.60T. Existing accepted revenue and investment borrowing leave $0.74T. DEC's FY2040 GF primary shortfall is about $53.7B; the earlier narrow-pass statements above are historical. D4's rule, HI reserve and borrowing boundaries are unchanged; no new financing is adopted. The expanded voucher increment has a fully permanent component path. D3 allocations remain proxies pending exact AFA/housing mapping. See [the adoption bridge](../sources/family-adoption-architecture-bridge.md).

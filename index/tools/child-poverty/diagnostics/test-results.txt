@@ -18,6 +18,21 @@ test_summer_net_of_embedded_baseline (test_agenda_analysis.AgendaAnalysisTests.t
 test_temporary_emergency_expires (test_agenda_analysis.AgendaAnalysisTests.test_temporary_emergency_expires) ... ok
 test_voucher_cap_includes_adult_only_households (test_agenda_analysis.AgendaAnalysisTests.test_voucher_cap_includes_adult_only_households) ... ok
 test_weighted_quantile (test_agenda_analysis.AgendaAnalysisTests.test_weighted_quantile) ... ok
+test_awards_saturate_without_assigning_average_housing_cash (test_comparison_analysis.ComparisonTests.test_awards_saturate_without_assigning_average_housing_cash) ... ok
+test_contribution_diagnostics_keep_child_and_budget_units_distinct (test_comparison_analysis.ComparisonTests.test_contribution_diagnostics_keep_child_and_budget_units_distinct) ... ok
+test_finite_overlay_and_unknown_unit (test_comparison_analysis.ComparisonTests.test_finite_overlay_and_unknown_unit) ... ok
+test_first_phase_down_and_second_phase_out (test_comparison_analysis.ComparisonTests.test_first_phase_down_and_second_phase_out) ... ok
+test_index_anchor_branches (test_comparison_analysis.ComparisonTests.test_index_anchor_branches) ... ok
+test_invalid_age_status_factor (test_comparison_analysis.ComparisonTests.test_invalid_age_status_factor) ... ok
+test_joint_alternative_and_delivery_runs_on_supplied_microdata (test_comparison_analysis.ComparisonTests.test_joint_alternative_and_delivery_runs_on_supplied_microdata) ... ok
+test_later_year_labels_do_not_invent_population_or_growth (test_comparison_analysis.ComparisonTests.test_later_year_labels_do_not_invent_population_or_growth) ... ok
+test_no_archive_no_fabricated_national_alternative (test_comparison_analysis.ComparisonTests.test_no_archive_no_fabricated_national_alternative) ... ok
+test_overlay_requires_reconciliation_and_no_double_entry (test_comparison_analysis.ComparisonTests.test_overlay_requires_reconciliation_and_no_double_entry) ... ok
+test_path_requires_named_review_and_supported_year (test_comparison_analysis.ComparisonTests.test_path_requires_named_review_and_supported_year) ... ok
+test_phaseout_never_increases_award (test_comparison_analysis.ComparisonTests.test_phaseout_never_increases_award) ... ok
+test_signed_alternative_does_not_erase_credit_loss (test_comparison_analysis.ComparisonTests.test_signed_alternative_does_not_erase_credit_loss) ... ok
+test_source_schedule_and_newborn_sensitivity (test_comparison_analysis.ComparisonTests.test_source_schedule_and_newborn_sensitivity) ... ok
+test_uploaded_member_integrity_and_distinct_container_provenance (test_comparison_analysis.ComparisonTests.test_uploaded_member_integrity_and_distinct_container_provenance) ... ok
 test_adult_itin_branches (test_model.ModelTests.test_adult_itin_branches) ... ok
 test_age17_interpretations_material (test_model.ModelTests.test_age17_interpretations_material) ... ok
 test_baseline_credit_not_double_counted (test_model.ModelTests.test_baseline_credit_not_double_counted) ... ok
@@ -103,6 +118,6 @@ test_resource_formula_includes_refunds_only_once (test_projection_inputs.Project
 test_source_inputs_complete (test_projection_inputs.ProjectionInputTests.test_source_inputs_complete) ... ok
 
 ----------------------------------------------------------------------
-Ran 102 tests (elapsed time omitted for reproducibility)
+Ran 117 tests (elapsed time omitted for reproducibility)
 
 OK

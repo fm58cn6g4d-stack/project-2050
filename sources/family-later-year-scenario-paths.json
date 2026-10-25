@@ -1,0 +1,7 @@
+[
+  {"year":2034,"delivery":"moderate","resource_shift":0,"review":"Reference calculation with 2034 population and valuation; not a forecast."},
+  {"year":2040,"delivery":"enhanced","resource_shift":0,"review":"Illustrative improved-delivery stage, with population and real resources held at the reference; no predicted completion date."},
+  {"year":2050,"delivery":"full","resource_shift":0,"review":"Illustrative full modeled receipt/access at existing benefit levels and voucher cap; not a forecast or removal of all statutory exclusions."},
+  {"year":2050,"delivery":"full","resource_shift":-0.05,"review":"Adverse adequacy stress: subtract 5% of each unit threshold from baseline resources; not an employment or macro forecast."},
+  {"year":2050,"delivery":"full","resource_shift":0.05,"review":"Favorable adequacy stress: add 5% of each unit threshold to baseline resources; not policy-attributed economic growth or dynamic revenue."}
+]

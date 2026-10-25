@@ -1,0 +1,24 @@
+{
+  "origin": "user_supplied_census_members",
+  "original_archive_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
+  "original_archive_available": false,
+  "members": {
+    "asec_csv_repwgt_2026.csv": {
+      "bytes": 280773415,
+      "sha256": "e445fab5c9ee5274a0a06c7d3b0b1ad22dd7e9279b5033b3430e305ac4abf0ad"
+    },
+    "pppub26.csv": {
+      "bytes": 259887437,
+      "sha256": "f78920699bf671cc211cb720ff8c6274392524a22138aedaf9e3954f91ba4334"
+    },
+    "hhpub26.csv": {
+      "bytes": 32204490,
+      "sha256": "e5e1ab435f0b5dbdc2ed3cc6ac672b9352e1d0470c8d2cdad16f0b3e1b1b7631"
+    },
+    "ffpub26.csv": {
+      "bytes": 13751827,
+      "sha256": "09ab23c63375b7061aa40d036f2dfa895139cf3d57281f3896530cb11333f3e5"
+    }
+  },
+  "note": "Uploaded CSV bytes; member fingerprints recorded at receipt. Repacked ZIP is a local container, not the original Census ZIP. Source equivalence checked against published empirical results."
+}

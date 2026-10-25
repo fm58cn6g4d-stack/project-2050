@@ -1,8 +1,14 @@
 # Child-poverty microsimulation — reconstructed research tool
 
-October 24, 2026. **102 logic tests; verified CPS source-year baseline and all 160 replicates; completed conditional agenda experiments, not a future poverty forecast.** This update's source is `claude/pensive-mendel-g1lwl5` at `df2911d1ae101d6dd73a3c694c8c6874a07433af` (rebuild/baseline/preparation merged through PRs #10–12). Adopted policy and fiscal/incidence inputs are unchanged.
+October 24, 2026. **117 logic/extension tests; verified CPS source-year baseline and all 160 replicates; completed conditional agenda experiments, not a future poverty forecast.** This update's source is `claude/pensive-mendel-g1lwl5` at `df2911d1ae101d6dd73a3c694c8c6874a07433af` (rebuild/baseline/preparation merged through PRs #10–12). Adopted policy and fiscal/incidence inputs are unchanged.
 
 This rebuild uses the four local research-report exports, the three preliminary notes, the canonical rule sheet and the surviving GitHub prototype. It does **not** claim to recover the missing ZIP byte for byte. `recovered/model-upstream-8a8f4b.py` preserves the exact surviving source; its SHA-256 is `702c8e45badb933eb59851718a57dfaed7f0164e09a0961c7bdc1b9d88334bb9`.
+
+## Current policy selection: October 24
+
+Espen adopted FAM-1D/AFA and one million total new HOU-4A awards; HOU-4C remains optional broader-assistance exploration. `adopted-package.json` records the selected-policy-to-annual-analogue map, not a second policy canon. Canonical FAM/HOU and governing decisions control; the [architecture bridge](../../../sources/family-adoption-architecture-bridge.md) explains funding and upgrade limits. The existing `agenda-assumptions.json`, eight-case JSON and its report are explicitly historical FAM-1A/400,000-award experiments and remain intact for reproduction. The report renderer labels that history.
+
+`comparison_analysis.py` separately generates selected-package moderate/enhanced/full cases and later-year scenarios, with exact AFA monthly/index/ID/ODC mapping limitations visible. Delivery improvement is necessary policy design; the numerical receipt probabilities are still research assumptions. Read the selected-package section in the generated checks for current results. Exact fiscal scoring, recurring financing and a more faithful within-household incidence map remain open; positive poverty results do not satisfy D3/D4 by themselves.
 
 ## Reproduce the verification
 
@@ -12,7 +18,7 @@ Python 3.9 or later, standard library only; verified here with Python 3.12.14. F
 python3 index/tools/child-poverty/run_validation.py
 ```
 
-The runner works from other working directories too. It executes 102 unit/regression tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial. Official-data executions are separately recorded in `empirical/`.
+The runner works from other working directories too. It executes 117 unit/regression/extension tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial. Official-data executions are separately recorded in `empirical/`.
 
 The `synthetic/` JSON fixtures are inspectable and reproducible with `python3 index/tools/child-poverty/fixtures.py`. Test receipt/index/reference values are **not** production tax parameters. A full-receipt case does not create a care slot or award a voucher. Enhanced delivery may explicitly add a service that was unavailable under the supplied baseline supply assumptions.
 
@@ -33,6 +39,22 @@ python3 index/tools/child-poverty/report_agenda.py \
 ```
 
 See the [results and methods](../../../sources/family-child-poverty-agenda-effects.md) and [interactive analysis](../../child-poverty-agenda-analysis.html). Eight main cases and 42 sensitivities cover CTC, joint care/pre-K, net food assistance, scarce household vouchers and employee leave costs, with optional temporary cash, carbon and health proxies. Legal coverage and delivery are research assumptions, never imputed SSN/ITIN status. Main results preserve baseline credits; indexing, age 17, ODC and unresolved claimant conventions are branched. The matched source-year EITC/ACTC-removal comparator passes public-use/internal tolerances. No employment response is credited. Sampling intervals do not cover model or parameter uncertainty; the main estimate is not all Project2050 household effects or a fiscal score.
+
+## Bounded alternatives and later-year references
+
+The [model review](../../../sources/family-poverty-model-review-and-extension.md) distinguishes incomplete scope from demonstrated defects, maps FAM-1D to the American Family Act and records the approved comparison directions. `comparison_analysis.py` reuses the existing parser/service/receipt/replicate routines. It produces [separate generated checks](../../../sources/family-comparison-model-checks.md), leaving the published eight-case experiment intact.
+
+```bash
+python3 -m unittest discover -s index/tools/child-poverty -p 'test_*.py'
+python3 index/tools/child-poverty/comparison_analysis.py
+python3 index/tools/child-poverty/comparison_analysis.py --archive /path/to/asecpub26csv.zip
+```
+
+Without an archive the new national effects are null, explicitly not run. Only the executed constant-real 2034 reference carried to 2040/2050 and conditional tax-award examples are generated. With the hash-verified archive it compares credit/price/newborn, delivery and housing-reach alternatives, including joint cases and signed credit losses. These are annual exposure analogues, not a complete monthly AFA tax-law simulation or adopted changes. New tests use artificial units only. The national matrix was subsequently executed using user-uploaded Census members after the direct download was blocked. The member hashes, record counts, source-year comparator, full source-year baseline (except repacked-container hash) and all three adopted 2034 delivery cases were checked; see the source manifest and generated results.
+
+`--source-manifest sources/family-census-upload-manifest.json` permits a repacked local ZIP of the exact user-uploaded members, with streaming member-hash verification and distinct provenance; it does not assert the original Census ZIP hash. Raw data stay outside GitHub.
+
+`--overlays` accepts reviewed net health, tax/transfer/earnings and leave inputs in 2025 dollars; no estimates are supplied by default. `--paths sources/family-later-year-scenario-paths.json` executes the filed conditional maturity/resource-stress cases; the national sixteen-case matrix reproduced identically on a second run. `--paths` also accepts other explicitly reviewed year/delivery/resource-stress records. Both require documented baseline/overlap or scenario review, and neither predicts economic growth, cohort aging or future child populations. See the review for contracts, primary bill text and access limits. Federal cost stays unpriced; poverty effects do not certify D3/D4.
 
 ## Run a prepared research case
 

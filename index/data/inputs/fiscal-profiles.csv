@@ -21,7 +21,7 @@ bill,CLI-3,,out_disc_nondefense,,2,gdp,,,,,
 bill,CLI-5,,out_other_mandatory,,3,gdp,,0.3,,,"Net of fee and border revenue; capital-heavy, so most ends with the window (estimate)"
 bill,CLI-6,,out_other_mandatory,,1,gdp,,,,,
 bill,CLI-7,,out_other_mandatory,,1,gdp,,,,,
-bill,HOU-1,,out_other_mandatory,,2,gdp,,0.55,,,Emergency aid and public-housing repair are time-limited; credits and vouchers continue (estimate)
+bill,HOU-1,,out_other_mandatory,,2,gdp,,0.55,,,Component paths in fiscal-components.csv preserve legacy title and fully permanent voucher increase; aggregate legacy columns retained for reference
 bill,HOU-7,,out_other_mandatory,,1,gdp,,,,,
 bill,LAB-1,,out_disc_nondefense,,1,gdp,,,,,
 bill,LAB-5,,out_other_mandatory,2031,1,gdp,2036,0.0,,,Wage-transition credit is temporary

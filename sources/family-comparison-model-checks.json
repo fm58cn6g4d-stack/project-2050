@@ -1,0 +1,2925 @@
+{
+  "adopted_cases": [
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "moderate",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 650000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18320619.65424122,
+        "below150_rate": 0.27446790853624475,
+        "child_weighted_gap_dollars": 77238348348.89789,
+        "children_newly_poor": 857.8524334512675,
+        "deep_poor_children": 1314808.3441828543,
+        "deep_poor_rate": 0.01969762503476945,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4469.027347020917,
+        "poor_children": 5828748.6822378365,
+        "poor_children_lifted": 3118558.1007481427,
+        "poor_rate": 0.0873226173781113,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001114998856719665
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.04670740852369411,
+            "lower95": -0.050767219866026725,
+            "se": 0.0020713323175166427,
+            "upper95": -0.04264759718136149
+          },
+          "poor_children": {
+            "se": 169776.30651403652
+          },
+          "poor_rate": {
+            "lower95": 0.08229551074955115,
+            "se": 0.0025648503206939523,
+            "upper95": 0.09234972400667145
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 850000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18040525.021768883,
+        "below150_rate": 0.2702717083302592,
+        "child_weighted_gap_dollars": 72613728843.84995,
+        "children_newly_poor": 287.52222004246124,
+        "deep_poor_children": 1238190.1829101252,
+        "deep_poor_rate": 0.01854978031787144,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4877.3738197224675,
+        "poor_children": 5568378.888254704,
+        "poor_children_lifted": 3378357.564517866,
+        "poor_rate": 0.08342192219698408,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0010948226181404055
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.05060810370482133,
+            "lower95": -0.054934873585214934,
+            "se": 0.0022075356532620426,
+            "upper95": -0.04628133382442772
+          },
+          "poor_children": {
+            "se": 167216.64918191376
+          },
+          "poor_rate": {
+            "lower95": 0.07847052934919346,
+            "se": 0.002526220840709497,
+            "upper95": 0.08837331504477469
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 1000000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 17863306.955800522,
+        "below150_rate": 0.2676167396207312,
+        "child_weighted_gap_dollars": 69588980340.58691,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1187245.465097516,
+        "deep_poor_rate": 0.01778655885413896,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5124.243690353424,
+        "poor_children": 5396762.587225967,
+        "poor_children_lifted": 3549686.34332656,
+        "poor_rate": 0.08085087557830818,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0010852527001855336
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.053179150323497223,
+            "lower95": -0.057675973909058126,
+            "se": 0.002294297747735154,
+            "upper95": -0.04868232673793632
+          },
+          "poor_children": {
+            "se": 165656.79864191895
+          },
+          "poor_rate": {
+            "lower95": 0.07594597803931476,
+            "se": 0.0025024987443844028,
+            "upper95": 0.0857557731173016
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    }
+  ],
+  "adopted_later_path_cases": [
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "moderate",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 650000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "moderate",
+        "resource_shift": 0,
+        "review": "Reference calculation with 2034 population and valuation; not a forecast.",
+        "year": 2034
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 18320619.65424122,
+        "below150_rate": 0.27446790853624475,
+        "child_weighted_gap_dollars": 77238348348.89789,
+        "children_newly_poor": 857.8524334512675,
+        "deep_poor_children": 1314808.3441828543,
+        "deep_poor_rate": 0.01969762503476945,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4469.027347020917,
+        "poor_children": 5828748.6822378365,
+        "poor_children_lifted": 3118558.1007481427,
+        "poor_rate": 0.0873226173781113,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001114998856719665
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.04670740852369411,
+            "lower95": -0.050767219866026725,
+            "se": 0.0020713323175166427,
+            "upper95": -0.04264759718136149
+          },
+          "poor_children": {
+            "se": 169776.30651403652
+          },
+          "poor_rate": {
+            "lower95": 0.08229551074955115,
+            "se": 0.0025648503206939523,
+            "upper95": 0.09234972400667145
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 850000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "enhanced",
+        "resource_shift": 0,
+        "review": "Illustrative improved-delivery stage, with population and real resources held at the reference; no predicted completion date.",
+        "year": 2040
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 18040525.021768883,
+        "below150_rate": 0.2702717083302592,
+        "child_weighted_gap_dollars": 72613728843.84995,
+        "children_newly_poor": 287.52222004246124,
+        "deep_poor_children": 1238190.1829101252,
+        "deep_poor_rate": 0.01854978031787144,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4877.3738197224675,
+        "poor_children": 5568378.888254704,
+        "poor_children_lifted": 3378357.564517866,
+        "poor_rate": 0.08342192219698408,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0010948226181404055
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.05060810370482133,
+            "lower95": -0.054934873585214934,
+            "se": 0.0022075356532620426,
+            "upper95": -0.04628133382442772
+          },
+          "poor_children": {
+            "se": 167216.64918191376
+          },
+          "poor_rate": {
+            "lower95": 0.07847052934919346,
+            "se": 0.002526220840709497,
+            "upper95": 0.08837331504477469
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2040
+    },
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 1000000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": 0,
+        "review": "Illustrative full modeled receipt/access at existing benefit levels and voucher cap; not a forecast or removal of all statutory exclusions.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 17863306.955800522,
+        "below150_rate": 0.2676167396207312,
+        "child_weighted_gap_dollars": 69588980340.58691,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1187245.465097516,
+        "deep_poor_rate": 0.01778655885413896,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5124.243690353424,
+        "poor_children": 5396762.587225967,
+        "poor_children_lifted": 3549686.34332656,
+        "poor_rate": 0.08085087557830818,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0010852527001855336
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.053179150323497223,
+            "lower95": -0.057675973909058126,
+            "se": 0.002294297747735154,
+            "upper95": -0.04868232673793632
+          },
+          "poor_children": {
+            "se": 165656.79864191895
+          },
+          "poor_rate": {
+            "lower95": 0.07594597803931476,
+            "se": 0.0025024987443844028,
+            "upper95": 0.0857557731173016
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    },
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 22915979.345378853,
+        "below150_rate": 0.3433126740082644,
+        "child_weighted_gap_dollars": 158370479377.57776,
+        "deep_poor_children": 2595310.1139149624,
+        "deep_poor_rate": 0.03888129072120652,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 10245386.682139376,
+        "poor_rate": 0.1534898877801279,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0020646536976905447
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 249056.4673761361
+          },
+          "poor_rate": {
+            "lower95": 0.14612694290376058,
+            "se": 0.0037566045287588373,
+            "upper95": 0.16085283265649522
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 1000000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": -0.05,
+        "review": "Adverse adequacy stress: subtract 5% of each unit threshold from baseline resources; not an employment or macro forecast.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 19314245.64485561,
+        "below150_rate": 0.2893537831768469,
+        "child_weighted_gap_dollars": 82366506433.70856,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1356388.2779179187,
+        "deep_poor_rate": 0.020320549240648963,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5124.243690353424,
+        "poor_children": 6302800.544242052,
+        "poor_children_lifted": 3942586.1378973243,
+        "poor_rate": 0.0944245618296402,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011292566788986063
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.059065325950487704,
+            "lower95": -0.06399176860722258,
+            "se": 0.0025134911513953473,
+            "upper95": -0.054138883293752826
+          },
+          "poor_children": {
+            "se": 180997.35833400374
+          },
+          "poor_rate": {
+            "lower95": 0.08906589303023132,
+            "se": 0.0027340146935759574,
+            "upper95": 0.09978323062904906
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    },
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 20600427.103673536,
+        "below150_rate": 0.30862253836429104,
+        "child_weighted_gap_dollars": 118643281449.01622,
+        "deep_poor_children": 2100824.818371219,
+        "deep_poor_rate": 0.03147322552301881,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 7785876.2081558,
+        "poor_rate": 0.11664306116850809,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0018433433806558006
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 212722.3877175891
+          },
+          "poor_rate": {
+            "lower95": 0.11036625616963353,
+            "se": 0.0032024515300380398,
+            "upper95": 0.12291986616738265
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 1000000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": 0.05,
+        "review": "Favorable adequacy stress: add 5% of each unit threshold to baseline resources; not policy-attributed economic growth or dynamic revenue.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 16514234.378700182,
+        "below150_rate": 0.24740578957163645,
+        "child_weighted_gap_dollars": 58762311976.74633,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1020523.7886001129,
+        "deep_poor_rate": 0.015288840397039432,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5124.243690353424,
+        "poor_children": 4593381.398369865,
+        "poor_children_lifted": 3192494.809785935,
+        "poor_rate": 0.0688151279439944,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0010680423590000757
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.04782793322451369,
+            "lower95": -0.05195522366751493,
+            "se": 0.002105760430102674,
+            "upper95": -0.04370064278151245
+          },
+          "poor_children": {
+            "se": 154623.5587759541
+          },
+          "poor_rate": {
+            "lower95": 0.06424080308159656,
+            "se": 0.0023338392155091018,
+            "upper95": 0.07338945280639224
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    }
+  ],
+  "adopted_package": {
+    "annual_new_awards": 250000,
+    "credit_analogue": "AFA_2025_real",
+    "credit_policy": "FAM-1D",
+    "decision_date": "2026-10-24",
+    "delivery": "Necessary in every design; moderate/enhanced/full are research assumptions, not adopted rates",
+    "housing_policy": "HOU-4A",
+    "limits": "Actual AFA inflation lag/rounding, monthly child exposure, identification and tax/ODC/reconciliation rules require exact mapping. AFA_2025_real is an annual research analogue, not bill-exact law. Existing launch framework retained.",
+    "new_voucher_awards": 1000000,
+    "optional_add_on": "HOU-4C broader assistance; not included in base; model proxy pool is not statutory eligibility",
+    "phase_in_end": 2033,
+    "phase_in_start": 2030,
+    "status": "adopted_policy_with_annual_analogue_mapping_limits"
+  },
+  "adopted_package_sha256": "a2447e60d909144180274ddac0029118f23c71e7bd82882675940ea6d1f7b9ed",
+  "archive_sha256": "7513d204421203872a6c46b1edb46fed34a19d1cfb638de6b8518a3491ac0339",
+  "carry_forward": [
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02467964662391484,
+      "poor_children": 7208908.822666079,
+      "poor_rate": 0.10799930159172277,
+      "reference_year": 2034,
+      "scenario": "stressed",
+      "year": 2034
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02467964662391484,
+      "poor_children": 7208908.822666079,
+      "poor_rate": 0.10799930159172277,
+      "reference_year": 2034,
+      "scenario": "stressed",
+      "year": 2040
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02467964662391484,
+      "poor_children": 7208908.822666079,
+      "poor_rate": 0.10799930159172277,
+      "reference_year": 2034,
+      "scenario": "stressed",
+      "year": 2050
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02281665224718427,
+      "poor_children": 6867611.165302351,
+      "poor_rate": 0.10288619646903352,
+      "reference_year": 2034,
+      "scenario": "moderate",
+      "year": 2034
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02281665224718427,
+      "poor_children": 6867611.165302351,
+      "poor_rate": 0.10288619646903352,
+      "reference_year": 2034,
+      "scenario": "moderate",
+      "year": 2040
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02281665224718427,
+      "poor_children": 6867611.165302351,
+      "poor_rate": 0.10288619646903352,
+      "reference_year": 2034,
+      "scenario": "moderate",
+      "year": 2050
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02191353557007431,
+      "poor_children": 6697449.921273486,
+      "poor_rate": 0.10033694859183541,
+      "reference_year": 2034,
+      "scenario": "enhanced",
+      "year": 2034
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02191353557007431,
+      "poor_children": 6697449.921273486,
+      "poor_rate": 0.10033694859183541,
+      "reference_year": 2034,
+      "scenario": "enhanced",
+      "year": 2040
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02191353557007431,
+      "poor_children": 6697449.921273486,
+      "poor_rate": 0.10033694859183541,
+      "reference_year": 2034,
+      "scenario": "enhanced",
+      "year": 2050
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02132558617477268,
+      "poor_children": 6588890.844569638,
+      "poor_rate": 0.09871058533022854,
+      "reference_year": 2034,
+      "scenario": "full",
+      "year": 2034
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02132558617477268,
+      "poor_children": 6588890.844569638,
+      "poor_rate": 0.09871058533022854,
+      "reference_year": 2034,
+      "scenario": "full",
+      "year": 2040
+    },
+    {
+      "basis": "Constant 2034 population mix, real resources, real policy rules and delivery; not cohort aging or forecast",
+      "deep_poor_rate": 0.02132558617477268,
+      "poor_children": 6588890.844569638,
+      "poor_rate": 0.09871058533022854,
+      "reference_year": 2034,
+      "scenario": "full",
+      "year": 2050
+    }
+  ],
+  "code_sha256": "2bc08e38e2f998bfb802c66b2a830a8858686bcf54f70ab854b4f4ace22794ed",
+  "contribution_diagnostics": {
+    "basis": "Child-weighted unit amounts in 2025 dollars before receipt haircut; source-resource groups, not causal attribution or federal costs",
+    "groups": {
+      "source_deep_poor": {
+        "mean_existing_unit_credit_per_child": 527.0417076204319,
+        "mean_unit_ctc_increment_per_child": 6574.482234953165,
+        "share_positive_statutory_increment": 0.9495210911891055,
+        "weighted_children": 2301896.793846668
+      },
+      "source_not_poor": {
+        "mean_existing_unit_credit_per_child": 4185.379305441498,
+        "mean_unit_ctc_increment_per_child": 1351.430709214752,
+        "share_positive_statutory_increment": 0.6127895661096882,
+        "weighted_children": 57803138.48732169
+      },
+      "source_poor_not_deep": {
+        "mean_existing_unit_credit_per_child": 2187.597194272847,
+        "mean_unit_ctc_increment_per_child": 4902.612195831735,
+        "share_positive_statutory_increment": 0.9744686760694194,
+        "weighted_children": 6644552.136705844
+      }
+    }
+  },
+  "dependencies_sha256": {
+    "agenda-assumptions.json": "f7e1a8c6ffd2915332bab022b24b3128aa77ecba539b8d0fc9182b256e7d0bd7",
+    "agenda_analysis.py": "73de914130638a98f3080551d4bcc9325c42f674a5bc99a8403e90d3e65553dc",
+    "cps_projection.py": "a761d3c642702bf48538e503c1d5d2833c06473796c2401730f2aada5e3832ec",
+    "current_law_ctc.py": "ddf13e33676bbad16d3c8d8abaea338d9fa45a5b869e8e04c0ec947dda87423e",
+    "empirical/cbo-calendar-factors-2026-02.csv": "3df7f94a37ec34e0017d802ca2da2235f5b3b264c5b9025e49f479cb33bda9e4",
+    "empirical/cbo-child-population-2026-01.csv": "288938961b1d531eeeec20ff98ae10087e114ad3dd5628c46fb087a1db621228",
+    "empirical/cbo-ctc-parameters-2026-02.csv": "05bab26adc644c6fa14fc2f448923a09c86707e6df84fbf5ac025525e722cd84",
+    "model.py": "4324141b76453ba72d364cdc3aef0cfc1ae8758f1e484f213e164ece26967c70"
+  },
+  "examples": {
+    "infant_full_year_exposure": 6360.0,
+    "infant_no_bonus": 4320.0,
+    "kind": "Illustrative conditional tax awards only; not national outcomes",
+    "one_child_age4": 4320.0,
+    "one_child_age8": 3600.0
+  },
+  "external_comparator": {
+    "absolute_tolerances": {
+      "all_people": 250000,
+      "children": 150000
+    },
+    "income_year": 2025,
+    "interpretation": "Matched source-year element-removal validation; not independent validation of Project eligibility, delivery or future projections",
+    "passed": true,
+    "policy": "Removal of EITC + refundable ACTC only; no behavior change",
+    "population": "All persons and children under18; March2026 ages",
+    "public_use_children_lifted": 3249822.780000001,
+    "public_use_people_lifted": 6141800.500000013,
+    "published_internal_children_lifted_rounded": 3300000.0,
+    "published_internal_people_lifted_rounded": 6100000.0,
+    "source": "https://www2.census.gov/library/publications/2026/demo/p60-290.pdf"
+  },
+  "later_path_cases": [
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "moderate",
+      "design": "FAM-1A",
+      "expected_awards": 400000.0,
+      "expected_leases": 260000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "moderate",
+        "resource_shift": 0,
+        "review": "Reference calculation with 2034 population and valuation; not a forecast.",
+        "year": 2034
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 20020704.001811862,
+        "below150_rate": 0.29993749439192285,
+        "child_weighted_gap_dollars": 92443742345.25865,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1523002.1237566664,
+        "deep_poor_rate": 0.02281665224718427,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2580.0590913390834,
+        "poor_children": 6867611.165302351,
+        "poor_children_lifted": 2079695.8166578906,
+        "poor_rate": 0.10288619646903352,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0012148505917212876
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.031143829432771886,
+            "lower95": -0.03444654991715357,
+            "se": 0.0016850614716233088,
+            "upper95": -0.0278411089483902
+          },
+          "poor_children": {
+            "se": 189985.2346242191
+          },
+          "poor_rate": {
+            "lower95": 0.09727218388456954,
+            "se": 0.002864292134930605,
+            "upper95": 0.1085002090534975
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "moderate",
+      "design": "AFA_2025_real",
+      "expected_awards": 400000.0,
+      "expected_leases": 260000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "moderate",
+        "resource_shift": 0,
+        "review": "Reference calculation with 2034 population and valuation; not a forecast.",
+        "year": 2034
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 18359563.40073247,
+        "below150_rate": 0.27505133905615864,
+        "child_weighted_gap_dollars": 79217426793.72783,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1353376.1486428971,
+        "deep_poor_rate": 0.020275423429516007,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4404.466311743744,
+        "poor_children": 5936937.155686916,
+        "poor_children_lifted": 3010369.826273326,
+        "poor_rate": 0.08894342849671467,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001143726166248967
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.04508659740509073,
+            "lower95": -0.049130522133942214,
+            "se": 0.0020632269024752456,
+            "upper95": -0.04104267267623925
+          },
+          "poor_children": {
+            "se": 174204.5920972038
+          },
+          "poor_rate": {
+            "lower95": 0.08378531815189509,
+            "se": 0.0026316889514385595,
+            "upper95": 0.09410153884153426
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2034
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "FAM-1A",
+      "expected_awards": 400000.0,
+      "expected_leases": 340000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "enhanced",
+        "resource_shift": 0,
+        "review": "Illustrative improved-delivery stage, with population and real resources held at the reference; no predicted completion date.",
+        "year": 2040
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 19859210.439867444,
+        "below150_rate": 0.29751810023247416,
+        "child_weighted_gap_dollars": 89005548837.28256,
+        "children_newly_poor": 287.54335605408204,
+        "deep_poor_children": 1462719.4581693748,
+        "deep_poor_rate": 0.02191353557007431,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2851.495557464953,
+        "poor_children": 6697449.921273486,
+        "poor_children_lifted": 2249286.552635096,
+        "poor_rate": 0.10033694859183541,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0012002912328896637
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.033693077309969996,
+            "lower95": -0.03721706785035396,
+            "se": 0.0017979543573387589,
+            "upper95": -0.030169086769586028
+          },
+          "poor_children": {
+            "se": 188715.49631216726
+          },
+          "poor_rate": {
+            "lower95": 0.09476043853022038,
+            "se": 0.002845158194701546,
+            "upper95": 0.10591345865345043
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2040
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "AFA_2025_real",
+      "expected_awards": 400000.0,
+      "expected_leases": 340000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "enhanced",
+        "resource_shift": 0,
+        "review": "Illustrative improved-delivery stage, with population and real resources held at the reference; no predicted completion date.",
+        "year": 2040
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 18094663.42306499,
+        "below150_rate": 0.2710827755351721,
+        "child_weighted_gap_dollars": 75108157409.56757,
+        "children_newly_poor": 287.54335605408204,
+        "deep_poor_children": 1286372.2418147542,
+        "deep_poor_rate": 0.0192716133773478,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4792.947850513856,
+        "poor_children": 5708980.857786235,
+        "poor_children_lifted": 3237755.616122346,
+        "poor_rate": 0.08552833176400232,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011320882145757765
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.048501694137803086,
+            "lower95": -0.0528089628481709,
+            "se": 0.002197586076718273,
+            "upper95": -0.04419442542743527
+          },
+          "poor_children": {
+            "se": 173151.25640634133
+          },
+          "poor_rate": {
+            "lower95": 0.08040131646213933,
+            "se": 0.0026158241336035645,
+            "upper95": 0.09065534706586531
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2040
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "FAM-1A",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": 0,
+        "review": "Illustrative full modeled receipt/access at existing benefit levels and voucher cap; not a forecast or removal of all statutory exclusions.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 19765001.05263699,
+        "below150_rate": 0.2961067149209714,
+        "child_weighted_gap_dollars": 86819358101.98018,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1423474.0786104023,
+        "deep_poor_rate": 0.02132558617477268,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3003.4151753725114,
+        "poor_children": 6588890.844569638,
+        "poor_children_lifted": 2357558.0859828894,
+        "poor_rate": 0.09871058533022854,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011941901237747306
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.03531944057157686,
+            "lower95": -0.03898376709853635,
+            "se": 0.0018695543504895322,
+            "upper95": -0.03165511404461738
+          },
+          "poor_children": {
+            "se": 187942.07239931257
+          },
+          "poor_rate": {
+            "lower95": 0.09315696609980588,
+            "se": 0.0028334791991952387,
+            "upper95": 0.1042642045606512
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_2025_real",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": 0,
+        "review": "Illustrative full modeled receipt/access at existing benefit levels and voucher cap; not a forecast or removal of all statutory exclusions.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 17929375.037247937,
+        "below150_rate": 0.268606529730351,
+        "child_weighted_gap_dollars": 72453380024.5002,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1242113.2741625896,
+        "deep_poor_rate": 0.018608553583807967,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5024.919020696234,
+        "poor_children": 5561489.258226888,
+        "poor_children_lifted": 3384959.6723256395,
+        "poor_rate": 0.08331870612787665,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001129189365643072
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.05071131977392876,
+            "lower95": -0.055185706874027136,
+            "se": 0.0022828505612746824,
+            "upper95": -0.04623693267383038
+          },
+          "poor_children": {
+            "se": 172734.98873322687
+          },
+          "poor_rate": {
+            "lower95": 0.07820429956665982,
+            "se": 0.002609391102661648,
+            "upper95": 0.08843311268909347
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 22915979.345378853,
+        "below150_rate": 0.3433126740082644,
+        "child_weighted_gap_dollars": 158370479377.57776,
+        "deep_poor_children": 2595310.1139149624,
+        "deep_poor_rate": 0.03888129072120652,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 10245386.682139376,
+        "poor_rate": 0.1534898877801279,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0020646536976905447
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 249056.4673761361
+          },
+          "poor_rate": {
+            "lower95": 0.14612694290376058,
+            "se": 0.0037566045287588373,
+            "upper95": 0.16085283265649522
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "FAM-1A",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": -0.05,
+        "review": "Adverse adequacy stress: subtract 5% of each unit threshold from baseline resources; not an employment or macro forecast.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 20974769.044021238,
+        "below150_rate": 0.31423069198484005,
+        "child_weighted_gap_dollars": 102653981893.96596,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1625910.8580958003,
+        "deep_poor_rate": 0.02435836566175403,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3003.4151753725114,
+        "poor_children": 7622280.123689068,
+        "poor_children_lifted": 2623106.5584503096,
+        "poor_rate": 0.1141921683496122,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0012693610630908517
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.0392977194305157,
+            "lower95": -0.043322730732263816,
+            "se": 0.0020535771947694467,
+            "upper95": -0.03527270812876759
+          },
+          "poor_children": {
+            "se": 201606.75132162744
+          },
+          "poor_rate": {
+            "lower95": 0.10823551823208948,
+            "se": 0.0030391072028177184,
+            "upper95": 0.12014881846713492
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 22915979.345378853,
+        "below150_rate": 0.3433126740082644,
+        "child_weighted_gap_dollars": 158370479377.57776,
+        "deep_poor_children": 2595310.1139149624,
+        "deep_poor_rate": 0.03888129072120652,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 10245386.682139376,
+        "poor_rate": 0.1534898877801279,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0020646536976905447
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 249056.4673761361
+          },
+          "poor_rate": {
+            "lower95": 0.14612694290376058,
+            "se": 0.0037566045287588373,
+            "upper95": 0.16085283265649522
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_2025_real",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": -0.05,
+        "review": "Adverse adequacy stress: subtract 5% of each unit threshold from baseline resources; not an employment or macro forecast.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 19366551.12369543,
+        "below150_rate": 0.2901373906995776,
+        "child_weighted_gap_dollars": 85632348704.70065,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1416987.6720784947,
+        "deep_poor_rate": 0.021228410944440536,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5024.919020696234,
+        "poor_children": 6482527.784378632,
+        "poor_children_lifted": 3762858.897760745,
+        "poor_rate": 0.09711712139576047,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001171573958576087
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.05637276638436743,
+            "lower95": -0.06127685936224049,
+            "se": 0.002502088254016867,
+            "upper95": -0.05146867340649437
+          },
+          "poor_children": {
+            "se": 188600.63124798154
+          },
+          "poor_rate": {
+            "lower95": 0.09153356251046232,
+            "se": 0.0028487545333153765,
+            "upper95": 0.10270068028105861
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 20600427.103673536,
+        "below150_rate": 0.30862253836429104,
+        "child_weighted_gap_dollars": 118643281449.01622,
+        "deep_poor_children": 2100824.818371219,
+        "deep_poor_rate": 0.03147322552301881,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 7785876.2081558,
+        "poor_rate": 0.11664306116850809,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0018433433806558006
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 212722.3877175891
+          },
+          "poor_rate": {
+            "lower95": 0.11036625616963353,
+            "se": 0.0032024515300380398,
+            "upper95": 0.12291986616738265
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "FAM-1A",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": 0.05,
+        "review": "Favorable adequacy stress: add 5% of each unit threshold to baseline resources; not policy-attributed economic growth or dynamic revenue.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 18492319.671355966,
+        "below150_rate": 0.27704020933624596,
+        "child_weighted_gap_dollars": 73461979423.40941,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1261600.6568288016,
+        "deep_poor_rate": 0.018900501196071316,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3003.4151753725114,
+        "poor_children": 5560931.544572759,
+        "poor_children_lifted": 2224944.6635830407,
+        "poor_rate": 0.0833103508154964,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011695328461618416
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.03333271035301169,
+            "lower95": -0.03707669335572122,
+            "se": 0.0019101954095456773,
+            "upper95": -0.029588727350302164
+          },
+          "poor_children": {
+            "se": 169857.93413857918
+          },
+          "poor_rate": {
+            "lower95": 0.07827860433244796,
+            "se": 0.0025672175933920635,
+            "upper95": 0.08834209729854484
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 20600427.103673536,
+        "below150_rate": 0.30862253836429104,
+        "child_weighted_gap_dollars": 118643281449.01622,
+        "deep_poor_children": 2100824.818371219,
+        "deep_poor_rate": 0.03147322552301881,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 7785876.2081558,
+        "poor_rate": 0.11664306116850809,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0018433433806558006
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 212722.3877175891
+          },
+          "poor_rate": {
+            "lower95": 0.11036625616963353,
+            "se": 0.0032024515300380398,
+            "upper95": 0.12291986616738265
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_2025_real",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "path": {
+        "delivery": "full",
+        "resource_shift": 0.05,
+        "review": "Favorable adequacy stress: add 5% of each unit threshold to baseline resources; not policy-attributed economic growth or dynamic revenue.",
+        "year": 2050
+      },
+      "reference_year": 2034,
+      "result": {
+        "below150_children": 16610966.289790468,
+        "below150_rate": 0.2488549657363476,
+        "child_weighted_gap_dollars": 61241679925.80874,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1065513.798791547,
+        "deep_poor_rate": 0.015962852206427586,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5024.919020696234,
+        "poor_children": 4753459.964024823,
+        "poor_children_lifted": 3032416.2441309765,
+        "poor_rate": 0.07121332352613058,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011113577177787604
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.04542973764237751,
+            "lower95": -0.04951133577984454,
+            "se": 0.0020824480293199117,
+            "upper95": -0.04134813950491048
+          },
+          "poor_children": {
+            "se": 162433.70226835329
+          },
+          "poor_rate": {
+            "lower95": 0.06640799356515427,
+            "se": 0.0024516989596817924,
+            "upper95": 0.07601865348710689
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "year": 2050
+    }
+  ],
+  "legacy_moderate_reproduced": true,
+  "missing": null,
+  "national_cases": [
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "moderate",
+      "design": "FAM-1A",
+      "expected_awards": 400000.0,
+      "expected_leases": 260000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 20020704.001811862,
+        "below150_rate": 0.29993749439192285,
+        "child_weighted_gap_dollars": 92443742345.25865,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1523002.1237566664,
+        "deep_poor_rate": 0.02281665224718427,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2580.0590913390834,
+        "poor_children": 6867611.165302351,
+        "poor_children_lifted": 2079695.8166578906,
+        "poor_rate": 0.10288619646903352,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0012148505917212876
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.031143829432771886,
+            "lower95": -0.03444654991715357,
+            "se": 0.0016850614716233088,
+            "upper95": -0.0278411089483902
+          },
+          "poor_children": {
+            "se": 189985.2346242191
+          },
+          "poor_rate": {
+            "lower95": 0.09727218388456954,
+            "se": 0.002864292134930605,
+            "upper95": 0.1085002090534975
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "FAM-1A",
+      "expected_awards": 400000.0,
+      "expected_leases": 340000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 19859210.439867444,
+        "below150_rate": 0.29751810023247416,
+        "child_weighted_gap_dollars": 89005548837.28256,
+        "children_newly_poor": 287.54335605408204,
+        "deep_poor_children": 1462719.4581693748,
+        "deep_poor_rate": 0.02191353557007431,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2851.495557464953,
+        "poor_children": 6697449.921273486,
+        "poor_children_lifted": 2249286.552635096,
+        "poor_rate": 0.10033694859183541,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0012002912328896637
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.033693077309969996,
+            "lower95": -0.03721706785035396,
+            "se": 0.0017979543573387589,
+            "upper95": -0.030169086769586028
+          },
+          "poor_children": {
+            "se": 188715.49631216726
+          },
+          "poor_rate": {
+            "lower95": 0.09476043853022038,
+            "se": 0.002845158194701546,
+            "upper95": 0.10591345865345043
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "FAM-1A",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 19765001.05263699,
+        "below150_rate": 0.2961067149209714,
+        "child_weighted_gap_dollars": 86819358101.98018,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1423474.0786104023,
+        "deep_poor_rate": 0.02132558617477268,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3003.4151753725114,
+        "poor_children": 6588890.844569638,
+        "poor_children_lifted": 2357558.0859828894,
+        "poor_rate": 0.09871058533022854,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011941901237747306
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.03531944057157686,
+            "lower95": -0.03898376709853635,
+            "se": 0.0018695543504895322,
+            "upper95": -0.03165511404461738
+          },
+          "poor_children": {
+            "se": 187942.07239931257
+          },
+          "poor_rate": {
+            "lower95": 0.09315696609980588,
+            "se": 0.0028334791991952387,
+            "upper95": 0.1042642045606512
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "moderate",
+      "design": "FAM-1D_2030_face",
+      "expected_awards": 400000.0,
+      "expected_leases": 260000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 19033620.35431889,
+        "below150_rate": 0.2851496329881736,
+        "child_weighted_gap_dollars": 84404779791.18579,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1424358.2323530924,
+        "deep_poor_rate": 0.021338832005599394,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3440.902122579989,
+        "poor_children": 6233857.357373241,
+        "poor_children_lifted": 2713449.6245870003,
+        "poor_rate": 0.09339169871339044,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011494408342889427
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.040638327188414966,
+            "lower95": -0.044488912437104434,
+            "se": 0.001964584310555851,
+            "upper95": -0.0367877419397255
+          },
+          "poor_children": {
+            "se": 177459.55075666032
+          },
+          "poor_rate": {
+            "lower95": 0.08813237413665301,
+            "se": 0.0026833288656823635,
+            "upper95": 0.09865102329012787
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "FAM-1D_2030_face",
+      "expected_awards": 400000.0,
+      "expected_leases": 340000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18810364.568346567,
+        "below150_rate": 0.2818049563450856,
+        "child_weighted_gap_dollars": 80549961413.8357,
+        "children_newly_poor": 287.54335605408204,
+        "deep_poor_children": 1359293.7648310647,
+        "deep_poor_rate": 0.020364077403526686,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3767.5660806824217,
+        "poor_children": 6020075.751825056,
+        "poor_children_lifted": 2926660.722083526,
+        "poor_rate": 0.0901889582348637,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011357708922101494
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.04384106766694171,
+            "lower95": -0.047957146188808836,
+            "se": 0.002100040062177108,
+            "upper95": -0.03972498914507458
+          },
+          "poor_children": {
+            "se": 175973.75317423703
+          },
+          "poor_rate": {
+            "lower95": 0.08497253729512982,
+            "se": 0.002661439254966261,
+            "upper95": 0.09540537917459757
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "FAM-1D_2030_face",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18673442.867799945,
+        "below150_rate": 0.27975368223473873,
+        "child_weighted_gap_dollars": 78074077325.3615,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1317094.2990227507,
+        "deep_poor_rate": 0.019731871760904032,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3957.2578692682514,
+        "poor_children": 5882657.320875514,
+        "poor_children_lifted": 3063791.609677014,
+        "poor_rate": 0.0881302424245433,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011307186404790187
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.045899783477262104,
+            "lower95": -0.05018762237997413,
+            "se": 0.0021876729095469524,
+            "upper95": -0.04161194457455008
+          },
+          "poor_children": {
+            "se": 175410.8688999616
+          },
+          "poor_rate": {
+            "lower95": 0.08293023887664369,
+            "se": 0.0026530630346426587,
+            "upper95": 0.09333024597244291
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "moderate",
+      "design": "AFA_2025_real",
+      "expected_awards": 400000.0,
+      "expected_leases": 260000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18359563.40073247,
+        "below150_rate": 0.27505133905615864,
+        "child_weighted_gap_dollars": 79217426793.72783,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1353376.1486428971,
+        "deep_poor_rate": 0.020275423429516007,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4404.466311743744,
+        "poor_children": 5936937.155686916,
+        "poor_children_lifted": 3010369.826273326,
+        "poor_rate": 0.08894342849671467,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001143726166248967
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.04508659740509073,
+            "lower95": -0.049130522133942214,
+            "se": 0.0020632269024752456,
+            "upper95": -0.04104267267623925
+          },
+          "poor_children": {
+            "se": 174204.5920972038
+          },
+          "poor_rate": {
+            "lower95": 0.08378531815189509,
+            "se": 0.0026316889514385595,
+            "upper95": 0.09410153884153426
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "AFA_2025_real",
+      "expected_awards": 400000.0,
+      "expected_leases": 340000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18094663.42306499,
+        "below150_rate": 0.2710827755351721,
+        "child_weighted_gap_dollars": 75108157409.56757,
+        "children_newly_poor": 287.54335605408204,
+        "deep_poor_children": 1286372.2418147542,
+        "deep_poor_rate": 0.0192716133773478,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4792.947850513856,
+        "poor_children": 5708980.857786235,
+        "poor_children_lifted": 3237755.616122346,
+        "poor_rate": 0.08552833176400232,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011320882145757765
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.048501694137803086,
+            "lower95": -0.0528089628481709,
+            "se": 0.002197586076718273,
+            "upper95": -0.04419442542743527
+          },
+          "poor_children": {
+            "se": 173151.25640634133
+          },
+          "poor_rate": {
+            "lower95": 0.08040131646213933,
+            "se": 0.0026158241336035645,
+            "upper95": 0.09065534706586531
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_2025_real",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 17929375.037247937,
+        "below150_rate": 0.268606529730351,
+        "child_weighted_gap_dollars": 72453380024.5002,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1242113.2741625896,
+        "deep_poor_rate": 0.018608553583807967,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5024.919020696234,
+        "poor_children": 5561489.258226888,
+        "poor_children_lifted": 3384959.6723256395,
+        "poor_rate": 0.08331870612787665,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.001129189365643072
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.05071131977392876,
+            "lower95": -0.055185706874027136,
+            "se": 0.0022828505612746824,
+            "upper95": -0.04623693267383038
+          },
+          "poor_children": {
+            "se": 172734.98873322687
+          },
+          "poor_rate": {
+            "lower95": 0.07820429956665982,
+            "se": 0.002609391102661648,
+            "upper95": 0.08843311268909347
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "moderate",
+      "design": "AFA_no_newborn_bonus",
+      "expected_awards": 400000.0,
+      "expected_leases": 260000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18485781.124775708,
+        "below150_rate": 0.2769422529767658,
+        "child_weighted_gap_dollars": 80065793391.1318,
+        "children_newly_poor": 858.0514077139635,
+        "deep_poor_children": 1365280.1104454955,
+        "deep_poor_rate": 0.020453761038227738,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4263.570074415017,
+        "poor_children": 5975099.479235636,
+        "poor_children_lifted": 2972207.5027246056,
+        "poor_rate": 0.0895151522335194,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011515857983317723
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.044514873668286006,
+            "lower95": -0.04851580002165847,
+            "se": 0.002041288955802279,
+            "upper95": -0.04051394731491354
+          },
+          "poor_children": {
+            "se": 174188.3016710834
+          },
+          "poor_rate": {
+            "lower95": 0.08435808753188177,
+            "se": 0.002631155460019195,
+            "upper95": 0.09467221693515702
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "AFA_no_newborn_bonus",
+      "expected_awards": 400000.0,
+      "expected_leases": 340000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18227654.040214144,
+        "below150_rate": 0.273075156646333,
+        "child_weighted_gap_dollars": 76004039527.6983,
+        "children_newly_poor": 287.54335605408204,
+        "deep_poor_children": 1299039.9037706717,
+        "deep_poor_rate": 0.01946139225757688,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4643.012397516064,
+        "poor_children": 5750211.419014223,
+        "poor_children_lifted": 3196525.054894359,
+        "poor_rate": 0.08614602189248013,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011398717860717706
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.04788400400932527,
+            "lower95": -0.05214373907047395,
+            "se": 0.0021733342148717747,
+            "upper95": -0.043624268948176594
+          },
+          "poor_children": {
+            "se": 172988.50759236046
+          },
+          "poor_rate": {
+            "lower95": 0.0810243324439567,
+            "se": 0.0026131068614915504,
+            "upper95": 0.09126771134100357
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 400000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "full",
+      "design": "AFA_no_newborn_bonus",
+      "expected_awards": 400000.0,
+      "expected_leases": 400000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18067535.86803069,
+        "below150_rate": 0.2706763677042971,
+        "child_weighted_gap_dollars": 73381020755.323,
+        "children_newly_poor": 0.0,
+        "deep_poor_children": 1255303.2595394298,
+        "deep_poor_rate": 0.018806157582380523,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4868.801306204571,
+        "poor_children": 5604603.923742741,
+        "poor_children_lifted": 3341845.0068097864,
+        "poor_rate": 0.0839646227122885,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011368488616844855
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.05006540318951691,
+            "lower95": -0.05448970699711997,
+            "se": 0.002257297861021968,
+            "upper95": -0.04564109938191385
+          },
+          "poor_children": {
+            "se": 172494.74972028783
+          },
+          "poor_rate": {
+            "lower95": 0.07885779816382729,
+            "se": 0.0026055227288067358,
+            "upper95": 0.0890714472607497
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "FAM-1A",
+      "expected_awards": 1000000.0,
+      "expected_leases": 850000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 19820955.051865395,
+        "below150_rate": 0.29694498226303173,
+        "child_weighted_gap_dollars": 86062996078.05762,
+        "children_newly_poor": 287.52222004246124,
+        "deep_poor_children": 1409332.3676203673,
+        "deep_poor_rate": 0.021113724026449527,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 2935.9215266735646,
+        "poor_children": 6539112.770900872,
+        "poor_children_lifted": 2407623.6818716987,
+        "poor_rate": 0.09796484178941622,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0011607592126350514
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.03606518411238918,
+            "lower95": -0.03961534865488537,
+            "se": 0.0018113084400490766,
+            "upper95": -0.03251501956989299
+          },
+          "poor_children": {
+            "se": 182637.26720661006
+          },
+          "poor_rate": {
+            "lower95": 0.09256818055775522,
+            "se": 0.0027533985875821455,
+            "upper95": 0.10336150302107723
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 1000000,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "AFA_2025_real",
+      "expected_awards": 1000000.0,
+      "expected_leases": 850000.0,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 18040525.021768883,
+        "below150_rate": 0.2702717083302592,
+        "child_weighted_gap_dollars": 72613728843.84995,
+        "children_newly_poor": 287.52222004246124,
+        "deep_poor_children": 1238190.1829101252,
+        "deep_poor_rate": 0.01854978031787144,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 4877.3738197224675,
+        "poor_children": 5568378.888254704,
+        "poor_children_lifted": 3378357.564517866,
+        "poor_rate": 0.08342192219698408,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0010948226181404055
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.05060810370482133,
+            "lower95": -0.054934873585214934,
+            "se": 0.0022075356532620426,
+            "upper95": -0.04628133382442772
+          },
+          "poor_children": {
+            "se": 167216.64918191376
+          },
+          "poor_rate": {
+            "lower95": 0.07847052934919346,
+            "se": 0.002526220840709497,
+            "upper95": 0.08837331504477469
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 6755114,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "FAM-1A",
+      "expected_awards": 6755113.92,
+      "expected_leases": 5741846.8319999995,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 19454014.858522736,
+        "below150_rate": 0.29144771692346505,
+        "child_weighted_gap_dollars": 57838452169.80772,
+        "children_newly_poor": 287.31948645130757,
+        "deep_poor_children": 897251.0543422108,
+        "deep_poor_rate": 0.013442046446296723,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 3745.7233110101815,
+        "poor_children": 5020365.5406299215,
+        "poor_children_lifted": 3926370.709409057,
+        "poor_rate": 0.07521193365886715,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0009464785713836634
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.058818092242938255,
+            "lower95": -0.06377332696661335,
+            "se": 0.0025281809814668866,
+            "upper95": -0.05386285751926316
+          },
+          "poor_children": {
+            "se": 153153.77209435977
+          },
+          "poor_rate": {
+            "lower95": 0.07069873378417676,
+            "se": 0.0023026529972910116,
+            "upper95": 0.07972513353355754
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    },
+    {
+      "award_cap": 6755114,
+      "baseline": {
+        "below150_children": 21727828.39215177,
+        "below150_rate": 0.32551254970504034,
+        "child_weighted_gap_dollars": 137139333925.68901,
+        "deep_poor_children": 2301896.79384667,
+        "deep_poor_rate": 0.03448555838159776,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 0.0,
+        "poor_children": 8946448.930552527,
+        "poor_rate": 0.1340300259018054,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0019627094359164566
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": 0.0,
+            "lower95": 0.0,
+            "se": 0.0,
+            "upper95": 0.0
+          },
+          "poor_children": {
+            "se": 226714.32933754276
+          },
+          "poor_rate": {
+            "lower95": 0.12731666390571028,
+            "se": 0.0034251846918852613,
+            "upper95": 0.14074338789790053
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      },
+      "delivery": "enhanced",
+      "design": "AFA_2025_real",
+      "expected_awards": 6755113.92,
+      "expected_leases": 5741846.8319999995,
+      "federal_cost": null,
+      "overlay_rows": 0,
+      "result": {
+        "below150_children": 17521237.243592553,
+        "below150_rate": 0.262492068061842,
+        "child_weighted_gap_dollars": 48687527908.837975,
+        "children_newly_poor": 287.31948645130757,
+        "deep_poor_children": 776034.7864163065,
+        "deep_poor_rate": 0.011626061170357105,
+        "mean_unit_resource_gain_per_child_not_fiscal_cost": 5687.175604059084,
+        "poor_children": 4219744.968204142,
+        "poor_children_lifted": 4726991.281834837,
+        "poor_rate": 0.06321754382970414,
+        "sampling_uncertainty": {
+          "deep_poor_rate": {
+            "se": 0.0008866022734584352
+          },
+          "method": "CPS SDR; conditional on fixed proxies, allocation probabilities and external growth ratios; excludes model uncertainty",
+          "paired_poor_rate_change": {
+            "estimate": -0.07081248207210127,
+            "lower95": -0.07624544609268154,
+            "se": 0.002771920418663401,
+            "upper95": -0.065379518051521
+          },
+          "poor_children": {
+            "se": 138500.37037289652
+          },
+          "poor_rate": {
+            "lower95": 0.059128546665882124,
+            "se": 0.0020862230427663338,
+            "upper95": 0.06730654099352615
+          }
+        },
+        "unweighted_children": 31444,
+        "weighted_children": 66749587.41787438
+      }
+    }
+  ],
+  "overlay_sha256": null,
+  "paths": [
+    {
+      "delivery": "moderate",
+      "resource_shift": 0,
+      "review": "Reference calculation with 2034 population and valuation; not a forecast.",
+      "year": 2034
+    },
+    {
+      "delivery": "enhanced",
+      "resource_shift": 0,
+      "review": "Illustrative improved-delivery stage, with population and real resources held at the reference; no predicted completion date.",
+      "year": 2040
+    },
+    {
+      "delivery": "full",
+      "resource_shift": 0,
+      "review": "Illustrative full modeled receipt/access at existing benefit levels and voucher cap; not a forecast or removal of all statutory exclusions.",
+      "year": 2050
+    },
+    {
+      "delivery": "full",
+      "resource_shift": -0.05,
+      "review": "Adverse adequacy stress: subtract 5% of each unit threshold from baseline resources; not an employment or macro forecast.",
+      "year": 2050
+    },
+    {
+      "delivery": "full",
+      "resource_shift": 0.05,
+      "review": "Favorable adequacy stress: add 5% of each unit threshold to baseline resources; not policy-attributed economic growth or dynamic revenue.",
+      "year": 2050
+    }
+  ],
+  "paths_sha256": "a88795ef9baf808649894aa1ec61bf09776397b8edf9fd5766c2b63a58f2cce5",
+  "source_audit": {
+    "child_own_return_differs": 141,
+    "children": 31444,
+    "donor_lunch_value": 861.0,
+    "people": 134729,
+    "smi_fallback_states": [],
+    "smi_national_four_person_proxy": 138351.0,
+    "spm_units": 55401,
+    "tax_units": 72979,
+    "unresolved_child_claimants": 327
+  },
+  "source_income_year": 2025,
+  "source_main": "31d2e584d790c6dc6e3c243e1643b1ab3a8d050e",
+  "source_provenance": {
+    "archive_sha256": "7513d204421203872a6c46b1edb46fed34a19d1cfb638de6b8518a3491ac0339",
+    "kind": "uploaded_members_in_local_container_not_original_zip",
+    "manifest_sha256": "044029d8c4a6771926b46c13e1890e67986a01368654feb376beb47992e7714c"
+  },
+  "status": "CONDITIONAL_NATIONAL_ALTERNATIVES",
+  "stored_sha256": "a1375fc4d265cfbc1940c76af94f5ec45027d3e83511b7845ad8727af8896e4c",
+  "valuation_year": 2034,
+  "years": [
+    2034,
+    2040,
+    2050
+  ]
+}

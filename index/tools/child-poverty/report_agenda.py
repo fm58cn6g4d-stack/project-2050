@@ -53,6 +53,8 @@ def markdown(r):
     comparison=r['external_comparator']
     return f'''# Child poverty under Project 2050: completed conditional agenda analysis
 
+> Historical pre-adoption experiment: FAM-1A and 400,000 new voucher awards. Espen subsequently adopted FAM-1D/AFA and one million awards. Use [current selected-package comparisons](family-comparison-model-checks.md) and the [adoption bridge](family-adoption-architecture-bridge.md) for current policy; the results below retain their original assumptions.
+
 October 24, 2026. Source branch claude/pensive-mendel-g1lwl5 at {r['project_base']}. This report records a completed static scenario analysis, not a forecast of the poverty rate in 2030 or 2034 and not a change to adopted policy.
 
 The modeled package materially reduces child poverty and deep poverty. FAM-1A supplies most of the early reduction; mature food assistance and scarce housing assistance add to it. Full modeled receipt still leaves substantial poverty. Better delivery matters, but the tested delivery improvements alone do not eliminate the remaining gap.
@@ -156,6 +158,7 @@ def fragment(r):
 #poverty-effects-2050 .note { color:var(--muted-foreground); margin-top:8px; }
 @media (prefers-reduced-motion:reduce) { #poverty-effects-2050 .fill { transition:none; } }
 </style>
+<p><strong>Historical pre-adoption experiment:</strong> FAM-1A and 400,000 voucher awards. <a href="../sources/family-comparison-model-checks.md">Current adopted AFA/one-million package comparisons</a>.</p>
 <div class="head"><h2>Conditional child-poverty effects</h2><div><label class="form-label" for="poverty-year">Policy phasing</label><select class="form-select" id="poverty-year"><option>2030</option><option>2034</option></select></div></div>
 <div class="note text-small">CPS-based scenarios · not a future poverty forecast · primary credit indexed from 2030</div>
 <div id="poverty-bars" class="chart" role="img" aria-label="Child SPM poverty rates by conditional delivery case"></div>

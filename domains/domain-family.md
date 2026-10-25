@@ -6,37 +6,34 @@ Canonical. This file covers the Child Tax Credit, child care and pre-K, and paid
 
 | ID | Program | Chosen design | Net cost (low / mid / high) | Channel | Vehicle | Felt by Nov 2030? |
 | --- | --- | --- | --- | --- | --- | --- |
-| FAM-1 | Child Tax Credit | $3,600 under 6 and $3,000 ages 6-17; fully refundable; paid monthly; indexed | 1.3 / 1.5 / 1.8 | General fund | R1 | Yes |
+| FAM-1 | Child Tax Credit | American Family Act (FAM-1D): monthly refundable credit, larger young-child benefit and first-month newborn payment; indexed | 1.7 / 1.9 / 2.1 | General fund | R1 | Yes |
 | FAM-2 | Child care and pre-K | Phased: universal pre-K and a lowest-income tier first, then the full 7%-of-income cap from 2032 | 0.4 / 0.6 / 0.9 | General fund | R2 | Partly (pre-K) |
 | FAM-3 | Paid family and medical leave | 12 weeks of social insurance with a 0.6% contribution split between employer and worker, stepping automatically toward 0.85% if the reserve runs low | 0.0 to the general fund at every point (the fund carries ±$0.4T; a repayable Treasury loan bridges any shortfall above the cap) | Paid-leave fund | R2 | No (benefits from 2031) |
 | FAM-4 | Education | Pointer: lives in domains/domain-education.md (EDU-1, EDU-2, EDU-5) | — | — | — | — |
-| | **General-fund total** | | **1.70 / 2.10 / 2.70** | | | |
+| | **General-fund total** | | **2.10 / 2.50 / 3.00** | | | |
 
 The total leaves out education's $0.45 / 0.65 / 0.85T (EDU-1 and EDU-5), which the education file counts.
 
 ## FAM-1. Child Tax Credit
 
-**Design.** The credit builds on current law, which made a $2,200 credit permanent in 2025 (partly refundable, indexed). It raises the credit to $3,600 for children under 6 and $3,000 for ages 6-17 and makes it fully refundable, so the lowest-income families get the whole amount. Payments go out monthly through the IRS, and the 2021 phase-outs apply ($150K joint for the increase). It is paid for in R1 by the corporate-rate row under the revenue file's pairing rule.
+**Design (Espen, October 24).** FAM-1D, the American Family Act, replaces FAM-1A as the chosen credit. The introduced H.R.2763/S.1393 design uses a monthly base of $300 for ages 6–17, $360 under six and $2,400 in the first month of life, before indexing. A full first twelve-month exposure is $6,360, not a guaranteed calendar-year award to every infant. Preserve the Act's inflation, income-phaseout, taxpayer-identification, monthly eligibility and advance-payment structure in subsequent specification; the model's annual analogue is not exact bill text. R1 and the existing effective-date framework remain; no new launch date is selected.
+
+The policy preserves purchasing power from the AFA's source-vintage amounts, rather than resetting those amounts as unindexed 2030 face values. Exact statutory CPI base/lag/rounding, monthly custody/birth exposure and tax/ODC coordination need faithful model mapping; identification must not be inferred from survey citizenship. Delivery improvement is necessary in every design. The old FAM-1A remains a historical comparator and fallback alternative, not a second adopted credit.
 
 **Drafting note (payments do not stop).** A refundable credit is paid under Treasury's permanent appropriation for refundable credits, so monthly payments continue through a lapse in appropriations. The Talarico scenario model credits that standing disbursement authority with defeating a shutdown; the statute should say so expressly for the advance monthly payments, as CLI-2 does for the dividend.
 
-**Cost.** About $1.5T, range $1.3T to $1.8T (scaled).
-- **The anchor against current law:** the Tax Policy Center put the 2025 American Family Act at about **$1.4T for FY2026-35, measured against today's $2,200 credit** (TPC, June 2026). That design is larger per child: $3,600 to $6,360 by age, inflation-adjusted. It also cuts higher-income families to $2,000.
-- **Our design against it:** ours pays less per child, which lowers the cost. It keeps $2,200 at higher incomes, which raises it. Moving the window to 2030-39 raises it too.
-- **Older scores, for context:** CBO put the permanent 2021 design at $1.6T for 2022-31, and CRFB at about $1.7T through 2033. Both are measured against older laws.
-
-A score of this exact design is still needed.
+**Working cost:** $1.7–2.1T over 2030–39, midpoint $1.9T, replacing the old $1.5T midpoint. This is a rough planning range, not an exact CBO/JCT score. The source anchor remains TPC's approximately $1.4T for the AFA in FY2026–35; the later window, inflation and exact policy/baseline need reconciliation. New permanent financing remains unresolved under D4; the old R1 corporate-revenue pairing does not establish spare money. See the [adoption and architecture bridge](../sources/family-adoption-architecture-bridge.md).
 
 **Options.**
 
 | Option | Design | Cost | Basis |
 | --- | --- | --- | --- |
-| FAM-1A (chosen) | Full 2021 design, monthly | 1.5 | scaled |
-| FAM-1D | The 2025 American Family Act (larger, with a baby bonus; higher incomes cut to $2,000) | About 1.7 | scaled (TPC $1.4T, FY2026-35) |
+| FAM-1A (previous baseline; alternative) | Full 2021 design, monthly | 1.5 | historical scaled estimate |
+| FAM-1D (chosen October 24) | American Family Act; monthly, indexed, newborn and young-child enhancements | 1.7 / 1.9 / 2.1 | rough planning estimate; exact score pending |
 | FAM-1B | Supplement only: +$500 for most children and +$1,500 under 6, on top of current law | About 0.45 | scaled (CRFB $380B through 2033) |
 | FAM-1C | Full refundability of the current $2,200 credit only | About 0.3-0.5 | estimate |
 
-**Why A.** The 2021 credit cut child poverty sharply in its first months. The ledger also shows it is the fastest benefit to be felt (about five months after enactment), and monthly payments make it legible. B is the fallback if R1 can't carry A's cost. The Talarico stress test adds a reason to keep the credit near-universal: a universal child benefit resists the deservingness frame that a means-tested one invites.
+**Why D now.** Espen adopted the AFA after comparing family outcomes and rough costs, alongside one million new rental-assistance awards. The monthly refundable design remains; the larger real benefit strengthens adequacy. The conditional annual analogue supports this direction but does not certify the exact statute, full-agenda poverty effect, financing or delivery. The alternative A and supplement B remain available for explicit future decisions; neither is an automatic scope reduction.
 
 ## FAM-2. Child care and universal pre-K
 

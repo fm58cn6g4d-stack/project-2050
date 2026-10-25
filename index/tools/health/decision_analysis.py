@@ -143,7 +143,7 @@ def analyze():
     files = ['index/tools/fiscal-model.py' , 'index/tools/calendar/model.py',
              'index/tools/capacity-funding.py', 'index/data/fiscal-baseline.csv',
              'index/data/inputs/ledger-bills.csv', 'index/data/inputs/fiscal-profiles.csv',
-             'index/data/inputs/fiscal-years.csv', 'index/data/inputs/calendar-scenarios.json',
+             'index/data/inputs/fiscal-years.csv', 'index/data/inputs/fiscal-components.csv', 'index/data/inputs/calendar-scenarios.json',
              'index/data/inputs/capacity-funding.csv',
              'sources/health-cms-implementation-cost-register.csv',
              'index/tools/health/decision_analysis.py',
@@ -156,7 +156,7 @@ def analyze():
                 unit_unfinanced_2030_cost_debt={str(y): unit_2030[y] for y in (2030, 2039, 2040, 2056)},
                 unit_setup_shift_2030_to_2029_debt={str(y): unit_shift[y] for y in (2029, 2030, 2039, 2040, 2056)},
                 maturity_headroom_2040_bn=headroom[0], maturity_binding_year=headroom[1],
-                maturity_headroom_basis='Unfinanced recurring GF cost starting 2040, growing with GDP; conditional on old surge proxy; not available financing',
+                maturity_headroom_basis='Signed margin for recurring GF stream from 2040 growing with GDP; negative is an existing funding gap; conditional on old surge proxy; not financing',
                 calendar=calendar, surge=surge,
                 packages=[dict(id=x['work_package'], net_increment_bn=None, fy2029_cash_bn=None) for x in packages],
                 payment_cases=overlap_cases, actual_benefit_cost=None,
@@ -181,7 +181,7 @@ def render(r):
         d = r[key]
         lines.append(f"| {label} | {d['2039']:.6f} | {d['2040']:.6f} | {d['2056']:.6f} |")
     lines += ['', 'Uses existing `fiscal-model.py` baseline, marginal-rate rule and half-year interest convention through `debt_roll`. The $1B is a unit, not an estimate, borrowing approval or identified pay-for. Earlier cash affects interest even when lifetime setup is unchanged. Net federal cost needs an actual benefit/premium/offset/state-buy-in bridge first.', '',
-              f"Under the **old surge cash proxy**, DEC has room for only about **${r['maturity_headroom_2040_bn']:.3f}B in FY2040** of an additional unfinanced recurring GF cost growing with GDP from 2040, before one of the modeled maturity years fails (binding year {r['maturity_binding_year']}). This is an arithmetic threshold through 2056, not available financing, a score, an every-later-year certificate or permission to spend it. It supports pricing permanent operating/cost-sharing changes before adopting them.", '',
+              f"Under the **old surge cash proxy**, DEC's signed maturity margin is **${r['maturity_headroom_2040_bn']:.3f}B in FY2040-equivalent terms** for a recurring GF stream growing with GDP (binding year {r['maturity_binding_year']}). A negative value is an existing financing gap, not spare headroom; the October 24 family adoption is included in the current fiscal inputs. This threshold runs through 2056 and is neither available financing nor a score or permission to spend. Price further permanent costs and close the gap before claiming D4 compliance.", '',
               'The existing fiscal row calibrates HLT-2 as a combined title with a three-year ramp. Changing its start would rescale that title, not isolate an extra hearing/vision year. No such substitution was made. HI reserves and dynamic revenue are excluded from this exercise.', '',
               '## Calendar preparation interval', '',
               'Existing working-capacity, deadline strategy, separate-climate and opening-concentration cases. Conditions are illustrative, not probabilities. Completion assumes procedural eligibility, votes and final agreement. Days below are calendar arithmetic, not available CMS engineering workdays.', '',

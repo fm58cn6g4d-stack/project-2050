@@ -67,6 +67,12 @@ def growth_index(B, key):
 
 def row_path(B, mid10, prof, rid=None):
     """Annual path (billions) whose FY2030-39 sum equals mid10 (trillions)."""
+    if rid in PR.COMPONENTS:
+        components=PR.COMPONENTS[rid]
+        if abs(sum(amount for _,amount,_ in components)-mid10)>1e-9:
+            raise ValueError("Fiscal component totals differ from ledger: "+rid)
+        paths=[row_path(B,amount,p) for _,amount,p in components]
+        return {y:sum(path[y] for path in paths) for y in range(Y0,Y1+1)}
     if rid in PR.YEARS:
         vals = PR.YEARS[rid]; s = sum(vals)
         out = {y: 0.0 for y in range(Y0, Y1 + 1)}
@@ -313,7 +319,7 @@ def main():
         r["gf"] = {y: round(v, 3) for y, v in r["gf"].items()}; r["uni"] = {y: round(v, 3) for y, v in r["uni"].items()}
     json.dump(out, open(os.path.join(HERE, "fiscal-model.json"), "w"), indent=1, default=float)
     with open(os.path.join(HERE, "fiscal-paths.csv"), "w", newline="") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         cols = ["gdp", "base_deficit", "base_debt", "prog_primary", "prog_interest", "prog_debt", "gf_primary", "gf_debt",
                 "deficit", "debt", "interest", "deficit_pct", "debt_pct", "interest_pct", "base_debt_pct", "prog_debt_pct", "gf_debt_pct"]
         w.writerow(["scenario", "year"] + cols)
