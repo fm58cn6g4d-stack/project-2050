@@ -15,9 +15,9 @@
     "2040": 0.058294069021002384,
     "2056": 0.11170818945291057
   },
-  "maturity_headroom_2040_bn": 3.2969570321332213,
+  "maturity_headroom_2040_bn": -53.68983725117867,
   "maturity_binding_year": 2040,
-  "maturity_headroom_basis": "Unfinanced recurring GF cost starting 2040, growing with GDP; conditional on old surge proxy; not available financing",
+  "maturity_headroom_basis": "Signed margin for recurring GF stream from 2040 growing with GDP; negative is an existing funding gap; conditional on old surge proxy; not financing",
   "calendar": [
     {
       "condition": "favorable",
@@ -214,17 +214,18 @@
   "remedy_cohort_count": 9,
   "enrollment_category_count": 7,
   "source_sha256": {
-    "index/tools/fiscal-model.py": "323f68f4c6534ae32c0f200c86358165d7e4bf6a1ba810463b8441ab9eae0b3c",
+    "index/tools/fiscal-model.py": "104de3cbb37d5a9a5ff43fbf746ca6dec99c7c190755307ebe25df1a7c8c1dd3",
     "index/tools/calendar/model.py": "518de1501dfd426094aa1755a1bcaaf55fad3a8a0e08447753edd3396e8618b0",
     "index/tools/capacity-funding.py": "cfb23ff0c8f010ec4ddc8eefb9bbc8ec2330def8c143dd1a4db510e3632f33d7",
     "index/data/fiscal-baseline.csv": "94660448f9e78071a3647351e2467dc28abd2aea9c8923284a82593403b704e7",
-    "index/data/inputs/ledger-bills.csv": "102859ca5b43e6dc03641e046560e6250223fa5ce70f04795df1156f08ace97c",
-    "index/data/inputs/fiscal-profiles.csv": "70852e2bacd60667b40981f4593b546a326a21d4eb13861ebb993d235ed84636",
+    "index/data/inputs/ledger-bills.csv": "7e468c2a677c77302ebee40fd89a7f7aea3f2684dbc5293849727936a56623db",
+    "index/data/inputs/fiscal-profiles.csv": "a7c6bba2f3767feb9d7eb8e0d5de08387f4f3002af2b49a554a9139e20d3fc12",
     "index/data/inputs/fiscal-years.csv": "e0cd6fe6ef2ab69c199247812a200639343990933a66af98dd34db34f062016a",
+    "index/data/inputs/fiscal-components.csv": "9118ba7203519d897e996e51e975e9e274811cd156d7ad5bf37f4268665d028e",
     "index/data/inputs/calendar-scenarios.json": "1ac930965547eeb079062777162627040a661429c2507007a5ff825b13c0cc39",
     "index/data/inputs/capacity-funding.csv": "fd6414009b749a7baa094aebe9a8281a7ea7659fa0bc9bcc9f12346b6d465bbc",
     "sources/health-cms-implementation-cost-register.csv": "5eb8211982d900708af428c32168bf0c4e912566dfa8f1ecac6df43f906a0f20",
-    "index/tools/health/decision_analysis.py": "7494e8524b6f07ff71fa7446c0e8d140f1c22482430446bba2c2acc99f600484",
+    "index/tools/health/decision_analysis.py": "b01c11a80fdb7e46eeb96cdc0494d389f285efc4ff0f7edc250d76cf8ec25edb",
     "index/tools/health/test_decision_analysis.py": "3173e7b70f81e66d8cad68b20ca3ec7ad3b5c491e4562a4ae301f5c530e95cd4",
     "sources/health-restoration-remedy-cohorts.csv": "91433495429a2158b610937f406dce58cbc627190a9d67e7affa96462302c00c",
     "sources/health-enrollment-work-map.csv": "9e8c696f8f7ec57e93ebfd4d0a170ea8d6ae919feef1a37b88e78733dbba78f4"

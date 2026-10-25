@@ -53,3 +53,5 @@ The target field is a planning window, not a service launch or proof of enactmen
 ## Scenario calendar integration
 
 `index/calendar-scenarios.md` and `index/calendar-scenario-explorer.html` are the current scenario presentation; `index/calendar-delivery-opportunities.md` keeps possible felt effects separate. Inputs: `index/data/inputs/calendar-scenarios.json` and the live bill inventory; milestone evidence: `sources/calendar-delivery-milestones.csv`; runner/tests: `index/tools/calendar/`. `run-all.sh` regenerates them and dashboard/calendar.json. The 172/163 display is legacy provenance. New numeric ranges are illustrative; vote parameters and fiscal/benefit profiles are unchanged. See `sources/calendar-model-review-and-integration.md` for review findings and limits.
+
+**Fiscal component paths:** `fiscal-components.csv` assigns disjoint midpoint shares and profiles to an existing aggregate bill. The shares must sum to that bill's ledger midpoint. HOU-1 preserves the legacy title and adds the fully permanent voucher expansion once; components are not extra ledger claims or borrowing authority.

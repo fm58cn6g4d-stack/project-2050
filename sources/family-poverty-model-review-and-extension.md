@@ -1,5 +1,6 @@
 # Poverty model review: scope, alternatives and later years
 
+> **October 24 adoption update:** Espen has now selected FAM-1D/AFA plus one million total new voucher awards; broader renter assistance remains an optional add-on to explore. The earlier review/comparison language below records the pre-adoption assessment. Use the [current adoption and architecture bridge](family-adoption-architecture-bridge.md) and [selected-package model results](family-comparison-model-checks.md) for current scope, funding gaps and next work.
 October 24, 2026 · Research and software update in PR #18. Source main: `31d2e584d790c6dc6e3c243e1643b1ab3a8d050e`; continues reviewed research branch head `3da255b51ba654833d29bd611d5db7c692b3eb06`. Espen approved delivery improvement as necessary in every design, a FAM-1A/FAM-1D comparison including an American Family Act analogue, and wider rental-assistance exploration. These are development directions, not adoption of an expansion, eligibility rule, indexing anchor or financing amount.
 
 ## Is something wrong with the model?
@@ -28,7 +29,7 @@ With the uploaded members, the selected comparison matrix now executes on the ac
 
 | Design and delivery | Child poverty | Deep poverty | Main interpretation |
 | --- | ---: | ---: | --- |
-| Adopted package, moderate delivery, 400,000 new voucher awards | 10.29% | 2.28% | Exact reproduction of the published calculation |
+| Previous package, moderate delivery, 400,000 new voucher awards | 10.29% | 2.28% | Exact reproduction of the published calculation |
 | AFA analogue with 2030 face amounts, moderate delivery | 9.34% | 2.13% | Larger credit plus stated alternative schedule; not benefit-size-only identification |
 | AFA analogue preserving 2025 real face amounts, moderate delivery | 8.89% | 2.03% | About 931,000 fewer poor children than the adopted moderate case; price convention remains a research branch |
 | Same real-value AFA analogue, enhanced delivery, one million voucher awards | 8.34% | 1.85% | A bounded wider-reach joint comparison; 850,000 expected leases under the scenario |
@@ -44,7 +45,7 @@ The separate [comparison adapter](../index/tools/child-poverty/comparison_analys
 
 The runnable matrix compares:
 
-- Adopted FAM-1A, preserving the original result as a reproduction gate.
+- Historical FAM-1A, preserving the original result as a reproduction gate.
 - FAM-1D represented by AFA face amounts anchored to 2030, to separate benefit size from purchasing-power assumptions.
 - An AFA annual-exposure analogue preserving those face amounts in 2025 purchasing power, plus a version without the newborn bonus.
 - Moderate, enhanced and full delivery for each design. Improved delivery is part of every design comparison, not an optional substitute for adequate benefits.

@@ -187,7 +187,7 @@ def analyze(archive=None, overlays=(), paths=None, manifest_path=None):
         stored_sha256=sha256(stored_path), source_income_year=2025,
         source_main='31d2e584d790c6dc6e3c243e1643b1ab3a8d050e',
         years=list(YEARS),valuation_year=2034,carry_forward=carry_forward(stored),
-        national_cases=None,later_path_cases=None, paths=paths,archive_sha256=None,missing='Census archive not locally available' if archive is None else None,
+        national_cases=None,later_path_cases=None,adopted_cases=None,adopted_later_path_cases=None, paths=paths,archive_sha256=None,missing='Census archive not locally available' if archive is None else None,
         code_sha256=sha256(Path(__file__)),
         dependencies_sha256={p:sha256(HERE/p) for p in ('agenda_analysis.py','model.py','agenda-assumptions.json','cps_projection.py','current_law_ctc.py','empirical/cbo-calendar-factors-2026-02.csv','empirical/cbo-child-population-2026-01.csv','empirical/cbo-ctc-parameters-2026-02.csv')},
         examples=dict(kind='Illustrative conditional tax awards only; not national outcomes',
@@ -226,7 +226,10 @@ def analyze(archive=None, overlays=(), paths=None, manifest_path=None):
             for design in ('FAM-1A','AFA_2025_real'):
                 c=calculate(design,path['delivery'],shift=path['resource_shift'])
                 later.append(dict(year=path['year'],reference_year=2034,path=path,**c))
-        out.update(national_cases=cases,later_path_cases=later,archive_sha256=sha256(archive),overlay_sha256=None,source_provenance=provenance,external_comparator=comparator,source_audit=data['audit'],legacy_moderate_reproduced=not overlays,contribution_diagnostics=contribution_diagnostics(data,spec,pop,econ))
+        selected=json.loads((HERE/'adopted-package.json').read_text())
+        adopted=[calculate(selected['credit_analogue'],d,selected['new_voucher_awards']) for d in ('moderate','enhanced','full')]
+        adopted_later=[dict(year=p['year'],reference_year=2034,path=p,**calculate(selected['credit_analogue'],p['delivery'],selected['new_voucher_awards'],p['resource_shift'])) for p in paths]
+        out.update(adopted_package=selected,adopted_package_sha256=sha256(HERE/'adopted-package.json'),adopted_cases=adopted,adopted_later_path_cases=adopted_later,national_cases=cases,later_path_cases=later,archive_sha256=sha256(archive),overlay_sha256=None,source_provenance=provenance,external_comparator=comparator,source_audit=data['audit'],legacy_moderate_reproduced=not overlays,contribution_diagnostics=contribution_diagnostics(data,spec,pop,econ))
     return out
 
 
@@ -247,6 +250,16 @@ def render(r):
         lines += ['', '| Design | Delivery | Award cap | Child poverty | Deep poverty |', '| --- | --- | ---: | ---: | ---: |']
         for c in r['national_cases']:
             lines.append(f"| {c['design']} | {c['delivery']} | {c['award_cap']:,} | {c['result']['poor_rate']*100:.2f}% | {c['result']['deep_poor_rate']*100:.2f}% |")
+    if r['adopted_cases'] is not None:
+        lines += ['', '## Adopted AFA plus one-million-award package', '',
+                  'Selected policy mapped through the annual AFA analogue. Delivery rates remain assumptions; exact monthly law and marginal funding need further work.', '',
+                  '| Delivery | Child poverty | Deep poverty |', '| --- | ---: | ---: |']
+        for c in r['adopted_cases']:
+            lines.append(f"| {c['delivery']} | {c['result']['poor_rate']*100:.2f}% | {c['result']['deep_poor_rate']*100:.2f}% |")
+    if r['adopted_later_path_cases'] is not None:
+        lines += ['', '| Adopted-package year label | Delivery | Resource stress | Same-scenario baseline | Child poverty |', '| --- | --- | ---: | ---: | ---: |']
+        for c in r['adopted_later_path_cases']:
+            lines.append(f"| {c['year']} | {c['delivery']} | {c['path']['resource_shift']:+.1%} | {c['baseline']['poor_rate']*100:.2f}% | {c['result']['poor_rate']*100:.2f}% |")
     if r['later_path_cases'] is not None:
         lines += ['', '| Year label | Design | Delivery | Threshold-resource stress | Child poverty |', '| --- | --- | --- | ---: | ---: |']
         for c in r['later_path_cases']:

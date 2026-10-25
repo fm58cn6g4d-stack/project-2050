@@ -1,6 +1,7 @@
 # Health: selected-design payment and restoration specification
 
 October 24, 2026 · Selected design merged in PR #16; bounded follow-up assessment proposed for review. No launch or fiscal certification.
+> **Current financing update:** the subsequent AFA/one-million-voucher adoption changes the project-wide fiscal margin. The regenerated health checks now show a funding gap rather than spare maturity headroom; see the [family adoption bridge](family-adoption-architecture-bridge.md). Health policy and launch dates are unchanged.
 
 **Historical Pass 2 source:** `main` at `846be172efdc0c383d5d8c24194de3704a1cbaa1`. This continues draft PR #16 at `c81b3e8a94a1f7538baf2005928440a6584ea221`, including Espen's six selections and conditions, subsequently approved “as such” with an instruction to continue. The [selection record](health-design-options.md#espens-review-selected-specifications-and-conditions) governs this draft. Earlier 2030 restoration, 2031 hearing/vision, dental from 2033 and HLT-3 2031/2032 inputs remain unchanged. Protect fast R1; no new merge or outside-contact authorization is inferred.
 

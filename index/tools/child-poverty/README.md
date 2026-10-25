@@ -1,8 +1,14 @@
 # Child-poverty microsimulation — reconstructed research tool
 
-October 24, 2026. **102 logic tests; verified CPS source-year baseline and all 160 replicates; completed conditional agenda experiments, not a future poverty forecast.** This update's source is `claude/pensive-mendel-g1lwl5` at `df2911d1ae101d6dd73a3c694c8c6874a07433af` (rebuild/baseline/preparation merged through PRs #10–12). Adopted policy and fiscal/incidence inputs are unchanged.
+October 24, 2026. **117 logic/extension tests; verified CPS source-year baseline and all 160 replicates; completed conditional agenda experiments, not a future poverty forecast.** This update's source is `claude/pensive-mendel-g1lwl5` at `df2911d1ae101d6dd73a3c694c8c6874a07433af` (rebuild/baseline/preparation merged through PRs #10–12). Adopted policy and fiscal/incidence inputs are unchanged.
 
 This rebuild uses the four local research-report exports, the three preliminary notes, the canonical rule sheet and the surviving GitHub prototype. It does **not** claim to recover the missing ZIP byte for byte. `recovered/model-upstream-8a8f4b.py` preserves the exact surviving source; its SHA-256 is `702c8e45badb933eb59851718a57dfaed7f0164e09a0961c7bdc1b9d88334bb9`.
+
+## Current policy selection: October 24
+
+Espen adopted FAM-1D/AFA and one million total new HOU-4A awards; HOU-4C remains optional broader-assistance exploration. `adopted-package.json` records the selected-policy-to-annual-analogue map, not a second policy canon. Canonical FAM/HOU and governing decisions control; the [architecture bridge](../../../sources/family-adoption-architecture-bridge.md) explains funding and upgrade limits. The existing `agenda-assumptions.json`, eight-case JSON and its report are explicitly historical FAM-1A/400,000-award experiments and remain intact for reproduction. The report renderer labels that history.
+
+`comparison_analysis.py` separately generates selected-package moderate/enhanced/full cases and later-year scenarios, with exact AFA monthly/index/ID/ODC mapping limitations visible. Delivery improvement is necessary policy design; the numerical receipt probabilities are still research assumptions. Read the selected-package section in the generated checks for current results. Exact fiscal scoring, recurring financing and a more faithful within-household incidence map remain open; positive poverty results do not satisfy D3/D4 by themselves.
 
 ## Reproduce the verification
 
@@ -12,7 +18,7 @@ Python 3.9 or later, standard library only; verified here with Python 3.12.14. F
 python3 index/tools/child-poverty/run_validation.py
 ```
 
-The runner works from other working directories too. It executes 102 unit/regression tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial. Official-data executions are separately recorded in `empirical/`.
+The runner works from other working directories too. It executes 117 unit/regression/extension tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial. Official-data executions are separately recorded in `empirical/`.
 
 The `synthetic/` JSON fixtures are inspectable and reproducible with `python3 index/tools/child-poverty/fixtures.py`. Test receipt/index/reference values are **not** production tax parameters. A full-receipt case does not create a care slot or award a voucher. Enhanced delivery may explicitly add a service that was unavailable under the supplied baseline supply assumptions.
 

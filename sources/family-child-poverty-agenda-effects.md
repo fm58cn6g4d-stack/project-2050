@@ -1,5 +1,7 @@
 # Child poverty under Project 2050: completed conditional agenda analysis
 
+> Historical pre-adoption experiment: FAM-1A and 400,000 new voucher awards. Espen subsequently adopted FAM-1D/AFA and one million awards. Use [current selected-package comparisons](family-comparison-model-checks.md) and the [adoption bridge](family-adoption-architecture-bridge.md) for current policy; the results below retain their original assumptions.
+
 October 24, 2026. Source branch claude/pensive-mendel-g1lwl5 at df2911d1ae101d6dd73a3c694c8c6874a07433af. This report records a completed static scenario analysis, not a forecast of the poverty rate in 2030 or 2034 and not a change to adopted policy.
 
 The modeled package materially reduces child poverty and deep poverty. FAM-1A supplies most of the early reduction; mature food assistance and scarce housing assistance add to it. Full modeled receipt still leaves substantial poverty. Better delivery matters, but the tested delivery improvements alone do not eliminate the remaining gap.

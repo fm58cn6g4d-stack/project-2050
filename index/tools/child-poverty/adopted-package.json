@@ -1,0 +1,14 @@
+{
+  "status": "adopted_policy_with_annual_analogue_mapping_limits",
+  "decision_date": "2026-10-24",
+  "credit_policy": "FAM-1D",
+  "credit_analogue": "AFA_2025_real",
+  "housing_policy": "HOU-4A",
+  "new_voucher_awards": 1000000,
+  "phase_in_start": 2030,
+  "phase_in_end": 2033,
+  "annual_new_awards": 250000,
+  "delivery": "Necessary in every design; moderate/enhanced/full are research assumptions, not adopted rates",
+  "optional_add_on": "HOU-4C broader assistance; not included in base; model proxy pool is not statutory eligibility",
+  "limits": "Actual AFA inflation lag/rounding, monthly child exposure, identification and tax/ODC/reconciliation rules require exact mapping. AFA_2025_real is an annual research analogue, not bill-exact law. Existing launch framework retained."
+}

@@ -13,18 +13,18 @@ All figures are ten-year totals for 2030-39 in trillions unless marked. Basis ta
 | HOU-1 | Emergency housing aid | $85B of rental and construction assistance, 2030-31 | 0.06 / 0.085 / 0.10 | R2 | ✔ | 0 | Yes |
 | HOU-2 | Housing tax credits | LIHTC beyond OBBBA, an extremely-low-income basis boost, a middle-income credit and a Neighborhood Homes credit | 0.10 / 0.15 / 0.20 | R2 | ✔ | 0 | No |
 | HOU-3 | Construction capital | About $72B of capitalization grants to state housing revolving funds (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans | 0.061 / 0.075 / 0.10 | R2 | ✔ | 0 | Partly |
-| HOU-4 | Rental assistance | 400,000 new Housing Choice Vouchers, phased in 2030-33, mandatory funding | 0.04 / 0.06 / 0.075 | R2 | ✔ | 0 | Partly |
+| HOU-4 | Rental assistance | 1,000,000 new Housing Choice Voucher awards, phased in 2030-33, mandatory funding | 0.10 / 0.15 / 0.1875 | R2 | ✔ | 0 | Partly |
 | HOU-5 | Public housing repair | Capital Fund raised from $3.2B to about $9B a year for ten years | 0.05 / 0.06 / 0.07 | R2 | ✔ | 0 | No |
 | HOU-6 | Housing Supply Fund and zoning conditions | Competitive grants for by-right multifamily, legal ADUs and lower parking minimums; conditions on new transportation and CDBG money | 0.02 / 0.03 / 0.05 | R2 (fund) + FL (conditions) | ✔ / ◐ | 3 | No |
 | HOU-7 | Institutional investor limit made permanent | Remove the ROAD Act's 15-year sunset | 0 | FL (with HOU-6) | ◐ | 0 | No |
 | HOU-8 | Social housing pilot | A mixed-income public development pilot, capitalized through HOU-3 | 0.005 / 0.01 / 0.02 | R2 | ✔ | 0 | No |
-| | **General-fund total** | | **0.34 / 0.47 / 0.62** | | | **3** | |
+| | **General-fund total** | | **0.40 / 0.56 / 0.7325** | | | **3** | |
 | HOU-9 | *Option, not chosen:* federal builder of last resort | A federal housing construction corporation with borrowing authority that builds on federal and acquired land where state and local channels fail | Subsidy cost plus operating; unscored | FL (corporation) + R2 (capital) | ◐ / ✔ | — | No |
 
-The ledger carries the reconciliation title as row HOU-1 (old E6) at **$0.47T** (range $0.34T to $0.62T), and the floor bill (HOU-6's conditions and HOU-7) as row HOU-7 at 3 floor days and no cost:
+The ledger carries the reconciliation title as row HOU-1 (old E6) at **$0.56T** (range $0.40T to $0.7325T), and the floor bill (HOU-6's conditions and HOU-7) as row HOU-7 at 3 floor days and no cost:
 - **HOU-3C:** most of the construction capital is federal direct loans, which score at their subsidy cost only: about $0.075T, against $0.25T for an all-grant fund of Bill Book 12's size (HOU-3A).
 - **HOU-2:** about $0.15T (estimate).
-- **Borrowing (D4-B envelope):** C21 finances HOU-3's state capitalization grants (about $0.06T) and C31 finances HOU-5's public housing repair (about $0.06T), both as time-limited capital (accepted, Decision Brief 1). The rest, about $0.35T, is a general-fund claim.
+- **Borrowing (D4-B envelope):** C21 finances HOU-3's state capitalization grants (about $0.06T) and C31 finances HOU-5's public housing repair (about $0.06T), both as time-limited capital (accepted, Decision Brief 1). The rest, about $0.44T, is a general-fund claim. The additional vouchers are permanent assistance and are not added to the capital borrowing lines.
 
 ## Where things stand (world state, Oct 2026)
 
@@ -115,19 +115,17 @@ The ledger carries the reconciliation title as row HOU-1 (old E6) at **$0.47T** 
 
 ## HOU-4. Rental assistance
 
-**Design.** 400,000 new Housing Choice Vouchers (Bill Book 12), phased in at 100,000 a year over 2030-33. They are funded as mandatory spending through R2 so the new vouchers do not depend on annual appropriations (durability rule), and they are targeted to extremely-low-income households on waiting lists. Each housing agency gets administrative fees to match, since voucher success rates fall when agencies are understaffed.
+**Design (Espen, October 24).** One million total new voucher awards, replacing the earlier 400,000, with mandatory funding. Preserve the 2030–33 phase-in window, implying 250,000 new awards annually, and continuing assistance thereafter. Target extremely-low-income renter households under the existing HOU-4A framework; successful lease-up is separate from an award. Fund agency capacity and pair demand with the adopted supply/repair/capital agenda. Delivery probabilities in the model are research assumptions, not adopted quotas or proof of feasible leases.
 
-**Cost.** About $0.06T, range $0.04T to $0.075T. The basis is about $15,200 per voucher-year (scaled from $34.9B of FY2026 renewals over about 2.3 million vouchers), grown about 3% a year, with the phase-in and fees (estimate).
-
-**Options.**
+**Working cost:** $0.10 / $0.15 / $0.1875T over 2030–39, scaling the old range by 2.5 for the same phase-in window. The midpoint increment is $90B and appears once inside ledger HOU-1. The existing $15,200 FY2026 voucher-year basis and 3% growth are planning inputs; actual rents, administration, lease-up, federal shares and supply require a score. Preserve the legacy housing title's fiscal path and treat the added assistance as fully permanent through the component bridge. Do not apply the title's 55% aggregate continuation haircut to the new vouchers.
 
 | Option | Design | Cost | Basis |
 | --- | --- | --- | --- |
-| HOU-4A (chosen) | 400,000 vouchers, mandatory | 0.06 | scaled |
-| HOU-4B | 400,000 vouchers through appropriations (inside D9-style annual funding) | 0.06, less durable | scaled |
-| HOU-4C | A phased entitlement for every extremely-low-income renter household | Several hundred billion over 2030-39 (estimate; not looked up) | Needs a score; would be the largest single housing claim |
+| HOU-4A (chosen; amended October 24) | One million new awards, mandatory, phased 2030–33 | 0.10 / 0.15 / 0.1875 | rough scale of prior working estimate |
+| HOU-4B | Appropriated assistance alternative | Needs scope-aligned update | Not selected; less durable |
+| HOU-4C (optional add-on to explore) | Broader assistance potentially reaching all proxy-eligible renters | Rough total assistance order $0.8–1.3T; not an incremental score | Model proxy pool is not statutory eligibility; no entitlement, financing or rollout adopted |
 
-**Why A.** It moves toward an entitlement without committing to one. C is the long-run goal Bill Book 12 named ("toward an entitlement"). It belongs on the options list until the revenue file shows room.
+The previous 400,000-award package remains a historical comparator. Espen is open to a bolder feasible rental design, but HOU-4C is not included in the adopted base or summed into its costs. Any add-on must count only expansion beyond the one-million base, specify actual eligibility, establish supply/landlord participation and return financing for decision. See the [adoption bridge](../sources/family-adoption-architecture-bridge.md).
 
 ## HOU-5. Public housing repair
 

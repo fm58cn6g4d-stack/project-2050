@@ -37,6 +37,24 @@ The runnable alternative matrix holds 2034 valuation and population fixed across
 | FAM-1A | enhanced | 6,755,114 | 7.52% | 1.34% |
 | AFA_2025_real | enhanced | 6,755,114 | 6.32% | 1.16% |
 
+## Adopted AFA plus one-million-award package
+
+Selected policy mapped through the annual AFA analogue. Delivery rates remain assumptions; exact monthly law and marginal funding need further work.
+
+| Delivery | Child poverty | Deep poverty |
+| --- | ---: | ---: |
+| moderate | 8.73% | 1.97% |
+| enhanced | 8.34% | 1.85% |
+| full | 8.09% | 1.78% |
+
+| Adopted-package year label | Delivery | Resource stress | Same-scenario baseline | Child poverty |
+| --- | --- | ---: | ---: | ---: |
+| 2034 | moderate | +0.0% | 13.40% | 8.73% |
+| 2040 | enhanced | +0.0% | 13.40% | 8.34% |
+| 2050 | full | +0.0% | 13.40% | 8.09% |
+| 2050 | full | -5.0% | 15.35% | 9.44% |
+| 2050 | full | +5.0% | 11.66% | 6.88% |
+
 | Year label | Design | Delivery | Threshold-resource stress | Child poverty |
 | --- | --- | --- | ---: | ---: |
 | 2034 | FAM-1A | moderate | +0.0% | 10.29% |

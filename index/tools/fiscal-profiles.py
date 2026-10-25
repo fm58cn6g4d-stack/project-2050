@@ -41,3 +41,11 @@ for r in read("fiscal-profiles.csv"):
 
 # Explicit year-by-year paths that override a profile (billions, 2030-39)
 YEARS = {r["id"]: [num(r[f"y{y}"]) for y in range(2030, 2040)] for r in read("fiscal-years.csv")}
+
+# An aggregate bill can contain different permanent/growth paths. Amounts are
+# disjoint ledger shares, not additional rows of spending.
+COMPONENTS = {}
+for r in read("fiscal-components.csv"):
+    p={"cat":r["cat"], "start":num(r["start"]), "ramp":num(r["ramp"]),
+       "grow":r["grow"], "perm":num(r["perm"]), "basis":r["basis"]}
+    COMPONENTS.setdefault(r["owner"],[]).append((r["component"],num(r["mid10"]),p))

@@ -20,6 +20,7 @@ cd "$BUILD"
 echo "== 0. transportation";    python3 "$TOOLS"/transportation/test_moving_america.py --quiet
                                 python3 "$TOOLS"/transportation/report.py --json "$BUILD"/moving-america.json >/dev/null
 echo "== 0a. ledger precision"; python3 "$TOOLS"/test_ledger_rounding.py
+echo "== 0b. fiscal components"; python3 "$TOOLS"/test_fiscal_components.py
 echo "== 1. ledger";            python3 ledger-build.py >/dev/null
 echo "== 2. floor paths";       python3 ledger-paths.py >/dev/null
 echo "== 2a. scenario calendar"; python3 "$TOOLS/calendar/test_model.py"; python3 "$TOOLS/calendar/build.py"

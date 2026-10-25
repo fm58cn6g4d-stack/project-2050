@@ -171,7 +171,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 
 | ID | What | Cost (total) | Status |
 | --- | --- | --- | --- |
-| FAM-1A / 1B / 1C / 1D | CTC: 2021 design monthly / supplement / refundability only / 2025 AFA | chosen / ~0.45 / 0.3-0.5 / ~1.7 | A chosen |
+| FAM-1A / 1B / 1C / 1D | CTC: prior 2021 design / supplement / refundability only / American Family Act | historical 1.5 / ~0.45 / 0.3-0.5 / working 1.7–2.1 | D chosen October 24; A retained as alternative |
 | FAM-2A / 2B / 2C / 2D | Child care: phased / full cap 2030 / pre-K only / A with omnibus pre-K standards | chosen / 0.9 / 0.2-0.3 / ~+0.1-0.2 | A chosen; 2D can stack on A |
 | FAM-3A / 3B / 3C / 3D / 3E | Paid leave: 0.6% with step-up / general fund / 4 weeks / 0.85% from start / open backstop | chosen / 0.9 / ~0.3 / below 0 / ~0 | A chosen |
 | FAM-4 | Pointer to domain-education.md | — | Pointer |
@@ -227,7 +227,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | HOU-1A / 1B / 1C | Emergency aid in R2 / in R1 / rental only | 0.085 / same / 0.04 | A chosen |
 | HOU-2A / 2B / 2C | Credits: all three / LIHTC only / Neighborhood Homes only | — / 0.08-0.12 / 0.02-0.03 | A chosen |
 | HOU-3A / 3B / 3C / 3D | Supply finance: $250B grants / loans / ~$72B grants plus loans / split | — / ~0.03 / ~0.075 / ~0.14 | C chosen; **C21 accepted** (borrowing) |
-| HOU-4A / 4B / 4C | Vouchers mandatory / appropriated / entitlement | — / 0.06 / several hundred $B | A chosen |
+| HOU-4A / 4B / 4C | One million mandatory awards / appropriated alternative / broader renter assistance | 0.10–0.1875 / update needed / unscored broader add-on | A amended/adopted October 24; C optional exploration only |
 | HOU-5 / 5B | Public housing repair / Faircloth repeal | 0.06 | Chosen; **C31 accepted** (borrowing) |
 | HOU-7 / 7B | Investor limit permanent / leave ROAD as enacted | 0 | Chosen |
 | HOU-9A / 9B / 9C | Federal builder: authorize with pilot / fold into HOU-8 / none | unscored | Option (Talarico) |
@@ -376,7 +376,7 @@ Canonical until converted to a domain file. Its options are not yet given domain
 | Calendar C / related mergers | Development approved, specific mergers and durations unchosen | Governing D1/D5; sources/calendar-c-development.md. MOV-31 remains second Congress, no new first-Congress saving; retain CLI-7 fallback and explicit reserve. No new ledger option is summed. |
 | Registration service | Assisted floor and conditional automatic development approved | DEM-1E/F remain governing; health dates unchanged. No assisted-only endpoint adopted; no cost input changed. |
 | Title III modules | Parallel drafting/review approved | DEM-1 restoration retained; DEM-1A/DEM-2A unchanged; narrower modules not equivalent substitutes; DEM-2E open. Local packet labels are not new policy IDs. |
-| Child-poverty alternatives | Research findings received, design choices unadopted | FAM-1D, HOU-4C and eligibility/delivery alternatives stay with their existing domain homes; no summed poverty effects or new residual-supplement policy ID. FAM-2 provenance and EDU-3 costing basis remain questions. |
+| Family package, October 24 | FAM-1D and one million HOU-4A awards adopted | Core IDs FAM-1/HOU-4 retained; housing cost appears once inside HOU-1. HOU-4C remains optional broader assistance exploration, additional only beyond the adopted million. Exact model/legal mapping and permanent financing open; no summed poverty effects. FAM-2 provenance and EDU-3 costing basis remain questions. |
 
 Source identities, source roles and the completed-report/preliminary-filename discrepancy are recorded in sources/project-2050-research-register.md. Pending input/generator reconciliation is explicit in sources/post-pilot-integration-handoff.md.
 
