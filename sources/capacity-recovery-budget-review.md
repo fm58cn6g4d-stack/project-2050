@@ -2,6 +2,8 @@
 
 **Status:** review-ready, revised Oct 26 after Codex's review of 762b9b3 (Claude Code; branch `claude/pensive-mendel-g1lwl5` from main 7bddcb1, PR #22).
 
+**Round 2 (Oct 26):** the other CAP-7 agencies are in [capacity-recovery-other-agencies-review.md](capacity-recovery-other-agencies-review.md). Its summary across all 28 agencies supersedes this file's four-agency totals and remainder. It keeps the $300B sustained envelope and, after pricing three items, recommends a surge of about $105B (Espen's decision).
+
 **What this is.** Evidence and a recommended allocation. Nothing here is adopted. Data: [capacity-recovery-components.csv](capacity-recovery-components.csv). Arithmetic: `python3 index/tools/capacity-review/review.py` (add `--json` for the numbers). The script only reads.
 
 **Scope.** It tests the approved envelopes in `index/data/inputs/recovery-adoption.json` against real budgets, staffing and agenda workload at four agencies. The envelopes are:
