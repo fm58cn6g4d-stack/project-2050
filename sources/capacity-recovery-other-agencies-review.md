@@ -1,10 +1,10 @@
 # Capacity recovery review, round 2: the other agencies and the scope of capacity
 
-**Status:** review-ready, revised Oct 26 after Espen's questions (Claude Code; branch `claude/pensive-mendel-g1lwl5` from main aa8552d, PR #23). Evidence and recommendations.
+**Status:** review-ready, revised Oct 26 after Espen's questions and the pricing of three surge items (Claude Code; branch `claude/pensive-mendel-g1lwl5` from main aa8552d, PR #23). Evidence and recommendations.
 
 Two items are decided under the project-coworker delegation, and are marked as such: how the development agency's spending is categorized, and how SSA's added staff are financed. **Espen accepted DEV-P and SSA administration of paid leave on Oct 26** (governing record). Nothing else here is adopted.
 
-- **Data:** [capacity-recovery-components.csv](capacity-recovery-components.csv), 197 rows.
+- **Data:** [capacity-recovery-components.csv](capacity-recovery-components.csv), 200 rows.
 - **Arithmetic:** `python3 index/tools/capacity-review/review.py`, which reads only.
 - **Units:** $B, nominal, midpoint with the range in brackets. Round 1 (IRS, CMS, HUD, Education) is [capacity-recovery-budget-review.md](capacity-recovery-budget-review.md).
 
@@ -26,8 +26,8 @@ Two items are decided under the project-coworker delegation, and are marked as s
 - **Paid-leave administration.** The funds model counts about $0.9T of *benefits* over FY2030-39 but no cost of administering them. Proposed: **about $30B of administration, charged to the leave fund**, roughly $3-4B a year once mature.
   - **Claim-volume check.** Mature benefits of about $120B a year at $6,000-10,000 per claim mean about 12-20 million claims a year. At $150-350 of processing per claim, that is about $2-7B a year, or 1.5-6% of benefits.
   - **Comparison.** That is a fraction of SSA's $14.8B administrative budget. Short, frequent leave claims with medical certification cost more per benefit dollar than pensions do.
-- **State and local implementation grants (CAP-13).** Estimated at $0.03T but in no total. Proposed: **count $30B inside the surge.**
-- **Still unpriced:** Medicare claims operations for HLT-2's new benefits; FEMA's future-conditions flood mapping; and USDA conservation delivery, needed only if CLI-13 is chosen.
+- **State and local implementation grants (CAP-13).** Estimated at $0.03T but in no total. After the overlap check (below): **count about $8B inside the surge.**
+- **Unpriced at first, now priced (below):** Medicare claims operations for HLT-2's new benefits and FEMA's future-conditions flood mapping. Still unpriced: USDA conservation delivery, needed only if CLI-13 is chosen.
 
 The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth program-row cost already found.
 
@@ -73,38 +73,56 @@ The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth progra
 - **What it changes.** CAP-7 should carry only the general-fund share of SSA's increase. The SSA figures in the table are gross, so the general-fund sustained claim is lower than shown by the OASDI and Medicare shares. The current split by source was not found; Codex should take it from SSA's budget.
 - **Recommended, not decided: who runs paid leave.** SSA should administer paid leave on the FAMILY Act model, financed by the leave fund on the same principle.
 
-## Refined surge recommendation (no change yet)
+## Surge recommendation, after pricing the three items (Oct 26)
 
-All 32 entities in the review (the 28 agencies, the paid-leave administrator and the three shared lines) now need:
-- **surge: about $72B (range $43-121B);**
-- **sustained: about $252B (range $160-347B).**
+**The three items Espen asked to price:**
+
+| Item | What it costs | Where it sits | Effect on the surge |
+| --- | --- | --- | --- |
+| **HLT-2 claims and contractor operations** | Build about $1B (inside CMS's existing $8B launch surge). Recurring about $0.25B a year (range $0.15-0.4B) from 2031 | Build: CMS surge, unchanged. Recurring: new CMS sustained row, paid through the SMI trust fund | None. Sustained +$2.9B |
+| **CLI-7 future-conditions flood mapping** | Completion about $9B (range $4-15B). Maintenance about $0.1B a year above the current program | FEMA. Completion is a finite federal data build with a return case, so it sits in the surge | **+$9B** |
+| **CAP-13 overlap check** | Residual about $8B (range $4-15B), down from the unsourced $30B | Surge (state and local implementation) | **-$22B** |
+
+- **HLT-2.** The new benefits add about 85 million traditional-Medicare claims a year: dental about 40M, vision about 40M, hearing about 5M. Medicare Advantage enrollees get these benefits through their plans' bids. That is about 7% more claims on a contractor base that costs about $0.72B a year to process 1.2-1.3B claims, so processing itself is cheap. Most of the recurring cost is enrolling and screening dentists, optometrists and audiologists, plus appeals, beneficiary calls and dental fraud control. It is far smaller than the round 1 worry.
+- **Flood mapping.** ASFPM's 2020 estimate is $3.2-11.8B to complete the nation's flood maps, scaled about 30% to 2030 dollars. FY2026 mapping partner grants allow no new map starts.
+- **CAP-13.** Most state work is already funded inside the program rows:
+  - elections: DEM-11;
+  - Medicaid eligibility: the federal administrative match, which CBO's Medicaid scores include;
+  - child care: state administration is likely inside FAM-2's allotments, on the existing child care block grant model;
+  - Title I and IDEA: their state set-asides;
+  - housing finance agencies: their fees;
+  - paid-leave partnerships: the leave fund.
+
+  What remains is cross-program state eligibility and integration systems, pre-launch planning before program money flows, and direct local grants where a state opts out (FAM-2D).
+
+**All entities now need:**
 
 | Layer | Surge | Sustained, FY2030-39 |
 | --- | --- | --- |
 | Restore 2025-26 losses | 9.4 (5.6-15.4) | 177.2 (120.2-227.4) |
-| Pre-2025 shortfalls | 16.9 (9.5-27.2) | 10.1 (4.3-16.7) |
-| Agenda work | 45.2 (27.8-78.1) | 64.1 (35.4-103.3) |
-| **Total** | **71.5 (42.9-120.7)** | **251.5 (159.8-347.4)** |
+| Pre-2025 shortfalls | 25.9 (13.5-42.2) | 11.4 (4.3-20.5) |
+| Agenda work | 23.2 (11.8-43.1) | 67.0 (37.1-107.9) |
+| **Total** | **58.5 (30.9-100.7)** | **255.6 (161.6-355.7)** |
 
-**Hold the surge at $300B for now.** A smaller surge looks likely, but three pending items could still move it, so price them before resizing:
-1. **CMS claims and contractor systems for HLT-2's new benefits,** the largest unpriced build.
-2. **CLI-7's flood-mapping score.** If it lands in FEMA's capacity instead of CLI-7's program cost, it adds to the surge.
-3. **The CAP-13 overlap check** against the child care, Medicaid-match and DEM-11 administration allowances. That could move the $30B either way.
+**Recommendation: size the surge (CAP-7S) at about $110B.** Espen's decision; the $300B stays until he decides.
+- **Why $110B.** It covers the high case ($101B) plus about $10B for the remaining unpriced builds: the IRS's dividend system and mark-to-market unit, and HUD's ROAD Act programs.
+- **The rest of the $300B ($242B at the midpoint) has no identified use.** If Espen wants a margin for needs nobody has written down, a named contingency of a stated size is better than an unallocated balance.
+- **Effect.** About $190B less borrowing inside the D4-B investment envelope, mostly FY2030-35. FY2040 is unaffected, because the surge ends.
+- **What the surge holds now.** The pre-2025 layer is now the largest part: modernization at the IRS, SSA and student aid, flood maps, and backlogs.
 
-Also unpriced are the IRS's dividend system and mark-to-market unit and HUD's ROAD Act programs, which are probably a few billion dollars together.
+**Sustained: keep $300B.**
+- **Headroom.** About $44B against the midpoint; the high case ($356B) exceeds it.
+- **General-fund share.** It is lower than shown once SSA's trust-fund shares move out. The new HLT-2 row is paid through the SMI trust fund, three-quarters general revenue.
+- It fits, but not loosely.
 
-**Once those are priced,** the evidence points to a surge of about **$125B** (the high case of $121B plus room for those items). The rest of the $300B ($228B at the midpoint today) has no identified use.
-
-**Sustained: keep $300B.** It now has $48B of headroom against the midpoint, but the high case ($347B) exceeds it. The general-fund share is lower than shown once SSA's trust-fund shares move out, and the headroom also has to cover HLT-2's recurring claims operations. It fits; it is not loose.
-
-**FY2029.** Cash for all agencies is about $1.7B (range $0.5-4.5B) against the $10B shifted into FY2029, so a $5B shift is enough. Hold this with the surge decision.
+**FY2029.** Cash for all agencies is about $1.7B (range $0.5-4.5B), so a $5B shift (from $10B) is enough. Decide it with the surge.
 
 ## All entities
 
 | Entity | Surge | Sustained, FY2030-39 | Total | FY2040 run rate | Old split |
 | --- | --- | --- | --- | --- | --- |
 | IRS | 9.0 | 92.4 | 101.4 (63.7-130.2) | 12.2 | 236.2 |
-| CMS | 8.0 | 14.5 | 22.5 (12.5-35.8) | 1.9 | 90.8 |
+| CMS | 8.0 | 17.4 | 25.4 (14.3-40.4) | 2.3 | 90.8 |
 | HUD | 2.8 | 10.4 | 13.2 (8.6-20.4) | 1.3 | 81.8 |
 | ED | 2.3 | 8.3 | 10.6 (5.8-15.5) | 1.1 | 72.7 |
 | SSA (gross; mostly trust-fund financed) | 3.9 | 31.0 | 34.9 (19.5-49.8) | 4.0 | 99.9 |
@@ -112,7 +130,7 @@ Also unpriced are the IRS's dividend system and mark-to-market unit and HUD's RO
 | Development agency (capacity only; programs in DEV-P) | 4.0 | 24.7 | 28.7 (24.0-33.8) | 3.2 | 109.0 |
 | State (diplomacy) | 0.5 | 11.4 | 11.9 (6.6-18.7) | 1.5 | 14.5 |
 | CDC | 1.5 | 7.6 | 9.1 (5.4-15.7) | 1.0 | 27.2 |
-| FEMA | 1.0 | 11.7 | 12.7 (8.5-18.0) | 1.5 | 14.5 |
+| FEMA (includes flood maps) | 10.0 | 13.0 | 23.0 (12.5-36.8) | 1.7 | 14.5 |
 | NOAA | 0.9 | 7.6 | 8.5 (6.2-12.9) | 1.0 | 72.7 |
 | FTA (Moving America funds it from 2031) | 0.15 | 0 | 0.15 | 0 | 54.5 |
 | EPA | 0.2 | 1.8 | 2.0 (1.1-3.4) | 0.2 | 9.1 |
@@ -132,10 +150,10 @@ Also unpriced are the IRS's dividend system and mark-to-market unit and HUD's RO
 | USDA FNS | 0 | 0.4 | 0.4 (0.1-0.8) | 0.0 | — |
 | Treasury Fiscal Service | 0.3 | 0.6 | 0.9 (0.4-1.9) | 0.1 | — |
 | Commerce BIS | 0 | 0.6 | 0.6 (0.3-1.3) | 0.1 | — |
-| State and local implementation (CAP-13) | 30.0 | 0 | 30.0 (20.0-50.0) | 0 | in no total |
+| State and local implementation (CAP-13, residual) | 8.0 | 0 | 8.0 (4.0-15.0) | 0 | in no total |
 | Digital service corps (CAP-12) | 0.5 | 3.2 | 3.7 (2.2-6.1) | 0.4 | — |
 | Inspectors general and GAO oversight | 0.6 | 0 | 0.6 (0.4-1.0) | 0 | — |
-| **All** | **71.5 (42.9-120.7)** | **251.5 (159.8-347.4)** | **323.0 (202.8-468.1)** | **32.6** | 1,079 |
+| **All** | **58.5 (30.9-100.7)** | **255.6 (161.6-355.7)** | **314.1 (192.5-456.4)** | **33.1** | 1,079 |
 
 **Program-row costs this review found (outside CAP; each needs its owner):**
 
@@ -145,7 +163,7 @@ Also unpriced are the IRS's dividend system and mark-to-market unit and HUD's RO
 | Paid-leave administration | FAM-3 and the leave fund | $30B ($18-60B) | Leave fund |
 | Voucher administrative fees (round 1) | HOU-4, inside HOU-1 | $12.2B ($8.1-15.2B) | General fund |
 
-**Midpoint sustained path, $B nominal FY2030-39:** 10.4, 17.9, 24.1, 25.6, 26.5, 27.4, 28.4, 29.4, 30.4, 31.5.
+**Midpoint sustained path, $B nominal FY2030-39:** 10.4, 18.1, 24.5, 26.0, 27.0, 27.9, 28.9, 29.9, 30.9, 32.0.
 
 ## Agency notes (changes since the first round 2 draft)
 
@@ -168,7 +186,7 @@ Also unpriced are the IRS's dividend system and mark-to-market unit and HUD's RO
    - Add **DEV-P** as a general-fund program row with its path, and record its financing need under D4-B.
    - Add **paid-leave administration** to the leave-fund model, at about 3% of benefits plus start-up.
    - Carry **SSA's OASDI and HI shares** of the restoration in the funds model and only the general-fund share in CAP-7.
-   - **No change to `cap_surge_tn`, `cap_sustained_tn` or `early_admin_bn` yet**, pending Espen's surge decision.
+   - **If Espen accepts:** `cap_surge_tn` 0.3 → about 0.11 and `early_admin_bn` 10 → 5. `cap_sustained_tn` stays 0.3. No change until he decides.
 2. **Housing owner:** the HOU-4 fee correction from round 1.
 3. **Governing record, on Espen's acceptance:**
    - Record the two delegated decisions: development-agency categorization and SSA financing.
@@ -185,6 +203,11 @@ Also unpriced are the IRS's dividend system and mark-to-market unit and HUD's RO
 - **Not an official score.**
 
 ## Sources (added in this revision)
+
+- ASFPM, [Flood Mapping for the Nation (2020)](https://www.floods.org/asfpm-history-ctp/2020-flood-mapping-for-the-nation/).
+- [ASFPM on FEMA flood map funding](https://www.floods.org/annual-legislative-activities/asfpm-makes-case-for-fema-flood-map-funding-in-letter-to-omb/).
+- HFMA, [CMS FY2026 budget (MAC claims processing)](https://www.hfma.org/payment-reimbursement-and-managed-care/more-details-on-hhs-budget-proposals-for-fy26/).
+- CMS, [FY2026 Program Management operating plan](https://www.cms.gov/files/document/fy-2026-program-management-operating-plan.pdf).
 
 - CRS, [NOAA FY2026](https://www.everycrsreport.com/files/2026-03-12_IF13024_eb7ce330a93e719e4ae88b7880d3a76d47b0721b.html).
 - E&E News, [NOAA early retirements](https://www.eenews.net/articles/more-than-1000-noaa-staffers-take-early-retirement/).
