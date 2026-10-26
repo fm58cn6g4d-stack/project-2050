@@ -66,3 +66,8 @@ Initial candidates for comparison are the proposed capacity surge reduction; cli
 A reconciled revenue inventory with primary-source vintages and overlap treatment; three annual financing cases; household cells covering workers, nonworkers, retirees, disability, self-employment and family types; three costed spending packages; and a recommendation explaining which combination best serves the goals. The education current-law/care boundary and early IDEA ramp belong in that accounting, not in a separate fund exercise.
 
 The unresolved judgment for Espen will be the desired balance of breadth, benefit generosity, timing and financing—not whether an opaque solver found another tax rate. I will distinguish demonstrated results from assumptions, identify commitments that fail under adverse conditions, and recommend a package rather than leave an undifferentiated menu.
+
+
+## Treasury actuals evidence route
+
+The [Treasury snapshot adapter](../index/tools/treasury-data/README.md) prepares MTS table-1 retrieval with exact request provenance, raw metadata and completeness checks. Its request contract was checked against the [supplied Treasury API documentation](treasury-fiscal-data-api-documentation-2026-10-26.pdf). Live access returned a proxy 403, so no actual observations have been imported. Successful retrieval and reconciliation to published MTS totals remain required before using this evidence in the budget. Later receipts/agency tables can support the current-law inventory after their dictionaries are verified. MTS execution data cannot independently score tax reform or replace the forward CBO baseline.
