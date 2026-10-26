@@ -195,6 +195,154 @@ class FakeGitHub:
         raise AssertionError(path)
 
 
+class Retry(unittest.TestCase):
+    """GitHub.call against a fake urlopen. Each scripted step is 200, an HTTP error code, an exception raised
+    by urlopen(), or ('read', exc) for an exception raised while reading the response body."""
+
+    def setUp(self):
+        import urllib.request
+        self.urlopen, self.delays = urllib.request.urlopen, g.RETRY_DELAYS
+        g.RETRY_DELAYS = (0, 0)
+
+    def tearDown(self):
+        import urllib.request
+        urllib.request.urlopen, g.RETRY_DELAYS = self.urlopen, self.delays
+
+    def fake(self, steps):
+        import io, urllib.error, urllib.request
+        calls = []
+
+        class Resp(io.BytesIO):
+            def __init__(self, fail=None):
+                super().__init__(b'{"ok": true}')
+                self.fail = fail
+            def __enter__(self): return self
+            def __exit__(self, *a): return False
+            def read(self, *a):
+                if self.fail:
+                    raise self.fail
+                return super().read(*a)
+
+        def urlopen(req):
+            calls.append(req.get_method())
+            step = steps[len(calls) - 1]
+            if isinstance(step, tuple):
+                return Resp(fail=step[1])
+            if isinstance(step, BaseException):
+                raise step
+            if step != 200:
+                raise urllib.error.HTTPError(req.full_url, step, "err", {}, io.BytesIO(b"{}"))
+            return Resp()
+        urllib.request.urlopen = urlopen
+        return calls
+
+    def call(self, method="GET", path="/pulls/1"):
+        return g.GitHub("o/r", "t").call(method, path, {} if method != "GET" else None)
+
+    def test_retries_server_errors_then_succeeds(self):
+        calls = self.fake([502, 503, 200])
+        self.assertEqual(self.call(), {"ok": True})
+        self.assertEqual(len(calls), 3)
+
+    def test_gives_up_after_retries(self):
+        self.fake([502, 502, 502])
+        with self.assertRaises(RuntimeError):
+            self.call()
+
+    def test_client_errors_are_not_retried(self):
+        calls = self.fake([404])
+        with self.assertRaises(RuntimeError):
+            self.call()
+        self.assertEqual(len(calls), 1)
+
+    def transport_errors(self):
+        import http.client, urllib.error
+        return [urllib.error.URLError("refused"), http.client.RemoteDisconnected("closed"),
+                ConnectionResetError("reset"), TimeoutError("slow")]
+
+    def test_transport_failures_recover(self):
+        import http.client
+        for exc in self.transport_errors():
+            calls = self.fake([exc, 200])
+            self.assertEqual(self.call(), {"ok": True}, exc)
+            self.assertEqual(len(calls), 2)
+        # Failures while reading the body of an opened response.
+        for exc in (http.client.IncompleteRead(b"par"), ConnectionResetError("reset mid-body")):
+            calls = self.fake([("read", exc), 200])
+            self.assertEqual(self.call(), {"ok": True}, exc)
+            self.assertEqual(len(calls), 2)
+
+    def test_transport_failures_exhaust(self):
+        import http.client
+        for exc in self.transport_errors():
+            calls = self.fake([exc, exc, exc])
+            with self.assertRaises(RuntimeError):
+                self.call()
+            self.assertEqual(len(calls), 3)
+        calls = self.fake([("read", http.client.IncompleteRead(b"x"))] * 3)
+        with self.assertRaises(RuntimeError):
+            self.call()
+        self.assertEqual(len(calls), 3)
+
+    def test_other_exceptions_are_not_caught(self):
+        self.fake([ValueError("bug")])
+        with self.assertRaises(ValueError):
+            self.call()
+
+    def test_new_comments_are_not_retried(self):
+        calls = self.fake([502, 200])
+        with self.assertRaises(RuntimeError):
+            self.call("POST", "/issues/1/comments")
+        self.assertEqual(len(calls), 1)
+
+    def test_repeatable_calls(self):
+        self.assertTrue(g.repeatable("GET", "/pulls/1"))
+        self.assertTrue(g.repeatable("POST", "/statuses/abc"))
+        self.assertTrue(g.repeatable("POST", "/issues/1/labels"))
+        self.assertTrue(g.repeatable("PATCH", "/issues/comments/9"))
+        self.assertTrue(g.repeatable("PUT", "/pulls/1/merge"))
+        self.assertFalse(g.repeatable("POST", "/issues/1/comments"))
+        self.assertFalse(g.repeatable("POST", "/issues"))
+
+    def test_delete_already_done_counts_as_done(self):
+        calls = self.fake([502, 404])
+        self.assertIsNone(self.call("DELETE", "/issues/1/labels/tier-2"))
+        self.assertEqual(len(calls), 2)
+
+
+class MergePatience(unittest.TestCase):
+    class GH:
+        """Fake GitHub: PUT raises the scripted errors in turn; GET reports whether the PR is merged."""
+        def __init__(self, errors, merged_after_error=False):
+            self.errors, self.merged_after_error, self.puts = list(errors), merged_after_error, 0
+
+        def call(self, method, path, data=None):
+            if method == "GET":
+                return {"merged": self.merged_after_error}
+            self.puts += 1
+            if self.errors:
+                raise RuntimeError(self.errors.pop(0))
+            return {"merged": True}
+
+    PENDING = 'PUT /pulls/1/merge: 405 {"message":"Repository rule violations found 2 of 3 required status checks are pending."}'
+
+    def test_waits_for_statuses_to_register(self):
+        gh = self.GH([self.PENDING, self.PENDING])
+        self.assertEqual(g.merge_with_patience(gh, 1, {}, delays=(0, 0, 0)), {"merged": True})
+        self.assertEqual(gh.puts, 3)
+
+    def test_other_refusals_fail_at_once(self):
+        gh = self.GH(['PUT /pulls/1/merge: 405 {"message":"Pull Request is not mergeable"}'])
+        with self.assertRaises(RuntimeError):
+            g.merge_with_patience(gh, 1, {}, delays=(0, 0))
+        self.assertEqual(gh.puts, 1)
+
+    def test_merge_applied_before_an_error_is_success(self):
+        gh = self.GH(["PUT /pulls/1/merge: 502 {}"], merged_after_error=True)
+        self.assertEqual(g.merge_with_patience(gh, 1, {}, delays=(0,)), {"merged": True})
+        self.assertEqual(gh.puts, 1)
+
+
 class Digest(unittest.TestCase):
     def test_digest_lists_merged_and_waiting(self):
         old, os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_TOKEN"] = g.GitHub, "o/r", "x"
