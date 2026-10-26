@@ -1,6 +1,6 @@
 # Climate and grid portfolio allocation
 
-**Context.** Claude Code, October 26, 2026 (second round, same day). Policy IDs: CLI-1 to CLI-13, REV-C1/C2/C3, CLI-2, Moving America's fuel steps (D7), CAP-7. Source base: `main` at `77f8a5e551367a52319e5323e8a33789894ebc67`; branch `claude/climate-portfolio`, PR #26. Status: completed for review, not merged.
+**Context.** Claude Code, October 26, 2026 (second round, updated after Espen approved the $150-by-2037 price and immediate funding of the fuller disaster tier). Policy IDs: CLI-1 to CLI-13, REV-C1/C2/C3, CLI-2, Moving America's fuel steps (D7), CAP-7. Source base: `main` at `77f8a5e551367a52319e5323e8a33789894ebc67`; branch `claude/climate-portfolio`, PR #26. Status: completed for review, not merged.
 
 **What's new in this round.** It follows Espen's direction: higher climate goals; grid payment that can include borrowing, direct loan authority and contract authority; lower borrowing kept where possible; credit caps or phase-downs if warranted; pricing everything; and optimizing packages rather than single policies. It adds:
 - a search of every combination of ten levers (4,608 packages);
@@ -32,12 +32,14 @@ Nothing here changes an adopted input or a shared generated output. The proposed
    - the carbon fee extended to industrial process emissions;
    - clean-energy credits redesigned to step down as those standards and the grid take over.
 
-   In the model it reaches 47% below 2005 in 2035, 60% in 2040 and 70% in 2050, against the decided package's 43%, 54% and 64%. Farms, forests and carbon removal (CLI-13, estimated outside the model) add about 2 points in 2035 and 8 in 2050. It **saves** about $71B in modeled outlays over 2030-39, and it still reaches 65% in 2050 after a 2037 repeal, against 58% for the decided package.
-2. **Yes, the credits should step down on a timeline.** Every efficient package redesigns them. The schedule is below. In ledger terms the redesign saves about $0.18-0.35T nominal over 2030-39 inside Package A. That pays for the low-income retrofits, disaster preparedness's permanent pieces and LMI bill protection, and still leaves a net permanent saving.
+   It now includes the carbon price Espen approved on October 26 ($150 a ton by 2037, up from $100, keeping D7's low start).
+
+   In the model it reaches 48% below 2005 in 2035, 62% in 2040 and 73% in 2050, against the decided package's 43%, 54% and 64%. Farms, forests and carbon removal (CLI-13, estimated outside the model) add about 2 points in 2035 and 8 in 2050. It **saves** about $50B in modeled outlays over 2030-39, and it still reaches 65% in 2050 after a 2037 repeal, against 58% for the decided package.
+2. **Yes, the credits should step down on a timeline.** Every efficient package redesigns them. The schedule is below. In ledger terms the redesign saves about $0.16-0.32T nominal over 2030-39 inside Package A. That pays for the low-income retrofits, disaster preparedness's permanent pieces and LMI bill protection, and still leaves a net permanent saving.
 3. **Finance the grid mostly with loans and contracts.** A lean first tranche ($25B grants, $100B direct loans, $20B capacity contracts) costs about $32B in deficit terms ($28-40B) and enables about $165B of construction. That is more than the earlier $120B all-grant program, at about a quarter of the budget cost. A full second tranche ($40B, $200B and $40B) follows if delivery milestones are met.
-4. **Borrowing stays well inside the room already freed.** Package A plus core disaster preparedness borrows about $0.12T nominal under D4-B ($0.09-0.16T), roughly 61% of the ~$195B freed by the smaller rebuild surge. Permanent items stay a net saving, and the process-emissions fee covers clean-industry contracts and removal purchases.
+4. **Borrowing stays inside the room already freed.** Package A plus both disaster tiers borrows about $0.15T nominal under D4-B ($0.11-0.21T), roughly 78% of the ~$195B freed by the smaller rebuild surge. Permanent items about break even after paying for the retrofits and the fuller disaster tier: −$0.03T at the midpoint, ranging from −$0.035T to +$0.035T. Process-emissions fee receipts (~$0.25T) cover clean-industry contracts and removal purchases.
 5. **The higher goals are not yet met, and the reason matters.** Espen raised the goals: net zero by 2050, and 61-66% below 2005 by 2035. Even with every instrument the model represents pushed hard (below), it tops out at about 49% in 2035 and 76% in 2050, or roughly 53% and 87% adding CLI-13's high estimates. The 2035 gap comes from how fast vehicle, building and equipment stocks turn over, and from this model being slower than the large published models in the first decade. Money is not what limits it. Closing the gap is the next climate task (section 6).
-6. **A higher carbon price is the biggest remaining lever, and it is Espen's call.** REV-C1H keeps D7's low start, then rises to $150 a ton by 2037 instead of $100. Added to Package A, it avoids 2.3 Gt more over 2030-50 at no outlay. The costs are about $1.70 a month more on the average 2040 bill and larger fee costs for the top two quintiles; the dividend keeps the bottom three positive. D7 is decided, so this needs Espen.
+6. **The approved higher price is the largest single addition after the vehicle standards.** It avoids 2.3 Gt more over 2030-50 at no outlay. It adds about $1.70 a month to the average 2040 bill and raises fee costs for the top two quintiles; the dividend keeps the bottom three positive. In 2035 the fourth quintile's carbon channel is about $79 a year worse than under the decided package, which Codex's incidence model needs to test against D3.
 
 ## 1. How the search works
 
@@ -76,20 +78,21 @@ The search finds the best package for each budget cap and bill cap and the full 
 | --- | --- | --- | --- | --- |
 | Save at least $400B | credits redesigned, CES 90/100, higher price, grid, industry, process fee | 46% / 58% / 68% | +4.7 | +$2.65 |
 | Save at least $200B, bill under +$3 | credits redesigned, CES 90/100, higher price, grid, retrofits, industry, process fee | 46% / 58% / 69% | +5.1 | +$2.45 |
-| **No added cost, bill under +$3 (Package A)** | **credits redesigned, CES 90/100, vehicle standards, grid, retrofits, industry, process fee** | **47% / 60% / 70%** | **+6.8** | **+$2.32** |
-| No added cost (Package A with REV-C1H) | Package A plus the higher price | 48% / 62% / 73% | +9.1 | +$3.98 |
+| No added cost, bill under +$3 (Package A before the price change) | credits redesigned, CES 90/100, vehicle standards, grid, retrofits, industry, process fee | 47% / 60% / 70% | +6.8 | +$2.32 |
+| **No added cost (Package A as approved)** | **the above plus the $150-by-2037 price** | **48% / 62% / 73%** | **+9.1** | **+$3.98** |
 
 **Layering: what each lever is worth inside Package A** (alone, then inside the package; Gt over 2030-50 / $B 2025 over 2030-39):
 
 | Lever | Alone | Inside Package A | What the difference means |
 | --- | --- | --- | --- |
-| Credit redesign (standard-led) | −0.49 Gt / −$549B | −0.12 Gt / −$755B | Once standards bind, the credits pay for adoption the standards already require. Redesigning them saves more inside the package and costs fewer tons. |
-| Statutory vehicle standards (cars and trucks) | +3.49 / +$476B | +4.07 / +$284B | The biggest single lever. Alone, it looks expensive only because kept EV credits pay out on mandated sales. |
-| Public grid delivery | +1.62 / +$91B | +2.10 / +$123B | Worth more with the 90/100 standard and electrification: more clean load needs more grid. |
-| Clean-industry support | +0.68 / +$27B | +0.70 / +$27B | Independent of the rest. |
-| Low-income retrofits | +0.35 / +$67B | +0.41 / +$67B | Slightly more valuable on a cleaner grid. |
-| CES 90% by 2035 / 100% by 2040 | +0.19 / $0 | +0.23 / $0 | Small in tons while the fee is in place. It is the backstop that holds power-sector cuts if the fee goes. |
-| Process-emissions fee | +0.15 / about $0 outlay, +$0.11T receipts | +0.15 / $0 | Finances clean-industry contracts and removal. |
+| Credit redesign (standard-led) | −0.49 Gt / −$549B | −0.11 Gt / −$755B | Once standards bind, the credits pay for adoption the standards already require. Redesigning them saves more inside the package and costs fewer tons. |
+| Statutory vehicle standards (cars and trucks) | +3.49 / +$476B | +4.03 / +$202B | The biggest single lever. Alone, it looks expensive only because kept EV credits pay out on mandated sales. |
+| $150-by-2037 carbon price (approved) | +2.54 / +$14B | +2.31 / +$21B | Slightly less inside the package because standards already drive some of the same cuts; still large at almost no outlay. |
+| Public grid delivery | +1.62 / +$91B | +2.04 / +$122B | Worth more with the 90/100 standard and electrification: more clean load needs more grid. |
+| Clean-industry support | +0.68 / +$27B | +0.44 / +$33B | Overlaps with the higher price, which also pushes industrial abatement. |
+| Low-income retrofits | +0.35 / +$67B | +0.38 / +$67B | Slightly more valuable on a cleaner grid. |
+| CES 90% by 2035 / 100% by 2040 | +0.19 / $0 | +0.11 / $0 | Small in tons while the fee is in place. It is the backstop that holds power-sector cuts if the fee goes. |
+| Process-emissions fee | +0.15 / about $0 outlay | +0.16 / $0; about +$0.25T receipts at the approved price | Finances clean-industry contracts and removal. |
 
 **What doesn't earn a place.**
 - **Tripling the methane fee** without the certification exit *raises* emissions by 0.66 Gt. It weakens the incentive to certify against the leak standards, which cut methane 75%. Keep REV-C3 as decided.
@@ -99,19 +102,20 @@ The search finds the best package for each budget cap and bill cap and the full 
 
 | Case | Package A | Decided package |
 | --- | --- | --- |
-| Central | 47% / 70% | 43% / 64% |
-| Weak grid delivery | 46% / 70% | 43% / 64% |
+| Central | 48% / 73% | 43% / 64% |
+| Weak grid delivery | 47% / 73% | 43% / 64% |
 | 2037 repeal (fee ends, consumer credits closed) | 46% / 65% | 42% / 58% |
 
 Statutory standards and built grid assets are what survive a repeal.
 
-**Households in 2035** (carbon channel, change against the decided package):
-- bottom two quintiles: +$7 each;
-- middle quintile: +$1;
-- fourth quintile: −$13;
-- top quintile: −$60.
+**Households in 2035** (carbon channel, change against the decided package; the higher price raises both fee costs and the dividend):
+- lowest quintile: +$40;
+- second quintile: +$31;
+- middle quintile: +$3;
+- fourth quintile: −$79;
+- top quintile: −$351.
 
-The fourth-quintile change is small, but it is the D3 group to watch in Codex's incidence model.
+The fourth quintile is the D3 group to test in Codex's incidence model.
 
 ## 3. Credit phase-down timeline (recommended)
 
@@ -128,10 +132,10 @@ The credits are worth most before standards and the grid take hold, and as insur
 | **Snap-back** | | If the carbon fee, the clean-power standard or the vehicle standard is repealed or enjoined, the matching credits revert to the IRA schedule automatically | This keeps the credits' insurance value without paying for it every year | Contingent cost; not modeled |
 
 **What the redesign is worth.**
-- **Savings.** Standard-led alone saves $0.70T nominal over 2030-39 in the model, about $0.35-0.70T in ledger terms. Inside Package A it saves $0.84T in the model, because stronger standards raise credit claims if the credits are kept. Against the decided package, Package A's credit outlays are $0.18-0.35T lower in ledger terms.
+- **Savings.** Standard-led alone saves $0.70T nominal over 2030-39 in the model, about $0.35-0.70T in ledger terms. Inside Package A it saves $0.84T in the model, because stronger standards raise credit claims if the credits are kept. Against the decided package, Package A's credit outlays are $0.16-0.32T lower in ledger terms.
 - **What it costs.**
   - About 0.12 Gt inside the package.
-  - A bill increase of about $4-28 a year per household over 2033-39. Offsetting it for low- and moderate-income households costs about $6B.
+  - A bill increase of about $4-28 a year per household over 2033-39. With the higher price the 2040 bill rises about $4 a month in total. Offsetting the bill increase for low- and moderate-income households costs about $19B nominal over 2033-39.
 - **Status.** These are model estimates. Count the low end in D4 tests until there is a JCT-style score.
 
 ## 4. Grid delivery and its financing
@@ -158,34 +162,36 @@ The credits are worth most before standards and the grid take hold, and as insur
 
 ## 5. Whole-package budget, 2030-39
 
-Package A plus the core disaster tier, in $T nominal (low / mid / high). Detail is in the [pricing file](climate-portfolio-pricing.md).
+Package A (with the approved price) plus both disaster tiers, in $T nominal (low / mid / high). Detail is in the [pricing file](climate-portfolio-pricing.md).
 
 | Item | D4 class | Financing | $T nominal |
 | --- | --- | --- | --- |
-| Credit redesign under stronger standards (ledger terms) | permanent | reduces CLI-1 | −0.18 / −0.26 / −0.35 |
-| LMI bill protection, 2033-39 | permanent | general fund | +0.008 |
+| Credit redesign under stronger standards (ledger terms) | permanent | reduces CLI-1 | −0.16 / −0.24 / −0.32 |
+| LMI bill protection, 2033-39 | permanent | general fund | +0.02 |
 | Disaster core, permanent pieces | permanent | general fund | +0.02 / +0.04 / +0.08 |
+| Disaster fuller tier: insurance help (D8) | permanent | general fund (credit savings) | +0.02 / +0.03 / +0.06 |
 | CLI-13 agricultural payments | permanent | general fund | +0.01 / +0.03 / +0.06 |
 | Public grid, lean tranche 1 | time-limited capital | D4-B; loans repaid by transmission charges | +0.03 / +0.04 / +0.05 |
 | Low-income heat-pump retrofits | time-limited capital | credit-redesign savings | +0.06 / +0.08 / +0.14 |
 | Disaster core, capital pieces (mitigation fund, wildfire) | time-limited capital | D4-B | +0.05 / +0.08 / +0.11 |
-| Clean-industry contracts | time-limited capital | process-fee receipts (+0.11) first | +0.02 / +0.03 / +0.05 |
+| Disaster fuller tier: voluntary buyouts (D9) | time-limited capital | D4-B | +0.02 / +0.03 / +0.05 |
+| Clean-industry contracts | time-limited capital | process-fee receipts first | +0.04 / +0.05 / +0.07 |
 | CLI-13 forests and carbon-removal purchases | time-limited capital | process-fee receipts first | +0.04 / +0.08 / +0.15 |
 
 **Totals:**
-- **Permanent items:** a net saving even after paying for the retrofits (−$0.06 to −$0.10T).
-- **D4-B borrowing:** about $0.12T (0.09-0.16), about 61% of the freed room.
-- **Process-fee receipts:** about $0.11T, against about $0.11T of contracts and removal purchases.
-- **Not financed:** the disaster fuller tier (+$0.07T), still in development.
+- **Permanent items:** about break-even after paying for the retrofits and the fuller disaster tier: −$0.03T at the midpoint, ranging from −$0.035T to +$0.035T. The low end of the credit savings would leave a small gap, closed by trimming retrofits or by the D7 transition share.
+- **D4-B borrowing:** about $0.15T (0.11-0.21), about 78% of the freed room.
+- **REV-C1 receipts:** up about $0.60T against the decided package (higher price and process coverage). Under D7, 80% returns as the dividend.
+- **Process-fee receipts:** about $0.25T, against about $0.13T of contracts and removal purchases.
 
 ## 6. Reaching the higher goals: what's left
 
-How far the model can go, adding steps cumulatively to Package A:
+How far the model can go, adding steps cumulatively to Package A (which now includes the approved price):
 
 | Step | Net GHG below 2005: 2035 / 2040 / 2050 | Outlays (2025 $) | 2040 bill |
 | --- | --- | --- | --- |
-| Package A | 47% / 60% / 70% | −$71B | +$2.32 |
-| + REV-C1H price ($150 by 2037) | 48% / 62% / 73% | −$50B | +$3.98 |
+| Package A before the price change | 47% / 60% / 70% | −$71B | +$2.32 |
+| **Package A as approved ($150 by 2037)** | **48% / 62% / 73%** | **−$50B** | **+$3.98** |
 | + clean-heat standard (heat-pump premium removed from 2032) | 48% / 63% / 74% | −$25B | +$4.97 |
 | + clean-industry support at 50% | 48% / 63% / 75% | +$29B | +$5.01 |
 | + price to $200 by 2037 | 49% / 64% / 76% | +$128B | +$6.08 |
@@ -212,24 +218,25 @@ These are in the [single-lever comparison](climate-portfolio-model-results.md):
 
 ## Proposed deltas for Codex (not applied)
 
-1. **CLI-1 revision (standard-led credit redesign with snap-back).** Revise CLI-1's working cost from $0.90T toward $0.55-0.72T nominal over 2030-39. That is the ledger-scaled redesign saving inside Package A, low end counted until scored.
+1. **CLI-1 revision (standard-led credit redesign with snap-back).** Revise CLI-1's working cost from $0.90T toward $0.58-0.74T nominal over 2030-39. That is the ledger-scaled redesign saving inside Package A, low end counted until scored.
 2. **New CLI-10G, public grid delivery.**
    - Tranche 1: $25B budget authority (grants), $100B direct loan authority (FCRA subsidy about $3B) and $20B contract authority (expected cost about $4B).
    - Deficit cost about $0.04T nominal, D4-B time-limited.
    - Tranche 2 is contingent on milestones.
 3. **CLI-5W, low-income heat-pump retrofits:** $67.5B (2025 $) over 2031-39, financed from the CLI-1 revision.
-4. **CLI-9 clean-industry contracts:** about $0.03T nominal, paired with the process-emissions fee (+$0.11T receipts, REV-C1 coverage option) for joint scoring with the revenue work.
-5. **CLI-3E and CLI-4E standards** (statutory; no direct outlay), and **CLI-7 disaster preparedness** (see that file).
-6. **CLI-13 and the higher price (REV-C1H)** stay outside the selected baseline until Espen decides REV-C1H and the off-model estimates are refined.
+4. **CLI-9 clean-industry contracts:** about $0.05T nominal, paired with the process-emissions fee (about +$0.25T receipts at the approved price, REV-C1 coverage option) for joint scoring with the revenue work.
+5. **CLI-3E and CLI-4E standards** (statutory; no direct outlay), and **CLI-7 disaster preparedness**, core and fuller tiers, both funded (see that file).
+6. **The approved price (REV-C1H).** `carbon-parameters.csv` and `carbon-model.py` should keep D7's 2030-32 steps ($25, about $36, about $46) and then rise linearly to $150 in 2037, with 5% a year after. That needs a kink-year parameter, because changing only `c1_price_2037` would raise 2031-32 too. The change also updates REV-C1 receipts, the dividend, the CX offset and the incidence profile. CLI-13 stays outside the selected baseline until its estimates are refined.
 7. **No change to REV-C3**, and no climate saving banked from abatement.
 
 ## Decisions
 
 **Espen (goal level), recorded from this round.** Climate goals are revised higher: net zero by 2050, and the 2035 NDC range (61-66% below 2005) as the project's benchmark. Section 6 shows what remains to reach them.
 
-**For Espen now.**
-1. **REV-C1H.** Keep D7's start but raise the 2037 price from $100 to $150 a ton? It is the largest remaining lever (+2.3 Gt at no outlay). It costs the top two quintiles more, and the dividend keeps the bottom three positive.
-2. **The disaster fuller tier** (insurance help and buyouts): fund now, or after the core tier and codes? I recommend after.
+**Espen, October 26 (after round 2):** "i approve the carbon price increase for 2037, and fund fuller disaster tier asap, not waiting for a federal reinsurance backstop, but let that be an open question for next turn."
+- **Decided:** the 2037 price rises from $100 to $150 a ton, keeping D7's 2030-32 path. Package A includes it.
+- **Decided:** the fuller disaster tier (D8 insurance help and D9 buyouts) is funded from FY2030 alongside the core tier. D8 does not wait for a reinsurance backstop; states must adopt CLI-8 codes within three years to keep it.
+- **Open for next turn:** the federal reinsurance backstop (CLI-7C).
 
 **Decided under the project-coworker delegation (recorded; reversible).**
 - **Package A** is the recommended climate allocation and goes to Codex as proposed deltas.

@@ -1,6 +1,6 @@
 # Disaster preparedness and response: design and pricing
 
-**Context.** Claude Code, October 26, 2026. Policy IDs: CLI-7, CLI-7A (new), CLI-7B, CLI-7C, CLI-8, CLI-5C, with the FEMA, NOAA and flood-map rows in CAP-7/CAP-7S. Source base: `main` at `77f8a5e`; branch `claude/climate-portfolio`, PR #26. Status: completed for review, not merged.
+**Context.** Claude Code, October 26, 2026; updated after Espen funded the fuller tier. Policy IDs: CLI-7, CLI-7A (new), CLI-7B, CLI-7C, CLI-8, CLI-5C, with the FEMA, NOAA and flood-map rows in CAP-7/CAP-7S. Source base: `main` at `77f8a5e`; branch `claude/climate-portfolio`, PR #26. Status: completed for review, not merged.
 
 **Why this file exists.** CLI-7 has carried "unscored, in no total" in every ledger since the domain was written, so disasters keep showing up as a gap in Project 2050's accounting. This file prices CLI-7 component by component and separates the agenda's cost from a current-law exposure that the baseline does not budget. It also sets out how the pieces layer with CLI-8 and the climate portfolio.
 
@@ -17,7 +17,7 @@
    - faster survivor aid.
 
    This replaces the old "unscored, $0.05-0.15T" placeholder. FEMA staffing and flood maps are already in CAP-7, so they are listed but not counted again.
-2. **Develop a fuller tier of about $54B** ($31-90B): insurance help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, and a standing voluntary buyout program. These are real needs, but their design depends on state code adoption and on how the market responds, which the core tier tests first.
+2. **Fund the fuller tier too, about $54B** ($31-90B). Espen decided on October 26 to fund it as soon as possible. It covers insurance help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, and a standing voluntary buyout program. It starts in FY2030 with the core tier. Insurance help does not wait for a reinsurance backstop; states keep it by adopting CLI-8 codes within three years.
 3. **Disclose the bigger gap honestly.** About $15-25B a year of disaster appropriations recurs but sits outside the extrapolated baseline. GAO counts at least $448B over FY2015-24, plus the $110B December 2024 act. That is current-law exposure, not agenda cost. It should appear in D4 tests next to the Judgment Fund line, so a bad hurricane season doesn't look like the agenda failing its fiscal rule.
 4. **Finance by type.**
    - The mitigation fund and wildfire work are ten-year capital programs (about $65B mid), borrowing-eligible under D4-B.
@@ -76,13 +76,13 @@
   - Scale: about 1.1-1.5 million current policies plus 0.3-0.8 million new low-income policies, at $600-1,000 average help.
   - It is permanent, so it needs a pay-for (below).
 - **D4. Resolve NFIP's debt, about $2B scored ($0-6B; face value $22.5B).** Cancel the debt together with a multi-year reauthorization (to 2035) and a reserve rule. The scored cost is low because repayment was never realistic: CBO scored a similar $17.5B forgiveness in 2007 at about $1.2B net. This ends the 35-extension cycle that keeps the program on the edge of lapsing.
-- **D8 (fuller tier). Insurance help for wind, wildfire and hail, $1.5-5B a year.** Premium help for low- and moderate-income owners and renters in high-risk counties, offered only where states adopt CLI-8's codes, so federal money doesn't subsidize rebuilding to old standards.
-- **D9 (fuller tier). Voluntary buyouts and relocation, $1.9-4.7B a year.**
+- **D8 (fuller tier, funded). Insurance help for wind, wildfire and hail, $1.5-5B a year.** Premium help for low- and moderate-income owners and renters in high-risk counties. It is available from FY2030 without waiting for a reinsurance backstop. States keep it by adopting CLI-8's codes within three years, so federal money doesn't keep subsidizing rebuilding to old standards.
+- **D9 (fuller tier, funded). Voluntary buyouts and relocation, $1.9-4.7B a year.**
   - Scale: 10,000-25,000 properties a year at a 75% federal share.
   - Also covers: receiving-community investment and renter relocation aid, so tenants aren't left behind when owners sell.
   - Cost: about $250,000 per property including about 10% activity costs (Curran-Groome et al. 2022).
   - Returns: Iowa's buyouts returned a benefit-cost ratio of 2.19.
-- **D10 (option CLI-7C). Federal reinsurance backstop.** This covers residential catastrophe risk above a high attachment point, only in states with CLI-8 codes and disclosure.
+- **D10 (option CLI-7C; open question for the next turn). Federal reinsurance backstop.** This covers residential catastrophe risk above a high attachment point, only in states with CLI-8 codes and disclosure.
   - Premiums are priced to expected loss, and a Treasury line of credit is repaid from later premiums (the FAM-3 pattern), so expected net cost is about zero.
   - Contingent exposure is about $100-400B; the Talarico stress scenario drew $150-200B in one bad season. It stays an option until that exposure has a D4 treatment.
 
@@ -91,7 +91,7 @@
 | Tier | 2030-39 | Nominal | One-time |
 | --- | --- | --- | --- |
 | Core: D1-D7 | $61 / 100 / 151B | $0.08 / 0.12 / 0.19T | $0 / 2 / 6B |
-| Fuller: D8-D9 (develop) | $31 / 54 / 90B | $0.04 / 0.07 / 0.11T | none |
+| Fuller: D8-D9 (funded Oct 26) | $31 / 54 / 90B | $0.04 / 0.07 / 0.11T | none |
 | Counted elsewhere: FEMA staff, survivor-application build, flood maps (CAP-7/7S) | $6 / 10 / 15B | | $5 / 11 / 18B |
 
 All programs start in FY2030, at 50% in 2030 and 75% in 2031. Component detail and sources are in the [CSV](climate-portfolio-disaster-components.csv).
@@ -103,7 +103,7 @@ All programs start in FY2030, at 50% in 2030 and 75% in 2031. Component detail a
 **Financing.**
 - **Core capital (mitigation fund and wildfire).** Borrowing-eligible inside the D4-B investment envelope, using part of the room freed when the rebuild surge was cut to about $105B.
 - **Core permanent pieces** (about $44B nominal over 2030-39). Paid from the climate credit redesign's savings, which are larger. In the [whole-package budget](climate-portfolio-pricing.md), permanent items stay a net saving after paying for these pieces and the low-income heat-pump retrofits.
-- **The fuller tier** is not yet financed and stays in development.
+- **The fuller tier:** D8's insurance help is permanent and paid from the credit redesign's savings; D9's buyouts are ten-year capital under D4-B. With both tiers, permanent items in the whole-package budget about break even (−$0.03T at the midpoint), and D4-B borrowing uses about 78% of the freed room.
 
 ## Interactions and layering
 
@@ -129,13 +129,14 @@ All programs start in FY2030, at 50% in 2030 and 75% in 2031. Component detail a
 
 **For Codex (proposed deltas, not applied).**
 1. Replace CLI-7's unscored row:
-   - core $0.12T nominal over 2030-39 (range $0.08-0.19T), plus about $0.002T one-time;
+   - core $0.12T plus fuller $0.07T nominal over 2030-39 (together $0.12-0.30T), plus about $0.002T one-time;
    - time-limited D1 and D5 under D4-B;
-   - permanent D2, D3, D6 and D7 financed against the CLI-1 redesign.
+   - time-limited D9 under D4-B;
+   - permanent D2, D3, D6, D7 and D8 financed against the CLI-1 redesign.
 2. Add a disclosed contingent line, "unbudgeted disaster supplementals (current law)", of about $15-25B a year next to the Judgment Fund line.
 3. Keep CAP-7's FEMA, NOAA and flood-map rows as they are. Nothing here adds to them.
 
-**For Espen.** Whether to fund the fuller tier (D8 insurance help and D9 buyouts, about $54B) now, or after the core tier and CLI-8 codes are in place. I recommend after.
+**Espen, October 26:** fund the fuller tier as soon as possible, without waiting for a reinsurance backstop. The backstop (D10, CLI-7C) is the open question for the next turn.
 
 ## Limits
 

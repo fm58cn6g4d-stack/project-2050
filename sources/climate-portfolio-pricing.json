@@ -1,23 +1,23 @@
 {
  "bill_protection": {
   "annual_increase_per_household": {
-   "2033": 4.249891499335405,
-   "2034": 6.3228847071864305,
-   "2035": 6.751867035752701,
-   "2036": 11.870946479451149,
-   "2037": 18.991298854100954,
-   "2038": 26.127324882669278,
-   "2039": 28.387154830968875
+   "2033": 8.356852792420943,
+   "2034": 22.60377412802751,
+   "2035": 31.290066087295905,
+   "2036": 41.316917642821906,
+   "2037": 49.48067106348206,
+   "2038": 54.820166154321015,
+   "2039": 52.030074386353775
   },
   "cost_bn_2025": [
-   5.340471151052169,
-   5.751276624210028,
-   6.162082097367888
+   13.514723157245601,
+   14.554317246264494,
+   15.593911335283387
   ],
   "cost_nominal_tn": [
-   0.006970602325960271,
-   0.007506802504880292,
-   0.008043002683800312
+   0.017491791453073283,
+   0.018837313872540458,
+   0.020182836292007636
   ]
  },
  "budget": {
@@ -27,14 +27,14 @@
    0.1400705424991965
   ],
   "d4b_draw_tn": [
-   0.08614977141653604,
-   0.11977362809391814,
-   0.15832572119384797
+   0.10795844281021015,
+   0.1519127227793326,
+   0.2122734872729366
   ],
   "fee_financed_tn": [
-   0.059411266818074876,
-   0.11359054880515725,
-   0.198571308433163
+   0.07327743597828804,
+   0.13428632367114704,
+   0.22609668900492944
   ],
   "freed_d4b_basis": "Governing decisions, Oct 26: resizing CAP-7S from $300B to about $105B leaves about $195B less borrowing inside the D4-B investment envelope",
   "freed_d4b_room_bn": 195,
@@ -44,9 +44,9 @@
     "item": "Credit redesign (standard-led) under stronger standards, ledger terms",
     "source": "reduces CLI-1",
     "tn": [
-     -0.17569925516651805,
-     -0.2622376942783851,
-     -0.3487761333902522
+     -0.1622911888055821,
+     -0.2422256549337046,
+     -0.3221601210618271
     ]
    },
    {
@@ -54,9 +54,9 @@
     "item": "Bill protection for low- and moderate-income households, 2033-39",
     "source": "general fund",
     "tn": [
-     0.006970602325960271,
-     0.007506802504880292,
-     0.008043002683800312
+     0.017491791453073283,
+     0.018837313872540458,
+     0.020182836292007636
     ]
    },
    {
@@ -114,9 +114,9 @@
     "item": "Clean-industry contracts (model industrial-support estimate)",
     "source": "process-fee receipts first",
     "tn": [
-     0.02244949364896682,
-     0.033506706938756445,
-     0.04456392022854607
+     0.036315662809179985,
+     0.05420248180474624,
+     0.0720893008003125
     ]
    },
    {
@@ -130,31 +130,42 @@
     ]
    },
    {
-    "d4": "mixed",
-    "item": "Disaster full tier (D8 insurance help, D9 buyouts): develop",
-    "source": "not yet financed",
+    "d4": "permanent",
+    "item": "Disaster fuller tier: D8 insurance help (funded Oct 26)",
+    "source": "general fund (credit-redesign savings)",
     "tn": [
-     0.03902604354657473,
-     0.06657383899121572,
-     0.11133900658875732
+     0.017217372152900617,
+     0.034434744305801235,
+     0.05739124050966872
+    ]
+   },
+   {
+    "d4": "time-limited capital",
+    "item": "Disaster fuller tier: D9 voluntary buyouts (funded Oct 26)",
+    "source": "D4-B borrowing",
+    "tn": [
+     0.021808671393674116,
+     0.032139094685414475,
+     0.053947766079088605
     ]
    }
   ],
   "permanent": [
-   -0.13230374077012758,
-   -0.1803120713452332,
-   -0.20107808833145566
+   -0.09115711312917799,
+   -0.11453477632709129,
+   -0.10493100188515453
   ],
   "permanent_after_retrofits_tn": [
-   -0.07627552377044897,
-   -0.09626974584571528,
-   -0.06100754583225915
+   -0.03512889612949938,
+   -0.030492450827573375,
+   0.03513954061404198
   ],
-  "process_fee_receipts_tn": 0.1084006999285131,
+  "process_fee_receipts_tn": 0.24701403802629746,
+  "rev_c1_change_tn": 0.6019705375198192,
   "time-limited capital": [
-   0.2015892552342895,
-   0.3174065023985933,
-   0.4969675721262075
+   0.2372640957881768,
+   0.37024137194999757,
+   0.5784407187770625
   ]
  },
  "credit_redesign": {
@@ -162,22 +173,22 @@
   "model_tn": {
    "decided": 1.5081829822899353,
    "decided_standard_led": 0.8089480766822121,
-   "recommended": 1.159313192580298,
-   "recommended_keep_credits": 2.1168632661918236
+   "recommended": 1.1859363520656319,
+   "recommended_keep_credits": 2.143772800955654
   },
   "package_vs_decided_ledger_tn": [
-   -0.17569925516651805,
-   -0.2622376942783851,
-   -0.3487761333902522
+   -0.1622911888055821,
+   -0.2422256549337046,
+   -0.3221601210618271
   ],
-  "package_vs_decided_model_tn": -0.34886978970963733,
+  "package_vs_decided_model_tn": -0.32224663022430344,
   "redesign_alone_ledger_tn": [
    -0.35215159273022517,
    -0.5255993921346644,
    -0.6990471915391038
   ],
   "redesign_alone_model_tn": -0.6992349056077232,
-  "redesign_in_package_model_tn": -0.9575500736115257
+  "redesign_in_package_model_tn": -0.9578364488900222
  },
  "disaster": {
   "baseline": [
@@ -475,7 +486,7 @@
     "contingent_bn": null,
     "d4": "permanent (pay-for at maturity)",
     "id": "D8",
-    "label": "Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, conditioned on state code adoption (CLI-8)",
+    "label": "Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, available from FY2030 without waiting for a reinsurance backstop; states must adopt CLI-8 codes within three years to keep it",
     "one_time_bn": [
      0,
      0,
@@ -492,7 +503,7 @@
      0.034434744305801235,
      0.05739124050966872
     ],
-    "tier": "full"
+    "tier": "fuller"
    },
    {
     "annual_bn_2025": [
@@ -526,7 +537,7 @@
      0.032139094685414475,
      0.053947766079088605
     ],
-    "tier": "full"
+    "tier": "fuller"
    },
    {
     "annual_bn_2025": [
@@ -658,7 +669,7 @@
      14.615
     ]
    },
-   "full": {
+   "fuller": {
     "nom": [
      0.03902604354657473,
      0.06657383899121572,
@@ -772,11 +783,11 @@
   "index/tools/carbon/cfd-households.js": "c376c045092a976e24e1e6a0634763bfcd53153f59a719a2bc4d3f447d1968d4",
   "index/tools/carbon/cfd-model.js": "0f6ae48c97b7bea35d353ca04e669cd58e45963b2d516422fb2985385dca2b7a",
   "index/tools/climate-portfolio/assumptions.json": "6655e64e9785b90d79a38158b661884de3c2b447e3eefb7dddacb2ab96df7b57",
-  "index/tools/climate-portfolio/packages.json": "6d3d1401921bedc08280938c4684f5218932d77daa9a12301d5d7ba50cc77177",
+  "index/tools/climate-portfolio/packages.json": "c4c4327e7e15950d08faf967e30ccd1d8dc51ef6e2bf1a78b843467b4765b21c",
   "index/tools/climate-portfolio/packages.py": "5b0e5c45dec73d11c9aee36b406ad8d9b084192ee5abf80e44a527103ff3b92b",
   "index/tools/climate-portfolio/portfolio.py": "44e6e083df4cd8330082dc21c646732a06fbad079d4044a0d0de6d36ea9a48e3",
-  "index/tools/climate-portfolio/pricing.json": "3de8a0311df776a59854dafe5bfd0d38666bb27e995599bfaa535a94c88f2ae7",
-  "index/tools/climate-portfolio/pricing.py": "e475fb2037ea93106179988e0e29a5eea43a635b97a1fddc6724231d24239922",
+  "index/tools/climate-portfolio/pricing.json": "779678d1fa6bb9e0b005475b9c63fb300f3e81d0b9041589aab009940d888138",
+  "index/tools/climate-portfolio/pricing.py": "fd99de7cd21dc312dfa6b69c2c63e81c8558ae4155c75e925c6fc660b7ae41fc",
   "index/tools/climate-portfolio/run.js": "109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae"
  }
 }

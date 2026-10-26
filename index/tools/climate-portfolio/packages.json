@@ -4,7 +4,7 @@
   "through_2032": "D7",
   "price_2037_nominal": 150,
   "growth_after": 0.05,
-  "label": "REV-C1H: D7's path to 2032 ($46), then rising to $150 by 2037 (D7: $100), 5% a year after (option; D7 is decided, so adopting this needs Espen)"
+  "label": "REV-C1H: D7's path to 2032 ($46), then rising to $150 by 2037 (was $100), 5% a year after (approved by Espen Oct 26)"
  },
  "levers": [
   {
@@ -131,7 +131,7 @@
     },
     {
      "key": "higher",
-     "label": "REV-C1H higher path from 2033",
+     "label": "REV-C1H higher path from 2033 (approved Oct 26; pending integration)",
      "price": "higher"
     }
    ]
@@ -316,7 +316,7 @@
   "credits": "standard_led",
   "ces": "90by35_100by40",
   "zev": "cars_trucks",
-  "price": "d7",
+  "price": "higher",
   "grid": "on",
   "wx": "on",
   "industry": "on",
@@ -326,29 +326,19 @@
  },
  "diagnostics": [
   {
-   "label": "Recommended package",
+   "label": "Package A (with the approved $150-by-2037 price)",
    "choice": {}
   },
   {
-   "label": "+ REV-C1H higher price path ($150 by 2037)",
-   "choice": {
-    "price": "higher"
-   }
-  },
-  {
    "label": "+ clean-heat standard proxy (heat-pump cost premium removed from 2032)",
-   "choice": {
-    "price": "higher"
-   },
+   "choice": {},
    "world": {
     "hpPrem": 0
    }
   },
   {
    "label": "+ clean-industry support raised to 50%",
-   "choice": {
-    "price": "higher"
-   },
+   "choice": {},
    "world": {
     "hpPrem": 0,
     "crInd": 0.5
@@ -356,9 +346,7 @@
   },
   {
    "label": "+ price path to $200 by 2037",
-   "choice": {
-    "price": "higher"
-   },
+   "choice": {},
    "world": {
     "hpPrem": 0,
     "crInd": 0.5
@@ -372,7 +360,6 @@
   {
    "label": "+ coal out by 2032",
    "choice": {
-    "price": "higher",
     "coal": "on"
    },
    "world": {

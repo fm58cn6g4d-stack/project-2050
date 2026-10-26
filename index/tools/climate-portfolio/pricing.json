@@ -273,9 +273,9 @@
    },
    {
     "id": "D8",
-    "tier": "full",
+    "tier": "fuller",
     "policy": "CLI-7",
-    "label": "Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, conditioned on state code adoption (CLI-8)",
+    "label": "Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, available from FY2030 without waiting for a reinsurance backstop; states must adopt CLI-8 codes within three years to keep it",
     "annual": [
      1.5,
      3.0,
@@ -287,7 +287,7 @@
    },
    {
     "id": "D9",
-    "tier": "full",
+    "tier": "fuller",
     "policy": "CLI-5C",
     "label": "Voluntary buyout and relocation program: 10,000-25,000 properties a year, receiving-community investment, renter relocation aid",
     "annual": [

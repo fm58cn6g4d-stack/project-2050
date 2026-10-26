@@ -102,21 +102,22 @@ def main():
         t = tiers.setdefault(c['tier'], dict(ten=[0, 0, 0], nom=[0, 0, 0], one=[0, 0, 0]))
         for i in range(3):
             t['ten'][i] += ten[i]; t['nom'][i] += ten_nom[i]; t['one'][i] += one[i]
-    perm = tri(lambda i: sum(r['ten_year_bn_2025'][i] for r in rows if r['tier'] in ('core', 'full') and r['d4'].startswith('permanent')))
-    cap = tri(lambda i: sum(r['ten_year_bn_2025'][i] for r in rows if r['tier'] in ('core', 'full') and r['d4'].startswith('time-limited')))
+    perm = tri(lambda i: sum(r['ten_year_bn_2025'][i] for r in rows if r['tier'] in ('core', 'fuller') and r['d4'].startswith('permanent')))
+    cap = tri(lambda i: sum(r['ten_year_bn_2025'][i] for r in rows if r['tier'] in ('core', 'fuller') and r['d4'].startswith('time-limited')))
     gf = grid_finance(pr['grid_financing'])
 
     # whole-package budget, 2030-39, $T nominal (low / mid / high), by D4 class and financing source
     nom = lambda bn_2025_by_year: sum(v * (1 + infl) ** (y - 2025) for y, v in bn_2025_by_year.items()) / 1000
     even = lambda total, years: {y: total / len(years) for y in years}
     ind = tri(lambda i: [0.67, 1.0, 1.33][i] * sum((rr[y]['credInd'] - rd[y]['credInd']) * (1 + infl) ** (y - 2025) for y in W10) / 1000)
-    rev = sum(((rr[y]['gross'] - rr[y]['rev']['methane']) - (rd[y]['gross'] - rd[y]['rev']['methane'])) * (1 + infl) ** (y - 2025) for y in W10) / 1000
+    rev = sum((rr[y]['rev']['process'] - rd[y]['rev']['process']) * (1 + infl) ** (y - 2025) for y in W10) / 1000
+    rev_c1 = sum(((rr[y]['gross'] - rr[y]['rev']['methane']) - (rd[y]['gross'] - rd[y]['rev']['methane'])) * (1 + infl) ** (y - 2025) for y in W10) / 1000
     wx_ext = [45.0, 67.5, 112.5]
     lean = next(v for v in gf if v['id'] == 'lean')
     om = {it['id']: it for it in pk['off_model']['items']}
     disaster_perm = tri(lambda i: sum(r['ten_year_nominal_tn'][i] for r in rows if r['tier'] == 'core' and r['d4'].startswith('permanent')))
     disaster_cap = tri(lambda i: sum(r['ten_year_nominal_tn'][i] for r in rows if r['tier'] == 'core' and r['d4'].startswith('time-limited')))
-    disaster_full = tiers['full']['nom']
+    pick = lambda ids: tri(lambda i: sum(r['ten_year_nominal_tn'][i] for r in rows if r['id'] in ids))
     lines = [
         ('Credit redesign (standard-led) under stronger standards, ledger terms', 'permanent', 'reduces CLI-1', sorted(credit['package_vs_decided_ledger_tn'], reverse=True)),
         ('Bill protection for low- and moderate-income households, 2033-39', 'permanent', 'general fund', bill_cost_nom),
@@ -127,9 +128,10 @@ def main():
         ('Disaster core: capital pieces (D1 mitigation fund, D5 wildfire)', 'time-limited capital', 'D4-B borrowing', disaster_cap),
         ('Clean-industry contracts (model industrial-support estimate)', 'time-limited capital', 'process-fee receipts first', ind),
         ('CLI-13 forests and carbon-removal purchases', 'time-limited capital', 'process-fee receipts first', tri(lambda i: nom(even(om['land']['cost_bn_2030_39'][i] + om['removal']['cost_bn_2030_39'][i], W10)))),
-        ('Disaster full tier (D8 insurance help, D9 buyouts): develop', 'mixed', 'not yet financed', disaster_full),
+        ('Disaster fuller tier: D8 insurance help (funded Oct 26)', 'permanent', 'general fund (credit-redesign savings)', pick({'D8'})),
+        ('Disaster fuller tier: D9 voluntary buyouts (funded Oct 26)', 'time-limited capital', 'D4-B borrowing', pick({'D9'})),
     ]
-    budget = dict(lines=[dict(item=a_, d4=b_, source=c_, tn=v_) for a_, b_, c_, v_ in lines], process_fee_receipts_tn=rev,
+    budget = dict(lines=[dict(item=a_, d4=b_, source=c_, tn=v_) for a_, b_, c_, v_ in lines], process_fee_receipts_tn=rev, rev_c1_change_tn=rev_c1,
                   freed_d4b_room_bn=pr['freed_d4b_room_bn'], freed_d4b_basis=pr['freed_d4b_basis'])
     for cls in ('permanent', 'time-limited capital'):
         budget[cls] = tri(lambda i: sum(l_[3][i] for l_ in lines if l_[1] == cls))
@@ -173,7 +175,7 @@ def report(pr, d):
          'Ranges are low / mid / high; 2025 dollars unless marked.*', '']
     bu = d['budget']
     L += ['## Whole-package budget, 2030-39 ($T nominal, low / mid / high)', '',
-          'The recommended climate package plus the core disaster tier, by D4 class and financing source. Negative is a saving. The process-emissions fee '
+          'Package A (with the approved $150-by-2037 price) plus the core and fuller disaster tiers, by D4 class and financing source. Negative is a saving. The process-emissions fee '
           'is channel money, shown separately.', '',
           '| Item | D4 class | Financing | $T nominal |', '| --- | --- | --- | --- |']
     for l_ in bu['lines']:
@@ -181,7 +183,8 @@ def report(pr, d):
     L += ['', f"- Permanent items net: {r3(bu['permanent'], 3, True)}T. Credit savings exceed the permanent additions, so the D4-B maturity test is helped, not hurt.",
           f"- Time-limited capital: {r3(bu['time-limited capital'], 3, True)}T, of which D4-B borrowing {r3(bu['d4b_draw_tn'], 3, True)}T against about ${bu['freed_d4b_room_bn']}B of room ({bu['freed_d4b_basis']}).",
           f"- Paying the retrofits from the credit savings leaves permanent items at {r3(bu['permanent_after_retrofits_tn'], 3, True)}T: still a net saving, with no borrowing for retrofits. Borrowing then uses about {100*bu['d4b_draw_tn'][1]*1000/bu['freed_d4b_room_bn']:.0f}% of the freed room at the midpoint.",
-          f"- Process-emissions fee receipts in the recommended package: {bu['process_fee_receipts_tn']:+.3f}T over 2030-39, against {r3(bu['fee_financed_tn'], 3, True)}T of clean-industry contracts, forests and removal purchases proposed to draw on them first.", '']
+          f"- REV-C1 receipts rise {bu['rev_c1_change_tn']:+.3f}T over 2030-39 against the decided package (higher price and process coverage); 80% returns as the dividend under D7, so this is channel money, not general-fund financing.",
+          f"- Of that, process-emissions fee receipts are {bu['process_fee_receipts_tn']:+.3f}T over 2030-39, against {r3(bu['fee_financed_tn'], 3, True)}T of clean-industry contracts, forests and removal purchases proposed to draw on them first.", '']
     L += ['## Grid financing windows', '',
          'Budget cost under the Federal Credit Reform Act counts grants in full, direct loans at their subsidy cost and contracts at expected net cost. '
          '"Gross financing" is what Treasury borrows to make the program work, much of it repaid. Loan repayments fall on transmission charges, '

@@ -9,7 +9,7 @@
 - **Clean-energy credits (CLI-1A)** (`credits`): `keep` Keep as decided; `bridge` Bridge: vehicle credits end after 2034; wind/solar credits phase out once power CO2 falls below 600 Mt (decided: 383 Mt); `targeted` Targeted bridge: as bridge, with the new-EV credit halved (income and price caps); `standard_led` Standard-led: new-EV and truck credits end after 2032 as the statutory sales standard binds (EV credit halved until then); wind/solar phase-out at 600 Mt
 - **Clean electricity standard (CLI-3)** (`ces`): `80by35` 80% by 2035 (decided); `90by35` CLI-3E: 90% by 2035, ACP $60/MWh; `90by35_100by40` CLI-3E/4D: 90% by 2035 and 100% by 2040 (statutory cap backstop), ACP $80/MWh
 - **Vehicle standards in statute (CLI-4E)** (`zev`): `decided` CLI-4A rules as modeled (25% EV sales 2032, 50% 2037, 100% by 2050); `cars` CLI-4E cars: zero-emission sales 45% 2030, 85% 2035, 100% 2040; `cars_trucks` CLI-4E cars plus a heavy-truck schedule (10% 2032, 30% 2035, 65% 2040, 90% 2045; ASSUMED)
-- **Carbon price path** (`price`): `d7` D7 (decided); `higher` REV-C1H higher path from 2033
+- **Carbon price path** (`price`): `d7` D7 (decided); `higher` REV-C1H higher path from 2033 (approved Oct 26; pending integration)
 - **Public grid delivery (CLI-10G)** (`grid`): `off` Off; `on` On ($12B a year 2030-39, ASSUMED effect)
 - **Low-income heat-pump retrofits (CLI-5W)** (`wx`): `off` 0.25 million homes a year (decided); `on` 0.75 million homes a year
 - **Clean-industry support (CLI-9 proxy)** (`industry`): `off` Decided (15% support); `on` Doubled (30%), cost from the model's industrial-support estimate
@@ -84,13 +84,14 @@ Each lever alone (added to the decided package) against its marginal contributio
 
 | Lever (option) | Alone: Gt / $B | Inside the package: Gt / $B |
 | --- | --- | --- |
-| Clean-energy credits (CLI-1A) (`standard_led`) | -0.49 / -549 | -0.12 / -755 |
-| Clean electricity standard (CLI-3) (`90by35_100by40`) | +0.19 / +0 | +0.23 / +0 |
-| Vehicle standards in statute (CLI-4E) (`cars_trucks`) | +3.49 / +476 | +4.07 / +284 |
-| Public grid delivery (CLI-10G) (`on`) | +1.62 / +91 | +2.10 / +123 |
-| Low-income heat-pump retrofits (CLI-5W) (`on`) | +0.35 / +67 | +0.41 / +67 |
-| Clean-industry support (CLI-9 proxy) (`on`) | +0.68 / +27 | +0.70 / +27 |
-| Fee on industrial process CO2 and N2O (`on`) | +0.15 / -0 | +0.15 / +0 |
+| Clean-energy credits (CLI-1A) (`standard_led`) | -0.49 / -549 | -0.11 / -755 |
+| Clean electricity standard (CLI-3) (`90by35_100by40`) | +0.19 / +0 | +0.11 / +0 |
+| Vehicle standards in statute (CLI-4E) (`cars_trucks`) | +3.49 / +476 | +4.03 / +202 |
+| Carbon price path (`higher`) | +2.54 / +14 | +2.31 / +21 |
+| Public grid delivery (CLI-10G) (`on`) | +1.62 / +91 | +2.04 / +122 |
+| Low-income heat-pump retrofits (CLI-5W) (`on`) | +0.35 / +67 | +0.38 / +67 |
+| Clean-industry support (CLI-9 proxy) (`on`) | +0.68 / +27 | +0.44 / +33 |
+| Fee on industrial process CO2 and N2O (`on`) | +0.15 / -0 | +0.16 / +0 |
 
 ## Robustness: weak grid delivery and a 2037 repeal
 
@@ -99,7 +100,7 @@ Net GHG below 2005 in 2035 / 2050, central case; then with weak grid delivery; t
 | Package | Changes | Central | Weak delivery | 2037 repeal | Outlays central ($B 2025) |
 | --- | --- | --- | --- | --- | --- |
 | decided | decided package | 43% / 64% | 43% / 64% | 42% / 58% | -0 |
-| recommended | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, industry=on, process=on | 47% / 70% | 46% / 70% | 46% / 65% | -71 |
+| recommended | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, price=higher, grid=on, wx=on, industry=on, process=on | 48% / 73% | 47% / 73% | 46% / 65% | -50 |
 | best_-400_nobill | credits=standard_led, ces=90by35_100by40, price=higher, grid=on, industry=on, process=on | 46% / 68% | 45% / 68% | 44% / 60% | -402 |
 | best_-400_bill | credits=standard_led, ces=90by35_100by40, price=higher, grid=on, industry=on, process=on | 46% / 68% | 45% / 68% | 44% / 60% | -402 |
 | best_-200_nobill | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, price=higher, industry=on, process=on, coal=on | 45% / 72% | 45% / 72% | 44% / 64% | -260 |
@@ -118,7 +119,7 @@ Net GHG below 2005 in 2035 / 2050, central case; then with weak grid delivery; t
 | Package | All consumer units | Lowest 20 percent | Second 20 percent | Third 20 percent | Fourth 20 percent | Highest 20 percent |
 | --- | --- | --- | --- | --- | --- | --- |
 | decided | +0 | +0 | +0 | +0 | +0 | +0 |
-| recommended | -15 | +7 | +7 | +1 | -13 | -60 |
+| recommended | -93 | +40 | +31 | +3 | -79 | -351 |
 | best_-400_nobill | -89 | +38 | +29 | +3 | -75 | -333 |
 | best_-400_bill | -89 | +38 | +29 | +3 | -75 | -333 |
 | best_-200_nobill | -111 | +47 | +37 | +3 | -93 | -415 |
@@ -138,8 +139,7 @@ Each row adds to the one above, starting from the recommended package. These tes
 
 | Step | Net GHG below 2005: 2035 / 2040 / 2050 | Extra net GHG avoided 2030-50 (Gt) | Outlays ($B 2025, 2030-39) | REV-C1 change ($T nominal) | Bill 2040 ($/month) |
 | --- | --- | --- | --- | --- | --- |
-| Recommended package | 47% / 60% / 70% | +6.81 | -71 | +0.11 | +2.32 |
-| + REV-C1H higher price path ($150 by 2037) | 48% / 62% / 73% | +9.12 | -50 | +0.60 | +3.98 |
+| Package A (with the approved $150-by-2037 price) | 48% / 62% / 73% | +9.12 | -50 | +0.60 | +3.98 |
 | + clean-heat standard proxy (heat-pump cost premium removed from 2032) | 48% / 63% / 74% | +10.19 | -25 | +0.58 | +4.97 |
 | + clean-industry support raised to 50% | 48% / 63% / 75% | +10.63 | +29 | +0.56 | +5.01 |
 | + price path to $200 by 2037 | 49% / 64% / 76% | +11.97 | +128 | +1.02 | +6.08 |
@@ -171,4 +171,4 @@ Source hashes (SHA-256):
 - `index/tools/carbon/cfd-cex-2024.json`: `11f4b296801bc20d596eb1893138e734352bae0ef9527e13c1d35b99fc635588`
 - `build/carbon-config.json`: `d071842c0a91b03fcc44ab6c434fc9d68e2c568b7550fc668dc1f8b9498f25d3`
 - `index/tools/climate-portfolio/packages.py`: `5b0e5c45dec73d11c9aee36b406ad8d9b084192ee5abf80e44a527103ff3b92b`
-- `index/tools/climate-portfolio/packages.json`: `6d3d1401921bedc08280938c4684f5218932d77daa9a12301d5d7ba50cc77177`
+- `index/tools/climate-portfolio/packages.json`: `c4c4327e7e15950d08faf967e30ccd1d8dc51ef6e2bf1a78b843467b4765b21c`

@@ -4,25 +4,27 @@
 
 ## Whole-package budget, 2030-39 ($T nominal, low / mid / high)
 
-The recommended climate package plus the core disaster tier, by D4 class and financing source. Negative is a saving. The process-emissions fee is channel money, shown separately.
+Package A (with the approved $150-by-2037 price) plus the core and fuller disaster tiers, by D4 class and financing source. Negative is a saving. The process-emissions fee is channel money, shown separately.
 
 | Item | D4 class | Financing | $T nominal |
 | --- | --- | --- | --- |
-| Credit redesign (standard-led) under stronger standards, ledger terms | permanent | reduces CLI-1 | -0.176 / -0.262 / -0.349 |
-| Bill protection for low- and moderate-income households, 2033-39 | permanent | general fund | +0.007 / +0.008 / +0.008 |
+| Credit redesign (standard-led) under stronger standards, ledger terms | permanent | reduces CLI-1 | -0.162 / -0.242 / -0.322 |
+| Bill protection for low- and moderate-income households, 2033-39 | permanent | general fund | +0.017 / +0.019 / +0.020 |
 | Disaster core: permanent pieces (D2, D3, D6, D7) | permanent | general fund | +0.024 / +0.044 / +0.078 |
 | CLI-13 agricultural payments | permanent | general fund | +0.012 / +0.031 / +0.062 |
 | Public grid delivery, lean tranche 1 (deficit cost) | time-limited capital | D4-B borrowing; loans repaid by transmission charges | +0.034 / +0.039 / +0.049 |
 | Low-income heat-pump retrofits (CLI-5W) | time-limited capital | credit-redesign savings (no borrowing) | +0.056 / +0.084 / +0.140 |
 | Disaster core: capital pieces (D1 mitigation fund, D5 wildfire) | time-limited capital | D4-B borrowing | +0.052 / +0.080 / +0.109 |
-| Clean-industry contracts (model industrial-support estimate) | time-limited capital | process-fee receipts first | +0.022 / +0.034 / +0.045 |
+| Clean-industry contracts (model industrial-support estimate) | time-limited capital | process-fee receipts first | +0.036 / +0.054 / +0.072 |
 | CLI-13 forests and carbon-removal purchases | time-limited capital | process-fee receipts first | +0.037 / +0.080 / +0.154 |
-| Disaster full tier (D8 insurance help, D9 buyouts): develop | mixed | not yet financed | +0.039 / +0.067 / +0.111 |
+| Disaster fuller tier: D8 insurance help (funded Oct 26) | permanent | general fund (credit-redesign savings) | +0.017 / +0.034 / +0.057 |
+| Disaster fuller tier: D9 voluntary buyouts (funded Oct 26) | time-limited capital | D4-B borrowing | +0.022 / +0.032 / +0.054 |
 
-- Permanent items net: -0.132 / -0.180 / -0.201T. Credit savings exceed the permanent additions, so the D4-B maturity test is helped, not hurt.
-- Time-limited capital: +0.202 / +0.317 / +0.497T, of which D4-B borrowing +0.086 / +0.120 / +0.158T against about $195B of room (Governing decisions, Oct 26: resizing CAP-7S from $300B to about $105B leaves about $195B less borrowing inside the D4-B investment envelope).
-- Paying the retrofits from the credit savings leaves permanent items at -0.076 / -0.096 / -0.061T: still a net saving, with no borrowing for retrofits. Borrowing then uses about 61% of the freed room at the midpoint.
-- Process-emissions fee receipts in the recommended package: +0.108T over 2030-39, against +0.059 / +0.114 / +0.199T of clean-industry contracts, forests and removal purchases proposed to draw on them first.
+- Permanent items net: -0.091 / -0.115 / -0.105T. Credit savings exceed the permanent additions, so the D4-B maturity test is helped, not hurt.
+- Time-limited capital: +0.237 / +0.370 / +0.578T, of which D4-B borrowing +0.108 / +0.152 / +0.212T against about $195B of room (Governing decisions, Oct 26: resizing CAP-7S from $300B to about $105B leaves about $195B less borrowing inside the D4-B investment envelope).
+- Paying the retrofits from the credit savings leaves permanent items at -0.035 / -0.030 / +0.035T: still a net saving, with no borrowing for retrofits. Borrowing then uses about 78% of the freed room at the midpoint.
+- REV-C1 receipts rise +0.602T over 2030-39 against the decided package (higher price and process coverage); 80% returns as the dividend under D7, so this is channel money, not general-fund financing.
+- Of that, process-emissions fee receipts are +0.247T over 2030-39, against +0.073 / +0.134 / +0.226T of clean-industry contracts, forests and removal purchases proposed to draw on them first.
 
 ## Grid financing windows
 
@@ -47,17 +49,17 @@ Credit outlays in the model (credits less grid-program cost, plus the industrial
 | --- | --- |
 | decided | 1.508 |
 | decided_standard_led | 0.809 |
-| recommended_keep_credits | 2.117 |
-| recommended | 1.159 |
+| recommended_keep_credits | 2.144 |
+| recommended | 1.186 |
 
 - Standard-led redesign alone (decided package otherwise): -0.699T in the model; in ledger terms -0.35 / -0.53 / -0.70T.
 - Inside the recommended package (against the same package with credits kept): -0.958T in the model. Stronger standards raise credit claims if credits are kept, so the redesign saves more inside the package.
-- Recommended package credit outlays against the decided package: -0.349T in the model; in ledger terms -0.18 / -0.26 / -0.35T.
+- Recommended package credit outlays against the decided package: -0.322T in the model; in ledger terms -0.16 / -0.24 / -0.32T.
 These are estimates on the model's take-up, not a JCT score; count the low end in D4 tests until scored.
 
 ## Bill protection
 
-Offsetting the recommended package's residential bill increase for low- and moderate-income households over 2033-39 costs 5.3 / 5.8 / 6.2 $B (2025 dollars), 0.007 / 0.008 / 0.008 $T nominal. Annual increase per household: 2033 $4, 2034 $6, 2035 $7, 2036 $12, 2037 $19, 2038 $26, 2039 $28.
+Offsetting the recommended package's residential bill increase for low- and moderate-income households over 2033-39 costs 13.5 / 14.6 / 15.6 $B (2025 dollars), 0.017 / 0.019 / 0.020 $T nominal. Annual increase per household: 2033 $8, 2034 $23, 2035 $31, 2036 $41, 2037 $49, 2038 $55, 2039 $52.
 
 ## Disaster preparedness and response package
 
@@ -82,8 +84,8 @@ Starting from current law (sourced):
 | D5 | core | CLI-7 | Wildfire risk reduction above the current baseline (Wildfire Crisis Strategy completion, community defensible space, prescribed-fire workforce) | 1.5 / 2.5 / 3.5 | 14 / 23 / 32 | 0.029 | 0.0 / 0.0 / 0.0 | time-limited capital (10-year program) | 46 |
 | D6 | core | CLI-7 | Extreme heat: heat as an eligible hazard, cooling-center and tree-canopy grants, CDC Climate-Ready States and Cities to all 50 states (LIHEAP cooling is in CLI-5) | 0.3 / 0.6 / 1.0 | 3 / 6 / 9 | 0.007 | 0.0 / 0.0 / 0.0 | permanent (pay-for at maturity) |  |
 | D7 | core | CLI-7 | Universal Survivor Application and estimate-based Public Assistance: program effect of faster, more complete aid (administration is priced in CAP-7) | 0.0 / 0.5 / 1.5 | 0 / 5 / 14 | 0.006 | 0.0 / 0.0 / 0.0 | permanent |  |
-| D8 | full | CLI-7 | Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, conditioned on state code adoption (CLI-8) | 1.5 / 3.0 / 5.0 | 14 / 28 / 46 | 0.034 | 0.0 / 0.0 / 0.0 | permanent (pay-for at maturity) |  |
-| D9 | full | CLI-5C | Voluntary buyout and relocation program: 10,000-25,000 properties a year, receiving-community investment, renter relocation aid | 1.9 / 2.8 / 4.7 | 18 / 26 / 43 | 0.032 | 0.0 / 0.0 / 0.0 | time-limited capital (10-year program) | 57 |
+| D8 | fuller | CLI-7 | Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, available from FY2030 without waiting for a reinsurance backstop; states must adopt CLI-8 codes within three years to keep it | 1.5 / 3.0 / 5.0 | 14 / 28 / 46 | 0.034 | 0.0 / 0.0 / 0.0 | permanent (pay-for at maturity) |  |
+| D9 | fuller | CLI-5C | Voluntary buyout and relocation program: 10,000-25,000 properties a year, receiving-community investment, renter relocation aid | 1.9 / 2.8 / 4.7 | 18 / 26 / 43 | 0.032 | 0.0 / 0.0 / 0.0 | time-limited capital (10-year program) | 57 |
 | D10 | option | CLI-7C | Federal reinsurance backstop for residential catastrophe risk above a high attachment point, only in states with CLI-8 codes and disclosure | 0.0 / 0.0 / 0.0 | 0 / 0 / 0 | 0.000 | 0.0 / 0.0 / 0.0 | premiums priced to expected loss; Treasury line of credit repaid from later premiums (FAM-3 pattern) | contingent 250B |
 | R1 | counted_elsewhere | CAP-7 | FEMA staff restored (+5,000), cabinet-level independence, Universal Survivor Application build and regional rebuild | 0.6 / 0.9 / 1.3 | 6 / 9 / 12 | 0.011 | 0.5 / 1.0 / 1.8 | in CAP-7/CAP-7S |  |
 | R2 | counted_elsewhere | CAP-7S | Future-conditions national flood maps (FEMA) and NOAA precipitation and coastal data | 0.0 / 0.1 / 0.3 | 0 / 1 / 3 | 0.001 | 4.3 / 9.5 / 16.0 | in CAP-7S/CAP-7 |  |
@@ -91,7 +93,7 @@ Starting from current law (sourced):
 | Tier | 2030-39, $B 2025 | $T nominal | One-time, $B |
 | --- | --- | --- | --- |
 | core | 61 / 100 / 151 | 0.076 / 0.124 / 0.187 | 0.0 / 2.0 / 6.0 |
-| full | 31 / 54 / 90 | 0.039 / 0.067 / 0.111 | 0.0 / 0.0 / 0.0 |
+| fuller | 31 / 54 / 90 | 0.039 / 0.067 / 0.111 | 0.0 / 0.0 / 0.0 |
 | option | 0 / 0 / 0 | 0.000 / 0.000 / 0.000 | 0.0 / 0.0 / 0.0 |
 | counted_elsewhere | 6 / 10 / 15 | 0.007 / 0.012 / 0.018 | 4.8 / 10.5 / 17.8 |
 
@@ -113,6 +115,6 @@ Source hashes (SHA-256):
 - `index/tools/carbon/cfd-cex-2024.json`: `11f4b296801bc20d596eb1893138e734352bae0ef9527e13c1d35b99fc635588`
 - `build/carbon-config.json`: `d071842c0a91b03fcc44ab6c434fc9d68e2c568b7550fc668dc1f8b9498f25d3`
 - `index/tools/climate-portfolio/packages.py`: `5b0e5c45dec73d11c9aee36b406ad8d9b084192ee5abf80e44a527103ff3b92b`
-- `index/tools/climate-portfolio/packages.json`: `6d3d1401921bedc08280938c4684f5218932d77daa9a12301d5d7ba50cc77177`
-- `index/tools/climate-portfolio/pricing.py`: `e475fb2037ea93106179988e0e29a5eea43a635b97a1fddc6724231d24239922`
-- `index/tools/climate-portfolio/pricing.json`: `3de8a0311df776a59854dafe5bfd0d38666bb27e995599bfaa535a94c88f2ae7`
+- `index/tools/climate-portfolio/packages.json`: `c4c4327e7e15950d08faf967e30ccd1d8dc51ef6e2bf1a78b843467b4765b21c`
+- `index/tools/climate-portfolio/pricing.py`: `fd99de7cd21dc312dfa6b69c2c63e81c8558ae4155c75e925c6fc660b7ae41fc`
+- `index/tools/climate-portfolio/pricing.json`: `779678d1fa6bb9e0b005475b9c63fb300f3e81d0b9041589aab009940d888138`
