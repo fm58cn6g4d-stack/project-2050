@@ -10,60 +10,60 @@ Benchmarks: the 2035 NDC range is 61-66% below 2005 in net greenhouse gases; net
 
 | Case | Net GHG below 2005: 2035 / 2050 | Energy CO2 below 2005: 2035 / 2050 | Clean power 2035 | Extra energy CO2 avoided, Gt: 2030-35 / 2030-50 |
 | --- | --- | --- | --- | --- |
-| Decided package (fee, dividend, CLI-1A credits, CES, standards, grid statute, Weatherization heat pumps, methane fee) | 43% / 64% | 41% / 62% | 76% | +0.00 / +0.00 |
-| Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept | 43% / 64% | 41% / 62% | 76% | -0.06 / -0.40 |
-| Without the 25C heat-pump credit | 43% / 64% | 41% / 62% | 76% | -0.02 / -0.37 |
-| Without the wind, solar and storage credits (45Y/48E); transmission ITC kept | 43% / 64% | 41% / 62% | 75% | -0.03 / -0.21 |
-| Without industrial investment support and the 45V hydrogen credit | 42% / 64% | 40% / 62% | 75% | -0.12 / -0.81 |
-| Without the whole credit bundle (diagnostic only) | 41% / 63% | 39% / 61% | 74% | -0.33 / -2.20 |
-| Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED) | 45% / 64% | 43% / 63% | 82% | +0.36 / +1.62 |
-| Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain) | 44% / 64% | 42% / 63% | 79% | +0.19 / +0.96 |
-| Public grid at twice the assumed cost ($24B a year) | 45% / 64% | 43% / 63% | 82% | +0.36 / +1.62 |
-| Redirect test: public grid replaces the wind, solar and storage credits | 45% / 64% | 43% / 63% | 81% | +0.32 / +1.43 |
-| Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package) | 43% / 65% | 41% / 63% | 75% | +0.01 / +0.35 |
-| Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%) | 43% / 64% | 41% / 63% | 75% | +0.07 / +0.49 |
-| Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection) | 43% / 64% | 41% / 63% | 76% | +0.03 / +0.44 |
-| Portfolio: public grid plus tripled low-income heat-pump retrofits | 45% / 65% | 43% / 64% | 81% | +0.37 / +2.08 |
-| Portfolio: public grid plus the nuclear program | 45% / 65% | 44% / 63% | 82% | +0.38 / +1.84 |
-| Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit) | 42% / 58% | 40% / 56% | 75% | -0.37 / -4.12 |
-| Public grid, then the 2037 repeal | 44% / 58% | 42% / 57% | 81% | -0.03 / -2.90 |
-| Fee repealed from 2033 (credits, CES and standards carry on) | 40% / 58% | 38% / 56% | 73% | -1.01 / -5.15 |
-| Public grid, then the fee repealed from 2033 | 42% / 58% | 40% / 57% | 78% | -0.70 / -4.32 |
-| Stress: CLI-4 standards struck down or not enforced (vehicle and power rules off) | 43% / 59% | 41% / 57% | 76% | -0.03 / -2.13 |
-| Vehicle credits removed when the standards are gone (changes against: no_standards) | 42% / 57% | 40% / 55% | 77% | -0.10 / -1.83 |
+| Decided package (fee, dividend, CLI-1A credits, CES, standards, grid statute, Weatherization heat pumps, methane fee) | 44% / 67% | 42% / 66% | 75% | +0.00 / +0.00 |
+| Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept | 44% / 67% | 42% / 66% | 75% | -0.06 / -0.37 |
+| Without the 25C heat-pump credit | 44% / 67% | 42% / 65% | 76% | -0.02 / -0.39 |
+| Without the wind, solar and storage credits (45Y/48E); transmission ITC kept | 44% / 67% | 42% / 66% | 74% | -0.04 / -0.16 |
+| Without industrial investment support and the 45V hydrogen credit | 43% / 67% | 41% / 66% | 74% | -0.13 / -0.75 |
+| Without the whole credit bundle (diagnostic only) | 42% / 66% | 40% / 65% | 73% | -0.35 / -2.20 |
+| Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED) | 46% / 68% | 44% / 66% | 81% | +0.36 / +1.84 |
+| Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain) | 45% / 68% | 43% / 66% | 78% | +0.19 / +1.10 |
+| Public grid at twice the assumed cost ($24B a year) | 46% / 68% | 44% / 66% | 81% | +0.36 / +1.84 |
+| Redirect test: public grid replaces the wind, solar and storage credits | 46% / 68% | 44% / 66% | 81% | +0.34 / +1.73 |
+| Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package) | 44% / 68% | 42% / 66% | 75% | +0.01 / +0.35 |
+| Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%) | 44% / 68% | 42% / 66% | 75% | +0.07 / +0.36 |
+| Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection) | 44% / 68% | 42% / 66% | 76% | +0.03 / +0.50 |
+| Portfolio: public grid plus tripled low-income heat-pump retrofits | 46% / 68% | 44% / 67% | 80% | +0.37 / +2.23 |
+| Portfolio: public grid plus the nuclear program | 46% / 68% | 44% / 66% | 81% | +0.38 / +2.02 |
+| Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit) | 42% / 58% | 40% / 57% | 75% | -0.41 / -5.98 |
+| Public grid, then the 2037 repeal | 44% / 58% | 43% / 57% | 81% | -0.06 / -4.75 |
+| Fee repealed from 2033 (credits, CES and standards carry on) | 40% / 58% | 38% / 56% | 73% | -1.19 / -7.34 |
+| Public grid, then the fee repealed from 2033 | 42% / 58% | 40% / 57% | 78% | -0.88 / -6.51 |
+| Stress: CLI-4 standards struck down or not enforced (vehicle and power rules off) | 44% / 62% | 42% / 61% | 75% | -0.03 / -2.09 |
+| Vehicle credits removed when the standards are gone (changes against: no_standards) | 43% / 60% | 41% / 58% | 76% | -0.10 / -1.82 |
 | Wind, solar and storage credits removed when the fee is repealed from 2033 (changes against: repeal_2033) | 39% / 58% | 37% / 56% | 70% | -0.31 / -0.59 |
-| Redirect test with weak grid delivery | 44% / 64% | 42% / 62% | 79% | +0.16 / +0.78 |
+| Redirect test with weak grid delivery | 45% / 68% | 43% / 66% | 78% | +0.16 / +0.99 |
 | Redirect test, then the fee repealed from 2033 (changes against: repeal_2033) | 41% / 58% | 39% / 57% | 74% | -0.17 / +0.09 |
 
-The decided package reaches 43% below 2005 in 2035 and 64% in 2050 in this model: 18 points short of the bottom of the NDC range and 36 points short of net zero. The model responds more slowly than the large published models in the first decade (see the carbon model report), so the shortfall is likely overstated, but no case below closes it.
+The decided package reaches 44% below 2005 in 2035 and 67% in 2050 in this model: 17 points short of the bottom of the NDC range and 33 points short of net zero. The model responds more slowly than the large published models in the first decade (see the carbon model report), so the shortfall is likely overstated, but no case below closes it.
 
 ## Cost, cost per ton and fee interactions
 
 | Case | Extra outlays, $B 2025: 2030-39 / 2030-50 | Extra outlays 2030-39, $T nominal | Cost per extra ton, $ (undiscounted / 3% discounted) | REV-C1 change 2030-39, $T nominal | Dividend per adult 2035, $ nominal |
 | --- | --- | --- | --- | --- | --- |
-| Decided package (fee, dividend, CLI-1A credits, CES, standards, grid statute, Weatherization heat pumps, methane fee) | -0 / -0 | -0.000 | n/a | +0.000 | 503 |
-| Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept | -454 / -533 | -0.568 | saves 1,348 per ton lost | -0.006 | 501 |
-| Without the 25C heat-pump credit | -28 / -30 | -0.034 | saves 83 per ton lost | +0.006 | 505 |
-| Without the wind, solar and storage credits (45Y/48E); transmission ITC kept | -431 / -555 | -0.533 | saves 2,584 per ton lost | +0.009 | 506 |
-| Without industrial investment support and the 45V hydrogen credit | -104 / -159 | -0.133 | saves 197 per ton lost | +0.034 | 513 |
-| Without the whole credit bundle (diagnostic only) | -1,210 / -1,498 | -1.508 | saves 680 per ton lost | +0.064 | 522 |
-| Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED) | +91 / +38 | +0.103 | 24 / 43 | -0.082 | 474 |
-| Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain) | +118 / +97 | +0.141 | 101 / 129 | -0.046 | 487 |
-| Public grid at twice the assumed cost ($24B a year) | +211 / +158 | +0.251 | 98 / 127 | -0.082 | 474 |
-| Redirect test: public grid replaces the wind, solar and storage credits | -329 / -458 | -0.408 | n/a | -0.077 | 476 |
-| Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package) | +67 / +68 | +0.084 | 193 / 257 | -0.004 | 503 |
-| Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%) | +27 / +37 | +0.034 | 75 / 85 | -0.016 | 499 |
-| Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection) | +102 / +131 | +0.130 | 298 / 341 | -0.011 | 500 |
-| Portfolio: public grid plus tripled low-income heat-pump retrofits | +233 / +218 | +0.282 | 105 / 128 | -0.090 | 473 |
-| Portfolio: public grid plus the nuclear program | +154 / +114 | +0.181 | 62 / 83 | -0.088 | 471 |
-| Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit) | -160 / -293 | -0.214 | saves 71 per ton lost | -0.582 | 517 |
-| Public grid, then the 2037 repeal | +4 / -151 | -0.017 | saves 52 per ton lost | -0.617 | 489 |
-| Fee repealed from 2033 (credits, CES and standards carry on) | +20 / +27 | +0.027 | n/a | -1.243 | 0 |
-| Public grid, then the fee repealed from 2033 | +131 / +70 | +0.154 | n/a | -1.245 | 0 |
-| Stress: CLI-4 standards struck down or not enforced (vehicle and power rules off) | -39 / -58 | -0.050 | saves 27 per ton lost | -0.001 | 503 |
-| Vehicle credits removed when the standards are gone (changes against: no_standards) | -460 / -535 | -0.577 | saves 293 per ton lost | -0.014 | 499 |
+| Decided package (fee, dividend, CLI-1A credits, CES, standards, grid statute, Weatherization heat pumps, methane fee) | -0 / -0 | -0.000 | n/a | +0.000 | 681 |
+| Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept | -454 / -533 | -0.569 | saves 1,454 per ton lost | -0.009 | 678 |
+| Without the 25C heat-pump credit | -35 / -38 | -0.043 | saves 97 per ton lost | +0.010 | 683 |
+| Without the wind, solar and storage credits (45Y/48E); transmission ITC kept | -420 / -540 | -0.519 | saves 3,359 per ton lost | +0.013 | 685 |
+| Without industrial investment support and the 45V hydrogen credit | -63 / -99 | -0.078 | saves 133 per ton lost | +0.046 | 695 |
+| Without the whole credit bundle (diagnostic only) | -1,224 / -1,522 | -1.526 | saves 691 per ton lost | +0.093 | 707 |
+| Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED) | +165 / +150 | +0.198 | 82 / 100 | -0.129 | 639 |
+| Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain) | +117 / +98 | +0.140 | 89 / 115 | -0.067 | 659 |
+| Public grid at twice the assumed cost ($24B a year) | +285 / +270 | +0.346 | 147 / 176 | -0.129 | 639 |
+| Redirect test: public grid replaces the wind, solar and storage credits | -318 / -446 | -0.395 | n/a | -0.124 | 642 |
+| Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package) | +119 / +151 | +0.152 | 433 / 525 | -0.007 | 680 |
+| Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%) | +33 / +45 | +0.042 | 126 / 140 | -0.018 | 676 |
+| Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection) | +106 / +156 | +0.135 | 311 / 354 | -0.015 | 677 |
+| Portfolio: public grid plus tripled low-income heat-pump retrofits | +232 / +218 | +0.281 | 98 / 120 | -0.136 | 638 |
+| Portfolio: public grid plus the nuclear program | +160 / +123 | +0.189 | 61 / 80 | -0.136 | 635 |
+| Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit) | -178 / -326 | -0.237 | saves 54 per ton lost | -0.831 | 708 |
+| Public grid, then the 2037 repeal | -88 / -291 | -0.135 | saves 61 per ton lost | -0.878 | 669 |
+| Fee repealed from 2033 (credits, CES and standards carry on) | +7 / +3 | +0.010 | n/a | -1.708 | 0 |
+| Public grid, then the fee repealed from 2033 | +117 / +46 | +0.136 | n/a | -1.709 | 0 |
+| Stress: CLI-4 standards struck down or not enforced (vehicle and power rules off) | -40 / -59 | -0.051 | saves 28 per ton lost | -0.002 | 681 |
+| Vehicle credits removed when the standards are gone (changes against: no_standards) | -461 / -534 | -0.577 | saves 293 per ton lost | -0.020 | 674 |
 | Wind, solar and storage credits removed when the fee is repealed from 2033 (changes against: repeal_2033) | -461 / -614 | -0.571 | saves 1,033 per ton lost | +0.005 | 0 |
-| Redirect test with weak grid delivery | -320 / -447 | -0.397 | n/a | -0.041 | 490 |
+| Redirect test with weak grid delivery | -318 / -441 | -0.395 | n/a | -0.062 | 662 |
 | Redirect test, then the fee repealed from 2033 (changes against: repeal_2033) | -350 / -504 | -0.436 | n/a | +0.005 | 0 |
 
 **Cost notes.**
@@ -72,7 +72,7 @@ The decided package reaches 43% below 2005 in 2035 and 64% in 2050 in this model
 - Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package): external cost 67.5B (45.0-112.5B), estimate: 0.5 million extra homes a year for 2031-39 at $15,000 a home ($10,000-25,000) for a heat pump with weatherization; DOE's Weatherization average-cost-per-unit limit (about $8,500 in 2025 state plans) covers shell work only.
 - Portfolio: public grid plus tripled low-income heat-pump retrofits: external cost 67.5B (45.0-112.5B), estimate: 0.5 million extra homes a year for 2031-39 at $15,000 a home ($10,000-25,000) for a heat pump with weatherization; DOE's Weatherization average-cost-per-unit limit (about $8,500 in 2025 state plans) covers shell work only.
 
-The package's modeled outlays are 1.51T nominal in 2030-39 (power side 0.62T), against the ledger's $0.90T for CLI-1A plus about $0.22T for CLI-5's transmission ITC and 45X lines. The model prices take-up off a larger clean build, so its absolute level is a high-end cross-check; the comparisons use its differences, which share that bias.
+The package's modeled outlays are 1.53T nominal in 2030-39 (power side 0.62T), against the ledger's $0.90T for CLI-1A plus about $0.22T for CLI-5's transmission ITC and 45X lines. The model prices take-up off a larger clean build, so its absolute level is a high-end cross-check; the comparisons use its differences, which share that bias.
 
 ## Household electricity bills
 
@@ -80,29 +80,29 @@ Change in the average residential bill against the decided package, $ a month in
 
 | Case | 2030 | 2035 | 2040 | 2050 | Retail price 2035, cents/kWh (2025 $) |
 | --- | --- | --- | --- | --- | --- |
-| Decided package (fee, dividend, CLI-1A credits, CES, standards, grid statute, Weatherization heat pumps, methane fee) | +0.00 | +0.00 | +0.00 | +0.00 | 15.45 |
-| Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept | +0.00 | -0.13 | -0.22 | -0.08 | 15.44 |
-| Without the 25C heat-pump credit | +0.00 | -0.21 | -0.39 | -0.20 | 15.43 |
-| Without the wind, solar and storage credits (45Y/48E); transmission ITC kept | +0.00 | +2.29 | +3.59 | +2.76 | 15.70 |
-| Without industrial investment support and the 45V hydrogen credit | +0.00 | -0.29 | +0.28 | -0.04 | 15.42 |
-| Without the whole credit bundle (diagnostic only) | +0.00 | +1.13 | +3.01 | +1.83 | 15.57 |
-| Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED) | +0.00 | -0.29 | -0.13 | -1.37 | 15.42 |
-| Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain) | +0.00 | -0.10 | -0.14 | -0.40 | 15.44 |
-| Public grid at twice the assumed cost ($24B a year) | +0.00 | -0.29 | -0.13 | -1.37 | 15.42 |
-| Redirect test: public grid replaces the wind, solar and storage credits | +0.00 | +2.74 | +3.18 | +1.35 | 15.75 |
-| Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package) | +0.00 | +0.12 | +0.25 | +0.17 | 15.46 |
-| Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%) | +0.00 | +0.12 | +0.19 | +0.06 | 15.46 |
-| Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection) | +0.00 | +0.05 | -0.52 | -1.58 | 15.45 |
-| Portfolio: public grid plus tripled low-income heat-pump retrofits | +0.00 | -0.15 | -0.63 | -1.59 | 15.43 |
-| Portfolio: public grid plus the nuclear program | +0.00 | -0.24 | -0.29 | -2.47 | 15.42 |
-| Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit) | -0.63 | -0.61 | -4.66 | -7.31 | 15.38 |
-| Public grid, then the 2037 repeal | -0.63 | -0.88 | -4.55 | -8.15 | 15.35 |
-| Fee repealed from 2033 (credits, CES and standards carry on) | -1.66 | -7.90 | -5.64 | -7.92 | 14.57 |
-| Public grid, then the fee repealed from 2033 | -1.66 | -7.32 | -5.44 | -9.03 | 14.63 |
-| Stress: CLI-4 standards struck down or not enforced (vehicle and power rules off) | +0.00 | -0.03 | -0.07 | -0.33 | 15.45 |
-| Vehicle credits removed when the standards are gone (changes against: no_standards) | +0.00 | -0.22 | -0.66 | -0.58 | 15.42 |
+| Decided package (fee, dividend, CLI-1A credits, CES, standards, grid statute, Weatherization heat pumps, methane fee) | +0.00 | +0.00 | +0.00 | +0.00 | 15.70 |
+| Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept | +0.00 | -0.14 | -0.27 | -0.17 | 15.68 |
+| Without the 25C heat-pump credit | +0.00 | -0.27 | -0.55 | -0.27 | 15.67 |
+| Without the wind, solar and storage credits (45Y/48E); transmission ITC kept | +0.00 | +2.29 | +3.59 | +2.78 | 15.95 |
+| Without industrial investment support and the 45V hydrogen credit | +0.00 | -0.24 | +0.00 | -0.50 | 15.67 |
+| Without the whole credit bundle (diagnostic only) | +0.00 | +1.16 | +3.44 | +1.73 | 15.83 |
+| Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED) | +0.00 | -0.52 | -1.82 | -1.58 | 15.64 |
+| Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain) | +0.00 | -0.22 | -0.73 | -0.21 | 15.67 |
+| Public grid at twice the assumed cost ($24B a year) | +0.00 | -0.52 | -1.82 | -1.58 | 15.64 |
+| Redirect test: public grid replaces the wind, solar and storage credits | +0.00 | +2.44 | +2.11 | +1.61 | 15.97 |
+| Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package) | +0.00 | +0.14 | -0.34 | -0.24 | 15.71 |
+| Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%) | +0.00 | +0.07 | +0.07 | +0.03 | 15.71 |
+| Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection) | +0.00 | +0.01 | -0.83 | -1.91 | 15.70 |
+| Portfolio: public grid plus tripled low-income heat-pump retrofits | +0.00 | -0.37 | -1.53 | -1.26 | 15.66 |
+| Portfolio: public grid plus the nuclear program | +0.00 | -0.50 | -1.38 | -2.44 | 15.64 |
+| Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit) | -0.53 | -0.82 | -6.90 | -8.46 | 15.61 |
+| Public grid, then the 2037 repeal | -0.53 | -1.41 | -5.92 | -8.60 | 15.54 |
+| Fee repealed from 2033 (credits, CES and standards carry on) | -2.09 | -10.14 | -8.16 | -9.35 | 14.57 |
+| Public grid, then the fee repealed from 2033 | -2.09 | -9.56 | -7.97 | -10.45 | 14.63 |
+| Stress: CLI-4 standards struck down or not enforced (vehicle and power rules off) | +0.00 | -0.03 | -0.11 | -0.33 | 15.69 |
+| Vehicle credits removed when the standards are gone (changes against: no_standards) | +0.00 | -0.25 | -0.81 | -0.42 | 15.67 |
 | Wind, solar and storage credits removed when the fee is repealed from 2033 (changes against: repeal_2033) | +0.00 | +1.95 | +3.90 | +3.57 | 14.79 |
-| Redirect test with weak grid delivery | +0.00 | +2.51 | +3.33 | +2.39 | 15.73 |
+| Redirect test with weak grid delivery | +0.00 | +2.35 | +2.72 | +2.54 | 15.96 |
 | Redirect test, then the fee repealed from 2033 (changes against: repeal_2033) | +0.00 | +2.60 | +4.70 | +2.93 | 14.86 |
 
 **Carbon channel per household in 2035, change against the decided package** ($, 2025 dollars; dividend, fee costs and electricity together, from the model's household module):
@@ -110,28 +110,28 @@ Change in the average residential bill against the decided package, $ a month in
 | Case | All consumer units | Lowest 20 percent | Second 20 percent | Third 20 percent | Fourth 20 percent | Highest 20 percent |
 | --- | --- | --- | --- | --- | --- | --- |
 | Decided package (fee, dividend, CLI-1A credits, CES, standards, grid statute, Weatherization heat pumps, methane fee) | +0 | +0 | +0 | +0 | +0 | +0 |
-| Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept | +1 | -0 | -0 | +0 | +1 | +3 |
-| Without the 25C heat-pump credit | -1 | +0 | -0 | +0 | -0 | -2 |
-| Without the wind, solar and storage credits (45Y/48E); transmission ITC kept | -1 | -6 | -7 | -4 | +0 | +13 |
-| Without industrial investment support and the 45V hydrogen credit | -4 | +3 | +3 | +1 | -3 | -18 |
-| Without the whole credit bundle (diagnostic only) | -7 | +0 | -1 | -1 | -6 | -20 |
-| Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED) | +12 | -6 | -5 | -1 | +10 | +48 |
-| Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain) | +7 | -3 | -3 | -1 | +6 | +26 |
-| Public grid at twice the assumed cost ($24B a year) | +12 | -6 | -5 | -1 | +10 | +48 |
-| Redirect test: public grid replaces the wind, solar and storage credits | +11 | -15 | -15 | -6 | +11 | +68 |
-| Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package) | +0 | -0 | +0 | -0 | +0 | +1 |
-| Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%) | +2 | -1 | -1 | -0 | +2 | +9 |
-| Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection) | +1 | -1 | -1 | -0 | +1 | +6 |
-| Portfolio: public grid plus tripled low-income heat-pump retrofits | +13 | -6 | -5 | -1 | +11 | +50 |
-| Portfolio: public grid plus the nuclear program | +13 | -7 | -6 | -1 | +11 | +53 |
-| Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit) | -6 | +5 | +4 | +1 | -5 | -26 |
-| Public grid, then the 2037 repeal | +6 | -1 | -1 | +1 | +5 | +19 |
-| Fee repealed from 2033 (credits, CES and standards carry on) | +186 | -87 | -67 | -18 | +149 | +706 |
-| Public grid, then the fee repealed from 2033 | +179 | -92 | -73 | -25 | +141 | +697 |
+| Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept | +1 | -0 | -0 | +0 | +1 | +4 |
+| Without the 25C heat-pump credit | -1 | +0 | -0 | +0 | -1 | -3 |
+| Without the wind, solar and storage credits (45Y/48E); transmission ITC kept | -2 | -6 | -7 | -4 | -0 | +10 |
+| Without industrial investment support and the 45V hydrogen credit | -6 | +4 | +4 | +1 | -5 | -25 |
+| Without the whole credit bundle (diagnostic only) | -11 | +1 | -0 | -1 | -9 | -32 |
+| Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED) | +17 | -8 | -7 | -1 | +14 | +66 |
+| Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain) | +9 | -4 | -4 | -1 | +8 | +36 |
+| Public grid at twice the assumed cost ($24B a year) | +17 | -8 | -7 | -1 | +14 | +66 |
+| Redirect test: public grid replaces the wind, solar and storage credits | +16 | -17 | -17 | -6 | +15 | +85 |
+| Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package) | +1 | -0 | +0 | -0 | +0 | +2 |
+| Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%) | +2 | -1 | -1 | -0 | +2 | +10 |
+| Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection) | +2 | -1 | -1 | -0 | +2 | +7 |
+| Portfolio: public grid plus tripled low-income heat-pump retrofits | +18 | -8 | -7 | -1 | +15 | +68 |
+| Portfolio: public grid plus the nuclear program | +19 | -9 | -8 | -1 | +16 | +73 |
+| Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit) | -11 | +8 | +7 | +2 | -10 | -50 |
+| Public grid, then the 2037 repeal | +5 | +1 | +1 | +1 | +4 | +12 |
+| Fee repealed from 2033 (credits, CES and standards carry on) | +259 | -116 | -88 | -20 | +210 | +973 |
+| Public grid, then the fee repealed from 2033 | +252 | -121 | -94 | -26 | +202 | +964 |
 | Stress: CLI-4 standards struck down or not enforced (vehicle and power rules off) | +0 | -0 | -0 | +0 | +0 | +1 |
-| Vehicle credits removed when the standards are gone (changes against: no_standards) | +2 | -0 | -0 | +0 | +1 | +6 |
+| Vehicle credits removed when the standards are gone (changes against: no_standards) | +2 | -1 | -0 | +0 | +2 | +8 |
 | Wind, solar and storage credits removed when the fee is repealed from 2033 (changes against: repeal_2033) | -23 | -16 | -21 | -23 | -25 | -30 |
-| Redirect test with weak grid delivery | +6 | -11 | -11 | -5 | +6 | +42 |
+| Redirect test with weak grid delivery | +8 | -12 | -12 | -5 | +8 | +50 |
 | Redirect test, then the fee repealed from 2033 (changes against: repeal_2033) | -31 | -21 | -28 | -30 | -34 | -40 |
 
 ## Reproduction
@@ -146,4 +146,4 @@ Source hashes (SHA-256):
 - `index/tools/carbon/cfd-model.js`: `0f6ae48c97b7bea35d353ca04e669cd58e45963b2d516422fb2985385dca2b7a`
 - `index/tools/carbon/cfd-households.js`: `c376c045092a976e24e1e6a0634763bfcd53153f59a719a2bc4d3f447d1968d4`
 - `index/tools/carbon/cfd-cex-2024.json`: `11f4b296801bc20d596eb1893138e734352bae0ef9527e13c1d35b99fc635588`
-- `build/carbon-config.json`: `d071842c0a91b03fcc44ab6c434fc9d68e2c568b7550fc668dc1f8b9498f25d3`
+- `build/carbon-config.json`: `58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608`

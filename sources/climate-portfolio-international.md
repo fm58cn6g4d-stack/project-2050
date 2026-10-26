@@ -15,8 +15,8 @@
   - about **$114B over 2030-39** (2025 dollars; $0.14T nominal).
 
   That adds about **8 points** to the 2035 result. Under Espen's 50% domestic floor, though, international tons count only once domestic action reaches 50% below 2005.
-  - **Without extra domestic steps:** domestic action reaches 49.6% in the mid case, just short of the floor, so none of the international tons count.
-  - **With two added domestic steps** (a clean-heat standard and clean-industry support raised to 50%): domestic action reaches about 50.2%, and the counted total is about **58%** below 2005. The two steps add about 0.65 points in 2035, cost about $79B in outlays over 2030-39 (2025 dollars) and add about $1 a month to the 2040 bill.
+  - **The two floor measures are now inside Package A** (Oct 26): a clean-heat standard and clean-industry support at 50%. With the approved $150 price in the baseline, domestic action reaches about 50.2% in the mid case (49.1-52.0%), and the counted total is about **58%** below 2005 (49.1 / 58.0 / 67.0%). In the low case the floor is still missed, and no international tons count.
+  - Before the floor measures were added, domestic action reached 49.6% in the mid case, just short of the floor.
 
   Reaching 61% needs about 750 Mt, which only the high-supply case reaches. Reaching 66% needs about 1.1 Gt.
 - **Against domestic action:** beyond Package A, the next domestic steps add about one point in 2035 for about $160B of outlays plus higher bills. The 2035 gap is mostly about how slowly vehicles, furnaces and plants get replaced, which money can't speed up much in nine years. International purchases are roughly ten times cheaper per 2035 point.
@@ -52,7 +52,7 @@ Your instinct that development aid will increasingly be organized around climate
   - Clawback for reversals; an integrity reserve.
   - Public reporting of domestic and international tons separately.
 - **Size:** about 510 Mt a year by 2035 (225-980), ramping from about 50 Mt in 2030. That is about $15.6B in 2035 ($3.6-60B) and $114B over 2030-39 ($26-437B).
-- **Counting rule (decided by Espen; applied as a threshold):** international tons count toward the 2035 benchmark only when domestic reductions reach at least 50% below 2005. Package A plus CLI-13 reaches 49.6% in the mid case, so the floor measures above are needed. International tons do not count toward the 2050 net-zero goal, which is met at home with removals. After 2035, purchases taper as domestic cuts and removals grow. The pricing holds the full 2035 volume through 2039, which is conservative for cost.
+- **Counting rule (decided by Espen; applied as a threshold):** international tons count toward the 2035 benchmark only when domestic reductions reach at least 50% below 2005. Package A plus CLI-13 reaches about 50.2% in the mid case now that the floor measures are inside it (49.6% without them). International tons do not count toward the 2050 net-zero goal, which is met at home with removals. After 2035, purchases taper as domestic cuts and removals grow. The pricing holds the full 2035 volume through 2039, which is conservative for cost.
 
 **2. Loss and damage (climate finance, never emissions).** A US contribution of about $1-3B a year (about $20B over 2030-39) to the Fund for Responding to Loss and Damage.
 - The fund had about $768M pledged from 28 countries, $250M available against up to $3B of requests, and first disbursements slipping to the end of 2026.
@@ -104,7 +104,7 @@ Your instinct that development aid will increasingly be organized around climate
 3. **Treaties:** "yes rejoin paris, and rejoin UNFCCC if withdrawal has occurred by then (or halt withdrawal if in progress)."
 
 **Decided under the delegation: scale.** The most defensible choice is **the mid case as the contracted plan, with a conditional route toward 61%.**
-- **Contract for the mid case.** That is about 510 Mt a year by 2035, at about $31 a ton including the integrity reserve: about $15.6B in 2035 and $114B over 2030-39 (2025 dollars). With the floor measures it gives a counted total of about 58% below 2005; without them, none of the international tons count in the mid case.
+- **Contract for the mid case.** That is about 510 Mt a year by 2035, at about $31 a ton including the integrity reserve: about $15.6B in 2035 and $114B over 2030-39 (2025 dollars). With the floor measures now inside Package A, it gives a counted total of about 58% below 2005; without them, none of the international tons would count in the mid case.
 - **Why not plan on 61% now.** The Article 6 market has delivered about 65,000 tons in total. Most legacy credits overstated their results. The 750 Mt case needs every source near its high end. Planning on it would make the 2035 claim depend on volumes no one has yet shown can be delivered with integrity.
 - **The conditional route.** Purchases scale toward about 750 Mt (61%) only if independently verified deliveries reach at least 250 Mt a year by 2032 with reversals under 5%. If they do, contract authority rises to fund the extra tons, about $10-15B more a year by 2035, subject to financing.
 - **If deliveries fall short,** the plan reports the shortfall rather than counting weaker credits.

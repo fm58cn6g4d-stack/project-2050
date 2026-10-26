@@ -43,9 +43,12 @@ def main():
     pts = tri(lambda i: vol[i] / base)
     floor = a['domestic_floor']
     dg = pk['diagnostics']; fm = a['floor_measures']
-    fm_pts = dg[fm['diagnostic_to']]['net_ghg_below_2005_2035'] - dg[fm['diagnostic_from']]['net_ghg_below_2005_2035']
-    fm_cost = dg[fm['diagnostic_to']]['outlays_bn_2025_2030_39'] - dg[fm['diagnostic_from']]['outlays_bn_2025_2030_39']
-    fm_bill = dg[fm['diagnostic_to']]['bill_change_month_2040'] - dg[fm['diagnostic_from']]['bill_change_month_2040']
+    if fm.get('included'):                                                   # floor measures already inside Package A (Oct 26)
+        fm_pts = fm_cost = fm_bill = 0.0
+    else:
+        fm_pts = dg[fm['diagnostic_to']]['net_ghg_below_2005_2035'] - dg[fm['diagnostic_from']]['net_ghg_below_2005_2035']
+        fm_cost = dg[fm['diagnostic_to']]['outlays_bn_2025_2030_39'] - dg[fm['diagnostic_from']]['outlays_bn_2025_2030_39']
+        fm_bill = dg[fm['diagnostic_to']]['bill_change_month_2040'] - dg[fm['diagnostic_from']]['bill_change_month_2040']
     dom_fm = tri(lambda i: dom_pts[i] + fm_pts)
     counted = lambda dom, i: pts[i] if dom[i] >= floor else 0.0          # threshold rule
     total_no_fm = tri(lambda i: dom_pts[i] + counted(dom_pts, i))

@@ -201,8 +201,10 @@ def main():
     (out / 'climate-portfolio-packages.json').write_text(json.dumps(data, indent=1, sort_keys=True) + '\n')
     (out / 'climate-portfolio-packages.md').write_text(md)
     if args.write:
-        for name in ('climate-portfolio-packages.json', 'climate-portfolio-packages.md'):
-            (ROOT / 'sources' / name).write_text((out / name).read_text())
+        # The committed copy omits the per-package rows (about 15 MB); rerun the tool for them in build/
+        slim = dict(data, results=None, results_note=f'{len(res)} package rows omitted from the committed copy; build/climate-portfolio/ holds them')
+        (ROOT / 'sources/climate-portfolio-packages.json').write_text(json.dumps(slim, indent=1, sort_keys=True) + '\n')
+        (ROOT / 'sources/climate-portfolio-packages.md').write_text(md)
     print(f"{len(res)} packages; frontier {len(front)}")
 
 

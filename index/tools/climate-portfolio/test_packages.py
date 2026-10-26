@@ -26,7 +26,8 @@ for l in a['levers']:
 check('every combination was run', d['n_packages'] == n == len(R))
 b = R[key()]
 check('decided package has zero deltas', abs(b['outlays_bn_2025_2030_39']) < 1e-9 and abs(b['extra_avoided_net_ghg_gt_2030_50']) < 1e-9)
-wx_on, wx_off = R[key(wx='on')], R[key()]
+# Under kept credits at $150 the extra heat-pump load delays the IRA power-credit trigger (~$51B more credits), so test with standard-led credits
+wx_on, wx_off = R[key(wx='on', credits='standard_led')], R[key(credits='standard_led')]
 check('retrofit external cost is counted (about $67.5B)', 60 < wx_on['outlays_bn_2025_2030_39'] - wx_off['outlays_bn_2025_2030_39'] < 75)
 check('a carbon standard alone has no direct outlay', abs(R[key(ces='90by35')]['outlays_bn_2025_2030_39']) < 5)
 check('the pre-Oct 26 $100 path lowers REV-C1 receipts against the decided $150 path', R[key(price='old100')]['rev_c1_change_nominal_tn_2030_39'] < -0.2)
@@ -59,6 +60,11 @@ check('NFIP debt resolution is in the budget', items['nfip']['window_bn']['centr
 check('cases pair savings and costs consistently', bu['results']['favorable']['general_fund_window_bn'] < bu['results']['central']['general_fund_window_bn'] < bu['results']['conservative']['general_fund_window_bn'] < bu['results']['unfavorable']['general_fund_window_bn'])
 check('permanent items continue after 2039 while time-limited items stop', items['disaster_perm']['fy2050_bn']['central'] > 0 and items['grid']['fy2040_bn']['central'] == 0 and items['retrofits']['fy2040_bn']['central'] == 0)
 check('disaster tiers sum their rows', abs(sum(r['ten_year_bn_2025'][1] for r in pr['disaster']['rows'] if r['tier'] == 'core') - pr['disaster']['tiers']['core']['ten'][1]) < 1e-9)
+pay = bu['payment']
+check('O1 reproduces the D7 account result', all(abs(pay['O1']['cases'][k]['general_fund_window_bn'] - bu['results'][k]['general_fund_window_bn']) < 1e-6 for k in bu['cases']))
+check('O5 holds FY2040 and FY2050 at or below zero in every case', all(pay['O5']['cases'][k][f] <= 1e-6 for k in bu['cases'] for f in ('general_fund_fy2040_bn', 'general_fund_fy2050_bn')))
+check('O5 costs households less than O3', all(a > b for a, b in zip(pay['O5']['dividend_change_per_household_avg_2030_39'], pay['O3']['dividend_change_per_household_avg_2030_39'])))
+check('reinsurance stays an option outside the funded tiers', next(r for r in pr['disaster']['rows'] if r['id'] == 'D10')['tier'] == 'option')
 for name in ('climate-portfolio-packages.md', 'climate-portfolio-pricing.md', 'climate-portfolio-disaster-components.csv'):
     built, committed = ROOT / 'build/climate-portfolio' / name, ROOT / 'sources' / name
     if committed.exists():

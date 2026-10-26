@@ -35,14 +35,14 @@
   0.6697193297191926
  ],
  "counted_total_without_measures_2035": [
-  0.4841851421116927,
-  0.4956600503124271,
-  0.6631937100431492
+  0.4907107617877361,
+  0.5802150457534644,
+  0.6697193297191926
  ],
  "domestic_2035": [
-  0.4841851421116927,
-  0.4956600503124271,
-  0.5132549095535531
+  0.4907107617877361,
+  0.5021856699884705,
+  0.5197805292295965
  ],
  "domestic_floor": 0.5,
  "domestic_with_floor_measures_2035": [
@@ -51,10 +51,10 @@
   0.5197805292295965
  ],
  "floor_measures": {
-  "bill_2040_month": 1.0312845168716707,
-  "label": "clean-heat standard plus clean-industry support raised to 50% (packages.py diagnostics, steps 2-3)",
-  "outlays_bn_2025_2030_39": 78.67766209238991,
-  "points_2035": 0.0065256196760433705
+  "bill_2040_month": 0.0,
+  "label": "clean-heat standard plus clean-industry support at 50%, inside Package A since Oct 26, so they add nothing further here",
+  "outlays_bn_2025_2030_39": 0.0,
+  "points_2035": 0.0
  },
  "floor_met_with_measures": [
   false,
@@ -63,19 +63,19 @@
  ],
  "floor_met_without_measures": [
   false,
-  false,
+  true,
   true
  ],
  "gap_mt_2035": {
   "61%": [
-   632.3259111579766,
-   747.3259111579764,
-   822.3259111579763
+   589.6744609553572,
+   704.674460955357,
+   779.6744609553568
   ],
   "66%": [
-   959.1259111579769,
-   1074.1259111579766,
-   1149.1259111579766
+   916.4744609553575,
+   1031.4744609553572,
+   1106.474460955357
   ]
  },
  "ld_adaptation_fy2040_nominal_bn": [
@@ -98,16 +98,16 @@
   20.0,
   30.0
  ],
- "package_a_2035": 0.4750052155511052,
+ "package_a_2035": 0.48153083522714857,
  "points_2035": [
   0.03442472460220318,
   0.07802937576499389,
   0.1499388004895961
  ],
  "source_sha256": {
-  "index/tools/climate-portfolio/international.json": "8c86986883ce89e33c86b111606f8cc4dc89f287cb9793a1de70997f625ecaa2",
-  "index/tools/climate-portfolio/international.py": "aa97dbe285ad625426047dc1f482e786b7b776fed57c2144e60970ca096ecac4",
-  "sources/climate-portfolio-packages.json": "0ee70e15b68df00c0bfe3a977d473a20b79ea5b965edebd86887f4105ec1fb9d"
+  "index/tools/climate-portfolio/international.json": "e24e3480548d96201da32d96a4a41e2d71a0ec1fbd6896f4017884c9b3ae26f0",
+  "index/tools/climate-portfolio/international.py": "d22c894724e9693b7a2ae9fa104981650d3eee25bb6fa3c1aff01348b49e2151",
+  "sources/climate-portfolio-packages.json": "13299873669183b5c1853695d7cb948328c85c0c4049bcf9fbf583eff1d2cfa6"
  },
  "sources": [
   {
@@ -217,9 +217,9 @@
   7.154
  ],
  "total_2035": [
-  0.5300847749146302,
-  0.573689426077421,
-  0.6455988508020232
+  0.5366103945906736,
+  0.5802150457534644,
+  0.6521244704780665
  ],
  "volume_mt_2035": [
   225,

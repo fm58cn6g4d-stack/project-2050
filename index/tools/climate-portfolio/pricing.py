@@ -68,6 +68,7 @@ def main():
         'decided_standard_led': dict(base, credits='standard_led'),
         'recommended_keep_credits': dict(rec, credits='keep'),
         'recommended': rec,
+        'decided_old100': dict(base, price='old100'),
     }
     cases = []
     for name, ch in named.items():
@@ -185,6 +186,8 @@ def main():
     adults_2035 = rr[2035]['pop'] * 0.77
     budget['dividend_per_adult_2035_from_increment'] = ch['dividend_share'] * d_rev[2035] * defl(2035) * 1e9 / (adults_2035 * 1e6)
     budget['cx_per_adult_2035'] = ch['cx_share'] * d_rev[2035] * defl(2035) * 1e9 / (adults_2035 * 1e6)
+    budget['payment'] = payment_options(pr, items, CASES, YEARS, W10, d_rev, d_proc, defl, ch,
+                                        {y: c1(rd[y]) - c1(runs['decided_old100']['rows'][y]) for y in YEARS}, adults_2035)
     removal = om['removal']
     budget['removal_outside'] = dict(window_bn_2025=removal['cost_bn_2030_39'], mt_2050=removal['mt_2050'], run_rate_2050_bn_2025=pr['removal_run_rate_2050_bn'])
 
@@ -210,6 +213,61 @@ def main():
         if args.write:
             (ROOT / 'sources' / name).write_text(text)
     print(f"grid lean deficit cost mid {gf[1]['deficit_cost_bn'][1]:.0f}B; disaster core mid {tiers['core']['ten'][1]:.0f}B")
+
+
+PAY_OPTIONS = {
+    'O1': 'D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall',
+    'O2': 'CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment',
+    'O3': 'Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund',
+    'O4': "O3, plus the $150 step's unassigned transition increment (20% of the step) to the carbon channel",
+    'O5': "Process fee pays the package's net cost: the step's transition increment goes to the carbon channel; process receipts then cover any remaining "
+          "general-fund cost of the package each year; the rest follows D7",
+}
+QUINTILE_ADULTS = (1.3, 1.7, 2.0, 2.2, 2.4)   # adults per consumer unit, lowest to highest quintile (index/climate-carbon-model.md)
+
+
+def payment_options(pr, items, cases, years, w10, d_rev, d_proc, defl, ch, step_rev, adults_2035):
+    """General-fund result and dividend change of each way to pay for the package increment, nominal $B."""
+    out = {}
+    for o in PAY_OPTIONS:
+        res = {}
+        for k in cases:
+            gf, div = {}, {}
+            for y in years:
+                inc, proc = d_rev[y] * defl(y), d_proc[y] * defl(y)
+                comb = inc - proc
+                gf_items = sum(it['path'][k][y] for it in items if it['account'] == 'general fund' and it['id'] != 'cx')
+                chan = sum(it['path'][k][y] for it in items if it['account'] == 'carbon channel')
+                cx = ch['cx_share'] * inc
+                if o == 'O1':
+                    d, trans, gf_rcpt = ch['dividend_share'] * inc, ch['transition_share'] * inc, 0.0
+                elif o == 'O2':
+                    d, trans, gf_rcpt = (ch['dividend_share'] - ch['cx_share']) * inc, ch['transition_share'] * inc, ch['cx_share'] * inc
+                else:
+                    d, trans, gf_rcpt = ch['dividend_share'] * comb, ch['transition_share'] * comb + proc, 0.0
+                    if o == 'O4':
+                        trans += ch['transition_share'] * step_rev[y] * defl(y)
+                if o == 'O5':
+                    d, trans, gf_rcpt = ch['dividend_share'] * inc, ch['transition_share'] * inc + ch['transition_share'] * step_rev[y] * defl(y), 0.0
+                short, surplus = max(0.0, chan - trans), max(0.0, trans - chan)
+                gf[y] = gf_items + cx + short - gf_rcpt - (surplus if o in ('O3', 'O4') else 0.0)
+                if o == 'O5':
+                    divert = min(max(0.0, gf[y]), ch['dividend_share'] * max(0.0, proc))
+                    gf[y] -= divert; d -= divert
+                div[y] = d
+            res[k] = dict(general_fund_window_bn=sum(gf[y] for y in w10), general_fund_fy2040_bn=gf[2040], general_fund_fy2050_bn=gf[2050],
+                          dividend_window_bn=sum(div[y] for y in w10), dividend_2035_bn=div[2035], dividend_fy2050_bn=div[2050],
+                          dividend_vs_d7_window_bn=sum(div[y] - ch['dividend_share'] * d_rev[y] * defl(y) for y in w10),
+                          dividend_vs_d7_fy2050_bn=div[2050] - ch['dividend_share'] * d_rev[2050] * defl(2050))
+        # per adult against D7, central case: 2030-39 average and 2050, nominal dollars (adults held at the 2035 count; 2050 slightly overstated)
+        pa_w = res['central']['dividend_vs_d7_window_bn'] / 10 * 1e9 / (adults_2035 * 1e6)
+        pa_50 = res['central']['dividend_vs_d7_fy2050_bn'] * 1e9 / (adults_2035 * 1e6)
+        out[o] = dict(label=PAY_OPTIONS[o], cases=res, dividend_change_per_adult_avg_2030_39=pa_w, dividend_change_per_adult_2050=pa_50,
+                      dividend_change_per_household_avg_2030_39=[pa_w * a for a in QUINTILE_ADULTS],
+                      dividend_change_per_household_2050=[pa_50 * a for a in QUINTILE_ADULTS])
+    out['step_transition_bn'] = dict(window=sum(ch['transition_share'] * step_rev[y] * defl(y) for y in w10),
+                                     fy2040=ch['transition_share'] * step_rev[2040] * defl(2040))
+    return out
 
 
 def r3(x, d=0, sign=False):
@@ -248,9 +306,21 @@ def report(pr, d):
           f"Added REV-C1 receipts: {bu['rev_c1_change_bn']['window']:+,.0f}B over 2030-39 (FY2040 {bu['rev_c1_change_bn']['fy2040']:+,.0f}B), of which process coverage {bu['process_receipts_bn']['window']:+,.0f}B. "
           f"The dividend takes {bu['dividend_bn']['window']:+,.0f}B and the transition share {bu['transition_bn']['window']:+,.0f}B. "
           f"In 2035 the increment adds about ${bu['dividend_per_adult_2035_from_increment']:.0f} to each adult's dividend, and its CX offset costs the general fund the equivalent of about ${bu['cx_per_adult_2035']:.0f} an adult.", '',
-          f"**Ways to cover the general-fund cost (decisions, not applied):** (1) leave D7's split and finance the central ${R['central']['general_fund_window_bn']:,.0f}B (2030-39) and the post-2040 run rate in the revenue work; "
-          f"(2) send 25% of the added receipts to the general fund to cover the CX offset, which leaves the dividend 55% of the increment (about ${bu['dividend_per_adult_2035_from_increment'] * 55 / 80:.0f} an adult in 2035 instead of about ${bu['dividend_per_adult_2035_from_increment']:.0f}) and covers about ${bu['items'][1]['window_bn']['central']:,.0f}B; "
-          f"(3) keep process-emissions receipts outside the dividend (about ${0.8 * bu['process_receipts_bn']['window']:,.0f}B more for programs over 2030-39). Options 2 and 3 change D7's dividend share, so they are Espen's.", '',
+          '## Paying for the package: options', '',
+          "Each option applies to the package's increment over the decided package (the $150 path is already in the shared ledger). "
+          "General fund is nominal $B, favorable / central / conservative / unfavorable; a negative is a saving. The dividend columns are the change against D7 per consumer unit, "
+          "central case, nominal dollars, lowest to highest quintile (adults per unit 1.3 / 1.7 / 2.0 / 2.2 / 2.4). "
+          f"The $150 step's transition share not yet assigned in the shared ledger is about ${bu['payment']['step_transition_bn']['window']:,.0f}B over 2030-39 "
+          f"(${bu['payment']['step_transition_bn']['fy2040']:,.0f}B in FY2040). Options O2-O5 change how D7's split applies to new receipts, so they are Espen's.", '',
+          '| Option | General fund 2030-39 | FY2040 | FY2050 | Dividend change per unit, 2030-39 average | Dividend change per unit, 2050 |',
+          '| --- | --- | --- | --- | --- | --- |'] + [
+          f"| **{o}**: {bu['payment'][o]['label']} | {' / '.join(P.fmt(bu['payment'][o]['cases'][k]['general_fund_window_bn'], 0, sign=True) for k in C)} | "
+          f"{' / '.join(P.fmt(bu['payment'][o]['cases'][k]['general_fund_fy2040_bn'], 0, sign=True) for k in C)} | "
+          f"{' / '.join(P.fmt(bu['payment'][o]['cases'][k]['general_fund_fy2050_bn'], 0, sign=True) for k in C)} | "
+          f"{' / '.join(P.fmt(v, 0, sign=True) for v in bu['payment'][o]['dividend_change_per_household_avg_2030_39'])} | "
+          f"{' / '.join(P.fmt(v, 0, sign=True) for v in bu['payment'][o]['dividend_change_per_household_2050'])} |"
+          for o in PAY_OPTIONS] + ['',
+          f"**Proposed: {pr['payment_rule']['proposed']}** ({pr['payment_rule']['status']}). {pr['payment_rule']['why']}", '',
           f"**Removal purchases, outside the package.** About {r3(bu['removal_outside']['window_bn_2025'])} $B (2025 dollars) over 2030-39, rising to roughly {r3(bu['removal_outside']['run_rate_2050_bn_2025'])} $B a year by 2050 at "
           f"{r3(bu['removal_outside']['mt_2050'])} Mt. That continuing obligation needs its own financing decision and maturity test before it enters any selected package.", '']
     L += ['## Grid financing windows', '',
