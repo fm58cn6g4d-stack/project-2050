@@ -239,6 +239,31 @@ class Retry(unittest.TestCase):
         self.assertEqual(len(calls), 1)
 
 
+class MergePatience(unittest.TestCase):
+    class GH:
+        def __init__(self, errors):
+            self.errors, self.calls = list(errors), 0
+
+        def call(self, method, path, data=None):
+            self.calls += 1
+            if self.errors:
+                raise RuntimeError(self.errors.pop(0))
+            return {"merged": True}
+
+    PENDING = 'PUT /pulls/1/merge: 405 {"message":"Repository rule violations found 2 of 3 required status checks are pending."}'
+
+    def test_waits_for_statuses_to_register(self):
+        gh = self.GH([self.PENDING, self.PENDING])
+        self.assertEqual(g.merge_with_patience(gh, 1, {}, delays=(0, 0, 0)), {"merged": True})
+        self.assertEqual(gh.calls, 3)
+
+    def test_other_refusals_fail_at_once(self):
+        gh = self.GH(['PUT /pulls/1/merge: 405 {"message":"Pull Request is not mergeable"}'])
+        with self.assertRaises(RuntimeError):
+            g.merge_with_patience(gh, 1, {}, delays=(0, 0))
+        self.assertEqual(gh.calls, 1)
+
+
 class Digest(unittest.TestCase):
     def test_digest_lists_merged_and_waiting(self):
         old, os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_TOKEN"] = g.GitHub, "o/r", "x"

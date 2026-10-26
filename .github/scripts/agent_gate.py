@@ -490,15 +490,33 @@ def gate(args, policy):
 
     if ready:
         print(f"Merging #{n} at {head}")
-        gh.call("PUT", f"/pulls/{n}/merge", {"merge_method": "merge", "sha": head,
-                                             "commit_title": f"Merge PR #{n}: {pr['title']}"[:250],
-                                             "commit_message": f"Tier {tier}; {rev_desc}. Merged by the agent gate."})
+        merge_with_patience(gh, n, {"merge_method": "merge", "sha": head,
+                                    "commit_title": f"Merge PR #{n}: {pr['title']}"[:250],
+                                    "commit_message": f"Tier {tier}; {rev_desc}. Merged by the agent gate."})
         if tier == 2:
             gh.call("POST", f"/issues/{n}/comments", {"body": f"@{policy['espen_logins'][0]} merged automatically as "
                     "tier 2 (auto-merge and notify). Headline numbers that moved:\n\n" + headline_table(cls) + "\n\n" + FOOTER_BOT})
     else:
         print(f"Not merging: {why_not}")
     return 0
+
+
+def merge_with_patience(gh, n, body, delays=None):
+    """Merge, waiting briefly if GitHub has not yet registered the statuses this run just set.
+
+    On Oct 26 the gate set merge-tier and agent-review to success and asked to merge within a second; GitHub
+    refused with 405 "2 of 3 required status checks are pending". Retry only that refusal."""
+    for wait in (*(MERGE_DELAYS if delays is None else delays), None):
+        try:
+            return gh.call("PUT", f"/pulls/{n}/merge", body)
+        except RuntimeError as e:
+            if wait is None or " 405 " not in f" {e} " or "pending" not in str(e):
+                raise
+            print(f"Merge refused while statuses register; retrying in {wait}s")
+            time.sleep(wait)
+
+
+MERGE_DELAYS = (3, 6, 12)
 
 
 FOOTER_BOT = "---\n_Posted by the Project 2050 agent gate (`.github/scripts/agent_gate.py`)._"
