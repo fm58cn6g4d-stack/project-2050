@@ -129,3 +129,6 @@ All three ride reconciliation and survive at 51, as long as R1 and R2 hold and t
 - sources/education-transforming-education-act-analysis-and-trust-fund.md: FAM-2D's standards, the under-3 critique and the scale-up evidence
 
 **Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.
+
+
+**October 26 integration update.** Paid leave is administered by SSA and financed by the leave fund (PR #23 approval). The recovery model adds 3% of benefits for administration and a provisional $3B startup; retain the selected 1.10-point ceiling and use regenerated loan/repayment results.

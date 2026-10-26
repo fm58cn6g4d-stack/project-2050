@@ -55,3 +55,6 @@ October 26 steering: establish the revenue-rebalancing envelope first, then comp
 
 
 Maintained financing reading entry: [Revenue rebalancing and a sustainable governing agenda](revenue-rebalancing-and-sustainable-agenda.md). Defines the three revenue cases, six overlap clusters, usable-envelope calculation and three spending-package comparisons. No spending reductions selected.
+
+
+Current checkpoint: PRs #23/#25 integrated; $105B surge/$5B FY2029 advance, DEV-P, leave administration and SSA/SMI routing implemented with explicit proxies and Medicare split sensitivities. See `sources/capacity-round-two-integration.md`. `sources/spending-package-comparisons.md` reports twelve central/adverse package/financing cases. Cuts remain exploratory. Next: current-law corporate/capital-revenue reconciliation and household/service effects of larger permanent redesigns.

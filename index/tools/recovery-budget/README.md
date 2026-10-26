@@ -225,3 +225,10 @@ rebuilt or deployed. The next substantive assignment is the financing/protection
 The overlay now carries a $250B G8 risk allowance, with the accepted agency allocations inside unchanged capacity envelopes. A separate $12.2B housing-administration component corrects the whole adopted million-voucher package, with a four-year CPI-growing permanent path, once in the consolidated budget. Historical ledger components remain unchanged. The additional housing envelope remains $135B; reach is unresolved. Downside G8 loss is $150B, eliminating remaining counted receipts rather than implying negative enforcement collections. These are planning assumptions, not an official score.
 
 The initial financing/protection screen is separate at `index/tools/financing-protection/screen.py`; it calls the same model without altering adopted inputs and writes JSON to stdout. Its report explains why quintile averages cannot certify household protection.
+
+
+## PRs #23/#25 integration and exploratory spending cases
+
+See [accounting note](../../../sources/capacity-round-two-integration.md) for $105B surge/$5B FY2029 shift, permanent DEV-P, leave administration and SSA/SMI routing. The historical dedicated-funds engine accepts an optional HI administration path; default outputs are unchanged. The recovery overlay supplies costs explicitly. Fund-funded capacity costs remain within gross CAP ceilings; they are not added a second time. Central HI/SMI split is a workload proxy with endpoint sensitivity cases; a 6% leave-administration case tests the reviewed high cost rate. Central leave-loan repayment is now 2058, superseding the prior 2048 result. No rate increase or benefit cut is automatically selected.
+
+The separate `index/tools/financing-protection/packages.py` generates twelve exploratory package/financing/stress cases. Adjustments are explicit cost ceilings with inherited profiles, not implementation scores. Their [report](../../../sources/spending-package-comparisons.md) describes service losses and limits. No package mutates the adopted input record.

@@ -71,3 +71,8 @@ The unresolved judgment for Espen will be the desired balance of breadth, benefi
 ## Treasury actuals evidence route
 
 The [Treasury snapshot adapter](../index/tools/treasury-data/README.md) prepares MTS table-1 retrieval with exact request provenance, raw metadata and completeness checks. Its request contract was checked against the [supplied Treasury API documentation](treasury-fiscal-data-api-documentation-2026-10-26.pdf). Live access returned a proxy 403, so no actual observations have been imported. Successful retrieval and reconciliation to published MTS totals remain required before using this evidence in the budget. Later receipts/agency tables can support the current-law inventory after their dictionaries are verified. MTS execution data cannot independently score tax reform or replace the forward CBO baseline.
+
+
+## First spending results
+
+[Spending package comparison](spending-package-comparisons.md) now prices two alternatives against the updated current agenda, under two financing cases and downside conditions. [PRs #23/#25 integration](capacity-round-two-integration.md) explains the approved surge reduction, DEV-P, leave administration and account routing. These supersede earlier statements that the surge cut was merely proposed. No additional package cuts have been adopted.

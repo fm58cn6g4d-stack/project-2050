@@ -135,3 +135,6 @@ The [completed bridge reconciliation](../sources/health-delivery-resource-bridge
 ## Accepted long-term-care development direction, October 26
 
 Develop an all-age home-support benefit with protection against prolonged intensive-care costs, assessed basic assistance without asset spend-down, a genuine paid-family-caregiver option, and preservation of stronger Medicaid services. Dignity, recipient choice and an available outside-care option govern the design. Compare enhanced Medicaid and catastrophic-only insurance; do not describe a modest basic-support allowance as complete care insurance. Prioritize this inquiry over a further Medicare age expansion or a general AI dividend. Existing HLT-4 remains the immediate service route; no unpriced entitlement or launch date is inferred. Staff, federal/state obligations and financing must be evaluated together.
+
+
+**October 26 integration update.** PR #23 prices HLT-2 operations at $0.25B annually in FY2026 dollars, with a phased start, through SMI; the $1B launch build is inside the CMS surge. Recovery accounting includes the working premium share and GF support once; see the capacity-round-two integration note.

@@ -4,15 +4,18 @@
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
-| mixed | 119.5% | 114.4% | 3.67% | True | 1.40 |
-| larger_payroll | 119.2% | 112.6% | 3.50% | True | 1.10 |
-| mixed_downside | 125.1% | 136.6% | 5.49% | False | 5.11 |
-| mixed_all_debt_rate_plus1 | 131.1% | 150.6% | 6.49% | False | 5.20 |
-| mixed_no_macro_translation | 119.3% | 112.9% | 3.51% | True | — |
-| mixed_reserve_corridor | 119.5% | 114.4% | 3.67% | True | — |
-| mixed_corridor_downside | 125.1% | 136.6% | 5.49% | False | — |
-| mixed_legacy_education_floor | 119.6% | 114.5% | 3.68% | True | — |
-| mixed_larger_credit | 123.9% | 118.9% | 3.79% | True | — |
+| mixed | 119.3% | 114.7% | 3.71% | True | 1.48 |
+| larger_payroll | 119.0% | 113.0% | 3.54% | True | 1.18 |
+| mixed_downside | 124.9% | 136.9% | 5.53% | False | 5.21 |
+| mixed_all_debt_rate_plus1 | 130.9% | 151.0% | 6.53% | False | 5.27 |
+| mixed_no_macro_translation | 119.2% | 113.3% | 3.55% | True | — |
+| mixed_leave_admin_high | 119.4% | 115.0% | 3.73% | True | — |
+| mixed_ssa_medicare_all_hi | 119.3% | 114.7% | 3.71% | True | — |
+| mixed_ssa_medicare_all_smi | 119.3% | 114.7% | 3.71% | True | — |
+| mixed_reserve_corridor | 119.3% | 114.7% | 3.71% | True | — |
+| mixed_corridor_downside | 124.9% | 136.9% | 5.53% | False | — |
+| mixed_legacy_education_floor | 119.4% | 114.8% | 3.72% | True | — |
+| mixed_larger_credit | 123.7% | 119.2% | 3.83% | True | — |
 
 The last column is the total broad-tier rate required under this static tax-yield proxy, replacing the proposed two-point broad tier, with the high tier unchanged. It is not a tax score.
 
@@ -29,28 +32,28 @@ The last column is the total broad-tier rate required under this static tax-yiel
 
 | Fixed-grant comparison, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 2029 | 6261 | 7015 | 6261 | 8410 | 1345 | 2149 | 107.5% |
-| 2030 | 6534 | 7364 | 7357 | 9671 | 1457 | 2314 | 109.7% |
-| 2035 | 7898 | 8732 | 10173 | 12472 | 2012 | 2299 | 117.0% |
-| 2039 | 9294 | 10409 | 12261 | 14727 | 2416 | 2466 | 119.5% |
-| 2045 | 11831 | 13205 | 15995 | 18431 | 3031 | 2436 | 117.7% |
-| 2056 | 17910 | 20097 | 24078 | 27586 | 4362 | 3508 | 114.4% |
+| 2029 | 6261 | 7015 | 6261 | 8405 | 1345 | 2144 | 107.5% |
+| 2030 | 6534 | 7364 | 7357 | 9659 | 1457 | 2302 | 109.6% |
+| 2035 | 7898 | 8732 | 10173 | 12462 | 2007 | 2289 | 116.7% |
+| 2039 | 9294 | 10409 | 12261 | 14740 | 2412 | 2479 | 119.3% |
+| 2045 | 11831 | 13205 | 15996 | 18451 | 3030 | 2455 | 117.7% |
+| 2056 | 17910 | 20097 | 24078 | 27625 | 4374 | 3546 | 114.7% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 
 | Household diagnostic, FY2039 annual net $/household | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| mixed | 15,741 | 12,820 | 6,747 | -2,697 | -76,872 |
-| larger_payroll | 15,561 | 12,170 | 5,418 | -4,307 | -73,644 |
-| mixed_larger_credit | 18,036 | 15,557 | 9,911 | -392 | -86,471 |
+| mixed | 15,739 | 12,818 | 6,746 | -2,698 | -76,873 |
+| larger_payroll | 15,560 | 12,168 | 5,416 | -4,308 | -73,645 |
+| mixed_larger_credit | 18,034 | 15,555 | 9,909 | -393 | -86,472 |
 
 These are approximate quintile averages including modeled benefits, not a D3 certification or guarantees for individual households. See the assumptions and limits in the assessment.
 
 | Fund, mixed case | Result |
 | --- | --- |
 | Education | Depletion: None; terminal reserve/outlays 19.53; rising: True |
-| Combined OASDI | Depletion: None; conservative model solvency: True; actuarial balance +0.50% payroll |
-| HI | Depletion: None; terminal reserve/cost 6.88; rising: True |
-| Leave, high take-up | Loan repaid 2048; terminal loan $0.0B |
+| Combined OASDI | Depletion: None; conservative model solvency: False; actuarial balance +0.50% payroll |
+| HI | Depletion: None; terminal reserve/cost 6.83; rising: True |
+| Leave, high take-up | Loan repaid 2058; terminal loan $0.0B |
 
 OASI/DI legal separation, the HI annual-data calibration, HTF beyond 2046, and long-run category/cash mappings remain unresolved. A positive balance in one fund cannot fund a second account without legislation.

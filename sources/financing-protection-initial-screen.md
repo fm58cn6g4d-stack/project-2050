@@ -1,5 +1,7 @@
 # Contribution and protection: initial screen
 
+**Historical screen:** numerical cases below predate PRs #23/#25 and their leave/SSA administration costs. Use the [updated spending comparisons](spending-package-comparisons.md) and current integrated budget for new decisions.
+
 Start with the [revenue-rebalancing decision plan](revenue-rebalancing-and-sustainable-agenda.md) for the current direction and reading map.
 
 October 26. Exploratory first step after PR #22 integration; no tax schedule selected. Source main aa8552d, with the capacity-integration changes. Reproduce after the common build with `python3 index/tools/financing-protection/screen.py`; [JSON results](financing-protection-screen.json). The [recovery method](../index/tools/recovery-budget/README.md) and its source references apply. This screen introduces no new external evidence.

@@ -187,10 +187,10 @@ def hi_sources():
     return lambda t: 0.0 if t < 2030 else out.get(t, out[2039])
 
 HIS = hi_sources()
-def run_hi(with_program):
+def run_hi(with_program, administration=None):
     R = P["hi_reserve_2025"]; depl = None; rows = []
     for t in YEARS:
-        inc = _lin(HI_INC, t) + (HIS(t) if with_program else 0); cost = _lin(HI_COST, t)
+        inc = _lin(HI_INC, t) + (HIS(t) if with_program else 0); cost = _lin(HI_COST, t) + (administration(t) if administration else 0)
         pay = hi_payroll(t); r = rate(t)
         R = R * (1 + r) + (inc - cost) / 100 * pay * (1 + r / 2)
         if R < 0 and depl is None: depl = t; payable = inc / cost

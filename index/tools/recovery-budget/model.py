@@ -90,8 +90,9 @@ def edu_fund(components,b,f,rate=1.4,gf_share=.3,stress=False,corridor=False):
     return dict(rows=rows,depletion=next((r['year'] for r in rows if r['reserve'] < -1e-7),None),
                 terminal_ratio=rows[-1]['ratio'],terminal_rising=rows[-1]['ratio']>=rows[-6]['ratio'])
 
-def leave_fund(u,cap=1.1,take_up='high'):
+def leave_fund(u,cap=1.1,take_up='high',admin_fraction=None):
     """Extend the existing reserve/loan convention to 2100; unchanged through 2060."""
+    admin=ADOPTION['administration']; admin_fraction=admin['leave_fraction'] if admin_fraction is None else admin_fraction
     p=u.P; target=u.BILL['FAM-3']['cost_'+{'low':'lo','mid':'mid','high':'hi'}[take_up]]*1000
     ramp=[float(x) for x in p['leave_ramp'].split('/')]
     ph=lambda t: 0 if t<2031 else ramp[t-2031] if t-2031<len(ramp) else 1
@@ -99,14 +100,16 @@ def leave_fund(u,cap=1.1,take_up='high'):
     rt=p['leave_rate']; reserve=loan=0; rows=[]
     for y in range(2030,2101):
         benefit=ph(y)*mature*u.payroll(y)
+        administration=benefit*admin_fraction+(admin['leave_startup_bn'] if y==2030 and admin_fraction else 0)
+        cost=benefit+administration
         if y>2030:
-            if reserve-loan<p['leave_low_years']*benefit and rt<cap-1e-9: rt=min(cap,round(rt+p['leave_step'],4))
-            elif reserve-loan>p['leave_high_years']*benefit and rt>p['leave_rate']+1e-9: rt=max(p['leave_rate'],round(rt-p['leave_step'],4))
-        pay=rt/100*u.payroll(y); reserve=reserve*(1+u.rate(y))+pay-benefit
+            if reserve-loan<p['leave_low_years']*cost and rt<cap-1e-9: rt=min(cap,round(rt+p['leave_step'],4))
+            elif reserve-loan>p['leave_high_years']*cost and rt>p['leave_rate']+1e-9: rt=max(p['leave_rate'],round(rt-p['leave_step'],4))
+        pay=rt/100*u.payroll(y); reserve=reserve*(1+u.rate(y))+pay-cost
         if reserve<0: loan-=reserve; reserve=0
         loan*=1+u.rate(y)
         repaid=min(loan,reserve); loan-=repaid; reserve-=repaid
-        rows.append(dict(year=y,rate=rt,receipts=pay,benefits=benefit,reserve=reserve,loan=loan))
+        rows.append(dict(year=y,rate=rt,receipts=pay,benefits=benefit,administration=administration,reserve=reserve,loan=loan))
     return dict(rows=rows,mature_cost_points=100*mature,terminal_loan=loan,
                 repayment_year=next((r['year'] for r in rows if r['year']>2040 and r['loan']<1e-8),None))
 
@@ -123,7 +126,19 @@ def tax_yield(b,y,high_rate,broad_rate,haircut):
         high_rate*t['high_threshold_per_point_2034_bn']*phase(y,t['high_start'],t['high_phase_years'])+
         broad_rate*t['broad_threshold_per_point_2034_bn']*phase(y,t['broad_start'],t['broad_phase_years']))
 
-def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_rate=None,translate=True,corridor=False,legacy_education_floor=False,credit_multiple=1,high_rate=None):
+def capacity_accounts(y,b,u,hi_fraction=None):
+    a=ADOPTION['administration']; shares=a['ssa_source_outlays_mn']; den=sum(shares.values())
+    # Source proposal ramp and nominal growth, then constant payroll share after 2039.
+    if y<2030: gross=0
+    elif y<=2039: gross=a['ssa_recurring_2026_bn']*({2030:.5,2031:.8}.get(y,1))*1.035**(y-2026)
+    else: gross=a['ssa_recurring_2026_bn']*1.035**13*u.payroll(y)/u.payroll(2039)
+    if 2030<=y<=2035: gross+=a['ssa_surge_bn']/6 # authored spendout proxy
+    hi=a['medicare_hi_fraction'] if hi_fraction is None else hi_fraction
+    medicare=gross*shares['medicare']/den
+    hlt=0 if y<2031 else a['hlt2_recurring_2026_bn']*({2031:.5,2032:.8}.get(y,1))*1.035**(min(y,2039)-2026)*(u.payroll(y)/u.payroll(2039) if y>2039 else 1)
+    return dict(oasdi=gross*shares['oasdi']/den,hi=medicare*hi,smi=medicare*(1-hi)+hlt)
+
+def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_rate=None,translate=True,corridor=False,legacy_education_floor=False,credit_multiple=1,high_rate=None,medicare_hi_fraction=None,spending_adjustments=None,leave_admin_fraction=None):
     e=A['education']; ss=A['social_security']; s=A['spending']; st=A['stress']
     comp=education_components(m,multiplier=st['education_cost_multiplier'] if stress else 1,
                               post_growth=st['education_cost_growth'] if stress else None)
@@ -136,17 +151,22 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     ss_paths=[u.SSF[k] for k in ('SS-1','SS-2','SS-3','SS-4','SS-5')]
     ss_paths += [lambda y:(-ss['joint_interaction_payroll_points'] if y>=2031 else 0,0),
                  lambda y:(ss['broad_rate_points']*phase(y,ss['start'],ss['phase_years']),0)]
+    accounts=lambda y:capacity_accounts(y,b,u,medicare_hi_fraction)
+    def fund_dollars(y,key):
+        factor=b[y]['gdp']/u.gdp(y) if translate and y in b else b[2056]['gdp']/u.gdp(2056) if translate else 1
+        return accounts(y)[key]/factor
+    ss_paths += [lambda y:(0,100*fund_dollars(y,'oasdi')/u.payroll(y))]
     sr=u.run_ss(ss_paths)
     # Internal HI grant: improves that account, never consolidated external resources.
     his=u.HIS
     hi_fraction=(.5+.7*(st['hi_health_savings_fraction'] if stress else 1))/1.2
     hp=A['hi']; grant_rate=lambda y:hp['gf_support_payroll_points']*phase(y,hp['start'],hp['phase_years'])
     u.HIS=lambda y:his(y)*hi_fraction+grant_rate(y)
-    try: hr=u.run_hi(True)
+    try: hr=u.run_hi(True,administration=lambda y:100*fund_dollars(y,'hi')/u.hi_payroll(y))
     finally: u.HIS=his
     hi_ratios=[r['reserve']/(r['cost']/100*u.hi_payroll(r['year'])) for r in hr['rows']]
     hr['terminal_rising']=hi_ratios[-1]>=hi_ratios[-6]; hr['terminal_ratio']=hi_ratios[-1]
-    lr=leave_fund(u,A['leave']['cap_points'],A['leave']['take_up']); leave={r['year']:r for r in lr['rows']}
+    lr=leave_fund(u,A['leave']['cap_points'],A['leave']['take_up'],admin_fraction=leave_admin_fraction); leave={r['year']:r for r in lr['rows']}
     old={r['id']:r for r in m['rows']}; base=m['results']['BASE-R1' if rate_shift else 'BASE']['years']
     ledger=json.loads((ROOT/'build/ledger.json').read_text())
     rev={r['id']:r for r in ledger['revenue']}
@@ -171,10 +191,14 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         for y in range(2040,2057): losses[y]+=-old['G11']['gf'][str(y)]*st['g11_post2039_loss_fraction']
     extras={k:f.row_path(b,s[k+'_tn'],dict(ramp=4,grow='gdp')) for k in ('housing_extra','participation','delivery_contingency')}
     housing_admin=f.row_path(b,s['housing_base_admin_tn'],dict(ramp=4,grow='cpi',perm=1))
+    development=f.row_path(b,s['development_program_tn'],dict(ramp=3,grow='cpi',perm=1))
     irs_risk=f.row_path(b,s['irs_receipt_risk_tn'],f.PR.REVENUE['G8'],'G8')
     # Reductions are explicit smaller authorizations, not unspent holdbacks or efficiency claims.
     savings={y:sum(old[k]['gf'][str(y)]*(1-s[key]/amt) for k,key,amt in
                 [('CAP-7S','cap_surge_tn',.6),('CAP-7','cap_sustained_tn',.49),('AI-4','ai_transition_tn',.2)]) for y in Y}
+    adjustments={}
+    for label,spec in (spending_adjustments or {}).items():
+        adjustments[label]=f.row_path(b,spec['delta_tn'],spec['profile'])
     rows=[]; audit=[]
     broad=A['tax']['broad_rate_points'] if broad_rate is None else broad_rate
     for y in Y:
@@ -214,11 +238,17 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         hi_saving=hi_amount*.7/1.2*(st['hi_health_savings_fraction'] if stress else 1)
         hi_grant=grant_rate(y)/100*u.hi_payroll(y)*factor
         entry('HI H1a and Part A HLT-6 share',revenue=hi_tax,outlay=-hi_saving)
-        lv=leave.get(y,dict(receipts=0,benefits=0,loan=0))
+        lv=leave.get(y,dict(receipts=0,benefits=0,administration=0,loan=0))
         leave_offset=lv['receipts']*factor*A['leave']['income_tax_offset_fraction']
-        entry('Paid leave actual contributions and benefits',revenue=lv['receipts']*factor-leave_offset,outlay=lv['benefits']*factor)
+        entry('Paid leave actual contributions and benefits',revenue=lv['receipts']*factor-leave_offset,outlay=(lv['benefits']+lv['administration'])*factor)
         entry('Recovery credit',outlay=credit(y)*credit_multiple)
         entry('Smaller capacity and AI authorizations',outlay=-savings[y])
+        ac=accounts(y); smi_premium=ac['smi']*ADOPTION['administration']['smi_premium_fraction']
+        for label,path in adjustments.items(): entry('Exploratory: '+label,outlay=path[y])
+        entry('DEV-P permanent development programs',outlay=development[y])
+        # OASDI cost is in so and formerly inside capacity: remove once.
+        entry('SSA OASDI capacity reclassification',outlay=-ac['oasdi'])
+        entry('SMI administration premiums',revenue=smi_premium)
         entry('HOU-4A PHA administration correction',outlay=housing_admin[y])
         entry('IRS yield allowance with smaller capacity budget',revenue=-irs_risk[y])
         # Advance part of the remaining surge, conserving lifetime cash.
@@ -233,14 +263,14 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         entry('Downside net loss allowance',outlay=losses[y])
         primary=do-dr
         # Recover GF from consolidated delta by stripping fund primary balances.
-        fund_primary=(ed['outlays']-ed['receipts']-ed['grant'])+(so-si)+(-hi_tax-hi_saving-hi_grant)+(lv['benefits']-lv['receipts'])*factor
+        fund_primary=(ed['outlays']-ed['receipts']-ed['grant'])+(so-si)+(-hi_tax-hi_saving-hi_grant)+(lv['benefits']+lv['administration']-lv['receipts'])*factor+ac['hi']
         gf=primary-fund_primary
         rows.append(dict(year=y,gdp_bn=b[y]['gdp'],baseline_revenue_bn=baseline['rev'],
                          baseline_primary_outlays_bn=baseline['out']-baseline['interest'],
                          revenue_change_bn=dr,primary_outlay_change_bn=do,program_primary_bn=primary,
                          agenda_gf_primary_bn=gf,education_gf_grant_bn=ed['grant'],education_current_law_transfer_bn=current,
                          education_old_agenda_transfer_bn=legacy,hi_gf_grant_bn=hi_grant,
-                         ss_income_tax_offset_bn=ss_offset,leave_income_tax_offset_bn=leave_offset,
+                         ssa_oasdi_admin_bn=ac['oasdi'],ssa_hi_admin_bn=ac['hi'],smi_admin_bn=ac['smi'],smi_admin_premiums_bn=smi_premium,leave_admin_bn=lv['administration']*factor,development_program_bn=development[y],ss_income_tax_offset_bn=ss_offset,leave_income_tax_offset_bn=leave_offset,
                          new_income_tax_bn=taxes,recovery_credit_bn=credit(y)*credit_multiple,matched_grossup_bn=grossup,
                          macro_translation=factor,baseline_debt_bn=baseline['debt'],baseline_interest_bn=baseline['interest']))
     interest,debt=f.debt_roll(b,{r['year']:r['program_primary_bn'] for r in rows},shift=rate_shift)
@@ -295,7 +325,7 @@ def household_diagnostic(d,f,b,m,u):
             a=annual[y]; scale=a['macro_translation']; ed=edu[y]
             for r in d['education_components']:
                 if r['year']==y:add(y,r['increment_over_current_law_bn'], 'childcare' if r['component']=='care' else 'meals' if r['component']=='meals' else 'education')
-            add(y,-ed['receipts'],'wages'); add(y,a['recovery_credit_bn'],'adults')
+            add(y,-a['smi_admin_premiums_bn'],'medicare'); add(y,-ed['receipts'],'wages'); add(y,a['recovery_credit_bn'],'adults')
             for k,key in [('SS-1','above250k_wages'),('SS-2','inv400k'),('SS-5','surtax')]:
                 add(y,-u.SSF[k](y)[0]/100*u.payroll(y)*scale,key)
             add(y,A['social_security']['joint_interaction_payroll_points']/100*u.payroll(y)*scale if y>=2031 else 0,'inv400k')
@@ -320,6 +350,9 @@ def run():
     for name,opts in [('mixed',{}),('larger_payroll',{'alternative':True}),
                       ('mixed_downside',{'stress':True}),('mixed_all_debt_rate_plus1',{'rate_shift':1}),
                       ('mixed_no_macro_translation',{'translate':False}),
+                      ('mixed_leave_admin_high',{'leave_admin_fraction':.06}),
+                      ('mixed_ssa_medicare_all_hi',{'medicare_hi_fraction':1}),
+                      ('mixed_ssa_medicare_all_smi',{'medicare_hi_fraction':0}),
                       ('mixed_reserve_corridor',{'corridor':True}),
                       ('mixed_corridor_downside',{'corridor':True,'stress':True}),
                       ('mixed_legacy_education_floor',{'legacy_education_floor':True}),

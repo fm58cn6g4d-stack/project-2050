@@ -3,15 +3,16 @@
   "source_commit": "e49474eb8e530e5eb7635486e4d3d4f25fa5a017",
   "governing_record": "governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26",
   "spending": {
-    "cap_surge_tn": 0.3,
+    "cap_surge_tn": 0.105,
     "cap_sustained_tn": 0.3,
     "ai_transition_tn": 0.12,
     "housing_extra_tn": 0.135,
     "participation_tn": 0.1,
     "delivery_contingency_tn": 0.1,
-    "early_admin_bn": 10,
+    "early_admin_bn": 5,
     "irs_receipt_risk_tn": 0.25,
-    "housing_base_admin_tn": 0.0122
+    "housing_base_admin_tn": 0.0122,
+    "development_program_tn": 0.092
   },
   "units": "Nominal $T FY2030\u201339 except CAP surge is a lifetime envelope and early_admin_bn is $B shifted from FY2030 to FY2029, not additional lifetime funding. IRS risk is a reduction in expected receipts, not spending.",
   "architecture": {
@@ -38,29 +39,28 @@
   ],
   "standing_authority": "Espen retains project-goal decisions; project coworker may decide project elements in service of those goals. All PR #20 recommendations accepted, latest controlling conflicts; open issues with no recommended action retain options. No communication with other humans on Espen\u2019s behalf.",
   "capacity_allocation": {
-    "source": "sources/capacity-recovery-budget-review.md; PR #22, aa8552d",
-    "units": "nominal $B; lifetime surge, FY2030-39 sustained; inside existing envelopes",
-    "IRS": {
-      "surge": 9,
-      "sustained": 92.4,
-      "additional_enforcement_fte": 24000
-    },
-    "CMS": {
-      "surge": 8,
-      "sustained": 14.5
-    },
-    "HUD": {
-      "surge": 2.8,
-      "sustained": 10.4
-    },
-    "ED": {
-      "surge": 2.3,
-      "sustained": 8.3
-    },
-    "unallocated": {
-      "surge": 277.9,
-      "sustained": 174.4
-    }
+    "source": "PRs 23/25; sources/capacity-recovery-components.csv",
+    "status": "Component working allocations; aggregate ceilings include routed fund costs, not additive funding",
+    "surge_bn": 105,
+    "sustained_bn": 300,
+    "review_mid_surge_bn": 59.8,
+    "review_mid_sustained_bn": 254.6,
+    "review_high_sustained_bn": 355.1
   },
-  "housing_admin_basis": "HOU-4A: $12.2B rounded planning correction on whole $150B package, fully permanent CPI path; inside total housing cost, separate from CAP. HOU-4D remains fixed $135B, no award count adopted."
+  "housing_admin_basis": "HOU-4A: $12.2B rounded planning correction on whole $150B package, fully permanent CPI path; inside total housing cost, separate from CAP. HOU-4D remains fixed $135B, no award count adopted.",
+  "administration": {
+    "leave_fraction": 0.03,
+    "leave_startup_bn": 3,
+    "ssa_recurring_2026_bn": 2.4,
+    "ssa_surge_bn": 3.9,
+    "ssa_source_outlays_mn": {
+      "oasdi": 6457.9,
+      "medicare": 3663,
+      "ssi": 4659
+    },
+    "medicare_hi_fraction": 0.5,
+    "smi_premium_fraction": 0.25,
+    "hlt2_recurring_2026_bn": 0.25,
+    "basis": "SSA FY2027 CJ FY2026 administrative outlays; incremental-workload proxy excluding user fees. HI share of Medicare unknown: 50% central, test 0/100%. Leave startup $3B planning assumption; 3% ongoing applied to each take-up case. Capacity costs routed within existing envelopes."
+  }
 }

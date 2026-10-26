@@ -298,3 +298,6 @@ Use the [completed health bridge](../sources/health-delivery-resource-bridge.md)
 
 
 **PR #22 accepted allocations, October 26.** The historical proportional table above is superseded for IRS, CMS, HUD and ED by [the component review](../sources/capacity-recovery-budget-review.md). Within unchanged $300B surge/$300B sustained envelopes, working $B allocations are IRS 9/92.4, CMS 8/14.5, HUD 2.8/10.4 and ED 2.3/8.3. Rounded remainders are 277.9/174.4. IRS includes +24,000 enforcement FTE; receipt-risk allowance rises to $250B. PHA fees belong to housing, state Medicaid and public-plan operations to program rows, meals/care to USDA/HHS, and IES/NCES to EDU-8. Boundaries do not prove every program-row cost is priced. FY2029 four-agency cash estimate is $0.3–2.2B; all-agency adequacy of $10B remains unresolved. Unpriced functions remain explicit in the review.
+
+
+**October 26 integration update.** PRs #23/#25 supersede earlier capacity totals: $105B lifetime surge, $5B FY2029 advance, $300B sustained planning ceiling. DEV-P is separately budgeted at $92B permanent program spending. See [integration accounting](../sources/capacity-round-two-integration.md) for fund routing and limits.

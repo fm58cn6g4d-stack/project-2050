@@ -20716,7 +20716,7 @@
     "index/tools/fiscal-recovery/assumptions.json": "cd63d4a56ae602646cce31c61ccd848ebb3d9635244e1f35dab8c42aab47532b",
     "index/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
     "index/tools/fiscal-model.py": "104de3cbb37d5a9a5ff43fbf746ca6dec99c7c190755307ebe25df1a7c8c1dd3",
-    "index/tools/funds-model.py": "7f55b0575e74822edf719dd07b5aa7402545befc0ab3ac02b4ef3c39d7f7935b",
+    "index/tools/funds-model.py": "1e234d0ea254d4151f27e027ee75e78dca5e196fe3c62130b994bbe2818a52d3",
     "index/tools/incidence-model.py": "f575bc644bc447ae35db6cb86d300e5159fe02ee5fa81af34054dc8d990744fa",
     "index/tools/incidence-years.py": "e9f1edd683af45112bc1de9f9f69432d70113c79a84febbbeb02b1ca5e248c7e",
     "index/tools/inputs.py": "15004f1598a80f98011a7e5d9a21b49308513557e1efa05b9ee549343a7ba0a2",
