@@ -318,8 +318,9 @@ def evaluate_reviews(items, head_sha, author, owners, policy, carries=lambda h: 
         others = {a for name, cfg in policy["agents"].items() if name != agent for a in cfg.get("apps") or []}
         if (own and it.get("app") not in own) or it.get("app") in others:
             continue  # the comment did not come through the claimed agent's own integration
-        if agent == author_agent and (not session or not author_session or session == author_session):
-            continue  # an author cannot review their own PR; same-vendor reviews need distinct sessions
+        if agent == author_agent and (not session or not author_session or session == author_session
+                                      or not policy["agents"][agent].get("independent_sessions", True)):
+            continue  # an author cannot review their own PR; same-vendor reviews need distinct, independent sessions
         # Each reviewer's latest verdict wins. An approval counts only for the current head; a request for
         # changes stands across later pushes until the same reviewer approves, so a push cannot outrun it.
         latest[(agent, session)] = (verdict, h)
@@ -357,7 +358,7 @@ def review_decision(items, head, author, owners, policy, carries, tier, espen_ok
     return False, note + desc
 
 
-def voided_labels(labels, label_heads, head, events, event, pushed_at, carries, names):
+def voided_labels(labels, label_heads, head, events, event, pushed_at, carries, names, head_time=""):
     """Which of Espen's labels (names) a change of content voids, and the updated {label: head it approves}.
 
     A label added on commit X stays only while the head is X or merely adds main to X (carries(X)). Where
@@ -370,7 +371,10 @@ def voided_labels(labels, label_heads, head, events, event, pushed_at, carries, 
             continue
         old = heads.get(name)
         if old is None:
-            if event == "synchronize" and label_added_before(events, name, pushed_at):
+            # Without the labeled commit, date the label: before this push (synchronize), or before the head
+            # commit was even made (any run; a commit's date never follows its push, so this cannot misfire).
+            if ((event == "synchronize" and label_added_before(events, name, pushed_at))
+                    or (head_time and label_added_before(events, name, head_time))):
                 void.append(name)
                 heads.pop(name, None)
             else:
@@ -382,6 +386,15 @@ def voided_labels(labels, label_heads, head, events, event, pushed_at, carries, 
                 void.append(name)
                 heads.pop(name, None)
     return void, heads
+
+
+def commit_time(sha):
+    """The head commit's committer time in UTC ISO form, or "" if the commit is not available locally."""
+    try:
+        when = datetime.fromisoformat(git("show", "-s", "--format=%cI", sha).strip())
+        return when.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except (RuntimeError, ValueError):
+        return ""
 
 
 def save_data(gh, sticky, data):
@@ -548,8 +561,9 @@ def gate(args, policy):
         if (e.get("label") or {}).get("name") in espen_labels:
             print(f"{e['event']} {e['label']['name']} at {e.get('created_at')} by {(e.get('actor') or {}).get('login')}, "
                   f"performed_via_github_app={(e.get('performed_via_github_app') or {}).get('slug')}")
+    head_time = commit_time(head)
     void, label_heads = voided_labels(labels, label_heads, head, events, args.event, args.pushed_at,
-                                      lambda old: same_changes(old, head), espen_labels)
+                                      lambda old: same_changes(old, head), espen_labels, head_time=head_time)
     for name in void:
         gh.call("DELETE", f"/issues/{n}/labels/{name}")
         labels.remove(name)
@@ -725,7 +739,11 @@ def digest(args, policy):
         review = statuses.get("agent-review")
         if review and review["state"] != "success":
             agents_owe.append((p, f"review: {review['description']}"))
-        cmp = gh.call("GET", f"/compare/{full['base']['ref']}...{full['head']['sha']}")
+        try:
+            cmp = gh.call("GET", f"/compare/{full['base']['ref']}...{full['head']['sha']}")
+        except RuntimeError as e:  # one PR's lookup must not stop the digest
+            print(f"compare failed for #{p['number']}: {e}")
+            cmp = None
         if full.get("mergeable") is not False and (cmp or {}).get("behind_by", 0) > 0:
             agents_owe.append((p, "out of date: the author agent must merge main in"))
         elif full.get("mergeable") is False:
@@ -749,7 +767,8 @@ def digest(args, policy):
     out += ["", f"### Waiting on agents ({len(agents_owe)})", ""]
     out += [f"- PR #{p['number']} {p['title']}: {why}" for p, why in agents_owe]
     if agents_owe:
-        out.append("- A review owed by Codex needs a Codex session started on it; Codex is not woken by GitHub.")
+        out.append("- GitHub does not wake agents. Codex's hourly \"Project 2050 coworker\" task checks for reviews owed by "
+                   "Codex; if one waits more than a few hours, check that task's run results.")
     else:
         out.append("- Nothing.")
     out += ["", "### Headline numbers that moved on main", ""]

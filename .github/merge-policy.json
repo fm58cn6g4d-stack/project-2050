@@ -11,10 +11,10 @@
     "hold": "hold",
     "tier_prefix": "tier-"
   },
-  "_agents_note": "apps: the GitHub App slug GitHub records (performed_via_github_app) when that agent comments or labels through its integration. Observed Oct 26 in the gate log: Claude Code 'claude' (PR #27), Codex 'chatgpt-codex-connector' (PR #26 review). A review must come through its own agent's app when one is listed, and never through another agent's app.",
+  "_agents_note": "apps: the GitHub App slug GitHub records (performed_via_github_app) when that agent comments or labels through its integration. Observed Oct 26 in the gate log: Claude Code 'claude' (PR #27), Codex 'chatgpt-codex-connector' (PR #26 review). A review must come through its own agent's app when one is listed, and never through another agent's app. independent_sessions false: that vendor's sessions cannot review each other's PRs (Codex runs as one recurring hourly task, so a later run reviewing an earlier run's work is self-review).",
   "agents": {
     "claude-code": {"branch_prefixes": ["claude/"], "apps": ["claude"]},
-    "codex": {"branch_prefixes": ["codex/"], "apps": ["chatgpt-codex-connector"]},
+    "codex": {"branch_prefixes": ["codex/"], "apps": ["chatgpt-codex-connector"], "independent_sessions": false},
     "gemini": {"branch_prefixes": ["gemini/"], "apps": []}
   },
   "owners": [

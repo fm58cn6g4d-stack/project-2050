@@ -136,6 +136,21 @@ class Reviews(unittest.TestCase):
         self.assertIn("codex", why)
         self.assertTrue(self.ev([item(review(who="codex t1"), app="chatgpt-codex-connector")], owners=["codex"])[0])
 
+    def test_codex_runs_cannot_review_each_other(self):
+        # A later hourly Codex run is the same recurring worker: not an independent reviewer of Codex's PR.
+        codex_pr = ("codex", "task-1")
+        later_run = item(review(who="codex task-2"), app="chatgpt-codex-connector")
+        self.assertFalse(g.evaluate_reviews([later_run], HEAD, codex_pr, [], POLICY)[0])
+        # Claude sessions stay independent of each other, and Codex can still review Claude's work.
+        self.assertTrue(self.ev([item(review(who="claude-code session_B"), app="claude")])[0])
+        claude_pr = ("claude-code", "session_A")
+        self.assertTrue(g.evaluate_reviews([later_run], HEAD, claude_pr, [], POLICY)[0])
+
+    def test_commit_time_is_utc(self):
+        t = g.commit_time("HEAD")
+        self.assertRegex(t, r"^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$")
+        self.assertEqual(g.commit_time("0" * 40), "")
+
     def test_author_from_body_or_branch(self):
         self.assertEqual(g.pr_author("x\nAgent-Author: codex task-9\n", "whatever", POLICY), ("codex", "task-9"))
         self.assertEqual(g.pr_author("", "claude/agent-automation", POLICY), ("claude-code", None))
@@ -235,6 +250,17 @@ class OverrideAndLabels(unittest.TestCase):
         void, _ = self.void(["espen-approved"], {}, "h2", event="synchronize", pushed_at="2026-10-26T11:00:00Z", events=ev)
         self.assertEqual(void, ["espen-approved"])
         void, heads = self.void(["espen-approved"], {}, "h2", event="synchronize", pushed_at="2026-10-26T09:00:00Z", events=ev)
+        self.assertEqual((void, heads), ([], {"espen-approved": "h2"}))
+
+    def test_unknown_labeled_head_dated_by_commit_in_any_run(self):
+        ev = [{"event": "labeled", "label": {"name": "espen-approved"}, "created_at": "2026-10-26T10:00:00Z"}]
+        # A comment-triggered run, no labeled head on record, head commit made after the label: void.
+        void, _ = g.voided_labels(["espen-approved"], {}, "h2", ev, "created", "", lambda o: False, self.NAMES,
+                                  head_time="2026-10-26T10:30:00Z")
+        self.assertEqual(void, ["espen-approved"])
+        # Head commit older than the label: Espen labeled this version; keep it.
+        void, heads = g.voided_labels(["espen-approved"], {}, "h2", ev, "created", "", lambda o: False, self.NAMES,
+                                      head_time="2026-10-26T09:30:00Z")
         self.assertEqual((void, heads), ([], {"espen-approved": "h2"}))
 
     def test_removed_label_is_forgotten(self):
