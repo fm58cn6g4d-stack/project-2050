@@ -1,4 +1,6 @@
-# Spending packages: first quantified comparison
+# Spending packages: historical comparison before PR #26
+
+**Superseded climate alternatives:** use the [merged climate financing comparison](climate-recovery-financing-comparison.md). The $200B/$305B savings below are historical experiments, not additional savings available alongside Package A.
 
 October 26, 2026. Exploratory budget ceilings, not adopted cuts or completed program scores. Base: PR #24 integrated with main 77f8a5e (PRs #23/#25). [Machine-readable results](spending-package-comparisons.json); reproduce with `python3 index/tools/financing-protection/packages.py` after the common rebuild. [Decision plan](revenue-rebalancing-and-sustainable-agenda.md).
 

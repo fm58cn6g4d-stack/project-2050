@@ -18,3 +18,7 @@ The raw capacity review sums all funding sources. Its remainder is not a GF appr
 Central high-take-up leave repayment now occurs in **2058**, versus 2048 before administration. The 6% administration sensitivity is included in generated results. This is a financing pressure to resolve, not authority to raise the selected rate cap or restrict benefits.
 
 At 6% ongoing administration, the model does not repay the leave loan by 2100 and ends with about **$96B** outstanding. The selected 1.10-point cap is therefore not robust to the full reviewed administration range; financing or operating-design changes need evaluation before a durable-solvency claim.
+
+## Reconciled with main after PR #26
+
+Main `79b89d5` includes the climate package and automation changes. Capacity accounting above is unchanged. The [climate financing comparison](climate-recovery-financing-comparison.md) replaces the provisional climate cuts in the financing work; the common recovery reference still carries historical carbon paths. Its totals must not be described as a completed post-PR #26 agenda. DOE grid/loan administration may need a priced adjustment beyond the pre-CLI-10G staffing estimate; this review does not invent that cost or treat the capacity remainder as freely spendable.

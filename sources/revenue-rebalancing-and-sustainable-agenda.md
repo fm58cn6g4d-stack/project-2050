@@ -13,12 +13,13 @@ The immediate research priority is the **reliability and additionality of receip
 ## Reading map
 
 - [Initial financing comparisons](financing-protection-initial-screen.md): eight reproducible diagnostic cases, household effects and debt tradeoffs.
-- [Current integrated budget](../index/recovery-budget.md): federal totals and fund outcomes, with illustrative tax schedules clearly distinguished from adopted architecture.
+- [Merged climate financing comparison](climate-recovery-financing-comparison.md): corrected Package A cost and debt implications, including conservative credit savings.
+- [Capacity/fund reference budget](../index/recovery-budget.md): federal totals and fund outcomes, with illustrative tax schedules clearly distinguished from adopted architecture.
 - [Budget method and accounting](../index/tools/recovery-budget/README.md): education current-law reconciliation, fund/GF boundaries, sensitivities and limitations.
 - [Revenue agenda and alternatives](../domains/domain-revenue.md): instruments, prior reasoning and overlaps. Historical totals are not a newly scored envelope.
 - [Recovery strategy](recovery-and-solvency-budget.md): human purposes, early recovery and prior recommendations; current inputs/results supersede its historical numerical snapshots.
 - [Accepted first capacity review](capacity-recovery-budget-review.md): IRS/CMS/HUD/ED allocations and outstanding costs.
-- [PR #23](https://github.com/fm58cn6g4d-stack/project-2050/pull/23): proposed remaining-agency allocations and surge reduction, still awaiting resolution and decision.
+- [PR #23](https://github.com/fm58cn6g4d-stack/project-2050/pull/23): merged remaining-agency allocations; PR #25 adopted the $105B surge and $5B FY2029 advance, implemented in this branch.
 
 ## Construct three revenue cases before choosing spending
 
@@ -59,7 +60,7 @@ The packages should share a costed early-recovery foundation: usable health cove
 
 The current agenda is the common comparator, not the default winner. Each package needs a table of retained, resized, delayed and replaced commitments, with ten-year and mature-year costs. Early retirement of a low-value subsidy, a smaller entitlement and a delay in construction are different choices and should not appear as interchangeable savings.
 
-Initial candidates for comparison are the proposed capacity surge reduction; climate credits versus grid/adaptation/procurement; education component ramps and financing; health benefit expansion versus delivery and cost control; and housing expansion pace versus supply and actual lease-up. No cuts are selected here. Program spending removed from an agency's capacity category must remain visible somewhere if the underlying service is retained. Likewise, one-time savings cannot finance a permanent expansion.
+The capacity surge reduction is already counted. PR #26 now supplies the climate portfolio; the older provisional credit cuts must not be stacked onto it. Remaining candidates include education component ramps and financing; health benefit expansion versus delivery and cost control; and housing expansion pace versus supply and actual lease-up. No cuts are selected here. Program spending removed from an agency's capacity category must remain visible somewhere if the underlying service is retained. Likewise, one-time savings cannot finance a permanent expansion.
 
 ## What the next completed decision packet should contain
 
@@ -75,4 +76,4 @@ The [Treasury snapshot adapter](../index/tools/treasury-data/README.md) prepares
 
 ## First spending results
 
-[Spending package comparison](spending-package-comparisons.md) now prices two alternatives against the updated current agenda, under two financing cases and downside conditions. [PRs #23/#25 integration](capacity-round-two-integration.md) explains the approved surge reduction, DEV-P, leave administration and account routing. These supersede earlier statements that the surge cut was merely proposed. No additional package cuts have been adopted.
+[Historical spending package comparison](spending-package-comparisons.md) preserves the earlier experiments. The [climate financing comparison](climate-recovery-financing-comparison.md) supersedes their provisional climate ceilings using merged PR #26. Temporary credit savings do not finance permanent climate obligations. [PRs #23/#25 integration](capacity-round-two-integration.md) explains the approved surge reduction, DEV-P, leave administration and account routing. These supersede earlier statements that the surge cut was merely proposed. No additional package cuts have been adopted.

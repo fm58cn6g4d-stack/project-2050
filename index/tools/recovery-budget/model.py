@@ -198,7 +198,8 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
                 [('CAP-7S','cap_surge_tn',.6),('CAP-7','cap_sustained_tn',.49),('AI-4','ai_transition_tn',.2)]) for y in Y}
     adjustments={}
     for label,spec in (spending_adjustments or {}).items():
-        adjustments[label]=f.row_path(b,spec['delta_tn'],spec['profile'])
+        adjustments[label]=({y: float(spec['annual_bn'].get(str(y), 0)) for y in Y}
+                            if 'annual_bn' in spec else f.row_path(b,spec['delta_tn'],spec['profile']))
     rows=[]; audit=[]
     broad=A['tax']['broad_rate_points'] if broad_rate is None else broad_rate
     for y in Y:
@@ -383,6 +384,7 @@ def run():
 
 def markdown(d):
     out=['# Recovery and Solvency budget: exploratory results','',
+         '> **Climate scope:** This capacity/fund reference retains the historical carbon schedule. Merged PR #26 is evaluated in the separate [climate financing comparison](../sources/climate-recovery-financing-comparison.md); these totals are not the fully integrated current climate agenda.','',
          '> **Approval implemented:** Espen selected the recommended architecture and working spending changes; [adopted inputs](data/inputs/recovery-adoption.json) feed this model. The preferred architecture is the mixed reserve-corridor case. Its illustrative tax rates, credit and grant parameters remain unselected, and no complete financing schedule is adopted. Read [the assessment](../sources/recovery-and-solvency-budget.md) and [method/source notes](tools/recovery-budget/README.md). Nominal dollars; FY2030–39 window. Existing federal revenue/spending/debt are included; gross-flow, state/local and annual account reconciliation remain incomplete. No D3/D4 or all-fund solvency certification.','',
          '| Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |',
          '| --- | ---: | ---: | ---: | --- | ---: |']

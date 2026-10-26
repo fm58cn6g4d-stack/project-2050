@@ -1,5 +1,7 @@
 # Recovery and Solvency budget: exploratory results
 
+> **Climate scope:** This capacity/fund reference retains the historical carbon schedule. Merged PR #26 is evaluated in the separate [climate financing comparison](../sources/climate-recovery-financing-comparison.md); these totals are not the fully integrated current climate agenda.
+
 > **Approval implemented:** Espen selected the recommended architecture and working spending changes; [adopted inputs](data/inputs/recovery-adoption.json) feed this model. The preferred architecture is the mixed reserve-corridor case. Its illustrative tax rates, credit and grant parameters remain unselected, and no complete financing schedule is adopted. Read [the assessment](../sources/recovery-and-solvency-budget.md) and [method/source notes](tools/recovery-budget/README.md). Nominal dollars; FY2030–39 window. Existing federal revenue/spending/debt are included; gross-flow, state/local and annual account reconciliation remain incomplete. No D3/D4 or all-fund solvency certification.
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
