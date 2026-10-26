@@ -459,3 +459,23 @@ Espen clarified that mixed education finance and all recommended provisions are 
 In addition to the fiscal selections above, remove CRT-16's automatic court-expansion trigger; retain prospective term limits, constitutional amendment development, ethics, neutral assignment and a fresh democratic decision on any later structural response. Develop the extremely-low-income housing-security guarantee with public/nonprofit supply and a lawful federal backstop; the bounded HOU-4D allocation is the current budgeted expansion, not the full guarantee's score. Develop all-age home support with protection against prolonged intensive-care costs, retaining stronger Medicaid services and prioritizing it over a further Medicare age expansion or general AI cash dividend. Develop public grid delivery, targeted clean-industry procurement and standing adaptation without indiscriminately canceling credits or selecting a reactor-fleet procurement. Keep workforce strategy and remedies central across these programs. Develop the hostile-administration/uneven-state-cooperation comparator and a public narrative showing difficult tradeoffs and practical remedies; retain the existing public front door and evidence standards.
 
 Espen has promoted the assistant to a full project coworker with authority to make decisions about project elements to further their alignment with overall project goals. Espen remains the decision-maker on the goals themselves. Exercise this delegation transparently in governing/domain/input records, with proportional evidence and validation; do not seek repeated permission for decisions within it. Do not communicate with other humans on Espen's behalf, including email or messages. This delegation is not a deployment instruction; PR #20's merge is expressly authorized.
+
+
+## IRS enforcement expanded and capacity review accepted, October 26
+
+Espen, on the [capacity review](../sources/capacity-recovery-budget-review.md) (PR #22): "i think we gotta fund more IRS enforcement, yes?" and then "great, agreed"; later "merge and add to doc".
+
+**Decided: fund more IRS enforcement.** The IRS enforcement row in CAP-7 is **+24,000 FTE** above the post-2025 baseline (range 18,000-28,000). It is hired over about three years, roughly 8,000 a year, near the FY2024 pace. The cost is about $62B over FY2030-39, inside the unchanged $300B CAP-7 envelope. The whole IRS allocation is about $101B: $9B surge and $92B sustained, of which $62B is enforcement and $40B is service, systems and payments.
+
+**Revenue consequence.**
+- **Yield.** On CBO-based enforcement ratios adjusted for scale, the enforcement row yields about $0.13-0.14T of REV-G8 inside the window (range $0.085-0.18T). That is not enough to support $0.2T.
+- **Allowance.** The matching receipt-risk allowance is therefore **$250B**, replacing the $200B in the October 26 table above. It counts G8 at about $0.15T, which is $50B less counted revenue over FY2030-39.
+- **Who changes the input.** Codex, as the current integration owner, makes the change to `irs_receipt_risk_tn` in [recovery-adoption.json](../index/data/inputs/recovery-adoption.json). Until then the model carries 0.2.
+- **Official scores.** Under CBO scorekeeping Guideline 14, no official score credits this revenue. It counts in the project's own D4 tests.
+
+**Other review findings accepted with the merge.** These are working allocations and directions, not appropriations:
+- **CMS, HUD and Education.** Working allocations of about $22B, $13B and $11B, built from budget, staffing and workload evidence. They replace the old proportional split for these four agencies.
+- **The remainder.** About $278B of surge and $174B of sustained funding stays unallocated pending the next agency reviews (SSA, then USCIS).
+- **Housing correction.** Voucher administrative fees across all of HOU-4 (about +$12.2B mid, counted once inside HOU-1) go to the housing owner as a program-row correction. HOU-4D's default reading is a fixed envelope, about 2.9% fewer awards.
+- **Still unpriced:** Medicare claims operations for HLT-2's new benefits, the mark-to-market valuation unit, Climate Dividend payment administration, and the ROAD Act programs.
+- **FY2029.** For the four agencies, FY2029 cash is bounded at about $0.8B (range $0.3-2.2B). Whether the $10B shifted into FY2029 covers every surge agency remains open.
