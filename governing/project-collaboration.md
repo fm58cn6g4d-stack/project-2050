@@ -78,3 +78,9 @@ Public work can make a smaller, useful contribution alongside this: draft a diff
 At a usage limit or interruption, leave a short committed handoff in the task PR: source/head, status, completed outputs, next step, uncommitted work and tests. A returning agent resumes from the remote record and actual diff, not a five-day-old plan. A reservation is not evidence an agent is active; label tasks planned, acknowledged active, review-ready, integrated or paused. If a session cannot write GitHub, return full portable artifacts and explicit provenance for integration. No vendor-specific memory or hidden chat is authoritative.
 
 The queue contains the live assignments; this document contains the method. Update those two maintained homes rather than adding a new coordination memo for each session. The older `codex-handoff.md` is now a recovery entry pointing here and to the current queue.
+
+## Ongoing inbox and work continuation
+
+The user has requested recurring Codex collaboration, not only on-demand review. Read the [ongoing-work setup](agent-automation-setup.md#ongoing-agent-work-separate-from-automatic-merging): it records the hourly task, its verification limits and its priority order. Review requests and authored-PR feedback are work to handle, not messages Espen must relay between agents. Check the inbox at the start and end of interactive work as well as during scheduled runs. Use the live queue for one bounded next assignment when no review or repair is waiting.
+
+A scheduler wakes an agent; the merge gate evaluates completed work. Keep those roles distinct. Do not infer a running agent from an open PR, reservation, app installation or digest. Coordinate live write claims, avoid duplicate replies, retain current-head review evidence, and never let one recurring worker review its own earlier changes. Leave a concrete PR handoff when a run ends before completion. The merge rules above remain authoritative.
