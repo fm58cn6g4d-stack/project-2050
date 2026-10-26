@@ -1,5 +1,7 @@
 # Security, participation and a durable financing plan
 
+> **October 26 approval:** Espen accepted the recommendations in PR #20 and associated materials and authorized implementation and merge. See the [governing adoption and standing delegation](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26) and [selected working inputs](../index/data/inputs/recovery-adoption.json). Latest recommendations supersede conflicting earlier advice. Recommendations to develop/compare remain development decisions; illustrative rates and options expressly not recommended for adoption remain open. Status statements below describe the report at the time of writing. No deployment or communication with others is authorized.
+
 **Later development:** Espen has now adopted the full EDU-9B benefit scope/payroll institution. [The fiscal recovery review](fiscal-recovery-and-education-redesign.md) supersedes this brief's education-held status and develops integrated costs, financing and long-run solvency comparisons. Other alternatives here remain research.
 
 First development pass · October 26, 2026 · Research for Espen's review

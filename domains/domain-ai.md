@@ -13,7 +13,7 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | AI-1 | Frontier transparency | A federal floor for frontier developers: published safety frameworks, incident reporting, whistleblower protection, compute and capability thresholds, run by NIST's CAISI under statute | 0.00 / 0.00 / 0.01 | FL | ◐ | 4 (one bill, AI-1 to AI-5, AI-7) | No |
 | AI-2 | Preemption, decided deliberately | Floor preemption: federal rules displace state frontier-development rules only where at least as protective; states keep deployment, use, consumer and child-safety law; EO 14365's funding conditions overridden | 0 | FL | ◐ | 0 | No |
 | AI-3 | Pre-deployment evaluation | Mandatory CAISI access for evaluation of frontier systems above the threshold for CBRN and cyber risk, before deployment | 0.00 / 0.00 / 0.01 | FL | ◐ | 0 | No |
-| AI-4 | AI and work | A transition authority triggered by measured displacement: wage insurance and training accounts, with BLS measurement written into the statute | 0.10 / 0.20 / 0.40 | FL (trigger) + R3 (benefit) | ◐ / ✔ | 0 | No |
+| AI-4 | AI and work | Ordinary displacement support; AI causation does not gate assistance; linked to LAB-10 | 0.12 working envelope | FL (trigger) + R3 (benefit) | ◐ / ✔ | 0 | No |
 | AI-5 | Government use | Notice, explanation, human review and appeal for algorithmic decisions on federal benefits, taxes and enforcement; public compute (NAIRR) | 0.00 / 0.01 / 0.02 | FL + AP | ◐ | 0 | No |
 | AI-6 | AI revenue instrument | **Held, unscored:** a levy on frontier compute or AI-attributable revenue, rebated per capita (Instruments #11); option of a token-consumption tax | not in base | R2/R3 | ✔ | 0 | — |
 | AI-7 | Platform transparency and design | Researcher data access, transparency reports, default-setting duties, age-appropriate design | 0 | FL (rides AI-1) | ◐ | +1 | No |
@@ -89,13 +89,13 @@ The ledger carries three rows (from old row E12): the AI bill, AI-1, at $0.02T (
 **Design.**
 
 - **Measurement:** BLS measures AI-attributable displacement by occupation and region. The method is set in statute, published annually, and audited by GAO.
-- **Trigger:** when an occupation-region cell crosses a displacement threshold, displaced workers there get:
+- **Eligibility (October 26 revision):** ordinary displacement eligibility, without requiring proof of AI causation. BLS measurement informs policy and allocation rather than denying access. Within the smaller working envelope, develop:
   - **wage insurance:** half the difference between old and new wages for two years, up to a cap;
   - **a training account:** about $8,000, estimate;
   - **portable benefits:** continued coverage while they search.
 - **Vehicle split:** the benefit is direct spending and can ride R3 (✔, Byrd check unchecked). The measurement mandate and trigger design need the floor (◐). If only the R3 half passes, the trigger is set by Labor Department rule. That is weaker but still functions.
 
-**Cost.** $0.20T, range $0.10-0.40T (ledger AI-4, from E12; estimate). It scales with displacement, which is the honest reason for the wide range. **D4 (D4-B):** a permanent program is paid for at maturity (FY2040 and every later year). AI-6 is the natural pay-for. Until it is scored, this row sits on the general fund.
+**Cost (approved working revision, October 26).** $0.12T FY2030–39, replacing the $0.20T midpoint, with the separate $0.10T LAB-10 participation offer. Benefit amounts and reach must be reconciled with this smaller insurance allocation; it is not an assertion that the original offer costs less. Current selected amounts are in recovery-adoption.json; the prior ledger CSV preserves the old comparison. **D4 (D4-B):** a permanent program is paid for at maturity (FY2040 and every later year). AI-6 is the natural pay-for. Until it is scored, this row sits on the general fund.
 
 **Connections.** domain-labor.md for unemployment insurance and labor standards; Espen's AI fiscal workstream (payroll-tax displacement projections) for the revenue side.
 
@@ -105,9 +105,9 @@ The ledger carries three rows (from old row E12): the AI bill, AI-1, at $0.02T (
 
 | Option | Design | Cost | Basis | Vehicle |
 | --- | --- | --- | --- | --- |
-| AI-4A (chosen) | As above | 0.20 (0.10-0.40) | estimate | FL + R3 |
+| AI-4A (chosen; revised October 26) | Ordinary displacement support linked to LAB-10 | 0.12 working envelope | estimate; benefit calibration open | FL + R3 |
 | AI-4C | **A narrowed AI reskilling credit** (the AI bill's Sec. 208): 40% of employer training costs, capped at $250K a year for smaller employers and $1M for others, **limited to AI-skills content or training for occupations on the AI-augmented list**, with a sunset review. As drafted, nothing limits the credit to AI training, so it would be a permanent 40% credit on most employer-paid training | +0.01-0.03 narrowed; **+0.05-0.13 as drafted** (central 0.06-0.09) | AI bill session (back-of-envelope, not JCT) | R2 or R3 |
-| AI-4D | **The definitional and data hooks**: a DOL list of AI-augmented occupations with public comment and demographic and geographic analysis, displacement reporting by grantees, and equity benchmarks (the AI bill's Secs. 4, 209 and 305), feeding AI-4's BLS trigger. The list gives Congress a working definition of an "AI-affected worker," the eligibility hook for any later adjustment program | ~0 (inside AI-4's measurement cost) | AI bill session | FL (rides AI-1) |
+| AI-4D | **The definitional and data hooks**: a DOL list of AI-augmented occupations with public comment and demographic and geographic analysis, displacement reporting by grantees, and equity benchmarks (the AI bill's Secs. 4, 209 and 305), informing AI-4's analysis. Following the October 26 revision, this list is not an eligibility condition for ordinary displacement support | ~0 (inside AI-4's measurement cost) | AI bill session | FL (rides AI-1) |
 | AI-4E | **An entry-level hiring credit**: a payroll credit for hiring workers under 27 into first career-track positions, 25% of the first $40,000 of wages for two years, for firms under $25M of revenue (the Talarico scenario's design, the only demand-side piece in its labor program) | ~0.21 in the scenario (about 340,000 placements a year by 2034) | scenario figures, not a score | R2 or R3 |
 | AI-4F | **A transitional employment guarantee** (the Talarico successor agenda): anyone under 30 unemployed 16 weeks or more is entitled to a funded position in care, resilience, retrofit or infrastructure at 110% of the local median entry wage, with a two-year cap; about 1.4M positions and $62B a year in the scenario | Large (~$0.6T a decade at the scenario's scale) | scenario figures | R2 (2033-36 trifecta) |
 

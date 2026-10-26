@@ -1,5 +1,7 @@
 # Domain file: Social Security (SS)
 
+**October 26 update ([October 26 approval](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26)).** Preserve the D8 benefit floor/CPI-E protections and complete the high-income base package including SS-5. The two-point later broad-rate closer remains a tested alternative, not an adopted contribution rate. Score the package jointly, including investment/pass-through interactions and income-tax offsets, and assess OASI/DI separately. Earlier option labels and fund figures below describe the preceding comparison; current selected scope includes SS-5 but does not establish solvency by itself.
+
 Canonical. This file applies Governing Decision D8: solvency first, with a targeted increase, as a regular-order bill in spring 2030. Effects on the 75-year actuarial balance are in percent of taxable payroll. Ten-year dollar figures are for 2030-39 in trillions.
 
 ## The gap
@@ -21,11 +23,11 @@ The 2026 Trustees report puts the 75-year deficit at **4.42% of taxable payroll*
 
 **The baseline does not reach 75-year balance.** A gap of about 1.6% of payroll remains after the stacking haircut, and the trust fund runs down from the 2040s to depletion in about 2062 (estimate, index/dedicated-funds.md, built on SSA's 2026 scores of each provision). The closers below cover the gap.
 
-## Closers (choose at least one)
+## Selected SS-5 addition and remaining closer alternatives
 
 | ID | Piece | Effect | Basis | Who pays |
 | --- | --- | --- | --- | --- |
-| SS-5 | Investment-income tax on active S-corporation holders and limited partners, as in Sanders-Warren section 8b | +0.87 from 2031 | sourced (SSA F8, 2026 Trustees: +0.93 from 2027) | High-income business owners |
+| SS-5 (selected October 26) | Investment-income tax on active S-corporation holders and limited partners, as in Sanders-Warren section 8b | +0.87 from 2031 | sourced (SSA F8, 2026 Trustees: +0.93 from 2027) | High-income business owners |
 | SS-6 | Lower SS-2's threshold to $200K/$250K | about +0.1 more | sourced difference (SSA 2026: F9 at the ACA thresholds +1.32 against F11 at $400K +1.22) | Households above $200K/$250K |
 | SS-7 | Raise the payroll rate 1 point (0.5 each side), phased over 10-20 years | +0.9 to +1.0 | estimate (Trustees' rate math) | All covered workers |
 | SS-8 | Invest part of the reserves in equities | +0.5 to +1.0 | estimate | No one directly; market risk |

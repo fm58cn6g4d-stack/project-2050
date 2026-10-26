@@ -8,7 +8,7 @@ Canonical. This file covers the Child Tax Credit, child care and pre-K, and paid
 | --- | --- | --- | --- | --- | --- | --- |
 | FAM-1 | Child Tax Credit | American Family Act (FAM-1D): monthly refundable credit, larger young-child benefit and first-month newborn payment; indexed | 1.7 / 1.9 / 2.1 | General fund | R1 | Yes |
 | FAM-2 | Child care and pre-K | Phased: universal pre-K and a lowest-income tier first, then the full 7%-of-income cap from 2032 | 0.4 / 0.6 / 0.9 | General fund | R2 | Partly (pre-K) |
-| FAM-3 | Paid family and medical leave | 12 weeks of social insurance with a 0.6% contribution split between employer and worker, stepping automatically toward 0.85% if the reserve runs low | 0.0 to the general fund at every point (the fund carries ±$0.4T; a repayable Treasury loan bridges any shortfall above the cap) | Paid-leave fund | R2 | No (benefits from 2031) |
+| FAM-3 | Paid family and medical leave | 12 weeks of social insurance with a 0.6% contribution split between employer and worker, stepping automatically toward the revised 1.10% working ceiling if the reserve runs low | Fund-financed benefits; GF bears tax offsets and explicit temporary lending, as modeled in the integrated budget | Paid-leave fund | R2 | No (benefits from 2031) |
 | FAM-4 | Education | Pointer: lives in domains/domain-education.md (EDU-1, EDU-2, EDU-5) | — | — | — | — |
 | | **General-fund total** | | **2.10 / 2.50 / 3.00** | | | |
 
@@ -72,15 +72,15 @@ It is mandatory funding, so it doesn't depend on annual appropriations.
 - **Cost:** about $0.9T, range $0.6T to $1.4T (estimate). CBO put a 12-week FAMILY Act-based design at $547B over ten years. JCT's break-even rate is 0.85% of wages at FMLA take-up, and higher take-up assumptions run far above that.
 - **Revenue:** the contribution of 0.6% of wages (0.3% each side) raises about $0.9T (estimate, on about $15T a year of covered wages).
 
-**Automatic step-up.** The rate starts at 0.6% (0.3% each side). If the fund's reserve falls below one year of projected benefits, the rate steps up by 0.05 points (split evenly) at the next January, to a cap of 0.85%, the JCT break-even at FMLA take-up; it steps back down once the reserve exceeds 18 months. At the cap the contribution raises about $1.28T (estimate), against $0.6-1.4T of cost, so only the very high case (about $0.12T) needs the bridge: a Treasury loan to the fund, repaid with interest from later contributions. There is no open general-fund backstop (FAM-3E), which at high take-up would be a $0.45-0.55T claim counted in no total.
+**Automatic step-up.** The rate starts at 0.6% (0.3% each side). If the fund's reserve falls below one year of projected benefits, the rate steps up by 0.05 points (split evenly) at the next January, to the revised working cap of 1.10% (October 26 approval); it steps back down once the reserve exceeds 18 months. The old 0.85% cap failed under high take-up. The integrated model's 1.10% case repays the Treasury loan in 2048 and extends the test through 2100, conditional on its assumptions. Income-tax offsets remain GF costs, and lending is not revenue. No open-ended benefit-cost guarantee is inferred. Current selected cap: recovery-adoption.json; the old fund CSV remains the historical comparison.
 
-**Household test (D3).** A worker earning $60,000 pays $180 a year at 0.6%, and up to $255 if the rate reaches the cap. The test counts this against the insured benefit, the Child Tax Credit and health savings, and should be run at both rates.
+**Household test (D3).** A worker earning $60,000 pays $180 a year at 0.6%, and up to $330 at the revised 1.10% combined cap; long-run economic incidence can include the employer share. The test counts this against the insured benefit, the Child Tax Credit and health savings, and should be run at both rates.
 
 **Options.**
 
 | Option | Design | Cost | Basis |
 | --- | --- | --- | --- |
-| FAM-3A (chosen) | 12 weeks, 0.6% contribution with an automatic step-up toward 0.85% and a repayable Treasury loan (no general-fund backstop) | 0 to the general fund | estimate |
+| FAM-3A (chosen) | 12 weeks, 0.6% contribution with an automatic step-up toward 1.10% and a repayable Treasury loan | Tax offsets and temporary financing remain explicit | estimate |
 | FAM-3E | 12 weeks, 0.6% contribution, open general-fund backstop | Net about 0; up to +0.55 at high take-up | estimate |
 | FAM-3B | 12 weeks, fully general-fund | 0.9 | estimate |
 | FAM-3C | 4 weeks, general-fund (the 2021 Build Back Better end point) | About 0.3 | estimate |

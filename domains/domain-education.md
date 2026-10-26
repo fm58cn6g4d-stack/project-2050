@@ -1,5 +1,7 @@
 # Domain file: Education (EDU)
 
+**October 26 financing direction ([October 26 approval](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26)).** Mixed payroll/public finance with a reserve corridor and explicit public backstop is selected. Develop a one-to-two-year reserve framework with grant/contribution adjustment; exact statutory thresholds, payroll rate and public-share percentage remain in the joint financing settlement. Preserve full EDU-9B benefits. Corrected component accounting remains conditional on the current-law care boundary and IDEA ramp; approval does not remove those evidence limits.
+
 Canonical. Education was the framework's blind spot, once a single row (FAM-4) inside the family file; this file is its home and builds it out from two session analyses:
 - **sources/education-transforming-education-act-analysis-and-trust-fund.md**: Rep. Bonamici's Transforming Education for the Future Act (introduced Sept 14, 2026; 466 pages, about 22 bundled bills), extended in session into a birth-through-college package with a payroll-financed trust fund.
 - **sources/education-ai-education-and-workforce-readiness-act-analysis.md**: Rep. Bonamici's AI Education and Workforce Readiness Act, which the session reads as the omnibus's AI chapter.

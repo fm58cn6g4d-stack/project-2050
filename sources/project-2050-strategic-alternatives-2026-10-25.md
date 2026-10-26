@@ -1,5 +1,7 @@
 # Project 2050: three consequential alternatives
 
+> **October 26 approval:** Espen accepted the recommendations in PR #20 and associated materials and authorized implementation and merge. See the [governing adoption and standing delegation](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26) and [selected working inputs](../index/data/inputs/recovery-adoption.json). Latest recommendations supersede conflicting earlier advice. Recommendations to develop/compare remain development decisions; illustrative rates and options expressly not recommended for adoption remain open. Status statements below describe the report at the time of writing. No deployment or communication with others is authorized.
+
 Supporting design brief · October 25, 2026 · Exploratory, not adopted
 
 Read with the [strategic assessment](project-2050-strategic-assessment-2026-10-25.md). Source: `main` at `beeba090020b7916f8ed08bcff36161fb70d1e69`. These are reviewer proposals developed under Espen's authorization to explore alternatives. They change no canonical design, eligibility, launch, model input or fiscal rule. “H”, “C” and “K” below are labels for this comparison, not new canonical policy IDs. Existing HOU, HLT, CLI and other IDs retain their meanings. The accompanying [arithmetic](strategic-review-arithmetic.md) is deliberately partial.

@@ -1,5 +1,7 @@
 # Domain file: Revenue (REV)
 
+**October 26 financing direction ([October 26 approval](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26)).** Replace C19b in the preferred redesign through a jointly priced income-financing and household-protection settlement. Its old receipts remain only in the historical/funded comparator; they are removed from replacement cases. Neither modeled complete tax schedule, neither universal-credit amount nor the solver rate is selected. Use coordinated refundable contribution relief, including a nonworker component. Carry the approved $200B G8 receipt-risk allowance with the capacity reduction. Current working allocations live in recovery-adoption.json; old revenue CSVs preserve the comparison vintage.
+
 Canonical as of Oct 20, 2026. This file applies Governing Decisions D3, D4 (D4-B) and D7. Detailed source tables stay in sources/revenue-channels-and-full-menu.md and the go-big tab, which this file supersedes on substance. All figures are ten-year totals for 2030-39 in trillions unless marked. Basis tags:
 - **sourced:** taken from a cited score.
 - **scaled:** a cited score moved to 2030-39 (×1.2 for 2026-35 windows, ×1.23 for 2025-34).

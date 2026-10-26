@@ -1,6 +1,6 @@
 # Recovery and Solvency budget: exploratory results
 
-> Proposed alternatives, not adopted policy or an official score. Read [the assessment](../sources/recovery-and-solvency-budget.md) and [method/source notes](tools/recovery-budget/README.md). Amounts are nominal; window FY2030–39. Current-law federal baseline retained. Revenue/outlay levels include explicitly estimated matched dedicated flows; their cash/category reconciliation is incomplete. Debt is tested through 2056, selected funds through 2100/2104; this is not certification of every fund.
+> **Approval implemented:** Espen selected the recommended architecture and working spending changes; [adopted inputs](data/inputs/recovery-adoption.json) feed this model. The preferred architecture is the mixed reserve-corridor case. Its illustrative tax rates, credit and grant parameters remain unselected, and no complete financing schedule is adopted. Read [the assessment](../sources/recovery-and-solvency-budget.md) and [method/source notes](tools/recovery-budget/README.md). Nominal dollars; FY2030–39 window. Existing federal revenue/spending/debt are included; gross-flow, state/local and annual account reconciliation remain incomplete. No D3/D4 or all-fund solvency certification.
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
@@ -27,7 +27,7 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | pipeline | 0.034 | 0.000 | 0.034 | 0.030 | 0.004 |
 | TOTAL | 2.572 | 0.854 | 1.718 | 1.230 | 0.488 |
 
-| Preferred working case, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |
+| Fixed-grant comparison, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2029 | 6261 | 7015 | 6261 | 8410 | 1345 | 2149 | 107.5% |
 | 2030 | 6534 | 7364 | 7358 | 9670 | 1457 | 2312 | 109.7% |

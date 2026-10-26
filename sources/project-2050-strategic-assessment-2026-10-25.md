@@ -1,5 +1,7 @@
 # Project 2050: make freedom dependable
 
+> **October 26 approval:** Espen accepted the recommendations in PR #20 and associated materials and authorized implementation and merge. See the [governing adoption and standing delegation](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26) and [selected working inputs](../index/data/inputs/recovery-adoption.json). Latest recommendations supersede conflicting earlier advice. Recommendations to develop/compare remain development decisions; illustrative rates and options expressly not recommended for adoption remain open. Status statements below describe the report at the time of writing. No deployment or communication with others is authorized.
+
 Independent strategic assessment · October 25, 2026 · Prepared for Espen's review
 
 **October 26 follow-up.** Espen affirmed a secure life for all and emphasized that the state must also provide practical routes into work, education, training and social participation, with accommodations and without punitive work requirements. The [development response](fiscal-redesign-and-participation-2026-10-26.md) develops that complementary purpose and begins the requested wholesale fiscal review, with a new climate-portfolio screen. Financing redesign is now the lead assignment; the housing-first sequence recommended below records the original assessment. The response adopts no numerical or policy alternative.

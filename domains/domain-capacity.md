@@ -1,5 +1,7 @@
 # Domain file: Capacity — Congress and the successor state (CAP)
 
+**Current recovery allocation ([October 26 approval](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26)).** CAP-7S is now a $300B lifetime surge and CAP-7 a $300B FY2030–39 sustained-increase envelope, replacing $600B/$490B. Shift $10B of surge cash from FY2030 to FY2029 without increasing its lifetime total. Immediate legal availability remains selected. Protect adjudication, payments, workforce and enforcement; rebuild allocations from current agency budgets/workloads rather than prorating the old table. The previous amounts and agency split below are historical comparisons, not current allocations. A $200B IRS-receipt risk allowance accompanies the reduction. The separate $100B delivery contingency is not an additional allocation to every agency. Current amounts are consumed from [recovery-adoption.json](../index/data/inputs/recovery-adoption.json); the old ledger CSV is a preserved comparison.
+
 Canonical (batch 2, with the per-agency allocation and the Decision Brief 2 restructuring of CAP-7). This file covers staging inventory sections 8 (congressional capacity) and 9 (state capacity and the successor state), which are pointers to it. It is where D9's agency rebuild is designed; D9 sets the direction (a multi-year surge of ~$0.6T fully available immediately on enactment (R1 target FY2029, Oct 21 decision) plus a sustained increase of ~0.12% of GDP, provisional) and this file says what it buys, which agencies it names and what each gets.
 
 All figures are ten-year totals for 2030-39 in trillions unless a table says $B. Basis tags: **sourced**, **scaled**, **estimate** (mine). Survival tags follow D1: ✔, ◐, ✖.
@@ -98,7 +100,7 @@ Committee jurisdiction realignment for AI, climate and cyber is a House rules-pa
 
 ### CAP-7. The agency rebuild line
 
-**A front-loaded surge plus a sustained increase (decided Oct 20, Decision Brief 2).** A rebuild needs a concentrated infusion paired with lasting funding, so the line is two rows (all figures estimates, provisional under D9):
+**Historical sizing and rationale (October 20; amounts superseded October 26).** A rebuild needs a concentrated infusion paired with lasting funding, so the line is two rows (all figures estimates, provisional under D9):
 
 | Row | What it is | Timing | 2030-39 | After 2039 | Financing (D4-B) |
 | --- | --- | --- | --- | --- | --- |
@@ -111,7 +113,7 @@ Under the interim outlay proxy, combined funding peaks at about $180B in FY2032 
 
 **What the line is: increments, not totals.** The figures below are **supplementary to each agency's baseline appropriations**, not total funding levels. They are each agency's share of the $600B multi-year surge available immediately on enactment; the same shares apply to the sustained row. The old FY2030-35 cash schedule is an interim proxy, not an availability restriction. Read the IRS's $130B as 22% of the surge on top of whatever the baseline provides, plus 22% of the sustained increase. That follows from D9, which sizes a "rebuild" line separate from the discretionary baseline, but the ledger does not say so explicitly and the baseline is not modeled. Two consequences: (1) the line only means what it says if baseline funding holds, so explicit funding and baseline-maintenance design matter; a staffing floor alone does not prevent a hostile appropriator from offsetting the increment; (2) the true cost of rebuilding is a function of where each agency's baseline now sits against its past level, which this file does not know.
 
-**Per-agency allocation.** Every figure below is **my estimate, with no project source**, set by judgment from how much of the agenda each agency carries and what the batch 1 to 3 files require of it. It is not derived from any agency's current budget; I did not look those up. Read it as a proposed split to argue with, not a finding. **Next refinement (Espen's request):** research current and past funding and staffing levels agency by agency, reason about what rebuilding and expanding capacity will actually require, and use the full domain files as inputs (each program's administrative needs, ramp dates and felt-by dates), replacing this top-down split with a bottom-up one.
+**Historical per-agency allocation; replace rather than prorate.** Every figure below is **my estimate, with no project source**, set by judgment from how much of the agenda each agency carries and what the batch 1 to 3 files require of it. It is not derived from any agency's current budget; I did not look those up. Read it as a proposed split to argue with, not a finding. **Next refinement (Espen's request):** research current and past funding and staffing levels agency by agency, reason about what rebuilding and expanding capacity will actually require, and use the full domain files as inputs (each program's administrative needs, ramp dates and felt-by dates), replacing this top-down split with a bottom-up one.
 
 | Agency or unit | $B, 2030-39 (est.) | Share | What it buys and which files depend on it |
 | --- | --- | --- | --- |

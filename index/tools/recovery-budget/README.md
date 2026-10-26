@@ -3,8 +3,7 @@
 Exploratory total-federal-budget analysis, October 26, 2026. Source branch
 `codex/strategic-review`, commit `348d6ae3bcdbea06d4c58e889b6be5b42c6e1b7a`;
 remote main verified at `beeba090020b7916f8ed08bcff36161fb70d1e69`. Full EDU-9B
-scope is adopted. This package **does not adopt** tax rates, spending cuts, a
-credit, transfers or a relaxation of D3/D4. Read the
+scope is adopted. **October 26 approval:** the recommended architecture and working spending revisions are now selected in `index/data/inputs/recovery-adoption.json`, which the model reads directly. Complete illustrative tax/credit schedules remain unselected; no relaxation of D3/D4 is adopted. Read the
 [assessment](../../../sources/recovery-and-solvency-budget.md).
 
 ## Reproduce
@@ -23,8 +22,7 @@ Standalone runs require `build/ledger.json`, `build/fiscal-model.json` and
 `build/moving-america.json`. They default to `build/recovery-budget/` and do not
 overwrite canonical inputs. The common runner copies the generated Markdown,
 JSON and paths CSV into `index/`; the component and audit CSVs go in `sources/`.
-`assumptions.json` contains source anchors, adopted-scope boundaries and authored
-scenario parameters. JSON retains annual fund paths and sensitivities. The audit
+`assumptions.json` contains source anchors and authored financing scenarios; `recovery-adoption.json` supplies the approved spending envelopes and leave ceiling without duplicating them in scenario inputs. JSON retains annual fund paths and sensitivities. The audit
 CSV reconciles each change in receipts and primary outlays. Tests establish
 accounting consistency, not forecast validity.
 
@@ -219,5 +217,4 @@ inventory), `fiscal-redesign-and-participation-2026-10-26.md` (climate experimen
 outputs. JSON also records hashes of its immediate build inputs. The prior fiscal
 CSV/input vintage is unchanged; notices identify this successor where the earlier
 aggregate education reconciliation is superseded. The public product is not
-rebuilt or deployed. Next decision is the financing/protection design, not a merge
-or automatic selection of a modeled tax schedule.
+rebuilt or deployed. The next substantive assignment is the financing/protection settlement under the standing delegation. PR #20 merge is authorized; its modeled tax schedules are not automatically selected.

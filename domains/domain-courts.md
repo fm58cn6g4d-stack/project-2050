@@ -25,7 +25,7 @@ All figures are ten-year totals for 2030-39 in trillions. Basis tags: **sourced*
 | CRT-13 | Circuit realignment | T2 | Neutral criteria: population, filings per judgeship | 0.00 (0.00-0.01) | FL | ◐ | No |
 | CRT-14 | Statutory repairs (pointer) | T2 | Each lives in its own domain file | — | FL | ◐ | Varies |
 | CRT-15 | Judicial term limits | T3 | 18-year terms, prospective, severable retroactive provision, no deemed consent | 0.00 | FL | ◐ | Yes |
-| CRT-16 | Court expansion | T3 | Held as a pre-committed response to invalidation of CRT-15 only | 0.00 | FL | ◐ | No |
+| CRT-16 | Automatic expansion trigger removed, October 26 | — | No pre-committed response to a ruling; any later structural response needs a fresh democratic decision | 0.00 | FL | ◐ | No |
 | CRT-17 | Jurisdiction-stripping restraint | T3 | A declared norm, not a statute | 0.00 | X | ✔ | — |
 | CRT-18 | Impeachment standard | T3 | Declared: corruption and serious misconduct, never rulings | 0.00 | X | ✔ | — |
 | CRT-19 | State judicial selection | — | End partisan judicial elections | 0.00 | ST | ✔ | No |
@@ -194,7 +194,7 @@ Each repair lives in its own domain file: the VRA rewrite in domains/domain-demo
 
 ### CRT-16. Court expansion
 
-**Design.** Held as a pre-committed, contingent response to invalidation of CRT-15 — a provision that takes effect only if term limits are struck down, which gives the Court an incentive to uphold the milder reform. Structural insurance around it: aggressive severability, a three-judge court with direct appeal, and term limits bundled into the larger judiciary bill.
+**Decision (October 26).** Remove the automatic expansion response to invalidation of CRT-15, following acceptance of the strategic review. Do not make Court size contingent on the Court reaching the government’s preferred legal conclusion. Retain prospective term limits, amendment development, ethics, neutral assignment and adequate judgeships. Any subsequent expansion or structural response requires a fresh democratic decision. The former deterrent rationale is historical, not a current commitment.
 
 **Why not an opener.** It fails the reciprocity test as a first move, and the coercion objection to the contingent version is named rather than solved (Instruments #5). Congress's authority is clear — the Court's size changed seven times between 1789 and 1869 — so the risk is political, not legal: tit-for-tat expansion is easy to foresee. Marquette (Sept 2026): 53/47 overall, 35% of Republicans, against 79% for term limits and 89% for ethics. A last line, not a first.
 
@@ -202,7 +202,7 @@ Each repair lives in its own domain file: the VRA rewrite in domains/domain-demo
 
 **Design.** A declared norm, not a statute: the majority states that it will not strip jurisdiction over categories of constitutional claims. Executive and rhetorical, so ✔ at 51.
 
-**Why declare it.** Stripping carries very high escalation risk, and it sends cases to state courts, which may be worse. The declaration is a reciprocity deposit that costs nothing and is the kind of commitment that makes CRT-16's contingency legible as a deterrent rather than an ambush.
+**Why declare it.** Stripping carries very high escalation risk, and it sends cases to state courts, which may be worse. The declaration is a reciprocity deposit that costs nothing and is a commitment to reciprocal judicial rules; CRT-16’s automatic contingency has been removed.
 
 ### CRT-18. Impeachment standard
 
@@ -217,14 +217,14 @@ Each repair lives in its own domain file: the VRA rewrite in domains/domain-demo
 | Tag | Items |
 | --- | --- |
 | ✔ survives | CRT-17, CRT-18 (declared norms), CRT-19 (state) |
-| ◐ needs a D2 path | CRT-1 to CRT-16 |
+| ◐ needs a D2 path | CRT-1 to CRT-15 (CRT-16 removed) |
 | ✖ | none — the amendment paired with CRT-15 sits in the democracy and amendments track |
 
 Everything that matters here is ◐, and passes under F (decided). Under the written fallback G (the democracy-and-elections carve-out), the courts package is outside the carve-out and does not pass — which is the clearest illustration of G's cost.
 
 ## Dependencies
 
-- **D2:** CRT-1 to CRT-16; all pass under F (decided).
+- **D2:** CRT-1 to CRT-15 (CRT-16 removed); all pass under F (decided).
 - **D1:** no 2033 queue, so CRT-P3 (deferring term limits) would be a departure from a Decision and is flagged as such.
 - **Capacity file:** CRT-8 is unenforceable without drafting capacity (CAP-2, CAP-3); CAP-6 (the statute-tracking office) is the institutional form of CRT-14.
 - **Executive power file:** CRT-5's Slaughter design is the same design problem as EXE-9; the two should use one template.
@@ -236,7 +236,7 @@ Everything that matters here is ◐, and passes under F (decided). Under the wri
 
 | Rule | How this file meets it |
 | --- | --- |
-| Reciprocity | CRT-1 phases judgeships across terms; CRT-9 is symmetrical by construction; CRT-13 uses stated neutral criteria; CRT-17 and CRT-18 are unilateral restraints. CRT-16 is acknowledged to fail the test as an opener |
+| Reciprocity | CRT-1 phases judgeships across terms; CRT-9 is symmetrical by construction; CRT-13 uses stated neutral criteria; CRT-17 and CRT-18 are unilateral restraints. CRT-16’s automatic trigger was removed on reciprocity grounds |
 | Durable instruments | Statute throughout; CRT-15 prefers prospective durability over speed |
 | Legibility | Weakest in the project: no voter experiences random case assignment. The legible items are the immigration court and ethics |
 | Pairing | The judiciary bill pairs structural reform with the integrity items voters recognize (CRT-P2 would pair them better) |
@@ -249,7 +249,7 @@ Everything that matters here is ◐, and passes under F (decided). Under the wri
 
 1. **CRT-P1 vs CRT-P2** — the one-bill question. P2 is recommended and P1 is what the ledger carries. This needs a decision, and with it whether to add **P4** (judgeships split for 60 votes).
 2. **CRT-5 is unscored** and is the file's only material cost; score it with ledger row IMM-1.
-3. **CRT-15's first effect lands in the 2040s.** If that is unacceptable, the only faster designs are CRT-15B and CRT-16, both of which the source rates as high-risk.
+3. **CRT-15's first effect lands in the 2040s.** If that is unacceptable, the only faster designs are CRT-15B and a fresh court-expansion proposal, both high-risk; the removed CRT-16 trigger is not a selected option.
 4. **Emergency-docket grant rates are counted two ways** (67% / 83%); pick one for the findings record.
 5. **The Rebalancing review's caveat that *NRSC v. FEC* was unconfirmed is out of date** — decided June 30, 2026, 6-3. The source file should be annotated.
 6. **CRT-4, CRT-6 and CRT-7 to CRT-16 have no ledger rows** (see crosswalk).

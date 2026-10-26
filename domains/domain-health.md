@@ -1,5 +1,7 @@
 # Domain file: Health (HLT)
 
+**October 26 fiscal/delivery direction ([October 26 approval](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26)).** Develop explicit public support for Medicare HI with better annual calibration; the 0.35%-of-payroll illustration is not an adopted final grant. Protect restoration, adjudication and remedies. The integrated budget includes one shared $100B delivery contingency; it is not a priced completion of every health work package or an additional $100B health-only entitlement.
+
 Canonical. This file applies Governing Decision D6 to the go-big bill. sources/health-go-big-bill-detail-and-financing.md stays as the provision-level source and the household tables. All figures are ten-year totals for 2030-39 in trillions; ranges come from the go-big tab unless tagged estimate.
 
 ## Chosen design: the go-big bill, trimmed (D6, option B)
@@ -128,3 +130,8 @@ The [completed bridge reconciliation](../sources/health-delivery-resource-bridge
 **Latest remedy scope, October 24:** historical lookbacks identify people pushed off coverage and support streamlined restoration of current coverage. They do not select a new general program to pay claims from the reduced-eligibility period. Medical-debt relief remains a separate option; normal restored application rules and independently existing legal duties are distinct. This [clarification](../governing/project-2050-governing-decisions.md#health-remedy-clarification-coverage-restoration-october-24) supersedes broader earlier claims-repair development language.
 
 **Vision frequency, October 24 clarification:** routine eye exams are annual. Lenses, frames and contact-lens supply have separate item-specific frequencies; two-year conventions apply only to selected eyewear, with medically necessary exceptions. Earlier shared two-year exam/device language is superseded. Espen subsequently approved annual lens replacement when needed, frames every two years, and an annual contact-lens supply as an alternative to spectacle lenses, with medically necessary exceptions, in the PR #17 review. Costs and annual counting mechanics remain to be specified; launches and model inputs are unchanged.
+
+
+## Accepted long-term-care development direction, October 26
+
+Develop an all-age home-support benefit with protection against prolonged intensive-care costs, assessed basic assistance without asset spend-down, a genuine paid-family-caregiver option, and preservation of stronger Medicaid services. Dignity, recipient choice and an available outside-care option govern the design. Compare enhanced Medicaid and catastrophic-only insurance; do not describe a modest basic-support allowance as complete care insurance. Prioritize this inquiry over a further Medicare age expansion or a general AI dividend. Existing HLT-4 remains the immediate service route; no unpriced entitlement or launch date is inferred. Staff, federal/state obligations and financing must be evaluated together.

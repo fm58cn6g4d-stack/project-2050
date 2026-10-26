@@ -8,7 +8,7 @@ Updated October 24, 2026. These rules apply across Codex, Claude Code, chats and
 2. Read [the governing decisions](project-2050-governing-decisions.md), including standing design rules; [the charter](project-charter.md) for purpose/products; and [the shared queue](../sources/project-work-queue.md) for status and ownership. Read the post-pilot directions and task-relevant canonical domains/sources. Reuse verified context within a session; reread when files change, rather than repeatedly loading the entire corpus.
 3. Check open PRs and concurrent work before assigning or editing. State the bounded task, expected deliverable and likely changed files. Use a task branch and an isolated worktree/checkout for concurrent writers. Do not overwrite another session's working files.
 
-The approved charter governs goals, products and research standards. Governing decisions and explicitly approved amendments govern selected policy. Canonical domain files implement them. Research, decision briefs, models, source reports and public illustrations have their stated evidentiary roles; placement in `governing/` does not make every recommendation adopted. New findings can challenge a decision but do not silently replace it. Flag a real conflict and present the effects of alternatives to Espen.
+The approved charter governs goals, products and research standards. Governing decisions and explicitly approved amendments govern selected policy. Canonical domain files implement them. Research, decision briefs, models, source reports and public illustrations have their stated evidentiary roles; placement in `governing/` does not make every recommendation adopted. Under the October 26 standing delegation, the project coworker may decide and revise project elements to better serve the approved goals. Record consequential choices, reasoning, costs and affected inputs explicitly; do not silently replace authority. Espen retains decisions about project goals. Unresolved alternatives with no recommended action remain open.
 
 ## One maintained architecture
 
@@ -37,11 +37,11 @@ Use [the writing guide](espen-writing-style-guide.md) for substantial drafting o
 
 ## Preserve policy and numerical meaning
 
-- Espen approves substantive changes: eligibility, benefit levels, dates, instruments, fiscal assumptions or formal tests. Do not treat research integration or a successful model run as that approval.
+- **October 26 standing delegation:** Espen retains authority over project goals and has authorized the project coworker to decide project elements in service of those goals. Exercise judgment on policy instruments, implementation, prioritization and working fiscal choices; document consequential decisions and regenerate affected outputs. Do not infer a change to goals or silently relax D3/D4. A model passing is evidence, not a goal decision. All recommendations in PR #20 and associated materials were accepted, with the latest recommendations superseding earlier conflicting advice; options without a recommended action remain open.
 - Tag numbers by basis (sourced/scaled/estimated/proposal), year/window, units and population. Separate observed data, conditional results and intended outcomes. Check current-world factual claims against current primary sources.
 - After an approved input change, reconcile affected domain/options/input records and rerun generators. Never hand-edit generated outputs. A documented software/rounding correction may be implemented within an authorized audit; explain its numerical effect and validate that inputs are unchanged.
 - Preserve D3/D4 and channel boundaries, no dynamic revenue counted, HI reserve, immediate CAP-7S legal availability versus unpriced FY2029 cash, and overlap controls. Do not claim a clean checker certifies legal, operational or causal validity.
-- No emails, records requests or outside submissions without explicit authorization. Preparing a packet does not authorize sending it.
+- Do not communicate with other humans on Espen's behalf: no email, messages, records requests or outside submissions. The project-coworker delegation does not authorize such contact. Repository work and the specifically authorized PR #20 merge remain allowed; preparation is not permission to send.
 
 ## Research and file exchange
 

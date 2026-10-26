@@ -7,6 +7,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(__file__).resolve().parent
 A = json.loads((HERE/'assumptions.json').read_text())
+ADOPTION = json.loads((ROOT/'index/data/inputs/recovery-adoption.json').read_text())
+A['spending'] = ADOPTION['spending']
+A['leave']['cap_points'] = ADOPTION['leave_cap_points']
 Y = range(2026,2057)
 W = range(2030,2040)
 
@@ -329,11 +332,12 @@ def run():
         required=max((x[y]['debt_gdp']-x[y-1]['debt_gdp'])/((x[y]['debt_gdp']-x[y-1]['debt_gdp'])-(z[y]['debt_gdp']-z[y-1]['debt_gdp'])) for y in range(2045,2057))
         solutions[name]=max(0,A['tax']['broad_rate_points']+required)
     inputs=['index/data/fiscal-baseline.csv','index/data/inputs/education-adoption.json',
+            'index/data/inputs/recovery-adoption.json',
             'index/tools/recovery-budget/assumptions.json','build/fiscal-model.json','build/ledger.json',
             'index/tools/fiscal-profiles.py','index/tools/funds-model.py',
             'sources/education-transforming-education-act-analysis-and-trust-fund.md']
     inputs+=sorted(str(p.relative_to(ROOT)) for p in (ROOT/'index/data/inputs').glob('funds-*.csv'))
-    result=dict(status=A['status'],source_commit=A['source_commit'],units='nominal $B; window totals $T; federal fiscal years',
+    result=dict(status=A['status'],adoption=ADOPTION,source_commit=A['source_commit'],units='nominal $B; window totals $T; federal fiscal years',
                 source_sha256={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in inputs},
                 education_components=components,consolidated_childcare=education_components(m,consolidated=True),
                 current_law_growth_sensitivity={str(g):education_components(m,growth=g) for g in (.02,.04)},
@@ -344,7 +348,7 @@ def run():
 
 def markdown(d):
     out=['# Recovery and Solvency budget: exploratory results','',
-         '> Proposed alternatives, not adopted policy or an official score. Read [the assessment](../sources/recovery-and-solvency-budget.md) and [method/source notes](tools/recovery-budget/README.md). Amounts are nominal; window FY2030–39. Current-law federal baseline retained. Revenue/outlay levels include explicitly estimated matched dedicated flows; their cash/category reconciliation is incomplete. Debt is tested through 2056, selected funds through 2100/2104; this is not certification of every fund.','',
+         '> **Approval implemented:** Espen selected the recommended architecture and working spending changes; [adopted inputs](data/inputs/recovery-adoption.json) feed this model. The preferred architecture is the mixed reserve-corridor case. Its illustrative tax rates, credit and grant parameters remain unselected, and no complete financing schedule is adopted. Read [the assessment](../sources/recovery-and-solvency-budget.md) and [method/source notes](tools/recovery-budget/README.md). Nominal dollars; FY2030–39 window. Existing federal revenue/spending/debt are included; gross-flow, state/local and annual account reconciliation remain incomplete. No D3/D4 or all-fund solvency certification.','',
          '| Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |',
          '| --- | ---: | ---: | ---: | --- | ---: |']
     for k,c in d['cases'].items():
@@ -357,7 +361,7 @@ def markdown(d):
         rr=[r for r in d['education_components'] if r['year'] in W and (k=='TOTAL' or r['component']==k)]
         vals=[sum(r[v] for r in rr)/1000 for v in ['full_fund_outlays_bn','current_law_transfer_bn','increment_over_current_law_bn','old_agenda_transfer_bn','change_over_old_agenda_bn']]
         out.append('| '+k+' | '+' | '.join(f'{v:.3f}' for v in vals)+' |')
-    out+=['','| Preferred working case, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |',
+    out+=['','| Fixed-grant comparison, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |',
           '| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |']
     for r in d['cases']['mixed']['rows']:
         if r['year'] in [2029,2030,2035,2039,2045,2056]:

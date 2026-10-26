@@ -115,6 +115,9 @@ The ledger carries the reconciliation title as row HOU-1 (old E6) at **$0.56T** 
 
 ## HOU-4. Rental assistance
 
+**October 26 approved extension: HOU-4D.** Add a $135B FY2030–39 working envelope for rental assistance beyond the previously adopted million new awards. Preserve the HOU-4A base and its dates; do not count its costs again. Approximately another million awards is a scale illustration, not an adopted guaranteed award/lease count. Establish the additional cohort, local rent costs, accessible units, supply/landlord participation and phase-in together. HUD is the institutional home; appeals and help when awards cannot be used belong in delivery design. This bounded expansion does not adopt HOU-4C's broader entitlement. Current spending is carried once by `housing_extra_tn` in recovery-adoption.json; older ledger and poverty comparisons retain their original million-award scope.
+
+
 **Design (Espen, October 24).** One million total new voucher awards, replacing the earlier 400,000, with mandatory funding. Preserve the 2030–33 phase-in window, implying 250,000 new awards annually, and continuing assistance thereafter. Target extremely-low-income renter households under the existing HOU-4A framework; successful lease-up is separate from an award. Fund agency capacity and pair demand with the adopted supply/repair/capital agenda. Delivery probabilities in the model are research assumptions, not adopted quotas or proof of feasible leases.
 
 **Working cost:** $0.10 / $0.15 / $0.1875T over 2030–39, scaling the old range by 2.5 for the same phase-in window. The midpoint increment is $90B and appears once inside ledger HOU-1. The existing $15,200 FY2026 voucher-year basis and 3% growth are planning inputs; actual rents, administration, lease-up, federal shares and supply require a score. Preserve the legacy housing title's fiscal path and treat the added assistance as fully permanent through the component bridge. Do not apply the title's 55% aggregate continuation haircut to the new vouchers.
@@ -247,3 +250,8 @@ Every housing row is a benefit, with no tax that reaches the middle. HOU-4 and H
 - frameworks/scenario-stress-test-talarico-2029-2037.md and sources/scenario-talarico-2029-2037.md: HOU-9's rationale and scenario figures
 
 **Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.
+
+
+## Accepted housing-security development direction, October 26
+
+Develop a guarantee for extremely-low-income renters alongside public/nonprofit acquisition, repair and construction, durable affordability and a lawful federal sponsor/backstop where state participation fails. The guarantee should replace waiting-list luck for its defined population. HOU-4D is the bounded current spending step; it is not the complete guarantee’s price or adoption of HOU-4C’s unpriced eligibility proxy. Resolve eligibility, supply, federal/state responsibilities and funding in the joint development. Preserve existing HOU-4A benefits while doing so.

@@ -1,5 +1,7 @@
 # Domain file: Climate and energy (CLI)
 
+**October 26 development direction ([October 26 approval](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26)).** Retain the current clean-energy credit budget while comparing marginal use of dollars across grid delivery, adaptation, workforce and subsidies on a common baseline. Include household bills and real delivery constraints; no unscored climate saving or reallocation is adopted. Labor capacity and remedies for failed delivery are part of policy design.
+
 Canonical domain file. It covers clean-energy credits, the delivery side of the carbon dividend, the Clean Energy Standard, fixes to the stipulated 2026-28 permitting law, Clean Air Act restoration, the Thriving Economy reconciliation add-ons, grid and utility rules, and disaster resilience and climate risk. It replaces staging inventory rows 9.7, 10.3 (delivery side only), 10.5 and 14.1-14.10, and ledger rows E1, E3, E4 and E5 on substance. The carbon fee and border adjustment themselves stay in domains/domain-revenue.md (REV-C1, REV-C2) under Dec. D7.
 
 **Durability review.** The Climate Durability Pathway session (sources/climate-durability-pathway-session-findings.md) is carried **as options**: option rows CLI-9 to CLI-13, options under CLI-1 and CLI-3 to CLI-8, and a durability section with the insulation and lock-in toolkit. Its carbon price path is the one REV-C1 uses (D7). A few findings from the Talarico scenario model (frameworks/scenario-stress-test-talarico-2029-2037.md) and the AI education bill analysis (sources/education-ai-education-and-workforce-readiness-act-analysis.md) that bear on climate rows are carried the same way and marked.
@@ -478,3 +480,8 @@ The durability session's capacity line (about $0.05T, session estimate) is consi
 - index/2029-trifecta-master-ledger.md: the CLI rows' figures and floor days
 
 **Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.
+
+
+## Accepted portfolio-development direction, October 26
+
+Develop a public grid-delivery backstop, targeted contracts/procurement for verified low-carbon industrial output, and standing adaptation support as the principal portfolio alternative. Compare these with marginal subsidy dollars on common cost, emissions and household-bill assumptions. Keep fee/dividend, clean-power standards and accessible electrification support; retain credits during this comparison. Do not preselect the source scenario’s reactor-fleet purchase or assume federal construction can proceed without regional workforce and delivery capacity. Account for contingent/termination liabilities and test adverse political and state-cooperation conditions.
