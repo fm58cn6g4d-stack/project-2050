@@ -432,7 +432,7 @@ def gate(args, policy):
     ready, why_not = merge_ready(gh, pr, labels, tier_state, rev_ok, cls, base_now, policy)
     body = gate_comment(cls, tier, tier_desc, rev_desc, author, ready, why_not, head)
     data = {"head": head, "classification": cls, "tier": tier, "notified_tier3": prev.get("notified_tier3", False)}
-    if tier == 3 and not espen_ok and not data["notified_tier3"]:
+    if tier == 3 and not espen_ok and not data["notified_tier3"] and not pr.get("draft"):
         gh.call("POST", f"/issues/{n}/comments", {"body": f"@{policy['espen_logins'][0]} this PR needs your decision "
                 f"(tier 3). Reasons are in the gate comment. Add the label `{L['espen_approved']}` to approve the "
                 "current version, or comment what should change.\n\n" + FOOTER_BOT})
