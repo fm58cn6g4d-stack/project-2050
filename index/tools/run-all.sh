@@ -47,7 +47,16 @@ echo "== 8b. education adoption and recovery bridge"
 python3 "$TOOLS"/fiscal-recovery/model.py --output-dir "$BUILD"
 python3 -W ignore::ResourceWarning "$TOOLS"/fiscal-recovery/test_model.py
 
+echo "== 8c. total-federal Recovery and Solvency budget (exploratory)"
+python3 -W ignore::ResourceWarning "$TOOLS"/recovery-budget/model.py --output-dir "$BUILD" > "$BUILD/recovery-budget.log"
+python3 -W ignore::ResourceWarning "$TOOLS"/recovery-budget/test_model.py
+
 OUT=(
+  'recovery-budget.md|index/recovery-budget.md'
+  'recovery-budget.json|index/data/recovery-budget.json'
+  'recovery-budget-paths.csv|index/data/recovery-budget-paths.csv'
+  'recovery-budget-audit.csv|sources/recovery-budget-audit.csv'
+  'education-component-reconciliation.csv|sources/education-component-reconciliation.csv'
   'fiscal-recovery-model.md|index/fiscal-recovery-model.md'
   'fiscal-recovery-model.json|index/data/fiscal-recovery-model.json'
   'fiscal-recovery-inventory.csv|sources/fiscal-recovery-inventory.csv'

@@ -60,9 +60,9 @@ It is mandatory funding, so it doesn't depend on annual appropriations.
 
 **Quality decides the return.** At scale, pre-K's benefit-cost ratio lands nearer 2-to-1 or 3-to-1 than Perry Preschool's 7-to-1, and quality decides whether a program lands near Boston (college-going up) or Tennessee (negative by sixth grade) (education session). FAM-2D's standards are the quality lever; EDU-4 builds the workforce two to three years ahead of the hiring peak; EDU-10 evaluates.
 
-**Financing option.** EDU-9B (domain-education.md) would move FAM-2's money into a dedicated education fund financed by an uncapped payroll contribution, under the frame "school starts at three." It is not chosen: Espen deferred it to a revenue strategy session on payroll raisers, where its D3 and D4 questions are taken up.
+**Financing history.** The October 20 deferral of EDU-9B was superseded by Espen's full-package adoption. Exact contribution rates and the current-law care boundary remain for decision; the institution's adoption does not itself establish a D3 or D4 pass.
 
-**Education financing adoption.** Espen adopted the full EDU-9B benefit package and separate payroll institution. FAM-2 remains the policy home; its costs move through the [education accounting bridge](../index/fiscal-recovery-model.md), without adding the old $0.60T a second time. The source's changing federal share imposes state obligations and requires reconciliation; alternative federal-share floors are research, not adopted changes. See [EDU-9B](domain-education.md#edu-9b-adopted-the-full-education-fund-benefit-package).
+**Education financing adoption.** Espen adopted the full EDU-9B benefit package and separate payroll institution. FAM-2 remains the policy home; its costs move through the [component education reconciliation](../index/recovery-budget.md), without adding the old $0.60T a second time. The current reference retains CCDF/Head Start/PDG outside the fund and treats care as incremental; consolidation and actual replacement overlaps need an explicit boundary decision. The source's changing federal share imposes state obligations and requires reconciliation; alternative federal-share floors are research, not adopted changes. See [EDU-9B](domain-education.md#edu-9b-adopted-the-full-education-fund-benefit-package).
 
 ## FAM-3. Paid family and medical leave
 
@@ -105,7 +105,7 @@ All three ride reconciliation and survive at 51, as long as R1 and R2 hold and t
   - **HHS and the states:** child care slots.
 
   IRS and SSA are named in CAP-7's per-agency split (domains/domain-capacity.md); HHS's child care administration is not yet a CAP-7 line.
-- **Education:** EDU-4 staffs FAM-2's pre-K build-out; EDU-9B would finance it.
+- **Education:** EDU-4 staffs FAM-2's pre-K build-out; the adopted EDU-9B institution carries its financing, with exact rates and transfers unresolved.
 - **Revenue:** FAM-1 is paired with REV-G1 in R1. FAM-3's contribution needs the D3 net test.
 
 ## Design-rule check

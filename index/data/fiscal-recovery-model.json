@@ -45,6 +45,7 @@
   },
   "adoption": {
     "status": "Adopted by Espen: full EDU-9B benefit package and separate payroll-funded education institution. Exact rate, phasing, GF share, transition finance and household credit remain for decision.",
+    "cost_validation_status": "The cost_assumptions below preserve the first aggregate experiment, not a verified current-law reconciliation. Use index/tools/recovery-budget/assumptions.json and sources/education-component-reconciliation.csv for the successor component calculation; its care boundary and future current-law projections remain conditional. This annotation changes no adopted benefit or historical numeric input.",
     "scope": [
       "Universal school meals, CACFP and Summer EBT",
       "IDEA 40% federal share",
@@ -20711,9 +20712,9 @@
   },
   "delayed_middle_receipts_2030_39_tn": 0.40012400000000004,
   "source_sha256": {
-    "index/tools/fiscal-recovery/model.py": "6cd72f6dc8313744c365272562547111047961215807df2efee8a57a52512407",
+    "index/tools/fiscal-recovery/model.py": "52c3210002d6444d0a479fa76a2e1c4902a5b116894a6918d260fc1d7a74efcf",
     "index/tools/fiscal-recovery/assumptions.json": "cd63d4a56ae602646cce31c61ccd848ebb3d9635244e1f35dab8c42aab47532b",
-    "index/data/inputs/education-adoption.json": "c0136a6cd996e782a81f446327abe187237349778ce34a1378cd4b564e33a9d1",
+    "index/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
     "index/tools/fiscal-model.py": "104de3cbb37d5a9a5ff43fbf746ca6dec99c7c190755307ebe25df1a7c8c1dd3",
     "index/tools/funds-model.py": "7f55b0575e74822edf719dd07b5aa7402545befc0ab3ac02b4ef3c39d7f7935b",
     "index/tools/incidence-model.py": "f575bc644bc447ae35db6cb86d300e5159fe02ee5fa81af34054dc8d990744fa",

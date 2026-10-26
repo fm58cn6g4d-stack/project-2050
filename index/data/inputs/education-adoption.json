@@ -1,5 +1,6 @@
 {
   "status": "Adopted by Espen: full EDU-9B benefit package and separate payroll-funded education institution. Exact rate, phasing, GF share, transition finance and household credit remain for decision.",
+  "cost_validation_status": "The cost_assumptions below preserve the first aggregate experiment, not a verified current-law reconciliation. Use index/tools/recovery-budget/assumptions.json and sources/education-component-reconciliation.csv for the successor component calculation; its care boundary and future current-law projections remain conditional. This annotation changes no adopted benefit or historical numeric input.",
   "scope": [
     "Universal school meals, CACFP and Summer EBT",
     "IDEA 40% federal share",

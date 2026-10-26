@@ -130,7 +130,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | REV-P1 | Paid-leave contribution 0.6% to 0.85% | $0.9T channel | Chosen (FAM-3A) | Payroll group |
 | REV-E1 / C35 | Estate tax at 2009 parameters, frozen | **+$0.15T** (beyond G9) | **Accepted (planning basis)** | Increment beyond G9 |
 | REV-E2 | Public investment corporation (= AI-6D) | Subsidy cost in CLI's ~$0.10T line | Option | |
-| REV-ED1 / ED1 | Education payroll institution, full EDU-9B benefits | Conditional schedules in fiscal-recovery-model.md | Scope adopted; rate unresolved | Fiscal redesign |
+| REV-ED1 / ED1 | Education payroll institution, full EDU-9B benefits | Conditional schedules and component reconciliation in recovery-budget.md; earlier fiscal-recovery-model.md is historical | Scope adopted; rate unresolved | Fiscal redesign |
 | REV-SC1 / C43 | 45% bracket above $5M (ledger option C43) | +$0.18T | **Accepted Oct 21** (closes the 2040 shortfall) | Overlaps G3, G9 |
 | REV-SC2 | Pass-through and deferred-comp reform | +$0.35T | Option | Overlaps H1a, SS-5 |
 | REV-SC3 | Crop insurance reform (fossil piece moved to TS3) | +$0.05T | Option | |

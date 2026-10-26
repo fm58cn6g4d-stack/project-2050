@@ -1,5 +1,7 @@
 # Fiscal recovery and education adoption bridge
 
+> Historical first-pass calculation. The [Recovery and Solvency supplement](../recovery-budget/README.md) supersedes the pooled education residual and separate-fund fiscal comparisons with component reconciliation and consolidated flows. Retained inputs/results preserve this experiment; the arithmetic tests below do not independently verify its $0.77T current-law assumption.
+
 Source main `beeba090020b7916f8ed08bcff36161fb70d1e69`; comparison review
 `b94507d552e504a7f0c0f0c4ef16368d946557d6`. Full EDU-9B benefit scope and
 payroll institution are adopted. Financing schedules are conditional recommendations.

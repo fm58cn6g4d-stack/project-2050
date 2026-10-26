@@ -51,3 +51,7 @@ The health adapter also reads `sources/health-restoration-remedy-cohorts.csv` an
 ## Bounded family financing comparison
 
 After the common rebuild, `python3 index/tools/family-financing.py` generates `sources/family-financing-comparison.md` and `.json`. It reuses the fiscal annual-path and incidence allocation functions for illustrative incremental corporate/payroll receipts and the C19-for-C19b replacement. It does not change policy/input tables or select a pay-for. `python3 index/tools/test_family_financing.py` checks replacement versus double counting, receipt calibration, fiscal signs and stress monotonicity. New tax yields and incidence remain assumptions requiring joint scoring and faithful household mapping.
+
+## Recovery and Solvency budget
+
+The common runner now also executes [recovery-budget/model.py](recovery-budget/model.py) and its twelve accounting/regression tests. [The method and source notes](recovery-budget/README.md) distinguish current-law education transfers from new spending, integrate SS/HI/leave with total federal receipts/outlays/debt and expose modeled household/downside failures. Rates, credits, reserve rules and spending cuts remain exploratory. The preceding `fiscal-recovery/` experiment is retained with a supersession notice. No public-product edition is advanced.
