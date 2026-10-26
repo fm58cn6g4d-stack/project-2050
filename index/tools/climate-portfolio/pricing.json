@@ -363,5 +363,16 @@
   ]
  },
  "freed_d4b_room_bn": 195,
- "freed_d4b_basis": "Governing decisions, Oct 26: resizing CAP-7S from $300B to about $105B leaves about $195B less borrowing inside the D4-B investment envelope"
+ "freed_d4b_basis": "Governing decisions, Oct 26: resizing CAP-7S from $300B to about $105B leaves about $195B less borrowing inside the D4-B investment envelope",
+ "channel": {
+  "dividend_share": 0.8,
+  "transition_share": 0.2,
+  "cx_share": 0.25,
+  "basis": "D7: REV-C1 receipts split 80% Climate Dividend and 20% transition share; the general fund books a 25% income and payroll tax offset (CX) on carbon fees. Added receipts from the higher price and process coverage follow the same rule unless Espen changes it."
+ },
+ "removal_run_rate_2050_bn": [
+  60,
+  90,
+  120
+ ]
 }

@@ -21,7 +21,7 @@
 3. **Disclose the bigger gap honestly.** About $15-25B a year of disaster appropriations recurs but sits outside the extrapolated baseline. GAO counts at least $448B over FY2015-24, plus the $110B December 2024 act. That is current-law exposure, not agenda cost. It should appear in D4 tests next to the Judgment Fund line, so a bad hurricane season doesn't look like the agenda failing its fiscal rule.
 4. **Finance by type.**
    - The mitigation fund and wildfire work are ten-year capital programs (about $65B mid), borrowing-eligible under D4-B.
-   - The permanent pieces (about $36B mid over the decade in 2025 dollars, $0.044T nominal) are paid from the climate credit redesign's savings.
+   - The permanent pieces (D2, D3, D6, D7 and D8; about $78B nominal over 2030-39) are general-fund costs that continue after 2039. Their financing is part of Espen's open decision on the carbon-fee increment.
    - The climate portfolio's combined budget is in the [pricing file](climate-portfolio-pricing.md).
 5. **Keep the federal role.** The FEMA Review Council (May 2026) would shift response to states through parametric block grants and move flood insurance toward the private market. Most of that needs Congress. The project's design adopts the useful parts: faster, estimate-based Public Assistance and a single survivor application. It rejects shrinking federal capacity, because the 2025 cuts (FEMA staff down 17%, BRIC cancelled) are what produced the current gaps.
 
@@ -102,8 +102,8 @@ All programs start in FY2030, at 50% in 2030 and 75% in 2031. Component detail a
 
 **Financing.**
 - **Core capital (mitigation fund and wildfire).** Borrowing-eligible inside the D4-B investment envelope, using part of the room freed when the rebuild surge was cut to about $105B.
-- **Core permanent pieces** (about $44B nominal over 2030-39). Paid from the climate credit redesign's savings, which are larger. In the [whole-package budget](climate-portfolio-pricing.md), permanent items stay a net saving after paying for these pieces and the low-income heat-pump retrofits.
-- **The fuller tier:** D8's insurance help is permanent and paid from the credit redesign's savings; D9's buyouts are ten-year capital under D4-B. With both tiers, permanent items in the whole-package budget about break even (−$0.03T at the midpoint), and D4-B borrowing uses about 78% of the freed room.
+- **Permanent pieces** (D2, D3, D6, D7 and D8: about $78B nominal over 2030-39 in the central case, and about $12B a year by FY2050). They are general-fund costs. The climate credit redesign's savings help in this decade but end by about 2040, so the corrected [whole-package budget](climate-portfolio-pricing.md) shows a continuing general-fund cost after 2040 that needs a permanent financing source (Espen's decision on the carbon-fee increment, in the allocation file).
+- **The fuller tier:** D8's insurance help is permanent (included above); D9's buyouts are ten-year capital under D4-B. With both tiers, D4-B borrowing is about $152B central ($108-212B) against about $195B of freed room, overshooting by about $17B only in the unfavorable case. NFIP debt resolution (about $2B, FY2030) is now in the budget.
 
 ## Interactions and layering
 
@@ -132,7 +132,8 @@ All programs start in FY2030, at 50% in 2030 and 75% in 2031. Component detail a
    - core $0.12T plus fuller $0.07T nominal over 2030-39 (together $0.12-0.30T), plus about $0.002T one-time;
    - time-limited D1 and D5 under D4-B;
    - time-limited D9 under D4-B;
-   - permanent D2, D3, D6, D7 and D8 financed against the CLI-1 redesign.
+   - permanent D2, D3, D6, D7 and D8 as general-fund costs in the FY2040+ maturity test;
+   - NFIP debt resolution about $2B scored in FY2030 (not the $22.5B intragovernmental principal).
 2. Add a disclosed contingent line, "unbudgeted disaster supplementals (current law)", of about $15-25B a year next to the Judgment Fund line.
 3. Keep CAP-7's FEMA, NOAA and flood-map rows as they are. Nothing here adds to them.
 
