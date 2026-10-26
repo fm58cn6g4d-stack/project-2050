@@ -112,6 +112,8 @@ Most of it can ride the NDAA. ◐ It pairs with domain-ai.md: AI-3's evaluations
 
 A pointer to domain-climate.md. Domestic statutory commitments (multi-year contributions authorized in statute) are ◐. Treaty commitments are ✖ (staging 16.7).
 
+**October 26 direction (PR #31, review).** Climate finance is organized as three windows: an International Mitigation Results Program counted toward the 2035 benchmark above a 50% domestic floor, a loss-and-damage contribution, and adaptation through the restored development programs, reorganized around climate resilience. The plan is to rejoin Paris and the UNFCCC in 2029. Design and pricing: [climate-centered development finance](../sources/climate-portfolio-international.md). This row changes only when the deltas are integrated.
+
 ## NSC-10. Veterans health and capacity
 
 **Design.** Bill Book 26, ledger F6:
