@@ -46,3 +46,31 @@ monotonic stress response and separation of care units. A second generation into
 `/tmp` is compared byte for byte. Existing consistency findings remain unchanged.
 Raw CPS data, current tax-law rescoring and external specialist review are outside
 this bounded analysis.
+
+## October 26: financing redesign and participation follow-up
+
+Espen directed a wholesale financing review with participation support, institutional
+responsibility, delivery remedies and a modeled climate comparison. After the common
+dry rebuild above:
+
+```bash
+python3 index/tools/strategic-review/redesign.py
+python3 index/tools/strategic-review/test_redesign.py
+```
+
+This writes only `sources/fiscal-redesign-first-results.md` and `.json`; use
+`--output /tmp/redesign-check` for a separate deterministic comparison. Read the
+results with `sources/fiscal-redesign-and-participation-2026-10-26.md`.
+`redesign-assumptions.json` identifies the authored margin, service allowance,
+replacement rows and stress cases. Eighteen fiscal cases solve for net revenue
+requirements, not tax rates. Incremental debt/interest calculations retain existing
+fund paths and do not certify D3, all D4 conditions or long-run fund solvency.
+
+Ten climate cases call the existing Node driver with temporary configurations.
+Full configurations and annual results are saved; no baseline configuration is
+changed. Grid cost and delivery sensitivities are assumptions, and the `credits`
+accumulator includes selected program costs but is not a full fiscal or social-cost
+score. Credits-off is a diagnostic of the entire modeled bundle. New tests compare
+the selected cases with stored outputs and check tax replacement, maturity margins,
+outyear-versus-window stress, cost-only effects and non-additive climate results.
+The package manifest covers both passes, excluding the manifest itself.

@@ -1,0 +1,18 @@
+{
+  "status": "EXPLORATORY_NOT_ADOPTED",
+  "source_main": "beeba090020b7916f8ed08bcff36161fb70d1e69",
+  "source_review": "30b4af24e4b73cb94e7509f145209b879bffc29d",
+  "extra_low_receipts_tn": {"C38": 0.29, "G9": 0.25},
+  "g11_post2039_loss_fraction": 0.5,
+  "g11_note": "Reviewer sensitivity to transition-heavy receipts being extrapolated indefinitely. Remove half the G11 profile from 2040, keep earlier years and GX unchanged. Not a legal-loss forecast, empirical estimate or jointly rescored tax package.",
+  "replacement_rows": ["C19b", "C20"],
+  "maturity_margin_gdp_percent": 0.1,
+  "margin_note": "Reviewer illustration, not a new D4 rule or an identified tax. Minimum financing plus 0.1% GDP at maturity; no probability attached. Receipt ramp 2030-34.",
+  "service_space_gdp_percent": 0.1,
+  "service_space_note": "Unallocated expenditure envelope reaching 0.1% GDP in 2034 for participation, delivery remedies and resilience; NOT a cost estimate or authority to spend. No care entitlement, new housing capital or grid package is included.",
+  "climate": {
+    "weak_grid_world": {"gpTx": 0.4, "gpRecon": 8, "gpCurt": 0.025},
+    "expensive_grid_world": {"gpCost": 24},
+    "note": "Weak grid delivery combines low transmission/reconductoring parameters from existing model ranges with half the default curtailment benefit. Expensive grid doubles the model's assumed $12B/year cost only. No probability or empirical program score. These cases do not estimate engineering feasibility. Credits-off is a diagnostic removal of the model credit bundle, not a proposed repeal or exact CLI-1 budget swap."
+  }
+}
