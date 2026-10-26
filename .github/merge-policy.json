@@ -1,0 +1,80 @@
+{
+  "_about": "Machine-readable merge tiers for Project 2050. Read by .github/scripts/agent_gate.py. The plain-language rules are in governing/project-collaboration.md; changing this file is itself a tier 3 change. Patterns use fnmatch syntax against repository paths; the first matching rule wins.",
+  "espen_logins": ["fm58cn6g4d-stack"],
+  "_trusted_note": "Only comments and labels from these accounts count. Today every agent posts as Espen's account; add machine-account logins here if they are created. Anyone can comment on a public repository, so this list is what stops outsiders from approving.",
+  "trusted_logins": ["fm58cn6g4d-stack"],
+  "espen_label_apps_allowed": [],
+  "labels": {
+    "espen_approved": "espen-approved",
+    "needs_espen": "needs-espen",
+    "hold": "hold",
+    "tier_prefix": "tier-"
+  },
+  "agents": {
+    "claude-code": {"branch_prefixes": ["claude/"]},
+    "codex": {"branch_prefixes": ["codex/"]},
+    "gemini": {"branch_prefixes": ["gemini/"]}
+  },
+  "owners": [
+    {"pattern": "index/tools/recovery-budget/*", "owner": "codex"},
+    {"pattern": "index/data/recovery-budget*", "owner": "codex"},
+    {"pattern": "index/recovery-budget.md", "owner": "codex"},
+    {"pattern": "sources/recovery-budget-audit.csv", "owner": "codex"},
+    {"pattern": "sources/capacity-recovery-*", "owner": "claude-code"},
+    {"pattern": "index/tools/capacity-review/*", "owner": "claude-code"},
+    {"pattern": "sources/climate-portfolio-*", "owner": "claude-code"},
+    {"pattern": "index/tools/climate-portfolio/*", "owner": "claude-code"}
+  ],
+  "rules": [
+    {"pattern": ".github/*", "tier": 3, "why": "the merge rules and checks themselves"},
+    {"pattern": "AGENTS.md", "tier": 3, "why": "agent entry rules"},
+    {"pattern": "CLAUDE.md", "tier": 3, "why": "agent entry rules"},
+    {"pattern": "GEMINI.md", "tier": 3, "why": "agent entry rules"},
+    {"pattern": "governing/*", "tier": 3, "why": "governing records"},
+    {"pattern": "index/data/inputs/*", "tier": 3, "why": "adopted model inputs"},
+    {"pattern": "sources/project-work-queue.md", "tier": 1, "why": "queue status"},
+    {"pattern": "domains/*", "tier": "domain", "why": "canonical policy design"},
+    {"pattern": "index/options-register.md", "tier": 2, "why": "options register"},
+    {"pattern": "index/tools/*", "tier": 1, "why": "scripts; outputs they change are classified separately"},
+    {"pattern": "sources/*", "tier": 1, "why": "research, sources and reviews"},
+    {"pattern": "frameworks/*", "tier": 1, "why": "reasoning notes"},
+    {"pattern": "staging/*", "tier": 1, "why": "drafts"},
+    {"pattern": "archive/*", "tier": 1, "why": "history"},
+    {"pattern": "README.md", "tier": 1, "why": "navigation"},
+    {"pattern": "*", "tier": 2, "why": "not listed: merge but notify"}
+  ],
+  "generated_outputs": [
+    "index/recovery-budget.md",
+    "index/data/recovery-budget.json",
+    "index/data/recovery-budget-paths.csv",
+    "sources/recovery-budget-audit.csv",
+    "sources/education-component-reconciliation.csv",
+    "index/fiscal-recovery-model.md",
+    "index/data/fiscal-recovery-model.json",
+    "sources/fiscal-recovery-inventory.csv",
+    "index/calendar-scenarios.md",
+    "index/calendar-delivery-opportunities.md",
+    "index/calendar-scenario-explorer.html",
+    "index/data/calendar-scenarios.json",
+    "index/data/calendar-delivery.json",
+    "index/data/dashboard/*",
+    "index/capacity-funding-model.md",
+    "index/2029-trifecta-master-ledger.md",
+    "index/revenue-household-incidence-model.md",
+    "index/fiscal-long-term-model.md",
+    "index/data/fiscal-baseline.csv",
+    "index/data/fiscal-paths.csv",
+    "index/check-report.md",
+    "index/vote-simulation.md",
+    "index/dedicated-funds.md",
+    "index/climate-carbon-model.md"
+  ],
+  "_generated_note": "index/check-report.md lists document findings; it changes whenever a checked document does, so on its own it counts as a wording-level output (tier 1), not a model change.",
+  "wording_outputs": ["index/check-report.md"],
+  "headlines": {
+    "_about": "Tests and the 2040 margin: any change is tier 3. Other headline numbers: tier 2 if every relative change is within tolerance, tier 3 otherwise.",
+    "relative_tolerance": 0.01,
+    "absolute_floor": 0.05,
+    "margin_tolerance_pct_gdp": 0.005
+  }
+}

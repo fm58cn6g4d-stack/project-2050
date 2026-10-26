@@ -1,0 +1,29 @@
+# Project 2050 code owners. The last matching line wins.
+#
+# Today every agent (Claude Code sessions and Codex) pushes as Espen's account, fm58cn6g4d-stack, so GitHub
+# sees one person and cannot enforce a different owner per agent, and an account cannot approve its own PR.
+# This file therefore records ownership for people and agents to read; the enforced version is the
+# "owners" list in .github/merge-policy.json, which the agent-review check applies (the owner agent must review).
+# If machine accounts are created (governing/agent-automation-setup.md, optional step), replace the
+# agent lines with those accounts and turn on "Require review from Code Owners" in the main ruleset.
+
+*                                     @fm58cn6g4d-stack
+
+# Espen: governing records, adopted inputs, the merge rules and agent entry files.
+/governing/                           @fm58cn6g4d-stack
+/index/data/inputs/                   @fm58cn6g4d-stack
+/.github/                             @fm58cn6g4d-stack
+/AGENTS.md                            @fm58cn6g4d-stack
+/CLAUDE.md                            @fm58cn6g4d-stack
+/GEMINI.md                            @fm58cn6g4d-stack
+
+# Codex: the shared fiscal model and its generated outputs (integration owner).
+/index/tools/recovery-budget/         @fm58cn6g4d-stack
+/index/data/recovery-budget*          @fm58cn6g4d-stack
+/index/recovery-budget.md             @fm58cn6g4d-stack
+
+# Claude Code: capacity, climate portfolio and review work.
+/sources/capacity-recovery-*          @fm58cn6g4d-stack
+/index/tools/capacity-review/         @fm58cn6g4d-stack
+/sources/climate-portfolio-*          @fm58cn6g4d-stack
+/index/tools/climate-portfolio/       @fm58cn6g4d-stack
