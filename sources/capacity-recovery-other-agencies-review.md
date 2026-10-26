@@ -4,7 +4,7 @@
 
 Two items are decided under the project-coworker delegation, and are marked as such: how the development agency's spending is categorized, and how SSA's added staff are financed. **Espen accepted DEV-P and SSA administration of paid leave on Oct 26** (governing record). Nothing else here is adopted.
 
-- **Data:** [capacity-recovery-components.csv](capacity-recovery-components.csv), 200 rows.
+- **Data:** [capacity-recovery-components.csv](capacity-recovery-components.csv), 203 rows.
 - **Arithmetic:** `python3 index/tools/capacity-review/review.py`, which reads only.
 - **Units:** $B, nominal, midpoint with the range in brackets. Round 1 (IRS, CMS, HUD, Education) is [capacity-recovery-budget-review.md](capacity-recovery-budget-review.md).
 
@@ -27,7 +27,13 @@ Two items are decided under the project-coworker delegation, and are marked as s
   - **Claim-volume check.** Mature benefits of about $120B a year at $6,000-10,000 per claim mean about 12-20 million claims a year. At $150-350 of processing per claim, that is about $2-7B a year, or 1.5-6% of benefits.
   - **Comparison.** That is a fraction of SSA's $14.8B administrative budget. Short, frequent leave claims with medical certification cost more per benefit dollar than pensions do.
 - **State and local implementation grants (CAP-13).** Estimated at $0.03T but in no total. After the overlap check (below): **count about $8B inside the surge.**
-- **Unpriced at first, now priced (below):** Medicare claims operations for HLT-2's new benefits and FEMA's future-conditions flood mapping. Still unpriced: USDA conservation delivery, needed only if CLI-13 is chosen.
+- **Unpriced at first, now priced (below):**
+  - Medicare claims operations for HLT-2's new benefits;
+  - FEMA's future-conditions flood mapping;
+  - the IRS's dividend and mark-to-market functions;
+  - HUD's ROAD Act programs.
+
+  Still unpriced: USDA conservation delivery, needed only if CLI-13 is chosen.
 
 The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth program-row cost already found.
 
@@ -101,32 +107,51 @@ The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth progra
 | --- | --- | --- |
 | Restore 2025-26 losses | 9.4 (5.6-15.4) | 177.2 (120.2-227.4) |
 | Pre-2025 shortfalls | 25.9 (13.5-42.2) | 11.4 (4.3-20.5) |
-| Agenda work | 23.2 (11.8-43.1) | 67.0 (37.1-107.9) |
-| **Total** | **58.5 (30.9-100.7)** | **255.6 (161.6-355.7)** |
+| Agenda work | 24.6 (12.3-45.7) | 66.0 (36.2-107.3) |
+| **Total** | **59.8 (31.4-103.3)** | **254.6 (160.7-355.1)** |
 
-**Recommendation: size the surge (CAP-7S) at about $110B.** Espen's decision; the $300B stays until he decides.
-- **Why $110B.** It covers the high case ($101B) plus about $10B for the remaining unpriced builds: the IRS's dividend system and mark-to-market unit, and HUD's ROAD Act programs.
-- **The rest of the $300B ($242B at the midpoint) has no identified use.** If Espen wants a margin for needs nobody has written down, a named contingency of a stated size is better than an unallocated balance.
-- **Effect.** About $190B less borrowing inside the D4-B investment envelope, mostly FY2030-35. FY2040 is unaffected, because the surge ends.
+**Following Codex's review,** the last named items are each split into a finite build (surge) and recurring operations (sustained), so the surge carries no recurring costs:
+- **Mark-to-market unit:** $0.3B set-up, plus $0.15B a year.
+- **IRS dividend work:** $0.5B build, plus $0.1B a year.
+- **ROAD Act programs:** $0.5B set-up, plus $0.1B a year.
+
+**Recommendation: size the surge (CAP-7S) at about $105B.** Espen's decision; the $300B stays until he decides.
+- **Why $105B.** It covers the high case ($103B). Every named finite build is now priced, so no extra reserve is needed for them.
+- **The rest of the $300B ($240B at the midpoint) has no identified use.** If Espen wants a margin for needs nobody has written down, a named contingency of a stated size is better than an unallocated balance.
+- **Effect.** About $195B less borrowing inside the D4-B investment envelope, mostly FY2030-35. FY2040 is unaffected, because the surge ends.
+- **No surge-to-sustained transfer is proposed.** The recurring parts are already in sustained, and sustained has no spare room at the high case (below).
 - **What the surge holds now.** The pre-2025 layer is now the largest part: modernization at the IRS, SSA and student aid, flood maps, and backlogs.
 
-**Sustained: keep $300B.**
-- **Headroom.** About $44B against the midpoint; the high case ($356B) exceeds it.
-- **General-fund share.** It is lower than shown once SSA's trust-fund shares move out. The new HLT-2 row is paid through the SMI trust fund, three-quarters general revenue.
-- It fits, but not loosely.
+**Sustained: $300B is a planning ceiling. Its adequacy is conditional.**
 
-**FY2029.** Cash for all agencies is about $1.7B (range $0.5-4.5B), so a $5B shift (from $10B) is enough. Decide it with the surge.
+| Reading | Need, FY2030-39 | Against $300B |
+| --- | --- | --- |
+| Midpoint | $254.6B | $45B under |
+| High | $355.1B | **$55B over** |
+| Unpriced recurring | USDA conservation delivery, only if CLI-13 is chosen | Adds to both |
+
+- **Trust-fund shares.** The table counts SSA gross ($31B). The Social Security and Medicare shares are charged to their trust funds under the current-law split, so the general-fund claim on CAP-7 is lower by those shares. The current split by source was not found.
+- **What would push it over.** If the high case materialized, $300B would be short. Either the line rises (paid for at maturity under D4-B), or the lowest-priority rows wait. The midpoint fits.
+- **Recommendation.** Keep $300B as the planning ceiling. Treat restoration rows as first claims and agenda rows as phased with their programs.
+
+**FY2029.** A $5B shift (from $10B) is a planning alternative, not a resolved question.
+- **Basis.** Cash for the reviewed agencies is about $1.7B (range $0.5-4.5B).
+- **What it assumes:**
+  - R1 enactment around April 2029;
+  - small agencies under $0.1B each;
+  - the four entities not reviewed in depth (ACF, HRSA, FNS, Fiscal Service) using little first-year cash.
+- **Risks the other way.** Earlier enactment, faster hiring or unwritten needs would raise it. Decide it with the surge.
 
 ## All entities
 
 | Entity | Surge | Sustained, FY2030-39 | Total | FY2040 run rate | Old split |
 | --- | --- | --- | --- | --- | --- |
-| IRS | 9.0 | 92.4 | 101.4 (63.7-130.2) | 12.2 | 236.2 |
+| IRS | 9.8 | 95.5 | 105.3 (65.6-138.1) | 12.6 | 236.2 |
 | CMS | 8.0 | 17.4 | 25.4 (14.3-40.4) | 2.3 | 90.8 |
-| HUD | 2.8 | 10.4 | 13.2 (8.6-20.4) | 1.3 | 81.8 |
+| HUD | 3.3 | 11.7 | 15.0 (9.4-23.9) | 1.5 | 81.8 |
 | ED | 2.3 | 8.3 | 10.6 (5.8-15.5) | 1.1 | 72.7 |
 | SSA (gross; mostly trust-fund financed) | 3.9 | 31.0 | 34.9 (19.5-49.8) | 4.0 | 99.9 |
-| USCIS | 3.5 | 5.7 | 9.2 (5.1-16.1) | 0.7 | 83.6 |
+| USCIS (asylum and refugee processing inside IMM-3) | 3.5 | 0.3 | 3.8 (1.9-6.6) | 0.0 | 83.6 |
 | Development agency (capacity only; programs in DEV-P) | 4.0 | 24.7 | 28.7 (24.0-33.8) | 3.2 | 109.0 |
 | State (diplomacy) | 0.5 | 11.4 | 11.9 (6.6-18.7) | 1.5 | 14.5 |
 | CDC | 1.5 | 7.6 | 9.1 (5.4-15.7) | 1.0 | 27.2 |
@@ -153,7 +178,7 @@ The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth progra
 | State and local implementation (CAP-13, residual) | 8.0 | 0 | 8.0 (4.0-15.0) | 0 | in no total |
 | Digital service corps (CAP-12) | 0.5 | 3.2 | 3.7 (2.2-6.1) | 0.4 | — |
 | Inspectors general and GAO oversight | 0.6 | 0 | 0.6 (0.4-1.0) | 0 | — |
-| **All** | **58.5 (30.9-100.7)** | **255.6 (161.6-355.7)** | **314.1 (192.5-456.4)** | **33.1** | 1,079 |
+| **All** | **59.8 (31.4-103.3)** | **254.6 (160.7-355.1)** | **314.4 (192.1-458.4)** | **33.0** | 1,079 |
 
 **Program-row costs this review found (outside CAP; each needs its owner):**
 
@@ -163,7 +188,7 @@ The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth progra
 | Paid-leave administration | FAM-3 and the leave fund | $30B ($18-60B) | Leave fund |
 | Voucher administrative fees (round 1) | HOU-4, inside HOU-1 | $12.2B ($8.1-15.2B) | General fund |
 
-**Midpoint sustained path, $B nominal FY2030-39:** 10.4, 18.1, 24.5, 26.0, 27.0, 27.9, 28.9, 29.9, 30.9, 32.0.
+**Midpoint sustained path, $B nominal FY2030-39:** 10.4, 18.1, 24.4, 25.9, 26.8, 27.8, 28.8, 29.8, 30.8, 31.9.
 
 ## Agency notes (changes since the first round 2 draft)
 
@@ -171,6 +196,8 @@ The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth progra
 - **SSA:** the pre-2025 layer rose to about +4,000 staff ($0.8B a year), because January 2025 staffing was already a multi-decade low.
 - **FEMA:** about +5,000 staff, including a pre-2025 shortfall against FEMA's own targets (estimate).
 - **Development agency:** decided as above.
+- **USCIS:** the asylum and refugee processing row is reconciled with IMM-3 (Codex review). IMM-3 already carries about $10B of processing costs for asylum officers, regional processing and port screening. The bottom-up need (about $5.4B) fits inside it, so CAP carries only the backlog, online filing and the Office of New Americans. IMM-3 is about double the bottom-up figure; the immigration owner may trim it.
+- **IRS and HUD:** the mark-to-market unit, dividend work and ROAD Act programs are priced, each split into a finite build and recurring operations.
 - **CDC:** public health grants clawed back in 2025 were time-limited COVID-era money, so they are not restored. NSC-8 carries its program money.
 - **New entities:**
   - **CAP-13** ($30B surge): it was in no total.
