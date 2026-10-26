@@ -372,7 +372,8 @@ def voided_labels(labels, label_heads, head, events, event, pushed_at, carries, 
         old = heads.get(name)
         if old is None:
             # Without the labeled commit, date the label: before this push (synchronize), or before the head
-            # commit was even made (any run; a commit's date never follows its push, so this cannot misfire).
+            # commit was even made (any run). A commit's date normally precedes its push; only clock skew on the
+            # author's machine can make this misfire, and then only toward removing the label (fail-safe).
             if ((event == "synchronize" and label_added_before(events, name, pushed_at))
                     or (head_time and label_added_before(events, name, head_time))):
                 void.append(name)
