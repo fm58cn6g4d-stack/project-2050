@@ -24,6 +24,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 from collections import Counter
@@ -342,6 +343,9 @@ def espen_approval(events, policy):
 # ------------------------------------------------------------------------------------------------
 # GitHub API (GITHUB_TOKEN from Actions)
 # ------------------------------------------------------------------------------------------------
+RETRY_DELAYS = (2, 4, 8, 16)
+
+
 class GitHub:
     def __init__(self, repo, token):
         self.repo, self.token = repo, token
@@ -352,12 +356,22 @@ class GitHub:
         req.add_header("Authorization", f"Bearer {self.token}")
         req.add_header("Accept", "application/vnd.github+json")
         req.add_header("X-GitHub-Api-Version", "2022-11-28")
-        try:
-            with urllib.request.urlopen(req) as r:
-                raw = r.read()
-                return json.loads(raw) if raw else None
-        except urllib.error.HTTPError as e:
-            raise RuntimeError(f"{method} {path}: {e.code} {e.read().decode()[:300]}") from None
+        # GitHub's API sometimes answers 502/503/504 or drops the connection for a moment; retry those with
+        # backoff rather than fail the gate (a 502 on Oct 26 left PR #32's review unprocessed).
+        for wait in (*RETRY_DELAYS, None):
+            try:
+                with urllib.request.urlopen(req) as r:
+                    raw = r.read()
+                    return json.loads(raw) if raw else None
+            except urllib.error.HTTPError as e:
+                if e.code not in (502, 503, 504) or wait is None:
+                    raise RuntimeError(f"{method} {path}: {e.code} {e.read().decode()[:300]}") from None
+                print(f"{method} {path}: {e.code}; retrying in {wait}s")
+            except urllib.error.URLError as e:
+                if wait is None:
+                    raise RuntimeError(f"{method} {path}: {e.reason}") from None
+                print(f"{method} {path}: {e.reason}; retrying in {wait}s")
+            time.sleep(wait)
 
     def pages(self, path):
         out, page = [], 1

@@ -195,6 +195,50 @@ class FakeGitHub:
         raise AssertionError(path)
 
 
+class Retry(unittest.TestCase):
+    def setUp(self):
+        import urllib.request
+        self.urlopen, self.delays = urllib.request.urlopen, g.RETRY_DELAYS
+        g.RETRY_DELAYS = (0, 0)
+
+    def tearDown(self):
+        import urllib.request
+        urllib.request.urlopen, g.RETRY_DELAYS = self.urlopen, self.delays
+
+    def fake(self, codes):
+        import io, urllib.error, urllib.request
+        calls = []
+
+        class Resp(io.BytesIO):
+            def __enter__(self): return self
+            def __exit__(self, *a): return False
+
+        def urlopen(req):
+            calls.append(1)
+            code = codes[len(calls) - 1]
+            if code != 200:
+                raise urllib.error.HTTPError(req.full_url, code, "err", {}, io.BytesIO(b"{}"))
+            return Resp(b'{"ok": true}')
+        urllib.request.urlopen = urlopen
+        return calls
+
+    def test_retries_server_errors_then_succeeds(self):
+        calls = self.fake([502, 503, 200])
+        self.assertEqual(g.GitHub("o/r", "t").call("GET", "/pulls/1"), {"ok": True})
+        self.assertEqual(len(calls), 3)
+
+    def test_gives_up_after_retries(self):
+        self.fake([502, 502, 502])
+        with self.assertRaises(RuntimeError):
+            g.GitHub("o/r", "t").call("GET", "/pulls/1")
+
+    def test_client_errors_are_not_retried(self):
+        calls = self.fake([404])
+        with self.assertRaises(RuntimeError):
+            g.GitHub("o/r", "t").call("GET", "/pulls/1")
+        self.assertEqual(len(calls), 1)
+
+
 class Digest(unittest.TestCase):
     def test_digest_lists_merged_and_waiting(self):
         old, os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_TOKEN"] = g.GitHub, "o/r", "x"
