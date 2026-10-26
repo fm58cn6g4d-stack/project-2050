@@ -297,6 +297,12 @@ def evaluate_reviews(items, head_sha, author, owners, policy):
     return True, "approved by " + ", ".join(f"{a} {s or ''}".strip() for a, s in approvals), approvals
 
 
+def label_added_before(events, name, when):
+    """True when the label's latest 'labeled' event is older than `when` (an ISO time, e.g. the push)."""
+    added = [e.get("created_at") or "" for e in events if e.get("event") == "labeled" and (e.get("label") or {}).get("name") == name]
+    return bool(added) and (not when or max(added) < when)
+
+
 def espen_approval(events, policy):
     """(ok, detail) from the PR's issue events for the espen-approved label (latest labeled event wins)."""
     name = policy["labels"]["espen_approved"]
@@ -389,7 +395,11 @@ def gate(args, policy):
 
     # New commits after Espen's approval void it: he approved a specific version.
     events = gh.pages(f"/issues/{n}/events")
-    if args.event == "synchronize" and L["espen_approved"] in labels:
+    for e in events:
+        if (e.get("label") or {}).get("name") == L["espen_approved"]:
+            print(f"{e['event']} {L['espen_approved']} at {e.get('created_at')} by {(e.get('actor') or {}).get('login')}, "
+                  f"performed_via_github_app={(e.get('performed_via_github_app') or {}).get('slug')}")
+    if args.event == "synchronize" and L["espen_approved"] in labels and label_added_before(events, L["espen_approved"], args.pushed_at):
         gh.call("DELETE", f"/issues/{n}/labels/{L['espen_approved']}")
         labels.remove(L["espen_approved"])
         events.append({"event": "unlabeled", "label": {"name": L["espen_approved"]}})
@@ -577,6 +587,7 @@ def main(argv=None):
     h = sub.add_parser("headlines"); h.add_argument("--rev")
     g = sub.add_parser("gate"); g.add_argument("--pr", type=int, required=True); g.add_argument("--classification")
     g.add_argument("--event", default="")
+    g.add_argument("--pushed-at", default="", help="time of the push that triggered a synchronize event")
     d = sub.add_parser("digest"); d.add_argument("--hours", type=int, default=24); d.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
     policy = load_policy()

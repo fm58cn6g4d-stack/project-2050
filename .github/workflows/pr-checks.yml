@@ -69,3 +69,4 @@ jobs:
         run: >
           python3 .github/scripts/agent_gate.py gate --pr "${{ github.event.pull_request.number }}"
           --classification "$RUNNER_TEMP/classification.json" --event "${{ github.event.action }}"
+          --pushed-at "${{ github.event.pull_request.updated_at }}"

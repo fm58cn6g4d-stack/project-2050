@@ -141,6 +141,14 @@ class EspenApproval(unittest.TestCase):
         self.assertFalse(g.espen_approval([self.ev(), self.ev(event="unlabeled")], POLICY)[0])
 
 
+class LabelTiming(unittest.TestCase):
+    def test_label_before_and_after_push(self):
+        ev = [{"event": "labeled", "label": {"name": "espen-approved"}, "created_at": "2026-10-26T16:20:00Z"}]
+        self.assertTrue(g.label_added_before(ev, "espen-approved", "2026-10-26T16:21:00Z"))
+        self.assertFalse(g.label_added_before(ev, "espen-approved", "2026-10-26T16:19:00Z"))
+        self.assertFalse(g.label_added_before([], "espen-approved", "2026-10-26T16:19:00Z"))
+
+
 class Classify(unittest.TestCase):
     """Runs classify() on a scratch git repository."""
 
