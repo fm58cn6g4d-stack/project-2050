@@ -284,8 +284,23 @@ def parse_review(body):
     return v.group(1).lower(), h.group(1).lower(), r.group(1).lower(), r.group(2)
 
 
-def evaluate_reviews(items, head_sha, author, owners, policy):
-    """items: [{'body','created_at','app'}] in any order. Returns (ok, summary, approvals)."""
+def same_changes(old, new):
+    """True when `new` only adds main to `old`: old is an ancestor of new and the PR's own changes (the diff from
+    each commit's merge base with main) are identical. Then a review of `old` still describes `new`."""
+    try:
+        if git("rev-parse", old).strip() == git("rev-parse", new).strip():
+            return True
+        if subprocess.run(["git", "merge-base", "--is-ancestor", old, new], cwd=ROOT).returncode:
+            return False
+        own = lambda c: git("diff", "--no-color", git("merge-base", "HEAD", c).strip(), c)
+        return own(old) == own(new)
+    except RuntimeError:
+        return False  # a commit not available locally: no carry-over
+
+
+def evaluate_reviews(items, head_sha, author, owners, policy, carries=lambda h: False):
+    """items: [{'body','created_at','app'}] in any order. `carries(h)` says whether an approval of commit h still
+    describes the head (see same_changes). Returns (ok, summary, approvals, blocks)."""
     author_agent, author_session = author
     latest = {}
     trusted = set(policy["trusted_logins"])
@@ -306,17 +321,36 @@ def evaluate_reviews(items, head_sha, author, owners, policy):
             continue  # an author cannot review their own PR; same-vendor reviews need distinct sessions
         # Each reviewer's latest verdict wins. An approval counts only for the current head; a request for
         # changes stands across later pushes until the same reviewer approves, so a push cannot outrun it.
-        latest[(agent, session)] = (verdict, head_sha.startswith(h))
-    approvals = sorted(k for k, v in latest.items() if v == ("approve", True))
+        latest[(agent, session)] = (verdict, h)
+    current = {h for v, h in latest.values() if v == "approve"}
+    current = {h for h in current if head_sha.startswith(h) or carries(h)}
+    approvals = sorted(k for k, v in latest.items() if v[0] == "approve" and v[1] in current)
     blocks = sorted(k for k, v in latest.items() if v[0] == "changes-requested")
     if blocks:
-        return False, "changes requested by " + ", ".join(f"{a} {s or ''}".strip() for a, s in blocks), approvals
+        return False, "changes requested by " + ", ".join(f"{a} {s or ''}".strip() for a, s in blocks), approvals, blocks
     if not approvals:
-        return False, f"no approving agent review of {head_sha[:7]}", approvals
+        return False, f"no approving agent review of {head_sha[:7]}", approvals, blocks
     missing = [o for o in owners if o != author_agent and o not in {a for a, _ in approvals}]
     if missing:
-        return False, "path owner must review: " + ", ".join(missing), approvals
-    return True, "approved by " + ", ".join(f"{a} {s or ''}".strip() for a, s in approvals), approvals
+        return False, "path owner must review: " + ", ".join(missing), approvals, blocks
+    return True, "approved by " + ", ".join(f"{a} {s or ''}".strip() for a, s in approvals), approvals, blocks
+
+
+def unformatted_reviews(items, author, policy):
+    """Comments that look like another agent's review but carry no verdict lines, posted after that agent's
+    latest verdict. Returns [(agent, created_at)]. Only other vendors' comments are checked, because the
+    author's own replies come through the same integration as same-vendor reviews."""
+    app_agent = {a: name for name, cfg in policy["agents"].items() for a in cfg.get("apps") or []}
+    found = []
+    for it in sorted(items, key=lambda x: x["created_at"]):
+        agent = app_agent.get(it.get("app"))
+        if not agent or agent == author[0] or it.get("user") not in policy["trusted_logins"]:
+            continue
+        if parse_review(it["body"]):
+            found = [f for f in found if f[0] != agent]
+        else:
+            found.append((agent, it["created_at"]))
+    return found
 
 
 def label_added_before(events, name, when):
@@ -325,9 +359,10 @@ def label_added_before(events, name, when):
     return bool(added) and (not when or max(added) < when)
 
 
-def espen_approval(events, policy):
-    """(ok, detail) from the PR's issue events for the espen-approved label (latest labeled event wins)."""
-    name = policy["labels"]["espen_approved"]
+def espen_approval(events, policy, name=None):
+    """(ok, detail) from the PR's issue events for the espen-approved label, or another Espen-only label such as
+    espen-override (latest labeled event wins)."""
+    name = name or policy["labels"]["espen_approved"]
     ev = [e for e in events if e.get("event") in ("labeled", "unlabeled") and (e.get("label") or {}).get("name") == name]
     if not ev or ev[-1]["event"] != "labeled":
         return False, "no espen-approved label"
@@ -452,7 +487,9 @@ def gate(args, policy):
         if (e.get("label") or {}).get("name") == L["espen_approved"]:
             print(f"{e['event']} {L['espen_approved']} at {e.get('created_at')} by {(e.get('actor') or {}).get('login')}, "
                   f"performed_via_github_app={(e.get('performed_via_github_app') or {}).get('slug')}")
-    if args.event == "synchronize" and L["espen_approved"] in labels and label_added_before(events, L["espen_approved"], args.pushed_at):
+    if (args.event == "synchronize" and L["espen_approved"] in labels
+            and label_added_before(events, L["espen_approved"], args.pushed_at)
+            and not (prev.get("head") and same_changes(prev["head"], head))):
         gh.call("DELETE", f"/issues/{n}/labels/{L['espen_approved']}")
         labels.remove(L["espen_approved"])
         events.append({"event": "unlabeled", "label": {"name": L["espen_approved"]}})
@@ -484,16 +521,24 @@ def gate(args, policy):
     for it in items:
         if parse_review(it["body"]):
             print(f"review comment by {it['user']} at {it['created_at']}, performed_via_github_app={it['app']}: {parse_review(it['body'])}")
-    rev_ok, rev_desc, approvals = evaluate_reviews(items, head, author, cls.get("owners", []), policy)
-    if not rev_ok and tier == 3 and espen_ok:
+    rev_ok, rev_desc, approvals, blocks = evaluate_reviews(items, head, author, cls.get("owners", []), policy,
+                                                           carries=lambda h: same_changes(h, head))
+    override_ok, _ = espen_approval(events, policy, L["espen_override"])
+    if not rev_ok and blocks and override_ok:
+        rev_ok, rev_desc = True, f"Espen overrode the objection ({rev_desc})"
+    elif not rev_ok and not blocks and tier == 3 and espen_ok:
         rev_ok, rev_desc = True, "Espen approved directly"
+    elif not rev_ok and blocks and tier == 3 and espen_ok:
+        rev_desc += f"; Espen's approval does not override it: add `{L['espen_override']}` to merge anyway"
     if author[0] is None and not (tier == 3 and espen_ok):
         rev_ok, rev_desc = False, "unknown author: add 'Agent-Author: <agent> <session>' to the PR description"
     status(gh, head, "agent-review", "success" if rev_ok else "failure", rev_desc, run_url)
 
     base_now = gh.call("GET", f"/branches/{pr['base']['ref']}")["commit"]["sha"]
     ready, why_not = merge_ready(gh, pr, labels, tier_state, rev_ok, cls, base_now, policy)
-    body = gate_comment(cls, tier, tier_desc, rev_desc, author, ready, why_not, head)
+    hints = [f"{a} commented at {t} without verdict lines. If that was a review, {a} should post the three lines "
+             "below (approve or changes-requested) naming the current head." for a, t in unformatted_reviews(items, author, policy)]
+    body = gate_comment(cls, tier, tier_desc, rev_desc, author, ready, why_not, head, hints)
     data = {"head": head, "classification": cls, "tier": tier, "notified_tier3": prev.get("notified_tier3", False)}
     if tier == 3 and not espen_ok and not data["notified_tier3"] and not pr.get("draft"):
         gh.call("POST", f"/issues/{n}/comments", {"body": f"@{policy['espen_logins'][0]} this PR needs your decision "
@@ -561,10 +606,11 @@ def merge_ready(gh, pr, labels, tier_state, rev_ok, cls, base_now, policy):
     if not runs or runs[-1].get("conclusion") != "success":
         return False, "rebuild-and-tests has not passed on this head"
     if cls.get("tested_base") and cls["tested_base"] != base_now:
-        return False, (f"main moved since the checks ran (tested against {cls['tested_base'][:7]}, main is {base_now[:7]}); "
-                       "merge main into this branch to re-run them")
+        return False, (f"out of date: main moved since the checks ran (tested against {cls['tested_base'][:7]}, main is "
+                       f"{base_now[:7]}). The author agent must merge main into this branch and push; the checks then "
+                       "re-run, and approvals carry over if the PR's own changes are unchanged")
     if pr.get("mergeable") is False:
-        return False, "merge conflict"
+        return False, "merge conflict with main: the author agent must merge main in and resolve it"
     return True, ""
 
 
@@ -577,13 +623,14 @@ def headline_table(cls):
     return "\n".join(out)
 
 
-def gate_comment(cls, tier, tier_desc, rev_desc, author, ready, why_not, head):
+def gate_comment(cls, tier, tier_desc, rev_desc, author, ready, why_not, head, hints=()):
     names = {1: "auto-merge", 2: "auto-merge and notify Espen", 3: "Espen decides"}
     lines = [f"### Merge gate: tier {tier} ({names[tier]})", "",
              f"Head `{head[:7]}`; checked against main `{(cls.get('tested_base') or cls['base'])[:7]}`. "
              f"Author: {author[0] or 'unknown'} {author[1] or ''}".rstrip(), "",
              f"- **Tier:** {tier_desc}", f"- **Agent review:** {rev_desc}",
              f"- **Merge:** {'ready, merging now' if ready else why_not}", ""]
+    lines += [f"> **Review not counted:** {h}" for h in hints] + ([""] if hints else [])
     top = sorted(cls["reasons"], key=lambda r: -r[1])[:25]
     lines += ["<details><summary>Why this tier</summary>", "", "| Path or headline | Tier | Reason |", "| --- | --- | --- |"]
     lines += [f"| `{p}` | {t} | {w} |" for p, t, w in top]
@@ -613,6 +660,20 @@ def digest(args, policy):
                and L["espen_approved"] not in {l["name"] for l in p["labels"]}]
     issues = [i for i in gh.pages(f"/issues?state=open&labels={L['needs_espen']}") if "pull_request" not in i]
 
+    agents_owe = []  # (PR, what it waits for) for ready PRs held up by a review or an out-of-date branch
+    for p in opened:
+        if p.get("draft"):
+            continue
+        full = gh.call("GET", f"/pulls/{p['number']}")
+        statuses = {s["context"]: s for s in gh.call("GET", f"/commits/{full['head']['sha']}/status").get("statuses", [])}
+        review = statuses.get("agent-review")
+        if review and review["state"] != "success":
+            agents_owe.append((p, f"review: {review['description']}"))
+        if full.get("mergeable_state") == "behind":
+            agents_owe.append((p, "out of date: the author agent must merge main in"))
+        elif full.get("mergeable") is False:
+            agents_owe.append((p, "merge conflict: the author agent must merge main in and resolve it"))
+
     old = git("rev-list", "-1", f"--before={since.isoformat()}", "HEAD").strip()
     moved = compare_headlines(headlines_at(old), headlines_at("HEAD"), policy) if old else []
 
@@ -627,6 +688,12 @@ def digest(args, policy):
     out += [f"- PR #{p['number']} {p['title']}" for p in waiting]
     out += [f"- Issue #{i['number']} {i['title']}" for i in issues]
     if not waiting and not issues:
+        out.append("- Nothing.")
+    out += ["", f"### Waiting on agents ({len(agents_owe)})", ""]
+    out += [f"- PR #{p['number']} {p['title']}: {why}" for p, why in agents_owe]
+    if agents_owe:
+        out.append("- A review owed by Codex needs a Codex session started on it; Codex is not woken by GitHub.")
+    else:
         out.append("- Nothing.")
     out += ["", "### Headline numbers that moved on main", ""]
     if moved:

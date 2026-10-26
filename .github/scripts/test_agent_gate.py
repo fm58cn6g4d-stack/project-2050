@@ -100,7 +100,7 @@ class Reviews(unittest.TestCase):
     def test_changes_requested_on_older_head_still_blocks(self):
         old = item(review("changes-requested", head="b" * 40), t="2026-10-26T12:00:00Z", app="chatgpt-codex-connector")
         other = item(review(who="claude-code session_B"), t="2026-10-26T13:00:00Z", app="claude")
-        ok, why, _ = self.ev([old, other])
+        ok, why, _, _ = self.ev([old, other])
         self.assertFalse(ok)
         self.assertIn("codex", why)
         again = item(review(), t="2026-10-26T14:00:00Z", app="chatgpt-codex-connector")
@@ -131,7 +131,7 @@ class Reviews(unittest.TestCase):
         self.assertFalse(self.ev([item(review(), user="someone-else", app="chatgpt-codex-connector")])[0])
 
     def test_path_owner_must_review(self):
-        ok, why, _ = self.ev([item(review(who="claude-code session_B"), app="claude")], owners=["codex"])
+        ok, why, _, _ = self.ev([item(review(who="claude-code session_B"), app="claude")], owners=["codex"])
         self.assertFalse(ok)
         self.assertIn("codex", why)
         self.assertTrue(self.ev([item(review(who="codex t1"), app="chatgpt-codex-connector")], owners=["codex"])[0])
@@ -140,6 +140,40 @@ class Reviews(unittest.TestCase):
         self.assertEqual(g.pr_author("x\nAgent-Author: codex task-9\n", "whatever", POLICY), ("codex", "task-9"))
         self.assertEqual(g.pr_author("", "claude/agent-automation", POLICY), ("claude-code", None))
         self.assertEqual(g.pr_author("", "feature/x", POLICY), (None, None))
+
+
+class ReviewFlow(unittest.TestCase):
+    author = ("claude-code", "session_A")
+    OLD = "c" * 40
+
+    def test_approval_carries_over_a_plain_main_update(self):
+        items = [item(review(head=self.OLD), app="chatgpt-codex-connector")]
+        self.assertFalse(g.evaluate_reviews(items, HEAD, self.author, [], POLICY)[0])
+        ok, why, approvals, blocks = g.evaluate_reviews(items, HEAD, self.author, [], POLICY,
+                                                        carries=lambda h: h == self.OLD)
+        self.assertTrue(ok, why)
+        self.assertEqual(blocks, [])
+
+    def test_objection_is_reported_as_a_block(self):
+        items = [item(review("changes-requested"), app="chatgpt-codex-connector")]
+        ok, why, approvals, blocks = g.evaluate_reviews(items, HEAD, self.author, [], POLICY)
+        self.assertFalse(ok)
+        self.assertEqual(blocks, [("codex", "task-1")])
+
+    def test_unformatted_review_is_flagged_until_a_verdict(self):
+        prose = item("Codex focused review: two findings ...", t="2026-10-26T12:00:00Z", app="chatgpt-codex-connector")
+        mine = item("Reply from the author", t="2026-10-26T12:30:00Z", app="claude")
+        self.assertEqual(g.unformatted_reviews([prose, mine], self.author, POLICY), [("codex", "2026-10-26T12:00:00Z")])
+        verdict = item(review(), t="2026-10-26T13:00:00Z", app="chatgpt-codex-connector")
+        self.assertEqual(g.unformatted_reviews([prose, mine, verdict], self.author, POLICY), [])
+
+    def test_override_label_is_checked_like_approval(self):
+        ev = [{"event": "labeled", "label": {"name": "espen-override"}, "actor": {"login": "fm58cn6g4d-stack"},
+               "performed_via_github_app": None}]
+        self.assertTrue(g.espen_approval(ev, POLICY, "espen-override")[0])
+        self.assertFalse(g.espen_approval(ev, POLICY)[0])
+        ev[0]["performed_via_github_app"] = {"slug": "claude"}
+        self.assertFalse(g.espen_approval(ev, POLICY, "espen-override")[0])
 
 
 class EspenApproval(unittest.TestCase):
@@ -182,6 +216,14 @@ class FakeGitHub:
             return [{"number": 30, "title": "Wording fix", "merged_at": "2999-01-01T00:00:00Z",
                      "labels": [{"name": "tier-1"}], "merged_by": {"login": "github-actions[bot]"}},
                     {"number": 29, "title": "Old", "merged_at": "2000-01-01T00:00:00Z", "labels": []}]
+        if path.startswith("/pulls/"):
+            n = int(path.split("/")[2])
+            return {"number": n, "head": {"sha": f"sha{n}"}, "mergeable": True,
+                    "mergeable_state": "behind" if n == 31 else "clean"}
+        if path.startswith("/commits/sha31/status"):
+            return {"statuses": [{"context": "agent-review", "state": "failure", "description": "changes requested by codex t1"}]}
+        if path.startswith("/commits/"):
+            return {"statuses": [{"context": "agent-review", "state": "success", "description": "approved"}]}
         raise AssertionError(path)
 
     def pages(self, path):
@@ -360,6 +402,8 @@ class Digest(unittest.TestCase):
         self.assertIn("PR #31", text)
         self.assertNotIn("PR #32", text)
         self.assertIn("Issue #40", text)
+        self.assertIn("PR #31 Adopt new input: review: changes requested by codex t1", text)
+        self.assertIn("PR #31 Adopt new input: out of date", text)
         writes = FakeGitHub.last.writes
         self.assertEqual(writes[0][1], "/issues")          # creates the digest issue
         self.assertEqual(writes[1][1], "/issues/99/comments")  # and comments because there is news
@@ -425,6 +469,24 @@ class Classify(unittest.TestCase):
     def test_removed_program_is_tier3(self):
         self.write("domains/domain-x.md", "# X\n\nThe plan is good.\n")
         self.assertEqual(g.classify(self.base, self.commit("rm"), POLICY)["tier"], 3)
+
+    def test_same_changes_after_merging_main(self):
+        self.git("checkout", "-q", "-b", "pr")
+        self.write("sources/notes.md", "Research note, revised.\n")
+        reviewed = self.commit("pr work")
+        self.git("checkout", "-q", "main")
+        self.write("sources/other.md", "Someone else's work.\n")
+        self.commit("main moves")
+        self.git("checkout", "-q", "pr")
+        self.git("merge", "-q", "--no-edit", "main")
+        merged = self.git("rev-parse", "HEAD").strip()
+        self.write("sources/notes.md", "Research note, revised again.\n")
+        edited = self.commit("more pr work")
+        self.git("checkout", "-q", "main")  # the gate runs from a checkout of main
+        self.assertTrue(g.same_changes(reviewed, merged))
+        self.assertTrue(g.same_changes(reviewed[:12], merged))
+        self.assertFalse(g.same_changes(reviewed, edited))
+        self.assertFalse(g.same_changes("0" * 40, merged))
 
     def test_governing_is_tier3(self):
         self.write("governing/rules.md", "Rule, reworded.\n")

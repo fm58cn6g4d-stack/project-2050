@@ -63,12 +63,13 @@ While on that page, under **Approval for running fork pull request workflows fro
 | Label | Who adds it | Meaning |
 | --- | --- | --- |
 | `espen-approved` | **Only you** | You approve a tier-3 PR as it stands. New commits remove it automatically |
+| `espen-override` | **Only you** | Merge even though an agent has requested changes. Your `espen-approved` alone no longer overrides an agent's open objection |
 | `needs-espen` | Agents | A decision for you; forces tier 3 |
 | `hold` | Anyone | Do not merge yet |
 | `tier-1`, `tier-2`, `tier-3` | The gate | The tier it assigned |
 | `agent-digest` | The digest | Marks the daily digest issue |
 
-The gate creates missing tier and digest labels itself; creating `espen-approved`, `needs-espen` and `hold` in advance lets you pick them from the menu. Source: [Managing labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels).
+The gate creates missing tier and digest labels itself; creating `espen-approved`, `espen-override`, `needs-espen` and `hold` in advance lets you pick them from the menu. Source: [Managing labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels).
 
 **How to approve a tier-3 PR:** open it, read the gate comment's reasons and headline table, then in the right-hand sidebar click **Labels** and choose `espen-approved`. Do it on github.com or in the GitHub mobile app, never by asking an agent to do it: the gate rejects the label if an agent's integration added it (see "Limits").
 

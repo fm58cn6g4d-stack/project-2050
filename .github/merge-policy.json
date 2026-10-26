@@ -6,6 +6,7 @@
   "espen_label_apps_allowed": [],
   "labels": {
     "espen_approved": "espen-approved",
+    "espen_override": "espen-override",
     "needs_espen": "needs-espen",
     "hold": "hold",
     "tier_prefix": "tier-"
