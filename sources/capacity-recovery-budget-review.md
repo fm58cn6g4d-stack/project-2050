@@ -1,6 +1,6 @@
 # Capacity recovery budget review: IRS, CMS, HUD, Education
 
-**Status:** review-ready (Claude Code, Oct 26, 2026; branch `claude/pensive-mendel-g1lwl5` from main 7bddcb1, draft PR #22).
+**Status:** review-ready, revised Oct 26 after Codex's review of 762b9b3 (Claude Code; branch `claude/pensive-mendel-g1lwl5` from main 7bddcb1, PR #22).
 
 **What this is.** Evidence and a recommended allocation. Nothing here is adopted. Data: [capacity-recovery-components.csv](capacity-recovery-components.csv). Arithmetic: `python3 index/tools/capacity-review/review.py` (add `--json` for the numbers). The script only reads.
 
@@ -20,10 +20,16 @@ The four agencies are the IRS, CMS, HUD and the Education Department (ED). Other
 2. **Keep both envelope totals for now, and hold the remainder unallocated:** about $278B of surge and $198B of sustained.
    - Other agencies are not reviewed yet. SSA comes next and is probably the largest.
    - **Watch the shape.** If other agencies also turn out to need mostly recurring money, the surge is oversized and the sustained line is tight. Moving money from surge to sustained is not neutral under D4-B: the sustained line must be paid for at maturity, while the surge is borrowed inside the envelope.
-3. **IRS: give it about $77B (range $47-107B), of which about $68B is sustained.**
-   - **Keep the $200B receipt-risk allowance.** It brings REV-G8 from $0.4T to $0.2T. That is about what CBO's yield ratios give on this much IRS money ($0.18T at the midpoint).
-   - Do not allocate less than about $70B to the IRS while G8 counts $0.2T.
-   - Do not count G8 above $0.2T unless the IRS gets roughly $130-180B.
+3. **IRS: give it about $77B (range $47-107B), of which about $68B is sustained.** Of that, $38B is enforcement and $40B is support: service, systems and payments.
+   - **This allocation does not validate the $200B receipt-risk allowance.**
+     - On CBO's enforcement ratios, with an explicit one- to two-year lag, the enforcement row yields about **$0.09-0.10T** in the window (range $0.05-0.14T).
+     - The IRA's whole-package ratio, adjusted to this spending mix, gives about $0.15T. It is a looser comparator.
+     - Counting G8 at $0.2T rests on effects CBO does not count: deterrence, service and modernization feeding enforcement, and Treasury's higher yields. Or it needs about $66-91B of enforcement funding, roughly double the row.
+   - **Retain the allowance provisionally; don't treat it as validated.** Run the downside case at G8 of about $0.1T.
+   - **Options for Espen and Codex:**
+     - (a) Enlarge the enforcement row. CBO's own ratios make that net positive, but hiring pace and falling returns cap it.
+     - (b) Raise the allowance to about $300B.
+     - (c) Keep $200B and name its non-CBO basis.
    - **Correct the scoring note.** CBO's scorekeeping Guideline 14 excludes enforcement revenue from official scores in every vehicle, reconciliation included. The IRA's $180B yield was only a CBO memo item.
 4. **CMS: give it about $22B (range $13-36B), plus explicit program-row costs.**
    - The public plan's claims administration belongs in its premium and in HLT-3's cost.
@@ -31,8 +37,9 @@ The four agencies are the IRS, CMS, HUD and the Education Department (ED). Other
    - The approved $100B delivery contingency stays the backstop for health delivery risk.
    - The largest CMS item, Medicare claims and contractor operations for HLT-2's new benefits, is still **unpriced**.
 5. **HUD: give it about $13B (range $9-20B).**
-   - Separately, **HOU-4 is missing housing agencies' administrative fees.** Its $15,200 voucher-year anchor is renewal funding only. FY2026 fees add 8.1% on top.
-   - That is a program-row correction (about +$7B mid on HOU-4's increment and +$4B on the $135B housing addition). It is not a capacity cost.
+   - Separately, **HOU-4 is missing housing agencies' administrative fees** across the whole adopted million-award package. Its $15,200 voucher-year anchor is renewal funding only, and FY2026 fees add 8.1% on top.
+   - The correction is about **+$12.2B** on HOU-4's $150B midpoint (range $8.1-15.2B), counted once inside HOU-1. It is a program-row correction, not a capacity cost.
+   - For HOU-4D's $135B, which carries 5%, the default reading keeps the approved envelope and buys about 2.9% fewer awards. The alternative is about +$4.0B if a fixed cohort is adopted.
 6. **Education Department: give it about $11B (range $6-16B).**
    - School meals (USDA) and child care and pre-K (HHS) are not ED's capacity.
    - The research and statistics restoration (IES and NCES) is already inside EDU-8's row.
@@ -55,12 +62,19 @@ The four agencies are the IRS, CMS, HUD and the Education Department (ED). Other
 
 - **Increments, not totals.** Each figure is added to the agency's current-law baseline. That baseline is now the reduced, post-2025 level, since CBO projects FY2026 appropriations forward with inflation. "Restoration" therefore counts as new money against the baseline.
 - **Budget authority and outlays.** Surge figures are budget authority available on enactment (R1, FY2029). Sustained figures are annual budget authority. For staff-heavy rows that is close to annual outlays (estimate: 90-95% spent in the first year). IT surges spend out over two to four years.
-- **FY2029 cash stays unpriced.** The first obligations should go to:
-  - IRS hiring and training pipelines, since revenue agents take a year or more to become productive;
-  - CMS's HLT-1 conversion;
-  - ED's servicing contracts.
-
-  These fit the $10B already shifted into FY2029 (`early_admin_bn`). No FY2029 cash figure is proposed.
+- **FY2029: availability, obligations and cash.**
+  - **Legal availability:** the whole surge is available on R1 enactment, assumed about April 2029 (the ledger's HLT-1 input). That leaves about five to six months of FY2029.
+  - **First priorities:**
+    - IRS hiring and training, since revenue agents take a year or more to become productive;
+    - CMS's HLT-1 conversion for plan year 2030;
+    - ED's servicing contracts;
+    - the start of HUD's restoration.
+  - **Bounded estimate for the four agencies** (CSV rows marked `fy2029`):
+    - obligations of about **$2.6B (range $1.2-5.4B)**;
+    - cash of about **$0.8B (range $0.3-2.2B)**.
+    - Cash is lower than obligations because hires are on payroll for only a few months and contracts spend out over years.
+  - **What fits the $10B and what is unresolved.** The four agencies' FY2029 cash fits inside the $10B of surge cash shifted into FY2029 (`early_admin_bn`). But that $10B is for every surge agency, not just these four. Whether it covers SSA, USCIS and the others is **unresolved** until they are reviewed.
+  - **If enactment slips** toward the end of FY2029, FY2029 cash approaches zero and the work moves into FY2030.
 - **Recurring versus finite.** Staff, servicing, claims, and running new systems are recurring. They go in CAP-7 even when they are "rebuilding". The surge holds only finite builds: systems, backlogs, launches and reintegration. Putting recurring staff in a surge that ends would mean hiring and then laying off.
 - **Administration already financed inside programs** is marked `program_row` in the CSV and kept out of capacity (see Boundaries).
 
@@ -96,17 +110,25 @@ The cost is $212.7K per FTE, which is FY2025's total resources divided by its FT
 
 **Revenue (REV-G8) and the overlap.**
 - **No double count.** G8 is **gross** revenue: the CBO and Treasury yields it rests on exclude the funding. The IRS capacity rows are the cost of earning it.
-- **How much revenue IRS money yields:**
-  - CBO credited the IRA's $79.6B with $180.4B over 2022-31, a ratio of 2.27 inside the window.
-  - CBO's 2020 estimate: an extra $20B yields $61B (3.05); $40B yields $103B (2.58). Returns fall as the amount grows.
-  - CBO's 2024 rescission estimates run the other way: cutting $20B loses $44B (2.2).
-- **Applied here:** about $77B of IRS money yields **$0.17-0.24T** at these ratios ($0.18T at the IRA ratio). The full range is $0.10-0.33T.
+- **Separate enforcement from support.** Of the $77B, **$37.7B (range $24-49B) is enforcement**: the enforcement staffing row. **$39.7B is support**: service, operating systems, the monthly-credit payment rows and the modernization surge. Support is 51% of this allocation; it was 42% of the original IRA package.
+- **Which comparator applies to what:**
+  - **CBO 2020** ($20B yields $61B, a ratio of 3.05; $40B yields $103B, 2.58): added funding for examinations and collections, spread over 2021-30. It applies to the enforcement row only. Returns fall as the amount grows.
+  - **CBO 2024** (cutting $20B loses $44B, 2.2; cutting $35B loses $89B, 2.54): rescissions taken from enforcement. It applies to the enforcement row and to cuts in it.
+  - **IRA memo** ($79.6B yields $180.4B, 2.27): a mixed package, 58% enforcement. It is only a cross-check on the whole allocation, adjusted for this allocation's lower enforcement share. Service and modernization have no separate CBO yield estimate.
+- **Lag and window.** Each CBO ratio is an in-window figure for funding spread evenly over ten years, so it already contains hiring and collection lags. This path is back-loaded (phase-in plus growth). The script turns each ratio into a steady multiple at a one- or two-year lag and counts only revenue that lands by FY2039. Revenue from late-window hires falls after 2039 and is not counted.
+- **Results:**
+  - **The enforcement row yields about $0.09-0.10T at the midpoint** ($0.05T low funding at 2.2; $0.14T high funding at 3.05). The lag choice moves it by under $0.005T.
+  - The IRA cross-check gives $0.18T unadjusted and **$0.15T adjusted to this mix**. That is an upper reading: it credits support spending at the IRA's package rate.
 - **What each G8 level needs:**
-  - G8 at **$0.2T** needs about $66-91B of IRS money.
-  - G8 at **$0.4T** needs about $131-182B, or Treasury's much higher yields. Treasury counts deterrence and high-end enforcement, which CBO does not.
-- **Verdict:** the **$200B allowance is sensible, not excessive**. It puts G8 at the CBO-convention yield of the IRS money proposed here.
+  - G8 at **$0.1T** needs about $33-45B of enforcement funding, which is roughly this row.
+  - G8 at **$0.2T** needs about $66-91B, roughly double the row. That would be about +29,000 enforcement FTE rather than +14,000. In FY2024 the IRS added about 7,000 examination and collection staff, so this would take several years at that pace, and returns fall with scale.
+  - G8 at **$0.4T** needs Treasury-type yields. Treasury counts deterrence and high-end enforcement, which CBO does not.
+- **Verdict:**
+  - The $200B allowance (G8 at $0.2T) is **retained provisionally but not validated**. About half of it rests on yields CBO does not count.
+  - The evidence-consistent central reading for this allocation is about $0.1-0.15T. Options (a)-(c) are listed in the recommendation.
+  - Keeping the allocation and keeping G8 at $0.2T without saying so would overstate the support.
 - **Two links to carry in the model:**
-  - **Cuts cost revenue.** Every IRS dollar cut below this allocation loses about $2.2-2.5 of G8 (CBO's 2024 rescission ratios). A smaller IRS line is not a saving one-for-one.
+  - **Enforcement cuts cost revenue.** A cut to the *enforcement* row loses about $2.2-2.5 per dollar (CBO 2024, which cut enforcement). A cut to service or modernization has no CBO yield estimate. It may still lower enforcement productivity and service quality, but that is not quantified here.
   - **Official scores credit none of it.** Guideline 14 excludes the revenue from the official score in every vehicle (Penn Wharton, citing CBO's IRA estimate). G8 can count in the project's own D4 tests, as now, but no bill's official score will credit it. The ledger note "CBO may not score it on a given vehicle" should say "CBO's official score excludes it; CBO reports it as a memo item."
 
 **If the IRS gets less.** Revenue falls, as above. Service also suffers: phone service, refund timing and the reliability of monthly credit payments depend on the service row.
@@ -156,11 +178,19 @@ The review found that the old implied increment ($90.8B over 2030-39) was not a 
 - The roughly 35 programs the ROAD Act assigned to HUD stay unpriced.
 
 **Program-row correction (proposed to the housing owner).**
-- HOU-4's $15,200 anchor is $34.9B ÷ 2.3M, which is renewals only.
-- Administrative fees ran 8.1% of renewals in FY2026.
-- Adding them raises HOU-4's $90B midpoint increment by about $7B.
-- The $135B housing addition carries a 5% allowance. At 8.1% it would be about $4B higher.
-- These fees pay local housing agencies, not HUD staff, so they stay out of capacity.
+- **The anchor is renewals only.** HOU-4's $15,200 anchor is $34.9B ÷ 2.3M. Administrative fees ran 8.1% of renewals in FY2026 ($2.836B).
+- **Neither earlier figure contains the fees.** Rebuilt at the anchor with 3% growth, half-year first-year cost, full lease-up and no attrition:
+  - the old 400,000-award path costs **$64B** in renewal funding alone, more than the old **$60B** (Bill Book 12; archive, ideas only);
+  - the adopted one-million-award path costs **$161B**, more than the adopted **$150B** midpoint.
+
+  Neither carried figure can include fees on top of rents. The likelier reading is that each embeds incomplete lease-up or a lower rent path. The source does not say, and that is for the housing owner to settle.
+- **The correction covers the whole package.** It applies to all of HOU-4, the earlier $60B and the $90B expansion alike: **+$12.2B mid ($8.1B / $12.2B / $15.2B on $100B / $150B / $187.5B)**. It is counted once, in HOU-4's component inside HOU-1, not added to HOU-1 again.
+- **HOU-4D ($135B, 5% allowance; no cohort adopted).** Two readings:
+  - **Fixed envelope (default):** keep the approved $135B and accept about **2.9% fewer awards**, about 29,000 of the illustrative million.
+  - **Fixed delivery:** if a specific cohort is later adopted, it costs about **+$4.0B**.
+
+  This correction is separate from HOU-4's and is not double counted.
+- **Not a capacity cost.** These fees pay local housing agencies, not HUD staff, so they stay out of capacity.
 
 **If HUD gets less.** Vouchers are issued slowly, the loan program cannot originate at scale, and inspections and grant awards lag. GAO already finds these delays at today's staffing.
 
@@ -201,8 +231,11 @@ The review found that the old implied increment ($90.8B over 2030-39) was not a 
 2. **REV-G8 note** (`ledger-revenue.csv` note text and domain-revenue.md):
    - State that G8 is gross, earned by the IRS capacity rows.
    - Replace "CBO may not score it on a given vehicle" with the Guideline 14 wording above.
-   - Add the dependency: G8 at $0.2T assumes at least about $70-90B of IRS capacity funding over FY2030-39.
-3. **Housing (housing owner and Codex):** add PHA administrative fees to HOU-4 (+about $7B mid) and lift the housing addition's 5% allowance to about 8% (+about $4B), or say why not.
+   - Add the dependency: on CBO's enforcement ratios, G8 at $0.2T needs about $66-91B of IRS *enforcement* funding over FY2030-39. This allocation's $38B supports about $0.1T.
+   - In `recovery-adoption.json`, keep `irs_receipt_risk_tn` at 0.2 provisionally. Add a downside case at 0.3 until option (a), (b) or (c) is chosen.
+3. **Housing (housing owner and Codex):**
+   - Add PHA administrative fees to all of HOU-4: +$12.2B mid ($8.1-15.2B), once, inside HOU-1. Or show that the carried $150B already includes them.
+   - Treat HOU-4D's fee gap as about 2.9% fewer awards within $135B, unless a fixed cohort is adopted (then +$4.0B).
 4. **domain-capacity.md (owner):** once accepted, replace the historical split for these four agencies with this allocation. Mark the overlaps checked: IRS/G8 (no double count), CMS/HLT and HUD/HOU-4 (program-row boundaries above), Education/FAM-4 (outside items listed).
 5. **Queue:** this PR moves the row to review-ready. Next bounded step: SSA, then USCIS, on the same method.
 
@@ -214,7 +247,8 @@ The review found that the old implied increment ($90.8B over 2030-39) was not a 
   - FY2026 enacted ED account levels;
   - HUD fee levels, taken from NAHRO's comparison;
   - the TIGTA staffing counts, taken from press reports of the report.
-- **IRS yield ratios** are CBO's. They exclude deterrence, and they vary with the mix of enforcement and service spending. Treasury's estimates are several times higher.
+- **IRS yield ratios** are CBO's. They exclude deterrence and apply here only to the enforcement row. The lag treatment is a simple bound (a one- or two-year delay before a dollar yields), not a model of case cycles; large-corporate cases average about 36 months (IRS FY2027 budget-in-brief). Treasury's estimates are several times higher.
+- **FY2029 figures** are bounded estimates that depend on the R1 date. They are not a priced spend plan.
 - **No official score.** This is not a legal, actuarial or official score, and it was not independently reviewed.
 
 ## Sources
