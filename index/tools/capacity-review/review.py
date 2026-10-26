@@ -1,4 +1,4 @@
-"""Capacity review: add up sources/capacity-recovery-components.csv for IRS, CMS, HUD and ED.
+"""Capacity review: add up sources/capacity-recovery-components.csv for every reviewed CAP-7 agency.
 
 Reads the proposal rows, turns annual run rates (FY2026 dollars) into FY2030-39 nominal totals,
 compares them with the approved envelopes and the old pro-rata shares, and tests REV-G8's yield.
@@ -14,7 +14,12 @@ ADOPT = ROOT / 'index' / 'data' / 'inputs' / 'recovery-adoption.json'
 YEARS = range(2030, 2040)
 GROWTH = 0.035                     # estimate: federal pay and prices, nominal, a year from FY2026
 RAMP = {2030: 0.5, 2031: 0.8}      # estimate: hiring takes two years; 1.0 afterward. A row's ramp column overrides it
-OLD = {'IRS': 130, 'CMS': 50, 'HUD': 45, 'ED': 40}   # domain-capacity.md historical split of $600B (unsourced)
+# domain-capacity.md historical split of $600B (unsourced). Batch 4 items (State, civil rights, CAISI, ATF/NICS and
+# USCIS's asylum $6B) were proposals against its $37B reserve.
+OLD = {'IRS': 130, 'CMS': 50, 'HUD': 45, 'ED': 40, 'SSA': 55, 'USCIS': 46, 'DEV': 60, 'STATE': 8, 'CDC': 15,
+       'FEMA': 8, 'NOAA': 40, 'FTA': 30, 'EPA': 5, 'DOE': 4, 'DOL': 6, 'NLRB': 4, 'FTC-DOJ': 3, 'INTEGRITY': 12,
+       'FEC': 3, 'EAC': 3, 'OPM': 10, 'CIVIL-RIGHTS': 6, 'CAISI': 6, 'ATF-NICS': 5}
+OLD_UNLISTED = 37 - 31   # reserve not proposed for any batch 4 item
 # In-window revenue per enforcement dollar for funding spread over a ten-year window. CBO: 2024 $20B
 # rescission of enforcement 2.2; 2020 exam/collection increases 3.05 at $20B and 2.58 at $40B. Returns fall
 # with scale, so for an enforcement row near $60B the mid is 2.3 (extrapolated from CBO's two 2020 points)
@@ -22,7 +27,9 @@ OLD = {'IRS': 130, 'CMS': 50, 'HUD': 45, 'ED': 40}   # domain-capacity.md histor
 ENF_RATIOS = {'low': 2.2, 'mid': 2.3, 'high': 2.58}
 IRA_RATIO, IRA_ENF_SHARE = 180.4 / 79.6, 45.6 / 78.9   # CBO memo yield on the whole IRA package; its enforcement share
 LAGS = (1, 2)   # years before an enforcement dollar yields; bounds the back-loading of this path
-AGENCIES = list(OLD)
+
+
+AGENCIES = []
 
 
 def factor(y, ramp=None):
@@ -40,6 +47,7 @@ def num(x):
 
 def load():
     rows = [r for r in csv.DictReader(open(CSV)) if r['row_type'] == 'proposal']
+    AGENCIES[:] = list(dict.fromkeys(r['agency'] for r in rows))
     z = lambda: [0, 0, 0]
     zp = lambda: {y: z() for y in YEARS}
     out = {a: {'surge': z(), 'rate': z(), 'enf_rate': z(), 'cash29': z(), 'oblig29': z(), 'unpriced': [],
@@ -83,10 +91,10 @@ def main():
     (data, fees), res = load(), {}
     for a, d in data.items():
         sust = [sum(d['path'][y][i] for y in YEARS) for i in range(3)]
-        share = OLD[a] / 600
+        share = OLD.get(a, 0) / 600
         res[a] = {'surge': d['surge'], 'sustained': sust, 'total': [s + t for s, t in zip(d['surge'], sust)],
                   'fy2040_rate': [r * (1 + GROWTH) ** 14 for r in d['rate']],
-                  'old_total': OLD[a] + 490 * share, 'pro_rata_new': share * (surge_env + sust_env),
+                  'old_total': OLD.get(a, 0) * (1 + 490 / 600), 'pro_rata_new': share * (surge_env + sust_env),
                   'unpriced': d['unpriced']}
     tot = {k: [sum(res[a][k][i] for a in AGENCIES) for i in range(3)] for k in ('surge', 'sustained', 'total', 'fy2040_rate')}
     irs, enf = res['IRS']['total'], data['IRS']['enf_path']
@@ -113,8 +121,8 @@ def main():
     for a in AGENCIES:
         r = res[a]
         print(f"| {a} | {f(r['surge'])} | {f(r['sustained'])} | {f(r['total'])} | {f(r['fy2040_rate'])} | {r['old_total']:.1f} | {r['pro_rata_new']:.1f} | {len(r['unpriced'])} |")
-    print(f"| **Four agencies** | {f(tot['surge'])} | {f(tot['sustained'])} | {f(tot['total'])} | {f(tot['fy2040_rate'])} | {sum(res[a]['old_total'] for a in AGENCIES):.1f} | {sum(res[a]['pro_rata_new'] for a in AGENCIES):.1f} | |")
-    print(f"\nRemainder at the midpoint for other agencies: surge ${out['remainder_bn']['surge']:.0f}B, sustained ${out['remainder_bn']['sustained']:.0f}B.")
+    print(f"| **All reviewed** | {f(tot['surge'])} | {f(tot['sustained'])} | {f(tot['total'])} | {f(tot['fy2040_rate'])} | {sum(res[a]['old_total'] for a in AGENCIES):.1f} | {sum(res[a]['pro_rata_new'] for a in AGENCIES):.1f} | |")
+    print(f"\nRemainder at the midpoint: surge ${out['remainder_bn']['surge']:.0f}B, sustained ${out['remainder_bn']['sustained']:.0f}B.")
     print(f"Run-rate factor FY2030-39 at the default ramp (ramp x growth from FY2026): {fsum:.2f}.")
     print(f"\nIRS split, FY2030-39: enforcement {f(g8['enforcement_bn'])}; support (service, systems, payments) {f(g8['support_bn'])}; enforcement share {g8['enforcement_share']:.0%} (IRA: {IRA_ENF_SHARE:.0%}).")
     for lag, y in g8['enforcement_yield_tn'].items():
@@ -123,10 +131,10 @@ def main():
     for t, d in g8['enforcement_needed_bn'].items():
         print(f"Enforcement funding needed for ${t} at these ratios (no extra lag): ${d['high']:.0f}-{d['low']:.0f}B.")
     c, o = fy29['cash29'], fy29['oblig29']
-    print(f"\nFY2029, four agencies: cash {f(c)}; obligations {f(o)}; against the $10B of surge cash shifted to FY2029.")
+    print(f"\nFY2029, reviewed agencies (small agencies omitted, under $0.1B): cash {f(c)}; obligations {f(o)}; against the $10B of surge cash shifted to FY2029.")
     for k, (l, m, h, u) in fees.items():
         print(f"Program row: {k}: {m} {u}" + (f" ({l}-{h})" if l is not None else ''))
-    print('\nFour-agency sustained path, midpoint, $B nominal: ' + ', '.join(f'FY{k} {v}' for k, v in path.items()))
+    print('\nSustained path for all reviewed agencies, midpoint, $B nominal: ' + ', '.join(f'FY{k} {v}' for k, v in path.items()))
 
 
 if __name__ == '__main__':
