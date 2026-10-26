@@ -296,6 +296,10 @@ def evaluate_reviews(items, head_sha, author, owners, policy):
         verdict, h, agent, session = p
         if agent not in policy["agents"] or not head_sha.startswith(h):
             continue
+        own = policy["agents"][agent].get("apps") or []
+        others = {a for name, cfg in policy["agents"].items() if name != agent for a in cfg.get("apps") or []}
+        if (own and it.get("app") not in own) or it.get("app") in others:
+            continue  # the comment did not come through the claimed agent's own integration
         if agent == author_agent and (not session or not author_session or session == author_session):
             continue  # an author cannot review their own PR; same-vendor reviews need distinct sessions
         latest[(agent, session)] = (verdict, it.get("app"))

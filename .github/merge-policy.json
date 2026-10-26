@@ -10,10 +10,11 @@
     "hold": "hold",
     "tier_prefix": "tier-"
   },
+  "_agents_note": "apps: the GitHub App slug GitHub records (performed_via_github_app) when that agent comments or labels through its integration. Observed Oct 26 for Claude Code: 'claude'. Fill in Codex's once a Codex comment shows it in the gate log. A review must come through its own agent's app when one is listed, and never through another agent's app.",
   "agents": {
-    "claude-code": {"branch_prefixes": ["claude/"]},
-    "codex": {"branch_prefixes": ["codex/"]},
-    "gemini": {"branch_prefixes": ["gemini/"]}
+    "claude-code": {"branch_prefixes": ["claude/"], "apps": ["claude"]},
+    "codex": {"branch_prefixes": ["codex/"], "apps": []},
+    "gemini": {"branch_prefixes": ["gemini/"], "apps": []}
   },
   "owners": [
     {"pattern": "index/tools/recovery-budget/*", "owner": "codex"},

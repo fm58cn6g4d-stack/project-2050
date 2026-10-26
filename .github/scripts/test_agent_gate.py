@@ -88,6 +88,12 @@ class Reviews(unittest.TestCase):
     def test_other_vendor_approves_current_head(self):
         self.assertTrue(self.ev([item(review())])[0])
 
+    def test_review_must_come_through_claimed_agents_app(self):
+        # Claude Code posts through the 'claude' app; a Claude session cannot pass itself off as Codex.
+        self.assertTrue(self.ev([item(review(who="claude-code session_B"), app="claude")])[0])
+        self.assertFalse(self.ev([item(review(who="claude-code session_B"), app=None)])[0])
+        self.assertFalse(self.ev([item(review(who="codex t1"), app="claude")])[0])
+
     def test_stale_head_does_not_count(self):
         self.assertFalse(self.ev([item(review(head="b" * 40))])[0])
 
@@ -99,7 +105,7 @@ class Reviews(unittest.TestCase):
         self.assertFalse(self.ev([item(review(who="claude-code"))])[0])
 
     def test_other_session_same_vendor(self):
-        self.assertTrue(self.ev([item(review(who="claude-code session_B"))])[0])
+        self.assertTrue(self.ev([item(review(who="claude-code session_B"), app="claude")])[0])
 
     def test_changes_requested_blocks_until_reapproved(self):
         a = item(review(), t="2026-10-26T12:00:00Z")
@@ -112,7 +118,7 @@ class Reviews(unittest.TestCase):
         self.assertFalse(self.ev([item(review(), user="someone-else")])[0])
 
     def test_path_owner_must_review(self):
-        ok, why, _ = self.ev([item(review(who="claude-code session_B"))], owners=["codex"])
+        ok, why, _ = self.ev([item(review(who="claude-code session_B"), app="claude")], owners=["codex"])
         self.assertFalse(ok)
         self.assertIn("codex", why)
         self.assertTrue(self.ev([item(review(who="codex t1"))], owners=["codex"])[0])
