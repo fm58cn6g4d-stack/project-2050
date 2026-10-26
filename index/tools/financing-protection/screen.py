@@ -10,7 +10,7 @@ m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 f,b,old,u=m.load()
 components=m.education_components(old)
 results=[]
-for credit,high,broad in [(1,4,2),(5,10,2),(5,10,0),(8,10,2),(5,14,2),(8,14,0)]:
+for credit,high,broad in [(1,0,0),(1,4,0),(1,4,2),(5,10,2),(5,10,0),(8,10,2),(5,14,2),(8,14,0)]:
     case=m.build_case('screen',f,b,old,u,credit_multiple=credit,high_rate=high,broad_rate=broad,corridor=True)
     # Diagnostic expects three named cases; supply identical case to each.
     d={'cases':{k:case for k in ('mixed','larger_payroll','mixed_larger_credit')},'education_components':components}

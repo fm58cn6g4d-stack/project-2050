@@ -20,3 +20,24 @@ Do not read a debt endpoint as D4 stability, or a positive quintile average as D
 **Direction for the settlement.** Develop a refundable contribution credit with a universal nonworker base and an additional worker contribution offset, rather than increasing a universal amount until one average turns positive. Test smooth phaseouts and higher upper-tier thresholds together; a phaseout is itself a marginal tax and must be priced. Include self-employment, retirees and disabled adults explicitly. Avoid paying twice for the same contribution through fund-side protection reserves and GF credits. Annual cash before imputed services and household losses must be visible alongside fund solvency and debt. A tax holiday financed by an unspecified future tax is not a funded solution.
 
 The next calculation needs current-law household tax/benefit data and an explicit entitlement formula, not additional precision from these quintile keys. Build household cells by income, work status, age/disability and children; reconcile the population and tax bases to the federal totals; test employer wage incidence and health savings separately. Retain the present six cases as reproducible comparators. This is the beginning of the assigned financing work, not a completed microsimulation or a recommendation to adopt one of the table's schedules.
+
+## Revenue-first revision following Espen's direction
+
+The assignment now starts with a defensible revenue envelope and compares spending packages within it. Espen retains the final decision on strategic spending reductions. The earlier six cases are comparisons, not the organizing framework for this work.
+
+Two additional diagnostics remove the new broad income contribution; the first also removes the additional upper income contribution. Both retain corporate/high-wealth reforms already carried by the model, its illustrative dedicated payroll financing, and the $300 adult credit:
+
+| Additional upper income points | Additional broad points | Debt/GDP 2056 | Debt nonincreasing throughout 2045–56? | Q4 net in 2039 |
+| --- | --- | --- | --- | --- |
+| 0 | 0 | 139.1% | No | −$656 |
+| 4 | 0 | 126.8% | No | −$1,208 |
+
+The model already includes G1's corporate rate restoration, G5's minimum/buyback taxes, G7's foreign-income reform, G9's reversal of high-income tax relief, G6's gains-at-death reform and G11's billionaire taxation, with its existing overlap allowances. Their gross historical approximately $6.37T package is not a fresh pot available on top of the model. The new IRS allowance also reduces its usable receipts. Dedicated Social Security/HI receipts cannot fund unrelated programs without compromising those accounts. These comparisons are not a claim that the wealthy/corporate envelope has been exhausted: its source vintages, alternatives and interactions need fresh evaluation.
+
+**Recommended analytical structure.** Establish three explicitly priced revenue cases: a durable core of corporate, high-income and capital-income reform; an expanded progressive case with incremental receipts measured against that core; and an adverse-yield case including avoidance, litigation and timing. Distinguish statutory threshold effects on upper-middle-income households from taxes on very large fortunes. Treat payroll contributions and their protection separately, with a consolidated total so that earmarking cannot hide costs. Do not score a corporate increase as burden-free for workers merely because corporations remit it.
+
+For each case reserve financing for existing-government stability and trust-fund solvency, early recovery/protection, and delivery risk before allocating additional program expansions. Present annual receipts, permanent primary spending capacity, debt and interest alongside the ten-year total. Compare a protected essential-services package, a broader sustainable package, and the current proposed agenda with its financing gap visible. For each reduction identify lost coverage/service, distribution, delivery effects and whether it truly reduces permanent costs or merely postpones cash.
+
+PR #23's proposed $200B finite capacity reduction is a candidate for that comparison, not adopted savings. A finite reduction cannot by itself close a permanent operating gap. Its allocation range and recurring unpriced functions need reconciliation before treating the proposed ceiling as sufficient. Likewise, moving NOAA satellites or foreign assistance out of the capacity category does not save money if the project still intends to fund them elsewhere.
+
+The next substantive evidence pass will reconcile revenue provisions against current law and identify incremental alternatives without double counting, then price household protection and spending packages against those bounded receipts. The prior credit screen remains useful for revealing weaknesses; it no longer sets the fiscal objective.

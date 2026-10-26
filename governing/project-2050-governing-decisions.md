@@ -482,3 +482,8 @@ Espen, on the [capacity review](../sources/capacity-recovery-budget-review.md) (
 
 
 **Coordinated numerical integration, October 26.** Implement the accepted PR #22 allowance and inside-envelope agency allocations in the recovery overlay. Carry the rounded $12.2B HOU-4A PHA fee correction separately from CAP and once within total housing spending, with a four-year CPI-growing fully permanent path. Historical ledger inputs remain comparison vintages. HOU-4D remains a fixed $135B envelope; its exact delivery remains unselected. This accounting implementation does not certify rent, lease-up, IRS yield, FY2029 sufficiency or D3/D4.
+
+
+## Revenue rebalancing and spending-envelope direction, October 26
+
+Espen directs the financing assignment to begin with rebalancing federal revenue after tax reductions benefiting wealthy households and large corporations, then develop sustainable safety-net expansions, government improvements and new programs within a credible financing envelope. Existing proposed spending is revisable; present consequential downsizing options and their effects for Espen to decide at the end of the assignment. Do not automatically select cuts or raise broad household rates to preserve every inherited spending line. Retain early material relief, distributional scrutiny and long-run government/trust-fund solvency. Agents may review and comment on other agents’ open repository PRs during their own work. This does not authorize outside communications.
