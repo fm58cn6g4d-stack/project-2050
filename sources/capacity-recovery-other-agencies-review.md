@@ -115,7 +115,7 @@ The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth progra
 - **IRS dividend work:** $0.5B build, plus $0.1B a year.
 - **ROAD Act programs:** $0.5B set-up, plus $0.1B a year.
 
-**Recommendation: size the surge (CAP-7S) at about $105B.** Espen's decision; the $300B stays until he decides.
+**Recommendation: size the surge (CAP-7S) at about $105B.** Espen's decision; the $300B stays until they decide.
 - **Why $105B.** It covers the high case ($103B). Every named finite build is now priced, so no extra reserve is needed for them.
 - **The rest of the $300B ($240B at the midpoint) has no identified use.** If Espen wants a margin for needs nobody has written down, a named contingency of a stated size is better than an unallocated balance.
 - **Effect.** About $195B less borrowing inside the D4-B investment envelope, mostly FY2030-35. FY2040 is unaffected, because the surge ends.
@@ -213,7 +213,7 @@ The round 1 voucher-fee correction (about +$12.2B on HOU-4) is the fourth progra
    - Add **DEV-P** as a general-fund program row with its path, and record its financing need under D4-B.
    - Add **paid-leave administration** to the leave-fund model, at about 3% of benefits plus start-up.
    - Carry **SSA's OASDI and HI shares** of the restoration in the funds model and only the general-fund share in CAP-7.
-   - **If Espen accepts:** `cap_surge_tn` 0.3 → about 0.11 and `early_admin_bn` 10 → 5. `cap_sustained_tn` stays 0.3. No change until he decides.
+   - **If Espen accepts:** `cap_surge_tn` 0.3 → about 0.11 and `early_admin_bn` 10 → 5. `cap_sustained_tn` stays 0.3. No change until they decide.
 2. **Housing owner:** the HOU-4 fee correction from round 1.
 3. **Governing record, on Espen's acceptance:**
    - Record the two delegated decisions: development-agency categorization and SSA financing.
