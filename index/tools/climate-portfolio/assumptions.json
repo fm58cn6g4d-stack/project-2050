@@ -1,0 +1,265 @@
+{
+ "note": "Climate portfolio comparison on the carbon model's decided package (case 'full' in build/carbon-config.json, written by index/tools/carbon-model.py during run-all.sh). Every case changes named levers against that package with identical physical assumptions. Magnitudes marked ASSUMED are planning assumptions, not scores. Nothing here is a canonical input.",
+ "inflation": 0.022,
+ "residential_kwh_month": 899,
+ "residential_kwh_source": "EIA FAQ 97: 10,791 kWh a year (about 899 a month) for the average residential customer, 2022",
+ "discount_rate_real": 0.03,
+ "benchmarks": {
+  "ndc_2035_net_ghg_below_2005": [
+   0.61,
+   0.66
+  ],
+  "net_zero_year": 2050,
+  "source": "U.S. NDC submitted December 2024 (61-66% below 2005 by 2035, net zero by 2050). The U.S. withdrawal from the Paris Agreement took effect January 27, 2026; the range is used as the project's benchmark, not as a current federal commitment."
+ },
+ "weak_grid_world": {
+  "gpTx": 0.4,
+  "gpRecon": 8,
+  "gpCurt": 0.025
+ },
+ "cases": [
+  {
+   "id": "selected",
+   "group": "baseline",
+   "label": "Decided package (fee, dividend, CLI-1A credits, CES, standards, grid statute, Weatherization heat pumps, methane fee)"
+  },
+  {
+   "id": "drop_vehicle_credits",
+   "group": "marginal credits",
+   "label": "Without the vehicle credits (30D, 25E, 45W, 30C); 45X on battery cells kept",
+   "world": {
+    "crEv": 0,
+    "crUsed": 0,
+    "crCharge": 0,
+    "crTruck": 0,
+    "crTruckCost": 0
+   }
+  },
+  {
+   "id": "drop_heatpump_credit",
+   "group": "marginal credits",
+   "label": "Without the 25C heat-pump credit",
+   "world": {
+    "crHp": 0,
+    "crHpCost": 0
+   }
+  },
+  {
+   "id": "drop_power_credits",
+   "group": "marginal credits",
+   "label": "Without the wind, solar and storage credits (45Y/48E); transmission ITC kept",
+   "world": {
+    "crItc": 0,
+    "crPtc": 0
+   }
+  },
+  {
+   "id": "drop_industry_credits",
+   "group": "marginal credits",
+   "label": "Without industrial investment support and the 45V hydrogen credit",
+   "world": {
+    "crInd": 0,
+    "h2.cr": 0
+   },
+   "cost_note": "Industrial support is priced with the model's estimate (its share of abatement cost on abated tons), not a score"
+  },
+  {
+   "id": "drop_all_credits",
+   "group": "marginal credits",
+   "label": "Without the whole credit bundle (diagnostic only)",
+   "policy": {
+    "credits": false
+   }
+  },
+  {
+   "id": "grid",
+   "group": "public grid",
+   "label": "Public grid delivery: federal builder of last resort and reconductoring program (CLI-10 as the model's grid program, $12B a year 2030-39, ASSUMED)",
+   "policy": {
+    "grid": true
+   }
+  },
+  {
+   "id": "grid_weak_delivery",
+   "group": "public grid",
+   "label": "Public grid with weak delivery (workforce, permitting or supply shortfalls; half the transmission and reconductoring gain)",
+   "policy": {
+    "grid": true
+   },
+   "world_ref": "weak_grid_world"
+  },
+  {
+   "id": "grid_double_cost",
+   "group": "public grid",
+   "label": "Public grid at twice the assumed cost ($24B a year)",
+   "policy": {
+    "grid": true
+   },
+   "world": {
+    "gpCost": 24
+   }
+  },
+  {
+   "id": "grid_without_power_credits",
+   "group": "public grid",
+   "label": "Redirect test: public grid replaces the wind, solar and storage credits",
+   "policy": {
+    "grid": true
+   },
+   "world": {
+    "crItc": 0,
+    "crPtc": 0
+   }
+  },
+  {
+   "id": "wx_expand",
+   "group": "household electrification",
+   "label": "Low-income heat-pump retrofits tripled (0.75 million homes a year from 2031, against 0.25 million in the package)",
+   "world": {
+    "wxHomes": 0.75
+   },
+   "external_cost_bn_2025": {
+    "mid": 67.5,
+    "low": 45.0,
+    "high": 112.5,
+    "basis": "estimate: 0.5 million extra homes a year for 2031-39 at $15,000 a home ($10,000-25,000) for a heat pump with weatherization; DOE's Weatherization average-cost-per-unit limit (about $8,500 in 2025 state plans) covers shell work only"
+   }
+  },
+  {
+   "id": "industry_support_x2",
+   "group": "clean industry",
+   "label": "Clean-industry support doubled (proxy for CLI-9 procurement/contracts: industrial investment support 15% to 30%)",
+   "world": {
+    "crInd": 0.3
+   },
+   "cost_note": "Priced with the model's industrial-support estimate; a contract price for CLI-9 procurement would replace it"
+  },
+  {
+   "id": "nuclear",
+   "group": "firm power",
+   "label": "Advanced nuclear, fusion and hydro program (model's design; comparison only, not a reactor-fleet selection)",
+   "policy": {
+    "nuclear": true
+   }
+  },
+  {
+   "id": "grid_wx",
+   "group": "portfolio",
+   "label": "Portfolio: public grid plus tripled low-income heat-pump retrofits",
+   "policy": {
+    "grid": true
+   },
+   "world": {
+    "wxHomes": 0.75
+   },
+   "external_cost_from": "wx_expand"
+  },
+  {
+   "id": "grid_nuclear",
+   "group": "portfolio",
+   "label": "Portfolio: public grid plus the nuclear program",
+   "policy": {
+    "grid": true,
+    "nuclear": true
+   }
+  },
+  {
+   "id": "repeal_2037",
+   "group": "durability",
+   "label": "Hostile trifecta from 2037: fee repealed and consumer credits closed to new claims (power credits continue: model limit)",
+   "repeal_from": 2037,
+   "world": {
+    "crYears": 7
+   }
+  },
+  {
+   "id": "grid_repeal_2037",
+   "group": "durability",
+   "label": "Public grid, then the 2037 repeal",
+   "policy": {
+    "grid": true
+   },
+   "repeal_from": 2037,
+   "world": {
+    "crYears": 7
+   }
+  },
+  {
+   "id": "repeal_2033",
+   "group": "durability",
+   "label": "Fee repealed from 2033 (credits, CES and standards carry on)",
+   "repeal_from": 2033
+  },
+  {
+   "id": "grid_repeal_2033",
+   "group": "durability",
+   "label": "Public grid, then the fee repealed from 2033",
+   "policy": {
+    "grid": true
+   },
+   "repeal_from": 2033
+  },
+  {
+   "id": "no_standards",
+   "group": "insurance",
+   "label": "Stress: CLI-4 standards struck down or not enforced (vehicle and power rules off)",
+   "policy": {
+    "standards": false
+   }
+  },
+  {
+   "id": "no_standards_drop_vehicle_credits",
+   "group": "insurance",
+   "label": "Vehicle credits removed when the standards are gone",
+   "policy": {
+    "standards": false
+   },
+   "world": {
+    "crEv": 0,
+    "crUsed": 0,
+    "crCharge": 0,
+    "crTruck": 0,
+    "crTruckCost": 0
+   },
+   "compare_to": "no_standards"
+  },
+  {
+   "id": "repeal_2033_drop_power_credits",
+   "group": "insurance",
+   "label": "Wind, solar and storage credits removed when the fee is repealed from 2033",
+   "repeal_from": 2033,
+   "world": {
+    "crItc": 0,
+    "crPtc": 0
+   },
+   "compare_to": "repeal_2033"
+  },
+  {
+   "id": "grid_without_power_credits_weak",
+   "group": "insurance",
+   "label": "Redirect test with weak grid delivery",
+   "policy": {
+    "grid": true
+   },
+   "world_ref": "weak_grid_world",
+   "world": {
+    "crItc": 0,
+    "crPtc": 0
+   }
+  },
+  {
+   "id": "grid_without_power_credits_repeal_2033",
+   "group": "insurance",
+   "label": "Redirect test, then the fee repealed from 2033",
+   "policy": {
+    "grid": true
+   },
+   "repeal_from": 2033,
+   "world": {
+    "crItc": 0,
+    "crPtc": 0
+   },
+   "compare_to": "repeal_2033"
+  }
+ ]
+}

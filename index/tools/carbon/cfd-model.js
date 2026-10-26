@@ -76,6 +76,8 @@ const CFD = (() => {
     //   usable before output is wasted; CLI-5 Weatherization able to fund heat pumps as extra conversions of fossil-heated low-income homes.
     cesAcp: 40, cesGain: 300, gsTx: 0.3, gsCurt: 0.02, wxHomes: 0.25,
     crItc: 0.38, crPtc: 34, crEv: 6800, crEvTake: 0.85, crUsed: 1000, crTruck: 0.08, crHp: 6.9, crPack: 15, crYears: 10, crCharge: 0.03, crInd: 0.15, // ITC and PTC include average bonus adders (ASSUMED 8 points and 10%)
+    crTruckCost: 20000, crHpCost: 3000, // average 45W and 25C credit per sale ($), so a case that removes one credit can also remove its cost
+    crPowerTrigger: 383, crVehYears: null, zevPath: null, zevTrkPath: null, // power-credit phase-out trigger (Mt power CO2); vehicle credits' own term (null: crYears); optional statutory zero-emission sales schedules {year: share}
   };
   // Monte Carlo ranges [low, high] around the central value (triangular)
   const RANGES = {
@@ -161,6 +163,7 @@ const CFD = (() => {
       windE, solE, nucE, vre };
   }
 
+  const pathAt = (p, yy) => { const ks = Object.keys(p).map(Number).sort((a, b) => a - b); if (yy < ks[0]) return 0; for (let i = ks.length - 1; i >= 0; i--) if (yy >= ks[i]) return i === ks.length - 1 ? p[ks[i]] : p[ks[i]] + (p[ks[i + 1]] - p[ks[i]]) * (yy - ks[i]) / (ks[i + 1] - ks[i]); return 0; };
   function expected(pol, y) { // investors look ten years ahead on the statutory schedule (no ratchet)
     if (y < pol.startYear - 1 || pol.startPrice <= 0) return 0; let s = 0;
     for (let k = 0; k < 10; k++) { const yy = Math.max(y + k, pol.startYear), n = yy - pol.startYear; s += (y + k < pol.startYear) ? 0 : (pol.stepType === 'linear' ? pol.startPrice + pol.step * n : pol.startPrice * Math.pow(1 + pol.step / 100, n)); }
@@ -182,7 +185,7 @@ const CFD = (() => {
     const ccsS = { gasproc: 0, ammonia: 0, cement: 0, steel: 0, refH2: 0 };
     let KC = null, KN = null, nucCum = 1, wave = 0, tx = null, PS = null, PW = null, KS = null, KW = null, bld = { want: 0, ready: 0, grid: 0, industry: 0, built: 0, tx: 0 }, credNext = 0, load0 = 0, powerPrev = 9999, windElig = [], credCost = 0, price = 0, missedPrev = false, frozen = false, ratchetYears = 0, cumAb = 0, e2029 = null, elecLoadPrev = 0, dElast = 0;
     const rows = [];
-    let cesBase = null; const clampT = yy => { const c = pol.ces, b = cesBase === null ? 0.45 : cesBase; return yy >= c.year ? c.target : b + (c.target - b) * (yy - (c.start - 1)) / (c.year - (c.start - 1)); };
+    let cesBase = null; const clampT = yy => { const c = pol.ces, b = cesBase === null ? 0.45 : cesBase; if (c.year2 && yy > c.year) return yy >= c.year2 ? c.target2 : c.target + (c.target2 - c.target) * (yy - c.year) / (c.year2 - c.year); return yy >= c.year ? c.target : b + (c.target - b) * (yy - (c.start - 1)) / (c.year - (c.start - 1)); };
     for (let y = Y0; y <= Y1; y++) {
       const n = y - Y0;
       // --- fee ---
@@ -196,22 +199,23 @@ const CFD = (() => {
       const credPower = credNext;
       const phi = pol.permitYear ? clamp((y - pol.permitYear) / 4, 0, 1) : 0; S.phi = phi; S.gp = pol.grid ? clamp((y - 2031) / 6, 0, 1) : 0; S.gs = pol.gridStatute ? clamp((y - 2030) / 4, 0, 1) : 0; S.q45End = pol.credits ? 2045 : 2035; // current law: construction must start by end-2032, so plants online by about 2035; the credit bill extends it ten years
       const crOn = pol.credits && y >= 2030, cy = y - (2030 + w.crYears), crCons = !crOn ? 0 : cy < 0 ? 1 : cy === 0 ? 0.75 : cy === 1 ? 0.5 : 0, // consumer credits: ten years, then 75% and 50%
-         crPow = crOn && (y < 2032 || powerPrev > 383); // IRA phase-out: power CO2 at 25% of 2022
+         crPow = crOn && (y < 2032 || powerPrev > w.crPowerTrigger); // IRA phase-out: power CO2 at 25% of 2022
       const erode = Math.pow(1.025, -(y - 2029)); credCost = 0;
+      const cyV = y - (2030 + (w.crVehYears == null ? w.crYears : w.crVehYears)), crVeh = !crOn ? 0 : cyV < 0 ? 1 : cyV === 0 ? 0.75 : cyV === 1 ? 0.5 : 0; // vehicle credits (30D, 25E, 30C, 45W) may end before the other consumer credits
       // --- light-duty vehicles ---
       const road = yy => pol.roadExempt ? (pol.roadPath ? pol.roadPath(Math.min(Y1, yy)) : 0) : null;
       const PR = pol.roadExempt ? road(y) : P, PRe = pol.roadExempt ? (road(y) + road(y + 5) + road(y + 9)) / 3 : Pe; // road-fuel price signal
       const gasP = w.gasoline + 0.0085 * PR, gasPe = w.gasoline + 0.0085 * PRe;
       const packP = Math.max(w.packFloor, w.pack * Math.pow(1 - w.packDecline, n)) - (crCons ? w.crPack : 0);
-      const evCr = crCons * (w.crEv * erode * w.crEvTake + w.crUsed);
+      const evCr = crVeh * (w.crEv * erode * w.crEvTake + w.crUsed);
       const prem = w.battKWh * packP * 1.4 - 5000 - evCr;
-      if (crCons && y > 2030) infra += w.crCharge * crCons; // restored charging credit: lasting improvement in charging access
+      if (crVeh && y > 2030) infra += w.crCharge * crVeh; // restored charging credit: lasting improvement in charging access
       const mpgN = w.mpgNew * Math.pow(1 + w.mpgGrowth, n) * Math.pow(gasPe / w.gasoline, w.mpgElast) * (pol.standards ? Math.pow(1 + w.stdMpg, clamp(y - 2031, 0, 9)) : 1); // the standard is grams per mile, so gasoline cars improve too
       const save = w.payback * (12000 / mpgN * gasPe - 12000 * 0.30 * eRes / 100);
       const stockEV = ev.reduce((a, b) => a + b, 0), stock = stockEV + ice.reduce((a, b) => a + b, 0);
       const uCost = -w.evBeta * (prem - save) / 1000, uNet = w.evNet * Math.log((stockEV / stock) / 0.02) + (sLag1 === null ? 0 : w.evNetSales * Math.log(((sLag1 + sLag2) / 2) / w.evShare2025)) + infra;
       if (evAsc === null) evAsc = Math.log(w.evShare2025 / (1 - w.evShare2025)) - uCost - uNet;
-      const stdLdv = pol.standards && y >= 2032 ? (y <= 2037 ? 0.25 + 0.05 * (y - 2032) : y <= 2040 ? 0.5 + 0.17 * (y - 2037) / 3 : Math.min(1, 0.67 + 0.033 * (y - 2040))) : 0; // successor rules: 100% by 2050
+      const stdLdv = pol.standards && w.zevPath ? pathAt(w.zevPath, y) : pol.standards && y >= 2032 ? (y <= 2037 ? 0.25 + 0.05 * (y - 2032) : y <= 2040 ? 0.5 + 0.17 * (y - 2037) / 3 : Math.min(1, 0.67 + 0.033 * (y - 2040))) : 0; // successor rules: 100% by 2050
       const evS = y === Y0 ? w.evShare2025 : soft(stdLdv, logistic(evAsc + uCost + uNet));
       sLag2 = sLag1 === null ? evS : sLag1; sLag1 = evS;
       if (y > Y0) { for (let a = AG - 1; a > 0; a--) { const r = surv(a) / surv(a - 1); ice[a] = ice[a - 1] * r; ev[a] = ev[a - 1] * r; mpg[a] = mpg[a - 1]; } ice[0] = w.ldvSales * (1 - evS); ev[0] = w.ldvSales * evS; mpg[0] = mpgN; }
@@ -223,11 +227,11 @@ const CFD = (() => {
       const ldv = gal * ldvScale;
       // --- trucks, aviation, other ---
       const dslP = w.diesel + 0.0102 * PR, dslPe = w.diesel + 0.0102 * PRe;
-      const tprem = w.trkPrem0 + (w.trkPremEnd - w.trkPrem0) * Math.min(1, n / 15) - crCons * w.crTruck * erode;
-      const stdTrk = pol.standards && y >= 2032 ? (y <= 2037 ? 0.05 + 0.05 * (y - 2032) : Math.min(0.65, 0.30 + 0.027 * (y - 2037))) : 0; // successor rules: 65% by 2050
+      const tprem = w.trkPrem0 + (w.trkPremEnd - w.trkPrem0) * Math.min(1, n / 15) - crVeh * w.crTruck * erode;
+      const stdTrk = pol.standards && w.zevTrkPath ? pathAt(w.zevTrkPath, y) : pol.standards && y >= 2032 ? (y <= 2037 ? 0.05 + 0.05 * (y - 2032) : Math.min(0.65, 0.30 + 0.027 * (y - 2037))) : 0; // successor rules: 65% by 2050
       const trkS = soft(stdTrk, logistic(w.trkAsc + w.trkBeta * (dslPe / 6.8 - 2.0 * eCom / 100 - tprem)));
       if (y > Y0) trkE += (trkS - trkE) / 14;
-      if (crCons) credCost += crCons * 0.55 * trkS * 20000 * erode / 1000; // 45W: 0.55m truck sales (ASSUMED), $20k average
+      if (crVeh) credCost += crVeh * 0.55 * trkS * w.crTruckCost * erode / 1000; // 45W: 0.55m truck sales (ASSUMED), $20k average
       const trk = E25.transport * TR.trk * Math.pow(1.005, n) * (1 - trkE) * Math.pow(dslP / w.diesel, w.trkElast);
       const trkTWh = E25.transport * TR.trk * Math.pow(1.005, n) * trkE / 0.0102 / 6.8 * 2.0 / 1000; // Mt -> bn gal -> bn mi -> TWh
       if (y > Y0) saf += 0.15 * (w.safMax[0] * logistic((Pe - w.safCost[0]) / 40) + w.safMax[1] * logistic((Pe - w.safCost[1]) / 80) - w.safMax[0] * logistic(-w.safCost[0] / 40) - w.safMax[1] * logistic(-w.safCost[1] / 80) - saf); // low-carbon jet fuel: waste oils first (limited supply), then alcohol-to-jet and synthetic
@@ -239,7 +243,7 @@ const CFD = (() => {
       // --- buildings: heating stock turnover ---
       const fossH = (w.gasBldg + EF.gas * 1000 * Pe / 1000) / 0.85, hpH = ((eRes + eCom) / 2) / 100 * 293.07 / 2.8;
       const hpS = logistic(w.hpAsc - w.hpBeta * (hpH + w.hpPrem - crCons * w.crHp * erode - fossH));
-      if (crCons) credCost += crCons * 84 * (1 - hp) / 18 * hpS * 3000 * erode / 1000; // 25C: 84m fossil-heated homes (ASSUMED from RECS shares)
+      if (crCons) credCost += crCons * 84 * (1 - hp) / 18 * hpS * w.crHpCost * erode / 1000; // 25C: 84m fossil-heated homes (ASSUMED from RECS shares)
       if (y > Y0) hp += (1 - hp) / 18 * hpS + (pol.weatherize && y >= 2031 ? w.wxHomes / 84 * (1 - hp) : 0); // CLI-5: Weatherization funds heat pumps, about wxHomes million low-income homes a year
       if (pol.weatherize && y >= 2031) credCost += 0; // its cost is CLI-5's ledger row, not modeled here
       bEff += 0.2 * ((1 - Math.pow((w.gasBldg + 53.1 * P / 1000) / w.gasBldg, w.bldgElast)) - bEff);
@@ -263,6 +267,8 @@ const CFD = (() => {
       if (y > Y0) hiT += cRate * 0.5 * (logistic((Pe - w.htCost * (1 - indCr)) / 40) - logistic(-w.htCost / 40) - hiT); // furnaces and kilns: capture, hydrogen or electric heat; slow because the equipment lasts decades
       const ltAb = otherInd * w.lowTempShare * lowT, htAb = otherInd * w.htShare * w.htMax * Math.max(0, hiT);
       const refAb = refining * 0.25 * 0.9 * ccsS.refH2;
+      const ccsAb = { refH2: refAb, cement: INV.cement * 0.9 * ccsS.cement, steel: INV.steel * 0.6 * ccsS.steel, gasproc: INV.ngCO2 * 0.9 * ccsS.gasproc, ammonia: INV.ammonia * 0.9 * ccsS.ammonia };
+      const credInd = indCr * (Math.max(0, ltCost) * ltAb + w.htCost * htAb + Object.keys(ccsAb).reduce((a, k) => a + (cCost[k] * 1.27 + w.ts) * w.ccsCostMult * ccsAb[k], 0)) / 1000; // ESTIMATE of industrial support cost ($bn): its share of abatement cost on abated tons; reported only, not in credits
       const industry = (refining - refAb) + (otherInd - ltAb - htAb) * (1 - indEff);
       const ltTWh = ltAb / (EF.gas / 0.8) / 3 / 3.412;
       const proc = { cement: INV.cement * (1 - 0.9 * ccsS.cement), steel: INV.steel * (1 - 0.6 * ccsS.steel), ngCO2: INV.ngCO2 * (1 - 0.9 * ccsS.gasproc), ammonia: INV.ammonia * (1 - 0.9 * ccsS.ammonia),
@@ -333,14 +339,14 @@ const CFD = (() => {
       rows.push({ year: y, price: P, power, transport, ldv, industry, buildings, energy, process, methane, n2o, hfc: hfcEmis, covered: energy + coveredOther, ghgNet, target,
         below2005: 1 - energy / E2005, ghgBelow2005: 1 - ghgNet / NET2005, rev, gross, net, pool: poolD, transition: net * (1 - pol.dividendShare), perShare, childShare: cs, family4: perShare * (2 + 2 * cs),
         gen: Object.assign({ nuclear: d.nucE, hydro: w.hydroOther + (S.hyd || 0), wind: d.windE * (1 - d.curt), solar: d.solE * (1 - d.curt) }, d.gen), G, cap: Object.assign({}, S), coalCF: d.coalCF,
-        credits: credCost + credPower, cleanShare, methanePrice: Pm, cesPrice: S.cesL || 0, cesTarget: cesTgt, cesAcp: cesAcpBn, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
+        credits: credCost + credPower, credInd, cleanShare, methanePrice: Pm, cesPrice: S.cesL || 0, cesTarget: cesTgt, cesAcp: cesAcpBn, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
         gasoline: 0.0085 * PR, feeGasoline: pol.roadExempt ? 0 : 0.0085 * P, natgas: 0.0551 * P, elecDelta: dRes, deciles: FOOT.map(f => divPc - costPc * f / fMean), pop: pp, unserved: d.unserved, missed: missedPrev });
 
       // --- investment for next year (uses the expected fee) ---
       const dx = Math.abs(Pe - P) > 0.5 ? dispatch(S, G, Pe, w, y) : d;
       const nn = n + 1;
       if (tx === null) { tx = w.txBase; PS = w.pipe0.solar; PW = w.pipe0.wind; KS = w.k0.solar; KW = w.k0.wind; }
-      const crNext = pol.credits && y + 1 >= 2030 && (y + 1 < 2032 || power > 383);
+      const crNext = pol.credits && y + 1 >= 2030 && (y + 1 < 2032 || power > w.crPowerTrigger);
       const stItc = crNext ? w.crItc : (y + 1 <= 2033 ? 0.3 : y + 1 === 2034 ? 0.225 : y + 1 === 2035 ? 0.15 : 0); // storage credit survives to 2035 under current law
       const cS0 = w.capex.solar * Math.pow(1 - w.decline.solar, nn), cSt0 = w.capex.stor * Math.pow(1 - w.decline.stor, nn);
       const cS = cS0 * (crNext ? 1 - w.crItc : 1), cW = w.capex.wind * Math.pow(1 - w.decline.wind, nn), cSt = cSt0 * (1 - stItc);
