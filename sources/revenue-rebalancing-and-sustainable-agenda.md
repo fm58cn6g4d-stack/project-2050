@@ -13,7 +13,7 @@ The immediate research priority is the **reliability and additionality of receip
 ## Reading map
 
 - [Initial financing comparisons](financing-protection-initial-screen.md): eight reproducible diagnostic cases, household effects and debt tradeoffs.
-- [Merged climate financing comparison](climate-recovery-financing-comparison.md): corrected Package A cost and debt implications, including conservative credit savings.
+- [Merged climate financing comparison](climate-recovery-financing-comparison.md): corrected Package A costs, conservative credit savings, and PR #31’s selected international results purchases. Proposed standing international finance and domestic-floor measures remain separately identified.
 - [Capacity/fund reference budget](../index/recovery-budget.md): federal totals and fund outcomes, with illustrative tax schedules clearly distinguished from adopted architecture.
 - [Budget method and accounting](../index/tools/recovery-budget/README.md): education current-law reconciliation, fund/GF boundaries, sensitivities and limitations.
 - [Revenue agenda and alternatives](../domains/domain-revenue.md): instruments, prior reasoning and overlaps. Historical totals are not a newly scored envelope.
