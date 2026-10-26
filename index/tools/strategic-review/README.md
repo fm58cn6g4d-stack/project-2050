@@ -1,7 +1,7 @@
 # Strategic-review experiments
 
 Exploratory research for the October 25, 2026 independent review. Source main:
-`beeba090020b7916f8ed08bcff36161fb70d1e69`. No adopted policy or input is changed.
+`beeba090020b7916f8ed08bcff36161fb70d1e69`. Those original experiments did not change adopted policy or numerical inputs. The later [fiscal-recovery package](../fiscal-recovery/README.md) records Espen's full EDU-9B adoption and supplies an integrated bridge; the original arithmetic here remains a pre-education comparison.
 
 From the repository root, with Python 3.9+ and Node.js for the existing suite:
 

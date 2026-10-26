@@ -112,5 +112,6 @@ A("""## Where the inputs live
 - archive/: ideas only, never current sources
 """)
 A(sources)
+out.insert(2, '> **Education adoption update:** This is the preserved pre-EDU-9B numerical comparison. Espen has adopted the full education-fund benefit scope and payroll institution. Use [the integrated education and fiscal recovery bridge](fiscal-recovery-model.md) for current selected-scope costs and conditional financing. Old “held education” and “decided package” labels below describe the earlier vintage; they do not reverse that adoption or establish a current financing/D3/D4 pass. Exact new rates and transition finance await decision.\n')
 open('2029-trifecta-master-ledger-v2.md','w').write("\n".join(out))
 print(len("\n".join(out)))

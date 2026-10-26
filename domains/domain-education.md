@@ -4,27 +4,27 @@ Canonical. Education was the framework's blind spot, once a single row (FAM-4) i
 - **sources/education-transforming-education-act-analysis-and-trust-fund.md**: Rep. Bonamici's Transforming Education for the Future Act (introduced Sept 14, 2026; 466 pages, about 22 bundled bills), extended in session into a birth-through-college package with a payroll-financed trust fund.
 - **sources/education-ai-education-and-workforce-readiness-act-analysis.md**: Rep. Bonamici's AI Education and Workforce Readiness Act, which the session reads as the omnibus's AI chapter.
 
-**Scope.** K-12 formula funding, special education, school meals, the educator workforce, higher education, the Education Department's structure and students' rights, the federal scholarship tax credit, AI in education and student data, financing architecture, and research and evaluation. **Not here:** child care and pre-K stay in domains/domain-family.md FAM-2 (one home; this file's financing option EDU-9B would carry FAM-2's money); AI workforce programs are AI-4 and LAB-8; national service is LAB-9; civic education is DEM-16.
+**Scope.** K-12 formula funding, special education, school meals, the educator workforce, higher education, the Education Department's structure and students' rights, the federal scholarship tax credit, AI in education and student data, financing architecture, and research and evaluation. **Not here:** child care and pre-K stay in domains/domain-family.md FAM-2 (one home; the adopted EDU-9B fund carries FAM-2's money); AI workforce programs are AI-4 and LAB-8; national service is LAB-9; civic education is DEM-16.
 
-**In the ledger.** EDU-1 (K-12 formula funding, carrying EDU-2) and EDU-5 (higher education) carry FAM-4's former $0.65T at the same total. Four further rows: EDU-3 universal school meals ($0.27T), EDU-4 the educator pipeline ($0.03T), EDU-7 repeal of the scholarship tax credit (a $0.04T saving) and EDU-8 AI in education, student data and research ($0.015T, appropriations). Together those four add **+$0.275T** to general-fund claims at the midpoint. The trust-fund design (EDU-9B) is **not chosen**: Espen deferred it to a revenue strategy session on payroll raisers.
+**In the ledger.** EDU-1 (K-12 formula funding, carrying EDU-2) and EDU-5 (higher education) carry FAM-4's former $0.65T at the same total. Four further rows: EDU-3 universal school meals ($0.27T), EDU-4 the educator pipeline ($0.03T), EDU-7 repeal of the scholarship tax credit (a $0.04T saving) and EDU-8 AI in education, student data and research ($0.015T, appropriations). Together those four add **+$0.275T** to general-fund claims at the midpoint. **Superseded financing:** Espen has now adopted the full EDU-9B package and payroll institution. The numerical rows below preserve the previous component estimates for comparison; the current selected-scope accounting is the [education bridge](../index/fiscal-recovery-model.md). Do not treat the old general-fund total as the new total.
 
 All figures are ten-year totals for 2030-39 in trillions unless marked. Basis tags: **sourced**, **scaled**, **estimate** (mine), **session estimate** (the education sessions' own figures, built from CBO and CRS published estimates; none is a CBO score). Survival at 51 (D1): ✔ survives, ◐ needs a D2 majority-precedent path, ✖ needs 60, 67 or Republican votes.
 
-## Summary
+## Component map (pre-adoption cost estimates; current design overrides below)
 
-| ID | Program | Chosen design | General-fund net (low / mid / high) | Vehicle | @51 | Floor days | Felt by Nov 2030? |
+| ID | Program | Chosen design | Pre-adoption GF cost (low / mid / high) | Vehicle | @51 | Floor days | Felt by Nov 2030? |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| EDU-1 | Title I | Grants rise from about $18.4B to $26B a year, as mandatory funding | 0.06 / 0.08 / 0.10 (inside the ledger's EDU-1 row) | R2 | ✔ | 0 | Partly |
+| EDU-1 | Title I | EDU-1B: $30B mandatory floor through EDU-9B | 0.06 / 0.08 / 0.10 (inside the ledger's EDU-1 row) | R2 | ✔ | 0 | Partly |
 | EDU-2 | Special education (IDEA) | A statutory glide path to the full 40% federal share, written as "hereby appropriated" (the IDEA Full Funding Act model); restraint-and-seclusion rules as conditions on the new money | 0.19 / 0.25 / 0.33 (rides EDU-1's ledger row) | R2 | ✔ (conditions: Byrd risk) | 0 | Partly |
 | EDU-3 | Universal school meals | Free breakfast and lunch for every enrolled child, Summer EBT at $60 a month, reimbursement at current rates, indexed | 0.22 / 0.27 / 0.33 | R2 | ✔ | 0 | Yes (school year 2030-31) |
-| EDU-4 | Educator workforce | A front-loaded pipeline surge: teacher residencies, registered teaching apprenticeships, Grow Your Own, aimed at special education, bilingual and early childhood | 0.02 / 0.03 / 0.05 | R2 | ✔ | 0 | Partly |
+| EDU-4 | Educator workforce | EDU-4A/B/C/D through EDU-9B: pipeline, teacher-pay floor, paraprofessional/mental-health staff and temporary teacher credit | 0.02 / 0.03 / 0.05 | R2 | ✔ | 0 | Partly |
 | EDU-5 | Higher education | Pell maximum to $9,500, indexed, increment mandatory; SAVE-style income-driven repayment and PSLF fixes in statute | 0.20 / 0.32 / 0.42 | R2 | ✔ | 0 | Partly |
 | EDU-6 | Education Department and students' rights | Bar on moving ED's statutory functions out by interagency agreement, with a staffing floor and civil-rights enforcement returned to ED (proposed to ride CAP-8); the rest of the omnibus's rules held for an ESEA reauthorization | 0 | FL (with CAP-8) + held | ◐ | 0 (rides CAP-8) | No |
 | EDU-7 | Scholarship tax credit | Repeal P.L. 119-21 sec. 70411 prospectively | −0.06 / −0.04 / −0.02 (a saving) | R2 | ✔ | 0 | — |
 | EDU-8 | AI in education and student data | AI literacy and educator grants; a student data-breach portal and edtech risk framework; limits on AI firms' control of curricula; rules ride AI-1 as a title | 0.01 / 0.015 / 0.025 (with EDU-10) | AP + FL (rides AI-1) | ◐ / ✔ | 0 | No |
-| EDU-9 | Financing architecture | Mandatory spending paid from the general-fund base under D4 (EDU-9A). The education fund (EDU-9B) is an option, deferred to a revenue strategy session on payroll raisers | — | — | — | — | — |
+| EDU-9 | Financing architecture | Full EDU-9B package and payroll institution adopted; exact financing schedule under review | — | — | — | — | — |
 | EDU-10 | Research and evaluation | An education R&D center (the NEED Act design), IES and longitudinal data restored, and pre-registered evaluation of every major row | Inside EDU-8's row | AP | ✔ | 0 | No |
-| | **General-fund total** | | **0.64 / 0.925 / 1.235** | | | **0** | |
+| | **Pre-adoption general-fund total** | | **0.64 / 0.925 / 1.235** | | | **0** | |
 
 The ledger carries six rows: EDU-1 (with EDU-2, $0.33T), EDU-3, EDU-4, EDU-5 ($0.32T), EDU-7 and EDU-8 (with EDU-10). EDU-1 + EDU-5 equal FAM-4's $0.65T exactly; the +$0.275T is EDU-3, EDU-4 and EDU-8 less EDU-7.
 
@@ -41,20 +41,20 @@ Facts below are as reported in the two session analyses (Oct 19, 2026) and were 
 
 ## EDU-1. Title I
 
-**Design.** Title I grants rise from about $18.4B (FY24 and FY26) to $26B a year, as mandatory funding in R2, through the existing formulas so money reaches districts in the first school year after enactment (ESEA reached districts the summer after April 1965; ESSER moved $122B in weeks).
+**Design.** EDU-1B now provides a $30B mandatory Title I floor through EDU-9B in R2, through the existing formulas so money reaches districts in the first school year after enactment (ESEA reached districts the summer after April 1965; ESSER moved $122B in weeks).
 
-**Cost.** About $0.08T (estimate; FAM-4's split).
+**Cost reference.** The prior $26B design was about $0.08T; the $30B floor is about $0.14T in the source. The full adopted package is costed once in the EDU-9B bridge, not by adding this estimate again.
 
 **Options.**
 
 | Option | Design | Cost | Basis |
 | --- | --- | --- | --- |
-| EDU-1A (chosen) | $26B a year, mandatory | ~0.08 | estimate (carried from FAM-4) |
-| EDU-1B | **A $30B mandatory floor** with discretionary appropriations layered on top (the mandatory Pell add-on model) | ~0.14 (+0.06) | session design; estimate |
+| EDU-1A (superseded) | $26B a year, mandatory | ~0.08 | estimate (carried from FAM-4) |
+| EDU-1B (adopted through EDU-9B) | **A $30B mandatory floor** with discretionary appropriations layered on top (the mandatory Pell add-on model) | ~0.14 (+0.06) | session design; estimate |
 | EDU-1C | The omnibus as written: $55B a year, authorized (appropriations decide) | ~0.35 if appropriated in full; 0 if not | session; an authorization is not durable |
 | EDU-1D | EDU-1B plus the omnibus's accountability package (subgroup size 10, improvement set-aside to 10%) | as B | held for an ESEA reauthorization (EDU-6) |
 
-**Why A.** It is the filed design and the cheapest durable step. **B is recommended if the financing allows:** a guaranteed floor is the durable instrument, and the session's trust-fund model uses exactly $30B. The session's warning on C: a $55B authorization erodes toward $30-40B within two or three appropriations cycles. **Drafting dependency:** universal meals (EDU-3) end the free and reduced-price applications that Title I's poverty counts and many state formulas use, so EDU-1 must carry a replacement poverty measure (direct certification plus Census estimates).
+**Previous reasoning for A (superseded by adoption of B).** It is the filed design and the cheapest durable step. **B is recommended if the financing allows:** a guaranteed floor is the durable instrument, and the session's trust-fund model uses exactly $30B. The session's warning on C: a $55B authorization erodes toward $30-40B within two or three appropriations cycles. **Drafting dependency:** universal meals (EDU-3) end the free and reduced-price applications that Title I's poverty counts and many state formulas use, so EDU-1 must carry a replacement poverty measure (direct certification plus Census estimates).
 
 ## EDU-2. Special education (IDEA)
 
@@ -89,7 +89,7 @@ Facts below are as reported in the two session analyses (Oct 19, 2026) and were 
 | EDU-3B | Expand community eligibility instead (lower the threshold, raise the multiplier) | ~0.08 | estimate; as ledger option C36 it would save ~$0.19T. **C36 declined (Decision Brief 2):** universal meals stay; the run rate is covered by top-end revenue instead |
 | EDU-3C | The omnibus as written, at its 2023 rates | ~0.15 | not recommended: per-meal payments would fall for many high-poverty schools |
 
-**Why A.** It is the fastest benefit in the file (meals can go universal mid-year; it is administratively simpler than tiered eligibility), it reaches the fourth quintile (the increment over today's free and reduced-price meals lands mostly on the second to fourth quintiles in the incidence model), and both the session and the Talarico scenario lead with it. Universality also removes the deservingness frame (Talarico finding: "a universal one cannot be racialized").
+**Previous reasoning for A (superseded by adoption of B).** It is the fastest benefit in the file (meals can go universal mid-year; it is administratively simpler than tiered eligibility), it reaches the fourth quintile (the increment over today's free and reduced-price meals lands mostly on the second to fourth quintiles in the incidence model), and both the session and the Talarico scenario lead with it. Universality also removes the deservingness frame (Talarico finding: "a universal one cannot be racialized").
 
 ## EDU-4. Educator workforce
 
@@ -99,7 +99,7 @@ Facts below are as reported in the two session analyses (Oct 19, 2026) and were 
 - **Grow Your Own** and Hawkins Centers, front-loaded so cohorts enrolling in fall 2030 finish in 2031-32.
 - **Targeting:** special education, bilingual education and early childhood, where prep capacity binds and pre-K's BA requirement bites.
 
-It is a time-limited surge (2030-36) that tapers to a small permanent line.
+The pipeline is a time-limited surge (2030-36) that tapers to a small permanent line. Full EDU-9B now adds the teacher-pay floor, paraprofessional/mental-health staffing and temporary bridge credit below; the old $0.03T pipeline figure is not their combined cost.
 
 **Cost.** About $0.03T, range $0.02-0.05T (estimate; the session's pipeline line is about $5B a year in 2030-33, tapering).
 
@@ -107,10 +107,10 @@ It is a time-limited surge (2030-36) that tapers to a small permanent line.
 
 | Option | Design | Cost | Basis |
 | --- | --- | --- | --- |
-| EDU-4A (chosen) | Pipeline surge | ~0.03 | estimate |
-| EDU-4B | Add a **$60,000 minimum teacher salary**, CPI-indexed: federal grants covering the gap, at least 85% passed to districts, priority to Title I and rural, with a state sustainability plan; temporary grants declining by design (the trust-fund model's version) | +0.06-0.08 (declining grants); +0.15-0.20 as the omnibus's open-ended "such sums" | session estimate ($12-20B a year at full gap) |
-| EDU-4C | Add paraprofessional wages (PARA Act, on the Title I formula) and school mental-health staff | +0.03-0.06 | session estimate ($2-5B and $0.5-1B a year) |
-| EDU-4D | Add a temporary teacher bridge credit (2030-31) so money lands in year one | ~+0.01 | session design |
+| EDU-4A (retained) | Pipeline surge | ~0.03 | estimate |
+| EDU-4B (adopted through EDU-9B) | Add a **$60,000 minimum teacher salary**, CPI-indexed: federal grants covering the gap, at least 85% passed to districts, priority to Title I and rural, with a state sustainability plan; temporary grants declining by design (the trust-fund model's version) | +0.06-0.08 (declining grants); +0.15-0.20 as the omnibus's open-ended "such sums" | session estimate ($12-20B a year at full gap) |
+| EDU-4C (adopted through EDU-9B) | Add paraprofessional wages (PARA Act, on the Title I formula) and school mental-health staff | +0.03-0.06 | session estimate ($2-5B and $0.5-1B a year) |
+| EDU-4D (adopted through EDU-9B) | Add a temporary teacher bridge credit (2030-31) so money lands in year one | ~+0.01 | session design |
 
 **On B.** The binding constraint on teacher supply is usually compensation, not prep slots, so the salary floor may do more for the pipeline than pipeline programs do (session). The session's long-run view: by 2040 the package adds 600,000 to 1 million workers across pre-K, K-12 and child care, with a nominal teaching median of $80-90K, and composition shifts show up around 2042-45. The early risk runs the other way: hiring 250,000 people fast means average quality dips before it rises, just when Congress asks whether the money worked (see EDU-10).
 
@@ -185,62 +185,25 @@ It is a time-limited surge (2030-36) that tapers to a small permanent line.
 
 ## EDU-9. Financing architecture
 
-### EDU-9A (chosen): mandatory spending from the general fund
+### EDU-9B (adopted): the full education fund benefit package
 
-Every money row above is direct spending in R2 (meals already is), paid from the general-fund base under D4. Competitive and innovation programs stay discretionary: they need flexibility and buy little durability. This adds $0.275T to the gap, which the accepted general-fund revenue covers (Package B, including C35, the estate tax counted at about $0.15T as the increment beyond REV-G9, and C38 to C41). C36 (meals at community-eligibility scale) was declined (Decision Brief 2).
+Espen instructed incorporation of the education payroll tax and explicitly selected **the full EDU-9B benefit package**, rather than financing only the previously adopted rows. This supersedes the October 20 deferral and EDU-9A for the programs inside the fund. The institution is separate from Social Security and carries permanent spending authority. Benefits do not depend on a parent's work record or contribution history.
 
-### EDU-9B (option, not chosen): an education fund
+**Inside:** meals, CACFP and Summer EBT; IDEA at 40%; FAM-2 pre-K and child care; EDU-1B's $30B Title I floor; EDU-4B's teacher salary floor through declining federal grants and state sustainability plans; EDU-4C's paraprofessional pay and mental-health staff; the pipeline and temporary teacher bridge credit. Higher education, Title I above the floor and competitive ESEA remain outside. This does not adopt every benefit in the source's larger birth-through-college agenda.
 
-The session's trust-fund design, recorded in full because it is the largest structural idea in either source.
+**Financing distinction.** Payroll financing and the full benefit scope are selected. Exact contribution rate, effective dates, federal/state share revisions, permanent general-fund participation, transition financing and household compensation are working recommendations pending decision. The source's 1.28–1.4-point range is not a demonstrated solvent rate for this project. Its estate receipts overlap G6, G9 and C35. Keep those receipts in their existing general-fund location; no second estate receipt or unrecorded transfer is authorized by adopting the payroll institution.
 
-**Scope.** Inside the fund: meals, CACFP and Summer EBT; IDEA at 40%; pre-K and child care (FAM-2's money); a $30B Title I floor (EDU-1B); the teacher floor (EDU-4B); PARA and school mental-health staff (EDU-4C); the pipeline. Outside: Title I above the floor, competitive ESEA programs and higher education (roughly $90-120B a year more, mostly new) stay on the discretionary or general-fund track. About 60% of the package becomes structurally protected.
+**Current accounting:** use the [integrated education bridge](../index/fiscal-recovery-model.md) and [adopted scope input](../index/data/inputs/education-adoption.json), alongside the preserved pre-adoption ledger comparison. Interpolating the source's aggregate anchors gives **$2.602T gross fund outlays in 2030–39**, consisting of **$1.230T previously adopted agenda spending**, **$0.770T absorbed current-law spending** (pooled estimate), and **$0.602T additional benefits**. The source's approximately $0.63T new-benefit figure was rounded; do not add it on top of the modeled residual. Transfers out of the general fund are not government-wide savings.
 
-**Revenue.**
-- **An uncapped payroll contribution** of 1.28 points in the session's model (payroll base about $135B a point in 2030, growing 4%), kept structurally separate from Social Security because reconciliation bars changes to Title II of the Social Security Act. Called a contribution, and the fund named for what it buys.
-- **The estate tax at 2009 parameters** ($3.5M exemption, unindexed), dedicated to facilities, the pipeline and reserve. Freezing the exemption makes revenue grow about 5% a year with wealth, against 3% if price-indexed; at least one source must grow as fast as wage-indexed spending.
-- **Adjustments for this project:** the session's estate component also ends stepped-up basis, which is REV-G6 ($0.70T), already in the base. Counting only the estate tax (REV-E1, about $0.35T in-window gross, estimate), the payroll rate that keeps the fund positive is roughly **1.4 points** rather than 1.28 (estimate). REV-G9 already reverses most of the 2025 estate exemption, so only about $0.15T of REV-E1 is new money; on that basis the rate would sit at the top of the 1.4 range or slightly above (not re-modeled).
+The [fiscal recommendations](../sources/fiscal-recovery-and-education-redesign.md) compare a larger payroll-financed fund with a lower contribution plus an explicit general-fund share, protect early recovery, and expose both transition costs and long-run reserve risks. Those alternatives are not adopted tax schedules. Their education outlays include the full package in either case. Higher teacher compensation and service quality require actual staff, facilities and state follow-through, not just a fund balance.
 
-**Spending paths (session, $B nominal).**
+**Federal/state exposure.** The source assumes 100% federal pre-K funding through 2034, then 90/85/80/75/70/65% and 60% from 2041. That is a planning assumption, not free cost reduction: states must carry the remainder and sustain teacher pay after federal grants taper. The source's state-cost figures do not clearly reconcile with the combined pre-K/child-care federal outlay line. The new bridge tests 80% and 100% federal-share floors as explicit alternatives, without adopting them or concealing their cost.
 
-| Component | Index | Growth | 2030 | 2033 | 2036 | 2040 | 2049 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Meals, CACFP, Summer EBT | Food-away-from-home CPI × meals | 2.1% | 63 | 68 | 73 | 81 | 102 |
-| IDEA | 40% of actual per-pupil spending | 3.7% | 21 | 43 | 66 | 78 | 111 |
-| Pre-K and child care | Per-child cost with pay parity × cohort; federal share 100% to 2034, then stepping to 60% in 2041 | 3.2% | 12 | 88 | 106 | 106 | 143 |
-| Title I floor | Per-child wage cost × poverty count | 3.2% | 30 | 34 | 38 | 44 | 63 |
-| Teacher credit and grants | Declining by design | falls | 3 | 17 | 6 | 4 | 3 |
-| PARA and mental health | Staffing cost × enrollment | 3.2% | 8 | 9 | 10 | 12 | 17 |
-| Pipeline | Surge, then taper | — | 5 | 5 | 2 | 2 | 2 |
-| **Total** | | | **142** | **264** | **301** | **327** | **442** |
+**Institutional protection and limits.** A named fund, permanent appropriation and visible contribution establish responsibility; Congress can still change them. D3 and D4 remain binding. A Treasury loan cannot fix a structural shortfall. Annual contribution reviews should examine wages, employment, service cost, take-up and reserves, while protecting continuity of benefits. A permanent general-fund share, if selected, must be financed as a permanent obligation and cannot be presented as fund self-financing.
 
-Drafting choices mattered more than the headline rate: correcting the growth indices (the school-age population falls about 0.5% a year; births are down about 17% since 2007), sunsetting temporary pieces, and freezing the estate exemption moved the required rate from 1.60 to 1.28.
+### EDU-9A, EDU-9C and EDU-9D: prior architecture and retired duplicates
 
-**Rates and the stress test (session, with the session's estate component).**
-
-| Rate | Trough | Reserve 2049 | Cost a year at the median wage |
-| --- | --- | --- | --- |
-| 1.20 | −$103B (2040) | +$121B | ~$780 |
-| 1.25 | −$19B (2039) | +$323B | ~$813 |
-| **1.28** | **+$38B (2038)** | **+$414B** | **~$833** |
-| 1.35 | +$118B (2037) | +$725B | ~$878 |
-
-A recession of 2.5 points of unemployment in 2036-38 at 1.28 needs about $89B of borrowing, repaid by 2043, with every entitlement payment made; at 1.35 the reserve never reaches zero. The design answer is **statutory borrowing authority with a repayment schedule in the original act**, so a draw executes the plan rather than requesting a bailout (the FAM-3 pattern).
-
-**What it does to the general fund (estimate).** The fund would carry about $2.6T of outlays in 2030-39. About $1.23T is general-fund claims already in this ledger (FAM-2 $0.60T, EDU-1 $0.33T, EDU-3 $0.27T, EDU-4 $0.03T); about $0.77T is current spending it absorbs (today's meals, Title I and IDEA baselines); about $0.63T is new benefits (a larger pre-K and child care share, the teacher floor, PARA and mental-health staff, Title I and IDEA top-ups). So it relieves the general fund of about **$2.0T** while raising about $2.3T from workers and $0.35T from estates.
-
-**D3 (incidence model, scenario Q-EDU).** Used as the closer in place of C19b (the exclusion cap) and C20 (the surtax) on the decided package, EDU-9B leaves the first two quintiles better off (Q1 +$11,284, Q2 +$9,507 a household a year against +$10,906 and +$9,382 on scenario Q) and the third and fourth worse (Q3 +$5,604 against +$5,823; Q4 +$249 against +$1,087). Every quintile below the top stays positive, so it **passes the quintile test**, but a fourth-quintile household without children pays the contribution and gets no school benefit, and the fourth quintile is further behind in 2030-31 (−$2,617 and −$677, against −$1,663 and +$209) until pre-K seats ramp.
-
-**D4.** Two problems, both Espen's call:
-- **A new dedicated fund.** D4 bars a trust fund "just to hold a pay-for" and allows one where a permanent benefit has a natural revenue stream covering much or all of its cost. The payroll piece is arguable on the FAM-3 pattern (the session's case: a worker pays in for forty years and draws for eighteen per child, close to the Social Security bargain, and a contributory frame changes the politics of cutting). Dedicating the estate tax is a pay-for placed in a fund and fails the rule as written.
-- **What a fund buys.** The session itself concedes a trust fund does not insulate against reconciliation (51 votes can amend it); its value is the contributory frame, a permanent appropriation, and a constituency for the revenue. Mandatory spending (EDU-9A) delivers the permanent appropriation without the fund.
-
-**Framing (session).** "Better education for our country's children" is an easier universal ask than "early childhood": folding both under one banner (school starts at three) puts early childhood inside an institution people already accept.
-
-**Note for a later revenue strategy session (Espen, Oct 20).** EDU-9B stays unchosen, but its structure is worth revisiting alongside the agenda's other payroll raisers, possibly instead of one of them or harmonized with them, rather than judged on its own. The structure is: an uncapped payroll contribution of about 1.28-1.4 points split between employer and employee; receipts dedicated to a separate education fund outside Social Security; Treasury borrowing authority with a statutory repayment schedule so spending can ramp before receipts; an estate component. The list of payroll raisers to harmonize (REV-P1, REV-ED1, W1, SS-7, SS-1, SS-2, REV-H1a) is in domain-revenue.md under REV-ED1.
-
-### EDU-9C and EDU-9D (retired duplicates)
-
-Both were second listings of options that have one home elsewhere. **EDU-9C** (take C35 as general-fund revenue) is REV-E1 in domain-revenue.md, counted at about $0.15T beyond G9. **EDU-9D** (Title I alone as a mandatory floor) is EDU-1B above. The IDs are retired, not reused.
+EDU-9A (mandatory general-fund financing) is the pre-adoption comparator and continues for programs outside EDU-9B. The October 20 reasoning and numerical experiments remain in the [original source](../sources/education-transforming-education-act-analysis-and-trust-fund.md) and Git history. EDU-9C was a duplicate of REV-E1/C35; EDU-9D was a duplicate of EDU-1B. Their IDs remain retired.
 
 ## EDU-10. Research and evaluation
 
@@ -270,11 +233,11 @@ Formula money through existing pipes can start immediately; only pre-K seats (fa
 
 ## Survival at 51 (D1 stress test)
 
-Every money row (EDU-1 to EDU-5, EDU-7) rides R2 and survives at 51, if the R2 financing holds. EDU-2's conditions carry Byrd risk. EDU-6 and EDU-8's rules need a D2 path; under G (carve-out only) they wait, and only the money moves. EDU-9B's payroll contribution could ride reconciliation (✔), but it is a decision, not a fallback.
+Every money row (EDU-1 to EDU-5, EDU-7) rides R2 and survives at 51, if the R2 financing holds. EDU-2's conditions carry Byrd risk. EDU-6 and EDU-8's rules need a D2 path; under G (carve-out only) they wait, and only the money moves. EDU-9B's adopted payroll institution is designed for reconciliation, separate from Social Security; its exact financing schedule remains under review.
 
 ## D3
 
-Every chosen row is a benefit except EDU-7, which falls on scholarship donors with tax liability. On the incidence model's decided package (scenario Q) the fourth quintile comes out +$1,087 a year; EDU-3 is the education row that reaches it. EDU-9B is scenario Q-EDU (above).
+The education payroll contribution reaches workers as well as beneficiaries. The pre-adoption Q/Q-EDU tests do not establish a pass for the newly adopted scope and a new financing schedule. The [integrated diagnostic](../index/fiscal-recovery-model.md) keeps existing benefit incidence and adds only new benefits plus the full contribution burden; it finds remaining Q4 losses before a scored protection rule. D3 remains binding.
 
 ## Dependencies
 
@@ -284,7 +247,7 @@ Every chosen row is a benefit except EDU-7, which falls on scholarship donors wi
 - **Climate.** CLI-6E takes the AI bill's data-center title.
 - **Capacity.** EDU-6 proposes to ride CAP-8; ED's staffing is in CAP-7.
 - **Democracy.** DEM-16 (civic education) stays there; the omnibus's history and civics grants are a candidate to fold into DEM-16 at its next touch.
-- **Revenue.** REV-E1 (estate tax, option C35, accepted in Package B) and the education contribution (ledger revenue row ED1, held) are in domain-revenue.md.
+- **Revenue.** REV-E1 (estate tax, option C35, accepted in Package B) and the education contribution (ledger revenue row ED1, institution adopted; numerical schedule under review) are in domain-revenue.md.
 
 ## Design-rule check
 
@@ -303,8 +266,8 @@ Every chosen row is a benefit except EDU-7, which falls on scholarship donors wi
 
 | Policy | Versions | Resolution |
 | --- | --- | --- |
-| Universal pre-K | FAM-2 (phased, inside child care); the omnibus (HHS, standards, federal share stepping to 60%); EDU-9B (inside the fund) | One home, FAM-2; standards as FAM-2D; financing option EDU-9B |
-| Title I | FAM-4 ($26B); omnibus ($55B authorized); trust-fund model ($30B mandatory floor) | EDU-1A chosen; EDU-1B, 1C options |
+| Universal pre-K | FAM-2 (phased, inside child care); the omnibus (HHS, standards, federal share stepping to 60%); EDU-9B (inside the fund) | One home, FAM-2; standards as FAM-2D; adopted financing institution EDU-9B |
+| Title I | FAM-4 ($26B); omnibus ($55B authorized); trust-fund model ($30B mandatory floor) | EDU-1B adopted; EDU-1A superseded; EDU-1C remains an option |
 | IDEA | FAM-4 (glide path); omnibus (authorized, 40% by FY2033); IDEA Full Funding Act (mandatory, 40% by FY2035) | EDU-2A chosen (mandatory); others options |
 | Higher education add-ons | FAM-4E, FAM-4F | EDU-5B, EDU-5C |
 | Data-center disclosure | AI education bill Title IV; climate durability session's clean load standard | CLI-6E and CLI-6C, one file |
@@ -328,7 +291,7 @@ Every chosen row is a benefit except EDU-7, which falls on scholarship donors wi
 ## Open items
 
 1. **Scores.** Every money row is unscored; EDU-3's increment and EDU-2's path need CBO figures.
-2. **EDU-9B** needs Espen's call under D3 and D4 before it can be chosen; deferred to a revenue strategy session on payroll raisers.
+2. **EDU-9B scope is adopted.** Resolve rates, transition finance, household protection, state-share accounting and reserve adjustments; demonstrate D3/D4 compliance before calling the financing complete.
 3. **EDU-6's vehicle:** ride CAP-8 (proposed) or AI-1.
 4. **Byrd checks** for EDU-2's conditions and EDU-3's Summer EBT.
 5. **Title I poverty measure** to replace meal-application counts (drafting, with EDU-3).

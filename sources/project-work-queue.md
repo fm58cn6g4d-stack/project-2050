@@ -2,6 +2,12 @@
 
 October 24, 2026. Single cross-session status and assignment record; not policy authority. Audit baseline `claude/pensive-mendel-g1lwl5` at `dafe93e5144f4a87b65709b9ef0b5990c8f9633b`. After consolidation, use live `main`; verify its current commit and incoming PRs before work. This records known activity, not an assertion that every unobserved chat is idle.
 
+## Current fiscal assignment: recovery and full EDU-9B adoption
+
+Espen adopted the full EDU-9B benefit package and payroll institution and directed a whole-project fiscal review, long-run government/fund solvency, early household protection and recovery with visible gains. The [completed fiscal pass](fiscal-recovery-and-education-redesign.md) now supplies an [integrated education bridge](../index/fiscal-recovery-model.md), 75-year education stresses, Social Security/HI/leave comparisons, whole-government debt requirements and the [148-row financial inventory](fiscal-recovery-inventory.csv). Canonical EDU/FAM/REV and the governing record incorporate the selected scope. Exact rates, grants, credits and other reforms are not adopted.
+
+**Next substantial assignment:** one integrated Recovery and Solvency budget comparing mixed education plus progressive broad-income replacement with larger-payroll education plus retained taxes. Price household protection and realistic FY2029 delivery; reconcile education/state costs and joint SS/HI/health/revenue interactions before selecting a complete schedule. Previous generic “begin fiscal review” tasks below are superseded by this completed pass. The public edition remains at its prior evidence vintage. PR #20 is the review vehicle; no merge or deployment is authorized.
+
 ## Completed foundations to use
 
 | Work | Current record | Limits / do not restart |

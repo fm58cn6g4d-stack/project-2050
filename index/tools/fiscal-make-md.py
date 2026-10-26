@@ -201,6 +201,7 @@ def main():
     w("- **Year-by-year score for a row:** enter it in index/data/inputs/fiscal-years.csv.")
     w("- **New scenario:** add a line to SCENARIOS in fiscal-model.py.")
     w("- **Order of runs:** ledger-build.py → fiscal-data.py (only when the baseline changes) → fiscal-model.py → fiscal-make-md.py.")
+    L.insert(2, '> **Education adoption update:** This is the preserved pre-EDU-9B numerical comparison. Espen has adopted the full education-fund benefit scope and payroll institution. Use [the integrated education and fiscal recovery bridge](fiscal-recovery-model.md) for current selected-scope costs and conditional financing. Old “held education” and “decided package” labels below describe the earlier vintage; they do not reverse that adoption or establish a current financing/D3/D4 pass. Exact new rates and transition finance await decision.\n')
     open(a.out, "w").write("\n".join(L) + "\n")
     print("wrote", a.out)
 

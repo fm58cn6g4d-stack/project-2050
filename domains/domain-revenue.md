@@ -11,7 +11,7 @@ The revenue-assignment audit's findings (index/revenue-assignment-audit.md) are 
 - **Carbon (D7).** REV-C1 runs **$25 a ton in 2030 rising to about $100 by 2037**, road fuels exempt: about **$1.45T**, a dividend of about $1.16T (equal per adult) and a transition share of about $0.29T (estimate, set from the carbon model, Oct 21). **REV-C2** (the border adjustment) nets about $0.03T, and **REV-C3** (the IRA methane charge reinstated, with a certified leak-prevention exemption) about $0.02T; both finance CLI-5. The general fund books a 25% income and payroll tax offset on all three (**CX**, about −$0.38T). Road-fuel convergence (REV-C1D) is open and not adopted.
 - **Climate capital under D4.** Borrowing may finance time-limited federal **climate capital**: climate-bank capitalization, contracts for difference obligated at enactment, the subsidy cost of public-power and transmission-corporation lending, and CLI-5's adaptation-finance and minerals-offtake lines. Tax credits and recurring transfers stay paid for.
 - **Estate tax.** REV-G9 already takes back most of the 2025 law's permanent $15M estate exemption, so REV-E1 (C35) is counted as the **increment beyond G9**, about $0.15T.
-- **Payroll raisers.** REV-ED1's payroll structure goes to a later revenue strategy session with the other payroll raisers (see REV-ED1).
+- **Payroll raisers.** The full EDU-9B package and REV-ED1 institution are adopted. See the [current integrated bridge](../index/fiscal-recovery-model.md) for conditional financing and the section below for remaining choices.
 
 ## Chosen design
 
@@ -31,9 +31,9 @@ Revenue is planned **by channel**. Each dedicated fund is kept whole on its own 
 | Public safety | Safe Everywhere's federal titles (about $12.1B a year) | Alcohol tax change, assessment on firms that carry fraud, firearms charges and fees (durable sources only, about $9.2B a year; domain-public-safety.md) | ~$0.09T in, ~$0.12T out | domains/domain-public-safety.md |
 | Merger review | Antitrust enforcement and merger review (COM-1) | Merger-filing fees | ~$0.004T a side | domains/domain-competition.md |
 | Small-dollar matching | Retired (INT-5B): the 6:1 match is paid from general revenue | — | — | domains/democracy and integrity files |
-| *Education fund (proposed, not chosen)* | *EDU-9B: meals, IDEA, pre-K and child care, a Title I floor, teacher and staff lines* | *REV-ED1: an uncapped payroll contribution of about 1.3-1.4 points* | *~$2.1T in, ~$2.6T out in 2030-39 (session model)* | *domains/domain-education.md; needs D3 and D4 decisions* |
+| Education fund (adopted full scope) | EDU-9B: meals, IDEA, pre-K/care, Title I floor, teacher/staff/pipeline | REV-ED1 payroll institution; exact schedule under review | $2.602T gross outlays; financing conditional, see integrated bridge | domains/domain-education.md |
 
-The education fund row is shown for visibility only: it is an option and enters no total.
+The education fund is now selected. Historical totals and numerical input tables below remain the pre-adoption comparison; the integrated bridge adds full costs, removes transferred spending once, and charges transition finance. They must be read together.
 
 **Outlays owed by this rule.** The ledger carries gross revenue and gross outlay columns for every channel: HI's share of HLT-6, FAM-3's leave benefits, the carbon dividend, Moving America's receipts and packages, and Social Security's revenue and benefit cost each show both halves. About $7T of revenue moves through the dedicated channels (index/2029-trifecta-master-ledger.md, "Channels at gross") — none of it in the gap, all of it landing on identifiable households, which is why the D3 test needs it visible.
 
@@ -108,7 +108,7 @@ G4 has the same realization exposure, because its minimum tax also counts unreal
 - **D4 read on a 75-year window for HI.** The ~$0.3T HI surplus stays as reserve; it hedges the HLT-6 Medicare Advantage estimate.
 - **No general-fund backstop for paid leave.** An automatic step-up toward 0.85% and a repayable Treasury loan stand behind the fund (domains/domain-family.md).
 - **Moving America's top-ups are time-limited capital (ledger C30).** Under the accounting rule the 2029 and 2030 acts' general-fund top-ups and packages (~$0.35T) are not netted against trust-fund receipts. The renewal top-ups and capital package lines (~$0.30T, estimate) are borrowed for inside the D4-B envelope; transit operating grants stay paid for.
-- **Further options.** REV-E1 (accepted as C35, Package B), REV-E2, REV-ED1 (held), REV-C1B to C1F, REV-C2B and REV-SC2 and SC3; see "Further options" below.
+- **Further options.** REV-E1 (accepted as C35, Package B), REV-E2, REV-ED1 (institution adopted), REV-C1B to C1F, REV-C2B and REV-SC2 and SC3; see "Further options" below.
 
 ## The carbon fee and dividend (REV-C1)
 
@@ -344,22 +344,22 @@ None of these is in the base. REV-E1 is accepted as C35 (Package B); REV-SC1 is 
 
 **Why it is interesting beyond climate.** The Talarico model's most consequential late finding is that labor's share of income fell from 58% to 51% over its eight years and that the fund was "the resolution of the labor share problem, found four years late." Public equity is the instrument in this file that grows with capital income rather than wages. **Not chosen:** unscored, novel governance, and the Court's treatment of exactions conditioned on federal permits needs a legal review (CRT-8). **Vehicle:** capitalization R2 (✔); charter and access conditions need the floor (◐).
 
-### REV-ED1. The education contribution (held; behind option EDU-9B)
+### REV-ED1. The education contribution (institution adopted; financing schedule under review)
 
-An uncapped payroll contribution of about **1.28-1.4 points**, dedicated to an education fund (domain-education.md EDU-9B), structurally separate from Social Security so it can ride reconciliation. The education session's model needs 1.28 points with an estate component that includes step-up repeal; counting only REV-E1 (since G6 is already in the base) raises the rate to about 1.4 (estimate). In-window it raises about $1.95-2.30T (mid ~$2.1T; session base of about $135B a point in 2030 growing 4%; CRFB scores one uncapped point at $1.3T for 2026-35). It reaches every worker, about $830-900 a year at the median wage if all of it falls on the worker. **Held:** it needs Espen's call under D3 (scenario Q-EDU passes the quintile test, but a fourth-quintile household without children pays the contribution and gets no school benefit) and D4 (whether a dedicated education fund meets the trust-fund rule). It is the same base as W1 (a general-fund 1% payroll contribution), dedicated.
+Espen adopted the separate payroll-funded EDU-9B institution and its **full benefit package**. The contribution is uncapped and structurally separate from Social Security. An employer/employee split describes statutory collection, not who ultimately bears the cost. A worker can bear the employer share through compensation over time; self-employed treatment must be specified on the same basis.
 
-**Note for a later revenue strategy session (Espen).** EDU-9B's structure is worth revisiting as one of several payroll instruments, possibly instead of or harmonized with the others, rather than on its own. Its structure, for that session:
-- **Base and rate:** an uncapped payroll contribution of about 1.28-1.4 points, split between employer and employee (the session's design), with no wage cap.
-- **Dedication:** receipts go to a separate education fund, not Social Security, so the fund can ride reconciliation; the fund would carry **borrowing authority from the Treasury and a statutory repayment schedule**, so spending can ramp before receipts.
-- **Pairing:** designed with an estate component; at the REV-E1 increment it needs the higher end of the rate range.
-- **Open D3 and D4 questions:** a fourth-quintile household without children pays and receives no school benefit; whether a dedicated fund meets D4's natural-revenue test.
+The preserved ED1 ledger midpoint of $2.1T is a historical estimate, not the adopted fund's selected revenue total. The old 1.28–1.4-point figures depended on estate revenue already used in G6/G9/C35 and did not fund a delayed recovery-phase launch. They are superseded as financing claims. The [integrated bridge](../index/fiscal-recovery-model.md) compares 1.4 points with a permanent 30% general-fund share against larger payroll-funded alternatives, with transition funding, tax-interaction and household-protection allowances charged explicitly. These are **conditional recommendations**, not selected rates or official scores. Gross fund costs include the full EDU-9B package in every case. Existing estate receipts remain general-fund revenue; relocating them would require an equal general-fund revenue loss.
 
-The payroll raisers on the table, to harmonize in that session (all on wages unless noted):
+The [recommendations](../sources/fiscal-recovery-and-education-redesign.md) place early recovery ahead of broad new charges, test long-run solvency and identify remaining D3 weaknesses. W1 is not added as a second general-fund payroll levy. C19b/C20 remain adopted until Espen chooses their replacement or changed timing; old Q-EDU's removal of both cannot be assumed from education adoption.
+
+Payroll instruments must be considered together: leave (REV-P1), education (REV-ED1), OASDI high earnings and investment income (SS-1/SS-2), possible additional SS-5/SS-7, and Medicare H1a/H1b. Their bases, caps, legal vehicles and effective dates differ. Education supports a permanent benefit institution under D4; that does not waive the requirement to finance the benefit or authorize an estate earmark.
+
+The payroll raisers to harmonize in the current fiscal redesign (all on wages unless noted):
 
 | Raiser | Rate and base | Where it goes | Home |
 | --- | --- | --- | --- |
 | Paid-leave contribution | 0.6%, automatic step-up toward 0.85% | Leave fund | REV-P1, FAM-3 |
-| Education contribution | 1.28-1.4 points, uncapped | Education fund (held) | REV-ED1, EDU-9B |
+| Education contribution | Rate under review, uncapped | Education fund (adopted) | REV-ED1, EDU-9B |
 | General-fund payroll contribution | 1% | General fund (option) | W1 |
 | OASDI rate increase | 1 point | Social Security | SS-7 |
 | OASDI tax above $250K | 12.4% above $250K, with benefit credit | Social Security (D8 baseline) | SS-1 |
@@ -411,7 +411,7 @@ REV-C2 rides R3 with CLI-5 so the revenue and the spending it covers move on the
 - **HI:** solvency relies on REV-H1a and HI's share of the Medicare Advantage savings; see domains/domain-health.md. D4 is read on a 75-year window for HI, so the roughly $0.3T surplus is kept as reserve rather than swept.
 - **Unsized channels:** methane fees need a figure.
 - **G8 and CAP-7S/CAP-7:** the enforcement revenue here and the IRS share of the D9 agency-rebuild lines move together.
-- **Education:** REV-E1 (accepted as C35) and REV-ED1 (held) are the two financing options the education file names; EDU-9B (the fund) needs D3 and D4 decisions.
+- **Education:** REV-E1 (accepted as C35) and REV-ED1 (institution adopted) are the two financing options the education file names; EDU-9B (the fund) needs D3 and D4 decisions.
 - **Climate:** REV-E2 is the public-equity home for CLI-9 to CLI-11's equity pieces; REV-C2B pairs with CLI-9.
 
 ## Design-rule check

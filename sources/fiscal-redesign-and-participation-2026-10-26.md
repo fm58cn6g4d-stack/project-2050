@@ -1,5 +1,7 @@
 # Security, participation and a durable financing plan
 
+**Later development:** Espen has now adopted the full EDU-9B benefit scope/payroll institution. [The fiscal recovery review](fiscal-recovery-and-education-redesign.md) supersedes this brief's education-held status and develops integrated costs, financing and long-run solvency comparisons. Other alternatives here remain research.
+
 First development pass · October 26, 2026 · Research for Espen's review
 
 **Direction.** A decent life should be secure regardless of a person's ability to work or compete, or their family arrangement. Public responsibility also includes helping people participate in work, education, training and community life when they want to and can, with appropriate accommodations. These purposes reinforce each other. A payment can prevent destitution without providing a route out of isolation; a training referral can be useless without rent, care, transport or an actual job.

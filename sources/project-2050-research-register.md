@@ -4,6 +4,10 @@ October 23, 2026 · Source/status register, not a second policy canon.
 
 **Historical October 23 baseline:** approved working branch claude/pensive-mendel-g1lwl5 at e15c5c4a711b4cd2b482bac8300de45f2e08721f. Main is not the selected baseline. Espen approved integration on October 23, with DEM-1 floor consideration beginning by March 2029 latest. The approved charter governs purpose, outcomes, evidence and workflow; the governing decision file governs selected policy. Illustrative family scenes are illustrations.
 
+## Fiscal recovery and education adoption: current development pass
+
+[Recovery, education and a durable fiscal settlement](fiscal-recovery-and-education-redesign.md), with [generated integrated results](../index/fiscal-recovery-model.md), [annual data](../index/data/fiscal-recovery-model.json), [financial inventory](fiscal-recovery-inventory.csv) and [reproduction package](../index/tools/fiscal-recovery/README.md). Full EDU-9B benefits/payroll institution are adopted; numerical financing alternatives and other reforms remain recommendations. Source main `beeba090020b7916f8ed08bcff36161fb70d1e69`, preceding review `b94507d552e504a7f0c0f0c4ef16368d946557d6`. This supersedes earlier education-held status and updates financing requirements; original climate and strategic work remains historical evidence. No joint tax score, microdata distributional certification or whole-government solvency claim.
+
 ## Current reading map: October 24 consolidation
 
 The opening baseline above is historical. Current integration after promotion is live `main`; the audit began at `dafe93e5144f4a87b65709b9ef0b5990c8f9633b`. The [shared queue](project-work-queue.md) governs task status. PRs #9–13 merged health research and the completed poverty work; earlier “next baseline/model” instructions below are checkpoint history, not new assignments.
