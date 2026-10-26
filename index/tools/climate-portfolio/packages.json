@@ -1,0 +1,376 @@
+{
+ "note": "Package search on the carbon model's decided package. Each lever has options; the first option of every lever is the decided package. Every combination is run with identical physical assumptions. Magnitudes marked ASSUMED are planning assumptions. Budget figures are model outlays (credits, programs, the industrial-support estimate) plus named external costs, constant 2025 dollars; channel receipts (REV-C1, REV-C3, CES payments) are reported separately and are not netted against general-fund outlays.",
+ "higher_price": {
+  "through_2032": "D7",
+  "price_2037_nominal": 150,
+  "growth_after": 0.05,
+  "label": "REV-C1H: D7's path to 2032 ($46), then rising to $150 by 2037 (was $100), 5% a year after (approved by Espen Oct 26)"
+ },
+ "levers": [
+  {
+   "id": "credits",
+   "label": "Clean-energy credits (CLI-1A)",
+   "options": [
+    {
+     "key": "keep",
+     "label": "Keep as decided"
+    },
+    {
+     "key": "bridge",
+     "label": "Bridge: vehicle credits end after 2034; wind/solar credits phase out once power CO2 falls below 600 Mt (decided: 383 Mt)",
+     "world": {
+      "crVehYears": 5,
+      "crPowerTrigger": 600
+     }
+    },
+    {
+     "key": "targeted",
+     "label": "Targeted bridge: as bridge, with the new-EV credit halved (income and price caps)",
+     "world": {
+      "crVehYears": 5,
+      "crPowerTrigger": 600,
+      "crEv": 3400
+     }
+    },
+    {
+     "key": "standard_led",
+     "label": "Standard-led: new-EV and truck credits end after 2032 as the statutory sales standard binds (EV credit halved until then); wind/solar phase-out at 600 Mt",
+     "world": {
+      "crVehYears": 3,
+      "crPowerTrigger": 600,
+      "crEv": 3400
+     }
+    }
+   ]
+  },
+  {
+   "id": "ces",
+   "label": "Clean electricity standard (CLI-3)",
+   "options": [
+    {
+     "key": "80by35",
+     "label": "80% by 2035 (decided)"
+    },
+    {
+     "key": "90by35",
+     "label": "CLI-3E: 90% by 2035, ACP $60/MWh",
+     "policy": {
+      "ces": {
+       "start": 2030,
+       "target": 0.9,
+       "year": 2035
+      }
+     },
+     "world": {
+      "cesAcp": 60
+     }
+    },
+    {
+     "key": "90by35_100by40",
+     "label": "CLI-3E/4D: 90% by 2035 and 100% by 2040 (statutory cap backstop), ACP $80/MWh",
+     "policy": {
+      "ces": {
+       "start": 2030,
+       "target": 0.9,
+       "year": 2035,
+       "target2": 1.0,
+       "year2": 2040
+      }
+     },
+     "world": {
+      "cesAcp": 80
+     }
+    }
+   ]
+  },
+  {
+   "id": "zev",
+   "label": "Vehicle standards in statute (CLI-4E)",
+   "options": [
+    {
+     "key": "decided",
+     "label": "CLI-4A rules as modeled (25% EV sales 2032, 50% 2037, 100% by 2050)"
+    },
+    {
+     "key": "cars",
+     "label": "CLI-4E cars: zero-emission sales 45% 2030, 85% 2035, 100% 2040",
+     "world": {
+      "zevPath": {
+       "2030": 0.45,
+       "2035": 0.85,
+       "2040": 1.0
+      }
+     }
+    },
+    {
+     "key": "cars_trucks",
+     "label": "CLI-4E cars plus a heavy-truck schedule (10% 2032, 30% 2035, 65% 2040, 90% 2045; ASSUMED)",
+     "world": {
+      "zevPath": {
+       "2030": 0.45,
+       "2035": 0.85,
+       "2040": 1.0
+      },
+      "zevTrkPath": {
+       "2032": 0.1,
+       "2035": 0.3,
+       "2040": 0.65,
+       "2045": 0.9
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "price",
+   "label": "Carbon price path",
+   "options": [
+    {
+     "key": "d7",
+     "label": "D7 (decided)"
+    },
+    {
+     "key": "higher",
+     "label": "REV-C1H higher path from 2033 (approved Oct 26; pending integration)",
+     "price": "higher"
+    }
+   ]
+  },
+  {
+   "id": "grid",
+   "label": "Public grid delivery (CLI-10G)",
+   "options": [
+    {
+     "key": "off",
+     "label": "Off"
+    },
+    {
+     "key": "on",
+     "label": "On ($12B a year 2030-39, ASSUMED effect)",
+     "policy": {
+      "grid": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "wx",
+   "label": "Low-income heat-pump retrofits (CLI-5W)",
+   "options": [
+    {
+     "key": "off",
+     "label": "0.25 million homes a year (decided)"
+    },
+    {
+     "key": "on",
+     "label": "0.75 million homes a year",
+     "world": {
+      "wxHomes": 0.75
+     },
+     "external_cost_bn_2025": 67.5
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "label": "Clean-industry support (CLI-9 proxy)",
+   "options": [
+    {
+     "key": "off",
+     "label": "Decided (15% support)"
+    },
+    {
+     "key": "on",
+     "label": "Doubled (30%), cost from the model's industrial-support estimate",
+     "world": {
+      "crInd": 0.3
+     }
+    }
+   ]
+  },
+  {
+   "id": "process",
+   "label": "Fee on industrial process CO2 and N2O",
+   "options": [
+    {
+     "key": "off",
+     "label": "Off (decided)"
+    },
+    {
+     "key": "on",
+     "label": "On (REV-C1 option)",
+     "policy_cover": {
+      "process": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "methane",
+   "label": "Methane fee (REV-C3)",
+   "options": [
+    {
+     "key": "decided",
+     "label": "IRA charge reinstated with certified exemption (decided)"
+    },
+    {
+     "key": "x3",
+     "label": "Three times the carbon fee per ton CO2e with coal mines (option)",
+     "methane_x3": true
+    }
+   ]
+  },
+  {
+   "id": "coal",
+   "label": "Coal retirement (CLI-11)",
+   "options": [
+    {
+     "key": "off",
+     "label": "Model schedule (4 GW a year)"
+    },
+    {
+     "key": "on",
+     "label": "Securitized retirement, all coal out by 2032 (25 GW a year)",
+     "world": {
+      "coalSched": 25
+     }
+    }
+   ]
+  }
+ ],
+ "budget_caps_bn_2025": [
+  -400,
+  -200,
+  0,
+  150,
+  300,
+  500
+ ],
+ "bill_cap_2040_month": 3.0,
+ "off_model": {
+  "note": "Farms, forests and carbon removal (CLI-13) are outside the carbon model; these are planning estimates (Mt CO2e a year, 2025 dollars) added only where marked, never to the model rows.",
+  "items": [
+   {
+    "id": "ag",
+    "label": "Conditioned agricultural methane and nitrogen payments (CLI-13)",
+    "mt_2035": [
+     30,
+     60,
+     100
+    ],
+    "mt_2050": [
+     60,
+     110,
+     170
+    ],
+    "cost_bn_2030_39": [
+     10,
+     25,
+     50
+    ],
+    "basis": "estimate: enteric, manure and nitrogen practices at about $20-60 per ton on about 250-450 Mt abated over 2030-39; OBBBA moved IRA conservation money into the EQIP/CSP baseline without climate targeting (CRS IF13114)"
+   },
+   {
+    "id": "land",
+    "label": "Forests, sink protection and reforestation (CLI-13)",
+    "mt_2035": [
+     20,
+     50,
+     100
+    ],
+    "mt_2050": [
+     40,
+     90,
+     160
+    ],
+    "cost_bn_2030_39": [
+     10,
+     20,
+     35
+    ],
+    "basis": "estimate: reforestation and sink protection only; wildfire risk reduction is priced in the disaster package (D5)"
+   },
+   {
+    "id": "removal",
+    "label": "Federal carbon-removal purchases by reverse auction (CLI-13)",
+    "mt_2035": [
+     10,
+     25,
+     50
+    ],
+    "mt_2050": [
+     150,
+     300,
+     400
+    ],
+    "cost_bn_2030_39": [
+     20,
+     45,
+     90
+    ],
+    "basis": "estimate: purchases ramping to about 300 Mt a year by 2045-50; direct air capture projected at $230-540 a ton by 2050 (ETH Zurich 2024), cheaper biomass and mineral routes for part; about 150 Mt bought over 2030-39 at $150-600 a ton; most cost falls after 2039 (roughly $60-120B a year at 300 Mt)"
+   }
+  ]
+ },
+ "recommended": {
+  "credits": "standard_led",
+  "ces": "90by35_100by40",
+  "zev": "cars_trucks",
+  "price": "higher",
+  "grid": "on",
+  "wx": "on",
+  "industry": "on",
+  "process": "on",
+  "methane": "decided",
+  "coal": "off"
+ },
+ "diagnostics": [
+  {
+   "label": "Package A (with the approved $150-by-2037 price)",
+   "choice": {}
+  },
+  {
+   "label": "+ clean-heat standard proxy (heat-pump cost premium removed from 2032)",
+   "choice": {},
+   "world": {
+    "hpPrem": 0
+   }
+  },
+  {
+   "label": "+ clean-industry support raised to 50%",
+   "choice": {},
+   "world": {
+    "hpPrem": 0,
+    "crInd": 0.5
+   }
+  },
+  {
+   "label": "+ price path to $200 by 2037",
+   "choice": {},
+   "world": {
+    "hpPrem": 0,
+    "crInd": 0.5
+   },
+   "price": {
+    "through_2032": "D7",
+    "price_2037_nominal": 200,
+    "growth_after": 0.05
+   }
+  },
+  {
+   "label": "+ coal out by 2032",
+   "choice": {
+    "coal": "on"
+   },
+   "world": {
+    "hpPrem": 0,
+    "crInd": 0.5
+   },
+   "price": {
+    "through_2032": "D7",
+    "price_2037_nominal": 200,
+    "growth_after": 0.05
+   }
+  }
+ ]
+}

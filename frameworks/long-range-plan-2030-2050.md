@@ -1,6 +1,6 @@
 # Project 2050: long-range plan, 2030-2050
 
-Reasoning and a work plan, not decided policy (frameworks/). Drafted Oct 21, 2026 at Espen's request, as the "synthesis plan document" on the open queue. Decisions stay Espen's; each workstream below ends in options for him.
+Reasoning and a work plan, not decided policy (frameworks/). Drafted Oct 21, 2026 at Espen's request, as the "synthesis plan document" on the open queue. Decisions stay Espen's; each workstream below ends in options for them.
 
 ## Why a longer view now
 
