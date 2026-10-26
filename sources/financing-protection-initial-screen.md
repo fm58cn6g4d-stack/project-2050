@@ -1,5 +1,7 @@
 # Contribution and protection: initial screen
 
+Start with the [revenue-rebalancing decision plan](revenue-rebalancing-and-sustainable-agenda.md) for the current direction and reading map.
+
 October 26. Exploratory first step after PR #22 integration; no tax schedule selected. Source main aa8552d, with the capacity-integration changes. Reproduce after the common build with `python3 index/tools/financing-protection/screen.py`; [JSON results](financing-protection-screen.json). The [recovery method](../index/tools/recovery-budget/README.md) and its source references apply. This screen introduces no new external evidence.
 
 The first finding is that raising the universal credit alone is a costly and incomplete answer. Removing the broad income contribution helps Q4 but weakens the debt path. Raising the so-called high-income contribution can also reach Q4: its threshold is $100,000 single/$200,000 joint in 2025 dollars, not a millionaires-only tax. The inherited distribution keys are rough; these are diagnostics rather than household guarantees.

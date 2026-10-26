@@ -52,3 +52,6 @@ Codex branch `codex/capacity-integration`, from aa8552d: applies PR #22's $250B 
 
 
 October 26 steering: establish the revenue-rebalancing envelope first, then compare sustainable spending packages. Espen reserves the final strategic downsizing decision. PR #23 is open with a proposed capacity surge reduction; Codex has posted a focused scope/accounting review, and its cuts are not adopted. Financing screen now includes zero additional broad/upper-income contribution cases while retaining already-modeled corporate/wealth reforms and dedicated financing; these are starting diagnostics, not completed alternative tax packages.
+
+
+Maintained financing reading entry: [Revenue rebalancing and a sustainable governing agenda](revenue-rebalancing-and-sustainable-agenda.md). Defines the three revenue cases, six overlap clusters, usable-envelope calculation and three spending-package comparisons. No spending reductions selected.
