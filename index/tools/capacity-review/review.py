@@ -30,6 +30,7 @@ LAGS = (1, 2)   # years before an enforcement dollar yields; bounds the back-loa
 
 
 AGENCIES = []
+layers = {}   # (envelope, layer) -> [low, mid, high] in FY2030-39 nominal $B
 
 
 def factor(y, ramp=None):
@@ -53,10 +54,11 @@ def load():
     out = {a: {'surge': z(), 'rate': z(), 'enf_rate': z(), 'cash29': z(), 'oblig29': z(), 'unpriced': [],
                'path': zp(), 'enf_path': zp()} for a in AGENCIES}
     fees = {}
+    layers.clear()
     for r in rows:
         a, env = r['agency'], r['envelope']
         mid = num(r['value'])
-        if env == 'program_row':
+        if env in ('program_row', 'new_program'):
             fees[r['component']] = (num(r['low']), mid, num(r['high']), r['unit'])
             continue
         if mid is None:
@@ -69,12 +71,22 @@ def load():
             keys = keys + ['enf_rate']
         for key in keys:
             out[a][key] = [s + v for s, v in zip(out[a][key], trio)]
+        if env in ('surge', 'sustained'):
+            lay = layers.setdefault((env, r.get('layer') or 'agenda'), [0, 0, 0])
+            for i in range(3):
+                lay[i] += trio[i] if env == 'surge' else trio[i] * sum(factor(y, parse_ramp(r.get('ramp', ''))) for y in YEARS)
         if env == 'sustained':
             ramp = parse_ramp(r.get('ramp', ''))
             for pk in ['path'] + (['enf_path'] if r.get('revenue_role') == 'enforcement' else []):
                 for y in YEARS:
                     out[a][pk][y] = [s + v * factor(y, ramp) for s, v in zip(out[a][pk][y], trio)]
     return out, fees
+
+
+def boundaries():
+    """Every cost kept out of capacity, and the ones whose home row has no price."""
+    rows = [r for r in csv.DictReader(open(CSV)) if r['row_type'] == 'boundary']
+    return {'rows': len(rows), 'unpriced': [f"{r['agency']}: {r['component']}" for r in rows if r.get('priced') == 'no']}
 
 
 def lagged_yield(path, ratio, lag):
@@ -111,7 +123,8 @@ def main():
     path = {y: round(sum(data[a]['path'][y][1] for a in AGENCIES), 2) for y in YEARS}
     out = {'agencies': res, 'totals': tot, 'envelopes_bn': {'surge': surge_env, 'sustained': sust_env},
            'remainder_bn': {'surge': surge_env - tot['surge'][1], 'sustained': sust_env - tot['sustained'][1]},
-           'g8': g8, 'fy2029_bn': fy29, 'program_row_fees': fees, 'sustained_path_mid_bn': path, 'factor_sum': fsum}
+           'g8': g8, 'fy2029_bn': fy29, 'layers_bn': {f'{e}/{l}': v for (e, l), v in layers.items()},
+           'boundaries': boundaries(), 'program_row_fees': fees, 'sustained_path_mid_bn': path, 'factor_sum': fsum}
     if '--json' in sys.argv:
         print(json.dumps(out, indent=1, default=str))
         return
@@ -132,8 +145,11 @@ def main():
         print(f"Enforcement funding needed for ${t} at these ratios (no extra lag): ${d['high']:.0f}-{d['low']:.0f}B.")
     c, o = fy29['cash29'], fy29['oblig29']
     print(f"\nFY2029, reviewed agencies (small agencies omitted, under $0.1B): cash {f(c)}; obligations {f(o)}; against the $10B of surge cash shifted to FY2029.")
+    print('\nBy layer, FY2030-39: ' + '; '.join(f'{e} {l} {v[1]:.1f} ({v[0]:.1f}-{v[2]:.1f})' for (e, l), v in sorted(layers.items())))
     for k, (l, m, h, u) in fees.items():
         print(f"Program row: {k}: {m} {u}" + (f" ({l}-{h})" if l is not None else ''))
+    b = out['boundaries']
+    print(f"\nBoundary ledger: {b['rows']} excluded items; unpriced: " + '; '.join(b['unpriced']))
     print('\nSustained path for all reviewed agencies, midpoint, $B nominal: ' + ', '.join(f'FY{k} {v}' for k, v in path.items()))
 
 
