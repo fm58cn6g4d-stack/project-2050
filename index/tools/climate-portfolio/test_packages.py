@@ -1,4 +1,4 @@
-"""Checks for the package search and pricing. Run after `bash index/tools/run-all.sh` and `packages.py`:
+"""Checks for the package search and pricing. Run after `bash index/tools/run-all.sh` (rebuilds the package and pricing outputs if missing):
 python3 index/tools/climate-portfolio/test_packages.py
 """
 import json, sys
@@ -6,6 +6,10 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
+for script, out in (('packages.py', 'climate-portfolio-packages.json'), ('pricing.py', 'climate-portfolio-pricing.json')):
+    if not (ROOT / 'build/climate-portfolio' / out).exists():   # run-all.sh clears build/, so rebuild what the checks read
+        import subprocess
+        subprocess.run([sys.executable, str(HERE / script)], check=True, capture_output=True)
 d = json.loads((ROOT / 'build/climate-portfolio/climate-portfolio-packages.json').read_text())
 a = json.loads((HERE / 'packages.json').read_text())
 R = {tuple(sorted(r['choice'].items())): r for r in d['results']}
