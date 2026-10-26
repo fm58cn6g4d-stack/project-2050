@@ -10,7 +10,8 @@ After the October 24 consolidation, **`main` is the integration branch**. Fetch 
 2. [Governing decisions](governing/project-2050-governing-decisions.md): adopted D1–D9 and design rules.
 3. [Shared instructions](governing/project-instructions.md): source roles, approvals, Git workflow and completion.
 4. [Current work queue](sources/project-work-queue.md): completed work, next assignments and decision/evidence gates.
-5. [Codex handoff](governing/codex-handoff.md): opening instructions and first bounded task.
+5. [Returning-agent handoff](governing/codex-handoff.md): recovery entry and live assignments; the old health startup task is retired.
+6. [Collaboration strategy](governing/project-collaboration.md): complementary assignments, file ownership and independent review; [Claude return message](sources/claude-code-reentry-2026-10-26.md).
 
 `AGENTS.md`, `CLAUDE.md` and `GEMINI.md` point agents to the same guidance. Chats and research sessions remain useful; substantive results return through reviewed repository changes. [File exchange](governing/project-file-exchange.md) explains reliable text export, Library recovery and cross-agent handoffs.
 
