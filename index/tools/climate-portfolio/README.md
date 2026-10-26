@@ -10,6 +10,7 @@ Files:
 - `packages.json` and `packages.py`: every combination of the ten levers (4,608 packages); best package per budget and bill cap, the cost/abatement frontier, layering inside the recommended package, weak-delivery and 2037-repeal stress tests, ambition diagnostics and the off-model CLI-13 estimates. Writes `sources/climate-portfolio-packages.{md,json}`.
 - `pricing.json` and `pricing.py`: grid financing windows (grants, direct loans, capacity contracts), the credit redesign in ledger terms, LMI bill protection, the disaster preparedness and response package, and the whole-package budget by D4 class. Writes `sources/climate-portfolio-pricing.{md,json}` and `sources/climate-portfolio-disaster-components.csv`.
 - `test_packages.py`: checks for the search and pricing.
+- `international.json`, `international.py` and `test_international.py`: verified international mitigation, loss-and-damage and adaptation finance against the 2035 gap left after Package A. Writes `sources/climate-portfolio-international-pricing.{md,json}`.
 
 Run from the repository root (needs Python 3 and node):
 
