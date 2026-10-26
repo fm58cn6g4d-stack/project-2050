@@ -41,12 +41,27 @@ def main():
     ten_nom = tri(lambda i: sum(cost35[i] * share[y] * defl(y) for y in W10) / 1000)
     tons10 = tri(lambda i: sum(vol[i] * share[y] for y in W10) / 1000)
     pts = tri(lambda i: vol[i] / base)
+    floor = a['domestic_floor']
+    dg = pk['diagnostics']; fm = a['floor_measures']
+    fm_pts = dg[fm['diagnostic_to']]['net_ghg_below_2005_2035'] - dg[fm['diagnostic_from']]['net_ghg_below_2005_2035']
+    fm_cost = dg[fm['diagnostic_to']]['outlays_bn_2025_2030_39'] - dg[fm['diagnostic_from']]['outlays_bn_2025_2030_39']
+    fm_bill = dg[fm['diagnostic_to']]['bill_change_month_2040'] - dg[fm['diagnostic_from']]['bill_change_month_2040']
+    dom_fm = tri(lambda i: dom_pts[i] + fm_pts)
+    counted = lambda dom, i: pts[i] if dom[i] >= floor else 0.0          # threshold rule
+    total_no_fm = tri(lambda i: dom_pts[i] + counted(dom_pts, i))
+    total_fm = tri(lambda i: dom_fm[i] + counted(dom_fm, i))
+    ldad_run = tri(lambda i: (a['loss_and_damage']['annual_bn'][i] + a['adaptation']['annual_bn'][i]))
     ld = a['loss_and_damage']['annual_bn']; ad = a['adaptation']['annual_bn']
     ld10 = tri(lambda i: ld[i] * 10); ad10 = tri(lambda i: ad[i] * 10)
     per_source = [dict(id=s['id'], label=s['label'], mt_2035=s['mt_2035'], price=s['price'],
                        cost_2035_bn=tri(lambda i: s['mt_2035'][i] * s['price'][i] / 1000 * (1 + a['buffer_share'][i])), basis=s['basis']) for s in srcs]
     data = dict(package_a_2035=rec['net_ghg_below_2005_2035'], cli13_mt_2035=cli13, domestic_2035=dom_pts, gap_mt_2035=gap,
                 volume_mt_2035=vol, points_2035=pts, total_2035=tri(lambda i: dom_pts[1] + pts[i]),
+                domestic_floor=floor, floor_measures=dict(label=fm['label'], points_2035=fm_pts, outlays_bn_2025_2030_39=fm_cost, bill_2040_month=fm_bill),
+                domestic_with_floor_measures_2035=dom_fm, floor_met_without_measures=[d >= floor for d in dom_pts], floor_met_with_measures=[d >= floor for d in dom_fm],
+                counted_total_without_measures_2035=total_no_fm, counted_total_with_measures_2035=total_fm,
+                ld_adaptation_run_rate_bn_2025=ldad_run, ld_adaptation_fy2040_nominal_bn=[x * (1 + a['inflation']) ** 15 for x in ldad_run],
+                ld_adaptation_fy2050_nominal_bn=[x * (1 + a['inflation']) ** 25 for x in ldad_run],
                 cost_2035_bn=cost35, avg_price=avg_price, cost_2030_39_bn=ten, cost_2030_39_nominal_tn=ten_nom, tons_2030_39_gt=tons10,
                 loss_and_damage_2030_39_bn=ld10, adaptation_2030_39_bn=ad10, sources=per_source,
                 source_sha256={p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in SOURCES})
@@ -80,10 +95,19 @@ def report(a, d):
         L.append(f"| {s['label']} | {r3(s['mt_2035'])} | {r3(s['price'])} | {r3(s['cost_2035_bn'], 1)} | {s['basis']} |")
     L += ['', f"**Together:** {r3(d['volume_mt_2035'])} Mt in 2035 ({r3([100*x for x in d['points_2035']], 1)} points of the 2005 baseline), "
           f"at an average {r3(d['avg_price'])} $/t including the integrity reserve ({r3([100*x for x in a['buffer_share']])}%). "
-          f"Cost in 2035: {r3(d['cost_2035_bn'], 1)} $B. Combined with domestic action at the mid case: {r3([100*x for x in d['total_2035']], 1)}% below 2005.", '',
+          f"Cost in 2035: {r3(d['cost_2035_bn'], 1)} $B.", '',
+          '## The 50% domestic floor', '',
+          f"Rule: {a['floor_rule']}", '',
+          f"- Domestic 2035 (Package A plus CLI-13): {r3([100*x for x in d['domestic_2035']], 1)}%. Floor met: {' / '.join('yes' if f else 'no' for f in d['floor_met_without_measures'])}. "
+          f"Counted total: {r3([100*x for x in d['counted_total_without_measures_2035']], 1)}%.",
+          f"- With the floor measures ({d['floor_measures']['label']}: +{100*d['floor_measures']['points_2035']:.2f} points in 2035, {d['floor_measures']['outlays_bn_2025_2030_39']:+.0f} $B outlays over 2030-39 in 2025 dollars, "
+          f"{d['floor_measures']['bill_2040_month']:+.2f} $/month on the 2040 bill): domestic {r3([100*x for x in d['domestic_with_floor_measures_2035']], 1)}%; floor met: "
+          f"{' / '.join('yes' if f else 'no' for f in d['floor_met_with_measures'])}; counted total {r3([100*x for x in d['counted_total_with_measures_2035']], 1)}%.",
+          f"- {a['taper_note']}", '',
           f"**2030-39**, ramping from 10% of the 2035 volume in 2030: {r3(d['tons_2030_39_gt'], 1)} Gt bought for {r3(d['cost_2030_39_bn'])} $B (2025 dollars), "
           f"{r3(d['cost_2030_39_nominal_tn'], 3)} $T nominal.", '',
-          f"**Beside it, counted as climate finance but never toward emissions:** loss and damage {r3(d['loss_and_damage_2030_39_bn'])} $B and adaptation above DEV-P {r3(d['adaptation_2030_39_bn'])} $B over 2030-39.", '',
+          f"**Beside it, counted as climate finance but never toward emissions:** loss and damage {r3(d['loss_and_damage_2030_39_bn'])} $B and adaptation above DEV-P {r3(d['adaptation_2030_39_bn'])} $B over 2030-39. "
+          f"As standing commitments they are permanent under D4: about {r3(d['ld_adaptation_fy2040_nominal_bn'], 1)} $B in FY2040 and {r3(d['ld_adaptation_fy2050_nominal_bn'], 1)} $B in FY2050 (nominal), to add to the maturity test beside the climate package's run rate.", '',
           f"Context: {a['climate_finance_context']}. {a['domestic_marginal_reference']}.", '',
           '## Reproduction', '', '`python3 index/tools/climate-portfolio/international.py --write` (reads the committed package results).', '',
           'Source hashes (SHA-256):', ''] + [f"- `{p}`: `{h}`" for p, h in d['source_sha256'].items()]

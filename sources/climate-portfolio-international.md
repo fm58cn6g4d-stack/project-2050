@@ -14,7 +14,11 @@
   - about **$15.6B in 2035**;
   - about **$114B over 2030-39** (2025 dollars; $0.14T nominal).
 
-  That adds about **8 points** to the 2035 result: about **57%** below 2005, against about 50% from domestic action alone. Reaching 61% needs about 750 Mt, which only the high-supply case reaches. Reaching 66% needs about 1.1 Gt.
+  That adds about **8 points** to the 2035 result. Under Espen's 50% domestic floor, though, international tons count only once domestic action reaches 50% below 2005.
+  - **Without extra domestic steps:** domestic action reaches 49.6% in the mid case, just short of the floor, so none of the international tons count.
+  - **With two added domestic steps** (a clean-heat standard and clean-industry support raised to 50%): domestic action reaches about 50.2%, and the counted total is about **58%** below 2005. The two steps add about 0.65 points in 2035, cost about $79B in outlays over 2030-39 (2025 dollars) and add about $1 a month to the 2040 bill.
+
+  Reaching 61% needs about 750 Mt, which only the high-supply case reaches. Reaching 66% needs about 1.1 Gt.
 - **Against domestic action:** beyond Package A, the next domestic steps add about one point in 2035 for about $160B of outlays plus higher bills. The 2035 gap is mostly about how slowly vehicles, furnaces and plants get replaced, which money can't speed up much in nine years. International purchases are roughly ten times cheaper per 2035 point.
 
 Your instinct that development aid will increasingly be organized around climate fits the evidence. The cheapest international tons (oil and gas methane, forests, early coal retirement) are also energy-security, public-health and rural-livelihood programs.
@@ -33,7 +37,7 @@ Your instinct that development aid will increasingly be organized around climate
 4. **The US has left the treaty system.**
    - The Paris withdrawal took effect January 27, 2026.
    - A January 7, 2026 memorandum ordered withdrawal from the UNFCCC itself. Its withdrawal article takes effect one year after notice, so probably early 2027; I could not confirm the date.
-   - Article 6 transfers count toward a national target only for a Party. Rejoining Paris takes 30 days once the US is again a UNFCCC Party. Whether a president can rejoin the UNFCCC without a new Senate vote is legally contested, because the Senate consented in 1992.
+   - Article 6 transfers count toward a national target only for a Party. Rejoining Paris takes 30 days once the US is again a UNFCCC Party. UNFCCC accession takes 90 days, so instruments deposited together give Paris effect after about 90 days. Whether a president can rejoin the UNFCCC without a new Senate vote is legally contested, because the Senate consented in 1992.
    - Until then, purchases can still be contracted, and hosts can still make corresponding adjustments for them, but they count only under the project's own benchmark accounting, not a UN-recognized target.
 
 ## Recommended design: three windows under NSC-9
@@ -48,7 +52,7 @@ Your instinct that development aid will increasingly be organized around climate
   - Clawback for reversals; an integrity reserve.
   - Public reporting of domestic and international tons separately.
 - **Size:** about 510 Mt a year by 2035 (225-980), ramping from about 50 Mt in 2030. That is about $15.6B in 2035 ($3.6-60B) and $114B over 2030-39 ($26-437B).
-- **Counting rule (proposed):** international tons count toward the 2035 benchmark only above a domestic floor of 50% below 2005, which is roughly what Package A plus CLI-13 achieves. They do not count toward the 2050 net-zero goal, which is met at home with removals. After 2035, purchases taper as domestic cuts and removals grow.
+- **Counting rule (decided by Espen; applied as a threshold):** international tons count toward the 2035 benchmark only when domestic reductions reach at least 50% below 2005. Package A plus CLI-13 reaches 49.6% in the mid case, so the floor measures above are needed. International tons do not count toward the 2050 net-zero goal, which is met at home with removals. After 2035, purchases taper as domestic cuts and removals grow. The pricing holds the full 2035 volume through 2039, which is conservative for cost.
 
 **2. Loss and damage (climate finance, never emissions).** A US contribution of about $1-3B a year (about $20B over 2030-39) to the Fund for Responding to Loss and Damage.
 - The fund had about $768M pledged from 28 countries, $250M available against up to $3B of requests, and first disbursements slipping to the end of 2026.
@@ -68,7 +72,7 @@ Your instinct that development aid will increasingly be organized around climate
 
 **Financing, after the corrected PR #26 budget.** The reviews of PR #26 established the rule under D7: 80% of added carbon receipts go to the dividend, and the general fund bears a 25% tax offset. Carbon receipts are therefore not free money.
 - **Mitigation results (about $0.14T nominal mid).** After clean-industry contracts and forests, only about $49B of the transition share remains (central case). So results purchases need one of these:
-  - Espen's option 3 from the allocation file: keeping process-emissions receipts outside the dividend frees about $198B over 2030-39, enough for the mid case.
+  - Espen's option 3 from the allocation file: keeping process-emissions receipts outside the dividend frees about $198B over 2030-39. The same $198B is also a candidate for the climate package's own general-fund cost (about $89B central, PR #26). The two uses compete: together they need about $233B, so about $35B would still need a general-fund source.
   - A general-fund source in the revenue work.
   - The leftover transition share plus a smaller purchase volume, about 200 Mt in 2035 (about 53% overall).
 - **Loss and damage and adaptation (about $0.07T nominal).** General fund, as ten-year commitments. D4 treats a standing commitment as permanent and paid for at maturity; making them time-limited would need a renewal vote. Part could come from REV-C2's border adjustment, a "carbon club" design in which partners that price carbon are exempt.
@@ -100,7 +104,7 @@ Your instinct that development aid will increasingly be organized around climate
 3. **Treaties:** "yes rejoin paris, and rejoin UNFCCC if withdrawal has occurred by then (or halt withdrawal if in progress)."
 
 **Decided under the delegation: scale.** The most defensible choice is **the mid case as the contracted plan, with a conditional route toward 61%.**
-- **Contract for the mid case.** That is about 510 Mt a year by 2035 (about 57% below 2005 with domestic action), at about $31 a ton including the integrity reserve: about $15.6B in 2035 and $114B over 2030-39 (2025 dollars).
+- **Contract for the mid case.** That is about 510 Mt a year by 2035, at about $31 a ton including the integrity reserve: about $15.6B in 2035 and $114B over 2030-39 (2025 dollars). With the floor measures it gives a counted total of about 58% below 2005; without them, none of the international tons count in the mid case.
 - **Why not plan on 61% now.** The Article 6 market has delivered about 65,000 tons in total. Most legacy credits overstated their results. The 750 Mt case needs every source near its high end. Planning on it would make the 2035 claim depend on volumes no one has yet shown can be delivered with integrity.
 - **The conditional route.** Purchases scale toward about 750 Mt (61%) only if independently verified deliveries reach at least 250 Mt a year by 2032 with reversals under 5%. If they do, contract authority rises to fund the extra tons, about $10-15B more a year by 2035, subject to financing.
 - **If deliveries fall short,** the plan reports the shortfall rather than counting weaker credits.
@@ -120,7 +124,7 @@ Your instinct that development aid will increasingly be organized around climate
 - purchase contracts under contract authority;
 - the scale rule above.
 
-**Still open for Espen:** how to finance the results purchases. They depend on his pending decision on the carbon-fee increment (keeping process-emissions receipts outside the dividend would cover the mid case) or on a general-fund source. Loss and damage and adaptation are general-fund items.
+**Still open for Espen:** how to finance the results purchases. They depend on his pending decision on the carbon-fee increment (keeping process-emissions receipts outside the dividend would cover the mid case) or on a general-fund source. Loss and damage and adaptation are general-fund items. As standing commitments they are permanent under D4, about $8B in FY2040 and $10B in FY2050 (nominal, mid), and belong in the maturity test beside the climate package's run rate.
 
 ## Limits
 

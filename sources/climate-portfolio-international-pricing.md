@@ -18,11 +18,19 @@
 | Article 6.2 programs: renewables, efficiency, e-mobility and industry, bilateral with corresponding adjustments | 20 / 50 / 100 | 30 / 40 / 60 | 0.7 / 2.5 / 8.4 | sourced: Switzerland's bilateral purchases about $36 a ton; vendor indications $30-50. As of May 2026, 128 bilateral agreements but only five completed transfers (65,000 ITMOs): the market barely exists yet |
 | Durable removals abroad (biochar, mineral weathering, direct air capture) | 5 / 10 / 30 | 100 / 150 / 250 | 0.6 / 1.9 / 10.5 | estimate: durable removal prices remain $100s a ton; direct air capture projected at $230-540 a ton by 2050 (ETH Zurich 2024) |
 
-**Together:** 225 / 510 / 980 Mt in 2035 (3.4 / 7.8 / 15.0 points of the 2005 baseline), at an average 16 / 31 / 61 $/t including the integrity reserve (10 / 25 / 40%). Cost in 2035: 3.6 / 15.6 / 59.8 $B. Combined with domestic action at the mid case: 53.0 / 57.4 / 64.6% below 2005.
+**Together:** 225 / 510 / 980 Mt in 2035 (3.4 / 7.8 / 15.0 points of the 2005 baseline), at an average 16 / 31 / 61 $/t including the integrity reserve (10 / 25 / 40%). Cost in 2035: 3.6 / 15.6 / 59.8 $B.
+
+## The 50% domestic floor
+
+Rule: Threshold: international results count toward the 2035 benchmark only when domestic net reductions (Package A plus CLI-13) reach at least 50% below 2005 in that case; otherwise none count (Espen, Oct 26: 'above a 50% domestic floor').
+
+- Domestic 2035 (Package A plus CLI-13): 48.4 / 49.6 / 51.3%. Floor met: no / no / yes. Counted total: 48.4 / 49.6 / 66.3%.
+- With the floor measures (clean-heat standard plus clean-industry support raised to 50% (packages.py diagnostics, steps 2-3): +0.65 points in 2035, +79 $B outlays over 2030-39 in 2025 dollars, +1.03 $/month on the 2040 bill): domestic 49.1 / 50.2 / 52.0%; floor met: no / yes / yes; counted total 49.1 / 58.0 / 67.0%.
+- Pricing holds the full 2035 volume through 2039 (conservative for cost); the design tapers purchases after 2035 as domestic cuts and removals grow.
 
 **2030-39**, ramping from 10% of the 2035 volume in 2030: 1.6 / 3.7 / 7.2 Gt bought for 26 / 114 / 437 $B (2025 dollars), 0.033 / 0.144 / 0.552 $T nominal.
 
-**Beside it, counted as climate finance but never toward emissions:** loss and damage 10 / 20 / 30 $B and adaptation above DEV-P 20 / 40 / 60 $B over 2030-39.
+**Beside it, counted as climate finance but never toward emissions:** loss and damage 10 / 20 / 30 $B and adaptation above DEV-P 20 / 40 / 60 $B over 2030-39. As standing commitments they are permanent under D4: about 4.2 / 8.3 / 12.5 $B in FY2040 and 5.2 / 10.3 / 15.5 $B in FY2050 (nominal), to add to the maturity test beside the climate package's run rate.
 
 Context: sourced: COP29's new goal is at least $300B a year by 2035 from developed countries; ODI puts a U.S. fair share at about 45% of developed-country obligations (that share counts public and mobilized private and multilateral money). WRI put the U.S. share of the earlier $100B goal at 40-47%. From sources/climate-portfolio-packages.json diagnostics: beyond Package A, the next domestic steps (clean-heat standard, 50% industrial support, a $200 price, coal by 2032) add about one point in 2035 for about $160B more outlays over 2030-39 and several dollars a month on bills.
 
@@ -32,6 +40,6 @@ Context: sourced: COP29's new goal is at least $300B a year by 2035 from develop
 
 Source hashes (SHA-256):
 
-- `index/tools/climate-portfolio/international.py`: `cf50e9b23a7eeaccbccc36e0f33de11b62b26939f990a478148a01b2ad337a77`
-- `index/tools/climate-portfolio/international.json`: `f1944e67b8c321f591dd17f6106f7af434d89efdee788e4a8571b97747605ad8`
+- `index/tools/climate-portfolio/international.py`: `aa97dbe285ad625426047dc1f482e786b7b776fed57c2144e60970ca096ecac4`
+- `index/tools/climate-portfolio/international.json`: `8c86986883ce89e33c86b111606f8cc4dc89f287cb9793a1de70997f625ecaa2`
 - `sources/climate-portfolio-packages.json`: `0ee70e15b68df00c0bfe3a977d473a20b79ea5b965edebd86887f4105ec1fb9d`

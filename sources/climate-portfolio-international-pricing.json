@@ -29,10 +29,42 @@
   15.625,
   59.849999999999994
  ],
+ "counted_total_with_measures_2035": [
+  0.4907107617877361,
+  0.5802150457534644,
+  0.6697193297191926
+ ],
+ "counted_total_without_measures_2035": [
+  0.4841851421116927,
+  0.4956600503124271,
+  0.6631937100431492
+ ],
  "domestic_2035": [
   0.4841851421116927,
   0.4956600503124271,
   0.5132549095535531
+ ],
+ "domestic_floor": 0.5,
+ "domestic_with_floor_measures_2035": [
+  0.4907107617877361,
+  0.5021856699884705,
+  0.5197805292295965
+ ],
+ "floor_measures": {
+  "bill_2040_month": 1.0312845168716707,
+  "label": "clean-heat standard plus clean-industry support raised to 50% (packages.py diagnostics, steps 2-3)",
+  "outlays_bn_2025_2030_39": 78.67766209238991,
+  "points_2035": 0.0065256196760433705
+ },
+ "floor_met_with_measures": [
+  false,
+  true,
+  true
+ ],
+ "floor_met_without_measures": [
+  false,
+  false,
+  true
  ],
  "gap_mt_2035": {
   "61%": [
@@ -46,6 +78,21 @@
    1149.1259111579766
   ]
  },
+ "ld_adaptation_fy2040_nominal_bn": [
+  4.158001979021274,
+  8.316003958042549,
+  12.474005937063824
+ ],
+ "ld_adaptation_fy2050_nominal_bn": [
+  5.168846674185842,
+  10.337693348371683,
+  15.506540022557525
+ ],
+ "ld_adaptation_run_rate_bn_2025": [
+  3.0,
+  6.0,
+  9.0
+ ],
  "loss_and_damage_2030_39_bn": [
   10.0,
   20.0,
@@ -58,8 +105,8 @@
   0.1499388004895961
  ],
  "source_sha256": {
-  "index/tools/climate-portfolio/international.json": "f1944e67b8c321f591dd17f6106f7af434d89efdee788e4a8571b97747605ad8",
-  "index/tools/climate-portfolio/international.py": "cf50e9b23a7eeaccbccc36e0f33de11b62b26939f990a478148a01b2ad337a77",
+  "index/tools/climate-portfolio/international.json": "8c86986883ce89e33c86b111606f8cc4dc89f287cb9793a1de70997f625ecaa2",
+  "index/tools/climate-portfolio/international.py": "aa97dbe285ad625426047dc1f482e786b7b776fed57c2144e60970ca096ecac4",
   "sources/climate-portfolio-packages.json": "0ee70e15b68df00c0bfe3a977d473a20b79ea5b965edebd86887f4105ec1fb9d"
  },
  "sources": [

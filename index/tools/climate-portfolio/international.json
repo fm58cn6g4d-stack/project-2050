@@ -1,28 +1,126 @@
 {
-  "note": "International climate finance options for the 2035 benchmark: what verified mitigation abroad could add, at what cost, and how loss-and-damage and adaptation money sit beside it. 2025 dollars; ranges low / mid / high; planning estimates unless marked sourced. Nothing here is a canonical input.",
-  "inflation": 0.022,
-  "net_ghg_2005_mt": 6536,
-  "benchmark_2035": [0.61, 0.66],
-  "domestic_source": "sources/climate-portfolio-packages.json: robustness row 'recommended' (Package A as approved), central case, net GHG below 2005 in 2035; plus CLI-13 off-model mid",
-  "ramp": {"2030": 0.10, "2031": 0.28, "2032": 0.46, "2033": 0.64, "2034": 0.82},
-  "buffer_share": [0.10, 0.25, 0.40],
-  "buffer_basis": "estimate: an integrity reserve, buying extra verified tons or paying for third-party measurement, because ex-post studies find most legacy offset credits overstate reductions (Probst et al., Nature Communications 15:9562, 2024: under 16% of claimed reductions real across 2,346 projects; 11% cookstoves, 25% avoided deforestation, 68% HFC-23). Only results measured after the fact are paid for here; project-based credits from legacy offset programs are excluded",
-  "sources": [
-    {"id": "methane", "label": "Oil, gas and coal-mine methane abroad: results payments to producers and regulators, verified by satellite and measurement", "mt_2035": [100, 200, 350], "price": [8, 15, 25],
-     "basis": "estimate: the IEA finds about 70% of fossil methane (nearly 85 Mt CH4, roughly 2.4 Gt CO2e) abatable with existing technology and about 30% (35 Mt CH4) at no net cost at 2025 prices (Global Methane Tracker 2026). Payments buy speed and verification where capital, not price, is the barrier; no-cost tons raise additionality questions, so they need jurisdiction-wide baselines"},
-    {"id": "forests", "label": "Jurisdictional forest results (national or state programs, ART-TREES style), with Indigenous and local community safeguards", "mt_2035": [50, 150, 300], "price": [12, 20, 35],
-     "basis": "sourced range: LEAF Coalition purchases jurisdictional credits, reported $10 a ton floor; Nepal's January 2026 agreement is up to 4 Mt for up to $55M (about $14 a ton); Ghana and Costa Rica (2023) over $60M. Jurisdictional accounting addresses leakage better than project credits; permanence needs buffers"},
-    {"id": "coal", "label": "Early coal retirement and grid results contracts (Energy Transition Mechanism and JETP style)", "mt_2035": [50, 100, 200], "price": [15, 30, 50],
-     "basis": "estimate: ADB's first ETM deal (Cirebon-1, 660 MW) targets retirement in 2035 instead of 2042 and up to 30 Mt avoided over 15 years; its financial terms are undisclosed"},
-    {"id": "itmo", "label": "Article 6.2 programs: renewables, efficiency, e-mobility and industry, bilateral with corresponding adjustments", "mt_2035": [20, 50, 100], "price": [30, 40, 60],
-     "basis": "sourced: Switzerland's bilateral purchases about $36 a ton; vendor indications $30-50. As of May 2026, 128 bilateral agreements but only five completed transfers (65,000 ITMOs): the market barely exists yet"},
-    {"id": "removals", "label": "Durable removals abroad (biochar, mineral weathering, direct air capture)", "mt_2035": [5, 10, 30], "price": [100, 150, 250],
-     "basis": "estimate: durable removal prices remain $100s a ton; direct air capture projected at $230-540 a ton by 2050 (ETH Zurich 2024)"}
+ "note": "International climate finance options for the 2035 benchmark: what verified mitigation abroad could add, at what cost, and how loss-and-damage and adaptation money sit beside it. 2025 dollars; ranges low / mid / high; planning estimates unless marked sourced. Nothing here is a canonical input.",
+ "inflation": 0.022,
+ "net_ghg_2005_mt": 6536,
+ "benchmark_2035": [
+  0.61,
+  0.66
+ ],
+ "domestic_source": "sources/climate-portfolio-packages.json: robustness row 'recommended' (Package A as approved), central case, net GHG below 2005 in 2035; plus CLI-13 off-model mid",
+ "ramp": {
+  "2030": 0.1,
+  "2031": 0.28,
+  "2032": 0.46,
+  "2033": 0.64,
+  "2034": 0.82
+ },
+ "buffer_share": [
+  0.1,
+  0.25,
+  0.4
+ ],
+ "buffer_basis": "estimate: an integrity reserve, buying extra verified tons or paying for third-party measurement, because ex-post studies find most legacy offset credits overstate reductions (Probst et al., Nature Communications 15:9562, 2024: under 16% of claimed reductions real across 2,346 projects; 11% cookstoves, 25% avoided deforestation, 68% HFC-23). Only results measured after the fact are paid for here; project-based credits from legacy offset programs are excluded",
+ "sources": [
+  {
+   "id": "methane",
+   "label": "Oil, gas and coal-mine methane abroad: results payments to producers and regulators, verified by satellite and measurement",
+   "mt_2035": [
+    100,
+    200,
+    350
+   ],
+   "price": [
+    8,
+    15,
+    25
+   ],
+   "basis": "estimate: the IEA finds about 70% of fossil methane (nearly 85 Mt CH4, roughly 2.4 Gt CO2e) abatable with existing technology and about 30% (35 Mt CH4) at no net cost at 2025 prices (Global Methane Tracker 2026). Payments buy speed and verification where capital, not price, is the barrier; no-cost tons raise additionality questions, so they need jurisdiction-wide baselines"
+  },
+  {
+   "id": "forests",
+   "label": "Jurisdictional forest results (national or state programs, ART-TREES style), with Indigenous and local community safeguards",
+   "mt_2035": [
+    50,
+    150,
+    300
+   ],
+   "price": [
+    12,
+    20,
+    35
+   ],
+   "basis": "sourced range: LEAF Coalition purchases jurisdictional credits, reported $10 a ton floor; Nepal's January 2026 agreement is up to 4 Mt for up to $55M (about $14 a ton); Ghana and Costa Rica (2023) over $60M. Jurisdictional accounting addresses leakage better than project credits; permanence needs buffers"
+  },
+  {
+   "id": "coal",
+   "label": "Early coal retirement and grid results contracts (Energy Transition Mechanism and JETP style)",
+   "mt_2035": [
+    50,
+    100,
+    200
+   ],
+   "price": [
+    15,
+    30,
+    50
+   ],
+   "basis": "estimate: ADB's first ETM deal (Cirebon-1, 660 MW) targets retirement in 2035 instead of 2042 and up to 30 Mt avoided over 15 years; its financial terms are undisclosed"
+  },
+  {
+   "id": "itmo",
+   "label": "Article 6.2 programs: renewables, efficiency, e-mobility and industry, bilateral with corresponding adjustments",
+   "mt_2035": [
+    20,
+    50,
+    100
+   ],
+   "price": [
+    30,
+    40,
+    60
+   ],
+   "basis": "sourced: Switzerland's bilateral purchases about $36 a ton; vendor indications $30-50. As of May 2026, 128 bilateral agreements but only five completed transfers (65,000 ITMOs): the market barely exists yet"
+  },
+  {
+   "id": "removals",
+   "label": "Durable removals abroad (biochar, mineral weathering, direct air capture)",
+   "mt_2035": [
+    5,
+    10,
+    30
+   ],
+   "price": [
+    100,
+    150,
+    250
+   ],
+   "basis": "estimate: durable removal prices remain $100s a ton; direct air capture projected at $230-540 a ton by 2050 (ETH Zurich 2024)"
+  }
+ ],
+ "loss_and_damage": {
+  "annual_bn": [
+   1.0,
+   2.0,
+   3.0
   ],
-  "loss_and_damage": {"annual_bn": [1.0, 2.0, 3.0],
-    "basis": "proposal: a U.S. contribution to the Fund for Responding to Loss and Damage. The fund had about $768M pledged from 28 countries, $250M available against up to $3B of requests, and first disbursements slipping to the end of 2026; the U.S. pledged $17.5M in 2023. Loss-and-damage money compensates for harm already done; it reduces no emissions and is never counted toward an emissions target"},
-  "adaptation": {"annual_bn": [2.0, 4.0, 6.0],
-    "basis": "proposal: adaptation and resilience finance above DEV-P's restored base (DEV-P restores development, humanitarian and global health programs to FY2024 real levels, about $92B over FY2030-39). Also no emissions credit"},
-  "climate_finance_context": "sourced: COP29's new goal is at least $300B a year by 2035 from developed countries; ODI puts a U.S. fair share at about 45% of developed-country obligations (that share counts public and mobilized private and multilateral money). WRI put the U.S. share of the earlier $100B goal at 40-47%",
-  "domestic_marginal_reference": "From sources/climate-portfolio-packages.json diagnostics: beyond Package A, the next domestic steps (clean-heat standard, 50% industrial support, a $200 price, coal by 2032) add about one point in 2035 for about $160B more outlays over 2030-39 and several dollars a month on bills"
+  "basis": "proposal: a U.S. contribution to the Fund for Responding to Loss and Damage. The fund had about $768M pledged from 28 countries, $250M available against up to $3B of requests, and first disbursements slipping to the end of 2026; the U.S. pledged $17.5M in 2023. Loss-and-damage money compensates for harm already done; it reduces no emissions and is never counted toward an emissions target"
+ },
+ "adaptation": {
+  "annual_bn": [
+   2.0,
+   4.0,
+   6.0
+  ],
+  "basis": "proposal: adaptation and resilience finance above DEV-P's restored base (DEV-P restores development, humanitarian and global health programs to FY2024 real levels, about $92B over FY2030-39). Also no emissions credit"
+ },
+ "climate_finance_context": "sourced: COP29's new goal is at least $300B a year by 2035 from developed countries; ODI puts a U.S. fair share at about 45% of developed-country obligations (that share counts public and mobilized private and multilateral money). WRI put the U.S. share of the earlier $100B goal at 40-47%",
+ "domestic_marginal_reference": "From sources/climate-portfolio-packages.json diagnostics: beyond Package A, the next domestic steps (clean-heat standard, 50% industrial support, a $200 price, coal by 2032) add about one point in 2035 for about $160B more outlays over 2030-39 and several dollars a month on bills",
+ "domestic_floor": 0.5,
+ "floor_rule": "Threshold: international results count toward the 2035 benchmark only when domestic net reductions (Package A plus CLI-13) reach at least 50% below 2005 in that case; otherwise none count (Espen, Oct 26: 'above a 50% domestic floor').",
+ "floor_measures": {
+  "diagnostic_from": 0,
+  "diagnostic_to": 2,
+  "label": "clean-heat standard plus clean-industry support raised to 50% (packages.py diagnostics, steps 2-3)"
+ },
+ "taper_note": "Pricing holds the full 2035 volume through 2039 (conservative for cost); the design tapers purchases after 2035 as domestic cuts and removals grow."
 }
