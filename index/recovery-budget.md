@@ -58,4 +58,6 @@ These are approximate quintile averages including modeled benefits, not a D3 cer
 | HI | Depletion: None; terminal reserve/cost 6.83; rising: True |
 | Leave, high take-up | Loan repaid 2058; terminal loan $0.0B |
 
+Charging SSA administration to OASDI changes the sustainability flag from True in the pre-administration reference to False: the reserve/cost ratio falls from 364.0% in 2095 to 363.1% in 2100, exceeding the unchanged 0.5-percentage-point terminal-decline tolerance. There is no modeled depletion through 2100 and the actuarial balance remains +0.495% of payroll; this is a failed terminal-trend test, not a depletion finding.
+
 OASI/DI legal separation, the HI annual-data calibration, HTF beyond 2046, and long-run category/cash mappings remain unresolved. A positive balance in one fund cannot fund a second account without legislation.

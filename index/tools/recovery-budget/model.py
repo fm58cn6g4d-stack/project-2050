@@ -411,10 +411,12 @@ def markdown(d):
     out+=['','These are approximate quintile averages including modeled benefits, not a D3 certification or guarantees for individual households. See the assumptions and limits in the assessment.','',
           '| Fund, mixed case | Result |','| --- | --- |']
     s=d['cases']['mixed']['summary']
+    ssrows=d['cases']['mixed']['ss']['rows']
     out += [f"| Education | Depletion: {s['education_depletion']}; terminal reserve/outlays {s['education_terminal_ratio']:.2f}; rising: {s['education_terminal_rising']} |",
             f"| Combined OASDI | Depletion: {s['ss_depletion']}; conservative model solvency: {s['ss_sustainable']}; actuarial balance {s['ss_actuarial_balance']:+.2f}% payroll |",
             f"| HI | Depletion: {s['hi_depletion']}; terminal reserve/cost {s['hi_terminal_ratio']:.2f}; rising: {s['hi_terminal_rising']} |",
             f"| Leave, high take-up | Loan repaid {s['leave_repayment_year']}; terminal loan ${s['leave_terminal_loan_bn']:.1f}B |",'',
+            f"Charging SSA administration to OASDI changes the sustainability flag from True in the pre-administration reference to {s['ss_sustainable']}: the reserve/cost ratio falls from {ssrows[-6]['tfr']:.1f}% in {ssrows[-6]['year']} to {ssrows[-1]['tfr']:.1f}% in {ssrows[-1]['year']}, exceeding the unchanged 0.5-percentage-point terminal-decline tolerance. There is no modeled depletion through 2100 and the actuarial balance remains {s['ss_actuarial_balance']:+.3f}% of payroll; this is a failed terminal-trend test, not a depletion finding.",'',
             'OASI/DI legal separation, the HI annual-data calibration, HTF beyond 2046, and long-run category/cash mappings remain unresolved. A positive balance in one fund cannot fund a second account without legislation.','']
     return '\n'.join(out)
 
