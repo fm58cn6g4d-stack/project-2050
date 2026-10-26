@@ -35,7 +35,7 @@ Every figure here comes from a run of `index/tools/transportation/transit_fiscal
    - 90% renewal: 27.9 / 58.0 / 14.1.
 
    The 35 / 50 / 15 split was settled by Espen against the 100%-renewal answer. If division B calls capacity grants expansion (as the package doc's sec. 1105 proposes), the drafted shares drift further from the rule they are meant to follow.
-3. **The 0.206% figure is a benchmark in prose but a trigger in drafted statute.** Espen decided on Oct 12 that the 0.206% is the project's own rule, not CBO's or statute's, and he is fine exceeding it. But drafted sec. 108(b) still makes 0.206% a hard trigger that cuts expansion obligations.
+3. **The 0.206% figure is a benchmark in prose but a trigger in drafted statute.** Espen decided on Oct 12 that the 0.206% is the project's own rule, not CBO's or statute's, and they are fine exceeding it. But drafted sec. 108(b) still makes 0.206% a hard trigger that cuts expansion obligations.
    - On the FY2032-36 calendar no scenario reaches it in the bill years: B peaks at 0.177%, C at 0.193%. But FY2030 (0.197%) and a light-duty-only fee (0.209% in FY2030) come close or over.
    - The merged doc must still decide whether sec. 108(b) keeps a number (and which), or becomes report-and-recommend.
 
