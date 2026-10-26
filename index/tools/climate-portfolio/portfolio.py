@@ -66,7 +66,7 @@ def analyse(a, runs):
         sel = C[ref_id]
         ext, ext_y = ext_of(spec)
         _, ref_ext_y = ext_of(specs[ref_id])
-        d_out = {y: yr[y]['credits'] + ext_y[y] - sel[y]['credits'] - ref_ext_y[y] for y in range(2030, 2051)}
+        d_out = {y: yr[y]['credits'] + yr[y]['credInd'] + ext_y[y] - sel[y]['credits'] - sel[y]['credInd'] - ref_ext_y[y] for y in range(2030, 2051)}
         d_ton = {y: sel[y]['energy'] - yr[y]['energy'] for y in range(2030, 2051)}   # Mt, positive = more abatement
         d_ghg = {y: sel[y]['ghgNet'] - yr[y]['ghgNet'] for y in range(2030, 2051)}
         cost_50 = sum(d_out.values())
@@ -87,7 +87,7 @@ def analyse(a, runs):
             extra_avoided_net_ghg_gt_2030_50=sum(d_ghg.values()) / 1000,
             extra_outlays_bn_2025={'2030_39': sum(d_out[y] for y in range(2030, 2040)), '2030_50': cost_50},
             extra_outlays_nominal_2030_39_tn=sum(d_out[y] * defl(y) for y in range(2030, 2040)) / 1000,
-            model_outlays_nominal_2030_39_tn=sum((yr[y]['credits'] + ext_y[y]) * defl(y) for y in range(2030, 2040)) / 1000,
+            model_outlays_nominal_2030_39_tn=sum((yr[y]['credits'] + yr[y]['credInd'] + ext_y[y]) * defl(y) for y in range(2030, 2040)) / 1000,
             power_side_outlays_nominal_2030_39_tn=sum(yr[y]['creditsPower'] * defl(y) for y in range(2030, 2040)) / 1000,
             cost_per_extra_ton_undiscounted=(cost_50 / tons_50) if priced and tons_50 > 0.01 and cost_50 > 0 else None,
             cost_per_extra_ton_discounted=(dcost / dtons) if priced and dtons > 0.01 and dcost > 0 else None,
@@ -124,7 +124,7 @@ def report(a, res, hashes):
          '**How to read this.** Every case starts from the decided package and changes the named levers, with identical physical '
          'assumptions. "Extra outlays" is the change in the model\'s spending accumulator (credits, grid and nuclear program costs) '
          'plus any external cost named in the assumptions, in constant 2025 dollars, undiscounted unless marked. It is a budget-cost '
-         'proxy, not a CBO-style score, and it omits industrial-support costs. Tons are energy CO2 unless marked net GHG. A cost per '
+         'proxy, not a CBO-style score; industrial support uses the model\'s own estimate (its share of abatement cost on abated tons). Tons are energy CO2 unless marked net GHG. A cost per '
          'ton is reported only where a case both costs more and cuts more; a negative row means the case saves money and loses tons. '
          'No modeled abatement is a pay-for, and no ratio here establishes a budget-neutral swap.', '',
          f'Benchmarks: the 2035 NDC range is {100*lo:.0f}-{100*hi:.0f}% below 2005 in net greenhouse gases; net zero by '

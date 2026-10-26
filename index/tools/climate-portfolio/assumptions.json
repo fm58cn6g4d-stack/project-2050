@@ -61,8 +61,7 @@
     "crInd": 0,
     "h2.cr": 0
    },
-   "cost_note": "The model books no cost for industrial investment support (only the hydrogen credit), so this case's saving is understated",
-   "unpriced": true
+   "cost_note": "Industrial support is priced with the model's estimate (its share of abatement cost on abated tons), not a score"
   },
   {
    "id": "drop_all_credits",
@@ -133,8 +132,7 @@
    "world": {
     "crInd": 0.3
    },
-   "cost_note": "Unpriced: the model books no cost for industrial support; a contract or procurement price is needed before any cost per ton",
-   "unpriced": true
+   "cost_note": "Priced with the model's industrial-support estimate; a contract price for CLI-9 procurement would replace it"
   },
   {
    "id": "nuclear",

@@ -1,0 +1,782 @@
+{
+ "bill_protection": {
+  "annual_increase_per_household": {
+   "2033": 4.249891499335405,
+   "2034": 6.3228847071864305,
+   "2035": 6.751867035752701,
+   "2036": 11.870946479451149,
+   "2037": 18.991298854100954,
+   "2038": 26.127324882669278,
+   "2039": 28.387154830968875
+  },
+  "cost_bn_2025": [
+   5.340471151052169,
+   5.751276624210028,
+   6.162082097367888
+  ],
+  "cost_nominal_tn": [
+   0.006970602325960271,
+   0.007506802504880292,
+   0.008043002683800312
+  ]
+ },
+ "budget": {
+  "credit_financed_tn": [
+   0.0560282169996786,
+   0.08404232549951791,
+   0.1400705424991965
+  ],
+  "d4b_draw_tn": [
+   0.08614977141653604,
+   0.11977362809391814,
+   0.15832572119384797
+  ],
+  "fee_financed_tn": [
+   0.059411266818074876,
+   0.11359054880515725,
+   0.198571308433163
+  ],
+  "freed_d4b_basis": "Governing decisions, Oct 26: resizing CAP-7S from $300B to about $105B leaves about $195B less borrowing inside the D4-B investment envelope",
+  "freed_d4b_room_bn": 195,
+  "lines": [
+   {
+    "d4": "permanent",
+    "item": "Credit redesign (standard-led) under stronger standards, ledger terms",
+    "source": "reduces CLI-1",
+    "tn": [
+     -0.17569925516651805,
+     -0.2622376942783851,
+     -0.3487761333902522
+    ]
+   },
+   {
+    "d4": "permanent",
+    "item": "Bill protection for low- and moderate-income households, 2033-39",
+    "source": "general fund",
+    "tn": [
+     0.006970602325960271,
+     0.007506802504880292,
+     0.008043002683800312
+    ]
+   },
+   {
+    "d4": "permanent",
+    "item": "Disaster core: permanent pieces (D2, D3, D6, D7)",
+    "source": "general fund",
+    "tn": [
+     0.02410432101406086,
+     0.04361734278734823,
+     0.07805208709314947
+    ]
+   },
+   {
+    "d4": "permanent",
+    "item": "CLI-13 agricultural payments",
+    "source": "general fund",
+    "tn": [
+     0.012320591056369352,
+     0.030801477640923385,
+     0.06160295528184677
+    ]
+   },
+   {
+    "d4": "time-limited capital",
+    "item": "Public grid delivery, lean tranche 1 (deficit cost)",
+    "source": "D4-B borrowing; loans repaid by transmission charges",
+    "tn": [
+     0.03449765495783418,
+     0.03942589138038193,
+     0.04928236422547741
+    ]
+   },
+   {
+    "d4": "time-limited capital",
+    "item": "Low-income heat-pump retrofits (CLI-5W)",
+    "source": "credit-redesign savings (no borrowing)",
+    "tn": [
+     0.0560282169996786,
+     0.08404232549951791,
+     0.1400705424991965
+    ]
+   },
+   {
+    "d4": "time-limited capital",
+    "item": "Disaster core: capital pieces (D1 mitigation fund, D5 wildfire)",
+    "source": "D4-B borrowing",
+    "tn": [
+     0.05165211645870185,
+     0.0803477367135362,
+     0.10904335696837057
+    ]
+   },
+   {
+    "d4": "time-limited capital",
+    "item": "Clean-industry contracts (model industrial-support estimate)",
+    "source": "process-fee receipts first",
+    "tn": [
+     0.02244949364896682,
+     0.033506706938756445,
+     0.04456392022854607
+    ]
+   },
+   {
+    "d4": "time-limited capital",
+    "item": "CLI-13 forests and carbon-removal purchases",
+    "source": "process-fee receipts first",
+    "tn": [
+     0.03696177316910806,
+     0.0800838418664008,
+     0.15400738820461693
+    ]
+   },
+   {
+    "d4": "mixed",
+    "item": "Disaster full tier (D8 insurance help, D9 buyouts): develop",
+    "source": "not yet financed",
+    "tn": [
+     0.03902604354657473,
+     0.06657383899121572,
+     0.11133900658875732
+    ]
+   }
+  ],
+  "permanent": [
+   -0.13230374077012758,
+   -0.1803120713452332,
+   -0.20107808833145566
+  ],
+  "permanent_after_retrofits_tn": [
+   -0.07627552377044897,
+   -0.09626974584571528,
+   -0.06100754583225915
+  ],
+  "process_fee_receipts_tn": 0.1084006999285131,
+  "time-limited capital": [
+   0.2015892552342895,
+   0.3174065023985933,
+   0.4969675721262075
+  ]
+ },
+ "credit_redesign": {
+  "ledger_scale": 0.7516778523489933,
+  "model_tn": {
+   "decided": 1.5081829822899353,
+   "decided_standard_led": 0.8089480766822121,
+   "recommended": 1.159313192580298,
+   "recommended_keep_credits": 2.1168632661918236
+  },
+  "package_vs_decided_ledger_tn": [
+   -0.17569925516651805,
+   -0.2622376942783851,
+   -0.3487761333902522
+  ],
+  "package_vs_decided_model_tn": -0.34886978970963733,
+  "redesign_alone_ledger_tn": [
+   -0.35215159273022517,
+   -0.5255993921346644,
+   -0.6990471915391038
+  ],
+  "redesign_alone_model_tn": -0.6992349056077232,
+  "redesign_in_package_model_tn": -0.9575500736115257
+ },
+ "disaster": {
+  "baseline": [
+   {
+    "basis": "sourced",
+    "item": "Disaster assistance appropriations, all agencies, FY2015-24",
+    "source": "GAO-25-108125",
+    "value": "at least $448B (about $45B a year nominal)"
+   },
+   {
+    "basis": "sourced",
+    "item": "Disaster Relief Supplemental Appropriations Act, 2025 (Dec 2024)",
+    "source": "GAO-25-108125",
+    "value": "$110B"
+   },
+   {
+    "basis": "sourced",
+    "item": "FEMA Disaster Relief Fund, FY2026",
+    "source": "GAO-26-108427 as cited in sources/capacity-recovery-components.csv",
+    "value": "$26.4B (reported; not confirmed against enacted text)"
+   },
+   {
+    "basis": "sourced",
+    "item": "FEMA spending, 30-year average",
+    "source": "CBO publication 58840",
+    "value": "about $12B a year (2022 dollars), $2B (1992) to $47B (2020)"
+   },
+   {
+    "basis": "sourced",
+    "item": "NFIP debt to Treasury",
+    "source": "CRS IN10784 (March 2026)",
+    "value": "$22.525B, $7.9B borrowing authority left; authorization to Sept 30, 2026 after 35 short-term extensions since FY2017"
+   },
+   {
+    "basis": "sourced",
+    "item": "Wildfire appropriations, Forest Service and Interior, FY2025",
+    "source": "CRS IF13102",
+    "value": "$7.3B"
+   },
+   {
+    "basis": "sourced",
+    "item": "FEMA workforce",
+    "source": "GAO-26-108427 as cited in sources/capacity-recovery-components.csv",
+    "value": "25,134 (FY2025) to 20,968 (April 2026)"
+   },
+   {
+    "basis": "sourced",
+    "item": "BRIC",
+    "source": "Massachusetts AG; NC DOJ",
+    "value": "Cancelled April 2025; ruled unlawful Dec 2025; FEMA said in March 2026 it would release remaining funds and open up to $1B of applications"
+   },
+   {
+    "basis": "sourced",
+    "item": "FEMA Review Council final report (May 7, 2026)",
+    "source": "CRS IN12693; NACo",
+    "value": "Parametric block grant for Public Assistance, a single survivor payment, higher declaration thresholds, shift flood insurance toward states and private market; most needs Congress"
+   }
+  ],
+  "permanent_ten_year_bn": [
+   33.3,
+   62.9,
+   109.15
+  ],
+  "rows": [
+   {
+    "annual_bn_2025": [
+     3.0,
+     4.5,
+     6.0
+    ],
+    "avoided_losses_bn_not_banked": [
+     124.875,
+     249.75,
+     249.75
+    ],
+    "basis": "estimate: roughly 3-6 times the pre-2025 BRIC scale (up to $1B a year); NIBS 2019 finds federal mitigation grants save about $6 per $1",
+    "contingent_bn": null,
+    "d4": "time-limited capital (10-year mandatory authorization, 2030-39)",
+    "id": "D1",
+    "label": "Standing pre-disaster mitigation fund (BRIC successor): mandatory, formula floor for every state and tribe plus competitive large projects, with anti-impoundment terms",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-7A",
+    "ten_year_bn_2025": [
+     27.75,
+     41.625,
+     55.5
+    ],
+    "ten_year_nominal_tn": [
+     0.034434744305801235,
+     0.051652116458701845,
+     0.06886948861160247
+    ],
+    "tier": "core"
+   },
+   {
+    "annual_bn_2025": [
+     0.8,
+     1.2,
+     1.8
+    ],
+    "avoided_losses_bn_not_banked": [
+     33.3,
+     66.6,
+     66.6
+    ],
+    "basis": "estimate: 5 points on about $20-30B a year of disaster grants",
+    "contingent_bn": null,
+    "d4": "permanent (scales with disasters)",
+    "id": "D2",
+    "label": "Post-disaster mitigation top-up: Hazard Mitigation Grant Program from 15% to 20% of disaster grants (replaces the $1-per-$1 supplemental set-aside, which would be pro-cyclical and unbounded)",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-7",
+    "ten_year_bn_2025": [
+     7.4,
+     11.1,
+     16.650000000000002
+    ],
+    "ten_year_nominal_tn": [
+     0.009182598481546995,
+     0.013773897722320494,
+     0.02066084658348074
+    ],
+    "tier": "core"
+   },
+   {
+    "annual_bn_2025": [
+     1.0,
+     1.5,
+     2.5
+    ],
+    "avoided_losses_bn_not_banked": null,
+    "basis": "estimate: about 1.1-1.5 million eligible current policies at $600-1,000 average discounts plus 0.3-0.8 million new low-income policies; FEMA's own legislative proposal sets the same eligibility test (FEMA NFIP proposal item 9); Risk Rating 2.0 cut new policies 11-39% (Dec 2025 study cited by senators)",
+    "contingent_bn": null,
+    "d4": "permanent (pay-for at maturity)",
+    "id": "D3",
+    "label": "NFIP means-tested premium assistance for low- and moderate-income primary residences (at or below 120% of area median income, capped at 400% of poverty, non-transferable), with take-up outreach",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-7",
+    "ten_year_bn_2025": [
+     9.25,
+     13.875,
+     23.125
+    ],
+    "ten_year_nominal_tn": [
+     0.011478248101933744,
+     0.017217372152900617,
+     0.02869562025483436
+    ],
+    "tier": "core"
+   },
+   {
+    "annual_bn_2025": [
+     0,
+     0,
+     0
+    ],
+    "avoided_losses_bn_not_banked": null,
+    "basis": "scaled: CBO scored the 2007 bill's $17.5B forgiveness at about $1.2B net over ten years because repayment was not expected; face value $22.5B",
+    "contingent_bn": null,
+    "d4": "one-time",
+    "id": "D4",
+    "label": "NFIP debt resolution: cancel the $22.5B debt with a multi-year reauthorization (to 2035) and a reserve rule",
+    "one_time_bn": [
+     0,
+     2,
+     6
+    ],
+    "policy": "CLI-7",
+    "ten_year_bn_2025": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ten_year_nominal_tn": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "tier": "core"
+   },
+   {
+    "annual_bn_2025": [
+     1.5,
+     2.5,
+     3.5
+    ],
+    "avoided_losses_bn_not_banked": [
+     23.125,
+     46.25,
+     92.5
+    ],
+    "basis": "scaled: the Forest Service projected $50B over ten years in 2022 ($20B on its land, $30B elsewhere); federal increment over FY2025's $7.3B wildfire funding",
+    "contingent_bn": null,
+    "d4": "time-limited capital (10-year program)",
+    "id": "D5",
+    "label": "Wildfire risk reduction above the current baseline (Wildfire Crisis Strategy completion, community defensible space, prescribed-fire workforce)",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-7",
+    "ten_year_bn_2025": [
+     13.875,
+     23.125,
+     32.375
+    ],
+    "ten_year_nominal_tn": [
+     0.017217372152900617,
+     0.02869562025483436,
+     0.0401738683567681
+    ],
+    "tier": "core"
+   },
+   {
+    "annual_bn_2025": [
+     0.3,
+     0.6,
+     1.0
+    ],
+    "avoided_losses_bn_not_banked": null,
+    "basis": "estimate",
+    "contingent_bn": null,
+    "d4": "permanent (pay-for at maturity)",
+    "id": "D6",
+    "label": "Extreme heat: heat as an eligible hazard, cooling-center and tree-canopy grants, CDC Climate-Ready States and Cities to all 50 states (LIHEAP cooling is in CLI-5)",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-7",
+    "ten_year_bn_2025": [
+     2.775,
+     5.55,
+     9.25
+    ],
+    "ten_year_nominal_tn": [
+     0.0034434744305801234,
+     0.006886948861160247,
+     0.011478248101933744
+    ],
+    "tier": "core"
+   },
+   {
+    "annual_bn_2025": [
+     0.0,
+     0.5,
+     1.5
+    ],
+    "avoided_losses_bn_not_banked": null,
+    "basis": "estimate",
+    "contingent_bn": null,
+    "d4": "permanent",
+    "id": "D7",
+    "label": "Universal Survivor Application and estimate-based Public Assistance: program effect of faster, more complete aid (administration is priced in CAP-7)",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-7",
+    "ten_year_bn_2025": [
+     0.0,
+     4.625,
+     13.875
+    ],
+    "ten_year_nominal_tn": [
+     0.0,
+     0.005739124050966872,
+     0.017217372152900617
+    ],
+    "tier": "core"
+   },
+   {
+    "annual_bn_2025": [
+     1.5,
+     3.0,
+     5.0
+    ],
+    "avoided_losses_bn_not_banked": null,
+    "basis": "estimate: about 8-12 million eligible households in high-risk counties at $200-400 average help",
+    "contingent_bn": null,
+    "d4": "permanent (pay-for at maturity)",
+    "id": "D8",
+    "label": "Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, conditioned on state code adoption (CLI-8)",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-7",
+    "ten_year_bn_2025": [
+     13.875,
+     27.75,
+     46.25
+    ],
+    "ten_year_nominal_tn": [
+     0.017217372152900617,
+     0.034434744305801235,
+     0.05739124050966872
+    ],
+    "tier": "full"
+   },
+   {
+    "annual_bn_2025": [
+     1.9,
+     2.8,
+     4.7
+    ],
+    "avoided_losses_bn_not_banked": [
+     38.849999999999994,
+     56.980000000000004,
+     77.69999999999999
+    ],
+    "basis": "estimate: about $250,000 average acquisition (local examples near $214,000) plus about 10% activity costs (Curran-Groome et al. 2022), 75% federal share; Iowa buyouts returned a benefit-cost ratio of 2.19",
+    "contingent_bn": null,
+    "d4": "time-limited capital (10-year program)",
+    "id": "D9",
+    "label": "Voluntary buyout and relocation program: 10,000-25,000 properties a year, receiving-community investment, renter relocation aid",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-5C",
+    "ten_year_bn_2025": [
+     17.575,
+     25.9,
+     43.475
+    ],
+    "ten_year_nominal_tn": [
+     0.021808671393674116,
+     0.032139094685414475,
+     0.053947766079088605
+    ],
+    "tier": "full"
+   },
+   {
+    "annual_bn_2025": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "avoided_losses_bn_not_banked": null,
+    "basis": "scenario: the Talarico stress test's facility carried about $400B of exposure and a $150-200B bad-season draw",
+    "contingent_bn": [
+     100,
+     250,
+     400
+    ],
+    "d4": "premiums priced to expected loss; Treasury line of credit repaid from later premiums (FAM-3 pattern)",
+    "id": "D10",
+    "label": "Federal reinsurance backstop for residential catastrophe risk above a high attachment point, only in states with CLI-8 codes and disclosure",
+    "one_time_bn": [
+     0,
+     0,
+     0
+    ],
+    "policy": "CLI-7C",
+    "ten_year_bn_2025": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ten_year_nominal_tn": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "tier": "option"
+   },
+   {
+    "annual_bn_2025": [
+     0.6,
+     0.93,
+     1.28
+    ],
+    "avoided_losses_bn_not_banked": null,
+    "basis": "sourced to sources/capacity-recovery-components.csv; not added again",
+    "contingent_bn": null,
+    "d4": "in CAP-7/CAP-7S",
+    "id": "R1",
+    "label": "FEMA staff restored (+5,000), cabinet-level independence, Universal Survivor Application build and regional rebuild",
+    "one_time_bn": [
+     0.5,
+     1.0,
+     1.8
+    ],
+    "policy": "CAP-7",
+    "ten_year_bn_2025": [
+     5.55,
+     8.602500000000001,
+     11.84
+    ],
+    "ten_year_nominal_tn": [
+     0.006886948861160247,
+     0.010674770734798382,
+     0.014692157570475192
+    ],
+    "tier": "counted_elsewhere"
+   },
+   {
+    "annual_bn_2025": [
+     0.0,
+     0.1,
+     0.3
+    ],
+    "avoided_losses_bn_not_banked": null,
+    "basis": "sourced to sources/capacity-recovery-components.csv; not added again",
+    "contingent_bn": null,
+    "d4": "in CAP-7S/CAP-7",
+    "id": "R2",
+    "label": "Future-conditions national flood maps (FEMA) and NOAA precipitation and coastal data",
+    "one_time_bn": [
+     4.3,
+     9.5,
+     16.0
+    ],
+    "policy": "CAP-7S",
+    "ten_year_bn_2025": [
+     0.0,
+     0.925,
+     2.775
+    ],
+    "ten_year_nominal_tn": [
+     0.0,
+     0.0011478248101933744,
+     0.0034434744305801234
+    ],
+    "tier": "counted_elsewhere"
+   }
+  ],
+  "tiers": {
+   "core": {
+    "nom": [
+     0.07575643747276273,
+     0.12396507950088442,
+     0.18709544406152
+    ],
+    "one": [
+     0,
+     2,
+     6
+    ],
+    "ten": [
+     61.05,
+     99.89999999999999,
+     150.775
+    ]
+   },
+   "counted_elsewhere": {
+    "nom": [
+     0.006886948861160247,
+     0.011822595544991757,
+     0.018135632001055314
+    ],
+    "one": [
+     4.8,
+     10.5,
+     17.8
+    ],
+    "ten": [
+     5.55,
+     9.527500000000002,
+     14.615
+    ]
+   },
+   "full": {
+    "nom": [
+     0.03902604354657473,
+     0.06657383899121572,
+     0.11133900658875732
+    ],
+    "one": [
+     0,
+     0,
+     0
+    ],
+    "ten": [
+     31.45,
+     53.65,
+     89.725
+    ]
+   },
+   "option": {
+    "nom": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "one": [
+     0,
+     0,
+     0
+    ],
+    "ten": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "time_limited_ten_year_bn": [
+   59.2,
+   90.65,
+   131.35
+  ],
+  "unbudgeted_supplemental_gap_bn_yr": [
+   15,
+   20,
+   25
+  ]
+ },
+ "grid_financing": [
+  {
+   "bill_month_from_loans": 0.0,
+   "contracts": 0,
+   "deficit_cost_bn": [
+    120.0,
+    120.0,
+    120.0
+   ],
+   "grants": 120,
+   "gross_financing_bn": 120.0,
+   "id": "all_grant",
+   "label": "All appropriated (the earlier proposal)",
+   "loan_revenue_requirement_bn_yr": 0.0,
+   "loans": 0,
+   "physical_build_bn": 120.0,
+   "system_savings_bn_to_2050": [
+    192.0,
+    216.0
+   ]
+  },
+  {
+   "bill_month_from_loans": 1.2258603001123154,
+   "contracts": 20,
+   "deficit_cost_bn": [
+    28.0,
+    32.0,
+    40.0
+   ],
+   "grants": 25,
+   "gross_financing_bn": 129.0,
+   "id": "lean",
+   "label": "Lean tranche 1 (recommended first)",
+   "loan_revenue_requirement_bn_yr": 5.727044783617046,
+   "loans": 100,
+   "physical_build_bn": 165.0,
+   "system_savings_bn_to_2050": [
+    264.0,
+    297.0
+   ]
+  },
+  {
+   "bill_month_from_loans": 2.451720600224631,
+   "contracts": 40,
+   "deficit_cost_bn": [
+    46.0,
+    54.0,
+    70.0
+   ],
+   "grants": 40,
+   "gross_financing_bn": 248.0,
+   "id": "full",
+   "label": "Full program if tranche 1 delivers",
+   "loan_revenue_requirement_bn_yr": 11.454089567234092,
+   "loans": 200,
+   "physical_build_bn": 320.0,
+   "system_savings_bn_to_2050": [
+    512.0,
+    576.0
+   ]
+  }
+ ],
+ "source_sha256": {
+  "build/carbon-config.json": "d071842c0a91b03fcc44ab6c434fc9d68e2c568b7550fc668dc1f8b9498f25d3",
+  "index/tools/carbon/cfd-cex-2024.json": "11f4b296801bc20d596eb1893138e734352bae0ef9527e13c1d35b99fc635588",
+  "index/tools/carbon/cfd-households.js": "c376c045092a976e24e1e6a0634763bfcd53153f59a719a2bc4d3f447d1968d4",
+  "index/tools/carbon/cfd-model.js": "0f6ae48c97b7bea35d353ca04e669cd58e45963b2d516422fb2985385dca2b7a",
+  "index/tools/climate-portfolio/assumptions.json": "6655e64e9785b90d79a38158b661884de3c2b447e3eefb7dddacb2ab96df7b57",
+  "index/tools/climate-portfolio/packages.json": "6d3d1401921bedc08280938c4684f5218932d77daa9a12301d5d7ba50cc77177",
+  "index/tools/climate-portfolio/packages.py": "5b0e5c45dec73d11c9aee36b406ad8d9b084192ee5abf80e44a527103ff3b92b",
+  "index/tools/climate-portfolio/portfolio.py": "44e6e083df4cd8330082dc21c646732a06fbad079d4044a0d0de6d36ea9a48e3",
+  "index/tools/climate-portfolio/pricing.json": "3de8a0311df776a59854dafe5bfd0d38666bb27e995599bfaa535a94c88f2ae7",
+  "index/tools/climate-portfolio/pricing.py": "e475fb2037ea93106179988e0e29a5eea43a635b97a1fddc6724231d24239922",
+  "index/tools/climate-portfolio/run.js": "109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae"
+ }
+}

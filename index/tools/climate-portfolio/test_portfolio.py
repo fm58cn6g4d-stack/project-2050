@@ -27,8 +27,8 @@ check('selected case reproduces carbon-model.py case full',
       all(abs(r['energy'] - m['energy']) < 1e-9 and abs(r['credits'] - m['credits']) < 1e-9 for r, m in zip(ref, mine)))
 
 # 2. Each case differs from its comparison only where it should.
-check('selected has zero deltas', res['selected']['extra_outlays_bn_2025']['2030_50'] == 0
-      and res['selected']['extra_avoided_energy_co2_gt']['2030_50'] == 0)
+check('selected has zero deltas', abs(res['selected']['extra_outlays_bn_2025']['2030_50']) < 1e-9
+      and abs(res['selected']['extra_avoided_energy_co2_gt']['2030_50']) < 1e-9)
 check('doubling grid cost changes cost, not emissions',
       abs(res['grid_double_cost']['extra_avoided_energy_co2_gt']['2030_50'] - res['grid']['extra_avoided_energy_co2_gt']['2030_50']) < 1e-9
       and abs(res['grid_double_cost']['extra_outlays_bn_2025']['2030_39'] - res['grid']['extra_outlays_bn_2025']['2030_39'] - 120) < 1e-6)

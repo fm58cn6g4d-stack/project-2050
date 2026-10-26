@@ -1,0 +1,367 @@
+{
+ "note": "Pricing assumptions for the climate portfolio: grid financing windows, credit redesign in ledger terms, bill protection, and the disaster preparedness and response package (CLI-7/CLI-8). Amounts are 2025 dollars unless marked; ranges are low / mid / high. Basis tags: sourced (a cited figure), scaled (a cited figure moved), estimate (planning judgment). Nothing here is a canonical input.",
+ "inflation": 0.022,
+ "ledger_credit_scaling": {
+  "ledger_tn": 1.12,
+  "model_tn": 1.49,
+  "basis": "ledger CLI-1A $0.90T plus CLI-5 transmission ITC and 45X about $0.22T, against the model's $1.49T for the same credit set in 2030-39 (index/climate-carbon-model.md)"
+ },
+ "grid_financing": {
+  "annuity": {
+   "rate": 0.045,
+   "years": 35
+  },
+  "retail_twh": 4200,
+  "kwh_month": 899,
+  "system_savings_per_dollar": [
+   1.6,
+   1.8
+  ],
+  "system_savings_basis": "sourced: DOE National Transmission Planning Study (2024), $1.60-1.80 of system cost saved per $1 of transmission, $270-490B through 2050",
+  "windows": [
+   {
+    "id": "grants",
+    "label": "Federal construction and grants: lines no regional builder will build, reconductoring on federal power-marketing systems, plan-selected interregional segments",
+    "instrument": "budget authority, mandatory, available until expended",
+    "cost_share": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "repaid_by_bills": false
+   },
+   {
+    "id": "loans",
+    "label": "Direct loan authority: a TVA-model federal transmission corporation, TVA, BPA, WAPA, public power and co-ops, at Treasury rates for 30-40 years, repaid from transmission charges",
+    "instrument": "direct loans under the Federal Credit Reform Act (subsidy cost scored)",
+    "cost_share": [
+     0.01,
+     0.03,
+     0.08
+    ],
+    "repaid_by_bills": true,
+    "basis": "estimate: subsidy rates for regulated, cost-of-service-backed lending are low single digits; BPA's Treasury borrowing authority is $13.7B rising to $17.7B in FY2028 and TVA's statutory debt cap is $30B (unchanged since 1979)"
+   },
+   {
+    "id": "contracts",
+    "label": "Capacity contract authority: DOE buys up to half of an anchor line's capacity for 10-20 years and resells it (Transmission Facilitation Program model, expanded)",
+    "instrument": "contract authority backed by the Judgment Fund; expected net cost scored at obligation",
+    "cost_share": [
+     0.1,
+     0.2,
+     0.35
+    ],
+    "repaid_by_bills": false,
+    "leverage": 2.0,
+    "basis": "estimate; the Transmission Facilitation Program's $2.5B revolving authority was nearly depleted after two rounds (DOE, Oct 2024), and two developers have since terminated agreements"
+   }
+  ],
+  "variants": [
+   {
+    "id": "all_grant",
+    "label": "All appropriated (the earlier proposal)",
+    "grants": 120,
+    "loans": 0,
+    "contracts": 0
+   },
+   {
+    "id": "lean",
+    "label": "Lean tranche 1 (recommended first)",
+    "grants": 25,
+    "loans": 100,
+    "contracts": 20
+   },
+   {
+    "id": "full",
+    "label": "Full program if tranche 1 delivers",
+    "grants": 40,
+    "loans": 200,
+    "contracts": 40
+   }
+  ]
+ },
+ "bill_protection": {
+  "households_m": [
+   52,
+   56,
+   60
+  ],
+  "share_offset": 1.0,
+  "years": [
+   2033,
+   2039
+  ],
+  "basis": "estimate: offset the modeled wind/solar credit phase-out's bill increase for low- and moderate-income households (bottom two quintiles, about 40% of about 140 million households) through LIHEAP-style utility credits"
+ },
+ "disaster": {
+  "ramp": {
+   "2030": 0.5,
+   "2031": 0.75
+  },
+  "baseline": [
+   {
+    "item": "Disaster assistance appropriations, all agencies, FY2015-24",
+    "value": "at least $448B (about $45B a year nominal)",
+    "basis": "sourced",
+    "source": "GAO-25-108125"
+   },
+   {
+    "item": "Disaster Relief Supplemental Appropriations Act, 2025 (Dec 2024)",
+    "value": "$110B",
+    "basis": "sourced",
+    "source": "GAO-25-108125"
+   },
+   {
+    "item": "FEMA Disaster Relief Fund, FY2026",
+    "value": "$26.4B (reported; not confirmed against enacted text)",
+    "basis": "sourced",
+    "source": "GAO-26-108427 as cited in sources/capacity-recovery-components.csv"
+   },
+   {
+    "item": "FEMA spending, 30-year average",
+    "value": "about $12B a year (2022 dollars), $2B (1992) to $47B (2020)",
+    "basis": "sourced",
+    "source": "CBO publication 58840"
+   },
+   {
+    "item": "NFIP debt to Treasury",
+    "value": "$22.525B, $7.9B borrowing authority left; authorization to Sept 30, 2026 after 35 short-term extensions since FY2017",
+    "basis": "sourced",
+    "source": "CRS IN10784 (March 2026)"
+   },
+   {
+    "item": "Wildfire appropriations, Forest Service and Interior, FY2025",
+    "value": "$7.3B",
+    "basis": "sourced",
+    "source": "CRS IF13102"
+   },
+   {
+    "item": "FEMA workforce",
+    "value": "25,134 (FY2025) to 20,968 (April 2026)",
+    "basis": "sourced",
+    "source": "GAO-26-108427 as cited in sources/capacity-recovery-components.csv"
+   },
+   {
+    "item": "BRIC",
+    "value": "Cancelled April 2025; ruled unlawful Dec 2025; FEMA said in March 2026 it would release remaining funds and open up to $1B of applications",
+    "basis": "sourced",
+    "source": "Massachusetts AG; NC DOJ"
+   },
+   {
+    "item": "FEMA Review Council final report (May 7, 2026)",
+    "value": "Parametric block grant for Public Assistance, a single survivor payment, higher declaration thresholds, shift flood insurance toward states and private market; most needs Congress",
+    "basis": "sourced",
+    "source": "CRS IN12693; NACo"
+   }
+  ],
+  "unbudgeted_supplemental_gap_bn_yr": [
+   15,
+   20,
+   25
+  ],
+  "unbudgeted_basis": "estimate: recent all-agency disaster appropriations (about $45B a year nominal FY2015-24, about $52B in 2025 dollars, before the $110B 2025 act) against roughly $30-35B a year carried by the extrapolated baseline (the FY2026 DRF plus base disaster programs elsewhere). A current-law exposure, not an agenda cost; disclose beside the Judgment Fund line in D4 tests",
+  "components": [
+   {
+    "id": "D1",
+    "tier": "core",
+    "policy": "CLI-7A",
+    "label": "Standing pre-disaster mitigation fund (BRIC successor): mandatory, formula floor for every state and tribe plus competitive large projects, with anti-impoundment terms",
+    "annual": [
+     3.0,
+     4.5,
+     6.0
+    ],
+    "d4": "time-limited capital (10-year mandatory authorization, 2030-39)",
+    "bcr": [
+     3,
+     6,
+     6
+    ],
+    "basis": "estimate: roughly 3-6 times the pre-2025 BRIC scale (up to $1B a year); NIBS 2019 finds federal mitigation grants save about $6 per $1"
+   },
+   {
+    "id": "D2",
+    "tier": "core",
+    "policy": "CLI-7",
+    "label": "Post-disaster mitigation top-up: Hazard Mitigation Grant Program from 15% to 20% of disaster grants (replaces the $1-per-$1 supplemental set-aside, which would be pro-cyclical and unbounded)",
+    "annual": [
+     0.8,
+     1.2,
+     1.8
+    ],
+    "d4": "permanent (scales with disasters)",
+    "bcr": [
+     3,
+     6,
+     6
+    ],
+    "basis": "estimate: 5 points on about $20-30B a year of disaster grants"
+   },
+   {
+    "id": "D3",
+    "tier": "core",
+    "policy": "CLI-7",
+    "label": "NFIP means-tested premium assistance for low- and moderate-income primary residences (at or below 120% of area median income, capped at 400% of poverty, non-transferable), with take-up outreach",
+    "annual": [
+     1.0,
+     1.5,
+     2.5
+    ],
+    "d4": "permanent (pay-for at maturity)",
+    "bcr": null,
+    "basis": "estimate: about 1.1-1.5 million eligible current policies at $600-1,000 average discounts plus 0.3-0.8 million new low-income policies; FEMA's own legislative proposal sets the same eligibility test (FEMA NFIP proposal item 9); Risk Rating 2.0 cut new policies 11-39% (Dec 2025 study cited by senators)"
+   },
+   {
+    "id": "D4",
+    "tier": "core",
+    "policy": "CLI-7",
+    "label": "NFIP debt resolution: cancel the $22.5B debt with a multi-year reauthorization (to 2035) and a reserve rule",
+    "one_time": [
+     0,
+     2,
+     6
+    ],
+    "d4": "one-time",
+    "bcr": null,
+    "basis": "scaled: CBO scored the 2007 bill's $17.5B forgiveness at about $1.2B net over ten years because repayment was not expected; face value $22.5B"
+   },
+   {
+    "id": "D5",
+    "tier": "core",
+    "policy": "CLI-7",
+    "label": "Wildfire risk reduction above the current baseline (Wildfire Crisis Strategy completion, community defensible space, prescribed-fire workforce)",
+    "annual": [
+     1.5,
+     2.5,
+     3.5
+    ],
+    "d4": "time-limited capital (10-year program)",
+    "bcr": [
+     1,
+     2,
+     4
+    ],
+    "basis": "scaled: the Forest Service projected $50B over ten years in 2022 ($20B on its land, $30B elsewhere); federal increment over FY2025's $7.3B wildfire funding"
+   },
+   {
+    "id": "D6",
+    "tier": "core",
+    "policy": "CLI-7",
+    "label": "Extreme heat: heat as an eligible hazard, cooling-center and tree-canopy grants, CDC Climate-Ready States and Cities to all 50 states (LIHEAP cooling is in CLI-5)",
+    "annual": [
+     0.3,
+     0.6,
+     1.0
+    ],
+    "d4": "permanent (pay-for at maturity)",
+    "bcr": null,
+    "basis": "estimate"
+   },
+   {
+    "id": "D7",
+    "tier": "core",
+    "policy": "CLI-7",
+    "label": "Universal Survivor Application and estimate-based Public Assistance: program effect of faster, more complete aid (administration is priced in CAP-7)",
+    "annual": [
+     0.0,
+     0.5,
+     1.5
+    ],
+    "d4": "permanent",
+    "bcr": null,
+    "basis": "estimate"
+   },
+   {
+    "id": "D8",
+    "tier": "full",
+    "policy": "CLI-7",
+    "label": "Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, conditioned on state code adoption (CLI-8)",
+    "annual": [
+     1.5,
+     3.0,
+     5.0
+    ],
+    "d4": "permanent (pay-for at maturity)",
+    "bcr": null,
+    "basis": "estimate: about 8-12 million eligible households in high-risk counties at $200-400 average help"
+   },
+   {
+    "id": "D9",
+    "tier": "full",
+    "policy": "CLI-5C",
+    "label": "Voluntary buyout and relocation program: 10,000-25,000 properties a year, receiving-community investment, renter relocation aid",
+    "annual": [
+     1.9,
+     2.8,
+     4.7
+    ],
+    "d4": "time-limited capital (10-year program)",
+    "bcr": [
+     1.5,
+     2.2,
+     3
+    ],
+    "basis": "estimate: about $250,000 average acquisition (local examples near $214,000) plus about 10% activity costs (Curran-Groome et al. 2022), 75% federal share; Iowa buyouts returned a benefit-cost ratio of 2.19"
+   },
+   {
+    "id": "D10",
+    "tier": "option",
+    "policy": "CLI-7C",
+    "label": "Federal reinsurance backstop for residential catastrophe risk above a high attachment point, only in states with CLI-8 codes and disclosure",
+    "annual": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "contingent_bn": [
+     100,
+     250,
+     400
+    ],
+    "d4": "premiums priced to expected loss; Treasury line of credit repaid from later premiums (FAM-3 pattern)",
+    "bcr": null,
+    "basis": "scenario: the Talarico stress test's facility carried about $400B of exposure and a $150-200B bad-season draw"
+   },
+   {
+    "id": "R1",
+    "tier": "counted_elsewhere",
+    "policy": "CAP-7",
+    "label": "FEMA staff restored (+5,000), cabinet-level independence, Universal Survivor Application build and regional rebuild",
+    "annual": [
+     0.6,
+     0.93,
+     1.28
+    ],
+    "one_time": [
+     0.5,
+     1.0,
+     1.8
+    ],
+    "d4": "in CAP-7/CAP-7S",
+    "bcr": null,
+    "basis": "sourced to sources/capacity-recovery-components.csv; not added again"
+   },
+   {
+    "id": "R2",
+    "tier": "counted_elsewhere",
+    "policy": "CAP-7S",
+    "label": "Future-conditions national flood maps (FEMA) and NOAA precipitation and coastal data",
+    "annual": [
+     0.0,
+     0.1,
+     0.3
+    ],
+    "one_time": [
+     4.3,
+     9.5,
+     16.0
+    ],
+    "d4": "in CAP-7S/CAP-7",
+    "bcr": null,
+    "basis": "sourced to sources/capacity-recovery-components.csv; not added again"
+   }
+  ]
+ },
+ "freed_d4b_room_bn": 195,
+ "freed_d4b_basis": "Governing decisions, Oct 26: resizing CAP-7S from $300B to about $105B leaves about $195B less borrowing inside the D4-B investment envelope"
+}

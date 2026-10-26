@@ -8,7 +8,7 @@ const CEX = JSON.parse(fs.readFileSync(__dirname + '/../carbon/cfd-cex-2024.json
 const cfg = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const path = tbl => tbl ? (y => tbl[String(y)] != null ? tbl[String(y)] : 0) : null;
 const keep = ['year', 'price', 'power', 'transport', 'industry', 'buildings', 'energy', 'ghgNet', 'below2005', 'ghgBelow2005',
-  'rev', 'gross', 'pool', 'perShare', 'credits', 'creditsPower', 'cleanShare', 'cesAcp', 'evShare', 'hp', 'retail', 'elecDelta', 'pop'];
+  'rev', 'gross', 'pool', 'perShare', 'credits', 'creditsPower', 'credInd', 'cleanShare', 'cesAcp', 'evShare', 'hp', 'retail', 'elecDelta', 'pop'];
 const slim = rows => rows.map(r => Object.fromEntries(keep.map(k => [k, r[k]])));
 function polOf(c) {
   const p = Object.assign({}, c.policy);

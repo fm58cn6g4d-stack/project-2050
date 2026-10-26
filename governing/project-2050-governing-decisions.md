@@ -515,3 +515,15 @@ Espen, on the [round 2 capacity review](../sources/capacity-recovery-other-agenc
 **Unchanged: CAP-7, the sustained increase, stays $300B over FY2030-39** as a planning ceiling. Need is $254.6B at the midpoint and $355.1B at the high case, so adequacy is conditional.
 
 **Integration.** Codex, as integration owner, sets these in [recovery-adoption.json](../index/data/inputs/recovery-adoption.json): `cap_surge_tn` 0.3 → 0.105 and `early_admin_bn` 10 → 5. This is alongside DEV-P, paid-leave administration, the SSA financing split and the HLT-2 operations row.
+
+
+## Climate goals raised and portfolio direction, October 26
+
+Espen, on the [climate portfolio allocation](../sources/climate-portfolio-allocation.md) (PR #26), answering whether the project should hold itself to the 2035 NDC range and net zero by 2050: "Climate goals should certainly be revised higher." Also: "Grid program payment can include borrowing (and some of it could likely even be designed as direct loan authority and contract authority). That said, keeping lower borrowing is useful too." He asked to be told whether clean-energy credits should be reduced or capped on a timeline, for everything to be priced (with ranges), and for optimal packages rather than single best policies.
+
+**Decided (goal): climate goals raised.** The project's climate benchmark is net zero by 2050 and 61-66% below 2005 in net greenhouse gases by 2035 (the December 2024 U.S. NDC range, kept as the project's own benchmark after the Paris withdrawal took effect in January 2026). The decided package reaches about 43% and 64% in the carbon model. The recommended Package A reaches about 47% and 70%, roughly 49% and 77% with CLI-13's off-model estimates. The remaining gap is the next climate task, not a reason to lower the goal.
+
+**Decided (financing direction).** Grid delivery may combine grants, direct loan authority and contract authority, and should keep borrowing low where it can. The working proposal is a lean first tranche ($25B grants, $100B direct loans, $20B capacity contracts; about $32B deficit cost) with a second tranche on delivery milestones.
+
+**Recommended under the project-coworker delegation, pending integration by Codex.** Package A (statutory 90%/100% clean power, statutory vehicle standards, public grid delivery, tripled low-income heat-pump retrofits, priced clean-industry contracts, the process-emissions fee, and a standard-led credit step-down with snap-back), and a priced CLI-7 disaster package that ends CLI-7's unscored status. Proposed deltas are in PR #26. Still for Espen: a higher carbon-price path ($150 by 2037 instead of $100, an option in PR #26) and when to fund the disaster package's fuller tier.
+

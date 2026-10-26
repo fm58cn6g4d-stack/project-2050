@@ -1,206 +1,280 @@
 # Climate and grid portfolio allocation
 
-**Context.** Claude Code, October 26, 2026. Policy IDs: CLI-1 to CLI-13, REV-C1/C2/C3, CLI-2, Moving America's fuel steps (D7). Source base: `main` at `77f8a5e551367a52319e5323e8a33789894ebc67`; branch `claude/climate-portfolio`, draft PR #26. Status: completed for review, not merged. New: a common-baseline comparison of 24 model cases, a 26-row component register and a reproducible script. Nothing here changes an adopted design, a shared fiscal input or a generated shared output. The proposed deltas at the end go to Codex, the integration owner.
+**Context.** Claude Code, October 26, 2026 (second round, same day). Policy IDs: CLI-1 to CLI-13, REV-C1/C2/C3, CLI-2, Moving America's fuel steps (D7), CAP-7. Source base: `main` at `77f8a5e551367a52319e5323e8a33789894ebc67`; branch `claude/climate-portfolio`, PR #26. Status: completed for review, not merged.
 
-**Files.** This recommendation; the model results [climate-portfolio-model-results.md](climate-portfolio-model-results.md) (generated, with JSON alongside); the component register [climate-portfolio-components.csv](climate-portfolio-components.csv); the code in [index/tools/climate-portfolio/](../index/tools/climate-portfolio/README.md).
+**What's new in this round.** It follows Espen's direction: higher climate goals; grid payment that can include borrowing, direct loan authority and contract authority; lower borrowing kept where possible; credit caps or phase-downs if warranted; pricing everything; and optimizing packages rather than single policies. It adds:
+- a search of every combination of ten levers (4,608 packages);
+- a recommended package, with layering and stress tests;
+- a credit phase-down timeline;
+- grid financing windows;
+- a whole-package budget;
+- the disaster preparedness and response package ([its own file](climate-portfolio-disaster-resilience.md)).
+
+Nothing here changes an adopted input or a shared generated output. The proposed deltas go to Codex.
+
+**Files.**
+- This recommendation.
+- Generated results:
+  - [single-lever comparison](climate-portfolio-model-results.md)
+  - [package search](climate-portfolio-packages.md)
+  - [pricing and budget](climate-portfolio-pricing.md)
+  - [disaster components](climate-portfolio-disaster-components.csv)
+- The [instrument register](climate-portfolio-components.csv) and the [code](../index/tools/climate-portfolio/README.md).
 
 ## Bottom line
 
-1. **Add public grid delivery, in stages.** Fund a builder-of-last-resort and reconductoring program of about $120B (2025 dollars, roughly $0.15T nominal over 2030-39) as time-limited capital under D4-B. Release it in two tranches gated on delivery, with a workforce pipeline as a condition. In the model it is by far the cheapest addition per ton: about $24-43 per extra ton, avoiding 1.6 Gt of extra CO2 over 2030-50. It still avoids 1.0 Gt if delivery is weak, and it keeps working after a 2037 repeal because the lines stay built.
-2. **Keep the clean-energy credits for now; do not bank any saving.** The credits differ a lot in value, and that finding should shape the next decisions:
-   - The heat-pump credit is cheap per ton.
-   - Industrial support does the most work, but it is unpriced.
-   - The vehicle and wind/solar credits are expensive per extra ton in this model, because the fee, the Clean Energy Standard and the vehicle standards already do most of their work. Their value is insurance: if the fee is repealed or the standards are struck down, they matter much more. They also hold electricity bills down.
-3. **Develop, don't yet fund, two further additions.**
-   - Tripled low-income heat-pump retrofits: about $190-260 a ton, plus direct bill relief for low-income owners and renters.
-   - A priced clean-industry procurement tranche (CLI-9, with no reactor-fleet order).
-4. **Price adaptation on loss reduction, not tons.** A standing pre-disaster mitigation fund and CLI-7's scoring belong in a separate loss-and-vulnerability assessment. Federal mitigation grants save about $6 for every $1 spent (NIBS 2019).
-5. **The package is far from the benchmark, and allocation alone won't close the gap.** The decided package reaches 43% below 2005 in 2035 and 64% in 2050 in this model, against the 2035 NDC range of 61-66% and net zero by 2050. The best portfolio here adds about 2 points in 2035. The model is conservative in the first decade, but the gap is a goal-level question for Espen (below).
+1. **Adopt Package A as the climate allocation.** It is built from levers that work together, not from the best single policies:
+   - a statutory clean-power path of 90% by 2035 and 100% by 2040;
+   - statutory zero-emission vehicle standards for cars and heavy trucks;
+   - public grid delivery;
+   - tripled low-income heat-pump retrofits;
+   - doubled clean-industry support through contracts;
+   - the carbon fee extended to industrial process emissions;
+   - clean-energy credits redesigned to step down as those standards and the grid take over.
 
-## What was compared, and on what basis
+   In the model it reaches 47% below 2005 in 2035, 60% in 2040 and 70% in 2050, against the decided package's 43%, 54% and 64%. Farms, forests and carbon removal (CLI-13, estimated outside the model) add about 2 points in 2035 and 8 in 2050. It **saves** about $71B in modeled outlays over 2030-39, and it still reaches 65% in 2050 after a 2037 repeal, against 58% for the decided package.
+2. **Yes, the credits should step down on a timeline.** Every efficient package redesigns them. The schedule is below. In ledger terms the redesign saves about $0.18-0.35T nominal over 2030-39 inside Package A. That pays for the low-income retrofits, disaster preparedness's permanent pieces and LMI bill protection, and still leaves a net permanent saving.
+3. **Finance the grid mostly with loans and contracts.** A lean first tranche ($25B grants, $100B direct loans, $20B capacity contracts) costs about $32B in deficit terms ($28-40B) and enables about $165B of construction. That is more than the earlier $120B all-grant program, at about a quarter of the budget cost. A full second tranche ($40B, $200B and $40B) follows if delivery milestones are met.
+4. **Borrowing stays well inside the room already freed.** Package A plus core disaster preparedness borrows about $0.12T nominal under D4-B ($0.09-0.16T), roughly 61% of the ~$195B freed by the smaller rebuild surge. Permanent items stay a net saving, and the process-emissions fee covers clean-industry contracts and removal purchases.
+5. **The higher goals are not yet met, and the reason matters.** Espen raised the goals: net zero by 2050, and 61-66% below 2005 by 2035. Even with every instrument the model represents pushed hard (below), it tops out at about 49% in 2035 and 76% in 2050, or roughly 53% and 87% adding CLI-13's high estimates. The 2035 gap comes from how fast vehicle, building and equipment stocks turn over, and from this model being slower than the large published models in the first decade. Money is not what limits it. Closing the gap is the next climate task (section 6).
+6. **A higher carbon price is the biggest remaining lever, and it is Espen's call.** REV-C1H keeps D7's low start, then rises to $150 a ton by 2037 instead of $100. Added to Package A, it avoids 2.3 Gt more over 2030-50 at no outlay. The costs are about $1.70 a month more on the average 2040 bill and larger fee costs for the top two quintiles; the dividend keeps the bottom three positive. D7 is decided, so this needs Espen.
 
-**One baseline.** Every case starts from the carbon model's decided package (the `full` case behind [the carbon model report](../index/climate-carbon-model.md)). That package is:
-- REV-C1 on the D7 price path, road fuels exempt, with the 80% dividend;
-- CLI-1A's credits, CLI-3's 80% standard and CLI-4's standards;
-- CLI-5's Weatherization heat pumps, CLI-6's grid statute and REV-C3's methane fee.
+## 1. How the search works
 
-Each case then changes only the named levers, with the same physical assumptions throughout: costs, fuel prices, demand, transmission and the build pipeline. That is what "common baseline" means here. It reuses and extends the ten-case screen in [the October 26 redesign](fiscal-redesign-and-participation-2026-10-26.md) rather than starting a new model.
+**The baseline.** Every package starts from the carbon model's decided package (case `full`): the D7 fee and dividend, CLI-1A credits, the 80% clean electricity standard, CLI-4 rules, Weatherization heat pumps, the grid statute and the methane fee. Each package is run with identical physical assumptions.
 
-**What each column means.**
-- **Cost.** The change in the model's spending accumulator (credits plus grid or nuclear program costs), plus any external cost named in the assumptions. It is in constant 2025 dollars and is a budget-cost proxy, not a score.
-- **Basis.** It is not a social cost either. The model omits the cost of industrial support, so those cases carry no cost per ton.
-- **Tons.** Energy CO2 avoided against the decided package over 2030-50, with the 2035 and 2050 endpoints in net greenhouse gases.
-- **Bills.** Change in the average residential bill at 899 kWh a month.
-- **Fee interaction.** Change in REV-C1 receipts and the per-adult dividend.
+**The ten levers.**
+- credits: 4 designs;
+- clean-power standard: 3;
+- vehicle standards: 3;
+- carbon price path: 2;
+- public grid: on or off;
+- low-income retrofits: on or off;
+- clean-industry support: on or off;
+- process-emissions fee: on or off;
+- methane fee design: 2;
+- coal retirement: on or off.
 
-The full tables are in the [model results](climate-portfolio-model-results.md).
+That gives 4,608 packages.
 
-**The inventory** is in [the component register](climate-portfolio-components.csv). It has one row per climate instrument, split three ways:
-- **Decided:** the D7 channel, CLI-1A split into four groups, CLI-3 to CLI-8 and Moving America's fuel steps.
-- **Accepted for development on October 26:** public grid delivery, standing adaptation, targeted clean-industry procurement and workforce.
-- **Options:** CLI-9 to CLI-13.
+**Each package reports:**
+- net greenhouse gases in 2035, 2040 and 2050, and cumulatively over 2030-50;
+- outlays: credits, programs, the model's new industrial-support estimate and named external costs;
+- fee receipts;
+- residential bills;
+- household carbon-channel effects.
 
-For each row the register gives the instrument, cost basis, D4 class, the authority/outlay distinction, liabilities, delivery bottleneck, durability and the model case that tests it.
+The search finds the best package for each budget cap and bill cap and the full cost and abatement frontier. It then measures how each lever's value changes inside the recommended package and stress-tests the leading packages for weak grid delivery and a 2037 repeal.
 
-## Findings
+**Model changes.** To represent these levers, the carbon model gained eight settings that are all off by default: credit cost per sale, a vehicle-credit term, the power-credit phase-out trigger, optional zero-emission sales schedules, a second clean-power standard step, and a reported industrial-support cost. The project's rebuild leaves all 29 shared outputs unchanged.
 
-### 1. The credits are not one thing
+## 2. What the search found
 
-Removing each credit group in turn from the decided package (2025 dollars; outlays over 2030-39, tons over 2030-50):
+**The frontier has one shape.** Every efficient package redesigns the credits. Beyond that, packages add statutory standards and grid delivery before anything else, then the higher price, then retrofits and industry. Selected rows from the [package results](climate-portfolio-packages.md):
 
-| Credit group | Outlays saved, 2030-39 | Extra CO2 lost, 2030-50 | Implied cost per ton kept | Bill effect if removed (2035/2040, $ a month) |
-| --- | ---: | ---: | ---: | --- |
-| Heat pumps (25C) | $28B | 0.37 Gt | about $80 | −0.21 / −0.39 |
-| Industrial support and hydrogen (48C, 45V) | $89B (hydrogen only; industrial cost not modeled) | 0.81 Gt | unpriced | −0.29 / +0.28 |
-| Vehicles (30D, 25E, 45W, 30C) | $454B | 0.40 Gt | about $1,350 | −0.13 / −0.22 |
-| Wind, solar and storage (45Y/48E) | $431B | 0.21 Gt | about $2,600 | **+2.29 / +3.59** |
-| Whole bundle (diagnostic) | $1,195B | 2.20 Gt | about $670 | +1.13 / +3.01 |
-
-**Why vehicle and power credits score poorly here.** The model has the fee, the Clean Energy Standard and CLI-4's vehicle standards already pushing clean building up against the grid-access limit, so most credited projects would be built anyway. That matches the real bottleneck. The interconnection queue held about 2,300 GW at the end of 2024, and only 13% of capacity that applied in 2000-19 had been built (LBNL, *Queued Up 2025*).
-
-**Their value is insurance.**
-- If the fee is repealed from 2033, removing the wind and solar credits costs another 0.59 Gt and raises bills by $2-4 a month.
-- If CLI-4's standards are struck down, the vehicle credits are worth about $290 a ton rather than $1,350.
-- The whole-bundle diagnostic confirms the October 26 finding that grid delivery does not make the credits dispensable.
-
-### 2. Public grid delivery is the strongest addition
-
-| Case | Extra CO2 avoided, 2030-35 / 2030-50 | Net extra outlays, 2030-39 (2025 $) | Cost per extra ton (undiscounted / 3%) | Clean power 2035 |
-| --- | --- | ---: | --- | --- |
-| Public grid, as assumed | 0.36 / 1.62 Gt | $91B | $24 / $43 | 82% (package 76%) |
-| Weak delivery (half the transmission and reconductoring gain) | 0.19 / 0.96 Gt | $118B | $101 / $129 | 79% |
-| Twice the cost | 0.36 / 1.62 Gt | $211B | $98 / $127 | 82% |
-| Built, then the fee and consumer credits repealed in 2037 | about 1.2 Gt more than repeal alone (2030-50) | $164B more than repeal alone | n/a | 81% |
-
-**Why the net cost is lower than the program.** The program costs $120B, but net outlays are only $91B because cheaper delivered clean power reduces other modeled subsidy outlays. That offset is a model result, not a saving to bank.
-
-**What the result depends on.** The physical gain is assumed: faster transmission growth and about 15 GW a year of reconductoring capacity. The direction is sourced (Berkeley/GridLab on advanced conductors), but the magnitude is a planning assumption, so it has to be earned by delivery. The delivery gap is real:
-- **Transmission.** About 888 miles of 345 kV-plus line were finished in 2024 (revised FERC data), against about 5,000 miles a year needed (ACEG/Grid Strategies 2025, citing DOE's National Transmission Planning Study).
-- **Federal grid programs.** In October 2025 DOE terminated about $7.6B of grid and other awards, and more GRIP money is stalled.
-
-The gap between full and weak delivery, about 0.66 Gt, is what workforce, permitting and supply chains decide.
-
-**The redirect test.** This asks whether the grid program could replace the wind and solar credits. In the model it does:
-- It saves about $330B (2025 dollars) and still avoids 1.43 Gt more than the package.
-- It still gains 0.78 Gt with weak delivery and breaks even on tons after a 2033 fee repeal.
-- But it raises the average bill by about $2.50-4.70 a month, because the credits lower generation cost.
-
-It also rests on one model's assumption about grid access, and the October 26 approval kept the credits during the comparison. **So I don't recommend redirecting now.** It is a staged option for after the first grid tranche has delivered, paired with bill protection. No saving is booked.
-
-### 3. Household electrification, clean industry and firm power
-
-- **Tripled low-income heat-pump retrofits** (+0.5 million homes a year, 2031-39):
-  - Cost: about $67.5B ($45-113B), on a planning estimate of $10,000-25,000 a home. DOE's Weatherization cost-per-unit cap, about $8,500 in 2025 state plans, covers shell work, not a heat pump.
-  - Effect: 0.35 Gt over 2030-50, about $190-260 a ton.
-  - Its main value is that it cuts heating bills for low-income owners and renters, which tons don't capture.
-  - It is moderately non-additive with the grid program: together they avoid 2.08 Gt for $233B net.
-- **Clean industry.** Doubling the model's industrial support, as a proxy for CLI-9 contracts, avoids 0.49 Gt. The model books no cost for it, so there is no cost per ton until a contract price is set. Industry is the fee's largest base and its slowest-abating sector, so a priced procurement tranche is the right next piece of work.
-- **Nuclear program** (the model's design, not a reactor fleet): about $300-340 a ton, 0.44 Gt. Paired with the grid it adds less than the sum of the two. This supports the October 26 direction not to preselect a fleet order.
-
-### 4. Adaptation and workforce don't rank by tons
-
-**Adaptation reduces losses rather than emissions.**
-- NIBS (2019) finds that federal mitigation grants save about $6 per $1, and model building codes about $11 per $1.
-- FEMA's BRIC program was cancelled in 2025. A federal court ruled the cancellation unlawful in December 2025, and FEMA said in March 2026 that it would release the remaining funds. That record argues for a standing, mandatory fund with anti-impoundment terms rather than a discretionary competition.
-- I size a planning range of $3-6B a year for development, to be priced alongside CLI-7's unscored premium support and NFIP debt. It does not compete with credits on cost per ton.
-
-**Workforce is a condition of delivery, not a separate abatement option.**
-- BLS counts about 818,700 electricians in 2024 and about 81,000 openings a year.
-- A grid program that cannot staff line crews and substations turns into the weak-delivery case.
-- I put a $5-15B planning cost on an electrical and grid apprenticeship and instructor pipeline tied to the grid tranches, preferably carried inside LAB-8 or LAB-10 rather than as new money.
-
-### 5. Durability under a hostile trifecta
-
-D1 stipulates a Democratic Senate through 2036, so the stress test is a 2037 trifecta that repeals the fee and closes consumer credits to new claims. In the model:
-- Power credits keep running in this case, which is a limit of the model.
-- Cumulative CO2 is 4.1 Gt higher over 2030-50, and the 2050 endpoint falls from 64% to 58% below 2005.
-- With the public grid built first, the loss is 2.9 Gt.
-- A 2033 fee repeal costs 5.2 Gt.
-
-Built assets, contracts with Judgment Fund backing, and numbers written in statute (CLI-4D/4E) survive; annual credits and the fee depend on the law staying put.
-
-## Recommended allocation
-
-| Action | Item | Money (2030-39) | D4 treatment | Status after this review |
+| Budget (2030-39 outlays vs decided, 2025 $) | Best package | Net GHG below 2005: 2035 / 2040 / 2050 | Extra Gt avoided 2030-50 | 2040 bill |
 | --- | --- | --- | --- | --- |
-| Retain | REV-C1/C2/C3 and the Climate Dividend | channel | self-financing | decided; unchanged |
-| Retain | CLI-1A credits at the ledger's $0.90T (0.60-1.10) | unchanged | permanent | decided; unchanged. Vehicle credits are the lead redesign candidate *if* money is needed (income-targeted, used-EV and trade-in focus), and only once CLI-4E puts vehicle numbers in statute |
-| Retain | CLI-3 to CLI-8 and CLI-5F | unchanged | as decided | decided; unchanged |
-| **Add** | **Public grid delivery (CLI-10G)**: tranche 1, $60B (2025 $), obligated 2030-31 for reconductoring and plan-selected lines where no regional builder acts; tranche 2, $60B, released on delivery milestones (miles energized, GW of transfer capability, crews hired) | about $0.15T nominal gross; about $0.10T net in model accounting | time-limited capital, borrowing-eligible inside the D4-B investment envelope; TVA/BPA/WAPA lending at subsidy cost | proposed working allocation (delegation decision below), for Codex to integrate |
-| **Add (condition)** | Electrical and grid workforce pipeline tied to the tranches | $5-15B, inside LAB-8/LAB-10 | time-limited | proposed |
-| Develop | CLI-5W: tripled low-income heat-pump retrofits | about $0.084T nominal ($0.056-0.14T) | to be classified; recommend time-limited grants | development; not funded until financed |
-| Develop | Priced clean-industry procurement tranche (CLI-9, no reactor fleet) | contract price needed | full expected cost when obligated | development |
-| Develop | Standing pre-disaster mitigation fund with CLI-7 scoring | $3-6B a year (planning) | design choice | development; separate loss-reduction assessment |
-| Defer | Redirecting wind and solar credits to grid delivery | none booked | n/a | staged option after tranche 1 delivers, with bill protection |
-| Defer | Nuclear/reactor fleet (CLI-9N) | none | n/a | option |
+| Save at least $400B | credits redesigned, CES 90/100, higher price, grid, industry, process fee | 46% / 58% / 68% | +4.7 | +$2.65 |
+| Save at least $200B, bill under +$3 | credits redesigned, CES 90/100, higher price, grid, retrofits, industry, process fee | 46% / 58% / 69% | +5.1 | +$2.45 |
+| **No added cost, bill under +$3 (Package A)** | **credits redesigned, CES 90/100, vehicle standards, grid, retrofits, industry, process fee** | **47% / 60% / 70%** | **+6.8** | **+$2.32** |
+| No added cost (Package A with REV-C1H) | Package A plus the higher price | 48% / 62% / 73% | +9.1 | +$3.98 |
 
-**Financing note.** On October 26 the agency rebuild surge (CAP-7S) was cut from $300B to about $105B, which leaves about $195B less borrowing inside the D4-B investment envelope. The grid program qualifies as the same kind of time-limited capital. Whether to use part of that room for it, or keep the lower borrowing, is a fiscal choice for the integration owner and Espen. It is not automatic.
+**Layering: what each lever is worth inside Package A** (alone, then inside the package; Gt over 2030-50 / $B 2025 over 2030-39):
 
-## Proposed input deltas for Codex (not applied here)
+| Lever | Alone | Inside Package A | What the difference means |
+| --- | --- | --- | --- |
+| Credit redesign (standard-led) | −0.49 Gt / −$549B | −0.12 Gt / −$755B | Once standards bind, the credits pay for adoption the standards already require. Redesigning them saves more inside the package and costs fewer tons. |
+| Statutory vehicle standards (cars and trucks) | +3.49 / +$476B | +4.07 / +$284B | The biggest single lever. Alone, it looks expensive only because kept EV credits pay out on mandated sales. |
+| Public grid delivery | +1.62 / +$91B | +2.10 / +$123B | Worth more with the 90/100 standard and electrification: more clean load needs more grid. |
+| Clean-industry support | +0.68 / +$27B | +0.70 / +$27B | Independent of the rest. |
+| Low-income retrofits | +0.35 / +$67B | +0.41 / +$67B | Slightly more valuable on a cleaner grid. |
+| CES 90% by 2035 / 100% by 2040 | +0.19 / $0 | +0.23 / $0 | Small in tons while the fee is in place. It is the backstop that holds power-sector cuts if the fee goes. |
+| Process-emissions fee | +0.15 / about $0 outlay, +$0.11T receipts | +0.15 / $0 | Finances clean-industry contracts and removal. |
 
-1. **New program row CLI-10G, public grid delivery.**
-   - Budget authority: $120B in 2025 dollars, about $0.15T nominal over 2030-39.
-   - Timing: tranche 1 obligated FY2030-31, tranche 2 FY2032-33 subject to milestones. Outlays follow construction, roughly even over FY2031-39.
-   - Classification: D4-B time-limited investment, general fund.
-   - Do not net the model's ~$0.05T of subsidy offsets, and add no REV-C1 change to receipts. The model shows grid delivery lowering fee receipts by about $0.08T over 2030-39 as emissions fall. That is a real interaction for the channel, but it should be carried as a sensitivity, not a selected-baseline change, until Codex reconciles it with the incidence model's REV-C1 profile.
-2. **Workforce condition: $5-15B inside LAB-10's $100B (or LAB-8), tagged to CLI-10G.** This adds no new money unless Codex finds LAB-10 fully committed.
-3. **No change** to CLI-1, CLI-5 or the REV-C1/C2/C3 inputs, and no unscored climate saving.
-4. **Not yet a delta:** CLI-5W retrofits, clean-industry procurement and the mitigation fund stay as development items until financed or priced.
-5. **For the capacity integration (PR #24):** the DOE loan and grid office row (+400 staff, about $0.1B a year) was sized before CLI-10G. A public builder would also need TVA/BPA/WAPA or new-corporation project staff, mostly on their own balance sheets. I'd flag it as a known understatement rather than resize it now.
+**What doesn't earn a place.**
+- **Tripling the methane fee** without the certification exit *raises* emissions by 0.66 Gt. It weakens the incentive to certify against the leak standards, which cut methane 75%. Keep REV-C3 as decided.
+- **Faster coal retirement** adds almost nothing on top of the fee (+0.06 Gt). Keep CLI-11 as an option for its worker and community guarantees, not for tons.
+
+**Stress tests for Package A** (net GHG below 2005 in 2035 / 2050):
+
+| Case | Package A | Decided package |
+| --- | --- | --- |
+| Central | 47% / 70% | 43% / 64% |
+| Weak grid delivery | 46% / 70% | 43% / 64% |
+| 2037 repeal (fee ends, consumer credits closed) | 46% / 65% | 42% / 58% |
+
+Statutory standards and built grid assets are what survive a repeal.
+
+**Households in 2035** (carbon channel, change against the decided package):
+- bottom two quintiles: +$7 each;
+- middle quintile: +$1;
+- fourth quintile: −$13;
+- top quintile: −$60.
+
+The fourth-quintile change is small, but it is the D3 group to watch in Codex's incidence model.
+
+## 3. Credit phase-down timeline (recommended)
+
+The credits are worth most before standards and the grid take hold, and as insurance if those fail. The design keeps them as a bridge, ends them on a schedule tied to the instruments that replace them, and brings them back automatically if the replacements are repealed.
+
+| Credit | 2030 restoration | Step-down | Why | Model effect |
+| --- | --- | --- | --- | --- |
+| New-EV (30D) and commercial-vehicle (45W) credits | Restored with income limits ($150k/$300k) and price caps ($55k/$80k); the new-EV credit is about half the IRA value | End for vehicles placed in service after 2032, when the statutory standard requires about 60% zero-emission sales | After the standard binds, the credit pays for sales the law already requires. EV sales fell from about 8% to 5-6% of the market after the credit ended in 2025, so the credit matters while no standard binds, which is the bridge years | Most of the redesign's saving |
+| Used-EV credit (25E) and charging (30C) | Restored, income-qualified | Keep through 2039 | Reaches lower-income buyers; small cost | (inside the vehicle group) |
+| Heat-pump credit (25C) | Restored, point of sale | Keep through 2039; revisit with a clean-heat standard | Cheapest credit per ton (about $80) | Kept |
+| Wind, solar and storage (45Y/48E) | Restored, technology-neutral, direct pay | Phase down once power-sector CO2 falls below 600 Mt (about 2034-35 in Package A) instead of the IRA's 383 Mt trigger (about 2037). Projects that start construction before then keep their full credit (CLI-1E grandfathering) | With 90% clean power by 2035, statutory 100% by 2040 and public grid delivery, late credits mostly pay for projects that would be built anyway. Bills rise about $2.30 a month by 2040, offset for LMI households (below) | Saves outlays; about 0.1 Gt |
+| Industrial (48C, 45V) | Restored | Keep; move part into priced CLI-9 contracts | Industry is the slowest sector to cut emissions | Doubled support (contracts) |
+| Transmission ITC and 45X grid components (CLI-5) | As decided | Keep | Complements public grid delivery | Kept |
+| **Snap-back** | | If the carbon fee, the clean-power standard or the vehicle standard is repealed or enjoined, the matching credits revert to the IRA schedule automatically | This keeps the credits' insurance value without paying for it every year | Contingent cost; not modeled |
+
+**What the redesign is worth.**
+- **Savings.** Standard-led alone saves $0.70T nominal over 2030-39 in the model, about $0.35-0.70T in ledger terms. Inside Package A it saves $0.84T in the model, because stronger standards raise credit claims if the credits are kept. Against the decided package, Package A's credit outlays are $0.18-0.35T lower in ledger terms.
+- **What it costs.**
+  - About 0.12 Gt inside the package.
+  - A bill increase of about $4-28 a year per household over 2033-39. Offsetting it for low- and moderate-income households costs about $6B.
+- **Status.** These are model estimates. Count the low end in D4 tests until there is a JCT-style score.
+
+## 4. Grid delivery and its financing
+
+| Variant | Grants / loans / contracts ($B, 2025) | Deficit cost | Build enabled | Gross Treasury financing | Loan repayment on bills |
+| --- | --- | --- | --- | --- | --- |
+| All appropriated (round 1) | 120 / 0 / 0 | $120B | $120B | $120B | $0 |
+| **Lean tranche 1 (recommended first)** | 25 / 100 / 20 | **$28-40B (mid $32B)** | $165B | $129B | about +$1.20/month before system savings |
+| Full program if tranche 1 delivers | 40 / 200 / 40 | $46-70B | $320B | $248B | about +$2.50/month before system savings |
+
+**The three windows:**
+- **Federal construction and grants** go only to lines no regional builder will build and to reconductoring on federal power-marketing systems.
+- **Direct loans** go, at Treasury rates for 30-40 years, to a TVA-model federal transmission corporation, TVA, BPA, WAPA, public power and co-ops, repaid from transmission charges. They are scored at subsidy cost (1-8%). For scale, BPA's Treasury authority is $13.7B, rising to $17.7B in FY2028, and TVA's debt cap is $30B, unchanged since 1979. Both would need raising.
+- **Capacity contracts** let DOE buy up to half of an anchor line's capacity for 10-20 years and resell it. This expands the Transmission Facilitation Program, whose $2.5B revolving fund was nearly used up after two rounds. The contracts carry Judgment Fund backing, so they are a disclosed contingent liability.
+
+**Bills and delivery.**
+- **Bills.** DOE's National Transmission Planning Study finds $1.60-1.80 of system cost saved per $1 of transmission, so bills should fall on net. That saving is not banked.
+- **Delivery is the real limit, not money.**
+  - About 888 miles of 345 kV-plus line were finished in 2024, against about 5,000 a year needed.
+  - Interconnection queues held about 2,300 GW at the end of 2024.
+  - Weak delivery cuts the grid's value by about 40%.
+
+  The tranche 2 milestones are therefore physical: miles energized, transfer capability added and crews hired. A $5-15B electrical and grid workforce pipeline inside LAB-8/LAB-10 is a condition of both tranches.
+
+## 5. Whole-package budget, 2030-39
+
+Package A plus the core disaster tier, in $T nominal (low / mid / high). Detail is in the [pricing file](climate-portfolio-pricing.md).
+
+| Item | D4 class | Financing | $T nominal |
+| --- | --- | --- | --- |
+| Credit redesign under stronger standards (ledger terms) | permanent | reduces CLI-1 | −0.18 / −0.26 / −0.35 |
+| LMI bill protection, 2033-39 | permanent | general fund | +0.008 |
+| Disaster core, permanent pieces | permanent | general fund | +0.02 / +0.04 / +0.08 |
+| CLI-13 agricultural payments | permanent | general fund | +0.01 / +0.03 / +0.06 |
+| Public grid, lean tranche 1 | time-limited capital | D4-B; loans repaid by transmission charges | +0.03 / +0.04 / +0.05 |
+| Low-income heat-pump retrofits | time-limited capital | credit-redesign savings | +0.06 / +0.08 / +0.14 |
+| Disaster core, capital pieces (mitigation fund, wildfire) | time-limited capital | D4-B | +0.05 / +0.08 / +0.11 |
+| Clean-industry contracts | time-limited capital | process-fee receipts (+0.11) first | +0.02 / +0.03 / +0.05 |
+| CLI-13 forests and carbon-removal purchases | time-limited capital | process-fee receipts first | +0.04 / +0.08 / +0.15 |
+
+**Totals:**
+- **Permanent items:** a net saving even after paying for the retrofits (−$0.06 to −$0.10T).
+- **D4-B borrowing:** about $0.12T (0.09-0.16), about 61% of the freed room.
+- **Process-fee receipts:** about $0.11T, against about $0.11T of contracts and removal purchases.
+- **Not financed:** the disaster fuller tier (+$0.07T), still in development.
+
+## 6. Reaching the higher goals: what's left
+
+How far the model can go, adding steps cumulatively to Package A:
+
+| Step | Net GHG below 2005: 2035 / 2040 / 2050 | Outlays (2025 $) | 2040 bill |
+| --- | --- | --- | --- |
+| Package A | 47% / 60% / 70% | −$71B | +$2.32 |
+| + REV-C1H price ($150 by 2037) | 48% / 62% / 73% | −$50B | +$3.98 |
+| + clean-heat standard (heat-pump premium removed from 2032) | 48% / 63% / 74% | −$25B | +$4.97 |
+| + clean-industry support at 50% | 48% / 63% / 75% | +$29B | +$5.01 |
+| + price to $200 by 2037 | 49% / 64% / 76% | +$128B | +$6.08 |
+| + coal out by 2032 | 49% / 64% / 76% | +$113B | +$6.70 |
+
+**CLI-13, outside the model**, adds 60-250 Mt in 2035 and 250-730 Mt in 2050 (mid 135 and 500, about 2 and 8 points). It costs about $45-175B over 2030-39, mostly for removal purchases, which grow to $60-120B a year by 2050 at 300 Mt.
+
+**So with today's instruments the plan reaches roughly 50% in 2035 and 80-87% in 2050.** The 2035 NDC range and net zero need more. The next climate task should develop and price:
+1. **Faster turnover:** trade-in and scrappage for old vehicles and furnaces, plus appliance standards (CLI-1E rebates, CLI-8C electric-ready lending).
+2. **Industrial transformation:** a clean product standard (REV-C2B) and procurement at scale.
+3. **Data-center load:** a clean load standard (CLI-6C).
+4. **Larger and earlier removal**, with its cost growing after 2040.
+5. **A second, faster-responding model** to check how much of the 2035 gap is this model's caution. The model responds more slowly than NEMS, REGEN and E3 in the first decade.
+
+## 7. Single-lever findings (round 1, still valid)
+
+These are in the [single-lever comparison](climate-portfolio-model-results.md):
+- Public grid delivery costs about $24-43 per extra ton.
+- Heat-pump credits are cheap per ton.
+- Vehicle and wind/solar credits are expensive per extra ton while the fee and standards bind, but valuable as insurance.
+- Retrofits cost about $190-260 a ton.
+- The nuclear program costs about $300-340 a ton and is not selected; no reactor-fleet order.
+- Adaptation is priced on loss reduction (the disaster file), not tons.
+
+## Proposed deltas for Codex (not applied)
+
+1. **CLI-1 revision (standard-led credit redesign with snap-back).** Revise CLI-1's working cost from $0.90T toward $0.55-0.72T nominal over 2030-39. That is the ledger-scaled redesign saving inside Package A, low end counted until scored.
+2. **New CLI-10G, public grid delivery.**
+   - Tranche 1: $25B budget authority (grants), $100B direct loan authority (FCRA subsidy about $3B) and $20B contract authority (expected cost about $4B).
+   - Deficit cost about $0.04T nominal, D4-B time-limited.
+   - Tranche 2 is contingent on milestones.
+3. **CLI-5W, low-income heat-pump retrofits:** $67.5B (2025 $) over 2031-39, financed from the CLI-1 revision.
+4. **CLI-9 clean-industry contracts:** about $0.03T nominal, paired with the process-emissions fee (+$0.11T receipts, REV-C1 coverage option) for joint scoring with the revenue work.
+5. **CLI-3E and CLI-4E standards** (statutory; no direct outlay), and **CLI-7 disaster preparedness** (see that file).
+6. **CLI-13 and the higher price (REV-C1H)** stay outside the selected baseline until Espen decides REV-C1H and the off-model estimates are refined.
+7. **No change to REV-C3**, and no climate saving banked from abatement.
 
 ## Decisions
 
-**For Espen (goal level).**
-1. **Emissions benchmark.** Should the project's climate goal be the 2035 NDC range (61-66% below 2005) and net zero by 2050? The decided package reaches about 43% and 64% in this model. Closing that gap needs instruments beyond this allocation, not just a reallocation:
-   - CLI-4D/4E statutory caps and vehicle numbers;
-   - CLI-6C's clean load standard;
-   - CLI-13 and REV-C1C's ratchet.
+**Espen (goal level), recorded from this round.** Climate goals are revised higher: net zero by 2050, and the 2035 NDC range (61-66% below 2005) as the project's benchmark. Section 6 shows what remains to reach them.
 
-   It also needs a check of how conservative the model is in the first decade. If you set that goal, the next climate task is a gap-closing package. If not, the project should state the target it does hold itself to.
-2. **Using freed D4-B room.** Should part of the ~$195B of borrowing room freed by the smaller rebuild surge carry the grid program, or should that lower borrowing be kept?
+**For Espen now.**
+1. **REV-C1H.** Keep D7's start but raise the 2037 price from $100 to $150 a ton? It is the largest remaining lever (+2.3 Gt at no outlay). It costs the top two quintiles more, and the dividend keeps the bottom three positive.
+2. **The disaster fuller tier** (insurance help and buyouts): fund now, or after the core tier and codes? I recommend after.
 
-**Decided under the project-coworker delegation (recorded here; reversible).**
-- Public grid delivery is the principal climate addition, staged in two milestone-gated tranches, with a workforce condition. It goes to Codex as a proposed working allocation, not as an integrated input.
-- Credits stay at the decided level during this cycle. The wind/solar redirect and vehicle-credit retargeting are recorded as staged options, with no savings booked.
-- Adaptation is assessed on loss reduction, separately from tons.
-- The carbon model gained two cost settings (45W and 25C credit per sale). Their defaults reproduce existing outputs exactly.
+**Decided under the project-coworker delegation (recorded; reversible).**
+- **Package A** is the recommended climate allocation and goes to Codex as proposed deltas.
+- **Credits follow the standard-led step-down with snap-back.** This replaces round 1's "retain for now", because the package search shows the redesign on every efficient package.
+- **Grid financing** uses the three windows, starting with the lean tranche.
+- **Retrofits** are financed from credit savings rather than borrowing, to keep borrowing lower.
+- **The process-emissions fee** is proposed with its receipts going first to clean-industry contracts and removal purchases.
+- **CLI-7** is priced and its "unscored" status ends (disaster file).
 
 ## Limits
 
-- **One model.** The model is a single structural model, extended from Espen's earlier project. It is slower to cut emissions in the first decade than the large published models and carries no reliability, air-quality or regional congestion value.
-- **Assumed magnitudes.** The grid program's physical effect and cost, the retrofit cost and the workforce cost are planning assumptions. They are tested by sensitivity, not scored.
-- **Incomplete costs.** The model omits the cost of industrial support, and it books only partial-repeal behavior for power credits after 2037.
-- **What the cost column is.** It is undiscounted model outlays in 2025 dollars (a 3% discounted ratio is also shown). It is not a CBO score, and the ratios do not establish budget-neutral swaps.
-- **Bills.** The retail price tracks generation cost and does not add transmission capital recovery, so ratepayer-funded lines would raise bills where federal funding does not.
-- **Uncertainty.** No Monte Carlo band is run on the differences. The carbon model's own band for the package is 39-42% below 2005 in 2035.
+- **Assumed magnitudes.** One structural model, conservative in its first decade. The grid program's effect, the heavy-truck schedule, retrofit and workforce costs, and the industrial-support cost are planning estimates or assumptions, tested by sensitivity rather than scored.
+- **Proxies.** The vehicle-standard and clean-heat cases are proxies.
+- **Not modeled.** Credit snap-back and power-credit behavior after a 2037 repeal.
+- **Outside the model.** CLI-13 figures are planning estimates.
+- **What the costs are.** Outlays are model outlays plus named external costs, not CBO or JCT scores, and no Monte Carlo band is run on the differences.
+- **Bills.** Before transmission cost recovery and system savings.
 
 ## Current-world facts used (checked October 26, 2026)
 
-- **FY2026 appropriations.** The FY2026 Energy and Water act was enacted in January 2026, with DOE at about $49B. The Loan Programs Office now operates as the Office of Energy Dominance Financing, with existing loan authority kept. These come from secondary summaries ([Mintz](https://www.mintz.com/insights-center/viewpoints/2151/2026-02-02-washington-update-sustainable-energy-infrastructure), [BCSE](https://bcse.org/?p=33136)); I did not verify them against the enacted text.
-- **Wind and solar credits.** Credits require construction to have begun by about July 4, 2026, or service by the end of 2027, under IRS Notice 2025-42's physical-work test ([Wipfli](https://www.wipfli.com/insights/articles/tax-irs-notice-2025-42-new-guidance-on-beginning-of-construction)). That window has now closed. Household and vehicle credit end dates are as in [domain-climate.md](../domains/domain-climate.md).
-- **Interconnection queue.** About 1,400 GW of generation and 890 GW of storage were queued at the end of 2024 ([LBNL Queued Up 2025](https://emp.lbl.gov/publications/queued-2025-edition-characteristics)).
-- **Transmission build.** 888 miles of 345 kV-plus line in 2024 (revised), against about 5,000 a year needed ([ACEG/Grid Strategies](https://cleanenergygrid.org/?p=14494)).
-- **Grid award terminations.** DOE terminated 321 awards (about $7.56B) in October 2025, including GRIP transmission awards ([RTO Insider](https://www.rtoinsider.com/tag/grid-resilience-and-innovation-partnerships-grip-program), [Canary Media](https://canarymedia.com/articles/politics/trump-blocking-billions-to-fix-grid)). Totals differ by source.
-- **BRIC.** The cancellation was ruled unlawful in December 2025, and FEMA said in March 2026 that it would release the remaining funds ([Massachusetts AG](https://www.mass.gov/news/ag-campbell-secures-court-order-requiring-trump-administration-to-restore-billions-in-disaster-mitigation-funding)). I could not confirm later disbursement.
-- **NDC and Paris.** The U.S. NDC of December 2024 sets 61-66% below 2005 by 2035 and net zero by 2050. The Paris withdrawal took effect January 27, 2026. Rhodium projects 26-35% below 2005 by 2035 under current policy ([Taking Stock 2025](https://rhg.com/research/taking-stock-2025/)).
-- **Mitigation returns.** NIBS, [Natural Hazard Mitigation Saves 2019](https://www.nibs.org/files/pdfs/ms_v3_federalgrants.pdf): federal grants save $6 per $1.
-- **Electricians.** BLS [Occupational Outlook Handbook](https://www.bls.gov/ooh/Construction-and-Extraction/Electricians.htm): 818,700 in 2024, about 81,000 openings a year.
-- **Household electricity use.** EIA [FAQ 97](https://www.eia.gov/tools/faqs/faq.php?id=97&t=3): about 10,791 kWh a year (899 a month) in 2022.
-- **Weatherization cost cap.** DOE Weatherization [average cost per unit](https://www.energy.gov/cmei/scep/wap/average-cost-dwelling-unit); the 2025 state plan maximum is about $8,500 (Oklahoma draft plan).
+- **Wind and solar credits:** must have begun construction by about July 4, 2026, or be in service by the end of 2027 (IRS Notice 2025-42).
+- **EVs:** the federal EV credit ended September 30, 2025. EV share fell from 7.8% (2025) to about 5-6% in 2026 (Cox Automotive and Edmunds via [NPR, Sept 30, 2026](https://www.opb.org/article/2026/09/30/one-year-after-the-end-of-the-ev-tax-credit-is-the-future-still-electric/); [Electrek](https://electrek.co/2026/03/27/used-ev-sales-boom-new-ev-sales-drop-28-percent-q1-2026/)).
+- **Interconnection queues:** about 2,300 GW at the end of 2024 ([LBNL](https://emp.lbl.gov/publications/queued-2025-edition-characteristics)).
+- **Transmission build:** 888 miles of 345 kV-plus line in 2024 against about 5,000 needed ([ACEG/Grid Strategies](https://cleanenergygrid.org/?p=14494)).
+- **Transmission value:** $1.60-1.80 saved per $1 ([DOE NTP Study](https://www.energy.gov/node/4845558)).
+- **Reconductoring:** less than half the cost of new lines for similar capacity ([GridLab/Berkeley](https://pv-magazine-usa.com/2024/04/24/reconductoring-could-enable-764-gw-of-transmission-connected-solar-by-2035/)).
+- **Transmission Facilitation Program:** $2.5B borrowing authority, nearly used up ([DOE](https://www.energy.gov/edf/transmission-facilitation-program)).
+- **BPA and TVA borrowing:** BPA $13.7B rising to $17.7B ([BPA testimony 2024](https://www.energy.gov/sites/default/files/2024-05/May%2016%202024%20HNR%20BPA%20Final%20Testimony.pdf)); TVA debt cap $30B ([CRS R43172](https://www.everycrsreport.com/reports/R43172.html)).
+- **Grid award terminations:** DOE terminated about $7.56B of awards in October 2025.
+- **FY2026 appropriations:** the Energy and Water act gave DOE about $49B (secondary summaries).
+- **Conservation money:** OBBBA moved IRA conservation money into the EQIP/CSP baseline without climate targeting ([CRS IF13114](https://www.everycrsreport.com/files/2025-09-26_IF13114_d9ef5a7983a5670459a7562013109297a2bb79a4.html)).
+- **Direct air capture:** projected at $230-540 a ton by 2050 ([ETH Zurich via Carbon Herald](https://carbonherald.com/new-study-places-future-direct-air-capture-costs-230-540-range/)).
+- **NDC and Paris:** the U.S. NDC of December 2024 sets 61-66% by 2035; the Paris withdrawal took effect January 27, 2026. Rhodium projects 26-35% by 2035 under current policy ([Taking Stock 2025](https://rhg.com/research/taking-stock-2025/)).
+- **Electricians:** BLS counts 818,700 in 2024 ([OOH](https://www.bls.gov/ooh/Construction-and-Extraction/Electricians.htm)).
+- **Household electricity use:** EIA, 899 kWh a month ([FAQ 97](https://www.eia.gov/tools/faqs/faq.php?id=97&t=3)).
+- Disaster sources are in [the disaster file](climate-portfolio-disaster-resilience.md).
 
 ## Proposed queue update (for integration)
 
-Add a row: "Climate and grid portfolio allocation — review-ready (PR #26) | Claude Code | Common-baseline comparison; recommends staged public grid delivery (~$0.15T nominal, D4-B) with a workforce condition, credits retained, retrofits/procurement/adaptation in development | `sources/climate-portfolio-*`, `index/tools/climate-portfolio/`; deltas to Codex." Change the capacity row to "rounds 1-2 merged; surge ~$105B and FY2029 $5B decided (PR #25); integration in PR #24."
+Add a row: "Climate and grid portfolio allocation — review-ready (PR #26) | Claude Code | Package A (standard-led credits with snap-back, statutory CES 90/100 and vehicle standards, public grid via grants/loans/contracts, retrofits, clean-industry contracts, process fee) plus a priced CLI-7 disaster package; goal gap work next | `sources/climate-portfolio-*`, `index/tools/climate-portfolio/`, default-off carbon-model settings; deltas to Codex." Change the capacity row: rounds 1-2 merged, surge ~$105B and FY2029 $5B decided, integration in PR #24.
 
 ## Validation
 
-- **Tests.** `python3 index/tools/climate-portfolio/test_portfolio.py` passes all 12 checks:
-  - the selected case reproduces the carbon model's decided package exactly;
-  - cost-only changes leave emissions unchanged;
-  - weak delivery is lower;
-  - removing a credit group saves money and loses tons;
-  - unpriced cases report no cost per ton;
-  - combinations are non-additive;
-  - the committed report matches a fresh build.
-- **Carbon model.** `node index/tools/carbon/cfd-tests.js` passes.
-- **Rebuild.** `bash index/tools/run-all.sh` (dry run) leaves every shared generated output unchanged.
+- **Tests:**
+  - `python3 index/tools/climate-portfolio/test_portfolio.py`: 12 checks pass.
+  - `python3 index/tools/climate-portfolio/test_packages.py`: 26 checks pass, including every combination run, retrofit costs counted, frontier dominance, budget-cap winners verified, and committed outputs matching a fresh build.
+  - `node index/tools/carbon/cfd-tests.js`: passes.
+- **Rebuild:** `bash index/tools/run-all.sh` (dry run) leaves all 29 shared outputs unchanged.
