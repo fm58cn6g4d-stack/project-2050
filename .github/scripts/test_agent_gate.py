@@ -86,7 +86,7 @@ class Reviews(unittest.TestCase):
         return g.evaluate_reviews(items, HEAD, self.author, list(owners), POLICY)
 
     def test_other_vendor_approves_current_head(self):
-        self.assertTrue(self.ev([item(review())])[0])
+        self.assertTrue(self.ev([item(review(), app="chatgpt-codex-connector")])[0])
 
     def test_review_must_come_through_claimed_agents_app(self):
         # Claude Code posts through the 'claude' app; a Claude session cannot pass itself off as Codex.
@@ -95,10 +95,23 @@ class Reviews(unittest.TestCase):
         self.assertFalse(self.ev([item(review(who="codex t1"), app="claude")])[0])
 
     def test_stale_head_does_not_count(self):
-        self.assertFalse(self.ev([item(review(head="b" * 40))])[0])
+        self.assertFalse(self.ev([item(review(head="b" * 40), app="chatgpt-codex-connector")])[0])
+
+    def test_changes_requested_on_older_head_still_blocks(self):
+        old = item(review("changes-requested", head="b" * 40), t="2026-10-26T12:00:00Z", app="chatgpt-codex-connector")
+        other = item(review(who="claude-code session_B"), t="2026-10-26T13:00:00Z", app="claude")
+        ok, why, _ = self.ev([old, other])
+        self.assertFalse(ok)
+        self.assertIn("codex", why)
+        again = item(review(), t="2026-10-26T14:00:00Z", app="chatgpt-codex-connector")
+        self.assertTrue(self.ev([old, other, again])[0])
+
+    def test_codex_must_post_through_its_connector(self):
+        self.assertFalse(self.ev([item(review(), app=None)])[0])
+        self.assertFalse(self.ev([item(review(), app="claude")])[0])
 
     def test_short_sha_prefix_counts(self):
-        self.assertTrue(self.ev([item(review(head=HEAD[:12]))])[0])
+        self.assertTrue(self.ev([item(review(head=HEAD[:12]), app="chatgpt-codex-connector")])[0])
 
     def test_author_cannot_self_review(self):
         self.assertFalse(self.ev([item(review(who="claude-code session_A"))])[0])
@@ -108,20 +121,20 @@ class Reviews(unittest.TestCase):
         self.assertTrue(self.ev([item(review(who="claude-code session_B"), app="claude")])[0])
 
     def test_changes_requested_blocks_until_reapproved(self):
-        a = item(review(), t="2026-10-26T12:00:00Z")
-        b = item(review("changes-requested"), t="2026-10-26T13:00:00Z")
-        c = item(review(), t="2026-10-26T14:00:00Z")
+        a = item(review(), t="2026-10-26T12:00:00Z", app="chatgpt-codex-connector")
+        b = item(review("changes-requested"), t="2026-10-26T13:00:00Z", app="chatgpt-codex-connector")
+        c = item(review(), t="2026-10-26T14:00:00Z", app="chatgpt-codex-connector")
         self.assertFalse(self.ev([a, b])[0])
         self.assertTrue(self.ev([a, b, c])[0])
 
     def test_outsider_comment_ignored(self):
-        self.assertFalse(self.ev([item(review(), user="someone-else")])[0])
+        self.assertFalse(self.ev([item(review(), user="someone-else", app="chatgpt-codex-connector")])[0])
 
     def test_path_owner_must_review(self):
         ok, why, _ = self.ev([item(review(who="claude-code session_B"), app="claude")], owners=["codex"])
         self.assertFalse(ok)
         self.assertIn("codex", why)
-        self.assertTrue(self.ev([item(review(who="codex t1"))], owners=["codex"])[0])
+        self.assertTrue(self.ev([item(review(who="codex t1"), app="chatgpt-codex-connector")], owners=["codex"])[0])
 
     def test_author_from_body_or_branch(self):
         self.assertEqual(g.pr_author("x\nAgent-Author: codex task-9\n", "whatever", POLICY), ("codex", "task-9"))

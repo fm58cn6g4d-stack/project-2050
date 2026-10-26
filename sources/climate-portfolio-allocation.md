@@ -34,12 +34,17 @@ Nothing here changes an adopted input or a shared generated output. The proposed
 
    It now includes the carbon price Espen approved on October 26 ($150 a ton by 2037, up from $100, keeping D7's low start).
 
-   In the model it reaches 48% below 2005 in 2035, 62% in 2040 and 73% in 2050, against the decided package's 43%, 54% and 64%. Farms, forests and carbon removal (CLI-13, estimated outside the model) add about 2 points in 2035 and 8 in 2050. It **saves** about $50B in modeled outlays over 2030-39, and it still reaches 65% in 2050 after a 2037 repeal, against 58% for the decided package.
-2. **Yes, the credits should step down on a timeline.** Every efficient package redesigns them. The schedule is below. In ledger terms the redesign saves about $0.16-0.32T nominal over 2030-39 inside Package A. That pays for the low-income retrofits, disaster preparedness's permanent pieces and LMI bill protection, and still leaves a net permanent saving.
+   In the model it reaches 48% below 2005 in 2035, 62% in 2040 and 73% in 2050, against the decided package's 43%, 54% and 64%. Farms, forests and carbon removal (CLI-13, estimated outside the model) add about 2 points in 2035 and 8 in 2050. Its modeled climate outlays are about $50B lower than the decided package's over 2030-39. That is not a general-fund saving: the corrected budget in section 5 also counts the tax offset on the higher carbon price, bill protection and the disaster package. It still reaches 65% in 2050 after a 2037 repeal, against 58% for the decided package.
+2. **Yes, the credits should step down on a timeline.** Every efficient package redesigns them. The schedule is below. In ledger terms the redesign saves about $0.19-0.38T nominal over 2030-39 against the decided package; count the low end until scored. The savings fade to zero by about 2040, because the decided package's credits also wind down. They pay for the low-income retrofits and part of the permanent additions in this decade, but not after 2040.
 3. **Finance the grid mostly with loans and contracts.** A lean first tranche ($25B grants, $100B direct loans, $20B capacity contracts) costs about $32B in deficit terms ($28-40B) and enables about $165B of construction. That is more than the earlier $120B all-grant program, at about a quarter of the budget cost. A full second tranche ($40B, $200B and $40B) follows if delivery milestones are met.
-4. **Borrowing stays inside the room already freed.** Package A plus both disaster tiers borrows about $0.15T nominal under D4-B ($0.11-0.21T), roughly 78% of the ~$195B freed by the smaller rebuild surge. Permanent items about break even after paying for the retrofits and the fuller disaster tier: −$0.03T at the midpoint, ranging from −$0.035T to +$0.035T. Process-emissions fee receipts (~$0.25T) cover clean-industry contracts and removal purchases.
+4. **The corrected budget has a general-fund cost that needs a financing decision.** Two independent reviews (Codex and a separate Claude session) found that round 2 counted carbon receipts twice and double-counted industrial support. With those fixed (section 5):
+   - **General fund, 2030-39:** about +$89B in the central case (−$96B favorable to +$342B unfavorable). The biggest new item is the 25% income and payroll tax offset (CX) on the higher price's added receipts, about $150B. Under D7, 80% of the added receipts go to the dividend, so they cannot also pay for programs.
+   - **FY2040, the D4-B maturity year:** about break-even (−$14B central; −$39B to +$14B).
+   - **FY2050:** a continuing cost of about $41-62B a year nominal, mostly CX and the permanent disaster pieces, after the credit savings end.
+   - **D4-B borrowing:** about $0.15T (0.11-0.21T), inside the ~$195B freed room except in the unfavorable case, which overshoots by about $17B. If that happens, slow tranche 2 or the buyout pace.
+   - **The options to cover the cost change D7's dividend split, so they are Espen's** (Decisions, below).
 5. **The higher goals are not yet met, and the reason matters.** Espen raised the goals: net zero by 2050, and 61-66% below 2005 by 2035. Even with every instrument the model represents pushed hard (below), it tops out at about 49% in 2035 and 76% in 2050, or roughly 53% and 87% adding CLI-13's high estimates. The 2035 gap comes from how fast vehicle, building and equipment stocks turn over, and from this model being slower than the large published models in the first decade. Money is not what limits it. Closing the gap is the next climate task (section 6).
-6. **The approved higher price is the largest single addition after the vehicle standards.** It avoids 2.3 Gt more over 2030-50 at no outlay. It adds about $1.70 a month to the average 2040 bill and raises fee costs for the top two quintiles; the dividend keeps the bottom three positive. In 2035 the fourth quintile's carbon channel is about $79 a year worse than under the decided package, which Codex's incidence model needs to test against D3.
+6. **The approved higher price is the largest single addition after the vehicle standards.** It avoids 2.3 Gt more over 2030-50 with almost no program outlay. It does have a general-fund cost: the CX offset on its added receipts, about $150B over 2030-39 under D7's split. It adds about $1.70 a month to the average 2040 bill and raises fee costs for the top two quintiles; the dividend keeps the bottom three positive. In 2035 the fourth quintile's carbon channel is about $79 a year worse than under the decided package, which Codex's incidence model needs to test against D3.
 
 ## 1. How the search works
 
@@ -132,7 +137,7 @@ The credits are worth most before standards and the grid take hold, and as insur
 | **Snap-back** | | If the carbon fee, the clean-power standard or the vehicle standard is repealed or enjoined, the matching credits revert to the IRA schedule automatically | This keeps the credits' insurance value without paying for it every year | Contingent cost; not modeled |
 
 **What the redesign is worth.**
-- **Savings.** Standard-led alone saves $0.70T nominal over 2030-39 in the model, about $0.35-0.70T in ledger terms. Inside Package A it saves $0.84T in the model, because stronger standards raise credit claims if the credits are kept. Against the decided package, Package A's credit outlays are $0.16-0.32T lower in ledger terms.
+- **Savings.** Standard-led alone saves $0.70T nominal over 2030-39 in the model, about $0.35-0.70T in ledger terms. Inside Package A it saves $0.96T in the model, because stronger standards raise credit claims if the credits are kept. Against the decided package, Package A's credit outlays are $0.19-0.38T lower in ledger terms over 2030-39 (industrial support is now a separate line). They fall to zero by about 2040.
 - **What it costs.**
   - About 0.12 Gt inside the package.
   - A bill increase of about $4-28 a year per household over 2033-39. With the higher price the 2040 bill rises about $4 a month in total. Offsetting the bill increase for low- and moderate-income households costs about $19B nominal over 2033-39.
@@ -160,29 +165,44 @@ The credits are worth most before standards and the grid take hold, and as insur
 
   The tranche 2 milestones are therefore physical: miles energized, transfer capability added and crews hired. A $5-15B electrical and grid workforce pipeline inside LAB-8/LAB-10 is a condition of both tranches.
 
-## 5. Whole-package budget, 2030-39
+## 5. Whole-package budget by account, corrected after review
 
-Package A (with the approved price) plus both disaster tiers, in $T nominal (low / mid / high). Detail is in the [pricing file](climate-portfolio-pricing.md).
+Package A (with the approved price) plus both disaster tiers, in nominal $B, across four cases: favorable / central / conservative / unfavorable. The cases pair savings and costs consistently. Conservative counts only the low end of credit savings (the project rule until scored) with central costs. Year-by-year paths and every item are in the [pricing file](climate-portfolio-pricing.md).
 
-| Item | D4 class | Financing | $T nominal |
-| --- | --- | --- | --- |
-| Credit redesign under stronger standards (ledger terms) | permanent | reduces CLI-1 | −0.16 / −0.24 / −0.32 |
-| LMI bill protection, 2033-39 | permanent | general fund | +0.02 |
-| Disaster core, permanent pieces | permanent | general fund | +0.02 / +0.04 / +0.08 |
-| Disaster fuller tier: insurance help (D8) | permanent | general fund (credit savings) | +0.02 / +0.03 / +0.06 |
-| CLI-13 agricultural payments | permanent | general fund | +0.01 / +0.03 / +0.06 |
-| Public grid, lean tranche 1 | time-limited capital | D4-B; loans repaid by transmission charges | +0.03 / +0.04 / +0.05 |
-| Low-income heat-pump retrofits | time-limited capital | credit-redesign savings | +0.06 / +0.08 / +0.14 |
-| Disaster core, capital pieces (mitigation fund, wildfire) | time-limited capital | D4-B | +0.05 / +0.08 / +0.11 |
-| Disaster fuller tier: voluntary buyouts (D9) | time-limited capital | D4-B | +0.02 / +0.03 / +0.05 |
-| Clean-industry contracts | time-limited capital | process-fee receipts first | +0.04 / +0.05 / +0.07 |
-| CLI-13 forests and carbon-removal purchases | time-limited capital | process-fee receipts first | +0.04 / +0.08 / +0.15 |
+**What changed after review.**
+1. Under D7, 80% of the added REV-C1 receipts go to the dividend and 20% to the transition share. The general fund books a 25% tax offset (CX). Programs are now financed only from the transition share, and any shortfall is charged to the general fund.
+2. Industrial support is no longer inside the credit saving.
+3. NFIP debt resolution is included.
+4. Removal purchases are outside the package, because they grow to $60-120B a year by 2050.
+5. Annual FY2040 and FY2050 results test D4-B maturity.
 
-**Totals:**
-- **Permanent items:** about break-even after paying for the retrofits and the fuller disaster tier: −$0.03T at the midpoint, ranging from −$0.035T to +$0.035T. The low end of the credit savings would leave a small gap, closed by trimming retrofits or by the D7 transition share.
-- **D4-B borrowing:** about $0.15T (0.11-0.21), about 78% of the freed room.
-- **REV-C1 receipts:** up about $0.60T against the decided package (higher price and process coverage). Under D7, 80% returns as the dividend.
-- **Process-fee receipts:** about $0.25T, against about $0.13T of contracts and removal purchases.
+| Item | Account | 2030-39 | FY2040 | FY2050 |
+| --- | --- | --- | --- | --- |
+| Credit redesign (ledger terms) | general fund | −376 / −283 / −190 / −190 | −73 / −55 / −37 / −37 | 0 |
+| CX offset on added REV-C1 receipts | general fund | +150 | +24 | +30 |
+| LMI bill protection | general fund | +17 / +19 / +19 / +20 | +3 / +4 / +4 / +4 | +2 / +3 / +3 / +3 |
+| Disaster permanent pieces (D2, D3, D6, D7, D8) | general fund | +41 / +78 / +78 / +135 | +5 / +9 / +9 / +16 | +6 / +12 / +12 / +20 |
+| NFIP debt resolution (FY2030) | general fund | 0 / +2 / +2 / +7 | 0 | 0 |
+| CLI-13 agricultural payments | general fund | +12 / +31 / +31 / +62 | +1 / +3 / +3 / +7 | +2 / +4 / +4 / +9 |
+| Low-income retrofits (paid from credit savings) | general fund | +56 / +84 / +84 / +140 | 0 | 0 |
+| Public grid, lean tranche 1 | D4-B | +34 / +39 / +39 / +49 | 0 | 0 |
+| Disaster capital (D1, D5, D9) | D4-B | +73 / +112 / +112 / +163 | 0 | 0 |
+| Clean-industry contracts | carbon channel | +36 / +54 / +54 / +72 | +7 / +11 / +11 / +14 | 0 |
+| CLI-13 forests | carbon channel | +12 / +25 / +25 / +43 | 0 | 0 |
+
+| Result | Favorable / central / conservative / unfavorable |
+| --- | --- |
+| General fund, 2030-39 | −96 / +89 / +183 / +342 |
+| General fund, FY2040 | −39 / −14 / +4 / +14 |
+| General fund, FY2050 | +41 / +49 / +49 / +62 |
+| D4-B borrowing, 2030-39 (room about 195) | +108 / +152 / +152 / +212 |
+| Transition-share surplus left after contracts and forests | +74 / +49 / +49 / +22 |
+
+**Reading it.**
+- **The channel.** Added REV-C1 receipts are about $602B over 2030-39, of which $247B comes from process coverage. The dividend takes $482B and the transition share $120B. In 2035 the increment adds about $228 to each adult's dividend.
+- **The transition share** covers clean-industry contracts and forests, with about $49B left over in the central case. That surplus could offset part of the general-fund cost.
+- **D4-B maturity.** It roughly holds in FY2040 but fails after it: by FY2050 the package carries a continuing cost of about $50B a year nominal, about 0.1% of GDP, because the credit savings have ended while CX and the permanent disaster pieces continue. That needs a permanent financing source.
+- **D1 is labeled "standing" but priced as a ten-year program.** If it continues past 2039, it adds about $4.5B a year (2025 dollars) to the permanent line.
 
 ## 6. Reaching the higher goals: what's left
 
@@ -218,16 +238,17 @@ These are in the [single-lever comparison](climate-portfolio-model-results.md):
 
 ## Proposed deltas for Codex (not applied)
 
-1. **CLI-1 revision (standard-led credit redesign with snap-back).** Revise CLI-1's working cost from $0.90T toward $0.58-0.74T nominal over 2030-39. That is the ledger-scaled redesign saving inside Package A, low end counted until scored.
+1. **CLI-1 revision (standard-led credit redesign with snap-back).** Revise CLI-1's working cost over 2030-39 from $0.90T toward about $0.71T, the low end of the ledger-scaled saving ($0.19-0.38T). The saving is zero after about 2040. Reconcile the split between CLI-1 and CLI-5's ITC and 45X lines; the scaling denominator spans both.
 2. **New CLI-10G, public grid delivery.**
    - Tranche 1: $25B budget authority (grants), $100B direct loan authority (FCRA subsidy about $3B) and $20B contract authority (expected cost about $4B).
    - Deficit cost about $0.04T nominal, D4-B time-limited.
    - Tranche 2 is contingent on milestones.
 3. **CLI-5W, low-income heat-pump retrofits:** $67.5B (2025 $) over 2031-39, financed from the CLI-1 revision.
-4. **CLI-9 clean-industry contracts:** about $0.05T nominal, paired with the process-emissions fee (about +$0.25T receipts at the approved price, REV-C1 coverage option) for joint scoring with the revenue work.
+4. **CLI-9 clean-industry contracts:** about $0.05T nominal, financed from the transition share of the added REV-C1 receipts. The process-emissions fee (about +$0.25T gross at the approved price, a REV-C1 coverage option) is for joint scoring with the revenue work.
 5. **CLI-3E and CLI-4E standards** (statutory; no direct outlay), and **CLI-7 disaster preparedness**, core and fuller tiers, both funded (see that file).
 6. **The approved price (REV-C1H).** `carbon-parameters.csv` and `carbon-model.py` should keep D7's 2030-32 steps ($25, about $36, about $46) and then rise linearly to $150 in 2037, with 5% a year after. That needs a kink-year parameter, because changing only `c1_price_2037` would raise 2031-32 too. The change also updates REV-C1 receipts, the dividend, the CX offset and the incidence profile. CLI-13 stays outside the selected baseline until its estimates are refined.
 7. **No change to REV-C3**, and no climate saving banked from abatement.
+8. **Carry the CX offset on the added REV-C1 receipts** (about $150B over 2030-39, about $30B a year by FY2050) and the permanent disaster pieces in the FY2040+ maturity test.
 
 ## Decisions
 
@@ -238,12 +259,20 @@ These are in the [single-lever comparison](climate-portfolio-model-results.md):
 - **Decided:** the fuller disaster tier (D8 insurance help and D9 buyouts) is funded from FY2030 alongside the core tier. D8 does not wait for a reinsurance backstop; states must adopt CLI-8 codes within three years to keep it.
 - **Open for next turn:** the federal reinsurance backstop (CLI-7C).
 
+**For Espen now (from the review).** How should the general-fund cost of Package A and the disaster package be covered? It is about +$89B over 2030-39 in the central case and about $50B a year by FY2050.
+1. **Leave D7's 80/20 split** and finance the cost in the revenue work.
+2. **Send 25% of the added receipts to the general fund** to cover the CX offset. This covers about $150B over 2030-39, and the dividend's share of the increment falls to 55%: about $157 an adult in 2035 from the increment instead of about $228.
+3. **Keep process-emissions receipts outside the dividend**, about $198B more for programs over 2030-39. The dividend then comes only from fuel combustion.
+
+I lean toward option 2. It ties the higher price to its own fiscal cost and still leaves most of the increment with households.
+
 **Decided under the project-coworker delegation (recorded; reversible).**
 - **Package A** is the recommended climate allocation and goes to Codex as proposed deltas.
 - **Credits follow the standard-led step-down with snap-back.** This replaces round 1's "retain for now", because the package search shows the redesign on every efficient package.
 - **Grid financing** uses the three windows, starting with the lean tranche.
 - **Retrofits** are financed from credit savings rather than borrowing, to keep borrowing lower.
-- **The process-emissions fee** is proposed with its receipts going first to clean-industry contracts and removal purchases.
+- **Clean-industry contracts and forests** are financed from the transition share of the added receipts, not from receipts the dividend already uses.
+- **Removal purchases** stay outside the package until they have their own financing and maturity test.
 - **CLI-7** is priced and its "unscored" status ends (disaster file).
 
 ## Limits

@@ -44,6 +44,20 @@ check('a 2037 repeal lowers 2050 abatement', rob['recommended']['repeal2037']['n
 pr = json.loads((ROOT / 'build/climate-portfolio/climate-portfolio-pricing.json').read_text())
 lean = next(v for v in pr['grid_financing'] if v['id'] == 'lean')
 check('lean grid financing costs less than all-grant and builds more', lean['deficit_cost_bn'][1] < 120 and lean['physical_build_bn'] > 120)
+bu = pr['budget']
+ch = bu['channel']
+check('channel identity: dividend plus transition equals the added REV-C1 receipts',
+      abs(bu['dividend_bn']['window'] + bu['transition_bn']['window'] - bu['rev_c1_change_bn']['window']) < 1e-6 and abs(ch['dividend_share'] + ch['transition_share'] - 1) < 1e-12)
+items = {it['id']: it for it in bu['items']}
+check('CX offset is 25% of the added receipts', abs(items['cx']['window_bn']['central'] - ch['cx_share'] * bu['rev_c1_change_bn']['window']) < 1e-6)
+check('no receipt finances both the dividend and programs: channel uses are paid from the transition share or charged to the general fund',
+      all(abs(bu['results'][k]['channel_uses_window_bn'] - (bu['transition_bn']['window'] - bu['results'][k]['channel_surplus_window_bn'] + bu['results'][k]['channel_shortfall_window_bn'])) < 1e-6 for k in bu['cases']))
+check('general fund result is the sum of its items plus the channel shortfall',
+      all(abs(bu['results'][k]['general_fund_window_bn'] - sum(it['window_bn'][k] for it in bu['items'] if it['account'] == 'general fund') - bu['results'][k]['channel_shortfall_window_bn']) < 1e-6 for k in bu['cases']))
+check('industrial support is not inside the credit saving', 'industrial support excluded' in items['credits']['label'] and items['industry']['account'] == 'carbon channel')
+check('NFIP debt resolution is in the budget', items['nfip']['window_bn']['central'] > 0)
+check('cases pair savings and costs consistently', bu['results']['favorable']['general_fund_window_bn'] < bu['results']['central']['general_fund_window_bn'] < bu['results']['conservative']['general_fund_window_bn'] < bu['results']['unfavorable']['general_fund_window_bn'])
+check('permanent items continue after 2039 while time-limited items stop', items['disaster_perm']['fy2050_bn']['central'] > 0 and items['grid']['fy2040_bn']['central'] == 0 and items['retrofits']['fy2040_bn']['central'] == 0)
 check('disaster tiers sum their rows', abs(sum(r['ten_year_bn_2025'][1] for r in pr['disaster']['rows'] if r['tier'] == 'core') - pr['disaster']['tiers']['core']['ten'][1]) < 1e-9)
 for name in ('climate-portfolio-packages.md', 'climate-portfolio-pricing.md', 'climate-portfolio-disaster-components.csv'):
     built, committed = ROOT / 'build/climate-portfolio' / name, ROOT / 'sources' / name
