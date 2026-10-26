@@ -16,6 +16,6 @@ EDU3,ramp,,.35,1,1,1,1,1,1,1,1,1,universal meals from the 2030-31 school year (v
 EDU4,ramp,,1.4,1.4,1.4,1.2,1,.8,.5,.4,.4,.4,"pipeline surge front-loaded, tapering after 2034 (v1.3)"
 EDU,ramp,,.5,.7,.8,.9,1,1,1,1,1,1,IDEA glide path and Pell ramp (v1.3)
 EDUB,ramp,,.1,.4,.8,1,1,1,1,1,1,1,EDU-9B's added benefits ramp with pre-K (v1.3)
-C1,norm,,25,34.6,42.3,50.2,57.8,64.8,69.4,75.0,75.6,75.9,"carbon fee on the durability path: price $25-110 times an emissions index falling ~4% a year (estimate, v1.4)"
+C1,norm,,66.0,91.0,113.9,157.9,197.9,233.5,264.3,290.7,290.1,290.7,"carbon fee: the carbon model's year-by-year REV-C1 receipts on the revised D7 path ($25 in 2030, D7's steps to 2032, $150 by 2037; build/carbon.json c1_by_year_bn, Oct 26), replacing the v1.4 $25-110 profile"
 E2d,,C1,,,,,,,,,,,the dividend follows the fee
 E2t,,C1,,,,,,,,,,,the transition share follows the fee

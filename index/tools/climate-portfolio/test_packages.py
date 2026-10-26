@@ -63,6 +63,11 @@ check('disaster tiers sum their rows', abs(sum(r['ten_year_bn_2025'][1] for r in
 pay = bu['payment']
 check('O1 reproduces the D7 account result', all(abs(pay['O1']['cases'][k]['general_fund_window_bn'] - bu['results'][k]['general_fund_window_bn']) < 1e-6 for k in bu['cases']))
 check('O5 holds FY2040 and FY2050 at or below zero in every case', all(pay['O5']['cases'][k][f] <= 1e-6 for k in bu['cases'] for f in ('general_fund_fy2040_bn', 'general_fund_fy2050_bn')))
+# The $150 step's transition share is already credited to CLI-5 in the shared ledger (ledger-build.py), so O5 may move money only
+# from the dividend to the general fund: the general-fund gain over O1 must equal the dividend given up (PR #37 review)
+check('O5 spends no transition share twice', all(-1e-6 <= (pay['O1']['cases'][k]['general_fund_window_bn'] - pay['O5']['cases'][k]['general_fund_window_bn'])
+                                             - (pay['O1']['cases'][k]['dividend_window_bn'] - pay['O5']['cases'][k]['dividend_window_bn']) < 1.0 for k in bu['cases']))
+check('O4, which double counted the step, stays withdrawn', 'O4' not in pay)
 check('O5 costs households less than O3', all(a > b for a, b in zip(pay['O5']['dividend_change_per_household_avg_2030_39'], pay['O3']['dividend_change_per_household_avg_2030_39'])))
 check('reinsurance stays an option outside the funded tiers', next(r for r in pr['disaster']['rows'] if r['id'] == 'D10')['tier'] == 'option')
 for name in ('climate-portfolio-packages.md', 'climate-portfolio-pricing.md', 'climate-portfolio-disaster-components.csv'):

@@ -498,118 +498,57 @@
     ],
     "label": "Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund"
    },
-   "O4": {
-    "cases": {
-     "central": {
-      "dividend_2035_bn": -12.187074698984285,
-      "dividend_fy2050_bn": -47.24190683833268,
-      "dividend_vs_d7_fy2050_bn": -43.95378932981356,
-      "dividend_vs_d7_window_bn": -195.44474263510375,
-      "dividend_window_bn": -122.79038611540813,
-      "general_fund_fy2040_bn": -65.87920779955662,
-      "general_fund_fy2050_bn": -45.36011461799426,
-      "general_fund_window_bn": -208.62654092579388
-     },
-     "conservative": {
-      "dividend_2035_bn": -12.187074698984285,
-      "dividend_fy2050_bn": -47.24190683833268,
-      "dividend_vs_d7_fy2050_bn": -43.95378932981356,
-      "dividend_vs_d7_window_bn": -195.44474263510375,
-      "dividend_window_bn": -122.79038611540813,
-      "general_fund_fy2040_bn": -48.40219441551824,
-      "general_fund_fy2050_bn": -45.36011461799426,
-      "general_fund_window_bn": -121.46182287081618
-     },
-     "favorable": {
-      "dividend_2035_bn": -12.187074698984285,
-      "dividend_fy2050_bn": -47.24190683833268,
-      "dividend_vs_d7_fy2050_bn": -43.95378932981356,
-      "dividend_vs_d7_window_bn": -195.44474263510375,
-      "dividend_window_bn": -122.79038611540813,
-      "general_fund_fy2040_bn": -96.80862096994004,
-      "general_fund_fy2050_bn": -53.58926900411758,
-      "general_fund_window_bn": -430.4993620358044
-     },
-     "unfavorable": {
-      "dividend_2035_bn": -12.187074698984285,
-      "dividend_fy2050_bn": -47.24190683833268,
-      "dividend_vs_d7_fy2050_bn": -43.95378932981356,
-      "dividend_vs_d7_window_bn": -195.44474263510375,
-      "dividend_window_bn": -122.79038611540813,
-      "general_fund_fy2040_bn": -31.06899278208669,
-      "general_fund_fy2050_bn": -32.30670333596416,
-      "general_fund_window_bn": 82.63201716495794
-     }
-    },
-    "dividend_change_per_adult_2050": -160.25503449037663,
-    "dividend_change_per_adult_avg_2030_39": -71.25893910290576,
-    "dividend_change_per_household_2050": [
-     -208.33154483748962,
-     -272.43355863364025,
-     -320.51006898075326,
-     -352.5610758788286,
-     -384.6120827769039
-    ],
-    "dividend_change_per_household_avg_2030_39": [
-     -92.63662083377749,
-     -121.14019647493978,
-     -142.5178782058115,
-     -156.76966602639268,
-     -171.0214538469738
-    ],
-    "label": "O3, plus the $150 step's unassigned transition increment (20% of the step) to the carbon channel"
-   },
    "O5": {
     "cases": {
      "central": {
       "dividend_2035_bn": 10.064942303104372,
-      "dividend_fy2050_bn": -20.122129829000055,
-      "dividend_vs_d7_fy2050_bn": -16.83401232048093,
+      "dividend_fy2050_bn": -20.944159206129836,
+      "dividend_vs_d7_fy2050_bn": -17.65604169761071,
       "dividend_vs_d7_window_bn": -58.30672894250341,
       "dividend_window_bn": 14.347627577192211,
-      "general_fund_fy2040_bn": -34.63544168974387,
+      "general_fund_fy2040_bn": -17.457816612284798,
       "general_fund_fy2050_bn": 0.0,
-      "general_fund_window_bn": -68.16032239674432
+      "general_fund_window_bn": 21.471604269185764
      },
      "conservative": {
       "dividend_2035_bn": 10.064942303104372,
-      "dividend_fy2050_bn": -20.122129829000055,
-      "dividend_vs_d7_fy2050_bn": -16.83401232048093,
-      "dividend_vs_d7_window_bn": -58.30672894250341,
-      "dividend_window_bn": 14.347627577192211,
-      "general_fund_fy2040_bn": -17.15842830570548,
+      "dividend_fy2050_bn": -20.944159206129836,
+      "dividend_vs_d7_fy2050_bn": -17.65604169761071,
+      "dividend_vs_d7_window_bn": -70.41149875225707,
+      "dividend_window_bn": 2.242857767438549,
+      "general_fund_fy2040_bn": 0.0,
       "general_fund_fy2050_bn": 0.0,
-      "general_fund_window_bn": 19.00439565823341
+      "general_fund_window_bn": 96.53155251440984
      },
      "favorable": {
       "dividend_2035_bn": 10.064942303104372,
-      "dividend_fy2050_bn": -11.892975442876732,
-      "dividend_vs_d7_fy2050_bn": -8.604857934357607,
+      "dividend_fy2050_bn": -12.715004820006513,
+      "dividend_vs_d7_fy2050_bn": -9.426887311487388,
       "dividend_vs_d7_window_bn": -58.30672894250341,
       "dividend_window_bn": 14.347627577192211,
-      "general_fund_fy2040_bn": -63.030923169578244,
+      "general_fund_fy2040_bn": -48.38722978266821,
       "general_fund_fy2050_bn": 0.0,
-      "general_fund_window_bn": -260.2598082738138
+      "general_fund_window_bn": -200.40121684082476
      },
      "unfavorable": {
-      "dividend_2035_bn": 10.064942303104372,
-      "dividend_fy2050_bn": -33.175541111030164,
-      "dividend_vs_d7_fy2050_bn": -29.88742360251104,
-      "dividend_vs_d7_window_bn": -85.18392485687656,
-      "dividend_window_bn": -12.529568337180937,
+      "dividend_2035_bn": -1.1098472047638293,
+      "dividend_fy2050_bn": -33.997570488159944,
+      "dividend_vs_d7_fy2050_bn": -30.70945297964082,
+      "dividend_vs_d7_window_bn": -140.2830166120698,
+      "dividend_window_bn": -67.62866009237416,
       "general_fund_fy2040_bn": 0.0,
       "general_fund_fy2050_bn": 0.0,
-      "general_fund_window_bn": 192.8928349431851
+      "general_fund_window_bn": 230.75387469037122
      }
     },
-    "dividend_change_per_adult_2050": -61.376624545093335,
+    "dividend_change_per_adult_2050": -64.37373465078976,
     "dividend_change_per_adult_avg_2030_39": -21.25856951169393,
     "dividend_change_per_household_2050": [
-     -79.78961190862134,
-     -104.34026172665867,
-     -122.75324909018667,
-     -135.02857399920535,
-     -147.303898908224
+     -83.68585504602669,
+     -109.43534890634258,
+     -128.7474693015795,
+     -141.62221623173747,
+     -154.49696316189542
     ],
     "dividend_change_per_household_avg_2030_39": [
      -27.636140365202113,
@@ -618,7 +557,7 @@
      -46.768852925726655,
      -51.020566828065434
     ],
-    "label": "Process fee pays the package's net cost: the step's transition increment goes to the carbon channel; process receipts then cover any remaining general-fund cost of the package each year; the rest follows D7"
+    "label": "Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7"
    },
    "step_transition_bn": {
     "fy2040": 17.17762507745907,
@@ -1415,8 +1354,8 @@
   "index/tools/climate-portfolio/packages.json": "222b6ee21f2661acd391c91cd1af51c05b3b8d38e32f0d0c064760a9a438c440",
   "index/tools/climate-portfolio/packages.py": "6be178873b30f8a5c72d7b7855dfd8315c14e2add9becb734ad4191233a606a1",
   "index/tools/climate-portfolio/portfolio.py": "44e6e083df4cd8330082dc21c646732a06fbad079d4044a0d0de6d36ea9a48e3",
-  "index/tools/climate-portfolio/pricing.json": "b2abfc54eb7d05f9fa7a8e9e658db1a2855ee7535104636d39031073ae479e06",
-  "index/tools/climate-portfolio/pricing.py": "9a414229588171825fab839617a2d130634669002474a6410835dcfb689f1e90",
+  "index/tools/climate-portfolio/pricing.json": "91ff9572d174658d93772d7f66a9d86a5c427454b7d3656565a03c463f5bae63",
+  "index/tools/climate-portfolio/pricing.py": "1b9ef63ccb324b8abe3d4d454f2f20c02eda1e45fa8d6534083c25b85c8b2fe1",
   "index/tools/climate-portfolio/run.js": "109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae"
  }
 }

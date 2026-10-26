@@ -9,8 +9,14 @@
   },
   {
    "path": "index/data/inputs/ledger-bills.csv",
-   "sha256": "521d66730d8f117b2bfc40e3b055494fdde8b5b0066adef0adef0619630553fa",
-   "reason": "Carbon price revised to $150 by 2037 (Espen, Oct 26): REV-C1 1.45 -> 1.90, CLI-2 1.16 -> 1.52, CX -0.38 -> -0.49 ($T, 2030-39 mid)",
+   "sha256": "ab3097451af2d31556435877a524083dedbf74d9f87eb26ed822e0b705c0d191",
+   "reason": "Carbon price revised to $150 by 2037 (Espen, Oct 26): REV-C1 1.45 -> 1.90, CLI-2 1.16 -> 1.52, CX -0.38 -> -0.49 ($T, 2030-39 mid); CLI-5's own-revenue column and note follow the full 20% share (0.43), as ledger-build.py already computes (PR #37 review)",
+   "approved": "Espen, Oct 26 (price); rebase made by Claude Code under Espen's instruction to act for Codex while offline, pending Espen's approval of PR"
+  },
+  {
+   "path": "index/data/inputs/fiscal-years.csv",
+   "sha256": "66a042b96af144bed87f7b8ab9d2b44ec35aa1d713afef70e0da00962151ecc5",
+   "reason": "CX year shape re-derived from the carbon model on the $150 path (25% of REV-C1 and REV-C3 by year): -18 ... -73 $B, was -18 ... -52 (PR #37 review, Oct 26)",
    "approved": "Espen, Oct 26 (price); rebase made by Claude Code under Espen's instruction to act for Codex while offline, pending Espen's approval of PR"
   }
  ]

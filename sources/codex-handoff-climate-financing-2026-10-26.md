@@ -24,15 +24,15 @@
 - Gap $5.60T → $5.62T.
 - Gap after accepted options +$0.74T → +$0.76T.
 - DEC ten-year GF primary deficit $2.03T → $2.05T.
-- 2056 debt 155.1% → 155.5%.
-- **DEC FY2040 GF primary gap $53.7B → $65.0B (0.120% of GDP)**.
+- 2056 debt 155.1% → 155.7%.
+- **DEC FY2040 GF primary gap $53.7B → $71.9B (0.133% of GDP)**.
 - Incidence scenario Q, fourth quintile, +$1,373 → +$1,261.
 
 **For Codex to check:**
 - D3 incidence at the higher price. The top two quintiles pay more fee and all get a larger dividend.
-- Whether the $11B FY2040 deterioration changes the revenue settlement's sizing.
+- Whether the $18B FY2040 deterioration changes the revenue settlement's sizing. Part of it comes from the C1 and CX year shapes now following the carbon model (`incidence-phase-in.csv` C1, `fiscal-years.csv` CX; PR #37 review).
 
-**Unassigned money:** the $150 step's transition share. CLI-2's own revenue is $1.90T and its dividend cost $1.52T, which leaves $0.38T. CLI-5 counts $0.29T of that, so about **$0.09T sits unassigned** in the carbon-fee channel. Claude proposes assigning it under O5 (below). Until Espen approves, it is not booked to anything.
+**The $150 step's transition share is already spent.** `ledger-build.py` computes CLI-5's own revenue as 0.2 × C1 + C2 + C3, so the step's ~$0.09T lowers CLI-5's general-fund residual (0.26 → 0.17). That is part of why claims fell to $11.50T. An earlier draft called it "unassigned"; the reviewer caught that, and the CLI-5 row's own-revenue column (0.43) and note now match the computed value.
 
 ## 2. Climate package (research paths only; proposed deltas)
 
@@ -59,24 +59,22 @@ The CLI-1/CLI-5 split of the credit scaling is still open.
 
 ## 3. Payment: proposed O5, pending Espen
 
-Five options are computed in `pricing.py` (`budget.payment`). Under O5:
+Four options are computed in `pricing.py` (`budget.payment`). O4 was withdrawn because it double counted the step. Under O5:
 - The process-emissions fee has its own account, like REV-C3.
-- The $150 step's unassigned transition increment (~$93B, 2030-39) goes to the carbon channel (CLI-9 contracts, CLI-13 forests).
-- Each year, process receipts then cover any remaining general-fund cost of the package. The remainder goes to the dividend under D7.
+- Each year, process receipts cover any remaining general-fund cost of the package. The remainder goes to the dividend under D7.
 - The combustion fee keeps D7's 80/20 split.
 
 Results (nominal $B, favorable / central / conservative / unfavorable):
-- GF 2030-39: −260 / −68 / +19 / +193.
-- FY2040: −63 / −35 / −17 / 0.
+- GF 2030-39: −200 / +21 / +97 / +231.
+- FY2040: −48 / −17 / 0 / 0.
 - FY2050: 0 in all four cases.
-- Dividend change per consumer unit: −$28 to −$51 a year over 2030-39 (lowest to highest quintile) and −$80 to −$147 in 2050.
+- Dividend change per consumer unit: −$28 to −$51 a year over 2030-39 (lowest to highest quintile) and −$84 to −$154 in 2050.
 
 Under D7 as is (O1), the GF figures are +80 central over 2030-39 and +18 in FY2050.
 
 **If approved, ledger work for Codex:**
 1. Add a process-fee row (REV-C1 coverage, about $0.24T gross over 2030-39, CX at 25%) with its waterfall.
-2. Assign the $0.09T to CLI-9 and forests.
-3. Book the package's permanent items (disaster D2-D8, CLI-13 farm payments, bill protection) as covered by that waterfall in the FY2040+ test.
+2. Book the package's permanent items (disaster D2-D8, CLI-13 farm payments, bill protection) as covered by that waterfall in the FY2040+ test.
 
 ## 4. CLI-7C reinsurance backstop: designed, recommended, pending Espen
 

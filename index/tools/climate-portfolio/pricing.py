@@ -219,10 +219,11 @@ PAY_OPTIONS = {
     'O1': 'D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall',
     'O2': 'CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment',
     'O3': 'Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund',
-    'O4': "O3, plus the $150 step's unassigned transition increment (20% of the step) to the carbon channel",
-    'O5': "Process fee pays the package's net cost: the step's transition increment goes to the carbon channel; process receipts then cover any remaining "
-          "general-fund cost of the package each year; the rest follows D7",
+    'O5': "Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost "
+          "(carbon-channel shortfall and general-fund items); the rest follows D7",
 }
+# O4 (withdrawn Oct 26 after review): it also spent the $150 step's transition increment, which the shared ledger already credits to CLI-5
+# (ledger-build.py: CLI-5 own revenue = 0.2 x C1 + C2 + C3), so it double counted.
 QUINTILE_ADULTS = (1.3, 1.7, 2.0, 2.2, 2.4)   # adults per consumer unit, lowest to highest quintile (index/climate-carbon-model.md)
 
 
@@ -245,12 +246,10 @@ def payment_options(pr, items, cases, years, w10, d_rev, d_proc, defl, ch, step_
                     d, trans, gf_rcpt = (ch['dividend_share'] - ch['cx_share']) * inc, ch['transition_share'] * inc, ch['cx_share'] * inc
                 else:
                     d, trans, gf_rcpt = ch['dividend_share'] * comb, ch['transition_share'] * comb + proc, 0.0
-                    if o == 'O4':
-                        trans += ch['transition_share'] * step_rev[y] * defl(y)
                 if o == 'O5':
-                    d, trans, gf_rcpt = ch['dividend_share'] * inc, ch['transition_share'] * inc + ch['transition_share'] * step_rev[y] * defl(y), 0.0
+                    d, trans, gf_rcpt = ch['dividend_share'] * inc, ch['transition_share'] * inc, 0.0
                 short, surplus = max(0.0, chan - trans), max(0.0, trans - chan)
-                gf[y] = gf_items + cx + short - gf_rcpt - (surplus if o in ('O3', 'O4') else 0.0)
+                gf[y] = gf_items + cx + short - gf_rcpt - (surplus if o in ('O3', 'O5') else 0.0)
                 if o == 'O5':
                     divert = min(max(0.0, gf[y]), ch['dividend_share'] * max(0.0, proc))
                     gf[y] -= divert; d -= divert
@@ -310,8 +309,9 @@ def report(pr, d):
           "Each option applies to the package's increment over the decided package (the $150 path is already in the shared ledger). "
           "General fund is nominal $B, favorable / central / conservative / unfavorable; a negative is a saving. The dividend columns are the change against D7 per consumer unit, "
           "central case, nominal dollars, lowest to highest quintile (adults per unit 1.3 / 1.7 / 2.0 / 2.2 / 2.4). "
-          f"The $150 step's transition share not yet assigned in the shared ledger is about ${bu['payment']['step_transition_bn']['window']:,.0f}B over 2030-39 "
-          f"(${bu['payment']['step_transition_bn']['fy2040']:,.0f}B in FY2040). Options O2-O5 change how D7's split applies to new receipts, so they are Espen's.", '',
+          f"The $150 step's own transition share (about ${bu['payment']['step_transition_bn']['window']:,.0f}B over 2030-39 in the model) is already credited to CLI-5 in the shared ledger "
+          "(CLI-5's own revenue is 20% of REV-C1 plus REV-C2 and REV-C3), so no option spends it again; O4, which did, is withdrawn. "
+          "Options O2, O3 and O5 change how D7's split applies to new receipts, so they are Espen's.", '',
           '| Option | General fund 2030-39 | FY2040 | FY2050 | Dividend change per unit, 2030-39 average | Dividend change per unit, 2050 |',
           '| --- | --- | --- | --- | --- | --- |'] + [
           f"| **{o}**: {bu['payment'][o]['label']} | {' / '.join(P.fmt(bu['payment'][o]['cases'][k]['general_fund_window_bn'], 0, sign=True) for k in C)} | "

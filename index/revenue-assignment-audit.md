@@ -49,7 +49,7 @@ REV-C1's original design included a border adjustment on imports, and the Thrivi
 
 | | Current (mid, $T) | Note |
 | --- | --- | --- |
-| REV-C1 gross | 1.35 (1.20-1.50) | Domestic fee, $25 a ton in 2030 rising to ~$100 by 2037; road fuels exempt (D7) |
+| REV-C1 gross | 1.35 (1.20-1.50) | Domestic fee, $25 a ton in 2030 rising to ~$100 by 2037; road fuels exempt (D7); historical row: $1.90T (1.65-2.10) on the $150 path since Oct 26 |
 | Dividend (80%) | 1.08 | CLI-2 |
 | Transition share (20%) | 0.27 | To CLI-5 |
 | REV-C2 border adjustment | 0.20 (0.15-0.25) | Counted once, to CLI-5; includes methane and industrial fees |
@@ -59,7 +59,7 @@ REV-C1's original design included a border adjustment on imports, and the Thrivi
 
 **What it costs.** Keeping the border adjustment out of the dividend's base means about $0.02T less dividend over ten years (80% of REV-C2 at its Oct 21 size), a few dollars an adult a year. That is a distributional cost, not a fiscal one, and it lands on the quintile the D3 test is least sure about: the fourth quintile gets a smaller dividend and bears the border adjustment's pass-through with no rebate behind it. The incidence model carries both (the $1.08T dividend, and REV-C2 as a full pass-through cost).
 
-**Governing doc.** D7 shows the instruments separately: REV-C1 (~$1.45T), REV-C2 (~$0.03T) and REV-C3, the methane charge (~$0.02T), with about 80% of REV-C1 rebated per adult.
+**Governing doc.** D7 shows the instruments separately: REV-C1 (~$1.90T on the $150 path since Oct 26; ~$1.45T before), REV-C2 (~$0.03T) and REV-C3, the methane charge (~$0.02T), with about 80% of REV-C1 rebated per adult.
 
 **Open:** REV-C2's $0.15-0.25T is scaled from a combined Thriving Economy figure for the border adjustment and methane fees, so methane fees are not additional money unless REV-C2 is re-sized. Sizing the two separately would firm up both REV-C2 and CLI-5.
 
@@ -107,7 +107,7 @@ The rule is that trust-fund and other dedicated-channel revenues and outlays are
 | Social Security | 2.83 | 0.25 | SS-1 row and the channel table (D8 baseline) |
 | Medicare HI | 1.20 | 0.85 | H1a row; HLT-6's Part A share; channel table (finding 3) |
 | Paid leave | 0.90 | 0.90 | P1 row and FAM-3's gross outlay |
-| Carbon fee | 1.45 | 1.45 | C1 row; CLI-2's $1.16T dividend plus the $0.29T transition share |
+| Carbon fee | 1.90 | 1.90 | C1 row; CLI-2's $1.52T dividend plus the $0.38T transition share ($150 path, Oct 26) |
 | Carbon border adjustment | 0.20 | 0.60 | C2 row; CLI-5's gross add-ons, residual to the general fund (finding 2) |
 | Surface transportation | 0.39 | 0.39 | MR1-MR6 receipts; MOV-29 and MOV-30 general-fund top-ups counted separately |
 | Public safety | 0.09 | 0.12 | PS1 row; SAF-10's gross outlay, residual (~$2.9B a year) to the general fund |
@@ -173,8 +173,8 @@ The accepted path clears the good case and falls about $0.32T short of the bad o
 
 The channel architecture holds up. One fund per permanent benefit with a natural stream, the general fund for everything else, no new trust funds for pay-fors — applied consistently, and both genuine double-assignments came from edits that landed in one file and not its neighbours, not from the design. GX and OX show the project prices an overlap across channels.
 
-The household net test remains the binding constraint on the closing path. The incidence model is built on the post-carve-out figures (a $1.16T dividend, and the border adjustment's pass-through counted as a cost with no rebate behind it); on scenario Q every income group below the top comes out ahead, with the fourth quintile at about +$1,261 under retained allocation proxies a year.
+The household net test remains the binding constraint on the closing path. The incidence model is built on the post-carve-out figures (a $1.52T dividend on the $150 path, and the border adjustment's pass-through counted as a cost with no rebate behind it); on scenario Q every income group below the top comes out ahead, with the fourth quintile at about +$1,261 under retained allocation proxies a year.
 
 ## October 24 family adoption: current financing state
 
-FAM-1D/AFA and one million total new HOU-4A awards replace the earlier base. Working claims rise $0.49T, to $11.59T, against an unchanged $5.99T base. After the Oct 26 $150-by-2037 carbon price (which raises CX to about −$0.49T and moves CLI-2's dividend to the higher receipts), claims are $11.50T, the base $5.88T and the gap $5.62T; existing accepted revenue and investment borrowing leave $0.76T. DEC's FY2040 GF primary shortfall is about $65.0B; the earlier narrow-pass statements above are historical. D4's rule, HI reserve and borrowing boundaries are unchanged; no new financing is adopted. The expanded voucher increment has a fully permanent component path. D3 allocations remain proxies pending exact AFA/housing mapping. See [the adoption bridge](../sources/family-adoption-architecture-bridge.md).
+FAM-1D/AFA and one million total new HOU-4A awards replace the earlier base. Working claims rise $0.49T, to $11.59T, against an unchanged $5.99T base. After the Oct 26 $150-by-2037 carbon price (which raises CX to about −$0.49T and moves CLI-2's dividend to the higher receipts), claims are $11.50T, the base $5.88T and the gap $5.62T; existing accepted revenue and investment borrowing leave $0.76T. DEC's FY2040 GF primary shortfall is about $71.9B; the earlier narrow-pass statements above are historical. D4's rule, HI reserve and borrowing boundaries are unchanged; no new financing is adopted. The expanded voucher increment has a fully permanent component path. D3 allocations remain proxies pending exact AFA/housing mapping. See [the adoption bridge](../sources/family-adoption-architecture-bridge.md).
