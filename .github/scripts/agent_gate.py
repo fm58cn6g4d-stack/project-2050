@@ -18,12 +18,14 @@ security against an agent that ignores the rules; see governing/agent-automation
 import argparse
 import csv
 import fnmatch
+import http.client
 import io
 import json
 import os
 import re
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 from collections import Counter
@@ -342,6 +344,20 @@ def espen_approval(events, policy):
 # ------------------------------------------------------------------------------------------------
 # GitHub API (GITHUB_TOKEN from Actions)
 # ------------------------------------------------------------------------------------------------
+RETRY_DELAYS = (2, 4, 8, 16)
+# Transport failures worth retrying. URLError covers failures while connecting; the others can escape from
+# urlopen() or r.read(): RemoteDisconnected and IncompleteRead (HTTPException), ConnectionResetError
+# (ConnectionError) and timeouts. HTTPError is handled separately, before these.
+TRANSIENT = (urllib.error.URLError, http.client.HTTPException, ConnectionError, TimeoutError)
+
+
+def repeatable(method, path):
+    """Whether repeating a call that may already have succeeded is harmless."""
+    if method in ("GET", "PATCH", "PUT", "DELETE"):
+        return True
+    return method == "POST" and ("/statuses/" in path or path.endswith("/labels"))
+
+
 class GitHub:
     def __init__(self, repo, token):
         self.repo, self.token = repo, token
@@ -352,12 +368,29 @@ class GitHub:
         req.add_header("Authorization", f"Bearer {self.token}")
         req.add_header("Accept", "application/vnd.github+json")
         req.add_header("X-GitHub-Api-Version", "2022-11-28")
-        try:
-            with urllib.request.urlopen(req) as r:
-                raw = r.read()
-                return json.loads(raw) if raw else None
-        except urllib.error.HTTPError as e:
-            raise RuntimeError(f"{method} {path}: {e.code} {e.read().decode()[:300]}") from None
+        # GitHub's API sometimes answers 502/503/504 or drops the connection for a moment; retry those with
+        # backoff rather than fail the gate (a 502 on Oct 26 left PR #32's review unprocessed). A failed write
+        # may still have been applied, so only calls that are safe to repeat are retried: reads, statuses,
+        # label additions, edits, deletions and the merge (which merge_with_patience checks afterwards). New
+        # comments and issues are not retried, so a hiccup cannot post a second @-mention.
+        delays = RETRY_DELAYS if repeatable(method, path) else ()
+        for attempt, wait in enumerate((*delays, None)):
+            try:
+                with urllib.request.urlopen(req) as r:
+                    raw = r.read()
+                    return json.loads(raw) if raw else None
+            except urllib.error.HTTPError as e:
+                if method == "DELETE" and e.code == 404 and attempt:
+                    return None  # the earlier, failed-looking attempt had already deleted it
+                if e.code not in (502, 503, 504) or wait is None:
+                    raise RuntimeError(f"{method} {path}: {e.code} {e.read().decode()[:300]}") from None
+                problem = e.code
+            except TRANSIENT as e:  # includes failures while reading the response body
+                if wait is None:
+                    raise RuntimeError(f"{method} {path}: {type(e).__name__}: {e}") from None
+                problem = type(e).__name__
+            print(f"{method} {path}: {problem}; retrying in {wait}s")
+            time.sleep(wait)
 
     def pages(self, path):
         out, page = [], 1
@@ -476,15 +509,37 @@ def gate(args, policy):
 
     if ready:
         print(f"Merging #{n} at {head}")
-        gh.call("PUT", f"/pulls/{n}/merge", {"merge_method": "merge", "sha": head,
-                                             "commit_title": f"Merge PR #{n}: {pr['title']}"[:250],
-                                             "commit_message": f"Tier {tier}; {rev_desc}. Merged by the agent gate."})
+        merge_with_patience(gh, n, {"merge_method": "merge", "sha": head,
+                                    "commit_title": f"Merge PR #{n}: {pr['title']}"[:250],
+                                    "commit_message": f"Tier {tier}; {rev_desc}. Merged by the agent gate."})
         if tier == 2:
             gh.call("POST", f"/issues/{n}/comments", {"body": f"@{policy['espen_logins'][0]} merged automatically as "
                     "tier 2 (auto-merge and notify). Headline numbers that moved:\n\n" + headline_table(cls) + "\n\n" + FOOTER_BOT})
     else:
         print(f"Not merging: {why_not}")
     return 0
+
+
+def merge_with_patience(gh, n, body, delays=None):
+    """Merge, waiting briefly if GitHub has not yet registered the statuses this run just set.
+
+    On Oct 26 the gate set merge-tier and agent-review to success and asked to merge within a second; GitHub
+    refused with 405 "2 of 3 required status checks are pending". Retry only that refusal."""
+    for wait in (*(MERGE_DELAYS if delays is None else delays), None):
+        try:
+            return gh.call("PUT", f"/pulls/{n}/merge", body)
+        except RuntimeError as e:
+            # A merge that GitHub applied before an error reached us (or before a retry) is a success.
+            if (gh.call("GET", f"/pulls/{n}") or {}).get("merged"):
+                print("The PR is merged.")
+                return {"merged": True}
+            if wait is None or " 405 " not in f" {e} " or "pending" not in str(e):
+                raise
+            print(f"Merge refused while statuses register; retrying in {wait}s")
+            time.sleep(wait)
+
+
+MERGE_DELAYS = (3, 6, 12)
 
 
 FOOTER_BOT = "---\n_Posted by the Project 2050 agent gate (`.github/scripts/agent_gate.py`)._"
