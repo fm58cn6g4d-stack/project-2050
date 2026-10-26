@@ -102,6 +102,18 @@ def program_ids(text):
     return set(POLICY_ID.findall(text or ""))
 
 
+_DOMAIN_IDS = {}
+
+
+def all_domain_ids(rev):
+    if rev not in _DOMAIN_IDS:
+        ids = set()
+        for path in git("ls-tree", "-r", "--name-only", rev, "--", "domains").splitlines():
+            ids |= program_ids(file_at(rev, path))
+        _DOMAIN_IDS[rev] = ids
+    return _DOMAIN_IDS[rev]
+
+
 # ------------------------------------------------------------------------------------------------
 # Headline numbers, read from committed generated files (the drift check makes them match the inputs)
 # ------------------------------------------------------------------------------------------------
@@ -210,9 +222,11 @@ def classify(base, head, policy):
         if tier == "domain":
             before = file_at(f"{base}", old) if st != "A" else ""
             after = file_at(head, path) if st != "D" else ""
-            if program_ids(before) != program_ids(after):
-                gained = sorted(program_ids(after) - program_ids(before))
-                lost = sorted(program_ids(before) - program_ids(after))
+            # A program is new if no domain file mentioned it before, removed if no domain file mentions it after;
+            # citing an existing program from another domain file is not a new program.
+            gained = sorted(program_ids(after) - program_ids(before) - all_domain_ids(base))
+            lost = sorted(program_ids(before) - program_ids(after) - all_domain_ids(head))
+            if gained or lost:
                 tier, why = 3, "program IDs added/removed: " + ", ".join([f"+{i}" for i in gained] + [f"-{i}" for i in lost])
             elif st == "M" and wording_only(*diff_lines(base, head, path)):
                 tier, why = 1, "domain wording fix (same numbers and IDs)"

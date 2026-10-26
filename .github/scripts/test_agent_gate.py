@@ -156,6 +156,7 @@ class Classify(unittest.TestCase):
         self.tmp = tempfile.mkdtemp()
         self.old_root = g.ROOT
         g.ROOT = self.tmp
+        g._DOMAIN_IDS.clear()
         self.git("init", "-q", "-b", "main")
         self.git("config", "user.email", "t@example.com"); self.git("config", "user.name", "t")
         self.write("domains/domain-x.md", "# X\n\nHLT-1 costs $10B. The plan is good.\n")
@@ -198,6 +199,16 @@ class Classify(unittest.TestCase):
         res = g.classify(self.base, self.commit("d"), POLICY)
         self.assertEqual(res["tier"], 3)
         self.assertTrue(any("+HLT-9" in r[2] for r in res["reasons"]))
+
+    def test_citing_existing_program_is_not_new(self):
+        self.write("domains/domain-y.md", "# Y\n\nNothing yet.\n")
+        base = self.commit("y")
+        self.write("domains/domain-y.md", "# Y\n\nWorks with HLT-1.\n")
+        self.assertEqual(g.classify(base, self.commit("cite"), POLICY)["tier"], 2)
+
+    def test_removed_program_is_tier3(self):
+        self.write("domains/domain-x.md", "# X\n\nThe plan is good.\n")
+        self.assertEqual(g.classify(self.base, self.commit("rm"), POLICY)["tier"], 3)
 
     def test_governing_is_tier3(self):
         self.write("governing/rules.md", "Rule, reworded.\n")
