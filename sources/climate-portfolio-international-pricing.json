@@ -1,0 +1,182 @@
+{
+ "adaptation_2030_39_bn": [
+  20.0,
+  40.0,
+  60.0
+ ],
+ "avg_price": [
+  15.88888888888889,
+  30.637254901960784,
+  61.07142857142856
+ ],
+ "cli13_mt_2035": [
+  60,
+  135,
+  250
+ ],
+ "cost_2030_39_bn": [
+  26.0975,
+  114.0625,
+  436.905
+ ],
+ "cost_2030_39_nominal_tn": [
+  0.03296313966402223,
+  0.14406966636373353,
+  0.5518444500396448
+ ],
+ "cost_2035_bn": [
+  3.575,
+  15.625,
+  59.849999999999994
+ ],
+ "domestic_2035": [
+  0.4841851421116927,
+  0.4956600503124271,
+  0.5132549095535531
+ ],
+ "gap_mt_2035": {
+  "61%": [
+   632.3259111579766,
+   747.3259111579764,
+   822.3259111579763
+  ],
+  "66%": [
+   959.1259111579769,
+   1074.1259111579766,
+   1149.1259111579766
+  ]
+ },
+ "loss_and_damage_2030_39_bn": [
+  10.0,
+  20.0,
+  30.0
+ ],
+ "package_a_2035": 0.4750052155511052,
+ "points_2035": [
+  0.03442472460220318,
+  0.07802937576499389,
+  0.1499388004895961
+ ],
+ "source_sha256": {
+  "index/tools/climate-portfolio/international.json": "f1944e67b8c321f591dd17f6106f7af434d89efdee788e4a8571b97747605ad8",
+  "index/tools/climate-portfolio/international.py": "cf50e9b23a7eeaccbccc36e0f33de11b62b26939f990a478148a01b2ad337a77",
+  "sources/climate-portfolio-packages.json": "0ee70e15b68df00c0bfe3a977d473a20b79ea5b965edebd86887f4105ec1fb9d"
+ },
+ "sources": [
+  {
+   "basis": "estimate: the IEA finds about 70% of fossil methane (nearly 85 Mt CH4, roughly 2.4 Gt CO2e) abatable with existing technology and about 30% (35 Mt CH4) at no net cost at 2025 prices (Global Methane Tracker 2026). Payments buy speed and verification where capital, not price, is the barrier; no-cost tons raise additionality questions, so they need jurisdiction-wide baselines",
+   "cost_2035_bn": [
+    0.8800000000000001,
+    3.75,
+    12.25
+   ],
+   "id": "methane",
+   "label": "Oil, gas and coal-mine methane abroad: results payments to producers and regulators, verified by satellite and measurement",
+   "mt_2035": [
+    100,
+    200,
+    350
+   ],
+   "price": [
+    8,
+    15,
+    25
+   ]
+  },
+  {
+   "basis": "sourced range: LEAF Coalition purchases jurisdictional credits, reported $10 a ton floor; Nepal's January 2026 agreement is up to 4 Mt for up to $55M (about $14 a ton); Ghana and Costa Rica (2023) over $60M. Jurisdictional accounting addresses leakage better than project credits; permanence needs buffers",
+   "cost_2035_bn": [
+    0.66,
+    3.75,
+    14.7
+   ],
+   "id": "forests",
+   "label": "Jurisdictional forest results (national or state programs, ART-TREES style), with Indigenous and local community safeguards",
+   "mt_2035": [
+    50,
+    150,
+    300
+   ],
+   "price": [
+    12,
+    20,
+    35
+   ]
+  },
+  {
+   "basis": "estimate: ADB's first ETM deal (Cirebon-1, 660 MW) targets retirement in 2035 instead of 2042 and up to 30 Mt avoided over 15 years; its financial terms are undisclosed",
+   "cost_2035_bn": [
+    0.8250000000000001,
+    3.75,
+    14.0
+   ],
+   "id": "coal",
+   "label": "Early coal retirement and grid results contracts (Energy Transition Mechanism and JETP style)",
+   "mt_2035": [
+    50,
+    100,
+    200
+   ],
+   "price": [
+    15,
+    30,
+    50
+   ]
+  },
+  {
+   "basis": "sourced: Switzerland's bilateral purchases about $36 a ton; vendor indications $30-50. As of May 2026, 128 bilateral agreements but only five completed transfers (65,000 ITMOs): the market barely exists yet",
+   "cost_2035_bn": [
+    0.66,
+    2.5,
+    8.399999999999999
+   ],
+   "id": "itmo",
+   "label": "Article 6.2 programs: renewables, efficiency, e-mobility and industry, bilateral with corresponding adjustments",
+   "mt_2035": [
+    20,
+    50,
+    100
+   ],
+   "price": [
+    30,
+    40,
+    60
+   ]
+  },
+  {
+   "basis": "estimate: durable removal prices remain $100s a ton; direct air capture projected at $230-540 a ton by 2050 (ETH Zurich 2024)",
+   "cost_2035_bn": [
+    0.55,
+    1.875,
+    10.5
+   ],
+   "id": "removals",
+   "label": "Durable removals abroad (biochar, mineral weathering, direct air capture)",
+   "mt_2035": [
+    5,
+    10,
+    30
+   ],
+   "price": [
+    100,
+    150,
+    250
+   ]
+  }
+ ],
+ "tons_2030_39_gt": [
+  1.6425,
+  3.723,
+  7.154
+ ],
+ "total_2035": [
+  0.5300847749146302,
+  0.573689426077421,
+  0.6455988508020232
+ ],
+ "volume_mt_2035": [
+  225,
+  510,
+  980
+ ]
+}
