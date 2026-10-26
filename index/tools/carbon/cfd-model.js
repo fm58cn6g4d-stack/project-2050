@@ -76,6 +76,7 @@ const CFD = (() => {
     //   usable before output is wasted; CLI-5 Weatherization able to fund heat pumps as extra conversions of fossil-heated low-income homes.
     cesAcp: 40, cesGain: 300, gsTx: 0.3, gsCurt: 0.02, wxHomes: 0.25,
     crItc: 0.38, crPtc: 34, crEv: 6800, crEvTake: 0.85, crUsed: 1000, crTruck: 0.08, crHp: 6.9, crPack: 15, crYears: 10, crCharge: 0.03, crInd: 0.15, // ITC and PTC include average bonus adders (ASSUMED 8 points and 10%)
+    crTruckCost: 20000, crHpCost: 3000, // average 45W and 25C credit per sale ($), so a case that removes one credit can also remove its cost
   };
   // Monte Carlo ranges [low, high] around the central value (triangular)
   const RANGES = {
@@ -227,7 +228,7 @@ const CFD = (() => {
       const stdTrk = pol.standards && y >= 2032 ? (y <= 2037 ? 0.05 + 0.05 * (y - 2032) : Math.min(0.65, 0.30 + 0.027 * (y - 2037))) : 0; // successor rules: 65% by 2050
       const trkS = soft(stdTrk, logistic(w.trkAsc + w.trkBeta * (dslPe / 6.8 - 2.0 * eCom / 100 - tprem)));
       if (y > Y0) trkE += (trkS - trkE) / 14;
-      if (crCons) credCost += crCons * 0.55 * trkS * 20000 * erode / 1000; // 45W: 0.55m truck sales (ASSUMED), $20k average
+      if (crCons) credCost += crCons * 0.55 * trkS * w.crTruckCost * erode / 1000; // 45W: 0.55m truck sales (ASSUMED), $20k average
       const trk = E25.transport * TR.trk * Math.pow(1.005, n) * (1 - trkE) * Math.pow(dslP / w.diesel, w.trkElast);
       const trkTWh = E25.transport * TR.trk * Math.pow(1.005, n) * trkE / 0.0102 / 6.8 * 2.0 / 1000; // Mt -> bn gal -> bn mi -> TWh
       if (y > Y0) saf += 0.15 * (w.safMax[0] * logistic((Pe - w.safCost[0]) / 40) + w.safMax[1] * logistic((Pe - w.safCost[1]) / 80) - w.safMax[0] * logistic(-w.safCost[0] / 40) - w.safMax[1] * logistic(-w.safCost[1] / 80) - saf); // low-carbon jet fuel: waste oils first (limited supply), then alcohol-to-jet and synthetic
@@ -239,7 +240,7 @@ const CFD = (() => {
       // --- buildings: heating stock turnover ---
       const fossH = (w.gasBldg + EF.gas * 1000 * Pe / 1000) / 0.85, hpH = ((eRes + eCom) / 2) / 100 * 293.07 / 2.8;
       const hpS = logistic(w.hpAsc - w.hpBeta * (hpH + w.hpPrem - crCons * w.crHp * erode - fossH));
-      if (crCons) credCost += crCons * 84 * (1 - hp) / 18 * hpS * 3000 * erode / 1000; // 25C: 84m fossil-heated homes (ASSUMED from RECS shares)
+      if (crCons) credCost += crCons * 84 * (1 - hp) / 18 * hpS * w.crHpCost * erode / 1000; // 25C: 84m fossil-heated homes (ASSUMED from RECS shares)
       if (y > Y0) hp += (1 - hp) / 18 * hpS + (pol.weatherize && y >= 2031 ? w.wxHomes / 84 * (1 - hp) : 0); // CLI-5: Weatherization funds heat pumps, about wxHomes million low-income homes a year
       if (pol.weatherize && y >= 2031) credCost += 0; // its cost is CLI-5's ledger row, not modeled here
       bEff += 0.2 * ((1 - Math.pow((w.gasBldg + 53.1 * P / 1000) / w.gasBldg, w.bldgElast)) - bEff);
