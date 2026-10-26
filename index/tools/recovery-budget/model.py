@@ -170,6 +170,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
             for y in Y: losses[y]+=p[y]
         for y in range(2040,2057): losses[y]+=-old['G11']['gf'][str(y)]*st['g11_post2039_loss_fraction']
     extras={k:f.row_path(b,s[k+'_tn'],dict(ramp=4,grow='gdp')) for k in ('housing_extra','participation','delivery_contingency')}
+    housing_admin=f.row_path(b,s['housing_base_admin_tn'],dict(ramp=4,grow='cpi',perm=1))
     irs_risk=f.row_path(b,s['irs_receipt_risk_tn'],f.PR.REVENUE['G8'],'G8')
     # Reductions are explicit smaller authorizations, not unspent holdbacks or efficiency claims.
     savings={y:sum(old[k]['gf'][str(y)]*(1-s[key]/amt) for k,key,amt in
@@ -218,6 +219,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         entry('Paid leave actual contributions and benefits',revenue=lv['receipts']*factor-leave_offset,outlay=lv['benefits']*factor)
         entry('Recovery credit',outlay=credit(y)*credit_multiple)
         entry('Smaller capacity and AI authorizations',outlay=-savings[y])
+        entry('HOU-4A PHA administration correction',outlay=housing_admin[y])
         entry('IRS yield allowance with smaller capacity budget',revenue=-irs_risk[y])
         # Advance part of the remaining surge, conserving lifetime cash.
         early=s['early_admin_bn'] if y==2029 else -s['early_admin_bn'] if y==2030 else 0

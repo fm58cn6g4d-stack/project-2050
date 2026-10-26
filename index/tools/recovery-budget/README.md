@@ -218,3 +218,10 @@ outputs. JSON also records hashes of its immediate build inputs. The prior fisca
 CSV/input vintage is unchanged; notices identify this successor where the earlier
 aggregate education reconciliation is superseded. The public product is not
 rebuilt or deployed. The next substantive assignment is the financing/protection settlement under the standing delegation. PR #20 merge is authorized; its modeled tax schedules are not automatically selected.
+
+
+## PR #22 integration
+
+The overlay now carries a $250B G8 risk allowance, with the accepted agency allocations inside unchanged capacity envelopes. A separate $12.2B housing-administration component corrects the whole adopted million-voucher package, with a four-year CPI-growing permanent path, once in the consolidated budget. Historical ledger components remain unchanged. The additional housing envelope remains $135B; reach is unresolved. Downside G8 loss is $150B, eliminating remaining counted receipts rather than implying negative enforcement collections. These are planning assumptions, not an official score.
+
+The initial financing/protection screen is separate at `index/tools/financing-protection/screen.py`; it calls the same model without altering adopted inputs and writes JSON to stdout. Its report explains why quintile averages cannot certify household protection.

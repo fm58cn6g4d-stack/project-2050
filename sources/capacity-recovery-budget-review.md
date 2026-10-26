@@ -221,8 +221,8 @@ The review found that the old implied increment ($90.8B over 2030-39) was not a 
 ## Proposed input changes (for the owners; not made here)
 
 1. **`recovery-adoption.json` (Codex).**
-   - **No change** to `cap_surge_tn` (0.3), `cap_sustained_tn` (0.3) or `irs_receipt_risk_tn` (0.2).
-   - Optionally, record a *proposed, not adopted* allocation block with the four agencies' midpoints:
+   - **No change** to `cap_surge_tn` (0.3), `cap_sustained_tn` (0.3) . Set `irs_receipt_risk_tn` to 0.25 as decided below.
+   - Record the accepted working allocation block with the four agencies' midpoints:
      - IRS 9.0 surge / 92.4 sustained;
      - CMS 8.0 / 14.5;
      - HUD 2.8 / 10.4;

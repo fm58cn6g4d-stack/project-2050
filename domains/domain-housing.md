@@ -255,3 +255,6 @@ Every housing row is a benefit, with no tax that reaches the middle. HOU-4 and H
 ## Accepted housing-security development direction, October 26
 
 Develop a guarantee for extremely-low-income renters alongside public/nonprofit acquisition, repair and construction, durable affordability and a lawful federal sponsor/backstop where state participation fails. The guarantee should replace waiting-list luck for its defined population. HOU-4D is the bounded current spending step; it is not the complete guarantee’s price or adoption of HOU-4C’s unpriced eligibility proxy. Resolve eligibility, supply, federal/state responsibilities and funding in the joint development. Preserve existing HOU-4A benefits while doing so.
+
+
+**PR #22 fee correction integrated, October 26.** Add a rounded $12.2B FY2030–39 PHA administration planning allowance to the whole HOU-4A $150B midpoint, not merely its $90B expansion. Recovery-budget carries it once as a fully permanent CPI-growing housing component; historical HOU-1/HOU-4 ledger vintages remain intact. Total working midpoint is thus $162.2B, subject to unresolved rent/lease-up assumptions. HOU-4D remains $135B; applying 8.1% rather than 5% administration reduces illustrative reach about 2.9%, without selecting an award count. This is distinct from HUD federal staffing inside CAP.

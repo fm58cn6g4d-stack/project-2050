@@ -10,6 +10,13 @@ class BudgetTests(unittest.TestCase):
         cls.hashes={p:hashlib.sha256((M.ROOT/p).read_bytes()).hexdigest() for p in cls.paths}
         cls.d=M.run(); cls.f,cls.b,cls.m,cls.u=M.load()
 
+    def test_capacity_integration_single_housing_charge(self):
+        c=self.d['cases']['mixed']
+        housing=[r for r in c['audit'] if r['line']=='HOU-4A PHA administration correction' and r['year'] in M.W]
+        self.assertAlmostEqual(sum(r['primary_outlay_change_bn'] for r in housing),12.2)
+        self.assertAlmostEqual(sum(r['revenue_change_bn'] for r in c['audit'] if r['line']=='IRS yield allowance with smaller capacity budget' and r['year'] in M.W),-250)
+        self.assertEqual(M.ADOPTION['spending']['cap_sustained_tn'],.3)
+
     def test_component_gross_net_identity_and_named_old_scope(self):
         for r in self.d['education_components']:
             self.assertAlmostEqual(r['full_fund_outlays_bn'],r['current_law_transfer_bn']+r['old_agenda_transfer_bn']+r['change_over_old_agenda_bn'])

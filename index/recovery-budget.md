@@ -4,15 +4,15 @@
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
-| mixed | 119.4% | 113.9% | 3.63% | True | 1.35 |
-| larger_payroll | 119.0% | 112.2% | 3.46% | True | 1.05 |
-| mixed_downside | 125.0% | 136.5% | 5.49% | False | 5.10 |
-| mixed_all_debt_rate_plus1 | 130.9% | 150.1% | 6.45% | False | 5.14 |
-| mixed_no_macro_translation | 119.2% | 112.5% | 3.47% | True | — |
-| mixed_reserve_corridor | 119.4% | 113.9% | 3.63% | True | — |
-| mixed_corridor_downside | 125.0% | 136.5% | 5.49% | False | — |
-| mixed_legacy_education_floor | 119.4% | 114.1% | 3.64% | True | — |
-| mixed_larger_credit | 123.8% | 118.4% | 3.75% | True | — |
+| mixed | 119.5% | 114.4% | 3.67% | True | 1.40 |
+| larger_payroll | 119.2% | 112.6% | 3.50% | True | 1.10 |
+| mixed_downside | 125.1% | 136.6% | 5.49% | False | 5.11 |
+| mixed_all_debt_rate_plus1 | 131.1% | 150.6% | 6.49% | False | 5.20 |
+| mixed_no_macro_translation | 119.3% | 112.9% | 3.51% | True | — |
+| mixed_reserve_corridor | 119.5% | 114.4% | 3.67% | True | — |
+| mixed_corridor_downside | 125.1% | 136.6% | 5.49% | False | — |
+| mixed_legacy_education_floor | 119.6% | 114.5% | 3.68% | True | — |
+| mixed_larger_credit | 123.9% | 118.9% | 3.79% | True | — |
 
 The last column is the total broad-tier rate required under this static tax-yield proxy, replacing the proposed two-point broad tier, with the high tier unchanged. It is not a tax score.
 
@@ -30,11 +30,11 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | Fixed-grant comparison, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2029 | 6261 | 7015 | 6261 | 8410 | 1345 | 2149 | 107.5% |
-| 2030 | 6534 | 7364 | 7358 | 9670 | 1457 | 2312 | 109.7% |
-| 2035 | 7898 | 8732 | 10179 | 12469 | 2011 | 2291 | 117.0% |
-| 2039 | 9294 | 10409 | 12268 | 14723 | 2414 | 2455 | 119.4% |
-| 2045 | 11831 | 13205 | 16004 | 18423 | 3025 | 2419 | 117.5% |
-| 2056 | 17910 | 20097 | 24091 | 27567 | 4345 | 3476 | 113.9% |
+| 2030 | 6534 | 7364 | 7357 | 9671 | 1457 | 2314 | 109.7% |
+| 2035 | 7898 | 8732 | 10173 | 12472 | 2012 | 2299 | 117.0% |
+| 2039 | 9294 | 10409 | 12261 | 14727 | 2416 | 2466 | 119.5% |
+| 2045 | 11831 | 13205 | 15995 | 18431 | 3031 | 2436 | 117.7% |
+| 2056 | 17910 | 20097 | 24078 | 27586 | 4362 | 3508 | 114.4% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 

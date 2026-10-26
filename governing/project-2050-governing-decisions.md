@@ -470,7 +470,7 @@ Espen, on the [capacity review](../sources/capacity-recovery-budget-review.md) (
 **Revenue consequence.**
 - **Yield.** On CBO-based enforcement ratios adjusted for scale, the enforcement row yields about $0.13-0.14T of REV-G8 inside the window (range $0.085-0.18T). That is not enough to support $0.2T.
 - **Allowance.** The matching receipt-risk allowance is therefore **$250B**, replacing the $200B in the October 26 table above. It counts G8 at about $0.15T, which is $50B less counted revenue over FY2030-39.
-- **Who changes the input.** Codex, as the current integration owner, makes the change to `irs_receipt_risk_tn` in [recovery-adoption.json](../index/data/inputs/recovery-adoption.json). Until then the model carries 0.2.
+- **Who changes the input.** Codex, as the current integration owner, makes the change to `irs_receipt_risk_tn` in [recovery-adoption.json](../index/data/inputs/recovery-adoption.json). The coordinated integration sets this to 0.25.
 - **Official scores.** Under CBO scorekeeping Guideline 14, no official score credits this revenue. It counts in the project's own D4 tests.
 
 **Other review findings accepted with the merge.** These are working allocations and directions, not appropriations:
@@ -479,3 +479,6 @@ Espen, on the [capacity review](../sources/capacity-recovery-budget-review.md) (
 - **Housing correction.** Voucher administrative fees across all of HOU-4 (about +$12.2B mid, counted once inside HOU-1) go to the housing owner as a program-row correction. HOU-4D's default reading is a fixed envelope, about 2.9% fewer awards.
 - **Still unpriced:** Medicare claims operations for HLT-2's new benefits, the mark-to-market valuation unit, Climate Dividend payment administration, and the ROAD Act programs.
 - **FY2029.** For the four agencies, FY2029 cash is bounded at about $0.8B (range $0.3-2.2B). Whether the $10B shifted into FY2029 covers every surge agency remains open.
+
+
+**Coordinated numerical integration, October 26.** Implement the accepted PR #22 allowance and inside-envelope agency allocations in the recovery overlay. Carry the rounded $12.2B HOU-4A PHA fee correction separately from CAP and once within total housing spending, with a four-year CPI-growing fully permanent path. Historical ledger inputs remain comparison vintages. HOU-4D remains a fixed $135B envelope; its exact delivery remains unselected. This accounting implementation does not certify rent, lease-up, IRS yield, FY2029 sufficiency or D3/D4.
