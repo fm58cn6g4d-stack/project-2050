@@ -66,13 +66,12 @@ Your instinct that development aid will increasingly be organized around climate
 - Adaptation above DEV-P: $40B ($20-60B).
 - Total: **about $174B** (about $0.21T nominal).
 
-**Proposed financing, layered on Package A's carbon receipts:**
-- **Mitigation results from carbon receipts:**
-  - The leftover process-fee receipts: about $0.25T, against about $0.13T already proposed for industry contracts and removal, leaving about $0.11T.
-  - Part of the transition share of the higher price: the approved $150 path raises REV-C1 receipts by about $0.49T, and 20% goes to the transition share under D7, about $0.10T.
-
-  Together that roughly covers the mid case ($0.14T nominal) without touching the dividend.
-- **Loss and damage and adaptation** (about $0.07T nominal): general fund, as ten-year commitments. D4 treats a standing commitment as permanent and paid for at maturity; making them time-limited would need a renewal vote. Part could come from REV-C2's border adjustment, a "carbon club" design in which partners that price carbon are exempt.
+**Financing, after the corrected PR #26 budget.** The reviews of PR #26 established the rule under D7: 80% of added carbon receipts go to the dividend, and the general fund bears a 25% tax offset. Carbon receipts are therefore not free money.
+- **Mitigation results (about $0.14T nominal mid).** After clean-industry contracts and forests, only about $49B of the transition share remains (central case). So results purchases need one of these:
+  - Espen's option 3 from the allocation file: keeping process-emissions receipts outside the dividend frees about $198B over 2030-39, enough for the mid case.
+  - A general-fund source in the revenue work.
+  - The leftover transition share plus a smaller purchase volume, about 200 Mt in 2035 (about 53% overall).
+- **Loss and damage and adaptation (about $0.07T nominal).** General fund, as ten-year commitments. D4 treats a standing commitment as permanent and paid for at maturity; making them time-limited would need a renewal vote. Part could come from REV-C2's border adjustment, a "carbon club" design in which partners that price carbon are exempt.
 
 **Results purchases are not capital**, so they are not borrowing-eligible under D4-B; they are financed from receipts as above.
 
@@ -104,7 +103,7 @@ Your instinct that development aid will increasingly be organized around climate
 - the three windows under NSC-9;
 - the integrity rules;
 - purchase contracts under contract authority;
-- financing from carbon receipts for results and from the general fund for loss and damage and adaptation.
+- financing for results from process-emissions receipts kept outside the dividend (if Espen chooses that option) or the general fund, and from the general fund for loss and damage and adaptation.
 
 ## Limits
 
