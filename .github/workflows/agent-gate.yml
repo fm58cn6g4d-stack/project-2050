@@ -47,4 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AGENT_AUTOMERGE: ${{ vars.AGENT_AUTOMERGE }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-        run: python3 .github/scripts/agent_gate.py gate --pr "${{ github.event.pull_request.number || github.event.issue.number }}"
+        run: >
+          python3 .github/scripts/agent_gate.py gate --pr "${{ github.event.pull_request.number || github.event.issue.number }}"
+          --event "${{ github.event.action }}" --label "${{ github.event.label.name }}"
+          --event-head "${{ github.event.pull_request.head.sha }}"

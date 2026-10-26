@@ -63,7 +63,7 @@ While on that page, under **Approval for running fork pull request workflows fro
 | Label | Who adds it | Meaning |
 | --- | --- | --- |
 | `espen-approved` | **Only you** | You approve a tier-3 PR as it stands. New commits remove it automatically |
-| `espen-override` | **Only you** | Merge even though an agent has requested changes. Your `espen-approved` alone no longer overrides an agent's open objection |
+| `espen-override` | **Only you** | Merge even though an agent has requested changes. It cancels the objection only; an approval is still needed (on tier 3, your `espen-approved` counts). New content removes it, as with `espen-approved` |
 | `needs-espen` | Agents | A decision for you; forces tier 3 |
 | `hold` | Anyone | Do not merge yet |
 | `tier-1`, `tier-2`, `tier-3` | The gate | The tier it assigned |

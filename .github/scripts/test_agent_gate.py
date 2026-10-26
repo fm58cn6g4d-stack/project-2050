@@ -176,6 +176,74 @@ class ReviewFlow(unittest.TestCase):
         self.assertFalse(g.espen_approval(ev, POLICY, "espen-override")[0])
 
 
+class OverrideAndLabels(unittest.TestCase):
+    """The decision behind agent-review, and when a push voids Espen's labels (review of PR #34)."""
+    author = ("claude-code", "session_A")
+    OBJECTION = item(review("changes-requested", head="b" * 40), app="chatgpt-codex-connector")
+
+    def decide(self, items, tier, espen_ok=False, override_ok=False, owners=()):
+        return g.review_decision(items, HEAD, self.author, list(owners), POLICY, lambda h: False, tier, espen_ok, override_ok)
+
+    def test_override_alone_does_not_approve_tier1(self):
+        # Codex objected; Espen overrode; nobody approved the current head: still blocked.
+        ok, why = self.decide([self.OBJECTION], tier=1, override_ok=True)
+        self.assertFalse(ok)
+        self.assertIn("Espen overrode the objection", why)
+        self.assertIn("no approving agent review", why)
+
+    def test_override_plus_approval_merges_tier1(self):
+        ok, _ = self.decide([self.OBJECTION, item(review(who="claude-code session_B"), app="claude")], tier=1, override_ok=True)
+        self.assertTrue(ok)
+
+    def test_override_still_needs_path_owner(self):
+        ok, why = self.decide([self.OBJECTION, item(review(who="claude-code session_B"), app="claude")],
+                              tier=1, override_ok=True, owners=["codex"])
+        self.assertFalse(ok)
+        self.assertIn("path owner", why)
+
+    def test_tier3_espen_label_stands_in_only_without_objection(self):
+        self.assertTrue(self.decide([], tier=3, espen_ok=True)[0])
+        ok, why = self.decide([self.OBJECTION], tier=3, espen_ok=True)
+        self.assertFalse(ok)
+        self.assertIn("espen-override", why)
+        self.assertTrue(self.decide([self.OBJECTION], tier=3, espen_ok=True, override_ok=True)[0])
+
+    NAMES = ["espen-approved", "espen-override"]
+
+    def void(self, labels, heads, head, carries=lambda old: False, event="", pushed_at="", events=()):
+        return g.voided_labels(labels, heads, head, list(events), event, pushed_at, carries, self.NAMES)
+
+    def test_push_after_override_voids_it(self):
+        # Reviewer's scenario: override added on H1, author pushes H2 with new content.
+        void, heads = self.void(["espen-override"], {"espen-override": "h1"}, "h2", event="synchronize")
+        self.assertEqual(void, ["espen-override"])
+        self.assertEqual(heads, {})
+
+    def test_cancelled_synchronize_run_cannot_save_a_label(self):
+        # Any later run (ready_for_review, a comment) sees the labeled head differs and voids it.
+        void, _ = self.void(["espen-approved"], {"espen-approved": "h1"}, "h2", event="ready_for_review")
+        self.assertEqual(void, ["espen-approved"])
+
+    def test_main_only_push_keeps_labels(self):
+        void, heads = self.void(["espen-approved", "espen-override"], {"espen-approved": "h1", "espen-override": "h1"},
+                                "h2", carries=lambda old: old == "h1", event="synchronize")
+        self.assertEqual(void, [])
+        self.assertEqual(heads, {"espen-approved": "h2", "espen-override": "h2"})
+
+    def test_unknown_labeled_head_falls_back_to_push_time(self):
+        ev = [{"event": "labeled", "label": {"name": "espen-approved"}, "created_at": "2026-10-26T10:00:00Z"}]
+        void, _ = self.void(["espen-approved"], {}, "h2", event="synchronize", pushed_at="2026-10-26T11:00:00Z", events=ev)
+        self.assertEqual(void, ["espen-approved"])
+        void, heads = self.void(["espen-approved"], {}, "h2", event="synchronize", pushed_at="2026-10-26T09:00:00Z", events=ev)
+        self.assertEqual((void, heads), ([], {"espen-approved": "h2"}))
+
+    def test_removed_label_is_forgotten(self):
+        self.assertEqual(self.void([], {"espen-approved": "h1"}, "h2"), ([], {}))
+
+    def test_override_detail_names_the_label(self):
+        self.assertEqual(g.espen_approval([], POLICY, "espen-override"), (False, "no espen-override label"))
+
+
 class EspenApproval(unittest.TestCase):
     def ev(self, actor="fm58cn6g4d-stack", app=None, event="labeled"):
         return {"event": event, "label": {"name": "espen-approved"}, "actor": {"login": actor},
@@ -218,8 +286,9 @@ class FakeGitHub:
                     {"number": 29, "title": "Old", "merged_at": "2000-01-01T00:00:00Z", "labels": []}]
         if path.startswith("/pulls/"):
             n = int(path.split("/")[2])
-            return {"number": n, "head": {"sha": f"sha{n}"}, "mergeable": True,
-                    "mergeable_state": "behind" if n == 31 else "clean"}
+            return {"number": n, "head": {"sha": f"sha{n}"}, "base": {"ref": "main"}, "mergeable": True}
+        if path.startswith("/compare/"):
+            return {"behind_by": 2 if path.endswith("sha31") else 0}
         if path.startswith("/commits/sha31/status"):
             return {"statuses": [{"context": "agent-review", "state": "failure", "description": "changes requested by codex t1"}]}
         if path.startswith("/commits/"):

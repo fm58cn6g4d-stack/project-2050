@@ -290,7 +290,8 @@ def same_changes(old, new):
     try:
         if git("rev-parse", old).strip() == git("rev-parse", new).strip():
             return True
-        if subprocess.run(["git", "merge-base", "--is-ancestor", old, new], cwd=ROOT).returncode:
+        if subprocess.run(["git", "merge-base", "--is-ancestor", old, new], cwd=ROOT,
+                          stderr=subprocess.DEVNULL).returncode:
             return False
         own = lambda c: git("diff", "--no-color", git("merge-base", "HEAD", c).strip(), c)
         return own(old) == own(new)
@@ -298,7 +299,7 @@ def same_changes(old, new):
         return False  # a commit not available locally: no carry-over
 
 
-def evaluate_reviews(items, head_sha, author, owners, policy, carries=lambda h: False):
+def evaluate_reviews(items, head_sha, author, owners, policy, carries=lambda h: False, ignore_blocks=False):
     """items: [{'body','created_at','app'}] in any order. `carries(h)` says whether an approval of commit h still
     describes the head (see same_changes). Returns (ok, summary, approvals, blocks)."""
     author_agent, author_session = author
@@ -325,7 +326,7 @@ def evaluate_reviews(items, head_sha, author, owners, policy, carries=lambda h: 
     current = {h for v, h in latest.values() if v == "approve"}
     current = {h for h in current if head_sha.startswith(h) or carries(h)}
     approvals = sorted(k for k, v in latest.items() if v[0] == "approve" and v[1] in current)
-    blocks = sorted(k for k, v in latest.items() if v[0] == "changes-requested")
+    blocks = [] if ignore_blocks else sorted(k for k, v in latest.items() if v[0] == "changes-requested")
     if blocks:
         return False, "changes requested by " + ", ".join(f"{a} {s or ''}".strip() for a, s in blocks), approvals, blocks
     if not approvals:
@@ -334,6 +335,59 @@ def evaluate_reviews(items, head_sha, author, owners, policy, carries=lambda h: 
     if missing:
         return False, "path owner must review: " + ", ".join(missing), approvals, blocks
     return True, "approved by " + ", ".join(f"{a} {s or ''}".strip() for a, s in approvals), approvals, blocks
+
+
+def review_decision(items, head, author, owners, policy, carries, tier, espen_ok, override_ok):
+    """(ok, description) for the agent-review status. Espen's override discards an open objection and nothing
+    else: an approving review (and any path owner's) is still required, except that on tier 3 Espen's
+    espen-approved stands in for a missing review. espen-approved alone never overrides an objection."""
+    ok, desc, _, blocks = evaluate_reviews(items, head, author, owners, policy, carries)
+    if blocks and not override_ok:
+        if tier == 3 and espen_ok:
+            desc += f"; Espen's approval does not override it: add `{policy['labels']['espen_override']}` to merge anyway"
+        return False, desc
+    note = ""
+    if blocks:
+        note = f"Espen overrode the objection ({desc}); "
+        ok, desc, _, _ = evaluate_reviews(items, head, author, owners, policy, carries, ignore_blocks=True)
+    if ok:
+        return True, note + desc
+    if tier == 3 and espen_ok:
+        return True, note + "Espen approved directly"
+    return False, note + desc
+
+
+def voided_labels(labels, label_heads, head, events, event, pushed_at, carries, names):
+    """Which of Espen's labels (names) a change of content voids, and the updated {label: head it approves}.
+
+    A label added on commit X stays only while the head is X or merely adds main to X (carries(X)). Where
+    the labeled commit is unknown (no labeled run saw it), a synchronize run dates the label by the push,
+    as before; any other run assumes the label was added on the current head."""
+    heads, void = dict(label_heads), []
+    for name in names:
+        if name not in labels:
+            heads.pop(name, None)
+            continue
+        old = heads.get(name)
+        if old is None:
+            if event == "synchronize" and label_added_before(events, name, pushed_at):
+                void.append(name)
+                heads.pop(name, None)
+            else:
+                heads[name] = head
+        elif old != head:
+            if carries(old):
+                heads[name] = head
+            else:
+                void.append(name)
+                heads.pop(name, None)
+    return void, heads
+
+
+def save_data(gh, sticky, data):
+    """Rewrite only the hidden data block of the gate comment."""
+    body = DATA.sub(lambda m: f"<!-- agent-gate-data {json.dumps(data, separators=(',', ':'))} -->", sticky["body"])
+    gh.call("PATCH", f"/issues/comments/{sticky['id']}", {"body": body})
 
 
 def unformatted_reviews(items, author, policy):
@@ -365,7 +419,7 @@ def espen_approval(events, policy, name=None):
     name = name or policy["labels"]["espen_approved"]
     ev = [e for e in events if e.get("event") in ("labeled", "unlabeled") and (e.get("label") or {}).get("name") == name]
     if not ev or ev[-1]["event"] != "labeled":
-        return False, "no espen-approved label"
+        return False, f"no {name} label"
     e = ev[-1]
     actor = (e.get("actor") or {}).get("login")
     app = (e.get("performed_via_github_app") or {}).get("slug")
@@ -476,25 +530,32 @@ def gate(args, policy):
             cls = json.load(f)
     elif prev.get("head") == head:
         cls = prev.get("classification")
+    # Which commit each Espen label was added on. A `labeled` event carries the head at that moment.
+    espen_labels = [L["espen_approved"], L["espen_override"]]
+    label_heads = dict(prev.get("label_heads") or {})
+    if args.event == "labeled" and args.label in espen_labels and args.event_head:
+        label_heads[args.label] = args.event_head
     if not cls or cls.get("head") != head:
         status(gh, head, "merge-tier", "pending", "Waiting for rebuild-and-tests to classify this head", run_url)
         status(gh, head, "agent-review", "pending", "Waiting for rebuild-and-tests", run_url)
+        if sticky and label_heads != (prev.get("label_heads") or {}):
+            save_data(gh, sticky, dict(prev, label_heads=label_heads))
         print("No classification for the current head yet."); return 0
 
-    # New commits after Espen's approval void it: they approved a specific version.
+    # Espen's labels approve a specific version: new content voids them (a push that only merges main does not).
     events = gh.pages(f"/issues/{n}/events")
     for e in events:
-        if (e.get("label") or {}).get("name") == L["espen_approved"]:
-            print(f"{e['event']} {L['espen_approved']} at {e.get('created_at')} by {(e.get('actor') or {}).get('login')}, "
+        if (e.get("label") or {}).get("name") in espen_labels:
+            print(f"{e['event']} {e['label']['name']} at {e.get('created_at')} by {(e.get('actor') or {}).get('login')}, "
                   f"performed_via_github_app={(e.get('performed_via_github_app') or {}).get('slug')}")
-    if (args.event == "synchronize" and L["espen_approved"] in labels
-            and label_added_before(events, L["espen_approved"], args.pushed_at)
-            and not (prev.get("head") and same_changes(prev["head"], head))):
-        gh.call("DELETE", f"/issues/{n}/labels/{L['espen_approved']}")
-        labels.remove(L["espen_approved"])
-        events.append({"event": "unlabeled", "label": {"name": L["espen_approved"]}})
-        gh.call("POST", f"/issues/{n}/comments", {"body": "New commits were pushed after `espen-approved` was added, so "
-                "the label was removed. Espen: re-add it if you approve the current version.\n\n" + FOOTER_BOT})
+    void, label_heads = voided_labels(labels, label_heads, head, events, args.event, args.pushed_at,
+                                      lambda old: same_changes(old, head), espen_labels)
+    for name in void:
+        gh.call("DELETE", f"/issues/{n}/labels/{name}")
+        labels.remove(name)
+        events.append({"event": "unlabeled", "label": {"name": name}})
+        gh.call("POST", f"/issues/{n}/comments", {"body": f"New commits changed this PR after `{name}` was added, so "
+                f"the label was removed. Espen: re-add it if you approve the current version.\n\n" + FOOTER_BOT})
 
     tier = cls["tier"]
     if L["needs_espen"] in labels:
@@ -521,15 +582,9 @@ def gate(args, policy):
     for it in items:
         if parse_review(it["body"]):
             print(f"review comment by {it['user']} at {it['created_at']}, performed_via_github_app={it['app']}: {parse_review(it['body'])}")
-    rev_ok, rev_desc, approvals, blocks = evaluate_reviews(items, head, author, cls.get("owners", []), policy,
-                                                           carries=lambda h: same_changes(h, head))
     override_ok, _ = espen_approval(events, policy, L["espen_override"])
-    if not rev_ok and blocks and override_ok:
-        rev_ok, rev_desc = True, f"Espen overrode the objection ({rev_desc})"
-    elif not rev_ok and not blocks and tier == 3 and espen_ok:
-        rev_ok, rev_desc = True, "Espen approved directly"
-    elif not rev_ok and blocks and tier == 3 and espen_ok:
-        rev_desc += f"; Espen's approval does not override it: add `{L['espen_override']}` to merge anyway"
+    rev_ok, rev_desc = review_decision(items, head, author, cls.get("owners", []), policy,
+                                       lambda h: same_changes(h, head), tier, espen_ok, override_ok)
     if author[0] is None and not (tier == 3 and espen_ok):
         rev_ok, rev_desc = False, "unknown author: add 'Agent-Author: <agent> <session>' to the PR description"
     status(gh, head, "agent-review", "success" if rev_ok else "failure", rev_desc, run_url)
@@ -539,7 +594,8 @@ def gate(args, policy):
     hints = [f"{a} commented at {t} without verdict lines. If that was a review, {a} should post the three lines "
              "below (approve or changes-requested) naming the current head." for a, t in unformatted_reviews(items, author, policy)]
     body = gate_comment(cls, tier, tier_desc, rev_desc, author, ready, why_not, head, hints)
-    data = {"head": head, "classification": cls, "tier": tier, "notified_tier3": prev.get("notified_tier3", False)}
+    data = {"head": head, "classification": cls, "tier": tier, "notified_tier3": prev.get("notified_tier3", False),
+            "label_heads": label_heads}
     if tier == 3 and not espen_ok and not data["notified_tier3"] and not pr.get("draft"):
         gh.call("POST", f"/issues/{n}/comments", {"body": f"@{policy['espen_logins'][0]} this PR needs your decision "
                 f"(tier 3). Reasons are in the gate comment. Add the label `{L['espen_approved']}` to approve the "
@@ -669,7 +725,8 @@ def digest(args, policy):
         review = statuses.get("agent-review")
         if review and review["state"] != "success":
             agents_owe.append((p, f"review: {review['description']}"))
-        if full.get("mergeable_state") == "behind":
+        cmp = gh.call("GET", f"/compare/{full['base']['ref']}...{full['head']['sha']}")
+        if full.get("mergeable") is not False and (cmp or {}).get("behind_by", 0) > 0:
             agents_owe.append((p, "out of date: the author agent must merge main in"))
         elif full.get("mergeable") is False:
             agents_owe.append((p, "merge conflict: the author agent must merge main in and resolve it"))
@@ -730,6 +787,8 @@ def main(argv=None):
     g = sub.add_parser("gate"); g.add_argument("--pr", type=int, required=True); g.add_argument("--classification")
     g.add_argument("--event", default="")
     g.add_argument("--pushed-at", default="", help="time of the push that triggered a synchronize event")
+    g.add_argument("--label", default="", help="the label of a labeled/unlabeled event")
+    g.add_argument("--event-head", default="", help="the PR head when the event happened")
     d = sub.add_parser("digest"); d.add_argument("--hours", type=int, default=24); d.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
     policy = load_policy()
