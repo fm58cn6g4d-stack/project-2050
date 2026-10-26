@@ -1,6 +1,6 @@
 # Climate-centered development finance: buying verified mitigation abroad toward 2035
 
-**Context.** Claude Code, October 26, 2026. Policy IDs: NSC-9 (climate finance, today only a pointer at $0), DEV-P (development programs, accepted October 26), CLI-13, REV-C2 and REV-C3, and the 2035 benchmark decided October 26. Branch `claude/climate-international`, built on PR #26. Status: first analysis for discussion; no adopted design changes.
+**Context.** Claude Code, October 26, 2026. Policy IDs: NSC-9 (climate finance, today only a pointer at $0), DEV-P (development programs, accepted October 26), CLI-13, REV-C2 and REV-C3, and the 2035 benchmark decided October 26. Branch `claude/climate-international`, built on PR #26. Status: Espen's decisions of October 26 recorded (counting rule, scale delegated, treaty strategy); for review.
 
 **Files.** This analysis; the generated pricing in [climate-portfolio-international-pricing.md](climate-portfolio-international-pricing.md), from `index/tools/climate-portfolio/international.py` and `international.json`.
 
@@ -94,16 +94,33 @@ Your instinct that development aid will increasingly be organized around climate
 
 ## Decisions
 
-**For Espen (goal level).**
-1. **Count verified international mitigation toward the 2035 benchmark?** Proposed: above a domestic floor of 50%, reported separately, and not toward 2050 net zero.
-2. **Scale.** The mid case (~510 Mt, ~57% in 2035, about $15.6B in 2035) or a push for 61% (~750 Mt, high-supply conditions, about $25-30B in 2035)?
-3. **Treaty strategy.** Plan to rejoin Paris and the UNFCCC in 2029, including a contingency if UNFCCC re-entry is challenged as needing the Senate? This touches NSC and executive-power design.
+**Espen, October 26:**
+1. **Counting: agreed.** Verified international mitigation counts toward the 2035 benchmark only above a 50% domestic floor. It is reported separately from domestic cuts and does not count toward 2050 net zero.
+2. **Scale: "pick most defensible."**
+3. **Treaties:** "yes rejoin paris, and rejoin UNFCCC if withdrawal has occurred by then (or halt withdrawal if in progress)."
 
-**Proposed under the project-coworker delegation once Espen decides 1-2 (not yet adopted):**
+**Decided under the delegation: scale.** The most defensible choice is **the mid case as the contracted plan, with a conditional route toward 61%.**
+- **Contract for the mid case.** That is about 510 Mt a year by 2035 (about 57% below 2005 with domestic action), at about $31 a ton including the integrity reserve: about $15.6B in 2035 and $114B over 2030-39 (2025 dollars).
+- **Why not plan on 61% now.** The Article 6 market has delivered about 65,000 tons in total. Most legacy credits overstated their results. The 750 Mt case needs every source near its high end. Planning on it would make the 2035 claim depend on volumes no one has yet shown can be delivered with integrity.
+- **The conditional route.** Purchases scale toward about 750 Mt (61%) only if independently verified deliveries reach at least 250 Mt a year by 2032 with reversals under 5%. If they do, contract authority rises to fund the extra tons, about $10-15B more a year by 2035, subject to financing.
+- **If deliveries fall short,** the plan reports the shortfall rather than counting weaker credits.
+
+**Treaty strategy (decided by Espen; design proposed under the delegation; executive-power and NSC files to integrate):**
+- **Paris.** Rejoin in 2029 by instrument of acceptance. It takes effect 30 days after deposit (Article 21), which requires the US to be a UNFCCC Party.
+- **UNFCCC, two cases:**
+  - *Withdrawal still pending in January 2029:* rescind the notice before it takes effect, which stops the withdrawal.
+  - *Withdrawal complete:* re-accede. Withdrawal takes effect one year after notice (Article 25), so it will probably have taken effect in early 2027. Re-accession takes effect 90 days after deposit.
+- **The legal contingency (Senate).** The administration would rely on the 1992 Senate advice and consent as still authorizing membership. If that is challenged, it should also seek a fresh Senate resolution, or a statute approving membership.
+- **Until the US is again a Party,** purchases continue under the project's own benchmark accounting, with host corresponding adjustments wherever hosts are Parties, so no ton is double-claimed. The 2035 claim is labeled "project benchmark" rather than "NDC" until re-entry is complete.
+- **First NDC on re-entry.** Submit an NDC for 2035 that states the domestic floor and the international share separately.
+
+**Proposed under the project-coworker delegation (now that 1-3 are settled):**
 - the three windows under NSC-9;
 - the integrity rules;
 - purchase contracts under contract authority;
-- financing for results from process-emissions receipts kept outside the dividend (if Espen chooses that option) or the general fund, and from the general fund for loss and damage and adaptation.
+- the scale rule above.
+
+**Still open for Espen:** how to finance the results purchases. They depend on his pending decision on the carbon-fee increment (keeping process-emissions receipts outside the dividend would cover the mid case) or on a general-fund source. Loss and damage and adaptation are general-fund items.
 
 ## Limits
 
