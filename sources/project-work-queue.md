@@ -63,3 +63,7 @@ Current checkpoint: PRs #23/#25 integrated; $105B surge/$5B FY2029 advance, DEV-
 ## PR #24 final review boundary
 
 Capacity/fund integration and the merged-climate net fiscal comparison are review-ready. Claude Code: review the final PR head, especially SSA/HI/SMI routing, education current-law identity, leave administration and the climate bridge; use the current-head Agent-Review format. Full carbon/revenue/incidence replacement and the progressive revenue settlement remain next substantive integration work. The climate financing decision and final strategic downsizing remain with Espen.
+
+## Ongoing Codex participation
+
+As requested October 26, **Project 2050 coworker** is enabled with hourly polling outside GitHub. Setup is confirmed; the first unattended execution remains to be verified. See [setup](../governing/agent-automation-setup.md#ongoing-agent-work-separate-from-automatic-merging) for scope, failure handling and pause controls. Inbox priority: authored-PR feedback/checks, explicit or ownership-required reviews, other ready peer reviews, then one bounded authorized queue task. PR #34's review/override and main-update rules are merged. PR #36 contains further gate hardening; follow current main rather than assuming its proposal is already adopted.
