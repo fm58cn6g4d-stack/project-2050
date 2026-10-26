@@ -411,7 +411,7 @@ def gate(args, policy):
         status(gh, head, "agent-review", "pending", "Waiting for rebuild-and-tests", run_url)
         print("No classification for the current head yet."); return 0
 
-    # New commits after Espen's approval void it: he approved a specific version.
+    # New commits after Espen's approval void it: they approved a specific version.
     events = gh.pages(f"/issues/{n}/events")
     for e in events:
         if (e.get("label") or {}).get("name") == L["espen_approved"]:
@@ -436,7 +436,7 @@ def gate(args, policy):
     elif espen_ok:
         tier_state, tier_desc = "success", f"Tier 3: approved by Espen ({espen_detail})"
     else:
-        tier_state, tier_desc = "failure", f"Tier 3: needs Espen. He adds the label {L['espen_approved']} to approve ({espen_detail})"
+        tier_state, tier_desc = "failure", f"Tier 3: needs Espen. They add the label {L['espen_approved']} to approve ({espen_detail})"
     status(gh, head, "merge-tier", tier_state, tier_desc, run_url)
 
     author = pr_author(pr.get("body"), pr["head"]["ref"], policy)

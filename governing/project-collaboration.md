@@ -43,13 +43,13 @@ The recommendation should say what to retain, reduce, expand or reserve; what de
 
 ## Merging: three tiers
 
-Approved by Espen on October 26 as a design; this section takes effect when he merges the PR that adds it. Agents merge routine work themselves through the merge gate; Espen stays the gate for decisions and headline numbers. The machine-readable copy is `.github/merge-policy.json`; [the setup checklist](agent-automation-setup.md) lists the GitHub settings Espen controls.
+Approved by Espen on October 26 as a design; this section takes effect when they merge the PR that adds it. Agents merge routine work themselves through the merge gate; Espen stays the gate for decisions and headline numbers. The machine-readable copy is `.github/merge-policy.json`; [the setup checklist](agent-automation-setup.md) lists the GitHub settings Espen controls.
 
 | Tier | What | How it merges |
 | --- | --- | --- |
 | 1. Auto-merge | Research and source files, reviews and data files in the author's claimed paths; scripts whose generated outputs do not change; queue status updates; wording fixes (same numbers and policy IDs), including in domain files | When the required checks pass and another agent has reviewed the current head |
 | 2. Auto-merge and notify Espen | Regenerated model outputs whose headline numbers stay within tolerance (each within 1%, the 2040 margins within 0.005% of GDP); domain design changes that keep the same programs; anything not listed elsewhere | As tier 1; the gate then posts the headline deltas to Espen and the daily digest lists the merge |
-| 3. Always Espen | `governing/`; adopted inputs (`index/data/inputs/`, including `recovery-adoption.json`); any change to a D3 or D4 test result or to a 2040 margin; new or removed programs (policy IDs added to or dropped from a domain file); the merge rules, checks and agent entry files (`.github/`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`); anything labeled `needs-espen` | Only after Espen adds the `espen-approved` label himself. New commits after his label remove it |
+| 3. Always Espen | `governing/`; adopted inputs (`index/data/inputs/`, including `recovery-adoption.json`); any change to a D3 or D4 test result or to a 2040 margin; new or removed programs (policy IDs added to or dropped from a domain file); the merge rules, checks and agent entry files (`.github/`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`); anything labeled `needs-espen` | Only after Espen adds the `espen-approved` label themselves. New commits after their label remove it |
 
 The gate assigns the tier from the PR's changed paths and the headline numbers in the committed outputs; the highest tier among the changes wins. A PR's tier can be raised (label `needs-espen`) but never argued down; if the gate misclassifies, fix `.github/merge-policy.json` in its own tier-3 PR. Keep tier-1/2 work in separate PRs from tier-3 work so routine work is not held behind a decision.
 
@@ -61,7 +61,7 @@ The gate assigns the tier from the PR's changed paths and the headline numbers i
 
 **Reverts.** Merge commits only: no squash, rebase or force-push on `main` or anyone else's branch. To undo a merged PR, open a revert PR (`git revert -m 1 <merge commit>`); it goes through the same gate at the tier of the change it reverts, and reverting Espen-approved work needs Espen. Any agent may open a revert PR for an auto-merged change that broke checks or was misclassified, and should say why in its description.
 
-**Asking Espen.** Put a decision to Espen by labeling the PR or an issue `needs-espen`, stating the question and the options in plain words at the top of its description, and adding it to the queue's "waiting on Espen" list. The daily digest issue (label `agent-digest`) lists what merged, what waits on Espen and which headline numbers moved. Do not ask him to run commands or relay files.
+**Asking Espen.** Put a decision to Espen by labeling the PR or an issue `needs-espen`, stating the question and the options in plain words at the top of its description, and adding it to the queue's "waiting on Espen" list. The daily digest issue (label `agent-digest`) lists what merged, what waits on Espen and which headline numbers moved. Do not ask them to run commands or relay files.
 
 A useful independent review attempts to break the result: a double-counted baseline, missing household group, inadequate reserve, optimistic take-up or behavioral assumption, or an alternative that does the same job for less. It need not repeat every test or ask a different model to endorse the prose. When agents disagree on a project element, compare the evidence and consequences and make a documented decision under the delegation; return genuine goal conflicts to Espen. Do not settle substantive questions by model majority vote.
 
