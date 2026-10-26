@@ -1,0 +1,17 @@
+{
+ "note": "Explicit rebases of the education bridge's comparison inputs after the PR #20 vintage (sources/strategic-review-arithmetic.json). Each entry names the input, the hash it is approved to have now, why it changed and who approved it. The bridge still refuses any other change.",
+ "entries": [
+  {
+   "path": "index/data/inputs/ledger-revenue.csv",
+   "sha256": "215997869932f027b9d2149b6cae7547826799fdd14946746ab7d668e15ba0b2",
+   "reason": "Carbon price revised to $150 by 2037 (Espen, Oct 26): REV-C1 1.45 -> 1.90, CLI-2 1.16 -> 1.52, CX -0.38 -> -0.49 ($T, 2030-39 mid)",
+   "approved": "Espen, Oct 26 (price); rebase made by Claude Code under Espen's instruction to act for Codex while offline, pending Espen's approval of PR"
+  },
+  {
+   "path": "index/data/inputs/ledger-bills.csv",
+   "sha256": "521d66730d8f117b2bfc40e3b055494fdde8b5b0066adef0adef0619630553fa",
+   "reason": "Carbon price revised to $150 by 2037 (Espen, Oct 26): REV-C1 1.45 -> 1.90, CLI-2 1.16 -> 1.52, CX -0.38 -> -0.49 ($T, 2030-39 mid)",
+   "approved": "Espen, Oct 26 (price); rebase made by Claude Code under Espen's instruction to act for Codex while offline, pending Espen's approval of PR"
+  }
+ ]
+}

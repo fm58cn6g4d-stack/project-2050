@@ -99,10 +99,11 @@ def fund_experiments():
 def run():
     # Do not silently relabel a future changed numerical baseline as this comparison vintage.
     provenance=json.loads((ROOT/'sources/strategic-review-arithmetic.json').read_text())['source_sha256']
+    rebased={e['path']:e['sha256'] for e in json.loads((HERE/'comparison-rebase.json').read_text())['entries']} if (HERE/'comparison-rebase.json').exists() else {}
     for path,expected in provenance.items():
         if path.startswith('index/data/') and path.endswith('.csv'):
             actual=hashlib.sha256((ROOT/path).read_bytes()).hexdigest()
-            if actual!=expected:
+            if actual!=expected and rebased.get(path)!=actual:
                 raise ValueError('Comparison input changed; reconcile/rebase education bridge explicitly: '+path)
     global F,B
     F=module('recovery_fiscal',ROOT/'index/tools/fiscal-model.py')

@@ -29,7 +29,7 @@ check('decided package has zero deltas', abs(b['outlays_bn_2025_2030_39']) < 1e-
 wx_on, wx_off = R[key(wx='on')], R[key()]
 check('retrofit external cost is counted (about $67.5B)', 60 < wx_on['outlays_bn_2025_2030_39'] - wx_off['outlays_bn_2025_2030_39'] < 75)
 check('a carbon standard alone has no direct outlay', abs(R[key(ces='90by35')]['outlays_bn_2025_2030_39']) < 5)
-check('the higher price raises REV-C1 receipts', R[key(price='higher')]['rev_c1_change_nominal_tn_2030_39'] > 0.2)
+check('the pre-Oct 26 $100 path lowers REV-C1 receipts against the decided $150 path', R[key(price='old100')]['rev_c1_change_nominal_tn_2030_39'] < -0.2)
 f = d['frontier']
 check('frontier is increasing in both cost and abatement',
       all(f[i]['outlays_bn_2025_2030_39'] <= f[i + 1]['outlays_bn_2025_2030_39'] and f[i]['extra_avoided_net_ghg_gt_2030_50'] < f[i + 1]['extra_avoided_net_ghg_gt_2030_50'] for i in range(len(f) - 1)))

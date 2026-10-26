@@ -48,8 +48,8 @@ def make_case(cid, choice, levers, a, full, extra_world=None, repeal_from=None, 
             mf = full['policy']['methaneFee']
             c['policy']['methaneFee'] = {'start': mf['start'], 'mult': 3, 'floor': 0, 'ogShare': mf['ogShare'], 'coal': True, 'landfill': False}
         c['world'].update(opt.get('world', {}))
-        if opt.get('price') == 'higher':
-            c['price'] = higher_path(full['price'], a['higher_price'])
+        if opt.get('price') == 'old100':
+            c['price'] = higher_path(full['price'], a['old100_price'])
         ext += opt.get('external_cost_bn_2025', 0.0)
     if price_spec:
         c['price'] = higher_path(full['price'], price_spec)
