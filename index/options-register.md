@@ -23,8 +23,8 @@ Hand-written companion to the generated ledger, current to Oct 20, 2026 (Decisio
 | Group | Members | Home | Note |
 | --- | --- | --- | --- |
 | G-CLI5 | **C29** (CLI-5B, trim the add-ons, $0.13T) / **C37** (CLI-5F, keep CLI-5 whole and borrow ~$0.10T of capital lines) | domain-climate.md | **Decided Oct 20: C37** (Decision Brief 1); C29 is listed in ALT_CUTS and never summed |
-| G-EXCL | **C19** (= W2, median cap, $1.25T) / **C19b** (75th-percentile cap, $0.66T) | domain-revenue.md; incidence model | **Decided Oct 20: C19b** (Package B, the planning basis); C19 is the fallback if the sprint package falls short |
-| G-MIDDLE | **C19/C20** (the middle-reaching closers) / **REV-ED1** used as the closer (incidence scenario G) | domain-revenue.md; domain-education.md | Scenario G replaces C19 and C20 with EDU-9B's contribution; not stacked |
+| G-EXCL | **C19** (= W2, median cap, $1.25T) / **C19b** (75th-percentile cap, $0.66T) | domain-revenue.md; incidence model | October 26: replace C19b in the preferred joint settlement; C19b/C19 remain funded/historical comparators, not selected replacement receipts |
+| G-MIDDLE | C19b/C20 versus replacement financing | domain-revenue.md; domain-education.md | Mixed EDU-9B and C19b replacement direction selected October 26; C20 integration and the complete income/credit schedule remain open |
 | G-MEALS | EDU-3A (chosen) / EDU-3B (**C36**) / EDU-3C | domain-education.md | C36 is EDU-3B's saving; **declined Oct 20** (Decision Brief 2) |
 | G-SERVICE | LAB-9A (fallback) / LAB-9B (**C33**, declined) / LAB-9C / **LAB-9D (chosen Oct 20)** | domain-labor.md | LAB-9D starts at 9B's scale by bipartisan authorization, with 9A's R2 money as fallback; the ledger keeps 9A's cost until an authorization passes |
 | G-SAFCOMP | SAF-10A (chosen) / 10B / 10C / 10D (**C34**) | domain-public-safety.md | C34 declined Oct 20 (Decision Brief 2) |
@@ -36,7 +36,7 @@ Hand-written companion to the generated ledger, current to Oct 20, 2026 (Decisio
 | G-RECON | Reconciliation R1 / R3 / R4 | Senate Rules Reform: Options | R1 now; R3 vs R4 decided with D2's adoption resolution |
 | G-D4 | D4 as written / D4-B fiscal-arc rule / D4-C deficit allowance | governing doc | **Decided Oct 20: D4-B** (Decision Brief 2): paid for at maturity from FY2040; envelope 0.5% of GDP to 2034 tapering to zero by 2040, holding the borrowing lines; guardrails against the real baseline; Judgment Fund contracts counted |
 | G-TRIMS | C5 / C17 / C33 / C34 / C36 (program trims) | ledger | **All declined Oct 20** (Decision Brief 2); kept as the record, never summed; may be revisited later |
-| G-CAP7 | CAP-7 as an even ten-year line / CAP-7S surge + CAP-7 sustained | domain-capacity.md | **Decided Oct 20: surge + sustained** (sizing accepted Oct 20 as working figures: sustained 0.12% of GDP; alternatives were 0.10% or 0.148%) |
+| G-CAP7 | CAP-7 as an even ten-year line / CAP-7S surge + CAP-7 sustained | domain-capacity.md | Surge + sustained retained; October 26 working sizing is $300B lifetime surge plus $300B sustained FY2030–39, replacing old figures |
 | Every lettered set | Each domain's A/B/C/D options for one row (e.g. FAM-1A-D, HOU-3A-D, RTS-3A-E) | Each file | Treated as a group unless the file says an option can stack (e.g. EDU-4B-D add to EDU-4A; CLI-4D-F add to CLI-4A) |
 
 ## 3. Duplicates resolved: two names, one policy
@@ -54,7 +54,7 @@ Hand-written companion to the generated ledger, current to Oct 20, 2026 (Decisio
 | C35 = REV-E1 = E1 (ledger revenue row) | Estate tax at 2009 parameters, frozen exemption | **$0.15T, the increment beyond G9** (gross against current law ~$0.35T; never sum the gross) |
 | EDU-9C (retired Oct 20) | Was a second listing of C35 | REV-E1 |
 | EDU-9D (retired Oct 20) | Was a second listing of EDU-1B | EDU-1B |
-| REV-ED1 = ED1 = EDU-9B's contribution | Uncapped 1.28-1.4 point payroll contribution | Held; same base as W1 |
+| REV-ED1 = ED1 = EDU-9B's contribution | Uncapped payroll institution adopted; rate under review | Use integrated education bridge; no simultaneous W1 assumed |
 | REV-ED1 base = W1 base | 1% uncapped payroll (W1, general fund) vs 1.28-1.4 points dedicated (ED1) | One wage base: at most one, or a harmonized split (section 4) |
 | C36 = EDU-3B | Meals at community-eligibility scale | C36 |
 | C33 = LAB-9B; C34 = SAF-10D; C29 = CLI-5B; C37 = CLI-5F | | The C-ID in the ledger, the domain ID in the file |
@@ -84,7 +84,7 @@ These are not duplicates, but taking both counts part of the money twice unless 
 | REV-TS6 and REV-E1, G9 | Trusts and GRATs protect the same estate base | 20% haircut applied in TS6 |
 | REV-TS12 and G3, G9, C18, SALT | The itemized cap stacks on top-rate options; the 2025 law already caps value at 35% | Accepted as C39 on an estimate; needs a joint score |
 | C18 and REV-SC1; C18 and Talarico capital-gains parity (not added) | Top brackets and gains rates | Joint score |
-| **Payroll raisers** (REV-P1 leave 0.6% to 0.85%; REV-ED1 1.28-1.4 pts; W1 1%; SS-7 1 pt; SS-1 above $250K; SS-2 investment income; REV-H1a 3.8% on pass-through) | All draw on wages or the same high-income base | **Deferred to a revenue strategy session (Espen, Oct 20)**: decide how much of the wage base the agenda uses, in what order; EDU-9B's structure to be weighed "instead of or harmonized with" the others |
+| **Payroll raisers** (REV-P1 leave 0.6% to 0.85%; REV-ED1 rate under review; W1 1%; SS-7 1 pt; SS-1 above $250K; SS-2 investment income; REV-H1a 3.8% on pass-through) | All draw on wages or the same high-income base | **Deferral superseded:** full EDU-9B scope/payroll institution adopted; fiscal redesign compares combined burden, effective dates and solvency, with exact rates unselected |
 | CLI-11 worker guarantees (~$0.08T) and CLI-2's transition share (~$0.29T) | Same coal and energy-community workers | Draw CLI-11's worker piece from the transition share first |
 | CLI-13 agriculture (~$0.08T) and CLI-5's ag R&D line | Same programs | Net against CLI-5 |
 | CLI-1 and CLI-5 (45X and the transmission ITC) | Up to ~$0.2T (open, in the ledger note) | Score together |
@@ -127,10 +127,10 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | REV-C3 | Methane fee: the IRA charge reinstated from 2030 ($1,200 to $1,500 a ton of methane), no intensity threshold, facility exemption for certified leak prevention | $0.02T channel | **Decided Oct 21** | Finances CLI-5; options: 3x REV-C1 with coal mines (~$0.22T), landfills |
 | CX | Income and payroll tax offset on the carbon fees (25%) | −$0.38T general fund | **Booked Oct 21** | Scoring convention, as MR6 |
 | REV-C2B | Clean product standard | 0 (regulatory) | Option | ◐ |
-| REV-P1 | Paid-leave contribution 0.6% to 0.85% | $0.9T channel | Chosen (FAM-3A) | Payroll group |
+| REV-P1 | Paid-leave contribution 0.6% toward 1.10% working ceiling | Annual fund paths in recovery-budget.json; old $0.9T estimate historical | Revised October 26 (FAM-3A) | Payroll group |
 | REV-E1 / C35 | Estate tax at 2009 parameters, frozen | **+$0.15T** (beyond G9) | **Accepted (planning basis)** | Increment beyond G9 |
 | REV-E2 | Public investment corporation (= AI-6D) | Subsidy cost in CLI's ~$0.10T line | Option | |
-| REV-ED1 / ED1 | Education contribution, 1.28-1.4 pts uncapped | ~$2.1T to a fund | Held | Revenue strategy session |
+| REV-ED1 / ED1 | Education payroll institution, full EDU-9B benefits | Conditional schedules and component reconciliation in recovery-budget.md; earlier fiscal-recovery-model.md is historical | Scope adopted; rate unresolved | Fiscal redesign |
 | REV-SC1 / C43 | 45% bracket above $5M (ledger option C43) | +$0.18T | **Accepted Oct 21** (closes the 2040 shortfall) | Overlaps G3, G9 |
 | REV-SC2 | Pass-through and deferred-comp reform | +$0.35T | Option | Overlaps H1a, SS-5 |
 | REV-SC3 | Crop insurance reform (fossil piece moved to TS3) | +$0.05T | Option | |
@@ -181,7 +181,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | ID | What | Effect (share of the 4.42% gap) | Status |
 | --- | --- | --- | --- |
 | SS-1 to SS-4 | D8 baseline | ~64% | Decided (D8) |
-| SS-5 | Investment-income tax on active S-corp holders and LPs | +0.87 (to ~84%) | Option; **recommended closer** |
+| SS-5 | Investment-income tax on active S-corp holders and LPs | Joint-score interaction limits retained | Selected October 26; does not alone establish solvency |
 | SS-6 | Lower SS-2's threshold | +0.3-0.6 | Option |
 | SS-7 | +1 pt payroll, phased | +0.9-1.0 | Option; payroll group |
 | SS-8 | Equities in the reserves | +0.5-1.0 | Option |
@@ -192,14 +192,14 @@ The full list is in each file's open items; the per-domain tables below mark eac
 
 | ID | What | Cost | Status |
 | --- | --- | --- | --- |
-| EDU-1A / 1B / 1C / 1D | Title I: $26B mandatory / $30B floor plus appropriations / omnibus $55B authorized / 1B plus accountability | chosen / ~0.14 (+0.06) / 0-0.35 / as B | A chosen; 1D held for ESEA |
+| EDU-1A / 1B / 1C / 1D | Title I: $26B mandatory / $30B floor plus appropriations / omnibus $55B authorized / 1B plus accountability | A superseded / B adopted / C option / D option | B through full EDU-9B; 1D held for ESEA |
 | EDU-2A / 2B / 2C / 2D | IDEA to 40%: glide path with conditions / by FY2033 / authorized only / no conditions | chosen / ~0.35-0.40 / 0 durable / ~0.25 | A chosen |
 | EDU-3A / 3B (C36) / 3C | Meals: universal / community eligibility / omnibus rates | 0.27 / ~0.08 / ~0.15 | A chosen; G-MEALS |
-| EDU-4A + 4B / 4C / 4D | Pipeline; add teacher floor / PARA and mental health / bridge credit | chosen; +0.06-0.08 / +0.03-0.06 / ~+0.01 | Add-ons stack |
+| EDU-4A + 4B / 4C / 4D | Pipeline; add teacher floor / PARA and mental health / bridge credit | All adopted through EDU-9B; historical incremental estimates retained in domain | Do not add estimates again to full fund outlays |
 | EDU-5A / 5B / 5C / 5D / 5E | Pell $9,500 / doubled Pell / free community college / price-restraint conditions / HEA track | chosen / +0.3-0.4 / +0.13-0.15 / ~0 / 0 | A chosen; 5D can stack |
 | EDU-6A / 6B / 6C | Department protections via CAP-8 / corporal punishment ban / ESEA reauthorization | chosen / ◐ / +4.5 floor days | A chosen |
 | EDU-7, EDU-8, EDU-10 | Voucher credit repeal; AI in education; research | chosen | |
-| EDU-9A / 9B | Mandatory spending / education fund | chosen / held | 9B to the revenue strategy session |
+| EDU-9A / 9B | General-fund comparator / full education fund package | 9A superseded for fund programs; 9B adopted | Rate, timing, grants and protection under review |
 | EDU-9C, EDU-9D | — | — | **Retired Oct 20** (duplicates of REV-E1 and EDU-1B) |
 
 ### Climate (domain-climate.md)
@@ -318,7 +318,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | --- | --- | --- |
 | CRT-P1 / P2 / P3 / **P4** | One bill / two bills / T1 only / judgeships split for 60 votes | P1 carried, **P2 recommended**; P4 refines P2 |
 | CRT-2A-D; CRT-5A-C; CRT-15A-D | Ethics; immigration court; term limits | A chosen |
-| CRT-16 | Expansion as contingent response | Held |
+| CRT-16 | Automatic expansion response to term-limit invalidation | Removed October 26; fresh democratic decision required for any later structural response |
 
 ### Executive power (domain-executive-power.md)
 
@@ -393,3 +393,20 @@ These alternatives use existing policy IDs and are not additional cost rows. No 
 ## Health delivery evidence update: October 24
 
 The existing HLT-1/4 and HLT-2 earlier-delivery development options now link to the [completed research reconciliation](../sources/health-delivery-resource-bridge.md). Compare early R1 with summer R2 using either express MA transition machinery or an assessed Original-Medicare payment bridge. These are implementation comparisons under existing option IDs, not additional cost rows or adopted alternatives. No benefit, eligibility, date, lag, fiscal input or numeric score changes; 2031 hearing/vision fallback remains. See the [decision packet](../sources/health-hearing-vision-decision-packet.md).
+
+
+## October 26 accepted recovery recommendations
+
+[The governing approval and standing delegation](../governing/project-2050-governing-decisions.md#recovery-and-solvency-recommendations-approved-october-26) supersede earlier held/proposed status for the recommended directions. Selected working allocations are in [recovery-adoption.json](data/inputs/recovery-adoption.json), consumed by the integrated model. Historical option amounts above remain comparison vintages where superseded.
+
+| Element | Current selection | Open alternatives / limits |
+| --- | --- | --- |
+| EDU-9B | Mixed public/payroll finance and reserve corridor/backstop | Exact rate, public share, statutory thresholds, care boundary and state match remain open |
+| CAP-7S / CAP-7 | $300B surge / $300B sustained working envelopes | Agency allocations require budget/workload evidence; retain $200B IRS receipt-risk allowance |
+| AI-4 / LAB-10 | $120B ordinary displacement support plus $100B participation offer | Benefit calibration; no AI-causation gateway or work condition on basic assistance |
+| HOU-4D | +$135B bounded rental-assistance expansion | Exact new award/lease count; broader guarantee remains an accepted development task |
+| Delivery contingency | $100B shared allowance | Actual program costs and remedies; do not multiply by agency |
+| FAM-3 | 1.10-point working ceiling and gradual adjustment | Distributional protection; existing high-take-up test is conditional |
+| SS-5 | Complete the high-income base package | Joint SSA/NIIT interactions; broad-rate closer remains unselected |
+| C19b replacement | Income-based replacement and coordinated refundable relief | C20 integration, thresholds/rates, worker/nonworker credit; neither illustrative complete schedule selected |
+| Care / climate | Home-support/catastrophic-care and grid/procurement/adaptation development | No unpriced entitlement, reactor order or unscored savings adopted |

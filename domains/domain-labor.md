@@ -274,3 +274,10 @@ LAB-5, LAB-8 and LAB-9 (on its R2 fallback) ride R2 and survive at 51. Everythin
 - frameworks/scenario-stress-test-talarico-2029-2037.md: LAB-8B, LAB-9D, AI-4E, AI-4F; domains/domain-ai.md for the cross-listed AI rows
 
 **Calendar evidence note (October 23):** Earlier felt/floor-day labels in this file are planning assumptions unless tied to an adopted effective date. Current scenario scheduling is in `index/calendar-scenarios.md`; the separate delivery-opportunity screen is in `index/calendar-delivery-opportunities.md`. Earlier enactment does not itself establish implementation, reach or household receipt. Adopted designs, launch dates and fiscal profiles are unchanged.
+
+
+## LAB-10. Participation support (approved October 26)
+
+A $100B FY2030–39 working envelope for practical access to employment, education, training and community participation. DOL leads through existing employment/training institutions, coordinating with education, disability, care and housing agencies. Supports include transport, child care during training, accommodations, navigators and paid placements. Preserve apprenticeships and national service; coordinate with AI-4 rather than reimbursing the same service twice. A person need not prove AI caused displacement. Participation is an offer, not a work condition on income, housing, health or food assistance.
+
+Provide accessible notice, assistance and an appeal when an eligible person cannot obtain the promised support. Specify funded capacity and continuity arrangements in delivery design; do not claim a placement count from an expenditure envelope. The current budget is carried once by `participation_tn` in recovery-adoption.json and the integrated budget; the older LAB total above is historical pending the joint settlement. Vehicle, precise eligibility, benefit caps and launch capacity remain implementation dependencies, not established feasibility.

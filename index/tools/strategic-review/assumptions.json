@@ -1,0 +1,28 @@
+{
+  "status": "EXPLORATORY_NOT_ADOPTED",
+  "source_main": "beeba090020b7916f8ed08bcff36161fb70d1e69",
+  "receipt_loss_tn_2030_39": {"HLT-6": 0.35, "G8": 0.20, "C39": 0.15},
+  "loss_basis": "Simultaneous moves from midpoint to the existing low GF savings/receipt estimates. HLT-6 uses its GF share only. No probabilities, additional macro feedback, or additional GX haircut.",
+  "corporate_additional_points": 3,
+  "corporate_base_points": 7,
+  "corporate_additional_yield_factor": 0.8,
+  "payroll_points": 0.35,
+  "payroll_tn_per_point": 1.6,
+  "net_revenue_space_gdp_percent": 0.5,
+  "net_revenue_space_note": "Unallocated NET financing requirement, not a tax proposal or a scored yield. Net of any household compensation. Begins 2030 and reaches full size in 2034; remains permanent.",
+  "housing": {
+    "additional_awards": 2000000,
+    "first_year": 2034,
+    "last_award_year": 2039,
+    "annual_cost_2026_dollars": 15200,
+    "nominal_cost_growth": 0.03,
+    "administration_increment": 0.05,
+    "cost_multipliers": [1.0, 1.25],
+    "basis": "Award path and 5% administration allowance are reviewer assumptions; $15,200 FY2026 voucher-year anchor and 3% growth inherited from HOU-4. Half-year first-award cost, full lease-up, no attrition. No rent or supply response. Beyond the adopted one million, not a new total or the full entitlement cost. Administration may overlap source renewals: 5% is a conservative explicit allowance, not a score."
+  },
+  "care_unit_examples": [
+    {"users": 2000000, "weekly_hours": 20, "weeks": 52, "loaded_hourly_2026_dollars": 30},
+    {"users": 5000000, "weekly_hours": 20, "weeks": 52, "loaded_hourly_2026_dollars": 35}
+  ],
+  "care_note": "Illustrative gross annual home-support arithmetic in constant 2026 dollars. Neither population nor price is an estimated national caseload/rate. Excludes assessment, capital, administration, intensive care and offsets. Not fed into nominal fiscal paths."
+}

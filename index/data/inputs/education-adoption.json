@@ -1,0 +1,36 @@
+{
+  "status": "Adopted by Espen: full EDU-9B benefit package and separate payroll-funded education institution. Exact rate, phasing, GF share, transition finance and household credit remain for decision.",
+  "cost_validation_status": "The cost_assumptions below preserve the first aggregate experiment, not a verified current-law reconciliation. Use index/tools/recovery-budget/assumptions.json and sources/education-component-reconciliation.csv for the successor component calculation; its care boundary and future current-law projections remain conditional. This annotation changes no adopted benefit or historical numeric input.",
+  "scope": [
+    "Universal school meals, CACFP and Summer EBT",
+    "IDEA 40% federal share",
+    "FAM-2 pre-K and child care",
+    "EDU-1B $30B mandatory Title I floor",
+    "EDU-4A pipeline, EDU-4B teacher salary floor through declining federal grants and state sustainability plans, EDU-4C paraprofessional and mental-health staffing, EDU-4D temporary bridge credit"
+  ],
+  "outside_fund": [
+    "Title I above the floor",
+    "Competitive ESEA",
+    "Higher education"
+  ],
+  "source": "sources/education-transforming-education-act-analysis-and-trust-fund.md, The trust fund model and Spending by component",
+  "cost_assumptions": {
+    "outlays_bn": {
+      "2030": 142,
+      "2033": 264,
+      "2036": 301,
+      "2040": 327,
+      "2045": 384,
+      "2049": 442
+    },
+    "outlay_basis": "Education session aggregate nominal anchors; geometric interpolation. 2049 component sum is 441, aggregate 442: preserve source rounding, do not invent a component allocation.",
+    "transferred_agenda": [
+      "FAM-2",
+      "EDU-1",
+      "EDU-3",
+      "EDU-4"
+    ],
+    "absorbed_current_law_2030_39_tn": 0.77,
+    "absorbed_current_law_growth": 0.03
+  }
+}

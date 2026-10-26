@@ -1,0 +1,44 @@
+{
+  "source_main": "beeba090020b7916f8ed08bcff36161fb70d1e69",
+  "comparison_commit": "b94507d552e504a7f0c0f0c4ef16368d946557d6",
+  "status": "Full EDU-9B benefit scope and payroll-funded institution adopted by Espen; rates, phase-in, bridge grants, rebates and other fiscal reforms below are working recommendations, not adopted statutory parameters.",
+  "education": {
+    "payroll_bn_per_point_2030": 135,
+    "payroll_growth": 0.04,
+    "outlay_growth_after_2049": 0.037,
+    "interest_after_2056": 0.04,
+    "employer_tax_offset_fraction": 0.125,
+    "household_protection_reserve_fraction": 0.2,
+    "phase_start": 2031,
+    "phase_years": 5,
+    "bridge_last_year": 2034,
+    "recommended_reference_rate_points": 1.4,
+    "estate_receipts": 0,
+    "assumption_limits": "0.77T absorption is a pooled session estimate, not appropriation-level reconciliation. 12.5% tax offset and 20% protection reserve are authored allowances, not CBO/JCT scores. Post-2049 trends are stress-test extrapolations, not demographic forecasts. No additional dynamic revenue. A bridge grant is an expense of the GF, not free borrowing or dedicated receipts.",
+    "recommended_gf_share": 0.3
+  },
+  "social_security": {
+    "interaction_loss_payroll_points": 0.34,
+    "broad_rate_start": 2035,
+    "broad_rate_phase_years": 10,
+    "basis": "Existing D8 plus SS-5; conservatively subtract 0.34 payroll points from 2031 for SS-2/SS-5 interaction, based on the model's SSA F10 versus F11+F8 comparison. Solve additional rate on existing capped OASDI base. No newly credited benefits for rate increase. Not a joint SSA score; H1a and GF tax interactions remain unscored."
+  },
+  "recovery": {
+    "middle_tax_phase_start": 2033,
+    "middle_tax_phase_years": 3,
+    "middle_tax_rows": [
+      "C19b",
+      "C20"
+    ],
+    "maturity_margin_gdp_percent": 0.1,
+    "service_allowance_gdp_percent": 0.1,
+    "extra_low_receipts_tn": {
+      "HLT-6": 0.35,
+      "G8": 0.2,
+      "C39": 0.15,
+      "C38": 0.29,
+      "G9": 0.25
+    },
+    "g11_post2039_loss_fraction": 0.5
+  }
+}

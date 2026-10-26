@@ -2,6 +2,10 @@
 
 October 25, 2026 · Draft PR #19 on `codex/public-product-blueprint`. Source `main`: `3594c784b35651ee34fc7661274219bf82f3adcb`. The expanded edition implements Espen’s direction: principles, goals and connected policy choices in plain language, with democratic movement and long-term accountability. Detailed funding and model discussion lives in the separate analysis companion. No adopted policy, date or model input changed. Read the [blueprint](../../../sources/public-product-blueprint.md).
 
+## Subsequent policy development
+
+The full EDU-9B package/payroll institution has since been adopted and a new [fiscal review](../../../sources/fiscal-recovery-and-education-redesign.md) produced. This edition remains pinned to the earlier evidence snapshot; its fiscal headline is not the integrated new education result. Review affected policy/fiscal copy and source contracts before advancing the pin. No publication or deployment occurred in the fiscal review.
+
 ## View it
 
 Download `index/public-2050/` from the task branch and open `index.html` in a modern browser, or run this command from the repository root:

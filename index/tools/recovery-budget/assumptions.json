@@ -1,0 +1,185 @@
+{
+  "status": "Approved recovery architecture and working spending allocations from recovery-adoption.json; complete tax/credit schedules remain exploratory and fail to establish D3/D4.",
+  "source_commit": "348d6ae3bcdbea06d4c58e889b6be5b42c6e1b7a",
+  "education_components": {
+    "meals": {
+      "anchors": [
+        63,
+        68,
+        73,
+        81,
+        92,
+        102
+      ],
+      "current_law_bn": 32.538,
+      "base_year": 2025,
+      "legacy_ids": [
+        "EDU-3"
+      ],
+      "basis": "Gross target; USDA FY2025 147.9B times rounded 22% child-nutrition share; proxy, not exact account outlays"
+    },
+    "idea": {
+      "anchors": [
+        21,
+        43,
+        66,
+        78,
+        95,
+        111
+      ],
+      "current_law_bn": 14.233714,
+      "base_year": 2026,
+      "legacy_ids": [],
+      "basis": "Gross section 611 target; recurring FY2026 CRS Part B less section 619 and one-time supplements; Parts C/D and preschool remain outside"
+    },
+    "care": {
+      "anchors": [
+        12,
+        88,
+        106,
+        106,
+        123,
+        143
+      ],
+      "current_law_bn": 0,
+      "base_year": 2026,
+      "legacy_ids": [
+        "FAM-2"
+      ],
+      "basis": "Treated as incremental expansion over retained CCDF/Head Start/PDG; source does not establish this boundary, so test consolidation separately"
+    },
+    "title_i": {
+      "anchors": [
+        30,
+        34,
+        38,
+        44,
+        54,
+        63
+      ],
+      "current_law_bn": 18.426802,
+      "base_year": 2026,
+      "legacy_ids": [
+        "EDU-1"
+      ],
+      "basis": "Gross Title I-A floor; old EDU-1 combines 0.08T Title I and 0.25T IDEA, allocated proportionally to its common annual path"
+    },
+    "teacher": {
+      "anchors": [
+        3,
+        17,
+        6,
+        4,
+        4,
+        3
+      ],
+      "current_law_bn": 0,
+      "base_year": 2026,
+      "legacy_ids": [],
+      "basis": "New grants/credit; do not subtract all existing teacher programs"
+    },
+    "para_mental": {
+      "anchors": [
+        8,
+        9,
+        10,
+        12,
+        14,
+        17
+      ],
+      "current_law_bn": 0,
+      "base_year": 2026,
+      "legacy_ids": [],
+      "basis": "New staffing grants; overlap remains a score risk"
+    },
+    "pipeline": {
+      "anchors": [
+        5,
+        5,
+        2,
+        2,
+        2,
+        2
+      ],
+      "current_law_bn": 0,
+      "base_year": 2026,
+      "legacy_ids": [
+        "EDU-4"
+      ],
+      "basis": "Pipeline replaces old EDU-4; existing Title II/SEED retained pending program crosswalk"
+    }
+  },
+  "education_anchor_years": [
+    2030,
+    2033,
+    2036,
+    2040,
+    2045,
+    2049
+  ],
+  "current_law_growth": 0.03,
+  "childcare_current_law_2026_bn": 25.053,
+  "education": {
+    "payroll_per_point_2030_bn": 135,
+    "payroll_growth": 0.04,
+    "cost_growth_after2049": 0.037,
+    "gf_share_mixed": 0.3,
+    "tax_offset_fraction": 0.125,
+    "phase_start": 2031,
+    "phase_years": 5,
+    "bridge_last_year": 2034
+  },
+  "recovery_credit": {
+    "annual_per_adult_2030_dollars": 300,
+    "population_m_2030": 346,
+    "adult_share": 0.78,
+    "population_growth": 0.004,
+    "cpi": 0.023,
+    "start": 2029,
+    "first_year_fraction": 0.5
+  },
+  "tax": {
+    "high_threshold_per_point_2034_bn": 66.95,
+    "broad_threshold_per_point_2034_bn": 180.4,
+    "additional_yield_haircut": 0.2,
+    "high_rate_points": 4,
+    "high_start": 2033,
+    "high_phase_years": 3,
+    "broad_rate_points": 2,
+    "broad_start": 2035,
+    "broad_phase_years": 10,
+    "note": "CBO Dec 2024/JCT option 60938; thresholds in 2025 dollars 100k/200k high and 20k/40k broad, CPI indexed; GDP-scaled yield is an authored translation, not a current-law joint score"
+  },
+  "social_security": {
+    "joint_interaction_payroll_points": 0.34,
+    "broad_rate_points": 2,
+    "start": 2035,
+    "phase_years": 10,
+    "income_tax_offset_fraction": 0.125
+  },
+  "hi": {
+    "gf_support_payroll_points": 0.35,
+    "start": 2035,
+    "phase_years": 5,
+    "note": "GF reserve contribution, not outside revenue; stress half HLT-6 HI savings"
+  },
+  "leave": {
+    "take_up": "high",
+    "income_tax_offset_fraction": 0.125
+  },
+  "stress": {
+    "new_tax_yield_haircut": 0.4,
+    "education_cost_multiplier": 1.15,
+    "education_payroll_growth": 0.035,
+    "education_cost_growth": 0.042,
+    "hi_health_savings_fraction": 0.5,
+    "receipt_losses_tn": {
+      "HLT-6": 0.35,
+      "G8": 0.2,
+      "C39": 0.15,
+      "C38": 0.29,
+      "G9": 0.25
+    },
+    "g11_post2039_loss_fraction": 0.5
+  }
+}
