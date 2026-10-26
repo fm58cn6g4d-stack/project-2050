@@ -2,7 +2,7 @@
 
 **Status:** review-ready, revised Oct 26 after Espen's questions (Claude Code; branch `claude/pensive-mendel-g1lwl5` from main aa8552d, PR #23). Evidence and recommendations.
 
-Two items are decided under the project-coworker delegation, and are marked as such: how the development agency's spending is categorized, and how SSA's added staff are financed. Nothing else here is adopted.
+Two items are decided under the project-coworker delegation, and are marked as such: how the development agency's spending is categorized, and how SSA's added staff are financed. **Espen accepted DEV-P and SSA administration of paid leave on Oct 26** (governing record). Nothing else here is adopted.
 
 - **Data:** [capacity-recovery-components.csv](capacity-recovery-components.csv), 197 rows.
 - **Arithmetic:** `python3 index/tools/capacity-review/review.py`, which reads only.

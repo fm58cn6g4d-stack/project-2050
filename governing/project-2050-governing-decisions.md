@@ -479,3 +479,19 @@ Espen, on the [capacity review](../sources/capacity-recovery-budget-review.md) (
 - **Housing correction.** Voucher administrative fees across all of HOU-4 (about +$12.2B mid, counted once inside HOU-1) go to the housing owner as a program-row correction. HOU-4D's default reading is a fixed envelope, about 2.9% fewer awards.
 - **Still unpriced:** Medicare claims operations for HLT-2's new benefits, the mark-to-market valuation unit, Climate Dividend payment administration, and the ROAD Act programs.
 - **FY2029.** For the four agencies, FY2029 cash is bounded at about $0.8B (range $0.3-2.2B). Whether the $10B shifted into FY2029 covers every surge agency remains open.
+
+
+## Development agency and paid-leave administration accepted, October 26
+
+Espen, on the [round 2 capacity review](../sources/capacity-recovery-other-agencies-review.md) (PR #23): "accept both, price the three surge items next."
+
+**Decided: re-establish a USAID-type development agency.** Espen asked for funding at the level needed to fundamentally re-establish the agency after its 2025 elimination. Categorized under the project-coworker delegation:
+- **Re-establishment.** About $4B in the CAP-7S surge: headquarters, about 60-80 missions, systems, security and rehiring about 10,000 staff.
+- **Operations.** About $1.95B a year in CAP-7 sustained: operating expenses and the capital fund at the FY2024 real level.
+- **Programs: DEV-P,** a new permanent general-fund program row. It restores development, humanitarian and global health programs to the FY2024 real level: about $92B over FY2030-39 (range $70-115B), about $10B a year by FY2040. DEV-P is a permanent claim paid for at maturity under D4-B. Its financing is not yet identified, and Codex integrates it.
+
+**Decided: paid leave is administered by SSA and financed by the leave fund** (FAMILY Act model). Administration is about 3% of benefits: about $30B over FY2030-39 (range $18-60B), plus a 2030 start-up. It is added to the leave-fund model, which had no administrative cost.
+
+**Decided under the delegation: SSA's added staff follow the current-law financing split.** The Social Security and Medicare trust funds pay their shares of SSA's administration. The general fund pays the SSI and Climate Dividend work. CAP-7 carries only the general-fund share.
+
+**Surge.** It is held at $300B while three items are priced: HLT-2's claims and contractor systems, CLI-7's flood mapping, and the CAP-13 overlap. Across all reviewed entities the surge need is about $72B (range $43-121B).
