@@ -16,3 +16,5 @@ The raw capacity review sums all funding sources. Its remainder is not a GF appr
 
 
 Central high-take-up leave repayment now occurs in **2058**, versus 2048 before administration. The 6% administration sensitivity is included in generated results. This is a financing pressure to resolve, not authority to raise the selected rate cap or restrict benefits.
+
+At 6% ongoing administration, the model does not repay the leave loan by 2100 and ends with about **$96B** outstanding. The selected 1.10-point cap is therefore not robust to the full reviewed administration range; financing or operating-design changes need evaluation before a durable-solvency claim.
