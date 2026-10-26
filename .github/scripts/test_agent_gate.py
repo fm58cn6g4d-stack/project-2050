@@ -155,6 +155,55 @@ class LabelTiming(unittest.TestCase):
         self.assertFalse(g.label_added_before([], "espen-approved", "2026-10-26T16:19:00Z"))
 
 
+class FakeGitHub:
+    """Answers the digest's API calls from fixed data and records writes."""
+    def __init__(self, repo, token):
+        self.writes = []
+        FakeGitHub.last = self
+
+    def call(self, method, path, data=None):
+        if method != "GET":
+            self.writes.append((method, path, data))
+            return {"number": 99}
+        if path.startswith("/pulls?state=closed"):
+            return [{"number": 30, "title": "Wording fix", "merged_at": "2999-01-01T00:00:00Z",
+                     "labels": [{"name": "tier-1"}], "merged_by": {"login": "github-actions[bot]"}},
+                    {"number": 29, "title": "Old", "merged_at": "2000-01-01T00:00:00Z", "labels": []}]
+        raise AssertionError(path)
+
+    def pages(self, path):
+        if path.startswith("/pulls?state=open"):
+            return [{"number": 31, "title": "Adopt new input", "labels": [{"name": "tier-3"}]},
+                    {"number": 32, "title": "Approved", "labels": [{"name": "tier-3"}, {"name": "espen-approved"}]}]
+        if "labels=needs-espen" in path:
+            return [{"number": 40, "title": "Choose a surge size"}]
+        if "labels=agent-digest" in path:
+            return []
+        raise AssertionError(path)
+
+
+class Digest(unittest.TestCase):
+    def test_digest_lists_merged_and_waiting(self):
+        old, os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_TOKEN"] = g.GitHub, "o/r", "x"
+        g.GitHub = FakeGitHub
+        try:
+            import argparse, contextlib, io
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                g.digest(argparse.Namespace(hours=24, dry_run=False), POLICY)
+        finally:
+            g.GitHub = old
+        text = out.getvalue()
+        self.assertIn("#30 Wording fix", text)
+        self.assertNotIn("#29", text)
+        self.assertIn("PR #31", text)
+        self.assertNotIn("PR #32", text)
+        self.assertIn("Issue #40", text)
+        writes = FakeGitHub.last.writes
+        self.assertEqual(writes[0][1], "/issues")          # creates the digest issue
+        self.assertEqual(writes[1][1], "/issues/99/comments")  # and comments because there is news
+
+
 class Classify(unittest.TestCase):
     """Runs classify() on a scratch git repository."""
 
