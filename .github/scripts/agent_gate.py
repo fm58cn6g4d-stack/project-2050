@@ -294,7 +294,7 @@ def evaluate_reviews(items, head_sha, author, owners, policy):
         if not p:
             continue
         verdict, h, agent, session = p
-        if agent not in policy["agents"] or not head_sha.startswith(h):
+        if agent not in policy["agents"]:
             continue
         own = policy["agents"][agent].get("apps") or []
         others = {a for name, cfg in policy["agents"].items() if name != agent for a in cfg.get("apps") or []}
@@ -302,8 +302,10 @@ def evaluate_reviews(items, head_sha, author, owners, policy):
             continue  # the comment did not come through the claimed agent's own integration
         if agent == author_agent and (not session or not author_session or session == author_session):
             continue  # an author cannot review their own PR; same-vendor reviews need distinct sessions
-        latest[(agent, session)] = (verdict, it.get("app"))
-    approvals = sorted(k for k, v in latest.items() if v[0] == "approve")
+        # Each reviewer's latest verdict wins. An approval counts only for the current head; a request for
+        # changes stands across later pushes until the same reviewer approves, so a push cannot outrun it.
+        latest[(agent, session)] = (verdict, head_sha.startswith(h))
+    approvals = sorted(k for k, v in latest.items() if v == ("approve", True))
     blocks = sorted(k for k, v in latest.items() if v[0] == "changes-requested")
     if blocks:
         return False, "changes requested by " + ", ".join(f"{a} {s or ''}".strip() for a, s in blocks), approvals
