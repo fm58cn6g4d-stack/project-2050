@@ -10,6 +10,31 @@ class BudgetTests(unittest.TestCase):
         cls.hashes={p:hashlib.sha256((M.ROOT/p).read_bytes()).hexdigest() for p in cls.paths}
         cls.d=M.run(); cls.f,cls.b,cls.m,cls.u=M.load()
 
+    def test_capacity_integration_single_housing_charge(self):
+        c=self.d['cases']['mixed']
+        housing=[r for r in c['audit'] if r['line']=='HOU-4A PHA administration correction' and r['year'] in M.W]
+        self.assertAlmostEqual(sum(r['primary_outlay_change_bn'] for r in housing),12.2)
+        self.assertAlmostEqual(sum(r['revenue_change_bn'] for r in c['audit'] if r['line']=='IRS yield allowance with smaller capacity budget' and r['year'] in M.W),-250)
+        self.assertEqual(M.ADOPTION['spending']['cap_sustained_tn'],.3)
+
+    def test_administration_costs_and_fund_routing(self):
+        c=self.d['cases']['mixed']
+        for r in c['leave']['rows']:
+            self.assertAlmostEqual(r['administration'],.03*r['benefits']+(3 if r['year']==2030 else 0))
+        self.assertAlmostEqual(sum(r['development_program_bn'] for r in c['rows'] if r['year'] in M.W),92)
+        for r in c['rows']:
+            self.assertAlmostEqual(r['smi_admin_premiums_bn'],.25*r['smi_admin_bn'])
+
+    def test_exploratory_ceiling_changes_do_not_mutate_adoption(self):
+        import copy
+        before=copy.deepcopy(M.ADOPTION)
+        c=M.build_case('ceiling',self.f,self.b,self.m,self.u,spending_adjustments={'test':{'delta_tn':-.1,'profile':{'ramp':4,'grow':'gdp','perm':1}}})
+        base=self.d['cases']['mixed']
+        delta=sum(a['program_primary_bn']-b['program_primary_bn'] for a,b in zip(c['rows'],base['rows']) if a['year'] in M.W)
+        self.assertAlmostEqual(delta,-100)
+        self.assertEqual(M.ADOPTION,before)
+        self.assertLess(c['summary']['debt_gdp_2056'],base['summary']['debt_gdp_2056'])
+
     def test_component_gross_net_identity_and_named_old_scope(self):
         for r in self.d['education_components']:
             self.assertAlmostEqual(r['full_fund_outlays_bn'],r['current_law_transfer_bn']+r['old_agenda_transfer_bn']+r['change_over_old_agenda_bn'])
@@ -43,7 +68,10 @@ class BudgetTests(unittest.TestCase):
     def test_ss_starts_2031_no_legacy_net_receipt_double_count(self):
         ar=self.d['cases']['mixed']['audit']
         self.assertFalse(any(r['line']=='SS-1' for r in ar))
-        self.assertFalse(any(r['line'].startswith('SS actual') and r['year']==2030 for r in ar))
+        r=next(r for r in ar if r['line'].startswith('SS actual') and r['year']==2030)
+        self.assertEqual(r['revenue_change_bn'],0)
+        routed=next(r for r in ar if r['line']=='SSA OASDI capacity reclassification' and r['year']==2030)
+        self.assertAlmostEqual(r['primary_outlay_change_bn'],-routed['primary_outlay_change_bn'])
         self.assertTrue(any(r['line'].startswith('SS actual') and r['year']==2031 for r in ar))
 
     def test_2029_cash_and_surge_advance_not_free(self):
@@ -51,8 +79,8 @@ class BudgetTests(unittest.TestCase):
         advances=[r['primary_outlay_change_bn'] for r in ar if r['line'].startswith('2029 delivery')]
         self.assertAlmostEqual(sum(advances),0)
         row=next(r for r in self.d['cases']['mixed']['rows'] if r['year']==2029)
-        self.assertGreater(row['program_primary_bn'],49)
-        self.assertAlmostEqual(row['program_primary_bn'],M.credit(2029)+10)
+        self.assertGreater(row['program_primary_bn'],44)
+        self.assertAlmostEqual(row['program_primary_bn'],M.credit(2029)+5)
 
     def test_fund_grant_is_not_consolidated_revenue(self):
         a=self.d['cases']['mixed']; b=self.d['cases']['mixed_reserve_corridor']
@@ -65,7 +93,7 @@ class BudgetTests(unittest.TestCase):
         cap=self.u.P['leave_cap']; self.u.P['leave_cap']=1.1
         try: old=self.u.run_leave('high')
         finally: self.u.P['leave_cap']=cap
-        new=self.d['cases']['mixed']['leave']
+        new=M.leave_fund(self.u,1.1,'high',admin_fraction=0)
         for a,b in zip(old['rows'],new['rows']):
             for k in ('rate','receipts','benefits','reserve','loan'): self.assertAlmostEqual(a[k],b[k],places=6)
         self.assertEqual(new['rows'][-1]['year'],2100)

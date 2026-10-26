@@ -295,3 +295,9 @@ Developing 2029 restoration and January-2030 HLT-2 hearing/vision requires a dat
 ## Health bridge follow-up: October 24
 
 Use the [completed health bridge](../sources/health-delivery-resource-bridge.md) and [decision packet](../sources/health-hearing-vision-decision-packet.md) to price existing CMS-IMP work, not repeat CMS-IMP-02. Compare MA-contract changes and a possible Original-Medicare payment bridge, including MAC claims, supplier access, notices, appeals and existing supplemental obligations. FY2029 cash, marginal costs and CAP/HLT overlap remain unpriced. This research adds no appropriation, allocation, headcount or spending profile.
+
+
+**PR #22 accepted allocations, October 26.** The historical proportional table above is superseded for IRS, CMS, HUD and ED by [the component review](../sources/capacity-recovery-budget-review.md). Within the then-unchanged $300B surge/$300B sustained envelopes, working $B allocations are IRS 9/92.4, CMS 8/14.5, HUD 2.8/10.4 and ED 2.3/8.3. Round-1 rounded remainders were 277.9/174.4; the surge is now $105B (update below), so these remainders are not available room. IRS includes +24,000 enforcement FTE; receipt-risk allowance rises to $250B. PHA fees belong to housing, state Medicaid and public-plan operations to program rows, meals/care to USDA/HHS, and IES/NCES to EDU-8. Boundaries do not prove every program-row cost is priced. FY2029 four-agency cash estimate is $0.3–2.2B; all-agency adequacy of $10B remains unresolved. Unpriced functions remain explicit in the review.
+
+
+**October 26 integration update.** PRs #23/#25 supersede earlier capacity totals: $105B lifetime surge, $5B FY2029 advance, $300B sustained planning ceiling. DEV-P is separately budgeted at $92B permanent program spending. See [integration accounting](../sources/capacity-round-two-integration.md) for fund routing and limits.

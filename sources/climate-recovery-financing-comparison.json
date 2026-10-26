@@ -1,0 +1,579 @@
+{
+  "source_sha256": "d26ecf4ca3ec17a3a9fcce4e8b90af15b0fb2cb2d37da8fc579d04654c882eaf",
+  "source_main": "14061ff44b1db9bf3073d6f2456878cd5bad4f1d",
+  "international_source_sha256": "dc8463995d7e2e7a346977b2268b022d759f808574d9b254a12177d951088e6e",
+  "international": {
+    "adaptation_2030_39_bn": [
+      20.0,
+      40.0,
+      60.0
+    ],
+    "avg_price": [
+      15.88888888888889,
+      30.637254901960784,
+      61.07142857142856
+    ],
+    "cli13_mt_2035": [
+      60,
+      135,
+      250
+    ],
+    "cost_2030_39_bn": [
+      26.0975,
+      114.0625,
+      436.905
+    ],
+    "cost_2030_39_nominal_tn": [
+      0.03296313966402223,
+      0.14406966636373353,
+      0.5518444500396448
+    ],
+    "cost_2035_bn": [
+      3.575,
+      15.625,
+      59.849999999999994
+    ],
+    "counted_total_with_measures_2035": [
+      0.4907107617877361,
+      0.5802150457534644,
+      0.6697193297191926
+    ],
+    "counted_total_without_measures_2035": [
+      0.4841851421116927,
+      0.4956600503124271,
+      0.6631937100431492
+    ],
+    "domestic_2035": [
+      0.4841851421116927,
+      0.4956600503124271,
+      0.5132549095535531
+    ],
+    "domestic_floor": 0.5,
+    "domestic_with_floor_measures_2035": [
+      0.4907107617877361,
+      0.5021856699884705,
+      0.5197805292295965
+    ],
+    "floor_measures": {
+      "bill_2040_month": 1.0312845168716707,
+      "label": "clean-heat standard plus clean-industry support raised to 50% (packages.py diagnostics, steps 2-3)",
+      "outlays_bn_2025_2030_39": 78.67766209238991,
+      "points_2035": 0.0065256196760433705
+    },
+    "floor_met_with_measures": [
+      false,
+      true,
+      true
+    ],
+    "floor_met_without_measures": [
+      false,
+      false,
+      true
+    ],
+    "gap_mt_2035": {
+      "61%": [
+        632.3259111579766,
+        747.3259111579764,
+        822.3259111579763
+      ],
+      "66%": [
+        959.1259111579769,
+        1074.1259111579766,
+        1149.1259111579766
+      ]
+    },
+    "ld_adaptation_fy2040_nominal_bn": [
+      4.158001979021274,
+      8.316003958042549,
+      12.474005937063824
+    ],
+    "ld_adaptation_fy2050_nominal_bn": [
+      5.168846674185842,
+      10.337693348371683,
+      15.506540022557525
+    ],
+    "ld_adaptation_run_rate_bn_2025": [
+      3.0,
+      6.0,
+      9.0
+    ],
+    "loss_and_damage_2030_39_bn": [
+      10.0,
+      20.0,
+      30.0
+    ],
+    "package_a_2035": 0.4750052155511052,
+    "points_2035": [
+      0.03442472460220318,
+      0.07802937576499389,
+      0.1499388004895961
+    ],
+    "source_sha256": {
+      "index/tools/climate-portfolio/international.json": "8c86986883ce89e33c86b111606f8cc4dc89f287cb9793a1de70997f625ecaa2",
+      "index/tools/climate-portfolio/international.py": "aa97dbe285ad625426047dc1f482e786b7b776fed57c2144e60970ca096ecac4",
+      "sources/climate-portfolio-packages.json": "0ee70e15b68df00c0bfe3a977d473a20b79ea5b965edebd86887f4105ec1fb9d"
+    },
+    "sources": [
+      {
+        "basis": "estimate: the IEA finds about 70% of fossil methane (nearly 85 Mt CH4, roughly 2.4 Gt CO2e) abatable with existing technology and about 30% (35 Mt CH4) at no net cost at 2025 prices (Global Methane Tracker 2026). Payments buy speed and verification where capital, not price, is the barrier; no-cost tons raise additionality questions, so they need jurisdiction-wide baselines",
+        "cost_2035_bn": [
+          0.8800000000000001,
+          3.75,
+          12.25
+        ],
+        "id": "methane",
+        "label": "Oil, gas and coal-mine methane abroad: results payments to producers and regulators, verified by satellite and measurement",
+        "mt_2035": [
+          100,
+          200,
+          350
+        ],
+        "price": [
+          8,
+          15,
+          25
+        ]
+      },
+      {
+        "basis": "sourced range: LEAF Coalition purchases jurisdictional credits, reported $10 a ton floor; Nepal's January 2026 agreement is up to 4 Mt for up to $55M (about $14 a ton); Ghana and Costa Rica (2023) over $60M. Jurisdictional accounting addresses leakage better than project credits; permanence needs buffers",
+        "cost_2035_bn": [
+          0.66,
+          3.75,
+          14.7
+        ],
+        "id": "forests",
+        "label": "Jurisdictional forest results (national or state programs, ART-TREES style), with Indigenous and local community safeguards",
+        "mt_2035": [
+          50,
+          150,
+          300
+        ],
+        "price": [
+          12,
+          20,
+          35
+        ]
+      },
+      {
+        "basis": "estimate: ADB's first ETM deal (Cirebon-1, 660 MW) targets retirement in 2035 instead of 2042 and up to 30 Mt avoided over 15 years; its financial terms are undisclosed",
+        "cost_2035_bn": [
+          0.8250000000000001,
+          3.75,
+          14.0
+        ],
+        "id": "coal",
+        "label": "Early coal retirement and grid results contracts (Energy Transition Mechanism and JETP style)",
+        "mt_2035": [
+          50,
+          100,
+          200
+        ],
+        "price": [
+          15,
+          30,
+          50
+        ]
+      },
+      {
+        "basis": "sourced: Switzerland's bilateral purchases about $36 a ton; vendor indications $30-50. As of May 2026, 128 bilateral agreements but only five completed transfers (65,000 ITMOs): the market barely exists yet",
+        "cost_2035_bn": [
+          0.66,
+          2.5,
+          8.399999999999999
+        ],
+        "id": "itmo",
+        "label": "Article 6.2 programs: renewables, efficiency, e-mobility and industry, bilateral with corresponding adjustments",
+        "mt_2035": [
+          20,
+          50,
+          100
+        ],
+        "price": [
+          30,
+          40,
+          60
+        ]
+      },
+      {
+        "basis": "estimate: durable removal prices remain $100s a ton; direct air capture projected at $230-540 a ton by 2050 (ETH Zurich 2024)",
+        "cost_2035_bn": [
+          0.55,
+          1.875,
+          10.5
+        ],
+        "id": "removals",
+        "label": "Durable removals abroad (biochar, mineral weathering, direct air capture)",
+        "mt_2035": [
+          5,
+          10,
+          30
+        ],
+        "price": [
+          100,
+          150,
+          250
+        ]
+      }
+    ],
+    "tons_2030_39_gt": [
+      1.6425,
+      3.723,
+      7.154
+    ],
+    "total_2035": [
+      0.5300847749146302,
+      0.573689426077421,
+      0.6455988508020232
+    ],
+    "volume_mt_2035": [
+      225,
+      510,
+      980
+    ]
+  },
+  "pricing_sha256": "a2de8edff0b6197b0960fd8b6b0aa9bc1ef86880c29bff02cc2a0468536b4342",
+  "status": "Exploratory net fiscal bridge; not the fully integrated climate baseline or D3/D4 certification",
+  "inflation": 0.022,
+  "results": [
+    {
+      "financing": "existing_reforms",
+      "case": "capacity_reference",
+      "summary": {
+        "name": "capacity_reference",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 0,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 123.40050965129242,
+        "debt_gdp_2056": 139.43439633774895,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 5.833821101301211,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -3.166543878304323,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 0.0,
+        "max_mature_agenda_gf_gap_gdp": 0.8512066631338175,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 0,
+      "delta_2040_bn": 0,
+      "delta_2050_bn": 0
+    },
+    {
+      "financing": "existing_reforms",
+      "case": "central",
+      "summary": {
+        "name": "central",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 0,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 124.02702426726428,
+        "debt_gdp_2056": 141.01562726439744,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 5.954426725449032,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -2.9254148271838094,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 0.0,
+        "max_mature_agenda_gf_gap_gdp": 0.8792230355011573,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 241.12905112051314,
+      "delta_2040_bn": -14.190251176613646,
+      "delta_2050_bn": 49.03486244058465
+    },
+    {
+      "financing": "existing_reforms",
+      "case": "conservative",
+      "summary": {
+        "name": "conservative",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 0,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 124.21252437070471,
+        "debt_gdp_2056": 141.314308291709,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 5.9663996555870025,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -2.8320352353677443,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 0.0,
+        "max_mature_agenda_gf_gap_gdp": 0.8851447526073668,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 334.50864293657816,
+      "delta_2040_bn": 3.8030667685755506,
+      "delta_2050_bn": 49.03486244058465
+    },
+    {
+      "financing": "existing_reforms",
+      "case": "unfavorable",
+      "summary": {
+        "name": "unfavorable",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 0,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 124.72223155132014,
+        "debt_gdp_2056": 142.18693801949328,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 6.016682308058725,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -2.6125010389855796,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 0.0,
+        "max_mature_agenda_gf_gap_gdp": 0.9041979414257921,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 554.0428393187434,
+      "delta_2040_bn": 14.46270701649701,
+      "delta_2050_bn": 62.14822277465197
+    },
+    {
+      "financing": "existing_reforms",
+      "case": "conservative_mid_purchases",
+      "summary": {
+        "name": "conservative_mid_purchases",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 0,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 124.5332070444866,
+        "debt_gdp_2056": 141.66316993765722,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 5.980384126419821,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -2.6879655690040107,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 0.0,
+        "max_mature_agenda_gf_gap_gdp": 0.8851447526073668,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 478.5783093003117,
+      "delta_2040_bn": 3.8030667685755506,
+      "delta_2050_bn": 49.03486244058465
+    },
+    {
+      "financing": "upper_income_comparator",
+      "case": "capacity_reference",
+      "summary": {
+        "name": "capacity_reference",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 4,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 120.35841005869618,
+        "debt_gdp_2056": 127.15414959532973,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 4.857510727568838,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -4.576963180132867,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 1.4104193018285442,
+        "max_mature_agenda_gf_gap_gdp": 0.3572622318823331,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 0,
+      "delta_2040_bn": 0,
+      "delta_2050_bn": 0
+    },
+    {
+      "financing": "upper_income_comparator",
+      "case": "central",
+      "summary": {
+        "name": "central",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 4,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 120.98492467466805,
+        "debt_gdp_2056": 128.73538052197816,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 4.978116351716653,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -4.335834129012354,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 1.4104193018285442,
+        "max_mature_agenda_gf_gap_gdp": 0.38527860424967314,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 241.12905112051314,
+      "delta_2040_bn": -14.190251176613646,
+      "delta_2050_bn": 49.03486244058465
+    },
+    {
+      "financing": "upper_income_comparator",
+      "case": "conservative",
+      "summary": {
+        "name": "conservative",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 4,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 121.17042477810851,
+        "debt_gdp_2056": 129.03406154928976,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 4.990089281854623,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -4.242454537196289,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 1.4104193018285442,
+        "max_mature_agenda_gf_gap_gdp": 0.3912003213558825,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 334.50864293657816,
+      "delta_2040_bn": 3.8030667685755506,
+      "delta_2050_bn": 49.03486244058465
+    },
+    {
+      "financing": "upper_income_comparator",
+      "case": "unfavorable",
+      "summary": {
+        "name": "unfavorable",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 4,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 121.68013195872392,
+        "debt_gdp_2056": 129.90669127707403,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 5.04037193432635,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -4.022920340814124,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 1.4104193018285442,
+        "max_mature_agenda_gf_gap_gdp": 0.4102535101743078,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 554.0428393187434,
+      "delta_2040_bn": 14.46270701649701,
+      "delta_2050_bn": 62.14822277465197
+    },
+    {
+      "financing": "upper_income_comparator",
+      "case": "conservative_mid_purchases",
+      "summary": {
+        "name": "conservative_mid_purchases",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 4,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 121.49110745189039,
+        "debt_gdp_2056": 129.38292319523796,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 5.004073752687443,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -4.098384870832555,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 1.4104193018285442,
+        "max_mature_agenda_gf_gap_gdp": 0.3912003213558825,
+        "ss_sustainable": false,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.49530381955321856,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.829489585586796,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2058
+      },
+      "delta_2030_39_bn": 478.5783093003117,
+      "delta_2040_bn": 3.8030667685755506,
+      "delta_2050_bn": 49.03486244058465
+    }
+  ]
+}

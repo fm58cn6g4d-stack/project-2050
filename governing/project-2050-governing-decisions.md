@@ -470,7 +470,7 @@ Espen, on the [capacity review](../sources/capacity-recovery-budget-review.md) (
 **Revenue consequence.**
 - **Yield.** On CBO-based enforcement ratios adjusted for scale, the enforcement row yields about $0.13-0.14T of REV-G8 inside the window (range $0.085-0.18T). That is not enough to support $0.2T.
 - **Allowance.** The matching receipt-risk allowance is therefore **$250B**, replacing the $200B in the October 26 table above. It counts G8 at about $0.15T, which is $50B less counted revenue over FY2030-39.
-- **Who changes the input.** Codex, as the current integration owner, makes the change to `irs_receipt_risk_tn` in [recovery-adoption.json](../index/data/inputs/recovery-adoption.json). Until then the model carries 0.2.
+- **Who changes the input.** Codex, as the current integration owner, makes the change to `irs_receipt_risk_tn` in [recovery-adoption.json](../index/data/inputs/recovery-adoption.json). The coordinated integration sets this to 0.25.
 - **Official scores.** Under CBO scorekeeping Guideline 14, no official score credits this revenue. It counts in the project's own D4 tests.
 
 **Other review findings accepted with the merge.** These are working allocations and directions, not appropriations:
@@ -481,6 +481,12 @@ Espen, on the [capacity review](../sources/capacity-recovery-budget-review.md) (
 - **FY2029.** For the four agencies, FY2029 cash is bounded at about $0.8B (range $0.3-2.2B). Whether the $10B shifted into FY2029 covers every surge agency remains open.
 
 
+**Coordinated numerical integration, October 26.** Implement the accepted PR #22 allowance and inside-envelope agency allocations in the recovery overlay. Carry the rounded $12.2B HOU-4A PHA fee correction separately from CAP and once within total housing spending, with a four-year CPI-growing fully permanent path. Historical ledger inputs remain comparison vintages. HOU-4D remains a fixed $135B envelope; its exact delivery remains unselected. This accounting implementation does not certify rent, lease-up, IRS yield, FY2029 sufficiency or D3/D4.
+
+
+## Revenue rebalancing and spending-envelope direction, October 26
+
+Espen directs the financing assignment to begin with rebalancing federal revenue after tax reductions benefiting wealthy households and large corporations, then develop sustainable safety-net expansions, government improvements and new programs within a credible financing envelope. Existing proposed spending is revisable; present consequential downsizing options and their effects for Espen to decide at the end of the assignment. Do not automatically select cuts or raise broad household rates to preserve every inherited spending line. Retain early material relief, distributional scrutiny and long-run government/trust-fund solvency. Agents may review and comment on other agents’ open repository PRs during their own work. This does not authorize outside communications.
 ## Development agency and paid-leave administration accepted, October 26
 
 Espen, on the [round 2 capacity review](../sources/capacity-recovery-other-agencies-review.md) (PR #23): "accept both, price the three surge items next."

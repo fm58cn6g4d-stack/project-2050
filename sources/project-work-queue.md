@@ -1,6 +1,6 @@
 # Project 2050: current work queue
 
-Updated October 26, 2026. Single cross-session assignment/status record, not a second policy canon. Verified main: `3de6bd15af186b4cc4b304310e2e24aa3b52c93c` (PR #20 merged). Fetch again and inspect open PRs before work. This records known activity, not visibility into every chat.
+Updated October 26, 2026. Single cross-session assignment/status record, not a second policy canon. Verified main: `aa8552d` (PR #22 merged). Fetch again and inspect open PRs before work. This records known activity, not visibility into every chat.
 
 ## Current direction and collaboration
 
@@ -12,9 +12,9 @@ The substantive priority is the **joint contribution-and-protection settlement**
 
 | Work / state | Owner | Deliverable and boundary | Owned paths / integration |
 | --- | --- | --- | --- |
-| Collaboration refresh — review-ready on `codex/collaboration-refresh` | Codex, this session | Update shared/vendor instructions, remove obsolete launch assignments and prepare Claude re-entry message; no policy/model-number changes | Root entry files, shared instructions/handoff/strategy, this queue and re-entry note; focused PR |
-| Joint contribution-and-protection settlement — reserved next; not running in background | Codex | Price coordinated worker/nonworker contribution relief and joint financing; test household, debt and fund effects; resolve educational accounting dependencies | `index/tools/recovery-budget/`, shared fiscal/incidence inputs and outputs, recovery adoption record; integration owner for shared numerical changes |
-| Capacity budget and delivery realism — rounds 1 and 2 merged (PRs #22, #23); surge ~$105B and FY2029 $5B shift decided by Espen Oct 26; numerical integration with Codex | Claude Code | Initial IRS/CMS/HUD/Education budget and workload review; retain/reduce/expand/reserve recommendations within or explicitly challenging $300B surge/$300B sustained; test IRS yield and administration overlaps | `sources/capacity-recovery-budget-review.md`, `sources/capacity-recovery-components.csv`, `index/tools/capacity-review/`; read shared model, return proposed deltas for coordinated integration |
+| Collaboration refresh — integrated through PR #21 | Codex, this session | Update shared/vendor instructions, remove obsolete launch assignments and prepare Claude re-entry message; no policy/model-number changes | Root entry files, shared instructions/handoff/strategy, this queue and re-entry note; focused PR |
+| Joint contribution-and-protection settlement — PR #24 final review requested; reconciled with main 14061ff | Codex | Price coordinated worker/nonworker contribution relief and joint financing; test household, debt and fund effects; resolve educational accounting dependencies | `index/tools/recovery-budget/`, shared fiscal/incidence inputs and outputs, recovery adoption record; integration owner for shared numerical changes |
+| Capacity reviews — PRs #22/#23/#25 merged; surge $105B, FY2029 $5B, DEV-P and fund administration integration active on Codex branch | Claude Code | Initial IRS/CMS/HUD/Education budget and workload review; retain/reduce/expand/reserve recommendations within or explicitly challenging $300B surge/$300B sustained; test IRS yield and administration overlaps | `sources/capacity-recovery-budget-review.md`, `sources/capacity-recovery-components.csv`, `index/tools/capacity-review/`; read shared model, return proposed deltas for coordinated integration |
 | Agent automation and merge tiers — merged (PR #27, `ff5b602`); Espen completed the GitHub settings and labels on Oct 26 | Claude Code | Tiered merging through the merge gate, PR checks (rebuild, drift, tier, cross-agent review), CODEOWNERS and daily digest. Codex's integration (`chatgpt-codex-connector`) recorded in the merge policy after its first review | `.github/`, `governing/agent-automation-setup.md`; rules in `governing/project-collaboration.md#merging-three-tiers` |
 | Independent challenge — not assigned | Gemini or a fresh reviewer session | Reproduce and challenge a consequential result once there is a concrete package; financial logic/household/baseline errors before editorial suggestions | Review artifact linked to exact source commit; isolated fixes if needed; no third competing fiscal model |
 
@@ -46,6 +46,23 @@ Democracy's existing permission/reach/remedy work and adverse-political-conditio
 Use one task branch/worktree per author; record source SHA and claimed paths in the PR. Authors return complete artifacts, source references, assumptions, tests, proposed input changes and remaining questions. The shared-model owner reconciles each accepted package against current main and regenerates combined outputs once. Preserve both branches and meanings if conflicts arise. Agents can make element-level decisions under the delegation, but should record tradeoffs and obtain real independent scrutiny when consequential rather than imply unseen approval.
 
 PR #20 is merged; its merge authorization does not authorize every future PR. Follow applicable merge authorization and verify the remote result. Do not merge superseded PR #8 or unrelated historical branches. At interruption, leave the next step and actual committed/uncommitted state in the task PR. At completion, change the task state here; a saved file or an open PR is not a merge.
+
+### Current integration checkpoint, October 26
+
+Codex branch `codex/capacity-integration`, from aa8552d: applies PR #22's $250B IRS allowance, records four-agency allocations inside existing CAP envelopes, adds the $12.2B whole-package PHA fee correction once in recovery housing spending, and retains fixed HOU-4D. Common model rebuilt; 13 financial tests pass. The first joint financing screen is in `sources/financing-protection-initial-screen.md`; six exploratory cases expose the tradeoff between universal credits, middle-income contributions and debt. Next: household cells/current-law tax-benefit evidence and a priced worker/nonworker credit formula. This is active work, not a completed household guarantee. No merge authorization inferred.
+
+
+October 26 steering: establish the revenue-rebalancing envelope first, then compare sustainable spending packages. Espen reserves the final strategic downsizing decision. PR #23 is open with a proposed capacity surge reduction; Codex has posted a focused scope/accounting review, and its cuts are not adopted. Financing screen now includes zero additional broad/upper-income contribution cases while retaining already-modeled corporate/wealth reforms and dedicated financing; these are starting diagnostics, not completed alternative tax packages.
+
+
+Maintained financing reading entry: [Revenue rebalancing and a sustainable governing agenda](revenue-rebalancing-and-sustainable-agenda.md). Defines the three revenue cases, six overlap clusters, usable-envelope calculation and three spending-package comparisons. No spending reductions selected.
+
+
+Current checkpoint: PRs #23/#25 integrated; $105B surge/$5B FY2029 advance, DEV-P, leave administration and SSA/SMI routing implemented with explicit proxies and Medicare split sensitivities. See `sources/capacity-round-two-integration.md`. `sources/spending-package-comparisons.md` reports twelve central/adverse package/financing cases. Cuts remain exploratory. Next: current-law corporate/capital-revenue reconciliation and household/service effects of larger permanent redesigns.
+
+## PR #24 final review boundary
+
+Capacity/fund integration and the merged-climate net fiscal comparison are review-ready. Claude Code: review the final PR head, especially SSA/HI/SMI routing, education current-law identity, leave administration and the climate bridge; use the current-head Agent-Review format. Full carbon/revenue/incidence replacement and the progressive revenue settlement remain next substantive integration work. The climate financing decision and final strategic downsizing remain with Espen.
 
 ## Ongoing Codex participation
 

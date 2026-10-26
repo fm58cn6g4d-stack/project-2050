@@ -1,0 +1,24 @@
+# Capacity rounds two and three: budget integration
+
+October 26, 2026. Integrates merged PRs #23 and #25 from main 77f8a5e into the recovery overlay. Historical ledger vintages remain reproducible.
+
+- CAP-7S is $105B lifetime and the FY2029 advance is $5B; CAP-7 remains a $300B planning ceiling. New claims are not added again merely because their funding account changes. The reviewed high sustained case exceeds the ceiling by about $55B.
+- DEV-P adds $92B of permanent development-program outlays, separate from development-agency capacity. Its model path is a normalized three-year ramp growing with CPI thereafter. This is an explicit implementation proxy, not the review's unnormalized 50/80/100 ramp. The adopted window total is retained; mature costs follow the generated path.
+- Leave adds 3% of benefits for administration plus a $3B FY2030 startup assumption. The $30B review estimate used midpoint benefits; the recovery high-take-up case therefore costs more. Costs enter both the reserve/loan engine and federal outlays. Benefits are not reduced and administrative spending is not distributed as household income. The 1.10-point cap remains selected; regenerated repayment results supersede earlier dates.
+- SSA restoration is allocated using FY2026 administrative outlays in SSA's FY2027 Congressional Justification: OASDI $6,457.9M, Medicare $3,663M and SSI $4,659M. These three categories are normalized excluding user fees. This is a workload proxy, not a measured allocation of the proposed hires. Dividend operations remain general-fund capacity. The gross SSA recurring restoration and surge are already inside the capacity envelopes: OASDI is removed there when added to the fund, avoiding a second consolidated charge.
+- Medicare's HI/SMI split is not supplied by that combined table. The central case assumes half to each and includes all-HI/all-SMI sensitivity cases. HLT-2 operations are assigned to SMI. The working SMI premium share is 25%; the rest is a GF-supported account cost. Premiums are external receipts and are charged to the household Medicare distribution proxy. GF transfers are not new consolidated revenue. This does not model detailed SMI premium protections or legal allocation rules.
+
+[SSA primary source](https://www.ssa.gov/budget/assets/materials/2027/FY27_The_Justification_of_Estimates_for_Appropriations_Committees.pdf), LAE administrative-outlays table. The published account shares are sourced; applying them to new workloads and splitting Medicare equally are assumptions. Dollars are translated back to the fund model's economy when charged to OASDI/HI; after 2056 the final conversion ratio is held constant. Recurring administration grows with payroll after 2039, preserving a funded maturity test rather than extending nominal 2026 costs forever.
+
+**Review qualifications.** DEV-P's narrative arithmetic does not reconcile cleanly: its displayed $25.7B minus $21.7B is $4B, not the stated $5.3B nominal gap. The accepted $92B is implemented as a working allocation, not certified as the exact cost of restoring FY2024 real spending. The account crosswalk/inflation factors need correction before that restoration claim is repeated. The review also contains superseded surge recommendations ($110B/$300B); PR #25's $105B decision controls. HLT-2's $0.25B annual operations are now priced assumptions, not the earlier unpriced largest risk.
+
+The raw capacity review sums all funding sources. Its remainder is not a GF appropriation automatically available to spend after trust-fund routing. The overlay treats the $300B as the gross allocation ceiling and discloses the fund shares. Reusing any freed GF allocation would be an additional spending decision, not a costless bookkeeping change.
+
+
+Central high-take-up leave repayment now occurs in **2058**, versus 2048 before administration. The 6% administration sensitivity is included in generated results. This is a financing pressure to resolve, not authority to raise the selected rate cap or restrict benefits.
+
+At 6% ongoing administration, the model does not repay the leave loan by 2100 and ends with about **$96B** outstanding. The selected 1.10-point cap is therefore not robust to the full reviewed administration range; financing or operating-design changes need evaluation before a durable-solvency claim.
+
+## Reconciled with main after PR #26
+
+Main `14061ff` includes the climate package and automation changes. Capacity accounting above is unchanged. The [climate financing comparison](climate-recovery-financing-comparison.md) replaces the provisional climate cuts in the financing work; the common recovery reference still carries historical carbon paths. Its totals must not be described as a completed post-PR #26 agenda. DOE grid/loan administration may need a priced adjustment beyond the pre-CLI-10G staffing estimate; this review does not invent that cost or treat the capacity remainder as freely spendable.

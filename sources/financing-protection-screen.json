@@ -1,0 +1,446 @@
+{
+  "status": "exploratory screen, not adopted; same 2-point SS closer and 1.4-point education illustration retained; no within-quintile or cash-only protection claim",
+  "source_commit": "aa8552d plus capacity-integration working changes",
+  "cases": [
+    {
+      "credit_2030_dollars_per_adult": 300,
+      "high_income_points": 0,
+      "broad_income_points": 0,
+      "summary": {
+        "name": "screen",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 0,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 123.58671392504023,
+        "debt_gdp_2056": 139.10249607157232,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 5.793619348540099,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -3.11121798727474,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 0.0,
+        "max_mature_agenda_gf_gap_gdp": 0.834540573672412,
+        "ss_sustainable": true,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.5038278480196309,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.877695253230829,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2048
+      },
+      "households": {
+        "2030": {
+          "Q1": 7611,
+          "Q2": 5425,
+          "Q3": 2905,
+          "Q4": 188,
+          "Q5": -25481
+        },
+        "2035": {
+          "Q1": 13703,
+          "Q2": 11890,
+          "Q3": 7653,
+          "Q4": 1338,
+          "Q5": -53159
+        },
+        "2039": {
+          "Q1": 15803,
+          "Q2": 13130,
+          "Q3": 7492,
+          "Q4": -656,
+          "Q5": -64619
+        }
+      }
+    },
+    {
+      "credit_2030_dollars_per_adult": 300,
+      "high_income_points": 4,
+      "broad_income_points": 0,
+      "summary": {
+        "name": "screen",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 4,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 120.544614332444,
+        "debt_gdp_2056": 126.82224932915307,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 4.81730897480772,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -4.5216372891032846,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 1.4104193018285442,
+        "max_mature_agenda_gf_gap_gdp": 0.3405961424209275,
+        "ss_sustainable": true,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.5038278480196309,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.877695253230829,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2048
+      },
+      "households": {
+        "2030": {
+          "Q1": 7611,
+          "Q2": 5425,
+          "Q3": 2905,
+          "Q4": 188,
+          "Q5": -25481
+        },
+        "2035": {
+          "Q1": 13703,
+          "Q2": 11890,
+          "Q3": 7653,
+          "Q4": 861,
+          "Q5": -60623
+        },
+        "2039": {
+          "Q1": 15803,
+          "Q2": 13130,
+          "Q3": 7492,
+          "Q4": -1208,
+          "Q5": -73275
+        }
+      }
+    },
+    {
+      "credit_2030_dollars_per_adult": 300,
+      "high_income_points": 4,
+      "broad_income_points": 2,
+      "summary": {
+        "name": "screen",
+        "broad_income_rate_points": 2,
+        "high_income_rate_points": 4,
+        "credit_multiple": 1,
+        "debt_gdp_2039": 119.52253559878558,
+        "debt_gdp_2056": 114.35850855850524,
+        "debt_ratio_nonincreasing_2045_56": true,
+        "deficit_gdp_2056": 3.665547016153067,
+        "credit_tn": 0.9158268665942524,
+        "primary_change_2030_39_tn": -5.018112689702271,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 1.9068947024275305,
+        "max_mature_agenda_gf_gap_gdp": -0.05869097661313232,
+        "ss_sustainable": true,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.5038278480196309,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.877695253230829,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2048
+      },
+      "households": {
+        "2030": {
+          "Q1": 7611,
+          "Q2": 5425,
+          "Q3": 2905,
+          "Q4": 188,
+          "Q5": -25481
+        },
+        "2035": {
+          "Q1": 13693,
+          "Q2": 11836,
+          "Q3": 7524,
+          "Q4": 605,
+          "Q5": -61244
+        },
+        "2039": {
+          "Q1": 15741,
+          "Q2": 12820,
+          "Q3": 6747,
+          "Q4": -2697,
+          "Q5": -76872
+        }
+      }
+    },
+    {
+      "credit_2030_dollars_per_adult": 1500,
+      "high_income_points": 10,
+      "broad_income_points": 2,
+      "summary": {
+        "name": "screen",
+        "broad_income_rate_points": 2,
+        "high_income_rate_points": 10,
+        "credit_multiple": 5,
+        "debt_gdp_2039": 123.9265850634492,
+        "debt_gdp_2056": 118.88928621965383,
+        "debt_ratio_nonincreasing_2045_56": true,
+        "deficit_gdp_2056": 3.785663226588856,
+        "credit_tn": 4.579134332971262,
+        "primary_change_2030_39_tn": -3.4704341760680766,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 4.022523655170347,
+        "max_mature_agenda_gf_gap_gdp": -0.0185004440654599,
+        "ss_sustainable": true,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.5038278480196309,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.877695253230829,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2048
+      },
+      "households": {
+        "2030": {
+          "Q1": 9415,
+          "Q2": 7576,
+          "Q3": 5392,
+          "Q4": 2651,
+          "Q5": -22821
+        },
+        "2035": {
+          "Q1": 15755,
+          "Q2": 14295,
+          "Q3": 10367,
+          "Q4": 2706,
+          "Q5": -69399
+        },
+        "2039": {
+          "Q1": 18036,
+          "Q2": 15557,
+          "Q3": 9911,
+          "Q4": -392,
+          "Q5": -86471
+        }
+      }
+    },
+    {
+      "credit_2030_dollars_per_adult": 1500,
+      "high_income_points": 10,
+      "broad_income_points": 0,
+      "summary": {
+        "name": "screen",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 10,
+        "credit_multiple": 5,
+        "debt_gdp_2039": 124.94866379710763,
+        "debt_gdp_2056": 131.35302699030166,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 4.937425185243513,
+        "credit_tn": 4.579134332971262,
+        "primary_change_2030_39_tn": -2.9739587754690913,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 3.5260482545713607,
+        "max_mature_agenda_gf_gap_gdp": 0.3807866749686008,
+        "ss_sustainable": true,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.5038278480196309,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.877695253230829,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2048
+      },
+      "households": {
+        "2030": {
+          "Q1": 9415,
+          "Q2": 7576,
+          "Q3": 5392,
+          "Q4": 2651,
+          "Q5": -22821
+        },
+        "2035": {
+          "Q1": 15766,
+          "Q2": 14349,
+          "Q3": 10495,
+          "Q4": 2963,
+          "Q5": -68778
+        },
+        "2039": {
+          "Q1": 18098,
+          "Q2": 15867,
+          "Q3": 10655,
+          "Q4": 1097,
+          "Q5": -82874
+        }
+      }
+    },
+    {
+      "credit_2030_dollars_per_adult": 2400,
+      "high_income_points": 10,
+      "broad_income_points": 2,
+      "summary": {
+        "name": "screen",
+        "broad_income_rate_points": 2,
+        "high_income_rate_points": 10,
+        "credit_multiple": 8,
+        "debt_gdp_2039": 130.65198420361767,
+        "debt_gdp_2056": 136.10264705073686,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 4.974099554864623,
+        "credit_tn": 7.326614932754019,
+        "primary_change_2030_39_tn": -0.7229535762853199,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 4.022523655170347,
+        "max_mature_agenda_gf_gap_gdp": 0.5673299405032155,
+        "ss_sustainable": true,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.5038278480196309,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.877695253230829,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2048
+      },
+      "households": {
+        "2030": {
+          "Q1": 10769,
+          "Q2": 9190,
+          "Q3": 7257,
+          "Q4": 4499,
+          "Q5": -20826
+        },
+        "2035": {
+          "Q1": 17302,
+          "Q2": 16140,
+          "Q3": 12498,
+          "Q4": 4818,
+          "Q5": -67118
+        },
+        "2039": {
+          "Q1": 19757,
+          "Q2": 17609,
+          "Q3": 12283,
+          "Q4": 1959,
+          "Q5": -83934
+        }
+      }
+    },
+    {
+      "credit_2030_dollars_per_adult": 1500,
+      "high_income_points": 14,
+      "broad_income_points": 2,
+      "summary": {
+        "name": "screen",
+        "broad_income_rate_points": 2,
+        "high_income_rate_points": 14,
+        "credit_multiple": 5,
+        "debt_gdp_2039": 120.88448547085297,
+        "debt_gdp_2056": 106.60903947723457,
+        "debt_ratio_nonincreasing_2045_56": true,
+        "deficit_gdp_2056": 2.809352852856478,
+        "credit_tn": 4.579134332971262,
+        "primary_change_2030_39_tn": -4.880853477896621,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 5.432942956998891,
+        "max_mature_agenda_gf_gap_gdp": -0.5124448753169436,
+        "ss_sustainable": true,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.5038278480196309,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.877695253230829,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2048
+      },
+      "households": {
+        "2030": {
+          "Q1": 9415,
+          "Q2": 7576,
+          "Q3": 5392,
+          "Q4": 2651,
+          "Q5": -22821
+        },
+        "2035": {
+          "Q1": 15755,
+          "Q2": 14295,
+          "Q3": 10367,
+          "Q4": 2230,
+          "Q5": -76863
+        },
+        "2039": {
+          "Q1": 18036,
+          "Q2": 15557,
+          "Q3": 9911,
+          "Q4": -944,
+          "Q5": -95127
+        }
+      }
+    },
+    {
+      "credit_2030_dollars_per_adult": 2400,
+      "high_income_points": 14,
+      "broad_income_points": 0,
+      "summary": {
+        "name": "screen",
+        "broad_income_rate_points": 0,
+        "high_income_rate_points": 14,
+        "credit_multiple": 8,
+        "debt_gdp_2039": 128.6319633446799,
+        "debt_gdp_2056": 136.28614107896547,
+        "debt_ratio_nonincreasing_2045_56": false,
+        "deficit_gdp_2056": 5.149551139786898,
+        "credit_tn": 7.326614932754019,
+        "primary_change_2030_39_tn": -1.6368974775148786,
+        "education_grants_tn": 1.1963054913275946,
+        "hi_grants_tn": 0.2352851593199312,
+        "new_income_tax_tn": 4.936467556399905,
+        "max_mature_agenda_gf_gap_gdp": 0.4726726282857917,
+        "ss_sustainable": true,
+        "ss_depletion": null,
+        "ss_actuarial_balance": 0.5038278480196309,
+        "hi_depletion": null,
+        "hi_terminal_rising": true,
+        "hi_terminal_ratio": 6.877695253230829,
+        "education_depletion": null,
+        "education_terminal_rising": true,
+        "education_terminal_ratio": 2.0000000000000004,
+        "leave_terminal_loan_bn": 0.0,
+        "leave_repayment_year": 2048
+      },
+      "households": {
+        "2030": {
+          "Q1": 10769,
+          "Q2": 9190,
+          "Q3": 7257,
+          "Q4": 4499,
+          "Q5": -20826
+        },
+        "2035": {
+          "Q1": 17312,
+          "Q2": 16193,
+          "Q3": 12627,
+          "Q4": 4598,
+          "Q5": -73962
+        },
+        "2039": {
+          "Q1": 19819,
+          "Q2": 17919,
+          "Q3": 13027,
+          "Q4": 2895,
+          "Q5": -88991
+        }
+      }
+    }
+  ]
+}

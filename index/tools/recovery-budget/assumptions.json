@@ -175,7 +175,7 @@
     "hi_health_savings_fraction": 0.5,
     "receipt_losses_tn": {
       "HLT-6": 0.35,
-      "G8": 0.2,
+      "G8": 0.15,
       "C39": 0.15,
       "C38": 0.29,
       "G9": 0.25
