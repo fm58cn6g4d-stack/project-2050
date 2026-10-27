@@ -129,3 +129,17 @@ footer.site { border-top:1px solid var(--line); padding:24px 0 40px; font-size:.
 @media (prefers-reduced-motion:no-preference) { html { scroll-behavior:smooth } }
 @media print { header.site nav, .essay-nav, .skip { display:none } .essay { break-before:page } }
 .toc a { align-content:start }
+.prose .section-h { font-size:1.35rem; line-height:1.25; margin:2.2em 0 .7em; scroll-margin-top:16px }
+.brief { background:var(--white); border:1px solid var(--line); border-top:5px solid var(--green); border-radius:10px; padding:18px 22px 8px; margin:0 0 2em }
+.brief h3 { margin:0 0 10px; font-size:.85rem; text-transform:uppercase; letter-spacing:.1em; color:var(--green) }
+.brief ol { margin:0; padding-left:1.3em }
+.brief li { font-size:1.02rem; line-height:1.55; margin-bottom:12px }
+.pull { margin:2em 0; padding:4px 0 4px 22px; border-left:5px solid var(--accent) }
+.pull p { font-family:Georgia,'Times New Roman',serif; font-size:1.45rem!important; line-height:1.4!important; font-style:italic; color:var(--ink); margin:0!important }
+.objection { border-top:1px solid var(--line); padding:18px 0 4px }
+.objection h4 { font-family:Georgia,'Times New Roman',serif; font-size:1.18rem; line-height:1.45; margin:0 0 10px; font-style:italic }
+.obj-k { display:block; font-family:Arial,Helvetica,sans-serif; font-style:normal; font-size:.72rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--accent-ink); margin-bottom:4px }
+.obj-a .obj-k { color:var(--green) }
+.prose .diagram p { font-family:Arial,Helvetica,sans-serif; font-size:.95rem; line-height:1.45; margin:0 0 10px }
+.prose .diagram .rule-k { margin:0 }
+.basis-research { background:#e2ece3; color:#24533a }

@@ -35,7 +35,8 @@
     "estimate": "Planning estimate",
     "model": "Model result",
     "observed": "Current fact",
-    "direction": "In development"
+    "direction": "In development",
+    "research": "Research finding"
   },
   "policies": {
     "FAM-1": {
@@ -1629,6 +1630,279 @@
           "anchor": "No D3/D4 or all-fund solvency certification."
         }
       ]
+    },
+    "share-served": {
+      "summary": "Only about one in four eligible renter households received federal rental assistance, because the programs are funded as fixed budgets (CBPP, 2022 estimate).",
+      "basis": "research",
+      "figures": [
+        "1 in 4",
+        "2022"
+      ],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: CBPP",
+          "anchor": "Only 5.3 million (1 in 4) eligible renter households receive federal rental assistance due to funding limitations."
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: CBPP date",
+          "anchor": "February 15, 2022"
+        }
+      ],
+      "external": [
+        {
+          "label": "CBPP, Funding Limitations Create Widespread Unmet Need for Rental Assistance",
+          "url": "https://www.cbpp.org/research/housing/funding-limitations-create-widespread-unmet-need-for-rental-assistance",
+          "checked": "2026-10-27"
+        }
+      ]
+    },
+    "gap": {
+      "summary": "The national shortage of homes affordable and available to extremely low-income renters is 7.2 million for 11 million households, or 35 homes per 100; nearly three in four of these households pay more than half their income for rent and utilities, and no state has enough (NLIHC, March 2026).",
+      "basis": "observed",
+      "figures": [
+        "7.2",
+        "11",
+        "35",
+        "100",
+        "2026"
+      ],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: NLIHC, The Gap",
+          "anchor": "Nationally, there is a shortage of 7.2 million affordable and available rental homes for 11 million extremely low-income renter households. Only 35 affordable and available rental homes exist for every 100 of these lowest-income renters."
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: NLIHC, cost burden",
+          "anchor": "Seventy-four percent of the 11 million extremely low-income renters nationally are severely cost-burdened"
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: NLIHC, no state",
+          "anchor": "No state or major metropolitan area has an adequate supply"
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: NLIHC date",
+          "anchor": "*The Gap: A Shortage of Affordable Homes*, March 2026"
+        }
+      ],
+      "external": [
+        {
+          "label": "NLIHC, The Gap 2026",
+          "url": "https://nlihc.org/sites/default/files/gap/2026/gap-report_2026_english.pdf",
+          "checked": "2026-10-27"
+        }
+      ]
+    },
+    "rent-gap": {
+      "summary": "Rents that the lowest-income households can pay generally cannot cover the cost of building and running homes, so a subsidy has to close the difference, through the tenant or the building.",
+      "basis": "design",
+      "policy_ids": [
+        "HOU-3"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing",
+          "anchor": "Very low rents cannot generally service full construction debt."
+        }
+      ]
+    },
+    "fos-effects": {
+      "summary": "HUD’s Family Options Study, a randomized experiment with 2,282 families in shelters at 12 sites: priority access to a long-term rent subsidy cut emergency-shelter use by more than three-quarters and homelessness or doubling up by more than half at three years, and raised food security by about 10 percentage points.",
+      "basis": "research",
+      "figures": [
+        "2,282",
+        "12",
+        "10"
+      ],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: Family Options design",
+          "anchor": "A randomized experiment with 2,282 families recruited in homeless shelters across 12 sites"
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: Family Options housing",
+          "anchor": "reduced use of emergency shelters in months 21 to 32 after random assignment by more than three-quarters, and reduced self-reported homelessness or doubling up by more than half at the three-year follow-up."
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: Family Options food security",
+          "anchor": "about 10 percentage points more likely to be food secure at both time points."
+        }
+      ],
+      "external": [
+        {
+          "label": "Gubits et al. 2018, Family Options Study (open copy)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6168747/",
+          "checked": "2026-10-27"
+        }
+      ]
+    },
+    "fos-cost": {
+      "summary": "In the same experiment, long-term subsidies cost about 9 percent more than the usual shelter and service programs over 37 months.",
+      "basis": "research",
+      "figures": [
+        "9"
+      ],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: Family Options cost",
+          "anchor": "relative to usual care, at a cost 9 percent higher."
+        }
+      ]
+    },
+    "fos-conclusion": {
+      "summary": "The study’s authors conclude that homelessness for most families is an economic problem that long-term rent subsidies resolve.",
+      "basis": "research",
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: Family Options conclusion",
+          "anchor": "The study provides support for the view that homelessness for most families is an economic problem that long-term rent subsidies resolve"
+        }
+      ]
+    },
+    "fos-work": {
+      "summary": "The experiment also found a modest work effect: around the three-year mark, family heads with any employment fell from 57.5 percent to 52.0 percent, with no effect on average earnings.",
+      "basis": "research",
+      "figures": [
+        "57.5",
+        "52.0"
+      ],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "pin": "evidence",
+          "label": "Evidence record: Family Options work",
+          "anchor": "from 57.5 percent to 52.0 percent but had no effect on average earnings across all families"
+        }
+      ]
+    },
+    "lease-success": {
+      "summary": "In one national HUD study, about 69 percent of voucher holders succeeded in leasing a home; success was lower in tight markets and higher where landlords could not refuse voucher holders.",
+      "basis": "research",
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "figures": [
+        "69"
+      ],
+      "sources": [
+        {
+          "path": "sources/family-child-poverty-report-1.md",
+          "label": "Child-poverty research report",
+          "anchor": "HUD's historical research summarized voucher success around 69 percent in one national study, lower in tight markets and higher where source-of-income protections were present"
+        }
+      ]
+    },
+    "project-based": {
+      "summary": "Where tenant vouchers repeatedly fail, the design uses homes owned by public or nonprofit sponsors; rent-reasonableness limits, inspections and anti-discrimination enforcement keep subsidy from simply raising rents for poor housing.",
+      "basis": "direction",
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing",
+          "anchor": "Offer project-based assistance with public or nonprofit housing where tenant vouchers repeatedly fail"
+        },
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing",
+          "anchor": "Rent reasonableness, inspection and anti-discrimination enforcement remain essential"
+        }
+      ]
+    },
+    "guarantee-design": {
+      "summary": "The guarantee design under evaluation: households at or below 30% of area median income, with a national poverty-based floor; assistance covers approved rent above a contribution of about 30% of income, phasing out gradually as earnings rise. Proposed parameters, not adopted.",
+      "basis": "direction",
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "figures": [
+        "30%"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing guarantee",
+          "anchor": "household income at or below 30% of area median income, subject to a nationally defined poverty-based floor"
+        },
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing guarantee",
+          "anchor": "Assistance would cover approved rent above a household contribution around 30% of adjusted income, with a gradual exit as earnings rise."
+        }
+      ]
+    },
+    "guarantee-phase": {
+      "summary": "The guarantee would be phased in by law, group by group, with the statute saying who becomes entitled and when.",
+      "basis": "direction",
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing guarantee",
+          "anchor": "A phased statutory commitment should specify which cohorts become entitled and when."
+        }
+      ]
+    },
+    "federal-sponsor": {
+      "summary": "A federal housing-development sponsor would finance acquisition, repair and construction with regional agencies, Tribes and nonprofits, with a direct route when a state declines, so a person’s right does not depend on local cooperation.",
+      "basis": "direction",
+      "policy_ids": [
+        "HOU-3"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing guarantee",
+          "anchor": "Create a federal housing-development sponsor able to finance or commission acquisition, rehabilitation and construction with regional public agencies, Tribes and nonprofit developers. Give it a direct application path when a state declines to participate."
+        },
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing guarantee",
+          "anchor": "an individual's right should not become a sanction against an uncooperative mayor."
+        }
+      ]
+    },
+    "change-mind": {
+      "summary": "What would change the recommendation: public development adding little supply at much greater lifetime cost; a caseload that cannot be financed without displacing more valuable protections; or cash delivering comparable housing stability with fewer restrictions. The Family Options evidence does not show vouchers beat cash for all low-income households.",
+      "basis": "direction",
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing",
+          "anchor": "evidence that the public development route adds little supply at materially greater lifecycle cost; an entitlement caseload that cannot be financed without displacing more valuable protections; or evidence that a cash design produces comparable housing stability with fewer restrictions."
+        },
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "label": "Strategic alternatives, housing",
+          "anchor": "It does not prove vouchers dominate cash for all low-income households."
+        }
+      ]
     }
   },
   "essays": [
@@ -1664,23 +1938,37 @@
     },
     {
       "id": "housing",
-      "short": "Help with the rent, and enough homes for it to work.",
+      "short": "Turn rationed rental help into a guarantee, and build the homes to back it.",
       "principle": "Freedom you can use",
-      "title": "A home you can keep",
-      "dek": "Rental help is rationed by waiting lists. Turning help into a home also takes buildings, repairs and landlords willing to rent.",
+      "title": "End the housing lottery",
+      "dek": "For the country’s lowest-income renters, federal housing help is handed out by waiting list. We argue it should become a guarantee, phased in and backed by the public capacity to build.",
       "policy_ids": [
         "HOU-4",
         "HOU-4D",
         "HOU-3",
         "HOU-5",
-        "HOU-6"
+        "HOU-6",
+        "LAB-10",
+        "D4-B"
       ],
       "art": {
         "file": "housing.svg",
         "caption": "An older apartment building under repair beside a new one going up, with a family carrying boxes toward the entrance."
       },
-      "diagram_after": 2,
       "diagrams": [
+        {
+          "id": "lottery-to-guarantee",
+          "file": "lottery-to-guarantee.html",
+          "caption": "From a lottery to a guarantee. The first stage is funded in the selected program; the guarantee is the direction under development and is not yet priced.",
+          "claims": [
+            "share-served",
+            "hou4a",
+            "hou4d",
+            "hou-guarantee",
+            "guarantee-phase",
+            "federal-sponsor"
+          ]
+        },
         {
           "id": "award-to-home",
           "file": "award-to-home.html",
@@ -1690,15 +1978,113 @@
           ]
         }
       ],
-      "body": [
-        "Rent is the bill that decides the rest of a household’s budget. When it rises faster than pay, every other choice narrows: where children go to school, how far someone can travel for work, whether a person can leave a bad job or a bad relationship. The country already has a tool aimed at this problem. About 2.3 million households hold a Housing Choice Voucher. {c:vouchers-now} But vouchers are funded by annual appropriation rather than as a right, so whether an eligible family gets help depends largely on whether it reaches the top of a waiting list.",
-        "The project’s first commitment is larger and steadier funding. It would add one million new voucher awards, funded as mandatory spending and phased in at 250,000 a year over 2030–33. {c:hou4a} On top of that, it sets aside $135B over 2030–39 for further rental help. Roughly another million awards is a useful way to picture that sum, but it is an illustration, not a promised count. {c:hou4d} The distinction matters because an award is not yet a home.",
-        "Assistance without enough homes mostly raises rents, and homes without assistance rarely reach the lowest incomes. So the second commitment is supply. The project would capitalize state housing revolving funds with about $72B in grants and offer $300B in federal direct loans for construction. {c:hou3} It would also repair what already exists. Public housing’s capital budget would rise from $3.2B to about $9B a year for ten years. Against a repair backlog estimated at $80B to $169B, that would close roughly a third to two-thirds of it. {c:hou5} The plain reading is that repair would not be finished in a decade, and some tenants would keep living with the backlog.",
-        "Much of what limits housing is local: zoning that forbids apartments, parking rules that make small buildings unbuildable, and permits that take years. Washington cannot order a town to change its zoning, and the project does not pretend otherwise. It would reward places that allow more homes through a competitive fund, and attach conditions only to new federal money, never to grants communities already rely on. {c:hou6} This is slower and less certain than a mandate. It is also more likely to survive the courts and the politics of local control.",
-        "Every version of this plan asks someone to wait. Families who do not receive one of the new awards still face the market as it is, and the construction and repair money takes years to become apartments. The project’s answer is to treat assistance, supply and repair as one program rather than three, and to measure them together: awards that cannot be used are a sign that more homes are needed, and new homes that remain out of reach are a sign that assistance has fallen short. A further question is what happens where a state or city declines to take part. The housing-security work now under way includes public and nonprofit ownership, homes kept affordable for the long term, and a federal backstop where local participation fails, so that a renter’s chances do not depend entirely on the politics of their county. {c:hou-guarantee}",
-        "The harder question is whether rental help should remain a matter of luck at all. The project is developing a housing-security guarantee for renters with extremely low incomes, built together with public and nonprofit housing, so that help no longer depends on a waiting list. {c:hou-guarantee} That design has not been priced, and the funded expansion described above is a step toward it rather than the guarantee itself. I think it is the right direction. The test of a housing policy is not how many awards are announced but whether people who receive help can find a decent place, stay in it and afford the rest of their lives."
-      ],
-      "limits": "This essay does not claim that any household would receive a voucher, that every award becomes a lease, or that the housing-security guarantee is funded. Local rents, landlord participation and construction timelines remain uncertain. {c:award-lease}"
+      "limits": "This essay does not claim that the guarantee is priced or adopted, that every award becomes a lease, or that more assistance has no effect on rents or work. The research it cites concerns earlier program conditions and, for the experiment, families already in shelter, not the project’s own design. {c:hou-guarantee}{c:award-lease}",
+      "blocks": [
+        {
+          "points": [
+            "The problem is rationing, not the lack of a tool. Federal rental help works, but it is funded as a fixed budget rather than a right, so only about one in four eligible households received it in the most recent national estimate. {c:share-served}",
+            "The shortage is deepest at the bottom of the market. There are 7.2 million too few homes that the country’s 11 million extremely low-income renter households can afford and get, and nearly three in four of those households spend more than half their income on rent. {c:gap}",
+            "When families do get lasting help, the results are large. In a national randomized experiment, long-term rent subsidies more than halved homelessness and doubling up. {c:fos-effects}",
+            "We propose three steps: expand rental help now, build and repair the homes it depends on, and phase in a guarantee for the lowest-income renters, with a federal route where states decline. The guarantee is not yet priced, and we set out what would change our minds. {c:hou4a}{c:hou-guarantee}"
+          ]
+        },
+        {
+          "h": "A lottery, not a program"
+        },
+        {
+          "p": "Many of the country’s basic protections work by eligibility: if you qualify, you receive help. Rental assistance works by budget. Congress sets an amount each year, and the number of households helped is whatever that amount can pay for. The main tool, the Housing Choice Voucher, reaches about 2.3 million households. {c:vouchers-now} In the most recent national estimate, from 2022, only about one in four eligible renter households received any federal rental assistance. {c:share-served} The other three were not judged less needy. They had simply not reached the top of a list."
+        },
+        {
+          "p": "Consider two hypothetical families in the same city, with the same low income and the same rent. One was lucky with the waiting list years ago. It pays a manageable share of its income for housing and has room left for groceries, a bus pass and a car repair. The other pays more than half its income in rent, and a single missed shift leaves it a month from eviction. Public policy judges the two families equally deserving and then treats them in completely different ways."
+        },
+        {
+          "p": "We think this is the wrong way to run a program that people’s homes depend on. It makes help arbitrary. It leaves many of the families in the most danger to manage alone. And it makes the program hard to defend politically, because most people who might one day need it will never see it work."
+        },
+        {
+          "h": "The shortage is at the bottom"
+        },
+        {
+          "p": "The housing shortage is often described as a problem for everyone, and in expensive regions it is. But it is most severe for the lowest-income renters. According to the National Low Income Housing Coalition’s March 2026 report, the country has 7.2 million too few homes that are affordable and available to its 11 million extremely low-income renter households: just 35 such homes for every 100 households. Nearly three in four of these households spend more than half their income on rent and utilities, and no state has an adequate supply. {c:gap}"
+        },
+        {
+          "p": "The market does not close this gap on its own, for a simple reason. The rents these households can pay are generally too low to cover the cost of building and running a home. {c:rent-gap} Building more homes of every kind helps, and the project rewards places that allow it. But housing for the lowest incomes needs a subsidy somewhere, either to the tenant, to help with the rent, or to the building, so that rents can stay low. The real choice is not whether to subsidize, but whether to do it for everyone in need or only for the lucky."
+        },
+        {
+          "h": "Rental help works when people get it"
+        },
+        {
+          "p": "The strongest evidence comes from HUD’s Family Options Study, a randomized experiment with 2,282 families in homeless shelters across 12 sites. Families offered priority access to a long-term rent subsidy, usually a voucher, cut their use of emergency shelters by more than three-quarters and their rates of homelessness or doubling up with others by more than half after three years. They were also about 10 percentage points more likely to have enough food. {c:fos-effects} These gains cost about 9 percent more than the shelters and services the comparison families used instead. {c:fos-cost}"
+        },
+        {
+          "p": "The study’s authors drew a plain conclusion: for most families, homelessness is an economic problem that long-term rent subsidies resolve. {c:fos-conclusion} That is the case for treating rental help as basic infrastructure rather than as charity handed out by lottery. We know what works. We have chosen to provide it to a minority of the people who need it."
+        },
+        {
+          "quote": "A family’s chance of a stable home should not depend on where it happens to stand on a waiting list."
+        },
+        {
+          "h": "What we propose"
+        },
+        {
+          "p": "Project 2050 would end the lottery in three steps. The first two are part of the program the project has already selected. The third is the direction it is now developing."
+        },
+        {
+          "p": "First, expand help now. The program funds one million new voucher awards as mandatory spending, phased in at 250,000 a year over 2030–33. {c:hou4a} It sets aside a further $135B over 2030–39 for rental help beyond those awards. {c:hou4d}"
+        },
+        {
+          "p": "Second, build and repair the homes that assistance depends on. That means about $72B in grants to state housing revolving funds and $300B in federal direct loans for construction, {c:hou3} and raising public housing’s repair budget from $3.2B to about $9B a year for ten years. {c:hou5} It also means rewarding places that allow more homes, with conditions on new federal money only. {c:hou6}"
+        },
+        {
+          "p": "Third, turn assistance into a guarantee for the lowest-income renters. The design under evaluation would cover households at or below 30% of their area’s median income, with a national floor so very poor households in low-income regions are not left out. It would pay approved rent above a contribution of about 30% of income, and phase out gradually as earnings rise. {c:guarantee-design} It would be phased in by law, group by group, so that each group knows when it becomes entitled. {c:guarantee-phase} And it would be backed by public and nonprofit building, so that the guarantee replaces waiting-list luck rather than adding a longer list. {c:hou-guarantee}"
+        },
+        {
+          "figure": "lottery-to-guarantee"
+        },
+        {
+          "h": "Objections, answered"
+        },
+        {
+          "objection": "Vouchers just push up rents, or go unused in tight markets.",
+          "answer": [
+            "This is the strongest objection, and it is partly right. Where homes are scarce, a voucher can be hard to use. In one national HUD study, about 69 percent of voucher holders succeeded in leasing a home, with lower success in tight markets and higher success where landlords could not refuse voucher holders. {c:lease-success} An award is not the same as a home. {c:award-lease}",
+            "That is why rental help is only one of three steps. The same program funds construction and repair, rewards places that allow more homes, and uses buildings owned by public or nonprofit sponsors where tenant vouchers keep failing. Rent limits and inspections keep subsidy from simply raising the price of poor housing. {c:project-based} We do not claim the effect on rents is zero. We claim that pairing help with supply is how to keep it small."
+          ]
+        },
+        {
+          "figure": "award-to-home"
+        },
+        {
+          "objection": "A guarantee would cost more than the country can afford.",
+          "answer": [
+            "It would cost real money, and the full guarantee has not yet been priced. {c:hou-guarantee} A phased program also looks cheaper over its first decade than it will be once it is complete. For that reason the project’s fiscal rule requires permanent programs to be paid for once they mature, in FY2040 and every year after. {c:d4b} The guarantee should be promised only when it can be paid for on those terms.",
+            "But the comparison is not between a guarantee and nothing. Housing instability is already paid for, in shelters, emergency programs and disrupted lives. In the Family Options experiment, long-term subsidies cost only about 9 percent more than the programs families used instead, and delivered far better results. {c:fos-cost}"
+          ]
+        },
+        {
+          "objection": "Housing aid discourages work.",
+          "answer": [
+            "The evidence shows a real but modest effect. In the Family Options experiment, the share of family heads with any work around the three-year mark fell from 57.5 percent to 52.0 percent, with no effect on average earnings. {c:fos-work} The guarantee under development is designed with this in mind: help phases out gradually as earnings rise, so working more always leaves a household better off, {c:guarantee-design} and a separate fund pays for transport, child care during training and job placements for anyone who wants them. {c:lab10}",
+            "A stable address is also a condition of steady work. It is hard to hold a job from a car or a relative’s couch."
+          ]
+        },
+        {
+          "objection": "Housing is a local matter. Washington should not override towns.",
+          "answer": [
+            "We agree that Washington cannot dictate local zoning, and the project does not try. It rewards places that allow more homes and attaches conditions only to new federal money. {c:hou6} But whether a poor family gets help should not depend on whether its state or city chooses to cooperate. Where a state declines to take part, a federal development sponsor would work directly with regional agencies, Tribes and nonprofit builders. {c:federal-sponsor} Local communities keep their say over land and buildings. They do not get a veto over whether a family is housed."
+          ]
+        },
+        {
+          "h": "What would change our minds"
+        },
+        {
+          "p": "We hold this view because of the evidence above, and we would revise it if the evidence changed. Three findings would lead us to a different design: if public and nonprofit development added little housing at much greater lifetime cost; if the caseload could not be financed without cutting protections that matter more; or if unrestricted cash delivered the same housing stability with fewer rules. {c:change-mind} The last is a live question. The Family Options study compared rent subsidies with the usual shelter system, not with cash, so the project is testing a cash alternative rather than dismissing it."
+        },
+        {
+          "h": "Ending the lottery"
+        },
+        {
+          "p": "The country already knows how to keep a low-income family housed: help with the rent, in a home that exists. What it has never done is commit to doing that for everyone in the greatest need. The first steps in this program are funded and concrete. The guarantee is where they lead, and it should be judged by a simple test: whether a family’s chance of a stable home still depends on luck."
+        }
+      ]
     },
     {
       "id": "work",
@@ -1927,6 +2313,11 @@
     {
       "claim": "Scenario-model figures from the authored stress-test narrative.",
       "why": "That narrative is a hypothesis generator, not evidence. The work essay cites only its qualitative design warning."
+    },
+    {
+      "claim": "A cost estimate for the housing guarantee.",
+      "why": "The guarantee is a direction under development and has not been priced; the planning arithmetic for added awards rests on assumptions that differ from the funded HOU-4D envelope, so the brief states the fiscal rule instead of a number."
     }
-  ]
+  ],
+  "evidence_commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3"
 }

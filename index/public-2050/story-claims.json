@@ -9,7 +9,8 @@
     "estimate": "Planning estimate",
     "model": "Model result",
     "observed": "Current fact",
-    "direction": "In development"
+    "direction": "In development",
+    "research": "Research finding"
   },
   "claims": {
     "decent-life": {
@@ -21,6 +22,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 408,
           "anchor": "a decent life should be attainable regardless of ability to compete or work, or family arrangement"
         }
@@ -46,6 +48,7 @@
       "sources": [
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 19,
           "anchor": "monthly base of $300 for ages 6–17, $360 under six"
         }
@@ -66,6 +69,7 @@
       "sources": [
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 23,
           "anchor": "monthly payments continue through a lapse in appropriations"
         }
@@ -93,11 +97,13 @@
       "sources": [
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 41,
           "anchor": "2030-31:** universal voluntary pre-K for 3- and 4-year-olds"
         },
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 42,
           "anchor": "From 2032:** the full cap at 7% of income for families up to 250% of state median income"
         }
@@ -119,6 +125,7 @@
       "sources": [
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 59,
           "anchor": "A pre-K expansion without an under-3 expansion actively worsens infant and toddler care"
         }
@@ -141,16 +148,19 @@
       "sources": [
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 69,
           "anchor": "Twelve weeks of family and medical leave, paid as social insurance"
         },
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 69,
           "anchor": "starting at about two-thirds of wages up to a cap"
         },
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 11,
           "anchor": "No (benefits from 2031)"
         }
@@ -177,11 +187,13 @@
       "sources": [
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 77,
           "anchor": "A worker earning $60,000 pays $180 a year at 0.6%"
         },
         {
           "path": "domains/domain-family.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 75,
           "anchor": "to the revised working cap of 1.10%"
         }
@@ -204,11 +216,13 @@
       "sources": [
         {
           "path": "domains/domain-health.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 11,
           "anchor": "Repeal the H.R. 1 Medicaid and marketplace cuts; make the enhanced ACA credits permanent"
         },
         {
           "path": "domains/domain-health.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 73,
           "anchor": "Restoration lands in the 2030 plan year, before the midterm."
         }
@@ -235,16 +249,19 @@
       "sources": [
         {
           "path": "domains/domain-health.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 12,
           "anchor": "$5,000 cap in traditional Medicare; dental, vision and hearing (kept in)"
         },
         {
           "path": "domains/domain-health.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 74,
           "anchor": "Hearing and vision start in 2031 and dental phases in from 2033."
         },
         {
           "path": "domains/domain-health.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 75,
           "anchor": "The public option opens for plan year 2031"
         }
@@ -266,11 +283,13 @@
       "sources": [
         {
           "path": "domains/domain-health.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 137,
           "anchor": "Develop an all-age home-support benefit with protection against prolonged intensive-care costs"
         },
         {
           "path": "domains/domain-health.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 137,
           "anchor": "Existing HLT-4 remains the immediate service route; no unpriced entitlement or launch date is inferred."
         }
@@ -298,21 +317,25 @@
       "sources": [
         {
           "path": "sources/family-comparison-model-checks.json",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 13,
           "anchor": "0.1340300259018054"
         },
         {
           "path": "sources/family-comparison-model-checks.json",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 203,
           "anchor": "0.08085087557830818"
         },
         {
           "path": "sources/family-comparison-model-checks.json",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 53,
           "anchor": "0.0873226173781113"
         },
         {
           "path": "sources/family-comparison-model-checks.json",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 2910,
           "anchor": "\"source_income_year\": 2025"
         }
@@ -336,6 +359,7 @@
       "sources": [
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 36,
           "anchor": "About 2.3 million households held Housing Choice Vouchers in September 2025"
         }
@@ -365,6 +389,7 @@
       "sources": [
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 121,
           "anchor": "One million total new voucher awards, replacing the earlier 400,000, with mandatory funding. Preserve the 2030–33 phase-in window, implying 250,000 new awards annually"
         }
@@ -389,11 +414,13 @@
       "sources": [
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 118,
           "anchor": "Add a $135B FY2030–39 working envelope for rental assistance beyond the previously adopted million new awards"
         },
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 118,
           "anchor": "Approximately another million awards is a scale illustration, not an adopted guaranteed award/lease count."
         }
@@ -414,6 +441,7 @@
       "sources": [
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 121,
           "anchor": "successful lease-up is separate from an award"
         }
@@ -437,6 +465,7 @@
       "sources": [
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 15,
           "anchor": "About $72B of capitalization grants to state housing revolving funds (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans"
         }
@@ -462,11 +491,13 @@
       "sources": [
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 135,
           "anchor": "The Capital Fund rises from $3.2B (FY2026) to about $9B a year for ten years"
         },
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 137,
           "anchor": "Against a backlog of $80B to $169B, ten years at this level closes roughly a third to two-thirds of it."
         }
@@ -487,11 +518,13 @@
       "sources": [
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 147,
           "anchor": "Conditions attach to new and incremental money only, never to existing base grants."
         },
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 147,
           "anchor": "Federal dollars can incentivize zoning but not command it"
         }
@@ -513,11 +546,13 @@
       "sources": [
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 257,
           "anchor": "The guarantee should replace waiting-list luck for its defined population."
         },
         {
           "path": "domains/domain-housing.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 257,
           "anchor": "a lawful federal sponsor/backstop where state participation fails"
         }
@@ -538,16 +573,19 @@
       "sources": [
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 40,
           "anchor": "personal liability for directors and officers who direct them"
         },
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 41,
           "anchor": "a ban on permanently replacing strikers."
         },
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 43,
           "anchor": "mediation, then binding arbitration"
         }
@@ -569,11 +607,13 @@
       "sources": [
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 73,
           "anchor": "Federal industry standards boards for home care and fast food"
         },
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 76,
           "anchor": "The Medicaid rate effect of a home-care wage floor is a real cost"
         }
@@ -596,6 +636,7 @@
       "sources": [
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 14,
           "anchor": "$17, then two-thirds of the median wage; longer phase-ins for small firms and low-wage counties"
         }
@@ -620,21 +661,25 @@
       "sources": [
         {
           "path": "domains/domain-ai.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 92,
           "anchor": "ordinary displacement eligibility, without requiring proof of AI causation"
         },
         {
           "path": "domains/domain-ai.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 93,
           "anchor": "half the difference between old and new wages for two years"
         },
         {
           "path": "domains/domain-ai.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 94,
           "anchor": "about $8,000, estimate"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 441,
           "anchor": "| AI-4 | $120B FY2030–39 |"
         }
@@ -655,6 +700,7 @@
       "sources": [
         {
           "path": "domains/domain-ai.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 102,
           "anchor": "a demand hole inside firms, which no supply-side training fixes"
         }
@@ -678,22 +724,26 @@
       "sources": [
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 281,
           "anchor": "A $100B FY2030–39 working envelope for practical access to employment, education, training and community participation."
         },
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 281,
           "anchor": "Supports include transport, child care during training, accommodations, navigators and paid placements."
         },
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 281,
           "anchor": "Participation is an offer, not a work condition on income, housing, health or food assistance."
         }
       ],
       "external": [],
       "essays": [
+        "housing",
         "work"
       ]
     },
@@ -710,6 +760,7 @@
       "sources": [
         {
           "path": "domains/domain-labor.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 135,
           "anchor": "Bill Book 12's 450,000 construction apprentices"
         }
@@ -730,6 +781,7 @@
       "sources": [
         {
           "path": "domains/domain-ai.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 120,
           "anchor": "gives notice, a plain-language explanation, human review on request and an appeal"
         }
@@ -754,6 +806,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 530,
           "anchor": "net zero by 2050 and 61-66% below 2005 in net greenhouse gases by 2035"
         }
@@ -782,6 +835,7 @@
       "sources": [
         {
           "path": "sources/climate-portfolio-allocation.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 38,
           "anchor": "In the model Package A reaches 48% below 2005 in 2035, 63% in 2040 and 74% in 2050"
         }
@@ -804,16 +858,19 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 552,
           "anchor": "Verified mitigation results purchased abroad count only above a 50% domestic floor."
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 552,
           "anchor": "none count unless domestic reductions reach 50% below 2005"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 552,
           "anchor": "international mitigation counts toward the 2035 benchmark, within limits."
         }
@@ -839,11 +896,13 @@
       "sources": [
         {
           "path": "domains/domain-climate.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 85,
           "anchor": "$25 a ton in 2030 rising to $150 by 2037 (D7 as amended Oct 26)"
         },
         {
           "path": "domains/domain-climate.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 9,
           "anchor": "with gasoline and diesel exempt"
         }
@@ -868,11 +927,13 @@
       "sources": [
         {
           "path": "domains/domain-climate.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 20,
           "anchor": "80% of the domestic carbon fee returned per adult, quarterly, with the first payment before the fee reaches prices"
         },
         {
           "path": "domains/domain-climate.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 90,
           "anchor": "The first payment goes out in early 2030, before the fee reaches retail prices."
         }
@@ -946,6 +1007,7 @@
       "sources": [
         {
           "path": "index/climate-carbon-model.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 65,
           "anchor": "| 2030 | 25 | 66 | 4,148 | 56% | 195 | 390 |\n| 2031 | 36 | 91 | 4,030 | 59% | 268 | 536 |\n| 2032 | 46 | 114 | 3,902 | 63% | 334 | 669 |\n| 2033 | 67 | 158 | 3,765 | 67% | 463 | 925 |\n| 2034 | 88 | 198 | 3,626 | 71% | 578 | 1,157 |\n| 2035 | 109 | 234 | 3,483 | 75% | 681 | 1,362 |\n| 2036 | 129 | 264 | 3,333 | 79% | 769 | 1,538 |\n| 2037 | 150 | 291 | 3,181 | 82% | 845 | 1,690 |\n| 2038 | 158 | 290 | 3,038 | 86% | 843 | 1,685 |\n| 2039 | 165 | 291 | 2,906 | 88% | 844 | 1,687 |\n| 2040 | 174 | 292 | 2,783 | 91% | 847 | 1,695 |"
         }
@@ -973,21 +1035,25 @@
       "sources": [
         {
           "path": "index/climate-carbon-model.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 89,
           "anchor": "## Households in 2035 (the carbon channel alone)\n\nPer household in 2025 dollars"
         },
         {
           "path": "index/climate-carbon-model.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 96,
           "anchor": "| Lowest 20 percent | 1.3 | 548 | +712 | -87 | -102 | -426 | +97 |"
         },
         {
           "path": "index/climate-carbon-model.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 98,
           "anchor": "| Third 20 percent | 2.0 | 548 | +1,096 | -138 | -145 | -820 | -7 |"
         },
         {
           "path": "index/climate-carbon-model.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 100,
           "anchor": "| Highest 20 percent | 2.4 | 548 | +1,315 | -238 | -190 | -1,896 | -1,008 |"
         }
@@ -1012,6 +1078,7 @@
       "sources": [
         {
           "path": "index/climate-carbon-model.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 55,
           "anchor": "if the fee were repealed in 2033, the credits, standard and rules alone would still give 73% clean electricity in 2035"
         }
@@ -1037,11 +1104,13 @@
       "sources": [
         {
           "path": "index/climate-carbon-model.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 55,
           "anchor": "The limit is grid access, not price"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 532,
           "anchor": "($25B grants, $100B direct loans, $20B capacity contracts; about $32B deficit cost)"
         }
@@ -1067,11 +1136,13 @@
       "sources": [
         {
           "path": "sources/climate-portfolio-disaster-resilience.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 11,
           "anchor": "Price CLI-7 as a core package of about $100B over 2030-39** ($61-151B, 2025 dollars"
         },
         {
           "path": "sources/climate-portfolio-disaster-resilience.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 20,
           "anchor": "Fund the fuller tier too, about $54B"
         }
@@ -1097,16 +1168,19 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 544,
           "anchor": "between a state-level 1-in-100 and 1-in-250 year loss"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 544,
           "anchor": "It is available only in states with CLI-8 codes and disclosure"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 544,
           "anchor": "plus a disclosed $75-150B contingent liability in every D4 test."
         }
@@ -1127,6 +1201,7 @@
       "sources": [
         {
           "path": "sources/climate-portfolio-disaster-resilience.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 119,
           "anchor": "Avoided losses are not counted as savings."
         }
@@ -1148,6 +1223,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 22,
           "anchor": "Plan for 52-54 seats; test every item against 51"
         }
@@ -1166,6 +1242,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 459,
           "anchor": "Develop the hostile-administration/uneven-state-cooperation comparator"
         }
@@ -1186,11 +1263,13 @@
       "sources": [
         {
           "path": "domains/domain-democracy.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 75,
           "anchor": "early voting, no-excuse mail voting, same-day registration, automatic registration **at every federal benefit-delivery point"
         },
         {
           "path": "domains/domain-democracy.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 75,
           "anchor": "paper ballots with risk-limiting audits"
         }
@@ -1211,6 +1290,7 @@
       "sources": [
         {
           "path": "domains/domain-democracy.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 84,
           "anchor": "no guarantee of judicial survival is claimed"
         }
@@ -1233,6 +1313,7 @@
       "sources": [
         {
           "path": "domains/domain-integrity.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 76,
           "anchor": "A 6:1 federal match on small contributions, paired with voluntary spending caps"
         }
@@ -1253,6 +1334,7 @@
       "sources": [
         {
           "path": "domains/domain-integrity.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 46,
           "anchor": "A ban on individual stock ownership and trading for members of Congress, their spouses and dependent children, extended to the President, Vice President and Cabinet."
         }
@@ -1273,11 +1355,13 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 459,
           "anchor": "remove CRT-16's automatic court-expansion trigger; retain prospective term limits, constitutional amendment development, ethics, neutral assignment and a fresh democratic decision on any later structural response"
         },
         {
           "path": "sources/project-2050-strategic-assessment-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 105,
           "anchor": "automatic expansion response to judicial invalidation of term limits"
         }
@@ -1298,6 +1382,7 @@
       "sources": [
         {
           "path": "domains/domain-democracy.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 276,
           "anchor": "Congress may refer up to three questions per Congress to national assemblies, with a guaranteed committee hearing on each recommendation. The recommendations are advisory"
         }
@@ -1318,6 +1403,7 @@
       "sources": [
         {
           "path": "domains/domain-democracy.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 265,
           "anchor": "weighted toward places with low fiscal capacity, with a maintenance-endowment match so that buildings are not opened and then abandoned"
         }
@@ -1339,6 +1425,7 @@
       "sources": [
         {
           "path": "sources/climate-portfolio-disaster-resilience.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 26,
           "anchor": "the 2025 cuts (FEMA staff down 17%, BRIC cancelled)"
         }
@@ -1364,16 +1451,19 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 510,
           "anchor": "CAP-7S, the agency rebuild surge, is about $105B lifetime, down from $300B"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 511,
           "anchor": "surge need is about $59.8B (range $31-103B)"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 514,
           "anchor": "The surge was never sized from needs."
         }
@@ -1399,11 +1489,13 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 521,
           "anchor": "stays $300B over FY2030-39"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 521,
           "anchor": "Need is $254.6B at the midpoint and $355.1B at the high case, so adequacy is conditional."
         }
@@ -1431,21 +1523,25 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 468,
           "anchor": "+24,000 FTE"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 468,
           "anchor": "roughly 8,000 a year"
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 471,
           "anchor": "yields about $0.13-0.14T of REV-G8 inside the window (range $0.085-0.18T). That is not enough to support $0.2T."
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 472,
           "anchor": "The matching receipt-risk allowance is therefore **$250B**"
         }
@@ -1464,6 +1560,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 446,
           "anchor": "Require notice, appeal, accessible help and continuity of essential benefits when delivery fails."
         }
@@ -1488,12 +1585,14 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 25,
           "anchor": "permanent programs paid for at maturity (FY2040 and every later year); time-limited investments borrowed inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040"
         }
       ],
       "external": [],
       "essays": [
+        "housing",
         "paying"
       ]
     },
@@ -1508,11 +1607,13 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 120,
           "anchor": "No dynamic revenue is counted."
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 120,
           "anchor": "Social Security, Medicare HI and the Highway Trust Fund are kept whole"
         }
@@ -1533,6 +1634,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 100,
           "anchor": "For every income group below the top, the agenda's combined taxes, fees and benefits must leave households better off on net"
         }
@@ -1556,11 +1658,13 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 545,
           "anchor": "The mixed recovery case still has the fourth quintile at −$2,906 in FY2039; the revenue settlement must address it."
         },
         {
           "path": "index/recovery-budget.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 48,
           "anchor": "| mixed | 15,927 | 12,910 | 6,662 | -2,906 | -77,221 |"
         }
@@ -1579,6 +1683,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 450,
           "anchor": "Neither complete illustrative tax schedule, neither universal-credit amount"
         }
@@ -1597,11 +1702,13 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 489,
           "anchor": "begin with rebalancing federal revenue after tax reductions benefiting wealthy households and large corporations"
         },
         {
           "path": "sources/revenue-rebalancing-and-sustainable-agenda.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 9,
           "anchor": "I would avoid making broad new income contributions the automatic residual"
         }
@@ -1620,6 +1727,7 @@
       "sources": [
         {
           "path": "sources/revenue-rebalancing-and-sustainable-agenda.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 11,
           "anchor": "We cannot promise their receipts twice or treat speculative upside as the foundation of an essential benefit."
         }
@@ -1646,11 +1754,13 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 191,
           "anchor": "The 2026 Trustees put the 75-year gap at 4.42% of taxable payroll and the combined trust funds' depletion in 2034, when 83% of benefits are payable."
         },
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 448,
           "anchor": "Complete high-income Social Security base reforms including SS-5"
         }
@@ -1675,6 +1785,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 419,
           "anchor": "explain that repair takes time, demonstrate material improvements quickly, and articulate and execute longer-term fundamental reforms"
         }
@@ -1697,6 +1808,7 @@
       "sources": [
         {
           "path": "governing/project-2050-governing-decisions.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 512,
           "anchor": "Legal availability on enactment (R1, FY2029)"
         }
@@ -1718,6 +1830,7 @@
       "sources": [
         {
           "path": "sources/climate-portfolio-allocation.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 39,
           "anchor": "Yes, the credits should step down on a timeline."
         }
@@ -1739,6 +1852,7 @@
       "sources": [
         {
           "path": "domains/domain-climate.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 91,
           "anchor": "The same IRS build delivers FAM-1's monthly payments."
         }
@@ -1757,11 +1871,13 @@
       "sources": [
         {
           "path": "index/recovery-budget.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 11,
           "anchor": "| mixed_downside | 124.9% | 137.6% | 5.59% | False | 5.35 |"
         },
         {
           "path": "index/recovery-budget.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
           "line": 5,
           "anchor": "No D3/D4 or all-fund solvency certification."
         }
@@ -1769,6 +1885,365 @@
       "external": [],
       "essays": [
         "paying"
+      ]
+    },
+    "share-served": {
+      "summary": "Only about one in four eligible renter households received federal rental assistance, because the programs are funded as fixed budgets (CBPP, 2022 estimate).",
+      "basis": "research",
+      "figures": [
+        "1 in 4",
+        "2022"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 25,
+          "anchor": "Only 5.3 million (1 in 4) eligible renter households receive federal rental assistance due to funding limitations."
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 21,
+          "anchor": "February 15, 2022"
+        }
+      ],
+      "external": [
+        {
+          "label": "CBPP, Funding Limitations Create Widespread Unmet Need for Rental Assistance",
+          "url": "https://www.cbpp.org/research/housing/funding-limitations-create-widespread-unmet-need-for-rental-assistance",
+          "checked": "2026-10-27"
+        }
+      ],
+      "essays": [
+        "housing"
+      ]
+    },
+    "gap": {
+      "summary": "The national shortage of homes affordable and available to extremely low-income renters is 7.2 million for 11 million households, or 35 homes per 100; nearly three in four of these households pay more than half their income for rent and utilities, and no state has enough (NLIHC, March 2026).",
+      "basis": "observed",
+      "figures": [
+        "7.2",
+        "11",
+        "35",
+        "100",
+        "2026"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 11,
+          "anchor": "Nationally, there is a shortage of 7.2 million affordable and available rental homes for 11 million extremely low-income renter households. Only 35 affordable and available rental homes exist for every 100 of these lowest-income renters."
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 13,
+          "anchor": "Seventy-four percent of the 11 million extremely low-income renters nationally are severely cost-burdened"
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 15,
+          "anchor": "No state or major metropolitan area has an adequate supply"
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 7,
+          "anchor": "*The Gap: A Shortage of Affordable Homes*, March 2026"
+        }
+      ],
+      "external": [
+        {
+          "label": "NLIHC, The Gap 2026",
+          "url": "https://nlihc.org/sites/default/files/gap/2026/gap-report_2026_english.pdf",
+          "checked": "2026-10-27"
+        }
+      ],
+      "essays": [
+        "housing"
+      ]
+    },
+    "rent-gap": {
+      "summary": "Rents that the lowest-income households can pay generally cannot cover the cost of building and running homes, so a subsidy has to close the difference, through the tenant or the building.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "HOU-3"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 27,
+          "anchor": "Very low rents cannot generally service full construction debt."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "fos-effects": {
+      "summary": "HUD’s Family Options Study, a randomized experiment with 2,282 families in shelters at 12 sites: priority access to a long-term rent subsidy cut emergency-shelter use by more than three-quarters and homelessness or doubling up by more than half at three years, and raised food security by about 10 percentage points.",
+      "basis": "research",
+      "figures": [
+        "2,282",
+        "12",
+        "10"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 33,
+          "anchor": "A randomized experiment with 2,282 families recruited in homeless shelters across 12 sites"
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 37,
+          "anchor": "reduced use of emergency shelters in months 21 to 32 after random assignment by more than three-quarters, and reduced self-reported homelessness or doubling up by more than half at the three-year follow-up."
+        },
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 39,
+          "anchor": "about 10 percentage points more likely to be food secure at both time points."
+        }
+      ],
+      "external": [
+        {
+          "label": "Gubits et al. 2018, Family Options Study (open copy)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6168747/",
+          "checked": "2026-10-27"
+        }
+      ],
+      "essays": [
+        "housing"
+      ]
+    },
+    "fos-cost": {
+      "summary": "In the same experiment, long-term subsidies cost about 9 percent more than the usual shelter and service programs over 37 months.",
+      "basis": "research",
+      "figures": [
+        "9"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 35,
+          "anchor": "relative to usual care, at a cost 9 percent higher."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "fos-conclusion": {
+      "summary": "The study’s authors conclude that homelessness for most families is an economic problem that long-term rent subsidies resolve.",
+      "basis": "research",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 43,
+          "anchor": "The study provides support for the view that homelessness for most families is an economic problem that long-term rent subsidies resolve"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "fos-work": {
+      "summary": "The experiment also found a modest work effect: around the three-year mark, family heads with any employment fell from 57.5 percent to 52.0 percent, with no effect on average earnings.",
+      "basis": "research",
+      "figures": [
+        "57.5",
+        "52.0"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/public-story-housing-evidence.md",
+          "commit": "a77ef9164fb49b6151fdf117bfe703813c54b8b3",
+          "line": 41,
+          "anchor": "from 57.5 percent to 52.0 percent but had no effect on average earnings across all families"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "lease-success": {
+      "summary": "In one national HUD study, about 69 percent of voucher holders succeeded in leasing a home; success was lower in tight markets and higher where landlords could not refuse voucher holders.",
+      "basis": "research",
+      "figures": [
+        "69"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "sources/family-child-poverty-report-1.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 102,
+          "anchor": "HUD's historical research summarized voucher success around 69 percent in one national study, lower in tight markets and higher where source-of-income protections were present"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "project-based": {
+      "summary": "Where tenant vouchers repeatedly fail, the design uses homes owned by public or nonprofit sponsors; rent-reasonableness limits, inspections and anti-discrimination enforcement keep subsidy from simply raising rents for poor housing.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 23,
+          "anchor": "Offer project-based assistance with public or nonprofit housing where tenant vouchers repeatedly fail"
+        },
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 23,
+          "anchor": "Rent reasonableness, inspection and anti-discrimination enforcement remain essential"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "guarantee-design": {
+      "summary": "The guarantee design under evaluation: households at or below 30% of area median income, with a national poverty-based floor; assistance covers approved rent above a contribution of about 30% of income, phasing out gradually as earnings rise. Proposed parameters, not adopted.",
+      "basis": "direction",
+      "figures": [
+        "30%"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 17,
+          "anchor": "household income at or below 30% of area median income, subject to a nationally defined poverty-based floor"
+        },
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 17,
+          "anchor": "Assistance would cover approved rent above a household contribution around 30% of adjusted income, with a gradual exit as earnings rise."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "guarantee-phase": {
+      "summary": "The guarantee would be phased in by law, group by group, with the statute saying who becomes entitled and when.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 19,
+          "anchor": "A phased statutory commitment should specify which cohorts become entitled and when."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "federal-sponsor": {
+      "summary": "A federal housing-development sponsor would finance acquisition, repair and construction with regional agencies, Tribes and nonprofits, with a direct route when a state declines, so a person’s right does not depend on local cooperation.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "HOU-3"
+      ],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 25,
+          "anchor": "Create a federal housing-development sponsor able to finance or commission acquisition, rehabilitation and construction with regional public agencies, Tribes and nonprofit developers. Give it a direct application path when a state declines to participate."
+        },
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 19,
+          "anchor": "an individual's right should not become a sanction against an uncooperative mayor."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "change-mind": {
+      "summary": "What would change the recommendation: public development adding little supply at much greater lifetime cost; a caseload that cannot be financed without displacing more valuable protections; or cash delivering comparable housing stability with fewer restrictions. The Family Options evidence does not show vouchers beat cash for all low-income households.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 53,
+          "anchor": "evidence that the public development route adds little supply at materially greater lifecycle cost; an entitlement caseload that cannot be financed without displacing more valuable protections; or evidence that a cash design produces comparable housing stability with fewer restrictions."
+        },
+        {
+          "path": "sources/project-2050-strategic-alternatives-2026-10-25.md",
+          "commit": "650cadec751c8897401120d96852aff4f334a2b1",
+          "line": 49,
+          "anchor": "It does not prove vouchers dominate cash for all low-income households."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
       ]
     }
   },
@@ -1789,14 +2264,16 @@
     },
     {
       "id": "housing",
-      "title": "A home you can keep",
+      "title": "End the housing lottery",
       "url": "story.html#housing",
       "policy_ids": [
         "HOU-4",
         "HOU-4D",
         "HOU-3",
         "HOU-5",
-        "HOU-6"
+        "HOU-6",
+        "LAB-10",
+        "D4-B"
       ]
     },
     {
@@ -2087,6 +2564,10 @@
     {
       "claim": "Scenario-model figures from the authored stress-test narrative.",
       "why": "That narrative is a hypothesis generator, not evidence. The work essay cites only its qualitative design warning."
+    },
+    {
+      "claim": "A cost estimate for the housing guarantee.",
+      "why": "The guarantee is a direction under development and has not been priced; the planning arithmetic for added awards rests on assumptions that differ from the funded HOU-4D envelope, so the brief states the fiscal rule instead of a number."
     }
   ]
 }

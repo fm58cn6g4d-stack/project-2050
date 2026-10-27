@@ -66,29 +66,64 @@ def anchor_key(path, anchor):
     return f'{path}#{hashlib.sha256(anchor.encode()).hexdigest()[:16]}'
 
 
+def source_ref(content, src):
+    """The commit a source passage is pinned to: the evidence snapshot, or this edition's own research record."""
+    return content['evidence_commit'] if src.get('pin') == 'evidence' else content['source_commit']
+
+
 def pinned_lines(content):
-    """Line of every claim passage in the pinned source commit, from the lock or from Git."""
-    ref = content['source_commit']
-    wanted = {anchor_key(s['path'], s['anchor']): (s['path'], s['anchor'])
+    """Line of every claim passage in its pinned commit, from the lock or from Git."""
+    wanted = {anchor_key(s['path'], s['anchor']): (source_ref(content, s), s['path'], s['anchor'])
               for c in content['claims'].values() for s in c['sources']}
     if LOCK.exists():
         lock = json.loads(LOCK.read_text())
-        if lock['source_commit'] == ref and set(lock['lines']) == set(wanted):
+        if (lock['source_commit'] == content['source_commit'] and lock.get('evidence_commit') == content.get('evidence_commit')
+                and set(lock['lines']) == set(wanted)):
             return lock['lines']
     lines, texts = {}, {}
-    for key, (path, anchor) in sorted(wanted.items()):
-        if path not in texts:
+    for key, (ref, path, anchor) in sorted(wanted.items()):
+        if (ref, path) not in texts:
             try:
-                texts[path] = subprocess.check_output(['git', 'show', f'{ref}:{path}'], cwd=ROOT,
+                texts[ref, path] = subprocess.check_output(['git', 'show', f'{ref}:{path}'], cwd=ROOT,
                                                       stderr=subprocess.DEVNULL).decode()
             except subprocess.CalledProcessError:
                 raise ClaimError(f'anchors.lock.json is out of date and {ref[:12]}:{path} is not available; '
                                  'fetch the pinned commit and rebuild')
-        at = texts[path].find(anchor)
+        at = texts[ref, path].find(anchor)
         if at < 0:
             raise ClaimError(f'passage not in pinned commit {ref[:12]}: {path}: {anchor[:70]!r}')
-        lines[key] = texts[path].count('\n', 0, at) + 1
+        lines[key] = texts[ref, path].count('\n', 0, at) + 1
     return lines
+
+
+def prose(essay):
+    """(where, text) for every piece of reading text, in either essay format.
+
+    A plain essay has `body` paragraphs. A brief has `blocks`: {"h": heading}, {"p": paragraph},
+    {"points": [the argument in brief]}, {"quote": pull quote}, {"objection": ..., "answer": [...]},
+    and {"figure": diagram id}.
+    """
+    if 'body' in essay:
+        return [(f'paragraph {i+1}', p) for i, p in enumerate(essay['body'])]
+    out = []
+    for i, b in enumerate(essay['blocks']):
+        where = f'block {i+1}'
+        if 'h' in b:
+            out.append((where + ' heading', b['h']))
+        elif 'p' in b:
+            out.append((where, b['p']))
+        elif 'quote' in b:
+            out.append((where + ' quote', b['quote']))
+        elif 'points' in b:
+            out += [(f'{where} point {k+1}', t) for k, t in enumerate(b['points'])]
+        elif 'objection' in b:
+            out.append((where + ' objection', b['objection']))
+            out += [(f'{where} answer {k+1}', t) for k, t in enumerate(b['answer'])]
+    return out
+
+
+def word_count(essay):
+    return len(strip_marks(' '.join(t for w, t in prose(essay) if 'heading' not in w)).split())
 
 
 def validate(content, root=ROOT):
@@ -138,8 +173,12 @@ def validate(content, root=ROOT):
         for pid in essay['policy_ids']:
             if pid not in policies:
                 problems.append(f'essay {essay["id"]}: unknown policy {pid}')
-        blocks = [(f'paragraph {i+1}', p) for i, p in enumerate(essay['body'])]
-        blocks += [('limits', essay['limits'])]
+        blocks = prose(essay) + [('limits', essay['limits'])]
+        if 'blocks' in essay:
+            ids = {d['id'] for d in essay.get('diagrams', [])}
+            placed = [b['figure'] for b in essay['blocks'] if 'figure' in b]
+            if sorted(placed) != sorted(ids):
+                problems.append(f'essay {essay["id"]}: each diagram must be placed exactly once')
         for diagram in essay.get('diagrams', []):
             drawn = svg_text(diagram['file']) if diagram.get('file') else ''
             blocks.append((f'diagram {diagram["id"]}', diagram['caption'] + ' ' + drawn +
@@ -228,8 +267,8 @@ def build(content=None, root=ROOT, strict=True):
                  for cid, c in content['claims'].items()}
     claims, policies, essays = content['claims'], content['policies'], content['essays']
 
-    def src_url(path, line=None):
-        return f'{REPO}{ref}/{esc(path, quote=True)}' + (f'#L{line}' if line else '')
+    def src_url(path, line=None, commit=None):
+        return f'{REPO}{commit or ref}/{esc(path, quote=True)}' + (f'#L{line}' if line else '')
 
     page_parts, toc = [], []
     for n, essay in enumerate(essays):
@@ -263,16 +302,38 @@ def build(content=None, root=ROOT, strict=True):
                         f'<span class="fig-sources">Evidence: note{"s" if len(refs) > 1 else ""} {notes}.</span></figcaption></figure>')
             return out
 
-        # Number notes in reading order: paragraphs before the figures, the figures, then the rest.
-        place = essay.get('diagram_after', len(essay['body']))
-        before = ''.join(f'<p>{para(p)}</p>' for p in essay['body'][:place])
-        drawn = figures(essay.get('diagrams', []))
-        body = before + drawn + ''.join(f'<p>{para(p)}</p>' for p in essay['body'][place:])
+        if 'body' in essay:
+            # Number notes in reading order: paragraphs before the figures, the figures, then the rest.
+            place = essay.get('diagram_after', len(essay['body']))
+            before = ''.join(f'<p>{para(p)}</p>' for p in essay['body'][:place])
+            drawn = figures(essay.get('diagrams', []))
+            body = before + drawn + ''.join(f'<p>{para(p)}</p>' for p in essay['body'][place:])
+        else:
+            diagrams = {d['id']: d for d in essay.get('diagrams', [])}
+            parts = []
+            for b in essay['blocks']:
+                if 'h' in b:
+                    slug = essay['id'] + '-' + re.sub(r'[^a-z0-9]+', '-', b['h'].lower()).strip('-')
+                    parts.append(f'<h3 class="section-h" id="{slug}">{esc(b["h"])}</h3>')
+                elif 'p' in b:
+                    parts.append(f'<p>{para(b["p"])}</p>')
+                elif 'quote' in b:
+                    parts.append(f'<blockquote class="pull"><p>{para(b["quote"])}</p></blockquote>')
+                elif 'points' in b:
+                    items = ''.join(f'<li>{para(t)}</li>' for t in b['points'])
+                    parts.append(f'<section class="brief" aria-label="The argument in brief"><h3>The argument in brief</h3><ol>{items}</ol></section>')
+                elif 'objection' in b:
+                    answer = ''.join(f'<p>{para(t)}</p>' for t in b['answer'])
+                    parts.append(f'<div class="objection"><h4><span class="obj-k">Objection</span> {para(b["objection"])}</h4>'
+                                 f'<div class="obj-a"><span class="obj-k">Response</span>{answer}</div></div>')
+                elif 'figure' in b:
+                    parts.append(figures([diagrams[b['figure']]]))
+            body = ''.join(parts)
         limits = para(essay['limits'])
         notes = []
         for k, cid in enumerate(order, 1):
             claim = claims[cid]
-            links = ' · '.join(f'<a href="{src_url(s["path"], line)}">{esc(s.get("label") or s["path"])}</a>'
+            links = ' · '.join(f'<a href="{src_url(s["path"], line, source_ref(content, s))}">{esc(s.get("label") or s["path"])}</a>'
                                for s, line in zip(claim['sources'], locations[cid]))
             ext = ''.join(f' · <a href="{esc(x["url"], quote=True)}">{esc(x["label"])}</a> (checked {esc(x["checked"])})'
                           for x in claim.get('external', []))
@@ -285,7 +346,7 @@ def build(content=None, root=ROOT, strict=True):
         next_link = f'<a href="#{essays[n+1]["id"]}">{esc(essays[n+1]["title"])} →</a>' if n + 1 < len(essays) else '<a href="#essays">All essays ↑</a>'
         art = essay['art']
         page_parts.append(f'''<article class="essay" id="{essay["id"]}" aria-labelledby="{essay["id"]}-title" data-policy-ids="{esc(" ".join(essay["policy_ids"]))}">
-<header class="essay-head"><p class="eyebrow">Essay {n+1} of {len(essays)} · {esc(essay["principle"])}</p>
+<header class="essay-head"><p class="eyebrow">Essay {n+1} of {len(essays)} · {esc(essay["principle"])}{" · Research brief" if "blocks" in essay else ""}</p>
 <h2 id="{essay["id"]}-title" tabindex="-1">{esc(essay["title"])}</h2><p class="dek">{esc(essay["dek"])}</p></header>
 <figure class="scene"><div class="scene-art">{svg(art["file"], "Imagined scene: " + art["caption"])}</div><figcaption><span class="fiction">Imagined scene</span> {esc(art["caption"])}</figcaption></figure>
 <div class="prose">{body}</div>
@@ -325,7 +386,7 @@ def build(content=None, root=ROOT, strict=True):
                 'status': 'working_edition_not_published', 'basis_labels': content['basis_labels'],
                 'claims': {cid: {'summary': c['summary'], 'basis': c['basis'], 'figures': c.get('figures', []),
                                  'series': c.get('series', []), 'policy_ids': c.get('policy_ids', []),
-                                 'sources': [{'path': s['path'], 'line': line, 'anchor': s['anchor']}
+                                 'sources': [{'path': s['path'], 'commit': source_ref(content, s), 'line': line, 'anchor': s['anchor']}
                                              for s, line in zip(c['sources'], locations[cid])],
                                  'external': c.get('external', []),
                                  'essays': [e['id'] for e in essays if f'{{c:{cid}}}' in json.dumps(e, ensure_ascii=False)
@@ -348,7 +409,8 @@ def build(content=None, root=ROOT, strict=True):
     outputs = {OUT / 'story.html': page.encode(),
                OUT / 'story-claims.json': (json.dumps(register, indent=2, ensure_ascii=False) + '\n').encode(),
                REGISTER_MD: ('\n'.join(md) + '\n').encode(),
-               LOCK: (json.dumps({'source_commit': ref, 'lines': dict(sorted(pinned.items()))}, indent=1) + '\n').encode()}
+               LOCK: (json.dumps({'source_commit': ref, 'evidence_commit': content.get('evidence_commit'),
+                                  'lines': dict(sorted(pinned.items()))}, indent=1) + '\n').encode()}
     return outputs, problems
 
 

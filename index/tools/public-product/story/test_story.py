@@ -74,8 +74,24 @@ class StoryTests(unittest.TestCase):
 
     def test_essay_length(self):
         for essay in self.content['essays']:
-            words = len(story.strip_marks(' '.join(essay['body'])).split())
-            self.assertTrue(550 <= words <= 1000, f'{essay["id"]} has {words} words')
+            words = story.word_count(essay)
+            low, high = (900, 1700) if 'blocks' in essay else (550, 1000)
+            self.assertTrue(low <= words <= high, f'{essay["id"]} has {words} words')
+
+    def test_research_briefs_argue_and_answer_objections(self):
+        briefs = [e for e in self.content['essays'] if 'blocks' in e]
+        self.assertTrue(briefs)
+        for essay in briefs:
+            kinds = [next(iter(b)) for b in essay['blocks']]
+            self.assertEqual(kinds[0], 'points', 'a brief opens with the argument in brief')
+            self.assertGreaterEqual(kinds.count('objection'), 3)
+            headings = [b['h'] for b in essay['blocks'] if 'h' in b]
+            self.assertIn('What would change our minds', headings)
+            self.assertIn(f'aria-label="The argument in brief"', self.html)
+        content = copy.deepcopy(self.content)
+        brief = next(e for e in content['essays'] if 'blocks' in e)
+        brief['blocks'] = [b for b in brief['blocks'] if 'figure' not in b]
+        self.assertTrue(any('placed exactly once' in p for p in problems_for(content)))
 
     def test_every_number_in_prose_is_cited(self):
         content = copy.deepcopy(self.content)
@@ -87,7 +103,9 @@ class StoryTests(unittest.TestCase):
 
     def test_cited_claim_must_carry_the_figure(self):
         content = copy.deepcopy(self.content)
-        content['essays'][1]['body'][0] = content['essays'][1]['body'][0].replace('2.3 million', '2.8 million')
+        housing = next(e for e in content['essays'] if e['id'] == 'housing')
+        block = next(b for b in housing['blocks'] if '2.3 million' in b.get('p', ''))
+        block['p'] = block['p'].replace('2.3 million', '2.8 million')
         self.assertTrue(any("'2.8'" in p for p in problems_for(content)))
 
     def test_claim_figure_must_be_in_its_source_passage(self):

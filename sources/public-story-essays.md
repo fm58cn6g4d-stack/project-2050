@@ -18,6 +18,25 @@ Seven essays of about 560–670 words each (about 4,300 words in all), on one pa
 | 6 | A government that can deliver | Capacity is a precondition, sized from evidence (the surge was cut when priced), with remedies when delivery fails | Power that answers to people |
 | 7 | Paying for it honestly | A written fiscal rule, a fairness test the plan does not yet pass, and the long arc to 2050 | Responsibility across generations |
 
+## Research-brief format (pilot, October 27)
+
+Espen asked that the essays work as persuasive research products: make the reader see a problem a particular way, then present and defend a solution. Essay 2 is rewritten as the pilot, titled “End the housing lottery” (about 1,600 words). Its structure is:
+
+1. A thesis in the dek.
+2. “The argument in brief”: four numbered claims.
+3. The problem reframed (“A lottery, not a program”).
+4. Where the problem is worst (“The shortage is at the bottom”).
+5. The evidence that the remedy works (the randomized Family Options Study).
+6. A pull quote.
+7. A three-step proposal, with a figure.
+8. Four objections, each stated in its strongest form and answered, including the evidence that cuts against the proposal (lease-up failure and a modest work effect).
+9. “What would change our minds.”
+10. A short conclusion.
+
+It uses the project voice (“we”). New external evidence (NLIHC 2026, CBPP 2022, the Family Options Study) is quoted and dated in [the housing evidence record](public-story-housing-evidence.md), and the claim register now labels research results as “Research finding”. The builder supports both formats, so the remaining six essays can be converted one at a time once Espen approves the pilot.
+
+The brief argues for the housing-security guarantee, a direction the project accepted for development on October 26. It presents the guarantee as the destination and the funded million awards and $135B as the first stage. It states that the guarantee is not priced and gives no cost figure for it.
+
 ## Why this set
 
 - **Charter.** The “public vision and explorer” product calls for narrative chapters or essays, maps and household examples with visible assumptions. The October 25 strategic assessment recommended “a small number of substantial, illustrated essays linked to public evidence casebooks before building a larger personalized explorer.” Seven essays sit inside the requested five to eight.
@@ -40,11 +59,12 @@ Two inclusions go further than the October 25 blueprint’s public emphasis and 
 
 ## Decisions for Espen
 
-1. **Direction:** Is this essay set, order and tone right? Which essay should be strongest, and which cut or added (for example transportation or education)?
-2. **Candor about financing:** Keep the explicit statement that the plan does not yet pass its own fairness test, or move that to the analysis companion?
-3. **Voice:** Keep occasional first person, or use the project “we” throughout?
-4. **Front door:** Should the front door link to the essays now (requires advancing its evidence pin and reviewing its copy), or wait for the next edition?
-5. **Publication:** Nothing is published. Any public hosting needs your explicit approval; the blueprint’s static-hosting recommendation stands.
+1. **Format:** Does the housing research brief hit the mark? If so, convert the other six the same way (expect about 1,300–1,700 words each).
+2. **Direction:** Is this essay set, order and tone right? Which essay should be strongest, and which cut or added (for example transportation or education)?
+3. **Candor about financing:** Keep the explicit statement that the plan does not yet pass its own fairness test, or move that to the analysis companion?
+4. **Voice:** Keep occasional first person, or use the project “we” throughout?
+5. **Front door:** Should the front door link to the essays now (requires advancing its evidence pin and reviewing its copy), or wait for the next edition?
+6. **Publication:** Nothing is published. Any public hosting needs your explicit approval; the blueprint’s static-hosting recommendation stands.
 
 ## Limits
 
