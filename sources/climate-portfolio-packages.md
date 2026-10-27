@@ -26,16 +26,16 @@ Highest cumulative abatement among packages whose 2030-39 outlays change is at o
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | -400 | no | credits=standard_led, ces=90by35_100by40, grid=on, industry=on, process=on | 46% / 58% / 68% | +2.11 | -415 | +0.11 | +0.12 |
 | -400 | yes | credits=standard_led, ces=90by35_100by40, grid=on, industry=on, process=on | 46% / 58% / 68% | +2.11 | -415 | +0.11 | +0.12 |
-| -200 | no | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, heat=on, process=on, coal=on | 45% / 59% / 73% | +4.98 | -221 | +0.28 | +3.44 |
+| -200 | no | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, industry=high, process=on, coal=on | 46% / 59% / 72% | +4.72 | -220 | +0.26 | +3.11 |
 | -200 | yes | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, industry=on, process=on | 46% / 59% / 72% | +4.21 | -253 | +0.28 | +2.62 |
-| +0 | no | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +8.12 | -4 | +0.10 | +3.28 |
-| +0 | yes | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, heat=on, industry=high, process=on | 48% / 63% / 74% | +7.80 | -52 | +0.10 | +2.27 |
-| +150 | no | credits=standard_led, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +8.15 | +76 | +0.09 | +2.68 |
-| +150 | yes | credits=standard_led, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +8.15 | +76 | +0.09 | +2.68 |
-| +300 | no | credits=targeted, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +8.15 | +173 | +0.09 | +2.68 |
-| +300 | yes | credits=targeted, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +8.15 | +173 | +0.09 | +2.68 |
-| +500 | no | credits=bridge, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +8.16 | +346 | +0.09 | +2.68 |
-| +500 | yes | credits=bridge, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +8.16 | +346 | +0.09 | +2.68 |
+| +0 | no | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +7.79 | -8 | +0.11 | +2.84 |
+| +0 | yes | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +7.79 | -8 | +0.11 | +2.84 |
+| +150 | no | credits=targeted, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +7.79 | +90 | +0.11 | +2.84 |
+| +150 | yes | credits=targeted, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +7.79 | +90 | +0.11 | +2.84 |
+| +300 | no | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +7.79 | +263 | +0.11 | +2.84 |
+| +300 | yes | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +7.79 | +263 | +0.11 | +2.84 |
+| +500 | no | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +7.79 | +263 | +0.11 | +2.84 |
+| +500 | yes | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 63% / 75% | +7.79 | +263 | +0.11 | +2.84 |
 
 ## Cost and abatement frontier
 
@@ -49,40 +49,41 @@ Packages that no other package beats on both lower outlays and more abatement (2
 | -570 | -0.02 | 44% / 68% | +2.25 | credits=standard_led, ces=90by35_100by40, process=on, coal=on |
 | -537 | +0.18 | 44% / 68% | +2.29 | credits=standard_led, industry=on, process=on, coal=on |
 | -537 | +0.42 | 44% / 68% | +2.31 | credits=standard_led, ces=90by35_100by40, industry=on, process=on, coal=on |
-| -484 | +1.16 | 44% / 69% | +2.67 | credits=standard_led, ces=90by35_100by40, heat=on, process=on, coal=on |
+| -487 | +0.54 | 44% / 69% | +2.24 | credits=standard_led, heat=on, process=on, coal=on |
+| -487 | +0.82 | 44% / 69% | +2.27 | credits=standard_led, ces=90by35_100by40, heat=on, process=on, coal=on |
 | -467 | +1.56 | 45% / 68% | +1.10 | credits=standard_led, grid=on, process=on, coal=on |
 | -467 | +1.65 | 45% / 68% | +1.16 | credits=standard_led, ces=90by35_100by40, grid=on, process=on, coal=on |
 | -449 | +1.67 | 46% / 68% | +0.05 | credits=standard_led, ces=90by35_100by40, grid=on, process=on |
 | -434 | +2.10 | 46% / 68% | +1.20 | credits=standard_led, ces=90by35_100by40, grid=on, industry=on, process=on, coal=on |
 | -415 | +2.11 | 46% / 68% | +0.12 | credits=standard_led, ces=90by35_100by40, grid=on, industry=on, process=on |
 | -380 | +2.14 | 46% / 68% | +1.22 | credits=targeted, ces=90by35_100by40, grid=on, industry=on, process=on, coal=on |
-| -361 | +2.15 | 46% / 68% | +0.14 | credits=targeted, ces=90by35_100by40, grid=on, industry=on, process=on |
-| -361 | +2.86 | 46% / 69% | +1.45 | credits=standard_led, grid=on, heat=on, process=on, coal=on |
-| -360 | +2.96 | 46% / 70% | +1.66 | credits=standard_led, ces=90by35_100by40, grid=on, heat=on, process=on, coal=on |
-| -327 | +3.30 | 46% / 70% | +1.53 | credits=standard_led, grid=on, heat=on, industry=on, process=on, coal=on |
-| -327 | +3.39 | 46% / 70% | +1.74 | credits=standard_led, ces=90by35_100by40, grid=on, heat=on, industry=on, process=on, coal=on |
+| -365 | +2.51 | 46% / 69% | +0.95 | credits=standard_led, grid=on, heat=on, process=on, coal=on |
+| -364 | +2.60 | 46% / 69% | +1.10 | credits=standard_led, ces=90by35_100by40, grid=on, heat=on, process=on, coal=on |
+| -331 | +2.95 | 46% / 69% | +1.01 | credits=standard_led, grid=on, heat=on, industry=on, process=on, coal=on |
+| -331 | +3.04 | 46% / 70% | +1.18 | credits=standard_led, ces=90by35_100by40, grid=on, heat=on, industry=on, process=on, coal=on |
 | -307 | +3.85 | 45% / 72% | +3.01 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, process=on, coal=on |
 | -274 | +4.00 | 45% / 72% | +3.04 | credits=standard_led, zev=cars_trucks, industry=on, process=on, coal=on |
 | -274 | +4.28 | 45% / 72% | +3.07 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, industry=on, process=on, coal=on |
-| -221 | +4.98 | 45% / 73% | +3.44 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, heat=on, process=on, coal=on |
-| -188 | +5.42 | 46% / 74% | +3.52 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, heat=on, industry=on, process=on, coal=on |
+| -263 | +4.48 | 45% / 73% | +3.15 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, heat=on, process=on |
+| -224 | +4.65 | 45% / 73% | +3.07 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, heat=on, process=on, coal=on |
+| -220 | +4.72 | 46% / 72% | +3.11 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, industry=high, process=on, coal=on |
+| -191 | +4.78 | 46% / 73% | +3.10 | credits=standard_led, zev=cars_trucks, heat=on, industry=on, process=on, coal=on |
+| -191 | +5.08 | 46% / 73% | +3.14 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, heat=on, industry=on, process=on, coal=on |
 | -184 | +5.65 | 47% / 72% | +1.70 | credits=standard_led, zev=cars_trucks, grid=on, process=on, coal=on |
 | -184 | +5.75 | 47% / 72% | +1.98 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, process=on, coal=on |
 | -164 | +5.75 | 47% / 72% | +1.08 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, process=on |
-| -159 | +5.95 | 47% / 72% | +2.76 | credits=standard_led, zev=cars, grid=on, heat=on, process=on, coal=on |
-| -159 | +6.04 | 47% / 72% | +2.97 | credits=standard_led, ces=90by35_100by40, zev=cars, grid=on, heat=on, process=on, coal=on |
-| -158 | +6.85 | 47% / 74% | +2.77 | credits=standard_led, zev=cars_trucks, grid=on, heat=on, process=on, coal=on |
-| -158 | +6.95 | 47% / 74% | +2.97 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, heat=on, process=on, coal=on |
-| -125 | +7.29 | 48% / 74% | +2.83 | credits=standard_led, zev=cars_trucks, grid=on, heat=on, industry=on, process=on, coal=on |
-| -125 | +7.39 | 48% / 74% | +3.04 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, heat=on, industry=on, process=on, coal=on |
-| -71 | +7.73 | 48% / 74% | +2.87 | credits=standard_led, zev=cars_trucks, grid=on, heat=on, industry=high, process=on, coal=on |
-| -71 | +7.83 | 48% / 74% | +3.08 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, heat=on, industry=high, process=on, coal=on |
-| -4 | +8.12 | 48% / 75% | +3.28 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
-| +76 | +8.15 | 48% / 75% | +2.68 | credits=standard_led, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
-| +173 | +8.15 | 48% / 75% | +2.68 | credits=targeted, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
-| +346 | +8.16 | 48% / 75% | +2.68 | credits=bridge, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
-| +825 | +8.20 | 48% / 75% | +0.86 | zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
-| +825 | +8.30 | 48% / 75% | +1.12 | ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
+| -162 | +6.50 | 47% / 73% | +2.28 | credits=standard_led, zev=cars_trucks, grid=on, heat=on, process=on, coal=on |
+| -161 | +6.59 | 47% / 74% | +2.51 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, heat=on, process=on, coal=on |
+| -128 | +6.94 | 47% / 74% | +2.35 | credits=standard_led, zev=cars_trucks, grid=on, heat=on, industry=on, process=on, coal=on |
+| -128 | +7.04 | 47% / 74% | +2.58 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, heat=on, industry=on, process=on, coal=on |
+| -75 | +7.38 | 48% / 74% | +2.39 | credits=standard_led, zev=cars_trucks, grid=on, heat=on, industry=high, process=on, coal=on |
+| -74 | +7.47 | 48% / 74% | +2.62 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, heat=on, industry=high, process=on, coal=on |
+| -8 | +7.69 | 48% / 74% | +2.62 | credits=standard_led, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
+| -8 | +7.79 | 48% / 75% | +2.84 | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
+| +90 | +7.79 | 48% / 75% | +2.84 | credits=targeted, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
+| +263 | +7.79 | 48% / 75% | +2.84 | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
+| +820 | +7.87 | 48% / 74% | +0.37 | zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
+| +821 | +7.97 | 48% / 75% | +0.66 | ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on |
 
 ## Layering inside the recommended package
 
@@ -90,13 +91,13 @@ Each lever alone (added to the decided package) against its marginal contributio
 
 | Lever (option) | Alone: Gt / $B | Inside the package: Gt / $B |
 | --- | --- | --- |
-| Clean-energy credits (CLI-1A) (`standard_led`) | -0.47 / -550 | -0.15 / -825 |
+| Clean-energy credits (CLI-1A) (`standard_led`) | -0.47 / -550 | -0.17 / -825 |
 | Clean electricity standard (CLI-3) (`90by35_100by40`) | +0.24 / +0 | +0.09 / +0 |
-| Vehicle standards in statute (CLI-4E) (`cars_trucks`) | +3.53 / +480 | +3.96 / +202 |
-| Public grid delivery (CLI-10G) (`on`) | +1.84 / +165 | +2.09 / +62 |
-| Low-income heat-pump retrofits (CLI-5W) (`on`) | +0.35 / +119 | +0.28 / +67 |
-| Clean-heat standard (proxy: heat-pump cost premium removed from 2032) (`on`) | +1.06 / +77 | +1.07 / +25 |
-| Clean-industry support (CLI-9 proxy) (`high`) | +0.86 / +87 | +0.88 / +87 |
+| Vehicle standards in statute (CLI-4E) (`cars_trucks`) | +3.53 / +480 | +3.97 / +202 |
+| Public grid delivery (CLI-10G) (`on`) | +1.84 / +165 | +2.07 / +61 |
+| Low-income heat-pump retrofits (CLI-5W) (`on`) | +0.35 / +119 | +0.30 / +67 |
+| Clean-heat standard (proxy: heat-pump cost premium removed from 2032) (`on`) | +0.75 / +75 | +0.75 / +22 |
+| Clean-industry support (CLI-9 proxy) (`high`) | +0.86 / +87 | +0.87 / +87 |
 | Fee on industrial process CO2 and N2O (`on`) | +0.16 / -0 | +0.16 / +0 |
 
 ## Robustness: weak grid delivery and a 2037 repeal
@@ -106,38 +107,38 @@ Net GHG below 2005 in 2035 / 2050, central case; then with weak grid delivery; t
 | Package | Changes | Central | Weak delivery | 2037 repeal | Outlays central ($B 2025) |
 | --- | --- | --- | --- | --- | --- |
 | decided | decided package | 44% / 67% | 44% / 67% | 42% / 58% | -0 |
-| recommended | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on | 48% / 75% | 47% / 74% | 47% / 66% | +15 |
+| recommended | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on | 48% / 74% | 47% / 74% | 46% / 66% | +12 |
 | best_-400_nobill | credits=standard_led, ces=90by35_100by40, grid=on, industry=on, process=on | 46% / 68% | 45% / 68% | 44% / 60% | -415 |
 | best_-400_bill | credits=standard_led, ces=90by35_100by40, grid=on, industry=on, process=on | 46% / 68% | 45% / 68% | 44% / 60% | -415 |
-| best_-200_nobill | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, heat=on, process=on, coal=on | 45% / 73% | 45% / 73% | 44% / 65% | -221 |
+| best_-200_nobill | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, industry=high, process=on, coal=on | 46% / 72% | 46% / 72% | 44% / 64% | -220 |
 | best_-200_bill | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, industry=on, process=on | 46% / 72% | 46% / 72% | 44% / 64% | -253 |
-| best_0_nobill | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 75% | 47% / 66% | -4 |
-| best_0_bill | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, heat=on, industry=high, process=on | 48% / 74% | 47% / 74% | 47% / 66% | -52 |
-| best_150_nobill | credits=standard_led, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 75% | 47% / 66% | +76 |
-| best_150_bill | credits=standard_led, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 75% | 47% / 66% | +76 |
-| best_300_nobill | credits=targeted, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 75% | 47% / 66% | +173 |
-| best_300_bill | credits=targeted, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 75% | 47% / 66% | +173 |
-| best_500_nobill | credits=bridge, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 75% | 47% / 66% | +346 |
-| best_500_bill | credits=bridge, ces=90by35, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 75% | 47% / 66% | +346 |
+| best_0_nobill | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 74% | 46% / 66% | -8 |
+| best_0_bill | credits=standard_led, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 74% | 46% / 66% | -8 |
+| best_150_nobill | credits=targeted, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 74% | 46% / 66% | +90 |
+| best_150_bill | credits=targeted, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 74% | 46% / 66% | +90 |
+| best_300_nobill | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 74% | 46% / 66% | +263 |
+| best_300_bill | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 74% | 46% / 66% | +263 |
+| best_500_nobill | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 74% | 46% / 66% | +263 |
+| best_500_bill | credits=bridge, ces=90by35_100by40, zev=cars_trucks, grid=on, wx=on, heat=on, industry=high, process=on, coal=on | 48% / 75% | 47% / 74% | 46% / 66% | +263 |
 
 **Carbon channel per household in 2035, change against the decided package** ($, 2025 dollars):
 
 | Package | All consumer units | Lowest 20 percent | Second 20 percent | Third 20 percent | Fourth 20 percent | Highest 20 percent |
 | --- | --- | --- | --- | --- | --- | --- |
 | decided | +0 | +0 | +0 | +0 | +0 | +0 |
-| recommended | -15 | +8 | +9 | +1 | -13 | -63 |
+| recommended | -17 | +9 | +9 | +1 | -14 | -69 |
 | best_-400_nobill | -16 | +9 | +8 | +2 | -14 | -66 |
 | best_-400_bill | -16 | +9 | +8 | +2 | -14 | -66 |
-| best_-200_nobill | -38 | +19 | +18 | +2 | -32 | -152 |
+| best_-200_nobill | -35 | +16 | +14 | +2 | -30 | -135 |
 | best_-200_bill | -37 | +19 | +16 | +3 | -31 | -146 |
-| best_0_nobill | -16 | +8 | +8 | +1 | -14 | -64 |
-| best_0_bill | -15 | +8 | +9 | +1 | -13 | -64 |
-| best_150_nobill | -15 | +7 | +8 | +1 | -13 | -60 |
-| best_150_bill | -15 | +7 | +8 | +1 | -13 | -60 |
-| best_300_nobill | -15 | +7 | +8 | +1 | -13 | -60 |
-| best_300_bill | -15 | +7 | +8 | +1 | -13 | -60 |
-| best_500_nobill | -15 | +7 | +8 | +1 | -13 | -60 |
-| best_500_bill | -15 | +7 | +8 | +1 | -13 | -60 |
+| best_0_nobill | -18 | +9 | +8 | +1 | -15 | -70 |
+| best_0_bill | -18 | +9 | +8 | +1 | -15 | -70 |
+| best_150_nobill | -18 | +9 | +8 | +1 | -15 | -70 |
+| best_150_bill | -18 | +9 | +8 | +1 | -15 | -70 |
+| best_300_nobill | -18 | +9 | +8 | +1 | -15 | -70 |
+| best_300_bill | -18 | +9 | +8 | +1 | -15 | -70 |
+| best_500_nobill | -18 | +9 | +8 | +1 | -15 | -70 |
+| best_500_bill | -18 | +9 | +8 | +1 | -15 | -70 |
 
 ## How far the model can go: cumulative ambition diagnostics
 
@@ -145,9 +146,9 @@ Each row adds to the one above, starting from the recommended package. These tes
 
 | Step | Net GHG below 2005: 2035 / 2040 / 2050 | Extra net GHG avoided 2030-50 (Gt) | Outlays ($B 2025, 2030-39) | REV-C1 change ($T nominal) | Bill 2040 ($/month) |
 | --- | --- | --- | --- | --- | --- |
-| Package A (approved price; with the floor measures) | 48% / 63% / 75% | +8.08 | +15 | +0.09 | +2.48 |
-| + price path to $200 by 2037 | 49% / 64% / 76% | +9.42 | +115 | +0.56 | +3.55 |
-| + coal out by 2032 | 49% / 64% / 76% | +9.45 | +100 | +0.56 | +4.17 |
+| Package A (approved price; with the floor measures) | 48% / 63% / 74% | +7.76 | +12 | +0.10 | +2.03 |
+| + price path to $200 by 2037 | 48% / 64% / 76% | +9.04 | +33 | +0.58 | +3.68 |
+| + coal out by 2032 | 48% / 63% / 76% | +9.05 | +15 | +0.59 | +4.35 |
 
 ## Outside the model: farms, forests and removal (CLI-13)
 
@@ -170,9 +171,9 @@ Source hashes (SHA-256):
 - `index/tools/climate-portfolio/portfolio.py`: `44e6e083df4cd8330082dc21c646732a06fbad079d4044a0d0de6d36ea9a48e3`
 - `index/tools/climate-portfolio/assumptions.json`: `6655e64e9785b90d79a38158b661884de3c2b447e3eefb7dddacb2ab96df7b57`
 - `index/tools/climate-portfolio/run.js`: `109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae`
-- `index/tools/carbon/cfd-model.js`: `0f6ae48c97b7bea35d353ca04e669cd58e45963b2d516422fb2985385dca2b7a`
+- `index/tools/carbon/cfd-model.js`: `0d587d0bc954e060daf6be1b0b5cbf7f9a0a924d4ca9c0af25dc144fa0bcb5f6`
 - `index/tools/carbon/cfd-households.js`: `c376c045092a976e24e1e6a0634763bfcd53153f59a719a2bc4d3f447d1968d4`
 - `index/tools/carbon/cfd-cex-2024.json`: `11f4b296801bc20d596eb1893138e734352bae0ef9527e13c1d35b99fc635588`
 - `build/carbon-config.json`: `58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608`
 - `index/tools/climate-portfolio/packages.py`: `6be178873b30f8a5c72d7b7855dfd8315c14e2add9becb734ad4191233a606a1`
-- `index/tools/climate-portfolio/packages.json`: `222b6ee21f2661acd391c91cd1af51c05b3b8d38e32f0d0c064760a9a438c440`
+- `index/tools/climate-portfolio/packages.json`: `3dba81388e5663010c2f685e549f9b03ff343c13d72ba13cedc00e03aa42957e`

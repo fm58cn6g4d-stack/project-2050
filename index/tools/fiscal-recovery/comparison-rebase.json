@@ -3,14 +3,14 @@
  "entries": [
   {
    "path": "index/data/inputs/ledger-revenue.csv",
-   "sha256": "215997869932f027b9d2149b6cae7547826799fdd14946746ab7d668e15ba0b2",
-   "reason": "Carbon price revised to $150 by 2037 (Espen, Oct 26): REV-C1 1.45 -> 1.90, CLI-2 1.16 -> 1.52, CX -0.38 -> -0.49 ($T, 2030-39 mid)",
+   "sha256": "a2885339335b29f4e7d064197f1d013edd1353904c2d4c97474ac43d4013cfcd",
+   "reason": "Carbon price revised to $150 by 2037 (Espen, Oct 26): REV-C1 1.45 -> 1.90, CLI-2 1.16 -> 1.52, CX -0.38 -> -0.49 ($T, 2030-39 mid); notes corrected so the full 20% transition share is credited to CLI-5 (Codex review of a9cd0e5)",
    "approved": "Espen, Oct 26 (price); rebase made by Claude Code under Espen's instruction to act for Codex while offline, pending Espen's approval of PR"
   },
   {
    "path": "index/data/inputs/ledger-bills.csv",
-   "sha256": "ab3097451af2d31556435877a524083dedbf74d9f87eb26ed822e0b705c0d191",
-   "reason": "Carbon price revised to $150 by 2037 (Espen, Oct 26): REV-C1 1.45 -> 1.90, CLI-2 1.16 -> 1.52, CX -0.38 -> -0.49 ($T, 2030-39 mid); CLI-5's own-revenue column and note follow the full 20% share (0.43), as ledger-build.py already computes (PR #37 review)",
+   "sha256": "ff3e8f847fd07ef830d0df5bd954c5ac103895c068a71534c214023aae04a645",
+   "reason": "Carbon price revised to $150 by 2037 (Espen, Oct 26): REV-C1 1.45 -> 1.90, CLI-2 1.16 -> 1.52, CX -0.38 -> -0.49 ($T, 2030-39 mid); CLI-5's own-revenue column and note follow the full 20% share (0.43), as ledger-build.py already computes (PR #37 review); notes corrected so the full 20% transition share is credited to CLI-5 (Codex review of a9cd0e5)",
    "approved": "Espen, Oct 26 (price); rebase made by Claude Code under Espen's instruction to act for Codex while offline, pending Espen's approval of PR"
   },
   {

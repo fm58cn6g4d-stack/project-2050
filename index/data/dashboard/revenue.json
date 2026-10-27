@@ -191,7 +191,7 @@
   "in_base": "No",
   "reaches_middle": "Yes",
   "legal_risk": "Low",
-  "overlap": "80% ($1.52T) to the dividend (CLI-2, per adult); 20% ($0.38T) to the transition share: $0.29T to CLI-5 as before and about $0.09T added (proposed for CLI-9 contracts and CLI-13 forests). Options: REV-C1B ($50 + 5% path), C1C (escalator), C1D (road-fuel convergence, open, not adopted), C1E (gasoline phase-in, conflicts with D7), C1F (Talarico path)",
+  "overlap": "80% ($1.52T) to the dividend (CLI-2, per adult); 20% ($0.38T) to the transition share, all credited to CLI-5 (was $0.29T on the ~$100 path); the step's ~$0.09T lowers CLI-5's general-fund residual and is not available again. Options: REV-C1B ($50 + 5% path), C1C (escalator), C1D (road-fuel convergence, open, not adopted), C1E (gasoline phase-in, conflicts with D7), C1F (Talarico path)",
   "source": "index/climate-carbon-model.md: $2.00T on the decided climate package with the Oct 26 price (10th-90th $1.92-2.14T); the midpoint set about 5% lower and the range widened downward as on Oct 21, because the model responds slowly in its first decade (Espen, Oct 21; price Espen, Oct 26)"
  },
  {

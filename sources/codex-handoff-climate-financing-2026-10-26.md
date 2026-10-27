@@ -29,7 +29,7 @@
 - Incidence scenario Q, fourth quintile, +$1,373 → +$1,261.
 
 **For Codex to check:**
-- D3 incidence at the higher price. The top two quintiles pay more fee and all get a larger dividend.
+- D3 incidence at the higher price. The top two quintiles pay more fee and all get a larger dividend. As your review notes, scenario Q's +$1,261 fourth-quintile ten-year average is not a whole-recovery pass: the mixed recovery case has Q4 at −$2,906 in FY2039, and the historical Q screen has −$1,413 in 2030. Household protection is not secured; that belongs to the revenue settlement.
 - Whether the $18B FY2040 deterioration changes the revenue settlement's sizing. Part of it comes from the C1 and CX year shapes now following the carbon model (`incidence-phase-in.csv` C1, `fiscal-years.csv` CX; PR #37 review).
 
 **The $150 step's transition share is already spent.** `ledger-build.py` computes CLI-5's own revenue as 0.2 × C1 + C2 + C3, so the step's ~$0.09T lowers CLI-5's general-fund residual (0.26 → 0.17). That is part of why claims fell to $11.50T. An earlier draft called it "unassigned"; the reviewer caught that, and the CLI-5 row's own-revenue column (0.43) and note now match the computed value.
@@ -45,7 +45,7 @@
 - tripled retrofits;
 - the process fee.
 
-Against the decided package at $150, it reaches 48% / 63% / 75% below 2005 (2035 / 2040 / 2050) for +$15B of outlays over 2030-39 (2025 $). It meets the 50% domestic floor at the CLI-13 mid estimate (50.2%), so international results count (mid total about 58%). Details: [allocation](climate-portfolio-allocation.md), [packages](climate-portfolio-packages.md), [pricing](climate-portfolio-pricing.md), [international](climate-portfolio-international-pricing.md).
+Against the decided package at $150, it reaches 48.0% / 62.8% / 74.4% below 2005 (2035 / 2040 / 2050) for +$12B of outlays over 2030-39 (2025 $). It meets the 50% domestic floor at the CLI-13 mid estimate, narrowly (50.0%), so international results count (mid total about 57.8%). The clean-heat standard starts in 2032 (`hpPremPolicy`/`hpPremYear` in `cfd-model.js`, default off), per your review. Details: [allocation](climate-portfolio-allocation.md), [packages](climate-portfolio-packages.md), [pricing](climate-portfolio-pricing.md), [international](climate-portfolio-international-pricing.md).
 
 The proposed ledger deltas are unchanged in kind from PR #26, with the sizes updated:
 - CLI-1 → about $0.72T;
@@ -65,12 +65,12 @@ Four options are computed in `pricing.py` (`budget.payment`). O4 was withdrawn b
 - The combustion fee keeps D7's 80/20 split.
 
 Results (nominal $B, favorable / central / conservative / unfavorable):
-- GF 2030-39: −200 / +21 / +97 / +231.
-- FY2040: −48 / −17 / 0 / 0.
+- GF 2030-39: −205 / +17 / +93 / +227.
+- FY2040: −48 / −18 / 0 / 0.
 - FY2050: 0 in all four cases.
 - Dividend change per consumer unit: −$28 to −$51 a year over 2030-39 (lowest to highest quintile) and −$84 to −$154 in 2050.
 
-Under D7 as is (O1), the GF figures are +80 central over 2030-39 and +18 in FY2050.
+Under D7 as is (O1), the GF figures are +75 central over 2030-39 and +18 in FY2050.
 
 **If approved, ledger work for Codex:**
 1. Add a process-fee row (REV-C1 coverage, about $0.24T gross over 2030-39, CX at 25%) with its waterfall.

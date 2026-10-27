@@ -10,30 +10,30 @@ Package A (with the approved $150-by-2037 price) plus the core and fuller disast
 
 | Item | Account | D4 class | 2030-39 | FY2040 | FY2050 |
 | --- | --- | --- | --- | --- | --- |
-| Credit redesign (standard-led, with snap-back), ledger terms; industrial support excluded | general fund | permanent | -351 / -264 / -177 / -177 | -70 / -53 / -35 / -35 | +0 / +0 / +0 / +0 |
-| Income and payroll tax offset (CX, 25%) on the added REV-C1 receipts | general fund | permanent | +23 / +23 / +23 / +23 | -1 / -1 / -1 / -1 | -1 / -1 / -1 / -1 |
-| Bill protection for low- and moderate-income households (while the increase lasts) | general fund | permanent | +9 / +10 / +10 / +11 | +2 / +2 / +2 / +2 | +2 / +2 / +2 / +2 |
+| Credit redesign (standard-led, with snap-back), ledger terms; industrial support excluded | general fund | permanent | -354 / -266 / -179 / -179 | -70 / -53 / -35 / -35 | +0 / +0 / +0 / +0 |
+| Income and payroll tax offset (CX, 25%) on the added REV-C1 receipts | general fund | permanent | +26 / +26 / +26 / +26 | -0 / -0 / -0 / -0 | +0 / +0 / +0 / +0 |
+| Bill protection for low- and moderate-income households (while the increase lasts) | general fund | permanent | +7 / +7 / +7 / +8 | +2 / +2 / +2 / +2 | +1 / +2 / +2 / +2 |
 | Disaster permanent pieces: D2, D3, D6, D7 and D8 | general fund | permanent | +41 / +78 / +78 / +135 | +5 / +9 / +9 / +16 | +6 / +12 / +12 / +20 |
 | NFIP debt resolution (scored cost, FY2030) | general fund | one-time | +0 / +2 / +2 / +7 | +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 |
 | CLI-13 agricultural payments (continuing) | general fund | permanent | +12 / +31 / +31 / +62 | +1 / +3 / +3 / +7 | +2 / +4 / +4 / +9 |
 | Low-income heat-pump retrofits (CLI-5W), paid from credit savings | general fund | time-limited | +56 / +84 / +84 / +140 | +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 |
 | Public grid delivery, lean tranche 1 (deficit cost) | D4-B borrowing | time-limited capital | +34 / +39 / +39 / +49 | +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 |
 | Disaster capital pieces: D1 mitigation fund, D5 wildfire, D9 buyouts | D4-B borrowing | time-limited capital | +73 / +112 / +112 / +163 | +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 |
-| Clean-industry contracts (model industrial-support estimate) | carbon channel | time-limited | +74 / +110 / +110 / +146 | +14 / +21 / +21 / +27 | +0 / +0 / +0 / +0 |
+| Clean-industry contracts (model industrial-support estimate) | carbon channel | time-limited | +73 / +110 / +110 / +146 | +14 / +20 / +20 / +27 | +0 / +0 / +0 / +0 |
 | CLI-13 forests and reforestation | carbon channel | time-limited | +12 / +25 / +25 / +43 | +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 |
 
 | Account result ($B nominal; favorable / central / conservative / unfavorable) | Value |
 | --- | --- |
-| General fund, 2030-39 (includes any channel shortfall) | -142 / +80 / +167 / +371 |
-| General fund, FY2040 (the D4-B maturity year) | -48 / -17 / +0 / +17 |
-| General fund, FY2050 | +9 / +18 / +18 / +31 |
+| General fund, 2030-39 (includes any channel shortfall) | -147 / +75 / +163 / +367 |
+| General fund, FY2040 (the D4-B maturity year) | -48 / -18 / -0 / +17 |
+| General fund, FY2050 | +10 / +18 / +18 / +31 |
 | D4-B borrowing, 2030-39 | +108 / +152 / +152 / +212 |
 | D4-B borrowing over the $195B freed room (positive = overshoot) | -87 / -43 / -43 / +17 |
 | Carbon channel: uses, 2030-39 | +86 / +134 / +134 / +189 |
-| Carbon channel: shortfall in years when uses exceed the transition share (charged to the general fund, included above) | +68 / +116 / +116 / +171 |
+| Carbon channel: shortfall in years when uses exceed the transition share (charged to the general fund, included above) | +65 / +114 / +114 / +168 |
 | Carbon channel: transition-share surplus left over | +0 / +0 / +0 / +0 |
 
-Added REV-C1 receipts: +91B over 2030-39 (FY2040 -4B), of which process coverage +244B. The dividend takes +73B and the transition share +18B. In 2035 the increment adds about $37 to each adult's dividend, and its CX offset costs the general fund the equivalent of about $11 an adult.
+Added REV-C1 receipts: +103B over 2030-39 (FY2040 -2B), of which process coverage +244B. The dividend takes +82B and the transition share +21B. In 2035 the increment adds about $40 to each adult's dividend, and its CX offset costs the general fund the equivalent of about $13 an adult.
 
 ## Paying for the package: options
 
@@ -41,10 +41,10 @@ Each option applies to the package's increment over the decided package (the $15
 
 | Option | General fund 2030-39 | FY2040 | FY2050 | Dividend change per unit, 2030-39 average | Dividend change per unit, 2050 |
 | --- | --- | --- | --- | --- | --- |
-| **O1**: D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall | -142 / +80 / +167 / +371 | -48 / -17 / +0 / +17 | +9 / +18 / +18 / +31 | +0 / +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 / +0 |
-| **O2**: CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment | -165 / +57 / +144 / +348 | -47 / -16 / +1 / +18 | +10 / +19 / +19 / +32 | -11 / -14 / -17 / -18 / -20 | +5 / +6 / +7 / +8 / +9 |
-| **O3**: Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund | -338 / -116 / -29 / +176 | -80 / -49 / -31 / -14 | -35 / -26 / -26 / -13 | -93 / -121 / -143 / -157 / -171 | -208 / -272 / -321 / -353 / -385 |
-| **O5**: Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7 | -200 / +21 / +97 / +231 | -48 / -17 / +0 / +0 | +0 / +0 / +0 / +0 | -28 / -36 / -43 / -47 / -51 | -84 / -109 / -129 / -142 / -154 |
+| **O1**: D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall | -147 / +75 / +163 / +367 | -48 / -18 / -0 / +17 | +10 / +18 / +18 / +31 | +0 / +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 / +0 |
+| **O2**: CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment | -173 / +50 / +137 / +341 | -48 / -17 / +0 / +18 | +9 / +18 / +18 / +31 | -12 / -16 / -19 / -21 / -22 | -1 / -1 / -1 / -1 / -2 |
+| **O3**: Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund | -343 / -120 / -32 / +172 | -80 / -49 / -31 / -14 | -35 / -26 / -26 / -13 | -93 / -121 / -143 / -157 / -171 | -208 / -272 / -321 / -353 / -385 |
+| **O5**: Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7 | -205 / +17 / +93 / +227 | -48 / -18 / -0 / +0 | +0 / +0 / +0 / +0 | -28 / -36 / -43 / -47 / -51 | -84 / -109 / -129 / -141 / -154 |
 
 **Proposed: O5** (proposed by Claude Code for Codex, Oct 26; pending Espen). O5 is the only option that leaves the package at or below zero for the general fund in FY2040 and FY2050 in all four cases, so the package's permanent pieces (disaster D2-D8, farm payments, bill protection) are paid at maturity by the fee that causes them. It costs households far less than O3: process receipts leave the dividend only in years the package would otherwise draw on the general fund. O2 barely moves the general fund. O3 raises more but takes about $90-170 a year from each quintile's dividend over 2030-39. Under O5 the combustion fee keeps D7's 80/20 split untouched. Corrected after review (Oct 26): an earlier O5 also spent the $150 step's transition share, which the shared ledger already credits to CLI-5; without it O5 still meets the maturity test but its 2030-39 result is about +$21B (central), not -$68B.
 
@@ -73,18 +73,18 @@ Credit outlays in the model (credits less grid-program cost, plus the industrial
 | --- | --- |
 | decided | 1.495 |
 | decided_standard_led | 0.795 |
-| recommended_keep_credits | 2.194 |
-| recommended | 1.144 |
+| recommended_keep_credits | 2.191 |
+| recommended | 1.141 |
 | decided_old100 | 1.490 |
 
 - Standard-led redesign alone (decided package otherwise): -0.700T in the model; in ledger terms -0.35 / -0.53 / -0.70T.
 - Inside the recommended package (against the same package with credits kept): -1.050T in the model. Stronger standards raise credit claims if credits are kept, so the redesign saves more inside the package.
-- Recommended package credit outlays against the decided package: -0.351T in the model; in ledger terms -0.18 / -0.26 / -0.35T.
+- Recommended package credit outlays against the decided package: -0.354T in the model; in ledger terms -0.18 / -0.27 / -0.35T.
 These are estimates on the model's take-up, not a JCT score; count the low end in D4 tests until scored.
 
 ## Bill protection
 
-Offsetting the recommended package's residential bill increase for low- and moderate-income households over 2033-39 costs 7.1 / 7.6 / 8.1 $B (2025 dollars), 0.009 / 0.010 / 0.011 $T nominal. Annual increase per household: 2033 $10, 2034 $13, 2035 $13, 2036 $17, 2037 $24, 2038 $30, 2039 $29.
+Offsetting the recommended package's residential bill increase for low- and moderate-income households over 2033-39 costs 5.1 / 5.5 / 5.9 $B (2025 dollars), 0.007 / 0.007 / 0.008 $T nominal. Annual increase per household: 2033 $5, 2034 $8, 2035 $8, 2036 $12, 2037 $18, 2038 $24, 2039 $24.
 
 ## Disaster preparedness and response package
 
@@ -135,11 +135,11 @@ Source hashes (SHA-256):
 - `index/tools/climate-portfolio/portfolio.py`: `44e6e083df4cd8330082dc21c646732a06fbad079d4044a0d0de6d36ea9a48e3`
 - `index/tools/climate-portfolio/assumptions.json`: `6655e64e9785b90d79a38158b661884de3c2b447e3eefb7dddacb2ab96df7b57`
 - `index/tools/climate-portfolio/run.js`: `109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae`
-- `index/tools/carbon/cfd-model.js`: `0f6ae48c97b7bea35d353ca04e669cd58e45963b2d516422fb2985385dca2b7a`
+- `index/tools/carbon/cfd-model.js`: `0d587d0bc954e060daf6be1b0b5cbf7f9a0a924d4ca9c0af25dc144fa0bcb5f6`
 - `index/tools/carbon/cfd-households.js`: `c376c045092a976e24e1e6a0634763bfcd53153f59a719a2bc4d3f447d1968d4`
 - `index/tools/carbon/cfd-cex-2024.json`: `11f4b296801bc20d596eb1893138e734352bae0ef9527e13c1d35b99fc635588`
 - `build/carbon-config.json`: `58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608`
 - `index/tools/climate-portfolio/packages.py`: `6be178873b30f8a5c72d7b7855dfd8315c14e2add9becb734ad4191233a606a1`
-- `index/tools/climate-portfolio/packages.json`: `222b6ee21f2661acd391c91cd1af51c05b3b8d38e32f0d0c064760a9a438c440`
+- `index/tools/climate-portfolio/packages.json`: `3dba81388e5663010c2f685e549f9b03ff343c13d72ba13cedc00e03aa42957e`
 - `index/tools/climate-portfolio/pricing.py`: `1b9ef63ccb324b8abe3d4d454f2f20c02eda1e45fa8d6534083c25b85c8b2fe1`
 - `index/tools/climate-portfolio/pricing.json`: `91ff9572d174658d93772d7f66a9d86a5c427454b7d3656565a03c463f5bae63`

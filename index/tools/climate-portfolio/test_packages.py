@@ -60,6 +60,19 @@ check('NFIP debt resolution is in the budget', items['nfip']['window_bn']['centr
 check('cases pair savings and costs consistently', bu['results']['favorable']['general_fund_window_bn'] < bu['results']['central']['general_fund_window_bn'] < bu['results']['conservative']['general_fund_window_bn'] < bu['results']['unfavorable']['general_fund_window_bn'])
 check('permanent items continue after 2039 while time-limited items stop', items['disaster_perm']['fy2050_bn']['central'] > 0 and items['grid']['fy2040_bn']['central'] == 0 and items['retrofits']['fy2040_bn']['central'] == 0)
 check('disaster tiers sum their rows', abs(sum(r['ten_year_bn_2025'][1] for r in pr['disaster']['rows'] if r['tier'] == 'core') - pr['disaster']['tiers']['core']['ten'][1]) < 1e-9)
+# The clean-heat standard acts only from its start year: heat on and off must match before 2032 (Codex review of a9cd0e5)
+sys.path.insert(0, str(HERE))
+import packages as K
+cfg = json.loads((ROOT / 'build/carbon-config.json').read_text())
+full = next(c for c in cfg['cases'] if c['id'] == 'full')
+ids = [l['id'] for l in a['levers']]
+rec = a['recommended']
+hc = [K.make_case(n, tuple(ch[i] for i in ids), a['levers'], a, full)[0] for n, ch in (('heat_on', dict(rec, heat='on')), ('heat_off', dict(rec, heat='off')))]
+hr = K.run_cases(hc, cfg['world'])
+heat_start = next(o for l in a['levers'] if l['id'] == 'heat' for o in l['options'] if o['key'] == 'on')['world']['hpPremYear']
+check('clean-heat standard changes nothing before its start year',
+      all(hr['heat_on']['rows'][y]['ghgNet'] == hr['heat_off']['rows'][y]['ghgNet'] for y in hr['heat_on']['rows'] if y < heat_start)
+      and any(hr['heat_on']['rows'][y]['ghgNet'] != hr['heat_off']['rows'][y]['ghgNet'] for y in hr['heat_on']['rows'] if y >= heat_start))
 pay = bu['payment']
 check('O1 reproduces the D7 account result', all(abs(pay['O1']['cases'][k]['general_fund_window_bn'] - bu['results'][k]['general_fund_window_bn']) < 1e-6 for k in bu['cases']))
 check('O5 holds FY2040 and FY2050 at or below zero in every case', all(pay['O5']['cases'][k][f] <= 1e-6 for k in bu['cases'] for f in ('general_fund_fy2040_bn', 'general_fund_fy2050_bn')))

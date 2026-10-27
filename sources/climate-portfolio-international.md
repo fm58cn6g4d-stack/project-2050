@@ -15,7 +15,7 @@
   - about **$114B over 2030-39** (2025 dollars; $0.14T nominal).
 
   That adds about **8 points** to the 2035 result. Under Espen's 50% domestic floor, though, international tons count only once domestic action reaches 50% below 2005.
-  - **The two floor measures are now inside Package A** (Oct 26): a clean-heat standard and clean-industry support at 50%. With the approved $150 price in the baseline, domestic action reaches about 50.2% in the mid case (49.1-52.0%), and the counted total is about **58%** below 2005 (49.1 / 58.0 / 67.0%). In the low case the floor is still missed, and no international tons count.
+  - **The two floor measures are now inside Package A** (Oct 26): a clean-heat standard and clean-industry support at 50%. With the approved $150 price in the baseline, domestic action reaches about 50.0% in the mid case (48.9-51.8%), and the counted total is about **58%** below 2005 (48.9 / 57.8 / 66.8%). The mid case clears the floor by only a few hundredths of a point, so the counting result is fragile. In the low case the floor is still missed, and no international tons count.
   - Before the floor measures were added, domestic action reached 49.6% in the mid case, just short of the floor.
 
   Reaching 61% needs about 750 Mt, which only the high-supply case reaches. Reaching 66% needs about 1.1 Gt.
@@ -52,7 +52,7 @@ Your instinct that development aid will increasingly be organized around climate
   - Clawback for reversals; an integrity reserve.
   - Public reporting of domestic and international tons separately.
 - **Size:** about 510 Mt a year by 2035 (225-980), ramping from about 50 Mt in 2030. That is about $15.6B in 2035 ($3.6-60B) and $114B over 2030-39 ($26-437B).
-- **Counting rule (decided by Espen; applied as a threshold):** international tons count toward the 2035 benchmark only when domestic reductions reach at least 50% below 2005. Package A plus CLI-13 reaches about 50.2% in the mid case now that the floor measures are inside it (49.6% without them). International tons do not count toward the 2050 net-zero goal, which is met at home with removals. After 2035, purchases taper as domestic cuts and removals grow. The pricing holds the full 2035 volume through 2039, which is conservative for cost.
+- **Counting rule (decided by Espen; applied as a threshold):** international tons count toward the 2035 benchmark only when domestic reductions reach at least 50% below 2005. Package A plus CLI-13 reaches about 50.0% in the mid case now that the floor measures are inside it, with the clean-heat standard starting in 2032 (49.6% without them). International tons do not count toward the 2050 net-zero goal, which is met at home with removals. After 2035, purchases taper as domestic cuts and removals grow. The pricing holds the full 2035 volume through 2039, which is conservative for cost.
 
 **2. Loss and damage (climate finance, never emissions).** A US contribution of about $1-3B a year (about $20B over 2030-39) to the Fund for Responding to Loss and Damage.
 - The fund had about $768M pledged from 28 countries, $250M available against up to $3B of requests, and first disbursements slipping to the end of 2026.

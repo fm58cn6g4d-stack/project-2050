@@ -20722,7 +20722,7 @@
     "index/tools/inputs.py": "15004f1598a80f98011a7e5d9a21b49308513557e1efa05b9ee549343a7ba0a2",
     "index/tools/fiscal-profiles.py": "b6cf21079a6442b5d98b904932d8b55d044a9c98770f7aae3e1ca9860bea1ebc",
     "index/data/fiscal-baseline.csv": "94660448f9e78071a3647351e2467dc28abd2aea9c8923284a82593403b704e7",
-    "build/ledger.json": "d9261380b9fe5239252a0931b509761f30eb1a148e40ec5458d712bdd5082815",
+    "build/ledger.json": "384afdc5f35611b330e6afe306db237488a7b65160ade886cddd0581e1f7a37d",
     "build/fiscal-model.json": "d0cc2e0f32e00d56dd9a771f056b98f8a32853e1aba62e2664ffc6f3f7c429eb",
     "sources/strategic-review-arithmetic.json": "4e084b39f51d47c0ce4da4ca1829dbe7e539748cb7f0239e7f9cf3202ca91123",
     "sources/education-transforming-education-act-analysis-and-trust-fund.md": "650339290894199f44c0450abfc89292fb9537810baf5aed5f0ce5fbd914625c",
@@ -20741,11 +20741,11 @@
     "index/data/inputs/incidence-keys.csv": "805e2d234a811110d15af6e44a86f2f7648b4f189f4f1a8030e29a5d42f71241",
     "index/data/inputs/incidence-phase-in.csv": "36096935e8264f07bf2a71936db71aedd573b5ecf3285193c69ec04841a42438",
     "index/data/inputs/incidence-rows.csv": "41f530a7f5529b8b7533c5e1e294438c91a280c1687e6722e8ef562a171d6781",
-    "index/data/inputs/ledger-bills.csv": "ab3097451af2d31556435877a524083dedbf74d9f87eb26ed822e0b705c0d191",
+    "index/data/inputs/ledger-bills.csv": "ff3e8f847fd07ef830d0df5bd954c5ac103895c068a71534c214023aae04a645",
     "index/data/inputs/ledger-conflicts.csv": "cc0bc4726540fe196bb48db31e5f5d8ba0933fbe2d0a0b15cf8b77db78a0ac78",
     "index/data/inputs/ledger-cuts.csv": "844bb315f9d46f1c4a9f0636d5ebc37405936fa2a60d0de8e9b00e1b16bfffa0",
     "index/data/inputs/ledger-dynamic.csv": "09169344912de21e9d9debb08014524ce2e43c9e7e3e98d59aab9188eab57559",
-    "index/data/inputs/ledger-revenue.csv": "215997869932f027b9d2149b6cae7547826799fdd14946746ab7d668e15ba0b2",
+    "index/data/inputs/ledger-revenue.csv": "a2885339335b29f4e7d064197f1d013edd1353904c2d4c97474ac43d4013cfcd",
     "index/data/inputs/votes-bills.csv": "b789257ed53185ba61bad385bddf7714686d4075ccd2d09064ad8585392db0f4",
     "index/data/inputs/votes-senate.csv": "2ba0d75a064e7c62b69b3e6138374ded3aba32a1bf55f23105c9380f78423611"
   }

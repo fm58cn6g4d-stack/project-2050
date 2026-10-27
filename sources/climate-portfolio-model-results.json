@@ -1743,7 +1743,7 @@
   "build/carbon-config.json": "58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608",
   "index/tools/carbon/cfd-cex-2024.json": "11f4b296801bc20d596eb1893138e734352bae0ef9527e13c1d35b99fc635588",
   "index/tools/carbon/cfd-households.js": "c376c045092a976e24e1e6a0634763bfcd53153f59a719a2bc4d3f447d1968d4",
-  "index/tools/carbon/cfd-model.js": "0f6ae48c97b7bea35d353ca04e669cd58e45963b2d516422fb2985385dca2b7a",
+  "index/tools/carbon/cfd-model.js": "0d587d0bc954e060daf6be1b0b5cbf7f9a0a924d4ca9c0af25dc144fa0bcb5f6",
   "index/tools/climate-portfolio/assumptions.json": "6655e64e9785b90d79a38158b661884de3c2b447e3eefb7dddacb2ab96df7b57",
   "index/tools/climate-portfolio/portfolio.py": "44e6e083df4cd8330082dc21c646732a06fbad079d4044a0d0de6d36ea9a48e3",
   "index/tools/climate-portfolio/run.js": "109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae"

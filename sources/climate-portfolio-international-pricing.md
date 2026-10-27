@@ -4,9 +4,9 @@
 
 ## The 2035 gap after domestic action
 
-- Package A (as approved) in the carbon model: 48.2% below 2005 in net greenhouse gases in 2035.
-- Plus CLI-13 farms, forests and removal (outside the model): 60 / 135 / 250 Mt, giving 49.1 / 50.2 / 52.0% domestically.
-- Gap to 61%: 590 / 705 / 780 Mt a year in 2035; gap to 66%: 916 / 1,031 / 1,106 Mt.
+- Package A (as approved) in the carbon model: 48.0% below 2005 in net greenhouse gases in 2035.
+- Plus CLI-13 farms, forests and removal (outside the model): 60 / 135 / 250 Mt, giving 48.9 / 50.0 / 51.8% domestically.
+- Gap to 61%: 601 / 716 / 791 Mt a year in 2035; gap to 66%: 928 / 1,043 / 1,118 Mt.
 
 ## What verified mitigation abroad could supply in 2035
 
@@ -24,8 +24,8 @@
 
 Rule: Threshold: international results count toward the 2035 benchmark only when domestic net reductions (Package A plus CLI-13) reach at least 50% below 2005 in that case; otherwise none count (Espen, Oct 26: 'above a 50% domestic floor').
 
-- Domestic 2035 (Package A plus CLI-13): 49.1 / 50.2 / 52.0%. Floor met: no / yes / yes. Counted total: 49.1 / 58.0 / 67.0%.
-- With the floor measures (clean-heat standard plus clean-industry support at 50%, inside Package A since Oct 26, so they add nothing further here: +0.00 points in 2035, +0 $B outlays over 2030-39 in 2025 dollars, +0.00 $/month on the 2040 bill): domestic 49.1 / 50.2 / 52.0%; floor met: no / yes / yes; counted total 49.1 / 58.0 / 67.0%.
+- Domestic 2035 (Package A plus CLI-13): 48.9 / 50.0 / 51.8%. Floor met: no / yes / yes. Counted total: 48.9 / 57.8 / 66.8%.
+- With the floor measures (clean-heat standard plus clean-industry support at 50%, inside Package A since Oct 26, so they add nothing further here: +0.00 points in 2035, +0 $B outlays over 2030-39 in 2025 dollars, +0.00 $/month on the 2040 bill): domestic 48.9 / 50.0 / 51.8%; floor met: no / yes / yes; counted total 48.9 / 57.8 / 66.8%.
 - Pricing holds the full 2035 volume through 2039 (conservative for cost); the design tapers purchases after 2035 as domestic cuts and removals grow.
 
 **2030-39**, ramping from 10% of the 2035 volume in 2030: 1.6 / 3.7 / 7.2 Gt bought for 26 / 114 / 437 $B (2025 dollars), 0.033 / 0.144 / 0.552 $T nominal.
@@ -42,4 +42,4 @@ Source hashes (SHA-256):
 
 - `index/tools/climate-portfolio/international.py`: `d22c894724e9693b7a2ae9fa104981650d3eee25bb6fa3c1aff01348b49e2151`
 - `index/tools/climate-portfolio/international.json`: `e24e3480548d96201da32d96a4a41e2d71a0ec1fbd6896f4017884c9b3ae26f0`
-- `sources/climate-portfolio-packages.json`: `13299873669183b5c1853695d7cb948328c85c0c4049bcf9fbf583eff1d2cfa6`
+- `sources/climate-portfolio-packages.json`: `a8cdbdcca4c473305d8478231962d95bfff2a5be4fd117e919dd0e572576ce98`

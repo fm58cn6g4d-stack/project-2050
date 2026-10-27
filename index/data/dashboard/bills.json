@@ -524,7 +524,7 @@
   "own_revenue": 1.9,
   "net_mid": -0.38,
   "basis": "estimate",
-  "basis_note": "Fee $1.65-2.10T on the revised D7 path ($25 in 2030, D7's steps to 2032, then $150 by 2037; Espen Oct 26), road fuels exempt, on the decided climate package (index/climate-carbon-model.md); outlay shown is the 80% dividend; the 20% transition share (~$0.38T) is credited to CLI-5 ($0.29T) and the climate portfolio's contracts and forests (~$0.09T)",
+  "basis_note": "Fee $1.65-2.10T on the revised D7 path ($25 in 2030, D7's steps to 2032, then $150 by 2037; Espen Oct 26), road fuels exempt, on the decided climate package (index/climate-carbon-model.md); outlay shown is the 80% dividend; the full 20% transition share (~$0.38T) is credited to CLI-5 (ledger-build.py: 0.2 x C1 + C2 + C3), lowering its general-fund residual; none of it is available again for other uses",
   "floor_days": 0,
   "felt_months": 6,
   "durability": 56,
