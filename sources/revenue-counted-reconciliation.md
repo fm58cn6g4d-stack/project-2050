@@ -1,10 +1,20 @@
 # Revenue already counted: the starting point for a sustainable envelope
 
-Codex research reconciliation, October 27, 2026. Source: remote `main` at **55a675f825cbf4c783f94a0ec1b3586d623b15e1**, after PRs 24, 35 and 36. This is an accounting finding and recommendation for the next financing analysis, not a new tax score or policy adoption. PR 37 remains outside this source vintage. Its carbon integration changes the offset and baseline; its pending options are not assumed approved here.
+Codex research reconciliation, October 27, 2026. Source: remote `main` at **55a675f825cbf4c783f94a0ec1b3586d623b15e1**, after PRs 24, 35 and 36. This is an accounting finding and recommendation for the next financing analysis, not a new tax score or policy adoption. PR 37 is outside this historical source vintage; the current-vintage bridge below reconciles its merged carbon integration.
 
 The revenue-first strategy should begin by testing the receipts the project already relies on. The mixed recovery model retains **$8.115T** of the general-fund reform receipts and adjustments traced below over FY2030–39. Those receipts already finance existing commitments. They cannot be offered again as the pay-for for a new expansion, and their inclusion does not establish that they form a reliable financing envelope.
 
 The [20-row reconciliation](revenue-counted-reconciliation.csv) traces every general-fund base revenue row, the seven retained DEC revenue options, and the recovery IRS allowance. It records source hashes, source descriptions as written, and the corresponding mixed-case audit amounts. It excludes current-law receipts, dedicated funds, new illustrative income contributions, and spending savings. It is therefore a defined subset of the total-government budget, not total federal revenue or a new fiscal-gap estimate.
+
+## Current-vintage bridge after PR 37
+
+Checked against remote main **9d04b7c7f48b17864232761387ba922f8ebf630b** (PRs 37, 38 and 40 merged). The same 20-row subset now totals **$8.005T** over FY2030–39. Only CX changed: its authored offset rose from $0.380T to $0.490T with the $150 carbon-price integration. The difference is **$0.110T less general-fund revenue**, not an additional spending item or a second deduction to apply to the current audit.
+
+The current mixed audit sums to **$8.004995T** for these rows and **$988.841B in FY2040**. CX itself sums to −$0.490002T in the decade and −$73.506B in FY2040; all other traced rows agree with the pinned CSV within output rounding. The FY2040 subset is $21.853B below the historical value. The small difference between authored and audit decade totals is annual-output rounding.
+
+The [CSV](revenue-counted-reconciliation.csv) and historical table below deliberately retain their original source hashes and $8.115T calculation. Use $8.005T for comparisons to this newer audit, subject to later integration changes. Neither figure is a jointly scored durable revenue envelope.
+
+Espen has adopted O5 climate financing and CLI-7C reinsurance; adoption is distinct from integration into the recovery model. Package A, O5 and CLI-7C still require the coordinated ledger/recovery pass described in the [climate handoff](codex-handoff-climate-financing-2026-10-26.md). These receipts do not certify that pending integrated budget.
 
 ## From the old ledger to the recovery model
 
@@ -39,7 +49,7 @@ The C43 description says its overlap is “inside GX's logic.” The implemented
 
 ## What this implies for the next revenue cases
 
-I recommend keeping two different questions visible: how much is currently counted, and how much can support durable promises after a joint current-law assessment. The $8.115T answers only the first. It should not be relabeled the “durable core.”
+I recommend keeping two different questions visible: how much is currently counted, and how much can support durable promises after a joint current-law assessment. The historical $8.115T and current-vintage $8.005T answer only the first. It should not be relabeled the “durable core.”
 
 The existing [stress assumptions](../index/tools/recovery-budget/assumptions.json) remove a further $0.84T in the decade from the rows traced here: G8 $0.15T, C39 $0.15T, C38 $0.29T and G9 $0.25T. That is additional to the $0.25T IRS allowance already deducted. The same stress also reduces HLT-6 savings by $0.35T, a spending-side change excluded from this receipt-only reconciliation, and loses half the G11 annual revenue after 2039. These are planning stresses, not probabilities, and they do not test the loss of G11 during the first decade.
 
@@ -51,4 +61,4 @@ For now, retain the counted inputs, reserve any apparent upside, and compare add
 
 This pass inspected repository evidence and executable routing; it did not retrieve or independently verify the underlying Treasury, CBO or JCT publications. The CSV preserves those source descriptions as leads, not newly authenticated citations. Current-law re-scoring and source-vintage verification remain substantive work.
 
-To reproduce the arithmetic on the pinned source: select `ledger-revenue.csv` rows with `in_base=yes` and `channel=General fund`; add `ledger-cuts.csv` rows C18/C35/C38/C39/C40/C41/C43; subtract `recovery-adoption.json`'s `spending.irs_receipt_risk_tn`. Check each against `sources/recovery-budget-audit.csv` with `case=mixed`, summing `revenue_change_bn / 1000` for 2030–39 and reading the 2040 row separately. Each input amount agrees with its audit total within $0.00001T. No common model or adopted input was changed. This report remains pinned when PR 37 lands; its CX change must be reconciled before using these totals as a live comparison.
+To reproduce the arithmetic on the pinned source: select `ledger-revenue.csv` rows with `in_base=yes` and `channel=General fund`; add `ledger-cuts.csv` rows C18/C35/C38/C39/C40/C41/C43; subtract `recovery-adoption.json`'s `spending.irs_receipt_risk_tn`. Check each against `sources/recovery-budget-audit.csv` with `case=mixed`, summing `revenue_change_bn / 1000` for 2030–39 and reading the 2040 row separately. Each input amount agrees with its audit total within $0.00001T. No common model or adopted input was changed. The CSV and original table remain pinned; the current-vintage bridge separately reconciles PR 37 without overwriting that evidence.
