@@ -165,6 +165,7 @@ def main():
     budget = dict(cases=list(CASES), save_multiplier=SAVE, cost_index=COST, freed_d4b_room_bn=pr['freed_d4b_room_bn'],
                   freed_d4b_basis=pr['freed_d4b_basis'], channel=ch,
                   items=[dict(id=it['id'], label=it['label'], account=it['account'], d4=it['d4'],
+                              path_bn=it['path'],
                               window_bn={k: sum(it['path'][k][y] for y in W10) for k in CASES},
                               fy2040_bn={k: it['path'][k][2040] for k in CASES}, fy2050_bn={k: it['path'][k][2050] for k in CASES}) for it in items],
                   rev_c1_change_bn={'window': sum(d_rev[y] * defl(y) for y in W10), 'fy2040': d_rev[2040] * defl(2040), 'fy2050': d_rev[2050] * defl(2050)},
@@ -235,7 +236,7 @@ def payment_options(pr, items, cases, years, w10, d_rev, d_proc, defl, ch, step_
     for o in PAY_OPTIONS:
         res = {}
         for k in cases:
-            gf, div = {}, {}
+            gf, div, annual = {}, {}, {}
             for y in years:
                 inc, proc = d_rev[y] * defl(y), d_proc[y] * defl(y)
                 comb = inc - proc
@@ -252,11 +253,23 @@ def payment_options(pr, items, cases, years, w10, d_rev, d_proc, defl, ch, step_
                     d, trans, gf_rcpt = ch['dividend_share'] * inc, ch['transition_share'] * inc, 0.0
                 short, surplus = max(0.0, chan - trans), max(0.0, trans - chan)
                 gf[y] = gf_items + cx + short - gf_rcpt - (surplus if o in ('O3', 'O5') else 0.0)
+                divert = 0.0
                 if o == 'O5':
                     divert = min(max(0.0, gf[y]), ch['dividend_share'] * max(0.0, proc))
                     gf[y] -= divert; d -= divert
                 div[y] = d
-            res[k] = dict(general_fund_window_bn=sum(gf[y] for y in w10), general_fund_fy2040_bn=gf[2040], general_fund_fy2050_bn=gf[2050],
+                annual[str(y)] = dict(
+                    added_receipts_bn=inc, process_receipts_bn=proc,
+                    combustion_receipts_change_bn=comb,
+                    general_fund_items_excluding_cx_bn=gf_items, cx_cost_bn=cx,
+                    channel_uses_bn=chan, transition_allocation_bn=trans,
+                    channel_shortfall_bn=short, channel_surplus_bn=surplus,
+                    direct_general_fund_receipts_bn=gf_rcpt,
+                    process_dividend_diversion_bn=divert,
+                    dividend_bn=d, dividend_vs_d7_bn=d - ch['dividend_share'] * inc,
+                    general_fund_net_cost_bn=gf[y],
+                    d4b_net_cost_bn=sum(it['path'][k][y] for it in items if it['account'] == 'D4-B borrowing'))
+            res[k] = dict(annual=annual, general_fund_window_bn=sum(gf[y] for y in w10), general_fund_fy2040_bn=gf[2040], general_fund_fy2050_bn=gf[2050],
                           dividend_window_bn=sum(div[y] for y in w10), dividend_2035_bn=div[2035], dividend_fy2050_bn=div[2050],
                           dividend_vs_d7_window_bn=sum(div[y] - ch['dividend_share'] * d_rev[y] * defl(y) for y in w10),
                           dividend_vs_d7_fy2050_bn=div[2050] - ch['dividend_share'] * d_rev[2050] * defl(2050))

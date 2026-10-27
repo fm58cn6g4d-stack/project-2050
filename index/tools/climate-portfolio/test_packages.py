@@ -82,6 +82,34 @@ check('O5 spends no transition share twice', all(-1e-6 <= (pay['O1']['cases'][k]
                                              - (pay['O1']['cases'][k]['dividend_window_bn'] - pay['O5']['cases'][k]['dividend_window_bn']) < 1.0 for k in bu['cases']))
 check('O4, which double counted the step, stays withdrawn', 'O4' not in pay)
 check('O5 costs households less than O3', all(a > b for a, b in zip(pay['O5']['dividend_change_per_household_avg_2030_39'], pay['O3']['dividend_change_per_household_avg_2030_39'])))
+# Annual export is an accounting boundary: reconcile it independently to summaries and components.
+for k in bu['cases']:
+    annual = pay['O5']['cases'][k]['annual']
+    check(f'{k}: O5 annual years complete', set(annual) == {str(y) for y in range(2030, 2051)})
+    check(f'{k}: O5 cash-flow identity', all(
+        abs(r['general_fund_net_cost_bn'] - (r['general_fund_items_excluding_cx_bn'] +
+            r['cx_cost_bn'] + r['channel_uses_bn'] + r['dividend_bn'] - r['added_receipts_bn'])) < 1e-8
+        for r in annual.values()))
+    check(f'{k}: O5 diversion bounded by process dividend', all(
+        -1e-8 <= r['process_dividend_diversion_bn'] <= 0.8 * max(0, r['process_receipts_bn']) + 1e-8
+        for r in annual.values()))
+    check(f'{k}: D4-B separate and reconciled', all(
+        abs(r['d4b_net_cost_bn'] - sum(it['path_bn'][k][y] for it in bu['items']
+                                     if it['account'] == 'D4-B borrowing')) < 1e-8
+        for y, r in annual.items()))
+    for o in ('O1', 'O2', 'O3', 'O5'):
+        case = pay[o]['cases'][k]
+        check(f'{k}/{o}: annual GF and dividend match decade totals', all(
+            abs(sum(case['annual'][str(y)][field] for y in range(2030, 2040)) - case[total]) < 1e-8
+            for field, total in [('general_fund_net_cost_bn', 'general_fund_window_bn'),
+                                 ('dividend_bn', 'dividend_window_bn'),
+                                 ('dividend_vs_d7_bn', 'dividend_vs_d7_window_bn')]))
+        check(f'{k}/{o}: mature annual GF matches summary', all(
+            abs(case['annual'][str(y)]['general_fund_net_cost_bn'] - case[f'general_fund_fy{y}_bn']) < 1e-8
+            for y in (2040, 2050)))
+    check(f'{k}: component paths match decade totals', all(
+        abs(sum(it['path_bn'][k][str(y)] for y in range(2030, 2040)) - it['window_bn'][k]) < 1e-8
+        for it in bu['items']))
 d10 = next(r for r in pr['disaster']['rows'] if r['id'] == 'D10')
 check('reinsurance (decided Oct 27) is a permanent expected-cost line with its contingent liability disclosed',
       d10['tier'] == 'backstop' and items['reinsurance']['d4'] == 'permanent' and d10['contingent_bn'][1] >= 100 and items['reinsurance']['fy2050_bn']['central'] > 0)
