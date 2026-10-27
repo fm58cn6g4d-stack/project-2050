@@ -1,7 +1,7 @@
 """Checks for the package search and pricing. Run after `bash index/tools/run-all.sh` (rebuilds the package and pricing outputs if missing):
 python3 index/tools/climate-portfolio/test_packages.py
 """
-import json, sys
+import json, math, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -113,9 +113,26 @@ for k in bu['cases']:
 d10 = next(r for r in pr['disaster']['rows'] if r['id'] == 'D10')
 check('reinsurance (decided Oct 27) is a permanent expected-cost line with its contingent liability disclosed',
       d10['tier'] == 'backstop' and items['reinsurance']['d4'] == 'permanent' and d10['contingent_bn'][1] >= 100 and items['reinsurance']['fy2050_bn']['central'] > 0)
+def same_export(a, b):
+    """Exact schema/text comparison; tolerate only sub-dollar float serialization noise in $B."""
+    if isinstance(a, dict) and isinstance(b, dict):
+        return a.keys() == b.keys() and all(same_export(a[k], b[k]) for k in a)
+    if isinstance(a, list) and isinstance(b, list):
+        return len(a) == len(b) and all(same_export(x, y) for x, y in zip(a, b))
+    if isinstance(a, (int, float)) and isinstance(b, (int, float)) and not isinstance(a, bool) and not isinstance(b, bool):
+        return math.isclose(a, b, rel_tol=0, abs_tol=1e-9)
+    return type(a) is type(b) and a == b
+
+# The annual accounting JSON is the integration interface, even when rounded reports do not change.
+check('committed pricing JSON matches the rebuild including schema and source hashes',
+      same_export(pr, json.loads((ROOT / 'sources/climate-portfolio-pricing.json').read_text())))
+check('export comparison tolerates float noise, rejects changed amounts and schema',
+      same_export({'x': [1.0]}, {'x': [1.0 + 1e-13]})
+      and not same_export({'x': [1.0]}, {'x': [1.01]})
+      and not same_export({'x': [1.0]}, {'x': [1.0], 'extra': 0})
+      and not same_export({'source': 'a'}, {'source': 'b'}))
 for name in ('climate-portfolio-packages.md', 'climate-portfolio-pricing.md', 'climate-portfolio-disaster-components.csv'):
     built, committed = ROOT / 'build/climate-portfolio' / name, ROOT / 'sources' / name
-    if committed.exists():
-        check(f'committed {name} matches the build', built.read_text() == committed.read_text())
+    check(f'committed {name} matches the build', built.read_text() == committed.read_text())
 print('all passed' if not fails else f'{len(fails)} failed')
 sys.exit(1 if fails else 0)
