@@ -4,7 +4,7 @@
 
 ## Whole-package budget by account, with annual paths
 
-Package A (with the approved $150-by-2037 price) plus the core and fuller disaster tiers, nominal $B. Four cases pair savings and costs consistently: **favorable** (credit savings x1.33, low costs) / **central** / **conservative** (credit savings x0.67, the project rule until scored; central costs) / **unfavorable** (credit savings x0.67, high costs). Negative is a saving. Removal purchases (CLI-13) are kept outside the package and shown separately.
+Package A (with the approved $150-by-2037 price) plus the core and fuller disaster tiers and the CLI-7C reinsurance backstop, nominal $B. Four cases pair savings and costs consistently: **favorable** (credit savings x1.33, low costs) / **central** / **conservative** (credit savings x0.67, the project rule until scored; central costs) / **unfavorable** (credit savings x0.67, high costs). Negative is a saving. Removal purchases (CLI-13) are kept outside the package and shown separately.
 
 **Accounts.** *General fund* items are paid without borrowing. *D4-B borrowing* covers time-limited capital. The *carbon channel* covers clean-industry contracts and forests, financed first from the transition share (20%) of the added REV-C1 receipts. Under D7 the dividend takes 80% and the general fund books a 25% income and payroll tax offset (CX). D7: REV-C1 receipts split 80% Climate Dividend and 20% transition share; the general fund books a 25% income and payroll tax offset (CX) on carbon fees. Added receipts from the higher price and process coverage follow the same rule unless Espen changes it.
 
@@ -47,7 +47,7 @@ Each option applies to the package's increment over the decided package (the $15
 | **O3**: Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund | -346 / -117 / -29 / +183 | -80 / -48 / -31 / -13 | -35 / -26 / -26 / -12 | -93 / -121 / -143 / -157 / -171 | -208 / -272 / -321 / -353 / -385 |
 | **O5**: Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7 | -209 / +20 / +95 / +234 | -49 / -17 / +0 / +0 | +0 / +0 / +0 / +0 | -28 / -36 / -43 / -47 / -51 | -86 / -113 / -132 / -146 / -159 |
 
-**Proposed: O5** (decided by Espen, Oct 27 ("approve O5 and CLI-7C"); Codex books it with Package A). O5 is the only option that leaves the package at or below zero for the general fund in FY2040 and FY2050 in all four cases, so the package's permanent pieces (disaster D2-D8, farm payments, bill protection) are paid at maturity by the fee that causes them. It costs households far less than O3: process receipts leave the dividend only in years the package would otherwise draw on the general fund. O2 barely moves the general fund. O3 raises more but takes about $90-170 a year from each quintile's dividend over 2030-39. Under O5 the combustion fee keeps D7's 80/20 split untouched. Corrected after review (Oct 26): an earlier O5 also spent the $150 step's transition share, which the shared ledger already credits to CLI-5; without it O5 still meets the maturity test but its 2030-39 result is about +$21B (central), not -$68B.
+**Decided: O5** (decided by Espen, Oct 27 ("approve O5 and CLI-7C"); Codex books it with Package A). O5 is the only option that leaves the package at or below zero for the general fund in FY2040 and FY2050 in all four cases, so the package's permanent pieces (disaster D2-D8, farm payments, bill protection) are paid at maturity by the fee that causes them. It costs households far less than O3: process receipts leave the dividend only in years the package would otherwise draw on the general fund. O2 barely moves the general fund. O3 raises more but takes about $90-170 a year from each quintile's dividend over 2030-39. Under O5 the combustion fee keeps D7's 80/20 split untouched. Corrected after review (Oct 26): an earlier O5 also spent the $150 step's transition share, which the shared ledger already credits to CLI-5; without it O5 still meets the maturity test but its 2030-39 result is about +$21B (central), not -$68B.
 
 **Removal purchases, outside the package.** About 20 / 45 / 90 $B (2025 dollars) over 2030-39, rising to roughly 60 / 90 / 120 $B a year by 2050 at 150 / 300 / 400 Mt. That continuing obligation needs its own financing decision and maturity test before it enters any selected package.
 
@@ -123,7 +123,7 @@ Starting from current law (sourced):
 | backstop | -3 / 3 / 9 | -0.003 / 0.003 / 0.011 | 0.0 / 0.0 / 0.0 |
 | counted_elsewhere | 6 / 10 / 15 | 0.007 / 0.012 / 0.018 | 4.8 / 10.5 / 17.8 |
 
-Core and full tiers by D4 class over 2030-39: permanent 31 / 66 / 118 $B; time-limited capital 59 / 91 / 131 $B (2025 dollars). Rows marked counted_elsewhere are in CAP-7/CAP-7S and are not added again.
+Core, fuller and backstop (CLI-7C expected cost) tiers by D4 class over 2030-39: permanent 31 / 66 / 118 $B; time-limited capital 59 / 91 / 131 $B (2025 dollars). Rows marked counted_elsewhere are in CAP-7/CAP-7S and are not added again.
 
 **Unbudgeted disaster supplementals (current law).** About $15-25B a year (mid $20B) of recurring disaster appropriations sits outside the extrapolated baseline. estimate: recent all-agency disaster appropriations (about $45B a year nominal FY2015-24, about $52B in 2025 dollars, before the $110B 2025 act) against roughly $30-35B a year carried by the extrapolated baseline (the FY2026 DRF plus base disaster programs elsewhere). A current-law exposure, not an agenda cost; disclose beside the Judgment Fund line in D4 tests.
 
@@ -142,5 +142,5 @@ Source hashes (SHA-256):
 - `build/carbon-config.json`: `58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608`
 - `index/tools/climate-portfolio/packages.py`: `6be178873b30f8a5c72d7b7855dfd8315c14e2add9becb734ad4191233a606a1`
 - `index/tools/climate-portfolio/packages.json`: `3dba81388e5663010c2f685e549f9b03ff343c13d72ba13cedc00e03aa42957e`
-- `index/tools/climate-portfolio/pricing.py`: `73c8b4f050e444c39a5e05da6d1b16e8f0457453d3be85535a996cfe99952080`
+- `index/tools/climate-portfolio/pricing.py`: `e8e85c9a7c4297eee42e339bd416d095948bca8d8adc97974aaef991229bcb25`
 - `index/tools/climate-portfolio/pricing.json`: `a3bf9d977ee6a6e8a8f104419111a8d334939878c9903edddc8de5eff78b43ad`
