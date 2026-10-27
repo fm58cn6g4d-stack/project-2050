@@ -1,0 +1,2087 @@
+{
+  "schema_version": 1,
+  "source_commit": "650cadec751c8897401120d96852aff4f334a2b1",
+  "edition_date": "2026-10-27",
+  "status": "working_edition_not_published",
+  "basis_labels": {
+    "decision": "Project decision",
+    "design": "Proposed design",
+    "estimate": "Planning estimate",
+    "model": "Model result",
+    "observed": "Current fact",
+    "direction": "In development"
+  },
+  "claims": {
+    "decent-life": {
+      "summary": "The project’s direction: a decent life should be attainable whatever a person’s ability to work or family arrangement; work and training supports are offered, not imposed as conditions.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 408,
+          "anchor": "a decent life should be attainable regardless of ability to compete or work, or family arrangement"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security",
+        "work"
+      ]
+    },
+    "afa-amounts": {
+      "summary": "The selected child benefit follows the American Family Act: a monthly refundable payment of $300 per child aged 6–17 and $360 per child under six, before indexing.",
+      "basis": "design",
+      "figures": [
+        "$300",
+        "6–17",
+        "$360"
+      ],
+      "series": [],
+      "policy_ids": [
+        "FAM-1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-family.md",
+          "line": 19,
+          "anchor": "monthly base of $300 for ages 6–17, $360 under six"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security"
+      ]
+    },
+    "afa-continuity": {
+      "summary": "Because refundable credits are paid under a permanent appropriation, the monthly payments are designed to continue through a government shutdown; the statute should say so expressly.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "FAM-1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-family.md",
+          "line": 23,
+          "anchor": "monthly payments continue through a lapse in appropriations"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security"
+      ]
+    },
+    "care-phasing": {
+      "summary": "Child care is phased: universal voluntary pre-K for 3- and 4-year-olds and a lowest-income tier in 2030–31, then a cap at 7% of income for families up to 250% of state median income from 2032.",
+      "basis": "design",
+      "figures": [
+        "3",
+        "4",
+        "2030-31",
+        "7%",
+        "250%",
+        "2032"
+      ],
+      "series": [],
+      "policy_ids": [
+        "FAM-2"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-family.md",
+          "line": 41,
+          "anchor": "2030-31:** universal voluntary pre-K for 3- and 4-year-olds"
+        },
+        {
+          "path": "domains/domain-family.md",
+          "line": 42,
+          "anchor": "From 2032:** the full cap at 7% of income for families up to 250% of state median income"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security",
+        "paying"
+      ]
+    },
+    "care-staff": {
+      "summary": "A pre-K expansion without care for younger children pulls staff away from infant and toddler care; the lowest-income tier and supply grants are meant to answer that.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "FAM-2"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-family.md",
+          "line": 59,
+          "anchor": "A pre-K expansion without an under-3 expansion actively worsens infant and toddler care"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security"
+      ]
+    },
+    "leave-design": {
+      "summary": "Paid family and medical leave: twelve weeks as social insurance, replacing about two-thirds of wages up to a cap; benefits begin in 2031.",
+      "basis": "design",
+      "figures": [
+        "2031"
+      ],
+      "series": [],
+      "policy_ids": [
+        "FAM-3"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-family.md",
+          "line": 69,
+          "anchor": "Twelve weeks of family and medical leave, paid as social insurance"
+        },
+        {
+          "path": "domains/domain-family.md",
+          "line": 69,
+          "anchor": "starting at about two-thirds of wages up to a cap"
+        },
+        {
+          "path": "domains/domain-family.md",
+          "line": 11,
+          "anchor": "No (benefits from 2031)"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security",
+        "paying"
+      ]
+    },
+    "leave-cost": {
+      "summary": "At the starting contribution of 0.6% of wages, a worker earning $60,000 pays $180 a year; if take-up is high the rate steps up automatically toward a 1.10% ceiling.",
+      "basis": "design",
+      "figures": [
+        "0.6%",
+        "$60,000",
+        "$180",
+        "1.10%"
+      ],
+      "series": [],
+      "policy_ids": [
+        "FAM-3"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-family.md",
+          "line": 77,
+          "anchor": "A worker earning $60,000 pays $180 a year at 0.6%"
+        },
+        {
+          "path": "domains/domain-family.md",
+          "line": 75,
+          "anchor": "to the revised working cap of 1.10%"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security"
+      ]
+    },
+    "health-restore": {
+      "summary": "Coverage first: repeal the 2025 law’s Medicaid and marketplace cuts and make enhanced marketplace credits permanent, landing in the 2030 plan year.",
+      "basis": "design",
+      "figures": [
+        "2030"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HLT-1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-health.md",
+          "line": 11,
+          "anchor": "Repeal the H.R. 1 Medicaid and marketplace cuts; make the enhanced ACA credits permanent"
+        },
+        {
+          "path": "domains/domain-health.md",
+          "line": 73,
+          "anchor": "Restoration lands in the 2030 plan year, before the midterm."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security",
+        "paying"
+      ]
+    },
+    "medicare": {
+      "summary": "Traditional Medicare gains a $5,000 out-of-pocket cap and dental, vision and hearing coverage; hearing and vision start in 2031 and dental phases in from 2033. A public option opens for plan year 2031.",
+      "basis": "design",
+      "figures": [
+        "$5,000",
+        "2031",
+        "2033"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HLT-2",
+        "HLT-3"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-health.md",
+          "line": 12,
+          "anchor": "$5,000 cap in traditional Medicare; dental, vision and hearing (kept in)"
+        },
+        {
+          "path": "domains/domain-health.md",
+          "line": 74,
+          "anchor": "Hearing and vision start in 2031 and dental phases in from 2033."
+        },
+        {
+          "path": "domains/domain-health.md",
+          "line": 75,
+          "anchor": "The public option opens for plan year 2031"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security",
+        "paying"
+      ]
+    },
+    "all-age-care": {
+      "summary": "An all-age home-support benefit, with protection against prolonged intensive-care costs, is in development; no price, entitlement or launch date has been set. Existing Medicaid home-care improvements are the immediate route.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "HLT-4"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-health.md",
+          "line": 137,
+          "anchor": "Develop an all-age home-support benefit with protection against prolonged intensive-care costs"
+        },
+        {
+          "path": "domains/domain-health.md",
+          "line": 137,
+          "anchor": "Existing HLT-4 remains the immediate service route; no unpriced entitlement or launch date is inferred."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security"
+      ]
+    },
+    "poverty": {
+      "summary": "In conditional experiments with 2025 incomes, the selected family channels (child benefit, care and pre-K savings, meals and the first million rental awards) lower child poverty on the Supplemental Poverty Measure from 13.4% to between 8.1% and 8.7%, depending on how well delivery works. Not a forecast or a full-agenda result.",
+      "basis": "model",
+      "figures": [
+        "13.4%",
+        "8.1%",
+        "8.7%",
+        "2025"
+      ],
+      "series": [],
+      "policy_ids": [
+        "FAM-1",
+        "FAM-2",
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "sources/family-comparison-model-checks.json",
+          "line": 13,
+          "anchor": "0.1340300259018054"
+        },
+        {
+          "path": "sources/family-comparison-model-checks.json",
+          "line": 203,
+          "anchor": "0.08085087557830818"
+        },
+        {
+          "path": "sources/family-comparison-model-checks.json",
+          "line": 53,
+          "anchor": "0.0873226173781113"
+        },
+        {
+          "path": "sources/family-comparison-model-checks.json",
+          "line": 2910,
+          "anchor": "\"source_income_year\": 2025"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "security"
+      ]
+    },
+    "vouchers-now": {
+      "summary": "About 2.3 million households held Housing Choice Vouchers in September 2025. Vouchers are funded by appropriation, not as an entitlement, so help depends on waiting lists.",
+      "basis": "observed",
+      "figures": [
+        "2.3",
+        "2025"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-housing.md",
+          "line": 36,
+          "anchor": "About 2.3 million households held Housing Choice Vouchers in September 2025"
+        }
+      ],
+      "external": [
+        {
+          "label": "NLIHC Advocates’ Guide 2026, Housing Choice Vouchers",
+          "url": "https://nlihc.org/sites/default/files/AG-2026/CH4/6_Housing_Choice_Vouchers_Chapter_4.pdf",
+          "checked": "2026-10-27"
+        }
+      ],
+      "essays": [
+        "housing"
+      ]
+    },
+    "hou4a": {
+      "summary": "One million new voucher awards, with mandatory funding, phased in at 250,000 a year over 2030–33.",
+      "basis": "decision",
+      "figures": [
+        "250,000",
+        "2030–33"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-housing.md",
+          "line": 121,
+          "anchor": "One million total new voucher awards, replacing the earlier 400,000, with mandatory funding. Preserve the 2030–33 phase-in window, implying 250,000 new awards annually"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing",
+        "paying"
+      ]
+    },
+    "hou4d": {
+      "summary": "A further $135B over 2030–39 for rental assistance beyond the first million awards; roughly another million awards is a scale illustration, not an adopted count.",
+      "basis": "decision",
+      "figures": [
+        "$135B",
+        "2030–39"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HOU-4D"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-housing.md",
+          "line": 118,
+          "anchor": "Add a $135B FY2030–39 working envelope for rental assistance beyond the previously adopted million new awards"
+        },
+        {
+          "path": "domains/domain-housing.md",
+          "line": 118,
+          "anchor": "Approximately another million awards is a scale illustration, not an adopted guaranteed award/lease count."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "award-lease": {
+      "summary": "A voucher award is not a lease: a household still needs an available unit and a landlord who accepts it. Lease-up is tracked separately from awards.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "HOU-4"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-housing.md",
+          "line": 121,
+          "anchor": "successful lease-up is separate from an award"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "hou3": {
+      "summary": "Construction capital: about $72B of grants to state housing revolving funds plus $300B of federal direct loans.",
+      "basis": "design",
+      "figures": [
+        "$72B",
+        "$300B"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HOU-3"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-housing.md",
+          "line": 15,
+          "anchor": "About $72B of capitalization grants to state housing revolving funds (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "hou5": {
+      "summary": "Public housing repair: the Capital Fund rises from $3.2B to about $9B a year for ten years. Against a backlog of $80B to $169B, that closes roughly a third to two-thirds of it.",
+      "basis": "estimate",
+      "figures": [
+        "$3.2B",
+        "$9B",
+        "$80B",
+        "$169B"
+      ],
+      "series": [],
+      "policy_ids": [
+        "HOU-5"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-housing.md",
+          "line": 135,
+          "anchor": "The Capital Fund rises from $3.2B (FY2026) to about $9B a year for ten years"
+        },
+        {
+          "path": "domains/domain-housing.md",
+          "line": 137,
+          "anchor": "Against a backlog of $80B to $169B, ten years at this level closes roughly a third to two-thirds of it."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "hou6": {
+      "summary": "Federal money can encourage zoning reform but not command it: a competitive fund rewards places that allow more homes, and conditions apply only to new money.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "HOU-6"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-housing.md",
+          "line": 147,
+          "anchor": "Conditions attach to new and incremental money only, never to existing base grants."
+        },
+        {
+          "path": "domains/domain-housing.md",
+          "line": 147,
+          "anchor": "Federal dollars can incentivize zoning but not command it"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "hou-guarantee": {
+      "summary": "A housing-security guarantee for extremely-low-income renters, with public and nonprofit supply, durable affordability and a federal backstop where states do not take part, is in development; it is meant to replace waiting-list luck and has not been priced.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "HOU-4",
+        "HOU-4D"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-housing.md",
+          "line": 257,
+          "anchor": "The guarantee should replace waiting-list luck for its defined population."
+        },
+        {
+          "path": "domains/domain-housing.md",
+          "line": 257,
+          "anchor": "a lawful federal sponsor/backstop where state participation fails"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "housing"
+      ]
+    },
+    "lab1": {
+      "summary": "Labor law written into statute: civil penalties with personal liability for officers who direct violations, a ban on permanently replacing strikers, and mediation then arbitration for first contracts.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "LAB-1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-labor.md",
+          "line": 40,
+          "anchor": "personal liability for directors and officers who direct them"
+        },
+        {
+          "path": "domains/domain-labor.md",
+          "line": 41,
+          "anchor": "a ban on permanently replacing strikers."
+        },
+        {
+          "path": "domains/domain-labor.md",
+          "line": 43,
+          "anchor": "mediation, then binding arbitration"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "work"
+      ]
+    },
+    "lab3": {
+      "summary": "Industry standards boards for home care and fast food set wage and benefit floors; the Medicaid cost of a higher home-care wage is real and not yet scored.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "LAB-3",
+        "HLT-4"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-labor.md",
+          "line": 73,
+          "anchor": "Federal industry standards boards for home care and fast food"
+        },
+        {
+          "path": "domains/domain-labor.md",
+          "line": 76,
+          "anchor": "The Medicaid rate effect of a home-care wage floor is a real cost"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "work"
+      ]
+    },
+    "lab4": {
+      "summary": "A wage floor of $17, then two-thirds of the median wage, with longer phase-ins for small firms and low-wage counties.",
+      "basis": "design",
+      "figures": [
+        "$17"
+      ],
+      "series": [],
+      "policy_ids": [
+        "LAB-4"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-labor.md",
+          "line": 14,
+          "anchor": "$17, then two-thirds of the median wage; longer phase-ins for small firms and low-wage counties"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "work"
+      ]
+    },
+    "ai4": {
+      "summary": "Support after losing a job no longer requires proving AI caused it: wage insurance pays half the gap between old and new wages for two years, with a training account of about $8,000, inside a $120B envelope for 2030–39.",
+      "basis": "decision",
+      "figures": [
+        "$8,000",
+        "$120B",
+        "2030–39"
+      ],
+      "series": [],
+      "policy_ids": [
+        "AI-4"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-ai.md",
+          "line": 92,
+          "anchor": "ordinary displacement eligibility, without requiring proof of AI causation"
+        },
+        {
+          "path": "domains/domain-ai.md",
+          "line": 93,
+          "anchor": "half the difference between old and new wages for two years"
+        },
+        {
+          "path": "domains/domain-ai.md",
+          "line": 94,
+          "anchor": "about $8,000, estimate"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 441,
+          "anchor": "| AI-4 | $120B FY2030–39 |"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "work"
+      ]
+    },
+    "ai4-demand": {
+      "summary": "The project’s own stress test warns that training cannot fill a shortage of jobs inside firms; supply-side help needs demand-side complements.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "AI-4"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-ai.md",
+          "line": 102,
+          "anchor": "a demand hole inside firms, which no supply-side training fixes"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "work"
+      ]
+    },
+    "lab10": {
+      "summary": "A $100B envelope for 2030–39 pays for practical help into work, study, training or community life (transport, child care during training, accommodations, navigators, paid placements). It is an offer, never a condition on income, housing, health or food help.",
+      "basis": "decision",
+      "figures": [
+        "$100B",
+        "2030–39"
+      ],
+      "series": [],
+      "policy_ids": [
+        "LAB-10"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-labor.md",
+          "line": 281,
+          "anchor": "A $100B FY2030–39 working envelope for practical access to employment, education, training and community participation."
+        },
+        {
+          "path": "domains/domain-labor.md",
+          "line": 281,
+          "anchor": "Supports include transport, child care during training, accommodations, navigators and paid placements."
+        },
+        {
+          "path": "domains/domain-labor.md",
+          "line": 281,
+          "anchor": "Participation is an offer, not a work condition on income, housing, health or food assistance."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "work"
+      ]
+    },
+    "apprentice": {
+      "summary": "One apprenticeship expansion for construction, energy and care, including 450,000 construction apprentices.",
+      "basis": "design",
+      "figures": [
+        "450,000"
+      ],
+      "series": [],
+      "policy_ids": [
+        "LAB-8"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-labor.md",
+          "line": 135,
+          "anchor": "Bill Book 12's 450,000 construction apprentices"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "work"
+      ]
+    },
+    "ai5": {
+      "summary": "When an agency uses an algorithm to decide or shape a benefit, tax, immigration or enforcement decision, people get notice, a plain explanation, human review on request and an appeal.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "AI-5"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-ai.md",
+          "line": 120,
+          "anchor": "gives notice, a plain-language explanation, human review on request and an appeal"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "work",
+        "capacity"
+      ]
+    },
+    "climate-goal": {
+      "summary": "The project’s climate benchmark: net zero by 2050 and net greenhouse gases 61–66% below 2005 by 2035.",
+      "basis": "decision",
+      "figures": [
+        "2050",
+        "61-66%",
+        "2005",
+        "2035"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 530,
+          "anchor": "net zero by 2050 and 61-66% below 2005 in net greenhouse gases by 2035"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate",
+        "paying"
+      ]
+    },
+    "package-a": {
+      "summary": "In the carbon model, the recommended climate portfolio reaches 48% below 2005 in 2035 and 74% in 2050: short of the benchmark.",
+      "basis": "model",
+      "figures": [
+        "48%",
+        "2005",
+        "2035",
+        "74%",
+        "2050"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CLI-3",
+        "CLI-6"
+      ],
+      "sources": [
+        {
+          "path": "sources/climate-portfolio-allocation.md",
+          "line": 38,
+          "anchor": "In the model Package A reaches 48% below 2005 in 2035, 63% in 2040 and 74% in 2050"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "intl-floor": {
+      "summary": "Emissions cuts bought abroad count toward the 2035 benchmark only once domestic cuts reach 50% below 2005, and never toward net zero.",
+      "basis": "decision",
+      "figures": [
+        "2035",
+        "50%",
+        "2005"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 552,
+          "anchor": "Verified mitigation results purchased abroad count only above a 50% domestic floor."
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 552,
+          "anchor": "none count unless domestic reductions reach 50% below 2005"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 552,
+          "anchor": "international mitigation counts toward the 2035 benchmark, within limits."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "fee-path": {
+      "summary": "A carbon fee of $25 a ton in 2030, rising to $150 by 2037; gasoline and diesel are exempt because the transportation plan prices them.",
+      "basis": "decision",
+      "figures": [
+        "$25",
+        "2030",
+        "$150",
+        "2037"
+      ],
+      "series": [],
+      "policy_ids": [
+        "REV-C1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-climate.md",
+          "line": 85,
+          "anchor": "$25 a ton in 2030 rising to $150 by 2037 (D7 as amended Oct 26)"
+        },
+        {
+          "path": "domains/domain-climate.md",
+          "line": 9,
+          "anchor": "with gasoline and diesel exempt"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate",
+        "paying"
+      ]
+    },
+    "dividend-design": {
+      "summary": "80% of the fee comes back as an equal Climate Dividend for every adult, paid quarterly, with the first payment in early 2030 before prices rise. The child benefit covers children.",
+      "basis": "design",
+      "figures": [
+        "80%",
+        "2030"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CLI-2"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-climate.md",
+          "line": 20,
+          "anchor": "80% of the domestic carbon fee returned per adult, quarterly, with the first payment before the fee reaches prices"
+        },
+        {
+          "path": "domains/domain-climate.md",
+          "line": 90,
+          "anchor": "The first payment goes out in early 2030, before the fee reaches retail prices."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate",
+        "paying"
+      ]
+    },
+    "dividend-series": {
+      "summary": "Modeled Climate Dividend per adult, nominal dollars: $195 in 2030, rising to $845 in 2037 when the fee reaches $150, then near that level through 2040.",
+      "basis": "model",
+      "figures": [
+        "$195",
+        "2030",
+        "$845",
+        "2037",
+        "$150",
+        "2040"
+      ],
+      "series": [
+        [
+          2030,
+          195
+        ],
+        [
+          2031,
+          268
+        ],
+        [
+          2032,
+          334
+        ],
+        [
+          2033,
+          463
+        ],
+        [
+          2034,
+          578
+        ],
+        [
+          2035,
+          681
+        ],
+        [
+          2036,
+          769
+        ],
+        [
+          2037,
+          845
+        ],
+        [
+          2038,
+          843
+        ],
+        [
+          2039,
+          844
+        ],
+        [
+          2040,
+          847
+        ]
+      ],
+      "policy_ids": [
+        "CLI-2"
+      ],
+      "sources": [
+        {
+          "path": "index/climate-carbon-model.md",
+          "line": 65,
+          "anchor": "| 2030 | 25 | 66 | 4,148 | 56% | 195 | 390 |\n| 2031 | 36 | 91 | 4,030 | 59% | 268 | 536 |\n| 2032 | 46 | 114 | 3,902 | 63% | 334 | 669 |\n| 2033 | 67 | 158 | 3,765 | 67% | 463 | 925 |\n| 2034 | 88 | 198 | 3,626 | 71% | 578 | 1,157 |\n| 2035 | 109 | 234 | 3,483 | 75% | 681 | 1,362 |\n| 2036 | 129 | 264 | 3,333 | 79% | 769 | 1,538 |\n| 2037 | 150 | 291 | 3,181 | 82% | 845 | 1,690 |\n| 2038 | 158 | 290 | 3,038 | 86% | 843 | 1,685 |\n| 2039 | 165 | 291 | 2,906 | 88% | 844 | 1,687 |\n| 2040 | 174 | 292 | 2,783 | 91% | 847 | 1,695 |"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "carbon-households": {
+      "summary": "Carbon fee and dividend alone, per household in 2035 (2025 dollars): the lowest fifth gains about $97, the middle fifth is about even (−$7), and the top fifth pays about $1,008. Other parts of the agenda are counted in the separate household test.",
+      "basis": "model",
+      "figures": [
+        "2035",
+        "2025",
+        "$97",
+        "$7",
+        "$1,008"
+      ],
+      "series": [],
+      "policy_ids": [
+        "REV-C1",
+        "CLI-2"
+      ],
+      "sources": [
+        {
+          "path": "index/climate-carbon-model.md",
+          "line": 89,
+          "anchor": "## Households in 2035 (the carbon channel alone)\n\nPer household in 2025 dollars"
+        },
+        {
+          "path": "index/climate-carbon-model.md",
+          "line": 96,
+          "anchor": "| Lowest 20 percent | 1.3 | 548 | +712 | -87 | -102 | -426 | +97 |"
+        },
+        {
+          "path": "index/climate-carbon-model.md",
+          "line": 98,
+          "anchor": "| Third 20 percent | 2.0 | 548 | +1,096 | -138 | -145 | -820 | -7 |"
+        },
+        {
+          "path": "index/climate-carbon-model.md",
+          "line": 100,
+          "anchor": "| Highest 20 percent | 2.4 | 548 | +1,315 | -238 | -190 | -1,896 | -1,008 |"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "durability": {
+      "summary": "Even if the fee were repealed in 2033, the credits, clean-electricity standard and rules alone would still give 73% clean electricity in 2035 in the model.",
+      "basis": "model",
+      "figures": [
+        "2033",
+        "73%",
+        "2035"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CLI-3"
+      ],
+      "sources": [
+        {
+          "path": "index/climate-carbon-model.md",
+          "line": 55,
+          "anchor": "if the fee were repealed in 2033, the credits, standard and rules alone would still give 73% clean electricity in 2035"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "grid": {
+      "summary": "The binding limit on clean power is grid access, not price. The proposed first grid tranche mixes $25B of grants, $100B of direct loans and $20B of capacity contracts, at about $32B of budget cost.",
+      "basis": "estimate",
+      "figures": [
+        "$25B",
+        "$100B",
+        "$20B",
+        "$32B"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CLI-6"
+      ],
+      "sources": [
+        {
+          "path": "index/climate-carbon-model.md",
+          "line": 55,
+          "anchor": "The limit is grid access, not price"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 532,
+          "anchor": "($25B grants, $100B direct loans, $20B capacity contracts; about $32B deficit cost)"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "disaster": {
+      "summary": "Disaster preparation priced at about $100B over 2030–39 for the core package (mitigation fund, flood-insurance help, wildfire and heat work, faster survivor aid), plus about $54B for insurance help and voluntary buyouts. 2025 dollars, planning estimates.",
+      "basis": "estimate",
+      "figures": [
+        "$100B",
+        "2030-39",
+        "$54B",
+        "2025"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CLI-7"
+      ],
+      "sources": [
+        {
+          "path": "sources/climate-portfolio-disaster-resilience.md",
+          "line": 11,
+          "anchor": "Price CLI-7 as a core package of about $100B over 2030-39** ($61-151B, 2025 dollars"
+        },
+        {
+          "path": "sources/climate-portfolio-disaster-resilience.md",
+          "line": 20,
+          "anchor": "Fund the fuller tier too, about $54B"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "cli7c": {
+      "summary": "A public reinsurance backstop for home insurance covers losses between a 1-in-100 and 1-in-250 year event, only in states with modern building codes and risk disclosure; its $75–150B contingent liability is disclosed in every fiscal test.",
+      "basis": "decision",
+      "figures": [
+        "1-in-100",
+        "1-in-250",
+        "$75-150B"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CLI-7C",
+        "CLI-8"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 544,
+          "anchor": "between a state-level 1-in-100 and 1-in-250 year loss"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 544,
+          "anchor": "It is available only in states with CLI-8 codes and disclosure"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 544,
+          "anchor": "plus a disclosed $75-150B contingent liability in every D4 test."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "avoided": {
+      "summary": "Losses that preparation may avoid are not counted as budget savings.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "CLI-7"
+      ],
+      "sources": [
+        {
+          "path": "sources/climate-portfolio-disaster-resilience.md",
+          "line": 119,
+          "anchor": "Avoided losses are not counted as savings."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "d1": {
+      "summary": "The program is planned for a favorable Senate of 52–54 seats and tested against 51.",
+      "basis": "decision",
+      "figures": [
+        "52-54",
+        "51"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 22,
+          "anchor": "Plan for 52-54 seats; test every item against 51"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "adverse": {
+      "summary": "The project is developing a comparison under a hostile administration and uneven state cooperation, to test which reforms remain worthwhile when power changes hands.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 459,
+          "anchor": "Develop the hostile-administration/uneven-state-cooperation comparator"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "dem1": {
+      "summary": "A federal voting floor: early voting, no-excuse mail voting, same-day registration, automatic registration wherever people deal with federal benefits, and paper ballots with risk-limiting audits.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "DEM-1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-democracy.md",
+          "line": 75,
+          "anchor": "early voting, no-excuse mail voting, same-day registration, automatic registration **at every federal benefit-delivery point"
+        },
+        {
+          "path": "domains/domain-democracy.md",
+          "line": 75,
+          "anchor": "paper ballots with risk-limiting audits"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "dem1-legal": {
+      "summary": "Restoring the Voting Rights Act’s results test faces serious constitutional risk after the Supreme Court’s Callais decision; no guarantee that it survives is claimed.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "DEM-1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-democracy.md",
+          "line": 84,
+          "anchor": "no guarantee of judicial survival is claimed"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "int5": {
+      "summary": "A 6:1 public match on small contributions, paired with voluntary spending limits.",
+      "basis": "design",
+      "figures": [
+        "6:1"
+      ],
+      "series": [],
+      "policy_ids": [
+        "INT-5"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-integrity.md",
+          "line": 76,
+          "anchor": "A 6:1 federal match on small contributions, paired with voluntary spending caps"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "int1": {
+      "summary": "A ban on individual stock ownership and trading for members of Congress, their spouses and dependent children, the President, the Vice President and the Cabinet.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "INT-1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-integrity.md",
+          "line": 46,
+          "anchor": "A ban on individual stock ownership and trading for members of Congress, their spouses and dependent children, extended to the President, Vice President and Cabinet."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "crt16": {
+      "summary": "The project removed an automatic court-expansion trigger and kept term limits, ethics rules, neutral case assignment and a fresh democratic decision about any later structural change.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "CRT-15"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 459,
+          "anchor": "remove CRT-16's automatic court-expansion trigger; retain prospective term limits, constitutional amendment development, ethics, neutral assignment and a fresh democratic decision on any later structural response"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "dem18": {
+      "summary": "Citizens’ assemblies: Congress may refer up to three questions each term to randomly selected national assemblies, with a guaranteed committee hearing on each recommendation; the recommendations are advisory.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "DEM-18"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-democracy.md",
+          "line": 276,
+          "anchor": "Congress may refer up to three questions per Congress to national assemblies, with a guaranteed committee hearing on each recommendation. The recommendations are advisory"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "dem17": {
+      "summary": "A capital fund for libraries, parks and community centers, weighted to places with less money and matched with a maintenance endowment so buildings are not opened and then abandoned.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "DEM-17"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-democracy.md",
+          "line": 265,
+          "anchor": "weighted toward places with low fiscal capacity, with a maintenance-endowment match so that buildings are not opened and then abandoned"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "democracy"
+      ]
+    },
+    "fema-cuts": {
+      "summary": "The 2025 cuts reduced FEMA’s staff by 17% and cancelled its main pre-disaster resilience grants.",
+      "basis": "observed",
+      "figures": [
+        "2025",
+        "17%"
+      ],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/climate-portfolio-disaster-resilience.md",
+          "line": 26,
+          "anchor": "the 2025 cuts (FEMA staff down 17%, BRIC cancelled)"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "capacity"
+      ]
+    },
+    "surge": {
+      "summary": "The one-time agency rebuild was cut to about $105B from $300B once each named build was priced; priced need is about $59.8B (range $31–103B). It was never sized from needs, so this is not a capacity cut.",
+      "basis": "decision",
+      "figures": [
+        "$105B",
+        "$300B",
+        "$59.8B",
+        "$31-103B"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CAP-7S"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 510,
+          "anchor": "CAP-7S, the agency rebuild surge, is about $105B lifetime, down from $300B"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 511,
+          "anchor": "surge need is about $59.8B (range $31-103B)"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 514,
+          "anchor": "The surge was never sized from needs."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "capacity"
+      ]
+    },
+    "sustained": {
+      "summary": "The sustained capacity increase stays at $300B over 2030–39 as a planning ceiling; estimated need is $254.6B at the midpoint and $355.1B in the high case, so adequacy is conditional.",
+      "basis": "estimate",
+      "figures": [
+        "$300B",
+        "2030-39",
+        "$254.6B",
+        "$355.1B"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CAP-7"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 521,
+          "anchor": "stays $300B over FY2030-39"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 521,
+          "anchor": "Need is $254.6B at the midpoint and $355.1B at the high case, so adequacy is conditional."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "capacity"
+      ]
+    },
+    "irs": {
+      "summary": "The IRS adds about 24,000 enforcement staff, hired about 8,000 a year. Expected collections of about $0.13–0.14T over the decade do not support the earlier $0.2T assumption, so the project counts $250B less than its original estimate.",
+      "basis": "decision",
+      "figures": [
+        "24,000",
+        "8,000",
+        "$0.13-0.14T",
+        "$0.2T",
+        "$250B"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CAP-7",
+        "REV-G8"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 468,
+          "anchor": "+24,000 FTE"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 468,
+          "anchor": "roughly 8,000 a year"
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 471,
+          "anchor": "yields about $0.13-0.14T of REV-G8 inside the window (range $0.085-0.18T). That is not enough to support $0.2T."
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 472,
+          "anchor": "The matching receipt-risk allowance is therefore **$250B**"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "capacity"
+      ]
+    },
+    "remedy": {
+      "summary": "Every program must provide notice, an appeal, accessible help and continuity of essential benefits when delivery fails.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 446,
+          "anchor": "Require notice, appeal, accessible help and continuity of essential benefits when delivery fails."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "capacity"
+      ]
+    },
+    "d4b": {
+      "summary": "The fiscal rule: permanent programs are paid for at maturity, in FY2040 and every later year; time-limited investments may be borrowed for inside an envelope of 0.5% of GDP through 2034, tapering to zero by 2040.",
+      "basis": "decision",
+      "figures": [
+        "2040",
+        "0.5%",
+        "2034"
+      ],
+      "series": [],
+      "policy_ids": [
+        "D4-B"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 25,
+          "anchor": "permanent programs paid for at maturity (FY2040 and every later year); time-limited investments borrowed inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    },
+    "no-dynamic": {
+      "summary": "No revenue from hoped-for faster growth is counted, and the Social Security, Medicare hospital and highway trust funds are kept whole.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "D4-B"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 120,
+          "anchor": "No dynamic revenue is counted."
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 120,
+          "anchor": "Social Security, Medicare HI and the Highway Trust Fund are kept whole"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    },
+    "d3": {
+      "summary": "The fairness test: for every income group below the top, combined taxes, fees and benefits must leave households better off on net.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "D3"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 100,
+          "anchor": "For every income group below the top, the agenda's combined taxes, fees and benefits must leave households better off on net"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    },
+    "q4": {
+      "summary": "In the current central financing case, the fourth income fifth averages about −$2,906 a year in FY2039, so the test is not yet passed. Quintile averages, not individual results; the financing schedules are illustrative.",
+      "basis": "model",
+      "figures": [
+        "$2,906",
+        "2039"
+      ],
+      "series": [],
+      "policy_ids": [
+        "D3"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 545,
+          "anchor": "The mixed recovery case still has the fourth quintile at −$2,906 in FY2039; the revenue settlement must address it."
+        },
+        {
+          "path": "index/recovery-budget.md",
+          "line": 48,
+          "anchor": "| mixed | 15,927 | 12,910 | 6,662 | -2,906 | -77,221 |"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    },
+    "schedules": {
+      "summary": "Neither complete illustrative tax schedule has been selected; exact financing remains open.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 450,
+          "anchor": "Neither complete illustrative tax schedule, neither universal-credit amount"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    },
+    "rebalance": {
+      "summary": "Financing starts by rebalancing revenue after tax cuts that benefited wealthy households and large corporations, rather than making broad new contributions the automatic answer.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 489,
+          "anchor": "begin with rebalancing federal revenue after tax reductions benefiting wealthy households and large corporations"
+        },
+        {
+          "path": "sources/revenue-rebalancing-and-sustainable-agenda.md",
+          "line": 9,
+          "anchor": "I would avoid making broad new income contributions the automatic residual"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    },
+    "counted": {
+      "summary": "Receipts already counted are being checked for overlap; the same revenue cannot be promised twice.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "sources/revenue-rebalancing-and-sustainable-agenda.md",
+          "line": 11,
+          "anchor": "We cannot promise their receipts twice or treat speculative upside as the foundation of an essential benefit."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    },
+    "ss": {
+      "summary": "The 2026 Trustees put Social Security’s 75-year gap at 4.42% of taxable payroll, with the combined trust funds depleted in 2034, when 83% of benefits would be payable. The project closes the gap with high-income base reforms first while protecting benefits.",
+      "basis": "observed",
+      "figures": [
+        "2026",
+        "75",
+        "4.42%",
+        "2034",
+        "83%"
+      ],
+      "series": [],
+      "policy_ids": [
+        "SS-5"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 191,
+          "anchor": "The 2026 Trustees put the 75-year gap at 4.42% of taxable payroll and the combined trust funds' depletion in 2034, when 83% of benefits are payable."
+        },
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 448,
+          "anchor": "Complete high-income Social Security base reforms including SS-5"
+        }
+      ],
+      "external": [
+        {
+          "label": "SSA, Summary of the 2026 Trustees Reports",
+          "url": "https://www.ssa.gov/oact/trsum/",
+          "checked": "2026-10-27"
+        }
+      ],
+      "essays": [
+        "paying"
+      ]
+    },
+    "recovery": {
+      "summary": "An opening recovery phase: explain that repair takes time, show material improvements quickly, and carry out longer-term reforms.",
+      "basis": "decision",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 419,
+          "anchor": "explain that repair takes time, demonstrate material improvements quickly, and articulate and execute longer-term fundamental reforms"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    },
+    "surge-timing": {
+      "summary": "Agency rebuild money is legally available on enactment of the first budget bill, targeted for FY2029.",
+      "basis": "decision",
+      "figures": [
+        "2029"
+      ],
+      "series": [],
+      "policy_ids": [
+        "CAP-7S"
+      ],
+      "sources": [
+        {
+          "path": "governing/project-2050-governing-decisions.md",
+          "line": 512,
+          "anchor": "Legal availability on enactment (R1, FY2029)"
+        }
+      ],
+      "external": [],
+      "essays": [
+        "capacity",
+        "paying"
+      ]
+    },
+    "credits-stepdown": {
+      "summary": "The project’s climate analysis recommends that clean-energy credits step down on a timeline as standards and the grid take over, rather than run indefinitely; this is a recommendation pending integration into the shared model.",
+      "basis": "direction",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "CLI-3"
+      ],
+      "sources": [
+        {
+          "path": "sources/climate-portfolio-allocation.md",
+          "line": 39,
+          "anchor": "Yes, the credits should step down on a timeline."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "climate"
+      ]
+    },
+    "irs-delivery": {
+      "summary": "The IRS build that pays the Climate Dividend also delivers the monthly child benefit.",
+      "basis": "design",
+      "figures": [],
+      "series": [],
+      "policy_ids": [
+        "CLI-2",
+        "FAM-1"
+      ],
+      "sources": [
+        {
+          "path": "domains/domain-climate.md",
+          "line": 91,
+          "anchor": "The same IRS build delivers FAM-1's monthly payments."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "capacity"
+      ]
+    },
+    "downside": {
+      "summary": "In the project’s downside case, with weaker receipts, debt no longer stabilizes as a share of the economy, even with the illustrative financing.",
+      "basis": "model",
+      "figures": [],
+      "series": [],
+      "policy_ids": [],
+      "sources": [
+        {
+          "path": "index/recovery-budget.md",
+          "line": 11,
+          "anchor": "| mixed_downside | 124.9% | 137.6% | 5.59% | False | 5.35 |"
+        },
+        {
+          "path": "index/recovery-budget.md",
+          "line": 5,
+          "anchor": "No D3/D4 or all-fund solvency certification."
+        }
+      ],
+      "external": [],
+      "essays": [
+        "paying"
+      ]
+    }
+  },
+  "essays": [
+    {
+      "id": "security",
+      "title": "A floor you can stand on",
+      "url": "story.html#security",
+      "policy_ids": [
+        "FAM-1",
+        "FAM-2",
+        "FAM-3",
+        "HLT-1",
+        "HLT-2",
+        "HLT-3",
+        "HLT-4"
+      ]
+    },
+    {
+      "id": "housing",
+      "title": "A home you can keep",
+      "url": "story.html#housing",
+      "policy_ids": [
+        "HOU-4",
+        "HOU-4D",
+        "HOU-3",
+        "HOU-5",
+        "HOU-6"
+      ]
+    },
+    {
+      "id": "work",
+      "title": "Work that leaves room for a life",
+      "url": "story.html#work",
+      "policy_ids": [
+        "LAB-1",
+        "LAB-3",
+        "LAB-4",
+        "LAB-8",
+        "LAB-10",
+        "AI-4",
+        "AI-5"
+      ]
+    },
+    {
+      "id": "climate",
+      "title": "Cleaner power, and preparing for what is coming",
+      "url": "story.html#climate",
+      "policy_ids": [
+        "REV-C1",
+        "CLI-2",
+        "CLI-3",
+        "CLI-6",
+        "CLI-7",
+        "CLI-7C",
+        "CLI-8"
+      ]
+    },
+    {
+      "id": "democracy",
+      "title": "Power that answers to people",
+      "url": "story.html#democracy",
+      "policy_ids": [
+        "DEM-1",
+        "INT-5",
+        "INT-1",
+        "CRT-15",
+        "DEM-18",
+        "DEM-17"
+      ]
+    },
+    {
+      "id": "capacity",
+      "title": "A government that can deliver",
+      "url": "story.html#capacity",
+      "policy_ids": [
+        "CAP-7S",
+        "CAP-7",
+        "REV-G8",
+        "AI-5"
+      ]
+    },
+    {
+      "id": "paying",
+      "title": "Paying for it honestly",
+      "url": "story.html#paying",
+      "policy_ids": [
+        "D4-B",
+        "D3",
+        "SS-5",
+        "REV-G8"
+      ]
+    }
+  ],
+  "policies": {
+    "FAM-1": {
+      "name": "Monthly support for raising children",
+      "path": "domains/domain-family.md",
+      "marker": "## FAM-1. Child Tax Credit"
+    },
+    "FAM-2": {
+      "name": "Affordable child care and pre-K",
+      "path": "domains/domain-family.md",
+      "marker": "## FAM-2. Child care and universal pre-K"
+    },
+    "FAM-3": {
+      "name": "Paid time to care",
+      "path": "domains/domain-family.md",
+      "marker": "## FAM-3. Paid family and medical leave"
+    },
+    "HLT-1": {
+      "name": "Restoring affordable coverage",
+      "path": "domains/domain-health.md",
+      "marker": "| HLT-1 | Restore |"
+    },
+    "HLT-2": {
+      "name": "More complete Medicare coverage",
+      "path": "domains/domain-health.md",
+      "marker": "| HLT-2 | Medicare upgrades |"
+    },
+    "HLT-3": {
+      "name": "A public health-insurance option",
+      "path": "domains/domain-health.md",
+      "marker": "| HLT-3 | Public option guarantee |"
+    },
+    "HLT-4": {
+      "name": "Care at home and a stronger care workforce",
+      "path": "domains/domain-health.md",
+      "marker": "| HLT-4 | Medicaid, long-term care, safety net |"
+    },
+    "HOU-3": {
+      "name": "Building more homes",
+      "path": "domains/domain-housing.md",
+      "marker": "## HOU-3. Construction capital"
+    },
+    "HOU-4": {
+      "name": "Help paying the rent",
+      "path": "domains/domain-housing.md",
+      "marker": "## HOU-4. Rental assistance"
+    },
+    "HOU-4D": {
+      "name": "Rental help beyond the first million awards",
+      "path": "domains/domain-housing.md",
+      "marker": "**October 26 approved extension: HOU-4D.**"
+    },
+    "HOU-5": {
+      "name": "Repairing public housing",
+      "path": "domains/domain-housing.md",
+      "marker": "## HOU-5. Public housing repair"
+    },
+    "HOU-6": {
+      "name": "Rewarding places that allow more homes",
+      "path": "domains/domain-housing.md",
+      "marker": "## HOU-6. Housing Supply Fund and zoning conditions"
+    },
+    "LAB-1": {
+      "name": "A stronger voice at work",
+      "path": "domains/domain-labor.md",
+      "marker": "## LAB-1. PRO Act core"
+    },
+    "LAB-3": {
+      "name": "Fair standards for care and service work",
+      "path": "domains/domain-labor.md",
+      "marker": "## LAB-3. Sectoral standards"
+    },
+    "LAB-4": {
+      "name": "A wage you can live on",
+      "path": "domains/domain-labor.md",
+      "marker": "## LAB-4. Living wage"
+    },
+    "LAB-8": {
+      "name": "Apprenticeships into useful work",
+      "path": "domains/domain-labor.md",
+      "marker": "## LAB-8. Apprenticeships"
+    },
+    "LAB-10": {
+      "name": "Practical help into work, study or training",
+      "path": "domains/domain-labor.md",
+      "marker": "## LAB-10. Participation support (approved October 26)"
+    },
+    "AI-4": {
+      "name": "Support when your job changes or disappears",
+      "path": "domains/domain-ai.md",
+      "marker": "## AI-4. AI and work"
+    },
+    "AI-5": {
+      "name": "Human review of automated public decisions",
+      "path": "domains/domain-ai.md",
+      "marker": "## AI-5. Government use"
+    },
+    "REV-C1": {
+      "name": "A price on carbon pollution",
+      "path": "domains/domain-climate.md",
+      "marker": "**What this file owns.** The fee itself is REV-C1"
+    },
+    "CLI-2": {
+      "name": "A climate dividend for households",
+      "path": "domains/domain-climate.md",
+      "marker": "## CLI-2. The Climate Dividend (delivery of REV-C1)"
+    },
+    "CLI-3": {
+      "name": "A cleaner electricity system",
+      "path": "domains/domain-climate.md",
+      "marker": "## CLI-3. Clean Energy Standard and permitting-law fixes"
+    },
+    "CLI-6": {
+      "name": "A stronger, more accountable grid",
+      "path": "domains/domain-climate.md",
+      "marker": "## CLI-6. Grid and utility statute"
+    },
+    "CLI-7": {
+      "name": "Disaster preparation and recovery",
+      "path": "domains/domain-climate.md",
+      "marker": "## CLI-7. Disaster response and flood insurance"
+    },
+    "CLI-7C": {
+      "name": "A public backstop for home insurance",
+      "path": "domains/domain-climate.md",
+      "marker": "**Option CLI-7C (durability session and Talarico scenario): a federal reinsurance backstop tied to codes.**"
+    },
+    "CLI-8": {
+      "name": "Building with climate risk in mind",
+      "path": "domains/domain-climate.md",
+      "marker": "## CLI-8. Climate risk and where federal money builds"
+    },
+    "DEM-1": {
+      "name": "Fair access to elections",
+      "path": "domains/domain-democracy.md",
+      "marker": "## DEM-1. The electoral and civil-rights package"
+    },
+    "DEM-17": {
+      "name": "Libraries, parks and places to gather",
+      "path": "domains/domain-democracy.md",
+      "marker": "### DEM-17. Public space, libraries and community infrastructure"
+    },
+    "DEM-18": {
+      "name": "A public voice in public decisions",
+      "path": "domains/domain-democracy.md",
+      "marker": "### DEM-18. Citizens' assemblies"
+    },
+    "INT-1": {
+      "name": "Limits on officials’ financial conflicts",
+      "path": "domains/domain-integrity.md",
+      "marker": "## INT-1. Stock ownership and trading ban"
+    },
+    "INT-5": {
+      "name": "More influence for small donors",
+      "path": "domains/domain-integrity.md",
+      "marker": "## INT-5. Small-dollar matching"
+    },
+    "CRT-15": {
+      "name": "Term limits and fair rules for the courts",
+      "path": "domains/domain-courts.md",
+      "marker": "### CRT-15. Judicial term limits"
+    },
+    "CAP-7S": {
+      "name": "Rebuilding the agencies that deliver",
+      "path": "domains/domain-capacity.md",
+      "marker": "### CAP-7. The agency rebuild line"
+    },
+    "CAP-7": {
+      "name": "Public institutions with the capacity to serve",
+      "path": "domains/domain-capacity.md",
+      "marker": "| CAP-7 | Sustained capacity increase |"
+    },
+    "REV-G8": {
+      "name": "Collecting taxes already owed",
+      "path": "governing/project-2050-governing-decisions.md",
+      "marker": "## IRS enforcement expanded and capacity review accepted, October 26"
+    },
+    "SS-5": {
+      "name": "Keeping Social Security whole",
+      "path": "governing/project-2050-governing-decisions.md",
+      "marker": "### D8. Social Security: expand first, or fix solvency first?"
+    },
+    "D4-B": {
+      "name": "The rule for paying for it",
+      "path": "governing/project-2050-governing-decisions.md",
+      "marker": "### D4. What fiscal rule do we hold ourselves to?"
+    },
+    "D3": {
+      "name": "The test that the middle comes out ahead",
+      "path": "governing/project-2050-governing-decisions.md",
+      "marker": "### D3. What does the $400K pledge cover?"
+    }
+  },
+  "left_out": [
+    {
+      "claim": "That the whole program is fully financed.",
+      "why": "The blueprint forbids it, and the current central case fails the project’s own fairness test for the fourth income fifth. The last essay says so plainly."
+    },
+    {
+      "claim": "That middle-income households come out ahead.",
+      "why": "The aggregate quintile screen is not a household promise, and the current central case does not pass it. Only the carbon channel’s narrower result appears, labeled as one channel."
+    },
+    {
+      "claim": "The FY2040 general-fund gap and debt-to-GDP paths.",
+      "why": "These depend on unselected illustrative tax schedules and, for the recovery budget, a climate package not yet integrated. The blueprint keeps the gap in the analysis companion rather than the public argument."
+    },
+    {
+      "claim": "That climate action makes a place safe.",
+      "why": "Listed as do-not-publish in the blueprint. The climate essay states residual risk explicitly."
+    },
+    {
+      "claim": "Dates as household receipt dates.",
+      "why": "Dates in the timeline are planned starting points under the project’s favorable planning scenario, not enactment, operational availability or reach."
+    },
+    {
+      "claim": "Program cost totals (for example, health or family ten-year costs).",
+      "why": "Many are rough planning ranges pending a common-baseline score; the essays use envelopes only where a decision fixed them and avoid summing across programs."
+    },
+    {
+      "claim": "Political forecasts, including the November 2026 results.",
+      "why": "The project rebaselines after actual results exist, and no model-derived political certainty is claimed."
+    },
+    {
+      "claim": "Scenario-model figures from the authored stress-test narrative.",
+      "why": "That narrative is a hypothesis generator, not evidence. The work essay cites only its qualitative design warning."
+    }
+  ]
+}
