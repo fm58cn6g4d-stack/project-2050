@@ -142,5 +142,5 @@ Source hashes (SHA-256):
 - `build/carbon-config.json`: `58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608`
 - `index/tools/climate-portfolio/packages.py`: `6be178873b30f8a5c72d7b7855dfd8315c14e2add9becb734ad4191233a606a1`
 - `index/tools/climate-portfolio/packages.json`: `3dba81388e5663010c2f685e549f9b03ff343c13d72ba13cedc00e03aa42957e`
-- `index/tools/climate-portfolio/pricing.py`: `e8e85c9a7c4297eee42e339bd416d095948bca8d8adc97974aaef991229bcb25`
+- `index/tools/climate-portfolio/pricing.py`: `3e9e6d6437a15ce58c148d9ca3c09300953714c791d2aef934f7c0c1466ac229`
 - `index/tools/climate-portfolio/pricing.json`: `a3bf9d977ee6a6e8a8f104419111a8d334939878c9903edddc8de5eff78b43ad`
