@@ -128,5 +128,4 @@ code { overflow-wrap:anywhere }
 footer.site { border-top:1px solid var(--line); padding:24px 0 40px; font-size:.88rem; color:var(--muted); line-height:1.5 }
 @media (prefers-reduced-motion:no-preference) { html { scroll-behavior:smooth } }
 @media print { header.site nav, .essay-nav, .skip { display:none } .essay { break-before:page } }
-.cite + .cite::before { content:","; color:var(--accent-ink) }
 .toc a { align-content:start }

@@ -29,6 +29,7 @@ REGISTER_MD = ROOT / 'sources/public-story-claim-register.md'
 LOCK = HERE / 'anchors.lock.json'
 REPO = 'https://github.com/fm58cn6g4d-stack/project-2050/blob/'
 MARK = re.compile(r'\{c:([a-z0-9-]+)\}')
+MARK_RUN = re.compile(r'(?:\{c:[a-z0-9-]+\})+')
 NUMBER = re.compile(r'\d+(?:[.,]\d+)*')
 # Figures that are part of the project's name rather than claims.
 FREE_NUMBERS = {'2050'}
@@ -234,16 +235,20 @@ def build(content=None, root=ROOT, strict=True):
     for n, essay in enumerate(essays):
         order = []  # claim ids in order of first citation within this essay
 
-        def cite(match):
-            cid = match.group(1)
+        def number(cid):
             if cid not in order:
                 order.append(cid)
-            k = order.index(cid) + 1
-            return f'<sup class="cite"><a href="#{essay["id"]}-n{k}" aria-label="Evidence note {k}">{k}</a></sup>'
+            return order.index(cid) + 1
+
+        def cite(match):
+            # One superscript per run of adjacent markers, e.g. notes 4, 5.
+            ks = [number(cid) for cid in MARK.findall(match.group(0))]
+            links = ','.join(f'<a href="#{essay["id"]}-n{k}" aria-label="Evidence note {k}">{k}</a>' for k in ks)
+            return f'<sup class="cite">{links}</sup>'
 
         def para(text):
             # Escape prose, attach each marker to the preceding word, then turn markers into note links.
-            return MARK.sub(cite, esc(re.sub(r'\s+(?=\{c:)', '', text)))
+            return MARK_RUN.sub(cite, esc(re.sub(r'\s+(?=\{c:)', '', text)))
 
         def figures(diagram_list):
             out = ''

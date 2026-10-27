@@ -1263,7 +1263,7 @@
       ]
     },
     "crt16": {
-      "summary": "The project removed an automatic court-expansion trigger and kept term limits, ethics rules, neutral case assignment and a fresh democratic decision about any later structural change.",
+      "summary": "An earlier draft would have expanded the Supreme Court automatically if it struck down term limits. The project removed that trigger and kept term limits, ethics rules, neutral case assignment and a fresh democratic decision about any later structural change.",
       "basis": "decision",
       "figures": [],
       "series": [],
@@ -1275,6 +1275,11 @@
           "path": "governing/project-2050-governing-decisions.md",
           "line": 459,
           "anchor": "remove CRT-16's automatic court-expansion trigger; retain prospective term limits, constitutional amendment development, ethics, neutral assignment and a fresh democratic decision on any later structural response"
+        },
+        {
+          "path": "sources/project-2050-strategic-assessment-2026-10-25.md",
+          "line": 105,
+          "anchor": "automatic expansion response to judicial invalidation of term limits"
         }
       ],
       "external": [],

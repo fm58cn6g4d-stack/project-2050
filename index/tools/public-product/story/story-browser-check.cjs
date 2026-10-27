@@ -39,13 +39,13 @@ const launch = process.env.PUBLIC_PRODUCT_BROWSER ? {executablePath: process.env
       assert.equal(await page.evaluate(() => document.activeElement.className), 'skip');
       assert.ok((await page.locator('.skip').boundingBox()).y >= 0);
       await page.keyboard.press('Enter');
-      assert.match(page.url(), /#essays$/);
+      await page.waitForURL(/#essays$/);
       // Reading order: a contents link brings its essay heading into view; a note link reaches its note.
       await page.locator('.toc a[href="#climate"]').click();
       const box = await page.locator('#climate-title').boundingBox();
       assert.ok(box && box.y >= -1 && box.y < height, `${name}: climate heading not in view`);
       await page.locator('#climate sup.cite a').first().click();
-      assert.match(page.url(), /#climate-n1$/);
+      await page.waitForURL(/#climate-n1$/);
       assert.ok(await page.locator('#climate-n1').isVisible());
       // The chart has a table view that opens from the keyboard.
       await page.locator('#dividend-chart summary').focus();
