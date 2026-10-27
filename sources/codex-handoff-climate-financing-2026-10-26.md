@@ -14,7 +14,7 @@
 | `index/data/inputs/ledger-bills.csv` | CLI-2 cost 1.32 / 1.52 / 1.68, own_revenue 1.90. |
 | `index/tools/test_ledger_rounding.py` | GF-base pin 5.99 → 5.88, with a comment. |
 | `index/tools/fiscal-recovery/comparison-rebase.json` (new) and `model.py` | The education bridge refuses changed comparison inputs. The two ledger files are rebased **explicitly**, with their sha256, reason and approval line. The guard accepts a changed hash only if it matches this file. Codex owns that bridge: keep the mechanism or replace it with your preferred rebase. |
-| `index/tools/strategic-review/test_analysis.py` | The corporate-route check now compares the **increment over DEC** (−$69.06B in FY2040 both before and after). The stored report was on the old baseline. `MANIFEST.sha256` in that folder is a historical record and was not re-hashed. |
+| `index/tools/strategic-review/test_analysis.py` | The corporate-route check now compares the **increment over DEC** (−$69.06B in FY2040 both before and after). The stored report was on the old baseline. `MANIFEST.sha256` in that folder, like `index/tools/fiscal-recovery/MANIFEST.sha256`, is a historical record and was not re-hashed. |
 | Headline docs | `domain-revenue.md`, `domain-climate.md`, `governing/project-2050-governing-decisions.md` (lines 100, 104, 136) and `index/revenue-assignment-audit.md` are updated to the regenerated figures. The check report shows 0 stale headlines and the same 5 reconcile rows as main. |
 | Regenerated outputs | `run-all.sh --write` regenerated recovery budget, fiscal-recovery model, ledger, incidence, long-term model, dedicated funds, carbon model and dashboards. `.github/scripts/run-checks.sh` passes. |
 
