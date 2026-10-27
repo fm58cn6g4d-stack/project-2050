@@ -284,7 +284,7 @@ def report(pr, d):
     C = bu['cases']
     f4 = lambda dct: ' / '.join(P.fmt(dct[k], 0, sign=True) for k in C)
     L += ['## Whole-package budget by account, with annual paths', '',
-          'Package A (with the approved $150-by-2037 price) plus the core and fuller disaster tiers, nominal $B. Four cases pair savings and costs consistently: '
+          'Package A (with the approved $150-by-2037 price) plus the core and fuller disaster tiers and the CLI-7C reinsurance backstop, nominal $B. Four cases pair savings and costs consistently: '
           '**favorable** (credit savings x1.33, low costs) / **central** / **conservative** (credit savings x0.67, the project rule until scored; central costs) / '
           '**unfavorable** (credit savings x0.67, high costs). Negative is a saving. Removal purchases (CLI-13) are kept outside the package and shown separately.', '',
           '**Accounts.** *General fund* items are paid without borrowing. *D4-B borrowing* covers time-limited capital. The *carbon channel* covers clean-industry contracts and forests, '
@@ -322,7 +322,7 @@ def report(pr, d):
           f"{' / '.join(P.fmt(v, 0, sign=True) for v in bu['payment'][o]['dividend_change_per_household_avg_2030_39'])} | "
           f"{' / '.join(P.fmt(v, 0, sign=True) for v in bu['payment'][o]['dividend_change_per_household_2050'])} |"
           for o in PAY_OPTIONS] + ['',
-          f"**Proposed: {pr['payment_rule']['proposed']}** ({pr['payment_rule']['status']}). {pr['payment_rule']['why']}", '',
+          f"**{'Decided' if pr['payment_rule']['status'].startswith('decided') else 'Proposed'}: {pr['payment_rule']['proposed']}** ({pr['payment_rule']['status']}). {pr['payment_rule']['why']}", '',
           f"**Removal purchases, outside the package.** About {r3(bu['removal_outside']['window_bn_2025'])} $B (2025 dollars) over 2030-39, rising to roughly {r3(bu['removal_outside']['run_rate_2050_bn_2025'])} $B a year by 2050 at "
           f"{r3(bu['removal_outside']['mt_2050'])} Mt. That continuing obligation needs its own financing decision and maturity test before it enters any selected package.", '']
     L += ['## Grid financing windows', '',
@@ -363,7 +363,7 @@ def report(pr, d):
     for t, v in D['tiers'].items():
         L.append(f"| {t} | {r3(v['ten'])} | {r3(v['nom'], 3)} | {r3(v['one'], 1)} |")
     g = D['unbudgeted_supplemental_gap_bn_yr']
-    L += ['', f"Core and full tiers by D4 class over 2030-39: permanent {r3(D['permanent_ten_year_bn'])} $B; time-limited capital {r3(D['time_limited_ten_year_bn'])} $B (2025 dollars). "
+    L += ['', f"Core, fuller and backstop (CLI-7C expected cost) tiers by D4 class over 2030-39: permanent {r3(D['permanent_ten_year_bn'])} $B; time-limited capital {r3(D['time_limited_ten_year_bn'])} $B (2025 dollars). "
           f"Rows marked counted_elsewhere are in CAP-7/CAP-7S and are not added again.", '',
           f"**Unbudgeted disaster supplementals (current law).** About ${g[0]}-{g[2]}B a year (mid ${g[1]}B) of recurring disaster appropriations sits outside the extrapolated baseline. "
           f"{pr['disaster']['unbudgeted_basis']}.", '',

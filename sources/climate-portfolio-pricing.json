@@ -1379,7 +1379,7 @@
   "index/tools/climate-portfolio/packages.py": "6be178873b30f8a5c72d7b7855dfd8315c14e2add9becb734ad4191233a606a1",
   "index/tools/climate-portfolio/portfolio.py": "44e6e083df4cd8330082dc21c646732a06fbad079d4044a0d0de6d36ea9a48e3",
   "index/tools/climate-portfolio/pricing.json": "a3bf9d977ee6a6e8a8f104419111a8d334939878c9903edddc8de5eff78b43ad",
-  "index/tools/climate-portfolio/pricing.py": "73c8b4f050e444c39a5e05da6d1b16e8f0457453d3be85535a996cfe99952080",
+  "index/tools/climate-portfolio/pricing.py": "e8e85c9a7c4297eee42e339bd416d095948bca8d8adc97974aaef991229bcb25",
   "index/tools/climate-portfolio/run.js": "109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae"
  }
 }
