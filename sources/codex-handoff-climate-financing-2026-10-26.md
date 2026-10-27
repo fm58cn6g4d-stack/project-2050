@@ -57,7 +57,7 @@ The proposed ledger deltas are unchanged in kind from PR #26, with the sizes upd
 
 The CLI-1/CLI-5 split of the credit scaling is still open.
 
-## 3. Payment: proposed O5, pending Espen
+## 3. Payment: O5, decided by Espen on Oct 27 ("approve O5 and CLI-7C")
 
 Four options are computed in `pricing.py` (`budget.payment`). O4 was withdrawn because it double counted the step. Under O5:
 - The process-emissions fee has its own account, like REV-C3.
@@ -65,18 +65,19 @@ Four options are computed in `pricing.py` (`budget.payment`). O4 was withdrawn b
 - The combustion fee keeps D7's 80/20 split.
 
 Results (nominal $B, favorable / central / conservative / unfavorable):
-- GF 2030-39: −205 / +17 / +93 / +227.
-- FY2040: −48 / −18 / 0 / 0.
+- GF 2030-39: −209 / +20 / +95 / +234 (including CLI-7C's expected cost).
+- FY2040: −49 / −17 / 0 / 0.
 - FY2050: 0 in all four cases.
-- Dividend change per consumer unit: −$28 to −$51 a year over 2030-39 (lowest to highest quintile) and −$84 to −$154 in 2050.
+- Dividend change per consumer unit: −$28 to −$51 a year over 2030-39 (lowest to highest quintile) and −$86 to −$159 in 2050.
 
-Under D7 as is (O1), the GF figures are +75 central over 2030-39 and +18 in FY2050.
+Under D7 as is (O1), the GF figures are +79 central over 2030-39 and +18 in FY2050.
 
-**If approved, ledger work for Codex:**
+**Ledger work for Codex (now decided), when you integrate Package A:**
 1. Add a process-fee row (REV-C1 coverage, about $0.24T gross over 2030-39, CX at 25%) with its waterfall.
-2. Book the package's permanent items (disaster D2-D8, CLI-13 farm payments, bill protection) as covered by that waterfall in the FY2040+ test.
+2. Book the package's permanent items (disaster D2-D8, CLI-13 farm payments, bill protection, CLI-7C's expected cost) as covered by that waterfall in the FY2040+ test.
+3. The decision text is in `governing/project-2050-governing-decisions.md` ("Decided October 27").
 
-## 4. CLI-7C reinsurance backstop: designed, recommended, pending Espen
+## 4. CLI-7C reinsurance backstop: decided by Espen on Oct 27
 
 The design is a Treasury facility:
 - It reinsures residential wind, wildfire, hail and opt-in earthquake losses between a state-level 1-in-100 and a 1-in-250 year loss.
@@ -84,13 +85,13 @@ The design is a Treasury facility:
 - The cap is $150B a year.
 - Only states with CLI-8 codes and disclosure qualify.
 - Premiums are risk-priced at 1.3-1.5 times expected loss.
-- Treasury borrowing authority covers draws, with a TRIA-style recoupment surcharge capped at 3% of residential premiums for up to 15 years.
+- Treasury borrowing authority covers draws, with a TRIA-style recoupment surcharge (flat up to 1%, risk-weighted above) capped at 3% of residential premiums for up to 15 years.
 
 **D4:**
 - A permanent expected-net-cost line of −0.3 / +0.3 / +1.0 $B a year.
 - A disclosed contingent liability of $75-150B.
 
-It sits in `pricing.json` as tier `option`, so no budget figure changes until it is approved. See the [disaster file](climate-portfolio-disaster-resilience.md), D10.
+It sits in `pricing.json` as tier `backstop` and is a permanent general-fund item in the package budget from FY2031 (about +$3B over 2030-39, central). The contingent liability is disclosed, not scored. Book both in the ledger: a CLI-7C row at expected cost and a contingent-liability line in the D4 tests. See the [disaster file](climate-portfolio-disaster-resilience.md), D10.
 
 ## 5. Mechanical notes
 

@@ -82,7 +82,9 @@ check('O5 spends no transition share twice', all(-1e-6 <= (pay['O1']['cases'][k]
                                              - (pay['O1']['cases'][k]['dividend_window_bn'] - pay['O5']['cases'][k]['dividend_window_bn']) < 1.0 for k in bu['cases']))
 check('O4, which double counted the step, stays withdrawn', 'O4' not in pay)
 check('O5 costs households less than O3', all(a > b for a, b in zip(pay['O5']['dividend_change_per_household_avg_2030_39'], pay['O3']['dividend_change_per_household_avg_2030_39'])))
-check('reinsurance stays an option outside the funded tiers', next(r for r in pr['disaster']['rows'] if r['id'] == 'D10')['tier'] == 'option')
+d10 = next(r for r in pr['disaster']['rows'] if r['id'] == 'D10')
+check('reinsurance (decided Oct 27) is a permanent expected-cost line with its contingent liability disclosed',
+      d10['tier'] == 'backstop' and items['reinsurance']['d4'] == 'permanent' and d10['contingent_bn'][1] >= 100 and items['reinsurance']['fy2050_bn']['central'] > 0)
 for name in ('climate-portfolio-packages.md', 'climate-portfolio-pricing.md', 'climate-portfolio-disaster-components.csv'):
     built, committed = ROOT / 'build/climate-portfolio' / name, ROOT / 'sources' / name
     if committed.exists():

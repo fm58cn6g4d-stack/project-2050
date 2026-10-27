@@ -14,6 +14,7 @@ Package A (with the approved $150-by-2037 price) plus the core and fuller disast
 | Income and payroll tax offset (CX, 25%) on the added REV-C1 receipts | general fund | permanent | +26 / +26 / +26 / +26 | -0 / -0 / -0 / -0 | +0 / +0 / +0 / +0 |
 | Bill protection for low- and moderate-income households (while the increase lasts) | general fund | permanent | +7 / +7 / +7 / +8 | +2 / +2 / +2 / +2 | +1 / +2 / +2 / +2 |
 | Disaster permanent pieces: D2, D3, D6, D7 and D8 | general fund | permanent | +41 / +78 / +78 / +135 | +5 / +9 / +9 / +16 | +6 / +12 / +12 / +20 |
+| CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored) | general fund | permanent | -3 / +3 / +3 / +11 | -0 / +0 / +0 / +1 | -1 / +1 / +1 / +2 |
 | NFIP debt resolution (scored cost, FY2030) | general fund | one-time | +0 / +2 / +2 / +7 | +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 |
 | CLI-13 agricultural payments (continuing) | general fund | permanent | +12 / +31 / +31 / +62 | +1 / +3 / +3 / +7 | +2 / +4 / +4 / +9 |
 | Low-income heat-pump retrofits (CLI-5W), paid from credit savings | general fund | time-limited | +56 / +84 / +84 / +140 | +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 |
@@ -24,9 +25,9 @@ Package A (with the approved $150-by-2037 price) plus the core and fuller disast
 
 | Account result ($B nominal; favorable / central / conservative / unfavorable) | Value |
 | --- | --- |
-| General fund, 2030-39 (includes any channel shortfall) | -147 / +75 / +163 / +367 |
-| General fund, FY2040 (the D4-B maturity year) | -48 / -18 / -0 / +17 |
-| General fund, FY2050 | +10 / +18 / +18 / +31 |
+| General fund, 2030-39 (includes any channel shortfall) | -151 / +79 / +166 / +378 |
+| General fund, FY2040 (the D4-B maturity year) | -49 / -17 / +0 / +19 |
+| General fund, FY2050 | +9 / +18 / +18 / +33 |
 | D4-B borrowing, 2030-39 | +108 / +152 / +152 / +212 |
 | D4-B borrowing over the $195B freed room (positive = overshoot) | -87 / -43 / -43 / +17 |
 | Carbon channel: uses, 2030-39 | +86 / +134 / +134 / +189 |
@@ -41,12 +42,12 @@ Each option applies to the package's increment over the decided package (the $15
 
 | Option | General fund 2030-39 | FY2040 | FY2050 | Dividend change per unit, 2030-39 average | Dividend change per unit, 2050 |
 | --- | --- | --- | --- | --- | --- |
-| **O1**: D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall | -147 / +75 / +163 / +367 | -48 / -18 / -0 / +17 | +10 / +18 / +18 / +31 | +0 / +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 / +0 |
-| **O2**: CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment | -173 / +50 / +137 / +341 | -48 / -17 / +0 / +18 | +9 / +18 / +18 / +31 | -12 / -16 / -19 / -21 / -22 | -1 / -1 / -1 / -1 / -2 |
-| **O3**: Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund | -343 / -120 / -32 / +172 | -80 / -49 / -31 / -14 | -35 / -26 / -26 / -13 | -93 / -121 / -143 / -157 / -171 | -208 / -272 / -321 / -353 / -385 |
-| **O5**: Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7 | -205 / +17 / +93 / +227 | -48 / -18 / -0 / +0 | +0 / +0 / +0 / +0 | -28 / -36 / -43 / -47 / -51 | -84 / -109 / -129 / -141 / -154 |
+| **O1**: D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall | -151 / +79 / +166 / +378 | -49 / -17 / +0 / +19 | +9 / +18 / +18 / +33 | +0 / +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 / +0 |
+| **O2**: CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment | -176 / +53 / +141 / +352 | -48 / -17 / +1 / +19 | +9 / +18 / +18 / +32 | -12 / -16 / -19 / -21 / -22 | -1 / -1 / -1 / -1 / -2 |
+| **O3**: Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund | -346 / -117 / -29 / +183 | -80 / -48 / -31 / -13 | -35 / -26 / -26 / -12 | -93 / -121 / -143 / -157 / -171 | -208 / -272 / -321 / -353 / -385 |
+| **O5**: Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7 | -209 / +20 / +95 / +234 | -49 / -17 / +0 / +0 | +0 / +0 / +0 / +0 | -28 / -36 / -43 / -47 / -51 | -86 / -113 / -132 / -146 / -159 |
 
-**Proposed: O5** (proposed by Claude Code for Codex, Oct 26; pending Espen). O5 is the only option that leaves the package at or below zero for the general fund in FY2040 and FY2050 in all four cases, so the package's permanent pieces (disaster D2-D8, farm payments, bill protection) are paid at maturity by the fee that causes them. It costs households far less than O3: process receipts leave the dividend only in years the package would otherwise draw on the general fund. O2 barely moves the general fund. O3 raises more but takes about $90-170 a year from each quintile's dividend over 2030-39. Under O5 the combustion fee keeps D7's 80/20 split untouched. Corrected after review (Oct 26): an earlier O5 also spent the $150 step's transition share, which the shared ledger already credits to CLI-5; without it O5 still meets the maturity test but its 2030-39 result is about +$21B (central), not -$68B.
+**Proposed: O5** (decided by Espen, Oct 27 ("approve O5 and CLI-7C"); Codex books it with Package A). O5 is the only option that leaves the package at or below zero for the general fund in FY2040 and FY2050 in all four cases, so the package's permanent pieces (disaster D2-D8, farm payments, bill protection) are paid at maturity by the fee that causes them. It costs households far less than O3: process receipts leave the dividend only in years the package would otherwise draw on the general fund. O2 barely moves the general fund. O3 raises more but takes about $90-170 a year from each quintile's dividend over 2030-39. Under O5 the combustion fee keeps D7's 80/20 split untouched. Corrected after review (Oct 26): an earlier O5 also spent the $150 step's transition share, which the shared ledger already credits to CLI-5; without it O5 still meets the maturity test but its 2030-39 result is about +$21B (central), not -$68B.
 
 **Removal purchases, outside the package.** About 20 / 45 / 90 $B (2025 dollars) over 2030-39, rising to roughly 60 / 90 / 120 $B a year by 2050 at 150 / 300 / 400 Mt. That continuing obligation needs its own financing decision and maturity test before it enters any selected package.
 
@@ -111,7 +112,7 @@ Starting from current law (sourced):
 | D7 | core | CLI-7 | Universal Survivor Application and estimate-based Public Assistance: program effect of faster, more complete aid (administration is priced in CAP-7) | 0.0 / 0.5 / 1.5 | 0 / 5 / 14 | 0.006 | 0.0 / 0.0 / 0.0 | permanent |  |
 | D8 | fuller | CLI-7 | Climate Insurance and Recovery Affordability Program: premium help for low- and moderate-income owners and renters facing wind, wildfire and hail risk, available from FY2030 without waiting for a reinsurance backstop; states must adopt CLI-8 codes within three years to keep it | 1.5 / 3.0 / 5.0 | 14 / 28 / 46 | 0.034 | 0.0 / 0.0 / 0.0 | permanent (pay-for at maturity) |  |
 | D9 | fuller | CLI-5C | Voluntary buyout and relocation program: 10,000-25,000 properties a year, receiving-community investment, renter relocation aid | 1.9 / 2.8 / 4.7 | 18 / 26 / 43 | 0.032 | 0.0 / 0.0 / 0.0 | time-limited capital (10-year program) | 57 |
-| D10 | option | CLI-7C | Federal residential catastrophe reinsurance facility (Treasury): reinsures insurers' residential wind, wildfire, hail and (opt-in) earthquake losses between a state-level 1-in-100 and 1-in-250 year industry loss, 10% retained by insurers, $150B annual cap; only in states with CLI-8 codes and disclosure; flood stays in NFIP | -0.3 / 0.3 / 1.0 | -3 / 3 / 9 | 0.003 | 0.0 / 0.0 / 0.0 | permanent (expected net cost scored): risk-priced premiums at 1.3-1.5x modeled expected loss build a fund; Treasury borrowing authority up to the $150B cap pays claims the fund cannot; a TRIA-style recoupment surcharge on all residential property premiums (capped at 3% a year, up to 15 years, about $75B) repays it; any unrecouped draw is a disclosed contingent liability in every D4 test | contingent 150B |
+| D10 | backstop | CLI-7C | Federal residential catastrophe reinsurance facility (Treasury): reinsures insurers' residential wind, wildfire, hail and (opt-in) earthquake losses between a state-level 1-in-100 and 1-in-250 year industry loss, 10% retained by insurers, $150B annual cap; only in states with CLI-8 codes and disclosure (decided Oct 27); flood stays in NFIP | -0.3 / 0.3 / 1.0 | -3 / 3 / 9 | 0.003 | 0.0 / 0.0 / 0.0 | permanent (expected net cost scored): risk-priced premiums at 1.3-1.5x modeled expected loss build a fund; Treasury borrowing authority up to the $150B cap pays claims the fund cannot; a TRIA-style recoupment surcharge on all residential property premiums (flat up to 1%, risk-weighted above; capped at 3% a year, up to 15 years, about $75B) repays it; any unrecouped draw is a disclosed contingent liability in every D4 test | contingent 150B |
 | R1 | counted_elsewhere | CAP-7 | FEMA staff restored (+5,000), cabinet-level independence, Universal Survivor Application build and regional rebuild | 0.6 / 0.9 / 1.3 | 6 / 9 / 12 | 0.011 | 0.5 / 1.0 / 1.8 | in CAP-7/CAP-7S |  |
 | R2 | counted_elsewhere | CAP-7S | Future-conditions national flood maps (FEMA) and NOAA precipitation and coastal data | 0.0 / 0.1 / 0.3 | 0 / 1 / 3 | 0.001 | 4.3 / 9.5 / 16.0 | in CAP-7S/CAP-7 |  |
 
@@ -119,10 +120,10 @@ Starting from current law (sourced):
 | --- | --- | --- | --- |
 | core | 61 / 100 / 151 | 0.076 / 0.124 / 0.187 | 0.0 / 2.0 / 6.0 |
 | fuller | 31 / 54 / 90 | 0.039 / 0.067 / 0.111 | 0.0 / 0.0 / 0.0 |
-| option | -3 / 3 / 9 | -0.003 / 0.003 / 0.011 | 0.0 / 0.0 / 0.0 |
+| backstop | -3 / 3 / 9 | -0.003 / 0.003 / 0.011 | 0.0 / 0.0 / 0.0 |
 | counted_elsewhere | 6 / 10 / 15 | 0.007 / 0.012 / 0.018 | 4.8 / 10.5 / 17.8 |
 
-Core and full tiers by D4 class over 2030-39: permanent 33 / 63 / 109 $B; time-limited capital 59 / 91 / 131 $B (2025 dollars). Rows marked counted_elsewhere are in CAP-7/CAP-7S and are not added again.
+Core and full tiers by D4 class over 2030-39: permanent 31 / 66 / 118 $B; time-limited capital 59 / 91 / 131 $B (2025 dollars). Rows marked counted_elsewhere are in CAP-7/CAP-7S and are not added again.
 
 **Unbudgeted disaster supplementals (current law).** About $15-25B a year (mid $20B) of recurring disaster appropriations sits outside the extrapolated baseline. estimate: recent all-agency disaster appropriations (about $45B a year nominal FY2015-24, about $52B in 2025 dollars, before the $110B 2025 act) against roughly $30-35B a year carried by the extrapolated baseline (the FY2026 DRF plus base disaster programs elsewhere). A current-law exposure, not an agenda cost; disclose beside the Judgment Fund line in D4 tests.
 
@@ -141,5 +142,5 @@ Source hashes (SHA-256):
 - `build/carbon-config.json`: `58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608`
 - `index/tools/climate-portfolio/packages.py`: `6be178873b30f8a5c72d7b7855dfd8315c14e2add9becb734ad4191233a606a1`
 - `index/tools/climate-portfolio/packages.json`: `3dba81388e5663010c2f685e549f9b03ff343c13d72ba13cedc00e03aa42957e`
-- `index/tools/climate-portfolio/pricing.py`: `1b9ef63ccb324b8abe3d4d454f2f20c02eda1e45fa8d6534083c25b85c8b2fe1`
-- `index/tools/climate-portfolio/pricing.json`: `91ff9572d174658d93772d7f66a9d86a5c427454b7d3656565a03c463f5bae63`
+- `index/tools/climate-portfolio/pricing.py`: `73c8b4f050e444c39a5e05da6d1b16e8f0457453d3be85535a996cfe99952080`
+- `index/tools/climate-portfolio/pricing.json`: `a3bf9d977ee6a6e8a8f104419111a8d334939878c9903edddc8de5eff78b43ad`

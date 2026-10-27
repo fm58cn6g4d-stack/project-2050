@@ -20712,7 +20712,7 @@
   },
   "delayed_middle_receipts_2030_39_tn": 0.40012400000000004,
   "source_sha256": {
-    "index/tools/fiscal-recovery/model.py": "ac371dfdc0b1c74d911ec0def1725c2612e48675904645c927d7bd8e29b2fa21",
+    "index/tools/fiscal-recovery/model.py": "e9984a650b41ae4ccd65ddb38bd1795f8af766c5c5b469ee1d4344f11fd17cdc",
     "index/tools/fiscal-recovery/assumptions.json": "cd63d4a56ae602646cce31c61ccd848ebb3d9635244e1f35dab8c42aab47532b",
     "index/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
     "index/tools/fiscal-model.py": "104de3cbb37d5a9a5ff43fbf746ca6dec99c7c190755307ebe25df1a7c8c1dd3",

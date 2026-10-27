@@ -109,7 +109,7 @@ def main():
         t = tiers.setdefault(c['tier'], dict(ten=[0, 0, 0], nom=[0, 0, 0], one=[0, 0, 0]))
         for i in range(3):
             t['ten'][i] += ten[i]; t['nom'][i] += ten_nom[i]; t['one'][i] += one[i]
-    perm = tri(lambda i: sum(r['ten_year_bn_2025'][i] for r in rows if r['tier'] in ('core', 'fuller') and r['d4'].startswith('permanent')))
+    perm = tri(lambda i: sum(r['ten_year_bn_2025'][i] for r in rows if r['tier'] in ('core', 'fuller', 'backstop') and r['d4'].startswith('permanent')))
     cap = tri(lambda i: sum(r['ten_year_bn_2025'][i] for r in rows if r['tier'] in ('core', 'fuller') and r['d4'].startswith('time-limited')))
     gf = grid_finance(pr['grid_financing'])
 
@@ -140,6 +140,8 @@ def main():
          lambda k, y: (max(0.0, (rr[y]['retail'] - rd[y]['retail']) / 100 * pa['residential_kwh_month'] * 12) * bp['households_m'][COST[k]] / 1000) if y >= bp['years'][0] else 0.0)
     item('disaster_perm', 'Disaster permanent pieces: D2, D3, D6, D7 and D8', 'general fund', 'permanent',
          lambda k, y: sum(comp[i]['annual'][COST[k]] for i in ('D2', 'D3', 'D6', 'D7', 'D8')) * rmp(y))
+    item('reinsurance', 'CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored)', 'general fund', 'permanent',
+         lambda k, y: comp['D10']['annual'][COST[k]] if y >= 2031 else 0.0)
     item('nfip', 'NFIP debt resolution (scored cost, FY2030)', 'general fund', 'one-time',
          lambda k, y: comp['D4']['one_time'][COST[k]] if y == 2030 else 0.0)
     item('ag', 'CLI-13 agricultural payments (continuing)', 'general fund', 'permanent',

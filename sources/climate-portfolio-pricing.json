@@ -147,6 +147,30 @@
    },
    {
     "account": "general fund",
+    "d4": "permanent",
+    "fy2040_bn": {
+     "central": 0.41580019790212747,
+     "conservative": 0.41580019790212747,
+     "favorable": -0.41580019790212747,
+     "unfavorable": 1.3860006596737582
+    },
+    "fy2050_bn": {
+     "central": 0.5168846674185842,
+     "conservative": 0.5168846674185842,
+     "favorable": -0.5168846674185842,
+     "unfavorable": 1.7229488913952806
+    },
+    "id": "reinsurance",
+    "label": "CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored)",
+    "window_bn": {
+     "central": 3.3616930199807165,
+     "conservative": 3.3616930199807165,
+     "favorable": -3.3616930199807165,
+     "unfavorable": 11.20564339993572
+    }
+   },
+   {
+    "account": "general fund",
     "d4": "one-time",
     "fy2040_bn": {
      "central": 0.0,
@@ -323,9 +347,9 @@
       "dividend_vs_d7_fy2050_bn": 0.0,
       "dividend_vs_d7_window_bn": 0.0,
       "dividend_window_bn": 82.14003425707133,
-      "general_fund_fy2040_bn": -17.57439827605172,
-      "general_fund_fy2050_bn": 17.781552651665084,
-      "general_fund_window_bn": 75.20747550604929
+      "general_fund_fy2040_bn": -17.15859807814959,
+      "general_fund_fy2050_bn": 18.298437319083668,
+      "general_fund_window_bn": 78.56916852603001
      },
      "conservative": {
       "dividend_2035_bn": 11.090559639985331,
@@ -333,9 +357,9 @@
       "dividend_vs_d7_fy2050_bn": 0.0,
       "dividend_vs_d7_window_bn": 0.0,
       "dividend_window_bn": 82.14003425707133,
-      "general_fund_fy2040_bn": -0.1728557546421925,
-      "general_fund_fy2050_bn": 17.781552651665084,
-      "general_fund_window_bn": 163.13234132896315
+      "general_fund_fy2040_bn": 0.24294444325993325,
+      "general_fund_fy2050_bn": 18.298437319083668,
+      "general_fund_window_bn": 166.49403434894387
      },
      "favorable": {
       "dividend_2035_bn": 11.090559639985331,
@@ -343,9 +367,9 @@
       "dividend_vs_d7_fy2050_bn": 0.0,
       "dividend_vs_d7_window_bn": 0.0,
       "dividend_window_bn": 82.14003425707133,
-      "general_fund_fy2040_bn": -48.38200101812329,
-      "general_fund_fy2050_bn": 9.571309787591414,
-      "general_fund_window_bn": -147.15776561475062
+      "general_fund_fy2040_bn": -48.79780121602542,
+      "general_fund_fy2050_bn": 9.054425120172828,
+      "general_fund_window_bn": -150.51945863473134
      },
      "unfavorable": {
       "dividend_2035_bn": 11.090559639985331,
@@ -353,9 +377,9 @@
       "dividend_vs_d7_fy2050_bn": 0.0,
       "dividend_vs_d7_window_bn": 0.0,
       "dividend_window_bn": 82.14003425707133,
-      "general_fund_fy2040_bn": 17.11400631310638,
-      "general_fund_fy2050_bn": 30.816052411645543,
-      "general_fund_window_bn": 366.95845360759046
+      "general_fund_fy2040_bn": 18.500006972780135,
+      "general_fund_fy2050_bn": 32.53900130304083,
+      "general_fund_window_bn": 378.1640970075262
      }
     },
     "dividend_change_per_adult_2050": 0.0,
@@ -384,9 +408,9 @@
       "dividend_vs_d7_fy2050_bn": -0.18476491846702242,
       "dividend_vs_d7_window_bn": -25.66876070533479,
       "dividend_window_bn": 56.471273551736545,
-      "general_fund_fy2040_bn": -17.083749271926834,
-      "general_fund_fy2050_bn": 17.596787733198063,
-      "general_fund_window_bn": 49.5387148007145
+      "general_fund_fy2040_bn": -16.667949074024705,
+      "general_fund_fy2050_bn": 18.113672400616647,
+      "general_fund_window_bn": 52.90040782069522
      },
      "conservative": {
       "dividend_2035_bn": 7.624759752489916,
@@ -394,9 +418,9 @@
       "dividend_vs_d7_fy2050_bn": -0.18476491846702242,
       "dividend_vs_d7_window_bn": -25.66876070533479,
       "dividend_window_bn": 56.471273551736545,
-      "general_fund_fy2040_bn": 0.3177932494826925,
-      "general_fund_fy2050_bn": 17.596787733198063,
-      "general_fund_window_bn": 137.46358062362833
+      "general_fund_fy2040_bn": 0.7335934473848182,
+      "general_fund_fy2050_bn": 18.113672400616647,
+      "general_fund_window_bn": 140.82527364360908
      },
      "favorable": {
       "dividend_2035_bn": 7.624759752489916,
@@ -404,9 +428,9 @@
       "dividend_vs_d7_fy2050_bn": -0.18476491846702242,
       "dividend_vs_d7_window_bn": -25.66876070533479,
       "dividend_window_bn": 56.471273551736545,
-      "general_fund_fy2040_bn": -47.89135201399841,
-      "general_fund_fy2050_bn": 9.386544869124391,
-      "general_fund_window_bn": -172.8265263200854
+      "general_fund_fy2040_bn": -48.30715221190054,
+      "general_fund_fy2050_bn": 8.869660201705805,
+      "general_fund_window_bn": -176.18821934006613
      },
      "unfavorable": {
       "dividend_2035_bn": 7.624759752489916,
@@ -414,9 +438,9 @@
       "dividend_vs_d7_fy2050_bn": -0.18476491846702242,
       "dividend_vs_d7_window_bn": -25.66876070533479,
       "dividend_window_bn": 56.471273551736545,
-      "general_fund_fy2040_bn": 17.604655317231266,
-      "general_fund_fy2050_bn": 30.631287493178522,
-      "general_fund_window_bn": 341.2896929022557
+      "general_fund_fy2040_bn": 18.99065597690502,
+      "general_fund_fy2050_bn": 32.3542363845738,
+      "general_fund_window_bn": 352.49533630219145
      }
     },
     "dividend_change_per_adult_2050": -0.673650869083553,
@@ -445,9 +469,9 @@
       "dividend_vs_d7_fy2050_bn": -43.953728251410475,
       "dividend_vs_d7_window_bn": -195.44416405610693,
       "dividend_window_bn": -113.30412979903558,
-      "general_fund_fy2040_bn": -48.818082523300795,
-      "general_fund_fy2050_bn": -26.319987534519004,
-      "general_fund_window_bn": -120.23668855005762
+      "general_fund_fy2040_bn": -48.402282325398666,
+      "general_fund_fy2050_bn": -25.80310286710042,
+      "general_fund_window_bn": -116.87499553007689
      },
      "conservative": {
       "dividend_2035_bn": -11.16138621022896,
@@ -455,9 +479,9 @@
       "dividend_vs_d7_fy2050_bn": -43.953728251410475,
       "dividend_vs_d7_window_bn": -195.44416405610693,
       "dividend_window_bn": -113.30412979903558,
-      "general_fund_fy2040_bn": -31.416540001891267,
-      "general_fund_fy2050_bn": -26.319987534519004,
-      "general_fund_window_bn": -32.31182272714378
+      "general_fund_fy2040_bn": -31.00073980398914,
+      "general_fund_fy2050_bn": -25.80310286710042,
+      "general_fund_window_bn": -28.950129707163047
      },
      "favorable": {
       "dividend_2035_bn": -11.16138621022896,
@@ -465,9 +489,9 @@
       "dividend_vs_d7_fy2050_bn": -43.953728251410475,
       "dividend_vs_d7_window_bn": -195.44416405610693,
       "dividend_window_bn": -113.30412979903558,
-      "general_fund_fy2040_bn": -79.62568526537237,
-      "general_fund_fy2050_bn": -34.53023039859268,
-      "general_fund_window_bn": -342.60192967085754
+      "general_fund_fy2040_bn": -80.0414854632745,
+      "general_fund_fy2050_bn": -35.04711506601126,
+      "general_fund_window_bn": -345.96362269083824
      },
      "unfavorable": {
       "dividend_2035_bn": -11.16138621022896,
@@ -475,9 +499,9 @@
       "dividend_vs_d7_fy2050_bn": -43.953728251410475,
       "dividend_vs_d7_window_bn": -195.44416405610693,
       "dividend_window_bn": -113.30412979903558,
-      "general_fund_fy2040_bn": -14.129677934142697,
-      "general_fund_fy2050_bn": -13.285487774538545,
-      "general_fund_window_bn": 171.51428955148359
+      "general_fund_fy2040_bn": -12.743677274468938,
+      "general_fund_fy2050_bn": -11.562538883143262,
+      "general_fund_window_bn": 182.7199329514193
      }
     },
     "dividend_change_per_adult_2050": -160.25481179918796,
@@ -502,53 +526,53 @@
     "cases": {
      "central": {
       "dividend_2035_bn": 11.090559639985331,
-      "dividend_fy2050_bn": -17.042492977796996,
-      "dividend_vs_d7_fy2050_bn": -17.633740716891467,
+      "dividend_fy2050_bn": -17.559377645215577,
+      "dividend_vs_d7_fy2050_bn": -18.150625384310047,
       "dividend_vs_d7_window_bn": -58.3065567841137,
       "dividend_window_bn": 23.83347747295763,
-      "general_fund_fy2040_bn": -17.57439827605172,
+      "general_fund_fy2040_bn": -17.15859807814959,
       "general_fund_fy2050_bn": 0.0,
-      "general_fund_window_bn": 16.900918721935586
+      "general_fund_window_bn": 20.262611741916306
      },
      "conservative": {
       "dividend_2035_bn": 11.090559639985331,
-      "dividend_fy2050_bn": -17.042492977796996,
-      "dividend_vs_d7_fy2050_bn": -17.633740716891467,
-      "dividend_vs_d7_window_bn": -70.20549321184137,
-      "dividend_window_bn": 11.934541045229969,
-      "general_fund_fy2040_bn": -0.1728557546421925,
+      "dividend_fy2050_bn": -17.559377645215577,
+      "dividend_vs_d7_fy2050_bn": -18.150625384310047,
+      "dividend_vs_d7_window_bn": -71.0104342163547,
+      "dividend_window_bn": 11.129600040716637,
+      "general_fund_fy2040_bn": 0.0,
       "general_fund_fy2050_bn": 0.0,
-      "general_fund_window_bn": 92.92684811712178
+      "general_fund_window_bn": 95.48360013258917
      },
      "favorable": {
       "dividend_2035_bn": 11.090559639985331,
-      "dividend_fy2050_bn": -8.832250113723324,
-      "dividend_vs_d7_fy2050_bn": -9.423497852817796,
+      "dividend_fy2050_bn": -8.315365446304739,
+      "dividend_vs_d7_fy2050_bn": -8.90661318539921,
       "dividend_vs_d7_window_bn": -58.3065567841137,
       "dividend_window_bn": 23.83347747295763,
-      "general_fund_fy2040_bn": -48.38200101812329,
+      "general_fund_fy2040_bn": -48.79780121602542,
       "general_fund_fy2050_bn": 0.0,
-      "general_fund_window_bn": -205.4643223988643
+      "general_fund_window_bn": -208.82601541884503
      },
      "unfavorable": {
-      "dividend_2035_bn": -0.0002512448887088681,
-      "dividend_fy2050_bn": -30.076992737777452,
-      "dividend_vs_d7_fy2050_bn": -30.668240476871922,
-      "dividend_vs_d7_window_bn": -139.95741342976743,
-      "dividend_window_bn": -57.8173791726961,
+      "dividend_2035_bn": -1.2433595214755577,
+      "dividend_fy2050_bn": -31.799941629172736,
+      "dividend_vs_d7_fy2050_bn": -32.391189368267206,
+      "dividend_vs_d7_window_bn": -143.76938507018858,
+      "dividend_window_bn": -61.62935081311725,
       "general_fund_fy2040_bn": 0.0,
       "general_fund_fy2050_bn": 0.0,
-      "general_fund_window_bn": 227.00104017782303
+      "general_fund_window_bn": 234.39471193733763
      }
     },
-    "dividend_change_per_adult_2050": -64.29242551934003,
+    "dividend_change_per_adult_2050": -66.17698135554244,
     "dividend_change_per_adult_avg_2030_39": -21.2585067429336,
     "dividend_change_per_household_2050": [
-     -83.58015317514204,
-     -109.29712338287804,
-     -128.58485103868006,
-     -141.44333614254808,
-     -154.30182124641607
+     -86.03007576220517,
+     -112.50086830442214,
+     -132.35396271108488,
+     -145.58935898219337,
+     -158.82475525330184
     ],
     "dividend_change_per_household_avg_2030_39": [
      -27.636058765813683,
@@ -591,32 +615,32 @@
     "channel_uses_window_bn": 134.1873853737896,
     "d4b_over_room_bn": -43.087277220667374,
     "d4b_window_bn": 151.91272277933263,
-    "general_fund_fy2040_bn": -17.57439827605172,
-    "general_fund_fy2050_bn": 17.781552651665084,
+    "general_fund_fy2040_bn": -17.1585980781496,
+    "general_fund_fy2050_bn": 18.29843731908367,
     "general_fund_path_bn": {
      "2030": 30.379465497904427,
-     "2031": 45.868227073661686,
-     "2032": 56.00830160337681,
-     "2033": 52.10406467558166,
-     "2034": 43.64891320817608,
-     "2035": -33.36824287241549,
-     "2036": -42.2571804899831,
-     "2037": -50.32987660362612,
-     "2038": -12.042048265352012,
-     "2039": -14.80414832127466,
-     "2040": -17.57439827605172,
-     "2041": -4.632500067760073,
-     "2042": -0.8522735233071699,
-     "2043": 0.8146730980592053,
-     "2044": 1.1345786623618679,
-     "2045": 6.4109125242175935,
-     "2046": 11.6537565419069,
-     "2047": 16.900747105391694,
-     "2048": 17.123052627862446,
-     "2049": 17.354414762177292,
-     "2050": 17.781552651665084
+     "2031": 46.21007002512424,
+     "2032": 56.35766509977154,
+     "2033": 52.46111416889707,
+     "2034": 44.01381779034443,
+     "2035": -32.99531038943944,
+     "2036": -41.87604349238158,
+     "2037": -49.940354592077355,
+     "2038": -11.643956769549181,
+     "2039": -14.39729881256416,
+     "2040": -17.1585980781496,
+     "2041": -4.207552265504098,
+     "2042": -0.4179768694015642,
+     "2043": 1.2585242783507342,
+     "2044": 1.5881945686198105,
+     "2045": 6.874507980413211,
+     "2046": 12.12755109813882,
+     "2047": 17.384965141860718,
+     "2048": 17.61792346113379,
+     "2049": 17.860172753780603,
+     "2050": 18.29843731908367
     },
-    "general_fund_window_bn": 75.20747550604928
+    "general_fund_window_bn": 78.56916852603
    },
    "conservative": {
     "channel_shortfall_window_bn": 113.65237680952177,
@@ -624,32 +648,32 @@
     "channel_uses_window_bn": 134.1873853737896,
     "d4b_over_room_bn": -43.087277220667374,
     "d4b_window_bn": 151.91272277933263,
-    "general_fund_fy2040_bn": -0.1728557546421925,
-    "general_fund_fy2050_bn": 17.781552651665084,
+    "general_fund_fy2040_bn": 0.24294444325993325,
+    "general_fund_fy2050_bn": 18.29843731908367,
     "general_fund_path_bn": {
      "2030": 25.03520792773247,
-     "2031": 38.85861970946712,
-     "2032": 47.07311629221678,
-     "2033": 45.36248272834836,
-     "2034": 40.541103478482114,
-     "2035": -10.291518739968257,
-     "2036": -15.406482721103165,
-     "2037": -19.939123773939958,
-     "2038": 6.545727022470389,
-     "2039": 5.353209405257271,
-     "2040": -0.1728557546421925,
-     "2041": 9.100917248707376,
-     "2042": 4.6124874041199915,
-     "2043": 5.819910576988772,
-     "2044": 6.0833602835539775,
-     "2045": 9.715712858383744,
-     "2046": 13.311399449468787,
-     "2047": 16.900747105391694,
-     "2048": 17.123052627862446,
-     "2049": 17.354414762177292,
-     "2050": 17.781552651665084
+     "2031": 39.200462660929674,
+     "2032": 47.42247978861151,
+     "2033": 45.71953222166377,
+     "2034": 40.90600806065047,
+     "2035": -9.918586256992203,
+     "2036": -15.025345723501635,
+     "2037": -19.549601762391195,
+     "2038": 6.943818518273224,
+     "2039": 5.760058913967768,
+     "2040": 0.24294444325993325,
+     "2041": 9.525865050963349,
+     "2042": 5.0467840580255965,
+     "2043": 6.2637617572803,
+     "2044": 6.53697618981192,
+     "2045": 10.179308314579362,
+     "2046": 13.78519400570071,
+     "2047": 17.384965141860718,
+     "2048": 17.61792346113379,
+     "2049": 17.860172753780603,
+     "2050": 18.29843731908367
     },
-    "general_fund_window_bn": 163.13234132896312
+    "general_fund_window_bn": 166.49403434894384
    },
    "favorable": {
     "channel_shortfall_window_bn": 65.18153867700562,
@@ -657,32 +681,32 @@
     "channel_uses_window_bn": 85.71654724127345,
     "d4b_over_room_bn": -87.04155718978984,
     "d4b_window_bn": 107.95844281021016,
-    "general_fund_fy2040_bn": -48.38200101812329,
-    "general_fund_fy2050_bn": 9.571309787591414,
+    "general_fund_fy2040_bn": -48.79780121602542,
+    "general_fund_fy2050_bn": 9.054425120172828,
     "general_fund_path_bn": {
      "2030": 28.007384241759848,
-     "2031": 42.910035788240506,
-     "2032": 53.255275251745736,
-     "2033": 46.326349240151,
-     "2034": 33.4012232842677,
-     "2035": -70.61726862550132,
-     "2036": -84.1161834883032,
-     "2037": -96.57262877147839,
-     "2038": -47.31824482128254,
-     "2039": -52.43370771434997,
-     "2040": -48.38200101812329,
-     "2041": -32.43594795048403,
-     "2042": -13.282168027146747,
-     "2043": -11.306796864605438,
-     "2044": -11.076703257549484,
-     "2045": -4.311880733145502,
-     "2046": 2.424003732065669,
-     "2047": 9.174163148407272,
-     "2048": 9.239628345470543,
-     "2049": 9.310442648854094,
-     "2050": 9.571309787591414
+     "2031": 42.56819283677795,
+     "2032": 52.905911755351006,
+     "2033": 45.96929974683559,
+     "2034": 33.03631870209935,
+     "2035": -70.99020110847738,
+     "2036": -84.49732048590472,
+     "2037": -96.96215078302714,
+     "2038": -47.71633631708537,
+     "2039": -52.840557223060465,
+     "2040": -48.79780121602542,
+     "2041": -32.86089575274001,
+     "2042": -13.716464681052354,
+     "2043": -11.750648044896966,
+     "2044": -11.530319163807427,
+     "2045": -4.775476189341119,
+     "2046": 1.950209175833748,
+     "2047": 8.68994511193825,
+     "2048": 8.7447575121992,
+     "2049": 8.804684657250782,
+     "2050": 9.054425120172828
     },
-    "general_fund_window_bn": -147.15776561475062
+    "general_fund_window_bn": -150.51945863473134
    },
    "unfavorable": {
     "channel_shortfall_window_bn": 168.28351047022258,
@@ -690,32 +714,32 @@
     "channel_uses_window_bn": 188.8185190344904,
     "d4b_over_room_bn": 17.273487272936563,
     "d4b_window_bn": 212.27348727293656,
-    "general_fund_fy2040_bn": 17.11400631310638,
-    "general_fund_fy2050_bn": 30.816052411645543,
+    "general_fund_fy2040_bn": 18.500006972780135,
+    "general_fund_fy2050_bn": 32.53900130304083,
     "general_fund_path_bn": {
      "2030": 37.657316442356986,
-     "2031": 54.922617660165045,
-     "2032": 65.51568888530595,
-     "2033": 64.78473698177696,
-     "2034": 60.951425054005924,
-     "2035": 11.09081088487404,
-     "2036": 6.970471128633193,
-     "2037": 3.4436344541688584,
-     "2038": 30.930583876099952,
-     "2039": 30.691168240203584,
-     "2040": 17.11400631310638,
-     "2041": 27.137127302686306,
-     "2042": 15.631056416984732,
-     "2043": 17.078754076778118,
-     "2044": 17.57960904068068,
-     "2045": 21.46059670607312,
-     "2046": 25.305591876579395,
-     "2047": 29.14669940275367,
-     "2048": 29.62527135412021,
-     "2049": 30.118794797131397,
-     "2050": 30.816052411645543
+     "2031": 56.06209416504021,
+     "2032": 66.68023387328839,
+     "2033": 65.974901959495,
+     "2034": 62.16777366123377,
+     "2035": 12.333919161460889,
+     "2036": 8.240927787304951,
+     "2037": 4.7420411593313965,
+     "2038": 32.25755552877607,
+     "2039": 32.04733326923857,
+     "2040": 18.500006972780135,
+     "2041": 28.553619976872888,
+     "2042": 17.078711930003415,
+     "2043": 18.558258011083215,
+     "2044": 19.09166206154049,
+     "2045": 23.00591489339184,
+     "2046": 26.884907064019135,
+     "2047": 30.76075952431708,
+     "2048": 31.274840798358014,
+     "2049": 31.804654769142438,
+     "2050": 32.53900130304083
     },
-    "general_fund_window_bn": 366.9584536075905
+    "general_fund_window_bn": 378.1640970075262
    }
   },
   "rev_c1_change_bn": {
@@ -816,9 +840,9 @@
    }
   ],
   "permanent_ten_year_bn": [
-   33.3,
-   62.9,
-   109.15
+   30.525,
+   65.675,
+   118.4
   ],
   "rows": [
    {
@@ -1120,9 +1144,9 @@
      150,
      150
     ],
-    "d4": "permanent (expected net cost scored): risk-priced premiums at 1.3-1.5x modeled expected loss build a fund; Treasury borrowing authority up to the $150B cap pays claims the fund cannot; a TRIA-style recoupment surcharge on all residential property premiums (capped at 3% a year, up to 15 years, about $75B) repays it; any unrecouped draw is a disclosed contingent liability in every D4 test",
+    "d4": "permanent (expected net cost scored): risk-priced premiums at 1.3-1.5x modeled expected loss build a fund; Treasury borrowing authority up to the $150B cap pays claims the fund cannot; a TRIA-style recoupment surcharge on all residential property premiums (flat up to 1%, risk-weighted above; capped at 3% a year, up to 15 years, about $75B) repays it; any unrecouped draw is a disclosed contingent liability in every D4 test",
     "id": "D10",
-    "label": "Federal residential catastrophe reinsurance facility (Treasury): reinsures insurers' residential wind, wildfire, hail and (opt-in) earthquake losses between a state-level 1-in-100 and 1-in-250 year industry loss, 10% retained by insurers, $150B annual cap; only in states with CLI-8 codes and disclosure; flood stays in NFIP",
+    "label": "Federal residential catastrophe reinsurance facility (Treasury): reinsures insurers' residential wind, wildfire, hail and (opt-in) earthquake losses between a state-level 1-in-100 and 1-in-250 year industry loss, 10% retained by insurers, $150B annual cap; only in states with CLI-8 codes and disclosure (decided Oct 27); flood stays in NFIP",
     "one_time_bn": [
      0,
      0,
@@ -1139,7 +1163,7 @@
      0.0034434744305801234,
      0.011478248101933744
     ],
-    "tier": "option"
+    "tier": "backstop"
    },
    {
     "annual_bn_2025": [
@@ -1203,6 +1227,23 @@
    }
   ],
   "tiers": {
+   "backstop": {
+    "nom": [
+     -0.0034434744305801234,
+     0.0034434744305801234,
+     0.011478248101933744
+    ],
+    "one": [
+     0,
+     0,
+     0
+    ],
+    "ten": [
+     -2.775,
+     2.775,
+     9.25
+    ]
+   },
    "core": {
     "nom": [
      0.07575643747276273,
@@ -1252,23 +1293,6 @@
      31.45,
      53.65,
      89.725
-    ]
-   },
-   "option": {
-    "nom": [
-     -0.0034434744305801234,
-     0.0034434744305801234,
-     0.011478248101933744
-    ],
-    "one": [
-     0,
-     0,
-     0
-    ],
-    "ten": [
-     -2.775,
-     2.775,
-     9.25
     ]
    }
   },
@@ -1354,8 +1378,8 @@
   "index/tools/climate-portfolio/packages.json": "3dba81388e5663010c2f685e549f9b03ff343c13d72ba13cedc00e03aa42957e",
   "index/tools/climate-portfolio/packages.py": "6be178873b30f8a5c72d7b7855dfd8315c14e2add9becb734ad4191233a606a1",
   "index/tools/climate-portfolio/portfolio.py": "44e6e083df4cd8330082dc21c646732a06fbad079d4044a0d0de6d36ea9a48e3",
-  "index/tools/climate-portfolio/pricing.json": "91ff9572d174658d93772d7f66a9d86a5c427454b7d3656565a03c463f5bae63",
-  "index/tools/climate-portfolio/pricing.py": "1b9ef63ccb324b8abe3d4d454f2f20c02eda1e45fa8d6534083c25b85c8b2fe1",
+  "index/tools/climate-portfolio/pricing.json": "a3bf9d977ee6a6e8a8f104419111a8d334939878c9903edddc8de5eff78b43ad",
+  "index/tools/climate-portfolio/pricing.py": "73c8b4f050e444c39a5e05da6d1b16e8f0457453d3be85535a996cfe99952080",
   "index/tools/climate-portfolio/run.js": "109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae"
  }
 }
