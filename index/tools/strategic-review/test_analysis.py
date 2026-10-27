@@ -19,7 +19,9 @@ class ReviewChecks(unittest.TestCase):
     def test_corporate_reproduces_previous_independent_report(self):
         prior=json.loads((ROOT/'sources/family-financing-comparison.json').read_text())['cases'][0]
         new=self.r['cases'][2]
-        self.assertAlmostEqual(new['fy2040_gap_bn'],prior['fy2040_primary_gap_bn'])
+        # Compare the increment over DEC: the Oct 26 carbon price moved DEC's FY2040 gap, not the corporate route
+        base_prior=json.loads((ROOT/'sources/family-financing-comparison.json').read_text())['base_fy2040_gap_bn']
+        self.assertAlmostEqual(new['fy2040_gap_bn']-self.r['cases'][0]['fy2040_gap_bn'],prior['fy2040_primary_gap_bn']-base_prior)
         self.assertAlmostEqual(new['revenue_2030_39_tn'],prior['revenue_2030_39_tn'])
 
     def test_joint_loss_calibration_and_monotonicity(self):

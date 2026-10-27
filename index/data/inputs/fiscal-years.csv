@@ -1,3 +1,3 @@
 id,y2030,y2031,y2032,y2033,y2034,y2035,y2036,y2037,y2038,y2039,note
 CAP-7S,70,120,130,120,100,60,0,0,0,0,"Interim FY2030-39 CASH PROXY only; full funding available on enactment FY2029; FY2029 outlays unpriced, not zero. Reallocate lifetime total when costed rather than preserving this window by automatic normalization."
-CX,-18,-24,-30,-36,-40,-45,-48,-52,-52,-52,"shape of the excise offset: 25% of REV-C1 and REV-C3 receipts by year from the carbon model (index/climate-carbon-model.md, Oct 21); scaled to the ledger midpoint; $B"
+CX,-18,-24,-29,-40,-50,-59,-66,-73,-73,-73,"shape of the excise offset: 25% of REV-C1 and REV-C3 receipts by year from the carbon model on the revised D7 path ($150 by 2037; build/carbon.json, Oct 26; was the Oct 21 $100-path shape); scaled to the ledger midpoint; $B"

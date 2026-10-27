@@ -26,10 +26,11 @@ for l in a['levers']:
 check('every combination was run', d['n_packages'] == n == len(R))
 b = R[key()]
 check('decided package has zero deltas', abs(b['outlays_bn_2025_2030_39']) < 1e-9 and abs(b['extra_avoided_net_ghg_gt_2030_50']) < 1e-9)
-wx_on, wx_off = R[key(wx='on')], R[key()]
+# Under kept credits at $150 the extra heat-pump load delays the IRA power-credit trigger (~$51B more credits), so test with standard-led credits
+wx_on, wx_off = R[key(wx='on', credits='standard_led')], R[key(credits='standard_led')]
 check('retrofit external cost is counted (about $67.5B)', 60 < wx_on['outlays_bn_2025_2030_39'] - wx_off['outlays_bn_2025_2030_39'] < 75)
 check('a carbon standard alone has no direct outlay', abs(R[key(ces='90by35')]['outlays_bn_2025_2030_39']) < 5)
-check('the higher price raises REV-C1 receipts', R[key(price='higher')]['rev_c1_change_nominal_tn_2030_39'] > 0.2)
+check('the pre-Oct 26 $100 path lowers REV-C1 receipts against the decided $150 path', R[key(price='old100')]['rev_c1_change_nominal_tn_2030_39'] < -0.2)
 f = d['frontier']
 check('frontier is increasing in both cost and abatement',
       all(f[i]['outlays_bn_2025_2030_39'] <= f[i + 1]['outlays_bn_2025_2030_39'] and f[i]['extra_avoided_net_ghg_gt_2030_50'] < f[i + 1]['extra_avoided_net_ghg_gt_2030_50'] for i in range(len(f) - 1)))
@@ -59,6 +60,31 @@ check('NFIP debt resolution is in the budget', items['nfip']['window_bn']['centr
 check('cases pair savings and costs consistently', bu['results']['favorable']['general_fund_window_bn'] < bu['results']['central']['general_fund_window_bn'] < bu['results']['conservative']['general_fund_window_bn'] < bu['results']['unfavorable']['general_fund_window_bn'])
 check('permanent items continue after 2039 while time-limited items stop', items['disaster_perm']['fy2050_bn']['central'] > 0 and items['grid']['fy2040_bn']['central'] == 0 and items['retrofits']['fy2040_bn']['central'] == 0)
 check('disaster tiers sum their rows', abs(sum(r['ten_year_bn_2025'][1] for r in pr['disaster']['rows'] if r['tier'] == 'core') - pr['disaster']['tiers']['core']['ten'][1]) < 1e-9)
+# The clean-heat standard acts only from its start year: heat on and off must match before 2032 (Codex review of a9cd0e5)
+sys.path.insert(0, str(HERE))
+import packages as K
+cfg = json.loads((ROOT / 'build/carbon-config.json').read_text())
+full = next(c for c in cfg['cases'] if c['id'] == 'full')
+ids = [l['id'] for l in a['levers']]
+rec = a['recommended']
+hc = [K.make_case(n, tuple(ch[i] for i in ids), a['levers'], a, full)[0] for n, ch in (('heat_on', dict(rec, heat='on')), ('heat_off', dict(rec, heat='off')))]
+hr = K.run_cases(hc, cfg['world'])
+heat_start = next(o for l in a['levers'] if l['id'] == 'heat' for o in l['options'] if o['key'] == 'on')['world']['hpPremYear']
+check('clean-heat standard changes nothing before its start year',
+      all(hr['heat_on']['rows'][y]['ghgNet'] == hr['heat_off']['rows'][y]['ghgNet'] for y in hr['heat_on']['rows'] if y < heat_start)
+      and any(hr['heat_on']['rows'][y]['ghgNet'] != hr['heat_off']['rows'][y]['ghgNet'] for y in hr['heat_on']['rows'] if y >= heat_start))
+pay = bu['payment']
+check('O1 reproduces the D7 account result', all(abs(pay['O1']['cases'][k]['general_fund_window_bn'] - bu['results'][k]['general_fund_window_bn']) < 1e-6 for k in bu['cases']))
+check('O5 holds FY2040 and FY2050 at or below zero in every case', all(pay['O5']['cases'][k][f] <= 1e-6 for k in bu['cases'] for f in ('general_fund_fy2040_bn', 'general_fund_fy2050_bn')))
+# The $150 step's transition share is already credited to CLI-5 in the shared ledger (ledger-build.py), so O5 may move money only
+# from the dividend to the general fund: the general-fund gain over O1 must equal the dividend given up (PR #37 review)
+check('O5 spends no transition share twice', all(-1e-6 <= (pay['O1']['cases'][k]['general_fund_window_bn'] - pay['O5']['cases'][k]['general_fund_window_bn'])
+                                             - (pay['O1']['cases'][k]['dividend_window_bn'] - pay['O5']['cases'][k]['dividend_window_bn']) < 1.0 for k in bu['cases']))
+check('O4, which double counted the step, stays withdrawn', 'O4' not in pay)
+check('O5 costs households less than O3', all(a > b for a, b in zip(pay['O5']['dividend_change_per_household_avg_2030_39'], pay['O3']['dividend_change_per_household_avg_2030_39'])))
+d10 = next(r for r in pr['disaster']['rows'] if r['id'] == 'D10')
+check('reinsurance (decided Oct 27) is a permanent expected-cost line with its contingent liability disclosed',
+      d10['tier'] == 'backstop' and items['reinsurance']['d4'] == 'permanent' and d10['contingent_bn'][1] >= 100 and items['reinsurance']['fy2050_bn']['central'] > 0)
 for name in ('climate-portfolio-packages.md', 'climate-portfolio-pricing.md', 'climate-portfolio-disaster-components.csv'):
     built, committed = ROOT / 'build/climate-portfolio' / name, ROOT / 'sources' / name
     if committed.exists():

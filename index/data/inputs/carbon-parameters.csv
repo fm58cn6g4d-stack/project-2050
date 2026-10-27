@@ -1,12 +1,14 @@
 key,value,basis
 c1_start_year,2030,proposal: D7 (REV-C1A)
 c1_start_price,25,"proposal: D7, $ a ton in 2030 (nominal)"
-c1_price_2037,100,"proposal: D7, about $100 a ton by 2037 (nominal), rising in equal steps"
+c1_price_2037,150,"proposal: D7 as revised by Espen Oct 26, $150 a ton by 2037 (nominal); was $100"
+c1_slope_2037,100,"D7's original slope: equal steps from $25 toward $100 by 2037, used through the kink year"
+c1_kink_year,2032,"Oct 26: keep the original steps through 2032 (about $46), then equal steps to $150 in 2037"
 c1_growth_after,0.05,"proposal: REV-C1A, 5% a year (nominal) after 2037"
 inflation,0.022,"estimate: CPI growth a year, to turn nominal prices and receipts into the carbon model's 2025 dollars and back (CBO's long-run CPI-U is about 2.2-2.3%)"
 dividend_share,0.8,proposal: D7 (80% returned per person; 20% transition)
 oth_road,0.5,"estimate: share of 'other transport' CO2 (rail, marine, pipelines, off-road) burned as diesel or gasoline, and so outside REV-C1 under D7"
-permit_year,2027,"stipulated: the 2026-28 permitting deal is treated as enacted (D1); the carbon model phases its effects in over four years"
+permit_year,2027,stipulated: the 2026-28 permitting deal is treated as enacted (D1); the carbon model phases its effects in over four years
 mc_draws,120,the carbon model's Monte Carlo size (its 37 uncertain inputs drawn from triangular ranges)
 mc_seed,7,the carbon model's default seed
 ces_target,0.8,"proposal: CLI-3A, 80% clean electricity"
@@ -18,13 +20,13 @@ weatherize_homes_m,0.25,"estimate: CLI-5's Weatherization and LIHEAP lines fundi
 gwp100,28,"sourced: methane's 100-year warming potential in EPA's inventory (IPCC AR5), used to turn $ per ton of methane into $ per ton of CO2e"
 ch4_start,2030,"proposal: REV-C3 reinstates the IRA's Waste Emissions Charge (CAA sec. 136) from 2030, undoing the 2025 law's delay to 2034 (P.L. 119-21; CRS R48906) (Espen, Oct 21)"
 ch4_rate_2030,1200,"proposal: $ a ton of methane in 2030 (Espen, Oct 21; the IRA's second-year rate)"
-ch4_rate_2031,1350,"proposal: midway step (estimate of the schedule's shape)"
+ch4_rate_2031,1350,proposal: midway step (estimate of the schedule's shape)
 ch4_rate_2032,1500,"proposal: $ a ton of methane from 2032 on, the IRA's cap; not indexed, as in the IRA"
 ch4_og_share,0.85,"estimate: share of oil and gas methane at facilities above the IRA's 25,000 t CO2e reporting threshold, the base if the intensity exemptions and the conditional exemption are dropped"
 ch4_og_share_ira,0.03,"estimate: the IRA's own base after its intensity thresholds and exemptions; EPA counted 364 facilities and about 0.3% of U.S. greenhouse gas emissions (CRS R48906), roughly 3% of oil and gas methane"
-ch4_coal,0,"proposal: coal mines not covered (the IRA charge covered oil and gas only); an option"
-ch4_landfill,0,"proposal: landfills not covered; an option"
-cert_s0,0.2,"estimate: share of covered oil and gas methane at facilities certified in 2030 (the leak-prevention exemption; facilities already meeting state or the 2024 federal standards certify first)"
-cert_s1,0.8,"estimate: certified share by cert_year; the rest pay the fee"
-cert_year,2035,"estimate: year certification uptake levels off"
-cert_abate,0.75,"estimate: certified facilities' methane cut by the standards (EPA put its 2024 oil and gas methane rule at nearly 80% from covered sources)"
+ch4_coal,0,proposal: coal mines not covered (the IRA charge covered oil and gas only); an option
+ch4_landfill,0,proposal: landfills not covered; an option
+cert_s0,0.2,estimate: share of covered oil and gas methane at facilities certified in 2030 (the leak-prevention exemption; facilities already meeting state or the 2024 federal standards certify first)
+cert_s1,0.8,estimate: certified share by cert_year; the rest pay the fee
+cert_year,2035,estimate: year certification uptake levels off
+cert_abate,0.75,estimate: certified facilities' methane cut by the standards (EPA put its 2024 oil and gas methane rule at nearly 80% from covered sources)

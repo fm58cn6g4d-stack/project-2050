@@ -12,8 +12,9 @@ class LedgerPrecision(unittest.TestCase):
     def test_input_order_does_not_change_headline(self):
         values = [r['mid'] for r in read('ledger-revenue.csv')
                   if r['in_base'].lower() == 'yes' and r['channel'] == 'General fund']
-        self.assertEqual(money_sum(values), 5.99)
-        self.assertEqual(money_sum(reversed(values)), 5.99)
+        # 5.99 until Oct 26; the $150-by-2037 carbon price (Espen, Oct 26) raises the CX offset from -0.38 to -0.49
+        self.assertEqual(money_sum(values), 5.88)
+        self.assertEqual(money_sum(reversed(values)), 5.88)
 
 
 if __name__ == '__main__':

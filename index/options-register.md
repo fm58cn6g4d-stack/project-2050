@@ -117,7 +117,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | --- | --- | --- | --- | --- |
 | REV-G1, G3, G5-G11, H1b, GX | The top-end base | $5.97T mid (net of CX) | Chosen | G4 replaced by G11 |
 | REV-H1a | 3.8% on active pass-through income, to HI | $0.5T (HI) | Chosen | Channel |
-| REV-C1A | Carbon fee, $25 rising to ~$100 by 2037, road fuels exempt | $1.45T channel | **Decided Oct 20** (sized Oct 21) | G-CARBON |
+| REV-C1A | Carbon fee, $25 rising to $150 by 2037 (revised Oct 26 from ~$100), road fuels exempt | $1.90T channel (was $1.45T) | **Decided Oct 20** (sized Oct 21) | G-CARBON |
 | REV-C1B | Old path, $50 rising 5% | $1.25T channel | Option | G-CARBON |
 | REV-C1C | Emissions-indexed escalator | 0 if targets met | Option (study) | Stacks on C1A |
 | REV-C1D | Road-fuel convergence (~2040) | ~0 in window | **Open, not adopted** | Would depart from D7 |
@@ -125,7 +125,7 @@ The full list is in each file's open items; the per-domain tables below mark eac
 | REV-C1F | Talarico path, $70 to $190 | ~2x receipts | Option | G-CARBON |
 | REV-C2 | Border adjustment | $0.03T channel | Chosen | Finances CLI-5 |
 | REV-C3 | Methane fee: the IRA charge reinstated from 2030 ($1,200 to $1,500 a ton of methane), no intensity threshold, facility exemption for certified leak prevention | $0.02T channel | **Decided Oct 21** | Finances CLI-5; options: 3x REV-C1 with coal mines (~$0.22T), landfills |
-| CX | Income and payroll tax offset on the carbon fees (25%) | −$0.38T general fund | **Booked Oct 21** | Scoring convention, as MR6 |
+| CX | Income and payroll tax offset on the carbon fees (25%) | −$0.49T general fund (−$0.38T on the old path) | **Booked Oct 21** | Scoring convention, as MR6 |
 | REV-C2B | Clean product standard | 0 (regulatory) | Option | ◐ |
 | REV-P1 | Paid-leave contribution 0.6% toward 1.10% working ceiling | Annual fund paths in recovery-budget.json; old $0.9T estimate historical | Revised October 26 (FAM-3A) | Payroll group |
 | REV-E1 / C35 | Estate tax at 2009 parameters, frozen | **+$0.15T** (beyond G9) | **Accepted (planning basis)** | Increment beyond G9 |

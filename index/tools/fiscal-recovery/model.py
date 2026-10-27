@@ -96,14 +96,19 @@ def fund_experiments():
     return dict(ss=ss,leave=leave,hi=hi_cases,htf_last_year=max(x['fy'] for x in funds.htf),
                 caveat='SS extra rate is capped-base, education uncapped. Joint income-tax offsets and cross-tax responses are not scored. These fund experiments are NOT summed into the education/unified fiscal scenarios.')
 
+def check_comparison_inputs(provenance,rebased,read):
+    """Refuse a changed comparison input unless comparison-rebase.json records its exact new hash."""
+    for path,expected in provenance.items():
+        if path.startswith('index/data/') and path.endswith('.csv'):
+            actual=hashlib.sha256(read(path)).hexdigest()
+            if actual!=expected and rebased.get(path)!=actual:
+                raise ValueError('Comparison input changed; reconcile/rebase education bridge explicitly: '+path)
+
 def run():
     # Do not silently relabel a future changed numerical baseline as this comparison vintage.
     provenance=json.loads((ROOT/'sources/strategic-review-arithmetic.json').read_text())['source_sha256']
-    for path,expected in provenance.items():
-        if path.startswith('index/data/') and path.endswith('.csv'):
-            actual=hashlib.sha256((ROOT/path).read_bytes()).hexdigest()
-            if actual!=expected:
-                raise ValueError('Comparison input changed; reconcile/rebase education bridge explicitly: '+path)
+    rebased={e['path']:e['sha256'] for e in json.loads((HERE/'comparison-rebase.json').read_text())['entries']} if (HERE/'comparison-rebase.json').exists() else {}
+    check_comparison_inputs(provenance,rebased,lambda path:(ROOT/path).read_bytes())
     global F,B
     F=module('recovery_fiscal',ROOT/'index/tools/fiscal-model.py')
     B=F.read_baseline(ROOT/'index/data/fiscal-baseline.csv')

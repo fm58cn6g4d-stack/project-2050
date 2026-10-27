@@ -77,6 +77,7 @@ const CFD = (() => {
     cesAcp: 40, cesGain: 300, gsTx: 0.3, gsCurt: 0.02, wxHomes: 0.25,
     crItc: 0.38, crPtc: 34, crEv: 6800, crEvTake: 0.85, crUsed: 1000, crTruck: 0.08, crHp: 6.9, crPack: 15, crYears: 10, crCharge: 0.03, crInd: 0.15, // ITC and PTC include average bonus adders (ASSUMED 8 points and 10%)
     crTruckCost: 20000, crHpCost: 3000, // average 45W and 25C credit per sale ($), so a case that removes one credit can also remove its cost
+    hpPremPolicy: null, hpPremYear: null, // optional policy heat-pump premium from a start year (null: w.hpPrem throughout), e.g. a clean-heat standard
     crPowerTrigger: 383, crVehYears: null, zevPath: null, zevTrkPath: null, // power-credit phase-out trigger (Mt power CO2); vehicle credits' own term (null: crYears); optional statutory zero-emission sales schedules {year: share}
   };
   // Monte Carlo ranges [low, high] around the central value (triangular)
@@ -242,7 +243,8 @@ const CFD = (() => {
 
       // --- buildings: heating stock turnover ---
       const fossH = (w.gasBldg + EF.gas * 1000 * Pe / 1000) / 0.85, hpH = ((eRes + eCom) / 2) / 100 * 293.07 / 2.8;
-      const hpS = logistic(w.hpAsc - w.hpBeta * (hpH + w.hpPrem - crCons * w.crHp * erode - fossH));
+      const hpPremY = w.hpPremYear != null && y >= w.hpPremYear ? w.hpPremPolicy : w.hpPrem;
+      const hpS = logistic(w.hpAsc - w.hpBeta * (hpH + hpPremY - crCons * w.crHp * erode - fossH));
       if (crCons) credCost += crCons * 84 * (1 - hp) / 18 * hpS * w.crHpCost * erode / 1000; // 25C: 84m fossil-heated homes (ASSUMED from RECS shares)
       if (y > Y0) hp += (1 - hp) / 18 * hpS + (pol.weatherize && y >= 2031 ? w.wxHomes / 84 * (1 - hp) : 0); // CLI-5: Weatherization funds heat pumps, about wxHomes million low-income homes a year
       if (pol.weatherize && y >= 2031) credCost += 0; // its cost is CLI-5's ledger row, not modeled here

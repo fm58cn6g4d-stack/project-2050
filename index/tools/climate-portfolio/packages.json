@@ -126,13 +126,13 @@
    "label": "Carbon price path",
    "options": [
     {
-     "key": "d7",
-     "label": "D7 (decided)"
+     "key": "decided",
+     "label": "Decided: D7's steps to 2032, then $150 by 2037 (Espen, Oct 26; now in carbon-parameters.csv)"
     },
     {
-     "key": "higher",
-     "label": "REV-C1H higher path from 2033 (approved Oct 26; pending integration)",
-     "price": "higher"
+     "key": "old100",
+     "label": "Pre-Oct 26 D7 path ($100 by 2037), for comparison",
+     "price": "old100"
     }
    ]
   },
@@ -172,6 +172,24 @@
    ]
   },
   {
+   "id": "heat",
+   "label": "Clean-heat standard (proxy: heat-pump cost premium removed from 2032)",
+   "options": [
+    {
+     "key": "off",
+     "label": "Off (decided)"
+    },
+    {
+     "key": "on",
+     "label": "Clean-heat standard (floor measure; proxy)",
+     "world": {
+      "hpPremPolicy": 0,
+      "hpPremYear": 2032
+     }
+    }
+   ]
+  },
+  {
    "id": "industry",
    "label": "Clean-industry support (CLI-9 proxy)",
    "options": [
@@ -181,9 +199,16 @@
     },
     {
      "key": "on",
-     "label": "Doubled (30%), cost from the model's industrial-support estimate",
+     "label": "Doubled (30%)",
      "world": {
       "crInd": 0.3
+     }
+    },
+    {
+     "key": "high",
+     "label": "50% support (CLI-9 contracts at scale; floor measure)",
+     "world": {
+      "crInd": 0.5
      }
     }
    ]
@@ -316,41 +341,23 @@
   "credits": "standard_led",
   "ces": "90by35_100by40",
   "zev": "cars_trucks",
-  "price": "higher",
+  "price": "decided",
   "grid": "on",
   "wx": "on",
-  "industry": "on",
+  "heat": "on",
+  "industry": "high",
   "process": "on",
   "methane": "decided",
   "coal": "off"
  },
  "diagnostics": [
   {
-   "label": "Package A (with the approved $150-by-2037 price)",
+   "label": "Package A (approved price; with the floor measures)",
    "choice": {}
-  },
-  {
-   "label": "+ clean-heat standard proxy (heat-pump cost premium removed from 2032)",
-   "choice": {},
-   "world": {
-    "hpPrem": 0
-   }
-  },
-  {
-   "label": "+ clean-industry support raised to 50%",
-   "choice": {},
-   "world": {
-    "hpPrem": 0,
-    "crInd": 0.5
-   }
   },
   {
    "label": "+ price path to $200 by 2037",
    "choice": {},
-   "world": {
-    "hpPrem": 0,
-    "crInd": 0.5
-   },
    "price": {
     "through_2032": "D7",
     "price_2037_nominal": 200,
@@ -362,15 +369,16 @@
    "choice": {
     "coal": "on"
    },
-   "world": {
-    "hpPrem": 0,
-    "crInd": 0.5
-   },
    "price": {
     "through_2032": "D7",
     "price_2037_nominal": 200,
     "growth_after": 0.05
    }
   }
- ]
+ ],
+ "old100_price": {
+  "price_2037_nominal": 100,
+  "growth_after": 0.05,
+  "label": "pre-Oct 26 D7 path"
+ }
 }
