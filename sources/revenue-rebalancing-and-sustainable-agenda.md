@@ -12,8 +12,7 @@ The immediate research priority is the **reliability and additionality of receip
 
 ## Reading map
 
-- [Counted-revenue reconciliation](revenue-counted-reconciliation.md): traces the $8.115T general-fund reform subset already retained in mixed recovery, its aliases and fixed overlap allowances; pinned to main after PR #24, before PR #37.
-
+- [Counted-revenue reconciliation](revenue-counted-reconciliation.md): preserves the historical $8.115T general-fund reform subset and reconciles it to $8.005T after PR #37; traces aliases and fixed overlap allowances without treating either total as a durable revenue score.
 - [Initial financing comparisons](financing-protection-initial-screen.md): eight reproducible diagnostic cases, household effects and debt tradeoffs.
 - [Merged climate financing comparison](climate-recovery-financing-comparison.md): corrected Package A costs, conservative credit savings, and PR #31’s selected international results purchases. Proposed standing international finance and domestic-floor measures remain separately identified.
 - [Capacity/fund reference budget](../index/recovery-budget.md): federal totals and fund outcomes, with illustrative tax schedules clearly distinguished from adopted architecture.
