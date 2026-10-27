@@ -118,9 +118,8 @@
  "domestic_floor": 0.5,
  "floor_rule": "Threshold: international results count toward the 2035 benchmark only when domestic net reductions (Package A plus CLI-13) reach at least 50% below 2005 in that case; otherwise none count (Espen, Oct 26: 'above a 50% domestic floor').",
  "floor_measures": {
-  "diagnostic_from": 0,
-  "diagnostic_to": 2,
-  "label": "clean-heat standard plus clean-industry support raised to 50% (packages.py diagnostics, steps 2-3)"
+  "included": true,
+  "label": "clean-heat standard plus clean-industry support at 50%, inside Package A since Oct 26, so they add nothing further here"
  },
  "taper_note": "Pricing holds the full 2035 volume through 2039 (conservative for cost); the design tapers purchases after 2035 as domestic cuts and removals grow."
 }

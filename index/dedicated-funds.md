@@ -84,21 +84,21 @@ Where an account's receipts fall short of its program, the gap is a general-fund
 
 ## Carbon channel (D7)
 
-REV-C1 ($1.45T) spread over 2030-39 on the fee's durability path (price times a falling emissions index, the C1 profile in `incidence-phase-in.csv`); REV-C2 ($0.03T) on the same path. 80% of C1 is the dividend (CLI-2), the rest the transition share (to CLI-5). The dividend is equal per adult (CLI-2A); it uses a population of 346 million in 2030 growing 0.4% a year, 78% of it adults (estimates).
+REV-C1 ($1.90T) spread over 2030-39 on the fee's durability path (price times a falling emissions index, the C1 profile in `incidence-phase-in.csv`); REV-C2 ($0.03T) on the same path. 80% of C1 is the dividend (CLI-2), the rest the transition share (to CLI-5). The dividend is equal per adult (CLI-2A); it uses a population of 346 million in 2030 growing 0.4% a year, 78% of it adults (estimates).
 
 | Year | C1 ($B) | Dividend ($B) | Per adult ($) | Couple ($) | Transition ($B) | C2 ($B) |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2030 | 64 | 51 | 188 | 377 | 13 | 1 |
-| 2031 | 88 | 70 | 260 | 519 | 18 | 2 |
-| 2032 | 107 | 86 | 316 | 632 | 21 | 2 |
-| 2033 | 128 | 102 | 374 | 747 | 26 | 3 |
-| 2034 | 147 | 118 | 428 | 857 | 29 | 3 |
-| 2035 | 165 | 132 | 478 | 957 | 33 | 3 |
-| 2036 | 176 | 141 | 510 | 1,021 | 35 | 4 |
-| 2037 | 191 | 152 | 549 | 1,099 | 38 | 4 |
-| 2038 | 192 | 154 | 552 | 1,103 | 38 | 4 |
-| 2039 | 193 | 154 | 552 | 1,103 | 39 | 4 |
-| 2030-39 ($T) | 1.45 | 1.16 | | | 0.29 | 0.03 |
+| 2030 | 63 | 50 | 186 | 372 | 13 | 1 |
+| 2031 | 87 | 69 | 256 | 512 | 17 | 1 |
+| 2032 | 108 | 87 | 319 | 638 | 22 | 2 |
+| 2033 | 150 | 120 | 440 | 880 | 30 | 2 |
+| 2034 | 188 | 151 | 550 | 1,099 | 38 | 3 |
+| 2035 | 222 | 178 | 646 | 1,292 | 44 | 4 |
+| 2036 | 252 | 201 | 728 | 1,456 | 50 | 4 |
+| 2037 | 277 | 221 | 798 | 1,595 | 55 | 4 |
+| 2038 | 276 | 221 | 793 | 1,586 | 55 | 4 |
+| 2039 | 277 | 221 | 791 | 1,583 | 55 | 4 |
+| 2030-39 ($T) | 1.90 | 1.52 | | | 0.38 | 0.03 |
 
 ## Historical education-fund comparison (pre-adoption)
 

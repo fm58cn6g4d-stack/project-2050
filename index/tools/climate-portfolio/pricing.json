@@ -305,22 +305,22 @@
    },
    {
     "id": "D10",
-    "tier": "option",
+    "tier": "backstop",
     "policy": "CLI-7C",
-    "label": "Federal reinsurance backstop for residential catastrophe risk above a high attachment point, only in states with CLI-8 codes and disclosure",
+    "label": "Federal residential catastrophe reinsurance facility (Treasury): reinsures insurers' residential wind, wildfire, hail and (opt-in) earthquake losses between a state-level 1-in-100 and 1-in-250 year industry loss, 10% retained by insurers, $150B annual cap; only in states with CLI-8 codes and disclosure (decided Oct 27); flood stays in NFIP",
     "annual": [
-     0.0,
-     0.0,
-     0.0
+     -0.3,
+     0.3,
+     1.0
     ],
     "contingent_bn": [
-     100,
-     250,
-     400
+     75,
+     150,
+     150
     ],
-    "d4": "premiums priced to expected loss; Treasury line of credit repaid from later premiums (FAM-3 pattern)",
+    "d4": "permanent (expected net cost scored): risk-priced premiums at 1.3-1.5x modeled expected loss build a fund; Treasury borrowing authority up to the $150B cap pays claims the fund cannot; a TRIA-style recoupment surcharge on all residential property premiums (flat up to 1%, risk-weighted above; capped at 3% a year, up to 15 years, about $75B) repays it; any unrecouped draw is a disclosed contingent liability in every D4 test",
     "bcr": null,
-    "basis": "scenario: the Talarico stress test's facility carried about $400B of exposure and a $150-200B bad-season draw"
+    "basis": "estimate. Layer pricing: modeled expected loss in a 1-in-100 to 1-in-250 layer is roughly 0.6-1.0% of limit a year, about $1-1.5B on $150B; premiums at 1.3-1.5x cover it in expectation, and the cost range is pricing error, ramp-up before the fund accrues and draws beyond the recoupment cap. Anchors (sourced): U.S. insured catastrophe losses about $100B in 2025, 12% above the 10-year average (Gallagher Re); the Florida Hurricane Catastrophe Fund carries $17.0B of claims-paying capacity on a $1.29B premium (2025-26) and leans on post-event bonds; TRIA's federal share above a program trigger with mandatory recoupment is the scoring precedent; Sen. Schiff's INSURE Act (July 2025) proposes a Treasury program above a catastrophe threshold"
    },
    {
     "id": "R1",
@@ -374,5 +374,10 @@
   60,
   90,
   120
- ]
+ ],
+ "payment_rule": {
+  "proposed": "O5",
+  "status": "decided by Espen, Oct 27 (\"approve O5 and CLI-7C\"); Codex books it with Package A",
+  "why": "O5 is the only option that leaves the package at or below zero for the general fund in FY2040 and FY2050 in all four cases, so the package's permanent pieces (disaster D2-D8, farm payments, bill protection) are paid at maturity by the fee that causes them. It costs households far less than O3: process receipts leave the dividend only in years the package would otherwise draw on the general fund. O2 barely moves the general fund. O3 raises more but takes about $90-170 a year from each quintile's dividend over 2030-39. Under O5 the combustion fee keeps D7's 80/20 split untouched. Corrected after review (Oct 26): an earlier O5 also spent the $150 step's transition share, which the shared ledger already credits to CLI-5; without it O5 still meets the maturity test but its 2030-39 result is about +$21B (central), not -$68B."
+ }
 }

@@ -82,9 +82,14 @@
   - Also covers: receiving-community investment and renter relocation aid, so tenants aren't left behind when owners sell.
   - Cost: about $250,000 per property including about 10% activity costs (Curran-Groome et al. 2022).
   - Returns: Iowa's buyouts returned a benefit-cost ratio of 2.19.
-- **D10 (option CLI-7C; open question for the next turn). Federal reinsurance backstop.** This covers residential catastrophe risk above a high attachment point, only in states with CLI-8 codes and disclosure.
-  - Premiums are priced to expected loss, and a Treasury line of credit is repaid from later premiums (the FAM-3 pattern), so expected net cost is about zero.
-  - Contingent exposure is about $100-400B; the Talarico stress scenario drew $150-200B in one bad season. It stays an option until that exposure has a D4 treatment.
+- **D10 (CLI-7C; designed Oct 26, decided by Espen Oct 27). Federal residential catastrophe reinsurance facility.**
+  - *What it covers.* Treasury reinsures insurers' residential wind, wildfire, hail and (where a state opts in) earthquake losses in a layer between a state-level 1-in-100-year and 1-in-250-year industry loss. Insurers keep 10% of the layer so they still price and underwrite. The annual cap is $150B. Flood stays in NFIP (D4).
+  - *Who gets it.* Only states that adopt CLI-8's hazard-resistant codes and risk disclosure, and only insurers that offer all-peril residential policies and mitigation discounts (FORTIFIED-type). Code adoption is the price of entry, as with D8.
+  - *How it is priced.* Premiums are risk-based by state and peril, at 1.3-1.5 times modeled expected loss, with no cross-subsidy built into rates. The expected loss in the layer is roughly 0.6-1.0% of limit a year, about $1-1.5B (estimate).
+  - *How a bad year is paid.* The fund pays first. Treasury borrowing authority up to the $150B cap pays what the fund cannot. A TRIA-style recoupment surcharge on all residential property premiums (capped at 3% a year, up to 15 years, about $75B) repays the borrowing. This is the FAM-3 pattern with TRIA's recoupment added.
+  - *D4 treatment.* Scored at expected net cost: −$0.3B / +$0.3B / +$1.0B a year (low / mid / high), covering pricing error, a draw before the fund has built up, and draws beyond the recoupment cap. It is a permanent line. Any draw not recouped is a disclosed contingent liability in every D4 test: $75-150B in a severe year. That is the same size as the Talarico stress draw ($150-200B in one season, scenario figures).
+  - *Why do it.* Reinsurance is the cost that has been pushing insurers out of Gulf and Western markets. The Florida Hurricane Catastrophe Fund shows both how this works and where it stops: it has $17.0B of claims-paying capacity on a $1.29B premium for 2025-26, but only about $9B is liquid, so after a large storm it relies on post-event bonds. U.S. insured catastrophe losses were about $100B in 2025, 12% above the 10-year average (Gallagher Re). Only a federal balance sheet can hold the tail without post-event bonds. Sen. Schiff's INSURE Act (July 2025) takes the same approach, a Treasury program above a catastrophe threshold. This design adds the code condition, risk-based pricing and recoupment, which answer the industry's objection that a national program raises costs for low-risk policyholders.
+  - *Recoupment design.* Whether the recoupment surcharge should be state-weighted by risk. A flat surcharge spreads Gulf and Western tail costs nationally. Weighting it by state risk is fairer but makes it harder to pass. Decided: flat up to 1%, risk-weighted above.
 
 ## Pricing (2025 dollars; low / mid / high)
 
@@ -137,7 +142,7 @@ All programs start in FY2030, at 50% in 2030 and 75% in 2031. Component detail a
 2. Add a disclosed contingent line, "unbudgeted disaster supplementals (current law)", of about $15-25B a year next to the Judgment Fund line.
 3. Keep CAP-7's FEMA, NOAA and flood-map rows as they are. Nothing here adds to them.
 
-**Espen, October 26:** fund the fuller tier as soon as possible, without waiting for a reinsurance backstop. The backstop (D10, CLI-7C) is the open question for the next turn.
+**Espen, October 26:** fund the fuller tier as soon as possible, without waiting for a reinsurance backstop. The backstop (D10, CLI-7C) was the open question for the next turn. It is designed above (Oct 26) and was approved by Espen on Oct 27 ("approve O5 and CLI-7C").
 
 ## Limits
 
@@ -160,4 +165,5 @@ All programs start in FY2030, at 50% in 2030 and 75% in 2031. Component detail a
 - GAO-16-190, NFIP affordability options: https://www.gao.gov/products/gao-16-190
 - Curran-Groome et al. (2022), buyout implementation costs: https://par.nsf.gov/servlets/purl/10334742
 - USDA Forest Service, Wildfire Crisis Strategy: https://www.fs.usda.gov/sites/default/files/fs_media/fs_document/WCS-Progress-Summary.pdf
+- Reinsurance (D10): [FHCF 2025 annual report](https://fhcf.sbafla.com/media/nmmi1mip/2025-sba-catf-annual-report-final.pdf) ($17.0B capacity, $1.286B premium); [FHCF 2025 PML report](https://fhcf.sbafla.com/media/elzjfd3m/fhcf-2025-pml-report.pdf) (about $9.0B liquid); [Artemis on Gallagher Re, 2025 U.S. insured losses](https://www.artemis.bm/news/us-insured-catastrophe-losses-in-2025-12-above-10-year-avg-at-100bn-gallagher-re); [Sen. Schiff, INSURE Act, July 2025](https://www.schiff.senate.gov/?p=10469); [APCIA's objections](https://www.insurancebusinessmag.com/us/news/catastrophe/apcia-skeptical-of-legislation-proposing-a-federal-catastrophe-reinsurance-program-472865.aspx).
 - Project sources: [domain-climate.md](../domains/domain-climate.md) (CLI-7, CLI-8, CLI-7C), [capacity components](capacity-recovery-components.csv) (FEMA, NOAA and flood-map rows), [Thriving Economy map](climate-thriving-economy-agenda-map.md) (NFIP, FEMA reform, insurance and relocation items).
