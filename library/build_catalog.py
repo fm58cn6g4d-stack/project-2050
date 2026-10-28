@@ -24,7 +24,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LIB = ROOT / 'library'
 CATALOG, FACTS, INDEX = LIB / 'catalog.csv', LIB / 'catalog-facts.csv', LIB / 'name-index.md'
-SCOPE = ('legacy', 'library/intake')
+SCOPE = ('legacy', 'library/intake', 'library/text')
 COLUMNS = ['id', 'path', 'title', 'kind', 'origin', 'rights', 'status', 'aliases', 'copy_of', 'note']
 FACT_COLUMNS = ['id', 'path', 'bytes', 'sha256', 'first_commit', 'last_content_commit']
 STAGING = 'legacy/staging/unified-reform-inventory-current.md'
@@ -69,6 +69,9 @@ def generated_outputs():
 
 def title_of(path):
     p = ROOT / path
+    if path.startswith('library/text/'):
+        body = p.read_text(errors='replace').split('\n---\n', 1)[-1]
+        return next((l.strip() for l in body.splitlines() if len(l.strip()) > 20), p.stem)[:160]
     try:
         if p.suffix == '.md':
             for line in p.read_text(errors='replace').splitlines():
@@ -96,6 +99,11 @@ def seed_row(path, generated):
         else:
             status = 'legacy (read-only)'
         return kind, 'project repository, before October 28, 2026', 'project', status
+    if path.startswith('library/text/'):
+        head = dict(line.split(': ', 1) for line in (ROOT / path).read_text().split('\n---\n', 1)[0].splitlines()
+                    if ': ' in line)
+        return ('text version (public document)', f"{head.get('Publisher', '?')}: {head.get('Source', '?')}",
+                head.get('Rights', 'check'), 'current source')
     archive = {'old-sessions': 'old-sessions.zip', 'claude-more': 'claude-more.zip', 'project-2029': 'project_2029.zip'}
     origin = archive.get(parts[3], 'intake') if len(parts) > 4 else 'intake'
     if len(parts) > 5:
