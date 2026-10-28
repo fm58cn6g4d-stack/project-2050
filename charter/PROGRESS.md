@@ -15,7 +15,7 @@ Updated October 28, 2026 by Claude Code (stage C, step 1).
 | A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Done: approved by Espen | Claude Code | PR #50, merged |
 | B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
 | C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | In review | Claude Code | Branch `claude/stage-c-housing-1` |
-| C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); add the HUD evidence once uploaded | Standard | Next; HUD part waits on Espen's upload | Claude Code | — |
+| C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | Next; HUD evidence already added in step 1 | Claude Code | — |
 | C. First dossiers | 3. Housing section 2, what works | Most capable | Waiting on step 2 | Claude Code | — |
 | C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | Waiting on step 3 | Claude Code | — |
 | C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (with Codex on the budget model) | Most capable | Later | Claude Code, Codex | — |
@@ -45,7 +45,7 @@ The stage C, step 1 PR (housing problem section).
 ## Known gaps
 
 - **Review capacity.** Codex reviews again (PR #50). The scheduled Claude reviewer session also reviews routine PRs on request. Espen's `espen-approved` stands in for an agent review only on tier 3.
-- **Blocked sources.** HUD, CBO, GAO and congress.gov block automated downloads from agent sessions; Census, the Federal Reserve and EveryCRSReport do not; the GovQuery connector finds CRS and GAO reports by topic. The Congress.gov API names each CRS report's current version (EveryCRSReport can lag), and congress.gov's CRS PDFs download. The API needs an api.data.gov key, which Espen gives a session directly; it is never committed or written into the repository. Blocked documents come in through Espen's uploads.
+- **Blocked sources.** HUD, CBO and GAO block automated downloads from agent sessions; Census, the Federal Reserve, EveryCRSReport and congress.gov's CRS files do not; the GovQuery connector finds CRS and GAO reports by topic. The Congress.gov API names each CRS report's current version (EveryCRSReport can lag), and congress.gov's CRS PDFs download. The API needs an api.data.gov key, which Espen gives a session directly; it is never committed or written into the repository. Blocked documents come in through Espen's uploads; `library/fetch_public.py --file` saves an uploaded public document as text under its official address. Espen's Google Drive is not a project source: do not search it.
 - **Legacy outputs.** The legacy model suite still regenerates its reports in `legacy/index/` and `legacy/sources/` (`models/README.md`). They move into `models/` as each core model is rebuilt.
 - **Story claims after PR #45.** Two essay claims (`q4`, `downside`) cite figures that PR #45 changed (fourth-quintile −$2,906 is now −$3,054). The page stays pinned to its evidence commit; an editor should reread and advance the pin. `run-all.sh` reports it on every run.
 - **Catalog facts.** `catalog-facts.csv` dates depend on the clone's history depth, so the file is refreshed, never checked.
@@ -53,4 +53,4 @@ The stage C, step 1 PR (housing problem section).
 
 ## Questions for Espen
 
-1. Upload HUD's *Worst Case Housing Needs: 2025 Report to Congress*; HUD's site blocks automated downloads. It is the one number the housing problem section still lacks. Optionally also the *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026). The assistance gap, homelessness and the shortage now rest on Congressional Research Service summaries (grade C); HUD's reports would raise them to grade A.
+1. Optional: upload HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026), to raise the 2025 homelessness figures from grade C to A. *Worst Case Housing Needs 2025* and the 2024 homelessness report arrived October 28 and are in the library.

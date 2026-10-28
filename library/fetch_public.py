@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Save a verbatim text version of a public-domain document into library/text/.
 
-  python3 library/fetch_public.py URL SLUG "Publisher"
+  python3 library/fetch_public.py URL SLUG "Publisher" [--file UPLOAD]
+
+With --file, the text comes from a copy Espen uploaded (for sites that block agent downloads, such as
+HUD's); URL is still the official address, so the copy can be checked against it.
 
 HTML becomes one paragraph per line (tags removed, whitespace collapsed); PDF goes through pdftotext.
 The header records the address, retrieval date and the original's SHA-256, so the text can be checked
@@ -42,14 +45,17 @@ def pdf_text(data):
 
 if __name__ == '__main__':
     url, slug, publisher = sys.argv[1:4]
+    upload = sys.argv[5] if sys.argv[4:5] == ['--file'] else None
     host = urlparse(url).hostname or ''
     if not host.endswith(PUBLIC_HOSTS):
         sys.exit(f'{host} is not a U.S. government host; cite a licensed or private source instead of saving it')
     # curl, with the environment's proxy and certificates; some government sites refuse other clients.
-    data = subprocess.check_output(['curl', '-sS', '-L', '--fail', '--max-time', '120', url])
+    data = (Path(upload).read_bytes() if upload else
+            subprocess.check_output(['curl', '-sS', '-L', '--fail', '--max-time', '120', url]))
     kind = 'pdf' if data[:5] == b'%PDF-' else 'html'
     text = pdf_text(data) if 'pdf' in kind or url.lower().endswith('.pdf') else html_text(data.decode('utf-8', 'replace'))
-    header = (f'Source: {url}\nPublisher: {publisher}\nRetrieved: {datetime.date.today().isoformat()}\n'
+    retrieved = datetime.date.today().isoformat() + (' (copy uploaded by Espen)' if upload else '')
+    header = (f'Source: {url}\nPublisher: {publisher}\nRetrieved: {retrieved}\n'
               f'Original SHA-256: {hashlib.sha256(data).hexdigest()}\n'
               'Rights: public domain (U.S. government work)\n'
               'Text version made by library/fetch_public.py; passages are verbatim.\n---\n')

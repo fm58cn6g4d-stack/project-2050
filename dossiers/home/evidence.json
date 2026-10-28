@@ -338,5 +338,168 @@
   "supports": [
    "dossiers/home/1-problem.md"
   ]
+ },
+ {
+  "id": "EV-HOU-020",
+  "statement": "Of the 19.14 million very low-income renter households at risk of severe rent burdens and severely inadequate housing in 2023, 8.46 million (44.2 percent) had worst case needs: one or both problems without housing assistance.",
+  "figures": [
+   "19.14 million",
+   "8.46 million",
+   "44.2 percent"
+  ],
+  "source": "SRC-0296",
+  "anchor": "Of the 19.14 million VLI renter households susceptible to\nsevere rent burdens and severely inadequate housing in 2023, 8.46 million—44.2 percent—faced\none or both problems without housing assistance.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-021",
+  "statement": "The 8.46 million households with worst case needs in 2023 were an insignificant decrease from the record 8.53 million in 2021, which topped the recession-driven 8.48 million of 2011.",
+  "figures": [
+   "8.46 million",
+   "8.53 million",
+   "2021",
+   "8.48 million",
+   "2011"
+  ],
+  "source": "SRC-0296",
+  "anchor": "There were 8.46 million renter households with worst case needs in 2023, an insignificant\ndecrease of 62,000 cases compared with 8.53 million in 2021, which had topped even the\nrecession-driven record of 8.48 million in 2011.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-022",
+  "statement": "In 2023, 28 percent of very low-income renter households received housing assistance, ranging from 24.4 percent in the West to 38.0 percent in the Northeast.",
+  "figures": [
+   "28 percent",
+   "24.4",
+   "38.0"
+  ],
+  "source": "SRC-0296",
+  "anchor": "percent of VLI renter households in 2023 were assisted compared with 28 percent overall. The\nrapidly expanding central cities and suburbs in the South and West had particularly low rates of\nassistance. These regional disparities in the prevalence of housing assistance for VLI renter\nhouseholds were also evident nationally, ranging from 24.4 percent assisted in the West to 38.0\npercent assisted in the Northeast.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-023",
+  "statement": "There were 13.77 million unassisted very low-income renter households in 2023, and 61.4 percent of them had worst case needs.",
+  "figures": [
+   "13.77 million",
+   "61.4 percent"
+  ],
+  "source": "SRC-0296",
+  "anchor": "The population of unassisted VLI renters decreased by 420,000 households, or 3.0 percent, from\n14.19 to 13.77 million between 2021 and 2023. The rate of worst case needs among unassisted\nVLI renters increased by 1.4 percentage points from 60.1 to 61.4 percent during this same\nperiod.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-024",
+  "statement": "In 2023 there were only 59 affordable and available rental units per 100 very low-income renter households, and only 38 per 100 extremely low-income renter households.",
+  "figures": [
+   "59",
+   "100",
+   "38"
+  ],
+  "source": "SRC-0296",
+  "anchor": "As a result, in 2023, only 59 affordable units were available per 100 very low-income renter\nhouseholds, and only 38 units were available per 100 extremely low-income renter households.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-025",
+  "statement": "On a single night in 2024, 771,480 people experienced homelessness, about 23 of every 10,000 people in the United States, the highest number ever recorded; the number rose 18 percent in a year.",
+  "figures": [
+   "771,480",
+   "23",
+   "10,000",
+   "18 percent"
+  ],
+  "source": "SRC-0295",
+  "anchor": [
+   "The number of people experiencing homelessness on a single night in 2024 was the highest ever\nrecorded. A total of 771,480 people – or about 23 of every 10,000 people in the United States –",
+   "number of people experiencing homelessness increased by 18 percent."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2026-12-31",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-026",
+  "statement": "Nearly 150,000 children experienced homelessness on a single night in 2024, 33 percent (32,618) more than in 2023; people in families with children had the largest single-year increase, 39 percent.",
+  "figures": [
+   "150,000",
+   "33 percent",
+   "32,618",
+   "39 percent"
+  ],
+  "source": "SRC-0295",
+  "anchor": [
+   "People in families with children had the largest single year increase in homelessness. Between 2023\nand 2024, 39 percent more people in families with children experienced homelessness.",
+   "Nearly 150,000 children experienced homelessness on a single night in 2024, reflecting a 33 percent\nincrease (or 32,618 more children) over 2023."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2026-12-31",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-027",
+  "statement": "HUD's latest worst case needs report attributes the elevated needs to wage growth too weak to make rent affordable for low-income renters and to sustained rental demand, which it ties to record immigration.",
+  "figures": [],
+  "source": "SRC-0296",
+  "anchor": "This year’s report shows two realities. The first is that economic growth has been insufficient to\nlift the wages of low-income renting families high enough to make rent affordable. The second is\nthat national macroeconomic policies, such as record immigration, have combined to drive\nsustained high rental demand, which has continued to place upward pressure on rent prices.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-028",
+  "statement": "HUD's 2024 homelessness report names several likely causes of the record count: the affordable housing crisis, inflation, stagnating wages, systemic racism, public health crises, natural disasters, immigration, and the end of pandemic-era prevention programs including the expanded child tax credit.",
+  "figures": [],
+  "source": "SRC-0295",
+  "anchor": "Our worsening national affordable housing crisis, rising inflation, stagnating wages among\nmiddle- and lower-income households, and the persisting effects of systemic racism have stretched\nhomelessness services systems to their limits. Additional public health crises, natural disasters that\ndisplaced people from their homes, rising numbers of people immigrating to the U.S., and the end to\nhomelessness prevention programs put in place during the COVID-19 pandemic, including the end of the\nexpanded child tax credit, have exacerbated this already stressed system.",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2026-12-31",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
  }
 ]

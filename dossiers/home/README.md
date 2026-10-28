@@ -16,7 +16,7 @@ Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C
 
 | Section | Status |
 | --- | --- |
-| 1. The problem | Draft (stage C, step 1). Rent burden, arrears, the assistance gap, homelessness (2025 count) and the shortage are evidenced; the last three from CRS summaries (grade C). Worst case needs is listed as evidence still needed |
+| 1. The problem | Draft (stage C, step 1). Rent burden, arrears, worst case needs, the assistance gap, homelessness and the shortage are evidenced, mostly from HUD and Census (grade A). Subgroup breakdowns, evictions and the 2025 rent-burden refresh remain |
 | 2. What works | Not started |
 | 3. Design choices | Not started |
 | 4. Specification | Not started |
@@ -30,7 +30,4 @@ Evidence register: `evidence.json`, entries EV-HOU-001 onward.
 
 ## Open questions for Espen
 
-1. **HUD sources.** HUD's site blocks automated downloads, so these reports need to be uploaded (`library/README.md`):
-   - *Worst Case Housing Needs: 2025 Report to Congress* (the one number still missing);
-   - optionally, the *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026), to raise the homelessness figures from grade C to A.
-2. **CBO and GAO.** Their sites block downloads too. The assistance gap now rests on Congressional Research Service estimates (EV-HOU-011 to 013); HUD's counts would confirm it.
+1. **Optional upload.** HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026) would raise the 2025 homelessness figures from grade C to A. The 2024 report and *Worst Case Housing Needs 2025* are in the library (thanks for uploading them).
