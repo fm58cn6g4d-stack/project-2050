@@ -28,7 +28,8 @@ Sections are written in order. A section is added when it is drafted; the README
 - **Evidence.**
   - Every number or factual claim cites an evidence ID in brackets, for example [EV-HOU-001].
   - Each ID's entry in `evidence.json` names a catalogued source (`SRC-`) and the exact passage. The registry checker confirms that every figure appears in that passage.
-  - Public U.S. government documents are saved as text with `library/fetch_public.py`. Licensed sources are cited and briefly quoted, never saved.
+  - Any credible source may be used: government data, peer-reviewed research, think-tank and advocacy analysis, international programs, practitioners. Public-domain and openly licensed documents are saved as text with `library/fetch_public.py`; licensed ones are catalogued as citation rows and quoted briefly, with a locator (`library/README.md`).
+  - Grade by the kind of evidence, not the publisher's sector; an advocacy group's own estimate is usually C, and its design proposals are positions to weigh in section 3, not evidence.
 - **Gaps.** Where evidence is missing, say so in a short "Evidence still needed" list naming the source, instead of writing the claim without it.
 - **Grades.** Each evidence entry carries a grade:
   - A: official data or primary law;

@@ -21,7 +21,8 @@ class RegistryTests(unittest.TestCase):
         (root / 'library').mkdir()
         (root / 'library/catalog.csv').write_text('id,path,title,kind,origin,rights,status,aliases,note\n'
                                                   'SRC-0001,legacy/sources/rents.md,Rents,,,,,,\n'
-                                                  'SRC-0002,library/report.pdf,Report,,,,,,\n')
+                                                  'SRC-0002,library/report.pdf,Report,,,,,,\n'
+                                                  'SRC-0003,https://doi.org/10.1000/x,Study,citation (not saved),,licensed,,,\n')
         (root / 'legacy/sources').mkdir(parents=True)
         (root / 'legacy/sources/rents.md').write_text(SOURCE)
         (root / 'library/report.pdf').write_bytes(b'%PDF')
@@ -74,6 +75,21 @@ class RegistryTests(unittest.TestCase):
         e['anchor'] = ['Rents rose 4.2% in 2025', 'Rents rose 9.9%']
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
         self.assertIn("anchor not found in legacy/sources/rents.md: 'Rents rose 9.9%'", ' '.join(self.run_on(root)[0]))
+
+    def test_citation_sources_take_short_located_quotations(self):
+        root, e = self.tree()
+        e.update(source='SRC-0003', anchor='rents rose 4.2% in 2025', grade='B')
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn('needs a locator', ' '.join(self.run_on(root)[0]))
+        e['locator'] = 'p. 12'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertEqual(self.run_on(root)[0], [])
+        e['anchor'] = 'word ' * 61 + 'rents rose 4.2% in 2025'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn('quotation over 60 words', ' '.join(self.run_on(root)[0]))
+        e['anchor'] = 'rents rose 4.5% in 2025'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn("figure '4.2%' not in its anchors", ' '.join(self.run_on(root)[0]))
 
     def test_grade_dates_and_sources(self):
         root, e = self.tree()

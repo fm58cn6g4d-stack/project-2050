@@ -6,7 +6,8 @@ Checks, in one run:
 - library: every document is catalogued and the name index is current;
 - charter: DEC- and OUT- IDs are well formed and unique;
 - dossiers: each evidence.json entry names a catalogued source, its anchor passage (or list of passages)
-  exists in that source, its figures and every number in its statement trace to the anchors (the story
+  exists in that source (for a citation-only source, a licensed one the repository does not hold, each anchor
+  is a quotation of at most 60 words with a locator, which a reviewer checks against the original), its figures and every number in its statement trace to the anchors (the story
   builder's rules, models/registry/claims.py), its grade is A-E
   and its dates are valid; each provisions.json entry belongs to an agenda ID and cites known evidence;
 - references: every SRC-, EV-, OUT- and DEC- ID cited in current text resolves (in Markdown, an ID in
@@ -36,6 +37,8 @@ EV_ID = re.compile(r'^EV-[A-Z]{2,4}-\d{3}$')
 REFS = {'SRC': re.compile(r'\bSRC-\d{4}\b'), 'EV': re.compile(r'\bEV-[A-Z]{2,4}-\d{3}\b'),
         'OUT': re.compile(r'\bOUT-\d{2}\b'), 'DEC': re.compile(r'\bDEC-\d{4}-\d{2}-\d{2}-\d{2}\b')}
 GRADES = set('ABCDE')
+CITATION = 'citation (not saved)'  # library/build_catalog.py: a cited source the repository does not hold
+QUOTE_WORDS = 60  # a brief quotation from a licensed source; longer passages belong in a saved, open text
 
 
 def module(path, name):
@@ -81,6 +84,7 @@ def check_dossiers(root, catalog, agenda, today):
     """Evidence registers and provisions under dossiers/."""
     errors, warnings, evidence = [], [], set()
     src_paths = {r['id']: r['path'] for r in catalog}
+    src_kinds = {r['id']: r['kind'] for r in catalog}
     registers = sorted((root / 'dossiers').rglob('evidence.json')) if (root / 'dossiers').exists() else []
     for path in registers:
         rel = path.relative_to(root)
@@ -116,18 +120,26 @@ def check_dossiers(root, catalog, agenda, today):
                 continue
             if not src or not e.get('anchor'):
                 continue
-            text_path = root / (e.get('text_version') or src_paths[src])
-            if text_path.suffix.lower() not in TEXT:
-                errors.append(f'{where}: {src} is not a text file; give a text_version in library/ to anchor against')
-                continue
-            text = text_path.read_text(errors='replace') if text_path.exists() else ''
             # One exact passage, or a list of them when a claim spans a page or column break.
             anchors = e['anchor'] if isinstance(e['anchor'], list) else [e['anchor']]
-            missing = [a for a in anchors if claims.line_of(text, a) is None]
-            for a in missing:
-                errors.append(f'{where}: anchor not found in {text_path.relative_to(root)}: {a[:70]!r}')
-            if missing:
-                continue
+            if src_kinds[src] == CITATION and not e.get('text_version'):
+                # A source the repository cites but does not hold: its anchors are short quotations, checked by
+                # a reviewer against the original at the locator; the rules below still trace every number to them.
+                if not e.get('locator'):
+                    errors.append(f'{where}: a quotation from {src} needs a locator (page, section or table)')
+                long_ = [a for a in anchors if len(a.split()) > QUOTE_WORDS]
+                errors += [f'{where}: quotation over {QUOTE_WORDS} words; quote less: {a[:70]!r}' for a in long_]
+            else:
+                text_path = root / (e.get('text_version') or src_paths[src])
+                if text_path.suffix.lower() not in TEXT:
+                    errors.append(f'{where}: {src} is not a text file; give a text_version in library/ to anchor against')
+                    continue
+                text = text_path.read_text(errors='replace') if text_path.exists() else ''
+                missing = [a for a in anchors if claims.line_of(text, a) is None]
+                for a in missing:
+                    errors.append(f'{where}: anchor not found in {text_path.relative_to(root)}: {a[:70]!r}')
+                if missing:
+                    continue
             errors += [f'{where}: {p}' for p in claims.figure_problems(
                 anchors, e.get('figures', []), e.get('rounded', []), e.get('series', []))]
             # The statement is what a dossier repeats, so its numbers must trace too; its year is fact_date.
@@ -203,7 +215,7 @@ def run(root=ROOT, today=None, with_legacy=True):
         if [r['path'] for r in current] != [r['path'] for r in catalog]:
             errors.append('library/catalog.csv: files are uncatalogued or out of order (run library/build_catalog.py)')
         errors += [f'library/catalog.csv: {r["id"]}: {r["path"]} no longer exists'
-                   for r in catalog if not (root / r['path']).exists()]
+                   for r in catalog if not lib.is_citation(r) and not (root / r['path']).exists()]
         if (root / 'library/name-index.md').read_text() != lib.name_index(current):
             errors.append('library/name-index.md is stale (run library/build_catalog.py)')
     charter_errors, known = check_charter(root)

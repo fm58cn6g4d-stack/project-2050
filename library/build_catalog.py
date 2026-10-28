@@ -10,6 +10,10 @@
                                              # stale file facts only print a note
 
 The first run seeded the authored fields by the rules below; after that they are edited by hand.
+
+A citation row records a source the repository cites but may not hold, such as a licensed journal article
+or a paywalled report: its kind is "citation (not saved)" and its path is the source's address (a URL or
+https://doi.org/ link). Add one by hand; the script keeps it, checks nothing on disk for it and indexes its names.
 """
 import argparse
 import csv
@@ -25,6 +29,11 @@ ROOT = Path(__file__).resolve().parents[1]
 LIB = ROOT / 'library'
 CATALOG, FACTS, INDEX = LIB / 'catalog.csv', LIB / 'catalog-facts.csv', LIB / 'name-index.md'
 SCOPE = ('legacy', 'library/intake', 'library/text')
+CITATION = 'citation (not saved)'
+
+
+def is_citation(row):
+    return row.get('kind') == CITATION
 COLUMNS = ['id', 'path', 'title', 'kind', 'origin', 'rights', 'status', 'aliases', 'copy_of', 'note']
 FACT_COLUMNS = ['id', 'path', 'bytes', 'sha256', 'first_commit', 'last_content_commit']
 STAGING = 'legacy/staging/unified-reform-inventory-current.md'
@@ -102,8 +111,9 @@ def seed_row(path, generated):
     if path.startswith('library/text/'):
         head = dict(line.split(': ', 1) for line in (ROOT / path).read_text().split('\n---\n', 1)[0].splitlines()
                     if ': ' in line)
-        return ('text version (public document)', f"{head.get('Publisher', '?')}: {head.get('Source', '?')}",
-                head.get('Rights', 'check'), 'current source')
+        rights = head.get('Rights', 'check')
+        kind = 'text version (public document)' if rights.startswith('public domain') else 'text version (open license)'
+        return kind, f"{head.get('Publisher', '?')}: {head.get('Source', '?')}", rights, 'current source'
     archive = {'old-sessions': 'old-sessions.zip', 'claude-more': 'claude-more.zip', 'project-2029': 'project_2029.zip'}
     origin = archive.get(parts[3], 'intake') if len(parts) > 4 else 'intake'
     if len(parts) > 5:
@@ -213,7 +223,8 @@ def names(rows):
         sid, home = home_of(r, by_id)
         copy = f' of the original upload {r["id"]} (`{r["path"]}`)' if home != r['path'] else ''
         out.append((r['title'], sid, home, 'title' + copy))
-        out.append((Path(r['path']).name, sid, home, 'file name' + copy))
+        if not is_citation(r):
+            out.append((Path(r['path']).name, sid, home, 'file name' + copy))
         out += [(a.strip(), sid, home, 'alias' + copy) for a in r['aliases'].split(';') if a.strip()]
     return out
 
@@ -252,7 +263,10 @@ if __name__ == '__main__':
         if FACTS in stale:
             print('note: catalog-facts.csv is out of date; run library/build_catalog.py to refresh it')
         problems = [f'{p.relative_to(ROOT)} is stale or missing (run library/build_catalog.py)' for p in stale if p != FACTS]
-        problems += [f'{r["id"]}: {r["path"]} no longer exists' for r in rows if not (ROOT / r['path']).exists()]
+        problems += [f'{r["id"]}: {r["path"]} no longer exists' for r in rows
+                     if not is_citation(r) and not (ROOT / r['path']).exists()]
+        problems += [f'{r["id"]}: a citation row needs an http(s) address as its path' for r in rows
+                     if is_citation(r) and not r['path'].startswith(('https://', 'http://'))]
         ids = [r['id'] for r in rows]
         # One home per name: a title or alias that leads to two documents is ambiguous. File names may repeat.
         homes = {}
