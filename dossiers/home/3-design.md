@@ -218,12 +218,15 @@ Memo: `memos/3-production.md`.
 
 ## Fork 7. Immigration and construction labor (recommended without a memo)
 
-**The question.** The supply goals depend on construction workers, a third of whom are immigrants [EV-HOU-055]. How should the housing dossier align with the immigration flagship (OUT-07)?
+**The question.** The supply goals depend on construction workers, a third of whom are immigrants (Harvard Joint Center for Housing Studies, 2024) [EV-HOU-055]. How should the housing dossier align with the immigration flagship (OUT-07)?
 
-**Evidence.**
-- Immigrants were 34% of construction trades workers in 2023 [EV-HOU-055]. Where enforcement rolled out, homebuilding fell and new construction cost 18% more after three years [EV-HOU-056]. An estimate cited by CRS puts construction workers who could be lost to deportation at 1.7-1.8 million [EV-HOU-057]. Analysts on the left and the libertarian right agree [EV-HOU-060] [EV-HOU-061].
-- Immigration also raises rents where migrants settle, modestly for the typical metro [EV-HOU-050] [EV-HOU-053] [EV-HOU-054], with a lag [EV-HOU-183]. In the short run the recent inflows did not expand supply [EV-HOU-053].
-- Asylum seekers drove about 60% of the 2022-2024 rise in sheltered homelessness, concentrated in four places [EV-HOU-062] [EV-HOU-172].
+**Evidence.** Sources are named in plain text, since Espen decides this item.
+- Immigrants were 34% of construction trades workers in 2023 (Harvard Joint Center for Housing Studies, 2024) [EV-HOU-055].
+- Where enforcement rolled out, homebuilding fell and new construction cost 18% more after three years (Howard, Wang and Zhang, 2024) [EV-HOU-056].
+- An estimate cited by the Congressional Research Service puts construction workers who could be lost to deportation at 1.7-1.8 million (Congressional Research Service, housing supply report, 2026) [EV-HOU-057].
+- Analysts on the left and the libertarian right agree (Cato Institute; Economic Policy Institute) [EV-HOU-060] [EV-HOU-061].
+- Immigration also raises rents where migrants settle, modestly for the typical metro (Saiz, 2007; Wilson and Zhou, Federal Reserve Bank of Dallas, 2026; Hunt, Orrenius and Zavodny, Brookings, 2026) [EV-HOU-050] [EV-HOU-053] [EV-HOU-054], with a lag (Congressional Budget Office, 2025) [EV-HOU-183]. In the short run the recent inflows did not expand supply (Wilson and Zhou, 2026) [EV-HOU-053].
+- Asylum seekers drove about 60% of the 2022-2024 rise in sheltered homelessness, concentrated in four places (Meyer, Wyse and Williams, University of Chicago, 2025; HUD, 2024 homelessness report) [EV-HOU-062] [EV-HOU-172].
 
 **Recommendation.** This is a dependency, not a housing choice; the immigration dossier decides its own design. The housing dossier will:
 1. State its supply estimates in sections 6 and 7 as conditional on the construction workforce, and test them against a scenario in which it shrinks.
@@ -267,16 +270,38 @@ Memo: `memos/3-production.md`.
 
 ## Recommended without a memo
 
-Espen decides each item, yes or no. None is adopted by silence, and section 4 drafts none of them until Espen agrees. Points 2 and 4 are policy choices with political weight; the others are closer to implementation detail. Lasting affordability, listed here in an earlier draft, is now part of memo 3.
+Espen decides each item, yes or no. Sources are named in plain text, with the register tag after each. None is adopted by silence, and section 4 drafts none of them until Espen agrees. Points 2 and 4 are policy choices with political weight; the others are closer to implementation detail. Lasting affordability, listed here in an earlier draft, is now part of memo 3.
 
-1. **Payment limits by neighborhood.** Set voucher payment limits by ZIP code (Small Area Fair Market Rents) in metro areas, not one limit for the whole metro. Metro-wide increases mainly raised landlords' rents; neighborhood limits moved families to safer, lower-poverty areas [EV-HOU-095]. This applies under every option in fork 2.
-2. **Source-of-income protection.** Bar landlords nationwide from refusing tenants because they pay with a voucher. Refusal rates were 15% and 31% where such laws exist against 67% to 78% where they do not [EV-HOU-093], and the laws modestly improve where voucher holders live [EV-HOU-094]. *Consequence:* it is a federal rule on private landlords, so it needs a regular bill under the Senate rules change, not reconciliation, and landlord groups will oppose it. The alternative is to reward states that adopt such laws through HOU-6.
-3. **Search help.** Fund search help, landlord outreach and short-term costs such as deposits with every new award. In Seattle and King County they raised moves to high-opportunity areas from 15% to 53% [EV-HOU-091]. Emergency Housing Vouchers carried extra fees for services and landlord incentives [EV-HOU-188].
-4. **Right to counsel.** Make legal help for tenants an allowed use of fork 6's fund, without a federal mandate. Full representation helped in one trial [EV-HOU-143] and not in its companion [EV-HOU-144]. New York City's program reduced evictions [EV-HOU-145] but rents rose 1.2-1.6% in its second year, enough by one estimate to leave tenants slightly worse off [EV-HOU-147]. Both views stand; states and cities can choose, and their programs should be evaluated. *Consequence:* no national right to a lawyer in eviction court; the alternative is a federal mandate with funding, which the evidence does not yet support.
-5. **Delivery rules for emergency aid.** Let tenants self-attest income and hardship, verify with neighborhood data where possible, accept applications started by landlords, and measure improper payments from the first year. Spending doubled in the month after Treasury allowed self-attestation [EV-HOU-150]; neighborhood-data verification and landlord applications were associated with more success [EV-HOU-152] (contested on overall effects [EV-HOU-153]); improper payments went unmeasured [EV-HOU-154] [EV-HOU-182].
-6. **Public housing redevelopment.** Repair sound buildings first. Where buildings are redeveloped, replace every unit and guarantee residents the right to return, with a tenant-based voucher as their alternative. HOPE VI returned few residents [EV-HOU-122]; children who left distressed high-rises with vouchers did better [EV-HOU-121].
-7. **No residency-length rules in social housing.** Vienna requires two years at a Vienna address and gives longer-term residents preference [EV-HOU-164], which keeps out newcomers and homeless people [EV-HOU-162]. U.S. voucher rules bar residency requirements and length-of-residence preferences [EV-HOU-189]. HOU-8 and the guarantee should follow the same rule. Whether fair-housing law would bar them in a new program is for section 4.
-8. **The investor limit (HOU-7).** No change from the chosen design. The evidence is mixed: rents rose where merging institutional landlords overlapped [EV-HOU-138] and investors raise rents when they buy [EV-HOU-139], while their effect on access to ownership was limited [EV-HOU-140]. Section 4 adds the reporting HOU-7 already calls for.
+1. **Payment limits by neighborhood.** Set voucher payment limits by ZIP code (Small Area Fair Market Rents) in metro areas, not one limit for the whole metro. Metro-wide increases mainly raised landlords' rents; neighborhood limits moved families in Dallas to safer, lower-poverty areas (Collinson and Ganong, 2018) [EV-HOU-095]. This applies under every option in fork 2.
+2. **Source-of-income protection.** Bar landlords nationwide from refusing tenants because they pay with a voucher.
+   - Refusal rates were 15% and 31% where such laws exist, against 67% to 78% where they do not (HUD landlord study by the Urban Institute, 2018) [EV-HOU-093].
+   - The laws modestly improve where voucher holders live (Freeman and Li, 2014) [EV-HOU-094].
+   - *Consequence:* it is a federal rule on private landlords, so it needs a regular bill under the Senate rules change, not reconciliation, and landlord groups will oppose it. That is judgment, not evidence from the register. The alternative is to reward states that adopt such laws through HOU-6.
+3. **Search help.** Fund search help, landlord outreach and short-term costs such as deposits with every new award.
+   - In Seattle and King County they raised moves to high-opportunity areas from 15% to 53% (Bergman and others, 2024) [EV-HOU-091].
+   - Emergency Housing Vouchers carried extra fees for services and landlord incentives (Congressional Research Service, voucher program overview, 2023) [EV-HOU-188].
+4. **Right to counsel.** Make legal help for tenants an allowed use of fork 6's fund, without a federal mandate.
+   - Full representation helped in one Massachusetts trial (Greiner, Pattanayak and Hennessy, 2013) [EV-HOU-143] and not in its companion (Greiner and others, 2012) [EV-HOU-144].
+   - New York City's program reduced evictions (Cassidy and Currie, 2023) [EV-HOU-145]. But rents rose 1.2-1.6% in its second year, enough by one estimate to leave tenants slightly worse off (Collinson and others, University of Notre Dame, 2026) [EV-HOU-147].
+   - Both views stand; states and cities can choose, and their programs should be evaluated.
+   - *Consequence:* no national right to a lawyer in eviction court. The alternative is a federal mandate with funding, which the evidence does not yet support.
+5. **Delivery rules for emergency aid.** Let tenants self-attest income and hardship, verify with neighborhood data where possible, accept applications started by landlords, and measure improper payments from the first year.
+   - Spending doubled in the month after Treasury allowed self-attestation (Congressional Research Service, Emergency Rental Assistance report, 2023) [EV-HOU-150].
+   - Neighborhood-data verification and landlord applications were associated with more success (UC Berkeley and University of Pennsylvania researchers for HUD, 2026) [EV-HOU-152]. That evaluation is contested on overall effects (Collinson and others, National Bureau of Economic Research, 2025) [EV-HOU-153].
+   - Improper payments went unmeasured (Treasury Inspector General, 2024 and 2025) [EV-HOU-154] [EV-HOU-182].
+6. **Public housing redevelopment.** Repair sound buildings first. Where buildings are redeveloped, replace every unit and guarantee residents the right to return, with a tenant-based voucher as their alternative.
+   - HOPE VI redevelopment returned few original residents (Popkin and others, Urban Institute, 2004) [EV-HOU-122].
+   - Children who left distressed Chicago high-rises with vouchers did better as adults (Chyn, 2018) [EV-HOU-121].
+   - "Repair first" is judgment; the evidence bears on the right to return and the voucher alternative.
+7. **No residency-length rules in social housing.** HOU-8 and the guarantee should not favor people by how long they have lived in an area.
+   - Vienna requires two years at a Vienna address and gives longer-term residents preference (City of Vienna) [EV-HOU-164]. That keeps out newcomers and homeless people (Friesenecker and Kazepov, 2021) [EV-HOU-162].
+   - U.S. voucher rules bar residency requirements and length-of-residence preferences (HUD voucher rules, 24 CFR 982.207) [EV-HOU-189].
+   - Whether fair-housing law would bar them in a new program is for section 4.
+8. **The investor limit (HOU-7).** No change from the chosen design. The evidence is mixed:
+   - rents rose where merging institutional landlords overlapped (Gurun and others, 2023) [EV-HOU-138];
+   - investors raise rents when they buy (Lee and Wylie, Federal Reserve Bank of Philadelphia, 2024) [EV-HOU-139];
+   - their effect on access to ownership was limited (Giacoletti and others, Federal Reserve Bank of Philadelphia, 2025) [EV-HOU-140].
+   - Section 4 adds the reporting HOU-7 already calls for.
 
 ## How the choices fit together
 

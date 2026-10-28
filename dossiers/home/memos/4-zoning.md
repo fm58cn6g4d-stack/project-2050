@@ -1,6 +1,6 @@
 # Memo 4: What the zoning fund pays for
 
-Role: decision memo for Espen, fork 4 of the housing design (`../3-design.md`). Status: awaiting Espen's decision. Nothing changes until Espen decides.
+Role: decision memo for Espen, fork 4 of the housing design (`../3-design.md`). Status: awaiting Espen's decision. Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 ## The question
 
@@ -11,32 +11,37 @@ The plan has a Housing Supply Fund (HOU-6) that rewards cities and states for zo
 ## Why it matters
 
 Some zoning reforms produce homes, and some mostly raise land prices.
-- When Auckland, New Zealand, rezoned about three-quarters of its residential land, an estimated 21,808 extra homes were permitted in five years [EV-HOU-123].
-- California's statewide rules on backyard cottages took yearly permits from 1,336 to 30,354 [EV-HOU-128].
-- Chicago's narrower rezonings near transit raised land values but added no new permits in five years [EV-HOU-124].
-- Across U.S. cities, reforms that loosened the rules went with about 0.8% more housing over three to nine years, mostly at higher rents [EV-HOU-177].
+- When Auckland, New Zealand, rezoned about three-quarters of its residential land, an estimated 21,808 extra homes were permitted in five years (Greenaway-McGrevy and Phillips, 2023) [EV-HOU-123].
+- California's statewide rules on backyard cottages took yearly permits from 1,336 to 30,354 (California housing department, 2026) [EV-HOU-128].
+- Chicago's narrower rezonings near transit raised land values but added no new permits in five years (Freemark, 2019) [EV-HOU-124].
+- Across U.S. cities, reforms that loosened the rules went with about 0.8% more housing over three to nine years, mostly at higher rents (Stacy and others, Urban Institute, 2023) [EV-HOU-177].
 
 ## The options
 
 **A. Reward reforms (as chosen).**
 - Places get money for adopting reforms, scaled to units permitted.
-- *Risk:* a city can pass a narrow reform, collect, and see few homes built.
+- *Risk:* a city can pass a narrow reform, collect, and see few homes built, as in Chicago (Freemark, 2019) [EV-HOU-124].
 
 **B. Pay for results (recommended).**
 - Money follows homes permitted and finished.
 - Broad state or regional reforms earn more than narrow ones.
-- Lower-cost homes are counted separately, since reforms have done least there.
+- Lower-cost homes are counted separately, since reforms have done least there (Stacy and others, 2023) [EV-HOU-177].
 - Conditions still apply only to new federal money, as now.
-- *For people:* for example, a state that legalizes small apartment buildings everywhere, and sees them built, gets more than a city that rezones a few blocks.
-- *Cost or risk:* about the same money. Places with slow markets get less, even if they reform.
+- *For people:* for example, a state that legalizes small apartment buildings everywhere, and sees them built, gets more than a city that rezones a few blocks. Broad reforms are the ones that built homes (Auckland, 2023; California, 2026) [EV-HOU-123] [EV-HOU-128].
+- *Cost or risk:* about the same money. Places with slow markets get less, even if they reform. This is judgment; the register has no evidence on how such a formula performs.
 
 **C. Federal override.**
 - Federal law overrides local permits for federally financed homes.
-- *Risk:* legally risky and politically hard. The federal builder in memo 3 already covers building on federal land.
+- *Risk:* legally risky and politically hard. This is judgment, not evidence from the register. The federal builder in memo 3 already covers building on federal land.
 
 ## Recommendation
 
-**B.** The evidence shows broad reforms build homes and narrow ones often don't. Paying for homes built rewards what works.
+**B.** It rests on three findings:
+1. Broad reforms built homes in Auckland and California (Greenaway-McGrevy and Phillips, 2023; California housing department, 2026) [EV-HOU-123] [EV-HOU-128].
+2. A narrow reform in Chicago raised land values without building (Freemark, 2019) [EV-HOU-124].
+3. Gains across U.S. cities were modest and mostly at higher rents (Urban Institute, 2023) [EV-HOU-177].
+
+Paying for homes built rewards what works.
 
 ## If you decide
 
