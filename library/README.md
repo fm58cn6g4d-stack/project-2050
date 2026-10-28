@@ -16,4 +16,4 @@ To add a name, add it to the row's `aliases` column (semicolon-separated) and re
 **Rights.** The repository is public.
 - Open and public-domain material goes here in full.
 - Licensed or paywalled material is cited and briefly quoted, never committed. The POLITICO Pro article from the October 28 intake is recorded only by checksum in the intake manifest.
-- One intake file, `permitting-reform-summary-1.pdf`, has an unidentified publisher. Its `rights` field says to check it.
+- `permitting-reform-summary-1.pdf` is the Senate Energy and Natural Resources Committee's public one-pager, identified from its page-1 header.
