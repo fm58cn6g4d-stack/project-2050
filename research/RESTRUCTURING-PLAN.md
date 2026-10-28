@@ -1,176 +1,266 @@
 # Project 2050: restructuring plan
 
-October 28, 2026 · Second draft, revised after a critical review. Proposal for Espen's approval, not yet adopted. Claude Code, branch `claude/research-intake`.
+October 28, 2026 · Third draft. Proposal for Espen's approval, not yet adopted. Claude Code, branch `claude/research-intake`. It supersedes the earlier drafts on this branch.
 
-## The problem
+## 1. What this plan is for
 
-Project 2050 produced deep research early on: the war-game set, the climate and carbon sessions, the transportation and rail work, the health memo analysis and the ChatGPT pilots. Most of it reached the repository only as conclusions. The domain files cite it by nickname ("Bill Book 12", "the map", "the durability session"), often with no file behind the name. Most domain files carry 0–10 source links. Several recent fiscal and climate reports carry none, because they build on model outputs rather than evidence. Each new layer of work drew on the last summary, so detail thinned out with every pass. The canonical files have also grown by appending dated updates ("October 26 integration update…"). Reading one now means reconstructing its history to find the current position.
+Project 2050 should work like a serious research project. Its policies should rest on evidence that anyone can call up and check. They should be written as legislative and executive provisions. They should be tested by models that express that evidence and that professionals can use. They should be explained to the public in persuasive, forthright and optimistic terms that never claim more than the evidence supports.
 
-The fix is structural. Research should be stored so it can be called up. Policy should be chosen and recorded on the evidence. Proposals should be written as legislative and executive provisions that tie back to that research. Models, built as expressions of that evidence, should help compare options, validate proposals and illustrate their likely outcomes. Public content should sit on top and cite all of it.
+**Success, concretely.** At the end of this plan:
+1. any number or factual claim in a decision, provision, model input or public text leads, by an ID, to the exact passage it rests on, and a script checks that it still does;
+2. every nickname for a document leads to a file;
+3. each policy area has one readable statement of what is decided now, the reasons, and what would change the decision, with its history kept separately;
+4. the project's main models carry model cards, benchmarks and run logs good enough for outside professionals to use;
+5. the public essays and the front door are rebuilt on that base.
 
-## The target: four layers
+**Not in scope.** This plan does not change goals or adopted decisions, rewrite models from scratch, or publish anything. Policy changes found along the way go through the usual decision routes.
 
-| Layer | What it holds | Every item must |
+## 2. What went wrong, briefly
+
+The early research is deep: the war-game set and Bill Book, the climate and carbon sessions, the transportation and rail work, the health memo analysis, the ChatGPT pilots and the SEEC report. But most of it reached the repository only as conclusions. Domain files cite it by nickname, often with no file behind the name. Most carry 0–10 source links. Several recent fiscal and climate reports carry none, because they build on model outputs. Each pass drew on the last summary, so detail thinned out. Canonical files also grew by appending dated updates, so finding the current position means reading the history.
+
+The October 28 uploads supply most of the missing originals. The problem now is organization and process, not missing material.
+
+## 3. The design
+
+### Four layers
+
+| Layer | What it holds | What every item must do |
 | --- | --- | --- |
-| **1. Research** | Original sources and data; research notes and analysis; evidence registers of the claims the project relies on | Carry provenance (author, date, URL or original file, checksum, version, access rights). Each claim has an ID, an exact quoted passage, an evidence grade and a check date |
-| **2. Proposals** | Per policy area: a decision record (problem, options weighed, choice and reasons) and the provisions that implement it. Legislative vehicles and executive actions assemble provisions across areas | Rest on evidence IDs for their reasons. State status: selected, alternative or historical. State what would change the decision |
-| **3. Models and analytical toolkit** | Fiscal, distributional, poverty, carbon, transportation, calendar and vote models; their inputs and recorded runs; documentation that lets professionals outside the project run, inspect and adapt them | Be expressions of the evidence: every input and key mechanism traces to evidence IDs, or is labeled as an assumption with a tested range. Record which provision versions each run tested, and list what the model leaves out. Meet the toolkit standard below |
-| **4. Public and organizing content** | Research briefs and essays, the illustrated vision, the analysis companion, and material for organizing and accountability | Cite only evidence IDs, proposals and model runs. The story-page claim register already works this way |
+| **1. Research** | Original sources and data, research notes and analysis, and evidence registers of the claims the project relies on | Carry provenance: author, date, URL or original file, checksum, version and access rights. Each registered claim has an ID, an exact quoted passage, an evidence grade and check dates |
+| **2. Decisions and proposals** | For each policy area, a decision record and the provisions that implement it. Bills and other vehicles are assembled from provisions in the existing ledger | Rest on evidence IDs for their reasons. Cite the governing decision that adopted them. State status (selected, alternative or historical) and what would change the decision |
+| **3. Models and analytical toolkit** | Fiscal, distributional, poverty, carbon, transportation, calendar and vote models, their inputs and recorded runs, and documentation that lets outside professionals run, inspect and adapt them | Express the evidence. Every input and key mechanism traces to evidence IDs, or is a labeled assumption with a tested range. Record which provision versions each run tested. State what the model leaves out. Meet the toolkit standard (section 6) |
+| **4. Public and organizing content** | Research briefs and essays, the illustrated vision, the analysis companion, and organizing and accountability material | Cite only evidence IDs, provisions and model runs, through a claim register like the essay page's |
 
-The layers serve the charter's products:
-- **Public vision and organizing:** layer 4, resting on the rest.
-- **Governing blueprint and professional resources:** the evidence registers (layer 1), the decision records, legislative specifications and executive actions (layer 2), and the analytical toolkit (layer 3).
-- **Focused policy contributions:** drawn from all three as they mature.
+`governing/` sits above all four. It holds the goals, the charter, Espen's adopted decisions and the working rules.
 
-The order of the table reflects the order of reasoning. Decisions rest on evidence. Models are one way of reasoning from that evidence: to compare options, size them and test them. `governing/` stays above all four: goals, adopted decisions and working rules.
+**Which layer serves which charter product:**
+- **Public vision and organizing:** layer 4.
+- **Governing blueprint and professional resources:** layers 1–3.
+- **Focused policy contributions:** drawn from all four as each area matures.
 
-## Principles
+### Authority: no second canon
 
-1. **Build on what exists.** Nothing is thrown away. Earlier work is catalogued and labeled current, superseded, historical or raw.
-2. **One home for each thing.** Every document gets one catalog entry listing every name it has gone by, so a nickname always leads to a file.
-3. **Current position first, history separate.** A canonical file states what is decided now. Dated updates, superseded numbers and the reasoning behind changes move to a decision log, so readers don't have to reconstruct the history.
-4. **Claims cite evidence, not summaries.** A figure in a proposal or essay cites an evidence ID with an exact passage, never "per the Bill Book." The story page's automatic anchor check proves this works, and the same check extends to the evidence registers.
-5. **Models express the evidence, and inform decisions only as far as they do.** Models will often be part of the reasoning for a choice: comparing options, sizing a program, finding where a design fails. That is legitimate when the model is an expression of the evidence. Its inputs cite evidence IDs; its mechanisms rest on documented research; where evidence is thin it uses labeled assumptions with ranges rather than single numbers; and it states plainly what it leaves out. A model result carries the weight of the evidence beneath it, no more. Every decision record therefore names the evidence a model result rests on, and weighs what the model misses alongside what it shows. A result that depends on untraced assumptions, or that conflicts with stronger direct evidence, is a reason to look harder, not a basis for a decision. Models are not a source of facts about the world.
-6. **Public language presents models as analysis of evidence.** Public content argues from the evidence and the project's values. It uses model results as part of that argument and to illustrate what a policy would do. "Our analysis is that…" and "our research shows…" are the right register. Avoid wording that presents a model as an independent authority ("the model chose…", "optimized by our model…"). Model figures always appear with their conditions and limits.
-7. **Register what carries weight, not everything.** Evidence registers cover the claims that decisions, provisions and public content actually rely on, and they grow as work needs them. An exhaustive catalogue of every fact would never finish.
-8. **The toolkit is a product, not just internal plumbing.** Project 2050's models should become analytical and policymaking code that professionals can use. That includes legislative and committee staff, budget and policy analysts, researchers and advocates. They should be able to run a model, see exactly what evidence and assumptions it rests on, test their own variations, and reproduce the project's results from public data. The models still serve the public layer, but they are built to a standard others can rely on.
-9. **Move as little as possible.** New layers get new folders. Existing paths that tools and checks depend on, chiefly `index/`, stay where they are. A file moves only when its new home is clearly better, with links updated by script and checks kept green.
+The project's rules forbid competing policy canons, and this design keeps to that:
 
-## Structure
+| What | Where | Who decides it |
+| --- | --- | --- |
+| Goals, the charter, adopted decisions (D1–D9, dated approvals) | `governing/` | Espen |
+| Design choices under the standing delegation, and the reasons for all choices | Area decision records | Agents, recorded and reviewable; goal conflicts go to Espen |
+| Policy IDs and options | Existing domain files and `index/options-register.md` | Stay authoritative. They are restated, not replaced |
+| Which provisions ride which vehicle, and their costs | Existing ledger inputs (`index/data/inputs/ledger-*.csv`) | Already canonical. Provisions link to ledger rows rather than duplicating them |
+
+A decision record explains and cites. It never adopts anything by itself. Its reasoning follows the charter's existing format for decision reviews: current wording and source; purpose; original basis and assumptions; new findings; strengths, weaknesses and confidence.
+
+### Principles
+
+1. **Build on what exists.** Nothing is thrown away. Everything is catalogued and labeled current, superseded, historical or raw. Existing structures are extended, not duplicated: policy IDs, the options register, the ledger, the story builder's claim checks.
+2. **One home for each thing.** Every document has one catalog entry listing every name it has gone by.
+3. **Current position first, history separate.** A canonical text states what is decided now. Dated updates and superseded numbers move to a decision log.
+4. **Claims cite evidence, not summaries.** A figure cites an evidence ID with an exact passage, and a script checks the passage is still there. The essay page has shown this works.
+5. **Models express the evidence, and inform decisions only as far as they do.** Models are often part of the reasoning: comparing options, sizing a program, finding where a design fails. That is legitimate when:
+   - the model's inputs cite evidence;
+   - its mechanisms rest on documented research;
+   - thin evidence is represented by labeled assumptions with ranges;
+   - its omissions are stated.
+
+   A model result carries the weight of the evidence beneath it, no more. A decision record that relies on one names that evidence and weighs what the model misses. A result built on untraced assumptions, or one that conflicts with stronger direct evidence, is a reason to look harder, not a basis for a decision.
+6. **Public language presents models as analysis of evidence.** "Our analysis is that…" and "our research shows…" are the right register. Avoid wording that presents a model as an independent authority. Model figures appear with their conditions and limits.
+7. **Register what carries weight.** Evidence registers cover the claims that decisions, provisions, models and public content rely on, and grow as work needs them. The charter warns that a comprehensive register could become an administrative task in itself.
+8. **The toolkit is a product.** The models are built to a standard outside professionals can rely on: legislative and committee staff, budget and policy analysts, researchers, advocates.
+9. **Move as little as possible.** New layers get new folders. Paths that tools and checks depend on, chiefly `index/`, stay where they are.
+10. **Prove that restructuring changes nothing it shouldn't.** When a canonical file is restated, a script compares every number and policy ID before and after. Anything not carried over must appear in the decision log or be flagged.
+
+## 4. The data model
+
+Every record has a stable ID, and one checker verifies the links between records.
+
+| Record | ID form | Lives in | Authored or generated |
+| --- | --- | --- | --- |
+| Source | `SRC-0001` | `research/catalog.csv`: authored fields (aliases, status, area, rights, notes) in `catalog-authored.csv`; facts (path, size, checksum, first and last commit) generated | Both, kept in separate files so they don't conflict |
+| Evidence claim | `EV-HOU-001` | `research/evidence/<area>.json` | Authored; readable page generated |
+| Outcome | `OUT-01` | `governing/outcomes-record.md` (the charter's "small outcomes record") | Authored; Espen approves |
+| Policy and option | Existing, e.g. `HOU-4`, `HOU-4A` | Domain files, options register | Existing |
+| Provision | `HOU-4A.01` (option ID plus number) | `proposals/<area>/provisions.json` | Authored |
+| Vehicle and ledger row | Existing, e.g. `R2`, row `HOU-1` | `index/data/inputs/ledger-*.csv` | Existing; gains a provision crosswalk |
+| Decision record | `DR-HOU` | `proposals/<area>/decision.md` | Authored |
+| Model | `MOD-fiscal`, `MOD-poverty`… | `index/tools/<model>/MODEL-CARD.md` | Authored |
+| Model run | `RUN-poverty-2026-11-02-a` | `index/tools/<model>/runs.json` | Generated by the model |
+| Public claim | e.g. `share-served` | Each public builder's claim register | Authored, as on the essay page |
+
+**Evidence entries** record:
+- the statement;
+- its figures;
+- the source ID and the exact anchor passage;
+- the evidence grade (A official data or primary law; B experimental or peer-reviewed research; C credible secondary analysis; D project estimate; E assumption);
+- the date of the fact, the date checked, and a re-check date for facts that go stale;
+- the provisions, outcomes and model inputs it supports.
+
+**The checker.** The registry checker (`index/tools/registry/`) generalizes the essay builder's proven logic to all records. It verifies:
+- every ID resolves;
+- every anchor passage exists in its source;
+- every figure in authored text belongs to a cited claim;
+- rounded figures follow from raw values;
+- re-check dates aren't past due.
+
+Like the essay builder, it fails on content errors and only reports when a cited source moves.
+
+**Originals.** Each original kept in the library has a source card and, where possible, a text version: PDFs via `pdftotext`, Word and Excel via Python, HTML via text extraction. Anchors are checked against the text version, with the original's checksum recorded.
+
+**Access rights.** Public-domain and openly licensed material is stored in full. Copyrighted or paywalled material, such as the POLITICO Pro article in the intake, is reduced to citations and short quotations before anything leaves the private repository. Public builds ship only quotations.
+
+## 5. File layout
 
 ```
 research/
-  catalog.csv              one row per document: id, title, aliases, path, layer, area, version, supersedes, status, provenance, rights
-  intake/<date>/           raw uploads, unchanged (2026-10-28 is filed)
-  library/<area>/          originals worth keeping, as readable text where possible, each with a source card
-  notes/<area>/            analysis and session findings (most of today's sources/ reports, moved area by area)
-  evidence/<area>.json     claim register, validated by script; a readable page is generated from it
+  catalog.csv, catalog-authored.csv   every document (section 4)
+  name-index.md                       generated: every alias to its file
+  intake/2026-10-28/                  raw uploads, unchanged (filed)
+  library/<area>/                     originals kept, with source cards and text versions
+  notes/<area>/                       analysis and session findings, moved area by area from sources/
+  evidence/<area>.json                evidence registers
 proposals/
-  <area>/decision.md       the decision record: problem, evidence, options weighed, choice, reasons, what would change it
-  <area>/provisions.json   provision IDs, text or specification, status, evidence IDs, model runs
-  <area>/decision-log.md   dated history moved out of the canonical text
-  vehicles/<vehicle>.md    bills and reconciliation vehicles (R1, R2, Moving America…) assembled from provision IDs
-  executive/<id>.md        executive actions, same fields as provisions
-index/                     unchanged: model tools, inputs, outputs and the public edition; each model gains an evidence map (input → evidence ID or labeled assumption), a run log and a limits list
-domains/                   kept until an area's pass is done; then becomes a short pointer to proposals/<area>/
-governing/                 unchanged
+  <area>/decision.md                  decision record
+  <area>/provisions.json              provisions
+  <area>/decision-log.md              dated history moved out of canonical text
+governing/outcomes-record.md          outcomes (Espen approves)
+index/                                unchanged: models, inputs, outputs, public editions
+  tools/registry/                     the registry checker
+  tools/<model>/MODEL-CARD.md, runs.json
+domains/                              stays authoritative for policy IDs; each file is restated to current position only, linking to its decision record
 ```
 
-**The toolkit standard.** Each model that the project relies on or offers professionals carries:
-- a **model card**: what question it answers and what it cannot answer, its evidence map (each input to an evidence ID or labeled assumption with a range), key mechanisms and their sources, known limits, and status (exploratory, working or released);
-- **benchmarks**: comparison with official or independent estimates where they exist (CBO, JCT, SSA actuaries, Treasury, TPC, EIA and similar), with differences explained;
-- a **stable interface**: documented inputs, outputs and scenario definitions, runnable from one command, with no hidden manual steps;
-- **tests** covering accounting identities, boundary cases and reproduction of published project results;
-- a **run log** linking each published result to the model version, inputs and provision versions it used.
+Domain files keep their paths and their role as the home of policy IDs, so the merge rules for `domains/` still apply. That avoids the riskiest move. Only `sources/` research reports move, area by area, into `research/notes/`, after the merge-policy paths for `research/` and `proposals/` are approved.
 
-Models stay where they are in `index/tools/`. Some current tools are one-off report generators; the catalog sorts which are toolkit models and which are not. A later release step can package the toolkit for outside use without moving it.
+## 6. The toolkit standard
 
-**Evidence register entries** use one schema: id, statement, figures, source (catalog id plus exact anchor passage), evidence grade, date of the fact, date checked, re-check due date, and the provision IDs it supports. The re-check date is needed because facts like program counts or budget levels go stale.
+Each model the project relies on or offers professionals carries:
+- **a model card:**
+  - the question it answers, and the questions it cannot;
+  - its evidence map, linking each input to an evidence ID or to a labeled assumption with a range;
+  - key mechanisms and their research basis;
+  - known limits;
+  - its status: exploratory, working or released;
+  - who owns it;
+- **benchmarks:** comparison with official or independent estimates where they exist, with differences explained. The sources are CBO, the Joint Committee on Taxation, SSA's actuaries, the Treasury, the Tax Policy Center, the Energy Information Administration and the Census Bureau's poverty measure;
+- **a stable interface:** documented inputs, outputs and scenarios, runnable from one command with public or documented data, and no hidden manual steps;
+- **tests:** accounting identities, boundary cases, and reproduction of published project results;
+- **a run log:** each published result linked to the model version, inputs and provision versions it used.
 
-**Evidence grades:**
-- A: official data or primary law;
-- B: experimental or peer-reviewed research;
-- C: credible secondary analysis;
-- D: project estimate;
-- E: assumption.
+The toolkit never claims to produce official scores or individual benefit determinations. Some current tools are one-off report generators. The catalog marks which tools are toolkit models; the rest stay as they are, documented.
 
-**Access rights:** public-domain and openly licensed material can be stored in full. Copyrighted or paywalled material, such as a POLITICO Pro article, is kept as a citation with short quotations if the repository might ever become public. Public builds ship only quotations.
+## 7. How work proceeds
 
-## How the work proceeds
+### Session protocol
 
-**Phase 0: preserve the uploads (done).** The three archives are filed unchanged in `research/intake/2026-10-28/`, with a checksum manifest. Public PDFs and CBO data are recorded by checksum only. This is about one session's work, already finished.
+Each working session, whether Claude, Codex or another agent, should run the same way:
+1. Read this plan and the progress board (`research/PROGRESS.md`): which phase, which area, what's done, what's next.
+2. Claim the area or task in the queue.
+3. Work in one area. Keep each PR small enough to review in one sitting.
+4. Run the registry checker and the common checks.
+5. Update the progress board with what was done, what's next, and open questions.
+6. End with a PR.
 
-**Phase 1: catalog, name index and interim rules (1–2 sessions).**
-- Catalog every document in the repository and the intake: what it is, all its names, current version, what it supersedes, area, layer, status and rights.
-- Produce the name index that resolves every nickname, and a duplicate and conflict report. Known cases: PROJECT 2029 copies, two carbon-fee baselines, the Thriving map in two formats.
-- Flag model results that decisions rely on but whose inputs or mechanisms don't trace to evidence.
-- Propose small **interim working rules** in a separate tier-3 PR, so new work stops thinning out while the restructuring runs:
-  - cite a file or source, never a nickname;
-  - read an area's research before writing about it;
-  - model inputs cite evidence or are labeled assumptions with ranges.
+Nothing depends on memory between sessions. The repository is the only state.
 
-  A check that flags unresolved nicknames goes in alongside.
-- No files move.
+### The area pass
 
-**Phase 2: outcomes framework (short; Espen decides).** Write down the outcomes the charter commits to, such as income security, housing stability, health access, emissions and democratic participation, with how each is measured. These are goal-level choices, so they are Espen's to approve. They give every later validation the same yardstick.
+The same steps for each policy area:
+1. **Inventory.** List the area's documents from the catalog, its nicknames, its models, its open options and its public content.
+2. **Evidence.** Build the evidence register for the claims that carry weight, from the originals and primary sources. Re-verify time-sensitive facts.
+3. **Decision record.** For each major choice in the area, record:
+   - the problem;
+   - the evidence;
+   - the options weighed;
+   - the governing decision that adopted the choice, if one did;
+   - the reasons;
+   - the role any model played and what it misses;
+   - what would change the decision.
+4. **Restate the domain file.** State the current position only, and move history to the decision log. A script proves no number or policy ID was lost.
+5. **Provisions.** Specify provisions with IDs under their options, and link them to ledger rows and vehicles.
+6. **Models.** Bring the area's models up to the toolkit standard. Use them to compare and validate. Record runs.
+7. **Public content.** Rebuild the area's brief in the research-brief format and tone.
+8. **Check against the definition of done.**
 
-**Phase 3: pilot area end to end, housing (2–3 sessions).** Housing is small and already has a research brief and partial evidence. The new material includes its main original, Bill Book 12. The pilot does each of the following:
-1. Build the housing evidence register from the originals and primary sources.
-2. Write the decision record: the problem, options weighed (the million awards, the guarantee, a cash alternative), the choice and reasons, and what would change it.
-3. Restate the domain file as current position only, with history moved to the decision log.
-4. Specify the provisions with IDs, and show how they assemble into the vehicles they ride.
-5. Bring the poverty and housing-cost models up to the toolkit standard, with model cards, an evidence map tied to the housing register, benchmarks and run logs. Use them to compare options and validate the choice. This sets the model-card template.
-6. Rebuild the public brief on that base.
-
-Housing provisions ride shared vehicles such as R2, so the pilot also tests the vehicle structure. The templates are fixed from what the pilot teaches before roll-out.
-
-**Phase 4: area by area, with validation inside each pass (1–3 sessions per area; about 20–30 sessions in all).** Suggested order, set by how much new material is waiting and how live the decisions are:
-1. climate: the SEEC report, permitting, the FEMA Act, carbon models, the durability work. Several current choices lean on model comparisons, so this pass traces those models' inputs and mechanisms to evidence and records their limits;
-2. health;
-3. family and education;
-4. labor and AI;
-5. democracy, integrity and courts;
-6. capacity;
-7. revenue and fiscal, coordinated with Codex as the fiscal integration owner;
-8. transportation, which is closest to the target already;
-9. the rest.
-
-Each area is done when it meets the definition below. Files move into the new folders for that area only, after the merge-policy paths for those folders are approved.
-
-Each area pass also brings that area's models up to the toolkit standard, or records why a tool stays a one-off.
-
-**Phase 5: permanent rules and checks (tier 3, Espen approves).** These replace the interim rules once the pilot shows what works:
-- the reading order for agents;
-- evidence-ID citations required for new factual claims;
-- automatic checks for unresolved nicknames, unsupported figures and stale re-check dates;
-- merge-policy path rules for the new folders.
-
-The path rules go in **before** the first area's files move, alongside the pilot if needed.
-
-**Phase 6: public and organizing content (alongside phase 4).** Each area's essay or brief is rewritten when its pass finishes, in the persuasive, forthright and optimistic tone Espen set. Organizing and accountability material is built on the same evidence. The front door is refreshed once enough areas are done.
-
-**Phase 7: toolkit release (about 5–10 sessions, after the first several areas).** Turn the upgraded models into a usable professional toolkit:
-- a professional entry page that explains what each model answers, its evidence base, limits and benchmarks;
-- one consistent way to define and run scenarios across models, where their baselines and units are compatible, and a clear statement where they are not;
-- a benchmark report against official estimates;
-- worked examples, such as costing a provision, testing a household effect or checking a fiscal rule;
-- decisions on licensing and packaging.
-
-Candidates, in rough order of readiness:
-- the fiscal, ledger, incidence and dedicated-fund models;
-- the carbon model;
-- the transportation models;
-- the child-poverty microsimulation;
-- the calendar and vote models;
-- the CBO scorer tool in the intake.
-
-The toolkit never claims to produce official scores or individual benefit determinations.
-
-## Definition of done for an area
-
-- [ ] Every claim its decision record, provisions and public content rely on has an evidence ID with an exact, automatically checked passage.
+**Definition of done for an area:**
+- [ ] Every load-bearing claim has an evidence ID with an anchored, checked passage.
 - [ ] No unresolved nicknames remain.
-- [ ] A decision record states the problem, the options weighed, the choice, the reasons from evidence, and what would change it.
-- [ ] The canonical text states the current position only; history is in the decision log.
-- [ ] Provisions have IDs, status, and the vehicles they ride.
-- [ ] Every model used in the decision or validation meets the toolkit standard: a model card with its evidence map and limits, benchmarks where official estimates exist, a stable interface, tests and a run log. The decision record names the evidence beneath any model result it relies on.
-- [ ] The public brief cites only evidence IDs, provisions and model runs, and passes the story builder's checks.
+- [ ] A decision record covers each major choice, citing governing decisions and evidence, with the role and limits of any model stated.
+- [ ] The domain file states the current position. History is in the decision log, and the restatement check passes.
+- [ ] Provisions have IDs, status and ledger links.
+- [ ] Each model the area relies on meets the toolkit standard, or the reason it doesn't is recorded.
+- [ ] The public brief passes its claim checks.
+- [ ] The registry checker and common checks pass.
 
-## Coordination, review and limits
+### After an area is converted
 
-- **Agents.** Codex owns the shared fiscal model and keeps working during the restructuring. Areas are claimed one at a time in the queue, and fiscal paths are not moved while integration runs. The plan itself goes to Codex for comment, since it changes how both agents work.
-- **Review capacity.** Every tier 1–2 PR needs a second agent's review. Codex is out of review credits for now. Options: another Claude Code session as reviewer, or Espen approving tier-3 PRs directly. Restructuring PRs should be kept small enough to review in one sitting.
-- **Ongoing policy work.** Decisions keep being made during the restructuring. Areas not yet converted follow the interim rules. Converted areas follow the new structure.
-- **Intake status.** Intake files become citable only after cataloguing. Older plans (PROJECT 2029, the war-game set) are labeled historical, not policy.
-- **What this does not do.** It doesn't change goals or adopted decisions, rewrite the models, or publish anything.
+New facts enter the evidence register first. Changed decisions update the decision record, citing the governing approval where one is needed. Provisions and ledger rows follow, then a recorded model run, then the public text. Re-check dates surface stale facts automatically.
 
-## Decisions for Espen
+## 8. Phases, effort and order
 
-1. **Structure:** approve the four layers and the folder plan, including keeping `index/` in place, or adjust them.
-2. **Outcomes framework:** agree to define the outcomes in phase 2 for your approval.
-3. **Pilot:** housing (recommended) or another area.
-4. **Proposal format:** provisions specified section by section with IDs, and full legislative text only for priority vehicles (recommended), or full text throughout.
-5. **Interim rules:** approve the small interim rules PR at the end of phase 1.
-6. **Toolkit:** who it is for first (legislative staff, analysts, advocates), whether it should be openly licensed, and which models to prioritize for release.
-7. **Reviewing:** who reviews restructuring PRs while Codex is out of credits: a second Claude session, or you directly.
-8. **Pacing:** about 30–45 sessions in all, including the toolkit release, one phase or area at a time as credits allow. Phase 1 is the right next step either way.
+A "session" means one focused working session of the kind in this conversation. The estimates assume one agent working at a time.
+
+| Phase | Work | Output | Sessions |
+| --- | --- | --- | --- |
+| **0. Preserve** (done) | File the uploads with checksums | `research/intake/2026-10-28/` | done |
+| **0b. Land the plan** | PR merging the intake and this plan into main, so every session can see them; marked `needs-espen` | Merged plan and intake | under 1 |
+| **1. Catalog** | Catalog every document (about 170 outside `index/`, plus `index/` reports and 95 intake files) using scripts plus per-file judgment; name index; duplicate and conflict report; list of model results that decisions rely on without traced evidence; progress board | `research/catalog*.csv`, `name-index.md`, `PROGRESS.md` | 2 |
+| **1b. Interim rules** | Small tier-3 PR: agents must cite files, not nicknames; read an area's research before writing about it; trace model inputs to evidence or label them as assumptions. Add a nickname check | Approved rules and check | under 1 |
+| **2. Outcomes record** | Draft the charter's small outcomes record: outcomes, measures, baselines | `governing/outcomes-record.md` for Espen | 1 |
+| **3. Registry checker** | Generalize the essay builder's checks to all records; add the restatement check; propose merge-policy paths for `research/` and `proposals/` (tier 3) | `index/tools/registry/` | 1–2 |
+| **4. Housing pilot** | Full area pass on housing; set the templates (source card, evidence entry, decision record, provisions file, model card) | Housing done; templates fixed | 2–3 |
+| **5. Area passes** | In order:<br>1. climate (3)<br>2. health (2–3)<br>3. family and education (2)<br>4. labor and AI (2)<br>5. democracy, integrity and courts (2)<br>6. capacity (1)<br>7. revenue and fiscal, with Codex (2–3)<br>8. transportation (1–2)<br>9. remaining areas: Social Security, immigration, rights, public safety, national security, competition, executive power, amendments (4–6) | Areas done, briefs rebuilt | about 20–25 |
+| **6. Permanent rules** | Replace the interim rules with the checks that proved useful: agents' reading order, citation requirements, registry checks in CI | Tier-3 rules PR | 1 |
+| **7. Toolkit release** | Professional entry page; consistent scenario definitions where models are compatible, and statements where they aren't; benchmark report; worked examples; licensing and packaging. Candidates in order of readiness:<br>- fiscal, ledger, incidence and fund models;<br>- carbon;<br>- transportation;<br>- child poverty;<br>- calendar and votes;<br>- the intake's CBO scorer | Released toolkit | 5–10 |
+| **8. Front door** | Refresh the illustrated vision on the converted areas | New public edition | 1–2 |
+
+**Total:** about 35–45 sessions.
+
+**If sessions are scarce,** do phases 0b through 4 first, about 8 sessions. The pilot needs the checker (phase 3) and the housing outcomes (phase 2). Together these give the most value per session: everything findable, nicknames resolved, new work stopped from thinning, and one fully worked area as a model for the rest. After that, add areas in order of how live their decisions are.
+
+**Time-sensitive work comes first.** The post-election rebaseline of the planning scenario (D1) is due after the November 3 results. It must not wait for the restructuring. It proceeds under the interim rules, and its evidence goes straight into the new registers.
+
+## 9. Coordination and review
+
+- **Codex** owns the shared fiscal model and keeps working throughout. Fiscal and revenue files are converted together with Codex, at a point when integration isn't running. The plan goes to Codex for comment once Codex has credits again.
+- **Review.** Every tier 1–2 PR needs a second agent's review, and Codex is currently out of review credits. Until that changes, restructuring PRs are reviewed by a second Claude Code session, or approved by Espen directly where the tier requires it. PRs stay small to keep review practical.
+- **Claims.** One area at a time is claimed in the queue. Other work in unconverted areas continues under the interim rules.
+- **Intake.** Intake files are citable only once catalogued. Older plans (PROJECT 2029, the war-game set) are historical sources, not policy.
+
+## 10. Capabilities and limits of the agents doing this
+
+- **No memory between sessions.** Each session starts fresh, so the repository, this plan and the progress board carry all state. Startup reading costs part of every session.
+- **Limited context.** No agent can hold the whole corpus at once, so cataloguing relies on scripts (titles, headings, links, dates, git history) plus file-by-file judgment.
+- **Material agents can't reach:** the claude.ai Projects, the ChatGPT Library, paywalled sources, or anything outside the repository. Those need Espen to upload them.
+- **Agents can:**
+  - convert PDF, Word, Excel and HTML to text;
+  - check public sources on the web;
+  - write and test Python;
+  - fetch official data for benchmarks.
+- **Scanned PDFs** with no text layer may need OCR that is unreliable. They are flagged rather than trusted.
+- **Judgment calls can be wrong:** status labels, which claims carry weight, evidence grades. That's why the checks are automatic and every PR is reviewed.
+- **Agents never contact other people** on Espen's behalf. Any outside data request, records request or expert review needs Espen.
+
+## 11. Risks and how the plan handles them
+
+| Risk | Handling |
+| --- | --- |
+| The restructuring swallows the policy work | Small phases, interim rules early, time-sensitive work first, and a defined minimum path |
+| Registers grow into busywork | Register only claims that carry weight, with the charter's caution as the rule |
+| Restating domain files silently changes policy | The script-based restatement check, and history kept in decision logs |
+| A second canon appears | The authority table: provisions extend existing IDs and the ledger; decision records cite governing decisions |
+| The toolkit implies precision it lacks | Model cards, benchmarks and stated limits, and no claim to official scores or individual benefits |
+| Reviewer shortage stalls merges | A second Claude session as reviewer, small PRs, and direct approval by Espen where needed |
+| Copyrighted material leaks into public builds | The rights field in the catalog, and quotations only in public builds |
+
+## 12. Decisions for Espen
+
+1. **Design:** approve the four layers, the authority table and keeping `domains/` and `index/` in place.
+2. **Land the plan:** approve merging the intake and this plan into main (phase 0b).
+3. **Outcomes record:** agree that I draft it for your approval (phase 2).
+4. **Pilot:** housing (recommended) or another area.
+5. **Provision format:** specified section by section with IDs, and full legislative text only for priority vehicles (recommended), or full text throughout.
+6. **Interim rules:** approve the small rules PR after the catalog (phase 1b).
+7. **Toolkit:** who it serves first, whether to license it openly, and which models to release first.
+8. **Reviewing:** a second Claude session as reviewer while Codex is out of credits, or your direct approval.
+9. **Pace:** the minimum path (about 8 sessions) first, then areas as credits allow (about 35–45 in all).
