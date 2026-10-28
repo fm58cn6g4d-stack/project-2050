@@ -1,0 +1,209 @@
+#!/usr/bin/env python3
+"""Registry checker: every link between project records resolves (plan section 4; stage A, step 4).
+
+Checks, in one run:
+- agenda: agenda/agenda.csv has every legacy policy and option ID once, with valid levels;
+- library: every document is catalogued and the name index is current;
+- charter: DEC- and OUT- IDs are well formed and unique;
+- dossiers: each evidence.json entry names a catalogued source, its anchor passage exists in that source,
+  its figures trace to the anchor (the story builder's rules, models/registry/claims.py), its grade is A-E
+  and its dates are valid; each provisions.json entry belongs to an agenda ID and cites known evidence;
+- references: every SRC-, EV-, OUT- and DEC- ID cited in charter/, dossiers/ and public/ text resolves.
+
+A re-check date in the past is reported as a warning (an error with --strict), so an evidence entry
+falling due never breaks unrelated work.
+
+  python3 models/registry/check.py [--strict]
+"""
+import argparse
+import csv
+import datetime
+import importlib.util
+import json
+import re
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[1]
+sys.path.insert(0, str(HERE))
+import claims  # noqa: E402
+
+TEXT = {'.md', '.txt', '.csv', '.json', '.html', '.htm', '.py', '.js', '.jsx', '.rtf'}
+EV_ID = re.compile(r'^EV-[A-Z]{2,4}-\d{3}$')
+REFS = {'SRC': re.compile(r'\bSRC-\d{4}\b'), 'EV': re.compile(r'\bEV-[A-Z]{2,4}-\d{3}\b'),
+        'OUT': re.compile(r'\bOUT-\d{2}\b'), 'DEC': re.compile(r'\bDEC-\d{4}-\d{2}-\d{2}-\d{2}\b')}
+GRADES = set('ABCDE')
+
+
+def module(path, name):
+    spec = importlib.util.spec_from_file_location(name, path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def date(value):
+    try:
+        return datetime.date.fromisoformat(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def rows(path):
+    if not path.exists():
+        return []
+    with path.open(newline='') as f:
+        return list(csv.DictReader(f))
+
+
+def ids_in(path, pattern):
+    """IDs that begin a table row of a charter file (where they are defined)."""
+    if not path.exists():
+        return []
+    return [m.group(1) for line in path.read_text().splitlines()
+            if (m := re.match(r'\|\s*\**(' + pattern + r')\**\s*\|', line))]
+
+
+def check_charter(root):
+    errors, known = [], {}
+    for kind, path, pattern in (('DEC', 'charter/decisions.md', r'DEC-\d{4}-\d{2}-\d{2}-\d{2}'),
+                                ('OUT', 'charter/outcomes.md', r'OUT-\d{2}')):
+        found = ids_in(root / path, pattern)
+        errors += [f'{path}: {i} defined twice' for i in sorted({i for i in found if found.count(i) > 1})]
+        known[kind] = set(found)
+    return errors, known
+
+
+def check_dossiers(root, catalog, agenda, today):
+    """Evidence registers and provisions under dossiers/."""
+    errors, warnings, evidence = [], [], set()
+    src_paths = {r['id']: r['path'] for r in catalog}
+    registers = sorted((root / 'dossiers').rglob('evidence.json')) if (root / 'dossiers').exists() else []
+    for path in registers:
+        rel = path.relative_to(root)
+        try:
+            entries = json.loads(path.read_text())
+        except json.JSONDecodeError as e:
+            errors.append(f'{rel}: not valid JSON ({e})')
+            continue
+        for e in entries:
+            eid = e.get('id', '?')
+            where = f'{rel}: {eid}'
+            if not EV_ID.match(eid):
+                errors.append(f'{where}: ID must look like EV-HOU-001')
+            if eid in evidence:
+                errors.append(f'{where}: defined twice')
+            evidence.add(eid)
+            for field in ('statement', 'source', 'anchor', 'grade', 'fact_date', 'checked', 'recheck'):
+                if not e.get(field):
+                    errors.append(f'{where}: missing {field}')
+            if e.get('grade') and e['grade'] not in GRADES:
+                errors.append(f'{where}: grade must be one of A-E')
+            for field in ('checked', 'recheck'):
+                if e.get(field) and not date(e[field]):
+                    errors.append(f'{where}: {field} must be a date (YYYY-MM-DD)')
+            if date(e.get('recheck')) and date(e['recheck']) < today:
+                warnings.append(f'{where}: re-check was due {e["recheck"]}')
+            src = e.get('source')
+            if src and src not in src_paths:
+                errors.append(f'{where}: source {src} is not in library/catalog.csv')
+                continue
+            if not src or not e.get('anchor'):
+                continue
+            text_path = root / (e.get('text_version') or src_paths[src])
+            if text_path.suffix.lower() not in TEXT:
+                errors.append(f'{where}: {src} is not a text file; give a text_version in library/ to anchor against')
+                continue
+            text = text_path.read_text(errors='replace') if text_path.exists() else ''
+            if claims.line_of(text, e['anchor']) is None:
+                errors.append(f'{where}: anchor not found in {text_path.relative_to(root)}: {e["anchor"][:70]!r}')
+                continue
+            errors += [f'{where}: {p}' for p in claims.figure_problems(
+                [e['anchor']], e.get('figures', []), e.get('rounded', []), e.get('series', []))]
+    for path in sorted((root / 'dossiers').rglob('provisions.json')) if (root / 'dossiers').exists() else []:
+        rel = path.relative_to(root)
+        try:
+            entries = json.loads(path.read_text())
+        except json.JSONDecodeError as e:
+            errors.append(f'{rel}: not valid JSON ({e})')
+            continue
+        seen = set()
+        for p in entries:
+            pid = p.get('id', '?')
+            parent = pid.rsplit('.', 1)[0]
+            if not re.fullmatch(r'[A-Z]{2,4}-[A-Z]{0,3}\d+[A-Za-z]?\.\d{2}', pid):
+                errors.append(f'{rel}: {pid}: ID must look like HOU-4A.01')
+            elif parent not in agenda:
+                errors.append(f'{rel}: {pid}: {parent} is not in agenda/agenda.csv')
+            if pid in seen:
+                errors.append(f'{rel}: {pid}: defined twice')
+            seen.add(pid)
+            errors += [f'{rel}: {pid}: unknown evidence {ev}' for ev in p.get('evidence', []) if ev not in evidence]
+    return errors, warnings, evidence
+
+
+def check_references(root, known):
+    """Every registry ID cited in current text resolves to its record."""
+    errors = []
+    for folder in ('charter', 'dossiers', 'public', 'agenda', 'models'):
+        base = root / folder
+        if not base.exists():
+            continue
+        for path in sorted(base.rglob('*')):
+            if path.suffix not in {'.md', '.json', '.csv'} or not path.is_file() or 'site' in path.parts:
+                continue
+            text = path.read_text(errors='replace')
+            for kind, pattern in REFS.items():
+                for ref in sorted(set(pattern.findall(text)) - known[kind]):
+                    errors.append(f'{path.relative_to(root)}: {ref} does not resolve')
+    return errors
+
+
+def run(root=ROOT, today=None, with_legacy=True):
+    """(errors, warnings). with_legacy=False skips the agenda and library checks (they need the real tree)."""
+    today = today or datetime.date.today()
+    errors, warnings, notes = [], [], []
+    catalog = rows(root / 'library/catalog.csv')
+    agenda = {r['id'] for r in rows(root / 'agenda/agenda.csv')}
+    if with_legacy:
+        seed = module(root / 'agenda/seed_from_legacy.py', 'agenda_seed')
+        listed = [r['id'] for r in rows(root / 'agenda/agenda.csv')]
+        missing = sorted({r['id'] for r in seed.seed()} - set(listed))
+        errors += [f'agenda/agenda.csv: {i} listed twice' for i in sorted({i for i in listed if listed.count(i) > 1})]
+        errors += [f'agenda/agenda.csv: legacy ID {i} missing' for i in missing]
+        errors += [f'agenda/agenda.csv: {r["id"]}: level {r["level"]!r} is not L0-L4'
+                   for r in rows(root / 'agenda/agenda.csv') if r['level'] not in {'L0', 'L1', 'L2', 'L3', 'L4'}]
+        lib = module(root / 'library/build_catalog.py', 'library_catalog')
+        current = lib.catalog_rows()
+        if [r['path'] for r in current] != [r['path'] for r in catalog]:
+            errors.append('library/catalog.csv: files are uncatalogued or out of order (run library/build_catalog.py)')
+        errors += [f'library/catalog.csv: {r["id"]}: {r["path"]} no longer exists'
+                   for r in catalog if not (root / r['path']).exists()]
+        if (root / 'library/name-index.md').read_text() != lib.name_index(current):
+            errors.append('library/name-index.md is stale (run library/build_catalog.py)')
+    charter_errors, known = check_charter(root)
+    errors += charter_errors
+    dossier_errors, dossier_warnings, evidence = check_dossiers(root, catalog, agenda, today)
+    errors += dossier_errors
+    warnings += dossier_warnings
+    known.update({'SRC': {r['id'] for r in catalog}, 'EV': evidence})
+    errors += check_references(root, known)
+    return errors, warnings, {'agenda': len(agenda), 'sources': len(catalog), 'evidence': len(evidence),
+                              'decisions': len(known['DEC']), 'outcomes': len(known['OUT'])}
+
+
+if __name__ == '__main__':
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument('--strict', action='store_true', help='treat past-due re-checks as errors')
+    args = ap.parse_args()
+    errors, warnings, counts = run()
+    if args.strict:
+        errors, warnings = errors + warnings, []
+    for w in warnings:
+        print('warning:', w)
+    for e in errors:
+        print('error:', e)
+    summary = ', '.join(f'{v} {k}' for k, v in counts.items())
+    print(f'Registry: {summary}; ' + ('all links resolve' if not errors else f'{len(errors)} problem(s)'))
+    sys.exit(1 if errors else 0)
