@@ -1,0 +1,879 @@
+PROJECT 2029 — CBO SCORE SIMULATOR INPUTS
+Baseline: Current law as of FY2029 (post-OBBBA, post-TCJA extensions)
+Score window: FY2029–FY2038 (10 years) unless noted
+Format per item: [CURRENT POLICY] → [PROPOSED CHANGE] | [AFFECTED POPULATION/BASE]
+========================================================================
+
+
+SECTION 1: TAXATION AND REVENUE
+================================
+
+1.1 TOP INDIVIDUAL INCOME TAX RATE
+Current: 37% top marginal rate on ordinary income above $609,350 (single) / $731,200 (married filing jointly), as set by TCJA (2017) and made permanent by OBBBA (2025)
+Change: Raise top marginal rate to 39.6% on ordinary taxable income above $400,000 (single) / $450,000 (married filing jointly). All rate structures below those thresholds unchanged.
+Affected: Individual filers with ordinary taxable income above $400,000/$450,000 — approximately 2–3 million tax units annually.
+
+1.2 PASS-THROUGH DEDUCTION (SECTION 199A) PHASE-OUT
+Current: 20% deduction on qualified business income (QBI) for pass-through entities (S-corps, partnerships, sole proprietorships), with phase-out beginning above $383,900 (married) / $191,950 (single) under TCJA/OBBBA parameters
+Change: Eliminate the Section 199A deduction entirely for taxpayers with taxable income above $400,000 (single) / $450,000 (married filing jointly). Deduction preserved in full for incomes below those thresholds.
+Affected: Pass-through business owners — partners, S-corp shareholders, sole proprietors — with income above $400K/$450K. Estimated 800,000–1.2 million tax units.
+
+1.3 CORPORATE INCOME TAX RATE
+Current: 21% flat federal corporate income tax rate on all C-corporation taxable income, as set by TCJA (2017) and preserved by OBBBA (2025)
+Change: Raise flat federal corporate income tax rate from 21% to 28% on all C-corporation taxable income, effective first tax year beginning after enactment.
+Affected: All U.S. C-corporations with positive taxable income — approximately 1.6 million corporations filing with net positive income annually. The rate increase applies to the first dollar of corporate taxable income (flat rate structure preserved).
+
+1.4 CORPORATE ALTERNATIVE MINIMUM TAX (CAMT)
+Current: 15% CAMT on adjusted financial statement income (book income) for corporations with 3-year average book income above $1 billion, enacted in the Inflation Reduction Act of 2022 (IRA). OBBBA (2025) added several exemptions and reduced the effective base.
+Change: Restore CAMT to original IRA parameters: remove all OBBBA-added exemptions; restore the original adjusted financial statement income base without OBBBA carve-outs. 15% rate on book income above $1 billion average unchanged.
+Affected: C-corporations with 3-year average adjusted financial statement income above $1 billion — approximately 150–200 corporations. Effective rate increase for those currently benefiting from OBBBA exemptions.
+
+1.5 GILTI REFORM (GLOBAL INTANGIBLE LOW-TAXED INCOME)
+Current: U.S. multinational corporations pay approximately 10.5% effective U.S. tax rate on GILTI (foreign intangible income), with a 50% deduction under TCJA; per-country blending allowed under OBBBA revisions; 10% deemed tangible income return (DTIR) carved out of the base.
+Change: (a) Raise the GILTI inclusion rate by reducing the Section 250 deduction from 50% to 25%, raising the effective rate from ~10.5% to ~21%; (b) Eliminate per-country averaging (require country-by-country calculation); (c) Reduce the DTIR carve-out from 10% of qualified business asset investment (QBAI) to 5%.
+Affected: U.S. C-corporations with controlled foreign corporation (CFC) subsidiaries earning intangible income abroad — primarily large multinationals. Estimated 2,000–3,000 corporations with significant GILTI exposure.
+
+1.6 BEAT REFORM (BASE EROSION AND ANTI-ABUSE TAX)
+Current: 10% BEAT rate on modified taxable income for corporations with gross receipts above $500 million and a base erosion percentage of at least 3%, per TCJA. OBBBA preserved BEAT at 10%.
+Change: (a) Raise BEAT rate from 10% to 15%; (b) Expand definition of base erosion payments to include additional related-party transactions; (c) Lower the gross receipts threshold from $500 million to $100 million.
+Affected: Large U.S. corporations with significant related-party cross-border payments — primarily multinational corporations with gross receipts above $100 million. Estimated 5,000–8,000 additional corporations newly subject under the lower threshold.
+
+1.7 STEPPED-UP BASIS ELIMINATION AT DEATH
+Current: Under current law (Section 1014), the tax basis of inherited assets is "stepped up" to fair market value at the date of the decedent's death, eliminating income tax on all appreciation that occurred during the decedent's lifetime. This applies to all inherited assets regardless of value.
+Change: Eliminate the stepped-up basis rule for unrealized capital gains above $5 million per decedent (indexed to inflation). Gains above the $5 million threshold are treated as realized immediately prior to death and subject to income tax at the rates applicable to the decedent's final return. The executor pays the resulting tax from estate assets. A carryover basis (not step-up) applies to the amount above the threshold.
+Affected: Estates of decedents with unrealized capital gains in excess of $5 million — approximately 10,000–15,000 estates per year (roughly the top 0.3–0.5% of estates). Primary assets affected: appreciated equities, closely-held business interests, real estate, and collectibles held until death.
+
+1.8 WEALTH TAX
+Current: No federal annual wealth tax exists under current law. High-net-worth individuals are taxed only on realized income and at death (with stepped-up basis largely eliminating tax on unrealized appreciation at death under current law).
+Change: Impose a new annual federal net worth tax: 2% per year on net worth above $50 million; 4% per year on net worth above $1 billion. Applied to worldwide assets of U.S. citizens and long-term residents. Enforcement: mandatory 30% annual audit rate for all subject taxpayers; mandatory third-party reporting of all asset classes (publicly traded securities, real estate, private equity, hedge fund interests, art, offshore accounts, life insurance cash value); 40% exit tax on unrealized gains for individuals who expatriate or renounce long-term residency to avoid the tax.
+Affected: Individuals with net worth exceeding $50 million — estimated 75,000 households. The 4% rate applies to the portion of net worth above $1 billion — estimated 700–800 households.
+Scoring note: Constitutional risk is significant; score with a range reflecting legal uncertainty. Prepare a mark-to-market capital gains alternative generating comparable revenue if wealth tax is enjoined.
+
+1.9 CAPITAL GAINS TAX RATE FOR HIGH-INCOME FILERS
+Current: Long-term capital gains and qualified dividends are taxed at preferential rates: 0% for income below approximately $47,000 (single); 15% for income up to approximately $518,900 (single); 20% above that threshold. Plus 3.8% Net Investment Income Tax (NIIT) for income above $200,000 (single) / $250,000 (married). Maximum effective rate: 23.8%.
+Change: Tax long-term capital gains and qualified dividends as ordinary income (at the taxpayer's marginal rate) for taxpayers with adjusted gross income above $1 million. For these taxpayers, the preferential capital gains rates are eliminated; gains are taxed at 39.6% (plus the 3.8% NIIT, for an effective maximum rate of 43.4%). The existing preferential rates are unchanged for taxpayers with AGI below $1 million.
+Affected: Individual tax filers with adjusted gross income above $1 million who have long-term capital gains or qualified dividends — estimated 400,000–600,000 tax units per year. Primary sources of affected gains: publicly traded securities, real estate, closely-held business sales, and partnership interests.
+
+1.10 UNREALIZED CAPITAL GAINS AT DEATH
+Current: Under current law, unrealized capital gains are not taxed at death; they are eliminated through stepped-up basis (Section 1014). No recognition event occurs at death.
+Change: In addition to the stepped-up basis elimination (Section 1.7), impose a deemed-realization rule: unrealized capital gains above a $5 million per-decedent threshold are treated as realized immediately prior to death. For decedents with AGI in the year of death above $1 million, gains are taxed at ordinary income rates (39.6%); for others, at the 20% preferential capital gains rate plus NIIT. Spousal transfers retain carryover basis with deferral until the surviving spouse's death.
+Affected: Same population as Section 1.7 — estates with unrealized gains exceeding $5 million. CBO should score Sections 1.7 and 1.10 jointly to avoid double-counting; the effective tax is one event (deemed realization at death above $5M), not two separate taxes.
+
+1.11 FINANCIAL TRANSACTIONS TAX (FTT)
+Current: No federal financial transactions tax. Existing taxes: a small SEC Section 31 fee (currently approximately $8 per $1 million of covered transactions) that funds SEC operations. This is not a revenue-raising tax.
+Change: Impose new federal taxes: (a) 0.1% (10 basis points) tax on each sale of publicly traded equities, assessed on the seller at time of transaction; (b) 0.1% tax on each sale of bonds and other debt instruments with maturity above 100 days, assessed on the seller; (c) 0.005% (0.5 basis points) tax on the notional value of derivative contracts (options, futures, swaps) at time of contract execution.
+Affected: All parties selling covered securities or executing derivative contracts — including institutional investors, broker-dealers, hedge funds, pension funds, mutual funds, and individual retail investors. At average retail portfolio turnover of 20% on a $50,000 portfolio, estimated annual FTT liability for a typical retail investor: approximately $10–15/year. Primary revenue source: high-frequency traders and large institutional portfolios with high turnover.
+
+1.12 IRS FUNDING RESTORATION AND HIGH-WEALTH ENFORCEMENT
+Current: The Inflation Reduction Act of 2022 (IRA) appropriated $80 billion over 10 years for IRS modernization, enforcement, and taxpayer services. The OBBBA (2025) rescinded approximately $20–25 billion of this funding and reduced IRS staffing by several thousand positions. Current IRS enforcement of high-wealth filers is significantly below IRA-anticipated levels. The estimated annual "tax gap" (taxes legally owed but not collected) is approximately $700 billion/year, disproportionately concentrated among high-income and high-wealth filers.
+Change: Restore the IRA IRS appropriation in full — approximately $80 billion over 10 years ($8 billion/year), allocated to: (a) high-wealth and high-income audit expansion (primary allocation); (b) information technology modernization; (c) taxpayer services and digital filing. Mandate that at least 60% of new enforcement resources be directed to taxpayers with annual income above $400,000.
+Affected spending: $8 billion/year in discretionary appropriations.
+Affected revenue (collections): CBO estimated the IRA IRS investment would generate approximately $200 billion in additional revenue over 10 years. Focused high-wealth enforcement could generate $400–600 billion depending on audit scope.
+
+1.13 FOSSIL FUEL SUBSIDY ELIMINATION
+Current: Three major direct federal subsidies to oil and gas production:
+  (a) Percentage depletion allowance: independent oil and gas producers may deduct 15% of gross income from a well annually (not limited to capital cost recovery), reducing taxable income each year. Annual cost: approximately $1.5–2 billion/year.
+  (b) Intangible drilling cost (IDC) deduction: companies may immediately expense 70–100% of intangible drilling costs (labor, fuel, supplies) rather than capitalizing and depreciating over time. Annual cost: approximately $3–4 billion/year.
+  (c) Accelerated depreciation on fossil fuel equipment: 5-year MACRS depreciation on oil and gas equipment vs. longer economic life. Annual cost: approximately $1–2 billion/year.
+  Additional: coal production tax credits and other minor subsidies.
+Change: Repeal all three provisions for oil and gas, and repeal coal production tax credits. IDC deductions must be capitalized and depreciated over the economic life of the well (7–20 years). Percentage depletion limited to cost depletion (actual capital recovery only). All effective the first tax year after enactment.
+Affected: Oil and gas producers — primarily independent producers (percentage depletion and IDC primarily benefit independents, not major integrated companies that already capitalize most IDCs). Approximately 7,000–10,000 oil and gas producers claim these deductions annually.
+
+1.14 CARRIED INTEREST LOOPHOLE CLOSURE
+Current: Fund managers at private equity, hedge, and venture capital funds receive "carried interest" — a share (typically 20%) of fund profits — as compensation for managing the fund. Under current law (Section 1061, TCJA), this compensation is taxed at the long-term capital gains rate (maximum 23.8%) rather than as ordinary income (maximum 37%), provided assets are held for more than 3 years. Annual revenue cost: approximately $12–18 billion/year.
+Change: Tax all carried interest compensation at ordinary income rates, regardless of holding period, for fund managers receiving it as compensation for investment management services. This eliminates the preferential rate treatment entirely; the 3-year holding period rule is repealed. Effective for tax years beginning after enactment.
+Affected: Investment fund managers — general partners and managing members of private equity, venture capital, hedge funds, and real estate investment partnerships who receive carried interest. Estimated 200,000–300,000 individuals, heavily concentrated among the top 1% of earners. Revenue from closure: approximately $130–200 billion over 10 years.
+
+1.15 SOCIAL SECURITY PAYROLL TAX CAP REMOVAL
+Current: The Social Security payroll tax (12.4% combined employer/employee, or 6.2% each) applies only to wages up to the taxable earnings base — $168,600 in 2024, indexed annually to average wage growth. Wages above this cap are not subject to Social Security tax. Medicare payroll tax (2.9%) applies to all wages with no cap; an additional 0.9% applies to wages above $200,000 (single)/$250,000 (married).
+Change: (a) Apply the full 12.4% Social Security payroll tax (6.2% employer + 6.2% employee) to all wages above the current cap up to $400,000, as covered earnings for benefit calculation purposes; (b) Apply the 12.4% rate to wages above $400,000 but exclude these amounts from benefit accrual (these wages create a "donut hole" of taxed but non-credited earnings above $400K). Phase-in: raise the cap by $50,000 per year until it reaches $400,000, then remove entirely above that threshold.
+Affected: Wage earners with wages above $168,600/year (the current cap) — approximately 6% of all wage earners, or roughly 10 million individuals. Employer payroll tax also increases for each such employee. The full rate applies to earnings between $168,600 and $400,000; additional revenue (above $400K) does not increase benefit obligations.
+Scoring note: This generates significant payroll tax revenue but also increases Social Security benefit obligations for workers earning between $168,600 and $400,000. CBO should score net trust fund impact separately from budget impact.
+
+1.16 AI REVENUE LEVIES
+1.16a AI Worker Transition Fund Levy:
+Current: No such levy exists.
+Change: 0.5% annual levy on gross revenues derived from AI-enabled services for any entity with annual AI-enabled revenues above $1 billion. Revenue deposited in dedicated AI Worker Transition Fund (see Section 11). Self-assessed quarterly; IRS enforcement. Effective for fiscal years beginning 2 years after enactment (to allow for revenue definition rulemaking).
+Affected: Large AI service companies with annual revenues above $1 billion from AI-enabled products — estimated 50–100 companies initially, expanding as the AI sector grows.
+
+1.16b Data Labor Compensation Fund Levy:
+Current: No such levy exists.
+Change: 1.0% annual contribution on gross revenues for AI companies with annual revenues above $500 million from products substantially trained on publicly accessible human-generated content (text, images, code, audio). Revenue deposited in dedicated Data Labor Compensation Fund (see Section 11). Definition of "substantially trained on public content" established by Commerce Department rulemaking within 18 months of enactment.
+Affected: Generative AI companies with revenues above $500 million — estimated 20–40 companies.
+
+1.17 FEDERAL SMALL-DOLLAR CAMPAIGN FINANCE MATCHING PROGRAM
+Current: No federal matching program for small-dollar campaign donations exists. The Presidential Public Financing program is largely defunct (last major use: 2008).
+Change: Create a new mandatory federal matching program: federal government matches small-dollar donations to federal candidates (House, Senate, and Presidential primary and general) at a 6:1 ratio for donations up to $200 per donor per election. A $200 donation generates $1,200 in federal matching funds, for a maximum $1,400 total contribution. Funded from receipts of the carried interest loophole closure (Section 1.14). Program administered by FEC.
+Spending: Mandatory. Estimated $2–5 billion per 2-year election cycle depending on candidate participation rates. No prior program to use as a direct baseline; score against zero.
+
+
+SECTION 2: HEALTHCARE
+======================
+
+2.1 MEDICAID WORK REQUIREMENTS — REPEAL
+Current: OBBBA (2025) enacted "community engagement" work requirements for non-elderly, non-disabled Medicaid beneficiaries ages 19–55 without dependents. CBO estimated these requirements would cause approximately 10 million Medicaid enrollees to lose coverage and generate approximately $325 billion in mandatory spending savings over 10 years (2025–2034). States began implementing in 2026; as of 2029, coverage losses are materializing.
+Change: Repeal OBBBA Medicaid work requirements in their entirety (repeal the relevant OBBBA sections amending Social Security Act Section 1902). Restore continuous Medicaid enrollment protections. Restore annual (not semi-annual) eligibility redetermination. CMS directed to reinstate all Medicaid beneficiaries who lost coverage due to work requirements and failed paperwork.
+Affected: Approximately 10 million individuals who lost or will lose Medicaid coverage under OBBBA work requirements. Primarily non-elderly adults (ages 19–55) in expansion states without documented disabilities or dependent children.
+Mandatory spending increase: approximately $325 billion over 10 years (restoring the OBBBA savings).
+
+2.2 MEDICAID PROVIDER TAX AND STATE-DIRECTED PAYMENT RESTORATION
+Current: OBBBA (2025) imposed new caps on state provider tax percentages and reduced state-directed payment authority. CBO estimated these provisions generate approximately $375 billion in mandatory savings over 10 years by reducing the effective federal Medicaid matching rate.
+Change: Repeal all OBBBA restrictions on state provider tax percentages and state-directed payment authority. Restore the pre-OBBBA rules allowing states to use provider taxes (at the current 6% cap) to generate additional federal matching funds.
+Affected: All states operating Medicaid provider tax financing structures — approximately 38–40 states. Indirectly affects the approximately 71 million Medicaid enrollees whose coverage stability depends on states' ability to finance their Medicaid share.
+Mandatory spending increase: approximately $375 billion over 10 years.
+
+2.3 MEDICAID EXPANSION INCENTIVES RESTORATION AND NEW-STATE BONUS
+Current: OBBBA (2025) eliminated the enhanced federal matching rate (90% FMAP) for states newly expanding Medicaid under the ACA. As of 2029, 10 states remain non-expansion: Alabama, Florida, Georgia, Kansas, Mississippi, South Carolina, Tennessee, Texas, Wisconsin, Wyoming.
+Change: (a) Restore the 90% enhanced FMAP for states newly expanding Medicaid; (b) Create a new 3-year 100% FMAP bonus (federal government covers 100% of costs for 3 years, then transitions to the standard 90% ACA enhanced rate) for each of the 10 remaining non-expansion states that expand. Bonus is offered for states expanding within the first 2 years after enactment.
+Affected: If all 10 non-expansion states expand, approximately 3–4 million currently uninsured low-income adults (with incomes between 0–138% FPL) gain Medicaid coverage. States in the "coverage gap" (income too high for traditional Medicaid, too low for ACA marketplace subsidies) are the primary beneficiaries.
+Mandatory spending: approximately $200 billion over 10 years if all 10 states expand (at $20 billion/year at steady state for the new population, phased in over 2–3 years).
+
+2.4 MEDICAID REPRODUCTIVE HEALTH PROVIDER ELIGIBILITY
+Current: OBBBA (2025) imposed a one-year moratorium on Medicaid funding for nonprofit providers of family planning and reproductive services (including Planned Parenthood and FQHCs). As of 2029, this moratorium has expired but related coverage restrictions may remain.
+Change: Permanently restore Medicaid eligibility for all qualified family planning providers, including Planned Parenthood and FQHCs, regardless of whether they provide abortion services. Restore Title X family planning provider eligibility for Medicaid reimbursement. Codify in statute: no federal law may restrict Medicaid reimbursement to qualified family planning providers on the basis of other legal medical services they provide.
+Affected: Approximately 4 million Medicaid beneficiaries who receive family planning services from Planned Parenthood and similar providers annually.
+Mandatory spending: relatively small — the cost is Medicaid reimbursement for family planning visits at affected providers (approximately $1–3 billion/year).
+
+2.5 HOME AND COMMUNITY-BASED SERVICES (HCBS) WAIVER WAITLIST ELIMINATION
+Current: As of 2025, approximately 700,000 individuals are on HCBS waiver waitlists nationally. HCBS allows states to provide Medicaid-funded home and community care as an alternative to nursing home institutionalization. Federal matching rate for HCBS services is the standard FMAP (50–77%). OBBBA reversed some Biden-era HCBS eligibility expansions.
+Change: (a) Appropriate $10 billion/year for 5 years ($50 billion total) in enhanced federal HCBS grants to states to expand waiver capacity and eliminate waitlists; (b) Restore OBBBA-reversed HCBS eligibility standards; (c) Require states receiving enhanced federal funds to eliminate waitlists within 5 years.
+Affected: Approximately 700,000 individuals currently on HCBS waiver waitlists — primarily elderly adults and people with physical disabilities who prefer home care over nursing facility placement.
+Mandatory/discretionary spending: $10 billion/year for 5 years.
+
+2.6 ACA PREMIUM TAX CREDIT PERMANENCE AND EXPANSION
+Current: The American Rescue Plan Act of 2021 (ARP) enhanced ACA premium tax credits by: (a) eliminating the income cap (previously cut off at 400% FPL); (b) capping premiums at 8.5% of income for all enrollees regardless of income. These ARP enhancements expired at the end of 2025. As of 2029, ACA premium tax credits have reverted to the original ACA structure with the 400% FPL income cap (approximately $58,000 for a single individual in 2024 dollars).
+Change: Make the ARP enhanced premium tax credits permanent, with the following modifications: (a) No income cap — sliding scale subsidies extend to 600% FPL, with premiums capped at 8.5% of income for all enrollees above 100% FPL; (b) Eliminate the subsidy cliff — any household above 100% FPL is eligible for some subsidy. Repeal the OBBBA's pre-enrollment verification requirements that created additional barriers.
+Affected: ACA marketplace enrollees with incomes above 400% FPL (who lost subsidies when ARP expired) — approximately 5 million people. New enrollees with incomes 400–600% FPL who would newly qualify.
+Mandatory spending: CBO estimated the ARP enhancements at approximately $300 billion over 10 years at time of enactment (2021). Permanence without the income cap represents approximately $300–400 billion over the FY2029–FY2038 window.
+
+2.7 COST-SHARING REDUCTION (CSR) PAYMENT PERMANENCE
+Current: ACA cost-sharing reduction payments to insurers — which reduce out-of-pocket costs for silver plan enrollees between 100–250% FPL — were defunded by executive action in 2017 and have not been appropriated since. Insurers responded with "silver loading" (inflating silver plan premiums), which inadvertently increased premium tax credit costs. Annual CSR payment if funded: approximately $12–16 billion/year.
+Change: Permanently appropriate CSR payments to insurers serving ACA marketplace enrollees. Expand CSR eligibility to all silver plan enrollees up to 300% FPL (from the current 100–250% FPL range). Requires annual mandatory appropriation of approximately $14–18 billion/year at steady state.
+Affected: ACA marketplace enrollees in silver plans with incomes between 100–300% FPL — approximately 5–7 million individuals. Permanently funding CSRs may reduce silver plan premiums and thereby reduce premium tax credit costs (partially offsetting effect).
+Mandatory spending: $14–18 billion/year; approximately $150–180 billion over 10 years, partially offset by reduced premium tax credit costs from lower silver plan premiums.
+
+2.8 MEDICARE PAYGO SEQUESTER OVERRIDE
+Current: The OBBBA's (2025) deficit expansion triggered the Statutory Pay-As-You-Go Act's automatic sequester mechanism. CBO estimates this will result in approximately $500 billion in automatic Medicare payment reductions over 2026–2034, including a 4% across-the-board reduction in payments to Medicare providers. These cuts began taking effect in 2026. As of 2029, approximately $150–200 billion of the $500 billion has already been sequestered.
+Change: Override the PAYGO sequester by statute for Medicare — exempt Medicare from the Statutory PAYGO automatic spending reduction for the OBBBA-triggered sequester. Direct OMB to cease applying PAYGO reductions to Medicare. Apply retroactively to cover cuts already made.
+Affected: All Medicare-participating providers (hospitals, physicians, skilled nursing facilities, home health agencies, etc.) and Medicare beneficiaries. Approximately 67 million Medicare beneficiaries in 2029.
+Mandatory spending: approximately $300–350 billion over the FY2029–FY2038 window (the remaining uncollected portion of the $500 billion sequester).
+
+2.9 MEDICARE PHYSICIAN PAYMENT — PERMANENT INFLATION INDEXING
+Current: The Medicare physician fee schedule is updated annually under a formula that has chronically produced inadequate updates, requiring annual "doc fix" legislation. The OBBBA provided a one-time 2.5% update for a single year. Under the current system, physician payments have fallen approximately 26% in real terms since 2001.
+Change: Replace the current formula with a permanent annual update mechanism indexed to the Medicare Economic Index (MEI), which measures increases in physicians' practice costs. Effective beginning the first calendar year after enactment.
+Affected: Approximately 800,000 physicians and other practitioners billing Medicare under the physician fee schedule. Also affects approximately 67 million Medicare beneficiaries through effects on physician participation and access.
+Mandatory spending: estimated $10–20 billion/year above current law trajectory, depending on MEI growth. Approximately $100–200 billion over 10 years.
+
+2.10 MEDICARE DRUG PRICE NEGOTIATION — EXPANSION
+Current: The Inflation Reduction Act of 2022 (IRA) authorized Medicare to negotiate drug prices for a limited number of drugs annually: 10 drugs in Year 1 (2026), 15 in Year 2 (2027), 15 in Year 3 (2028), 20 per year thereafter. The OBBBA (2025) exempted "orphan drugs" from negotiation. Negotiated prices apply only to Medicare Part D.
+Change: (a) Remove the OBBBA orphan drug carveout — all drugs above the negotiation threshold are eligible for negotiation regardless of orphan drug designation; (b) Accelerate the schedule: 50 drugs negotiated per year by Year 3 of enactment; (c) Allow Medicare-negotiated prices to also apply to commercial insurance plans (removing the firewall between Medicare and commercial pricing).
+Affected: Drug manufacturers with products currently exempted via orphan designation or not yet subject to negotiation. Commercial insurance enrollees benefit from access to Medicare-negotiated prices.
+Mandatory savings: CBO estimates accelerated negotiation (50 drugs/year) and commercial extension generate approximately $400–800 billion in combined government savings over 10 years above the IRA baseline.
+
+2.11 MEDICARE PART D OUT-OF-POCKET CAP REDUCTION
+Current: The IRA (2022) established a $2,000 annual out-of-pocket cap on Medicare Part D drug costs, effective 2025. No equivalent cap exists for commercial insurance plans.
+Change: (a) Reduce the Medicare Part D annual out-of-pocket cap from $2,000 to $1,500, effective 3 years after enactment; (b) Establish a $3,000 annual out-of-pocket cap on prescription drug costs for commercial insurance plans subject to ACA market reform authority, effective 4 years after enactment.
+Affected: Approximately 3–5 million Medicare Part D enrollees who currently spend $1,500–$2,000/year in out-of-pocket drug costs; commercial enrollees with high drug costs.
+Mandatory spending (Medicare): approximately $30–50 billion over 10 years for the Part D cap reduction.
+Regulatory cost (commercial): primarily borne by insurers and indirectly by premium payers; affects ACA premium tax credit costs to the extent it changes actuarial values of ACA plans.
+
+2.12 INSULIN AND ESSENTIAL DRUG PRICE CAPS
+Current: The IRA (2022) established a $35/month cap on insulin costs for Medicare Part D enrollees. No equivalent cap for commercial insurance enrollees. No federal cap on other essential drugs.
+Change: (a) Extend the $35/month insulin cap to all insured patients covered by any federally regulated insurance plan (commercial plans subject to ACA, Medicaid, and Medicare); (b) Extend capped pricing to EpiPens (maximum $100/month for a two-pack), inhalers (maximum $35/month), naloxone (maximum $30/dose at retail), and common cancer medications (CMS to designate initial list of 20 drugs); (c) Grant CMS authority to cap any prescription drug's price at 150% of the median price in the UK, Canada, Germany, France, Japan, and Australia (the "most-favored-nation" reference basket) for any drug where the U.S. price exceeds that threshold by more than 50%.
+Affected: Insured patients purchasing insulin (approximately 8 million), inhalers (approximately 40 million), and other capped drugs. Drug manufacturers face reduced revenues on affected products.
+Mandatory spending: Medicare and Medicaid savings from lower prices. Mandatory spending increase from Medicaid coverage of these products at capped prices. Net: approximately $50–100 billion in mandatory government savings over 10 years from Medicaid and Medicare combined.
+
+2.13 AMERICARE — MEDICARE PUBLIC OPTION
+Current: No federal public health insurance option is available to individuals below age 65 outside of Medicaid and CHIP. Approximately 25–30 million Americans are uninsured as of 2029 (following OBBBA-induced coverage losses).
+Change: Establish AmeriCare, a new public health insurance option within the Medicare program. Parameters: (a) Universal eligibility — any individual may enroll regardless of employment, income, or current coverage; (b) Provider payment rates: Medicare rates +10% for most providers; Medicare rates +25% for rural and safety-net providers; (c) Premiums: income-scaled; free for households at or below 200% FPL; capped at 8.5% of income for all other enrollees; (d) Employers may offer AmeriCare to employees with the same tax-favored treatment as other employer-sponsored coverage; (e) Benefits: ACA essential health benefits plus the new dental, vision, and hearing benefits (Section 2.14). Available beginning plan year 2031. Establish an AmeriCare Trust Fund within HHS.
+Affected: Primarily the approximately 25–30 million uninsured Americans; also individuals currently in the ACA marketplace who may switch to AmeriCare; some workers whose employers shift to offering AmeriCare.
+Mandatory spending (net of premiums): CBO-range estimate $500–800 billion over 10 years at full enrollment. Gross federal cost before premium collections: higher. Urban Institute public option modeling projects 12–18 million newly insured within 3 years.
+
+2.14 MEDICARE DENTAL, VISION, AND HEARING BENEFIT EXPANSION
+Current: Traditional Medicare (Parts A and B) does not cover routine dental, vision, or hearing services. Medicare Advantage plans may cover these optionally. Approximately 67 million Medicare beneficiaries lack coverage for routine dental care.
+Change: Add comprehensive dental, vision, and hearing benefits to traditional Medicare (Part B). Phase-in schedule: (a) Dental preventive care (cleanings, x-rays, exams) beginning January 2031; (b) Comprehensive dental (basic and major restorative, extractions) beginning January 2033; (c) Vision (annual exams, glasses/contacts up to $300/year) and hearing (hearing aids up to $1,500/unit, audiology services) beginning January 2031. Annual dental benefit: $2,000 limit, no cost-sharing for preventive; standard Medicare cost-sharing for restorative. Include these benefits in AmeriCare from launch.
+Affected: Approximately 67 million traditional Medicare beneficiaries beginning 2031.
+Mandatory spending: estimated $250–350 billion over the FY2029–FY2038 window (costs begin accumulating from 2031; full run-rate closer to $40–50 billion/year at steady state). Partially offset by reduced emergency dental and hospitalization costs.
+
+2.15 FEDERAL LONG-TERM CARE INSURANCE PROGRAM
+Current: No federal long-term care insurance program exists. Medicaid covers long-term care only after individuals spend down most assets. Private long-term care insurance market has largely collapsed. Approximately 70% of Americans over 65 will need some long-term care; average cost: $54,000/year for assisted living, $100,000/year for nursing home.
+Change: Create a new federal social insurance program modeled on Germany's Pflegeversicherung (social long-term care insurance). Funded by a new mandatory 0.6% payroll contribution split equally between employer and employee (0.3% each). Benefits: up to $3,000/month for home care, adult day services, or skilled nursing facility care for individuals with documented functional limitations (2 or more activities of daily living). 5-year vesting requirement before benefit eligibility.
+Affected contributors: All workers and employers subject to federal payroll taxes — approximately 160 million workers and their employers.
+Affected beneficiaries: Individuals age 65+ with functional limitations — approximately 12–15 million initially.
+Mandatory spending: approximately $400 billion over 10 years. Offset by mandatory payroll tax revenues ($3,000/year per covered worker, approximately $480 billion over 10 years). Near-term: spending may exceed revenues during ramp-up. Long-run: program is self-financing through contributions.
+
+2.16 NATIONAL HEALTH SERVICE CORPS EXPANSION
+Current: The National Health Service Corps (NHSC) provides loan repayment and scholarships to health professionals who serve in Health Professional Shortage Areas (HPSAs). FY2024 NHSC appropriation: approximately $450 million, supporting approximately 18,000 clinicians in service.
+Change: Expand NHSC by 50,000 additional placements over 5 years (from current approximately 18,000 to approximately 68,000 at peak). Average loan repayment/scholarship cost per clinician: approximately $60,000–80,000. Annual additional cost at full expansion: approximately $3–4 billion/year (increasing from current $450 million).
+Affected: Health professionals (physicians, nurse practitioners, dentists, mental health providers, midwives) eligible for NHSC awards who commit to service in HPSAs; approximately 80 million patients in HPSAs who currently lack adequate primary care access.
+Discretionary appropriation: from current $450 million/year to approximately $3–4 billion/year over 5 years.
+
+2.17 RURAL MEDICINE RESIDENCY SLOTS
+Current: Graduate medical education (GME) slots are funded primarily through Medicare payments to teaching hospitals. Congress has not increased the overall cap on Medicare-funded residency slots since the Balanced Budget Act of 1997. Rural training track programs exist but are underfunded. An insufficient number of physicians complete residencies in rural settings.
+Change: Fund 2,000 new rural medicine residency slots through direct federal grants ($3 billion over 10 years — $300 million/year). Rural training track programs and community health center teaching programs are primary vehicles.
+Discretionary appropriation: $300 million/year.
+
+2.18 TITLE X FAMILY PLANNING FUNDING
+Current: Title X of the Public Health Service Act funds a nationwide family planning network providing contraceptive services, STI testing, and related services. FY2024 enacted Title X appropriation: approximately $286 million/year. The Trump administration has restricted Title X eligibility and may have further reduced this.
+Change: Restore and expand Title X funding to $400–500 million/year. Restore all family planning provider eligibility including Planned Parenthood. Restore the pre-Trump Title X regulations prohibiting referral gag rules.
+Affected: Approximately 4 million patients served annually through the Title X network, primarily individuals with low incomes (68% have incomes at or below 100% FPL).
+Discretionary appropriation: increase from approximately $286 million to $400–500 million/year.
+
+2.19 MATERNAL HEALTH EMERGENCY ACT APPROPRIATIONS
+Current: No dedicated federal maternal health emergency fund. U.S. maternal mortality rate is approximately 23 per 100,000 live births — highest among wealthy nations. Rates are 2–3x higher in states with abortion restrictions.
+Change: Appropriate $1 billion/year for 5 years ($5 billion total) for: maternal health centers (capacity grants), rural obstetric unit stabilization, midwifery training and deployment, and extended postpartum care programs. Funds distributed through HRSA. Prohibit states from suppressing maternal mortality data as condition of receiving funds.
+Discretionary appropriation: $1 billion/year.
+
+2.20 CDC RESTORATION AND EXPANSION
+Current: The CDC FY2024 enacted appropriation was approximately $9.2 billion (including the Agency for Toxic Substances and Disease Registry). DOGE (2025) and administration policy changes reduced CDC staffing by approximately 2,400 positions and cut approximately $1.7 billion in grants and programs. As of 2029, CDC operates at significantly below FY2024 levels.
+Change: Restore CDC to FY2024 enacted level of approximately $9.2 billion/year and expand to approximately $11 billion/year to address accumulated capacity losses. Restore all disbanded advisory committees (ACIP and others). Restore all terminated grant programs. Prohibit the administration from impounding congressionally appropriated CDC funds.
+Discretionary appropriation: increase from current levels to approximately $11 billion/year.
+
+2.21 NIH RESTORATION AND EXPANSION
+Current: NIH FY2025 enacted program funding level: $46.995 billion. Trump FY2026 budget request proposed cutting NIH to $27.9 billion (a 40.6% reduction). As of 2029, assuming the proposed cuts were partially enacted, NIH operates significantly below FY2025 levels.
+Change: Restore NIH to FY2025 enacted level of $47 billion and expand to $50 billion/year. Restore all terminated research grants and advisory committees. Prohibit the administration from using indirect cost rate manipulation (such as the proposed 15% cap) to effectively reduce grant funding.
+Discretionary appropriation: increase to $50 billion/year from whatever level has been enacted by 2029.
+
+2.22 HRSA RESTORATION
+Current: HRSA FY2024 enacted discretionary appropriation: approximately $8.89 billion. Total HRSA budget authority (including mandatory programs): approximately $16.2 billion.
+Change: Restore HRSA to FY2024 enacted level of $8.89 billion in discretionary appropriations. Restore all DOGE-cut programs including community health worker training, rural health programs, and maternal and child health programs.
+Discretionary appropriation: restore to $8.89 billion/year in discretionary spending.
+
+
+SECTION 3: IMMIGRATION
+========================
+
+3.1 BORDER TECHNOLOGY INVESTMENT
+Current: As of FY2025, CBP technology investment was approximately $1–1.5 billion/year. Fentanyl scanning technology covers only a small fraction of vehicles entering at ports of entry.
+Change: Appropriate $6 billion/year for 5 years ($30 billion total) for border technology: advanced scanning equipment at all major ports of entry, aerial surveillance systems, biometric processing infrastructure, fentanyl detection technology, and digital case management systems. Goal: scanning capability for 100% of commercial vehicles and 90% of passenger vehicles at all major ports of entry within 5 years.
+Discretionary appropriation: $6 billion/year.
+
+3.2 IMMIGRATION JUDGES AND COURT PERSONNEL
+Current: As of 2025, there are approximately 700 immigration judges handling over 3.5 million pending cases (a backlog of over 5 years). Average case takes approximately 4 years to resolve. OBBBA appropriated funds for 1,500 additional judges but hiring has been slow.
+Change: Fund hiring of 5,000 additional immigration judges (net new, above current staffing of approximately 700–800 judges) and 4,500 additional immigration court attorneys over 5 years. Hire 8,500 additional CBP officers focused on ports of entry. Staffing costs at average GS-13 to GS-15 levels for judges plus support staff.
+Discretionary appropriation: approximately $3–4 billion/year at full staffing.
+
+3.3 IMMIGRATION CASE MANAGEMENT AND ALTERNATIVES TO DETENTION
+Current: ICE detention costs approximately $350/person/day. As of peak 2025, ICE detained approximately 66,000 individuals at a cost of approximately $8.4 billion/year. Alternative to Detention (ATD) programs cost approximately $17/person/day with approximately 96% court appearance rates.
+Change: (a) Eliminate all private for-profit immigration detention contracts; (b) Appropriate $2 billion/year for ATD programs including electronic monitoring, community supervision, and case management; (c) Require detention only when an individual presents a documented flight risk or safety threat that cannot be addressed by alternatives.
+Affected: Approximately 66,000 individuals currently in detention. Transition to ATD at the same population level would cost approximately $410 million/year vs. $8.4 billion/year for detention — significant mandatory savings. The $2 billion/year ATD appropriation is above the minimum required (ATD capacity would need to be built up) and represents the build-out cost.
+Net spending: significant savings relative to current detention costs if detention population is maintained through ATD rather than physical detention.
+
+3.4 LEGAL REPRESENTATION FOR ASYLUM SEEKERS
+Current: No federal right to appointed counsel in immigration court. Approximately 37% of asylum seekers have legal representation; represented cases are resolved 5x faster and have significantly higher success rates.
+Change: Fund legal representation for all detained asylum seekers and unaccompanied minors in immigration court proceedings. Implemented through federal grants to legal aid organizations and public defender-type programs.
+Discretionary appropriation: approximately $500 million–$1 billion/year.
+
+3.5 REFUGEE ADMISSIONS RESTORATION
+Current: Trump administration reduced refugee admissions to near-zero in 2025 and terminated contracts with all refugee resettlement organizations. As of 2029, admissions are at historic lows. OBBBA appropriated $170 billion for immigration enforcement but nothing for refugee processing.
+Change: (a) Restore annual refugee admissions ceiling to 125,000 (statutory floor: 95,000); (b) Restore UNHCR partnership agreements; (c) Restore funding and contracts for resettlement organizations.
+Federal cost per refugee: approximately $14,000 in direct federal assistance in Year 1 (Medicaid enrollment, initial resettlement support, cash assistance). At 125,000 admissions: approximately $1.75 billion/year.
+Discretionary appropriation: approximately $1.75 billion/year.
+
+3.6 CENTRAL AMERICAN DEVELOPMENT INVESTMENT
+Current: Biden Root Causes Strategy for Central America was funded at approximately $860 million/year in its final year. Trump eliminated this program entirely in 2025.
+Change: Restore and expand to $1.6 billion/year ($8 billion over 5 years) for anti-gang law enforcement support, judicial reform, economic development, and climate adaptation in Guatemala, Honduras, El Salvador, and other high-migration-origin countries.
+Discretionary appropriation: $1.6 billion/year through State/USAID appropriations.
+
+3.7 USCIS BACKLOG ELIMINATION
+Current: As of 2025, USCIS has multi-year backlogs in employment-based visas (10+ year wait for India-born applicants in many categories), family-based petitions, and naturalization applications. Backlog grew significantly under Trump administration staffing cuts.
+Change: One-time appropriation of $3.6 billion to USCIS, State Department Bureau of Consular Affairs, and Department of Labor for hiring and technology upgrades specifically targeted at backlog reduction. Raise per-country employment visa caps from 7% to 15% of annual total (requires statutory change, not appropriation).
+Discretionary appropriation: $3.6 billion (one-time or multi-year).
+
+
+SECTION 4: DEMOCRACY AND GOVERNANCE
+======================================
+
+4.1 INSPECTOR GENERAL SYSTEM RESTORATION
+Current: As of early 2026, over 75% of presidentially appointed IG positions are vacant or filled with acting officials following Trump's mass firings of 17 IGs. IG offices lost approximately 16.6% of total workforce (approximately 2,600 positions). Aggregate IG funding across all federal offices was approximately $3.5 billion/year in FY2024.
+Change: Restore all IG offices to FY2024 staffing and funding levels within 90 days of enactment. The $580 million/year restoration (16.6% of $3.5 billion) represents the discretionary increase from current levels to FY2024 levels.
+Discretionary appropriation: restore to approximately $3.5 billion/year total across all IG offices.
+
+4.2 WHISTLEBLOWER PROTECTION OFFICE
+Current: Whistleblower protection is primarily administered through the Office of Special Counsel (FY2024 budget: approximately $30 million) and individual agency IGs. No independent office reporting directly to Congress exists.
+Change: Create new independent Office of Whistleblower Protection reporting to Congress (not executive branch). Staffed with attorneys and investigators. Congressional appropriation independent of executive branch budget process.
+Discretionary appropriation: approximately $50–100 million/year (new program).
+
+4.3 MERIT SYSTEMS PROTECTION BOARD RESTORATION
+Current: The MSPB was operationally crippled by the volume of appeals from Trump's mass firings. As of 2025, MSPB had a backlog of hundreds of thousands of appeals and approximately 250 administrative judges.
+Change: Hire 200 additional MSPB administrative judges. Target: 90-day resolution standard for straightforward wrongful termination claims. Restore MSPB appellate jurisdiction to cover probationary employees.
+Discretionary appropriation: approximately $50 million/year in additional MSPB funding.
+
+4.4 FCPA ENFORCEMENT EXPANSION
+Current: The DOJ FCPA unit was approximately 30 attorneys pre-Trump. Trump administration formally paused FCPA enforcement in early 2025. As of 2029, enforcement capacity has been severely degraded.
+Change: Restore FCPA enforcement and hire 100 additional FCPA enforcement attorneys beyond the pre-Trump staffing level.
+Discretionary appropriation: approximately $30–50 million/year in additional DOJ appropriations.
+
+4.5 UNITED STATES DIGITAL SERVICE
+Current: USDS was an existing organization with approximately $200 million/year in prior-year appropriations; DOGE restructured or eliminated significant USDS functions in 2025.
+Change: Restore USDS with a permanent statutory charter and $500 million/year mandatory annual appropriation. Mandate that USDS support all major federal benefit systems.
+Mandatory/discretionary appropriation: $500 million/year.
+
+4.6 GOVERNMENT TECHNOLOGY MODERNIZATION FUND
+Current: The Technology Modernization Fund (TMF) was created in 2017 with revolving-fund authority; funded at approximately $100–200 million/year in recent years. DOGE disrupted or eliminated many TMF-funded modernization projects.
+Change: Create a new dedicated Government Technology Modernization Fund appropriated at $5 billion/year ($50 billion over 10 years) for: legacy system replacement (IRS, SSA, VA, benefits agencies), cybersecurity hardening, and user-facing interface redesign.
+Discretionary appropriation: $5 billion/year.
+
+4.7 LOGIN.GOV AND FEDERAL DIGITAL IDENTITY
+Current: Login.gov was an existing federal identity platform with approximately $100 million/year in operating appropriations; used by approximately 40 agencies. Trump administration disrupted some Login.gov functions.
+Change: Mandate Login.gov adoption across all federal agencies within 3 years; fund state adoption at 50% federal match.
+Discretionary appropriation: approximately $1–2 billion over 5 years total (federal operations + state adoption grants).
+
+4.8 BENEFITS NAVIGATORS
+Current: No federal program of this scale and design exists for benefits navigation. Some LIHEAP and SNAP outreach funding exists at much smaller levels.
+Change: Fund 10,000 community-based "No Wrong Door" benefits navigators at libraries, health centers, schools, and social services offices nationwide. Average salary + overhead per navigator: approximately $75,000–100,000/year.
+Discretionary appropriation: approximately $750 million–$1 billion/year.
+
+4.9 VA COMMUNITY-BASED OUTPATIENT CLINICS
+Current: The VA operates approximately 1,300 community-based outpatient clinics (CBOCs). Rural and tribal areas have significant gaps. VA FY2024 medical care appropriation: approximately $119 billion.
+Change: Fund 500 new CBOCs in underserved rural and tribal areas. Capital cost per clinic: approximately $3–5 million. Annual operating cost per clinic: approximately $3–5 million. Total 10-year cost (construction + 10 years of operations): approximately $15–25 billion.
+Discretionary appropriation: approximately $2–4 billion/year in additional VA appropriations at full build-out.
+
+4.10 FEDERAL MATCHING PROGRAM FOR SMALL-DOLLAR CAMPAIGN DONATIONS
+(See Section 1.17 — mandatory spending, funded by carried interest closure.)
+
+
+SECTION 5: ECONOMIC FAIRNESS
+===============================
+
+5.1 FTC BUDGET EXPANSION
+Current: FTC FY2024 appropriation: approximately $430 million/year with approximately 1,100 FTE.
+Change: Double FTC budget to approximately $800 million/year over 5 years. Fund 500 additional enforcement staff (antitrust and privacy combined).
+Discretionary appropriation: increase from $430 million to $800 million/year over 5 years.
+
+5.2 DOJ ANTITRUST DIVISION EXPANSION
+Current: DOJ Antitrust Division FY2024 appropriation: approximately $270 million/year.
+Change: Double to approximately $540 million/year over 5 years. Fund additional economic analysts and trial attorneys.
+Discretionary appropriation: increase from $270 million to $540 million/year.
+
+5.3 FEDERAL MINIMUM WAGE
+Current: Federal minimum wage: $7.25/hour, unchanged since July 24, 2009. The federal tipped minimum wage: $2.13/hour.
+Change: Raise federal minimum wage from $7.25/hour to $17/hour effective 18 months after enactment; raise to $19/hour effective 36 months after enactment; index to CPI-W thereafter. Eliminate the federal tipped minimum wage subfloor — all workers receive the full minimum wage; tips are additional income. Phase-out over 3 years for employers with fewer than 20 employees (they may phase in from $7.25 to $17 over 3 years rather than 18 months).
+Affected: Approximately 30–33 million workers currently earning below $19/hour. Federal contractors directly affected by executive order changes to federal contractor minimum wage. Indirect fiscal effects: reduced SNAP, Medicaid, and EITC outlays as wages rise for low-income workers (CBO estimates roughly $15–20 billion/year in reduced mandatory safety net spending at full phase-in).
+
+5.4 NLRB BUDGET EXPANSION
+Current: NLRB FY2024 appropriation: approximately $315 million/year with approximately 1,500 FTE.
+Change: Increase NLRB budget to $1 billion/year — a $685 million/year increase. Fund additional administrative judges, field offices, and enforcement staff to address the case backlog and increased union organizing activity expected under the PRO Act.
+Discretionary appropriation: increase from $315 million to $1 billion/year.
+
+5.5 DOL WAGE AND HOUR DIVISION EXPANSION
+Current: DOL Wage and Hour Division: approximately 800 investigators with a budget of approximately $250 million/year. Recovers approximately $300–400 million/year in unpaid wages.
+Change: Hire 1,500 additional Wage and Hour investigators (nearly tripling the force). Estimated additional enforcement cost: approximately $200–300 million/year. Expected to recover significantly more in wage theft (currently estimated at $50 billion/year nationally).
+Discretionary appropriation: increase from approximately $250 million to approximately $450–550 million/year.
+
+5.6 NATIONAL AFFORDABLE HOUSING TRUST FUND
+Current: The National Affordable Housing Trust Fund exists and receives mandatory contributions from Fannie Mae and Freddie Mac (approximately $600 million–$1 billion/year under Biden administration). These contributions were suspended or reduced under Trump.
+Change: Appropriate $20 billion/year ($200 billion over 10 years) in new federal capital grants through the Trust Fund to states, localities, and nonprofits for construction of affordable rental units (targeting households earning below 80% AMI). This is the new appropriation over and above the Fannie/Freddie contribution mechanism.
+Mandatory/discretionary appropriation: $20 billion/year.
+
+5.7 "YES IN MY BACKYARD" GRANT PROGRAM
+Current: No equivalent program exists at this scale. HUD's Choice Neighborhoods program is approximately $150 million/year.
+Change: New $2 billion/year grant program ($20 billion over 10 years) for localities that reform exclusionary zoning — requiring multi-family housing by-right within 1/2 mile of transit stops and ADUs by-right on all residential lots — and achieve specific housing production targets.
+Discretionary appropriation: $2 billion/year.
+
+5.8 LOW-INCOME HOUSING TAX CREDIT (LIHTC) EXPANSION
+Current: Annual LIHTC per-state allocation: approximately $2.75/per capita (approximately $915 million national total in 2024), plus a state housing credit ceiling. Annual federal tax expenditure from LIHTC: approximately $14–15 billion/year. Credits run for 10-year compliance periods.
+Change: (a) Double the per-capita LIHTC allocation to states over 5 years (from approximately $2.75 to $5.50/per capita); (b) Extend compliance/credit periods from 10 to 15 years; (c) Create a new "missing middle" LIHTC tier for units affordable to households earning 80–120% AMI. Full run-rate additional tax expenditure: approximately $14–15 billion/year additional when fully phased in.
+Tax expenditure: additional approximately $100–150 billion over 10 years.
+
+5.9 NATIONAL HIGH-SPEED RAIL AUTHORITY
+Current: No federal high-speed rail authority exists. Amtrak receives approximately $2–3 billion/year in federal operating and capital grants. The Bipartisan Infrastructure Law (2021) appropriated approximately $66 billion for rail over 5 years. As of 2029, many rail projects are stalled or underfunded.
+Change: Establish National High-Speed Rail Authority within DOT with dedicated appropriation of approximately $20 billion/year ($300 billion over 15 years) for intercity high-speed rail construction. Initial corridors: Northeast (Boston-New York-DC upgrades), Midwest (Chicago hub), Texas Triangle, California, Pacific Northwest. This is federal capital investment; does not include operating subsidies.
+Discretionary appropriation: $20 billion/year (capital investment).
+
+5.10 TRANSIT-ORIENTED DEVELOPMENT FUND
+Current: No equivalent dedicated federal fund.
+Change: $50 billion total appropriation ($5 billion/year) for grants to state and local transit agencies to fund housing and mixed-use development on transit-owned land.
+Discretionary appropriation: $5 billion/year.
+
+5.11 COMMUNITY LAND TRUST CAPITALIZATION
+Current: Community Land Trust funding comes primarily from CDBG and HOME funds — approximately $100–200 million/year nationally.
+Change: New dedicated federal CLT grant program: $1 billion/year ($10 billion over 10 years) to capitalize CLTs that permanently hold land and provide below-market homeownership.
+Discretionary appropriation: $1 billion/year.
+
+5.12 FIRST-GENERATION HOMEBUYER DOWN PAYMENT ASSISTANCE
+Current: No equivalent federal program at this scale. Small programs exist through HUD totaling approximately $200 million/year.
+Change: $25,000 down-payment assistance grant for first-generation homebuyers (defined: households where neither buyer nor their parents ever owned a home in the U.S.) with household income at or below 120% of Area Median Income. Estimated 400,000–600,000 qualifying households/year.
+At $25,000/household: $10–15 billion/year.
+Mandatory or discretionary depending on program design.
+
+5.13 STUDENT LOAN DEBT RELIEF — ONE-TIME CANCELLATION
+Current: Federal student loan outstanding balance: approximately $1.7 trillion as of 2025 held by approximately 43 million borrowers. OBBBA (2025) restricted income-driven repayment options and created the Repayment Assistance Plan (RAP) with a 30-year forgiveness timeline.
+Change: One-time cancellation of: (a) $50,000 in federal student loan principal for all borrowers who received at least one Pell Grant; (b) $25,000 in federal student loan principal for all other federal loan borrowers with annual income below $125,000 (single)/$250,000 (married filing jointly). Restore the tax exclusion for forgiven student loan debt (this exclusion lapsed under OBBBA; forgiven debt under this program would otherwise be taxable income). Cancel all accumulated interest for borrowers who were placed in involuntary forbearance under the SAVE plan litigation.
+Affected: Approximately 43 million borrowers. Pell Grant recipients are approximately 60% of the borrower population (approximately 26 million borrowers).
+Mandatory spending/budget authority: estimated $750 billion–$1 trillion, one-time.
+
+5.14 INCOME-DRIVEN REPAYMENT RESTORATION
+Current: OBBBA (2025) eliminated all income-driven repayment (IDR) plans except IBR (Income-Based Repayment) and created a new Repayment Assistance Plan (RAP) with a 30-year forgiveness timeline and taxable forgiveness. The Biden SAVE plan (5% of discretionary income, 10–20 year forgiveness, zero interest on any amount below the accruing interest) was eliminated by OBBBA. Approximately 8 million borrowers were in SAVE's involuntary forbearance at OBBBA enactment.
+Change: Restore income-driven repayment at 5% of discretionary income for undergraduate loans (10% for graduate loans), with forgiveness after: 10 years for borrowers with original balances under $20,000; 20 years for all other borrowers; 25 years for graduate/professional borrowers. Cap total repayment at the original borrowed principal — no borrower can repay more than they borrowed due to interest capitalization. Restore Grad PLUS loans (eliminated by OBBBA) with aggregate lifetime limits rather than annual caps. Restore Parent PLUS income-based repayment eligibility.
+Affected: Approximately 43 million borrowers transitioning from OBBBA's RAP to the restored IDR plan. Net federal cost depends on income distribution of borrowers and payment behavior.
+Mandatory spending: estimated $200–300 billion over 10 years from reduced loan repayment collections relative to OBBBA's RAP structure.
+
+5.15 PUBLIC SERVICE LOAN FORGIVENESS EXPANSION
+Current: PSLF forgives federal student loans after 120 qualifying payments (10 years) for borrowers working in public service (government, 501(c)(3) nonprofits). OBBBA restricted qualifying employer definitions to exclude organizations involved in immigration services, abortion care, gender-affirming care, or DEI programs.
+Change: Repeal the OBBBA qualifying employer restrictions; restore PSLF to pre-OBBBA eligibility for all government and 501(c)(3) nonprofit employment. Provide retroactive credit for months in involuntary forbearance under SAVE litigation. Eliminate bureaucratic exceptions that have historically denied PSLF credit to eligible borrowers who were miscategorized.
+Affected: Approximately 1.5 million borrowers currently working toward PSLF; additional borrowers newly eligible under restored definitions.
+Mandatory spending: approximately $50–100 billion over 10 years from expanded forgiveness.
+
+5.16 PELL GRANT MAXIMUM INCREASE
+Current: Pell Grant maximum award for FY2024: approximately $7,395/year. Maximum has eroded significantly in real terms since 2000.
+Change: Increase maximum Pell Grant award from approximately $7,395 to $10,000/year, with annual inflation indexing thereafter.
+Affected: Approximately 7 million Pell Grant recipients per year.
+Mandatory spending: approximately $100 billion additional over 10 years at the $10,000 maximum (estimated $10 billion/year additional at full phase-in).
+
+5.17 CFPB RESTORATION
+Current: DOGE (2025) attempted to effectively shut down the CFPB. As of 2025, CFPB was operating at minimal capacity with many enforcement cases dropped. CFPB annual budget was approximately $780 million (Fed-funded, not appropriated).
+Change: Restore CFPB to full operational capacity; codify CFPB direct Fed funding in statute to prevent future defunding. Fund 500 additional FTC privacy enforcement staff (see Section 5.1 for FTC budget). Reinstate dropped enforcement lawsuits. Reinstate overdraft fee cap at $5 (which CBO estimates would save consumers approximately $5 billion/year).
+No new net appropriation required — CFPB is Fed-funded; statutory protection prevents defunding. The overdraft rule reduces bank revenues and consumer costs by approximately $5 billion/year.
+
+5.18 IEEPA TARIFF REFUNDS
+Current: The Supreme Court ruled in Learning Resources, Inc. v. Trump (February 2026) that the Trump administration's use of the International Emergency Economic Powers Act (IEEPA) to impose broad tariffs was unconstitutional. The government collected approximately $166 billion in IEEPA tariffs from approximately 330,000 businesses before the ruling.
+Change: Process and disburse refunds of the $166 billion in unconstitutional IEEPA tariff collections to affected businesses within 180 days of enactment. USCBP to fund technology and staffing to process claims.
+Mandatory outlays: $166 billion (one-time).
+
+5.19 IRA MANUFACTURING TAX CREDITS — RESTORATION
+Current: The IRA (2022) established domestic manufacturing tax credits including the Section 45X Advanced Manufacturing Production Credit (for batteries, solar components, wind turbines, inverters, and critical minerals), domestic content bonuses for clean energy projects, and related supply chain investment provisions. OBBBA (2025) eliminated, capped, or phased out many of these provisions.
+Change: Restore all IRA manufacturing tax credits to their original IRA schedule, eliminating OBBBA modifications. Extend the Section 45X credit through 2035. Expand "Buy Clean and American" domestic content requirements to all major federal procurement (defense, infrastructure, healthcare equipment).
+Tax expenditure: The IRA manufacturing credits were estimated by JCT at approximately $30–40 billion over the original IRA window. Restoration and extension through 2035 would cost approximately $50–80 billion in additional tax expenditures over the FY2029–FY2038 window.
+
+5.20 CHIPS ACT EXTENSION
+Current: The CHIPS and Science Act (2022) appropriated approximately $52 billion for domestic semiconductor manufacturing, research, and supply chain. The primary CHIPS manufacturing incentive fund ($39 billion) has been largely allocated. The science and research funding ($13 billion) continues.
+Change: Appropriate an additional $20–30 billion over 5 years to extend the CHIPS manufacturing incentive program, fund second-generation fabrication facility construction, and support advanced packaging and R&D.
+Discretionary appropriation: $4–6 billion/year for 5 years.
+
+5.21 MANUFACTURING COMMUNITIES INVESTMENT ACT
+Current: No equivalent dedicated federal investment program for deindustrialized communities at this scale. EDA (Economic Development Administration) operates approximately $1.5 billion/year. Trade Adjustment Assistance was eliminated by OBBBA.
+Change: New $10 billion/year program ($100 billion over 10 years) for communities that experienced manufacturing job losses since 1980 relative to population. Funds: manufacturing infrastructure grants, workforce training, broadband, and industrial site remediation. Eligibility: documented manufacturing job loss relative to population (Rust Belt, Appalachia, rural manufacturing communities prioritized).
+Discretionary appropriation: $10 billion/year.
+
+
+SECTION 6: CLIMATE AND ENERGY
+================================
+
+6.1 IRA CLEAN ENERGY TAX CREDITS — RESTORATION AND EXTENSION
+[All items are tax expenditures — reduction in federal revenues]
+
+6.1a RESIDENTIAL CLEAN ENERGY CREDIT (Section 25D)
+Current: The IRA (2022) established a 30% credit for homeowners installing solar panels, geothermal heat pumps, wind turbines, and battery storage. The OBBBA (2025) repealed this credit for equipment placed in service after December 31, 2025.
+Change: Restore the 30% Section 25D credit for solar, geothermal, heat pumps, battery storage, and heat pump water heaters. Extend credit through December 31, 2035. Expand eligible technologies to include EV-integrated home charging systems and community solar subscriptions.
+Affected: Homeowners installing qualifying clean energy equipment — estimated 2–4 million households/year at full adoption. Average credit value: $8,000–$12,000 per installation.
+Tax expenditure: approximately $50–80 billion over 10 years (FY2029–FY2038).
+
+6.1b ENERGY EFFICIENT HOME IMPROVEMENT CREDIT (Section 25C)
+Current: IRA established a 30% annual credit for insulation, windows, doors, HVAC, and heat pumps with a $3,200 annual cap. OBBBA repealed for property placed in service after January 1, 2026.
+Change: Restore 30% Section 25C credit. Raise annual cap from $3,200 to $4,500. Extend through December 31, 2035.
+Affected: Homeowners undertaking qualifying efficiency upgrades — estimated 5–8 million households/year at current adoption rates.
+Tax expenditure: approximately $30–50 billion over 10 years.
+
+6.1c NEW ENERGY EFFICIENT HOME CREDIT (Section 45L) AND COMMERCIAL BUILDING DEDUCTION (Section 179D)
+Current: OBBBA eliminated both for qualifying construction beginning after June 30, 2026.
+Change: Restore both to IRA parameters. Section 45L: credit for builders of new energy-efficient homes ($2,500 for Energy Star certified; $5,000 for zero-energy ready). Section 179D: deduction for energy-efficient commercial buildings (up to $5/sq ft). Extend both through 2035.
+Affected: Homebuilders, commercial building owners, and designers.
+Tax expenditure: approximately $15–25 billion combined over 10 years.
+
+6.1d EV CONSUMER TAX CREDIT (Section 30D)
+Current: IRA established a $7,500 credit for new clean vehicles meeting domestic content requirements; $4,000 for used EVs. OBBBA eliminated the Section 30D credit for vehicles purchased after September 30, 2025.
+Change: Restore $7,500 Section 30D credit for new EVs meeting domestic content requirements; add a point-of-sale rebate option so buyers receive the credit at the dealership rather than on their tax return (improving accessibility for lower-income buyers). Domestic content requirements: 50% battery content by 2027, 75% by 2030. Restore the $4,000 used EV credit (Section 25E). Income limits: $150,000 single/$300,000 married (restoring original IRA thresholds, which OBBBA had reduced).
+Affected: Purchasers of new clean vehicles with MSRP under $80,000 (SUVs/trucks) or $55,000 (cars) and income below the thresholds — estimated 500,000–1.5 million vehicles/year.
+Tax expenditure: approximately $50–100 billion over 10 years depending on EV adoption rates.
+
+6.1e EV CHARGING INFRASTRUCTURE CREDIT (Section 30C) AND COMMERCIAL CLEAN VEHICLE CREDIT (Section 45W)
+Current: OBBBA eliminated both for property placed in service or vehicles acquired after June 2026.
+Change: Restore Section 30C (30% credit for EV charging equipment; enhanced 40% credit for rural and low-income community installations). Restore Section 45W commercial EV credit for fleet and commercial vehicles. Extend both through 2032.
+Tax expenditure: approximately $10–20 billion over 10 years.
+
+6.1f SOLAR AND WIND PRODUCTION/INVESTMENT TAX CREDITS (Sections 45Y and 48E)
+Current: The IRA's Section 45Y Production Tax Credit (PTC) and Section 48E Clean Electricity Investment Tax Credit (ITC) replaced prior technology-specific credits with technology-neutral versions. OBBBA created early termination: projects beginning construction after July 4, 2026 and not placed in service by December 31, 2027 lose full eligibility; phased-down credits for later projects.
+Change: Restore full Sections 45Y and 48E credits with no beginning-of-construction or placed-in-service deadline for solar, wind, and all other qualifying clean electricity technologies. Eliminate the OBBBA's phase-down penalties. Extend credits at full rate through 2035.
+Affected: Solar and wind energy developers, clean energy manufacturers, and utilities building or contracting for clean electricity capacity. Projects currently paused or cancelled due to OBBBA uncertainty.
+Tax expenditure: CBO estimated IRA clean electricity credits at approximately $200–250 billion over the original IRA window. Restoration and extension through 2035 represents approximately $200–300 billion in additional tax expenditures over FY2029–FY2038.
+
+6.1g SECTION 45X ADVANCED MANUFACTURING PRODUCTION CREDIT — EXTENSION
+Current: IRA Section 45X provides production credits for U.S.-manufactured solar modules, wind components, battery cells, inverters, and critical minerals. OBBBA preserved 45X for most components but eliminated wind component credits after 2027 and began phasing down critical mineral credits after 2031.
+Change: Restore wind component eligibility in Section 45X through 2035. Extend critical mineral credits through 2035 without phase-down. Extend all other 45X components through 2035.
+Affected: U.S. manufacturers of solar modules, wind turbine components, battery cells and modules, inverters, and critical minerals.
+Tax expenditure: approximately $100 billion in additional expenditure beyond the OBBBA schedule over FY2029–FY2038.
+
+6.2 CARBON FEE AND DIVIDEND
+Current: No federal carbon price exists. EPA regulates greenhouse gas emissions under the Clean Air Act but does not impose a per-unit price.
+Change: Impose a carbon fee of $40/ton of CO2-equivalent in Year 1, increasing by $10–15/ton annually. Applied at the point of first sale of fossil fuels into the U.S. economy (refineries, coal mines, natural gas processors). Border Carbon Adjustment Mechanism (BCAM): fee applied to imported goods from countries without equivalent carbon pricing, proportional to their carbon content. 100% of net revenues returned as equal per-capita dividend to all U.S. residents with valid Social Security numbers.
+Affected fee payers: approximately 2,000 fossil fuel companies that are the "upstream" first sellers of covered fuels.
+Dividend recipients: all U.S. residents — approximately 330 million individuals. At $40/ton with approximately 5 billion metric tons of annual U.S. emissions, gross annual revenue is approximately $200 billion/year in Year 1, rising to $350–400 billion/year as the fee increases.
+Net fiscal impact: near-zero by design (revenues = dividend outlays). CBO should score as: Revenue: $200–400 billion/year rising; Outlays: equal amount in dividend payments. Net: approximately zero, but shows significant gross flows.
+
+6.3 CIVILIAN CLIMATE CORPS
+Current: No Civilian Climate Corps exists. The AmeriCorps program operates at approximately $1 billion/year supporting approximately 250,000 members. The CCC (Civilian Conservation Corps) model from the 1930s is the historical precedent.
+Change: Establish the Civilian Climate Corps at 300,000 members performing climate resilience work (forest fire prevention, coastal restoration, community resilience infrastructure, conservation). Appropriation: $15 billion in Year 1; $25 billion in Year 2; $30 billion/year in Years 3–10. 10-year total: approximately $280 billion.
+Affected: Primarily young Americans (ages 18–30) and others seeking 12–24 month service terms with living stipend, education award, and healthcare.
+Mandatory/discretionary appropriation: $280 billion total over 10 years.
+
+6.4 NATIONAL GRID INVESTMENT FUND
+Current: DOE's Grid Deployment Office received approximately $10–15 billion under the Bipartisan Infrastructure Law (2021) for grid modernization. Annual federal grid investment through various programs is approximately $5–8 billion/year. There are currently 1,200–2,000+ gigawatts of clean energy projects in interconnection queues — mostly stranded due to inadequate transmission capacity.
+Change: Appropriate $15 billion/year ($150 billion over 10 years) to a National Grid Investment Fund for: (a) new interstate transmission construction (target: 15,000+ miles of new transmission); (b) grid modernization and hardening; (c) interconnection queue reform. Grants and loans to transmission developers, utilities, and regional transmission organizations.
+Discretionary appropriation: $15 billion/year.
+
+6.5 LONG-DURATION ENERGY STORAGE
+Current: DOE LPO and ARPA-E fund early-stage LDES. Commercial deployment is limited. Federal investment approximately $1–2 billion/year total.
+Change: $20 billion total ($2 billion/year) for LDES R&D grants and DOE loan guarantees for first-of-kind commercial deployments.
+Discretionary appropriation: $2 billion/year.
+
+6.6 GRID HARDENING, RESILIENCE, AND PUERTO RICO
+Current: FEMA Hazard Mitigation Grant Program: approximately $1–2 billion/year. Grid resilience programs: approximately $2–3 billion/year total across agencies. Puerto Rico's grid reconstruction under FEMA has been slow and underfunded ($13 billion appropriated after Hurricane Maria in 2017 but not fully disbursed).
+Change: Appropriate $3 billion/year ($30 billion over 10 years) for: underground transmission in wildfire-prone areas; storm-hardened infrastructure in hurricane zones; substation backup power and cybersecurity. Dedicated $5 billion subaccount for Puerto Rico grid reconstruction as a modern distributed clean energy system.
+Discretionary appropriation: $3 billion/year.
+
+6.7 COMMUNITY MICROGRID PROGRAM
+Current: No equivalent dedicated federal program.
+Change: $10 billion total in grants for community microgrids in rural and island communities.
+Discretionary appropriation: $1 billion/year.
+
+6.8 HEALTH HARMS FUND
+Current: No dedicated fund for community environmental health remediation.
+Change: Establish a $1 billion/year ($10 billion over 10 years) Health Harms Fund for communities with documented excess health burdens from industrial pollution. Funded through Clean Air Act civil penalty receipts (offsetting collections). Net new appropriation minimal if penalties cover program costs.
+Mandatory/discretionary: funded by CAA penalties (offsetting receipts). Net fiscal impact near-zero if CAA enforcement is adequate to generate $1 billion/year in penalties.
+
+6.9 PRE-DISASTER MITIGATION
+Current: FEMA's Building Resilient Infrastructure and Communities (BRIC) program: approximately $1 billion/year. Total federal pre-disaster mitigation investment: approximately $2–3 billion/year. CBO has estimated pre-disaster mitigation saves $6 for every $1 invested.
+Change: Increase federal pre-disaster mitigation to approximately $3 billion/year ($30 billion over 10 years) for: flood zone property buyouts, community relocation assistance for chronic flood risk areas, forest management and wildfire risk reduction, and urban heat island mitigation.
+Discretionary appropriation: $3 billion/year.
+
+6.10 NATIONAL FLOOD INSURANCE PROGRAM REFORM
+Current: NFIP is approximately $20 billion in debt to the Treasury. Risk Rating 2.0 (2021) raised premiums for high-risk properties but political pressure keeps subsidized rates in place. Many repeatedly-flooded properties continue to receive below-actuarial premiums.
+Change: End subsidized premiums for properties that have received NFIP claims more than twice; fund buyouts for these properties at pre-flood fair market value. Mandatory program change affecting both NFIP premium revenues and federal buyout outlays. Net fiscal impact: near-neutral to positive if buyout costs are offset by removal of future claims liability; one-time buyout cost could be $5–15 billion over 10 years, offset by actuarially-correct premium increases for remaining policyholders.
+Mandatory spending change: net fiscal impact estimated near-neutral to modest positive over 10 years.
+
+
+SECTION 7: DRUG POLICY
+========================
+
+7.1 NALOXONE DISTRIBUTION
+Current: SAMHSA operates naloxone distribution programs at approximately $100–200 million/year. Cost per naloxone kit at government rates: approximately $20–30.
+Change: Scale federal naloxone distribution to approximately $500 million–$1 billion/year, sufficient to supply naloxone to all pharmacies, community health centers, schools, and community health workers nationwide. Goal: no geographic area with a documented opioid overdose rate above 5 per 100,000 lacks naloxone access within 5 miles.
+Discretionary appropriation: increase from approximately $150 million to approximately $500 million–$1 billion/year.
+
+7.2 HARM REDUCTION AND TREATMENT REBALANCING
+Current: Federal drug enforcement spending (DEA, HIDTA grants, and related): approximately $3–4 billion/year. SAMHSA treatment and recovery funding: approximately $7 billion/year. Harm reduction funding: small fraction of SAMHSA budget, approximately $400–500 million/year.
+Change: Increase harm reduction funding (syringe exchange, supervised consumption sites in permitting states, fentanyl test strips, medication-assisted treatment access) to at least equal enforcement spending — approximately $3–4 billion/year in harm reduction appropriations. This may be accomplished through reallocation of DEA/enforcement funds rather than net new appropriations.
+Discretionary reallocation: approximately $2–3 billion/year shift from enforcement to harm reduction/treatment.
+
+7.3 STATE MARIJUANA EXPUNGEMENT GRANTS
+Current: No federal marijuana conviction expungement assistance program.
+Change: One-time appropriation of approximately $500 million–$1 billion to fund state court system grants for mass expungement processing of state marijuana convictions.
+Discretionary appropriation: $500 million–$1 billion (one-time).
+
+
+SECTION 8: FOREIGN POLICY AND DEFENSE
+========================================
+
+8.1 FOREIGN AID RESTORATION
+Current: U.S. foreign aid was approximately $32 billion in FY2025 following DOGE cuts and administration policy changes. The FY2024 enacted State-Foreign Operations appropriation (base) was $60 billion; supplemental-inclusive total was approximately $68 billion. The proposed restoration target is $65–70 billion/year by Year 3.
+Change: Phase-in restoration: Year 1: $47 billion/year (+$15 billion vs. FY2025); Year 2: $57 billion/year (+$25 billion); Year 3+: $67 billion/year (+$35 billion). Includes reconstruction of USAID institutional capacity (re-hiring of 5,000 positions in Year 1, 10,000 total within 3 years — included in the total dollar figure).
+Discretionary appropriation: increase from $32 billion/year to $67 billion/year over 3 years.
+
+8.2 PEPFAR RESTORATION
+Current: PEPFAR FY2024 enacted appropriation: $7.1 billion total ($5.4 billion bilateral HIV, $1.65 billion Global Fund contribution, $50 million UNAIDS). FY2025 CR maintained this level. Trump administration effectively froze most PEPFAR operations in 2025; actual disbursement fell sharply.
+Change: Restore PEPFAR to the FY2024 enacted level of $7.1 billion/year with a mandatory 5-year funding commitment. Ensure full disbursement of appropriated funds. Reauthorize PEPFAR with permanent authorities.
+Discretionary appropriation: $7.1 billion/year with 5-year commitment.
+
+8.3 WHO CONTRIBUTION RESTORATION
+Current: The U.S. withdrew from the WHO on January 20, 2025. U.S. total WHO contributions (assessed + voluntary) in FY2024 were approximately $1.3 billion. Assessed (mandatory) contributions: approximately $280 million/year. Voluntary contributions: approximately $1 billion/year.
+Change: Restore full U.S. WHO membership and contributions — assessed ($280 million/year) plus voluntary ($1 billion/year) = approximately $1.3 billion/year total. Pursue WHO governance reform (stronger outbreak notification, independent inspection authority, reduced political interference in scientific processes).
+Discretionary appropriation: $1.3 billion/year.
+
+8.4 UKRAINE MILITARY ASSISTANCE
+Current: Trump administration shifted from direct Foreign Military Financing (FMF) grants to commercial arms sales. Congressional Ukraine assistance has been partially blocked. As of 2025–2029, direct U.S. military assistance to Ukraine has been significantly reduced.
+Change: Restore direct FMF grants to Ukraine: $8–15 billion/year depending on conflict status in 2029. Score at $10 billion/year as a central estimate for the 10-year window. Also fund U.S. participation in Ukraine reconstruction (amount TBD — conditioned on democratic governance and anti-corruption requirements; suggest scoring at $5 billion/year as a placeholder).
+Discretionary appropriation: approximately $10 billion/year FMF + $5 billion/year reconstruction support = approximately $15 billion/year total.
+
+8.5 DEFENSE BUDGET (FLOOR PROVISION)
+Current: FY2025 national defense discretionary budget: approximately $886 billion (base budget). At approximately 3.0% of GDP.
+Change: Statutory floor requiring defense spending of not less than 3.0% and not more than 3.5% of GDP. At projected 2029 GDP of approximately $30 trillion: $900 billion–$1.05 trillion. This is a floor provision, not a spending increase; score against the baseline defense trajectory. If baseline is below 3.0%, this represents an appropriations increase.
+Score: against existing baseline; net impact depends on what defense baseline is at time of enactment.
+
+8.6 PENTAGON AUDIT
+Current: The Pentagon has failed its audit for 7 consecutive years. The Department of Defense Audit Reform Act requires a clean audit opinion within 4 years. Estimated cost of audit remediation: $500 million–$1 billion/year in additional audit staff, financial system upgrades, and documentation.
+Discretionary appropriation: $500 million–$1 billion/year in additional DOD financial management and audit infrastructure investment.
+
+
+SECTION 9: REPRODUCTIVE RIGHTS
+=================================
+
+9.1 TITLE X FAMILY PLANNING
+Current: FY2024 enacted Title X appropriation: approximately $286 million/year. Pre-Trump restriction level: approximately $340 million/year.
+Change: Restore and expand Title X to $400–500 million/year. Restore all provider eligibility including Planned Parenthood. Reverse all "gag rule" restrictions.
+Affected: Approximately 4 million patients/year served through the Title X network.
+Discretionary appropriation: increase from $286 million to $400–500 million/year.
+
+9.2 MATERNAL HEALTH EMERGENCY APPROPRIATION
+(See Section 2.19 — $1 billion/year for 5 years.)
+
+9.3 TELEHEALTH ABORTION INFRASTRUCTURE
+Current: No dedicated federal telehealth abortion infrastructure funding.
+Change: HHS grants to states for telehealth abortion care infrastructure (provider platforms, patient navigation, mifepristone access systems) within legal states: $300 million/year ($3 billion over 10 years).
+Discretionary appropriation: $300 million/year.
+
+9.4 IVF COVERAGE — MEDICAID EXPANSION
+Current: Medicaid coverage of IVF is optional for states and rare. Most states do not cover IVF under Medicaid. IVF costs $10,000–$20,000 per cycle; multiple cycles often required.
+Change: Require Medicaid coverage of IVF services for Medicaid-eligible individuals. Establish coverage standards (number of cycles, diagnostic requirements). IVF demand among Medicaid-eligible population would be lower than among commercially insured (income constraints on seeking treatment). Approximately 500,000–1 million Medicaid-eligible women of reproductive age may seek IVF; estimated utilization rate 5–10%.
+Mandatory Medicaid spending: estimated $15 billion over 10 years (conservative, based on 50,000–100,000 IVF cycles/year at an average federal Medicaid cost of $5,000–$10,000 per cycle at the FMAP share).
+
+9.5 IVF COVERAGE — ACA MANDATE
+Current: No ACA requirement for IVF coverage. Some states mandate it; no federal requirement.
+Change: Require all ACA-compliant plans to cover IVF (a minimum of 3 retrieval cycles per lifetime). This increases the actuarial value of ACA plans, affecting premium levels and thereby premium tax credit costs.
+Tax credit impact (mandatory): small increase in ACA premium tax credit costs as premiums rise to reflect IVF coverage mandate. Estimated $5–10 billion over 10 years.
+
+9.6 VETERANS' FERTILITY TREATMENT
+Current: VA covers fertility treatment for service-connected injuries only under limited circumstances. Many veterans with service-related infertility (blast injuries, toxic exposure) lack coverage.
+Change: Expand VA fertility treatment coverage to all veterans with service-related infertility regardless of service-connection documentation. Estimated additional cost: $500 million–$1 billion/year.
+Discretionary VA appropriation: $500 million–$1 billion/year.
+
+9.7 REPRODUCTIVE HEALTH PROVIDER TRAINING
+Current: No dedicated federal program for abortion provider training in medical residency programs.
+Change: HHS grants of $200 million/year ($2 billion over 10 years) for reproductive health training programs in medical schools, OB-GYN residency programs, and continuing education.
+Discretionary appropriation: $200 million/year.
+
+
+SECTION 10: EDUCATION
+=======================
+
+10.1 DEPARTMENT OF EDUCATION RESTORATION
+Current: Trump DOGE cuts reduced ED workforce by approximately 1,700 positions (nearly half the agency). 10 interagency transfer agreements dispersed key functions. OCR closed 7 of 12 regional offices. ED FY2024 discretionary appropriation: approximately $79.1 billion (primarily pass-through grants; agency operations are a smaller component).
+Change: Restore agency to full pre-DOGE staffing (~1,700 positions). Reopen all 12 OCR regional offices. Return student loan management to ED from Treasury. Total additional operational appropriation: approximately $500 million–$1 billion/year above current levels.
+Discretionary appropriation: approximately $500 million–$1 billion/year in additional operating budget.
+
+10.2 STUDENT LOAN DEBT CANCELLATION
+(See Section 5.13 — $750 billion–$1 trillion mandatory, one-time.)
+
+10.3 INCOME-DRIVEN REPAYMENT
+(See Section 5.14 — $200–300 billion mandatory over 10 years.)
+
+10.4 PELL GRANT MAXIMUM INCREASE
+(See Section 5.16 — $100 billion mandatory over 10 years.)
+
+10.5 PUBLIC SERVICE LOAN FORGIVENESS
+(See Section 5.15 — $50–100 billion mandatory over 10 years.)
+
+10.6 BORROWER DEFENSE TO REPAYMENT
+Current: Biden-era Borrower Defense rule allowed loan cancellation for students defrauded by their institutions. OBBBA gutted this rule. Large backlog of pending claims exists.
+Change: Restore Biden-era Borrower Defense rule. Process all pending claims within 2 years. Estimated remaining liability: $5–20 billion depending on pending claim backlog.
+Mandatory spending: $5–20 billion (one-time, over 2–3 years).
+
+10.7 UNIVERSAL FREE COMMUNITY COLLEGE
+Current: No federal free community college program. Federal investment in community colleges primarily through Pell Grants and student loans. Average community college tuition: approximately $3,800/year.
+Change: Federal-state partnership making community college tuition-free at all public two-year institutions. Federal share: approximately 70% of program cost at steady state. States must not reduce existing community college appropriations to receive federal funds. Estimated total national community college tuition revenue: approximately $30–35 billion/year; federal share at 70%: approximately $21–25 billion/year at full enrollment. Phased in over 3 years.
+Mandatory/discretionary: $20–30 billion/year at full phase-in. 10-year cost approximately $200–300 billion.
+
+10.8 DOUBLE FEDERAL APPRENTICESHIP INVESTMENT
+Current: Federal apprenticeship investment primarily through DOL's Office of Apprenticeship: approximately $300 million/year supporting approximately 250,000 apprenticeships.
+Change: Double to approximately $600 million/year, targeting 1 million new registered apprenticeships annually.
+Discretionary appropriation: increase from $300 million to $600 million/year.
+
+10.9 COMMUNITY COLLEGE CAPITAL INVESTMENT
+Current: No dedicated federal community college capital grant program. ARPA (2021) included some community college investment; now expired.
+Change: New $5 billion/year ($50 billion over 10 years) federal capital investment program for community college facilities, technology, and equipment.
+Discretionary appropriation: $5 billion/year.
+
+10.10 TITLE I FUNDING INCREASE
+Current: Title I of the Elementary and Secondary Education Act (as amended by Every Student Succeeds Act) FY2024 enacted appropriation: approximately $17.5 billion/year. Funds supplemental education for high-poverty schools.
+Change: Increase Title I funding from $17.5 billion to $30 billion/year over 5 years (+$12.5 billion/year at full phase-in). Reform the distribution formula to a single poverty-weighted formula directing more resources to the highest-poverty districts.
+Discretionary appropriation: increase by $12.5 billion/year over 5 years.
+
+10.11 NATIONAL TEACHER PAY FLOOR
+Current: Median teacher salary varies widely by state — from approximately $48,000 (Mississippi) to $96,000 (California). No federal floor exists. Federal teacher pay programs (like National Board Certification supplements) are tiny.
+Change: New federal matching grant program: for every dollar a state raises its minimum starting teacher salary, the federal government contributes $0.50 in matching funds, up to: (a) $60,000 minimum by 2030; (b) $75,000 minimum by 2033. States must maintain current spending levels to receive match.
+Affected: Primarily teachers in low-wage states (approximately 15–20 states have average starting salaries below $60,000).
+Discretionary appropriation: approximately $10 billion/year at full phase-in. 10-year cost approximately $100 billion.
+
+10.12 RURAL TEACHER RECRUITMENT PROGRAM
+Current: Small rural teacher recruitment programs exist through HRSA (rural health workforce) but no equivalent DOE rural teacher program.
+Change: Loan forgiveness (up to $50,000) and housing subsidies (up to $10,000/year) for teachers committing to 5-year placements in rural school districts with documented teacher shortages. Estimated 50,000 participants/year.
+Discretionary appropriation: approximately $1–2 billion/year.
+
+10.13 SCHOOL INFRASTRUCTURE BONDS
+Current: No dedicated federal school construction bond program since the Qualified School Construction Bond program expired. ESSER (COVID) funds included some infrastructure but are expired.
+Change: Authorize $100 billion in direct federal grants (or tax-credit bonds) for school infrastructure, prioritizing districts in the bottom quartile of per-pupil spending. If structured as direct grants: $10 billion/year for 10 years.
+Discretionary appropriation (if grants): $10 billion/year.
+Tax expenditure (if bonds): approximately $3–5 billion/year over the bond term.
+
+10.14 IDEA FULL FUNDING PHASE-IN
+Current: IDEA (Individuals with Disabilities Education Act, 1975) promised that the federal government would cover 40% of the additional cost of educating students with disabilities. The federal share has never exceeded 20%. FY2024 IDEA appropriation: approximately $15.5 billion. The 40% target at current special education costs would require approximately $36–40 billion/year — a gap of approximately $20–24 billion/year.
+Change: Phase in IDEA federal funding from the current approximately 16% to 40% of additional special education costs over 10 years, reaching the full statutory target. Additional discretionary appropriation needed to reach 40%: approximately $2 billion/year in Year 1, increasing by $2 billion/year each year until reaching approximately $22 billion/year additional by Year 10.
+Discretionary appropriation: increasing by approximately $2 billion/year annually, total 10-year additional spending approximately $100–110 billion.
+
+10.15 UNIVERSAL PRE-K
+Current: Fewer than half of American 3- and 4-year-olds are in publicly funded early childhood programs. Federal investment primarily through Head Start ($12.27 billion/year in FY2024) and the Child Care and Development Block Grant (CCDBG: approximately $8.75 billion/year in FY2024). No universal pre-K federal program exists.
+Change: Federal-state partnership providing free pre-K for all 3- and 4-year-olds whose families choose to participate. Federal funding: 90% of eligible state costs in Year 1, declining to 60% by Year 5 as states build capacity. Quality standards: maximum 18 children per class, associate degree minimum for lead teachers, developmentally appropriate curriculum. Estimated 7–8 million 3–4 year olds; approximately 65% participation rate = 4.5–5 million new publicly funded slots (in addition to existing Head Start/state pre-K). At approximately $10,000–12,000/child/year for quality pre-K, total program cost: $45–60 billion/year; federal share (90% initially, 60% steady-state): $27–54 billion/year.
+Mandatory/discretionary federal-state partnership: $300–400 billion over 10 years.
+
+10.16 CHILD CARE STABILIZATION
+Current: CCDBG FY2024 enacted: approximately $8.75 billion/year. Average childcare cost nationally: approximately $16,000/year. Median childcare worker wage: approximately $14–15/hour. ARP (2021) provided $24 billion in stabilization grants (now expired).
+Change: (a) New $20 billion/year in state stabilization grants to close the gap between what families pay and what quality childcare actually costs; (b) Require all providers receiving federal stabilization grants to pay workers at least $20/hour; (c) Cap family out-of-pocket costs at 7% of household income for families with incomes up to 85% of state median income. Total: approximately $200 billion over 10 years.
+Mandatory/discretionary: $20 billion/year.
+
+10.17 HEAD START RESTORATION
+Current: Head Start FY2024 enacted: $12.27 billion/year (record level). DOGE cuts and enrollment disruptions in 2025 have reduced Head Start capacity.
+Change: Restore Head Start to FY2024 enacted level of $12.27 billion/year and expand to approximately $13–14 billion/year to address accumulated enrollment gaps.
+Discretionary appropriation: restore to $12.27 billion/year; ambitious expansion to $13–14 billion/year.
+
+10.18 FEDERAL STUDENT AID TECHNOLOGY
+Current: FSA technology systems are severely outdated. Multiple failed modernization attempts. Budget for FSA IT: approximately $200 million/year.
+Change: Dedicated $400 million/year ($2 billion over 5 years) for FSA technology modernization.
+Discretionary appropriation: $400 million/year.
+
+10.19 COMMUNITY SCHOOLS
+Current: DOE Community Schools grant program: approximately $167 million/year (FY2024). Community schools integrate health, mental health, family support, and extended learning at schools.
+Change: Restore to $167 million/year and expand to $500 million/year.
+Discretionary appropriation: $500 million/year.
+
+
+SECTION 11: TECHNOLOGY AND AI
+================================
+
+11.1 AI SAFETY INSTITUTE
+Current: NIST's AI Safety Institute was established under Biden's Executive Order 14110 (2023) with a $10 million initial appropriation. Trump revoked EO 14110 on Day 1 (2025) and effectively dismantled the AI Safety Institute.
+Change: Restore AI Safety Institute at NIST with mandatory statutory charter and $400 million/year ($2 billion over 5 years). Senate-confirmed director removable only for cause. Mandate safety testing for frontier AI models above defined compute thresholds. Fund third-party evaluation infrastructure.
+Discretionary appropriation: $400 million/year.
+
+11.2 NATIONAL AI RESEARCH CLOUD
+Current: No equivalent federal program. NSF operates the National Science Foundation's Access program (formerly XSEDE) at approximately $70–100 million/year providing computing resources for academic researchers.
+Change: Establish a National AI Research Cloud providing shared computing infrastructure accessible to academic researchers, nonprofits, and startups. $2 billion/year ($10 billion over 5 years).
+Discretionary appropriation: $2 billion/year.
+
+11.3 NSF AI RESEARCH EXPANSION
+Current: NSF AI research funding: approximately $800 million/year (across multiple programs).
+Change: Expand NSF AI research funding to $5 billion/year. Additional $4.2 billion/year.
+Discretionary appropriation: increase from $800 million to $5 billion/year.
+
+11.4 AI WORKER TRANSITION FUND
+Current: No federal AI worker transition program. Standard UI provides 26 weeks of benefits (FUTA rate: 0.6% on wages up to $7,000/year per worker = approximately $42/worker/year federal effective tax, yielding approximately $6–7 billion/year). No extended benefits for AI displacement specifically.
+Change: Establish AI Worker Transition Fund at $20 billion/year ($200 billion over 10 years). Funded by: (a) 0.5% levy on AI-enabled revenues above $1 billion (Section 1.16a); (b) employer contributions from firms deploying AI that reduce headcount by more than 10% in any 24-month period. Benefits: (a) 24-month extended unemployment insurance for workers with documented AI-driven displacement (vs. standard 26 weeks); (b) wage insurance for workers who accept lower-paying transitional employment (50% of wage gap for 2 years, capped at $15,000/year); (c) relocation assistance.
+Affected: Workers in occupations with high AI displacement risk — estimated 2–5 million workers/year at peak displacement; currently lower.
+Mandatory spending: $20 billion/year funded by dedicated levies. Net fiscal impact depends on levy collections vs. benefit drawdowns.
+
+11.5 AI UPSKILLING AND WORKFORCE DEVELOPMENT
+Current: Adult education and workforce training programs at DOL: approximately $3 billion/year total across all programs. No AI-specific national upskilling program.
+Change: New national AI literacy and upskilling program: $5 billion/year ($50 billion over 10 years) through community colleges, libraries, and online platforms. Available to all adults regardless of employment status.
+Discretionary appropriation: $5 billion/year.
+
+11.6 DATA LABOR COMPENSATION FUND
+(Funded by Section 1.16b levy — see there for revenue estimate. Near-zero net fiscal impact as outflows funded by incoming levy revenues.)
+
+11.7 DIGITAL MEDIA LITERACY INITIATIVE
+Current: No equivalent federal program.
+Change: $100 million/year ($500 million over 5 years) for K-12 and adult education programs on evaluating online sources and recognizing AI manipulation.
+Discretionary appropriation: $100 million/year.
+
+11.8 PUBLIC MEDIA INVESTMENT
+Current: Corporation for Public Broadcasting (CPB) FY2024 appropriation: approximately $535 million/year.
+Change: Increase CPB funding to approximately $2 billion/year to support NPR, PBS, and local public radio and television. Approximately $1.5 billion/year increase.
+Discretionary appropriation: increase from $535 million to $2 billion/year.
+
+
+SECTION 12: CRIMINAL JUSTICE
+================================
+
+12.1 COMMUNITY VIOLENCE INTERVENTION
+Current: No dedicated federal CVI program at this scale. DOJ community violence prevention grants: approximately $100–200 million/year total.
+Change: $1 billion/year ($5 billion over 5 years) for evidence-based community violence intervention programs (Chicago READI, Oakland Ceasefire model, etc.) through DOJ grants to cities and community organizations.
+Discretionary appropriation: $1 billion/year.
+
+12.2 MENTAL HEALTH CO-RESPONDER PROGRAMS
+Current: DOJ/SAMHSA mental health co-responder grant programs: approximately $100–200 million/year. Approximately 200 jurisdictions have some form of co-responder program.
+Change: $600 million/year for 5 years for program establishment, then $3 billion/year for ongoing national operations at scale (targeting 1,000+ jurisdictions). 10-year total: approximately $30 billion.
+Discretionary appropriation: $600 million/year scaling to $3 billion/year.
+
+12.3 CRISIS STABILIZATION CENTERS
+Current: No equivalent dedicated federal funding. SAMHSA 988 Lifeline mental health crisis services: approximately $600 million/year. Crisis stabilization centers receive small discretionary grants.
+Change: $1.5 billion/year ($15 billion over 10 years) for construction and operation of crisis stabilization centers as alternatives to emergency departments and jails for individuals in mental health crisis.
+Discretionary appropriation: $1.5 billion/year.
+
+12.4 TRANSITIONAL REENTRY HOUSING
+Current: Some reentry housing funded through HUD HOME program and Second Chance Act grants. Total federal reentry housing investment: approximately $100–200 million/year.
+Change: $1.5 billion/year ($15 billion over 10 years) for 10,000 transitional housing beds nationwide. At approximately $30,000/bed/year (capital amortization + operating): $300 million/year for the beds themselves; remaining funds for case management and supportive services.
+Discretionary appropriation: $1.5 billion/year.
+
+12.5 PRISON EDUCATION — PELL GRANT RESTORATION
+Current: Pell Grant eligibility for incarcerated students was restored by the Biden administration in 2023 and partially preserved under OBBBA. Approximately 500,000 incarcerated individuals are estimated to be eligible and interested in postsecondary education.
+Change: Fully restore and expand Pell Grant eligibility for all incarcerated students at federal and state facilities, including for vocational certificates and short-term credentials (in addition to traditional degree programs). Fund additional vocational training through separate discretionary grants.
+Affected: Approximately 500,000 incarcerated individuals. At average Pell Grant of $7,395 (rising to $10,000 under Section 5.16) × 500,000 recipients: approximately $3.7–5 billion/year in mandatory Pell Grant spending.
+Mandatory Pell spending: $3.7–5 billion/year (approximately $37–50 billion over 10 years for the incarcerated population specifically).
+Discretionary vocational training grants (separate): approximately $500 million–$1 billion/year.
+
+12.6 SECOND CHANCE HIRING TAX CREDIT
+Current: The Work Opportunity Tax Credit (WOTC) provides a credit of $2,400 for employers hiring ex-felons within 1 year of conviction or release. The Second Chance hiring credit expands on this.
+Change: New credit: employers hiring individuals within 3 years of release from state or federal incarceration receive a 40% wage subsidy on wages up to $15,000/year (maximum credit: $6,000/employee) for the first year of employment. This replaces and significantly expands the WOTC ex-felon component.
+Affected: Employers hiring formerly incarcerated individuals (approximately 600,000 people released annually from state and federal prisons). Estimated 200,000–300,000 qualifying hires/year.
+Tax expenditure: approximately $1.2–1.8 billion/year. 10-year cost: approximately $10 billion.
+
+12.7 DOJ CIVIL RIGHTS DIVISION EXPANSION
+Current: DOJ Civil Rights Division: approximately 600 attorneys. FY2024 appropriation: approximately $200 million/year. The division has been effectively directed to not pursue consent decrees with police departments under Trump.
+Change: Hire 300 additional Civil Rights Division attorneys (50% increase). Restore consent decree authority and mandate investigations of departments with documented patterns of constitutional violations.
+Discretionary appropriation: approximately $500 million/year (increase of approximately $300 million/year).
+
+12.8 JUVENILE CRIME PREVENTION
+Current: DOJ juvenile justice grants: approximately $300–400 million/year through OJJDP (Office of Juvenile Justice and Delinquency Prevention).
+Change: Increase to approximately $1 billion/year ($10 billion over 10 years) for evidence-based programs: mentorship, after-school, gang intervention, family support.
+Discretionary appropriation: increase from approximately $350 million to $1 billion/year.
+
+12.9 REENTRY NAVIGATION PROGRAMS
+Current: DOJ Second Chance Act reentry grants: approximately $100–150 million/year.
+Change: Increase to $500 million/year ($5 billion over 10 years) for case management programs helping individuals with housing, benefits enrollment, employment, and healthcare in the first 90 days after release.
+Discretionary appropriation: increase from $150 million to $500 million/year.
+
+12.10 MEDICAID ENROLLMENT ON PRISON RELEASE
+Current: Federal law prohibits Medicaid payment for inmate healthcare (the "inmate exclusion"). Upon release, individuals must apply for Medicaid; typical gap in coverage of 30–90 days. Approximately 600,000 individuals released from state and federal prisons annually; 70%+ have substance use disorder, mental illness, or chronic condition requiring ongoing treatment.
+Change: Require states to enroll released individuals in Medicaid on their release date (same-day enrollment). Require provision of a 30-day supply of any prescribed medications upon release. The inmate exclusion ends at the moment of release; pre-release enrollment processing is authorized.
+Affected: Approximately 600,000 individuals released annually with qualifying conditions — approximately 420,000 eligible for Medicaid upon release.
+Mandatory Medicaid spending increase: approximately $2,000–3,000 per person per year for the newly enrolled population (given health needs). At 420,000 newly enrolled: approximately $840 million–$1.26 billion/year in additional mandatory Medicaid spending, at the federal FMAP share.
+
+12.11 SECOND STEP ACT — RETROACTIVE RESENTENCING
+Current: Approximately 6,000+ people remain in federal prison serving sentences longer than they would receive under current First Step Act (2018) sentencing provisions. Congress determined their sentences were too long but did not make the First Step Act changes retroactive.
+Change: Direct DOJ to identify all affected individuals and process resentencing within 180 days. Early release of approximately 6,000 people serving excess sentences.
+Fiscal savings: BOP operational cost per federal inmate: approximately $43,000/year. Early release of 6,000 inmates (average 3 years of excess sentence): approximately $258 million/year in saved BOP costs for approximately 3 years.
+One-time administrative cost: approximately $50–100 million for resentencing proceedings.
+Net: approximately $700 million in net savings over the early release period.
+
+12.12 VOTING RIGHTS RESTORATION ADMINISTRATIVE COSTS
+Current: Approximately 4.6 million Americans on probation or parole are disenfranchised in many states. Federal elections have no requirement to restore voting rights upon release.
+Change: Restore federal voting rights (right to vote in federal elections) upon release from incarceration, ending any federal-election disenfranchisement based on completion of probation or parole.
+Fiscal impact: administrative election grants to states to implement expanded voter registration: approximately $10–50 million (one-time).
+
+
+SECTION 13: SOCIAL INSURANCE AND FAMILY ECONOMIC SECURITY
+============================================================
+
+13.1 CHILD TAX CREDIT — PERMANENT EXPANSION
+Current: Under TCJA (2017), the Child Tax Credit was increased from $1,000 to $2,000 per child (made permanent by OBBBA), partially refundable (up to $1,700 in 2024). The American Rescue Plan Act (2021) temporarily expanded the CTC to $3,600 per child under 6 and $3,000 per child ages 6–17, made it fully refundable (including to families with no earned income), and changed it to monthly advance payments. The ARP expansion expired after 2021.
+Change: Make the ARP-level CTC permanent: $3,600/child under 6; $3,000/child ages 6–17; fully refundable; monthly advance payments (optional). Income phase-out: credit begins phasing out at $150,000 (married) / $112,500 (single), as under the ARP. The phase-out to the $2,000 base amount begins at $400,000 (married) / $200,000 (single) — preserving the Trump/OBBBA $2,000 credit for high earners, but making the ARP expansion available to all families.
+Affected: Approximately 60–65 million children. Fully refundable structure particularly benefits the approximately 18–19 million children in households with low or no earned income (previously excluded from the full credit). CBO estimated the ARP CTC at approximately $110–120 billion/year; permanent expansion has similar annual cost.
+Mandatory spending/tax expenditure: approximately $900 billion–$1.1 trillion over 10 years.
+
+13.2 EARNED INCOME TAX CREDIT — ARP LEVELS
+Current: Under TCJA and current law, the EITC for childless workers (ages 25–64) provides a maximum credit of approximately $500/year. ARP (2021) temporarily expanded the childless worker EITC maximum to approximately $1,502, lowered the eligibility age to 19, and extended it to filers 65+. These ARP enhancements expired after 2021.
+Change: Make ARP-level EITC permanent for childless workers: (a) Maximum credit for childless workers increased from approximately $500 to approximately $1,500; (b) Eligibility age expanded from 25–64 to 19–64 (removing the age floor for young adults 19–24) and extended to filers 65+ (removing the age ceiling); (c) For workers with children: index existing EITC parameters to inflation going forward (modestly above current law).
+Affected: Approximately 17–20 million additional or higher-benefiting tax units, primarily young adult workers (19–24) and older workers (65+) without qualifying children.
+Mandatory/tax expenditure: approximately $20–25 billion/year for childless worker expansion. 10-year cost: approximately $200–250 billion.
+
+13.3 HCBS WAITLIST ELIMINATION
+(Listed in Section 2.5 — $10 billion/year for 5 years. Do not double-count.)
+
+13.4 LONG-TERM CARE INSURANCE PROGRAM
+(Listed in Section 2.15 — payroll-contribution-funded mandatory program. Do not double-count.)
+
+13.5 AUTOMATIC BENEFITS ENROLLMENT
+(Listed in Section 1.12 — mandatory spending increase across SNAP, Medicaid, CHIP, EITC, housing, and LIHEAP. Do not double-count.)
+
+
+========================================================================
+END OF DOCUMENT
+
+CROSS-REFERENCE: Items listed in multiple sections — score each only once:
+- Student debt relief: Sections 5.13 and 10.2 → score once at $750B–$1T mandatory
+- IDR restoration: Sections 5.14 and 10.3 → score once at $200–300B mandatory
+- Pell Grant increase: Sections 5.16 and 10.4 → score once at $100B mandatory
+- HCBS waitlists: Sections 2.5 and 13.3 → score once at $50B mandatory
+- Long-term care: Sections 2.15 and 13.4 → score once as payroll-funded program
+- Auto-enrollment: Sections 1.12 and 13.5 → score once as mandatory increase
+- FTC budget: Sections 5.1 and 11.4 → $800M/year combined (antitrust + privacy)
+- Maternal health / Title X: Sections 2.19/9.1/9.2 → score separately as both are funded
+========================================================================

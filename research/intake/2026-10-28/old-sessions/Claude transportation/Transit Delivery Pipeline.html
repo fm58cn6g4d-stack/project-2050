@@ -1,0 +1,245 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Transit Delivery Pipeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  /* Layout: one sticky-column year grid, eras as header bands; same system as the corridor pipeline. */
+  :root{
+    --paper:#F6F4F0; --panel:#FFFFFF; --ink:#191B1E; --muted:#6C6F75; --rule:#DCD7CD; --hair:#EAE6DE;
+    --s1:#E0DBD1; --s2:#C3CCD4; --s3:#8FAAC0; --s4:#527D9C; --s5:#D9822B; --s6:#C0202E; --g1:#F1D9D2;
+    --s1t:#6C6F75; --s2t:#3B4A56; --s3t:#10222F; --s4t:#FFFFFF; --s6t:#FFFFFF; --g1t:#7A2A1E;
+    --era1:#EFEAE0; --era2:#E6EDF2; --era3:#E3EDE4; --era4:#EDE6EF;
+    --shadow:0 1px 2px rgba(25,27,30,.06),0 8px 24px rgba(25,27,30,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#131519; --panel:#1A1E23; --ink:#EDEAE4; --muted:#9BA1A9; --rule:#2C3138; --hair:#24282E;
+      --s1:#343A42; --s2:#3E4C58; --s3:#4E7290; --s4:#79A6C6; --s5:#E39B4C; --s6:#F0574F; --g1:#4A2A26;
+      --s1t:#A9AEB5; --s2t:#C6D2DC; --s3t:#EAF2F8; --s4t:#0E1B25; --s6t:#25090A; --g1t:#F2C4BA;
+      --era1:#1D2026; --era2:#1A2530; --era3:#1A2520; --era4:#241C27;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35); color-scheme:dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#131519; --panel:#1A1E23; --ink:#EDEAE4; --muted:#9BA1A9; --rule:#2C3138; --hair:#24282E;
+    --s1:#343A42; --s2:#3E4C58; --s3:#4E7290; --s4:#79A6C6; --s5:#E39B4C; --s6:#F0574F; --g1:#4A2A26;
+    --s1t:#A9AEB5; --s2t:#C6D2DC; --s3t:#EAF2F8; --s4t:#0E1B25; --s6t:#25090A; --g1t:#F2C4BA;
+    --era1:#1D2026; --era2:#1A2530; --era3:#1A2520; --era4:#241C27;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35); color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;margin:0}
+  .wrap{max-width:1220px;margin:0 auto;padding-inline:20px;padding-block:32px 60px}
+  header{border-bottom:1px solid var(--rule);padding-bottom:20px;margin-bottom:22px}
+  .eyebrow{font-family:Archivo,system-ui,sans-serif;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h1{font-family:Archivo,system-ui,sans-serif;font-size:clamp(27px,4.6vw,40px);font-weight:700;letter-spacing:-.02em;line-height:1.06;margin:0 0 12px;text-wrap:balance}
+  .lede{font-size:17px;line-height:1.55;max-width:66ch;margin:0}
+  .lede strong{font-weight:600}
+  .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:20px 0 6px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-family:Archivo,system-ui,sans-serif;font-size:12.5px;font-weight:500;padding:6px 12px;border:1px solid var(--rule);background:var(--panel);color:var(--muted);border-radius:2px;cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .chip:focus-visible{outline:2px solid var(--s4);outline-offset:1px}
+  input[type=search]{font-family:Archivo,system-ui,sans-serif;font-size:13px;padding:7px 11px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:2px;min-width:200px;flex:1 1 200px;max-width:320px}
+  .legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:14px 0 18px;font-family:Archivo,system-ui,sans-serif;font-size:12px;color:var(--ink)}
+  .key{display:inline-flex;align-items:center;gap:7px}
+  .sw{width:15px;height:15px;border-radius:2px;flex:0 0 auto}
+  .swb{width:15px;height:15px;border-radius:2px;background:var(--s4);border-bottom:4px solid var(--s5);flex:0 0 auto}
+  .gridwrap{overflow-x:auto;border:1px solid var(--rule);border-radius:3px;background:var(--panel);box-shadow:var(--shadow)}
+  table{border-collapse:separate;border-spacing:0;width:100%;min-width:960px}
+  thead th{position:sticky;top:0;z-index:3;background:var(--panel);font-family:Archivo,system-ui,sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);text-align:center;padding:9px 4px;border-bottom:1px solid var(--rule);white-space:nowrap}
+  thead th.nm{text-align:left;padding-left:14px;z-index:4;left:0;min-width:270px}
+  thead th.era1{background:var(--era1)} thead th.era2{background:var(--era2)} thead th.era3{background:var(--era3)} thead th.era4{background:var(--era4)}
+  tbody td{border-bottom:1px solid var(--hair);padding:0}
+  td.nm{padding:7px 10px 7px 14px;font-size:14px;line-height:1.3;background:var(--panel);position:sticky;left:0;z-index:2;border-right:1px solid var(--hair);min-width:270px}
+  td.nm .sp{display:block;font-family:Archivo,system-ui,sans-serif;font-size:11px;color:var(--muted);margin-top:2px}
+  td.nm .sc{display:block;font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.35;max-width:38ch}
+  .xb{display:inline-block;font-family:Archivo,system-ui,sans-serif;font-size:9px;font-weight:700;letter-spacing:.06em;color:var(--s4);border:1px solid var(--s4);border-radius:2px;padding:0 4px;margin-left:6px;vertical-align:2px}
+  td.cell{text-align:center;width:44px}
+  td.cell div{margin:3px 2px;height:22px;border-radius:2px;display:flex;align-items:center;justify-content:center;font-family:Archivo,system-ui,sans-serif;font-size:9.5px;font-weight:700;letter-spacing:.04em}
+  td.svc{text-align:right;padding-right:14px;font-family:Archivo,system-ui,sans-serif;font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+  tr.grp td{background:var(--paper);font-family:Archivo,system-ui,sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:10px 14px;border-bottom:1px solid var(--rule)}
+  tr.grp td.nm{position:sticky;left:0;background:var(--paper)}
+  tbody tr:hover td.nm{background:var(--hair)}
+  h2{font-family:Archivo,system-ui,sans-serif;font-size:13px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+  .counts{overflow-x:auto}
+  .counts table{min-width:760px}
+  .counts th,.counts td{padding:7px 8px;font-family:Archivo,system-ui,sans-serif;font-size:12.5px;text-align:center;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+  .counts th:first-child,.counts td:first-child{text-align:left;font-weight:600;min-width:200px}
+  .notes{font-size:15.5px;line-height:1.62;max-width:68ch}
+  .notes p{margin:0 0 14px}
+  .notes strong{font-weight:600}
+  footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);font-size:14px;line-height:1.6;color:var(--muted);max-width:70ch}
+  @media (max-width:520px){ .wrap{padding-block:22px 40px} td.nm,thead th.nm{min-width:210px} }
+
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Capital Investment Grants and system finances &middot; modeled FY2027&ndash;2046 &middot; companion to the corridor pipeline</p>
+    <h1>Sixty-four projects and thirteen systems, twenty years</h1>
+    <p class="lede">Every project on FTA's Capital Investment Grants dashboard of September 11, 2026, the eight already building under a signed agreement, and nine that are outside the federal pipeline today, tracked year by year through four policy eras: <strong>BUILD America 250-Plus</strong>, the <strong>2029&ndash;30 reconciliation</strong> packages, the <strong>American Transit Renewal Act</strong>, and the <strong>FY2036 reauthorization</strong>. Below them are thirteen systems whose problem is the operating budget, on a much faster clock. For projects, cell color is the federal review stage, the amber bar is construction, and the red edge is service running. For systems, cell color is how the operating gap is being covered, the amber bar is backlog retirement money flowing, and the red edge is a federal service floor in force.</p>
+  </header>
+
+  <div class="bar">
+    <div class="chips" id="cats" role="group" aria-label="Filter by category">
+      <button class="chip" type="button" data-c="*" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-c="F" aria-pressed="false">Building now</button>
+      <button class="chip" type="button" data-c="N" aria-pressed="false">New Starts and Core Capacity</button>
+      <button class="chip" type="button" data-c="S" aria-pressed="false">Small Starts</button>
+      <button class="chip" type="button" data-c="L" aria-pressed="false">Outside the pipeline</button>
+      <button class="chip" type="button" data-c="Y" aria-pressed="false">Systems</button>
+    </div>
+    <input type="search" id="q" placeholder="Filter by project, system or sponsor" aria-label="Filter by project, system or sponsor">
+  </div>
+
+  <div class="legend" aria-label="Legend for projects">
+    <span class="key"><span class="sw" style="background:var(--s1)"></span>Project development</span>
+    <span class="key"><span class="sw" style="background:var(--s3)"></span>Engineering</span>
+    <span class="key"><span class="sw" style="background:var(--s4)"></span>Grant agreement signed</span>
+    <span class="key"><span class="swb"></span>Under construction</span>
+    <span class="key"><span class="sw" style="background:var(--s2);border-left:4px solid var(--s6)"></span>In service</span>
+  </div>
+  <div class="legend" aria-label="Legend for systems" style="margin-top:-8px">
+    <span class="key"><span class="sw" style="background:var(--g1)"></span>Gap open</span>
+    <span class="key"><span class="sw" style="background:var(--s1)"></span>Stopgap: one-time or capital money</span>
+    <span class="key"><span class="sw" style="background:var(--s2)"></span>State or regional fix</span>
+    <span class="key"><span class="sw" style="background:var(--s3)"></span>Federal transition grants</span>
+    <span class="key"><span class="sw" style="background:var(--s4)"></span>Operating tier, 5307(i)</span>
+  </div>
+
+  <div class="gridwrap">
+    <table id="grid"><thead id="head"></thead><tbody id="body"></tbody></table>
+  </div>
+
+  <h2>Projects at each stage, by year</h2>
+  <div class="counts"><table id="counts"></table></div>
+
+  <h2>What the model says</h2>
+  <div class="notes" id="notes"></div>
+
+  <footer>
+    Project names, sponsors, costs, grant requests, phases and estimated grant dates for the 47 pipeline projects are from FTA's Capital Investment Grants Dashboard of September 11, 2026. Grant years here are the dashboard's estimate plus a slip of two years for New Starts over $1 billion and one year otherwise, reflecting FY2027&ndash;28. The eight projects building under signed agreements and the nine outside the pipeline were checked against sponsor and press sources on October 5, 2026; years are fiscal years. For the nine, grant, construction and service years are assumptions set later than sponsor targets, and the West Seattle, Ballard and Sepulveda costs are in constant dollars. System gaps are from agency and press sources cited in the bill architecture document. Stages from FY2029 for systems assume the reconciliation transition grants and, from FY2031, the operating tier in section 201.
+  </footer>
+</div>
+
+<script>
+(function(){
+  // [name, sponsor, cat, PD, ENG, grant, construction start, service, scope, cost $B, CIG $B, lon, lat, mode]
+  var D=[["Second Avenue Subway Phase 2","MTA","F",2016,2020,2023,2024,2032,"1.8 miles and three stations to 125th Street, East Harlem. Federal payments held Oct 2025, restored Apr 2026",6.97,3.4,-73.94,40.8,"HR"],["Red Line Extension","Chicago Transit Authority","F",2014,2020,2025,2026,2030,"5.6 miles and four stations from 95th Street to 130th Street",5.75,1.97,-87.62,41.69,"HR"],["D Line Subway Extension, Sections 2 and 3","LA Metro","F",2014,2016,2017,2018,2027,"Wilshire subway from Beverly Hills to Westwood/VA Hospital. Section 1 opened May 2026",6.9,2.5,-118.42,34.06,"HR"],["East San Fernando Valley Light Rail","LA Metro","F",2018,2022,2024,2026,2032,"6.7 miles on Van Nuys Boulevard, 11 stations",3.57,0.89,-118.45,34.21,"LRT"],["Purple Line","Maryland Transit Administration","F",2011,2014,2017,2017,2028,"16 miles of light rail, Bethesda to New Carrollton, 21 stations",9.5,0.9,-77.0,38.99,"LRT"],["METRO Green Line Extension","Metropolitan Council","F",2011,2016,2020,2019,2027,"14.5 miles, Minneapolis to Eden Prairie, 16 stations",2.86,0.93,-93.4,44.9,"LRT"],["Skyline to Civic Center","Honolulu Authority for Rapid Transportation","F",2009,2011,2012,2011,2031,"Final segment of the 18.9-mile automated line into downtown; FTA's consultant projects April 2032",10.08,1.55,-157.86,21.31,"HR"],["Blue Line Bus Rapid Transit","IndyGo","F",2018,0,2024,2025,2029,"24 miles on Washington Street to the airport",0.39,0.15,-86.16,39.77,"BRT"],["FrontRunner 2X","Utah DOT","N",2022,2026,2028,2028,2031,"Double-tracking the 82-mile commuter line for 15-minute service",3.22,1.29,-111.89,40.76,"CR"],["Red Line Modernization (core capacity)","WMATA","N",2026,2028,2030,2030,2034,"Signals, power and stations on 32 miles and 27 stations",1.6,0.96,-77.03,38.9,"HR"],["Green Line Transformation (core capacity)","MBTA","N",2022,2025,2029,2029,2034,"Longer trains, power and accessible stations on 26.7 miles",4.08,2.04,-71.08,42.35,"LRT"],["Transbay Downtown Rail Extension (The Portal)","Transbay Joint Powers Authority","N",2021,2024,2029,2029,2036,"2.2-mile tunnel bringing Caltrain and high-speed rail to Salesforce Transit Center",8.25,3.38,-122.4,37.79,"CR"],["BART Silicon Valley Phase II","Santa Clara VTA","N",2022,2024,2029,2029,2038,"Six miles and four stations through downtown San Jose to Santa Clara",12.75,5.1,-121.89,37.34,"HR"],["Northeast Corridor Rapid Transit","Miami-Dade DTPW","N",2021,2024,2028,2028,2032,"13.5 miles of commuter rail on the FEC corridor, seven stations",0.93,0.39,-80.19,25.85,"CR"],["METRO Blue Line Extension","Metropolitan Council","N",2014,2017,2028,2028,2031,"13.4 miles, Minneapolis to Brooklyn Park, 13 stations",3.58,0.75,-93.33,45.05,"LRT"],["Lowcountry Rapid Transit","Berkeley-Charleston-Dorchester COG","N",2019,2022,2028,2028,2030,"21.3 miles of bus rapid transit, 20 stations",0.63,0.37,-79.99,32.85,"BRT"],["Richmond Highway Bus Rapid Transit","Fairfax County","N",2020,2024,2028,2028,2032,"7.4 miles, nine stations, Huntington to Fort Belvoir",0.94,0.35,-77.1,38.76,"BRT"],["Eastside Transit Corridor Phase 2","LA Metro","N",2026,2029,2032,2032,2037,"4.7 miles of light rail from East Los Angeles toward Whittier",8.16,0.0,-118.1,34.01,"LRT"],["Southeast Gateway Line","LA Metro","N",2022,2024,2029,2029,2036,"14.5 miles of light rail, nine stations, Slauson to Artesia",10.55,5.19,-118.15,33.9,"LRT"],["Broward Commuter Rail South","Broward County","N",2022,2027,2028,2028,2031,"10.5 miles and three stations on the FEC corridor",0.71,0.35,-80.14,26.05,"CR"],["MD 355 Central Flash Bus Rapid Transit","Montgomery County DOT","N",2024,0,2029,2029,2031,"15.6 miles, 14 stations, Rockville to Germantown",0.5,0.25,-77.18,39.12,"BRT"],["Green Line Bus Rapid Transit","Bi-State Development","N",2024,0,2030,2030,2032,"11.5 miles north-south through St. Louis",0.48,0.0,-90.2,38.63,"BRT"],["Austin Light Rail Phase 1","Austin Transit Partnership","N",2024,2027,2029,2029,2034,"9.8 miles and 15 stations",8.23,4.07,-97.74,30.27,"LRT"],["Interstate Bridge Replacement, light rail","Washington State DOT","N",2023,2027,2030,2030,2035,"1.9-mile MAX extension across the Columbia to Vancouver",1.83,1.0,-122.67,45.62,"LRT"],["Tacoma Dome Link Extension","Sound Transit","N",2026,2028,2031,2031,2036,"8.5 miles and four stations, Federal Way to Tacoma",5.75,0.0,-122.42,47.24,"LRT"],["Stone Avenue BRT","City of Tucson","S",2023,0,2029,2029,2031,"4.9 miles, 10 stations",0.14,0.08,-110.97,32.24,"BRT"],["Downtown Riverfront Streetcar","Sacramento RT","S",2014,0,2028,2028,2030,"1.5 miles, Sacramento to West Sacramento",0.23,0.0,-121.5,38.58,"SC"],["Federal Boulevard BRT","Colorado DOT","S",2023,0,2028,2028,2030,"18 miles, 38 stations",0.32,0.15,-105.02,39.76,"BRT"],["West Elizabeth BRT","City of Fort Collins","S",2021,0,2029,2029,2031,"3.6 miles to the CSU campus",0.1,0.06,-105.1,40.57,"BRT"],["MARTA Rapid Campbellton","MARTA","S",2022,0,2029,2029,2031,"5.3 miles of center-running bus rapid transit",0.32,0.15,-84.47,33.71,"BRT"],["MARTA Rapid Southlake","MARTA","S",2022,0,2028,2028,2030,"13.3 miles in Clayton County",0.36,0.07,-84.35,33.57,"BRT"],["Blue Hill Avenue Transit Action Plan","MBTA","S",2025,0,2028,2028,2030,"Three miles of center-running bus lanes",0.16,0.08,-71.09,42.29,"BRT"],["Veirs Mill Road Flash BRT","Montgomery County DOT","S",2022,0,2027,2027,2029,"7.6 miles, Wheaton to Rockville",0.19,0.15,-77.08,39.06,"BRT"],["METRO F Line BRT","Metropolitan Council","S",2022,0,2028,2028,2029,"13 miles on Central Avenue",0.1,0.05,-93.25,45.03,"BRT"],["North-South BRT","Chapel Hill Transit","S",2016,0,2027,2027,2030,"8.2 miles, 16 stations",0.2,0.15,-79.05,35.92,"BRT"],["Wake BRT: Southern Corridor","City of Raleigh","S",2021,0,2028,2028,2030,"5.1 miles to Garner",0.17,0.09,-78.64,35.73,"BRT"],["Wake BRT: Western Corridor","City of Raleigh","S",2020,0,2029,2029,2032,"11.3 miles to Cary",0.39,0.15,-78.72,35.79,"BRT"],["Nassau Hub BRT","Nassau County","S",2025,0,2028,2028,2030,"Six miles; cost not yet set",0.04,0.0,-73.6,40.72,"BRT"],["Hamilton Avenue Corridor BRT","SORTA","S",2023,0,2028,2028,2030,"Nine miles, 11 stations",0.17,0.14,-84.54,39.16,"BRT"],["Reading Road Corridor BRT","SORTA","S",2023,0,2028,2028,2030,"9.2 miles, 13 stations",0.17,0.12,-84.48,39.15,"BRT"],["MetroHealth Line BRT","Greater Cleveland RTA","S",2022,0,2028,2028,2029,"3.8 miles on West 25th Street",0.05,0.02,-81.7,41.46,"BRT"],["East Main Street BRT","COTA","S",2021,0,2028,2028,2030,"13.6 miles, 18 stations",0.39,0.15,-82.93,39.96,"BRT"],["Northwest Corridor BRT","COTA","S",2025,0,2029,2029,2031,"8.5 miles, 14 stations",0.36,0.15,-83.04,40.03,"BRT"],["West Broad Street BRT","COTA","S",2021,0,2027,2027,2029,"9.3 miles, 17 stations",0.38,0.15,-83.07,39.96,"BRT"],["MAPS 4 BRT","COPTA, Oklahoma City","S",2025,0,2029,2029,2031,"17 miles on two corridors",0.1,0.03,-97.52,35.47,"BRT"],["Montgomery Park Transit Project","TriMet and City of Portland","S",2024,0,2029,2029,2031,"0.7-mile streetcar extension",0.18,0.0,-122.71,45.54,"SC"],["82nd Avenue Transit Project","TriMet","S",2024,0,2028,2028,2030,"10.1 miles, 35 stations",0.32,0.15,-122.58,45.5,"BRT"],["TV Highway Transit and Safety Project","TriMet","S",2025,0,2029,2029,2031,"16.2 miles, Beaverton to Forest Grove",0.3,0.15,-122.95,45.5,"BRT"],["METRORapid Gulfton","Houston METRO","S",2023,0,2028,2028,2030,"4.1 miles, eight stations",0.22,0.0,-95.48,29.72,"BRT"],["Advanced Rapid Transit East-West","VIA Metropolitan Transit","S",2022,0,2028,2028,2030,"7.3 miles through downtown San Antonio",0.32,0.15,-98.49,29.42,"BRT"],["Davis-Salt Lake City Community Connector","Utah Transit Authority","S",2024,0,2028,2028,2030,"26.6 miles, 20 stations",0.07,0.04,-111.89,40.89,"BRT"],["Swift Gold Line BRT","Community Transit","S",2025,0,2030,2030,2032,"15 miles, Everett to Arlington",0.19,0.0,-122.2,48.05,"BRT"],["RapidRide K Line","King County Metro","S",2019,0,2028,2028,2030,"15.7 miles, Kirkland to Bellevue",0.11,0.05,-122.19,47.64,"BRT"],["Division Street BRT","Spokane Transit","S",2023,0,2027,2027,2030,"Nine miles, 22 stations",0.17,0.08,-117.41,47.7,"BRT"],["Madison North-South BRT","City of Madison","S",2023,0,2027,2027,2029,"12.5 miles, 24 stations",0.18,0.12,-89.39,43.07,"BRT"],["Interborough Express","MTA","L",2031,2032,2033,2033,2038,"14 miles and 18 stations of light rail on a freight corridor, Brooklyn to Queens",5.5,0.0,-73.9,40.68,"LRT"],["Sepulveda Transit Corridor","LA Metro","L",2031,2033,2035,2035,2043,"About 13 miles of automated heavy rail, seven stations, Van Nuys to the E Line under the Sepulveda Pass",24.2,0.0,-118.47,34.12,"HR"],["West Seattle Link Extension","Sound Transit","L",2031,2031,2032,2032,2037,"3.9 miles and three stations across the Duwamish",5.1,0.0,-122.38,47.56,"LRT"],["Ballard Link Extension","Sound Transit","L",2031,2033,2035,2035,2042,"7.7 miles with a second downtown tunnel; funded only as far as Seattle Center",21.4,0.0,-122.38,47.67,"LRT"],["Baltimore Red Line","Maryland Transit Administration","L",2031,2033,2034,2034,2040,"14 miles east-west; light rail or bus rapid transit, state decision due early 2027",7.0,0.0,-76.61,39.29,"LRT"],["Red-Blue Connector","MBTA","L",2031,2032,2033,2033,2037,"0.4-mile Blue Line extension to Charles/MGH",0.85,0.0,-71.07,42.36,"HR"],["Red and Purple Modernization Phase 2","Chicago Transit Authority","L",2031,2032,2033,2033,2039,"Addison to Sheridan, Thorndale to Howard and the Evanston branch; no published estimate",4.0,0.0,-87.66,41.97,"HR"],["Charlotte Red Line commuter rail","Charlotte Area Transit System","L",2031,2032,2034,2034,2038,"25 miles and 10 stations to Mount Mourne on the Norfolk Southern O-Line",1.26,0.0,-80.84,35.4,"CR"],["Link21 new transbay rail crossing","BART and Capitol Corridor JPA","L",2032,2036,2040,2040,2050,"Standard-gauge transbay crossing shared by regional and intercity rail; $18-30B in 2023 dollars",29.0,0.0,-122.33,37.8,"CR"]];
+  // [name, region, lon, lat, stopgap from, stopgap to, fixed from, note]
+  var S=[["MTA New York","New York",-73.99,40.75,2026,2028,0,"Balanced through 2026; reported gaps of $160M, $243M and $306M in 2027-29, with $700M a year of one-time money ending in 2029"],["NJ Transit","New Jersey",-74.17,40.73,2026,2030,0,"$3.5B budget leans on a $765.6M corporate transit fee and a $302M state subsidy"],["WMATA","Washington",-77.03,38.9,2026,2027,2028,"DMVMoves: $460M a year of new capital funding from FY2028, endorsed by Virginia and Maryland leaders"],["SEPTA","Philadelphia",-75.16,39.95,2026,2027,0,"$213M structural deficit; $394M of state capital funds covers operations for two years"],["Pittsburgh Regional Transit","Pittsburgh",-79.99,40.44,2026,2027,0,"$100M-plus deficit deferred to 2027; FY2027 uses $44.8M of capital funds and $15.4M of reserves"],["MBTA","Boston",-71.06,42.36,2026,2028,0,"Gaps closed year to year with state surtax revenue"],["CTA, Metra and Pace","Chicago",-87.63,41.88,2026,2026,2027,"$1.5B state package enacted October 2025"],["BART","San Francisco Bay Area",-122.27,37.8,2026,2027,0,"$350-400M a year; regional sales tax measure on the November 2026 ballot"],["SFMTA (Muni)","San Francisco",-122.42,37.77,2026,2027,0,"$307M, growing to $430M by 2030; cuts from FY2027-28 without new funding"],["TriMet","Portland",-122.68,45.52,2026,2028,0,"Service cuts and layoffs announced May 2026"],["Greater Cleveland RTA","Cleveland",-81.69,41.5,2026,2028,0,"Service cuts in 2026; no long-term source identified"],["Milwaukee County Transit","Milwaukee",-87.91,43.04,2026,2028,0,"County stopgap of $4.8M; 2027 gap unresolved"],["Caltrain and AC Transit","San Francisco Bay Area",-122.2,37.55,2026,2027,0,"Dependent on the same November 2026 regional measure as BART"]];
+  var Y0=2026,Y1=2046,YEARS=[];for(var y=Y0;y<=Y1;y++)YEARS.push(y);
+  var GRP={F:"Building now, under a signed federal agreement",N:"New Starts and Core Capacity in the pipeline",S:"Small Starts in the pipeline",L:"Outside the federal pipeline today; enters under the Act",Y:"Systems: the operating gap and the repair backlog"};
+  var ABBR={1:"PD",2:"ENG",3:"GA"};
+  var TONE={1:["var(--s1)","var(--s1t)"],2:["var(--s3)","var(--s3t)"],3:["var(--s4)","var(--s4t)"]};
+  var STAGE={1:"Project development",2:"Engineering",3:"Grant agreement signed"};
+  var SAB={1:"GAP",2:"STOP",3:"FIX",4:"TRN",5:"OPS"};
+  var STONE={1:["var(--g1)","var(--g1t)"],2:["var(--s1)","var(--s1t)"],3:["var(--s2)","var(--s2t)"],4:["var(--s3)","var(--s3t)"],5:["var(--s4)","var(--s4t)"]};
+  var SSTAGE={1:"Gap open, cuts on the table",2:"Stopgap: one-time money, capital funds or reserves",3:"State or regional fix in place",4:"Federal transition grants, with maintenance of effort",5:"Operating tier under section 5307(i)"};
+  function money(v){ return v>=1? "$"+v.toFixed(1)+"B" : "$"+Math.round(v*1000)+"M"; }
+  function planAt(r,y){ if(r[5]&&y>=r[5])return 3; if(r[4]&&y>=r[4])return 2; if(r[3]&&y>=r[3])return 1; return 0; }
+  function building(r,y){ return !!(r[6]&&y>=r[6]&&y<r[7]); }
+  function operating(r,y){ return !!(r[7]&&y>=r[7]); }
+  function sysStage(r,y){ if(y>=2031)return 5; if(y>=2029)return 4; if(r[6]&&y>=r[6])return 3; if(y>=r[4]&&y<=r[5])return 2; return 1; }
+
+  function head(){
+    var h='<tr><th class="nm">Project or system</th>';
+    YEARS.forEach(function(y){ h+='<th class="'+(y<=2028?"era1":y<=2030?"era3":y<=2035?"era2":"era4")+'">'+String(y).slice(2)+'</th>'; });
+    h+='<th style="text-align:right">Service</th><th style="text-align:right;padding-right:14px">Cost</th></tr>';
+    h+='<tr><th class="nm" style="font-weight:400;text-transform:none;letter-spacing:0;font-size:11px">Sponsor</th>'+
+       '<th class="era1" colspan="3" style="letter-spacing:.09em">250-Plus</th>'+
+       '<th class="era3" colspan="2" style="letter-spacing:.09em">Reconciliation</th>'+
+       '<th class="era2" colspan="5" style="letter-spacing:.09em">Transit Renewal Act</th>'+
+       '<th class="era4" colspan="11" style="letter-spacing:.09em">FY2036 reauthorization</th><th colspan="2"></th></tr>';
+    document.getElementById("head").innerHTML=h;
+  }
+
+  function draw(){
+    var cat=document.querySelector('#cats .chip[aria-pressed="true"]').dataset.c;
+    var q=document.getElementById("q").value.trim().toLowerCase();
+    var html="",lastG=null;
+    D.forEach(function(r){
+      if(cat!=="*"&&r[2]!==cat) return;
+      if(q&&(r[0]+" "+r[1]).toLowerCase().indexOf(q)<0) return;
+      if(r[2]!==lastG){ lastG=r[2]; html+='<tr class="grp"><td class="nm">'+GRP[r[2]]+'</td><td colspan="'+(YEARS.length+2)+'"></td></tr>'; }
+      html+='<tr><td class="nm">'+r[0]+'<span class="xb">'+r[13]+'</span><span class="sp">'+r[1]+'</span><span class="sc">'+r[8]+(r[10]?'. Capital Investment Grant '+(r[2]==="F"?'':'request ')+money(r[10]):'')+'</span></td>';
+      YEARS.forEach(function(y){
+        var s=planAt(r,y), b=building(r,y), o=operating(r,y);
+        if(!s&&!b&&!o){ html+='<td class="cell"><div style="background:transparent"></div></td>'; return; }
+        var bg=o?"var(--s2)":(s?TONE[s][0]:"transparent"), fg=o?"var(--s2t)":(s?TONE[s][1]:"var(--muted)");
+        var edge=(b?";border-bottom:4px solid var(--s5)":"")+(o?";border-left:4px solid var(--s6)":"");
+        var tip=y+": "+(o?"in service":(s?STAGE[s]:""))+(b?"; under construction":"");
+        html+='<td class="cell"><div style="background:'+bg+';color:'+fg+edge+'" title="'+tip+'">'+(o?"":(s?ABBR[s]:""))+'</div></td>';
+      });
+      html+='<td class="svc" style="color:'+(r[7]<=2031?"var(--s6)":"var(--ink)")+'">'+r[7]+'</td><td class="svc" style="color:var(--muted);font-weight:500">'+money(r[9])+'</td></tr>';
+    });
+    if(cat==="*"||cat==="Y"){
+      var any=S.filter(function(r){return !q||(r[0]+" "+r[1]).toLowerCase().indexOf(q)>=0;});
+      if(any.length){
+        html+='<tr class="grp"><td class="nm">'+GRP.Y+'</td><td colspan="'+(YEARS.length+2)+'"></td></tr>';
+        any.forEach(function(r){
+          html+='<tr><td class="nm">'+r[0]+'<span class="sp">'+r[1]+'</span><span class="sc">'+r[7]+'</span></td>';
+          YEARS.forEach(function(y){
+            var s=sysStage(r,y), am=y>=2029, fl=y>=2029;
+            var edge=(am?";border-bottom:4px solid var(--s5)":"")+(fl?";border-left:4px solid var(--s6)":"");
+            var tip=y+": "+SSTAGE[s]+(am?"; backlog retirement money flowing":"")+(fl?"; federal service floor in force":"");
+            html+='<td class="cell"><div style="background:'+STONE[s][0]+';color:'+STONE[s][1]+edge+'" title="'+tip+'">'+SAB[s]+'</div></td>';
+          });
+          html+='<td class="svc" style="color:var(--muted)">&mdash;</td><td class="svc" style="color:var(--muted)">&mdash;</td></tr>';
+        });
+      }
+    }
+    document.getElementById("body").innerHTML=html;
+  }
+
+  function counts(){
+    var rows={1:[],2:[],3:[]}, bld=[], op=[];
+    YEARS.forEach(function(y){
+      var c={1:0,2:0,3:0}, nb=0, no=0;
+      D.forEach(function(r){ var o=operating(r,y); var s=planAt(r,y); if(s&&!o)c[s]++; if(building(r,y))nb++; if(o)no++; });
+      [1,2,3].forEach(function(k){rows[k].push(c[k]);}); bld.push(nb); op.push(no);
+    });
+    function line(label,sw,arr,bold){ return '<tr><td><span style="display:inline-block;width:11px;height:11px;border-radius:2px;background:'+sw+';margin-right:7px;vertical-align:-1px"></span>'+label+'</td>'+
+      arr.map(function(v){return '<td style="color:'+(v?"var(--ink)":"var(--muted)")+(bold?";font-weight:600":"")+'">'+(v||"·")+'</td>';}).join("")+'</tr>'; }
+    var h='<thead><tr><th>Stage</th>'+YEARS.map(function(y){return '<th>'+String(y).slice(2)+'</th>';}).join("")+'</tr></thead><tbody>';
+    h+=line("Project development",TONE[1][0],rows[1])+line("Engineering",TONE[2][0],rows[2])+line("Agreement signed, not yet open",TONE[3][0],rows[3])+
+       line("Under construction","var(--s5)",bld,true)+line("In service","var(--s6)",op,true)+'</tbody>';
+    document.getElementById("counts").innerHTML=h;
+  }
+
+  function notes(){
+    function n(f){return D.filter(f).length;}
+    var svc31=n(function(r){return r[7]<=2031;}), svc36=n(function(r){return r[7]<=2036;}), svc45=n(function(r){return r[7]<=2045;});
+    var big=D.filter(function(r){return r[9]>=1;});
+    var big31=big.filter(function(r){return r[7]<=2031;}), big36=big.filter(function(r){return r[7]<=2036;}), big45=big.filter(function(r){return r[7]<=2045;});
+    var signed=big31.filter(function(r){return r[2]==="F";}).length;
+    function shifted(k){ return D.filter(function(r){ return (r[7]-((r[2]==="F")?0:k))<=2031; }); }
+    var s2=shifted(2), s2big=s2.filter(function(r){return r[9]>=1;}).length;
+    var dash=D.filter(function(r){return r[2]==="N"||r[2]==="S";});
+    var cost=dash.reduce(function(a,r){return a+r[9];},0), cig=dash.reduce(function(a,r){return a+r[10];},0);
+    var top4=D.filter(function(r){return r[2]==="N";}).sort(function(a,b){return b[10]-a[10];}).slice(0,4);
+    var top4s=top4.reduce(function(a,r){return a+r[10];},0);
+    var late=D.filter(function(r){return r[2]==="L";});
+    var raid=S.filter(function(r){return /capital funds/.test(r[7]);});
+    document.getElementById("notes").innerHTML=
+     '<p><strong>The number that does not move is '+big31.length+'.</strong> That is how many projects costing more than $1 billion open by FY2031, and '+signed+' of them hold agreements signed before any of this legislation exists. Moving every pipeline grant two years earlier raises total openings by FY2031 from '+svc31+' to '+s2.length+', and every added project is bus rapid transit. The large-project count stays at '+s2big+'. A tunnel under construction does not go faster because a later bill is larger. This is the same result the corridor pipeline shows for rail, for the same reason.</p>'+
+     '<p><strong>The systems rows move on a different clock entirely.</strong> A capital project takes ten to fifteen years from project development to service. An operating gap opens and closes inside a single budget cycle. Of the thirteen systems here, '+raid.length+' are covering operations with capital funds today, which is how an operating gap becomes repair backlog. The transition grants in the 2029 reconciliation package reach every one of these rows in its first year, and the conditions attached to them (state and local support held at its three-year average, service hours held at 95 percent of the base) are what the red edge marks.</p>'+
+     '<p><strong>The pipeline is concentrated.</strong> The '+dash.length+' dashboard projects cost about $'+cost.toFixed(1)+' billion and request $'+cig.toFixed(1)+' billion. Four of them ('+top4.map(function(r){return r[0];}).join(", ")+') account for $'+top4s.toFixed(1)+' billion of the request. Thirty Small Starts together ask for less than any one of those four. A grant program sized at $27.5 billion over five years is mostly spoken for by projects already in engineering.</p>'+
+     '<p><strong>What the Act itself starts opens after 2036.</strong> '+late.length+' projects are outside the federal pipeline today. They enter project development in FY2031 to FY2032 and open between '+Math.min.apply(null,late.map(function(r){return r[7];}))+' and '+Math.max.apply(null,late.map(function(r){return r[7];}))+'. By FY2036, '+svc36+' of 64 projects are in service and '+big36.length+' of the '+big.length+' large ones; by FY2045 it is '+svc45+' and '+big45.length+'.</p>'+
+     '<p><strong>How slippage is modeled.</strong> The dashboard gives an estimated grant date for each project. FY2027 and FY2028 are years of divided government with FTA at 552 staff, down from 781, so this grid moves New Starts over $1 billion two years later than the dashboard and everything else one year. Construction duration is not compressed anywhere. The reconciliation packages clear the grant queue in FY2029 and FY2030; they do not shorten a build.</p>'+
+     '<p><strong>What the grid cannot see.</strong> None of the 17 larger pipeline projects reports its non-federal match as committed, and a project whose match fails does not slip, it stops. The grid also treats the November 2026 Bay Area ballot measure as failing, since a stopgap is the conservative reading; if it passes, three rows move from stopgap to fixed in FY2027.</p>';
+  }
+
+  document.getElementById("cats").addEventListener("click",function(e){
+    var b=e.target.closest(".chip"); if(!b) return;
+    this.querySelectorAll(".chip").forEach(function(c){c.setAttribute("aria-pressed",c===b?"true":"false");});
+    draw();
+  });
+  document.getElementById("q").addEventListener("input",draw);
+  head(); draw(); counts(); notes();
+})();
+</script>
+
+</body></html>
