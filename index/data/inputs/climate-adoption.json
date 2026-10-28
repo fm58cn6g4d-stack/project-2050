@@ -1,0 +1,42 @@
+{
+  "source": "sources/climate-portfolio-pricing.json",
+  "source_sha256": "9b6f99d1a3167d05099d791cee7b59ac463a0408830721b4e86106aa25b9fe8a",
+  "case": "conservative",
+  "payment": "O5",
+  "credit_split": {
+    "CLI-1": 0.8035714285714285,
+    "CLI-5": 0.19642857142857142
+  },
+  "credit_split_basis": "Proportional allocation over pricing denominator: CLI-1 0.90T and CLI-5 transmission ITC/45X 0.22T. No saving on other CLI-5 lines; total savings counted once. Conservative 0.67 multiplier until scored.",
+  "legacy_gf_tn": {
+    "CLI-1": 0.9,
+    "CLI-5": 0.168
+  },
+  "post2050": "Hold each 2050 nominal real flow constant in 2025 dollars using export inflation (2.2%); zero-ended items remain zero; recompute O5 annually. Sensitivity/proxy, not an emissions forecast.",
+  "contingent_liability_bn": [
+    75,
+    150
+  ],
+  "item_rows": {
+    "bill": "CLI-5L",
+    "disaster_perm": "CLI-7",
+    "reinsurance": "CLI-7C",
+    "nfip": "CLI-7N",
+    "ag": "CLI-13A",
+    "retrofits": "CLI-5W",
+    "grid": "CLI-10G",
+    "disaster_cap": "CLI-7K",
+    "industry": "CLI-9",
+    "forests": "CLI-13F"
+  },
+  "before": {
+    "source_commit": "ffe461d32dc0f50f58213bcb5347d49343e46611",
+    "dec_2040_gf_bn": 71.9454237156769,
+    "dec_2040_gf_pct": 0.13282150334276754,
+    "dec_2056_debt_pct": 155.74728637743357,
+    "recovery_mature_gap_pct": -0.008323556082995114,
+    "recovery_2056_debt_pct": 115.33612789434251,
+    "q4_average_dollars": 1261,
+    "mixed_q4_2039_dollars": -2906
+  }
+}

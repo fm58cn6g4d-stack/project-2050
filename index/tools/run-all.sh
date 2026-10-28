@@ -11,7 +11,7 @@ for a in "$@"; do [[ "$a" == "--write" ]] && WRITE=1; [[ "$a" == "--fetch" ]] &&
 
 rm -rf "$BUILD"; mkdir -p "$BUILD"
 cp "$TOOLS"/ledger-build.py "$TOOLS"/ledger-paths.py "$TOOLS"/ledger-make-md.py "$TOOLS"/incidence-make-md.py \
-   "$TOOLS"/fiscal-data.py "$TOOLS"/fiscal-profiles.py "$TOOLS"/inputs.py "$TOOLS"/fiscal-model.py "$TOOLS"/fiscal-make-md.py "$BUILD"/
+   "$TOOLS"/climate-integration.py "$TOOLS"/fiscal-data.py "$TOOLS"/fiscal-profiles.py "$TOOLS"/inputs.py "$TOOLS"/fiscal-model.py "$TOOLS"/fiscal-make-md.py "$BUILD"/
 # the two incidence scripts import each other under their working names
 cp "$TOOLS"/incidence-model.py "$BUILD"/incidence.py
 cp "$TOOLS"/incidence-years.py "$BUILD"/years.py
@@ -35,6 +35,7 @@ else
 fi
 echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fiscal-baseline.csv" > fiscal-model.log; head -1 fiscal-model.log
 python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
+python3 "$TOOLS"/test_climate_integration.py
 echo "== 6b. carbon model";    (cd "$TOOLS"/carbon && node cfd-tests.js >/dev/null) || { echo "carbon model checks failed: run node index/tools/carbon/cfd-tests.js"; exit 1; }
                                 cp "$TOOLS"/carbon-model.py "$BUILD"/; python3 carbon-model.py
 echo "== 6c. dedicated funds";  cp "$TOOLS"/funds-model.py "$BUILD"/; python3 funds-model.py
@@ -56,7 +57,10 @@ echo "== 8d. public story page (claim register and generated page)"
 python3 "$TOOLS"/public-product/story/build_story.py --report
 PUBLIC_STORY_REPORT_ONLY=1 python3 "$TOOLS"/public-product/story/test_story.py 2>&1 | tail -1
 
+python3 "$TOOLS"/climate-integration-report.py
+
 OUT=(
+  'climate-ledger-integration.md|sources/climate-ledger-integration.md'
   'recovery-budget.md|index/recovery-budget.md'
   'recovery-budget.json|index/data/recovery-budget.json'
   'recovery-budget-paths.csv|index/data/recovery-budget-paths.csv'

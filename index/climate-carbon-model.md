@@ -84,7 +84,7 @@ By source, 2030-39: industry $0.82T, buildings $0.47T, power $0.44T, non-road tr
 
 **Industrial process CO2 and N2O (an option).** Extending REV-C1's price to process emissions (cement, steel, ammonia, petrochemicals) would raise about $0.26T more in 2030-39.
 
-**Credits in the model.** The package's credit outlays come to about $1.50T in 2030-39 in the model's accounting, against the ledger's $0.90T for CLI-1A (range $0.60-1.10T) and CLI-5's transmission ITC and 45X lines (about $0.22T). The model's set includes bonus adders and the hydrogen credit and prices take-up off the larger clean build under the fee and the CES, so it is a cross-check on the high end, not a score.
+**Credits in the model.** The package's credit outlays come to about $1.50T in 2030-39 in the model's accounting, against the ledger's $0.76T for CLI-1A (range $0.32-0.96T) and CLI-5's transmission ITC and 45X lines (about $0.22T). The model's set includes bonus adders and the hydrogen credit and prices take-up off the larger clean build under the fee and the CES, so it is a cross-check on the high end, not a score.
 
 ## Households in 2035 (the carbon channel alone)
 

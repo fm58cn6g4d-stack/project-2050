@@ -57,3 +57,7 @@ option,C35,"Estate tax at 2009 parameters, exemption frozen (REV-E1), increment 
 option,C36,Meals at community-eligibility scale (EDU-3B) instead of universal,benefit,-[C36],meals,,ledger option
 option,EDUP,"EDU-9B education contribution, ~1.4 points uncapped payroll (all on workers)",cost,2.27,wages,[ED1],ledger option
 option,EDUB,"EDU-9B new benefits beyond the chosen rows (pre-K and child care share, teacher floor, PARA, Title I and IDEA top-ups)",benefit,0.63,childcare 0.24; education 0.39,,ledger option
+package,C1P,Process-emissions fee: full consumer pass-through proxy,cost,[C1P],consumption,,"Package A/O5 annual export; inherited distribution-key proxy. Retrofit value is in-kind spending, not cash. No D3 certification."
+package,CB1,Combustion fee reduction from Package A abatement,cost,[CB1],energy,,"Package A/O5 annual export; inherited distribution-key proxy. Retrofit value is in-kind spending, not cash. No D3 certification."
+package,CLIW,CLI-5W retrofit in-kind benefit,benefit,[CLI-5W],low_income_energy,,"Package A/O5 annual export; inherited distribution-key proxy. Retrofit value is in-kind spending, not cash. No D3 certification."
+package,CLIL,CLI-5L bill protection,benefit,[CLI-5L],low_income_energy,,"Package A/O5 annual export; inherited distribution-key proxy. Retrofit value is in-kind spending, not cash. No D3 certification."

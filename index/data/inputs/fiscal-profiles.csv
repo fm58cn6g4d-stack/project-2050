@@ -92,3 +92,18 @@ option,C39,revenue,rev_individual,,1,rev_individual,,,,,"REV-TS12, 28% itemized 
 option,C40,revenue,rev_corporate,,1,rev_corporate,,,,,REV-HP1 pay-ratio surtax
 option,C41,revenue,rev_other,,1,rev_corporate,,,,,REV-HP3 excise on top-officer pay
 option,C43,revenue,rev_individual,,1,rev_individual,,,,,"REV-SC1, 45% bracket above $5M; grows with top incomes"
+bill,CLI-5L,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-7C,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-7N,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-13A,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-5W,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-10G,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-7K,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-9,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-13F,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+bill,CLI-2O,,out_other_mandatory,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+base revenue,CXP,,rev_individual,2030,1,cpi,,,,,"Exact climate annual override, conservative Package A/O5; see climate-adoption.json"
+option,C44,borrow,out_other_mandatory,2030,1,cpi,2039,0,,,Capital costs already in CLI-10G and CLI-7K; financing only.
+bill,CLI-3E,,out_other_mandatory,2030,1,cpi,,,,,Statutory zero-direct-outlay row.
+bill,CLI-4E,,out_other_mandatory,2030,1,cpi,,,,,Statutory zero-direct-outlay row.
+bill,CLI-4H,,out_other_mandatory,2032,1,cpi,,,,,Statutory zero-direct-outlay row.

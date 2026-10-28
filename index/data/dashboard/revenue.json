@@ -752,5 +752,44 @@
   "legal_risk": "",
   "overlap": "Scoring convention",
   "source": "Moving America Draft 2"
+ },
+ {
+  "id": "C1P",
+  "option": "REV-C1 process-emissions coverage; separate O5 receipts account",
+  "channel": "O5 incremental climate receipts",
+  "lo": 0.24430520507013365,
+  "mid": 0.24430520507013365,
+  "hi": 0.24430520507013365,
+  "in_base": "No",
+  "reaches_middle": "Yes",
+  "legal_risk": "Low",
+  "overlap": "Increment against decided $150 baseline. Financing and dividend booked once by CLI-2O and CLI-2. Not available again to CLI-5.",
+  "source": "sources/climate-portfolio-pricing.json annual O5 accounts"
+ },
+ {
+  "id": "CB1",
+  "option": "REV-C1 combustion receipts change from Package A abatement; preserves D7 80/20",
+  "channel": "O5 incremental climate receipts",
+  "lo": -0.14163016224879443,
+  "mid": -0.14163016224879443,
+  "hi": -0.14163016224879443,
+  "in_base": "No",
+  "reaches_middle": "Yes",
+  "legal_risk": "Low",
+  "overlap": "Increment against decided $150 baseline. Financing and dividend booked once by CLI-2O and CLI-2. Not available again to CLI-5.",
+  "source": "sources/climate-portfolio-pricing.json annual O5 accounts"
+ },
+ {
+  "id": "CXP",
+  "option": "CX: 25% tax offset on incremental process and combustion receipts",
+  "channel": "General fund",
+  "lo": -0.0256687607053348,
+  "mid": -0.0256687607053348,
+  "hi": -0.0256687607053348,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "Scoring convention",
+  "overlap": "Increment only; existing CX unchanged. Includes process receipts and lost combustion receipts.",
+  "source": "sources/climate-portfolio-pricing.json annual cx cost"
  }
 ]
