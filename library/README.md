@@ -4,12 +4,12 @@ Role: originals and their text versions, the catalog and the name index. Status:
 
 | File | What | Edited by |
 | --- | --- | --- |
-| `catalog.csv` | One row per document in `legacy/` and `library/intake/`: `SRC-` ID, path, title, kind, origin, rights, status, aliases, note | Hand (new files are appended by the script) |
+| `catalog.csv` | One row per document in `legacy/` and `library/intake/`: `SRC-` ID, path, title, kind, origin, rights, status, aliases, `copy_of`, note. `copy_of` marks an original upload that duplicates a working copy in `legacy/`, so its names lead to that one home | Hand (new files are appended by the script) |
 | `catalog-facts.csv` | Size, SHA-256, first commit and last content change (following renames) | Script only |
 | `name-index.md` | Every name a document has gone by (title, file name, alias, staging row, Bill Book chapter) and its one home | Script only |
 | `intake/2026-10-28/` | Espen's October 28 uploads, unchanged, with `manifest.json` checksums | Never (originals) |
 
-`python3 library/build_catalog.py` appends rows for new files and rebuilds the generated files. `--check` fails when a file is uncatalogued, a catalogued path is gone or the name index is stale; stale file facts print a note.
+`python3 library/build_catalog.py` appends rows for new files and rebuilds the generated files. `--check` fails when a file is uncatalogued, a catalogued path is gone, the name index is stale, or a title or alias leads to two homes (file names may repeat). Stale file facts only print a note.
 
 To add a name, add it to the row's `aliases` column (semicolon-separated) and rerun the script.
 
