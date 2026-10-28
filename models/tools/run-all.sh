@@ -57,6 +57,10 @@ echo "== 8d. public story page (claim register and generated page)"
 python3 "$TOOLS"/public-product/story/build_story.py --report
 PUBLIC_STORY_REPORT_ONLY=1 python3 "$TOOLS"/public-product/story/test_story.py 2>&1 | tail -1
 
+echo "== 8e. registry (agenda, library catalog, charter IDs, evidence and provisions, references)"
+python3 "$ROOT"/models/registry/check.py
+python3 "$ROOT"/models/registry/test_registry.py 2>&1 | tail -1
+
 python3 "$TOOLS"/climate-integration-report.py
 
 OUT=(

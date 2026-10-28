@@ -8,7 +8,8 @@ Checks, in one run:
 - dossiers: each evidence.json entry names a catalogued source, its anchor passage exists in that source,
   its figures trace to the anchor (the story builder's rules, models/registry/claims.py), its grade is A-E
   and its dates are valid; each provisions.json entry belongs to an agenda ID and cites known evidence;
-- references: every SRC-, EV-, OUT- and DEC- ID cited in charter/, dossiers/ and public/ text resolves.
+- references: every SRC-, EV-, OUT- and DEC- ID cited in current text resolves (in Markdown, an ID in
+  `code formatting` is a format example and is not checked).
 
 A re-check date in the past is reported as a warning (an error with --strict), so an evidence entry
 falling due never breaks unrelated work.
@@ -154,6 +155,8 @@ def check_references(root, known):
             if path.suffix not in {'.md', '.json', '.csv'} or not path.is_file() or 'site' in path.parts:
                 continue
             text = path.read_text(errors='replace')
+            if path.suffix == '.md':
+                text = re.sub(r'`[^`\n]*`', '', text)  # an ID in code formatting is a format example, not a citation
             for kind, pattern in REFS.items():
                 for ref in sorted(set(pattern.findall(text)) - known[kind]):
                     errors.append(f'{path.relative_to(root)}: {ref} does not resolve')
