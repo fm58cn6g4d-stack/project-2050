@@ -48,7 +48,7 @@ The scale already evidenced:
 **Hundreds of thousands have no home at all.**
 - On a single night in 2025, 745,652 people were homeless: 479,332 in shelters and 266,320 unsheltered [EV-HOU-014].
 - That is slightly below 2024's 771,480, but well above 2007's 647,258 and the 2016 low of 549,928 [EV-HOU-015].
-- Chronic homelessness among individuals reached 155,750 in 2025, the highest number recorded, up from 77,486 in 2016 [EV-HOU-016]. In law, a chronically homeless person has a disability and has been homeless for a year or more, continuously or over several episodes.
+- Chronic homelessness among individuals reached 155,750 in 2025, the highest number recorded, up from 77,486 in 2016. This count leaves out chronically homeless people in families, who are reported separately, so it understates the total [EV-HOU-016]. In law, a chronically homeless person has a disability and has been homeless for a year or more, continuously or over several episodes.
 
 **There are too few homes the poorest renters can afford.**
 - Commonly cited estimates put the national housing shortage at roughly 4 million to 5 million homes. The methods differ, and some researchers argue the shortage is really local, or specific to homes low-income renters can afford [EV-HOU-017].

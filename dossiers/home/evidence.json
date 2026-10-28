@@ -271,13 +271,16 @@
  },
  {
   "id": "EV-HOU-016",
-  "statement": "In 2025, 155,750 individuals were chronically homeless, the highest number recorded, up from 77,486 in 2016.",
+  "statement": "In 2025, 155,750 individuals were chronically homeless, the highest number recorded, up from 77,486 in 2016. The series counts individuals only; chronically homeless people in families are reported separately and are not included.",
   "figures": [
    "155,750",
    "77,486"
   ],
   "source": "SRC-0293",
-  "anchor": "In 2025, 155,750\nindividuals were chronically homeless, the highest number\nrecorded. It is up from 77,486 at the lowest point in 2016.",
+  "anchor": [
+   "In 2025, 155,750\nindividuals were chronically homeless, the highest number\nrecorded. It is up from 77,486 at the lowest point in 2016.",
+   "homeless people in families since 2013. Family data are not\nincluded in the AHAR report"
+  ],
   "grade": "C",
   "fact_date": "2025",
   "checked": "2026-10-28",
