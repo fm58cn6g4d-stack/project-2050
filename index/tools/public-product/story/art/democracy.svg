@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="420" fill="#e6ece4"/>
+<rect x="0" y="340" width="800" height="80" fill="#c9c1ad"/>
+<rect x="150" y="110" width="500" height="232" fill="#efe3cf"/>
+<path d="M130 116 l270 -76 l270 76z" fill="#275a48"/>
+<g fill="#fffaf0" stroke="#c8b98f" stroke-width="3">
+<rect x="186" y="132" width="26" height="200"/><rect x="262" y="132" width="26" height="200"/><rect x="512" y="132" width="26" height="200"/><rect x="588" y="132" width="26" height="200"/>
+</g>
+<rect x="330" y="200" width="140" height="142" fill="#3b5a4f"/>
+<rect x="340" y="210" width="120" height="132" fill="#f6dc8e" opacity=".85"/>
+<rect x="356" y="250" width="44" height="40" rx="3" fill="#fffaf0" stroke="#7d8a84" stroke-width="2"/>
+<path d="M366 250 v-10 h24 v10" fill="none" stroke="#7d8a84" stroke-width="3"/>
+<rect x="370" y="236" width="16" height="22" fill="#fff" stroke="#9aa79c"/>
+<g><circle cx="430" cy="244" r="10" fill="#7a4b33"/><path d="M416 290 q0 -34 14 -36 q14 2 14 36z" fill="#aa492e"/></g>
+<rect x="104" y="226" width="40" height="64" rx="3" fill="#fffaf0" stroke="#9aa79c" stroke-width="2"/>
+<path d="M112 238 h24 M112 248 h20 M112 258 h24 M112 268 h14" stroke="#aa492e" stroke-width="3"/>
+<rect x="122" y="290" width="4" height="50" fill="#7d8a84"/>
+<g>
+<circle cx="490" cy="314" r="11" fill="#a46a46"/><path d="M476 360 q0 -32 14 -34 q14 2 14 34z" fill="#3b6478"/>
+<circle cx="528" cy="310" r="11" fill="#3a2a20"/><circle cx="528" cy="314" r="10" fill="#7a4b33"/><path d="M514 360 q0 -34 14 -36 q14 2 14 36z" fill="#d39a4a"/>
+<circle cx="566" cy="316" r="10" fill="#e0b48f"/><path d="M554 360 q0 -30 12 -32 q12 2 12 32z" fill="#275a48"/>
+<rect x="590" y="328" width="22" height="30" rx="4" fill="#5b6f73"/><circle cx="596" cy="360" r="4" fill="#333"/><circle cx="608" cy="360" r="4" fill="#333"/>
+<circle cx="602" cy="314" r="11" fill="#7a4b33"/><path d="M590 352 q0 -26 12 -28 q12 2 12 28z" fill="#aa492e"/>
+<circle cx="642" cy="318" r="10" fill="#c58a62"/><path d="M630 360 q0 -28 12 -30 q12 2 12 30z" fill="#3b6478"/>
+<circle cx="680" cy="314" r="11" fill="#5a3a28"/><path d="M666 360 q0 -32 14 -34 q14 2 14 34z" fill="#9a6c3c"/>
+</g>
+<g fill="#5b8a5a"><circle cx="60" cy="310" r="30"/><circle cx="740" cy="300" r="34"/></g>
+<rect x="56" y="310" width="8" height="34" fill="#7d5730"/><rect x="736" y="300" width="8" height="44" fill="#7d5730"/>
+</svg>
