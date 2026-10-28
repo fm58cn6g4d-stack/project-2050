@@ -60,6 +60,8 @@ def domain_definitions():
             if not entry['name'] and name:
                 entry['name'] = plain(name)
             entry['flags'].add(flag.lower() + ' ' + name.lower())
+            if row and 'pointer only' in line.lower():
+                entry['flags'].add('pointer only')
             if row and re.search(r'add-on|options\b|alternatives', section) and not re.match(rf'#+\s+{pid}\b', section):
                 entry['flags'].add('(option in an options section)')
     return found
@@ -125,38 +127,59 @@ def home(pid):
     return HOME[re.match(r'[A-Z]+', pid).group(0)]
 
 
-def status(pid, flags, reg, group=1):
-    """Normalize to decided / chosen / option / alternative / held / declined / retired / pointer.
-
-    Only the first clause of the register's status counts. A register row covering several lettered
-    options ("C chosen; ...") applies to the named letter; its siblings are alternatives.
-    """
-    f = ' '.join(flags)
-    text = (reg or '').split(';')[0].lower()
-    if group > 1:
-        letter = re.match(r'[A-Z]+-[A-Z]*\d+([A-Z]?)', pid).group(1).lower()
-        named = re.match(r'(?:[a-z]+-)?(?:\d+)?([a-z])\b\s+(chosen|decided|amended|adopted)', text)
-        if named:
-            text = text if letter == named.group(1) else ''
-            if not text:
-                return ('chosen' if '(chosen' in f else 'alternative'), reg
-    if text.startswith('open') or 'not adopted' in text:
-        return 'option', reg
+def classify(text):
+    """Status named by a phrase from the register or a domain file, or None."""
     for key, words in (('retired', ('retired', 'duplicate')), ('pointer', ('pointer',)),
-                       ('declined', ('declined', 'not recommended', 'not chosen', 'rejected')),
-                       ('held', ('held', 'parked', 'reserve')),
+                       ('declined', ('not chosen', 'declined', 'not recommended', 'rejected')),
+                       ('option', ('not adopted',)), ('held', ('held', 'parked', 'reserve')),
                        ('decided', ('decided', 'selected', 'booked', 'adopted', 'accepted', 'approved')),
                        ('chosen', ('chosen', 'kept', 'revised', 'sized', 'amended')),
                        ('option', ('option', 'open', 'study', 'explore', 'pending', 'unselected'))):
-        if any(w in text for w in words):
-            return key, reg
+        if any(re.search(rf'\b{w}\b', text) for w in words):
+            return key
+    return None
+
+
+def own_status(flags):
+    """What the item's own definition in its domain file says about it."""
+    f = ' '.join(flags)
+    if 'pointer only' in f:
+        return 'pointer'
+    if re.search(r'\([^)]*\b(adopted|decided)\b', f):   # a marker such as "(adopted)" or "(decided Oct 27)"
+        return 'decided'
     if 'option, not chosen' in f or '(option' in f or 'option)' in f or '*option' in f:
-        return 'option', reg
-    if 'chosen' in f or 'selected' in f:
-        return 'chosen', reg
-    if re.search(r'\d[A-Za-z]$', pid):
-        return 'alternative', reg   # a lettered variant with no chosen mark
-    return 'chosen', reg            # a numbered program in its domain's design
+        return 'option'
+    if '(chosen' in f or 'selected' in f:
+        return 'chosen'
+    return None
+
+
+def status(pid, flags, reg, group=1):
+    """Normalize to decided / chosen / option / alternative / held / declined / retired / pointer.
+
+    Precedence: a register clause that names this item ("8B not chosen; 8C option") > the item's own
+    marker in its domain file ("(adopted)", "Pointer only") > the register's status for a row of its own >
+    the default (a lettered variant with no mark is an alternative; a numbered program is chosen).
+    """
+    code = re.match(r'[A-Z]+-([A-Z]*\d+[A-Za-z]?)', pid).group(1).lower()
+    lettered = bool(re.search(r'\d[A-Za-z]$', pid))
+    text, own = (reg or '').lower(), own_status(flags)
+    named_any = group > 1 and any(re.match(r'\s*(?:[a-z]+-)?\d*[a-z]\b\s+\w', c) for c in re.split(r'[;,]', text))
+    if named_any:
+        for clause in re.split(r'[;,]', text):
+            m = re.match(r'\s*(?:[a-z]+-)?(\d*[a-z])\b\s+(.*)', clause)
+            if m and (m.group(1) == code or (m.group(1).isalpha() and lettered and code.endswith(m.group(1))
+                                              and code[:-1].lstrip('abcdefghijklmnopqrstuvwxyz').isdigit())):
+                named = classify(m.group(2))
+                if named:
+                    return named, reg
+        # A sibling was named: an unmarked lettered variant lost to it.
+        if own in ('decided', 'pointer', 'chosen'):
+            return own, reg
+        return ('alternative' if lettered else 'chosen'), reg
+    if own in ('decided', 'pointer'):
+        return own, reg
+    return classify(text.split(';')[0]) or own or ('alternative' if lettered else 'chosen'), reg
 
 
 LEVEL = {'decided': 'L2', 'chosen': 'L2', 'option': 'L1', 'alternative': 'L1', 'held': 'L1', 'declined': 'L1',
@@ -256,6 +279,11 @@ if __name__ == '__main__':
         dup = sorted({i for i in ids if ids.count(i) > 1})
         missing = sorted({r['id'] for r in seed()} - set(ids))
         bad = [r['id'] for r in rows if r['level'] not in {'L0', 'L1', 'L2', 'L3', 'L4'} or list(r) != COLUMNS]
+        # An item its own domain file marks adopted, decided or pointer-only must say so here.
+        status_of = {r['id']: r['status'] for r in rows}
+        bad += [f'{pid} (domain file says {own_status(d["flags"])}, agenda says {status_of.get(pid)})'
+                for pid, d in defs.items() if own_status(d['flags']) in ('decided', 'pointer')
+                and status_of.get(pid) != own_status(d['flags'])]
         for label, items in (('duplicate', dup), ('missing from agenda.csv', missing), ('bad level/columns', bad)):
             if items:
                 print(f'{label}: {", ".join(items)}')
