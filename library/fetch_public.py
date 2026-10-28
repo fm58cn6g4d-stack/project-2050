@@ -17,8 +17,12 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+from urllib.parse import urlparse
 
 OUT = Path(__file__).resolve().parent / 'text'
+# Hosts whose documents are U.S. government works; the rights line below is only true for them.
+# EveryCRSReport republishes Congressional Research Service reports unchanged.
+PUBLIC_HOSTS = ('.gov', '.mil', 'everycrsreport.com')
 
 
 def html_text(raw):
@@ -38,6 +42,9 @@ def pdf_text(data):
 
 if __name__ == '__main__':
     url, slug, publisher = sys.argv[1:4]
+    host = urlparse(url).hostname or ''
+    if not host.endswith(PUBLIC_HOSTS):
+        sys.exit(f'{host} is not a U.S. government host; cite a licensed or private source instead of saving it')
     # curl, with the environment's proxy and certificates; some government sites refuse other clients.
     data = subprocess.check_output(['curl', '-sS', '-L', '--fail', '--max-time', '120', url])
     kind = 'pdf' if data[:5] == b'%PDF-' else 'html'

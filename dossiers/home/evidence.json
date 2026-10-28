@@ -152,18 +152,21 @@
   "statement": "Nearly a third of renters with incomes under $50,000 were behind on rent at some point in the past year, against 5 percent of renters with incomes of at least $100,000.",
   "figures": [
    "$50,000",
-   "5 percent"
+   "5 percent",
+   "$100,000"
   ],
   "source": "SRC-0290",
-  "anchor": "Nearly one-third of renters with less than\n$50,000 in income reported being behind on\nrent at some point during the past year, compared with 5 percent among renters with",
+  "anchor": [
+   "Nearly one-third of renters with less than\n$50,000 in income reported being behind on\nrent at some point during the past year, compared with 5 percent among renters with",
+   "income of at least $100,000 (table 48)."
+  ],
   "grade": "A",
   "fact_date": "2025",
   "checked": "2026-10-28",
   "recheck": "2027-06-01",
   "supports": [
    "dossiers/home/1-problem.md"
-  ],
-  "note": "The comparison group continues on a later line of the text version: \"income of at least $100,000 (table 48).\""
+  ]
  },
  {
   "id": "EV-HOU-010",
@@ -183,14 +186,14 @@
  },
  {
   "id": "EV-HOU-011",
-  "statement": "In 2021 there were 4.8 million renter households receiving federal rental assistance, against 19.34 million very low-income renters; CRS divides one by the other to estimate that one in four eligible households is assisted, a rough measure because some programs serve higher incomes and some very low-income households are not eligible for other reasons.",
+  "statement": "In 2021 there were 4.8 million renter households receiving federal rental assistance, against 19.34 million very low-income renters; CRS divides one by the other to estimate that one in four eligible households receives assistance, and calls it a rough measure.",
   "figures": [
    "4.8 million",
    "19.34 million",
    "2021"
   ],
   "source": "SRC-0292",
-  "anchor": "there were 4.8 million assisted renters.* This compares to\n19.34 million very low-income renters in 2021",
+  "anchor": "The estimate that one in four eligible households receives\nfederal rental assistance comes from dividing the number of\nhouseholds receiving federal rental assistance by the\nnumber of very low-income renters. In 2021, according to\nHUD’s “2021 Picture of Subsidized Households” data and\nUSDA’s Multifamily Housing Annual Occupancy Report,\nthere were 4.8 million assisted renters.* This compares to\n19.34 million very low-income renters in 2021, according\nto HUD’s Worst Case Housing Needs Report, 2023. This is\na rough measure",
   "grade": "C",
   "fact_date": "2021",
   "checked": "2026-10-28",
@@ -221,7 +224,7 @@
    "5 million"
   ],
   "source": "SRC-0291",
-  "anchor": "§1437f(o)), it subsidizes the rents of more than 2.3 million\nhouseholds (5 million people)",
+  "anchor": "the nation’s largest rental assistance program. Authorized\nunder Section 8 of the Housing Act of 1937 (42 U.S.C.\n§1437f(o)), it subsidizes the rents of more than 2.3 million\nhouseholds (5 million people)",
   "grade": "C",
   "fact_date": "2023",
   "checked": "2026-10-28",

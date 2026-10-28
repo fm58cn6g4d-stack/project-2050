@@ -5,8 +5,9 @@ Checks, in one run:
 - agenda: agenda/agenda.csv has every legacy policy and option ID once, with valid levels;
 - library: every document is catalogued and the name index is current;
 - charter: DEC- and OUT- IDs are well formed and unique;
-- dossiers: each evidence.json entry names a catalogued source, its anchor passage exists in that source,
-  its figures trace to the anchor (the story builder's rules, models/registry/claims.py), its grade is A-E
+- dossiers: each evidence.json entry names a catalogued source, its anchor passage (or list of passages)
+  exists in that source, its figures and every number in its statement trace to the anchors (the story
+  builder's rules, models/registry/claims.py), its grade is A-E
   and its dates are valid; each provisions.json entry belongs to an agenda ID and cites known evidence;
 - references: every SRC-, EV-, OUT- and DEC- ID cited in current text resolves (in Markdown, an ID in
   `code formatting` is a format example and is not checked).
@@ -120,11 +121,21 @@ def check_dossiers(root, catalog, agenda, today):
                 errors.append(f'{where}: {src} is not a text file; give a text_version in library/ to anchor against')
                 continue
             text = text_path.read_text(errors='replace') if text_path.exists() else ''
-            if claims.line_of(text, e['anchor']) is None:
-                errors.append(f'{where}: anchor not found in {text_path.relative_to(root)}: {e["anchor"][:70]!r}')
+            # One exact passage, or a list of them when a claim spans a page or column break.
+            anchors = e['anchor'] if isinstance(e['anchor'], list) else [e['anchor']]
+            missing = [a for a in anchors if claims.line_of(text, a) is None]
+            for a in missing:
+                errors.append(f'{where}: anchor not found in {text_path.relative_to(root)}: {a[:70]!r}')
+            if missing:
                 continue
             errors += [f'{where}: {p}' for p in claims.figure_problems(
-                [e['anchor']], e.get('figures', []), e.get('rounded', []), e.get('series', []))]
+                anchors, e.get('figures', []), e.get('rounded', []), e.get('series', []))]
+            # The statement is what a dossier repeats, so its numbers must trace too; its year is fact_date.
+            traced = claims.numbers(' '.join(anchors)).union(
+                {str(e.get('fact_date', ''))[:4]}, *(claims.numbers(r['figure']) for r in e.get('rounded', [])))
+            loose = sorted(claims.numbers(e.get('statement', '')) - traced)
+            if loose:
+                errors.append(f'{where}: statement number(s) {", ".join(loose)} not in its anchors')
     for path in sorted((root / 'dossiers').rglob('provisions.json')) if (root / 'dossiers').exists() else []:
         rel = path.relative_to(root)
         try:

@@ -58,13 +58,22 @@ class RegistryTests(unittest.TestCase):
         e['figures'] = ['4.5%']
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
         self.assertIn("figure '4.5%' not in its anchors", ' '.join(self.run_on(root)[0]))
-        e.update(figures=['0.9%'], anchor='The share was 0.00873',
+        e.update(statement='The share was 0.9%.', figures=['0.9%'], anchor='The share was 0.00873',
                  rounded=[{'figure': '0.9%', 'value': '0.00873', 'scale': 100, 'places': 1}])
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
         self.assertEqual(self.run_on(root)[0], [])
         e['rounded'][0]['figure'] = '1.0%'
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
         self.assertIn('does not follow from 0.00873', ' '.join(self.run_on(root)[0]))
+
+    def test_statement_numbers_and_anchor_lists(self):
+        root, e = self.tree()
+        e['statement'] = 'Rents rose 4.2% in 2025, after 3.1% in 2024.'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn('statement number(s) 2024, 3.1 not in its anchors', ' '.join(self.run_on(root)[0]))
+        e['anchor'] = ['Rents rose 4.2% in 2025', 'Rents rose 9.9%']
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn("anchor not found in legacy/sources/rents.md: 'Rents rose 9.9%'", ' '.join(self.run_on(root)[0]))
 
     def test_grade_dates_and_sources(self):
         root, e = self.tree()
