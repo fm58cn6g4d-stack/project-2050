@@ -22,6 +22,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'registry'))
+import claims as claim_rules  # noqa: E402  (models/registry/claims.py: the shared claim-tracing rules)
+
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[3]
 OUT = ROOT / 'public/site'
@@ -49,8 +52,7 @@ def is_drift(problem):
     return (problem.startswith('policy ') and ': marker ' in problem) or ': anchor not found in ' in problem
 
 
-def numbers(text):
-    return set(NUMBER.findall(text))
+numbers = claim_rules.numbers
 
 
 def strip_marks(text):
@@ -176,21 +178,9 @@ def validate(content, root=ROOT):
                 problems.append(f'claim {cid}: anchor not found in {src["path"]}: {src["anchor"][:70]!r}')
             found.append(line)
         locations[cid] = found
-        anchored = set().union(*(numbers(s['anchor']) for s in claim['sources']))
-        for r in claim.get('rounded', []):
-            # A displayed figure rounded from an anchored raw value, e.g. a model share shown as a percent.
-            shown = f'{float(r["value"]) * r["scale"]:.{r["places"]}f}'
-            if r['value'] not in anchored or numbers(r['figure']) != {shown}:
-                problems.append(f'claim {cid}: rounded figure {r["figure"]!r} does not follow from {r["value"]}')
-            else:
-                anchored = anchored | {shown}
-        for fig in claim.get('figures', []):
-            # A figure must appear, digit for digit, in at least one anchor passage.
-            if not numbers(fig) <= anchored | FREE_NUMBERS:
-                problems.append(f'claim {cid}: figure {fig!r} not in its anchors')
-        for year, value in claim.get('series', []):
-            if not {str(year), f'{value:,}'} <= anchored:
-                problems.append(f'claim {cid}: series point {year}={value} not in its anchors')
+        problems += [f'claim {cid}: {p}' for p in claim_rules.figure_problems(
+            [s['anchor'] for s in claim['sources']], claim.get('figures', []), claim.get('rounded', []),
+            claim.get('series', []), FREE_NUMBERS)]
     used = set()
     ids = [e['id'] for e in content['essays']]
     if len(ids) != len(set(ids)):

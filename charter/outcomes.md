@@ -8,6 +8,7 @@ Role: what the project is trying to change in people's lives, and how it will kn
 - **No numerical targets are set.** Targets, like any new instrument or governing test, are Espen's decisions, made through decision memos as the dossiers mature.
 - Aspirations, adopted commitments, observed conditions and conditional model results stay separate.
 - A good trend does not show that a policy caused it, and a good average does not show that every community shares the gain.
+- Numbers are not enough. Each outcome also needs people's own accounts: whether they could get the help they were owed, how the program treated them, whether remedies worked. Dossiers gather these through qualitative research and lived-experience review alongside the measures below.
 
 | ID | Outcome (aspiration) | Who must be reached, not just the average | Candidate measures (baseline source) | Moved mainly by |
 | --- | --- | --- | --- | --- |
@@ -21,9 +22,9 @@ Role: what the project is trying to change in people's lives, and how it will kn
 | OUT-08 | Time and practical freedom: people have time for family, community and rest, and real choices about work and care | Parents of young children, caregivers, shift workers | Time use (BLS ATUS); hours of unpaid care; schedule predictability | Care; secure floor; work |
 | OUT-09 | A democracy people can influence, and a government that delivers | Voters facing the most barriers; people who rely on public programs; communities that distrust government | Registration and turnout gaps; representation; benefit delivery times and error rates; access to remedies when delivery fails; trust in institutions | Democratic renewal |
 | OUT-10 | Connection: more people take part in shared work larger than themselves | People with little spare time or income, disabled people, people who distrust government | Volunteering and civic participation (CPS Civic Engagement Supplement); participation in national and community service | Democratic renewal; work |
-| OUT-11 | A program that pays its way and stays fair | Every income group below the top (the household fairness test) | General-fund balance at maturity under the fiscal rule; debt path; net effect on households by income group | Fair financing |
+| OUT-11 | The program keeps faith with the fairness and fiscal tests Espen adopted. These are already decided, not aspirations, and they are recorded here so every dossier answers to them | Every income group below the top (D3) | D3, both parts: every group below the top better off on net, and new general-fund revenue mostly from the top 1% and corporations. D4-B: permanent programs paid for at maturity (FY2040 on), time-limited investments inside the borrowing envelope. Both are run by the household incidence and fiscal models (`legacy/governing/project-2050-governing-decisions.md`, D3 and D4) | Fair financing |
 
 **Questions for Espen.**
 1. Are these the right outcomes? Add, merge or drop any.
 2. Should any outcome get a numerical target now, or only once its dossier reaches L3?
-3. OUT-11 is the means, not an end. Keep it here as the guardrail, or move it to the fair financing dossier?
+3. OUT-11 restates tests you already adopted (D3 and D4) rather than a new aim. Keep it here as the guardrail every dossier answers to, or move it to the fair financing dossier?
