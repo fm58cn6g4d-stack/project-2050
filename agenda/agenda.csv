@@ -1,0 +1,500 @@
+id,name,home_dossier,level,status,source,note
+AI-1,Frontier transparency,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:13,
+AI-2,"Preemption, decided deliberately",agenda/ai,L2,chosen,legacy/domains/domain-ai.md:14,
+AI-2A,Floor preemption for frontier development only,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:71,Register: A chosen
+AI-2B,No preemption,agenda/ai,L1,alternative,legacy/domains/domain-ai.md:72,Register: A chosen
+AI-2C,Great American AI Act shape: three-year field preemption of development rules,agenda/ai,L1,alternative,legacy/domains/domain-ai.md:73,Register: A chosen
+AI-3,Pre-deployment evaluation,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:15,
+AI-3B,Voluntary evaluation agreements in statute,agenda/ai,L1,option,legacy/index/options-register.md:264,Register: Option
+AI-4,AI and work,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:16,
+AI-4A,Ordinary displacement support linked to LAB-10,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:108,Register: Chosen
+AI-4C,"A narrowed AI reskilling credit (the AI bill's Sec. 208): 40% of employer training costs, capped at $250K a year for smaller employers and $1M for others, limit",agenda/ai,L1,option,legacy/domains/domain-ai.md:109,Register: Option; narrowed only
+AI-4D,"The definitional and data hooks: a DOL list of AI-augmented occupations with public comment and demographic and geographic analysis, displacement reporting by g",agenda/ai,L1,option,legacy/domains/domain-ai.md:110,Register: Option
+AI-4E,"An entry-level hiring credit: a payroll credit for hiring workers under 27 into first career-track positions, 25% of the first $40,000 of wages for two years, f",agenda/ai,L1,option,legacy/domains/domain-ai.md:111,Register: Option; demand side
+AI-4F,"A transitional employment guarantee (the Talarico successor agenda): anyone under 30 unemployed 16 weeks or more is entitled to a funded position in care, resil",agenda/ai,L1,option,legacy/domains/domain-ai.md:112,"Register: Option, second trifecta; overlaps LAB-9"
+AI-5,Government use,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:17,
+AI-5B,Cross-listed (home: domain-ai.md),agenda/ai,L1,pointer,legacy/index/options-register.md:246,Register: Pointer
+AI-6,AI revenue instrument,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:18,
+AI-6A,"Compute levy (per FLOP or per data-center megawatt-hour above a threshold), rebated",agenda/ai,L1,held,legacy/domains/domain-ai.md:142,Register: Held
+AI-6B,"Token-consumption tax on AI services sold, rebated in part",agenda/ai,L1,held,legacy/domains/domain-ai.md:143,Register: Held
+AI-6C,Excess-return tax on AI-attributable corporate profits,agenda/ai,L1,held,legacy/domains/domain-ai.md:144,Register: Held
+AI-6D,"Public equity instead of a tax: stakes taken in exchange for access to public goods (compute access, data licensing, interconnection priority), returns paid thr",agenda/ai,L1,held,legacy/domains/domain-ai.md:145,Register: Held
+AI-7,Platform transparency and design,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:19,
+AI-8,Synthetic media in political ads,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:20,
+AI-9,Local journalism,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:21,
+AI-10,Public media and FOIA,agenda/ai,L2,chosen,legacy/domains/domain-ai.md:22,
+AI-11,AI in hiring and workplace evaluation,agenda/ai,L1,pointer,legacy/domains/domain-ai.md:23,Register: Pointer
+AMD-1,Anti-corruption and campaign finance (For Our Freedom Amendment): the pathfinder,agenda/amendments,L2,chosen,legacy/domains/domain-amendments.md:21,
+AMD-1B,First-Congress recorded vote on AMD-1 (~1 floor day),agenda/amendments,L1,option,legacy/index/options-register.md:353,Register: Option
+AMD-2,CRT's term-limits statute,agenda/amendments,L2,chosen,legacy/domains/domain-amendments.md:7,
+AMD-3,DEM-8 (compact) and DEM-9 (presidential method),agenda/amendments,L2,chosen,legacy/domains/domain-amendments.md:8,
+AMD-4,"Senate suspensive veto (Parliament Act model): equal suffrage kept, absolute veto removed",agenda/amendments,L1,held,legacy/domains/domain-amendments.md:24,Register: Held
+AMD-5,Affirmative individual right to vote,agenda/amendments,L2,chosen,legacy/domains/domain-amendments.md:25,
+AMD-6,DEM-5 (D.C. statehood),agenda/amendments,L2,chosen,legacy/domains/domain-amendments.md:9,
+AMD-7,"Presidential immunity, only if Trump v. United States proves unworkable",agenda/amendments,L2,chosen,legacy/domains/domain-amendments.md:27,Register: Contingent
+AMD-8,"Legislative override of judicial invalidation, only inside an amendment package",agenda/amendments,L1,held,legacy/domains/domain-amendments.md:28,Register: Held
+AMD-9,Convention procedure statute,agenda/amendments,L1,option,legacy/domains/domain-amendments.md:29,Register: Option
+AMD-10,Ratification operations,agenda/amendments,L2,chosen,legacy/domains/domain-amendments.md:30,
+AMD-11,Subject-limited convention applications as leverage,agenda/amendments,L1,held,legacy/domains/domain-amendments.md:31,Register: Held until AMD-9
+CAP-1,Congressional staff and pay,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:17,
+CAP-2,Office of Technology Assessment,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:18,
+CAP-3,"CRS, GAO, CBO",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:19,
+CAP-4,Budget process,foundations/democratic-renewal,L1,option,legacy/domains/domain-capacity.md:20,Register: Option
+CAP-5,Earmarks,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:21,
+CAP-6,Statute-tracking office,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:22,
+CAP-7,Sustained capacity increase,foundations/democratic-renewal,L1,declined,legacy/domains/domain-capacity.md:24,Register: Declined Oct 20
+CAP-7S,Agency rebuild surge,foundations/democratic-renewal,L2,decided,legacy/domains/domain-capacity.md:23,Register: Decided Oct 20; availability updated Oct 21. Agency sizing provisional; Byrd/jurisdiction checks open
+CAP-8,Schedule Policy/Career prohibition,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:25,
+CAP-9,Civil service modernization,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:26,
+CAP-10,Successor architecture,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:27,
+CAP-11,Federal hiring reform,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:28,
+CAP-12,Technology procurement,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:29,
+CAP-13,State and local capacity grants,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:30,
+CAP-14,Member housing allowance,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:31,
+CAP-15,Legislative technology,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:32,
+CAP-16,Committee jurisdiction,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:33,
+CAP-17,Legal culture,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:34,
+CAP-18,Draft in opposition,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-capacity.md:35,
+CLI-1,Clean-energy credits restored,clean-power,L2,chosen,legacy/domains/domain-climate.md:19,
+CLI-1A,"Restore all repealed credits, refundable and point-of-sale, CEIC extended",clean-power,L2,chosen,legacy/domains/domain-climate.md:73,Register: A chosen
+CLI-1B,"Restoration only, as the IRA wrote them (not refundable)",clean-power,L1,alternative,legacy/domains/domain-climate.md:74,Register: A chosen
+CLI-1C,"Household and vehicle credits only (25C, 25D, 30D, 25E, 30C)",clean-power,L1,alternative,legacy/domains/domain-climate.md:75,Register: A chosen
+CLI-1D,"Technology-neutral production credit only, no household credits",clean-power,L1,alternative,legacy/domains/domain-climate.md:76,Register: A chosen
+CLI-1E,"CLI-1A with the horizon to 2045, a project keeping its full credit stream once construction starts (grandfathering against a later repeal), richer credits for c",clean-power,L1,alternative,legacy/domains/domain-climate.md:77,Register: A chosen
+CLI-2,Climate Dividend (delivery of REV-C1),clean-power,L2,chosen,legacy/domains/domain-climate.md:20,
+CLI-2A,"Tax-free dividend, equal per adult (adult dependents included; children covered by FAM-1)",clean-power,L2,chosen,legacy/domains/domain-climate.md:102,Register: A chosen; G-DIVSHARE
+CLI-2B,Dividend counted as taxable income,clean-power,L1,alternative,legacy/domains/domain-climate.md:108,Register: A chosen; G-DIVSHARE
+CLI-2C,"Dividend share raised to 85-90%, at the add-ons' expense",clean-power,L1,alternative,legacy/domains/domain-climate.md:109,Register: A chosen; G-DIVSHARE
+CLI-2D,"Dividend share cut to 70%, with 30% kept for transition",clean-power,L1,alternative,legacy/domains/domain-climate.md:110,Register: A chosen; G-DIVSHARE
+CLI-2E,"Equal per person, children included (the design before Oct 21)",clean-power,L1,alternative,legacy/domains/domain-climate.md:103,
+CLI-2F,Children at half a share (the Energy Innovation and Carbon Dividend Act design); or half shares only if FAM-1A is not enacted,clean-power,L1,alternative,legacy/domains/domain-climate.md:104,
+CLI-2G,Per adult plus working teens: 16- and 17-year-olds with earnings above a threshold get an adult share,clean-power,L1,alternative,legacy/domains/domain-climate.md:105,
+CLI-2H,"Per tax return, joint returns doubled (the 2020 stimulus formula)",clean-power,L1,alternative,legacy/domains/domain-climate.md:106,
+CLI-2I,Per household,clean-power,L1,alternative,legacy/domains/domain-climate.md:107,
+CLI-2O,O5 financing bridge: incremental receipts less incremental dividend,clean-power,L2,decided,legacy/domains/domain-climate.md:512,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+CLI-3,Clean Energy Standard and permitting-law fixes,clean-power,L2,chosen,legacy/domains/domain-climate.md:21,
+CLI-3A,"80% by 2035, tradable credits, capped alternative compliance payment; all four fixes",clean-power,L2,chosen,legacy/domains/domain-climate.md:133,Register: A chosen
+CLI-3B,80% by 2040,clean-power,L1,alternative,legacy/domains/domain-climate.md:134,Register: A chosen
+CLI-3C,"No CES; rely on the fee, credits and CLI-4 standards. Only the permitting fixes go to the floor",clean-power,L1,alternative,legacy/domains/domain-climate.md:135,Register: A chosen
+CLI-3D,CES enacted by regulation under existing authority,clean-power,L1,alternative,legacy/domains/domain-climate.md:136,Register: A chosen
+CLI-3E,"80% by 2032, 90% by 2035, 100% by 2040, with CLI-4D's statutory caps as the backstop",clean-power,L1,alternative,legacy/domains/domain-climate.md:137,Register: A chosen
+CLI-4,Clean Air Act restoration,clean-power,L2,chosen,legacy/domains/domain-climate.md:22,
+CLI-4A,Statutory finding plus express delegations for sec. 202 and sec. 111,clean-power,L2,chosen,legacy/domains/domain-climate.md:156,Register: A chosen; D-F stack
+CLI-4B,Vehicles only; leave power to the CES and the fee,clean-power,L1,alternative,legacy/domains/domain-climate.md:157,
+CLI-4C,No statute; rely on the D.C. Circuit litigation,clean-power,L1,alternative,legacy/domains/domain-climate.md:158,Register: A chosen; D-F stack
+CLI-4D,"CLI-4A plus power-sector caps written in statute, declining to near zero by 2040: tradable allowances that are not property (Title IV's rule, so tightening is n",clean-power,L1,alternative,legacy/domains/domain-climate.md:159,
+CLI-4E,"Vehicles in statute: fleet-average standards through 2040 plus a national zero-emission sales requirement (about 45% of new cars by 2030, 85% by 2035, 100% by 2",clean-power,L1,alternative,legacy/domains/domain-climate.md:160,Register: A chosen; D-F stack
+CLI-4F,"Judicial-review channel: challenges to the statute and its rules go to the D.C. Circuit on short filing windows with expedited review, so final judgments (not j",clean-power,L1,alternative,legacy/domains/domain-climate.md:161,
+CLI-4H,"Statutory clean-heat standard, effective 2032",clean-power,L2,decided,legacy/domains/domain-climate.md:515,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+CLI-5,Thriving Economy add-ons,clean-power,L2,chosen,legacy/domains/domain-climate.md:23,
+CLI-5A,"All seven components at $0.60T gross, all paid for",clean-power,L1,alternative,legacy/domains/domain-climate.md:188,Register: 5F decided Oct 20 (C37)
+CLI-5B,"Sized to its carbon financing, now about $0.34T gross: transmission ITC and 45X kept whole, LIHEAP lines kept, the rest trimmed (cut C29, not taken)",clean-power,L1,alternative,legacy/domains/domain-climate.md:189,Register: 5F decided Oct 20 (C37)
+CLI-5C,A plus a permanent voluntary relocation program and a National Safe Growth Bonus (map stage 3a),clean-power,L1,alternative,legacy/domains/domain-climate.md:191,Register: 5F decided Oct 20 (C37)
+CLI-5D,"Add a data-center ""Electron Accelerator"" fee and rebate (map chapter 5) to finance 24/7 clean contracts",clean-power,L1,alternative,legacy/domains/domain-climate.md:192,Register: 5F decided Oct 20 (C37)
+CLI-5E,"Replace the state revolving fund seed with a climate bank: a one-time mandatory capitalization with its own balance sheet, lending to states, utilities and deve",clean-power,L1,alternative,legacy/domains/domain-climate.md:193,Register: 5F decided Oct 20 (C37)
+CLI-5F,"CLI-5A whole, with the adaptation-finance and minerals-offtake lines (~$0.10T) financed by borrowing inside the D4-B envelope as time-limited capital",clean-power,L2,decided,legacy/domains/domain-climate.md:190,Register: 5F decided Oct 20 (C37)
+CLI-5L,Bill protection for low- and moderate-income households (while the increase lasts),clean-power,L2,decided,legacy/domains/domain-climate.md:503,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+CLI-5W,"Low-income heat-pump retrofits (CLI-5W), paid from credit savings",clean-power,L2,decided,legacy/domains/domain-climate.md:507,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+CLI-6,Grid and utility statute,clean-power,L2,chosen,legacy/domains/domain-climate.md:24,
+CLI-6A,The bill as designed above,clean-power,L2,chosen,legacy/domains/domain-climate.md:215,Register: A chosen
+CLI-6B,Transfer minimums and the large-load extension only,clean-power,L1,alternative,legacy/domains/domain-climate.md:216,Register: A chosen
+CLI-6C,"Clean load standard: new loads above about 50 MW matched hourly with new clean supply by the early 2030s, or pay into a firm-power fund",clean-power,L1,alternative,legacy/domains/domain-climate.md:217,Register: A chosen
+CLI-6D,"Congress permits the backbone: a statutory list of national-interest lines and corridors deemed approved, with review limited to constitutional claims (the 2023",clean-power,L1,alternative,legacy/domains/domain-climate.md:218,Register: A chosen
+CLI-6E,"Data-center transparency title: audited pre-construction and five-year post-operation energy, water and land disclosure (Bonamici AI bill Secs. 404-405), NIST i",clean-power,L1,alternative,legacy/domains/domain-climate.md:219,Register: A chosen
+CLI-7,Disaster response and flood insurance,clean-power,L2,chosen,legacy/domains/domain-climate.md:25,Register: 7C needs a D4 treatment
+CLI-7B,Disaster and flood (unscored) / insurance help via R3 / reinsurance backstop,clean-power,L1,alternative,legacy/index/options-register.md:215,Register: 7C needs a D4 treatment
+CLI-7C,"CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored)",clean-power,L2,decided,legacy/domains/domain-climate.md:504,Register: 7C needs a D4 treatment
+CLI-7K,"Disaster capital pieces: D1 mitigation fund, D5 wildfire, D9 buyouts",clean-power,L2,decided,legacy/domains/domain-climate.md:509,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+CLI-7N,"NFIP debt resolution (scored cost, FY2030)",clean-power,L2,decided,legacy/domains/domain-climate.md:505,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+CLI-8,Climate risk and where federal money builds,clean-power,L2,chosen,legacy/domains/domain-climate.md:26,Register: 8B not chosen; 8C option
+CLI-8B,Climate risk / extreme-risk ineligibility zones / electric-ready lending,clean-power,L1,declined,legacy/index/options-register.md:216,Register: 8B not chosen; 8C option
+CLI-8C,Climate risk / extreme-risk ineligibility zones / electric-ready lending,clean-power,L1,option,legacy/index/options-register.md:216,Register: 8B not chosen; 8C option
+CLI-9,Contracts for difference and advance purchase commitments,clean-power,L1,option,legacy/domains/domain-climate.md:37,"Register: Option; borrowing-eligible (D4, Oct 20); Judgment Fund treatment decided Oct 20 (full cost when obligated)"
+CLI-10,Public power as builder of last resort,clean-power,L1,option,legacy/domains/domain-climate.md:38,Register: Option; borrowing-eligible
+CLI-10G,"Public grid delivery, lean tranche 1 (deficit cost)",clean-power,L2,decided,legacy/domains/domain-climate.md:508,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+CLI-11,Coal securitization and worker guarantees,clean-power,L1,option,legacy/domains/domain-climate.md:39,Register: Option; overlaps CLI-2 transition share
+CLI-12,State redundancy and payment for results,clean-power,L1,option,legacy/domains/domain-climate.md:40,Register: Option
+CLI-13,"Farms, forests and carbon removal",clean-power,L1,option,legacy/domains/domain-climate.md:41,Register: Option; overlaps CLI-5 ag line
+CLI-13A,CLI-13 agricultural payments (continuing),clean-power,L2,decided,legacy/domains/domain-climate.md:506,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+CLI-13F,CLI-13 forests and reforestation,clean-power,L2,decided,legacy/domains/domain-climate.md:511,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+COM-1,Merger law,agenda/competition,L2,chosen,legacy/domains/domain-competition.md:11,
+COM-1B,"Guideline-level presumptions, no burden shift",agenda/competition,L1,option,legacy/index/options-register.md:252,Register: Option
+COM-2,Enforcers and the merger-review channel,agenda/competition,L2,chosen,legacy/domains/domain-competition.md:12,
+COM-3,Dominant platforms,agenda/competition,L2,chosen,legacy/domains/domain-competition.md:13,
+COM-3B,Interoperability only,agenda/competition,L1,option,legacy/index/options-register.md:253,Register: Option
+COM-4,Labor-market competition,agenda/competition,L2,chosen,legacy/domains/domain-competition.md:14,
+COM-4A,"Full ban, sale-of-business exception",agenda/competition,L2,chosen,legacy/domains/domain-competition.md:86,Register: A chosen
+COM-4B,"Ban below an income threshold (e.g., about $150,000, indexed) with notice rules above it",agenda/competition,L1,alternative,legacy/domains/domain-competition.md:87,Register: A chosen
+COM-4C,"Health care first: ban for clinicians and health workers, everyone else later",agenda/competition,L1,alternative,legacy/domains/domain-competition.md:88,Register: A chosen
+COM-5,Junk fees and consumer protection,agenda/competition,L2,chosen,legacy/domains/domain-competition.md:15,
+COM-5B,Junk fees as a standalone 60-vote bill,agenda/competition,L1,option,legacy/index/options-register.md:255,Register: Option (path G fallback)
+COM-6,CFPB durability,agenda/competition,L2,chosen,legacy/domains/domain-competition.md:16,
+COM-6B,CFPB commission,agenda/competition,L1,option,legacy/index/options-register.md:256,Register: Option
+CRT-1,Phased judgeships,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:13,
+CRT-2,Judicial ethics and recusal,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:14,
+CRT-2A,"Binding code, self-decided recusal with published reasons, enforcement by disclosure and appropriations",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:81,
+CRT-2B,"Outside recusal review panel (SCERT Act, S. 1814 / H.R. 3513 as introduced)",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:82,
+CRT-2C,Office of Investigative Counsel reporting to Congress (H.R. 7692),foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:83,
+CRT-2D,Disclosure and gift rules only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:84,
+CRT-3,Random assignment and venue,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:15,
+CRT-4,Emergency-docket transparency,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:16,
+CRT-5,Article I immigration court,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:17,
+CRT-5A,Article I court plus expanded Article III review,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:114,
+CRT-5B,"Expanded Article III habeas and de novo review only, no new court",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:115,
+CRT-5C,Fold immigration adjudication into Article III entirely,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:116,
+CRT-6,Judicial records and cameras,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:18,
+CRT-7,Review channeling and the Corner Post fix,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:19,
+CRT-8,Answering Loper Bright,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:20,
+CRT-9,Remedies after CASA,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:21,
+CRT-10,Penalties after Jarkesy,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:22,
+CRT-11,Docket reform,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:23,
+CRT-12,Specialized regulatory court,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:24,
+CRT-13,Circuit realignment,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:25,
+CRT-14,Statutory repairs (pointer),foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:26,
+CRT-15,Judicial term limits,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:27,
+CRT-15A,"Prospective statute, severable retroactive provision, plus a proposed amendment",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:190,
+CRT-15B,Applied to sitting justices,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:191,
+CRT-15C,Amendment only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:192,
+CRT-15D,"Khanna design (H.R. 1074: nine most junior justices hear cases, deemed consent)",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-courts.md:193,
+CRT-16,"Automatic expansion trigger removed, October 26",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:28,Register: Removed October 26; fresh democratic decision required for any later structural response
+CRT-17,Jurisdiction-stripping restraint,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:29,
+CRT-18,Impeachment standard,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:30,
+CRT-19,State judicial selection,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:31,
+CRT-P1,One judiciary bill: T1 items plus CRT-15,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:52,"Register: P1 carried, P2 recommended; P4 refines P2"
+CRT-P2,"Two bills: a T1 integrity bill on the bipartisan fast track, then CRT-15 separately",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:53,"Register: P1 carried, P2 recommended; P4 refines P2"
+CRT-P3,T1 only in the first Congress; CRT-15 in 2033,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:54,"Register: P1 carried, P2 recommended; P4 refines P2"
+CRT-P4,"Split CRT-1's phased judgeships into a stand-alone bill aimed at 60 votes; the rest as P2 (integrity bill, then CRT-15)",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-courts.md:55,"Register: P1 carried, P2 recommended; P4 refines P2"
+DEM-1,Electoral and civil-rights package,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:22,
+DEM-1A,"All four titles in one bill, with DEM-1E in Title I",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:90,Register: Chosen; 1E adopted Oct 20
+DEM-1B,Split Title III into its own bill,foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:91,Register: Option
+DEM-1C,"Floor provisions only, preclearance dropped",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:92,Register: Option
+DEM-1D,"Add Title III's results test to the civil-rights code generally, not only Section 2",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:93,Register: Option
+DEM-1E,"In Title I: every benefit-delivery point the agenda creates or expands is a voter-registration agency under the NVRA, with automatic registration on enrollment:",foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:94,
+DEM-1F,"Timing: after R1, by spring 2030",foundations/democratic-renewal,L2,decided,legacy/index/options-register.md:310,Register: Decided Oct 20
+DEM-2,Redistricting commissions and the mid-decade ban,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:23,
+DEM-2A,"Commissions plus the ban, with the 2034 exception",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:120,Register: A chosen; 2E an option
+DEM-2B,Ban only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:121,Register: A chosen; 2E an option
+DEM-2C,Commissions plus a ban with no exception,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:122,Register: A chosen; 2E an option
+DEM-2D,Add conditional funding for state legislative maps,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:123,Register: A chosen; 2E an option
+DEM-2E,"Substantive criteria (compactness, communities of interest, partisan-symmetry limits) enforced by a three-judge district court backstop, with independent commis",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:124,Register: A chosen; 2E an option
+DEM-3,House enlargement,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:24,
+DEM-3A,"Cube-root rule, ~692, automatic recalculation",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:140,
+DEM-3B,Wyoming rule: every district the size of the smallest state's population,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:141,
+DEM-3C,A fixed increase (e.g. to 600) with no formula,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:142,
+DEM-4,Fair Representation Act (STV),foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:25,
+DEM-4A,"Five-member STV districts, enacted with DEM-3 and DEM-9 in 2033, 2034 maps",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:167,
+DEM-4B,Three-member districts,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:168,
+DEM-4C,Fallback if DEM-9's amendment stalls: STV with a statutory presidential RCV,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:169,
+DEM-4D,Fallback if DEM-9's amendment stalls: hold STV until ratified,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:170,
+DEM-5,D.C. statehood,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:26,
+DEM-6,Puerto Rico status,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:27,
+DEM-7,"Territorial, tribal and procedural representation",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:28,
+DEM-8,National Popular Vote Compact,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:29,
+DEM-9,Presidential election method,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:30,
+DEM-10,State multi-party track,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:31,
+DEM-11,Election administration funding,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:32,
+DEM-12,Re-enfranchisement,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:33,
+DEM-13,Time to vote,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:34,
+DEM-14,Election-worker protection,foundations/democratic-renewal,L1,pointer,legacy/domains/domain-democracy.md:35,
+DEM-15,National service,foundations/democratic-renewal,L1,pointer,legacy/domains/domain-democracy.md:36,
+DEM-16,Civic education,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:37,
+DEM-17,"Public space, libraries and community infrastructure",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:38,
+DEM-18,Citizens' assemblies,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:39,
+DEM-19,Protect the citizen initiative,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:40,
+DEM-20,Local self-government,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:41,
+EDU-1,Title I,agenda/education,L2,chosen,legacy/domains/domain-education.md:19,
+EDU-1A,"$26B a year, mandatory",agenda/education,L1,alternative,legacy/domains/domain-education.md:54,Register: B through full EDU-9B; 1D held for ESEA
+EDU-1B,A $30B mandatory floor with discretionary appropriations layered on top (the mandatory Pell add-on model),agenda/education,L2,decided,legacy/domains/domain-education.md:55,Register: B through full EDU-9B; 1D held for ESEA
+EDU-1C,"The omnibus as written: $55B a year, authorized (appropriations decide)",agenda/education,L1,alternative,legacy/domains/domain-education.md:56,Register: B through full EDU-9B; 1D held for ESEA
+EDU-1D,"EDU-1B plus the omnibus's accountability package (subgroup size 10, improvement set-aside to 10%)",agenda/education,L1,held,legacy/domains/domain-education.md:57,Register: B through full EDU-9B; 1D held for ESEA
+EDU-2,Special education (IDEA),agenda/education,L2,chosen,legacy/domains/domain-education.md:20,
+EDU-2A,"Mandatory glide path to 40%, with restraint-and-seclusion conditions on new money",agenda/education,L2,chosen,legacy/domains/domain-education.md:73,Register: A chosen
+EDU-2B,Faster path: 40% by FY2033 (the omnibus's date),agenda/education,L1,alternative,legacy/domains/domain-education.md:74,Register: A chosen
+EDU-2C,"The omnibus as written: ""authorized to be appropriated""",agenda/education,L1,alternative,legacy/domains/domain-education.md:75,Register: A chosen
+EDU-2D,Glide path without the conditions; restraint and seclusion as a separate floor bill,agenda/education,L1,alternative,legacy/domains/domain-education.md:76,Register: A chosen
+EDU-3,Universal school meals,agenda/education,L2,chosen,legacy/domains/domain-education.md:21,
+EDU-3A,"Universal, current rates indexed, Summer EBT at $60",agenda/education,L2,chosen,legacy/domains/domain-education.md:90,Register: A chosen; G-MEALS
+EDU-3B,"Expand community eligibility instead (lower the threshold, raise the multiplier)",agenda/education,L1,alternative,legacy/domains/domain-education.md:91,Register: A chosen; G-MEALS
+EDU-3C,"The omnibus as written, at its 2023 rates",agenda/education,L1,alternative,legacy/domains/domain-education.md:92,Register: A chosen; G-MEALS
+EDU-4,Educator workforce,agenda/education,L2,chosen,legacy/domains/domain-education.md:22,
+EDU-4A,Pipeline surge,agenda/education,L1,alternative,legacy/domains/domain-education.md:112,Register: Do not add estimates again to full fund outlays
+EDU-4B,"Add a $60,000 minimum teacher salary, CPI-indexed: federal grants covering the gap, at least 85% passed to districts, priority to Title I and rural, with a stat",agenda/education,L2,decided,legacy/domains/domain-education.md:113,
+EDU-4C,"Add paraprofessional wages (PARA Act, on the Title I formula) and school mental-health staff",agenda/education,L2,decided,legacy/domains/domain-education.md:114,Register: Do not add estimates again to full fund outlays
+EDU-4D,Add a temporary teacher bridge credit (2030-31) so money lands in year one,agenda/education,L2,decided,legacy/domains/domain-education.md:115,Register: Do not add estimates again to full fund outlays
+EDU-5,Higher education,agenda/education,L2,chosen,legacy/domains/domain-education.md:23,
+EDU-5A,"Pell $9,500 mandatory increment; SAVE and PSLF in statute",agenda/education,L2,chosen,legacy/domains/domain-education.md:131,Register: A chosen; 5D can stack
+EDU-5B,"A doubled Pell maximum (about $14,800) instead of $9,500",agenda/education,L1,alternative,legacy/domains/domain-education.md:132,Register: A chosen; 5D can stack
+EDU-5C,Tuition-free community college as a federal-state match,agenda/education,L1,alternative,legacy/domains/domain-education.md:133,Register: A chosen; 5D can stack
+EDU-5D,Institutional price-restraint conditions attached to new federal aid (tuition growth limits as a condition of the Pell increment and community-college match),agenda/education,L1,alternative,legacy/domains/domain-education.md:134,Register: A chosen; 5D can stack
+EDU-5E,Higher education on its own track: HEA reauthorization instead of R2,agenda/education,L1,alternative,legacy/domains/domain-education.md:135,Register: A chosen; 5D can stack
+EDU-6,Education Department and students' rights,agenda/education,L2,chosen,legacy/domains/domain-education.md:24,
+EDU-6A,"The three capacity rules, riding CAP-8",agenda/education,L2,chosen,legacy/domains/domain-education.md:161,Register: A chosen
+EDU-6B,"Add a ban on corporal punishment in federally funded programs (legal in about 17 states), as a condition on new money",agenda/education,L1,alternative,legacy/domains/domain-education.md:162,Register: A chosen
+EDU-6C,A first-Congress ESEA reauthorization carrying the held items,agenda/education,L1,alternative,legacy/domains/domain-education.md:163,Register: A chosen
+EDU-7,Scholarship tax credit,agenda/education,L2,chosen,legacy/domains/domain-education.md:25,
+EDU-8,AI in education and student data,agenda/education,L2,chosen,legacy/domains/domain-education.md:26,
+EDU-9,Financing architecture,agenda/education,L2,chosen,legacy/domains/domain-education.md:27,
+EDU-9A,General-fund comparator / full education fund package,agenda/education,L1,alternative,legacy/index/options-register.md:202,"Register: Rate, timing, grants and protection under review"
+EDU-9B,(adopted): the full education fund benefit package,agenda/education,L2,decided,legacy/domains/domain-education.md:190,"Register: Rate, timing, grants and protection under review"
+EDU-9C,—,agenda/education,L0,retired,legacy/index/options-register.md:203,Register: Retired Oct 20 (duplicates of REV-E1 and EDU-1B)
+EDU-9D,—,agenda/education,L0,retired,legacy/index/options-register.md:203,Register: Retired Oct 20 (duplicates of REV-E1 and EDU-1B)
+EDU-10,Research and evaluation,agenda/education,L2,chosen,legacy/domains/domain-education.md:28,
+EXE-1,National Emergencies Act reform,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:17,
+EXE-2,War powers,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:18,
+EXE-3,Anti-impoundment,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:19,
+EXE-4,Insurrection Act reform,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:20,
+EXE-5,Inspector general independence,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:21,
+EXE-6,Vacancies Act,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:22,
+EXE-7,OLC opinions and secret law,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:23,
+EXE-8,Pardon reform,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:24,
+EXE-9,Independent agencies after Slaughter,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:25,
+EXE-10,Special counsel independence,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:26,
+EXE-11,Politicized-prosecution safeguards,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:27,
+EXE-12,Domestic deployment limits,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:28,
+EXE-13,Federal law-enforcement identification,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:29,
+EXE-14,Tariff authority,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:30,
+EXE-14A,Approval triggers for new or increased tariffs; existing tariffs untouched,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:141,Register: A chosen
+EXE-14B,Approval triggers plus sunset of existing sec. 232/301 actions,agenda/executive-power,L1,alternative,legacy/domains/domain-executive-power.md:142,Register: A chosen
+EXE-14C,"Procedural requirements only (findings, comment, reporting)",agenda/executive-power,L1,alternative,legacy/domains/domain-executive-power.md:143,Register: A chosen
+EXE-15,Succession and continuity,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:31,
+EXE-16,Presidential immunity,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:32,
+EXE-17,Day-one executive bridge,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:33,
+EXE-18,Payment continuity,agenda/executive-power,L2,chosen,legacy/domains/domain-executive-power.md:34,
+EXE-18A,"Standing disbursement authority, as above",agenda/executive-power,L2,decided,legacy/domains/domain-executive-power.md:181,Register: Chosen (design rule adopted Oct 20)
+EXE-18B,Automatic continuing resolution at prior-year levels,agenda/executive-power,L1,pointer,legacy/domains/domain-executive-power.md:182,Register: Pointer to CAP-4
+EXE-18C,"Repeal the statutory debt limit, or suspend it for ten years or more; alternatively, deem the limit raised by any budget resolution or reconciliation bill that ",agenda/executive-power,L1,option,legacy/domains/domain-executive-power.md:183,Register: Option
+FAM-1,Child Tax Credit,secure-floor,L2,chosen,legacy/domains/domain-family.md:9,
+FAM-1A,"Full 2021 design, monthly",secure-floor,L1,alternative,legacy/domains/domain-family.md:31,Register: D chosen October 24; A retained as alternative
+FAM-1B,"Supplement only: +$500 for most children and +$1,500 under 6, on top of current law",secure-floor,L1,alternative,legacy/domains/domain-family.md:33,Register: D chosen October 24; A retained as alternative
+FAM-1C,"Full refundability of the current $2,200 credit only",secure-floor,L1,alternative,legacy/domains/domain-family.md:34,Register: D chosen October 24; A retained as alternative
+FAM-1D,"American Family Act; monthly, indexed, newborn and young-child enhancements",secure-floor,L2,chosen,legacy/domains/domain-family.md:32,Register: D chosen October 24; A retained as alternative
+FAM-2,Child care and pre-K,care,L2,chosen,legacy/domains/domain-family.md:10,
+FAM-2A,Phased,care,L2,chosen,legacy/domains/domain-family.md:52,Register: A chosen; 2D can stack on A
+FAM-2B,Full 7% cap from 2030,care,L1,alternative,legacy/domains/domain-family.md:53,Register: A chosen; 2D can stack on A
+FAM-2C,Pre-K only,care,L1,alternative,legacy/domains/domain-family.md:54,Register: A chosen; 2D can stack on A
+FAM-2D,"FAM-2A with the omnibus's pre-K standards: at least 1,020 hours a year; staff pay on par with K-12; lead teachers holding a BA within seven years; at least 4% t",care,L1,alternative,legacy/domains/domain-family.md:55,Register: A chosen; 2D can stack on A
+FAM-3,Paid family and medical leave,secure-floor,L2,chosen,legacy/domains/domain-family.md:11,
+FAM-3A,"12 weeks, 0.6% contribution with an automatic step-up toward 1.10% and a repayable Treasury loan",secure-floor,L2,chosen,legacy/domains/domain-family.md:83,Register: A chosen
+FAM-3B,"12 weeks, fully general-fund",secure-floor,L1,alternative,legacy/domains/domain-family.md:85,Register: A chosen
+FAM-3C,"4 weeks, general-fund (the 2021 Build Back Better end point)",secure-floor,L1,alternative,legacy/domains/domain-family.md:86,Register: A chosen
+FAM-3D,12 weeks at 0.85% from the start (fully self-financed at FMLA take-up),secure-floor,L1,alternative,legacy/domains/domain-family.md:87,Register: A chosen
+FAM-3E,"12 weeks, 0.6% contribution, open general-fund backstop",secure-floor,L1,alternative,legacy/domains/domain-family.md:84,Register: A chosen
+FAM-4,Education,agenda/education,L1,pointer,legacy/domains/domain-family.md:12,Register: Pointer
+HLT-1,Restore,care,L2,decided,legacy/domains/domain-health.md:11,Register: Decided (D6)
+HLT-2,Medicare upgrades,care,L2,chosen,legacy/domains/domain-health.md:12,
+HLT-3,Public option guarantee,care,L2,chosen,legacy/domains/domain-health.md:13,
+HLT-4,"Medicaid, long-term care, safety net",care,L2,chosen,legacy/domains/domain-health.md:14,
+HLT-5,Prices and market power,care,L2,chosen,legacy/domains/domain-health.md:15,
+HLT-6,Medicare payment reform,care,L2,chosen,legacy/domains/domain-health.md:16,
+HLT-A1,Dental in traditional Medicare,care,L2,decided,legacy/domains/domain-health.md:30,Register: Decided (kept)
+HLT-A2,Medicare at 60,care,L1,option,legacy/domains/domain-health.md:31,Register: Option
+HLT-A3,Medicare at 55,care,L1,option,legacy/domains/domain-health.md:32,Register: Option
+HLT-A4,Medicare for Kids / Medicare at Home,care,L1,option,legacy/domains/domain-health.md:33,Register: Option
+HOU-1,Emergency housing aid,home,L2,chosen,legacy/domains/domain-housing.md:13,
+HOU-1A,$85B in R2 (fall 2029),home,L2,chosen,legacy/domains/domain-housing.md:49,Register: A chosen
+HOU-1B,"$85B in R1 (spring 2029), as Bill Book 12 wrote it",home,L1,alternative,legacy/domains/domain-housing.md:50,Register: A chosen
+HOU-1C,$40B rental assistance only,home,L1,alternative,legacy/domains/domain-housing.md:51,Register: A chosen
+HOU-2,Housing tax credits,home,L2,chosen,legacy/domains/domain-housing.md:14,
+HOU-2A,All three pieces,home,L2,chosen,legacy/domains/domain-housing.md:68,Register: A chosen
+HOU-2B,LIHTC increase and extremely-low-income boost only,home,L1,alternative,legacy/domains/domain-housing.md:69,Register: A chosen
+HOU-2C,Neighborhood Homes credit only,home,L1,alternative,legacy/domains/domain-housing.md:70,Register: A chosen
+HOU-3,Construction capital,home,L2,chosen,legacy/domains/domain-housing.md:15,
+HOU-3A,$250B of capitalization grants to state revolving funds,home,L1,alternative,legacy/domains/domain-housing.md:110,Register: C chosen; C21 accepted (borrowing)
+HOU-3B,$250B of federal direct loans only,home,L1,alternative,legacy/domains/domain-housing.md:111,Register: C chosen; C21 accepted (borrowing)
+HOU-3C,"About $72B of state revolving-fund grants (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans through state agencies",home,L2,chosen,legacy/domains/domain-housing.md:109,Register: C chosen; C21 accepted (borrowing)
+HOU-3D,"An even split: $125B of grants, $125B of loans",home,L1,alternative,legacy/domains/domain-housing.md:112,Register: C chosen; C21 accepted (borrowing)
+HOU-4,Rental assistance,home,L2,chosen,legacy/domains/domain-housing.md:16,
+HOU-4A,"One million new awards, mandatory, phased 2030–33",home,L2,decided,legacy/domains/domain-housing.md:127,Register: A amended/adopted October 24; C optional exploration only
+HOU-4B,Appropriated assistance alternative,home,L1,alternative,legacy/domains/domain-housing.md:128,Register: A amended/adopted October 24; C optional exploration only
+HOU-4C,Broader assistance potentially reaching all proxy-eligible renters,home,L1,alternative,legacy/domains/domain-housing.md:129,Register: A amended/adopted October 24; C optional exploration only
+HOU-5,Public housing repair,home,L2,chosen,legacy/domains/domain-housing.md:17,Register: Chosen; C31 accepted (borrowing)
+HOU-5B,Public housing repair / Faircloth repeal,home,L2,chosen,legacy/index/options-register.md:231,Register: Chosen; C31 accepted (borrowing)
+HOU-6,Housing Supply Fund and zoning conditions,home,L2,chosen,legacy/domains/domain-housing.md:18,
+HOU-7,Institutional investor limit made permanent,home,L2,chosen,legacy/domains/domain-housing.md:19,Register: Chosen
+HOU-7B,Investor limit permanent / leave ROAD as enacted,home,L2,chosen,legacy/index/options-register.md:232,Register: Chosen
+HOU-8,Social housing pilot,home,L2,chosen,legacy/domains/domain-housing.md:20,
+HOU-9,"Option, not chosen: federal builder of last resort",home,L1,option,legacy/domains/domain-housing.md:22,
+HOU-9A,Authorize the corporation in 2029-30 with a pilot capitalization; scale in 2033-36,home,L1,option,legacy/domains/domain-housing.md:187,Register: Option (Talarico)
+HOU-9B,Fold into HOU-8: let the social housing pilot's sponsor become the federal builder if the pilot works,home,L1,option,legacy/domains/domain-housing.md:188,Register: Option (Talarico)
+HOU-9C,No federal builder; strengthen HOU-6's conditions instead,home,L1,option,legacy/domains/domain-housing.md:189,Register: Option (Talarico)
+IMM-1,Earned legalization,immigration,L2,chosen,legacy/domains/domain-immigration.md:11,
+IMM-1A,Tiers A and B,immigration,L2,chosen,legacy/domains/domain-immigration.md:52,Register: A chosen; tier C open
+IMM-1B,Tier A only,immigration,L1,alternative,legacy/domains/domain-immigration.md:53,Register: A chosen; tier C open
+IMM-1C,"Dignity Act model: legal status and work permits for long-term residents, restitution payments, no citizenship path",immigration,L1,alternative,legacy/domains/domain-immigration.md:54,Register: A chosen; tier C open
+IMM-1D,"Tiers A, B and C (full U.S. Citizenship Act)",immigration,L1,alternative,legacy/domains/domain-immigration.md:55,Register: A chosen; tier C open
+IMM-2,Legal immigration and backlogs,immigration,L2,chosen,legacy/domains/domain-immigration.md:12,
+IMM-3,Asylum and border processing,immigration,L2,chosen,legacy/domains/domain-immigration.md:13,
+IMM-4,Interior enforcement,immigration,L2,chosen,legacy/domains/domain-immigration.md:14,
+IMM-4A,"Priorities, standards and a cap in statute, inside a restructured ICE",immigration,L2,chosen,legacy/domains/domain-immigration.md:103,Register: A chosen
+IMM-4B,Bill Book 15's DHS split: customs enforcement retained; interior enforcement replaced by a Humanitarian Processing Service,immigration,L1,alternative,legacy/domains/domain-immigration.md:104,Register: A chosen
+IMM-4C,Priorities by executive guidance only,immigration,L1,alternative,legacy/domains/domain-immigration.md:105,Register: A chosen
+IMM-5,Birthright citizenship and naturalization,immigration,L2,chosen,legacy/domains/domain-immigration.md:15,
+IMM-6,Delivery,immigration,L2,chosen,legacy/domains/domain-immigration.md:16,
+INT-1,Stock ownership and trading ban,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:15,
+INT-1A,"Ownership ban, Congress plus senior executive, divest or blind trust",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:56,Register: A chosen
+INT-1B,Trading ban only (the July 2026 House shape),foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:57,Register: A chosen
+INT-1C,"Congress only, executive branch excluded",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:58,Register: A chosen
+INT-2,DISCLOSE Act,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:16,
+INT-3,Revolving door,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:17,
+INT-4,Emoluments enforcement,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:18,
+INT-5,Small-dollar matching,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:19,
+INT-5A,"Fines surcharge, own channel",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:85,Register: B decided
+INT-5B,"General revenue under D4, no separate channel",foundations/democratic-renewal,L2,decided,legacy/domains/domain-integrity.md:84,Register: B decided
+INT-5C,A dedicated assessment on federal contractors or lobbying registrants,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:86,Register: B decided
+INT-6,Candidate tax disclosure,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:20,
+INT-7,FEC restructuring,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:21,
+INT-8,Outside-group coordination,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:22,
+INT-9,Beneficial ownership,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:23,
+INT-10,Lobbying registration,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:24,
+INT-11,Foreign agent registration,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:25,
+INT-12,Judiciary and Fed disclosure,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:26,
+INT-13,Paid speech and post-service pay,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:27,
+INT-14,Procurement integrity,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:28,
+INT-15,Corporate political spending,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:29,
+INT-15A,"Exchange Act statute on the S. 530 model: shareholder authorization, board votes, reporting",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:146,Register: A chosen
+INT-15B,SEC rulemaking under existing authority,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:147,Register: A chosen
+INT-15C,State-law track only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:148,Register: A chosen
+INT-15D,"Disclosure and board-vote provisions only, no shareholder vote",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-integrity.md:149,Register: A chosen
+INT-16,Foreign-influenced corporations,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:30,
+INT-17,State track,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-integrity.md:31,
+LAB-1,PRO Act core,work,L2,chosen,legacy/domains/domain-labor.md:11,
+LAB-1A,"Full core, including the fair-share override of right-to-work",work,L2,chosen,legacy/domains/domain-labor.md:53,Register: A chosen; Espen's call
+LAB-1B,Full core without the right-to-work override,work,L1,alternative,legacy/domains/domain-labor.md:54,Register: A chosen; Espen's call
+LAB-1C,Remedies and first-contract arbitration only,work,L1,alternative,legacy/domains/domain-labor.md:55,Register: A chosen; Espen's call
+LAB-2,Enforcement after Slaughter,work,L2,chosen,legacy/domains/domain-labor.md:12,
+LAB-3,Sectoral standards,work,L2,chosen,legacy/domains/domain-labor.md:13,
+LAB-4,Living wage,work,L2,chosen,legacy/domains/domain-labor.md:14,
+LAB-4A,"$17, then two-thirds of the median, with phase-ins and the circuit breaker",work,L2,chosen,legacy/domains/domain-labor.md:99,Register: A chosen
+LAB-4B,"$15, then indexed to the median",work,L1,alternative,legacy/domains/domain-labor.md:100,Register: A chosen
+LAB-4C,Index only: raise to two-thirds of the median over ten years with no fixed dollar step,work,L1,alternative,legacy/domains/domain-labor.md:101,Register: A chosen
+LAB-5,Small-business wage transition credit,work,L2,chosen,legacy/domains/domain-labor.md:15,
+LAB-6,Heat standard,work,L2,chosen,legacy/domains/domain-labor.md:16,
+LAB-7,Wage theft and misclassification,work,L2,chosen,legacy/domains/domain-labor.md:17,
+LAB-7B,ABC test in the FLSA,work,L1,option,legacy/index/options-register.md:242,Register: Option
+LAB-8,Apprenticeships,work,L2,chosen,legacy/domains/domain-labor.md:18,
+LAB-8A,As above,work,L2,chosen,legacy/domains/domain-labor.md:149,Register: A chosen; 8B an add-on option
+LAB-8B,"Add an instructor pay line: mandatory grants to community colleges and joint programs to pay technical instructors (industrial controls, electrical, HVAC and he",work,L1,option,legacy/domains/domain-labor.md:150,Register: A chosen; 8B an add-on option
+LAB-9,National service,work,L2,chosen,legacy/domains/domain-labor.md:19,
+LAB-9A,"Universal offer, statutory mixing, mandatory funding in R2",work,L1,alternative,legacy/domains/domain-labor.md:177,Register: 9D chosen Oct 20 (9A fallback); G-SERVICE
+LAB-9B,"Expand AmeriCorps by about 150,000 slots through appropriations",work,L1,alternative,legacy/domains/domain-labor.md:178,Register: 9D chosen Oct 20 (9A fallback); G-SERVICE
+LAB-9C,LAB-9A without the mixing requirement,work,L1,alternative,legacy/domains/domain-labor.md:179,Register: 9D chosen Oct 20 (9A fallback); G-SERVICE
+LAB-9D,Service: universal R2 / appropriations / no mixing / bipartisan authorization first,work,L2,chosen,legacy/index/options-register.md:244,Register: 9D chosen Oct 20 (9A fallback); G-SERVICE
+LAB-10,Participation support (approved October 26),secure-floor,L2,chosen,legacy/domains/domain-labor.md:279,
+NSC-1,Defense envelope,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:13,
+NSC-1A,"Flat real from the FY2029 base, as defined",agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:55,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
+NSC-1B,Flat real from a 2026-28 average,agenda/national-security,L1,alternative,legacy/domains/domain-national-security.md:56,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
+NSC-1C,Flat share of GDP,agenda/national-security,L1,option,legacy/domains/domain-national-security.md:57,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
+NSC-2,War powers and emergencies,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:14,
+NSC-3,Alliances,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:15,
+NSC-4,Diplomatic capacity,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:16,
+NSC-5,Sanctions,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:17,
+NSC-6,Trade agreements,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:18,
+NSC-7,Technology competition,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:19,
+NSC-8,Pandemic preparedness and biodefense,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:20,
+NSC-9,Climate finance,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:21,
+NSC-10,Veterans health and capacity,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:22,
+NSC-11,Nuclear arms control,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:23,
+REV-C1A,"The durability session's path, $25 rising to $150 by 2037 (raised from ~$100, Espen, Oct 26), road fuels exempt (D7)",clean-power,L2,decided,legacy/domains/domain-revenue.md:133,Register: Decided Oct 20 (sized Oct 21)
+REV-C1B,An earlier design: $50 a ton in 2030 rising 5% a year (to ~$78 by 2039),clean-power,L1,option,legacy/domains/domain-revenue.md:134,Register: Option
+REV-C1C,Emissions-indexed escalator (the Swiss CO₂-levy model) on top of REV-C1A: the rate rises faster automatically if statutory emissions targets are missed,clean-power,L1,option,legacy/domains/domain-revenue.md:135,Register: Option (study)
+REV-C1D,"Road-fuel convergence: gasoline and diesel join REV-C1 at its price once most vehicles are electric (around 2040), or once Moving America's fuel steps reach a c",clean-power,L1,option,legacy/domains/domain-revenue.md:136,"Register: Open, not adopted"
+REV-C1E,The durability session's in-window gasoline phase-in from 2032,clean-power,L1,declined,legacy/domains/domain-revenue.md:137,Register: Not recommended
+REV-C1F,"The Talarico scenario's steeper path: about $70 a ton in 2030 rising toward $190 by 2035, which also reached road fuels",clean-power,L1,option,legacy/domains/domain-revenue.md:138,Register: Option
+REV-C1P,REV-C1 process-emissions coverage; separate O5 receipts account,clean-power,L2,decided,legacy/domains/domain-revenue.md:459,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+REV-C2,Border adjustment,clean-power,L2,chosen,legacy/index/options-register.md:126,Register: Chosen
+REV-C2B,Clean product standard,clean-power,L1,option,legacy/index/options-register.md:129,Register: Option
+REV-C3,"Methane fee: the IRA charge reinstated from 2030 ($1,200 to $1,500 a ton of methane), no intensity threshold, facility exemption for certified leak prevention",clean-power,L2,decided,legacy/index/options-register.md:127,Register: Decided Oct 21
+REV-CB1,REV-C1 combustion receipts change from Package A abatement; preserves D7 80/20,foundations/fair-financing,L2,decided,legacy/domains/domain-revenue.md:460,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
+REV-E1,"The estate tax at 2009 parameters (ledger C35, accepted in Package B)",foundations/fair-financing,L2,decided,legacy/domains/domain-revenue.md:327,Register: Accepted (planning basis)
+REV-E2,A public investment corporation (one version of two proposals),foundations/fair-financing,L1,option,legacy/domains/domain-revenue.md:339,Register: Option
+REV-ED1,The education contribution (institution adopted; financing schedule under review),foundations/fair-financing,L2,decided,legacy/domains/domain-revenue.md:349,Register: Scope adopted; rate unresolved
+REV-G1,Corporate rate 21% to 28%,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:48,Register: Chosen
+REV-G3,Top rate back to 39.6% above $400K,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:49,Register: Chosen
+REV-G5,Buyback tax to 4%; corporate minimum tax to 21%,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:51,Register: Chosen
+REV-G6,Tax capital gains at death above an exemption,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:52,Register: Chosen
+REV-G7,Tax foreign income at the full corporate rate,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:53,Register: Chosen
+REV-G8,IRS enforcement restored,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:54,Register: Chosen
+REV-G9,"Reverse the 2025 tax cuts above $450K, net of G3",foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:55,Register: Chosen
+REV-G10,Financial transaction tax at 0.01%,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:56,Register: Chosen
+REV-G11,"Full mark-to-market for billionaires (Wyden design), replacing G4 (ledger C22)",foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:50,Register: Chosen
+REV-H1a,"3.8% on active pass-through income, to HI",foundations/fair-financing,L2,chosen,legacy/index/options-register.md:119,Register: Chosen
+REV-H1b,Medicare and net investment income tax rates to 5% above $400K,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:57,Register: Chosen
+REV-HP1,"Pay-ratio surtax: corporations with receipts over $100M pay +0.5 points of corporate tax when CEO pay exceeds 50 times the median worker's, rising to +5 points ",foundations/fair-financing,L2,decided,legacy/domains/domain-revenue.md:312,Register: Accepted Oct 20
+REV-HP2,Limit the corporate deduction for stock options to the expense booked on financial statements (ends the gap between book and tax deductions),foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:313,Register: Folded into TS1's drafting
+REV-HP3,"A 21% excise on pay above $1M to the five highest-paid officers of public corporations, extending sec. 4960 (which already applies to tax-exempt organizations)",foundations/fair-financing,L2,decided,legacy/domains/domain-revenue.md:314,Register: Accepted Oct 20
+REV-HP4,"Tax executives' nonqualified deferred compensation when it vests, not when it is paid (a sec. 409B, as in the 2014 Camp draft)",foundations/fair-financing,L1,option,legacy/domains/domain-revenue.md:315,Register: Option
+REV-P1,Paid-leave contribution 0.6% toward 1.10% working ceiling,foundations/fair-financing,L2,chosen,legacy/index/options-register.md:130,Register: Revised October 26 (FAM-3A)
+REV-SC1,to SC3. Revenue items from the Talarico scenario,foundations/fair-financing,L2,decided,legacy/domains/domain-revenue.md:373,Register: Accepted Oct 21 (closes the 2040 shortfall)
+REV-SC2,Pass-through and deferred-compensation reform,foundations/fair-financing,L1,option,legacy/domains/domain-revenue.md:380,Register: Option
+REV-SC3,Crop insurance reform (the fossil-subsidy piece is in REV-TS3),foundations/fair-financing,L1,option,legacy/domains/domain-revenue.md:381,Register: Option
+REV-TS1,Apply the $1M deduction limit on pay (sec. 162(m)) to every employee of every C corporation; companion guardrails are REV-HP1 to HP4 below,foundations/fair-financing,L2,decided,legacy/domains/domain-revenue.md:278,Register: In C38 (accepted)
+REV-TS2,"Repeal the foreign-derived deduction (FDII, now FDDEI after the 2025 law) for C corporations above the sec. 448(c) small-business gross-receipts test (about $31",foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:279,Register: In C38
+REV-TS3,"End fossil-fuel tax preferences, the dual-capacity rules and the foreign oil and gas income rules",foundations/fair-financing,L2,decided,legacy/domains/domain-revenue.md:280,Register: In C38 (accepted)
+REV-TS4,Limit multinationals' excess interest deductions (earnings stripping),foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:281,Register: In C38
+REV-TS5,Close tax-free spin-off abuses,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:282,
+REV-TS6,Trust and GRAT reforms (estate and gift base protection),foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:283,
+REV-TS7,Limit very large retirement-account balances for high earners,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:284,
+REV-TS8,Stop partnership basis shifting,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:285,
+REV-TS9,Limit like-kind exchange deferral to $500K of gain,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:286,
+REV-TS10,Tax carried interest as ordinary income,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:287,
+REV-TS11,Apply wash-sale rules to digital assets,foundations/fair-financing,L2,chosen,legacy/domains/domain-revenue.md:288,
+REV-TS12,Cap itemized deductions' value at 28% above $450K,foundations/fair-financing,L2,decided,legacy/index/options-register.md:143,Register: Accepted Oct 20 (Decision Brief 2)
+RTS-1,Reproductive Freedom Act,agenda/rights,L2,chosen,legacy/domains/domain-rights.md:11,
+RTS-1A,The full statutory right plus the access titles,agenda/rights,L2,chosen,legacy/domains/domain-rights.md:50,Register: A chosen
+RTS-1B,"Access only: medication abortion, telehealth, travel, contraception, IVF and EMTALA, with no viability standard",agenda/rights,L1,alternative,legacy/domains/domain-rights.md:51,Register: A chosen
+RTS-1C,"RTS-1B as the opening bill, with the viability right after a second rules fight",agenda/rights,L1,alternative,legacy/domains/domain-rights.md:52,Register: A chosen
+RTS-2,Coverage,agenda/rights,L2,chosen,legacy/domains/domain-rights.md:12,
+RTS-3,Equality Act,agenda/rights,L2,chosen,legacy/domains/domain-rights.md:13,
+RTS-3A,H.R. 15 as drafted,agenda/rights,L2,chosen,legacy/domains/domain-rights.md:80,"Register: A chosen; athletics is Espen's call (A, B or E)"
+RTS-3B,H.R. 15 with an athletics provision deferring to sports governing bodies and state law,agenda/rights,L1,alternative,legacy/domains/domain-rights.md:81,"Register: A chosen; athletics is Espen's call (A, B or E)"
+RTS-3C,H.R. 15 without the RFRA exclusion,agenda/rights,L1,alternative,legacy/domains/domain-rights.md:82,"Register: A chosen; athletics is Espen's call (A, B or E)"
+RTS-3D,Fairness for All framework: protections paired with defined religious exemptions,agenda/rights,L1,alternative,legacy/domains/domain-rights.md:83,"Register: A chosen; athletics is Espen's call (A, B or E)"
+RTS-3E,"H.R. 15 with athletics carved out to a joint Education-HHS rulemaking under a five-year sunset, after which Congress revisits it with the rulemaking's record",agenda/rights,L1,alternative,legacy/domains/domain-rights.md:84,"Register: A chosen; athletics is Espen's call (A, B or E)"
+RTS-4,Civil-rights enforcement,agenda/rights,L2,chosen,legacy/domains/domain-rights.md:14,
+SAF-1,Solve the crime,agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:13,
+SAF-2,Police staffing and standards,agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:14,
+SAF-2B,Personal officer liability (George Floyd Act version),agenda/public-safety,L1,option,legacy/index/options-register.md:292,Register: Option
+SAF-3,Focus on the few,agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:15,
+SAF-4,Fix dangerous places,agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:16,
+SAF-5,Keep guns from dangerous people,agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:17,
+SAF-5B,Background checks on commercial and gun-show sales only,agenda/public-safety,L1,option,legacy/index/options-register.md:293,Register: Option
+SAF-6,Public order with treatment,agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:18,
+SAF-7,Swift courts and victims,agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:19,
+SAF-8,Democracy's front line,agenda/public-safety,L1,option,legacy/domains/domain-public-safety.md:20,Register: Open (Espen's call)
+SAF-9,"Fraud, cybercrime and identity theft",agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:21,
+SAF-10,Safety Compacts (delivery),agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:22,
+SAF-10A,Mandatory formula funding in R3 with permanent authorization and five-year reviews,agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:130,Register: A chosen; G-SAFCOMP
+SAF-10B,Annual appropriations (the old ledger S5 design),agenda/public-safety,L1,alternative,legacy/domains/domain-public-safety.md:131,Register: A chosen; G-SAFCOMP
+SAF-10C,"Mandatory core (SAF-1, SAF-3, SAF-8 grants) with the rest appropriated",agenda/public-safety,L1,alternative,legacy/domains/domain-public-safety.md:132,Register: A chosen; G-SAFCOMP
+SAF-10D,"The bill tab's lean version: Titles I, III, VIII and IX whole; II, VI and VII at about a third",agenda/public-safety,L1,alternative,legacy/domains/domain-public-safety.md:133,Register: A chosen; G-SAFCOMP
+SAF-11,"Federal sentencing, cannabis and reentry (Bill Book 24)",agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:23,
+SAF-11A,"Sentencing and reentry, plus cannabis descheduling",agenda/public-safety,L2,chosen,legacy/domains/domain-public-safety.md:151,Register: A chosen; Espen's call
+SAF-11B,"Sentencing and reentry; cannabis to Schedule III by statute with SAFE Banking and 280E relief, no descheduling",agenda/public-safety,L1,alternative,legacy/domains/domain-public-safety.md:152,Register: A chosen; Espen's call
+SAF-11C,Cannabis as a separate bill,agenda/public-safety,L1,alternative,legacy/domains/domain-public-safety.md:153,Register: A chosen; Espen's call
+SAF-R2,Top-end revenue instead of the alcohol excise,agenda/public-safety,L1,option,legacy/index/options-register.md:296,Register: Option
+SS-1,"12.4% tax on earnings above $250,000 (unindexed threshold), with a small benefit credit for the new taxes",secure-floor,L2,decided,legacy/domains/domain-social-security.md:17,Register: Decided (D8)
+SS-2,"12.4% Social Security tax on investment income above $400,000, credited to the trust fund",secure-floor,L2,chosen,legacy/domains/domain-social-security.md:18,
+SS-3,"Higher minimum benefit: 125% of poverty for 30-year workers, wage-indexed",secure-floor,L2,chosen,legacy/domains/domain-social-security.md:19,
+SS-4,CPI-E for cost-of-living adjustments (about +0.15 points a year),secure-floor,L2,chosen,legacy/domains/domain-social-security.md:20,
+SS-5,"Investment-income tax on active S-corporation holders and limited partners, as in Sanders-Warren section 8b",secure-floor,L2,decided,legacy/domains/domain-social-security.md:30,Register: Selected October 26; does not alone establish solvency
+SS-6,Lower SS-2's threshold to $200K/$250K,secure-floor,L1,option,legacy/domains/domain-social-security.md:31,Register: Option
+SS-7,"Raise the payroll rate 1 point (0.5 each side), phased over 10-20 years",secure-floor,L1,option,legacy/domains/domain-social-security.md:32,Register: Option; payroll group
+SS-8,Invest part of the reserves in equities,secure-floor,L1,option,legacy/domains/domain-social-security.md:33,Register: Option
+SS-9,Cover newly hired state and local workers,secure-floor,L1,option,legacy/domains/domain-social-security.md:34,Register: Option
+SS-10,"A bipartisan path on the Warren-Moreno framework (option, not chosen; D8 stands unless Espen changes it)",secure-floor,L1,option,legacy/domains/domain-social-security.md:38,
+SS-10A,"Pursue SS-10 first, with the D8 baseline held at 53 as the fallback (the scenario's ""credible threat"")",secure-floor,L1,option,legacy/domains/domain-social-security.md:51,Register: Option (G-SS); to do: re-test the 67-vote premise
+SS-10B,"D8 baseline, with SS-10's minimum-benefit and long-career pieces offered to recruit Republican votes",secure-floor,L1,option,legacy/domains/domain-social-security.md:52,Register: Option (G-SS); to do: re-test the 67-vote premise
+SS-10C,D8 as decided; no bipartisan track,secure-floor,L1,option,legacy/domains/domain-social-security.md:53,Register: Option (G-SS); to do: re-test the 67-vote premise
+SS-B1,"Across-the-board increase of about $200 a month, via the first bend point and the PIA factor",agenda/social-security,L1,option,legacy/domains/domain-social-security.md:61,
+SS-B2,"Smaller flat increase, about $50-100 a month",agenda/social-security,L1,option,legacy/domains/domain-social-security.md:62,
+SS-B3,Student benefits to age 22,agenda/social-security,L1,option,legacy/domains/domain-social-security.md:63,
+SS-B4,Caregiver credits,agenda/social-security,L1,option,legacy/domains/domain-social-security.md:64,
+MOV-29,"Moving America: 2029 reconciliation act (fuel-tax steps, clean-vehicle charge, rail and transit package one, FY2032-35 renewal top-ups)",agenda/transportation,L2,chosen,models/data/inputs/ledger-bills.csv:58,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
+MOV-30,"Moving America: 2030 reconciliation act (weight-distance charge, rail diesel, aviation surcharge, package two, FY2035-36 top-ups)",agenda/transportation,L2,chosen,models/data/inputs/ledger-bills.csv:59,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
+MOV-31,Moving America Act of 2031 (authorization),agenda/transportation,L2,chosen,models/data/inputs/ledger-bills.csv:60,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
+MR1,"Fuel taxes permanent and indexed, ten 3-cent Fix-It-First steps with a price pause (2029 act)",agenda/transportation,L2,chosen,models/data/inputs/ledger-revenue.csv:54,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
+MR2,"Clean-vehicle per-mile charge, cars and trucks (2029 act)",agenda/transportation,L2,chosen,models/data/inputs/ledger-revenue.csv:55,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
+MR3,Zero-emission truck excise at 4%; EV fee ended after FY2030 (2029 act),agenda/transportation,L2,chosen,models/data/inputs/ledger-revenue.csv:56,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
+MR4,Weight-distance charge replacing the heavy-vehicle use tax (2030 act),agenda/transportation,L2,chosen,models/data/inputs/ledger-revenue.csv:57,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
+MR5,Rail diesel tax and aviation segment surcharge (2030 act),agenda/transportation,L2,chosen,models/data/inputs/ledger-revenue.csv:58,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
+MR6,Income and payroll tax offset on new excises (25%),agenda/transportation,L2,chosen,models/data/inputs/ledger-revenue.csv:59,Draft 2 bill text exists (legacy/domains/transportation-moving-america-act-2031-draft-2.md); L3 when converted to a dossier with evidence
