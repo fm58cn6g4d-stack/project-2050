@@ -54,12 +54,12 @@ The dossier needs the same breakdown for children's rent burden, older renters, 
 **Hundreds of thousands have no home at all.**
 - On a single night in 2024, 771,480 people were homeless, about 23 of every 10,000 people in the country. That was the highest number ever recorded, 18 percent more than a year earlier [EV-HOU-025].
 - The 2025 count was 745,652: 479,332 in shelters and 266,320 unsheltered [EV-HOU-014]. It is slightly below 2024 but well above 2007's 647,258 and the 2016 low of 549,928 [EV-HOU-015].
-- Chronic homelessness among individuals reached 155,750 in 2025, the highest number recorded, up from 77,486 in 2016. This count leaves out chronically homeless people in families, who are reported separately, so it understates the total [EV-HOU-016]. In law, a chronically homeless person has a disability and has been homeless for a year or more, continuously or over several episodes.
+- Chronic homelessness among individuals reached 155,750 in 2025, the highest number recorded, up from 77,486 in 2016. This count leaves out chronically homeless people in families, who are reported separately, so it understates the total. In law, a chronically homeless person has a disability and has been homeless for at least one year continuously, or on four separate occasions totaling one year over three years [EV-HOU-016].
 
 **There are too few homes the poorest renters can afford.**
 - In 2023 there were only 59 affordable and available rental homes for every 100 very low-income renter households, and only 38 for every 100 extremely low-income renter households [EV-HOU-024].
 - An outside estimate puts the gap for extremely low-income renters at 7.1 million homes [EV-HOU-018], or 35 per 100 households, with shortages in every state and major metropolitan area [EV-HOU-019].
-- Estimates of the national shortage across all incomes range from roughly 4 million to 5 million homes. Methods differ, and some researchers argue that shortage is really local, or specific to homes low-income renters can afford [EV-HOU-017].
+- Estimates of the national shortage across all incomes range from roughly 4 million to 5 million homes. Methods differ, and some observers argue there is no overall shortage, only shortages in particular places or types of housing, including homes low-income renters can afford [EV-HOU-017].
 
 **Grades.** Worst case needs, the assistance share, the HUD shortage ratios and the 2024 homelessness count come from HUD's reports (grade A). The 2025 homelessness figures are HUD's counts as the Congressional Research Service reports them, and the outside shortage estimates are its summaries (grade C).
 

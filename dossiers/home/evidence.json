@@ -271,7 +271,7 @@
  },
  {
   "id": "EV-HOU-016",
-  "statement": "In 2025, 155,750 individuals were chronically homeless, the highest number recorded, up from 77,486 in 2016. The series counts individuals only; chronically homeless people in families are reported separately and are not included.",
+  "statement": "In 2025, 155,750 individuals were chronically homeless, the highest number recorded, up from 77,486 in 2016. The series counts individuals only; chronically homeless people in families are reported separately and are not included. In law, a chronically homeless person has a disability and has lived in a place not meant for habitation, an emergency shelter or a safe haven for at least one year continuously, or on four separate occasions totaling one year over three years.",
   "figures": [
    "155,750",
    "77,486"
@@ -279,7 +279,8 @@
   "source": "SRC-0293",
   "anchor": [
    "In 2025, 155,750\nindividuals were chronically homeless, the highest number\nrecorded. It is up from 77,486 at the lowest point in 2016.",
-   "homeless people in families since 2013. Family data are not\nincluded in the AHAR report"
+   "homeless people in families since 2013. Family data are not\nincluded in the AHAR report",
+   "haven for at least one year continuously or on four separate\noccasions totaling one year over the course of three years."
   ],
   "grade": "C",
   "fact_date": "2025",
@@ -297,7 +298,10 @@
    "5 million"
   ],
   "source": "SRC-0294",
-  "anchor": "Although Table 1 suggests a shortage ranging between approximately 4 million and 5 million, there is not\nuniversal agreement that the United States has a housing shortage at all.",
+  "anchor": [
+   "Although Table 1 suggests a shortage ranging between approximately 4 million and 5 million, there is not\nuniversal agreement that the United States has a housing shortage at all.",
+   "United States does not have an overall shortage, but rather location or housing-type specific shortages,\nincluding housing affordable to low-income renters."
+  ],
   "grade": "C",
   "fact_date": "2024",
   "checked": "2026-10-28",
