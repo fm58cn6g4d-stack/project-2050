@@ -1,0 +1,287 @@
+id,path,bytes,sha256,first_commit,last_content_commit
+SRC-0001,legacy/README.md,5795,f0f22efa4703de011a5c18d6bf596b75731bb36a5a45848f0ffea03da4c82399,2026-10-20,2026-10-26
+SRC-0002,legacy/archive/ideas-project-2029-cbo-score-simulator-inputs.md,114573,b46d0e323ce81f6ff202411eff9030e3c036b78a3f46a6eda0498485ca64792f,2026-10-20,2026-10-21
+SRC-0003,legacy/archive/ideas-project-2029-master-executive-action-inventory.md,22708,437bd13b6967b6127c7cb93cec253d42b05f9feed90172241dae5336030979ae,2026-10-20,2026-10-21
+SRC-0004,legacy/archive/ideas-unified-reform-inventory-oct13.md,21874,11b0b7fa5c53487cf928ccee5339c36b8ffb3af3340572c0fa443f5d490477ff,2026-10-20,2026-10-21
+SRC-0005,legacy/archive/transportation-arca-handoff-prompt-oct12.md,12751,1b3e690b20954fd1129fac1536d37279b5fc387cb5e5540d2b83bd45ff6be935,2026-10-21,2026-10-21
+SRC-0006,legacy/archive/transportation-atra-state-dump-prompt-oct12.md,4639,7673b5cc06254b0af6b947fbbb1cc1aec059fd628eea3b681273f798dd2eea90,2026-10-21,2026-10-21
+SRC-0007,legacy/archive/transportation-merge-session-prompt-oct12.md,19757,5ed76e0154bb4f86bb0e5e2bbee446aadcf85e3a0d6fef256cf8eef67faaafe0,2026-10-21,2026-10-21
+SRC-0008,legacy/archive/transportation-transit-package-session-prompt.md,21316,8531331ba441132a70dd91add8eff021a4bda90b6d38f1d034d6109d5b19b3d9,2026-10-21,2026-10-21
+SRC-0009,legacy/archive/wargame-trifecta-2029-simulator.jsx,68067,ed16b2d13188f2a0eb9f0bab3589d69b10886aef22ffc9248f4f8574666aeb80,2026-10-20,2026-10-21
+SRC-0010,legacy/archive/wargame-unified-governing-agenda.html,31376,61156f709b0083581e2d8a2c68f667ab530552df3e6751607366a9c95aa10257,2026-10-20,2026-10-21
+SRC-0011,legacy/domains/domain-ai.md,29345,fc4f188a3fc41b3c9f4217e82343e53093db118b143b9bd116c8d44fde8fb87e,2026-10-20,2026-10-26
+SRC-0012,legacy/domains/domain-amendments.md,14375,8d813284a918b94e8a55d1bb5df2ea9d8db59e078e18dc4834eebe80cb7bf852,2026-10-20,2026-10-21
+SRC-0013,legacy/domains/domain-capacity.md,38810,e4f151f05c3611ad4b1e261a890a57beb4b289e0046a63838bfc6cdc90e9f720,2026-10-20,2026-10-26
+SRC-0014,legacy/domains/domain-climate.md,71984,6f30a308d06633b22aac134d47e2ff7046842011bdc9aeb87b6eb7ca8d256710,2026-10-20,2026-10-28
+SRC-0015,legacy/domains/domain-competition.md,15623,d168c1e5915dbcca7c38e9ef35c7f99ac57160a5f54cb5348dacddd07f24e169,2026-10-20,2026-10-21
+SRC-0016,legacy/domains/domain-courts.md,26488,6c8a8d1b1c1d8d0dd57856a834ad5f8eb6b63cd9e0ddf8e75eeffbf40fabbcfd,2026-10-20,2026-10-26
+SRC-0017,legacy/domains/domain-democracy.md,43526,a1f08570f98f47eb8d658f8bb4b382ace68b8b60eadf889d9d55c0f6c80ff851,2026-10-20,2026-10-23
+SRC-0018,legacy/domains/domain-education.md,40320,2842308fbb6a9d89bd9ff481f1fdc64af93e3a8cbeb861ec1131064331c4aaee,2026-10-20,2026-10-26
+SRC-0019,legacy/domains/domain-executive-power.md,22617,3844ffc5a639ce8be6bdb6e7d65429c4689a261e591c0d6829d4b0daa355a60a,2026-10-20,2026-10-23
+SRC-0020,legacy/domains/domain-family.md,14969,f866faa3008c363249bbe1a5b8dad9be583a38551553726886693f3d53790b12,2026-10-20,2026-10-26
+SRC-0021,legacy/domains/domain-health.md,18331,6f5690292f5b33d91f6189140950209118d8d09f8be6ad96f78d7925255f3d96,2026-10-20,2026-10-26
+SRC-0022,legacy/domains/domain-housing.md,31137,a330e704e65e5ba4d4bbf3c85db5697ce9e6af079e75758c114578cab87f6d13,2026-10-20,2026-10-26
+SRC-0023,legacy/domains/domain-immigration.md,19982,2cc6b2d358d6d878bbf60497cd4d95453f2ad9b6ce12e1614d1ed64ccd3a1478,2026-10-20,2026-10-21
+SRC-0024,legacy/domains/domain-integrity.md,21937,de3495890c7b2512dc438b5c9daa2f50a9ab82b3f3813dac2a1b53ddeb367e00,2026-10-20,2026-10-23
+SRC-0025,legacy/domains/domain-labor.md,29411,547bd2f5930f2e1aaab938b0bd30f0a7cf3b838b7fc21a2ff783ba4f02bfa806,2026-10-20,2026-10-26
+SRC-0026,legacy/domains/domain-national-security.md,16621,613511cb1cf751f66de9e465302186f26869529943165dd03e09f399c3124fea,2026-10-20,2026-10-26
+SRC-0027,legacy/domains/domain-public-safety.md,27445,ac82d0d6758b1846115216a8b90508915a15fc1c1cec991543195ab187eb6994,2026-10-20,2026-10-21
+SRC-0028,legacy/domains/domain-revenue.md,72109,ce0d237edfcb50817d154f27050c8ed01dbdd25c02ff71893e593bfc46300fc5,2026-10-20,2026-10-28
+SRC-0029,legacy/domains/domain-rights.md,15731,2498d4fbfbb8096a91c024d439058068d9495be11fd3b5b3f048c84b63e383ee,2026-10-20,2026-10-23
+SRC-0030,legacy/domains/domain-social-security.md,14966,d3b9f14158604c7c5452ed6a1fa18b807cc3bcd2bb45aac06f33addba4b867b7,2026-10-20,2026-10-26
+SRC-0031,legacy/domains/public-safety-safe-everywhere.md,58426,0cda95d2cbae54a7991e373c638f2e391e948bd7255b255bc4d57db4e0797682,2026-10-20,2026-10-21
+SRC-0032,legacy/domains/transportation-moving-america-act-2031-draft-2.md,159753,469315b632b6ea0a7995bbb878c606fbaa5240ae8b1ad4477ca4029e6b98be81,2026-10-20,2026-10-21
+SRC-0033,legacy/frameworks/instruments-and-consequences.md,22250,0e52265f494ff0993068bd716214bafd94c90eb2faf4694d7660bb5c4c25ec3d,2026-10-20,2026-10-21
+SRC-0034,legacy/frameworks/long-range-plan-2030-2050.md,11100,4390008cf0594fe52a5577d64c6172b7939102e0f4ea70580e7bd1b7ee5067fc,2026-10-21,2026-10-26
+SRC-0035,legacy/frameworks/radical-means-moderate-ends.md,20205,cfa37660c78a713c5faaa20ff990dacb34b3df6c139a9e3890a5c7ff0774a663,2026-10-20,2026-10-23
+SRC-0036,legacy/frameworks/scenario-stress-test-talarico-2029-2037.md,26789,205d314c02ecdc395a495e3abf381283074e7ddaaee6bfc243d0b3efe5eacf4a,2026-10-20,2026-10-21
+SRC-0037,legacy/frameworks/transportation-transit-rail-split.md,6789,096a4a5361a4892a7b649219e7c1de5110e76d174ee2f65ba3ec9b8cb2009339,2026-10-21,2026-10-21
+SRC-0038,legacy/governing/agent-automation-setup.md,18159,641e82be78082d9b335ee84d1bb40c20604dddd956664e3a774966e7f2abe212,2026-10-26,2026-10-26
+SRC-0039,legacy/governing/codex-handoff.md,2709,9939ba5f04ce4913874a9e3845860d029a686ab68e8f76af2fee850993f13c9c,2026-10-24,2026-10-26
+SRC-0040,legacy/governing/decision-brief-01-senate-rules-and-gap.md,13887,411e00a604ce89bf80eeba67b69498ee9ebf4d626f1cbb40e43ff494cc7f4519,2026-10-20,2026-10-21
+SRC-0041,legacy/governing/decision-brief-02-trims-scope-and-fiscal-rule.md,25786,a298f2dde2a075310449ad71e08117482a462b82641dbe72ade0dd7b591e8c9d,2026-10-21,2026-10-21
+SRC-0042,legacy/governing/espen-writing-style-guide.md,9023,ebebbb6e36abf50d89c0d21313149c76fbf9d721cd222242a6f14582accab85c,2026-10-24,2026-10-24
+SRC-0043,legacy/governing/project-2050-governing-decisions.md,96102,47e452d35f6f9ba123f1bd4cbff3f4df0291a2115769d7b3fffbe5a5e1e12dc5,2026-10-20,2026-10-28
+SRC-0044,legacy/governing/project-2050-post-pilot-decisions.md,41849,1bfe4fcd2f19f006039e4a7148cf6db40abad97b9af4a4d823c2f06d58fafda6,2026-10-23,2026-10-24
+SRC-0045,legacy/governing/project-charter.md,90352,30bfa30ee618449b16bcbdd31f12be7b4bd91ed8429e3ef93e4a2d93edddf649,2026-10-24,2026-10-24
+SRC-0046,legacy/governing/project-collaboration.md,19596,1a0c1c61d4a3ee025a54a7429d5d42a74319677731496929dd7afa56869e6db9,2026-10-26,2026-10-26
+SRC-0047,legacy/governing/project-file-exchange.md,7647,9c66536b9a87fd42d8837c9a5ce5c67d65134d153fe0e12dd3c66b96accb5b6f,2026-10-24,2026-10-26
+SRC-0048,legacy/governing/project-instructions.md,10901,2bb7540d2e642f719ccb2acbb52d85fd3147a14357aea1b97ee6ae5bd195068f,2026-10-21,2026-10-26
+SRC-0049,legacy/index/2029-trifecta-master-ledger.md,89893,77df75d6c0305fd9d9d218cbdd4489b6695b61004c857222b43497b4c7c209f0,2026-10-20,2026-10-28
+SRC-0050,legacy/index/calendar-delivery-opportunities.md,17469,ca2592a1805662192fb9df6a0da4595f484fc86be01f28aee65d3d9717029dda,2026-10-23,2026-10-28
+SRC-0051,legacy/index/calendar-scenario-explorer.html,738142,48ed2abe8295b48d3718f2af74242831db665142bc9999e063b9fec6b18472dc,2026-10-23,2026-10-28
+SRC-0052,legacy/index/calendar-scenarios.md,4488,1b67004ef30067fc175f478226da5a7c0eb053eeb112f41877248bc3430b6ffe,2026-10-23,2026-10-28
+SRC-0053,legacy/index/capacity-funding-model.md,2774,69944837f516328feb65fe2d91e01dce8f769a289f50cba59be78addb17f817e,2026-10-21,2026-10-28
+SRC-0054,legacy/index/check-report.md,5453,33616c800a66a9778964ebb1e3f7632580c385524b5c80e3dcf998bed4c9462b,2026-10-21,2026-10-28
+SRC-0055,legacy/index/child-poverty-agenda-analysis.html,28785,914bce5872a5c454a383726722a828d0456f35ccf87cb5cb4900797abdcc0408,2026-10-24,2026-10-24
+SRC-0056,legacy/index/climate-carbon-model.md,16392,2ae21635417982ab7b5b48f9f5bed47dd2c56e2846eb8df86d3e662a2345c8c8,2026-10-21,2026-10-28
+SRC-0057,legacy/index/dedicated-funds.md,13236,e8ebcd2c8046ea72cdac7d0698da4ecc7521c54684dbf210d9ea88be053035e0,2026-10-21,2026-10-28
+SRC-0058,legacy/index/fiscal-long-term-model.md,27253,94a59b9bbe034bdb9b92ef05d29b74a4620482964a03b3d57ce83d3008d71460,2026-10-20,2026-10-28
+SRC-0059,legacy/index/fiscal-recovery-model.md,8618,dc20e39d720e09320082423e8204af8d43900f812be388abe2ca9cdcf330b4b6,2026-10-26,2026-10-28
+SRC-0060,legacy/index/options-register.md,38011,0d07adf817355bde0861b36886179a021545b71e415ad541697ff89e3f7f29cd,2026-10-20,2026-10-28
+SRC-0061,legacy/index/recovery-budget.md,5166,40f9a0a922b03da10eb557819eea3eaf9be8c334e125e6f0fe41579b0ecc6d6a,2026-10-26,2026-10-28
+SRC-0062,legacy/index/revenue-assignment-audit.md,19751,f45b8bacc96bb381c81d3e59372517526b82e6d7be6d36e87d13160dc83a28f9,2026-10-20,2026-10-28
+SRC-0063,legacy/index/revenue-household-incidence-model.md,23633,6df1ad0a7541e165b13e1ba8edf64d00a077f5e85d100b5feb71d2b2fa0e81c7,2026-10-20,2026-10-28
+SRC-0064,legacy/index/vote-simulation.md,10870,b1e6e306de80e516b6bc67864e8981f8d0c089bc79377dd176529ef4c6e29823,2026-10-21,2026-10-28
+SRC-0065,legacy/sources/calendar-2030-delivery-paths.md,11009,7550a4469c04a6c415805319cd13bbb8d9fc30692c52d3dd723432b93085388d,2026-10-23,2026-10-23
+SRC-0066,legacy/sources/calendar-c-development.md,11202,fdb55c01281ea011c6e96d4b862ae9af0152291bdac48eba615f819c39023301,2026-10-23,2026-10-23
+SRC-0067,legacy/sources/calendar-delivery-milestones.csv,1781,d2f2836a23630b2652a4182186bfb7c61dc9d9298607c83567084516e1e74bd0,2026-10-23,2026-10-23
+SRC-0068,legacy/sources/calendar-evidence-observations.csv,2069,c9b80f06b87b06627642119eba67c0fbf053f0c06ac9b3ac0e011115a544b5b5,2026-10-23,2026-10-23
+SRC-0069,legacy/sources/calendar-model-review-and-integration.md,14520,a33d4c37ea6a436775c0ac47f01d6aff937952a98f11ab3c670e39c0327b2340,2026-10-23,2026-10-23
+SRC-0070,legacy/sources/calendar-opening-procedural-packet.md,11454,0d1414b568644a0c05768c54ed5321e79cdb49ee8e98a3806055588626cab1db,2026-10-23,2026-10-23
+SRC-0071,legacy/sources/capacity-recovery-budget-review.md,25987,b29961d89929a8a95a21c436a033294215a1407ba2c4d0ffb2d4ddc0b0b5ddf6,2026-10-26,2026-10-26
+SRC-0072,legacy/sources/capacity-recovery-components.csv,52984,da903422bc8e4a0cc944bccd529ec748e534a11d4dd321766244c3e2db87ef2f,2026-10-26,2026-10-26
+SRC-0073,legacy/sources/capacity-recovery-other-agencies-review.md,20817,bf42ced1fac95cb846bb7c6582bc0d9797dccb9b159b0c013259d42e551e6feb,2026-10-26,2026-10-26
+SRC-0074,legacy/sources/capacity-round-two-integration.md,4940,c79c23691ca663036de949f82ee99fa1b6e4b0423481d76827eb2d905e1885c7,2026-10-26,2026-10-26
+SRC-0075,legacy/sources/claude-code-reentry-2026-10-26.md,6374,9fa0c0a919928036a505a0edd82b7c3c149fbc9149022600c6d93ca20cc158ef,2026-10-26,2026-10-26
+SRC-0076,legacy/sources/climate-border-adjustment-model-notes.md,3378,a94b1e79204b86e56809f138f1ea01d3a18a8bd2e28d6b26109ca57148b6bb49,2026-10-21,2026-10-21
+SRC-0077,legacy/sources/climate-carbon-dividend-model-notes.md,27584,e5609ecdc3774ef4f213c58715fddb99ede4c09e2d36d54851a750aae2c426b0,2026-10-21,2026-10-21
+SRC-0078,legacy/sources/climate-carbon-fee-research-baseline-2026-10.md,8315,904706df71c5796b933721065c73f36579b0298f7b5d827913575da25cc0fc8a,2026-10-21,2026-10-21
+SRC-0079,legacy/sources/climate-durability-pathway-session-findings.md,43022,a2e09d7b1db5a16d209b290a93bc08db1d42afe04b73f0a488d2db979dc508b1,2026-10-20,2026-10-21
+SRC-0080,legacy/sources/climate-full-scope-bill-outline-and-comparator.md,8608,8c670b11ba95cabe14495fe7778fac2859a41bfe00b0310f0df7d56451b3db90,2026-10-23,2026-10-23
+SRC-0081,legacy/sources/climate-ledger-integration.md,6434,9e2113f4582ee9380e111e62a45b18cded281193c91c89b09f31aa0d8b9d3179,,
+SRC-0082,legacy/sources/climate-portfolio-allocation.md,35146,01e35ad9990c4d6fe5b33203afd87fd21330e3a84ff5f1fa93e8e7998ce45af6,2026-10-26,2026-10-27
+SRC-0083,legacy/sources/climate-portfolio-components.csv,12820,916205e5d63fe32bfbe4ded760e3860024177c929b9621fd394af02ff07619a8,2026-10-26,2026-10-26
+SRC-0084,legacy/sources/climate-portfolio-disaster-components.csv,5860,8d49caea63219470a2621bf22293d776788e4e304bb0a7e13d48fad57eec1860,2026-10-26,2026-10-27
+SRC-0085,legacy/sources/climate-portfolio-disaster-resilience.md,19985,781162a9b3a5462ca2768554cd879148b99a1ed92fe5b063dcd5eab61f4a8f2c,2026-10-26,2026-10-27
+SRC-0086,legacy/sources/climate-portfolio-international-pricing.json,5198,7cccbd98c1689a85e8a18e5a35d17ef715ce186b914bf36bfc4d608f9c45f5d7,2026-10-26,2026-10-27
+SRC-0087,legacy/sources/climate-portfolio-international-pricing.md,5490,ac24728959f8960b6ecc0583277ab99a5640a0f8a9c67648dd1d5c93e712fdd3,2026-10-26,2026-10-27
+SRC-0088,legacy/sources/climate-portfolio-international.md,18383,635ef84a2ee3de0b1b3b033d823353a5a441f8feda33cc6938ec63323c6967e4,2026-10-26,2026-10-27
+SRC-0089,legacy/sources/climate-portfolio-model-results.json,661085,a03e3c56819ff40430f065c9f9d3654bca5ff76308ed6ce7b0eb069baa9f6e78,2026-10-26,2026-10-27
+SRC-0090,legacy/sources/climate-portfolio-model-results.md,17881,41fa84eff02bb64cba239dab3286e70310a5f32d421a5d6b283f4628a5df5fb2,2026-10-26,2026-10-27
+SRC-0091,legacy/sources/climate-portfolio-packages.json,113146,f80b016443dc0660d049b08b6c69692979f2f7e376f864eca28e1aefa0d5e7fe,2026-10-26,2026-10-28
+SRC-0092,legacy/sources/climate-portfolio-packages.md,18772,11565c1e758a2cc31463d82e840b7c15e3b0e1f8ac740d48243bcef81ef8da16,2026-10-26,2026-10-28
+SRC-0093,legacy/sources/climate-portfolio-pricing.json,327126,3d1d395f2d8b9c63b146db64240a779a1c3c77c5eb5c3aa87105ae53585c9879,2026-10-26,2026-10-28
+SRC-0094,legacy/sources/climate-portfolio-pricing.md,19651,61d006b4ce2c7a3d48c1cee1dab45d956ad25ea63f99526984f759a332bf93a0,2026-10-26,2026-10-28
+SRC-0095,legacy/sources/climate-recovery-financing-comparison.json,19761,9754531a4ef5abe4cdc0c95898297c1040ec36ed6f2632919f10b2b0b19b015e,2026-10-26,2026-10-26
+SRC-0096,legacy/sources/climate-recovery-financing-comparison.md,5826,6bd49743a7d0b1d3f990795baaff0d1909bda16bb3f4b612343b41f9c398297e,2026-10-26,2026-10-26
+SRC-0097,legacy/sources/climate-thriving-economy-agenda-map.md,49117,bf8385bc8cd339460cc2221d5e389094bea7f52743a0ab0e19c92258267139a0,2026-10-20,2026-10-21
+SRC-0098,legacy/sources/codex-handoff-climate-financing-2026-10-26.md,8606,c13658698da72544a58bf924eb775caca10a3df87b07943a0edded3e57c48daa,2026-10-26,2026-10-27
+SRC-0099,legacy/sources/corporate-revenue-source-check.md,7310,d13d454d9f8ad9be82cecdfc864c9448afec8d55fa8d9149a19de6820982f986,2026-10-27,2026-10-27
+SRC-0100,legacy/sources/courts-rebalancing-the-three-branches-2026.md,50085,e584b133a66c35e242b16e70f8eec081504db143a4ee25be138361076335c7b0,2026-10-20,2026-10-21
+SRC-0101,legacy/sources/democracy-dem-1-pilot.md,70554,a09e541b3c9c0ef56cf3083595bd7ac56fb24e534edc8e7a65f7892d4e0c134f,2026-10-24,2026-10-24
+SRC-0102,legacy/sources/democracy-dem-1-title-iii-alternatives.md,24688,ca31ae696dc2b51a6a09dc22300278679fdccd2bc41d87d284c5087c2d469d7d,2026-10-24,2026-10-24
+SRC-0103,legacy/sources/democracy-medicaid-registration-transaction.md,47649,f08d12dff8108b4de4bc1d1e47146e8c751cfbb0c242c50595ee6d85e9dda8c3,2026-10-24,2026-10-24
+SRC-0104,legacy/sources/democracy-post-pilot-review-packet.md,16610,173a334487f387e5d6432ada1fdb0ae1e72a899f8c9cfbe90e0f8072b0e19f07,2026-10-23,2026-10-23
+SRC-0105,legacy/sources/education-ai-education-and-workforce-readiness-act-analysis.md,25414,575cb76f8ac12b4e0e40a6ea7c66e77c7e78f3904a28904f7c755d0c8d8a17ef,2026-10-20,2026-10-21
+SRC-0106,legacy/sources/education-component-reconciliation.csv,15800,aa6aa2346ebc34e64e4b96398ace9c44babfedc6d0bb3f21f8f5c32584a88521,2026-10-26,2026-10-26
+SRC-0107,legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md,43090,650339290894199f44c0450abfc89292fb9537810baf5aed5f0ce5fbd914625c,2026-10-20,2026-10-21
+SRC-0108,legacy/sources/family-adoption-architecture-bridge.md,12414,2f764eca4182e78fa93e3f5fdaee71dfe7701f1b1bfc437098797a6da2a492ac,2026-10-24,2026-10-24
+SRC-0109,legacy/sources/family-census-upload-manifest.json,963,044029d8c4a6771926b46c13e1890e67986a01368654feb376beb47992e7714c,2026-10-24,2026-10-24
+SRC-0110,legacy/sources/family-child-poverty-agenda-effects.md,14751,c292e86209864fd67bd075271bba5d220812464859bb66c3216774a9f49c8546,2026-10-24,2026-10-24
+SRC-0111,legacy/sources/family-child-poverty-comparator-register.csv,2605,148998ee3401b8a433142d3e51b0d1754db97c7ef39475e48cb171cac2782d24,2026-10-24,2026-10-24
+SRC-0112,legacy/sources/family-child-poverty-cps-baseline.md,4815,0b6c2ad39b650c2be0afcdfb7872d848256de6e4be1212491386ae3ce106ca71,2026-10-24,2026-10-24
+SRC-0113,legacy/sources/family-child-poverty-minimum-microsimulation-spec.md,4992,33c4608628e88fb616838688fdf6dab14d309c4682659d32121a0fcf80f16f75,2026-10-24,2026-10-24
+SRC-0114,legacy/sources/family-child-poverty-model-brief.md,5854,a4687210879e6bc88beb4cfc07e9d6aaf697b09be3a7c13273e1c50dd99a5976,2026-10-23,2026-10-24
+SRC-0115,legacy/sources/family-child-poverty-rebuild-file-manifest.json,4889,cd4ae086a9330bc1e153938f359595c0dfdb2d0d41a6c6f024d6f17b50b7cf53,2026-10-28,2026-10-28
+SRC-0116,legacy/sources/family-child-poverty-rebuild-findings-and-integration.md,16108,33a77b2bbbe63b3e12e15c56602b289af3710af77f13ebbaa1f2f5346d4b5986,2026-10-24,2026-10-24
+SRC-0117,legacy/sources/family-child-poverty-recovery-inputs.json,1309,a90c4bc7a933ae335363b0d30edd8eb096f060afd35f052cfd6a8bf2ea831353,2026-10-28,2026-10-28
+SRC-0118,legacy/sources/family-child-poverty-recovery-inventory.json,37705,08a0b2ab8a554856530d6718eca33ed0a06c24abd6f2f7c122b694d2cbc54e96,2026-10-24,2026-10-24
+SRC-0119,legacy/sources/family-child-poverty-report-1.md,31091,a8c0d4a13eff72714cab7b58732c7d5f83fde310ac77eccc63eedc273fced17d,2026-10-24,2026-10-24
+SRC-0120,legacy/sources/family-child-poverty-report-2.md,28210,e13b0ed4764539675ef82b763a7a3cd10b2c99db9c2bbcae33f240db30452f41,2026-10-24,2026-10-24
+SRC-0121,legacy/sources/family-child-poverty-report-3.md,33040,d80c9058b70ed4f93523e1fd1c36f76cc5d330f058bf631f6497fa6d7d1b6366,2026-10-24,2026-10-24
+SRC-0122,legacy/sources/family-child-poverty-target-year-preparation.md,7977,1ac4e363424f24c56044c49fb69eb2c89e3289ecc0f42d4c093fb8cac58ebfd0,2026-10-24,2026-10-24
+SRC-0123,legacy/sources/family-comparison-model-checks.json,109190,07dca36ddeaa003dad808c6862ddc9fdbd321fd90085bc6307433aa09454025c,2026-10-24,2026-10-24
+SRC-0124,legacy/sources/family-comparison-model-checks.md,3783,a1b211e655813f76d5f6b4855ab503076c6b5c3f00424e3ca13db271f5b79b84,2026-10-24,2026-10-24
+SRC-0125,legacy/sources/family-financing-comparison.json,11482,13fa3f52a51d7c6420ac808c3c334459d362e849cf1b73691ddd570470570217,2026-10-24,2026-10-24
+SRC-0126,legacy/sources/family-financing-comparison.md,6205,23e5ab36c617a3b435acf40af56e40e0a3dabc1f5ebc0534f725cb6715136c92,2026-10-24,2026-10-24
+SRC-0127,legacy/sources/family-later-year-scenario-paths.json,943,a88795ef9baf808649894aa1ec61bf09776397b8edf9fd5766c2b63a58f2cce5,2026-10-24,2026-10-24
+SRC-0128,legacy/sources/family-outcomes-design-review.md,14329,cb75a93f7255339129ea39fd03da12b8af9c49a61c5900d0e6ae95802a76af9b,2026-10-24,2026-10-24
+SRC-0129,legacy/sources/family-poverty-model-review-and-extension.md,21684,32a55754cdf2a42884a75316a3146e043f9107c36d964211da94b21ed220e8ab,2026-10-24,2026-10-24
+SRC-0130,legacy/sources/family-security-public-example.md,4822,4e3942c87f4c150b30cff929fbcf46e303b8dc656f874dad2ca2d79c9facd31c,2026-10-24,2026-10-24
+SRC-0131,legacy/sources/financing-protection-initial-screen.md,7429,c2bcb58c1c8e4cf22ce211081ab751b21a98a69bbfc69efb9ce6a738faed80b9,2026-10-26,2026-10-26
+SRC-0132,legacy/sources/financing-protection-screen.json,13568,fe48ed103c7a450bc6ebc997f9fe806f1cd7f5c0413cad64c285ea03e64d3431,2026-10-26,2026-10-26
+SRC-0133,legacy/sources/fiscal-recovery-and-education-redesign.md,40606,dd7cbec4e91c9e5b25f645e2a54b68483ea7b15ce36b47cce1c18865aa46db49,2026-10-26,2026-10-26
+SRC-0134,legacy/sources/fiscal-recovery-inventory.csv,44406,6375c6d35e10439477ece9af239e5c580d72552a4ea3b189af55710111aa7094,2026-10-26,2026-10-28
+SRC-0135,legacy/sources/fiscal-redesign-and-participation-2026-10-26.md,27976,2b32b394d48522b57ecfde9cf29371e14461a265a245913c9e86e83fb4a4415d,2026-10-26,2026-10-26
+SRC-0136,legacy/sources/fiscal-redesign-first-results.json,161436,fed6aac010a634aea32da6a21543d6a83517ccade8e195fc6057ae261e95e515,2026-10-26,2026-10-26
+SRC-0137,legacy/sources/fiscal-redesign-first-results.md,5379,bf2907f379ff116946f356bba1808856034e3f650daef478cc71f3c9fbd40cb6,2026-10-26,2026-10-26
+SRC-0138,legacy/sources/health-2029-restoration-and-2030-medicare-option.md,13085,3e97a30b177dd91226eb3a6c5b57b95aabfaa376ef01f883bf747698843b3197,2026-10-23,2026-10-24
+SRC-0139,legacy/sources/health-cms-capacity-review-2026-10-21.md,27515,5e71de12ce8c24ba43bf161b99f3f38bf7ea6208381609f8511fdee79162feb7,2026-10-21,2026-10-21
+SRC-0140,legacy/sources/health-cms-imp-02-evidence-followup.md,26688,7f28f1189fb5977d099004b11cd58d72486a823289ff29b2b693b8a01bc4752c,2026-10-24,2026-10-24
+SRC-0141,legacy/sources/health-cms-imp-02-pilot.md,44504,f12bb4b0bba918ab652750e57b95824698566c42ae4492971a62c2b6f09b79d5,2026-10-24,2026-10-24
+SRC-0142,legacy/sources/health-cms-implementation-cost-register.csv,8550,5eb8211982d900708af428c32168bf0c4e912566dfa8f1ecac6df43f906a0f20,2026-10-21,2026-10-24
+SRC-0143,legacy/sources/health-delivery-component-register.csv,8865,aed6b8d6e6d17428b11001f2fc40e517aa5ed8024599eaf15100eb5798e67f37,2026-10-24,2026-10-24
+SRC-0144,legacy/sources/health-delivery-resource-bridge.md,8371,4dca7cd2cbd7df4d23fc9fc8f5378291f9a60a03494957425142b0655115437c,2026-10-24,2026-10-24
+SRC-0145,legacy/sources/health-design-model-checks.json,7238,72ea9cdcde15e1837b0c4bf2f9cb5abd8caa1fb7885eb4d5c6c9764bd083cba1,2026-10-24,2026-10-24
+SRC-0146,legacy/sources/health-design-model-checks.md,6868,616ca74d462b0eb4a2788181abe68a4397750396ca54009af9a82e4eeaed195b,2026-10-24,2026-10-24
+SRC-0147,legacy/sources/health-design-options.md,33504,abd27ecf8548c20bbb7dc767c229722189aeb80026031bdf011b0127bb7d5470,2026-10-24,2026-10-24
+SRC-0148,legacy/sources/health-enrollment-work-map.csv,2703,9e8c696f8f7ec57e93ebfd4d0a170ea8d6ae919feef1a37b88e78733dbba78f4,2026-10-24,2026-10-24
+SRC-0149,legacy/sources/health-go-big-bill-detail-and-financing.md,11249,97974c02a644f7b164c09df8c32fbd68a57b27f8512fbc259005d2a5bd8df458,2026-10-20,2026-10-21
+SRC-0150,legacy/sources/health-hearing-vision-decision-packet.md,45148,81377c073704bb7932a9690091f6e1eba07f3438e059cf89a263b5e8716f1764,2026-10-24,2026-10-24
+SRC-0151,legacy/sources/health-restoration-remedy-cohorts.csv,4487,91433495429a2158b610937f406dce58cbc627190a9d67e7affa96462302c00c,2026-10-24,2026-10-24
+SRC-0152,legacy/sources/health-revenue-priority-evidence-checkpoint.md,4401,d422da45f1007b30f2588997f18c829c1b6718d16ff66ea47ffa39485c3df111,2026-10-23,2026-10-23
+SRC-0153,legacy/sources/health-selected-design-specification.md,38562,01ae30dea056fea75867c6102e68b6af48ed2fed521a9fd0c411c529d3211923,2026-10-24,2026-10-24
+SRC-0154,legacy/sources/health-working-group-memo-analysis.md,59978,08e9d803a4f5394d5b62f5df83ba24e77def28af038bddcec56dc13f669e189e,2026-10-20,2026-10-21
+SRC-0155,legacy/sources/permitting-aaja-2026-analysis.md,48777,a8494fda834adae49ff0b8daf880134decddb01dce0015fd6b59a9f1ad32ad5a,2026-10-20,2026-10-21
+SRC-0156,legacy/sources/permitting-aaja-2026-first-pass.md,39579,175adb06144e2eca3a2536fdcd1451dc71cf22cfcea0ebd0919a3a097049597e,2026-10-20,2026-10-21
+SRC-0157,legacy/sources/post-pilot-integration-handoff.md,7450,e87b6c333fc0966818d7603c225b7ee444ecb2847ebcbd3bee1a3a2157e562b4,2026-10-23,2026-10-23
+SRC-0158,legacy/sources/project-2050-annotated-bibliography.md,169690,15a211dbe5c313c7890ca9e07c0149f647d47a79233a1d4146e80d572f0c3e73,2026-10-24,2026-10-24
+SRC-0159,legacy/sources/project-2050-consistency-audit-2026-10-24.md,11711,7491cb4243b41f64c1c11b73dbb645d055656de92f4070a0c3fb73e7cc9827ae,2026-10-24,2026-10-24
+SRC-0160,legacy/sources/project-2050-research-register.md,29645,b5b20cdb19f44c2fd478dc63889fc4efcc4dba9c764d90ac73bfb67408e186cf,2026-10-23,2026-10-26
+SRC-0161,legacy/sources/project-2050-strategic-alternatives-2026-10-25.md,28762,1cff4f5282015748681ab8fc033b85268168f6e993c8b32443f9c1fd7cfd94d7,2026-10-25,2026-10-26
+SRC-0162,legacy/sources/project-2050-strategic-assessment-2026-10-25.md,39000,28d145ea9232519f88d07207a6d33f96863d0d42f1ceaa0b258045c234f142cc,2026-10-25,2026-10-26
+SRC-0163,legacy/sources/project-work-queue.md,15376,c1171a46f6bb8a84342754bf6df7ffa657aa892a8be6ebfaf9423f5621cc260f,2026-10-24,2026-10-28
+SRC-0164,legacy/sources/public-product-blueprint.md,33180,cc5998ecfa10261f6cae5b7ab0425745482f2455051738aa9173df057e32c04e,2026-10-25,2026-10-25
+SRC-0165,legacy/sources/public-safety-safe-everywhere-bill-summary.md,25791,dcad93a118fd2dc193161e757a79f7febfab0d01ba52b6cb0c73cb8c52b85117,2026-10-20,2026-10-21
+SRC-0166,legacy/sources/public-story-claim-register.md,26958,87ed354de41225fbd997d27fb68cbbf222abe0640f9568e9bb7a183d3613b4e6,2026-10-27,2026-10-28
+SRC-0167,legacy/sources/public-story-essays.md,9800,2c9903d63c6ebc6db0326b3b9c7242c55698e4182d42cd08db60a41e468921db,2026-10-27,2026-10-28
+SRC-0168,legacy/sources/public-story-housing-evidence.md,4757,b69d08bfeb5f1bcb0c8f8e96ffc4a4f02ad29de7a8c69c6f29855dc608531149,2026-10-27,2026-10-27
+SRC-0169,legacy/sources/recovery-and-solvency-budget.md,28202,54a56924bd166be860d8ef951f0fab230327797e3b9d94eab94c7ff64fc4ea52,2026-10-26,2026-10-26
+SRC-0170,legacy/sources/recovery-budget-audit.csv,1549946,f32f290cb253f0b180321b7b02ca3a33fc3874fecba966ebb503a989b90b6e68,2026-10-26,2026-10-28
+SRC-0171,legacy/sources/revenue-channels-and-full-menu.md,20631,e348315db667311cb34be90ec45308574284b2d04380aa21a4431e7fe0e65e57,2026-10-20,2026-10-21
+SRC-0172,legacy/sources/revenue-counted-reconciliation.csv,8452,402bc79e1887ab78795cc5a5d5bcd4bce09c798db9cf8eee30f36324c47b627d,2026-10-27,2026-10-27
+SRC-0173,legacy/sources/revenue-counted-reconciliation.md,10460,96875dfab30c4e3f404aa077724d5a002baaf6389e0210b23d987ffbd489647b,2026-10-27,2026-10-27
+SRC-0174,legacy/sources/revenue-rebalancing-and-sustainable-agenda.md,11614,b8e751c8a54c250eebab5681f25d5f2c946dea39157889aa91f0e6bd6d739c1e,2026-10-26,2026-10-27
+SRC-0175,legacy/sources/scenario-talarico-2029-2037.md,34077,46eddc3c5fba9d3a796e979abc7a83f3ea051de338dd0f94349d8ed21be0dd61,2026-10-20,2026-10-21
+SRC-0176,legacy/sources/spending-package-comparisons.json,17285,8072f8d62f6b7b0b2fcd2230c560fc83bd08a01dd630bd8fc3d8af3e94d006d3,2026-10-26,2026-10-26
+SRC-0177,legacy/sources/spending-package-comparisons.md,5756,3e9212827c6d3aed5c876fff447d8dbf7a441d703b737989bd359aa23d7a06a6,2026-10-26,2026-10-26
+SRC-0178,legacy/sources/strategic-review-arithmetic.json,20140,4e084b39f51d47c0ce4da4ca1829dbe7e539748cb7f0239e7f9cf3202ca91123,2026-10-25,2026-10-25
+SRC-0179,legacy/sources/strategic-review-arithmetic.md,3191,3d3d014994429e68c366021fb4584b47c8b39cf86ffe654970a31eafc03079e1,2026-10-25,2026-10-25
+SRC-0180,legacy/sources/transportation-arca-2031-bill-architecture.md,269275,e607bafb75cec4c440ecf82a0a406e77dbca7eaa00c4e31777c49d1da1d279ce,2026-10-21,2026-10-21
+SRC-0181,legacy/sources/transportation-arca-status-oct12.md,20695,d288ce9bb971ce6e4525bd1458611b5d6950c387532d192925a3ea7554f21081,2026-10-21,2026-10-21
+SRC-0182,legacy/sources/transportation-atra-2031-bill-architecture.md,126508,2d7b877bede4a7a1c6652bc4f400c0b36a8488dc275db82376e3bf6cc32cb3c5,2026-10-21,2026-10-21
+SRC-0183,legacy/sources/transportation-atra-merge-contribution-oct12.md,39311,f02cfcced78403cf1321e3cecc77f4d848a4977a807e7c0bdf6b212364e2630a,2026-10-21,2026-10-26
+SRC-0184,legacy/sources/transportation-calendar-fy2032-36.md,11460,7dcde2accfe403df9a0751e39403a6bd6fc791373afcfebf253c263f4e193fbf,2026-10-21,2026-10-21
+SRC-0185,legacy/sources/transportation-merge-status-oct12.md,3083,ed9b9a49b62138da9636f94cf3d621fa8eb71bdb9370f9d76e049da79475843e,2026-10-21,2026-10-21
+SRC-0186,legacy/sources/transportation-package-section-by-section.md,44982,5e7779b286f5a562cce6ef07e996a19af629cdeb241cef5e391bbf20ffc0ccc6,2026-10-21,2026-10-21
+SRC-0187,legacy/sources/transportation-transit-context-notes-oct04.md,4848,91ec3a4b15067eae48c1f1652a2b0b8c12421dcbbd0cedc2eb6390e6664d7e1f,2026-10-21,2026-10-21
+SRC-0188,legacy/sources/transportation-transit-package-status-oct12.md,7002,1984579a84e30cc11d290a3499915f552120232bf2fccfa7038a13b532a952ca,2026-10-21,2026-10-21
+SRC-0189,legacy/sources/treasury-fiscal-data-api-documentation-2026-10-26.pdf,148881,46cfd9715d339e340859358f86e4053970ebc333a518ec756896b2ed1da98022,2026-10-26,2026-10-26
+SRC-0190,legacy/staging/unified-reform-inventory-current.md,87376,233e9aa43b83fc57fa30afd87903812070cfb35cc4273aa63dcfc79ad1d8faf3,2026-10-20,2026-10-26
+SRC-0191,library/intake/2026-10-28/README.md,2550,b63d366e0c3951a4848629462848d011d062778b1fbd8f150935205b6cda6145,2026-10-28,2026-10-28
+SRC-0192,library/intake/2026-10-28/claude-more/7-23-2025_hr_4669_-_section_by_section.pdf,1428023,568f0df54d5637d26bf56e38520b8245474ee4fef05126ade3ea5255e893b14a,2026-10-28,2026-10-28
+SRC-0193,library/intake/2026-10-28/claude-more/Double_Unraveling_Policy_Prescriptions.docx,36005,0b519cac9f42443dc0a3140a121c0356ff86298bb12c13bf352294f3d1f22858,2026-10-28,2026-10-28
+SRC-0194,library/intake/2026-10-28/claude-more/Double_Unraveling_Rollout_Model.docx,28245,5e43f1419e21a29b675fee6691362b51e79b59705e14f451202298967f8d5562,2026-10-28,2026-10-28
+SRC-0195,library/intake/2026-10-28/claude-more/PROJECT 2029_legislative_action_inventory.docx,45662,e819321083bcdd588be8348d20b8484674f90bbac950304e6fadeecd122af108,2026-10-28,2026-10-28
+SRC-0196,library/intake/2026-10-28/claude-more/R48856.3.pdf,715251,aac9e16b75cc10cc05b76883811076af196c4cd84f678bc9210e52532c3b0f1f,2026-10-28,2026-10-28
+SRC-0197,library/intake/2026-10-28/claude-more/Talarico_scenario_bill_list.rtf,10575,f4bbea73ad77637e013368ec4c913b85711135e0a13ac085f60c04334c49f8ad,2026-10-28,2026-10-28
+SRC-0198,library/intake/2026-10-28/claude-more/constitutional-repair-agenda.md,39352,46070705cd46514b5b26c7b06c5114381a1b73485b2ec6fd06b719394cb15d96,2026-10-28,2026-10-28
+SRC-0199,library/intake/2026-10-28/claude-more/fema_text.pdf,583597,bfc95d6df0260d4b0004e276cf6fd6b7bec06fcf251c8240f90b7d237b415b83,2026-10-28,2026-10-28
+SRC-0200,library/intake/2026-10-28/claude-more/project2029_cbo_inventory.docx,35294,1d266e9c4495c63116384c07b900bedd82c6e7902ff58735ef2411d17c5c9318,2026-10-28,2026-10-28
+SRC-0201,library/intake/2026-10-28/claude-more/project2029_cbo_score_inputs.txt,113259,181ef5728a85f46c3f60b58ba86424062a0c295d287fffa6b6088b957acda930,2026-10-20,2026-10-28
+SRC-0202,library/intake/2026-10-28/manifest.json,30131,c8bf841adfcc130dc26c3722abf9affd2eeb92e4512a1099505a47954e6181f9,2026-10-28,2026-10-28
+SRC-0203,library/intake/2026-10-28/old-sessions/Claude built CBO scorer tool/cbo-scorer.jsx,69900,1e95f4b8c6ccbf41d7ea6e8323e5a635ef88cc8ecb7b26857e4b8401f5a5db6d,2026-10-28,2026-10-28
+SRC-0204,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/Bipartisan American Affordability and Jobs Act ΓÇö Updated Analysis from the Full.md,52121,8e667f133456c217808ecfd10a3f5184d735b3535f7621c2e38fcf1b8669b05d,2026-10-28,2026-10-28
+SRC-0205,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/Bipartisan Permitting Reform Bill_ 2026 Lame-Duck Passage Odds and Climate Impact Analysis.md,50306,196cece0250723e4be6ea719135b3af71d637529ac067b62ebe825b1d76f3a83,2026-10-20,2026-10-28
+SRC-0206,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/BipartisanAmericanAffordabilityandJobsAct.pdf,841507,1970ca7da783cdfa7451a5f83e8a89ec2209aafa753d5bfa074a9ea85bddb3c4,2026-10-28,2026-10-28
+SRC-0207,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/Carbon Dividend Model session brief and source accounting.md,15926,bb298c27fa311a3521c9ea930f2fff866fe8ae8f6b58b9c74ab6746c995a85f6,2026-10-28,2026-10-28
+SRC-0208,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/Scaling Geothermal and Cutting Its Costs.md,17023,9dc18ec550db22a1a078b36bec7487b4d18addaa54c8253faf6726aec96fa652,2026-10-28,2026-10-28
+SRC-0209,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/Thriving-Economy-Project-session/Lame-duck leverage - Permitting and Surface Transportation.docx,12857,443a8f1fdd592dbed36d20859dd37ebd535b94637f617cf4ea728bc2b9411977,2026-10-28,2026-10-28
+SRC-0210,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/Thriving-Economy-Project-session/Thriving Economy Model.html,41826,d9b1c1211bc3107fe2ea174809033b060093965f8432cebfbd30fd680845cddc,2026-10-28,2026-10-28
+SRC-0211,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/Thriving-Economy-Project-session/Thriving Economy Project - Legislative Agenda Map.docx,27844,36b84d6697ae84cbebc3f7cb7e3b30528a778e6ab8ee5a55ac32e7998d3f676e,2026-10-28,2026-10-28
+SRC-0212,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/carbon-fee-dividend-project/claude/cbam-spinoff-notes.md,3378,a94b1e79204b86e56809f138f1ea01d3a18a8bd2e28d6b26109ca57148b6bb49,2026-10-21,2026-10-21
+SRC-0213,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/carbon-fee-dividend-project/claude/cfd-cex-2024.json,7695,11f4b296801bc20d596eb1893138e734352bae0ef9527e13c1d35b99fc635588,2026-10-21,2026-10-21
+SRC-0214,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/carbon-fee-dividend-project/claude/cfd-households.js,1919,447912c25838c4c6b3b3c3997138d3936aea18cfddb73acfe25eac34dc7b3f10,2026-10-21,2026-10-28
+SRC-0215,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/carbon-fee-dividend-project/claude/cfd-model-notes.md,27584,e5609ecdc3774ef4f213c58715fddb99ede4c09e2d36d54851a750aae2c426b0,2026-10-21,2026-10-21
+SRC-0216,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/carbon-fee-dividend-project/claude/cfd-model.js,47253,b14553a9d5fd44bbe7ffd6373ff9bd76500e1b1e88d82213aebce79b28e6e261,2026-10-21,2026-10-28
+SRC-0217,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/carbon-fee-dividend-project/claude/cfd-tests.js,5346,bf1101685dd42e34f35dfcb9736341ce1f08fc5fe30e0d240d43ca21bf25d8ec,2026-10-21,2026-10-28
+SRC-0218,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/carbon-fee-dividend-project/claude/research-baseline-2026-10.md,8315,904706df71c5796b933721065c73f36579b0298f7b5d827913575da25cc0fc8a,2026-10-21,2026-10-21
+SRC-0219,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/cfd-border-and-build-files/body.part,43185,df2213f63194cca22df7fea6f9b5d2a3f935841993f2ba5838c27a09e400d496,2026-10-28,2026-10-28
+SRC-0220,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/cfd-border-and-build-files/border.json,4879,321dea4bae931d6bce21eb8aced5a95d66446553af1107cead90d5940bd6362c,2026-10-28,2026-10-28
+SRC-0221,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/cfd-border-and-build-files/border.py,5351,2e30acd82d448d9d370c5623784e9900cfb637e0dadd39698c83f5b48405caab,2026-10-28,2026-10-28
+SRC-0222,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/cfd-border-and-build-files/build.py,664,0536ef35698e16e8d99c3bcd16d930aef182e625e2e67527b6caa1aeef3b1c7d,2026-10-28,2026-10-28
+SRC-0223,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/cfd-border-and-build-files/css.part,5812,f4e8ec05b4980fe4b9ae881844261bf9762fd26c85e2c4d34edbcd65a49f3bda,2026-10-28,2026-10-28
+SRC-0224,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/cfd-border-and-build-files/index.html,132912,f5f3d9202ada8aacb1b96ea6e5b55aaf915ce42aa748c06ab8c9f8aeb288ad8f,2026-10-28,2026-10-28
+SRC-0225,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/cfd-border-and-build-files/shot.js,880,fe383c74eba7e2994977b74e2dffbec343c5713a3c904eceaab9a53aae4184d2,2026-10-28,2026-10-28
+SRC-0226,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/cfd-border-and-build-files/ui.part,26776,b4031bf48b8abe19c90790001f678ca7aa315bdeb5ed0ae2df0d8d1f64ce4883,2026-10-28,2026-10-28
+SRC-0227,library/intake/2026-10-28/old-sessions/Claude climate carbon permitting/permitting-reform-summary-1.pdf,445946,d46763b5fa8de41b7ef6243405e32a9af6e71731a741b6f925c12e6b61c05d32,2026-10-28,2026-10-28
+SRC-0228,library/intake/2026-10-28/old-sessions/Claude healthcare/1791753732441_house-democrats-health-care-working-group-agenda-2026.pdf,1576765,12b98245815876361ef6c98efdf54614b830ec5973f919aecda4739cba1dc144,2026-10-28,2026-10-28
+SRC-0229,library/intake/2026-10-28/old-sessions/Claude healthcare/Go-big bill detail and financing.md,11249,97974c02a644f7b164c09df8c32fbd68a57b27f8512fbc259005d2a5bd8df458,2026-10-20,2026-10-21
+SRC-0230,library/intake/2026-10-28/old-sessions/Claude healthcare/House Democrats' Health Care Working Group Memo Catalog and Scenario Analysis_main.md,59978,08e9d803a4f5394d5b62f5df83ba24e77def28af038bddcec56dc13f669e189e,2026-10-20,2026-10-21
+SRC-0231,library/intake/2026-10-28/old-sessions/Claude healthcare/Revenue channels and full menu.md,20631,e348315db667311cb34be90ec45308574284b2d04380aa21a4431e7fe0e65e57,2026-10-20,2026-10-21
+SRC-0232,library/intake/2026-10-28/old-sessions/Claude transportation/ARCA Network Buildout.html,26695,887e438aed4fad5c5f57dc4fff9823991b8182467563b578401896459799259e,2026-10-28,2026-10-28
+SRC-0233,library/intake/2026-10-28/old-sessions/Claude transportation/ARCA Network Buildout.md,1627,ce0fa3f13fe214d58540368f2827eebddda4d4b8dcccf9b471eaef237b214a7e,2026-10-28,2026-10-28
+SRC-0234,library/intake/2026-10-28/old-sessions/Claude transportation/American Passenger Rail in 2026 State of Play and a Path Forward.md,60762,da39adc980fbba6923727325f642990f57ed174bcca3cc4ecb24fd5374dd46a4,2026-10-28,2026-10-28
+SRC-0235,library/intake/2026-10-28/old-sessions/Claude transportation/Corridor Pipeline 2026ΓÇô2036.html,42797,325453e1961e2a3b8ce4c087fa9d5baae3eb1cc14635af8ca5e42394776662d8,2026-10-28,2026-10-28
+SRC-0236,library/intake/2026-10-28/old-sessions/Claude transportation/Corridor Pipeline 2026ΓÇô2036.md,2399,598359a217fd78638f06ac47855139e501148e6ad462449c413873e884b0f366,2026-10-28,2026-10-28
+SRC-0237,library/intake/2026-10-28/old-sessions/Claude transportation/Transit Delivery Pipeline.html,34401,e29ccab4766c906f051501be448d89203445698852f158d9ec7b96626677e3b7,2026-10-28,2026-10-28
+SRC-0238,library/intake/2026-10-28/old-sessions/Claude transportation/Transit Delivery Pipeline.md,2102,d5ec5b34d0fcf01d9c2bcc35a3fad92691730054e6424df8ee82a65e298a5863,2026-10-28,2026-10-28
+SRC-0239,library/intake/2026-10-28/old-sessions/Claude transportation/Transit Renewal Buildout.html,31842,84b4afe34f33fcec690918cbf44b6f4dba369a96b68039a982e1a439ded548ac,2026-10-28,2026-10-28
+SRC-0240,library/intake/2026-10-28/old-sessions/Claude transportation/Transit Renewal Buildout.md,1624,f97cae4b0529b45b17ddcce660819d1c40424d88eb4b5b726794f90681d770ac,2026-10-28,2026-10-28
+SRC-0241,library/intake/2026-10-28/old-sessions/Claude_AI-Era Fiscal Policy Session Findings.md,20391,f8975ce6b05c1f381303602f2b956b00d3b175f36298d398117cc09b074ab589,2026-10-28,2026-10-28
+SRC-0242,"library/intake/2026-10-28/old-sessions/Claude_Education Package Bill Analysis, Trust Fund Architecture, and 20-Year Model.md",58617,3f53c9fda4cecf61db967388d53bd490e12bfcba3f0d690377e94614d1352735,2026-10-28,2026-10-28
+SRC-0243,library/intake/2026-10-28/old-sessions/Claude_Rebalancing the Three Branches_ A 2026 Constitutional and Administrative Law Review of U.S. Court Reform Proposals.md,65209,564324dd50d7e602427c63da409608fb63ca7f7816aad6b1551402cce81ed04c,2026-10-20,2026-10-28
+SRC-0244,library/intake/2026-10-28/old-sessions/Claude_project-2050-archive-extras_left_out_of_initial_claude_project_fileset/archive/superseded-beyond-health-care-2029-trifecta-agenda.md,14255,fe5bfe6eda175af789b99c15cdb5bccb672de7f07429d6ec89aff98e6c037d1b,2026-10-28,2026-10-28
+SRC-0245,library/intake/2026-10-28/old-sessions/Claude_project-2050-archive-extras_left_out_of_initial_claude_project_fileset/archive/wargame-floor-time-bill-book.html,59913,fc895015545567273fa79acfd53bbc57c26475ce8e43ec5961c0662b33a6eb6f,2026-10-28,2026-10-28
+SRC-0246,library/intake/2026-10-28/old-sessions/Claude_project-2050-archive-extras_left_out_of_initial_claude_project_fileset/archive/wargame-ledger-outcomes.html,32557,def3b8c72adacbcb4de09944c4a96bc3c60150d44af8c81fe52f4332a503c2e5,2026-10-28,2026-10-28
+SRC-0247,library/intake/2026-10-28/old-sessions/Claude_project-2050-archive-extras_left_out_of_initial_claude_project_fileset/archive/wargame-nineteen-months.html,44151,36930f6bd5e61f24458653b458e974e00b6df45b8e2ee0a99c02e9ad2b27d790,2026-10-28,2026-10-28
+SRC-0248,library/intake/2026-10-28/old-sessions/Codex Library files/deep-research-report (2).md,54029,95c93c433184f19ba67ec553eeb4255850aa31137e8e6299fff7fb725d6fed62,2026-10-28,2026-10-28
+SRC-0249,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-calendar-c-capacity-and-merger-assessment.md,34890,ac14f77be5ed0606a5055c889495503cdf584ee50460a96a9bfb661215523cba,2026-10-28,2026-10-28
+SRC-0250,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-calendar-scenario-model-and-strategy.md,27614,8b8cdf1076751082981cee1e1242a5e8f5c9721eb25e807501e85c0ee9f8232e,2026-10-28,2026-10-28
+SRC-0251,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-child-poverty-evidence-review-full.md,30623,e5ed4b98d6bad622fdd24a32c2397193c09e02917500c36cad4b2384cbe84a10,2026-10-24,2026-10-28
+SRC-0252,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-child-poverty-microsimulation-build-validation.md,32572,e8ce7b220242674e42547783a6841461b4ff439ac3d10ff3de03a5dac53a1c59,2026-10-24,2026-10-28
+SRC-0253,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-child-poverty-microsimulation-research-build.md,27742,5bfcedb6a147bb88ce3eadb615e90496e24550141d7daea16d6b6bfc81c26460,2026-10-24,2026-10-28
+SRC-0254,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-child-poverty-microsimulation-verified-package.md,25568,5e820770913826fa46b82d84e5734f9e5f229a998a6241d203a18f3b8b893926,2026-10-28,2026-10-28
+SRC-0255,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-child-poverty-prelim-deep-research-handoff.md,10286,decced716b0823712942acd75f6afcc2be0091a8d26c8b3f6dffabb0fe1dba53,2026-10-28,2026-10-28
+SRC-0256,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-child-poverty-prelim-design-implications.md,8414,46f8e6ec9bd8f331433cbf3cbe90d74322dae6e17567ece842ce00416e9d17fa,2026-10-28,2026-10-28
+SRC-0257,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-child-poverty-prelim-evidence-review.md,14660,5a96038697d25782478b143c78db2925db3aa15434368920b778f28718416999,2026-10-28,2026-10-28
+SRC-0258,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-cms-imp-02-evidence-followup.md,26176,928441d88a4ac7e702993803d9919655ccb2eb26901420b5290925713347cd43,2026-10-24,2026-10-28
+SRC-0259,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-cms-imp-02-evidence-requests.md,20699,13ced372cdca8ee7c673a0d16784e9e28e0e34e91b56e602b00b9369d92cf1ef,2026-10-28,2026-10-28
+SRC-0260,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-cms-imp-02-pilot.md,44004,8e7125b0aed1459f56d7eb5cde762ba6b5101895abf59fd89011371b14e7867e,2026-10-24,2026-10-28
+SRC-0261,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-cms-imp-02-resource-workbook (1).xlsx,52207,1c7e4f7bceb416fd98af0535896e51e2304a789da0b65f0bdd5e712159213a0f,2026-10-28,2026-10-28
+SRC-0262,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-cms-imp-02-source-records.zip,18095829,2b8f487beaa57d94ae7669a370f30f50bbf1f37ee01e51743338983e1582cb61,2026-10-28,2026-10-28
+SRC-0263,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-coordination-status-and-first-assignment-2026-10-23.md,15753,f8a720f5035447b26fea25a2d675046a55ddd8eff6f42c6f5f36fd588054e631,2026-10-28,2026-10-28
+SRC-0264,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-health-ma-timing-and-decision-packet-2026-10-24.md,8622,cb6d847a5215c49f13ce28b8456ceddfb30596b68f81961b9aba75af5c8e6961,2026-10-28,2026-10-28
+SRC-0265,library/intake/2026-10-28/old-sessions/Codex Library files/project-2050-initial-agenda-assessment-2026-10-23.md,56315,525041865460c99201bef3d608b974a94b799e95d21a6c5a65e94fa6b1e83318,2026-10-28,2026-10-28
+SRC-0266,library/intake/2026-10-28/project-2029/project_2029/project2029_cbo_score_inputs.txt,113259,181ef5728a85f46c3f60b58ba86424062a0c295d287fffa6b6088b957acda930,2026-10-20,2026-10-28
+SRC-0267,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter10_messaging_communications.md,45882,dc629e9420880eb02a9f3ac8d34fcdabbe26de49eb6a639afadbeb3bbea5af3f,2026-10-28,2026-10-28
+SRC-0268,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter11_reproductive_rights.md,38117,83c021614c2e4dd731bc3effcc00c83e06239605b581282ae398d3c1c230b944,2026-10-28,2026-10-28
+SRC-0269,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter12_education.md,34528,fce9f2e0f8e12edd5790de94a23938177f5cba7606302657b40383034b884d60,2026-10-28,2026-10-28
+SRC-0270,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter13_technology_AI.md,40510,ad0944674de0cdb1007f5a988d6be2fc5d0b2cb6c8994efe480320c1ff469464,2026-10-28,2026-10-28
+SRC-0271,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter14_criminal_justice.md,39080,bb292dd875734301ef34a5cee835eb75a4d53adea8642940349506b300bf05b0,2026-10-28,2026-10-28
+SRC-0272,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter2_fiscal_and_framing.md,41697,5801b88e975df2d8fb0d30f80c8d066364bede44204270d7f6419bb215efdde8,2026-10-28,2026-10-28
+SRC-0273,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter3_immigration.md,49089,c700f40735d2ce8533c853c188f70b3ece22b624825730e3dcd86fe6e5080997,2026-10-28,2026-10-28
+SRC-0274,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter4_healthcare.md,45437,b3af3d0a7849509cfa0668700a80448865b6c340a913396a76add62d9a55aae6,2026-10-28,2026-10-28
+SRC-0275,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter5_coalition_math.md,47848,0f0f701a4299c3263a23ab1b375f007faccfc09caa657f918435b68bed64aaeb,2026-10-28,2026-10-28
+SRC-0276,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter6_democracy_anticorruption.md,54358,d3e1bf5ecabce15551f3ec815907d3a241d2dd6c35050d771e29e8e717922756,2026-10-28,2026-10-28
+SRC-0277,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter7_economic_fairness.md,55509,0e9a5a3491d904b612945c2eed28b44dc185d3a9c1b36070ef168b3aeb0d883c,2026-10-28,2026-10-28
+SRC-0278,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter8_climate_energy.md,45553,1bad0a0fc035058120c86290da616924cecc973699543dc1f7260c16f8ebb08d,2026-10-28,2026-10-28
+SRC-0279,library/intake/2026-10-28/project-2029/project_2029/project_2029_chapter9_foreign_policy_defense.md,45110,1dbb0e08cf834daaa3bff93057e53bddb05360d70b14d5b85a1c78494913670e,2026-10-28,2026-10-28
+SRC-0280,library/intake/2026-10-28/project-2029/project_2029/project_2029_executive_summary.md,36793,13d910859faf141cb4abb0375a025be72781d38a215d501c28a3a7c1b7ce6385,2026-10-28,2026-10-28
+SRC-0281,library/intake/2026-10-28/project-2029/project_2029/project_2029_initial_framework.md,41149,2c6cca90189bb06c7e55990885e0ccfb3fd58f8702dbacfd0c457aaeb9018f49,2026-10-28,2026-10-28
+SRC-0282,library/intake/2026-10-28/project-2029/project_2029/project_2029_internal_audit.md,31369,fc0097a72f2fb81a18c9f170def1d1b6caf85bbfe834b2a387f7d0353e6db99a,2026-10-28,2026-10-28
+SRC-0283,library/intake/2026-10-28/project-2029/project_2029/project_2029_master_EO_inventory.md,18633,3c2ac1bcce4372b7d690a970b0997d14a8b1b8291d899b048449f181eaeeafc0,2026-10-20,2026-10-28
+SRC-0284,library/intake/2026-10-28/project-2029/project_2029/project_2029_master_governance_calendar.md,19103,2dab0f28f256db2f6b97689b36ef3d16084d4376b6d5767aad79692864729141,2026-10-28,2026-10-28
+SRC-0285,library/intake/2026-10-28/project-2029/project_2029/project_2029_second_internal_audit.md,18234,f0ded9e69f407b82160beb8e05ee212c50d365ecd0e885243a57a602d73554b7,2026-10-28,2026-10-28
+SRC-0286,library/intake/2026-10-28/project-2029/project_2029/project_2029_third_audit.md,25354,0a633465cc7bd208944db61bd4b88c20f3baf38a5f6bb61722e156f97bb77b98,2026-10-28,2026-10-28
