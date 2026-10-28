@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nineteen Months</title>
+<style>
+  :root{
+    --paper:#F4EFE4; --paper2:#EAE3D3; --ink:#1B2432; --inkdim:#5C6373;
+    --rule:#CDBE9A; --brass:#9C7A16;
+    --dem:#3E6FB0; --care:#4E8A63; --econ:#C08A20; --rev:#7A5E97; --safety:#5E6B80;
+    --gop:#B0413E; --green:#4E8A63; --amber:#C08A20; --red:#B0413E;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+    --mono:ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:19px;line-height:1.62;font-feature-settings:"onum" 1,"kern" 1}
+  .wrap{max-width:720px;margin:0 auto;padding:64px 28px 120px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass)}
+  h1{font-weight:600;font-size:60px;line-height:1.02;letter-spacing:-.01em;margin:.15em 0 .1em}
+  .dek{font-size:22px;line-height:1.4;font-style:italic;margin:.2em 0 .1em;max-width:36ch}
+  .standfirst{font-family:var(--mono);font-size:12.5px;line-height:1.7;color:var(--inkdim);margin-top:18px}
+  .rule{height:1px;background:var(--rule);border:0;margin:34px 0}
+  h2{font-weight:600;margin:56px 0 2px}
+  h2 .num{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--brass);display:block;margin-bottom:6px;font-weight:400}
+  h2 .ttl{font-size:29px;font-weight:600;letter-spacing:-.01em;line-height:1.1;display:block}
+  p{margin:0 0 20px}
+  p.lead:first-letter{float:left;font-size:64px;line-height:.82;font-weight:600;padding:6px 10px 0 0;color:var(--brass)}
+  strong{font-weight:600}
+  .bill{font-weight:600}
+  cite{font-style:italic;color:var(--inkdim)}
+  figure{margin:38px 0;padding:0}
+  .fig-h{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin-bottom:2px}
+  .fig-t{font-size:21px;font-weight:600;line-height:1.2;margin:0 0 4px}
+  .fig-d{font-family:var(--mono);font-size:11.5px;line-height:1.55;color:var(--inkdim);margin:0 0 14px;max-width:62ch}
+  figcaption{font-family:var(--mono);font-size:10.5px;line-height:1.5;color:var(--inkdim);margin-top:12px}
+  .chart{width:100%;background:var(--paper2);border:1px solid var(--rule);border-radius:4px;padding:18px 16px}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  .legend{display:flex;flex-wrap:wrap;gap:12px 18px;margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--inkdim)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+  .pull{font-style:italic;font-size:24px;line-height:1.34;border-left:3px solid var(--brass);padding-left:22px;margin:36px 0}
+  .stat-row{display:flex;flex-wrap:wrap;gap:16px;margin:30px 0}
+  .stat{flex:1;min-width:150px;background:var(--paper2);border:1px solid var(--rule);border-radius:4px;padding:16px}
+  .stat .big{font-size:34px;font-weight:600;color:var(--brass);line-height:1}
+  .stat .lab{font-family:var(--mono);font-size:10.5px;line-height:1.5;color:var(--inkdim);margin-top:8px}
+  a{color:var(--brass)}
+  @media (max-width:640px){ body{font-size:17px} h1{font-size:42px} .dek{font-size:19px} h2 .ttl{font-size:24px} .wrap{padding:44px 20px 90px} }
+  @media print{ body{background:#fff} .chart{background:#fbf9f3;break-inside:avoid} figure,.stat-row{break-inside:avoid} h2{break-after:avoid} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">A 2029 Trifecta War Game · Floor Time</div>
+    <h1>Nineteen&nbsp;Months</h1>
+    <div class="dek">What the Ossoff trifecta could build with its window — and what it would mean for the country.</div>
+    <div class="standfirst">
+      A reading of the 56–44 / 244–191 board: full filibuster reform, twenty-seven bills, ~26.3 enacted. This reads the legislative core of the unified Ossoff–Moore agenda, and looks past passage to consequence — affordability, inequality, work, decarbonization, justice, safety.
+      Field data as modeled June 2026. Outcome figures are illustrative estimates, not forecasts.
+    </div>
+  </header>
+
+  <hr class="rule">
+
+  <p class="lead">Start with the vote that isn't on the agenda, because everything on the agenda depends on it.</p>
+
+  <p>The board enacts almost the entire program — twenty-seven bills — but only after the Senate has walked the reform sequence to its end — a democracy carve-out on Day 3, the talking filibuster restored by Month 3, and full chamber-wide majority cloture by Month 14, after a documented pattern of obstruction. Correctly modeled, that vote is not the fragile pillar it can look like. At 56 seats, ordinary caucus discipline on a <em>procedural</em> question clears fifty with real room; reform doesn't fail outright until six or seven senators refuse, a scale of resistance beyond anything the Manchin–Sinema era produced. What isn't settled is identity, not count — whether this particular 56 contains an immovable holdout of that kind. Grant that it doesn't. What follows is a country visibly remade inside a single Congress, and the rest of this document is about what that remaking would actually do.</p>
+
+  <figure>
+    <div class="fig-h">Figure 1 · Two-chamber Monte Carlo, 4,000 trials</div>
+    <div class="fig-t">The whole agenda, and where it stands</div>
+    <div class="fig-d">Probability each bill is enacted through both chambers under this board. Nearly everything clears; D.C. statehood is the lone genuinely contested vote, immigration the next.</div>
+    <div class="chart"><svg id="c1" role="img" aria-label="Enactment probability by bill"></svg></div>
+    <div class="legend" id="leg1"></div>
+    <figcaption>Sorted by enactment probability, colored by policy family. Dashed line marks 90%.</figcaption>
+  </figure>
+
+  <h2><span class="num">I · The shape of 2029</span><span class="ttl">The window writes the sequence</span></h2>
+  <p>A trifecta's power is not a stock but a flow, and it drains. Productivity is front-loaded, reconciliation is the spine of anything fiscal, and priorities that miss the first year rarely recover. The model gives the administration roughly five major-bill slots in the first hundred days and a window of about nineteen months before midterm gravity closes it. The democracy bills go first, on principle and arithmetic both. The two reconciliation vehicles carry the fiscal core: Package A pairs the <span class="bill">Child Tax Credit</span> with the <span class="bill">billionaire minimum tax</span>; Package B pairs <span class="bill">childcare</span> with the broader <span class="bill">corporate and high-income tax</span> — each spending priority married to its own pay-for, each kept lean enough that no single objection sinks the bill. Everything else rides regular order at a simple majority once the filibuster is gone.</p>
+
+  <figure>
+    <div class="fig-h">Figure 2 · What the full reform actually buys</div>
+    <div class="fig-t">The carve-out is not enough</div>
+    <div class="fig-d">Enactment under two rules postures on the identical board. A pure democracy carve-out saves only election-law bills and the four provisions protected inside reconciliation packages. Nearly everything else — labor, health, climate, rights, justice reform, Social Security, the anti-corruption reforms, the living wage — hits the 60-vote wall and craters to zero.</div>
+    <div class="chart"><svg id="c2" role="img" aria-label="Full reform versus carve-out"></svg></div>
+    <div class="legend" id="leg2"></div>
+    <figcaption>Open dot: carve-out outcome. Filled dot: full reform. Expected enactments fall from <strong>26.3</strong> to <strong>8.1</strong> when full reform is downgraded to a carve-out — roughly eighteen laws that live or die on ending the filibuster entirely. One partial exception: the Veterans bill&rsquo;s heavy Republican crossover lets it clear even a 60-vote bar about half the time.</figcaption>
+  </figure>
+
+  <h2><span class="num">II · Affordability</span><span class="ttl">The cost of a life, lowered</span></h2>
+  <p>The most immediate thing this agenda changes is the arithmetic of a household budget. Four of the biggest line items in an American family's ledger — child care, health care, prescriptions, and the thicket of hidden fees — are all directly targeted, and a fifth, energy, is reshaped so that most families come out ahead of the carbon price rather than behind it. Capping child care at <span class="bill">7 percent of income</span> takes the single largest non-housing expense for young families and roughly halves it; a <span class="bill">public option and Medicare buy-in at 55</span>, stacked on permanent enhanced subsidies and an expanded drug-negotiation regime, pulls premiums, out-of-pocket costs, and drug prices down together; the <span class="bill">junk-fees ban</span> ends the checkout ambush; <span class="bill">paid family and medical leave</span> removes the catastrophic income cliff of a birth or an illness; and the <span class="bill">Clean Energy Dividend</span> returns carbon-fee revenue as a quarterly check that, for the bottom two-thirds of households, exceeds what the fee adds to their energy bills.</p>
+
+  <figure>
+    <div class="fig-h">Figure 3 · Illustrative — median family, two young children</div>
+    <div class="fig-t">A working family's annual costs, before and after</div>
+    <div class="fig-d">Directional estimate for a representative two-earner household near median income with two children in care. Bars show annual out-of-pocket spending on each category before the agenda and after it takes effect. The Child Tax Credit is not a cost reduction — it is roughly $6,600 in new annual cash on top — and is shown separately below.</div>
+    <div class="chart"><svg id="c3" role="img" aria-label="Household costs before and after"></svg></div>
+    <figcaption>Grounded in the design parameters of each bill (the 7% childcare cap, ACA subsidy and drug-cap schedules, carbon-dividend incidence studies), not a forecast for any specific household.</figcaption>
+  </figure>
+
+  <p>The totals matter more than any single bar. For this family the bundle of cost reductions runs to roughly <strong>$11,000 a year</strong>, and the permanent Child Tax Credit adds several thousand more in cash on top — a swing large enough to change what kind of life is possible on a median income, and, not incidentally, large enough to be <em>felt</em>, quickly, in exactly the way a governing coalition needs its work to be felt if it wants to survive the next election.</p>
+
+  <h2><span class="num">III · Inequality</span><span class="ttl">Who gains, and who pays</span></h2>
+  <p>Affordability is inequality viewed from the household. Viewed from the whole distribution, this is the most progressive fiscal package since the Great Society, and by a wide margin. The gains concentrate at the bottom because the instruments are built to concentrate there: full refundability of the Child Tax Credit — the specific change Manchin blocked in 2021 — sends the whole credit to the poorest families for the first time; the childcare cap is worth far more as a share of a low income than a high one; the carbon dividend is a flat per-person check, which is regressive money flowing to progressive effect; the living wage lifts the floor itself; and the <span class="bill">Social Security expansion</span>, financed by lifting the payroll cap above $250K, is redistribution at the scale of the whole retirement system — the first benefit increase in over half a century, paid for at the top. And it is paid for at the very top, by the billionaire minimum tax and the corporate and high-income package, which fall almost entirely on capital and the highest earners.</p>
+
+  <figure>
+    <div class="fig-h">Figure 4 · Illustrative — net effect by income group</div>
+    <div class="fig-t">A deliberately bottom-heavy ledger</div>
+    <div class="fig-d">Estimated net annual benefit from the combined agenda — transfers and cost reductions minus taxes — as a share of after-tax income, by income quintile and for the top 1%. The shape is the argument: large gains for the bottom, a modest net cost concentrated at the top.</div>
+    <div class="chart"><svg id="c4" role="img" aria-label="Distributional impact by income group"></svg></div>
+    <figcaption>Combines the incidence of the CTC, childcare cap, carbon dividend, wage floor, and health savings against the billionaire and corporate/income tax increases. Magnitudes are illustrative and directional.</figcaption>
+  </figure>
+
+  <div class="stat-row">
+    <div class="stat"><div class="big">~½</div><div class="lab">Reduction in child poverty from the permanent, fully-refundable Child Tax Credit — the scale of the 2021 experience, made durable</div></div>
+    <div class="stat"><div class="big">~20M</div><div class="lab">Workers lifted by a $17-then-indexed floor, with a small-business credit and regional circuit-breaker built to blunt the disemployment risk at the margin</div></div>
+    <div class="stat"><div class="big">Top 1%</div><div class="lab">Where essentially all of the net cost lands — the pay-for is the point, not an afterthought</div></div>
+  </div>
+
+  <p>Be honest about the seams. The minimum wage carries a genuine employment tradeoff at the low end that the CBO tradition has never wished away — but the version on this board is built to blunt exactly that risk: $17 phased to a permanent two-thirds-of-median benchmark, with a longer runway for small employers, a regional circuit-breaker that stretches the climb in the low-wage rural counties where the research finds employment effects actually bite, a refundable small-business transition credit, and a recession off-ramp. It is a rising tide engineered so the smallest boats aren't swamped reaching the same destination. The childcare subsidy can still bid up prices before supply catches up; and stacking this much fiscal expansion into eighteen months risks the inflation argument of 2021 all over again, which a serious economic team would spend the whole window managing — pacing outlays, leaning on the offsets, watching the Fed. None of that unmakes the distributional fact. It just means the fact has to be defended with competence, not only with justice.</p>
+
+  <h2><span class="num">IV · Work, opportunity &amp; prosperity</span><span class="ttl">The supply side of a fairer economy</span></h2>
+  <p>The instinct to read this as pure redistribution misses half of it. A great deal of the agenda is a supply-side program in the truest sense — it expands the productive capacity of the economy by removing the things that keep people from working, building, and competing. Universal childcare is, among other things, a <span class="bill">labor-force policy</span>: the clearest finding in the care-economy literature is that affordable care pulls parents, and especially mothers, into paid work, which is why the macro return shows up in the fiscal accounts a decade out. <span class="bill">Comprehensive immigration reform</span> is a growth policy the CBO tradition scores as expanding GDP and shrinking deficits over time — legalizing several million long-settled workers raises wages, tax compliance, and productivity at once. The <span class="bill">PRO Act, now paired with sectoral bargaining</span>, rebalances power toward the two-thirds of Americans who work for wages — and opens bargaining beyond the single worksite to set standards industry-wide. <span class="bill">Antitrust reform</span> attacks concentration directly — the merger-review overhaul, the platform-conduct rules, and the near-total ban on non-competes are a bet that a more competitive economy is a more dynamic and lower-priced one, and it is the single provision here with real cross-ideological reach. And <span class="bill">housing supply</span> — LIHTC expansion and a $250B construction fund — no longer starts cold: the bipartisan ROAD to Housing Act — enacted in July 2026 without a presidential signature — already did the deregulatory, zoning-reform work with no money attached, so this bill lands as capital onto ground already cleared of friction, and supplies the HUD capacity ROAD was starved of. Two halves of a housing strategy, three years apart, compounding rather than duplicating. And the <span class="bill">Education &amp; Opportunity Act</span> finally funds the promises federal law has carried for fifty years — Title I doubled, the 1975 IDEA pledge honored, Pell raised — the longest-horizon supply-side investment of them all.</p>
+  <p>Read together, these are the difference between an economy that merely transfers more and one that <em>produces</em> more and shares it more widely. Prosperity, in this telling, is not the enemy of fairness but its result: more workers, more builders, more competitors, fewer rents extracted by whoever got there first.</p>
+
+  <h2><span class="num">V · Decarbonization</span><span class="ttl">The steel in the ground, and the check in the mail</span></h2>
+  <p>The climate bill is the one where the engineering and the politics finally point the same direction. The <span class="bill">80-percent-clean-electricity standard by 2035</span> sets the target, but the target was never the binding constraint — transmission was. The provisions that decide whether the standard becomes a trajectory or a lawsuit are the unglamorous ones: FERC backstop siting authority, interregional transfer minimums, cost-allocation reform, and interconnection-queue overhaul, the wires that carry clean power from where it's made to where it's used. Bolted to that engineering is an economy-wide <span class="bill">carbon fee returned as the Clean Energy Dividend</span> — a price signal across the whole economy, not just the grid, whose revenue goes back to households as a check most of them come out ahead on.</p>
+
+  <figure>
+    <div class="fig-h">Figure 5 · Illustrative — U.S. power-sector emissions</div>
+    <div class="fig-t">The wedge the standard opens</div>
+    <div class="fig-d">Directional trajectory of power-sector carbon emissions, indexed to 2025. The upper line is business-as-usual on existing momentum; the lower line is the clean-electricity standard plus carbon fee taking hold after 2029 enactment. The shaded area is the abatement the agenda buys over the decade.</div>
+    <div class="chart"><svg id="c5" role="img" aria-label="Emissions trajectory to 2035"></svg></div>
+    <figcaption>Illustrative of the direction and rough magnitude a serious 80×35 standard implies, not a modeled emissions forecast. Economy-wide emissions fall less steeply than the power sector but are pulled down by the carbon fee and by electrification of transport and buildings.</figcaption>
+  </figure>
+
+  <p>The dividend does something the emissions curve can't show: it changes what <em>kind</em> of law the climate policy is. A clean-electricity mandate has no constituency and can be quietly gutted by a future EPA; a dividend check has millions of names on it. Bolting the two together is the one move on the entire board that deliberately buys the climate bill its own durability — importing the policy-feedback stickiness of a cash transfer into the single policy that most needed protecting. It is, quietly, the most strategically sophisticated bill in the program.</p>
+
+  <h2><span class="num">VI · Justice, democracy &amp; safety</span><span class="ttl">Who gets to be counted, and kept whole</span></h2>
+  <p>The other half of the program treats the erosion of trust as its own emergency — and much of it is justice in the plainest sense. <span class="bill">Freedom to Vote and the John Lewis VRAA</span> restore the enforcement teeth the Court stripped and set a national floor for access; <span class="bill">D.C. statehood</span> ends the disenfranchisement of 700,000 Americans, most of them Black, who have paid federal taxes and fought federal wars without a vote in Congress — the most permanent act on the board, and among the most overdue. <span class="bill">Immigration reform</span> is justice measured in millions of lives moved out of legal limbo and into the open — and its DHS restructuring, replacing interior enforcement with a Humanitarian Processing Service, changes the machinery, not just the status. The <span class="bill">Reproductive Freedom Act</span> restores in statute what <cite>Dobbs</cite> erased — the agenda's answer to the most consequential rights reversal in fifty years — and the <span class="bill">Equality Act</span> finally writes LGBTQ+ Americans into the Civil Rights Act in full. The <span class="bill">Justice &amp; Public Safety Reform Act</span> begins unwinding mass incarceration where federal law controls it: cannabis legalized with records expunged, sentencing parity made retroactive, policing made accountable. <span class="bill">Puerto Rico</span> gets the binding self-determination vote it has never had. And the <span class="bill">anti-corruption cluster</span> — the congressional stock-trading ban, the Day-1 divestiture order made law, the FEC finally able to enforce, the binding Supreme Court ethics code — is an attempt to make the rule of law mean the same thing at the top of the system as it does at the bottom.</p>
+  <p>Safety runs through the same seam. <span class="bill">Universal background checks</span>, closing the private-sale and Charleston loopholes, is the most evidence-backed gun measure available and passes at essentially certainty here. But the deeper safety story is economic: the security of a childcare slot, a covered illness, a wage you can live on, and a check that arrives when it's supposed to. A country where those things are reliable is a safer country in every sense the word carries, and that is the connective tissue the whole agenda is reaching for.</p>
+
+  <h2><span class="num">VII · The reckoning</span><span class="ttl">Passage was never the constraint. Durability is.</span></h2>
+  <p>The filibuster killed to do all this is dead for the other side too. Everything passed by simple majority can be unpassed by simple majority, which means the question that decides whether this window was a turning point or an interlude was never passage — passage, as Figure 1 shows, is nearly a solved problem here. The question is durability, and durability sorts the agenda very differently than probability does.</p>
+
+  <figure>
+    <div class="fig-h">Figure 6 · The signature chart</div>
+    <div class="fig-t">What survives 2031</div>
+    <div class="fig-d">Every bill placed by how likely it is to pass (horizontal) against how likely it is to survive a hostile 2031 — repeal by a future majority, or reversal by the courts (vertical). The story lives on the right, where passage is easy: the split between what entrenches itself and what a single election or a single opinion can erase.</div>
+    <div class="chart"><svg id="c6" role="img" aria-label="Passage versus durability"></svg></div>
+    <div class="legend" id="leg6"></div>
+    <figcaption>Durability scores are analytic judgments, not model output — weighing policy-feedback constituencies, statutory versus regulatory form, and exposure to the current Court. The one axis the simulation cannot compute.</figcaption>
+  </figure>
+
+  <p>The programs that hand people a benefit they can feel — childcare, the Child Tax Credit, the public option, the minimum wage — build their own constituencies and become radioactive to repeal; policy feedback is a stronger lock than any parliamentary rule. Immigration legalization is nearly irreversible for the plainest reason: you do not un-legalize millions of people. Statehood is the most permanent act of all. These cluster upper-right: easy to pass, hard to undo. Against them, lower-right, sits the cluster that wins the vote and may lose the war — the billionaire tax, one <cite>Moore</cite>-flavored opinion from nonexistent; Supreme Court ethics, refereed by the very Court it binds. Watch where the clean-energy bill lands: the carbon dividend lifted it out of that fragile quadrant toward the constituency-protected middle, on purpose. And all of it sits under a 244-seat House that arrived on a wave and recedes the way waves do. Nineteen months is the window because month twenty is already about defense.</p>
+
+  <h2><span class="num">VIII · Beyond the board</span><span class="ttl">The program the model can't score</span></h2>
+  <p>This is a reading of a legislative board, and a board only holds what can be voted through it. The wider Ossoff–Moore agenda reaches past what any cloture count can measure, and the honest version of this essay has to say so. Some of the most consequential work moves by other means: a <span class="bill">Day-1 divestiture order</span> and an <span class="bill">FEC finally able to enforce</span>, executive acts that don't wait on sixty votes; a <span class="bill">Citizens United constitutional amendment</span>, which answers to two-thirds of Congress and thirty-eight states rather than to the Senate floor and is measured in years, not months; a <span class="bill">National AI Safety Framework</span> written through procurement and rulemaking. And the <span class="bill">foreign-policy reconstruction</span> beyond the War Powers Act — USAID rebuilt from the studs, alliances recommitted, managed competition with China — runs on appointments, budgets, and diplomacy rather than cloture votes. The model prices the legislative core because that is what a passage model can price. It should not be mistaken for the whole of what a government does.</p>
+
+  <p class="pull">A country where the childcare bill is halved, the wage floor is livable, the illness is covered, the check arrives, the polluter pays, the ballot is protected, and the powerful can no longer write their own rules — is a materially different country, and most of it can be built inside a single Congress.</p>
+
+  <p>That is the whole of it, and the honesty of the thing requires holding both halves at once. In the near term: the largest expansion of the American welfare state since the 1960s, a genuine run at the decarbonization the physics demands, a repaired franchise, a real strike at corruption, and a fight with every entrenched interest that profits from the status quo — all of it real, all of it felt, much of it good. In the long term: a bet that enough of it becomes load-bearing — enough checks in enough mailboxes, enough people made citizens, enough states admitted — before the pendulum swings back to a party armed with the same majoritarian tools and fewer scruples about using them.</p>
+
+  <p>The Double Unraveling always insisted the two crises were one crisis: that you cannot decarbonize a democracy you're letting rot, and you cannot hold a democracy that can't deliver. This agenda is the strongest form of the argument that the solution is also one solution — deliver and repair, materially and institutionally, in the same narrow window, and let the delivering and the repairing reinforce each other faster than the backlash can undo them. Whether nineteen months is enough time to prove it is the only question that matters, and it's the one the model can't answer. That part isn't arithmetic. That part is nerve.</p>
+
+</div>
+
+<script>
+(function(){
+  var COL={dem:'#3E6FB0',care:'#4E8A63',econ:'#C08A20',rev:'#7A5E97',safety:'#5E6B80',rights:'#A2543B'};
+  var CATLABEL={dem:'Democracy & good government',care:'Care, health & opportunity',econ:'Economy, labor & climate',rev:'Revenue',safety:'Safety & security',rights:'Rights & justice'};
+  var B=[
+    ['Freedom to Vote + John Lewis VRAA','dem',100,100,55],
+    ['Campaign Finance Transparency','dem',100,100,48],
+    ['Government Ethics & Anti-Corruption','dem',99,0,58],
+    ['Supreme Court Ethics','dem',93,0,38],
+    ['D.C. Statehood','dem',84,84,95],
+    ['Puerto Rico Status Act','dem',100,100,88],
+    ['Universal Pre-K & Child Care','care',96,96,80],
+    ['Permanent Child Tax Credit','care',94,94,72],
+    ['Public Option / Medicare at 55','care',97,0,78],
+    ['Paid Family & Medical Leave','care',100,0,78],
+    ['Social Security Expansion','care',99,0,92],
+    ['Education & Opportunity','care',100,0,65],
+    ['Clean Energy Standard + Carbon Dividend','econ',100,0,56],
+    ['PRO Act + Sectoral Bargaining','econ',100,0,47],
+    ['Housing Abundance & Supply Act','econ',100,0,55],
+    ['Comprehensive Immigration Reform','econ',88,0,82],
+    ['Living Wage & Small-Business Transition','econ',96,0,87],
+    ['Junk Fees & Consumer Protection','econ',100,0,62],
+    ['Antitrust Enforcement & Competition','econ',98,0,50],
+    ['Billionaire Minimum Income Tax','rev',94,94,25],
+    ['Corporate & High-Income Tax','rev',96,96,50],
+    ['Universal Background Checks','safety',100,0,60],
+    ['Reproductive Freedom Act','rights',100,0,38],
+    ['Equality Act','rights',100,0,65],
+    ['Justice & Public Safety Reform','rights',95,0,70],
+    ['Veterans Health & Capacity','safety',100,51,90],
+    ['War Powers & Iran Accountability','safety',100,0,45]
+  ].map(function(r){return {name:r[0],cat:r[1],full:r[2],carve:r[3],dur:r[4]};});
+
+  function el(t,a,x){var e=document.createElementNS('http://www.w3.org/2000/svg',t);for(var k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;return e;}
+  function legend(id,cats){var b=document.getElementById(id);cats.forEach(function(c){var s=document.createElement('span');s.innerHTML='<span class="sw" style="background:'+COL[c]+'"></span>'+CATLABEL[c];b.appendChild(s);});}
+  var MONO='ui-monospace,monospace';
+  var cats=['dem','care','econ','rev','safety','rights'];
+
+  /* FIG 1 — enactment by bill */
+  (function(){
+    var svg=document.getElementById('c1'),W=700,padL=250,padR=54,top=8,rowH=32;
+    var data=B.slice().sort(function(a,b){return b.full-a.full;});
+    var x0=padL,x1=W-padR,xw=x1-x0,X=function(v){return x0+xw*v/100;};
+    [0,25,50,75,100].forEach(function(g){
+      svg.appendChild(el('line',{x1:X(g),y1:top,x2:X(g),y2:top+data.length*rowH,stroke:'#CDBE9A','stroke-width':g===0?1:0.6,'stroke-dasharray':g===0?'':'2 4'}));
+      svg.appendChild(el('text',{x:X(g),y:top+data.length*rowH+16,'text-anchor':'middle','font-family':MONO,'font-size':10,fill:'#5C6373'},g+'%'));
+    });
+    svg.appendChild(el('line',{x1:X(90),y1:top-3,x2:X(90),y2:top+data.length*rowH,stroke:'#9C7A16','stroke-width':1,'stroke-dasharray':'4 3'}));
+    data.forEach(function(d,i){var y=top+i*rowH,cy=y+rowH/2;
+      svg.appendChild(el('text',{x:x0-12,y:cy+4,'text-anchor':'end','font-family':MONO,'font-size':11.5,fill:'#1B2432'},d.name));
+      svg.appendChild(el('rect',{x:x0,y:cy-7,width:Math.max(1,xw*d.full/100),height:14,rx:2,fill:COL[d.cat],opacity:0.9}));
+      svg.appendChild(el('text',{x:X(d.full)+7,y:cy+4,'font-family':MONO,'font-size':11,fill:'#1B2432','font-weight':'bold'},d.full+'%'));
+    });
+    svg.setAttribute('viewBox','0 0 700 '+(top+data.length*rowH+28));
+    legend('leg1',cats);
+  })();
+
+  /* FIG 2 — dumbbell */
+  (function(){
+    var svg=document.getElementById('c2'),W=700,padL=250,padR=60,top=30,rowH=25;
+    var prot=B.filter(function(d){return d.carve>0;}).sort(function(a,b){return b.full-a.full;});
+    var crat=B.filter(function(d){return d.carve===0;}).sort(function(a,b){return b.full-a.full;});
+    var data=prot.concat(crat),x0=padL,x1=W-padR,xw=x1-x0,X=function(v){return x0+xw*v/100;};
+    [0,50,100].forEach(function(g){
+      svg.appendChild(el('line',{x1:X(g),y1:top-6,x2:X(g),y2:top+data.length*rowH,stroke:'#CDBE9A','stroke-width':0.6,'stroke-dasharray':'2 4'}));
+      svg.appendChild(el('text',{x:X(g),y:top-12,'text-anchor':'middle','font-family':MONO,'font-size':10,fill:'#5C6373'},g+'%'));
+    });
+    var dy=top+prot.length*rowH;
+    svg.appendChild(el('line',{x1:8,y1:dy,x2:W,y2:dy,stroke:'#9C7A16','stroke-width':0.8,'stroke-dasharray':'3 3',opacity:0.7}));
+    svg.appendChild(el('text',{x:8,y:top-12,'font-family':MONO,'font-size':9.5,fill:'#9C7A16','letter-spacing':'0.1em'},'SURVIVES CARVE-OUT'));
+    svg.appendChild(el('text',{x:8,y:dy+15,'font-family':MONO,'font-size':9.5,fill:'#B0413E','letter-spacing':'0.1em'},'NEEDS FULL REFORM — CRATERS TO ZERO'));
+    data.forEach(function(d,i){var y=top+i*rowH+(i>=prot.length?14:0),cy=y+rowH/2;
+      svg.appendChild(el('text',{x:x0-12,y:cy+4,'text-anchor':'end','font-family':MONO,'font-size':10.5,fill:'#1B2432'},d.name));
+      svg.appendChild(el('line',{x1:X(d.carve),y1:cy,x2:X(d.full),y2:cy,stroke:d.carve===0?'#B0413E':'#CDBE9A','stroke-width':2,opacity:d.carve===0?0.55:0.9}));
+      svg.appendChild(el('circle',{cx:X(d.carve),cy:cy,r:4.5,fill:'#F4EFE4',stroke:'#5E6B80','stroke-width':1.6}));
+      svg.appendChild(el('circle',{cx:X(d.full),cy:cy,r:5,fill:COL[d.cat]}));
+    });
+    svg.setAttribute('viewBox','0 0 700 '+(top+data.length*rowH+22));
+    var box=document.getElementById('leg2');
+    box.innerHTML='<span><span class="sw" style="background:#F4EFE4;border:1.6px solid #5E6B80;border-radius:50%"></span>carve-out only</span>'
+      +'<span><span class="sw" style="background:#3E6FB0;border-radius:50%"></span>full reform</span>'
+      +'<span><span class="sw" style="background:#B0413E;height:3px;border-radius:2px"></span>reform-dependent (falls to 0%)</span>';
+  })();
+
+  /* FIG 3 — affordability before/after */
+  (function(){
+    var svg=document.getElementById('c3'),W=700,padL=155,padR=110,top=14,rowH=52;
+    var rows=[['Child care',12000,4200],['Health premiums & OOP',6000,3500],['Prescriptions',1200,420],
+      ['Junk & hidden fees',400,120],['Energy (net of dividend)',2400,2000]];
+    var max=12000,x0=padL,x1=W-padR,xw=x1-x0,X=function(v){return x0+xw*v/max;};
+    rows.forEach(function(r,i){
+      var y=top+i*rowH;
+      svg.appendChild(el('text',{x:x0-12,y:y+18,'text-anchor':'end','font-family':MONO,'font-size':11,fill:'#1B2432'},r[0]));
+      svg.appendChild(el('rect',{x:x0,y:y+4,width:Math.max(2,xw*r[1]/max),height:13,rx:2,fill:'#B7AE99'}));
+      svg.appendChild(el('text',{x:X(r[1])+6,y:y+14,'font-family':MONO,'font-size':10,fill:'#5C6373'},'$'+r[1].toLocaleString()));
+      svg.appendChild(el('rect',{x:x0,y:y+21,width:Math.max(2,xw*r[2]/max),height:13,rx:2,fill:'#4E8A63'}));
+      svg.appendChild(el('text',{x:X(r[2])+6,y:y+31,'font-family':MONO,'font-size':10,fill:'#1B2432','font-weight':'bold'},'$'+r[2].toLocaleString()));
+    });
+    var yb=top+rows.length*rowH;
+    svg.appendChild(el('line',{x1:x0,y1:yb+2,x2:x1,y2:yb+2,stroke:'#CDBE9A','stroke-width':1}));
+    svg.appendChild(el('text',{x:x0-12,y:yb+22,'text-anchor':'end','font-family':MONO,'font-size':11,fill:'#9C7A16','font-weight':'bold'},'TOTAL'));
+    svg.appendChild(el('text',{x:x0,y:yb+22,'font-family':MONO,'font-size':12,fill:'#5C6373'},'$22,000  →  $10,240 / yr'));
+    svg.appendChild(el('text',{x:x1,y:yb+22,'text-anchor':'end','font-family':MONO,'font-size':11,fill:'#4E8A63','font-weight':'bold'},'≈ $11,800 saved'));
+    svg.appendChild(el('text',{x:x0-12,y:yb+40,'text-anchor':'end','font-family':MONO,'font-size':10,fill:'#3E6FB0','font-weight':'bold'},'+ CTC'));
+    svg.appendChild(el('text',{x:x0,y:yb+40,'font-family':MONO,'font-size':10.5,fill:'#3E6FB0'},'≈ $6,600 / yr in new cash, on top'));
+    // mini legend for before/after
+    svg.appendChild(el('rect',{x:x1-108,y:top-2,width:10,height:10,rx:2,fill:'#B7AE99'}));
+    svg.appendChild(el('text',{x:x1-94,y:top+7,'font-family':MONO,'font-size':10,fill:'#5C6373'},'before'));
+    svg.appendChild(el('rect',{x:x1-48,y:top-2,width:10,height:10,rx:2,fill:'#4E8A63'}));
+    svg.appendChild(el('text',{x:x1-34,y:top+7,'font-family':MONO,'font-size':10,fill:'#5C6373'},'after'));
+    svg.setAttribute('viewBox','0 0 700 '+(yb+50));
+  })();
+
+  /* FIG 4 — distribution by income group */
+  (function(){
+    var svg=document.getElementById('c4'),W=700,H=340,m={t:24,r:20,b:46,l:56};
+    var pw=W-m.l-m.r,ph=H-m.t-m.b;
+    var groups=[['Bottom 20%',23,'#4E8A63'],['Second 20%',12,'#4E8A63'],['Middle 20%',6,'#4E8A63'],
+      ['Fourth 20%',2,'#4E8A63'],['Top 20%',-1.5,'#B0413E'],['Top 1%',-7,'#B0413E']];
+    var maxV=24,minV=-10,Y=function(v){return m.t+ph*(maxV-v)/(maxV-minV);},zero=Y(0);
+    var bw=pw/groups.length*0.56;
+    [20,10,0,-10].forEach(function(g){
+      svg.appendChild(el('line',{x1:m.l,y1:Y(g),x2:m.l+pw,y2:Y(g),stroke:'#CDBE9A','stroke-width':g===0?1:0.5,'stroke-dasharray':g===0?'':'2 4'}));
+      svg.appendChild(el('text',{x:m.l-8,y:Y(g)+3,'text-anchor':'end','font-family':MONO,'font-size':10,fill:'#5C6373'},(g>0?'+':'')+g+'%'));
+    });
+    groups.forEach(function(g,i){
+      var cx=m.l+pw*(i+0.5)/groups.length,v=g[1],y=Y(v);
+      svg.appendChild(el('rect',{x:cx-bw/2,y:Math.min(y,zero),width:bw,height:Math.max(2,Math.abs(y-zero)),rx:2,fill:g[2],opacity:0.9}));
+      svg.appendChild(el('text',{x:cx,y:(v>=0?y-6:y+14),'text-anchor':'middle','font-family':MONO,'font-size':11,fill:'#1B2432','font-weight':'bold'},(v>0?'+':'')+v+'%'));
+      svg.appendChild(el('text',{x:cx,y:m.t+ph+16,'text-anchor':'middle','font-family':MONO,'font-size':9.5,fill:'#5C6373'},g[0]));
+    });
+    svg.appendChild(el('text',{x:m.l,y:H-6,'font-family':MONO,'font-size':10,fill:'#5C6373'},'net benefit as share of after-tax income'));
+    svg.setAttribute('viewBox','0 0 '+W+' '+H);
+  })();
+
+  /* FIG 5 — emissions trajectory */
+  (function(){
+    var svg=document.getElementById('c5'),W=700,H=340,m={t:20,r:120,b:44,l:52};
+    var pw=W-m.l-m.r,ph=H-m.t-m.b;
+    var yrs=[2025,2027,2029,2031,2033,2035];
+    var bau=[100,96,92,88,84,80],agenda=[100,96,90,70,48,30];
+    var X=function(i){return m.l+pw*i/(yrs.length-1);},Y=function(v){return m.t+ph*(100-v)/100;};
+    [0,25,50,75,100].forEach(function(g){
+      svg.appendChild(el('line',{x1:m.l,y1:Y(g),x2:m.l+pw,y2:Y(g),stroke:'#CDBE9A','stroke-width':g===0?1:0.5,'stroke-dasharray':g===0?'':'2 4'}));
+      svg.appendChild(el('text',{x:m.l-8,y:Y(g)+3,'text-anchor':'end','font-family':MONO,'font-size':10,fill:'#5C6373'},g));
+    });
+    yrs.forEach(function(yr,i){svg.appendChild(el('text',{x:X(i),y:m.t+ph+16,'text-anchor':'middle','font-family':MONO,'font-size':10,fill:'#5C6373'},yr));});
+    var pts=[];
+    for(var i=0;i<yrs.length;i++) pts.push(X(i)+','+Y(bau[i]));
+    for(var j=yrs.length-1;j>=0;j--) pts.push(X(j)+','+Y(agenda[j]));
+    svg.appendChild(el('polygon',{points:pts.join(' '),fill:'#4E8A63',opacity:0.13}));
+    function line(arr,color,dash){
+      var d=arr.map(function(v,i){return (i?'L':'M')+X(i)+' '+Y(v);}).join(' ');
+      svg.appendChild(el('path',{d:d,fill:'none',stroke:color,'stroke-width':2.4,'stroke-dasharray':dash||''}));
+      arr.forEach(function(v,i){svg.appendChild(el('circle',{cx:X(i),cy:Y(v),r:3,fill:color}));});
+    }
+    line(bau,'#5E6B80','5 4'); line(agenda,'#4E8A63');
+    svg.appendChild(el('text',{x:X(5)+8,y:Y(bau[5])+4,'font-family':MONO,'font-size':10.5,fill:'#5E6B80'},'business as usual'));
+    svg.appendChild(el('text',{x:X(5)+8,y:Y(agenda[5])+4,'font-family':MONO,'font-size':10.5,fill:'#4E8A63','font-weight':'bold'},'with agenda'));
+    svg.appendChild(el('text',{x:m.l,y:H-6,'font-family':MONO,'font-size':10,fill:'#5C6373'},'power-sector CO\u2082, indexed to 2025 = 100'));
+    svg.setAttribute('viewBox','0 0 '+W+' '+H);
+  })();
+
+  /* FIG 6 — passage vs durability */
+  (function(){
+    var svg=document.getElementById('c6'),W=700,H=560,m={t:24,r:24,b:52,l:64};
+    var pw=W-m.l-m.r,ph=H-m.t-m.b;
+    var X=function(v){return m.l+pw*(v-70)/(101-70);},Y=function(v){return m.t+ph*(100-v)/100;};
+    var midY=Y(55);
+    svg.appendChild(el('rect',{x:X(88),y:m.t,width:m.l+pw-X(88),height:midY-m.t,fill:'#4E8A63',opacity:0.07}));
+    svg.appendChild(el('rect',{x:X(88),y:midY,width:m.l+pw-X(88),height:m.t+ph-midY,fill:'#B0413E',opacity:0.07}));
+    svg.appendChild(el('line',{x1:m.l,y1:m.t+ph,x2:m.l+pw,y2:m.t+ph,stroke:'#1B2432','stroke-width':1}));
+    svg.appendChild(el('line',{x1:m.l,y1:m.t,x2:m.l,y2:m.t+ph,stroke:'#1B2432','stroke-width':1}));
+    [0,25,50,75,100].forEach(function(g){
+      svg.appendChild(el('line',{x1:m.l,y1:Y(g),x2:m.l+pw,y2:Y(g),stroke:'#CDBE9A','stroke-width':0.5,'stroke-dasharray':'2 4'}));
+      svg.appendChild(el('text',{x:m.l-9,y:Y(g)+3,'text-anchor':'end','font-family':MONO,'font-size':10,fill:'#5C6373'},g));
+    });
+    [70,80,90,100].forEach(function(g){svg.appendChild(el('text',{x:X(g),y:m.t+ph+16,'text-anchor':'middle','font-family':MONO,'font-size':10,fill:'#5C6373'},g+'%'));});
+    svg.appendChild(el('text',{x:m.l+pw/2,y:H-8,'text-anchor':'middle','font-family':MONO,'font-size':11,fill:'#1B2432','letter-spacing':'0.08em'},'PROBABILITY OF PASSAGE \u2192'));
+    svg.appendChild(el('text',{x:16,y:m.t+ph/2,'text-anchor':'middle','font-family':MONO,'font-size':11,fill:'#1B2432','letter-spacing':'0.08em',transform:'rotate(-90 16 '+(m.t+ph/2)+')'},'SURVIVES 2031 \u2192'));
+    svg.appendChild(el('text',{x:m.l+pw-6,y:m.t+16,'text-anchor':'end','font-family':MONO,'font-size':11,fill:'#4E8A63','font-weight':'bold','letter-spacing':'0.06em'},'DURABLE WINS'));
+    svg.appendChild(el('text',{x:m.l+pw-6,y:m.t+ph-8,'text-anchor':'end','font-family':MONO,'font-size':11,fill:'#B0413E','font-weight':'bold','letter-spacing':'0.06em'},'WON THE VOTE, MAY LOSE THE WAR'));
+    B.forEach(function(d){svg.appendChild(el('circle',{cx:X(d.full),cy:Y(d.dur),r:5.5,fill:COL[d.cat],stroke:'#F4EFE4','stroke-width':1.2}));});
+    var ABBR={'Freedom to Vote + John Lewis VRAA':'Voting Rights','Campaign Finance Transparency':'Campaign Finance',
+      'Government Ethics & Anti-Corruption':'Gov. Ethics','Supreme Court Ethics':'SCOTUS Ethics','D.C. Statehood':'DC Statehood',
+      'Universal Pre-K & Child Care':'Childcare','Permanent Child Tax Credit':'Child Tax Credit','Public Option / Medicare at 55':'Public Option',
+      'Clean Energy Standard + Carbon Dividend':'Clean Energy','PRO Act + Sectoral Bargaining':'PRO + Sectoral','Housing Abundance & Supply Act':'Housing',
+      'Comprehensive Immigration Reform':'Immigration','Living Wage & Small-Business Transition':'Living Wage','Junk Fees & Consumer Protection':'Junk Fees',
+      'Antitrust Enforcement & Competition':'Antitrust','Billionaire Minimum Income Tax':'Billionaire Tax','Corporate & High-Income Tax':'Corp./Income Tax',
+      'Puerto Rico Status Act':'Puerto Rico','Paid Family & Medical Leave':'Paid Leave','Social Security Expansion':'Social Security',
+      'Education & Opportunity':'Education','Reproductive Freedom Act':'Repro Freedom','Equality Act':'Equality Act',
+      'Justice & Public Safety Reform':'Justice Reform','Veterans Health & Capacity':'Veterans','War Powers & Iran Accountability':'War Powers',
+      'Universal Background Checks':'Background Checks'};
+    var NUDGE={'Voting Rights':[8,-8,'start'],'Campaign Finance':[8,12,'start'],'Gov. Ethics':[-8,-8,'end'],
+      'SCOTUS Ethics':[8,4,'start'],'DC Statehood':[-8,4,'end'],'Childcare':[-8,-8,'end'],
+      'Child Tax Credit':[8,14,'start'],'Public Option':[8,-8,'start'],'Clean Energy':[-8,-9,'end'],
+      'PRO + Sectoral':[-8,13,'end'],'Housing':[8,8,'start'],'Immigration':[-8,-8,'end'],
+      'Min. Wage':[8,-8,'start'],'Junk Fees':[8,10,'start'],'Antitrust':[-8,10,'end'],
+      'Billionaire Tax':[8,4,'start'],'Corp./Income Tax':[-8,-8,'end'],'Background Checks':[-8,4,'end'],
+      'Puerto Rico':[8,-9,'start'],'Paid Leave':[8,12,'start'],'Social Security':[-8,-9,'end'],
+      'Education':[-8,12,'end'],'Repro Freedom':[-8,12,'end'],'Equality Act':[8,-10,'start'],
+      'Justice Reform':[-8,-8,'end'],'Veterans':[8,4,'start'],'War Powers':[8,13,'start']};
+    B.forEach(function(d){var lbl=ABBR[d.name]||d.name,n=NUDGE[lbl]||[8,-6,'start'];
+      svg.appendChild(el('text',{x:X(d.full)+n[0],y:Y(d.dur)+n[1],'text-anchor':n[2],'font-family':MONO,'font-size':10,fill:'#1B2432'},lbl));});
+    svg.setAttribute('viewBox','0 0 '+W+' '+H);
+    legend('leg6',cats);
+  })();
+})();
+</script>
+</body>
+</html>

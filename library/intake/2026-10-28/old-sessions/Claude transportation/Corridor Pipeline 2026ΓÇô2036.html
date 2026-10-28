@@ -1,0 +1,330 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Corridor Pipeline 2026–2036</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  :root{
+    --paper:#F6F4F0; --panel:#FFFFFF; --ink:#191B1E; --muted:#6C6F75; --rule:#DCD7CD; --hair:#EAE6DE;
+    --s1:#E0DBD1; --s2:#C3CCD4; --s3:#8FAAC0; --s4:#527D9C; --s5:#D9822B; --s6:#C0202E;
+    --s1t:#6C6F75; --s2t:#3B4A56; --s3t:#10222F; --s4t:#FFFFFF; --s6t:#FFFFFF;
+    --era1:#EFEAE0; --era2:#E6EDF2; --era3:#E3EDE4; --era4:#EDE6EF;
+    --shadow:0 1px 2px rgba(25,27,30,.06),0 8px 24px rgba(25,27,30,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#131519; --panel:#1A1E23; --ink:#EDEAE4; --muted:#9BA1A9; --rule:#2C3138; --hair:#24282E;
+      --s1:#343A42; --s2:#3E4C58; --s3:#4E7290; --s4:#79A6C6; --s5:#E39B4C; --s6:#F0574F;
+      --s1t:#A9AEB5; --s2t:#C6D2DC; --s3t:#EAF2F8; --s4t:#0E1B25; --s6t:#25090A;
+      --era1:#1D2026; --era2:#1A2530; --era3:#1A2520; --era4:#241C27;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#131519; --panel:#1A1E23; --ink:#EDEAE4; --muted:#9BA1A9; --rule:#2C3138; --hair:#24282E;
+    --s1:#343A42; --s2:#3E4C58; --s3:#4E7290; --s4:#79A6C6; --s5:#E39B4C; --s6:#F0574F;
+    --s1t:#A9AEB5; --s2t:#C6D2DC; --s3t:#EAF2F8; --s4t:#0E1B25; --s6t:#25090A;
+    --era1:#1D2026; --era2:#1A2530; --era3:#1A2520; --era4:#241C27;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;margin:0}
+  .wrap{max-width:1220px;margin:0 auto;padding-inline:20px;padding-block:32px 60px}
+  header{border-bottom:1px solid var(--rule);padding-bottom:20px;margin-bottom:22px}
+  .eyebrow{font-family:Archivo,system-ui,sans-serif;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h1{font-family:Archivo,system-ui,sans-serif;font-size:clamp(27px,4.6vw,40px);font-weight:700;letter-spacing:-.02em;line-height:1.06;margin:0 0 12px;text-wrap:balance}
+  .lede{font-size:17px;line-height:1.55;max-width:66ch;margin:0}
+  .lede strong{font-weight:600}
+  .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:20px 0 6px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-family:Archivo,system-ui,sans-serif;font-size:12.5px;font-weight:500;padding:6px 12px;border:1px solid var(--rule);background:var(--panel);color:var(--muted);border-radius:2px;cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .chip:focus-visible{outline:2px solid var(--s4);outline-offset:1px}
+  input[type=search]{font-family:Archivo,system-ui,sans-serif;font-size:13px;padding:7px 11px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:2px;min-width:200px;flex:1 1 200px;max-width:320px}
+  .legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:14px 0 18px;font-family:Archivo,system-ui,sans-serif;font-size:12px;color:var(--ink)}
+  .key{display:inline-flex;align-items:center;gap:7px}
+  .sw{width:15px;height:15px;border-radius:2px;flex:0 0 auto}
+  .swb{width:15px;height:15px;border-radius:2px;background:var(--s2);border-bottom:4px solid var(--s5);flex:0 0 auto}
+  .gridwrap{overflow-x:auto;border:1px solid var(--rule);border-radius:3px;background:var(--panel);box-shadow:var(--shadow)}
+  table{border-collapse:separate;border-spacing:0;width:100%;min-width:960px}
+  thead th{position:sticky;top:0;z-index:3;background:var(--panel);font-family:Archivo,system-ui,sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);text-align:center;padding:9px 4px;border-bottom:1px solid var(--rule);white-space:nowrap}
+  thead th.nm{text-align:left;padding-left:14px;z-index:4;left:0;min-width:270px}
+  thead th.era1{background:var(--era1)} thead th.era2{background:var(--era2)} thead th.era3{background:var(--era3)} thead th.era4{background:var(--era4)}
+  tbody td{border-bottom:1px solid var(--hair);padding:0}
+  td.nm{padding:7px 10px 7px 14px;font-size:14px;line-height:1.3;background:var(--panel);position:sticky;left:0;z-index:2;border-right:1px solid var(--hair);min-width:270px}
+  td.nm .sp{display:block;font-family:Archivo,system-ui,sans-serif;font-size:11px;color:var(--muted);margin-top:2px}
+  td.nm .sc{display:block;font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.35;max-width:38ch}
+  .xb{display:inline-block;font-family:Archivo,system-ui,sans-serif;font-size:9px;font-weight:700;letter-spacing:.06em;color:var(--s4);border:1px solid var(--s4);border-radius:2px;padding:0 4px;margin-left:6px;vertical-align:2px}
+  tr.gone td.nm{opacity:.62}
+  .gonepill{font-family:Archivo,system-ui,sans-serif;font-size:10.5px;font-weight:600;color:var(--muted);border:1px dashed var(--rule);border-radius:2px;padding:2px 8px}
+  td.cell{text-align:center;width:44px}
+  td.cell div{margin:3px 2px;height:22px;border-radius:2px;display:flex;align-items:center;justify-content:center;font-family:Archivo,system-ui,sans-serif;font-size:9.5px;font-weight:700;letter-spacing:.04em}
+  td.svc{text-align:right;padding-right:14px;font-family:Archivo,system-ui,sans-serif;font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+  tr.grp td{background:var(--paper);font-family:Archivo,system-ui,sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:10px 14px;border-bottom:1px solid var(--rule)}
+  tr.grp td.nm{position:sticky;left:0;background:var(--paper)}
+  tbody tr:hover td.nm{background:var(--hair)}
+  h2{font-family:Archivo,system-ui,sans-serif;font-size:13px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+  .counts{overflow-x:auto}
+  .counts table{min-width:760px}
+  .counts th,.counts td{padding:7px 8px;font-family:Archivo,system-ui,sans-serif;font-size:12.5px;text-align:center;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+  .counts th:first-child,.counts td:first-child{text-align:left;font-weight:600;min-width:200px}
+  .notes{font-size:15.5px;line-height:1.62;max-width:68ch}
+  .notes p{margin:0 0 14px}
+  .notes strong{font-weight:600}
+  footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);font-size:14px;line-height:1.6;color:var(--muted);max-width:70ch}
+  @media (max-width:520px){ .wrap{padding-block:22px 40px} td.nm,thead th.nm{min-width:210px} }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Corridor ID Program &middot; modeled FY2027&ndash;2046 &middot; v8, two authorizations</p>
+    <h1>Seventy-one corridors, twenty years</h1>
+    <p class="lede">Every corridor on the FRA's March 2026 obligation report, tracked year by year through four policy eras: the <strong>BUILD America 250-Plus</strong> cycle, a <strong>2029&ndash;30 climate and fair-economy reconciliation</strong> package, the <strong>ARCA</strong> authorization, and the <strong>FY2036 reauthorization</strong> that carries the work to 2046. Four corridors at the bottom are not in the FRA pipeline at all &mdash; they are the second generation, entering under the 2036 bill and opening in the 2050s. Each row carries FRA's own scope: route mileage, current and proposed frequencies, and target speed. Three tracks run at once and this grid separates them: the cell color is the Corridor ID planning stage, the amber bar underneath is capital in the ground, and the red edge is new or improved service actually running. <strong>They are not the same clock</strong> &mdash; three corridors are carrying new trains today while their planning sits at Step&nbsp;1.</p>
+  </header>
+
+  <div class="bar">
+    <div class="chips" id="cats" role="group" aria-label="Filter by category">
+      <button class="chip" type="button" data-c="*" aria-pressed="true">All 71</button>
+      <button class="chip" type="button" data-c="G" aria-pressed="false">Second generation</button>
+      <button class="chip" type="button" data-c="H" aria-pressed="false">New high-speed</button>
+      <button class="chip" type="button" data-c="N" aria-pressed="false">New conventional</button>
+      <button class="chip" type="button" data-c="E" aria-pressed="false">Existing + extension</button>
+      <button class="chip" type="button" data-c="X" aria-pressed="false">Existing route</button>
+      <button class="chip" type="button" data-c="D" aria-pressed="false">Dropped since FY2022</button>
+    </div>
+    <input type="search" id="q" placeholder="Filter by corridor or sponsor" aria-label="Filter by corridor or sponsor">
+  </div>
+
+  <div class="legend">
+    <span class="key"><span class="sw" style="background:var(--s1)"></span>Step 1 &middot; scope</span>
+    <span class="key"><span class="sw" style="background:var(--s2)"></span>Step 2 &middot; service development plan</span>
+    <span class="key"><span class="sw" style="background:var(--s3)"></span>Step 3 &middot; NEPA and preliminary engineering</span>
+    <span class="key"><span class="sw" style="background:var(--s4)"></span>Final design and procurement</span>
+    <span class="key"><span class="swb"></span>Capital under construction</span>
+    <span class="key"><span class="sw" style="background:var(--s2);border-left:4px solid var(--s6)"></span>New or improved service running</span>
+  </div>
+
+  <div class="gridwrap">
+    <table id="grid"><thead id="head"></thead><tbody id="body"></tbody></table>
+  </div>
+
+  <h2>Corridors at each stage, by year</h2>
+  <div class="counts"><table id="counts"></table></div>
+
+  <h2>What the model says</h2>
+  <div class="notes" id="notes"></div>
+
+  <footer>
+    Corridor names, sponsors and current stages are from FRA's Corridor ID Program obligation status report of March 31, 2026. Scope descriptions are from FRA's FY2022 selection summaries; route mileage, current and proposed frequencies and target speeds, where shown, are from FRA's <a href="https://storymaps.arcgis.com/stories/e1f1bd55cfad489a859cc8905d0dad16" style="color:inherit">Corridor ID StoryMap</a> of November 2025, which at the time of writing could be read only in part. Planning stages from FY2027 are modeled from each corridor's March 2026 position, its sponsor's institutional capacity, and the three political phases in the ARCA baseline. Construction years are modeled separately, from whether the corridor has a discrete funded project &mdash; a bridge, a siding, a grade separation, a station &mdash; that a partnership or CRISI grant can build without waiting on the corridor's own service development plan. The Service column is the first new or improved trains on the corridor; the Full scope column is the corridor as FRA's selection summary describes it. Near-term service dates are taken from sponsors' announced targets and discounted where funding is incomplete.
+  </footer>
+</div>
+
+<script>
+(function(){
+  // [name, sponsor, category, step1, step2, step3, finalDesign, constructionStart, service] — 0 = not reached
+  var D=[
+   ["Brightline West","Nevada DOT","H",2024,0,0,0,2024,2030,"Rancho Cucamonga–Las Vegas via Hesperia and Victorville, new 200 mph alignment",0,2030],
+   ["Cascadia High-Speed Rail","Washington State DOT","H",2024,2025,2029,2032,2033,2041,"Vancouver BC–Seattle–Portland on new alignment; at least one train an hour at up to 250 mph",1,2041],
+   ["Charlotte–Atlanta High-Speed","North Carolina DOT","H",2024,2030,2030,2031,2032,2040,"274 miles on new alignment via Greenville-Spartanburg to Hartsfield-Jackson; 8–11 daily round trips at up to 220 mph",0,2040],
+   ["Fort Worth–Houston High-Speed","North Central Texas COG","H",2024,2030,2030,2031,2032,2039,"240 miles of new alignment, Fort Worth–Arlington–Dallas–Brazos Valley–Houston",0,2039],
+   ["High Desert Intercity High-Speed","High Desert Corridor JPA","H",2024,2029,2030,2031,2031,2035,"Victor Valley–Palmdale, linking Brightline West to California High-Speed Rail across I-15",0,2035],
+
+   ["Asheville–Salisbury","North Carolina DOT","N",2024,2031,2033,2034,2034,2038,"Salisbury–Asheville, 140 miles; three daily round trips at 79 mph, timed to connect with the Piedmont and Carolinian",0,2038],
+   ["Atlanta–Savannah","Georgia DOT","N",0,2026,2030,2031,2032,2036,"368–409 miles of existing track plus some new; two to eight daily round trips at 79 mph",0,2037],
+   ["Atlanta–Chattanooga–Nashville–Memphis","City of Chattanooga","N",2024,2032,2035,0,0,0,"~350 miles of existing track hosting no passenger trains today; two daily round trips at 79 mph",0,0],
+   ["Baton Rouge–New Orleans","Louisiana DOTD","N",2024,2029,2031,2032,2028,2031,"80 miles downtown to downtown; one daily round trip at 79 mph, potentially rising to three",0,2031],
+   ["Boston–Albany","Massachusetts DOT","N",2024,2025,2029,2031,2029,2033,"200 miles; one daily round trip today, 8–10 proposed in phases, at 79–90 mph",0,2036],
+   ["Central Coast","California DOT","N",2024,2031,2033,2034,2034,2037,"San Jose–San Luis Obispo frequencies on the Coast Starlight route, plus Salinas and Santa Cruz phases",0,2040],
+   ["Charlotte–Kings Mountain","North Carolina DOT","N",2024,2029,2031,2032,2031,2034,"50 miles with one stop at Gastonia, extending the Piedmont (173 miles, five daily round trips)",0,2034],
+   ["Chicago–Quad Cities extension","Illinois DOT","N",2028,2031,0,0,2026,2028,"168 miles to Moline, 111 of which already host four Amtrak round trips; two round trips at 79 mph",0,2028],
+   ["Chicago–Fort Wayne–Columbus–Pittsburgh","City of Fort Wayne","N",2024,2032,2035,0,0,0,"Midwest Connect, ~500 miles Chicago–Pittsburgh; two to four round trips at 79 or 110 mph depending on upgrades",0,0],
+   ["Cleveland–Columbus–Dayton–Cincinnati","Ohio Rail Development Commission","N",2024,2031,2034,2035,2036,2040,"3C+D, ~267 miles of existing track; three daily round trips at 79 mph",0,2040],
+   ["Cleveland–Toledo–Detroit","Ohio Rail Development Commission","N",2024,2032,2035,0,0,0,"197 miles, 107 of them already served by long-distance trains; three round trips at 79 mph",0,0],
+   ["Coachella Valley","California DOT","N",2024,2031,2033,2034,2034,2037,"Los Angeles–Coachella on long-distance trackage; co-sponsored by the Riverside County Transportation Commission",0,2037],
+   ["Colorado Front Range","Front Range Passenger Rail District","N",0,2026,2030,2031,2030,2034,"Fort Collins–Pueblo via Boulder, Denver and Colorado Springs; already entering Step 2",0,2035],
+   ["Commonwealth Corridor","Virginia DRPT","N",2024,2029,2031,2032,2025,2027,"312 miles, Newport News–Christiansburg via Richmond, Charlottesville, Lynchburg and Roanoke; two round trips at 79 mph",0,2032],
+   ["Dallas–Fort Worth–Houston","Texas DOT","N",2024,2031,2034,2035,2036,2040,"Conventional service on the alignment Amtrak discontinued in 1995, via College Station",0,2040],
+   ["Diamond State Line","Delaware Transit Corporation","N",2024,2031,2033,2034,2034,2037,"Newark/Wilmington to Salisbury/Berlin, 97–119 miles depending on routing; no service since the 1950s, 79 mph",0,2037],
+   ["Eau Claire–Twin Cities","Eau Claire County","N",2024,2032,2035,0,0,0,"86 miles St. Paul–Eau Claire, co-sponsored with the St. Croix Rail Commission",0,0],
+   ["Fayetteville–Raleigh","North Carolina DOT","N",2024,2030,2032,2033,2034,2038,"62 miles, one daily round trip at 79 mph, timed to connect with the Piedmont or Carolinian",0,2038],
+   ["Gulf Coast Passenger Rail","Southern Rail Commission","N",2027,2028,2031,0,2023,2025,"144 miles New Orleans–Mobile, two round trips at 79 mph; capital work and stations already under way",0,2029],
+   ["Houston–San Antonio","Texas DOT","N",2024,2031,2034,2035,2036,2040,"210 miles downtown to downtown; multiple daily round trips at 79 mph",0,2040],
+   ["I-20 Corridor","Southern Rail Commission","N",2024,2031,2034,2035,2036,2040,"538 miles Fort Worth–Meridian, 181 overlapping the Texas Eagle; one round trip at 79 mph",0,2040],
+   ["Jacksonville–Orlando–Miami","Florida DOT","N",2024,2031,2034,2034,2028,2032,"Two to 16 daily round trips at 79–125 mph, depending on routing and track upgrades",0,2035],
+   ["Louisville–Indianapolis","Kentuckiana RPDA","N",2024,2031,2034,2034,2035,2039,"107 miles, multiple daily round trips at 79 mph, potentially extended to Chicago later",0,2039],
+   ["Miami–Orlando–Tampa","Florida DOT","N",2024,2031,2034,2034,2035,2039,"Two to 16 daily round trips at 79–125 mph, including a potential new Orlando airport–Tampa alignment",0,2039],
+   ["Milwaukee–Madison–Eau Claire–Twin Cities","Wisconsin DOT","N",2024,2031,2033,2034,2034,2038,"442 miles Milwaukee–St. Paul at 79 mph, frequencies undetermined, with a planned Minneapolis extension",0,2041],
+   ["North Coast Hiawatha","Big Sky Passenger Rail Authority","N",2024,2032,2035,2036,2036,2039,"2,300 miles of existing track restoring the Chicago–Seattle/Portland route dropped in 1979; unlocked by ARCA sec. 313 and the 2029 long-distance fleet appropriation",0,2039],
+   ["Northern Lights Express","Minnesota DOT","N",2024,2027,2028,2029,2029,2032,"152 miles Minneapolis–Duluth; four daily round trips at 90 mph",0,2032],
+   ["Peoria–Chicago","City of Peoria","N",2024,2032,2035,0,0,0,"161 miles; five daily round trips at 79 mph, requiring a mostly single-track line upgraded to class",0,0],
+   ["Phoenix–Tucson","Arizona DOT","N",2024,2031,2033,2034,2034,2038,"Restoring the 120-mile Phoenix–Tucson route via Maricopa; service discontinued in 1997",0,2038],
+   ["Reading–Philadelphia–New York","Schuylkill River Passenger Rail Authority","N",2024,2031,2034,2034,2035,2038,"141 miles, four daily round trips rising to eight, 79 mph; no Reading service since 1983",0,2040],
+   ["Scranton–New York Penn","Pennsylvania DOT","N",2024,2025,2029,2030,2029,2033,"136 miles including ~22 miles of new track on abandoned right-of-way; three daily round trips at 79 mph",0,2033],
+   ["TCMC expansion via La Crosse","Wisconsin DOT","N",2024,2029,0,0,2022,2024,"411 miles Chicago–St. Paul; the Borealis round trip began May 2024 and this funds planning for a second",0,2030],
+   ["Wilmington–Raleigh","North Carolina DOT","N",2024,2031,2033,2034,2034,2038,"134 miles, 33 of them new track on state-owned right of way; two to three round trips at 79 mph",0,2038],
+   ["Winston-Salem–Raleigh","North Carolina DOT","N",2024,2030,2032,2033,2034,2038,"110 miles, all but 27 shared with the Piedmont/Carolinian; two to three round trips at 79 mph",0,2038],
+
+   ["Amtrak to Long Island","Amtrak","E",2024,2025,2030,2031,2029,2033,"Three Northeast Regional round trips extended 50 miles to Ronkonkoma; ~70 mph on the extension",0,2033],
+   ["Capitol Corridor","California DOT","E",2024,2029,2031,2031,2027,2030,"San Jose–Auburn, with extensions to San Francisco, Salinas, Novato and Reno/Sparks",0,2034],
+   ["Downeaster","Northern New England Passenger Rail Authority","E",2024,2025,2030,2031,2029,2032,"143 miles plus a 56-mile extension to Rockland; five daily round trips today",0,2034],
+   ["Green Mountain","Vermont Agency of Transportation","E",2024,2031,2033,2034,2021,2022,"New York–Burlington, 310 miles; one daily round trip today, rerouted through southwestern Vermont",0,2034],
+   ["Hannibal extension of Chicago–Quincy","Missouri DOT","E",2024,2032,2034,0,0,0,"Extending the Illinois Zephyr/Carl Sandburg from Quincy to Hannibal",0,0],
+   ["Heartland Flyer extension","Kansas DOT","E",2024,2032,2034,2035,2036,2039,"Existing 206-mile Fort Worth–Oklahoma City round trip extended 160 miles north to Newton, Kansas",0,2039],
+   ["LOSSAN (Los Angeles–San Diego–San Luis Obispo)","California DOT","E",2024,2029,2031,2031,2026,2030,"Pacific Surfliner San Luis Obispo–San Diego extended to San Ysidro; run with the LOSSAN Joint Powers Authority",0,2035],
+   ["Milwaukee–Green Bay","Wisconsin DOT","E",2024,2031,2034,2034,2035,2038,"Extending the 86-mile Hiawatha north by 130 miles to Green Bay",0,2038],
+   ["Missouri River Runner to St. Joseph","Missouri DOT","E",2024,2031,2034,2034,2035,2038,"Extending the 283-mile Missouri River Runner 55 miles north from Kansas City; two round trips, possibly three",0,2038],
+   ["San Joaquin Valley","California DOT","E",2024,2029,2031,2031,2027,2030,"San Joaquins Sacramento/Oakland–Merced, extended north to Chico and Redding",0,2034],
+   ["Vermonter","Vermont Agency of Transportation","E",2024,2031,2033,2034,2029,2032,"DC–St. Albans, 605 miles, plus a 67-mile Montreal extension needing US preclearance",1,2035],
+   ["Washington DC–Bristol VA","Virginia DRPT","E",2024,2029,2031,2031,2025,2027,"Existing 214-mile Roanoke–DC service with two round trips, extended 150 miles southwest to Bristol",0,2033],
+   ["Wolverine","Michigan DOT","E",2024,2028,2031,2031,2027,2030,"304 miles Chicago–Pontiac, three-plus round trips, with one Chicago–Windsor round trip at up to 110 mph",1,2033],
+
+   ["Adirondack","New York State DOT","X",2024,2032,2034,2035,2033,2036,"New York–Montreal, 382 miles; a second daily round trip plus US preclearance at Montreal Central",1,2036],
+   ["Amtrak Cascades","Washington State DOT","X",2024,2029,2031,2032,2027,2030,"Vancouver BC–Eugene via Seattle and Portland; travel time, reliability and frequency",1,2034],
+   ["Anchorage North & South","Alaska Railroad Corporation","X",2024,2032,2034,2035,2036,2039,"Denali Star, Coastal Classic and Glacier Discovery; Anchorage to Fairbanks, Seward and Whittier",0,2039],
+   ["Charlotte–Washington DC","North Carolina DOT","X",2024,2029,2031,2031,2024,2031,"460 miles, eight daily round trips; 110 mph Raleigh–Petersburg on the rebuilt S-Line, 79 mph elsewhere",0,2034],
+   ["Chicago–Carbondale","Illinois DOT","X",2024,2029,2031,2032,2029,2032,"Two daily Illini/Saluki round trips plus the City of New Orleans; trip time and reliability",0,2033],
+   ["Chicago–Grand Rapids","Michigan DOT","X",2024,2031,2033,2034,2029,2032,"One daily Pere Marquette round trip; added frequency and reliability",0,2034],
+   ["Chicago–Port Huron","Michigan DOT","X",2024,2031,2034,2034,2031,2034,"One daily Blue Water round trip; added frequency and reliability",0,2035],
+   ["Chicago–St. Louis","Illinois DOT","X",2024,2028,0,0,2022,2027,"Four daily Lincoln Service round trips already at 110 mph, plus the Texas Eagle at up to 90 mph",0,2031],
+   ["Daily Cardinal Service","Amtrak","X",2024,2030,2032,2033,2031,2034,"1,147 miles in 27.5 hours; raising the Cardinal from three days a week to daily",0,2034],
+   ["Daily Sunset Limited Service","Amtrak","X",2024,2031,2033,2034,2032,2035,"1,995 miles over two nights; raising the Sunset Limited from thrice weekly to daily",0,2035],
+   ["Empire Corridor","New York State DOT","X",2024,2030,2032,2033,2028,2031,"New York–Niagara Falls, 464 miles; 110 mph Poughkeepsie–Schenectady, 79 mph elsewhere",0,2034],
+   ["Hartford Line","Connecticut DOT","X",2024,2029,2031,2032,2027,2030,"New Haven–Springfield, 63 miles at 90 mph; 18 weekday round trips today",0,2033],
+   ["Indianapolis–Chicago","Indiana DOT","X",2024,2032,2035,2036,2036,2038,"Cardinal frequencies between Indianapolis and Chicago, following the daily Cardinal project it depends on",0,2038],
+   ["Keystone Corridor: Pittsburgh–Philadelphia","Pennsylvania DOT","X",2024,2030,2032,2033,2027,2031,"Philadelphia–Pittsburgh, 353 miles; 110 mph to Harrisburg, 79 mph west of it",0,2034],
+   ["Milwaukee–Chicago Hiawatha expansion","Wisconsin DOT","X",2024,2027,2029,2029,2028,2030,"Six daily Hiawatha round trips over 86 miles today; added frequencies",0,2031],
+["Chicago–Milwaukee–Twin Cities, 186 mph","Midwest Interstate Rail Compact (sec. 1003)","G",2032,2034,2037,2039,2041,2051,"411 miles on new alignment; ARCA funded the 79 mph frequency play, this is the spine. Tiers off the section 906 national review",0,2051],
+   ["Texas Triangle closure","Texas DOT","G",2032,2034,2037,2039,2040,2049,"420 miles Houston–San Antonio–Austin–Dallas, closing the gap ARCA left dotted and turning three Texas corridors into a network",0,2049],
+   ["NEC new segments, New Haven–Providence","Amtrak and the NEC Commission","G",2031,2033,2036,2038,2040,2048,"200+ route-miles of additional track under the 2017 Record of Decision, including whatever the capacity planning study selects; the only second-generation corridor that is also a resilience project",0,2050],
+   ["Atlanta–Nashville–Louisville–Indianapolis–Chicago","Midwest-Southeast compact (sec. 1003)","G",2033,2035,2038,2040,2042,2053,"~700 miles knitting the Midwest to the Southeast; five states and no compact until section 1003 grants advance consent",0,2053]
+  ];
+
+  // FY2022 selections absent from the March 2026 status report
+  var GONE=[
+   ["Amtrak Texas High-Speed Rail Corridor","Amtrak","Dallas–Houston on a new dedicated, grade-separated alignment via Brazos Valley","Left the program"],
+   ["California High-Speed Rail Phase 1","California High-Speed Rail Authority","San Francisco–Los Angeles/Anaheim on a blend of new and existing alignments; full Phase 1 environmental clearance achieved 2024, and AB 1207/SB 840 dedicated $1B a year of cap-and-invest revenue to the program through 2045","Left the program, building anyway"]
+  ];
+
+  var Y0=2026,Y1=2046,YEARS=[];for(var y=Y0;y<=Y1;y++)YEARS.push(y);
+  var GRP={G:"Second generation, entering under the FY2036 bill",H:"New high-speed rail",N:"New conventional rail",E:"Existing route with extension",X:"Existing route"};
+  var ABBR={1:"S1",2:"S2",3:"S3",4:"FD",6:"SVC"};
+  var TONE={1:["var(--s1)","var(--s1t)"],2:["var(--s2)","var(--s2t)"],3:["var(--s3)","var(--s3t)"],
+            4:["var(--s4)","var(--s4t)"],6:["var(--s6)","var(--s6t)"]};
+  var STAGE={1:"Step 1, scope",2:"Step 2, service development plan",3:"Step 3, NEPA and preliminary engineering",
+             4:"Final design and procurement",6:"Service operating"};
+
+  function planAt(r,y){
+    for(var k=4;k>=1;k--){ var v=r[2+k]; if(v&&y>=v) return k; }
+    return 0;
+  }
+  function building(r,y){ return !!(r[7]&&y>=r[7]&&(!r[11]||y<r[11])); }
+  function operating(r,y){ return !!(r[8]&&y>=r[8]); }
+
+  function head(){
+    var h='<tr><th class="nm">Corridor</th>';
+    YEARS.forEach(function(y){ h+='<th class="'+(y<=2028?"era1":y<=2030?"era3":y<=2035?"era2":"era4")+'">'+String(y).slice(2)+'</th>'; });
+    h+='<th style="text-align:right">Service</th><th style="text-align:right;padding-right:14px">Full scope</th></tr>';
+    h+='<tr><th class="nm" style="font-weight:400;text-transform:none;letter-spacing:0;font-size:11px">Sponsor</th>'+
+       '<th class="era1" colspan="3" style="letter-spacing:.09em">BUILD America 250-Plus</th>'+
+       '<th class="era3" colspan="2" style="letter-spacing:.09em">Reconciliation</th>'+
+       '<th class="era2" colspan="5" style="letter-spacing:.09em">ARCA</th>'+
+       '<th class="era4" colspan="11" style="letter-spacing:.09em">FY2036 reauthorization</th><th colspan="2"></th></tr>';
+    document.getElementById("head").innerHTML=h;
+  }
+
+  function draw(){
+    var cat=document.querySelector('#cats .chip[aria-pressed="true"]').dataset.c;
+    var q=document.getElementById("q").value.trim().toLowerCase();
+    var html="",lastG=null;
+    D.forEach(function(r){
+      if(cat!=="*"&&r[2]!==cat) return;
+      if(q&&(r[0]+" "+r[1]).toLowerCase().indexOf(q)<0) return;
+      if(r[2]!==lastG){ lastG=r[2];
+        html+='<tr class="grp"><td class="nm">'+GRP[r[2]]+'</td><td colspan="'+(YEARS.length+2)+'"></td></tr>'; }
+      html+='<tr><td class="nm">'+r[0]+(r[10]?'<span class="xb" title="Requires cross-border coordination">CROSS-BORDER</span>':'')+
+        '<span class="sp">'+r[1]+'</span><span class="sc">'+r[9]+'</span></td>';
+      YEARS.forEach(function(y){
+        var s=planAt(r,y), b=building(r,y), o=operating(r,y);
+        if(!s&&!b&&!o){ html+='<td class="cell"><div style="background:transparent"></div></td>'; return; }
+        var bg=s?TONE[s][0]:"transparent", fg=s?TONE[s][1]:"var(--muted)";
+        var edge=(b?";border-bottom:4px solid var(--s5)":"")+(o?";border-left:4px solid var(--s6)":"");
+        var tip=y+" — "+(s?STAGE[s]:"planning complete")+(b?"; capital under construction":"")+(o?"; new or improved service running":"");
+        html+='<td class="cell"><div style="background:'+bg+';color:'+fg+edge+'" title="'+tip+'">'+(s?ABBR[s]:"")+'</div></td>';
+      });
+      var sv=r[8], fu=r[11];
+      html+='<td class="svc" style="color:'+(sv?(sv<=2031?"var(--s6)":"var(--ink)"):"var(--muted)")+'">'+(sv?sv:"—")+'</td>'+
+            '<td class="svc" style="color:var(--muted);font-weight:500">'+(fu?fu:"—")+'</td></tr>';
+    });
+    if(cat==="*"||cat==="D"){
+      var any=GONE.filter(function(g){return !q||(g[0]+" "+g[1]).toLowerCase().indexOf(q)>=0;});
+      if(any.length){
+        html+='<tr class="grp"><td class="nm">Selected in FY2022, gone by FY2026</td><td colspan="'+(YEARS.length+2)+'"></td></tr>';
+        any.forEach(function(g){
+          html+='<tr class="gone"><td class="nm">'+g[0]+'<span class="sp">'+g[1]+'</span><span class="sc">'+g[2]+'</span></td>'+
+                '<td colspan="'+YEARS.length+'" style="padding-left:14px"><span class="gonepill">'+g[3]+'</span></td>'+
+                '<td class="svc" style="color:var(--muted)">—</td></tr>';
+        });
+      }
+    }
+    document.getElementById("body").innerHTML=html;
+  }
+
+  function counts(){
+    var keys=[1,2,3,4], rows={}, bld=[], op=[];
+    keys.forEach(function(k){rows[k]=[];});
+    YEARS.forEach(function(y){
+      var c={1:0,2:0,3:0,4:0}, nb=0, no=0;
+      D.forEach(function(r){ var s=planAt(r,y); if(s)c[s]++; if(building(r,y))nb++; if(operating(r,y))no++; });
+      keys.forEach(function(k){rows[k].push(c[k]);}); bld.push(nb); op.push(no);
+    });
+    var h='<thead><tr><th>Stage</th>'+YEARS.map(function(y){return '<th>'+String(y).slice(2)+'</th>';}).join("")+'</tr></thead><tbody>';
+    keys.forEach(function(k){
+      h+='<tr><td><span style="display:inline-block;width:11px;height:11px;border-radius:2px;background:'+TONE[k][0]+';margin-right:7px;vertical-align:-1px"></span>'+
+         ABBR[k]+'</td>'+
+         rows[k].map(function(v){return '<td style="color:'+(v?"var(--ink)":"var(--muted)")+'">'+(v||"·")+'</td>';}).join("")+'</tr>';
+    });
+    h+='<tr><td><span style="display:inline-block;width:11px;height:11px;border-radius:2px;background:var(--s5);margin-right:7px;vertical-align:-1px"></span>Capital in the ground</td>'+
+       bld.map(function(v){return '<td style="color:'+(v?"var(--ink)":"var(--muted)")+';font-weight:600">'+(v||"·")+'</td>';}).join("")+'</tr></tbody>';
+    document.getElementById("counts").innerHTML=h;
+  }
+
+  function notes(){
+    var svc31=D.filter(function(r){return r[8]&&r[8]<=2031;});
+    var svc36=D.filter(function(r){return r[8]&&r[8]<=2036;});
+    var already=D.filter(function(r){return r[8]&&r[8]<=2026;});
+    var bldWin=D.filter(function(r){return r[7]&&r[7]<=2031&&(!r[11]||r[11]>2027);});
+    var never=D.filter(function(r){return !r[8];});
+    var s2by31=D.filter(function(r){return r[4]&&r[4]<=2031;}).length;
+    var xb=D.filter(function(r){return r[10];});
+    var s3by31=D.filter(function(r){return r[5]&&r[5]<=2031;}).length;
+    var fullby36=D.filter(function(r){return r[11]&&r[11]<=2036;}).length;
+    var svc41=D.filter(function(r){return r[8]&&r[8]<=2041;}).length;
+    var fullby46=D.filter(function(r){return r[11]&&r[11]<=2046;}).length;
+    var g2=D.filter(function(r){return r[2]==="G";});
+    document.getElementById("notes").innerHTML=
+      '<p><strong>Twenty years in one grid, and the second decade has a different shape from the first.</strong> ' + svc31.length + ' corridors carry service by FY2031, ' + svc36.length + ' by FY2036, and <strong>' + svc41 + ' by FY2041</strong> — which is everything in the FY2022 pipeline that ever gets built. The remaining ' + never.length + ' never clear a non-federal operating commitment, and no amount of capital fixes that. So the first decade is where the pipeline converts and the second is where it finishes: corridors at full scope rise from ' + fullby36 + ' in FY2036 to <strong>' + fullby46 + ' in FY2046</strong>. The ' + g2.length + ' second-generation corridors at the bottom are what the FY2036 bill starts and the 2050s inherit — Chicago–Twin Cities at 186 mph, the Texas Triangle closure, the Northeast Corridor’s new segments, and a Midwest-to-Southeast trunk. <strong>None of them opens inside this window</strong>, which is the honest picture of what twenty years buys: the first generation running, and the second one still in the ground.</p>'+
+      '<p><strong>The most useful result of the accelerated case is the number that does not move.</strong> Corridors carrying new or improved service by FY2031 is <strong>' + svc31.length + '</strong> — identical to the unaccelerated run. Nothing in a 2026 permitting law or a 2029 reconciliation bill can speed up trains already funded and under construction, and the FY2027–31 service additions were locked in before either existed. The compression shows up entirely downstream: service by FY2036 rises from 32 to <strong>' + svc36.length + '</strong>, corridors at full scope by FY2036 from 24 to <strong>' + fullby36 + '</strong>, corridors reaching Step 2 by FY2031 from 32 to <strong>' + s2by31 + '</strong>, and Step 3 from 12 to <strong>' + s3by31 + '</strong>. Permitting reform and early money buy a deeper pipeline and a more complete build-out, not faster ribbon-cuttings in the first five years.</p>'+
+      '<p><strong>How the compression is modeled.</strong> Two policy changes move dates here: the 2026 permitting law (a two-year EIS clock, a 150-day limitations period, remand rather than vacatur, ten-year programmatic documents) and a 2029–30 reconciliation package that appropriates mandatory planning and capital money before ARCA. Milestones shift by one year in FY2030–32, two in FY2033–36 and three from FY2037, because compression accumulates along a chain of dependent steps. <strong>Construction duration is not compressed at all.</strong> Only the wait to break ground moves, so an opening date shifts by exactly as much as its groundbreaking and no more — Charlotte–Atlanta still takes eight years to build, it just starts in 2032 instead of 2034. Brightline West does not move at all, because it is already building.</p>'+
+      '<p><strong>Reconciliation’s real target is the planning bottleneck, not the capital program.</strong> Corridor ID has had roughly $1.8B available — a five percent set-aside of the $36B partnership appropriation — and had obligated about $29M of it in Step 1 grants after 27 months — roughly sixty corridors at $500,000 each — with no Step 3 obligations anywhere. That envelope, not NEPA, is why Step 2 and Step 3 bunch in the mid-2030s in the base case. A mandatory appropriation available until expended removes it, which is why Step 2 completions by FY2031 nearly double here. Match relief for sponsors below a state DOT advances the planning of all eight stalled corridors, but only two clear the harder hurdle of a non-federal operating commitment: the North Coast Hiawatha and Indianapolis–Chicago, both unlocked by the 2029 long-distance fleet appropriation and ARCA’s section 313 repeal of the 750-mile ceiling. Six corridors still never reach construction.</p>'+
+      '<p><strong>Service does not wait for the planning pipeline, and three corridors are already running new trains.</strong> The Borealis began Chicago\u2013St. Paul service in May 2024, the Mardi Gras Service opened New Orleans\u2013Mobile in August 2025, and the Ethan Allen Express reached Burlington in 2022. All three sit on corridors whose Corridor ID planning is still at Step 1 or Step 2. An earlier version of this grid scored those corridors as delivering nothing until the 2030s, which was simply wrong: it read \u201cservice\u201d as the corridor\u2019s complete build-out rather than the first new or improved trains.</p>'+
+      '<p><strong>The near-term additions are concrete and mostly funded</strong>, which is exactly why they do not move: Chicago\u2013Quad Cities (Illinois closed the funding gap in late 2025, target 2027, gated on an Iowa Interstate PTC agreement and the Wyanet connection), Virginia\u2019s New River Valley extension (under construction, 2027), added Lincoln Service, Hiawatha, Wolverine and Cascades frequencies, and the California joint powers corridors. Baton Rouge\u2013New Orleans is the cautionary one — a 2027 target, roughly $81M of a $260M cost committed, and a $200M federal request denied in 2023.</p>'+
+      '<p><strong>' + bldWin.length + ' corridors have capital in the ground during FY2027\u201331</strong> while their Corridor ID stage is still Step 1 or Step 2. A partnership or CRISI grant needs one discrete project with its own environmental clearance, not a finished service development plan. Corridor ID is the intended priority pathway into Federal-State Partnership money, not a legal precondition for it, which is why the two tracks in this grid diverge as widely as they do.</p>'+
+      '<p><strong>The distinction that matters is increment versus build-out.</strong> The Service column is the first new or improved trains; the Full scope column is the corridor as FRA\u2019s selection summary describes it. For the Gulf Coast those are 2025 and 2030; for Boston\u2013Albany, one added round trip in 2034 and the full eight to ten in 2039; for Cascadia they are the same year, because a greenfield high-speed line has no increment to deliver. That is the real argument for ARCA\u2019s split between a formula Tier 3 program that buys increments continuously and a gated Tier 1 program that buys one thing once.</p>'+
+      '<p>By FY2031, ' + s2by31 + ' of 67 corridors have reached Step 2 and ' + s3by31 + ' have cleared Step 3. In the base case the pipeline crested in FY2032\u201334, pushed there by section 301\u2019s deadline forcing FRA to fund Step 2 within 18 months of a sponsor finishing Step 1; with reconciliation money arriving in FY2030 the crest moves inside the BUILD America 250-Plus years, so ARCA opens in FY2031 against a pipeline of cleared projects rather than a queue of unfunded plans. <strong>That is the single most valuable thing reconciliation does for the 2031 bill</strong> — more valuable than the dollars, because a reauthorization that can obligate on day one is a different instrument from one that spends its first two years paying for paperwork.</p>'+
+      '<p><strong>The program has lost its two largest high-speed corridors — but losing Corridor ID is not the same as losing the project.</strong> FRA selected 69 corridors in FY2022, including Amtrak\u2019s Dallas\u2013Houston corridor and California High-Speed Rail Phase 1; neither appears on the March 2026 report. Of the five survivors, three still hold only a $500,000 Step 1 obligation, one is privately financed, and the fifth — Cascadia — is well into Step 2: WSDOT reports a $49.7M federal Step 2 award, obligated in November 2024, against a $5.5M state match, which makes it the best-funded corridor in the program and the counterexample to the obligation-pace story below. <strong>Read the California case carefully, because it is easy to read backwards.</strong> Corridor ID is a planning program whose entry prize is $500,000, and California does not need it: Phase 1 won full environmental clearance San Francisco to Los Angeles in 2024, and AB 1207 and SB 840 extended cap-and-invest to 2045 with $1 billion a year dedicated to high-speed rail — roughly $20 billion of state revenue that no federal administration can rescind. Leaving the federal planning pipeline cost California a rounding error and a signal; it did not stop the railroad. This grid therefore tracks Merced\u2013San Jose\u2013San Francisco and Bakersfield\u2013Palmdale as live construction in the 2030s, not as abandoned segments.</p>'+
+      '<p><strong>This is a 79 mph program with two moonshots in it.</strong> Roughly 25 corridors top out at 79 mph and a few reach 90; 110 mph appears only on discrete segments. Then Charlotte\u2013Atlanta targets <strong>220 mph</strong> over 274 miles and Cascadia <strong>250 mph</strong> at least hourly. In the accelerated case the four surviving public high-speed corridors break ground in FY2031\u201333 and open between 2035 and 2041: High Desert 2035, Fort Worth\u2013Houston 2039, Charlotte\u2013Atlanta 2040, Cascadia 2041. Brightline West still opens first, in 2030, on private financing and a federal loan.</p>'+
+      '<p><strong>' + xb.length + ' corridors depend on a foreign government</strong> — Vancouver for Cascadia and the Cascades, a US preclearance facility at Montreal for the Adirondack and the Vermonter extension, Windsor for the Wolverine.</p>'+
+      '<p><strong>' + never.length + ' corridors never reach construction</strong> in this model: ' + never.map(function(r){return r[0];}).join(", ") + '. Each has a sponsor without a state DOT behind it, a multi-state route with no compact, or both. Reconciliation match relief gets them through planning — the escalating match (none at Step 1, 10 percent at Step 2, 20 percent at Step 3) stops being the binding constraint. What still stops them is the non-federal operating commitment that 49 U.S.C. 24911 requires, which no amount of federal capital can supply. <strong>Money is not the last mile here; a state willing to sign an operating agreement is.</strong></p>';
+  }
+
+  document.getElementById("cats").addEventListener("click",function(e){
+    var b=e.target.closest(".chip"); if(!b) return;
+    this.querySelectorAll(".chip").forEach(function(c){c.setAttribute("aria-pressed",c===b?"true":"false");});
+    draw();
+  });
+  document.getElementById("q").addEventListener("input",draw);
+  head(); draw(); counts(); notes();
+})();
+</script>
+
+</body></html>
