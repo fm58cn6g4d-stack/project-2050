@@ -14,8 +14,13 @@ The fix is structural. Research should be stored so it can be called up. Policy 
 | --- | --- | --- |
 | **1. Research** | Original sources and data; research notes and analysis; evidence registers of the claims the project relies on | Carry provenance (author, date, URL or original file, checksum, version, access rights). Each claim has an ID, an exact quoted passage, an evidence grade and a check date |
 | **2. Proposals** | Per policy area: a decision record (problem, options weighed, choice and reasons) and the provisions that implement it. Legislative vehicles and executive actions assemble provisions across areas | Rest on evidence IDs for their reasons. State status: selected, alternative or historical. State what would change the decision |
-| **3. Models** | Fiscal, distributional, poverty, carbon, transportation and calendar models; their inputs and recorded runs | Be expressions of the evidence: every input and key mechanism traces to evidence IDs, or is labeled as an assumption with a tested range. Record which provision versions each run tested, and list what the model leaves out |
-| **4. Public content** | Research briefs and essays, the illustrated vision and the analysis companion | Cite only evidence IDs, proposals and model runs. The story-page claim register already works this way |
+| **3. Models and analytical toolkit** | Fiscal, distributional, poverty, carbon, transportation, calendar and vote models; their inputs and recorded runs; documentation that lets professionals outside the project run, inspect and adapt them | Be expressions of the evidence: every input and key mechanism traces to evidence IDs, or is labeled as an assumption with a tested range. Record which provision versions each run tested, and list what the model leaves out. Meet the toolkit standard below |
+| **4. Public and organizing content** | Research briefs and essays, the illustrated vision, the analysis companion, and material for organizing and accountability | Cite only evidence IDs, proposals and model runs. The story-page claim register already works this way |
+
+The layers serve the charter's products:
+- **Public vision and organizing:** layer 4, resting on the rest.
+- **Governing blueprint and professional resources:** the evidence registers (layer 1), the decision records, legislative specifications and executive actions (layer 2), and the analytical toolkit (layer 3).
+- **Focused policy contributions:** drawn from all three as they mature.
 
 The order of the table reflects the order of reasoning. Decisions rest on evidence. Models are one way of reasoning from that evidence: to compare options, size them and test them. `governing/` stays above all four: goals, adopted decisions and working rules.
 
@@ -28,7 +33,8 @@ The order of the table reflects the order of reasoning. Decisions rest on eviden
 5. **Models express the evidence, and inform decisions only as far as they do.** Models will often be part of the reasoning for a choice: comparing options, sizing a program, finding where a design fails. That is legitimate when the model is an expression of the evidence. Its inputs cite evidence IDs; its mechanisms rest on documented research; where evidence is thin it uses labeled assumptions with ranges rather than single numbers; and it states plainly what it leaves out. A model result carries the weight of the evidence beneath it, no more. Every decision record therefore names the evidence a model result rests on, and weighs what the model misses alongside what it shows. A result that depends on untraced assumptions, or that conflicts with stronger direct evidence, is a reason to look harder, not a basis for a decision. Models are not a source of facts about the world.
 6. **Public language presents models as analysis of evidence.** Public content argues from the evidence and the project's values. It uses model results as part of that argument and to illustrate what a policy would do. "Our analysis is that…" and "our research shows…" are the right register. Avoid wording that presents a model as an independent authority ("the model chose…", "optimized by our model…"). Model figures always appear with their conditions and limits.
 7. **Register what carries weight, not everything.** Evidence registers cover the claims that decisions, provisions and public content actually rely on, and they grow as work needs them. An exhaustive catalogue of every fact would never finish.
-8. **Move as little as possible.** New layers get new folders. Existing paths that tools and checks depend on, chiefly `index/`, stay where they are. A file moves only when its new home is clearly better, with links updated by script and checks kept green.
+8. **The toolkit is a product, not just internal plumbing.** Project 2050's models should become analytical and policymaking code that professionals can use. That includes legislative and committee staff, budget and policy analysts, researchers and advocates. They should be able to run a model, see exactly what evidence and assumptions it rests on, test their own variations, and reproduce the project's results from public data. The models still serve the public layer, but they are built to a standard others can rely on.
+9. **Move as little as possible.** New layers get new folders. Existing paths that tools and checks depend on, chiefly `index/`, stay where they are. A file moves only when its new home is clearly better, with links updated by script and checks kept green.
 
 ## Structure
 
@@ -49,6 +55,15 @@ index/                     unchanged: model tools, inputs, outputs and the publi
 domains/                   kept until an area's pass is done; then becomes a short pointer to proposals/<area>/
 governing/                 unchanged
 ```
+
+**The toolkit standard.** Each model that the project relies on or offers professionals carries:
+- a **model card**: what question it answers and what it cannot answer, its evidence map (each input to an evidence ID or labeled assumption with a range), key mechanisms and their sources, known limits, and status (exploratory, working or released);
+- **benchmarks**: comparison with official or independent estimates where they exist (CBO, JCT, SSA actuaries, Treasury, TPC, EIA and similar), with differences explained;
+- a **stable interface**: documented inputs, outputs and scenario definitions, runnable from one command, with no hidden manual steps;
+- **tests** covering accounting identities, boundary cases and reproduction of published project results;
+- a **run log** linking each published result to the model version, inputs and provision versions it used.
+
+Models stay where they are in `index/tools/`. Some current tools are one-off report generators; the catalog sorts which are toolkit models and which are not. A later release step can package the toolkit for outside use without moving it.
 
 **Evidence register entries** use one schema: id, statement, figures, source (catalog id plus exact anchor passage), evidence grade, date of the fact, date checked, re-check due date, and the provision IDs it supports. The re-check date is needed because facts like program counts or budget levels go stale.
 
@@ -84,7 +99,7 @@ governing/                 unchanged
 2. Write the decision record: the problem, options weighed (the million awards, the guarantee, a cash alternative), the choice and reasons, and what would change it.
 3. Restate the domain file as current position only, with history moved to the decision log.
 4. Specify the provisions with IDs, and show how they assemble into the vehicles they ride.
-5. Trace the poverty and cost models' inputs to the housing evidence; use them to compare options and validate the choice, with recorded runs and limits lists.
+5. Bring the poverty and housing-cost models up to the toolkit standard, with model cards, an evidence map tied to the housing register, benchmarks and run logs. Use them to compare options and validate the choice. This sets the model-card template.
 6. Rebuild the public brief on that base.
 
 Housing provisions ride shared vehicles such as R2, so the pilot also tests the vehicle structure. The templates are fixed from what the pilot teaches before roll-out.
@@ -102,6 +117,8 @@ Housing provisions ride shared vehicles such as R2, so the pilot also tests the 
 
 Each area is done when it meets the definition below. Files move into the new folders for that area only, after the merge-policy paths for those folders are approved.
 
+Each area pass also brings that area's models up to the toolkit standard, or records why a tool stays a one-off.
+
 **Phase 5: permanent rules and checks (tier 3, Espen approves).** These replace the interim rules once the pilot shows what works:
 - the reading order for agents;
 - evidence-ID citations required for new factual claims;
@@ -110,7 +127,24 @@ Each area is done when it meets the definition below. Files move into the new fo
 
 The path rules go in **before** the first area's files move, alongside the pilot if needed.
 
-**Phase 6: public content (alongside phase 4).** Each area's essay or brief is rewritten when its pass finishes, in the persuasive, forthright and optimistic tone Espen set. The front door is refreshed once enough areas are done.
+**Phase 6: public and organizing content (alongside phase 4).** Each area's essay or brief is rewritten when its pass finishes, in the persuasive, forthright and optimistic tone Espen set. Organizing and accountability material is built on the same evidence. The front door is refreshed once enough areas are done.
+
+**Phase 7: toolkit release (about 5–10 sessions, after the first several areas).** Turn the upgraded models into a usable professional toolkit:
+- a professional entry page that explains what each model answers, its evidence base, limits and benchmarks;
+- one consistent way to define and run scenarios across models, where their baselines and units are compatible, and a clear statement where they are not;
+- a benchmark report against official estimates;
+- worked examples, such as costing a provision, testing a household effect or checking a fiscal rule;
+- decisions on licensing and packaging.
+
+Candidates, in rough order of readiness:
+- the fiscal, ledger, incidence and dedicated-fund models;
+- the carbon model;
+- the transportation models;
+- the child-poverty microsimulation;
+- the calendar and vote models;
+- the CBO scorer tool in the intake.
+
+The toolkit never claims to produce official scores or individual benefit determinations.
 
 ## Definition of done for an area
 
@@ -119,7 +153,7 @@ The path rules go in **before** the first area's files move, alongside the pilot
 - [ ] A decision record states the problem, the options weighed, the choice, the reasons from evidence, and what would change it.
 - [ ] The canonical text states the current position only; history is in the decision log.
 - [ ] Provisions have IDs, status, and the vehicles they ride.
-- [ ] Every model used in the decision or validation has inputs traced to evidence IDs or labeled assumptions with ranges, recorded runs against provision versions, and a stated list of limits. The decision record names the evidence beneath any model result it relies on.
+- [ ] Every model used in the decision or validation meets the toolkit standard: a model card with its evidence map and limits, benchmarks where official estimates exist, a stable interface, tests and a run log. The decision record names the evidence beneath any model result it relies on.
 - [ ] The public brief cites only evidence IDs, provisions and model runs, and passes the story builder's checks.
 
 ## Coordination, review and limits
@@ -137,5 +171,6 @@ The path rules go in **before** the first area's files move, alongside the pilot
 3. **Pilot:** housing (recommended) or another area.
 4. **Proposal format:** provisions specified section by section with IDs, and full legislative text only for priority vehicles (recommended), or full text throughout.
 5. **Interim rules:** approve the small interim rules PR at the end of phase 1.
-6. **Reviewing:** who reviews restructuring PRs while Codex is out of credits: a second Claude session, or you directly.
-7. **Pacing:** about 25–35 sessions in all, one phase or area at a time as credits allow. Phase 1 is the right next step either way.
+6. **Toolkit:** who it is for first (legislative staff, analysts, advocates), whether it should be openly licensed, and which models to prioritize for release.
+7. **Reviewing:** who reviews restructuring PRs while Codex is out of credits: a second Claude session, or you directly.
+8. **Pacing:** about 30–45 sessions in all, including the toolkit release, one phase or area at a time as credits allow. Phase 1 is the right next step either way.
