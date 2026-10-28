@@ -1,6 +1,6 @@
 # Project 2050: strategic reorientation
 
-October 28, 2026 · Fifth draft. It began as a strategic reflection at Espen's request, rather than a reorganization within the current rules, and now records his first decisions on it. It supersedes the earlier drafts on this branch.
+October 28, 2026 · Fifth draft. It began as a strategic reflection at Espen's request, rather than a reorganization within the current rules, and now records their first decisions on it. It supersedes the earlier drafts on this branch.
 
 **Decided by Espen, October 28:**
 - the six flagships, with the democracy flagship widened to take in a government that works and long-run institutional renewal;
