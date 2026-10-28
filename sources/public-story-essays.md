@@ -57,14 +57,20 @@ Recorded in `essays.json` (`left_out`) and the register. In brief: no fully-fina
 
 Two inclusions go further than the October 25 blueprint’s public emphasis and are for Espen to confirm: the paying essay states that the central case does **not** pass the fairness test (fourth fifth about −$2,906 in FY2039) and that the downside case does not stabilize debt. Both are stated as limits, not as the gap figure the blueprint keeps in the companion.
 
-## Decisions for Espen
+## Editorial direction from Espen (October 27–28)
 
-1. **Format:** Does the housing research brief hit the mark? If so, convert the other six the same way (expect about 1,300–1,700 words each).
-2. **Direction:** Is this essay set, order and tone right? Which essay should be strongest, and which cut or added (for example transportation or education)?
-3. **Candor about financing:** Keep the explicit statement that the plan does not yet pass its own fairness test, or move that to the analysis companion?
-4. **Voice:** Keep occasional first person, or use the project “we” throughout?
-5. **Front door:** Should the front door link to the essays now (requires advancing its evidence pin and reviewing its copy), or wait for the next edition?
-6. **Publication:** Nothing is published. Any public hosting needs your explicit approval; the blueprint’s static-hosting recommendation stands.
+- **Format: approved.** The housing research brief is the model: “this is moving in the right direction for sure.” The other essays and future public-facing content move toward it.
+- **Tone:** persuasive, compelling and forthright, but optimistic. The essays should inspire readers that the project has developed strategies to achieve real gains for people.
+- **Sequencing:** close out this edition first, then convert the remaining six essays as part of the research-foundation restructuring (`research/RESTRUCTURING-PLAN.md` on branch `claude/research-intake`). That way each brief rests on a domain evidence register rather than on summaries.
+
+## State of this edition and open questions
+
+This edition merges with the housing brief in the new format and the other six essays in the earlier format, clearly a working edition. Still open for Espen, with no change needed to merge:
+
+1. **Voice:** the brief uses the project “we”; the older essays keep occasional “I think.” Converting them settles this.
+2. **Candor about financing:** the paying essay states that the plan does not yet pass its own fairness test. That fits “forthright,” but the conversion should frame it around the strategy for closing the gap.
+3. **Front door:** link it to the essays now (requires advancing its evidence pin and reviewing its copy), or wait for the next edition.
+4. **Publication:** nothing is published. Any public hosting needs Espen’s explicit approval.
 
 ## Limits
 

@@ -40,6 +40,15 @@ class ClaimError(ValueError):
     pass
 
 
+def is_drift(problem):
+    """A cited source passage or policy marker moved or changed: an editorial review signal, not a content error.
+
+    Everything else (uncited figures, wrong rounding, unknown references, structure) is a content error and
+    always fails, in report mode too.
+    """
+    return (problem.startswith('policy ') and ': marker ' in problem) or ': anchor not found in ' in problem
+
+
 def numbers(text):
     return set(NUMBER.findall(text))
 
@@ -75,6 +84,9 @@ def pinned_lines(content):
     """Line of every claim passage in its pinned commit, from the lock or from Git."""
     wanted = {anchor_key(s['path'], s['anchor']): (source_ref(content, s), s['path'], s['anchor'])
               for c in content['claims'].values() for s in c['sources']}
+    # Policy links point to files at the evidence snapshot; their markers prove those files exist there.
+    wanted.update({anchor_key(p['path'], p['marker']): (content['source_commit'], p['path'], p['marker'])
+                   for p in content['policies'].values()})
     if LOCK.exists():
         lock = json.loads(LOCK.read_text())
         if (lock['source_commit'] == content['source_commit'] and lock.get('evidence_commit') == content.get('evidence_commit')
@@ -259,8 +271,9 @@ def dividend_chart(claim):
 def build(content=None, root=ROOT, strict=True):
     content = content or load()
     _, problems = validate(content, root)
-    if problems and strict:
-        raise ClaimError('Claim register problems:\n  ' + '\n  '.join(problems))
+    errors = [p for p in problems if strict or not is_drift(p)]
+    if errors:
+        raise ClaimError('Claim register problems:\n  ' + '\n  '.join(errors))
     ref = content['source_commit']
     pinned = pinned_lines(content)
     locations = {cid: [pinned[anchor_key(s['path'], s['anchor'])] for s in c['sources']]
@@ -377,7 +390,7 @@ def build(content=None, root=ROOT, strict=True):
 <section class="wrap closing" aria-labelledby="closing-title"><h2 id="closing-title">About this edition</h2>
 <p>{esc(content["closing"])}</p>
 <p>Evidence snapshot: <code>{ref[:12]}</code> ({esc(content["source_label"])}). Each note links to the passage it rests on at that version. Repository documents may require GitHub access; the essays remain readable without it.</p>
-<p><a href="story-claims.json">Claim register (structured)</a> · <a href="{src_url("sources/public-story-claim-register.md")}">Claim register (readable)</a> · <a href="index.html">A day in a possible 2050</a> · <a href="analysis.html">The analysis companion</a></p></section>
+<p><a href="story-claims.json">Claim register (structured)</a> · <a href="story-claims.html">Claim register (readable)</a> · <a href="index.html">A day in a possible 2050</a> · <a href="analysis.html">The analysis companion</a></p></section>
 </main>
 <footer class="site"><div class="wrap">Project 2050 · Working essays · {esc(content["edition_date"])} · Imagined scenes are fiction; policy descriptions are proposals, not law or benefits available through this site.</div></footer>
 </body></html>
@@ -406,7 +419,31 @@ def build(content=None, root=ROOT, strict=True):
         md.append(f'| `{cid}` | {", ".join(c["essays"])} | {content["basis_labels"][c["basis"]]} | {c["summary"]} | {srcs}{ext} |')
     md += ['', '## Claims deliberately left out', '']
     md += [f'- **{x["claim"]}** {x["why"]}' for x in content['left_out']]
+    rows = []
+    for cid, c in register['claims'].items():
+        srcs = '<br>'.join(f'<a href="{src_url(s["path"], s["line"], s["commit"])}">{esc(s["path"])}:{s["line"]}</a>'
+                           for s in c['sources'])
+        ext = ''.join(f'<br><a href="{esc(x["url"], quote=True)}">{esc(x["label"])}</a> (checked {esc(x["checked"])})'
+                      for x in c['external'])
+        used = ', '.join(f'<a href="story.html#{e}">{esc(e)}</a>' for e in c['essays'])
+        rows.append(f'<tr id="claim-{cid}"><th scope="row"><code>{cid}</code></th><td>{used}</td>'
+                    f'<td>{esc(content["basis_labels"][c["basis"]])}</td><td>{esc(c["summary"])}</td><td>{srcs}{ext}</td></tr>')
+    left = ''.join(f'<li><b>{esc(x["claim"])}</b> {esc(x["why"])}</li>' for x in content['left_out'])
+    register_page = f'''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claim register · Project 2050</title><style>{css}</style></head><body>
+<a class="skip" href="#main">Skip to the register</a>
+<header class="site"><div class="wrap bar"><a class="brand" href="index.html"><span class="brand-mark">2050</span>Project 2050</a>
+<nav aria-label="Main"><a href="index.html">A day in 2050</a><a href="story.html">Essays</a><a href="analysis.html">The analysis</a></nav></div></header>
+<main id="main" class="wrap register"><h1>Claim register</h1>
+<p>Every claim on the <a href="story.html">essay page</a>, the exact passage it rests on, and its basis. Evidence snapshot <code>{ref[:12]}</code>; edition {esc(content["edition_date"])}. Generated from the same records as the page.</p>
+<div class="table-scroll"><table><caption>Claims and their sources</caption><thead><tr><th scope="col">Claim</th><th scope="col">Essays</th><th scope="col">Basis</th><th scope="col">What the page says</th><th scope="col">Source passage</th></tr></thead>
+<tbody>{"".join(rows)}</tbody></table></div>
+<h2>Claims deliberately left out</h2><ul>{left}</ul></main>
+<footer class="site"><div class="wrap">Project 2050 · Working essays · {esc(content["edition_date"])}</div></footer></body></html>
+'''
     outputs = {OUT / 'story.html': page.encode(),
+               OUT / 'story-claims.html': register_page.encode(),
                OUT / 'story-claims.json': (json.dumps(register, indent=2, ensure_ascii=False) + '\n').encode(),
                REGISTER_MD: ('\n'.join(md) + '\n').encode(),
                LOCK: (json.dumps({'source_commit': ref, 'evidence_commit': content.get('evidence_commit'),
@@ -436,19 +473,25 @@ if __name__ == '__main__':
     mode.add_argument('--report', action='store_true',
                       help='like --check, but only warn about moved claim anchors (used by the common runner)')
     mode.add_argument('--review-ref', metavar='REF')
+    parser.add_argument('--content', type=Path, help=argparse.SUPPRESS)  # alternate essays.json (tests)
+    parser.add_argument('--root', type=Path, default=ROOT, help=argparse.SUPPRESS)  # alternate source tree (tests)
     args = parser.parse_args()
     if args.review_ref:
         print(json.dumps(review(args.review_ref), indent=2))
         sys.exit(0)
-    products, problems = build(strict=not args.report)
+    try:
+        products, problems = build(load(args.content), args.root, strict=not args.report)
+    except ClaimError as e:
+        sys.exit(str(e))
     if args.check or args.report:
+        # Outputs are built from pinned lines, so moved sources never make them stale; a stale output always fails.
         stale = [str(p.relative_to(ROOT)) for p, data in products.items() if not p.exists() or p.read_bytes() != data]
-        if problems:
-            print('REVIEW public story claims (a source passage moved or changed):\n  ' + '\n  '.join(problems))
-        if stale and not problems:
+        if stale:
             sys.exit('Stale story outputs: ' + ', '.join(stale) + '. Run build_story.py and commit.')
-        print('Public story: outputs and claim register verified' if not problems else
-              'Public story: rebuild skipped until the claims above are reviewed')
+        if problems:
+            print('REVIEW public story claims (a cited passage moved or changed; the page is unchanged until an '
+                  'editor rereads them):\n  ' + '\n  '.join(problems))
+        print('Public story: outputs and claim register verified')
     else:
         for path, data in products.items():
             path.write_bytes(data)

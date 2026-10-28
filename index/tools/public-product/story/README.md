@@ -21,7 +21,7 @@ It is a separate page with its own builder because the existing edition is delib
 | `test_story.py` | Claim-tracing, structure and editorial-boundary tests |
 | `story-browser-check.cjs` | Optional Chromium check at 320, 390, 768 and 1440 px |
 
-Generated outputs, never edited by hand: `index/public-2050/story.html`, `index/public-2050/story-claims.json`, `sources/public-story-claim-register.md` and `anchors.lock.json`.
+Generated outputs, never edited by hand: `index/public-2050/story.html`, `index/public-2050/story-claims.html` (the readable claim register), `index/public-2050/story-claims.json`, `sources/public-story-claim-register.md` and `anchors.lock.json`.
 
 ## How claims are kept honest
 
@@ -44,13 +44,13 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory index/public-2050   # t
 node index/tools/public-product/story/story-browser-check.cjs
 ```
 
-The common runner (`index/tools/run-all.sh`, step 8d) runs `--report` and the tests in report mode. It fails only if the story’s own content changed without a rebuild. If another change moves or rewrites a cited passage, it prints `REVIEW public story claims` with the claim IDs and the page stays as it was. That is a signal for editorial review, not a failure of the other change.
+The common runner (`index/tools/run-all.sh`, step 8d) runs `--report` and the tests in report mode. Report mode still fails on every content error (an uncited or unsupported figure, a wrong rounding, an unknown reference) and on any stale generated output. The only thing it downgrades to a warning is source drift: if another change moves or rewrites a cited passage, it prints `REVIEW public story claims` with the claim IDs, and the page stays as it was because its evidence links are pinned. That is a signal for editorial review, not a failure of the other change. Regression tests run these cases through the command itself.
 
 To move to newer evidence: `build_story.py --review-ref origin/main` lists changed sources and the claims that cite them. Reread those claims against the new passages, edit `essays.json`, set `source_commit` to the new full SHA, rebuild (with that commit fetched, so the lock can be refreshed) and run the tests and browser check.
 
 ## Validation record (October 27)
 
-- `test_story.py`: 16 tests pass (one skipped in report mode).
+- `test_story.py`: 22 tests pass (one skipped in report mode), including report-mode regressions and a check that every link on both pages leads to an existing destination.
 - `build_story.py --check` passes; the page is about 143 KB of HTML/CSS/SVG with no scripts or external requests.
 - Browser check passes at 320, 390, 768 and 1440 px: no horizontal scroll, skip link first and working, contents and note links land on their targets, chart table opens from the keyboard, body text at least 16 px, no console errors. Desktop and phone captures were inspected.
 - Text and background color pairs computed at 5.25:1 or higher (WCAG AA).

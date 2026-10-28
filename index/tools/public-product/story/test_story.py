@@ -5,6 +5,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -58,9 +59,86 @@ class StoryTests(unittest.TestCase):
         cls.page = Page()
         cls.page.feed(cls.html)
 
+    def test_no_content_errors_in_any_mode(self):
+        self.assertEqual([p for p in self.live_problems if not story.is_drift(p)], [])
+
     @unittest.skipIf(REPORT_ONLY, 'source drift is reported by build_story.py --report')
     def test_every_claim_traces_to_current_sources(self):
         self.assertEqual(self.live_problems, [])
+
+    def run_cli(self, *args):
+        return subprocess.run([sys.executable, str(story.HERE / 'build_story.py'), *args],
+                              capture_output=True, text=True, cwd=story.ROOT)
+
+    def source_tree_copy(self, tmp):
+        root = Path(tmp) / 'root'
+        paths = {s['path'] for c in self.content['claims'].values() for s in c['sources']}
+        paths |= {p['path'] for p in self.content['policies'].values()}
+        for path in paths:
+            (root / path).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(story.ROOT / path, root / path)
+        return root
+
+    def test_report_mode_fails_on_unsupported_content(self):
+        # Codex review of PR #39: the common runner's report mode must not pass an uncited figure.
+        with tempfile.TemporaryDirectory() as tmp:
+            content = copy.deepcopy(self.content)
+            content['essays'][0]['body'][0] += ' About 40 million people live this way.'
+            path = Path(tmp) / 'essays.json'
+            path.write_text(json.dumps(content))
+            result = self.run_cli('--report', '--content', str(path))
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn('figures without a cited claim', result.stdout + result.stderr)
+
+    def test_report_mode_fails_on_stale_outputs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            content = copy.deepcopy(self.content)
+            content['essays'][0]['dek'] += ' Changed without a rebuild.'
+            path = Path(tmp) / 'essays.json'
+            path.write_text(json.dumps(content))
+            result = self.run_cli('--report', '--content', str(path))
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn('Stale story outputs', result.stdout + result.stderr)
+
+    def test_report_mode_only_warns_when_a_cited_passage_moves(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self.source_tree_copy(tmp)
+            housing = root / 'domains/domain-housing.md'
+            housing.write_text(housing.read_text().replace('implying 250,000 new awards annually', 'implying 200,000 new awards annually'))
+            report = self.run_cli('--report', '--root', str(root))
+            self.assertEqual(report.returncode, 0, report.stderr)
+            self.assertIn('REVIEW public story claims', report.stdout)
+            self.assertIn('claim hou4a: anchor not found', report.stdout)
+            strict = self.run_cli('--check', '--root', str(root))
+            self.assertNotEqual(strict.returncode, 0)
+
+    def test_every_link_destination_exists(self):
+        lock = json.loads((story.LOCK).read_text())
+        pinned = {(c, p) for c in (self.content['source_commit'], self.content.get('evidence_commit'))
+                  for p in {k.split('#')[0] for k in lock['lines']}}
+        for name in ('story.html', 'story-claims.html'):
+            page = Page()
+            page.feed(self.outputs[story.OUT / name].decode())
+            for href in page.hrefs:
+                if href.startswith('#') or href.startswith('https://') and not href.startswith(story.REPO):
+                    continue
+                if href.startswith(story.REPO):
+                    commit, path = href[len(story.REPO):].split('#')[0].split('/', 1)
+                    self.assertIn(commit, {c for c, _ in pinned}, href)
+                    self.assertTrue(any(path == p for c, p in pinned if c == commit) and
+                                    (commit, path) in self.verified_pairs(), href)
+                    continue
+                local = href.split('#')[0]
+                self.assertTrue((story.OUT / local).exists() or story.OUT / local in self.outputs, f'{name}: {href}')
+
+    def verified_pairs(self):
+        # Pairs proven by the lock: each passage's own commit and path.
+        pairs = set()
+        for c in self.content['claims'].values():
+            for s in c['sources']:
+                pairs.add((story.source_ref(self.content, s), s['path']))
+        pairs |= {(self.content['source_commit'], p['path']) for p in self.content['policies'].values()}
+        return pairs
 
     def test_committed_outputs_match_the_build(self):
         for path, data in self.outputs.items():
