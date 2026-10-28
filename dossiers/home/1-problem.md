@@ -28,16 +28,26 @@ Outcomes this section frames:
 - Nearly a third of renters with incomes under $50,000 were behind on rent at some point in the past year.
 - Among renters earning at least $100,000, the figure was 5 percent [EV-HOU-009].
 
-**Black renters.**
-- 4.6 million Black renter households (56.2%) were cost-burdened in 2023 [EV-HOU-003].
-- About 2.5 million (30.6%) were severely cost-burdened, spending more than half their income on housing [EV-HOU-004].
-- The cost-burden rate is higher than the national 49.7% [EV-HOU-001].
+**By race and ethnicity.**
+- 4.6 million Black renter households (56.2%) were cost-burdened in 2023, above the national 49.7% [EV-HOU-001] [EV-HOU-003]. About 2.5 million (30.6%) were severely cost-burdened, spending more than half their income on housing [EV-HOU-004].
+- Worst case needs fall hardest on Black and Hispanic households overall: 10.1 percent of all Black households and 11.5 percent of all Hispanic households had them in 2023, against 7.5 percent of Asian and 4.3 percent of White households [EV-HOU-036]. Households headed by non-White people accounted for 56.5 percent of all worst case needs [EV-HOU-037].
+- Measured only among very low-income renters, the order changes: 55.1 percent of Asian, 48.0 percent of Hispanic, 45.0 percent of White and 38.1 percent of Black households had worst case needs [EV-HOU-034]. The two measures answer different questions: how common severe need is in each group, and how often a very low-income renter in that group is left without help.
+- 39.4 percent of Black very low-income renters reported housing assistance, against 24.8 percent of White, 22.1 percent of Hispanic and 20.6 percent of Asian ones [EV-HOU-034]. An assisted household cannot have worst case needs by definition [EV-HOU-020], and HUD attributes the lower rate for Black renters to this greater access to assistance [EV-HOU-035]. The lower rate among very low-income renters sits alongside a rate among all Black households more than twice the White one [EV-HOU-036].
 
-**Children.**
+**Families with children.**
+- 2.33 million families with children had worst case needs in 2023, 42.9 percent of very low-income renter families with children [EV-HOU-030] [EV-HOU-031].
 - Nearly 150,000 children were homeless on a single night in 2024, 33 percent (32,618) more than a year earlier [EV-HOU-026].
-- Homelessness among people in families with children rose 39 percent in that one year, the largest single-year increase of any group [EV-HOU-026].
+- People in families with children had the largest one-year rise in homelessness of any group, 39 percent [EV-HOU-026].
 
-The dossier needs the same breakdown for children's rent burden, older renters, disabled renters, rural and tribal areas, and people leaving homelessness or institutions. Those breakdowns are on the evidence list below.
+**Older adults.** 2.46 million older adult households without children had worst case needs in 2023, 38.8 percent of very low-income older renters [EV-HOU-030] [EV-HOU-031].
+
+**People with disabilities.** About one in seven households with worst case needs, 1.16 million, included someone younger than 62 with a disability. 37.0 percent of very low-income renter households with such a member had worst case needs [EV-HOU-032].
+
+**Single adults and other households.** The largest group with worst case needs was other nonfamily households, mostly single individuals: 2.80 million, 49.2 percent of very low-income ones [EV-HOU-030] [EV-HOU-031]. Other family households, such as relatives living together without children, had the highest rate, 52.2 percent [EV-HOU-031].
+
+**By region.** 3.17 million households with worst case needs lived in the South, 2.29 million in the West, 1.53 million in the Midwest and 1.48 million in the Northeast [EV-HOU-033]. Assistance reached 24.4 percent of very low-income renters in the West and 38.0 percent in the Northeast [EV-HOU-022].
+
+Still missing: rent burden among children's households from Census, rural and tribal areas, and people leaving homelessness or institutions. They are on the evidence list below.
 
 ## How large
 
@@ -71,7 +81,7 @@ The dossier needs the same breakdown for children's rent burden, older renters, 
 | Causes of rising rents and homelessness, from independent research: immigration, interest rates, supply limits, incomes, the end of pandemic aid | Peer-reviewed studies, CBO, Federal Reserve research, and analysts across the political spectrum; cited and quoted if licensed | Section 2; EV-HOU-027 to 029 stay uncorroborated until then |
 | Eviction filings and judgments | Court data or academic series (licensed: cite and quote only) | To find |
 | 2025 rent burden | Census, 2025 American Community Survey 1-year estimates, released October 29, 2026 | Refresh EV-HOU-001 to 005 next session |
-| Burden for children, older and disabled renters, rural and tribal areas | Census ACS tables; HUD *Worst Case Housing Needs* (chapters on household types and regions, now in the library) | Next session |
+| Rent burden for households with children; rural and tribal areas; people leaving homelessness or institutions | Census ACS tables; HUD *Worst Case Housing Needs* (metropolitan-location chapter); tribal housing sources | To find. Household types, disability, race and region are in place (EV-HOU-030 to 034) |
 
 ## Questions this section leaves for the next ones
 
