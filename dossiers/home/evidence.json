@@ -16,6 +16,7 @@
   "fact_date": "2023",
   "checked": "2026-10-28",
   "recheck": "2026-11-05",
+  "note": "2023 ACS 1-year. The 2025 ACS 1-year estimates are released October 29, 2026: refresh.",
   "supports": [
    "dossiers/home/1-problem.md"
   ]
@@ -149,6 +150,7 @@
   "fact_date": "2025",
   "checked": "2026-10-28",
   "recheck": "2027-06-01",
+  "note": "Federal Reserve Survey of Household Economics and Decisionmaking, fielded October 2025; the 2026 report is due May 2027.",
   "supports": [
    "dossiers/home/1-problem.md"
   ]
@@ -213,7 +215,7 @@
  },
  {
   "id": "EV-HOU-012",
-  "statement": "Because federal funding does not meet demand, the Housing Choice Voucher program serves roughly one in four eligible households, and housing authorities keep waiting lists.",
+  "statement": "CRS reports that the Housing Choice Voucher program serves roughly one in four eligible households, that federal funding is not enough to meet demand for vouchers, and that housing authorities generally keep waiting lists.",
   "claim": "data",
   "figures": [],
   "source": "SRC-0291",
@@ -522,7 +524,7 @@
   "fact_date": "2023",
   "checked": "2026-10-28",
   "recheck": "2027-09-30",
-  "context": "Published July 2025 under the second Trump administration, which has made immigration restriction a central policy and has blamed housing costs on immigration. The report's immigration section cites Camarota (1998) of the Center for Immigration Studies, a group that advocates lower immigration, among other authors. Its counts come from HUD tabulations of the American Housing Survey and are treated as data (EV-HOU-020 to 024); this causal framing is the report's interpretation and needs independent research before the dossier relies on it.",
+  "context": "Published July 2025, during the second Trump administration. The report's immigration section rests on research it summarizes on immigration and metropolitan rents; its footnote lists Camarota (1998), Edo (2015), Mussa et al. (2017), Myers et al. (2006), Orrenius and Zavodny (2007) and Saiz (2007), the last a peer-reviewed study of immigration and rents. The report's own decomposition (EV-HOU-029) attributes 321,000 added cases to household formation, which it describes as largely driven by immigration and declining marriage, but does not measure immigration on its own. Its counts come from HUD tabulations of the American Housing Survey and are treated as data (EV-HOU-020 to 024); this causal reading needs independent research before the dossier relies on it.",
   "corroboration": [
    {
     "evidence": "EV-HOU-029",
@@ -561,22 +563,28 @@
  },
  {
   "id": "EV-HOU-029",
-  "statement": "HUD's latest worst case needs report's own attribution analysis splits the 2021-2023 change among four demographic factors (household formation, which it says rose due in part to immigration; tenure shift; renter income shifts; and the rental assistance gap) and market dynamics; the four demographic factors combined reduced worst case needs by 258,000, and market dynamics largely offset that.",
+  "statement": "HUD's decomposition of the 2021-2023 change in worst case needs: household formation (4.73 million new households), which the report describes as largely driven by record immigration and a long-term decline in marriage rates, added an estimated 321,000 cases, the largest upward demographic factor; a shift toward homeownership removed 247,000, rising renter incomes 163,000 and a narrower rental assistance gap 169,000, so the four demographic factors together reduced needs by 258,000; a tight rental market added 196,000.",
   "claim": "analysis",
   "figures": [
-   "258,000"
+   "4.73 million",
+   "321,000",
+   "247,000",
+   "163,000",
+   "169,000",
+   "258,000",
+   "196,000"
   ],
   "source": "SRC-0296",
   "anchor": [
-   "An\nattribution analysis estimated the independent contribution of each of four increasingly focused\ndemographic factors",
-   "household formation\nincreased worst case needs because there was a net increase in new households from population\nchanges, due in part to large increases in immigration in recent years; tenure shift reduced worst\ncase needs",
-   "The four\ndemographic factors combined to create a potentially significant net decrease in worst case needs\nof 258,000 between 2021 and 2023 by decreasing the size of the unassisted VLI renter\npopulation, but housing market dynamics largely offset it"
+   "Household Formation. The nation added 4.73 million households between 2021 and 2023,\nexplaining a proportional increase of 321,000 cases of worst case needs.",
+   "2023, so an improved rental assistance gap accounts for 169,000 fewer cases of worst case needs.",
+   "factors indicates that the demographic factors affecting the number of unassisted VLI renter\nhouseholds were sufficient to reduce worst case needs by 258,000 cases, but the inability of the\ntight rental market to meet the demand largely offset that decrease by contributing 196,000 cases.\nOf the four demographic factors, national household formation, largely driven by record levels of\nimmigration and a continued long-term decline in marriage rates, would have been expected to\nincrease worst case needs by 321,000 cases. A shift from renting to homeownership diminished\nthat effect by an estimated 247,000 cases. Improvement in renter incomes accounted for a further\nreduction of 163,000 cases."
   ],
   "grade": "C",
   "fact_date": "2023",
   "checked": "2026-10-28",
   "recheck": "2027-09-30",
-  "context": "The report's quantified analysis. Immigration is folded into household formation and is not estimated as a separate factor, so the executive summary's 'one key cause' framing (EV-HOU-027) goes beyond what this analysis measures.",
+  "context": "The report's quantified analysis (a shift-share decomposition of American Housing Survey estimates). It folds immigration into household formation together with declining marriage rates and does not estimate immigration's share on its own. Household formation is the largest upward demographic factor; homeownership, incomes and assistance more than offset it. So the analysis is consistent with immigration adding to needs, without measuring how much.",
   "corroboration": [
    {
     "evidence": "EV-HOU-027",
