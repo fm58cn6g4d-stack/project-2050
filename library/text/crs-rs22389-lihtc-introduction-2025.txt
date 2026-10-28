@@ -1,0 +1,439 @@
+Source: https://www.congress.gov/crs_external_products/RS/PDF/RS22389/RS22389.72.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-10-28
+Original SHA-256: d8ca723d8106c2c6e44dfdd3171e96788f156b23983663b25d4557f40b050f75
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+An Introduction to the Low-Income Housing
+Tax Credit
+Updated July 11, 2025
+
+Congressional Research Service
+https://crsreports.congress.gov
+RS22389
+
+SUMMARY
+
+An Introduction to the Low-Income Housing
+Tax Credit
+
+RS22389
+July 11, 2025
+Mark P. Keightley
+
+Specialist in Economics
+The low-income housing tax credit (LIHTC) program is the federal government’s primary policy
+tool for encouraging the development and rehabilitation of affordable rental housing. The
+program awards developers federal tax credits to offset construction costs in exchange for
+agreeing to reserve a certain fraction of units that are rent-restricted for lower-income
+households. The credits are claimed over a 10-year period. Developers need upfront financing to
+complete construction so they will usually sell their tax credits to outside investors (mostly financial institutions) in exchange
+for equity financing. The equity reduces the financing developers would otherwise have to secure and allows tax credit
+properties to offer more affordable rents.
+
+The most recent legislative changes that affected the LIHTC program were included in the law commonly referred to as the
+One Big Beautiful Bill Act (P.L. 119-21; OBBBA). Starting in 2026, the act permanently increases states’ annual allocation
+authority by 12% and lowers the 50% tax-exempt bond financing requirement to 25%.
+Prior to enactment of P.L. 119-21, the LIHTC program was estimated to cost the government an average of $14.4 billion
+annually. The changes made by P.L. 119-21 are estimated to reduce federal tax revenues by an additional $39 million in
+2026, with the additional revenue loss increasing each year until reaching $4.0 billion in 2034 (the last year of the budget
+window).
+Prior to P.L. 119-21, the most recent legislative changes that affected the LIHTC program were included in the Inflation
+Reduction Act of 2022 (P.L. 117-169; IRA). Those changes allowed developers that combine LIHTC with the Section 48
+energy investment tax credit, the Section 48E clean electricity investment tax credit, or the Section 45L new energy-efficient
+homes credit to realize the full benefits of those credits without reducing LIHTC amounts. P.L. 119-21 terminated the Section
+45L tax credit. The law also disallowed the Section 48E tax credit for solar water heating property and small wind energy
+property that is rented or leased to customers. Finally, with certain exceptions for geothermal energy, the Section 48 energy
+investment tax credit only applies to property commencing construction before 2025, so developers’ ability to claim the
+Section 48 credit will be limited going forward.
+The most recent legislative changes to the LIHTC program prior to P.L. 117-169 were contained in the Taxpayer Certainty
+and Disaster Tax Relief Act of 2020 (Division EE of P.L. 116-260), which set a permanent minimum credit (or “floor”) of
+4% for the housing tax credit that is typically combined with tax-exempt bond financing and used for the rehabilitation of
+affordable housing. The Taxpayer Certainty and Disaster Tax Relief Act of 2020 also increased, for calendar years 2021 and
+2022, the credit allocation authority for buildings located in any qualified disaster zone. For 2021, the increase was equal to
+the lesser of $3.50 multiplied by the population residing in a qualified disaster zone, and 65% of the state’s overall credit
+allocation authority for calendar year 2020. For 2022, the increase was equal to any unused increased credit allocation
+authority from 2021. Buildings impacted by this provision were also granted a one-year extension of the placed-in-service
+deadline and the so-called 10% test.
+
+Congressional Research Service
+
+An Introduction to the Low-Income Housing Tax Credit
+
+Contents
+Overview ......................................................................................................................................... 1
+Types of Credits............................................................................................................................... 1
+Minimum Credit Rates .............................................................................................................. 2
+An Example ..................................................................................................................................... 3
+The Allocation Process .................................................................................................................... 4
+Federal Allocation to States ...................................................................................................... 4
+State Allocation to Developers .................................................................................................. 4
+Developers and Investors .......................................................................................................... 5
+Recent Legislative Developments ................................................................................................... 6
+
+Contacts
+Author Information.......................................................................................................................... 7
+
+Congressional Research Service
+
+An Introduction to the Low-Income Housing Tax Credit
+
+Overview
+The low-income housing tax credit (LIHTC) program, which was created by the Tax Reform Act
+of 1986 (P.L. 99-514), is the federal government’s primary policy tool for the development of
+affordable rental housing. LIHTCs are awarded to developers to offset the cost of constructing
+rental housing in exchange for agreeing to reserve a fraction of rent-restricted units for lowerincome households. Though a federal tax incentive, the program is primarily administered by
+state housing finance agencies (HFAs) that award tax credits to developers. Developers may
+claim the tax credits in equal amounts over 10 years once a property is “placed in service,” which
+means it is completed and available to be rented. Due to the need for upfront financing to
+complete construction, developers typically sell the 10-year stream of tax credits to outside
+investors (mostly financial institutions) in exchange for equity financing. The equity that is raised
+reduces the amount of debt and other funding that would otherwise be required. With lower
+financing costs, it becomes financially feasible for tax credit properties to charge lower rents, and
+thus, potentially expand the supply of affordable rental housing.
+Prior to enactment of the law commonly known as the One Big Beautiful Bill Act (P.L. 119-21;
+OBBBA), the LIHTC program was estimated to cost the government an average of $14.4 billion
+annually.1 Changes made by P.L. 119-21 (discussed below) are estimated to reduce federal tax
+revenues by an additional $39 million in 2026 and by $4.0 billion in 2034.2
+
+Types of Credits
+There are two types of LIHTCs available to developers. The so-called “9% credit” is generally
+reserved for new construction and rehabilitation projects not utilizing certain additional federal
+subsidies,3 and was originally intended to deliver up to a 70% subsidy. The so-called “4% credit”
+is typically used for projects utilizing federally tax-exempt bond financing and was originally
+designed to deliver up to a 30% subsidy.4 The 30% and 70% subsidy levels are computed as the
+present value of the 10-year stream of tax credits divided by the development’s qualified basis
+(roughly the cost of construction excluding land).5 The subsidy levels (30% or 70%) are explicitly
+
+1 Computed as the average estimated tax expenditure associated with the program between FY2024 and FY2028. U.S.
+
+Congress, Joint Committee on Taxation, Estimates of Federal Tax Expenditures for Fiscal Years 2024-2028, JCX-4824, December 11, 2024.
+2 U.S. Congress, Joint Committee on Taxation, Estimated Revenue Effects Relative to the Present Law Baseline of the
+Tax Provisions in “Title VII – Finance” of the Substitute Legislation as Passed by the Senate for Reconciliation of the
+Fiscal Year 2025, JCX-35-25, July 1, 2025.
+3 So-called “acquisition-rehab” projects allow for 9% credits to be used to subsidize rehabilitation costs, but not
+acquisition costs. However, 4% credits can be used to subsidize acquisition costs.
+4 The 9% credit is also commonly referred to as the “competitive credit” because awards of 9% credits are drawn from
+a state’s annual LIHTC allocation authority and developers must compete for an award. The 4% credit is also
+commonly referred to as the “non-competitive credit” or “automatic credit” because developers do not have to compete
+for an award if at least 50% of the development is financed with tax-exempt bond financing; they are automatically
+awarded 4% tax credits. These 4% tax credits are not drawn from a state’s annual LIHTC allocation authority.
+5 The present value concept allows for the comparison of dollar amounts that are received at different points in time
+since, for example, a dollar received today has a different value than a dollar received in five years because of the
+opportunity to earn a return on investments. Effectively, a dollar received today and a dollar received in five years are
+in different currencies. The present value calculation converts dollar amounts received at different points in time into a
+common currency—today’s dollars.
+
+Congressional Research Service
+
+1
+
+An Introduction to the Low-Income Housing Tax Credit
+
+specified in the Internal Revenue Code (IRC), though as discussed in the next section, they may
+be higher due to a number of legislative changes.6
+The U.S. Department of the Treasury uses a formula to determine the credit rates that will
+produce the 30% and 70% subsidies each month. The formula depends on three factors: the credit
+period length, the desired subsidy level, and the current interest rate. The credit period length and
+the subsidy levels are fixed in the formula by law, while the interest rate changes over time
+according to market conditions. Given the current interest rate, Treasury’s formula determines the
+two different LIHTC rates that deliver the two desired subsidy levels (30% and 70%).7 In
+addition, for certain projects, the resulting credit rates may not be below a minimum (or “floor”)
+of 4% or 9% (depending on the subsidy level), discussed in more detail below.
+Once the credit rate has been determined, it is multiplied by the development’s qualified basis to
+obtain the amount of LIHTCs a project will receive each year for 10 years. The credit rate stays
+constant throughout the 10-year period for a given development, but varies across LIHTC
+developments depending on when construction occurred and the prevailing interest rate at that
+time.
+
+Minimum Credit Rates
+The 4% and 9% credits have not always been exactly 4% and 9%. The Tax Reform Act of 1986
+(P.L. 99-514) specified that buildings placed in service in 1987 were to receive exactly a 4% or
+9% credit rate. Buildings placed in service after 1987 were to receive the credit rate that delivered
+the 30% and 70% subsidies as determined by Treasury’s formula. The 4% credit rate determined
+under the formula has been below 4% every month since January 1988.8 The Taxpayer Certainty
+and Disaster Tax Relief Act of 2020, enacted as Division EE of the Consolidated Appropriations
+Act, 2021 (P.L. 116-260), set a minimum credit (or “floor”) of 4% on the 4% credit. In other
+words, the effective 4% credit rate cannot fall below 4%. This change applies to buildings placed
+in service starting in 2021 and is permanent.
+The 9% credit rate had similarly been below its nominal 9% rate every month since January 1991
+until the Housing and Economic Recovery Act of 2008 (HERA; P.L. 110-289) set a temporary
+floor of 9% under the credit. The minimum credit applied to developments completed in August
+2008 through the end of 2013.9 Following a number of temporary extensions, the floor became a
+permanent feature of the program in 2015 with enactment of the Protecting Americans from Tax
+Hikes (PATH) Act (Division Q of P.L. 114-113).10
+6 IRC §42(b).
+7 The choice of interest rate will affect the credit rate that is needed to deliver the specified subsidy levels. IRC §42(b)
+
+requires that the Department of the Treasury use an interest rate equal to 72% of the average of the mid-term applicable
+federal rate and the long-term applicable federal rate. The mid- and long-term applicable federal rates are, in turn,
+based on the yields on U.S. Treasury securities. It could be argued that this interest rate, also known as the discount
+rate, should be higher because LIHTC investments are riskier than Treasury securities. If this were true, then the
+LIHTC credit rate determined using the interest rate specified in IRC §42(b) would result in subsidies less than the 30%
+and 70%. Because Congress defined the subsidy levels to be 30% and 70% using the interest rate specified in IRC
+§42(b), this report does not consider how the use of alternative discount rates would affect the program.
+8 The 4% credit rate was 4% during the first year of the program. Since then the rate needed to produce the 30%
+subsidy has been below 4%. Novogradac & Company LLP, Low-Income Housing Tax Credit Handbook, 2006 ed.
+(Thomson West, 2006), pp. 845-850; Novogradac & Company LLP, “Tax Credit Percentages 2022,”
+https://www.novoco.com/resource-centers/affordable-housing-tax-credits/tax-credit-percentages-2023.
+9 The floor technically applied to properties that were “placed in service” during that time period.
+10 The floor was originally enacted on a temporary basis by the Housing and Economic Recovery Act of 2008 (P.L.
+(continued...)
+
+Congressional Research Service
+
+2
+
+An Introduction to the Low-Income Housing Tax Credit
+
+The effects of the minimum credits depend on how far the tax credit rates determined by Treasury
+are from 4% and 9%. The minimum credits have no effect if the credit rates produced by
+Treasury’s formula are at least 4% and 9%; the credit rates will be determined by Treasury’s
+formula and generate subsidies of up to 30% and 70%, respectively. If, however, the credit rates
+determined by Treasury are below the floors, then the credit rates are set equal to either 4% or
+9%. When this happens, LIHTC projects can potentially receive subsidies above 30% or 70%,
+with the subsidies increasing the farther the credit rate determined by Treasury’s formula is below
+4% and 9%.11 Treasury’s formula produces low credit rates when interest rates are low and higher
+credit rates when interest rates are high.12 In December 1990, when Treasury’s formula last
+determined a credit rate above 9% (9.06%), the 10-year Treasury constant maturity rate was
+8.08%.13 In July 2025, the rate was around 4.42%.14 Thus, interest rates would need to increase
+significantly from current levels for the floor to no longer have an effect.
+
+An Example
+A simplified example may help in understanding how the LIHTC program is intended to support
+affordable housing development. Consider a new apartment complex with a qualified basis of $1
+million that is utilizing the 9% credit. Assuming for the purposes of this example that the credit
+rate is exactly 9%, the development will generate a stream of tax credits equal to $90,000 (9% ×
+$1 million) per year for 10 years, or $900,000 in total. Under the appropriate interest rate, the
+present value of the $900,000 stream of tax credits should be equal to $700,000, resulting in a
+70% subsidy. Because the subsidy reduces the debt needed to construct the property, the rent
+levels required to make the property financially viable are lower than they otherwise would be.
+Thus, the subsidy is intended to incentivize the development of housing at lower rent levels—and
+therefore affordable to lower-income families—that otherwise may not be financially feasible or
+attractive relative to alternative investments.
+The situation would be similar if the project involved 4% credits except the developer would be
+entitled to a stream of tax credits equal to $40,000 (4% × $1 million) per year for 10 years, or
+$400,000 in total. The present value of the $400,000 stream of tax credits should be equal to
+$300,000, resulting in a 30% subsidy.
+
+110-289) and applied only to new construction placed in service before December 31, 2013. The American Taxpayer
+Relief Act of 2012 (P.L. 112-240) extended the 9% floor for credit allocations made before January 1, 2014. The Tax
+Increase Prevention Act of 2014 (P.L. 113-295) retroactively extended the 9% floor through the end of 2014. Division
+Q of P.L. 114-113—the Protecting Americans from Tax Hikes Act (or “PATH” Act)—permanently extended the 9%
+floor.
+11 Treasury’s formula is designed to produce credit rates necessary to deliver either a 30% or a 70% subsidy. These
+credit rates can be, and often are, less than 4% and 9%. For example, the July 2025 effective 4% credit rate, as
+determined by Treasury’s formula, was 3.45% and the effective 9% credit rate was 8.06%. In this case, the 4% and 9%
+minimum credit rates take effect and the tax credit rates are set to exactly 4% and 9%, respectively. Because these
+credit rates are above what is needed to deliver a 30% subsidy (3.45%) and a 70% subsidy (8.06%), the subsidies could
+rise above 30% and 70% when the floors take effect. Projects are not required to receive the subsidy that results from
+either the Treasury formula or the minimum floors because IRC §42(m)(2) directs states’ HFAs not to award a project
+more credits than is necessary to make it financially feasible.
+12 This relationship is an intrinsic feature of the present value formula, and not a result of a decision by Treasury in
+computing the credit rate.
+13 Board of Governors of the Federal Reserve System (US), 10-Year Treasury Constant Maturity Rate [DGS10],
+retrieved from FRED, Federal Reserve Bank of St. Louis, July 10, 2025, https://fred.stlouisfed.org/series/DGS10.
+14 Treasury does not directly use the interest rate on 10-year bonds, but as discussed in footnote 7, the interest rate used
+by Treasury is based on the yields on U.S. Treasury securities.
+
+Congressional Research Service
+
+3
+
+An Introduction to the Low-Income Housing Tax Credit
+
+The Allocation Process
+The process of allocating, awarding, and then claiming the LIHTC is complex and lengthy. The
+process begins at the federal level with each state receiving an annual LIHTC allocation in
+accordance with federal law. The administration of the tax credit program is typically carried out
+by each state’s housing finance agency (HFA). State HFAs allocate credits to developers of rental
+housing according to federally required, but state-created, allocation plans. The process typically
+ends with developers selling awarded credits to outside investors in exchange for equity. A more
+detailed discussion of each level of the allocation process is presented below.
+
+Federal Allocation to States
+LIHTCs are first allocated to each state according to its population. In 2025, states have LIHTC
+allocation authority equal to $3.00 per person, with a minimum small population state allocation
+of $3,455,000.15 Starting in 2026, state allocation authority will permanently increase by 12% due
+to changes made by P.L. 119-21, commonly known as the One Big Beautiful Bill Act. The state
+allocation limits do not apply to the 4% credits that are automatically packaged with qualified
+private activity bonds (PABs), a type of federally tax-exempt bond.16 Through 2025, developers
+are eligible for an automatic award of 4% credits if they finance at least 50% of a project with
+PABs. Starting in 2026, this threshold is permanently reduced to 25% due to P.L. 119-21.
+
+State Allocation to Developers
+State HFAs allocate credits to developers of eligible rental housing according to federally
+required, but state-created, qualified allocation plans (QAPs). Federal law requires that a QAP
+give priority to projects that serve the lowest-income households and that remain affordable for
+the longest period of time. States have flexibility in developing their QAPs to set their own
+allocation priorities (e.g., assisting certain subpopulations or geographic areas), and to place
+additional requirements on awardees (e.g., longer affordability periods, deeper income targeting).
+QAPs are developed and revised via a public process, allowing for input from the general public
+and local communities, as well as LIHTC stakeholders. Many states have two allocation periods
+per year. Developers apply for the credits by submitting an application to state agencies.
+Once a developer receives an allocation it generally has two years to complete its project.17
+Credits may not be claimed until a property is placed in service. Tax credits that are not allocated
+by states after two years are added to a national pool and then redistributed to states that apply for
+the excess credits. To be eligible for an excess credit allocation, a state must have allocated its
+entire previous allotment of tax credits. This use-or-lose feature gives states an incentive to
+allocate all of their tax credits to developers.
+
+15 Internal Revenue Service, Revenue Procedure 2024-40, https://www.irs.gov/pub/irs-drop/rp-24-40.pdf. From 1986
+
+through 2000, the initial credit allocation amount was $1.25 per capita. The allocation was increased to $1.50 in 2001,
+to $1.75 in 2002 and 2003, and indexed for inflation annually thereafter. The initial minimum tax credit ceiling for
+small states was $2 million, and was indexed for inflation annually after 2003.
+16 Tax-exempt bonds are issued subject to a private activity bond volume limit per state. For more information, see
+CRS Report RL31457, Private Activity Bonds: An Introduction, by Grant A. Driessen.
+17 Developers must have the property placed in service in the calendar year an allocation is made. However, a
+developer can receive an extension which gives them an additional calendar year to have the property placed in service.
+To be granted this extension, known as a carryover allocation, at least 10% of anticipated costs must be incurred within
+the first calendar year.
+
+Congressional Research Service
+
+4
+
+An Introduction to the Low-Income Housing Tax Credit
+
+To be eligible for an LIHTC allocation, properties are required to meet certain tests that restrict
+both the amount of rent that may be charged and the income of eligible tenants. Historically, the
+“income test” for a qualified low-income housing project has required project owners to
+irrevocably elect one of two income-level tests, either a 20-50 test or a 40-60 test. To satisfy the
+first test, at least 20% of the units must be occupied by individuals with income of 50% or less of
+the area’s median gross income (AMI), adjusted for family size. To satisfy the second test, at least
+40% of the units must be occupied by individuals with income of 60% or less of AMI, adjusted
+for family size.18
+The 2018 Consolidated Appropriations Act (P.L. 115-141) added a third income test option that
+allows owners to average the income of tenants. Specifically, under the income averaging option,
+the income test is satisfied if at least 40% of the units are occupied by tenants with an average
+income of no greater than 60% of AMI, and no individual tenant has an income exceeding 80% of
+AMI. Thus, for example, renting to someone with an income equal to 80% of AMI would also
+require renting to someone with an income no greater than 40% of AMI, so the tenants would
+have an average income equal to 60% of AMI.
+In addition to the income test, a qualified low-income housing project must also meet the “gross
+rents test” by ensuring rents (adjusted for bedroom size) do not exceed 30% of the 50% or 60% of
+AMI, depending on which income test option the project elected.19
+The types of projects eligible for the LIHTC include rental housing located in multifamily
+buildings, single-family dwellings, duplexes, and townhouses. Projects may include more than
+one building. Tax credit project types also vary by the type of tenants served; for example,
+LIHTC properties may be designated as housing persons who are elderly or have disabilities.
+Properties located in difficult development areas (DDAs) or qualified census tracts (QCTs) are
+eligible to receive a “basis boost” as an incentive for developers to invest in more distressed
+areas. In these areas, the LIHTC can be claimed for 130% (instead of the normal 100%) of the
+project’s eligible basis. This also means that available credits can be increased by up to 30%.
+HERA (P.L. 110-289) enacted changes that allow an HFA to classify any LIHTC project that is
+not financed with tax-exempt bonds as difficult to develop, and hence, eligible for a basis boost.
+
+Developers and Investors
+Upon receipt of an LIHTC award, developers typically exchange or “sell” the tax credits for
+equity investment in the real estate project. The “sale” of credits occurs within a partnership that
+legally binds the two parties to satisfy federal tax requirements that the tax credit claimant have
+an ownership interest in the underlying property. This makes the trading of tax credits different
+than the trading of corporate stock, which occurs between two unrelated parties on an exchange.
+The partnership form also allows income (or losses), deductions, and other tax items to be
+allocated directly to the individual partners.20
+The sale is usually structured using a limited partnership between the developer and the investor,
+and sometimes administered by syndicators. As the general partner, the developer has a relatively
+18 Individual income levels are certified by each property manager, although states have some discretion over the
+
+specifics of the income verification method. LIHTC participants are prohibited from using HUD’s Enterprise Income
+Verification (EIV) system to verify tenant income. The EIV system is required to be used in the Section 8 housing
+voucher program.
+19 Rent includes utility costs.
+20 For more details on the general tax equity mechanism, see CRS Report R45693, Tax Equity Financing: An
+Introduction and Policy Considerations, by Mark P. Keightley, Donald J. Marples, and Molly F. Sherlock.
+
+Congressional Research Service
+
+5
+
+An Introduction to the Low-Income Housing Tax Credit
+
+small ownership percentage but maintains the authority to build and run the project on a day-today basis. The investor, as a limited partner, has a large ownership percentage with an otherwise
+passive role. Syndicators charge a fee for overseeing the investment transactions.
+Typically, investors do not expect their equity investment in a project to produce income. Instead,
+investors look to the credits, which will be used to offset their income tax liabilities, as their
+return on investment. The return investors receive is determined in part by the market price of the
+tax credits. The market price of tax credits fluctuates, but in normal economic conditions the price
+typically ranges from the mid-$0.80s to low-$0.90s per $1.00 tax credit. The larger the difference
+between the market price of the credits and their face value ($1.00), the larger the return to
+investors. Investors also often receive tax benefits related to any tax losses generated through the
+project’s operating costs, interest on its debt, and deductions such as depreciation. The right to
+claim tax benefits in addition to the tax credits will affect the price investors are willing to pay.
+The vast majority of investors are corporations, either investing directly or through private
+partnerships. Financial institutions and banks are responsible for the majority of investment in
+LIHTC.21 Partly this is due to the Community Reinvestment Act (CRA), which considers LIHTC
+investments favorably.22 Other investors include real estate, insurance, utility, and manufacturing
+firms, which are seeking a return in the form of reduced taxes from investing in the tax credits.
+The LIHTC finances part of the total cost of many projects rather than the full cost and, as a
+result, must be combined with other resources. The financial resources that may be used in
+conjunction with the LIHTC include conventional mortgage loans provided by private lenders
+and alternative financing and grants from public or private sources. Individual states provide
+financing as well, some of which may be in the form of state tax credits modeled after the federal
+provision. Additionally, some LIHTC projects may have tenants who receive other government
+subsidies such as housing vouchers.
+
+Recent Legislative Developments
+The most recent legislative changes that affected the LIHTC program were included in the law
+commonly known as the One Big Beautiful Bill Act (P.L. 119-21; OBBBA). Starting in 2026, the
+act permanently increased states’ annual allocation authority by 12% and lowers the 50% taxexempt bond financing requirement to 25%. Prior to enactment of P.L. 119-21, the LIHTC
+program was estimated to cost the government an average of $14.4 billion annually. The changes
+made by P.L. 119-21 are estimated to reduce federal tax revenues by an additional $39 million in
+2026, with the additional revenue loss increasing each year until reaching $4.0 billion in 2034
+(the last year of the budget window).
+Prior to P.L. 119-21, the most recent legislative changes that affected the LIHTC program were
+included in the law commonly known as the Inflation Reduction Act of 2022 (P.L. 117-169; IRA).
+Those changes allowed developers that combine LIHTC with the Section 48 energy investment
+tax credit, the Section 48E clean electricity investment tax credit, or the Section 45L new energyefficient homes credit to realize the full benefits of those credits without reducing LIHTC
+amounts. P.L. 119-21 terminated the Section 45L tax credit. The law also disallowed the Section
+48E tax credit for solar water heating property and small wind energy property that is rented or
+21 For more information on the LIHTC investor landscape, see CohnReznick, LLP, Housing Tax Credits Investments:
+
+Investment and Operational Performance, November 18, 2019.
+22 For more information on the LIHTC program and the CRA, see Office of the Comptroller of the Currency, LowIncome Housing Tax Credits: Affordable Housing Investment Opportunities for Banks, Washington, DC, April 2014,
+http://www.occ.gov/topics/community-affairs/publications/insights/insights-low-income-housing-tax-credits.pdf.
+
+Congressional Research Service
+
+6
+
+An Introduction to the Low-Income Housing Tax Credit
+
+leased to customers. Finally, with certain exceptions for geothermal energy, the Section 48 energy
+investment tax credit only applies to property commencing construction before 2025, so
+developers’ ability to claim the Section 48 credit will be limited going forward.
+Prior to P.L. 117-169, the most recent legislative changes to the LIHTC program were included in
+the Taxpayer Certainty and Disaster Tax Relief Act of 2020 (Division EE of P.L. 116-260), which
+set a permanent minimum credit (or “floor”) of 4% for the housing tax credit that is typically
+combined with tax-exempt bond financing and used for the rehabilitation of affordable housing.
+The Taxpayer Certainty and Disaster Tax Relief Act of 2020 also increased, for calendar years
+2021 and 2022, the credit allocation authority for buildings located in any qualified disaster zone.
+For 2021, the increase was equal to the lesser of $3.50 multiplied by the population residing in a
+qualified disaster zone, and 65% of the state’s overall credit allocation authority for calendar year
+2020. For 2022, the increase was equal to any unused increased credit allocation authority from
+2021. Buildings impacted by this provision were also granted a one-year extension of the placedin-service deadline and the so-called 10% test.
+
+Author Information
+Mark P. Keightley
+Specialist in Economics
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+RS22389 · VERSION 72 · UPDATED
+
+7
+
+

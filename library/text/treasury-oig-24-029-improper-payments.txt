@@ -1,0 +1,3309 @@
+Source: https://oig.treasury.gov/system/files/2024-10/OIG-24-029%20%28508%2C%20Secured%29.pdf
+Publisher: U.S. Department of the Treasury, Office of Inspector General
+Retrieved: 2026-10-28
+Original SHA-256: 219d64d82ef8c8e3958dcd0e9a4c05319f76e6bf59db5b7be8f7e051113dbeee
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Audit Report
+
+OIG-24-029
+FINANCIAL MANAGEMENT
+Audit of Treasury’s Compliance with the PIIA
+Requirements for Fiscal Year 2023
+May 29, 2024
+
+Office of Inspector General
+Department of the Treasury
+
+This Page Intentionally Left Blank
+
+DEPARTMENT OF THE TREASURY
+W AS H I N GT ON, D.C. 2 0220
+
+OFFICE OF
+INS PECT OR G EN ER AL
+
+May 29, 2024
+
+MEMORANDUM FOR ANNA CANFIELD ROTH
+ASSISTANT SECRETARY FOR MANAGEMENT
+FROM:
+
+Ade Bankole /s/
+Director, Financial Statement Audits
+
+SUBJECT:
+
+Audit of Treasury’s Compliance with PIIA Requirements
+for Fiscal Year 2023
+
+We hereby transmit the attached subject report. Under a contract monitored by our
+office, RMA Associates (RMA), a certified independent public accounting firm,
+audited the Department of the Treasury’s (Treasury) compliance with the Payment
+Integrity Information Act of 2019 (PIIA) for fiscal year (FY) 2023. As part of the
+audit, RMA also assessed Treasury’s compliance with additional improper payment
+reporting requirements set forth in Executive Order 13520, Reducing Improper
+Payments and Eliminating Waste in Federal Programs, the Office of Management
+and Budget (OMB) Circular No. A-123, Appendix C, Requirements for Payment
+Integrity Improvement and OMB Circular No. A-136, Financial Reporting
+Requirements.
+RMA considered the results of Treasury Inspector General for Tax Administration’s
+audit of the Internal Revenue Service’s (IRS) compliance with the improper payment
+reporting requirements in forming its conclusions on Treasury’s compliance with
+PIIA, and the results were incorporated in the audit report.
+In its audit report, RMA determined that Treasury was not in compliance with PIIA
+for FY 2023. Treasury did not comply with 2 of 10 PIIA reporting requirements.
+Specifically, Treasury did not adequately conclude whether programs are likely to
+make Improper Payments (IPs) and Unknown Payments (UPs) above or below the
+statutory threshold for two pandemic relief programs—the Emergency Rental
+Assistance Program (ERA) and Air Carrier Payroll Support Programs (PSP); and did
+not comply with the requirement to report an improper payment rate of less than
+10 percent for four IRS programs identified as susceptible to significant improper
+payments: (i) Earned Income Tax Credit; (ii) American Opportunity Tax Credit; (iii)
+Additional Child Tax Credit; and (iv) Net Premium Tax Credit. Treasury complied
+with the remaining eight PIIA requirements.
+
+Page 2
+RMA also found that the Office of Capital Access (OCA) management did not
+provide appropriate justification memos for the ERA, Homeowners Assistance Fund
+(HAF), and PSP pandemic relief programs in concluding that payment recapture
+audits were deemed not cost-effective for FY 2023 reporting. OCA also failed to
+provide a timely justification for not performing a payment recapture audit for the
+Coronavirus Capital Projects Fund. In addition, OCA and the Community
+Development Financial Institutions Fund managements’ responses to certain risk
+assessment questions in the qualitative risk assessments over the HAF program
+and Emergency Response Program, respectively, were inaccurate in determining the
+payment type’s susceptibility to significant improper payments. RMA noted that
+although the inaccurate responses to the risk assessment questions affected the
+rating of a risk factor from not susceptible to susceptible, these inaccurate
+responses did not affect the overall risk assessment rating for the programs
+identified.
+Our contract required that the audit be performed in accordance with generally
+accepted government auditing standards. In connection with the contract, we
+reviewed RMA’s report and related documentation and inquired of its
+representatives. Our review, as differentiated from an audit performed in
+accordance with U.S. generally accepted government auditing standards, was not
+intended to enable us to conclude on Treasury’s overall compliance with
+requirements contained in PIIA for FY 2023. RMA is responsible for the attached
+auditors’ report dated May 29, 2024, and the conclusions expressed therein.
+However, our review disclosed no instances where RMA did not comply, in all
+material respects, with U.S. generally accepted government auditing standards.
+If you wish to discuss this report, please contact me at (202) 439-5835, or a
+member of your staff may contact Catherine Yi, Manager, Financial Statement
+Audits, at (202) 553-7412.
+Attachment
+
+Department of the Treasury
+Audit of Treasury’s Compliance with
+PIIA Requirements for Fiscal Year 2023
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+May 29, 2024
+Mr. Ade Bankole
+Director, Financial Statement Audits
+Office of Inspector General
+Department of the Treasury
+Dear Mr. Bankole,
+RMA Associates, LLC is pleased to present our final report on the Department of the Treasury’s
+(Treasury) compliance with Payment Integrity Information Act of 2019 requirements for Fiscal
+Year 2023.
+Thank you for the opportunity to serve your organization and the assistance provided by your staff
+and that of Treasury. We will be happy to answer any questions you may have concerning the
+report.
+Very respectfully,
+
+Reza Mahbod, CPA, CISA, CGFM, CICA, CGMA, CDFM, CFE, CDPSE
+President
+RMA Associates, LLC
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Table of Contents
+Audit Report ...............................................................................................................................1
+Results in Brief ...........................................................................................................................3
+Background .................................................................................................................................5
+Audit Results ..............................................................................................................................9
+Appendix 1: Objective, Scope, and Methodology ...................................................................... 20
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment Reporting
+Requirements in FY 2023 and IRS Management’s Response ..................................................... 22
+Appendix 3: Treasury Programs’ Compliance with PIIA Criteria .............................................. 45
+Appendix 4: Treasury Management’s Response ........................................................................ 51
+Appendix 5: Report Distribution ............................................................................................... 56
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+i
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Acronyms
+ACTC
+AFR
+AOTC
+CDFI
+EITC
+EO
+ERA
+FY
+GAO
+HAF
+IP
+IPERA
+IPERIA
+IPIA
+IRS
+Net PTC
+OCA
+OCC
+ODCFO
+OIG
+OMB
+ORP
+PIIA
+PSP
+PTC
+RCG
+RMA
+RTC
+TIGTA
+Treasury
+Treasury’s PIIA Guidance
+UP
+
+Additional Child Tax Credit
+Agency Financial Report
+American Opportunity Tax Credit
+Community Development Financial Institutions
+Earned Income Tax Credit
+Executive Order
+Emergency Rental Assistance
+Fiscal Year
+Government Accountability Office
+Homeowners Assistance Fund
+Improper Payment
+Improper Payments Elimination and Recovery Act of 2010
+Improper Payments Elimination and Recovery Improvement Act of
+2012
+Improper Payments Information Act of 2002
+Internal Revenue Service
+Net Premium Tax Credit
+Office of Capital Access
+Office of the Comptroller of the Currency
+Office of the Deputy Chief Financial Officer
+Office of Inspector General
+Office of Management and Budget
+Office of Recovery Programs
+Payment Integrity Information Act of 2019
+Air Carrier Payroll Support Program
+Premium Tax Credit
+Risk and Control Group
+RMA Associates, LLC
+Refundable Tax Credit
+Treasury Inspector General for Tax Administration
+U.S. Department of the Treasury
+FY 2023 Treasury Implementation Guide for OMB Circular A-123
+Appendix C: Requirements for Payment Integrity Improvement
+Unknown Payment
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+ii
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Audit Report
+May 29, 2024
+Richard K. Delmar
+Acting Inspector General
+Department of the Treasury
+Washington, D.C.
+RMA Associates, LLC (RMA) conducted a performance audit of the Department of the Treasury’s
+(Treasury) Fiscal Year (FY) 2023 compliance with the Payment Integrity Information Act of 2019
+(PIIA).
+The objective of our audit was to assess and report on Treasury’s overall compliance with
+requirements contained in PIIA,1 enacted to establish requirements for federal agencies to cut
+down on improper payments made by the federal government. PIIA replaced the Fraud Reduction
+and Data Analytics Act of 2015,2 Improper Payments Elimination and Recovery Improvement Act
+of 2012 (IPERIA),3 the Improper Payments Elimination and Recovery Act of 2010 (IPERA),4 and
+Improper Payments Information Act of 2002 (IPIA).5 As part of our audit, we also assessed
+Treasury’s compliance with additional improper payment reporting requirements set forth in
+Executive Order (EO) 13520, Reducing Improper Payments and Eliminating Waste in Federal
+Programs; the Office of Management and Budget (OMB) Circular No. A-123, Appendix C,
+Requirements for Payment Integrity Improvement; and OMB Circular No. A-136, Financial
+Reporting Requirements. We conducted our fieldwork from January 2024 through May 2024 in
+Arlington, VA. Appendix 1 contains a more detailed description of our objective, scope, and
+methodology.
+This report also summarizes the results of the Treasury Inspector General for Tax Administration’s
+(TIGTA) assessment of the Internal Revenue Service’s (IRS) compliance with the reporting
+requirements contained in the PIIA for FY 2023. This summarization includes IRS’s management
+response to TIGTA’s audit findings. TIGTA issued its report on May 17, 2024, which is included
+in its entirety as Appendix 2 of this report.
+We conducted this performance audit in accordance with generally accepted government auditing
+standards. Those standards require that we plan and perform the audit to obtain sufficient,
+appropriate evidence to provide a reasonable basis for our findings and conclusions based on our
+audit objectives. We believe that the evidence obtained provides a reasonable basis for our findings
+and conclusions based on our audit objectives.
+
+1
+
+Pub. L. No. 116-117, 134 Stat. (March 2, 2020)
+Pub. L. No. 114-186, 130 Stat. (June 30, 2016)
+3
+Pub. L. No. 112-248, 126 Stat. (January 10, 2013)
+4
+Pub. L. No. 111-204, 124 Stat. (July 22, 2010)
+5
+Pub. L. No. 107-300, 116 Stat. (November 26, 2002)
+2
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 1
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+As a result of our audit, we determined Treasury was not in compliance with PIIA for FY 2023.
+Treasury did not adequately conclude whether programs are likely to make Improper Payments
+(IPs) and Unknown Payments (UPs) above or below the statutory threshold for two pandemic relief
+programs—the Emergency Rental Assistance Program (ERA) and Air Carrier Payroll Support
+Programs (PSP); and IRS did not report an improper payment rate of less than 10 percent for four
+of its programs identified as susceptible to significant improper payments: (1) Earned Income Tax
+Credit; (2) Additional Child Tax Credit; (3) American Opportunity Tax Credit; and (4) Net
+Premium Tax Credit. Susceptibility to significant improper payments means that the result of the
+IP risk assessments determined these programs are likely to have annual IPs exceeding (1) both
+1.5 percent of program outlays and $10 million of all program or activity payments made during
+FY 2023 or (2) $100 million (OMB’s threshold).
+We also noted the following findings:
+·
+
+·
+
+·
+
+Insufficient justification memos in determining the cost-effectiveness of conducting
+payment recapture audits for the ERA, Homeowners Assistance Fund (HAF), and PSP
+pandemic relief programs.
+Untimely submission of a justification memo related to the cost-effectiveness of a payment
+recapture audit for the Coronavirus Capital Projects Fund pandemic relief program.
+However, RMA noted that Treasury management subsequently submitted the justification
+memo concluding that a recapture payment audit was not deemed cost-effective for this
+program.
+Inaccurate responses to certain risk assessment questions during the completion of the risk
+assessment for two fund groups.6 However, RMA noted that these inaccurate responses did
+not affect the overall risk assessment rating for these fund groups.
+
+Additional information on the results of our audit is included in the accompanying report.
+A distribution list for this report is provided as Appendix 5.
+Very respectfully,
+
+RMA Associates, LLC
+
+6
+
+A fund group is a set of activities recognized as a program within the Treasury bureaus and offices.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 2
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Results in Brief
+Treasury was not in compliance with PIIA for FY 2023 because it did not fully comply with the
+requirements to adequately conclude whether two programs are likely to make IP and UPs above
+or below the statutory threshold, and to report an improper payment rate of less than 10 percent
+for four programs identified as susceptible to significant improper payments. We determined that
+Treasury complied with eight of the ten PIIA requirements. Treasury: 1) published payment
+integrity information in the Agency Financial Report (AFR); 2) posted the AFR and accompanying
+materials to its website; 3) conducted IP risk assessments for each program with annual outlays
+greater than $10 million at least once in the last three years; 4) published IP and UP estimates for
+programs susceptible to significant IPs and UPs in the accompanying materials to the AFR; 5)
+published corrective action plans for each program for which an estimate above the statutory
+threshold was published in the accompanying materials to the AFR; 6) published an IP and UP
+reduction target for each program for which an estimate above the statutory threshold was
+published in the accompanying materials to the AFR; 7) demonstrated improvements to payment
+integrity or reached a tolerable IP and UP rate; and 8) developed a plan to meet the IP and UP
+reduction target. Treasury did not comply with the requirements to adequately conclude whether
+programs are likely to make IPs and UPs above or below the statutory threshold for the ERA and
+PSP programs, and to report an improper payment rate of less than 10 percent for its programs
+identified as susceptible to significant improper payments because IRS reported an improper
+payment rate of more than 10 percent for four of its programs identified as susceptible to significant
+improper payments, including:
+·
+·
+·
+·
+
+Earned Income Tax Credit (EITC) – IRS estimates 33.5 percent ($21.9 billion) of the total
+EITC payments of $65.4 billion in FY 2023 were improper.
+Additional Child Tax Credit (ACTC) – IRS estimates 14.5 percent ($0.5 billion) of the
+total ACTC payments of $3.8 billion in FY 2023 were improper.
+American Opportunity Tax Credit (AOTC) – IRS estimates 31.6 percent ($1.7 billion) of
+the total AOTC payments of $5.2 billion in FY 2023 were improper.
+Net Premium Tax Credit (Net PTC) – IRS estimates 26.0 percent ($1.0 billion) of the total
+Net PTC payments of $3.7 billion in FY 2023 were improper.
+
+We determined that Treasury was in compliance with all other OMB improper payment reporting
+requirements.
+In addition to the compliance criteria, we reviewed Treasury’s risk assessments and
+recapture audit programs to determine the accuracy and completeness of Treasury improper
+payment reporting. We identified the Office of Capital Access (OCA) management, formerly
+known as the Office of Recovery Programs (ORP), did not provide appropriate justification memos
+for the ERA, HAF, and PSP pandemic relief programs in concluding that payment recapture audits
+were deemed not cost-effective for these programs for FY 2023 reporting.
+We also identified that OCA management failed to provide evidence of its payment recapture
+audit, or a justification memo that establishes the payment recapture audit was deemed not costMember of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 3
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+effective, for the Coronavirus Capital Projects Fund, which had a total non-federal disbursement
+of $31.3 million for FY 2023 reporting. OCA management subsequently submitted the justification
+memo for this fund for FY 2023 reporting, concluding that a payment recapture audit was deemed
+not cost-effective for this program.
+Lastly, for OCA’s HAF program and Community Development Financial Institutions (CDFI)
+Fund’s Emergency Response program, we identified four instances and two instances,
+respectively, in which management’s responses to the risk assessment questions in its qualitative
+risk assessment related to these programs were inaccurate in determining the payment type’s
+susceptibility to significant improper payments. RMA noted, however, that these inaccurate
+responses did not affect the overall risk assessment rating for the programs identified.
+As part of our reporting process, we provided a draft of this report to Treasury management for
+review and comment. In a written response, management concurred with our recommendations
+and noted that under Treasury’s PSP, Treasury awarded $59 billion in financial assistance to the
+domestic aviation industry for the continued payment of employee wages, salaries, and benefits.
+The majority of PSP funds – approximately 89 percent – were awarded to large air carriers based
+on the reports that the carriers had filed with the U.S. Department of Transportation. In contrast,
+the CARES Act required Treasury to provide financial assistance to smaller air carriers and
+aviation contractors in an amount that the applicants certified, using sworn financial statements or
+other appropriate data, as the amount of wages, salaries, and benefits they paid to their employees
+during the time period from April 1, 2019 through September 30, 2019. OIG audits of this latter
+group have revealed that some smaller recipients overstated their requested awardable amounts
+due to the improper inclusion of certain categories of expenses. Treasury has recouped
+$147 million so far.
+Management also noted that through Treasury’s ERA programs, Congress appropriated a total of
+$47 billion to address financial and housing instability caused by the COVID-19 pandemic and
+tasked Treasury with implementing ERA rapidly and under extraordinary emergency conditions.
+Despite these challenges, Treasury quickly implemented the program and oversaw unprecedented
+rental assistance. As of June 30, 2023, ERA had already provided more than 12.3 million rental
+assistance payments to families in need.
+Management further noted they have long held that refundable tax credits (RTCs) are not
+“payments” as intended under the improper payments legislation, as the tax system is a collection
+system rather than a payment system. Management noted they are continuing to collaborate with
+IRS to identify a more effective way to report on estimated payment errors associated with the
+RTC programs in the Department’s AFR as part of a broader discussion on the tax gap and tax
+burden.
+Management’s response to our report is provided in Appendix 4.
+We also summarized TIGTA’s audit results in this report. TIGTA reported that IRS was largely
+compliant with the reporting requirements contained in the PIIA for FY 2023. However, IRS still
+has not satisfied the PIIA goal of reducing the overall improper payment rate for EITC, ACTC,
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 4
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+AOTC, and Net PTC to less than 10 percent. TIGTA also reported that all required quarterly
+scorecards were posted to PaymentAccuracy.gov for FY 2023.
+Additionally, TIGTA reported that IRS has been unable to reduce improper payment rate estimates
+to less than 10 percent for each of its high-risk programs, most notably EITC. In Treasury’s FY
+2023 AFR, IRS noted that part of its actions to mitigate the risk of improper payments included
+outreach to taxpayers and tax preparers in lieu of conducting additional pre-refund audits.
+However, these initiatives may not make an immediate impact on the improper payment rates, if
+at all, due to the time it takes for taxpayers to file returns and for IRS to examine those returns.
+TIGTA also reported that their review of the risk assessment template found that it does not allow
+IRS to provide an accurate assessment of improper payment risk. The questions on the risk
+assessment are for general applicability and not intended to cover the unique nature of the IRS
+refundable credits program. Because the risk assessment template does not allow for an accurate
+assessment of improper payment risk related to IRS’s refundable credits programs, this could
+become problematic for those programs that are not regularly evaluated by external audit agencies
+and may have a higher risk than the template identifies. TIGTA reported that Treasury is aware of
+the unique nature of the refundable tax credits and has been understanding of the justifications IRS
+may have to make when completing the template.
+TIGTA’s report and IRS’s management response are provided in Appendix 2.
+
+Background
+Improper Payments Compliance and Reporting Requirements
+Under IPIA, Federal agencies were required to review and identify programs and activities
+susceptible to improper payments on an annual basis and report estimates of improper payments
+to Congress along with actions to reduce estimated improper payments that exceeded $10 million.
+In 2009, EO 13520, Reducing Improper Payments and Eliminating Waste in Federal Programs,
+required Federal agencies to intensify their efforts to eliminate payment error, waste, fraud, and
+abuse in major Federal programs while continuing to ensure that these programs serve and provide
+access to their intended beneficiaries. It increased Federal agencies’ accountability and required
+that Federal agencies provide their agency Inspector General with detailed information on efforts
+to identify and reduce the number of improper payments in Federal programs with the highest
+dollar value of improper payments.
+Following EO 13520, on July 22, 2010, the President signed IPERA into law. IPERA amended
+IPIA, strengthening agencies’ program reviews and reporting requirements. IPERA expanded the
+types of payments to be reviewed and established the requirement for agencies to conduct recovery
+audits if cost-effective. IPERA also required Inspectors General to report on their respective
+agencies’ compliance with IPERA each fiscal year. IPERIA further expanded agency improper
+payment requirements to foster greater agency accountability.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 5
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+In accordance with IPERIA and EO 13520, Offices of Inspector General (OIG) are required to
+review and report on their respective agencies’ OMB-designated high priority programs, if any.
+According to OMB, high-priority programs are all programs with IPs resulting in monetary loss
+that exceed $100 million annually. Specifically, OIGs are to review management’s assessment of
+the level of risk, the quality of the improper payment estimates and methodology, and the oversight
+and financial controls in place to identify and prevent improper payments. Recommendations, if
+any, are to be provided for modifying agency plans related to its high priority programs to include
+improvements for determining and estimating improper payments.
+For the FY 2023 reporting, OMB determined that EITC, ACTC, AOTC, and Net PTC are highpriority programs.
+In Memorandum 15-02 dated October 20, 2014, OMB issued revisions to OMB Circular No. A123, Appendix C, to provide agencies guidance on implementing all improper payment
+compliance and reporting requirements. In June 2018, OMB further revised the OMB guidance
+(OMB M-18-20) in an effort to transform the improper payment compliance framework to create
+a more unified, comprehensive, and less burdensome set of requirements. According to OMB M18-20, all agencies should institute a systematic method of reviewing all programs once every
+three years to determine the programs’ improper payment risk.
+On March 2, 2020, PIIA repealed IPERIA, IPERA, and IPIA, but set forth similar improper
+payment reporting requirements. Under PIIA, agencies must conduct a program-specific risk
+assessment for each program or activity identified by the agency, provide the methodology for
+identifying and measuring improper payments, and report on actions the agency intends to take to
+prevent future improper payments. PIIA requires the OMB Director to identify a list of high
+priority Federal programs for greater levels of oversight and review, in which the highest dollar
+value or highest rate of improper payments occur or for which there is a higher risk of improper
+payments. Agencies with high priority programs are required to submit an annual report to the
+Inspector General and OMB on actions (1) taken or planned to recover improper payments and (2)
+intended to prevent future improper payments. The annual report is also required to be available
+to the public through a website.
+OMB once again updated Circular A-123 Appendix C with guidance directly related to the
+Inspectors General review and issued OMB M-21-19, Transmittal of Appendix C to OMB Circular
+A-123, Requirements for Payment Integrity Improvement, on March 5, 2021. This guidance is
+effective starting in FY 2021. Each program with annual outlays over $10 million must conduct
+an IP risk assessment at least once every three years to determine whether the program is likely to
+have IPs and UPs above the statutory threshold.
+Treasury’s Improper Payment Risk Assessment
+Treasury issued Comprehensive Treasury Guidance for Payment Integrity Reporting in
+Accordance with OMB Circular A-123 Appendix C: Requirements for Payment Integrity
+Improvement (Treasury’s PIIA Guidance) to all Treasury’s Bureaus and Offices (hereafter referred
+to as “Components”). For all Fund Groups with over $10 million in Total Non-Federal
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 6
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Disbursements, a risk assessment is required once every three years. For Fund Groups that were
+new in the prior fiscal year, a risk assessment is required in the current fiscal year. An off-cycle
+risk assessment must be completed if there is a significant change in legislation and/or significant
+increase in funding levels.
+Components have the option to conduct a qualitative or a quantitative risk assessment. Programs
+should choose the methodology that reasonably supports whether the program is or is not
+susceptible to significant IPs. The qualitative risk assessment consists of a questionnaire template
+(Qualitative Questionnaire) that Components must complete to assess their susceptibility to IPs.
+The Qualitative Questionnaire aligns risk assessment questions and risk ratings to the eleven risk
+factors that could be considered when conducting a qualitative IP risk assessment according to
+OMB M-21-19:
+1) Whether the program reviewed is new to the agency;
+2) The complexity of the program reviewed;
+3) The volume of payments made through the program reviewed;
+4) Whether payments or payment eligibility decisions are made outside of the agency, such
+as by a state or local government;
+5) Recent major changes in program funding, authorities, practices, or procedures;
+6) The level, experience, and quality of training for personnel responsible for making program
+eligibility determinations or certifying that payments are accurate;
+7) Significant deficiencies in the audit report or other relevant management findings of the
+agency that might hinder accurate payment certification;
+8) Similarities (a combination of outlays, mission, payment process, etc.) to other programs
+that have reported IP and UP estimates or been deemed susceptible to significant IPs;
+9) The accuracy and reliability of IP and UP estimates previously reported for the program,
+or other indicator of potential susceptibility to IPs and UPs identified by the OIG of the
+executive agency, the Government Accountability Office (GAO), other audits performed
+by or on behalf of the federal, state, or local government, disclosures by the executive
+agency, or any other means;
+10) Whether the program lacks information or data systems to confirm eligibility or provide
+for other payment integrity needs; and
+11) The risk of fraud as assessed by the agency under the Standards for Internal Control in the
+Federal Government published by the GAO (commonly known as the ‘Green Book’).
+Based on the Component responses, the Qualitative Questionnaire automatically calculates the risk
+assessment rating (Susceptible or Not Susceptible) for each payment type and the overall risk
+assessment rating for the Fund Group based on the annual percentages and risk assessment ratings
+for all payment types.
+The quantitative risk assessment (Quantitative Summary) consists of a review of a sample of
+disbursements to calculate the IP and UP amount and rate. The IP and UP amount and rate are
+compared to OMB’s threshold to determine susceptibility to significant IPs. Fund Groups that are
+not required to complete a risk assessment for a given year are required to complete a certification
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 7
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+to attest that there has not been a significant change in legislation or funding since the last risk
+assessment has been completed.
+After each component completes and reviews its risk assessment, the results are provided to
+Treasury’s RCG. Fund Groups identified as susceptible to significant IPs through the risk
+assessments and all OMB-designated high priority programs will develop a sampling methodology
+and perform testing and calculate the annual estimated amount of IPs and UPs and the respective
+rates the following fiscal year. They will also identify the reasons they are at risk of IPs and UPs
+and create a Corrective Action Plan to prevent and reduce the IPs and UPs. Lastly, programs
+susceptible to IPs report the following payment integrity information with their annual financial
+statement, and on PaymentAccuracy.gov:
+·
+·
+·
+·
+·
+·
+
+IP reduction outlook;
+Root cause for IPs;
+Tolerable rates;
+Data and information themes;
+Corrective actions; and
+Non-compliant programs.
+
+For FY 2023, Treasury identified EITC, AOTC, ACTC, and Net PTC as programs susceptible to
+significant improper payments.
+On August 1, 2022, the Office of the Deputy Chief Financial Officer (ODCFO) submitted a
+memorandum to OMB, Limitations in Quantifying the Amount and Rate of Improper Payments for
+Short-Term Programs, explaining that due to the short timeframe over which the majority of
+disbursements will be made by a number of programs created by the American Rescue Plan Act
+of 2021, Coronavirus Aid, Relief, and Economic Security Act, and the Consolidated
+Appropriations Act of 2021 (COVID-19 related programs) for which Treasury is responsible,
+quantifying the amount and rate of improper payments, assessing the root cause, and developing
+corrective action plans to reduce payment errors in the future would provide minimal value and be
+an ineffective use of resources. Therefore, for short-term programs such as the COVID-19
+programs, Treasury will follow the guidance in OMB Circular A-123 Appendix C for assessing
+risk to identify those programs deemed susceptible to significant improper payments. However,
+Treasury will not plan to report an improper payment estimate of such programs either in its AFR
+or on PaymentAccuracy.gov.
+
+Payment Recapture Audits
+PIIA requires agencies to conduct recovery audits (also referred to as payment recapture audits) to
+prevent, detect, and recover overpayments, if conducting such audits would be cost-effective, for
+each program and activity that expends $1 million or more annually. A payment recapture audit is
+a review and analysis of an agency’s or program’s accounting and financial records, and other
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 8
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+pertinent information supporting its payments that is specifically designed to identify
+overpayments.
+Treasury’s PIIA Guidance requires each component to complete, certify, and submit a worksheet
+providing a consistent reporting format that includes information on the results of the component’s
+payment recapture audits and treatment of recaptured improper payments. The steps to perform a
+payment recapture audit include:
+1.
+2.
+3.
+4.
+5.
+
+Develop and perform a cost benefit analysis;
+Establish targets for the payment recapture audit program;
+Perform the payment recapture audit;
+Dispose of recaptured funds; and
+Report the results.
+
+The worksheets are submitted to the RCG for review and the data is consolidated and reported on
+the PaymentAccuracy.gov website.
+Treasury’s Improper Payment Reporting
+On November 15, 2023, Treasury published its Payment Integrity information with its annual
+financial statement, in accordance with OMB Circular A-136, to include:
+·
+·
+·
+·
+
+a hyperlink to the PaymentAccuracy.gov website;
+a summary of their payment integrity activities and results;
+summary discussing the nature of RTC claims; and
+IRS’s strategies to address the tax gap and reduce RTC errors.
+
+The following Payment Integrity information is also published on PaymentAccuracy.gov through
+OMB’s annual data request:
+·
+·
+·
+·
+·
+·
+
+IP and UP amounts and rates for the EITC, ACTC, AOTC, and Net PTC programs;
+High priority program results;
+IP root causes;
+Confirmed fraud;
+Payment recapture reporting information; and
+All programs assessed for risk of improper payment during the risk assessment cycle.
+
+Audit Results
+According to OMB Circular A-123, an agency is required to meet ten specific requirements to be
+compliant with PIIA. The ten requirements are (1) publishing payment integrity information in the
+AFR; (2) posting the AFR and accompanying materials to its website; (3) conducting IP risk
+assessments for each program with annual outlays greater than $10 million at least once in the last
+three years; (4) adequately concluding whether the program is likely to make IPs and UPs above
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 9
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+or below the statutory threshold; (5) publishing IP and UP estimates for programs susceptible to
+significant IPs and UPs in the accompanying materials to the AFR; (6) publishing corrective action
+plans for each program for which an estimate above the statutory threshold was published in the
+accompanying materials to the AFR; (7) publishing an IP and UP reduction target for each program
+for which an estimate above the statutory threshold was published in the accompanying materials
+to the AFR; (8) demonstrating improvements to payment integrity or reaching a tolerable IP and
+UP rate; (9) developing a plan to meet the IP and UP reduction target; and (10) reporting an IP and
+UP estimate of less than 10 percent for each program for which an estimate was published in the
+accompanying materials to the AFR.
+We found that Treasury was not in compliance with PIIA for FY 2023 because Treasury did not
+adequately conclude whether programs are likely to make IPs and UPs above or below the statutory
+threshold for the ERA and PSP pandemic relief programs and IRS did not report an overall
+improper payment rate of less than 10 percent for the EITC, ACTC, AOTC, and Net PTC
+programs. We discuss this further in our Finding 1 below. Treasury complied with the other PIIA
+requirements as outlined in Table 1. In addition, Appendix 3 provides a summary of Treasury
+programs’ compliance with PIIA reporting criteria for programs identified as susceptible to
+significant improper payments for FY 2023 reporting and for programs not susceptible to improper
+payments that conducted an IP risk assessment in FY 2023 based on Treasury’s three-year rotation
+schedule in accordance with OMB guidance.
+Table 1. Treasury's Compliance with PIIA Requirements
+PIIA Requirement
+Publish payment integrity information in the AFR
+Post the AFR and accompanying materials to its website
+Conduct IP risk assessments for each program with annual outlays greater
+than $10 million at least once in the last three years
+Adequately conclude whether programs are likely to make IPs and UPs
+above or below statutory threshold
+Publish IP and UP estimates for programs susceptible to significant IPs
+and UPs in the accompanying materials to the AFR
+Publish corrective action plans for each program for which an estimate
+above the statutory threshold was published in the accompanying
+materials to the AFR
+Publish an IP and UP reduction target for each program for which an
+estimate above the statutory threshold was published in the accompanying
+materials to the AFR
+Demonstrate improvements to payment integrity or reach a tolerable IP
+and UP rate
+Develop a plan to meet IP and UP reduction target
+Report an IP and UP estimate of less than 10 percent for each program for
+which an estimate was published in the accompanying materials to the
+AFR
+
+Compliance
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+
+Yes
+
+Yes
+Yes
+No
+
+Source: RMA’s and TIGTA’s review of the Department of the Treasury’s Compliance with PIIA requirements for FY 2023
+for the programs listed in Appendix 3.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 10
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Additionally, OMB determined that IRS’s EITC, ACTC, AOTC, and Net PTC refundable tax
+credits are high-priority programs for FY 2023. In compliance with EO 13520 for these highpriority programs, we noted that Treasury (1) established targets to reduce and recover improper
+payments; (2) provided the methodology to identify and measure improper payments; and (3)
+provided plans and supporting analysis to ensure that initiatives undertaken do not unduly burden
+program access and participation by eligible beneficiaries.
+We also reviewed Treasury’s risk assessment process and recapture audit programs to determine
+the accuracy and completeness of Treasury improper payments reporting. We noted that Treasury
+(1) included the required improper payment disclosures in the AFR; (2) performed risk
+assessments using required criteria defined by OMB Circular A-123 (with exceptions noted); and
+(3) conformed to OMB guidance for payment recapture audits (with exceptions noted). In addition,
+we determined that Treasury complied with the requirement to post required improper payment
+information to the PaymentAccuracy.gov website.
+
+Finding 1: Treasury Was Not in Compliance with PIIA for FY 2023
+We determined that Treasury was not in compliance with PIIA for FY 2023 due to Treasury not
+adequately concluding whether the ERA and PSP pandemic relief programs are likely to make IPs
+and UPs above or below the statutory threshold. RMA identified OCA, formerly ORP,
+management inadequately concluded that the ERA and PSP programs are not susceptible to IPs in
+their risk assessments completed for FY 2023 reporting, when these programs are likely
+susceptible to IPs. RMA identified that certain questions on the qualitative risk assessments were
+answered incorrectly by OCA management. OCA management indicated a rating as not
+susceptible, but it should have been susceptible.
+OCA’s Pandemic Relief Programs. OMB M-21-19 states “2b. Adequately concluded whether
+the program is likely to make IPs and UPs above or below the statutory threshold: To achieve
+compliance the agency must ensure that the IP risk assessment methodology used adequately
+concludes whether the program is likely to make IPs plus UPs above or below the statutory
+threshold.”
+In addition, OMB M-21-19 defines payment as “any transfer of Federal funds to any non-Federal
+person or entity or a Federal employee, that is made by a Federal agency, a Federal contractor, a
+Federal grantee, or a Governmental or other organization administering a Federal program or
+activity.”
+OCA management did not adequately complete its program-specific risk assessments over ERA
+and PSP programs. Specifically, responses to several of the ERA risk assessment questions focused
+on payments made at the agency level and did not consider payments made at the state and/or
+grantee level. In addition, the ERA risk assessment did not fully consider improper payments
+reported by ERA grantees and the results of Single Act Audit findings.
+The risk assessment for the PSP program failed to consider that the OCA re-certification effort,
+which was aimed at addressing systemic improper payments, was not fully effective. Specifically,
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 11
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+the re-certification effort relied on self-certification by air carriers and contractors but in March
+2023 Treasury OIG informed OCA management, that based on their audits of a sample of air
+carriers and contractors, 60 percent of the entities re-certified incorrectly.
+The inadequate conclusion of these programs’ susceptibility to IPs impacts Treasury’s compliance
+with the PIIA requirement of adequately concluding whether programs are likely to make IPs and
+unknown payments above or below the statutory threshold.
+Recommendation
+RMA recommends Treasury’s RCG work with OCA management to consider all information
+available when answering risk assessment questions to ensure adequate completion and conclusion
+of susceptibility for these program-specific risk assessments.
+Management’s Concurrence and RMA’s Response
+Treasury concurs with this recommendation. RCG will revise its Departmental guidance to all
+Components to better ensure they adequately complete risk assessment questionnaires and
+consider all information available when concluding on the overall susceptibility of risk.
+Treasury’s response meets the intent of the audit recommendation.
+As part of our reporting process, we provided a draft of this report to Treasury management for
+review and comment. In a written response, management noted that under Treasury’s PSP – which
+was authorized by the CARES Act (PSP1), Consolidated Appropriations Act of 2021 (PSP2), and
+the American Rescue Plan Act (PSP3) – Treasury awarded $59 billion in financial assistance to
+the domestic aviation industry for the continued payment of employee wages, salaries, and
+benefits. The funding had been urgently needed because the number of airline passengers suddenly
+dropped by an unprecedented 60% in 2020 due to the COVID-19 pandemic. At Congress’
+direction, Treasury created and implemented these programs on an expedited timeframe, including
+the publication of application procedures within five days after the passage of the CARES Act.
+Approximately 700 large and small businesses in every state received PSP assistance. Recipients
+reported using the PSP assistance to fully or partially fund the salaries and benefits of more than
+640,000 aviation employees during the pandemic, help maintain critical infrastructure capacity,
+and facilitate industry recovery. Additionally, recipients reported more than 360,000 aviation jobs
+being retained or created as a result of receiving PSP assistance. Employment levels in the aviation
+industry now surpass 2019 (pre-pandemic) levels.
+Management noted that the majority of PSP funds – approximately 89 percent – were awarded to
+large air carriers based on the reports that the carriers had filed with the U.S. Department of
+Transportation under 14 C.F.R. part 241. In contrast, the CARES Act required Treasury to provide
+financial assistance to smaller air carriers and aviation contractors in an amount that the applicants
+certified, using sworn financial statements or other appropriate data, as the amount of wages,
+salaries, and benefits that they paid to their employees during the time period from April 1, 2019,
+through September 30, 2019. OIG audits of this latter group have revealed that some smaller
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 12
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+recipients overstated their requested awardable amounts due to the improper inclusion of certain
+categories of expenses. Treasury has recouped $147 million so far. All three PSP programs have
+now concluded. Treasury will make no further payments to air carriers or aviation contractors.
+Management further noted that COVID-19 pushed families across the country to fall behind on
+their rent—many of whom already struggled with the cost of housing. At the end of 2020, nearly
+a fifth of renting households reported being behind on rent. One in six reported that eviction within
+two months was very likely. Through Treasury’s ERA programs – which were authorized by the
+Consolidated Appropriations Act of 2021 (ERA1) and American Rescue Plan Act (ERA2),
+respectively – Congress appropriated a total of $47 billion to address financial and housing
+instability caused by the COVID-19 pandemic. The ERA programs provided critical funding for
+state, local, territorial, and Tribal governments to prevent eviction and provide assistance to
+households for rent, utilities, and other eligible expenses. Moreover, Congress tasked Treasury
+with implementing ERA rapidly and under extraordinary emergency conditions. Despite these
+challenges, Treasury quickly implemented the program and oversaw unprecedented rental
+assistance. As of June 30, 2023, ERA had already provided more than 12.3 million rental assistance
+payments to families in need. The period of performance for ERA1 ended in December 2022 so
+there are no more payments in ERA1. As of June 30, 2023, grantees in ERA2 (which do not include
+Tribal governments), have reported to have expended 80% of the ERA2 allocations and have until
+September 30, 2025 (about 15 months) to expend the remaining funds.
+Refundable Tax Credit Programs. We also determined that Treasury was not in compliance with
+PIIA for FY 2023 due to IRS not reporting an overall improper payment rate of less than 10 percent
+for EITC, ACTC, AOTC, and Net PTC. Specifically, according to TIGTA’s report, IRS reported
+an improper payment rate of 33.5 percent (or $21.9 billion), 14.5 percent (or $0.5 billion), 31.6
+percent (or $1.7 billion), and 26.0 percent (or $1.0 billion) for EITC, ACTC, AOTC, and Net PTC
+respectively. PIIA requires an IP and UP estimate of less than 10 percent for each program for
+which an estimate was published in the accompanying materials to the annual financial statement.
+As TIGTA has reported previously, OMB advised IRS that, as an alternative to reducing the
+improper payment rate to less than 10 percent, a reduction target may remain constant given the
+complexities of the programs, as long as the complexities are explained in the Treasury AFR,
+which the IRS did.7
+TIGTA did not make any recommendations related to this finding.
+In a written response, management noted that they have long held that RTCs are not “payments”
+as intended under the improper payments legislation, as the tax system is a collection system rather
+than a payment system. Whereas a payment system is generally designed to implement internal
+controls that provide for appropriate verification and validation prior to payments being made, the
+statutory structure and design for administering RTCs prevent the IRS from verifying or validating
+such amounts prior to making the refund payment. Consequently, RTC overclaims are not the
+result of internal control weaknesses that they can remediate internally, but are, in fact, the result
+of factors beyond their control under the current law and existing authority. Even if they could
+7
+
+TIGTA, Report No. 2021-40-036, Improper Payment Rates for Refundable Tax Credits Remain High (May 2021).
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 13
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+obtain legislative changes and invest in additional resources and verification solutions that would
+ultimately reduce overclaims, the benefits derived would be marginal relative to the cost of doing
+so. Audits by the GAO and TIGTA have also concluded that RTC overclaims are largely due to
+the statutory design and complexity of the RTCs, not internal control weaknesses, financial
+management deficiencies, or reporting failures. Additionally, management noted that they are
+continuing to collaborate with the IRS to identify a more effective way to report on estimated
+payment errors associated with the RTC programs in the Department’s AFR as part of a broader
+discussion on the tax gap and tax burden.
+
+Finding 2: Insufficient Justification Memos for ERA, HAF, and PSP Programs
+for FY 2023 Reporting
+RMA identified OCA management did not provide appropriate justification memos for the ERA,
+HAF, and PSP programs in concluding that payment recapture audits were deemed not costeffective for these programs for FY 2023 reporting.
+OCA management last provided a justification memo for ERA, HAF, and PSP programs in
+September 2022:
+·
+·
+
+Stating no known improper payments to date have been made to primary recipients through
+the ERA I, ERA II, and HAF programs; and
+Describing PSP’s implementation of a compliance process that required recipients to
+recertify that their awards were correctly determined before receiving additional payments
+under the PSP program.
+
+OMB M-21-19 requires “All programs that expend $1,000,000 or more annually should be
+considered for recovery audits, however, agencies are only required to conduct recovery audits if
+conducting the audits would be cost-effective. If an agency determines that it would be unable to
+conduct a cost-effective recovery audit for certain programs, the analysis will need to be repeated
+only if circumstances change within the program that might make a recovery audit cost-effective.”
+OCA management did not update its analysis for FY 2023 reporting for these three programs that
+considers 1) known and likely improper payments made to recipients at the state and/or grantee
+level for ERA and HAF; and 2) information received in March 2023 that PSP’s self-certification
+process was not effective.
+Insufficient justification memos increase the risk of not conducting recovery audits and activities
+in a manner that will ensure the greatest financial benefit for the agency.
+Recommendation
+RMA recommends Treasury’s RCG require OCA management to conduct and provide an updated
+analysis and justification memo that takes into consideration known and likely improper payments
+made to recipients at all levels as reflected in audits and other information, that might impact its
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 14
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+conclusion on whether payment recapture audits are cost-effective for its pandemic relief
+programs.
+Management’s Concurrence and RMA’s Response
+Treasury concurs with this recommendation. RCG will revise its Departmental guidance to better
+ensure OCA and other Components update their analyses and justification memos as needed to
+take into consideration updated information related to known and likely improper payments related
+to recipients at all levels for purposes of concluding on the cost-effectiveness of performing
+payment recapture audits for their programs.
+Treasury’s response meets the intent of the audit recommendation.
+
+Finding 3: Untimely Submission of Justification Memo for OCA
+RMA identified OCA management failed to provide evidence of its payment recapture audit, or a
+justification memo if the payment recapture audit was deemed not cost-effective, for the
+Coronavirus Capital Projects Fund, a pandemic relief program, which had a total non-federal
+disbursement of $31.3 million for FY 2023 reporting.
+At the time the finding was identified, OCA management had not yet determined whether it would
+be cost effective to conduct a payment recapture audit. However, OCA management has
+traditionally submitted justification memos for its short-term programs. OCA management has
+subsequently submitted the justification memo for this fund for FY 2023 reporting to Treasury’s
+RCG on April 4, 2024, which was past the Treasury due date of August 7, 2023.
+OMB M-21-19 states that, “All programs that expend $1,000,000 or more annually should be
+considered for recovery audits, however, agencies are only required to conduct recovery audits if
+conducting the audits would be cost-effective.”
+Treasury’s PIIA Guidance, Phase 5: Other Activities, Payment Recapture Audit, Page 19, “If it is
+determined that a payment recapture audit is not cost-beneficial, Components must provide
+ODCFO with a justification memo documenting why the Component believes it will not be costeffective to perform a payment recapture audit.”
+FY 2023 Annual Treasury Guidance for Payment Integrity Reporting in Accordance with OMB
+Circular A-123 Appendix C: Requirements for Payment Integrity Improvement, Section III:
+Deliverables, Page 8, “Due Date: August 7, 2023, Milestone: If a Component determines that it
+would not be cost-effective to perform a payment recapture audit, submit a justification for each
+Fund Group to the ODCFO. (The justification is not needed if it was sent in a previous year).”
+Treasury’s RCG did not update their tracking sheet appropriately for FY 2023 since the
+Coronavirus Capital Projects Fund expended under $1,000,000 and did not need to submit a
+justification in FY 2022. In addition, OCA management did not adequately review the tracking
+sheet to ensure all programs that expended over $1,000,000 were appropriately identified.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 15
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Failure to conduct a payment recapture audit or provide a justification memo if an audit was
+deemed not cost-effective per Treasury guidance, increases the risk of not identifying and
+recovering overpayments in accordance with OMB requirements, and can lead to inaccurate
+payment recapture reporting on PaymentAccuracy.gov.
+Recommendation
+RMA recommends Treasury’s RCG emphasize the requirement that Components review for
+completeness and accuracy the tracking sheet used to determine the fund groups that have
+expended over $1,000,000 and would therefore need to provide evidence of either a payment
+recapture audit or a justification memo by Treasury’s due dates. Further, RCG should complete a
+thorough review of the tracking sheets submitted by Components for completeness and accuracy.
+Management’s Concurrence and RMA’s Response
+Treasury concurs with this recommendation. RCG has revised the tracking sheet to automatically
+highlight fund groups that were previously under $1 million, that are now over the $1 million
+threshold, and must conduct payment recapture auditing or submit a cost-effective justification
+memo. During the annual roundtable meeting with Components, RCG reemphasized the
+requirement that Components must review the tracking sheet for completeness and accuracy.
+Additionally, a second-party review will be conducted of the internal tracking sheet used to
+determine all fund groups that have expended over the $1 million threshold.
+Treasury’s response meets the intent of the audit recommendation.
+
+Finding 4: Inaccurate Completion of HAF and CDFI Fund Risk Assessments
+RMA identified OCA and CDFI Fund management’s responses to certain risk assessment
+questions in its qualitative risk assessment over the HAF program and Emergency Response
+Program that were inaccurate in determining the payment type’s susceptibility to significant
+improper payments. Specifically, RMA identified four instances and two instances where OCA
+and CDFI Fund management, respectively, indicated a rating as not susceptible but should have
+been susceptible.
+RMA noted that although the inaccurate responses to the risk assessment questions affected the
+rating of a risk factor from not susceptible to susceptible, these inaccurate responses did not affect
+the overall risk assessment rating for the programs identified.
+FY 2023 Annual Treasury Guidance for Payment Integrity Reporting in Accordance with OMB
+Circular A-123 Appendix C: Requirements for Payment Integrity Improvement, Section III:
+Deliverables, Page 9, states “Work performed is subject to review by the ODCFO and the
+Department’s auditors. Components must maintain their documentation at a level that can
+withstand management and auditor scrutiny. As such, Components should ensure all deliverables
+are reviewed for accuracy and completeness prior to submission to ODCFO.”
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 16
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+OCA and CDFI Fund management did not adequately complete its program-specific risk
+assessments over the HAF program and Emergency Response Program. In addition, OCA, CDFI
+Fund management, and Treasury’s RCG did not identify these inaccurate responses during their
+review of the risk assessment.
+These inaccurate responses can lead to an inaccurate assessment of a program’s susceptibility to
+improper payments, increasing the likelihood of improper payments occurring in the future.
+Recommendation
+Since this is a repeat condition from prior years, RMA recommends Treasury’s RCG works with
+all components to accurately complete and review the program-specific risk assessments.
+Management’s Concurrence and RMA’s Response
+Treasury concurs with this recommendation. Though this is a repeat condition from prior years,
+Treasury notes that this finding occurring across a number of its programs declined significantly
+from 21 instances reported in the prior year’s audit down to six instances in this year’s audit. RCG
+made improvements to the FY 2024 risk assessment template provided to Components to
+streamline and improve the clarity of several questions that certain Components previously
+responded to improperly. Additionally, in the FY 2024 guidance, RCG accelerated the timing of
+receipt of the risk assessments to provide RCG more time to review and provide feedback to
+Components, thus facilitating a more efficient review and clearance process for them. Finally,
+RCG hosted a roundtable for all Treasury components to discuss the improvements and continue
+to emphasize the importance of ensuring the accuracy and quality control reviews of the risk
+assessments.
+Treasury’s response meets the intent of the audit recommendation.
+Management’s response to our report is provided in Appendix 4.
+
+Treasury Inspector General for Tax Administration Audit Results
+The following are excerpts from TIGTA’s FY 2023 PIIA audit report. TIGTA did not make any
+recommendations in their report.
+
+Finding 1: Assessment of FY 2023 Compliance With Improper Payment
+Reporting Requirements
+TIGTA’s review found that IRS was largely compliant with the reporting requirements contained
+in the PIIA for FY 2023. IRS still has not satisfied the PIIA goal of reducing the overall improper
+payment rate for ACTC, AOTC, EITC, and Net PTC to less than 10 percent. TIGTA also reported
+that all required quarterly scorecards were posted to PaymentAccuracy.gov for FY 2023.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 17
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Finding 2: Despite IRS Efforts, Improper Payment Rate Estimates Continue to
+Be High
+TIGTA reported that IRS has been unable to reduce improper payment rate estimates to less than
+10 percent for each of its high-risk programs, most notably EITC. According to the Treasury AFR,
+EITC estimated error rates have ranged from 22.8 percent to 33.5 percent from FY 2006 through
+FY 2023. This is despite IRS’s efforts to reduce these rates.
+TIGTA reported that in the FY 2023 AFR, IRS noted that part of its actions to mitigate the risk of
+improper payments included outreach to taxpayers and tax preparers in lieu of conducting
+additional pre-refund audits. IRS has implemented several different outreach initiatives intended
+to raise public awareness and encourage eligible taxpayers to claim refundable credits.
+Specifically, the IRS will reduce the number of pre-refund audits focused on refundable credits
+while also expanding outreach to help taxpayers claim the credits correctly at the time of filing.
+According to IRS, focusing on helping taxpayers submit accurate filings will increase payment
+accuracy while reducing administrative burdens for both IRS and the tax filer. In addition, IRS
+also intends to increase enforcement activities that focus on unscrupulous preparers who contribute
+to the noncompliance in this area. However, these initiatives may not make an immediate impact
+on the improper payment rates, if at all, due to the time it takes for taxpayers to file returns and for
+IRS to examine those returns.
+IRS implements strategies that educate taxpayers and preparers by proactively sharing information
+about the eligibility requirements for refundable credits and identifying the most common errors.
+Some of IRS’s outreach and education strategies include nationwide tax forums and refundable
+credits summit, technical training and tax preparer toolkits, webinars and tax preparer alerts, and
+EITC Central and EITC Awareness Day.
+IRS has indicated that refundable credit noncompliance among tax return preparers has been a
+growing concern for several years. The IRS has shifted its focus from examining potentially
+noncompliant taxpayers to addressing noncompliant return preparers who file tax returns claiming
+the ACTC, AOTC, and EITC.8 Some of these efforts include focused treatment for return
+preparers, “knock and talk” visits, and “ghost preparers.”
+Lastly, IRS is issuing notices and letters to taxpayers to both encourage potentially eligible
+taxpayers to take a credit and inform taxpayers who were not selected for audit of their potential
+risk of noncompliance. Examples of IRS issuing letters and notices to taxpayers are Letter 6589,
+EITC Compliance Refresh-Letter 1 (Soft), Letter 6591, Advance Child Tax Credit Outreach Letter
+for TY 21 filers yet to file (English & Spanish), Letter 6571, ARPA Section 9663 Notice, and
+Notices.
+
+8
+
+TIGTA currently has a separate audit, Changes to the Earned Income Taxpayer Credit Audit Examination Strategy
+(Audit No. 2024308026), to review the Wage and Investment Division’s portion of the IRS’s examination plan and
+the changes to the EITC case selection processes to ensure a fair and equitable examination selection process and to
+assess compliance with the Secretary of the Treasury’s directive to the IRS.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 18
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Finding 3: The Treasury Department Risk Assessments Still Do Not Accurately
+Reflect the Level of Risk for the IRS Refundable Credit Programs
+TIGTA’s review of the risk assessment template found that it does not allow IRS to provide an
+accurate assessment of improper payment risk. TIGTA reported the questions on the risk
+assessment are for general applicability and not intended to cover the unique nature of IRS
+refundable credits program.
+Although the results of the completed qualitative risk assessments for the Advance Child Tax
+Credit and Child and Dependent Care Tax Credit indicated that these credits were not susceptible
+to improper payment risk, the IRS revised the risk assessment and deemed them “susceptible.”
+The IRS deemed these programs susceptible because of the similarity of these programs with other
+programs that have high error rates and deficiencies identified by external audit agencies, such as
+TIGTA.
+TIGTA previously reported similar concerns with the accuracy of the assessment of improper
+payment risk.9 Because the risk assessment template does not allow for an accurate assessment of
+improper payment risk, this could become problematic for those programs that are not regularly
+evaluated by external audit agencies and may have a higher risk than the template identifies.
+TIGTA met with IRS and discussed the effectiveness of a risk assessment that must be changed to
+accommodate IRS programs. Representatives from the IRS Office of the Chief Financial Officer
+noted that they did not participate in updating the new risk assessment templates and that it would
+be difficult to modify the template to reflect the unique nature of the refundable tax credits and
+still have a generally applicable template. Treasury is aware of this unique nature and has been
+understanding of the justifications the IRS may have to make when completing the template.
+TIGTA did not make any recommendations in their report.
+
+9
+
+TIGTA, Report No. 2017-40-030, Revised Refundable Credit Risk Assessments Still Do Not Provide an Accurate
+Measure of the Risk of Improper Payments (Apr. 2017) and TIGTA, Report No. 2016-40-036, Without Expanded
+Error Correction Authority, Billions of Dollars in Identified Potentially Erroneous Earned Income Credit Claims Will
+Continue to Go Unaddressed Each Year (Apr. 2016).
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 19
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Appendix 1: Objective, Scope, and Methodology
+The overall objective of our audit was to determine the Department of the Treasury’s (Treasury)
+Fiscal Year (FY) 2023 compliance with the Payment Integrity Information Act of 2019 (PIIA).
+We assessed Treasury’s compliance with the reporting requirements set forth in PIIA; and
+Executive Order 13520, Reducing Improper Payments and Eliminating Waste in Federal
+Programs. Our audit scope covered the period October 1, 2022, through September 30, 2023 and
+did not include the review of programs and activities administered by the Internal Revenue Service
+(IRS). The Treasury Inspector General for Tax Administration (TIGTA) is responsible for the audit
+of IRS’s compliance with reporting requirements contained in the PIIA.
+To accomplish our objective, we performed the following activities during audit fieldwork
+conducted from January 2024 through May 2024:
+·
+
+·
+
+·
+
+We reviewed applicable laws, regulations, and guidance issued by the Office of
+Management and Budget (OMB), and Comprehensive Treasury Guidance for Payment
+Integrity Reporting in Accordance with OMB Circular A-123 Appendix C: Requirements
+for Payment Integrity Improvement.
+We reviewed the FY 2023 Agency Financial Report (AFR) and any accompanying
+information to assess whether Treasury:
+o published payment integrity information in an AFR;
+o posted AFR and accompanying materials on its website;
+o conducted improper payment (IP) risk assessments for each program with annual
+outlays greater than $10 million at least once in the last three years;
+o adequately concluded whether the program is likely to make IPs and unknown
+payments (UPs) above or below the statutory threshold;
+o published IP and UP estimates for programs susceptible to significant IPs and UPs
+in the accompanying materials to the annual financial statement;
+o published corrective action plans for each program for which an estimate above the
+statutory threshold was published in the accompanying materials to the annual
+financial statement;
+o published an IP and UP reduction target, if required and applicable;
+o demonstrated improvements to payment integrity or reached a tolerable IP and UP
+rate, if applicable;
+o developed a plan to meet the IP and UP reduction target, if required and applicable;
+and
+o reported an IP and UP estimate of less than 10 percent for each program for which
+an estimate was published in the accompanying materials to the annual financial
+statement.
+To assess Treasury’s program-specific risk assessment process, we selected the population
+of all non-IRS programs which completed a risk assessment for year three in the three-year
+rotation. To determine the completeness and accuracy of the information reported and
+compliance with the applicable guidance, we reviewed the program risk assessments and
+supporting documentation. RMA issued Finding 1: Treasury Was Not in Compliance with
+PIIA for FY 2023 and Finding 4: Inaccurate Completion of Homeowners Assistance Fund
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 20
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+·
+
+(HAF) and Community Development Financial Institutions Fund Risk Assessments as a
+result of our testing.
+To assess Treasury’s payment recapture audit program, we tested all non-IRS reporting
+entities’ recapture audit programs. To determine the completeness and accuracy of the
+information reported and compliance with the applicable guidance, we reviewed the
+components’ submissions of the payment recapture audit results and determined if the
+component (1) employed an internal control program to prevent, detect and recover
+overpayments; (2) considered all programs that expend $1 million or more annually; (3)
+prepared and submitted justifications for those programs that did not complete a payment
+recapture audit; (4) completed and submitted Payment Recapture Audit Results worksheets
+to Treasury’s Risk and Control Group (RCG); and (5) disposed of recovered funds in
+accordance with OMB guidance. In addition, we reviewed the supporting documentation
+related to the payment recapture audit results for all non-IRS components that completed a
+payment recapture audit. We determined if the component accurately reported the payment
+recapture audit results on PaymentAccuracy.gov. RMA identified inaccurate sum formulas
+that resulted in an immaterial error in calculating the consolidated overpayment amounts
+identified and recovered outside of payment recapture audits and worked with Treasury
+RCG to streamline and simplify the consolidated payment recapture reporting spreadsheet
+and ensure calculations are accurate by ensuring a second-party review of the formulas in
+the spreadsheet is performed. RMA also issued Finding 2: Insufficient Justification Memos
+for Emergency Rental Assistance, HAF, and Air Carrier Payroll Support Programs for FY
+2023 Reporting and Finding 3: Untimely Submission of Justification Memo for Office of
+Capital Access as a result of our testing.
+
+Management is responsible for the design, implementation, and operating effectiveness of the
+agency’s internal controls over payment integrity. We assessed Treasury’s internal controls and
+compliance with policies and procedures necessary to satisfy the audit objectives. We determined
+that the principles of designing and implementing control activities within the control activities
+component of internal controls, as well as the principle of performing monitoring activities within
+the monitoring component of internal controls, were significant to Treasury’s improper payment
+reporting.
+We assessed whether internal controls are properly designed, implemented, and operating
+effectively by reviewing and inspecting relevant documents and data and re-performing
+procedures. However, because our review was limited to these internal control components and
+underlying principles, it may not have disclosed all internal control deficiencies that may have
+existed at the time of this audit.
+We also assessed the reliability of the improper payment data by (1) reconciling the data to
+supporting documentation, (2) reviewing existing information about the data and the system that
+produced them, and (3) conducting an interview with Treasury’s personnel knowledgeable about
+the data. We determined that the data were sufficiently reliable for the purposes of this report.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 21
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper
+Payment Reporting Requirements in FY 2023 and IRS Management’s
+Response
+
+TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION
+
+Assessment of Fiscal Year 2023 Compliance With
+Improper Payment Reporting Requirements
+May 17, 2024
+Report Number: 2024-400-026
+
+This report remains the property of the Treasury Inspector General for Tax Administration (TIGTA) and may not be disseminated beyond the
+Internal Revenue Service without the permission of TIGTA. This report may contain confidential return information protected from disclosure
+pursuant to I.R.C. § 6103(a). Such information may be disclosed only to Department of the Treasury employees who have a need to know this
+information in connection with their official tax administration duties.
+
+TIGTACommunications@tigta.treas.gov | www.tigta.gov
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 22
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+HIGHLIGHTS: Assessment of Fiscal Year 2023 Compliance
+With Improper Payment Reporting Requirements
+Final Audit Report issued on May 17, 2024
+
+Why TIGTA Did This Audit
+This audit was initiated because
+TIGTA is required to annually
+assess and report on the IRS’s
+compliance with the reporting
+requirements contained in the
+Payment Integrity Information Act
+of 2019. The objective of this
+review was to determine whether
+the IRS complied with the annual
+improper payment reporting
+requirements for Fiscal
+Year (FY) 2023.
+
+Report Number 2024-400-026
+
+What TIGTA Found
+For FY 2023, the IRS was largely compliant with the reporting
+requirements contained in the Payment Integrity Information Act
+of 2019. However, the IRS still has not satisfied the Payment Integrity
+Act goal to reduce improper payment rates to less than 10 percent.
+The IRS estimated the improper payment rates for the following
+programs: Additional Child Tax Credit (ACTC), American Opportunity
+Tax Credit (AOTC), Earned Income Tax Credit (EITC) and Net Premium
+Tax Credit (PTC).
+
+Impact on Tax Administration
+The Payment Integrity Information
+Act of 2019 and the Office of
+Management and Budget (OMB)
+define an improper payment as
+any payment that should not have
+been made, was made in an
+incorrect amount, or was made to
+an ineligible recipient. The IRS
+currently has identified four
+programs that meet the OMB’s
+definition of a high-priority
+program susceptible to improper
+payments. The OMB defines
+high-priority programs as
+programs with improper payments
+resulting in monetary losses that
+exceed $100 million annually.
+
+In the FY 2023 Agency Financial Report, the IRS noted that part of its
+actions to mitigate the risk of improper payments included outreach
+to taxpayers and tax preparers in lieu of conducting additional
+pre-refund audits. The IRS has implemented several different
+outreach initiatives intended to raise public awareness and
+encourage eligible taxpayers to claim refundable tax credits.
+Specifically, the IRS will reduce the number of pre-refund audits
+focused on refundable tax credits while also expanding outreach to
+help taxpayers claim the credits correctly at the time of filing.
+According to the IRS, focusing on helping taxpayers submit accurate
+filings will increase payment accuracy while reducing administrative
+burdens for both the IRS and the tax filer. In addition, the IRS also
+intends to increase enforcement activities that focus on unscrupulous
+preparers who contribute to the noncompliance in this area.
+However, these initiatives may not make an immediate impact on the
+improper payment rates.
+Finally, this review also found that the Department of the Treasury
+risk assessment template does not allow the IRS to provide an
+accurate assessment of improper payment risk. While the results of
+the qualitative risk assessments for the Advance Child Tax Credit and
+Child and Dependent Care Tax Credit indicated that these credits
+were not susceptible to improper payment risk, the IRS deemed them
+“susceptible.” The IRS deemed these programs susceptible because
+of the similarity of these programs with other programs that have
+high error rates and deficiencies identified by external audit agencies,
+such as TIGTA.
+
+What TIGTA Recommended
+TIGTA did not make any recommendations in this report.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 23
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+
+May 17, 2024
+
+MEMORANDUM FOR: COMMISSIONER OF INTERNAL REVENUE
+
+FROM:
+
+Matthew A. Weir
+Acting Deputy Inspector General for Audit
+
+SUBJECT:
+
+Final Audit Report – Assessment of Fiscal Year 2023 Compliance With
+Improper Payment Reporting Requirements (Audit No.: 2024400001)
+
+This report presents the results of our review to determine whether the Internal Revenue Service
+complied with the annual improper payment reporting requirements for Fiscal Year 2023. This
+review is part of our Fiscal Year 2024 Annual Audit Plan and addresses the major management
+and performance challenge of Tax Fraud and Improper Payments.
+Management’s complete response to the draft report is included as Appendix IV. If you have
+any questions, please contact me or Diana Tengesdal, Assistant Inspector General for Audit
+(Returns Processing and Account Services).
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 24
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Table of Contents
+Background .....................................................................................................................................Page 1
+Results of Review........................................................................................................................Page 3
+Assessment of Fiscal Year 2023 Compliance With
+Improper Payment Reporting Requirements ............................................................Page 4
+Despite Internal Revenue Service Efforts, Improper
+Payment Rate Estimates Continue to Be High ..........................................................Page 5
+The Treasury Department Risk Assessments Still Do Not
+Accurately Reflect the Level of Risk for the IRS
+Refundable Credit Programs............................................................................................Page 9
+
+Appendices
+Appendix I – Detailed Objective, Scope, and Methodology ................................Page 10
+Appendix II – Programs Identified for Improper Payment Risk
+Assessments ..........................................................................................................................Page 11
+Appendix III – Improper Payment Laws Repealed by the Payment
+Integrity Information Act of 2019 ..................................................................................Page 12
+Appendix IV – Management’s Response to the Draft Report .............................Page.13
+Appendix V – Glossary of Terms.....................................................................................Page.15
+Appendix VI – Abbreviations ...........................................................................................Page.17
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 25
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Background
+The Payment Integrity Information Act of 2019 (PIIA) and the Office of Management and Budget
+(OMB) define an improper payment as any payment that should not have been made, was made
+in an incorrect amount, or was made to an ineligible recipient.1 Agency Inspectors General are
+responsible for evaluating agency information related to improper payments.
+On March 2, 2020, the PIIA repealed several improper payment laws but set forth similar
+improper payment reporting requirements.2 For example, agencies must conduct a
+program-specific risk assessment for each program or activity identified by the agency as
+exceeding $10 million in annual outlays at least once every three years, provide the
+methodology for identifying and measuring improper payments, and report on actions the
+agency intends to take to prevent future improper payments. In addition, the following remain
+in effect:
+Executive Order 13520, Reducing Improper Payments, issued on
+November 20, 2009, requires Federal agencies to provide agency Inspectors
+General with detailed information on efforts to identify and reduce the number
+of improper payments in Federal programs with the highest dollar value of
+improper payments.
+The Consolidated Appropriations Act of 2021 , enacted on
+December 27, 2020.3 This Act directed the Internal Revenue Service (IRS) to
+make the elimination of improper payments an utmost priority. In addition,
+the Act directed the IRS to implement, within 270 calendar days of enactment
+of the Act, all open and unimplemented recommendations from the Treasury
+Inspector General for Tax Administration (TIGTA) and the Government
+Accountability Office that address improper payments, or report on
+impediments to implementation of each open recommendation. We
+previously assessed the IRS’s compliance with this requirement and found the
+IRS reported all unimplemented recommendations as required.4
+OMB Circular A-123 Appendix C, Requirements for Payment Integrity
+Improvement , issued on March 5, 2021. Appendix C provides agencies and
+Inspectors General with guidance on improper payment determinations and
+reporting. Every year, each agency Inspector General must review its agency’s
+improper payment reporting in the Agency Financial Report (AFR) and any
+accompanying material, such as that provided on www.paymentaccuracy.gov,
+to determine if the agency complies with improper payment legislation and
+OMB guidance.
+
+1
+
+Pub. L. No. 116-117, 134 Stat. 113. Additionally, see Appendix V for a glossary of terms.
+See Appendix III for a list of repealed improper payment laws.
+3
+Pub. L. No. 116-260, 134 Stat. 1182.
+4
+TIGTA, Report No. 2021-40-036, Improper Payment Rates for Refundable Tax Credits Remain High (May 2021) and
+TIGTA, Report No. 2022-40-037, Programs Susceptible to Improper Payments Are Not Adequately Assessed and
+Reported (May 2022).
+2
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 26
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Process to identify IRS programs for improper payment risk assessment
+Agencies must conduct an improper payment risk assessment at least once every three years for
+each program with annual outlays over $10 million. The Department of the Treasury (hereafter
+referred to as Treasury Department) identifies the programs that the IRS must assess for the risk
+of improper payments each fiscal year. The IRS must complete a Treasury Certification for each
+program that was not identified as needing a risk assessment this year stating there were no
+material changes to the program since the last risk assessment was completed. For Fiscal Year
+(FY) 2023, the Treasury Department selected 15 program fund groups that required certification
+and six IRS programs that required a risk assessment.5
+The IRS can use one of two types of risk assessments:
+Qualitative Risk Assessment – used to assess the risk that a program’s internal
+controls could lead to susceptible improper payments. The OMB requires
+agencies to conduct qualitative assessments after the first 12 months of the
+program and at least once every three fiscal years thereafter. Once the IRS
+determines that a program is susceptible to improper payments, it must
+produce a statistically valid estimate of the improper payments the following
+fiscal year.
+Quantitative Risk Assessment – used to review a sample of disbursements to
+formulate the overall estimated improper payment rate. In cases in which a
+quantitative risk assessment is conducted, it could take one of several forms,
+such as a statistical assessment similar to what is required for the regular
+improper payment estimate or a nonstatistical assessment in which its ratio of
+improper payments and unknown payments is projected to the annual outlays.
+In addition, the IRS must provide the following information as part of an improper payment
+estimate for any program identified as susceptible to significant improper payments as a result
+of a risk assessment for inclusion in the Treasury Department’s next fiscal year Treasury AFR:
+Ø The rate and amount of improper payments.
+Ø The root causes of the improper payments.
+Ø The actions taken to address the root causes.
+Ø The annual improper payment reduction targets.
+Ø A discussion of any limitations to the IRS’s ability to reduce improper payments.
+
+The Treasury Department and the IRS continue to request relief from improper payment
+reporting requirements for refundable tax credit claims
+In their Business Case to Eliminate Redundant Reporting of Refundable Tax Credits, dated
+October 30, 2020, the Treasury Department and the IRS informed the OMB that the tax system is
+primarily a collection system and not a payment program. Further, the business case states that
+while the refundable portions of refundable tax credits are considered outlays and currently fall
+5
+
+Appendix II provides the list of the six IRS programs identified by the Treasury Department for improper payment
+risk assessments in FY 2023.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 27
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+under the scope of payments under the PIIA, the Treasury Department and the IRS do not
+believe that refundable tax credits should be considered improper payments under the PIIA
+because they do not believe that the refundable tax credits meet the definition of payments in
+the traditional sense. Instead, the Treasury Department believes the credits should be reported
+only under the Tax Gap framework that comprehensively assesses the tax collection system. The
+IRS noted in its business case that refundable tax credit overclaims are largely due to their
+statutory design and the complexities taxpayers face when self-certifying eligibility and not due
+to internal control weaknesses, financial management deficiencies, or reporting failures. In
+addition, the IRS noted that Tax Gap estimates and other comprehensive compliance analyses
+are more effective in helping the IRS identify noncompliance and allocate limited resources
+effectively. In May 2023, we reported that the OMB continues to review the IRS’s business case,
+provided to the OMB in October 2020.6 As of March 26, 2024, IRS officials confirmed that there
+have been no changes in the status of refundable credits reporting. The IRS continues to
+support the business case and is working to find a better approach to reporting on these
+programs.
+
+Results of Review
+The OMB defines high-priority programs as programs with improper payments resulting in
+monetary losses that exceed $100 million annually. For FY 2023, as shown in Figure 1, the IRS
+reported the estimated dollar amount and percentage rate of improper payments associated
+with four of its high-priority programs susceptible to improper payments: Additional Child Tax
+Credit (ACTC); American Opportunity Tax Credit (AOTC), Earned Income Tax Credit (EITC) and
+Net Premium Tax Credit (PTC).
+
+Figure 1: FY 2023 Total Claims, Improper Payments, and
+Improper Payment Rates7
+Program
+
+Claims
+(in billions)
+
+Improper
+Payments
+(in billions)
+
+Improper
+Payment Rate
+
+ACTC
+
+$3.8
+
+$0.5
+
+14.5%
+
+AOTC
+
+$5.2
+
+$1.7
+
+31.6%
+
+Net PTC
+
+$3.7
+
+$1.0
+
+26.0%
+
+EITC
+
+$65.4
+
+$21.9
+
+33.5%
+
+Source: FY 2023 Treasury AFR.
+
+6
+
+TIGTA, Report No. 2023-40-032, Fiscal Year 2022 Improper Payment Reporting Requirements Were Largely Met;
+However, Improper Payment Estimates Are Less Precise (May 2023).
+7
+For presentation purposes, the improper payment rates, total payments, and estimated improper payments as
+presented may be impacted by rounding. Further detail is available within the datasets found on
+www.paymentaccuracy.gov.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 28
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Assessment of Fiscal Year 2023 Compliance With Improper Payment
+Reporting Requirements
+The IRS was largely compliant with the reporting requirements contained in the PIIA for FY 2023.
+Although the IRS complied with 12 of 13 requirements, it still has not satisfied the PIIA goal of
+reducing the overall improper payment rate for the ACTC, AOTC, EITC, and the Net PTC to less
+than 10 percent. As we have reported previously, the OMB advised the IRS that as an alternative
+to reducing the improper payment rate to less than 10 percent, a reduction target may remain
+constant given the complexities of the programs, as long as the complexities are explained in
+the Treasury AFR, which the IRS did.8
+Figure 2 provides a summary of our evaluation of the IRS’s compliance with the various
+improper payment reporting requirements.
+
+Figure 2: Compliance With Improper Payment Requirements for FY 2023
+Improper Payment Requirement
+
+Source of
+Requirement
+
+Published Payment Integrity information with the annual
+financial statement.
+
+PIIA
+
+Posted the annual financial statement and accompanying
+materials to agency website.
+
+PIIA/
+Executive Order
+
+Conducted improper payment risk assessments for each
+program with annual outlays greater than $10 million at least
+once in the last three years.
+
+PIIA
+
+Adequately concluded whether programs are likely to make
+improper payments and unknown payments above or below
+statutory threshold.9
+
+PIIA
+
+Published improper payment and unknown payment
+estimates for programs susceptible to improper payments and
+unknown payments in accompanying materials to the annual
+financial statement.
+
+PIIA
+
+Published corrective action plans for each program for which
+an estimate above the statutory threshold was published in
+the accompanying materials to the annual financial statement.
+
+PIIA
+
+Published an improper payment and unknown payment
+reduction target for each program for which an estimate
+above the statutory threshold was published in the
+accompanying materials to the annual financial statement.
+
+PIIA
+
+8
+
+IRS
+Compliance
+
+TIGTA, Report No. 2021-40-036, Improper Payment Rates for Refundable Tax Credits Remain High (May 2021).
+Unknown payments are payments made by a program where it is still unknown whether the payment is proper or
+improper. Payments are reported as unknown so that a program does not unintentionally over or under report the
+payment type results.
+9
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 29
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+Improper Payment Requirement
+
+Source of
+Requirement
+
+Demonstrated improvements to payment integrity or to reach
+a tolerable improper payment and unknown payment rate.
+
+PIIA
+
+Developed a plan to meet the improper payment and
+unknown payment reduction target.
+
+IRS
+Compliance
+
+PIIA/
+Executive Order
+
+Reported an improper payment and unknown payment
+estimate of less than 10% for each program for which an
+estimate was published in the accompanying materials to the
+annual financial statement.
+
+PIIA
+
+Established targets to reduce and recover improper payments.
+
+Executive Order
+
+Provided the methodology to identify and measure improper
+payments.
+
+Executive Order
+
+Provided plans and supporting analysis to ensure that the
+initiatives undertaken do not unduly burden program access
+and participation by eligible beneficiaries.
+
+Executive Order
+
+Source: TIGTA’s review of the IRS’s compliance with improper payment requirements for FY 2023 for the
+IRS’s four high-risk programs.
+
+The OMB also posts quarterly scorecards associated with high-priority programs to
+www.paymentaccuracy.gov. It determines the scorecards to be posted based on the prior year’s
+AFR. We previously reported that the Treasury Department expected to report on the Net PTC
+in its quarterly scorecards for FY 2023.10 We found that all required quarterly scorecards were
+posted to www.paymentaccuracy.gov for FY 2023.11
+
+Despite Internal Revenue Service Efforts, Improper Payment Rate Estimates
+Continue to Be High
+The IRS has been unable to reduce improper payment rate estimates to less than 10 percent for
+each of its high-risk programs, most notably the EITC. According to the Treasury AFR, the EITC
+estimated error rates have ranged from 22.8 percent to 33.5 percent from FY 2006 through
+FY 2023. This is despite the IRS’s efforts to reduce these rates. Figure 3 provides a comparison
+of the improper payment rates from FY 2021 through FY 2023.12
+
+10
+
+TIGTA, Report No. 2023-40-032, Fiscal Year 2022 Improper Payment Reporting Requirements Were Largely Met;
+However, Improper Payment Estimates Are Less Precise (May 2023).
+11
+For FY 2023, the OMB waived the 1 st quarter scorecards reporting for all agencies.
+12
+Beginning in FY 2022, the IRS changed its estimation of improper payments. Specifically, the IRS relied on a smaller
+National Research Program sample size and changed the period for reporting on claims and improper payments. In
+May 2023, we reported that this change to the sampling plan makes interpreting year-to-year changes in the IRS’s
+reported improper payment estimates difficult.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 30
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+Figure 3: FY 2021 Through FY 2023 Improper Payment Rates13
+
+Source: Information obtained from www.paymentaccuracy.gov.
+
+The IRS’s outreach initiatives may not have an immediate impact on reducing improper
+payments
+In the FY 2023 AFR, the IRS noted that part of its actions to mitigate the risk of improper
+payments included outreach to taxpayers and tax preparers in lieu of conducting additional
+pre-refund audits. The IRS has implemented several different outreach initiatives intended to
+raise public awareness and encourage eligible taxpayers to claim refundable credits. Specifically,
+the IRS will reduce the number of pre-refund audits focused on refundable credits while also
+expanding outreach to help taxpayers claim the credits correctly at the time of filing. According
+to the IRS, focusing on helping taxpayers submit accurate filings will increase payment accuracy
+while reducing administrative burdens for both the IRS and the tax filer. In addition, the IRS also
+intends to increase enforcement activities that focus on unscrupulous preparers who contribute
+to the noncompliance in this area. However, these initiatives may not make an immediate
+impact on the improper payment rates, if at all, due to the time it takes for taxpayers to file
+returns and for the IRS to examine those returns. The following are details of the IRS’s
+refundable credits strategies targeting both taxpayers and tax practitioners to help increase
+payment accuracy.
+
+The IRS implements strategies that educate taxpayers and preparers by proactively sharing
+information about the eligibility requirements for refundable credits and identifying the most
+common errors. Some of their outreach and education strategies include the following:
+
+13
+
+The IRS did not start calculating the improper payment estimates for Net PTC until FY 2022.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 31
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+Ø Nationwide Tax Forums and Refundable Credits Summit. These annual events are
+instrumental in helping the IRS achieve its strategic goals of improving taxpayer service
+and reducing improper payments. The Nationwide Tax Forums provide tax professionals
+with the latest information they need to prepare accurate tax returns and reduce
+improper payments. The IRS noted that historically 10,000 to 15,000 external
+participants attend the Nationwide Tax Forums and 40 to 45 external participants from
+approximately 29 organizations and agencies attend the annual Refundable Credit
+Summit.
+Ø Technical Training and Tax Preparer Toolkits. The IRS provides training modules and
+free resources on IRS.gov to assist tax return preparers with due diligence requirements
+and information on refundable credits.
+Ø Webinars and Tax Preparer Alerts. The IRS hosts virtual discussions and issues alerts
+on refundable credits and eligibility requirements.
+Ø EITC Central and EITC Awareness Day. The IRS maintains a website
+(https://www.eitc.irs.gov/) dedicated to providing resources to taxpayers and tax return
+preparers on eligibility for the EITC. The IRS also participates in social media awareness
+campaigns and provides images, sample messages, and targeted audience suggestions
+for its partners to post on social media to help spread awareness. Additionally, in
+January 2024, the IRS and partners highlighted the importance of the EITC during its
+“EITC Awareness Day.”
+
+The IRS has indicated that refundable credit noncompliance among tax return preparers has
+been a growing concern for several years. The IRS has shifted its focus from examining
+potentially noncompliant taxpayers to addressing noncompliant return preparers who file tax
+returns claiming the ACTC, AOTC, and EITC.14 Some of these efforts include:
+Ø Focused treatment for return preparers. The IRS plans to focus their efforts on up to
+23,865 potentially noncompliant tax return preparers during FY 2024, which represents
+an increase of almost 20 percent from the FY 2023 plan. The IRS intends to conduct
+focused correspondence examinations, outbound calls, and post-refund client audits of
+preparers with patterns of noncompliance. Tax return preparers are assigned treatments
+based on the level of risk, which is derived from a combination of return volume,
+egregiousness, treatment history, and degree of improvement. In addition, the IRS can
+issue letters to alert return preparers who prepared highly questionable refundable
+credits or to alert them that some of their clients who claimed the EITC will be audited.
+14
+
+TIGTA currently has a separate audit, Changes to the Earned Income Taxpayer Credit Audit Examination Strategy
+(Audit No. 2024308026), to review the Wage and Investment Division’s portion of the IRS’s examination plan and the
+changes to the EITC case selection processes to ensure a fair and equitable examination selection process and to
+assess compliance with the Secretary of Treasury’s directive to the IRS.
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 32
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+Ø “Knock and Talk” visits. “Knock and Talk” visits are optional educational visits,
+conducted in-person by revenue agents or special agents with the IRS’s Criminal
+Investigation division. These visits are intended to educate tax return preparers on their
+due diligence requirements and any changes to tax law. The IRS plans 426 “Knock and
+Talk” visits for FY 2024.
+Ø “Ghost preparers.” The IRS is using data analytics to identify “ghost preparers” and
+reach out to taxpayers to help it identify who these preparers are that did not sign the
+return. In February 2024, the IRS issued approximately 1,000 letters to taxpayers trying
+to obtain information on these “ghost preparers.”
+
+The IRS is issuing notices and letters to taxpayers to both encourage potentially eligible
+taxpayers to take a credit and inform taxpayers who were not selected for audit of their
+potential risk of noncompliance. Examples of the IRS issuing letters and notices to taxpayers are
+as follows:
+
+Ø Letter 6589, EITC Compliance Refresh-Letter 1 (Soft) , was issued to approximately
+55,000 taxpayers in January 2024. This letter informs taxpayers, not selected for audit,
+that they may not be entitled to some or all of the EITC claimed on their tax return. The
+letter instructs taxpayers to review their return to confirm eligibility and if the credit was
+claimed in error, file an amended return to remove or recalculate the credit.
+
+Ø Letter 6591, Advance Child Tax Credit Outreach Letter for TY 21 filers yet to file
+(English & Spanish) , was sent to 1,824,071 taxpayers who had not yet filed a Tax
+Year 2021 return as of November 1, 2023, but to whom IRS records indicate Advance
+Child Tax Credit payments were issued, to inform them of the need to file a Tax
+Year 2021 return to claim any remaining amount of child tax credit to which they may be
+entitled. This letter was issued in response to a prior TIGTA review that identified
+4.1 million taxpayers who did not file a Tax Year 2021 return but may have been eligible
+to claim the credit.15
+Ø Letter 6571, ARPA Section 9663 Notice , was issued to 10,069 taxpayers advising them
+that they may be eligible to receive a refund of additional PTC or excess Advance PTC
+that they repaid for Tax Year 2021. This letter was issued in response to a TIGTA
+recommendation to send letters to 10,069 taxpayers.16
+Ø Notices. Based on information available at filing, taxpayers who appear to qualify for
+the EITC or ACTC, but do not claim the credits will receive one of the following notices:
+CP 08, You May Qualify for Child Tax Credit (CTC); CP 09, Earned Income Credit - You
+15
+
+TIGTA, Report No. 2023-47-035, American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+(June 2023).
+16
+TIGTA, Report No. 2023-47-036, American Rescue Plan Act: Continued Review of Premium Tax Credit Provisions
+(June 2023).
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 33
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+May Be Entitled to EIC (issued to taxpayers with at least one qualifying child); or CP 27,
+EIC Potential for T/P Without Qualifying Children. The IRS indicated that the historical
+response rate to these notices is around 20 percent.
+
+The Treasury Department Risk Assessments Still Do Not Accurately Reflect
+the Level of Risk for the IRS Refundable Credit Programs
+Our review of the risk assessment template found that it does not allow the IRS to provide an
+accurate assessment of improper payment risk. The risk assessments are created and
+distributed by the Treasury Department and were updated in FY 2023 based on trends the
+Treasury Department noticed throughout all the bureaus. Thus, the questions on the risk
+assessment are for general applicability and not intended to cover the unique nature of the IRS
+refundable credits program.
+Although the results of the completed qualitative risk assessments for the Advance Child Tax
+Credit and Child and Dependent Care Tax Credit indicated that these credits were not
+susceptible to improper payment risk, the IRS revised the risk assessment and deemed them
+“susceptible.” The IRS deemed these programs susceptible because of the similarity of these
+programs with other programs that have high error rates and deficiencies identified by external
+audit agencies, such as TIGTA. Figure 4 outlines some of the reasons the IRS used to support its
+decision to change the overall risk rating from “not-susceptible” to “susceptible” in FY 2023.
+
+Figure 4: Results From the FY 2023 Qualitative Risk Assessment
+
+Source: Excerpt from the FY 2023 Qualitative Risk Assessment.
+
+We previously reported similar concerns with the accuracy of the assessment of improper
+payment risk.17 For example, the annual risk assessments underestimated the risk of improper
+payments for both ACTC and AOTC despite the IRS’s own compliance data showing differently.
+Because the risk assessment template does not allow for an accurate assessment of improper
+payment risk, this could become problematic for those programs that are not regularly
+evaluated by external audit agencies and may have a higher risk than the template identifies.
+We met with the IRS and discussed the effectiveness of a risk assessment that must be changed
+to accommodate IRS programs. Representatives from the IRS Office of the Chief Financial
+Officer noted that they did not participate in updating the new risk assessment templates and
+17
+
+TIGTA, Report No. 2017-40-030, Revised Refundable Credit Risk Assessments Still Do Not Provide an Accurate
+Measure of the Risk of Improper Payments (Apr. 2017) and TIGTA, Report No. 2016-40-036, Without Expanded Error
+Correction Authority, Billions of Dollars in Identified Potentially Erroneous Earned Income Credit Claims Will Continue
+to Go Unaddressed Each Year (Apr. 2016).
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 34
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+that it would be difficult to modify the template to reflect the unique nature of the refundable
+tax credits and still have a generally applicable template. The Treasury Department is aware of
+this unique nature and has been understanding of the justifications the IRS may have to make
+when completing the template.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 35
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Appendix I
+Detailed Objective, Scope, and Methodology
+The overall objective of this audit was to determine whether the IRS complied with the annual
+improper payment reporting requirements for FY 2023. To accomplish this objective, we:
+· Obtained and reviewed the information that the IRS provided to the Treasury
+Department for inclusion in the AFR to determine if the information provided satisfied
+the requirements.
+·
+
+Evaluated the adequacy of the IRS’s FY 2023 risk assessments for the IRS revenue
+program funds identified by the Treasury Department.
+
+·
+
+Reviewed the IRS’s methodology to calculate the EITC, ACTC, AOTC, and Net PTC
+improper payment rates for FY 2023.
+
+·
+
+Followed up on select prior audit findings or recommendations to determine their status.
+
+Performance of This Review
+This review was performed with information obtained from the Office of the Chief Financial
+Officer and the Office of Return Integrity located at the IRS Headquarters in Washington, D.C.,
+during the period November 2023 through March 2024. We conducted this performance audit
+in accordance with generally accepted government auditing standards. Those standards require
+that we plan and perform the audit to obtain sufficient, appropriate evidence to provide a
+reasonable basis for our findings and conclusions based on our audit objective. We believe that
+the evidence obtained provides a reasonable basis for our findings and conclusions based on
+our audit objective.
+Major contributors to the report were Diana M. Tengesdal, Assistant Inspector General for Audit
+(Returns Processing and Account Services); Linna K. Hung, Director; Nina A. Hill, Audit Manager;
+Erica Law, Lead Auditor; Carina Schusterman, Auditor; and Laura Christoffersen, Applied
+Research and Technology Division.
+
+Internal Controls Methodology
+Internal controls relate to management’s plans, methods, and procedures used to meet their
+mission, goals, and objectives. Internal controls include the processes and procedures for
+planning, organizing, directing, and controlling program operations. They include the systems
+for measuring, reporting, and monitoring program performance. We determined that the
+following internal controls were relevant to our audit objective: the controls in place to ensure
+that the IRS met the annual improper payment reporting requirements established in the PIIA
+and Executive Order 13520. We tested these controls by reviewing and analyzing relevant
+documents and holding discussions with IRS management.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 36
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Appendix II
+Programs Identified for Improper Payment Risk Assessments
+The following IRS programs were identified by the Treasury Department for improper payment
+risk assessments for FY 2023.
+Type of
+Assessment
+
+Total Non-Federal
+Disbursements
+
+Earned Income Tax Credit
+
+IP Estimate
+
+$64.3 billion
+
+Additional Child Tax Credit
+
+IP Estimate
+
+$131.4 billion**
+
+American Opportunity Tax Credit
+
+IP Estimate
+
+$3.8 billion
+
+Premium Tax Credit
+
+IP Estimate
+
+$85.1 billion
+
+Child and Dependent Care Tax Credit
+
+Qualitative
+
+$7.4 billion
+
+Advance Child Tax Credit
+
+Qualitative
+
+**
+
+IRS Program
+
+** Additional Child Tax Credit and Advance Child Tax Credit are reported under the same fund symbol
+and are part of the same disbursement.
+Source: IRS Office of the Chief Financial Officer. IP = Improper Payment
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 37
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Appendix III
+Improper Payment Laws Repealed by the Payment Integrity
+Information Act of 2019
+Improper Payment Law
+
+Description
+Enacted on November 26, 2002, the law requires Federal agencies,
+Improper Payments
+including the IRS, to estimate the dollar amount of improper payments
+Information Act of 20021 and report to Congress annually on the causes of and the steps taken to
+reduce improper payments.
+Enacted July 22, 2010, the Act redefined what “significant improper
+Improper Payments
+payments” are; strengthened agency reporting requirements and defined
+Elimination and Recovery
+significant as exceeding either 1.5 percent of program outlays and
+Act of 20102
+$10 million of all program activities or $100 million.
+Enacted on January 10, 2013, the Act codifies many parts of Executive
+Improper Payments
+Order 13520 and requires the OMB Director to identify a list of
+Elimination and Recovery
+high-priority Federal programs and agencies to develop additional or
+Improvement Act of
+supplemental measures for tracking progress in reducing improper
+20123
+payments in these programs.
+Enacted on June 30, 2016, the Act requires the OMB to establish guidelines
+Fraud Reduction and Data to identify and assess fraud risks and design and implement control
+activities in order to prevent, detect, and respond to fraud, including
+Analytics Act of 20154
+improper payments.
+Source: TIGTA review of legislation related to improper payments.
+
+1
+
+Pub. L. No. 107-300, 116 Stat. 2350.
+Pub. L. No. 111-204, 124 Stat. 2224.
+3
+Pub. L. No. 112-248, 126 Stat. 2390.
+4
+Pub. L. No. 114-186, 130 Stat. 546.
+2
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 38
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Appendix IV
+Management’s Response to the Draft Report
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 39
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 40
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Appendix V
+Glossary of Terms
+Term
+
+Definition
+
+Additional Child Tax Credit
+
+A credit for individuals who receive less than the full amount of the
+nonrefundable Child Tax Credit. The ACTC may result in a refund even if no
+tax is owed.
+
+Advance Premium
+Tax Credit
+
+A tax credit that is paid in advance to a taxpayer’s insurance company to
+help cover the cost of premiums.
+
+Agency Financial Report
+
+Presents the Treasury Department’s financial and performance information
+for the fiscal year, with comparative prior year data where appropriate.
+
+American Opportunity
+Tax Credit
+
+A credit for qualified education expenses paid for an eligible student for
+the first four years of higher education. A partially refundable Federal tax
+credit used to help parents and college students offset the costs of college.
+
+Earned Income Tax Credit
+
+A refundable tax credit for low-income to moderate-income workers.
+
+Fiscal Year
+
+Any yearly accounting period, regardless of its relationship to a calendar
+year. The Federal Government’s fiscal year begins on October 1 and ends
+on September 30.
+
+High-Priority Program
+
+Program identified as susceptible to significant improper payments.
+
+Improper Payment
+
+Any payment that should not have been made or that was made in an
+incorrect amount under statutory, contractual, administrative, or other
+legally applicable requirements (including both overpayments and
+underpayments).
+
+Improper Payment Rate
+
+Amount in improper payments divided by the amount in program outlays.
+
+Net Premium Tax Credit
+
+When the PTC exceeds the Advance PTC (PTC minus Advance PTC = Net
+PTC). The Net PTC reduces a taxpayer’s tax liability and, if it is more than
+the tax liability, results in a refundable tax credit.
+
+Outlay
+
+A payment to liquidate an obligation generally equal to cash
+disbursements (the measure of Government spending).
+
+Overpayment
+
+A payment in excess of what is due. When an overpayment occurs, the
+improper amount is the difference between the amount due and the
+amount that was actually paid. Overpayments are monetary loss improper
+payments.
+
+Payment
+
+Any disbursement or transfer of Federal funds to any non-Federal person,
+non-Federal entity, or Federal employee that is made by a Federal agency,
+contractor, grantee, or a governmental or other organization administering
+a Federal program or activity.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 41
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+Term
+
+Definition
+
+Premium Tax Credit
+
+Refundable tax credit that helps eligible individuals and families cover the
+premiums for their health insurance purchased through the Health
+Insurance Marketplace.
+
+Program
+
+Activities or sets of activities recognized as programs by the public, the
+OMB, or Congress as well as those that entail program management or
+policy direction.
+
+Qualitative Risk
+Assessment
+
+A technique used to quantify risk associated with improper payments and
+unknown payments. For example, a qualitative improper payment risk
+assessment methodology prioritizes the identified improper payment and
+unknown payment risks using a predefined rating scale. Risks will be
+scored based on their probability or likelihood of occurring and the impact
+on improper payments and unknown payments in the program should they
+occur.
+
+Quantitative Risk
+Assessment
+
+A risk assessment technique that focuses on measurable data such as
+improper or unknown payment amount. For example, a quantitative
+improper payment risk assessment will provide numerical improper
+payment amounts and assess the probability of their occurrence. The
+assessment may be similar to the regular improper payment estimate.
+
+Significant Improper
+Payment
+
+Annual improper payments and unknown payments, i.e., the sum of
+monetary loss improper payments, non-monetary loss improper payments,
+and unknown payments, in the program exceeding 1) both 1.5 percent of
+program outlays and $10 million of all program or activity payments made
+during the fiscal year reported or 2) $100 million (regardless of the
+improper payment percentage of total program outlays).
+
+Tax Gap
+
+The estimated difference between the amount of tax that taxpayers should
+pay and the amount that is paid voluntarily and on time.
+
+Tax Year
+
+A 12-month accounting period for keeping records on income and
+expenses used as the basis for calculating the annual taxes due. For most
+individual taxpayers, the tax year is synonymous with the calendar year.
+
+Underpayment
+
+A payment that is less than what is due. When an underpayment occurs,
+the improper amount is the difference between the amount due and the
+amount that was actually paid. An underpayment is a non-monetary
+loss improper payment.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 42
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+Assessment of Fiscal Year 2023 Compliance
+
+With Improper Payment Reporting Requirements
+
+Appendix VI
+Abbreviations
+ACTC
+
+Additional Child Tax Credit
+
+AFR
+
+Agency Financial Report
+
+AOTC
+
+American Opportunity Tax Credit
+
+EITC
+
+Earned Income Tax Credit
+
+FY
+
+Fiscal Year
+
+IRS
+
+Internal Revenue Service
+
+OMB
+
+Office of Management and Budget
+
+PIIA
+
+Payment Integrity Information Act of 2019
+
+PTC
+
+Premium Tax Credit
+
+TIGTA
+
+Treasury Inspector General for Tax Administration
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 43
+
+Appendix 2: TIGTA’s Assessment of IRS Compliance with the Improper Payment
+Reporting Requirements in FY 2023 and IRS Management’s Response
+
+To report fraud, waste, or abuse,
+contact our hotline on the web at www.tigta.gov or via e-mail at
+oi.govreports@tigta.treas.gov.
+
+To make suggestions to improve IRS policies, processes, or systems
+affecting taxpayers, contact us at www.tigta.gov/form/suggestions.
+
+Information you provide is confidential, and you may remain anonymous.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 44
+
+Conducted IP risk assessments for each program with annual outlays
+greater than $10 million at least once in the last three years
+Adequately concluded whether the program is likely to make IPs and
+UPs above or below the statutory threshold
+Published IP and UP estimates for programs susceptible to significant
+IPs in the accompanying materials to the annual financial statement (2)
+Published corrective action plans for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+Published IP and UP reduction target for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+Has demonstrated improvements to payment integrity or reached a
+tolerable IP and UP rate (2)
+Has developed a plan to meet the IP and UP reduction target (2)
+Reported an IP and UP estimate of less than 10% for each program for
+which an estimate was published in the accompanying materials to the
+annual financial statement (2)
+
+Internal Revenue Service - HQ
+Disbursement EIC (EITC)
+Internal Revenue Service Payment-Child Credit Exceeds
+Liability (ACTC)
+Internal Revenue Service Payment-Where American
+Opportunity Credit, Recovery
+Act (AOTC)
+Internal Revenue Service Refundable Premium
+Assistance Tax Credit (Net
+PTC)
+Departmental Offices –
+Emergency Rental Assistance
+(ERA) (3)
+Posted the annual financial statement and accompanying materials on
+the agency website (1)
+
+Program Name
+Published payment integrity information with the annual financial
+statement (1)
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Appendix 3: Treasury Programs’ Compliance with PIIA Criteria
+Table 1 below summarizes Treasury programs’ compliance with the PIIA reporting requirements
+by program for programs that are identified as susceptible to significant improper payments for
+FY 2023 reporting.
+Table 1: Treasury Programs' Compliance with PIIA Criteria for Programs Identified as Susceptible to Significant Improper
+Payments
+
+Yes
+Yes
+N/A
+N/A
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+N/A
+N/A
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+
+Yes
+Yes
+N/A
+N/A
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+
+Page 45
+
+Program Name
+
+Page 46
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+
+Reported an IP and UP estimate of less than 10% for each program for
+which an estimate was published in the accompanying materials to the
+annual financial statement (2)
+
+Has developed a plan to meet the IP and UP reduction target (2)
+
+Has demonstrated improvements to payment integrity or reached a
+tolerable IP and UP rate (2)
+
+Published IP and UP reduction target for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+
+Published corrective action plans for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+
+Published IP and UP estimates for programs susceptible to significant
+IPs in the accompanying materials to the annual financial statement (2)
+
+Adequately concluded whether the program is likely to make IPs and
+UPs above or below the statutory threshold
+
+Conducted IP risk assessments for each program with annual outlays
+greater than $10 million at least once in the last three years
+
+Posted the annual financial statement and accompanying materials on
+the agency website (1)
+
+Published payment integrity information with the annual financial
+statement (1)
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Departmental Offices – PSP
+Yes
+Yes
+Yes
+No
+N/A
+N/A
+N/A
+N/A N/A
+N/A
+Program (3)
+(1) For the “Published payment integrity information with the annual financial statement” and “Posted the annual
+financial statement and accompanying materials on the agency website” criterion, which are applicable at an agency
+level, if the agency is compliant, then the programs are all compliant.
+(2) The requirements apply only to programs for which an estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement. For short-term programs such as the COVID-19 programs,
+Treasury will not plan to report an improper payment estimate either in its AFR or on PaymentAccuracy.gov, per the
+memorandum, Limitations in Quantifying the Amount and Rate of Improper Payments for Short-Term Programs,
+submitted to OMB on August 1, 2022.
+(3) Risk assessments were performed for FY 2023, and programs were deemed susceptible to significant improper
+payments.
+
+Conducted IP risk assessments for each program with annual outlays
+greater than $10 million at least once in the last three years
+Adequately concluded whether the program is likely to make IPs and
+UPs above or below the statutory threshold
+Published IP and UP estimates for programs susceptible to significant
+IPs in the accompanying materials to the annual financial statement (2)
+Published corrective action plans for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+Published IP and UP reduction target for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+Has demonstrated improvements to payment integrity or reached a
+tolerable IP and UP rate (2)
+Has developed a plan to meet the IP and UP reduction target (2)
+Reported an IP and UP estimate of less than 10% for each program for
+which an estimate was published in the accompanying materials to the
+annual financial statement (2)
+
+Fiscal Service –
+Reimbursements to Federal
+Reserve Banks
+Fiscal Service – Federal
+Reserve Bank Reimbursement
+Fund
+Treasury Franchise Fund
+Departmental Offices – Funds
+Appropriated to Global
+Environment Facility
+Departmental Offices – Funds
+Contribution to the Asian
+Development Fund
+Departmental Offices –
+Contributions International
+Development Association
+Posted the annual financial statement and accompanying materials on
+the agency website (1)
+
+Program Name
+Published payment integrity information with the annual financial
+statement (1)
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Table 2 below summarizes Treasury programs’ compliance with the PIIA reporting requirements
+by program for programs not susceptible to improper payments that conducted an improper
+payment risk assessment in FY 2023 based on Treasury’s three-year rotation schedule in
+accordance with OMB guidance.
+Table 2: Treasury Programs' Compliance with PIIA Criteria for Programs Not Susceptible to Improper Payments that
+Conducted an Improper Payment Risk Assessment
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+
+Page 47
+
+Conducted IP risk assessments for each program with annual outlays
+greater than $10 million at least once in the last three years
+Adequately concluded whether the program is likely to make IPs and
+UPs above or below the statutory threshold
+Published IP and UP estimates for programs susceptible to significant
+IPs in the accompanying materials to the annual financial statement (2)
+Published corrective action plans for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+Published IP and UP reduction target for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+Has demonstrated improvements to payment integrity or reached a
+tolerable IP and UP rate (2)
+Has developed a plan to meet the IP and UP reduction target (2)
+Reported an IP and UP estimate of less than 10% for each program for
+which an estimate was published in the accompanying materials to the
+annual financial statement (2)
+
+Departmental Offices –
+Contribution to African
+Development Fund
+Departmental Offices –
+Contribution to Europe Bank
+for Reconstruction
+Departmental Offices –
+International Fund for
+Agriculture Development
+Departmental Offices – Global
+Food Security Fund
+Fiscal Service – Restitution of
+Forgone Interest
+Internal Revenue Service –
+Child and Dependent Care Tax
+Credit
+Internal Revenue Service –
+Advance Child Tax Credit
+Fiscal Service – D.C. Water &
+Sewage
+Fiscal Service – Travel
+Promotion Fund, Corp for
+Travel Promotion
+Community Development
+Financial Institutions – CDFI
+Bond Guarantee Program
+Financing Fund
+Posted the annual financial statement and accompanying materials on
+the agency website (1)
+
+Program Name
+Published payment integrity information with the annual financial
+statement (1)
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+
+Page 48
+
+Conducted IP risk assessments for each program with annual outlays
+greater than $10 million at least once in the last three years
+Adequately concluded whether the program is likely to make IPs and
+UPs above or below the statutory threshold
+Published IP and UP estimates for programs susceptible to significant
+IPs in the accompanying materials to the annual financial statement (2)
+Published corrective action plans for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+Published IP and UP reduction target for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+Has demonstrated improvements to payment integrity or reached a
+tolerable IP and UP rate (2)
+Has developed a plan to meet the IP and UP reduction target (2)
+Reported an IP and UP estimate of less than 10% for each program for
+which an estimate was published in the accompanying materials to the
+annual financial statement (2)
+
+Community Development
+Financial Institutions – Capital
+Magnet Fund
+Community Development
+Financial Institutions – CDFI
+Emergency Response Program
+Departmental Offices –
+Contributions to the IMF
+Facilities & Trust Funds
+Departmental Offices – State
+Small Business Credit Initiative
+(SSBCI)
+Departmental Offices –
+Homeowners Assistance Fund
+(HAF)
+Departmental Offices –
+Emergency Capital Investment
+Fund (ECIP)
+Departmental Offices –
+Coronavirus Capital Projects
+Fund (CPF)
+Departmental Offices – Local
+Assistance and Tribal
+Consistency Fund (LATCF)
+Departmental Offices – IA
+Technical Assistance Program
+Posted the annual financial statement and accompanying materials on
+the agency website (1)
+
+Program Name
+Published payment integrity information with the annual financial
+statement (1)
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+
+Page 49
+
+Reported an IP and UP estimate of less than 10% for each program for
+which an estimate was published in the accompanying materials to the
+annual financial statement (2)
+
+Has developed a plan to meet the IP and UP reduction target (2)
+
+Has demonstrated improvements to payment integrity or reached a
+tolerable IP and UP rate (2)
+
+Published IP and UP reduction target for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+
+Published corrective action plans for each program for which an
+estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement (2)
+
+Published IP and UP estimates for programs susceptible to significant
+IPs in the accompanying materials to the annual financial statement (2)
+
+Adequately concluded whether the program is likely to make IPs and
+UPs above or below the statutory threshold
+
+Conducted IP risk assessments for each program with annual outlays
+greater than $10 million at least once in the last three years
+
+Posted the annual financial statement and accompanying materials on
+the agency website (1)
+
+Program Name
+
+Published payment integrity information with the annual financial
+statement (1)
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Treasury Inspector General for
+Tax Administration – Treasury
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A N/A
+N/A
+IG for Tax Administration
+Financial Crimes Enforcement
+Network – Salaries and
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A N/A
+N/A
+Expenses, FinCEN
+Office of the Comptroller of the
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A N/A
+N/A
+Currency
+Alcohol, Tobacco, Tax and
+Trade Bureau – Internal
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A N/A
+N/A
+Revenue, Collections for Puerto
+Rico
+Departmental Offices – Salaries
+Yes
+Yes
+Yes
+Yes
+N/A
+N/A
+N/A
+N/A N/A
+N/A
+and Expenses, OIG
+(1) For the “Published payment integrity information with the annual financial statement” and “Posted the annual
+financial statement and accompanying materials on the agency website” criterion, which are applicable at an agency
+level, if the agency is compliant, then the programs are all compliant.
+(2) The requirements apply only to programs for which an estimate above the statutory threshold was published in the
+accompanying materials to the annual financial statement. For short-term programs such as the COVID-19 programs,
+Treasury will not plan to report an improper payment estimate either in its AFR or on PaymentAccuracy.gov, per the
+memorandum, Limitations in Quantifying the Amount and Rate of Improper Payments for Short-Term Programs,
+submitted to OMB on August 1, 2022.
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 50
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Appendix 4: Treasury Management’s Response
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 51
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 52
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 53
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 54
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 55
+
+4121 Wilson Blvd, Suite 1100
+Arlington, VA 22203
+Phone: (571) 429-6600
+www.rmafed.com
+
+Appendix 5: Report Distribution
+Department of the Treasury
+Secretary of the Treasury
+Deputy Secretary
+Assistant Secretary for Management
+Deputy Chief Financial Officer
+Director, Risk and Control Group
+Office of Management and Budget
+Controller, Office of Federal Financial Management
+OIG Budget Examiner
+U.S. Senate
+Chairman and Ranking Member
+Committee on Homeland Security and Governmental Affairs
+Chairman and Ranking Member
+Committee on Finance
+Chairman and Ranking Member
+Committee on Appropriations
+U.S. House of Representatives
+Chairman and Ranking Member
+Committee on Oversight and Accountability
+Chairman and Ranking Member
+Committee on Ways and Means
+Chairman and Ranking Member
+Committee on Appropriations
+U.S. Government Accountability Office
+Comptroller General of the United States
+U.S. Congress
+Joint Committee on Taxation
+
+Member of the American Institute of Certified Public Accountants’ Government Audit Quality Center
+Page 56
+
+This Page Intentionally Left Blank
+
+REPORT WASTE, FRAUD, AND ABUSE
+Submit a complaint regarding Treasury OIG Treasury Programs and Operations
+using our online form: https://oig.treasury.gov/report-fraud-waste-and-abuse
+
+TREASURY OIG WEBSITE
+Access Treasury OIG reports and other information online: https://oig.treasury.gov/
+
+

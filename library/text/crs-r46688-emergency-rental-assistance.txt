@@ -1,0 +1,2304 @@
+Source: https://www.congress.gov/crs_external_products/R/PDF/R46688/R46688.12.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-10-28
+Original SHA-256: 2fbc5dd0eb412584d8fb909249e8f19628d1dbf379d46d9b9156e2d45d99f0bf
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Pandemic Relief: The Emergency Rental
+Assistance Program
+Updated January 10, 2023
+
+Congressional Research Service
+https://crsreports.congress.gov
+R46688
+
+SUMMARY
+
+Pandemic Relief: The Emergency Rental
+Assistance Program
+In response to concerns about the economic effects of the COVID-19 pandemic on renters and
+their landlords, Congress created a $25 billion Emergency Rental Assistance (ERA) program in
+the Consolidated Appropriations Act, 2021 (Division N of P.L. 116-260). A second round of
+ERA funding—$21.55 billion—was included in Section 3201 of the American Rescue Plan Act
+of 2021 (P.L. 117-2). Throughout this report, when there are relevant distinctions between the
+two laws, the program is accordingly referred to as either ERA-1 or ERA-2.
+ERA is administered by the Department of the Treasury. Funding under both ERA-1 and ERA-2
+was provided to states, localities, and territories via a per capita formula allocation. The formula
+for allocating ERA-1 funding guaranteed states a minimum initial allocation of $200 million.
+ERA-1 also included a set-aside for tribes. The formula for allocating ERA-2 funding guaranteed
+to states a $152 million minimum initial allocation. ERA-2 did not include a tribal set-aside, but
+did include a set-aside of $2.5 billion for “high need” grantees.
+
+R46688
+January 10, 2023
+Grant A. Driessen
+Specialist in Public Finance
+Maggie McCarty
+Specialist in Housing Policy
+Libby Perl
+Specialist in Housing Policy
+
+For a copy of the full report,
+please call 7-5700 or visit
+www.crs.gov.
+
+P.L. 116-260 established various parameters for how the ERA-1 funding can be used. Among other requirements, states and
+localities must use the bulk of funds for financial assistance, defined to include rental assistance and utility assistance
+(including payment of arrearages as well as prospective rental payments). Remaining funds may be used for housing stability
+services (case management and other supports to help families retain their housing) and administrative expenses. Renters are
+eligible for assistance if they are low-income, experiencing financial hardship due to the pandemic, and at risk of
+homelessness or housing insecurity. Grantees were directed to prioritize very low-income renters for assistance. The law also
+established obligation and expenditure deadlines and imposed various reporting requirements on the Treasury Secretary.
+These parameters were changed somewhat for ERA-2. Specifically, the amount that can be spent on administrative expenses
+was increased for ERA-2, and grantees may be able to use ERA-2 funds that remained unobligated as of October 1, 2022, for
+a broader range of affordable housing and eviction prevention activities. Further, eligibility for assistance was broadened to
+include households experiencing financial hardship during the pandemic. P.L. 117-2 also extended the availability of ERA-1
+funding from December 31, 2021, to September 30, 2022; ERA-2 funding was made available through September 30, 2025.
+The laws governing ERA-1 and ERA-2 directed Treasury to recapture and reallocate unused ERA funding from slow
+spending grantees to fast spending grantees.
+Within the statutory requirements—and any additional guidance established by Treasury—states and localities have had
+flexibility in designing their ERA programs. The ability of states and localities to structure their programs differently means
+that the experience of similarly situated renters seeking assistance varied geographically. Similarly, there has been geographic
+variability in the degree to which existing resources—both ERA and other funds—have been adequate to meet demand for
+rental assistance and the speed at which grantees have been able to disburse assistance.
+One concern since the ERA program initially launched has been the relatively slow rate of expenditure. Slow expenditure
+may be attributable to grantees struggling to launch programs (particularly if they had no prior experience administering
+emergency rental assistance); having difficulty attracting or processing eligible renters; receiving too much funding relative
+to demand (particularly in the case of some smaller states); and other factors. As of the cover date of this report, Treasury had
+completed four rounds of ERA-1 recapture and reallocation (as well as one round of tribal recapture and reallocation) and one
+round of ERA-2 recapture and reallocation, redirecting more than $3.1 billion in ERA-1 funding and more than $500 million
+in ERA-2 funding among grantees with higher expenditure rates. Of the amount redistributed, about 58% of ERA-1 funds
+were redistributed within the same state, with the remaining funds redistributed across states, often from small states (those
+that received the minimum allocation) to larger states.
+Grantees have reported some basic information to Treasury on how they have spent ERA funding and who they have served.
+Data from the first quarter of 2021 through the second quarter of 2022 showed that grantees had provided ERA to 5.35
+million unique households, the majority of which had incomes at or below 30% of local area median income. Roughly 70%
+of those served received rental assistance and about 64% received assistance with rental arrears. About 14% received utility
+assistance and 27% received assistance with utility arrears. The U.S. Department of Housing and Urban Development is
+funding a study to better understand the range of impacts the ERA program has had on program participants and their
+communities.
+Congressional Research Service
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Contents
+Introduction ..................................................................................................................................... 1
+Background: Rental Assistance During the COVID-19 Pandemic ................................................. 1
+Initial State and Local Allocations .................................................................................................. 2
+P.L. 116-260 (ERA-1) ............................................................................................................... 2
+P.L. 117-2 (ERA-2) ................................................................................................................... 3
+Funding Availability .................................................................................................................. 6
+ERA-1 Recapture and Reallocation Process ....................................................................... 6
+ERA-2 Recapture and Reallocation Process ....................................................................... 7
+ERA Program Parameters ................................................................................................................ 8
+Eligible Use of Funds ................................................................................................................ 8
+Financial Assistance ............................................................................................................ 9
+Administrative Costs and Housing Stability Services ...................................................... 10
+Individual Eligibility and Prioritization .................................................................................. 10
+Eligibility ........................................................................................................................... 11
+Prioritization ...................................................................................................................... 11
+Documentation ................................................................................................................... 11
+Reporting Requirements.......................................................................................................... 12
+Program Performance and Future Considerations ......................................................................... 12
+Funding Distribution and Reallocation ................................................................................... 12
+Program Design and Administration ....................................................................................... 16
+Households Served .................................................................................................................. 18
+Future of Emergency Rental Assistance .................................................................................. 19
+
+Tables
+Table 1. Emergency Rental Assistance Initial Allocations in P.L. 116-260 (ERA-1) and
+P.L. 117-2 (ERA-2) ...................................................................................................................... 4
+Table 2. ERA-1 Reallocation ......................................................................................................... 13
+Table 3. ERA-1 Reallocation ......................................................................................................... 16
+Table 4. Data on Households Served by the ERA Program .......................................................... 18
+
+Contacts
+Author Information........................................................................................................................ 20
+
+Congressional Research Service
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Introduction
+The Emergency Rental Assistance (ERA) program was created to help cover the unmet rent and
+utility expenses of low-income households affected by the economic consequences of the
+COVID-19 pandemic. The program received two rounds of funding.
+The Consolidated Appropriations Act, 2021 (P.L. 116-260) initially funded the ERA program with
+an appropriation of $25 billion.1 The ERA program was funded through the Coronavirus Relief
+Fund (CRF), a program created as part of the Coronavirus Aid, Relief, and Economic Security
+(CARES) Act (P.L. 116-136), and administered by the Department of the Treasury, to assist state,
+local, territorial, and tribal governments.2 While the CARES Act CRF appropriation could be
+used for multiple purposes, the ERA appropriation in P.L. 116-260 was directed only to rent and
+utility assistance and related housing stability services. A second appropriation for ERA—of
+$21.550 billion—was included in Section 3201 of the American Rescue Plan Act of 2021 (P.L.
+117-2). Throughout this report, when there are relevant distinctions between the two laws, the
+program is accordingly referred to as ERA-1 or ERA-2.
+This report briefly describes the need for rental assistance during the COVID-19 pandemic,
+provides information about the allocation of ERA funds, describes the parameters of the ERA
+program, and concludes with an analysis of how the program is being implemented, including the
+reallocation of funds to-date, a review of some of the administrative considerations in the
+program, and information about who the program has served.
+
+Background: Rental Assistance During the
+COVID-19 Pandemic
+Even before the onset of the COVID-19 pandemic, low-income renters struggled with housing
+affordability. The Joint Center on Housing Studies reported that in 2018, nearly half (48%) of all
+renters were cost burdened (i.e., paying more than 30% of their income in rent), with higher
+numbers for lower-income (80%), Black (55%), and Hispanic (53%) renters.3
+The pandemic and its economic effects made renters’ housing arrangements even more
+precarious. Efforts to assist renters included eviction moratoriums at the state and federal levels,
+including a nationwide moratorium on evictions for nonpayment of rent issued by the Centers for
+Disease Control and Prevention (CDC) that was in effect from September 4, 2020, until August 3,
+2021.4 However, moratoriums did not prevent arrearages from accumulating, and renters still
+faced risks of eviction, particularly after moratoriums ended.
+Prior to enactment of ERA, some states and localities used federal funds appropriated as part of
+the CARES Act, including funds distributed through CRF and the Community Development
+Block Grant (CDBG), to operate rental assistance programs designed to prevent evictions.5
+1 See Division N, Title V, Section 501 of P.L. 116-260.
+2 For more information about CRF in the CARES Act, see CRS Report R46990, General State and Local Fiscal
+
+Assistance and COVID-19: Eligible Purposes, Allocations, and Use Data.
+3 Joint Center for Housing Studies, America’s Rental Housing 2020, January 2020, pp. 26-29,
+https://www.jchs.harvard.edu/sites/default/files/reports/files/Harvard_JCHS_Americas_Rental_Housing_2020.pdf.
+4 For more information, see CRS Insight IN11673, The CDC’s Federal Eviction Moratorium.
+5 See examples from the National Conference of State Legislatures, which tracks the ways in which states used their
+CRF allocations: https://www.ncsl.org/research/fiscal-policy/state-actions-on-coronavirus-relief-funds.aspx. The
+
+Congressional Research Service
+
+1
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Organizations representing both tenants and landlords advocated for additional federal funds to
+help tenants pay rental arrearages that had accumulated during eviction moratoriums.6 Legislation
+was introduced in the 116th Congress that would have provided as much as $100 billion to help
+tenants pay rent.7 Ultimately, Congress appropriated nearly $47 billion for emergency rent and
+utility assistance through the ERA program.
+
+Initial State and Local Allocations
+P.L. 116-260 (ERA-1)
+P.L. 116-260 provided a total of $25.000 billion in ERA support. Payments (denoted as ERA-1
+payments here and in Treasury documentation) were distributed across these jurisdictions as
+follows:
+
+
+
+
+
+
+
+
+$23.785 billion was allocated to eligible local governments, the 50 states, and the
+District of Columbia based on their populations (as projected by the U.S. Census
+Bureau for July 2020),8 with no state receiving less than $0.200 billion;9
+$0.800 billion was set aside for governments in tribal areas, with individual
+government allocations distributed in proportion to relative payments made under
+the Native American Housing Block Program in FY2020;10
+$0.400 billion was allocated to the territories of Puerto Rico, the U.S. Virgin
+Islands, Guam, the Northern Mariana Islands, and American Samoa, with $0.325
+billion provided to Puerto Rico and $0.075 billion distributed to the remaining
+territories based on their relative population share; and
+$0.015 billion was set aside to cover federal administrative costs related to
+program implementation.
+
+ERA-1 payments were generally provided to state (or territorial) governments. Local
+governments serving a population of at least 200,000 (as measured by the U.S. Census Bureau in
+2019),11 could elect to receive their own direct allocations from Treasury. Direct payments made
+to localities reduced Treasury’s initial allocation to their state government (keeping the total
+amount provided across each state constant), and were the product of (1) the state or territorial
+National Low Income Housing Coalition tracked the way in which CARES Act funding more broadly was used for
+rental assistance: https://bit.ly/RA-database.
+6 See, for example, National Housing Conference, “31 housing organizations tell administration and Congress to
+immediately return to negotiations,” press release, August 21, 2020, https://nhc.org/press-release/31-housingorganizations-tell-administration-and-congress-to-immediately-return-to-negotiations/.
+7 See the Heroes Act (H.R. 6800) and the Emergency Rental Assistance and Rental Market Stabilization Act (H.R.
+6820, S. 3685).
+8 U.S. Census Bureau, “Vintage 2020 Population Estimates for the United States and States,” December 2020,
+https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates.html.
+Allocations are determined by total state populations, including nonrenters; for recent estimates of state renter
+populations, see U.S. Census Bureau, “American Community Survey 2015-2019 5-Year Data Release,” December
+2020, https://www.census.gov/newsroom/press-kits/2020/acs-5-year.html.
+9 The District of Columbia was treated as a state for both the ERA-1 and ERA-2 allocations.
+10 For more on the Native American Housing Block Grant program, see CRS Report R43307, The Native American
+Housing Assistance and Self-Determination Act of 1996 (NAHASDA): Background and Funding.
+11 U.S. Census Bureau, “Subcounty Resident Population Estimates: April 1, 2010 to July 1, 2019,” May 2020,
+https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html.
+
+Congressional Research Service
+
+2
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+allocation amount, (2) the percentage of the state or territorial population attributable to the local
+government, and (3) 45%.
+In many cases, populations were served by more than one local government eligible for direct
+assistance from ERA (e.g., a city with a population of 300,000 located in a county with 200,000
+people living in other localities in the county, and thus having a county population of 500,000).
+Treasury clarified that in such cases, overlapping governments were eligible for assistance.12
+However, direct assistance payments to larger localities was calculated using only their unique
+population, or was reduced by any amounts also attributable to smaller localities receiving
+assistance (i.e., in the above example, the county government would only use a population of
+200,000 for its direct payment calculation).
+
+P.L. 117-2 (ERA-2)
+P.L. 117-2 appropriated an additional $21.550 billion in ERA support to local, state, and territorial
+governments. Unlike P.L. 116-260, P.L. 117-2 did not include a separate allocation of funds for
+tribal governments. Payments (denoted as ERA-2 payments here and in Treasury documentation)
+were distributed across eligible jurisdictions as follows:
+
+
+
+
+
+
+
+
+$18.712 billion was allocated to eligible local governments, the 50 states, and the
+District of Columbia based on their populations (as projected by the U.S. Census
+Bureau for July 2020),13 with no state receiving less than $0.152 billion;
+$0.305 billion was allocated to the territories of Puerto Rico, the U.S. Virgin
+Islands, Guam, the Northern Mariana Islands, and American Samoa, with $0.240
+billion provided to Puerto Rico and $0.065 billion distributed to the remaining
+territories based on their relative population share;
+$2.500 billion was set aside for high-need grantees, to be distributed by the
+Treasury Secretary using statistics on high-need housing, rental market costs, and
+unemployment (ERA-2 High Need); and
+$0.033 billion was set aside to cover federal administrative costs related to
+program implementation.
+
+Direct local allocation eligibility, calculations, and division of payments across overlapping
+governments in ERA-2 were consistent with the methodology from ERA-1. However, P.L. 117-2
+directed that ERA-2 funds be staggered in their distribution. Specifically, Treasury was directed
+to distribute no less than the first 40% of ERA-2 funds within 60 days of enactment, with the
+remainder to be distributed after grantees expended 75% of their initial ERA-2 allocation.14
+
+12 U.S. Department of the Treasury, “Emergency Rental Assistance Program: Data and Methodology for State, Local
+
+Government, and Territory Allocations,” January 2021, https://home.treasury.gov/system/files/136/Emergency-RentalAssistance-Data-and-Methodology-1-11-21.pdf.
+13 U.S. Census Bureau, “Vintage 2020 Population Estimates for the United States and States,” December 2020,
+https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates.html.
+Allocations are determined by total state populations, including nonrenters; for recent estimates of state renter
+populations, see U.S. Census Bureau, “American Community Survey 2015-2019 5-Year Data Release,” December
+2020, https://www.census.gov/newsroom/press-kits/2020/acs-5-year.html.
+14 See P.L. 117-2, §3201(c) available at https://www.congress.gov/bill/117th-congress/house-bill/1319/
+text#H61B6162AB8EC496ABB590ADA8F6898FF.
+
+Congressional Research Service
+
+3
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Table 1 shows ERA-1 and ERA-2 initial allocations broken out by state and territory, and
+government level.15
+Table 1. Emergency Rental Assistance Initial Allocations in P.L. 116-260 (ERA-1) and
+P.L. 117-2 (ERA-2)
+(allocations in millions of dollars)
+Allocations to State
+Governments
+State or
+Territory
+
+ERA-1
+
+Allocations to Local
+Governments
+
+ERA-2
+
+ERA-1
+
+ERA-2
+
+Grand Total
+
+Alabama
+
+263
+
+224
+
+63
+
+65
+
+615
+
+Alaska
+
+165
+
+125
+
+35
+
+27
+
+352
+
+American Samoa
+
+10
+
+9
+
+0
+
+0
+
+19
+
+Arizona
+
+290
+
+229
+
+203
+
+199
+
+921
+
+Arkansas
+
+174
+
+137
+
+27
+
+22
+
+360
+
+California
+
+1,498
+
+1,210
+
+1,113
+
+1,376
+
+5,197
+
+Colorado
+
+248
+
+196
+
+137
+
+138
+
+719
+
+Connecticut
+
+236
+
+222
+
+0
+
+0
+
+458
+
+Delaware
+
+200
+
+96
+
+0
+
+56
+
+352
+
+District of
+Columbia
+
+200
+
+152
+
+0
+
+0
+
+352
+
+Florida
+
+871
+
+740
+
+570
+
+575
+
+2,756
+
+Georgia
+
+552
+
+479
+
+158
+
+159
+
+1,348
+
+Guam
+
+33
+
+29
+
+0
+
+0
+
+62
+
+Hawaii
+
+125
+
+95
+
+75
+
+71
+
+366
+
+Idaho
+
+176
+
+125
+
+24
+
+27
+
+352
+
+Illinois
+
+566
+
+474
+
+268
+
+288
+
+1,596
+
+Indiana
+
+372
+
+324
+
+76
+
+74
+
+846
+
+Iowa
+
+195
+
+149
+
+15
+
+17
+
+376
+
+Kansas
+
+169
+
+126
+
+31
+
+26
+
+352
+
+Kentucky
+
+264
+
+233
+
+33
+
+32
+
+562
+
+Louisiana
+
+249
+
+192
+
+59
+
+70
+
+570
+
+Maine
+
+200
+
+126
+
+0
+
+26
+
+352
+
+Maryland
+
+258
+
+204
+
+143
+
+148
+
+754
+
+Massachusetts
+
+421
+
+353
+
+36
+
+83
+
+893
+
+Michigan
+
+623
+
+403
+
+38
+
+190
+
+1,254
+
+Minnesota
+
+289
+
+229
+
+86
+
+84
+
+688
+
+Mississippi
+
+187
+
+145
+
+13
+
+13
+
+358
+
+15 U.S. Department of the Treasury, “Emergency Rental Assistance Program,” May 2021, https://home.treasury.gov/
+
+policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/emergency-rental-assistance-program.
+
+Congressional Research Service
+
+4
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Allocations to State
+Governments
+State or
+Territory
+
+ERA-1
+
+Allocations to Local
+Governments
+
+ERA-2
+
+ERA-1
+
+ERA-2
+
+Grand Total
+
+Missouri
+
+324
+
+270
+
+84
+
+94
+
+771
+
+Montana
+
+200
+
+152
+
+0
+
+0
+
+352
+
+Nebraska
+
+159
+
+121
+
+41
+
+36
+
+357
+
+Nevada
+
+125
+
+99
+
+83
+
+87
+
+394
+
+New Hampshire
+
+179
+
+115
+
+21
+
+37
+
+352
+
+New Jersey
+
+354
+
+272
+
+235
+
+260
+
+1,121
+
+New Mexico
+
+161
+
+123
+
+39
+
+36
+
+359
+
+New York
+
+801
+
+673
+
+481
+
+639
+
+2,594
+
+North Carolina
+
+547
+
+490
+
+156
+
+138
+
+1,331
+
+North Dakota
+
+200
+
+152
+
+0
+
+0
+
+352
+
+Northern Mariana
+Islands
+
+10
+
+9
+
+0
+
+0
+
+19
+
+Ohio
+
+565
+
+496
+
+210
+
+205
+
+1,476
+
+Oklahoma
+
+210
+
+166
+
+54
+
+55
+
+485
+
+Oregon
+
+204
+
+156
+
+77
+
+88
+
+525
+
+Pennsylvania
+
+570
+
+500
+
+278
+
+263
+
+1,611
+
+Puerto Rico
+
+325
+
+240
+
+0
+
+0
+
+565
+
+Rhode Island
+
+200
+
+152
+
+0
+
+0
+
+352
+
+South Carolina
+
+272
+
+232
+
+74
+
+73
+
+651
+
+South Dakota
+
+200
+
+152
+
+0
+
+0
+
+352
+
+Tennessee
+
+383
+
+313
+
+73
+
+93
+
+862
+
+1,308
+
+1,080
+
+639
+
+660
+
+3,686
+
+U.S. Virgin Islands
+
+21
+
+18
+
+0
+
+0
+
+40
+
+Utah
+
+150
+
+113
+
+65
+
+64
+
+392
+
+Vermont
+
+200
+
+152
+
+0
+
+0
+
+352
+
+Virginia
+
+525
+
+396
+
+45
+
+113
+
+1,079
+
+Washington
+
+322
+
+278
+
+188
+
+190
+
+978
+
+West Virginia
+
+200
+
+152
+
+0
+
+0
+
+352
+
+Wisconsin
+
+322
+
+281
+
+65
+
+67
+
+735
+
+Wyoming
+
+200
+
+152
+
+0
+
+0
+
+352
+
+All Tribal
+Governments
+
+800
+
+0
+
+0
+
+0
+
+800
+
+18,305
+
+14,531
+
+6,680
+
+6,964
+
+46,480
+
+Texas
+
+Totals
+
+Source: U.S. Department of the Treasury, “Emergency Rental Assistance Program,” May 2021,
+https://home.treasury.gov/policy-issues/cares/emergency-rental-assistance-program; and U.S. Treasury, “ERA2
+
+Congressional Research Service
+
+5
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Allocations for Eligible Entities,” May 2021, https://home.treasury.gov/policy-issues/cares/emergency-rentalassistance-program.
+Notes: Recipients may choose to subgrant funds to governments within their jurisdiction, but are not obligated
+to do so. Sums may not equal totals due to rounding. ERA-2 payments include those categorized as high-need
+payments.
+
+Funding Availability
+P.L. 116-260 made ERA-1 funds available to grantees through December 31, 2021; the ERA-1
+deadline was subsequently extended to September 30, 2022, by P.L. 117-2. Beginning September
+30, 2021, the law directed the Treasury Secretary to recapture any “excess” unobligated ERA-1
+funds (as determined by the Secretary) and to reallocate them to grantees that had obligated at
+least 65% of their ERA-1 funds for eligible purposes. Grantees receiving reallocated ERA-1
+funds were eligible for an up to 90-day extension of the funding availability deadline, to
+December 29, 2022.
+P.L. 117-2 made ERA-2 funds available to grantees until September 30, 2025. However,
+beginning March 31, 2022, the law directed the Treasury Secretary to reallocate undisbursed
+ERA-2 funds16 only to grantees that have obligated 50% or more of their total allocated ERA-2
+funds. These reallocated funds can only be used for financial assistance, not housing stability
+services or administrative costs. The law permits grantees that have obligated at least 75% of their
+ERA-2 funds for eligible purposes as of October 1, 2022, to obligate remaining unobligated funds
+for a broader range of other affordable rental housing and eviction prevention purposes for very
+low-income families.
+
+ERA-1 Recapture and Reallocation Process
+The law that created ERA-1 left the Treasury Secretary discretion regarding how to structure the
+recapture and reallocation process. The process developed by the agency was described in
+guidance, initially published in October 2021, and subsequently revised several times.17 Under
+that guidance, grantees were subject to recapture of unobligated funding if they had “excess”
+ERA-1 funding. Treasury periodically determined whether grantees had “excess funds” by
+evaluating their spending against expenditure ratios, which increased over time. Generally, the
+expenditure ratio is calculated as the share of a grantee’s allocation (excluding 10% for
+administrative costs) spent on assistance to eligible households. For grantees with spending below
+the expenditure ratio, the amount subject to recapture was the difference between the grantee’s
+expenditures and the applicable ratio at the time of evaluation.18
+16 As noted earlier, P.L. 117-2 directed Treasury to disburse ERA-2 funding allocations in phases, based on grantee
+
+spending rates. Specifically, Treasury was directed to distribute no less than the first 40% of ERA-2 funds within 60
+days of enactment, with the remainder to be distributed after grantees expend 75% of their initial ERA-2 allocation. It
+is these undisbursed ERA-2 funds held by Treasury that are subject to potential reallocation.
+17 U.S. Department of the Treasury, “Emergency Rental Assistance Under the Consolidated Appropriations Act, 2021
+Reallocation Guidance,” October 4, 2021, https://home.treasury.gov/system/files/136/ERA1-ReallocationSummaryOctober-2021.pdf; “Emergency Rental Assistance Under the Consolidated Appropriations Act, 2021 Reallocation
+Guidance,” updated March 30, 2022, https://home.treasury.gov/system/files/136/Updated-ERA1-ReallocationGuidance%203-30-%202022.pdf; “Emergency Rental Assistance Under the Consolidated Appropriations Act, 2021,
+Addendum to Reallocation Guidance for Tribal Governments,” June 1, 2022, https://home.treasury.gov/system/files/
+136/ERA_Tribal_Guidance_Addendum.pdf; and “Emergency Rental Assistance Under the Consolidated
+Appropriations Act, 2021 Reallocation Guidance,” updated September 6, 2022, https://home.treasury.gov/system/files/
+136/UpdatedERA1ReallocationGuidanceSep6.pdf.
+18 For example, see “Emergency Rental Assistance Under the Consolidated Appropriations Act, 2021 Reallocation
+
+Congressional Research Service
+
+6
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Treasury gave grantees the ability to avoid or lessen recapture if they submitted and complied
+with a Program Improvement Plan. If a grantee failed to submit required reports under the
+Program Improvement Plan, the grantee could also be determined to have excess funds subject to
+recapture in an amount equal to 10% of the grantee’s allocation.
+In order to prevent recapture, Treasury also allowed grantees to request that a portion of their
+ERA-1 funds be voluntarily reallocated to another designated grantee (either other localities
+within the same state or the state grantee) that had obligated at least 65% of its funds.
+Once Treasury made a recapture, it started a process to reallocate funds to other grantees.
+According to the Treasury guidance,
+
+
+
+grantees were eligible to apply for reallocated funds if they had obligated at least
+65% of their initial ERA-1 allocations and they submitted a request to Treasury;
+if more requests were received than there were excess funds to be reallocated,
+Treasury would develop a relative share formula for allocating funds:
+ when feasible, Treasury prioritized reallocation within the same state; and
+ Treasury reserved the right to prioritize grantees likely to expend all
+remaining ERA-1 and ERA-2 funds promptly.
+
+Treasury ultimately conducted four rounds of ERA-1 recapture and reallocation, and one round of
+tribal reallocation.19 Through the recapture and reallocation process, $3.140 billion dollars—or
+nearly 13% of all ERA-1 funding—was redistributed among grantees.
+
+ERA-2 Recapture and Reallocation Process
+As with ERA-1, the statute left Treasury with discretion to structure the recapture and reallocation
+process for ERA-2. In late March 2022, Treasury released ERA-2 reallocation guidance, which
+was subsequently revised in November 2022.20 The recapture process was structured similarly to
+the ERA-1 process, with grantee expenditures being evaluated quarterly against increasing
+expenditure ratios. Unlike the ERA-1 process, the ERA-2 process did not allow for Program
+Improvement Plans or cure periods. Another important difference is that the only ERA-2 funding
+subject to recapture is funding still held by Treasury. (As noted earlier, ERA-2 directed that
+Treasury only disburse the first 40% of a grantee’s funding initially, retaining the remaining 60%
+until 75% of the initial allocation had been spent.) Thus, the first 40% of all ERA-2 grant
+allocations is protected from recapture.
+
+Guidance,” updated September 6, 2022, p. 3, https://home.treasury.gov/system/files/136/
+UpdatedERA1ReallocationGuidanceSep6.pdf
+19 Round 1 reallocation was announced January 7, 2022; Round 2 reallocation was announced March 14, 2022; Round
+3 reallocation was announced September 26, 2022; Tribal Reallocation was announced October 21, 2022; Round 4
+(final) reallocation was announced October 28, 2022. Reallocation data are available on Treasury’s website,
+https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/emergencyrental-assistance-program.
+20 U.S. Department of the Treasury, “Emergency Rental Assistance Under the American Rescue Plan Act of 2021
+(ERA2) Reallocation Guidance,” March 30, 2022, https://home.treasury.gov/system/files/136/Updated-ERA1Reallocation-Guidance%203-30-%202022.pdf, and “Emergency Rental Assistance Under the American Rescue Plan
+Act of 2021 (ERA2) Reallocation Guidance,” updated November 15, 2022, https://home.treasury.gov/system/files/136/
+ERA2-Reallocation-Guidance-March-30-2022.pdf.
+
+Congressional Research Service
+
+7
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+As of December 2022, Treasury had conducted one round of ERA-2 reallocation, for Quarter 1,
+2022, in which almost $521 million was redistributed among grantees. In terms of future
+reallocations of ERA-2 funding, a December 2, 2022, notice issued by Treasury stated:
+Grantees have continued to draw down and obligate their ERA2 funds at high rates,
+diminishing the need to conduct additional reallocation following the already-announced
+Quarter 2 and Quarter 3 2022 Assessments [based on expenditures as of June 30, 2022 and
+September 30, 2022]. Accordingly, Treasury will not conduct the optional Final Undrawn
+Funds Assessment described in the Guidance until at least June 2023, if ever. 21
+
+ERA Program Parameters
+When P.L. 116-260 created the ERA program, it established parameters for how ERA-1 funds
+could and should be spent. Treasury issued Frequently Asked Questions (FAQs) regarding how
+certain aspects of the law are to be applied.22 For ERA-2 funding, P.L. 117-2 made some changes
+that are applicable to ERA-1 (i.e., expenditure deadlines); and others that are applicable only to
+ERA-2 (i.e., income eligibility and a different cap on administrative expenses). Treasury has
+revised its FAQs multiple times to reflect the requirements of both ERA-1 and ERA-2 and in
+response to stakeholder feedback.23
+ERA funds are provided from Treasury to grantees, which can use the funds to design their own
+rental assistance programs within the requirements of the law and Treasury guidance. Some
+grantees were able to use the new funds to supplement existing rental assistance programs created
+with CARES Act or other funds, to the extent their existing programs aligned with ERA statutory
+requirements (which are outlined below); others had to develop new programs from scratch.
+
+Eligible Use of Funds
+P.L. 116-260 directed that 90% of ERA-1 funds be spent on direct financial assistance and that up
+to 10% could be spent on administrative expenses and housing stability services. Treasury
+guidance further interpreted these limits to allow grantees to use up to 10% of ERA-1 funds for
+housing stability services, and up to 10% of total funds for administrative expenses.
+
+21 U.S. Department of the Treasury, “Emergency Rental Assistance (ERA2) Under the American Rescue Plan Act of
+
+2021, Notice Regarding the ERA2 Final Undrawn Funds Assessment,” December 2, 2022, https://home.treasury.gov/
+system/files/136/ERA2-FinalAssessmentNotice-FINAL12222.pdf.
+22 Treasury FAQs can be found at https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-andtribal-governments/emergency-rental-assistance-program/faqs.
+23
+Treasury’s ERA website contains a change log of FAQs, available at https://home.treasury.gov/policy-issues/
+coronavirus/assistance-for-state-local-and-tribal-governments/emergency-rental-assistance-program/faqs/change-log.
+FAQs were initially published in January 2021; see the January 19, 2021, FAQs at https://home.treasury.gov/system/
+files/136/ERA-Frequently-Asked-Questions_Pub-1-19-21.pdf. As of the cover date of this report, the FAQs have been
+changed seven times, in February, March, May, June, and August of 2021 and twice in July 2022. See February 22,
+2021, FAQs at https://home.treasury.gov/system/files/136/ERA-Frequently-Asked-Questions_Pub-2-22-21.pdf; March
+16, 2021, FAQs at https://home.treasury.gov/system/files/136/ERA-Frequently-Asked-Questions_Pub-3-16-21.pdf;
+May 7, 2021, FAQs at https://home.treasury.gov/system/files/136/ERA2FAQs%205-6-21.pdf; June 24, 2021, FAQs at
+https://home.treasury.gov/system/files/136/ERA_FAQs_6-24-21.pdf; August 25, 2021, FAQs at
+https://home.treasury.gov/system/files/136/ERA-FAQ-8-25-2021.pdf; July 6, 2022, FAQs at https://home.treasury.gov/
+system/files/136/ERA_FAQ_7622.pdf; and July 27, 2022, FAQs at https://home.treasury.gov/system/files?file=136/
+ERA-FAQ-7.27.22.pdf.
+
+Congressional Research Service
+
+8
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+For ERA-2, P.L. 117-2 directed that no more than 15% of ERA-2 funds be spent on
+administrative expenses and 10% be spent on housing stability services, leaving at least 75% to
+be spent on direct financial assistance.
+
+Financial Assistance
+P.L. 116-260 defined financial assistance as assistance to tenants for
+
+
+
+
+rent and rental arrears,
+utilities and home energy costs and arrears, and
+other expenses related to housing incurred due, directly or indirectly, to the
+COVID-19 outbreak, as defined by the Treasury Secretary.
+
+The definition of financial assistance under P.L. 117-2 for ERA-2 is nearly identical, except when
+it comes to other expenses related to housing; ERA-2 does not require that the expenses be related
+to the COVID-19 outbreak.
+Treasury issued an FAQ in January 2021 clarifying that telecommunications services are not
+considered utilities under this program.24 However, Treasury revised the FAQ in February 2021 to
+define “other expenses” eligible for assistance to include internet service, if it allows renters to
+engage in distance learning, telework, and telemedicine and obtain government services.25
+Additional “other expenses” identified in the FAQ include relocation expenses and rental fees (if
+a household has been displaced due to COVID-19), and accrued late fees.
+
+Length of Assistance
+Under ERA-1, assistance could be provided for no more than 12 months, with the possibility of
+one 3-month extension. Payments made for prospective rent were subject to additional
+limitations; they could only be provided in 3-month increments and only if rental arrearages were
+addressed.
+Under the terms of P.L. 117-2, recipients can receive no more than 18 months of assistance under
+both rounds of ERA combined, with ERA-1 assistance still limited to no more than 15 months.
+Treasury’s May 7, 2021, FAQs clarified that grantees must prohibit landlords from evicting
+tenants for nonpayment of rent during the period for which they have received prospective rent
+payments or for which rental arrearages were paid. Treasury’s guidance also encourages grantees
+to set policies prohibiting landlords who receive payment for rental arrearages from evicting
+tenants for nonpayment of rent for some period, consistent with applicable law.26
+
+Payments
+P.L. 116-260 directed that ERA-1 payments be made directly to landlords or utility providers, but
+it allowed payments to be made directly to tenants if landlords or utility providers were unwilling
+to accept such payments. In its May 7, 2021, FAQs, Treasury reduced the amount of time grantees
+
+24 January 9, 2021, FAQ #1, https://home.treasury.gov/system/files/136/ERA-Frequently-Asked-Questions_Pub-1-19-
+
+21.pdf.
+25 February 22, 2021, FAQ #7, https://home.treasury.gov/system/files/136/ERA-Frequently-Asked-Questions_Pub-222-21.pdf.
+26 May 7, 2021, FAQ #32, https://home.treasury.gov/system/files/136/ERA2FAQs%205-6-21.pdf.
+
+Congressional Research Service
+
+9
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+under ERA-1 were required to wait for landlords or utility providers to respond to outreach
+efforts before making payments directly to tenants.27
+ERA-1 guidance clarified that landlords are permitted to aid their tenants in applying for
+assistance, or they may apply directly. Landlords who apply directly must meet certain conditions
+(including obtaining tenant signatures, notifying tenants of the application, and ensuring any
+funds received are applied to tenants’ rental obligations).
+The requirements in P.L. 117-2 for ERA-2 are not as specific about landlord involvement, and,
+according to guidance in the May 7, 2021, FAQs, grantees may use their ERA-2 funding to offer
+assistance directly to tenants without first attempting to contact landlords or utility providers.28
+Additionally, a revision to the FAQs issued on June 24, 2021, permitted grantees under both
+ERA-1 and ERA-2 to enter into data sharing agreements and bulk payment arrangements for
+large landlords and utility providers.29 The August 25, 2021, revisions to the FAQs allow grantees
+to make bulk payments to landlords and utility providers in advance of tenant eligibility
+determination, as long as application and documentation requirements are met within six
+months.30
+The August 2021 FAQs further allow that, upon the request of a tenant, a grantee may provide
+both ERA-1 and ERA-2 assistance for rental and utility arrears after an otherwise eligible tenant
+has vacated a unit.31
+
+Administrative Costs and Housing Stability Services
+For ERA-1, grantees were authorized to use up to 10% of grant amounts each for housing
+stability services and administrative costs.32
+P.L. 116-260 defined “housing stability services” as case management and other services related
+to COVID-19, to be defined by the Secretary, that are intended to keep tenants stably housed. It
+restricted administrative expenses to those tied to providing financial assistance and housing
+stability services, including for data collection and reporting requirements.
+For ERA-2, P.L. 117-2 established a cap of up to 15% of total grant funding for administrative
+expenses and up to 10% for housing stability services. The law defined “housing stability
+services” as case management and other services intended to keep households stably housed,
+without reference to COVID-19. It defined “administrative expenses” as those included under
+P.L. 116-260, as well as costs associated with other affordable rental housing and eviction
+prevention activities.
+
+Individual Eligibility and Prioritization
+For ERA-1, P.L. 116-260 established a three-part eligibility test based on income level, income
+loss or other financial hardship, and risk of homelessness or housing instability. It also established
+
+27 May 7, 2021, FAQ #12, https://home.treasury.gov/system/files/136/ERA2FAQs%205-6-21.pdf.
+28 Ibid.
+29 June 24, 2021, FAQ #38, https://home.treasury.gov/system/files/136/ERA_FAQs_6-24-21.pdf.
+30 August 25, 2021, FAQ #38, https://home.treasury.gov/system/files/136/ERA-FAQ-8-25-2021.pdf.
+31 August 25, 2021, FAQ #40, https://home.treasury.gov/system/files/136/ERA-FAQ-8-25-2021.pdf.
+32 March 25, 2021, FAQ #29, https://home.treasury.gov/system/files/136/ERA-Frequently-Asked-Questions_Pub-3-16-
+
+21.pdf.
+
+Congressional Research Service
+
+10
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+a set of income targeting requirements to guide states and localities in prioritizing assistance. P.L.
+117-2 largely adopted the same requirements for ERA-2, but with some changes.
+
+Eligibility
+Under ERA-1, to be eligible for direct financial assistance or housing stability services,
+households must be renters and
+
+
+
+
+
+
+low-income, defined (consistent with federal housing law) as having income at or
+below 80% of local area median income as established by the Department of
+Housing and Urban Development (HUD);
+experiencing financial hardship, as evidenced by receipt of unemployment
+benefits or a written attestation of other financial hardship (income loss or
+increased expenses) related directly or indirectly to the COVID-19 pandemic;
+and
+have at least one member at risk of homelessness or housing instability, as
+evidenced by past due rent or utility notices (including eviction notices), unsafe
+living conditions, or other evidence as established by the grantee.
+
+The eligibility definition for ERA-2 is largely the same, although it does not include the detail as
+to how an individual can demonstrate a risk of homelessness or housing insecurity that was
+included for ERA-1; nor does ERA-2 require that financial hardship be related to the COVID-19
+pandemic. A household is eligible for assistance under ERA-2 as long as hardship has occurred
+due to or during the pandemic.
+Neither ERA-1 nor ERA-2 addresses noncitizen eligibility for assistance under the ERA
+program.33
+
+Prioritization
+Under both ERA-1 and ERA-2, grantees are to prioritize the following individuals for direct
+financial assistance and housing stability services:
+
+
+very low-income tenants, defined (consistent with federal housing law) as having
+income at or below 50% of local area median income as established by HUD;
+and
+
+
+
+applicants who are unemployed and have been unemployed for the prior 90 days.
+
+The law permits states and localities to further establish their own prioritization policies.
+
+Documentation
+P.L. 116-260 specified that for ERA-1, grantees may determine an applicant’s income eligibility
+based on annual income or current monthly income (subject to three-month recertification).
+P.L. 117-2 does not include provisions related to income determination for ERA-2.
+
+33 Some questions have arisen as to whether noncitizen eligibility restrictions under the Personal Responsibility and
+
+Work Responsibility Act of 1996 (PRWORA; Title IV of P.L. 104-193, as amended) apply to assistance under the
+ERA program. To date, Treasury has not issued guidance on the applicability of PRWORA noncitizen restrictions to
+these funds. For more information about PRWORA’s restrictions, see CRS Report R46510, PRWORA’s Restrictions on
+Noncitizen Eligibility for Federal Public Benefits: Legal Issues.
+
+Congressional Research Service
+
+11
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Treasury’s May 7, 2021, FAQs encouraged grantees to be flexible in establishing eligibility for
+both ERA-1 and ERA-2. The FAQs state: “Treasury strongly encourages grantees to avoid
+establishing documentation requirements that are likely to be barriers to participation for eligible
+households.”34 For example, the FAQs say a grantee may rely on an applicant’s self-attestation of
+income under certain circumstances as well as financial hardship related to COVID-19.35
+Treasury also authorized the use of categorical eligibility and fact-specific proxies for confirming
+eligibility.36
+
+Reporting Requirements
+The Treasury Secretary, in consultation with the Secretary of Housing and Urban Development, is
+required under P.L. 116-260 to provide quarterly reports on a number of specified ERA-1
+program indicators, including the number of households served by the program, their income
+profiles, the acceptance rate of applicants, and the types and amounts of assistance. Grantees must
+establish data privacy guidelines for collecting information. Treasury publishes data from these
+reports on its website.37
+P.L. 117-2 did not contain reporting requirements for ERA-2. Treasury’s May 7, 2021, FAQs
+encouraged ERA-2 grantees to comply with the data privacy and security requirements
+established for ERA-1.38 Treasury subsequently released reporting guidance applicable to both
+ERA-1 and ERA-2 grantees.39
+
+Program Performance and Future Considerations
+ERA was unique in the context of federal housing assistance programs in that it was implemented
+rapidly, and on a large scale, effectively from scratch. HUD has announced it is funding research
+to better understand how the program functioned in its goal of preventing eviction and housing
+instability among low-income households during the COVID-19 pandemic.40 While findings from
+that research will not be available for several years, data and information are available that
+provide some indication of how the program has functioned and who it has served.
+
+Funding Distribution and Reallocation
+The formula that was used to allocate ERA-1 funding was based solely on population. The same
+formula was used to distribute ERA-2 funding, although a portion of funds were set aside to be
+34 May 7, 2021, FAQ #1, https://home.treasury.gov/system/files/136/ERA2FAQs%205-6-21.pdf.
+35 May 7, 2021, FAQ #4, #2, https://home.treasury.gov/system/files/136/ERA2FAQs%205-6-21.pdf.
+36 May 7, 2021, FAQ #4, https://home.treasury.gov/system/files/136/ERA2FAQs%205-6-21.pdf.
+37 See https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/
+
+emergency-rental-assistance-program.
+38 May 7, 2021, FAQ # 14, https://home.treasury.gov/system/files/136/ERA2FAQs%205-6-21.pdf.
+39 See ERA Reporting Guidance, issued June 30, 2021, at https://home.treasury.gov/system/files/136/ERA-ReportingGuidance.pdf.
+40 U.S. Department of Housing and Urban Development, Notice of Funding Opportunity, Impact Evaluation of the
+Emergency Rental Assistance (ERA) Program, August 25, 2022, https://www.hud.gov/sites/dfiles/SPM/documents/
+ImpactEvaluationofTheEmergencyAssistanceERAProgramV.2FY22_NOFO.pdf and U.S. Department of Housing and
+Urban Development, “HUD Awards $2 Million to Assess the Impact of Emergency Rental Assistance on Housing
+Stability,” press release, November 3, 2022, https://www.hud.gov/press/press_releases_media_advisories/
+hud_no_22_226.
+
+Congressional Research Service
+
+12
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+distributed to jurisdictions considered to have “high needs” based on factors including rental
+market costs and high cost burdens among low-income renter households. The formula included a
+small state minimum, which meant that low population states (those that received the small state
+minimum) were given larger per-capita allocations than large population states.41
+Observers have critiqued the formula for directing too much funding to smaller states with
+relatively fewer renters in need and not enough to states with the highest proportion of vulnerable
+renters. For example, Abt Associates released a report in January 2022 based on a study of eight
+states, in which they report: “representatives from the less populous states noted that their
+allocations were likely too large given the need for rental assistance in their states.”42 A December
+2022 Government Accountability (GAO) report had similar findings, noting that 4 of the 21
+grantees they interviewed reported that funding in excess of the needs of eligible renters was an
+obstacle to their spending.43
+The GAO report compared initial ERA-1 allocations to the number of low-income renters in each
+state and found the total amount of funding available to low-income renters varied significantly
+across states, from as low as $602 per low-income renter in New York to $4,588 per low-income
+renter in Wyoming.44
+As noted earlier, $3.1 billion, or 12.6%, of ERA-1 funding was ultimately redistributed from
+relatively slower-spending grantees to relatively faster-spending grantees. Some of that funding
+moved between grantees within states and some moved across states.
+Table 2 presents information on ERA-1 redistribution amounts across states, tribes, and
+territories. The state-level figures presented reflect the aggregated totals for all grantees within a
+state (both state and local grantees, but not tribes within a state). The states are sorted by amount
+of redistributed funding received within or forfeited outside of the state; states receiving the small
+state minimum are italicized. (Because ERA-2 reallocations are still taking place, that information
+is not included.)
+Table 2. ERA-1 Reallocation
+
+State
+
+ERA-1Initial
+Allocation
+($ in millions)
+
+Change in ERA-1Total
+Funding Based on
+Reallocation
+($ in millions)
+
+Relative Change in ERA-1
+Total Funding Based on
+Reallocation
+(%)
+
+California
+
+2,611
+
+406
+
+16%
+
+New York
+
+1,282
+
+298
+
+23%
+
+Texas
+
+1,947
+
+148
+
+8%
+
+New Jersey
+
+589
+
+140
+
+24%
+
+Illinois
+
+835
+
+38
+
+5%
+
+41 U.S. Government Accountability Office (GAO), Emergency Rental Assistance: Treasury’s Oversight is Limited by
+
+Incomplete Data and Risk Assessment, GAO-23-105410, December 2022, p. 15, https://www.gao.gov/assets/gao-23105410.pdf (hereinafter, Emergency Rental Assistance: Treasury’s Oversight is Limited by Incomplete Data and Risk
+Assessment).
+42 Abt Associates, Lessons from Eight States Regarding Factors That Have Contributed to States’ ERA1 Spending
+Rates, January 18, 2022, pp. 3-4, https://www.abtassociates.com/files/insights/reports/2022/era-findings-from-8states_abt-2021.pdf (hereinafter, Lessons from Eight States Regarding Factors That Have Contributed to States’ ERA1
+Spending Rates).
+43 Emergency Rental Assistance: Treasury’s Oversight is Limited by Incomplete Data and Risk Assessment, p. 15.
+44 Emergency Rental Assistance: Treasury’s Oversight is Limited by Incomplete Data and Risk Assessment, pp. 17-18.
+
+Congressional Research Service
+
+13
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+District of Columbia
+
+200
+
+33
+
+17%
+
+Minnesota
+
+375
+
+33
+
+9%
+
+Pennsylvania
+
+848
+
+27
+
+3%
+
+Oregon
+
+281
+
+21
+
+7%
+
+Washington
+
+510
+
+20
+
+4%
+
+Florida
+
+1,441
+
+19
+
+1%
+
+Virginia
+
+570
+
+16
+
+3%
+
+North Carolina
+
+703
+
+15
+
+2%
+
+Colorado
+
+385
+
+12
+
+3%
+
+Louisiana
+
+308
+
+8
+
+3%
+
+Hawaii
+
+200
+
+7
+
+3%
+
+Nevada
+
+208
+
+6
+
+3%
+
+Massachusetts
+
+457
+
+5
+
+1%
+
+Nebraska
+
+200
+
+3
+
+2%
+
+Maryland
+
+402
+
+3
+
+1%
+
+Connecticut
+
+236
+
+3
+
+1%
+
+Georgia
+
+710
+
+2
+
+0%
+
+Arizona
+
+492
+
+2
+
+0%
+
+Missouri
+
+408
+
+2
+
+0%
+
+Oklahoma
+
+264
+
+1
+
+1%
+
+Kansas
+
+200
+
+1
+
+1%
+
+Alaska
+
+200
+
+1
+
+1%
+
+South Carolina
+
+346
+
+0
+
+0%
+
+New Mexico
+
+200
+
+0
+
+0%
+
+Michigan
+
+661
+
+0
+
+0%
+
+Iowa
+
+210
+
+-
+
+0%
+
+Maine
+
+200
+
+-
+
+0%
+
+Rhode Island
+
+200
+
+-
+
+0%
+
+Wisconsin
+
+387
+
+(0)
+
+0%
+
+Indiana
+
+448
+
+(4)
+
+-1%
+
+Arkansas
+
+201
+
+(9)
+
+-4%
+
+Ohio
+
+775
+
+(11)
+
+-1%
+
+Utah
+
+216
+
+(19)
+
+-9%
+
+Kentucky
+
+297
+
+(20)
+
+-7%
+
+Mississippi
+
+200
+
+(25)
+
+-12%
+
+Vermont
+
+200
+
+(31)
+
+-16%
+
+New Hampshire
+
+200
+
+(57)
+
+-29%
+
+Tennessee
+
+457
+
+(72)
+
+-16%
+
+Congressional Research Service
+
+14
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Delaware
+
+200
+
+(74)
+
+-37%
+
+Idaho
+
+200
+
+(77)
+
+-38%
+
+West Virginia
+
+200
+
+(91)
+
+-46%
+
+Alabama
+
+326
+
+(110)
+
+-34%
+
+Montana
+
+200
+
+(137)
+
+-69%
+
+North Dakota
+
+200
+
+(151)
+
+-76%
+
+Wyoming
+
+200
+
+(168)
+
+-84%
+
+South Dakota
+
+200
+
+(183)
+
+-91%
+
+American Samoa
+
+10
+
+(6)
+
+-64%
+
+Guam
+
+34
+
+(7)
+
+-21%
+
+Northern Mariana Islands
+
+10
+
+-
+
+0%
+
+Puerto Rico
+
+325
+
+(85)
+
+-26%
+
+Virgin Islands
+
+21
+
+(16)
+
+-77%
+
+Tribal Governments
+
+800
+
+47
+
+6%
+
+Source: Prepared by CRS based on data reported by the U.S. Department of the Treasury.
+Note: The 50 states and the District of Columbia are ordered from largest dollar reallocation received to
+largest dollar recapture.
+
+Grantees in small states (a total of 18 states, defined as those that received the small state
+minimum) accounted for a disproportionate share of funding that was redistributed. Nearly 33%
+($994 million) of the $3.1 billion in ERA-1 funding that was ultimately redistributed came from
+grantees in 10 of those small states. Grantees in those 10 states, in aggregate, had 50% of their
+overall initial allocation redistributed to other states; individual states’ losses ranged from 12%
+(Mississippi) to 91% (South Dakota) of their overall allocations.
+Five larger population states (California, New York, Texas, New Jersey, and Illinois) combined
+received more than $1.0 billion in addition to their initial ERA-1 allocations. Together, they
+received more than 33% of all reallocated funding. Although large states received the largest
+share of reallocated funds, six small states were net recipients of reallocated funding, in aggregate
+receiving $45 million, or about 1% of all reallocated funding. Individual small state gains relative
+to their overall allocations ranged from less than 0.2% (New Mexico) to 16.5% (District of
+Columbia).
+While Table 2 presents information about how money moved, in aggregate, across states,
+territories, and tribal governments, it does not show how much money moved between grantees
+within states. As noted earlier, Treasury prioritized in-state reallocation of ERA funding in two
+ways: (1) grantees at risk of having funds recaptured could voluntarily reallocate all or a portion
+of their excess funding to other grantees in the state; and (2) for funds that were involuntarily
+recaptured, Treasury prioritized first reallocation to grantees within a state before out-of-state
+reallocations, where possible.
+As shown in Table 3, the majority of reallocated ERA-1 funding was reallocated between
+grantees within the same state. Of the within-state redistribution, the vast majority of funds (89%)
+were voluntarily reallocated by grantees to other designated entities within their state. Often,
+these voluntary reallocations happened between states and local governments or between local
+governments; but in some cases, state and local governments transferred funding to tribal
+governments (which is part of the reason for the increase in tribal funding shown in Table 2).
+
+Congressional Research Service
+
+15
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Table 3. ERA-1 Reallocation
+(dollars in billions)
+Total
+Reallocation Within State
+
+Share
+
+1.820
+
+58%
+
+1.624
+
+89%
+
+Reallocation Out of State
+
+1.293
+
+42%
+
+Total Reallocated Funding
+
+3.113
+
+100%
+
+Voluntary Reallocation to Designated In-State Entity
+
+Source: Prepared by CRS based on reallocation information publicly released by the U.S. Department of the
+Treasury.
+
+While redistribution may have addressed some of the shortcomings of the initial ERA-1
+allocation formula by allowing funding to move from grantees that were unable to use it to those
+that could, Treasury’s decision to prioritize in-state reallocation limited the ability of reallocation
+to fully rebalance funding disparities in the program. According to GAO’s analysis, “large
+differences in the amount of funding per low-income renter in each state remained after
+reallocation, especially in states that received relatively low allocations.”45
+Limitations in the ERA-1 funding distribution formula may have played a role in the relatively
+slow spending and large redistribution of ERA-1 funding; however, other factors are also likely at
+play. For example, demand for assistance likely varied across geographies, which may be related
+to the proportion of renters in the state relative to population. Further, grantees had different
+degrees of administrative challenges in implementing their programs (which is discussed in the
+next section of this report).
+
+Program Design and Administration
+When the ERA program was created, there was strong evidence that renters nationwide were in
+need of assistance.46 Yet the process of directing ERA funds to households was relatively slow to
+get underway. ERA was a new program for both Treasury, which administered funds at the
+federal level, and for many of the state, local, and tribal jurisdictions that administered funds to
+households. While the ERA enacting laws established some program parameters, many aspects of
+ERA were governed by Treasury guidance, which was initially minimal, and subsequently
+updated a number of times over the course of the program.
+Through May 2021, almost six months after funds had been made available to grantees, $1.5
+billion (about 6% of total ERA-1 funds) had been expended on rent and utility payments, an
+expenditure rate that was generally considered to be too slow.47 In addition to potential
+45 Emergency Rental Assistance: Treasury’s Oversight is Limited by Incomplete Data and Risk Assessment, p. 22.
+46 For example, see Davin Reed and Eileen Divringi, Household Rental Debt During COVID-19, Federal Reserve Bank
+
+of Philadelphia, October 2020, https://www.philadelphiafed.org/-/media/frbp/assets/community-development/reports/
+household-rental-debt-during-covid-19.pdf; and Stout, Risius Ross LLC, Analysis of Current and Expected Rental
+Shortfall and Potential Eviction Filings in the U.S., National Council of State Housing Finance Agencies, September
+25, 2020, https://www.ncsha.org/wp-content/uploads/Analysis-of-Current-and-Expected-Rental-Shortfall-andPotential-Evictions-in-the-US_Stout_FINAL.pdf.
+47 See, for example, U.S. Department of the Treasury, “Emergency Rental Assistance Data Shows Programs Ramping
+Up, but States and Localities Must Do More to Accelerate Aid,” https://home.treasury.gov/system/files/136/2021-0702-ERA-Data-Blog-Post-vF.pdf. See also Emergency Rental Assistance: Treasury’s Oversight is Limited by Incomplete
+Data and Risk Assessment (reporting that as of May 2021, 22% of grantees had made no payments at all).
+
+Congressional Research Service
+
+16
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+mismatches in the geographic distribution of funds, the design and implementation of state and
+local programs may have contributed to slow spending rates.
+Factors that may have contributed to the ability of jurisdictions to distribute funding expeditiously
+include the following:
+
+
+
+
+
+
+Previous experience administering pandemic rental assistance. As described
+earlier in this report, some jurisdictions used CARES Act appropriations for
+programs such as CDBG and CRF to establish rental assistance programs.
+Jurisdictions that had already established an administrative process to distribute
+rental assistance and had experience doing so may have been in a better position
+to begin distributing ERA-1 funds quickly.48
+Outreach and communication. Efforts to advertise and conduct community
+outreach may have affected initial awareness of available rental assistance,
+particularly among hard-to-reach populations.49 Further, outreach to landlords
+may have influenced their willingness to participate in the program.50
+Documentation requirements. There is evidence that applicant failure to
+complete rental assistance applications often occurred at the point where they had
+to provide documentation to verify eligibility.51 In its May 7, 2021, FAQs,
+Treasury made clear that applicants could self-certify for certain ERA
+requirements including income and financial hardship (see the “Documentation”
+section of this report). Adopting these flexibilities may have contributed to
+increased program expenditures.52 After the FAQ release, in June 2021, ERA-1
+expenditures doubled compared to May 2021, and they continued to increase
+each month through September 2021.53 Treasury’s reported application
+acceptance rate also began to increase.54
+
+ERA grantee jurisdictions also had to balance quickly spending funds (and avoiding recapture)
+with concerns over fraudulent applications. Treasury FAQs stated that in cases of applicant selfattestation, “grantees must have in place reasonable validation or fraud-prevention procedures to
+48 Lessons from Eight States Regarding Factors That Have Contributed to States’ ERA1 Spending Rates, p. 9 (“States
+
+that had previous experience managing an emergency rental assistance program, typically using Coronavirus Relief
+Fund money, gained valuable experience that carried over to their ERA1-funded programs, despite the need to redesign
+the programs to meet Treasury’s requirements.”).
+49 See, for example, Claudia Aiken, Vincent Reina, and Julia Verbrugge et al., Learning from Emergency Rental
+Assistance Programs Lessons from Fifteen Case Studies, Housing Initiative at Penn, National Low Income Housing
+Coalition, and NYU Furman Center, March 10, 2021, https://furmancenter.org/files/ERA_Programs_Case_Study__Final.pdf (hereinafter, Learning from Emergency Rental Assistance Programs Lessons from Fifteen Case Studies).
+50 See U.S. Department of the Treasury, Intentional Landlord Engagement, https://home.treasury.gov/policy-issues/
+coronavirus/assistance-for-state-local-and-tribal-governments/emergency-rental-assistance-program/promisingpractices/landlord-engagement.
+51 Learning from Emergency Rental Assistance Programs Lessons from Fifteen Case Studies, p. 9 and Emergency
+Rental Assistance: Treasury’s Oversight is Limited by Incomplete Data and Risk Assessment, p. 12.
+52 See, for example, Claudia Aiken, Isabel Harner, and Vincent Reina et al., Treasury Emergency Rental Assistance
+Programs in 2021: Preliminary Analysis of Program Features and Spending Performance, Housing Initiative at Penn
+and National Low Income Housing Coalition, December 2021, p. 2, https://www.housinginitiative.org/uploads/1/3/2/9/
+132946414/2021_treasury_era_program_features_and_spending_report.pdf.
+53 See June ERA Report, https://home.treasury.gov/system/files/136/June-2022-ERA-Monthly-Data.xlsx.
+54 See ERA1 & ERA2 Quarterly Demographic Data for Q1 2021 through Q2 2022, https://home.treasury.gov/system/
+files/136/Q1-2021-Q2-2022-ERA-Demographic-Data.xlsx. Note that Treasury indicates that some reported data may
+need to be updated.
+
+Congressional Research Service
+
+17
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+prevent abuse.”55 This tension may have made some grantees reluctant to allow for selfcertification. GAO released a report in February 2022 in which it noted that “because some
+grantees remain uncertain about how Treasury will evaluate their payments and controls, they
+may face a difficult tradeoff between adopting the administrative flexibilities to avoid recapture
+and managing the potential risk of improper payments and recoupment.”56
+
+Households Served
+Grantees have reported some basic information to Treasury on how they have spent ERA funding
+and who they have served. As shown in Table 4, from the first quarter of 2021 through the second
+quarter of 2022, grantees provided ERA assistance to 5.35 million unique households, the
+majority of which had incomes at or below 30% of local area median income. Roughly 70% of
+those served received rental assistance and about 64% received assistance with rental arrears.
+About 14% received utility assistance and 27% received assistance with utility arrears.
+Table 4. Data on Households Served by the ERA Program
+(data as of June 2022)
+ERA-1
+Unique Households Served
+
+ERA-2
+
+Combined
+
+3,395,745
+
+1,953,567
+
+5,349,312
+
+64.3%
+
+62.9%
+
+63.8%
+
+Rent Assistance
+
+69%
+
+72%
+
+70%
+
+Assistance with Rental Arrears
+
+64%
+
+63%
+
+64%
+
+Utility Assistance
+
+15%
+
+13%
+
+14%
+
+Assistance with Utility Arrears
+
+29%
+
+24%
+
+27%
+
+Other Housing Assistance
+
+11%
+
+5%
+
+9%
+
+Share of Households, Income Below 30% AMI
+Share of Households Served Receiving:
+
+Source: Prepared by CRS based on Treasury data contained in Emergency Rental Assistance Quarterly
+Demographic Data: Q1 2021–Q2, 2022, available at https://home.treasury.gov/system/files/136/Q1-2021-Q22022-ERA-Demographic-Data.xlsx.
+Notes: Data are based on reporting by state, local, tribal, and territorial governments. Some grantees did not
+report data or may have reported inaccurately, so data may be subject to change.
+
+The December 2022 GAO report compared grantees self-reported data to low-income renter
+populations and found that, for grantees with available data, ERA funds served from 0.4% to
+15.6% of estimated low-income renters.57
+While this descriptive information helps explain how ERA resources have been used, it does not
+answer questions about the effectiveness and efficiency of the program in promoting housing
+stability and reducing evictions. In order to address those questions, the federal government is
+funding research to better understand the range of impacts the ERA program has had on program
+55 May 7, 2021, FAQ #1, https://home.treasury.gov/system/files/136/ERA-Frequently-Asked-Questions_Pub-3-16-
+
+21.pdf.
+56 U.S. Government Accountability Office, Emergency Rental Assistance: Grantee Monitoring Needed to Manage
+Known Risks, February 10, 2022, p. 8, https://www.gao.gov/assets/gao-22-105490.pdf.
+57 Emergency Rental Assistance: Treasury’s Oversight is Limited by Incomplete Data and Risk Assessment, p. 26.
+Figures represent 5th and 95th percentiles.
+
+Congressional Research Service
+
+18
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+participants and their communities. In November 2022, HUD announced an award of $2 million
+to three research organizations to conduct an impact evaluation of the ERA program, with a focus
+on housing stability and eviction outcomes.58 The estimated project end date is October 2024,
+after which time findings may become available.
+
+Future of Emergency Rental Assistance
+As communities exhaust their federal ERA program funding, questions have been raised about the
+future of emergency rental assistance, both generally and in anticipation of future economic
+shocks or downturns.
+As noted earlier, some communities leveraged other pandemic relief funding prior to the creation
+of the ERA program to create their own emergency rental assistance programs. Further, Treasury
+has encouraged grantees to consider using another source of temporary pandemic aid—State and
+Local Fiscal Recovery Fund (SLFRF)—to meet emergency rental assistance needs once ERA
+funding is exhausted.59 However, like ERA, SLFRF is temporary, as obligations must be incurred
+by December 31, 2024.
+Some states and localities have begun looking for ways to continue to provide some form of
+emergency rental assistance for families at risk of eviction after ERA funds are expended.
+Sources of regular federal funding, such as CDBG or Emergency Solutions Grants, can be used
+for eviction prevention or emergency rental assistance.60 However, these funds can be also be
+used for other purposes and they are much smaller in scale than the federal ERA program. States
+and localities can also use their own funds for eviction prevention or emergency rental assistance.
+For example, California provided nearly $2 billion in its state budget for emergency rental
+assistance, although this funding was only sufficient to serve families who had already applied for
+assistance but were unable to be served because federal ERA funding had been exhausted.61
+Legislation has also been introduced in Congress to fund a permanent emergency rental
+assistance program. For example, in the 117th Congress, the Eviction Crisis Act (S. 2182) and the
+Stable Families Act (H.R. 8327 ) both would have created a grant program to provide federal
+funding to states and localities to prevent evictions, homelessness, and other housing instability,
+modeled on the ERA program. Both would have authorized funding at $3 billion annually
+through FY2026 and at such sums as may be necessary thereafter.
+
+58 U.S. Department of Housing and Urban Development, “HUD Awards $2 Million to Assess the Impact of Emergency
+
+Rental Assistance on Housing Stability,” press release, November 3, 2022, https://www.hud.gov/press/
+press_releases_media_advisories/hud_no_22_226.
+59 U.S. Department of the Treasury, “Treasury Announces $30 Billion in Emergency Rental Assistance Spent or
+Obligated with Over 4.7 Million Payments Made to Households Through February 2022,” press release, March 30,
+2022, https://home.treasury.gov/news/press-releases/jy0688.
+60 For more information, see CRS Report R47204, Federal Role in Preventing Evictions.
+61 Office of Governor Gavin Newsom, “Governor Newsom Signs Budget Putting Money Back in Californians’ Pockets
+and Investing in State’s Future,” press release, June 30, 2022, https://www.gov.ca.gov/2022/06/30/governor-newsomsigns-budget-putting-money-back-in-californians-pockets-and-investing-in-states-future/.
+
+Congressional Research Service
+
+19
+
+Pandemic Relief: The Emergency Rental Assistance Program
+
+Author Information
+Grant A. Driessen
+Specialist in Public Finance
+
+Libby Perl
+Specialist in Housing Policy
+
+Maggie McCarty
+Specialist in Housing Policy
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R46688 · VERSION 12 · UPDATED
+
+20
+
+

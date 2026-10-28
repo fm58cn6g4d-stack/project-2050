@@ -1,0 +1,3606 @@
+Source: https://www.cbo.gov/publication/61256
+Publisher: Congressional Budget Office
+Retrieved: 2026-10-28 (copy uploaded by Espen)
+Original SHA-256: 0a6c765a4efc4452dbf52a8953c92cf779b3a270824f4daa532574d2c85c9380
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Effects of the Surge in Immigration
+on State and Local Budgets in 2023
+Billions of dollars
+
+Direct effects plus expected adjustments
+over time from fiscal pressures:
+Potential effects
+28.6
+28.6
+
+Direct effects plus broader increases in tax
+revenues from economic growth:
+Potential effects
+18.8
+18.8
+
+Directly attributable to the immigration
+Direct
+effects
+surge that
+started
+in 2021:
+10.1
+10.1
+
+Tax revenues
+
+Directly attributable
+to the immigration
+Direct effects
+surge that started
+19.3 in 2021:
+19.3
+
+Spending
+
+JUNE | 2025
+
+At a Glance
+In this report, the Congressional Budget Office estimates how the surge in immigration that began in
+2021 affected state and local budgets in 2023. In addition to estimating the direct effects of the surge,
+CBO calculated an alternative measure that includes the potential broader or longer-term effects and
+costs that were borne without adding to spending—such as crowding in public schools and public
+transportation systems. By either measure, the surge imposed a net cost.
+
+• Direct Effects. The surge led to a direct increase in revenues of $10.1 billion, primarily from
+
+sales taxes, and a direct increase in spending of $19.3 billion, chiefly for public elementary and
+secondary education, shelter and related services, and border security. The result was a direct
+net cost of $9.2 billion in 2023, amounting to 0.3 percent of state and local spending (net of
+federal grants-in-aid).
+
+• Potential Effects. In addition to those direct effects, CBO’s alternative measure accounts for
+
+expected increases in property tax revenues, additional tax revenues from greater economic activity,
+and nonbudgetary costs associated with greater demand for government services. By that measure,
+the surge in immigration had the potential to increase revenues by $18.8 billion and spending
+by $28.6 billion, resulting in a potential net cost to state and local governments of $9.8 billion
+in 2023.
+
+www.cbo.gov/publication/61256
+
+Contents
+Summary
+
+1
+
+The Surge in Immigration
+
+1
+
+CBO’s Analysis
+
+1
+
+Effects of the Surge in Immigration on State and Local Budgets in 2023
+
+2
+
+The Surge Population in 2023
+
+2
+
+How Immigration Affects State and Local Budgets
+
+4
+
+Effects of the Surge in Immigration on State and Local Tax Revenues
+
+5
+
+Taxation and Immigration
+
+6
+
+Sales Taxes
+
+7
+
+Property Taxes
+
+7
+
+Income Taxes
+
+8
+
+Other Taxes
+
+8
+
+Increases in Tax Revenues From Overall Changes in the Economy
+
+8
+
+Effects of the Surge in Immigration on State and Local Spending
+
+8
+
+Education
+
+10
+
+Shelter and Related Services
+
+11
+
+Border Security
+
+11
+
+Health Insurance and Income Security Programs
+
+12
+
+Incarceration
+
+14
+
+General Services Allocated Equally to All
+
+15
+
+Sources of Uncertainty in CBO’s Estimates
+
+16
+
+Number of Other Foreign Nationals in the Immigration Surge
+
+16
+
+Characteristics of the Surge Population
+
+16
+
+Geographic Distribution of the Surge Population
+
+16
+
+Estimation Methods
+
+16
+
+Immigrants’ Behaviors and Governments’ Responses
+
+17
+
+Appendix A: Methods Used to Estimate the Effects of the Immigration Surge
+
+19
+
+Appendix B: Comparison With Estimates From Other Studies
+
+33
+
+List of Tables and Figures
+
+35
+
+About This Document
+
+36
+
+Box
+1. Categories of Immigrants
+
+3
+
+Notes About This Report
+Unless this report indicates otherwise, all years referred to are calendar years.
+Numbers in the text, tables, and figure may not add up to totals because of rounding.
+In this report, the surge in immigration refers to the significant increase in the number of people
+entering the United States that began in 2021 and peaked in 2023 before slowing in 2024 and 2025.
+Estimates of net immigration in this report are based on demographic projections in Congressional
+Budget Office, The Demographic Outlook: 2024 to 2054 (January 2024), www.cbo.gov/
+publication/59697. Those estimates were updated in 2025; CBO used the 2024 projections in this
+analysis to maintain consistency with its previous analysis of the federal budgetary effects of the surge
+in immigration. See Congressional Budget Office, Effects of the Immigration Surge on the Federal
+Budget and the Economy (July 2024), www.cbo.gov/publication/60165. CBO does not produce
+10-year baseline projections for state and local budgets. Therefore, whereas that report projected the
+effects of the surge over the 2024–2034 period, this report focuses on the effects in 2023.
+
+Effects of the Surge in Immigration
+on State and Local Budgets in 2023
+Summary
+
+The number of people entering the United States
+increased sharply starting in 2021 and peaked in
+2023 before slowing in 2024. That surge in immigration
+imposed a fiscal burden on state and local governments.
+In this report, the Congressional Budget Office examines
+the fiscal impact of that surge in 2023. State and local tax
+revenues grew, especially sales tax revenues, but the costs
+of providing services grew more. The largest increases in
+costs were for primary and secondary education, shelter
+and related services, and border security. Costs for incarceration and income security programs also increased.
+The Surge in Immigration
+Most immigrants in the surge were people whom CBO
+categorizes as other foreign nationals—immigrants who
+were not lawful permanent residents, were not eligible
+to apply for lawful permanent residency on the basis of
+their current status, and were not admitted on a temporary basis under the Immigration and Nationality Act
+(INA). Some of those immigrants received permission to
+enter or remain in the country (for example, through the
+use of parole authority), and some did not.1 Some had
+newly arrived, and some had been residing in the United
+States under a temporary status that expired.
+All told, the surge in immigration that started in
+2021 added an estimated 4.4 million people to the U.S.
+resident population in 2023. That increase represents a
+1.3 percent gain over what the population would have
+been if the net immigration of other foreign nationals
+had remained at historical levels. (The net immigration
+of other foreign nationals is the number of new people in
+that category in a given year minus those who emigrated
+1. Under section 212(d)(5) of the Immigration and Nationality Act,
+8 U.S.C. § 1182(d)(5), the Secretary of Homeland Security may
+parole people into the United States, which allows them to enter
+temporarily without formal admission to the country only on a
+case-by-case basis for urgent humanitarian reasons or significant
+public benefit and under conditions the Secretary prescribes.
+
+or obtained a different status. It does not reflect deaths of
+people in the category.)
+The surge continued beyond 2023, but it slowed starting in June 2024, when an executive order suspended
+the entry of most noncitizens at the southern border,
+and has slowed further in 2025. CBO does not produce
+10-year baseline projections for state and local budgets.
+Therefore, this analysis examines the effects of the surge
+on state and local budgets in 2023, the most recent year
+for which data from the national income and product
+accounts, which report government expenditures and
+receipts at the state and local level, are available.
+CBO’s Analysis
+This analysis focuses on the incremental impact of that
+immigration surge, not the broader effects of all immigrants who arrived between 2021 and 2023 or were
+already living in the United States. CBO used a similar
+approach to estimate the effects of the surge on the
+federal budget and the economy in a previous report.2
+In that report, CBO projected that the increase in immigration would lead to larger increases in federal revenues
+than federal costs over the 2024–2034 period.
+To isolate the effects of the surge in immigration, CBO
+compared estimates of state and local governments’
+actual tax revenues and spending with estimates of
+the revenues and spending that would have occurred
+in the absence of the surge—that is, if the net immigration of other foreign nationals had totaled about
+200,000 people per year from 2021 to 2023, in line with
+pre-2020 trends. In 2023, state and local governments’
+tax revenues totaled $2.5 trillion, and their spending,
+net of federal grants-in-aid, totaled $2.8 trillion. For
+a detailed explanation of CBO’s estimation methods,
+see Appendix A.
+2. Congressional Budget Office, Effects of the Immigration
+Surge on the Federal Budget and the Economy (July 2024),
+www.cbo.gov/publication/60165.
+
+2
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Effects of the Surge in Immigration on
+State and Local Budgets in 2023
+State and local governments saw both their tax revenues
+and their spending increase in 2023 as a result of the
+surge in immigration. In CBO’s estimation, the increase
+in spending was greater than the increase in taxes:
+
+• Immigrants who were part of the surge that started
+
+in 2021 paid $10.1 billion in state and local taxes in
+2023—primarily sales taxes, followed by income and
+property taxes.
+
+• State and local governments spent $19.3 billion
+
+on goods and services for those immigrants. More
+than half of that spending was for elementary and
+secondary education, shelter and related services, and
+border security. Most of the remaining spending was
+for general services whose use could not be attributed
+to individuals and whose costs CBO expected to rise
+immediately in proportion to population growth.3
+
+• As a result, the surge led to a direct net cost of
+$9.2 billion, amounting to 0.3 percent of state and
+local spending, net of federal grants-in-aid.
+Changes in actual taxes and spending in 2023 differ from
+potential broader or longer-term effects and from costs
+that are borne without adding to spending. Therefore,
+CBO also calculated an alternative measure to estimate
+the potential fiscal pressures from the surge population.
+In addition to the direct budgetary effects, that measure
+of potential effects reflects expected adjustments to state
+and local budgets that would take time to implement,
+such as property tax collections from new housing
+construction, and indirect increases in tax revenues from
+growth in the overall economy. It also captures non­
+budgetary costs—for example, more crowded classrooms
+in public schools and more crowded public transportation systems in places where spending did not keep
+pace with increases in the population. CBO’s measure of
+potential effects is largely consistent with measures used
+by other studies on the fiscal impact of immigration.4
+The net cost of those potential effects is similar to the
+net cost of the direct effects of the surge in immigration.
+3. Those services are police and fire protection, courts, health care,
+housing and community services, and income security programs
+not included in other categories.
+4. See National Academies of Sciences, Engineering, and
+Medicine, The Economic and Fiscal Consequences of Immigration
+(National Academies Press, 2017), Chapter 9, pp. 495–566,
+http://tinyurl.com/3k3ycafj.
+
+June 2025
+
+In CBO’s assessment, the potential effects of the immigration surge on state and local budgets in 2023 were
+as follows:
+
+• The potential increase in state and local tax revenues
+
+due to the surge in immigration totaled $18.8 billion.
+In addition to the $10.1 billion in taxes paid directly
+by immigrants, that total includes $0.8 billion in
+revenues from potentially higher property taxes and
+$8.0 billion in tax revenues from greater economic
+activity due to the surge.
+
+• The potential increase in state and local costs
+
+for goods and services totaled $28.6 billion. The
+difference between that amount and the direct effect
+is driven by the potentially higher costs of increased
+enrollment in public elementary and secondary
+schools and by increases in spending for additional
+categories of general services.5
+
+• As a result, the potential net cost of the surge
+
+population to state and local governments was
+$9.8 billion in 2023.
+
+The sizes of the direct and potential effects probably varied substantially among states, depending on the size of
+the surge population in the state and on state and local
+policies. This report focuses on the aggregate effects for
+the whole country.
+This report’s estimates of the direct and potential effects
+of the surge population on state and local budgets are
+consistent with findings from other studies that used
+methods similar to CBO’s. Like this report, those studies
+found that immigration led to greater increases in costs
+than revenues for state and local governments. For more
+details about how the present report compares with those
+studies, see Appendix B.
+
+The Surge Population in 2023
+
+CBO estimates that by the end of 2023, the surge in
+immigration that started in 2021 had increased the net
+immigration of people in the other-foreign-national
+category by 4.3 million.6 Immigrants in that category are
+5. The categories included in the potential effect, but not the direct
+effect, are the executive and legislative functions of government,
+tax collection and financial management, transportation, other
+economic affairs, recreation and culture, and libraries.
+6. CBO’s estimates of the size of the immigration surge are derived
+from its projections of the Social Security area population.
+For more details, see Congressional Budget Office, The
+Demographic Outlook: 2024 to 2054 (January 2024), pp. 5–6,
+www.cbo.gov/publication/59697.
+
+June 2025
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Box 1 .
+
+Categories of Immigrants
+The Congressional Budget Office’s projections of the population
+account for U.S. nationals and three categories of people defined
+as aliens under the Immigration and Nationality Act (INA).1 The
+first category comprises lawful permanent residents and people
+who are eligible to apply for that status, including refugees and
+people granted asylum. The second category comprises people
+admitted temporarily under the INA as nonimmigrants, including
+students and temporary workers. The third category comprises
+other foreign nationals, who are the focus of this report.
+Other foreign nationals include the following:
+
+• People who entered the country illegally;
+• People who entered legally in a temporary status and
+remained after that status expired;
+
+• People who were permitted to enter the United States
+
+(typically through the use of parole authority) despite not
+being admissible as a lawful permanent resident, refugee,
+or nonimmigrant; and
+
+• People awaiting proceedings in immigration court.
+
+A separate legal designation, qualified alien, provides a
+starting point for estimating immigrants’ eligibility for benefits
+provided by state and local governments. Eligibility for federal
+benefit programs is typically restricted to qualified aliens after
+a five-year waiting period.2 Some state and local programs follow the same eligibility rules, and some extend their eligibility
+beyond the limits set by federal rules.
+Most qualified aliens are lawful permanent residents, but some
+other foreign nationals who were part of the surge in immigration that started in 2021 were designated qualified aliens
+or could gain that status through certain channels, including
+parole, Cuban-Haitian entrant status, or asylum. Not all of
+those qualified aliens would be subject to the five-year waiting
+period: Cuban-Haitian entrants, as well as certain Afghan and
+Ukrainian parolees, qualify for benefits immediately as long
+as they meet a program’s other requirements. CBO estimates
+that about a quarter of the 4.3 million people in 2023 who
+were part of the immigration surge were qualified aliens upon
+arrival, and about half of those qualified aliens were exempt
+from the five-year waiting period.
+
+Some people in the other-foreign-national category are eligible
+to apply for employment authorization through several channels—for example, if they receive temporary protected status
+or have a pending application for asylum.
+1. U.S. nationals include U.S. citizens and people who were born in American
+Samoa or on Swains Island.
+
+not lawful permanent residents, are not eligible to apply
+for that status, and have not been admitted as students,
+temporary workers, or other nonimmigrants under the
+terms of the INA.7 (For information about categories of
+immigrants in CBO’s analysis, see Box 1.) When births
+and deaths among people who were part of the immigration surge are accounted for, the net increase in the
+population amounted to 4.4 million.
+Of the 4.3 million immigrants in the surge who were
+still present in 2023, about half arrived that year, about a
+third arrived in 2022, and the rest arrived in 2021. Most
+members of the surge population who arrived in 2023
+7. Over the same period, net immigration totaled 2.1 million for
+lawful permanent residents and immigrants eligible for that status
+and 0.2 million for residents classified as nonimmigrants under
+the INA.
+
+2. The restrictions of federal benefits to qualified aliens were established by
+the Personal Responsibility and Work Opportunity Reconciliation Act of 1996
+(Public Law 104-193).
+
+were in the United States for only part of the year—six
+months, on average. Estimates of spending in this report
+are adjusted to account for those immigrants’ part-year
+residence in 2023. (Estimates of tax revenues reflect only
+the amounts immigrants paid while they resided in the
+country, so they are also lower for those who were partyear residents in 2023.)
+CBO used estimates of the surge population’s demographic and economic characteristics to estimate certain
+categories of revenues and spending. Similar estimates of
+the population’s characteristics are discussed in detail in
+CBO’s earlier report on the federal budgetary effects of
+the immigration surge.8 For this report, CBO updated
+8. Congressional Budget Office, Effects of the Immigration
+Surge on the Federal Budget and the Economy (July 2024),
+www.cbo.gov/publication/60165.
+
+3
+
+4
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+June 2025
+
+Figure 1 .
+
+Effects of the Immigration Surge on State and Local Budgets in 2023
+Billions of dollars
+Potential effects
+28.6
+
+Both tax revenues and
+spending increased
+for state and local
+governments as a result of
+the immigration surge, but
+spending increased more.
+
+Potential effects
+18.8
+
+Direct effects
+19.3
+Direct effects
+10.1
+
+Tax revenues
+
+The direct net cost to
+those governments was
+$9.2 billion. The potential
+net cost was $9.8 billion.
+
+Spending
+
+Data source: Congressional Budget Office. See www.cbo.gov/publication/61256#data.
+Direct effects reflect changes in state and local governments’ tax revenues and spending that were directly attributable to the immigration surge that started in
+2021. Potential effects reflect those direct effects plus expected increases in property tax revenues, additional tax revenues from greater economic activity, and
+nonbudgetary costs associated with greater demand for government services.
+
+those estimates using data from the 2023 American
+Community Survey (ACS) and adjusted the sample of
+foreign-born noncitizens who had arrived since 2021 to
+reflect the surge population’s countries of origin.
+In CBO’s assessment, members of the surge population
+were younger, on average, than members of the U.S. population as a whole and were more likely to be of working
+age. About a quarter were under age 18. Of those who
+were 18 or older, 56 percent had a high school diploma
+or less. Over half of the surge population resided in six
+states: Florida, Texas, California, New York, New Jersey,
+and Illinois. (By comparison, 40 percent of U.S. residents lived in those states in 2023.) The share of 18- to
+54-year-olds in the surge population who were married
+was similar to the share in the general population.
+
+How Immigration Affects State and
+Local Budgets
+
+When immigration increases, state and local governments typically collect more in taxes but also face greater
+demand for services, which drives up spending. CBO estimates that in 2023, the increase in state and local governments’ spending due to the immigration surge was greater
+than the increase in tax revenues, resulting in a net cost.
+
+The size of that net cost depends on the method used to
+estimate taxes and spending. Since state and local governments do not directly attribute revenues and spending
+amounts to individuals, the fiscal impact of new immigrants on budgets cannot be directly observed. Instead,
+analysts must estimate that impact. Considerable uncertainty surrounds the choice of estimation methods.
+CBO used two measures to estimate net costs: direct
+effects, which reflect changes in tax revenues and
+spending that were directly attributable to members of
+the surge, and potential effects, which reflect broader
+economic impacts and potential fiscal pressures on state
+and local governments in addition to those direct effects.
+By either measure, the surge in immigration resulted in
+increases in both tax revenues and spending for state and
+local governments (see Figure 1).
+CBO estimates that the increase in spending due to the
+surge was greater than the increase in taxes in 2023,
+resulting in a direct net cost of $9.2 billion. Accounting
+for broader effects of the immigration surge—the nonbudgetary costs for the rest of the population and revenues from increases in overall economic activity—CBO
+estimates that the potential net cost was $9.8 billion.
+
+June 2025
+
+The direct net cost captures the direct effects of new
+immigrants on state and local government budgets. That
+measure reflects the fact that increases in the population
+may not immediately translate into proportional changes
+in tax revenues and spending: Tax policies and spending
+programs may take time to change, and policymakers
+may respond to the increased demand for goods and services by shifting resources from other areas or providing
+fewer goods and services to existing residents—allowing
+public school classrooms or public transportation systems to become more crowded, for instance.9 Therefore,
+the cost of providing goods and services to an additional
+person may be below the average cost for the population.
+The potential net cost reflects fiscal pressures created by
+immigrants, whether or not those pressures resulted in
+immediate budget changes. That measure accounts for
+the fact that increases in the demand for services due
+to the presence of immigrants impose a cost on governments, even if total spending does not increase in proportion to the demand. For example, a government may
+respond to increased demand by reducing the services
+provided to existing residents and holding spending constant. CBO estimated the potential net cost of the immigration surge by assigning the average cost of services for
+the total population to immigrants who were part of the
+surge and allocating taxes to them in proportion to their
+share of the tax base.10
+The measure of direct effects differs from the measure of
+potential effects in several ways:
+
+• The direct effect on spending for public elementary
+
+and secondary education is based on the marginal
+cost of increased enrollment—that is, the observed
+change in average spending per student when
+enrollment changes. By contrast, the potential effect
+is estimated by applying average per-student spending
+
+9. Every state in the country except Vermont has some stipulations
+to balance its operating budget, but the rules and levels of
+enforcement vary. See Tax Policy Center, “What Are State
+Balanced Budget Requirements and How Do They Work?”
+(January 2024), https://tinyurl.com/yf3j7rxp. In the case of
+spending for public education, instead of accounting for those
+rules explicitly, CBO used historical data to capture how long
+it typically takes for state and local governments’ spending to
+change in response to changes in school enrollment.
+10. That approach is commonly used in research on the
+fiscal effects of immigration. See, for example, National
+Academies of Sciences, Engineering, and Medicine, The
+Economic and Fiscal Consequences of Immigration (2017),
+https://doi.org/10.17226/23550.
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+for the general population to children in the surge
+population.
+
+• Spending for some categories of general services
+
+is included in the potential effect but excluded
+from the direct effect because CBO expected that
+such spending would not respond to changes in
+the population immediately. (General services are
+government services, such as public transportation,
+for which the estimated costs are allocated equally to
+all members of the population.)
+
+• CBO attributed a smaller amount of property taxes to
+
+the surge population in its measure of the direct effect
+than it did in its measure of the potential effect, on
+the view that increased demand for housing did not
+immediately translate into higher assessed property
+values and, therefore, did not immediately increase tax
+revenues.
+
+• The potential effect includes increases in tax revenues
+
+caused by changes in overall economic activity due to
+the surge.
+
+CBO’s analysis focuses only on 2023. The net cost of the
+immigration surge in later years might be different, for
+several reasons. For example, the net budgetary effects
+would depend on whether members of the surge and their
+children remained in the country or left, whether changes
+in the fiscal positions of state and local governments
+prompted changes to their tax policies and spending
+programs, and whether governments’ decisions to provide
+services for the surge population affected those immigrants’ future earnings or their use of government services
+over the longer term. The state and local taxes paid by
+members of the surge population who remained in the
+country would probably increase over time, but the costs
+of services for those immigrants could either rise or fall.
+
+Effects of the Surge in Immigration
+on State and Local Tax Revenues
+
+The amount of state and local tax revenues attributable
+to the immigration surge depends on several factors,
+including state and local tax laws, the income and spending behavior of members of the surge population, their
+demographic characteristics (such as their age, family
+structure, and state of residence), and their compliance
+with the tax system. The surge in immigration also
+affected revenues indirectly by influencing economic
+activity among the nonsurge population.
+CBO estimates that in 2023, the direct increase in state
+and local revenues from the immigration surge was
+
+5
+
+6
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Table 1 .
+
+Effects of the Immigration Surge on State
+and Local Tax Revenues in 2023
+Billions of dollars
+Tax revenues attributable to surge population
+General and selective sales taxesa
+Property taxes
+Individual income taxes
+Other taxesb
+Subtotal
+Tax revenues from increased economic activity
+Total
+
+Direct
+
+Potential
+
+7.1
+0.7
+1.6
+0.7
+10.1
+0
+10.1
+
+7.1
+1.5
+1.6
+0.7
+10.9
+8.0
+18.8
+
+Data source: Congressional Budget Office. See www.cbo.gov/
+publication/61256#data.
+Direct effects on state and local tax revenues reflect changes that were
+directly attributable to the immigration surge that started in 2021. Potential
+effects reflect those direct effects plus expected increases in property tax
+revenues and additional tax revenues from greater economic activity.
+a. Selective sales taxes are taxes on purchases of specific goods or services,
+such as motor fuels or tobacco products.
+b. Other taxes include workers’ compensation taxes, other social insurance
+taxes, and motor vehicle license taxes.
+
+$10.1 billion (see Table 1). Of that amount, $7.1 billion
+came from general and selective sales taxes. (Selective
+sales taxes, also called excise taxes, are taxes on purchases of specific goods or services, such as motor fuels
+or tobacco products.) The direct effect includes only
+the property taxes attributable to rent payments made
+by members of the surge population; it does not reflect
+the full potential increase in taxes from such payments,
+which CBO expected to lag behind the increase in housing demand.
+By comparison, CBO estimates that the immigration
+surge had the potential to increase state and local revenues in 2023 by $18.8 billion. That potential increase
+includes $10.9 billion in tax revenues attributable to
+the surge population—the $10.1 billion directly paid
+by those immigrants plus additional property taxes they
+would have paid if property tax assessments had fully
+adjusted. The potential effect also includes $8.0 billion
+in tax revenues that resulted from growth in economic
+activity. Those revenues came from several sources:
+corporate taxes on additional firm profits, individual
+income taxes on additional wage and business income,
+sales taxes on additional spending, and additional property taxes, including the portion of property taxes borne
+by owners of rental properties.
+
+June 2025
+
+Taxation and Immigration
+State and local governments receive most of their revenues from sales taxes, property taxes, and individual
+income taxes.11 In 2023, 34 percent of state and local tax
+revenues across the entire country came from general and
+selective sales taxes, 29 percent came from property taxes,
+and 22 percent came from individual income taxes.12
+Because immigrants are generally subject to the same tax
+rules as citizens, most of the taxes paid by immigrants to
+state and local governments are also sales, property, and
+individual income taxes. Sales and income tax revenues
+responded directly to the surge population’s spending
+and earnings. Property tax revenues also responded
+directly to the increase in housing demand from the
+immigration surge. In CBO’s assessment, however,
+because it takes time for increases in property values to
+be reflected in property tax assessments, the increased
+demand did not fully translate into an increase in revenues from property taxes.
+Immigrants’ Characteristics and Taxes. CBO’s esti-
+
+mates of immigrants’ state and local tax liabilities are
+based on several expected characteristics of members
+of the surge population, including their income, age,
+sex, marital status, and state of residence. According to
+CBO’s estimates, those immigrants earned less income,
+on average, than members of the general population. The
+surge population was also younger, and a larger proportion was male. Similar shares of adults were married in
+the surge population and the general population.
+Because members of the surge population had relatively
+low earnings and had spent only a short time in the
+United States, CBO simplified its estimates by calculating tax liabilities as if all individuals and families in that
+population were renters rather than homeowners.
+Immigrants’ Compliance With the Tax System. The
+
+amount of state and local individual income and sales
+taxes paid by immigrants depends on how many of those
+immigrants receive authorization to work, how those
+who are not authorized to work participate in the labor
+11. Five states have no general sales tax, and nine have no broadbased income tax. See Janelle Fritts, Facts and Figures 2022:
+How Does Your State Compare? (Tax Foundation, March 2022),
+https://tinyurl.com/yc4fc5jy.
+12. Bureau of Economic Analysis, “Table 3.3. State and Local
+Government Current Receipts and Expenditures” (accessed
+April 10, 2025), https://tinyurl.com/22hucdtm.
+
+June 2025
+
+market, how many authorized and unauthorized workers
+file tax returns, and how they spend their earnings.
+CBO expects that immigrants who are authorized to
+work are as likely to pay taxes on their income as other
+members of the population. Immigrants who work without authorization are less compliant with the income tax
+system, but they still pay some state and local taxes on
+their earnings. For example, some of those immigrants
+will choose to file taxes if their income has been reported
+to the tax authorities or if they expect that doing so will
+increase their chances of a favorable outcome at a future
+immigration hearing.
+In CBO’s estimation, rates of compliance for income
+taxes were 15 percent lower among the surge population
+than among the total population because those immigrants were more likely to work without authorization.
+(A recent data-sharing agreement between tax and immigration authorities may make immigrants less likely to
+file individual income taxes, but that agreement was not
+in place in 2023.)13 CBO expects that compliance rates
+for sales taxes were the same for the surge population as
+for the total population.
+CBO’s Estimation Method. To estimate the taxes paid
+
+by immigrants who were part of the surge, CBO drew
+from the method it used to estimate federal taxes paid by
+those immigrants in its previous report.14
+As in that earlier analysis, CBO projected the income
+and taxes of the surge population by applying their
+expected demographic characteristics to a representative
+sample of taxpayers in the agency’s microsimulation tax
+model.15 CBO estimated each taxpayer’s spending on
+13. See Internal Revenue Service, Memorandum of Understanding
+Between the U.S. Department of the Treasury, Internal Revenue
+Service, and the U.S. Department of Homeland Security,
+U.S. Immigration and Customs and Enforcement, for the
+Exchange of Nontax Criminal Enforcement (April 7, 2025),
+https://tinyurl.com/mw9c5c8x.
+14. Congressional Budget Office, Effects of the Immigration
+Surge on the Federal Budget and the Economy (July 2024),
+www.cbo.gov/publication/60165. For the analysis in the present
+report, CBO used publicly available tax data rather than tax
+return data because estimating state and local (as opposed to
+federal) revenues is outside of CBO’s core responsibilities, and the
+agency is not authorized to use tax return data for that purpose.
+15. For information about that model, see Congressional Budget
+Office, “An Overview of CBO’s Microsimulation Tax Model”
+(June 2018), www.cbo.gov/publication/54096.
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+goods subject to sales taxes and on rental expenses that
+affect property taxes, then calculated how much of those
+taxes immigrants owed. Each taxpayer in the model was
+assigned a probability of being part of the immigration
+surge. Those probabilities were based on the agency’s
+demographic projections with and without the surge and
+reflected the likely demographic characteristics of members of the surge population. CBO then reweighted the
+probabilities so that the income distribution of the surge
+population matched the expected distribution of income
+among members of that population and across states.
+Sales Taxes
+CBO estimates that members of the surge population
+paid $7.1 billion in state and local sales taxes (general
+plus selective sales taxes) in 2023, or 7.3 percent of their
+adjusted gross income (AGI).16 Sales taxes made up the
+largest share of taxes paid by those immigrants. In CBO’s
+assessment, immigrants in the surge sent 15 percent of
+their earnings to family members in their home countries
+and therefore spent less of their income and paid less in
+sales taxes than they otherwise would have.
+Across all 50 states and the District of Columbia, U.S.
+residents’ sales taxes averaged 5.3 percent of their AGI in
+2023. The higher rate paid by immigrants who were part
+of the surge reflects their lower average income. People
+with less income tend to spend a larger share of it, and
+they also tend to spend a larger share of it on goods that
+are subject to general and selective sales taxes. As a result,
+they pay proportionally more in sales taxes.
+Property Taxes
+The surge in immigration boosted the demand for
+housing, which increased rental costs, property values,
+and assessed values (that is, estimates of property values
+that state and local governments use to levy property
+taxes). In CBO’s estimation, the revenues from taxes on
+rental properties that were directly attributable to the
+surge population totaled $0.7 billion, or 0.8 percent of
+those immigrants’ AGI. The potential increase in revenues amounted to $1.5 billion, or 1.6 percent of their
+AGI. The direct effect is smaller than the potential effect
+because, in CBO’s assessment, although immigrants’
+demand for housing increased property values, assessed
+values were slower to increase.
+16. AGI consists of income from all sources not specifically excluded
+by the tax code, minus certain deductions (for example, of a
+portion of the self-employment tax and certain contributions to
+retirement accounts).
+
+7
+
+8
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+The effect of the surge in immigration on property
+tax revenues is difficult to estimate for several reasons.
+First, the timing of increases in assessed values and property taxes is uncertain. Many new immigrants initially
+stay in transitional housing, such as shelters or the homes
+of relatives, which delays their effect on the housing market. As they move into rental housing, prices tend to rise,
+which increases assessed property values, but often with
+a lag. New housing construction eventually increases to
+meet the demand, further expanding the property tax
+base, but those effects may also take time to materialize.
+Second, CBO estimates that virtually all immigrants in
+the surge were renters in 2023—but the proportion of
+property taxes paid by renters, as opposed to landlords,
+is difficult to determine, and experts disagree about what
+that proportion is.17 In this analysis, CBO assigned half
+of the burden of property taxes on rental properties to
+renters and the other half to property owners. The portion of property taxes borne by rental property owners
+is included in the potential effect on revenues from the
+increase in overall economic activity.
+Finally, growth in economic activity due to the immigration surge also increased the property taxes paid by
+businesses. Those additional taxes were passed on to the
+broader population through higher prices or reduced
+profits. Therefore, like the share of rental property taxes
+borne by property owners, those taxes are included in the
+potential effect on revenues from the increase in overall
+economic activity.
+Income Taxes
+CBO estimates that in 2023, immigrants who were part
+of the surge population paid a total of $1.6 billion in
+state and local income taxes, or 1.6 percent of their AGI,
+on average. By comparison, state and local individual
+income taxes equaled 3.4 percent of the AGI of the general population in 2023.
+
+17. See, for example, Sarah Baker, “Property Tax PassThrough to Renters: A Quasi-Experimental Approach”
+(draft, University of California, Berkeley, October 2024),
+http://tinyurl.com/mr4ca8ax; Carl Davis, Marco Guzman,
+and Emma Sifre, Tax Payments by Undocumented Immigrants
+(Institute on Taxation and Economic Policy, July 2024),
+https://tinyurl.com/2zfja4zb; and David J. Schwegman and
+John Yinger, The Shifting of the Property Tax on Urban Renters:
+Evidence From New York State’s Homestead Tax Option (Census
+Bureau, Center for Economic Studies, December, 2020),
+https://tinyurl.com/372sjydr.
+
+June 2025
+
+The lower income tax rate paid by those immigrants
+reflects several factors, in CBO’s assessment. First,
+immigrants in the surge earned less income than other
+U.S. residents, especially during their first few years in
+the country. Second, on average, immigrants in the surge
+were less compliant with the U.S. tax system than other
+residents. And third, immigrants in the surge were more
+likely to reside in states without an income tax, such as
+Florida and Texas.
+Other Taxes
+The surge population is estimated to have paid $0.7 billion
+in other state and local taxes in 2023. Those taxes included
+workers’ compensation taxes, insurance trust taxes (mostly
+in California), and motor vehicle license taxes.
+Increases in Tax Revenues From Overall
+Changes in the Economy
+The surge in immigration also affected tax revenues
+through its effects on the economy, such as increases in
+productivity (and thus income) and interest rates. Those
+indirect effects raised revenues from corporate taxes on
+firms’ profits, individual income taxes on wage and business income among the nonsurge population, sales taxes
+on spending by the nonsurge population, and property
+taxes, including those borne by owners of rental properties and those paid by businesses but passed on to others
+through increases in prices or reductions in profits.
+CBO includes those additional taxes in its estimate of
+potential effects because they were not directly paid by
+immigrants in the surge. In CBO’s projections, growth
+in the economy stemming from the surge increased state
+and local governments’ tax revenues by $8.0 billion.
+
+Effects of the Surge in Immigration
+on State and Local Spending
+
+State and local governments’ costs to provide goods and
+services to the surge population in 2023 depended on
+how many members of that population and their children received those goods and services and on the costs
+per person. CBO used survey data, administrative data,
+and state or local budget data to estimate the number of
+people who received each type of benefit and the total
+amount of benefits. State and local governments’ costs
+also included spending for border security in response to
+the immigration surge.
+To measure the direct effect of the immigration surge on
+state and local spending, CBO estimated the marginal
+cost per person; to measure the potential effect, CBO
+
+June 2025
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Table 2 .
+
+and local governments’ spending for incarceration to
+members of the surge population in proportion to their
+share of the inmate population. (CBO estimates that
+in 2023, noncitizens made up 4 percent of inmates in
+state prisons and 7 percent of the U.S. population.) BJS
+does not have data on the citizenship status of people
+arrested by state police or prosecuted in state courts, so
+CBO allocated spending for police protection and courts
+equally to all residents in each state.
+
+Effects of the Immigration Surge on State
+and Local Spending for Goods and Services
+in 2023
+Billions of dollars
+Education
+Public primary and secondary
+Postsecondary
+Shelter and related servicesa
+Border security
+Health insurance and income security programsb
+Incarceration in state prisons and local jails
+General servicesc
+Total
+
+Direct
+
+Potential
+
+5.7
+0
+3.3
+2.7
+0.9
+0.8
+6.1
+19.3
+
+9.4
+0
+3.3
+2.7
+0.9
+0.8
+11.6
+28.6
+
+Data source: Congressional Budget Office. See www.cbo.gov/
+publication/61256#data.
+Direct effects on state and local governments’ spending reflect changes
+that were directly attributable to the immigration surge that started in
+2021. Potential effects reflect those direct effects plus nonbudgetary costs
+associated with greater demand for government services.
+Estimates in this table include spending for goods and services provided to
+children of immigrants who were part of the surge.
+a. Consists of spending on temporary housing, translation and legal services,
+food, and other related support for members of the surge population.
+b. Consists of states’ shares of spending for Medicaid, the Children’s Health
+Insurance Program (CHIP), and Temporary Assistance for Needy Families
+(TANF); spending for state-funded programs offering benefits similar to
+those of Medicaid, CHIP, TANF, the Supplemental Nutrition Assistance
+Program, and Supplemental Security Income; and spending for workers’
+compensation.
+c. General services are government services whose use cannot be attributed
+to specific individuals. The direct effect encompasses spending for
+police and fire protection, courts, health care, housing and community
+services, and income security programs not included in other categories.
+The potential effect consists of that spending as well as spending for
+the executive and legislative functions of government, tax collection and
+financial management, transportation (air, water, highway, transit, and
+railroads), other economic affairs (general, labor, agriculture, energy, and
+natural resources), recreation and culture, and libraries.
+
+used the average cost per person. For most categories of
+spending, the estimates of marginal and average costs
+were the same.
+When possible, CBO used national data on noncitizens
+or recently arrived immigrants to allocate state and local
+governments’ spending to members of the surge population. For example, the Bureau of Justice Statistics (BJS)
+collects data on the citizenship status of inmates in state
+prisons. CBO used that information to allocate state
+
+In CBO’s estimation, the surge in immigration directly
+increased state and local spending by $19.3 billion
+in 2023; the potential increase was much larger, at
+$28.6 billion (see Table 2). Two categories of spending
+account for most of that difference: spending for public
+primary and secondary education, and spending for general services whose use cannot be attributed to specific
+individuals. Those two categories also account for most
+of the direct and potential costs.
+For each of those categories, CBO expected the marginal costs per person to differ from the average costs
+per person. CBO estimates that changes in state and
+local spending for public primary and secondary education were not proportional to state-level changes in
+enrollment. Therefore, the direct increase in spending
+was smaller than the potential cost projected using the
+average spending per student for the total population.
+The direct effect on spending for general services was
+also smaller than the potential cost because it excluded
+categories of services for which spending was unlikely to
+respond to changes in the population in the short run.
+The estimated effects are nationwide estimates, but they
+reflect differences in costs per person and in policies
+across states. To capture that variation, CBO researched
+state and local polices that determined whether members
+of the surge population were eligible for financial support for postsecondary education, shelter services, and
+health insurance and income security programs as well
+as how the costs of border security and general services
+varied across states.
+CBO’s estimates also reflect differences between the
+surge population and the general population in their use
+of goods and services provided by state and local governments. When possible, CBO relied on its prior estimates
+of the use of public benefits among the surge population.
+When such estimates were unavailable, CBO used public
+data, such as survey data, to estimate the use of goods
+and services by the surge population.
+
+9
+
+10
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Education
+All states have laws making elementary and secondary
+education compulsory, and children are entitled to public
+education regardless of their immigration status. Upon
+arrival, immigrant children may enroll in schools, and
+schools must assign those children to classrooms and
+provide equal access to educational services, including
+transportation. Those services are funded jointly by state
+and local governments. CBO estimates that in 2023,
+550,000 children in public schools, or 1.1 percent of
+public school students, were part of the surge population.
+By contrast, CBO estimates that few immigrants in the
+surge population received financial support for postsecondary education from state and local governments
+in 2023.18 Those governments provide direct financial
+support to students for postsecondary education through
+two channels—reduced tuition for public institutions for
+in-state residents and financial aid—but few members of
+the surge population would have been eligible for either
+form of support.
+Public Primary and Secondary Education. In CBO’s
+
+estimation, the surge in immigration directly increased
+spending for public primary and secondary education
+by $5.7 billion, or 0.7 percent, in 2023. The potential
+effect on costs was much larger, amounting to an increase
+of $9.4 billion, or 1.2 percent. Both of those estimates
+include higher costs due to lower English proficiency
+among the surge population: Because recent immigrants
+are often English-language learners, they tend to need
+additional instructional and support services. CBO estimates that those services cost state and local governments
+$1.2 billion in 2023.19
+State and local governments adjust the amounts of funding they provide to schools when enrollment increases,
+but the direct effect is smaller than the potential effect
+because in the short run, that adjustment is not proportional to the increase. (That difference can arise for many
+reasons, including state and local budget processes.) As a
+result, the marginal cost of an additional student is less
+than the average cost for all students. To calculate both
+18. In this analysis, postsecondary institutions are universities,
+colleges, and trade and vocational schools that people attend
+after graduating high school or passing the General Educational
+Development (GED) test.
+19. CBO estimated those costs using formulas compiled by the
+Education Commission of the States. See Education Commission
+of the States, “K-12 Funding 2024, English Language Learning
+Funding” (March 2024), http://tinyurl.com/46urxpcf.
+
+June 2025
+
+the direct effect and the potential effect, CBO multiplied
+a measure of the change in spending per student by the
+change in public school enrollment due to the surge.
+The direct effect reflects the statistical relationship
+between state-level changes in fall enrollment and statelevel changes in state and local governments’ spending
+per student, net of federal grants-in-aid. CBO found
+that spending per student declined when enrollment
+increased and increased when enrollment declined. Some
+school districts, for example, did not hire new teachers in
+proportion to enrollment growth, so class sizes grew and
+teachers’ workloads increased. The immigration surge
+thus might have affected public education in ways that
+were not reflected in state and local budgets.
+Growth in enrollment was measured against CBO’s
+estimate of what enrollment would have been without
+the surge in immigration. Given research indicating that
+one student transferred from public to private school
+for every five to seven immigrants who entered public
+school, CBO estimated that the net increase in public
+school enrollment was five-sixths of the total number of
+immigrant children who enrolled.20
+The potential effect is intended to reflect nonbudgetary
+costs, such as more crowded classrooms and increased
+workloads for teachers and other school staff, that lead
+some parents to move their children to private schools.
+For that reason, CBO’s estimate of the potential cost is
+not adjusted to account for any change in spending per
+student in response to changes in enrollment or for any
+shifting between public and private schools.
+Postsecondary Education. CBO estimates that state
+
+and local governments spent a negligible amount on
+public postsecondary education for the surge population
+in 2023, because almost no members of that population
+were eligible for in-state tuition benefits or financial aid
+from state governments. To simplify its analysis, CBO
+allocated no state or local spending for postsecondary
+education to the surge population.
+Many states provide a pathway for undocumented
+immigrants to qualify for in-state tuition if they attend
+high school in the state for two or three years and receive
+a high school diploma or equivalent. Few members of
+20. See Thomas J. Murray, “Public or Private? The Influence of
+Immigration on Native Schooling Choices in the United States,”
+Economics of Education Review, vol. 53 (August 2016), pp. 268–
+283, https://doi.org/10.1016/j.econedurev.2016.04.003.
+
+June 2025
+
+the immigration surge had been in the country long
+enough to use that pathway in 2023. Some states provide
+a pathway that requires establishing one year of residency
+and meeting specific eligibility criteria that are consistent
+with the requirements for federal financial aid. CBO estimates that few members of the immigration surge could
+have met those requirements.
+Shelter and Related Services
+Using publicly available information from state and
+local governments, CBO estimated that state and local
+governments in four states—New York, Massachusetts,
+Illinois, and Colorado—spent a total of $3.3 billion to
+provide shelter and related services, including food and
+legal support, to the surge population in 2023. Although
+those services were not restricted to members of the
+surge population, CBO attributed their costs to the surge
+population because it is likely that many people who
+received such services were part of the surge.
+CBO could not find public data on such costs in other
+states—but in CBO’s assessment, spending in those four
+states accounted for most of the state and local spending
+on shelter and related services for the surge population. Estimates from a recent study suggest that New
+York City, Massachusetts (primarily suburban Boston),
+Chicago, and metropolitan Denver together accounted
+for about 90 percent of the national increase in asylum
+seekers in shelters from 2022 to 2024.21
+New York City and Massachusetts have right-to-shelter
+laws that require the states to provide shelter or housing assistance to certain individuals or families.22 CBO
+estimates that in 2023, New York City spent $2.6 billion
+to provide shelter and related services to asylum seekers.23
+21. Bruce D. Meyer, Angela Wyse, and Douglas Williams,
+Asylum Seekers and the Rise in Homelessness, Working
+Paper 33655 (National Bureau of Economic Research,
+April 2025), www.nber.org/papers/w33655.
+22. New York City is required by a court-ordered agreement to
+provide shelter and meals to homeless individuals and families;
+see Callahan v. Hugh L. Carey, 909 N.E.2d 1229 (N.Y. 2009).
+In Massachusetts, a state law calls for emergency housing aid for
+low-income pregnant women and families if funding is approved
+in the state budget; see Mass. Gen. Laws. ch. 23B, § 30 (2023).
+23. The estimate of New York City’s shelter costs in 2023 is the
+average for fiscal year 2023 (which ended in June 2023) and
+fiscal year 2024 (which started in July 2023). See Office of
+the New York City Comptroller, “Accounting for Asylum
+Seeker Services: Fiscal Impacts” (accessed February 18, 2025),
+http://tinyurl.com/4hnsnat3.
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Massachusetts spent $0.5 billion on emergency shelter
+services in 2023, up from $0.2 billion in fiscal year 2019;
+CBO attributed that $0.3 billion increase in spending to
+the surge population.24
+Illinois and Colorado do not have right-to-shelter laws,
+but they also used state and local funding to provide shelter and related services to members of the surge population. State and local governments in Illinois spent $0.4 billion in 2023 on an emergency program that provided
+support to asylum seekers; $0.3 billion of that amount was
+spent by the City of Chicago.25 Spending for shelter and
+related services in Colorado was less than $50 million.
+Shelter and related services that were not explicitly designated for the surge population are included in spending
+for general services and are allocated to those immigrants
+in proportion to their share of the resident population.
+Border Security
+CBO estimates that in 2023, four states—Texas,
+Arizona, Florida, and California—spent a total of
+$2.7 billion on border security in response to the
+immigration surge. That amount includes spending for
+law enforcement efforts to prevent illegal immigration,
+drug smuggling, and human trafficking; the installation
+of physical barriers; and the interstate transportation of
+immigrants.
+
+24. Public data indicate that Massachusetts spent $1 billion on
+shelter costs for its emergency shelter program by the end of
+2024; CBO attributed half of that amount to spending for the
+surge population in 2023. See Shia Kapos and Kelly Garrity,
+“Democratic-Led States Still Grapple With Housing Migrants,”
+Politico (January 2, 2025), https://tinyurl.com/mry5fjbj. For
+details about the state’s spending on emergency shelter services
+in fiscal year 2019, see Commonwealth of Massachusetts,
+“Emergency Assistance Family Shelters and Services” (accessed
+May 13, 2025), https://tinyurl.com/2pt4dd4c. For more
+information about the state’s spending on shelter for asylum
+seekers, see Special Commission on Emergency Housing
+Assistance Programs, Report of the Special Commission on
+Emergency Housing Assistance Programs (November 19, 2024),
+https://tinyurl.com/yu3zsh4x.
+25. Felix Winnekens, Jane H. Ridley, and Alyssa B. Farrell, “Migrants
+and Asylum Seekers Pose Budgetary Challenges in New York
+City, Chicago, and Denver,” S&P Global (February 13, 2024),
+http://tinyurl.com/2p96kmaw. For details about the funding
+for Illinois’s program that provides shelter and related services
+to asylum seekers, see Illinois State Comptroller, “Welcoming
+With Dignity FY23 and FY24 Allocated Funding Breakdown”
+(accessed May 12, 2025), https://tinyurl.com/mr3sss24.
+
+11
+
+12
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+CBO attributes $2.5 billion of Texas’s border security
+spending in 2023 to the surge in immigration. That
+estimate reflects the difference between the state’s average
+annual appropriations for border security before the
+surge ($0.4 billion) and its total spending for border
+security in 2023 ($2.9 billion).26
+Arizona spent $174 million on border security in 2023,
+CBO estimates. In 2021, Arizona established a border
+security fund, which was intended to bolster border
+security efforts within the state. Arizona spent about
+$300 million from that fund in fiscal year 2023 and less
+than $50 million in fiscal year 2024.27
+CBO estimates that Florida and California spent very
+small amounts for border security in 2023 in response to
+the surge. Florida spent $15 million to support the state
+National Guard’s border security efforts during the first
+half of the year.28 In addition, CBO estimates that Florida
+spent $6 million in 2023 to transport immigrants to other
+states.29 California spent $15 million that year to expand
+the state military department’s drug interdiction efforts.30
+26. Texas started Operation Lone Star in 2021 in response to the surge in
+immigration. To estimate the state’s border security spending in 2023,
+CBO used documents provided by the Texas Legislative Budget
+Board with department-level border security expenditures from the
+second quarter of fiscal year 2023 (December 2022 to February
+2023) through the second quarter of fiscal year 2024 (December
+2023 to February 2024) and assigned the following amounts to
+calendar year 2023: two-thirds of the amount expended in the second
+quarter of fiscal year 2023, the total amount spent in the third and
+fourth quarters of fiscal year 2023 (March 2023 to August 2023),
+and two-thirds of the amount spent in the first and second quarters
+of fiscal year 2024 (September 2023 to February 2024). In the twoyear budget cycle that ended in August 2019, Texas appropriated
+$0.8 billion—or about $0.4 billion per year—for border security. See
+Texas Legislative Budget Board, Fiscal Size-Up: 2018–19 Biennium
+(September 2018), https://tinyurl.com/3t45kkv8.
+27. Arizona’s fiscal year 2023 started in July 2022 and ended in
+June 2023. For details about spending from Arizona’s border
+security fund in fiscal year 2023, see State of Arizona, Annual
+Financial Report for the Year Ended June 30, 2023 (December 1,
+2023), p. 162, https://tinyurl.com/4kyphum5. For details
+about spending in fiscal year 2024, see State of Arizona, Annual
+Financial Report for the Year Ended June 30, 2024 (November 22,
+2024), p. 169, https://tinyurl.com/hyhw3he7.
+28. Ana Ceballos, “DeSantis Spent Over $15 Million in Six Months
+on ‘Illegal Migration’ in Texas, Keys,” Miami Herald (July 14,
+2023), https://tinyurl.com/4rc3jr5a.
+29. Florida appropriated $12 million to its Unauthorized Alien
+Transport Program for fiscal year 2023, which ended on June 30,
+2023. CBO assigned half of that amount to calendar year 2023.
+See S.B. 1718, 2023 Leg., Reg. Sess. (Fla. 2023).
+30. The state appropriated a total of $30 million for two years. See
+State of California, California State Budget: 2022–23 (June 27,
+2022), https://tinyurl.com/mpufn4uu. California does not
+
+June 2025
+
+Health Insurance and Income Security Programs
+Some federal health insurance and income security
+programs provide benefits to immigrants that are partially funded by states, and some states provide similar
+benefits to immigrants through their own programs,
+which are sometimes called replacement programs.
+CBO identified five federal programs that states used to
+partially fund benefits to the surge population or that
+they supplemented with similar benefits: Medicaid,
+the Children’s Health Insurance Program (CHIP),
+Temporary Assistance for Needy Families (TANF), the
+Supplemental Nutrition Assistance Program (SNAP),
+and Supplemental Security Income (SSI). In 2023, state
+and local spending on those programs totaled about
+$300 billion. In addition, CBO estimated workers’ compensation benefits received by the surge population.
+To simplify its analysis, CBO did not consider state and
+local funding for benefits through other federal health
+insurance or income security programs.31 In addition,
+because the Current Population Survey (CPS) does not
+identify recipients of certain benefits, and because synthesizing eligibility rules and benefit amounts across states
+is complicated, this analysis does not separately identify
+all forms of direct assistance from state and local governments.32 Spending on direct assistance that was not attributable to individuals is included in spending for general
+services and distributed equally across the population.
+CBO estimates that in 2023, states spent a total of about
+$1 billion on Medicaid, CHIP, and TANF benefits and
+similar state-funded benefits for members of the surge
+population. About half of that spending, or $0.5 billion,
+was for Medicaid, CHIP, or state-funded programs offering Medicaid-like benefits; $0.4 billion was for TANF.
+States spent a very small amount on state-funded replacement programs that offered benefits similar to SNAP
+and SSI benefits and an even smaller amount on workers’
+compensation for the surge population.
+provide funding for immigration enforcement. S.B. 54,
+2017 Leg., Reg. Sess. (Cal. 2017).
+31. For example, Colorado and Washington offer state-funded
+subsidies through the health insurance marketplaces established
+by the Affordable Care Act to some immigrants who are not
+eligible for the federal benefits. See Claire Heyison and Shelby
+Gonzales, States Are Providing Affordable Health Coverage to People
+Barred From Certain Health Programs Due to Immigration Status
+(Center on Budget and Policy Priorities, February 1, 2024),
+https://tinyurl.com/yxbjxk45.
+32. For example, some states offer support to immigrants who are
+ineligible for federal benefits through general assistance or similar
+programs. See National Immigration Law Center, “Table 9:
+State-Funded SSI Replacement Programs” (September 2002),
+http://tinyurl.com/5msxkd8u.
+
+June 2025
+
+Medicaid and CHIP. Certain groups in the surge popula-
+
+tion were eligible to receive Medicaid and CHIP coverage. That coverage is typically limited to qualified aliens
+after a five-year waiting period, but states can choose to
+provide Medicaid to—and receive the federal share of
+Medicaid funding for—children and pregnant individuals who would qualify if they were not still within that
+waiting period. (Medicaid and CHIP are considered
+together in this analysis because the two programs offer
+similar benefits.) Limited Medicaid coverage for emergency medical services is also available for people who
+would qualify for full Medicaid benefits if not for their
+immigration status.33 CBO estimates that states’ share of
+spending for those federal benefits for the surge population totaled $0.3 billion in 2023.
+
+Additionally, some low-income immigrants who do
+not qualify for Medicaid or CHIP because of their
+immigration status may receive similar benefits through
+state-funded programs.34 States often restrict eligibility
+for those programs to certain age groups, and in rare
+cases, they limit the coverage provided to certain demographic groups.35 To simplify its analysis, CBO treated all
+state-funded programs as though they provided the same
+type of benefits as the federal Medicaid program.36 CBO
+33. For more details about Medicaid coverage for emergency
+medical services, see Congressional Budget Office, letter to the
+Honorable Jodey Arrington regarding emergency Medicaid
+services for certain non-U.S. nationals (October 2, 2024),
+www.cbo.gov/publication/60805. States can choose to exempt
+children, pregnant individuals, and postpartum individuals from
+the five-year waiting period for Medicaid and CHIP.
+34. As of November 2023, 11 states and the District of Columbia
+provide Medicaid-like benefits to certain immigrants who are
+ineligible for federal Medicaid benefits. For information about
+those programs, see Akash Pillai, Drishti Pillai, and Samantha
+Artiga, State Health Coverage for Immigrants and Implications for
+Health Coverage and Care (KFF, May 1, 2024, updated April 10,
+2025), http://tinyurl.com/yc454abk; and Claire Heyison
+and Shelby Gonzales, States Are Providing Affordable Health
+Coverage to People Barred From Certain Health Programs Due
+to Immigration Status (Center on Budget and Policy Priorities,
+February 1, 2024), https://tinyurl.com/yxbjxk45
+35. For example, Illinois provides comprehensive Medicaid-like
+benefits to residents under age 19 but does not cover long-term
+care for adults age 42 or older.
+36. This analysis excludes state-funded benefits to more limited
+populations. For example, Hawaii provides Medicaid-like
+benefits to qualified immigrants who are age 65 or older, blind,
+or disabled and in the five-year waiting period for Medicaid.
+See Claire Heyison and Shelby Gonzales, States Are Providing
+Affordable Health Coverage to People Barred From Certain
+Health Programs Due to Immigration Status (Center on Budget
+and Policy Priorities, February 1, 2024), p. 13, footnote 45,
+https://tinyurl.com/yxbjxk45.
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+estimates that about one-tenth of the surge population
+lived in states with such programs and met the age-based
+eligibility requirements. The cost of those state-funded
+programs for the surge population totaled $0.2 billion in
+2023, CBO estimates.
+Other Programs. Like Medicaid, TANF provides benefits
+
+that are jointly funded by federal and state governments.
+To avoid penalties, such as reduced federal grants, states
+must use some of their own funds to fulfill that program’s
+maintenance-of-effort (MOE) requirements. MOE
+dollars generally must achieve one of TANF’s objectives:
+assisting needy families so that children can be cared for
+in their own homes or the homes of relatives; encouraging job preparation, marriage, and work; preventing
+out-of-wedlock pregnancy; or promoting the formation
+of two-parent families.37 CBO attributed $0.4 billion of
+states’ MOE spending in 2023 to the surge population.
+CBO also estimated how much it cost state and local
+governments to provide benefits similar to SNAP and
+SSI benefits, as well as state supplements for immigrants
+who were eligible for federal SSI benefits, to the surge
+population.38 Only a few state-funded programs provide
+SNAP- or SSI-like benefits to certain groups of immigrants who are ineligible for federal benefits because of
+their immigration status.39 In 2023, few members of
+the surge population were eligible for federal SSI benefits and, therefore, state supplements. As a result, CBO
+37. Gene Falk, The Temporary Assistance for Needy
+Families (TANF) Block Grant: A Primer on TANF
+Financing and Federal Requirements, Report RL32748,
+version 45 (Congressional Research Service, August 14, 2023),
+www.congress.gov/crs-product/RL32748.
+
+38. All but six states offer supplemental payments through either federalor state-administered programs. See Social Security Administration,
+“Supplemental Security Income (SSI),” in Understanding
+Supplemental Security Income SSI Benefits—2024 Edition (accessed
+March 11, 2025), www.ssa.gov/ssi/text-benefits-ussi.htm.
+39. California, Illinois, Maine, Minnesota, and Washington have
+state-funded food assistance programs for certain groups of
+immigrants who are ineligible for federal SNAP benefits. Those
+programs provide benefits at the SNAP benefit level. See National
+Immigration Law Center, “Table 12: State-Funded Food Assistance
+Programs” (updated January 2024), https://tinyurl.com/25u47yzc.
+Connecticut has a similar program but does not provide benefits
+at the full SNAP benefit level, so it is excluded from this analysis.
+As of September 2022, California, Hawaii, Illinois, Maine, New
+Hampshire, and Washington have state-funded SSI programs
+for certain immigrants who are ineligible for federal SSI benefits.
+Information about Hawaii’s and Washington’s programs suggests that
+state benefit levels are lower than federal benefit levels. See National
+Immigration Law Center, “Table 9: State-Funded SSI Replacement
+Programs” (September 2022), http://tinyurl.com/5msxkd8u.
+
+13
+
+14
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+estimates that state and local governments spent less than
+$50 million on SNAP- and SSI-like benefits for the surge
+population.
+State and local governments spent a very small amount
+on workers’ compensation for the surge population. Data
+from the national income and product accounts (NIPAs)
+indicate that state and local spending on workers’
+compensation totaled $8.5 billion in 2023. CBO used
+self-reported benefits from a sample of CPS respondents
+to estimate the share of benefits that went to members
+of the surge population. In CBO’s estimation, immigrants in the surge population received less than one-half
+of one percent of the total state and local spending on
+workers’ compensation.
+Incarceration
+In CBO’s estimation, state and local governments’
+spending for the incarceration of members of the surge
+population in 2023 totaled $0.77 billion. That value is
+based on the estimated number of people in the surge
+population in state prisons and local jails for violations of
+state or local laws and the estimated costs per inmate in
+2022 and 2023; it excludes those in federal detention or
+federal prisons for violations of immigration laws or for
+other reasons. (Local jails typically hold individuals who
+are awaiting trial or have short sentences—usually less
+than a year; they sometimes temporarily hold inmates
+from state prisons where space is limited. State prisons,
+by contrast, house individuals with longer sentences,
+often for felonies.)
+CBO estimates that about 13,500 members of the surge
+population were in a state prison or local jail at the end
+of 2023 for violations of state and local laws.40 That
+estimate is uncertain, however. Moreover, the share of
+the surge population that is incarcerated could change
+as members of the group spend additional years in the
+United States, because their individual circumstances
+may change and because the time required to prosecute
+criminal cases may delay changes in incarceration rates.
+40. Arrested people stay in a jail for about one month, on average;
+see Zhen Zeng, Jail Inmates in 2022—Statistical Tables (Bureau of
+Justice Statistics, December 2023), https://tinyurl.com/366rdc89.
+Thus, the number of members of the surge population who
+were in jail at the end of 2023 is smaller than the number who
+were in jail at any point during that year. The same applies to
+inmates in prison, though inmates generally remain in prison
+for more than a year; see Danielle Kaeble, Time Served in
+State Prison, 2018 (Bureau of Justice Statistics, March 2021),
+https://tinyurl.com/pt9pddtc.
+
+June 2025
+
+To arrive at that estimate, CBO first estimated the total
+number of surge immigrants who were incarcerated in
+2023. Using data from the 2023 ACS and data from the
+Bureau of Justice Statistics, CBO estimated that about
+18,000 surge immigrants were incarcerated at the end of
+that year.41 Other BJS data indicated that about twothirds of that group, or roughly 11,500 immigrants, were
+in prison rather than jail, and about two-thirds of those
+in prison, or approximately 7,500 immigrants, were in
+a state prison.42 Because comparable data about inmates
+in jail were not available, and because there are very
+few federal jails, CBO estimated that all of the roughly
+6,000 remaining surge immigrants in jail were in a local,
+rather than federal, jail.
+CBO next estimated the cost of those immigrants’
+incarceration. In 2023, according to NIPA data, state
+and local governments spent a total of $107 billion on
+incarceration (net of federal grants provided for the
+incarceration of prisoners regardless of their immigration
+status), or about $60,000 per inmate. To estimate that
+average, CBO divided the total amount by the number
+of inmates in state prisons and local jails at the end of
+2023. Multiplying that average by the number of incarcerated immigrants who were part of the surge yields an
+estimated total cost to state and local governments of
+$0.83 billion.
+CBO subtracted about $60 million from that total to
+account for federal grants provided by the Department
+of Justice’s State Criminal Alien Assistance Program.
+That program provides federal aid to states for the
+incarceration of undocumented immigrants who have
+been convicted of misdemeanors or felonies. The
+
+41. CBO used the ACS data to determine the number of people
+under age 65 living in institutional group quarters and the BJS
+data to estimate the share of such people who were incarcerated.
+For the BJS data, see Bureau of Justice Statistics, Corrections
+Statistical Analysis Tool (CSAT) Prisoners, “Advanced Query”
+(accessed February 17, 2025), http://tinyurl.com/3x692vuw.
+42. Four states (Alaska, California, Oregon, and Rhode Island)
+did not report any data on citizenship status. For those states,
+CBO imputed the number of noncitizens in state prisons.
+The imputed numbers were calculated using data from other
+states and were based on the statistical relationship between the
+number of noncitizens multiplied by the overall incarceration
+rate and the number of incarcerated noncitizens. See E. Ann
+Carson and Rich Kluckow, Prisoners in 2022—Statistical
+Tables (Bureau of Justice Statistics, November 2023), Table 22,
+https://tinyurl.com/mu7y49nt.
+
+June 2025
+
+program awarded about $200 million to states in 2023.43
+CBO estimated that about one-third of the undocumented immigrants in the country in 2023 were part
+of the surge and therefore attributed that share of the
+awarded amount to incarcerated members of the surge
+population.
+Research has consistently found that immigrants are less
+likely than native-born citizens to be arrested, convicted,
+or incarcerated.44 Studies using indirect methods to associate crime rates over time in a city or state with the presence of undocumented immigrants have also concluded
+that the presence of those immigrants was unconnected
+to crime rates.45
+General Services Allocated Equally to All
+Many general services provided by state and local
+governments (for example, police protection) cannot
+be attributed to individual users. Other services provide
+direct benefits to people. The costs for some of those
+services—education and worker’s compensation—are
+described above. For others, the available data do not
+allow benefits to be linked to individual users. CBO
+43. Bureau of Justice Assistance, “BJA FY 2023 State Criminal
+Alien Assistance Program (SCAAP) Award Details,”
+https://tinyurl.com/2tsj5b2j, and “BJA FY 2024 State
+Criminal Alien Assistance Program (SCAAP) Award Details,”
+https://tinyurl.com/2zss7dy6. The estimate for calendar year
+2023 is three-quarters of the award for federal fiscal year
+2023 (which ended in September 2023) and one-quarter
+of the award for federal fiscal year 2024 (which began in
+October 2023).
+44. Michelangelo Landgrave and Alex Nowrasteh, Illegal Immigrant
+Incarceration Rates, 2010–2023 (Cato Institute, April 2025),
+https://tinyurl.com/564dtpcj; Alex Nowrasteh, Illegal Immigrant
+Murderers in Texas, 2013–2022 (Cato Institute, June 2024),
+https://tinyurl.com/bdhs73m3; and Michael T. Light, Jingying
+He, and Jason P. Robey, “Comparing Crime Rates Between
+Undocumented Immigrants, Legal Immigrants, and Native-Born
+U.S. Citizens in Texas,” Proceedings of the National Academy of
+Sciences, vol. 117, no. 51 (December 2020), pp. 32340–32347,
+https://tinyurl.com/3ucekbph.
+45. Christian Gunadi, “On the Association Between Undocumented
+Immigration and Crime in the United States,” Oxford
+Economic Papers, vol. 73, no. 1 (January 2021), pp. 200–224,
+https://tinyurl.com/dyzmm65w; Michael T. Light and Ty
+Miller, “Does Undocumented Immigration Increase Violent
+Crime?” Criminology, vol. 56, no. 2 (March 2018), pp. 370–401,
+https://tinyurl.com/4ze3kyfy; and Kristin F. Butcher and Anne
+Morrison Piehl, “Cross-City Evidence on the Relationship
+Between Immigration and Crime,” Journal of Policy Analysis
+and Management, vol. 17, no. 3 (Summer 1998), pp. 457–493,
+https://tinyurl.com/y5k3n5kb.
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+allocated the costs for those general services in each
+state equally across the population of that state. In other
+words, for each state, the share of costs allocated to the
+surge population was consistent with that population’s
+share of the total population. In CBO’s estimation, the
+direct effect of the surge in immigration on state and
+local spending for those services was $6.1 billion, and the
+potential effect was $11.6 billion.
+CBO expected that spending for some categories of
+general services would respond proportionally to changes
+in the population. To measure those direct effects, CBO
+allocated the average cost of the following services for the
+total population to members of the surge population:
+
+• Public safety services, including police and fire
+protection and courts;
+
+• Housing and community services, including
+sanitation;
+
+• Health care; and
+• Income security.46
+Spending for other categories of general services was not
+expected to respond to population changes in the short
+run, although increases in the population would put pressure on those services—for example, in the form of more
+crowded public transportation. To measure those potential
+effects, CBO allocated the costs of the following services
+for the total population to members of the surge population in proportion to their share of the total population:
+
+• General government services, including executive
+
+and legislative functions, tax collection, and financial
+management;
+
+• Economic affairs, including transportation,
+
+agriculture, energy, and natural resources; and
+
+• Recreation, culture, and libraries.
+Spending was allocated equally to all residents in a state.
+To account for differences among states in spending
+on general services in 2023, CBO used data from the
+Census of Governments and the NIPAs to adjust its
+allocations. States’ total per capita spending on general
+services ranged from 60 percent to 500 percent of the
+U.S. average. Among California, Florida, New York, and
+Texas, it ranged from 70 percent to 150 percent.
+46. The last two categories exclude the health insurance and income
+security programs that are described separately above.
+
+15
+
+16
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Sources of Uncertainty in
+CBO’s Estimates
+
+CBO’s estimates of the effects of the immigration surge on
+state and local budgets are highly uncertain. That uncertainty stems from difficulties in determining the number
+of immigrants in the surge and their immigration status,
+the methods that were used to estimate those immigrants’
+characteristics and geographic locations, the methods used
+to estimate effects on state and local governments, and
+expectations about the behaviors of those immigrants and
+the responses of state and local governments.
+Number of Other Foreign Nationals
+in the Immigration Surge
+Because no single dataset identifies immigrants by when
+they arrived and provides details about their immigration status, CBO relied on various administrative data
+sources to estimate the net immigration of other foreign nationals—including the number of people who
+became other foreign nationals and the number who left
+that group because their immigration status changed or
+because they emigrated or died. To estimate the total
+number of immigrants residing in the country in a given
+year, CBO extrapolated mortality and emigration rates
+from historical data. As a result, CBO’s estimate of the
+number of other foreign nationals in the immigration
+surge is uncertain. The status of those immigrants is also
+uncertain because it depends on administrative policies,
+practices, and resources, as well as on decisions made by
+the immigrants themselves.
+The number of people in the immigration surge directly
+affects estimates of state and local tax revenues and
+spending. The statuses of those immigrants affect estimates of the taxes they paid, because immigration status
+is correlated with income. Immigrants’ statuses also affect
+estimates of state and local spending because residents’
+immigration status determines their eligibility for government assistance.
+Characteristics of the Surge Population
+The datasets that CBO used to analyze the effects of the
+immigration surge did not identify individuals in the
+surge population. Such individuals had to be identified
+using statistical methods, which are subject to error.
+Individuals in the data were classified as members of the
+surge population on the basis of demographic and economic characteristics that CBO expected that group to
+have. Those characteristics included year of arrival, age,
+education, family composition, and earnings. Any errors
+
+June 2025
+
+in the characteristics of the surge population in the tax
+data would lead to mismeasurement of the effects of the
+surge on tax revenues. Similar errors in the survey data
+would lead to mismeasurement of the effects on spending for services ranging from education to incarceration.
+Geographic Distribution of the Surge Population
+CBO’s estimates are sensitive to the distribution of the
+surge population across states because there is significant
+variation in state and local tax and spending policies.
+However, the agency’s estimates of the geographic distribution of those immigrants are highly uncertain. In
+addition, states’ budget processes are complex and varied,
+and information about how states administer different
+benefit programs for immigrants is limited.
+Revenue sources and spending could also vary between
+rural and urban areas or across substate administrative
+areas (such as school districts). Because substate geographic information is typically suppressed in tax and
+survey data to protect individuals’ privacy, CBO cannot
+estimate how many members of the surge population
+resided in those areas.
+In CBO’s estimates, the distribution of the surge population across metropolitan and rural areas within states
+matches that of the broader population. A different
+distribution could lead to significant variation in the
+costs of the surge population across localities within
+states. For example, the direct costs of public primary
+and secondary education would be lower in districts
+with declining enrollment, because immigrants could fill
+empty spots without the districts’ having to immediately
+increase resources. The opposite is true for districts with
+rising enrollment. For example, in New York, enrollment was declining before the immigration surge, but
+in some parts of New York City where immigrants who
+were part of the surge may have later located, enrollment
+was rising. If the surge population was concentrated in
+such areas, the direct costs would be higher than CBO’s
+estimates based on state-level data.
+Estimation Methods
+Because state and local governments do not directly
+attribute revenues and spending amounts to individuals,
+the fiscal impact of new immigrants cannot be directly
+observed. Instead, analysts must estimate that impact
+by allocating state and local tax revenues and spending
+across the population. Considerable uncertainty surrounds the choice of allocation methods, and different
+
+June 2025
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+For example, when analyzing the direct effect of the
+immigration surge in 2023, CBO expected that increases
+in the population that began in 2021 would affect some
+categories of general services (such as police and fire protection and courts) but not others (such as transportation
+and energy). Incorrectly including a category in the first
+group could lead to an overestimate of the direct change
+in spending; incorrectly including one in the second
+group could lead to an underestimate.
+
+Immigrants’ Behaviors and Governments’
+Responses
+Estimates of the effects of the immigration surge on state
+and local budgets further depend on the expected behaviors of the surge population. In CBO’s revenue estimates,
+those expected behaviors include the extent to which
+immigrants without work authorization complied with the
+tax system, the amount of money they sent back to family
+members in their home country, and how their consumption varied across the income distribution. In the agency’s
+spending estimates, expected behaviors include decisions
+to enroll children in school and use government services.
+
+Similarly, in its revenue estimates, CBO allocated half
+of property taxes to renters and half to property owners.
+That approach affected the shares of property tax revenues that CBO attributed to the immigration surge and
+to broad economic growth. The property tax burdens on
+owner-occupied and rental properties are similar, but for
+rental properties, the burden is shared between renters
+and owners. CBO included the share paid by owners of
+rental properties in the potential effect on revenues from
+the increase in overall economic activity.
+
+There is also uncertainty about how quickly increases
+in a locality’s population lead to increases in state and
+local governments’ spending and property tax revenues.
+CBO concluded that by 2023, spending on primary and
+secondary education would not have adjusted fully to
+the additional immigration observed since 2021. When
+estimating revenues from property taxes, CBO projected
+that members of the surge population would start paying
+the average amounts paid by the general population one
+year after their arrival.
+
+methods produce different results, which may affect
+conclusions about the fiscal impact of new immigrants.
+
+17
+
+Appendix A: Methods Used to Estimate
+the Effects of the Immigration Surge
+This appendix provides additional details about how the
+Congressional Budget Office estimated the effects of the
+surge in immigration that began in 2021 on state and
+local budgets in 2023. This analysis focuses on the tax
+liabilities of and spending in that year for the people who
+arrived as part of the surge and their children.
+CBO presents two measures of the effects of the immigration surge on state and local budgets: direct and
+potential effects. Direct effects reflect changes in state
+and local governments’ revenues and spending that were
+directly attributable to people in the surge population.
+Potential effects reflect those direct effects plus increases
+in property tax revenues, additional tax revenues from
+greater economic activity, and nonbudgetary costs associated with greater demand for government services.
+The first section of this appendix describes CBO’s estimates of characteristics of the surge population—namely,
+the age, educational attainment, state of residence, sex,
+marital status, and family income of immigrants in that
+population. Those characteristics were used to identify
+the people who were most likely part of the surge population in data from the American Community Survey
+(ACS) and Customs and Border Protection (CBP) and
+to calculate taxes paid by them and spending for them.
+The next two sections provide more detailed discussion
+of how CBO allocated total state and local tax receipts
+and expenditures in 2023 to those people.
+
+Characteristics of the Surge
+Population in 2023
+
+CBO has documented an increase starting in 2021 in
+the flow of people immigrating to the United States
+whom the agency refers to as other foreign nationals.
+Some of them received permission to enter or remain in
+the country, and some did not. (For a discussion of the
+categories that CBO used for immigrants in this analysis, see Box 1 on page 3.) The net immigration of
+other foreign nationals from 2021 to 2023 significantly
+
+exceeded the rates observed in previous years and ultimately added an estimated 4.3 million more immigrants
+to the U.S. population by the end of that period than
+there would have been if net immigration had remained
+at historical levels. When births and deaths among that
+group of immigrants are accounted for, the net increase
+in the population totals 4.4 million people.
+In this analysis, the agency refers to those 4.4 million
+people as the surge population. Although the immigration surge continued into 2024, this analysis focuses on
+spending and revenues by state and local governments in
+2023 because, at the time of publication, that is the most
+recent year for which the necessary data were available.
+Using the 2023 ACS and information from CBP about
+immigrants’ encounters with CBP officials, CBO compared the characteristics of the other foreign nationals
+who arrived from 2021 to 2023 (and their native-­born
+children) with those of the rest of the population (see
+Table A-1).1 For example, the encounters data from CBP
+showed that many of the immigrants in the surge population were from Central or South America. The agency
+found that the surge population in 2023 differed from
+the general population in the following ways:
+
+• People in the surge population were younger than the
+general population, on average.
+
+• People in the surge population were less educated, on
+average, than those in the general population.
+
+1. The CBP data were obtained from two sources: the Transactional
+Records Access Clearinghouse, which uses the Freedom of
+Information Act to obtain records from CBP about immigrants’
+encounters with CBP officials, and the Department of
+Homeland Security, which provides information about CBP’s
+apprehensions of people by their country of citizenship.
+See Transactional Records Access Clearinghouse, “Stopping
+‘Inadmissibles’ at U.S. Ports of Entry” (accessed March 17,
+2025), https://tinyurl.com/mr46y5n2; and Customs and Border
+Protection, “Nationwide Encounters” (accessed March 17, 2025),
+https://tinyurl.com/49y9keeh.
+
+20
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+• The surge population was concentrated in several
+
+Table A-1 .
+
+Characteristics of the Surge Population
+and the U.S. Population in 2023
+Percent
+
+June 2025
+
+Surge population
+
+U.S. population
+
+Age group
+21
+18
+20
+13
+56
+52
+3
+18
+Educational attainment
+Less than high school diplomaa
+45
+30
+High school diploma or GED
+22
+21
+Some college
+12
+23
+Bachelor’s degree
+14
+16
+Graduate degree
+7
+10
+State of residence
+Florida
+22
+7
+Texas
+15
+9
+California
+11
+12
+New York
+7
+6
+Other
+46
+67
+Sex
+Male
+53
+49
+Female
+47
+51
+Marital status (ages 18 to 54)
+Married
+44
+45
+Not married
+56
+55
+Family income as a percentage of the
+federal poverty guidelinesb
+Less than 100 percent
+34
+13
+100 to 200 percent
+28
+16
+200 to 300 percent
+15
+16
+300 to 400 percent
+8
+14
+400 to 600 percent
+8
+22
+More than 600 percent
+7
+20
+
+14 or younger
+15 to 24
+25 to 64
+65 or older
+
+Data source: Congressional Budget Office, using data from the American
+Community Survey (ACS) and Customs and Border Protection (CBP).
+See www.cbo.gov/publication/61256#data.
+The characteristics of the surge population were estimated using the sample
+of noncitizen immigrants who arrived between 2021 and 2023 (and their
+native-born children) in the 2023 ACS weighted by the country of origin
+derived from data about encounters with CBP officers. The characteristics of
+the U.S. population were estimated using the 2023 ACS.
+a. All children under age 15 are included as having less than a high school
+diploma. People who were enrolled in school in 2023 are included at the
+highest level of attainment they had achieved, even if they expected to
+attain additional education.
+b. For consistency with previous work, the income distribution for the surge
+population in 2023 was projected using the 2021 and 2022 ACS along
+with the 2019 Current Population Survey’s Annual Social and Economic
+Supplement, as described in Congressional Budget Office, Effects of the
+Immigration Surge on the Federal Budget and the Economy (July 2024),
+www.cbo.gov/publication/60165. The federal poverty guidelines are
+developed by the Department of Health and Human Services and are used
+to determine financial eligibility for certain programs. See Department of
+Health and Human Services, “2023 HHS Poverty Guidelines” (accessed
+March 17, 2025), https://tinyurl.com/yp99npzw.
+
+states. Immigrants residing in four states accounted
+for half of the surge population in 2023.
+
+• A larger portion of the surge population than of the
+general population was male.
+
+• The percentage of people ages 18 to 54 who were
+married was similar for the two populations.
+
+• The average income of people in the surge population
+was less than that of the rest of the U.S. population.
+
+Revenues
+
+To estimate the effects that immigrants who were part
+of the surge had on state and local revenues, CBO used
+methods similar to those used in its analysis of their
+effects on the federal budget.2 CBO estimated the largest
+revenue sources using its tax simulation model. For state
+and local income taxes, CBO applied a simplified state
+income tax calculator to the expected income of immigrants in the surge. For sales and property taxes, CBO
+first allocated the total revenues from those taxes to a
+nationally representative sample of taxpayers on the basis
+of estimated spending on various goods and services and
+then estimated the amount of those revenues that could
+be attributed to the immigration surge. Revenues from
+other types of state and local taxes attributable to the
+surge population were estimated using various simplified
+methods, such as per capita allocation. CBO estimated
+the indirect revenue effects arising from the additional
+economic activity brought on by the surge by applying
+average state and local revenues as a percentage of gross
+domestic product (GDP).
+Imputing Immigrant Status and Income
+CBO identified immigrants who were part of the surge
+using the same approach it used to produce its estimates
+of the effects of the surge on the federal budget. For that
+analysis, CBO estimated which taxpayers among the
+representative sample that the agency uses as an input
+to its individual tax microsimulation model were part of
+the immigration surge and used that model to project
+their income and tax payments into the future.3 CBO
+is permitted to use that tax data only for its baseline
+2. Congressional Budget Office, Effects of the Immigration
+Surge on the Federal Budget and the Economy (July 2024),
+www.cbo.gov/publication/60165.
+3. For more details about the model, see Congressional Budget
+Office, An Overview of CBO’s Microsimulation Tax Model
+(June 2018), www.cbo.gov/publication/54096.
+
+APPENDIX A
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Table A-2 .
+
+Revenue Sources in the Census Bureau’s
+Data on State and Local Finances Included
+in CBO’s Analysis
+Included by CBO
+
+Excluded by CBO
+Taxes
+
+Individual income taxes
+General sales taxes
+Selective sales taxes
+Property taxes
+Motor vehicle license taxes
+Corporate income taxes
+Other taxes
+Other revenues
+Workers’ compensation taxes
+Federal government transfers
+Other insurance trust revenues
+Current charges
+Liquor store net revenues
+Interest earnings
+Special assessments
+Proceeds from sales of property
+Other general revenues
+Utility revenues
+Unemployment insurance taxes
+Revenues of state and local
+employee pension funds
+Data source: Congressional Budget Office, using data from Census
+Bureau, “Annual Survey of State and Local Government Finances (ALFIN)”
+(accessed March 17, 2025), https://tinyurl.com/479kfxuj. See www.cbo.gov/
+publication/61256#data.
+
+projections of federal receipts, so for this analysis, the
+agency took the same approach but used public-use tax
+data that are statistically altered to protect the confidentiality of individual taxpayers. CBO assigned a probability
+of being part of the immigration surge to each taxpayer
+in the model on the basis of differences between CBO’s
+baseline population projections (which include the
+immigration surge) and projections under a counterfactual scenario in which the surge did not occur. The
+probabilities reflect the expected age, sex, marital status,
+and income distribution of the surge population.
+Sources of State and Local Revenues
+To simulate state and local revenues, CBO first decided
+which revenue sources to include in its analysis. In general, the analysis included revenues from state and local
+taxes, which change with additional economic activity, but excluded most nontax revenue sources, either
+because the surge in immigration was unlikely to affect
+them (such as grants from the federal government) or
+because changes in revenues from a source were matched
+
+by changes in spending from the source that were also
+omitted from the analysis (such as revenues and spending
+from nongovernmental enterprises).
+CBO included the following revenue sources in its
+analysis: individual income taxes, general sales taxes,
+selective sales taxes (also known as excise taxes), property taxes, motor vehicle license taxes, corporate income
+taxes, other taxes, workers’ compensation revenues, and
+other insurance trust revenues (see Table A-2).4 To derive
+the appropriate revenue totals, CBO used data from
+the Census Bureau’s Annual Survey of State and Local
+Government Finances and from the Bureau of Economic
+Analysis’s (BEA’s) national income and product accounts
+(NIPAs)—specifically, NIPA Tables 3.3 and 3.19, which
+provide information about state and local governments’
+current receipts and expenditures.5 The Census Bureau
+provides detailed, state-by-state, general revenues for
+state and local governments, but BEA excludes some
+nontax revenue sources (such as charges and user fees).
+CBO used the detailed information in the Census
+Bureau’s tables only for the categories that are included
+in the NIPAs as current tax receipts and as contributions
+for government social insurance. Thus, CBO omitted
+from its analysis revenues from several of the sources
+in the Census Bureau’s dataset, including all current
+charges, miscellaneous general revenues (other than special assessments), utility revenues, and revenues of state
+and local employee pension funds. CBO also excluded
+from its analysis transfers from the federal government
+and unemployment compensation revenues (which
+are included in the federal budget). CBO included net
+liquor store revenues (that is, revenues minus the stores’
+expenditures) in alcohol sales tax receipts, and it combined special assessments with property tax receipts.
+CBO’s method of allocating revenues relied on estimates
+of state and local revenues by state. The Census Bureau’s
+data about state and local revenues are published with
+a significant lag, and CBO made several adjustments to
+those data to project calendar year 2023 tax liabilities.
+The most recent data that include details about state and
+local governments’ receipts are for fiscal year 2022.
+4. A health insurance fund in California accounted for nearly all the
+other insurance trust revenues.
+5. Census Bureau, “Annual Survey of State and Local
+Government Finances (ALFIN)” (accessed March 17, 2025),
+https://tinyurl.com/4jap75x8; Bureau of Economic Analysis,
+“National Data: National Income and Product Accounts”
+(accessed March 17, 2025), https://tinyurl.com/5h8n87u6.
+
+21
+
+22
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Table A-3 .
+
+revenue sources by combining the fiscal year 2022 and
+2023 tax receipts, taking into account the dates of each
+state’s fiscal year. The agency then scaled those targets
+to match the estimates for calendar year 2023 that BEA
+published in NIPA Table 3.3 (see Table A-3).
+
+State and Local Revenues in 2023
+Included in CBO’s Analysis
+Billions of dollars
+Amounts
+Individual income taxes
+General sales taxes
+Paid by individuals
+Paid by businesses
+Subtotal
+Selective sales taxes
+Motor fuels
+Utilities
+Tobacco
+Alcohol
+Other
+Subtotal
+Property taxes
+Owner-occupied
+Rental housing
+Paid by businesses
+Subtotal
+Corporate income taxes
+Social insurance taxes
+Workers’ compensation
+Other insurance trust revenues
+Subtotal
+Other state and local revenues in NIPAs
+Motor vehicle license taxes
+Other taxes
+Subtotal
+Total
+
+June 2025
+
+543
+355
+239
+594
+59
+30
+19
+12
+131
+251
+342
+108
+278
+728
+164
+12
+10
+21
+35
+162
+197
+2,498
+
+Data sources: Congressional Budget Office; Census Bureau, “Annual
+Survey of State Government Tax Collections (STC)” (accessed March 17,
+2025), https://tinyurl.com/ykhztv4k, and “Annual Survey of State and
+Local Government Finances (ALFIN)” (accessed March 17, 2025),
+https://tinyurl.com/479kfxuj; Bureau of Economic Analysis, “Table 3.3. State
+and Local Government Current Receipts and Expenditures” (accessed
+April 10, 2025), https://tinyurl.com/22hucdtm. See text for details.
+See www.cbo.gov/publication/61256#data.
+
+The Census Bureau publishes more timely data about
+state governments’ tax receipts.6 CBO used those data
+for fiscal years 2022 and 2023 to project local revenues
+for fiscal year 2023 on the basis of the assumption that
+growth in revenues collected by local governments in a
+state equaled growth in revenues collected by the state
+government. CBO then created estimates for each state
+of tax liabilities for calendar year 2022 for each of the
+6. Census Bureau, “Annual Survey of State Government
+Tax Collections (STC)” (accessed March 17, 2025),
+https://tinyurl.com/ykhztv4k.
+
+Estimates of Revenues From Specific Sources
+The rest of this section provides additional information about the estimates of revenues from five different
+sources: individual income taxes, general sales taxes,
+selective sales taxes, property taxes, and other taxes. The
+indirect effects on state and local governments’ tax revenues from growth in the overall economy attributable to
+the surge are also discussed.
+State and Local Individual Income Taxes. CBO
+
+estimated state and local individual income taxes for
+all taxpayers in its tax microsimulation model by using
+a simplified, table-based state and local tax calculator.
+The agency created that simplified calculator by using a
+more detailed state and local tax calculator to simulate
+tax liabilities in each state for tax units with varying
+numbers of taxpayers and dependents and with incomes
+ranging from zero to $500,000 in $1,000 increments.7
+CBO then applied the average state and local income
+tax rate from that simplified calculator to the income
+of each taxpayer in its sample. The total amounts of
+simulated taxes align well with the aggregate amounts in
+the Census Bureau’s data and the NIPAs. CBO then used
+the probabilities of taxpayers’ being part of the surge to
+determine the state and local income taxes that those
+immigrants paid.
+To account for the geographic distribution of immigrants, CBO calculated state and local income tax
+revenues in each state for each record with a nonzero
+probability of representing an immigrant in the surge
+population and weighted each state revenue amount by
+CBO’s expected distribution of such immigrants among
+states, thus creating a 50-state weighted value. That
+reweighting lowered estimated state and local income
+tax receipts because a disproportionate share of immigrants were in Florida and Texas, which do not have state
+income taxes. The agency’s total estimate summed those
+state-weighted amounts for all taxpayers weighted by the
+estimated probability of their being part of the surge.
+7. For information about the detailed calculator that informed
+CBO’s estimates, see Jon Bakija, Documentation for a
+Comprehensive Historical U.S. Federal and State Income Tax
+Calculator Program, working paper (Williams College Department
+of Economics, March 2019), https://tinyurl.com/jj5kfj2u.
+
+APPENDIX A
+
+In CBO’s estimation, rates of compliance for income
+taxes were 15 percent lower among the surge population
+than among the total population because a larger share
+of the surge population worked without authorization.
+The same factor was applied in CBO’s analysis of the
+immigration surge’s effects on the federal budget. CBO
+expects that only about half of the immigrants in the
+surge population received authorization to work, and in
+the agency’s estimation, immigrants without work authorization are less likely to comply with the tax system than
+people who are authorized to work.
+State and Local General Sales Taxes. CBO used the
+
+same probabilities of taxpayers’ being part of the surge
+population, income distribution, and distribution of
+that population across states to produce the estimates of
+revenues from state and local general sales taxes that it
+used to estimate revenues from state and local income
+taxes. The agency began with its estimates of total
+revenues from general sales taxes from each state and
+then, using estimates by others of state and local business
+tax receipts, split those amounts into the share paid by
+individuals and the share paid by businesses on intermediate goods and services.8 Next, CBO used different
+approaches to allocate those two components of general
+sales tax receipts to all taxpayers in its tax microsimulation model.
+Allocating the general sales taxes paid by individuals involved several steps. First, CBO used the
+“2023 Optional State Sales Tax Tables” that the Internal
+Revenue Service (IRS) provided in the instructions for
+Schedule A (itemized deductions) to estimate a sales
+tax amount for each record in its tax microsimulation model.9 Those tables are based on the Consumer
+Expenditure Survey (CEX), and the sales tax amounts
+vary with income, family size, and the sales tax rate and
+base in each state. CBO next increased those amounts
+to account for revenues from local general sales taxes
+and vehicle sales taxes.10 To account for revenues from
+vehicle sales taxes, CBO used national data from the
+2023 CEX to estimate the share of total consumption
+8. EY, Total State and Local Business Taxes: State-by-State Estimates for
+FY22 (December 2023), https://tinyurl.com/4srjas6e.
+9. Internal Revenue Service, 2023 Instructions for Schedule A:
+Itemized Deductions (December 2023), www.irs.gov/pub/
+irs-prior/i1040sca--2023.pdf.
+10. The IRS produces a table for local general sales taxes, but CBO
+does not have enough geographic detail in its model to use
+that table effectively. Vehicle sales taxes are excluded from the
+IRS tables.
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+spent on vehicle purchases by income and increased the
+sales tax for each record accordingly.11 To account for
+revenues from local sales taxes, CBO added estimates of
+revenues from those taxes to its state sales tax amounts by
+using ratios of the sum of state and average local general
+sales tax rates to state general sales tax rates that were
+calculated using data from the Tax Foundation.12 Finally,
+CBO adjusted those amounts by state so that the state
+totals matched CBO’s targets.
+Businesses pay state and local general sales taxes on intermediate goods and services that they purchase from other
+businesses. CBO allocated the cost of those business sales
+taxes to consumers. Because businesses sell products both
+in state and across state lines, CBO allocated two-thirds
+of each state’s business sales tax revenues to in-state residents and one-third to out-of-state residents.13 Both the
+in-state and out-of-state allocations were based on total
+estimated consumption. Specifically, CBO used data
+from the 2023 CEX to estimate consumption-to-income
+ratios for the different income brackets. Those ratios were
+used to estimate consumption for each record in the tax
+microsimulation model. The estimates do not include
+any lost sales tax revenues stemming from certain cities’
+housing immigrants who were part of the surge population in hotels. In CBO’s estimation, the negative effects
+on tourism and business travel to those cities were small
+given that hotel occupancy rates remained below pre­
+pandemic levels.14
+CBO then adjusted for the expected geographic distribution of immigrants in the surge by estimating general
+sales taxes paid by individuals and businesses for each
+record in each state on the basis of consumption (as
+described above) and weighting by the distribution of the
+surge population across states. CBO reduced its general
+11. Bureau of Labor Statistics, Consumer Expenditure Survey,
+2023, Table 1203, “Income Before Taxes” (September 2024),
+https://tinyurl.com/3k2bpuyy.
+12. Janelle Fritts, Facts and Figures 2022: How Does Your
+State Compare? (Tax Foundation, March 2022), Table 18,
+https://tinyurl.com/yc4fc5jy.
+13. The Minnesota Department of Revenue’s Tax Research Division
+reported that, in 2021, two-thirds of general sales taxes paid by
+businesses were borne by in-state residents. The other one-third
+were borne by out-of-state residents. See Minnesota Department
+of Revenue, Tax Research Division, 2024 Minnesota Tax Incidence
+Study: An Analysis of Minnesota’s Household and Business Taxes
+(March 2024), Table B-2, https://tinyurl.com/3wta2raz.
+14. See, for example, Office of the New York State Comptroller,
+Tracking the Return: The Tourism Industry in New York City,
+Report 04-2025 (May 2024), https://tinyurl.com/2kw77vjd.
+
+23
+
+24
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+sales tax estimates for the surge population by 15 percent
+to reflect a reduction in consumption because, in the
+agency’s estimation, those immigrants are likely to have
+sent a portion of their income to family members who
+reside in other countries.
+State and Local Selective Sales Taxes. CBO estimated
+
+revenues from state and local selective sales taxes by using
+the same immigrant probabilities, income distribution,
+and distribution of the surge population across states
+that it used to estimate revenues from state and local
+income taxes. The agency began with its estimate of total
+revenues in each state from sales taxes on motor fuels,
+utilities, tobacco, alcohol, and other goods subject to
+selective sales taxes.
+Selective sales taxes were allocated on the basis of the
+consumption of goods subject to selective sales taxes.
+CBO used CEX data for 2023 to estimate ratios of
+consumption of several categories of goods—motor
+fuels, utilities, tobacco, alcohol, and all goods (used for
+all other selective sales taxes)—to income for different
+income groups. The agency used those ratios to estimate
+each type of consumption for each record in the tax
+microsimulation model. CBO then allocated selective
+sales taxes to each record on the basis of state and type of
+consumption to match the target amount for each state.
+Next, the agency estimated the amount of selective sales
+taxes paid by immigrants by estimating selective sales
+taxes for each record in each state and weighting those
+amounts by the distribution of the surge population
+across states. Finally, CBO reduced its estimates of revenues from state and local selective sales tax attributable to
+the surge population by 15 percent to reflect the expectation that those immigrants would have sent a portion
+of their income to family members who resided in other
+countries, reducing their consumption.
+State and Local Property Taxes. CBO used a multi-
+
+step process to estimate property taxes. First, the agency
+divided property taxes into those levied on owner-­
+occupied housing, rental housing, and commercial
+property, and then it allocated each of those components
+separately:
+
+• The estimated property tax payments for owner-
+
+occupied housing were based on the itemized
+deductions for those taxes reported on federal tax
+returns; for filers in CBO’s model who did not
+
+June 2025
+
+itemize, amounts were estimated on the basis of those
+paid by similar taxpayers.
+
+• Property taxes on rentals were estimated using
+
+personal consumption expenditures for owneroccupied and rental housing in NIPA Table 2.4.5.
+To allocate the rental property component, CBO
+estimated rental consumption of taxpayers who
+did not own a home using 2023 CEX data and a
+procedure similar to the one it used to estimate
+revenues from selective sales taxes.
+
+• The remaining property taxes were estimated to have
+
+been levied on properties owned by businesses. CBO
+allocated those property taxes paid by business to
+individual taxpayers in proportion to their estimated
+total consumption.
+
+Next, CBO estimated the revenues from rental and business property taxes that were attributable to people in
+the immigration surge by estimating those taxes for each
+record in each state and then weighting those amounts
+by the distribution of the surge population across states.
+Because the immigration surge started in 2021 and
+immigrants in the surge population had been in the
+country for three years at most in 2023, CBO simplified
+its estimates by calculating them as if everyone in the
+surge population was a renter in 2023.
+CBO created two measures of revenues from property
+taxes—one for direct effects and the other for potential
+effects. The property tax effect attributable to immigrants in the surge reflects only the property tax revenues
+stemming from rent payments made by those individuals. CBO’s estimate of the immigration surge’s direct
+effect on property taxes is smaller than its estimate of
+the potential effect because, in the agency’s estimation,
+the increase in population resulting from the surge did
+not immediately lead to a proportionate increase in
+property values and tax assessments—that is, the agency
+expected the increase in revenues from property taxes to
+lag behind the increase in demand for housing and the
+subsequent increase in property values brought on by the
+immigration surge.
+The property taxes paid by owners of rental properties (estimated to be half of the collections of property
+taxes on rental properties) are included in the effects
+attributable to the increase in overall economic activity
+stemming from the surge, and thus part of the potential
+
+APPENDIX A
+
+effects of the surge.15 The additional property taxes paid
+by businesses were not, in CBO’s assessment, directly
+paid by the surge population but instead were passed on
+to the broader population through higher prices or to
+owners of capital through lower returns. Like the revenues from property taxes borne by owners of rental properties, collections of property taxes paid by businesses are
+included in the estimate of the effects of the increase in
+overall economic activity.
+Other State and Local Taxes. CBO used various
+
+reduced-form methods to estimate revenues from other
+types of state and local taxes. For example, the agency
+estimated the average motor vehicle license taxes paid by
+people over the age of 17 and then applied that average amount to the agency’s estimate of the number of
+immigrants in the surge who were over the age of 17 in
+2023. Similarly, CBO estimated the average amount of
+workers’ compensation taxes paid by employed people
+and then multiplied that average amount by its estimate
+of the number of immigrants in the surge who worked.
+CBO expects that collections of many other types of
+taxes—including license taxes, death and gift taxes, and
+oil and mineral extraction taxes (known as severance
+taxes)—did not change in response to the increase in
+immigration. By contrast, corporate income taxes are
+estimated to have increased because of the increased economic activity attributable to the immigration surge, and
+those additional taxes were paid by taxpayers who were
+not part of the surge; thus, they are included in CBO’s
+estimate of the potential effects of the immigration surge
+on state and local revenues.
+Indirect Effects on State and Local Tax Revenues.
+
+In addition to the direct effects that resulted from the
+increase in the number of people paying taxes, CBO
+estimates that the changes in the overall economy stemming from the immigration surge also affected state and
+15. Researchers do not agree on who bears the burden of
+property taxes on rental properties. See, for example, David J.
+Schwegman and John Yinger, The Shifting of the Property Tax
+on Urban Renters: Evidence From New York State’s Homestead
+Tax Option (Census Bureau, Center for Economic Studies,
+December 2020), https://tinyurl.com/372sjydr; and Sarah Baker,
+“Property Tax Pass-Through to Renters: A Quasi-Experimental
+Approach” (draft, University of California, Berkeley,
+October 2024), http://tinyurl.com/mr4ca8ax. Other researchers
+have, like CBO, estimated the burden to be shared equally by
+renters and owners of rental properties. See Carl Davis, Marco
+Guzman, and Emma Sifre, Tax Payments by Undocumented
+Immigrants (Institute on Taxation and Economic Policy,
+July 2024), https://tinyurl.com/2zfja4zb.
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+local budgets. For example, businesses that saw increased
+demand for their products because of the immigration surge are likely to have hired more workers and
+invested in additional machinery, causing their profits
+to rise. Furthermore, innovation-related productivity
+is estimated to be higher because of the surge, leading
+to higher income from both labor and capital, though
+those effects may take time to materialize. Those indirect
+effects increased state and local tax receipts from the
+nonsurge population. CBO used a multistep process to
+estimate those effects.
+
+• The agency first estimated the effect of the
+
+immigration surge on GDP by comparing its baseline
+economic forecast (which incorporates the effects
+of the surge) with its forecast of outcomes under a
+counterfactual economic scenario in which the surge
+did not occur.
+
+• Next, the agency subtracted from that estimate of the
+
+immigration surge’s overall effect on GDP its estimate
+of the surge population’s earnings to estimate the
+growth in GDP accruing to the nonsurge population.
+
+• Finally, CBO applied an overall state and local
+
+tax rate (equal to the ratio of total state and local
+revenues to GDP) to estimate the additional revenues
+state and local governments received as a result of the
+additional GDP.
+
+Spending
+
+To estimate the amounts that state and local governments spent on the surge population, CBO relied on its
+own estimates of the surge population, survey data, and
+other public data. Although the goal was to estimate the
+share of the total costs of goods and services provided
+by state and local governments that was attributable to
+the surge in immigration—similar to the approach the
+agency used for revenues—CBO first needed to develop
+an allocation method. That method involved distributing the total costs of goods and services across the entire
+population by identifying all users and estimating the
+average cost per user. When applicable, CBO adjusted
+the estimates for the surge population that differed from
+those for the rest of the population to account for direct
+effects of the surge population on state and local budgets (as the agency did in its analysis of revenues from
+property taxes).
+The method involved three major steps. First, CBO
+estimated the total cost of various goods and services
+provided by the state and local governments by using
+
+25
+
+26
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+data from the NIPAs. Second, CBO used data from
+the Current Population Survey’s Annual Social and
+Economic Supplement (CPS ASEC) to construct a
+sample of the U.S. population in 2023 that included a
+subsample of people who were likely to be in the surge
+population. Third, using the previous two components,
+CBO developed a method to allocate the total spending
+amounts in the NIPAs to people in the sample. The sum
+of the amounts allocated to people in the sample who
+were estimated to have been part of the surge population
+is the effect of the surge in immigration on state and
+local spending in 2023. For some categories of spending,
+the allocation method distinguishes between the direct
+and potential effects of the immigration surge on state
+and local budgets.
+Revised Estimates of Total Spending
+by Category
+The total state and local spending included in this analysis is consistent with the estimate of current expenditures minus spending on interest payments on debt and
+spending on subsidies in the NIPAs. To estimate the total
+spending by state and local governments for each category, CBO started with the total current expenditures
+by state and local governments in 2023 in the NIPAs—
+$3,762 billion (Table 3.16, line 80). That total includes
+federal grants-in-aid of $951 billion (Table 3.17) and
+spending on interest payments and subsidies of $277 billion (Table 3.16) that is unrelated to the surge population. Both of those amounts were subtracted from the
+total current expenditures, resulting in total state and
+local spending of $2,535 billion in 2023 in the categories
+included in CBO’s analysis (see Table A-4).
+Because federal grants supporting state and local programs are outside the scope of this analysis, the total
+for each spending category should not include such
+grants. The estimates for spending categories in NIPA
+Table 3.16 include any grants-in-aid that the state or
+local government received. To exclude such grants from
+each spending category, CBO either used data from a
+source that did not include that aid (Table 3.12, for
+example) or subtracted the amount of grants-in-aid
+given in Table 3.17 from the corresponding category in
+Table 3.16.
+In some cases, NIPA Table 3.17 provides a total that
+must be allocated to subtotals provided in Table 3.16.
+
+June 2025
+
+CBO used other sources of data to allocate those
+amounts to different categories. For example, Table 3.16
+provides a total for state and local governments’ spending
+for education and subtotals for elementary and secondary
+education, higher education, and “libraries and other.”
+CBO used data from the National Center for Education
+Statistics and the Institute of Museum and Library
+Services to allocate federal grants-in-aid for education to
+those components of spending for education.16
+CBO expects that some categories of state and local
+spending for general services will take time to respond to
+the immigration surge, so two sets of totals were created—one for the direct effect of the surge population on
+such spending and one for the potential effect. In CBO’s
+assessment, for at least the first three years of the immigration surge, the increase in population had no effect on
+spending for the following categories included in NIPA
+Table 3.16: the executive and legislative functions of
+government, tax collection and financial management,
+transportation (air, water, highway, transit, and railroads), other economic affairs (general, labor, agriculture,
+energy, and natural resources), recreation and culture,
+and libraries. The spending on general services allocated
+to calculate the direct effect of the immigration surge was
+$603 billion, and the amount allocated to calculate the
+potential effect was $1,200 billion. Thus, the spending
+for general services attributable to the immigration surge
+that, in CBO’s assessment, did not immediately respond
+to the increase in population that resulted from the surge
+amounted to $597 billion.
+In all, after federal grants-in-aid and spending on interest
+payments and subsidies were removed, $2,535 billion
+was allocated to estimate the potential effect of the surge
+population. After the portion of spending for general
+services that, in CBO’s assessment, did not immediately
+respond to the surge population ($597 billion) was subtracted, $1,938 billion remained to be allocated to the
+U.S. population to estimate the direct effect of the surge
+population.
+16. National Center for Education Statistics, “ElSi (Elementary/
+Secondary Information System) Table Generator” (accessed
+April 21, 2025), https://nces.ed.gov/ccd/elsi/tableGenerator.aspx,
+and Integrated Postsecondary Education Data System (accessed
+March 17, 2025), https://tinyurl.com/57adz5nk; and Institute of
+Museum and Library Services, “IMLS Interactive Map” (accessed
+April 23, 2025), https://tinyurl.com/2s4uw3r8.
+
+APPENDIX A
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Table A-4 .
+
+NIPA Current Expenditures Net of Federal Grants-in-Aid, by Category, 2023
+Billions of dollars
+
+Public primary and secondary education
+Postsecondary education
+Shelter and related services
+Border security
+Medicaid and the Children’s Health Insurance Program (CHIP)b
+Temporary Assistance for Needy Families (TANF)c
+Supplementary Security Income (SSI)d
+Supplemental Nutrition Assistance Program (SNAP)e
+Workers’ compensation
+Incarceration in state prisons and local jails
+General servicesf
+Total current expenditures included in the analysis
+Interest payments and subsidies
+Total NIPA current expenditures
+a
+
+State and local spending
+plus federal grants-in-aid
+
+Federal grants-in-aid
+
+State and local spending
+
+842
+159
+3
+3
+903
+32
+5
+5
+9
+108
+1,416
+3,486
+277
+3,762
+
+65
+41
+0
+0
+614
+14
+0
+0
+0
+1
+216
+951
+0
+951
+
+777
+119
+3
+3
+289
+18
+5
+5
+9
+107
+1,200
+2,535
+277
+2,812
+
+Data source: Congressional Budget Office, using data from the Bureau of Economic Analysis, the Department of Health and Human Services, the Office of
+Management and Budget, and the Social Security Administration. See www.cbo.gov/publication/61256#data.
+a. Includes additional spending for English-language learners.
+b. The state spending on Medicaid and CHIP includes CBO’s estimates of spending for state-funded programs that offered Medicaid-like benefits to the
+surge population.
+c. Values are total expenditures in fiscal year 2023. Because the spending level is expected to have been relatively stable from 2023 to 2024, CBO used the same
+value for calendar year 2023. See Administration for Children and Families, Office of Family Assistance, “TANF Financial Data - FY 2023” (November 7, 2024),
+Table A.1, https://tinyurl.com/bdh5ycb8.
+d. The state spending includes CBO’s estimates of spending on state-funded programs that offered SSI-like benefits to the surge population.
+e. The state spending reflects spending on state-funded programs that offered SNAP-like benefits to the surge population. In addition, it includes states’ portion
+of the administrative costs submitted to the Department of Agriculture, which equal the federal portion of such costs. For the federal portion, see Office
+of Management and Budget, Budget of the U.S. Government, Fiscal Year 2025: Appendix (March 2024), p. 150, https://tinyurl.com/39cdwayd. To get the
+estimate for calendar year 2023, CBO added three-quarters of the amount for fiscal year 2023 and one-quarter of the amount for fiscal year 2024.
+f. For the direct effect of the surge population, the category of general services consists of spending on police and fire protection, courts, housing and
+community services, health care, and income security programs not included in other categories; for the potential effect of the surge population, the
+category consists of spending for those services as well as spending on the executive and legislative functions of government, tax collection and financial
+management, transportation (air, water, highway, transit, and railroads), other economic affairs (general, labor, agriculture, energy, and natural resources),
+recreation and culture, and libraries.
+
+A Sample of the Surge Population
+To create a representative sample of the surge population
+in 2023, CBO used the Current Population Survey’s
+Annual Social and Economic Supplements. In addition
+to the data for 2023, CBO used data from the CPS
+ASECs for 2021 and 2022 to increase its sample size
+and improve the accuracy of its estimates. The combined
+CPS ASEC sample provides a representative sample of
+the U.S. civilian noninstitutionalized population over
+those three years. To create a sample of the surge population, CBO used a sample of noncitizens who had arrived
+within three years of the survey and who were identified
+
+by the agency as other foreign nationals on the basis of
+several variables in the CPS ASEC data.17
+CBO estimates that immigrants in the surge population
+differ significantly from immigrants who arrived earlier in terms of their age, educational attainment, and
+state of residence. To match the characteristics of the
+surge population, the sampling weights for the sample
+17. For details about the method used to identify other foreign
+nationals in the CPS ASEC, see Julia Heinzel, Rebecca Heller,
+and Natalie Tawil, Estimating the Legal Status of Foreign-Born
+People, Working Paper 2021-02 (Congressional Budget Office,
+March 2021), www.cbo.gov/publication/57022. In that paper,
+other foreign nationals are referred to as people without legal status.
+
+27
+
+28
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+of other foreign nationals were adjusted to match the
+distribution of the surge population by age, educational
+attainment, state of residence, and year of immigration.
+Corresponding changes were made to the weights for
+records representing people not in the surge sample.
+As a result of those adjustments, the sum of the weights
+for the records in the surge sample is equal to CBO’s estimate of the increase in population in 2023 attributable to
+the immigration surge (4.4 million people), and the sum
+of all sample weights equals CBO’s estimate of the resident population in 2023. For the sample of immigrants
+in the surge, the distributions by age, educational attainment, state of residence, and year of immigration match
+those discussed above, and the distributions for the whole
+sample match those in the original CPS ASEC sample.
+To estimate other characteristics of the surge population (such as the percentage residing in group quarters),
+CBO used a sample of recent immigrants in the ACS
+reweighted on the basis of CBP data. The ACS has a
+larger sample size and broader set of populations than
+the CPS ASEC, which results in more precise estimates.
+Allocation of Spending to the Surge Population
+In the last step, CBO allocated the total spending by
+state and local governments to individuals in its sample
+(including immigrants in the surge population). The
+agency used data from multiple sources to inform that
+allocation:
+
+• Survey data were used to identify people in the surge
+
+population who incurred costs for education, state
+prisons and local jails, and workers’ compensation.
+CBO multiplied the number of users of goods and
+services by the average spending per user to calculate
+the total increase in the costs to state and local
+governments resulting from the surge in immigration.
+The agency expects that the average cost of those
+services per user (excluding the costs of public primary
+and secondary education) was the same for the surge
+population as it was for the general population.
+
+• Additional information was used to estimate the
+
+number of people in the surge population who
+incurred costs in other spending categories for which
+separate totals were either provided in the NIPAs or
+estimated on the basis of other administrative data.
+Those categories consist of states’ shares of spending
+for certain federal health insurance and income
+security programs, state-funded health insurance and
+income security programs for immigrants, shelter and
+related services, and border security measures.
+
+June 2025
+
+• The rest of the spending by state and local
+
+governments cannot be attributed to individuals
+because neither survey nor administrative data
+provide enough information to differentiate the use
+of state and local government services by people in
+the surge population from the use of those services by
+people in the general population. CBO distributed
+such spending equally across the general population.
+
+Because, in CBO’s estimation, state and local governments’ spending lags behind the increase in population brought on by the immigration surge, the agency
+adjusted the costs per user for certain goods and services
+to distinguish between the direct and potential effects.
+CBO used lower costs per user for the direct effect than
+for the potential effect of the surge on public primary
+and secondary education to reflect the historical relationship between changes in enrollment and changes in
+spending. The costs per user were lower for the direct
+effect on spending for general services than they were
+for the potential effect of such spending because CBO
+removed some categories of spending from its calculations of the direct effect.
+Estimates of Spending for Specific Categories
+The rest of this section provides additional information about the estimates of four categories of spending:
+public primary and secondary education, postsecondary
+education, Medicaid and the Children’s Health Insurance
+Program (CHIP), and Temporary Assistance for Needy
+Families (TANF).
+Public Primary and Secondary Education. In 2023,
+
+CBO estimates, state and local governments spent
+$5.7 billion more on public primary and secondary
+education than they would have if the immigration surge
+had not occurred. To estimate state and local spending
+for primary and secondary education attributable to the
+surge, CBO calculated the difference between its estimate of such spending under the baseline scenario and
+its estimate of such spending under the counterfactual
+scenario.
+For each scenario, CBO estimated the cost as the product of spending in 2022, the growth in enrollment from
+the 2022–2023 school year to the 2023–2024 school
+year, and the growth in spending per student over that
+period. The estimated direct effect and potential effect
+differed by CBO’s estimate of the growth in enrollment
+and in spending per student from 2022 to 2023.
+
+APPENDIX A
+
+The estimated number of students enrolled in primary
+and secondary schools is the total number of children
+ages 5 to 15 and children older than 15 in the CPS
+ASEC sample who reported enrollment in high school.18
+That enrollment number was further adjusted to account
+for the fact that the 2023 arrival cohort was enrolled
+for half a year, on average. In the CPS ASEC sample,
+0.60 million full-year equivalent enrollees in primary and
+secondary schools in 2023 were members of the surge
+population. Using the ACS, CBO estimated that about
+90 percent of the immigrants in the surge population
+who were enrolled in primary and secondary schools that
+year were enrolled in public schools. Thus, CBO estimated that in 2023, the full-year equivalent enrollment
+in public primary and secondary schools of people in the
+surge population was 0.55 million.
+For the estimate of the direct effect, estimates of spending per student were based on the statistical relationship
+between changes in enrollment and changes in spending
+per student; for the estimate of the potential effect, the
+costs per student were the total spending on public primary and secondary education divided by the number of
+children enrolled in those schools in 2023.
+Like property taxes, state and local governments’
+spending on primary and secondary education did not
+immediately rise in proportion to the increase in the
+number of students arriving as part of the surge; rather,
+the increase in spending lagged behind the change in
+population. To quantify the possible response by state
+and local governments to the surge in immigration,
+CBO estimated the relationship between state-level
+enrollment changes and state-level changes in spending
+per student by using information from the Common
+Core of Data (CCD) for the 1999–2000 school year to
+the 2019–2020 school year.19 If state and local governments adjusted the spending in proportion to changes in
+enrollment, the coefficient of enrollment growth would
+be expected to be zero. But CBO found that an increase
+18. Students reporting half-time enrollment in high school were
+discounted by one-half.
+19. Changes in both enrollment and spending per student for
+each state were normalized by dividing the changes at the
+national level. Enrollment is based on fall enrollment data,
+and spending is based on current total spending for the school
+year. The regression also included a set of state fixed effects.
+Data on enrollment and spending were drawn from National
+Center for Education Statistics, “ElSi (Elementary/Secondary
+Information System) Table Generator” (accessed April 21, 2025),
+https://nces.ed.gov/ccd/elsi/tableGenerator.aspx.
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+of one percentage point in enrollment growth was associated with a 0.37 percentage-point decrease in growth of
+spending per student; conversely, a one percentage-point
+decrease in the enrollment growth was associated with a
+0.34 percentage-point increase in growth of spending per
+student. Those relationships suggest that the spending on
+public primary and secondary education did not immediately adjust in proportion to the change in enrollment.
+Thus, an increase in enrollment leads to a decline in
+average spending, and a decrease in enrollment, to an
+increase in average spending.
+In addition, evidence suggests that as the number of
+immigrant children in public schools increases, some
+students transfer from public to private schools.20 Thus,
+in CBO’s assessment, some students who were not part
+of the surge population would have moved to private
+schools in response to the surge. As a result, the net
+increase in enrollment in public schools was smaller
+than the number of children in the surge population
+who enrolled in public schools. On the basis of limited
+evidence, CBO estimated that for every six students in
+the surge population who attended public schools, one
+student from the nonsurge population moved from a
+public to a private school.
+
+• For the baseline scenario, which includes the surge
+
+population, the enrollment change for each state
+in 2023 was calculated using data from the CCD
+on enrollment for the 2022–2023 and 2023–
+2024 school years. The growth in spending per
+student was estimated on the basis of that change in
+enrollment and the statistical relationship between
+enrollment and spending per student described above.
+
+• For the counterfactual scenario in which the
+
+immigration surge did not occur, the enrollment
+change in 2023 was calculated by subtracting fivesixths of the estimated enrollment of students in the
+surge population from enrollment in the baseline
+scenario (to account for some of the nonsurge
+students’ shift to private schools). The growth in
+spending per student was estimated in the same way as
+above except for that it was estimated on the basis of
+that modified measure of enrollment growth in 2023.
+
+20. Evidence suggests that one student transferred from
+public to private school for every five to seven immigrants
+who entered public school. Thomas J. Murray, “Public
+or Private? The Influence of Immigration on Native
+Schooling Choices in the United States,” Economics of
+Education Review, vol. 53 (August 2016), pp. 268–283,
+https://doi.org/10.1016/j.econedurev.2016.04.003.
+
+29
+
+30
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+The potential costs to state and local governments are
+greater than the direct costs—$9.4 billion compared
+with $5.7 billion in 2023. The approach that CBO used
+to estimate the potential effects of the surge population
+on state and local governments’ spending on public
+primary and secondary education was similar to the one
+it used to estimate the direct effects, with two differences:
+No adjustment was made to account for the possibility
+that some nonsurge students who were enrolled in public
+schools would enroll in private schools, and spending per
+student was not adjusted to account for the change in
+enrollment.
+The estimates of both the direct and potential effects
+account for costs incurred by schools to provide additional services for English-language learners. Because
+most immigrants in the surge population come from
+non-English-speaking countries, state and local governments incurred an additional $1.2 billion to provide
+those services to the surge population, CBO estimates.
+That amount was included in the agency’s estimates of
+both the direct and potential effects of the surge population on state and local spending.
+That estimate of the cost of additional services was based
+on the share of the surge population with limited English
+proficiency and the additional funding provided to
+schools for English learners. Using the 2023 ACS, CBO
+estimated that in that year, about half of the surge population did not speak English or did not speak it well.
+That share was larger for more recent arrivals—about
+60 percent for people who arrived in 2023 and about
+40 percent for those who arrived in 2021. By contrast,
+only 1 percent of the people in the nonsurge sample did
+not speak English or did not speak it well in 2023.
+Many states use a formula to allocate funding for
+English-language learners to schools and school districts
+in proportion to their fall enrollment. The formulas give
+additional weight to students who require additional services, such as those with disabilities and those who have
+limited English proficiency. CBO calculated a weighted
+average of the additional funding that states give Englishlanguage learners in their formulas.21 CBO estimated
+that the average additional weight for English-language
+learners, based on the state formulas for which such a
+calculation was feasible, was just over 25 percent.22
+21. The weights were based on the share of the surge population
+residing in each state as estimated using the ACS. Education
+Commission of the States, “K–12 Funding 2024: English Learner
+Funding” (March 2024), http://tinyurl.com/46urxpcf.
+22. Although states set the allocation formula, most states require local
+governments to contribute to the instruction costs as calculated by
+
+June 2025
+
+Postsecondary Education. Immigrants in the surge
+
+population could be eligible for in-state tuition and state
+or local financial aid through two pathways. First, at
+least half of the surge population lived in states in which
+other foreign nationals could qualify for in-state tuition
+at public institutions if they attended high school in the
+state for two or three years and graduated.23 Second, in
+certain states, members of the surge population with
+certain federal immigration statuses would have been
+eligible for in-state tuition through the same channel as
+U.S. citizens and permanent residents: by establishing
+legal domicile (or residence), which typically requires
+evidence that a person has lived in the state for at least
+one year and, depending on the state, has some type of
+lawful status or presence. To simplify the analysis, CBO
+applied the immigration and residency requirements for
+in-state tuition to estimate financial aid provided by state
+and local governments.24
+CBO estimates that only a small percentage of the surge
+population was eligible for financial support for postsecondary education from state and local governments
+in 2023. The first pathway was unavailable to the vast
+majority of the surge population in that year. On the
+basis of its analysis of the six states with the largest shares
+of the surge population, CBO estimates that only a
+very small number of those immigrants who arrived in
+2021 lived in a state with a two-year high school attendance and graduation requirement and would have been
+able to meet the requirement and enroll in an in-state
+public postsecondary institution by the end of 2023.
+Members of the surge population living in states with a
+three-year high school attendance and graduation requirement would not have been eligible for state and local
+support for postsecondary education. (Of the six states
+analyzed, only New York had a two-year requirement; the
+other states had a three-year requirement.) Consequently,
+the funding formula. CBO’s estimate does not include estimates
+of additional local funding for English-­language learners.
+23. That estimate is based on an analysis of the six states with the
+largest shares of the surge population—Florida, Texas, California,
+New York, New Jersey, and Illinois. New York has a two-year
+residency requirement, and the other five states have a three-year
+residency requirement.
+24. Despite that simplification, in some states, the immigration
+and residency requirements for in-state tuition do not align
+with requirements for state and local financial aid. For example,
+since 2023, Florida has provided a channel for eligibility for
+in-state tuition to undocumented students. See H.B. 851 § 5,
+2014 Leg., Reg. Sess. (Fla. 2014). However, undocumented
+immigrants do not qualify for state aid in Florida. See
+University of Florida, Student Financial Aid and Scholarships,
+“Undocumented Students” (accessed February 28, 2025),
+http://tinyurl.com/3bppjbpe.
+
+APPENDIX A
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+to simplify the analysis, CBO did not estimate that members of the surge qualified for the first pathway.
+
+federal government, which varies by state) for that population, which averaged about 70 percent across states.
+
+The second pathway was also unavailable to nearly all of
+the surge population in 2023. CBO estimates that very few
+members of that population could have met the Higher
+Education Act’s requirement that a person must “demonstrate the intention of becoming a citizen or permanent resident” to be eligible for federal financial aid.25 Some states
+that provide the second pathway rely on federal regulations
+to determine eligibility for in-state tuition.26 Although
+some other states that provide the second pathway do not
+rely on those regulations, CBO estimates that the number
+of immigrants in the surge population who qualified for
+the second pathway in those states was negligible.27
+
+On the basis of the CPS ASEC sample of the surge
+population described above, CBO estimated that about
+one-third of children and less than 10 percent of adults
+in the surge population resided in states that funded
+programs that provided Medicaid-like benefits in 2023.
+As of November 2023, 11 states and the District of
+Columbia had created state-funded Medicaid-like
+programs that provide health care coverage to children
+regardless of their immigration status.30 Four states and
+the District of Columbia offered state-funded Medicaidlike benefits to adults.31 To simplify its analysis, CBO
+did not estimate the costs of the state-funded coverage
+
+Medicaid and State-Funded Programs That Offer
+Medicaid-Like Benefits. The first component of the
+
+Medicaid estimate is the total amounts paid for Medicaid
+or the Children’s Health Insurance Program by states
+for people in the surge population who were eligible for
+those programs—$0.3 billion.28 That estimate is based on
+CBO’s estimate of federal Medicaid and CHIP spending
+for the surge population.29 To estimate the states’ share of
+spending for Medicaid and CHIP for the surge population, CBO used its estimate of the federal share of such
+spending and its estimate of the federal medical assistance
+percentage (that is, the percentage of costs paid by the
+25. That is one requirement among many. For the additional
+requirements, see Department of Education, Federal Student
+Aid, 2024–2025 Federal Student Aid Handbook, Chapter 2,
+“U.S. Citizenship and Eligible Noncitizens” (January 2024),
+http://tinyurl.com/4xa7ktdf.
+26. For example, to determine eligibility for in-state tuition, the
+University of Alaska Board of Regents uses the same definition of
+eligible noncitizen that is used to determine eligibility for federal
+financial aid. See University of Alaska Board of Regents, Regents’
+Policy and University Regulation (accessed March 5, 2025),
+Chapter 5.10, www.alaska.edu/bor/policy-regulations.
+27. For example, without explicitly relying on federal regulations,
+Oregon grants eligibility for in-state tuition to humanitarian
+parolees. See Or. Rev. Stat. § 352.287(9)(c) (2023).
+28. Qualified aliens can generally participate in Medicaid after a
+five-year waiting period. That waiting period is waived for some
+groups, such as asylees, people from Cuba or Haiti, and certain
+Afghan and Ukrainian parolees. In addition, states can choose to
+provide full benefits under Medicaid or CHIP to some people.
+Medicaid covers emergency medical treatment for people who
+would qualify for full benefits if not for their immigration status
+or the five-year waiting period.
+29. Congressional Budget Office, Effects of the Immigration
+Surge on the Federal Budget and the Economy (July 2024),
+www.cbo.gov/publication/60165.
+
+30. Those 11 states are California, Connecticut, Illinois, Maine,
+Massachusetts, New Jersey, New York, Oregon, Rhode Island,
+Vermont, and Washington. The age ranges for childhood
+eligibility vary among states. For example, Maine covers children
+under 21, whereas New Jersey covers children under 19. CBO
+accounted for the variation in age eligibility among states
+for both children and adults. Massachusetts’s and Vermont’s
+coverage for children is more limited than that provided by other
+states. (Vermont’s coverage, for example, excludes long-term
+care.) Nevertheless, children in those states were considered
+to be age-eligible for state-funded Medicaid-like benefits in
+CBO’s estimates. See Claire Heyison and Shelby Gonzales,
+States Are Providing Affordable Health Coverage to People Barred
+From Certain Health Programs Due to Immigration Status
+(Center on Budget and Policy Priorities, February 1, 2024),
+https://tinyurl.com/yxbjxk45.
+31. Those four states are California, Illinois, New York, and Oregon.
+California offered benefits for many adults, but those ages 26 to
+49 were ineligible; Illinois offered benefits for adults age 42 or
+older; New York covered adults age 65 or older; and Oregon and
+the District of Columbia offered benefits to adults regardless of
+their age or pregnancy status. See Akash Pillai, Drishti Pillai,
+and Samantha Artiga, State Health Coverage for Immigrants and
+Implications for Health Coverage and Care (KFF, May 1, 2024,
+updated April 10, 2025), http://tinyurl.com/yc454abk. Some
+of those states’ coverage was extended after 2023. For example,
+in January 2024, California expanded eligibility to include
+income-eligible adults ages 26 to 49. In addition, Oregon did
+not offer comprehensive coverage to adults ages 26 to 54 until
+July 1, 2023; to account for that midyear expansion, half of the
+immigrants in the surge population ages 26 to 54 in Oregon
+were considered to be eligible in 2023. See Oregon Health
+Authority, “OHP Benefits Available to People of All Ages and
+Immigration Status,” Oregon Health News Blog (June 28, 2023),
+https://tinyurl.com/c44ck4b9. Illinois paused enrollment for
+adults ages 42 to 64 on July 1, 2023. To account for that pause,
+half of the immigrants in the surge population ages 42 to
+64 who arrived in 2023 and resided in Illinois were considered
+to be eligible that year. Illinois Department of Human Services,
+“Health Benefit Coverage for Immigrant Adults: Enrollment
+Pause” (June 28, 2023), https://tinyurl.com/mszy2w2b.
+
+31
+
+32
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+June 2025
+
+for limited populations in Connecticut, Hawaii, Maine,
+Massachusetts, New York, Pennsylvania, Vermont, and
+Washington.32
+
+be attributed to the surge population, which CBO estimated by comparing states’ MOE spending from fiscal
+year 2019 to fiscal year 2023.
+
+By applying the shares discussed above to the estimated
+3.5 million people in the surge population who were
+ineligible for federal Medicaid benefits in 2023, CBO
+estimated that less than half a million people in the surge
+population were eligible for state-funded Medicaid-like
+benefits that year. In CBO’s assessment, people in the
+surge population who were eligible for state-funded
+programs had the same likelihood of enrolling in those
+programs as people in the surge population who were
+eligible for federal benefits had of enrolling in the federal
+programs, and the costs per person for people in the
+surge population enrolled in the state-funded programs
+were the same as the costs per person for federal benefits
+for that population. On the basis of those assessments
+and after accounting for part-year residency among the
+2023 arrival cohort, CBO estimated that the costs of
+state-funded Medicaid-like programs attributable to the
+surge population were $0.2 billion in 2023.
+
+CBO’s estimate of states’ MOE spending on cash assistance is based on a tabulation of the TANF national data
+files for cash assistance by the source of funding (federal
+versus state) and the citizenship of all family members.33
+The agency estimated that between fiscal years 2019 and
+2023, states’ MOE spending on TANF cash assistance
+increased by about a third for families with citizens
+only and more than doubled for families with at least
+one member who was not a citizen or whose status was
+unknown. CBO attributed $0.1 billion of states’ MOE
+spending on TANF cash assistance to the surge population in fiscal year 2023. That estimate reflects the rate of
+growth from fiscal year 2019 to fiscal year 2023 in states’
+MOE spending on TANF cash assistance for families
+with at least one member who was not a citizen or whose
+status was unknown, minus the growth rate over those
+years for families that consisted only of citizens.
+
+Temporary Assistance for Needy Families. TANF is a
+
+joint federal-state program that provides cash assistance,
+work support, and other services to low-income families
+with children. The federal government provides grants
+to states, and states contribute their own dollars to fulfill
+the maintenance-of-effort (MOE) requirement. The
+discussion here focuses on the MOE spending that could
+32. Connecticut, Maine, Massachusetts, New York, and Washington
+provide Medicaid-like benefits to postpartum people; Vermont
+provides coverage to pregnant people; and Hawaii, New York,
+and Pennsylvania provide coverage to other limited populations.
+Hawaii, for example, provides Medicaid-like benefits to people
+who are age 65 or older, blind, or disabled. For information about
+the state-funded programs that provide Medicaid-like benefits,
+see Claire Heyison and Shelby Gonzales, States Are Providing
+Affordable Health Coverage to People Barred From Certain Health
+Programs Due to Immigration Status (Center on Budget and Policy
+Priorities, February 1, 2024), p. 13, https://tinyurl.com/yxbjxk45.
+
+Between fiscal years 2019 and 2023, the increase in
+states’ MOE spending on cash assistance accounted for
+about one-third of the increase in total states’ MOE
+spending on TANF, so CBO attributed $0.4 billion of
+states’ MOE spending to the surge population in fiscal
+year 2023.34 The caseload was stable between fiscal year
+2023 and the first quarter of fiscal year 2024.35 CBO
+therefore applied the estimate for fiscal year 2023 to
+calendar year 2023.
+33. The Congressional Research Service provided the tabulation.
+34. See Administration for Children and Families, Office of
+Family Assistance, “TANF Financial Data - FY 2023”
+(November 7, 2024), https://tinyurl.com/bdh5ycb8, and
+“TANF Financial Data - FY 2019” (February 22, 2021),
+https://tinyurl.com/y5mw5hvr.
+35. Administration for Children and Families, Office of Family
+Assistance, “State TANF Data and Reports” (March 20, 2025),
+https://tinyurl.com/y4wsvfst.
+
+Appendix B: Comparison With Estimates
+From Other Studies
+Most other studies of the effects of immigration on state
+and local revenues and spending have examined the net
+fiscal costs of all immigrants, not just newly arrived other
+foreign nationals.1 Although estimates of the state and local
+fiscal impact of immigrants vary in the literature, studies
+using methods similar to those that the Congressional
+Budget Office used have generally found greater increases
+in spending than in revenues, a pattern consistent with this
+report’s estimates of two different measures of the immigration surge’s effects on state and local budgets:
+
+• Direct effects—changes in state and local
+
+governments’ revenues and spending that were
+directly attributable to people in the surge
+population, and
+
+• Potential effects—the direct effects plus increases in
+
+property tax revenues, additional tax revenues from
+greater economic activity, and nonbudgetary costs
+associated with greater demand for government services.
+
+small share of spending on those services. The focus on
+unauthorized immigrants in that report differs from
+the focus on other foreign nationals in this one in that
+some other foreign nationals are lawfully present. (For
+a discussion about the categories that CBO used for
+immigrants in this report, see Box 1 on page 3.)
+That earlier report also considered the total population
+of unauthorized immigrants, whereas this report focuses
+only on immigrants who arrived from 2021 to 2023.
+In the 2007 report, CBO reviewed a number of studies
+that estimated taxes paid by immigrants, costs incurred
+by state and local governments to provide various services
+to immigrants, and certain types of federal assistance for
+states that provided such services. Given some limitations of those studies—including a lack of information
+about unauthorized immigrants’ tax compliance and use
+of benefits—the report cautioned against generalizing
+the estimates from those studies to the national level.
+
+Those other studies have typically assigned average costs
+for the general population to the immigrant population—a measure closer to the potential effects than the
+direct effects—so CBO compared their estimates with its
+estimates of the potential effects of the immigration surge.
+
+More Recent Studies
+
+CBO’s 2007 Review of
+Relevant Studies
+
+• The econometric method, which uses models to estimate
+
+In a report published in 2007, CBO concluded that
+unauthorized immigrants paid less in state and local
+taxes than state and local governments spent to provide services to that population.2 CBO also concluded
+that unauthorized immigrants accounted for only a
+1. One exception is a study that analyzed the fiscal impact of
+refugees, asylees, and their immediate families. See Robin
+Ghertner, Suzanne Macartney, and Meredith Dost, The Fiscal
+Impact of Refugees and Asylees at the Federal, State, and Local Levels
+From 2005 to 2019 (Department of Health and Human Services,
+Office of the Assistant Secretary for Planning and Evaluation,
+February 2024), http://tinyurl.com/c5sm692k.
+2. Congressional Budget Office, The Impact of Unauthorized
+Immigrants on the Budgets of State and Local Governments
+(December 2007), www.cbo.gov/publication/41645.
+
+More recent studies on the fiscal impact of immigrants
+have generally used one of two methods:
+
+• The accounting method, which involves summing
+
+taxes and spending for all immigrants in the data, or
+the impact of immigration on governments’ budgets.
+
+Because CBO’s analysis of the potential effects follows
+the accounting method, this discussion is limited to
+studies that used the first approach.3
+3. CBO’s estimates of direct effects are more conceptually similar
+than its estimates of potential effects to estimates produced using
+the econometric method, which aims to measure actual changes
+in taxes and spending stemming from immigration with statistical
+models, such as regressions. For example, CBO’s estimate of the
+direct cost of primary and secondary education was produced by
+measuring a statistical relationship between changes in enrollment
+and changes in spending per student. Because CBO’s estimation
+methods for direct and potential effects differ for only a few
+categories of taxes and spending, this report limits the discussion
+to studies that used the accounting method.
+
+34
+
+EFFECTS OF THE SURGE IN IMMIGRATION ON STATE AND LOCAL BUDGETS IN 2023
+
+Studies relying on the accounting method have yielded
+mixed results on the impact of first-generation immigrants on state and local budgets. The different results are
+due in part to different analytical choices. For example, a
+study by the Cato Institute, which found a positive fiscal
+impact of first-generation immigrants, allocated spending for all native-born dependents of those immigrants
+to the second generation.4 That study also included
+indirect effects on revenues, such as increases in taxable
+income from additional business profits. By contrast,
+a study by the National Academies of Sciences, which
+found a negative fiscal impact of first-generation immigrants, assigned all native- and foreign-born dependents
+of first-generation parents to the first generation and did
+not account for indirect effects on revenues.5
+CBO’s analysis focuses on the surge in immigration that
+began in 2021 and its effects on revenues and spending
+in 2023. Only a small share of the immigrants in the
+surge population had native-born children by 2023, and
+none of those children were old enough to incur costs
+for public education. As a result, excluding immigrants’
+native-born children would have had little effect on
+CBO’s estimates—less of an effect than doing so would
+have on studies that covered the entire immigrant population—and CBO’s estimates are more comparable to
+those from studies that excluded such children.6
+4. Alex Nowrasteh, Sarah Eckhardt, and Michael Howard, The
+Fiscal Impact of Immigration in the United States (Cato Institute,
+March 2023), https://tinyurl.com/fd5aa9em.
+5. National Academies of Sciences, Engineering, and Medicine,
+The Economic and Fiscal Consequences of Immigration
+(National Academies Press, 2017), Chapter 9, pp. 495–566,
+http://tinyurl.com/3k3ycafj.
+6. For example, the Cato Institute study excluded the fiscal impact
+of native-born children from its estimate of first-generation
+effects, attributing that impact to the second generation. See
+Alex Nowrasteh, Sarah Eckhardt, and Michael Howard, The
+Fiscal Impact of Immigration in the United States (Cato Institute,
+March 2023), https://tinyurl.com/fd5aa9em.
+
+June 2025
+
+CBO’s estimates of potential effects include revenues
+from increases in economic activity due to the surge in
+immigration. Population growth leads to higher gross
+domestic product and, therefore, higher income and
+spending. Those indirect effects on overall economic
+activity increase tax revenues beyond the amounts
+directly attributable to immigration. In CBO’s analysis, those indirect effects account for almost half of the
+potential effect of the surge in immigration on state and
+local tax revenues.7
+Additionally, CBO’s analysis differs from others in that
+it incorporates spending that was a unique consequence
+of the surge. For example, CBO’s estimates of state and
+local spending include spending on shelter and related
+services in response to the influx of asylum seekers to
+urban centers; the estimates also include spending on
+state-funded health insurance and income security programs that provide services to people who are ineligible
+for federal benefits because of their immigration status.
+Although CBO’s methods for estimating the effects of
+immigrants on tax revenues are broadly similar to those
+used in other studies, CBO’s estimates of state and
+local revenues tend to be lower. That difference reflects
+CBO’s assessment that the surge population had lower
+income, on average, than the overall immigrant population. CBO also adjusted its estimates to reflect expected
+differences in the geographic distribution of the surge
+population and the general U.S. population. The heavy
+concentration of immigrants in the surge population in
+Florida and Texas tends to reduce revenues attributable
+to immigrants because residents of those states have a
+lower-than-average tax burden.
+7. The National Academies of Sciences study did not include
+indirect effects, but the Cato Institute study did. For an example
+of another study that included indirect effects on revenues, see
+Michael A. Clemens, The Fiscal Effect of Immigration: Reducing
+Bias in Influential Estimates, Working Paper 9464 (CESifo,
+December 2021), http://tinyurl.com/5yxrrx3k.
+
+List of Tables and Figures
+
+Tables
+1. Effects of the Immigration Surge on State and Local Tax Revenues in 2023
+
+6
+
+2. Effects of the Immigration Surge on State and Local Spending for Goods and Services in 2023
+
+9
+
+A-1. Characteristics of the Surge Population and the U.S. Population in 2023
+
+20
+
+A-2. Revenue Sources in the Census Bureau’s Data on State and Local Finances Included in CBO’s Analysis
+
+21
+
+A-3. State and Local Revenues in 2023 Included in CBO’s Analysis
+
+22
+
+A-4. NIPA Current Expenditures Net of Federal Grants-in-Aid, by Category, 2023
+
+27
+
+Figure
+1. Effects of the Immigration Surge on State and Local Budgets in 2023
+
+4
+
+About This Document
+This report was prepared at the request of the Chairman of the House Budget Committee. In keeping
+with the Congressional Budget Office’s mandate to provide objective, impartial analysis, the report
+makes no recommendations.
+Nabeel Alsalam (a consultant to CBO) and James Pearce prepared the report with contributions from YeJin Ahn, Rebecca Heller, and Ian Shayne and with guidance from Edward Harris,
+John McClelland, Xiaotong Niu, and Julie Topoleski. Daniel Crown, Gene Falk (of the Congressional
+Research Service), Justin Falk, Jennifer Gray, Emma Kugelmass, Justin Latus, Susanne Mehlman,
+Kim Rueben (a consultant to CBO), Emily Stern, and Carolyn Ugolino contributed to the analysis. Rachel Austin, Jeremy Crimm, Elizabeth Cove Delisle, Sean Dunbar, Kathleen FitzGerald,
+Kevin Laden, Sam Papenfuss, and Robert Sunshine (a consultant to CBO) offered comments.
+Daniel Page fact-checked the report.
+Analysts from the Arizona Joint Legislative Budget Committee, the California Legislative Analyst’s
+Office (Ann Hollingshead, Seth Kerstein, and Brian Uhler), the Cato Institute (David J. Bier,
+Michael Howard, and Alex Nowrasteh), and the Manhattan Institute (Daniel Di Martino and
+Reihan Salam) commented on CBO’s analytical approach, as did Steven Camarota (of the Center for
+Immigration Studies), Michael Clemens (of George Mason University), Carl Davis (of the Institute
+on Taxation and Economic Policy), Joyce Manchester (of Tree House Economics), and Robert Rector
+(of the Heritage Foundation). The assistance of external reviewers implies no responsibility for the
+final product; that responsibility rests solely with CBO.
+Jeffrey Kling reviewed the report, Christine Browne and Bo Peery edited the report, and
+Casey Labrack created the graphics and prepared the text for publication. The report is available at
+www.cbo.gov/publication/61256.
+CBO seeks feedback to make its work as useful as possible. Please send comments to
+communications@cbo.gov.
+
+Phillip L. Swagel
+Director
+June 2025
+
+

@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated October 28, 2026 by Claude Code (stage C, step 2).
+Updated October 28, 2026 by Claude Code (stage C, step 3).
 
 ## Now
 
@@ -17,15 +17,15 @@ Updated October 28, 2026 by Claude Code (stage C, step 2).
 | C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | Done | Claude Code | PR #53, merged |
 | C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | Done | Claude Code | PR #54, merged |
 | C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In progress: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; ACS refresh after the October 29 release | Claude Code | Branch `claude/stage-c-housing-2` |
-| C. First dossiers | 3. Housing section 2, what works | Most capable | Waiting on step 2 | Claude Code | — |
-| C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | Waiting on step 3 | Claude Code | — |
+| C. First dossiers | 3. Housing section 2, what works | Most capable | In review: `dossiers/home/2-what-works.md`, EV-HOU-050 to 184; causes, programs and experience abroad | Claude Code (session_01UQzgBwQoJg2sZm4YbUgNaQ) | PR #58 |
+| C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | Next, ready once PR #58 merges: section 2 ends with the eight forks it leaves | Claude Code | — |
 | C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (with Codex on the budget model) | Most capable | Later | Claude Code, Codex | — |
 | C. First dossiers | 6. Housing sections 7-9; L2/L3 milestone review | Most capable | Later | Claude Code; reviewer | — |
 | C. First dossiers | 7. Transportation converted as the reference dossier; template fixes | Standard to convert; Most capable for gaps | Later | Claude Code | — |
 
 ## Open PRs
 
-The stage C step 2 PR (housing subgroups, `claude/stage-c-housing-2`).
+- PR #58, stage C step 3: housing section 2, what works (`claude/stage-c-housing-3`).
 
 ## Done (recent)
 
@@ -57,4 +57,5 @@ The stage C step 2 PR (housing subgroups, `claude/stage-c-housing-2`).
 
 ## Questions for Espen
 
-1. Optional: upload HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026), to raise the 2025 homelessness figures from grade C to A. *Worst Case Housing Needs 2025* and the 2024 homelessness report arrived October 28 and are in the library.
+1. Optional uploads for housing section 2: HUD's Family Options Study reports and *A Picture of Subsidized Households*, and CBO's analysis of the 2023 immigration surge (publication 61464). They would replace secondary summaries (`dossiers/home/2-what-works.md`, "Evidence still needed").
+2. Optional: upload HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026), to raise the 2025 homelessness figures from grade C to A. *Worst Case Housing Needs 2025* and the 2024 homelessness report arrived October 28 and are in the library.

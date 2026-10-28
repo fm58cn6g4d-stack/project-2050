@@ -1,0 +1,726 @@
+Source: https://aaltodoc.aalto.fi/bitstreams/57222bee-18b5-43fc-81e8-3e2182b1663b/download
+Publisher: Journal of Urban Economics (Elsevier)
+Retrieved: 2026-10-28
+Original SHA-256: 06c9f49c4e36bacde1ea5140eb3506ef0366f55acdbbdbb8cccf800446736a99
+Rights: CC BY 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+This is an electronic reprint of the original article.
+This reprint may differ from the original in pagination and typographic detail.
+
+Bratu, Cristina; Harjunen, Oskari; Saarimaa, Tuukka
+JUE insight: City-wide effects of new housing supply: Evidence from moving chains
+Published in:
+JOURNAL OF URBAN ECONOMICS
+DOI:
+10.1016/j.jue.2022.103528
+Published: 01/01/2023
+
+Document Version
+Publisher's PDF, also known as Version of record
+Published under the following license:
+CC BY
+Please cite the original version:
+Bratu, C., Harjunen, O., & Saarimaa, T. (2023). JUE insight: City-wide effects of new housing supply: Evidence
+from moving chains. JOURNAL OF URBAN ECONOMICS, 133, [103528].
+https://doi.org/10.1016/j.jue.2022.103528
+
+This material is protected by copyright and other intellectual property rights, and duplication or sale of all or
+part of any of the repository collections is not permitted, except that material may be duplicated by you for
+your research use or educational purposes in electronic or print form. You must obtain permission for any
+other use. Electronic or print copies may not be offered, whether for sale or otherwise to anyone who is not
+an authorised user.
+
+Powered by TCPDF (www.tcpdf.org)
+
+Journal of Urban Economics 133 (2023) 103528
+
+Contents lists available at ScienceDirect
+
+Journal of Urban Economics
+journal homepage: www.elsevier.com/locate/jue
+
+JUE Insight: City-wide eﬀects of new housing supply: Evidence from
+moving chains☆
+Cristina Bratu a, Oskari Harjunen b, Tuukka Saarimaa c,∗
+a
+
+VATT Institute for Economic Research, Arkadiankatu 7, Helsinki 00100, Finland
+Aalto University School of Engineering and VATT Institute for Economic Research, Otakaari 4, Espoo FI-02150, Finland
+c
+Aalto University School of Business and School of Engineering and Helsinki GSE, Ekonominaukio 1, Espoo FI-02150, Finland
+b
+
+a r t i c l e
+JEL classiﬁcation:
+R31
+R21
+R23
+Keywords:
+Housing supply
+Housing aﬀordability
+Filtering
+
+i n f o
+
+a b s t r a c t
+We study the city-wide eﬀects of new, centrally-located market-rate housing supply using geo-coded populationwide register data from the Helsinki Metropolitan Area. The supply of new market rate units triggers moving
+chains that quickly reach middle- and low-income neighborhoods and individuals. Thus, new market-rate construction loosens the housing market in middle- and low-income areas even in the short run. Market-rate supply is
+likely to improve aﬀordability outside the sub-markets where new construction occurs and to beneﬁt low-income
+people.
+
+1. Introduction
+Housing aﬀordability is a major issue in most cities throughout the
+world. A large body of economic research argues that this is due to
+shortages in housing supply driven by local regulatory restrictions (e.g.
+Glaeser and Gyourko, 2018). Economists tend to oﬀer a simple solution
+to this problem: allow for more housing construction in areas of highdemand and housing prices and rents will go down and more people
+will be able to move in. However, opposition to new buildings, especially when built in existing neighborhoods, is strong for a number of
+reasons. Homeowners want to protect the value of their most important asset. Current residents do not want the character of their neighborhood to change or the neighborhood to become overcrowded. Some
+even question the economists’ central claim that new market-rate housing improves housing aﬀordability for most people, as new market-rate
+housing tends be expensive, thus only beneﬁting the better-oﬀ. These
+groups can form a powerful political force at the local level and stiﬂe local housing supply (see e.g. Glaeser and Ward, 2009; Hilber and RobertNicoud, 2013; Ortalo-Magné and Prat, 2014; Einstein et al., 2019; Been
+et al., 2019). Because of this opposition, information on the total beneﬁts
+of new market-rate housing is crucial for local politicians who ultimately
+make decisions on how much and where to allow new construction to
+take place.
+
+In addition to the direct eﬀect of increasing the housing stock in the
+neighborhood it is built in, new market-rate housing may have more farreaching indirect eﬀects through a moving chain process. As new residents move into the newly constructed units, they vacate their old units.
+These vacant units then get occupied by a new set of residents whose old
+units become vacant and so on. Through this process, new market-rate
+housing can have moderating price eﬀects not only in its immediate
+neighborhood, but also in the city’s lower-income neighborhoods, by
+eﬀectively loosening the housing market in these areas through vacancies.1 However, if a city’s housing market is segmented into separate
+sub-markets so that people do not move between them or that the new
+units get occupied by out-of-town movers, the moving chains may not
+reach low-income neighborhoods in the city. Whether and to what extent this is the case is ultimately an empirical question.
+In this paper, we use Finnish population-wide register data to shed
+further light on how new, centrally located buildings aﬀect surrounding
+sub-markets through a moving chain mechanism. Our data are particularly well-suited for this analysis as they include information on the
+
+1 In the longer run, ﬁltering can also take place through depreciation, whereby
+houses become more aﬀordable as they age (see e.g. Rosenthal, 2014; Rosenthal,
+2020; Weicher and Thibodeau, 1988; Liu et al., 2021).
+
+☆
+We thank the editor, Stuart Rosenthal, two referees, Essi Eerola, Tuuli Vanhapelto, Pablo Warnes and seminar participants at Etla Economic Research and Urban
+Lab at Uppsala University for useful comments.
+∗
+Corresponding author.
+E-mail addresses: cristina.bratu@vatt.ﬁ (C. Bratu), oskari.harjunen@aalto.ﬁ (O. Harjunen), tuukka.saarimaa@aalto.ﬁ (T. Saarimaa).
+
+https://doi.org/10.1016/j.jue.2022.103528
+Received 25 August 2021; Received in revised form 25 October 2022
+Available online 7 January 2023
+0094-1190/© 2022 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)
+
+C. Bratu, O. Harjunen and T. Saarimaa
+
+Journal of Urban Economics 133 (2023) 103528
+
+exact location and housing unit for all households.2 Thus, we can follow
+the moving chain at the housing unit level and identify the neighborhoods where the units in the chain are located. Moreover, we observe
+the individuals living in these units, and thus, we can also characterize the movers using our rich register data. We focus on new buildings
+in the Helsinki Metropolitan Area (HMA), home to about 1.2 million
+individuals (20% of Finland’s population). We refer to movers to new
+buildings as round one movers, to movers to their vacated units as round
+two movers, and so on for all subsequent movers in the chain. We follow
+the chain for six rounds.
+We start by showing that people moving into the new centrally located buildings have much higher incomes and are more likely to be
+highly-educated than both the HMA population on average and the people who move to other locations in the HMA during our time window.
+New housing built in expensive areas of the city does indeed primarily
+house the better-oﬀ. However, the moving chains triggered by these new
+units reach middle- and low-income neighborhoods. By round three,
+60% of movers originate from neighborhoods in the bottom half of the
+neighborhood income distribution. Our register data also allows us to
+show that low-income individuals are indeed part of the moving chains.
+By round four, 50% of movers are ranked in the bottom half of the
+national level household income distribution. This is direct revealedpreference evidence that low-income individuals in the city area also
+beneﬁt from new expensive housing, even when the new units are allocated to individuals higher up in the income distribution.
+We also show that ﬁrst round movers to new units come from the
+upper part of their origin neighborhoods’ income distribution and also
+have on average higher incomes than their new neighbors. However, in
+later rounds this reverses so that residents in the lower part of the origin neighborhoods’ income distribution are over-represented among the
+movers in the chains. The movers in later rounds also tend to be in the
+lower part of their new destination neighborhoods’ income distribution.
+In addition, the movers are moving up the neighborhood quality ladder,
+as captured by neighborhood house prices.
+Finally, we reconstruct the sequence of origin units in the moving chain and calculate the overall probability that the chain reaches
+lower-income sub-markets. We ﬁnd that for each 100 new, centrally located market-rate units, roughly 31 (66) units are created in the bottomquintile (bottom half) of neighborhood income distribution through vacancies. Given that the moves we study happen between two adjacent
+years, i.e. we study the very short-run, these numbers are signiﬁcant.
+This paper complements the recent work by Mast (2021), who shows
+that in major US cities moving chains triggered by new housing in
+central and expensive parts of cities do reach middle- and low-income
+neighborhoods quite quickly. We provide empirical evidence on how the
+moving chain mechanism unfolds in a European city where income inequality and segregation are more moderate compared to US cities. Our
+results echo those reported by Mast (2021), but with some notable differences. Compared to US cities, the moving chains in the HMA are more
+likely to reach middle- and low-income neighborhoods and reach them
+faster. The diﬀerence may be partly driven by diﬀerences in the data and
+methodology used to construct moving chains, but they probably largely
+reﬂect diﬀerences in underlying income inequality and residential segregation. That is, the socio-economic distance between expensive and
+aﬀordable neighborhoods is smaller in the HMA compared to US cities.
+Furthermore, Mast (2021) uses address history data, but has only limited background information on individuals. Our register data allows us
+to go beyond characterizing neighborhoods and provide direct evidence
+that lower-income individuals are part of the moving chains.3
+
+Our results also inform the recent literature comparing the eﬀects
+of diﬀerent housing policy options, such as upzoning, housing vouchers
+and rent control, using calibrated general equilibrium models (see e.g.
+Favilukis et al., 2022; Carstensen, Hansen, Iskhakov, Rust, Schjerning;
+Nathanson). Empirical estimates on the extent of segmentation of the
+housing market within cities is a key component in understanding the
+relative merits and distributional consequences of these policy options
+(Piazzesi et al., 2020).
+It is important to note that our results speak to the potential of new
+construction to loosen middle- and lower-income sub-markets in the
+metropolitan area. However, we cannot make any claims about the effect of new construction on the immediately surrounding neighborhoods
+(see e.g. Asquith et al., 2021; Diamond and McQuade, 2019; Li, 2022;
+Singh, 2019; Pennington), nor do we look at price eﬀects in the neighborhoods reached by the moving chains (see e.g. Mense, 2020).
+2. Data
+We use geo-coded register data containing information on all residents in Finland over the 2009–2019 time period. The data include rich
+demographic and socio-economic characteristics, such as age, gender,
+income, education and number of children. Importantly, we can link
+individuals to both the buildings and the housing units they reside in
+at the end of each calendar year. For each building, we have granular
+location information: provided that there are at least three households
+living in the building, we know the exact coordinates of the building.
+Otherwise, the coordinates refer to 250 square meter grids.
+The sample of new market-rate buildings in our analysis consists of
+multi-unit buildings built between 2010 and 2019 within a 3 km radius
+of the Helsinki Central Station (106 buildings and 3196 units in total),
+the focal point of the central business district.4 We identify new buildings in the data by the ﬁrst year they appear in the register. We exclude
+student housing and other types of special housing (e.g. housing for the
+elderly, assisted living etc.) from the set of new buildings that we consider, but allow moving chains to pass through these types of buildings.
+Figure A1 illustrates the location of these buildings and mean housing
+prices per square meter in HMA zip codes. As can be seen from the ﬁgure, the new buildings in our sample are located in the most expensive
+areas of the HMA.
+3. Constructing moving chains
+In this section, we describe how we use our data to construct moving
+chains, and to characterize the neighborhoods and people that are part
+of them.
+First, we identify the individuals that move into the new buildings
+during the ﬁrst year the building enters the register. We call the year
+when this move happens year 𝑡. We then follow these individuals back
+in time and ﬁnd the units where they used to live the year before the
+move. We call this year 𝑡 − 1 and the units they leave origin units. This
+means that we always look at moves that happen between two adjacent
+years. We classify origin units based on the characteristics of the neighborhoods they are located in and based on whether they are located in
+the HMA or not. We allow individuals to move to the new buildings
+from any location.5 This implies that they can move from outside the
+
+not focus on the socio-economic makeup of the neighborhoods. Moreover, the
+neighborhood divisions in these papers are very coarse (two areas in Stockholm
+and four in Oslo).
+4
+We have produced results where the ﬁrst round destination buildings are
+within a 4 km radius and the results are very similar to our baseline. These
+results are available from the authors upon request.
+5
+We omit two origin zip codes which primarily house students (one of the
+campuses of the University of Helsinki is situated in Viikki and the main campus
+of Aalto University is situated in Otaniemi). These would be classiﬁed as low-
+
+2
+For buildings with at least three households, we observe exact coordinates.
+For buildings with fewer households, we observe coordinates at a level of
+250 square meter grids.
+3
+Turner (2008) and Turner and Wessel (2019) estimate vacancy chain models
+using administrative data from Stockholm and Oslo, respectively, but they do
+
+2
+
+C. Bratu, O. Harjunen and T. Saarimaa
+
+Journal of Urban Economics 133 (2023) 103528
+
+Fig. 1. Mobility across neighborhoods. Notes: These transition matrices show the likelihood of moving across diﬀerent kinds of neighborhoods in the Helsinki
+Metropolitan Area, given origin neighborhood disposable income decile.
+
+HMA as well and we do not impose restrictions on the type of building
+they lived in prior to moving.
+In the next step, we identify the individuals that in year 𝑡 live in
+the origin units as deﬁned above. We then follow this second set of
+individuals back in time and ﬁnd their origin units and classify them in
+terms of neighborhood characteristics and HMA status. We continue in
+this manner for a total of six rounds, which corresponds to the analysis
+by Mast (2021) using US data.
+The underlying aim of this exercise is to take note of the type of
+neighborhoods the moves originate from and the type of people that
+move in each round. We classify HMA neighborhoods into ten equalsized groups or neighborhood income deciles based on the neighborhood residents’ median disposable income.6 That is, the number of
+neighborhoods is the same in each decile. We ﬁrst aggregate individual disposable income at the household level and then scale the income
+using the OECD equivalence scale. The scaling assigns value 1 to the
+ﬁrst adult household member, 0.7 to each additional adult and 0.5 to
+each child.
+We deﬁne neighborhoods in two ways. Our baseline neighborhood
+deﬁnition is a zip code area. There are 165 zip codes in the HMA (in
+2019) with a mean population of roughly 6,800. However, some zip
+codes are geographically quite large and may include diﬀerent types of
+smaller neighborhoods with distinct residential makeups. For example,
+a predominantly low-income zip code may contain an aﬄuent singlefamily house residential area. The presence of such zip codes might bias
+our results in the sense that while our moving chains might reach such
+low-income zip codes, it could be the better-oﬀ residents within the zip
+code area that are actually moving. In this case, the moving chain would
+not eﬀectively loosen the housing market that is relevant for lower income people. To address this issue, we use a second neighborhood definition, given by 250 square meter grids, which are smaller units than
+zip codes and less likely to produce the above-mentioned problems. In
+2019, there were in total 6228 populated grids in the HMA with an
+average population of slightly less than 200.
+Of course, even with a ﬁne-grained neighborhood division, there can
+still be systematic diﬀerences in unit quality so that the moving chains
+take place within predominantly high-quality units within each neigh-
+
+borhood (see also Mast, 2021). Again, this would mean that even though
+a moving chain reaches a low-income neighborhood, it would be the
+better-oﬀ residents that move out. To tackle this issue further, we take
+advantage of our rich register data that allow us to directly analyze what
+type of individuals - in terms of income and other characteristics - participate in the moving chains. This provides direct evidence on whether
+new centrally located buildings aﬀect the lives of low-income people in
+the city.
+A chain can break for a number of reasons before reaching round six
+or reaching low-income neighborhoods. First, a chain breaks if a vacated
+unit gets occupied by someone moving from outside the HMA.7 Second,
+in some instances the origin unit is in the HMA, but does not become
+vacant. Examples of this includes a young person moving away from her
+parents house or a divorce where one or more members of the household
+remain in the origin unit. We analyse the reasons for chain breakage in
+more detail after presenting the main results.
+
+4. Results
+4.1. Mobility across neighborhoods
+We ﬁrst document mobility patterns between diﬀerent types of
+neighborhoods, deﬁned as zip codes and 250 square meter grids, within
+the HMA. This gives us the ﬁrst indication of how segmented the HMA
+housing market is. We consider all moves that happen in destination
+years 2010 to 2019. We characterize both origin and destination neighborhoods in terms of where they are in the distribution of median disposable income as explained earlier, relative to all neighborhoods in the
+HMA (i.e. not in the national-level distribution).
+Figure 1 shows that there is a fair amount of mobility across diﬀerent
+types of neighborhoods in the HMA. While a majority of moves originating in the ﬁrst income decile are to neighborhoods below the median in
+the neighborhood income distribution, we see that around 15–20% of
+moves are to neighborhoods classiﬁed above the median, depending on
+the neighborhood deﬁnition. Similarly, roughly 35% of moves originating in the tenth decile are to neighborhoods below the median. These
+numbers suggest that even the extreme ends of the neighborhood distribution can, in principle, be connected through moving chains in just a
+few rounds.
+
+income neighborhoods with the income measure we use, but these zip codes do
+not really house economically deprived individuals.
+6
+The precise income concept is disposable money income, which is deﬁned
+by Statistics Finland and includes wages and salaries, entrepreneurial income,
+property income and current transfers received subtracted by current transfers
+(mostly direct taxes) paid.
+
+7
+We should note, however, that in some rare cases a chain may come back
+to the HMA even when it leaves at some earlier round. We include this type of
+chains in our main analysis.
+
+3
+
+C. Bratu, O. Harjunen and T. Saarimaa
+
+Journal of Urban Economics 133 (2023) 103528
+
+Table 1
+Summary statistics for movers and stayers in free-market buildings.
+
+Age household head
+Median household disposable income
+Master’s degree or higher in household
+Household with children
+Origin single-family home
+Origin owned home
+Number of observations
+
+Stayers
+
+All movers
+
+Movers to new buildings
+
+56.247
+[14.910]
+27,616.865
+[60,730.066]
+0.329
+0.429
+0.352
+0.904
+3,730,715
+
+36.914
+[13.216]
+24,216.484
+[55,910.324]
+0.279
+0.396
+0.170
+0.448
+1,134,761
+
+40.697
+[13.895]
+33,906.445
+[57,765.914]
+0.458
+0.307
+0.116
+0.514
+5400
+
+Notes: Stayers are deﬁned as those that never move over the 2009–2019 time period. All
+movers exclude round 1 movers to new buildings within 3 km of the CBD. Standard deviations
+are reported in square brackets.
+
+Fig. 2. Origin neighborhood characteristics for movers at each round. Notes: The ﬁgure shows the share of movers originating from each neighborhood category at
+each round when the ﬁrst round destination building is market-rate within a 3 km radius of the CBD.
+
+4.2. Who are the ﬁrst round movers and where do they move from?
+
+Figure 2 (a) shows that roughly 50% of new market-rate building
+residents originate from zip codes classiﬁed in the bottom half of the
+neighborhood income distribution. This share gradually rises to around
+60% by round three, when it ﬂattens. We expect it to ﬂatten at roughly
+60% since the overall share of all movers from the ﬁrst ﬁve deciles cumulates to this amount (see Figure A3).
+The share of residents originating from the bottom quintile zip codes
+in the ﬁrst round is 15% and increases only slightly when we move to
+further rounds. However, as previously discussed, zip codes may contain
+diﬀerent types of smaller neighborhoods. That is, the movers from the
+bottom quintile zip codes may be those living in the highest quality parts
+of the zip codes and may have the highest incomes in these zip codes.
+If so, the zip code level analysis would overstate the extent to which
+new buildings loosen low-income housing markets. Figure 2(b), which
+uses our alternative deﬁnition of neighborhoods based on 250 square
+meter grids, indeed suggests the presence of such selection patterns. The
+share of residents originating from the bottom quintile grids is only 10%
+(versus 15%) and the share increases gradually in subsequent rounds,
+reaching 30% by rounds ﬁve and six.8
+
+Next, we provide summary statistics on the people who move into
+new centrally located buildings. We also compare these movers to those
+HMA residents who do not move within the time window of our analysis
+and to those who move to other areas in the HMA.
+According to Table 1, movers to new centrally located buildings have
+on average higher incomes and are more educated than those who do
+not move or movers to other destinations. This is unsurprising given
+the fact that these are central and expensive locations. In Figure A2 in
+the Online Appendix, we show the spatial distribution of ﬁrst round
+movers’ origin neighborhoods at the zip code level. We highlight two
+things. First, people tend to move short distances, and second, consistent
+with them having higher incomes, the ﬁrst round movers come from
+relatively expensive neighborhoods.
+In sum, the movers to new centrally located market-rate buildings
+are a positively selected group relative to both those who do not move
+and movers to other destinations in the HMA. Next, we turn to the question whether this means that these new buildings only beneﬁt these welloﬀ individuals.
+
+8
+We also report results where we rank neighborhoods based on the share of
+highly-educated residents and the picture is similar (see Figure A4 in the Online
+Appendix). We also characterize neighborhoods in terms of house prices. As
+Figure A5 in the Online Appendix shows, while in the ﬁrst round less than 10%
+of movers originate from the least expensive zip codes, this share goes up to
+20% by round 6. Note that our house price data are only at the zip code level
+and include the mean price per square meter of old units sold within the zip
+code. We do not have data on how much people in our register data spend on
+housing, nor do we have good data on neighborhood-level rents.
+
+4.3. Do moving chains reach low-income neighborhoods and people?
+In this section, we present results on the characteristics of origin
+neighborhoods and movers that are part of the moving chains triggered
+by new market-rate buildings. In particular, we are interested in whether
+the moving chains reach middle- and low-income neighborhoods and
+individuals, deﬁned as bottom-half and bottom-quintile of the income
+distribution.
+4
+
+C. Bratu, O. Harjunen and T. Saarimaa
+
+Journal of Urban Economics 133 (2023) 103528
+
+Fig. 3. Individual-level characteristics for movers at each round. Notes: (a) shows the share of movers in diﬀerent quintiles of the national-level income distribution
+at each round. (b) shows the share of movers in households where at least one person has a master’s degree or higher at each round. (c) shows the average age of
+the household head at each round. (d) shows the share of movers whose origin unit was rented at each round. (e) shows the share of movers in diﬀerent quintiles of
+the origin neighborhood income distribution at each round. (f) shows the share of movers in diﬀerent quintiles of the destination neighborhood income distribution
+at each round. The ﬁrst round destination building is market-rate and within a 3 km radius of the CBD.
+
+these results in Fig. 3. Figure 3(a) shows that in the ﬁrst round, only 20%
+(10%) of new market-rate building residents are from the bottom-half
+(bottom-quintile) of the national household income distribution (see
+also Table 1). However, this share reaches roughly 50% (30%) by round
+four. A similar pattern is evident with respect to educational level. According to Fig. 3(b), ﬁrst-round movers are on average more highly ed-
+
+So far, our results suggest that new and expensive market-rate buildings trigger moving chains that reach middle- and low-income housing
+markets even in the short run. But neighborhood characteristics can be
+vastly diﬀerent from individual attributes. To investigate to what extent
+that is the case, we now turn to the individual-level data and characterize the individuals that are involved in the moving chains. We present
+5
+
+C. Bratu, O. Harjunen and T. Saarimaa
+
+Journal of Urban Economics 133 (2023) 103528
+
+Fig. 4. Change in mean neighborhood (zipcode) house prices (€/m2 )
+at each round. Notes: The ﬁgure shows the mean house price diﬀerence
+between destination and origin mean zipcode house prices (€/m2 ) at
+each round when the ﬁrst round destination building is market-rate
+and within a 3 km radius of the CBD.
+
+ucated, but movers in the later rounds actually have lower educational
+attainment than the HMA population as a whole (again see Table 1).
+From Fig. 3(c), (d), we see that movers in later rounds are also younger
+and more likely to be renters than the HMA population.
+We can also analyze whether the movers in the moving chains are
+a selective group when compared to the residents in their origin and
+destination neighborhoods, respectively. We ﬁrst divide each individual
+zip code into income deciles and then for each mover take note of which
+zip code income decile they belong to in their origin and destination
+zipcodes, respectively.9
+Figure 3 (e) shows that in the ﬁrst round the movers are positively
+selected from their origin neighborhoods. Roughly 40% of them were
+in the top ﬁfth (P80) of their origin neighborhoods’ income distribution and only 10% were in the bottom ﬁfth (P20). This is unsurprising
+given the results in Table 1 and in Fig. 2, and the fact that they are
+moving to new units in the most expensive neighborhoods in the HMA.
+However, the selectivity becomes negative in later rounds: residents in
+the lower part of the origin neighborhood income distribution are overrepresented among the movers in the chains.
+The picture is similar when we compare the movers to their destination neighborhoods. According to Fig. 3(f), especially the ﬁrst-round
+movers have on average higher incomes then their new neighbors, but in
+later rounds movers have lower incomes on average compared to their
+new neighbors. These results are most likely explained by the fact that
+renters and younger people are more mobile in general and they tend to
+have lower incomes than people who do not move in a given year (see
+Table 1).
+Finally, we investigate whether movers are moving up the neighborhood quality ladder. We use house prices as a measure of neighborhood
+quality as they reﬂect both neighborhood (dis-)amenities and accessibility. For each mover in each round, we calculate the diﬀerence between
+destination and origin zip code mean house prices (€/m2 ). If this diﬀerence is positive, we can infer that neighborhood quality is increasing.
+We use price information only from 2020 to make sure we are not capturing any general house price appreciation during our analysis period.
+Figure 4 reports the means of these diﬀerences for each round.10
+The price diﬀerence between origin and destination neighborhoods is
+
+positive in each round. This means that on average, movers are climbing
+up the neighborhood quality ladder. This is especially true in the ﬁrst
+two rounds, where the diﬀerence ranges between 1000 and 400 €/m2 .
+To put the magnitudes in perspective, zipcode mean house prices in
+the HMA vary between roughly 2000 and 8700 €/m2 with a standard
+deviation of 1400 €/m2 .
+4.4. Probability of moving chains reaching certain submarkets
+Another way to illustrate how often a moving chain reaches a particular sub-market or includes particular types of individuals is to calculate
+the probability that a chain reaches a particular sub-market or group of
+individuals. When this is done at the neighborhood level, one interpretation for this probability is that it gives the number of new eﬀective
+units in that sub-market created through vacancies. This analysis is similar in spirit to the simulation exercise in Mast 2021, but we can rely on
+a data-driven approach as we can follow the chains at the housing unit
+level.
+We obtain these probabilities through the following exercise. For
+each unique round 1 destination-origin unit pair, we reconstruct the
+chain of origin units from subsequent rounds. We restrict to unique
+round 1 destination-origin unit pairs because multiple individuals may
+move to the same destination from the same origin (e.g. members of
+the same household changing homes). We also drop chains that end
+immediately due to the origin unit of round 1 movers being outside
+the HMA. This gives us 3896 observations corresponding to 2661 new
+market-rate destination units. Note that we may have multiple observations per destination unit. This happens when, at some point in the
+chain, there are moves from diﬀerent origin units, due most likely to
+household formation. For each of the 3896 observations, we construct a
+dummy that takes the value 1 if at least one origin unit or household in
+the chain (out of the possible six) is ranked in the bottom half or bottom
+quintile of the median disposable income distribution.11 We take the
+average of this dummy variable across all observations within the same
+new destination building. As long as it is above zero, we conclude that
+the chain triggered by that new destination building includes a lowerincome neighborhood or household. Finally, we take an average of the
+collapsed dummy variable.
+In sum, the probability that a chain reaches zip codes in the bottom
+quintile (bottom half) of the income distribution is about 31% (66%).
+
+9
+Dividing the 250m grids into deciles does not work because there are too
+few residents in the grids.
+10
+Note that moving within a zipcode may also change neighborhood quality,
+but we are unable to detect these changes because our price data is at the zipcode
+level.
+
+11
+Note that if an origin unit is outside the HMA, it does not enter our computations.
+
+6
+
+C. Bratu, O. Harjunen and T. Saarimaa
+
+Journal of Urban Economics 133 (2023) 103528
+
+That is, for each 100 new, centrally located market-rate units, 31 units
+get created through vacancy in bottom-quintile income zip codes and
+66 units in bottom-half income zip codes. When we instead deﬁne submarkets at the grid-level, these numbers are 28 and 68, respectively (see
+Table A1).
+A key aspect of these probabilities is how often chains break. There
+are three reasons why the chains may break before they reach lowincome or middle-income neighborhoods: (i) moves from outside the
+HMA that do not come back to the HMA, (ii) household formation so
+that at least one person continues to occupy the origin unit, and (iii)
+the origin unit is left vacant so that we do not observe anyone living
+in the unit at period 𝑡. In Figure A7a, we report, for each round, the
+share of origin units that are located outside the HMA, the share that
+remain occupied, and the share that remain vacant. According to Figure A7a, roughly 10% of chain breakage is due to household formation
+at each round, while some 10–15% of origin units remain vacant for at
+least a year at each round. When it comes to moves from outside the
+HMA, there is an increasing trend as we move to later rounds. In round
+one, roughly 10% of movers are from outside the HMA, but this share
+gradually increases to 50% by round six, regardless of the type of new
+building we look at. The gradual increase is natural in the sense that
+the population of the HMA region increases due to new supply and by
+deﬁnition the new residents move from outside. This also shows that
+newcomers to the HMA rarely move to the most expensive parts of the
+region.
+In Figure A7b, we further dissect what type of household formation
+happens at each round using four categories: (i) an adult child moves
+away from his/her parents’ home, (ii) there is a break-up of a couple or a
+family so that at least someone moves out and some members remain in
+the origin unit, (iii) roommates split, and (iv) other types of household
+break-ups that we are unable to easily classify in clear groups. These
+shares some up to one. The most common situation is the one where
+a child leaves home,accounting for roughly half of the cases in later
+rounds. In the ﬁrst round, this is less common probably because the new
+units are so expensive. Divorce accounts for roughly a third of the cases,
+whereas roommates splitting and other reasons both make up roughly
+10% of cases.
+
+not overly restrictive with respect to tenants’ incomes (see Eerola and
+Saarimaa, 2018). The rents in social housing buildings are regulated and
+typically much lower than market rents, especially near the Helsinki city
+center. We can therefore compare how the moving chains triggered by
+new market-rate construction diﬀer from those triggered by new social
+housing construction.
+In Figures A6a, A6b and A6c we show the results for moving chains
+triggered by new social housing buildings within the same 3 km radius
+of the CBD. The main diﬀerence between market-rate and social housing emerges in the ﬁrst few rounds where the shares of moves coming
+from the bottom-half and bottom-quintile neighborhoods are higher. In
+later rounds, the movers in both chains are quite similar with respect
+to their origin neighborhoods and socio-economic makeup. Thus, social
+housing buildings loosen the middle- and low-income housing markets
+more directly, but this comes with considerable costs to taxpayers due to
+forgone rental income (see Eerola and Saarimaa, 2018).13 This is consistent with the interpretation made above that moving chains reach
+middle- and low-income neighborhoods faster when the price diﬀerence
+between the city’s core and other neighborhoods is smaller.
+Taken as a whole, our results show that young and low-income individuals also beneﬁt from new expensive housing through a moving chain
+process, even when the new units are allocated to individuals higher up
+in the income distribution. This is an important insight considering that
+high housing costs are often seen as a major problem precisely for young
+renters trying to enter into homeownership. This is highlighted, for example, by Glaeser and Gyourko (2018) in the US context. They argue
+that housing supply restrictions have created an intergenerational transfer to currently older people who happened to have owned in places that
+have seen house values increase substantially. Our results suggest that
+adding to a city’s housing supply helps to reverse this process at least to
+some extent.
+5. Conclusions
+We have analyzed the city-wide eﬀects of new market-rate construction using geo-coded register data from the Helsinki Metropolitan Area.
+Our main ﬁnding is that even when new market-rate units get occupied
+by high-income households, they also beneﬁt middle- and low-income
+households through a moving chain mechanism.
+These results are important for the policy debate in many cities about
+the merits of increasing the supply of market-rate housing. As, for example, Been et al. (2019) argue, skepticism surrounding the connection
+between housing supply and aﬀordability has been growing and one of
+the main concerns is that market-rate supply beneﬁts only the betteroﬀ. Our results, together with the results by Mast (2021) for US cities,
+should alleviate the concerns of these skeptics. As geo-coded register
+data become available in other countries, replication of our study and
+comparing the results to ours and to those by Mast (2021) will help to
+further shed light on the type of contexts where new market-rate supply
+is most likely to beneﬁt lower-income households.
+Finally, we stress that while market-rate housing supply seems to
+have wide-ranging beneﬁcial eﬀects, it is not a panacea for all housing market problems. Some people may get discriminated out from the
+housing market and for some others even the cheapest housing in the
+city may not be aﬀordable. Housing allowance or voucher programs, as
+well as social housing are important complements to market-rate supply. These programs, if well-designed, may also be helpful in preventing
+residential segregation (e.g., Collinson and Ganong, 2018; Davis et al.,
+2021).
+
+4.5. Discussion
+The neighborhood level patterns presented in Fig. 2 echo those reported by Mast (2021) in US CBSAs, but some interesting diﬀerences
+emerge. The most striking diﬀerence is that in our case the shares of
+moves from the bottom-half and bottom-quintile in each round are
+higher compared to the US case. That is, the moving chains are more
+likely to reach middle- and low-income neighborhoods and reach them
+faster in our case. The diﬀerence may be partly driven by diﬀerences
+in the data and methodology used to construct moving chains, but they
+probably also reﬂect diﬀerences in income inequality and residential
+segregation between US cities and the HMA. This would mean that the
+socio-economic distance between expensive and low-income neighborhoods is smaller in the HMA compared to US cities. The price diﬀerences
+between neighborhoods are also likely to be smaller.
+Another interesting point of comparison for market-rate buildings is
+rent-controlled social housing. In the time window we study, as part of
+a social mixing policy, a number of new rent-controlled social housing
+units were also built close to the city center. Social housing refers to
+rental housing provided either by non-proﬁt entities or by the municipalities. The main goal of the social housing program is to provide affordable housing for low-income households, but the program also aims
+at socially mixed neighborhoods and buildings.12 This is why these units
+are located also in expensive areas and why the tenant selection rules are
+
+13
+In brief, the costs arise as most of the social housing buildings are situated
+on lots owned by the city of Helsinki and lot rents collected by the city are well
+under market rents.
+
+12
+
+Out of roughly 600,000 housing units in the HMA, 17% are rent-controlled
+social housing.
+7
+
+C. Bratu, O. Harjunen and T. Saarimaa
+
+Journal of Urban Economics 133 (2023) 103528
+
+CRediT authorship contribution statement
+
+Favilukis, J., Mabille, P., Van Nieuwerburgh, S., 2022. Aﬀordable housing and city welfare. Rev. Econ. Stud. rdac024 doi:10.1093/restud/rdac024.
+Glaeser, E., Gyourko, J., 2018. The economic implications of housing supply. J. Econ.
+Perspect. 32 (1), 3–30.
+Glaeser, E.L., Ward, B.A., 2009. The causes and consequences of land use regulation: evidence from Greater Boston. J. Urban Econ. 65 (3), 265–278.
+Hilber, C.A.L., Robert-Nicoud, F., 2013. On the origins of land use regulations: theory and
+evidence from US metro areas. J. Urban Econ. 75, 29–43.
+Li, X., 2022. Do new housing units in your backyard raise your rents? J. Econ. Geogr. 22
+(6), 1309–1352. forthcoming
+Liu, L., McManus, D., Yannopoulos, E., 2021. Geographic and temporal variation in housing ﬁltering rates. Reg. Sci. Urban Econ. 103758.
+doi:10.1016/j.regsciurbeco.2021.103758. https://www.sciencedirect.com/science/
+article/pii/S0166046221001186
+Mast, E., 2021. JUE insight: the eﬀect of new market-rate housing construction on the lowincome housing market. J. Urban Econ., 103383 doi:10.1016/j.jue.2021.103383.
+Mense, A., 2020. The impact of new housing supply on the distribution of rents. Mimeo.
+Nathanson, C., 2020. Trickle-down housing economics. Mimeo.
+Ortalo-Magné, F., Prat, A., 2014. On the political economy of urban growth: homeownership versus aﬀordability. Am. Econ. J. 6 (1), 154–181.
+Pennington, K., 2020. Does building new housing cause displacement?: the supply and
+demand eﬀects of construction in San Francisco. Mimeo.
+Piazzesi, M., Schneider, M., Stroebel, J., 2020. Segmented housing search. Am. Econ. Rev.
+110 (3), 720–759.
+Rosenthal, S.S., 2014. Are private markets and ﬁltering a viable source of low-income
+housing? Estimates from a “repeat income” model. Am. Econ. Rev. 104 (2), 687–706.
+Rosenthal, S.S., 2020. Owned Now Rented Later? The Eﬀect of Housing Stock Transitions
+on Aﬀordable Housing and Market Dynamics. Working paper. Syracuse University.
+Singh, D., 2019. Do property tax incentives for new construction spur gentriﬁcation? Evidence from New York city. In: 112th Annual Conference on Taxation. NTA.
+Turner, L.M., 2008. Who gets what and why? Vacancy chains in Stockholm’s housing
+market. Eur. J. Hous. Policy 8 (1), 1–19.
+Turner, L.M., Wessel, T., 2019. Housing market ﬁltering in the Oslo region: pro-market
+housing policies in a nordic welfare-state context. Int. J. Hous. Policy 19 (4), 483–508.
+Weicher, J.C., Thibodeau, T.G., 1988. Filtering and housing markets: an empirical analysis. J. Urban Econ. 23 (1), 21–40.
+
+Cristina Bratu: Conceptualization, Data curation, Investigation,
+Methodology, Visualization, Writing – original draft, Writing – review
+& editing. Oskari Harjunen: Conceptualization, Data curation, Investigation, Methodology, Visualization, Writing – original draft, Writing
+– review & editing. Tuukka Saarimaa: Conceptualization, Data curation, Investigation, Methodology, Visualization, Writing – original draft,
+Writing – review & editing.
+Supplementary material
+Supplementary material associated with this article can be found, in
+the online version, at doi:10.1016/j.jue.2022.103528.
+References
+Asquith, B.J., Mast, E., Reed, D., 2021. Local eﬀects of large new apartment buildings in
+low-income areas. Rev. Econ. Stat. 1–46.
+Been, V., Ellen, I.G., O’Regan, K., 2019. Supply skepticism: housing supply and aﬀordability. Hous. Policy Debate 29 (1), 25–40.
+Carstensen, C. L., Hansen, M. J., Iskhakov, F., Rust, J., Schjerning, B., 2022. A dynamic
+equilibrium model of commuting, residential and work location choices. Mimeo, 35.
+Collinson, R., Ganong, P., 2018. How do changes in housing voucher design aﬀect rent
+and neighborhood quality? Am. Econ. J. 10 (2), 62–89.
+Davis, M.A., Gregory, J., Hartley, D.A., Tan, K.T.K., 2021. Neighborhood eﬀects and housing vouchers. Quant. Econ. 12 (4), 1307–1346.
+Diamond, R., McQuade, T., 2019. Who wants aﬀordable housing in their backyard? An
+equilibrium analysis of low-income property development. J. Polit. Econ. 127 (3),
+1063–1117.
+Eerola, E., Saarimaa, T., 2018. Delivering aﬀordable housing and neighborhood quality:
+a comparison of place-and tenant-based programs. J. Hous. Econ. 42, 44–54.
+Einstein, K.L., Glick, D.M., Palmer, M., 2019. Neighborhood Defenders: Participatory Politics and America’s Housing Crisis. Cambridge University Press.
+
+8
+
+

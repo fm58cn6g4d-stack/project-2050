@@ -1,0 +1,1232 @@
+Source: https://www.congress.gov/crs_external_products/R/PDF/R48892/R48892.2.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-10-28
+Original SHA-256: a1b43dd5b873dc9fb19654a8a9c0181bb86b03930d03e9c1f55952100fbf14e5
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Housing Supply: Current Trends and Policy
+Considerations
+April 2, 2026
+
+Congressional Research Service
+https://crsreports.congress.gov
+R48892
+
+SUMMARY
+
+Housing Supply: Current Trends and Policy
+Considerations
+Housing affordability concerns have led to a focus on insufficient housing supply as a possible
+cause. There are many metrics by which economists analyze housing supply. Currently, nationallevel statistics paint a mixed picture of housing supply conditions. For example
+
+R48892
+April 2, 2026
+Lida R. Weinstock
+Analyst in Macroeconomic
+Policy
+
+•
+
+The total number of homes per person and the total number of homes per household
+have been fairly steady since 1980, indicating similar supply conditions over this period.
+
+•
+
+Vacancy rates are currently lower than the 1980-2024 average, indicating that supply is currently more
+constrained than previously.
+
+•
+
+The housing stock is getting relatively older, as evidenced by lowered population-adjusted construction
+rates over the 1980-2024 period, suggesting a slowdown in building that could be contributing to relatively
+tighter supply.
+
+•
+
+The current months’ supply of homes for sale suggests differing supply conditions for new and existing
+single-family homes, although the net effect (given existing homes far outnumber new homes) may
+nonetheless suggest an undersupply of homes for sale.
+
+•
+
+Prices and rents outpaced incomes and inflation between 1988 and 2024, potentially suggesting constrained
+supply relative to demand, but those increases slowed or reversed in 2025, which could suggest easing
+supply (or lowered demand), although it is too soon to tell if these trends will be sustained.
+Supply conditions also vary significantly from location to location, across types and sizes of homes, and for households of
+differing income levels. Many estimates suggest some level of “housing shortage” at the national level, but these shortages
+may be more (or less) acute for some areas. In particular, by most measures, low-income renters face worse supply conditions
+than national data would suggest for other income levels.
+There are many potential explanations for variations in housing supply conditions. Identifying the main causes of lagging
+housing supply can be important not only in understanding the issue but also in considering potential policy options to
+increase supply without increasing price. In recent decades, increasing regulatory costs, restrictive zoning and land use, and
+changing demographics have contributed to supply issues. More recent changes to tariffs and immigration may also be
+contributing to higher labor and material costs and shortages of these inputs. On a longer-term horizon, climate change may
+be a risk to local housing supply (but potentially national housing supply as well, depending on the level of distortion
+introduced to the market) should natural disasters increase in frequency or intensity.
+Given the specific challenges facing housing supply, policy considerations may differ notably at the local level and national
+level. Policymakers may be equally interested in local and national supply issues and policies. Further, many of the supply
+constraints discussed in this report are affected by regulations at the local level. Although the federal government has limited
+authority or policy tools to directly affect supply in local housing markets, Congress can attempt to increase housing supply
+by implementing policies that may help lower new and refurbished building input costs or by providing incentives to local
+jurisdictions to pursue pro-supply policies.
+
+Congressional Research Service
+
+Housing Supply: Current Trends and Policy Considerations
+
+Contents
+Introduction and Economic Context ................................................................................................ 1
+Aggregate Trends in Housing Supply (and Demand) ...................................................................... 2
+Housing Stock ........................................................................................................................... 2
+Vacancy Rates ........................................................................................................................... 3
+Housing Construction................................................................................................................ 5
+Demand Context........................................................................................................................ 6
+Interaction of Supply and Demand: Housing Costs .................................................................. 8
+Is There a Housing Shortage? .......................................................................................................... 9
+Local Supply Conditions ......................................................................................................... 10
+Supply Conditions Across the Income Spectrum and for Different Housing
+Characteristics ...................................................................................................................... 12
+Barriers to Increasing Supply ........................................................................................................ 14
+Regulatory Costs ..................................................................................................................... 14
+The Cost of Financing ............................................................................................................. 15
+Construction Input Costs ......................................................................................................... 16
+Labor ................................................................................................................................. 16
+Materials ........................................................................................................................... 18
+Supply Shocks ......................................................................................................................... 18
+Other Potential Factors ............................................................................................................ 19
+Policy Considerations .................................................................................................................... 20
+Federal Policies and Grants ..................................................................................................... 20
+Incentives for the Construction Industry ................................................................................. 22
+Immigration Policy.................................................................................................................. 22
+Trade Policy ............................................................................................................................ 23
+Selected Policy Proposals in the 119th Congress ..................................................................... 23
+
+Figures
+Figure 1. Total Housing Units ......................................................................................................... 3
+Figure 2. Rental Vacancy Rates ....................................................................................................... 5
+Figure 3. Homeowner Vacancy Rates.............................................................................................. 5
+Figure 4. New Privately Owned Housing Unit Starts ..................................................................... 6
+Figure 5. Household Formation ....................................................................................................... 7
+Figure 6. Months’ Supply of Single-Family Homes ........................................................................ 8
+Figure 7. Rental Vacancy Rates for the 75 Largest MSAs .............................................................11
+Figure 8. Homeowner Vacancy Rates for the 75 Largest MSAs ................................................... 12
+
+Contacts
+Author Information........................................................................................................................ 24
+
+Congressional Research Service
+
+Housing Supply: Current Trends and Policy Considerations
+
+Introduction and Economic Context
+Although housing trends are often presented as if a single national housing market exists, the
+national housing market is made up of multiple local housing markets that are each influenced by
+local supply and demand factors. Supply conditions can vary greatly from place to place
+depending on local policy, historical factors, construction trends, and preexisting stock. Job
+markets, infrastructure, public transportation, and density all differ among locations and can
+contribute to changing demographics and household characteristics. These local differences can
+influence the demand to own or rent and whether to do so in a detached dwelling or multifamily
+structure. The result can be large variations in price and availability across localities.
+Supply of housing is fairly fixed in the short term. New homes cannot be built—nor can existing
+homes be refurbished—overnight. Constructing or renovating housing is a lengthy process, and
+delays and disruptions may occur at any step. First, land must be available. The available land
+must be properly zoned for the type of housing being built. Owners/builders must secure
+financing, obtain necessary permits, and potentially wait for environmental studies to be
+conducted. Plans must be submitted to local governments to ensure compliance with all building
+codes and local ordinances. (In certain scenarios, homeowners’ associations or other
+organizations must be consulted and give approval.) Once the construction process begins, the
+necessary raw materials, machinery, and labor could prove scarce. Even with adequate inputs, the
+construction process, depending on the type of housing being built, can take months to years.
+Once housing is built, final inspections are generally required before occupancy. All in all,
+depending on the type and location of housing, this process can take up to several years and could
+include unforeseen delays and disruptions. Many projects never come to fruition. All of this is to
+say that meaningfully changing the amount of housing available across price points takes time.1
+Likewise, aggregate demand for housing may also be fixed in the short term (although not
+necessarily at the local level given that people can move between locations). At the national level,
+the population ultimately determines the demand for housing. At any given time and location,
+there is generally a fixed number of people, and all those people presumably need shelter. Trends
+over time in demographics and household formation can change the level of demand, but in the
+short term and absent a shock to the housing market (such as during the COVID-19 pandemic),
+aggregate demand is fairly static.2
+As referenced above, preferences can also play into demand and result in very different demand
+structures in different locations. When people are deciding where to live and what type of housing
+to live in, and assuming they have sufficient income to act on additional preferences, their
+housing choices will likely include more than price and availability. Considerations may include
+the quality of local schools, the size and dynamism of the local job market, existing or planned
+transportation infrastructure, commute time, household size, and many others. These factors
+increase the challenge of supplying the “ideal” quantity of housing. Achieving an ideal
+equilibrium is not just about building enough homes for the population; it is also about where
+those homes are and what type of housing they are. And estimating this demand correctly can be
+challenging given that local demand can change more quickly than supply.
+
+1 See CRS In Focus IF12048, High Home Prices: Contributing Factors and Policy Considerations, by Mark P.
+
+Keightley and Lida R. Weinstock.
+2 For example, see David Albouy et al., Housing Demand, Cost-of-Living Inequality, and the Affordability Crisis,
+National Bureau of Economic Research, November 2016, p. 2, https://www.nber.org/system/files/working_papers/
+w22816/w22816.pdf.
+
+Congressional Research Service
+
+1
+
+Housing Supply: Current Trends and Policy Considerations
+
+This report focuses on the important policy question of what constitutes the right amount of
+housing supply given a set of demand conditions. Related to this is another policy question: What
+can policymakers do to affect the supply of housing? Lastly, there is the question of whether there
+is adequate housing locally that meets individual preferences. While this report focuses mainly on
+national-level trends and policy considerations, it also discusses some of the differences in locallevel housing conditions and needs, which can provide important context when looking at
+aggregate trends. In considering these questions, this report first discusses various metrics and
+customary interpretations of housing supply (in relation to housing demand) and how those trends
+affect other aspects of the housing market. The report then discusses ways policymakers could
+think about current supply conditions and what optimal supply conditions might be and finally
+considers potential policy options available to Congress.
+For more information on housing supply and overall housing conditions, see CRS In Focus
+IF12988, Housing Supply, by Katie Jones and Lida R. Weinstock and CRS Report R48743,
+Housing Issues in the 119th Congress, coordinated by Katie Jones.
+
+Aggregate Trends in Housing Supply (and Demand)
+No single metric paints a complete picture of the housing supply in the United States. Instead,
+economists rely on several measures to summarize the housing supply. These measures are not
+always comparable, and they do not always segment clearly. This section discusses a few such
+measures, including stock and vacancy rates (other metrics are discussed later in the report), and
+puts them in the context of demand-related factors, specifically household formation and size
+trends. Where possible, owner-occupied versus rental market data are parsed, although this is not
+entirely possible with all of the data.3 Additionally, owner-occupied and rental housing markets
+interact with one another. Homes can transition between being owner-occupied and rented, and
+people can shift between rental and owner markets, which directly affects how much of each type
+of housing exists and what demand is for each type. For the purposes of this section, the focus is
+on overall supply (inclusive of all housing types).
+
+Housing Stock
+Determining the sufficiency of housing supply often begins with a look at how many housing
+units exist in the country.4 As shown in Figure 1, the number of housing units in the United States
+increased at a fairly steady rate between 1980 and 2024. The population of the United States also
+grew over this time. When accounting for population ages 16 and over, the number of housing
+units per person was essentially stagnant over this period, with the number of housing units
+fluctuating between 0.5 and 0.6 per person.5 In 2024, the population-adjusted stock was roughly
+4.5% higher than in 1980 but roughly 4.6% lower than the peak during this period in 1999.
+Depending on the comparison point used, therefore, housing stock data may or may not point to a
+housing supply issue. Housing stock numbers may also be unable to provide a full picture of
+supply conditions given that they do not provide information about changes in the type, size,
+3 For example, single-unit, detached homes are sometimes used as a proxy for owner-occupied homes, but, in actuality,
+
+that market additionally consists of rentals.
+4 The Census Bureau defines housing unit as “a house, an apartment, a group of rooms, or a single room occupied or
+intended for occupancy as separate living quarters.” See Census Bureau, “Definitions and Explanations,”
+https://www.census.gov/housing/hvs/definitions.pdf.
+5 This type of statistic could be calculated in various ways and using various types of population data. This is only one
+methodology and may not be illustrative of all other methodologies. Data used here do not account for the rate at which
+a single household may own or rent multiple housing units or the rate of household formation.
+
+Congressional Research Service
+
+2
+
+Housing Supply: Current Trends and Policy Considerations
+
+quality, or location of housing.6 Housing stock, even when population-adjusted, also does not
+account for changes in household size or household formation rates (discussed in a subsequent
+section).
+Figure 1. Total Housing Units
+1980-2024
+
+Source: CRS calculations based on Census Bureau, “Housing Vacancies and Homeownership (CPS/HVS):
+Historical Tables,” Table 7, https://www.census.gov/housing/hvs/data/histtabs.html; and Bureau of Labor Statistics
+(BLS), “Current Population Survey,” https://www.bls.gov/cps/data.htm.
+Notes: Figure uses population based on the BLS definition of civilian noninstitutional population for those ages 16
+and older. This includes all adult people residing in the United States who are not on active duty in the military
+or in institutions, such as prison. Foreigners residing in the United States are included in this number. BLS does
+not provide the civilian noninstitutional population for all other age groups back to 1980. For more information,
+see BLS, “Current Population Survey: Concepts,” https://www.bls.gov/opub/hom/cps/concepts.htm. Housing data
+are affected by revisions in 1981, 1989, 1993, and 2002.
+
+Vacancy Rates
+Vacancy rates measure how much housing inventory is vacant and available to be purchased or
+rented at a given time. Housing units could be vacant for a variety of reasons, such as being on
+the market for sale or rent or in the middle of renovations. While economists offer varying
+estimates of an ideal vacancy rate, some positive number of vacancies is necessary to the
+functioning of a healthy housing market, as vacancies allow for turnover. From 1980 to 2007, the
+amount of vacant owner-occupied and rental housing units as a percentage of all units was
+
+6 As an example, the housing stock has gotten relatively older in recent years, which could have implications for the
+
+size and quality of housing. According to data from the American Community Survey, which goes back to 2010, the
+median year that a housing structure was built increased from 1975 to 1981 (a six-year change) over the period from
+2010 to 2024 (a 14-year period). This relative (but not absolute) aging of the housing stock is indicative of lowered
+construction over this period (discussed later in this section), which, all else equal, would result in relatively lower
+supply as compared to previous periods. For further discussion, see, for example, Mark Worley and Sheharyar Bokhari,
+“The Homes Americans Are Buying Are Older Than Ever,” Redfin, May 12, 2025, https://www.redfin.com/news/
+aging-housing-inventory/; and Na Zhao, “Almost Half of the Owner-Occupied Homes Built Before 1980,” National
+Association of Home Builders (NAHB), April 28, 2025, https://eyeonhousing.org/2025/04/almost-half-of-the-owneroccupied-homes-built-before-1980/.
+
+Congressional Research Service
+
+3
+
+Housing Supply: Current Trends and Policy Considerations
+
+somewhat volatile but did not have a discernible trend.7 Figure 2 shows the vacancy rate since
+1980 for rental homes, while Figure 3 shows the vacancy rate for owned homes over the same
+period.8 In general, for the structures with comparable units, the vacancy rate for rental units has
+been higher than that for owned units. However, across types of properties and markets, vacancy
+rates have decreased since the housing market crash and financial crisis of 2007-2009. Vacancy
+rates dipped further during the COVID-19 pandemic and hit several-decade lows in 2022.
+However, rental vacancy rates have been rising since that point, indicating some easing of supply
+conditions in 2023 and 2024, and homeowner vacancy rates rose in 2024. Altogether, the current
+vacancy rates—despite having shown some increases recently (likely as a result of increased
+construction in recent years)—still indicate relatively low housing availability compared to
+historical averages over the 1980-2024 period.9 Relatively low vacancy rates in the national
+housing market would generally signal to homebuilders that with demand for more units, they
+may be able to receive higher prices in the future, prompting them to increase construction.
+
+7 From the first quarter of 1980 to the first quarter of 2023 the owner vacancy rate fell from 1.3% to 0.8%, and the
+
+rental vacancy rate rose from 5.2% to 6.4%. See Census Bureau, “Housing Vacancies and Homeownership
+(CPS/HVS): Historical Tables,” Tables 1 and 2, https://www.census.gov/housing/hvs/data/histtabs.html.
+8 Census calculates the rental vacancy rate, expressed as a percentage, by dividing the number of vacant year-round
+units for rent by the sum of renter-occupied units, vacant year-round units rented but awaiting occupancy, and vacant
+year-round units for rent. Census calculates the homeowner vacancy rate, expressed as a percentage, by dividing the
+number of vacant year-round units for sale by the sum of owner-occupied units, vacant year-round units sold but
+awaiting occupancy, and vacant year-round units for sale. Year-round units is defined as those intended for occupancy
+at any time, even if they are not always in use. See Census Bureau, Current Population Survey Design and
+Methodology, October 2006, pp. 11-2, 11-4, https://www.census.gov/housing/hvs/files/tp-66.pdf.
+9 For other analysis of vacancy rates, see Natalia Siniavskaia, “The Size of the Housing Shortage: 2024 Data,” NAHB,
+February 6, 2026, https://eyeonhousing.org/2026/02/the-size-of-the-housing-shortage-2024-data/.
+
+Congressional Research Service
+
+4
+
+Housing Supply: Current Trends and Policy Considerations
+
+Figure 2. Rental Vacancy Rates
+
+Figure 3. Homeowner Vacancy Rates
+
+1980-2024
+
+1980-2024
+
+Source: Census Bureau, “Housing Vacancies and
+Homeownership (CPS/HVS): Historical Tables,”
+Tables 1 and 5, https://www.census.gov/housing/
+hvs/data/histtabs.html.
+Notes: Figure uses data that incorporate most
+recent American Housing Survey data for number
+of units in a structure. Data are affected by
+revisions in 1993 and 2002. Vacancy rates for all
+units are annual averages.
+
+Source: Census Bureau, “Housing Vacancies and
+Homeownership (CPS/HVS): Historical Tables,”
+Tables 2 and 6, https://www.census.gov/housing/
+hvs/data/histtabs.html.
+Notes: Figure uses data that incorporate most
+recent American Housing Survey data for number
+of units in a structure. Data are affected by
+revisions in 1993 and 2002. Vacancy rates for all
+units are annual averages.
+
+Housing Construction
+There are several metrics to measure construction in the United States, including new permits,
+starts, completions, units currently under construction, and private spending on construction. This
+section focuses on starts to measure residential construction activity, as starts may be more
+indicative of real-time demand conditions than other measures are.10
+Figure 4 below shows both total housing starts and population-adjusted housing starts (starts
+divided by total adult population) since 1980. Starts peaked prior to the housing crisis and fell
+rapidly in its aftermath, trended upward until 2021, and have fallen since (although this trend
+moderated somewhat in 2024 and 2025). By 2025, starts were down from relative peaks over this
+period—down 25% from 1986 and 34% from 2005—but in line with average starts for the period
+from 1980 to 2025. However, when accounting for population changes over this period, the
+pattern of construction is changed. Peaks in construction were seen in the 1980s and generally
+(when smoothing for cyclicality) trended downward during the period. When adjusting for
+population growth, starts in 2025 were down by roughly 27% for single-family units, 76% for
+multifamily for sale units (i.e., condominiums), and 7% for multifamily for rent units when
+compared to averages for each category from 1980 to 2025. While total population-adjusted units
+started fell in 2024 and 2025, single-family and multifamily for sale units started rose in 2024 and
+multifamily units for sale and rent started rose in 2025.
+
+10 Census defines the start of construction as occurring “when excavation begins for the footings or foundation of a
+
+building” and considers all units in a multifamily building “as being started when this excavation begins.” See Census
+Bureau, “Survey of Construction Definitions,” https://www.census.gov/construction/soc/definitions.html.
+
+Congressional Research Service
+
+5
+
+Housing Supply: Current Trends and Policy Considerations
+
+Figure 4. New Privately Owned Housing Unit Starts
+1980-2025
+
+Sources: Census Bureau, “New Residential Construction Historical Data, Housing Units Started by Purpose and
+Design,” https://www.census.gov/construction/nrc/data/series.html; and Bureau of Labor Statistics (BLS),
+“Current Population Survey,” https://www.bls.gov/cps/data.htm.
+Notes: Single-family data are not disaggregated by for sale versus rent. Figure uses population based on BLS
+definition of civilian noninstitutional population for those ages 16 and older.
+
+Demand Context
+It is challenging to say whether housing supply is adequate without knowing what demand
+conditions are. One straightforward way to gauge demand is to look at population adjustments (as
+has been done in prior sections) or related measures, such as household formation (see Figure 5).
+Comparing these two measures shows that over the period from 1980 to 2024, the number of
+households increased by roughly 64% as compared to a roughly 60% increase in the population.
+Using households to adjust the housing stock instead of population would result in an increase in
+stock over this time period of about 2.2% (compared to 4.5%). While this suggests a lower
+increase in housing stock, it is still indicative of steady stock over this period.
+
+Congressional Research Service
+
+6
+
+Housing Supply: Current Trends and Policy Considerations
+
+Figure 5. Household Formation
+1980-2024
+
+Source: Census Bureau, “Historical Household Tables, Average Population Per Household and Family: 1940 to
+Present,” https://www.census.gov/data/tables/time-series/demo/families/households.html.
+Notes: Underlying data come from the Current Population Survey (March) and Annual Social and Economic
+Supplements. Owing to methodological differences, estimates of the number of households do not match
+estimates from the Housing Vacancy Survey. Data are affected by revisions and methodological updates in 1993,
+2011, 2014, and 2021.
+
+As with total population, aggregate household formation data does not necessarily provide a full
+picture of demand conditions. Many housing economists have put forward estimates of “pent-up”
+demand, which captures the idea of how many households would have formed under different
+housing market conditions. For example, the number of people living with roommates or relatives
+who would prefer to have their own households may be higher currently than if house prices,
+rents, or mortgage rates were lower. Estimates vary but generally suggest that supply conditions
+are more constrained than would be suggested by using household formation data alone.11
+Another measure that arguably provides insight about market demand is months’ supply of
+housing, which measures the balance of supply and demand in the for-sale housing market and
+can be used as a signal by builders of when to add supply. This metric is calculated as the ratio of
+active listings at the end of a month to the number of sales during that month, and it indicates how
+long current for-sale inventory would last if no new homes went on the market.12 While there is
+some disagreement about the exact amount of supply that would constitute a balanced housing
+market—defined as the number of months in which price appreciation is relatively stable—many
+housing economists typically put that number somewhere between four and six months.13 What
+constitutes a balanced housing market may additionally differ from place to place. A lower
+number generally indicates that there are relatively few sellers compared to buyers. Assuming
+four to six months’ supply indicates a housing market in equilibrium, anything above six months
+indicates a surplus of housing, and anything below four months indicates a shortage. As shown in
+11 Elena Patel et al., “Make It Count: Measuring Our Housing Supply Shortage,” Brookings Institution, November 26,
+
+2024, https://www.brookings.edu/articles/make-it-count-measuring-our-housing-supply-shortage/.
+12 ShowingTime by Zillow, “Everything You Need to Know About Months Supply of Inventory,”
+https://showingtime.com/resources/blog/everything-you-need-know-about-months-supply-inventory.
+13 For example, see National Association of Realtors, “Inventory and Months’ Supply,” January 22, 2021,
+https://www.nar.realtor/blogs/economists-outlook/inventory-and-months-supply; and Redfin, “Real Estate Glossary:
+Definition of Months of Supply,” https://www.redfin.com/definition/monthsof-supply.
+
+Congressional Research Service
+
+7
+
+Housing Supply: Current Trends and Policy Considerations
+
+Figure 6, the national months’ supply of homes trended downward following the housing crisis
+for existing homes but has rebounded somewhat for new homes (which tracks with the recent
+increases in construction for single-family units). Even though new homes showed potential
+surplus conditions in 2022 and 2023, existing homes continued to exhibit potential shortage
+conditions. Given that existing homes represent most homes for sale, altogether this may still
+indicate a largely tight home supply overall. Nonetheless, the increase in construction and surplus
+of new homes could help ease supply conditions and may even indicate that construction levels
+are outpacing demand for new homes.
+Figure 6. Months’ Supply of Single-Family Homes
+2000-2023
+
+Source: Department of Housing and Urban Development, “Supply Data—New Single-Family Homes for Sale,”
+https://www.huduser.gov/portal/ushmc/hs_newsf.html.
+Notes: Existing homes data are not available prior to 1999. Dashed tan lines represent the range of balanced
+months’ supply. Values above this range represent a surplus of homes, and values below this range represent a
+shortage of homes.
+
+Interaction of Supply and Demand: Housing Costs
+Prices are ultimately determined by the interaction of supply and demand in a particular market,
+with levels and growth in rents and purchase prices varying significantly across local markets.
+One of the main reasons there is general concern about housing supply is increased housing
+purchase prices and rents, which could indicate constrained supply in the sense that more supply
+would be expected to lower prices and rents. Indeed, over the period from 1988 (earliest available
+year for rental data) to 2024, median new home prices increased by roughly 273%, median
+existing home prices increased by roughly 356%, and median asking rents increased by roughly
+333%. Meanwhile, median household income rose by roughly 207%, and inflation (as measured
+by the consumer price index) increased roughly 181%.14 In short, in the past 40 or so years, house
+prices and rents have increased more than incomes or the average price level have.15
+
+14 CRS calculations based on HUD U.S. Housing Market Conditions reports, Census Income and Poverty and Housing
+
+Vacancy surveys, and BLS consumer price index.
+15 Changes in norms and preferences over time can also impact prices. For example, changes to preference in household
+size, square footage, or home features can result in higher-priced homes. Nonetheless, measures of housing prices that
+(continued...)
+
+Congressional Research Service
+
+8
+
+Housing Supply: Current Trends and Policy Considerations
+
+However, pricing conditions have begun to ease recently. Median asking rent was $1,464 in the
+fourth quarter of 2025, down from $1,475 in the fourth quarter of 2024.16 The Federal Housing
+Finance Agency’s House Price Index (based on more than 6 million repeat sales transaction on
+the same single-family properties) was up 1.9% from a year previously in November 2025, up
+slightly from September and October but otherwise the lowest increase since March 2012 and
+lower than the inflation rate over that period.17 (Of note, some price increase is expected in a
+growing economy. For example, policymakers at the Federal Reserve target an economy-wide
+inflation level of 2% per year, in line with the November year-over-year increase.) Whether these
+recent decelerations and decreases mark the beginning of a new trend in prices and rents or are an
+anomaly remains uncertain.
+
+Is There a Housing Shortage?
+The data presented in the previous section paint a somewhat contradictory picture of the housing
+market. For example
+•
+•
+•
+
+•
+
+•
+
+The total number of homes, adjusted by population or households, has been fairly
+steady since 1980, indicating similar supply conditions over this period.
+Vacancy rates are currently lower than the 1980-2024 average, indicating that
+supply is currently more constrained than previously.
+The housing stock is getting relatively older, as evidenced by lower populationadjusted construction rates over the 1980-2024 period, suggesting a slowdown in
+building that could be contributing to relatively tighter supply.
+The current months’ supply of homes for sale suggests differing supply
+conditions for new and existing single-family homes, although the net effect
+(given existing homes far outnumber new homes) may nonetheless suggest an
+undersupply of homes for sale.
+Prices and rents outpaced incomes and inflation between 1988 and 2024,
+potentially suggesting constrained supply relative to demand, but those increases
+have slowed or reversed in 2025, which could suggest easing supply (or lowered
+demand), although it is too soon to tell if these trends will be sustained.
+
+Despite some of these mixed signals, many economists suggest that there is some degree of
+housing shortage in the United States (typically found to be somewhere on the order of 4-5
+million units, although there is considerable disagreement). Many estimates are based on ideas of
+target vacancy rates that are not being met and pent-up demand that is not being accounted for in
+the aggregate data.18 In reality, what is happening with supply nationwide may have very little
+account, in some way, for quality, such as the House Price Index (HPI)—which looks at transactions on the same
+property over time—have increased faster than incomes and inflation as well. The HPI increased roughly 340% from
+January 1991 to December 2025 compared with a roughly 142% increase in inflation over the same time period. The
+HPI increased roughly 320% from 1991 to 2024 compared with a roughly 178% increase in median household income
+over the same period. See Federal Housing Finance Agency (FHFA), “FHFA House Price Index,”
+https://www.fhfa.gov/data/hpi.
+16 Census Bureau, “Housing Vacancies and Homeownership (CPS/HVS),” Table 11A, https://www.census.gov/
+housing/hvs/data/histtabs.html. Owing to the October-November 2025 government shutdown, October 2025 data was
+not collected. The data used for the fourth quarter of 2025 includes only November and December and therefore may
+not be comparable to estimates from other quarters.
+17 FHFA, “FHFA House Price Index.”
+18 For more information, see CRS Insight IN12628, Estimates of a “Housing Shortage,” by Katie Jones and Lida R.
+Weinstock.
+
+Congressional Research Service
+
+9
+
+Housing Supply: Current Trends and Policy Considerations
+
+bearing on the conditions experienced by households from place to place, at different income
+levels, and for different types (and sizes) of housing. So when asking whether there is a housing
+shortage, it can be helpful to consider: For whom?19
+
+Local Supply Conditions
+As shown in Figure 7 and Figure 8, vacancy rates vary significantly across the 75 largest
+metropolitan statistical areas (MSAs). Generally, vacancy rates for owned homes are lower than
+those for rentals. Comparing vacancy rates in a local area to a historical national average, despite
+MSAs having different characteristics than non-MSAs, can provide some insight into how
+constrained supply may be in a given area. The average national quarterly rental vacancy rate
+from the first quarter of 1980 to the fourth quarter of 2025 was 7.7%. The majority of MSAs (41)
+had rental vacancy rates below this historical average in the fourth quarter of 2025. The average
+national quarterly homeowner vacancy rate from the first quarter of 1980 to the fourth quarter of
+2025 was 1.7%. The majority of MSAs (56) had homeowner vacancy rates below this historical
+average in the fourth quarter of 2025.
+For rental vacancy rates, the range goes from 0.9% (Hartford-West Hartford-East Hartford, CT)
+to 27.9% (North Port-Bradenton-Sarasota, FL). For homeowner vacancy rates, the range goes
+from less than 0.05%, which is characterized as 0 (Bridgeport-Stamford-Norwalk, CT;
+Charleston-North Charleston-Summerville, SC; Columbus, OH; Dayton, OH; Greensboro-High
+Point, NC; Raleigh, NC; Toledo, OH; and Tulsa, OK), to 4.1% (Cape Coral-Fort Myers, FL).
+
+19 While some may argue that national supply conditions are more relevant than local supply conditions, given that
+
+people can move from an area of lower supply to an area of higher supply, in reality households may face many
+frictions to moving, including costs associated with moving, the sometimes local nature of particular professions, and
+personal preferences.
+
+Congressional Research Service
+
+10
+
+Housing Supply: Current Trends and Policy Considerations
+
+Figure 7. Rental Vacancy Rates for the 75 Largest MSAs
+Q4 2025
+
+Source: Census Bureau, “Housing Vacancies and Homeownership (CPS/HVS): Quarterly Vacancy and
+Homeownership Rates by State and MSA,” Table 4, https://www.census.gov/housing/hvs/data/rates.html.
+Notes: Due to the October-November 2025 government shutdown, October 2025 data was not collected. The
+data used for the fourth quarter of 2025 includes only November and December and therefore may not be
+comparable to estimates from other quarters.
+
+Congressional Research Service
+
+11
+
+Housing Supply: Current Trends and Policy Considerations
+
+Figure 8. Homeowner Vacancy Rates for the 75 Largest MSAs
+Q4 2025
+
+Source: Census Bureau, “Housing Vacancies and Homeownership (CPS/HVS): Quarterly Vacancy and
+Homeownership Rates by State and MSA,” Table 5, https://www.census.gov/housing/hvs/data/rates.html.
+Notes: Due to the October-November 2025 government shutdown, October 2025 data was not collected. The
+data used for the fourth quarter of 2025 includes only November and December and therefore may not be
+comparable to estimates from other quarters.
+
+This comparison of MSAs illustrates that supply conditions are very different across locations. A
+household wishing to purchase a home in an area with effectively zero vacancies would be facing
+a shortage. A household wishing to rent a home in an area with a rental vacancy rate of 15%
+would not be facing a shortage.20 Generally, renters may experience less constrained supply than
+homeowners would.
+
+Supply Conditions Across the Income Spectrum and for Different
+Housing Characteristics
+Even if supply conditions are not obviously “too low” for all households in all locations, there is
+much agreement that there are significant supply shortfalls of affordable housing when it comes
+to the lowest-income renters. According to the National Low Income Housing Coalition, the
+United States has a shortage of 7.2 million rental homes that are affordable and available to
+extremely low-income renters (those with the greater of incomes at or below either the federal
+poverty guideline or 30% of their area median income), which is larger than most estimates of an
+20 Vacancy rates and available inventory tend to be correlated, although the correlation may be weaker in some areas
+
+that have high vacancy rates owing to large quantities of seasonal homes, for example.
+
+Congressional Research Service
+
+12
+
+Housing Supply: Current Trends and Policy Considerations
+
+aggregate shortage.21 In a 2025 report, the Department of Housing and Urban Development
+(HUD) concluded that, while overall supply is not necessarily driving “the housing crisis,” as of
+2023, there were near-record levels of renter households meeting the criteria of having worst case
+housing needs, with 59 rental units available per 100 very low-income renter households and 38
+units available per 100 extremely low-income renter households.22
+There may also be undersupply of homes with specific characteristics. For example, according to
+the Census Survey of Construction, the percentage of single-family homes under 1,400 square
+feet (sometimes referred to as “starter homes”) that were completed has fallen in recent
+decades—from 15% of all new single-family homes in 1999 to 10% in 2024. (This is up from 7%
+from 2016 to 2022.) This trend is starker for single-family homes completed for sale specifically
+(as opposed to for rent), with a decrease from 14% in 1999 to 4% in 2024.23 While this and other
+housing characteristics may at least partly reflect what households would prefer, as opposed to
+solely what they need, this downward trend could nonetheless indicate a supply shortage for those
+households that may be able to afford only smaller homes.
+Affordability and the Economics of Supply and Demand
+One of the reasons for interest in housing supply conditions is tied to increases in housing costs in recent years.
+As discussed previously, over the past several decades, home prices and rents have increased faster than incomes,
+making housing relatively more expensive over time. More recently, increased mortgage rates and insurance costs
+have also contributed to these cost concerns for homeowners.24 (To the extent that higher costs for owned
+homes could increase demand in rental markets, these may also be concerns for renters.) This does not
+necessarily answer whether there is an affordability issue in an absolute sense, and analysis done will depend, in
+part, on the definition of affordable that is used. As discussed previously, there is evidence that there is a lack of
+rental housing that is affordable to low-income renters. But what about a household that cannot afford to
+purchase a single-family home within an hour commute to a job location but can afford to rent a home within 90
+minutes of that job location? Depending on who is asked, this may or may not be characterized as an affordability
+issue. Policymakers may wish to prioritize some or all such household preferences, but this is ultimately a different
+type of question than whether there are enough housing units for the population.
+Putting definitions of affordability aside, housing costs have increased, and policymakers may wish to address that
+cost increase. Prices and rents are determined by the interaction of supply and demand in the housing market(s).
+Current housing prices and rents represent a market equilibrium, where the price/rent level is set at the point at
+which the “market clears,” meaning that the number of units produced is equal to the number of units desired. So,
+in a strictly economic sense, supply can be too low or too high only if there is some market failure or intervention
+that prevents a market clearing price from being offered and accepted. Whether the current price/rent level
+represents an efficient market outcome—or is desirable regardless of efficiency—is debated. As the next section
+
+21 National Low Income Housing Coalition, “The Gap: A Shortage of Affordable Homes,” https://nlihc.org/gap. This
+
+analysis defines affordable and available as rental units with combined rent and utilities that do not exceed 30% of
+income that are “either vacant or not occupied by a higher income household.”
+22 HUD defines renter households to have worst case needs if “household incomes [are] at or below 50 percent of the
+Area Median Income (AMI) … do not receive government housing assistance, and either pay more than one-half of
+their income for rent, or live in severely inadequate conditions, or both.” Very low-income households include those
+with incomes less than 50% of AMI. Extremely low-income households include those with incomes less than 30% of
+AMI. HUD Office of Policy Development and Research, Worst Case Housing Needs: 2025 Report to Congress, July
+2025, pp. vi-vii, https://www.huduser.gov/portal//portal/sites/default/files/pdf/Worst-Case-Housing-Needs-2025Report-to-Congress.pdf.
+23 Census Bureau, “Survey of Construction, Characteristics of New Housing,” https://www.census.gov/construction/
+chars/current.html.
+24 See Michael Copley et al., “It’s Harder to Get Home Insurance. That’s Changing Communities Across the U.S.”
+NPR, November 12, 2025, https://www.npr.org/2025/11/12/nx-s1-5546754/climate-home-insurance-cop30-pricesexpensive-disasters; and Daniel McCue, “Lower Interest Rates Fail to Offset Effects of High Home Prices,” Harvard
+Joint Center for Housing Studies, October 28, 2025, https://www.jchs.harvard.edu/blog/lower-interest-rates-fail-offseteffects-high-home-prices.
+
+Congressional Research Service
+
+13
+
+Housing Supply: Current Trends and Policy Considerations
+
+will discuss, multiple policies (including building codes and zoning) currently restrict supply, pushing up the market
+equilibrium price.
+If policymakers deem the current housing market to be inefficient, there are two ways to lower the price/rent
+level. The first is to increase supply, which is the focus of this report. But the second is to lower demand. (Many
+demand-side federal housing policies, such as subsidizing mortgages or providing rental assistance, increase
+demand, all else equal.) Further, a supply increase is not enough to lower the price/rent level if demand is
+increasing at the same rate. Supply would need to be increased relative to demand. This means that a stock of
+homes that has stayed the same relative to population or household formation is not increasing relative to
+demand but is only in line with it.
+Achieving the “correct” amount of supply for a given level of demand is challenging, not least because both supply
+and demand curves are difficult to estimate, and forecasting how demand may change is an imprecise science. For
+example, events such as the COVID-19 pandemic can greatly change demand structures in local housing markets
+in a very short period, which can result in existing construction rates suddenly being too low or too high.
+Therefore, efforts to increase housing supply given current demand and expected demand conditions may result in
+too little, too much, or “correct” supply years from now.
+
+Barriers to Increasing Supply
+This section briefly highlights a few of the most commonly cited explanations of why housing
+supply may be constrained and failing to adequately respond to demand and pricing conditions.
+Some are explanations for the longer-term trends in the housing market, while others describe
+more recent or acute phenomena. This list of explanations is not meant to be all-inclusive. Of
+note, some conditions or policy stances that may contribute to relatively low housing supply may
+be desirable in others ways. This section is meant only to highlight conditions that could be
+contributing to low supply and does not attempt to evaluate the full costs and benefits of any
+policy. In addition, many policy proposals act on the demand side of the housing market, which is
+beyond the scope of this report.
+
+Regulatory Costs
+The cost of acquiring and preparing land for construction has increased relative to the price of the
+housing units being built in recent decades.25 Some areas have little undeveloped land for
+building, which partially explains rising land prices. But even in those areas, price signals would
+be expected to eventually lead to greater housing density absent regulatory obstacles to increasing
+supply. According to a Freddie Mac analysis, tightening land use restrictions (discussed below)
+are partly responsible for this increasing cost, which can cause significant delays in permit
+approvals, slowing the rate of new construction.26
+Certain zoning restrictions—such as single-family zoning requirements, minimum lot sizes, and
+parking requirements, among others—affect how much land can be built on and how many
+housing units can be built on that land.27 Existing residents’ opposition to new developments near
+or in their own neighborhoods can exacerbate zoning restriction issues. Requirements for
+community hearings or input, therefore, may slow or halt construction projects. Additionally,
+25 Freddie Mac, “What Is Causing the Lean Inventory of Houses?,” July 27, 2017, https://www.freddiemac.com/
+
+research/forecast/20170726-lean-inventory-of-houses.
+26 Freddie Mac, “What Is Causing the Lean Inventory of Houses?”
+27 Alexander Von Hoffman, “Single-Family Zoning: Can History Be Reversed?,” Harvard Joint Center for Housing
+Studies, https://www.jchs.harvard.edu/blog/single-family-zoning-can-history-be-reversed; and Catie Gould, “Shifting
+Gears: Why Communities Are Eliminating Off-Street Parking Requirements—and What Comes Next,” Lincoln
+Institute of Land Policy, October 12, 2022, https://www.lincolninst.edu/publications/articles/2022-10-shifting-gearseliminating-off-street-parking-requirements.
+
+Congressional Research Service
+
+14
+
+Housing Supply: Current Trends and Policy Considerations
+
+community opposition to regulatory changes that would reduce costs, such as zoning reform,
+could perpetuate existing challenges.28
+Official government data on the costs of broader regulation (which can include other factors than
+land use and zoning restrictions, such as building codes) on the construction or renovation of
+housing do not exist. Estimating such costs faces challenges, but some private groups have done
+such analyses. According to a 2021 study by the National Association of Home Builders (NAHB),
+state, local, and federal government regulations accounted for 23.8% of the average sales price of
+a new single-family home in 2021 (down from 24.3% in 2016 and 25% in 2011).29 On a dollar
+basis, the average cost of regulation accounted for $93,870 in 2021, up from $84,671 in 2016 and
+$65,224 in 2011.30 A 2022 study from NAHB in conjunction with the National Multifamily
+Housing Council also found a high regulatory burden for apartments, with roughly 41% of
+development costs attributable to regulations.31
+Researchers at the Wharton School created the Wharton Residential Land Use Regulatory Index
+in 2006 and updated it in 2018. In comparing the index across these years, researchers found
+In terms of the regulatory process, the number of entities needed to approve projects
+requiring a zoning variance is increasing in the typical place. This makes the process more
+cumbersome and increases the potential for projects to be vetoed. Density controls are also
+used more widely and are more severe on average. The use of minimum lot sizes to control
+density is now almost omnipresent. And, it is no longer uncommon to see one-acre (or
+greater) minimums in suburban areas; this was much rarer in the 2006 data. Other
+regulations investigated (e.g., open space requirements and affordable housing programs)
+do not show such big increases in the aggregate, but there also is no evidence they are
+declining—either in usage or strictness of enforcement. The one exception involves impact
+fees on developers. The aggregate propensity for communities to impose them fell by onethird, from about 75% in the 2006 survey to 50% in 2018.32
+
+The Cost of Financing
+The trend in interest rates in the U.S. economy directly affects the housing market by affecting
+borrowing costs for building, renovating, and purchasing homes.
+Following a prolonged period of high inflation and interest rates, the Federal Reserve began
+lowering the federal funds rate in the mid-1980s. In response to the 2007-2009 housing and
+financial crisis, the Federal Reserve reduced the federal funds rate to a range of 0%-0.25%, where
+it remained unchanged for several years. From early 2022 through mid-2023, the Federal Reserve
+aggressively raised the federal funds rate to combat high inflation. As a result, borrowing costs
+increased, which has potential implications for the housing supply. Despite some decreases in the
+28 Freddie Mac, “What Is Causing the Lean Inventory of Houses?”
+29 Paul Emrath, “Government Regulation in the Price of New Home: 2021,” NAHB, May 5, 2021,
+
+https://www.nahb.org/-/media/NAHB/news-and-economics/docs/housing-economics-plus/special-studies/2021/specialstudy-government-regulation-in-the-price-of-a-new-home-may-2021.pdf. Estimates for 2016 and 2011 can be found at
+https://www.nahb.org/-/media/F927CA599F4343F19541BD9F929E50ED.ashx and
+https://eyeonhousing.wordpress.com/2011/07/08/government-regulations-25-cost-of-a-new-home/, respectively.
+30 Emrath, Government Regulation in the Price of New Home: 2021.
+31 Testimony of Buddy Hughes in U.S. Congress, House Committee on Small Business, “The Golden Age: Unleashing
+Main Street Through Deregulation,” hearing, April 1, 2025, p. 2, https://www.congress.gov/119/meeting/house/
+118074/witnesses/HHRG-119-SM00-Wstate-HughesB-20250401.pdf.
+32 Joseph Gyourko et al., The Local Residential Land Use Regulatory Environment Across U.S. Housing Markets:
+Evidence from a New Wharton Index, National Bureau of Economic Research, December 2019, https://www.nber.org/
+system/files/working_papers/w26573/w26573.pdf.
+
+Congressional Research Service
+
+15
+
+Housing Supply: Current Trends and Policy Considerations
+
+federal funds rate in 2024 and 2025, it still remains higher than pre-pandemic.33 This has led,
+generally, to higher average interest rates throughout the economy.
+Homebuilders are heavily reliant on borrowing to finance new construction. Higher interest rates
+increase the costs of financing residential construction and renovation. As the costs of building
+and refurbishing homes increases, the rate of construction can slow and the supply of new homes
+can tighten, although the relationship between interest rates and construction is not always strong
+or linear. For example, construction was relatively low in the years following the housing market
+crash despite low interest rates during this time. Nonetheless, rising rates do represent an
+additional cost to builders.
+According to the NAHB, rising interest rates in 2022 (along with other factors) raised
+construction costs and slowed the rate of homebuilding, perpetuating the “long-term housing
+deficit.”34 In addition, rising rates can disincentivize existing homeowners from moving so that
+they do not lose the low mortgage rates on their current homes, lowering the inventory of existing
+homes for sale.35 Academic estimates suggests that, given projected mortgage rates (and holding
+other variables constant),36 moving could decline by around 25% between 2018 and 2033, which
+could significantly diminish available housing inventory.37
+The easing monetary conditions in 2024 and 2025 would be expected to improve financing
+conditions for builders and homeowners somewhat, but this time period is not long enough to be
+predictive of future trends. Rates are still generally higher than pre-pandemic, which indicates
+that borrowing costs remain relatively high. Nonetheless, recent analysis does show some
+improvement in housing inventory across 2024 and 2025.38
+
+Construction Input Costs
+Labor
+Employment in the residential building construction industry fell by roughly 465,000 jobs from a
+peak in April 2006 to a trough in January 2011, coinciding with the housing market crash and
+financial crisis of 2007-2009. Despite job growth in this industry since 2011, employment in
+residential building construction has still not recovered to 2006 levels. Total employees have
+remained relatively constant from 2022 through 2025.39 For the construction industry as a whole,
+the monthly job openings rate hit relative highs in 2022 and 2023 but has fallen since.40 This
+
+33 For more detailed information on the path of the federal funds rate, see CRS Report R48390, Federal Reserve:
+
+Policy Issues in the 119th Congress, by Marc Labonte.
+34 NAHB, “Rising Interest Rates, Higher Construction Costs Slow Housing Production,” press release, June 16, 2022,
+https://www.nahb.org/news-and-economics/press-releases/2022/06/rising-interest-rates-costs-slow-housing-production.
+35 Nicole Friedman, “The Home Buyer’s Quandary: Nobody’s Selling,” Wall Street Journal, May 10, 2023,
+https://www.wsj.com/articles/low-mortgage-rates-home-sales-low-supply-899aab29.
+36 The authors control for zip code fixed effects, county and year fixed effects, mortgage and borrower controls, and a
+zip code house price index.
+37 Julia Fonseca and Lu Liu, “Mortgage Lock-In, Mobility, and Labor Reallocation,” Social Science Research Network,
+March 24, 2023, p. 3, https://dx.doi.org/10.2139/ssrn.4399613.
+38 U.S. Bank, “The Impact of Today’s Changing Interest Rates on the Housing Market,” January 27, 2026,
+https://www.usbank.com/investing/financial-perspectives/investing-insights/interest-rates-impact-on-housingmarket.html.
+39 For employment data, see BLS, “Current Employment Statistics,” https://www.bls.gov/ces/data/.
+40 For job openings data, see BLS, “Job Openings and Labor Turnover Survey,” https://www.bls.gov/jlt/data.htm.
+
+Congressional Research Service
+
+16
+
+Housing Supply: Current Trends and Policy Considerations
+
+decrease in job openings could be part of a broader labor market pattern but could also be
+indicative of a potentially slower rate of construction in the coming months (and years).
+Also affecting the availability of construction workers is immigration trends. Foreign-born
+workers were more likely than native-born workers to be employed in construction occupations in
+2024 (13.9% vs. 7.7%).41 Net international immigration into the United States dropped
+significantly in the first half of 2025 and is projected to continue to decline throughout 2026.42
+Owing to the disproportionate representation of foreign-born workers in construction
+occupations, this downward trend could result in labor shortages for the construction industry,
+including residential construction. (Immigration also affects the demand for housing, which is
+discussed in another section.)
+In nominal terms, over the past few years, the employment cost to employers in the construction
+industry (as measured by the index for the total compensation for private industry workers in
+construction) has generally increased on a quarterly basis as measured by the percentage change
+from the previous year. In real terms, these increases have been lower—although generally
+positive—from 2023 to 2025.43 In combination with the lowered openings, these increased real
+costs of labor may indicate a barrier to increasing construction that could constrain supply and
+raise prices.
+
+Labor Productivity
+Related to workers is the productivity of those workers. Labor productivity (real output per labor
+hour worked) in the construction industry has been falling since the 1970s.44 Positive labor
+productivity growth in construction would allow for the more efficient building of homes, which
+could result in lowered costs and higher construction rates. This growth has instead been
+negative, which could be contributing to the opposite: lowered supply and increased costs. While
+there are many hypotheses as to the cause of this productivity slowdown, two of the most
+prominent explanations45 are increased regulatory constraints and stagnant innovation.46 Some
+research has connected the two ideas. For example, a 2024 working paper linked increasingly
+restrictive land use regulations to declining productivity through a mechanism of lower
+innovation. In short, the authors found that more restrictive regulations led to an increase in
+
+41 BLS, “Foreign-Born Workers: Labor Force Characteristics—2024,” May 20, 2025, https://www.bls.gov/
+
+news.release/pdf/forbrn.pdf. According to BLS, included in the foreign-born category are “legally-admitted
+immigrants, refugees, temporary residents such as students and temporary workers, and undocumented immigrants.”
+42 Census Bureau, Population Estimates Program Staff, “New Population Estimates Show Historic Decline in Net
+International Migration,” January 27, 2026, https://www.census.gov/newsroom/blogs/random-samplings/2026/01/
+historic-decline-in-net-international-migration.html.
+43 For employment cost index data, see BLS, “Employment Cost Index,” https://www.bls.gov/eci/data.htm.
+44 Chen Yeh, “Five Decades of Decline: U.S. Construction Sector Productivity,” Federal Reserve Bank of Richmond,
+August 2025, https://www.richmondfed.org/publications/research/economic_brief/2025/eb_25-31. This trend is not
+necessarily as apparent for particular construction sectors over more recent periods. For example, BLS shows that
+between 1987 and 2024, residential construction sectors showed flat or increasing productivity. See BLS,
+“Construction Labor Productivity,” September 24, 2025, https://www.bls.gov/productivity/highlights/constructionlabor-productivity.htm.
+45 Of note, many economists suggest that a mismeasurement problem could be contributing. However, research also
+tends to suggest that this trend persists even when corrections for possible measurement errors are made. For example,
+see Yeh, “Five Decades of Decline.”
+46 For example, see Elsie Peng, “Productivity Stagnation in the Construction Industry: An International Perspective,”
+Goldman Sachs, February 2, 2026.
+
+Congressional Research Service
+
+17
+
+Housing Supply: Current Trends and Policy Considerations
+
+smaller projects and smaller firms, which invested less in technology.47 Some estimates suggest
+that productivity declines may be highest in locations with tighter housing supply constraints,
+particularly those associated with long permitting times.48
+
+Materials
+The rising cost of material inputs to residential construction was a significant constraint for the
+homebuilding industry in recent years. Prices—as measured by the percentage change in the
+producer price index (PPI)49 from a year ago—for input goods to residential construction rose
+rapidly beginning in April 2020 and stayed elevated until 2023, when the rate of increase in these
+costs fell (and at times became negative—i.e., prices fell). Inflation for input goods to
+construction was higher than producer inflation for final demand or headline consumer inflation
+during this period. Much of this inflation in inputs was likely due to lumber supply shortages that
+began in 2020 as a result of supply-chain disruptions due to the COVID-19 pandemic.50
+Trade restrictions on construction materials, including new or increased tariffs in 2025, have
+potentially been driving up construction costs as well. (Tariffs on certain materials, such as
+lumber and steel, predate but in some cases have been increased by the current Administration.)
+The PPI for input goods to residential construction increased from 1.9% in January 2025 to 3.0%
+(preliminary estimate) in December 2025. These costs increases are still lower than the pace seen
+in 2021 and 2022 but nonetheless elevated as compared to 2024, prior to the tariff changes. A
+Brookings study estimated that existing and announced tariffs as of October 2025 would increase
+the costs of investment in residential structures by about $30 billion.51 Whether tariffs could result
+in continued price increases is uncertain. A one-time tariff increase would typically be expected to
+result in a one-time price increase.
+Altogether, the rising cost of building materials has likely hindered the homebuilding industry’s
+ability to respond to demand. While PPI for input goods to construction is down from peaks in
+2021 and 2022, it did rise in 2025, potentially hindering the ability of the construction industry to
+adequately respond to demand conditions. Whether this trend will continue is uncertain.
+
+Supply Shocks
+A supply shock—such as a sudden, unexpected event that results in the destruction of property or
+construction inputs—can significantly constrain local and national supply conditions and raise
+prices. As discussed in the above section, COVID-19 proved a supply shock for many
+commodities, such as lumber, which likely contributed to a significant increase in construction
+costs at that time.
+47 Leonardo D’Amico et al., “Why Has Construction Productivity Stagnated? The Role of Land-Use Regulation,”
+
+National Bureau of Economic Research, November 2024, https://www.nber.org/papers/w33188.
+48 Daniel Garcia and Raven Molloy, “Reexaming Lackluster Productivity Growth in Construction,” Federal Reserve
+Board of Governors, April 2025, https://www.federalreserve.gov/econres/feds/files/2023052r1pap.pdf.
+49 The PPI is a measure of the “average change over time in the selling prices received by domestic producers for their
+output.” For more information, see BLS, “Producer Prices,” in Handbook of Methods, https://www.bls.gov/opub/hom/
+pdf/ppi-20111028.pdf. The data cited uses the series for “inputs to new residential construction, goods.”
+50 For more information on lumber shortages, see CRS Report R46636, COVID-19 and the U.S. Timber Industry, by
+Anne A. Riddle; and John V. Duca and Anthony Murphy, “Why House Prices Surged as the COVID-19 Pandemic
+Took Hold,” Federal Reserve Bank of Dallas, December 28, 2021, https://www.dallasfed.org/research/economics/2021/
+1228.
+51 Elena Patel et al., “Recent Tariffs Threaten Residential Construction,” Brookings Institution, October 3, 2025,
+https://www.brookings.edu/articles/recent-tariffs-threaten-residential-construction/.
+
+Congressional Research Service
+
+18
+
+Housing Supply: Current Trends and Policy Considerations
+
+Another common supply shock faced by residential markets in the United States is one caused by
+a natural disaster. Any one specific natural disaster may cause significant damage or destruction
+to residential property, contributing to supply challenges in the affected market. Disasters can be
+localized, and while they may not yet result in significant impacts at the national level, the threats
+associated with natural disasters have been rising recently.52 Property destruction in one location
+can result in distortions in other markets owing to resulting shifts in migration and demand.53
+Therefore, the more widespread these risks become, the more likely they are to result in supply
+disruptions at the national level.54 Currently, a significant portion of the housing stock is
+vulnerable to threats such as flooding, hurricane and winds, and wildfires, to name a few.55
+
+Other Potential Factors
+Certain demographic trends may be affecting housing supply, particularly in owner-occupied
+markets. Trends such as “aging in place” may be limiting the supply of homes for sale as the
+relatively large baby boomer generation maintains homeownership.56 While homeownership rates
+typically decrease as individuals progress through old age, homeownership retention rates for
+those 65 years and older has been increasing since the 1980s.57 Additionally, baby boomers are
+not “downsizing” at an expected rate and own a larger share of homes with at least three
+bedrooms than younger generations do.58 Nonetheless, a large number of homes may become
+available for sale in the coming years as the baby boomer generation continues to age. This has
+led to concerns of an oversupply of homes in coming years, although some estimates suggest that
+demand from millennials and Gen Z could offset the decline in demand from baby boomers.59
+Other trends in household characteristics, such as declining marriage rates and birth rates—which
+can both lead to smaller household sizes—have implications for household formation and housing
+demand, which can exacerbate supply challenges.60
+52 Howard Kunreuther, “Reducing Losses from Catastrophes: Role of Insurance and Other Policy Tools,” Environment:
+
+Science and Policy for Sustainable Development, vol. 58, no. 1 (January/February 2016), pp. 30-37.
+53 Tamara L. Sheldon and Crystal Zhan, “The Impact of Natural Disasters on U.S. Home Ownership,” Journal of the
+Association of Environmental and Resource Economists, vol. 6, no. 6 (September 19, 2019), pp. 1169-1203,
+https://www.journals.uchicago.edu/doi/full/10.1086/705398#_i18.
+54 Many studies link a rise in the frequency, intensity, or magnitude of natural disasters to climate change. Other results
+of climate change, such as rising sea levels, may also prove a challenge to housing supply in the long term not only
+because of hazards posed to the housing stock but also because of any policies or migration that arise as a result. See
+Basel Committee on Banking Supervision, “Climate-Related Risk Drivers and Their Transmission Channels,” April 14,
+2021, pp. 6-7, https://www.bis.org/bcbs/publ/d517.htm; and Steven Rothstein and Joe Weisbord, “Housing Finance and
+Climate Risk: Taking Action in an Uncertain Future,” Ceres, February 9, 2023, https://www.ceres.org/resources/
+reports/housing-finance-and-climate-risk-taking-action-uncertain-future.
+55 Cotality, “Forward-Looking Catastrophic Risk Modeling,” https://www.cotality.com/products/climate-risk-analytics;
+and Cotality, “CoreLogic 2024 Wildfire Risk Report Finds More Than 2.6 Million Homes at Moderate to High-Risk of
+Wildfire Damage,” press release, August 13, 2024, https://www.cotality.com/press-releases/corelogic-2024-wildfirerisk-report-finds-more-than-2-6-million-homes-at-moderate-to-high-risk-of-wildfire-damage.
+56 As of 2022, baby boomers accounted for 21% of the U.S. population but 38% of total homeowner households. See
+Freddie Mac, “Aging Boomers and the Impact on the Housing Market Over the Next Decade,” February 26, 2024,
+https://www.freddiemac.com/research/insight/baby-boomers-impact.
+57 Dowell Myers and Patrick Simmons, “The Coming Exodus of Older Homeowners,” Fannie Mae, p. 4,
+https://www.fanniemae.com/media/20281/display.
+58 Dana Anderson and Sheharyar Bokhari, “Empty Nesters Own Twice as Many Large Homes as Millennials with
+Kids,” Redfin, January 16, 2024, https://www.redfin.com/news/empty-nesters-own-large-homes/.
+59 Freddie Mac, “Aging Boomers and the Impact on the Housing Market over the Next Decade,” February 26, 2024,
+https://www.freddiemac.com/research/insight/baby-boomers-impact.
+60 For example, see HUD, Worst Case Housing Needs, pp. 30-31.
+
+Congressional Research Service
+
+19
+
+Housing Supply: Current Trends and Policy Considerations
+
+Some point to second homes or short-term rentals as supply constraints in certain localities. Some
+research suggests that the existence of such markets can increase prices for local households.61
+
+Policy Considerations
+To the extent that certain conditions in the housing market—notably issues surrounding
+affordability and choice—are being caused by low supply, those problems are unlikely to be fixed
+without supply-side policy solutions. However, any improvement in supply will happen with a lag
+and therefore will not be realized in the short term. While this report has focused mainly on
+national supply conditions, that is not to downplay the importance of local solutions given
+differences in price and availability across localities. Additionally, many housing policies are
+created, implemented, and regulated at the state or local level, and the role of federal
+policymakers is generally limited in state and local housing markets. Nonetheless, there are
+certain policy options available to Congress. This section focuses specifically on federal policy
+considerations for increasing supply across price points and does not consider non-housing
+aspects of policies.
+
+Federal Policies and Grants
+The federal government does not have direct authority over local regulation or private market
+decisions that affect local housing development.62 For example, zoning, permitting, and land use
+are generally controlled by states, many of which have delegated authority to localities.63
+However, the federal government can disseminate research on housing market dynamics and
+policies and share information on best practices, create new and change existing federal policies,
+and provide funding for certain housing activities, among other actions to support housing
+development and state and local actions that impact housing development. Several federal
+agencies play roles in housing policy. This section focuses on selected examples of supplyfocused policies and practices of HUD and is not all inclusive.
+HUD has performed research and shared information on the advantages of certain types of policy
+changes related to increasing housing supply or lowering prices. For example, HUD’s Regulatory
+Barriers Clearinghouse collects and publishes research on state and local regulations and other
+actions that impact affordable housing.64 Past HUD research has highlighted land use and zoning
+reforms local jurisdictions could undertake to increase supply and affordability, such as: “Increase
+multifamily zoning; allow missing middle and larger multifamily development by-right; enable
+adaptive reuse and conversions; eliminate parking requirements; reduce minimum lot sizes;
+
+61 See CRS In Focus IF12920, Short-Term Rental Markets: A Primer, by Karl E. Schneider and Lida R. Weinstock; and
+
+Nora Carrier, “Addressing the Housing Crunch in Seasonal Destinations,” Housing Solutions Lab, August 13, 2024,
+https://www.localhousingsolutions.org/addressing-the-housing-crunch-in-seasonal-destinations/.
+62 The federal government does provide some amount of public housing, although such units take up a very small share
+of the total housing market. See HUD, “HUD’s Public Housing Program,” https://www.hud.gov/helping-americans/
+public-housing.
+63 Anika Singh Lemar, “The Role of States in Liberalizing Land Use,” North Carolina Law Review, vol. 97, no. 2
+(January 1, 2019), p. 297; and Harvard Law Review, “Addressing Challenges to Affordable Housing in Land Use Law:
+Recognizing Affordable Housing as a Right,” Housing Law and Policy Note, February 10, 2022, p. 1107.
+64 HUD, “Regulatory Barriers Clearinghouse,” https://www.huduser.gov/portal/rbc/home.html. This program is
+currently required by statute (42 U.S.C. §12705d).
+
+Congressional Research Service
+
+20
+
+Housing Supply: Current Trends and Policy Considerations
+
+support equitable transit-oriented development; and streamline permitting processes and
+timeline.”65
+HUD oversees the Manufactured Home Construction and Safety Standards, often referred to as
+the HUD Code, which regulates construction standards for manufactured housing. Some have
+argued that non-traditional building techniques, such as factory-built housing (of which
+manufactured housing is a type), are more efficient and cost-effective than traditional building
+techniques, but they face regulatory barriers and financing obstacles that have restricted their
+use.66 HUD periodically updates the HUD Code (which preempts local codes), and these updated
+standards can help reduce some barriers to manufactured housing.67 The HUD Code does not
+cover other types of factory-built housing, such as modular, panelized, and precut housing.
+However, HUD has published information on ways that local governments could potentially
+increase the supply of factory-built housing, including, for example, expanding areas zoned to
+accept factory-built housing by state and local governments.68
+Some would argue that the problem is not that local governments are unaware of barriers to
+increasing supply but that their interests are misaligned with increasing supply. For example, their
+constituents may be largely made up of existing homeowners who prefer policies that keep their
+property values high. If so, the types of policies discussed above may have little prospect for
+widespread adoption.
+HUD additionally provides funding to state and local governments for certain types of housing
+activities that could increase housing or maintain supply and affordability.69 For example, the
+HOME Investment Partnerships Program provides grants for activities including building,
+buying, and rehabilitating affordable housing.70 The Community Development Block Grant
+(CDBG) Program provides grants for a wider range of community development projects but
+includes certain affordable housing activities, such as rehabilitation and conversion of affordable
+units.71 HUD also provides grants to state, local, and regional entities to remove regulatory
+barriers to affordable housing as part of the Pathways to Removing Obstacles to Housing
+Program (authority derived from CDBG statute).72
+
+65 HUD Office of Policy Development and Research, “Pro-Housing Land Use and Zoning Reforms,” April 2023,
+
+https://docs.huduser.gov/archives/portal/sites/default/files/pdf/policy-and-practice-publication-2023-april.pdf.
+66 For example, see Laurie Goodman and Matthew Pruitt, “Encouraging Modular Construction Could Help Address the
+Housing Shortage,” Urban Institute, September 19, 2024, https://www.urban.org/urban-wire/encouraging-modularconstruction-could-help-address-housing-shortage.
+67 For example, HUD published a final rule that made various changes to the HUD Code in 2024. See HUD,
+“Manufactured Home Construction and Safety Standards,” 89 Federal Register 75704, September 16, 2024,
+https://www.federalregister.gov/documents/2024/09/16/2024-20545/manufactured-home-construction-and-safetystandards. HUD standards address construction and installation of manufactured homes, but other factors that affect
+manufactured housing, such as state and local zoning, are outside the purview of the HUD Code.
+68 HUD Office of Policy Development and Research, “Factory-Built Housing for Affordability, Efficiency, and
+Resilience,” Winter/Spring 2020, https://www.huduser.gov/archives/portal/periodicals/em/WinterSpring20/
+highlight1.html.
+69 For more information about these programs and recent congressional actions and debate, see CRS Report R48743,
+Housing Issues in the 119th Congress, coordinated by Katie Jones.
+70 HUD Exchange, “HOME Overview,” https://www.hudexchange.info/programs/home/home-overview/.
+71 HUD Exchange, “Community Development Block Grant,” https://www.hudexchange.info/programs/cdbg/.
+72 This program was first funded in the Consolidated Appropriations Act, 2023 (P.L. 117-328, Division L, Title II), and
+was subsequently funded by Congress in FY2024, FY2025, and FY2026.
+
+Congressional Research Service
+
+21
+
+Housing Supply: Current Trends and Policy Considerations
+
+Incentives for the Construction Industry
+Various types of incentives for the construction industry could also potentially affect the amount
+of production by incentivizing hiring, training, or construction directly. For example, policies
+such as the low-income housing tax credit (LIHTC), which provides tax credits to offset the cost
+of producing affordable rental housing units, may increase affordable supply in particular housing
+markets.73 The proposed Neighborhood Homes Investment Act (S. 657) would create similar tax
+credits in owner-occupied housing in certain markets.74 Other proposals include providing a tax
+credit for the construction of starter homes (H.R. 3475, for example) and providing various
+grants, including for training for careers in residential construction and supporting small
+developers (S. 189 and H.R. 6737, for example). There is debate about whether and to what
+extent such policies improve (or would improve) supply. Many observers argue that tax credits
+are an important tool in increasing supply, while others question the programs’ efficacy in
+generating new supply.75 For example, while LIHTC has supported the construction or
+rehabilitation of over 3 million units nationwide, estimates vary greatly on how much LIHTC
+construction has crowded out unsubsidized private construction and, therefore, how much overall
+supply has been affected.76 Additionally, some studies have found that LIHTC projects cost more
+than comparable private market projects or projects using other types of subsidies, such as
+vouchers.77
+Changes were made to LIHTC in the FY2025 Budget Reconciliation Law (P.L. 119-21). These
+changes included increasing states’ LIHTC allocation authority starting in calendar year 2026.78
+
+Immigration Policy
+As discussed previously, foreign-born workers are relatively more likely to be employed in
+construction occupations than native-born workers are. Thus, immigration policy is an oft-cited
+area that can affect housing supply. In theory, increased immigration rates—at least for those who
+would work in construction—would increase the supply of construction labor, allowing for lower
+costs to builders and increased rates of construction. For example, the Urban Institute estimated
+that deportations of undocumented construction workers could result in a decrease of 1.7-1.8
+
+73 See CRS In Focus IF11335, The Low-Income Housing Tax Credit: Policy Issues, by Mark P. Keightley.
+74 See CRS In Focus IF11884, Neighborhood Homes Investment Act: Overview and Policy Considerations, by Mark P.
+
+Keightley.
+75 For example, see Owen Minott and Julia Selby, “The LIHTC and NHTC: Two Important Tools to Increase Housing
+Supply,” Bipartisan Policy Center, October 27, 2022, https://bipartisanpolicy.org/blog/two-tools-increase-housingsupply/.
+76 For more details, see CRS In Focus IF11335, The Low-Income Housing Tax Credit: Policy Issues, by Mark P.
+Keightley.
+77 Chris Edwards, “Problems with Low-Income Housing Tax Credits,” Cato Institute, May 7, 2025,
+https://www.cato.org/testimony/problems-low-income-housing-tax-credits.
+78 For more details, see CRS Report RS22389, An Introduction to the Low-Income Housing Tax Credit, by Mark P.
+Keightley; CRS Report R48743, Housing Issues in the 119th Congress, coordinated by Katie Jones; Tax Policy Center,
+“What Is the Low-Income Housing Tax Credit and How Does It Work?,” updated January 2024,
+https://taxpolicycenter.org/briefing-book/what-low-income-housing-tax-credit-and-how-does-it-work; and Michael D.
+Eriksen and Stuart S. Rosenthal, “Crowd Out Effects of Place-Based Subsidized Rental Housing: New Evidence from
+the LIHTC Program,” Journal of Public Economics, vol. 94, nos. 11-12, pp. 953-966, https://www.sciencedirect.com/
+science/article/abs/pii/S0047272710000885.
+
+Congressional Research Service
+
+22
+
+Housing Supply: Current Trends and Policy Considerations
+
+million construction workers on the whole, leading to labor shortages and exacerbating existing
+housing supply constraints.79
+A complicating factor when it comes to immigration, as opposed to other policies that could
+increase supply, is that immigration also increases housing demand as immigrants require housing
+themselves. Whether the demand effects or the supply effects dominate will determine what effect
+immigration has on housing prices. While there is significant debate on this topic, with some
+research finding increased price effects,80 generally immigration is not posited as one of the main
+drivers of increased housing costs given that the supply effects, at least partially, balance out the
+demand effects.81
+
+Trade Policy
+The cost and availability of materials used in the construction or renovation process have been a
+constraint to housing supply at various points. While certain types of supply (and supply chain)
+shocks are beyond the government’s control, trade policies can affect the cost of construction
+materials. Removing or reducing trade barriers, such as tariffs, on construction inputs and
+materials would theoretically lower the cost of materials currently subject to such barriers.82 For
+example, the Center for American Progress estimated that tariff-induced cost increases to
+construction could lead to 450,000 fewer homes built by 2030.83
+
+Selected Policy Proposals in the 119th Congress
+Congress has introduced many housing related bills in the 119th and other Congresses. The Senate
+and the House have each passed versions of bills that combine a number of standalone housing
+measures, many of which are aimed at increasing housing supply. Two such bills with notable
+housing supply components include the ROAD to Housing Act of 2025 (passed the Senate as an
+amendment in the nature of a substitute to H.R. 6644; S.Amdt. 4308) and the Housing for the 21st
+Century Act (H.R. 6644, passed the House). For more information on the ROAD to Housing Act,
+see CRS Report R48732, ROAD to Housing Act of 2025, coordinated by Henry G. Watson. For
+more information on the Housing in the 21st Century Act, see CRS Report R48849, Housing for
+the 21st Century Act, coordinated by Henry G. Watson.
+
+79 Jorge González-Hermoso et al., “Mass Deportation Would Worsen Our Housing Crisis,” Urban Institute, February
+
+25, 2025, https://www.urban.org/urban-wire/mass-deportations-would-worsen-our-housing-crisis.
+80 For example, see Alex Nowrasteh, “JD Vance Is Correct: Immigration Increases Housing Prices, and That’s Okay,”
+Cato Institute, October 2, 2024, https://www.cato.org/blog/jd-vance-correct-immigration-increases-housing-pricesthats-ok.
+81 For example, see Riordan Frost, “The Role of Recent Immigration Surge in Housing Costs,” Harvard Joint Center for
+Housing Studies, October 29, 2024, https://www.jchs.harvard.edu/blog/role-recent-immigrant-surge-housing-costs.
+82 There have been proposals during the 119th Congress to limit tariffs on certain materials used in residential
+construction. For example, the Housing Tariff Exclusion Act would exclude most tariffs on commonly used
+homebuilding products implemented since January 19, 2025. See Office of Sen. Christopher Coons, “Housing Tariff
+Exclusion Act,” https://www.coons.senate.gov/wp-content/uploads/2026/02/Housing-Tariff-Exclusion-Act-OnePager.pdf.
+83 Corey Husak et al., “Trump Administration Tariffs Could Result in 450,000 Fewer New Homes Through 2030,”
+Center for American Progress, December 16, 2025, https://www.americanprogress.org/article/trump-administrationtariffs-could-result-in-450000-fewer-new-homes-through-2030/.
+
+Congressional Research Service
+
+23
+
+Housing Supply: Current Trends and Policy Considerations
+
+Author Information
+Lida R. Weinstock
+Analyst in Macroeconomic Policy
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R48892 · VERSION 2 · NEW
+
+24
+
+
