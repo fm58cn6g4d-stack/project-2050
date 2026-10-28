@@ -2,27 +2,29 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated October 28, 2026 by Claude Code (stage A, PR 1).
+Updated October 28, 2026 by Claude Code (stage A, step 2).
 
 ## Now
 
 | Stage | Step | Tier | Status | Owner | Where |
 | --- | --- | --- | --- | --- | --- |
-| A. Reset | 1. Clean tree, `legacy/`, models and checks migrated, standards, board, decision log, entry files | Most capable (moves and path rewrites: Light) | In review: needs Espen's approval (tier 3) | Claude Code | PR #46 (branch `claude/stage-a-reset`) |
-| A. Reset | 2. `agenda/agenda.csv` from the legacy domain files and options register | Standard to extract; Most capable for levels and status | Next | Claude Code | — |
-| A. Reset | 3. `library/catalog.csv` and the generated name index | Light for file facts; Standard for status, aliases and rights | Waiting on step 1 | Claude Code | — |
-| A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | Waiting on step 1 | Claude Code | — |
-| A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Waiting on step 1 | Claude Code | — |
+| A. Reset | 1. Clean tree, `legacy/`, models and checks migrated, standards, board, decision log, entry files | Most capable (moves and path rewrites: Light) | Done | Claude Code | PR #46, merged |
+| A. Reset | 2. `agenda/agenda.csv` from the legacy domain files and options register | Standard to extract; Most capable for levels and status | In review | Claude Code | Branch `claude/stage-a-agenda` |
+| A. Reset | 3. `library/catalog.csv` and the generated name index | Light for file facts; Standard for status, aliases and rights | Next | Claude Code | — |
+| A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | Waiting on step 3 | Claude Code | — |
+| A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Can run any time | Claude Code | — |
 | B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
 
 ## Open PRs
 
-None besides the reset (PR #46).
+The agenda PR (step 2).
 
 ## Done (recent)
 
 | Item | Result |
 | --- | --- |
+| Stage A step 1, the reset (PR #46) | Merged: clean tree, `legacy/`, migrated models and checks, standards, board |
+| Stage A step 2, the agenda (in review) | 499 items in `agenda/agenda.csv`: 32 decided, 267 chosen, 54 options, 128 alternatives, 18 held, declined, pointer or retired. None is L3 yet |
 | Restructuring plan | Adopted by Espen October 28 (`charter/PLAN.md`, `DEC-2026-10-28-01`) |
 | Research intake, October 28 | Filed in `library/intake/2026-10-28/` with checksums |
 | PR #39, public story page with seven essays and a claim register | Merged at `eceb44a`. The old queue still called it "ready for approval"; it is done |
@@ -37,4 +39,4 @@ None besides the reset (PR #46).
 
 ## Questions for Espen
 
-1. Approve the reset, PR #46 (add `espen-approved`).
+1. Approve the agenda PR (add `espen-approved`; no second agent can review while Codex is out of credits).
