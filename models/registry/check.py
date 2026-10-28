@@ -104,6 +104,9 @@ def check_dossiers(root, catalog, agenda, today):
             for field in ('checked', 'recheck'):
                 if e.get(field) and not date(e[field]):
                     errors.append(f'{where}: {field} must be a date (YYYY-MM-DD)')
+            # The fact's own date may be a year or a month: a 2025 poverty rate, a March 2026 count.
+            if e.get('fact_date') and not re.fullmatch(r'\d{4}(-\d{2}(-\d{2})?)?', str(e['fact_date'])):
+                errors.append(f'{where}: fact_date must be YYYY, YYYY-MM or YYYY-MM-DD')
             if date(e.get('recheck')) and date(e['recheck']) < today:
                 warnings.append(f'{where}: re-check was due {e["recheck"]}')
             src = e.get('source')
@@ -178,6 +181,12 @@ def run(root=ROOT, today=None, with_legacy=True):
         errors += [f'agenda/agenda.csv: legacy ID {i} missing' for i in missing]
         errors += [f'agenda/agenda.csv: {r["id"]}: level {r["level"]!r} is not L0-L4'
                    for r in rows(root / 'agenda/agenda.csv') if r['level'] not in {'L0', 'L1', 'L2', 'L3', 'L4'}]
+        # An item its own domain file marks "(adopted ...)", "(decided ...)" or "Pointer only" must say so.
+        status_of = {r['id']: r['status'] for r in rows(root / 'agenda/agenda.csv')}
+        for pid, d in seed.domain_definitions().items():
+            own = seed.own_status(d['flags'])
+            if own in ('decided', 'pointer') and status_of.get(pid) != own:
+                errors.append(f'agenda/agenda.csv: {pid} is {status_of.get(pid)}, but its domain file marks it {own}')
         lib = module(root / 'library/build_catalog.py', 'library_catalog')
         current = lib.catalog_rows()
         if [r['path'] for r in current] != [r['path'] for r in catalog]:

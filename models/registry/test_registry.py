@@ -68,7 +68,7 @@ class RegistryTests(unittest.TestCase):
 
     def test_grade_dates_and_sources(self):
         root, e = self.tree()
-        e.update(grade='F', checked='last week', recheck='2026-01-01')
+        e.update(grade='F', checked='last week', recheck='2026-01-01', fact_date='recently')
         bad = dict(e, id='EV-HOU-002', source='SRC-0002')
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, bad]))
         errors, warnings, _ = self.run_on(root)
@@ -76,6 +76,7 @@ class RegistryTests(unittest.TestCase):
         self.assertIn('grade must be one of A-E', text)
         self.assertIn('checked must be a date', text)
         self.assertIn('give a text_version', text)
+        self.assertIn('fact_date must be YYYY', text)
         self.assertEqual(len(warnings), 2)  # past-due re-checks warn, never fail
 
     def test_provisions_and_references_resolve(self):
