@@ -30,8 +30,9 @@ Outcomes this section frames:
 
 **By race and ethnicity.**
 - 4.6 million Black renter households (56.2%) were cost-burdened in 2023, above the national 49.7% [EV-HOU-001] [EV-HOU-003]. About 2.5 million (30.6%) were severely cost-burdened, spending more than half their income on housing [EV-HOU-004].
-- Among very low-income renters, worst case needs ran from 55.1 percent of Asian households and 48.0 percent of Hispanic households to 45.0 percent of White and 38.1 percent of Black households [EV-HOU-034].
-- HUD attributes the lower rate for Black households to more of them receiving housing assistance: 39.4 percent of Black very low-income renters reported it, against 24.8 percent of White, 22.1 percent of Hispanic and 20.6 percent of Asian ones [EV-HOU-034]. An assisted household cannot have worst case needs by definition [EV-HOU-020], so part of the gap reflects who gets help rather than lower need.
+- Worst case needs fall hardest on Black and Hispanic households overall: 10.1 percent of all Black households and 11.5 percent of all Hispanic households had them in 2023, against 7.5 percent of Asian and 4.3 percent of White households [EV-HOU-036]. Households headed by non-White people accounted for 56.5 percent of all worst case needs [EV-HOU-037].
+- Measured only among very low-income renters, the order changes: 55.1 percent of Asian, 48.0 percent of Hispanic, 45.0 percent of White and 38.1 percent of Black households had worst case needs [EV-HOU-034]. The two measures answer different questions: how common severe need is in each group, and how often a very low-income renter in that group is left without help.
+- 39.4 percent of Black very low-income renters reported housing assistance, against 24.8 percent of White, 22.1 percent of Hispanic and 20.6 percent of Asian ones [EV-HOU-034]. An assisted household cannot have worst case needs by definition [EV-HOU-020], and HUD attributes the lower rate for Black renters to this greater access to assistance [EV-HOU-035]. The lower rate among very low-income renters sits alongside a rate among all Black households more than twice the White one [EV-HOU-036].
 
 **Families with children.**
 - 2.33 million families with children had worst case needs in 2023, 42.9 percent of very low-income renter families with children [EV-HOU-030] [EV-HOU-031].
@@ -42,7 +43,7 @@ Outcomes this section frames:
 
 **People with disabilities.** About one in seven households with worst case needs, 1.16 million, included someone younger than 62 with a disability. 37.0 percent of very low-income renter households with such a member had worst case needs [EV-HOU-032].
 
-**Single adults and other households.** The largest group with worst case needs was other nonfamily households, mostly people living alone: 2.80 million, 49.2 percent of very low-income ones [EV-HOU-030] [EV-HOU-031]. Other family households, such as relatives living together without children, had the highest rate, 52.2 percent [EV-HOU-031].
+**Single adults and other households.** The largest group with worst case needs was other nonfamily households, mostly single individuals: 2.80 million, 49.2 percent of very low-income ones [EV-HOU-030] [EV-HOU-031]. Other family households, such as relatives living together without children, had the highest rate, 52.2 percent [EV-HOU-031].
 
 **By region.** 3.17 million households with worst case needs lived in the South, 2.29 million in the West, 1.53 million in the Midwest and 1.48 million in the Northeast [EV-HOU-033]. Assistance reached 24.4 percent of very low-income renters in the West and 38.0 percent in the Northeast [EV-HOU-022].
 
