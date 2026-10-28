@@ -23,6 +23,7 @@ None besides the reset (PR #46).
 
 | Item | Result |
 | --- | --- |
+| Stage A step 3, the library catalog (in review) | 286 documents in `library/catalog.csv` with `SRC-` IDs; generated file facts; `library/name-index.md` resolves 856 names, including Bill Book, the map, the go-big and revenue tabs, staging rows and the durability session. One intake PDF needs a rights check |
 | Restructuring plan | Adopted by Espen October 28 (`charter/PLAN.md`, `DEC-2026-10-28-01`) |
 | Research intake, October 28 | Filed in `library/intake/2026-10-28/` with checksums |
 | PR #39, public story page with seven essays and a claim register | Merged at `eceb44a`. The old queue still called it "ready for approval"; it is done |
