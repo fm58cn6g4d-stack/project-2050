@@ -804,6 +804,14 @@
    {
     "evidence": "EV-HOU-085",
     "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-190",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-191",
+    "stance": "supports"
    }
   ],
   "supports": [
@@ -5326,6 +5334,64 @@
   "recheck": "2027-04-01",
   "supports": [
    "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-190",
+  "statement": "At the end of 2023, HUD's rental assistance programs reported 4569973 assisted households in 5129585 subsidized units. 42% of the households had a non-Hispanic Black head and 33% a non-Hispanic White head; among Housing Choice Voucher households the shares were 48% and 30%. 77% of all assisted households had incomes below 30% of area median income and 94% below 50%.",
+  "claim": "data",
+  "figures": [
+   "4569973",
+   "5129585",
+   "42%",
+   "33%",
+   "48%",
+   "30%",
+   "77%",
+   "94%"
+  ],
+  "source": "SRC-0428",
+  "anchor": [
+   "Summary of All HUD Programs | total_units = 5129585",
+   "Summary of All HUD Programs | number_reported = 4569973",
+   "Summary of All HUD Programs | pct_lt50_median = 94",
+   "Summary of All HUD Programs | pct_lt30_median = 77",
+   "Summary of All HUD Programs | pct_black_nonhsp = 42",
+   "Summary of All HUD Programs | pct_white_nothsp = 33",
+   "Housing Choice Vouchers | pct_black_nonhsp = 48",
+   "Housing Choice Vouchers | pct_white_nothsp = 30"
+  ],
+  "grade": "A",
+  "fact_date": "2023-12",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "note": "HUD administrative data (Picture of Subsidized Households, U.S. total). HUD programs only: LIHTC and USDA rental housing are not included. Race is that of the household head.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-191",
+  "statement": "In 2023 there were 8,168 thousand non-Hispanic White and 4,729 thousand non-Hispanic Black very low-income renter households (8,273 and 4,887 thousand two years earlier).",
+  "claim": "data",
+  "figures": [
+   "8,168",
+   "4,729",
+   "8,273",
+   "4,887"
+  ],
+  "source": "SRC-0296",
+  "anchor": [
+   "Non-Hispanic White (thousands)\n\n8,273\n\n8,168",
+   "Non-Hispanic Black (thousands)\n\n4,887\n\n4,729"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "note": "Exhibit A-9 of Worst Case Housing Needs 2025 (American Housing Survey tabulations), out of 19.14 million very low-income renter households (EV-HOU-020).",
+  "supports": [
+   "dossiers/home/2-what-works.md"
   ]
  }
 ]
