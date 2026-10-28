@@ -58,7 +58,7 @@ The dossier needs the same breakdown for children's rent burden, older renters, 
 
 **There are too few homes the poorest renters can afford.**
 - In 2023 there were only 59 affordable and available rental homes for every 100 very low-income renter households, and only 38 for every 100 extremely low-income renter households [EV-HOU-024].
-- An outside estimate puts the gap for extremely low-income renters at 7.1 million homes [EV-HOU-018], or 35 per 100 households, with shortages in every state and major metropolitan area [EV-HOU-019].
+- An outside estimate puts the gap for extremely low-income renters at 7.1 million homes [EV-HOU-018]: only 35 affordable and available homes for every 100 such households, with shortages in every state and major metropolitan area [EV-HOU-019].
 - Estimates of the national shortage across all incomes range from roughly 4 million to 5 million homes. Methods differ, and some observers argue there is no overall shortage, only shortages in particular places or types of housing, including homes low-income renters can afford [EV-HOU-017].
 
 **Grades.** Worst case needs, the assistance share, the HUD shortage ratios and the 2024 homelessness count come from HUD's reports (grade A). The 2025 homelessness figures are HUD's counts as the Congressional Research Service reports them, and the outside shortage estimates are its summaries (grade C).
