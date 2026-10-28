@@ -487,3 +487,31 @@ The durability session's capacity line (about $0.05T, session estimate) is consi
 Develop a public grid-delivery backstop, targeted contracts/procurement for verified low-carbon industrial output, and standing adaptation support as the principal portfolio alternative. Compare these with marginal subsidy dollars on common cost, emissions and household-bill assumptions. Keep fee/dividend, clean-power standards and accessible electrification support; retain credits during this comparison. Do not preselect the source scenario’s reactor-fleet purchase or assume federal construction can proceed without regional workforce and delivery capacity. Account for contingent/termination liabilities and test adverse political and state-cooperation conditions.
 
 **Portfolio and disaster pricing (PR #26, review).** The common-baseline comparison, the package search (Package A), the credit step-down timeline, grid financing windows and the priced CLI-7 disaster package are in [the climate portfolio allocation](../sources/climate-portfolio-allocation.md) and [the disaster resilience file](../sources/climate-portfolio-disaster-resilience.md). Climate goals were raised on October 26 (governing decisions). These rows change only when the proposed deltas are integrated.
+
+## Decided Package A: integrated fiscal booking (October 28)
+
+This table supersedes the earlier provisional cost options for these rows. It implements the October 27 Package A/O5/CLI-7C decisions; it does not adopt removal purchases, international costs or a new revenue settlement. Figures are nominal $T over FY2030–39, with conservative credit savings until scored. The [integration account](../sources/climate-ledger-integration.md) explains annual flows and limitations.
+
+CLI-1 and CLI-5 share the same credit-saving denominator: $0.90T plus $0.22T of transmission ITC/45X. Allocate the $178.5B saving proportionally, $143.4B to CLI-1 and $35.1B to CLI-5. Thus CLI-1 is $0.757T rather than the unreconciled ~$0.72T sketch; **total savings do not shrink or increase**. The older possible $0.2T overlap is not a second saving: the priced denominator is treated as disjoint pending a provision-level score. Snap-back remains part of the standard-led design; no larger saving is banked.
+
+| ID | Booked component | 2030–39 cost ($T) |
+| --- | --- | ---: |
+| CLI-1 | Clean-energy credits restored (refundable, direct pay, point of sale; CEIC extended) | 0.756551 |
+| CLI-2 | Climate Dividend: delivery of REV-C1 (80% equal per adult, quarterly, paid before the fee reaches prices) | 1.531130 |
+| CLI-5 | Thriving Economy add-ons (transmission ITC for plan-selected lines, 45X, resilience credit, LIHEAP/WAP/LIHWAP, ag R&D, minerals, adaptation) | 0.564935 |
+| CLI-7 | Disaster permanent pieces: D2, D3, D6, D7 and D8 | 0.078052 |
+| CLI-5L | Bill protection for low- and moderate-income households (while the increase lasts) | 0.007200 |
+| CLI-7C | CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored) | 0.003362 |
+| CLI-7N | NFIP debt resolution (scored cost, FY2030) | 0.002230 |
+| CLI-13A | CLI-13 agricultural payments (continuing) | 0.030801 |
+| CLI-5W | Low-income heat-pump retrofits (CLI-5W), paid from credit savings | 0.084042 |
+| CLI-10G | Public grid delivery, lean tranche 1 (deficit cost) | 0.039426 |
+| CLI-7K | Disaster capital pieces: D1 mitigation fund, D5 wildfire, D9 buyouts | 0.112487 |
+| CLI-9 | Clean-industry contracts (model industrial-support estimate) | 0.109546 |
+| CLI-13F | CLI-13 forests and reforestation | 0.024641 |
+| CLI-2O | O5 financing bridge: incremental receipts less incremental dividend | -0.091545 |
+| CLI-3E | Statutory clean-energy standard, 90% by 2035 and 100% by 2040 | 0.000000 |
+| CLI-4E | Statutory fleet standards and zero-emission vehicle sales | 0.000000 |
+| CLI-4H | Statutory clean-heat standard, effective 2032 | 0.000000 |
+
+CLI-2O is an accounting allocation, not an additional policy or additional spending: incremental process/combustion receipts less the incremental dividend finance the displayed gross uses. CX is separate. The baseline 20% share remains credited once to CLI-5. CLI-13F is forests only; CLI-13A is continuing farm payments. CLI-7K contains D1/D5/D9 capital and ends after 2039; CLI-7 holds D2/D3/D6/D7/D8 permanent costs; CLI-7N holds D4 NFIP resolution in 2030. CLI-7C starts FY2031, with expected net cost of $0.3B a year in 2025 dollars (range −0.3 to +1.0); $75–150B contingent exposure is disclosed but never scored as an additional outlay. CLI-10G's lean tranche scores expected deficit cost, not $100B of loan principal. CLI-5W is $67.5B in 2025 dollars over 2031–39. The zero-direct-outlay standards ride the existing statutory vehicle; CLI-4H starts in 2032.

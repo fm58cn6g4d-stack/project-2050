@@ -4,6 +4,8 @@
 
 > **Education adoption update:** This is the preserved pre-EDU-9B numerical comparison. Espen has adopted the full education-fund benefit scope and payroll institution. Use [the integrated education and fiscal recovery bridge](fiscal-recovery-model.md) for current selected-scope costs and conditional financing. Old “held education” and “decided package” labels below describe the earlier vintage; they do not reverse that adoption or establish a current financing/D3/D4 pass. Exact new rates and transition finance await decision.
 
+> **Climate integration disclosure:** CLI-7C carries $75–150B of contingent exposure, not scored; its expected cost is included in the common fiscal model. The carbon table below is the preserved $150 baseline; Package A process/combustion increments and O5 routing are in the common ledger and recovery audit.
+
 The general-fund ledger counts only general-fund money. This file follows the funds it leaves out: Social Security and Medicare HI over 75 years, the paid-leave fund, the Highway Trust Fund's three accounts, the carbon channel, and the held education fund (EDU-9B). Dollar figures are nominal; ten-year sums are 2030-39 in trillions.
 
 ## Social Security (D8)

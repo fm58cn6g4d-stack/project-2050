@@ -410,3 +410,9 @@ The existing HLT-1/4 and HLT-2 earlier-delivery development options now link to 
 | SS-5 | Complete the high-income base package | Joint SSA/NIIT interactions; broad-rate closer remains unselected |
 | C19b replacement | Income-based replacement and coordinated refundable relief | C20 integration, thresholds/rates, worker/nonworker credit; neither illustrative complete schedule selected |
 | Care / climate | Home-support/catastrophic-care and grid/procurement/adaptation development | No unpriced entitlement, reactor order or unscored savings adopted |
+
+### Package A capital financing (decided October 27; booked October 28)
+
+| ID | Treatment | Amount and constraint |
+| --- | --- | --- |
+| C44 | Decided Package A D4-B financing: CLI-10G and CLI-7K | $0.151913T time-limited capital, already counted as outlays; borrowing classification only, no new envelope authorization |

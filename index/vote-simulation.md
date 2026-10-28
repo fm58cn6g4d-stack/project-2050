@@ -15,7 +15,7 @@
 | Path | Rules change adopted | Regular-order bills enacted (of 21), conditional on floor access | Legacy calendar-filtered diagnostic | Appropriations omnibus enacted |
 | --- | --- | --- | --- | --- |
 | F, graduated cloture (decided) | 73% | 11.5 | 10.1 | 73% |
-| C, talking filibuster (opening offer) | 84% | 13.1 | 8.9 | 83% |
+| C, talking filibuster (opening offer) | 84% | 13.1 | 9.0 | 83% |
 | E, majority cloture (upper bound) | 72% | 11.3 | 10.6 | 72% |
 | G, democracy carve-out (fallback) | 92% | 2.1 | 2.1 | 1% |
 | No rules change | — | 0.1 | 0.1 | 1% |
@@ -37,9 +37,9 @@ A package needs 50 senators plus the Vice President and gets no Republican votes
 | DEM-1: Electoral and civil-rights package | Regular order | 72% | 83% | 91% | 0% | Yes |
 | HLT-3: Public option (carries HLT-5) | Regular order | 42% | 47% | 0% | 0% | Yes |
 | CLI-6: Grid and utility statute | Regular order | 68% | 78% | 0% | 0% | No |
-| CLI-7: Disaster response and flood insurance | Regular order | 73% | 83% | 0% | 0% | No |
+| CLI-7: Disaster response and flood insurance | Regular order | 73% | 83% | 0% | 0% | Yes |
 | IMM-1: Immigration bill | Regular order | 29% | 33% | 0% | 0% | Yes |
-| AI-1: AI bill | Regular order | 71% | 81% | 0% | 0% | Yes |
+| AI-1: AI bill | Regular order | 71% | 81% | 0% | 0% | No |
 | AI-4: AI wage insurance | R3 (survives the trim) | 87% | 87% | 87% | 87% | Reconciliation |
 
 ## Seats
@@ -71,11 +71,11 @@ Senators who vote against any rules change regardless (the planning case assumes
 | Bill | Senate (F) | House | Conditional enactment (F) | Legacy capacity fit (F) | Enacted (G) | Basis |
 | --- | --- | --- | --- | --- | --- | --- |
 | LAB-9D: National service authorization (bipartisan) | 77% | 100% | 77% | Yes | 11% | estimate |
-| CLI-7: Disaster response and flood insurance | 73% | 100% | 73% | No | 0% | estimate |
+| CLI-7: Disaster response and flood insurance | 73% | 100% | 73% | Yes | 0% | estimate |
 | CAP-8: Civil service and congressional capacity | 73% | 100% | 73% | Yes | 0% | estimate |
 | DEM-1: Electoral and civil-rights package | 73% | 99% | 72% | Yes | 91% | war game: ftv |
 | EXE-1: Executive-power guardrails | 72% | 100% | 72% | Yes | 0% | war game: wp |
-| AI-1: AI bill | 72% | 99% | 71% | Yes | 0% | estimate |
+| AI-1: AI bill | 72% | 99% | 71% | No | 0% | estimate |
 | HOU-7: Housing floor bill (zoning conditions) | 70% | 99% | 70% | Yes | 0% | estimate |
 | RTS-3: Equality Act | 70% | 98% | 69% | Yes | 0% | war game: eq |
 | CLI-6: Grid and utility statute | 69% | 99% | 68% | No | 0% | estimate |
