@@ -56,4 +56,6 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 
 **Decision memos.** At each real fork Espen gets two to four options, a recommendation and the consequences of each, in the dossier's design section, with a `DEC-` entry in `charter/decisions.md` once decided. Approval is per decision, never as a package.
 
+**Sessions and handoffs.** A Claude Code session starts another session only to take a ready board step, to run independent work in parallel, to run a large batch at a better-suited tier, or for an independent review. It never starts one for a small subtask, for work a live session already holds, or for a step that waits on Espen. At most three Claude sessions work at once. Each new session gets a standalone brief and reports back when its PR is ready. Messages between sessions only alert another session to work: whatever the other session must know goes in the PR, on the board or in the dossier. Reach Codex with a PR comment. The mechanics are in `.claude/skills/sessions/SKILL.md`.
+
 **Roles.** Codex leads the federal budget model and fair financing. Claude leads the dossiers. Each reviews the other's work at milestones. At most two dossiers are active at once.
