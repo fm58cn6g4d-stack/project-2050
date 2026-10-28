@@ -6,14 +6,14 @@ Updated October 28, 2026 by Claude Code (stage A, PR 1).
 
 ## Now
 
-| Stage | Step | Status | Owner | Where |
-| --- | --- | --- | --- | --- |
-| A. Reset | 1. Clean tree, `legacy/`, models and checks migrated, standards, board, decision log, entry files | In review: needs Espen's approval (tier 3) | Claude Code | PR #46 (branch `claude/stage-a-reset`) |
-| A. Reset | 2. `agenda/agenda.csv` from the legacy domain files and options register | Next | Claude Code | — |
-| A. Reset | 3. `library/catalog.csv` and the generated name index | Waiting on step 1 | Claude Code | — |
-| A. Reset | 4. Registry checker, generalized from the story builder's checks | Waiting on step 1 | Claude Code | — |
-| A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Waiting on step 1 | Claude Code | — |
-| B. Post-election update | Rebaseline the political planning scenario | Starts after the November 3 results | — | — |
+| Stage | Step | Tier | Status | Owner | Where |
+| --- | --- | --- | --- | --- | --- |
+| A. Reset | 1. Clean tree, `legacy/`, models and checks migrated, standards, board, decision log, entry files | Most capable (moves and path rewrites: Light) | In review: needs Espen's approval (tier 3) | Claude Code | PR #46 (branch `claude/stage-a-reset`) |
+| A. Reset | 2. `agenda/agenda.csv` from the legacy domain files and options register | Standard to extract; Most capable for levels and status | Next | Claude Code | — |
+| A. Reset | 3. `library/catalog.csv` and the generated name index | Light for file facts; Standard for status, aliases and rights | Waiting on step 1 | Claude Code | — |
+| A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | Waiting on step 1 | Claude Code | — |
+| A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Waiting on step 1 | Claude Code | — |
+| B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
 
 ## Open PRs
 

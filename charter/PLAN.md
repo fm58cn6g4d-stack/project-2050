@@ -201,6 +201,21 @@ The process is designed for AI agents working without memory between sessions, w
 6. Update the board: done, next, and open questions for Espen.
 7. Open a PR.
 
+**Choosing the model for the work.** Sessions use the lightest model that can do the step well, and the strongest model where care and judgment matter. Errors in large, interconnected datasets propagate, so mistakes there cost more than the tokens saved.
+
+| Tier | Use for | Examples |
+| --- | --- | --- |
+| **Light** (Haiku-class) | Mechanical work with a clear spec and automatic checks | File moves and link updates; regenerating outputs; running checks; formatting; updating the progress board; gathering catalog facts by script; extracting text from originals |
+| **Standard** (Sonnet-class) | Structured work that needs some judgment within a settled design | Cataloguing (status, aliases, rights); drafting evidence entries from originals; writing model code and tests to a written spec; drafting dossier sections from existing evidence; checklist reviews |
+| **Most capable** (Opus-class) | Strategy, design, synthesis, and work where an error would spread | Design choices and decision memos; dossier problem, design and specification sections; reconciling conflicting evidence; model design (mechanisms, evidence maps) and integrating the household, health and budget models; adversarial milestone reviews; legal and constitutional analysis; public briefs |
+
+**Rules:**
+- **Every step on the progress board names its tier,** so the right model is chosen when a session starts.
+- **A lighter model that meets ambiguity stops and flags it.** It doesn't guess: it leaves a note on the board for a stronger session.
+- **Strong sessions delegate mechanical subtasks to lighter subagents** where the tools allow, and check the results.
+- **When unsure, go one tier up.** A wrong judgment in a canonical file or model costs more to find and fix than the difference in usage.
+- The same tiers apply to other vendors' agents, by capability.
+
 **Merging:**
 - **Routine changes** merge once checks pass. These are research, evidence, models, dossier drafts and public pages that change no commitment.
 - **Decisions** wait for Espen. These are the charter, the flagship list, design choices at real forks, and anything that changes what the project commits to.

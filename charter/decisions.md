@@ -8,3 +8,4 @@ Role: Espen's goal-level decisions, one entry each, newest last. Status: current
 | DEC-2026-10-28-02 | 2026-10-28 | Six flagships (secure floor, care, home, clean power, work, a new consensus on immigration) and two foundations (democratic renewal, fair financing) | `charter/PLAN.md` 3.1 |
 | DEC-2026-10-28-03 | 2026-10-28 | Add a health coverage model to the core models | `charter/PLAN.md` 3.4 |
 | DEC-2026-10-28-04 | 2026-10-28 | Keep the repository public, so the merge automation keeps working on GitHub Free; licensed material is cited, not committed | `charter/PLAN.md` 4 |
+| DEC-2026-10-28-05 | 2026-10-28 | Choose the lightest model that can do each step well, and the strongest where care matters (Light, Standard, Most capable); every board step names its tier | `charter/PLAN.md` 5, `charter/STANDARDS.md` |
