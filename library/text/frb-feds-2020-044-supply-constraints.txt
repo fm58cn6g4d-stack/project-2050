@@ -1,0 +1,4536 @@
+Source: https://www.federalreserve.gov/econres/feds/files/2020044pap.pdf
+Publisher: Board of Governors of the Federal Reserve System
+Retrieved: 2026-10-28
+Original SHA-256: 074a37be13c04f8628d1a44dff6bbed7832e52b6db90f33d16b93cab4d38bd07
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Finance and Economics Discussion Series
+Divisions of Research & Statistics and Monetary Affairs
+Federal Reserve Board, Washington, D.C.
+
+Housing Supply and Affordability: Evidence from Rents, Housing
+Consumption and Household Location
+
+Raven Molloy, Charles G. Nathanson and Andrew Paciorek
+2020-044
+
+Please cite this paper as:
+Molloy, Raven, Charles G. Nathanson, and Andrew Paciorek (2020). “Housing Supply
+and Affordability: Evidence from Rents, Housing Consumption and Household Location,”
+Finance and Economics Discussion Series 2020-044. Washington: Board of Governors of the
+Federal Reserve System, https://doi.org/10.17016/FEDS.2020.044.
+NOTE: Staff working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staff or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Housing Supply and Affordability:
+Evidence from Rents, Housing Consumption and Household Location*
+
+Raven Molloy
+Federal Reserve Board
+Charles G. Nathanson
+Northwestern University
+Andrew Paciorek
+Federal Reserve Board
+
+March 2020
+We examine how housing supply constraints affect housing affordability, which we define as the
+quality‐adjusted price of housing services. In our dynamic model, supply constraints increase the
+price of housing services by only half has much as the purchase price of a home, since the
+purchase price responds to expected future increases in rent as well as contemporaneous rent
+increases. Households respond to changes in the price of housing services by altering their
+housing consumption and location choices, but only by a small amount. We evaluate these
+predictions using common measures of supply constraints on housing outcomes and data from
+US metropolitan areas from 1980 to 2016. We find sizeable effects of supply constraints on house
+prices, but modest‐to‐negligible effects on rent, lot size, structure consumption, location choice
+within metropolitan areas, sorting across metropolitan areas, and housing expenditures. We
+conclude that housing supply constraints distort housing affordability, and therefore housing
+consumption and location decisions, by less than their estimated effects on house prices suggest.
+
+* All errors are our own. The views we express herein are not necessarily those of the Board of Governors or others
+within the Federal Reserve System. We thank seminar and conference participants at Kellogg, UBC‐Sauder, George
+Washington, the DC Urban Day, the Urban Institute, and the Urban Economics Association for helpful comments.
+Charles Nathanson thanks the Guthrie Center for Real Estate Research for financial support.
+
+1. Introduction
+A large and growing literature has documented a strong connection between housing
+supply constraints and house prices.1 Less work has analyzed how these effects map into
+changes in housing affordability.2 One reason for this gap is that housing affordability is defined
+in many different ways in the academic and policy realms. We define housing affordability as
+the quality‐adjusted price of housing services—i.e. rent—a definition founded on the idea that
+the price of housing services is more relevant for household welfare than the purchase price of
+a home. The price of housing services is also a meaningful metric because it affects housing
+consumption and location decisions through the household’s welfare optimization problem.
+These outcomes are important dimensions of household wellbeing and are the subject of much
+attention from policymakers. Thus, to obtain a comprehensive view of the effects of housing
+supply constraints on housing affordability and households, this paper examines the effects of
+these constraints on rents, housing consumption, and household location.
+Our analysis begins with a dynamic model in which households choose a level of housing
+services and whether to live in an unregulated city or in a city with supply constraints that
+explicitly limit how fast the city can grow. Developers combine structure and lots to supply
+housing services given local constraints and household demand. Supply constraints raise rent
+(the spot price of housing services) by reducing the supply of housing relative to demand.
+However, the increase in rent is smaller than the increase in the purchase price of homes
+because supply constraints increase expected growth in future rent as well as the current level
+of rent.3 In a calibration exercise, we find that the effects on rent are about half of the effects
+on the purchase price of housing. In response to the higher price of housing services,
+households with a given income choose to live on smaller lots, and fewer households choose
+the constrained city. Other housing outcomes depend on whether the constraint limits the city
+growth by land area or by population, and on parameters of the housing production function
+
+1
+
+See Glaeser and Gyourko (2003), Quigley and Raphael (2005), Ihlanfeldt (2007), Zabel and Dalton (2011),
+Hilber and Vermeulen (2016), and Albouy and Ehrlich (2018), among others.
+2
+A few studies have found some correlation between regulation and affordability as measured by rent relative
+to median metropolitan area income (Somerville and Mayer 2003, Pendall 2000). Glaeser and Gyourko (2003)
+argue that housing affordability should be assessed by the level of house prices relative to construction costs, and
+show that metropolitan areas with longer permitting times more regulated metropolitan areas have a larger
+fraction of homes with prices substantially greater than construction costs. Albouy and Ehrlich (2018) estimate the
+effect of regulations on metropolitan amenities and construction productivity and find that the total effect of
+regulations on social welfare is negative.
+3
+Gyourko, Mayer and Sinai (2013) also develop a model in which an inelastic supply of housing raises house
+prices more than rent, although they do not derive the effects of supply constraints on rent. While their model of
+consumer choice is static, ours is dynamic, giving us a richer framework to estimate the quantitative effects on
+rents relative to prices.
+
+1
+
+and the household utility function. Changes in these outcomes are substantially smaller than
+the effect on the purchase price of housing.
+Next, we empirically evaluate the model’s predictions using variation across metropolitan
+areas in two measures of housing supply constraints that are standard in the literature. As a
+measure of land availability, we use geographic constraints calculated by Saiz (2010), which he
+derives from the fraction of land on a steep slope or covered by water. As a measure of
+regulations that restrict the growth of the housing stock, we use the Wharton Residential Land
+Use Regulation Index, which is composed of a range of types of regulations from a survey of
+local government officials that was conducted in 2006 (Gyourko, Saiz and Summers 2008).
+Importantly, regulations do not arise randomly across areas, and the regulatory
+environment is likely correlated with characteristics of an area that affect the housing market
+outcomes in which we are interested (Davidoff 2016). Geographic constraints also might be
+correlated with omitted variables that affect housing outcomes. We address this endogeneity
+problem in three ways. The first is to focus on changes in housing market outcomes from 1980
+to 2016, in order to difference out local characteristics that are relatively unchanging over time.
+We do not have data on regulatory constraints in 1980, so we assume that metropolitan areas
+with stricter regulations in the early 2000s experienced larger increases in the severity of
+regulation during this period. Section 3 provides evidence for this assumption. We also assume
+that geographic constraints became more binding over this period, which is consistent with the
+increasing density in metropolitan areas. Our second approach to mitigate endogeneity is to
+control for time‐varying factors that might also be correlated with supply constraints and
+housing outcomes. Our third approach is to drop metropolitan areas that experienced
+persistently low demand over our sample period, as these locations are likely different from
+growing metros along many unmeasurable dimensions.
+We begin our empirical analysis by estimating the effects of supply constraints on house
+prices and rent using property‐level data from the 1980 Census and the 2012‐2016 American
+Community Survey (ACS). Consistent with the model’s predictions, the effects of the supply
+constraints on rent are about half the estimated effects on house prices. Moreover, the
+estimated effects on rent are small in absolute magnitude. For example, a metro with
+regulation 2 standard deviations tighter than average experienced 7 percentage point stronger
+rent growth in total over this 35‐year period, which works out to less than ¼ percentage point
+faster growth per year. A few other studies have noted that rents tend to be less correlated
+with housing supply regulations than house prices (Malpezzi 1996, Malpezzi and Green 1999,
+Green 1999, Xing, Hartzell and Godschalk 2006), but they do not explain why this occurs or link
+the results to implications for housing affordability. Gyourko, Mayer and Sinai (2013) show that
+metropolitan areas with a tight housing supply and strong demand have higher ratios of prices
+2
+
+to rent, but they do not look at the role of supply constraints separately from demand, nor do
+they examine the effects on rent directly.
+Next, we examine the effects of supply constraints on a variety of housing consumption
+decisions: unit size, lot size, structure type, number of rooms and household size. We obtain
+the first two outcomes from property tax records and the last three outcomes from the Census
+and ACS data. We find small effects of supply constraints on all of these outcomes, and the
+standard errors are generally small enough that we can reject large negative effects.
+Turning to effects on household location choices, in the Census and ACS data we find that
+regulatory constraints lead to lower growth in the housing stock and a small amount of sorting
+by income and education. These results explain very little of the aggregate amount of sorting by
+income and education across metros that has occurred between 1980 and 2016. Geographic
+constraints reduce the number of housing units but do not appear to cause any sorting by
+income or education across areas. The amount of sorting by income that we find in our analysis
+is materially less than the amount found by Gyourko, Mayer and Sinai (2013), likely because
+they examine sorting into areas that have both a constricted supply and strong demand,
+whereas we focus solely on supply constraints.
+Finally, we estimate the effects of housing supply constraints on housing expenditures.
+These expenditures combine effects on housing costs with consumption and location decisions.
+Consistent with the model, we find that both constraints raise housing expenditures by less
+than the estimated effects on house prices. They also have only small effects on the fraction of
+households spending more than 30 percent of their income on housing, an indicator of
+affordability favored by housing policy analysts.
+Broadly speaking, our empirical results accord with the predictions of the model, in that we
+find much smaller effects of regulation on rent than on house prices and can reject large
+household adjustments along most dimensions. One interesting exception is the effect of
+geographic constraints on lot size. The model predicts that most households remain in the city
+and occupy houses on much smaller lots, while spending no more on housing. In contrast, in
+the data, we find that lot sizes do not shrink in response to geographic constraints but that the
+number of households choosing to live in the city decreases by more than expected. Moreover,
+the data suggest that household expenditures rise somewhat in more geographically
+constrained areas. These results are consistent with the possibility that minimum lot sizes and
+other constraints prevent households from adjusting their land consumption as much as they
+would prefer, pointing to a potentially important interaction between geographic and other
+
+3
+
+constraints. Banzhaf and Mangum (2019) also find evidence that structural and regulatory
+constraints create frictions in housing consumption.
+One issue that our model does not address is location choice within a metro area. We might
+observe little adjustment along the dimensions of housing consumption or metro‐level sorting
+because households instead offset higher housing costs by choosing to live in neighborhoods
+with relatively low land prices, such as those with long commutes. We look for evidence of this
+possibility by examining housing construction by Census tract from 1980 to 2016. We measure
+neighborhood amenities with distance to the metro central business district, average commute
+time, school quality and crime. We find no evidence that regulatory constraints have shifted
+housing demand to neighborhoods with lower amenities. Specifically, while we find some
+evidence that geographic constraints have increased the housing stock in areas with lower
+school quality and higher crime rates, they also appear to have led to a shift in construction to
+locations closer to the CBD with shorter commute times. On net, we find little support for the
+idea that household location choice within a metro has responded to supply constraints in such
+a way as to obscure or offset large effects of supply constraints on the price of housing services.
+In summary, we find that the effects of supply constraints on the price and quantity of
+housing services are substantially smaller than their effects on house prices. Because the
+consumption of housing services has a clearer, more direct effect on welfare than
+homeownership, our results suggest that the housing consumption and affordability distortions
+from supply constraints are much smaller than the effect on prices.4
+
+2. Model
+2.1. Environment and equilibrium
+There are two cities, (for “regulated”) and (for “free”). Time runs continuously from
+0. The economy consists of households, each living in one of these two cities. The utility of
+household is
+log
+
+, ,
+
+4
+
+, ,
+
+,
+
+,
+
+By making it harder to buy (rather than rent) a house, supply constraints may have welfare costs from which
+we abstract in this paper. Entrepreneurs use housing wealth as collateral for small business ventures (Adelino,
+Schoar, and Severino 2015; Kerr, Kerr, and Nanda 2019). Homeownership may act as a forced saving mechanism,
+helping households achieve higher future consumption (Ghent 2015; Schlafmann 2016). In addition, homeowners
+invest more than renters in social capital (DiPasquale and Glaeser 1999), and their children obtain higher test
+scores and are more likely to graduate from high school (Haurin, Parcel and Haurin 2002; Aaronson 2000).
+
+4
+
+where is the time the household is born, is the discount rate, , is its taste for city , , is
+non‐housing consumption, and , is housing consumption. Flow utility from non‐housing and
+housing consumption is Cobb‐Douglas:
+∈ 0,1 . The household
+, , ,
+,
+, , where
+receives income that is constant over time. The distribution of income across households has
+a probability density function .
+Households differ in their city tastes:
+,
+
+,
+
+,
+
+where , and , vary as independent standard extreme value distributions and
+assume that city tastes are independent from household income.
+
+0.5 We
+
+Each household is part of a “dynasty,” a collection of households with identical income and
+city tastes. At a given time, the dynasties contain the same number of households, and the
+number of households grows at a rate . Each dynasty chooses cities and consumption levels
+for its households to maximize the sum of their utility. The dynasty can borrow against the
+future income of its households at a constant rate , yielding the budget constraint
+,
+
+, ,
+
+,
+
+,
+∈
+
+∈
+
+where ,
+is the rental price of units of housing in city at time , and the price of non‐
+housing consumption equals one.6 Although an artificial modeling device, the dynasty allows us
+to model population growth in a tractable manner, and can be thought of as representing
+bequests between generations.
+Competitive developers supply housing in each city using two inputs: land, , and tradeable
+capital, . Epple, Gordon, and Sieg (2010), Ahlfeldt and McMillen (2014), and Combes,
+Duranton, and Gobillon (2016) find that a constant returns to scale, Cobb‐Douglas function of
+these two inputs approximates the production process for housing very well. Thus, we assume
+the following production function in our model:
+,
+
+,
+
+where 0
+1. To abstract from issues of durability, we allow developers to supply housing
+services in frictionless spot markets. The marginal flow cost of structure is
+and the marginal
+flow cost of land assembly is . These costs are identical across cities and constant over time.
+
+5
+
+McFadden (1973) demonstrates the useful properties of extreme value distributions in the context of logit
+choice models.
+6
+Dynasties rent housing in spot markets, which is equivalent to buying and selling ownership claims to
+housing without transaction costs.
+
+5
+
+In city , the number of housing units and area of land used are unconstrained. In city ,
+regulators unexpectedly impose one of two restrictions on developers for all
+0:
+
+
+
+The total number of separate housing units cannot grow at a rate greater than
+The total land used for housing cannot grow at a rate greater than .
+
+.
+
+These rules come at the end of time 0, after developers and dynasties have made their initial
+decisions. The first restriction limits the speed at which developers may supply new housing, so
+it corresponds to delays in the permitting process as well as regulations such as permit limits
+that restrict the amount of new construction. Because each household lives in a separate
+housing unit, this regulation also restricts the growth rate of the city’s population. In contrast,
+the second restriction limits the geographic expansion of the city, so it corresponds to
+geographic constraints on housing supply. It could also reflect some regulatory restrictions,
+such as open space requirements.
+Developers must obtain a permit to supply a housing unit at time . The endogenous permit
+price is , , with ,
+0 due to the absence of regulations in city . Unpermitted land
+available for development in city trades among developers at an endogenous spot price , ,
+which also equals zero in .7 Developer cost minimization pins down the rental price of
+housing:
+,
+
+,
+
+1
+
+.
+
+,
+
+The price to buy housing outright equals the expected net present value of future rents:
+,
+
+,
+
+′.
+
+Equilibrium consists of prices , , , , and ,
+such that dynasties maximize utility
+subject to their beliefs and budget constraints, developers maximize profits while obeying the
+regulations in , and the housing market clears in each city. At
+0, dynasties expect prices
+that hold in an equilibrium without any regulation, while they expect the prices that hold in the
+regulated equilibrium for
+0. Appendix A.4 characterizes equilibrium at
+0.
+
+2.2. Equilibrium effects of population constraints
+To isolate the effect of the population constraint, we set
+so that the constraint
+binds, while assuming that is sufficiently large so that the price of land in equals zero.
+Proposition 1 describes household city choices given the path of permit prices (all proofs
+appear in the appendix).
+
+7
+
+The land price in equals zero because no alternative use for land exists (such as farming). Our results
+remain identical if the opportunity cost of land is positive, as long as this cost remains constant and equal in the
+two cities. Adding this cost to the model is equivalent to increasing .
+
+6
+
+Proposition 1 (sorting). If ,
+household lives in only while
+
+∗
+
+log
+where
+
+≡
+
+∣∣
+
+, , household
+
+,
+
+, ,
+
+, which solves
+, ∗
+
+,
+
+, ∗
+
+,
+,
+
+,
+
+always lives in . If
+
+.
+
+According to the proposition, households with a greater taste for live there until the
+permit price becomes too high. This threshold price is larger when the relative taste for is
+greater or the household’s income is higher. Because the threshold rises in income, regulation
+skews the city income distribution to the right, inducing outmigration of poorer households.
+In equilibrium, the number of households choosing must equal the maximal number that
+city allows. To calculate the former, we compute the number of households at whose
+. The
+relative taste for exceeds the right side of the equation in Proposition 1 for ∗
+latter comes from growing the initial population (appearing in Appendix A.2) by . Equating
+these gives
+.
+,
+
+,
+
+exp
+
+,
+
+This equation pins down , . In particular, , must strictly increase over time, reflecting the
+increasingly binding nature of the population constraint. The proof of proposition 2 provides a
+formal argument, but it is easy to see because the left side decreases in while the right side
+decreases in , . The increasing nature of the permit price means that regulation increases
+prices more than rents:
+Proposition 2 (prices versus rents). The permit price,
+of regulation on rents,
+,
+,
+
+1
+
+, , strictly increases in
+
+. The effect
+
+,
+
+1
+
+is therefore less than the effect of regulation on ownership prices,
+,
+,
+
+1
+
+,
+
+1
+
+for all positive and .
+Each household living in subtracts some constant amount from its flow income to pay the
+permit price. This deduction corresponds to in Proposition 1. The remaining income goes
+toward structure, lot, and non‐housing consumption. Due to Cobb‐Douglas preferences and
+7
+
+production, the shares of remaining income going to these purposes are
+, respecitively. Proposition 3 formalizes this argument.
+
+,
+
+1
+
+Proposition 3 (housing characteristics). Structure and lot sizes for household in
+∗
+
+∗
+
+∣
+
+and
+
+∗ ∣
+
+∣
+
+are
+
+∗
+
+∗
+
+Both
+and
+
+, and 1
+
+∗
+
+1
+
+strictly increase in
+
+.
+
+at each , where the averages are over
+
+,
+
+, .
+
+Proposition 3 establishes two offsetting effects of regulation on housing characteristics.
+Holding income constant, regulation unambiguously decreases structure and lot sizes by
+∗
+increasing
+. This mechanism is an income effect: the permit price makes households
+poorer, leading them to consume less housing. Offsetting the income effect is a sorting effect.
+Holding the characteristics conditional on income constant, the sorting of poor households out
+of city drives up average characteristics in because these characteristics increase in income.
+The net effect of regulation on the average structure and lot size in city is ambiguous.
+
+2.3. Equilibrium effects of geographic constraints
+To isolate the effect of geographic constraints, we set
+so that the constraint binds,
+while assuming that
+is sufficiently large so that the permit price in equals zero.
+Proposition 4 describes household city choices given the path of permit prices.
+Proposition 4 (sorting). Household lives in
+,
+
+log
+and lives in
+
+only if
+
+1
+
+,
+
+,
+
+log 1
+
+when this inequality does not hold.
+
+As with population constraints, geographic constraints lead some households with a higher
+taste for to live in . But different from the population constraints, this outmigration is
+independent of household income because of Cobb‐Douglas preferences and production. The
+housing characteristics for households in clarify this point:
+Proposition 5 (housing characteristics). Structure and lot sizes for household in
+
+are
+
+∗
+∗
+
+1
+
+,
+
+.
+
+By driving up the marginal cost of assembled land ( ,
+), geographic constraints lead to
+smaller lot sizes. The proportional decrease in lot size is the same for all income groups, and
+coincides with the term on the right side of the inequality in Proposition 4. This result holds
+because of Cobb‐Douglas preferences and production. Another important modeling choice is
+8
+
+the absence of minimum lot size requirements. With a minimum lot size, the geographic
+constraint would act as a fixed cost for poor households whose lot size is constrained to be the
+minimum. Structure size also does not depend on geographic constraints because of Cobb‐
+Douglas preferences and production, assumptions that we will relax below.
+To solve for the equilibrium price of land, we equate the total lot sizes of households
+choosing with the maximal size that city allows. The former comes from Propositions 4 and
+5, while the latter comes from growing the initial city land size (appearing in Appendix A.4)
+by . This equation yields a closed‐form solution for the land price:
+1
+
+1
+
+,
+
+1 ,
+
+which strictly increases over time. Using this formula, we prove our final proposition:
+Proposition 6 (prices versus rents). The effect of geographic constraints on rents,
+,
+,
+
+,
+
+1
+
+,
+
+is less than the effect of regulation on ownership prices,
+,
+
+1
+
+,
+
+′,
+
+,
+
+for all positive and .
+
+2.4. Calibration
+We calibrate the model to quantify the effects of supply constraints on rents, housing
+expenditures, housing characteristics, and incomes given the effect of constraints on ownership
+prices. To perform this exercise, we need values for the various model parameters. The
+appendix gives details on how we quantitatively solve the model given parameter values.
+We use a discount rate of
+0.05. We set the income distribution, , to a lognormal with
+mean $50,000 and log standard deviation 0.96, which is the mean of the standard deviations of
+positive log household income in the 1980 and 2016 U.S. Census data samples. We take
+0.25 from Davis and Ortalo‐Magné (2011), who find that this share of income is spent on rent in
+many cities from 1980 to 2000. We set , which governs the distributions of preferences for R
+and F, equal to three, a value that is within the range estimated by Diamond (2016) by
+computing the elasticity of cross‐city migration with respect to changes in wages and rents. We
+set
+2/3, share of construction expenditure on structure that Albouy and Ehrlich (2018)
+estimate. The ratio ⁄ pins down the initial relative size of city . We set it to 1 so that the
+9
+
+cities have identical populations absent regulations in . The unconstrained growth rate of the
+number of households, , equals 0.01, reflecting average annual population growth in the U.S.
+between 1980 and 2016.
+The final parameters are
+and , which describe the supply constraints. We choose these
+parameters so that each constraint raises the ownership price of a constant‐quality house (at
+the median of the quality distribution at time zero) by 10% over 30 years. This magnitude is
+convenient because in our empirical estimates below, we find that a one standard deviation
+tighter constraint is associated with about 10 percent faster price growth over a roughly 30‐
+year period. This methodology gives us values of
+0.0092 and
+0.0093.
+We can assess our assumptions for the increase in supply constraints using empirical
+evidence on permitting time found in two surveys conducted by researchers at the Wharton
+School of Business. Both surveys asked local government officials about the length of time
+typically required for a building permit application to be approved. The first survey was
+conducted in the 1980s (Linneman, Summers, Brooks and Buist 1990), and the second survey
+was conducted in 2006 (Gyourko, Saiz and Summers 2008). Table 1 shows that permitting time
+increased by 3 to 4 times between the 1980s and 2006, depending on the type of permit. In the
+simulation, we can think of
+0 as mapping to 1980 in the data. Therefore, 2006 corresponds
+to
+26. In our simulation, the permit price at
+26 is four times higher than it was at
+8. In other words, our choice of parameters leads to a quadrupling of the supply constraints
+between 1988 and 2006, which is consistent with what we find in the data.
+Table 2 reports changes in outcomes given this assumed price increase. The case of
+population constraints appears in column (1), while the results under land area constraints are
+in column (2). Under both supply constraints, the rent of the initial median unit rises far less
+than prices—by only about half. In other words, about half of the effect on ownership prices
+comes from anticipation of future rent increases that the supply constraints will continue to
+cause. Figure 1 illustrates this result by showing the evolution of prices and rents in response to
+the population constraint. Initially, rent is unchanged because the population constraint only
+affects future growth. But prices jump by about 4 percent in response to anticipated future rent
+increases. Over time, prices and rents rise by similar amounts, so that the net increase in prices
+remains larger. Although the differential between prices and rents becomes a smaller fraction
+of rent as time goes on, it is still quite substantial after 30 years. Results are similar for the
+geographic constraint, not shown. Propositions 2 and 6 prove that the effect on rents is smaller
+than the effect on ownership prices, while Table 2 and Figure 1 illustrate that this difference is
+meaningful.8
+
+8
+
+In some models, convergence between prices and rents occurs much faster than in our model. See
+Rappaport (2004) for an example. In that case, convergence occurs more quickly because it is modeling the
+response to a one‐time shock to the level of labor demand. By contrast, in our model, regulation constrains the
+
+10
+
+Holding income constant, population constraints decrease structure and lot sizes by 1.7%.
+To compute this number, we calculate the drop for each household in after 30 years and then
+take the average across households. The 1.7% decrease in structure and lot sizes is nearly an
+order of magnitude less than the increase in ownership prices and is significantly less than the
+increase in rents, in part because housing begins as only 25 percent of households’ budgets,
+and households pay for the permit price by cutting back on both housing and non‐housing
+consumption.
+Population constraints reduce the number of households that choose to live in the
+regulated city by about 3½ percent. And because poorer households are more likely to leave
+the regulated city, these constraints raise the median income in the city by 3.0%.
+Geographic constraints reduce lot sizes by 18.8%, which is nearly double the effect on
+house prices. This type of constraint has no effect on structure size, housing expenditure
+shares, or median city income. The lack of adjustment along these dimensions results from our
+assumptions that preferences and the housing production function are Cobb‐Douglas, so that
+an increase in the unit price of land leads only to less land consumption and some out‐
+migration. Also important is the lack of a minimum lot size, which would lead to adjustments
+along other margins by limiting the decrease in lot sizes.
+Although much of the literature has found that Cobb‐Douglas functions are good
+approximations for both utility and production, the remaining columns of Table 1 explore the
+case of geographic constraints while relaxing the Cobb‐Douglas assumptions. We instead use
+constant elasticity of substitution (CES) preferences or production, for which Cobb‐Douglas is a
+special case. The appendix solves this more general model. Column (3) reports results when
+preferences are CES, in which case we take the elasticity of substitution between housing and
+non‐housing consumption from Albouy, Ehrlich, and Liu (2016). In column (4), we also use a CES
+production function, taking the elasticity of substitution between land and structure from
+Albouy and Ehrlich (2018). In both cases, we keep the initial expenditure share on structure and
+housing the same as in the baseline calibration.
+With CES preferences, households cut lot consumption by 13.9%, still a large number but
+less extreme than before. By contrast, structure sizes actually increase because, with a Cobb‐
+Douglas production function, structure costs must scale with total housing costs. When the
+housing production function also is CES, lot sizes only fall by 6.6% and structure sizes now fall
+slightly. CES production makes structure and lots strong complements, meaning that
+developers cut structure sizes in response to the increase in land prices. In summary, lot sizes
+
+population growth rate by a greater amount over time, so it takes longer for rents to catch up to the increase in
+prices.
+
+11
+
+shrink markedly in these CES extensions but not by as much as in the Cobb‐Douglass case.
+Effects on other outcomes remain small.
+To clarify the role of the discount rate, Appendix Table 1 reproduces Table 2 using a very
+high discount rate (
+0.1) and a very low discount rate (
+0.02). Under the high discount
+rate, rents rise between 7 and 8 percent in response to the supply constraints, while they rise
+only about 3 percent under the low discount rate. Structure and lot sizes fall more sharply
+under the low discount rate, however, because households save more in anticipation of future
+increases in rents. Therefore, our baseline result of a small effect of supply constraints on rents
+grows stronger with a smaller discount rate, whereas the small effect of supply constraints on
+real outcomes grows stronger with a larger discount rate.
+
+3. Empirical Strategy and Data
+3.1. Identification
+Our goal is to estimate the effect of housing supply constraints on housing affordability, as
+measured by rent, and on households’ housing consumption and location decisions. We
+identify these effects by comparing outcomes across metropolitan areas in the US. Because of
+the large amount of heterogeneity in regulatory and geographic environments across locations,
+cross‐metro analysis provides a good environment in which to look for its effects. One major
+empirical challenge, however, is that housing supply regulations correlate with many other
+aspects of local housing and labor markets that also affect the outcomes that we are interested
+in (Davidoff 2016). Therefore, we cannot simply regress our outcomes of interest on regulatory
+variables and expect to identify a causal effect.
+We address this issue in three ways. The first way is to focus on changes in our outcomes of
+interest over time. This strategy allows us to abstract from other factors that might be
+correlated with regulation and housing characteristics, but are unchanging over time. For
+example, structure costs might vary across locations due to the availability of various types of
+construction materials. Or preferences over housing versus other consumption might differ
+across locations. The second way is to control for some time‐varying factors that might be
+correlated with regulation and housing outcomes—specifically variables that reflect local
+productivity growth and amenities. The third way is to exclude metropolitan areas with low
+housing demand from our analysis, since housing markets in these areas likely differ from other
+areas in many unobservable ways that might be correlated with our outcomes of interest. We
+write this identification strategy as:
+,
+
+12
+
+where
+is an outcome for household in metro at time ,
+is a metro dummy, is a
+time dummy,
+is a vector of supply constraints in metro at time , and
+is a vector of
+controls. The coefficient of interest is .
+We do not have detailed data on how supply constraints have changed over time, so we
+cannot include these changes directly in our analysis.9 Instead, we assume that locations with
+tighter constraints in the 2000s experienced a greater tightening of constraints over the past
+four decades. This assumption is based on evidence that supply constraints were much less
+binding four decades ago. For example, in a sample of 402 California cities, Jackson (2016) finds
+that most regulations that affect the size, location, or density of the housing stock were
+established after 1985. In a study of communities in the Greater Boston area, Glaeser and Ward
+(2009) show that most cluster zoning regulations, wetlands bylaws, and septic system
+requirements were adopted in the 1980s or later. While subdivision requirements were more
+common than these other regulations in the 1970s, nearly half of the communities in their
+sample adopted subdivision requirements after 1980. Massachusetts and California are well‐
+known to be among the more highly‐regulated states, so it is unlikely that housing supply
+regulations became widespread in other states before reaching these two. In addition, Ganong
+and Shoag (2017) report that the fraction of state appellate court cases that contain the phrase
+“land use” increased by about 60 percent from 1980 to 2010.10
+The topography of the land changes quite slowly over time, so one might question how
+geographic constraints might become more binding over time. Cosman, Davidoff and Williams
+(2018) develop a model to show that in an expanding city, it is the marginal supply of land at
+the edge of the city that affects prices, not the average supply of land throughout the city. They
+argue that the marginal supply of land at the edge of the city does not decrease over time since
+the boundary of the city shifts out. However, in some metropolitan areas like San Francisco the
+terrain becomes more mountainous toward the edge of the metro, so the constraints become
+more binding as the metro grows toward these constraints. Moreover, prior research has found
+infill development to be fairly common in many metropolitan areas (Brueckner and Rosenthal
+2009; Burchfield, Overman, Puga and Turner 2006; Hilber, Rouendal and Vermeulen 2018; and
+McDonald and McMillen 2000). As housing demand in a city increases and more homes get
+built, less land will be available in the interior of the city for further new construction. To
+demonstrate the importance of infill development, Figure 2 shows how housing unit density in
+
+9
+
+Although Table 2 compares results of the 2006 Wharton survey to an earlier survey conducted in the 1980s,
+this comparison is only sensible for a single survey question. More generally, the other sets of survey questions are
+not readily comparable across the two surveys. Moreover, only 60 metro areas are observed in both surveys and
+we would like to use a wider set of metro areas in our analysis.
+10
+The incidence of court cases related to land use began increasing in 1960, illustrating that some regulations
+were binding in some locations prior to 1980.
+
+13
+
+the central parts of metropolitan areas has changed from 1980 to 2016.11 In 1980, about two‐
+thirds of metropolitan areas had an average density of less than 40 units per square kilometer
+in their central counties. By 2016, only about one‐third of metros had an average density this
+low in their central counties. Thus, there has been a substantial amount of residential
+construction in the interior of metropolitan areas, and so we think it is reasonable to assume
+that the supply of land throughout the city matters for determining the supply of housing.
+Motivated by the evidence that supply constraints were much less binding in 1980, we
+compare observations from 1980 (
+) to observations in the 2010s (
+). Given
+that ,
+0, we may rewrite the above specification as
+1
+
+1
+
+,
+
+where
+equals the average value of the supply constraint and
+equals the average values
+of the controls that we use to proxy for changes in local productivity and amenities.
+Our specification identifies when
+| ,
+0. The controls must explain all of
+the changes in the outcomes over time within metros that correlate with the growth in supply
+constraints but are not caused by the supply constraints. The controls that we think are most
+important are proxies for productivity growth and changes in the value of local amenities.
+Metros that have witnessed growth in regulatory constraints have also seen higher productivity
+growth (Saiz 2010; Davidoff 2016), which could increase household income and alter
+equilibrium housing characteristics. Similarly, many supply‐constrained metros are in locales
+commonly viewed as having desirable amenities. The amenity premium may have increased
+over time, perhaps because the aggregate population has become wealthier. We will discuss
+the variables that we use as proxies for changes in local productivity and amenities below.
+Our third approach to addressing the endogeneity of supply constraints is to exclude low‐
+demand metropolitan areas from our analysis. These areas have quite different housing market
+dynamics from growing areas, and they are different along many unobservable dimensions as
+well as observable dimensions. Moreover, it is unlikely that supply constraints would bind in
+these areas. Following Gyourko, Mayer and Sinai (2013) and Charles, Hurst, and Notowidigdo
+(2018), we calculate ex‐post housing demand in each metro area as the sum of the percent
+change in the number of housing units and the percent change in house value from 1980 to
+2016.12 Low‐demand areas are those in the bottom quartile of the demand distribution, and
+
+11
+
+In the 2013 designation of which counties are in metropolitan areas, the Census Bureau identifies some
+counties in each metropolitan area as “central”. We use this indicator to define central counties and limit our
+analysis to metropolitan areas for which not all counties are designated as central.
+12
+Data are from the 1980 Census and 2016 American Community Survey. We take published data by county
+and aggregate to the 2013 metro area definitions. House value is calculated as the housing unit‐weighted average
+of county median values.
+
+14
+
+are dropped from our analysis. Figure 3 plots growth in the housing stock against growth in
+house values over this period and shows the dropped metro areas in blue.
+In all specifications, we weight the observations so that our results reflect the effect for the
+average household or housing unit in the US. This choice means that large metro areas will have
+larger weight than small metros. In Section 5.1, we discuss alternative results in which we
+weight each metropolitan area in our sample equally.
+
+3.2. Data on supply constraints
+As a proxy for constraints that reduce the future growth rate of the housing stock, we use
+an index of the strictness of housing supply regulation based on the Wharton Residential Land
+Use Regulation survey (Gyourko, Saiz and Summers 2008). In 2006, these researchers sent a
+survey to local government officials asking a range of questions about the types of residential
+land use regulation currently used and the political process through which land use regulations
+are formed. They combine the answers to the questions into a single index of regulatory
+stringency which is available for 259 metropolitan areas. The index is normalized to have a
+mean of zero and a standard deviation equal to one.
+As a proxy for the supply of buildable land, we use data on geographic constraints.13
+Specifically, we use the data underlying Saiz’s (2010) estimates of the fraction of land that is
+unavailable for construction because it is on a steep slope or covered by water.14 This measure
+is also normalized to have a mean of zero and a standard deviation equal to one. The regulation
+.
+index and the index of geographic constraints constitute our two components of
+Not only are the estimated effects of geographic constraints interesting in their own right,
+but they are helpful to include in our analysis for better identification of the effects of
+regulation. For example, Saiz (2010) shows that stricter housing supply regulations developed in
+areas with tighter geographic constraints. Also, the mountains and bodies of water that make it
+more difficult to build are frequently seen as positive amenities, and an increase in the
+desirability of these amenities from the 1970s to the 2000s may have raised housing demand in
+areas with tight geographic constraints (Cosman, Davidoff and Williams 2018). Consequently,
+
+13
+
+One of the components of the regulation index is related to open space requirements, which one could view
+as a constraint on the supply of buildable land. However, it is so strongly correlated with other components of the
+index that we do not believe it is possible to use it to identify the effects of land supply separately from other types
+of regulation.
+14
+Saiz (2010) calculates these constraints for a radius of 50 kilometers around the center of each of 100
+metropolitan areas. We alter this calculation slightly by calculating the fraction of unavailable land for all of the
+land area in the metropolitan area, which allows us to compute geographic constraints for a larger set of
+metropolitan areas.
+
+15
+
+while the identification strategy is not as clear for the geographic constraints as it is for the
+regulatory constraints, we would want to include the geographic constraints anyway in order to
+more clearly identify the effect of regulation.
+
+3.3. Data on outcomes
+To examine affordability directly, we use data on rent and property value from the 1980
+Census and the 2012‐2016 American Community Survey (ACS).15 Specifically, we use the
+variable reflecting gross rent, which adds utilities costs to contract rent in cases when utilities
+are not already included, to ensure comparability across units. We assign a value of
+to
+all responses in the 1980 Census and a value of
+to all responses in the 2012‐2016 ACS.
+Our housing consumption outcomes come from two different sources of property‐level
+data. The first is a 2014 cross‐section of tax assessor data collected by CoreLogic. Tax assessors
+record a variety of property characteristics for the purpose of assessing property values and
+determining property taxes. This dataset covers the vast majority of single‐family housing in the
+US, although important variables are missing or have unreasonable values in a non‐trivial
+number of cases.16 Importantly for our purposes, we can obtain information on the square
+footage of the housing unit, the square footage of the lot, and the construction year of the
+property. We use the natural logarithm of unit size and lot size as outcomes. We assign a value
+of
+to any house built between 1960 and 1980 and a value of
+to any house
+17
+built on or after 2000. We drop units built before 1960 or between 1980 and 2000 from the
+analysis.
+While the tax assessor data provide the most comprehensive data on housing unit
+characteristics with coverage across all metropolitan areas in the US, two drawbacks of the data
+are worth discussing. The first is that we only observe housing characteristics as they were in
+2014. To the extent that some homes built in the 1960s and 1970s have been renovated, their
+2014 characteristics do not reflect the characteristics at the time the homes were built. The
+second drawback is that the data only cover single‐family homes. To the extent that household
+demand can switch between single‐family and multifamily units in response to price changes,
+these data may not capture all of the effects in which we are interested.
+
+15
+
+Data obtained from the IPUMS USA (Ruggles et al. 2019). To harmonize the definition of metropolitan area
+over these two samples, we construct a cross‐walk from four‐digit metropolitan delineations based on 1990 OMB
+definitions (IPUMS variable METAREAD) to the 2013 OMB delineations (IPUMS variable MET2013).
+16
+For computational reasons, we use a 25 percent random sample with 19 million usable observations. Thus
+the full dataset, with the same restrictions, would have about 75 million observations.
+17
+To prevent our results from being driven by outliers with very high values, we drop housing units larger than
+10,000 square feet and units with lots larger than 175,000 square feet (about 4 acres). We also drop units with
+extremely small recorded lots (less than 2000 square feet) and units with very high ratios of floor area to lot size.
+
+16
+
+To address these drawbacks, we return to the Census/ACS data and examine several
+additional outcomes. The first outcome is an indicator for whether a property is a single‐family
+structure, which is helpful because the property tax records only cover single‐family homes and
+households could shift to multifamily units to reduce lot or structure consumption. The second
+outcome that we examine is the number of rooms in the home as a proxy for the structure size.
+Since single‐family homes tend to have more rooms than apartments and we analyze the effect
+on single‐family status separately, we limit the analysis of number of rooms to single‐family
+homes. The third outcome that we examine is the number of adults (defined as age 22 or older)
+per household, since a larger household implies that each individual consumes less structure
+per person.
+In order to examine the effects of housing supply constraints on sorting across metropolitan
+areas, we aggregate the Census/ACS data to the metro level and set the outcome of interest as
+the change in a metropolitan area characteristic from 1980 to 2012‐2016. The first set of
+characteristics that we examine are the fraction of people in each decile of the national
+distribution of income. Then, because annual income may not always reflect a person’s
+permanent income, we also look at two proxies for permanent income: education and
+occupation. Specifically, we examine the fraction of the population age 25 and older with at
+least 4 years of college and the fraction of the population with a high occupation score. The
+occupation score is created by the Census Bureau using median incomes by detailed occupation
+category using the 1950 Census.
+Finally, we examine the effects of the supply constraints on housing expenditures. While
+our model clearly demonstrates that housing expenditures are not a good measure of
+affordability because they reflect household choices as well as the cost of housing services, we
+think these results provide a nice way to combine the effects on housing costs, housing
+consumption and location decisions. We also examine effects on the ratio of expenditures to
+household income, a metric that frequently appears in analyses of housing affordability.
+
+3.4. Data on controls
+Our empirical specification includes three proxies for productivity growth and two proxies
+for local amenities. Our first proxy for productivity growth is the share of the population age 25
+or older with at least 4 years of college in 1980, obtained from the 1980 Census.
+Our second proxy for productivity growth is the share of employment in industries that
+experienced fast wage growth from 1990 to 2016. To calculate this share, we first calculate
+wage growth from 1990 to 2016 by industry using the annual files of the Quarterly Census of
+Employment and Wages (QCEW). Wages are defined as total annual wages divided by total
+annual employment. We define industries using 3‐digit NAICS codes, which gives us 96 industry
+categories. Although we would prefer to calculate wage growth from 1980 to 2016, the QCEW
+17
+
+data by NAICS industry are not available prior to 1990.18 We define high wage growth
+industries as those in the top decile of wage growth and calculate the fraction of employment
+in 1990 in those industries.
+Our third proxy for productivity growth is an estimate of predicted employment growth
+following Bartik (1991) and many subsequent papers in labor and urban economics. To create
+this measure, we use County Business Pattern data and industry code concordances from
+Eckert et al. (2020).19 We interact national industry‐level employment growth rates with the
+1980 shares of employment in those industries in particular CBSAs to get a plausibly exogenous
+shock to local employment stemming only from national trends at the industry level.20
+Our first proxy for local amenities is average January temperature. The value of nice
+weather seems to have increased since the 1970s (Glaeser and Gyourko, 2003) and many
+supply‐constrained metros are in warm locales such as California. This weather premium may
+have affected land prices, and hence housing characteristics, in ways we do not want to
+attribute to supply constraints. We obtain average January temperature by weather station
+from 1981 to 2010 from the National Oceanic and Atmospheric Administration. We average the
+station‐level data by county, then take a weighted average across counties within each
+metropolitan area using county land area as weights.
+Our second proxy for local amenities is the share of seasonally vacant housing from the
+1980 Census. Demand for seasonal housing has grown over time with the ageing of the
+population and rising incomes, and seasonal housing tends to be in high‐amenity areas that also
+may have tighter topographic or regulatory constraints. To make coefficients comparable
+across variables, we standardize all five of the controls to have a mean equal to zero and
+standard deviation equal to one.
+The variables that we include as controls are all positively and significantly correlated with
+our estimate of growth in local housing demand (Appendix Table 2). In section 5.2 we show that
+our results are robust to controlling for observed demand growth instead of these proxies for
+productivity and amenities.
+
+18
+
+We could use data by 1‐digit SIC code to extend our analysis back to 1980. However, doing so would give us
+only about 10 industry categories, and we think having more detailed industry definitions is more valuable than
+having a longer time period.
+19
+The Census Bureau replaces many values in the County Business Pattern employment data with ranges to
+avoid disclosure of information on particular firms. Eckert et al. (2020) impute precise values for the suppressed
+cells using linear programming methods. They also provide concordances to map between SIC and NAICS codes, as
+well as between different vintages of NAICS.
+20
+To calculate the “national” growth rate for industry 1 that we apply to city A, e.g., we strip out city A’s own
+employment in industry 1, to guarantee that the “national” shock is not driven by city A itself. In practice, this
+procedure makes very little difference for our resulting instrument.
+
+18
+
+Beyond the metro‐level controls for productivity and amenities, two other sets of controls
+bear mentioning. For the specifications with rent and house value as the dependent variable,
+we control for all available property characteristics: building age, number of rooms, number of
+bedrooms and a single‐family indicator.21 We include these controls because we are interested
+in constant‐quality rent and price effects.
+For specifications that examine housing characteristics as an outcome, we need to control
+for household income. As shown by the model, doing so accounts for the effects of supply
+constraints on sorting across metros, isolating the effects on the choices made by households of
+a given income level. The specific method of controlling for household income depends on the
+outcome data we are using. When we are using the Census and ACS data, we include indicators
+for the household’s decile in the national distribution of household income. We allow for this
+flexible specification of income in case housing consumption choices are not a linear function of
+income. When we are using the tax assessor data, we include indicators for the Census tract’s
+decile in the national income distribution, using median Census tract income from the 2011‐
+2015 ACS for recently built homes and tract income from the 1980 Census for older homes.22
+For both sets of outcomes, we interact the income decile indicators with the recent indicator to
+allow for the effect of income on housing outcomes to have changed over time.
+
+4. Results
+4.1. Effects on Housing Affordability
+We start by examining the effects of housing supply constraints on real house prices and
+rents. The first column of Table 3 reports the estimated effects of our two supply constraints
+on single‐family house values in the Census/ACS data. In this table, and in all subsequent
+analysis that uses housing unit or property‐level data, we cluster standard errors by metro area
+since the supply constraints are observed at the metro level. A metropolitan area with
+regulations that are one standard deviation tighter than average experienced a 0.09 log point
+(about 10 percent) stronger house price appreciation over our sample period. The estimated
+effect of geographic constraints is similar. Results are similar when we measure house prices
+using a repeat‐sales price index instead of owner‐reported house values in the Census/ACS (not
+shown).23
+
+21
+
+Specifically, we include indicators for decade of year built, indicators for each value of number of bedrooms,
+and indicators for each value of number of rooms.
+22
+Specifically, for older homes, we use 1980 Census data imputed to 2010 Census tracts from Logan, Xu and
+Stults (2014).
+23
+We use the repeat‐sales index for single‐family detached homes published by CoreLogic, converting the
+monthly index to annual averages and comparing 1980 to 2016. The estimated effect of regulation is almost
+
+19
+
+It may be surprising that the estimated effect of regulation on house prices is not larger.
+House prices nearly tripled in real terms in New York, Boston and San Francisco over this
+period, and our estimated coefficients suggest that regulation can explain less than one sixth of
+the price increases in these highly‐regulated regulated metros. And including the effect of
+geographic constraints still leaves more than two thirds of price growth in these cities
+unexplained. However, it is important to keep in mind that housing supply regulations are often
+tighter in areas with strong demand (Davidoff 2016), and it is quite possible that price growth in
+these areas reflects strong demand as well as tight supply. Indeed, our estimated effects are
+larger when we don’t include controls for local demand or geographic constraints (see
+Appendix Table 3). In addition, the effect of regulation appears to be nonlinear, with larger
+effects on prices for very tight constraints. For example, if we estimate separate effects for each
+quartile of the distribution of regulation, we find that house value increased by 0.19 log point
+more in the top quartile of regulation than in the bottom quartile (see Appendix Table 4). Even
+in this specification, though, regulation can explain less than one fifth of the price growth in
+New York, Boston and San Francisco.
+While our estimated price effects are smaller than casual observation might suggest, they
+are in line with other research that has tried to estimate the causal effect of regulations on
+house prices. In an analysis of local planning authorities in England, Hilber and Vermeulen
+(2016) find that a one standard deviation decrease in regulation is associated with 14
+percentage point lower cumulative house price growth from 1974 to 2008. And Zabel and
+Dalton (2011) find that imposing a 1‐acre minimum lot size leads to at most a 20 percent
+increase in house prices in Massachusetts towns.24 Effects of this magnitude are not small in a
+qualitative sense. They are just too small to explain much of the outsized house price growth in
+in many major US metropolitan areas.
+The second column of Table 3 reports the estimated effects of supply constraints on the
+rent of single‐family homes. We start with single‐family rentals because these structures are
+more similar to the structures used to estimate the effects on house prices. For each supply
+constraint, the estimated effect on rent growth is less than half of the estimated effect on
+house price growth. The third column of Table 3 reports the estimated effects on rent in a
+sample of all rental homes. The estimated effects on rent are still much smaller than the
+estimated effect on prices. These results are especially striking because the average increase in
+exactly the same as in the Census/ACS data, at 0.09. The estimated effect of geographic constraints is somewhat
+larger, at 0.23.
+24
+Other research has found larger effects of supply constraints on house prices by looking at a combination of
+supply and demand. For example, Gyourko, Mayer and Sinai (2013) find that metro areas with both strong demand
+and a constrained supply experienced a 0.44 log point larger (real) house price increase from 1970 to 2000.
+Glaeser, Gyourko and Saks (2006) find that a 1‐standard deviation increase in local productivity leads to an
+increase in house prices that is four times larger in a highly‐regulated area compared with a less‐regulated area.
+
+20
+
+real rent over this period was about the same as the average increase in real house prices, as
+shown by the coefficients on the 2012‐2016 indicators. Thus, consistent with the model, we
+find that supply constraints increase rent by much less than house prices.
+We can compare the effects on prices and rents directly by estimating the effects of supply
+constraints on the price‐to‐rent ratio. To do so, we estimate average value and rent by metro
+area, calculate the ratios of mean price to mean rent for each metro, and regress the change in
+this price‐to‐rent ratio on our measures of supply constraints and controls for metro‐level
+productivity and amenities. To be consistent with the micro‐level estimates, we weight each
+metro by the sum of the household‐level weights in that metro. Appendix Table 5 shows that
+each supply constraint has led to larger increases in the price‐to rent ratio. We find the same
+result when we limit the sample to single‐family homes, for which prices and rents are more
+comparable. We also find the same results when we calculate the ratio of median value to
+median rent instead of average value to average rent. In sum, these specifications also show
+that supply constraints have much smaller effects on rents than on house prices.
+Not only are the estimated effects on rent small relative to the effect on prices, they are
+small in absolute magnitude. For example, based on column 3 in Table 3 a metro area with
+regulation 2 standard deviations tighter than average experienced only 0.07 log point larger
+rent increases from 1980 to 2016, which works out to less than ¼ percentage point faster
+growth per year. By contrast, the average increase in (real) rent among all metros in this sample
+from 1980 to 2016 was 0.49 log points—7 times larger. The fourth column of Table 3 reports
+the estimated effects of supply constraints on the rent of 2‐bedroom apartments, which is a
+structure type commonly occupied by low‐income households. While the magnitudes are a bit
+larger for this sample than for the sample of all rental units, they still suggest that metropolitan
+areas with 2 standard deviation tighter regulatory constraints than average experienced only a
+0.09 log point larger increase in real rent growth over this period. Even when we allow for the
+effect of regulation to be non‐linear, metropolitan areas in the top quartile of the distribution
+of regulation experienced only 0.08 to 0.12 larger rent growth over this period (Appendix Table
+4). Thus, we find that supply constraints have only reduced housing affordability by a modest
+amount over this period.
+One immediate question that may come to mind is whether our measures of supply
+constraints may be poor proxies for true supply constraints, which would cause us to
+underestimate the effects on prices and rent. While there is surely some degree of
+measurement error in these measures, they are commonly used in academic research and have
+been shown to be correlated with the elasticity of housing supply (Saiz 2010).25 In addition, it is
+
+25
+
+To date, the papers introducing the regulatory index and the geographic constraint measure have been
+cited in 170 and 347 published journal articles, respectively.
+
+21
+
+reassuring that our estimated effects on house prices are qualitatively similar to other
+estimates in the literature. There is much less research on effects of supply constraints on rent,
+but Howard and Liebersohn (2019) also find that the elasticity of housing supply can explain
+little of the variation in rent growth across metropolitan areas from 2000 to 2018.26
+Another question that may come to mind is whether rent control might prevent rents from
+responding to supply constraints as much as prices. We obtain a list of jurisdictions with rent
+control in 2014 from Landlord.com and drop metropolitan areas with any jurisdictions that
+have rent control.27 The estimated effects on rent in this sample remain about half of the
+estimated effect on house prices, indicating that rent control cannot explain the differential
+between these two outcomes (see Appendix Table 6).
+A third concern with our analysis is that the rents paid by tenants may not reflect market
+rents if the tenants have occupied the unit for a long time. We address this issue by limiting our
+sample to households where the household head moved in within the previous 5 years. Again,
+we find estimated effects on rent that are only half as big as the estimated effects on house
+prices (see again Appendix Table 6).
+
+4.2. Effects on Housing Consumption
+One might be skeptical of our ability to directly examine the effects of supply constraints on
+the price of housing services because this concept is impossible to observe for owner‐occupied
+housing, which makes up roughly two thirds of all housing units. The model illustrates how an
+increase in the price of housing services should cause households with a given income to
+reduce their consumption of housing services.28 In the case of population constraints, this
+showed up as small decreases in structure size and lot size. In the case of land area constraints,
+this showed up as a fairly sizeable decrease in lot size, with small changes in structure size
+depending on the elasticities of substitution between lots and structure and between housing
+and non‐housing consumption. We now test these predictions by examining the empirical
+effects of housing supply constraints on direct measures of housing consumption.
+
+26
+
+Their data are similar to ours in that they use an elasticity of housing supply derived from the two supply
+constraint measures that we use. However, their empirical methodology is not subject to downward bias from
+measurement error.
+27
+http://www.landlord.com/rent_control_laws_by_state.htm. There are 13 metropolitan areas with rent
+control according to this definition. We treat the metro areas of Washington DC and Riverside CA as having rent
+control, even though most jurisdictions in these metros do not have rent control. Results are similar if we treat
+these two metros as not having rent control.
+28
+Even if the model were to allow households to be homeowners, it is still the price of housing services that
+would affect consumption decisions because it is the price of housing services that would appear in the
+household’s budget constraint.
+
+22
+
+The first two columns of table 4 report the estimated effects on lot size of single‐family
+homes and on a single‐family indicator. Regulatory constraints do not appear to reduce lot size;
+the coefficients are positive but insignificantly different from zero. A 95 percent confidence
+interval around the estimated effect on lot size would encompass a negative effect in line with
+the model’s prediction, but we can reject that regulation has a large negative effect on lot size
+and structure type. The estimated effects of geographic constraints are negative, but also of a
+fairly small magnitude. We can reject that a 1 standard deviation increase in geographic
+constraints reduces lot size by the amounts predicted by the model under Cobb‐Douglas
+assumptions or with only CES preferences (columns 2 and 3 in Table 2). That said, we cannot
+reject that a 1 standard deviation increase in geographic constraints reduces lot size 6 percent,
+the effect predicted by the model with CES preferences and a CES housing production function
+(column 4 in Table 2).
+Geographic constraints also appear to lead to a small decrease in the fraction of single‐
+family homes, implying a reduction in a household’s consumption of land. Because the
+durability of housing may prevent the housing stock from adapting to changes in housing
+demand, the third column shows results for the single‐family indicator in a sample restricted to
+recently‐built homes.29 In this sample, the effect of geographic constraints is more negative
+than in the full sample, implying that a 1 standard deviation tighter constraint would reduce the
+fraction of single‐family homes by about 3 percentage points. It is difficult to compare this
+estimate to the model’s predicted effect, but it seems fairly small, in that it is only about one
+third of the standard deviation across metros of changes in the single‐family fraction of newly‐
+built homes.
+Table 5 shows results for various measures of structure consumption. The coefficients on
+the recent indicator in the first two columns indicate that single‐family homes have grown
+substantially larger over time, especially in terms of square footage. But square footage is
+unrelated to either constraint, while both constraints appear to reduce the number of rooms in
+single‐family homes by only a small amount. When we restrict the sample to recently‐built
+homes, the effect of geographic constraints on rooms becomes a little more negative, but the
+effect of regulation goes to zero.
+Another way that households might reduce their consumption of housing would be to add
+more adults to their household, effectively decreasing the amount of structure consumed per
+person. Consistent with this hypothesis, column 4 shows that supply constraints increase the
+number of adults per household.30 The final column of Table 5 reports results where the
+29
+
+Defined as built in 1970 or later for the 1980 sample, and built since 2000 for the 2016 sample.
+In this specification, we control for income by dividing household income by the number of adults in the
+household and then calculating their decile in the national distribution. We do not control for total household
+income because it is mechanically related to the number of adults living there. In unreported analysis, we have
+30
+
+23
+
+dependent variable is the number of rooms per adult, combining the effects on household size
+and the effects on the number of rooms. It shows that both supply constraints reduce the
+number of rooms per adult. The estimated effect of regulation of is the same magnitude as
+implied by the model (negative 1½ percent), while the estimated effect of geographic
+constraints is somewhat larger than the model prediction: We estimate a 3 percent decrease in
+rooms per adult, whereas the model with CES production and utility predicted a 1½ percent
+decrease, and the fully Cobb‐Douglas model predicted no change at all.31 Recall that our
+estimated effects of geographic constraints on land consumption are somewhat smaller than
+predicted by the model. It is possible that people find it easier to adjust structure consumption
+than land consumption, perhaps because minimum lot sizes prevent the desired decreases in
+land consumption.32
+In summary, we do find some evidence that households reduce their land and structure
+consumption in response to housing supply constraints. But the effects are small, consistent
+with the model and with these constraints only having a small effect on the price of housing
+services.
+4.3. Effects on Sorting Across Metropolitan Areas
+Next, we examine the effects of housing supply constraints on sorting across metropolitan
+areas. The model predicted that population growth would be lower in areas with greater supply
+constraints. Prior research has generally found regulatory constraints to reduce growth in the
+housing stock (Mayer and Somerville 2000, Saks 2008, Jackson 2016). There has been less
+research on the effects of geographic constraints on local housing or population growth, and
+the research on the effects of regulation generally does not control for geographic constraints.
+Consequently, we start by estimating effects on the housing stock using our data and
+identification strategy.
+Table 6 reports the results of regressing the change in a metro’s housing stock from 1980 to
+2016 on our two supply constraints, controlling for metro area productivity and amenities. We
+find significantly negative effects of both constraints. A 1 standard deviation increase in
+regulatory constraints reduces the housing stock by about 6 percent, while a 1 standard
+deviation increase in geographic constraints reduces the housing stock by about 10 percent.
+Both effects are larger than predicted by the model, possibly because the durability of housing
+
+confirmed that demographic changes are not driving these results by estimating regressions at the individual level
+and controlling for age and sex.
+31
+Results are similar when we include all housing units instead of only single‐family homes.
+32
+Although the Wharton Survey does include a measure of minimum lot size restrictions, it only indicates the
+presence of minimum lot size restrictions of 1 acre or more, so it does not capture the smaller minimum lot size
+restrictions that exist in many metros (Gyourko and Molloy 2015)
+
+24
+
+and other constraints prevent people from adjusting along other dimensions as much as they
+would like.
+Next, we turn to how supply constraints affect the types of people who choose to live in the
+area. The model predicted that people with more income would be more likely to stay in areas
+with population constraints, while it predicted no effect of land supply constraints on sorting
+because we assumed that an individual’s taste for the regulated city is uncorrelated with
+income. If instead we were to assume that income is positively correlated with changes in the
+taste for the regulated city—say because the regulated city has amenities that have become
+more valued by richer people—then we would expect land supply constraints also to cause
+sorting by income.
+We look for evidence of income‐based sorting using data from the Census and ACS on
+income. Specifically, we calculate the fraction of individuals in a metropolitan area that are in
+each decile of the national distribution of income. An increase in the fraction of individuals in
+the upper deciles would be consistent with richer people sorting into that metropolitan area.
+Therefore, we regress the change in the fraction of individuals in a decile on the supply
+constraints and metro‐level controls for productivity and amenities.
+Figure 4 plots the coefficient estimates for each decile. The results are consistent with a
+mild amount of sorting in response to regulatory constraints (panel A), as these constraints
+have led to larger shares of individuals in the top two deciles and a smaller share of individuals
+in the middle of the income distribution (specifically, the 4th to 7th deciles). But these effects are
+not large, as a 1 standard deviation greater regulatory constraint is associated with only about
+0.6 percentage point more of the population being in each of the top two deciles. Similarly, we
+find that a 1 standard deviation increase in regulatory constraints is associated with only a 3
+percent increase in average income and a 2 percent increase in real median income (Table 6).
+These small magnitudes are consistent with the magnitudes implied by the model.
+Panel B of Figure 4 and Table 6 show no evidence of income sorting across metropolitan
+areas in response to geographic constraints, consistent with a model in which preferences for
+local amenities are uncorrelated with income.
+Next we look at effects on sorting by education and occupation. Regulation is associated
+with a small and marginally significant increase in the fraction of highly‐educated adults—see
+the second column of table 6—but the estimated effect on the fraction of people in high‐
+income occupations is small and insignificantly different from zero. As with the income results,
+geographic constraints are unrelated to these measures of permanent income.
+To get a sense of the magnitudes of these effects, consider the metropolitan area of San
+Francisco, which has an appreciable amount of regulation and experienced large increases in its
+25
+
+fractions of high‐income and highly educated residents from 1980 to 2016. Our estimated
+coefficients imply that regulatory constraints can only explain one eighth of the increase in the
+share of residents in the top decile of the income distribution and one twentieth of the increase
+in the share of highly educated residents.
+
+4.4. Effects on Sorting Within Metropolitan Areas
+Another set of outcomes related to location choice that we examine is location within
+metropolitan areas. Our model did not differentiate across locations within metropolitan areas,
+so it does not make any predictions for this type of sorting. However, it is easy to imagine that
+households might also adjust to higher land prices by choosing to live in a relatively cheaper
+neighborhood within the metro area.
+We assess this possibility by examining whether new housing units are more likely to be
+located in less‐desirable neighborhoods in metropolitan areas with tighter housing supply
+constraints. Neighborhood desirability is measured using four separate neighborhood
+characteristics (where neighborhoods are defined as Census tracts): log distance to the central
+business district (CBD), log average commute time, crime, and school quality. The center of the
+metropolitan area comes from Holian and Kahn (2015).33 Commute time is measured in the
+2011‐2015 ACS. School quality data are obtained from Location Inc., and are derived by
+adjusting local test score data across states using nationwide test scores to make scores
+comparable across school districts. Crime rate data are also obtained from Location Inc., and
+are calculated by assigning crimes reported by all law enforcement agencies in the U.S. to
+Census tracts using a proprietary model. The education and crime variables are standardized to
+have mean zero and standard deviation one.
+We estimate the effect of supply constraints on location choice within the metro in the
+CoreLogic property tax data by regressing each of the four neighborhood characteristics on an
+indicator for whether the home was built post‐2000 and an interaction of this indicator with
+each supply constraint. The regression controls for metropolitan area fixed effects,
+neighborhood income, and metro‐level productivity and amenities, also interacted with the
+“post‐2000” indicator. This specification thus reveals whether homes built post‐2000 were
+more likely to be in lower‐amenity neighborhoods if they are in more supply‐constrained metro
+areas, relative to the distribution of housing units in the 1960s and 1970s.
+
+33
+
+Holian and Kahn (2015) use the location returned when entering the central city name in Google Earth,
+which they found to be qualitatively “quite reasonable in all cases”. The data are available for download at
+http://mattholian.blogspot.com/2013/05/central‐business‐district‐geocodes.html.
+
+26
+
+Table 7 reports the results. Perhaps not surprisingly, recently built homes are more likely to
+be located farther from the CBD, and in areas with longer average commutes, better schools,
+and less crime. With the exception of school quality (“education index”), we find no statistically
+significant or economically meaningful interactions between these effects and regulatory
+constraints. That is, new homes in more regulated metro areas are built in neighborhoods that
+are a similar distance to jobs as new homes in less regulated metro areas, and in neighborhoods
+with similar crime levels. They are built in neighborhoods with worse schools than new homes
+in less regulated metros.
+Geographic constraints seem to have more consistently significant effects on location
+choice. Relative to less constrained metros, those with greater geographic constraints tend to
+have newer homes closer to the CBD and with lower commute times, as well as in areas with
+lower school quality and higher crime. The effects on distance and commute time are the
+opposite of what we would expect if geographic constraints push construction into lower‐value
+neighborhoods, since land prices tend to be higher closer to the CBD.34 While these interactions
+with geographic constraints are significant, they are economically small, apart from the effect
+on school quality. Even in the tail of the distribution—for example, two standard deviations
+above the mean on the index of geographic constraints—new homes are still more likely than
+existing homes to be built farther from the CBD and in neighborhoods with longer commutes
+and lower crime.
+One important caveat to this analysis is that we do not observe variation in supply
+constraints across neighborhoods. If supply constraints were tighter in less‐desirable
+neighborhoods, households would be less likely to choose these neighborhoods, possibly
+offsetting the effect that we expected. On the other hand, research has found that regulations
+are more likely to be found in wealthier areas with more desirable amenities (Davidoff 2016).
+This would create an additional mechanism by which regulation would push households into
+less desirable neighborhoods.
+4.5. Effects on Housing Expenditures
+Finally, we estimate the effects of the supply constraints on housing expenditures using the
+Census/ACS data at the household level. Expenditures are measured as rent for renter
+households, and monthly payments for owner‐occupied households (which includes mortgage
+interest, property taxes and homeowners’ insurance). Other than including data on owner
+expenditures, the main difference between this specification and the specification estimating
+effects on quality‐adjusted rent (reported in Table 3) is that we do not control for housing unit
+
+34
+
+We find generally similar results when we look for these effects by regressing tract‐level population growth
+on the four neighborhood quality measures and interact these measures with our supply constraints.
+
+27
+
+characteristics. Thus we are estimating effects on both rental and owner expenditures,
+including changes in quality, instead of constant‐quality rent or house values.
+Table 8 reports the coefficient estimates. A one standard deviation tighter degree of
+regulation is associated with 4 percent higher expenditures, an effect similar to (although a bit
+smaller than) the 7 percent increase predicted by our model. A one standard deviation tighter
+degree of geographic constraint is associated with 5 percent higher expenditures. The Cobb‐
+Douglas version of the model predicted that housing expenditures would not respond to a
+decrease in land supply, but allowing for an inelastic substitution between housing and non‐
+housing causes the model to predict a 2 percent increase in housing expenditures. As we
+discussed above, it is possible that other factors, such as minimum lot sizes or density
+restrictions, prevent people from offsetting the effects of a tighter land supply with less land
+consumption by as much as they would like, which would lead to higher housing expenditures.
+The table also reports results where the dependent variable is an indicator for whether a
+household spends more than 30 percent of their income on housing, a common measure of
+housing “cost burden” in the affordability literature (Anthony 2018, Bieri and Dawkins 2019).
+Both constraints increase the fraction of “cost burdened” households by a small amount, but
+even the effects of a 2 standard deviation tighter constraint are much smaller than the increase
+in “cost burdened” households over our sample period. This pattern holds among both owner‐
+occupiers and renters, as indicated by the two rightmost columns.
+We end this section with an examination of how the effects on housing expenditures vary
+with household income. Concerns about housing affordability are most relevant for lower
+income households, so it would be helpful to know if housing supply constraints have different
+effects for households at different points in the income distribution. Toward this end, we
+regress log expenditures and an indicator for expenditures exceeding 30 percent of income on
+our supply constraints, running separate regressions for each decile of the national income
+distribution.
+Figure 5 shows the results. The estimated effects on expenditures (panel A) are fairly similar
+across the income distribution, but are somewhat smaller for the bottom‐most deciles. The
+effects on the indicator for having high housing expenditures relative to income (panel B) are
+more hump‐shaped, with the largest effects of in the middle of the income distribution. For
+households in the top decile and the bottom deciles, supply constraints appear to have no
+effect on the probability of spending a large fraction of income on housing. A large majority of
+households in the lowest income deciles already spend more than 30 percent of their income
+on housing, so there may be less margin for constraints to push households over the threshold.
+In addition, it is possible that housing affordability programs are helping to reduce the effects of
+supply constraints for these households. Meanwhile, because the effects on expenditures are
+28
+
+fairly similar for middle‐and high‐income households, they are a smaller share of income as
+income rises, and it is less likely that the increase in expenditures pushes high‐income
+households over the 30 percent threshold. It is worth noting that even for the household
+income categories with the largest effects, a 2 standard deviation increase in supply constraints
+can explain less than half of the increase in the average fraction of these households spending
+more than 30 percent of their income on housing.
+
+5. Robustness
+In this section, we assess the robustness of our main results to a number of alternate
+specifications.
+5.1. Weighting
+Our baseline analysis weights households to be representative of the US population, so that
+our estimates reflect the average effects for the average household in the US. However,
+because some metropolitan areas are much larger than others, this choice means that larger
+metros have much more weight in our results. Panel A of Table 9 reports results that weight
+each metro area equally. The estimated effects of both constraints on house value are still
+positive and significant, but smaller in magnitude than in our baseline. The effects on rent are
+similar to the baseline. The combination of these results implies that supply constraints raise
+the price‐to‐rent ratio more in larger metros, which could be the case if supply constraints raise
+expected rent growth more in larger metros. Nevertheless, even in the average metro, supply
+constraints boost house value more than rent. The housing consumption and location
+outcomes are fairly similar to the baseline results—we still find zero to small negative effects on
+housing consumption, and a small positive effect of regulatory constraints on the fraction of
+households in the top decile of the national income distribution (the baseline results for the
+fraction of households in the top of the national income distribution are shown as the
+rightmost dots in Figure 4).
+5.2 Controlling for ex‐post demand
+Our baseline specification controlled for ex‐ante proxies for local housing demand. If these
+variables are not sufficiently correlated with local demand factors that are also related to
+housing market outcomes, then our results could be biased. We address this concern by
+replacing these proxies for demand with our measure of ex‐post demand described in section
+3.1. Panel B of Table 9 reports the results; the estimates are very close to the baseline across
+the board.
+5.3 Interactions with demand
+29
+
+Our empirical analysis focuses on trying to estimate the effects of supply constraints on the
+changes in average outcomes over time. This approach is consistent with our model, which
+predicts changes in outcomes in a regulated city compared to an unregulated city, holding
+demand constant. Other research on effects of housing supply constraints has examined how
+these constraints alter the effects of a local demand shock (Glaeser, Gyourko and Saks 2006,
+Hilber and Vermeulen 2015, Saks 2008). Focusing on this interaction can provide an alternative
+means of identification, since absent supply differences, a demand shock of a given magnitude
+would be expected to have the same effect in any location.
+We first assess the relevance of interactions of supply constraints with demand shocks by
+estimating the effect of an increase in local demand in each separate quartile of the distribution
+of supply constraints.35 The effects on house value, rent, and median income are shown in
+Figure 6. As expected, demand appears to have larger effects on house prices in metros with
+tighter supply constraints, although the gradient is more clear for regulation than for
+geographic constraints (the top panels). By contrast, effects on rent are more similar across
+quartiles for both constraints (the middle panels). Turning to sorting by income (the bottom
+panels), it again appears that there is a positive gradient for regulation but not for geographic
+constraints. In other words, an increase in demand leads to more positive income sorting in
+metro areas with more regulation, but not in metros with more geographic constraints.36 In
+sum, while it seems clear that an increase in demand results in larger house price increases and
+more income‐based sorting in more supply‐constrained areas, effects of demand on other
+housing outcomes do not appear systematically related to the tightness of supply constraints.
+Our measure of demand reflects all sources of local demand, and thus it is difficult to
+interpret this measure as an exogenous demand shock. To be even more consistent with the
+research that has examined effects of demand shocks, we calculate predicted demand using
+our five proxies for productivity growth and changes in amenities. In this case, predicted
+demand appears to have larger effects on house prices and on rents in metro areas in the top
+half of the distributions of supply constraints.
+5.4 Ex‐post measure of supply constraints
+Finally, we return to the question about whether our estimated effects of supply constraints
+may be biased downward due to measurement error. There is surely some degree of
+measurement error in the regulatory variable since it does not capture all forms of regulation,
+and because it is derived from a survey of local planning officials. And while the two types of
+35
+
+In order to be able to interpret the coefficient on the demand variable as the effect of an increase in
+demand, we drop the controls for income from the housing consumption regressions.
+36
+We find no consistent patterns in the differential responses to demand of other outcomes—including the
+fraction of single‐family homes, rooms per adult, structure size, or house size—across quartiles of either supply
+constraint.
+
+30
+
+geographic constraint—the slope of the land and the amount of area under water—may be
+measured fairly precisely, there are surely other geographic constraints not captured by this
+measure. A different way to measure supply constraints would be to look at ex‐post growth in
+house prices relative to the housing stock. For example, Gyourko, Mayer and Sinai (2013)
+identify “superstar metros” as metro areas with a combination of tight supply and strong
+demand using ex‐post changes in house values and the housing stock. Following their approach,
+we create an indicator for tight supply and strong demand, defined as having demand in above
+the median and supply above the 90th percentile. Demand is defined as above, and supply is
+measured as the difference between the growth in house prices and the growth in the housing
+stock. One important drawback to this approach is that most metro areas with tight supply by
+this measure also have strong demand, so it is not possible to credibly identify the effect of
+supply constraints separately from the effect of supply constraints combined with strong
+demand. In order to mitigate the influence of demand on the estimated coefficient of the
+Superstar indicator, these specifications also control for ex‐post demand separately.
+Panel D of Table 9 reports the estimated effects. Superstar metros had 0.4 log point larger
+house price growth than other metros, similar to the magnitudes reported in Gyourko, Mayer
+and Sinai (2013). Consistent with the model and with the empirical estimates reported above,
+the effects of Superstar status on rent, housing consumption, and household location are
+substantially smaller than the effects on house prices. In fact, the effects on rooms per adult
+are in line with the model’s predicted effects given a supply constraint that raises house prices
+by the estimated effect of the Superstar indicator, while the effects on rent and sorting are
+somewhat smaller than what the model would predict (see Appendix Table 7).37 The one
+material departure of these results from the model’s predictions is the estimated effect of
+Superstar status on lot consumption. Superstar metros have experienced 0.15 log point larger
+growth in lot size, whereas the model expected lot size to decrease. It is possible that Superstar
+metros tend to have regulations that increase required lot sizes.38 In sum, measuring supply
+constraints using ex‐post housing market outcomes does not change our finding that rent,
+housing consumption and household location decisions are much less responsive to supply
+constraints than house prices.
+
+37
+
+With regard to sorting, the model predicts a 15 percent increase in median income, whereas we estimate a
+5 percent increase (not shown).
+38
+This regression also shows that metro areas with higher demand tend to have smaller lots. This result may
+be surprising if demand increases income, and richer households want to consume more land. We interpret this
+result as suggesting that in most areas, strong local demand causes in‐migration and that the influx of people
+causes lot sizes to fall, as not all new construction occurs on the metro’s periphery. Also, an increase in demand
+could cause an increase in household formation, and new households will consume less land than more
+established households, which tend to have older and richer members.
+
+31
+
+Not only do these results speak to the effects of supply constraints, but they also present
+striking new evidence on the long‐run evolution of housing markets in metropolitan areas with
+a combination of strong demand and tight supply. Many of these metropolitan areas, such as
+San Francisco and New York, are notorious for having very high rents and a lack of “affordable”
+housing. We estimate that Superstar metros experienced only 12 percentage point higher rent
+growth than other metros between 1980 and 2016, a small effect relative to the average rent
+increase of 76 percent in this sample. Our results are inconsistent with the belief that these
+locations are experiencing much larger increases in housing unit size. That said, these locations
+have experienced larger increases in household size and in the fraction of high‐income
+residents.
+
+6. Conclusion
+We have shown both theoretically and empirically that housing supply constraints have a
+smaller effect on housing affordability than on the purchase price of housing. We also find that
+supply constraints have only limited effects on housing consumption and location decisions.
+Our results may seem surprising in light of the strong cross‐sectional correlation between
+supply constraints and rents. Indeed, in our sample, the cross‐sectional correlation between
+supply constraints and rents is three times larger than our panel estimates using controls for
+productivity growth and amenities. But locations with tight supply constraints tended to have
+had higher rent even back in 1980, so the changes in rent over time are not as strongly
+correlated with supply constraints as the current levels. Controlling for measurable differences
+in demand further reduces the estimated effects of supply constraints, suggesting that supply
+constraints are also correlated with strong housing demand.
+One should not conclude from our analysis that housing affordability is not a problem in
+supply‐constrained metropolitan areas. Rather, our results suggest that the supply constraints
+alone have not been the driving force behind high rents. Why are our estimated causal effects
+so much smaller than the effects suggested by the cross‐sectional correlation between rent and
+supply constraints? One possibility is that our measures of supply constraints are not good
+proxies for true supply constraints. That said, the two constraints that we use the most
+commonly‐used measures in the literature, and we still find relatively small effects when using
+an alternate measure of supply based on ex‐post housing market outcomes.
+A second possibility is that supply constraints were at least somewhat binding even back in
+1980, in which case we have underestimated the true effects of these constraints. Other
+research has documented the existence of some regulations prior to 1980—for example,
+Ganong and Shoag (2017) document the appearance of the words “land use” in state court
+cases as far back as 1950—and some geographic constraints were surely binding back then. But
+as we have shown, many constraints did become much stronger between 1980 and the 2000s.
+32
+
+A third possibility is that strong rent growth since 1980 is due largely to increases in
+demand. It is not possible for prices and rents to increase if supply is entirely unconstrained.
+However, supply is constrained along some dimensions in most locations. For example, nearly
+all local governments have zoning regulations that separate residential land uses from other
+uses. The durability of existing structures can make land assembly challenging, especially in
+neighborhoods close to the urban center. Thus, demand might have sharply increased rent in
+many metropolitan areas in the US, even ones with relatively less restrictive supply constraints.
+Future research should examine the sources of rising demand in US metropolitan areas and the
+connection with housing affordability.
+Beyond the results for rent and housing affordability, our research reveals interesting
+implications of housing supply constraints for housing consumption. We find much smaller
+reductions in housing unit size and lot size than expected. People adjust to a higher price of
+housing services by living in larger households rather than by living in smaller homes. An
+inability to reduce land consumption as much as desired appears to have reduced the number
+of households living in geographically constrained metropolitan areas. Further work studying
+why structure sizes and lot size are so unresponsive to housing supply constraints would be
+fruitful.
+. References
+Aaronson, D., 2000. A Note on the Benefit of Homeownership. Journal of Urban Economics 47:
+356‐369.
+Adelino, M., Schoar, A. and Severino, F., 2015. House prices, collateral, and self‐employment.
+Journal of Financial Economics, 117(2), pp. 288‐306.
+Ahlfeldt, G. and McMillen, D., 2014. New Estimates of the Elasticity of Substitution of Land for
+Capital. In ERSA conference papers (No. ersa14p108). European Regional Science Association.
+Albouy, D. and Ehrlich, G., 2018. Housing productivity and the social cost of land‐use
+restrictions. Journal of Urban Economics, 107, pp.101‐120.
+Albouy, D., Ehrlich, G. and Liu, Y., 2016. Housing demand, cost‐of‐living inequality, and the
+affordability crisis (No. w22816). National Bureau of Economic Research.
+Anthony, J., 2018. Economic Prosperity and Housing Affordability in the United States: Lessons
+from the Booming 1990s. Housing Policy Debate 28(3), pp 325‐341.
+Banzhaf, H.S. and Mangum, K. 2019. Capitalization as a Two‐Part Tariff: the Role of Zoning (No.
+19‐20). Federal Reserve Bank of Philadelphia.
+Bieri, D. S., and Dawkins, C.J., 2019. Amenities, Affordability and Housing Vouchers, Journal of
+Regional Science 59, pp. 56‐82.
+33
+
+Brueckner, J.K. and Rosenthal, S., 2009. Gentrification and Neighborhood Housing Cycles: Will
+America’s Future Downtowns be Rich?, Review of Economics and Statistics 91(4) pp. 725‐743.
+Burchfield, M., Overman, H.G., Puga, D. and Turner, M.A., 2006. Causes of Sprawl: A Portrait
+from Space, Quarterly Journal of Economics 121(2),pp. 587‐633.
+Charles, K.K., Hurst, E. and Notowidigdo, M.J., 2018. Housing booms and busts, labor market
+opportunities, and college attendance. American Economic Review, 108(10), pp.2947‐‐94.
+Combes, P.P., Duranton, G. and Gobillon, L., 2016. The costs of agglomeration: Land and house
+prices in French cities.
+Cosman, J., Davidoff, T. and Williams, J., 2018. Housing Appreciation and Marginal Land Supply
+in Monocentric Cities with Topography.
+Couture, V. and Handbury J., 2019. Urban Revival in America 2000 to 2010 (No. 24084).
+National Bureau of Economic Research.
+Davidoff, T., 2016. Supply Constraints Are Not Valid Instrumental Variables for Home Prices
+Because They Are Correlated With Many Demand Factors. Critical Finance Review, 6.
+Davis, M.A. and Ortalo‐Magné, F., 2011. Household expenditures, wages, rents. Review of
+Economic Dynamics, 14(2), pp.248‐261.
+Di Pasquale, D., and Glaeser, E.L. 1999. Incentives and Social Capital: Are Homeowners Better
+Citizens? Journal of Urban Economics 45: 354‐384.
+Diamond, R., 2016. The determinants and welfare implications of US workers' diverging location
+choices by skill: 1980‐2000. American Economic Review, 106(3), pp.479‐524.
+Eckert, F., Fort, T., Schott, P. and Yang, N., 2020. Imputing Missing Values in the US Census
+Bureau’s County Business Patterns. NBER Working Paper #26632.
+Epple, D., Gordon, B. and Sieg, H., 2010. A new approach to estimating the production function
+for housing. American Economic Review, 100(3), pp.905‐24.
+Ganong, P. and Shoag, D., 2017. Why has regional income convergence in the US
+declined?. Journal of Urban Economics, 102, pp.76‐90.
+Ghent, A., 2015. Home Ownership, Household Leverage and Hyperbolic Discounting. Real
+Estate Economics, 43(3), pp. 750‐781.
+Glaeser, E.L. and Gyourko, J., 2003. The impact of building restrictions on housing
+affordability. Economic Policy Review, 9(2).
+Glaeser, E.L., Kolko, J. and Saiz, A., 2001. Consumer city. Journal of economic geography, 1(1),
+pp.27‐50.
+
+34
+
+Glaeser, E.L. and Ward, B.A., 2009. The causes and consequences of land use regulation:
+Evidence from Greater Boston. Journal of Urban Economics, 65(3), pp.265‐278.
+Green, R.K., 1999. Land Use Regulation and the Price of Housing in a Suburban Wisconsin
+County. Journal of Housing Economics, 2(8), pp.144‐159.
+Gyourko, J., Mayer, C. and Sinai, T., 2013. Superstar cities. American Economic Journal:
+Economic Policy, 5(4), pp.167‐99.
+Gyourko, J. and Molloy, R., 2015. Regulation and housing supply. In Handbook of regional and
+urban economics (Vol. 5, pp. 1289‐1337).
+Gyourko, J., Saiz, A. and Summers, A., 2008. A new measure of the local regulatory environment
+for housing markets: The Wharton Residential Land Use Regulatory Index. Urban Studies, 45(3),
+pp.693‐729.
+Haurin, D.R., Parcel, T.L., and Haurin, R.J., 2002. Does Homeownership Affect Child Outcomes?
+Real Estate Economics 30: 635‐666.
+Hilber, C.A., Rouendal, J., and Vermeulen, W., 2018. Local Economic Conditions and the Nature
+of New Housing Supply. http://personal.lse.ac.uk/hilber/hilber_wp/Hilber_et_al_2018_07.pdf
+Hilber, C.A. and Vermeulen, W., 2015. The impact of supply constraints on house prices in
+England. The Economic Journal, 126(591), pp.358‐405.
+Holian, M.J. and Kahn, M.E., 2015. Household carbon emissions from driving and center city
+quality of life. Ecological Economics, 116, pp.362‐368.
+Howard, G. and Liebersohn, J., 2019. Why is the Rent So Darn High?
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3236189
+Ihlanfeldt, K.R., 2007. The effect of land use regulation on housing and land prices. Journal of
+Urban Economics, 61(3), pp.420‐435.
+Jackson, K., 2016. Do land use regulations stifle residential development? Evidence from
+California cities. Journal of Urban Economics, 91, pp.45‐56.
+Kerr, S.P., Kerr, W.R., and Nanda, R., 2019. House Prices, Home Equity and Entrepreneurship:
+Evidence from U.S. Census Micro Data. Harvard Business School Working Paper 15‐069.
+Linneman, P., Summers, A., Brooks, N. and Buist, H., 1990. The state of local growth
+management. Wharton Real Estate Center Working Paper, 81.
+Logan, J., Xu, Z., and Stults, B., 2014. Interpolating US Decennial Census Tract Data from as Early
+as 1970 to 2010: A Longitudinal Tract Database. The Professional Geographer, 66(3), pp.412–
+420.
+
+35
+
+Malpezzi, S. and Green, R.K., 1996. What has Happened to the Bottom of the US Housing
+Market?. Urban Studies, 33(10), pp.1807‐1820.
+Mayer, C.J. and Somerville, C.T., 2000. Land use regulation and new construction. Regional
+Science and Urban Economics, 30(6), pp.639‐662.
+McDonald, J.F., and McMillen, D.P., 2000. Employment subcenters and subsequent real estate
+development in suburban Chicago, Journal of Urban Economics 48, 135‐157.
+McFadden, D., 1973. Conditional logit analysis of qualitative choice behavior.
+Pendall, R., 2000. Local land use regulation and the chain of exclusion. Journal of the American
+Planning Association, 66(2), pp.125‐142.
+Quigley, J.M. and Raphael, S., 2005. Regulation and the high cost of housing in
+California. American Economic Review, 95(2), pp.323‐328.
+Rappaport, J, 2004. Why are population flows so persistent? Journal of Urban Economics 56,
+554‐580.
+Ruggles, S., Flood, S., Goeken, R., Grover, J., Meyer, E., Pacas, J. and Sobek, M., 2018. IPUMS
+USA: Version 8.0 [dataset]. Minneapolis, MN: IPUMS.
+Saiz, A., 2010. The geographic determinants of housing supply. The Quarterly Journal of
+Economics, 125(3), pp.1253‐1296.
+Saks, R.E., 2008. Job creation and housing construction: Constraints on metropolitan area
+employment growth. Journal of Urban Economics, 64(1), pp.178‐195.
+Schlafmann, K., 2016. Housing, Mortgages, and Self Control. CEPR Discussion Paper 11589.
+Somerville, C.T. and Mayer, C.J., 2003. Government regulation and changes in the affordable
+housing stock. Economic Policy Review, 9(2).
+Xing, X., Hartzell, D. and Godschalk, D., 2004. Land use regulations and housing markets in large
+metropolitan areas. Journal of Housing Research, 15(1), pp.55‐79.
+Zabel, J. and Dalton, M., 2011. The impact of minimum lot size regulations on house prices in
+Eastern Massachusetts. Regional Science and Urban Economics, 41(6), pp.571‐583.
+
+36
+
+Percentile
+10th
+50th
+90th
+10th
+50th
+90th
+
+Table 1
+Months from Application to Permit Issuance for SF construction
+Application for Rezoning
+Application for Subdivision
+< 50 units
+≥ 50 units
+< 50 units
+≥ 50 units
+1980s
+1
+2
+1
+1
+2
+2
+2
+2
+3
+3
+3
+2
+3.9
+6.4
+10.7
+
+2006
+4.8
+8.0
+13.0
+
+3.6
+5.6
+9.0
+
+3.8
+6.8
+10.7
+
+Change from 1980s to 2006
+1.7
+2.4
+2.2
+2.6
+10th
+th
+50
+4.7
+5.8
+4.1
+5.2
+90th
+8.0
+10.2
+6.7
+8.7
+Note. Sample includes the 60 metropolitan areas that appear in both surveys. Data from the 1980s are
+from a survey conducted by Linneman, Summers, Brooks and Buist (1990) and data from 2006 are from
+a survey conducted by Gyourko, Saiz and Summers (2008).
+
+37
+
+Table 2
+Reponses to Supply Constraints that Raise Prices 10% over 30 Years
+(Model Simulation, %)
+Population
+constraints
+
+Land area constraints
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Quality‐adjusted rent (median)
+
+6.0
+
+5.9
+
+5.9
+
+5.7
+
+Housing expenditure, holding income constant
+
+7.3
+
+0.0
+
+2.1
+
+2.1
+
+Structure size, holding income constant
+
+–1.7
+
+0.0
+
+2.1
+
+–1.4
+
+Lot size, holding income constant
+
+–1.7
+
+–15.8
+
+–13.9
+
+–6.6
+
+Structure size, city average
+
+1.6
+
+0.0
+
+2.1
+
+–1.4
+
+Lot size, city average
+
+1.6
+
+–15.8
+
+–13.9
+
+–6.6
+
+Median city income
+
+3.0
+
+0.0
+
+0.0
+
+0.0
+
+Population
+
+–3.6
+
+–2.1
+
+–2.2
+
+–2.1
+
+Housing services consumption
+
+–2.1
+
+–7.6
+
+–5.6
+
+–5.4
+
+Housing/non‐housing substitution elasticity
+
+–
+
+1
+
+0.5
+
+0.5
+
+Lot/structure substitution elasticity
+
+–
+
+1
+
+1
+
+0.33
+
+Assumptions
+
+38
+
+Table 3
+Effect of Housing Supply Constraints on House Prices and Rent
+Ln(Value)
+Ln(Rent)
+Ln(Rent)
+Ln(Rent)
+SF Homes
+SF homes
+All homes
+2‐Bed Apt.
+2012‐2016 Indicator
+0.496
+0.501
+0.489
+0.458
+(0.024)
+(0.015)
+(0.014)
+(0.016)
+Indicator interacted with:
+Regulatory constraints
+0.091
+0.040
+0.034
+0.043
+(0.023)
+(0.012)
+(0.011)
+(0.013)
+Geographic constraints
+
+0.110
+(0.022)
+
+0.018
+(0.011)
+
+0.042
+(0.011)
+
+0.046
+(0.013)
+
+Controls for Housing
+Yes
+Yes
+Yes
+Yes
+Characteristics
+Control for metro area
+Yes
+Yes
+Yes
+Yes
+productivity and amenities
+Metro Area Fixed Effects
+Yes
+Yes
+Yes
+Yes
+Number of metro areas
+133
+133
+133
+133
+Number of observations
+2.2 million
+0.38 million
+1.2 million
+0.35 million
+Note. Standard errors are clustered by metropolitan area. Supply constraints are standardized to have a
+mean equal to zero and standard deviation equal to one. Controls for housing characteristics are
+indicators for decade built, indicators for number of rooms, and indicators for number of bedrooms.
+Value and rent are expressed relative to the price index for personal consumption expenditures.
+Controls for productivity and amenities are the variables listed in Appendix Table 2 interacted with the
+“recent” indicator. Observations are weighted to be nationally representative of the housing stock using
+the household weight provided by the Census Bureau.
+
+39
+
+Table 4
+Effect of Housing Supply Constraints on Housing Lot Consumption
+SF Indicator
+Ln(Lot Size)
+SF Indicator
+Recently‐Built
+SF Homes
+All Homes
+Homes
+“Recent” Indicator
+‐0.150
+‐0.012
+0.053
+(0.030)
+(0.005)
+(0.011)
+Indicator interacted with:
+Regulatory constraints
+0.022
+0.001
+‐0.002
+(0.022)
+(0.004)
+(0.008)
+Geographic constraints
+
+‐0.041
+(0.023)
+
+‐0.015
+(0.005)
+
+‐0.029
+(0.006)
+
+Controls for Income
+Yes
+Yes
+Yes
+Control for metro area
+Yes
+Yes
+Yes
+productivity and amenities
+Metro Area Fixed Effects
+Yes
+Yes
+Yes
+Outcome Data
+CoreLogic
+Census/ACS
+Census/ACS
+Number of Observations
+4.4 million
+3.7 million
+0.65 million
+Note: Standard errors are clustered by metropolitan area. Supply constraints are standardized to have a
+mean equal to zero and standard deviation equal to one. Controls for income are indicators for deciles
+in the national distribution of income and interactions of these indicators with the “recent” indicator.
+When the outcome uses CoreLogic data, income is median household income by Census tract. When the
+outcome uses Census/ACS data, income is property‐level household income. Controls for productivity
+and amenities are the variables listed in Appendix Table 2 interacted with the “recent” indicator.
+
+40
+
+Table 5
+Effect of Housing Supply Constraints on Housing Structure Consumption
+Ln(Adults
+Ln(Rooms)
+per
+Ln(Unit Size)
+Ln(Rooms)
+SF, Recently‐
+Household)
+SF Homes
+SF Homes
+Built
+SF Homes
+“Recent” Indicator
+0.291
+0.048
+0.028
+‐0.024
+(0.011)
+(0.004)
+(0.006)
+(0.005)
+Indicator interacted with:
+Regulatory constraints
+‐0.001
+‐0.009
+‐0.003
+0.007
+(0.008)
+(0.003)
+(0.005)
+(0.004)
+Geographic constraints
+
+‐0.007
+(0.008)
+
+‐0.013
+(0.003)
+
+‐0.023
+(0.004)
+
+0.023
+(0.004)
+
+Ln(Rooms
+Per Adult)
+SF Homes
+0.066
+(0.005)
+‐0.016
+(0.004)
+‐0.033
+(0.004)
+
+Controls for Income
+Yes
+Yes
+Yes
+Yes
+Yes
+Control for metro area
+Yes
+Yes
+Yes
+Yes
+Yes
+productivity and amenities
+Metro Area Fixed Effects
+Yes
+Yes
+Yes
+Yes
+Yes
+Outcome Data
+CoreLogic
+Census/ACS
+Census/ACS
+Census/ACS Census/ACS
+Number of Observations
+4.4 million
+2.7 million
+0.48 million
+2.7 million
+2.7 million
+Note: Standard errors are clustered by metropolitan area. Supply constraints are standardized to have a
+mean equal to zero and standard deviation equal to one. Controls for income are indicators for deciles
+in the national distribution of income and interactions of these indicators with the “recent” indicator.
+When the outcome uses CoreLogic data, income is median household income by Census tract. When the
+outcome uses Census/ACS data, income is property‐level household income. Controls for productivity
+and amenities are the variables listed in Appendix Table 2 interacted with the “recent” indicator.
+
+41
+
+Table 6
+Effect of Housing Supply Constraints on Changes in Metropolitan Area Housing Stock
+and Population Characteristics 1980 to 2016
+Fraction
+Fraction
+Ln(Average Ln(Median
+Ln(Housing
+High
+4+ Years
+Real
+Real
+Stock)
+Occupation
+College
+Income)
+Income)
+Score
+Constant
+0.517
+0.138
+0.037
+0.411
+0.306
+(0.031)
+(0.005)
+(0.002)
+(0.013)
+(0.015)
+Regulatory constraints
+
+‐0.058
+(0.026)
+
+0.007
+(0.004)
+
+0.001
+(0.002)
+
+0.028
+(0.011)
+
+0.020
+(0.012)
+
+Geographic constraints
+
+‐0.106
+(0.023)
+
+0.003
+(0.003)
+
+‐0.002
+(0.001)
+
+0.004
+(0.009)
+
+‐0.018
+(0.011)
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Control for metro area
+productivity and amenities
+
+Number of observations
+133
+133
+133
+133
+133
+Note. The housing stock includes single‐family and multifamily units. High occupation score is
+defined as above the 90th percentile of the national distribution of occupation scores in the same
+year. Metro areas with tight constraints are those in the top third of the distribution of constraints.
+Controls for productivity and amenities are reported in Appendix Table 2. Observations are
+weighted by the average number of housing units in 1980 and 2016.
+
+42
+
+Table 7
+Effect of Housing Supply Constraints on Neighborhood Choice
+Ln(Distance to
+Ln(Average
+Education
+Metro Center) Commute Time)
+Index
+“Recent” Indicator
+0.325
+0.082
+0.109
+(0.035)
+(0.009)
+(0.038)
+Indicator interacted with:
+Regulatory Constraints
+‐0.014
+0.005
+‐0.082
+(0.026)
+(0.005)
+(0.026)
+Geographic Constraints
+
+‐0.076
+(0.019)
+
+‐0.018
+(0.005)
+
+‐0.115
+(0.021)
+
+Crime Index
+‐0.389
+(0.049)
+0.031
+(0.032)
+0.154
+(0.026)
+
+Controls for Income
+Yes
+Yes
+Yes
+Yes
+Control for metro area
+Yes
+Yes
+Yes
+Yes
+productivity and amenities
+Metro Area Fixed Effects
+Yes
+Yes
+Yes
+Yes
+Outcome Data
+CoreLogic
+CoreLogic
+CoreLogic
+CoreLogic
+Number of Observations
+4.4 million
+4.4 million
+4.4 million
+4.4 million
+Note. Standard errors are clustered by metropolitan area. All reported right‐hand‐side variables are
+standardized to have a mean equal to zero and standard deviation equal to one. The education index
+and crime index are also standardized. Controls for income are median household income by Census
+tract interacted with decade indicators. Controls for productivity and amenities are the variables listed
+in Appendix Table 2 interacted with the “recent” indicator.
+
+43
+
+Table 8
+Effect of Housing Supply Constraints on Housing Expenditures
+Ln(Real Expenditure)
+Expenditure > 30% of Income
+Full Sample Owners
+Renters
+Full Sample
+Owners
+Renters
+“Recent” Indicator
+0.314
+0.259
+0.381
+0.246
+0.200
+0.307
+(0.012)
+(0.014)
+(0.013)
+(0.015)
+(0.007)
+(0024)
+Indicator interacted with:
+Regulatory constraints
+0.040
+0.041
+0.030
+0.022
+0.023
+0.019
+(0.010)
+(0.013)
+(0.009)
+(0.005)
+(0.005)
+(0.005)
+Geographic constraints
+
+0.048
+(0.010)
+
+0.063
+(0.013)
+
+0.025
+(0.009)
+
+0.019
+(0.004)
+
+0.021
+(0.004)
+
+0.015
+(0.005)
+
+Controls for Income
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Control for metro area
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+productivity and amenities
+Metro Area Fixed Effects
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Number of Observations
+3.6 mil.
+2.4 mil.
+1.2 mil.
+3.6 mil.
+2.4 mil.
+1.2 mil.
+Note. Standard errors are clustered by metropolitan area. Supply constraints are standardized to have a
+mean equal to zero and standard deviation equal to one. Controls for income are indicators for the
+household’s decile in the national distribution of household income and interactions of these indicators
+with the “recent” indicator. Controls for productivity and amenities are the variables listed in Appendix
+Table 2 interacted with the “recent” indicator.
+
+44
+
+Table 9
+Robustness to Alternate Specifications
+
+“Recent” Indicator
+Indicator interacted with:
+Regulatory const.
+Geographic const.
+
+“Recent” Indicator
+Indicator interacted with:
+Regulatory const.
+Geographic const.
+Ex‐Post Demand
+
+“Recent” Indicator
+Indicator interacted with:
+Regulatory const.
+Reg. x demand
+Geographic const.
+Geog. x demand
+Ex‐Post Demand
+
+“Recent” Indicator
+
+Ln(Value)
+SF Homes
+
+Ln(Rent)
+SF Homes
+
+Ln(Lot Size)
+SF Homes
+
+SF
+Indicator
+
+0.513
+(0.016)
+
+Panel A: Weighting Each Metro Equally
+0.502
+‐0.138
+‐0.012
+(0.011)
+(0.040)
+(0.005)
+
+Ln(Unit Size)
+SF Homes
+
+Ln(Rooms
+Per Adult)
+
+Fraction in
+Top Decile
+Income Dist.
+
+0.261
+(0.013)
+
+0.056
+(0.005)
+
+‐0.003
+(0.002)
+
+0.063
+(0.017)
+
+0.045
+(0.010)
+
+0.013
+(0.027)
+
+0.004
+(0.003)
+
+0.011
+(0.007)
+
+‐0.013
+(0.003)
+
+0.006
+(0.002)
+
+0.069
+(0.016)
+
+0.010
+(0.010)
+
+‐0.015
+(0.022)
+
+‐0.006
+(0.003)
+
+‐0.001
+(0.007)
+
+‐0.020
+(0.003)
+
+‐0.002
+(0.002)
+
+0.289
+(0.011)
+
+0.053
+(0.006)
+
+‐0.006
+(0.003)
+
+‐0.003
+(0.008)
+‐0.007
+(0.008)
+0.012
+(0.011)
+
+‐0.020
+(0.004)
+‐0.037
+(0.006)
+‐0.008
+(0.007)
+
+0.007
+(0.003)
+0.001
+(0.002)
+0.009
+(0.003)
+
+0.292
+(0.011)
+
+0.055
+(0.007)
+
+‐0.008
+(0.003)
+
+0.076
+0.049
+0.022
+0.006
+‐0.001
+(0.032)
+(0.013)
+(0.025)
+(0.006)
+(0.010)
+0.037
+‐0.022
+0.031
+0.000
+‐0.009
+(0.041)
+(0.019)
+(0.024)
+(0.009)
+(0.012)
+‐0.027
+‐0.016
+‐0.005
+0.060
+0.027
+(0.015)
+(0.022)
+(0.006)
+(0.008)
+(0.032)
+0.058
+0.000
+‐0.018
+‐0.003
+‐0.008
+(0.042)
+(0.019)
+(0.025)
+(0010)
+(0.011)
+0.086
+0.047
+‐0.133
+‐0.004
+0.010
+(0.040)
+(0.022)
+(0.023)
+(0.010)
+(0.011)
+Panel D: Measuring Supply Constraints using Superstar Indicator
+0.413
+0.503
+‐0.123
+‐0.013
+0.287
+(0.018)
+(0.013)
+(0.033)
+(0.007)
+(0.011)
+
+‐0.023
+(0.005)
+0.005
+(0.006)
+‐0.030
+(0.009)
+‐0.010
+(0.010)
+‐0.012
+(0.007)
+
+0.005
+(0.003)
+0.006
+(0.004)
+‐0.007
+(0.003)
+0.013
+(0.004)
+0.015
+(0.004)
+
+0.062
+(0.007)
+
+‐0.009
+(0.002)
+
+0.478
+(0.025)
+0.089
+(0.030)
+0.095
+(0.025)
+0.097
+(0.041)
+0.467
+(0.023)
+
+Panel B: Controlling for Ex‐Post Demand
+0.517
+‐0.125
+‐0.014
+(0.012)
+(0.031)
+(0.005)
+0.037
+0.038
+0.007
+(0.014)
+(0.019)
+(0.005)
+0.029
+‐0.039
+‐0.018
+(0.012)
+(0.020)
+(0.005)
+0.036
+‐0.105
+‐0.004
+(0.017)
+(0.022)
+(0.010)
+Panel C: Interactions with Demand
+0.516
+‐0.127
+‐0.014
+(0.005)
+(0.012)
+(0.030)
+
+Indicator interacted with:
+Superstar indicator
+
+0.391
+0.119
+0.145
+0.004
+0.035
+‐0.067
+0.024
+(0.029)
+(0.026)
+(0.062)
+(0.017)
+(0.026)
+(0.019)
+(0.004)
+0.052
+‐0.112
+‐0.007
+0.009
+‐0.020
+0.013
+Ex‐Post Demand
+0.110
+(0.017)
+(0.023)
+(0.010)
+(0.012)
+(0.009)
+(0.003)
+(0.027)
+Note. Details for specifications shown in columns (1) and (2) can be found in Table 3. Details for columns (3) and (4) can be found
+in Table 4. Details for columns (5) and (6) can be found in Table 5. Details for column 7 can be found in Figure 4.
+
+45
+
+Figure 1
+Increases in House Prices and Rent in Response to an Unanticipated Population Constraint
+
+Change relative to initial value (%)
+
+10
+Prices
+Rents
+
+8
+6
+4
+2
+0
+
+0
+
+5
+
+10
+15
+20
+Years since shock
+
+46
+
+25
+
+30
+
+0
+
+.005
+
+Density
+.01
+
+.015
+
+.02
+
+Figure 2
+Distribution of Housing Unit Density
+Among Central Parts of Metropolitan Areas
+
+0
+
+20
+
+40
+
+60
+80
+100
+Units Per Square KM
+1980
+
+120
+
+140
+
+160
+
+2016
+
+Note. The figure shows the distribution of housing units per square kilometer across metropolitan areas in 1980
+and 2016. In each metropolitan area, density is calculated only among counties that are designated as “central”
+according to the 2013 OMB delineation. The sample is restricted to metropolitan areas for which not all counties
+are designated as central.
+
+47
+
+1
+.5
+0
+
+Change in Ln(Median Value)
+
+1.5
+
+Figure 3
+Identification of Low‐Demand Areas Based on Growth in Housing Stock and House Value 1980‐2016
+
+0
+
+.5
+
+1
+Change in Ln(Housing Units)
+Bottom 25%
+
+1.5
+
+2
+
+Upper 75%
+
+Note. Housing units include single‐family and multifamily units. Median value is expressed relative to the
+price index for personal consumption expenditures.
+
+48
+
+-.01
+
+-.005
+
+0
+
+.005
+
+.01
+
+.015
+
+Figure 4
+Panel A: Effect of Regulatory Constraints on the Fraction of People in Each Income Decile
+
+1
+
+2
+
+3
+
+4
+
+5
+6
+Income Decile
+
+7
+
+8
+
+9
+
+10
+
+-.01
+
+-.005
+
+0
+
+.005
+
+.01
+
+.015
+
+Panel B: Effect of Geographic Constraints on the Fraction of People in Each Income Decile
+
+1
+
+2
+
+3
+
+4
+
+5
+6
+Income Decile
+
+7
+
+8
+
+9
+
+10
+
+Note. The chart shows the estimated effects of a supply constraint on the change in the fraction of people in each
+decile of the national income distribution from 1980 to 2016. Regressions control for the variables listed in
+Appendix Table 2. Regressions are weighted using the average number of housing units in 1980 and 2016.
+
+49
+
+-.05
+
+0
+
+.05
+
+.1
+
+Figure 5
+Panel A: Effect of Supply Constraints on Ln(Real Housing Expenditures) by Decile of Household Income
+
+Regulatory
+Constraints
+
+Geographic
+Constraints
+
+-.05
+
+0
+
+.05
+
+.1
+
+Panel B: Effect of Supply Constraints on Housing Expenditure Shares by Decile of Household Income
+
+Regulatory
+Constraints
+
+Geographic
+Constraints
+
+Note. The dots show coefficient estimates from regressions using the same specification as shown in Table 7,
+except that regressions are estimated separately for households in each decile in the national distribution of
+household income.
+
+50
+
+Figure 6
+Effect of Demand on House Value, Rent, and Fraction High‐Income, by Constraint Quartiles
+
+0.2
+0.0
+-0.2
+-0.4
+
+-0.4
+
+-0.2
+
+0.0
+
+0.2
+
+0.4
+
+Effect of Demand on House Value
+
+0.4
+
+Effect of Demand on House Value
+
+1
+
+2
+3
+Quartiles of Regulatory Constraints
+
+4
+
+1
+
+4
+
+0.2
+0.0
+-0.2
+-0.4
+
+-0.4
+
+-0.2
+
+0.0
+
+0.2
+
+0.4
+
+Effect of Demand on Rent
+
+0.4
+
+Effect of Demand on Rent
+
+2
+3
+Quartiles of Geographic Constraints
+
+1
+
+2
+3
+Quartiles of Regulatory Constraints
+
+4
+
+1
+
+4
+
+0.02
+0.00
+-0.02
+
+-0.02
+
+0.00
+
+0.02
+
+0.04
+
+Effect of Demand on Frac. High-Income
+
+0.04
+
+Effect of Demand on Frac. High-Income
+
+2
+3
+Quartiles of Geographic Constraints
+
+1
+
+2
+3
+Quartiles of Regulatory Constraints
+
+4
+
+1
+
+2
+3
+Quartiles of Geographic Constraints
+
+4
+
+Note. The squares show the effect of a 1 percent increase in local demand, estimated separately for each quartile
+of regulation (left‐hand panels) and geographic constraints (right‐hand panels). Regressions also control for a linear
+function of the other supply constraint (i.e., the regression estimated on the lowest quartile of regulatory
+constraint controls for a linear function of geographic constraints). Price and rent regressions also control for
+housing unit characteristics.”
+
+51
+
+Appendix Table 1
+Reponses to Supply Constraints that Raise Prices 10% over 30 Years
+(Model Simulation, %)
+Population
+constraints
+(1)
+
+Land area constraints
+(2)
+
+(3)
+
+(4)
+
+Panel A: low discount rate (r = 0.02)
+Quality‐adjusted rent (median)
+
+3.2
+
+3.6
+
+3.6
+
+3.4
+
+Housing expenditure, holding income constant
+
+1.5
+
+0.0
+
+1.3
+
+1.3
+
+Structure size, holding income constant
+
+–3.5
+
+0.0
+
+1.3
+
+–0.9
+
+Lot size, holding income constant
+
+–3.5
+
+–10.2
+
+–8.9
+
+–4.1
+
+Structure size, city average
+
+–0.5
+
+0.0
+
+1.3
+
+–0.9
+
+Lot size, city average
+
+–0.5
+
+–10.2
+
+–8.9
+
+–4.1
+
+Median city income
+
+1.6
+
+0.0
+
+0.0
+
+0.0
+
+Population
+
+–1.9
+
+–1.3
+
+–1.3
+
+–1.3
+
+Housing services consumption
+
+–2.4
+
+–4.8
+
+–3.5
+
+–3.3
+
+Panel B: high discount rate (r = 0.1)
+Quality‐adjusted rent (median)
+
+7.9
+
+7.4
+
+7.4
+
+7.3
+
+Housing expenditure, holding income constant
+
+10.6
+
+0.0
+
+2.7
+
+2.7
+
+Structure size, holding income constant
+
+–1.0
+
+0.0
+
+2.7
+
+–1.8
+
+Lot size, holding income constant
+
+–1.0
+
+–19.3
+
+–17.1
+
+–8.2
+
+Structure size, city average
+
+2.6
+
+0.0
+
+2.7
+
+–1.8
+
+Lot size, city average
+
+2.6
+
+–19.3
+
+–17.1
+
+–8.2
+
+Median city income
+
+4.0
+
+0.0
+
+0.0
+
+0.0
+
+Population
+
+–4.8
+
+–2.7
+
+–2.7
+
+–2.7
+
+Housing services consumption
+
+–2.3
+
+–9.4
+
+–7.0
+
+–6.9
+
+Note: the Assumptions panel of Table 1 specifies the parameters in columns (2) through (4).
+
+52
+
+Appendix Table 2
+Determinants of Growth in Local Housing Demand
+ΔLn(Demand)
+1980 to 2016
+Share of high wage growth industries in 1990
+0.17
+(0.05)
+Share of population with 4+ years college in 1980
+0.29
+(0.07)
+Predicted employment growth 1980 to 2016
+0.29
+(0.07)
+Average January temperature 1980‐2010
+0.25
+(0.04)
+Share of seasonal housing units in 1980
+0.60
+(0.12)
+Adjusted R2
+Number of observations
+
+0.43
+244
+
+Note. All variables are scaled to have a mean equal to zero and standard deviation equal to
+one. Observations are weighted by the number of housing units in 1980.
+
+53
+
+Appendix Table 3
+Illustration of Identification Strategy: Effects on Ln(Real House Value)
+2016
+Panel: 1980 and 2016
+Regulatory Constraints
+0.328
+‐‐
+‐‐
+‐‐
+(0.071)
+2012‐2016 Indicator
+‐‐
+0.454
+0.453
+0.429
+(0.023)
+(0.024)
+(0.024)
+Indicator interacted with:
+Regulatory constraints
+‐‐
+0.177
+0.155
+0.116
+(0.029)
+(0.031)
+(0.025)
+
+‐‐
+0.496
+(0.024)
+0.091
+(0.023)
+
+Geographic constraints
+
+‐‐
+
+‐‐
+
+0.074
+(0.027)
+
+0.062
+(0.024)
+
+0.110
+(0.022)
+
+Share with 4+ years college
+
+‐‐
+
+‐‐
+
+‐‐
+
+Share in high wage growth industries
+
+‐‐
+
+‐‐
+
+‐‐
+
+0.021
+(0.032)
+0.048
+(0.027)
+
+‐0.032
+(0.031)
+0.045
+(0.025)
+
+Predicted employment growth 1980‐
+2016
+
+‐‐
+
+‐‐
+
+‐‐
+
+0.054
+(0.044)
+
+0.039
+(0.032)
+
+January temperature
+
+‐‐
+
+‐‐
+
+‐‐
+
+0.012
+(0.029)
+
+‐0.055
+(0.028)
+
+Share seasonal housing units
+
+‐‐
+
+‐‐
+
+‐‐
+
+0.068
+(0.055)
+
+‐0.022
+(0.046)
+
+Exclude low‐demand areas?
+No
+No
+No
+No
+Yes
+Number of metro areas
+177
+177
+176
+176
+133
+2.7 mil.
+2.7 mil.
+2.2 mil.
+Number of observations
+2.5 mil.
+2.7 mil.
+Note. Observations are owner‐occupied single‐family housing units. House value is deflated with the
+price index for personal consumption expenditures. Standard errors in columns 2 to 5 are clustered by
+metropolitan area. All reported right‐hand‐side variables are standardized to have a mean equal to zero
+and standard deviation equal to one. All columns control for indicators for decade built, indicators for
+number of rooms and indicators for number of bedrooms.
+
+54
+
+Appendix Table 4
+Effect of Housing Supply Constraints on House Prices and Rent
+Ln(Value)
+Ln(Rent)
+Ln(Rent)
+Ln(Rent)
+SF Homes
+SF homes
+All homes
+2‐Bed Apt.
+2012‐2016 Indicator
+0.310
+0.413
+0.368
+0.313
+(0.049)
+(0.033)
+(0.046)
+(0.059)
+Indicator interacted with:
+2nd quartile regulation
+0.066
+0.044
+0.054
+0.070
+(0.061)
+(0.038)
+(0.049)
+(0.060)
+3rd quartile regulation
+
+‐0.032
+(0.067)
+
+0.015
+(0.037)
+
+0.051
+(0.051)
+
+0.058
+(0.060)
+
+4th quartile regulation
+
+0.188
+(0.072)
+
+0.076
+(0.037)
+
+0.095
+(0.051)
+
+0.123
+(0.062)
+
+2nd quartile geographic
+constraints
+
+0.072
+(0.053)
+
+0.064
+(0.025)
+
+0.046
+(0.032)
+
+0.057
+(0.040)
+
+3rd quartile geographic
+constraints
+
+0.161
+(0.055)
+
+0.056
+(0.040)
+
+0.083
+(0.038)
+
+0.091
+(0.048)
+
+4th quartile geographic
+constraints
+
+0.258
+(0.058)
+
+0.090
+(0.037)
+
+0.117
+(0.042)
+
+0.132
+(0.050)
+
+Controls for Housing
+Yes
+Yes
+Yes
+Yes
+Characteristics
+Control for metro area
+Yes
+Yes
+Yes
+Yes
+productivity and amenities
+Metro Area Fixed Effects
+Yes
+Yes
+Yes
+Yes
+Number of metro areas
+133
+133
+133
+133
+Number of observations
+2.2 million
+0.38 million
+1.2 million
+0.35 million
+Note. Standard errors are clustered by metropolitan area. Controls for housing characteristics are
+indicators for decade built, indicators for number of rooms, and indicators for number of bedrooms.
+Value and rent are expressed relative to the price index for personal consumption expenditures.
+Controls for productivity and amenities are the variables listed in Appendix Table 1 interacted with the
+“recent” indicator. Observations are weighted to be nationally representative of the housing stock using
+the household weight provided by the Census Bureau.
+
+55
+
+Appendix Table 5
+Effect of Housing Supply Constraints on the Change in Ln(Price‐to‐Rent Ratios) 1980 to 2016
+All Homes
+Single‐Family Homes
+Ratio of
+Ratio of
+Ratio of
+Ratio of
+Averages
+Medians
+Averages
+Medians
+Constant
+0.108
+0.039
+0.073
+‐0.032
+(0.017)
+(0.018)
+(0.019)
+(0.021)
+Indicator interacted with:
+Regulatory constraints
+0.047
+0.056
+0.042
+0.046
+(0.014)
+(0.015)
+(0.015)
+(0.018)
+Geographic constraints
+
+0.048
+(0.012)
+
+0.059
+(0.013)
+
+0.072
+(0.014)
+
+0.099
+(0.015)
+
+Control for metro area
+Yes
+Yes
+Yes
+Yes
+productivity and amenities
+Number of observations
+133
+133
+133
+133
+Note. Controls for productivity and amenities are the variables listed in Appendix Table 1.
+Observations are weighted to be nationally representative of the housing stock using the
+household weights provided by the Census Bureau.
+
+56
+
+Appendix Table 6
+Effect of Housing Supply Constraints on House Prices and Rent
+Selected Subsamples
+Metro Areas Without Rent
+Household Head Moved In
+Control
+Within Past 5 Years
+Ln(Value)
+Ln(Rent)
+Ln(Value)
+Ln(Rent)
+SF Homes
+SF homes
+SF Homes
+SF homes
+2012‐2016 Indicator
+0.518
+0.513
+0.419
+0.473
+(0.022)
+(0.016)
+(0.025)
+(0.016)
+Indicator interacted with:
+Regulatory constraints
+0.105
+0.050
+0.084
+0.041
+(0.027)
+(0.012)
+(0.024)
+(0.012)
+Geographic constraints
+
+0.067
+(0.018)
+
+0.009
+(0.010)
+
+0.105
+(0.021)
+
+0.031
+(0.011)
+
+Controls for Housing
+Yes
+Yes
+Yes
+Yes
+Characteristics
+Controls for metro
+Yes
+Yes
+Yes
+Yes
+productivity and amenities
+Metro Area Fixed Effects
+Yes
+Yes
+Yes
+Yes
+Number of metro areas
+124
+124
+133
+133
+Number of observations
+1.7 million
+0.29 million
+0.49 million
+0.27 million
+Note. Standard errors are clustered by metropolitan area. All reported right‐hand‐side variables are
+standardized to have a mean equal to zero and standard deviation equal to one. Controls for housing
+characteristics are indicators for decade built, indicators for number of rooms, and indicators for
+number of bedrooms. Controls for metro productivity and amities are the variables shown in Appendix Table 1
+interacted with the “recent” indicator. Metropolitan areas with rent control are identified from
+http://www.landlord.com/rent_control_laws_by_state.htm.
+
+57
+
+Appendix Table 7
+Reponses to Supply Constraints that Raise Prices 48 Percent over 30 Years
+(Model Simulation, %)
+Population
+constraints
+
+Land area constraints
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Quality‐adjusted rent (median)
+
+27.9
+
+26.6
+
+25.9
+
+24.4
+
+Housing expenditure, holding income constant
+
+28.7
+
+0.0
+
+8.9
+
+8.4
+
+Structure size, holding income constant
+
+–5.5
+
+0.0
+
+8.9
+
+–4.4
+
+Lot size, holding income constant
+
+–5.5
+
+–50.7
+
+–45.4
+
+–21.3
+
+Structure size, city average
+
+8.2
+
+0.0
+
+8.9
+
+–4.4
+
+Lot size, city average
+
+8.2
+
+–50.7
+
+–45.4
+
+–21.3
+
+Median city income
+
+15.1
+
+0.0
+
+0.0
+
+0.0
+
+Population
+
+–16.1
+
+–8.8
+
+–9.0
+
+–8.5
+
+Housing services consumption
+
+–9.3
+
+–28.0
+
+–21.3
+
+–20.2
+
+Housing/non‐housing substitution elasticity
+
+–
+
+1
+
+0.5
+
+0.5
+
+Lot/structure substitution elasticity
+
+–
+
+1
+
+1
+
+0.33
+
+Assumptions
+
+Note. The model simulation is calibrated to match the effect of Superstar status on house prices, which
+is an effect on ln(house price) of 0.39 as reported in Table 9.
+
+58
+
+A. Appendix
+A.1. CES specification
+In the most general form of the model, both preferences and the housing production
+function take the CES functional form:
+, ,
+
+1
+
+,
+
+,
+
+,
+
+and
+1
+
+,
+
+,
+
+where ,
+1. When either parameter approaches zero, the corresponding CES function limits
+to the Cobb‐Douglas specification in the text. We first solve the model under this generality and
+reduce to the Cobb‐Douglas case to prove the results in the text.
+
+A.2. Developer optimization
+The developer problem is
+min
+subject to the constraint
+housing: ,
+,
+
+1
+, where
+
+,
+
+1
+
+,
+
+,
+
+,
+
+,
+
+. Solving this gives the price of
+
+.
+
+,
+
+The minimizing structure size is
+1
+
+1
+
+,
+
+,
+,
+
+and the minimizing lot size is
+
+,
+
+When
+
+,
+
+,
+
+1
+
+1
+
+,
+
+1
+
+0, the budget share of structure is
+
+59
+
+.
+
+.
+1
+
+A.3. Dynasty optimization
+Here we solve the dynasty problem given beliefs about future prices. We apply this solution
+to proofs that follow. Let denote the multiplier on the dynasty budget constraint for
+dynasty . The first‐order conditions for , and , respectively are
+1
+
+,
+
+1
+
+,
+
+,
+
+and
+,
+
+,
+
+1
+
+.
+
+,
+
+,
+
+The solution depends only on , , and , so consumption levels are identical across households
+in the same city and dynasty at the same time. This solution is
+1
+, ,
+
+1
+
+,
+
+and
+,
+
+, ,
+
+.
+
+1
+
+,
+
+1
+
+,
+
+The optimized flow utility is
+
+, ,
+
+Expenditure for households in and at is
+budget constraint therefore reduces to
+
+, ,
+
+,
+
+,
+
+, ,
+
+where
+
+, ,
+
+equals the share of households in dynasty
+
+60
+
+.
+, ,
+
+,
+
+,
+
+,
+
+in city at . Therefore
+
+. The dynastic
+
+, ,
+
+.
+
+,
+
+Substitution into dynastic utility transforms it to
+log
+, ,
+∈
+
+, ,
+
+,
+
+log
+
+,
+
+1
+
+log
+
+1
+
+,
+
+,
+
+times the number of households in the dynasty at time zero, where , is the common taste
+for city across households in dynasty . Because , ,
+1
+, , , the marginal gain from
+increasing , , is
+log
+
+,
+,
+
+1
+
+log
+
+1
+
+,
+
+1
+
+,
+
+,
+, ,
+
+times
+. When this gain is positive, , ,
+1, when this gain is negative,
+when this gain equals zero, , , can take any value between zero and 1.
+
+, ,
+
+,
+
+0, and
+
+A.4. Initial equilibrium
+At time zero, households believe that city will remain unregulated. Therefore, they
+believe that ,
+0 for all
+0. As a result, ,
+and ,
+,
+,
+where
+1
+
+.
+
+Furthermore, , ,
+1 when ,
+0 when ,
+, and
+, ,
+, . The initial
+population in equals the measure of households for whom ,
+, , which reduces
+to ,
+log
+log
+. Given standard results about extreme value distributions,
+,
+the population is
+.
+
+,
+
+From Section A.2, the lot size of a house in is
+A.3, housing consumption for household is ,
+
+,
+
+1
+
+, and from Section
+, where
+.
+
+1
+61
+
+The lot size for household in city
+,
+
+where
+
+1
+
+is
+
+. The total land area of
+
+1
+
+at time zero is
+
+,
+
+.
+
+A.5. Proof of Proposition 1
+By the , , condition from Section A.3, a household with ,
+, always lives in .
+∗
+Otherwise, given , , , there exists a unique such that the household lives in if ,
+∗
+and lives in if ,
+. As a result, the household lives in when
+,
+
+log
+
+,
+
+,
+
+∣∣
+
+This inequality is an equality when ,
+holds under the CES specification as well.
+
+∗
+
+∗
+
+.
+
+∗
+
+,
+
+, which proves the proposition. This proposition
+
+A.6. Proof of Proposition 2
+As , increases,
+, weakly increases because the domain of integration in the
+definition of weakly expands. The right side of the equation that we claim determines ,
+therefore strictly decreases in , . Because the left side of this equation strictly decreases
+in , , must strictly decrease in , as claimed.
+The equations for rent and price changes are immediate from substituting the equation
+for ,
+for
+0 from section 2.1 into the equation for ,
+from appendix A.4 (taking
+the limit as → 0). Because
+average strictly exceeds , because
+rents.
+
+′ averages , over the interval , ∞ , this
+increases in ′. As a result, prices rise more than
+,
+
+,
+
+A.7. Proof of Proposition 3
+Using the formulas from appendix A.3 in the
+∗
+
+→ 0 limit, we have
+∗
+
+1
+
+.
+
+Due to Cobb‐Douglas production, the share of the value going to structure is and the share
+going to lot is 1
+. We substitute ∗ into the expression for housing spot price from section
+2.1 and the multiply by
+and 1
+to obtain ∗ and ∗ , respectively.
+We now show that
+∗
+
+∗
+
+∣
+
+62
+
+∣∣
+
+.
+
+If
+and both households are in city at time . Doing so proves the final statement in
+the proposition. By Proposition 1, households of income reside in at only if
+,
+
+log
+
+,
+
+.
+
+,
+
+,
+
+∗
+∗
+Call this threshold . We have
+. If , ⁄ ,
+which means
+, ⁄ , , then
+∗
+∗
+by Proposition 1. The distribution of log , ⁄ ,
+that
+and log , ⁄ , is the same conditional on exceeding . Therefore, for such households,
+∗
+∗
+rises in log , ⁄ , ,
+is larger
+our claim holds. Furthermore, because
+when log , ⁄ ,
+than when log , ⁄ ,
+. Therefore, the inequality we desire
+holds for the entire distribution.
+
+A.8. Proof of Proposition 4
+This proposition follows immediately from the
+
+, ,
+
+condition from section A.3.
+
+A.9. Proof of Proposition 5
+Using the formulas from appendix A.3 in the
+∗
+
+→ 0 and → 0 limit, we have
+
+1
+
+.
+
+,
+
+Due to Cobb‐Douglas production, the share of the value going to structure is and the share
+going to lot is 1
+. We substitute ∗ into the expression for housing spot price from section
+2.1 and the multiply by
+and 1
+to obtain ∗ and ∗ , respectively.
+
+A.10. Proof of Proposition 6
+The equations for rent and price changes are immediate from substituting the equation
+for ,
+for
+0 from section 2.1 into the equation for ,
+from appendix A.4. Because
+the price effect averages the current and future rent effects, which strictly increase over time,
+the price effect exceeds the rent effect.
+
+A.11. Quantitative model solution
+In the case of permit delays, we solve for
+define
+Differentiation yields
+
+,
+
+,
+
+using differential equations as follows. We
+
+′, which equals
+
+,
+
+because
+
+,
+
+strictly increases.
+
+, .
+
+Because Proposition 1 holds in the general CES case, the equation from section 2.2
+determining , holds in the CES model as well. Differentiating this equation gives
+
+63
+
+,
+
+exp
+
+,
+
+.
+
+,
+
+exp
+and solve for
+
+We then substitute the equation for
+
+,
+
+,
+
+to obtain
+
+,
+
+,
+
+exp
+
+.
+
+,
+
+,
+
+exp
+We now have two differential equations in the two unknowns
+are ,
+0 and
+0.
+
+,
+
+and
+
+. The initial conditions
+
+In the case of geographic constraints, we calculate
+, numerically. In the Cobb‐Douglas
+case, we use the explicit formula for , appearing in section 2.3. In the CES case, we make a
+series of substitutions to derive differential equations pinning down this price over time from
+the market‐clearing condition for land. Define
+,
+
+and
+1
+
+.
+
+1
+From Section A.3, the measure of households choosing
+
+log
+
+,
+
+1
+
+log
+
+,
+
+is the measure of those for whom
+
+1
+
+,
+
+1
+
+,
+
+which equals
+.
+
+,
+
+64
+
+,
+
+We also define
+1
+1
+
+,
+
+and
+,
+
+.
+
+Using these substitutions, we write the lot size of household in city
+1
+1
+
+,
+
+as
+
+.
+
+Market‐clearing then simplifies to
+.
+
+This equation holds at all
+0 and pins down
+1. Log differentiation yields
+
+0 because
+
+, . It holds at
+
+1
+
+1
+
+1
+
+.
+
+We have
+,
+
+1
+
+,
+
+,
+
+,
+,
+
+,
+
+,
+
+,
+
+1
+1
+
+1
+,
+,
+
+and
+65
+
+,
+,
+
+1
+1
+
+1
+
+1
+
+.
+
+That gives us six differential equations in six unknowns: , , , , log , / ,
+. Solving these gives us
+and log 1
+, at all times. From that we solve all other
+, /
+variables.
+
+66
+
+

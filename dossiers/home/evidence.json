@@ -204,7 +204,7 @@
    "2021"
   ],
   "source": "SRC-0292",
-  "anchor": "The estimate that one in four eligible households receives\nfederal rental assistance comes from dividing the number of\nhouseholds receiving federal rental assistance by the\nnumber of very low-income renters. In 2021, according to\nHUD’s “2021 Picture of Subsidized Households” data and\nUSDA’s Multifamily Housing Annual Occupancy Report,\nthere were 4.8 million assisted renters.* This compares to\n19.34 million very low-income renters in 2021, according\nto HUD’s Worst Case Housing Needs Report, 2023. This is\na rough measure",
+  "anchor": "The estimate that one in four eligible households receives\nfederal rental assistance comes from dividing the number of\nhouseholds receiving federal rental assistance by the\nnumber of very low-income renters. In 2021, according to\nHUD\u2019s \u201c2021 Picture of Subsidized Households\u201d data and\nUSDA\u2019s Multifamily Housing Annual Occupancy Report,\nthere were 4.8 million assisted renters.* This compares to\n19.34 million very low-income renters in 2021, according\nto HUD\u2019s Worst Case Housing Needs Report, 2023. This is\na rough measure",
   "grade": "C",
   "fact_date": "2021",
   "checked": "2026-10-28",
@@ -219,7 +219,7 @@
   "claim": "data",
   "figures": [],
   "source": "SRC-0291",
-  "anchor": "demand for vouchers—the program serves roughly one in\nfour eligible households—PHAs generally maintain waiting\nlists for vouchers.",
+  "anchor": "demand for vouchers\u2014the program serves roughly one in\nfour eligible households\u2014PHAs generally maintain waiting\nlists for vouchers.",
   "grade": "C",
   "fact_date": "2023",
   "checked": "2026-10-28",
@@ -237,7 +237,7 @@
    "5 million"
   ],
   "source": "SRC-0291",
-  "anchor": "the nation’s largest rental assistance program. Authorized\nunder Section 8 of the Housing Act of 1937 (42 U.S.C.\n§1437f(o)), it subsidizes the rents of more than 2.3 million\nhouseholds (5 million people)",
+  "anchor": "the nation\u2019s largest rental assistance program. Authorized\nunder Section 8 of the Housing Act of 1937 (42 U.S.C.\n\u00a71437f(o)), it subsidizes the rents of more than 2.3 million\nhouseholds (5 million people)",
   "grade": "C",
   "fact_date": "2023",
   "checked": "2026-10-28",
@@ -381,7 +381,7 @@
    "44.2 percent"
   ],
   "source": "SRC-0296",
-  "anchor": "Of the 19.14 million VLI renter households susceptible to\nsevere rent burdens and severely inadequate housing in 2023, 8.46 million—44.2 percent—faced\none or both problems without housing assistance.",
+  "anchor": "Of the 19.14 million VLI renter households susceptible to\nsevere rent burdens and severely inadequate housing in 2023, 8.46 million\u201444.2 percent\u2014faced\none or both problems without housing assistance.",
   "grade": "A",
   "fact_date": "2023",
   "checked": "2026-10-28",
@@ -479,7 +479,7 @@
   ],
   "source": "SRC-0295",
   "anchor": [
-   "The number of people experiencing homelessness on a single night in 2024 was the highest ever\nrecorded. A total of 771,480 people – or about 23 of every 10,000 people in the United States –",
+   "The number of people experiencing homelessness on a single night in 2024 was the highest ever\nrecorded. A total of 771,480 people \u2013 or about 23 of every 10,000 people in the United States \u2013",
    "number of people experiencing homelessness increased by 18 percent."
   ],
   "grade": "A",
@@ -519,7 +519,7 @@
   "claim": "analysis",
   "figures": [],
   "source": "SRC-0296",
-  "anchor": "This year’s report shows two realities. The first is that economic growth has been insufficient to\nlift the wages of low-income renting families high enough to make rent affordable. The second is\nthat national macroeconomic policies, such as record immigration, have combined to drive\nsustained high rental demand, which has continued to place upward pressure on rent prices.",
+  "anchor": "This year\u2019s report shows two realities. The first is that economic growth has been insufficient to\nlift the wages of low-income renting families high enough to make rent affordable. The second is\nthat national macroeconomic policies, such as record immigration, have combined to drive\nsustained high rental demand, which has continued to place upward pressure on rent prices.",
   "grade": "C",
   "fact_date": "2023",
   "checked": "2026-10-28",
@@ -533,6 +533,42 @@
    {
     "evidence": "EV-HOU-028",
     "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-053",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-070",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-071",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-054",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-057",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-058",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-055",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-061",
+    "stance": "contests"
    }
   ],
   "supports": [
@@ -554,6 +590,26 @@
   "corroboration": [
    {
     "evidence": "EV-HOU-027",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-079",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-062",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-074",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-076",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-081",
     "stance": "qualifies"
    }
   ],
@@ -589,6 +645,26 @@
    {
     "evidence": "EV-HOU-027",
     "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-065",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-053",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-069",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-068",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-055",
+    "stance": "contests"
    }
   ],
   "supports": [
@@ -606,7 +682,7 @@
    "2.80"
   ],
   "source": "SRC-0296",
-  "anchor": "In\n2023, households with worst case needs included 2.46 million older adult households, 2.33\nmillion families with children, 0.87 million “other family” households, and 2.80 million “other\nnonfamily” households.",
+  "anchor": "In\n2023, households with worst case needs included 2.46 million older adult households, 2.33\nmillion families with children, 0.87 million \u201cother family\u201d households, and 2.80 million \u201cother\nnonfamily\u201d households.",
   "grade": "A",
   "fact_date": "2023",
   "checked": "2026-10-28",
@@ -626,7 +702,7 @@
    "49.2"
   ],
   "source": "SRC-0296",
-  "anchor": "The prevalence of worst case needs was 42.9 percent among families with children, 38.8\npercent among households headed by older adults without children, 52.2 percent among “other\nfamily” households (including multiple family members without children), and 49.2 percent\namong “other nonfamily” households (mostly single individuals).",
+  "anchor": "The prevalence of worst case needs was 42.9 percent among families with children, 38.8\npercent among households headed by older adults without children, 52.2 percent among \u201cother\nfamily\u201d households (including multiple family members without children), and 49.2 percent\namong \u201cother nonfamily\u201d households (mostly single individuals).",
   "grade": "A",
   "fact_date": "2023",
   "checked": "2026-10-28",
@@ -646,7 +722,7 @@
   ],
   "source": "SRC-0296",
   "anchor": [
-   "About one in seven renter households with worst case needs—13.7\npercent, or 1.16 million—included people younger than 62 who have disabilities.",
+   "About one in seven renter households with worst case needs\u201413.7\npercent, or 1.16 million\u2014included people younger than 62 who have disabilities.",
    "37.0 percent of VLI renter households with people younger than 62 with disabilities\nexperienced worst case needs in 2023"
   ],
   "grade": "A",
@@ -716,6 +792,16 @@
   "checked": "2026-10-28",
   "recheck": "2027-09-30",
   "context": "HUD's interpretation. It follows from the definition (assisted households are excluded from worst case needs, EV-HOU-020) and the assistance shares (EV-HOU-034), but the report does not estimate how much of the gap it explains.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-084",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-085",
+    "stance": "supports"
+   }
+  ],
   "supports": [
    "dossiers/home/1-problem.md"
   ]
@@ -749,13 +835,3927 @@
    "56.5"
   ],
   "source": "SRC-0296",
-  "anchor": "Together, the four largest race and ethnicity groups accounted for 97.8 percent of worst case\nneeds in 2023, and households headed by non-White people accounted for more than one-half—\n56.5 percent—of worst case needs.",
+  "anchor": "Together, the four largest race and ethnicity groups accounted for 97.8 percent of worst case\nneeds in 2023, and households headed by non-White people accounted for more than one-half\u2014\n56.5 percent\u2014of worst case needs.",
   "grade": "A",
   "fact_date": "2023",
   "checked": "2026-10-28",
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-050",
+  "statement": "Across U.S. metropolitan areas, an immigration inflow equal to 1% of a city's population is associated with increases of about 1% in average rents and housing values, an effect an order of magnitude bigger than in labor markets.",
+  "claim": "analysis",
+  "figures": [
+   "1%"
+  ],
+  "source": "SRC-0316",
+  "anchor": [
+   "Immigration pushes up rents and housing values in US destination cities.",
+   "An immigration inflow equal to 1% of a city\u2019s population is associated with increases in average rents and housing values of about 1%. The results suggest an economic impact that is an order of magnitude bigger than that found in labor markets."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2007",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Urban Economics, 2007), Wharton author, no advocacy affiliation; the estimate that analysts on every side cite. It measures metro-level effects of legal immigration over the 1980s and 1990s, before supply has time to respond fully.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-051",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-053",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-058",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-051",
+  "statement": "The 1980 Mariel boatlift added 9% to Miami's renter population; Miami rents rose 8% to 11% more than in comparison cities between 1979 and 1981 and were still 7% higher by 1983. Higher-quality units were not affected, and units occupied by low-income Hispanic residents saw an extra 8% rise.",
+  "claim": "analysis",
+  "figures": [
+   "1980",
+   "9%",
+   "8%",
+   "11%",
+   "1979",
+   "1981",
+   "7%"
+  ],
+  "source": "SRC-0317",
+  "anchor": [
+   "This exogenous immigration shock added an extra 9% to Miami\u2019s renter population in 1980. I find that rents increased from 8% to 11% more in Miami than in the comparison groups between 1979 and 1981. By 1983 the rent differential was still 7%.",
+   "Rental units of higher quality were not affected by the immigration shock. Units occupied by low-income Hispanic residents in 1979 experienced an extra 8% differential hike with respect to other low-income units. Relative housing prices moved in the opposite direction from rents in the short run."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "1983",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed natural experiment (Review of Economics and Statistics, 2003). A sudden low-income inflow into one city, which shows the effect at the bottom of the market but not how a national inflow spreads.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-052",
+  "statement": "Within metropolitan areas, housing values grew more slowly in neighborhoods where immigrants settled: a neighborhood whose foreign-born share went from 0 to 30 percent would have values about 6 percent lower. The authors attribute this more to demand for segregation by race and education than to foreignness itself.",
+  "claim": "analysis",
+  "figures": [
+   "0",
+   "30 percent",
+   "6 percent"
+  ],
+  "source": "SRC-0318",
+  "anchor": [
+   "Within metropolitan areas, we find that housing values have grown relatively more slowly in neighborhoods of immigrant settlement.",
+   "in an area where the share of the foreign born changes from 0 to 30 percent, housing values can be expected to be about 6 percent lower.",
+   "these results may be driven more by the demand for residential segregation based on race and education than by foreignness per se."
+  ],
+  "locator": "abstract; p. 3 (introduction)",
+  "grade": "B",
+  "fact_date": "2011",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Journal: Economic Policy, 2011). Shows that metro-wide increases can coexist with local declines as some natives move out.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-053",
+  "statement": "During the recent immigration boom, unauthorized immigrant worker inflows equal to 1% of a local area's employment raised local house prices 2.2% and rents 1.4%. For the average local market that explains about 30% of house-price growth and 20% of rent growth over the boom; for the median metropolitan area the implied effects, 2.9% on prices and 1.9% on rents, are relatively modest.",
+  "claim": "analysis",
+  "figures": [
+   "1%",
+   "2.2%",
+   "1.4%",
+   "30%",
+   "20%",
+   "2.9%",
+   "1.9%"
+  ],
+  "source": "SRC-0319",
+  "anchor": [
+   "an increase in unauthorized immigrant worker flows equal to 1% of a local area\u2019s initial employment increased local house prices by 2.2% and increased local rents by 1.4%.",
+   "A back-of-the-envelope calculation suggests that UIWF can explain about 30% of the total growth in house prices and 20% of total growth in rents over the boom period for the average local market.",
+   "yields implied effects of UIWF on house prices and rents of 2.9% and 1.9%, respectively. These effects amount to relatively modest contributions to the median MSA\u2019s total increases in house prices and rents over this period."
+  ],
+  "locator": "p. 4; p. 5; p. 42",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Federal Reserve Bank of Dallas working paper (March 2026) by Federal Reserve System economists using administrative microdata; not yet peer-reviewed. HUD and administration officials have cited it as confirming that illegal immigration raised housing costs. It covers the same years as HUD's decomposition (EV-HOU-029), and it finds effects concentrated where migrants settled.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-054",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-055",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-054",
+  "statement": "The post-pandemic surge of about 6.5 million migrants who entered outside usual legal pathways raised natives' rents by 1.6% and natives' wages by 0.9%. Declines in domestic in-migration almost wholly offset the surge in the average metropolitan area, and the rent effect apparently turned negative in 2023-2024 (-1.4%, imprecisely estimated).",
+  "claim": "analysis",
+  "figures": [
+   "6.5 million",
+   "1.6%",
+   "0.9%",
+   "2023",
+   "1.4%"
+  ],
+  "source": "SRC-0320",
+  "anchor": [
+   "an unprecedented inflow of about 6.5 million migrants who entered outside of usual legal pathways.",
+   "it raised U.S. natives\u2019 wages 0.9% over the period. The surge left native employment rates unaffected, but increased natives\u2019 rent by 1.6%. Declines in net domestic in-migration almost wholly offset the surge migration in the average metro",
+   "The effect on rents apparently became negative in 2023-2024, though this -1.4% is imprecisely estimated."
+  ],
+  "locator": "abstract; p. 45",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Brookings Papers on Economic Activity conference draft (September 2026) by Rutgers, Dallas Fed and University of North Florida economists; may change before publication.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-053",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-055",
+  "statement": "Foreign-born householders accounted for 25 percent of household growth from 2019 to 2023, amid particularly strong native-born household growth. After immigration ramped up in 2022, house price and rent growth slowed, and by 2023 rent growth had stalled while the surge continued. Immigrants were 34 percent of construction trades workers in 2023, against 18 percent of the whole workforce.",
+  "claim": "analysis",
+  "figures": [
+   "25 percent",
+   "2019",
+   "2022",
+   "34 percent",
+   "18 percent"
+  ],
+  "source": "SRC-0321",
+  "anchor": [
+   "Foreign-born householders accounted for 25 percent of household growth from 2019\u20132023 amid particularly strong native-born household growth",
+   "After immigration ramped up in 2022, growth rates of house prices and rents slowed substantially. By 2023, as the surge in immigration continued, home price growth fell even further while rent growth completely stalled.",
+   "Immigrants accounted for 34 percent of those who worked in construction trades in 2023, far higher than their 18 percent share of the overall workforce"
+  ],
+  "locator": "paragraph 3; paragraph 4; paragraph 7",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Harvard Joint Center for Housing Studies blog (October 2024); a university center funded partly by housing-industry and foundation sponsors. The timing argument contests HUD's reading that household formation was largely driven by immigration (EV-HOU-029).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-054",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-066",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-056",
+  "statement": "The staggered rollout of the Secure Communities enforcement program brought large and persistent reductions in construction workforce and homebuilding: three years in, the average treated county permitted 2,578 fewer housing units, saw 1,994 fewer new homes, paid 18% more for new construction, and saw average home prices up 10%.",
+  "claim": "analysis",
+  "figures": [
+   "2,578",
+   "1,994",
+   "18%",
+   "10%"
+  ],
+  "source": "SRC-0322",
+  "anchor": [
+   "Treated counties experience large and persistent reductions in construction workforce, residential homebuilding, and increases in home prices.",
+   "2,578 fewer housing units are permitted, and 1,994 fewer newly constructed homes enter the market.",
+   "Three years after SC implementation, the average new construction parcel is 18% more expensive relative to the baseline",
+   "we find that average home prices increase by 10% by the 3nd year after implementation."
+  ],
+  "locator": "abstract; p. 3; p. 4",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Academic working paper (October 2024), not yet peer-reviewed. Cato's analyst notes the rollout was probably not random. The supply side of immigration: enforcement raised prices through lost construction labor.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-055",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-057",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-057",
+  "statement": "The Congressional Research Service notes that immigration raises housing demand but also construction labor supply, so it is generally not posited as one of the main drivers of higher housing costs. It cites an Urban Institute estimate that deporting undocumented construction workers could reduce the construction workforce by 1.7-1.8 million.",
+  "claim": "analysis",
+  "figures": [
+   "1.7",
+   "1.8 million"
+  ],
+  "source": "SRC-0305",
+  "anchor": [
+   "generally immigration is not posited as one of the main\ndrivers of increased housing costs given that the supply effects, at least partially, balance out the\ndemand effects.",
+   "the Urban Institute estimated\nthat deportations of undocumented construction workers could result in a decrease of 1.7-1.8"
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Nonpartisan legislative-branch agency, April 2026.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-055",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-053",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-058",
+  "statement": "The UK's Migration Advisory Committee, reviewing international studies, finds most credible estimates put the effect of a one-percentage-point rise in the immigrant share at 0 to 3% on house prices, with smaller rent effects (mean estimate 0.87%, median 0.64%). Applied to the UK, immigration would account for around 4-6% of the rise in house prices since the mid-1990s.",
+  "claim": "analysis",
+  "figures": [
+   "0",
+   "3%",
+   "0.87%",
+   "0.64%",
+   "4",
+   "6%",
+   "1990"
+  ],
+  "source": "SRC-0323",
+  "anchor": [
+   "most credible estimates suggest that a one-percentage-point increase in the immigrant share of the population increases house prices by between 0 and 3%. Rent effects are typically slightly smaller.",
+   "mean estimate of 0.87% and the median estimate at 0.64%.",
+   "immigration would therefore account for around 4-6% of the total increase in house prices since the mid-1990s"
+  ],
+  "locator": "section 6 (conclusion); section 5.2 (rent effects)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Independent public body advising the UK Home Office (June 2026). International synthesis; UK supply conditions differ from U.S. ones.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-053",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-059",
+  "statement": "The Center for Immigration Studies reports that immigrant-headed households rose 2.4 million after January 2021, perhaps 1.4 million of them from illegal immigration, and that a 5-point higher recent-immigrant share in a metro area goes with a 12 percent higher rent relative to income for U.S.-born households, a figure it calls only a simple correlation.",
+  "claim": "analysis",
+  "figures": [
+   "2.4 million",
+   "2021",
+   "1.4 million",
+   "5",
+   "12 percent"
+  ],
+  "source": "SRC-0324",
+  "anchor": [
+   "since January of 2021 the number of immigrant-headed households is up 2.4 million, with perhaps 1.4 million of this increase due to illegal immigration.",
+   "a 5-percentage point increase in the recent immigrant share of a metro area\u2019s population is associated with a 12 percent increase in the average U.S.-born household\u2019s rent, relative to their income.",
+   "Of course, this is only a simple correlation and does not include homeowners."
+  ],
+  "locator": "summary, Housing; Immigration and Rent Affordability section",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Written testimony to a House subcommittee (September 2024) by a think tank that favors lower immigration. The rent figure is an uncontrolled correlation.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-060",
+  "statement": "The Cato Institute's immigration analyst, who favors more immigration, agrees that immigrants increase house prices, by a factor of 3 to 10 more than they affect wages, and notes that about 30 percent of construction workers are immigrants, so deporting them would reduce the growth in housing supply.",
+  "claim": "analysis",
+  "figures": [
+   "3",
+   "10",
+   "30 percent"
+  ],
+  "source": "SRC-0325",
+  "anchor": [
+   "Vance is correct in saying that immigrants increase the price of houses.",
+   "Relative to the labor market, the marginal immigrant affects housing prices by a factor of 3 to 10 more than wages, depending on your preferred wage elasticity.",
+   "about 30 percent of all construction workers are immigrants",
+   "Deporting those workers or halting more immigrants will reduce the growth in the housing supply."
+  ],
+  "locator": "paragraph 1; paragraph 6; paragraph 3",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Libertarian think tank blog (October 2024); commentary on existing research, not new estimates.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-056",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-061",
+  "statement": "The Economic Policy Institute argues that higher housing costs are caused not by immigration but by housing markets failing to meet new demand with new homes, pointing to the large run-up in home prices in 2020 and 2021 just as immigration was plummeting, and warns that mass deportation could raise housing costs by shrinking the construction workforce.",
+  "claim": "analysis",
+  "figures": [
+   "2020",
+   "2021"
+  ],
+  "source": "SRC-0326",
+  "anchor": [
+   "Increased housing costs are caused not by immigration, but by the failure of U.S. housing markets to meet any new demand with more housing units rather than higher prices",
+   "This can be seen most clearly in the very large run-up in home prices in 2020 and 2021, just as rates of immigration were plummeting.",
+   "Anti-immigrant reforms (like mass deportations) done in the name of preserving housing affordability for U.S.-born workers could well see large increases in housing costs due to resulting shortages of workers employed in residential construction."
+  ],
+  "locator": "executive summary",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Progressive, labor-aligned think tank (October 2024); advocacy synthesis, not new estimates.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-055",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-056",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-062",
+  "statement": "The number of people in U.S. homeless shelters rose an unprecedented 43 percent between 2022 and 2024. Asylum seekers accounted for about 60 percent of that rise, concentrated in New York City (77,352 increase), Chicago (14,590), Massachusetts (13,353) and metropolitan Denver (6,556); the data suggest little connection between asylum seekers and the rise in unsheltered homelessness.",
+  "claim": "analysis",
+  "figures": [
+   "43 percent",
+   "2022",
+   "60 percent",
+   "77,352",
+   "14,590",
+   "13,353",
+   "6,556"
+  ],
+  "source": "SRC-0327",
+  "anchor": [
+   "an unprecedented 43 percent increase in the number of people residing in homeless shelters in the United States between 2022 and 2024",
+   "we estimate that asylum seekers accounted for about 60 percent of the two-year rise in sheltered homelessness during this period",
+   "New York City (77,352 increase), Chicago (14,590 increase), Massachusetts (13,353 increase), and metropolitan Denver (6,556 increase).",
+   "the data suggest little connection between asylum seekers and the 2022-2024 increase in unsheltered homelessness."
+  ],
+  "locator": "abstract; p. 11 (conclusion); p. 10",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "University of Chicago working paper (April 2025), also NBER Working Paper 33655; the lead author's poverty-measurement work is cited across parties. Places with a right to shelter housed arriving asylum seekers in shelters, which raised shelter counts.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-028",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-025",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-063",
+  "statement": "Where house prices are above the cost of building, the housing market is not functioning well and housing is too expensive for all households in that market, not just poorer ones. But Glaeser and Gyourko conclude that the vast majority of U.S. homes are priced near or below their full social cost of replication, so regulation-driven scarcity is concentrated in particular high-cost markets.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0328",
+  "anchor": [
+   "But if housing prices are above this cost in a given area, then the housing market is not functioning well\u2014and housing is too expensive for all households in the market, not just for poorer ones.",
+   "Thus, our conclusion that the vast majority of homes are priced near or below their full social costs of replication is robust to virtually any assumption we could make."
+  ],
+  "locator": "abstract; section on price-to-cost ratios (WP p. ~16)",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Economic Perspectives, 2018); Harvard and Wharton authors who favor deregulation; quoted from NBER Working Paper 23833.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-017",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-064",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-064",
+  "statement": "Using data from U.S. metropolitan areas from 1980 to 2016, Federal Reserve Board researchers find sizeable effects of supply constraints on house prices but modest-to-negligible effects on rents, housing consumption, location choice and housing expenditures.",
+  "claim": "analysis",
+  "figures": [
+   "1980"
+  ],
+  "source": "SRC-0308",
+  "anchor": [
+   "We find sizeable effects of supply constraints on house\nprices, but modest\u2010to\u2010negligible effects on rent, lot size, structure consumption, location choice\nwithin metropolitan areas, sorting across metropolitan areas, and housing expenditures.",
+   "data from\nUS metropolitan areas from 1980 to 2016"
+  ],
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Federal Reserve Board working paper (FEDS 2020-044) by two Board economists and an academic; later published in the Journal of Urban Economics. A counterweight to accounts that put renter burden mainly down to regulation.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-063",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-017",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-065",
+  "statement": "CRS finds national supply indicators mixed: homes per person and per household have been fairly steady since 1980, but vacancy rates are below the 1980-2024 average, so supply is more constrained than before. Higher interest rates raise the cost of financing construction, though the link to construction is not always strong; population-adjusted starts in 2025 were down roughly 27% for single-family homes, 76% for condominiums and 7% for rental apartments.",
+  "claim": "analysis",
+  "figures": [
+   "1980",
+   "2024",
+   "27%",
+   "76%",
+   "7%"
+  ],
+  "source": "SRC-0305",
+  "anchor": [
+   "The total number of homes per person and the total number of homes per household\nhave been fairly steady since 1980, indicating similar supply conditions over this period.",
+   "Vacancy rates are currently lower than the 1980-2024 average, indicating that supply is currently more\nconstrained than previously.",
+   "Higher interest rates\nincrease the costs of financing residential construction and renovation.",
+   "although the relationship between interest rates and construction is not always strong\nor linear.",
+   "starts in 2025 were down by roughly 27% for single-family units, 76% for\nmultifamily for sale units (i.e., condominiums), and 7% for multifamily for rent units"
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Nonpartisan legislative-branch agency (April 2026). The low vacancy supports the \"tight rental market\" in HUD's decomposition (EV-HOU-029).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-017",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-068",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-066",
+  "statement": "Rents rose 8.3 percent over the 12 months to December 2022, and rent growth eased to 3.8 percent over the 12 months to May 2025. Governor Kugler credits the moderation partly to more multifamily construction; lower-end rents cooled less, in part because new construction was aimed at the high end.",
+  "claim": "analysis",
+  "figures": [
+   "8.3 percent",
+   "12",
+   "2022",
+   "3.8 percent"
+  ],
+  "source": "SRC-0311",
+  "anchor": [
+   "Rents surged early in the pandemic recovery, rising 8.3 percent over the 12 months ending in December 2022. This year, rent growth eased to 3.8 percent over the 12 months ending in May.",
+   "The recent increase in multifamily construction has contributed to this moderation. For lower-end properties, we have not seen as much of a cooling in rental inflation, in part because new construction has been aimed at the high end of the market."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Speech by a Federal Reserve Board governor appointed by President Biden (July 17, 2025), drawing on Board staff research.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-068",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-065",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-067",
+  "statement": "Governor Kugler summarizes research as finding that rent growth increases in the short run after a wave of immigration but may not persist if supply expands to meet demand, and notes that the share of renters spending more than 30 percent of income on rent was about 40 percent in both 2019 and 2023.",
+  "claim": "analysis",
+  "figures": [
+   "30 percent",
+   "40 percent",
+   "2019"
+  ],
+  "source": "SRC-0311",
+  "anchor": [
+   "Academic research examining immigration flows finds that rent growth increases in the short run after a wave of immigration, but these rent increases may not persist if the housing supply expands over time to meet the increase in housing demand.",
+   "The share of renters spending more than 30 percent of their income on rent was about the same in 2023 as it was in 2019, about 40 percent in both years."
+  ],
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "As EV-HOU-066. At the median, rents did not outrun incomes from 2019 to 2023, so the strain is concentrated among lower-income renters.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-054",
+    "stance": "supports"
+   }
+  ],
+  "note": "also causes/kugler2025 quote 2",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-068",
+  "statement": "By early 2026 an influx of new multifamily supply had contained rent increases: the share of newly completed units leased within three months hit a record low of 45 percent in the second quarter of 2025, and the rental vacancy rate reached 7.4 percent in February 2026, the highest since that series began in 2017.",
+  "claim": "analysis",
+  "figures": [
+   "45 percent",
+   "2025",
+   "7.4 percent",
+   "2017"
+  ],
+  "source": "SRC-0329",
+  "anchor": [
+   "In particular, an influx of new multifamily housing supply has contained rent increases, as seen in Figure 2 below.",
+   "After reaching a record low of 45 percent in the second quarter of 2025, the latest reading of 46 percent in the third quarter has shown little improvement.",
+   "The most recent reading of 7.4 percent in February 2026 was the highest since the series began in 2017"
+  ],
+  "locator": "para. 2; absorption rate section; vacancy section",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Richmond Fed economist's blog (2026), views the author's own; vacancy from Apartment List. The tight market of 2021-2023 has since loosened.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-066",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-069",
+  "statement": "The shift to remote work explains over one-half of the 18.9 percent increase in U.S. real house prices from 2019 to 2023; each additional point of remote work raised house prices 0.92 percent and also raised rents, through demand for more space at home.",
+  "claim": "analysis",
+  "figures": [
+   "18.9 percent",
+   "2019",
+   "0.92 percent"
+  ],
+  "source": "SRC-0330",
+  "anchor": [
+   "We show that the shift to remote work explains over one-half of the 18.9 percent increase in U.S. real house prices from 2019 to 2023.",
+   "we estimate that an additional percentage point of remote work causes a 0.92 percent increase in house prices after controlling for spillovers from migration. This finding reflects an increase in demand for home space: remote work causes an increase in residential rents"
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "NBER working paper (2022, revised May 2025) by a San Francisco Fed economist and a UC San Diego economist; a demand driver unrelated to immigration.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-066",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-070",
+  "statement": "Federal Reserve Board staff find that quality-adjusted rent growth differed little across the income distribution from 1985 to 2019: cumulatively, rent rose 81 percent for the top income fifth and 72 percent for the bottom fifth.",
+  "claim": "analysis",
+  "figures": [
+   "1985",
+   "81 percent",
+   "72 percent"
+  ],
+  "source": "SRC-0310",
+  "anchor": [
+   "how quality-adjusted changes in rent have differed for households across the income distribution from 1985 to 2019.",
+   "We find that rent growth differentials across groups were fairly minor overall.",
+   "Cumulating over the entire period, rent increased by 81 percent at the top quintile, and by 72 percent at the bottom quintile."
+  ],
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "FEDS Notes (November 2021), Board staff. So rising burden at the bottom reflects incomes more than faster rent inflation for the poor; covers the years before 2020 only.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-071",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-071",
+  "statement": "The median renter household spent about 18 percent of income on rent in 1960 and 29 percent at the time of writing; renters in the bottom fifth went from about 47 to 63 percent. Rents largely tracked incomes until the Great Recession; after 2007 incomes fell while rents rebounded, a trend the authors attribute at least in part to stagnant real incomes for renters.",
+  "claim": "analysis",
+  "figures": [
+   "18 percent",
+   "1960",
+   "29 percent",
+   "47",
+   "63 percent",
+   "2007"
+  ],
+  "source": "SRC-0331",
+  "anchor": [
+   "The median renter household in 1960 spent about 18 percent of their income on rent; today they spend 29 percent. Renters who were in the bottom fifth of the income distribution devoted about 47 percent of their income to rent in 1960, compared to 63 percent today.",
+   "Over this period, rents largely tracked income until the Great Recession. Since 2007, incomes have plummeted while rents have rebounded after a brief dip.",
+   "This trend is at least in part due to stagnant real incomes for renters over this period"
+  ],
+  "locator": "Section II.D, Table 4; Section II.D",
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed volume chapter (NBER Working Paper 21071; University of Chicago Press, 2016) by NYU and University of Chicago economists.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-070",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-072",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-072",
+  "statement": "Over four decades there is little evidence that owner-occupied housing became less affordable, and the median renter devoted modestly more income to housing, but rent burdens for poor households rose sharply.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0332",
+  "anchor": "There is little evidence that owner-occupied housing has become less affordable. In contrast, there have been modest increases in the fraction of income that the median renter household devotes to housing. We find pronounced increases in the rent burdens for poor households.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2004",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Economic Perspectives, 2004), UC Berkeley economists; weighs income distribution, housing quality and regulation as causes.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-071",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-073",
+  "statement": "Under the Supplemental Poverty Measure, child poverty more than doubled from 5.2 percent in 2021 to 12.4 percent in 2022, a return to pre-pandemic levels: the 2022 rate was not statistically different from 2019's 12.6 percent.",
+  "claim": "data",
+  "figures": [
+   "5.2 percent",
+   "2021",
+   "12.4 percent",
+   "2019",
+   "12.6 percent"
+  ],
+  "source": "SRC-0300",
+  "anchor": "SPM rates more than doubled for\nchildren (individuals under the age\nof 18) in 2022, increasing 7.2 percentage points, from 5.2 percent\nin 2021 to 12.4 percent in 2022.\nThis represents a return to prepandemic SPM child poverty levels, as\nthe 2022 rate was not statistically\ndifferent from the 2019 rate (12.6\npercent)",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2026-12-31",
+  "note": "Census measurement; P60 reports for later years exist and should be added in the next refresh.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-074",
+  "statement": "The Census Bureau attributes the 2022 rise in Supplemental Poverty Measure rates in part to the expiration of the expanded refundable tax credits and stimulus payments.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0300",
+  "anchor": "driven in part by the expiration of\nthe expanded refundable tax credits and stimulus payments.",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "The statistical agency's own reading of its measure; the measure counts tax credits as income, so the link follows from its construction.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-075",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-075",
+  "statement": "Using 943,568 Household Pulse responses from April 2021 to May 2022, monthly child tax credit payments reduced food insufficiency among families with children by at least 2.4 percentage points (19%), while the lump-sum payment reduced the share behind on housing payments by at least 1.2 percentage points (10%).",
+  "claim": "analysis",
+  "figures": [
+   "943,568",
+   "2021",
+   "2.4 percent",
+   "19%",
+   "1.2 percent",
+   "10%"
+  ],
+  "source": "SRC-0333",
+  "anchor": [
+   "We produce difference-in-difference estimates to identify how monthly and lump-sum CTC payments affected food and housing hardship among a sample of 943,568 respondents between April 2021\u2013May 2022.",
+   "The monthly CTC payments reduced food insufficiency among families with children by at least 2.4 percentage points (19%), but the lump-sum payment did not reduce food insufficiency. Instead, the lump-sum payment reduced the likelihood that families with children were behind on housing payments by at least 1.2 percentage points (10%)."
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Columbia Center on Poverty and Social Policy working paper (September 2022) by authors who supported the expanded credit; later published in AEA Papers and Proceedings (not opened). The housing effect is modest.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-074",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-076",
+  "statement": "Landlords filed over one million eviction cases in 2024 in the jurisdictions Eviction Lab tracks, roughly four percent fewer than in a typical pre-pandemic year, but over six percent above the historical average without New York City, where filings were at 52% of their pre-pandemic level. 15 of 35 cities had higher filing rates than before the pandemic; in Phoenix the rate rose from 10.6% to 14.3%.",
+  "claim": "data",
+  "figures": [
+   "52%",
+   "15",
+   "35",
+   "10.6%",
+   "14.3%"
+  ],
+  "source": "SRC-0334",
+  "anchor": [
+   "Landlords filed over one million eviction cases in 2024 in the jurisdictions we track. That\u2019s a small drop relative to 2023 and roughly four percent fewer eviction cases filed than in a typical pre-pandemic year",
+   "If we remove New York\u2014the city with the largest renter population of the country\u2014eviction filings were over six percent above historical average.",
+   "Of the 35 cities in the ETS, 15 had a higher eviction filing rate in 2024 than was typical before the pandemic.",
+   "Phoenix experienced the second largest jump in its filing rate, from 10.6% prior to the pandemic to 14.3% in 2024.",
+   "Filings in New York City are at 52% of their pre-pandemic level"
+  ],
+  "locator": "paragraph 3; section on city trends; conclusion",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-04-30",
+  "context": "Court-record counts from about a third of U.S. renter households; the Lab supports tenant protections.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-077",
+  "statement": "Landlords filed 1.23 million eviction cases in 2025 at the sites Eviction Lab monitors, slightly fewer than the 1.26 million of 2024 and 3.2% below the post-pandemic average; the average filing rate was 8.0%, and only 5% in New York City. Black renters were 28% of renters but 39% of those named in filings.",
+  "claim": "data",
+  "figures": [
+   "1.23 million",
+   "1.26 million",
+   "2024",
+   "3.2%",
+   "8.0%",
+   "5%",
+   "28%",
+   "39%"
+  ],
+  "source": "SRC-0335",
+  "anchor": [
+   "Across all sites that we currently monitor, landlords filed 1.23 million eviction cases in 2025. This total was slightly lower than in 2024 (1.26 million cases) and marks the second year in a row of declining eviction filings (see Figure 1). Overall, eviction case filings in 2025 were 3.2% below the post-pandemic average.",
+   "Across all the locations we track, the average eviction filing rate was 8.0%",
+   "Despite making up 28% of the renter population, we estimate that 39% of eviction filings in 2025 named a Black defendant.",
+   "the eviction filing rate in NYC was only 5% in 2025."
+  ],
+  "locator": "About our eviction tracking system; pull quote; race section; filing-rate section",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-04-30",
+  "context": "As EV-HOU-076.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-078",
+  "statement": "While the CDC eviction moratorium was in force, from September 4, 2020 to July 31, 2021, tracked sites saw 47.2% of the eviction filings of a typical year, and the filing rate fell from about 8.1% to around 3.8%. Eviction Lab estimates the moratorium helped prevent 1.55 million filings nationwide.",
+  "claim": "analysis",
+  "figures": [
+   "4",
+   "2020",
+   "31",
+   "47.2%",
+   "8.1%",
+   "3.8%",
+   "1.55 million"
+  ],
+  "source": "SRC-0336",
+  "anchor": [
+   "Between September 4, 2020 and July 31, 2021, we observed 368,398 eviction filings across the jurisdictions we monitor. This represents less than half as many eviction filings (47.2%) as we would expect over the same period in a typical year.",
+   "Normally, the eviction filing rate in the areas we monitor is about 8.1% over this time period. With the CDC eviction moratorium in place, that fell to around 3.8%.",
+   "We estimate that the CDC moratorium helped to prevent 1.55 million eviction filings nationwide."
+  ],
+  "locator": "paragraph 3; paragraph 4",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "The national figure is an extrapolation from tracked sites, not a count.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-152",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-079",
+  "statement": "Colburn and Aldern test common beliefs about what drives homelessness in a city (mental illness, drug use, poverty, weather, generosity of public assistance and low-income mobility) and find that none explains the regional variation across the country; housing market conditions, the cost and availability of rental housing, offer a far more convincing account.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0337",
+  "anchor": [
+   "test a range of conventional beliefs about what drives the prevalence of homelessness in a given city\u2014including mental illness, drug use, poverty, weather, generosity of public assistance, and low-income mobility\u2014and find that none explain the regional variation observed across the country.",
+   "Instead, housing market conditions, such as the cost and availability of rental housing, offer a far more convincing account."
+  ],
+  "locator": "publisher description",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Book (University of California Press, 2022) by a University of Washington academic and a data scientist; quoted from the publisher's description.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-080",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-083",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-081",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-080",
+  "statement": "A model of homeless counts in the 25 largest U.S. metropolitan areas finds the relationship between homelessness and rental costs strongest in New York, Los Angeles, Washington, D.C., and Seattle, and that the inferred rise in homelessness from 2011-2016 depends on prior beliefs about how accurate the counts are.",
+  "claim": "analysis",
+  "figures": [
+   "25",
+   "2011"
+  ],
+  "source": "SRC-0338",
+  "anchor": [
+   "To examine trends in homeless population counts in the 25 largest U.S. metropolitan areas, we develop a dynamic Bayesian hierarchical model for time-varying homeless count data.",
+   "evidence is presented that the inferred increase in the rate of homelessness from 2011-2016 depends on prior beliefs about the accuracy of homeless counts. A main finding of the study is that the relationship between homelessness and rental costs is strongest in New York, Los Angeles, Washington, D.C., and Seattle."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Annals of Applied Statistics, 2019); academic statisticians.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-079",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-081",
+  "statement": "The Council of Economic Advisers estimated that deregulating housing in the 11 metropolitan areas with significantly supply-constrained markets would cut overall U.S. homelessness by 13 percent, and by 31 percent on average in those areas (54 percent in San Francisco, 40 percent in Los Angeles). It also argued that more shelter, as a substitute for permanent housing, increases homelessness.",
+  "claim": "analysis",
+  "figures": [
+   "11",
+   "13 percent",
+   "31 percent",
+   "54 percent",
+   "40 percent"
+  ],
+  "source": "SRC-0299",
+  "anchor": [
+   "We estimate that if the\n11 metropolitan areas with significantly supply-constrained housing markets were\nderegulated, overall homelessness in the United States would fall by 13 percent.",
+   "would fall by much larger amounts in these 11 large metropolitan areas, for example by 54\npercent in San Francisco, by 40 percent in Los Angeles, and by 23 percent in New York City. On\naverage, homelessness would fall by 31 percent in these 11 metropolitan areas",
+   "A larger supply of substitutes to permanent housing through shelter provision also increases\nhomelessness."
+  ],
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Published September 2019 under the first Trump administration; critical of Housing First. Agrees that housing costs are central but places the cause in regulation and adds shelter policy and climate.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-063",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-082",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-079",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-082",
+  "statement": "Cold places uniformly have low rates of unsheltered homelessness, while warm places display wide variation.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0339",
+  "anchor": "They find that cold places uniformly have low rates of unsheltered homelessness, while warm places display wide variation.",
+  "locator": "abstract (RePEc)",
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "AEI working paper (conservative think tank); later in the Journal of Housing Economics. Climate shapes whether homeless people are unsheltered, a factor HUD does not list.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-081",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-083",
+  "statement": "Across U.S. communities, one additional permanent housing bed was associated with 0.12 fewer homeless people on the streets and in shelters, an association fully muted after the first year; the homelessness rate was significantly associated with median rent.",
+  "claim": "analysis",
+  "figures": [
+   "0.12"
+  ],
+  "source": "SRC-0340",
+  "anchor": [
+   "one additional permanent housing bed is associated with 0.12 fewer homeless people on the streets and in shelters; however, this negative association is fully muted after the first year.",
+   "The homelessness rate is significantly associated with median rent"
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "AEI working paper; the author later served on President Trump's Council of Economic Advisers. A peer-reviewed version appeared in the Journal of Housing Economics (not opened).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-079",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-081",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-084",
+  "statement": "Only 5.3 million (1 in 4) eligible renter households receive federal rental assistance; worst case needs rose 32 percent from 2007 to 2019 while assisted households rose 3 percent. Nearly 6 in 10 low-income cost-burdened Black renters have extremely low incomes, against less than half of White renters, and White renters make up a smaller share of assisted households than of those in need.",
+  "claim": "analysis",
+  "figures": [
+   "5.3 million",
+   "1",
+   "4",
+   "32 percent",
+   "2007",
+   "2019",
+   "3 percent",
+   "6",
+   "10"
+  ],
+  "source": "SRC-0341",
+  "anchor": [
+   "Only 5.3 million (1 in 4) eligible renter households receive federal rental assistance due to funding limitations.",
+   "From 2007 to 2019, the number of renter households with very low incomes either paying more than half their income for rent or living in severely substandard housing, known as worst-case housing needs, increased 32 percent. During this same period, the number of households receiving federal rental assistance rose only 3 percent.",
+   "Nearly 6 in 10 low-income cost-burdened Black renters have extremely low incomes, compared to less than half of white renters.",
+   "White renters make up a smaller share of assisted households compared to those in need of assistance."
+  ],
+  "locator": "Section 1; Section 3",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Progressive think tank that advocates more rental assistance (2022), using HUD tabulations. Its account of why Black renters are more often assisted is deeper poverty plus programs that admit the poorest first.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-035",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-011",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-085",
+  "statement": "In the pandemic Emergency Rental Assistance program, Black renters' share of recipients was 21-22 percentage points higher than their share of eligible renters, and extremely low-income renters were 64% of recipients, twice their share of the eligible; the evaluators note that this matters because income distributions vary by race and ethnicity.",
+  "claim": "analysis",
+  "figures": [
+   "21",
+   "22 percent",
+   "64%"
+  ],
+  "source": "SRC-0312",
+  "anchor": [
+   "Extremely low income renters were overrepresented: at 64%, their share of the recipient population was twice their share of the eligible population.",
+   "Black renters were strongly overrepresented among recipients of ERA \u2013 their share of the recipient population was 21-22 percentage points higher than their share of the eligible population.",
+   "This matters for the representation of ethnic and racial groups, because income distributions vary by race and ethnicity."
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Federal evaluation unit (GSA Office of Evaluation Sciences, 2023) with Treasury data. A different program from HUD's, so it bears on HUD's reading by analogy.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-084",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-035",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-086",
+  "statement": "The Family Options Study randomly assigned 2,282 families in homeless shelters across 12 sites. Priority access to long-term rent subsidies reduced homelessness and food insecurity and improved other aspects of adult and child well-being, at a cost 9 percent higher than usual care; the other interventions had little effect. The subsidy reduced the share of family heads with any employment from 57.5 percent to 52.0 percent but had no effect on average earnings.",
+  "claim": "analysis",
+  "figures": [
+   "2,282",
+   "12",
+   "9 percent",
+   "57.5 percent",
+   "52.0 percent"
+  ],
+  "source": "SRC-0343",
+  "anchor": [
+   "The Family Options Study randomly assigned 2,282 families recruited in homeless shelters across 12 sites to priority access to one of three active interventions or to usual care in their communities.",
+   "priority access to long-term rent subsidies reduced homelessness and food insecurity and improved other aspects of adult and child well-being relative to usual care, at a cost 9 percent higher. The other interventions had little effect.",
+   "reduced the proportion of family heads with any employment during this period (a one-year period approximately centered on the 37-month follow-up point) from 57.5 percent to 52.0 percent but had no effect on average earnings"
+  ],
+  "locator": "abstract; footnote on National Directory of New Hires data",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Randomized trial funded by HUD and run by Abt Associates with academic co-authors (Journal of Policy Analysis and Management, 2018). The long-term subsidies were mostly Housing Choice Vouchers.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-087",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-096",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-087",
+  "statement": "In the same trial, families given priority access to short-term rent subsidies (rapid re-housing) or transitional housing did no better on average than families in usual care; short-term subsidies led to comparable results at a 9 percent lower cost.",
+  "claim": "analysis",
+  "figures": [
+   "9 percent"
+  ],
+  "source": "SRC-0343",
+  "anchor": [
+   "Although on average families given priority access to short-term rent subsidies and transitional housing did no better than families assigned to usual care",
+   "The third option studied, short-term rent subsidies, led to comparable results to usual care at a 9 percent lower cost."
+  ],
+  "locator": "Results; Discussion",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "As EV-HOU-086.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-088",
+  "statement": "In Chicago's randomized voucher waiting-list lottery, using a voucher reduced labor force participation by around 4 percentage points (6 percent) and quarterly earnings by $329 (10 percent), and increased TANF participation by around 2 percentage points (15 percent); the authors find no evidence that housing-specific mechanisms such as neighborhood quality promote work.",
+  "claim": "analysis",
+  "figures": [
+   "4 percent",
+   "6 percent",
+   "$329",
+   "10 percent",
+   "2 percent",
+   "15 percent"
+  ],
+  "source": "SRC-0344",
+  "anchor": [
+   "housing voucher use reduces labor force participation by around 4 percentage points (6 percent) and quarterly earnings by $329 (10 percent), and increases Temporary Assistance for Needy Families program participation by around 2 percentage points (15 percent).",
+   "We find no evidence that the housing-specific mechanisms hypothesized to promote work, such as neighborhood quality or residential stability, are important empirically."
+  ],
+  "locator": "abstract (AER)",
+  "grade": "B",
+  "fact_date": "2003",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Review, 2012).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-086",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-089",
+  "statement": "Ten to 15 years after families were randomly offered Moving to Opportunity vouchers, the program improved adults' physical and mental health but had no detectable effect on economic outcomes or youth schooling, with mixed results by gender on other youth outcomes.",
+  "claim": "analysis",
+  "figures": [
+   "15"
+  ],
+  "source": "SRC-0345",
+  "anchor": "We show that ten to 15 years after baseline, MTO: (i) improves adult physical and mental health; (ii) has no detectable effect on economic outcomes or youth schooling or physical health; and (iii) has mixed results by gender on other youth outcomes",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2008",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Review, 2013).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-090",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-090",
+  "statement": "Children whose families used a Moving to Opportunity voucher to move to a lower-poverty area before age 13 had annual incomes $3,477 (31%) higher in their mid-twenties than the control group mean of $11,270; the same moves had, if anything, negative effects on children over 13.",
+  "claim": "analysis",
+  "figures": [
+   "13",
+   "$3,477",
+   "31%",
+   "$11,270"
+  ],
+  "source": "SRC-0346",
+  "anchor": [
+   "children whose families take up an experimental voucher to move to a lower-poverty area when they are less than 13 years old have an annual income that is $3,477 (31%) higher on average relative to a mean of $11,270 in the control group in their mid-twenties.",
+   "the same moves have, if anything, negative long-term impacts on children who are more than 13 years old when their families move"
+  ],
+  "locator": "abstract (NBER w21156)",
+  "grade": "B",
+  "fact_date": "2012",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Review, 2016); quoted from NBER Working Paper 21156.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-089",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-091",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-091",
+  "statement": "In Seattle and King County, search assistance, landlord engagement and short-term financial help raised the share of voucher families moving to high-upward-mobility areas from 15 to 53 percent, driven primarily by customized search assistance; barriers in the housing search significantly increase segregation by income.",
+  "claim": "analysis",
+  "figures": [
+   "15",
+   "53 percent"
+  ],
+  "source": "SRC-0347",
+  "anchor": [
+   "The treatment increased the fraction moving to high-upward-mobility areas from 15 to 53 percent. A second trial reveals this treatment effect is driven primarily by customized search assistance.",
+   "barriers in housing search significantly increase residential segregation by income"
+  ],
+  "locator": "abstract (AER)",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed randomized trials (American Economic Review, 2024) with two housing authorities.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-090",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-092",
+  "statement": "Records for about 85,000 new voucher recipients a year in 433 metropolitan housing authorities from 2015 to 2019 show that 61% leased a home within six months; lease-up was significantly lower in metro areas with fewer vacancies, more spatial variation in rents and older housing.",
+  "claim": "analysis",
+  "figures": [
+   "85,000",
+   "433",
+   "2015",
+   "61%"
+  ],
+  "source": "SRC-0348",
+  "anchor": [
+   "administrative data from about 85,000 voucher recipients (annually), in 433 U.S. metropolitan housing authorities, between 2015 and 2019.",
+   "We estimate that 61% of voucher recipients successfully leased a home within six months of receiving their vouchers during the five years of our study, 2015 to 2019.",
+   "In metro areas with fewer housing vacancies, more spatial variation in rent prices, and an older housing stock, lease-up rates are significantly lower."
+  ],
+  "locator": "p. 1; p. 1-2, Select Findings",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Summary (Institute for Research on Poverty, 2024) of NYU Furman Center researchers' peer-reviewed study.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-093",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-093",
+  "statement": "In paired tests of landlords in five metropolitan areas, the denial rate for voucher holders was 78 percent in Fort Worth, 76 percent in Los Angeles and 67 percent in Philadelphia, but 31 percent in Newark and 15 percent in Washington, D.C., the two sites where source-of-income laws require landlords to accept vouchers.",
+  "claim": "data",
+  "figures": [
+   "78 percent",
+   "76 percent",
+   "67 percent",
+   "31 percent",
+   "15 percent"
+  ],
+  "source": "SRC-0313",
+  "anchor": [
+   "Denial\nrates were highest in Fort Worth (78 percent) and\nLos Angeles (76 percent) and only somewhat\nlower in Philadelphia (67 percent). Rates were\nsubstantially lower in Newark (31 percent)\nand Washington, D.C. (15 percent).",
+   "In three of the five\nsites, the landlord denial rate was 67 percent or higher. In the two sites with lower levels of\nlandlord denial (less than 31 percent), source-of-income antidiscrimination laws require landlords\nto accept vouchers."
+  ],
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Paired-testing study for HUD by the Urban Institute (2018), a center-left research organization; a pilot in five sites.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-094",
+  "statement": "Source-of-income anti-discrimination laws had mixed effects on where voucher holders live: substantively important reductions in neighborhood poverty and small but significant reductions in minority concentration.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0349",
+  "anchor": "This research found that the impacts of SOI laws on locational outcomes are mixed. We found substantively important reductions in neighborhood poverty rates associated with the implementation of SOI laws and small but statistically significant reductions in minority concentration as well.",
+  "locator": "abstract (via RePEc/IDEAS)",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Housing Studies, 2014).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-093",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-095",
+  "statement": "Making vouchers more generous across a whole metro area mainly benefits landlords through higher rents, with minimal effect on neighborhood and unit quality; indexing rent ceilings to neighborhood rents leads voucher holders to move to neighborhoods with lower crime, poverty and unemployment.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0350",
+  "anchor": "A policy that makes vouchers more generous across a metro area benefits landlords through increased rents, with minimal impact on neighborhood and unit quality. A second policy that indexes rent ceilings to neighborhood rents leads voucher holders to move into higher quality neighborhoods with lower crime, poverty, and unemployment.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Journal: Economic Policy, 2018). The second policy is what HUD calls Small Area Fair Market Rents.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-096",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-155",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-096",
+  "statement": "An increase in vouchers did not raise the overall price of rental housing; the largest price increases were for units near the maximum allowable voucher rent in cities with inelastic housing supply.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0351",
+  "anchor": [
+   "We do not find that an increase in vouchers affected the overall price of rental housing but do estimate differences in effects based on an individual unit's rent before the voucher expansion.",
+   "the largest price increases were for units near the maximum allowable voucher rent in cities with an inelastic housing supply."
+  ],
+  "locator": "abstract (via RePEc/IDEAS); abstract",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Journal: Economic Policy, 2015).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-095",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-156",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-097",
+  "statement": "CBPP finds federal rental assistance sharply reduces homelessness and other hardship and lifts 3 million people out of poverty, citing a study in which it cut the share of families in shelters or on the street by three-fourths; 60 percent of non-disabled working-age assisted households include a worker.",
+  "claim": "analysis",
+  "figures": [
+   "3 million",
+   "60 percent"
+  ],
+  "source": "SRC-0342",
+  "anchor": [
+   "Federal rental assistance sharply reduces homelessness and other hardship and lifts 3 million people out of poverty.",
+   "One study found that rental assistance reduced the share of families living in shelters or on the street by three-fourths",
+   "among non-disabled, working-age households with rental assistance, 60 percent include at least one worker and the majority receive assistance for less than three years."
+  ],
+  "locator": "summary; summary bullet; body",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Progressive think tank that advocates more rental assistance (2019).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-086",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-098",
+  "statement": "In a New York trial, two hundred twenty-five homeless people with mental illness were randomly assigned to housing contingent on treatment and sobriety or to immediate housing without prerequisites. The immediate-housing group got housed earlier and stayed stably housed; the control group used more substance abuse treatment, but substance use and psychiatric symptoms did not differ.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0352",
+  "anchor": [
+   "Two hundred twenty-five participants were randomly assigned to receive housing contingent on treatment and sobriety (control) or to receive immediate housing without treatment prerequisites (experimental).",
+   "The experimental group obtained housing earlier, remained stably housed, and reported higher perceived choice. Utilization of substance abuse treatment was significantly higher for the control group, but no differences were found in substance use or psychiatric symptoms."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2004",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Journal of Public Health, 2004); the lead author founded Pathways to Housing, the program tested.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-099",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-099",
+  "statement": "In Canada's multi-city At Home/Chez Soi trial of 950 people with serious mental illness, Housing First participants spent 71% of the time in stable housing against 29% under usual treatment; differences in other outcomes narrowed by the end of the second year.",
+  "claim": "analysis",
+  "figures": [
+   "950",
+   "71%",
+   "29%"
+  ],
+  "source": "SRC-0353",
+  "anchor": [
+   "A sample of 950 participants with serious mental illness",
+   "Housing First participants spent more time in stable housing than participants in treatment as usual (71% versus 29%, adjusted absolute difference [AAD]=42%, p<.01).",
+   "differences between the two groups were attenuated by the end of the second year."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Psychiatric Services, 2016); funded by the Mental Health Commission of Canada; Tsemberis is a co-author.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-098",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-100",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-100",
+  "statement": "A meta-analysis of four randomized trials, all at high risk of bias, found Housing First participants more likely to be housed at 18-24 months (risk ratio 2.46) and with fewer emergency department visits (rate ratio 0.63), with no clear difference in substance use and imprecise effects on most short-term health outcomes.",
+  "claim": "analysis",
+  "figures": [
+   "18",
+   "24",
+   "2.46",
+   "0.63"
+  ],
+  "source": "SRC-0297",
+  "anchor": [
+   "were more likely to be housed at 18\u201324 months (risk ratio=2.46; 95% CI 1.58 to 3.84).",
+   "Intervention groups experienced fewer emergency department visits (incidence rate ratio (IRR)=0.63; 95% CI 0.48 to 0.82)",
+   "We included four studies, all with \u2018high\u2019 risk of bias. The impact of HF on most short-term health outcomes was imprecisely estimated, with varying effect directions. No clear difference in substance use was seen."
+  ],
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed systematic review (Journal of Epidemiology and Community Health, 2019), University of Glasgow.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-101",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-104",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-101",
+  "statement": "A CDC Community Guide review of twenty-six U.S. and Canadian studies found that, compared with treatment-first programs, Housing First decreased homelessness by 88% and improved housing stability by 41%.",
+  "claim": "analysis",
+  "figures": [
+   "88%",
+   "41%"
+  ],
+  "source": "SRC-0354",
+  "anchor": "Twenty-six studies in U.S. and Canada met inclusion criteria. Compared with Treatment First, Housing First programs decreased homelessness by 88%, improved housing stability by 41%.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed systematic review for the Community Preventive Services Task Force (2020).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-100",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-102",
+  "statement": "The median Housing First cost was $16,479 per person per year in U.S. studies, against median benefits of $18,247, a benefit-to-cost ratio of 1.80:1; including Canadian studies the ratio was 1.06:1.",
+  "claim": "analysis",
+  "figures": [
+   "$16,479",
+   "$18,247",
+   "1.80",
+   "1",
+   "1.06"
+  ],
+  "source": "SRC-0355",
+  "anchor": [
+   "The median intervention cost per person per year for U.S. studies was $16,479 and for all studies, including those for Canada, it was $16,336. The median total benefit for the U.S. studies was $18,247 per person per year",
+   "The benefit-to-cost ratio for U.S. studies was 1.80:1, and for all studies including those for Canada it was 1.06:1."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed economic review for the CDC Community Guide (2022). Benefits roughly match costs; Housing First is not a large net saving.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-104",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-103",
+  "statement": "Linking At Home/Chez Soi participants to health records, mortality did not differ between Housing First and usual care (pooled adjusted hazard ratio 0.83, 95% confidence interval 0.43-1.22).",
+  "claim": "analysis",
+  "figures": [
+   "0.83",
+   "95%",
+   "0.43",
+   "1.22"
+  ],
+  "source": "SRC-0314",
+  "anchor": "Mortality rates were not different in the HF compared with TAU groups (pooled log mortality rate ratio, \u22120.07; 95% CI, \u22120.36 to 0.22). The pooled adjusted hazard ratio comparing mortality in the HF and TAU groups was 0.83 (95% CI, 0.43-1.22).",
+  "grade": "B",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (JAMA Network Open, 2025), trial investigators.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-100",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-104",
+  "statement": "The Congressional Research Service concludes that permanent supportive housing helps increase days spent in housing and reduce days spent homeless, while reductions in service use and costs, substance use and mental health improvements are less clear and may require more than a move out of homelessness.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0303",
+  "anchor": [
+   "Overall, based on a review of the research, PSH\nhelps increase days spent in housing and reduce days spent homeless, showing that PSH can be a\nsuccessful way to end homelessness. The outcomes in other areas are not as clear",
+   "reductions in service use and costs, reductions in substance use, and mental health\nimprovements may depend on individual needs and circumstances and require more than a\nsuccessful move out of homelessness."
+  ],
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Nonpartisan legislative-branch agency.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-100",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-105",
+  "statement": "Housing First reports document excellent housing retention, but data on homeless clients with active and severe addiction are limited, so policymakers should be cautious about generalizing the results to them.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0356",
+  "anchor": [
+   "Housing First reports document excellent housing retention, despite the limited amount of data pertaining to homeless clients with active and severe addiction.",
+   "policymakers should be cautious about generalizing the results of available Housing First studies to persons with active addiction when they enter housing programs."
+  ],
+  "locator": "abstract, findings; abstract, conclusions",
+  "grade": "B",
+  "fact_date": "2009",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed review (Milbank Quarterly, 2009) by VA and University of Alabama researchers.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-100",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-106",
+  "statement": "A Manhattan Institute critic argues that proponents overstate Housing First's ability to end homelessness, its cost-effectiveness and its ability to improve lives, and that it has been shown effective for individuals but not in ending homelessness at the community level.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0357",
+  "anchor": [
+   "proponents overstate the ability of Housing First to end homelessness, the policy\u2019s cost-effectiveness, and its ability to improve the lives of the homeless.",
+   "Housing First has not been shown to be effective in ending homelessness at the community level, but rather, only for individuals."
+  ],
+  "locator": "introduction; Key Findings",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Conservative think tank (2020).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-083",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-102",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-105",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-107",
+  "statement": "A July 2025 executive order directs federal agencies toward ending support for \"housing first\" policies that, it says, deprioritize accountability and fail to promote treatment, recovery and self-sufficiency, and calls past federal and state homelessness spending failed programs.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0307",
+  "anchor": [
+   "ending support for \u201chousing first\u201d policies that deprioritize accountability and fail to promote treatment, recovery, and self-sufficiency",
+   "The Federal Government and the States have spent tens of billions of dollars on failed programs that address homelessness but not its root causes"
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Second Trump administration policy, not research. The trial evidence on housing stability (EV-HOU-100, 101) contests its reading; the evidence on health and substance use (EV-HOU-100, 105) is consistent with its doubts.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-106",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-100",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-105",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-108",
+  "statement": "In Chicago from 2010 to 2012 (n = 4448), callers to a homelessness prevention line when emergency funds happened to be available were 76% less likely to enter a homeless shelter; averting a case of homelessness cost about $10,300 per person.",
+  "claim": "analysis",
+  "figures": [
+   "2010",
+   "4448",
+   "76%",
+   "$10,300"
+  ],
+  "source": "SRC-0358",
+  "anchor": [
+   "Using data from Chicago from 2010 to 2012 (n = 4448), we demonstrate that the volatile nature of funding availability leads to good-as-random variation",
+   "those calling when funding is available are 76% less likely to enter a homeless shelter. The per-person cost of averting homelessness through financial assistance is estimated as $10,300"
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2012",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Science, 2016); funding availability gives good-as-random variation.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-109",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-110",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-109",
+  "statement": "In a randomized trial in Santa Clara County, households offered emergency financial assistance (about $2,000 on average) were 81 percent less likely to become homeless within six months and 73 percent less likely within 12 months; the authors estimate $2.47 in benefits per net dollar.",
+  "claim": "analysis",
+  "figures": [
+   "$2,000",
+   "81 percent",
+   "73 percent",
+   "12",
+   "$2.47"
+  ],
+  "source": "SRC-0359",
+  "anchor": [
+   "the average treatment household received about $2,000 to pay rent, utilities and other housing-related expenses.",
+   "people offered the emergency financial assistance were 81 percent less likely to become homeless within six months of enrollment and 73 percent less likely within 12 months.",
+   "communities get $2.47 back in benefits per net dollar spent on emergency financial assistance."
+  ],
+  "locator": "summary; interview",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "The authors' own summary in an interview (MIT Press Reader, 2023); the journal article (Review of Economics and Statistics) was not opened.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-108",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-110",
+  "statement": "In a randomized trial of New York City's Homebase prevention program among 295 families with children, treated families spent 22.6 fewer nights in shelter (9.6 against 32.2), and the share spending at least one night in shelter fell from 14.5% to 8.0%.",
+  "claim": "analysis",
+  "figures": [
+   "295",
+   "22.6",
+   "9.6",
+   "32.2",
+   "14.5%",
+   "8.0%"
+  ],
+  "source": "SRC-0360",
+  "anchor": [
+   "the analysis includes only the 295 families with at least one child",
+   "with the treatment group families spending on average 22.6 fewer nights in shelter (9.6 versus 32.2 nights) than the control group families (p=.03; see Table 2).",
+   "it reduced the percentage of families who spent at least one night in shelter from 14.5% to 8.0% and the percentage who applied for shelter from 18.2% to 9.3%."
+  ],
+  "locator": "Section 2; Section 5.1, p. 13; Section 6",
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Randomized evaluation by Abt Associates for the city agency that runs Homebase (2013).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-108",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-111",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-111",
+  "statement": "Across New York City, Homebase's rollout reduced family shelter entries by about 5% with census tracts weighted equally and 11% with community districts weighted equally.",
+  "claim": "analysis",
+  "figures": [
+   "5%",
+   "11%"
+  ],
+  "source": "SRC-0361",
+  "anchor": "The (geometric) average decrease in shelter entries was about 5% when census tracts are weighted equally, and 11% when community districts (which are much larger) are weighted equally.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Housing Economics, 2016); funded in part by the city agency. Effects across a whole city are smaller than for the households served.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-110",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-112",
+  "statement": "CRS reports that studies of LIHTC crowd-out range from little to nearly 100% of units replacing housing that would otherwise have been built, that studies typically find tenant subsidies more cost-effective than production subsidies, and that investor oversight ends 15 years after a property is awarded credits.",
+  "claim": "analysis",
+  "figures": [
+   "100%",
+   "15"
+  ],
+  "source": "SRC-0301",
+  "anchor": [
+   "The findings range from little crowding out to nearly 100%,\nand depend on the market examined, the data used, and the\nmethodological approach of the researchers.",
+   "They typically\nhave found tenant subsidies to be more cost effective, but\nthe degree to which this is true depends on the specific\nmarket.",
+   "investor oversight ends 15 years after a\nproperty is awarded tax credits because investors are no\nlonger under the threat of losing or repaying credits."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Nonpartisan legislative-branch agency.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-114",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-115",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-116",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-113",
+  "statement": "Before the One Big Beautiful Bill Act (P.L. 119-21), LIHTC cost the government an average of $14.4 billion a year; starting in 2026 the act permanently increases state allocation authority by 12% and lowered the 50% tax-exempt bond financing requirement to 25%. A project qualifies with at least 20% of units for households at or below 50% of area median income, or 40% at or below 60%.",
+  "claim": "data",
+  "figures": [
+   "119",
+   "21",
+   "$14.4 billion",
+   "2026",
+   "12%",
+   "50%",
+   "25%",
+   "20%",
+   "40%",
+   "60%"
+  ],
+  "source": "SRC-0306",
+  "anchor": [
+   "Prior to enactment of P.L. 119-21, the LIHTC program was estimated to cost the government an average of $14.4 billion",
+   "Starting in 2026, the act permanently increases states\u2019 annual allocation\nauthority by 12% and lowers the 50% tax-exempt bond financing requirement to 25%.",
+   "at least 20% of the units must be occupied by individuals with income of 50% or less of\nthe area\u2019s median gross income (AMI)",
+   "at least\n40% of the units must be occupied by individuals with income of 60% or less of AMI"
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-07-01",
+  "context": "CRS summary of the law and cost estimates (July 2025).",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-114",
+  "statement": "Government-financed units raise the total number of units in a market, but on average one subsidized unit adds only one-third to one-half of a unit to the housing stock; tenant-based vouchers seem more effective than project-based programs at reaching people who would otherwise lack their own housing.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0362",
+  "anchor": [
+   "We find that government-financed units raise the total number of units in a market, although on average one government-subsidized unit adds only one-third to one-half of a unit to the total housing stock.",
+   "Tenant-based housing programs, such as Section 8 Certificates and Vouchers, seem to be more effective than project-based programs at targeting subsidized housing units to people who otherwise would not have their own."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2005",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Public Economics, 2005).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-115",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-116",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-112",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-115",
+  "statement": "LIHTC accounts for one-third of recent multifamily rental construction, and the most robust estimates indicate that nearly 100% of LIHTC development is offset by fewer newly built unsubsidized rental units, though the confidence band allows smaller effects.",
+  "claim": "analysis",
+  "figures": [
+   "100%"
+  ],
+  "source": "SRC-0363",
+  "anchor": [
+   "accounting for one-third of all recent multi-family rental construction",
+   "Our most robust IV estimates indicate that nearly 100% of LIHTC development is offset by a reduction in the number of newly built unsubsidized rental units, although the confidence band around this point estimate allows for less dramatic assessments."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2010",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Public Economics, 2010).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-114",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-116",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-112",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-116",
+  "statement": "Where projects get 30% higher tax credits, tracts receive about six more low-income units on a base of seven. LIHTC units crowd out nearby new rental construction in gentrifying areas but not in stable or declining areas, where they raise property values.",
+  "claim": "analysis",
+  "figures": [
+   "30%"
+  ],
+  "source": "SRC-0364",
+  "anchor": [
+   "Tracts where projects are awarded 30% higher tax credits receive approximately six more low income housing units on a base of seven units per tract.",
+   "LIHTC units significantly crowd out nearby new rental construction in gentrifying areas but do not displace new construction in stable or declining areas.",
+   "raise property values in declining areas and reduce incomes in gentrifying areas"
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2009",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Public Economics, 2009).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-114",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-117",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-117",
+  "statement": "LIHTC development in low-income neighborhoods raises nearby house prices 6.5%, lowers crime and attracts racially and income-diverse residents; in higher-income areas it causes house price declines of 2.5% and attracts lower-income households.",
+  "claim": "analysis",
+  "figures": [
+   "6.5%",
+   "2.5%"
+  ],
+  "source": "SRC-0365",
+  "anchor": [
+   "LIHTC development revitalizes low-income neighborhoods, increasing house prices 6.5%, lowering crime rates, and attracting racially and income diverse populations.",
+   "LIHTC development in higher income areas causes house price declines of 2.5% and attracts lower income households."
+  ],
+  "locator": "abstract (Dec. 2017 version)",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Political Economy, 2019); figures from the authors' 2017 working paper.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-116",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-118",
+  "statement": "In tenant data from state housing finance agencies, more than forty percent of LIHTC tenants had extremely low incomes, and the overwhelming majority of them also received rental assistance: 46 percent of all LIHTC households received some rental assistance, and 31 percent of those without it also had extremely low incomes.",
+  "claim": "data",
+  "figures": [
+   "46 percent",
+   "31 percent"
+  ],
+  "source": "SRC-0366",
+  "anchor": [
+   "We find that more than forty percent of tenants have extremely low incomes, and the overwhelming majority of such tenants also receive some form of rental assistance.",
+   "While 46 percent of all LIHTC households receive some form of rental assistance, only 29 percent of initial certifications have rental assistance.",
+   "a full 31 percent of LIHTC households not receiving rental assistance also have extremely low incomes"
+  ],
+  "locator": "abstract; p. 18; p. 21",
+  "grade": "C",
+  "fact_date": "2010",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "NYU Furman Center draft (2012), later in Housing Policy Debate. LIHTC reaches the poorest renters mainly when vouchers are layered on.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-119",
+  "statement": "Of roughly 2.5 million active LIHTC units, whose affordability requirements last at least 30 years, about one-third are set to expire by 2035, rising to roughly 40% once early exits are counted.",
+  "claim": "analysis",
+  "figures": [
+   "2.5 million",
+   "30",
+   "2035",
+   "40%"
+  ],
+  "source": "SRC-0367",
+  "anchor": [
+   "The NHPD shows that there were roughly 2.5 million active LIHTC units placed in service in 2022 or earlier",
+   "LIHTC affordability requirements last for 30 years at a minimum.",
+   "Without accounting for early exits, roughly one-third of all currently active LIHTC units are set to expire by 2035",
+   "we find that the number of units set to expire by 2035 increases to roughly 40%."
+  ],
+  "locator": "Importance of LIHTC, by the numbers; introduction; key results",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Chicago Fed community development staff (2025), from the National Housing Preservation Database.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-112",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-120",
+  "statement": "Housing authorities may not exceed their 1999 count of public housing units (the Faircloth limit). The stock fell from about 1.3 million units in 1993 to just under 920,000 in 2023; repair needs are estimated at $30 billion-$70 billion, against capital grants of $2 billion-$3 billion a year, and up to 455,000 units may convert under the Rental Assistance Demonstration, about 200,000 by November 2023.",
+  "claim": "data",
+  "figures": [
+   "1999",
+   "1.3 million",
+   "1993",
+   "920,000",
+   "$30 billion",
+   "$70 billion",
+   "$2 billion",
+   "$3 billion",
+   "455,000",
+   "200,000"
+  ],
+  "source": "SRC-0302",
+  "anchor": [
+   "PHAs are prohibited from increasing their number of public\nhousing units above the total they had in 1999",
+   "In 1993, there were\napproximately 1.3 million units of public housing; in 2023,\nthere were just under 920,000 units",
+   "estimates range from $30 billion-$70\nbillion in needed repairs. At the same time, annual funding\nfor public housing capital fund grants is generally in the\nrange of $2 billion-$3 billion.",
+   "Current law authorizes the conversion of\nup to 455,000 public housing units under RAD; as of\nNovember 2023, approximately 200,000 units had been\nconverted."
+  ],
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "CRS summary of HUD data.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-121",
+  "statement": "Chicago children displaced by public housing demolitions, who mostly moved with vouchers, were 9 percent (4 percentage points) more likely to be employed as adults, earned $602 (16 percent) more a year, and had 14 percent fewer arrests for violent crimes than peers in buildings not demolished.",
+  "claim": "analysis",
+  "figures": [
+   "9 percent",
+   "4 percent",
+   "$602",
+   "16 percent",
+   "14 percent"
+  ],
+  "source": "SRC-0368",
+  "anchor": [
+   "Displaced children are 9 percent (4 percentage points) more likely to be employed as adults relative to their non-displaced peers. Further, displaced children have $602 in higher annual earnings: an increase of 16 percent relative to their non-displaced counterparts.",
+   "displaced children have 14 percent fewer arrests for violent crimes in the years following demolition."
+  ],
+  "locator": "introduction, p. 3029",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Review, 2018).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-090",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-122",
+  "statement": "HOPE VI redevelopment returned few original residents: in one tracking study, 19 percent lived in a revitalized development, 29 percent in other public housing, 33 percent rented with vouchers and 18 percent had left assisted housing, while grantees had expected 46 percent to return. Voucher users moved to tracts with much lower poverty, from 61 to 27 percent on average.",
+  "claim": "data",
+  "figures": [
+   "19 percent",
+   "29 percent",
+   "33 percent",
+   "18 percent",
+   "46 percent",
+   "61",
+   "27 percent"
+  ],
+  "source": "SRC-0369",
+  "anchor": [
+   "The Tracking Study found that 19 percent of the households surveyed were living in a revitalized HOPE VI development, 29 percent were living in other public housing properties, 33 percent were renting units using housing vouchers, and 18 percent had left assisted housing altogether.",
+   "on average, grantees expected 46 percent of residents to return.",
+   "the average census tract poverty rate for those who received vouchers dropped from 61 to 27 percent."
+  ],
+  "locator": "p. 27; p. 28",
+  "grade": "C",
+  "fact_date": "2003",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Urban Institute and Brookings review (2004) of HUD-funded studies.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-123",
+  "statement": "Auckland upzoned about three quarters of its residential land in 2016; an estimated 21,808 additional dwellings were permitted over the following five years, about 4.11% of the region's dwelling stock.",
+  "claim": "analysis",
+  "figures": [
+   "2016",
+   "21,808",
+   "4.11%"
+  ],
+  "source": "SRC-0370",
+  "anchor": [
+   "In 2016, the city upzoned approximately three quarters of its residential land to facilitate construction of more intensive housing.",
+   "This approach implies that 21,808 additional dwellings were permitted over the \ufb01ve years following the zoning reform, corresponding to approximately 4.11% of the dwelling stock of the Auckland region."
+  ],
+  "locator": "abstract; section 1",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Urban Economics, 2023). A city-wide upzoning in a country with national planning law.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-124",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-128",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-124",
+  "statement": "After Chicago's 2013 and 2015 transit-area upzonings, there was no perceptible rise in new housing permits in upzoned areas over five years, while property values rose roughly in line with the added allowed density.",
+  "claim": "analysis",
+  "figures": [
+   "2013",
+   "2015"
+  ],
+  "source": "SRC-0371",
+  "anchor": [
+   "Implemented in 2013 and 2015, these changes were undertaken broadly, without specific association with new developments or other changes.",
+   "I found no perceptible uptick in new housing-unit permitting in the upzoned areas compared to the unaffected areas over five years.",
+   "I found an increase in property values in upzoned areas roughly equivalent to the increase in allowed density."
+  ],
+  "locator": "summary",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Urban Affairs Review, 2020); quoted from the author's summary. Parcel-scale upzoning can raise land values before it raises building.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-123",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-125",
+  "statement": "From 2017 to 2022 Minneapolis increased its housing stock by 12% while rents grew 1%, against 4% and 14% in the rest of Minnesota; 87% of new units were in buildings of 20 or more units and just 1% in buildings of two to four units.",
+  "claim": "analysis",
+  "figures": [
+   "2017",
+   "12%",
+   "1%",
+   "4%",
+   "14%",
+   "87%",
+   "20"
+  ],
+  "source": "SRC-0372",
+  "anchor": [
+   "From 2017 to 2022, Minneapolis increased its housing stock by 12% while rents grew by just 1%. Over the same period, the rest of Minnesota added only 4% to its housing stock while rents went up by 14%.",
+   "Pew estimates that 87% were in buildings with 20 or more units, and just 1% were in buildings with two to four units."
+  ],
+  "locator": "body",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Pew's housing initiative advocates zoning reform; a descriptive comparison, not a causal design. Most growth came from larger buildings, not the triplex rule.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-126",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-126",
+  "statement": "Five years after Minneapolis ended single-family-only zoning, home prices were 16-34% and rents 17.5-34% lower than in a synthetic counterfactual Minneapolis, but the effects are not the result of new housing supply; they are likely due to weakened demand.",
+  "claim": "analysis",
+  "figures": [
+   "16",
+   "34%",
+   "17.5"
+  ],
+  "source": "SRC-0373",
+  "anchor": [
+   "home prices were 16\u201334% lower and rents 17.5\u201334% lower than a counterfactual Minneapolis.",
+   "The effects are consistent across multiple robustness exercises and are not the result of new housing supply, but are likely due to weakened housing demand."
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Working paper (2025), Middlebury College economists; the post-2020 drop in demand in Minneapolis confounds the reform.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-125",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-124",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-127",
+  "statement": "In 1998 Houston cut the minimum lot size inside the I-610 Loop from 5,000 to 3,500 square feet, allowing even smaller lots (averaging 1,400 square feet) under conditions, and in 2013 extended the reform citywide; nearly 80,000 houses have been built on such small lots.",
+  "claim": "analysis",
+  "figures": [
+   "1998",
+   "610",
+   "5,000",
+   "3,500",
+   "1,400",
+   "2013",
+   "80,000"
+  ],
+  "source": "SRC-0374",
+  "anchor": [
+   "In 1998, they reduced the by-right minimum lot size from 5,000 to 3,500 square feet within the city\u2019s I-610 Loop and permitted even smaller lots (down to an average of 1,400 square feet) for subdivisions that meet certain conditions. Then, in 2013, they extended the reform to cover all the land in the city with wastewater collection services.",
+   "In Houston, nearly 80,000 houses have been built on small lots made possible by minimum lot size requirements."
+  ],
+  "locator": "p. 3; p. 1 (wording as printed)",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Mercatus Center (market-oriented, supports deregulation), 2023.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-123",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-128",
+  "statement": "After California loosened local rules on accessory dwelling units, the number permitted each year grew from 1,336 in 2016 to 30,354 in 2024, a 20-fold increase; in 2024 ADUs were more than 26.6 percent of all homes permitted statewide.",
+  "claim": "data",
+  "figures": [
+   "1,336",
+   "2016",
+   "30,354",
+   "20",
+   "26.6 percent"
+  ],
+  "source": "SRC-0376",
+  "anchor": "Between 2016-2024, the number of ADUs permitted annually in the state grew from 1,336 to 30,354, a 20-fold increase. In 2024, ADUs comprised more than 26.6 percent of all homes permitted statewide.",
+  "locator": "introduction",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-30",
+  "context": "State agency data from local annual progress reports; permits, not completions, and rents of the units are not measured.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-129",
+  "statement": "Portland permitted over 1,400 accessory and middle-housing units in single-dwelling zones between August 1, 2021 and June 30, 2024; new middle-housing units sold for about $250,000 to $300,000 less than new detached houses in 2023-24, mostly because they are smaller.",
+  "claim": "data",
+  "figures": [
+   "1,400",
+   "1",
+   "2021",
+   "30",
+   "$250,000",
+   "$300,000",
+   "2023",
+   "24"
+  ],
+  "source": "SRC-0375",
+  "anchor": [
+   "Middle housing production has accelerated, with the City permitting over 1,400 ADU and middle housing units between August 1, 2021 and June 30, 2024 in single-dwelling zones.",
+   "In 2023-24, the average sales price of a new market-rate middle housing unit was about $250,000 to $300,000 less than that of a new market-rate single detached house, mostly due to size difference."
+  ],
+  "locator": "key findings",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Self-evaluation by the bureau that wrote the policy (2025).",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-130",
+  "statement": "In Helsinki, new market-rate housing triggers moving chains that quickly reach middle- and low-income neighborhoods: for each 100 new, centrally located units, roughly 31 vacancies open in the bottom fifth of neighborhoods by income and 66 in the bottom half.",
+  "claim": "analysis",
+  "figures": [
+   "100",
+   "31",
+   "66"
+  ],
+  "source": "SRC-0298",
+  "anchor": [
+   "The supply of new market rate units triggers moving\nchains that quickly reach middle- and low-income neighborhoods and individuals.",
+   "for each 100 new, centrally located market-rate units, roughly 31 (66) units are created in the bottomquintile (bottom half) of neighborhood income distribution through vacancies."
+  ],
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Urban Economics, 2023), Finnish register data.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-131",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-132",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-131",
+  "statement": "Chains of moves from new U.S. market-rate buildings quickly reach units in below-median-income neighborhoods, nearly 40 percent of the sixth round; a new building housing 100 people ultimately leads 45 to 70 people to move out of below-median-income neighborhoods, mostly within three years.",
+  "claim": "analysis",
+  "figures": [
+   "40 percent",
+   "100",
+   "45",
+   "70"
+  ],
+  "source": "SRC-0377",
+  "anchor": [
+   "The sequence quickly reaches units in below-median income neighborhoods, which account for nearly 40 percent of the sixth round",
+   "Constructing a new market-rate building that houses 100 people ultimately leads 45 to 70 people to move out of below-median income neighborhoods, with most of the effect occurring within three years."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Urban Economics, 2023), Upjohn Institute.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-132",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-133",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-132",
+  "statement": "New large apartment buildings in low-income areas decrease rents in nearby units by about 6% relative to units slightly farther away, and increase in-migration from low-income areas; any amenity effect is not large enough to raise rents.",
+  "claim": "analysis",
+  "figures": [
+   "6%"
+  ],
+  "source": "SRC-0378",
+  "anchor": [
+   "New buildings decrease rents in nearby units by about 6% relative to units slightly farther away or near sites developed later, and they increase in-migration from low-income areas.",
+   "If buildings improve nearby amenities, the effect is not large enough to increase rents."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Review of Economics and Statistics, 2023).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-131",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-133",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-135",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-133",
+  "statement": "In New York City, within 500 feet of new high-rises, every 10% increase in the housing stock lowers rents by 1%, and every 10% increase in the condo stock lowers condo prices by 0.9%; the supply effect dominates the amenity effect.",
+  "claim": "analysis",
+  "figures": [
+   "500",
+   "10%",
+   "1%",
+   "0.9%"
+  ],
+  "source": "SRC-0379",
+  "anchor": [
+   "I provide event study evidence that within 500 ft, for every 10% increase in the housing stock, rents decrease by 1%; and for every 10% increase in the condo stock, condo sales prices decrease by 0.9%.",
+   "I find that the supply effect dominates the amenity effect, causing net reductions in the rents and sales prices of nearby residential properties."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Economic Geography, 2022).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-132",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-134",
+  "statement": "In San Francisco, rents and displacement fall near new market-rate projects (rents by $22.77 - $43.18 a month, roughly 1.2 - 2.3%, within 500m; displacement risk by 17.14%), while parcels within 100m are 2.5 percentage points (29.5%) more likely to gentrify; affordable housing projects had no such spillovers.",
+  "claim": "analysis",
+  "figures": [
+   "$22.77",
+   "$43.18",
+   "1.2",
+   "2.3%",
+   "500",
+   "17.14%",
+   "100",
+   "2.5 percent",
+   "29.5%"
+  ],
+  "source": "SRC-0380",
+  "anchor": [
+   "I find that rents and displacement fall differentially near new market rate projects, while gentrification increases. In contrast, affordable housing does not have spillover effects.",
+   "monthly rents fall by $22.77 - $43.18 relative to trend, roughly 1.2 - 2.3%, for people living within 500m of a new project.",
+   "an additional project reduces displacement risk by 17.14% for people living within 500m.",
+   "Parcels within 100m of new market rate construction are 2.5 percentage points (29.5%) more likely to gentrify"
+  ],
+  "locator": "abstract; p. 3; p. 4",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Working paper (2021) using building fires to vary where projects are built; supported in part by the San Francisco Planning Department.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-132",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-133",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-135",
+  "statement": "In Minneapolis, comparing units within 300 meters of new construction with units 300 to 800 meters away, lower-priced rentals near new construction had 6.6 percent higher rents, while higher-priced rentals had 3.2 percent lower rents.",
+  "claim": "analysis",
+  "figures": [
+   "300",
+   "800",
+   "6.6 percent",
+   "3.2 percent"
+  ],
+  "source": "SRC-0381",
+  "anchor": [
+   "compare rent trajectories of units within 300 meters of new construction to a comparison group 300 to 800 meters away.",
+   "lower-priced rental housing close to new construction had 6.6 percent higher rents compared to the comparison group. New construction had the opposite effect on higher-priced housing; rents were 3.2 percent lower close to new construction."
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Working paper (2020), University of Minnesota, funded in part by an affordable-housing advocacy group. A contrary finding for the low-priced submarket.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-132",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-134",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-136",
+  "statement": "San Francisco's rent control expansion increased renters' probability of staying at their addresses by nearly 20%, but landlords treated by rent control reduced rental housing supply by 15%, causing a 5.1% city-wide rent increase.",
+  "claim": "analysis",
+  "figures": [
+   "20%",
+   "15%",
+   "5.1%"
+  ],
+  "source": "SRC-0382",
+  "anchor": "we find rent control increased renters\u2019 probabilities of staying at their addresses by nearly 20%. Landlords treated by rent control reduced rental housing supply by 15%, causing a 5.1% city-wide rent increase.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Review, 2019); quoted from NBER Working Paper 24181.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-171",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-137",
+  "statement": "A Lincoln Institute paper finds no evidence that weakening an inclusionary policy lowered rents of high-cost units. It reports earlier studies finding inclusionary policies raised single-family prices by about 2 to 3 percent, and one finding permits declined 10 to 30 percent in the seven years after adoption.",
+  "claim": "analysis",
+  "figures": [
+   "2",
+   "3 percent",
+   "10",
+   "30 percent"
+  ],
+  "source": "SRC-0383",
+  "anchor": [
+   "This analysis fails to find evidence that weakening an inclusionary policy is associated with a decrease in the rental price of high-cost housing units.",
+   "find that inclusionary housing policies had a positive effect on the price of single-family houses, increasing prices by about 2 to 3 percent.",
+   "On average, they find that in cities with inclusionary housing policies permits declined 10 to 30 percent in the seven years after the policies were adopted."
+  ],
+  "locator": "abstract; literature review",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Lincoln Institute working paper, not peer-reviewed; the Institute is generally favorable to inclusionary housing. Evidence on inclusionary zoning is mixed.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-138",
+  "statement": "When institutional single-family landlords merged, rents rose in neighborhoods where both firms owned homes, relative to other neighborhoods, while crime fell significantly there.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0384",
+  "anchor": "we show that rents increase in neighborhoods where both merging firms owned properties (i.e., overlapped neighborhoods) relative to other nonoverlapped neighborhoods. Meanwhile, the crime rate also significantly decreases in overlapped neighborhoods after mergers.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Review of Financial Studies, 2023). Evidence of local market power, with a service gain.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-139",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-139",
+  "statement": "Institutional investors are concentrated in markets with lower housing values and higher shares of Black and non-college residents; they raise rents at 60% higher rates than the average increase when first acquiring a property; investor entry is not associated with gentrification.",
+  "claim": "analysis",
+  "figures": [
+   "60%"
+  ],
+  "source": "SRC-0385",
+  "anchor": [
+   "We find that investor share is higher in markets with lower housing values and higher shares of black and noncollege residents, but higher median income.",
+   "investors raise rents at 60% higher rates than the average increase when first acquiring the property",
+   "We do not find evidence that investor entry is associated with gentrification"
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Philadelphia Fed working paper (2024); correlational.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-138",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-140",
+  "statement": "Growth of single-family rental REITs modestly raises prices and increases overall housing supply, with individual ownership rising at a similar rate; the authors conclude institutional landlords have had a limited impact on access to homeownership.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0386",
+  "anchor": [
+   "we find that SF-REIT growth modestly raises prices and increases overall housing supply, with individual ownership rising at a similar rate.",
+   "Overall, institutional landlords have had a limited impact on access to homeownership."
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Philadelphia Fed working paper (2025).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-138",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-141",
+  "statement": "Montgomery County's Housing Production Fund, with $100 million of bonding capacity, can finance up to 6,000 new homes over 20 years, 1,800 of them affordable in perpetuity to renters earning 50 to 65 percent of area median income; construction loans are repaid when buildings move to permanent financing, so the money revolves.",
+  "claim": "analysis",
+  "figures": [
+   "$100 million",
+   "6,000",
+   "20",
+   "1,800",
+   "50",
+   "65 percent"
+  ],
+  "source": "SRC-0387",
+  "anchor": [
+   "With its $100 million bonding capacity, the HPF can finance up to 6,000 new housing units over 20 years, of which 1,800 will be affordable in perpetuity to renters earning between 50 and 65 percent of the area median income.",
+   "After construction is completed and units are leased, the initial bond financing is rolled over to permanent financing, paying back the principal balance to the HPF and unlocking those dollars to finance additional construction loans."
+  ],
+  "locator": "body",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Urban Institute description (2024) of a prize-winning local model; projections, not an evaluation. No independent evaluation was found.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-142",
+  "statement": "More than two million U.S. households have an eviction case filed against them each year. Using random assignment of cases to judges, an eviction order increases homelessness and hospital visits and reduces earnings, durable goods consumption and access to credit in the first two years, and in the longer run raises debt and lowers credit scores.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0388",
+  "anchor": [
+   "More than two million U.S. households have an eviction case filed against them each year.",
+   "We find that an eviction order increases homelessness and hospital visits and reduces earnings, durable goods consumption, and access to credit in the first two years. Effects on housing and labor market outcomes are driven by impacts for female and Black tenants. In the longer-run, eviction increases indebtedness and reduces credit scores."
+  ],
+  "locator": "abstract (NBER page)",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Quarterly Journal of Economics, 2024); quoted from the NBER working paper abstract.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-078",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-143",
+  "statement": "In a randomized trial in a Massachusetts District Court, about two-thirds of tenants offered full representation kept their homes, against about one-third of the control group, and received payments or rent waivers worth 9.4 months of rent against 1.9; the clients were chosen by the provider's selective intake.",
+  "claim": "analysis",
+  "figures": [
+   "9.4",
+   "1.9"
+  ],
+  "source": "SRC-0389",
+  "anchor": [
+   "Approximately two-thirds of occupants in the treated group, versus about one-third of occupants in the control group, retained possession of their units at the end of litigation.",
+   "treated-group occupants received payments or rent waivers worth on average a net of 9.4 months of rent per case, versus 1.9 months of rent per case in the control group.",
+   "a clientele recruited and chosen by the legal aid provider\u2019s proactive, timely, specific, and selective outreach and intake system \u2014 an offer of full representation mattered."
+  ],
+  "locator": "Introduction/summary, p. 1 of PDF text; Introduction/summary",
+  "grade": "B",
+  "fact_date": "2010",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed randomized trial (Harvard Law Review, 2013).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-144",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-145",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-144",
+  "statement": "In a companion randomized trial in a Massachusetts Housing Court, an offer of full representation rather than limited help had no statistically significant effect on any substantive outcome, despite about 12.4 hours of attorney work per case against 1.7; rent savings were 1.8 against 1.6 months.",
+  "claim": "analysis",
+  "figures": [
+   "12.4",
+   "1.7",
+   "1.8",
+   "1.6"
+  ],
+  "source": "SRC-0390",
+  "anchor": [
+   "We find no statistically significant evidence that the Provider\u2019s offer of full, as opposed to limited, representation had a large (or any) effect on any outcome of substantive import.",
+   "Tenants who received an offer of representation received approximately 12.4 hours of total attorney work per case, while tenants who received limited or unbundled assistance received only 1.7 hours per case",
+   "resulted in savings to the tenant of 1.8 months of rent on average, versus limited or unbundled assistance resulting in a savings to the tenant of 1.6 months of rent"
+  ],
+  "locator": "abstract; summary",
+  "grade": "B",
+  "fact_date": "2010",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Randomized trial, working paper (SSRN 1880078).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-143",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-145",
+  "statement": "Under New York City's Universal Access program, which offers free lawyers in housing court to tenants at or below 200 percent of the poverty guideline, tenants who gain lawyers are less likely to face possessory judgments, eviction warrants and eviction, and face smaller money judgments; effects are larger in poorer places.",
+  "claim": "analysis",
+  "figures": [
+   "200 percent"
+  ],
+  "source": "SRC-0391",
+  "anchor": [
+   "The program offers free legal representation in housing court to tenants with income at or below 200 percent of the federal poverty guideline. We find that tenants who gain lawyers are less likely to be subject to possessory judgments, face smaller monetary judgments, are less likely to have eviction warrants issued against them, and are less likely to be evicted.",
+   "Lawyers have larger effects in poorer places and in those with larger shares of noncitizens."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Public Economics, 2023); uses the ZIP-code rollout.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-146",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-143",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-146",
+  "statement": "In the earliest New York City ZIP codes to get the right to counsel, legal representation rose and the share of filings ending in executed warrants fell, but only slightly.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0392",
+  "anchor": "We find relative increases in legal representation for treated ZIP Codes after the adoption of UAC. We also see small relative (and absolute) reductions in the share of filings resulting in executed warrants after UAC was implemented in the earliest ZIP Codes.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Housing Policy Debate, 2021), NYU Furman Center.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-145",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-147",
+  "statement": "Nationally, tenants have lawyers in about 4% of eviction cases and landlords in 83%. In New York City, legal assistance lengthened cases by nearly three months and cut eviction orders by 32 percentage points, but listed rents rose by $29.1 to $38.1 a month in the second year of the right to counsel (1.2-1.6 percent), enough, the authors estimate, to cause a small net reduction in tenants' welfare.",
+  "claim": "analysis",
+  "figures": [
+   "4%",
+   "83%",
+   "32 percent",
+   "$29.1",
+   "$38.1",
+   "1.2",
+   "1.6 percent"
+  ],
+  "source": "SRC-0393",
+  "anchor": [
+   "an average representation rate of 4% for tenants and 83% for landlords",
+   "legal assistance increases case durations by nearly three months and reduces eviction orders by 32 percentage points.",
+   "In our main empirical specifications, we estimate an increase ranging from $6.5 (95% CI: [-6.5,19.4]) to $12.5 (95% CI: [1.3,23.8]) per month in the first year, and ranging from $29.1 (95% CI: [13.3,45.0]) to $38.1 (95% CI: [22.9,53.3]) per month in the second year.",
+   "amounting to a 1.2\u20131.6 percent price increase.",
+   "we estimate that the price increases due to RTC are large enough to more than offset the benefits to tenants, causing a small net reduction in their welfare."
+  ],
+  "locator": "Introduction, p. 1; Introduction, p. 1-2; Introduction, p. 2",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Working paper (2026) by Notre Dame, Yale, Chicago Booth and NYU economists; not yet peer-reviewed.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-148",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-145",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-148",
+  "statement": "In a calibrated model, a right to counsel drives up rents so much that homelessness rises by 15%, while rental assistance reduces homelessness by 45% and evictions by 75% and raises welfare despite its cost to taxpayers.",
+  "claim": "analysis",
+  "figures": [
+   "15%",
+   "45%",
+   "75%"
+  ],
+  "source": "SRC-0394",
+  "anchor": [
+   "I find that \u201cRight-to-Counsel\u201d drives up rents so much that homelessness increases by 15% and welfare is dampened.",
+   "In contrast, rental assistance lowers tenants\u2019 default risk and as a result reduces homelessness by 45% and evictions by 75%. It increases welfare despite its costs to taxpayers."
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Structural model (job market paper, 2021); results rest on its assumptions, not on measured outcomes. Cited by critics of right to counsel.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-147",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-149",
+  "statement": "Cleveland's right to counsel raised the share of tenants represented in eviction cases from about 2% to 3% to about 16%; clients met 86% of goals to prevent eviction or an involuntary move, and the evaluators estimate $11.8 million to $14 million of local benefits from July 2020 through December 2022 on a $4.5 million investment.",
+  "claim": "analysis",
+  "figures": [
+   "2%",
+   "3%",
+   "16%",
+   "86%",
+   "$11.8 million",
+   "$14 million",
+   "2020",
+   "$4.5 million"
+  ],
+  "source": "SRC-0395",
+  "anchor": [
+   "the percentage of all tenants who are represented in landlord-tenant proceedings in Cleveland has increased from approximately 2% to 3%, before RTC-C, to approximately 16% since RTCC was implemented.",
+   "Prevent eviction or involuntary move 86%",
+   "Cleveland and Cuyahoga County likely realized combined economic benefits of between $11.8 million and $14 million from July 1, 2020 through December 31, 2022. During the same period, the total investment in RTC-C was $4.5 million19, resulting in an estimated return on investment of between $2.62 and $3.11."
+  ],
+  "locator": "Key Evaluation Findings, p. 1; Client Goal Metrics table; Public Economic and Fiscal Benefits",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Commissioned by the program's funder and provider; descriptive, without a comparison group; benefits rest on the evaluator's assumptions.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-145",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-150",
+  "statement": "Congress funded Emergency Rental Assistance with $25 billion and then $21.550 billion. By May 2021 only $1.5 billion (about 6%) of the first round had been spent, a rate generally considered too slow; after Treasury let applicants self-attest, spending in June 2021 doubled. Grantees reached 5.35 million households, most at or below 30% of area median income, and more than $3.1 billion of first-round funds was redirected from slow grantees.",
+  "claim": "analysis",
+  "figures": [
+   "$25 billion",
+   "$21.550 billion",
+   "2021",
+   "$1.5 billion",
+   "6%",
+   "5.35 million",
+   "30%",
+   "$3.1 billion"
+  ],
+  "source": "SRC-0304",
+  "anchor": [
+   "initially funded the ERA program with\nan appropriation of $25 billion.",
+   "A second appropriation for ERA\u2014of\n$21.550 billion\u2014was included in Section 3201 of the American Rescue Plan Act of 2021",
+   "$1.5\nbillion (about 6% of total ERA-1 funds) had been expended on rent and utility payments, an\nexpenditure rate that was generally considered to be too slow.",
+   "After the FAQ release, in June 2021, ERA-1\nexpenditures doubled compared to May 2021",
+   "grantees had provided ERA to 5.35\nmillion unique households, the majority of which had incomes at or below 30% of local area median income.",
+   "redirecting more than $3.1 billion in ERA-1 funding"
+  ],
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Nonpartisan legislative-branch agency.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-151",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-151",
+  "statement": "Emergency Rental Assistance, nearly $45 billion, sent more money per renting household to census tracts with higher pre-pandemic eviction filing rates, poverty rates and shares of Black renters, renters with children and single mothers; but its spending rose sharply around the end of the federal eviction moratorium, when filings were rising, which may confound causal estimates.",
+  "claim": "analysis",
+  "figures": [
+   "$45 billion"
+  ],
+  "source": "SRC-0309",
+  "anchor": [
+   "which provided nearly $45 billion to prevent evictions",
+   "we find that ERA sent more\nfunds per renting household to census tracts with higher pre-pandemic eviction filing rates,\nhigher poverty rates, higher shares of Black renters, higher shares of renting households with\nchildren, and higher shares of renting single mothers.",
+   "ERA spending increased substantially around the expiration of the federal\neviction moratorium and at a time when eviction filings were increasing, which may confound\nquasi-experimental analysis of ERA."
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Federal Reserve Board working paper (FEDS 2024-055) by Treasury and Fed staff; Treasury ran the program.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-150",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-152",
+  "statement": "A HUD-funded evaluation finds eviction filings from March 2020 to early 2022 ran about 45% below pre-pandemic trends, roughly 673,000 fewer, the combined effect of moratoriums, state protections and rental assistance. Programs that verified eligibility with neighborhood data instead of tenant paperwork prevented more evictions; in Philadelphia, assistance cut the odds of homelessness by 60%, and in Los Angeles recipients were 65% less likely to end up on the street. Landlord-initiated applications were 30 percentage points more likely to succeed.",
+  "claim": "analysis",
+  "figures": [
+   "2020",
+   "45%",
+   "673,000",
+   "60%",
+   "65%",
+   "30 percent"
+  ],
+  "source": "SRC-0397",
+  "anchor": [
+   "actual eviction filings between March 2020 and early 2022 ran approximately 45% below what pre-pandemic trends would have predicted \u2014 roughly 673,000 fewer filings . That gap reflects the combined force of federal moratoriums, state-level protections, and Emergency Rental Assistance.",
+   "Programs that verified eligibility using neighborhood-level data \u2014 instead of requiring tenants to produce pay stubs and hardship documentation \u2014 prevented more evictions, especially where funding was high.",
+   "In Philadelphia, ERA reduced the odds of moving by 35% and the odds of homelessness by 60%.",
+   "65% less likely to end up on the street",
+   "In Philadelphia, landlord-initiated applications were 30 percentage points more likely to succeed."
+  ],
+  "locator": "How Much ERA Reduced Evictions; Key Findings; What the Household Studies Found; What the Household Studies Found (Los Angeles)",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "UC Berkeley and University of Pennsylvania researchers under HUD contract (April 2026), under review; the summary is written in an advocacy tone. Observational county data and household surveys.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-078",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-153",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-153",
+  "statement": "Lotteries in five assistance programs that disbursed more than $200 million show that recipients were 6-13 percentage points more likely to pay rent in full and 4.7 points less worried about eviction, but assistance had little effect on housing stability or financial distress: ten-month move rates fell an insignificant 0.8 points from 9.3.",
+  "claim": "analysis",
+  "figures": [
+   "$200 million",
+   "6",
+   "13 percent",
+   "4.7",
+   "0.8",
+   "9.3"
+  ],
+  "source": "SRC-0396",
+  "anchor": [
+   "We evaluate these programs using applications to five assistance programs that disbursed more than$200 million via lottery.",
+   "those who received assistance were 6\u201313 percentage points (8\u201336 percent) more likely to pay their rent in full",
+   "assistance reduced concern about eviction, with a 4.7 percentage point reduction",
+   "However, we find little effect on housing stability or financial distress.",
+   "10-month move rates in the Infutor data decrease by a statistically insignificant 0.8 percentage points from a mean of 9.3"
+  ],
+  "locator": "abstract (PDF); Introduction; Section 6",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Randomized lotteries (NBER working paper, revised February 2025); during moratoria and a strong safety net, which the authors offer as reasons for small effects.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-152",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-151",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-154",
+  "statement": "Treasury's inspector general found that Treasury had wrongly concluded in its fiscal 2023 risk assessments that Emergency Rental Assistance was not susceptible to improper payments, when it likely was.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0315",
+  "anchor": "RMA identified OCA, formerly ORP,\nmanagement inadequately concluded that the ERA and PSP programs are not susceptible to IPs in\ntheir risk assessments completed for FY 2023 reporting, when these programs are likely\nsusceptible to IPs.",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Audit by a contractor for Treasury's inspector general (2024). So there is no official improper-payment rate for the program, and fraud claims can be neither confirmed nor sized from Treasury's reporting.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-150",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-155",
+  "statement": "When the UK cut Housing Benefit for new claimants, benefit receipt fell 10-15% and rents paid fell 6-11%, implying that between 60% and two-thirds of the cut fell on landlords.",
+  "claim": "analysis",
+  "figures": [
+   "10",
+   "15%",
+   "6",
+   "11%",
+   "60%"
+  ],
+  "source": "SRC-0398",
+  "anchor": [
+   "We show that the changes did have an effect on the level of housing subsidy with an estimated fall of 10\u201315% in benefit receipt in the treatment group relative to the control group. There is also evidence that rents paid fell by 6\u201311%.",
+   "Our estimates imply that between 60% and two-thirds of the incidence of the subsidy reduction was on landlords."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "1998",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Public Economics, 2006). UK Housing Benefit is an entitlement for a large share of renters, unlike rationed U.S. vouchers.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-156",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-158",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-156",
+  "statement": "When France extended housing benefits to all low-income households, one additional euro of benefit raised rents paid by new claimants by 78 cents, leaving 22 cents to lower their net rent; the author attributes this to a very low housing supply elasticity.",
+  "claim": "analysis",
+  "figures": [
+   "78",
+   "22"
+  ],
+  "source": "SRC-0399",
+  "anchor": [
+   "one additional euro of housing benefit leads to an increase of 78 cents in the rent paid by new benefit claimants, leaving only 22 cents available to reduce their net rent and increase their consumption.",
+   "This large impact of housing benefit on rents appears to be the result of a very low housing supply elasticity."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "1997",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Labour Economics, 2006).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-155",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-157",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-157",
+  "statement": "In France, housing subsidies raised rents overall between 2000 and 2016, even for unsubsidized tenants, since 40% of private tenants are subsidized; they also increased the quantity of private rentals. The subsidies cost EUR 15.7 billion in 2021, 0.6% of GDP.",
+  "claim": "analysis",
+  "figures": [
+   "2000",
+   "40%",
+   "15.7 billion",
+   "2021",
+   "0.6%"
+  ],
+  "source": "SRC-0400",
+  "anchor": [
+   "Between 2000 and 2016, housing subsidies had an overall positive impact on rents, even for tenants that were not subsidised.",
+   "given that 40% of tenants in the private sector are subsidised, a landlord can take housing subsidies into account when setting the rent",
+   "This inflationary impact is accompanied by an increase in the quantity of private rental housing; no effect on quality is detected",
+   "in 2021 accounted for total expenditure of EUR 15.7 billion in France, or 0.6% of GDP"
+  ],
+  "locator": "section 'An overall upward long-term effect on rents'; same section; section 'Housing subsidies, a major tool of housing policy'",
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Banque de France researchers' summary (2023) of their working paper.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-156",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-158",
+  "statement": "In Finland, where the housing allowance jumps at unit-size and building-age cut-offs, rents show no matching jumps: differences in the allowance pass roughly one-to-one into lower net rent, and the upper bound of the effect on rent of 1 euro more allowance is about 0.2 euros.",
+  "claim": "analysis",
+  "figures": [
+   "1",
+   "0.2"
+  ],
+  "source": "SRC-0401",
+  "anchor": [
+   "However, our results show that there are no discontinuities in rents of the recipient households at these cut-offs. Instead, differences in the amount of the housing allowance are translated roughly one-to-one into differences in the rent net of housing allowance.",
+   "The upper limit of the 95% confidence interval for our preferred estimate for the effect of a 1 euro higher housing allowance is about 0.2 euros."
+  ],
+  "locator": "abstract; introduction, p. 2",
+  "grade": "B",
+  "fact_date": "2017",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "VATT and LSE discussion paper, published in the Scandinavian Journal of Economics. It measures within-market differences, not the effect on the overall rent level.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-155",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-159",
+  "statement": "Public spending on housing allowances is 1.4% of GDP in the United Kingdom, the highest in the OECD, close to 0.5% in Germany and the Netherlands, and between 0.1 and 0.3% of GDP in the United States, where the Housing Choice Voucher program is counted.",
+  "claim": "data",
+  "figures": [
+   "1.4%",
+   "0.5%",
+   "0.1",
+   "0.3%"
+  ],
+  "source": "SRC-0402",
+  "anchor": [
+   "At 1.4% of GDP, public spending on housing allowances is by far the highest in the United Kingdom followed by Finland, Denmark and France",
+   "Public spending on housing allowances is close to 0.5% of GDP in Germany, the Netherlands and New Zealand, and between 0.1 and 0.3% of GDP in Australia, Czechia, Greece, Iceland, Ireland, Israel, Norway, Sweden, and the United States."
+  ],
+  "locator": "Key findings, p. 1",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-30",
+  "context": "OECD compilation of country data.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-160",
+  "statement": "In Austria, Finland, France, Ireland, the Netherlands and Sweden, over 50% of bottom-fifth households report receiving a housing allowance; in the middle fifth the share is generally less than 10%.",
+  "claim": "data",
+  "figures": [
+   "50%",
+   "10%"
+  ],
+  "source": "SRC-0403",
+  "anchor": [
+   "In Austria, Finland, France, Ireland, the Netherlands and Sweden, over 50% of households in the bottom quintile of the income distribution report receiving a housing allowance.",
+   "the share of households in the third income quintile receiving a housing allowance is generally less than 10%."
+  ],
+  "locator": "Key findings, p. 1",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-30",
+  "context": "OECD compilation of survey data.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-161",
+  "statement": "Social housing is close to 28 million dwellings, 7% of the housing stock across the OECD; it exceeds 20% in Austria, Denmark and the Netherlands and is between 2 and 10% in the United States, Germany, Japan and Canada, among others.",
+  "claim": "data",
+  "figures": [
+   "28 million",
+   "7%",
+   "20%",
+   "2",
+   "10%"
+  ],
+  "source": "SRC-0404",
+  "anchor": [
+   "Social housing represents close to 28 million dwellings and accounts on average for 7% of the total housing stock in the OECD (8% in the EU).",
+   "Accounting for over 20% of the total housing stock, the sector is largest in Austria, Denmark, and the Netherlands.",
+   "the sector is relatively small (between 2 and 10% of the total stock) in Australia, Belgium, Canada, Czechia, Germany, Hungary, Italy, Japan, Korea, New Zealand, Norway, Poland, Slovak Republic, Slovenia, Switzerland, and the United States."
+  ],
+  "locator": "Key findings, p. 1",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-30",
+  "context": "OECD compilation of country data.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-162",
+  "statement": "About 780,000 of Vienna's 1.86 million inhabitants lived in municipal and limited-profit housing in 2019. Tenants' down payments for new limited-profit housing became a barrier for low-skilled and vulnerable groups; main-residency rules exclude low-income newcomers and homeless people; and low turnover and growing demand mean long waiting lists.",
+  "claim": "analysis",
+  "figures": [
+   "780,000",
+   "1.86 million"
+  ],
+  "source": "SRC-0405",
+  "anchor": [
+   "In 2019 about 780,000 out of 1.86 million inhabitants lived in municipal and limited-profit housing",
+   "the tenants\u2019 contributions for new subsidised social housing mainly built by LPHAs became a problematic barrier to low-skilled and vulnerable groups.",
+   "their recent reforms have also produced exclusions, especially for low-income newcomers in need or homeless persons that cannot fulfil the criteria of the main residency",
+   "although barriers to social housing based on citizenship have been removed, low turnover rates and growing demand for social housing explain long waiting lists"
+  ],
+  "locator": "section 5 (conclusions); section 4.1; section 4.2",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Social Inclusion, 2021); University of Vienna sociologists.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-163",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-164",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-163",
+  "statement": "Social housing makes up 43% of all housing units in Vienna. Average rents are 7.9 EUR/m2 in limited-profit and 7.6 EUR/m2 in municipal housing, while average rents across the city rose from 7.5 EUR/m2 in 2012 to 10.7 EUR/m2 in 2022. A cited study finds a 10% higher limited-profit share lowers private rents by 30-40 cents/m2; land prices rose an average of 124% between 2010 and 2019.",
+  "claim": "analysis",
+  "figures": [
+   "43%",
+   "7.9",
+   "2",
+   "7.6",
+   "7.5",
+   "2012",
+   "10.7",
+   "10%",
+   "30",
+   "40",
+   "124%",
+   "2010",
+   "2019"
+  ],
+  "source": "SRC-0406",
+  "anchor": [
+   "The social housing sector comprises 43% of all housing units",
+   "Average social rental prices are significantly lower than in private rental, with 7.9 \u20ac/m2 in limited-profit housing and at 7.6 \u20ac/m2 in municipal housing",
+   "Average rental prices (regulated and unregulated) increased significantly in the last decade, from 7.5 \u20ac/m2 in 2012 to 10.7 \u20ac/m2 in 2022",
+   "an increase in the share of limited-profit housing by 10%, reduces rents by 30\u201340 cents/m2 in the private rental sector",
+   "Between 2010 and 2019, land prices increased by an average of 124%"
+  ],
+  "locator": "p. 4; p. 5; p. 8 (citing Klien et al., 2023)",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (International Journal of Housing Policy, 2025); TU Wien and University of Vienna authors.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-162",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-165",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-164",
+  "statement": "The City of Vienna counts about 220,000 city-owned and 200,000 co-operative flats. To qualify, applicants must have lived at their current Vienna address for the past two years, and third-country nationals need more than five years of legal residence; longer-term residents get preference in allocation.",
+  "claim": "data",
+  "figures": [
+   "220,000",
+   "200,000"
+  ],
+  "source": "SRC-0407",
+  "anchor": [
+   "All in all, there are about 220,000 city-owned flats and 200,000 co-operative flats in Vienna",
+   "Vienna and your current flat must have been your primary place of residence throughout the past two years",
+   "a third country national (i.e. neither Austrian nor EU -citizen) who has had a valid residence permit for more than five years",
+   "People who have already been living in Vienna over a longer period of time will receive preferential treatment as far as allocation of flats is concerned."
+  ],
+  "locator": "section 'Subsidised and city-owned flats'; Eligibility criteria",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "The city's own description of its stock and rules.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-165",
+  "statement": "Austrian employers and employees pay a housing tax of 1% of gross salaries, but none of it is now ring-fenced for housing. In 2021-2023 regional governments received about \u20ac1.2bn a year in returns on housing loans, enough to fund 60% of their roughly \u20ac2bn of annual housing spending, plus about \u20ac1.3bn from the tax, exceeding that spending by about \u20ac600m.",
+  "claim": "analysis",
+  "figures": [
+   "1%",
+   "2021",
+   "\u20ac1.2bn",
+   "60%",
+   "\u20ac2bn",
+   "\u20ac1.3bn",
+   "\u20ac600"
+  ],
+  "source": "SRC-0408",
+  "anchor": [
+   "In all nine regions employers and employees pay a \u2018housing tax\u2019 totalling 1% of gross salaries (0.5% paid for by employers and 0.5% paid for by employees).",
+   "the average annual return to regional governments from outstanding loans amounted to \u20ac1.2bn in the years 2021-2023 (national aggregate). This means that 60% of the total public spend of around \u20ac2bn (average annual) in the period could be financed via returns on mortgages alone.",
+   "regional governments receive the proceeds from the housing tax, which currently amounts to about \u20ac1.3bn annually.",
+   "none of which is now ring-fenced for housing. This exceeds public spending by about \u20ac600m annually."
+  ],
+  "locator": "p. 153; section 'A revolving public funding system?'; same section",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Critical Housing Analysis, 2025), but the authors work for the Austrian limited-profit housing federation and Housing Europe, the sector's associations.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-163",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-166",
+  "statement": "On 15 November 2024 Finland counted 3,806 homeless people living alone, 377 more than a year earlier and the first increase since 2012, and 1,010 long-term homeless; long-term homelessness decreased by about 70% between 2008 and 2024. The agency cautions that long-term figures should be taken with a grain of salt and that national totals are not fully comparable to those before 2018.",
+  "claim": "data",
+  "figures": [
+   "15",
+   "3,806",
+   "377",
+   "2012",
+   "1,010",
+   "70%",
+   "2008",
+   "2018"
+  ],
+  "source": "SRC-0409",
+  "anchor": [
+   "there were a total of 3,806 alone-living homeless people in Finland (situation on 15 November 2024). Of them, 1,010 were long-term homeless. There were 110 homeless families. Compared to the previous year, there were 377 more homeless people living alone",
+   "long-term homelessness decreased by about 70% between 2008 and 2024",
+   "This is the first time since 2012 when, based on the information submitted in the homelessness survey, the number of homeless people has increased from the previous year",
+   "The figures describing long-term homelessness should therefore be taken with a grain of salt. The actual number may be somewhat higher.",
+   "the figures for the number of homeless people in the whole country are not fully comparable to those prior to 2018."
+  ],
+  "locator": "chapter 2; chapter 2, Figure 2; chapter 6",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-03-31",
+  "context": "Government agency that finances social housing; voluntary municipal reports. Finland counts people staying with friends or relatives, whom U.S. counts leave out.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-167",
+  "statement": "Finland's count of homeless single people fell from 17 110 in 1987 to 7 960 in 2008 through social housing and services, before its Housing First programme. Pleace notes Finland's unusual investment in social housing and that its welfare, health and housing systems already prevent much homelessness, leaving a smaller target.",
+  "claim": "analysis",
+  "figures": [
+   "17",
+   "110",
+   "1987",
+   "7",
+   "960"
+  ],
+  "source": "SRC-0410",
+  "anchor": [
+   "In 1987, 17 110 single people and 1 370 families were recorded as homeless. Over the following decades, the social housing programme and the development of homelessness services had brought this number down considerably. In 2008, 7 960 single people and 300 families were recorded as homeless",
+   "Finland also has a level of investment in social housing, both in a financial and also political sense, that is not widespread in Europe.",
+   "Finland could be seen as having an \u2018easier\u2019 (or at least smaller) target in respect of tackling homelessness, because its welfare, health and housing systems, in and of themselves, already stop a lot of potential homelessness"
+  ],
+  "locator": "p. 2; p. 17; p. 18",
+  "grade": "B",
+  "fact_date": "2008",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (European Journal of Homelessness, 2017); a Housing First supporter.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-168",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-169",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-168",
+  "statement": "Long-term homelessness in Finland fell from approximately 3,500 to 1,000 between 2008 and 2020. Still, continued demand for emergency and temporary accommodation in large cities shows the model is less than fully effective, and its success is partly explained by long-term homelessness being a smaller problem in Finland than in many other OECD countries.",
+  "claim": "analysis",
+  "figures": [
+   "3,500",
+   "1,000",
+   "2008"
+  ],
+  "source": "SRC-0412",
+  "anchor": [
+   "The estimated number of long-term homeless people has decreased from approximately 3,500 to 1,000 between 2008 and 2020",
+   "Perhaps the most serious indicator that the model is less than fully effective in eradicating long-term homelessness remains the continued demand for emergency housing services and temporary accommodation in the large Finnish cities.",
+   "the success of the Finnish implementation of the HF model is partly explained by long-term homelessness not being such a massive social problem in Finland in the first place, certainly when compared to many other OECD countries."
+  ],
+  "locator": "p. 495; section on conflicted success; section on lessons",
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed open-access chapter (Oxford University Press, 2022); Tampere University authors, in a volume on policy successes.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-167",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-166",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-169",
+  "statement": "The leaders of Finland's main Housing First provider report that lone homelessness fell 45% after 2008 and 75% since 1987; they name more affordable social housing, especially for people under 30, as the most important structural element of prevention, and call the residents Housing First does not reach 'the 10-20%'.",
+  "claim": "analysis",
+  "figures": [
+   "45%",
+   "2008",
+   "75%",
+   "1987",
+   "30",
+   "10",
+   "20%"
+  ],
+  "source": "SRC-0411",
+  "anchor": [
+   "The total number of people experiencing homelessness and who live alone has decreased by 45% since the beginning of the first national programme in 2008, and by 75% since 1987",
+   "The most important structural element of prevention has been the increase in affordable social housing supply, especially social housing targeted at young people under the age of 30.",
+   "This group, which has been labelled the \u201810-20%\u2019, is without a doubt the common development target in all countries implementing Housing First."
+  ],
+  "locator": "p. 46; Conclusion; section on challenges",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "European Journal of Homelessness (2021); the authors lead the Y-Foundation, an interested party.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-167",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-168",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-170",
+  "statement": "68% of the 4 600 lone homeless adults in Finland's count were staying temporarily with friends or relatives; Finland's statistics mix administrative data and estimates and do not provide a roadmap for comparison across countries.",
+  "claim": "analysis",
+  "figures": [
+   "68%",
+   "4",
+   "600"
+  ],
+  "source": "SRC-0413",
+  "anchor": [
+   "68% of the 4 600 lone homeless adults were living \u2018temporarily with friends or relatives\u2019",
+   "Finland\u2019s national statistics are a mix of local authority administrative data and estimates, so that while they provide at least some sense of scale, the Finnish counts do not provide a roadmap for wider, comparative analysis"
+  ],
+  "locator": "p. 8",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (European Journal of Homelessness, 2020).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-166",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-171",
+  "statement": "Germany's rent brake (Mietpreisbremse) dampened rent growth by up to 5% (up to 9% for some dwelling types), but the effect disappeared about a year after introduction, and it was strongest in higher-priced neighborhoods, missing its policy goal.",
+  "claim": "analysis",
+  "figures": [
+   "5%",
+   "9%"
+  ],
+  "source": "SRC-0414",
+  "anchor": [
+   "dass die Entwicklung der Mietpreise nach Einf\u00fchrung der Mietpreisbremse tats\u00e4chlich signifikant um bis zu 5 % (bis zu 9 % f\u00fcr bestimmte Wohnungstypen) ged\u00e4mpft wurde. Der Effekt verschwindet jedoch etwa ein Jahr nach der Einf\u00fchrung und hat danach praktisch keine Auswirkungen mehr auf die Mietpreise.",
+   "Die st\u00e4rksten Effekte hat die Mietpreisbremse insbesondere in h\u00f6herpreisigen Nachbarschaften erzielt und verfehlt damit ihr urspr\u00fcngliches politisches Ziel."
+  ],
+  "locator": "abstract (German)",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Regional Science and Urban Economics, 2022), RWI Essen; quoted from the German abstract.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-136",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-172",
+  "statement": "In HUD's 2024 count, 13 local homelessness systems reported increases due to immigrants or refugees seeking asylum. In New York City, asylum seekers in emergency shelters accounted for almost 88 percent of the increase in sheltered homelessness; in Chicago, new arrivals, including migrant and asylum-seeking families, accounted for more than 13,600 people in emergency shelters.",
+  "claim": "data",
+  "figures": [
+   "13",
+   "88 percent",
+   "13,600"
+  ],
+  "source": "SRC-0295",
+  "anchor": [
+   "Another 13 CoCs indicated an increase due to an increase in immigrants or refugees seeking\nasylum.",
+   "asylum seekers in 2024. The CoC noted that these households, who were in emergency shelters,\naccounted for almost 88 percent of the increase in sheltered homelessness in New York City.",
+   "new arrivals (which included migrant and asylum-seeking families,\nincluding those bused or flown to Chicago from other states) accounted for more than 13,600 people in\nemergency shelters in 2024."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2026-12-31",
+  "context": "HUD's 2024 homelessness report (Biden administration), reporting local Continuums of Care's own accounts of their increases.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
   ]
  }
 ]

@@ -1,0 +1,1827 @@
+Source: https://trumpwhitehouse.archives.gov/wp-content/uploads/2019/09/The-State-of-Homelessness-in-America.pdf
+Publisher: Council of Economic Advisers, Executive Office of the President
+Retrieved: 2026-10-28
+Original SHA-256: 305e71ff9ac648b53a079530db7ccfb5f71c8e4b6901a1aeddd8943451dde7a1
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The State of Homelessness in America
+
+The Council of Economic Advisers
+September 2019
+September 29, 2017
+
+Executive Summary
+September 2019
+Due to decades of misguided and faulty policies, homelessness is a serious problem. Over half
+a million people go homeless on a single night in the United States. Approximately 65 percent
+are found in homeless shelters, and the other 35 percent—just under 200,000—are found
+unsheltered on our streets (in places not intended for human habitation, such as sidewalks,
+parks, cars, or abandoned buildings). Homelessness almost always involves people facing
+desperate situations and extreme hardship. They must make choices among very limited
+options, often in the context of extreme duress, substance abuse disorders, untreated mental
+illness, or unintended consequences from well-intentioned policies. Improved policies that
+address the underlying causes of the problem and more effectively serve some of the most
+vulnerable members of society are needed.
+This report (i) describes how homelessness varies across States and communities in the United
+States; (ii) analyzes the major factors that drive this variation; (iii) discusses the shortcomings
+of previous Federal policies to reduce homeless populations; and (iv) describes how the Trump
+Administration is improving Federal efforts to reduce homelessness.
+We first document how homelessness varies across the United States. Homelessness is
+concentrated in major cities on the West Coast and the Northeast. Almost half (47 percent) of
+all unsheltered homeless people are found in the State of California, about four times as high
+as California’s share of the overall U.S. population. Rates of sheltered homelessness are highest
+in Boston, New York City, and Washington, D.C., with New York City alone containing over onefifth of all sheltered homeless people in the United States.
+In the context of a simple supply and demand framework, we analyze the major causes of this
+variation in homelessness across communities: (i) the higher price of housing resulting from
+overregulation of housing markets; (ii) the conditions for sleeping on the street (outside of
+shelter or housing); (iii) the supply of homeless shelters; and (iv) the characteristics of
+individuals in a community that make homelessness more likely.
+The first cause we consider is the overregulation of housing markets, which raises
+homelessness by increasing the price of a home. Using external estimates of the effect of
+regulation on home prices and of home prices on homelessness, we simulate the impact of
+deregulation on homeless populations in individual metropolitan areas. We estimate that if the
+11 metropolitan areas with significantly supply-constrained housing markets were
+deregulated, overall homelessness in the United States would fall by 13 percent. Homelessness
+CEA • The State of Homelessness in America
+
+1
+
+would fall by much larger amounts in these 11 large metropolitan areas, for example by 54
+percent in San Francisco, by 40 percent in Los Angeles, and by 23 percent in New York City. On
+average, homelessness would fall by 31 percent in these 11 metropolitan areas, which
+currently make up 42 percent of the United States homeless population.
+Second, more tolerable conditions for sleeping on the streets (outside of shelter or housing)
+increases homelessness. We show that warmer places are more likely to have higher rates of
+unsheltered homelessness, but rates are nonetheless low in some warm places. For example,
+Florida and Arizona have unsheltered homeless populations lower than what would be
+expected given the temperatures, home prices and poverty rates in their communities.
+Meanwhile, the unsheltered homeless population is over twice as large as expected—given the
+temperatures, home prices and poverty rates in their communities—in States including Hawaii,
+California, Nevada, Oregon, and Washington State. Policies such as the extent of policing of
+street activities may play a role in these differences.
+A larger supply of substitutes to permanent housing through shelter provision also increases
+homelessness. Boston, New York City, and Washington, D.C. are each subject to right-to-shelter
+laws that guarantee shelter availability of a given quality. These places each have rates of
+sheltered homelessness at least 2.7 times as high as the rate in every other city, and this
+difference cannot be explained by their weather, home prices, and poverty rates. Boston, New
+York City, and Washington, D.C. also have substantially higher rates of overall homelessness
+than almost every other city, suggesting that most people being sheltered would not otherwise
+sleep on the street. While shelter is an absolutely necessary safety net of last resort for some
+people, right-to-shelter policies may not be a cost-effective approach to ensuring people are
+housed.
+The final cause we consider is the prevalence of individual-level demand factors in the
+population. Severe mental illness, substance abuse problems, histories of incarceration, low
+incomes, and weak social connections each increase an individual’s risk of homelessness, and
+higher prevalence in the population of these factors may increase total homelessness.
+After analyzing the fundamental causes of homelessness, we next discuss the record of
+previous Federal policies to reduce it. The Federal Government has supported a major
+expansion of permanent supportive housing (often under a Housing First approach that does
+not have service participation requirements) and rapid rehousing. While these policies increase
+the demand for homes and thus reduce homelessness in the short-run, this short-run reduction
+can be reversed in the long-run through unintended consequences. In fact, it is not clear that
+this strategy has been successful in reducing homeless populations. Research suggests that
+previous Federal policy is not capable of explaining a substantial portion of the reported
+CEA • The State of Homelessness in America
+
+2
+
+decline in homelessness between 2007 and 2018. In addition, we show that contrary to
+reported trends, it is unclear whether homelessness in the United States has actually
+decreased since 2007, due to an inconsistent definition of homelessness and miscounting of
+unsheltered homeless populations.
+To reverse the failed policies of the past, the Trump Administration is addressing the root
+causes of homelessness. President Trump signed an executive order that will seek to remove
+regulatory barriers in the housing market, which would reduce the price of homes and reduce
+homelessness. Individual risk factors that shift the demand for homes inward are being
+addressed as well, through successful efforts to stem the drug crisis, improve the Federal
+response to mental illness, improve the chances of people exiting prison, and increase incomes
+for people at the bottom of the distribution. The administration has also consistently
+supported the police in promoting safe cities. Finally, the U.S. Department of Housing and
+Urban Development has improved Federal homeless assistance programs by providing
+flexibility for communities to utilize service participation requirements and more strongly
+encouraging self-sufficiency. These reforms may more successfully reduce homelessness and
+address the underlying problems that people experiencing homelessness face.
+
+CEA • The State of Homelessness in America
+
+3
+
+Introduction
+Over half a million Americans go homeless on a single night in the United States.1 About 35
+percent (just under 200,000) are found sleeping unsheltered on our streets in places not
+intended for human habitation, such as sidewalks, parks, cars, or abandoned buildings.
+Meanwhile, over 350,000 sheltered homeless people are found in emergency shelters and
+transitional housing programs. Homelessness almost always involves people facing desperate
+situations and extreme hardship. They must make choices among very limited options, often
+in the context of extreme duress, substance abuse disorders, untreated mental illness, or
+unintended consequences from well-intentioned policies. Improved policies that address the
+underlying causes of the problem and more effectively serve some of the most vulnerable
+members of society are needed.
+This report (i) describes how homelessness varies across States and communities in the United
+States; (ii) analyzes the major factors that drive this variation; (iii) discusses the shortcomings
+of previous Federal policies to reduce homeless populations; and (iv) describes how the Trump
+Administration is improving Federal efforts to reduce homelessness.
+We first document how homelessness, both unsheltered and sheltered, varies across
+communities in the United States. Almost half (47 percent) of all unsheltered homeless people
+in the United States are found in California, about four times as high as their share of the overall
+United States population. Among the five cities with the highest rates of unsheltered
+homelessness, four are in California (San Francisco, Los Angeles, Santa Rosa, and San Jose),
+and the other is Seattle. The three cities with the highest rates of sheltered homelessness are
+all located in the Northeast: Boston, New York City, and Washington, D.C. The rate of sheltered
+homelessness in each of these cities is over 2.7 times as high as in San Francisco, the city with
+the fourth highest rate of sheltered homelessness. New York City alone has over one fifth of all
+sheltered homeless people in the United States.
+In the context of a simple supply and demand framework, we next assess the major factors that
+explain variation in homelessness across communities in the United States. Figure 1 shows
+how the supply and demand for homes determine the number of homeless people. Once the
+equilibrium quantity of homes (or more precisely, people living in homes) is determined, the
+equilibrium number of homeless people is the total (non-institutionalized) population minus
+the number of homes. In figure 1, the initial equilibrium number of homes is given by 𝑄1 . The
+total population is given by 𝑇1 , and so the equilibrium number of homeless people is simply
+For two recent reviews of the literature and evidence on homelessness, see Evans et al. (2019) and O’Flaherty
+(2019).
+1
+
+CEA • The State of Homelessness in America
+
+4
+
+𝑇1 − 𝑄1 . When the supply of homes shifts outward, the equilibrium number of homes increases
+to 𝑄2 . Many of these homes are filled by people who move in from other areas, thus increasing
+total population to 𝑇2 . The other homes are filled by formerly homeless people, and so the new
+equilibrium number of homeless people, 𝑇2 − 𝑄2 , is smaller than the original equilibrium, 𝑇1 −
+𝑄1 . If alternatively, the demand for homes shifts inward due, for example, to an increased
+supply of homeless shelters, the equilibrium quantity of homes falls to 𝑄3 . Assuming people do
+not migrate into the area to fill the homeless shelters, the total population 𝑇1 remains constant.
+Thus, the equilibrium number of homeless people increases to 𝑇1 − 𝑄3 . (See O’Flaherty 2003
+for an alternative supply and demand framework for understanding the market-level
+determinants of homelessness.)
+
+Figure 1. How the Supply and Demand for Homes Determines
+Homelessness
+Price of homes
+
+Supply (old)
+Supply (new)
+P1
+P3
+P2
+Demand (old)
+Q3 Q1
+
+T1,3
+
+Q2 T 2
+
+Demand (new)
+
+Quantity of homes
+
+Note: P denotes the price of a home. Q denotes the quantity of homes (expressed in terms of number of people
+housed). T denotes the total population. The number of homeless people is represented by the difference between T
+and Q.
+
+On the basis of this supply and demand framework, we consider four major drivers of homeless
+populations: (i) the higher price of housing resulting from overregulation of housing markets;
+(ii) the tolerability of sleeping on the street (outside of shelter or housing); (iii) the supply of
+homeless shelters; and (iv) the characteristics of individuals in a community that make
+homelessness more likely.
+The first factor that explains variation in homelessness across the United States is the high cost
+of housing in certain areas, in large part due to regulations that drive up home prices above the
+cost to produce a home. Overregulation of housing markets shifts the supply of homes inward,
+increasing home prices and homelessness. Consistent with this prediction, research
+consistently finds that areas with higher home prices tend to have higher rates of overall
+CEA • The State of Homelessness in America
+
+5
+
+homelessness. We simulate the impact of deregulation on homeless population sizes in
+individual metropolitan areas. To do so, we rely on estimates of the ratio of home prices to
+home production costs produced by Glaeser and Gyourko (2018). We assume that deregulation
+would reduce prices until reaching production costs, and then translate these lower home
+prices into lower rents. Finally, we use estimates of the response of homelessness to rents to
+simulate the impact of deregulation on homeless populations. We find that for the 11
+metropolitan areas with housing regulations that drive home prices significantly above home
+production costs (which contain 42 percent of the United States homeless population),
+deregulation would reduce homelessness by an average of 31 percent. Homelessness would
+fall by 54 percent in San Francisco, 40 percent in Los Angeles, and 23 percent in New York City.
+Overall homelessness in the United States would fall by just under 72,000 people, or 13 percent.
+The second factor that explains variation in homelessness across the United States is the
+tolerability of sleeping on the streets (outside of shelter or housing). A higher tolerability of
+sleeping on the streets shifts the demand for homes inward and increases homelessness.
+Climate is a key component of street tolerability but not the only one. Colder areas uniformly
+exhibit low rates of unsheltered homelessness in January, while warmer areas exhibit wide
+variation. For example, Florida and Arizona have unsheltered homeless populations lower than
+what would be expected given the temperatures, home prices and poverty rates in their
+communities. Meanwhile, the unsheltered homeless population is over twice as large as
+expected—given the temperatures, home prices and poverty rates of their communities—in
+States including Hawaii, California, Nevada, Oregon, and Washington State. The extent of
+policing of street activities may play a role in these differences.
+The third factor that explains variation in homelessness is the supply of substitutes to housing
+through the provision of homeless shelters. Expanding the supply of homeless shelters shifts
+the demand for homes inward and increases homelessness. A larger supply of shelter entails a
+higher shelter quality (i.e., characteristics of a shelter that make it more desirable as a place to
+stay) at any given number of beds. Mandating a right-to-shelter with a sufficiently high
+minimum quality level could thus substantially increase sheltered homeless populations. In
+fact, Boston, New York City, and Washington, D.C. are the three cities with the highest rates of
+sheltered homelessness, and each of these cities is subject to a right-to-shelter law that
+guarantees shelter availability of a given quality (although shelter quality certainly varies
+within each city, and shelters do not always meet standards). After adjusting for January
+temperature, home prices, and poverty rates, right-to-shelter places have average rates of
+sheltered homelessness over three times as high as places without a right to shelter. Boston,
+New York City, and Washington, D.C. also have substantially higher rates of overall
+homelessness than almost every other city, suggesting that most people being sheltered would
+not otherwise sleep on the street. There of course may be other characteristics beyond
+CEA • The State of Homelessness in America
+
+6
+
+weather, home prices and poverty rates that drive the dramatically different rates of sheltered
+homelessness in these three cities, but the framework in figure 1 suggests that right-to-shelter
+laws may play an important role, especially if the mandated quality level is substantially higher
+than quality levels achieved in non-right-to-shelter places. While shelter is an absolutely
+necessary safety net of last resort for some people, right-to-shelter policies may not be a costeffective approach to ensuring people are housed.
+The fourth factor is a higher prevalence of individual-level demand factors in the population
+which affect overall homelessness. An increased prevalence of risk factors for homelessness
+within the population shifts the demand for homes inward and increases the number of
+homeless people. Research has shown that individuals with severe mental illness, substance
+abuse problems, a history of incarceration, low incomes, and weak social ties are more likely
+to become homeless. Thus, when the prevalence of these factors grows in a community, the
+rate of homelessness may grow as well.
+After analyzing the fundamental causes of homelessness, we next discuss the record of
+previous Federal policies in reducing homelessness over the past decade. During this period,
+the Federal Government supported a major expansion in permanent housing assistance
+directed toward people experiencing homelessness. Between 2007 and 2018, the stock of
+permanent supportive housing (long-term housing with supportive services) and rapid
+rehousing (short-term rental subsidies) increased by just under 282,000 beds, a 149 percent
+increase. The Federal Government also increasingly emphasized a Housing First approach,
+which in the context of permanent supportive housing provides housing with no preconditions
+or service participation requirements after people are stabilized. While the direct effect in the
+short-run of placing a homeless person in housing shifts the demand for homes outward and
+thus reduces homelessness, this effect can be reversed through supply responses (for example
+if home prices rise or the quality of shelter adjusts upward as shelter operators try to fill beds)
+or if demand shifts back in as people remain in housing programs longer than they would have
+otherwise remained homeless.
+In fact, research suggests that previous Federal policy is not capable of explaining a large
+portion of the reported decline in homelessness between 2007 and 2018. In addition, we show
+that contrary to reported trends that suggest a more than 94,000 person (15 percent) reduction
+in homelessness since 2007, it is unclear whether homelessness in the United States has
+actually decreased. At least in part, the reported decline in homelessness may be a result of an
+inconsistent definition of people living in transitional housing versus rapid rehousing, and
+miscounting of the unsheltered homeless population.
+
+CEA • The State of Homelessness in America
+
+7
+
+In order to address the problem, the Trump Administration is addressing the root causes of
+homelessness. President Trump signed an executive order that will seek to remove regulatory
+barriers in the housing market, which would reduce homelessness due to an outward shift in
+the supply of homes. Individual risk factors that shift the demand for homes inward are being
+addressed as well. The President’s policies have contributed to the first reduction in total drug
+overdose deaths in decades through the expansion of drug treatment and reduction in the
+supply of illicit drugs. An increased emphasis on serious mental illness and helping formerly
+incarcerated individuals reconnect with society via the First Step Act will help reduce the
+individual risk of entering homelessness as well. The administration has also consistently
+supported the police in promoting safe cities. Finally, the U.S. Department of Housing and
+Urban Development has improved Federal homeless assistance programs by providing
+flexibility for communities to utilize service participation requirements and more strongly
+encouraging self-sufficiency. These reforms may reduce homelessness more in the long-run
+than previous policies to the extent that they more successfully address the underlying
+problems that homeless people face and thus, more successfully transition people out of
+homeless assistance programs which can free up these programs for other people living on the
+streets or in shelter.
+
+The Geography of Homelessness in America
+The U.S. Department of Housing and Urban Development (HUD) defines a person as homeless
+if he or she “lacks a fixed, regular, and adequate nighttime residence” (HUD 2018b, p. 2). On a
+single night each year, communities count and report their homeless population to HUD,
+including people who are unsheltered (in places not intended for human habitation such as
+sidewalks, parks, cars or abandoned buildings) and people who are sheltered (in emergency
+shelter or transitional housing programs).2 Counts are conducted by Continuums of Care
+(CoCs), which comprise a single city, a single county, a group of counties or an entire state.
+CoCs are designed to coordinate a community’s response to homelessness by integrating
+shelter, services, and housing programs for homeless and formerly homeless people. In 2018,
+there were 398 CoCs. Counts are generally conducted on a single night during the last ten days
+of January. While this practice likely produces unsheltered counts that are lower than counts
+would be in warmer months, it likely produces higher sheltered counts which are believed to
+be more reliable than unsheltered counts. In general, these homeless counts are highly
+imperfect, but they nonetheless represent the best available national snapshot of the
+homeless population at a point in time.
+
+Point-in-time counts are required only in every other year for unsheltered populations, although many
+communities conduct counts every year.
+2
+
+CEA • The State of Homelessness in America
+
+8
+
+In January 2018, 552,830 people were counted as homeless in the United States. Of those,
+194,467 (35 percent) were unsheltered, and 358,363 (65 percent) were sheltered. The overall
+homeless population on a single night represents 0.2 percent of the U.S. population, or 17
+people per 10,000 in the population.
+Rates of overall homelessness are highly uneven across States (figure 2). The States and District
+of Columbia with the highest overall rates of homelessness per 10,000 are the District of
+Columbia (5.8 times the U.S. rate), New York (2.8 times the U.S rate), Hawaii (2.7 times the U.S.
+rate), Oregon (2.0 times the U.S. rate), and California (1.9 times the U.S. rate). These four States
+and the District of Columbia contain 45 percent of the entire homeless population in the United
+States, despite containing just 20 percent of the overall population.
+
+Figure 2. Overall Homeless Population by State, 2018
+Number of people experiencing
+homelessness per 10,000 people
+
+Sources: Department of Housing and Urban
+Development; Census Bureau; CEA calculations.
+Note: State population values are Census estimates for
+the first quarter of 2018. Homeless counts are conducted
+during the last 10 days of January 2018.
+
+Less than 10
+10 to 20
+20 to 30
+30 to 40
+40+
+
+Within States, some cities have especially high rates of homelessness. Compared to a national
+rate of 17 homeless people per 10,000, the cities (and their larger CoCs) with the highest rates
+of overall homelessness are Washington, DC (103 per 10,000), Boston, MA (102 per 10,000), and
+New York, NY (101 per 10,000), as shown in table 1. These cities each have homelessness rates
+that are over 6 times as high as the overall U.S rate.
+
+CEA • The State of Homelessness in America
+
+9
+
+Table 1. Rate of Homelessness per 10,000 in Continuums of Care
+(CoCs) with Top Five Highest Rates, 2018
+Overall
+CoC
+Washington, DC
+Boston, MA
+New York, NY
+San Francisco, CA
+Santa Rosa, CA
+
+Sheltered
+Rate
+CoC
+103.3 Boston, MA
+101.8 New York, NY
+101.5 Washington, DC
+94.3 San Francisco, CA
+59.8 Baltimore, MD
+
+Unsheltered
+Rate
+CoC
+99.1 San Francisco, CA
+96.7 Los Angeles, CA
+94.3 Santa Rosa, CA
+34.4 Seattle, WA
+32.2 San Jose, CA
+
+Rate
+59.8
+40.4
+38.5
+30.9
+30.3
+
+Sources: Department of Housing and Urban Development, Point-in-Time Counts and Shapefiles, 2018; American
+Community Survey 2013-2017; CEA calculations.
+Note: Excludes CoCs with population below 500,000 and “balance of state” CoCs.
+
+Unsheltered homelessness rates vary substantially across the United States as well and tend
+to be highest in cities on the West Coast. In fact, four out of the five cities with the highest rates
+of unsheltered homelessness are located in California, and the fifth is in Washington State. San
+Francisco has the highest rate of unsheltered homelessness at 60 per 10,000, 10 times as high
+as the U.S rate of 6 per 10,000. The cities with the next highest rates of unsheltered homeless
+are Los Angeles, Santa Rosa, Seattle, and San Jose. California is home to 47 percent of all
+unsheltered homeless people in the United States, and Los Angeles is home to 19 percent.
+In terms of sheltered homelessness, three cities in the Northeast—New York City, Washington,
+D.C. and Boston—have substantially higher rates than all other cities. The rate of sheltered
+homelessness is at least 8 times as high in each of these cities as in the United States overall
+(11 per 10,000). The city with the fourth highest rate of sheltered homelessness, San Francisco,
+has a rate of sheltered homelessness that is just over 3 times as high as the rate in the United
+States overall. New York City contains over one fifth of all sheltered homeless people in the
+United States.
+
+Drivers of Variation in Homelessness Across the United States
+This section uses the model of supply and demand described in figure 1 to analyze the factors
+that explain why some places have higher rates of homelessness than others: (i) the higher
+price of housing resulting from overregulation of housing markets; (ii) the tolerability of
+sleeping on the street (outside of shelter or housing); (iii) the supply of homeless shelters; and
+(iv) the characteristics of individuals in a community that make homelessness more likely.
+
+CEA • The State of Homelessness in America
+
+10
+
+The Price of Housing
+When housing prices rise, economic theory predicts that more people will have difficulty
+paying rent and in some cases end up homeless. This is represented in figure 1 by an inward
+shift in the supply of homes that increases the equilibrium number of homeless people. A large
+body of academic literature confirms that higher home prices are indeed associated with
+higher rates of homelessness. Corinth (2017) uses panel data on CoCs and finds that a 1 percent
+increase in median rent within a CoC is associated with a 1 percent increase in its rate of
+homelessness. Using similar data, Hanratty (2017) finds that a 1 percent increase in median
+rent is associated with a rate of homelessness that is 0.9 percent higher. Quigley et al. (2001)
+find similar results using variation over time within counties in California, with a one percent
+increase in median rent associated with a 0.9 to 1.2 percent increase in the rate of
+homelessness for certain specifications. Other studies find strong positive associations
+between rates of homelessness and rents based on variation across communities as well (e.g.,
+Bohanon 1991; Honig and Filer 1993; Early and Olsen 2002; Byrne et al. 2013; Glynn et al. 2018),
+although unlike studies using panel data, these studies are unable to control for unobserved
+time-invariant factors (such as cultural factors that do not change over time) in communities
+that may be correlated with rents and homelessness.
+A central driver of higher home prices in some communities is the heavy regulation of housing
+markets by localities. For example, as stated in President Trump’s Executive Order Establishing
+a White House Council on Eliminating Regulatory Barriers to Affordable Housing, such
+regulations include: “overly restrictive zoning and growth management controls; rent controls;
+cumbersome building and rehabilitation codes; excessive energy and water efficiency
+mandates; unreasonable maximum-density allowances; historic preservation requirements;
+overly burdensome wetland or environmental regulations; outdated manufactured-housing
+regulations and restrictions; undue parking requirements; cumbersome and time-consuming
+permitting and review procedures; tax policies that discourage investment or reinvestment;
+overly complex labor requirements; and inordinate impact or developer fees.” These
+regulations reduce the supply of housing and as a result drive up home prices (e.g., Quigley and
+Raphael 2005; Quigley and Rosenthal 2005; Glaeser and Ward 2009; Saiz 2010; Gyourko and
+Molloy 2015).
+Given that housing market regulations increase home prices and higher home prices are
+associated with higher rates of homelessness, areas with more regulated housing markets
+would be predicted to have higher rates of homelessness. We show that this prediction holds
+in figure 3. The extent of housing market regulation is based on data from Glaeser and Gyourko
+(2018). They argue that if housing regulations do not constrain the supply of housing, then
+home values should not exceed the cost to produce a home. After all, in a housing market
+CEA • The State of Homelessness in America
+
+11
+
+without supply constraints, new homes would be built until home values fell to their
+production cost. Glaeser and Gyourko (2018) identify 11 metropolitan areas where housing
+values exceed 125 percent of the cost of producing a home, the sum of construction costs and
+land costs, plus a normal profit margin.3 Figure 3 shows that these 11 supply constrained
+metropolitan areas have temperature-adjusted rates of homelessness (based on average
+January temperatures) that generally far exceed homelessness rates in other metropolitan
+areas. The average temperature-adjusted rate of homelessness in supply constrained areas is
+35.0 per 10,000, almost three times as high as the rate of 13.3 per 10,000 in areas that are not
+supply constrained. Four of the five metropolitan areas with the highest home value to
+production cost ratios are located in California.
+
+Figure 3. Temperature-adjusted Homelessness Rate by Ratio of
+Home Value to Production Cost, by Metropolitan Area
+Temperature-adjusted rate of homelessness per 10,000 people
+70
+60
+50
+40
+30
+20
+10
+0
+
+Average: value to
+cost ratio at least
+1.25
+
+Average:
+value to cost
+ratio less than
+1.25
+
+0.0
+
+0.5
+
+1.0
+1.5
+2.0
+Ratio of home value to production cost
+
+2.5
+
+3.0
+
+Sources: U.S. Department of Housing and Urban Development, Point-in-Time Counts and Shapefiles, 2018; U.S.
+Census Bureau; Glaeser and Gyourko (2018); National Oceanic and Atmospheric Administration; CEA calculations.
+Note: Each CoC is merged into the metropolitan area in which the majority of its overall population is found. The
+temperature adjusted rate of homelessness is obtained by regressing the natural logarithm of the homelessness rate
+on the average temperature in January, and then using the estimated coefficient on temperature to adjust the rate of
+homelessness in each metropolitan area according to the average temperature among all metropolitan areas.
+
+We next provide original estimates of the extent to which stringent housing market regulation
+contributes to homelessness in highly regulated cities and the United States overall. To do so,
+we rely on the same Glaeser and Gyourko (2018) data used in figure 3. In our first step, we
+simulate how rents would fall if these metropolitan areas deregulated their housing markets.
+In our second step, we apply estimates of the responsiveness of homelessness to rent from the
+3
+
+Some have argued that this approach used by Glaeser and Gyourko could understate the value of land (see
+O’Flaherty 2003a). However, because we are unaware of other estimates of the ratio of home values to production
+costs that more accurately account for land prices, we rely on the Glaeser and Gyourko estimates.
+
+CEA • The State of Homelessness in America
+
+12
+
+academic literature to estimate the reduction in homelessness in each of these metropolitan
+areas from deregulation.
+Our first step is to simulate how rents would fall if the 11 metropolitan areas identified by
+Glaeser and Gyourko (2018) as supply-constrained deregulated their housing markets.4 To do
+so, we assume that deregulation would reduce the ratio of home values to production costs to
+one in these 11 areas. We assume that annual rent is equal to annual cost broadly defined, but
+do not simply assume that annual cost is proportional to the home value, because deregulation
+that reduces the rent for a home of a given quality would not necessarily change all of the cost
+components to operate it. Thus, we assume that annual rent prior to deregulation, 𝑅0 , can be
+written as
+𝑅0 = 𝛼𝑉0 + 𝛾𝑅1
+Here, 𝛼 is a scalar applied to the home value 𝑉0 prior to deregulation (reflecting property taxes,
+interest payments and any other cost elements proportional to the home value). For example,
+if the only cost element proportional to the home value was a 1 percent annual property tax,
+then we would have 𝛼 = 0.01. In addition, 𝛾 is a scalar proportional to the post-deregulation
+annual rent, 𝑅1 , so that 𝛾𝑅1 reflects the constant annual cost to maintain and otherwise
+operate a home of a fixed quality even if the market rent exceeds 𝑅1 due to regulation. The
+annual rent after deregulation, 𝑅1 , can then be written as
+𝑅1 = 𝛼𝑉1 + 𝛾𝑅1
+Because the value of the home after deregulation 𝑉1 < 𝑉0 , it must be the case that 𝑅1 < 𝑅0 as
+𝑉
+
+well. We let 𝑟 ≡ 0 denote the ratio of the home value before deregulation to the home value
+𝑉1
+
+after deregulation. We follow Glaeser and Gyourko (2018) in assuming that 𝑉1 is equal to the
+production cost of the home. Taking the ratio of rents and simplifying, we obtain
+𝑅0
+= (1 − 𝑟)𝛾 + 𝑟
+𝑅1
+Note that because 𝑟 > 1 (i.e., the home value is higher before deregulation), a larger 𝛾 reduces
+the rent ratio, since the fixed cost of operating the home is larger. In the extreme cases, 𝛾 = 0
+implies all costs are proportional to the home value and so the rent ratio is equal to the home
+value ratio, and 𝛾 = 1 implies all costs are fixed independent of the home value and so the rent
+ratio is equal to one. We use 𝛾 = 0.33, approximately equal to median operating costs (net of
+4
+
+We note that Glaeser and Gyourko estimates are for 2013. Given home price increases since then, ratios of home
+values to production costs are likely higher in 2018.
+
+CEA • The State of Homelessness in America
+
+13
+
+taxes) divided by median rent in a national sample of rental units analyzed by Goodman (2004).
+The median unit is likely not in a supply constrained market (Glaeser and Gyourko 2018 find
+that 74 percent of homes have values near or below production costs) and so the median unit
+is appropriate to use for an estimate of operating costs as a percent of rent in deregulated
+markets. Our value of 𝑟 for each metropolitan area is the ratio of home values to production
+costs estimated by Glaeser and Gyourko (2018).
+Our second step is to estimate the reduction in homelessness when reducing rental home
+prices according to the rent ratio obtained above. To do so, we apply an elasticity of
+approximately one (0.967), so that a 1 percent reduction in rental home prices reduces the rate
+of homelessness by 1 percent. This elasticity is that estimated by Corinth (2017) and is similar
+to those estimated by other studies using panel data to estimate associations between rental
+home prices and homelessness.
+Figure 4 shows how homelessness rates would fall in the 11 supply constrained metropolitan
+areas. The largest reductions occur in the areas with the highest ratios of home values to home
+production costs, since rental home prices fall by the largest amounts in these places. If
+housing were deregulated, homelessness would fall by 54 percent in San Francisco, by 50
+percent in Honolulu, by 40 percent in Oxnard and Los Angeles, by 38 percent in San Diego, by
+36 percent in Washington, D.C., and by between 19 and 26 percent in Boston, Denver, New York,
+Seattle and Baltimore.
+
+Figure 4. Percent Reduction in Homelessness by Metropolitan Area
+from Deregulating Housing Markets
+Percent
+60
+40
+20
+
+0
+
+Sources: U.S. Department of Housing and Urban Development, Point-in-Time Counts and Shapefiles, 2018; U.S.
+Census Bureau; Corinth (2017): Glaeser and Gyourko (2018); Goodman (2004); CEA Calculations.
+Note: Each CoC is merged into the metropolitan area in which the majority of its overall population is found.
+Simulation assumes that deregulation reduces home value to production cost ratio to 1 for all metropolitan areas
+with ratio of at least 1.25. See text for further details of simulation.
+
+CEA • The State of Homelessness in America
+
+14
+
+The aggregate reduction in homelessness in these 11 metropolitan areas would have
+important effects for the United States as a whole. As shown in table 2, aggregate
+homelessness would fall by just under 72,000 people, or 13 percent. In Los Angeles and New
+York City, homelessness would fall by over 20,000 people in each metropolitan area for a
+combined decrease of almost 44,000 people, or 61 percent of the total United States reduction.
+These effects are relatively robust to different values of 𝛾 (i.e., operating costs as a percent of
+rent that are independent of the value of a constant-quality home). For example, assuming 𝛾 =
+0.5 results in an 11 percent reduction in overall homelessness, and assuming 𝛾 = 0.2 results in
+a 15 percent reduction in overall homelessness.
+
+Table 2. Reduction in Rental Home Prices and Homelessness from
+Deregulating Housing Markets, by Metropolitan Area
+
+Metropolitan area
+San Francisco
+Honolulu
+Oxnard
+Los Angeles
+San Diego
+Washington
+Boston
+Denver
+New York
+Seattle
+Baltimore
+
+Percent
+change in rent
+-55%
+-51%
+-41%
+-41%
+-39%
+-37%
+-27%
+-25%
+-23%
+-23%
+-19%
+
+Subtotal (above
+125% of cons. cost)
+Subtotal (below
+125% of cons.
+Cost)
+Total
+
+Current
+homeless
+population
+16,920
+4,495
+1,308
+57,720
+8,576
+11,172
+13,587
+5,317
+92,024
+14,598
+4,163
+
+Change in
+homeless
+population
+-9,133
+-2,262
+-519
+-22,861
+-3,280
+-4,006
+-3,566
+-1,296
+-20,768
+-3,237
+-779
+
+Percent
+change in
+homeless
+population
+-54%
+-50%
+-40%
+-40%
+-38%
+-36%
+-26%
+-24%
+-23%
+-22%
+-19%
+
+229,880
+
+-71,709
+
+-31%
+
+322,950
+552,830
+
+0
+-71,709
+
+0%
+-13%
+
+Sources: Department of Housing and Urban Development, Point-in-Time Counts and Shapefiles, 2018; U.S. Census
+Bureau; Corinth (2017): Glaeser and Gyourko (2018); Goodman (2004); CEA calculations.
+Note: Each CoC is merged into the metropolitan area in which the majority of its overall population is found.
+Simulation assumes that deregulation reduces home value to production cost ratio to 1 for all metropolitan areas
+with ratio of at least 1.25. See text for further details of simulation.
+
+It is important to note that housing supply responses resulting from deregulation would take
+many years to translate into the types of price reductions, and thus homelessness reductions,
+CEA • The State of Homelessness in America
+
+15
+
+shown here. The current housing stock is fixed according to previous regulatory regimes, and
+building new housing takes time. Still, these results suggest that the severe homelessness
+problems in a number of metropolitan areas are in large part a direct result of city-created
+regulations on housing.
+These findings are also broadly consistent with results from Raphael (2010), who uses a
+different methodology to assess how housing market regulation drives up homelessness rates.
+Using an index of housing market regulation by metropolitan area, he finds that deregulation
+could reduce overall United States homelessness by 7 to 22 percent. He does not show how
+homelessness reductions would vary across specific areas.
+The Tolerability of Sleeping on the Street
+Just as increasing the price of being housed increases homelessness, increasing the tolerability
+of sleeping on the streets (outside of housing or shelter) increases homelessness as well.
+Increasing the tolerability of living on the streets shifts the demand for homes inward, and so
+the number of people living on the streets increases.
+One important factor that helps determine the tolerability of sleeping unsheltered on the
+streets is climate. Sleeping on the streets is always harmful to one’s health, and can be
+associated with higher rates of mortality (Roncarati et al. 2018). However, sleeping unsheltered
+is even more harmful when it is cold. Research consistently finds that colder climates are
+associated with lower rates of unsheltered homelessness (Byrne et al. 2013).
+In figure 5, we plot each CoC based on its rate of unsheltered homelessness and average
+January 2018 temperature. As Corinth and Lucas (2018) point out, rates of unsheltered
+homelessness are uniformly low in cold places. In other words, the difficulty of sleeping on the
+streets is so high during the winter in places like Minneapolis that unsheltered homelessness is
+extremely rare. However, there is wide variation in rates of unsheltered homelessness in
+warmer places. For example, Orlando, Las Vegas, and San Francisco all have average January
+temperatures of between 50 and 60 degrees Fahrenheit. But their rates of unsheltered
+homelessness are 2, 19 and 60 per 10,000 people respectively. In general, CoCs in California
+have higher rates of unsheltered homelessness than CoCs in Florida, despite similar January
+temperatures. It is clear that warm climates enable, but do not guarantee, high rates of
+unsheltered homelessness. Thus, factors beyond climate help determine rates of unsheltered
+homelessness in warm places.
+
+CEA • The State of Homelessness in America
+
+16
+
+Figure 5. Unsheltered Homelessness Rate by Average January
+Temperature, 2018
+California
+
+Florida
+
+Other
+
+Rate of unsheltered homeless per 10,000 people
+70
+60
+50
+40
+30
+20
+10
+0
+0
+
+10
+
+20
+
+30
+40
+50
+60
+Average temperature in January 2018
+
+70
+
+80
+
+90
+
+Sources: U.S. Department of Housing and Urban Development, Point-in-Time Counts and Shapefiles, 2018; American
+Community Survey 2013-2017; National Oceanic and Atmospheric Administration; CEA Calculations.
+Note: Excludes CoCs with population below 500,000.
+
+While figure 5 shows that large variation exists across CoC in rates of unsheltered
+homelessness, even after accounting for temperature, it does not adjust for other factors such
+as home prices or poverty rates that might explain some of this variation. In addition, some of
+the variation could be explained by variation across CoCs within each State that may not
+necessarily reflect policy differences. Thus, in figure 6 we compare actual rates of unsheltered
+homelessness in States to rates that would be expected once accounting for January
+temperature, home prices, and poverty rates in each CoC within each State. If the actual rate
+of unsheltered homelessness in a State is substantially higher than the expected rate
+accounting for January temperature, home prices and poverty rates, this suggests that other
+differences are needed to explain the remaining variation. Figure 6 includes the 17 States with
+the highest predicted rates of unsheltered homelessness.
+
+CEA • The State of Homelessness in America
+
+17
+
+Figure 6. Actual and Predicted Rates of Unsheltered Homelessness
+by State, 2018
+Actual
+
+Predicted
+
+Number of unsheltered homeless per 10,000 residents
+30
+25
+20
+15
+10
+5
+0
+HI CA FL AZ DC NV TX LA GA
+
+MS
+
+NM
+
+OR
+
+NY
+
+SC
+
+WA
+
+NC
+
+TN
+
+Sources: U.S. Department of Housing and Urban Development, Point-in-Time Counts and Shapefiles, 2018; American
+Community Survey 2013-2017; National Oceanic and Atmospheric Administration; CEA calculations.
+Note: We form predicted unsheltered homelessness rates by regressing the natural logarithm of unsheltered
+homelessness rates on average January temperature, the natural logarithm of average median rent across census
+tracts in each CoC, and the natural logarithm of the poverty rate in the CoC. The predicted value for each CoC is simply
+the predicted rate of unsheltered homelessness in the CoC given its temperature, median rent, and poverty rate.
+These rates are converted into total counts, the total counts are summed within each State, and then predicted Statelevel unsheltered homelessness rates are formed.
+
+In fact, the actual unsheltered homelessness rate is 2.4 times as high in Hawaii, 2.2 times as
+high in California, 3.0 times as high as in Nevada, 6.9 times as high in Oregon, and 5.7 times as
+high in Washington State, compared to the rates expected given the January temperature,
+home prices and poverty rates of each CoC within each State. By contrast, the actual rate of
+unsheltered homelessness is lower in Florida, Arizona and Texas than their expected rates.
+A number of potential factors could help explain the remaining variation in rates of unsheltered
+homelessness. One potential factor is differences in city ordinances and policing practices, as
+these policies would directly affect the tolerability of living on the street and predict the
+aggregate number of unsheltered homeless people. Some States more than others engage in
+more stringent enforcement of quality of life issues like restrictions on the use of tents and
+encampments, loitering, and other related activities. In addition, Berk and MacDonald (2010)
+note that the 2006 Safer Cities Initiative in Los Angeles, which intended to remove
+encampments in Skid Row, did so successfully, albeit temporarily:
+“The immediate goals of the SCI [Safer Cities Initiative] were demonstrably achieved. The Skid
+Row homeless encampments were cleared. The concentration of homeless individuals was
+dispersed. The debris they left behind was removed.” (Berk and MacDonald 2010, p. 817)
+Others have noted that policing may help determine rates of unsheltered homelessness as
+well. In his 1989 book, “Down and Out in America: The Origins of Homelessness”, University of
+
+CEA • The State of Homelessness in America
+
+18
+
+Chicago sociologist Peter Rossi explains why unsheltered homelessness may have grown in the
+1980s:
+“The `old’ homeless may have blighted some sections of the central cities, but from the
+perspective of urbanites they had the virtue of being concentrated on Skid Row, which one could
+avoid and hence ignore. Also, most of the old homeless had some shelter, although inadequate
+by any standards, and very few were literally sleeping on the streets. Indeed, in those earlier
+years, if people had tried to bed down on steam grates or in doorways and vestibules anywhere
+in the city, police patrols would have bundled them off to jail. The subsequent decriminalization
+of many status crimes, such as public inebriation and vagrancy—and the decreased emphasis on
+charges such as loitering has enlarged the turf homeless persons can claim.” (Rossi 1989, p. 34)
+In his 1996 book, “Making Room: The Economics of Homelessness,” Columbia University
+economist Brendan O’Flaherty notes that nonpunitive policing that seeks to move people off
+the streets and into services can be effective as well:
+“Aggressive but nonpunitive referral is a positive strategy; it has a record of reducing street
+homelessness and the attendant costs it imposes on other people” (O’Flaherty 1996, p. 280).
+Of course, policies intended solely to arrest or jail homeless people simply because they are
+homeless are inhumane and wrong. At the same time, when paired with effective services,
+policing may be an important tool to help move people off the street and into shelter or
+housing where they can get the services they need, as well as to ensure the health and safety
+of homeless and non-homeless people alike. More research is needed to understand how
+different policing policies affect the outcomes of homeless people—including their ultimate
+destinations, mental health, drug use, employment and other dimensions of wellbeing—as
+well as outcomes for non-homeless people.
+The Supply of Homeless Shelters
+The third factor that explains variation in homelessness is the supply of substitutes to housing
+through homeless shelters. Expanding the supply of homeless shelters shifts the demand for
+homes inward and increases homelessness. A larger supply of shelter entails a higher shelter
+quality (i.e., characteristics of a shelter that make it more desirable for people who sleep there)
+at any given level of beds in the market. While shelter plays an extremely important role in
+bringing some people off the streets, it also brings in people who would otherwise be housed,
+thus increasing total homelessness. As Brendan O’Flaherty notes in his 1996 book:
+
+CEA • The State of Homelessness in America
+
+19
+
+“Free shelters that are hygienic, safe, and dignified enough to accomplish some of the goals they
+should accomplish are also attractive enough to bring in many people who would not otherwise
+be on the street.” (O’Flaherty 1996, p. 281)
+To take two extreme examples, a bed on a floor in a congregate shelter may lead few people to
+come in off the streets or from housed situations, but a homeless shelter set up as a private
+apartment with a separate kitchen and bedrooms for a single family may bring in many more
+people from the streets and housing. New York City, for instance, provides the latter type of
+homeless shelter for some families in its homeless assistance system. Indeed, Cragg and
+O’Flaherty (1999) find that higher quality shelters increased homelessness in New York City in
+the 1990s. It is important to note that shelter that draws in people from housed situations may
+still be desirable social policy if those housed situations are abusive or otherwise harmful for
+spouses, partners or children. At the same time, higher quality shelters may also draw in many
+people who would be safely housed independently. In addition, if people who end up in
+homeless shelters are provided rental subsidies or other forms of assistance, this could
+increase the incentive for people to turn to shelters in the first place or to stay in shelters longer.
+O’Flaherty and Wu (2006) find that the promise of housing subsidies for shelter dwellers
+increased the length of time families spend in shelter in New York City.
+Measuring shelter quality is difficult. But some places – including New York City, the State of
+Massachusetts, and the District of Columbia – provide a legal “right to shelter” that promises
+shelter of some minimum level of quality.5 While in most places shelter quality or availability
+may fall when the number of people requesting them increases, this is not allowed to occur in
+places that have a right to shelter. Thus, as long as the minimum shelter quality is set high
+enough (i.e., higher than equilibrium quality levels reached in other places), we would expect
+right-to-shelter places to have a larger supply of homeless shelters.6 Unfortunately, little
+research has studied how shelter quality varies across areas. In addition, minimum quality
+standards likely vary across places with a right to shelter, and actual shelter quality varies
+within a given city. Nonetheless, there is reason to believe that average shelter quality is higher
+in right-to-shelter places. After all, if minimum quality standards were set below market
+equilibrium levels and thus were not binding, it is unclear why cities would institute such
+policies in the first place.
+
+5
+
+Leopold (2014) notes that Hennepin County, MN, Columbus, OH, and Montgomery County, MD each provide a
+guaranteed right to shelter as well. Also, see Main (2016) for a detailed account of how the right to shelter was
+developed in New York.
+6
+In terms of a homeless shelter “market,” a right to shelter would be reflected by a perfectly flat supply curve set
+at the minimum quality level, compared to a downward sloping curve in places without a right-to-shelter, since
+quality would adjust downward as more people utilize shelter beds (as noted in O’Flaherty 2019).
+
+CEA • The State of Homelessness in America
+
+20
+
+Figure 7 shows the 5 cities with the highest rates of sheltered homelessness. As shown in table
+1, the three cities with the highest rates are Boston, New York City, and Washington, D.C. In
+each of these three right-to-shelter cities, the rate of sheltered homelessness is over 2.7 times
+as high as in San Francisco, the city with the fourth highest rate of sheltered homelessness. The
+especially high rates of sheltered homelessness in Boston, New York and Washington, D.C.
+cannot be explained by their temperatures, home prices and poverty rates — as shown in figure
+7, after adjusting for these factors, right-to-shelter places have sheltered homelessness rates
+that are three times as high as would be predicted if they had no right to shelter. It is also not
+the case that most people in shelters in right-to-shelter places would otherwise be on the
+street. Boston, New York City, and Washington, D.C. have the three highest rates of overall
+homeless as well (see table 1).
+
+Figure 7. Cities with Highest Rates of Sheltered Homelessness,
+Actual and Predicted Rates, 2018
+Predicted
+
+Number of unsheltered homeless per 10,000 residents
+
+Actual
+
+United States
+Baltimore
+
+San Francisco
+Washington, DC
+New York City
+Boston
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Sources: Department of Housing and Urban Development, Point-in-Time Counts and Shapefiles, 2018; American
+Community Survey 2013–2017; CEA calculations.
+Note: Among CoCs with a population of at least 500,000, only the five CoCs with the highest rates of sheltered
+homelessness are shown. Following Leopold (2014), right-to-shelter areas include New York City, the State of
+Massachusetts, the District of Columbia, Hennepin County, MN, Columbus, OH, and Montgomery County, MD. We
+form adjusted homelessness rates by regressing the natural logarithm of sheltered homelessness rates on average
+January temperature, the natural logarithm of average median rent across census tracts in each CoC, the natural
+logarithm of the poverty rate in the CoC, and an indicator for right-to-shelter status. The sheltered homelessness rate
+for each right-to-shelter CoC is adjusted downward based on the coefficient on right-to-shelter status.
+
+Of course, there may be other factors beyond a right-to-shelter that lead Boston, New York City
+and Washington, D.C. to have different rates of sheltered homelessness than other cities, after
+adjusting for weather, home prices and poverty rates. But the dramatically higher rates of
+sheltered homelessness in the three cities with a right to shelter than all other cities suggests
+that right-to-shelter policies may play an important role.
+Individual-Level Factors
+Finally, a higher prevalence of individual-level risk factors for homelessness within the
+population reduces the demand for homes and thus increases homelessness in a community.
+CEA • The State of Homelessness in America
+
+21
+
+This is especially the case when the supply of homes is lower, and the supply of shelter and the
+tolerability of the streets is higher (see O’Flaherty 2004 for a discussion of the interaction
+between individual and community-level factors in determining homeless populations). A
+number of individual-level factors have been studied, including mental health, substance
+abuse, incarceration, poverty, and social ties.
+According to the 2018 homeless point-in-time count, 111,122 homeless people (20 percent)
+had a severe mental illness and 86,647 homeless people (16 percent) suffered from chronic
+substance abuse (HUD 2018b). Among all adults who used shelter at some point in 2017, 44
+percent had a disability (HUD 2018a). The extent to which these estimates accurately reflect
+the true proportion of the homeless population with these issues is unclear, given the varying
+methodologies used by CoCs to count and survey their homeless populations. However, other
+studies similarly suggest a high prevalence of mental illness and substance abuse in the
+homeless population. A national survey of homeless individuals conducted in 1996 found that
+among single adults, 39 percent experienced mental health problems, 26 percent experienced
+drug use problems, and 38 percent experienced alcohol use problems in the past month (Burt
+et al. 1999). A history of incarceration is also relatively common among homeless individuals.
+Among those adults entering a homeless shelter in 2017 from a non-homeless situation, 9
+percent were identified as previously staying in a correctional facility (HUD 2018). Metraux and
+Culhane (2006) find that 17 percent of single adults in New York City shelters spent time in jail
+over the previous two years, and 8 percent had spent time in prison.
+People experiencing homelessness generally have low incomes and relatively weaker social
+ties. According to a 1996 national survey of the homeless, mean incomes were around half of
+the poverty line both for single adults and for families (Burt et al. 1999). Corinth and Rossi-de
+Vries (2018) find that the lifetime incidence of homelessness is reduced by 60 percent for
+individuals with strong ties to family, religious communities, and friends. Among people who
+entered shelter in 2017 who were not already homeless, 51 percent had previously been
+staying with family or friends (HUD 2018a). This suggests that homelessness may result when
+these social ties are exhausted.
+Although mental illness, substance abuse disorders, former incarceration, poverty, and weak
+social ties place individuals at a higher risk of homelessness, the vast majority of people with
+any of these issues is not homeless (even if all half a million homeless people faced all of these
+problems, there are millions of non-homeless Americans who face each problem as well). Thus,
+other factors are important as well in determining who becomes homeless. Among those with
+higher risk factors, homelessness is often a case of bad luck (O’Flaherty 2010). Still, addressing
+these individual-level factors could in part help reduce homeless populations, especially when
+
+CEA • The State of Homelessness in America
+
+22
+
+pursued in conjunction with polices that address community level determinants of
+homelessness.
+
+The Ineffectiveness of Previous Federal Policies in Reducing
+Homeless Populations
+The Federal Government provides funding to communities to support homeless assistance
+programs, and these programs can affect homeless populations as well, typically by either
+reducing the demand for homes by increasing the supply of homeless shelters, or by increasing
+the demand for homes by expanding housing programs in which people are not defined as
+homeless or by preventing homelessness before it occurs. HUD is the largest source of Federal
+funds, providing $2.6 billion combined via the Continuum of Care program and Emergency
+Solution Grant program alone in 2019. These two programs support competitive funding to
+communities for homeless outreach, emergency shelter, transitional housing, rapid rehousing,
+permanent supportive housing and homelessness prevention. The U.S. Department of
+Veterans Affairs (VA) provides $1.8 billion for programs that serve homeless veterans, in
+addition to funding from HUD targeted specifically to homeless veterans. VA also offers a range
+of other programs and services for homeless and at-risk veterans enrolled in the VA health care
+system, including comprehensive mental health care and substance use disorder programs.
+Other smaller sources of funding include the U.S. Department of Health and Human Services,
+the U.S. Department of Education, and the U.S. Department of Labor. State and local
+governments and private philanthropy provide substantial funding and support for homeless
+assistance as well.
+Over the past decade, a major shift has occurred in Federal homelessness policies. As shown in
+figure 8, the stock of permanent supportive housing increased by over 170,000 beds, a 92
+percent increase, since 2007. The stock of rapid rehousing beds increased from 0 to about
+109,000. Together, permanent supportive housing and rapid rehousing beds increased by
+280,000 beds, and this increase was nearly half the stock of total homeless assistance beds in
+2007. In contrast, the stock of transitional housing beds fell from about 211,000 in 2007 to
+about 101,000 in 2018, a 52 percent decrease.
+For permanent supportive housing, the Federal Government increasingly emphasized a
+“Housing First” approach over the past decade. Under Housing First, homeless individuals are
+provided supportive housing with no preconditions, and do not face requirements as a
+condition of retaining housing even after they have been stabilized.
+The rest of this section assesses the extent to which Federal policy has been successful in
+reducing homeless populations, proceeding in two parts. First, we briefly summarize the
+CEA • The State of Homelessness in America
+
+23
+
+research on Housing First and permanent supportive housing, which does not suggest that
+Federal efforts have played a substantial role in the reported decline in homelessness over this
+time period. Second, we show that while reported homeless counts have fallen since 2007,
+major issues and flaws with the counts make it difficult to determine whether actual homeless
+populations have in fact fallen.
+
+Figure 8. Number of Beds by Homeless Assistance Program Type,
+2007–18
+Number of beds (thousands)
+400
+
+2018
+
+Permanent supportive
+housing
+300
+
+Emergency shelter
+
+200
+
+Transitional
+housing
+
+100
+
+Rapid
+rehousing
+0
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Source: U.S. Department of Housing and Urban Development, Housing Inventory Counts, 2007–2018.
+
+Evidence on the Effectiveness of Federal Efforts in Reducing Homeless Populations
+Federal policy over the past decade has focused on placing homeless people into permanent
+housing more quickly, especially using a Housing First approach in permanent supportive
+housing. However, most studies on homelessness do not estimate the impact of interventions
+such as Housing First or permanent supportive housing more generally on homeless
+population sizes. Instead, they typically evaluate how individual outcomes of people change
+as a result of receiving specific interventions. For outcomes such as impacts on substance
+abuse and mental illness, Housing First in general performs no better than other approaches
+(Kertesz and Johnson 2017). It tends to cost more as well (Ly and Latimer 2015). A 2018 National
+Academies of Sciences report states: “Overall, except for some evidence that PSH [permanent
+supportive housing] improves health outcomes among individuals with HIV/AIDS, the
+committee finds that there is no substantial published evidence as yet to demonstrate that
+PSH improves health outcomes or reduces health care costs” (National Academies of Sciences,
+Engineering and Medicine 2018, p. 4). But there is strong evidence that housing homeless
+CEA • The State of Homelessness in America
+
+24
+
+people reduces the number of days the recipients of housing spend homeless. For example, a
+large randomized controlled trial in Canada found that a Housing First intervention providing
+permanent supportive housing significantly reduced the number of days single adults spend
+homeless (Goering et al. 2014). A major HUD-sponsored randomized control trial in the United
+States found that long term housing vouchers, but not necessarily rapid rehousing, reduced
+the amount of time families spend in homeless shelters (Gubits et al. 2016).
+However, these types of individual-level studies cannot determine how policies that house
+homeless people affect homeless population sizes. When permanent supportive housing is
+expanded, and all beds are filled by people experiencing homelessness, the number of
+homeless people mechanically falls by the number of additional beds. However, this initial
+reduction can be undone through several possible mechanisms. First, when people exit
+homeless shelters, the quality of shelters may increase as shelter operators seek to fill their
+now vacant beds, and homelessness could rise back up. Second, when people are removed
+from unsheltered environments, the street may become a less difficult place to sleep when it
+becomes less congested with homeless people who utilize the most sought after spots, again
+increasing the number of people who remain or fall into homelessness. Third, increasing
+housing demand may increase the price of housing, drawing additional people into
+homelessness and weakening the initial reduction in homelessness further. Fourth, the people
+who live in the new permanent beds may remain there longer than they would have otherwise
+remained homeless. To the extent that housing programs over time house people who
+otherwise would have no longer been homeless, they no longer have any effect on reducing
+homelessness until the unit becomes vacant and a new person is removed from homelessness.
+Fifth, the promise of housing for homeless people could encourage people to stay homeless
+longer in order to qualify. Thus, the long-run reduction in the number of homeless people may
+be smaller than the original decline in homelessness that mechanically occurs from housing
+homeless people. 7
+While most empirical studies of Housing First and permanent supportive housing do not
+consider effects on homeless populations, one exception is Corinth (2017), who estimates the
+impact of permanent supportive housing beds on homeless population sizes using data from
+CoCs from 2007 through 2014. He finds that 10 additional permanent supportive housing beds
+reduce the homeless population by about 1 person. Thus, the approximately 173,000 increase
+in permanent supportive housing beds between 2007 and 2018 could explain less than one fifth
+(about 17,300 people) of the total reported decline in homelessness of about 94,000 people
+over this period. Meanwhile, Byrne et al. (2014) find only a modest association between chronic
+homeless population sizes and permanent supportive housing beds. Lucas (2017) studies how
+7
+
+See O’Flaherty (2019) for further discussion of these points.
+
+CEA • The State of Homelessness in America
+
+25
+
+Federal funding in general affects homeless populations—he unsurprisingly finds that more
+funding increases sheltered homelessness (presumably because Federal funding increases the
+supply of shelter), but he also finds no impact in reducing unsheltered homelessness. Other
+studies have found that Federal funding may reduce homelessness, although data limitations
+could play a role in these results (Moulton 2013; Popov 2017). More positive evidence has been
+found for programs that seek to prevent homelessness before it occurs, both at the individual
+level (Rolston et al. 2013; Evans et al. 2016) and community level (Goodman et al. 2016).8 But
+overall, the evidence does not suggest that Federal efforts have necessarily played a major role
+in the observed decline in homelessness between 2007 and 2018.
+Evidence on Decline of Homeless Populations
+Rather than resulting from previous Federal policies, a more likely explanation for the
+reduction in homeless counts between 2007 and 2018 is that they are largely artificial, a result
+of (i) transitional housing being defined as “homeless” but similarly time-limited rapid
+rehousing not being defined as “homeless,” and (ii) miscounting of unsheltered homeless
+people.
+Figure 9 shows the trend in homeless counts between 2007 and 2018. The total homeless count
+fell by over 94,000 people (15 percent) over this period. Just over one third was accounted for
+by an approximately 33,000 person reduction in sheltered homelessness, and the remaining
+almost two thirds was accounted for by an approximately 61,000 person reduction in
+unsheltered homelessness. In the following subsections, we show that sheltered homelessness
+would have in fact risen if transitional housing were treated similarly to rapid rehousing in not
+being labeled as “homeless,” and that the reduction in unsheltered homelessness could
+potentially be explained by large outliers which likely result from changes in methodology or
+other counting errors.
+
+Consistent with the positive effects of homelessness prevention programs, recent research finds that evictions
+have a significant impact on entries into homelessness (but limited or no effects on other outcomes such as
+employment, earnings, and financial strain) suggesting that preventing eviction may be a key mechanism
+through which homelessness prevention programs reduce homelessness (Collinson and Reed 2019; Humphries
+et al. 2019).
+8
+
+CEA • The State of Homelessness in America
+
+26
+
+Figure 9. Homeless Count in the United States by Shelter Status,
+2007–18
+Homeless count
+700,000
+
+2018
+
+600,000
+
+Total
+
+500,000
+
+Sheltered
+
+400,000
+300,000
+
+Unsheltered
+
+200,000
+100,000
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Source: U.S. Department of Housing and Urban Development, Point-in-Time Counts, 2007-2018.
+
+Sheltered Homeless Counts
+The number of sheltered homeless people is defined as the number of people living in
+emergency shelter plus the number of people living in transitional housing. Since 2007, the
+number of people living in emergency shelter increased by just under 61,000, while the number
+of people living in transitional housing decreased by just over 94,000 (figure 10). Adding these
+changes together, total sheltered homelessness fell by just over 33,000 people. Thus, the only
+reason we observe a reduction in total sheltered homelessness between 2007 and 2018 is
+because the number of people living in transitional housing fell by over 94,000. If people in
+transitional housing were not defined as “homeless,” then sheltered homelessness (including
+only people living in emergency shelters) would have increased by just under 61,000 people (28
+percent) between 2007 and 2018.
+
+CEA • The State of Homelessness in America
+
+27
+
+Figure 10. Number of People Living in Emergency Shelter and
+Transitional Housing in the United States, 2007–18
+Homeless count
+300,000
+
+2018
+
+250,000
+
+Sheltered (in
+emergency shelter)
+
+200,000
+
+Sheltered (in
+transitional housing)
+
+150,000
+100,000
+50,000
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Source: U.S. Department of Housing and Urban Development, Point-in-Time Counts, 2007-2018.
+
+Indeed, defining people living in transitional housing as “homeless” is inconsistent with how
+other forms of homeless assistance are defined. Transitional housing provides stays of up to
+24 months, generally in project-based living environments, and often promotes self-sufficiency
+goals for recipients. Meanwhile, rapid rehousing provides stays of up to 24 months in private
+apartments, but focuses less on self-sufficiency and does not make intensive services available
+for recipients. In practice, the duration of rapid rehousing tends to be shorter than stays in
+transitional housing for families, with rapid rehousing typically lasting around 7 to 8 months,
+and transitional housing stays averaging around 13 months, over the course of a 37-month
+period in the HUD-sponsored Family Options Study (Gubits et al. 2016). In addition, there is no
+statistical difference between rapid rehousing and transitional housing in terms of time spent
+by families on the street or in emergency shelter while not in the programs (Gubits et al. 2016).
+The Family Options Study itself, which assessed the effectiveness of transitional housing
+relative to rapid rehousing and other interventions, excluded transitional housing from the
+definition of “homelessness” so as not to bias results against transitional housing simply
+because people utilized the program as intended.
+However, point-in-time sheltered counts follow the McKinney Vento Act in defining people in
+transitional housing as “homeless,” while defining people receiving rapid rehousing as “not
+homeless.” As a result, substituting rapid rehousing beds for transitional housing beds
+artificially reduces homeless counts and creates a bias against transitional housing in terms of
+homelessness reductions. This is precisely what has occurred over the past decade. The
+approximately 110,000 bed reduction in transitional housing between 2007 and 2018 has been
+CEA • The State of Homelessness in America
+
+28
+
+almost fully offset by an approximately 109,000 bed increase in rapid rehousing. While there is
+much debate about the relative merits and cost-effectiveness of transitional housing
+compared to rapid rehousing (see for example, Corinth 2015b), it is not clear that people living
+in one type of program are more “homeless” than people living in the other type.
+In effect, what has occurred between 2007 and 2018 is a large scale substitution of one form of
+medium term assistance (rapid rehousing) for another form of medium term assistance
+(transitional housing). There may or may not be merits for preferring rapid rehousing over
+transitional housing, but the artificial reduction in homelessness caused by this substitution
+should not be viewed as evidence of success.
+
+Unsheltered Homeless Counts
+The unsheltered homeless count fell by just over 61,000 people between 2007 and 2018, a 24
+percent decrease. Over a third of this total reduction (about 22,000 people) occurred between
+2007 and 2010. However, the counts between 2007 and 2010 have been regarded as less
+reliable (O’Flaherty 2019). For two examples, between 2007 and 2009, the number of
+unsheltered homeless people fell from 13,324 to 262 in Detroit, and fell from 36,420 to 19,193
+in Los Angeles.9 Together, these two examples amount to a more than 30,000 person decline in
+unsheltered homelessness between 2007 and 2009, substantially larger than the total United
+States decrease in reported unsheltered homelessness between 2007 and 2010. However,
+these drastic reductions are unlikely a result of true reductions in unsheltered homelessness
+and more likely reflect methodological changes or counting errors. HUD in its annual 2009
+homelessness report noted that “significant methodological issues” likely explained these
+changes (HUD 2010, p. 9).10
+
+See Corinth (2015a) for further analysis of the role of miscounting in counts of the unsheltered homeless
+population.
+10
+The count of unsheltered homeless individuals in New Orleans, Louisiana increased from 629 in 2008 to 7,385
+in 2009, likely a result of complications in the count arising from Hurricane Katrina (HUD 2010). However, the
+count fell back to 594 in 2018.
+9
+
+CEA • The State of Homelessness in America
+
+29
+
+Figure 11. Number of Unsheltered Homeless People in the United
+States, as Individuals and as Members of Families, 2007–18
+Homeless count
+250,000
+200,000
+
+Unsheltered
+individuals
+
+150,000
+100,000
+
+Unsheltered in
+families
+
+50,000
+0
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Source: U.S. Department of Housing and Urban Development, Point-in-Time Counts, 2007-2018.
+
+Focusing only on 2010 to 2018, there was a reported 39,067 person (17 percent) decrease in
+unsheltered homelessness. The vast majority (88 percent) of the decrease between 2010 and
+2018 is accounted for by unsheltered people in families (figure 11). Unsheltered homelessness
+among people in families declined by 68 percent (34,222 people). However, it is particularly
+difficult to find and accurately count unsheltered homeless families, suggesting that caution is
+needed in interpreting this decline.
+In fact, examples of reported reductions in a number of different States suggest that changes
+in methodology or counting errors could play a major role in the overall reported decline.
+Between 2010 and 2018, the count of unsheltered homeless people in families fell by the
+following percentages and numbers of people in the following States (with notable one- or
+two-year declines in parentheses):
+
+
+
+
+
+
+
+
+
+
+Louisiana: 96 percent; 648 people (79 percent reduction between 2010 and 2011)
+Wisconsin: 96 percent; 613 people (85 percent reduction between 2010 and 2011)
+Texas: 92 percent; 2,849 people (79 percent reduction between 2012 and 2013)
+Georgia: 91 percent; 2,112 people (50 percent reduction between 2012 and 2013)
+Michigan: 91 percent; 765 people (85 percent reduction between 2014 and 2015)
+Maryland: 90 percent; 2,001 people (66 percent reduction between 2012 and 2013)
+Missouri: 89 percent; 577 people (60 percent reduction between 2013 and 2014)
+Florida: 80 percent; 10,591 people (70 percent reduction between 2013 and 2015)
+Colorado: 70 percent, 2,429 people (92 percent reduction between 2012 and 2013)
+
+CEA • The State of Homelessness in America
+
+30
+
+The reductions in unsheltered family homelessness from the above examples sum to 22,585
+people, 66 percent of the total reduction in unsheltered family homelessness between 2010
+and 2018.
+Also, it is notable that two States not listed above reported large declines in unsheltered family
+homelessness between 2010 and 2018. These include California, where unsheltered family
+homelessness fell by 48 percent (3,773 people), and Oregon, where unsheltered family
+homelessness fell by 65 percent (3,371 people). Cities in both California and Oregon declared
+homeless states of emergency during this period, and counts of unsheltered homeless
+individuals increased in both States (by 32 percent in California and by less than 1 percent in
+Oregon). It is unclear what factors would have driven such large reductions in counts of
+unsheltered family homelessness without also removing substantial numbers of individuals
+from the street.
+Of course, these examples are only suggestive that methodological changes or counting errors
+occurred and may play a large role in the reported decline in unsheltered homelessness among
+families. Some methodological changes or errors could have increased counts, although the
+fact that all 17 States with at least 500 unsheltered homeless people in families in 2010 saw a
+reduction by 2018 suggests that such changes may have tended to reduce counts over time. In
+addition, even when counts fell by unrealistic amounts, it is possible in reality that they still
+fell, but by more modest amounts. Thus, it is ultimately unclear to what extent unsheltered
+homelessness among families fell between 2010 and 2018 (or between 2007 and 2018).
+Overall, it is unclear whether unsheltered homelessness has increased or decreased between
+2007 and 2018 (or 2010 to 2018). Sheltered homelessness has fallen, but only because
+communities have swapped time-limited transitional housing (in which people are defined as
+“homeless”) with time-limited rapid rehousing (in which people are not defined as
+“homeless”). Otherwise, sheltered homelessness would have increased significantly. Thus, the
+reduction in overall homeless counts since 2007 (or 2010) should not be taken as evidence that
+previous Federal policies have been successful in reducing homelessness.
+Box 1. Reducing Veteran Homelessness
+One exception to the lack of clear progress in reducing homeless populations might be homeless
+veterans. Figure 12 shows the number of homeless veterans in each year since 2009, the first year in
+which national counts of homeless veterans are published. Overall homelessness among veterans fell
+by 48 percent between 2009 and 2018, and by 5 percent between 2017 and 2018. The 37,878 homeless
+veterans in 2018 marks the lowest total on record. Both sheltered and unsheltered veteran
+homelessness have fallen substantially since 2009, by 46 percent and 51 percent respectively. Key
+programs serving homeless veterans include the Supportive Services for Veteran Families program, and
+CEA • The State of Homelessness in America
+
+31
+
+HUD-Veterans Affairs Supportive Housing (VASH) which combines housing assistance from HUD with
+supportive services from the VA. Evans et al. (2019) find that HUD-VASH has been highly successful in
+reducing veteran homelessness. Alternatively, O’Flaherty (2019) notes that the large reduction in
+veteran homelessness could be explained by the falling population of homeless veterans between the
+ages of 18 and 65 in the general population over this time. Another explanation could be replacement
+of transitional housing, in which veterans are defined as homeless, with SSVF, in which veterans are not
+defined as homeless. Since 2014, the first year of available data, the number of veterans living in
+transitional housing has fallen by 6,260, representing 71 percent of the decline in sheltered veteran
+homelessness between 2014 and 2018.
+
+Figure 12. Number of Homeless Veterans in the United States by
+Status, 2009–18
+Homeless veterans count
+80,000
+70,000
+60,000
+50,000
+
+Total
+
+40,000
+30,000
+
+Sheltered
+
+20,000
+
+Unsheltered
+
+10,000
+0
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Sources: U.S. Department of Housing and Urban Development, Point-in-Time Counts, 2007-2018.
+
+Trump Administration Actions to Reduce Homelessness
+To reverse the failed policies of the past, the Trump Administration is addressing the root
+causes of homelessness. One of the major factors that increases homelessness is regulation
+that impedes home construction, which reduces the supply of homes and thus increases
+homelessness. While housing market regulations are largely set at the local level, the Trump
+Administration has recognized the importance of these regulations for the health of the
+economy and Americans’ wellbeing, and taken action to address overly burdensome
+regulations. On June 25, 2019, President Trump signed an executive order that establishes a
+White House Council on Eliminating Regulatory Barriers to Affordable Housing. The newly
+established council includes members from across Federal agencies, and is tasked with
+identifying regulatory barriers to building housing along with actions to address these barriers.
+CEA • The State of Homelessness in America
+
+32
+
+Another important factor that increases homelessness is the tolerability of sleeping on the
+street, which among other factors may be affected through policing of street activities. The
+administration has through a series of executive orders consistently supported the police. As
+potential evidence of better supported police, the violent crime rate fell slightly (by just under
+1 percent) in 2017 after increasing by 7 percent between 2014 and 2016. According to
+preliminary data (based on the first 6 months of 2018), violent crime in 2018 fell by 4.3 percent.
+More research is needed to understand how different policing policies affect the outcomes of
+homeless people—including their ultimate destinations, mental health, drug use, employment
+and other dimensions of wellbeing—as well as outcomes for non-homeless people.
+Individual demand factors that increase homelessness are being addressed as well. The
+President’s policies to reduce the supply of illicit drugs entering the United States, prevent new
+people from becoming addicted by ensuring proper use of prescription drugs, and provide
+treatment to those with substance use disorders have been successful in reducing drug
+overdose deaths. According to preliminary 2018 data, drug overdose deaths fell for the first
+time in decades, after increasing by 21 percent in 2016 and by 10 percent in 2017. President
+Trump has also worked to reform incarceration policies and support people exiting prison by
+signing the First Step Act on December 21, 2018. And President Trump appointed the first ever
+assistant secretary for substance abuse and mental health services in HHS, in conjunction with
+a prioritization of people with severe mental illness. Finally, strong economic growth,
+historically low unemployment rates, and reductions in poverty have increased the incomes of
+people at the bottom of the distribution and can reduce their likelihood of falling into
+homelessness.
+In addition to addressing the root problems of homelessness, including both community-level
+and individual-level factors, homeless assistance programs can potentially reduce
+homelessness as well. While Federal policies over the past decade have dramatically shifted
+the program landscape, the evidence does not necessarily indicate that this approach has
+more successfully reduced homeless populations. The Trump administration has sought to
+improve on these results by reforming the Housing First approach in the major HUD homeless
+assistance program that provides competitive funding to CoCs. While the program maintains a
+commitment to providing housing with no preconditions to program participants, the latest
+2019 Notice of Funding Availability allows communities flexibility to impose service
+participation requirements for participants after they have been stabilized in housing. This
+reform will allow for greater local flexibility and innovation to drive successful outcomes for
+vulnerable homeless individuals. Moreover, to the extent that better results for homeless
+individuals allow them to more quickly transition to private housing, homeless assistance
+programs can be more quickly freed up to serve homeless people still living on the street. In
+conjunction with this reform, HUD has also strengthened its emphasis on self-sufficiency as a
+CEA • The State of Homelessness in America
+
+33
+
+key component of homeless assistance programs. Increasing employment and income of
+homeless individuals can reduce durations of homelessness and increase stabilization in
+housing after exiting homelessness. These reforms may more successfully reduce
+homelessness and address the underlying problems that people experiencing homelessness
+face.
+
+CEA • The State of Homelessness in America
+
+34
+
+References
+Berk, R., and J. MacDonald. 2010. “Policing the homeless: An evaluation of efforts to reduce
+homeless-related crime.” Criminology and Public Policy 9, no. 4: 813–40.
+Bohanon, C. 1991. “The economic correlates of homelessness in sixty cities.” Social Science
+Quarterly 72, no. 4: 817–25.
+Burt, M. R., L.Y. Aron, T. Douglas, J. Valente, E. Lee, and B. Iwen. 1999. “Homelessness:
+Programs and the people they serve: Summary report: Findings of the National Survey
+of Homeless Assistance Providers and Clients.” Urban Institute.
+Byrne, T., E.A. Munley, J.D. Fargo, A.E. Montgomery, and D.P. Culhane. 2013. “New
+perspectives on community-level determinants of homelessness.” Journal of Urban
+Affairs 35, no. 5: 607–25.
+———. 2014. “The relationship between community investment in permanent supportive
+housing and chronic homelessness.” Social Service Review 88, no. 2: 234–63.
+Collinson, R., and D. Reed. 2019. “The effects of evictions on low-income households.”
+Working paper. https://robcollinson.github.io/RobWebsite/jmp_rcollinson.pdf.
+Corinth, K. 2015a. “Street homelessness: A disappearing act?” AEI Economic Perspectives
+http://www.aei.org/publication/street-homelessness-a-disappearing-act/.
+———. 2015b. “What should we do about homeless families? Comments on the Family
+Options Study.” AEI Economic Perspectives www.aei.org/publication/what-should-wedo-about-homeless-families-comments-on-the-family-options-study/.
+———. 2017. “The impact of permanent supportive housing on homeless populations.”
+Journal of Housing Economics 35: 69–84.
+Corinth, K., and C. Rossi-de Vries. 2018. “Social ties and the incidence of homelessness.”
+Housing Policy Debate 28, no. 4: 592–608.
+Corinth, K., and D.S. Lucas. 2018. “When warm and cold don’t mix: The implications of climate
+for the determinants of homelessness.” Journal of Housing Economics 41: 45–56.
+Cragg, M., and B. O’Flaherty. 1999. “Do homeless shelter conditions determine shelter
+population? The case of the Dinkins deluge.” Journal of Urban Economics 46, no. 3:
+377–415.
+
+CEA • The State of Homelessness in America
+
+35
+
+Early, D. W., and E.O. Olsen. 2002. “Subsidized housing, emergency shelters, and
+homelessness: An empirical investigation using data from the 1990 Census.” B.E.
+Journal of Economic Analysis and Policy 2, no. 1.
+Evans, W. N., D.C. Phillips, and K. Ruffini, K. 2019. “Reducing and preventing homelessness: A
+review of the evidence and charting a research agenda.” Abdul Latif Jameel Poverty
+Action Lab.
+https://www.povertyactionlab.org/sites/default/files/publications/reducingpreventing-homelessness-review-research-agenda.pdf.
+Evans, W. N., J.X. Sullivan, and M. Wallskog. 2016. “The impact of homelessness prevention
+programs on homelessness.” Science 353, no. 6300: 694–99.
+Evans, W. N., S. Kroeger, C. Palmer, and E. Pohl. 2019. “Housing and Urban DevelopmentVeterans Affairs Supportive Housing Vouchers and Veterans’ Homelessness: 20072017.” American Journal of Public Health 109, no. 10: 1440–45.
+Glaeser, E., and B.A. Ward. 2009. “The causes and consequences of land use regulation:
+Evidence from greater Boston.” Journal of Urban Economics 65, no. 3: 265–78.
+Glaeser, E., and J. Gyourko, J. 2018. “The economic implications of housing supply.” Journal
+of Economic Perspectives 32, no. 1: 3–30.
+Glynn, C., T.H. Byrne, and D.P. Culhane. 2018. “Inflection points in community-level homeless
+rates.” Working paper.
+http://files.zillowstatic.com/research/public/StaticFiles/Homelessness/Inflection_Poi
+nts.pdf.
+Goering, P., S. Veldhuizen, A. Watson, C. Adair, B. Kopp, E. Latimer, G. Nelson, E.
+Macnaughton, D. Streiner, and T. Aubry. 2014. “National at home/chez soi final
+report.” Mental Health Commission of Canada.
+Goodman, J. 2004. “Determinants of operating costs of multifamily rental housing.” Journal
+of Housing Economics 13, no. 3: 226–44.
+Goodman, S., P. Messeri, and B. O’Flaherty. 2017. “Homelessness prevention in New York City:
+On average, it works.” Journal of Housing Economics 31: 14–34.
+Gubits, D., M. Shinn, M. Wood, S. Bell, S. Dastrup, C.D. Solari, S.R. Brown, D. McInnis, T. McCall,
+U. Kattel, Abt Associates Inc., and Vanderbilt University. 2016. “Family options study:
+3-year impacts of housing and services interventions for homeless families.” U.S.
+Department of Housing and Urban Development.
+
+CEA • The State of Homelessness in America
+
+36
+
+Gyourko, J., and R. Molloy. 2015. “Regulation and housing supply.” Handbook of Regional and
+Urban Economics.
+Hanratty, M. 2017. “Do local economic conditions affect homelessness? Impact of area
+housing market factors, unemployment, and poverty on community homelessness
+rates.” Housing Policy Debate 27, no. 4: 640–55.
+Honig, M., and R.K. Filer. 1993. “Causes of intercity variation in homelessness.” American
+Economic Review 83, no. 1: 248–55.
+Humphries, J. E., N.S. Mader, D.I. Tannenbaum, W.L. van Dijk. 2019. “Does eviction cause
+poverty? Quasi-experimental evidence from Cook County, IL.” NBER working paper.
+Available at https://www.nber.org/papers/w26139.
+Kertesz, S. G., and G. Johnson. 2017. “Housing First: Lessons from the United States and
+Challenges for Australia.” Australian Economic Review 50, no. 2: 220–28
+Lucas, D. S. 2017. “The impact of federal homelessness funding on homelessness.” Southern
+Economic Journal 84, no. 2: 548–76.
+Ly, A., and E. Latimer. 2015. “Housing first impact on costs and associated costs offsets: A
+review of the literature.” Canadian Journal of Psychiatry 60, no. 11: 475–87.
+Main, T. J. 2016. Homelessness in New York City. New York University Press. New York.
+Metraux, S., and D.P. Culhane. 2006. “Recent incarceration history among a sheltered
+homeless population.” Crime and Delinquency 52, no. 3: 504–17.
+Moulton, S. 2013. “Does increased funding for homeless programs reduce chronic
+homelessness?” Southern Economic Journal 79, no. 3: 600–20.
+National Academies of Sciences, Engineering and Medicine. 2018. Permanent Supportive
+Housing: Evaluating the Evidence for Improving Health Outcomes Among People
+Experiencing Chronic Homelessness. Washington, DC: The National Academies Press.
+O’Flaherty, B. 1996. Making room: The economics of homelessness. Harvard University Press.
+Cambridge.
+———. 2003a. “Commentary.” FRBNY Economic Policy Review.
+https://www.newyorkfed.org/medialibrary/media/research/epr/03v09n2/0306ofla.pdf
+———. 2003b. “Need and generosity: How markets for free goods equilibrate.” Journal of
+Urban Economics 54, no. 1: 157–72.
+
+CEA • The State of Homelessness in America
+
+37
+
+———. 2004. “Wrong person and wrong place: for homelessness, the conjunction is what
+matters.” Journal of Housing Economics 13, no. 1: 1–15.
+———. 2010. “Homelessness as bad luck: Implications for research and policy.” In How to
+house the homeless, edited by Ellen, I. G., and O’Flaherty, B. Russell Sage Foundation.
+New York.
+———. 2019. “Homelessness research: A guide for economists (and friends).” Journal of
+Housing Economics 44: 1–25.
+O’Flaherty, B., and T. Wu. 2006. “Fewer subsidized exits and a recession: How New York City’s
+family homeless shelter population became immense.” Journal of Housing Economics
+15, no. 2: 99–125.
+Popov, I. 2017. “Homeless programs and social insurance.” Working paper. https://www.igorpopov.com/uploads/8/7/4/8/87480912/popov_homelessprograms.pdf.
+Quigley, J. M, and S. Raphael. 2005. “Regulation and the high cost of housing in California.”
+American Economic Review 95, no. 2: 323–28.
+Quigley, J. M., S. Raphael, S., and E. Smolensky. 2001. “Homeless in America, Homeless in
+California.” Review of Economics and Statistics 83, no. 1: 37–51.
+Quigley, J. M., and L.A. Rosenthal. 2005. “The effects of land use regulation on the price of
+housing: What do we know? What can we learn?” Cityscape 8, no. 1: 69–137.
+Raphael, S. 2010. “Housing market regulation and homelessness.” In How to house the
+homeless, edited by Ellen, I. G., and O’Flaherty, B. Russell Sage Foundation. New York.
+Rolston, H., J. Geyer, G. Locke, and Abt Associates. 2013. “Final report: Evaluation of the
+Homebase Community Prevention program.” Department of Homeless Services: New
+York.
+Roncarati, J. S., T.P. Baggett, J.J. O’Connell, S.W. Hwang, E.F. Cook, N. Krieger, and G.
+Sorenson. 2018. “Mortality among unsheltered homeless adults in Boston,
+Massachusetts, 2000-2009.” JAMA Internal Medicine 178, no. 9: 1242–48.
+Rossi, P. H. 1989. Down and out in America: The origins of homelessness. University of Chicago
+Press. Chicago.
+Saiz, A. 2010. “The geographic determinants of housing supply.” Quarterly Journal of
+Economics 125, no. 3: 125–96.
+
+CEA • The State of Homelessness in America
+
+38
+
+U.S. Department of Housing and Urban Development (HUD). 2010. “The 2009 Annual
+Homeless Assessment Report.”
+https://www.huduser.gov/publications/pdf/5thHomelessAssessmentReport.pdf.
+———. 2018a. “The 2017 Annual Homeless Assessment Report (AHAR) to Congress: Part 2:
+Estimates of Homelessness in the United States.”
+https://files.hudexchange.info/resources/documents/2017-AHAR-Part-2.pdf.
+———. 2018b. “The 2018 Annual Homeless Assessment Report (AHAR) to Congress: Part 1:
+Point-in-time estimates of homelessness.”
+https://files.hudexchange.info/resources/documents/2018-AHAR-Part-1.pdf.
+
+CEA • The State of Homelessness in America
+
+39
+
+ABOUT THE COUNCIL OF ECONOMIC ADVISERS
+The Council of Economic Advisers, an agency within the Executive Office of the President, is
+charged with offering the President objective economic advice on the formulation of both
+domestic and international economic policy. The Council bases its recommendations and
+analysis on economic research and empirical evidence, using the best data available to
+support the President in setting our nation's economic policy.
+www.whitehouse.gov/cea
+September 2019
+
+

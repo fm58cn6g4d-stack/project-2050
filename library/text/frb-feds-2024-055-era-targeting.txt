@@ -1,0 +1,1209 @@
+Source: https://www.federalreserve.gov/econres/feds/files/2024055pap.pdf
+Publisher: Board of Governors of the Federal Reserve System
+Retrieved: 2026-10-28
+Original SHA-256: f9c32c7aca80754b088f8219d5539bd4950f9560986d031b7605279717646f72
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Finance and Economics Discussion Series
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+Targeted Relief: Geography and Timing of Emergency Rental
+Assistance
+
+Theodore F. Figinski, Sydney Keenan, Richard Sweeney, and Erin Troland
+2024-055
+
+Please cite this paper as:
+Figinski, Theodore F., Sydney Keenan, Richard Sweeney, and Erin Troland (2024). “Targeted Relief: Geography and Timing of Emergency Rental Assistance,” Finance and Economics Discussion Series 2024-055. Washington: Board of Governors of the Federal Reserve
+System, https://doi.org/10.17016/FEDS.2024.055.
+
+NOTE: Staff working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staff or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+TARGETED RELIEF: GEOGRAPHY AND TIMING OF
+EMERGENCY RENTAL ASSISTANCE FUNDS∗
+Theodore F. Figinski
+U.S. Department of the Treasury
+
+Sydney Keenan
+U.S. Department of the Treasury
+
+Richard Sweeney
+
+Erin Troland
+Federal Reserve Board of Governors
+Abstract
+
+In response to the COVID-19 pandemic, Congress established the Emergency Rental Assistance
+(ERA) program, which provided nearly $45 billion to prevent evictions and increase housing
+stability. We provide new evidence on the implementation of ERA by examining the finegrained geographic distribution of ERA funds and the timing of ERA expenditures by state and
+local governments. Using administrative data on ERA transactions, we find that ERA sent more
+funds per renting household to census tracts with higher pre-pandemic eviction filing rates,
+higher poverty rates, higher shares of Black renters, higher shares of renting households with
+children, and higher shares of renting single mothers. Our results suggest that ERA was largely
+successful in reaching communities that were most likely to have the highest risk of eviction. We
+also document that ERA spending increased substantially around the expiration of the federal
+eviction moratorium and at a time when eviction filings were increasing, which may confound
+quasi-experimental analysis of ERA.
+
+The findings, conclusions, views, and opinions are those of the authors and do not necessarily represent the views
+of the U.S. Department of the Treasury, the Federal Reserve Board of Governors or its research staff, or the United
+States government. We thank Marianne Bitler, Jason Brown, Dave Buchholz, Blossom Butcher-Sumner, Jasper
+Cooper, Karl Dunkle Werner, Maya Duru, Laura Feiveson, Jim Gatz, Jed Herrmann, Peter Hepburn, Jeff Larrimore,
+Steven Johnson, Paul Joice, Alicia Lloro, Vanessa Megaw, and Sydney Schreiner Wertz for their helpful comments.
+Richard Sweeney worked on this project only while he was employed with the Department of the Treasury. In this
+analysis, we use the U.S. Department of the Treasury’s Participant Household Payment Data File (PHPDF). The
+Office of Capital Access provided the PHPDF to the Office of Economic Policy for this project. The PHPDF was
+accessed only by the staff of the Office of Economic Policy and the analysis and data were stored on Treasury
+systems at all times. All results were reviewed, by staff of the Office of Economic Policy, prior to their distribution
+to ensure that no confidential information was disclosed. Researchers interested accessing the PHPDF can apply for
+access through the U.S. Department of Housing and Urban Development’s (HUD’s) Office of Policy Development
+and Research (PD&R). PD&R has the authority to enter into Data License Agreements with research organizations
+for the explicit purpose of conducting innovative research projects that inform HUD’s policies and programs,
+including affordable rental housing. For more information on PD&R Data License Agreements, please visit
+https://www.huduser.gov/portal/research/pdr_data-license.html. Any and all errors are our own. This version was
+completed on May 31, 2024.
+∗
+
+Theodore F. Figinski: Theodore.Figinski@treasury.gov. 1500 Pennsylvania Ave NW, Washington, DC 20220.
+Sydney Keenan: Sydney.Keenan@treasury.gov. 1500 Pennsylvania Ave NW, Washington, DC 20220.
+Richard Sweeney: Unaffiliated.
+Erin Troland: Erin.E.Troland@frb.gov. 20th Street and Constitution Avenue NW, Washington, DC 20551.
+
+1
+
+1. Introduction
+In response to the economic consequences of the COVID-19 pandemic, Congress created
+the Emergency Rental Assistance (ERA) program, a large, first-of-its-kind program designed to
+prevent evictions and improve housing stability. 1 In contrast to the forbearance relief programs
+for homeowners with mortgages, administering rental assistance presented greater
+implementation challenges. Mortgage servicers could build on existing processes to carry out
+forbearance programs. However, quickly distributing ERA funds to eligible renters required the
+federal government and state and local governments, which were ultimately responsible for
+distributing ERA funds, to rapidly build the program from the ground up. Together, these
+governments created new program rules and established new infrastructure to process
+applications and distribute funds. Given the novelty and size of ERA, it is important to
+understand whether ERA’s structure was effective in distributing ERA dollars to communities
+most at risk of eviction.
+We provide new evidence on the implementation of ERA by examining the fine-grained
+geographic distribution of ERA funds using administrative transactions-level data and the timing
+of ERA expenditures by state and local governments. To date, little research has been done on
+the geographic distribution of ERA dollars or the pace at which state and local governments
+spent their ERA funds. Treasury’s public reporting data provides spending at larger geographies,
+such as states, or by total spending by individual-level demographics such as race, ethnicity,
+gender, and income. However, within states and localities, the need for rental assistance is likely
+concentrated at much finer geographic levels, such as neighborhoods (Rutan and Desmond
+
+While ERA was two separate programs known as ERA 1 and ERA 2, for simplification purposes, in our analysis,
+we consolidate ERA 1 and ERA 2 and discuss the programs as a single program. ERA 1 was created as part of the
+Consolidated Appropriations Act, 2021; and ERA 2 was created as part of the American Rescue Plan Act of 2021.
+1
+
+2
+
+2021). Moreover, high concentrations of evictions in a given neighborhood can be de-stabilizing
+to the community and increase crime, in addition to the potential increased public health risks of
+COVID-19 transmission (Boshart 2023, Falcone 2022, Jowers et al. 2021). We use ERA
+transaction-level data at the census tract level to examine whether ERA funds reached
+communities that were likely at risk of eviction, an important factor when assessing the
+program’s effectiveness. 2 In addition, understanding how the timing of ERA spending interacted
+with other rental protections, such as eviction moratoria, is important for understanding how
+governments provided more comprehensive support to the rental market beyond rental assistance
+alone. For example, New Mexico’s state government started an eviction diversion program that
+included rental assistance after lifting its state eviction ban (Murph 2022). Future policymakers
+considering a program similar to ERA will likely consider, as they did in response to COVID-19,
+rental assistance as part of a larger set of rental protections implemented at the same time to
+alleviate rental distress.
+We have two main findings. First, ERA distributed more dollars per renting household to
+communities that were more likely to need ERA assistance. Second, ERA spending increased
+substantially around the expiration of the federal eviction moratorium and at a time when
+eviction filings were increasing.
+In examining the geographic distribution of ERA funds, we find that ERA distributed
+more dollars per renting household to census tracts with higher risk of eviction going into the
+pandemic: those with higher pre-pandemic eviction filing rates, poverty rates, shares of Black
+renting householders, shares of renting households with children, and shares of renting
+
+Census tracts are statistical subdivisions of counties containing between 1,200 and 8,000 people. We choose to
+conduct the analysis at the census tract level because census tracts are the smallest unit of analysis for which we
+have data on eviction filings, a key metric for measuring the reach of ERA.
+
+2
+
+3
+
+households headed by single mothers. Previous research has shown that low-income households
+and households with children were more likely to miss rent payments in 2021 and these
+demographic and economic composition of those behind on rent were similar before and after the
+pandemic began (Merchant and Troland 2023). Moreover, evictions tend to be geographically
+concentrated and persistent over time (Rutan and Desmond 2021). Therefore, our results indicate
+that ERA distributed more funds per renting household to communities with higher need.
+In our examination of the timing of ERA expenditures, we document two findings. First,
+we document that state and local governments accelerated ERA spending in the months prior to
+the end of the federal eviction moratorium, with spending peaking in the months following the
+end of the federal eviction moratorium in August 2021. Second, we document that eviction
+filings increased at the same time as ERA spending increased, suggesting it will likely be
+difficult to disentangle the causal effects of ERA on eviction filings from the effects of other
+rental protection policies.
+We build on previous work finding that communities in higher need had more ERA
+recipients and government capacity mattered for the pace of the distribution of ERA dollars. The
+closest study to ours is Hermann et al. (2023), who use restricted access Census Household Pulse
+survey data to examine the locations of recipients of pandemic-era rental assistance programs
+(combined federal state, and local) at the census tract level, finding that ERA applications and
+acceptance rates were highest in neighborhoods with the greatest economic distress as measured
+by lost employment income and missing rent payments. We also build on the work of the Office
+of Evaluation Science (2022), who show that Black renters, female renters, and renters with low
+incomes were overrepresented among ERA recipients as compared to their share of renters
+
+4
+
+eligible for ERA. 3 We expand upon this work because using administrative transactions-level
+ERA data allows us to (1) measure the amount of ERA dollars going into neighborhoods (rather
+than amount of ERA recipients in neighborhoods) and (2) measure federal ERA only rather than
+a combination of federal, state, or local emergency rental assistance programs. Moreover,
+because we examine direct estimates of census tract characteristics and ERA spending within
+census tracts, we can examine more characteristics, such as the presence of children in the
+household and the family structure of renting households, than previous studies. Our analysis
+examining the timing of ERA spending is related to the work of Kneebone and Underriner
+(2022) and Kneebone (2022), who show the importance of local government capacity in the pace
+of the distribution of ERA spending. Finally, our findings on the timing of ERA with other renter
+assistance cautions against causal analyses of ERA across jurisdictions, which builds on work
+that cautions against research comparing eviction filings across jurisdictions due to the complex
+variation in local administrative and legal regimes (Nelson, Garboden, McCabe, and Rosen
+2021).
+
+2. ERA: The Basics
+ERA provided a total of $45 billion to state governments (including the District of
+Columbia) and qualifying local governments with more than 200,000 people to increase housing
+stability and prevent evictions resulting from the economic consequences of the COVID-19
+
+Our work also explicitly links the findings of Hepburn et al. (2022) to the geographic distribution of ERA funds.
+Hepburn et al. (2022) show that census tracts with a majority of residents who are Black, census tracts with a
+majority of residents who are Hispanic, and census tracts with lower median incomes experienced the largest
+reduction in eviction filings in 2021 relative to the census tracts’ historical averages. One potential explanation
+Hepburn et al. (2022) cite for the reduction in eviction filings is the availability of ERA funds. However, Hepburn et
+al. (2022) only have aggregate ERA reporting data to support their argument. Because we use the fine-grained
+geographic data, we are able to directly link census tract characteristics to the amount of ERA funding received. We
+also build on the work of Hass et al. (2021), who show that eviction filings were lower in 2021 than the historical
+average and suggest that ERA may have been responsible for delaying some eviction filings.
+
+3
+
+5
+
+pandemic. 4 Nearly $24 billion in ERA funding was provided under the Consolidated
+Appropriations Act, 2021, enacted on December 27, 2020; another $21 billion in ERA funding
+was provided under the American Rescue Plan Act of 2021, enacted on March 11, 2021.
+Treasury provided most of the first $24 billion in ERA funding to state and local governments by
+the end of January 2021 and nearly all of the $21 billion by the end of June 2021. 5 According to
+Treasury’s monthly reporting data, by the end of March 2021, 41 states had at least one ERA
+program providing assistance to renting households.
+State and local governments were required to administer the ERA programs, establishing
+application procedures (in accordance with Treasury guidance), screening applications, and
+distributing their allocated funds to households. The application process varied across
+jurisdictions. Because most states contained at least one sub-state government that received a
+direct allocation from Treasury, renting households could potentially be eligible for multiple
+programs within the same state. Finally, state and local governments could provide assistance to
+renters who would pay landlords or provide the assistance directly to landlords who applied on
+behalf of their tenants.
+ERA was a substantial infusion of funding for rental assistance, nearly two thirds as large
+as the entire annual budget of the Department of Housing and Urban Development and nearly as
+large as all public housing and housing voucher programs combined. 6 If ERA had been evenly
+
+As noted above, for simplicity, we discuss ERA as one program even though ERA was distributed under two
+programs known as ERA 1 and ERA 2. The two programs provided $44.997 billion to state and local governments.
+An additional $1.505 billion of ERA funding was distributed to territorial and tribal governments. We do not
+consider these governments and funding in our analyses. ERA also included $0.048 billion in funding for Treasury
+administrative expenses and technical assistance.
+5
+Authors’ calculation using data from USAspending.gov, accessed on 05/04/2023.
+6
+In FY 2021, ERA funding was $44.997 billion; HUD’s total net budget authority was $69.380 billion. In FY 2021,
+tenant-based rental assistance provided $25.082 billion, project-based rental assistance provided $13.465 billion, and
+the public housing fund provided $7.806 billion for a total of $46.353 billion. See HUD’s FY 2023 Congressional
+Justification.
+4
+
+6
+
+distributed to all renting households, every renting household in America would have received
+approximately $1,033, nearly enough to cover one month’s worth of rent at the national median
+rent of $1,096. 7
+Nearly all of the ERA funding ($42.5 billion) was allocated to states and local
+governments based on population. 8 The remaining ERA funds ($2.5 billion) were allocated to
+the “high need” places with the most renters likely to qualify for ERA. The ERA allocation
+formula also included a small state minimum that resulted in the smallest population states
+receiving larger per capita allocations. Because the funds were primarily distributed based on
+population (which is not perfectly correlated with the renting population) and the existence of the
+small state minimum, there was substantial variation in the distribution of ERA funds per renting
+household (Figure 1) (otherwise the points would line up on a 45 degree line). Congress also
+incorporated a reallocation processes, which required Treasury to transfer unspent funds to state
+and local governments that had used a larger percentage of their funds.
+ERA assistance was primarily limited to low-income renting households. In general,
+households were eligible for ERA assistance if they met all three of the following conditions: (1)
+one or more individuals within the household had qualified for unemployment benefits or
+experienced a reduction in household income, incurred significant costs, or experienced other
+financial hardship due to or during the COVID-19 pandemic (directly or indirectly); (2) they
+demonstrated a risk of homelessness or housing instability; and (3) they had a household income
+
+According to the 2016-2020 American Community Survey (ACS) 5-year estimates, there were 43,552,843 renting
+households (Table S2502). Median gross rent from the 2016-2020 ACS 5-year estimates (Table B25064).
+8
+Qualifying local governments included county, city, and town governments. Qualifying local governments could
+elect to receive direct payments from the Department of the Treasury and implement their own ERA program. If a
+local government chose to receive a direct payment, it received 45 percent of its per capita share of the state’s total
+allocation.
+7
+
+7
+
+of less than 80 percent of area median income (AMI). 9 While households with incomes at or
+below 80 percent of AMI could qualify, the statute and Treasury guidance placed an emphasis on
+prioritizing those households that had less than 50 percent of AMI or households which included
+an individual who had become unemployed within 90 days of their ERA application. ERA funds
+could be granted for back rent, current rent, and prospective rent, and households were limited
+to receiving assistance for a maximum of 18 months of subsidized payments. Governments could
+also use a limited portion of ERA funds to support housing stability and eviction prevention
+services. 10 The degree to which programs invested funds in these services varied widely. Other
+governments also engaged with local eviction court systems to fast-track ERA applications for
+tenants with eviction filings, whether or not they also used ERA funds to invest in eviction
+diversion activities like legal aid or landlord-tenant mediation. 11
+Finally, it is important to note that ERA did not exist in isolation, but was part of a suite
+of rental protections and economic assistance designed to alleviate the economic consequences
+of the COVID-19 pandemic. A federal eviction moratorium, issued by the Centers for Disease
+Control (CDC), existed from September 4, 2020, until August 28, 2021, which some states
+enforced more strictly than others (Benfer and Koehler 2023). 12 The federal eviction moratorium
+prevented landlords from evicting tenants, who met income and hardship conditions, due to a
+
+To demonstrate a risk of homelessness or housing instability, Treasury’s FAQs noted that grantees had flexibility
+to establish criteria, but also lists a past due utility or rent notice or an eviction notice as examples that would meet
+the requirement. See FAQ #3 at https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-andtribal-governments/emergency-rental-assistance-program/faqs, accessed on 03/26/2024. AMI is calculated for each
+metropolitan and non-metropolitan area. AMI uses median family income to define the income limits rather than
+household income. More detail on AMI and how it was calculated for FY 2021 can be found here:
+https://www.huduser.gov/portal/datasets/il//il21/IncomeLimitsMethodology-FY21.pdf.
+10
+See, for example, https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribalgovernments/emergency-rental-assistance-program/promising-practices/housing-stability, accessed on 03/27/2024.
+11
+See, for example, https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribalgovernments/emergency-rental-assistance-program/promising-practices/eviction-diversion, accessed on 03/27/2024.
+12
+A prior federal eviction moratorium, enacted as part of the CARES Act, expired on August 24, 2020.
+9
+
+8
+
+failure to pay rent (McCarty, Carpenter, and Perl 2021). Additionally, many other state and local
+governments enacted eviction moratoria of their own and implemented supportive measures for
+renters, such as preventing utility shutoffs, preventing landlords from charging late fees,
+prohibiting landlords from reporting missed rental payments to credit bureaus, or granting
+tenants legal counsel at eviction proceedings (Benfer et al. 2022). Finally, in addition to
+providing ERA funding, the American Rescue Plan made substantial cash assistance available to
+households irrespective of their eligibility for ERA. 13 For example, a family of four with two
+children under the age of six and 2020 income less than the poverty line ($26,500) would have
+received $5,600 from the third round of Economic Impact Payments (EIP) and $3,200 from the
+enhancement to the Child Tax Credit (CTC), half of which was delivered as monthly checks
+between July and December 2021. 14 As a result, if the example family was paying median rent
+($1,096), the EIP and CTC would have been sufficient to cover eight months of rent even in the
+absence of ERA. 15
+
+3. Analysis: Geographic Distribution of ERA Dollars
+A key question about the effectiveness of the ERA program is whether the funds reached
+communities that were likely to be at risk of eviction. Because ERA was a first-of-its-kind
+program that required the federal government and the state and local governments to work
+together to quickly establish new programs rules and distribute funds, there was no guarantee
+that the program would deliver funds to the neediest households. In this section, we describe the
+communities that received more ERA funding per renting household and find that higher-need
+
+ERA 2 provided a total of $21.55 billion – $18.712 billion to state and local governments, $2.5 billion to highneed state and local governments, $0.305 billion to territorial governments, $0.03 billion for Treasury administrative
+technical support to grantees, and $0.003 billion to Treasury’s Office of the Inspector General for oversight.
+14
+Additionally, Unemployment Insurance provided an additional $300 per week between March and August 2021.
+15
+Median gross rent from the 2016-2021 ACS 5-year estimates (Table B25064).
+13
+
+9
+
+census tracts received more funding per renting household than lower-need census tracts.
+3.1 Geographic Distribution Analysis: Data and Methods
+To examine the geographic distribution of ERA funds, we combine administrative
+transaction-level data on the location and amount of ERA spending with demographic and other
+community characteristics. Specifically, we use the U.S. Department of the Treasury’s ERA
+transaction-level data to determine the amount of ERA funds distributed to each census tract and
+the American Community Survey (ACS) 2016-2020 5-year estimates (via IPUMS NHGIS) to
+determine the characteristics of various census tracts (Manson et al. 2022).
+The ERA transaction-level data are designed to include every ERA transaction from
+grantees (state and local governments) to eligible renters. 16 These data contain detailed
+information on the address of the ERA recipient and the amount of ERA spending. 17 For this
+analysis, we use data from January 2021 through June 2023. The transaction-level data
+represents all the total transactions from January 2021 through June 2023 reported to Treasury by
+state and local governments as of February 2024 in the most recent data available to us. It is
+important to note that grantees will continue submitting ERA data through 2025 and may revise
+previously reported transactions.
+The transaction-level data are the best available data to study the distribution of ERA at
+
+The transaction-level data we refer to are Treasury’s Participant Household Payment Data File (PHPDF). (The
+Office of Capital Access provided the PHPDF to the Office of Economic Policy for this project.) Specifically, we
+use Treasury’s PHPDF from the ERA 1 closeout report (as of August 2023) and the reported ERA 2 transactions
+contained in the quarterly PHPDF reporting files from the first quarter 2023 (as of August 2023) and the second
+quarter 2023 (as of October 2023). As of the first quarter of 2023, the ERA 2 PHPDF quarterly files were
+cumulative files containing transactions from April 2021 through the end of the quarter. Because not all state and
+local governments (grantees) provide cumulative reporting files for both the first and second quarter of 2023, we
+rely on transactions reported in the most recent file submitted by grantees.
+17
+The ERA 1 closeout report transactions and ERA 2 transactions from reports submitted in the second quarter of
+2023 were geocoded using the Census Geocoder. The ERA 2 transactions from grantees who submitted a report in
+the first quarter of 2023 but not the second were geocoded by HUD. Approximately, 10 percent of all transactions,
+containing approximately 10 percent of all funds, cannot be matched to a valid census tract.
+16
+
+10
+
+fine levels of geography. The transaction-level data do not contain a perfect match with the total
+spending that grantees reported in Treasury’s Emergency Rental Assistance Quarterly Reporting
+Data (the aggregate reporting data) between the first quarter of 2021 and the second quarter of
+2023. 18 Over- or under-reporting in the transaction-level data may lead to dollars being reported
+in a non-random way, which would bias our findings. For example, if ERA transactions are overreported for census tracts with many high-eviction risk households, that would drive some or all
+of our findings that ERA dollars reached the communities with the highest percentage of renters
+at risk of eviction. Fortunately, each state’s aggregate share in transaction-level and aggregate
+share in the reporting data appear similar, indicating there is little evidence of systematic
+reporting bias of ERA spending that would bias our findings. 19 (See Appendix A for more
+detail.) Additionally, we note that even with the potential limitations of the transaction-level
+data, no other data exists nationally containing the fine-grained geography of ERA spending.
+To clean the transaction-level data, we drop duplicate transactions submitted to Treasury
+(about six percent of transactions and three percent of funds in the transaction-level data) and
+
+For ERA 1, grantees were required to submit quarterly reports known as the Department of Treasury’s Emergency
+Rental Assistance Program Interim Reports. As of December 7, 2023, the ERA 1 Q1 2021 through Q4 2022 data are
+available at https://home.treasury.gov/system/files/136/Q1-2021-Q4-2022-ERA-Demographic-Data.xlsx. For ERA
+2, grantees were required to submit cumulative spending reports each quarter, known as the U.S. Department of the
+Treasury Emergency Rental Assistance Program (ERA2) Interim Report. As of December 7, 2023 the ERA 2
+Cumulative Program Data: Q2 2021 to Q2 2023 are available at https://home.treasury.gov/policyissues/coronavirus/assistance-for-state-local-and-tribal-governments/emergency-rental-assistanceprogram/reporting.
+19
+As we discuss in Appendix A, for all states, the absolute difference between each state’s aggregate share in
+transaction-level and aggregate share in the reporting data is less than three percentage points after we apply a
+correction to one state that has a more than a 10-percentage point difference between its share in the transactionlevel and the share in the aggregate reporting data. The 10-percentage point different appears to be driven by
+apparent anomalies in at least a subset of the reported transactions from one government. Moreover, as we note in
+Appendix A, because grantees will continue to submit ERA reporting data through at least 2025, which may result
+in some grantees revising their transaction-level data. Finally, we note that some grantees have yet to provide any
+transaction-level data. Slightly more than 10 percent of grantees report no transaction-level data. These grantees
+account about 10 percent of all funds in the aggregate reporting data. The transaction-level data for grantees
+currently reporting no transaction-level data will likely be available in the future. In order for grantees who have yet
+to report any transaction-level data to bias our results, their spending would have to be in the opposite direction of
+other grantees, which seems unlikely given the aggregate reporting.
+18
+
+11
+
+transactions from one grantee with apparent data anomalies. 20
+We combine the ERA transaction-level data with the ACS 5-year estimates at the census
+tract level that are associated with higher risk of eviction. These measures are the poverty rate,
+the share of renting householders who are non-white or who are Hispanic, the share of renting
+households with children under age 18, the share of renting households that are headed by single
+mothers, and the median monthly rent. While the ACS 5-year estimates contain many more
+characteristics which we could have examined, we believe the metrics we have chosen best
+proxy for ERA need.
+Previous research has shown that lower income and the presence of children in the
+household were most predictive of missing rent payments in 2021 (Merchant and Troland 2023).
+Because missing rent payments is a strong indication of need for ERA, these characteristics are
+likely to be important indicators of whether ERA funding reached those most at risk of eviction.
+Other research has shown that family size is an important predictor of evictions (Desmond and
+Gershenson 2017).
+To further explore the distribution of ERA funds to communities that may have higher
+levels of rental distress even in the absence of the economic consequences of the COVID-19
+pandemic, we use, to our knowledge, the only census tract level data on eviction filings from the
+Eviction Lab, which includes data for census tracts from 2000 to 2018 (Gromis et al. 2022). 21 To
+determine the level of eviction filings prior to the pandemic, we calculate the average eviction
+20
+We also remove any transaction in the transaction-level data that are from non-state or local government grantees
+(three percent of all transactions, approximately one percent of all funds), any transaction that is matched to a census
+tract for which the ACS has no data (approximate zero percent of all transactions and funds), and, as noted in a prior
+footnote, any transaction that could not be geocoded (ten percent of all transactions and all funds). Most of our
+analysis limits the data to census tracts with at least one renting household, which requires dropping a very small
+number of transactions and funds. Finally, we note that relaxing our sample constraints has no effect on our results
+other than to slightly change the scale.
+21
+We utilize the tract_proprietary_valid_2000_2018.csv file available at https://datadownloads.evictionlab.org/#data-for-analysis/ (access on 10/23/2023).
+
+12
+
+filings for each census tract for 2015 to 2018. 22 We focus on 2015-2018 to avoid including the
+effects of the Great Recession, and refer to this period as the pre-pandemic. It is important to
+note that, the eviction filings are only available for at least one year between 2015 and 2018 for
+about 60 percent of all census tracts. 23 Moreover, the Eviction Lab documentation notes that
+these data are from a proprietary source. As a result, the data may not contain a random sample
+of all renters.
+We analyze the relationship between ERA spending and demographic characteristics
+correlated with the need for assistance across census tracts. We sort census tracts by the relevant
+census tract characteristics (e.g., poverty) and divide census tracts into deciles such that there are
+an equal number of renting households in each decile; then, we calculate, for example, the share
+of the population of the census tracts living below the poverty threshold in each decile and the
+amount of ERA funds per renting household in each decile. We then plot the deciles and their
+funding per renting household to examine the relationship between the particular characteristic
+and the ERA funds per renting household. 24
+3.2 Geographic Distribution: Results
+Our findings indicate that ERA reached areas and households that were most likely to
+need ERA assistance. Figures 2 through 8 show the relationship between ERA funds per renting
+household and each decile’s characteristics.
+We find that census tracts with the highest pre-pandemic eviction rate received $475
+22
+The pattern we observe below holds if we use eviction filings from 2000 to 2018. Additionally, we note that some
+tracts are missing from the Eviction Lab data, while others are included in the data but have no data for eviction
+filings. According to the Eviction Lab, those with missing data are missing, not tract-year observations with zero
+evictions.
+23
+The 40 percent of census tracts that are missing from the eviction filings data receive about 30 percent of ERA
+funds reported in the transaction-level data, have a smaller share of renting households, and have similar
+distributions of the other variables (e.g., poverty rate, share with kids, and share that are single mothers) that we
+study to the 60 percent of tracts that have eviction filings data.
+24
+Note that these calculations are for all renting households in a census tract, not eligible renting households.
+
+13
+
+more per renting household than those census tracts with the lowest pre-pandemic eviction rate
+(see Figure 2). This is the strongest evidence that ERA provided more funds to households in
+communities at the highest risk of eviction. If evictions are geographically concentrated and that
+persistence is consistent over time, as prior research, Rutan and Desmond (2021), suggests, then
+our finding that more ERA funds per renting household were delivered to areas with higher prepandemic eviction filing rates indicates that ERA funds went to areas that were more likely to
+experience rental distress even absent the pandemic’s economic consequences.
+When we examine the relationship between poverty and ERA spending, we find that
+more impoverished census tracts received more ERA funding per renting household. Census
+tracts in the highest decile of poverty (42.1 percent) received about $200 more per renting
+household than census tracts in the lowest decile of poverty (2.5 percent) (see Figure 3). 25
+Providing an additional $200 from ERA to households in census tracts in the highest poverty
+decile covered nearly one-quarter of the median gross rent for those households. Moreover,
+census tracts in the four highest deciles of poverty received ERA funds per renting household
+greater than the average ERA payment per renting household of about $570 (the dashed line in
+the graphs).
+Though ERA required renters to have incomes less than 80 percent AMI, whether ERA
+
+Because we use the poverty rate for all households within the census tract, Figure 3 may somewhat understate the
+targeting because renting households are more likely to have incomes below the poverty line than owner-occupied
+households – 21 percent have incomes below the poverty line compared to four percent of owner-occupied
+households (Source: Table B17019 using American Community Survey 5-year estimates 2016-2020). An alternative
+approach is to calculate the funds per household, as in Figure A.1. When we use funds per household, households in
+the highest poverty decile (36.3 percent) received approximately $350 more per household than those in the lowest
+poverty decile (1.7 percent). Another alternative approach is to calculate the poverty rate for renting households
+within the census tract. Unfortunately, the Census Bureau’s published estimates of poverty for renting households
+exclude non-family households (i.e., a household that consists of a householder living alone or where the
+householder shares the home exclusively with people to whom he/she is not related), which account for half of all
+renting households (see Table B25115). While recognizing this limitation, Figure A.2 uses the poverty status of
+renting households and displays a similar pattern – the highest poverty decile (57.5 percent) received approximately
+$125 more per renting household than those in the lowest poverty decile (3.5 percent).
+25
+
+14
+
+reached households living under the federal poverty threshold is an empirical question.. Because
+the poverty thresholds are substantially lower than the ERA income eligibility threshold, our
+finding that more funds per renting household were delivered to high poverty census tracts
+suggests ERA funding went to households with the lowest incomes, even lower than required by
+statute. Consider a four-person family in the most populated county in the U.S. and the county
+with the most renting households in the U.S., Los Angeles County, CA. In 2021, 80 percent AMI
+was $94,600, and the threshold for the official poverty measure was $27,479. 26 While ERA
+placed an emphasis on prioritizing those households that had less than 50 percent of AMI, 50
+percent AMI ($59,100) still greatly exceeds the poverty threshold for a family of four in Los
+Angeles County. As a result, a significant share of the population was eligible for ERA even
+though their income exceeded the poverty line.
+Similar to our poverty finding, census tracts in the decile with the highest share of renting
+householders who are Black receive nearly $575 more per renting household than those in the
+decile with the lowest share of renting householders who are Black (see Figure 4). By providing
+more ERA funds per renting householders to census tracts that have a higher share of Black
+renting householders, ERA targeted households that were more likely to be at risk of eviction.
+Black renters are disproportionately more likely to experience eviction filings, while other nonwhite renters face eviction filings rates comparable to those of white renting households (Graetz
+et al. 2023; Lodermeier 2023). As a result, by delivering higher ERA payments per renting
+households to census tracts with higher shares of Black renting households, ERA was essentially
+
+The poverty threshold is the Census Official Poverty Threshold for a family of four with two children under age
+18 for calendar year 2021 (available at https://www2.census.gov/programs-surveys/cps/tables/time-series/historicalpoverty-thresholds/thresh21.xlsx). The AMI income limits are for fiscal year 2021 (available at
+https://www.huduser.gov/portal/datasets/il.html). If we used the county with the fewest renting households, Terrell
+County, TX, households with incomes greater than the poverty line would still be eligible for ERA. In Terrell
+County, the 80 percent of AMI was $48,700 and the 50 percent of AMI was $30,450.
+26
+
+15
+
+targeting households and areas that were likely to experience higher rates of evictions.
+When we examine the relationship between the share of the population in a census that is
+Hispanic and the ERA funds per renting household, we find essentially no relationship, with $75
+differentiating the lowest and highest deciles of the share of renting householders who are
+Hispanic (see Figure 5). One potential explanation for the divergent funds per renting household
+for Black and Hispanic census tracts is that Hispanic renters had less access to ERA potentially
+because of a language barrier. When we group census tracts by the share of households speaking
+Spanish at home, we find little evidence of a language barrier preventing Spanish-speaking
+households from accessing ERA. 27 In fact, we find that as the share of households speaking
+Spanish at home increases, the amount of ERA funds per renting household increases as well,
+with the highest decile of speaking Spanish at home receiving about $200 more per renting
+household than those in the lowest decile of speaking Spanish at home (see Figure A.3).
+When we turn our attention to renting households with children and renting householders
+who are single mothers, we find that census tracts with a larger share of renting households with
+children and a larger share of renting households headed by a single mother receive more than
+$300 more per renting household than census tracts with the lowest shares (see Figures 6 and 7).
+Finally, we find that the relationship between median rent and ERA funds per renting
+household received by various census tracts exhibits an inverted U-shape pattern, where the ERA
+funds per renting household rise from the lowest average median rent census tracts, peaking
+
+27
+We focus on households that speak Spanish at home because these households account for nearly 62 percent of all
+households that do not speak English at home (see Table S1601). Other Indo-European languages and Asian and
+Pacific Island languages each account for approximately 17 percent of all household that do not speak English at
+home. As a result, any analysis attempting to examine languages spoken at home other than Spanish would result in
+a large number of deciles being grouped at or near zero. However, anecdotal evidence suggests that many ERA
+grantees proactively engaged in outreach activities in an effort to reduce language barriers in accessing ERA
+programs (see https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribalgovernments/emergency-rental-assistance-program/promising-practices/outreach).
+
+16
+
+around the national median rent of $1,096, then fall again (see Figure 8). The inverted U-shape
+pattern suggests two competing forces. First, the higher the rent, the more dollars of back rent
+tenants might owe, which leads to increasing ERA funds being distributed to households in these
+areas. Second, higher rents are likely correlated with higher income, making it less likely that
+renters would be eligible for ERA assistance.
+Our results indicate that ERA implementation was largely successful in reaching those
+communities that were most likely to be at risk of eviction. By delivering more funds to renting
+households in census tracts with higher poverty rates, higher shares of non-white individuals,
+higher shares of households with children, and higher pre-period eviction filing rates, ERA likely
+reached those that were most at risk of eviction. Moreover, our results using administrative data
+on ERA spending and census tract characteristics are consistent with analysis using survey data
+on the share of ERA recipients (Hermann et al. 2023).
+
+4. Analysis: Timing of ERA Spending
+Another key to understanding the implementation of ERA is understanding the pace at
+which state and local governments spent their ERA funds and how the spending of ERA dollars
+responded to other changes in rental protections implemented in response to the economic
+consequences of the COVID-19 pandemic. In this section, we document two findings about the
+timing of ERA spending. First, we show that ERA spending accelerated in June 2021, ahead of
+the expected expiration of the federal eviction moratorium, and reached its peak in November
+2021. Second, we show that eviction filings began increasing at around the same time that ERA
+expenditures increased, potentially a consequence of the elimination of the eviction moratorium.
+4.1 Timing of ERA: Data
+We use the U.S. Department of the Treasury’s Emergency Rental Assistance Monthly
+17
+
+Compliance Reports to examine the timing of ERA spending. According to Treasury’s
+Emergency Rental Assistance Program Guidance, ERA grantees (i.e., state or local governments
+that received an ERA award from Treasury) were required to report the monthly total dollar
+amount of ERA award funds paid to participating households for rent, rental arrears, and utilities.
+The spending data are available on a monthly basis through June 2022. 28 We calculate the share
+of total ERA funds spent in each month by dividing total monthly ERA spending by the initial
+total ERA allocations. 29
+To examine how state and local government ERA spending responded to the number of
+eviction filings, we use the Eviction Lab’s Eviction Tracking System (ETS) data (Hepburn,
+Louis, and Desmond 2020). We use the monthly eviction filings within each of the 10 states with
+complete coverage of the state that are included in the ETS data. 30 We note that while the ETS
+data are not a random sample of all renters, the data are one of the few sources for tracking
+
+28
+June 2022 was the last month for which ERA grantees were required to provide monthly reporting. In the monthly
+reporting data, ERA 1 expenditures are available on a monthly basis from April 2021 through June 2022; ERA 2
+expenditures are available on a monthly basis from July 2021 through June 2022. For the ERA 1 spending from
+January 2021 to March 2021, which is reported in an aggregated category, we assume all the ERA 1 expenditures
+occurred in January 2021. Similar to ERA 1, ERA 2 expenditures for April 1 through June 30, 2021 are included in
+an aggregated category. In the case of ERA 2, we assume constant spending in the three months by each grantee and
+divide the total reported ERA 2 expenditures by three. This assumption is likely to have little effect on the findings
+as ERA 2 expenditures represented only 14 percent of total ERA expenditures between April 1 through June 30,
+2021.
+29
+Data for ERA initial allocations for ERA 1 come from Treasury’s November 2021 ERA Monthly Compliance
+Reporting; for ERA 2, the data on allocations come from Treasury’s June 2022 ERA Monthly Compliance
+Reporting. In both cases, these allocations include any dollars returned to Treasury under the ERA reallocation
+provisions and exclude additional dollars received by governments through reallocation. We include dollars that
+were ultimately returned to Treasury because these dollars could have been used by the grantee. We exclude
+reallocation dollars as grantees likely had limited capacity to anticipate the amount of reallocation dollars.
+30
+The 10 states with complete eviction filing data are Connecticut, Delaware, Indiana, Minnesota, Missouri, New
+Mexico, Pennsylvania, Rhode Island, Virginia, and Wisconsin. Based on data from the 2016-2020 5-year American
+Community Survey, the 10 states for which Eviction Lab has complete eviction filing data contain about 16 percent
+of the total population and 15 percent of the total population living in rental housing, but have a slightly lower share
+of their population living in rental housing (32 percent compared to 34 percent) compared to non-Eviction Lab
+states. Additionally, the 10 states for which Eviction Lab has complete eviction filing data had a higher average
+Eviction Lab COVID-19 Housing Policy Scorecard, which is one measure of whether state governments are more or
+renter friendly. Finally, the 10 states for which Eviction Lab has complete eviction filing data had longer average
+and median eviction moratoria, lasting, on average, 29 days longer (and 33 days at the median) longer than states
+without complete Eviction Lab data (authors’ calculation using Benfer and Koehler (2023)).
+
+18
+
+eviction filings.
+4.2 ERA Spending Accelerated as the Federal Eviction Moratorium Expired
+As the end of the federal eviction moratorium approached in August of 2021, ERA
+spending rapidly increased and peaked in the months following the end of the moratorium (see
+Figure 9). In June 2021, ERA spending nearly doubled from May 2021, rising from
+approximately $914 million to approximately $1.718 billion. The rise in ERA spending occurred
+with the expected end of the federal eviction moratorium. The first increase in ERA spending
+occurred in June 2021, when after a series of extensions, the CDC’s eviction moratorium was
+scheduled to expire on July 1, 2021, until it was extended through July 31 on June 28 (CDC
+2021). A second increase in ERA expenditures occurred in the same month the Supreme Court
+voided the federal eviction moratorium, August 2021. In August 2021, state and local
+governments spent slightly more than $2.5 billion in ERA rental assistance. Compared to July
+2021, ERA expenditures increased by approximately 44 percent, after remaining relatively flat
+between June 2021 and July 2021, when ERA expenditures increased by only two percent (see
+Figure 9). ERA spending then remained above August 2021 levels through November 2021,
+before beginning to decline (see Figure 9). Nearly a quarter of all ERA dollars were spent
+between August 2021 and November 2021, which coincides with the periods immediately
+following the expiration of the federal eviction moratorium.
+We believe that there could be at least three potential mechanisms for the increase in
+ERA spending. First, state and local governments could have increased ERA spending in
+response to an increase in evictions resulting from the end of the federal eviction moratorium.
+While the federal eviction moratorium prevented landlords from evicting renters, it did not
+eliminate rent or the accumulation of back rent. As a result, one estimate suggested that, at the
+19
+
+time, 1.3 million renters were behind on rent and owed $7.2 billion in back rent, utilities, and
+late fees (Reed and Divringi 2020). It seems reasonable that state and local governments may
+have responded by increasing ERA spending and timed ERA expenditures to periods when ERA
+dollars would be the most impactful in preventing evictions. 31 This mechanism suggests a
+substitution between rental assistance and other renter protections.
+Second, the rapid increase in ERA spending could also have resulted from grantees
+responding to pressure to spend ERA funds more quickly. Grantees that were slow to spend ERA
+funding faced criticism from advocacy groups to quicken the pace of ERA spending to qualified
+households. 32 In response, these grantees may have increased spending rapidly. The increase in
+ERA spending could have also been driven by certain states and local governments that may
+have been particularly responsive to pressure applied by the White House and the Department of
+the Treasury. 33 State and local governments may have responded to the reallocation pressures,
+which required grantees to spend a certain amount of funds prior to the September 30, 2021
+deadline, or face the possibility of having unspent funds redistributed to other grantees.
+Third, it could have simply taken six to eight months to appropriately set up new systems
+and infrastructure to process and make payments to eligible renters. As a result, the length of the
+implementation period may have coincided with the end of the federal eviction moratorium.
+The reasons for why state and local governments increased spending may have varied
+across governments. Further research into the mechanism behind the increase in ERA spending
+would provide valuable insight to policymakers as they consider future rental assistance
+
+For a discussion of the various prominent estimates of the number of households behind on rent and the amount
+those household owed in back rent in January 2021, see Goodman, Reynolds, and Choi (2021).
+32
+For example, see Thrush and Dougherty (2021), which discussed the slow flow of ERA aid and criticism from
+housing advocates about the pace and design of the ERA program.
+33
+See, for example, https://home.treasury.gov/news/press-releases/jy0245, https://home.treasury.gov/news/pressreleases/jy0294, and https://home.treasury.gov/news/press-releases/jy0333.
+31
+
+20
+
+programs and how best to structure rental assistance spending.
+4.3 ERA Spending Increased as Eviction Filings Increased
+ERA spending was trending upwards at approximately the same time as eviction filings
+were increasing (Figure 10). While the simultaneous increase in eviction filings and ERA
+spending likely provides justification for the ERA program, it also makes causal inference of
+ERA difficult. Any empirical analysis of ERA’s effects on eviction filings, actual evictions,
+and/or other measures of housing stability would include data from at least March 2020, the
+onset of the pandemic followed by a variety of other economic assistance programs. ERA, along
+with programs like extended unemployment benefits and stimulus payments, was part of a series
+of rental protections and economic assistance designed to keep people in their homes and
+alleviate the economic consequences of the COVID-19 pandemic. As a result, an empirical
+analysis attempting to exploit the differences in timing of ERA spending or program
+implementation across grantees or geography will likely find that ERA spending is associated
+with an increase, rather than a decrease, in eviction filings. However, other factors likely caused
+the steady increase in eviction filings that began in early 2021, such as, the end of state and
+federal eviction bans and the expiration of other cash assistance programs over the course of the
+year. Therefore, researchers should use caution when trying to use the variation in the
+implementation of ERA and the timing and amount of ERA spending as many other renter
+protections and economic assistance programs existed at various levels of government that also
+likely influenced ERA spending and outcomes for households.
+
+5. Conclusion
+ERA provided nearly $45 billion to prevent evictions and increase housing stability
+during the pandemic. We provide new evidence on the implementation of ERA showing that
+21
+
+ERA was largely successful in reaching those communities that were most likely to be at risk of
+eviction, providing more funds to census tracts with higher pre-pandemic eviction filing rates,
+poverty rates, shares of non-white individuals, shares of renting households with children, and
+shares of renting households that are single mothers. In addition, we document two facts about
+the timing of ERA spending. First, we show that ERA spending accelerated in the months just
+prior to the end of the federal eviction moratorium and peaked in the months after the end of the
+federal eviction moratorium. Second, we show that eviction filings increased as ERA
+expenditures increased, which complicates causal inference of ERA’s effect on eviction filings.
+Researchers should use caution when trying to estimate the impact of ERA using the variation in
+the timing of the implementation of and amount of ERA spending across governments due to the
+concurrent expiration of many federal and state eviction protections and variations of those
+protections across the country.
+
+22
+
+References
+Benfer, Emily, and Robert Koehler. 2023. Eviction Moratoria & Housing Policy: Federal, State,
+Commonwealth, and Territory. Ann Arbor, MI: Inter-university Consortium for Political
+and Social Research [distributor]. https://doi.org/10.3886/E157201V2.
+Benfer, Emily, Robert Koehler, Alyx Mark, Valerie Nazzaro, Anne Kat Alexander, Peter
+Hepburn, Danya E. Keene, and Matthew Desmond. “COVID-19 Housing Policy: State
+and Federal Eviction Moratoria and Supportive Measures in the United States During the
+Pandemic.” Housing Policy Debate.
+Boshart, Abby. 2023. “How Eviction Affects Neighborhoods.” Housing Matters. Urban Institute.
+Center for Disease Control and Prevention (CDC). 2021. “Temporary Halt in Residential
+Evictions to Prevent the Further Spread of COVID-19.” 86 FR 34010: 34010-34018
+(June 28, 2021).
+Desmond, Matthew, and Carl Gerhenson. 2017. Who Gets Evicted? Assessing Individual,
+Neighborhood, and Network Factors. Social Science Research 62:362-377.
+Falcone, Stefano. 2022. Do Evictions Increase Crime? Evidence from Nuisance Ordinances in
+Ohio. Barcelona School of Economics Working Paper.
+Goodman, Laurie, Kathryn Reynolds, Jung Hyun Choi. 2021. “Many People are Behind on Rent.
+How Much Do They Owe?” Urban Institute Urban Wire. February 24, 2021.
+https://www.urban.org/urban-wire/many-people-are-behind-rent-how-much-do-they-owe.
+Gromis, Ashley, Ian Fellows, James R. Hendrickson, Lavar Edmonds, Lillian Leung, Adam
+Porton, and Matthew Desmond. 2022. Estimating Eviction Prevalence across the United
+States. Princeton University Eviction Lab. https://datadownloads.evictionlab.org/#estimating-eviction-prevalance-across-us/. Deposited May
+13, 2022.
+Graetz, Nick, Carl Gershenson, Peter Hepburn, Sonya Porter, Danielle H. Sandler, Matthew
+Desmond. 2023. A Comprehensive Demographic Profile of the US Evicted Population.
+Proceedings of the National Academy of Sciences, 120:40.
+Hass, Jacob, Jasmine Rangel, Juan Pablo Garnham, and Peter Hepburn. 2021. “Preliminary
+Analysis: Eviction Filing Trends After the CDC Moratorium Expiration.” Eviction Lab
+Updates. December 9, 2021. https://evictionlab.org/updates/research/eviction-filingtrends-after-cdc-moratorium/
+Hepburn, Peter, Olivia Jin, Joe Fish, Emily Lemmerman, Anne Kat Alexander, and Matthew
+Desmond. 2022. “Preliminary Analysis: Eviction Filing Patterns in 2021.” Eviction Lab
+Updates. March 8, 2022. https://evictionlab.org/us-eviction-filing-patterns-2021/.
+23
+
+Hepburn, P., Louis, R., & Desmond, M. 2020. Racial and gender disparities among evicted
+Americans. Sociological Science, 7, 649-662.
+Hermann, Alexander, Sophia Wedeen, Whitney Airgood-Obrycki, and Christopher Herbert.
+2023. “The Geography of Renter Financial Distress and Housing Insecurity During the
+Pandemic.” Joint Center for Housing Studies of Harvard University.
+Jowers, Kay, Christopher Timmins, Nrupen Bhavsar, Qihui Hu, and Julia Marshall. 2021.
+“Housing Precarity & the COVID-19 Pandemic: Impacts of Utility Disconnection and
+Eviction Moratoria on Infections and Deaths Across US Counties.” NBER Working
+Paper 28394.
+Kneebone, Elizabeth. 2022. “Building Local Institutional Capacity: Lessons Learned from the
+Emergency Rental Assistance Program.” UC Berkley Terner Center for Housing
+Innovation. Housing Crisis Research Collaborative.
+Kneebone, Elizabeth, and Quinn Underriner. 2022. “An Uneven Housing Safety Net: Disparities
+in the Disbursement of Emergency Rental Assistance and the Role of Local Institutional
+Capacity.” UC Berkley Terner Center for Housing Innovation. Housing Crisis Research
+Collaborative.
+Lodermeier, Alison. 2023. Racial Discrimination in Eviction Filing. Working Paper.
+Manson, Steven, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Riggles. 2022.
+IPUMS National Historical Geographic Information System: Version 17.0 [dataset].
+Minneapolis, MN: IPUMS. 2022. http://doi.org/10.18128/D050.V17.0.
+McCarty, Maggie, David Carpenter, and Libby Perl. 2021. “The CDC’s Federal Eviction
+Moratorium.” Congressional Research Service Insight.
+https://crsreports.congress.gov/product/pdf/IN/IN11673#:~:text=The%20CDC%20extend
+ed%20the%20initial,of%20COVID%2D19%20community%20transmission.
+Murph, John. 2022. “An Eviction Crisis May Have Been Averted, But Experts Say Lingering
+Issues Remain.” Duly Noted: The D.C. Bar Blog, DC Bar, September 30, 2022,
+https://www.dcbar.org/news-events/publications/d-c-bar-blog/an-eviction-crisis-mayhave-been-averted,-but-expe.
+Nelson, Kyle, Philip Garboden, Brian J. McCabe, and Eva Rosen. 2021. Evictions: The
+Comparative Analysis Problem. Housing Policy Debate: 31 pp. 3-5, 696-716, DOI:
+10.1080/10511482.2020.1867883.
+Office of Evaluation Sciences. 2022. “Equity in the Distribution of the Emergency Rental
+Assistance Program: A Descriptive Study of Equity in the First-Ever Nationwide
+Eviction Prevention Program.” https://oes.gsa.gov/assets/abstracts/2113B-era-descriptivestudy-abstract.pdf.
+24
+
+Reed, Davin, and Eileen Divring. 2020. “Household Rental Debt During COVID-19.” Federal
+Reserve Bank of Philadelphia. https://www.philadelphiafed.org//media/frbp/assets/community-development/reports/household-rental-debt-during-covid19.pdf.
+Thrush, Glenn and Conor Dougherty. 2021. “Why $46 Billion Couldn’t Prevent an Eviction
+Crisis.” New York Times. September 10, 2021.
+Wedeen, Sophia. 2021. Black and Hispanic Renters Face Greatest Threat of Eviction in
+Pandemic. Joint Center for Housing Studies. https://www.jchs.harvard.edu/blog/blackand-hispanic-renters-face-greatest-threat-eviction-pandemic.
+
+25
+
+Appendix A: Data Comparison
+A.1 Comparison of the Share of ERA Spending in the Transaction-Level and the Quarterly
+Reporting Data
+To judge the representativeness of the transaction-level data, we compare each state’s
+share of total spending in the transaction-level data to its share of total spending as reported in
+Treasury’s Emergency Rental Assistance Quarterly Demographic Data reporting for ERA 1 and
+the ERA 2 Cumulative Program Data. We refer to these reporting data sources here as the
+aggregate reporting data. We use data from the aggregate reporting from the first quarter of 2021
+through the end of the second quarter of 2023. As noted in the primary text, the transaction-level
+data total spending does not perfectly match the total spending reported in the quarterly reporting
+data. By comparing each state’s relative share of the total spending in the transaction-level data
+to the share of total spending in the aggregate reporting data, we can judge whether any state is
+over- or under-represented in the transaction-level data.
+For 44 states, the absolute difference between (1) the state’s share of the total in the
+transaction-level data and (2) the state’s share of the cumulative spending through the end of the
+second quarter of 2023 is less than one percentage point. Another four states have an absolute
+difference between their aggregated reporting shares of more than one percentage point, but less
+than two percentage points. Finally, three states have differences in their aggregated reporting
+shares greater than two percentage points. Two of these states have absolute differences between
+their share of the transaction-level data and their share of the aggregate reporting data that is less
+than 2.5 percentage points. The third state’s share of the transaction-level data is a greater than
+10 percentage points larger than its aggregate reporting share.
+The large expenditure difference for the state that has more than a 10 percentage point
+difference between its share in the transaction-level and the aggregate reporting data appears to
+26
+
+be driven by apparent anomalies in at least a subset of the reported transactions from one
+government, whose aggregate reporting in the transaction-level data do not align with its ERA
+allocation.
+Because we cannot precisely identify the issue with the transaction-level data reporting
+from the one problematic government, we chose to drop those transactions from the relevant
+government, representing approximately one percent of all transactions containing about 10
+percent of all funds, from the sample. Once we remove the transactions from the one problematic
+government, the absolute difference between the share of the total in the transaction-level data
+and share of the aggregate spending data for all states is less than three percentage points.
+Similarly, if we compare the cumulative quarterly reporting share to the transaction-level
+share at the grantee level rather than the aggregated state level, we find similar results. Nearly 99
+percent of the grantees have absolute differences of less than one percent between their funding
+shares in the quarterly reporting and the transaction-level data.
+Nevertheless, while the cumulative quarterly reporting share and the transaction-level
+shares are similar at the grantee and state level, we note that there are non-trivial differences
+between the expenditure total reported in the cumulative aggregate reporting data and the
+expenditure total reported in the transaction-level reporting data for ERA 1 and ERA 2. Future
+revisions to the transaction-level data, which will continue into 2025, may correct many of these
+issues. 34
+However, the transaction-level data are the best available data to study the distribution of
+ERA at fine levels of geography, and we see little evidence of systematic over- or underreporting that would bias our findings.
+
+34
+
+See https://home.treasury.gov/system/files/136/ERA2-Reporting-Guidance.pdf, accessed on December 15, 2023.
+
+27
+
+A.2 Other Data Issues
+It is important to note that neither the transaction-level data nor the aggregate reporting
+data are perfect sources of ERA spending. In addition to the differences in total ERA spending
+reported in the two data sources, Treasury notes that the aggregate reporting data are “as
+reported” by each grantee and the data are preliminary. The aggregate reporting data also
+includes a note to users indicating that “system and reporting limitations and user error have
+resulted in some [ERA spending] values that are incorrect in this preliminary data and require
+revision.” 35
+Additionally, both the transaction-level data and the aggregate spending data are selfreported by the grantee and do not necessarily reflect compliance reviews undertaken by
+Treasury. However, with these caveats, the transaction-level data and the aggregate reporting
+data are the only sources of national ERA spending and the only data available to understand the
+distribution of ERA spending across the country.
+
+Source: the “About this File” sheet of in the ERA 2 Cumulative Program Data: Q2 2021 to Q2 2023, available at
+https://home.treasury.gov/system/files/136/Q2-2021-Q2-2023-ERA2-Reporting-Data.xlsx, and accessed on January
+25, 2024.
+35
+
+28
+
+8.5
+
+Figure 1: ERA Allocations by Number of Renting Households and Population
+
+VT
+
+WY
+
+Log of Allocation Per Renting Household
+7
+7.5
+8
+
+AK
+DE
+
+SD
+
+ND
+
+MT
+ME
+NH
+ID
+WV
+
+UT
+
+RI
+
+DC
+
+HI
+
+NM NE
+
+6.5
+
+MI
+MN
+SC
+INFL
+AL
+MS
+MD
+IA
+VA
+PA
+AZ
+CO
+KY
+TX
+GA
+TN
+LA
+CT
+IL
+NJ
+NC
+MO
+OK
+WI
+OH
+KSWA
+MA
+AR
+ORCA
+NV
+NY
+
+4.5
+
+5.5
+5
+Log of Allocation Per Population
+
+6
+
+6.5
+
+Notes: States in black are those states receiving the state minimum from either ERA 1 or ERA 2 or both. States in
+grey are those states receiving allocations above the state minimum. Allocations are initial allocations before any
+reallocations. The allocation per renting household is calculated by taking the initial ERA allocation and dividing it
+by the number of renting households within the state from the 2016-2020 American Community Survey 5-year
+estimates for census tracts data. The allocation per population for each state is calculated by taking the initial ERA
+allocation and dividing it by the number of people in the state from the 2020 Census (according to Table 2: Resident
+Population for the 50 States, the District of Columbia, and Puerto Rico: 2020 Census).
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+29
+
+Figure 2: ERA Funds per Renting Household by Decile of Pre-Pandemic Eviction Filings
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household and nonmissing eviction filings. 2015 to 2018 eviction filings are calculated using data from 2015 to 2018 for each census
+tract in the Eviction Lab data. We divide the average eviction filings by the number of renting households and
+multiply by 100. We calculate the average annual eviction filings within each decile by taking the weighted average
+of 2015 to 2018 annual eviction filings per 100 renting households weighting by the number of renting households
+within the census tract. We calculate the average funds per renting household for each decile as a weighted average
+of the ERA funds per renting household of the census tracts within the decile weighted by the number of renting
+households within the decile.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Eviction Lab’s Eviction
+Tracking System.
+
+30
+
+Figure 3: ERA Funds per Renting Household by Decile of the Poverty Rate
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household. Census
+tracts are sorted by the poverty rate and divided into ten bins such that each bin has an equal number of renting
+households. We calculate the share of the population living below the poverty line (the poverty rate) within each
+decile by taking the weighted average of poverty rate of the tracts within the decile weighted by the number of
+people for whom Census determines the poverty status for within the decile. We calculate the funds per renting
+household for each decile as a weighted average of the ERA funds per renting household of the census tracts within
+the decile weighted by the number of renting households within the decile.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+31
+
+Figure 4: ERA Funds per Renting Household by Deciles of Share of the Renting Householders
+who are Black
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household. Census
+tracts are sorted by the share of renting household heads who are Black within the census tract and divided into
+deciles such that each decile has an equal number of renting households. We calculate the share of renting household
+heads who are Black within each decile by calculating the weighted average of the share of renting household heads
+who are Black within the decile weighted by the number of renting households. We calculate the funds per renting
+household for each decile as a weighted average of the ERA funds per renting household of the census tracts within
+the decile weighted by the number of renting households within the decile. In about 38 percent of census tracts,
+Black renting householders make up less than one percent of all renting households. The large number of census
+tracts without Black renters causes the first two deciles to be clustered near zero.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+32
+
+Figure 5: ERA Funds per Renting Household by Deciles of Share of the Renting Householders
+who are Hispanic
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household. Census
+tracts are sorted by the share of renting household heads who are Hispanic within the census tract and divided into
+deciles such that each decile has an equal number of renting households. We calculate the share of renting household
+heads who are Hispanic within each decile by calculating the weighted average of the share of renting household
+heads who are Hispanic within the decile weighted by the number of renting households. We calculate the funds per
+renting household for each decile as a weighted average of the ERA funds per renting household of the census tracts
+within the decile weighted by the number of renting households within the decile. In about 30 percent of census
+tracts, Hispanic renting householders make up less than one percent of all renting householders. The large number of
+census tracts without Hispanic renters causes the first two deciles to be clustered near zero.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+33
+
+Figure 6: ERA Funds per Renting Household by Deciles of the Share of the Census Tract that is
+Renting Households with Children
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household. Census
+tracts are sorted by the share of renting households with at least one kid under age 18 and divided into deciles such
+that each decile has an equal number of renting households. We calculate the share of renting households with at
+least one kid under age 18 within each decile by taking the weighted average of the share of renting households with
+at least one kid under age 18 within the decile weighted by the number of renting households within the decile. We
+calculate the funds per renting household for each decile as a weighted average of the ERA funds per renting
+household of the census tracts within the decile weighted by the number of renting households within the decile.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+34
+
+Figure 7: ERA Funds per Renting Household by Decile of the Share of the Census Tract that is
+Renting Households that are Single Mothers
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household. Census
+tracts are sorted by the share of renting households that are female householders without a spouse present and at
+least one kid under age 18 (i.e., single mothers) and divided into deciles such that each decile has an equal number
+of renting households. We calculate the share of single mothers within each decile by taking the weighted average of
+the share of single mothers weighting by the number of renting households within the census tract. We calculate the
+average funds per renting household for each decile as a weighted average of the ERA funds per renting household
+of the census tracts within the decile weighted by the number of renting households within the decile.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+35
+
+Figure 8: ERA Funds per Renting Household by Decile of the Average Median Rent by Census
+Tract
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household and a nonmissing value for median gross rent. Census tracts are sorted by the median gross rent within the census tract and
+divided into deciles such that each decile has an equal number of renting households. We calculate the average
+median gross rent within each decile by taking the weighted average of median gross rent weighting by renting
+households within the census tract. We calculate the average funds per renting household for each decile as a
+weighted average of the ERA funds per renting household of the census tracts within the decile weighted by the
+number of renting households within the decile.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+36
+
+0
+
+.02
+
+.04
+
+.06
+
+Share of Total Available Funds Spent
+
+.08
+
+Figure 9: ERA Monthly Spending as a Share of Total ERA Allocation, January 2021 to June
+2022
+
+Jan. 2021
+
+Jan. 2022
+
+July 2021
+
+July 2022
+
+Notes: The vertical dashed line represents the end of the federal eviction moratorium on August 21, 2021. The share
+of total available funds spent is calculated by totaling the amount of ERA expenditures within a given month and
+dividing by the total ERA funds available. Data for spending during January 2021 to March 2021 is aggregated into
+a single data point. For the purposes of the graph, we assume all the expenditures occurred in January 2021. ERA 2
+expenditures for April 1 through June 30, 2021 are also included in an aggregated category. We assume constant
+spending in the three months by each grantee and divide the total reported ERA 2 expenditures by three. June 2022
+was the last month for which ERA grantees were required to provide monthly spending reports to Treasury.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury.
+
+37
+
+60
+
+.06
+
+Figure 10: ERA Monthly Spending as a Share of Total ERA Allocation and Monthly Eviction
+Filings, January 2020 to June 2023
+
+50
+10
+
+30
+40
+20
+Eviction Filings (in 1,000)
+
+Eviction Filings
+
+Jan. 2020
+
+0
+
+0
+
+Share of Total ERA Allocation Spent
+.01
+.02
+.03
+.04
+.05
+
+ERA Spending
+
+Jan. 2021
+
+Jan. 2022
+
+Jan. 2023
+
+Notes: The vertical dashed line represents the end of the federal eviction moratorium. Only the 10 states with
+complete eviction filing data (Connecticut, Delaware, Indiana, Minnesota, Missouri, New Mexico, Pennsylvania,
+Rhode Island, Virginia, and Wisconsin) are included in the graph. The black line measures the share of total ERA
+allocation spent by the 10 states in the sample and is calculated as the total ERA spending in a month by grantees in
+the 10 states divided by the total initial allocation of the grantees in the 10 states. June 2022 was the last month for
+which ERA grantees were required to provide monthly spending reports to Treasury. The grey line measures the
+number of eviction filings in the 10 states. Eviction filings are available from January 2020 to June 2023.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Eviction Lab’s Eviction
+Tracking System.
+
+38
+
+Figure A.1: ERA Funds per Household by Decile of the Poverty Rate
+
+Notes: Each dot represents one decile of households. The dashed line represents the average funds per household of
+about $200. The data are limited to census tracts with at least one household. Census tracts are then sorted by the
+poverty rate and divided into ten bins such that each bin has an equal number of households. We calculate the share
+of the population living below the poverty line (the poverty rate) within each decile by taking the weighted average
+of poverty rate of the tracts within the decile weighted by the number of people for whom Census determines the
+poverty status for within the decile. We calculate the funds per household for each decile as a weighted average of
+the ERA funds per household of the census tracts within the decile weighted by the number of households within the
+decile.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+39
+
+Figure A.2: ERA Funds per Renting Household by Decile of the Poverty Rate Among Renting
+Households
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household for whom
+the poverty status is determined. Census tracts are sorted by the poverty rate among renting households and divided
+into ten bins such that each bin has an equal number of renting households for whom the poverty status is calculated
+for. We calculate the share of the population living below the poverty line (the poverty rate) within each decile by
+taking the weighted average of poverty rate of the tracts within the decile weighted by the number of renting
+households for whom Census determines the poverty status for within the decile. We calculate the funds per renting
+household for each decile as a weighted average of the ERA funds per renting household of the census tracts within
+the decile weighted by the number of renting households within the decile.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+40
+
+Figure A.3: ERA Funds per Renting Household by Decile of the Share of Individuals Speaking
+Spanish at Home
+
+Notes: Each dot represents one decile of renting households. The dashed line represents the average funds per
+renting household of about $570. The data are limited to census tracts with at least one renting household. Census
+tracts are sorted by the share of individuals speaking Spanish at home within the census tract and divided into
+deciles such that each decile has an equal number of renting households. We calculate the share of individuals
+speaking Spanish at home within each decile by calculating the weighted average of the share of individuals
+speaking Spanish at home within the decile weighted by the number of people within the decile. We calculate the
+funds per renting household for each decile as a weighted average of the ERA funds per renting household of the
+census tracts within the decile weighted by the number of renting households within the decile.
+Source: Authors’ calculations using data from the U.S. Department of the Treasury and the Census Bureau.
+
+41
+
+
