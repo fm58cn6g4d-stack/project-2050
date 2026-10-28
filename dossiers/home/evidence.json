@@ -2,6 +2,7 @@
  {
   "id": "EV-HOU-001",
   "statement": "Over 21 million renter households, 49.7% of the 42.5 million for whom rent burden is calculated, spent more than 30% of income on housing costs in 2023.",
+  "claim": "data",
   "figures": [
    "21 million",
    "49.7%",
@@ -15,14 +16,15 @@
   "fact_date": "2023",
   "checked": "2026-10-28",
   "recheck": "2026-11-05",
+  "note": "2023 ACS 1-year. The 2025 ACS 1-year estimates are released October 29, 2026: refresh.",
   "supports": [
    "dossiers/home/1-problem.md"
-  ],
-  "note": "2023 ACS 1-year. The 2025 ACS 1-year estimates are released October 29, 2026: refresh."
+  ]
  },
  {
   "id": "EV-HOU-002",
   "statement": "HUD counts a household as cost-burdened above 30% of income on housing and severely cost-burdened above 50%.",
+  "claim": "data",
   "figures": [
    "30%",
    "50%"
@@ -40,6 +42,7 @@
  {
   "id": "EV-HOU-003",
   "statement": "4.6 million Black renter households (56.2%) were cost-burdened in 2023.",
+  "claim": "data",
   "figures": [
    "4.6 million",
    "56.2%",
@@ -58,6 +61,7 @@
  {
   "id": "EV-HOU-004",
   "statement": "About 2.5 million Black renter households (30.6%) were severely cost-burdened in 2023.",
+  "claim": "data",
   "figures": [
    "2.5 million",
    "30.6%"
@@ -75,6 +79,7 @@
  {
   "id": "EV-HOU-005",
   "statement": "Median gross rent rose 2.7% from $1,448 in 2023 (inflation-adjusted) to $1,487 in 2024; the median share of income going to rent stayed at 31%.",
+  "claim": "data",
   "figures": [
    "2.7%",
    "$1,448",
@@ -94,6 +99,7 @@
  {
   "id": "EV-HOU-006",
   "statement": "In 2023 real median gross rent grew 3.8%, faster than real median home values (1.8%), the largest annual real rise in rental costs since at least 2011.",
+  "claim": "data",
   "figures": [
    "3.8%",
    "1.8%",
@@ -112,6 +118,7 @@
  {
   "id": "EV-HOU-007",
   "statement": "From 2019 to 2021 the share of income spent on rent and utilities rose, and renters with the lowest incomes saw the largest increases.",
+  "claim": "data",
   "figures": [
    "2019",
    "2021"
@@ -129,6 +136,7 @@
  {
   "id": "EV-HOU-008",
   "statement": "Twenty-three percent of renters were behind on rent at some point in the past year (2025), up 2 points from 2024 and 6 points since 2021.",
+  "claim": "data",
   "figures": [
    "Twenty-three percent",
    "2 percentage points",
@@ -142,14 +150,15 @@
   "fact_date": "2025",
   "checked": "2026-10-28",
   "recheck": "2027-06-01",
+  "note": "Federal Reserve Survey of Household Economics and Decisionmaking, fielded October 2025; the 2026 report is due May 2027.",
   "supports": [
    "dossiers/home/1-problem.md"
-  ],
-  "note": "Federal Reserve Survey of Household Economics and Decisionmaking, fielded October 2025; the 2026 report is due May 2027."
+  ]
  },
  {
   "id": "EV-HOU-009",
   "statement": "Nearly a third of renters with incomes under $50,000 were behind on rent at some point in the past year, against 5 percent of renters with incomes of at least $100,000.",
+  "claim": "data",
   "figures": [
    "$50,000",
    "5 percent",
@@ -171,6 +180,7 @@
  {
   "id": "EV-HOU-010",
   "statement": "The median reported rent among renters held at $1,200 in 2025.",
+  "claim": "data",
   "figures": [
    "$1,200"
   ],
@@ -187,6 +197,7 @@
  {
   "id": "EV-HOU-011",
   "statement": "In 2021 there were 4.8 million renter households receiving federal rental assistance, against 19.34 million very low-income renters; CRS divides one by the other to estimate that one in four eligible households receives assistance, and calls it a rough measure.",
+  "claim": "data",
   "figures": [
    "4.8 million",
    "19.34 million",
@@ -204,7 +215,8 @@
  },
  {
   "id": "EV-HOU-012",
-  "statement": "Because federal funding does not meet demand, the Housing Choice Voucher program serves roughly one in four eligible households, and housing authorities keep waiting lists.",
+  "statement": "CRS reports that the Housing Choice Voucher program serves roughly one in four eligible households, that federal funding is not enough to meet demand for vouchers, and that housing authorities generally keep waiting lists.",
+  "claim": "data",
   "figures": [],
   "source": "SRC-0291",
   "anchor": "demand for vouchers—the program serves roughly one in\nfour eligible households—PHAs generally maintain waiting\nlists for vouchers.",
@@ -219,6 +231,7 @@
  {
   "id": "EV-HOU-013",
   "statement": "The Housing Choice Voucher program subsidizes the rents of more than 2.3 million households (5 million people) and is the nation's largest rental assistance program.",
+  "claim": "data",
   "figures": [
    "2.3 million",
    "5 million"
@@ -236,6 +249,7 @@
  {
   "id": "EV-HOU-014",
   "statement": "On a single night in 2025, 745,652 people were experiencing homelessness: 479,332 sheltered and 266,320 unsheltered (HUD point-in-time count, as reported by CRS).",
+  "claim": "data",
   "figures": [
    "745,652",
    "479,332",
@@ -254,6 +268,7 @@
  {
   "id": "EV-HOU-015",
   "statement": "The 2025 count compares with 647,258 in 2007, a low of 549,928 in 2016, and 771,480 in 2024.",
+  "claim": "data",
   "figures": [
    "647,258",
    "549,928",
@@ -272,6 +287,7 @@
  {
   "id": "EV-HOU-016",
   "statement": "In 2025, 155,750 individuals were chronically homeless, the highest number recorded, up from 77,486 in 2016. The series counts individuals only; chronically homeless people in families are reported separately and are not included. In law, a chronically homeless person has a disability and has lived in a place not meant for habitation, an emergency shelter or a safe haven for at least one year continuously, or on four separate occasions totaling one year over three years.",
+  "claim": "data",
   "figures": [
    "155,750",
    "77,486"
@@ -293,6 +309,7 @@
  {
   "id": "EV-HOU-017",
   "statement": "Commonly cited estimates put the national housing shortage at roughly 4 million to 5 million homes, but methods differ and some observers argue the shortages are local or specific to housing types, including housing affordable to low-income renters.",
+  "claim": "analysis",
   "figures": [
    "4 million",
    "5 million"
@@ -306,6 +323,13 @@
   "fact_date": "2024",
   "checked": "2026-10-28",
   "recheck": "2027-06-01",
+  "context": "CRS summarizes several independent estimates (Freddie Mac, Zillow, Brookings, Up for Growth, the National Association of Realtors) that use different methods; the range is the finding, not any one number.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-024",
+    "stance": "qualifies"
+   }
+  ],
   "supports": [
    "dossiers/home/1-problem.md"
   ]
@@ -313,6 +337,7 @@
  {
   "id": "EV-HOU-018",
   "statement": "The National Low Income Housing Coalition estimates a shortage of 7.1 million rental homes affordable and available to extremely low-income renters (as summarized by CRS).",
+  "claim": "data",
   "figures": [
    "7.1 million"
   ],
@@ -322,6 +347,7 @@
   "fact_date": "2025",
   "checked": "2026-10-28",
   "recheck": "2027-06-01",
+  "context": "A tabulation by the National Low Income Housing Coalition, an advocacy group, as summarized by CRS. HUD's own measure for the same group, 38 affordable and available units per 100 households in 2023 (EV-HOU-024), is close.",
   "supports": [
    "dossiers/home/1-problem.md"
   ]
@@ -329,6 +355,7 @@
  {
   "id": "EV-HOU-019",
   "statement": "By the same estimate there are 35 affordable and available rental homes for every 100 extremely low-income renter households, and shortages exist in every state and major metropolitan area.",
+  "claim": "data",
   "figures": [
    "35",
    "100"
@@ -339,6 +366,7 @@
   "fact_date": "2025",
   "checked": "2026-10-28",
   "recheck": "2027-06-01",
+  "context": "A tabulation by the National Low Income Housing Coalition, an advocacy group, as summarized by CRS. HUD's own measure for the same group, 38 affordable and available units per 100 households in 2023 (EV-HOU-024), is close.",
   "supports": [
    "dossiers/home/1-problem.md"
   ]
@@ -346,6 +374,7 @@
  {
   "id": "EV-HOU-020",
   "statement": "Of the 19.14 million very low-income renter households at risk of severe rent burdens and severely inadequate housing in 2023, 8.46 million (44.2 percent) had worst case needs: one or both problems without housing assistance.",
+  "claim": "data",
   "figures": [
    "19.14 million",
    "8.46 million",
@@ -364,6 +393,7 @@
  {
   "id": "EV-HOU-021",
   "statement": "The 8.46 million households with worst case needs in 2023 were an insignificant decrease from the record 8.53 million in 2021, which topped the recession-driven 8.48 million of 2011.",
+  "claim": "data",
   "figures": [
    "8.46 million",
    "8.53 million",
@@ -384,6 +414,7 @@
  {
   "id": "EV-HOU-022",
   "statement": "In 2023, 28 percent of very low-income renter households received housing assistance, ranging from 24.4 percent in the West to 38.0 percent in the Northeast.",
+  "claim": "data",
   "figures": [
    "28 percent",
    "24.4",
@@ -402,6 +433,7 @@
  {
   "id": "EV-HOU-023",
   "statement": "There were 13.77 million unassisted very low-income renter households in 2023, and 61.4 percent of them had worst case needs.",
+  "claim": "data",
   "figures": [
    "13.77 million",
    "61.4 percent"
@@ -419,6 +451,7 @@
  {
   "id": "EV-HOU-024",
   "statement": "In 2023 there were only 59 affordable and available rental units per 100 very low-income renter households, and only 38 per 100 extremely low-income renter households.",
+  "claim": "data",
   "figures": [
    "59",
    "100",
@@ -437,6 +470,7 @@
  {
   "id": "EV-HOU-025",
   "statement": "On a single night in 2024, 771,480 people experienced homelessness, about 23 of every 10,000 people in the United States, the highest number ever recorded; the number rose 18 percent in a year.",
+  "claim": "data",
   "figures": [
    "771,480",
    "23",
@@ -459,6 +493,7 @@
  {
   "id": "EV-HOU-026",
   "statement": "Nearly 150,000 children experienced homelessness on a single night in 2024, 33 percent (32,618) more than in 2023; people in families with children had the largest single-year increase, 39 percent.",
+  "claim": "data",
   "figures": [
    "150,000",
    "33 percent",
@@ -481,6 +516,7 @@
  {
   "id": "EV-HOU-027",
   "statement": "HUD's latest worst case needs report attributes the elevated needs to wage growth too weak to make rent affordable for low-income renters and to sustained rental demand, which it ties to record immigration.",
+  "claim": "analysis",
   "figures": [],
   "source": "SRC-0296",
   "anchor": "This year’s report shows two realities. The first is that economic growth has been insufficient to\nlift the wages of low-income renting families high enough to make rent affordable. The second is\nthat national macroeconomic policies, such as record immigration, have combined to drive\nsustained high rental demand, which has continued to place upward pressure on rent prices.",
@@ -488,6 +524,17 @@
   "fact_date": "2023",
   "checked": "2026-10-28",
   "recheck": "2027-09-30",
+  "context": "Published July 2025, during the second Trump administration. The report's immigration section rests on research it summarizes on immigration and metropolitan rents; its footnote lists Camarota (1998), Edo (2015), Mussa et al. (2017), Myers et al. (2006), Orrenius and Zavodny (2007) and Saiz (2007), the last a peer-reviewed study of immigration and rents. The report's own decomposition (EV-HOU-029) attributes 321,000 added cases to household formation, which it describes as largely driven by immigration and declining marriage, but does not measure immigration on its own. Its counts come from HUD tabulations of the American Housing Survey and are treated as data (EV-HOU-020 to 024); this causal reading needs independent research before the dossier relies on it.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-029",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-028",
+    "stance": "qualifies"
+   }
+  ],
   "supports": [
    "dossiers/home/1-problem.md"
   ]
@@ -495,6 +542,7 @@
  {
   "id": "EV-HOU-028",
   "statement": "HUD's 2024 homelessness report names several likely causes of the record count: the affordable housing crisis, inflation, stagnating wages, systemic racism, public health crises, natural disasters, immigration, and the end of pandemic-era prevention programs including the expanded child tax credit.",
+  "claim": "analysis",
   "figures": [],
   "source": "SRC-0295",
   "anchor": "Our worsening national affordable housing crisis, rising inflation, stagnating wages among\nmiddle- and lower-income households, and the persisting effects of systemic racism have stretched\nhomelessness services systems to their limits. Additional public health crises, natural disasters that\ndisplaced people from their homes, rising numbers of people immigrating to the U.S., and the end to\nhomelessness prevention programs put in place during the COVID-19 pandemic, including the end of the\nexpanded child tax credit, have exacerbated this already stressed system.",
@@ -502,6 +550,47 @@
   "fact_date": "2024",
   "checked": "2026-10-28",
   "recheck": "2026-12-31",
+  "context": "Published December 2024 under the Biden administration. The list of factors is the report's interpretation, offered without estimates of how much each contributed.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-027",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-029",
+  "statement": "HUD's decomposition of the 2021-2023 change in worst case needs: household formation (4.73 million new households), which the report describes as largely driven by record immigration and a long-term decline in marriage rates, added an estimated 321,000 cases, the largest upward demographic factor; a shift toward homeownership removed 247,000, rising renter incomes 163,000 and a narrower rental assistance gap 169,000, so the four demographic factors together reduced needs by 258,000; a tight rental market added 196,000.",
+  "claim": "analysis",
+  "figures": [
+   "4.73 million",
+   "321,000",
+   "247,000",
+   "163,000",
+   "169,000",
+   "258,000",
+   "196,000"
+  ],
+  "source": "SRC-0296",
+  "anchor": [
+   "Household Formation. The nation added 4.73 million households between 2021 and 2023,\nexplaining a proportional increase of 321,000 cases of worst case needs.",
+   "2023, so an improved rental assistance gap accounts for 169,000 fewer cases of worst case needs.",
+   "factors indicates that the demographic factors affecting the number of unassisted VLI renter\nhouseholds were sufficient to reduce worst case needs by 258,000 cases, but the inability of the\ntight rental market to meet the demand largely offset that decrease by contributing 196,000 cases.\nOf the four demographic factors, national household formation, largely driven by record levels of\nimmigration and a continued long-term decline in marriage rates, would have been expected to\nincrease worst case needs by 321,000 cases. A shift from renting to homeownership diminished\nthat effect by an estimated 247,000 cases. Improvement in renter incomes accounted for a further\nreduction of 163,000 cases."
+  ],
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "context": "The report's quantified analysis (a shift-share decomposition of American Housing Survey estimates). It folds immigration into household formation together with declining marriage rates and does not estimate immigration's share on its own. Household formation is the largest upward demographic factor; homeownership, incomes and assistance more than offset it. So the analysis is consistent with immigration adding to needs, without measuring how much.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-027",
+    "stance": "qualifies"
+   }
+  ],
   "supports": [
    "dossiers/home/1-problem.md"
   ]
