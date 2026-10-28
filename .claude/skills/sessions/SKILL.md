@@ -12,7 +12,7 @@ The repository is the only durable memory. A message between sessions is a doorb
 ## Roles
 
 - **Lead**: the session Espen is talking to. It may start any session these rules allow.
-- **Worker**: a session started from a brief to do one board step. It may start **one** successor for the next step in its own line when it finishes (the relay, below) and nothing else. Other new work goes on the board as "Next" or in a message to its parent.
+- **Worker**: a session started from a brief to do one board step. When it finishes, it asks its parent to start the next step (the relay, below). It starts a session itself only when its parent is gone. Other new work goes on the board as "Next" or in a message to its parent.
 - **Reviewer**: the standing reviewer session, woken every three hours by a scheduled task. It reviews PRs and starts nothing. Its session ID is in that scheduled task and in recent `Reviewer:` lines on PRs.
 
 ## Start a new session when
@@ -29,7 +29,7 @@ The repository is the only durable memory. A message between sessions is a doorb
 - **It's a small subtask.** Use a subagent inside your own session (the Agent tool, with a lighter model where it fits) and check its result. A new session costs a cold read of the repository.
 - **The step waits on something.** If it waits on Espen, put the question on the board. If it waits on a release or a merge, schedule a check-in with `send_later` instead of keeping a session waiting.
 - **Another session is writing the same files**, or the step is claimed on the board or in an open PR.
-- **The cap is reached.** At most **three** Claude sessions working at once on Project 2050, counting the reviewer while it runs (Espen's Max plan shares one usage allowance). Check with `list_sessions` (`mine: true`) for sessions in the "working" bucket.
+- **The cap is reached.** At most **three** Claude sessions working at once on Project 2050, counting the reviewer while it runs (Espen's Max plan shares one usage allowance). To count: page through `list_sessions` (`mine: true`, then `after_id` while `has_more`). Keep the sessions tagged `project-2050` or titled "Project 2050…", plus the reviewer by its ID, and count those whose `session_status` is `SESSION_STATUS_RUNNING`. The list includes Espen's other projects, and its `status_bucket` "working" includes idle sessions, so don't count by bucket.
 
 ## Choosing the model
 
@@ -41,6 +41,8 @@ Use the step's tier from the board and pass it as `model` to `create_session`:
 | Standard | `claude-sonnet-5-5` |
 | Most capable | `claude-opus-5-5` |
 
+Or the current model of that class, when these IDs go stale.
+
 When unsure, go one tier up. A Light or Standard session that meets a judgment call stops, notes it on the board and pings its parent; it doesn't guess.
 
 ## The brief
@@ -48,29 +50,28 @@ When unsure, go one tier up. A Light or Standard session that meets a judgment c
 A new session starts cold: the brief (`prompt`) must stand alone. Write it plainly, with paths, PR numbers and IDs rather than nicknames. Include:
 
 1. **Task**: the board step (stage and number) and what done looks like, as checkable results.
-2. **Start point**: branch from current `origin/main` in a fresh worktree, or the named branch or PR to build on, and the branch name to use (`claude/<short-name>`).
+2. **Start point**: branch from current `origin/main` in a fresh worktree, or the named branch or PR to build on, and the branch name to use (`claude/<short-name>`). Also pass `source_url: https://github.com/fm58cn6g4d-stack/project-2050` to `create_session`, plus `source_revision` for a named branch: without `source_url` the session starts with no repository.
 3. **Read first**: `charter/STANDARDS.md`, `charter/PROGRESS.md`, then the specific dossier files, evidence registers and PRs, by path.
 4. **Settled already**: decisions and facts it must not re-open, each with its `DEC-` ID, PR or file, and the open questions it should not try to settle.
-5. **Limits**: tier and model; the files it owns and the files other sessions are writing; anything it must not do beyond the standing rules.
-6. **Finish**: run `bash .github/scripts/run-checks.sh`; update the board; open one PR with `Agent-Author: claude-code <its session id>`, ready when done; then message the parent session with the PR link and a two-line result. If the parent is gone, the PR is enough.
+5. **Limits**: tier and model; the files it owns and the files other sessions are writing; anything it must not do beyond the standing rules. Leave `permission_mode` unset so it is inherited; never use `plan`, which stalls the session until a person approves in the web UI.
+6. **Finish**: claim the step on the board in its own PR as `Claude Code (session_…)`; run `bash .github/scripts/run-checks.sh`; update the board; open one PR with `Agent-Author: claude-code <its session id>`, ready when done; then message the parent session with the PR link and a two-line result. If the parent is gone, the PR is enough.
 7. **Report-back address**: your session ID, so it can reply.
 
 Also pass a `title` like "Project 2050: housing section 2, what works" and `tags`: `["project-2050", "<stage-step>"]` (for example `"c-3"`), so Espen can find the session.
-
-After starting it, record the owner on the board in your next board edit: `Claude Code (session_…)`.
 
 ## The relay: finishing a step
 
 When your step's PR is ready:
 
 1. Read the board. Find the next step in your line.
-2. If it is ready and none of the "don't" cases apply, start one successor session with a full brief. Point it at your PR if it builds on that branch.
-3. Otherwise write the next step's status and blocker on the board, and schedule a `send_later` check-in if a known event will unblock it.
-4. Stay until your PR merges or its review wakes you: an open PR is still yours (the review and CI rules in your system instructions apply).
+2. If it is ready and none of the "don't" cases apply, send your parent a `done` message that names the next step and says it is ready. The parent starts the successor with a full brief, pointing it at your PR if it builds on that branch. Routing the relay through the parent keeps the session tree shallow: `get_session` reports a lineage limit (8 levels deep today), and a chain of workers each starting the next would hit it partway through a stage.
+3. If your parent is archived, start the successor yourself, but only if your own `lineage.depth` is at most 5. Otherwise leave the next step as "Next, ready" on the board for the lead.
+4. If the next step isn't ready, write its status and blocker on the board, and schedule a `send_later` check-in if a known event will unblock it.
+5. Stay until your PR merges or its review wakes you: an open PR is still yours (the review and CI rules in your system instructions apply).
 
 ## Pinging another session
 
-Use `send_message` only when the other session needs to act or decide differently. No acknowledgments, thanks or status chatter. Before sending, run `get_session` on the target: if it is archived or failed, don't send. Put the item on the board or PR, and start a replacement if the work needs one now.
+Use `send_message` only when the other session needs to act or decide differently, or to send a result someone asked for (a `done` message, including the reviewer's report on a review it was asked to do). No acknowledgments, thanks or status chatter. Before sending, run `get_session` on the target. If it is archived, don't send: put the item on the board or PR, and start a replacement if the work needs one now. If it is failed (its last turn errored), it can still receive messages, and a message restarts it: send only if the work needs that session's context; otherwise start a replacement.
 
 Format: one line naming the type, then the content.
 
