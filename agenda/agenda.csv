@@ -383,7 +383,7 @@ LAB-10,Participation support (approved October 26),secure-floor,L2,chosen,legacy
 NSC-1,Defense envelope,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:13,
 NSC-1A,"Flat real from the FY2029 base, as defined",agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:55,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
 NSC-1B,Flat real from a 2026-28 average,agenda/national-security,L1,alternative,legacy/domains/domain-national-security.md:56,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
-NSC-1C,Flat share of GDP,agenda/national-security,L1,option,legacy/domains/domain-national-security.md:57,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
+NSC-1C,Flat share of GDP,agenda/national-security,L1,alternative,legacy/domains/domain-national-security.md:57,"Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time | Hand-corrected: the costed alternative to NSC-1A (reviewer, PR #47)"
 NSC-2,War powers and emergencies,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:14,
 NSC-3,Alliances,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:15,
 NSC-4,Diplomatic capacity,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:16,

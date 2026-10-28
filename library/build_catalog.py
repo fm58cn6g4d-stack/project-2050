@@ -51,8 +51,9 @@ PUBLIC = {'7-23-2025_hr_4669_-_section_by_section.pdf': 'public (House committee
           'fema_text.pdf': 'public (bill text)',
           'BipartisanAmericanAffordabilityandJobsAct.pdf': 'public (bill text)',
           '1791753732441_house-democrats-health-care-working-group-agenda-2026.pdf': 'public (House Democrats working group)',
-          'project-2050-cms-imp-02-source-records.zip': 'public (state procurement records, with project notes)'}
-CHECK = {'permitting-reform-summary-1.pdf': 'check: publisher not identified; confirm it may be committed'}
+          'project-2050-cms-imp-02-source-records.zip': 'public (state procurement records, with project notes)',
+          'permitting-reform-summary-1.pdf': 'public (Senate Energy and Natural Resources Committee one-pager)'}
+CHECK = {}  # files whose rights need a person's check before they stay in the public repository
 
 
 def tracked():
