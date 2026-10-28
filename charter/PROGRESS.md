@@ -9,15 +9,15 @@ Updated October 28, 2026 by Claude Code (stage A, step 4).
 | Stage | Step | Tier | Status | Owner | Where |
 | --- | --- | --- | --- | --- | --- |
 | A. Reset | 1. Clean tree, `legacy/`, models and checks migrated, standards, board, decision log, entry files | Most capable (moves and path rewrites: Light) | Done | Claude Code | PR #46, merged |
-| A. Reset | 2. `agenda/agenda.csv` from the legacy domain files and options register | Standard to extract; Most capable for levels and status | In review | Claude Code | PR #47 |
+| A. Reset | 2. `agenda/agenda.csv` from the legacy domain files and options register | Standard to extract; Most capable for levels and status | Done | Claude Code | PR #47, merged |
 | A. Reset | 3. `library/catalog.csv` and the generated name index | Light for file facts; Standard for status, aliases and rights | Done | Claude Code | PR #48, merged |
-| A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | In review | Claude Code | PR #49 (after #47) |
+| A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | In review | Claude Code | PR #49 |
 | A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Waiting for Espen (tier 3) | Claude Code | PR #50 |
 | B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
 
 ## Open PRs
 
-PR #47 (agenda), PR #49 (registry checker, after #47) and PR #50 (outcomes draft, tier 3: Espen decides). Routine PRs merge on review by the scheduled Claude reviewer session.
+PR #49 (registry checker) and PR #50 (outcomes draft, tier 3: Espen decides). Routine PRs merge on review by the scheduled Claude reviewer session.
 
 ## Done (recent)
 
@@ -26,7 +26,7 @@ PR #47 (agenda), PR #49 (registry checker, after #47) and PR #50 (outcomes draft
 | Stage A step 1, the reset (PR #46) | Merged: clean tree, `legacy/`, migrated models and checks, standards, board |
 | Stage A step 4, the registry checker (in review) | `models/registry/check.py` checks the agenda, the library catalog, charter IDs, evidence registers and provisions, and every SRC-, EV-, OUT- and DEC- reference; it runs in every PR as `run-all.sh` step 8e. The story builder now uses the same claim rules (`models/registry/claims.py`) |
 | Stage A step 3, the library catalog (PR #48, merged) | 286 documents in `library/catalog.csv` with `SRC-` IDs; generated file facts; `library/name-index.md` resolves 856 names, including Bill Book, the map, the go-big and revenue tabs, staging rows and the durability session. The one PDF flagged for rights is the Senate Energy and Natural Resources Committee's public one-pager (reviewer, PR #48) |
-| Stage A step 2, the agenda (in review) | 499 items in `agenda/agenda.csv`: 38 decided, 266 chosen, 58 options, 118 alternatives, 19 held, declined, pointer or retired. None is L3 yet |
+| Stage A step 2, the agenda (PR #47, merged) | 499 items in `agenda/agenda.csv`: 38 decided, 266 chosen, 58 options, 118 alternatives, 19 held, declined, pointer or retired. None is L3 yet |
 | Restructuring plan | Adopted by Espen October 28 (`charter/PLAN.md`, `DEC-2026-10-28-01`) |
 | Research intake, October 28 | Filed in `library/intake/2026-10-28/` with checksums |
 | PR #39, public story page with seven essays and a claim register | Merged at `eceb44a`. The old queue still called it "ready for approval"; it is done |
