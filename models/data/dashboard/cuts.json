@@ -196,5 +196,14 @@
   "kind": "Revenue (accepted, Oct 21)",
   "why": "Scenario figure (Talarico model), not a score (0.10-0.25); stacks with G3 and G9 inside GX's logic; adopted by Espen Oct 21 to meet D4-B's FY2040 test",
   "alternative_to": ""
+ },
+ {
+  "id": "C44",
+  "change": "D4-B financing of decided CLI-10G grid and CLI-7K disaster capital",
+  "saves_tn": 0.15191272277933263,
+  "saves_days": 0,
+  "kind": "Borrow (accepted, Package A)",
+  "why": "Financing classification, not a deficit saving. Time-limited 2030-39; no additional envelope authorization. Envelope use conditional on unchanged D4 tests.",
+  "alternative_to": ""
  }
 ]

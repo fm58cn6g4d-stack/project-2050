@@ -173,7 +173,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     # Show gross matched receipts and uses already netted in GF lines. Transport uses the
     # recorded NET new-receipt estimate, not the entire existing HTF budget. Cash profile
     # is an authored proxy; it cannot verify actual highway baseline or outlay timing.
-    matched_ids=['C1','C2','C3','PS1','MF1','IF1','MR1','MR2','MR3','MR4','MR5','MR6']
+    matched_ids=['C1','C2','C3','C1P','CB1','PS1','MF1','IF1','MR1','MR2','MR3','MR4','MR5','MR6']
     matched={k:f.row_path(b,rev[k]['mid'],dict(ramp=1,grow='gdp')) for k in matched_ids}
     # Carbon uses its recorded declining fee profile rather than a GDP perpetuity.
     carbon={r['year']:r for r in u.carbon}
@@ -182,6 +182,9 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     for y in range(2040,2057):
         for k in ['C1','C2']:
             matched[k][y]=matched[k][2039]*b[y]['gdp']/b[2039]['gdp']*.98**(y-2039)
+    for y in Y:
+        matched['C1P'][y]=f.CL.account(y)['process_receipts_bn']
+        matched['CB1'][y]=f.CL.account(y)['combustion_receipts_change_bn']
     losses={y:0 for y in Y}
     if stress:
         for rid,amt in st['receipt_losses_tn'].items():
@@ -293,6 +296,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         hi_depletion=hr['depletion'],hi_terminal_rising=hr['terminal_rising'],hi_terminal_ratio=hr['terminal_ratio'],
         education_depletion=edu['depletion'],education_terminal_rising=edu['terminal_rising'],education_terminal_ratio=edu['terminal_ratio'],
         leave_terminal_loan_bn=lr['terminal_loan'],leave_repayment_year=lr['repayment_year'])
+    summary.update(f.CL.disclosure())
     return dict(summary=summary,rows=rows,audit=audit,education=edu,ss=sr,hi=hr,leave=lr)
 
 def household_diagnostic(d,f,b,m,u):
@@ -321,7 +325,7 @@ def household_diagnostic(d,f,b,m,u):
             if rid in removed or rid in ('C19b','C20') and case!='larger_payroll':continue
             for y in W:
                 ratio=(.32/.65 if rid=='EDU' else 1)*(phase(y,2033,3) if rid in ('C19b','C20') else 1)
-                for key,v in parts:add(y,(1 if side=='benefit' else -1)*v*1000*years.P.get(rid,years.P['flat'])[y-2030]*ratio,key)
+                for key,v in parts:add(y,(1 if side=='benefit' else -1)*v*1000*(years.annual_fraction(rid,amount,y)/amount if amount else 0)*ratio,key)
         for y in W:
             a=annual[y]; scale=a['macro_translation']; ed=edu[y]
             for r in d['education_components']:
@@ -367,7 +371,7 @@ def run():
         x={r['year']:r for r in c['rows']}; z={r['year']:r for r in plus['rows']}
         required=max((x[y]['debt_gdp']-x[y-1]['debt_gdp'])/((x[y]['debt_gdp']-x[y-1]['debt_gdp'])-(z[y]['debt_gdp']-z[y-1]['debt_gdp'])) for y in range(2045,2057))
         solutions[name]=max(0,A['tax']['broad_rate_points']+required)
-    inputs=['models/data/fiscal-baseline.csv','models/data/inputs/education-adoption.json',
+    inputs=['models/tools/climate-integration.py','models/data/inputs/climate-adoption.json','legacy/sources/climate-portfolio-pricing.json','models/data/fiscal-baseline.csv','models/data/inputs/education-adoption.json',
             'models/data/inputs/recovery-adoption.json',
             'models/tools/recovery-budget/assumptions.json','build/fiscal-model.json','build/ledger.json',
             'models/tools/fiscal-profiles.py','models/tools/funds-model.py',
@@ -384,7 +388,7 @@ def run():
 
 def markdown(d):
     out=['# Recovery and Solvency budget: exploratory results','',
-         '> **Climate scope:** This capacity/fund reference includes the revised carbon price ($150 by 2037, Oct 26) through the shared ledger. The climate portfolio\'s package spending and payment options (Package A, O5, CLI-7C) are not integrated here, so these totals are not the full current climate agenda. The separate [climate financing comparison](../sources/climate-recovery-financing-comparison.md) is historical (pre-$150 baseline) until rebuilt.','',
+         '> **Climate scope:** Includes decided domestic Package A, conservative credit savings, O5 and CLI-7C expected cost. The $75–150B contingent reinsurance liability is disclosed, not scored. International purchases and removal purchases are excluded. Annual 2030–50 export flows are extended at constant real 2050 levels to 2056; this is a transparent proxy, not a long-term emissions forecast. See [integration accounting](../sources/climate-ledger-integration.md).','',
          '> **Approval implemented:** Espen selected the recommended architecture and working spending changes; [adopted inputs](data/inputs/recovery-adoption.json) feed this model. The preferred architecture is the mixed reserve-corridor case. Its illustrative tax rates, credit and grant parameters remain unselected, and no complete financing schedule is adopted. Read [the assessment](../sources/recovery-and-solvency-budget.md) and [method/source notes](tools/recovery-budget/README.md). Nominal dollars; FY2030–39 window. Existing federal revenue/spending/debt are included; gross-flow, state/local and annual account reconciliation remain incomplete. No D3/D4 or all-fund solvency certification.','',
          '| Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |',
          '| --- | ---: | ---: | ---: | --- | ---: |']

@@ -20,8 +20,12 @@ borrowing finance time-limited climate capital (new alternative cut C37, exclusi
 REV-E1/C35 restated as the increment beyond G9 (~$0.15T); DEM-1F adopted (DEM-1 after R1).
 Cuts listed in ALT_CUTS are alternatives to another cut and are not summed.
 """
-import csv, json
+import csv, json, importlib.util, os
 from inputs import read, num, flag, money_sum
+
+
+_spec=importlib.util.spec_from_file_location('ledger_climate',os.path.join(os.path.dirname(__file__),'climate-integration.py'))
+CL=importlib.util.module_from_spec(_spec); _spec.loader.exec_module(CL)
 
 BUDGET_DAYS = 163  # LEGACY CROSSWALK ONLY; scenario calendar is current. 148 discretionary days (unified inventory) + 15 freed by Block 1's nomination caps (C28, hedged; estimate)
 RECON_DAYS = 15    # LEGACY ASSUMPTION, not statutory duration. floor days per reconciliation bill (legacy/frameworks/radical-means-moderate-ends.md)
@@ -128,6 +132,7 @@ def channels(bills):
     add("Public safety", rv["Public safety"], o("SAF-10"), "Durable sources only (alcohol, fraud assessment, firearms, fees); residual (~$2.9B a year) to the general fund")
     add("Merger review", rv["Merger review"], (0.004,0.004,0.004), "HSR fee increase funds an equal enforcement increase (COM-2)")
     add("Immigration fees", rv["Immigration fees"], rv["Immigration fees"], "Statutory H-1B fee spent on adjudication and training (IMM-2)")
+    add("O5 incremental process and combustion accounts", tuple(sum(CL.account(y,c)["added_receipts_bn"] for y in range(2030,2040))/1000 for c in ("favorable","conservative","unfavorable")), tuple(sum(CL.account(y,c)["dividend_bn"] for y in range(2030,2040))/1000 for c in ("favorable","conservative","unfavorable")), "Incremental receipts and dividend; remaining financing is CLI-2O. Baseline transition share stays with CLI-5; CX separate.")
     return rows
 
 def felt_by_mid(x):
@@ -159,7 +164,7 @@ def main():
         if rule=="all": g = (b["cost_lo"],b["cost_mid"],b["cost_hi"])
         elif rule=="residual": g = (max(0,b["cost_lo"]-rhi), max(0,b["cost_mid"]-rmid), max(0,b["cost_hi"]-rlo))
         else: g = (0,0,0)
-        b["gf_lo"],b["gf_mid"],b["gf_hi"] = [round(x,3) for x in g]
+        b["gf_lo"],b["gf_mid"],b["gf_hi"] = [x if b["id"] in CL.delta_rows(2030) else round(x,3) for x in g]
         b["net_mid"] = b["gf_mid"] if rule!="none" else round(b["cost_mid"]-b["own_revenue"],3)
     with open("bills.csv","w",newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(bills[0].keys())); w.writeheader(); w.writerows(bills)

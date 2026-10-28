@@ -25,15 +25,15 @@ Eight-hour equivalents are work normalization, not actual sitting dates. Procedu
 | favorable | expanded | separate | 2200.5 | 24/24 | None | False |
 | favorable | expanded | combined | 2200.5 | 24/24 | None | False |
 | central | constrained | separate | 949.6 | 22/24 | R2_summer, R3_summer | False |
-| central | constrained | combined | 949.6 | 23/24 | R2_summer, R3_summer | False |
+| central | constrained | combined | 949.6 | 23/24 | SS_spring, R2_summer, R3_summer | False |
 | central | working | separate | 1305.7 | 24/24 | R1_preferred, R2_summer | False |
 | central | working | combined | 1305.7 | 24/24 | R1_preferred, R2_summer | False |
 | central | expanded | separate | 2200.5 | 24/24 | None | False |
 | central | expanded | combined | 2200.5 | 24/24 | None | False |
 | difficult | constrained | separate | 759.7 | 8/24 | rules_first_week, R1_preferred, R1_latest, SS_spring, R2_summer, R3_summer | True |
 | difficult | constrained | combined | 759.7 | 8/24 | rules_first_week, R1_preferred, R1_latest, SS_spring, R2_summer, R3_summer | True |
-| difficult | working | separate | 1044.6 | 11/24 | rules_first_week, R1_preferred, R1_latest, SS_spring, R2_summer, R3_summer | True |
-| difficult | working | combined | 1044.6 | 11/24 | rules_first_week, R1_preferred, R1_latest, SS_spring, R2_summer, R3_summer | True |
+| difficult | working | separate | 1044.6 | 12/24 | rules_first_week, R1_preferred, R1_latest, SS_spring, R2_summer, R3_summer | True |
+| difficult | working | combined | 1044.6 | 12/24 | rules_first_week, R1_preferred, R1_latest, SS_spring, R2_summer, R3_summer | True |
 | difficult | expanded | separate | 1760.4 | 20/24 | rules_first_week, R1_preferred, R1_latest, SS_spring, R2_summer, R3_summer | True |
 | difficult | expanded | combined | 1760.4 | 20/24 | rules_first_week, R1_preferred, R1_latest, SS_spring, R2_summer, R3_summer | True |
 

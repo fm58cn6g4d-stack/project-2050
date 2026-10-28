@@ -9,7 +9,7 @@ Canonical as of Oct 20, 2026. This file applies Governing Decisions D3, D4 (D4-B
 
 The revenue-assignment audit's findings (index/revenue-assignment-audit.md) are built into the channel table and the accounting rule below.
 
-**Where revenue stands after the October 24 family adoption.** General-fund claims are about **$11.50T** over 2030–39 against the **$5.88T** top-end base, a midpoint gap of **$5.62T**. Existing accepted revenue of **$3.71T** and **$1.15T** of accepted investment borrowing leave about **+$0.76T**. No program trims or additional pay-for are selected. The regenerated DEC scenario has a ten-year GF primary deficit of about $2.05T and an FY2040 primary gap of about **$71.9B (0.133% of GDP)**; D4's maturity test therefore fails under the working costs and old surge cash proxy. The previous narrow-pass result predates the family adoption. D4 remains binding: obtain a supported permanent funding choice rather than reclassify recurring benefits as investment. Existing further revenue options remain alternatives, not adopted financing. See the [adoption bridge](../sources/family-adoption-architecture-bridge.md).
+**Where revenue stands after the October 24 family adoption.** General-fund claims are about **$11.72T** over 2030–39 against the **$5.85T** top-end base, a midpoint gap of **$5.87T**. Existing accepted revenue of **$3.71T** and **$1.15T** of accepted investment borrowing leave about **+$0.76T**. No program trims or additional pay-for are selected. The regenerated DEC scenario has a ten-year GF primary deficit of about $2.05T and an FY2040 primary gap of about **$71.9B (0.133% of GDP)**; D4's maturity test therefore fails under the working costs and old surge cash proxy. The previous narrow-pass result predates the family adoption. D4 remains binding: obtain a supported permanent funding choice rather than reclassify recurring benefits as investment. Existing further revenue options remain alternatives, not adopted financing. See the [adoption bridge](../sources/family-adoption-architecture-bridge.md).
 - **Carbon (D7).** REV-C1 runs **$25 a ton in 2030, on D7's steps to about $46 in 2032, then to $150 by 2037** (Espen, Oct 26; was ~$100), road fuels exempt: about **$1.90T** ($1.65-2.10T; carbon model $2.00T), a dividend of about $1.52T (equal per adult) and a transition share of about $0.38T (estimate, set from the carbon model, Oct 26). **REV-C2** (the border adjustment) nets about $0.03T, and **REV-C3** (the IRA methane charge reinstated, with a certified leak-prevention exemption) about $0.02T; both finance CLI-5. The general fund books a 25% income and payroll tax offset on all three (**CX**, about −$0.49T). Road-fuel convergence (REV-C1D) is open and not adopted.
 - **Climate capital under D4.** Borrowing may finance time-limited federal **climate capital**: climate-bank capitalization, contracts for difference obligated at enactment, the subsidy cost of public-power and transmission-corporation lending, and CLI-5's adaptation-finance and minerals-offtake lines. Tax credits and recurring transfers stay paid for.
 - **Estate tax.** REV-G9 already takes back most of the 2025 law's permanent $15M estate exemption, so REV-E1 (C35) is counted as the **increment beyond G9**, about $0.15T.
@@ -23,7 +23,7 @@ Revenue is planned **by channel**. Each dedicated fund is kept whole on its own 
 
 | Channel | Claims it carries | Dedicated revenue in this plan | Gross size (mid) | Domain file |
 | --- | --- | --- | --- | --- |
-| General fund | Health, family benefits, education, climate, housing, agency rebuild, everything else | The top-end base below, plus options needed to close the gap | $11.50T claims / $5.88T base (ledger) | This file |
+| General fund | Health, family benefits, education, climate, housing, agency rebuild, everything else | The top-end base below, plus options needed to close the gap | $11.72T claims / $5.85T base (ledger) | This file |
 | Social Security (OASDI) | Solvency and the D8 benefit pieces | REV-O1 and REV-O2, less the 15% stacking haircut on SS-2 | ~$2.8T revenue | domains/domain-social-security.md |
 | Medicare HI | HI solvency (0.56% of payroll 75-year gap; depletion Q2 2033) | REV-H1a (investment-income tax extended to active pass-through income) and HI's share of the Medicare Advantage savings | ~$1.2T in, ~$0.8-0.9T needed; the ~$0.3T surplus is kept as reserve (D4 read on a 75-year window) | domains/domain-health.md |
 | Paid-leave fund | 12 weeks of paid leave | REV-P1: 0.6%, stepping automatically toward 0.85% if the reserve falls below a year of benefits | ~$0.9T in, ~$0.9T out (up to ~$1.28T in at the cap); no general-fund backstop | domains/domain-family.md |
@@ -238,7 +238,7 @@ The rates count both halves of payroll taxes and are statutory, not effective. W
 
 ## Closing the general-fund gap (D4)
 
-Current working claims are **$11.50T** against the **$5.88T** base, with a **$5.62T** initial gap after the family adoption. D4-B still requires permanent financing at maturity and limits investment borrowing; the adopted family package currently leaves an FY2040 gap of about $71.9B. The option table below retains its source estimates and prior decisions; it is not a list of unused revenue.
+Current working claims are **$11.72T** against the **$5.85T** base, with a **$5.87T** initial gap after the family adoption. D4-B still requires permanent financing at maturity and limits investment borrowing; the adopted family package currently leaves an FY2040 gap of about $71.9B. The option table below retains its source estimates and prior decisions; it is not a list of unused revenue.
 
 | Option | Mid | Reaches the middle? | Basis |
 | --- | --- | --- | --- |
@@ -299,7 +299,7 @@ Current working claims are **$11.50T** against the **$5.88T** base, with a **$5.
 | C40 | REV-HP1: CEO-to-median pay-ratio surtax, with contract and franchise workers counted in the median | 0.08 (0.04-0.15) | 0.018 | Corporations above $100M receipts (25/75 convention) |
 | C41 | REV-HP3: 21% excise on top-five officers' pay above $1M, pay defined as in 162(m) | 0.06 (0.03-0.10) | 0.014 | About 7,500 executives and their firms |
 
-Together about $0.54T. Since the carbon offset was booked (Oct 21) they no longer cover 2040 alone; REV-SC1 (C43) closes the rest (index/fiscal-long-term-model.md). On the incidence model (scenario Q) every quintile below the top still comes out ahead; the fourth quintile nets about +$1,261 a year (a quarter of HP1 is counted on workers, which lowers it slightly), and 72% of new general-fund revenue comes from the top 1% and corporations. **REV-SC1 is already adopted as C43**, so it supplies no second fallback if TS12 scores low; joint downside testing and a separate replacement-revenue decision remain necessary. **REV-HP2 is folded into REV-TS1's drafting** rather than counted separately. TS12 needs a joint score with G3, G9, C18 and SALT before drafting.
+Together about $0.54T. Since the carbon offset was booked (Oct 21) they no longer cover 2040 alone; REV-SC1 (C43) closes the rest (index/fiscal-long-term-model.md). On the incidence model (scenario Q) every quintile below the top still comes out ahead; the fourth quintile nets about +$1,139 a year (a quarter of HP1 is counted on workers, which lowers it slightly), and 72% of new general-fund revenue comes from the top 1% and corporations. **REV-SC1 is already adopted as C43**, so it supplies no second fallback if TS12 scores low; joint downside testing and a separate replacement-revenue decision remain necessary. **REV-HP2 is folded into REV-TS1's drafting** rather than counted separately. TS12 needs a joint score with G3, G9, C18 and SALT before drafting.
 
 **Needs before drafting:** fresh JCT-style scores for TS1, TS2 and TS3 (TS3's Green Book components are verified; the rough 2030-39 score is 0.13) against the post-2025-law baseline (they are three-quarters of the package), and a joint score of TS1 with G1.
 
@@ -449,3 +449,15 @@ The adopted AFA credit and one million new voucher awards replace the previous f
 
 
 **PR #22 integration, October 26.** Count G8 at about $150B gross receipts after the $250B allowance, against its historical $400B comparator. IRS working allocation is $9B surge/$92.4B sustained, including +24,000 enforcement FTE; costs remain inside CAP. Enforcement-only, lagged sensitivity yields about $130–140B centrally, not an official score or guaranteed $150B. Administrative-funding scoring conventions exclude these gains from the official funding score; project fiscal paths carry them explicitly. Historical revenue CSVs retain their vintage.
+
+## O5 incremental receipts and routing (October 28 integration)
+
+The combustion fee retains D7's 80/20 split. REV-C1P is process-emissions coverage of REV-C1 in a separate receipts account, not a second charge on the same combustion base. The statutory waterfall first covers carbon-channel uses not covered by the transition allocation, then the package's remaining GF needs (including CLI-7C expected cost), and returns the remainder to the Climate Dividend. The $150-step transition share already credited to CLI-5 is not available a second time.
+
+| ID | Annual-export accounting, nominal FY2030–39 | $T |
+| --- | --- | ---: |
+| REV-C1P | REV-C1 process-emissions coverage; separate O5 receipts account | 0.244305 |
+| REV-CB1 | REV-C1 combustion receipts change from Package A abatement; preserves D7 80/20 | -0.141630 |
+| REV-CXP | CX: 25% tax offset on incremental process and combustion receipts | -0.025669 |
+
+REV-CB1 is the negative combustion-receipts adjustment from faster abatement, not an additional tax or spendable saving. REV-CXP is CX at 25% of the sum of process receipts and that combustion change; the original CX remains in place. These are export-derived planning estimates, not a joint tax score. CLI-2O records the financing allocation once, with dividend in CLI-2 and gross uses in their program rows.
