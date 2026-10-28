@@ -5,7 +5,7 @@ Run the common build first. Outputs JSON to stdout.
 import importlib.util,json,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3]
-spec=importlib.util.spec_from_file_location('recovery',ROOT/'index/tools/recovery-budget/model.py')
+spec=importlib.util.spec_from_file_location('recovery',ROOT/'models/tools/recovery-budget/model.py')
 m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 f,b,old,u=m.load()
 components=m.education_components(old)

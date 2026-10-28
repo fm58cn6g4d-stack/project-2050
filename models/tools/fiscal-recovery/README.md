@@ -5,7 +5,7 @@
 Source main `beeba090020b7916f8ed08bcff36161fb70d1e69`; comparison review
 `b94507d552e504a7f0c0f0c4ef16368d946557d6`. Full EDU-9B benefit scope and
 payroll institution are adopted. Financing schedules are conditional recommendations.
-Read `sources/fiscal-recovery-and-education-redesign.md`.
+Read `legacy/sources/fiscal-recovery-and-education-redesign.md`.
 
 ## Run
 
@@ -13,23 +13,23 @@ Python 3.9+ and Node.js for the existing common suite; no third-party Python pac
 From repository root:
 
 ```bash
-bash index/tools/run-all.sh --write
-python3 -W ignore::ResourceWarning index/tools/fiscal-recovery/test_model.py
-python3 index/tools/fiscal-recovery/model.py --output-dir /tmp/recovery-check
-sha256sum -c index/tools/fiscal-recovery/MANIFEST.sha256
+bash models/tools/run-all.sh --write
+python3 -W ignore::ResourceWarning models/tools/fiscal-recovery/test_model.py
+python3 models/tools/fiscal-recovery/model.py --output-dir /tmp/recovery-check
+sha256sum -c models/tools/fiscal-recovery/MANIFEST.sha256
 ```
 
 The common runner now generates the original comparison and the education supplement.
 A dry run without `--write` writes only `build/` and compares committed products.
 Standalone `model.py` requires that common build and defaults to the three committed
-outputs: `index/fiscal-recovery-model.md`, `index/data/fiscal-recovery-model.json`,
-`sources/fiscal-recovery-inventory.csv`. `--output-dir` changes all three destinations.
+outputs: `legacy/index/fiscal-recovery-model.md`, `models/data/fiscal-recovery-model.json`,
+`legacy/sources/fiscal-recovery-inventory.csv`. `--output-dir` changes all three destinations.
 Original fiscal CSV, ledger numeric inputs and incidence inputs remain the
 pre-education comparison, **not complete new-policy totals**. Generator-owned notices
 state this. Keeping an explicit bridge avoids turning an unselected contribution rate
 into adopted policy. The public edition remains on its prior source pin.
 
-`index/data/inputs/education-adoption.json` records selected scope and source cost
+`models/data/inputs/education-adoption.json` records selected scope and source cost
 assumptions. `assumptions.json` contains working financing, stress and recovery choices.
 No estate revenue is counted again; no high-end tax haircut is reclaimed. No borrowing
 row or dynamic revenue is a pay-for. Exact filing/self-employment rules, appropriation

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Checks that the transportation model still gives Draft 2's figures. Run from anywhere:
-    python3 index/tools/transportation/test_moving_america.py            # protected figures + golden printout
-    python3 index/tools/transportation/test_moving_america.py --legacy   # also rerun the old overlay stack (Python 3.12+)
+    python3 models/tools/transportation/test_moving_america.py            # protected figures + golden printout
+    python3 models/tools/transportation/test_moving_america.py --legacy   # also rerun the old overlay stack (Python 3.12+)
 A failure means a figure moved. That is a proposal for Espen, not a fix: update Draft 2, then rerun run-all.sh."""
 import os, subprocess, sys, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))

@@ -120,15 +120,15 @@ The suite passes 102 tests, including nonlinear receipt-mixture, household award
 Run from the repository root:
 
 ```bash
-python3 index/tools/child-poverty/run_validation.py
-python3 index/tools/child-poverty/agenda_analysis.py --archive /path/to/asecpub26csv.zip --output index/tools/child-poverty/empirical/agenda-results.json
-python3 index/tools/child-poverty/check_agenda_results.py --results index/tools/child-poverty/empirical/agenda-results.json
-python3 index/tools/child-poverty/report_agenda.py --results index/tools/child-poverty/empirical/agenda-results.json --markdown sources/family-child-poverty-agenda-effects.md --html index/child-poverty-agenda-analysis.html
+python3 models/tools/child-poverty/run_validation.py
+python3 models/tools/child-poverty/agenda_analysis.py --archive /path/to/asecpub26csv.zip --output models/tools/child-poverty/empirical/agenda-results.json
+python3 models/tools/child-poverty/check_agenda_results.py --results models/tools/child-poverty/empirical/agenda-results.json
+python3 models/tools/child-poverty/report_agenda.py --results models/tools/child-poverty/empirical/agenda-results.json --markdown legacy/sources/family-child-poverty-agenda-effects.md --html legacy/index/child-poverty-agenda-analysis.html
 ```
 
 The assumptions file names every research convention and its basis. The result file records the official archive hash, assumptions hash and official input-subset hashes. The package manifest supplies code/output integrity hashes. The source data remain outside Git; the official archive URL is recorded in the baseline report.
 
-Primary references: [Census 2025 poverty report](https://www2.census.gov/library/publications/2026/demo/p60-290.pdf), [Census SPM technical documentation](https://www2.census.gov/programs-surveys/supplemental-poverty-measure/datasets/spm/spm_techdoc.pdf), [2026 ASEC dictionary](https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asec2026_ddl_pub_full.pdf), [2025 HHS poverty guidelines](https://public-inspection.federalregister.gov/2025-01377.pdf), and [CBO official machine-readable data](https://www.cbo.gov/data/budget-economic-data). Project policy authority is the governing document and canonical FAM, EDU and HOU files; the carbon extension uses index/climate-carbon-model.md.
+Primary references: [Census 2025 poverty report](https://www2.census.gov/library/publications/2026/demo/p60-290.pdf), [Census SPM technical documentation](https://www2.census.gov/programs-surveys/supplemental-poverty-measure/datasets/spm/spm_techdoc.pdf), [2026 ASEC dictionary](https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asec2026_ddl_pub_full.pdf), [2025 HHS poverty guidelines](https://public-inspection.federalregister.gov/2025-01377.pdf), and [CBO official machine-readable data](https://www.cbo.gov/data/budget-economic-data). Project policy authority is the governing document and canonical FAM, EDU and HOU files; the carbon extension uses legacy/index/climate-carbon-model.md.
 
 The four child-poverty report exports were available locally. The attached bibliography again returned no readable content, and its saved-file download failed; it was not treated as evidence. The analysis implements Espen's direction to complete bounded agenda scenarios without overbuilding a speculative target-year current-law forecast. It adopts no new policy, eligibility rule or poverty target.
 '''

@@ -5,7 +5,7 @@ import climate_bridge as C
 class ClimateBridgeTests(unittest.TestCase):
     def test_exported_totals_and_finite_capital(self):
         b=json.loads(C.SOURCE.read_text())['budget']
-        p=json.loads((C.ROOT/'index/tools/climate-portfolio/pricing.json').read_text())
+        p=json.loads((C.ROOT/'models/tools/climate-portfolio/pricing.json').read_text())
         for case in b['cases']:
             a=C.adjustments(b,case,p['inflation'],p['disaster']['ramp'])
             gf,cap=[v['annual_bn'] for v in a.values()]

@@ -1,5 +1,5 @@
 # Project 2050 PR checks. Required checks for main: rebuild-and-tests (this job), and the commit statuses
-# merge-tier and agent-review (set by the gate job here and by agent-gate.yml). Rules: governing/project-collaboration.md.
+# merge-tier and agent-review (set by the gate job here and by agent-gate.yml). Rules: legacy/governing/project-collaboration.md.
 name: PR checks
 on:
   pull_request:

@@ -5,7 +5,7 @@ YRS = list(range(2030, 2040))
 def norm(v): s = sum(v); return [x / s for x in v]
 grow = [1.04 ** i for i in range(10)]
 def ramp(levels): return norm([l * g for l, g in zip(levels, grow)])
-# Phase-in profiles, index/data/inputs/incidence-phase-in.csv: "ramp" levels grow 4% a year and are normalised;
+# Phase-in profiles, models/data/inputs/incidence-phase-in.csv: "ramp" levels grow 4% a year and are normalised;
 # "norm" levels are normalised as typed; same_as borrows another row's profile.
 P = {}
 for r in read("incidence-phase-in.csv"):

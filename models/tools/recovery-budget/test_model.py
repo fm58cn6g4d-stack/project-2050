@@ -6,7 +6,7 @@ import model as M
 class BudgetTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.paths=['index/data/fiscal-baseline.csv','index/data/fiscal-paths.csv','index/data/inputs/education-adoption.json']
+        cls.paths=['models/data/fiscal-baseline.csv','models/data/fiscal-paths.csv','models/data/inputs/education-adoption.json']
         cls.hashes={p:hashlib.sha256((M.ROOT/p).read_bytes()).hexdigest() for p in cls.paths}
         cls.d=M.run(); cls.f,cls.b,cls.m,cls.u=M.load()
 

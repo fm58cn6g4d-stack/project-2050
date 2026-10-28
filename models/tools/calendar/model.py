@@ -16,8 +16,8 @@ def window(s):
  if s.endswith('summer'):return f'{y}-06-01',f'{y}-08-31'
  m=int(s[5:7]);return f'{y}-{m:02}-01',f'{y}-{m:02}-{calendar.monthrange(y,m)[1]}'
 def load(root=ROOT):
- c=json.loads((root/'index/data/inputs/calendar-scenarios.json').read_text())
- with (root/'index/data/inputs/ledger-bills.csv').open() as f:rows=list(csv.DictReader(f))
+ c=json.loads((root/'models/data/inputs/calendar-scenarios.json').read_text())
+ with (root/'models/data/inputs/ledger-bills.csv').open() as f:rows=list(csv.DictReader(f))
  fast={'INT-1','CAP-8','LAB-9D'};items=[]
  for r in rows:
   if r['rail']!='FLOOR' or float(r['floor_days'])<=0 or r['id']=='D2-RULES':continue

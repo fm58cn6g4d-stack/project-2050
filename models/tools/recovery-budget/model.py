@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(__file__).resolve().parent
 A = json.loads((HERE/'assumptions.json').read_text())
-ADOPTION = json.loads((ROOT/'index/data/inputs/recovery-adoption.json').read_text())
+ADOPTION = json.loads((ROOT/'models/data/inputs/recovery-adoption.json').read_text())
 A['spending'] = ADOPTION['spending']
 A['leave']['cap_points'] = ADOPTION['leave_cap_points']
 Y = range(2026,2057)
@@ -25,9 +25,9 @@ def geometric(points,y):
     return points[lo]*(points[hi]/points[lo])**((y-lo)/(hi-lo))
 
 def load():
-    sys.path.insert(0,str(ROOT/'index/tools'))
-    f=module('rb_fiscal',ROOT/'index/tools/fiscal-model.py')
-    b=f.read_baseline(ROOT/'index/data/fiscal-baseline.csv')
+    sys.path.insert(0,str(ROOT/'models/tools'))
+    f=module('rb_fiscal',ROOT/'models/tools/fiscal-model.py')
+    b=f.read_baseline(ROOT/'models/data/fiscal-baseline.csv')
     m=json.loads((ROOT/'build/fiscal-model.json').read_text())
     with tempfile.TemporaryDirectory() as tmp:
         for name in ('ledger.json','fiscal-model.json','moving-america.json'):
@@ -35,7 +35,7 @@ def load():
         before=os.getcwd()
         try:
             os.chdir(tmp)
-            with contextlib.redirect_stdout(io.StringIO()): funds=module('rb_funds',ROOT/'index/tools/funds-model.py')
+            with contextlib.redirect_stdout(io.StringIO()): funds=module('rb_funds',ROOT/'models/tools/funds-model.py')
         finally: os.chdir(before)
     return f,b,m,funds
 
@@ -367,12 +367,12 @@ def run():
         x={r['year']:r for r in c['rows']}; z={r['year']:r for r in plus['rows']}
         required=max((x[y]['debt_gdp']-x[y-1]['debt_gdp'])/((x[y]['debt_gdp']-x[y-1]['debt_gdp'])-(z[y]['debt_gdp']-z[y-1]['debt_gdp'])) for y in range(2045,2057))
         solutions[name]=max(0,A['tax']['broad_rate_points']+required)
-    inputs=['index/data/fiscal-baseline.csv','index/data/inputs/education-adoption.json',
-            'index/data/inputs/recovery-adoption.json',
-            'index/tools/recovery-budget/assumptions.json','build/fiscal-model.json','build/ledger.json',
-            'index/tools/fiscal-profiles.py','index/tools/funds-model.py',
-            'sources/education-transforming-education-act-analysis-and-trust-fund.md']
-    inputs+=sorted(str(p.relative_to(ROOT)) for p in (ROOT/'index/data/inputs').glob('funds-*.csv'))
+    inputs=['models/data/fiscal-baseline.csv','models/data/inputs/education-adoption.json',
+            'models/data/inputs/recovery-adoption.json',
+            'models/tools/recovery-budget/assumptions.json','build/fiscal-model.json','build/ledger.json',
+            'models/tools/fiscal-profiles.py','models/tools/funds-model.py',
+            'legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md']
+    inputs+=sorted(str(p.relative_to(ROOT)) for p in (ROOT/'models/data/inputs').glob('funds-*.csv'))
     result=dict(status=A['status'],adoption=ADOPTION,source_commit=A['source_commit'],units='nominal $B; window totals $T; federal fiscal years',
                 source_sha256={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in inputs},
                 education_components=components,consolidated_childcare=education_components(m,consolidated=True),
@@ -428,7 +428,7 @@ if __name__=='__main__':
     p=argparse.ArgumentParser(); p.add_argument('--output-dir',type=Path); args=p.parse_args()
     d=run(); dest=args.output_dir or ROOT/'build/recovery-budget'; dest.mkdir(parents=True,exist_ok=True)
     export=dict(d,cases={k:{n:v for n,v in c.items() if n!='audit'} for k,c in d['cases'].items()},
-                audit_file='sources/recovery-budget-audit.csv')
+                audit_file='legacy/sources/recovery-budget-audit.csv')
     (dest/'recovery-budget.json').write_text(json.dumps(export,indent=2)+'\n')
     (dest/'recovery-budget.md').write_text(markdown(d))
     write_csv(dest/'education-component-reconciliation.csv',d['education_components'])

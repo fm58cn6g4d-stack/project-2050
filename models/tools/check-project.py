@@ -20,7 +20,7 @@ import window
 def find_root():
     for d in (os.environ.get("P2050_ROOT"), os.getcwd(), os.path.dirname(os.path.abspath(__file__))):
         while d and d != os.path.dirname(d):
-            if os.path.isdir(os.path.join(d, "governing")) and os.path.isdir(os.path.join(d, "domains")): return d
+            if os.path.isdir(os.path.join(d, "legacy/governing")) and os.path.isdir(os.path.join(d, "legacy/domains")): return d
             d = os.path.dirname(d)
     raise SystemExit("check-project: repo root not found")
 ROOT = find_root()
@@ -29,11 +29,11 @@ rel = lambda p: os.path.relpath(p, ROOT)
 # Documents a headline figure may be quoted in. Decision briefs and sources are records of their day; generated
 # index files are computed. The data/inputs CSVs are checked for IDs and stale phrases only.
 def doc_files(stale=False):
-    fs = [os.path.join(ROOT, "CLAUDE.md"), os.path.join(ROOT, "governing", "project-2050-governing-decisions.md"),
-          os.path.join(ROOT, "index", "options-register.md"), os.path.join(ROOT, "index", "revenue-assignment-audit.md"),
-          os.path.join(ROOT, "index", "tools", "readme.md")]
-    fs += sorted(os.path.join(ROOT, "domains", f) for f in os.listdir(os.path.join(ROOT, "domains")) if f.endswith(".md"))
-    if stale: fs += sorted(os.path.join(ROOT, "frameworks", f) for f in os.listdir(os.path.join(ROOT, "frameworks")) if f.endswith(".md"))
+    fs = [os.path.join(ROOT, "CLAUDE.md"), os.path.join(ROOT, "legacy/governing", "project-2050-governing-decisions.md"),
+          os.path.join(ROOT, "legacy/index", "options-register.md"), os.path.join(ROOT, "legacy/index", "revenue-assignment-audit.md"),
+          os.path.join(ROOT, "models", "tools", "readme.md")]
+    fs += sorted(os.path.join(ROOT, "legacy/domains", f) for f in os.listdir(os.path.join(ROOT, "legacy/domains")) if f.endswith(".md"))
+    if stale: fs += sorted(os.path.join(ROOT, "legacy/frameworks", f) for f in os.listdir(os.path.join(ROOT, "legacy/frameworks")) if f.endswith(".md"))
     return [f for f in fs if os.path.exists(f)]
 
 def lines(f):
@@ -118,14 +118,14 @@ ID = re.compile(r"\b(" + "|".join(PREFIX_FILE) + r")-((?:[A-Z]{1,3})?\d+[A-Za-z]
 def check_ids():
     defined = {}
     for p, fn in PREFIX_FILE.items():
-        text = open(os.path.join(ROOT, "domains", fn), encoding="utf-8").read()
+        text = open(os.path.join(ROOT, "legacy/domains", fn), encoding="utf-8").read()
         defined[p] = {f"{p}-{m.group(2)}" for m in ID.finditer(text) if m.group(1) == p}
     def known(p, i):
         if i in defined[p]: return True
         base = re.sub(r"[a-z]$", "", i)          # REV-C1a style sub-letters count if the parent is defined
         return base in defined[p]
     missing = {}
-    sources = doc_files() + [os.path.join(ROOT, "governing", f) for f in os.listdir(os.path.join(ROOT, "governing"))]
+    sources = doc_files() + [os.path.join(ROOT, "legacy/governing", f) for f in os.listdir(os.path.join(ROOT, "legacy/governing"))]
     sources += [input_path(f) for f in ("ledger-bills.csv", "ledger-revenue.csv", "ledger-cuts.csv", "ledger-conflicts.csv", "incidence-rows.csv")]
     for f in sorted(set(sources)):
         for n, line in enumerate(lines(f), 1):
@@ -137,18 +137,18 @@ def check_ids():
     for b in L["bills"]:
         p = b["id"].split("-")[0]
         if p in PREFIX_FILE and p != "MOV" and b["id"] not in defined[p]:
-            ledger.append((b["id"], f"not found in domains/{PREFIX_FILE[p]}"))
-    rv = open(os.path.join(ROOT, "domains", "domain-revenue.md"), encoding="utf-8").read()
+            ledger.append((b["id"], f"not found in legacy/domains/{PREFIX_FILE[p]}"))
+    rv = open(os.path.join(ROOT, "legacy/domains", "domain-revenue.md"), encoding="utf-8").read()
     channel_rows = re.compile(r"^(MR\d|PS\d|MF1|IF1|AI6|W\d|O\d|OX|P1|T1|E1|H1[ab]|C\d)$")
     for r in L["revenue"]:
         if f"REV-{r['id']}" not in rv and not channel_rows.match(r["id"]):
-            ledger.append((r["id"], "no REV- entry in domains/domain-revenue.md"))
-    reg = open(os.path.join(ROOT, "index", "options-register.md"), encoding="utf-8").read()
+            ledger.append((r["id"], "no REV- entry in legacy/domains/domain-revenue.md"))
+    reg = open(os.path.join(ROOT, "legacy/index", "options-register.md"), encoding="utf-8").read()
     cut_ids = {c["id"] for c in L["cuts"]}
     for c in sorted(cut_ids, key=lambda x: (len(x), x)):
-        if not re.search(rf"\b{c}\b", reg): ledger.append((c, "not in index/options-register.md"))
+        if not re.search(rf"\b{c}\b", reg): ledger.append((c, "not in legacy/index/options-register.md"))
     for c in sorted({m.group(0) for m in re.finditer(r"(?<![-\w])C\d{1,2}b?\b", reg)} - cut_ids, key=lambda x: (len(x), x)):
-        ledger.append((c, "in index/options-register.md but not in ledger-cuts.csv"))
+        ledger.append((c, "in legacy/index/options-register.md but not in ledger-cuts.csv"))
     return missing, ledger
 
 # ---------------------------------------------------------------------------------------------
@@ -158,7 +158,7 @@ STALE = [
  (r"2033 queue", r"no 2033 queue", "D1: no 2033 queue except DEM-3, DEM-4, DEM-9"),
  (r"\bD2\b[^.;]{0,25}\b(?:open|OPEN)\b", r"was open|reopen|no longer open", "D2 is decided (F, Oct 20)"),
  (r"fully paid for over ten years", r"was|before D4-B|D4-A|old", "D4-B (Oct 20): permanent programs paid for at maturity, not over ten years"),
- (r"65-72%|65% to 72%|86-92%", r"$^", "D8 on SSA's 2026 scores: about 64%, 84% with SS-5 (index/dedicated-funds.md)"),
+ (r"65-72%|65% to 72%|86-92%", r"$^", "D8 on SSA's 2026 scores: about 64%, 84% with SS-5 (legacy/index/dedicated-funds.md)"),
  (r"\bclaude/", r"not claude/|\(not claude/|old `?claude/|claude\.ai Project", "old claude.ai Project path"),
  (r"\$10\.06T|\$3\.69T|\$10\.48T|\$4\.11T|\$4\.13T", None, "an earlier headline figure"),
  (r"Beyond Health Care", r"superseded|archive|ideas only|replaces|assume", "Beyond Health Care is superseded (archive, ideas only)"),
@@ -197,7 +197,7 @@ def amounts(line, ident=None):
 def check_reconcile():
     rows = []
     def one(i, mid, lo, hi, fn, aliases):
-        text = lines(os.path.join(ROOT, "domains", fn))
+        text = lines(os.path.join(ROOT, "legacy/domains", fn))
         found = []
         for line in text:
             if any(re.search(rf"\b{re.escape(a)}\b", line) for a in aliases): found += amounts(line, aliases[0])
@@ -210,11 +210,11 @@ def check_reconcile():
         p = b["id"].split("-")[0]
         if p not in PREFIX_FILE or p == "MOV" or b["cost_mid"] == 0: continue
         r = one(b["id"], b["cost_mid"], b["cost_lo"], b["cost_hi"], PREFIX_FILE[p], [b["id"]])
-        if r: rows.append((b["id"], b["cost_mid"], "domains/" + PREFIX_FILE[p], r[0], r[1], b["basis_note"]))
+        if r: rows.append((b["id"], b["cost_mid"], "legacy/domains/" + PREFIX_FILE[p], r[0], r[1], b["basis_note"]))
     for v in L["revenue"]:
         if v["mid"] == 0 or v["id"].startswith(("MR", "PS", "MF", "IF", "W", "T1", "O", "P1")): continue
         r = one(v["id"], v["mid"], v["lo"], v["hi"], "domain-revenue.md", [f"REV-{v['id']}"])
-        if r: rows.append((v["id"], v["mid"], "domains/domain-revenue.md", r[0], r[1], v["overlap"]))
+        if r: rows.append((v["id"], v["mid"], "legacy/domains/domain-revenue.md", r[0], r[1], v["overlap"]))
     return rows
 
 # ---------------------------------------------------------------------------------------------
@@ -269,8 +269,8 @@ def main():
     A("# Project consistency check\n")
     funding = json.load(open("capacity-funding.json"))
     if funding["fy2029_outlay_bn"] is None:
-        A("**Outstanding surge costing:** CAP-7S is fully available on enactment in FY2029, targeting R1; FY2029 cash is unpriced, not zero. Fiscal/debt/interest/envelope results retain the old cash proxy and do not validate acceleration. Reconciliation eligibility remains pending. See index/capacity-funding-model.md.\n")
-    A("*Generated by index/tools/check-project.py on each run of run-all.sh. Do not edit by hand. It lists where the documents and the input tables disagree with this run's results or with each other, and changes nothing: each finding is for Espen or a later session to decide. Decision briefs and sources/ are records of their day and are not checked for headline numbers.*\n")
+        A("**Outstanding surge costing:** CAP-7S is fully available on enactment in FY2029, targeting R1; FY2029 cash is unpriced, not zero. Fiscal/debt/interest/envelope results retain the old cash proxy and do not validate acceleration. Reconciliation eligibility remains pending. See legacy/index/capacity-funding-model.md.\n")
+    A("*Generated by models/tools/check-project.py on each run of run-all.sh. Do not edit by hand. It lists where the documents and the input tables disagree with this run's results or with each other, and changes nothing: each finding is for Espen or a later session to decide. Decision briefs and legacy/sources/ are records of their day and are not checked for headline numbers.*\n")
     A(f"**Summary:** {len(head)} stale headline figures (and {len(dated)} in dated passages); {len(missing)} IDs cited but not found in their domain file; {len(ledger_ids)} ledger or register ID mismatches; {len(stale)} stale phrases; {len(rec)} ledger rows to reconcile against their domain file; {len(tables)} table findings. Headline mentions that match: {ok}; skipped as historical: {hist}.\n")
     A("## 1. Headline numbers\n")
     A("Current values from this run: " + "; ".join(f"{n} {fmt.format(v)}" for n, v, fmt, *_ in FACTS) + ".\n")
@@ -307,7 +307,7 @@ def main():
         for i, mid, f, w, near, note in rec: A(f"| {i} | {mid} | {f} | {w} | {', '.join(str(x) for x in near) or '—'} | {note.replace('|', '/')} |")
     else: A("Every ledger row's figure appears in its domain file.")
     A("\n## 5. Scaled figures\n")
-    A("Revenue rows whose source quotes a ten-year figure in another window, rescaled to 2030-39 by nominal GDP (index/tools/window.py, CBO's February 2026 path). A large difference means the row carries a haircut, a newer score or a different base; the row's note should say which.\n")
+    A("Revenue rows whose source quotes a ten-year figure in another window, rescaled to 2030-39 by nominal GDP (models/tools/window.py, CBO's February 2026 path). A large difference means the row carries a haircut, a newer score or a different base; the row's note should say which.\n")
     if scaled:
         A("| ID | Source figure | Rescaled to 2030-39 ($T) | Ledger middle ($T) | Difference |\n| --- | --- | --- | --- | --- |")
         for i, src, sc, mid, d in scaled: A(f"| {i} | {src} | {sc} | {mid} | {d:+.0%} |")

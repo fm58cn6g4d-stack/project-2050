@@ -17,7 +17,7 @@ All dollar amounts are **annual dollars of the target year**. `spm_resources` is
 ## Example invocation
 
 ```bash
-python3 index/tools/child-poverty/model.py \
+python3 models/tools/child-poverty/model.py \
   --units /path/to/units.csv --taxes /path/to/taxes.csv \
   --people /path/to/people.csv --year 2030 \
   --vintage 'CPS ASEC 2026, analyst extract v1 aged to 2030' \
@@ -50,5 +50,5 @@ The model reports child SPM poverty, deep poverty, below-150%-of-threshold, chil
 - Run synthetic unit tests, weighted identities, phaseout edge cases, and 2030/2034 outputs; add CPS replicate-weight confidence intervals and sensitivity bands before publishing any poverty rate.
 - Compare alternatives (FAM-1D, HOU-4C, enhanced delivery) as **proposals**, with incremental cost and D3/D4 constraints, only after baseline validation.
 
-**Authority:** `governing/project-2050-governing-decisions.md`; `governing/project-instructions.md`; `sources/family-child-poverty-model-brief.md`; `domains/domain-family.md`, `domain-education.md`, `domain-housing.md`. Source branch `claude/pensive-mendel-g1lwl5`, commit `14feb987a7d8aec416ba5bacc50880187a756383`. This prototype branch does not supersede it.
+**Authority:** `legacy/governing/project-2050-governing-decisions.md`; `legacy/governing/project-instructions.md`; `legacy/sources/family-child-poverty-model-brief.md`; `legacy/domains/domain-family.md`, `domain-education.md`, `domain-housing.md`. Source branch `claude/pensive-mendel-g1lwl5`, commit `14feb987a7d8aec416ba5bacc50880187a756383`. This prototype branch does not supersede it.
 

@@ -15,27 +15,27 @@ Espen adopted FAM-1D/AFA and one million total new HOU-4A awards; HOU-4C remains
 Python 3.9 or later, standard library only; verified here with Python 3.12.14. From the repository root:
 
 ```bash
-python3 index/tools/child-poverty/run_validation.py
+python3 models/tools/child-poverty/run_validation.py
 ```
 
 The runner works from other working directories too. It executes 117 unit/regression/extension tests, demonstrates the original mixed-sibling attribution defect against the exact recovered source, exercises a raw CSV-in-ZIP preprocessing/baseline pipeline and the model CLI, and generates 24 artificial scenario rows: two years × three identification branches × four receipt scenarios. It writes `diagnostics/`, including test results, JSON ledgers, CSV tables and hashes. Everything in `synthetic/` and `diagnostics/` is artificial. Official-data executions are separately recorded in `empirical/`.
 
-The `synthetic/` JSON fixtures are inspectable and reproducible with `python3 index/tools/child-poverty/fixtures.py`. Test receipt/index/reference values are **not** production tax parameters. A full-receipt case does not create a care slot or award a voucher. Enhanced delivery may explicitly add a service that was unavailable under the supplied baseline supply assumptions.
+The `synthetic/` JSON fixtures are inspectable and reproducible with `python3 models/tools/child-poverty/fixtures.py`. Test receipt/index/reference values are **not** production tax parameters. A full-receipt case does not create a care slot or award a voucher. Enhanced delivery may explicitly add a service that was unavailable under the supplied baseline supply assumptions.
 
 ## Run the completed conditional agenda analysis
 
 Espen authorized completing bounded agenda experiments without overbuilding a speculative 2030/2034 current-law forecast. `agenda_analysis.py` uses the real CPS resource/claimant structure, the shared credit and care arithmetic, discrete receipt/allocation mixtures, and explicit assumptions in `agenda-assumptions.json`. It does not weaken the separate policy-ready validation gates below or label proxy inputs as audited target-year data.
 
 ```bash
-python3 index/tools/child-poverty/agenda_analysis.py \
+python3 models/tools/child-poverty/agenda_analysis.py \
   --archive /path/to/asecpub26csv.zip \
-  --output index/tools/child-poverty/empirical/agenda-results.json
-python3 index/tools/child-poverty/check_agenda_results.py \
-  --results index/tools/child-poverty/empirical/agenda-results.json
-python3 index/tools/child-poverty/report_agenda.py \
-  --results index/tools/child-poverty/empirical/agenda-results.json \
-  --markdown sources/family-child-poverty-agenda-effects.md \
-  --html index/child-poverty-agenda-analysis.html
+  --output models/tools/child-poverty/empirical/agenda-results.json
+python3 models/tools/child-poverty/check_agenda_results.py \
+  --results models/tools/child-poverty/empirical/agenda-results.json
+python3 models/tools/child-poverty/report_agenda.py \
+  --results models/tools/child-poverty/empirical/agenda-results.json \
+  --markdown legacy/sources/family-child-poverty-agenda-effects.md \
+  --html legacy/index/child-poverty-agenda-analysis.html
 ```
 
 See the [results and methods](../../../sources/family-child-poverty-agenda-effects.md) and [interactive analysis](../../child-poverty-agenda-analysis.html). Eight main cases and 42 sensitivities cover CTC, joint care/pre-K, net food assistance, scarce household vouchers and employee leave costs, with optional temporary cash, carbon and health proxies. Legal coverage and delivery are research assumptions, never imputed SSN/ITIN status. Main results preserve baseline credits; indexing, age 17, ODC and unresolved claimant conventions are branched. The matched source-year EITC/ACTC-removal comparator passes public-use/internal tolerances. No employment response is credited. Sampling intervals do not cover model or parameter uncertainty; the main estimate is not all Project2050 household effects or a fiscal score.
@@ -45,23 +45,23 @@ See the [results and methods](../../../sources/family-child-poverty-agenda-effec
 The [model review](../../../sources/family-poverty-model-review-and-extension.md) distinguishes incomplete scope from demonstrated defects, maps FAM-1D to the American Family Act and records the approved comparison directions. `comparison_analysis.py` reuses the existing parser/service/receipt/replicate routines. It produces [separate generated checks](../../../sources/family-comparison-model-checks.md), leaving the published eight-case experiment intact.
 
 ```bash
-python3 -m unittest discover -s index/tools/child-poverty -p 'test_*.py'
-python3 index/tools/child-poverty/comparison_analysis.py
-python3 index/tools/child-poverty/comparison_analysis.py --archive /path/to/asecpub26csv.zip
+python3 -m unittest discover -s models/tools/child-poverty -p 'test_*.py'
+python3 models/tools/child-poverty/comparison_analysis.py
+python3 models/tools/child-poverty/comparison_analysis.py --archive /path/to/asecpub26csv.zip
 ```
 
 Without an archive the new national effects are null, explicitly not run. Only the executed constant-real 2034 reference carried to 2040/2050 and conditional tax-award examples are generated. With the hash-verified archive it compares credit/price/newborn, delivery and housing-reach alternatives, including joint cases and signed credit losses. These are annual exposure analogues, not a complete monthly AFA tax-law simulation or adopted changes. New tests use artificial units only. The national matrix was subsequently executed using user-uploaded Census members after the direct download was blocked. The member hashes, record counts, source-year comparator, full source-year baseline (except repacked-container hash) and all three adopted 2034 delivery cases were checked; see the source manifest and generated results.
 
-`--source-manifest sources/family-census-upload-manifest.json` permits a repacked local ZIP of the exact user-uploaded members, with streaming member-hash verification and distinct provenance; it does not assert the original Census ZIP hash. Raw data stay outside GitHub.
+`--source-manifest legacy/sources/family-census-upload-manifest.json` permits a repacked local ZIP of the exact user-uploaded members, with streaming member-hash verification and distinct provenance; it does not assert the original Census ZIP hash. Raw data stay outside GitHub.
 
-`--overlays` accepts reviewed net health, tax/transfer/earnings and leave inputs in 2025 dollars; no estimates are supplied by default. `--paths sources/family-later-year-scenario-paths.json` executes the filed conditional maturity/resource-stress cases; the national sixteen-case matrix reproduced identically on a second run. `--paths` also accepts other explicitly reviewed year/delivery/resource-stress records. Both require documented baseline/overlap or scenario review, and neither predicts economic growth, cohort aging or future child populations. See the review for contracts, primary bill text and access limits. Federal cost stays unpriced; poverty effects do not certify D3/D4.
+`--overlays` accepts reviewed net health, tax/transfer/earnings and leave inputs in 2025 dollars; no estimates are supplied by default. `--paths legacy/sources/family-later-year-scenario-paths.json` executes the filed conditional maturity/resource-stress cases; the national sixteen-case matrix reproduced identically on a second run. `--paths` also accepts other explicitly reviewed year/delivery/resource-stress records. Both require documented baseline/overlap or scenario review, and neither predicts economic growth, cohort aging or future child populations. See the review for contracts, primary bill text and access limits. Federal cost stays unpriced; poverty effects do not certify D3/D4.
 
 ## Run a prepared research case
 
 ```bash
-python3 index/tools/child-poverty/model.py \
-  --data index/tools/child-poverty/synthetic/population.json \
-  --policy index/tools/child-poverty/synthetic/policy-2030.json \
+python3 models/tools/child-poverty/model.py \
+  --data models/tools/child-poverty/synthetic/population.json \
+  --policy models/tools/child-poverty/synthetic/policy-2030.json \
   --output build/child-poverty/synthetic-2030.json
 ```
 
@@ -80,19 +80,19 @@ Monthly fractions describe the year cash arrives, including late catch-up paymen
 The official 2026 ASEC archive (income year 2025) has now been executed using the actual poverty and SDR routines. See [the empirical integration report](../../../sources/family-child-poverty-cps-baseline.md) for input URL/hash, field scaling, checks and limitations; results are in [empirical/cps-2026-baseline.json](empirical/cps-2026-baseline.json). Reproduce from the repository root:
 
 ```bash
-python3 index/tools/child-poverty/cps_baseline.py \
+python3 models/tools/child-poverty/cps_baseline.py \
   --archive /path/to/asecpub26csv.zip --output /path/to/cps-2026-baseline.json
 ```
 
 This source-specific adapter measures existing SPM resources without inventing missing tax or identification assignments. Its successful join and calibration do not validate the generic policy preprocessor's claimant/tax construction. For a separately reviewed policy-ready input, use the generic pipeline below.
 
 ```bash
-python3 index/tools/child-poverty/preprocess.py \
+python3 models/tools/child-poverty/preprocess.py \
   --raw /path/to/cps-person.csv --mapping /path/to/reviewed-field-map.json \
   --replicates /path/to/replicate-weights.csv --output /path/to/source-year.json
-python3 index/tools/child-poverty/model.py \
+python3 models/tools/child-poverty/model.py \
   --data /path/to/source-year.json --baseline-only --output /path/to/baseline.json
-python3 index/tools/child-poverty/calibrate.py \
+python3 models/tools/child-poverty/calibrate.py \
   --data /path/to/source-year.json --benchmark /path/to/reviewed-benchmark.json \
   --output /path/to/comparison.json
 ```
@@ -108,7 +108,7 @@ Policy overlays add reviewed claimant/dependent assignments, actual current-law 
 The [target-year preparation report](../../../sources/family-child-poverty-target-year-preparation.md) records the exact source-year tax/SPM reconciliation, separate own-return and dependent-claimant links, official CBO calendar-year and CTC parameter extracts, and two demographic sensitivities. Reproduce the empirical audit and optional claimant crosswalk with:
 
 ```bash
-python3 index/tools/child-poverty/cps_projection.py \
+python3 models/tools/child-poverty/cps_projection.py \
   --archive /path/to/asecpub26csv.zip \
   --output build/child-poverty/cps-target-year-preparation.json \
   --crosswalk-output build/child-poverty/cps-claimant-crosswalk.csv
@@ -134,6 +134,6 @@ Child-weighted gaps repeat a unit's shortfall for each child. They are not a sup
 
 Source-year measurement, tax/SPM reconciliation, replicate calculation, a matched element-removal comparator and conditional joint agenda experiments are complete. More precise claims would require reviewed target-year tax/transfer recomputation and controls, legal identification/phaseout/reconciliation rules, empirically estimated delivery and service supply, administrative alignment, employment responses and remaining whole-package interactions. These are limitations/refinements of the published scenarios; a speculative current-law forecast is not a prerequisite for the bounded experiments Espen requested. No eradication claim, permanent-policy cost or new policy selection follows from them.
 
-See `sources/family-child-poverty-rebuild-findings-and-integration.md` for recovery findings, policy decisions needed and the staged integration plan. `run-all.sh` is intentionally unchanged: national runs must remain separate from the existing fiscal and quintile tools until the empirical inputs are validated.
+See `legacy/sources/family-child-poverty-rebuild-findings-and-integration.md` for recovery findings, policy decisions needed and the staged integration plan. `run-all.sh` is intentionally unchanged: national runs must remain separate from the existing fiscal and quintile tools until the empirical inputs are validated.
 
-Create a reproducible standalone bundle with `python3 index/tools/child-poverty/package.py --out /path/to/rebuilt-model.zip`. The ZIP includes tests, diagnostics, provenance and a SHA-256 manifest.
+Create a reproducible standalone bundle with `python3 models/tools/child-poverty/package.py --out /path/to/rebuilt-model.zip`. The ZIP includes tests, diagnostics, provenance and a SHA-256 manifest.

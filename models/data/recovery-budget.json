@@ -69,22 +69,22 @@
   "source_commit": "348d6ae3bcdbea06d4c58e889b6be5b42c6e1b7a",
   "units": "nominal $B; window totals $T; federal fiscal years",
   "source_sha256": {
-    "index/data/fiscal-baseline.csv": "94660448f9e78071a3647351e2467dc28abd2aea9c8923284a82593403b704e7",
-    "index/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
-    "index/data/inputs/recovery-adoption.json": "c3fb76093f80febfa660af15441e56d5368ffb7766f1b11928af0bdec0e04dd6",
-    "index/tools/recovery-budget/assumptions.json": "68e2d292428bec651aa40c9e807c8863c744fceb01c32e3122d233dad1798194",
-    "build/fiscal-model.json": "d0cc2e0f32e00d56dd9a771f056b98f8a32853e1aba62e2664ffc6f3f7c429eb",
-    "build/ledger.json": "384afdc5f35611b330e6afe306db237488a7b65160ade886cddd0581e1f7a37d",
-    "index/tools/fiscal-profiles.py": "b6cf21079a6442b5d98b904932d8b55d044a9c98770f7aae3e1ca9860bea1ebc",
-    "index/tools/funds-model.py": "1e234d0ea254d4151f27e027ee75e78dca5e196fe3c62130b994bbe2818a52d3",
-    "sources/education-transforming-education-act-analysis-and-trust-fund.md": "650339290894199f44c0450abfc89292fb9537810baf5aed5f0ce5fbd914625c",
-    "index/data/inputs/funds-hi-rates.csv": "3c7205fb818b3d3cd39956b2550b1792af6e0ff0b250b99e2ac02ae047812245",
-    "index/data/inputs/funds-parameters.csv": "429fc2e1bad27ce471c01e918ead40fd81d3975d18722113395d9df2c50cdb38",
-    "index/data/inputs/funds-ss-economics.csv": "06da6a41f50be9c8d35a319b70fe33bc1cc5563bc19b54623b59291499eee657",
-    "index/data/inputs/funds-ss-provisions.csv": "07d859da6154f28351163d663a89858bc82a97b3dc64f3feb6b4bf006e649cb8",
-    "index/data/inputs/funds-ss-rates.csv": "c6388ac3a0688374d3e9a5accfcaff2ab1e5a336f530df447fe3cc6166cf5d1e",
-    "index/data/inputs/funds-ss-ssa-runs.csv": "e8395c782c528874d5d9197564e485285e8fffa42d21c5729d843d8e5948a9e9",
-    "index/data/inputs/funds-ss-ssa-summary.csv": "48c6b349c6ea9db6f9c817c861b828a1128a8d86a00d2750241e50a4542a1c42"
+    "models/data/fiscal-baseline.csv": "94660448f9e78071a3647351e2467dc28abd2aea9c8923284a82593403b704e7",
+    "models/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
+    "models/data/inputs/recovery-adoption.json": "c3fb76093f80febfa660af15441e56d5368ffb7766f1b11928af0bdec0e04dd6",
+    "models/tools/recovery-budget/assumptions.json": "68e2d292428bec651aa40c9e807c8863c744fceb01c32e3122d233dad1798194",
+    "build/fiscal-model.json": "8c12bad19dafd1653fc4d594b840059f39beebf89a862272e78ad54d35cb4c79",
+    "build/ledger.json": "2b2240863aa1dbff83339b93f578031cb8ee9a818f50b5aec9737b42c02e13fe",
+    "models/tools/fiscal-profiles.py": "219ed3769d06ee0010480991d65c163a54d92175231d029c456c74fdb36f1f8a",
+    "models/tools/funds-model.py": "0303b8016336710a2db270cc1cc1d5f49dbdcedbdbfdd5edc0639d11581bd0af",
+    "legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md": "650339290894199f44c0450abfc89292fb9537810baf5aed5f0ce5fbd914625c",
+    "models/data/inputs/funds-hi-rates.csv": "3c7205fb818b3d3cd39956b2550b1792af6e0ff0b250b99e2ac02ae047812245",
+    "models/data/inputs/funds-parameters.csv": "429fc2e1bad27ce471c01e918ead40fd81d3975d18722113395d9df2c50cdb38",
+    "models/data/inputs/funds-ss-economics.csv": "06da6a41f50be9c8d35a319b70fe33bc1cc5563bc19b54623b59291499eee657",
+    "models/data/inputs/funds-ss-provisions.csv": "07d859da6154f28351163d663a89858bc82a97b3dc64f3feb6b4bf006e649cb8",
+    "models/data/inputs/funds-ss-rates.csv": "c6388ac3a0688374d3e9a5accfcaff2ab1e5a336f530df447fe3cc6166cf5d1e",
+    "models/data/inputs/funds-ss-ssa-runs.csv": "e8395c782c528874d5d9197564e485285e8fffa42d21c5729d843d8e5948a9e9",
+    "models/data/inputs/funds-ss-ssa-summary.csv": "48c6b349c6ea9db6f9c817c861b828a1128a8d86a00d2750241e50a4542a1c42"
   },
   "education_components": [
     {
@@ -53182,5 +53182,5 @@
     },
     "limitations": "Inherited distribution keys and unchanged-row timing; no microdata, no within-quintile guarantee; tax offsets and delivery contingency not distributed. Broad-income shares authored 1/5/12/24/58%; SS5 uses surtax proxy. Existing health savings/wage pass-through remain assumptions. D3 not certified."
   },
-  "audit_file": "sources/recovery-budget-audit.csv"
+  "audit_file": "legacy/sources/recovery-budget-audit.csv"
 }

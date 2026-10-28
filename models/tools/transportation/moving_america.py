@@ -416,7 +416,7 @@ SENSITIVITIES = {
 }
 
 # ---------------------------------------------------------------------------------------------
-# 8. Ledger rows (what index/tools/ledger-build.py reads)
+# 8. Ledger rows (what models/tools/ledger-build.py reads)
 # ---------------------------------------------------------------------------------------------
 def ledger_rows(m: Model = None):
     """Draft 2's figures that the master ledger carries, in $T. Spending is budget authority."""

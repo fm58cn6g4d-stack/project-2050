@@ -16,7 +16,17 @@ import subprocess
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
-OUT = ROOT / 'index/public-2050'
+OUT = ROOT / 'public/site'
+# Source paths below are as of the pinned source_commit; the October 28 reset moved them (charter/STANDARDS.md).
+MOVED = (('index/tools/', 'models/tools/'), ('index/data/', 'models/data/'), ('index/public-2050/', 'public/site/'))
+
+
+def here(path):
+    """Today's location of a path cited at the pinned commit."""
+    for old, new in MOVED:
+        if path.startswith(old):
+            return ROOT / (new + path[len(old):])
+    return ROOT / path if (ROOT / path).exists() else ROOT / 'legacy' / path
 esc = html.escape
 MODEL_SOURCES = ['index/data/fiscal-paths.csv', 'index/fiscal-long-term-model.md',
                  'index/tools/readme.md', 'sources/family-comparison-model-checks.json',
@@ -76,25 +86,25 @@ def build():
     mapping = content_map(content)
     hashes = {}
     for path in source_paths(mapping):
-        data = (ROOT/path).read_bytes()
+        data = here(path).read_bytes()
         pinned = subprocess.check_output(['git','show',f'{ref}:{path}'], cwd=ROOT)
         if data != pinned:
             affected = [key for key,r in mapping['records'].items() if path in r['source_paths']]
             raise ValueError(f'Source changed: {path}; review {", ".join(affected)} before advancing source_commit')
         hashes[path] = hashlib.sha256(data).hexdigest()
     for pid, policy in content['policies'].items():
-        text = (ROOT/policy['path']).read_text()
+        text = here(policy['path']).read_text()
         if policy['marker'] not in text or (policy.get('selected_option') and policy['selected_option'] not in text):
             raise ValueError(f'Canonical reference missing: {pid}')
-    with (ROOT/'index/data/fiscal-paths.csv').open() as f:
+    with here('index/data/fiscal-paths.csv').open() as f:
         fiscal = [r for r in csv.DictReader(f) if r['scenario']=='DEC' and r['year']=='2040']
     if len(fiscal) != 1:
         raise ValueError('Expected one FY2040 DEC result')
     gap = float(fiscal[0]['gf_primary'])
     if gap <= 0:
         raise ValueError('Financing analysis needs editorial review: no longer a positive gap')
-    results = json.loads((ROOT/'sources/family-comparison-model-checks.json').read_text())
-    selected = json.loads((ROOT/'index/tools/child-poverty/adopted-package.json').read_text())
+    results = json.loads(here('sources/family-comparison-model-checks.json').read_text())
+    selected = json.loads(here('index/tools/child-poverty/adopted-package.json').read_text())
     if selected != results['adopted_package'] or selected['credit_policy']!='FAM-1D' or selected['new_voucher_awards']!=1000000:
         raise ValueError('Adopted package and aggregate results need reconciliation')
     cases = results['adopted_cases']

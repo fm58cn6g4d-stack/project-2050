@@ -1,5 +1,5 @@
 // Optional browser QA for the story page: requires Playwright and Chromium; never contacts remote sources.
-// Serve index/public-2050 first:  python3 -m http.server 8765 --bind 127.0.0.1 --directory index/public-2050
+// Serve public/site first:  python3 -m http.server 8765 --bind 127.0.0.1 --directory public/site
 const {chromium} = require('playwright');
 const assert = require('node:assert/strict');
 const path = require('node:path');

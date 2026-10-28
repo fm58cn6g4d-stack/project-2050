@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """fiscal-data.py: build the all-of-government baseline for the long-term fiscal model.
 
-Output: index/data/fiscal-baseline.csv, one row per fiscal year 1962-2056, in billions of
+Output: models/data/fiscal-baseline.csv, one row per fiscal year 1962-2056, in billions of
 nominal dollars, with the same categories in every period:
 
   actual        FY1962-2025  CBO Historical Budget Data (Feb 2026 vintage)

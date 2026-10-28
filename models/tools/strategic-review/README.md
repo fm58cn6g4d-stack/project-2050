@@ -6,13 +6,13 @@ Exploratory research for the October 25, 2026 independent review. Source main:
 From the repository root, with Python 3.9+ and Node.js for the existing suite:
 
 ```bash
-bash index/tools/run-all.sh
-python3 index/tools/strategic-review/analyze.py
-python3 index/tools/strategic-review/test_analysis.py
+bash models/tools/run-all.sh
+python3 models/tools/strategic-review/analyze.py
+python3 models/tools/strategic-review/test_analysis.py
 ```
 
 The first command builds the existing suite in `build/` without writing committed
-baseline outputs. The second writes only `sources/strategic-review-arithmetic.md`
+baseline outputs. The second writes only `legacy/sources/strategic-review-arithmetic.md`
 and `.json`; `--output /tmp/review-check` writes a separate comparison copy.
 `assumptions.json` is the authored scenario record. The new tool imports the
 existing fiscal `row_path` function and its authored profiles and reads rebuilt
@@ -36,7 +36,7 @@ intermediates and relevant inputs. `MANIFEST.sha256` covers this research packag
 verify from repository root with:
 
 ```bash
-sha256sum -c index/tools/strategic-review/MANIFEST.sha256
+sha256sum -c models/tools/strategic-review/MANIFEST.sha256
 ```
 
 Validation for this review: the common dry rebuild reproduced all 21 compared
@@ -54,13 +54,13 @@ responsibility, delivery remedies and a modeled climate comparison. After the co
 dry rebuild above:
 
 ```bash
-python3 index/tools/strategic-review/redesign.py
-python3 index/tools/strategic-review/test_redesign.py
+python3 models/tools/strategic-review/redesign.py
+python3 models/tools/strategic-review/test_redesign.py
 ```
 
-This writes only `sources/fiscal-redesign-first-results.md` and `.json`; use
+This writes only `legacy/sources/fiscal-redesign-first-results.md` and `.json`; use
 `--output /tmp/redesign-check` for a separate deterministic comparison. Read the
-results with `sources/fiscal-redesign-and-participation-2026-10-26.md`.
+results with `legacy/sources/fiscal-redesign-and-participation-2026-10-26.md`.
 `redesign-assumptions.json` identifies the authored margin, service allowance,
 replacement rows and stress cases. Eighteen fiscal cases solve for net revenue
 requirements, not tax rates. Incremental debt/interest calculations retain existing

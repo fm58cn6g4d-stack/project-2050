@@ -1,4 +1,4 @@
-"""Writes the ledger dashboard's data files (index/data/dashboard/) from ledger.json and paths.json.
+"""Writes the ledger dashboard's data files (models/data/dashboard/) from ledger.json and paths.json.
 
 The dashboard (https://claude.ai/artifact/RDuHM7DqCwvLUtVaB4ANMs) reads these as attached files: bills, revenue,
 cuts (with alternative_to: rows not summed), conflicts and paths (Senate floor days under each D2 path).

@@ -7,7 +7,7 @@ basis: "sourced" (taken or scaled from a cited figure in a Project 2050 doc),
        "scaled" (outside source scaled to 2030-39), "estimate" (my estimate),
        "proposal" (an author's proposal sized against current programs, not a score).
 
-Education batch (Oct 20, evening): FAM-4 moves to domains/domain-education.md and splits into
+Education batch (Oct 20, evening): FAM-4 moves to legacy/domains/domain-education.md and splits into
 EDU-1 (K-12 formula funding, carrying EDU-2) and EDU-5 (higher education) at the same totals;
 new rows EDU-3 (universal school meals), EDU-4 (educator pipeline), EDU-7 (voucher tax-credit
 repeal, a saving) and EDU-8 (AI in education, student data and research, appropriations).
@@ -24,7 +24,7 @@ import csv, json
 from inputs import read, num, flag, money_sum
 
 BUDGET_DAYS = 163  # LEGACY CROSSWALK ONLY; scenario calendar is current. 148 discretionary days (unified inventory) + 15 freed by Block 1's nomination caps (C28, hedged; estimate)
-RECON_DAYS = 15    # LEGACY ASSUMPTION, not statutory duration. floor days per reconciliation bill (frameworks/radical-means-moderate-ends.md)
+RECON_DAYS = 15    # LEGACY ASSUMPTION, not statutory duration. floor days per reconciliation bill (legacy/frameworks/radical-means-moderate-ends.md)
 RESOLUTION_DAYS = 2  # budget resolution vote-a-rama per vehicle (estimate)
 
 RAILS = {
@@ -38,7 +38,7 @@ RAILS = {
 }
 
 def _moving_america():
-    """Draft 2's figures from the transportation model (index/tools/transportation/), at the precision Draft 2 prints:
+    """Draft 2's figures from the transportation model (models/tools/transportation/), at the precision Draft 2 prints:
     package and top-up amounts to $0.01B, reconciliation scores to $0.1B. run-all.sh writes moving-america.json first."""
     try:
         f = json.load(open("moving-america.json"))["ledger"]
@@ -70,7 +70,7 @@ def amount(s):
     """A number, or model:NAME for a figure the transportation model supplies."""
     return MODEL[s[6:]] if s.startswith("model:") else num(s)
 
-# The tables are in index/data/inputs/ (ledger-*.csv); see the readme there for each column.
+# The tables are in models/data/inputs/ (ledger-*.csv); see the readme there for each column.
 # Bills: one row per ledger bill. Notes on model rows take the model's figures ({act29_package:.1f} and so on).
 B = []
 for r in read("ledger-bills.csv"):
@@ -118,7 +118,7 @@ def channels(bills):
                          out_lo=round(out[0],3), out_mid=round(out[1],3), out_hi=round(out[2],3), note=note))
     by = {b["id"]:b for b in bills}
     o = lambda i: (by[i]["cost_lo"],by[i]["cost_mid"],by[i]["cost_hi"])
-    add("Social Security (OASDI)", rv["Social Security trust fund"], o("SS-1"), "D8 baseline; closes ~64% of the 4.42% gap after the haircut (index/dedicated-funds.md); revenue stays in the trust fund")
+    add("Social Security (OASDI)", rv["Social Security trust fund"], o("SS-1"), "D8 baseline; closes ~64% of the 4.42% gap after the haircut (legacy/index/dedicated-funds.md); revenue stays in the trust fund")
     add("Medicare HI", (0.5+0.5,0.5+0.7,0.5+0.9), (0.8,0.85,0.9), "H1a ($0.5T) plus HLT-6's Part A share (~$0.7T, est.); D4 read on a 75-year window, so the ~$0.3T is HI's reserve")
     add("Paid-leave fund", rv["Paid-leave fund"], o("FAM-3"), "Step-up toward 0.85% and a repayable Treasury loan; no general-fund backstop")
     st = rv["Surface transportation trust fund"]

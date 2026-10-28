@@ -1,14 +1,14 @@
-"""Reads the hand-entered input tables in index/data/inputs/ (CSV, one row per line, opens in any spreadsheet).
-The scripts in index/tools/ load their tables through this module; run-all.sh copies it into build/ with them."""
+"""Reads the hand-entered input tables in models/data/inputs/ (CSV, one row per line, opens in any spreadsheet).
+The scripts in models/tools/ load their tables through this module; run-all.sh copies it into build/ with them."""
 import csv, os, re
 from decimal import Decimal, ROUND_HALF_UP
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 def path(name):
-    """index/data/inputs/<name>, found from index/tools/ or from build/ (where run-all.sh runs the copies)."""
-    for d in (os.environ.get("P2050_INPUTS"), os.path.join(HERE, "..", "data", "inputs"), os.path.join(HERE, "..", "index", "data", "inputs")):
+    """models/data/inputs/<name>, found from models/tools/ or from build/ (where run-all.sh runs the copies)."""
+    for d in (os.environ.get("P2050_INPUTS"), os.path.join(HERE, "..", "data", "inputs"), os.path.join(HERE, "..", "models", "data", "inputs")):
         if d and os.path.exists(os.path.join(d, name)): return os.path.normpath(os.path.join(d, name))
-    raise FileNotFoundError(f"index/data/inputs/{name}")
+    raise FileNotFoundError(f"models/data/inputs/{name}")
 
 def read(name):
     with open(path(name), newline="", encoding="utf-8") as f:

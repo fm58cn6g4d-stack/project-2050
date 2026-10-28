@@ -44,7 +44,7 @@ class EditionTests(unittest.TestCase):
         cls.mapping = json.loads(cls.products['public-map.json'])
 
     def test_numeric_exports_keep_units_case_and_scope_in_analysis(self):
-        with (build.ROOT / 'index/data/fiscal-paths.csv').open() as f:
+        with build.here('index/data/fiscal-paths.csv').open() as f:
             row = next(r for r in csv.DictReader(f) if r['scenario'] == 'DEC' and r['year'] == '2040')
         contract = self.manifest['numeric_contracts']['fiscal_gap']
         self.assertEqual(contract['value'], float(row['gf_primary']))
@@ -54,7 +54,7 @@ class EditionTests(unittest.TestCase):
         page = self.products['analysis.html'].decode()
         self.assertIn('FY2040 general-fund primary gap', page)
         self.assertIn('not forecasts of 2050, full-agenda effects', page)
-        source = json.loads((build.ROOT / 'sources/family-comparison-model-checks.json').read_text())
+        source = json.loads(build.here('sources/family-comparison-model-checks.json').read_text())
         for case in source['adopted_cases']:
             self.assertIn(f'{100*case["result"]["poor_rate"]:.2f}%', page)
 
@@ -92,7 +92,7 @@ class EditionTests(unittest.TestCase):
 
     def test_mapping_preserves_policy_identity_and_full_domain_reach(self):
         domains = {path for record in self.mapping['records'].values() for path in record['source_paths'] if path.startswith('domains/')}
-        canonical = {str(p.relative_to(build.ROOT)) for p in (build.ROOT/'domains').glob('domain-*.md')}
+        canonical = {str(p.relative_to(build.ROOT / 'legacy')) for p in (build.ROOT/'legacy/domains').glob('domain-*.md')}
         canonical.add('domains/transportation-moving-america-act-2031-draft-2.md')
         self.assertEqual(domains, canonical)
         self.assertEqual(self.mapping['policies']['FAM-1']['selected_option'], 'FAM-1D')
@@ -112,7 +112,7 @@ class EditionTests(unittest.TestCase):
                     prefix = f'https://github.com/fm58cn6g4d-stack/project-2050/blob/{self.manifest["source_commit"]}/'
                     self.assertTrue(href.startswith(prefix), href)
                     path = unquote(urlsplit(href[len(prefix):]).path)
-                    self.assertTrue((build.ROOT/path).is_file(), path)
+                    self.assertTrue(build.here(path).is_file(), path)
                     self.assertIn(path, self.manifest['sha256'])
                 else:
                     target = urlsplit(href)
@@ -123,7 +123,7 @@ class EditionTests(unittest.TestCase):
 
     def test_manifest_covers_real_bytes(self):
         for path, digest in self.manifest['sha256'].items():
-            self.assertEqual(hashlib.sha256((build.ROOT/path).read_bytes()).hexdigest(), digest, path)
+            self.assertEqual(hashlib.sha256(build.here(path).read_bytes()).hexdigest(), digest, path)
         for name, digest in self.manifest['outputs_sha256'].items():
             self.assertEqual(hashlib.sha256(self.products[name]).hexdigest(), digest)
 

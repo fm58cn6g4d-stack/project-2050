@@ -1,6 +1,6 @@
 # Input tables
 
-These are the hand-entered tables behind the generated files in `index/`. Edit them here, in a spreadsheet or a text editor, then run `bash index/tools/run-all.sh` (dry run with a diff) and `--write`. The scripts in `index/tools/` read them through `index/tools/inputs.py`. Before Oct 20, 2026 the same tables were typed inside the scripts; moving them changed no output.
+These are the hand-entered tables behind the generated files in `index/`. Edit them here, in a spreadsheet or a text editor, then run `bash models/tools/run-all.sh` (dry run with a diff) and `--write`. The scripts in `models/tools/` read them through `models/tools/inputs.py`. Before Oct 20, 2026 the same tables were typed inside the scripts; moving them changed no output.
 
 Conventions:
 - **Amounts** are ten-year totals for 2030-39 in $T unless a column says otherwise. Positive cost raises the deficit; savings are negative.
@@ -29,11 +29,11 @@ Conventions:
 | `funds-ss-ssa-summary.csv` | SSA run: provision number, description, start year, 75-year changes, source URL | the same |
 | `funds-hi-rates.csv` | year the Medicare Trustees publish an HI cost or income rate | the dedicated-fund engine (HI) |
 | `funds-parameters.csv` | one parameter (reserves, leave rule, carbon dividend share, population, EDU-9B base), each with its basis | the dedicated-fund engine |
-| `carbon-parameters.csv` | one parameter of the D7 run of the carbon model: REV-C1's price path, inflation, the dividend share, the exempt share of other transport fuel, the permitting year, Monte Carlo size | the carbon model (index/climate-carbon-model.md) |
+| `carbon-parameters.csv` | one parameter of the D7 run of the carbon model: REV-C1's price path, inflation, the dividend share, the exempt share of other transport fuel, the permitting year, Monte Carlo size | the carbon model (legacy/index/climate-carbon-model.md) |
 | `fiscal-years.csv` | row with a year-by-year path ($B, 2030-39) that overrides its profile | the long-term fiscal model |
 
 ## Figures that come from elsewhere
-- **`model:NAME`** in a ledger cell (MOV-29/30/31, MR1-MR6) means the transportation model supplies the figure (`index/tools/transportation/`). Notes on those rows carry the model's figures as `{act29_package:.1f}` and similar.
+- **`model:NAME`** in a ledger cell (MOV-29/30/31, MR1-MR6) means the transportation model supplies the figure (`models/tools/transportation/`). Notes on those rows carry the model's figures as `{act29_package:.1f}` and similar.
 - **Incidence amounts** are formulas over ledger IDs, for example `[G1]`, `[O2]+[OX]` or `-0.3*[HLT-6]`. They are read from the ledger when the incidence model runs, so a ledger change flows through. A plain number is used where the incidence row is its own estimate (PB, H5p, EDUB, SAFR2) or differs from the ledger. The four rows that differ carry the matching ledger formula in `check`: MR 0.41 vs 0.4098, MRc 0.126 vs 0.1267, PS1 0.091 vs 0.09, EDUP 2.27 vs ED1 2.10.
 - **Incidence parts** split a row's amount `x` across keys. `above450k` alone takes all of it. `wages 0.25*x; capital 0.75*x` is the 25/75 corporate convention. Plain numbers are fixed amounts.
 - **Phase-in methods:** for `ramp`, the yearly levels grow 4% a year and are then normalised. For `norm`, the levels are normalised as typed. `same_as` borrows another row's profile.
@@ -44,7 +44,7 @@ The scenario lists (incidence `SCEN`, fiscal `SCENARIOS`) and the accounting rul
 
 `capacity-funding.csv` records the approved immediate multi-year availability of CAP-7S (R1 target FY2029), separately from `fiscal-years.csv` cash outlays. Blank FY2029 cash means unpriced, not zero. A priced update needs a reconciled lifetime amount, revised 2030-39 window and C42, and debt/interest/envelope rerun; the diagnostic deliberately rejects an unreconciled number.
 
-The hand-written CMS administrative-cost work register is `sources/health-cms-implementation-cost-register.csv`, not a scored input table. Its blanks must never become zero-cost rows.
+The hand-written CMS administrative-cost work register is `legacy/sources/health-cms-implementation-cost-register.csv`, not a scored input table. Its blanks must never become zero-cost rows.
 
 ## October 23 calendar targets
 
@@ -52,6 +52,6 @@ The target field is a planning window, not a service launch or proof of enactmen
 
 ## Scenario calendar integration
 
-`index/calendar-scenarios.md` and `index/calendar-scenario-explorer.html` are the current scenario presentation; `index/calendar-delivery-opportunities.md` keeps possible felt effects separate. Inputs: `index/data/inputs/calendar-scenarios.json` and the live bill inventory; milestone evidence: `sources/calendar-delivery-milestones.csv`; runner/tests: `index/tools/calendar/`. `run-all.sh` regenerates them and dashboard/calendar.json. The 172/163 display is legacy provenance. New numeric ranges are illustrative; vote parameters and fiscal/benefit profiles are unchanged. See `sources/calendar-model-review-and-integration.md` for review findings and limits.
+`legacy/index/calendar-scenarios.md` and `legacy/index/calendar-scenario-explorer.html` are the current scenario presentation; `legacy/index/calendar-delivery-opportunities.md` keeps possible felt effects separate. Inputs: `models/data/inputs/calendar-scenarios.json` and the live bill inventory; milestone evidence: `legacy/sources/calendar-delivery-milestones.csv`; runner/tests: `models/tools/calendar/`. `run-all.sh` regenerates them and dashboard/calendar.json. The 172/163 display is legacy provenance. New numeric ranges are illustrative; vote parameters and fiscal/benefit profiles are unchanged. See `legacy/sources/calendar-model-review-and-integration.md` for review findings and limits.
 
 **Fiscal component paths:** `fiscal-components.csv` assigns disjoint midpoint shares and profiles to an existing aggregate bill. The shares must sum to that bill's ledger midpoint. HOU-1 preserves the legacy title and adds the fully permanent voucher expansion once; components are not extra ledger claims or borrowing authority.

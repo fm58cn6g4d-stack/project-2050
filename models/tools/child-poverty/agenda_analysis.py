@@ -433,7 +433,7 @@ def validate_assumptions(spec):
                 raise ValueError('invalid scenario probability: '+name)
     cfg = spec['common']
     if cfg['index_base_year'] not in (2025,2030) or cfg['unassigned_children'] not in ('exclude','include_proxy'):
-        raise ValueError('unsupported index/claimant convention')
+        raise ValueError('unsupported legacy/index/claimant convention')
     if cfg['smi_scale'] <= 0 or not 0 <= cfg['prek_expense_fraction'] <= 1:
         raise ValueError('invalid SMI/pre-K assumption')
 

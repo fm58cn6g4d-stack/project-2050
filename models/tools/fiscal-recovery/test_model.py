@@ -6,11 +6,11 @@ import model
 class RecoveryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in (model.ROOT/'index/data/inputs').glob('*.csv')}
+        cls.before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in (model.ROOT/'models/data/inputs').glob('*.csv')}
         cls.r=model.run(); cls.rows={r['year']:r for r in cls.r['education_bridge']}
     def test_comparison_guard_accepts_only_recorded_rebases(self):
         h=lambda b:hashlib.sha256(b).hexdigest()
-        path='index/data/inputs/x.csv'
+        path='models/data/inputs/x.csv'
         prov,rebased={path:h(b'old')},{path:h(b'new')}
         for ok in (b'old',b'new'):
             model.check_comparison_inputs(prov,rebased,lambda p,ok=ok:ok)

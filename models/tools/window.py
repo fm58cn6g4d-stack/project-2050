@@ -2,23 +2,23 @@
 
 A figure scored for 2025-34 is not the same money in 2030-39: the economy and the tax base are larger. This
 scales by the ratio of the growth index summed over each window, from CBO's February 2026 path in
-index/data/fiscal-baseline.csv. The index is nominal GDP by default; a baseline category (rev_individual,
+models/data/fiscal-baseline.csv. The index is nominal GDP by default; a baseline category (rev_individual,
 rev_corporate, out_medicare_net ...) tracks that base instead. The result is a scaled figure, not a score.
 
-    python3 index/tools/window.py 272 2025-34                 # $272B over 2025-34, in 2030-39 terms
-    python3 index/tools/window.py 1.4 2026-35 --index rev_individual
-    python3 index/tools/window.py 557 2022-31 --to 2030-39
+    python3 models/tools/window.py 272 2025-34                 # $272B over 2025-34, in 2030-39 terms
+    python3 models/tools/window.py 1.4 2026-35 --index rev_individual
+    python3 models/tools/window.py 557 2022-31 --to 2030-39
 """
 import csv, os, sys
 
 def _baseline():
     here = os.path.dirname(os.path.abspath(__file__))
-    for p in (os.path.join(here, "..", "data", "fiscal-baseline.csv"), os.path.join(here, "..", "index", "data", "fiscal-baseline.csv"),
+    for p in (os.path.join(here, "..", "data", "fiscal-baseline.csv"), os.path.join(here, "..", "models", "data", "fiscal-baseline.csv"),
               "fiscal-baseline.csv"):
         if os.path.exists(p):
             with open(p, newline="") as f:
                 return {int(r["year"]): r for r in csv.DictReader(f)}
-    raise FileNotFoundError("index/data/fiscal-baseline.csv")
+    raise FileNotFoundError("models/data/fiscal-baseline.csv")
 BASE = None
 
 def window(s):

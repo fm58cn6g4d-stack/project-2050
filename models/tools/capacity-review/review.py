@@ -1,4 +1,4 @@
-"""Capacity review: add up sources/capacity-recovery-components.csv for every reviewed CAP-7 agency.
+"""Capacity review: add up legacy/sources/capacity-recovery-components.csv for every reviewed CAP-7 agency.
 
 Reads the proposal rows, turns annual run rates (FY2026 dollars) into FY2030-39 nominal totals,
 compares them with the approved envelopes and the old pro-rata shares, and tests REV-G8's yield.
@@ -8,8 +8,8 @@ import csv, json, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-CSV = ROOT / 'sources' / 'capacity-recovery-components.csv'
-ADOPT = ROOT / 'index' / 'data' / 'inputs' / 'recovery-adoption.json'
+CSV = ROOT / 'legacy/sources' / 'capacity-recovery-components.csv'
+ADOPT = ROOT / 'models' / 'data' / 'inputs' / 'recovery-adoption.json'
 
 YEARS = range(2030, 2040)
 GROWTH = 0.035                     # estimate: federal pay and prices, nominal, a year from FY2026

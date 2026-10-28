@@ -2,7 +2,7 @@
 
 Distributes every household-facing instrument in the ledger by income quintile, with the top 1% split out
 of the top quintile. Units: ten-year totals for 2030-39 in $T, converted to average dollars per household
-per year. Rows and amounts come from index/data/inputs/incidence-rows.csv (amounts are formulas over ledger
+per year. Rows and amounts come from models/data/inputs/incidence-rows.csv (amounts are formulas over ledger
 IDs); shares are estimates anchored to published patterns (incidence-keys.csv). Scenario Q is the decided
 package; the other scenarios vary one choice against it.
 """
@@ -13,7 +13,7 @@ HH = 140e6          # households, mid-window (estimate: ~132M in 2023 grown ~0.8
 GROUPS = ["Q1", "Q2", "Q3", "Q4", "Q5"]
 INC = {"Q1": 23e3, "Q2": 60e3, "Q3": 105e3, "Q4": 180e3, "Q5": 520e3, "T1": 4.3e6, "Q5x": 0}  # 2034 avg expanded cash income, estimate
 
-# The tables are in index/data/inputs/: incidence-keys.csv (distribution keys) and incidence-rows.csv (the package
+# The tables are in models/data/inputs/: incidence-keys.csv (distribution keys) and incidence-rows.csv (the package
 # rows and the options). A row's amount is a number or a formula over ledger IDs, e.g. [G1] or [EDU-1]+[EDU-5],
 # read from ledger.json, so a ledger change flows through. Parts split the amount (x) across keys.
 # Distribution keys: shares of the total for Q1..Q5, and the top 1%'s share of the total (inside Q5).

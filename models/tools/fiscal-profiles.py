@@ -28,7 +28,7 @@ import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from inputs import read, num, opt
 
-# The profiles are in index/data/inputs/fiscal-profiles.csv (one row per ledger row; table = bill, base revenue
+# The profiles are in models/data/inputs/fiscal-profiles.csv (one row per ledger row; table = bill, base revenue
 # or option) and the year-by-year overrides in fiscal-years.csv. A blank cell takes the default above.
 BILLS, REVENUE, CUTS = {}, {}, {}
 for r in read("fiscal-profiles.csv"):

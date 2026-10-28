@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Prints every figure Draft 2 carries, in the same layout as legacy/final_v3.py (the test compares the two).
-Run from anywhere:  python3 index/tools/transportation/report.py   (add --json PATH to write ledger figures)."""
+Run from anywhere:  python3 models/tools/transportation/report.py   (add --json PATH to write ledger figures)."""
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import moving_america as MA

@@ -76,7 +76,7 @@ class StoryTests(unittest.TestCase):
         paths |= {p['path'] for p in self.content['policies'].values()}
         for path in paths:
             (root / path).parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy(story.ROOT / path, root / path)
+            shutil.copy(story.ROOT / story.current_path(path), root / path)
         return root
 
     def test_report_mode_fails_on_unsupported_content(self):
@@ -203,7 +203,7 @@ class StoryTests(unittest.TestCase):
             paths |= {p['path'] for p in self.content['policies'].values()}
             for path in paths:
                 (root / path).parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy(story.ROOT / path, root / path)
+                shutil.copy(story.ROOT / story.current_path(path), root / path)
             before = problems_for(self.content, root)
             self.assertFalse(any(p.startswith('claim hou4a:') for p in before))
             housing = root / 'domains/domain-housing.md'

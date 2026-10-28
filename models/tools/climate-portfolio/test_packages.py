@@ -1,5 +1,5 @@
-"""Checks for the package search and pricing. Run after `bash index/tools/run-all.sh` (rebuilds the package and pricing outputs if missing):
-python3 index/tools/climate-portfolio/test_packages.py
+"""Checks for the package search and pricing. Run after `bash models/tools/run-all.sh` (rebuilds the package and pricing outputs if missing):
+python3 models/tools/climate-portfolio/test_packages.py
 """
 import json, math, sys
 from pathlib import Path
@@ -125,14 +125,14 @@ def same_export(a, b):
 
 # The annual accounting JSON is the integration interface, even when rounded reports do not change.
 check('committed pricing JSON matches the rebuild including schema and source hashes',
-      same_export(pr, json.loads((ROOT / 'sources/climate-portfolio-pricing.json').read_text())))
+      same_export(pr, json.loads((ROOT / 'legacy/sources/climate-portfolio-pricing.json').read_text())))
 check('export comparison tolerates float noise, rejects changed amounts and schema',
       same_export({'x': [1.0]}, {'x': [1.0 + 1e-13]})
       and not same_export({'x': [1.0]}, {'x': [1.01]})
       and not same_export({'x': [1.0]}, {'x': [1.0], 'extra': 0})
       and not same_export({'source': 'a'}, {'source': 'b'}))
 for name in ('climate-portfolio-packages.md', 'climate-portfolio-pricing.md', 'climate-portfolio-disaster-components.csv'):
-    built, committed = ROOT / 'build/climate-portfolio' / name, ROOT / 'sources' / name
+    built, committed = ROOT / 'build/climate-portfolio' / name, ROOT / 'legacy/sources' / name
     check(f'committed {name} matches the build', built.read_text() == committed.read_text())
 print('all passed' if not fails else f'{len(fails)} failed')
 sys.exit(1 if fails else 0)

@@ -1,6 +1,6 @@
 # Research intake, October 28, 2026
 
-Raw originals from Espen's earlier Claude and ChatGPT sessions, uploaded to Claude Code session `session_01UQzgBuA3EdnR7Dx4kUq1un` as three archives. They are filed here unchanged, so the material survives the session and can be cited. **These files are untriaged inputs.** They are not current policy, not canonical and not yet catalogued. The restructuring plan (`research/RESTRUCTURING-PLAN.md`) says how they will be sorted.
+Raw originals from Espen's earlier Claude and ChatGPT sessions, uploaded to Claude Code session `session_01UQzgBuA3EdnR7Dx4kUq1un` as three archives. They are filed here unchanged, so the material survives the session and can be cited. **These files are untriaged inputs.** They are not current policy, not canonical and not yet catalogued. The restructuring plan (`charter/PLAN.md`) says how they will be sorted.
 
 | Archive | SHA-256 (archive as uploaded) | Contents |
 | --- | --- | --- |
@@ -12,7 +12,7 @@ Raw originals from Espen's earlier Claude and ChatGPT sessions, uploaded to Clau
 - **Checksums.** `manifest.json` lists every file with its SHA-256, including those not filed here.
 - **Held back (public documents, recorded by checksum only):**
   - the SEEC Thriving Economy Project PDFs, 358 MB; the full report is over GitHub's file-size limit;
-  - CBO's February 2026 data files and reports used by the CBO scorer tool. The CSV extracts of the same February 2026 data that the fiscal model needs are already in `index/data/cbo/`.
+  - CBO's February 2026 data files and reports used by the CBO scorer tool. The CSV extracts of the same February 2026 data that the fiscal model needs are already in `models/data/cbo/`.
 
   Re-fetch them from SEEC Institute and cbo.gov, and verify against the manifest.
 - **Removed for copyright:** a POLITICO Pro article on the Senate's bipartisan permitting bill. It is paywalled, and this repository is public, so it was deleted from the branch. It is recorded by checksum only. Cite it, and quote short passages only. It remains in this branch's earlier history unless that history is rewritten.

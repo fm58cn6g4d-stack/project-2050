@@ -1,20 +1,20 @@
 # Transportation model (Moving America Act of 2031)
 
-These scripts produce every figure in `domains/transportation-moving-america-act-2031-draft-2.md` (Draft 2, MOV-). Since Oct 20, 2026 they are one model, `moving_america.py`, and `run-all.sh` runs it: the ledger rows MOV-29, MOV-30, MOV-31 and MR1-MR6 in `ledger-build.py` now come from the model instead of being typed in.
+These scripts produce every figure in `legacy/domains/transportation-moving-america-act-2031-draft-2.md` (Draft 2, MOV-). Since Oct 20, 2026 they are one model, `moving_america.py`, and `run-all.sh` runs it: the ledger rows MOV-29, MOV-30, MOV-31 and MR1-MR6 in `ledger-build.py` now come from the model instead of being typed in.
 
 ## Running
 From the repo root, Python 3.10 or later, standard library only:
 
 ```
-python3 index/tools/transportation/report.py                  # Draft 2's governing printout
-python3 index/tools/transportation/test_moving_america.py     # check Draft 2's figures still come out
-python3 index/tools/transportation/report.py --json out.json  # the figures the ledger reads
+python3 models/tools/transportation/report.py                  # Draft 2's governing printout
+python3 models/tools/transportation/test_moving_america.py     # check Draft 2's figures still come out
+python3 models/tools/transportation/report.py --json out.json  # the figures the ledger reads
 ```
 
-`bash index/tools/run-all.sh` runs the test first and stops if a figure moved, then writes `build/moving-america.json`, which `ledger-build.py` reads.
+`bash models/tools/run-all.sh` runs the test first and stops if a figure moved, then writes `build/moving-america.json`, which `ledger-build.py` reads.
 
 ## If a figure moves
-A moved figure is a proposal for Espen, not a fix. Once agreed: update Draft 2, update `golden/report.txt` (the saved printout) and `PROTECTED` in the test, then run `bash index/tools/run-all.sh --write` so the ledger and everything downstream follow.
+A moved figure is a proposal for Espen, not a fix. Once agreed: update Draft 2, update `golden/report.txt` (the saved printout) and `PROTECTED` in the test, then run `bash models/tools/run-all.sh --write` so the ledger and everything downstream follow.
 
 ## Files
 | File | What it does |
@@ -37,6 +37,6 @@ Run the two supporting scripts from `build/` or a scratch folder so their output
 - **Rounding.** The ledger takes Draft 2's figures at the precision Draft 2 prints ($0.01B for amounts, $0.1B for scores); MR6, the 25% offset, is printed net minus printed gross.
 
 ## Related files
-- Decision record for the FY2032-36 calendar: `sources/transportation-calendar-fy2032-36.md`.
-- Status at the merge: `sources/transportation-merge-status-oct12.md`; earlier state in the other `sources/transportation-*` files.
-- The ARCA, ATRA and section-by-section docs: `sources/transportation-*-bill-architecture.md` and `sources/transportation-package-section-by-section.md`. Draft 2 governs where they differ.
+- Decision record for the FY2032-36 calendar: `legacy/sources/transportation-calendar-fy2032-36.md`.
+- Status at the merge: `legacy/sources/transportation-merge-status-oct12.md`; earlier state in the other `legacy/sources/transportation-*` files.
+- The ARCA, ATRA and section-by-section docs: `legacy/sources/transportation-*-bill-architecture.md` and `legacy/sources/transportation-package-section-by-section.md`. Draft 2 governs where they differ.

@@ -1,4 +1,4 @@
-"""Checks for the international climate finance pricing: python3 index/tools/climate-portfolio/test_international.py"""
+"""Checks for the international climate finance pricing: python3 models/tools/climate-portfolio/test_international.py"""
 import json, subprocess, sys
 from pathlib import Path
 
@@ -19,7 +19,7 @@ check('floor: international tons count only when domestic reaches the floor',
       all((d['counted_total_without_measures_2035'][i] > d['domestic_2035'][i]) == d['floor_met_without_measures'][i] for i in range(3))
       and all((d['counted_total_with_measures_2035'][i] > d['domestic_with_floor_measures_2035'][i]) == d['floor_met_with_measures'][i] for i in range(3)))
 check('floor measures lift the mid case over the floor', d['floor_met_with_measures'][1] and d['domestic_with_floor_measures_2035'][1] >= d['domestic_floor'])
-c = ROOT / 'sources/climate-portfolio-international-pricing.md'
+c = ROOT / 'legacy/sources/climate-portfolio-international-pricing.md'
 if c.exists():
     check('committed report matches the build', c.read_text() == (ROOT / 'build/climate-portfolio/climate-portfolio-international-pricing.md').read_text())
 print('all passed' if not fails else f'{len(fails)} failed')

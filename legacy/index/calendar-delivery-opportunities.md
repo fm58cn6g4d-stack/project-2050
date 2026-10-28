@@ -67,4 +67,4 @@ See [opening procedural packet](../sources/calendar-opening-procedural-packet.md
 3. Early protections: reproductive/civil rights, executive guardrails, ethics and registration can matter before a new national benefit system matures; identify enforceable dates, courts, remedies and who can actually use them.
 4. SS and new health benefits: preserve adopted start dates; distinguish assurance of future solvency from a current household payment.
 
-The legacy lag is an assumption, not an agency implementation plan. No count of candidate policies is presented as a count of proven benefits or electoral effects. Source: live ledger-bills.csv and sources/calendar-delivery-milestones.csv; canonical references are retained per row.
+The legacy lag is an assumption, not an agency implementation plan. No count of candidate policies is presented as a count of proven benefits or electoral effects. Source: live ledger-bills.csv and legacy/sources/calendar-delivery-milestones.csv; canonical references are retained per row.

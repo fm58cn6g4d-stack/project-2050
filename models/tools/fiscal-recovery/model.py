@@ -6,9 +6,9 @@ import argparse, contextlib, csv, hashlib, importlib.util, io, json, os, sys, te
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT/'index/tools'))
+sys.path.insert(0, str(ROOT/'models/tools'))
 A = json.loads((HERE/'assumptions.json').read_text())
-ADOPTION = json.loads((ROOT/'index/data/inputs/education-adoption.json').read_text())
+ADOPTION = json.loads((ROOT/'models/data/inputs/education-adoption.json').read_text())
 E = dict(ADOPTION['cost_assumptions'], **A['education'])
 W = range(2030,2040)
 Y = range(2026,2057)
@@ -65,7 +65,7 @@ def fund_experiments():
         before=os.getcwd()
         try:
             os.chdir(tmp)
-            with contextlib.redirect_stdout(io.StringIO()): funds=module('recovery_funds',ROOT/'index/tools/funds-model.py')
+            with contextlib.redirect_stdout(io.StringIO()): funds=module('recovery_funds',ROOT/'models/tools/funds-model.py')
         finally: os.chdir(before)
     paths=[funds.SSF[k] for k in ('SS-1','SS-2','SS-3','SS-4','SS-5')]
     sa=A['social_security']
@@ -99,19 +99,19 @@ def fund_experiments():
 def check_comparison_inputs(provenance,rebased,read):
     """Refuse a changed comparison input unless comparison-rebase.json records its exact new hash."""
     for path,expected in provenance.items():
-        if path.startswith('index/data/') and path.endswith('.csv'):
+        if path.startswith('models/data/') and path.endswith('.csv'):
             actual=hashlib.sha256(read(path)).hexdigest()
             if actual!=expected and rebased.get(path)!=actual:
                 raise ValueError('Comparison input changed; reconcile/rebase education bridge explicitly: '+path)
 
 def run():
     # Do not silently relabel a future changed numerical baseline as this comparison vintage.
-    provenance=json.loads((ROOT/'sources/strategic-review-arithmetic.json').read_text())['source_sha256']
+    provenance=json.loads((ROOT/'legacy/sources/strategic-review-arithmetic.json').read_text())['source_sha256']
     rebased={e['path']:e['sha256'] for e in json.loads((HERE/'comparison-rebase.json').read_text())['entries']} if (HERE/'comparison-rebase.json').exists() else {}
     check_comparison_inputs(provenance,rebased,lambda path:(ROOT/path).read_bytes())
     global F,B
-    F=module('recovery_fiscal',ROOT/'index/tools/fiscal-model.py')
-    B=F.read_baseline(ROOT/'index/data/fiscal-baseline.csv')
+    F=module('recovery_fiscal',ROOT/'models/tools/fiscal-model.py')
+    B=F.read_baseline(ROOT/'models/data/fiscal-baseline.csv')
     model=json.loads((ROOT/'build/fiscal-model.json').read_text())
     ledger=json.loads((ROOT/'build/ledger.json').read_text())
     old=model['results']['DEC']['years']; oldrows={r['id']:r for r in model['rows']}
@@ -185,7 +185,7 @@ def run():
         for y in Y:
             removed[y]+=-p[str(y)]
             deferred[y]+=-p[str(y)]*(1-phase(y,rc['middle_tax_phase_start'],rc['middle_tax_phase_years']))
-    first=json.loads((ROOT/'sources/strategic-review-arithmetic.json').read_text())
+    first=json.loads((ROOT/'legacy/sources/strategic-review-arithmetic.json').read_text())
     housing={int(y):v for y,v in first['housing'][0]['path_bn'].items()}
     scenarios=[]
     for name,lost,extra,delay in [
@@ -231,12 +231,12 @@ def run():
             gf_2030_39_primary_tn=sum(gf[y] for y in W)/1000,
             unified_2030_39_delta_vs_pre_education_tn=sum(uni[y]-old[str(y)]['prog_primary'] for y in W)/1000,
             maturity_pass=all(gf[y]<=0 for y in range(2040,2057)),years=paths))
-    files=['index/tools/fiscal-recovery/model.py','index/tools/fiscal-recovery/assumptions.json','index/data/inputs/education-adoption.json',
-        'index/tools/fiscal-model.py','index/tools/funds-model.py','index/tools/incidence-model.py',
-        'index/tools/incidence-years.py','index/tools/inputs.py','index/tools/fiscal-profiles.py',
-        'index/data/fiscal-baseline.csv','build/ledger.json','build/fiscal-model.json',
-        'sources/strategic-review-arithmetic.json','sources/education-transforming-education-act-analysis-and-trust-fund.md']
-    files += [str(p.relative_to(ROOT)) for p in sorted((ROOT/'index/data/inputs').glob('*.csv'))]
+    files=['models/tools/fiscal-recovery/model.py','models/tools/fiscal-recovery/assumptions.json','models/data/inputs/education-adoption.json',
+        'models/tools/fiscal-model.py','models/tools/funds-model.py','models/tools/incidence-model.py',
+        'models/tools/incidence-years.py','models/tools/inputs.py','models/tools/fiscal-profiles.py',
+        'models/data/fiscal-baseline.csv','build/ledger.json','build/fiscal-model.json',
+        'legacy/sources/strategic-review-arithmetic.json','legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md']
+    files += [str(p.relative_to(ROOT)) for p in sorted((ROOT/'models/data/inputs').glob('*.csv'))]
     return dict(assumptions=A,adoption=ADOPTION,education_cases=cases,education_bridge=bridge,
                 totals_2030_39_tn={k:sum(r[k] for r in bridge if r['year'] in W)/1000 for k in bridge[0] if k!='year'},
                 education_accounting_cases=accounting,incidence_diagnostic=incidence,fiscal_scenarios=scenarios,funds=fund_experiments(),
@@ -247,7 +247,7 @@ def inventory(path):
     fields=['kind','id','label','status','channel','low_tn','mid_tn','high_tn','basis_or_overlap']
     rows=[]
     for name,kind in [('ledger-bills.csv','bill'),('ledger-revenue.csv','revenue'),('ledger-cuts.csv','option'),('ledger-dynamic.csv','dynamic')]:
-        for r in csv.DictReader((ROOT/'index/data/inputs'/name).open()):
+        for r in csv.DictReader((ROOT/'models/data/inputs'/name).open()):
             mid=r.get('cost_mid',r.get('mid',r.get('saves_tn','')))
             # Preserve formulas/source strings instead of inventing a second score.
             rows.append(dict(kind=kind,id=r['id'],label=r.get('bill',r.get('option',r.get('change',r.get('effect','')))),
@@ -263,7 +263,7 @@ def inventory(path):
 def render(r):
     t=r['totals_2030_39_tn']; out=['# Fiscal recovery: integrated education bridge and financing tests','',
         '> **Superseded calculation:** The aggregate education residual below is retained as the earlier experiment. Use the [Recovery and Solvency budget](recovery-budget.md) for component-level current-law reconciliation and integrated SS/HI/leave fiscal flows. Its revised education cost is conditional on stated care/current-law boundaries. Neither supplement adopts financing rates or certifies D3/D4.','',
-        'Generated by `index/tools/fiscal-recovery/model.py`. Full EDU-9B benefit scope and payroll institution are adopted. **Every rate, timing, transition grant, protection allowance and further reform here is conditional.** The pre-education common-suite DEC/Q outputs remain the comparison vintage, not complete current-policy totals. Read the [recommendations](../sources/fiscal-recovery-and-education-redesign.md) for policy judgments and source limits.','',
+        'Generated by `models/tools/fiscal-recovery/model.py`. Full EDU-9B benefit scope and payroll institution are adopted. **Every rate, timing, transition grant, protection allowance and further reform here is conditional.** The pre-education common-suite DEC/Q outputs remain the comparison vintage, not complete current-policy totals. Read the [recommendations](../sources/fiscal-recovery-and-education-redesign.md) for policy judgments and source limits.','',
         'Nominal dollars; FY2030–39 totals in trillions. No estate receipts are moved or counted twice.','',
         '| Education mixed reference: 1.4 points, phased 2031–35, plus 30% GF share | $T |','| --- | ---: |']
     for k in ('fund_outlays_bn','old_agenda_transfer_bn','current_law_absorbed_bn','new_benefits_bn','payroll_bn','gf_bridge_bn','tax_offset_bn','protection_reserve_bn','gf_delta_bn','unified_delta_bn'):
@@ -311,6 +311,6 @@ if __name__=='__main__':
     r=run()
     if args.output_dir:
         args.output_dir.mkdir(parents=True,exist_ok=True); md=args.output_dir/'fiscal-recovery-model.md'; js=args.output_dir/'fiscal-recovery-model.json'; inv=args.output_dir/'fiscal-recovery-inventory.csv'
-    else: md=ROOT/'index/fiscal-recovery-model.md'; js=ROOT/'index/data/fiscal-recovery-model.json'; inv=ROOT/'sources/fiscal-recovery-inventory.csv'
+    else: md=ROOT/'legacy/index/fiscal-recovery-model.md'; js=ROOT/'models/data/fiscal-recovery-model.json'; inv=ROOT/'legacy/sources/fiscal-recovery-inventory.csv'
     md.write_text(render(r)); js.write_text(json.dumps(r,indent=2)+'\n'); inventory(inv)
     print(md)

@@ -4,7 +4,7 @@ Run after common rebuild. Outputs JSON; compares identical financing across pack
 import importlib.util,json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[3]
-spec=importlib.util.spec_from_file_location('recovery',ROOT/'index/tools/recovery-budget/model.py')
+spec=importlib.util.spec_from_file_location('recovery',ROOT/'models/tools/recovery-budget/model.py')
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 f,b,old,u=m.load()
 gdp={'ramp':4,'grow':'gdp','perm':1}

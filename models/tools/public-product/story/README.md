@@ -4,7 +4,7 @@ October 27, 2026 · Claude Code, PR #39 on `claude/public-story-essays`. Evidenc
 
 ## What it is
 
-`index/public-2050/story.html` sits beside the existing front door (“A day in a possible 2050”) and its analysis companion. It carries seven essays, each with an original illustration labeled as an imagined scene, numbered evidence notes, a “what this essay does not claim” box and its policies named by purpose. Four explanatory figures (an award-to-home flow, a delivery chain with its remedy loop, the fiscal rule, and the long arc to 2050) are HTML so they reflow and read as text; one chart (the Climate Dividend per adult) is drawn from its anchored data with a table view.
+`public/site/story.html` sits beside the existing front door (“A day in a possible 2050”) and its analysis companion. It carries seven essays, each with an original illustration labeled as an imagined scene, numbered evidence notes, a “what this essay does not claim” box and its policies named by purpose. Four explanatory figures (an award-to-home flow, a delivery chain with its remedy loop, the fiscal rule, and the long arc to 2050) are HTML so they reflow and read as text; one chart (the Climate Dividend per adult) is drawn from its anchored data with a table view.
 
 It is a separate page with its own builder because the existing edition is deliberately pinned to an October 25 evidence snapshot and its builder stops when cited sources change. The essays need current figures (the $150 carbon price, O5, CLI-7C, the resized capacity surge). Advancing the front door’s pin is a separate editorial review. Both pages share the palette and voice; neither rewrites the other.
 
@@ -21,7 +21,7 @@ It is a separate page with its own builder because the existing edition is delib
 | `test_story.py` | Claim-tracing, structure and editorial-boundary tests |
 | `story-browser-check.cjs` | Optional Chromium check at 320, 390, 768 and 1440 px |
 
-Generated outputs, never edited by hand: `index/public-2050/story.html`, `index/public-2050/story-claims.html` (the readable claim register), `index/public-2050/story-claims.json`, `sources/public-story-claim-register.md` and `anchors.lock.json`.
+Generated outputs, never edited by hand: `public/site/story.html`, `public/site/story-claims.html` (the readable claim register), `public/site/story-claims.json`, `legacy/sources/public-story-claim-register.md` and `anchors.lock.json`.
 
 ## How claims are kept honest
 
@@ -37,14 +37,14 @@ The only number allowed without a claim is 2050, the project’s name. External 
 ## Build, check and review
 
 ```bash
-python3 index/tools/public-product/story/build_story.py            # build
-python3 index/tools/public-product/story/build_story.py --check    # verify outputs and every claim
-python3 index/tools/public-product/story/test_story.py
-python3 -m http.server 8765 --bind 127.0.0.1 --directory index/public-2050   # then, in another shell:
-node index/tools/public-product/story/story-browser-check.cjs
+python3 models/tools/public-product/story/build_story.py            # build
+python3 models/tools/public-product/story/build_story.py --check    # verify outputs and every claim
+python3 models/tools/public-product/story/test_story.py
+python3 -m http.server 8765 --bind 127.0.0.1 --directory public/site   # then, in another shell:
+node models/tools/public-product/story/story-browser-check.cjs
 ```
 
-The common runner (`index/tools/run-all.sh`, step 8d) runs `--report` and the tests in report mode. Report mode still fails on every content error (an uncited or unsupported figure, a wrong rounding, an unknown reference) and on any stale generated output. The only thing it downgrades to a warning is source drift: if another change moves or rewrites a cited passage, it prints `REVIEW public story claims` with the claim IDs, and the page stays as it was because its evidence links are pinned. That is a signal for editorial review, not a failure of the other change. Regression tests run these cases through the command itself.
+The common runner (`models/tools/run-all.sh`, step 8d) runs `--report` and the tests in report mode. Report mode still fails on every content error (an uncited or unsupported figure, a wrong rounding, an unknown reference) and on any stale generated output. The only thing it downgrades to a warning is source drift: if another change moves or rewrites a cited passage, it prints `REVIEW public story claims` with the claim IDs, and the page stays as it was because its evidence links are pinned. That is a signal for editorial review, not a failure of the other change. Regression tests run these cases through the command itself.
 
 To move to newer evidence: `build_story.py --review-ref origin/main` lists changed sources and the claims that cite them. Reread those claims against the new passages, edit `essays.json`, set `source_commit` to the new full SHA, rebuild (with that commit fetched, so the lock can be refreshed) and run the tests and browser check.
 

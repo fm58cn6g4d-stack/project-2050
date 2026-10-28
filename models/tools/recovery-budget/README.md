@@ -3,7 +3,7 @@
 Exploratory total-federal-budget analysis, October 26, 2026. Source branch
 `codex/strategic-review`, commit `348d6ae3bcdbea06d4c58e889b6be5b42c6e1b7a`;
 remote main verified at `beeba090020b7916f8ed08bcff36161fb70d1e69`. Full EDU-9B
-scope is adopted. **October 26 approval:** the recommended architecture and working spending revisions are now selected in `index/data/inputs/recovery-adoption.json`, which the model reads directly. Complete illustrative tax/credit schedules remain unselected; no relaxation of D3/D4 is adopted. Read the
+scope is adopted. **October 26 approval:** the recommended architecture and working spending revisions are now selected in `models/data/inputs/recovery-adoption.json`, which the model reads directly. Complete illustrative tax/credit schedules remain unselected; no relaxation of D3/D4 is adopted. Read the
 [assessment](../../../sources/recovery-and-solvency-budget.md).
 
 ## Reproduce
@@ -11,17 +11,17 @@ scope is adopted. **October 26 approval:** the recommended architecture and work
 Python 3.9+, standard library; the common suite also requires Node.js. From root:
 
 ```bash
-bash index/tools/run-all.sh --write
-python3 -W ignore::ResourceWarning index/tools/recovery-budget/test_model.py
-python3 -W ignore::ResourceWarning index/tools/recovery-budget/model.py --output-dir /tmp/recovery-budget-check
-sha256sum -c index/tools/recovery-budget/MANIFEST.sha256
+bash models/tools/run-all.sh --write
+python3 -W ignore::ResourceWarning models/tools/recovery-budget/test_model.py
+python3 -W ignore::ResourceWarning models/tools/recovery-budget/model.py --output-dir /tmp/recovery-budget-check
+sha256sum -c models/tools/recovery-budget/MANIFEST.sha256
 ```
 
 The common runner produces this supplement after the historical comparisons.
 Standalone runs require `build/ledger.json`, `build/fiscal-model.json` and
 `build/moving-america.json`. They default to `build/recovery-budget/` and do not
 overwrite canonical inputs. The common runner copies the generated Markdown,
-JSON and paths CSV into `index/`; the component and audit CSVs go in `sources/`.
+JSON and paths CSV into `index/`; the component and audit CSVs go in `legacy/sources/`.
 `assumptions.json` contains source anchors and authored financing scenarios; `recovery-adoption.json` supplies the approved spending envelopes and leave ceiling without duplicating them in scenario inputs. JSON retains annual fund paths and sensitivities. The audit
 CSV reconciles each change in receipts and primary outlays. Tests establish
 accounting consistency, not forecast validity.
@@ -224,15 +224,15 @@ rebuilt or deployed. The next substantive assignment is the financing/protection
 
 The overlay now carries a $250B G8 risk allowance, with the accepted agency allocations inside unchanged capacity envelopes. A separate $12.2B housing-administration component corrects the whole adopted million-voucher package, with a four-year CPI-growing permanent path, once in the consolidated budget. Historical ledger components remain unchanged. The additional housing envelope remains $135B; reach is unresolved. Downside G8 loss is $150B, eliminating remaining counted receipts rather than implying negative enforcement collections. These are planning assumptions, not an official score.
 
-The initial financing/protection screen is separate at `index/tools/financing-protection/screen.py`; it calls the same model without altering adopted inputs and writes JSON to stdout. Its report explains why quintile averages cannot certify household protection.
+The initial financing/protection screen is separate at `models/tools/financing-protection/screen.py`; it calls the same model without altering adopted inputs and writes JSON to stdout. Its report explains why quintile averages cannot certify household protection.
 
 
 ## PRs #23/#25 integration and exploratory spending cases
 
 See [accounting note](../../../sources/capacity-round-two-integration.md) for $105B surge/$5B FY2029 shift, permanent DEV-P, leave administration and SSA/SMI routing. The historical dedicated-funds engine accepts an optional HI administration path; default outputs are unchanged. The recovery overlay supplies costs explicitly. Fund-funded capacity costs remain within gross CAP ceilings; they are not added a second time. Central HI/SMI split is a workload proxy with endpoint sensitivity cases; a 6% leave-administration case tests the reviewed high cost rate. Central leave-loan repayment is now 2058, superseding the prior 2048 result. No rate increase or benefit cut is automatically selected.
 
-The separate `index/tools/financing-protection/packages.py` generates twelve exploratory package/financing/stress cases. Adjustments are explicit cost ceilings with inherited profiles, not implementation scores. Their [report](../../../sources/spending-package-comparisons.md) describes service losses and limits. No package mutates the adopted input record.
+The separate `models/tools/financing-protection/packages.py` generates twelve exploratory package/financing/stress cases. Adjustments are explicit cost ceilings with inherited profiles, not implementation scores. Their [report](../../../sources/spending-package-comparisons.md) describes service losses and limits. No package mutates the adopted input record.
 
 ## Climate integration boundary after PR #26
 
-This reference integrates capacity and fund costs, retaining historical carbon inputs. Run `python3 index/tools/financing-protection/climate_bridge.py --write` after the common rebuild for the merged climate package’s separate fiscal comparison. It uses exported annual GF paths, finite capital costs and an explicit post-2050 extrapolation; it does not adopt a pay-for, alter D7, or certify incidence. The older `packages.py` comparisons are historical and must not be stacked on Package A.
+This reference integrates capacity and fund costs, retaining historical carbon inputs. Run `python3 models/tools/financing-protection/climate_bridge.py --write` after the common rebuild for the merged climate package’s separate fiscal comparison. It uses exported annual GF paths, finite capital costs and an explicit post-2050 extrapolation; it does not adopt a pay-for, alter D7, or certify incidence. The older `packages.py` comparisons are historical and must not be stacked on Package A.

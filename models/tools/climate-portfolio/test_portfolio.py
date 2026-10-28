@@ -1,5 +1,5 @@
-"""Checks for the climate portfolio comparison. Run after `bash index/tools/run-all.sh`:
-python3 index/tools/climate-portfolio/test_portfolio.py
+"""Checks for the climate portfolio comparison. Run after `bash models/tools/run-all.sh`:
+python3 models/tools/climate-portfolio/test_portfolio.py
 """
 import json, subprocess, sys
 from pathlib import Path
@@ -20,7 +20,7 @@ def check(name, ok):
     if not ok: fails.append(name)
 
 # 1. The selected case reproduces the carbon model's own decided package exactly.
-ref = json.loads(subprocess.run(['node', str(ROOT / 'index/tools/carbon/p2050-run.js'), str(ROOT / 'build/carbon-config.json')],
+ref = json.loads(subprocess.run(['node', str(ROOT / 'models/tools/carbon/p2050-run.js'), str(ROOT / 'build/carbon-config.json')],
                                 check=True, capture_output=True, text=True).stdout)['cases']['full']
 mine = runs['cases']['selected']
 check('selected case reproduces carbon-model.py case full',
@@ -54,7 +54,7 @@ check('grid + retrofits differs from the sum of the parts', abs(gw - (g + w)) > 
 
 # 6. Committed outputs match a fresh run.
 built = (ROOT / 'build/climate-portfolio/climate-portfolio-model-results.md')
-committed = ROOT / 'sources/climate-portfolio-model-results.md'
+committed = ROOT / 'legacy/sources/climate-portfolio-model-results.md'
 if built.exists() and committed.exists():
     check('committed report matches the build', built.read_text() == committed.read_text())
 

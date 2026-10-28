@@ -42,22 +42,27 @@ class Rules(unittest.TestCase):
         return g.match_rule(path, POLICY)["tier"]
 
     def test_paths(self):
-        self.assertEqual(self.tier("governing/project-collaboration.md"), 3)
-        self.assertEqual(self.tier("index/data/inputs/recovery-adoption.json"), 3)
+        self.assertEqual(self.tier("legacy/governing/project-collaboration.md"), 3)
+        self.assertEqual(self.tier("models/data/inputs/recovery-adoption.json"), 3)
         self.assertEqual(self.tier(".github/workflows/pr-checks.yml"), 3)
         self.assertEqual(self.tier("AGENTS.md"), 3)
-        self.assertEqual(self.tier("sources/project-work-queue.md"), 1)
-        self.assertEqual(self.tier("sources/capacity-recovery-budget-review.md"), 1)
-        self.assertEqual(self.tier("index/tools/capacity-review/review.py"), 1)
-        self.assertEqual(self.tier("domains/domain-health.md"), "domain")
+        self.assertEqual(self.tier("legacy/sources/project-work-queue.md"), 1)
+        self.assertEqual(self.tier("legacy/sources/capacity-recovery-budget-review.md"), 1)
+        self.assertEqual(self.tier("models/tools/capacity-review/review.py"), 1)
+        self.assertEqual(self.tier("charter/PROGRESS.md"), 1)
+        self.assertEqual(self.tier("charter/STANDARDS.md"), 3)
+        self.assertEqual(self.tier("library/catalog.csv"), 1)
+        self.assertEqual(self.tier("agenda/agenda.csv"), 2)
+        self.assertEqual(self.tier("legacy/README.md"), 3)
+        self.assertEqual(self.tier("legacy/domains/domain-health.md"), "domain")
         self.assertEqual(self.tier("something/new.txt"), 2)
 
     def test_generated_and_owners(self):
-        self.assertTrue(g.is_generated("index/data/dashboard/bills.json", POLICY))
-        self.assertTrue(g.is_generated("index/recovery-budget.md", POLICY))
-        self.assertFalse(g.is_generated("index/options-register.md", POLICY))
-        self.assertEqual(g.owners_of("index/tools/recovery-budget/model.py", POLICY), {"codex"})
-        self.assertEqual(g.owners_of("sources/climate-portfolio-allocation.md", POLICY), {"claude-code"})
+        self.assertTrue(g.is_generated("models/data/dashboard/bills.json", POLICY))
+        self.assertTrue(g.is_generated("legacy/index/recovery-budget.md", POLICY))
+        self.assertFalse(g.is_generated("legacy/index/options-register.md", POLICY))
+        self.assertEqual(g.owners_of("models/tools/recovery-budget/model.py", POLICY), {"codex"})
+        self.assertEqual(g.owners_of("legacy/sources/climate-portfolio-allocation.md", POLICY), {"claude-code"})
 
 
 class Headlines(unittest.TestCase):
@@ -514,9 +519,9 @@ class Classify(unittest.TestCase):
         g._DOMAIN_IDS.clear()
         self.git("init", "-q", "-b", "main")
         self.git("config", "user.email", "t@example.com"); self.git("config", "user.name", "t")
-        self.write("domains/domain-x.md", "# X\n\nHLT-1 costs $10B. The plan is good.\n")
-        self.write("sources/notes.md", "Research note.\n")
-        self.write("governing/rules.md", "Rule.\n")
+        self.write("legacy/domains/domain-x.md", "# X\n\nHLT-1 costs $10B. The plan is good.\n")
+        self.write("legacy/sources/notes.md", "Research note.\n")
+        self.write("legacy/governing/rules.md", "Rule.\n")
         self.commit("base")
         self.base = self.git("rev-parse", "HEAD").strip()
 
@@ -538,44 +543,44 @@ class Classify(unittest.TestCase):
         return self.git("rev-parse", "HEAD").strip()
 
     def test_research_is_tier1(self):
-        self.write("sources/notes.md", "Research note, expanded with 3 sources.\n")
+        self.write("legacy/sources/notes.md", "Research note, expanded with 3 sources.\n")
         self.assertEqual(g.classify(self.base, self.commit("s"), POLICY)["tier"], 1)
 
     def test_domain_wording_is_tier1(self):
-        self.write("domains/domain-x.md", "# X\n\nHLT-1 costs $10B. The plan works.\n")
+        self.write("legacy/domains/domain-x.md", "# X\n\nHLT-1 costs $10B. The plan works.\n")
         self.assertEqual(g.classify(self.base, self.commit("d"), POLICY)["tier"], 1)
 
     def test_domain_number_is_tier2(self):
-        self.write("domains/domain-x.md", "# X\n\nHLT-1 costs $12B. The plan is good.\n")
+        self.write("legacy/domains/domain-x.md", "# X\n\nHLT-1 costs $12B. The plan is good.\n")
         self.assertEqual(g.classify(self.base, self.commit("d"), POLICY)["tier"], 2)
 
     def test_new_program_is_tier3(self):
-        self.write("domains/domain-x.md", "# X\n\nHLT-1 costs $10B. HLT-9 is new. The plan is good.\n")
+        self.write("legacy/domains/domain-x.md", "# X\n\nHLT-1 costs $10B. HLT-9 is new. The plan is good.\n")
         res = g.classify(self.base, self.commit("d"), POLICY)
         self.assertEqual(res["tier"], 3)
         self.assertTrue(any("+HLT-9" in r[2] for r in res["reasons"]))
 
     def test_citing_existing_program_is_not_new(self):
-        self.write("domains/domain-y.md", "# Y\n\nNothing yet.\n")
+        self.write("legacy/domains/domain-y.md", "# Y\n\nNothing yet.\n")
         base = self.commit("y")
-        self.write("domains/domain-y.md", "# Y\n\nWorks with HLT-1.\n")
+        self.write("legacy/domains/domain-y.md", "# Y\n\nWorks with HLT-1.\n")
         self.assertEqual(g.classify(base, self.commit("cite"), POLICY)["tier"], 2)
 
     def test_removed_program_is_tier3(self):
-        self.write("domains/domain-x.md", "# X\n\nThe plan is good.\n")
+        self.write("legacy/domains/domain-x.md", "# X\n\nThe plan is good.\n")
         self.assertEqual(g.classify(self.base, self.commit("rm"), POLICY)["tier"], 3)
 
     def test_same_changes_after_merging_main(self):
         self.git("checkout", "-q", "-b", "pr")
-        self.write("sources/notes.md", "Research note, revised.\n")
+        self.write("legacy/sources/notes.md", "Research note, revised.\n")
         reviewed = self.commit("pr work")
         self.git("checkout", "-q", "main")
-        self.write("sources/other.md", "Someone else's work.\n")
+        self.write("legacy/sources/other.md", "Someone else's work.\n")
         self.commit("main moves")
         self.git("checkout", "-q", "pr")
         self.git("merge", "-q", "--no-edit", "main")
         merged = self.git("rev-parse", "HEAD").strip()
-        self.write("sources/notes.md", "Research note, revised again.\n")
+        self.write("legacy/sources/notes.md", "Research note, revised again.\n")
         edited = self.commit("more pr work")
         self.git("checkout", "-q", "main")  # the gate runs from a checkout of main
         self.assertTrue(g.same_changes(reviewed, merged))
@@ -584,7 +589,7 @@ class Classify(unittest.TestCase):
         self.assertFalse(g.same_changes("0" * 40, merged))
 
     def test_governing_is_tier3(self):
-        self.write("governing/rules.md", "Rule, reworded.\n")
+        self.write("legacy/governing/rules.md", "Rule, reworded.\n")
         self.assertEqual(g.classify(self.base, self.commit("g"), POLICY)["tier"], 3)
 
 

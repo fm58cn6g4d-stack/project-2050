@@ -7,8 +7,8 @@ import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / 'index/tools'))
-spec = importlib.util.spec_from_file_location('votes_model', ROOT / 'index/tools/votes-model.py')
+sys.path.insert(0, str(ROOT / 'models/tools'))
+spec = importlib.util.spec_from_file_location('votes_model', ROOT / 'models/tools/votes-model.py')
 votes = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(votes)
 
@@ -16,7 +16,7 @@ class CalendarChecks(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.ledger = json.loads((ROOT / 'build/ledger.json').read_text())
-        with (ROOT / 'index/data/inputs/ledger-bills.csv').open() as stream:
+        with (ROOT / 'models/data/inputs/ledger-bills.csv').open() as stream:
             cls.rows = {r['id']: r for r in csv.DictReader(stream)}
 
     def test_dem_floor_start_and_ss_window(self):

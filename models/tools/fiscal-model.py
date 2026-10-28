@@ -2,7 +2,7 @@
 """fiscal-model.py: the Project 2050 long-term fiscal model.
 
 Three layers, each usable alone:
-  1. Baseline (all of government): index/data/fiscal-baseline.csv (from fiscal-data.py):
+  1. Baseline (all of government): models/data/fiscal-baseline.csv (from fiscal-data.py):
      CBO history FY1962-2025, FY2026 actuals, CBO's Feb 2026 baseline to 2036 and its
      long-term projection to 2056, plus post-February adjustments (tariff ruling).
   2. Program (the agenda, as increments over that baseline): every ledger row from

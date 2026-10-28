@@ -10,8 +10,8 @@ References:
 From repository root, when API access is available:
 
 ```sh
-python3 index/tools/treasury-data/fetch.py --start 2024-10-01 --end 2025-09-30 --output /tmp/mts-fy2025-snapshot.json
-python3 -m unittest discover -s index/tools/treasury-data -p 'test_*.py'
+python3 models/tools/treasury-data/fetch.py --start 2024-10-01 --end 2025-09-30 --output /tmp/mts-fy2025-snapshot.json
+python3 -m unittest discover -s models/tools/treasury-data -p 'test_*.py'
 ```
 
 The adapter requests all fields for MTS table 1, preserves raw response text, hashes, metadata, exact query URLs and retrieval time. It follows numbered pages, rejects missing/inconsistent completeness metadata and repeated rows, and refuses partial or empty results. Existing snapshots cannot be overwritten. Do not omit classification dimensions or aggregate every table row: table 1 contains reporting categories/comparisons, not a flat series of independent additive amounts. Live schema and pagination conventions must be verified before claiming production readiness.

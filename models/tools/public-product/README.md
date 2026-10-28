@@ -8,10 +8,10 @@ The full EDU-9B package/payroll institution has since been adopted and a new [fi
 
 ## View it
 
-Download `index/public-2050/` from the task branch and open `index.html` in a modern browser, or run this command from the repository root:
+Download `public/site/` from the task branch and open `index.html` in a modern browser, or run this command from the repository root:
 
 ```bash
-python3 -m http.server 8765 --bind 127.0.0.1 --directory index/public-2050
+python3 -m http.server 8765 --bind 127.0.0.1 --directory public/site
 ```
 
 Open `http://127.0.0.1:8765/` on the **same machine**. A cloud workspace loopback address is not a desktop preview URL. No public or tunnel endpoint was created. Stop the server with Ctrl-C. GitHub’s normal HTML view displays source rather than running the page.
@@ -25,9 +25,9 @@ Review captures: [desktop page](../../public-2050/review-desktop.png), [mobile p
 Requires Python 3.9+ and Git; the artifact needs no package installation, source download or model simulation.
 
 ```bash
-python3 index/tools/public-product/build.py
-python3 index/tools/public-product/build.py --check
-python3 index/tools/public-product/test_build.py
+python3 models/tools/public-product/build.py
+python3 models/tools/public-product/build.py --check
+python3 models/tools/public-product/test_build.py
 ```
 
 The publisher reads `content.json`, `site.html`, CSS, the SVG illustration, navigation JavaScript and the direction template. It generates the five files listed above; do not hand-edit them. The analysis reads FY2040 DEC `gf_primary` and GDP from the existing fiscal CSV, where a positive primary gap is a deficit in nominal $B. It reads three `adopted_cases` from the family comparison JSON. The GDP share is a direct ratio of those same-row fields. It does not add policy effects, interpolate cases, rephase costs or determine personal benefits.
@@ -40,7 +40,7 @@ The publisher reads `content.json`, `site.html`, CSS, the SVG illustration, navi
 - All referenced evidence must match the pinned source commit. A source edit stops the build and names affected records. After fetching main, report what a newer source version would affect:
 
 ```bash
-python3 index/tools/public-product/build.py --review-ref origin/main
+python3 models/tools/public-product/build.py --review-ref origin/main
 ```
 
 The report lists changed sources and affected public URLs. Review the relevant wording, selected-design status and numerical contracts, then explicitly advance `source_commit` and rebuild. The command never changes public copy or adoption decisions. It is a local review tool, not a scheduled GitHub notification service. A future publication workflow should run it in CI against the proposed release sources.
@@ -52,7 +52,7 @@ The manifest records SHA-256 hashes for evidence, publisher files and generated 
 Optional QA requires Playwright resolvable by Node, Chromium and the loopback server above. It reads only that server, aborts HTTPS requests and saves captures under ignored `build/public-product-review/`. Set `PUBLIC_PRODUCT_BROWSER` for another Chromium executable.
 
 ```bash
-node index/tools/public-product/browser-check.cjs
+node models/tools/public-product/browser-check.cjs
 ```
 
 The managed browser blocks `file:` navigation, so this pass verifies HTTP rendering. Direct-file opening is supported by the self-contained artifact but was not verified in this browser.
