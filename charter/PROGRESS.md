@@ -17,9 +17,7 @@ Updated October 28, 2026 by Claude Code (stage A, PR 1).
 
 ## Open PRs
 
-| PR | What | State |
-| --- | --- | --- |
-| #45 (Codex) | Integrate the decided climate Package A, O5 and CLI-7C into the fiscal models | Tier 3, waiting on Espen. Merge it before the reset PR; the reset is rebuilt on top of it so Codex's changes follow the moved files |
+None besides the reset (PR #46).
 
 ## Done (recent)
 
@@ -28,6 +26,7 @@ Updated October 28, 2026 by Claude Code (stage A, PR 1).
 | Restructuring plan | Adopted by Espen October 28 (`charter/PLAN.md`, `DEC-2026-10-28-01`) |
 | Research intake, October 28 | Filed in `library/intake/2026-10-28/` with checksums |
 | PR #39, public story page with seven essays and a claim register | Merged at `eceb44a`. The old queue still called it "ready for approval"; it is done |
+| PR #45 (Codex), decided climate Package A, O5 and CLI-7C integrated into the fiscal models | Merged at `3a0a4b0` after Claude Code review and Espen's approval. DEC 2056 debt 155.7% to 156.4% of GDP; mixed Q4 FY2039 −$2,906 to −$3,054; D3 still unresolved |
 | PR #44, climate export reconciliation and JSON drift checks | Merged at `ffe461d` |
 
 ## Known gaps
@@ -38,4 +37,4 @@ Updated October 28, 2026 by Claude Code (stage A, PR 1).
 
 ## Questions for Espen
 
-1. Approve the reset, PR #46 (add `espen-approved`), after PR #45 if you approve that one too.
+1. Approve the reset, PR #46 (add `espen-approved`).

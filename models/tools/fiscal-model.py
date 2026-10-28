@@ -20,6 +20,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 spec = importlib.util.spec_from_file_location("profiles", os.path.join(HERE, "fiscal-profiles.py"))
 PR = importlib.util.module_from_spec(spec); spec.loader.exec_module(PR)
 
+spec = importlib.util.spec_from_file_location("climate_integration", os.path.join(HERE, "climate-integration.py"))
+CL = importlib.util.module_from_spec(spec); spec.loader.exec_module(CL)
+
 Y0, Y1 = 2026, 2056          # model years
 W0, W1 = 2030, 2039          # ledger window
 CPI = {y: 2.26 if y <= 2036 else 2.3 for y in range(2026, 2057)}   # CBO Feb 2026 CPI-U path (rounded)
@@ -157,6 +160,7 @@ def build(ledger_path, baseline_path):
             checks.append(f"MISSING PROFILE for base revenue {rid}"); prof = dict(cat="rev_individual", ramp=1, grow="rev_individual")
         p = row_path(B, -r["mid"], prof, rid)
         rows.append(dict(id=rid, label=r["option"], group="base revenue", cat=prof["cat"], gf=p, uni=p, basis=prof.get("basis", "")))
+    CL.apply(rows, B, row_path, PR.BILLS)
     opt_rows = {}
     for cid, c in cuts.items():
         prof = PR.CUTS.get(cid)
@@ -262,7 +266,7 @@ def build(ledger_path, baseline_path):
     def tests(r):
         Yd = r["years"]
         win = lambda k: sum(Yd[y][k] for y in range(W0, W1 + 1))
-        t = {}
+        t = CL.disclosure()
         t["gf_10yr_primary"] = win("gf_primary") / 1000
         t["unified_10yr_primary"] = win("prog_primary") / 1000
         t["unified_10yr_with_interest"] = (win("prog_primary") + win("prog_interest")) / 1000

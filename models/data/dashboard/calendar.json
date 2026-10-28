@@ -1185,14 +1185,14 @@
     "DEM_start": true,
     "DEM_spring": true,
     "DEM_outer": true,
-    "SS_spring": false,
+    "SS_spring": true,
     "R2_summer": false,
     "R3_summer": false
    },
    "scope_completed": 22,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "CLI-6",
     "R3"
    ],
    "on_frontier": false
@@ -1219,7 +1219,7 @@
    "scope_completed": 22,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "CLI-6",
     "R3"
    ],
    "on_frontier": true
@@ -1246,7 +1246,7 @@
    "scope_completed": 22,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "AI-1",
     "R3"
    ],
    "on_frontier": false
@@ -1266,7 +1266,7 @@
     "DEM_start": true,
     "DEM_spring": true,
     "DEM_outer": true,
-    "SS_spring": true,
+    "SS_spring": false,
     "R2_summer": false,
     "R3_summer": false
    },
@@ -1292,14 +1292,14 @@
     "DEM_start": true,
     "DEM_spring": true,
     "DEM_outer": true,
-    "SS_spring": false,
+    "SS_spring": true,
     "R2_summer": false,
     "R3_summer": false
    },
    "scope_completed": 22,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "CLI-6",
     "R3"
    ],
    "on_frontier": false
@@ -1326,7 +1326,7 @@
    "scope_completed": 22,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "CLI-6",
     "R3"
    ],
    "on_frontier": true
@@ -1353,7 +1353,7 @@
    "scope_completed": 22,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "AI-1",
     "R3"
    ],
    "on_frontier": false
@@ -1373,7 +1373,7 @@
     "DEM_start": true,
     "DEM_spring": true,
     "DEM_outer": true,
-    "SS_spring": true,
+    "SS_spring": false,
     "R2_summer": false,
     "R3_summer": false
    },
@@ -2610,7 +2610,7 @@
     "R2",
     "R3"
    ],
-   "on_frontier": false
+   "on_frontier": true
   },
   {
    "run_id": 102,
@@ -3057,13 +3057,12 @@
     "R2_summer": false,
     "R3_summer": false
    },
-   "scope_completed": 11,
+   "scope_completed": 12,
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
     "CLI-3",
     "CLI-6",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "LAB-9D",
@@ -3074,7 +3073,7 @@
     "R2",
     "R3"
    ],
-   "on_frontier": true
+   "on_frontier": false
   },
   {
    "run_id": 113,
@@ -3095,13 +3094,12 @@
     "R2_summer": false,
     "R3_summer": false
    },
-   "scope_completed": 11,
+   "scope_completed": 12,
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
     "CLI-3",
     "CLI-6",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "LAB-9D",
@@ -3112,7 +3110,7 @@
     "R2",
     "R3"
    ],
-   "on_frontier": true
+   "on_frontier": false
   },
   {
    "run_id": 114,
@@ -3133,11 +3131,10 @@
     "R2_summer": false,
     "R3_summer": false
    },
-   "scope_completed": 11,
+   "scope_completed": 12,
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "LAB-9D",
@@ -3171,11 +3168,10 @@
     "R2_summer": false,
     "R3_summer": false
    },
-   "scope_completed": 11,
+   "scope_completed": 12,
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "LAB-9D",
@@ -3209,13 +3205,12 @@
     "R2_summer": false,
     "R3_summer": false
    },
-   "scope_completed": 11,
+   "scope_completed": 12,
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
     "CLI-3",
     "CLI-6",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "LAB-9D",
@@ -3247,13 +3242,12 @@
     "R2_summer": false,
     "R3_summer": false
    },
-   "scope_completed": 11,
+   "scope_completed": 12,
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
     "CLI-3",
     "CLI-6",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "LAB-9D",
@@ -3285,11 +3279,10 @@
     "R2_summer": false,
     "R3_summer": false
    },
-   "scope_completed": 11,
+   "scope_completed": 12,
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "LAB-9D",
@@ -3323,11 +3316,10 @@
     "R2_summer": false,
     "R3_summer": false
    },
-   "scope_completed": 11,
+   "scope_completed": 12,
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "LAB-9D",
@@ -3367,12 +3359,12 @@
     "HLT-3",
     "CLI-3",
     "CLI-6",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "COM-1",
     "IMM-1",
     "AI-1",
+    "SAF-1",
     "R2",
     "R3"
    ],
@@ -3403,12 +3395,12 @@
     "HLT-3",
     "CLI-3",
     "CLI-6",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "COM-1",
     "IMM-1",
     "AI-1",
+    "SAF-1",
     "R2",
     "R3"
    ],
@@ -3437,12 +3429,12 @@
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "COM-1",
     "IMM-1",
     "AI-1",
+    "SAF-1",
     "R2",
     "R3",
     "CLI-3",
@@ -3473,12 +3465,12 @@
    "scope_total": 24,
    "unfinished": [
     "HLT-3",
-    "CLI-7",
     "HOU-7",
     "LAB-1",
     "COM-1",
     "IMM-1",
     "AI-1",
+    "SAF-1",
     "R2",
     "R3",
     "CLI-3",
@@ -3693,7 +3685,7 @@
    "scope_total": 24,
    "unfinished": [
     "CLI-6",
-    "CLI-7",
+    "LAB-1",
     "AI-1",
     "R3"
    ],
@@ -3722,7 +3714,7 @@
    "scope_total": 24,
    "unfinished": [
     "CLI-6",
-    "CLI-7",
+    "LAB-1",
     "AI-1",
     "R3"
    ],
@@ -3750,7 +3742,7 @@
    "scope_completed": 20,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "HOU-7",
     "LAB-1",
     "AI-1",
     "R3"
@@ -3779,7 +3771,7 @@
    "scope_completed": 20,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "HOU-7",
     "LAB-1",
     "AI-1",
     "R3"
@@ -3809,7 +3801,7 @@
    "scope_total": 24,
    "unfinished": [
     "CLI-6",
-    "CLI-7",
+    "LAB-1",
     "AI-1",
     "R3"
    ],
@@ -3838,7 +3830,7 @@
    "scope_total": 24,
    "unfinished": [
     "CLI-6",
-    "CLI-7",
+    "LAB-1",
     "AI-1",
     "R3"
    ],
@@ -3866,7 +3858,7 @@
    "scope_completed": 20,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "HOU-7",
     "LAB-1",
     "AI-1",
     "R3"
@@ -3895,7 +3887,7 @@
    "scope_completed": 20,
    "scope_total": 24,
    "unfinished": [
-    "CLI-7",
+    "HOU-7",
     "LAB-1",
     "AI-1",
     "R3"
@@ -4207,7 +4199,7 @@
     "R2",
     "R3"
    ],
-   "on_frontier": false
+   "on_frontier": true
   },
   {
    "run_id": 145,

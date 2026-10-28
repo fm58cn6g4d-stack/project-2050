@@ -142,6 +142,7 @@ def main():
         w(f"| {label} | {fn(tS)} | {fn(tD)} | {fn(tE)} | {fn(tT)} |")
     w("")
     w("Reading the tests:")
+    w("- **CLI-7C contingent exposure:** $75–150B, disclosed and unscored in every D4 scenario; expected net cost is scored separately. Post-2050 climate flows use a constant-real-2050 extension, not an emissions forecast.")
     w("- **Decided rule (Oct 20).** Permanent programs are paid for at maturity, tested in FY2040 (FY2039 net of time-limited lines) and every later year. Time-limited investments may be borrowed for inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040, which holds the borrowing readings (C21, C30-C32, C37) and CAP-7S's rebuild surge (C42); unused room does not carry forward, and the envelope is available only while test 1 passes. Guardrails are measured against the real (CBO, adjusted) baseline, not the program's own debt. Judgment Fund-backed contracts are counted (CLI-9 at full cost when obligated; AAJA damages as a disclosed contingent-liability line). No dynamic revenue is counted.")
     w("- \"Social-insurance funds whole on 75 years\" is tested in legacy/index/dedicated-funds.md, not here (on SSA's 2026 scores the D8 baseline closes about 64% of the 75-year gap and SS-5 brings it to about 84%).")
     w("- The fiscal gap (scenario table) is the reported sustainability track.")

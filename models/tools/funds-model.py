@@ -292,6 +292,7 @@ out = dict(ss={k: {kk: vv for kk, vv in v.items() if kk != "rows"} | {"tfr": {r[
            edu={k: dict(need=round(v["need"], 2), trough_128=v["at128"]["trough"], trough_140=v["at140"]["trough"],
                         reserve_2049_128=v["at128"]["reserve_2049"], reserve_2049_140=v["at140"]["reserve_2049"]) for k, v in edu_runs.items()},
            edu_relief_tn=edu_relief, edu_outlays_w_tn=edu_out_w)
+out["climate_contingency"]={"CLI-7C_contingent_liability_bn":[75,150],"contingent_scored":False}
 json.dump(out, open("funds.json", "w"), indent=1, default=float)
 
 L_ = []
@@ -384,5 +385,6 @@ w("")
 w(f"The domain file estimates about 1.4 points with REV-E1 counted, and slightly above with only its new money (estimate). General-fund relief if taken up: FAM-2, EDU-1, EDU-3 and EDU-4 leave the general fund, ${edu_relief:.2f}T in 2030-39 on the long-term model's rows (domain file: $1.23T), plus the current spending the fund absorbs (about $0.77T, estimate).\n")
 
 L_.insert(2, '> **Education adoption update:** This is the preserved pre-EDU-9B numerical comparison. Espen has adopted the full education-fund benefit scope and payroll institution. Use [the integrated education and fiscal recovery bridge](fiscal-recovery-model.md) for current selected-scope costs and conditional financing. Old “held education” and “decided package” labels below describe the earlier vintage; they do not reverse that adoption or establish a current financing/D3/D4 pass. Exact new rates and transition finance await decision.\n')
+L_.insert(3, "> **Climate integration disclosure:** CLI-7C carries $75–150B of contingent exposure, not scored; its expected cost is included in the common fiscal model. The carbon table below is the preserved $150 baseline; Package A process/combustion increments and O5 routing are in the common ledger and recovery audit.\n")
 open("dedicated-funds.md", "w").write("\n".join(L_))
 print(f"Leave mid first step {leave['mid']['first_step']}. SS current law: depletion {cl['depletion']}, balance {cl['balance']:.2f}; D8 {d8['closed']:.0f}% closed; +SS-5 {d5['closed']:.0f}%. HI {hc['depletion']} {hc['balance']:.2f}")
