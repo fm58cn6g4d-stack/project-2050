@@ -1,6 +1,6 @@
 # Project 2050: outcomes record
 
-Role: what the project is trying to change in people's lives, and how it will know. Status: **draft for Espen's approval** (stage A, October 28, 2026). It is the "small outcomes record" the charter asks for (`legacy/governing/project-charter.md`, section on long-run pathways). Each dossier's problem and validation sections cite these IDs.
+Role: what the project is trying to change in people's lives, and how it will know. Status: current, approved by Espen on October 28, 2026 (DEC-2026-10-28-06). No numerical targets are set. It is the "small outcomes record" the charter asks for (`legacy/governing/project-charter.md`, section on long-run pathways). Each dossier's problem and validation sections cite these IDs.
 
 **How to read it.**
 - Each row is an aspiration with the people it must reach, candidate measures and the flagships whose mechanisms are meant to move it.
@@ -24,7 +24,4 @@ Role: what the project is trying to change in people's lives, and how it will kn
 | OUT-10 | Connection: more people take part in shared work larger than themselves | People with little spare time or income, disabled people, people who distrust government | Volunteering and civic participation (CPS Civic Engagement Supplement); participation in national and community service | Democratic renewal; work |
 | OUT-11 | The program keeps faith with the fairness and fiscal tests Espen adopted. These are already decided, not aspirations, and they are recorded here so every dossier answers to them | Every income group below the top (D3) | D3, both parts: every group below the top better off on net, and new general-fund revenue mostly from the top 1% and corporations. D4-B: permanent programs paid for at maturity (FY2040 on), time-limited investments inside the borrowing envelope. Both are run by the household incidence and fiscal models (`legacy/governing/project-2050-governing-decisions.md`, D3 and D4) | Fair financing |
 
-**Questions for Espen.**
-1. Are these the right outcomes? Add, merge or drop any.
-2. Should any outcome get a numerical target now, or only once its dossier reaches L3?
-3. OUT-11 restates tests you already adopted (D3 and D4) rather than a new aim. Keep it here as the guardrail every dossier answers to, or move it to the fair financing dossier?
+**Open question for Espen.** Should any outcome get a numerical target now, or only once its dossier reaches L3? Espen's approval of the record as written settled the other two questions from the draft: the outcomes stand as listed, and OUT-11 stays here as the guardrail every dossier answers to.
