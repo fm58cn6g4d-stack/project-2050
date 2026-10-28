@@ -184,6 +184,8 @@ def staging_rows():
     """'staging N.N' names: rows of the staging inventory, by line."""
     out = []
     for n, line in enumerate((ROOT / STAGING).read_text().splitlines(), 1):
+        if line.startswith('# Analysis'):
+            break  # the analysis below re-lists surviving rows; each row's home is its first listing
         m = re.match(r'\|\s*(\d+\.\d+)\s*\|\s*([^|]*)', line)
         if m:
             out.append((f'staging {m.group(1)}', f'{STAGING}:{n}', re.sub(r'\s+', ' ', m.group(2)).strip()[:90]))
@@ -246,7 +248,7 @@ if __name__ == '__main__':
         ids = [r['id'] for r in rows]
         # One home per name: a title or alias that leads to two documents is ambiguous. File names may repeat.
         homes = {}
-        for name, _, home, how in names(rows):
+        for name, _, home, how in names(rows) + [(n, '', w, 'staging') for n, w, _ in staging_rows()]:
             if not how.startswith('file name'):
                 homes.setdefault(name.lower(), set()).add(home)
         problems += [f'name {n!r} leads to {len(h)} homes: {", ".join(sorted(h))}' for n, h in homes.items() if len(h) > 1]
