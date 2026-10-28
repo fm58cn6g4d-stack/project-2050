@@ -51,6 +51,11 @@ echo "== 8c. total-federal Recovery and Solvency budget (exploratory)"
 python3 -W ignore::ResourceWarning "$TOOLS"/recovery-budget/model.py --output-dir "$BUILD" > "$BUILD/recovery-budget.log"
 python3 -W ignore::ResourceWarning "$TOOLS"/recovery-budget/test_model.py
 
+echo "== 8d. public story page (claim register and generated page)"
+# Fails if the story's own content changed without a rebuild; only reports a cited source passage that moved.
+python3 "$TOOLS"/public-product/story/build_story.py --report
+PUBLIC_STORY_REPORT_ONLY=1 python3 "$TOOLS"/public-product/story/test_story.py 2>&1 | tail -1
+
 OUT=(
   'recovery-budget.md|index/recovery-budget.md'
   'recovery-budget.json|index/data/recovery-budget.json'
