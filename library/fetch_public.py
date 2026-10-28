@@ -53,6 +53,22 @@ def pdf_text(data):
         return subprocess.check_output(['pdftotext', f.name, '-'], text=True)
 
 
+def column_index(letters):
+    n = 0
+    for ch in letters:
+        n = n * 26 + ord(ch) - ord('A') + 1
+    return n - 1
+
+
+def is_xlsx(data):
+    if data[:2] != b'PK':
+        return False
+    try:
+        return 'xl/workbook.xml' in zipfile.ZipFile(BytesIO(data)).namelist()
+    except zipfile.BadZipFile:
+        return False
+
+
 def xlsx_text(data):
     ns = {'m': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
     rel = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id'
@@ -68,29 +84,33 @@ def xlsx_text(data):
         root = ET.fromstring(z.read(target if target.startswith('xl/') else 'xl/' + target))
         rows = []
         for row in root.iter(f"{{{ns['m']}}}row"):
-            cells = []
-            for c in row.findall('m:c', ns):
+            # Empty cells are usually omitted, so place each cell by its column letters (r="C7"), not its order.
+            cells = {}
+            for k, c in enumerate(row.findall('m:c', ns)):
+                ref = re.match(r'[A-Z]+', c.get('r', ''))
+                col = column_index(ref.group(0)) if ref else k
                 v = c.find('m:v', ns)
                 inline = c.find('m:is', ns)
                 if c.get('t') == 's' and v is not None:
-                    cells.append(shared[int(v.text)])
+                    cells[col] = shared[int(v.text)]
                 elif inline is not None:
-                    cells.append(''.join(t.text or '' for t in inline.iter(f"{{{ns['m']}}}t")))
+                    cells[col] = ''.join(t.text or '' for t in inline.iter(f"{{{ns['m']}}}t"))
                 else:
-                    cells.append(v.text if v is not None else '')
+                    cells[col] = v.text if v is not None else ''
             rows.append(cells)
+        width = max((max(r) + 1 for r in rows if r), default=0)
+        rows = [[r.get(j, '') for j in range(width)] for r in rows]
         out.append(f'Sheet: {sheet.get("name")}')
         if not rows:
             continue
         header, body = rows[0], rows[1:]
         # Label rows by the first text column whose values tell the rows apart.
-        width = max(len(r) for r in body) if body else 0
         key = next((j for j in range(width)
-                    if all(j < len(r) and r[j] and not re.fullmatch(r'-?[\d.]+', r[j]) for r in body)
+                    if all(r[j] and not re.fullmatch(r'-?[\d.]+', r[j]) for r in body)
                     and len({r[j] for r in body}) == len(body)), None)
         for i, cells in enumerate(body, start=2):
             label = cells[key] if key is not None else f'row {i}'
-            out += [f'{label} | {h} = {c}' for h, c in zip(header, cells)]
+            out += [f'{label} | {h} = {c}' for h, c in zip(header, cells) if h or c]
     return '\n'.join(out) + '\n'
 
 
@@ -114,7 +134,7 @@ if __name__ == '__main__':
     # curl, with the environment's proxy and certificates; some government sites refuse other clients.
     data = (Path(upload).read_bytes() if upload else
             subprocess.check_output(['curl', '-sS', '-L', '--fail', '--max-time', '120', url]))
-    kind = 'pdf' if data[:5] == b'%PDF-' else 'xlsx' if data[:2] == b'PK' else 'html'
+    kind = 'pdf' if data[:5] == b'%PDF-' else 'xlsx' if is_xlsx(data) else 'html'
     text = (xlsx_text(data) if kind == 'xlsx' else
             pdf_text(data) if 'pdf' in kind or url.lower().endswith('.pdf') else html_text(data.decode('utf-8', 'replace')))
     retrieved = datetime.date.today().isoformat() + (' (copy uploaded by Espen)' if upload else '')
