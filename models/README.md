@@ -9,6 +9,6 @@ Role: the project's models, their data and checks. Status: the legacy model suit
 
 **Legacy outputs.** Until each core model replaces its part of the suite, the suite still writes its reports where they lived before: `legacy/index/` (ledger, incidence, fiscal, funds, carbon, calendar, votes, recovery budget, consistency report) and the generated companions in `legacy/sources/` (recovery audit and inventory, education reconciliation, climate portfolio, child poverty, health, strategic review, financing screens). `.github/merge-policy.json` lists the ones the gate treats as model outputs. These are the only routine changes inside `legacy/`.
 
-**Old paths.** Cited paths in pinned evidence (the public story and front door) keep their October 28 names; the builders map `index/tools/` to `models/tools/`, `index/data/` to `models/data/`, `index/public-2050/` to `public/site/` and everything else to `legacy/`.
+**Old paths.** Branches started before the reset can move their paths with `python3 models/tools/migrate_paths.py FILE...` (review the diff). Cited paths in pinned evidence (the public story and front door) keep their October 28 names; the builders map `index/tools/` to `models/tools/`, `index/data/` to `models/data/`, `index/public-2050/` to `public/site/` and everything else to `legacy/`.
 
 Run every check from the repository root: `bash .github/scripts/run-checks.sh`.
