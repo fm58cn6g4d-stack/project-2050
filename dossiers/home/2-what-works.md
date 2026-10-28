@@ -8,10 +8,10 @@ Outcomes this section bears on:
 - OUT-01, child poverty.
 
 **How to read the evidence.**
-- Grade B is a randomized trial or peer-reviewed study.
-- Grade C is a working paper, an agency or think-tank analysis, or a summary.
+- Grade B is experimental research (a randomized trial, published or not) or a peer-reviewed study.
+- Grade C is other analysis: a non-experimental working paper, an agency or think-tank analysis, or a summary.
 - Grade A is official data.
-- Each analysis entry records who published it, with what stake, and which other entries support, qualify or contest it.
+- Each analysis entry records who published it, with what stake, and which other entries support, qualify or contest it. Independence is judged by research team: an author's other paper does not count as independent corroboration, whatever the journal.
 - Where independent sources disagree, both views are given.
 
 ## In brief
@@ -23,10 +23,10 @@ Outcomes this section bears on:
    - the end of pandemic aid [EV-HOU-074] [EV-HOU-076].
 2. **Immigration raises rents where migrants settle, but explains a minority of the rise.**
    - The direction is accepted across perspectives [EV-HOU-050] [EV-HOU-059] [EV-HOU-060].
-   - Measured effects on the typical metro area are modest and were largely offset by fewer Americans moving in [EV-HOU-053] [EV-HOU-054]; rent growth then eased as new apartments arrived [EV-HOU-066].
+   - Measured effects on the typical metro area are modest [EV-HOU-053] [EV-HOU-054], and in the short run the inflows did not expand housing supply [EV-HOU-053]; rent growth later eased as new apartments arrived [EV-HOU-066].
    - Deporting construction workers would cut housing supply [EV-HOU-056] [EV-HOU-057].
-3. **The burden at the bottom is mostly an income problem in a tight market.** Rents for poor renters did not rise faster than for others; their incomes fell behind [EV-HOU-070] [EV-HOU-071].
-4. **Deep rental subsidies work for what they are meant to do.** Vouchers and Housing First end homelessness for the people they house [EV-HOU-086] [EV-HOU-100]. They do little for earnings, and vouchers slightly reduce work [EV-HOU-088] [EV-HOU-089]; health effects are mixed or imprecise [EV-HOU-089] [EV-HOU-100] [EV-HOU-103].
+3. **The burden at the bottom is mostly an income problem in a tight market.** Over 1985-2019 as a whole, quality-adjusted rents rose no faster for the poorest renters than for the richest; their incomes fell behind [EV-HOU-070] [EV-HOU-071].
+4. **Deep rental subsidies work for what they are meant to do.** Vouchers and Housing First sharply reduce homelessness among the people they serve [EV-HOU-086] [EV-HOU-100]. They do little for earnings, and vouchers slightly reduce work [EV-HOU-088] [EV-HOU-089]; health effects are mixed or imprecise [EV-HOU-089] [EV-HOU-100] [EV-HOU-103].
 5. **Vouchers alone hit limits in tight markets.**
    - Nationally, about two in five new voucher holders did not lease up within six months, and fewer succeed in tight markets [EV-HOU-092].
    - Most landlords refuse vouchers where the law allows it [EV-HOU-093].
@@ -55,6 +55,7 @@ This part weighs them against independent research.
 - Across U.S. metropolitan areas, an inflow of immigrants equal to 1% of a city's population goes with rents and home values about 1% higher [EV-HOU-050].
 - The 1980 Mariel boatlift added 9% to Miami's renters. Miami rents then rose 8% to 11% more than in comparison cities, with the largest rises in the units low-income Hispanic residents rented [EV-HOU-051].
 - For the recent surge, unauthorized worker inflows equal to 1% of local employment raised rents 1.4% and house prices 2.2% [EV-HOU-053].
+- CBO's budget analysis of 2023 also finds the surge increased rental costs, with a lag as new arrivals moved from shelters and relatives' homes into rentals [EV-HOU-183].
 
 **Analysts on every side accept the direction:**
 - the restrictionist Center for Immigration Studies [EV-HOU-059];
@@ -72,7 +73,7 @@ This part weighs them against independent research.
 - The steepest run-up in prices came in 2020 and 2021, when immigration was plummeting [EV-HOU-061].
 - Rent growth stalled in 2023 while the surge continued [EV-HOU-055].
 
-So HUD's statement that household formation was "largely driven by record levels of immigration" [EV-HOU-029] is contested: over 2019-2023, a slightly longer period than HUD's 2021-2023, three-quarters of household growth came from people born here [EV-HOU-055].
+So HUD's statement that household formation was "largely driven by record levels of immigration" [EV-HOU-029] is contested: over 2019-2023, three-quarters of household growth came from people born here [EV-HOU-055]. That period adds the low-immigration years 2020 and 2021 to HUD's 2021-2023, which tilts the comparison against HUD's reading, so it is suggestive rather than decisive.
 
 **Effects are uneven within cities.**
 - Neighborhoods where immigrants settle can see slower value growth as some natives leave [EV-HOU-052].
@@ -82,13 +83,14 @@ So HUD's statement that household formation was "largely driven by record levels
 - In counties where immigration enforcement was rolled out, homebuilding fell: 2,578 fewer units were permitted, new construction cost 18% more and average home prices were 10% higher after three years [EV-HOU-056].
 - An Urban Institute estimate cited by CRS puts the construction workers who could be lost to deportation at 1.7-1.8 million [EV-HOU-057].
 - Analysts from the left and the libertarian right make the same point [EV-HOU-060] [EV-HOU-061].
+- But in the short run the recent inflows raised prices and rents without expanding housing supply [EV-HOU-053]. The construction offset is a longer-run effect.
 
-Cutting immigration to cut rents would therefore push in both directions.
+Cutting immigration to cut rents would therefore push in both directions, on different timescales.
 
 **Homelessness.**
 - People in U.S. homeless shelters rose 43% from 2022 to 2024. Asylum seekers accounted for about 60% of that rise, concentrated in New York City, Chicago, Massachusetts and metropolitan Denver [EV-HOU-062].
 - HUD's own 2024 count shows the same pattern. In New York City, asylum seekers accounted for almost 88% of the rise in sheltered homelessness [EV-HOU-172].
-- The researchers find little connection between asylum seekers and the rise in unsheltered homelessness [EV-HOU-062]. The jump in shelter counts largely reflects places that give everyone a shelter bed, including arriving asylum seekers. This dossier's reading is that the shelter jump therefore says less about wider housing access than the unsheltered count does.
+- The researchers find little connection between asylum seekers and the rise in unsheltered homelessness [EV-HOU-062]. This dossier's reading, not a finding of the study: the shelter jump, concentrated in a few places [EV-HOU-062], says less about wider housing access than the unsheltered count does.
 
 ### Supply, land-use rules and the tight market
 
@@ -96,11 +98,12 @@ Cutting immigration to cut rents would therefore push in both directions.
 - Estimates of the national shortage range from about 4 million to 5 million homes, and some argue the shortage is local or limited to some types of housing [EV-HOU-017].
 - Homes per person have been fairly steady since 1980, but vacancy rates are below their long-run average [EV-HOU-065]. That supports the "tight rental market" in HUD's decomposition [EV-HOU-029].
 - Where prices sit far above building costs, regulation makes housing dear for everyone. But most U.S. homes are priced near what they cost to build, so regulation-driven scarcity is concentrated in high-cost markets [EV-HOU-063].
-- Federal Reserve research finds supply constraints raise house prices much more than rents [EV-HOU-064]. Supply limits alone do not explain renter burden.
+- Federal Reserve research finds metro-level supply constraints raise house prices much more than rents [EV-HOU-064].
+- Building-level studies find that new apartment buildings lower nearby rents [EV-HOU-132] [EV-HOU-133]. Supply matters for rents, but metro-wide regulation alone does not explain renter burden.
 
 **Interest rates and the pandemic.**
 - Higher interest rates raise the cost of financing construction, though the link to construction is not always strong. In 2025, starts adjusted for population were down roughly 27% for single-family homes, 76% for condominiums and 7% for rental apartments [EV-HOU-065].
-- Pandemic demand was large and largely unrelated to immigration: the shift to remote work explains over half of the 18.9% rise in real house prices from 2019 to 2023, and it raised rents [EV-HOU-069].
+- Pandemic demand was large: the shift to remote work explains over half of the 18.9% rise in real house prices from 2019 to 2023, and it also raised rents [EV-HOU-069]. That is a source of demand separate from immigration.
 - Rents rose 8.3% in the year to December 2022 [EV-HOU-066].
 
 **The market then loosened.**
@@ -114,8 +117,8 @@ Cutting immigration to cut rents would therefore push in both directions.
 - Over four decades, rent burdens rose sharply for poor households and only modestly for the median renter [EV-HOU-072].
 - The bottom fifth of renters went from spending about 47% of income on rent in 1960 to 63% [EV-HOU-071].
 - Rents largely tracked incomes until the Great Recession. After 2007, incomes fell while rents rebounded [EV-HOU-071].
-- Adjusted for quality, rents rose about as fast for the poor as for others from 1985 to 2019: 72% for the bottom fifth and 81% for the top [EV-HOU-070].
-- At the median, rents did not outrun incomes from 2019 to 2023: about 40% of renters were cost-burdened in both years [EV-HOU-067].
+- Adjusted for quality, rents rose 72% for the bottom income fifth and 81% for the top from 1985 to 2019, and the differences between groups were fairly minor overall [EV-HOU-070].
+- The share of renters paying more than 30% of income for rent was about 40% in both 2019 and 2023 [EV-HOU-067], so the strain did not spread to more renters over those years.
 
 This supports the first of HUD's "two realities", that wages at the bottom are too low to make rent affordable [EV-HOU-027]. It also answers section 1's question on affordability and incomes. For the lowest-income renters, the gap is mainly income against any market rent, and it widens wherever the market is tight.
 
@@ -145,43 +148,44 @@ This supports HUD's 2024 point that the end of pandemic aid added to homelessnes
 **Two further factors are not on HUD's list.**
 - **Climate.** Cold places have uniformly low unsheltered homelessness [EV-HOU-082].
 - **Shelter supply.** The Council of Economic Advisers argued that more shelter increases measured homelessness [EV-HOU-081]. The asylum-seeker evidence above is consistent with shelter policy shaping the counts [EV-HOU-062].
+- **Street tolerability and individual risk.** The Council also named how tolerable it is to sleep on the street and the characteristics of individuals that make homelessness more likely [EV-HOU-081]. Independent work finds individual risks do not explain differences between places [EV-HOU-079].
 
 ### Who gets assistance
 
 HUD reads the lower rate of worst case needs among Black very low-income renters as a sign of greater access to assistance [EV-HOU-035]. Independent sources support that reading:
-- Nearly 6 in 10 low-income cost-burdened Black renters have extremely low incomes, against less than half of White renters. Programs admit the poorest first, and White renters are a smaller share of assisted households than of those in need [EV-HOU-084].
-- In pandemic rental aid, a different program, Black renters' share of recipients was 21-22 points above their share of eligible renters, partly because income distributions differ by race [EV-HOU-085].
+- Nearly 6 in 10 low-income cost-burdened Black renters have extremely low incomes, against less than half of White renters. White renters are a smaller share of assisted households than of those in need [EV-HOU-084].
+- In pandemic rental aid, a different program, Black renters' share of recipients was 21-22 points above their share of eligible renters; the evaluators note that income distributions vary by race and ethnicity [EV-HOU-085].
 
-The direct check, HUD's *Picture of Subsidized Households*, is on the evidence list below.
+The direct check, HUD's *Picture of Subsidized Households*, is on the evidence list below; it is a download from huduser.gov, not part of HUD's data API.
 
 ### Where HUD's accounts stand now
 
 | HUD claim | Independent evidence | Status |
 | --- | --- | --- |
-| Weak low-wage growth leaves rent unaffordable [EV-HOU-027] | Supported [EV-HOU-070] [EV-HOU-071] | Corroborated |
-| Record immigration drives sustained rental demand [EV-HOU-027] | Direction supported [EV-HOU-050] [EV-HOU-053]. Size qualified: a minority share, and fading [EV-HOU-054] [EV-HOU-057] [EV-HOU-058]. The framing is contested [EV-HOU-055] [EV-HOU-061] | Qualified and contested: present both views |
+| Weak low-wage growth leaves rent unaffordable [EV-HOU-027] | Supported over the long run [EV-HOU-070] [EV-HOU-071]. For 2021-2023, HUD's own decomposition credits rising renter incomes with removing cases [EV-HOU-029] | Corroborated as a long-run cause |
+| Record immigration drives sustained rental demand [EV-HOU-027] | Direction supported [EV-HOU-050] [EV-HOU-053] [EV-HOU-183]. Size qualified: a minority share, and fading [EV-HOU-054] [EV-HOU-057] [EV-HOU-058]. The framing is contested [EV-HOU-055] [EV-HOU-061] | Qualified and contested: present both views |
 | Household formation, "largely" immigration, added 321,000 cases; a tight market added 196,000 [EV-HOU-029] | Tight market supported [EV-HOU-065]; it has since eased [EV-HOU-068]. Remote work drove pandemic demand [EV-HOU-069]. Three-quarters of household growth was native-born [EV-HOU-055] | Tight market corroborated; the immigration reading contested. No independent source re-estimates the 321,000 |
-| Causes of the 2024 homelessness rise [EV-HOU-028] | Housing costs [EV-HOU-079], asylum seekers in shelters [EV-HOU-062], end of pandemic aid [EV-HOU-074] [EV-HOU-076] supported. Regulation, shelter policy and climate added [EV-HOU-081] [EV-HOU-082] | Corroborated, with additions |
-| Black renters' lower worst case needs reflect more assistance [EV-HOU-035] | Supported [EV-HOU-084] [EV-HOU-085] | Corroborated |
+| Causes of the 2024 homelessness rise [EV-HOU-028] | Asylum seekers in shelters supported [EV-HOU-062]. Housing costs supported as the main driver of differences between places, while poverty, drugs and mental illness are not [EV-HOU-079]. End of pandemic aid qualified: child poverty and evictions returned to pre-pandemic levels, not above [EV-HOU-073] [EV-HOU-076]. Regulation, shelter policy and climate added [EV-HOU-081] [EV-HOU-082] | Partly corroborated; qualified |
+| Black renters' lower worst case needs reflect more assistance [EV-HOU-035] | Supported [EV-HOU-084]; consistent evidence from a different program [EV-HOU-085] | Corroborated |
 
 ## 2. What programs and policies have been shown to do
 
 ### Housing Choice Vouchers (HOU-4)
 
-**Vouchers end family homelessness.**
-- In the Family Options Study, 2,282 homeless families were randomly assigned. Priority access to a long-term subsidy, in practice mostly a voucher, reduced homelessness and food insecurity and improved adults' and children's well-being, at a cost 9% higher than usual care [EV-HOU-086].
-- Short-term subsidies (rapid re-housing) and transitional housing did no better than usual care. Rapid re-housing cost 9% less [EV-HOU-087]. This is a single study.
+**Vouchers sharply reduce family homelessness.**
+- In the Family Options Study, 2,282 homeless families were randomly assigned. Priority access to a long-term subsidy, in practice mostly a voucher, reduced homelessness and food insecurity and improved adults' and children's well-being, at a cost 9% higher than usual care [EV-HOU-086] [EV-HOU-184].
+- Short-term subsidies (rapid re-housing) and transitional housing did no better than usual care. Rapid re-housing cost 9% less [EV-HOU-087] [EV-HOU-184]. This is a single study.
 - Rental assistance lifts 3 million people out of poverty, according to a think tank that advocates more of it [EV-HOU-097].
 
 **Effects on work are slightly negative.**
 - In Chicago's voucher lottery, voucher use cut labor force participation by about 4 points and quarterly earnings by $329, or 10% [EV-HOU-088].
-- In Family Options, the share of family heads with any job fell from 57.5% to 52.0%, with no change in average earnings [EV-HOU-086].
+- In Family Options, the share of family heads with any job was 52.0% in the subsidy group against 57.5% under usual care, with no difference in average earnings [EV-HOU-086].
 - Advocates note that 60% of non-disabled working-age assisted households include a worker [EV-HOU-097].
 
 **Where families move matters for children.**
 - Moving to Opportunity improved adults' health but not their earnings [EV-HOU-089].
-- Children who moved to lower-poverty areas before age 13 earned 31% more as young adults [EV-HOU-090].
-- Help with the search, landlord outreach and short-term financial help raised moves to high-opportunity areas from 15% to 53% [EV-HOU-091].
+- Children whose families used an MTO voucher to move to lower-poverty areas before age 13 earned 31% more as young adults [EV-HOU-090].
+- In Seattle and King County, help with the search, landlord outreach and short-term financial help raised moves to high-opportunity areas from 15% to 53% [EV-HOU-091].
 
 **Many vouchers go unused.**
 - 61% of new voucher holders leased a home within six months, fewer in tight markets [EV-HOU-092].
@@ -189,7 +193,7 @@ The direct check, HUD's *Picture of Subsidized Households*, is on the evidence l
 - Such laws modestly improve where voucher holders live [EV-HOU-094].
 
 **Design decides who captures the subsidy.**
-- Raising payment limits across a whole metro area mainly raises landlords' rents. Setting limits by neighborhood (Small Area Fair Market Rents) moves families to safer, lower-poverty areas [EV-HOU-095].
+- Raising payment limits across a whole metro area mainly raised landlords' rents. In Dallas, setting limits by neighborhood (Small Area Fair Market Rents) moved families to safer, lower-poverty areas [EV-HOU-095].
 - A voucher expansion did not raise rents across the market, but rents rose for units near the voucher limit in supply-constrained cities [EV-HOU-096].
 - Section 1 found that only 28% of very low-income renter households get assistance [EV-HOU-022]. A larger program (HOU-4A, HOU-4C) would meet these limits at much larger scale, in exactly the tight markets where they bind.
 
@@ -198,19 +202,20 @@ The direct check, HUD's *Picture of Subsidized Households*, is on the evidence l
 **Housing First keeps people housed.**
 - In the first New York trial, people offered housing without first having to accept treatment or sobriety got housed sooner and stayed housed. Their substance use was no worse than the treatment-first group's [EV-HOU-098].
 - In Canada's multi-city trial of 950 people with serious mental illness, Housing First participants were stably housed 71% of the time, against 29% under usual services [EV-HOU-099].
-- Reviews agree. One found housing 2.46 times as likely at 18-24 months [EV-HOU-100]. A CDC review found homelessness down 88% compared with treatment-first programs [EV-HOU-101]. The Congressional Research Service concurs [EV-HOU-104].
+- Reviews reach the same conclusion, though they draw on overlapping trials. A meta-analysis of four trials, all at high risk of bias, found people 2.46 times as likely to be housed at 18-24 months [EV-HOU-100]. A CDC review reports homelessness down 88% compared with treatment-first programs [EV-HOU-101]. The Congressional Research Service concurs [EV-HOU-104].
 
 **It does much less for health, addiction and cost.**
 - Effects on substance use are unclear, and most health effects are imprecise [EV-HOU-100].
-- Mortality did not differ [EV-HOU-103].
-- Gains in other outcomes narrowed within two years [EV-HOU-099].
-- In U.S. studies its median cost was $16,479 a person a year against median benefits of $18,247, a ratio of 1.80:1; including Canadian studies the ratio is 1.06:1. It roughly pays for itself but is not a large net saving [EV-HOU-102].
+- In the Canadian trial, mortality did not differ [EV-HOU-103].
+- In the same trial, differences in outcomes other than housing narrowed by the end of the second year [EV-HOU-099].
+- In U.S. studies its median cost was $16,479 a person a year against median benefits of $18,247, and the benefit-to-cost ratio was 1.80:1. The CDC reviewers conclude that benefits exceed costs in the U.S.; there were too few Canadian studies to judge there [EV-HOU-102].
 - Evidence is thin for people with active, severe addiction [EV-HOU-105].
 - Critics argue it has not been shown to reduce homelessness across whole communities [EV-HOU-106]. One study found an added permanent housing bed associated with 0.12 fewer homeless people, an association gone after the first year [EV-HOU-083].
+- Other community-level studies find more: one more supportive housing unit per 10,000 adults went with roughly 3% less chronic homelessness, a modest association [EV-HOU-175], and each added HUD-VASH voucher for veterans reduced veteran homelessness by 1 [EV-HOU-176].
 
-**Federal policy has turned against it.** A July 2025 executive order directs agencies away from Housing First [EV-HOU-107].
-- The trials contest the order's premise on housing stability [EV-HOU-100] [EV-HOU-101].
-- They are consistent with its doubts on treatment and recovery outcomes [EV-HOU-105].
+**Federal policy has turned against it.** A July 2025 executive order directs agencies to end support for Housing First, and directs HUD to require participants with a substance use disorder or serious mental illness to use treatment as a condition of participation, the reverse of Housing First's approach [EV-HOU-107].
+- The order calls past homelessness spending failed programs that miss root causes [EV-HOU-173]. It makes no claim about housing stability, where the trials show large gains [EV-HOU-100] [EV-HOU-101].
+- The trials are consistent with its doubts on treatment and recovery outcomes [EV-HOU-100] [EV-HOU-105].
 - Both views stand. The evidence supports Housing First as a way to end homelessness for the people it houses, not as a health or addiction treatment.
 
 ### Prevention
@@ -219,19 +224,19 @@ The direct check, HUD's *Picture of Subsidized Households*, is on the evidence l
 - In Chicago, callers who reached a prevention line when funds happened to be available were 76% less likely to enter a shelter. Each case of homelessness averted cost about $10,300 [EV-HOU-108].
 - In a Santa Clara County trial, about $2,000 of emergency aid made households 81% less likely to become homeless within six months [EV-HOU-109]. That figure comes from the authors' own summary.
 - New York City's Homebase cut shelter nights by 22.6 per family in a trial [EV-HOU-110].
-- Across whole neighborhoods, Homebase's effect was smaller, 5% to 11% fewer shelter entries [EV-HOU-111]. Targeting decides how much prevention a dollar buys.
+- Across whole neighborhoods, Homebase's effect was smaller, 5% to 11% fewer shelter entries [EV-HOU-111]. The Chicago authors estimate their cost per case would be much lower with better targeting of lower-income callers [EV-HOU-108].
 
 ### Low-Income Housing Tax Credit (HOU-2)
 
 **The scale and the rules.**
 - The credit cost about $14.4 billion a year before the One Big Beautiful Bill Act (P.L. 119-21) [EV-HOU-113].
 - From 2026, that law raises state allocations by 12% and lowers the bond-financing test from 50% to 25% [EV-HOU-113].
-- Its income limits (20% of units at 50% of area median income, or 40% at 60%) are not built to reach extremely low-income renters [EV-HOU-113].
+- Its income limits (20% of units at 50% of area median income, or 40% at 60%) are not built to reach extremely low-income renters, though an income-averaging option lets some units serve lower incomes [EV-HOU-113].
 
 **Much of it replaces building that would have happened anyway.**
 - Estimates of crowd-out range from little to nearly 100% [EV-HOU-112].
 - One subsidized unit adds one-third to one-half of a unit to the stock [EV-HOU-114].
-- The most robust estimate is that nearly all LIHTC building is offset [EV-HOU-115].
+- One study's preferred estimate is that nearly all LIHTC building is offset [EV-HOU-115].
 - Crowd-out appears in gentrifying areas but not in stable or declining ones [EV-HOU-116].
 
 **Effects depend on where projects go.**
@@ -244,7 +249,7 @@ The direct check, HUD's *Picture of Subsidized Households*, is on the evidence l
 
 **The stock is at risk.**
 - Investor oversight ends after 15 years [EV-HOU-112].
-- About one-third of 2.5 million active units lose their rent limits by 2035, roughly 40% counting early exits [EV-HOU-119].
+- About one-third of 2.5 million active units are set to expire from their rent limits by 2035, roughly 40% counting early exits [EV-HOU-119].
 
 ### Public housing (HOU-5)
 
@@ -253,28 +258,29 @@ The direct check, HUD's *Picture of Subsidized Households*, is on the evidence l
 - Housing authorities may not exceed their 1999 count (the Faircloth limit) [EV-HOU-120].
 - Repair needs are $30 billion-$70 billion, against $2 billion-$3 billion a year of capital grants [EV-HOU-120].
 
-**Past failures came from concentrating poverty.**
+**Leaving distressed public housing helped children.**
 - Children displaced from Chicago's demolished high-rises earned 16% more as adults and had 14% fewer violent-crime arrests than peers in buildings that stayed [EV-HOU-121].
-- In HOPE VI redevelopment, only 19% of residents in one study lived in the rebuilt sites, and 18% left assisted housing altogether [EV-HOU-122].
+- In HOPE VI redevelopment, only 19% of residents in one study lived in the rebuilt sites, and 18% left assisted housing altogether; those who moved with vouchers went to tracts with much lower poverty, 27% against 61% [EV-HOU-122].
 
-The lesson for HOU-5 and HOU-8 is to repair and build without concentrating the poorest households, and to guarantee that residents can return.
+These findings bear on HOU-5 and HOU-8; section 3 weighs them.
 
 ### Zoning and land-use reform (HOU-6)
 
-**Broad, binding reforms produced building.**
+**Reforms followed by more building.** Only Auckland has a counterfactual; the others are raw counts from the agencies that run the rules or from advocates.
 - Auckland's 2016 upzoning of three-quarters of its residential land added an estimated 21,808 permitted homes in five years, about 4.11% of the stock [EV-HOU-123].
 - California's laws on accessory dwelling units took annual permits from 1,336 in 2016 to 30,354 in 2024 [EV-HOU-128].
 - Houston's smaller minimum lot sizes allowed nearly 80,000 houses on small lots [EV-HOU-127].
 - Portland's infill reform permitted over 1,400 units in three years [EV-HOU-129].
+- Across U.S. cities, reforms that loosened land-use rules were associated with 0.8% more housing within three to nine years, mostly at higher rents, with no significant gain in lower-cost units [EV-HOU-177].
 
-**Narrow or demand-confounded reforms show less.**
-- Chicago's piecemeal transit-area upzoning raised land values, with no added permits in five years [EV-HOU-124].
-- Minneapolis grew its housing stock 12% while rents rose 1% [EV-HOU-125]. But 87% of new units were in large buildings, not the newly legal triplexes [EV-HOU-125].
+**Reforms with less or uncertain effect.**
+- Chicago's transit-area upzonings of 2013 and 2015, applied broadly near stations, raised land values with no added permits in five years [EV-HOU-124].
+- Minneapolis grew its housing stock 12% while rents rose 1% from 2017 to 2022 [EV-HOU-125]. 87% of new units were in buildings of 20 or more units and 1% in two-to-four-unit buildings, so the newly legal triplexes added little [EV-HOU-125].
 - A later study finds Minneapolis's lower prices came from weaker demand, not new supply [EV-HOU-126].
 
 ### New market-rate housing and filtering
 
-**Most studies find new market-rate housing helps lower-income renters.**
+**Several studies find new market-rate housing helps lower-income renters.**
 - New buildings set off chains of moves that quickly reach low-income neighborhoods. In Helsinki, every 100 central new units open roughly 31 homes in the bottom fifth of neighborhoods [EV-HOU-130].
 - In U.S. cities, a building housing 100 people leads 45 to 70 people to leave below-median-income neighborhoods [EV-HOU-131].
 - Nearby rents fall: about 6% near new buildings in low-income areas [EV-HOU-132], and 1% for each 10% added stock in New York [EV-HOU-133].
@@ -283,10 +289,15 @@ The lesson for HOU-5 and HOU-8 is to repair and build without concentrating the 
 **There are dissents.**
 - In Minneapolis, low-priced rentals near new construction had 6.6% higher rents [EV-HOU-135].
 - In San Francisco, parcels closest to new projects were more likely to gentrify [EV-HOU-134].
+- Filtering is slower where prices rise fast [EV-HOU-178]. In supply-constrained metros such as San Francisco, homes filter up to richer occupants on average rather than down [EV-HOU-179].
 
 ### Rent regulation, inclusionary zoning and investors
 
-**Rent control.** San Francisco's expansion helped covered tenants stay, but landlords cut rental supply 15%, raising rents citywide 5.1% [EV-HOU-136]. Germany's rent brake had a small effect that faded within a year [EV-HOU-171].
+**Rent control.**
+- San Francisco's expansion helped covered tenants stay, but landlords cut rental supply 15%, raising rents citywide 5.1%, and their conversions likely fueled gentrification [EV-HOU-136].
+- Ending rent control in Cambridge, Massachusetts, raised the value of nearby never-controlled homes [EV-HOU-180].
+- St. Paul's 2021 rent control cut property values 6-7%; the tenants who gained most had higher incomes [EV-HOU-181].
+- Germany's rent brake had a small effect that faded within a year [EV-HOU-171] and raised rents in the uncontrolled market [EV-HOU-174].
 
 **Inclusionary zoning.** Evidence is mixed and thin [EV-HOU-137].
 
@@ -305,8 +316,8 @@ Montgomery County's revolving Housing Production Fund is projected to finance up
 
 **Lawyers help, but how much depends on the design.**
 - In one randomized trial, about two-thirds of tenants offered full representation kept their homes, against one-third without [EV-HOU-143].
-- A companion trial found no significant effect [EV-HOU-144].
-- New York City's universal right to counsel reduced evictions [EV-HOU-145], though early effects were small [EV-HOU-146].
+- A companion trial comparing full representation with limited help found no significant effect [EV-HOU-144].
+- New York City's right to counsel, for tenants at or below 200% of the poverty guideline, reduced evictions [EV-HOU-145], though early effects were small [EV-HOU-146].
 
 **The costs are disputed.**
 - A 2026 working paper finds New York rents rose 1.2-1.6% in the program's second year, enough to leave tenants slightly worse off on net [EV-HOU-147].
@@ -323,32 +334,32 @@ Montgomery County's revolving Housing Production Fund is projected to finance up
 **Effects are disputed.**
 - A HUD-funded evaluation finds filings ran about 45% below trend, from moratoriums and aid combined. Low-paperwork programs prevented more evictions [EV-HOU-152].
 - The strongest design, lotteries in five programs, found the aid raised full rent payment but had little effect on moves or financial distress [EV-HOU-153]. Both views stand; the lotteries ran while moratoria were in force.
-- Fraud cannot be sized: Treasury wrongly rated the program as not at risk of improper payments [EV-HOU-154].
+- Improper payments have not been measured. Treasury wrongly rated the program as not at risk for FY 2023 [EV-HOU-154]; it had told OMB in 2022 that it would not estimate improper payments for such short-term programs, and its FY 2024 assessment found them susceptible [EV-HOU-182].
 
-**Design lessons for any future emergency aid:**
-- verify need from neighborhood data instead of tenant paperwork;
-- engage landlords, whose applications were 30 points more likely to succeed [EV-HOU-152];
-- target by eviction risk, not population;
-- measure payment integrity from the start [EV-HOU-150] [EV-HOU-152] [EV-HOU-154].
+**Delivery findings.**
+- Programs that verified eligibility with neighborhood data instead of tenant paperwork were associated with fewer evictions, and landlord-initiated applications were 30 points more likely to succeed [EV-HOU-152]. That evaluation is contested on overall effects [EV-HOU-153].
+- More than $3.1 billion of first-round funds was redirected from grantees who could not spend it [EV-HOU-150].
+- The money reached tracts with higher pre-pandemic eviction rates, but its timing makes causal estimates hard [EV-HOU-151].
 
-### Failures to avoid
+### Documented adverse effects
 
-1. Metro-wide voucher payment increases that mostly raise rents [EV-HOU-095].
-2. Expanding vouchers in tight markets without landlord and search help [EV-HOU-092] [EV-HOU-093].
-3. Production subsidies that replace private building in hot markets [EV-HOU-115] [EV-HOU-116].
-4. Affordability that expires [EV-HOU-119].
-5. Concentrating the poorest households in large projects, and rebuilding without a right of return [EV-HOU-121] [EV-HOU-122].
-6. Piecemeal upzoning that raises land values without building [EV-HOU-124].
-7. Rent caps that shrink supply [EV-HOU-136].
-8. Slow, paperwork-heavy emergency aid [EV-HOU-150] [EV-HOU-152].
-9. Expecting Housing First to treat addiction or produce large net savings [EV-HOU-100] [EV-HOU-102].
+Each finding is from one place and time; section 3 weighs what they imply.
+1. Metro-wide voucher payment increases mainly raised landlords' rents [EV-HOU-095].
+2. Lease-up was lower in tighter markets (433 housing authorities, 2015-2019) [EV-HOU-092], and most landlords refused vouchers in the three of five metros with no law requiring them to accept [EV-HOU-093].
+3. LIHTC crowded out private rental building in gentrifying areas [EV-HOU-116], and in one study nearly all of it [EV-HOU-115].
+4. Affordability limits expire: about a third of LIHTC units are set to by 2035 [EV-HOU-119].
+5. HOPE VI redevelopment returned few original residents [EV-HOU-122].
+6. Chicago's 2013 and 2015 upzonings raised land values without added building in five years [EV-HOU-124].
+7. San Francisco's rent control expansion cut rental supply 15% and raised citywide rents [EV-HOU-136]; Germany's rent brake raised rents in the uncontrolled market [EV-HOU-174].
+8. Pandemic rental aid was slow at first: about 6% of the first round was spent by May 2021 [EV-HOU-150].
+9. Housing First showed no clear effect on substance use or mortality in trials [EV-HOU-100] [EV-HOU-103].
 
 ## 3. Experience abroad
 
 ### Housing allowances as entitlements
 
-**Other countries spend far more and reach most poor households.**
-- The UK spends 1.4% of GDP on housing allowances, against 0.1-0.3% in the United States [EV-HOU-159].
+**Several countries spend far more and reach most poor households.**
+- The UK spends 1.4% of GDP on housing allowances; the United States, like Australia, Norway and Sweden, spends 0.1-0.3% [EV-HOU-159].
 - In six European countries, over half of bottom-fifth households receive one [EV-HOU-160].
 
 **Landlords capture much of the allowance where supply cannot respond.**
@@ -361,8 +372,8 @@ Transfer to the U.S. is uncertain but relevant to HOU-4C. A near-universal allow
 ### Vienna's social housing
 
 **Scale.**
-- About 780,000 of Vienna's 1.86 million residents live in municipal or limited-profit housing [EV-HOU-162].
-- That is 43% of units [EV-HOU-163]. The city counts about 220,000 city-owned and 200,000 co-operative flats [EV-HOU-164].
+- In 2019, about 780,000 of Vienna's 1.86 million residents lived in municipal or limited-profit housing [EV-HOU-162].
+- Social housing makes up 43% of housing units [EV-HOU-163]. The city counts about 220,000 city-owned and 200,000 co-operative flats [EV-HOU-164].
 
 **Rents and financing.**
 - Social rents average 7.6-7.9 EUR/m2, against city-wide average rents of 10.7 [EV-HOU-163].
@@ -370,8 +381,8 @@ Transfer to the U.S. is uncertain but relevant to HOU-4C. A near-universal allow
 - Across Austria, financing rests on a payroll housing levy and repayments of public housing loans, which now fund much of regional housing spending, though the levy is no longer reserved for housing [EV-HOU-165]. That source is written by the sector's own associations.
 
 **Gaps.**
-- Residency rules exclude newcomers and homeless people [EV-HOU-162] [EV-HOU-164].
-- Down payments keep new units middle-class, and waiting lists are long [EV-HOU-162].
+- Main-residency rules exclude low-income newcomers and homeless people who cannot meet them [EV-HOU-162] [EV-HOU-164].
+- Tenants' down payments for new limited-profit housing became a problematic barrier for low-skilled and vulnerable groups, and waiting lists are long [EV-HOU-162].
 - Land prices rose 124% from 2010 to 2019 [EV-HOU-163].
 
 **Transfer is uncertain.**
@@ -384,7 +395,7 @@ This bears on HOU-8.
 ### Finland's Housing First
 
 **The results.**
-- Long-term homelessness fell about 70% from 2008 to 2024, to 1,010 people [EV-HOU-166].
+- Long-term homelessness fell about 70% from 2008 to 2024, to 1,010 people, though the agency says its long-term figures should be taken with a grain of salt [EV-HOU-166].
 - Total homelessness among people living alone rose in 2024 for the first time since 2012 [EV-HOU-166].
 
 **Much of the decline came before Housing First, through social housing.**
@@ -392,24 +403,24 @@ This bears on HOU-8.
 - The program's own leaders name affordable social housing as the key to prevention [EV-HOU-169].
 
 **Caveats.**
-- Finland counts people staying with friends or relatives, 68% of its lone homeless adults [EV-HOU-170]. U.S. counts leave them out.
+- Finland counts people staying with friends or relatives, 68% of its lone homeless adults [EV-HOU-170]. HUD's point-in-time counts, used in section 1, leave them out.
 - Its series changed method in 2018 [EV-HOU-166].
 - Independent reviewers find the model less than fully effective, as continued demand for emergency accommodation shows, and its success partly explained by long-term homelessness being a smaller problem there to begin with [EV-HOU-168].
 
-Transfer to the U.S. is uncertain: Finland's result rests on a larger social housing sector and a smaller problem to begin with [EV-HOU-161] [EV-HOU-167] [EV-HOU-168].
+Transfer to the U.S. is uncertain: Finland's result rests on unusual investment in social housing and a smaller problem to begin with [EV-HOU-167] [EV-HOU-168].
 
 ## Evidence still needed
 
 | Claim | Source | Status |
 | --- | --- | --- |
-| Family Options Study full reports; Welfare to Work voucher experiment; voucher success rates 2025 | HUD (huduser.gov blocks downloads) | Journal and summary versions used (EV-HOU-086, 087, 092). Espen could upload |
-| Effects of the immigration surge on rents and budgets | CBO, publication 61464 and *The Demographic Outlook* (cbo.gov blocks downloads) | Upload would add a nonpartisan estimate |
-| Who receives HUD assistance, by race and income | HUD, *A Picture of Subsidized Households* | Would directly check EV-HOU-035 |
-| GAO reports: rental assistance oversight (GAO-22-105490), LIHTC costs (GAO-18-637), institutional investors (GAO-24-106643), homelessness counts (GAO-20-433) | GAO (blocks downloads) | Cited second-hand via CRS where at all |
+| Family Options Study full 3-year report; Welfare to Work voucher experiment; voucher success rates 2025 | HUD (huduser.gov blocks downloads) | The summary report, uploaded by Espen, is in (EV-HOU-184); the full report would add detail |
+| CBO's estimate of how much the surge raised rents | CBO, *The Demographic Outlook* and later analyses | CBO's 2023 budget analysis (EV-HOU-183), uploaded by Espen, gives the direction only |
+| Who receives HUD assistance, by race and income | HUD, *A Picture of Subsidized Households* (a huduser.gov download; HUD's data API does not serve it) | Would directly check EV-HOU-035 |
+| GAO reports: rental assistance oversight (GAO-22-105490, GAO-24-107084), LIHTC cost data and fraud-risk management (GAO-18-637), institutional investors (GAO-24-106643), homelessness counts (GAO-20-433) | GAO (blocks downloads) | Cited second-hand via CRS where at all |
 | A re-estimate of HUD's 321,000 household-formation figure | No independent source found | EV-HOU-029's immigration reading stays HUD's |
 | Original Manhattan right-to-counsel trial (Seron et al., 2001) | Law & Society Review (licensed) | Summaries disagree on its figures; not cited until checked |
+| Review of permanent supportive housing and health; Housing First evidence for people with active addiction | National Academies of Sciences, Engineering, and Medicine (2018); recovery-housing studies | Not yet read |
 | Journal versions of working papers cited here: Wilson and Zhou; Hunt, Orrenius and Zavodny; Santa Clara prevention trial; Diamond and McQuade (published figures) | Journals (licensed) | Check figures on publication |
-| National Academies (2018), *Permanent Supportive Housing: Evaluating the Evidence* | National Academies Press | Not yet read |
 | Later child poverty years (2023-2025) | Census P60 reports | Next refresh |
 | Rural, tribal and Native housing programs (NAHASDA) and what works there | HUD, tribal housing research | Not covered; section 1 also lacks it |
 
@@ -426,15 +437,15 @@ These are forks for decision memos; this section does not choose.
    - What payment rules (Small Area FMRs, rent reasonableness), landlord rules (source-of-income protection) and search help would it need [EV-HOU-091] [EV-HOU-093] [EV-HOU-095]?
 3. **Production tool (HOU-2 against HOU-3, HOU-8, HOU-9).**
    - LIHTC partly replaces private building and reaches the poorest mainly with vouchers attached [EV-HOU-115] [EV-HOU-118].
-   - Revolving public funds and social housing are promising but unevaluated in the U.S. [EV-HOU-141] [EV-HOU-163].
+   - Revolving public funds and social housing are untested at scale in the U.S. [EV-HOU-141] [EV-HOU-163].
    - Which mix, and how to keep affordability permanent [EV-HOU-119]?
 4. **Zoning conditions (HOU-6).** What makes reform binding enough to build, as in Auckland and California, rather than raising land values, as in Chicago [EV-HOU-123] [EV-HOU-124] [EV-HOU-128]?
 5. **Homelessness approach.**
    - Housing First keeps people housed, but federal policy now opposes it [EV-HOU-100] [EV-HOU-107].
    - What should the dossier propose for people with active addiction, where the evidence is thin [EV-HOU-105]?
 6. **Prevention and emergency aid (HOU-1).**
-   - Targeted cash and legal help work [EV-HOU-108] [EV-HOU-143].
+   - Targeted cash reduced shelter entry in trials [EV-HOU-108] [EV-HOU-110]; the effect of legal help varied between trials [EV-HOU-143] [EV-HOU-144].
    - What delivery rules and payment-integrity checks should a fall 2029 aid package carry [EV-HOU-150] [EV-HOU-152] [EV-HOU-154]?
    - Should the right to counsel be part of the package, given its disputed effect on rents [EV-HOU-145] [EV-HOU-147]?
 7. **Immigration and construction labor.** The housing plan's supply goals depend on construction workers, a third of whom are immigrants [EV-HOU-055] [EV-HOU-056]. How should the housing dossier align with the immigration flagship (OUT-07)?
-8. **Who is reached first.** This remains section 1's open question. The evidence here favors the deepest-need renters for long-term help and targeted cash for those at risk [EV-HOU-086] [EV-HOU-108]. The choice is Espen's.
+8. **Who is reached first.** This remains section 1's open question. The trials here tested long-term help for families already homeless [EV-HOU-086] and one-time cash for households at risk [EV-HOU-108]; section 3 weighs them, and the choice is Espen's.

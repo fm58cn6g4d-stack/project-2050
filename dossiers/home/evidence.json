@@ -543,6 +543,10 @@
     "stance": "supports"
    },
    {
+    "evidence": "EV-HOU-183",
+    "stance": "supports"
+   },
+   {
     "evidence": "EV-HOU-070",
     "stance": "supports"
    },
@@ -555,12 +559,12 @@
     "stance": "qualifies"
    },
    {
-    "evidence": "EV-HOU-057",
+    "evidence": "EV-HOU-058",
     "stance": "qualifies"
    },
    {
-    "evidence": "EV-HOU-058",
-    "stance": "qualifies"
+    "evidence": "EV-HOU-057",
+    "stance": "contests"
    },
    {
     "evidence": "EV-HOU-055",
@@ -593,20 +597,20 @@
     "stance": "qualifies"
    },
    {
-    "evidence": "EV-HOU-079",
-    "stance": "supports"
-   },
-   {
     "evidence": "EV-HOU-062",
     "stance": "supports"
    },
    {
+    "evidence": "EV-HOU-079",
+    "stance": "qualifies"
+   },
+   {
     "evidence": "EV-HOU-074",
-    "stance": "supports"
+    "stance": "qualifies"
    },
    {
     "evidence": "EV-HOU-076",
-    "stance": "supports"
+    "stance": "qualifies"
    },
    {
     "evidence": "EV-HOU-081",
@@ -799,7 +803,7 @@
    },
    {
     "evidence": "EV-HOU-085",
-    "stance": "supports"
+    "stance": "qualifies"
    }
   ],
   "supports": [
@@ -864,10 +868,6 @@
   "context": "Peer-reviewed (Journal of Urban Economics, 2007), Wharton author, no advocacy affiliation; the estimate that analysts on every side cite. It measures metro-level effects of legal immigration over the 1980s and 1990s, before supply has time to respond fully.",
   "corroboration": [
    {
-    "evidence": "EV-HOU-051",
-    "stance": "supports"
-   },
-   {
     "evidence": "EV-HOU-053",
     "stance": "supports"
    },
@@ -903,10 +903,10 @@
   "fact_date": "1983",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Peer-reviewed natural experiment (Review of Economics and Statistics, 2003). A sudden low-income inflow into one city, which shows the effect at the bottom of the market but not how a national inflow spreads.",
+  "context": "Peer-reviewed natural experiment (Review of Economics and Statistics, 2003). A sudden low-income inflow into one city, which shows the effect at the bottom of the market but not how a national inflow spreads. EV-HOU-050 is by the same author, so it is not counted as independent.",
   "corroboration": [
    {
-    "evidence": "EV-HOU-050",
+    "evidence": "EV-HOU-053",
     "stance": "supports"
    }
   ],
@@ -934,20 +934,15 @@
   "fact_date": "2011",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Peer-reviewed (American Economic Journal: Economic Policy, 2011). Shows that metro-wide increases can coexist with local declines as some natives move out.",
-  "corroboration": [
-   {
-    "evidence": "EV-HOU-050",
-    "stance": "qualifies"
-   }
-  ],
+  "context": "Peer-reviewed (American Economic Journal: Economic Policy, 2011). Shows that metro-wide increases can coexist with local declines as some natives move out. Shares an author with EV-HOU-050, so no independent corroboration yet.",
+  "corroboration": [],
   "supports": [
    "dossiers/home/2-what-works.md"
   ]
  },
  {
   "id": "EV-HOU-053",
-  "statement": "During the recent immigration boom, unauthorized immigrant worker inflows equal to 1% of a local area's employment raised local house prices 2.2% and rents 1.4%. For the average local market that explains about 30% of house-price growth and 20% of rent growth over the boom; for the median metropolitan area the implied effects, 2.9% on prices and 1.9% on rents, are relatively modest.",
+  "statement": "During the recent immigration boom, unauthorized immigrant worker inflows equal to 1% of a local area's employment raised local house prices 2.2% and rents 1.4%, without expanding housing supply. For the average local market that explains about 30% of house-price growth and 20% of rent growth over the boom; for the median metropolitan area the implied effects, 2.9% on prices and 1.9% on rents, are relatively modest.",
   "claim": "analysis",
   "figures": [
    "1%",
@@ -962,9 +957,10 @@
   "anchor": [
    "an increase in unauthorized immigrant worker flows equal to 1% of a local area\u2019s initial employment increased local house prices by 2.2% and increased local rents by 1.4%.",
    "A back-of-the-envelope calculation suggests that UIWF can explain about 30% of the total growth in house prices and 20% of total growth in rents over the boom period for the average local market.",
-   "yields implied effects of UIWF on house prices and rents of 2.9% and 1.9%, respectively. These effects amount to relatively modest contributions to the median MSA\u2019s total increases in house prices and rents over this period."
+   "yields implied effects of UIWF on house prices and rents of 2.9% and 1.9%, respectively. These effects amount to relatively modest contributions to the median MSA\u2019s total increases in house prices and rents over this period.",
+   "These inflows also raised local house prices and rents without expanding housing supply"
   ],
-  "locator": "p. 4; p. 5; p. 42",
+  "locator": "p. 5; p. 42; abstract",
   "grade": "C",
   "fact_date": "2024",
   "checked": "2026-10-28",
@@ -1293,7 +1289,7 @@
    "New York City (77,352 increase), Chicago (14,590 increase), Massachusetts (13,353 increase), and metropolitan Denver (6,556 increase).",
    "the data suggest little connection between asylum seekers and the 2022-2024 increase in unsheltered homelessness."
   ],
-  "locator": "abstract; p. 11 (conclusion); p. 10",
+  "locator": "abstract; p. 11; p. 9",
   "grade": "C",
   "fact_date": "2024",
   "checked": "2026-10-28",
@@ -1315,7 +1311,7 @@
  },
  {
   "id": "EV-HOU-063",
-  "statement": "Where house prices are above the cost of building, the housing market is not functioning well and housing is too expensive for all households in that market, not just poorer ones. But Glaeser and Gyourko conclude that the vast majority of U.S. homes are priced near or below their full social cost of replication, so regulation-driven scarcity is concentrated in particular high-cost markets.",
+  "statement": "Where house prices are above the cost of building, the housing market is not functioning well and housing is too expensive for all households in that market, not just poorer ones. But Glaeser and Gyourko conclude that the vast majority of U.S. homes are priced near or below their full social costs of replication.",
   "claim": "analysis",
   "figures": [],
   "source": "SRC-0328",
@@ -1323,7 +1319,7 @@
    "But if housing prices are above this cost in a given area, then the housing market is not functioning well\u2014and housing is too expensive for all households in the market, not just for poorer ones.",
    "Thus, our conclusion that the vast majority of homes are priced near or below their full social costs of replication is robust to virtually any assumption we could make."
   ],
-  "locator": "abstract; section on price-to-cost ratios (WP p. ~16)",
+  "locator": "abstract; NBER WP 23833, PDF page 11",
   "grade": "B",
   "fact_date": "2018",
   "checked": "2026-10-28",
@@ -1870,7 +1866,7 @@
  },
  {
   "id": "EV-HOU-081",
-  "statement": "The Council of Economic Advisers estimated that deregulating housing in the 11 metropolitan areas with significantly supply-constrained markets would cut overall U.S. homelessness by 13 percent, and by 31 percent on average in those areas (54 percent in San Francisco, 40 percent in Los Angeles). It also argued that more shelter, as a substitute for permanent housing, increases homelessness.",
+  "statement": "The Council of Economic Advisers estimated that deregulating housing in the 11 metropolitan areas with significantly supply-constrained markets would cut overall U.S. homelessness by 13 percent, and by 31 percent on average in those areas (54 percent in San Francisco, 40 percent in Los Angeles). It also argued that more shelter, as a substitute for permanent housing, increases homelessness, and named the tolerability of sleeping on the street and individual characteristics that make homelessness more likely as further drivers.",
   "claim": "analysis",
   "figures": [
    "11",
@@ -1883,7 +1879,8 @@
   "anchor": [
    "We estimate that if the\n11 metropolitan areas with significantly supply-constrained housing markets were\nderegulated, overall homelessness in the United States would fall by 13 percent.",
    "would fall by much larger amounts in these 11 large metropolitan areas, for example by 54\npercent in San Francisco, by 40 percent in Los Angeles, and by 23 percent in New York City. On\naverage, homelessness would fall by 31 percent in these 11 metropolitan areas",
-   "A larger supply of substitutes to permanent housing through shelter provision also increases\nhomelessness."
+   "A larger supply of substitutes to permanent housing through shelter provision also increases\nhomelessness.",
+   "(ii) the tolerability of sleeping on the street (outside of shelter or housing); (iii) the supply of\nhomeless shelters; and (iv) the characteristics of individuals in a community that make\nhomelessness more likely."
   ],
   "grade": "C",
   "fact_date": "2019",
@@ -1893,10 +1890,6 @@
   "corroboration": [
    {
     "evidence": "EV-HOU-063",
-    "stance": "supports"
-   },
-   {
-    "evidence": "EV-HOU-082",
     "stance": "supports"
    },
    {
@@ -1920,11 +1913,11 @@
   "fact_date": "2017",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "AEI working paper (conservative think tank); later in the Journal of Housing Economics. Climate shapes whether homeless people are unsheltered, a factor HUD does not list.",
+  "context": "AEI working paper (conservative think tank); later in the Journal of Housing Economics. Climate shapes whether homeless people are unsheltered, a factor HUD does not list. Corinth served on the Council of Economic Advisers in 2019, so EV-HOU-081 is not counted as independent of it.",
   "corroboration": [
    {
-    "evidence": "EV-HOU-081",
-    "stance": "supports"
+    "evidence": "EV-HOU-079",
+    "stance": "qualifies"
    }
   ],
   "supports": [
@@ -1952,10 +1945,6 @@
   "corroboration": [
    {
     "evidence": "EV-HOU-079",
-    "stance": "supports"
-   },
-   {
-    "evidence": "EV-HOU-081",
     "stance": "supports"
    }
   ],
@@ -2149,7 +2138,7 @@
   "context": "Peer-reviewed (American Economic Review, 2013).",
   "corroboration": [
    {
-    "evidence": "EV-HOU-090",
+    "evidence": "EV-HOU-086",
     "stance": "qualifies"
    }
   ],
@@ -2177,14 +2166,10 @@
   "fact_date": "2012",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Peer-reviewed (American Economic Review, 2016); quoted from NBER Working Paper 21156.",
+  "context": "Peer-reviewed (American Economic Review, 2016); quoted from NBER Working Paper 21156. Katz co-authored EV-HOU-089, and Chetty and Hendren EV-HOU-091, so those are not counted as independent.",
   "corroboration": [
    {
-    "evidence": "EV-HOU-089",
-    "stance": "qualifies"
-   },
-   {
-    "evidence": "EV-HOU-091",
+    "evidence": "EV-HOU-121",
     "stance": "supports"
    }
   ],
@@ -2406,7 +2391,7 @@
   "context": "Peer-reviewed (American Journal of Public Health, 2004); the lead author founded Pathways to Housing, the program tested.",
   "corroboration": [
    {
-    "evidence": "EV-HOU-099",
+    "evidence": "EV-HOU-100",
     "stance": "supports"
    }
   ],
@@ -2436,10 +2421,6 @@
   "recheck": "2027-10-28",
   "context": "Peer-reviewed (Psychiatric Services, 2016); funded by the Mental Health Commission of Canada; Tsemberis is a co-author.",
   "corroboration": [
-   {
-    "evidence": "EV-HOU-098",
-    "stance": "supports"
-   },
    {
     "evidence": "EV-HOU-100",
     "stance": "supports"
@@ -2512,7 +2493,7 @@
  },
  {
   "id": "EV-HOU-102",
-  "statement": "The median Housing First cost was $16,479 per person per year in U.S. studies, against median benefits of $18,247, a benefit-to-cost ratio of 1.80:1; including Canadian studies the ratio was 1.06:1.",
+  "statement": "The median Housing First cost was $16,479 per person per year in U.S. studies, against median benefits of $18,247; the benefit-to-cost ratio was 1.80:1 for U.S. studies and 1.06:1 including Canadian ones. The authors conclude that economic benefits exceed the cost of Housing First programs in the U.S., and that there were too few studies to judge cost-benefit in Canada.",
   "claim": "analysis",
   "figures": [
    "$16,479",
@@ -2524,14 +2505,15 @@
   "source": "SRC-0355",
   "anchor": [
    "The median intervention cost per person per year for U.S. studies was $16,479 and for all studies, including those for Canada, it was $16,336. The median total benefit for the U.S. studies was $18,247 per person per year",
-   "The benefit-to-cost ratio for U.S. studies was 1.80:1, and for all studies including those for Canada it was 1.06:1."
+   "The benefit-to-cost ratio for U.S. studies was 1.80:1, and for all studies including those for Canada it was 1.06:1.",
+   "The evidence from this review shows economic benefits exceed the cost of Housing First programs in the U.S. There were too few studies to determine cost\u2013benefit in the Canadian context."
   ],
   "locator": "abstract",
   "grade": "B",
   "fact_date": "2022",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Peer-reviewed economic review for the CDC Community Guide (2022). Benefits roughly match costs; Housing First is not a large net saving.",
+  "context": "Peer-reviewed economic review for the CDC Community Guide (2022). The 1.80:1 summarizes the studies' own ratios, which is why it differs from the ratio of the median cost and median benefit. Shares an author with EV-HOU-101.",
   "corroboration": [
    {
     "evidence": "EV-HOU-104",
@@ -2656,30 +2638,49 @@
  },
  {
   "id": "EV-HOU-107",
-  "statement": "A July 2025 executive order directs federal agencies toward ending support for \"housing first\" policies that, it says, deprioritize accountability and fail to promote treatment, recovery and self-sufficiency, and calls past federal and state homelessness spending failed programs.",
-  "claim": "analysis",
+  "statement": "A July 2025 executive order directs federal agencies toward ending support for \"housing first\" policies, and directs HUD to take steps to require recipients of federal housing and homelessness assistance to increase requirements that participants with substance use disorder or serious mental illness use treatment or mental health services as a condition of participation.",
+  "claim": "data",
   "figures": [],
   "source": "SRC-0307",
   "anchor": [
    "ending support for \u201chousing first\u201d policies that deprioritize accountability and fail to promote treatment, recovery, and self-sufficiency",
-   "The Federal Government and the States have spent tens of billions of dollars on failed programs that address homelessness but not its root causes"
+   "(b) The Secretary of Housing and Urban Development shall, as appropriate, take steps to require recipients of Federal housing and homelessness assistance to increase requirements that persons participating in the recipients\u2019 programs who suffer from substance use disorder or serious mental illness use substance abuse treatment or mental health services as a condition of participation."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Second Trump administration policy. The directives are primary law (an executive order); its reasons are recorded separately as analysis (EV-HOU-173).",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-173",
+  "statement": "The July 2025 executive order calls past federal and state homelessness spending failed programs that address homelessness but not its root causes, and says \"housing first\" policies deprioritize accountability and fail to promote treatment, recovery and self-sufficiency.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0307",
+  "anchor": [
+   "The Federal Government and the States have spent tens of billions of dollars on failed programs that address homelessness but not its root causes",
+   "ending support for \u201chousing first\u201d policies that deprioritize accountability and fail to promote treatment, recovery, and self-sufficiency"
   ],
   "grade": "C",
   "fact_date": "2025",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Second Trump administration policy, not research. The trial evidence on housing stability (EV-HOU-100, 101) contests its reading; the evidence on health and substance use (EV-HOU-100, 105) is consistent with its doubts.",
+  "context": "The administration's reading, not research. The order makes no claim about housing stability. On treatment and recovery outcomes the trial evidence is consistent with its doubts (EV-HOU-100, 105), and a conservative critic shares its view (EV-HOU-106).",
   "corroboration": [
    {
     "evidence": "EV-HOU-106",
     "stance": "supports"
    },
    {
-    "evidence": "EV-HOU-100",
-    "stance": "contests"
+    "evidence": "EV-HOU-105",
+    "stance": "qualifies"
    },
    {
-    "evidence": "EV-HOU-105",
+    "evidence": "EV-HOU-100",
     "stance": "qualifies"
    }
   ],
@@ -2689,7 +2690,7 @@
  },
  {
   "id": "EV-HOU-108",
-  "statement": "In Chicago from 2010 to 2012 (n = 4448), callers to a homelessness prevention line when emergency funds happened to be available were 76% less likely to enter a homeless shelter; averting a case of homelessness cost about $10,300 per person.",
+  "statement": "In Chicago from 2010 to 2012 (n = 4448), callers to a homelessness prevention line when emergency funds happened to be available were 76% less likely to enter a homeless shelter; averting a case of homelessness cost about $10,300 per person, and would cost much less with better targeting of benefits to lower-income callers.",
   "claim": "analysis",
   "figures": [
    "2010",
@@ -2700,7 +2701,8 @@
   "source": "SRC-0358",
   "anchor": [
    "Using data from Chicago from 2010 to 2012 (n = 4448), we demonstrate that the volatile nature of funding availability leads to good-as-random variation",
-   "those calling when funding is available are 76% less likely to enter a homeless shelter. The per-person cost of averting homelessness through financial assistance is estimated as $10,300"
+   "those calling when funding is available are 76% less likely to enter a homeless shelter. The per-person cost of averting homelessness through financial assistance is estimated as $10,300",
+   "The per-person cost of averting homelessness through financial assistance is estimated as $10,300 and would be much less with better targeting of benefits to lower-income callers."
   ],
   "locator": "abstract",
   "grade": "B",
@@ -2709,10 +2711,6 @@
   "recheck": "2027-10-28",
   "context": "Peer-reviewed (Science, 2016); funding availability gives good-as-random variation.",
   "corroboration": [
-   {
-    "evidence": "EV-HOU-109",
-    "stance": "supports"
-   },
    {
     "evidence": "EV-HOU-110",
     "stance": "supports"
@@ -2744,10 +2742,10 @@
   "fact_date": "2023",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "The authors' own summary in an interview (MIT Press Reader, 2023); the journal article (Review of Economics and Statistics) was not opened.",
+  "context": "Interview with the authors in The MIT Press Reader (2023), bylined Brian A. Jacob; the journal article (Review of Economics and Statistics) was not opened. Sullivan co-authored EV-HOU-108, so that is not counted as independent.",
   "corroboration": [
    {
-    "evidence": "EV-HOU-108",
+    "evidence": "EV-HOU-110",
     "stance": "supports"
    }
   ],
@@ -2858,7 +2856,7 @@
  },
  {
   "id": "EV-HOU-113",
-  "statement": "Before the One Big Beautiful Bill Act (P.L. 119-21), LIHTC cost the government an average of $14.4 billion a year; starting in 2026 the act permanently increases state allocation authority by 12% and lowered the 50% tax-exempt bond financing requirement to 25%. A project qualifies with at least 20% of units for households at or below 50% of area median income, or 40% at or below 60%.",
+  "statement": "Before the One Big Beautiful Bill Act (P.L. 119-21), LIHTC cost the government an average of $14.4 billion a year; starting in 2026 the act permanently increases state allocation authority by 12% and lowered the 50% tax-exempt bond financing requirement to 25%. A project qualifies with at least 20% of units for households at or below 50% of area median income, or 40% at or below 60%; a third option lets 40% of units average no more than 60%, with no tenant above 80%, so some units can serve lower incomes.",
   "claim": "data",
   "figures": [
    "119",
@@ -2870,14 +2868,16 @@
    "25%",
    "20%",
    "40%",
-   "60%"
+   "60%",
+   "80%"
   ],
   "source": "SRC-0306",
   "anchor": [
    "Prior to enactment of P.L. 119-21, the LIHTC program was estimated to cost the government an average of $14.4 billion",
    "Starting in 2026, the act permanently increases states\u2019 annual allocation\nauthority by 12% and lowers the 50% tax-exempt bond financing requirement to 25%.",
    "at least 20% of the units must be occupied by individuals with income of 50% or less of\nthe area\u2019s median gross income (AMI)",
-   "at least\n40% of the units must be occupied by individuals with income of 60% or less of AMI"
+   "at least\n40% of the units must be occupied by individuals with income of 60% or less of AMI",
+   "the income test is satisfied if at least 40% of the units are occupied by tenants with an average\nincome of no greater than 60% of AMI, and no individual tenant has an income exceeding 80% of\nAMI."
   ],
   "grade": "C",
   "fact_date": "2025",
@@ -3338,7 +3338,7 @@
  },
  {
   "id": "EV-HOU-128",
-  "statement": "After California loosened local rules on accessory dwelling units, the number permitted each year grew from 1,336 in 2016 to 30,354 in 2024, a 20-fold increase; in 2024 ADUs were more than 26.6 percent of all homes permitted statewide.",
+  "statement": "The number of accessory dwelling units permitted each year in California grew from 1,336 in 2016 to 30,354 in 2024, a 20-fold increase; in 2024 ADUs were more than 26.6 percent of all homes permitted statewide.",
   "claim": "data",
   "figures": [
    "1,336",
@@ -3354,7 +3354,7 @@
   "fact_date": "2024",
   "checked": "2026-10-28",
   "recheck": "2027-06-30",
-  "context": "State agency data from local annual progress reports; permits, not completions, and rents of the units are not measured.",
+  "context": "State agency data from local annual progress reports. The state loosened local ADU rules over these years, but these are raw counts with no counterfactual; permits, not completions; rents of the units are not measured.",
   "supports": [
    "dossiers/home/2-what-works.md"
   ]
@@ -3444,7 +3444,7 @@
   "context": "Peer-reviewed (Journal of Urban Economics, 2023), Upjohn Institute.",
   "corroboration": [
    {
-    "evidence": "EV-HOU-132",
+    "evidence": "EV-HOU-130",
     "stance": "supports"
    },
    {
@@ -3476,11 +3476,11 @@
   "context": "Peer-reviewed (Review of Economics and Statistics, 2023).",
   "corroboration": [
    {
-    "evidence": "EV-HOU-131",
+    "evidence": "EV-HOU-133",
     "stance": "supports"
    },
    {
-    "evidence": "EV-HOU-133",
+    "evidence": "EV-HOU-134",
     "stance": "supports"
    },
    {
@@ -3602,7 +3602,7 @@
  },
  {
   "id": "EV-HOU-136",
-  "statement": "San Francisco's rent control expansion increased renters' probability of staying at their addresses by nearly 20%, but landlords treated by rent control reduced rental housing supply by 15%, causing a 5.1% city-wide rent increase.",
+  "statement": "San Francisco's rent control expansion increased renters' probability of staying at their addresses by nearly 20%, but landlords treated by rent control reduced rental housing supply by 15%, causing a 5.1% city-wide rent increase; the substitution toward condos and high-end new rentals likely fueled the city's gentrification.",
   "claim": "analysis",
   "figures": [
    "20%",
@@ -3610,8 +3610,11 @@
    "5.1%"
   ],
   "source": "SRC-0382",
-  "anchor": "we find rent control increased renters\u2019 probabilities of staying at their addresses by nearly 20%. Landlords treated by rent control reduced rental housing supply by 15%, causing a 5.1% city-wide rent increase.",
-  "locator": "abstract",
+  "anchor": [
+   "we find rent control increased renters\u2019 probabilities of staying at their addresses by nearly 20%. Landlords treated by rent control reduced rental housing supply by 15%, causing a 5.1% city-wide rent increase.",
+   "This substitution toward owner occupied and high-end new construction rental housing likely fueled the gentrification of San Francisco"
+  ],
+  "locator": "abstract; introduction (NBER Working Paper 24181 version)",
   "grade": "B",
   "fact_date": "2019",
   "checked": "2026-10-28",
@@ -3620,7 +3623,7 @@
   "corroboration": [
    {
     "evidence": "EV-HOU-171",
-    "stance": "supports"
+    "stance": "qualifies"
    }
   ],
   "supports": [
@@ -3770,7 +3773,7 @@
    "More than two million U.S. households have an eviction case filed against them each year.",
    "We find that an eviction order increases homelessness and hospital visits and reduces earnings, durable goods consumption, and access to credit in the first two years. Effects on housing and labor market outcomes are driven by impacts for female and Black tenants. In the longer-run, eviction increases indebtedness and reduces credit scores."
   ],
-  "locator": "abstract (NBER page)",
+  "locator": "abstract (NBER Working Paper 30382 version)",
   "grade": "B",
   "fact_date": "2022",
   "checked": "2026-10-28",
@@ -3808,10 +3811,6 @@
   "context": "Peer-reviewed randomized trial (Harvard Law Review, 2013).",
   "corroboration": [
    {
-    "evidence": "EV-HOU-144",
-    "stance": "qualifies"
-   },
-   {
     "evidence": "EV-HOU-145",
     "stance": "supports"
    }
@@ -3841,10 +3840,10 @@
   "fact_date": "2010",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Randomized trial, working paper (SSRN 1880078).",
+  "context": "Randomized trial, working paper (SSRN 1880078), by the authors of EV-HOU-143. It compares full representation with limited help, not with no help.",
   "corroboration": [
    {
-    "evidence": "EV-HOU-143",
+    "evidence": "EV-HOU-146",
     "stance": "qualifies"
    }
   ],
@@ -4122,30 +4121,23 @@
  },
  {
   "id": "EV-HOU-153",
-  "statement": "Lotteries in five assistance programs that disbursed more than $200 million show that recipients were 6-13 percentage points more likely to pay rent in full and 4.7 points less worried about eviction, but assistance had little effect on housing stability or financial distress: ten-month move rates fell an insignificant 0.8 points from 9.3.",
+  "statement": "Lotteries in five assistance programs that distributed over $200 million show that assistance increased rent payment and reduced concerns about eviction, but had little effect on housing stability or financial distress; the authors point to eviction moratoria, an expanded safety net and a softening market.",
   "claim": "analysis",
   "figures": [
-   "$200 million",
-   "6",
-   "13 percent",
-   "4.7",
-   "0.8",
-   "9.3"
+   "$200 million"
   ],
   "source": "SRC-0396",
   "anchor": [
-   "We evaluate these programs using applications to five assistance programs that disbursed more than$200 million via lottery.",
-   "those who received assistance were 6\u201313 percentage points (8\u201336 percent) more likely to pay their rent in full",
-   "assistance reduced concern about eviction, with a 4.7 percentage point reduction",
-   "However, we find little effect on housing stability or financial distress.",
-   "10-month move rates in the Infutor data decrease by a statistically insignificant 0.8 percentage points from a mean of 9.3"
+   "We evaluate five programs distributing over $200 million through lottery, using administrative and survey data to assess effects on rent payment, housing stability, financial distress, and health.",
+   "Assistance led to increases in rent payment and reduced concerns about eviction, with suggestive improvements in self-reported mental and physical health.",
+   "In contrast with pre-pandemic emergency rental assistance, we find little effect on housing stability or financial distress. Explanations for these muted effects include: eviction moratoria weakening the link between rent and displacement, expanded safety net programs, and market softening favoring tenants."
   ],
-  "locator": "abstract (PDF); Introduction; Section 6",
+  "locator": "abstract (revision of October 2025)",
   "grade": "B",
   "fact_date": "2022",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Randomized lotteries (NBER working paper, revised February 2025); during moratoria and a strong safety net, which the authors offer as reasons for small effects.",
+  "context": "Randomized lotteries (NBER Working Paper 32463, issued May 2024, revised October 2025).",
   "corroboration": [
    {
     "evidence": "EV-HOU-152",
@@ -4727,6 +4719,10 @@
   "corroboration": [
    {
     "evidence": "EV-HOU-136",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-174",
     "stance": "supports"
    }
   ],
@@ -4737,7 +4733,7 @@
  {
   "id": "EV-HOU-172",
   "statement": "In HUD's 2024 count, 13 local homelessness systems reported increases due to immigrants or refugees seeking asylum. In New York City, asylum seekers in emergency shelters accounted for almost 88 percent of the increase in sheltered homelessness; in Chicago, new arrivals, including migrant and asylum-seeking families, accounted for more than 13,600 people in emergency shelters.",
-  "claim": "data",
+  "claim": "analysis",
   "figures": [
    "13",
    "88 percent",
@@ -4749,11 +4745,355 @@
    "asylum seekers in 2024. The CoC noted that these households, who were in emergency shelters,\naccounted for almost 88 percent of the increase in sheltered homelessness in New York City.",
    "new arrivals (which included migrant and asylum-seeking families,\nincluding those bused or flown to Chicago from other states) accounted for more than 13,600 people in\nemergency shelters in 2024."
   ],
-  "grade": "A",
+  "grade": "C",
   "fact_date": "2024",
   "checked": "2026-10-28",
   "recheck": "2026-12-31",
-  "context": "HUD's 2024 homelessness report (Biden administration), reporting local Continuums of Care's own accounts of their increases.",
+  "context": "HUD's 2024 homelessness report (Biden administration), reporting local Continuums of Care's own attributions of their increases: their analysis, not a measured share.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-062",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-174",
+  "statement": "In Germany, staggered adoption of the rent brake had a robust positive spillover effect on rents in the uncontrolled market, and households in rent-controlled units consumed more housing.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0415",
+  "anchor": "We find a robust positive spillover effect of rent control on free-market rents. Moreover, housing services consumption of households living in rent-controlled units increased.",
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Working paper (Erlangen-Nuremberg and DIW Berlin authors).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-171",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-175",
+  "statement": "Across U.S. communities, more investment in permanent supportive housing had modest negative associations with chronic homelessness: in the last study year, one more unit per 10,000 adults went with roughly 3 percent less chronic homelessness, and 0.4 percent using the previous year's units.",
+  "claim": "analysis",
+  "figures": [
+   "10,000",
+   "3 percent",
+   "0.4 percent"
+  ],
+  "source": "SRC-0419",
+  "anchor": [
+   "The results show modest negative associations between increased investment in PSH and rates of chronic homelessness over time.",
+   "in the last year of the study period, an increase of 1 PSH unit per 10,000 adults in a community is associated with roughly a 3 percent decrease in its total rate of chronic homelessness.",
+   "an increase in the lagged PSH measure of one PSH unit per 10,000 adults is associated with a 0.4 percent decrease in the total rate of chronic homelessness."
+  ],
+  "locator": "abstract; p. 250 (results, model 6); p. 255 (lagged models)",
+  "grade": "B",
+  "fact_date": "2010",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Social Service Review, 2014); authors include a long-time supporter of permanent supportive housing.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-083",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-176",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-176",
+  "statement": "Each additional HUD-VASH voucher for veterans increased permanent supportive housing units by 0.9 and reduced the number of homeless veterans by 1; the authors conclude veteran homelessness would have risen substantially without the program.",
+  "claim": "analysis",
+  "figures": [
+   "0.9",
+   "1"
+  ],
+  "source": "SRC-0420",
+  "anchor": [
+   "For each additional voucher, permanent supportive housing units increased by 0.9 and the number of homeless veterans decreased by 1.",
+   "Our results indicate the HUD-VASH program worked as intended and veterans' homelessness would have risen substantially over the past decade without the program."
+  ],
+  "locator": "abstract (Results); abstract (Conclusions)",
+  "grade": "B",
+  "fact_date": "2017",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Journal of Public Health, 2019); Notre Dame authors. Evans also co-authored EV-HOU-108.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-175",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-177",
+  "statement": "Land-use reforms that loosened restrictions were associated with a 0.8 percent increase in housing supply within three to nine years, mostly at the higher end of the rent distribution, with no significant evidence that lower-cost units became more available or cheaper; tightening reforms were associated with higher median rents.",
+  "claim": "analysis",
+  "figures": [
+   "0.8 percent"
+  ],
+  "source": "SRC-0421",
+  "anchor": [
+   "We find that reforms that loosen restrictions are associated with a statistically significant 0.8 percent increase in housing supply within three to nine years of reform passage, accounting for new and existing stock.",
+   "This increase occurs predominantly for units at the higher end of the rent price distribution; we find no statistically significant evidence that additional lower-cost units became available or became less expensive in the years following reforms.",
+   "reforms that increase land-use restrictions and lower allowed densities are associated with increased median rents"
+  ],
+  "locator": "abstract (Urban Institute page); abstract",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Urban Institute (center-left, nonpartisan) report, 2023, later in Urban Studies. Freemark (EV-HOU-124) is a co-author.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-123",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-126",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-178",
+  "statement": "From 1985-2011 panel data, homes filter down to lower-income occupants at a real annual rate of 2.5 percent for rentals and 0.5 percent for owner-occupied homes, more slowly where house prices rise faster; for most locations filtering is robust, which the author says supports housing vouchers.",
+  "claim": "analysis",
+  "figures": [
+   "1985",
+   "2.5 percent",
+   "0.5 percent"
+  ],
+  "source": "SRC-0422",
+  "anchor": [
+   "I fill this gap by estimating a \"repeat income\" model using 1985-2011 panel data.",
+   "Real annual filtering rates are faster for rental housing (2.5 percent) than owner-occupied (0.5 percent), vary inversely with the income elasticity of demand and house price inflation, and are sensitive to tenure transitions as homes age.",
+   "For most locations, filtering is robust which lends support for housing voucher programs."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2011",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (American Economic Review, 2014).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-130",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-179",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-179",
+  "statement": "Filtering rates range from about 1.61% a year downward in Topeka to 0.71% a year upward in San Francisco: markets with inelastic housing supply filter up on average, mostly because of faster house price growth.",
+  "claim": "analysis",
+  "figures": [
+   "1.61%",
+   "0.71%"
+  ],
+  "source": "SRC-0423",
+  "anchor": [
+   "these filtering rates can range from about a 1.61% annual rate of downward filtering for Topeka, Kansas to a 0.71% upward filtering rate for San Francisco, California.",
+   "MSAs with elastic housing supply have faster downward filtering than the national average whereas markets with inelastic housing supply have upwards filtering on average.",
+   "most of this difference can be explained by the higher house price growth on average in inelastic markets."
+  ],
+  "locator": "working paper, introduction p. 1; working paper, introduction",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Regional Science and Urban Economics, 2022), Freddie Mac economists; quoted from the 2020 working paper.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-178",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-180",
+  "statement": "Ending rent control in Cambridge, Massachusetts, added about $1.8 billion to the value of the city's housing between 1994 and 2004, nearly a quarter of its residential price appreciation; spillovers to never-controlled properties nearby accounted for more than half of it.",
+  "claim": "analysis",
+  "figures": [
+   "$1.8 billion",
+   "1994"
+  ],
+  "source": "SRC-0424",
+  "anchor": [
+   "we find that rent control's removal produced large, positive, and robust spillovers onto the price of never-controlled housing from nearby decontrolled units.",
+   "Elimination of rent control added about $1.8 billion to the value of Cambridge's housing stock between 1994 and 2004, equal to nearly a quarter of total Cambridge residential price appreciation in this period. Positive spillovers to never-controlled properties account for more half of the induced price appreciation."
+  ],
+  "locator": "abstract; abstract (sic 'more half')",
+  "grade": "B",
+  "fact_date": "2004",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Peer-reviewed (Journal of Political Economy, 2014); quoted from NBER Working Paper 18125.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-136",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-181",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-181",
+  "statement": "St. Paul's 2021 rent control caused property values to fall 6-7%, an aggregate loss of $1.6 billion, a third of it from indirect effects; the tenants who gained most had higher incomes and were more likely to be white, while the owners who lost most had lower incomes and were more likely to be minorities.",
+  "claim": "analysis",
+  "figures": [
+   "6",
+   "7%",
+   "$1.6 billion"
+  ],
+  "source": "SRC-0425",
+  "anchor": [
+   "We use the price effects caused by the passage of rent control in St. Paul, Minnesota in 2021",
+   "we find that rent control caused property values to fall by 6-7%, for an aggregate loss of $1.6 billion. A calibrated model of house prices under rent control attributes a third of these losses to indirect, negative externalities.",
+   "the tenants who gained the most from rent control had higher incomes and were more likely to be white, while the owners who lost the most had lower incomes and were more likely to be minorities."
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "NBER working paper (2022), USC economists.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-180",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-136",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-182",
+  "statement": "On August 1, 2022, Treasury told OMB it would not report an improper payment estimate for short-term pandemic programs, including Emergency Rental Assistance; risk assessments for FY 2024 then deemed those programs susceptible to significant improper payments.",
+  "claim": "data",
+  "figures": [
+   "1",
+   "2022"
+  ],
+  "source": "SRC-0418",
+  "anchor": [
+   "On August 1, 2022, the Office of the Deputy Chief Financial Officer (ODCFO) submitted a\nmemorandum to OMB, Limitations in Quantifying the Amount and Rate of Improper Payments for\nShort-Term Programs",
+   "However,\nTreasury will not plan to report an improper payment estimate of such programs either in its AFR\nor on PaymentAccuracy.gov.",
+   "(3) Risk assessments were performed for FY 2024, and programs were deemed susceptible to significant improper\npayments."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Treasury's inspector general (audit for FY 2024). There is still no published improper-payment rate for the program.",
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-183",
+  "statement": "CBO estimates that the 2023 immigration surge boosted the demand for housing, which increased rental costs, property values and assessed values; new immigrants often first stay in shelters or with relatives, so their effect on rents comes with a lag, and new construction eventually increases to meet the demand.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0416",
+  "anchor": [
+   "The surge in immigration boosted the demand for\nhousing, which increased rental costs, property values,\nand assessed values",
+   "Many new immigrants initially\nstay in transitional housing, such as shelters or the homes\nof relatives, which delays their effect on the housing market. As they move into rental housing, prices tend to rise,\nwhich increases assessed property values, but often with\na lag. New housing construction eventually increases to\nmeet the demand"
+  ],
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "Congressional Budget Office (June 2025), nonpartisan; a budget analysis whose housing effects are qualitative, without an estimate of the rent increase.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-053",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-050",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-184",
+  "statement": "HUD's summary of the Family Options Study finds that priority access to a long-term housing subsidy led to by far the best outcomes for reducing family homelessness three years on, at 9 percent higher cost than usual care; it also reduced the share of family heads working at 20 months from 30 to 24 percent. Rapid re-housing families did about as well as usual care at a 9-percent lower cost.",
+  "claim": "analysis",
+  "figures": [
+   "9 percent",
+   "20",
+   "30",
+   "24 percent",
+   "9"
+  ],
+  "source": "SRC-0417",
+  "anchor": [
+   "Priority access to a long-term housing subsidy led to by far the best outcomes for reducing family\nhomelessness 3 years after random assignment.",
+   "Providing priority access to housing subsidies cost 9 percent more than not giving families any",
+   "reduced the\nproportion of family heads working at 20 months from 30 to 24 percent",
+   "families assigned to the CBRR intervention do about as well as families assigned to\nusual care but at a 9-percent lower cost"
+  ],
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "context": "HUD-funded randomized trial run by Abt Associates; summary report (October 2016), uploaded by Espen.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-086",
+    "stance": "supports"
+   }
+  ],
   "supports": [
    "dossiers/home/2-what-works.md"
   ]

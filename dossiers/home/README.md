@@ -17,7 +17,7 @@ Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C
 | Section | Status |
 | --- | --- |
 | 1. The problem | Draft (stage C, step 1). Rent burden, arrears, worst case needs, the assistance gap, homelessness and the shortage are evidenced, mostly from HUD and Census (grade A). Subgroup breakdowns, evictions and the 2025 rent-burden refresh remain |
-| 2. What works | Draft (stage C, step 3). Causes weighed from independent research, including immigration; vouchers, Housing First, prevention, LIHTC, public housing, zoning, new supply, eviction and right to counsel, pandemic rental aid; housing allowances, Vienna and Finland abroad. EV-HOU-050 to 172. HUD's cause accounts (EV-HOU-027 to 029, 035) now have independent corroboration; the immigration reading is qualified and contested |
+| 2. What works | Draft (stage C, step 3). Causes weighed from independent research, including immigration; vouchers, Housing First, prevention, LIHTC, public housing, zoning, new supply, eviction and right to counsel, pandemic rental aid; housing allowances, Vienna and Finland abroad. EV-HOU-050 to 184. HUD's cause accounts (EV-HOU-027 to 029, 035) now have independent corroboration; the immigration reading is qualified and contested |
 | 3. Design choices | Not started |
 | 4. Specification | Not started |
 | 5. Delivery | Not started |
