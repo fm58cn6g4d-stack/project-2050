@@ -20,8 +20,9 @@ class RegistryTests(unittest.TestCase):
         root = Path(tmp.name)
         (root / 'library').mkdir()
         (root / 'library/catalog.csv').write_text('id,path,title,kind,origin,rights,status,aliases,note\n'
-                                                  'SRC-0001,legacy/sources/rents.md,Rents,,,,,,\n'
-                                                  'SRC-0002,library/report.pdf,Report,,,,,,\n')
+                                                  'SRC-0001,legacy/sources/rents.md,Rents,,Census Bureau: https://census.gov,,,,\n'
+                                                  'SRC-0002,library/report.pdf,Report,,,,,,\n'
+                                                  'SRC-0003,https://doi.org/10.1000/x,Study,citation (not saved),Journal of Housing (2020),licensed,,,\n')
         (root / 'legacy/sources').mkdir(parents=True)
         (root / 'legacy/sources/rents.md').write_text(SOURCE)
         (root / 'library/report.pdf').write_bytes(b'%PDF')
@@ -30,7 +31,7 @@ class RegistryTests(unittest.TestCase):
         (root / 'charter').mkdir()
         (root / 'charter/decisions.md').write_text('| ID | Date |\n| --- | --- |\n| DEC-2026-10-28-01 | x |\n' + charter_extra)
         (root / 'dossiers/home').mkdir(parents=True)
-        entry = {'id': 'EV-HOU-001', 'statement': 'Rents rose 4.2% in 2025.', 'figures': ['4.2%', '2025'],
+        entry = {'id': 'EV-HOU-001', 'statement': 'Rents rose 4.2% in 2025.', 'claim': 'data', 'figures': ['4.2%', '2025'],
                  'source': 'SRC-0001', 'anchor': 'Rents rose 4.2% in 2025', 'grade': 'A', 'fact_date': '2025',
                  'checked': '2026-10-28', 'recheck': '2027-04-28', 'supports': ['HOU-4A.01']}
         (root / 'dossiers/home/evidence.json').write_text(json.dumps(evidence if evidence is not None else [entry]))
@@ -74,6 +75,53 @@ class RegistryTests(unittest.TestCase):
         e['anchor'] = ['Rents rose 4.2% in 2025', 'Rents rose 9.9%']
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
         self.assertIn("anchor not found in legacy/sources/rents.md: 'Rents rose 9.9%'", ' '.join(self.run_on(root)[0]))
+
+    def test_citation_sources_take_short_located_quotations(self):
+        root, e = self.tree()
+        e.update(source='SRC-0003', anchor='rents rose 4.2% in 2025', grade='B')
+        self.assertEqual(check.publisher_of({'origin': 'Joint Center for Housing Studies (Harvard) (2024)'}),
+                         'Joint Center for Housing Studies (Harvard)')
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn('needs a locator', ' '.join(self.run_on(root)[0]))
+        e['locator'] = 'p. 12'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertEqual(self.run_on(root)[0], [])
+        e['anchor'] = 'word ' * 61 + 'rents rose 4.2% in 2025'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn('quotation over 60 words', ' '.join(self.run_on(root)[0]))
+        e['anchor'] = ['word ' * 50 + 'rents rose 4.2% in 2025'] * 3
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn('quotations total over 120 words', ' '.join(self.run_on(root)[0]))
+        e['anchor'] = 'rents rose 4.5% in 2025'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn("figure '4.2%' not in its anchors", ' '.join(self.run_on(root)[0]))
+
+    def test_analysis_needs_independent_corroboration(self):
+        root, e = self.tree()
+        e['claim'] = 'analysis'
+        other = dict(e, id='EV-HOU-002', claim='data')
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
+        errors, warnings, _ = self.run_on(root)
+        self.assertEqual(errors, [])
+        self.assertIn('without corroboration from an independent publisher', ' '.join(warnings))
+        e['corroboration'] = [{'evidence': 'EV-HOU-002', 'stance': 'supports'}]  # same source: not independent
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
+        self.assertIn('independent publisher', ' '.join(self.run_on(root)[1]))
+        other.update(source='SRC-0003', locator='p. 3', anchor='rents rose 4.2% in 2025')
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
+        self.assertEqual(self.run_on(root)[:2], ([], []))
+        e['corroboration'] = [{'evidence': 'EV-HOU-002', 'stance': 'contests'}]  # an independent dissent alone
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
+        warnings = ' '.join(self.run_on(root)[1])
+        self.assertIn('without corroboration from an independent publisher', warnings)
+        self.assertIn('present both views', warnings)
+        e['corroboration'] = 'EV-HOU-002'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
+        self.assertIn('must be a list', ' '.join(self.run_on(root)[0]))
+        e['corroboration'] = [{'evidence': 'EV-HOU-009', 'stance': 'agrees'}]
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
+        self.assertIn('not an evidence ID', ' '.join(self.run_on(root)[0]))
+        self.assertIn('stance must be', ' '.join(self.run_on(root)[0]))
 
     def test_grade_dates_and_sources(self):
         root, e = self.tree()

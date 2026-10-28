@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated October 28, 2026 by Claude Code (stage C, step 1).
+Updated October 28, 2026 by Claude Code (stage C: sources and evidence method).
 
 ## Now
 
@@ -14,7 +14,8 @@ Updated October 28, 2026 by Claude Code (stage C, step 1).
 | A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | Done | Claude Code | PR #49, merged |
 | A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Done: approved by Espen | Claude Code | PR #50, merged |
 | B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
-| C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | In review | Claude Code | Branch `claude/stage-c-housing-1` |
+| C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | Done | Claude Code | PR #53, merged |
+| C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | In review | Claude Code | Branch `claude/library-citations` |
 | C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | Next; HUD evidence already added in step 1 | Claude Code | — |
 | C. First dossiers | 3. Housing section 2, what works | Most capable | Waiting on step 2 | Claude Code | — |
 | C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | Waiting on step 3 | Claude Code | — |
@@ -24,12 +25,13 @@ Updated October 28, 2026 by Claude Code (stage C, step 1).
 
 ## Open PRs
 
-The stage C, step 1 PR (housing problem section).
+The stage C sources and evidence method PR (`claude/library-citations`).
 
 ## Done (recent)
 
 | Item | Result |
 | --- | --- |
+| Stage C step 1, the housing problem section (PR #53, merged) | Dossier template; `dossiers/home/1-problem.md` with EV-HOU-001 to 028 (Census, Federal Reserve and HUD at grade A; CRS summaries and agency cause narratives at C). Espen uploaded HUD's *Worst Case Housing Needs 2025* and *2024 AHAR*. Approved by the Claude reviewer and Codex |
 | Stage A, complete | Espen reviewed stage A and the outcomes record (PR #50) on October 28 and started stage C |
 | Stage A step 1, the reset (PR #46) | Merged: clean tree, `legacy/`, migrated models and checks, standards, board |
 | Catalog follow-up: one home per name (PR #51, merged; staging rows fixed after) | 16 original uploads marked `copy_of` their working copies in `legacy/`; two generic titles renamed; the catalog check now fails if any title or alias leads to two homes |
@@ -50,6 +52,8 @@ The stage C, step 1 PR (housing problem section).
 - **Story claims after PR #45.** Two essay claims (`q4`, `downside`) cite figures that PR #45 changed (fourth-quintile −$2,906 is now −$3,054). The page stays pinned to its evidence commit; an editor should reread and advance the pin. `run-all.sh` reports it on every run.
 - **Catalog facts.** `catalog-facts.csv` dates depend on the clone's history depth, so the file is refreshed, never checked.
 - **Front-door edition.** `public/site/index.html` is pinned to an older evidence commit and is rebuilt in stage H.
+
+- **Standards wording.** The data-versus-analysis and corroboration rule Espen asked for on October 28 is in `dossiers/TEMPLATE.md` and the checker. It also belongs in `charter/STANDARDS.md`, which is tier 3: proposed for the next charter PR, with Espen's stage A sign-off for `charter/decisions.md`.
 
 ## Questions for Espen
 

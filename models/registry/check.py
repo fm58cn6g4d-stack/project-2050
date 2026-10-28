@@ -6,8 +6,11 @@ Checks, in one run:
 - library: every document is catalogued and the name index is current;
 - charter: DEC- and OUT- IDs are well formed and unique;
 - dossiers: each evidence.json entry names a catalogued source, its anchor passage (or list of passages)
-  exists in that source, its figures and every number in its statement trace to the anchors (the story
-  builder's rules, models/registry/claims.py), its grade is A-E
+  exists in that source (for a citation-only source, a licensed one the repository does not hold, each anchor
+  is a quotation of at most 60 words with a locator, which a reviewer checks against the original), its figures and every number in its statement trace to the anchors (the story
+  builder's rules, models/registry/claims.py), its grade is A-E, it says whether it is data or analysis, and an
+  analysis entry lists entries that support, contest or qualify it (a warning until one comes from an
+  independent publisher)
   and its dates are valid; each provisions.json entry belongs to an agenda ID and cites known evidence;
 - references: every SRC-, EV-, OUT- and DEC- ID cited in current text resolves (in Markdown, an ID in
   `code formatting` is a format example and is not checked).
@@ -36,6 +39,11 @@ EV_ID = re.compile(r'^EV-[A-Z]{2,4}-\d{3}$')
 REFS = {'SRC': re.compile(r'\bSRC-\d{4}\b'), 'EV': re.compile(r'\bEV-[A-Z]{2,4}-\d{3}\b'),
         'OUT': re.compile(r'\bOUT-\d{2}\b'), 'DEC': re.compile(r'\bDEC-\d{4}-\d{2}-\d{2}-\d{2}\b')}
 GRADES = set('ABCDE')
+CLAIMS = {'data', 'analysis'}  # a measured fact, or an interpretation of facts (causes, effects, projections, models)
+STANCES = {'supports', 'contests', 'qualifies'}
+CITATION = 'citation (not saved)'  # library/build_catalog.py: a cited source the repository does not hold
+QUOTE_WORDS = 60  # a brief quotation from a licensed source; longer passages belong in a saved, open text
+QUOTE_TOTAL = 120  # all quotations in one evidence entry together
 
 
 def module(path, name):
@@ -43,6 +51,13 @@ def module(path, name):
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod
+
+
+def publisher_of(row):
+    """The publisher in a catalog origin: "Publisher: address" for saved texts, "Publisher (year)" for citations.
+    Independence compares these names exactly, so a citation row spells its publisher as other rows do."""
+    name = row.get('origin', '').split(': ', 1)[0]
+    return re.sub(r'\s*\(\d{4}\)$', '', name).strip()
 
 
 def date(value):
@@ -80,7 +95,9 @@ def check_charter(root):
 def check_dossiers(root, catalog, agenda, today):
     """Evidence registers and provisions under dossiers/."""
     errors, warnings, evidence = [], [], set()
+    analyses, source_of = [], {}
     src_paths = {r['id']: r['path'] for r in catalog}
+    src_kinds = {r['id']: r['kind'] for r in catalog}
     registers = sorted((root / 'dossiers').rglob('evidence.json')) if (root / 'dossiers').exists() else []
     for path in registers:
         rel = path.relative_to(root)
@@ -97,11 +114,15 @@ def check_dossiers(root, catalog, agenda, today):
             if eid in evidence:
                 errors.append(f'{where}: defined twice')
             evidence.add(eid)
+            source_of[eid] = e.get('source')
             for field in ('statement', 'source', 'anchor', 'grade', 'fact_date', 'checked', 'recheck'):
                 if not e.get(field):
                     errors.append(f'{where}: missing {field}')
             if e.get('grade') and e['grade'] not in GRADES:
                 errors.append(f'{where}: grade must be one of A-E')
+            if e.get('claim') not in CLAIMS:
+                errors.append(f'{where}: claim must be "data" or "analysis"')
+            analyses.append((where, e))
             for field in ('checked', 'recheck'):
                 if e.get(field) and not date(e[field]):
                     errors.append(f'{where}: {field} must be a date (YYYY-MM-DD)')
@@ -116,18 +137,28 @@ def check_dossiers(root, catalog, agenda, today):
                 continue
             if not src or not e.get('anchor'):
                 continue
-            text_path = root / (e.get('text_version') or src_paths[src])
-            if text_path.suffix.lower() not in TEXT:
-                errors.append(f'{where}: {src} is not a text file; give a text_version in library/ to anchor against')
-                continue
-            text = text_path.read_text(errors='replace') if text_path.exists() else ''
             # One exact passage, or a list of them when a claim spans a page or column break.
             anchors = e['anchor'] if isinstance(e['anchor'], list) else [e['anchor']]
-            missing = [a for a in anchors if claims.line_of(text, a) is None]
-            for a in missing:
-                errors.append(f'{where}: anchor not found in {text_path.relative_to(root)}: {a[:70]!r}')
-            if missing:
-                continue
+            if src_kinds[src] == CITATION and not e.get('text_version'):
+                # A source the repository cites but does not hold: its anchors are short quotations, checked by
+                # a reviewer against the original at the locator; the rules below still trace every number to them.
+                if not e.get('locator'):
+                    errors.append(f'{where}: a quotation from {src} needs a locator (page, section or table)')
+                long_ = [a for a in anchors if len(a.split()) > QUOTE_WORDS]
+                errors += [f'{where}: quotation over {QUOTE_WORDS} words; quote less: {a[:70]!r}' for a in long_]
+                if sum(len(a.split()) for a in anchors) > QUOTE_TOTAL:
+                    errors.append(f'{where}: quotations total over {QUOTE_TOTAL} words; quote less')
+            else:
+                text_path = root / (e.get('text_version') or src_paths[src])
+                if text_path.suffix.lower() not in TEXT:
+                    errors.append(f'{where}: {src} is not a text file; give a text_version in library/ to anchor against')
+                    continue
+                text = text_path.read_text(errors='replace') if text_path.exists() else ''
+                missing = [a for a in anchors if claims.line_of(text, a) is None]
+                for a in missing:
+                    errors.append(f'{where}: anchor not found in {text_path.relative_to(root)}: {a[:70]!r}')
+                if missing:
+                    continue
             errors += [f'{where}: {p}' for p in claims.figure_problems(
                 anchors, e.get('figures', []), e.get('rounded', []), e.get('series', []))]
             # The statement is what a dossier repeats, so its numbers must trace too; its year is fact_date.
@@ -136,6 +167,30 @@ def check_dossiers(root, catalog, agenda, today):
             loose = sorted(claims.numbers(e.get('statement', '')) - traced)
             if loose:
                 errors.append(f'{where}: statement number(s) {", ".join(loose)} not in its anchors')
+    # Analysis is only as good as its independent corroboration: each analysis entry lists the entries that
+    # support, contest or qualify it. It is relied on only once one that supports or qualifies it comes from
+    # a different publisher; an independent entry that contests it means the dossier must present both views.
+    publisher = {r['id']: publisher_of(r) for r in catalog}
+    for where, e in analyses:
+        links = e.get('corroboration', [])
+        if not isinstance(links, list) or not all(isinstance(link, dict) for link in links):
+            errors.append(f'{where}: corroboration must be a list of {{"evidence", "stance"}} entries')
+            continue
+        if e.get('claim') != 'analysis':
+            if links:
+                errors.append(f'{where}: only an analysis entry takes corroboration')
+            continue
+        for link in links:
+            if link.get('evidence') not in evidence:
+                errors.append(f'{where}: corroboration {link.get("evidence")} is not an evidence ID')
+            if link.get('stance') not in STANCES:
+                errors.append(f'{where}: corroboration stance must be supports, contests or qualifies')
+        own = publisher.get(e.get('source'))
+        independent = [link for link in links if publisher.get(source_of.get(link.get('evidence'))) not in (None, own)]
+        if not any(link.get('stance') in ('supports', 'qualifies') for link in independent):
+            warnings.append(f'{where}: analysis without corroboration from an independent publisher')
+        if any(link.get('stance') == 'contests' for link in independent):
+            warnings.append(f'{where}: contested by an independent publisher; present both views')
     for path in sorted((root / 'dossiers').rglob('provisions.json')) if (root / 'dossiers').exists() else []:
         rel = path.relative_to(root)
         try:
@@ -203,7 +258,9 @@ def run(root=ROOT, today=None, with_legacy=True):
         if [r['path'] for r in current] != [r['path'] for r in catalog]:
             errors.append('library/catalog.csv: files are uncatalogued or out of order (run library/build_catalog.py)')
         errors += [f'library/catalog.csv: {r["id"]}: {r["path"]} no longer exists'
-                   for r in catalog if not (root / r['path']).exists()]
+                   for r in catalog if not lib.is_citation(r) and not (root / r['path']).exists()]
+        errors += [f'library/catalog.csv: {r["id"]}: a citation row needs an http(s) address as its path'
+                   for r in catalog if lib.is_citation(r) and not r['path'].startswith(('https://', 'http://'))]
         if (root / 'library/name-index.md').read_text() != lib.name_index(current):
             errors.append('library/name-index.md is stale (run library/build_catalog.py)')
     charter_errors, known = check_charter(root)
