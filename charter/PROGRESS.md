@@ -24,7 +24,7 @@ The agenda PR (step 2).
 | Item | Result |
 | --- | --- |
 | Stage A step 1, the reset (PR #46) | Merged: clean tree, `legacy/`, migrated models and checks, standards, board |
-| Stage A step 2, the agenda (in review) | 499 items in `agenda/agenda.csv`: 32 decided, 267 chosen, 54 options, 128 alternatives, 18 held, declined, pointer or retired. None is L3 yet |
+| Stage A step 2, the agenda (in review) | 499 items in `agenda/agenda.csv`: 38 decided, 266 chosen, 58 options, 118 alternatives, 19 held, declined, pointer or retired. None is L3 yet |
 | Restructuring plan | Adopted by Espen October 28 (`charter/PLAN.md`, `DEC-2026-10-28-01`) |
 | Research intake, October 28 | Filed in `library/intake/2026-10-28/` with checksums |
 | PR #39, public story page with seven essays and a claim register | Merged at `eceb44a`. The old queue still called it "ready for approval"; it is done |

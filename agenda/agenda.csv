@@ -103,12 +103,12 @@ CLI-6D,"Congress permits the backbone: a statutory list of national-interest lin
 CLI-6E,"Data-center transparency title: audited pre-construction and five-year post-operation energy, water and land disclosure (Bonamici AI bill Secs. 404-405), NIST i",clean-power,L1,alternative,legacy/domains/domain-climate.md:219,Register: A chosen
 CLI-7,Disaster response and flood insurance,clean-power,L2,chosen,legacy/domains/domain-climate.md:25,Register: 7C needs a D4 treatment
 CLI-7B,Disaster and flood (unscored) / insurance help via R3 / reinsurance backstop,clean-power,L1,alternative,legacy/index/options-register.md:215,Register: 7C needs a D4 treatment
-CLI-7C,"CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored)",clean-power,L1,alternative,legacy/domains/domain-climate.md:504,Register: 7C needs a D4 treatment
+CLI-7C,"CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored)",clean-power,L2,decided,legacy/domains/domain-climate.md:504,Register: 7C needs a D4 treatment
 CLI-7K,"Disaster capital pieces: D1 mitigation fund, D5 wildfire, D9 buyouts",clean-power,L2,decided,legacy/domains/domain-climate.md:509,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
 CLI-7N,"NFIP debt resolution (scored cost, FY2030)",clean-power,L2,decided,legacy/domains/domain-climate.md:505,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
-CLI-8,Climate risk and where federal money builds,clean-power,L1,declined,legacy/domains/domain-climate.md:26,Register: 8B not chosen; 8C option
+CLI-8,Climate risk and where federal money builds,clean-power,L2,chosen,legacy/domains/domain-climate.md:26,Register: 8B not chosen; 8C option
 CLI-8B,Climate risk / extreme-risk ineligibility zones / electric-ready lending,clean-power,L1,declined,legacy/index/options-register.md:216,Register: 8B not chosen; 8C option
-CLI-8C,Climate risk / extreme-risk ineligibility zones / electric-ready lending,clean-power,L1,declined,legacy/index/options-register.md:216,Register: 8B not chosen; 8C option
+CLI-8C,Climate risk / extreme-risk ineligibility zones / electric-ready lending,clean-power,L1,option,legacy/index/options-register.md:216,Register: 8B not chosen; 8C option
 CLI-9,Contracts for difference and advance purchase commitments,clean-power,L1,option,legacy/domains/domain-climate.md:37,"Register: Option; borrowing-eligible (D4, Oct 20); Judgment Fund treatment decided Oct 20 (full cost when obligated)"
 CLI-10,Public power as builder of last resort,clean-power,L1,option,legacy/domains/domain-climate.md:38,Register: Option; borrowing-eligible
 CLI-10G,"Public grid delivery, lean tranche 1 (deficit cost)",clean-power,L2,decided,legacy/domains/domain-climate.md:508,"Component of the decided climate package (Package A, O5, CLI-7C), booked by PR #45"
@@ -169,14 +169,14 @@ DEM-1A,"All four titles in one bill, with DEM-1E in Title I",foundations/democra
 DEM-1B,Split Title III into its own bill,foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:91,Register: Option
 DEM-1C,"Floor provisions only, preclearance dropped",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:92,Register: Option
 DEM-1D,"Add Title III's results test to the civil-rights code generally, not only Section 2",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:93,Register: Option
-DEM-1E,"In Title I: every benefit-delivery point the agenda creates or expands is a voter-registration agency under the NVRA, with automatic registration on enrollment:",foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:94,Register: DEM-1E adopted (register line 308)
+DEM-1E,"In Title I: every benefit-delivery point the agenda creates or expands is a voter-registration agency under the NVRA, with automatic registration on enrollment:",foundations/democratic-renewal,L2,decided,legacy/domains/domain-democracy.md:94,
 DEM-1F,"Timing: after R1, by spring 2030",foundations/democratic-renewal,L2,decided,legacy/index/options-register.md:310,Register: Decided Oct 20
 DEM-2,Redistricting commissions and the mid-decade ban,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:23,
 DEM-2A,"Commissions plus the ban, with the 2034 exception",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:120,Register: A chosen; 2E an option
 DEM-2B,Ban only,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:121,Register: A chosen; 2E an option
 DEM-2C,Commissions plus a ban with no exception,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:122,Register: A chosen; 2E an option
 DEM-2D,Add conditional funding for state legislative maps,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:123,Register: A chosen; 2E an option
-DEM-2E,"Substantive criteria (compactness, communities of interest, partisan-symmetry limits) enforced by a three-judge district court backstop, with independent commis",foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:124,Register: A chosen; 2E an option
+DEM-2E,"Substantive criteria (compactness, communities of interest, partisan-symmetry limits) enforced by a three-judge district court backstop, with independent commis",foundations/democratic-renewal,L1,option,legacy/domains/domain-democracy.md:124,Register: A chosen; 2E an option
 DEM-3,House enlargement,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:24,
 DEM-3A,"Cube-root rule, ~692, automatic recalculation",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:140,
 DEM-3B,Wyoming rule: every district the size of the smallest state's population,foundations/democratic-renewal,L1,alternative,legacy/domains/domain-democracy.md:141,
@@ -195,8 +195,8 @@ DEM-10,State multi-party track,foundations/democratic-renewal,L2,chosen,legacy/d
 DEM-11,Election administration funding,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:32,
 DEM-12,Re-enfranchisement,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:33,
 DEM-13,Time to vote,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:34,
-DEM-14,Election-worker protection,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:35,
-DEM-15,National service,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:36,
+DEM-14,Election-worker protection,foundations/democratic-renewal,L1,pointer,legacy/domains/domain-democracy.md:35,
+DEM-15,National service,foundations/democratic-renewal,L1,pointer,legacy/domains/domain-democracy.md:36,
 DEM-16,Civic education,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:37,
 DEM-17,"Public space, libraries and community infrastructure",foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:38,
 DEM-18,Citizens' assemblies,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:39,
@@ -204,9 +204,9 @@ DEM-19,Protect the citizen initiative,foundations/democratic-renewal,L2,chosen,l
 DEM-20,Local self-government,foundations/democratic-renewal,L2,chosen,legacy/domains/domain-democracy.md:41,
 EDU-1,Title I,agenda/education,L2,chosen,legacy/domains/domain-education.md:19,
 EDU-1A,"$26B a year, mandatory",agenda/education,L1,alternative,legacy/domains/domain-education.md:54,Register: B through full EDU-9B; 1D held for ESEA
-EDU-1B,A $30B mandatory floor with discretionary appropriations layered on top (the mandatory Pell add-on model),agenda/education,L1,alternative,legacy/domains/domain-education.md:55,Register: B through full EDU-9B; 1D held for ESEA
+EDU-1B,A $30B mandatory floor with discretionary appropriations layered on top (the mandatory Pell add-on model),agenda/education,L2,decided,legacy/domains/domain-education.md:55,Register: B through full EDU-9B; 1D held for ESEA
 EDU-1C,"The omnibus as written: $55B a year, authorized (appropriations decide)",agenda/education,L1,alternative,legacy/domains/domain-education.md:56,Register: B through full EDU-9B; 1D held for ESEA
-EDU-1D,"EDU-1B plus the omnibus's accountability package (subgroup size 10, improvement set-aside to 10%)",agenda/education,L1,alternative,legacy/domains/domain-education.md:57,Register: B through full EDU-9B; 1D held for ESEA
+EDU-1D,"EDU-1B plus the omnibus's accountability package (subgroup size 10, improvement set-aside to 10%)",agenda/education,L1,held,legacy/domains/domain-education.md:57,Register: B through full EDU-9B; 1D held for ESEA
 EDU-2,Special education (IDEA),agenda/education,L2,chosen,legacy/domains/domain-education.md:20,
 EDU-2A,"Mandatory glide path to 40%, with restraint-and-seclusion conditions on new money",agenda/education,L2,chosen,legacy/domains/domain-education.md:73,Register: A chosen
 EDU-2B,Faster path: 40% by FY2033 (the omnibus's date),agenda/education,L1,alternative,legacy/domains/domain-education.md:74,Register: A chosen
@@ -218,9 +218,9 @@ EDU-3B,"Expand community eligibility instead (lower the threshold, raise the mul
 EDU-3C,"The omnibus as written, at its 2023 rates",agenda/education,L1,alternative,legacy/domains/domain-education.md:92,Register: A chosen; G-MEALS
 EDU-4,Educator workforce,agenda/education,L2,chosen,legacy/domains/domain-education.md:22,
 EDU-4A,Pipeline surge,agenda/education,L1,alternative,legacy/domains/domain-education.md:112,Register: Do not add estimates again to full fund outlays
-EDU-4B,"Add a $60,000 minimum teacher salary, CPI-indexed: federal grants covering the gap, at least 85% passed to districts, priority to Title I and rural, with a stat",agenda/education,L1,alternative,legacy/domains/domain-education.md:113,
-EDU-4C,"Add paraprofessional wages (PARA Act, on the Title I formula) and school mental-health staff",agenda/education,L1,alternative,legacy/domains/domain-education.md:114,Register: Do not add estimates again to full fund outlays
-EDU-4D,Add a temporary teacher bridge credit (2030-31) so money lands in year one,agenda/education,L1,alternative,legacy/domains/domain-education.md:115,Register: Do not add estimates again to full fund outlays
+EDU-4B,"Add a $60,000 minimum teacher salary, CPI-indexed: federal grants covering the gap, at least 85% passed to districts, priority to Title I and rural, with a stat",agenda/education,L2,decided,legacy/domains/domain-education.md:113,
+EDU-4C,"Add paraprofessional wages (PARA Act, on the Title I formula) and school mental-health staff",agenda/education,L2,decided,legacy/domains/domain-education.md:114,Register: Do not add estimates again to full fund outlays
+EDU-4D,Add a temporary teacher bridge credit (2030-31) so money lands in year one,agenda/education,L2,decided,legacy/domains/domain-education.md:115,Register: Do not add estimates again to full fund outlays
 EDU-5,Higher education,agenda/education,L2,chosen,legacy/domains/domain-education.md:23,
 EDU-5A,"Pell $9,500 mandatory increment; SAVE and PSLF in statute",agenda/education,L2,chosen,legacy/domains/domain-education.md:131,Register: A chosen; 5D can stack
 EDU-5B,"A doubled Pell maximum (about $14,800) instead of $9,500",agenda/education,L1,alternative,legacy/domains/domain-education.md:132,Register: A chosen; 5D can stack
@@ -235,7 +235,7 @@ EDU-7,Scholarship tax credit,agenda/education,L2,chosen,legacy/domains/domain-ed
 EDU-8,AI in education and student data,agenda/education,L2,chosen,legacy/domains/domain-education.md:26,
 EDU-9,Financing architecture,agenda/education,L2,chosen,legacy/domains/domain-education.md:27,
 EDU-9A,General-fund comparator / full education fund package,agenda/education,L1,alternative,legacy/index/options-register.md:202,"Register: Rate, timing, grants and protection under review"
-EDU-9B,(adopted): the full education fund benefit package,agenda/education,L1,alternative,legacy/domains/domain-education.md:190,"Register: Rate, timing, grants and protection under review"
+EDU-9B,(adopted): the full education fund benefit package,agenda/education,L2,decided,legacy/domains/domain-education.md:190,"Register: Rate, timing, grants and protection under review"
 EDU-9C,—,agenda/education,L0,retired,legacy/index/options-register.md:203,Register: Retired Oct 20 (duplicates of REV-E1 and EDU-1B)
 EDU-9D,—,agenda/education,L0,retired,legacy/index/options-register.md:203,Register: Retired Oct 20 (duplicates of REV-E1 and EDU-1B)
 EDU-10,Research and evaluation,agenda/education,L2,chosen,legacy/domains/domain-education.md:28,
@@ -373,7 +373,7 @@ LAB-7,Wage theft and misclassification,work,L2,chosen,legacy/domains/domain-labo
 LAB-7B,ABC test in the FLSA,work,L1,option,legacy/index/options-register.md:242,Register: Option
 LAB-8,Apprenticeships,work,L2,chosen,legacy/domains/domain-labor.md:18,
 LAB-8A,As above,work,L2,chosen,legacy/domains/domain-labor.md:149,Register: A chosen; 8B an add-on option
-LAB-8B,"Add an instructor pay line: mandatory grants to community colleges and joint programs to pay technical instructors (industrial controls, electrical, HVAC and he",work,L1,alternative,legacy/domains/domain-labor.md:150,Register: A chosen; 8B an add-on option
+LAB-8B,"Add an instructor pay line: mandatory grants to community colleges and joint programs to pay technical instructors (industrial controls, electrical, HVAC and he",work,L1,option,legacy/domains/domain-labor.md:150,Register: A chosen; 8B an add-on option
 LAB-9,National service,work,L2,chosen,legacy/domains/domain-labor.md:19,
 LAB-9A,"Universal offer, statutory mixing, mandatory funding in R2",work,L1,alternative,legacy/domains/domain-labor.md:177,Register: 9D chosen Oct 20 (9A fallback); G-SERVICE
 LAB-9B,"Expand AmeriCorps by about 150,000 slots through appropriations",work,L1,alternative,legacy/domains/domain-labor.md:178,Register: 9D chosen Oct 20 (9A fallback); G-SERVICE
@@ -383,7 +383,7 @@ LAB-10,Participation support (approved October 26),secure-floor,L2,chosen,legacy
 NSC-1,Defense envelope,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:13,
 NSC-1A,"Flat real from the FY2029 base, as defined",agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:55,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
 NSC-1B,Flat real from a 2026-28 average,agenda/national-security,L1,alternative,legacy/domains/domain-national-security.md:56,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
-NSC-1C,Flat share of GDP,agenda/national-security,L1,alternative,legacy/domains/domain-national-security.md:57,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
+NSC-1C,Flat share of GDP,agenda/national-security,L1,option,legacy/domains/domain-national-security.md:57,Register: A confirmed Oct 20; 1C would cost ~$0.89T. Later: study reducing defense over time
 NSC-2,War powers and emergencies,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:14,
 NSC-3,Alliances,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:15,
 NSC-4,Diplomatic capacity,agenda/national-security,L2,chosen,legacy/domains/domain-national-security.md:16,
