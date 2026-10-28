@@ -1,0 +1,811 @@
+Source: https://www.huduser.gov/portal/datasets/assthsg.html
+Publisher: U.S. Department of Housing and Urban Development
+Retrieved: 2026-10-28 (copy uploaded by Espen)
+Original SHA-256: 51c0357ea2cf2d0fbc504b989bef290c68e33b565e3267497c515c6a8bddfd55
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Data Dictionary for Picture of Subsidized Households: 2023
+Variable Label
+
+Variable Name
+
+Variable Definition/Codes*
+
+Variable Type Column Length
+
+BASIC PROGRAM INFORMATION
+Summary level
+
+sumlevel
+
+Summary levels
+1=U.S. total
+3=State total, including D.C. and outlying areas
+4=Public housing agency (PHA)
+5=Core Based Statistical Areas (CBSA) (by population size as of 2010)
+6=Projects (multifamily assisted or public housing)
+7=Census tract (based on Census 2010 designations), available for Sec 8 (Certificates
+and vouchers) and All-HUD programs
+8=City, or census-designated place-CDP (by population size as of 2010)
+9=County
+10=Zipcode
+11=Congressional District
+
+Num
+
+2
+
+Program label
+
+program_label
+
+Labels for assisted housing programs
+Summary of All HUD Programs
+Public Housing
+Housing Choice Vouchers
+Moderate Rehabilitation
+Project Based Section 8
+RentSup/RAP
+S236/BMIR
+202/PRAC
+811/PRAC
+
+Char
+
+30
+
+Program
+
+program
+
+Type of assisted housing program (Only program types = 5, 6, 8, or 9 has a
+corresponding sub-program at the project summary level (see "sub-program" variable)
+Char
+
+1
+
+1=Summary of All HUD Programs
+2=Public Housing
+3=Housing Choice Vouchers
+4=Moderate Rehabilitation
+5=Project Based Section 8
+6=RentSup/RAP
+7=S236/BMIR
+8=202/PRAC
+9=811/PRAC
+*See last page for missing value codes.
+
+1
+
+Data Dictionary for Picture of Subsidized Households: 2023
+Variable Label
+Sub-program
+
+Variable Name
+sub_program
+
+Variable Definition/Codes*
+
+Variable Type Column Length
+
+Sub-programs
+within major
+assisted housing programs. (Relevant only for programs
+BASIC
+PROGRAM
+INFORMATION
+coded 5, 6, 7, 8, or 9. See program variable)
+LMSA - Loan Management Set-Aside (For program type = 5)
+202/8 - Section 202/8 (For program type = 5)
+PD - Property Disposition (For program type = 5)
+NC/SR - New Construction and Substantial Rehabilitation (For program type = 5)
+SUP - Rent Supplement (For program type = 6)
+RAP - Rental Assistance Program (For program type = 6)
+S236 - Section 236 (For program type = 7)
+BMIR - Below Market Interest Rate (For program type = 7)
+202/PRAC - Section 202 Capital Advance/Project Rental Assistance Contract (For
+program type = 8)
+811/PRAC - Section 811 Capital Advance/Project Rental Assistance Contract (For
+program type = 9)
+NA - Not Applicable (For program type = 2)
+
+Char
+
+25
+
+Name
+
+name
+
+Names for various summary levels
+Name of the project (e.g., Andrew Housing Company)
+Name of the public housing agency (e.g., Alaska Housing Finance Corporation)
+Name of the state (e.g., AZ Arizona)
+Name of Census Tract (AL Alabama Autauga County 020100)
+Name of City (AL ALEXANDRIA CDP)
+Name of the CBSA (e.g., 10100 Aberdeen, SD Micropolitan Statistical Area)
+
+Char
+
+60
+
+Code
+
+code
+
+Codes for various summary levels
+U.S. (e.g., U.S.)
+State FIPS code (e.g., 04)
+PHA code (e.g., AK001, IL002)
+CBSA code (e.g., 10100, 10220)
+Project code (e.g., 800000082 176HD004, AL155000001)
+City Code (0101180)
+Census Tract code: (01001020100)
+
+Char
+
+25
+
+Subsidized units available
+% Occupied
+# Reported
+
+total_units
+pct_occupied
+number_reported
+
+Num
+Num
+
+8
+3
+
+Num
+
+8
+
+% Reported
+
+pct_reported
+
+Number of units under contract for federal subsidy and available for occupancy
+Occupied units as the % of units available
+Number of households for which reports (Form-50058, Form-50059) were received.
+(These are households reported as of December of this year with effective dates
+spanning the prior 18 months)
+Households for which reports were received, as % of occupied units. (These are
+households reported as of December with effective dates spanning the prior 18 months)
+
+Num
+
+3
+
+2
+
+Data Dictionary for Picture of Subsidized Households: 2023
+Variable Label
+
+Variable Name
+
+Average months since report
+
+months_since_report
+
+% moved in past year
+
+pct_movein
+
+Number of people per unit
+
+people_per_unit
+
+Number of people: total
+
+people_total
+
+Average Family Expenditure per
+month ($$)
+
+rent_per_month
+
+Average HUD Expenditure per
+month ($$)
+
+spending_per_month
+
+Variable Definition/Codes*
+
+Variable Type Column Length
+
+AveragePROGRAM
+number of months
+between the household submissions and the date of the
+BASIC
+INFORMATION
+Num
+
+4
+
+Num
+
+3
+
+Num
+Num
+
+3
+8
+
+Average gross household contribution towards rent per month (includes payment
+toward rent and utilities) (Excludes zero values and missing values)
+
+Num
+
+5
+
+Average federal spending per unit-month. For public housing, the sum of the monthly
+operating subsidy and capital improvement cost is divided by the total number of
+occupied units. For tenant-based Section 8, Section 8 Moderate Rehabilitation, and
+Multifamily Assisted, the monthly housing assistance payment (HAP) is divided by the
+total number of occupied units. An amount is added for administrative cost in Section 8
+tenant based and Section 8 Moderate Rehabilitation
+
+Num
+
+5
+
+Num
+
+8
+
+Num
+
+8
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Picture snapshot
+% of households who were in the program less than a year from the date of Picture
+snapshot
+Average size of household (with decimal point and place, e.g., 2.5, with -ve sign,
+decimal point for suppressed and non-reporting values, e.g., -4.0, -5.0)
+Total number of people
+
+RENT AND INCOME
+
+HOUSEHOLD INCOME PER YEAR
+Household income per year
+hh_income
+Household income per year per
+person_income
+person
+Household income per year: %
+pct_lt5k
+$1 - $4,999
+Household income per year: %
+pct_5k_lt10k
+$5,000 - $9,999
+Household income per year: %
+pct_10k_lt15k
+$10,000 - $14,999
+Household income per year: %
+pct_15k_lt20k
+$15,000 - $19,999
+Household income per year: %
+pct_ge20k
+$20,000 or more
+
+Average total household income per year
+Average household income per person per year
+Percentage of households that have income which comes in the bracket of $1-$4999
+yearly
+Percentage of households that have income in the bracket of $5000-$9999 yearly
+Percentage of households than have income in the bracket of $10000-$14999 yearly
+Percentage of households that have income in the bracket of $15000-$19999 yearly
+Percentage of households that have income in the bracket of $20000 or more yearly
+
+3
+
+Data Dictionary for Picture of Subsidized Households: 2023
+Variable Label
+
+Variable Name
+
+Variable Definition/Codes*
+
+Variable Type Column Length
+
+BASIC PROGRAM INFORMATION
+MAJOR SOURCE OF INCOME
+% Households where wages are
+major source of income
+% Households where welfare is
+major source of income
+% Households with other major
+sources of income
+
+pct_wage_major
+pct_welfare_major
+pct_other_major
+
+% of local median (Household
+income)
+
+pct_median
+
+% very low income
+
+pct_lt50_median
+
+% extremely low income
+
+pct_lt30_median
+
+% of households where the majority of household income is derived from wages and/or
+business
+% of households where the majority of household income is derived from welfare
+(TANF, General Assistance, or Public Assistance)
+% of households where the majority of household income is derived from some other
+source (other than wage and welfare)
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Average household income as a percent of local area median family income as defined
+by HUD, and adjusted for household size
+
+Num
+
+3
+
+% of households with income below 50% of local area median family income,as defined
+by HUD, adjusted for household size
+
+Num
+
+3
+
+% of households with income below 30% of local area median family income,as defined
+by HUD, adjusted for household size
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+Num
+Num
+
+3
+3
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+FAMILY TYPE/STRUCTURE
+PRESENCE OF CHILDREN
+% 2+ adults with children
+
+pct_2adults
+
+% 1 adult with children
+
+pct_1adult
+
+% female head
+% female head with children
+
+pct_female_head
+pct_female_head_child
+
+HEAD OR SPOUSE OR CO-HEAD HAS A DISABILITY
+% among head, spouse, co-head, pct_disabled_lt62
+aged 61 and younger
+% among head, spouse, co-head, pct_disabled_ge62
+aged 62 and older
+% among all persons with a
+pct_disabled_all
+disability
+AGE OF HEAD/SPOUSE (WHOEVER IS OLDER)
+% 24 or less
+pct_lt24_head
+
+Percentage of households consisting of two spouses and 1 or more children under 18
+years
+Percentage of households in which a spouse is not present and 1 or more children
+under 18 years are present
+Percentages of households headed by female
+% of households headed by a female with children
+
+Percentage of households below age 62 in which either the household head or spouse
+(or co-head) has a disability
+Percentage of households age 62 or older where either the household head or spouse
+(or co-head) has a disability
+Percentage of all persons in assisted households who have a disability
+
+Percentage of households in which the older of the household head or spouse is 24 or
+less years of age
+
+4
+
+Data Dictionary for Picture of Subsidized Households: 2023
+Variable Label
+
+Variable Name
+
+% 25 to 50
+
+pct_age25_50
+
+% 51 to 61
+
+pct_age51_61
+
+% 62 or more
+
+pct_age62plus
+
+% 85 or more
+
+pct_age85plus
+
+Variable Definition/Codes*
+
+Variable Type Column Length
+
+Percentage
+of households
+in which the older of the household head or spouse is 25 to
+BASIC
+PROGRAM
+INFORMATION
+50 years of age
+Percentage of households in which the older of the household head or spouse is 51 to
+61 years of age
+Percentage of households in which the older of the household head or spouse is age
+62 or older
+Percentage of households in which the older of the household head or spouse is age
+85 or older
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+Num
+
+3
+3
+
+Num
+
+3
+
+Num
+
+4
+
+Num
+Num
+
+4
+3
+
+Num
+
+4
+
+Num
+Num
+Num
+
+3
+3
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+Num
+
+3
+
+RACE AND ETHNICITY
+Race: %Minority
+
+pct_minority
+
+Race: % Black Non Hispanic
+
+pct_black_nonhsp
+
+Race: % Native American Non
+Hispanic
+Race: % Asian or Pacific Islander
+Non Hispanic
+Race: % White Non Hispanic
+
+pct_native_american_nonhsp
+pct_asian_pacific_nonhsp
+pct_white_nothsp
+
+Race: % Black Hispanic
+
+pct_black_hsp
+
+Race: % White Hispanic
+
+pct_wht_hsp
+
+Race: % Other Hispanic
+
+pct_oth_hsp
+
+Ethnicity: % Hispanic
+Race: % Multiple Race
+
+pct_hispanic
+pct_multi
+
+Percentage of households in which the race of the head of household is Black, Native
+American, or Asian or Pacific Islander, or the ethnicity is Hispanic
+Percentage of households in which the race of the head of household is Black and the
+ethnicity is not Hispanic
+Percentage of households in which the race of the head of household is Native
+American or Native Alaskan and the ethnicity is not Hispanic
+Percentage of households in which the race of the head of household is Asian or
+Pacific Islander and the ethnicity is not Hispanic
+Percentage of households in which the race of the head of household is White and the
+ethnicity is not Hispanic
+Percentage of households in which the race of the head of household is Black and the
+ethnicity is Hispanic
+Percentage of households in which the race of the head of household is White and the
+ethnicity is Hispanic
+Percentage of households in which the race of the head of household is not White and
+not Black and the ethnicity is Hispanic
+Percentage of households in which the ethnicity of the head of household is Hispanic
+Percentage of households in which the race of the head of household is a combination
+of White, Black, Native American, Asian or Pacific Islander races
+
+SOCIAL CONDITIONS: TENANTS, UNITS, AND NEIGHBORHOOD
+Average months on waiting list
+
+months_waiting
+
+Average months since moved in
+
+months_from_movein
+
+% with utility allowance
+Average utility allowance $$
+
+pct_utility_allow
+ave_util_allow
+
+NUMBER OF BEDROOMS
+% 0 - 1 bedrooms:
+% 2 bedrooms:
+% 3+ bedrooms:
+% Overhoused: more bedrooms
+than people
+
+pct_bed1
+pct_bed2
+pct_bed3
+pct_overhoused
+
+SURROUNDING CENSUS TRACT
+Surrounding census tract: % in
+tpoverty
+poverty
+Surrounding census tract:% minority tminority
+Surrounding census tract:% single
+family owners
+
+tpct_ownsfd
+
+Average months on waiting list using the “date entered waiting list” and the new
+admission date. Excludes programs that do not report waiting list dates
+Average months since households moved in as difference between the admission date
+and date of Picture snapshot. (Excludes zero values)
+Percentage of households that receive a non-zero utility allowance payment.
+Average utility allowance among households who have it (in $ per month). This is an
+estimate of the utilities that the household pays to the utility company. Utility allowances
+are zero if all utilities are included in the rent (Excludes zero values)
+
+% households with 0-1 bedroom units (efficiencies and one bedroom)
+% of households with 2 bedroom units
+% of households with 3 or more bedroom units
+% overhoused (households with more bedrooms than people)
+
+% of the population below poverty level in the census tract where HUD assisted
+families reside (Census 2010 designation)
+Minorities as a % of total population in the census tract where HUD assisted families
+reside (Census 2010 designation)
+% of households who are owner-occupants of single-family detached homes in the
+census tract where HUD
+5 assisted families live (Census 2010 designation)
+
+Data Dictionary for Picture of Subsidized Households: 2023
+Variable Label
+
+Variable Name
+
+Variable Definition/Codes*
+
+Variable Type Column Length
+
+PROGRAM
+INFORMATION
+ADDITIONALBASIC
+INFORMATION
+FOR
+SELECTED SUMMARIES
+Congressional District
+CBSA
+PLACE
+Latitude
+Longitude
+State
+PHA total units
+
+fedhse
+cbsa
+place
+latitude
+longitude
+state
+pha_total_units
+
+HA category
+
+ha_size
+
+Congressional District (FIPS State code + Congressional District Code, eg. 0020)
+CBSA code (e.g.10100,10140)
+FIPS codes for city or census designated place (e.g., 70600--Tallahassee )
+Latitude
+Longitude
+State postal abbreviation
+Total number of units for the public housing agency-- public housing and Sec. 8 tenantbased
+Classification of the size of the Public Housing Agency on the basis of number of units
+for the public housing agency-- public housing and, including public housing, Moderate
+Rehabilitation, and Sec. 8 tenant-based
+1=Agencies with 1-99 units
+2=100-299 units
+3=300-499 units
+4=500-999 units
+5=1,000-2,999 units
+6=3,000-4,999 units
+7=5,000-9,999 units
+8=10,000-29,999 units
+9=30,000+ units
+
+Definition of Missing values
+Some cell entries across variables report no data or are suppressed. In such cases
+one of the following codes will apply to such missing values in the downloadable file
+"NA" = Not applicable
+"-1" = Missing
+"-4" = Suppressed (where the cell entry is less than 11 for reported families)
+"-5" = Non-reporting (where reporting rates--see % Reported--are less than 50%)
+
+6
+
+Char
+Char
+Char
+Num
+Num
+Char
+
+4
+5
+5
+10.6
+11.6
+2
+
+Num
+
+7
+
+Num
+
+1
+
+

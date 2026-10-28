@@ -7,7 +7,7 @@ Role: originals and their text versions, the catalog and the name index. Status:
 | `catalog.csv` | One row per document in `legacy/`, `library/intake/` and `library/text/`, plus citation rows for sources the repository cites but does not hold: `SRC-` ID, path, title, kind, origin, rights, status, aliases, `copy_of`, note. `copy_of` marks an original upload that duplicates a working copy in `legacy/`, so its names lead to that one home | Hand (new files are appended by the script) |
 | `catalog-facts.csv` | Size, SHA-256, first commit and last content change (following renames) | Script only |
 | `name-index.md` | Every name a document has gone by (title, file name, alias, staging row, Bill Book chapter) and its one home | Script only |
-| `text/` | Verbatim text versions of public U.S. government documents and openly licensed (Creative Commons) documents, made by `fetch_public.py` with the source address, retrieval date and the original's SHA-256 in a header. Evidence entries anchor to these | Script only |
+| `text/` | Verbatim text versions of public U.S. government documents and openly licensed (Creative Commons) documents (HTML, PDF, or Excel workbooks as one labelled line per cell), made by `fetch_public.py` with the source address, retrieval date and the original's SHA-256 in a header. Evidence entries anchor to these | Script only |
 | `intake/2026-10-28/` | Espen's October 28 uploads, unchanged, with `manifest.json` checksums | Never (originals) |
 
 `python3 library/build_catalog.py` appends rows for new files and rebuilds the generated files. `--check` fails when a file is uncatalogued, a catalogued path is gone, the name index is stale, or a title or alias leads to two homes (file names may repeat). Stale file facts only print a note.
