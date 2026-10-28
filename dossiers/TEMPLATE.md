@@ -43,5 +43,6 @@ Sections are written in order. A section is added when it is drafted; the README
   - E: assumption.
 - **Re-check dates.** Set each one to the source's next scheduled release.
 - **Outcomes.** The problem and validation sections name the outcomes (`OUT-`) the dossier is meant to move.
+- **Shared rules.** The design section lists each rule in `dossiers/shared-rules.md` the dossier relies on (what counts as income, immigrant eligibility, phase-outs, verification, conditions on help), with its working answer and a range, unless the owner dossier has decided it. The specification keeps each such rule in one place so it can change without a rewrite.
 - **Agenda items.** Agenda IDs (`HOU-4A`) are cited as they appear in `agenda/agenda.csv`. The dossier's design section is where an item's level and status change.
 - **Model tier.** Problem and design sections are Most capable work. Evidence entries drafted from originals are Standard. Text extraction is Light (`charter/STANDARDS.md`).
