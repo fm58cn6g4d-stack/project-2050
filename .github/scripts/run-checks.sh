@@ -24,6 +24,7 @@ python3 -W ignore::ResourceWarning index/tools/health/test_decision_analysis.py
 python3 -W ignore::ResourceWarning index/tools/strategic-review/test_analysis.py
 python3 -W ignore::ResourceWarning index/tools/strategic-review/test_redesign.py
 python3 index/tools/child-poverty/run_validation.py --out "${RUNNER_TEMP:-/tmp}/child-poverty-validation"
+python3 index/tools/climate-portfolio/test_packages.py
 python3 .github/scripts/test_agent_gate.py
 echo "::endgroup::"
 # Not run: index/tools/public-product/test_build.py stops by design when a pinned source changes

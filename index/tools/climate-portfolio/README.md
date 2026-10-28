@@ -24,3 +24,13 @@ python3 index/tools/climate-portfolio/test_packages.py
 ```
 
 Carbon-model settings added for this work, all off or at their earlier values by default (the carbon model's own outputs are unchanged): `crTruckCost` and `crHpCost` (credit cost per sale), `crVehYears` (vehicle credits' own term), `crPowerTrigger` (power-credit phase-out, Mt), `zevPath`/`zevTrkPath` (statutory zero-emission sales schedules), `ces.target2`/`ces.year2` (a second clean-power step), and a reported `credInd` row (industrial support cost estimate, not added to `credits`). Output hashes for every source file are listed at the end of the generated report.
+
+## Annual payment export for recovery integration
+
+The pricing JSON exposes each component's `budget.items[].path_bn[case][year]` and each payment option's `budget.payment[option].cases[case].annual[year]`, for 2030–50. Values are nominal billions of dollars; year keys are strings. These are **increments against the decided $150 carbon-price package**, not total government accounts. Source hashes remain in the output. No post-2050 extension is supplied.
+
+Annual payment records separate added combustion/process receipts, CX cost, general-fund items excluding CX, channel uses and allocation, channel shortfall/surplus, direct GF receipts, process-dividend diversion, dividend change, GF net cost and D4-B net cost. Positive costs increase the deficit; negative costs are savings. Receipt changes and dividend changes can be negative. The dividend is the package increment, not the total Climate Dividend. `dividend_vs_d7_bn` isolates the payment-rule change from the existing 80/20 treatment of that increment.
+
+For O5, GF net cost equals GF items excluding CX + CX + channel uses + dividend − added receipts. D4-B cost is separate: add it once for the whole-package deficit increment. Component paths are the decomposition, not extra costs to add on top of these totals. The $150 step's existing transition share is never new financing here. CLI-7C's expected net cost is the `reinsurance` component; contingent exposure stays separately disclosed in `disaster.rows`, not added to expected expenditure.
+
+This export preserves the existing pricing calculations. It does not integrate the package into the canonical ledger/recovery model, price international purchases, certify D3/D4, or select strategic spending reductions.

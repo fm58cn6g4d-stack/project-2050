@@ -1,7 +1,7 @@
 """Checks for the package search and pricing. Run after `bash index/tools/run-all.sh` (rebuilds the package and pricing outputs if missing):
 python3 index/tools/climate-portfolio/test_packages.py
 """
-import json, sys
+import json, math, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -82,12 +82,57 @@ check('O5 spends no transition share twice', all(-1e-6 <= (pay['O1']['cases'][k]
                                              - (pay['O1']['cases'][k]['dividend_window_bn'] - pay['O5']['cases'][k]['dividend_window_bn']) < 1.0 for k in bu['cases']))
 check('O4, which double counted the step, stays withdrawn', 'O4' not in pay)
 check('O5 costs households less than O3', all(a > b for a, b in zip(pay['O5']['dividend_change_per_household_avg_2030_39'], pay['O3']['dividend_change_per_household_avg_2030_39'])))
+# Annual export is an accounting boundary: reconcile it independently to summaries and components.
+for k in bu['cases']:
+    annual = pay['O5']['cases'][k]['annual']
+    check(f'{k}: O5 annual years complete', set(annual) == {str(y) for y in range(2030, 2051)})
+    check(f'{k}: O5 cash-flow identity', all(
+        abs(r['general_fund_net_cost_bn'] - (r['general_fund_items_excluding_cx_bn'] +
+            r['cx_cost_bn'] + r['channel_uses_bn'] + r['dividend_bn'] - r['added_receipts_bn'])) < 1e-8
+        for r in annual.values()))
+    check(f'{k}: O5 diversion bounded by process dividend', all(
+        -1e-8 <= r['process_dividend_diversion_bn'] <= 0.8 * max(0, r['process_receipts_bn']) + 1e-8
+        for r in annual.values()))
+    check(f'{k}: D4-B separate and reconciled', all(
+        abs(r['d4b_net_cost_bn'] - sum(it['path_bn'][k][y] for it in bu['items']
+                                     if it['account'] == 'D4-B borrowing')) < 1e-8
+        for y, r in annual.items()))
+    for o in ('O1', 'O2', 'O3', 'O5'):
+        case = pay[o]['cases'][k]
+        check(f'{k}/{o}: annual GF and dividend match decade totals', all(
+            abs(sum(case['annual'][str(y)][field] for y in range(2030, 2040)) - case[total]) < 1e-8
+            for field, total in [('general_fund_net_cost_bn', 'general_fund_window_bn'),
+                                 ('dividend_bn', 'dividend_window_bn'),
+                                 ('dividend_vs_d7_bn', 'dividend_vs_d7_window_bn')]))
+        check(f'{k}/{o}: mature annual GF matches summary', all(
+            abs(case['annual'][str(y)]['general_fund_net_cost_bn'] - case[f'general_fund_fy{y}_bn']) < 1e-8
+            for y in (2040, 2050)))
+    check(f'{k}: component paths match decade totals', all(
+        abs(sum(it['path_bn'][k][str(y)] for y in range(2030, 2040)) - it['window_bn'][k]) < 1e-8
+        for it in bu['items']))
 d10 = next(r for r in pr['disaster']['rows'] if r['id'] == 'D10')
 check('reinsurance (decided Oct 27) is a permanent expected-cost line with its contingent liability disclosed',
       d10['tier'] == 'backstop' and items['reinsurance']['d4'] == 'permanent' and d10['contingent_bn'][1] >= 100 and items['reinsurance']['fy2050_bn']['central'] > 0)
+def same_export(a, b):
+    """Exact schema/text comparison; tolerate only sub-dollar float serialization noise in $B."""
+    if isinstance(a, dict) and isinstance(b, dict):
+        return a.keys() == b.keys() and all(same_export(a[k], b[k]) for k in a)
+    if isinstance(a, list) and isinstance(b, list):
+        return len(a) == len(b) and all(same_export(x, y) for x, y in zip(a, b))
+    if isinstance(a, (int, float)) and isinstance(b, (int, float)) and not isinstance(a, bool) and not isinstance(b, bool):
+        return math.isclose(a, b, rel_tol=0, abs_tol=1e-9)
+    return type(a) is type(b) and a == b
+
+# The annual accounting JSON is the integration interface, even when rounded reports do not change.
+check('committed pricing JSON matches the rebuild including schema and source hashes',
+      same_export(pr, json.loads((ROOT / 'sources/climate-portfolio-pricing.json').read_text())))
+check('export comparison tolerates float noise, rejects changed amounts and schema',
+      same_export({'x': [1.0]}, {'x': [1.0 + 1e-13]})
+      and not same_export({'x': [1.0]}, {'x': [1.01]})
+      and not same_export({'x': [1.0]}, {'x': [1.0], 'extra': 0})
+      and not same_export({'source': 'a'}, {'source': 'b'}))
 for name in ('climate-portfolio-packages.md', 'climate-portfolio-pricing.md', 'climate-portfolio-disaster-components.csv'):
     built, committed = ROOT / 'build/climate-portfolio' / name, ROOT / 'sources' / name
-    if committed.exists():
-        check(f'committed {name} matches the build', built.read_text() == committed.read_text())
+    check(f'committed {name} matches the build', built.read_text() == committed.read_text())
 print('all passed' if not fails else f'{len(fails)} failed')
 sys.exit(1 if fails else 0)
