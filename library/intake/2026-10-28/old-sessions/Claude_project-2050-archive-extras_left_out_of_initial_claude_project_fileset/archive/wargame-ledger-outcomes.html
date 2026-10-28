@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ledger — Projected Outcomes</title>
+<style>
+  :root{
+    --paper:#F4EFE4; --paper2:#EAE3D3; --ink:#1B2432; --inkdim:#5C6373;
+    --rule:#CDBE9A; --brass:#9C7A16;
+    --dem:#3E6FB0; --care:#4E8A63; --econ:#C08A20; --rev:#7A5E97; --safety:#5E6B80; --rights:#A2543B;
+    --hi:#4E8A63; --med:#C08A20; --lo:#B0413E;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+    --mono:ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.55}
+  .wrap{max-width:860px;margin:0 auto;padding:56px 26px 110px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass)}
+  h1{font-weight:600;font-size:54px;line-height:1.02;letter-spacing:-.01em;margin:.15em 0 .12em}
+  .dek{font-size:21px;line-height:1.4;font-style:italic;max-width:44ch;margin:.2em 0}
+  .standfirst{font-family:var(--mono);font-size:12px;line-height:1.7;color:var(--inkdim);margin-top:16px;max-width:70ch}
+  .rule{height:1px;background:var(--rule);border:0;margin:30px 0}
+  h2{font-weight:600;margin:48px 0 4px}
+  h2 .num{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--brass);display:block;margin-bottom:6px;font-weight:400}
+  h2 .ttl{font-size:27px;letter-spacing:-.01em;line-height:1.1;display:block}
+  p{margin:0 0 18px;max-width:70ch}
+  figure{margin:34px 0}
+  .fig-h{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin-bottom:2px}
+  .fig-t{font-size:20px;font-weight:600;margin:0 0 4px}
+  .fig-d{font-family:var(--mono);font-size:11.5px;line-height:1.55;color:var(--inkdim);margin:0 0 14px;max-width:70ch}
+  figcaption{font-family:var(--mono);font-size:10.5px;line-height:1.5;color:var(--inkdim);margin-top:10px}
+  .chart{width:100%;background:var(--paper2);border:1px solid var(--rule);border-radius:4px;padding:16px 14px}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  .legend{display:flex;flex-wrap:wrap;gap:12px 18px;margin-top:12px;font-family:var(--mono);font-size:10.5px;color:var(--inkdim)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+
+  /* ledger tables */
+  .domain{margin:34px 0}
+  .domain-h{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--brass);padding-bottom:6px;margin-bottom:0}
+  .domain-h .dn{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass)}
+  .domain-h .dt{font-size:22px;font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--inkdim);text-align:left;padding:9px 10px 6px;border-bottom:1px solid var(--rule)}
+  td{padding:9px 10px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.4}
+  td.metric{font-weight:600;width:26%}
+  td.base,td.proj{font-family:var(--mono);font-size:12.5px;width:16%}
+  td.proj{color:var(--ink);font-weight:600}
+  td.mech{color:var(--inkdim);font-size:12.5px}
+  .conf{font-family:var(--mono);font-size:9px;letter-spacing:.08em;padding:2px 7px;border-radius:3px;white-space:nowrap;font-weight:600}
+  .conf.hi{background:#DEE9DF;color:#2E5C40;border:1px solid #A9C6AF}
+  .conf.med{background:#F0E4C8;color:#7A5A10;border:1px solid #D9C78C}
+  .conf.lo{background:#EFD9D6;color:#7C2E2B;border:1px solid #D8ABA7}
+  .caveat{background:var(--paper2);border-left:3px solid var(--brass);padding:12px 16px;font-size:13.5px;line-height:1.5;margin:16px 0;max-width:none}
+  .caveat .c-h{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);display:block;margin-bottom:3px}
+  a{color:var(--brass)}
+  @media (max-width:680px){ h1{font-size:38px} .wrap{padding:40px 14px 80px} table{font-size:12px} td.mech{display:none} th:nth-child(5){display:none} }
+  @media print{ body{background:#fff} .chart,.caveat{background:#fbf9f3} .domain{break-inside:avoid} figure{break-inside:avoid} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">A 2029 Trifecta War Game · Outcomes Instrument</div>
+    <h1>The Ledger</h1>
+    <div class="dek">What the twenty-seven-bill agenda would actually change — domain by domain, metric by metric, with the confidence each claim deserves.</div>
+    <div class="standfirst">
+      Companion to Floor Time (passage), the Bill Book (provisions), and Nineteen Months (narrative). Every row pairs a
+      baseline, a projected direction and magnitude, the mechanism, and an evidence grade: <b>HIGH</b> — strong causal literature
+      or direct policy precedent (e.g., the 2021 CTC actually happened); <b>MED</b> — good research, real design or implementation
+      risk; <b>LOW</b> — directionally defensible, honest people disagree on magnitude. All figures are illustrative war-game
+      estimates keyed to the modeled program, not forecasts.
+    </div>
+  </header>
+
+  <hr class="rule">
+
+  <figure>
+    <div class="fig-h">Chart A · When the country feels it</div>
+    <div class="fig-t">Time to first felt impact, by measure</div>
+    <div class="fig-d">Months from enactment until a typical affected household or worker experiences the change directly. The political theory of the agenda lives on the left edge: checks, price changes, and rights that arrive before the first midterm.</div>
+    <div class="chart"><svg id="tA" role="img" aria-label="Time to first felt impact"></svg></div>
+    <div class="legend" id="lA"></div>
+    <figcaption>Brass line: the 19-month legislative window closes. Measures right of it deliver after the majority is already defending itself.</figcaption>
+  </figure>
+
+  <figure>
+    <div class="fig-h">Chart B · How sure are we?</div>
+    <div class="fig-t">Impact magnitude against evidence confidence</div>
+    <div class="fig-d">Each measure placed by the size of its projected effect on its primary outcome (vertical) against the strength of the evidence behind that projection (horizontal). Upper-right is the load-bearing quadrant: big effects we're confident about. Upper-left is where ambition outruns evidence — not a reason to skip, but a reason to build in evaluation.</div>
+    <div class="chart"><svg id="tB" role="img" aria-label="Magnitude vs confidence"></svg></div>
+    <div class="legend" id="lB"></div>
+    <figcaption>Positions are analytic judgments. The honest use of this chart is prioritizing evaluation dollars, not culling the left side.</figcaption>
+  </figure>
+
+  <h2><span class="num">Domain I</span><span class="ttl">Poverty &amp; family security</span></h2>
+  <div class="domain">
+    <table>
+      <tr><th>Metric</th><th>Baseline</th><th>Projected</th><th>Confidence</th><th>Mechanism</th></tr>
+      <tr><td class="metric">Child poverty (SPM)</td><td class="base">~13–14%</td><td class="proj">▼ roughly half</td><td><span class="conf hi">HIGH</span></td><td class="mech">The permanent, fully refundable CTC replicates the measured 2021 effect (SPM child poverty fell to a record 5.2%) and makes it durable; the EITC-adjacent wage floor and childcare cap compound it.</td></tr>
+      <tr><td class="metric">Families receiving monthly cash</td><td class="base">0 (credit lapsed)</td><td class="proj">▲ ~35M households / 60M+ children</td><td><span class="conf hi">HIGH</span></td><td class="mech">Direct program parameter — monthly advance payment restored at 2021 scale.</td></tr>
+      <tr><td class="metric">Elderly poverty</td><td class="base">~10–11%</td><td class="proj">▼ 2–3 points</td><td><span class="conf med">MED</span></td><td class="mech">The Social Security Expansion Act&rsquo;s minimum-benefit boost and CPI-E indexing target precisely the long-career poor; magnitude depends on final benefit formula.</td></tr>
+      <tr><td class="metric">Income cliff at birth/illness (Paid Family &amp; Medical Leave)</td><td class="base">No national paid leave</td><td class="proj">▲ 12 weeks universal</td><td><span class="conf hi">HIGH</span></td><td class="mech">Direct program creation; state programs (CA, NJ, WA) supply strong implementation evidence.</td></tr>
+      <tr><td class="metric">Median family disposable income (2 kids in care)</td><td class="base">—</td><td class="proj">▲ ~$11–18K/yr</td><td><span class="conf med">MED</span></td><td class="mech">Stack of childcare cap, CTC, health savings, dividend, junk-fee ban; range reflects household variation (see Nineteen Months, Fig. 3).</td></tr>
+    </table>
+  </div>
+
+  <h2><span class="num">Domain II</span><span class="ttl">Health</span></h2>
+  <div class="domain">
+    <table>
+      <tr><th>Metric</th><th>Baseline</th><th>Projected</th><th>Confidence</th><th>Mechanism</th></tr>
+      <tr><td class="metric">Uninsured rate</td><td class="base">~8%</td><td class="proj">▼ to ~3–4%</td><td><span class="conf med">MED</span></td><td class="mech">Public option + auto-enrollment + Medicaid completion (9 holdout states) + permanent subsidies; CBO-tradition coverage modeling supports the direction, take-up drives the range.</td></tr>
+      <tr><td class="metric">Age-55–64 coverage &amp; premiums</td><td class="base">Highest-cost private cohort</td><td class="proj">▼ premiums 20–35% for buy-in takers</td><td><span class="conf med">MED</span></td><td class="mech">Medicare-adjacent rates for the pre-retirement cohort; provider-payment fights are the implementation risk.</td></tr>
+      <tr><td class="metric">Insulin &amp; capped drugs</td><td class="base">Caps in Medicare only</td><td class="proj">▲ all payers</td><td><span class="conf hi">HIGH</span></td><td class="mech">Statutory extension of existing, functioning caps.</td></tr>
+      <tr><td class="metric">Long-term-care coverage</td><td class="base">Medicaid spend-down only</td><td class="proj">▲ first national framework</td><td><span class="conf lo">LOW</span></td><td class="mech">Framework-stage provision; every prior attempt (CLASS Act) failed on actuarial design. Flagged for evaluation, not certainty.</td></tr>
+      <tr><td class="metric">Veteran suicide</td><td class="base">Elevated from peak</td><td class="proj">▼ ~12% from peak by Yr 3</td><td><span class="conf med">MED</span></td><td class="mech">The Veterans Health &amp; Capacity Act&rsquo;s 12,000-clinician surge plus claims relief; VA staffing-outcome literature is supportive but attribution is hard.</td></tr>
+    </table>
+  </div>
+
+  <h2><span class="num">Domain III</span><span class="ttl">Work, wages &amp; power</span></h2>
+  <div class="domain">
+    <table>
+      <tr><th>Metric</th><th>Baseline</th><th>Projected</th><th>Confidence</th><th>Mechanism</th></tr>
+      <tr><td class="metric">Workers lifted by the wage floor</td><td class="base">$7.25 federal</td><td class="proj">▲ ~20M+ directly/indirectly</td><td><span class="conf hi">HIGH</span></td><td class="mech">CBO/EPI ranges for a $17 floor; the indexed two-thirds-of-median design keeps the bite constant thereafter.</td></tr>
+      <tr><td class="metric">Low-end employment effect</td><td class="base">—</td><td class="proj">Small net; concentrated in lowest-wage counties</td><td><span class="conf med">MED</span></td><td class="mech">Modern literature (Cengiz–Dube et al.) finds small effects below ~60% of local median — which is exactly where the regional circuit-breaker and small-business credit are aimed.</td></tr>
+      <tr><td class="metric">Union density</td><td class="base">10.1%</td><td class="proj">▲ toward ~15–16% by Yr 3</td><td><span class="conf lo">LOW</span></td><td class="mech">PRO Act + sectoral bargaining + NLRB reversals; the target is the unified agenda's own scenario figure — directionally right, but no US precedent for reversal at this speed.</td></tr>
+      <tr><td class="metric">Parental labor-force participation</td><td class="base">Mothers ~4–6 pts below peers</td><td class="proj">▲ 1M+ parents into work</td><td><span class="conf hi">HIGH</span></td><td class="mech">The clearest finding in the care-economy literature: affordable care pulls parents, especially mothers, into paid work (Quebec, DC pre-K natural experiments).</td></tr>
+      <tr><td class="metric">Workers under non-competes</td><td class="base">~1 in 5</td><td class="proj">▼ near zero</td><td><span class="conf hi">HIGH</span></td><td class="mech">Statutory ban; wage effects of non-compete elimination are well-documented.</td></tr>
+    </table>
+  </div>
+
+  <h2><span class="num">Domain IV</span><span class="ttl">Cost of living &amp; housing</span></h2>
+  <div class="domain">
+    <table>
+      <tr><th>Metric</th><th>Baseline</th><th>Projected</th><th>Confidence</th><th>Mechanism</th></tr>
+      <tr><td class="metric">Childcare cost, median family</td><td class="base">Often $10–15K+/child</td><td class="proj">▼ capped at 7% of income</td><td><span class="conf hi">HIGH</span></td><td class="mech">Direct statutory cap; the real risk is near-term price pressure while supply catches up — priced in as an explicit caveat below.</td></tr>
+      <tr><td class="metric">Housing units enabled</td><td class="base">~1.5M/yr starts; deep shortage</td><td class="proj">▲ ~4–7M additional over a decade</td><td><span class="conf med">MED</span></td><td class="mech">The 2026 ROAD Act already lowered permitting/zoning friction and built three years of local reform capacity — so our $250B construction fund + LIHTC lands as capital onto <em>already-reformed</em> ground, converting to units far more efficiently than a cold start (~3–4M) would. Confidence rises from LOW because ROAD removed the main uncertainty source: the local zoning response our bill alone could only incentivize.</td></tr>
+      <tr><td class="metric">Activation of ROAD's stalled directives</td><td class="base">ROAD passed, HUD starved (24% cut, 0 new ops $)</td><td class="proj">▲ its 35 directives &amp; pilots finally funded/staffed</td><td><span class="conf med">MED</span></td><td class="mech">ROAD assigned HUD ~35 programs and two unfunded pilots with no operations money. Our bill's HUD capacity and appropriations arrive exactly when ROAD's reforms are starved for staff — activating reforms already on the books. Arguably the larger of the two compounding channels.</td></tr>
+      <tr><td class="metric">Hidden-fee spending</td><td class="base">~$65B+/yr consumer junk fees</td><td class="proj">▼ majority eliminated or surfaced</td><td><span class="conf hi">HIGH</span></td><td class="mech">All-in pricing and per-category bans; CFPB/FTC rulemaking record shows fees collapse when disclosure is mandatory.</td></tr>
+      <tr><td class="metric">Net household energy cost (bottom two-thirds)</td><td class="base">—</td><td class="proj">▼ dividend exceeds fee pass-through</td><td><span class="conf hi">HIGH</span></td><td class="mech">Carbon fee-and-dividend incidence is among the best-studied designs in climate economics; flat per-person rebates out-earn consumption-weighted costs for most of the bottom two-thirds.</td></tr>
+    </table>
+  </div>
+  <div class="caveat"><span class="c-h">The ROAD Act changed the housing baseline — settled law, July 2026</span>The bipartisan 21st Century ROAD to Housing Act — passed 85–5 and 358–32, and enacted <b>July 11, 2026 without the President's signature</b> after Trump neither signed nor vetoed it within the constitutional 10-day window — is the deregulatory, supply-enabling half of housing policy with no money attached: zoning and permitting reform, manufactured-housing rules, small-balance mortgage access, an institutional-investor limit, but no HUD funding. It is the near-perfect complement to our capital-injection bill three years later. The housing rows above already assume ROAD is in force and partially implemented by 2029; the compounding is why the units estimate rose from a cold-start ~3–4M to ~4–7M and its confidence from LOW to MED. The risk to this: if ROAD stays under-implemented because HUD is never funded, some of the "reformed ground" our capital is supposed to land on won't have materialized — which is exactly the gap our bill's HUD capacity is built to close.</div>
+
+  <div class="caveat"><span class="c-h">The inflation caveat, stated plainly</span>Injecting this much purchasing power into childcare, housing, and health while supply responds more slowly is the 2021 lesson in miniature: expect sectoral price pressure in years one and two, manage it with pacing and the revenue offsets, and judge the program on year-five effective costs, not year-one sticker prices.</div>
+
+  <h2><span class="num">Domain V</span><span class="ttl">Climate &amp; energy</span></h2>
+  <div class="domain">
+    <table>
+      <tr><th>Metric</th><th>Baseline</th><th>Projected</th><th>Confidence</th><th>Mechanism</th></tr>
+      <tr><td class="metric">Power-sector CO₂ (vs 2025)</td><td class="base">Slow decline on momentum</td><td class="proj">▼ ~70% by 2035</td><td><span class="conf med">MED</span></td><td class="mech">80×35 CES + carbon price; deep-decarbonization modeling supports the trajectory <em>if</em> transmission builds — which is why the permitting title is the real climate provision.</td></tr>
+      <tr><td class="metric">Transmission permitting time</td><td class="base">~9 years</td><td class="proj">▼ ~4 years</td><td><span class="conf med">MED</span></td><td class="mech">NEPA reform + FERC backstop siting + direct-build on federal lands; the agenda's own engineering target.</td></tr>
+      <tr><td class="metric">Households receiving dividend</td><td class="base">0</td><td class="proj">▲ ~all, quarterly</td><td><span class="conf hi">HIGH</span></td><td class="mech">Direct program parameter; the check is also the policy's political armor.</td></tr>
+      <tr><td class="metric">Economy-wide emissions</td><td class="base">—</td><td class="proj">▼ steeper than power alone</td><td><span class="conf lo">LOW</span></td><td class="mech">The economy-wide fee reaches transport/industry/buildings, but elasticities outside power are the most contested numbers in the field.</td></tr>
+    </table>
+  </div>
+
+  <h2><span class="num">Domain VI</span><span class="ttl">Democracy &amp; institutions</span></h2>
+  <div class="domain">
+    <table>
+      <tr><th>Metric</th><th>Baseline</th><th>Projected</th><th>Confidence</th><th>Mechanism</th></tr>
+      <tr><td class="metric">Citizens without congressional representation</td><td class="base">~4M (DC + PR + territories)</td><td class="proj">▼ toward zero or a chosen path</td><td><span class="conf hi">HIGH</span></td><td class="mech">D.C. admission is direct; Puerto Rico's binding referendum resolves status either way. The most literal democratization in the package.</td></tr>
+      <tr><td class="metric">Registration &amp; access floor</td><td class="base">50-state patchwork</td><td class="proj">▲ AVR everywhere; tens of millions added</td><td><span class="conf hi">HIGH</span></td><td class="mech">AVR's registration effects are among the best-measured election reforms; turnout effects are smaller and honestly contested.</td></tr>
+      <tr><td class="metric">Dark money disclosure</td><td class="base">$1B+/cycle undisclosed</td><td class="proj">▲ donors &gt;$10K surfaced</td><td><span class="conf med">MED</span></td><td class="mech">DISCLOSE + beneficial ownership + a functional FEC; expect adaptation and litigation, but the shell-game gets materially harder.</td></tr>
+      <tr><td class="metric">Preclearance protection</td><td class="base">Gutted since <em>Shelby</em></td><td class="proj">▲ restored, practice-based</td><td><span class="conf med">MED</span></td><td class="mech">John Lewis VRAA; survives its 5–4 test in the scenario, but that sentence is the confidence grade.</td></tr>
+      <tr><td class="metric">Officials trading stocks</td><td class="base">Legal, common</td><td class="proj">▼ banned</td><td><span class="conf hi">HIGH</span></td><td class="mech">Statutory prohibition with divestiture; compliance is observable, which is why it sticks.</td></tr>
+    </table>
+  </div>
+
+  <h2><span class="num">Domain VII</span><span class="ttl">Rights &amp; justice</span></h2>
+  <div class="domain">
+    <table>
+      <tr><th>Metric</th><th>Baseline</th><th>Projected</th><th>Confidence</th><th>Mechanism</th></tr>
+      <tr><td class="metric">Abortion access</td><td class="base">Banned/restricted in ~20 states</td><td class="proj">▲ statutory floor in all 50</td><td><span class="conf lo">LOW</span></td><td class="mech">The Reproductive Freedom Act (WHPA) preempts state bans on paper; the grade reflects the certainty of litigation before this Court, not doubt about the statute's text.</td></tr>
+      <tr><td class="metric">LGBTQ+ civil-rights coverage</td><td class="base"><em>Bostock</em> (employment only)</td><td class="proj">▲ all domains, explicit statute</td><td><span class="conf hi">HIGH</span></td><td class="mech">Statutory codification; civil-rights statutes have proven historically durable once constituencies form around them.</td></tr>
+      <tr><td class="metric">Federal cannabis prisoners &amp; records</td><td class="base">Thousands held; ~½M+ records</td><td class="proj">▼ released/expunged</td><td><span class="conf hi">HIGH</span></td><td class="mech">Descheduling with automatic expungement is a direct legal operation, and state legalizations supply precedent.</td></tr>
+      <tr><td class="metric">Federal incarcerated population</td><td class="base">~155–160K</td><td class="proj">▼ 15–25% over 5 yrs</td><td><span class="conf med">MED</span></td><td class="mech">The Justice &amp; Public Safety Reform Act&rsquo;s retroactive parity and mandatory-minimum relief; First Step Act implementation gives a measured baseline for retroactivity mechanics.</td></tr>
+      <tr><td class="metric">Police accountability</td><td class="base">Qualified immunity, no registry</td><td class="proj">▲ registry + reformed immunity</td><td><span class="conf lo">LOW</span></td><td class="mech">Federal law reaches federal officers directly but states only through grants; outcome depends on adoption — the honest grade is low.</td></tr>
+    </table>
+  </div>
+
+  <h2><span class="num">Domain VIII</span><span class="ttl">Fiscal &amp; macro</span></h2>
+  <div class="domain">
+    <table>
+      <tr><th>Metric</th><th>Baseline</th><th>Projected</th><th>Confidence</th><th>Mechanism</th></tr>
+      <tr><td class="metric">Revenue raised (10-yr)</td><td class="base">—</td><td class="proj">▲ ~$4.6T</td><td><span class="conf med">MED</span></td><td class="mech">Corporate 28% + book minimum, 39.6% top rate, billionaire minimum, cap lifted for SS, IRS enforcement at ~6:1; the billionaire-tax slice carries <em>Moore</em> risk, which is why the base is diversified.</td></tr>
+      <tr><td class="metric">GDP effect of immigration reform</td><td class="base">—</td><td class="proj">▲ positive; deficits ▼ over decade</td><td><span class="conf hi">HIGH</span></td><td class="mech">CBO has scored comprehensive legalization repeatedly and consistently: more workers, more taxpayers, higher output.</td></tr>
+      <tr><td class="metric">Care-economy GDP effect</td><td class="base">—</td><td class="proj">▲ via labor supply, ~decade horizon</td><td><span class="conf med">MED</span></td><td class="mech">Parental LFP gains compound into lifetime earnings and tax base; the macro return is real but slow.</td></tr>
+      <tr><td class="metric">Near-term inflation risk</td><td class="base">—</td><td class="proj">▲ sectoral, yrs 1–2</td><td><span class="conf med">MED</span></td><td class="mech">The 2021 lesson: demand lands before supply in childcare and housing. Offsets, pacing, and the Fed are the management plan, not a footnote.</td></tr>
+      <tr><td class="metric">Top-1% / bottom-50% net position</td><td class="base">—</td><td class="proj">Top pays ~all net cost; bottom gains most as share of income</td><td><span class="conf hi">HIGH</span></td><td class="mech">Arithmetic of the package's incidence (see Nineteen Months, Fig. 4) — the shape is a design choice, not a side effect.</td></tr>
+    </table>
+  </div>
+
+  <h2><span class="num">The honest bottom line</span><span class="ttl">Reading the ledger whole</span></h2>
+  <p>Three patterns organize everything above. First, the highest-confidence rows are overwhelmingly <em>direct program parameters</em> — checks issued, caps set, records expunged, states admitted — which is exactly why the agenda's political theory front-loads them. Second, the lowest-confidence rows cluster where federal law must work <em>through</em> other actors: local zoning boards, state police agencies, hospital systems, a hostile Court. Those aren't reasons to retreat; they're the map of where implementation capacity and evaluation money must go. Third, the two caveats that recur — sectoral inflation while supply catches up, and litigation before this Court — are the program's genuine strategic risks, and both are managed by design choices already in the bills (pacing and offsets for the first; statutory redundancy and the diversified revenue base for the second).</p>
+  <p>The ledger's deepest claim is the one no single row can show: these effects compound. The parent who gains a childcare slot joins the labor force the immigration bill is expanding, in a town the housing bill is building, on wages the labor bills are lifting, under a democracy the franchise bills are repairing. Score the rows separately and you undercount the program; that is either its greatest promise or its greatest modeling hazard, and an honest analyst holds both.</p>
+
+</div>
+
+<script>
+(function(){
+  var el=function(t,a,x){var e=document.createElementNS('http://www.w3.org/2000/svg',t);for(var k in a)e.setAttribute(k,a[k]);if(x!=null)e.textContent=x;return e;};
+  var MONO='ui-monospace,monospace';
+  var COL={dem:'#3E6FB0',care:'#4E8A63',econ:'#C08A20',rev:'#7A5E97',safety:'#5E6B80',rights:'#A2543B'};
+  var CATLABEL={dem:'Democracy',care:'Care & opportunity',econ:'Economy & climate',rev:'Revenue',safety:'Safety & security',rights:'Rights & justice'};
+
+  /* Chart A: time to first felt impact (months) */
+  var T=[
+    ['Junk-fee ban','econ',4],['Clean Energy Dividend (first check)','econ',6],['CTC monthly deposits','care',5],
+    ['Minimum-wage step one','econ',9],['Cannabis expungement begins','rights',8],['Insulin/drug caps all payers','care',7],
+    ['Repro Freedom (bans preempted)','rights',3],['Equality Act protections','rights',3],['Background checks','safety',6],
+    ['Paid leave (first claims)','care',14],['Social Security increase','care',12],['Medicare at 55 opens','care',15],
+    ['Education &amp; Opportunity (Pell, first award yr)','care',13],['Voting access (first fed. election)','dem',22],
+    ['Childcare cap (rollout)','care',20],['Public option (first plan yr)','care',18],
+    ['Housing units (ROAD-primed first wave)','econ',24],['Union density shift','econ',30],
+    ['D.C. senators seated','dem',16],['PR referendum held','dem',20],['Emissions bend visible','econ',36]
+  ];
+  (function(){
+    var svg=document.getElementById('tA'),W=860,padL=270,padR=60,top=10,rowH=24;
+    T.sort(function(a,b){return a[2]-b[2];});
+    var maxM=40,x0=padL,x1=W-padR,xw=x1-x0,X=function(m){return x0+xw*m/maxM;};
+    [0,6,12,18,24,30,36].forEach(function(g){
+      svg.appendChild(el('line',{x1:X(g),y1:top,x2:X(g),y2:top+T.length*rowH,stroke:'#CDBE9A','stroke-width':0.6,'stroke-dasharray':'2 4'}));
+      svg.appendChild(el('text',{x:X(g),y:top+T.length*rowH+16,'text-anchor':'middle','font-family':MONO,'font-size':10,fill:'#5C6373'},g+'mo'));
+    });
+    svg.appendChild(el('line',{x1:X(19),y1:top-4,x2:X(19),y2:top+T.length*rowH,stroke:'#9C7A16','stroke-width':1.4,'stroke-dasharray':'5 3'}));
+    svg.appendChild(el('text',{x:X(19),y:top-8,'text-anchor':'middle','font-family':MONO,'font-size':9.5,fill:'#9C7A16','letter-spacing':'0.08em'},'WINDOW CLOSES'));
+    T.forEach(function(d,i){
+      var cy=top+i*rowH+rowH/2;
+      svg.appendChild(el('text',{x:x0-10,y:cy+3.5,'text-anchor':'end','font-family':MONO,'font-size':10.5,fill:'#1B2432'},d[0]));
+      svg.appendChild(el('rect',{x:x0,y:cy-5.5,width:Math.max(2,xw*d[2]/maxM),height:11,rx:2,fill:COL[d[1]],opacity:0.9}));
+      svg.appendChild(el('text',{x:X(d[2])+6,y:cy+3.5,'font-family':MONO,'font-size':10,fill:'#1B2432','font-weight':'bold'},d[2]));
+    });
+    svg.setAttribute('viewBox','0 0 860 '+(top+T.length*rowH+26));
+    var lg=document.getElementById('lA');
+    Object.keys(CATLABEL).forEach(function(c){var s=document.createElement('span');s.innerHTML='<span class="sw" style="background:'+COL[c]+'"></span>'+CATLABEL[c];lg.appendChild(s);});
+  })();
+
+  /* Chart B: magnitude vs confidence */
+  // name, cat, confidence 0-100, magnitude 0-100
+  var M=[
+    ['CTC / child poverty','care',95,90],['Paid leave','care',85,70],['Living wage','econ',80,72],
+    ['Childcare cap','care',82,80],['Public option','care',60,75],['Social Security','care',70,60],
+    ['Carbon dividend','econ',85,55],['Emissions (power)','econ',60,85],['Emissions (economy)','econ',35,70],
+    ['Housing supply','econ',35,80],['Union density','econ',30,65],['Immigration / GDP','econ',88,75],
+    ['Junk fees','econ',88,35],['Antitrust','econ',45,55],['Voting access','dem',85,60],
+    ['DC + PR representation','dem',92,50],['Dark money','dem',60,45],['Stock-trading ban','dem',90,30],
+    ['Cannabis & sentencing','rights',80,55],['Policing standards','rights',30,55],['Repro freedom','rights',35,90],
+    ['Equality Act','rights',85,50],['Background checks','safety',75,40],['Veterans care','safety',65,35],
+    ['War Powers','safety',45,40],['Revenue package','rev',65,80]
+  ];
+  (function(){
+    var svg=document.getElementById('tB'),W=860,H=520,m={t:26,r:26,b:52,l:60};
+    var pw=W-m.l-m.r,ph=H-m.t-m.b;
+    var X=function(v){return m.l+pw*v/100;},Y=function(v){return m.t+ph*(100-v)/100;};
+    svg.appendChild(el('rect',{x:X(60),y:m.t,width:pw-(X(60)-m.l),height:Y(55)-m.t,fill:'#4E8A63',opacity:0.07}));
+    svg.appendChild(el('rect',{x:m.l,y:m.t,width:X(60)-m.l,height:Y(55)-m.t,fill:'#C08A20',opacity:0.07}));
+    svg.appendChild(el('line',{x1:m.l,y1:m.t+ph,x2:m.l+pw,y2:m.t+ph,stroke:'#1B2432','stroke-width':1}));
+    svg.appendChild(el('line',{x1:m.l,y1:m.t,x2:m.l,y2:m.t+ph,stroke:'#1B2432','stroke-width':1}));
+    [0,25,50,75,100].forEach(function(g){
+      svg.appendChild(el('line',{x1:m.l,y1:Y(g),x2:m.l+pw,y2:Y(g),stroke:'#CDBE9A','stroke-width':0.5,'stroke-dasharray':'2 4'}));
+      svg.appendChild(el('text',{x:m.l-8,y:Y(g)+3,'text-anchor':'end','font-family':MONO,'font-size':10,fill:'#5C6373'},g));
+      svg.appendChild(el('text',{x:X(g),y:m.t+ph+16,'text-anchor':'middle','font-family':MONO,'font-size':10,fill:'#5C6373'},g));
+    });
+    svg.appendChild(el('text',{x:m.l+pw/2,y:H-8,'text-anchor':'middle','font-family':MONO,'font-size':11,fill:'#1B2432','letter-spacing':'0.08em'},'EVIDENCE CONFIDENCE \u2192'));
+    svg.appendChild(el('text',{x:16,y:m.t+ph/2,'text-anchor':'middle','font-family':MONO,'font-size':11,fill:'#1B2432','letter-spacing':'0.08em',transform:'rotate(-90 16 '+(m.t+ph/2)+')'},'IMPACT MAGNITUDE \u2192'));
+    svg.appendChild(el('text',{x:m.l+pw-6,y:m.t+14,'text-anchor':'end','font-family':MONO,'font-size':10.5,fill:'#4E8A63','font-weight':'bold','letter-spacing':'0.05em'},'LOAD-BEARING'));
+    svg.appendChild(el('text',{x:m.l+6,y:m.t+14,'font-family':MONO,'font-size':10.5,fill:'#7A5A10','font-weight':'bold','letter-spacing':'0.05em'},'AMBITION AHEAD OF EVIDENCE \u2014 FUND EVALUATION'));
+    M.forEach(function(d){
+      svg.appendChild(el('circle',{cx:X(d[2]),cy:Y(d[3]),r:5,fill:COL[d[1]],stroke:'#F4EFE4','stroke-width':1.1}));
+      svg.appendChild(el('text',{x:X(d[2])+7,y:Y(d[3])-6,'font-family':MONO,'font-size':9,fill:'#1B2432'},d[0]));
+    });
+    svg.setAttribute('viewBox','0 0 860 '+H);
+    var lg=document.getElementById('lB');
+    Object.keys(CATLABEL).forEach(function(c){var s=document.createElement('span');s.innerHTML='<span class="sw" style="background:'+COL[c]+'"></span>'+CATLABEL[c];lg.appendChild(s);});
+  })();
+})();
+</script>
+</body>
+</html>

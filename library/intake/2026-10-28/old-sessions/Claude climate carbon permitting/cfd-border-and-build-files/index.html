@@ -1,0 +1,1002 @@
+<title>Carbon Dividend Model</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a working tool. Controls rail on the left, results on the right, policy text and method below. */
+:root{
+  --bg:#f6f8f7; --surface:#fcfcfb; --ink:#0f1a17; --ink2:#4a5753; --ink3:#7b8783; --line:#dbe2df; --accent:#0d6b5c; --accent-soft:#e2efec;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300; --s7:#4a3aa7; --base:#8a9390; --band:#2a78d6; --warn:#a4510d;
+  --display:"IBM Plex Serif",Georgia,serif; --body:"IBM Plex Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ color-scheme:dark;
+  --bg:#111715; --surface:#1a1f1d; --ink:#f2f5f4; --ink2:#b9c4c0; --ink3:#87938f; --line:#2e3835; --accent:#5cc4b0; --accent-soft:#1d312d;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --base:#7d8885; --band:#3987e5; --warn:#e5a25f; } }
+:root[data-theme="dark"]{ color-scheme:dark;
+  --bg:#111715; --surface:#1a1f1d; --ink:#f2f5f4; --ink2:#b9c4c0; --ink3:#87938f; --line:#2e3835; --accent:#5cc4b0; --accent-soft:#1d312d;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --base:#7d8885; --band:#3987e5; --warn:#e5a25f; }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:28px 64px;display:flex;flex-direction:column;gap:28px}
+header h1{font-family:var(--display);font-weight:500;font-size:30px;line-height:1.15;margin:0;text-wrap:balance}
+header p{margin:6px 0 0;color:var(--ink2);max-width:68ch}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;margin-top:10px}
+nav a{color:var(--accent)}
+h2{font-family:var(--display);font-weight:500;font-size:22px;margin:0 0 4px;text-wrap:balance}
+h3{font-size:14px;font-weight:600;margin:0}
+.sub{color:var(--ink2);font-size:13px;margin:2px 0 0}
+.grid{display:grid;grid-template-columns:280px minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.controls{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:14px}
+@media (min-width:861px){.controls{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}}
+.ctl{display:flex;flex-direction:column;gap:4px}
+.ctl label{font-size:13px;color:var(--ink2);display:flex;justify-content:space-between;gap:8px}
+.ctl output{font-family:var(--mono);color:var(--ink);font-size:13px}
+input[type=range]{width:100%;accent-color:var(--accent)}
+select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);width:100%}
+.check{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--ink2)}
+.check input{accent-color:var(--accent)}
+.group{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink3);border-top:1px solid var(--line);padding-top:12px}
+.group:first-child{border-top:0;padding-top:0}
+button{font:inherit;font-size:13px;padding:7px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.results{display:flex;flex-direction:column;gap:24px;min-width:0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.tile{background:var(--surface);padding:12px 14px}
+.tile .k{font-size:12px;color:var(--ink2)}
+.tile .v{font-family:var(--mono);font-size:22px;font-weight:500;font-variant-numeric:tabular-nums;margin-top:2px}
+.tile .r{font-size:12px;color:var(--ink3);font-family:var(--mono)}
+.note{font-size:13px;color:var(--warn);margin:0}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:20px}
+.chart{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 14px 8px;position:relative;min-width:0}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font-family:var(--body);font-size:11px;fill:var(--ink2)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--ink2);margin:6px 0 2px}
+.legend i{display:inline-block;width:14px;height:3px;border-radius:2px;margin-right:5px;vertical-align:middle}
+.legend i.sw{height:10px;width:10px}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;padding:6px 8px;border-radius:6px;line-height:1.4;white-space:nowrap;z-index:5;font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:6px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+td{font-family:var(--mono);font-variant-numeric:tabular-nums}
+th{font-weight:600;color:var(--ink2);font-size:12px}
+th:first-child,td:first-child{text-align:left}
+td.txt,th.txt{text-align:left;font-family:var(--body);white-space:normal}
+tr:last-child td{border-bottom:0}
+.prose{max-width:72ch;display:flex;flex-direction:column;gap:10px}
+.prose p,.prose ul{margin:0}
+.prose ul{padding-left:20px}
+.prose li{margin-bottom:6px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:18px 32px}
+section{display:flex;flex-direction:column;gap:14px}
+details summary{cursor:pointer;color:var(--accent);font-size:14px}
+a{color:var(--accent)}
+
+.checks{display:flex;flex-direction:column;gap:6px}
+.kv td:first-child{font-family:var(--body)}
+.tile:last-child{grid-column-end:-1}
+</style>
+<div class="wrap">
+<header>
+  <h1>Carbon Dividend Act of 2029</h1>
+  <p>A fee-and-dividend design for a 2029 reconciliation bill, and a simulation of the U.S. energy system that projects its emissions, revenue and household dividend to 2050. Dollars are 2025 dollars.</p>
+  <nav><a href="#model">Model</a><a href="#policy">Policy design</a><a href="#method">How the model works</a><a href="#checks">Checks and limits</a></nav>
+</header>
+
+<section id="model">
+<div class="grid">
+  <form class="controls" id="controls" onsubmit="return false">
+    <div class="group">Fee schedule</div>
+    <div class="ctl"><label for="startPrice">Fee in 2030 <output id="o_startPrice"></output></label><input type="range" id="startPrice" min="10" max="100" step="5"></div>
+    <div class="ctl"><label for="step">Annual increase <output id="o_step"></output></label><input type="range" id="step" min="0" max="15" step="1"></div>
+    <div class="ctl"><label for="stepType">Increase type</label><select id="stepType"><option value="linear">Dollars per year</option><option value="percent">Percent per year</option></select></div>
+    <label class="check"><input type="checkbox" id="ratchet"> Ratchet when a target is missed</label>
+    <div class="group">What the fee covers</div>
+    <div class="checks">
+      <label class="check"><input type="checkbox" checked disabled id="c_fossil"> Fossil fuel CO2 (always)</label>
+      <label class="check"><input type="checkbox" id="c_process"> Industrial process CO2 and N2O</label>
+      <label class="check"><input type="checkbox" id="c_methane"> Methane: oil, gas, coal, landfills</label>
+      <label class="check"><input type="checkbox" id="c_fgas"> HFC refrigerants</label>
+      <label class="check"><input type="checkbox" id="c_border"> Border charge on imports</label>
+      <label class="check"><input type="checkbox" id="c_bunkers"> International ship and jet fuel</label>
+    </div>
+    <div class="group">Other legislation</div>
+    <label class="check"><input type="checkbox" id="credits"> 2029 climate bill restoring clean energy tax credits</label>
+    <label class="check"><input type="checkbox" id="grid"> Federal grid build-out program</label>
+    <label class="check"><input type="checkbox" id="nuclear"> Advanced nuclear, fusion and hydro program</label>
+    <label class="check"><input type="checkbox" id="standards"> EPA vehicle and power plant standards reinstated</label>
+    <div class="ctl"><label for="permit">Permitting reform</label><select id="permit"><option value="none">Not passed</option><option value="2027">Passed by 2027 (current Senate bill)</option><option value="2029">Passed in 2029 with the fee</option></select></div>
+    <div class="group">Revenue</div>
+    <div class="ctl"><label for="dividendShare">Share paid as dividend <output id="o_dividendShare"></output></label><input type="range" id="dividendShare" min="50" max="100" step="5"></div>
+    <label class="check"><input type="checkbox" id="offset"> Apply 25% budget offset</label>
+    <div class="group">State of the world</div>
+    <div class="ctl"><label for="tech">Clean technology progress</label><select id="tech"><option value="slow">Slow</option><option value="mid">Central</option><option value="fast">Fast</option></select></div>
+    <div class="ctl"><label for="gas">Natural gas price</label><select id="gas"><option value="3.0">Low ($3.00)</option><option value="3.9">Central ($3.90)</option><option value="5.5">High ($5.50)</option></select></div>
+    <div class="ctl"><label for="load">Electricity demand growth</label><select id="load"><option value="0.008">Low (0.8% a year)</option><option value="0.011">Central (1.1%)</option><option value="0.016">High (1.6%)</option></select></div>
+    <div class="ctl"><label for="sccRate">Climate damage discount rate</label><select id="sccRate"><option value="2.5">2.5%</option><option value="2.0">2.0%</option><option value="1.5">1.5%</option></select></div>
+    <button type="button" id="reset">Reset to the bill as drafted</button>
+  </form>
+
+  <div class="results">
+    <div class="tiles" id="tiles"></div>
+    <p class="note" id="note" hidden></p>
+    <div class="charts">
+      <div class="chart"><h3>Energy CO2 emissions</h3><p class="sub">Million metric tons. Band is the 10th to 90th percentile of 120 runs with uncertain inputs drawn at random.</p><div class="legend" id="lg_emis"></div><div id="c_emis"></div></div>
+      <div class="chart"><h3>Dividend per adult</h3><p class="sub">Dollars per year for one full share. Children receive half.</p><div class="legend" id="lg_div"></div><div id="c_div"></div></div>
+      <div class="chart"><h3>Covered emissions by source</h3><p class="sub">Million metric tons of CO2-equivalent under the policy.</p><div class="legend" id="lg_sec"></div><div id="c_sec"></div></div>
+      <div class="chart"><h3>Electricity generation</h3><p class="sub">Terawatt-hours under the policy.</p><div class="legend" id="lg_gen"></div><div id="c_gen"></div></div>
+      <div class="chart"><h3>Fee revenue by source</h3><p class="sub">Billions of dollars per year, before the budget offset.</p><div class="legend" id="lg_rev"></div><div id="c_rev"></div></div>
+      <div class="chart"><h3>Electric share of new car sales</h3><p class="sub">Percent of new light-duty vehicles.</p><div class="legend" id="lg_ev"></div><div id="c_ev"></div></div>
+      <div class="chart"><h3>Net effect per household</h3><p class="sub">Dividend minus fee cost, dollars per household, by <select id="hhGroup" style="width:auto;display:inline-block;padding:2px 6px"><option value="decile">income tenth</option><option value="quintile">income fifth</option><option value="region">region</option><option value="area">urban and rural</option></select> <label for="decYear">in</label> <select id="decYear" style="width:auto;display:inline-block;padding:2px 6px"></select></p><div class="legend" id="lg_dec"></div><div id="c_dec"></div></div>
+      <div class="chart"><h3>What the average person pays and gets back</h3><p class="sub">Dollars per person per year. Stacked areas are the fee as it reaches people through what they buy; the line is the dividend averaged over adults and children.</p><div class="legend" id="lg_pay"></div><div id="c_pay"></div></div>
+      <div class="chart"><h3>What limits wind and solar building</h3><p class="sub">Gigawatts per year, for decisions taken in each year. Built is the lowest of what investors want, what industry can deliver and what the grid can connect.</p><div class="legend" id="lg_bld"></div><div id="c_bld"></div></div>
+      <div class="chart"><h3>Average retail electricity price</h3><p class="sub">Cents per kilowatt-hour.</p><div class="legend" id="lg_el"></div><div id="c_el"></div></div>
+    </div>
+    <div class="charts">
+      <div class="chart" style="grid-column:1/-1"><h3>What each layer adds</h3><p class="sub">Each row adds one measure to the rows above it. Order matters: a measure added later gets credit only for what the earlier ones left undone, so the table also shows what each companion measure avoids when it is the only thing added to the fee. Tons are cumulative through 2050.</p><div class="tablewrap" style="margin-top:8px"><table id="ladder" class="kv"></table></div></div>
+      <div class="chart" style="grid-column:1/-1"><h3>Net effect per household by region and income</h3><p class="sub">Dollars per household in the year selected above. Positive means the dividend exceeds what the household pays.</p><div class="tablewrap" style="margin-top:8px"><table id="hhri" class="kv"></table></div></div>
+      <div class="chart" style="grid-column:1/-1"><h3>What the result depends on most</h3><p class="sub">Each uncertain input is moved alone from the low to the high end of its range, for the selected case. The ten with the largest effect on 2050 emissions are shown.</p><div class="tablewrap" style="margin-top:8px"><table id="sens" class="kv"></table></div></div>
+      <div class="chart" style="grid-column:1/-1"><h3>Ten-year budget, 2030 to 2039</h3><p class="sub">Billions of dollars for the selected case, on the convention CBO uses for excise taxes.</p><div class="tablewrap" style="margin-top:8px"><table id="budget" class="kv"></table></div></div>
+    </div>
+    <details open><summary>Year-by-year table</summary>
+      <div class="tablewrap" style="margin-top:10px"><table id="tbl"></table></div>
+    </details>
+  </div>
+</div>
+</section>
+
+<section id="policy">
+  <h2>Policy design</h2>
+  <div class="cols">
+    <div class="prose">
+      <h3>The fee</h3>
+      <ul>
+        <li><b>Rate:</b> $40 per metric ton of CO2-equivalent in 2030, rising $8 a year above inflation. That reaches $80 in 2035, $120 in 2040 and $200 in 2050.</li>
+        <li><b>Ratchet:</b> targets of 35% below 2005 by 2035 and 55% by 2050 for energy CO2. In any year after emissions exceed the glide path, the step rises by an extra $4. The targets sit where the model says the fee alone can deliver, so the ratchet is insurance against a bad draw, not a promise the fee cannot keep.</li>
+      </ul>
+      <h3>What it covers</h3>
+      <ul>
+        <li><b>Fossil fuel CO2:</b> collected at the mine, gas processing plant, refinery and port of entry. About 4,900 million tons in 2025.</li>
+        <li><b>Industrial process emissions:</b> cement, lime, steel, ammonia, petrochemicals, gas processing vents, waste incineration and nitric and adipic acid plants, charged at the facility. About 345 million tons.</li>
+        <li><b>Methane:</b> oil and gas systems, coal mines and large landfills, charged on measured emissions at the fee rate per ton of CO2-equivalent. About 380 million tons. This replaces the methane charge that Congress delayed to 2034.</li>
+        <li><b>HFC refrigerants:</b> a charge at 20% of the fee rate on the allowances already issued under the AIM Act. The cap sets the quantity, so this raises revenue without changing emissions.</li>
+        <li><b>Imports:</b> a border charge at the fee rate on the embodied carbon of steel, aluminum, cement, fertilizer, glass, paper, chemicals and refined products, with credit for a carbon price paid at origin.</li>
+        <li><b>Optional:</b> fuel sold in the U.S. for international shipping and aviation, about 83 million tons. Off by default because air service agreements exempt international jet fuel from tax.</li>
+        <li><b>Left out:</b> farm emissions, about 585 million tons. They come from millions of small sources that cannot be metered at the price point a fee needs.</li>
+      </ul>
+      <h3>Exports and carbon storage</h3>
+      <ul>
+        <li><b>Exports:</b> exported fuels and covered goods are rebated. The Export Clause bars taxing exports.</li>
+        <li><b>Storage:</b> a refund at the fee rate for verified geologic storage, reduced by any 45Q credit claimed for the same ton.</li>
+      </ul>
+    </div>
+    <div class="prose">
+      <h3>The dividend</h3>
+      <ul>
+        <li><b>Who gets it:</b> every resident with a Social Security or taxpayer number. Adults get one share, under-19s a half share.</li>
+        <li><b>How much:</b> 90% of net receipts, split equally. Net means after the 25% offset CBO applies for lost income and payroll tax receipts, so the bill scores as deficit-neutral.</li>
+        <li><b>How it is paid:</b> monthly, by direct deposit, as a separately labeled Treasury payment. The first payment goes out in October 2029, three months before the fee starts.</li>
+        <li><b>Tax treatment:</b> not taxable income, and not counted for benefit eligibility.</li>
+      </ul>
+      <h3>The other 10%</h3>
+      <ul>
+        <li>A Transition and Hardship Account for wage and pension replacement in coal, oil and gas communities, and a supplement for households heating with propane or fuel oil and for rural drivers.</li>
+      </ul>
+      <h3>What it leaves alone</h3>
+      <ul>
+        <li><b>EPA authority:</b> no pause or preemption.</li>
+        <li><b>State programs:</b> they continue, with no credit against the federal fee.</li>
+        <li><b>Existing credits:</b> 45Q and whatever else survives to 2029 stay.</li>
+      </ul>
+      <h3>Companion measures</h3>
+      <ul>
+        <li><b>Permitting reform, assumed passed:</b> the bipartisan Senate bill released on September 30, 2026 sets a 150-day limit on court challenges, favors fixing a review over cancelling a permit, gives FERC backstop authority to site interstate transmission, and speeds grid connection. The model treats it as law from 2027, in the no-policy path as well.</li>
+        <li><b>Optional 2029 climate bill:</b> restores the tax credits repealed in 2025. An investment credit for solar and storage and a production credit for wind, with bonus adders, until power emissions fall to a quarter of their 2022 level. For ten years, then phasing out over two: $7,500 for new electric cars and $4,000 for used ones, charging station credits, a commercial vehicle credit, heat pump credits and rebates, the battery manufacturing credit, and industrial investment credits.</li>
+        <li><b>Optional grid build-out program:</b> goes beyond the transmission credit. Federal financing and anchor-customer contracts for new interregional lines, and grants to re-string existing lines with advanced conductors, which takes 18 to 36 months against 5 to 15 years for a new line. Modeled at $12 billion a year for ten years.</li>
+        <li><b>Optional advanced nuclear, fusion and hydro program:</b> a 40% investment credit and federal loans for new reactors, aimed at small modular designs, with faster industry scale-up. $2 billion a year for fusion research, which the model does not expect to deliver power before 2050. Support for hydropower in existing pipes and canals (1.4 gigawatts of potential) and for wave energy demonstrations.</li>
+        <li><b>Optional EPA standards:</b> a new administration could reissue EPA rules without Congress. For vehicles the rule requires an electric share of car sales of 25% in 2032, 50% in 2037 and 67% in 2040, then successor rules that keep tightening to 100% by 2050; for trucks 30% by 2037 rising to 65% by 2050; and new gasoline cars must improve 1% a year faster through 2040. Carmakers differ, so the rule lifts sales somewhat even when the market average is already above it, and anything that lifts the market still adds sales when the rule binds. For power plants, coal without capture retires by 2040 and new baseload gas plants need capture from 2033.</li>
+      </ul>
+      <h3>What the model says about the design</h3>
+      <ul>
+        <li><b>The fee clears out power first.</b> With permitting reform in place, coal is gone within five years and gas burned without capture falls by about 85% by 2050. Long-duration storage and hydrogen take over part of the peaking role in the 2040s.</li>
+        <li><b>On its own it moves cars slowly.</b> At $200 a ton gasoline costs $1.70 more, which lifts the electric share of sales in 2050 from 37% to 44%. Europe taxes gasoline far more heavily than that and electric cars were 17% of its 2025 sales. Purchase credits and standards do much more: with the restored credits the share passes 60% by 2040, then stalls for a decade as the credits expire.</li>
+        <li><b>The fee and the credits overlap in power.</b> The fee already makes investors want more wind and solar than the grid can connect, so the credits add little there. On their own the credits cut power emissions by about a fifth by 2035. Their extra value alongside the fee is in cars, trucks and heating.</li>
+        <li><b>The ratchet buys little.</b> From 2030 investors want to build two to three times more wind and solar than the grid can connect, so a higher fee mostly raises revenue.</li>
+        <li><b>Grid access is the binding limit.</b> With the fee in place, investors want about 140 to 155 gigawatts a year and the grid can take about 75 to 80, even with permitting reform. Anything that speeds transmission is worth more than a higher fee or a bigger credit.</li>
+        <li><b>Sources other than fuel are about 13% of revenue</b> and include the cheapest tons in the bill: methane leaks and high-purity industrial capture.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="method">
+  <h2>How the model works</h2>
+  <div class="cols">
+    <div class="prose">
+      <p>The model tracks physical stocks year by year: power plants, vehicles, heating equipment and industrial capture units. Each year operators run what they have at least cost and investors choose what to build, both facing the fee. Nothing is fitted to other models' carbon-price results.</p>
+      <ul>
+        <li><b>Power dispatch:</b> coal, gas and capture plants are stacked by running cost, including the fee, against a load curve net of nuclear, hydro, wind and solar. Coal-to-gas switching falls out of the stack.</li>
+        <li><b>Power investment:</b> new demand and retirements are met by the cheapest mix of wind, solar, gas and gas with capture. Wind and solar are also built to displace each running fossil plant they can undercut, coal first, up to annual build limits. Their value falls as their share rises, and surplus output is curtailed.</li>
+        <li><b>Coal retirement:</b> a plant retires when its going-forward cost exceeds the cheapest replacement.</li>
+        <li><b>Cars:</b> 36 age cohorts with survival rates. Buyers choose electric or gasoline on purchase price, fuel savings over a payback period, how common electric cars already are on the road, and how large their share of recent sales is. That last term stands in for carmakers offering more models and charging networks growing as sales rise, and it amplifies any incentive by roughly half. Miles driven and new-car fuel economy respond to fuel price.</li>
+        <li><b>Trucks:</b> electric share of sales depends on cost per mile, with a 14-year fleet turnover.</li>
+        <li><b>Aviation:</b> flying responds to fuel cost. Low-carbon jet fuel is blended in as the fee passes its extra cost: up to 10% from waste oils at about $220 a ton, and up to a further 50% from alcohol-based and synthetic fuel at about $400.</li>
+        <li><b>Buildings:</b> one-eighteenth of fossil heating is replaced each year, and the heat pump share of replacements depends on lifetime cost.</li>
+        <li><b>Industry:</b> efficiency responds to fuel cost. Low-temperature heat electrifies when a heat pump beats a gas boiler. High-temperature heat (furnaces and kilns, about 45% of other industrial fuel use) switches to capture, hydrogen or electric heat as the fee passes roughly $150 a ton, slowly, because the equipment lasts decades. Capture is adopted source by source when the fee or 45Q exceeds its cost. Refining shrinks with fuel demand.</li>
+        <li><b>Methane and N2O:</b> EPA's abatement cost curves by source. Coal mine methane also falls with coal output.</li>
+        <li><b>Feedbacks:</b> electric cars, trucks, heat pumps and industrial heat add to power demand. Power costs feed back into the retail price that those buyers face.</li>
+        <li><b>How fast wind and solar get built:</b> each year's build is the lowest of four numbers. What investors want, from the cost comparison above. Mature projects: those with a grid connection agreement, which take about four years from request to operation, and a third of which are cancelled at the siting stage. Industry capacity: what developers and suppliers can deliver, which grows up to 25% a year for solar and 15% for wind when it is fully used and shrinks when idle. Grid access: about 26 gigawatts a year for each percentage point of annual transmission growth, plus a base amount and half of any retiring coal plant's connection.</li>
+        <li><b>Batteries:</b> cost starts from NREL's 2025 mid case for lithium-ion (about half today's by 2050), with new chemistries taking a further 30% off the energy part by 2040; developers spend the same and get more storage. Batteries wear out after about 18 years and are replaced with whatever duration is then on sale, so the 4-hour fleet is gradually swapped for longer batteries. New batteries are assumed to lengthen from 4 hours to 8 by 2038, so that 8-hour-plus systems are the norm for new installations by 2040, and to 10 by 2050, which lets more wind and solar be used and counts for more at the peak, at a higher cost per kilowatt.</li>
+        <li><b>Long-duration storage:</b> multi-day storage is charged only from wind and solar output that would otherwise be wasted, and replaces gas plants that run few hours when it is cheaper including the fee. Cost falls from $2,200 a kilowatt to $1,500 by 2035, short of the Energy Department's $1,100 target; supply starts at 1 gigawatt a year in 2030 and can grow 30% a year to 15.</li>
+        <li><b>Hydrogen:</b> gas plants burn hydrogen instead of gas where it is cheaper including the fee, up to the supply available: 1 million tons in 2032 rising to 15 million in 2050. Delivered price falls from $5 a kilogram in 2030 to $2.50 in 2050. The restored credits take $3 a kilogram off through 2040, then phase out by 2045. Hydrogen is assumed to be made off the grid, so it adds no electricity demand here.</li>
+        <li><b>Gas plants:</b> new turbines are limited to 12 gigawatts a year now, rising to 34 by 2031, reflecting manufacturers' order books. Shortfalls in firm capacity beyond that are met with storage.</li>
+        <li><b>Firm low-carbon plants:</b> gas with capture and new nuclear compete for new demand and for the wind and solar energy the grid could not connect. They also replace running gas plants on their own economics, but a new plant only earns the hours the plant it replaces was running, so they do not replace plants that run a few weeks a year. Capture starts in 2032 at 2 gigawatts a year and nuclear in 2033 at 1, each growing up to 25% a year when fully used, with nuclear capped at 15. Reactor cost starts at $13,000 a kilowatt and falls 8% with each doubling of what has been built.</li>
+        <li><b>Permitting reform:</b> phased in over four years. It lifts transmission growth from about 1% a year toward 2%, its long-run average, cuts the wait for a grid connection from four years to two and a half, and trims siting cancellations. It also slows the fall in wind and solar value as their share grows and speeds carbon capture build-out.</li>
+        <li><b>Restored credits:</b> lower the cost that investors and buyers compare. The model also counts what the credits cost the Treasury, including credits paid to people who would have bought anyway.</li>
+        <li><b>Expectations:</b> investors look ten years ahead on the statutory schedule from the day the bill is signed.</li>
+      </ul>
+    </div>
+    <div class="prose">
+      <h3>How each measure acts on building</h3>
+      <div class="tablewrap"><table class="kv">
+        <tr><th>Measure</th><th class="txt">What investors want</th><th class="txt">Industry capacity</th><th class="txt">Grid access</th><th class="txt">Project timing</th></tr>
+        <tr><td>Carbon fee</td><td class="txt">Large rise: new wind and solar undercut coal at once and gas as the fee climbs</td><td class="txt">Grows because it is fully used</td><td class="txt">Small rise in transmission growth; fast coal retirement frees connections</td><td class="txt">None</td></tr>
+        <tr><td>Restored credits</td><td class="txt">Rise: 38% off solar and storage cost, $34 a megawatt-hour for wind</td><td class="txt">Grows 5 points a year faster</td><td class="txt">Modest rise from a transmission investment credit</td><td class="txt">None</td></tr>
+        <tr><td>Permitting reform</td><td class="txt">Small rise: projects hold their value at higher shares</td><td class="txt">None directly</td><td class="txt">Large rise: transmission growth from 1% to 2% a year</td><td class="txt">Connection wait falls from 4 years to 2.5; fewer cancellations</td></tr>
+        <tr><td>Grid build-out program</td><td class="txt">Small rise: long-distance lines let more wind and solar output be used</td><td class="txt">None</td><td class="txt">Large rise: transmission growth up 0.8 points, plus 15 gigawatts a year from re-stringing existing lines</td><td class="txt">Re-stringing takes 18 to 36 months</td></tr>
+        <tr><td>Nuclear and hydro program</td><td class="txt">Shifts demand toward reactors, which need no new wind or solar grid access</td><td class="txt">Reactor industry grows 8 points a year faster</td><td class="txt">None</td><td class="txt">First reactors in 2033</td></tr>
+        <tr><td>EPA standards</td><td class="txt">Rise: more electric vehicles to supply, coal forced out by 2040</td><td class="txt">None</td><td class="txt">Coal retirement frees connections</td><td class="txt">None</td></tr>
+      </table></div>
+      <h3>Uncertainty</h3>
+      <p>The bands come from 120 runs in which 68 inputs are drawn at random from ranges: fuel prices, technology costs and build limits, buyer behavior, capture costs, and the border-trade figures. The three state-of-the-world controls shift the center of those draws.</p>
+      <h3>Revenue and households</h3>
+      <ul>
+        <li><b>Revenue:</b> fee times emissions for each covered source, plus the HFC and border charges. Net revenue applies the 25% offset.</li>
+        <li><b>Dividend:</b> the chosen share of net revenue, less 1.5% administration, divided by shares.</li>
+        <li><b>Households:</b> spending on gasoline, natural gas, heating fuel and electricity for each group comes from the 2024 Consumer Expenditure Survey. Each is scaled by the fee's effect on that fuel's price and by how much less of it the country is using. The rest of the fee reaches households through everything else they buy, in proportion to their other spending. The dividend follows household size: one share per adult and half per child.</li>
+        <li><b>Climate benefit:</b> covered tons avoided times EPA's 2023 social cost of carbon.</li>
+        <li><b>Health benefit:</b> coal and gas generation avoided, valued with EPA's health benefit per kilowatt-hour. I use its Midwest figure (about 8.5 cents) for coal and its California figure (about 1 cent) for gas, as stand-ins for coal-heavy and gas-only grids. It covers power plants only, not vehicles or industry.</li>
+        <li><b>What people pay:</b> driving is the fee on car and light truck fuel; heating is the residential share of building fuel; electricity is the residential 37% of power-sector fee revenue; the rest reaches people through the price of everything else.</li>
+      </ul>
+      <h3>Sources</h3>
+      <ul>
+        <li><a href="https://www.eia.gov/environment/emissions/carbon/">EIA, energy CO2 by sector, 2025</a>; <a href="https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php">generation and capacity</a>; <a href="https://www.eia.gov/outlooks/steo/archives/Jun26.pdf">fuel and power prices</a>; <a href="https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf">new plant costs</a></li>
+        <li><a href="https://www.epa.gov/system/files/documents/2024-02/us-ghg-inventory-2024-chapter-2-trends.pdf">EPA greenhouse gas inventory, Table 2-1</a>; <a href="https://19january2021snapshot.epa.gov/sites/static/files/2016-07/documents/mac_report_2014-us_summ.compressed.pdf">EPA non-CO2 abatement curves</a></li>
+        <li><a href="https://www.fhwa.dot.gov/policyinformation/statistics/2024/vm1.cfm">FHWA vehicle stock, miles and fuel</a>; <a href="https://climateprogramportal.org/wp-content/uploads/2025/02/Fast-Facts-US-Transportaton-Sector-GHG-Emissions-1990-2022.pdf">EPA transport emissions by mode</a></li>
+        <li><a href="https://www.journals.uchicago.edu/doi/10.1086/689702">Li, Tong, Xing and Zhou on EV adoption feedback</a>; <a href="https://www.acea.auto/pc-registrations/new-car-registrations-1-8-in-2025-battery-electric-17-4-market-share/">ACEA, EU electric share 2025</a>; <a href="https://www.coxautoinc.com/insights/q4-2025-ev-sales-report-commentary/">Cox Automotive, 2025 EV share</a>; <a href="https://about.bnef.com/insights/clean-transport/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices-bloombergnef/">BloombergNEF battery prices</a></li>
+        <li><a href="https://www.sandia.gov/app/uploads/sites/256/2023/09/Pathways-to-Commercial-Liftoff-LDES-May-5_UPDATED.pdf">DOE long-duration storage liftoff report</a>; <a href="https://docs.nlr.gov/docs/fy25osti/93281.pdf">NREL battery cost projections, 2025</a>; <a href="https://theicct.org/wp-content/uploads/2021/06/final_icct2020_assessment_of-_hydrogen_production_costs-v2.pdf">ICCT hydrogen production costs</a></li>
+        <li><a href="https://www.energypolicy.columbia.edu/publications/low-carbon-production-iron-steel-technology-options-economic-assessment-and-policy/">Columbia CGEP on industrial abatement costs</a>; <a href="https://energyinnovation.org/wp-content/uploads/Decarbonizing-Low-Temperature-Industrial-Heat-In-The-U.S.-Report-2.pdf">Energy Innovation on industrial heat</a>; <a href="https://theicct.org/sites/default/files/publications/Alternative_jet_fuels_cost_EU_2020_06_v3.pdf">ICCT</a> and <a href="https://www.rff.org/publications/issue-briefs/lowering-the-carbon-intensity-of-ethanol-to-jet-aviation-fuel/">RFF</a> on jet fuel</li>
+        <li><a href="https://netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_033123.pdf">NETL industrial capture costs</a>; <a href="https://www.cbo.gov/publication/59832">CBO on carbon capture and 45Q</a></li>
+        <li><a href="https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf">Lazard levelized cost of energy, 2025</a></li>
+        <li><a href="https://gain.inl.gov/content/uploads/4/2024/11/DOE-Advanced-Nuclear-Liftoff-Report.pdf">DOE Advanced Nuclear Liftoff report</a>; <a href="https://www.energy.gov/cmei/water/articles/new-assessment-finds-opportunities-conduit-hydropower-development-across-united">Oak Ridge conduit hydropower assessment</a>; <a href="https://www.utilitydive.com/news/reconductoring-power-lines-transmission-capacity-goldman-gridlab/712643/">Berkeley and GridLab on advanced conductors</a>; <a href="https://www.ans.org/news/2026-09-30/article-8446/bipartisan-fusion-bill-proposes-10b-for-commercialization-and-research/">American Leadership in Fusion Act</a></li>
+        <li>Build limits: <a href="https://emp.lbl.gov/publications/queued-2025-edition-characteristics">Berkeley Lab, Queued Up 2025</a>; <a href="https://emp.lbl.gov/news/larg-e-scale-wind-and-solar">Berkeley Lab developer survey</a>; <a href="https://cleanenergygrid.org/wp-content/uploads/2025/07/ACEG_Grid-Strategies_Fewer-New-Miles-2025_Rev-1.pdf">Grid Strategies, Fewer New Miles 2025</a>; <a href="https://www.energy.gov/sites/default/files/2023-10/DOE_GDO_Needs_Study_Fact_Sheet_United_States.pdf">DOE Transmission Needs Study</a>; <a href="https://pv-magazine-usa.com/2026/02/25/solar-and-storage-to-lead-record-breaking-86-gw-of-new-u-s-capacity-in-2026/">EIA planned 2026 additions</a>; <a href="https://www.utilitydive.com/news/ge-vernova-gas-turbine-backlog-climbs-to-116-gw/826039/">GE Vernova turbine backlog</a></li>
+        <li><a href="https://www.hklaw.com/en/insights/publications/2026/10/bipartisan-senate-committee-leaders-release-permitting-reform-text">Holland &amp; Knight on the Senate permitting bill</a>; <a href="https://repeatproject.org/docs/REPEAT_IRA_Transmission_2022-09-22.pdf">Princeton REPEAT on transmission</a>; <a href="https://www.thirdway.org/memo/quantifying-the-emissions-impacts-of-the-energy-permitting-reform-act-of-2024">Third Way and RMI on the 2024 permitting bill</a>; <a href="https://www.steptoe.com/en/news-publications/the-one-big-beautiful-bill-impact-on-the-iras-clean-energy-tax-credits.html">Steptoe on the repealed credits</a></li>
+        <li><a href="https://rhg.com/research/taking-stock-2026/">Rhodium Taking Stock 2026</a>; <a href="https://www.eia.gov/outlooks/aeo/pdf/AEO_Narrative.pdf">EIA AEO2026</a></li>
+        <li><a href="https://www.globalefficiencyintel.com/embodied-co2-emissions-in-steel-imports-to-the-us">Global Efficiency Intelligence, embodied CO2 in steel imports</a></li>
+        <li><a href="https://www.bea.gov/industry/input-output-accounts-data">BEA supply-use tables</a>; <a href="https://catalog.data.gov/dataset/embodied-material-flow-and-ghg-emission-factors-for-u-s-imports-derived-from-the-2017-2022">EPA import emission factors</a>; <a href="https://catalog.data.gov/dataset/supply-chain-greenhouse-gas-emission-factors-v1-3-by-naics-6">EPA supply chain emission factors</a></li>
+        <li><a href="https://www.bls.gov/cex/tables.htm">BLS Consumer Expenditure Survey tables, 2024</a>; <a href="https://www.eia.gov/outlooks/aeo/data/browser/#/?id=17-AEO2026&cases=cb2026&sourcekey=0">EIA AEO2026 Table 18</a>; <a href="https://www.epa.gov/system/files/documents/2024-12/usepa_bpk_flyer_2024_update.pdf">EPA health benefits per kilowatt-hour</a>; <a href="https://markpaulecon.com/wp-content/uploads/2018/01/fremstad-paul-the-impact-of-a-carbon-tax-on-inequality.pdf">Fremstad and Paul</a>; <a href="https://costofcarbon.org/epa-values-for-the-social-cost-of-greenhouse-gases">EPA social cost of carbon</a>; <a href="https://www.cbo.gov/publication/61879">CBO population</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="checks">
+  <h2>Checks and limits</h2>
+  <div class="cols">
+    <div class="prose">
+      <h3>Does it reproduce 2025?</h3>
+      <div class="tablewrap"><table id="cal" class="kv"></table></div>
+      <h3>Is the no-policy path in line with other forecasts?</h3>
+      <div class="tablewrap"><table id="bl" class="kv"></table></div>
+      <h3>With EPA standards and no fee, does it match EIA's outlook?</h3>
+      <p class="sub">EIA's 2026 central case keeps the EPA vehicle and power plant rules, so the like-for-like run here is standards on and fee off. EIA's rules start in 2027; the model's restart in 2032.</p>
+      <div class="tablewrap"><table id="aeo" class="kv"></table></div>
+      <h3>How does it compare with published fee studies?</h3>
+      <p class="sub">Energy CO2 against each study's reference case, with that study's fee path run through this model.</p>
+      <div class="tablewrap"><table id="bt" class="kv"></table></div>
+      <h3>Companion measures</h3>
+      <div class="tablewrap"><table id="cm" class="kv"></table></div>
+      <p>Under today's conditions this model responds less than the published studies. The last column reruns it with 2022-era financing costs and no practical limit on how fast wind and solar can be built, which is closer to what those studies assumed. That closes most of the gap with EIA's model. The remaining gap with the EPRI and RFF studies reflects tax credits in their baselines and, in RFF's case, a capital stock that adjusts at once. So the difference is mainly about how fast clean power can be built and financed, which is why permitting reform matters so much here.</p>
+    </div>
+    <div class="prose">
+      <h3>Carbon in covered trade, 2022</h3>
+      <p class="sub">Trade values from the Bureau of Economic Analysis, emissions per dollar from EPA, full supply chain. U.S. emissions per dollar are scaled by an assumed ratio of foreign to U.S. intensity for each product, with a low and high case in brackets. The ratios are judgment: near one where chemistry fixes emissions (cement, lime, refining), higher for steel, below one possible for aluminum and paper because Canada supplies much of them on hydropower.</p>
+      <div class="tablewrap"><table class="kv"><tr><th>Product</th><th>Imports $bn</th><th>Foreign vs U.S. intensity</th><th>Imports Mt</th><th>Exports $bn</th><th>Exports Mt</th></tr><tr><td>Iron and steel mills</td><td>53</td><td>1.5</td><td>62 (45 to 82)</td><td>17</td><td>13</td></tr><tr><td>Steel products from purchased steel</td><td>6</td><td>1.4</td><td>3 (2 to 4)</td><td>1</td><td>0</td></tr><tr><td>Alumina and primary aluminum</td><td>17</td><td>0.9</td><td>15 (10 to 24)</td><td>1</td><td>1</td></tr><tr><td>Aluminum products</td><td>9</td><td>1.2</td><td>8 (6 to 11)</td><td>6</td><td>4</td></tr><tr><td>Cement</td><td>2</td><td>1.1</td><td>7 (6 to 8)</td><td>0</td><td>1</td></tr><tr><td>Lime and gypsum</td><td>0</td><td>1.1</td><td>0 (0 to 1)</td><td>0</td><td>0</td></tr><tr><td>Glass</td><td>11</td><td>1.2</td><td>7 (6 to 9)</td><td>6</td><td>3</td></tr><tr><td>Fertilizer</td><td>10</td><td>1.3</td><td>15 (11 to 20)</td><td>5</td><td>5</td></tr><tr><td>Petrochemicals</td><td>10</td><td>1.2</td><td>9 (8 to 12)</td><td>9</td><td>7</td></tr><tr><td>Other basic inorganic chemicals</td><td>14</td><td>1.3</td><td>17 (13 to 22)</td><td>18</td><td>18</td></tr><tr><td>Other basic organic chemicals</td><td>48</td><td>1.3</td><td>73 (56 to 95)</td><td>44</td><td>52</td></tr><tr><td>Plastics and resins</td><td>22</td><td>1.3</td><td>29 (22 to 38)</td><td>42</td><td>43</td></tr><tr><td>Pulp</td><td>4</td><td>1</td><td>4 (3 to 6)</td><td>6</td><td>6</td></tr><tr><td>Paper</td><td>12</td><td>1</td><td>7 (6 to 10)</td><td>12</td><td>7</td></tr><tr><td>Paperboard</td><td>2</td><td>1</td><td>2 (1 to 2)</td><td>0</td><td>0</td></tr><tr><td>Refined petroleum products</td><td>93</td><td>1.1</td><td>25 (22 to 30)</td><td>204</td><td>51</td></tr><tr><td><b>Total</b></td><td><b>313</b></td><td></td><td><b>284 (219 to 374)</b></td><td><b>371</b></td><td><b>211</b></td></tr></table></div>
+      <h3>Limits</h3>
+      <ul>
+        <li><b>One national market:</b> no regions, transmission limits or hourly weather. Coal-to-gas switching is faster than a regional model would show, and wind and solar siting is a single cost spread.</li>
+        <li><b>Calibrated baseline:</b> a floor on wind and solar building, standing in for state mandates and contracted projects, is set so the no-policy path matches Rhodium's mid case. The policy response is not calibrated.</li>
+        <li><b>Narrow bands:</b> the bands cover uncertain inputs, not the model's structure. The comparison with published studies shows structural uncertainty is larger.</li>
+        <li><b>No macroeconomy:</b> GDP, jobs, wages and industrial output are not modeled. Imports do not respond to the border charge beyond a small elasticity.</li>
+        <li><b>Households are averages:</b> each group is its mean household. The model cannot say what share of a group comes out ahead, and a household that drives far more than its group's average will do worse than shown. Groups cut their fuel use at the national rate, not their own. Heating oil and propane are costed at an assumed 2.5 kilograms of CO2 per dollar.</li>
+        <li><b>Grid access rests on two studies:</b> the link between transmission growth and wind and solar additions comes from Princeton's and the Energy Department's work, and the base amount is set so 2026 matches planned additions. Advanced conductors and other ways of getting more from existing lines are not modeled separately and could raise it. The permitting bill's oil, gas and pipeline provisions are not modeled, so its net effect could be smaller.</li>
+        <li><b>Credits are simplified:</b> bonus adders, charging credits, used-car credits and industrial credits are represented by assumed average values. Hydrogen and domestic content rules are not modeled.</li>
+        <li><b>Electric car sales are the least certain output:</b> the adoption feedback makes the path sensitive to small changes in buyer behavior. Across the uncertain runs the 2050 share ranges from 49% to 76% with the fee and credits.</li>
+        <li><b>Standards have no cost side:</b> the model does not price what compliance costs carmakers, buyers or utilities.</li>
+        <li><b>Some overlap between measures is real:</b> when one measure already does a job (the fee retiring coal, a standard setting car sales), a second aimed at the same job adds less. And every route to cutting emissions slows as it nears completion, because what is left is the hardest part: gas plants that run a few weeks a year, buyers least suited to electric cars, furnaces not yet due for replacement.</li>
+        <li><b>Nuclear cost is the most speculative input:</b> U.S. reactor costs have historically risen, not fallen, with experience. The 8% learning rate and the build ramp follow the Energy Department's targets, not a track record. Wave energy's pace is a guess and is capped at 8 gigawatts.</li>
+        <li><b>Hydrogen and long-duration storage are thinly modeled:</b> hydrogen is a fuel for gas plants only (industry's use is folded into the high-temperature heat cost), its price and supply are assumed paths, and its production is not on the model's grid. Long-duration storage can charge only from wasted output, so it arrives late, in the 2040s. Fusion power and direct air capture are absent.</li>
+      </ul>
+      <h3>Inputs that are my assumptions, not sourced figures</h3>
+      <ul>
+        <li><b>Border trade:</b> the share of imports that would earn credit for a carbon price paid at origin (15%), and the ratio of foreign to U.S. emissions per dollar for each covered product (set by judgment, product by product, in the trade table above; 0.9 for primary aluminum up to 1.5 for steel). A proper border model would use tonnes of carbon per tonne of product by source country.</li>
+        <li><b>Buyer behavior:</b> price sensitivity of car, truck and heat pump buyers, the six-year payback, and the strength of the adoption feedback.</li>
+        <li><b>Power:</b> how much each policy changes transmission growth (permitting reform +1 point, the grid program +0.8, the credit bill +0.3, the fee +0.15), the 15 gigawatts a year from re-stringing lines, the cost of the grid program, the share of retiring plants' connections that is reused, how fast industry capacity grows for each technology, the U.S. share of turbine output, the split of gas turbines and steam units, the fall in wind and solar value as their share rises, and a 4 GW a year scheduled coal retirement.</li>
+        <li><b>Industry and aviation:</b> the shares of refining (17%) and low-temperature heat (15%) in industrial CO2; the pace at which high-temperature heat and jet fuel switch once the fee passes their cost (the costs themselves come from Columbia, ICCT and Resources for the Future).</li>
+        <li><b>Standards:</b> how far the vehicle rule lifts sales when the market is near it, the 1% a year efficiency gain for gasoline cars, and the path of successor rules after 2040.</li>
+        <li><b>Storage and hydrogen:</b> the hydrogen price path and the supply open to power plants; how far long-duration storage falls short of the Energy Department's cost target and how fast its supply grows; batteries lengthening to 8 hours by 2038 and 10 by 2050, and new chemistries making the energy part of a battery 30% cheaper than NREL's lithium-ion path by 2040 (the IEA's figure for sodium-ion; one bottom-up study finds only 3%).</li>
+        <li><b>Other:</b> technology cost declines, and EV sales shares before 2025.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div>
+
+<script>
+// Carbon Dividend Model v2: structural simulation (no DOM). Real 2025$. Emissions in Mt CO2e.
+// Stocks of power plants, vehicles, heating equipment and industrial capture are tracked year by year;
+// operators dispatch and investors choose technologies on cost, including the expected fee.
+// SOURCED = published figure. ASSUMED = my judgment, listed on the page. CALIBRATED = set so the no-fee run matches history or published baselines.
+const CFD = (() => {
+  const Y0 = 2025, Y1 = 2050;
+  const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+  const logistic = x => 1 / (1 + Math.exp(-x));
+  const EF = { coal: 0.0953, gas: 0.0531 }; // t CO2 per MMBtu (SOURCED: EIA coefficients)
+
+  // ---------- central world: every uncertain input lives here ----------
+  const WORLD = {
+    // fuel prices (SOURCED: EIA STEO June 2026, 2025 values)
+    gasPower: 3.9, coalPower: 2.42, coalVom: 4, emCal: 1.024, /* CALIBRATED to EIA 2025 coal output and power CO2 */ gasoline: 3.4, diesel: 3.9, jet: 2.4, gasBldg: 12.5, gasInd: 5.0,
+    elecRes: 17.3, elecCom: 13.4, elecInd: 8.6, // cents/kWh
+    // power fleet 2025 (SOURCED: EIA; gas CC/CT split and storage ASSUMED)
+    cap: { coal: 170, cc: 290, ct: 222, nuc: 99, wind: 154, solar: 151, stor: 43.6, ccs: 0 },
+    gen2025: 4429, hydroOther: 279, loadGrowth: 0.011, // SOURCED: EIA 2025 generation; AEO2026 growth 0.9-1.6%/yr
+    cf: { wind: 0.36, solar: 0.225, newWind: 0.40, newSolar: 0.26, nuc: 0.92 },
+    // new-build cost, $/kW 2025$ (SOURCED: EIA AEO2023 table x CPI; cross-checked to Lazard 2025 LCOE ranges)
+    capex: { solar: 1350, wind: 1900, cc: 1400, ct: 1000, ccs: 3450, stor: 1300, nuc: 8500 },
+    fom: { solar: 19, wind: 33, cc: 15, ct: 9, ccs: 34, stor: 46, nuc: 150, coal: 50 },
+    decline: { solar: 0.02, wind: 0.007, stor: 0.03 }, // ASSUMED annual real cost decline
+    fcr: 0.085, // ASSUMED fixed charge rate
+    // ---- build pipeline (replaces fixed annual build caps) ----
+    // SOURCED: EIA planned 2026 additions (solar 43.4 GW; wind ~10); LBNL Queued Up 2025 (408 GW with interconnection agreements; solar 68%, wind 19% of the generation queue;
+    //   median request-to-operation over 4 years); LBNL developer survey (one-third of siting applications cancelled);
+    //   Princeton REPEAT and DOE Needs Study (about 26 GW/yr of wind and solar per percentage point of annual transmission growth; ~1%/yr recently, ~2% long-run average);
+    //   GE Vernova (turbine output 20 GW/yr rising to 30 by 2030, sold out through 2030).
+    pipe0: { solar: 278, wind: 79 }, icTime: 4, attr: 0.33, withdraw: 0.05,
+    k0: { solar: 45, wind: 12 }, kGrow: { solar: 0.25, wind: 0.15 }, kShrink: 0.05,
+    txBase: 1.0, txLag: 0.25, gridPerPt: 26, gridBase: 24, gridRetire: 0.5, // gridBase is CALIBRATED so 2026 matches EIA's planned additions; gridRetire (reuse of retired plants' grid connections) ASSUMED
+    gasK: [12, 34],
+    // firm low-carbon options. SOURCED: DOE Advanced Nuclear Liftoff 2024 (SMR first-of-a-kind ~$13,000/kW, nth-of-a-kind large reactor ~$8,300/kW, first commercial SMRs mid-2030s,
+    //   13 GW/yr needed by 2041 for 200 GW by 2050); ORNL (1.41 GW of new conduit hydropower potential). Build ramps and learning rate ASSUMED.
+    kFirm0: { ccs: 2, nuc: 1 }, kFirmGrow: { ccs: 0.25, nuc: 0.25 }, firmStart: { ccs: 2032, nuc: 2033 },
+    nucCapex0: 13000, nucFloor: 6800, nucLearn: 0.08, nucVar: 11,
+    // federal grid build-out program (ASSUMED scale; direction SOURCED: Berkeley/GridLab find advanced conductors can quadruple capacity added by 2035, in 18-36 months per project)
+    gpTx: 0.8, gpRecon: 15, gpCost: 12,
+    // advanced nuclear, fusion and hydro program (ASSUMED design): 40% investment credit and federal loans for new reactors, first-unit cost share, fusion R&D, marine and conduit hydro support
+    npItc: 0.40, npFcr: 0.015, npGrow: 0.08, npFusion: 2, npConduit: 1.41, npWaveCap: 8, npWave0: 0.03, npWaveGrow: 0.35,
+    floor: { solar: 20, wind: 8.5 }, pipeline: { solar: 43.4, wind: 10 }, // CALIBRATED floor: state mandates and contracted projects; 2026-27 pipeline SOURCED (EIA)
+    // long-duration storage. SOURCED: DOE Long Duration Energy Storage Liftoff 2023 (multi-day systems: $1,900-2,500/kW and 45% round trip today; $1,100/kW and 55-60% needed by 2030;
+    //   supply chain of 3 GW/yr by 2030 and 10-15 by 2035). ASSUMED: the cost target is only partly met ($1,500/kW in 2035), supply starts at 1 GW/yr in 2030.
+    ldes: { capex0: 2200, capex35: 1500, decline: 0.015, rte0: 0.45, rte1: 0.57, fom: 25, k0: 1, kGrow: 0.3, kMax: 15, start: 2030 },
+    // batteries. SOURCED: NREL 2025 (4-hour system $334/kWh in 2024, $243 in 2035, $178 in 2050; of which power equipment about 28%). ASSUMED: new batteries lengthen from 4 hours to 8 by 2038, so 8-hour-plus systems are the norm for new installations by 2040, and to 10 by 2050.
+    //   storChem: new chemistries (sodium-ion, iron-based) make the energy part 30% cheaper than NREL's lithium-ion path by 2040. SOURCED direction: IEA says sodium-ion can cost 30% less than lithium iron phosphate; a 2025 bottom-up study finds only 3% by 2035.
+    storDur38: 8, storDurEnd: 10, storChem: 0.30,
+    // hydrogen burned in gas plants. Price path ASSUMED inside published ranges (IEA $2-4/kg from renewables; ICCT median $5.90 in 2050; BloombergNEF $0.80-1.00): $5/kg delivered in 2030, $2.50 in 2050.
+    //   Supply available to power plants ASSUMED: 1 Mt in 2032 rising to 15 Mt in 2050 (DOE's national strategy aims at 50 Mt for all uses). cr: restored 45V credit, $/kg.
+    h2: { p30: 5, p50: 2.5, s32: 1, s50: 15, cr: 3 },
+    coalSched: 4, // GW/yr scheduled coal retirements (ASSUMED)
+    q45: 85, ts: 25, // SOURCED: 45Q credit; CBO transport+storage cost
+    elecElast: -0.12, siteScale: 12, dispSpeed: 0.3, vfSolar: 2.2, vfWind: 0.8, curtSlope: 0.6, // ASSUMED; siteScale reflects the spread of Lazard's LCOE ranges
+    // light-duty vehicles (SOURCED: FHWA VM-1 2024, Cox 2025 EV share, BNEF pack price, KBB prices)
+    ldvSales: 16, evShare2025: 0.078, pack: 108, packDecline: 0.05, packFloor: 60, battKWh: 75, mpgNew: 28, mpgGrowth: 0.008,
+    evBeta: 0.06, evNet: 0.42, evNetSales: 0.45, payback: 6, vmtElast: -0.10, mpgElast: 0.2, // ASSUMED/CALIBRATED behavioral parameters
+    // trucks, aviation, other (SOURCED shares: EPA Fast Facts 2022)
+    trkBeta: 6, trkPrem0: 0.45, trkPremEnd: 0.15, trkAsc: -3.0, trkElast: -0.10, avElast: -0.15,
+    // buildings (ASSUMED/CALIBRATED)
+    hpPrem: 8, hpBeta: 0.15, hpAsc: -1.02, bldgElast: -0.10, bldgTrend: -0.002,
+    // industry (SOURCED: NETL capture costs x CPI + CBO T&S; subsector shares ASSUMED from DOE roadmap)
+    htShare: 0.45, htCost: 150, htMax: 0.8, safCost: [220, 400], safMax: [0.1, 0.5], stdSoft: 0.06, stdMpg: 0.01, /* high-temperature heat: 56% of process heat is above 200C (Energy Innovation); cost per ton from Columbia CGEP (capture ~$60, blue hydrogen ~$120, green ~$370). Jet fuel: ICCT ~EUR200/t for waste oils, RFF $142-478/t for ethanol-to-jet. stdSoft, stdMpg ASSUMED */
+    indElast: -0.15, ccsCostMult: 1, ccsRate: 0.10, lowTempShare: 0.15, refShare: 0.17, indTrend: 0.006, /* SOURCED: EIA AEO2026 Table 18, industrial direct CO2 grows 0.7% a year */
+    // methane abatement scale (SOURCED: EPA 2014 U.S. marginal abatement curves)
+    ch4Scale: 1,
+    // border adjustment. SOURCED: BEA supply-use tables (2017 detail scaled to 2022 summary) x EPA emission factors per dollar.
+    //   Exports: 211 Mt CO2e at U.S. intensity. Imports: 226 Mt if foreign producers matched U.S. intensity; 284 Mt (219 to 374) with ASSUMED per-product foreign/U.S. ratios (border.py). EPA's per-dollar import factors are not used: they compare broad foreign sectors with specific U.S. products.
+    impEmb: 284, expEmb: 211, originCredit: 0.15, // originCredit ASSUMED
+    // permitting reform at full effect (build limits SOURCED: Princeton REPEAT unconstrained vs 1%/yr transmission; rest ASSUMED)
+    pmTx: 1.0, pmIc: 1.5, pmAttr: 0.05, pmFloor: 0.25, pmValue: 0.25, pmCurt: 0.05, gpCurt: 0.05, /* ASSUMED: long-distance lines let more wind and solar be used before output is wasted */ pmCcs: 0.5, // transmission growth back to ~2%/yr (its 1978-2020 average), faster interconnection, fewer federal-nexus cancellations
+    feeTx: 0.15, crTx: 0.3, crK: 0.05, // ASSUMED: a fee strengthens the case for new lines; the credit bill includes a transmission investment credit and manufacturing credits
+    // restored credits (SOURCED: IRA statutory values; take-up and pass-through ASSUMED)
+    crItc: 0.38, crPtc: 34, crEv: 6800, crEvTake: 0.85, crUsed: 1000, crTruck: 0.08, crHp: 6.9, crPack: 15, crYears: 10, crCharge: 0.03, crInd: 0.15, // ITC and PTC include average bonus adders (ASSUMED 8 points and 10%)
+  };
+  // Monte Carlo ranges [low, high] around the central value (triangular)
+  const RANGES = {
+    gasPower: [3.0, 5.5], loadGrowth: [0.008, 0.016], 'decline.solar': [0.005, 0.035], 'decline.stor': [0.01, 0.05],
+    gridPerPt: [18, 36], gridBase: [16, 32], gridRetire: [0.2, 0.8], icTime: [3, 5.5], attr: [0.2, 0.45], 'kGrow.solar': [0.15, 0.35], 'kGrow.wind': [0.08, 0.25], txBase: [0.7, 1.3], pmTx: [0.5, 1.5], 'kFirm0.ccs': [1, 4], 'kFirmGrow.ccs': [0.12, 0.35], 'kFirmGrow.nuc': [0.12, 0.35], nucLearn: [0, 0.15], nucCapex0: [10000, 16000], gpTx: [0.4, 1.2], gpRecon: [8, 30], 'floor.solar': [10, 30], 'floor.wind': [4, 13],
+    packDecline: [0.02, 0.08], evBeta: [0.04, 0.09], evNet: [0.25, 0.6], evNetSales: [0.25, 0.65], packFloor: [45, 70], crCharge: [0.01, 0.05], payback: [4, 10], vmtElast: [-0.2, -0.05],
+    trkPremEnd: [0.05, 0.3], hpPrem: [5, 12], hpBeta: [0.08, 0.25], bldgElast: [-0.2, -0.05],
+    indElast: [-0.3, -0.05], ccsCostMult: [0.8, 1.6], ccsRate: [0.05, 0.15], ch4Scale: [0.7, 1.2],
+    impEmb: [219, 374], expEmb: [170, 230], gasoline: [2.9, 4.2],
+    pmValue: [0.1, 0.4], feeTx: [0, 0.3], crTx: [0.1, 0.5], crEvTake: [0.6, 1.0],
+    indTrend: [0.002, 0.009],
+    siteScale: [8, 18], dispSpeed: [0.15, 0.5], vfSolar: [1.5, 3.0], vfWind: [0.5, 1.2], curtSlope: [0.4, 0.9], coalSched: [2, 7], fcr: [0.07, 0.10],
+    'capex.solar': [1100, 1700], 'capex.wind': [1600, 2500], lowTempShare: [0.08, 0.25], htCost: [100, 250], 'ldes.capex35': [1100, 2200], 'h2.p50': [1.5, 4.5], 'h2.s50': [5, 30], storDur38: [5, 10], storChem: [0.03, 0.45], storDurEnd: [8, 14], htShare: [0.35, 0.55], stdSoft: [0.03, 0.1], trkBeta: [4, 9], mpgElast: [0.1, 0.3], 'cf.newSolar': [0.23, 0.29],
+  };
+
+  // EPA inventory 2022 (SOURCED: Inventory 1990-2022, Table 2-1), Mt CO2e
+  const INV = { cement: 41.9, steel: 40.7, ngCO2: 36.5, petCO2: 22.0, petchem: 28.8, ammonia: 12.6, lime: 12.2, waste: 12.4, carbonates: 10.4, neu: 116.0,
+    ch4Gas: 173.1, ch4Oil: 39.6, ch4Coal: 50.0, ch4Landfill: 119.8, n2oInd: 10.7, hfc: 178.1, bunkers: 83.2 };
+  const E25 = { power: 1485, transport: 1871, industry: 960, buildings: 587 }; // SOURCED: EIA 2025
+  const TR = { ldv: 0.572, trk: 0.228, av: 0.094, oth: 0.106 }; // SOURCED: EPA Fast Facts
+  const NET2005 = 6536, NET2025 = 5360, E2005 = 5999; // SOURCED: EPA net 2005; Rhodium 2025 (18% below); EIA: 2023 energy CO2 (4,799) was 20% below 2005
+  const HFC_BASE = 304, hfcCap = y => y <= 2028 ? 0.6 : y <= 2033 ? 0.3 : y <= 2035 ? 0.2 : 0.15; // SOURCED: AIM Act schedule
+  const FOOT = [3.8, 5.3, 6.2, 7.3, 8.2, 9.5, 10.2, 12.1, 14.5, 20.7]; // SOURCED: Fremstad & Paul 2019
+  const SCC = { '2.5': [140, 170, 200], '2.0': [230, 270, 310], '1.5': [380, 430, 480] }; // SOURCED: EPA 2023, 2020$
+  const pop = y => y <= 2036 ? 349 + 0.8 * (y - 2026) : 357 + 0.35 * (y - 2036); // SOURCED: CBO 2026 endpoints
+
+  const POLICY = {
+    startYear: 2030, startPrice: 40, step: 8, stepType: 'linear', ratchet: true, ratchetExtra: 4,
+    target2035: 0.35, target2050: 0.55, freezeAt: 0.85,
+    dividendShare: 0.90, offset: 0.25, admin: 0.015, sccRate: '2.0',
+    cover: { process: true, methane: true, fgas: true, border: true, bunkers: false }, fgasRate: 0.2,
+    credits: false, permitYear: null, standards: false, grid: false, nuclear: false, // companion measures: restored clean energy tax credits from 2030; permitting reform enacted in permitYear
+  };
+
+  // ---------- power: screening-curve dispatch on a linear residual load-duration curve ----------
+  const NB = 40;
+  function tranches(S, w, P, y) {
+    const inc = Math.max(P, y <= (S.q45End || 2035) + 12 ? w.q45 : 0); // capture incentive per stored ton (fee avoided or 45Q, not both); 45Q pays for 12 years
+    const t = [];
+    const add = (k, gw, hr, fuel, ef, vom, avail, extra) => { if (gw > 0.01) t.push({ k, gw: gw * avail, hr, ef: hr * ef, vc: hr * fuel + vom + P * hr * ef + (extra || 0) }); };
+    add('coal', S.coal * 0.3, 9.8, w.coalPower, EF.coal, w.coalVom, 0.8); add('coal', S.coal * 0.4, 10.5, w.coalPower, EF.coal, w.coalVom, 0.8); add('coal', S.coal * 0.3, 11.6, w.coalPower, EF.coal, w.coalVom, 0.8);
+    add('cc', S.cc * 0.35, 6.5, w.gasPower, EF.gas, 2.1, 0.87); add('cc', S.cc * 0.4, 7.0, w.gasPower, EF.gas, 2.1, 0.87); add('cc', S.cc * 0.25, 7.7, w.gasPower, EF.gas, 2.1, 0.87);
+    add('ct', S.ct * 0.5, 10.0, w.gasPower, EF.gas, 5, 0.9); add('ct', S.ct * 0.5, 11.5, w.gasPower, EF.gas, 5, 0.9);
+    const capt = 7.124 * EF.gas * 0.9;
+    if (S.ccs > 0.01) t.push({ k: 'ccs', gw: S.ccs * 0.85, hr: 7.124, ef: 7.124 * EF.gas * 0.1, vc: 7.124 * w.gasPower + 6.6 + w.ts * capt + P * 7.124 * EF.gas - inc * capt });
+    return t.sort((a, b) => a.vc - b.vc);
+  }
+  function dispatch(S, G, P, w, y) {
+    const windE = S.windE, solE = S.solE, nucE = S.nuc * w.cf.nuc * 8.76;
+    const storE = S.storE || S.stor * 4, dur = storE / S.stor, storShift = storE * 0.365, stC = Math.min(0.85, 0.6 + 0.05 * (dur - 4)); // TWh/yr shifted; longer batteries shift more and count for more at the peak
+    const vs = (windE + solE) / G, thr = 0.42 + w.pmCurt * (S.phi || 0) + w.gpCurt * (S.gp || 0) + Math.min(Math.min(0.2, 0.13 * dur / 4), 3 * storShift / G);
+    const curt = clamp(w.curtSlope * (vs - thr), 0, 0.5);
+    const vre = (windE + solE) * (1 - curt);
+    const R = Math.max(0, G - nucE - (w.hydroOther + (S.hyd || 0)) - vre), avg = R / 8.76;
+    const solShare = solE / G, credS = clamp(0.35 - 1.2 * solShare, 0.04, 0.35);
+    const peak = G / 8.76 * 1.5;
+    let Lmax = peak - S.nuc * w.cf.nuc - (w.hydroOther + (S.hyd || 0)) / 8.76 - S.wind * 0.12 - S.solar * credS - S.stor * stC;
+    Lmax = Math.max(Lmax, avg * 1.2); const Lmin = Math.max(0, 2 * avg - Lmax), tau = Math.min(1, 2 * avg / Lmax);
+    const T = tranches(S, w, P, y), gen = {}, hrs = 8760 / NB, surplus = (windE + solE) * curt;
+    if ((S.ldes || 0) > 0.01) T.unshift({ k: 'ldes', gw: S.ldes * 0.9, hr: 0, ef: 0, vc: 5, eLeft: surplus * (S.ldesRte || 0.45) }); // long-duration storage: charged only from wind and solar output that would otherwise be wasted
+    let emis = 0, vcost = 0, priceSum = 0, unserved = 0; const margin = T.map(() => 0);
+    for (let b = 0; b < NB; b++) {
+      const x = (b + 0.5) / NB, L = Lmin > 0 ? Lmax - (Lmax - Lmin) * x : Math.max(0, Lmax * (1 - x / tau)); let rem = L, price = 0;
+      for (let i = 0; i < T.length && rem > 1e-9; i++) { const g = T[i].eLeft === undefined ? Math.min(T[i].gw, rem) : Math.min(T[i].gw, rem, T[i].eLeft * 1000 / hrs); if (T[i].eLeft !== undefined) T[i].eLeft -= g * hrs / 1000; rem -= g; price = T[i].vc; T[i]._g = (T[i]._g || 0) + g * hrs / 1000; }
+      if (rem > 1e-9) { price = 250; unserved += rem * hrs / 1000; }
+      priceSum += price;
+      T.forEach((t, i) => { margin[i] += Math.max(0, price - t.vc) * hrs / 1000; });
+    }
+    // hydrogen: gas plants burn it instead of gas where it is cheaper including the fee, up to the supply available
+    let h2Mt = 0; const H = S.h2, gasT = T.filter(t => (t.k === 'cc' || t.k === 'ct') && (t._g || 0) > 0);
+    if (H && gasT.length) { const sh = t => logistic(t.hr * (w.gasPower + P * EF.gas - H.mm) / w.siteScale), want = gasT.reduce((a, t) => a + t._g * sh(t) * t.hr, 0), f = Math.min(1, H.mt * 134 / Math.max(1e-9, want));
+      gasT.forEach(t => { t._h = t._g * sh(t) * f; h2Mt += t._h * t.hr / 134; }); }
+    T.forEach(t => { const g = t._g || 0, h = t._h || 0; gen[t.k] = (gen[t.k] || 0) + g - h; if (h) gen.h2 = (gen.h2 || 0) + h; emis += (g - h) * t.ef * w.emCal; vcost += g * (t.vc - P * t.ef) + (h ? h * t.hr * (H.mm - w.gasPower) : 0); });
+    const curtNet = Math.max(0, curt - (gen.ldes || 0) / (S.ldesRte || 0.45) / Math.max(1, windE + solE));
+    const firm = S.nuc * w.cf.nuc + (w.hydroOther + (S.hyd || 0)) / 8.76 + (S.coal * 0.8 + S.cc * 0.87 + S.ct * 0.9 + S.ccs * 0.85) + S.wind * 0.12 + S.solar * credS + S.stor * stC + (S.ldes || 0) * 0.9;
+    const coalCF = S.coal > 0.5 ? (gen.coal || 0) / (S.coal * 8.76) : 0;
+    // marginal cost of the dearest running coal and cc tranche (for displacement decisions)
+    return { gen, emis, vcost, price: priceSum / NB, curt, vs, solShare, windShare: windE / G, firm, peak, coalCF, T, margin, unserved, storShift, surplus, curtNet, h2Mt, stC,
+      windE, solE, nucE, vre };
+  }
+
+  function expected(pol, y) { // investors look ten years ahead on the statutory schedule (no ratchet)
+    if (y < pol.startYear - 1 || pol.startPrice <= 0) return 0; let s = 0;
+    for (let k = 0; k < 10; k++) { const yy = Math.max(y + k, pol.startYear), n = yy - pol.startYear; s += (y + k < pol.startYear) ? 0 : (pol.stepType === 'linear' ? pol.startPrice + pol.step * n : pol.startPrice * Math.pow(1 + pol.step / 100, n)); }
+    return s / 10;
+  }
+
+  // ---------- one simulation ----------
+  function simulate(polIn, w, pricePath) {
+    const pol = Object.assign({}, POLICY, polIn); pol.cover = Object.assign({}, POLICY.cover, polIn && polIn.cover);
+    const S = Object.assign({}, w.cap); S.storE = S.stor * 4; S.ldes = 0; let KL = null; S.windE = S.wind * w.cf.wind * 8.76; S.solE = S.solar * w.cf.solar * 8.76;
+    // vehicles: cohorts by age
+    const AG = 36, surv = a => 1 / (1 + Math.exp((a - 17) / 4));
+    const hist = [0.078, 0.081, 0.076, 0.058, 0.032, 0.018, 0.015, 0.012, 0.01, 0.006]; // EV share of sales, 2025 back to 2016 (2025 SOURCED; earlier ASSUMED)
+    const ice = [], ev = [], mpg = [];
+    for (let a = 0; a < AG; a++) { const n = w.ldvSales * surv(a), e = hist[a] || 0; ev.push(n * e); ice.push(n * (1 - e)); mpg.push(w.mpgNew * Math.pow(0.988, a)); }
+    const vw = a => Math.max(0.35, 1.3 - 0.03 * a);
+    const soft = (std, mkt) => std <= 0 ? mkt : Math.min(0.99, std + w.stdSoft * Math.log(1 + Math.exp((mkt - std) / w.stdSoft))); // carmakers differ: some are held up by the standard even when the average is above it
+    let hiT = 0, saf = 0, sLag1 = null, sLag2 = null, infra = 0, ldvScale = null, evAsc = null, trkE = 0.005, hp = 0, lowT = 0, indEff = 0, bEff = 0, capNew = 0, fomBase = null, avg0 = null, retailAdj = 0;
+    const ccsS = { gasproc: 0, ammonia: 0, cement: 0, steel: 0, refH2: 0 };
+    let KC = null, KN = null, nucCum = 1, wave = 0, tx = null, PS = null, PW = null, KS = null, KW = null, bld = { want: 0, ready: 0, grid: 0, industry: 0, built: 0, tx: 0 }, credNext = 0, load0 = 0, powerPrev = 9999, windElig = [], credCost = 0, price = 0, missedPrev = false, frozen = false, ratchetYears = 0, cumAb = 0, e2029 = null, elecLoadPrev = 0, dElast = 0;
+    const rows = [];
+    for (let y = Y0; y <= Y1; y++) {
+      const n = y - Y0;
+      // --- fee ---
+      if (pricePath) price = pricePath(y);
+      else if (y < pol.startYear) price = 0;
+      else if (y === pol.startYear) price = pol.startPrice;
+      else if (!frozen) { const ex = pol.ratchet && missedPrev ? pol.ratchetExtra : 0; if (ex) ratchetYears++; price += (pol.stepType === 'linear' ? pol.step : price * pol.step / 100) + ex; }
+      const P = price, Pe = pricePath ? (pricePath(y) + pricePath(Math.min(Y1, y + 5)) + pricePath(Math.min(Y1, y + 9))) / 3 : Math.max(expected(pol, y), P);
+      const dRes = retailAdj, eRes = w.elecRes + dRes, eCom = w.elecCom + dRes, eInd = w.elecInd + dRes; // cents/kWh
+
+      const credPower = credNext;
+      const phi = pol.permitYear ? clamp((y - pol.permitYear) / 4, 0, 1) : 0; S.phi = phi; S.gp = pol.grid ? clamp((y - 2031) / 6, 0, 1) : 0; S.q45End = pol.credits ? 2045 : 2035; // current law: construction must start by end-2032, so plants online by about 2035; the credit bill extends it ten years
+      const crOn = pol.credits && y >= 2030, cy = y - (2030 + w.crYears), crCons = !crOn ? 0 : cy < 0 ? 1 : cy === 0 ? 0.75 : cy === 1 ? 0.5 : 0, // consumer credits: ten years, then 75% and 50%
+         crPow = crOn && (y < 2032 || powerPrev > 383); // IRA phase-out: power CO2 at 25% of 2022
+      const erode = Math.pow(1.025, -(y - 2029)); credCost = 0;
+      // --- light-duty vehicles ---
+      const gasP = w.gasoline + 0.0085 * P, gasPe = w.gasoline + 0.0085 * Pe;
+      const packP = Math.max(w.packFloor, w.pack * Math.pow(1 - w.packDecline, n)) - (crCons ? w.crPack : 0);
+      const evCr = crCons * (w.crEv * erode * w.crEvTake + w.crUsed);
+      const prem = w.battKWh * packP * 1.4 - 5000 - evCr;
+      if (crCons && y > 2030) infra += w.crCharge * crCons; // restored charging credit: lasting improvement in charging access
+      const mpgN = w.mpgNew * Math.pow(1 + w.mpgGrowth, n) * Math.pow(gasPe / w.gasoline, w.mpgElast) * (pol.standards ? Math.pow(1 + w.stdMpg, clamp(y - 2031, 0, 9)) : 1); // the standard is grams per mile, so gasoline cars improve too
+      const save = w.payback * (12000 / mpgN * gasPe - 12000 * 0.30 * eRes / 100);
+      const stockEV = ev.reduce((a, b) => a + b, 0), stock = stockEV + ice.reduce((a, b) => a + b, 0);
+      const uCost = -w.evBeta * (prem - save) / 1000, uNet = w.evNet * Math.log((stockEV / stock) / 0.02) + (sLag1 === null ? 0 : w.evNetSales * Math.log(((sLag1 + sLag2) / 2) / w.evShare2025)) + infra;
+      if (evAsc === null) evAsc = Math.log(w.evShare2025 / (1 - w.evShare2025)) - uCost - uNet;
+      const stdLdv = pol.standards && y >= 2032 ? (y <= 2037 ? 0.25 + 0.05 * (y - 2032) : y <= 2040 ? 0.5 + 0.17 * (y - 2037) / 3 : Math.min(1, 0.67 + 0.033 * (y - 2040))) : 0; // successor rules: 100% by 2050
+      const evS = y === Y0 ? w.evShare2025 : soft(stdLdv, logistic(evAsc + uCost + uNet));
+      sLag2 = sLag1 === null ? evS : sLag1; sLag1 = evS;
+      if (y > Y0) { for (let a = AG - 1; a > 0; a--) { const r = surv(a) / surv(a - 1); ice[a] = ice[a - 1] * r; ev[a] = ev[a - 1] * r; mpg[a] = mpg[a - 1]; } ice[0] = w.ldvSales * (1 - evS); ev[0] = w.ldvSales * evS; mpg[0] = mpgN; }
+      if (crCons) credCost += w.ldvSales * evS * (evCr + crCons * 45 * w.battKWh * 0.6) / 1000; // 30D plus 45X on domestic cells, $bn
+      const vmtF = Math.pow(gasP / w.gasoline, w.vmtElast);
+      let gal = 0, evKWh = 0;
+      for (let a = 0; a < AG; a++) { gal += ice[a] * vw(a) * 10.8 * vmtF / mpg[a]; evKWh += ev[a] * vw(a) * 10.8 * 0.30; } // million veh x thousand miles = bn miles
+      if (ldvScale === null) ldvScale = E25.transport * TR.ldv / gal;
+      const ldv = gal * ldvScale;
+      // --- trucks, aviation, other ---
+      const dslP = w.diesel + 0.0102 * P, dslPe = w.diesel + 0.0102 * Pe;
+      const tprem = w.trkPrem0 + (w.trkPremEnd - w.trkPrem0) * Math.min(1, n / 15) - crCons * w.crTruck * erode;
+      const stdTrk = pol.standards && y >= 2032 ? (y <= 2037 ? 0.05 + 0.05 * (y - 2032) : Math.min(0.65, 0.30 + 0.027 * (y - 2037))) : 0; // successor rules: 65% by 2050
+      const trkS = soft(stdTrk, logistic(w.trkAsc + w.trkBeta * (dslPe / 6.8 - 2.0 * eCom / 100 - tprem)));
+      if (y > Y0) trkE += (trkS - trkE) / 14;
+      if (crCons) credCost += crCons * 0.55 * trkS * 20000 * erode / 1000; // 45W: 0.55m truck sales (ASSUMED), $20k average
+      const trk = E25.transport * TR.trk * Math.pow(1.005, n) * (1 - trkE) * Math.pow(dslP / w.diesel, w.trkElast);
+      const trkTWh = E25.transport * TR.trk * Math.pow(1.005, n) * trkE / 0.0102 / 6.8 * 2.0 / 1000; // Mt -> bn gal -> bn mi -> TWh
+      if (y > Y0) saf += 0.15 * (w.safMax[0] * logistic((Pe - w.safCost[0]) / 40) + w.safMax[1] * logistic((Pe - w.safCost[1]) / 80) - w.safMax[0] * logistic(-w.safCost[0] / 40) - w.safMax[1] * logistic(-w.safCost[1] / 80) - saf); // low-carbon jet fuel: waste oils first (limited supply), then alcohol-to-jet and synthetic
+      const av = E25.transport * TR.av * Math.pow(1.005, n) * Math.pow((w.jet + 0.00957 * P * (1 - saf)) / w.jet, w.avElast) * (1 - saf);
+      const oth = E25.transport * TR.oth * Math.pow(dslP / w.diesel, -0.1);
+      const transport = ldv + trk + av + oth;
+      const petIdx = (ldv + trk + av) / (E25.transport * (1 - TR.oth));
+
+      // --- buildings: heating stock turnover ---
+      const fossH = (w.gasBldg + EF.gas * 1000 * Pe / 1000) / 0.85, hpH = ((eRes + eCom) / 2) / 100 * 293.07 / 2.8;
+      const hpS = logistic(w.hpAsc - w.hpBeta * (hpH + w.hpPrem - crCons * w.crHp * erode - fossH));
+      if (crCons) credCost += crCons * 84 * (1 - hp) / 18 * hpS * 3000 * erode / 1000; // 25C: 84m fossil-heated homes (ASSUMED from RECS shares)
+      if (y > Y0) hp += (1 - hp) / 18 * hpS;
+      bEff += 0.2 * ((1 - Math.pow((w.gasBldg + 53.1 * P / 1000) / w.gasBldg, w.bldgElast)) - bEff);
+      const bBase = E25.buildings * Math.pow(1 + w.bldgTrend, n);
+      const buildings = bBase * (1 - hp) * (1 - bEff);
+      const hpTWh = bBase * hp / EF.gas * 0.85 / 2.8 / 3.412; // Mt -> TBtu -> TWh
+
+      // --- industry: efficiency, low-temperature electrification, capture ---
+      const iBase = E25.industry * Math.pow(1 + w.indTrend, n);
+      const refining = iBase * w.refShare * (0.4 + 0.6 * petIdx);
+      const otherInd = iBase * (1 - w.refShare);
+      indEff += 0.15 * ((1 - Math.pow((7 + 0.06 * P) / 7, w.indElast)) - indEff);
+      const heatGap = (eInd / 100 * 293.07 / 3 + 2) - (w.gasInd / 0.8); // $/MMBtu useful heat, heat pump vs gas boiler
+      const ltCost = heatGap / (EF.gas / 0.8); // $/t abated before the fee
+      const cRate = w.ccsRate * (1 + 0.3 * phi);
+      const indCr = crOn && cy < 2 ? w.crInd : 0; // industrial investment credits and grants
+      lowT += cRate * (logistic((Pe - ltCost * (1 - indCr)) / 15) - lowT);
+      const inc = Math.max(Pe, y <= S.q45End ? w.q45 : 0);
+      const cCost = { gasproc: 16.1, ammonia: 19.0, cement: 60.8, steel: 65.9, refH2: 57.3 }; // SOURCED: NETL 2018$
+      for (const k in ccsS) { const c = (cCost[k] * 1.27 + w.ts) * w.ccsCostMult * (1 - indCr); if (y > Y0) ccsS[k] += cRate * (logistic((inc - c) / 12) - ccsS[k]); }
+      if (y > Y0) hiT += cRate * 0.5 * (logistic((Pe - w.htCost * (1 - indCr)) / 40) - logistic(-w.htCost / 40) - hiT); // furnaces and kilns: capture, hydrogen or electric heat; slow because the equipment lasts decades
+      const ltAb = otherInd * w.lowTempShare * lowT, htAb = otherInd * w.htShare * w.htMax * Math.max(0, hiT);
+      const refAb = refining * 0.25 * 0.9 * ccsS.refH2;
+      const industry = (refining - refAb) + (otherInd - ltAb - htAb) * (1 - indEff);
+      const ltTWh = ltAb / (EF.gas / 0.8) / 3 / 3.412;
+      const proc = { cement: INV.cement * (1 - 0.9 * ccsS.cement), steel: INV.steel * (1 - 0.6 * ccsS.steel), ngCO2: INV.ngCO2 * (1 - 0.9 * ccsS.gasproc), ammonia: INV.ammonia * (1 - 0.9 * ccsS.ammonia),
+        other: INV.petCO2 + INV.petchem + INV.lime + INV.waste + INV.carbonates + INV.neu * (0.5 + 0.5 * petIdx) };
+      const process = proc.cement + proc.steel + proc.ngCO2 + proc.ammonia + proc.other;
+      const stored = refAb + INV.cement * 0.9 * ccsS.cement + INV.steel * 0.6 * ccsS.steel + INV.ngCO2 * 0.9 * ccsS.gasproc + INV.ammonia * 0.9 * ccsS.ammonia;
+
+      // --- power: demand, dispatch, then retirement and investment for next year ---
+      const elecLoad = evKWh + trkTWh + hpTWh + ltTWh;
+      dElast += 0.3 * ((1 - Math.pow(Math.max(0.5, (13.2 + dRes) / 13.2), w.elecElast)) - dElast);
+      if (y === Y0) load0 = elecLoad;
+      const G = w.gen2025 * Math.pow(1 + w.loadGrowth, n) * (1 - dElast) + (elecLoad - load0) * 1.05;
+      const L = w.ldes, h2Cr = pol.credits && y >= 2030 ? w.h2.cr * (y <= 2040 ? 1 : clamp((2045 - y) / 5, 0, 1)) : 0; // restored hydrogen credit: ten years of output for plants started in the 2030s
+      S.ldesRte = L.rte0 + (L.rte1 - L.rte0) * clamp((y - 2025) / 10, 0, 1);
+      S.h2 = y >= 2032 ? { mm: (w.h2.p30 * Math.pow(w.h2.p50 / w.h2.p30, clamp((y - 2030) / 20, 0, 1)) - h2Cr) / 0.134, mt: w.h2.s32 + (w.h2.s50 - w.h2.s32) * (y - 2032) / 18 } : null;
+      const d = dispatch(S, G, P, w, y);
+      const power = d.emis; credCost += d.h2Mt * h2Cr;
+      if (fomBase === null) fomBase = S.coal * w.fom.coal;
+      const fixed = capNew + (S.coal * w.fom.coal - fomBase) / 1000;                  // $bn/yr vs 2025
+      const avgCost = (d.vcost + P * d.emis + fixed * 1000) / G;                       // $/MWh
+      if (avg0 === null) avg0 = avgCost;
+      const retailNext = (avgCost - avg0) / 10;                                         // cents/kWh
+
+      // --- non-CO2 and other covered sources ---
+      const mAb = pol.cover.methane ? P : 0;
+      const ogAb = w.ch4Scale * (0.27 * (1 - Math.exp(-mAb / 10)) + 0.045 * Math.min(1, mAb / 15) + 0.135 * Math.min(1, mAb / 100));
+      const coalIdx = (d.gen.coal || 0) / 753;
+      const ch4OG = (INV.ch4Gas + INV.ch4Oil) * (1 - Math.min(0.6, ogAb));
+      const ch4Coal = INV.ch4Coal * (0.15 + 0.85 * coalIdx) * (1 - w.ch4Scale * (0.06 * (mAb > 0 ? 1 : 0) + 0.38 * Math.min(1, mAb / 60)));
+      const ch4LF = INV.ch4Landfill * (1 - w.ch4Scale * 0.11 * Math.min(1, mAb / 50));
+      const n2o = INV.n2oInd * (1 - (pol.cover.process ? 0.55 * Math.min(1, P / 20) + 0.17 * Math.min(1, P / 100) : 0));
+      const hfcCons = HFC_BASE * hfcCap(y), hfcEmis = INV.hfc * (0.35 + 0.65 * (0.5 * hfcCap(y) + 0.5 * hfcCap(y - 8)) / 0.6);
+      const methane = ch4OG + ch4Coal + ch4LF;
+
+      // --- totals, revenue, dividend ---
+      const energy = power + transport + industry + buildings;
+      const coveredOther = process + methane + n2o + hfcEmis;
+      const ghgNet = energy + coveredOther + (NET2025 - (E25.power + E25.transport + E25.industry + E25.buildings) - rows0Other(w));
+      const imp = w.impEmb * Math.pow(1 + 0.06 * P / 100, -0.5);
+      const rev = { power: P * power, transport: P * transport, industry: P * industry, buildings: P * buildings,
+        process: pol.cover.process ? P * (process + n2o) : 0, methane: pol.cover.methane ? P * methane : 0,
+        fgas: pol.cover.fgas ? P * pol.fgasRate * hfcCons : 0,
+        border: pol.cover.border ? P * (imp * (1 - w.originCredit) - w.expEmb * (industry + process) / (E25.industry + rows0Proc())) : 0, // export rebates shrink as U.S. industry cleans up
+        bunkers: pol.cover.bunkers ? P * INV.bunkers : 0 };
+      for (const k in rev) rev[k] /= 1000; // $bn
+      const gross = Object.values(rev).reduce((a, b) => a + b, 0);
+      const net = gross * (1 - pol.offset), poolD = net * pol.dividendShare * (1 - pol.admin);
+      const pp = pop(y), perShare = poolD * 1000 / (pp * 0.885);
+      if (y === 2029) e2029 = energy;
+      const t35 = E2005 * (1 - pol.target2035), t50 = E2005 * (1 - pol.target2050);
+      const target = e2029 !== null && y >= pol.startYear ? (y <= 2035 ? e2029 + (t35 - e2029) * (y - 2029) / 6 : t35 + (t50 - t35) * Math.min(1, (y - 2035) / 15)) : null;
+      missedPrev = target !== null && energy > target; frozen = energy <= E2005 * (1 - pol.freezeAt);
+      const fMean = FOOT.reduce((a, b) => a + b, 0) / 10, costPc = net * 1000 / pp, divPc = poolD * 1000 / pp;
+      rows.push({ year: y, price: P, power, transport, ldv, industry, buildings, energy, process, methane, n2o, hfc: hfcEmis, covered: energy + coveredOther, ghgNet, target,
+        below2005: 1 - energy / E2005, ghgBelow2005: 1 - ghgNet / NET2005, rev, gross, net, pool: poolD, transition: net * (1 - pol.dividendShare), perShare, family4: perShare * 3,
+        gen: Object.assign({ nuclear: d.nucE, hydro: w.hydroOther + (S.hyd || 0), wind: d.windE * (1 - d.curt), solar: d.solE * (1 - d.curt) }, d.gen), G, cap: Object.assign({}, S), coalCF: d.coalCF,
+        credits: credCost + credPower, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
+        gasoline: 0.0085 * P, natgas: 0.0551 * P, elecDelta: dRes, deciles: FOOT.map(f => divPc - costPc * f / fMean), pop: pp, unserved: d.unserved, missed: missedPrev });
+
+      // --- investment for next year (uses the expected fee) ---
+      const dx = Math.abs(Pe - P) > 0.5 ? dispatch(S, G, Pe, w, y) : d;
+      const nn = n + 1;
+      if (tx === null) { tx = w.txBase; PS = w.pipe0.solar; PW = w.pipe0.wind; KS = w.k0.solar; KW = w.k0.wind; }
+      const crNext = pol.credits && y + 1 >= 2030 && (y + 1 < 2032 || power > 383);
+      const stItc = crNext ? w.crItc : (y + 1 <= 2033 ? 0.3 : y + 1 === 2034 ? 0.225 : y + 1 === 2035 ? 0.15 : 0); // storage credit survives to 2035 under current law
+      const cS0 = w.capex.solar * Math.pow(1 - w.decline.solar, nn), cSt0 = w.capex.stor * Math.pow(1 - w.decline.stor, nn);
+      const cS = cS0 * (crNext ? 1 - w.crItc : 1), cW = w.capex.wind * Math.pow(1 - w.decline.wind, nn), cSt = cSt0 * (1 - stItc);
+      const ptcLev = crNext ? w.crPtc * 0.59 : 0, pmF = 1 + w.pmFloor * phi;
+      const lc = (cx, fom, cf) => (cx * w.fcr + fom) / (cf * 8.76);
+      const vfS = clamp(1 - w.vfSolar * (1 - w.pmValue * phi) * d.solShare + 3 * d.storShift / G, 0.25, 1), vfW = clamp(1 - w.vfWind * (1 - w.pmValue * phi) * d.windShare, 0.4, 1);
+      const ctFirm = (w.capex.ct * w.fcr + w.fom.ct) / 8.76; // $/MWh-equivalent of firming one average kW
+      const mc = 1 - Math.min(0.8, 2 * d.curtNet); // marginal curtailment is about twice the average
+      const effS = lc(cS, w.fom.solar, w.cf.newSolar) / vfS / mc + 0.25 * ctFirm, effW = (lc(cW, w.fom.wind, w.cf.newWind) - ptcLev) / vfW / mc + 0.3 * ctFirm;
+      const capt = 7.124 * EF.gas * 0.9, incE = Math.max(Pe, y + 1 <= S.q45End ? w.q45 : 0);
+      const effCC0 = lc(w.capex.cc, w.fom.cc, 0.6) + 6.37 * w.gasPower + 2.1 + Pe * 6.37 * EF.gas;
+      const effCCS = lc(w.capex.ccs * w.ccsCostMult, w.fom.ccs, 0.8) + 7.124 * w.gasPower + 6.6 + w.ts * capt + Pe * 7.124 * EF.gas - incE * capt;
+      const effCC = pol.standards && y + 1 >= 2033 ? Math.max(effCC0, effCCS) + 5 : effCC0; // rule: new baseload gas needs capture
+      const nucCx = Math.max(w.nucFloor, w.nucCapex0 * Math.pow(nucCum, Math.log2(1 - w.nucLearn)));
+      const nucItc = pol.nuclear && y + 1 >= 2030 ? w.npItc : (y + 1 <= 2033 ? 0.3 : y + 1 === 2034 ? 0.225 : y + 1 === 2035 ? 0.15 : 0); // current law keeps the nuclear credit to 2035
+      const nucFcr = w.fcr - (pol.nuclear && y + 1 >= 2030 ? w.npFcr : 0);
+      const effN = (nucCx * (1 - nucItc) * nucFcr + w.fom.nuc) / (w.cf.nuc * 8.76) + w.nucVar;
+      const best = Math.min(effS, effW, effCC, effCCS, effN);
+      // coal retirement: scheduled, plus economic when going-forward cost exceeds the cheapest replacement
+      const coalT = dx.T.filter(t => t.k === 'coal'), coalVC = coalT.length ? coalT.reduce((a, t) => a + t.vc, 0) / coalT.length : 0;
+      const coalGF = coalVC + w.fom.coal / (Math.max(0.15, dx.coalCF) * 8.76);
+      let ret = Math.min(S.coal, w.coalSched) + S.coal * 0.15 * logistic((coalGF - best) / 8) + (dx.coalCF < 0.15 ? S.coal * 0.15 : 0);
+      if (pol.standards && y + 1 >= 2033) ret += S.coal / Math.max(1, 2040 - y); // reinstated power plant rule: unabated coal out by 2040
+      ret = Math.min(S.coal, ret); S.coal -= ret;
+      // energy need next year and economic displacement of running fossil plant
+      const need = Math.max(0, w.gen2025 * Math.pow(1 + w.loadGrowth, nn) - w.gen2025 * Math.pow(1 + w.loadGrowth, n)) + Math.max(0, elecLoad - elecLoadPrev) + ret * dx.coalCF * 8.76 * 0.5;
+      elecLoadPrev = elecLoad;
+      const sc = 9, ws = [Math.exp(-effS / sc), Math.exp(-effW / sc), Math.exp(-effCC / sc), Math.exp(-effCCS / sc), y + 1 >= w.firmStart.nuc ? Math.exp(-effN / sc) : 0], wsum = ws.reduce((a, b) => a + b, 0);
+      // displacement: running fossil output that a new plant would undercut, tranche by tranche (coal first once the fee bites)
+      const fossilRun = dx.T.filter(t => (t._g || 0) > 0.5 && t.k !== 'ccs' && t.k !== 'ldes');
+      const disp = eff => fossilRun.reduce((a, t) => a + t._g * logistic((t.vc - eff) / w.siteScale), 0);
+      const dW = ws[0] + ws[1] + ws[3] + ws[4], dS = w.dispSpeed * disp(effS) * ws[0] / dW, dWd = w.dispSpeed * disp(effW) * ws[1] / dW, util = t => clamp(t._g / (t.gw * 8.76), 0.02, 1),
+        dispFirm = (fix, vr, cfMax) => fossilRun.reduce((a, t) => a + t._g * logistic((t.vc - (fix / (Math.min(cfMax, util(t)) * 8.76) + vr)) / w.siteScale), 0), // a new firm plant only earns the hours the plant it replaces was running
+        dfC = dispFirm(w.capex.ccs * w.ccsCostMult * w.fcr + w.fom.ccs, effCCS - lc(w.capex.ccs * w.ccsCostMult, w.fom.ccs, 0.8), 0.8), dfN = dispFirm(nucCx * (1 - nucItc) * nucFcr + w.fom.nuc, w.nucVar, w.cf.nuc),
+        dC = w.dispSpeed * dfC * ws[3] / dW, dN = w.dispSpeed * dfN * ws[4] / dW;
+      // what investors want to build
+      const wantS = Math.max(nn <= 2 ? w.pipeline.solar : w.floor.solar * pmF, (need * ws[0] / wsum + dS) / (w.cf.newSolar * 8.76));
+      const wantW = Math.max(nn <= 2 ? w.pipeline.wind : w.floor.wind * pmF, (need * ws[1] / wsum + dWd) / (w.cf.newWind * 8.76));
+      // what can actually be built: mature projects, industry capacity, grid access
+      const gp = pol.grid ? clamp((y + 1 - 2029) / 3, 0, 1) : 0;
+      tx += w.txLag * (w.txBase + w.pmTx * phi + (crNext ? w.crTx : 0) + (Pe > 1 ? w.feeTx : 0) + w.gpTx * gp - tx);
+      const T = w.icTime - w.pmIc * phi, at = w.attr - w.pmAttr * phi;
+      const readyS = PS / T * (1 - at), readyW = PW / T * (1 - at);
+      const grid = w.gridBase + w.gridPerPt * tx + w.gridRetire * ret + w.gpRecon * gp;
+      // scarce grid connections are shared in proportion to the energy each technology would deliver; unused share passes to the other
+      const eW = wantW * w.cf.newWind, eS = wantS * w.cf.newSolar;
+      let mW = Math.min(wantW, readyW, KW, grid * eW / (eW + eS)), mS = Math.min(wantS, readyS, KS, grid - mW);
+      mW = Math.min(wantW, readyW, KW, grid - mS);
+      bld = { want: wantS + wantW, ready: readyS + readyW, grid, industry: KS + KW, built: mS + mW, tx };
+      PS += wantS * 1.2 / (1 - at) - mS / (1 - at) - w.withdraw * PS; PW += wantW * 1.2 / (1 - at) - mW / (1 - at) - w.withdraw * PW;
+      PS = Math.max(0, PS); PW = Math.max(0, PW);
+      const kg = crNext ? w.crK : 0, gk = (m, K, g) => K * (1 + (m / K > 0.85 ? g + kg : m / K < 0.6 ? -w.kShrink : 0));
+      KS = gk(mS, KS, w.kGrow.solar); KW = gk(mW, KW, w.kGrow.wind);
+      const gasK = w.gasK[0] + (w.gasK[1] - w.gasK[0]) * clamp((y + 1 - 2027) / 4, 0, 1);
+      // firm options: their first-pass share, plus the wind and solar energy the grid could not connect
+      const wantE = (wantS * w.cf.newSolar + wantW * w.cf.newWind) * 8.76, U = Math.max(0, wantE - (mS * w.cf.newSolar + mW * w.cf.newWind) * 8.76);
+      const needVRE = need * (ws[0] + ws[1]) / wsum, uNeed = U * Math.min(1, needVRE / Math.max(1, wantE)), uDisp = U - uNeed;
+      const wf = ws[2] + ws[3] + ws[4], wl = ws[3] + ws[4] || 1e-9;
+      const mCC = Math.min(gasK, (need * ws[2] / wsum + uNeed * ws[2] / wf) / (0.6 * 8.76));
+      if (KC === null) { KC = w.kFirm0.ccs; KN = w.kFirm0.nuc; }
+      const pmC = 1 + w.pmCcs * phi;
+      const wantC = (need * ws[3] / wsum + uNeed * ws[3] / wf + dC + Math.min(uDisp, w.dispSpeed * dfC) * ws[3] / wl) / (0.8 * 8.76);
+      const wantN = (need * ws[4] / wsum + uNeed * ws[4] / wf + dN + Math.min(uDisp, w.dispSpeed * dfN) * ws[4] / wl) / (w.cf.nuc * 8.76);
+      const mCCS = y + 1 < w.firmStart.ccs ? 0 : Math.min(KC * pmC, wantC), mN = y + 1 < w.firmStart.nuc ? 0 : Math.min(KN, wantN);
+      if (y + 1 >= w.firmStart.ccs) KC *= 1 + (mCCS / (KC * pmC) > 0.85 ? w.kFirmGrow.ccs : 0);
+      if (y + 1 >= w.firmStart.nuc) KN = Math.min(15, KN * (1 + (mN / KN > 0.85 ? w.kFirmGrow.nuc + (pol.nuclear ? w.npGrow : 0) : 0))); // DOE: 13 GW/yr by 2041
+      S.nuc += mN; nucCum += mN;
+      // advanced hydro under the program: conduit potential built out over a decade, wave from demonstrations
+      if (pol.nuclear && y + 1 >= 2031) { const c = y + 1 <= 2040 ? w.npConduit / 10 : 0, wv = Math.min(w.npWave0 * Math.pow(1 + w.npWaveGrow, y + 1 - 2031), Math.max(0, w.npWaveCap - wave)); wave += wv; S.hyd = (S.hyd || 0) + c * 0.5 * 8.76 + wv * 0.3 * 8.76; }
+      S.solar += mS; S.solE += mS * w.cf.newSolar * 8.76; S.wind += mW; S.windE += mW * w.cf.newWind * 8.76; S.cc += mCC; S.ccs += mCCS;
+      // storage follows solar; firm capacity shortfall filled by turbines or storage on cost
+      // long-duration storage replaces gas plants that run few hours, as far as there is wasted wind and solar output to charge it
+      const lCx = y + 1 <= 2035 ? L.capex0 + (L.capex35 - L.capex0) * clamp((y + 1 - 2028) / 7, 0, 1) : L.capex35 * Math.pow(1 - L.decline, y + 1 - 2035);
+      if (KL === null) KL = L.k0;
+      const dfL = dispFirm(lCx * (1 - stItc) * w.fcr + L.fom, 5, 0.35), room = Math.max(0, d.surplus * S.ldesRte - (d.gen.ldes || 0));
+      const mL = y + 1 < L.start ? 0 : Math.min(KL, Math.min(w.dispSpeed * dfL, room) / (0.25 * 8.76));
+      if (y + 1 >= L.start) KL = Math.min(L.kMax, KL * (1 + (mL / KL > 0.85 ? L.kGrow : 0)));
+      S.ldes += mL;
+      const durN = y + 1 <= 2038 ? 4 + (w.storDur38 - 4) * clamp((y + 1 - 2028) / 10, 0, 1) : w.storDur38 + (w.storDurEnd - w.storDur38) * (y + 1 - 2038) / 12, durF0 = 0.28 + 0.72 * durN / 4, durF = 0.28 + 0.72 * durN / 4 * (1 - w.storChem * clamp((y + 1 - 2030) / 10, 0, 1)), // new chemistries cut the cost of the energy part below NREL's lithium-ion path
+         stCN = Math.min(0.85, 0.6 + 0.05 * (durN - 4)); // new batteries get longer; cost per kW rises with the energy added
+      let mSt = mS * 0.35 * durF0 / durF, mCT = 0; // the same spending buys more storage when it is cheaper
+      const peakN = (G * (1 + w.loadGrowth)) / 8.76 * 1.5, credS2 = clamp(0.35 - 1.2 * d.solShare, 0.04, 0.35);
+      const firmN = S.nuc * w.cf.nuc + (w.hydroOther + (S.hyd || 0)) / 8.76 + S.coal * 0.8 + S.cc * 0.87 + S.ct * 0.9 + S.ccs * 0.85 + S.wind * 0.12 + S.solar * credS2 + S.stor * d.stC + mSt * stCN + S.ldes * 0.9;
+      const short = Math.max(0, peakN * 1.13 - firmN);
+      if (short > 0) { const kCT = (w.capex.ct * w.fcr + w.fom.ct + 0.08 * 8.76 * Pe * 10.5 * EF.gas) / 0.9, kSt = (cSt * durF * w.fcr + w.fom.stor) / stCN, sh = logistic((kSt - kCT) / 12); mCT = Math.min(short * sh / 0.9, Math.max(0, gasK - mCC)); mSt += (short - mCT * 0.9) / stCN; } // turbines beyond the supply limit are replaced by storage
+      const rpl = S.stor / 18, avgD = S.storE / S.stor; // batteries last about 18 years (ASSUMED); worn-out ones are replaced like for like in power, at the duration then on sale
+      S.storE += rpl * (durN - avgD);
+      S.ct += mCT; S.stor += mSt; S.storE += mSt * durN;
+      capNew += (mS * cS + mW * cW + mCC * w.capex.cc + mCCS * w.capex.ccs * w.ccsCostMult + mCT * w.capex.ct + mSt * cSt * durF + mL * lCx * (1 - stItc) + mN * nucCx * (1 - nucItc)) * w.fcr / 1000 + mN * w.fom.nuc / 1000
+        + (mS * w.fom.solar + mW * w.fom.wind + mCC * w.fom.cc + mCCS * w.fom.ccs + mCT * w.fom.ct + mSt * w.fom.stor + mL * L.fom) / 1000;
+      // credit outlays booked to next year's row: investment credits at build, wind production credit for ten years
+      if (crNext) { windElig.push({ twh: mW * w.cf.newWind * 8.76, end: y + 11 }); credNext = (mS * cS0 + mSt * cSt0 * durF + mL * lCx) * w.crItc / 1000; } else credNext = 0;
+      if (pol.nuclear && y + 1 >= 2030) credNext += mN * nucCx * w.npItc / 1000 + (y + 1 < 2040 ? w.npFusion + 1 : 0); // reactor credit, fusion R&D, hydro support ($1bn/yr ASSUMED)
+      if (pol.grid && y + 1 >= 2030 && y + 1 < 2040) credNext += w.gpCost;
+      if (crNext) credNext += 9; // transmission investment credit: 30% of about $30bn a year (ASSUMED)
+      credNext += windElig.filter(c => c.end > y + 1).reduce((a, c) => a + c.twh, 0) * w.crPtc / 1000;
+      powerPrev = power; retailAdj = retailNext;
+    }
+    rows.ratchetYears = ratchetYears;
+    return rows;
+  }
+  function rows0Proc() { return INV.cement + INV.steel + INV.ngCO2 + INV.ammonia + INV.petCO2 + INV.petchem + INV.lime + INV.waste + INV.carbonates + INV.neu; }
+  // non-energy covered sources in the base year (for the residual in the economy-wide figure)
+  function rows0Other(w) {
+    return INV.cement + INV.steel + INV.ngCO2 + INV.ammonia + INV.petCO2 + INV.petchem + INV.lime + INV.waste + INV.carbonates + INV.neu
+      + INV.ch4Gas + INV.ch4Oil + INV.ch4Coal + INV.ch4Landfill + INV.n2oInd + INV.hfc;
+  }
+
+  // ---------- worlds: central, scenario levers, Monte Carlo ----------
+  const getP = (o, k) => k.split('.').reduce((a, b) => a[b], o);
+  const setP = (o, k, v) => { const p = k.split('.'); const last = p.pop(); p.reduce((a, b) => a[b], o)[last] = v; };
+  const clone = o => JSON.parse(JSON.stringify(o));
+  function world(levers) {
+    const w = clone(WORLD); if (!levers) return w;
+    if (levers.gas != null) w.gasPower = levers.gas;
+    if (levers.load != null) w.loadGrowth = levers.load;
+    if (levers.tech === 'fast') { w.decline.solar = 0.035; w.decline.stor = 0.05; w.packDecline = 0.08; w.kGrow.solar = 0.35; w.kGrow.wind = 0.22; w.gridPerPt = 32; w.evNet = 0.5; w.evNetSales = 0.55; w.hpPrem = 6; w.ccsCostMult = 0.85; w.trkPremEnd = 0.07; }
+    if (levers.tech === 'slow') { w.decline.solar = 0.005; w.decline.stor = 0.01; w.packDecline = 0.02; w.kGrow.solar = 0.15; w.kGrow.wind = 0.08; w.gridPerPt = 20; w.evNet = 0.3; w.evNetSales = 0.3; w.hpPrem = 11; w.ccsCostMult = 1.5; w.trkPremEnd = 0.28; }
+    return w;
+  }
+  function rng(seed) { let s = seed >>> 0; return () => { s = (s + 0x6D2B79F5) | 0; let t = Math.imul(s ^ (s >>> 15), 1 | s); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
+  function draw(base, r) {
+    const w = clone(base);
+    for (const k in RANGES) { const [lo, hi] = RANGES[k], m = clamp(getP(base, k), lo, hi), u = r(), f = (m - lo) / (hi - lo);
+      setP(w, k, u < f ? lo + Math.sqrt(u * (hi - lo) * (m - lo)) : hi - Math.sqrt((1 - u) * (hi - lo) * (hi - m))); }
+    return w;
+  }
+  const NOFEE = { startPrice: 0, step: 0, ratchet: false };
+  const baseOf = pol => Object.assign({}, pol, NOFEE, { credits: false, standards: false, grid: false, nuclear: false, permitYear: pol && pol.permitYear && pol.permitYear < 2029 ? pol.permitYear : null });
+  function run(pol, levers) { const w = world(levers); return { pol: simulate(pol, w), base: simulate(baseOf(pol), w) }; }
+  function monteCarlo(pol, levers, N, seed) {
+    const base = world(levers), r = rng(seed || 7), out = [];
+    for (let i = 0; i < (N || 120); i++) { const w = draw(base, r); out.push({ pol: simulate(pol, w), base: simulate(baseOf(pol), w) }); }
+    return out;
+  }
+  function scc(y, rate) { const t = SCC[rate], x = clamp((y - 2030) / 10, 0, 2), i = Math.min(1, Math.floor(x)); return (t[i] + (t[i + 1] - t[i]) * (x - i)) * 1.24; }
+  return { WORLD, RANGES, POLICY, INV, E25, E2005, NET2005, simulate, run, monteCarlo, world, dispatch, scc, NOFEE, baseOf };
+})();
+if (typeof module !== 'undefined') module.exports = CFD;
+
+// Household module. Spending data: BLS Consumer Expenditure Survey 2024 (deciles, quintiles, region, type of area) and 2023-24 (region by income).
+// For one group of households it returns the fee cost through gasoline, home heating fuel, electricity and everything else, and the dividend.
+const HH = (() => {
+  // r: policy row, b: no-policy row, r0: 2025 row, T: a CEX table, i: column index, all: the all-households column (table T, index 0)
+  function one(r, b, r0, T, i, off) {
+    const k = 1 - off, P = r.price;
+    const gasoline = T.gasoline[i] * (0.0085 * P / 3.40) * (r.ldv / r0.ldv) * k;            // fee per gallon over price, times remaining fuel use
+    const heat = (T.gas[i] * (0.0551 * P / 15.29) + T.oil[i] * 0.0025 * P) * (r.buildings / r0.buildings) * k; // gas per Mcf; fuel oil and propane ~2.5 kg CO2 per dollar (ASSUMED)
+    const elec = T.elec[i] * (r.retail - b.retail) / 17.3;                                   // change in the retail price against no policy
+    return { gasoline, heat, elec, energy: T.gasoline[i] + T.gas[i] + T.oil[i] + T.elec[i] };
+  }
+  function group(r, b, r0, T, off) {
+    const cuN = r.pop / 2.4, total = r.net * 1000 / cuN;                              // $ per household, national average (2.4 people per household)
+    const a = one(r, b, r0, T, 0, off), indAll = Math.max(0, total - a.gasoline - a.heat - a.elec);
+    return T.cols.map((name, i) => { const x = one(r, b, r0, T, i, off);
+      const other = indAll * (T.exp[i] - x.energy) / (T.exp[0] - a.energy);
+      const dividend = r.perShare * (T.people[i] - 0.5 * T.kids[i]);
+      const cost = x.gasoline + x.heat + x.elec + other;
+      return { name, gasoline: x.gasoline, heat: x.heat, elec: x.elec, other, cost, dividend, net: dividend - cost, pctInc: T.inc[i] ? 100 * (dividend - cost) / T.inc[i] : null }; });
+  }
+  return { group };
+})();
+if (typeof module !== 'undefined') module.exports = HH;
+
+const CEX={"quintile": {"cols": ["All consumer units", "Lowest 20 percent", "Second 20 percent", "Third 20 percent", "Fourth 20 percent", "Highest 20 percent"], "n": [135760.0, 27139.0, 27186.0, 26959.0, 27205.0, 27272.0], "inc": [104207.0, 16658.0, 42925.0, 74474.0, 121548.0, 264510.0], "people": [2.4, 1.6, 2.1, 2.5, 2.9, 3.2], "kids": [0.6, 0.3, 0.4, 0.5, 0.7, 0.8], "veh": [1.9, 1.0, 1.6, 1.9, 2.3, 2.7], "exp": [78535.0, 35046.0, 50054.0, 66900.0, 89972.0, 150342.0], "gas": [493.0, 287.0, 410.0, 458.0, 555.0, 751.0], "elec": [1833.0, 1276.0, 1674.0, 1813.0, 2023.0, 2376.0], "oil": [125.0, 63.0, 107.0, 96.0, 139.0, 220.0], "gasoline": [2645.0, 1262.0, 2031.0, 2643.0, 3350.0, 3932.0], "pub": [1131.0, 472.0, 456.0, 875.0, 1250.0, 2593.0]}, "decile": {"cols": ["All consumer units", "Lowest 10 percent", "Second 10 percent", "Third 10 percent", "Fourth 10 percent", "Fifth 10 percent", "Sixth 10 percent", "Seventh 10 percent", "Eighth 10 percent", "Ninth 10 percent", "Highest 10 percent"], "n": [135760.0, 13665.0, 13474.0, 13612.0, 13574.0, 13467.0, 13492.0, 13533.0, 13672.0, 13678.0, 13594.0], "inc": [104207.0, 9612.0, 23805.0, 36188.0, 49681.0, 65170.0, 83760.0, 106439.0, 136502.0, 182587.0, 346942.0], "people": [2.4, 1.6, 1.6, 2.0, 2.2, 2.3, 2.6, 2.8, 2.9, 3.2, 3.2], "kids": [0.6, 0.3, 0.3, 0.4, 0.4, 0.5, 0.6, 0.7, 0.7, 0.8, 0.8], "veh": [1.9, 0.9, 1.2, 1.5, 1.6, 1.8, 1.9, 2.1, 2.5, 2.6, 2.8], "exp": [78535.0, 31660.0, 38473.0, 46340.0, 53778.0, 62880.0, 70913.0, 81716.0, 98158.0, 121317.0, 179513.0], "gas": [493.0, 226.0, 350.0, 372.0, 449.0, 425.0, 491.0, 540.0, 569.0, 668.0, 834.0], "elec": [1833.0, 1181.0, 1373.0, 1612.0, 1736.0, 1752.0, 1873.0, 2016.0, 2029.0, 2197.0, 2557.0], "oil": [125.0, 40.0, 87.0, 112.0, 103.0, 98.0, 95.0, 124.0, 155.0, 177.0, 262.0], "gasoline": [2645.0, 1205.0, 1320.0, 1885.0, 2176.0, 2495.0, 2791.0, 3092.0, 3606.0, 3897.0, 3966.0], "pub": [1131.0, 351.0, 595.0, 430.0, 482.0, 731.0, 1019.0, 1185.0, 1313.0, 1739.0, 3452.0]}, "region": {"cols": ["All consumer units", "Northeast", "Midwest", "South", "West"], "n": [135760.0, 23643.0, 28678.0, 53402.0, 30037.0], "inc": [104207.0, 115770.0, 97104.0, 93814.0, 120365.0], "people": [2.4, 2.4, 2.4, 2.4, 2.6], "kids": [0.6, 0.5, 0.6, 0.6, 0.6], "veh": [1.9, 1.6, 2.0, 1.8, 2.2], "exp": [78535.0, 83692.0, 74707.0, 70376.0, 92625.0], "gas": [493.0, 695.0, 678.0, 310.0, 481.0], "elec": [1833.0, 1802.0, 1516.0, 2042.0, 1787.0], "oil": [125.0, 421.0, 89.0, 50.0, 60.0], "gasoline": [2645.0, 2270.0, 2580.0, 2595.0, 3092.0], "pub": [1131.0, 1750.0, 1013.0, 729.0, 1468.0]}, "area": {"cols": ["All consumer units", "All urban", "Central city", "Other urban", "Rural"], "n": [135760.0, 109673.0, 47610.0, 62063.0, 26087.0], "inc": [104207.0, 104927.0, 96391.0, 111475.0, 101182.0], "people": [2.4, 2.4, 2.3, 2.5, 2.6], "kids": [0.6, 0.5, 0.5, 0.6, 0.6], "veh": [1.9, 1.7, 1.5, 1.9, 2.5], "exp": [78535.0, 79068.0, 73643.0, 83215.0, 76300.0], "gas": [493.0, 542.0, 511.0, 565.0, 286.0], "elec": [1833.0, 1752.0, 1587.0, 1878.0, 2175.0], "oil": [125.0, 71.0, 27.0, 104.0, 356.0], "gasoline": [2645.0, 2491.0, 2185.0, 2725.0, 3294.0], "pub": [1131.0, 1212.0, 1408.0, 1061.0, 790.0]}, "ri_northeast": {"cols": ["Total Northeast", "Less than $15,000", "$15,000 to $29,999", "$30,000 to $39,999", "$40,000 to $49,999", "$50,000 to $69,999", "$70,000 to $99,999", "$100,000 to $149,999", "$150,000 to $199,999", "$200,000 and more"], "n": [23430.0, 1792.0, 2778.0, 1694.0, 1485.0, 2541.0, 2946.0, 3884.0, 2697.0, 3613.0], "inc": [116310.0, 7764.0, 22432.0, 35147.0, 44524.0, 59516.0, 84106.0, 121503.0, 171241.0, 329533.0], "people": [2.4, 1.5, 1.5, 1.8, 2.1, 2.2, 2.3, 2.8, 3.2, 3.2], "kids": [0.5, 0.3, 0.2, 0.3, 0.4, 0.4, 0.4, 0.5, 0.8, 0.8], "veh": [1.6, 0.5, 0.8, 1.1, 1.2, 1.4, 1.8, 2.1, 2.3, 2.3], "exp": [85515.0, 33205.0, 37833.0, 47985.0, 52579.0, 62354.0, 75553.0, 90187.0, 119411.0, 175484.0], "gas": [721.0, 299.0, 403.0, 581.0, 591.0, 665.0, 681.0, 811.0, 916.0, 1122.0], "elec": [1787.0, 976.0, 1085.0, 1345.0, 1493.0, 1586.0, 1734.0, 1958.0, 2259.0, 2707.0], "oil": [428.0, 73.0, 206.0, 317.0, 441.0, 368.0, 349.0, 526.0, 633.0, 673.0], "gasoline": [2268.0, 625.0, 918.0, 1255.0, 1596.0, 1920.0, 2403.0, 3033.0, 3299.0, 3416.0], "pub": [1786.0, 544.0, 913.0, 928.0, 782.0, 1134.0, 1682.0, 1679.0, 2429.0, 4067.0]}, "ri_midwest": {"cols": ["Total Midwest", "Less than $15,000", "$15,000 to $29,999", "$30,000 to $39,999", "$40,000 to $49,999", "$50,000 to $69,999", "$70,000 to $99,999", "$100,000 to $149,999", "$150,000 to $199,999", "$200,000 and more"], "n": [28441.0, 2482.0, 3491.0, 2468.0, 2198.0, 3699.0, 4120.0, 4971.0, 2334.0, 2677.0], "inc": [94880.0, 7520.0, 22539.0, 34749.0, 44695.0, 59067.0, 84183.0, 121979.0, 170855.0, 316218.0], "people": [2.4, 1.8, 1.5, 2.0, 2.0, 2.2, 2.5, 2.9, 3.1, 3.3], "kids": [0.6, 0.5, 0.3, 0.5, 0.4, 0.5, 0.6, 0.8, 0.8, 0.9], "veh": [2.0, 0.9, 1.2, 1.5, 1.6, 1.9, 2.1, 2.5, 2.9, 3.1], "exp": [73654.0, 29310.0, 34925.0, 45875.0, 48549.0, 58616.0, 70965.0, 89830.0, 110947.0, 171873.0], "gas": [739.0, 396.0, 515.0, 647.0, 671.0, 705.0, 812.0, 882.0, 872.0, 1045.0], "elec": [1503.0, 933.0, 1087.0, 1363.0, 1450.0, 1462.0, 1529.0, 1682.0, 1807.0, 2166.0], "oil": [101.0, 51.0, 67.0, 170.0, 95.0, 85.0, 88.0, 93.0, 137.0, 157.0], "gasoline": [2588.0, 1300.0, 1291.0, 1804.0, 2169.0, 2416.0, 2730.0, 3202.0, 4021.0, 4169.0], "pub": [920.0, 333.0, 314.0, 444.0, 439.0, 619.0, 719.0, 1055.0, 1622.0, 2949.0]}, "ri_south": {"cols": ["Total South", "Less than $15,000", "$15,000 to $29,999", "$30,000 to $39,999", "$40,000 to $49,999", "$50,000 to $69,999", "$70,000 to $99,999", "$100,000 to $149,999", "$150,000 to $199,999", "$200,000 and more"], "n": [53222.0, 4707.0, 7236.0, 4820.0, 4189.0, 7311.0, 7878.0, 8278.0, 3870.0, 4933.0], "inc": [91824.0, 7160.0, 22405.0, 34942.0, 44853.0, 59549.0, 83173.0, 121128.0, 171387.0, 319985.0], "people": [2.4, 1.7, 1.7, 2.1, 2.3, 2.3, 2.6, 3.0, 3.0, 3.2], "kids": [0.6, 0.4, 0.3, 0.4, 0.5, 0.5, 0.6, 0.7, 0.8, 0.9], "veh": [1.8, 0.9, 1.2, 1.5, 1.6, 1.7, 1.8, 2.2, 2.4, 2.7], "exp": [69373.0, 30283.0, 32918.0, 44942.0, 47870.0, 56382.0, 65223.0, 85002.0, 115022.0, 164870.0], "gas": [307.0, 154.0, 213.0, 250.0, 280.0, 264.0, 286.0, 345.0, 417.0, 616.0], "elec": [2002.0, 1432.0, 1695.0, 1880.0, 1940.0, 1952.0, 2051.0, 2177.0, 2363.0, 2590.0], "oil": [60.0, 53.0, 51.0, 56.0, 59.0, 57.0, 60.0, 52.0, 80.0, 85.0], "gasoline": [2626.0, 1332.0, 1517.0, 2042.0, 2365.0, 2547.0, 2750.0, 3388.0, 3701.0, 4075.0], "pub": [750.0, 281.0, 226.0, 355.0, 361.0, 542.0, 518.0, 722.0, 1487.0, 2834.0]}, "ri_west": {"cols": ["Total West", "Less than $15,000", "$15,000 to $29,999", "$30,000 to $39,999", "$40,000 to $49,999", "$50,000 to $69,999", "$70,000 to $99,999", "$100,000 to $149,999", "$150,000 to $199,999", "$200,000 and more"], "n": [30064.0, 2052.0, 3388.0, 2009.0, 1938.0, 3386.0, 4302.0, 5119.0, 3142.0, 4729.0], "inc": [120145.0, 7721.0, 23043.0, 35050.0, 45029.0, 59671.0, 84085.0, 123084.0, 172763.0, 343382.0], "people": [2.6, 1.4, 1.6, 1.9, 2.3, 2.5, 2.8, 3.0, 3.2, 3.3], "kids": [0.6, 0.2, 0.2, 0.4, 0.5, 0.6, 0.7, 0.7, 0.8, 0.8], "veh": [2.1, 0.9, 1.3, 1.6, 1.8, 1.9, 2.2, 2.5, 2.8, 2.8], "exp": [91079.0, 38342.0, 42226.0, 50490.0, 55978.0, 64904.0, 81324.0, 99091.0, 124841.0, 178995.0], "gas": [517.0, 206.0, 343.0, 327.0, 401.0, 461.0, 488.0, 552.0, 666.0, 833.0], "elec": [1724.0, 976.0, 1258.0, 1303.0, 1558.0, 1566.0, 1819.0, 1872.0, 2023.0, 2297.0], "oil": [60.0, 29.0, 47.0, 50.0, 49.0, 72.0, 50.0, 56.0, 71.0, 90.0], "gasoline": [3137.0, 1256.0, 1622.0, 2159.0, 2346.0, 2787.0, 3500.0, 3702.0, 4105.0, 4443.0], "pub": [1414.0, 553.0, 529.0, 531.0, 520.0, 701.0, 1322.0, 1428.0, 1997.0, 3354.0]}};
+</script>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+const fmt=(x,d=0)=>x.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const usd=(x,d=0)=>(x<0?'−$':'$')+fmt(Math.abs(x),d);
+const KEY='cfd-params-v6';
+const def=()=>({startPrice:40,step:8,stepType:'linear',ratchet:true,c_process:true,c_methane:true,c_fgas:true,c_border:true,c_bunkers:false,dividendShare:90,offset:true,credits:false,grid:false,nuclear:false,standards:false,permit:'2027',tech:'mid',gas:'3.9',load:'0.011',sccRate:'2.0',decYear:'2035',hhGroup:'decile'});
+let st=def();
+try{const s=JSON.parse(localStorage.getItem(KEY)||'null');if(s)st=Object.assign(st,s)}catch(e){}
+const ids=Object.keys(def());
+for(let y=2030;y<=2050;y+=5){const o=document.createElement('option');o.value=y;o.textContent=y;$('decYear').appendChild(o)}
+function toForm(){ids.forEach(k=>{const el=$(k);if(el.type==='checkbox')el.checked=st[k];else el.value=st[k]})}
+function fromForm(){ids.forEach(k=>{const el=$(k);st[k]=el.type==='checkbox'?el.checked:(el.type==='range'?+el.value:el.value)});try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}}
+const policy=()=>({startPrice:st.startPrice,step:st.step,stepType:st.stepType,ratchet:st.ratchet,dividendShare:st.dividendShare/100,offset:st.offset?0.25:0,
+  credits:st.credits,grid:st.grid,nuclear:st.nuclear,standards:st.standards,permitYear:st.permit==='none'?null:+st.permit,
+  cover:{process:st.c_process,methane:st.c_methane,fgas:st.c_fgas,border:st.c_border,bunkers:st.c_bunkers}});
+const levers=()=>({tech:st.tech==='mid'?null:st.tech,gas:+st.gas,load:+st.load});
+
+// ---- charts ----
+const W=520,H=250,m={l:46,r:14,t:10,b:24},NS='http://www.w3.org/2000/svg';
+function el(n,a,p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function niceMax(v){if(!(v>0))return 1;const p=Math.pow(10,Math.floor(Math.log10(v)));const n=v/p;return (n<=1?1:n<=2?2:n<=2.5?2.5:n<=5?5:10)*p}
+function legend(id,items){$(id).innerHTML=items.map(i=>`<span><i class="${i.sw?'sw':''}" style="background:${i.dash?'transparent':i.color};${i.dash?`border-top:2px dashed ${i.color};height:0`:''}${i.op?`;opacity:${i.op}`:''}"></i>${i.name}</span>`).join('')}
+function tipFor(box){[...box.parentNode.querySelectorAll('.tip')].forEach(t=>t.remove());const tip=document.createElement('div');tip.className='tip';tip.hidden=true;box.parentNode.appendChild(tip);return tip}
+function place(tip,box,ev){const pr=box.parentNode.getBoundingClientRect();let left=ev.clientX-pr.left+12;if(left+tip.offsetWidth>pr.width-4)left=ev.clientX-pr.left-tip.offsetWidth-12;tip.style.left=Math.max(4,left)+'px';tip.style.top=(ev.clientY-pr.top-10)+'px'}
+function lineChart(host,o){
+  const box=$(host);box.innerHTML='';
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':o.label},box);
+  const xs=o.years,x0=xs[0],x1=xs[xs.length-1],d=o.dec||0;
+  let ymax=0;(o.series||[]).forEach(s=>s.v.forEach(v=>{if(v!=null)ymax=Math.max(ymax,v)}));
+  if(o.band)o.band.hi.forEach(v=>ymax=Math.max(ymax,v));
+  if(o.stack)xs.forEach((_,i)=>ymax=Math.max(ymax,o.stack.reduce((a,s)=>a+Math.max(0,s.v[i]),0)));
+  ymax=niceMax(ymax*1.02);
+  const X=y=>m.l+(y-x0)/(x1-x0)*(W-m.l-m.r),Y=v=>H-m.b-v/ymax*(H-m.t-m.b);
+  for(let i=0;i<=4;i++){const v=ymax*i/4;el('line',{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:'var(--line)','stroke-width':1},svg);const t=el('text',{x:m.l-6,y:Y(v)+4,'text-anchor':'end'},svg);t.textContent=(o.pre||'')+fmt(v,ymax<10?1:0)+(o.post||'')}
+  for(let y=Math.ceil(x0/5)*5;y<=x1;y+=5){const t=el('text',{x:X(y),y:H-6,'text-anchor':'middle'},svg);t.textContent=y}
+  const path=v=>v.map((q,i)=>q==null?null:[X(xs[i]),Y(q)]).filter(Boolean).map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');
+  const area=(lo,hi)=>'M'+hi.map((q,i)=>X(xs[i]).toFixed(1)+' '+Y(q).toFixed(1)).join(' L')+' L'+lo.map((q,i)=>X(xs[i]).toFixed(1)+' '+Y(q).toFixed(1)).reverse().join(' L')+'Z';
+  if(o.stack){let acc=xs.map(()=>0);o.stack.forEach(s=>{const lo=acc.slice(),hi=acc.map((a,i)=>a+Math.max(0,s.v[i]));el('path',{d:area(lo,hi),fill:s.color,stroke:'var(--surface)','stroke-width':1.5},svg);acc=hi})}
+  if(o.band)el('path',{d:area(o.band.lo,o.band.hi),fill:'var(--band)',opacity:.16},svg);
+  (o.series||[]).forEach(s=>{el('path',{d:path(s.v),fill:'none',stroke:s.color,'stroke-width':2,'stroke-dasharray':s.dash?'5 4':'','stroke-linejoin':'round'},svg)});
+  const cross=el('line',{y1:m.t,y2:H-m.b,stroke:'var(--ink3)','stroke-width':1,visibility:'hidden'},svg);
+  const tip=tipFor(box);
+  const hit=el('rect',{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,fill:'transparent'},svg);
+  hit.addEventListener('pointermove',ev=>{const r=svg.getBoundingClientRect();const px=(ev.clientX-r.left)/r.width*W;const i=Math.max(0,Math.min(xs.length-1,Math.round((px-m.l)/(W-m.l-m.r)*(x1-x0))));
+    cross.setAttribute('x1',X(xs[i]));cross.setAttribute('x2',X(xs[i]));cross.setAttribute('visibility','visible');
+    const f=v=>(o.pre||'')+fmt(v,d)+(o.post||'');
+    const rows=(o.stack?o.stack.slice().reverse():o.series).filter(s=>s.v[i]!=null).map(s=>`${s.name}: ${f(s.v[i])}`);
+    if(o.stack){rows.push(`Total: ${f(o.stack.reduce((a,s)=>a+Math.max(0,s.v[i]),0))}`);(o.series||[]).forEach(s=>{if(s.v[i]!=null)rows.push(`${s.name}: ${f(s.v[i])}`)})}
+    if(o.band)rows.push(`10th to 90th: ${f(o.band.lo[i])} to ${f(o.band.hi[i])}`);
+    tip.innerHTML=`<b>${xs[i]}</b><br>`+rows.join('<br>');tip.hidden=false;place(tip,box,ev)});
+  hit.addEventListener('pointerleave',()=>{tip.hidden=true;cross.setAttribute('visibility','hidden')});
+}
+function barChart(host,vals,labels,names){
+  const box=$(host);box.innerHTML='';const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Net effect per household'},box);
+  const n=vals.length,mx=niceMax(Math.max(...vals.map(g=>Math.abs(g.net))));const Y=v=>m.t+(mx-v)/(2*mx)*(H-m.t-m.b);const bw=(W-m.l-m.r)/n;
+  [-mx,-mx/2,0,mx/2,mx].forEach(v=>{el('line',{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:v===0?'var(--ink3)':'var(--line)','stroke-width':1},svg);const t=el('text',{x:m.l-6,y:Y(v)+4,'text-anchor':'end'},svg);t.textContent=usd(v)});
+  const tip=tipFor(box);
+  vals.forEach((g,i)=>{const v=g.net,x=m.l+i*bw+bw*0.12,y=Math.min(Y(v),Y(0)),h=Math.max(1,Math.abs(Y(v)-Y(0)));
+    el('rect',{x,y,width:bw*0.76,height:h,rx:3,fill:v>=0?'var(--s1)':'var(--s2)'},svg);
+    const t=el('text',{x:m.l+i*bw+bw/2,y:H-6,'text-anchor':'middle'},svg);t.textContent=labels[i];
+    const hitr=el('rect',{x:m.l+i*bw,y:m.t,width:bw,height:H-m.t-m.b,fill:'transparent'},svg);
+    hitr.addEventListener('pointermove',ev=>{tip.innerHTML=`<b>${names[i]}</b><br>Dividend: ${usd(g.dividend)}<br>Gasoline: ${usd(-g.gasoline)}<br>Heating: ${usd(-g.heat)}<br>Electricity: ${usd(-g.elec)}<br>Everything else: ${usd(-g.other)}<br>Net: ${usd(v)} (${fmt(g.pctInc,2)}% of income)`;tip.hidden=false;place(tip,box,ev)});
+    hitr.addEventListener('pointerleave',()=>tip.hidden=true)});
+}
+
+// ---- render ----
+let timer=null,sensTimer=null;
+const LBL={'ldes.capex35':'Long-duration storage cost in 2035','h2.p50':'Hydrogen price in 2050','h2.s50':'Hydrogen available to power plants in 2050',storDurEnd:'Battery duration in 2050',storDur38:'Battery duration in 2038',storChem:'Cost saving from new battery chemistries',htCost:'Cost of cleaning up high-temperature industrial heat',htShare:'High-temperature share of industrial fuel use',stdSoft:'How far standards lift sales near the market level',gasPower:'Natural gas price',loadGrowth:'Electricity demand growth','decline.solar':'Solar cost decline','decline.stor':'Storage cost decline',gridPerPt:'Wind and solar connected per point of transmission growth',gridBase:'Grid access without new transmission',gridRetire:'Reuse of retiring plants\' grid connections',icTime:'Wait for a grid connection',attr:'Siting cancellations','kGrow.solar':'Solar industry growth rate','kGrow.wind':'Wind industry growth rate',txBase:'Transmission growth under current law',pmTx:'Permitting reform effect on transmission','kFirm0.ccs':'Starting pace of capture plants','kFirmGrow.ccs':'Capture industry growth rate','kFirmGrow.nuc':'Reactor industry growth rate',nucLearn:'Reactor cost learning',nucCapex0:'First reactor cost',gpTx:'Grid program effect on transmission',gpRecon:'Grid access from re-stringing lines','floor.solar':'Solar built under state mandates','floor.wind':'Wind built under state mandates',packDecline:'Battery cost decline',evBeta:'Car buyers\' price sensitivity',evNet:'Pull from electric cars on the road',evNetSales:'Pull from electric share of sales',packFloor:'Lowest battery cost',crCharge:'Charging credit effect',payback:'Years of fuel savings buyers count',vmtElast:'Driving response to fuel price',trkPremEnd:'Electric truck cost premium',hpPrem:'Heat pump cost premium',hpBeta:'Heat pump buyers\' price sensitivity',bldgElast:'Heating response to fuel price',indElast:'Industry efficiency response',ccsCostMult:'Carbon capture cost',ccsRate:'Industrial adoption speed',ch4Scale:'Methane abatement potential',impEmb:'Carbon in covered imports',expEmb:'Carbon in covered exports',gasoline:'Gasoline price',pmValue:'Permitting effect on wind and solar value',feeTx:'Fee effect on transmission',crTx:'Transmission credit effect',crEvTake:'Electric car credit take-up',siteScale:'Spread of wind and solar site quality',dispSpeed:'Developer response speed',vfSolar:'Solar value loss as share grows',vfWind:'Wind value loss as share grows',curtSlope:'Curtailment at high shares',coalSched:'Scheduled coal retirements',fcr:'Financing cost','capex.solar':'Solar cost','capex.wind':'Wind cost',lowTempShare:'Industrial heat that can electrify',trkBeta:'Truck buyers\' price sensitivity',mpgElast:'Fuel economy response','cf.newSolar':'Solar output per gigawatt'};
+function sensitivity(pol,lv){const R=CFD.RANGES,out=[];
+  for(const k in R){const v=R[k].map(x=>{const w=CFD.world(lv),p=k.split('.'),l=p.pop();p.reduce((a,c)=>a[c],w)[l]=x;const r=CFD.simulate(pol,w);return[100*r[25].below2005,r[10].perShare]});
+    out.push({k,e:v[1][0]-v[0][0],d:v[1][1]-v[0][1]})}
+  out.sort((a,c)=>Math.abs(c.e)-Math.abs(a.e));const sg=x=>(x>0?'+':x<0?'−':'')+fmt(Math.abs(x),1);
+  $('sens').innerHTML='<tr><th>Input, moved from the low to the high end of its range</th><th>2050 reduction, points</th><th>2035 dividend</th></tr>'+out.slice(0,10).map(o=>`<tr><td>${LBL[o.k]||o.k}</td><td>${sg(o.e)}</td><td>${(o.d<0?'−$':'+$')+fmt(Math.abs(o.d))}</td></tr>`).join('')}
+function render(){
+  $('o_startPrice').textContent='$'+st.startPrice;
+  $('o_step').textContent=st.stepType==='linear'?'$'+st.step+' a year':st.step+'% a year';
+  $('o_dividendShare').textContent=st.dividendShare+'%';
+  const pol=policy(),lv=levers(),R=CFD.run(pol,lv),mc=CFD.monteCarlo(pol,lv,120,7);
+  const extra=st.credits||st.grid||st.nuclear||st.standards||st.permit==='2029',feeOnly=extra?CFD.simulate(Object.assign({},pol,{credits:false,grid:false,nuclear:false,standards:false,permitYear:st.permit==='2027'?2027:null}),CFD.world(lv)).slice(4):null;
+  const pkg=extra?'With the full package':'With the fee';
+  const i0=2029-2025,rows=R.pol.slice(i0),base=R.base.slice(i0),years=rows.map(r=>r.year);
+  const q=(a,p)=>{const s=a.slice().sort((x,y)=>x-y);return s[Math.round(p*(s.length-1))]};
+  const band=f=>({lo:years.map((_,i)=>q(mc.map(x=>f(x.pol[i+i0],x.base[i+i0])),.1)),hi:years.map((_,i)=>q(mc.map(x=>f(x.pol[i+i0],x.base[i+i0])),.9))});
+  const at=y=>rows[y-2029],bat=y=>base[y-2029],ri=y=>y-2029;
+  const bE=band(r=>r.energy),bD=band(r=>r.perShare),bB=band(r=>100*r.below2005);
+  const win=rows.filter(r=>r.year>=2030&&r.year<=2039);
+  let cumAb=0,cumBen=0;rows.forEach((r,i)=>{const a=base[i].covered-r.covered;cumAb+=a;cumBen+=a*CFD.scc(r.year,st.sccRate)/1000});
+  let health=0;rows.forEach((r,i)=>{const bb=base[i];health+=((bb.gen.coal||0)-(r.gen.coal||0))*0.085*1.05+(((bb.gen.cc||0)+(bb.gen.ct||0))-((r.gen.cc||0)+(r.gen.ct||0)))*0.010*1.05});
+  const T=(k,v,r)=>`<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="r">${r||'&nbsp;'}</div></div>`;
+  const pr=(b,y,f)=>`${f(b.lo[ri(y)])} to ${f(b.hi[ri(y)])}`;
+  const nonE=r=>r.rev.process+r.rev.methane+r.rev.fgas+r.rev.border+r.rev.bunkers;
+  $('tiles').innerHTML=
+    T('Energy CO2 below 2005, 2035',fmt(100*at(2035).below2005)+'%',pr(bB,2035,v=>fmt(v)+'%')+' · no policy '+fmt(100*bat(2035).below2005)+'%')+
+    T('Energy CO2 below 2005, 2050',fmt(100*at(2050).below2005)+'%',pr(bB,2050,v=>fmt(v)+'%')+' · no policy '+fmt(100*bat(2050).below2005)+'%')+
+    T('All net emissions below 2005, 2050',fmt(100*at(2050).ghgBelow2005)+'%','no policy '+fmt(100*bat(2050).ghgBelow2005)+'%')+
+    T('Dividend per adult, 2035',usd(at(2035).perShare),pr(bD,2035,usd))+
+    T('Family of four, 2035',usd(at(2035).family4),usd(at(2035).family4/12)+' a month')+
+    T('Fee in 2035 / 2050',usd(at(2035).price)+' / '+usd(at(2050).price),'gasoline +'+usd(at(2035).gasoline,2)+' / +'+usd(at(2050).gasoline,2))+
+    T('Gross revenue, 2030–39',usd(win.reduce((a,r)=>a+r.gross,0)/1000,2)+'tn',fmt(100*win.reduce((a,r)=>a+nonE(r),0)/Math.max(1e-9,win.reduce((a,r)=>a+r.gross,0)))+'% from outside fuel CO2')+
+    T('Emissions avoided by 2050',fmt(cumAb/1000,1)+' Gt','climate benefit '+usd(cumBen/1000,1)+'tn')+
+    T('Health benefit from cleaner air',usd(health/1000,2)+'tn','through 2050, from less coal and gas burned for power')+
+    (st.credits||st.grid||st.nuclear?T('Credits and programs, 2030–39',usd(win.reduce((a,r)=>a+r.credits,0)/1000,2)+'tn',usd(at(2035).credits)+'bn in 2035, not paid from the fee'):'');
+  const notes=[];
+  if(R.pol.ratchetYears)notes.push(`The ratchet fires in ${R.pol.ratchetYears} of 20 years in this run.`);
+  const rf=mc.filter(x=>x.pol.ratchetYears>0).length;if(st.ratchet&&st.startPrice>0)notes.push(`It fires at least once in ${fmt(100*rf/mc.length)}% of the 120 uncertain runs.`);
+  $('note').hidden=!notes.length;$('note').textContent=notes.join(' ');
+  lineChart('c_emis',{years,label:'Energy CO2 emissions',band:bE,series:[{name:'No policy',color:'var(--base)',v:base.map(r=>r.energy)},{name:'Statutory target',color:'var(--ink3)',dash:1,v:rows.map(r=>r.target)},...(feeOnly?[{name:'Fee only',color:'var(--s2)',v:feeOnly.map(r=>r.energy)}]:[]),{name:pkg,color:'var(--s1)',v:rows.map(r=>r.energy)}]});
+  legend('lg_emis',[{name:pkg,color:'var(--s1)'},...(feeOnly?[{name:'Fee only',color:'var(--s2)'}]:[]),{name:'No policy',color:'var(--base)'},{name:'Statutory target',color:'var(--ink3)',dash:1},{name:'10th to 90th percentile',color:'var(--band)',sw:1,op:.3}]);
+  lineChart('c_div',{years,label:'Dividend per adult',pre:'$',band:bD,series:[{name:'Dividend per adult',color:'var(--s1)',v:rows.map(r=>r.perShare)}]});
+  legend('lg_div',[{name:'Selected case',color:'var(--s1)'},{name:'10th to 90th percentile',color:'var(--band)',sw:1,op:.3}]);
+  const sc=[['Transport','var(--s1)',r=>r.transport],['Power','var(--s2)',r=>r.power],['Industry fuel','var(--s3)',r=>r.industry],['Buildings','var(--s4)',r=>r.buildings],['Process, methane, HFCs','var(--s5)',r=>r.process+r.methane+r.n2o+r.hfc]];
+  lineChart('c_sec',{years,label:'Covered emissions by source',stack:sc.map(s=>({name:s[0],color:s[1],v:rows.map(s[2])}))});
+  legend('lg_sec',sc.map(s=>({name:s[0],color:s[1],sw:1})));
+  const gn=[['Nuclear and hydro','var(--s3)',r=>r.gen.nuclear+r.gen.hydro],['Coal','var(--s7)',r=>r.gen.coal||0],['Gas','var(--s2)',r=>(r.gen.cc||0)+(r.gen.ct||0)],['Gas with capture','var(--s5)',r=>r.gen.ccs||0],['Long-duration storage and hydrogen','var(--s6)',r=>(r.gen.ldes||0)+(r.gen.h2||0)],['Wind','var(--s1)',r=>r.gen.wind],['Solar','var(--s4)',r=>r.gen.solar]];
+  lineChart('c_gen',{years,label:'Electricity generation',stack:gn.map(s=>({name:s[0],color:s[1],v:rows.map(s[2])}))});
+  legend('lg_gen',gn.map(s=>({name:s[0],color:s[1],sw:1})));
+  const rv=[['Transport fuel','var(--s1)',r=>r.rev.transport],['Power fuel','var(--s2)',r=>r.rev.power],['Industry and buildings fuel','var(--s3)',r=>r.rev.industry+r.rev.buildings],['Process and N2O','var(--s4)',r=>r.rev.process],['Methane','var(--s5)',r=>r.rev.methane],['HFCs, border, bunkers','var(--s6)',r=>r.rev.fgas+r.rev.border+r.rev.bunkers]];
+  lineChart('c_rev',{years,label:'Revenue by source',pre:'$',stack:rv.map(s=>({name:s[0],color:s[1],v:rows.map(s[2])}))});
+  legend('lg_rev',rv.map(s=>({name:s[0],color:s[1],sw:1})));
+  lineChart('c_ev',{years,label:'Electric share of new car sales',post:'%',series:[{name:'No policy',color:'var(--base)',v:base.map(r=>100*r.evShare)},...(feeOnly?[{name:'Fee only',color:'var(--s2)',v:feeOnly.map(r=>100*r.evShare)}]:[]),{name:pkg,color:'var(--s1)',v:rows.map(r=>100*r.evShare)}]});
+  legend('lg_ev',[{name:pkg,color:'var(--s1)'},...(feeOnly?[{name:'Fee only',color:'var(--s2)'}]:[]),{name:'No policy',color:'var(--base)'}]);
+  {const y=+st.decYear,off=st.offset?0.25:0,gr=t=>HH.group(at(y),bat(y),R.pol[0],CEX[t],off),G=gr(st.hhGroup).slice(1);
+   const lab={decile:G.map((g,i)=>i===0?'Lowest':i===9?'Highest':i+1),quintile:['Lowest','Second','Third','Fourth','Highest'],region:['Northeast','Midwest','South','West'],area:['All urban','Central city','Other urban','Rural']}[st.hhGroup];
+   barChart('c_dec',G,lab,G.map(g=>g.name));
+   const regs=['northeast','midwest','south','west'].map(k=>gr('ri_'+k));
+   $('hhri').innerHTML='<tr><th>Household income</th><th>Northeast</th><th>Midwest</th><th>South</th><th>West</th></tr>'+regs[0].slice(1).map((g,i)=>`<tr><td>${g.name}</td>`+regs.map(x=>`<td>${usd(x[i+1].net)}</td>`).join('')+'</tr>').join('')+'<tr><td><b>All incomes</b></td>'+regs.map(x=>`<td><b>${usd(x[0].net)}</b></td>`).join('')+'</tr>';}
+  legend('lg_dec',[{name:'Net gain',color:'var(--s1)',sw:1},{name:'Net cost',color:'var(--s2)',sw:1}]);
+  lineChart('c_bld',{years:years.slice(0,-1),label:'What limits wind and solar building',series:[{name:'Wanted by investors',color:'var(--s2)',dash:1,v:rows.slice(0,-1).map(r=>r.build.want)},{name:'Industry capacity',color:'var(--s3)',v:rows.slice(0,-1).map(r=>r.build.industry)},{name:'Grid access',color:'var(--s4)',v:rows.slice(0,-1).map(r=>r.build.grid)},{name:'Built',color:'var(--s1)',v:rows.slice(0,-1).map(r=>r.build.built)}]});
+  legend('lg_bld',[{name:'Built',color:'var(--s1)'},{name:'Wanted by investors',color:'var(--s2)',dash:1},{name:'Grid access',color:'var(--s4)'},{name:'Industry capacity',color:'var(--s3)'}]);
+  {const pc=rows.map(r=>{const k=(1-(st.offset?0.25:0))*r.price/r.pop,a=k*r.ldv,h=k*r.buildings*331/587,e=k*r.power*0.37,tot=r.net*1000/r.pop;return{a,h,e,o:Math.max(0,tot-a-h-e),d:r.pool*1000/r.pop}});
+   const ps=[['Driving','var(--s1)','a'],['Home heating','var(--s4)','h'],['Home electricity','var(--s2)','e'],['Everything else bought','var(--s3)','o']];
+   lineChart('c_pay',{years,label:'What the average person pays and gets back',pre:'$',stack:ps.map(s=>({name:s[0],color:s[1],v:pc.map(x=>x[s[2]])})),series:[{name:'Dividend per person',color:'var(--ink)',v:pc.map(x=>x.d)}]});
+   legend('lg_pay',[...ps.map(s=>({name:s[0],color:s[1],sw:1})),{name:'Dividend per person',color:'var(--ink)'}]);}
+  clearTimeout(sensTimer);sensTimer=setTimeout(()=>sensitivity(pol,lv),60);
+  lineChart('c_el',{years,label:'Retail electricity price',post:'¢',dec:1,series:[{name:'No policy',color:'var(--base)',v:base.map(r=>r.retail)},{name:pkg,color:'var(--s1)',v:rows.map(r=>r.retail)}]});
+  legend('lg_el',[{name:pkg,color:'var(--s1)'},{name:'No policy',color:'var(--base)'}]);
+  // ladder: add measures one at a time
+  {const w0=CFD.world(lv),sim=p=>CFD.simulate(p,w0),N=CFD.NOFEE,pY=st.permit==='none'?2027:+st.permit;
+   const off={credits:false,grid:false,nuclear:false,standards:false},mk=(a,x)=>Object.assign({},pol,a,off,x);
+   const steps=[['Current law',mk(N,{permitYear:null})],['+ Permitting reform',mk(N,{permitYear:pY})],['+ Carbon fee',mk({},{permitYear:pY})],['+ Restored tax credits',mk({},{permitYear:pY,credits:true}),'credits'],
+     ['+ Grid build-out program',mk({},{permitYear:pY,credits:true,grid:true}),'grid'],['+ Nuclear, fusion and hydro program',mk({},{permitYear:pY,credits:true,grid:true,nuclear:true}),'nuclear'],['+ EPA standards',mk({},{permitYear:pY,credits:true,grid:true,nuclear:true,standards:true}),'standards']];
+   const feeOnly=sim(steps[2][1]),tons=(a,b)=>{let d=0;for(let i=0;i<26;i++)d+=a[i].covered-b[i].covered;return d};
+   let prev=null,h='<tr><th>Measure</th><th>Below 2005, 2035</th><th>2050</th><th>EV sales 2050</th><th>Added tons avoided, in this order</th><th>If added to the fee alone</th><th>Treasury cost per ton</th></tr>';
+   steps.forEach(s=>{const r=sim(s[1]);let d=0,cc=0,pc=0;if(prev)for(let i=0;i<26;i++){d+=prev[i].covered-r[i].covered;cc+=r[i].credits;pc+=prev[i].credits}
+     h+=`<tr><td>${s[0]}</td><td>${fmt(100*r[10].below2005)}%</td><td>${fmt(100*r[25].below2005)}%</td><td>${fmt(100*r[25].evShare)}%</td><td>${prev?fmt(d/1000,1)+' Gt':''}</td><td>${s[2]?fmt(tons(feeOnly,sim(mk({},{permitYear:pY,[s[2]]:true})))/1000,1)+' Gt':''}</td><td>${prev&&cc-pc>50&&d>1?usd((cc-pc)*1000/d):''}</td></tr>`;prev=r});
+   $('ladder').innerHTML=h;
+   const S=k=>win.reduce((a,r)=>a+k(r),0),g=S(r=>r.gross),n=S(r=>r.net),dv=S(r=>r.pool),tr=S(r=>r.transition),cr=S(r=>r.credits),ad=n-dv-tr;
+   const br=(a,v,bold)=>`<tr><td>${bold?'<b>'+a+'</b>':a}</td><td>${bold?'<b>':''}${v<0?'−':''}${fmt(Math.abs(v))}${bold?'</b>':''}</td></tr>`;
+   $('budget').innerHTML='<tr><th>Item</th><th>$bn</th></tr>'+br('Fee receipts, gross',g)+br('Lower income and payroll tax receipts (offset)',-(g-n))+br('Dividends paid',-dv)+br('Transition and Hardship Account',-tr)+br('Administration',-ad)+br('Tax credits and federal programs',-cr)+br('Change in the deficit (+ is higher)',cr,true);}
+  $('tbl').innerHTML='<tr><th>Year</th><th>Fee $/t</th><th>Energy CO2, no policy</th><th>With fee</th><th>Below 2005</th><th>Other covered Mt</th><th>Gross $bn</th><th>Dividends $bn</th><th>Per adult</th><th>Coal TWh</th><th>Wind+solar TWh</th><th>EV sales</th><th>Heat pumps</th><th>CO2 stored Mt</th><th>Credits $bn</th></tr>'+
+    rows.filter(r=>r.year>=2030).map((r,i)=>`<tr><td>${r.year}</td><td>${fmt(r.price)}</td><td>${fmt(base[i+1].energy)}</td><td>${fmt(r.energy)}</td><td>${fmt(100*r.below2005)}%</td><td>${fmt(r.covered-r.energy)}</td><td>${fmt(r.gross)}</td><td>${fmt(r.pool)}</td><td>${usd(r.perShare)}</td><td>${fmt(r.gen.coal||0)}</td><td>${fmt(r.gen.wind+r.gen.solar)}</td><td>${fmt(100*r.evShare)}%</td><td>${fmt(100*r.hp)}%</td><td>${fmt(r.stored)}</td><td>${fmt(r.credits)}</td></tr>`).join('');
+}
+// ---- checks (computed live from the model) ----
+(function(){
+  const w=CFD.world(),b=CFD.simulate(CFD.NOFEE,w),r0=b[0],r40=b[15],r50=b[25];
+  const row=(a,m,d)=>`<tr><td>${a}</td><td>${m}</td><td>${d}</td></tr>`;
+  $('cal').innerHTML='<tr><th>2025</th><th>Model</th><th>Data</th></tr>'+
+    row('Energy CO2, Mt',fmt(r0.energy),'4,904')+row('Power CO2, Mt',fmt(r0.power),'1,485')+row('Coal generation, TWh',fmt(r0.gen.coal),'753')+
+    row('Gas generation, TWh',fmt(r0.gen.cc+r0.gen.ct),'1,816')+row('Wind and solar, TWh',fmt(r0.gen.wind+r0.gen.solar),'784')+row('EV share of sales',fmt(100*r0.evShare,1)+'%','7.8%');
+  const pc=(a,c)=>fmt(100*(a/c-1))+'%';
+  $('bl').innerHTML='<tr><th>No policy</th><th>Model</th><th>Published range</th></tr>'+
+    row('Power CO2, 2025 to 2040',pc(r40.power,r0.power),'−24% to −48% (Rhodium)')+row('Transport CO2, 2025 to 2040',pc(r40.transport,r0.transport),'−12% to −22% (Rhodium)')+
+    row('Industry CO2, 2025 to 2040',pc(r40.industry,r0.industry),'−4% to +15% (Rhodium)')+row('Energy CO2, 2025 to 2050',pc(r50.energy,r0.energy),'−11% to −38% (EIA)');
+  const sd=CFD.simulate(Object.assign({},CFD.NOFEE,{standards:true}),w),A={power:[1436,702,635,837],transport:[1826,1520,1358,1213],industry:[1012,1068,1118,1214],buildings:[590,554,545,527],energy:[4865,3844,3656,3791]};
+  $('aeo').innerHTML='<tr><th>Change from 2025</th><th>This model, 2040</th><th>EIA, 2040</th><th>This model, 2050</th><th>EIA, 2050</th></tr>'+[['Power','power'],['Transport','transport'],['Industry','industry'],['Buildings','buildings'],['All energy CO2','energy']].map(x=>`<tr><td>${x[0]}</td><td>${pc(sd[15][x[1]],sd[0][x[1]])}</td><td>${pc(A[x[1]][2],A[x[1]][0])}</td><td>${pc(sd[25][x[1]],sd[0][x[1]])}</td><td>${pc(A[x[1]][3],A[x[1]][0])}</td></tr>`).join('');
+  const reg=y=>y<2027?0:(15+50*(Math.min(y,2035)-2027)/8)/Math.pow(1.025,Math.min(y,2035)-2025);
+  const tests=[['EIA NEMS, $15 rising 5%',y=>15*1.19*Math.pow(1.05,y-2023),{2030:-12.1,2050:-16.7}],['EIA NEMS, $35 rising 5%',y=>35*1.19*Math.pow(1.05,y-2023),{2030:-16.7,2050:-21.6}],
+    ['EPRI US-REGEN, $15 to $65',reg,{2035:-25.5}],['RFF E3, $44 rising 5%',y=>44*1.055*Math.pow(1.05,y-2023),{2030:-31,2035:-38}]];
+  const w22=CFD.world();w22.fcr=0.065;w22.gridBase=400;w22.k0.solar=150;w22.k0.wind=60;w22.pipe0.solar=2000;w22.pipe0.wind=800;w22.dispSpeed=0.5;const b22=CFD.simulate(CFD.NOFEE,w22);
+  let h='<tr><th>Published run</th><th>Year</th><th>Published</th><th>This model, today</th><th>2022 conditions</th></tr>';
+  tests.forEach(t=>{const cv={cover:{process:false,methane:false,fgas:false,border:false}},r=CFD.simulate(cv,w,t[1]),r2=CFD.simulate(cv,w22,t[1]);for(const y in t[2]){h+=`<tr><td>${t[0]}</td><td>${y}</td><td>${t[2][y].toFixed(1)}%</td><td>${(100*(r[y-2025].energy/b[y-2025].energy-1)).toFixed(1)}%</td><td>${(100*(r2[y-2025].energy/b22[y-2025].energy-1)).toFixed(1)}%</td></tr>`}});
+  $('bt').innerHTML=h;
+  const pm=CFD.simulate(Object.assign({},CFD.NOFEE,{permitYear:2027}),w);let c=0;for(let i=0;i<26;i++)c+=b[i].covered-pm[i].covered;
+  const cr=CFD.simulate(Object.assign({},CFD.NOFEE,{credits:true}),w);let c2=0;for(let i=0;i<26;i++)c2+=b[i].covered-cr[i].covered;
+  const crpm=CFD.simulate(Object.assign({},CFD.NOFEE,{credits:true,permitYear:2027}),w),fe=CFD.simulate({},w),fepm=CFD.simulate({permitYear:2027},w);let c3=0,c4=0;for(let i=0;i<26;i++){c3+=cr[i].covered-crpm[i].covered;c4+=fe[i].covered-fepm[i].covered}
+  $('cm').innerHTML='<tr><th>Measure</th><th>This model</th><th>Published</th></tr>'+row('Permitting reform with no other policy, avoided by 2050',fmt(c/1000,1)+' Gt','no like-for-like study')+row('Permitting reform on top of restored credits',fmt(c3/1000,1)+' Gt','6.5 Gt (RMI, 2024 bill, with the credits in force)')+row('Permitting reform on top of the fee',fmt(c4/1000,1)+' Gt','no like-for-like study')+row('Restored credits with no other policy',fmt(c2/1000,1)+' Gt','not compared');
+})();
+toForm();render();
+const go=()=>{fromForm();clearTimeout(timer);timer=setTimeout(render,120)};
+$('controls').addEventListener('input',go);$('decYear').addEventListener('input',go);$('hhGroup').addEventListener('input',go);
+$('reset').addEventListener('click',()=>{st=def();toForm();fromForm();render()});
+})();
+
+</script>

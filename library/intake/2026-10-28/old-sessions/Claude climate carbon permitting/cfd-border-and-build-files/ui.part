@@ -1,0 +1,182 @@
+(function(){
+const $=id=>document.getElementById(id);
+const fmt=(x,d=0)=>x.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const usd=(x,d=0)=>(x<0?'−$':'$')+fmt(Math.abs(x),d);
+const KEY='cfd-params-v6';
+const def=()=>({startPrice:40,step:8,stepType:'linear',ratchet:true,c_process:true,c_methane:true,c_fgas:true,c_border:true,c_bunkers:false,dividendShare:90,offset:true,credits:false,grid:false,nuclear:false,standards:false,permit:'2027',tech:'mid',gas:'3.9',load:'0.011',sccRate:'2.0',decYear:'2035',hhGroup:'decile'});
+let st=def();
+try{const s=JSON.parse(localStorage.getItem(KEY)||'null');if(s)st=Object.assign(st,s)}catch(e){}
+const ids=Object.keys(def());
+for(let y=2030;y<=2050;y+=5){const o=document.createElement('option');o.value=y;o.textContent=y;$('decYear').appendChild(o)}
+function toForm(){ids.forEach(k=>{const el=$(k);if(el.type==='checkbox')el.checked=st[k];else el.value=st[k]})}
+function fromForm(){ids.forEach(k=>{const el=$(k);st[k]=el.type==='checkbox'?el.checked:(el.type==='range'?+el.value:el.value)});try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}}
+const policy=()=>({startPrice:st.startPrice,step:st.step,stepType:st.stepType,ratchet:st.ratchet,dividendShare:st.dividendShare/100,offset:st.offset?0.25:0,
+  credits:st.credits,grid:st.grid,nuclear:st.nuclear,standards:st.standards,permitYear:st.permit==='none'?null:+st.permit,
+  cover:{process:st.c_process,methane:st.c_methane,fgas:st.c_fgas,border:st.c_border,bunkers:st.c_bunkers}});
+const levers=()=>({tech:st.tech==='mid'?null:st.tech,gas:+st.gas,load:+st.load});
+
+// ---- charts ----
+const W=520,H=250,m={l:46,r:14,t:10,b:24},NS='http://www.w3.org/2000/svg';
+function el(n,a,p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function niceMax(v){if(!(v>0))return 1;const p=Math.pow(10,Math.floor(Math.log10(v)));const n=v/p;return (n<=1?1:n<=2?2:n<=2.5?2.5:n<=5?5:10)*p}
+function legend(id,items){$(id).innerHTML=items.map(i=>`<span><i class="${i.sw?'sw':''}" style="background:${i.dash?'transparent':i.color};${i.dash?`border-top:2px dashed ${i.color};height:0`:''}${i.op?`;opacity:${i.op}`:''}"></i>${i.name}</span>`).join('')}
+function tipFor(box){[...box.parentNode.querySelectorAll('.tip')].forEach(t=>t.remove());const tip=document.createElement('div');tip.className='tip';tip.hidden=true;box.parentNode.appendChild(tip);return tip}
+function place(tip,box,ev){const pr=box.parentNode.getBoundingClientRect();let left=ev.clientX-pr.left+12;if(left+tip.offsetWidth>pr.width-4)left=ev.clientX-pr.left-tip.offsetWidth-12;tip.style.left=Math.max(4,left)+'px';tip.style.top=(ev.clientY-pr.top-10)+'px'}
+function lineChart(host,o){
+  const box=$(host);box.innerHTML='';
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':o.label},box);
+  const xs=o.years,x0=xs[0],x1=xs[xs.length-1],d=o.dec||0;
+  let ymax=0;(o.series||[]).forEach(s=>s.v.forEach(v=>{if(v!=null)ymax=Math.max(ymax,v)}));
+  if(o.band)o.band.hi.forEach(v=>ymax=Math.max(ymax,v));
+  if(o.stack)xs.forEach((_,i)=>ymax=Math.max(ymax,o.stack.reduce((a,s)=>a+Math.max(0,s.v[i]),0)));
+  ymax=niceMax(ymax*1.02);
+  const X=y=>m.l+(y-x0)/(x1-x0)*(W-m.l-m.r),Y=v=>H-m.b-v/ymax*(H-m.t-m.b);
+  for(let i=0;i<=4;i++){const v=ymax*i/4;el('line',{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:'var(--line)','stroke-width':1},svg);const t=el('text',{x:m.l-6,y:Y(v)+4,'text-anchor':'end'},svg);t.textContent=(o.pre||'')+fmt(v,ymax<10?1:0)+(o.post||'')}
+  for(let y=Math.ceil(x0/5)*5;y<=x1;y+=5){const t=el('text',{x:X(y),y:H-6,'text-anchor':'middle'},svg);t.textContent=y}
+  const path=v=>v.map((q,i)=>q==null?null:[X(xs[i]),Y(q)]).filter(Boolean).map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');
+  const area=(lo,hi)=>'M'+hi.map((q,i)=>X(xs[i]).toFixed(1)+' '+Y(q).toFixed(1)).join(' L')+' L'+lo.map((q,i)=>X(xs[i]).toFixed(1)+' '+Y(q).toFixed(1)).reverse().join(' L')+'Z';
+  if(o.stack){let acc=xs.map(()=>0);o.stack.forEach(s=>{const lo=acc.slice(),hi=acc.map((a,i)=>a+Math.max(0,s.v[i]));el('path',{d:area(lo,hi),fill:s.color,stroke:'var(--surface)','stroke-width':1.5},svg);acc=hi})}
+  if(o.band)el('path',{d:area(o.band.lo,o.band.hi),fill:'var(--band)',opacity:.16},svg);
+  (o.series||[]).forEach(s=>{el('path',{d:path(s.v),fill:'none',stroke:s.color,'stroke-width':2,'stroke-dasharray':s.dash?'5 4':'','stroke-linejoin':'round'},svg)});
+  const cross=el('line',{y1:m.t,y2:H-m.b,stroke:'var(--ink3)','stroke-width':1,visibility:'hidden'},svg);
+  const tip=tipFor(box);
+  const hit=el('rect',{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,fill:'transparent'},svg);
+  hit.addEventListener('pointermove',ev=>{const r=svg.getBoundingClientRect();const px=(ev.clientX-r.left)/r.width*W;const i=Math.max(0,Math.min(xs.length-1,Math.round((px-m.l)/(W-m.l-m.r)*(x1-x0))));
+    cross.setAttribute('x1',X(xs[i]));cross.setAttribute('x2',X(xs[i]));cross.setAttribute('visibility','visible');
+    const f=v=>(o.pre||'')+fmt(v,d)+(o.post||'');
+    const rows=(o.stack?o.stack.slice().reverse():o.series).filter(s=>s.v[i]!=null).map(s=>`${s.name}: ${f(s.v[i])}`);
+    if(o.stack){rows.push(`Total: ${f(o.stack.reduce((a,s)=>a+Math.max(0,s.v[i]),0))}`);(o.series||[]).forEach(s=>{if(s.v[i]!=null)rows.push(`${s.name}: ${f(s.v[i])}`)})}
+    if(o.band)rows.push(`10th to 90th: ${f(o.band.lo[i])} to ${f(o.band.hi[i])}`);
+    tip.innerHTML=`<b>${xs[i]}</b><br>`+rows.join('<br>');tip.hidden=false;place(tip,box,ev)});
+  hit.addEventListener('pointerleave',()=>{tip.hidden=true;cross.setAttribute('visibility','hidden')});
+}
+function barChart(host,vals,labels,names){
+  const box=$(host);box.innerHTML='';const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Net effect per household'},box);
+  const n=vals.length,mx=niceMax(Math.max(...vals.map(g=>Math.abs(g.net))));const Y=v=>m.t+(mx-v)/(2*mx)*(H-m.t-m.b);const bw=(W-m.l-m.r)/n;
+  [-mx,-mx/2,0,mx/2,mx].forEach(v=>{el('line',{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:v===0?'var(--ink3)':'var(--line)','stroke-width':1},svg);const t=el('text',{x:m.l-6,y:Y(v)+4,'text-anchor':'end'},svg);t.textContent=usd(v)});
+  const tip=tipFor(box);
+  vals.forEach((g,i)=>{const v=g.net,x=m.l+i*bw+bw*0.12,y=Math.min(Y(v),Y(0)),h=Math.max(1,Math.abs(Y(v)-Y(0)));
+    el('rect',{x,y,width:bw*0.76,height:h,rx:3,fill:v>=0?'var(--s1)':'var(--s2)'},svg);
+    const t=el('text',{x:m.l+i*bw+bw/2,y:H-6,'text-anchor':'middle'},svg);t.textContent=labels[i];
+    const hitr=el('rect',{x:m.l+i*bw,y:m.t,width:bw,height:H-m.t-m.b,fill:'transparent'},svg);
+    hitr.addEventListener('pointermove',ev=>{tip.innerHTML=`<b>${names[i]}</b><br>Dividend: ${usd(g.dividend)}<br>Gasoline: ${usd(-g.gasoline)}<br>Heating: ${usd(-g.heat)}<br>Electricity: ${usd(-g.elec)}<br>Everything else: ${usd(-g.other)}<br>Net: ${usd(v)} (${fmt(g.pctInc,2)}% of income)`;tip.hidden=false;place(tip,box,ev)});
+    hitr.addEventListener('pointerleave',()=>tip.hidden=true)});
+}
+
+// ---- render ----
+let timer=null,sensTimer=null;
+const LBL={'ldes.capex35':'Long-duration storage cost in 2035','h2.p50':'Hydrogen price in 2050','h2.s50':'Hydrogen available to power plants in 2050',storDurEnd:'Battery duration in 2050',storDur38:'Battery duration in 2038',storChem:'Cost saving from new battery chemistries',htCost:'Cost of cleaning up high-temperature industrial heat',htShare:'High-temperature share of industrial fuel use',stdSoft:'How far standards lift sales near the market level',gasPower:'Natural gas price',loadGrowth:'Electricity demand growth','decline.solar':'Solar cost decline','decline.stor':'Storage cost decline',gridPerPt:'Wind and solar connected per point of transmission growth',gridBase:'Grid access without new transmission',gridRetire:'Reuse of retiring plants\' grid connections',icTime:'Wait for a grid connection',attr:'Siting cancellations','kGrow.solar':'Solar industry growth rate','kGrow.wind':'Wind industry growth rate',txBase:'Transmission growth under current law',pmTx:'Permitting reform effect on transmission','kFirm0.ccs':'Starting pace of capture plants','kFirmGrow.ccs':'Capture industry growth rate','kFirmGrow.nuc':'Reactor industry growth rate',nucLearn:'Reactor cost learning',nucCapex0:'First reactor cost',gpTx:'Grid program effect on transmission',gpRecon:'Grid access from re-stringing lines','floor.solar':'Solar built under state mandates','floor.wind':'Wind built under state mandates',packDecline:'Battery cost decline',evBeta:'Car buyers\' price sensitivity',evNet:'Pull from electric cars on the road',evNetSales:'Pull from electric share of sales',packFloor:'Lowest battery cost',crCharge:'Charging credit effect',payback:'Years of fuel savings buyers count',vmtElast:'Driving response to fuel price',trkPremEnd:'Electric truck cost premium',hpPrem:'Heat pump cost premium',hpBeta:'Heat pump buyers\' price sensitivity',bldgElast:'Heating response to fuel price',indElast:'Industry efficiency response',ccsCostMult:'Carbon capture cost',ccsRate:'Industrial adoption speed',ch4Scale:'Methane abatement potential',impEmb:'Carbon in covered imports',expEmb:'Carbon in covered exports',gasoline:'Gasoline price',pmValue:'Permitting effect on wind and solar value',feeTx:'Fee effect on transmission',crTx:'Transmission credit effect',crEvTake:'Electric car credit take-up',siteScale:'Spread of wind and solar site quality',dispSpeed:'Developer response speed',vfSolar:'Solar value loss as share grows',vfWind:'Wind value loss as share grows',curtSlope:'Curtailment at high shares',coalSched:'Scheduled coal retirements',fcr:'Financing cost','capex.solar':'Solar cost','capex.wind':'Wind cost',lowTempShare:'Industrial heat that can electrify',trkBeta:'Truck buyers\' price sensitivity',mpgElast:'Fuel economy response','cf.newSolar':'Solar output per gigawatt'};
+function sensitivity(pol,lv){const R=CFD.RANGES,out=[];
+  for(const k in R){const v=R[k].map(x=>{const w=CFD.world(lv),p=k.split('.'),l=p.pop();p.reduce((a,c)=>a[c],w)[l]=x;const r=CFD.simulate(pol,w);return[100*r[25].below2005,r[10].perShare]});
+    out.push({k,e:v[1][0]-v[0][0],d:v[1][1]-v[0][1]})}
+  out.sort((a,c)=>Math.abs(c.e)-Math.abs(a.e));const sg=x=>(x>0?'+':x<0?'−':'')+fmt(Math.abs(x),1);
+  $('sens').innerHTML='<tr><th>Input, moved from the low to the high end of its range</th><th>2050 reduction, points</th><th>2035 dividend</th></tr>'+out.slice(0,10).map(o=>`<tr><td>${LBL[o.k]||o.k}</td><td>${sg(o.e)}</td><td>${(o.d<0?'−$':'+$')+fmt(Math.abs(o.d))}</td></tr>`).join('')}
+function render(){
+  $('o_startPrice').textContent='$'+st.startPrice;
+  $('o_step').textContent=st.stepType==='linear'?'$'+st.step+' a year':st.step+'% a year';
+  $('o_dividendShare').textContent=st.dividendShare+'%';
+  const pol=policy(),lv=levers(),R=CFD.run(pol,lv),mc=CFD.monteCarlo(pol,lv,120,7);
+  const extra=st.credits||st.grid||st.nuclear||st.standards||st.permit==='2029',feeOnly=extra?CFD.simulate(Object.assign({},pol,{credits:false,grid:false,nuclear:false,standards:false,permitYear:st.permit==='2027'?2027:null}),CFD.world(lv)).slice(4):null;
+  const pkg=extra?'With the full package':'With the fee';
+  const i0=2029-2025,rows=R.pol.slice(i0),base=R.base.slice(i0),years=rows.map(r=>r.year);
+  const q=(a,p)=>{const s=a.slice().sort((x,y)=>x-y);return s[Math.round(p*(s.length-1))]};
+  const band=f=>({lo:years.map((_,i)=>q(mc.map(x=>f(x.pol[i+i0],x.base[i+i0])),.1)),hi:years.map((_,i)=>q(mc.map(x=>f(x.pol[i+i0],x.base[i+i0])),.9))});
+  const at=y=>rows[y-2029],bat=y=>base[y-2029],ri=y=>y-2029;
+  const bE=band(r=>r.energy),bD=band(r=>r.perShare),bB=band(r=>100*r.below2005);
+  const win=rows.filter(r=>r.year>=2030&&r.year<=2039);
+  let cumAb=0,cumBen=0;rows.forEach((r,i)=>{const a=base[i].covered-r.covered;cumAb+=a;cumBen+=a*CFD.scc(r.year,st.sccRate)/1000});
+  let health=0;rows.forEach((r,i)=>{const bb=base[i];health+=((bb.gen.coal||0)-(r.gen.coal||0))*0.085*1.05+(((bb.gen.cc||0)+(bb.gen.ct||0))-((r.gen.cc||0)+(r.gen.ct||0)))*0.010*1.05});
+  const T=(k,v,r)=>`<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="r">${r||'&nbsp;'}</div></div>`;
+  const pr=(b,y,f)=>`${f(b.lo[ri(y)])} to ${f(b.hi[ri(y)])}`;
+  const nonE=r=>r.rev.process+r.rev.methane+r.rev.fgas+r.rev.border+r.rev.bunkers;
+  $('tiles').innerHTML=
+    T('Energy CO2 below 2005, 2035',fmt(100*at(2035).below2005)+'%',pr(bB,2035,v=>fmt(v)+'%')+' · no policy '+fmt(100*bat(2035).below2005)+'%')+
+    T('Energy CO2 below 2005, 2050',fmt(100*at(2050).below2005)+'%',pr(bB,2050,v=>fmt(v)+'%')+' · no policy '+fmt(100*bat(2050).below2005)+'%')+
+    T('All net emissions below 2005, 2050',fmt(100*at(2050).ghgBelow2005)+'%','no policy '+fmt(100*bat(2050).ghgBelow2005)+'%')+
+    T('Dividend per adult, 2035',usd(at(2035).perShare),pr(bD,2035,usd))+
+    T('Family of four, 2035',usd(at(2035).family4),usd(at(2035).family4/12)+' a month')+
+    T('Fee in 2035 / 2050',usd(at(2035).price)+' / '+usd(at(2050).price),'gasoline +'+usd(at(2035).gasoline,2)+' / +'+usd(at(2050).gasoline,2))+
+    T('Gross revenue, 2030–39',usd(win.reduce((a,r)=>a+r.gross,0)/1000,2)+'tn',fmt(100*win.reduce((a,r)=>a+nonE(r),0)/Math.max(1e-9,win.reduce((a,r)=>a+r.gross,0)))+'% from outside fuel CO2')+
+    T('Emissions avoided by 2050',fmt(cumAb/1000,1)+' Gt','climate benefit '+usd(cumBen/1000,1)+'tn')+
+    T('Health benefit from cleaner air',usd(health/1000,2)+'tn','through 2050, from less coal and gas burned for power')+
+    (st.credits||st.grid||st.nuclear?T('Credits and programs, 2030–39',usd(win.reduce((a,r)=>a+r.credits,0)/1000,2)+'tn',usd(at(2035).credits)+'bn in 2035, not paid from the fee'):'');
+  const notes=[];
+  if(R.pol.ratchetYears)notes.push(`The ratchet fires in ${R.pol.ratchetYears} of 20 years in this run.`);
+  const rf=mc.filter(x=>x.pol.ratchetYears>0).length;if(st.ratchet&&st.startPrice>0)notes.push(`It fires at least once in ${fmt(100*rf/mc.length)}% of the 120 uncertain runs.`);
+  $('note').hidden=!notes.length;$('note').textContent=notes.join(' ');
+  lineChart('c_emis',{years,label:'Energy CO2 emissions',band:bE,series:[{name:'No policy',color:'var(--base)',v:base.map(r=>r.energy)},{name:'Statutory target',color:'var(--ink3)',dash:1,v:rows.map(r=>r.target)},...(feeOnly?[{name:'Fee only',color:'var(--s2)',v:feeOnly.map(r=>r.energy)}]:[]),{name:pkg,color:'var(--s1)',v:rows.map(r=>r.energy)}]});
+  legend('lg_emis',[{name:pkg,color:'var(--s1)'},...(feeOnly?[{name:'Fee only',color:'var(--s2)'}]:[]),{name:'No policy',color:'var(--base)'},{name:'Statutory target',color:'var(--ink3)',dash:1},{name:'10th to 90th percentile',color:'var(--band)',sw:1,op:.3}]);
+  lineChart('c_div',{years,label:'Dividend per adult',pre:'$',band:bD,series:[{name:'Dividend per adult',color:'var(--s1)',v:rows.map(r=>r.perShare)}]});
+  legend('lg_div',[{name:'Selected case',color:'var(--s1)'},{name:'10th to 90th percentile',color:'var(--band)',sw:1,op:.3}]);
+  const sc=[['Transport','var(--s1)',r=>r.transport],['Power','var(--s2)',r=>r.power],['Industry fuel','var(--s3)',r=>r.industry],['Buildings','var(--s4)',r=>r.buildings],['Process, methane, HFCs','var(--s5)',r=>r.process+r.methane+r.n2o+r.hfc]];
+  lineChart('c_sec',{years,label:'Covered emissions by source',stack:sc.map(s=>({name:s[0],color:s[1],v:rows.map(s[2])}))});
+  legend('lg_sec',sc.map(s=>({name:s[0],color:s[1],sw:1})));
+  const gn=[['Nuclear and hydro','var(--s3)',r=>r.gen.nuclear+r.gen.hydro],['Coal','var(--s7)',r=>r.gen.coal||0],['Gas','var(--s2)',r=>(r.gen.cc||0)+(r.gen.ct||0)],['Gas with capture','var(--s5)',r=>r.gen.ccs||0],['Long-duration storage and hydrogen','var(--s6)',r=>(r.gen.ldes||0)+(r.gen.h2||0)],['Wind','var(--s1)',r=>r.gen.wind],['Solar','var(--s4)',r=>r.gen.solar]];
+  lineChart('c_gen',{years,label:'Electricity generation',stack:gn.map(s=>({name:s[0],color:s[1],v:rows.map(s[2])}))});
+  legend('lg_gen',gn.map(s=>({name:s[0],color:s[1],sw:1})));
+  const rv=[['Transport fuel','var(--s1)',r=>r.rev.transport],['Power fuel','var(--s2)',r=>r.rev.power],['Industry and buildings fuel','var(--s3)',r=>r.rev.industry+r.rev.buildings],['Process and N2O','var(--s4)',r=>r.rev.process],['Methane','var(--s5)',r=>r.rev.methane],['HFCs, border, bunkers','var(--s6)',r=>r.rev.fgas+r.rev.border+r.rev.bunkers]];
+  lineChart('c_rev',{years,label:'Revenue by source',pre:'$',stack:rv.map(s=>({name:s[0],color:s[1],v:rows.map(s[2])}))});
+  legend('lg_rev',rv.map(s=>({name:s[0],color:s[1],sw:1})));
+  lineChart('c_ev',{years,label:'Electric share of new car sales',post:'%',series:[{name:'No policy',color:'var(--base)',v:base.map(r=>100*r.evShare)},...(feeOnly?[{name:'Fee only',color:'var(--s2)',v:feeOnly.map(r=>100*r.evShare)}]:[]),{name:pkg,color:'var(--s1)',v:rows.map(r=>100*r.evShare)}]});
+  legend('lg_ev',[{name:pkg,color:'var(--s1)'},...(feeOnly?[{name:'Fee only',color:'var(--s2)'}]:[]),{name:'No policy',color:'var(--base)'}]);
+  {const y=+st.decYear,off=st.offset?0.25:0,gr=t=>HH.group(at(y),bat(y),R.pol[0],CEX[t],off),G=gr(st.hhGroup).slice(1);
+   const lab={decile:G.map((g,i)=>i===0?'Lowest':i===9?'Highest':i+1),quintile:['Lowest','Second','Third','Fourth','Highest'],region:['Northeast','Midwest','South','West'],area:['All urban','Central city','Other urban','Rural']}[st.hhGroup];
+   barChart('c_dec',G,lab,G.map(g=>g.name));
+   const regs=['northeast','midwest','south','west'].map(k=>gr('ri_'+k));
+   $('hhri').innerHTML='<tr><th>Household income</th><th>Northeast</th><th>Midwest</th><th>South</th><th>West</th></tr>'+regs[0].slice(1).map((g,i)=>`<tr><td>${g.name}</td>`+regs.map(x=>`<td>${usd(x[i+1].net)}</td>`).join('')+'</tr>').join('')+'<tr><td><b>All incomes</b></td>'+regs.map(x=>`<td><b>${usd(x[0].net)}</b></td>`).join('')+'</tr>';}
+  legend('lg_dec',[{name:'Net gain',color:'var(--s1)',sw:1},{name:'Net cost',color:'var(--s2)',sw:1}]);
+  lineChart('c_bld',{years:years.slice(0,-1),label:'What limits wind and solar building',series:[{name:'Wanted by investors',color:'var(--s2)',dash:1,v:rows.slice(0,-1).map(r=>r.build.want)},{name:'Industry capacity',color:'var(--s3)',v:rows.slice(0,-1).map(r=>r.build.industry)},{name:'Grid access',color:'var(--s4)',v:rows.slice(0,-1).map(r=>r.build.grid)},{name:'Built',color:'var(--s1)',v:rows.slice(0,-1).map(r=>r.build.built)}]});
+  legend('lg_bld',[{name:'Built',color:'var(--s1)'},{name:'Wanted by investors',color:'var(--s2)',dash:1},{name:'Grid access',color:'var(--s4)'},{name:'Industry capacity',color:'var(--s3)'}]);
+  {const pc=rows.map(r=>{const k=(1-(st.offset?0.25:0))*r.price/r.pop,a=k*r.ldv,h=k*r.buildings*331/587,e=k*r.power*0.37,tot=r.net*1000/r.pop;return{a,h,e,o:Math.max(0,tot-a-h-e),d:r.pool*1000/r.pop}});
+   const ps=[['Driving','var(--s1)','a'],['Home heating','var(--s4)','h'],['Home electricity','var(--s2)','e'],['Everything else bought','var(--s3)','o']];
+   lineChart('c_pay',{years,label:'What the average person pays and gets back',pre:'$',stack:ps.map(s=>({name:s[0],color:s[1],v:pc.map(x=>x[s[2]])})),series:[{name:'Dividend per person',color:'var(--ink)',v:pc.map(x=>x.d)}]});
+   legend('lg_pay',[...ps.map(s=>({name:s[0],color:s[1],sw:1})),{name:'Dividend per person',color:'var(--ink)'}]);}
+  clearTimeout(sensTimer);sensTimer=setTimeout(()=>sensitivity(pol,lv),60);
+  lineChart('c_el',{years,label:'Retail electricity price',post:'¢',dec:1,series:[{name:'No policy',color:'var(--base)',v:base.map(r=>r.retail)},{name:pkg,color:'var(--s1)',v:rows.map(r=>r.retail)}]});
+  legend('lg_el',[{name:pkg,color:'var(--s1)'},{name:'No policy',color:'var(--base)'}]);
+  // ladder: add measures one at a time
+  {const w0=CFD.world(lv),sim=p=>CFD.simulate(p,w0),N=CFD.NOFEE,pY=st.permit==='none'?2027:+st.permit;
+   const off={credits:false,grid:false,nuclear:false,standards:false},mk=(a,x)=>Object.assign({},pol,a,off,x);
+   const steps=[['Current law',mk(N,{permitYear:null})],['+ Permitting reform',mk(N,{permitYear:pY})],['+ Carbon fee',mk({},{permitYear:pY})],['+ Restored tax credits',mk({},{permitYear:pY,credits:true}),'credits'],
+     ['+ Grid build-out program',mk({},{permitYear:pY,credits:true,grid:true}),'grid'],['+ Nuclear, fusion and hydro program',mk({},{permitYear:pY,credits:true,grid:true,nuclear:true}),'nuclear'],['+ EPA standards',mk({},{permitYear:pY,credits:true,grid:true,nuclear:true,standards:true}),'standards']];
+   const feeOnly=sim(steps[2][1]),tons=(a,b)=>{let d=0;for(let i=0;i<26;i++)d+=a[i].covered-b[i].covered;return d};
+   let prev=null,h='<tr><th>Measure</th><th>Below 2005, 2035</th><th>2050</th><th>EV sales 2050</th><th>Added tons avoided, in this order</th><th>If added to the fee alone</th><th>Treasury cost per ton</th></tr>';
+   steps.forEach(s=>{const r=sim(s[1]);let d=0,cc=0,pc=0;if(prev)for(let i=0;i<26;i++){d+=prev[i].covered-r[i].covered;cc+=r[i].credits;pc+=prev[i].credits}
+     h+=`<tr><td>${s[0]}</td><td>${fmt(100*r[10].below2005)}%</td><td>${fmt(100*r[25].below2005)}%</td><td>${fmt(100*r[25].evShare)}%</td><td>${prev?fmt(d/1000,1)+' Gt':''}</td><td>${s[2]?fmt(tons(feeOnly,sim(mk({},{permitYear:pY,[s[2]]:true})))/1000,1)+' Gt':''}</td><td>${prev&&cc-pc>50&&d>1?usd((cc-pc)*1000/d):''}</td></tr>`;prev=r});
+   $('ladder').innerHTML=h;
+   const S=k=>win.reduce((a,r)=>a+k(r),0),g=S(r=>r.gross),n=S(r=>r.net),dv=S(r=>r.pool),tr=S(r=>r.transition),cr=S(r=>r.credits),ad=n-dv-tr;
+   const br=(a,v,bold)=>`<tr><td>${bold?'<b>'+a+'</b>':a}</td><td>${bold?'<b>':''}${v<0?'−':''}${fmt(Math.abs(v))}${bold?'</b>':''}</td></tr>`;
+   $('budget').innerHTML='<tr><th>Item</th><th>$bn</th></tr>'+br('Fee receipts, gross',g)+br('Lower income and payroll tax receipts (offset)',-(g-n))+br('Dividends paid',-dv)+br('Transition and Hardship Account',-tr)+br('Administration',-ad)+br('Tax credits and federal programs',-cr)+br('Change in the deficit (+ is higher)',cr,true);}
+  $('tbl').innerHTML='<tr><th>Year</th><th>Fee $/t</th><th>Energy CO2, no policy</th><th>With fee</th><th>Below 2005</th><th>Other covered Mt</th><th>Gross $bn</th><th>Dividends $bn</th><th>Per adult</th><th>Coal TWh</th><th>Wind+solar TWh</th><th>EV sales</th><th>Heat pumps</th><th>CO2 stored Mt</th><th>Credits $bn</th></tr>'+
+    rows.filter(r=>r.year>=2030).map((r,i)=>`<tr><td>${r.year}</td><td>${fmt(r.price)}</td><td>${fmt(base[i+1].energy)}</td><td>${fmt(r.energy)}</td><td>${fmt(100*r.below2005)}%</td><td>${fmt(r.covered-r.energy)}</td><td>${fmt(r.gross)}</td><td>${fmt(r.pool)}</td><td>${usd(r.perShare)}</td><td>${fmt(r.gen.coal||0)}</td><td>${fmt(r.gen.wind+r.gen.solar)}</td><td>${fmt(100*r.evShare)}%</td><td>${fmt(100*r.hp)}%</td><td>${fmt(r.stored)}</td><td>${fmt(r.credits)}</td></tr>`).join('');
+}
+// ---- checks (computed live from the model) ----
+(function(){
+  const w=CFD.world(),b=CFD.simulate(CFD.NOFEE,w),r0=b[0],r40=b[15],r50=b[25];
+  const row=(a,m,d)=>`<tr><td>${a}</td><td>${m}</td><td>${d}</td></tr>`;
+  $('cal').innerHTML='<tr><th>2025</th><th>Model</th><th>Data</th></tr>'+
+    row('Energy CO2, Mt',fmt(r0.energy),'4,904')+row('Power CO2, Mt',fmt(r0.power),'1,485')+row('Coal generation, TWh',fmt(r0.gen.coal),'753')+
+    row('Gas generation, TWh',fmt(r0.gen.cc+r0.gen.ct),'1,816')+row('Wind and solar, TWh',fmt(r0.gen.wind+r0.gen.solar),'784')+row('EV share of sales',fmt(100*r0.evShare,1)+'%','7.8%');
+  const pc=(a,c)=>fmt(100*(a/c-1))+'%';
+  $('bl').innerHTML='<tr><th>No policy</th><th>Model</th><th>Published range</th></tr>'+
+    row('Power CO2, 2025 to 2040',pc(r40.power,r0.power),'−24% to −48% (Rhodium)')+row('Transport CO2, 2025 to 2040',pc(r40.transport,r0.transport),'−12% to −22% (Rhodium)')+
+    row('Industry CO2, 2025 to 2040',pc(r40.industry,r0.industry),'−4% to +15% (Rhodium)')+row('Energy CO2, 2025 to 2050',pc(r50.energy,r0.energy),'−11% to −38% (EIA)');
+  const sd=CFD.simulate(Object.assign({},CFD.NOFEE,{standards:true}),w),A={power:[1436,702,635,837],transport:[1826,1520,1358,1213],industry:[1012,1068,1118,1214],buildings:[590,554,545,527],energy:[4865,3844,3656,3791]};
+  $('aeo').innerHTML='<tr><th>Change from 2025</th><th>This model, 2040</th><th>EIA, 2040</th><th>This model, 2050</th><th>EIA, 2050</th></tr>'+[['Power','power'],['Transport','transport'],['Industry','industry'],['Buildings','buildings'],['All energy CO2','energy']].map(x=>`<tr><td>${x[0]}</td><td>${pc(sd[15][x[1]],sd[0][x[1]])}</td><td>${pc(A[x[1]][2],A[x[1]][0])}</td><td>${pc(sd[25][x[1]],sd[0][x[1]])}</td><td>${pc(A[x[1]][3],A[x[1]][0])}</td></tr>`).join('');
+  const reg=y=>y<2027?0:(15+50*(Math.min(y,2035)-2027)/8)/Math.pow(1.025,Math.min(y,2035)-2025);
+  const tests=[['EIA NEMS, $15 rising 5%',y=>15*1.19*Math.pow(1.05,y-2023),{2030:-12.1,2050:-16.7}],['EIA NEMS, $35 rising 5%',y=>35*1.19*Math.pow(1.05,y-2023),{2030:-16.7,2050:-21.6}],
+    ['EPRI US-REGEN, $15 to $65',reg,{2035:-25.5}],['RFF E3, $44 rising 5%',y=>44*1.055*Math.pow(1.05,y-2023),{2030:-31,2035:-38}]];
+  const w22=CFD.world();w22.fcr=0.065;w22.gridBase=400;w22.k0.solar=150;w22.k0.wind=60;w22.pipe0.solar=2000;w22.pipe0.wind=800;w22.dispSpeed=0.5;const b22=CFD.simulate(CFD.NOFEE,w22);
+  let h='<tr><th>Published run</th><th>Year</th><th>Published</th><th>This model, today</th><th>2022 conditions</th></tr>';
+  tests.forEach(t=>{const cv={cover:{process:false,methane:false,fgas:false,border:false}},r=CFD.simulate(cv,w,t[1]),r2=CFD.simulate(cv,w22,t[1]);for(const y in t[2]){h+=`<tr><td>${t[0]}</td><td>${y}</td><td>${t[2][y].toFixed(1)}%</td><td>${(100*(r[y-2025].energy/b[y-2025].energy-1)).toFixed(1)}%</td><td>${(100*(r2[y-2025].energy/b22[y-2025].energy-1)).toFixed(1)}%</td></tr>`}});
+  $('bt').innerHTML=h;
+  const pm=CFD.simulate(Object.assign({},CFD.NOFEE,{permitYear:2027}),w);let c=0;for(let i=0;i<26;i++)c+=b[i].covered-pm[i].covered;
+  const cr=CFD.simulate(Object.assign({},CFD.NOFEE,{credits:true}),w);let c2=0;for(let i=0;i<26;i++)c2+=b[i].covered-cr[i].covered;
+  const crpm=CFD.simulate(Object.assign({},CFD.NOFEE,{credits:true,permitYear:2027}),w),fe=CFD.simulate({},w),fepm=CFD.simulate({permitYear:2027},w);let c3=0,c4=0;for(let i=0;i<26;i++){c3+=cr[i].covered-crpm[i].covered;c4+=fe[i].covered-fepm[i].covered}
+  $('cm').innerHTML='<tr><th>Measure</th><th>This model</th><th>Published</th></tr>'+row('Permitting reform with no other policy, avoided by 2050',fmt(c/1000,1)+' Gt','no like-for-like study')+row('Permitting reform on top of restored credits',fmt(c3/1000,1)+' Gt','6.5 Gt (RMI, 2024 bill, with the credits in force)')+row('Permitting reform on top of the fee',fmt(c4/1000,1)+' Gt','no like-for-like study')+row('Restored credits with no other policy',fmt(c2/1000,1)+' Gt','not compared');
+})();
+toForm();render();
+const go=()=>{fromForm();clearTimeout(timer);timer=setTimeout(render,120)};
+$('controls').addEventListener('input',go);$('decYear').addEventListener('input',go);$('hhGroup').addEventListener('input',go);
+$('reset').addEventListener('click',()=>{st=def();toForm();fromForm();render()});
+})();

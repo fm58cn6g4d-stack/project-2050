@@ -1,0 +1,107 @@
+#!/usr/bin/env python3
+"""Independent review experiments; preserves adopted inputs and baseline outputs."""
+import argparse
+import hashlib
+import importlib.util
+import json
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[3]
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT / 'models/tools'))
+
+
+def analyze():
+    a = json.loads((HERE / 'assumptions.json').read_text())
+    spec = importlib.util.spec_from_file_location('review_fiscal', ROOT / 'models/tools/fiscal-model.py')
+    fiscal = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(fiscal)
+    B = fiscal.read_baseline(ROOT / 'models/data/fiscal-baseline.csv')
+    model = json.loads((ROOT / 'build/fiscal-model.json').read_text())
+    ledger = json.loads((ROOT / 'build/ledger.json').read_text())
+    base = model['results']['DEC']['years']
+    years = range(2026, 2057)
+    zero = {y: 0.0 for y in years}
+    components = {}
+    for rid, amount in a['receipt_loss_tn_2030_39'].items():
+        profiles = fiscal.PR.BILLS if rid == 'HLT-6' else fiscal.PR.REVENUE if rid == 'G8' else fiscal.PR.CUTS
+        components[rid] = fiscal.row_path(B, amount, profiles[rid], rid)
+    losses = {y: sum(p[y] for p in components.values()) for y in years}
+    g1 = next(r['mid'] for r in ledger['revenue'] if r['id'] == 'G1')
+    corp_tn = g1 * a['corporate_additional_points'] / a['corporate_base_points'] * a['corporate_additional_yield_factor']
+    corp = fiscal.row_path(B, corp_tn, dict(start=2030, ramp=1, grow='rev_corporate'))
+    payroll = fiscal.row_path(B, a['payroll_points'] * a['payroll_tn_per_point'], dict(start=2030, ramp=1, grow='gdp'))
+    mixed = {y: corp[y] / 2 + payroll[y] for y in years}
+    space = {y: B[y]['gdp'] * a['net_revenue_space_gdp_percent'] / 100 * min(1, max(0, (y-2029)/5)) for y in years}
+
+    def case(name, revenue, cost):
+        gaps = {str(y): base[str(y)]['gf_primary'] + cost[y] - revenue[y] for y in years}
+        binding = max(range(2040, 2057), key=lambda y: gaps[str(y)] / B[y]['gdp'])
+        return dict(name=name, revenue_2030_39_tn=sum(revenue[y] for y in range(2030,2040))/1000,
+                    added_cost_or_lost_receipts_2030_39_tn=sum(cost[y] for y in range(2030,2040))/1000,
+                    fy2040_gap_bn=gaps['2040'], fy2040_gap_gdp_percent=100*gaps['2040']/B[2040]['gdp'],
+                    worst_maturity_gap_gdp_percent=100*gaps[str(binding)]/B[binding]['gdp'], binding_year=binding,
+                    maturity_only_pass=all(gaps[str(y)]<=1e-8 for y in range(2040,2057)),
+                    gap_path_bn=gaps)
+    cases = [case('Adopted working inputs', zero, zero),
+             case('Joint existing-range downside', zero, losses),
+             case('Corporate 31% illustration, central inputs', corp, zero),
+             case('Corporate 31% illustration, joint downside', corp, losses),
+             case('Payroll +0.35 points, joint downside', payroll, losses),
+             case('Corporate 29.5% plus payroll +0.35 points, joint downside', mixed, losses),
+             case('Net 0.5% GDP revenue space, joint downside', space, losses)]
+    h = a['housing']; n = h['last_award_year'] - h['first_year'] + 1
+    housing = []
+    for multiplier in h['cost_multipliers']:
+        p = {}
+        for y in years:
+            if y < h['first_year']: exposure = 0
+            elif y <= h['last_award_year']: exposure = h['additional_awards']/n*(y-h['first_year']+.5)
+            else: exposure = h['additional_awards']
+            p[y] = exposure*h['annual_cost_2026_dollars']*(1+h['nominal_cost_growth'])**(y-2026)*(1+h['administration_increment'])*multiplier/1e9
+        housing.append(dict(cost_multiplier=multiplier, cost_2030_39_tn=sum(p[y] for y in range(2030,2040))/1000,
+                            fy2040_cost_bn=p[2040], path_bn=p,
+                            case=case('Net revenue space with joint downside and additional housing tranche', space,
+                                      {y:losses[y]+p[y] for y in years})))
+    care = [dict(**c, gross_annual_bn_2026_dollars=c['users']*c['weekly_hours']*c['weeks']*c['loaded_hourly_2026_dollars']/1e9) for c in a['care_unit_examples']]
+    files = ['models/tools/strategic-review/assumptions.json','models/tools/strategic-review/analyze.py',
+             'models/tools/fiscal-model.py','models/tools/fiscal-profiles.py','models/tools/inputs.py',
+             'models/data/fiscal-baseline.csv','build/ledger.json','build/fiscal-model.json']
+    files += [str(p.relative_to(ROOT)) for p in sorted((ROOT/'models/data/inputs').glob('*.csv')) if p.name.startswith(('ledger-','fiscal-'))]
+    return dict(status=a['status'],source_main=a['source_main'],assumptions=a,cases=cases,housing=housing,care=care,
+                source_sha256={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in files})
+
+
+def render(r):
+    lines=['# Strategic review: exploratory arithmetic','',
+           'Generated by `models/tools/strategic-review/analyze.py`. Research only; no adopted input or baseline output is changed. Source main: `'+r['source_main']+'`.','',
+           'Positive gaps are deficits; negative gaps are surpluses. Dollars in the fiscal and housing tables are nominal. This tests only general-fund primary maturity through 2056, not all D4 conditions, debt, interest, trust funds, D3, legal feasibility or a whole-agenda score.','',
+           '| Case | New receipts, 2030–39 ($T) | FY2040 gap ($B) | FY2040 gap (% GDP) | Maturity only |',
+           '| --- | ---: | ---: | ---: | --- |']
+    for c in r['cases']:
+        lines.append(f"| {c['name']} | {c['revenue_2030_39_tn']:.3f} | {c['fy2040_gap_bn']:.1f} | {c['fy2040_gap_gdp_percent']:.3f} | {'Pass' if c['maturity_only_pass'] else 'Fail'} |")
+    lines += ['', 'The joint downside loses $350B of HLT-6 general-fund savings, $200B of G8 enforcement receipts and $150B of C39 receipts over 2030–39, following their existing annual profiles. These are simultaneous existing-range low cases, not a probability interval. HI exposure is additional and excluded. GX is unchanged; the stress adds no second generic avoidance haircut or dynamic feedback. Corporate scaling and payroll yields reproduce the earlier comparison assumptions, not fresh tax estimates. The mixed illustration halves the corporate increment. The 0.5%-GDP case is a net funding requirement, with no identified instrument or household incidence.', '',
+              '| Two million additional awards, phased 2034–39 | Extra 2030–39 ($T) | Extra FY2040 ($B) | FY2040 gap after net funding space + downside + housing ($B) |',
+              '| --- | ---: | ---: | ---: |']
+    for h in r['housing']:
+        lines.append(f"| Unit-cost multiplier {h['cost_multiplier']:.2f} | {h['cost_2030_39_tn']:.3f} | {h['fy2040_cost_bn']:.1f} | {h['case']['fy2040_gap_bn']:.1f} |")
+    lines += ['',r['assumptions']['housing']['basis'],'',
+              'Care unit examples, **constant 2026 dollars**, kept outside the nominal fiscal model:', '']
+    for c in r['care']:
+        lines.append(f"- {c['users']/1e6:g} million users × {c['weekly_hours']} hours/week × {c['weeks']} weeks × ${c['loaded_hourly_2026_dollars']}/hour = **${c['gross_annual_bn_2026_dollars']:.1f}B/year gross**.")
+    lines += ['',r['assumptions']['care_note'],'',
+              'The JSON preserves annual paths, assumptions and source hashes. It is deliberately not a combined housing/care/climate fiscal package. Unsupported offsets and missing costs are not zero.','']
+    return '\n'.join(lines)
+
+
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--output',type=Path,default=ROOT/'legacy/sources/strategic-review-arithmetic')
+    args=parser.parse_args();r=analyze()
+    args.output.parent.mkdir(parents=True,exist_ok=True)
+    args.output.with_suffix('.json').write_text(json.dumps(r,indent=2)+'\n')
+    args.output.with_suffix('.md').write_text(render(r))
+
+
+if __name__ == '__main__': main()

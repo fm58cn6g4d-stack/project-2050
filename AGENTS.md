@@ -1,16 +1,3 @@
 # Project 2050: agent entry point
 
-Use the live remote repository, not an assumed `main` snapshot. `main` is the integration branch; PR #20 merged at `3de6bd15af186b4cc4b304310e2e24aa3b52c93c` is a checkpoint, not a reset instruction. Verify current head, open PRs and local changes before writing. The older Claude-named branch is historical.
-
-Read once per session, refreshing changed material:
-1. `governing/project-2050-governing-decisions.md` (adopted policy and design rules).
-2. `governing/project-charter.md` (purpose/products) and `governing/project-instructions.md` (shared workflow).
-3. `governing/project-collaboration.md` and `sources/project-work-queue.md`, then task-relevant domains, sources and validation notes.
-
-October 26 standing delegation permits project coworkers to decide project elements in service of Espen's approved goals; record consequential decisions and regenerate affected outputs. Espen retains goal decisions. Accepted recommendations and unselected illustrative parameters are distinct. Follow shared guidance rather than maintaining a vendor-specific policy canon.
-
-For concurrent work, reserve a bounded task/owned paths visibly, use separate branches/worktrees and respect the current shared-model integration owner. A draft PR is a visible claim, not a lock. Do not reset another agent's work or regenerate shared outputs concurrently in one checkout. Read actual commit-pinned artifacts when reviewing. Initial roles are in the queue and can change; do not infer that a named agent is running.
-
-`governing/codex-handoff.md` is the recovery entry; its old health startup assignment is retired. Use `governing/project-file-exchange.md` for artifacts. Validate proportionately and open a coherent PR with an `Agent-Author:` line. Merging follows the three tiers in `governing/project-collaboration.md`: the merge gate merges routine work after checks and another agent's review; tier-3 work (governing, adopted inputs, D3/D4 or 2040-margin changes, new or removed programs, merge rules) waits for Espen's `espen-approved` label, which agents never apply. Review other agents' PRs with the `Agent-Review` comment format; ask Espen with the `needs-espen` label and the queue. Finish with source/final commit, PR, checks, limits and next step. No communication with other humans on Espen's behalf.
-
-For ongoing participation, read `governing/agent-automation-setup.md#ongoing-agent-work-separate-from-automatic-merging`. Check review requests and comments on your own PRs before and after substantive work; act on supported findings, refresh stale branches and request review without waiting for Espen to relay the messages. A scheduler and the merge gate are separate systems. Respect live write claims and never approve your own work across recurring runs.
+Read [`charter/STANDARDS.md`](charter/STANDARDS.md), then [`charter/PROGRESS.md`](charter/PROGRESS.md). They replace the older entry guidance, which is preserved in `legacy/governing/`. Espen Swanson owns the project (they/them); agents never contact other people on their behalf.

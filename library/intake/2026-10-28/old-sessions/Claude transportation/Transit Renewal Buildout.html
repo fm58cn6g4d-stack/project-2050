@@ -1,0 +1,227 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Transit Renewal Buildout</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  /* Layout: one schematic national map with a three-year toggle, stat tiles, then the project table; same system as the ARCA network map. */
+  :root{
+    --paper:#F6F4F0; --land:#E4E0D8; --landline:#CFC9BD;
+    --ink:#191B1E; --muted:#6C6F75; --rule:#D8D3C9; --panel:#FFFFFF;
+    --t1:#C0202E; --t2:#D9822B; --t3:#3E7A9E; --gap:#9B9691; --fi:#2E7D5B;
+    --shadow:0 1px 2px rgba(25,27,30,.06),0 8px 24px rgba(25,27,30,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#131519; --land:#1F2329; --landline:#2E343C;
+      --ink:#EDEAE4; --muted:#9BA1A9; --rule:#2A2F36; --panel:#1A1E23;
+      --t1:#F0574F; --t2:#F2A44A; --t3:#6FB0D4; --gap:#6B7078; --fi:#4FA57E;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35); color-scheme:dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#131519; --land:#1F2329; --landline:#2E343C;
+    --ink:#EDEAE4; --muted:#9BA1A9; --rule:#2A2F36; --panel:#1A1E23;
+    --t1:#F0574F; --t2:#F2A44A; --t3:#6FB0D4; --gap:#6B7078; --fi:#4FA57E;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35); color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,serif;margin:0}
+  .wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:32px 56px}
+  header{border-bottom:1px solid var(--rule);padding-bottom:20px;margin-bottom:24px}
+  .eyebrow{font-family:Archivo,system-ui,sans-serif;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+  h1{font-family:Archivo,system-ui,sans-serif;font-size:clamp(28px,5vw,42px);font-weight:700;letter-spacing:-.02em;line-height:1.05;margin:0 0 12px;text-wrap:balance}
+  .lede{font-size:17px;line-height:1.55;max-width:62ch;color:var(--ink);margin:0}
+  .lede em{color:var(--muted);font-style:italic}
+  .controls{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:24px 0 14px}
+  .years{display:inline-flex;border:1px solid var(--rule);border-radius:2px;overflow:hidden;background:var(--panel)}
+  .years button{font-family:Archivo,system-ui,sans-serif;font-size:14px;font-weight:600;letter-spacing:.02em;padding:9px 20px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+  .years button+button{border-left:1px solid var(--rule)}
+  .years button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+  .years button:focus-visible{outline:2px solid var(--t3);outline-offset:-2px}
+  .caption{font-family:Archivo,system-ui,sans-serif;font-size:12.5px;color:var(--muted);line-height:1.5;flex:1 1 320px;min-width:0;margin:0}
+  figure{margin:0;background:var(--panel);border:1px solid var(--rule);border-radius:3px;box-shadow:var(--shadow);overflow:hidden}
+  .mapbox{overflow-x:auto}
+  svg.map{display:block;width:100%;min-width:560px;height:auto}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 22px;padding:14px 18px;border-top:1px solid var(--rule);font-family:Archivo,system-ui,sans-serif;font-size:12.5px;color:var(--ink)}
+  .key{display:inline-flex;align-items:center;gap:8px}
+  .dot{width:12px;height:12px;border-radius:50%;flex:0 0 auto}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;margin:24px 0 8px;overflow:hidden}
+  .stat{background:var(--panel);padding:16px 18px}
+  .stat dt{font-family:Archivo,system-ui,sans-serif;font-size:11px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+  .stat dd{margin:0;font-family:Archivo,system-ui,sans-serif;font-size:26px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .stat .unit{font-size:13px;font-weight:500;color:var(--muted);margin-left:5px}
+  h2{font-family:Archivo,system-ui,sans-serif;font-size:13px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+  .tablewrap{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:560px}
+  th{font-family:Archivo,system-ui,sans-serif;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule)}
+  td{padding:9px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+  tbody tr:hover{background:color-mix(in srgb,var(--t3) 9%,transparent)}
+  td.name{font-weight:600}
+  td.mi{text-align:right;font-variant-numeric:tabular-nums;font-family:Archivo,system-ui,sans-serif;font-size:13.5px;color:var(--muted);white-space:nowrap}
+  .pill{font-family:Archivo,system-ui,sans-serif;font-size:11px;font-weight:600;letter-spacing:.04em;padding:2px 8px;border-radius:2px;white-space:nowrap;border:1px solid}
+  .p-service{color:var(--t1);border-color:color-mix(in srgb,var(--t1) 45%,transparent);background:color-mix(in srgb,var(--t1) 10%,transparent)}
+  .p-build{color:var(--t2);border-color:color-mix(in srgb,var(--t2) 50%,transparent);background:color-mix(in srgb,var(--t2) 12%,transparent)}
+  .p-none{color:var(--muted);border-color:var(--rule)}
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--rule);font-size:14px;line-height:1.6;color:var(--muted);max-width:68ch}
+  @media (max-width:520px){ .wrap{padding-block:22px 40px} }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">American Transit Renewal Act &middot; projected buildout &middot; companion to the ARCA network map</p>
+    <h1>What the Renewal Act keeps running, and what it builds</h1>
+    <p class="lede">Three snapshots of American transit capital at the same horizons as the rail map: <strong>2036</strong>, the end of the Act's five-year authorization; <strong>2045</strong>, when the projects it started are open; and <strong>2055</strong>. Each dot is one project, sized by cost and placed at its metropolitan area. A green ring marks a system whose operating gap and repair backlog the Act carries. Diamonds are the five terminals that ARCA funds and commuter trains share. <em>Positions are schematic: dots sit beside their city, not on an alignment.</em></p>
+  </header>
+
+  <div class="controls">
+    <div class="years" role="group" aria-label="Choose a year">
+      <button type="button" id="y36" aria-pressed="true">2036</button>
+      <button type="button" id="y45" aria-pressed="false">2045</button>
+      <button type="button" id="y55" aria-pressed="false">2055</button>
+    </div>
+    <p class="caption" id="yearNote"></p>
+  </div>
+
+  <figure>
+    <div class="mapbox"><svg class="map" id="map" viewBox="0 0 1060 640" role="img" aria-label="Map of projected US transit capital projects and systems"></svg></div>
+    <div class="legend">
+      <span class="key"><span class="dot" style="background:var(--t1)"></span>In service</span>
+      <span class="key"><span class="dot" style="background:var(--panel);border:2.5px solid var(--t2)"></span>Under construction</span>
+      <span class="key"><span class="dot" style="background:var(--panel);border:1.5px solid var(--gap)"></span>In planning or engineering</span>
+      <span class="key"><span class="dot" style="background:transparent;border:2.5px solid var(--fi);width:16px;height:16px"></span>System on the operating tier and backlog schedule</span>
+      <span class="key"><span style="width:11px;height:11px;transform:rotate(45deg);background:var(--t3);flex:0 0 auto"></span>Joint terminal with intercity rail</span>
+      <span class="key" style="color:var(--muted)">Dot size: under $1B, $1&ndash;5B, over $5B</span>
+    </div>
+  </figure>
+
+  <dl class="stats" id="stats"></dl>
+  <p class="caption" style="margin:0">Costs are total project cost, not the federal share. The backlog figure is DOT's $127.8 billion in 2025 dollars, retired in twenty equal installments from FY2031.</p>
+
+  <h2>Projects</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Project</th><th>Mode</th><th style="text-align:right">Cost</th><th>2036</th><th>2045</th><th>2055</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    Built from the same dataset as the transit delivery pipeline grid: FTA's Capital Investment Grants Dashboard of September 11, 2026 for the 47 pipeline projects, and sponsor and press sources checked on October 5, 2026 for the eight projects under construction and the nine outside the pipeline. Service years are modeled, with grant dates slipped one to two years for FY2027&ndash;28 and construction durations left alone. The five joint terminals are those in ARCA section 310; this Act's section 606 pays transit's share.
+  </footer>
+</div>
+
+<script>
+(function(){
+  var W=1000,H=556,PADX=30,PADY=42;
+  var LON0=-125.5,LON1=-66.5,LAT0=24.2,LAT1=49.6;
+  function px(lon){return PADX+(lon-LON0)/(LON1-LON0)*W;}
+  function py(lat){return PADY+(LAT1-lat)/(LAT1-LAT0)*H;}
+  function line(pts){var d="";for(var i=0;i<pts.length;i++){d+=(i?"L":"M")+px(pts[i][0]).toFixed(1)+" "+py(pts[i][1]).toFixed(1);}return d;}
+  var US=[[-124.7,48.4],[-124.0,46.3],[-124.1,43.8],[-124.4,42.0],[-123.8,39.4],[-122.5,37.8],[-121.9,36.6],[-120.6,34.5],[-118.4,33.7],[-117.1,32.5],[-114.7,32.7],[-111.1,31.3],[-108.2,31.3],[-106.5,31.8],[-104.9,29.3],[-103.1,29.0],[-102.4,29.8],[-101.4,29.8],[-99.1,26.4],[-97.1,25.9],[-97.2,27.9],[-95.0,29.0],[-93.8,29.6],[-91.5,29.2],[-89.4,29.0],[-89.2,30.3],[-88.0,30.4],[-86.5,30.4],[-85.0,29.7],[-84.0,30.1],[-82.8,28.8],[-82.5,27.2],[-81.1,25.2],[-80.1,25.8],[-80.1,27.0],[-81.0,29.2],[-81.4,30.7],[-79.2,33.0],[-77.9,34.2],[-76.0,35.2],[-75.5,37.0],[-75.0,38.8],[-74.0,40.5],[-71.9,41.3],[-70.0,41.8],[-70.2,42.7],[-70.8,43.1],[-69.0,44.0],[-67.0,44.8],[-67.8,47.1],[-71.5,45.0],[-74.7,45.0],[-76.9,44.0],[-79.0,43.3],[-82.4,41.7],[-83.1,42.3],[-82.5,45.3],[-84.4,46.1],[-84.6,46.5],[-88.4,48.3],[-90.0,48.1],[-95.2,49.0],[-123.3,49.0]];
+
+  // [name, sponsor, cat, PD, ENG, grant, construction start, service, scope, cost $B, CIG $B, lon, lat, mode]
+  var D=[["Second Avenue Subway Phase 2","MTA","F",2016,2020,2023,2024,2032,"1.8 miles and three stations to 125th Street, East Harlem. Federal payments held Oct 2025, restored Apr 2026",6.97,3.4,-73.94,40.8,"HR"],["Red Line Extension","Chicago Transit Authority","F",2014,2020,2025,2026,2030,"5.6 miles and four stations from 95th Street to 130th Street",5.75,1.97,-87.62,41.69,"HR"],["D Line Subway Extension, Sections 2 and 3","LA Metro","F",2014,2016,2017,2018,2027,"Wilshire subway from Beverly Hills to Westwood/VA Hospital. Section 1 opened May 2026",6.9,2.5,-118.42,34.06,"HR"],["East San Fernando Valley Light Rail","LA Metro","F",2018,2022,2024,2026,2032,"6.7 miles on Van Nuys Boulevard, 11 stations",3.57,0.89,-118.45,34.21,"LRT"],["Purple Line","Maryland Transit Administration","F",2011,2014,2017,2017,2028,"16 miles of light rail, Bethesda to New Carrollton, 21 stations",9.5,0.9,-77.0,38.99,"LRT"],["METRO Green Line Extension","Metropolitan Council","F",2011,2016,2020,2019,2027,"14.5 miles, Minneapolis to Eden Prairie, 16 stations",2.86,0.93,-93.4,44.9,"LRT"],["Skyline to Civic Center","Honolulu Authority for Rapid Transportation","F",2009,2011,2012,2011,2031,"Final segment of the 18.9-mile automated line into downtown; FTA's consultant projects April 2032",10.08,1.55,-157.86,21.31,"HR"],["Blue Line Bus Rapid Transit","IndyGo","F",2018,0,2024,2025,2029,"24 miles on Washington Street to the airport",0.39,0.15,-86.16,39.77,"BRT"],["FrontRunner 2X","Utah DOT","N",2022,2026,2028,2028,2031,"Double-tracking the 82-mile commuter line for 15-minute service",3.22,1.29,-111.89,40.76,"CR"],["Red Line Modernization (core capacity)","WMATA","N",2026,2028,2030,2030,2034,"Signals, power and stations on 32 miles and 27 stations",1.6,0.96,-77.03,38.9,"HR"],["Green Line Transformation (core capacity)","MBTA","N",2022,2025,2029,2029,2034,"Longer trains, power and accessible stations on 26.7 miles",4.08,2.04,-71.08,42.35,"LRT"],["Transbay Downtown Rail Extension (The Portal)","Transbay Joint Powers Authority","N",2021,2024,2029,2029,2036,"2.2-mile tunnel bringing Caltrain and high-speed rail to Salesforce Transit Center",8.25,3.38,-122.4,37.79,"CR"],["BART Silicon Valley Phase II","Santa Clara VTA","N",2022,2024,2029,2029,2038,"Six miles and four stations through downtown San Jose to Santa Clara",12.75,5.1,-121.89,37.34,"HR"],["Northeast Corridor Rapid Transit","Miami-Dade DTPW","N",2021,2024,2028,2028,2032,"13.5 miles of commuter rail on the FEC corridor, seven stations",0.93,0.39,-80.19,25.85,"CR"],["METRO Blue Line Extension","Metropolitan Council","N",2014,2017,2028,2028,2031,"13.4 miles, Minneapolis to Brooklyn Park, 13 stations",3.58,0.75,-93.33,45.05,"LRT"],["Lowcountry Rapid Transit","Berkeley-Charleston-Dorchester COG","N",2019,2022,2028,2028,2030,"21.3 miles of bus rapid transit, 20 stations",0.63,0.37,-79.99,32.85,"BRT"],["Richmond Highway Bus Rapid Transit","Fairfax County","N",2020,2024,2028,2028,2032,"7.4 miles, nine stations, Huntington to Fort Belvoir",0.94,0.35,-77.1,38.76,"BRT"],["Eastside Transit Corridor Phase 2","LA Metro","N",2026,2029,2032,2032,2037,"4.7 miles of light rail from East Los Angeles toward Whittier",8.16,0.0,-118.1,34.01,"LRT"],["Southeast Gateway Line","LA Metro","N",2022,2024,2029,2029,2036,"14.5 miles of light rail, nine stations, Slauson to Artesia",10.55,5.19,-118.15,33.9,"LRT"],["Broward Commuter Rail South","Broward County","N",2022,2027,2028,2028,2031,"10.5 miles and three stations on the FEC corridor",0.71,0.35,-80.14,26.05,"CR"],["MD 355 Central Flash Bus Rapid Transit","Montgomery County DOT","N",2024,0,2029,2029,2031,"15.6 miles, 14 stations, Rockville to Germantown",0.5,0.25,-77.18,39.12,"BRT"],["Green Line Bus Rapid Transit","Bi-State Development","N",2024,0,2030,2030,2032,"11.5 miles north-south through St. Louis",0.48,0.0,-90.2,38.63,"BRT"],["Austin Light Rail Phase 1","Austin Transit Partnership","N",2024,2027,2029,2029,2034,"9.8 miles and 15 stations",8.23,4.07,-97.74,30.27,"LRT"],["Interstate Bridge Replacement, light rail","Washington State DOT","N",2023,2027,2030,2030,2035,"1.9-mile MAX extension across the Columbia to Vancouver",1.83,1.0,-122.67,45.62,"LRT"],["Tacoma Dome Link Extension","Sound Transit","N",2026,2028,2031,2031,2036,"8.5 miles and four stations, Federal Way to Tacoma",5.75,0.0,-122.42,47.24,"LRT"],["Stone Avenue BRT","City of Tucson","S",2023,0,2029,2029,2031,"4.9 miles, 10 stations",0.14,0.08,-110.97,32.24,"BRT"],["Downtown Riverfront Streetcar","Sacramento RT","S",2014,0,2028,2028,2030,"1.5 miles, Sacramento to West Sacramento",0.23,0.0,-121.5,38.58,"SC"],["Federal Boulevard BRT","Colorado DOT","S",2023,0,2028,2028,2030,"18 miles, 38 stations",0.32,0.15,-105.02,39.76,"BRT"],["West Elizabeth BRT","City of Fort Collins","S",2021,0,2029,2029,2031,"3.6 miles to the CSU campus",0.1,0.06,-105.1,40.57,"BRT"],["MARTA Rapid Campbellton","MARTA","S",2022,0,2029,2029,2031,"5.3 miles of center-running bus rapid transit",0.32,0.15,-84.47,33.71,"BRT"],["MARTA Rapid Southlake","MARTA","S",2022,0,2028,2028,2030,"13.3 miles in Clayton County",0.36,0.07,-84.35,33.57,"BRT"],["Blue Hill Avenue Transit Action Plan","MBTA","S",2025,0,2028,2028,2030,"Three miles of center-running bus lanes",0.16,0.08,-71.09,42.29,"BRT"],["Veirs Mill Road Flash BRT","Montgomery County DOT","S",2022,0,2027,2027,2029,"7.6 miles, Wheaton to Rockville",0.19,0.15,-77.08,39.06,"BRT"],["METRO F Line BRT","Metropolitan Council","S",2022,0,2028,2028,2029,"13 miles on Central Avenue",0.1,0.05,-93.25,45.03,"BRT"],["North-South BRT","Chapel Hill Transit","S",2016,0,2027,2027,2030,"8.2 miles, 16 stations",0.2,0.15,-79.05,35.92,"BRT"],["Wake BRT: Southern Corridor","City of Raleigh","S",2021,0,2028,2028,2030,"5.1 miles to Garner",0.17,0.09,-78.64,35.73,"BRT"],["Wake BRT: Western Corridor","City of Raleigh","S",2020,0,2029,2029,2032,"11.3 miles to Cary",0.39,0.15,-78.72,35.79,"BRT"],["Nassau Hub BRT","Nassau County","S",2025,0,2028,2028,2030,"Six miles; cost not yet set",0.04,0.0,-73.6,40.72,"BRT"],["Hamilton Avenue Corridor BRT","SORTA","S",2023,0,2028,2028,2030,"Nine miles, 11 stations",0.17,0.14,-84.54,39.16,"BRT"],["Reading Road Corridor BRT","SORTA","S",2023,0,2028,2028,2030,"9.2 miles, 13 stations",0.17,0.12,-84.48,39.15,"BRT"],["MetroHealth Line BRT","Greater Cleveland RTA","S",2022,0,2028,2028,2029,"3.8 miles on West 25th Street",0.05,0.02,-81.7,41.46,"BRT"],["East Main Street BRT","COTA","S",2021,0,2028,2028,2030,"13.6 miles, 18 stations",0.39,0.15,-82.93,39.96,"BRT"],["Northwest Corridor BRT","COTA","S",2025,0,2029,2029,2031,"8.5 miles, 14 stations",0.36,0.15,-83.04,40.03,"BRT"],["West Broad Street BRT","COTA","S",2021,0,2027,2027,2029,"9.3 miles, 17 stations",0.38,0.15,-83.07,39.96,"BRT"],["MAPS 4 BRT","COPTA, Oklahoma City","S",2025,0,2029,2029,2031,"17 miles on two corridors",0.1,0.03,-97.52,35.47,"BRT"],["Montgomery Park Transit Project","TriMet and City of Portland","S",2024,0,2029,2029,2031,"0.7-mile streetcar extension",0.18,0.0,-122.71,45.54,"SC"],["82nd Avenue Transit Project","TriMet","S",2024,0,2028,2028,2030,"10.1 miles, 35 stations",0.32,0.15,-122.58,45.5,"BRT"],["TV Highway Transit and Safety Project","TriMet","S",2025,0,2029,2029,2031,"16.2 miles, Beaverton to Forest Grove",0.3,0.15,-122.95,45.5,"BRT"],["METRORapid Gulfton","Houston METRO","S",2023,0,2028,2028,2030,"4.1 miles, eight stations",0.22,0.0,-95.48,29.72,"BRT"],["Advanced Rapid Transit East-West","VIA Metropolitan Transit","S",2022,0,2028,2028,2030,"7.3 miles through downtown San Antonio",0.32,0.15,-98.49,29.42,"BRT"],["Davis-Salt Lake City Community Connector","Utah Transit Authority","S",2024,0,2028,2028,2030,"26.6 miles, 20 stations",0.07,0.04,-111.89,40.89,"BRT"],["Swift Gold Line BRT","Community Transit","S",2025,0,2030,2030,2032,"15 miles, Everett to Arlington",0.19,0.0,-122.2,48.05,"BRT"],["RapidRide K Line","King County Metro","S",2019,0,2028,2028,2030,"15.7 miles, Kirkland to Bellevue",0.11,0.05,-122.19,47.64,"BRT"],["Division Street BRT","Spokane Transit","S",2023,0,2027,2027,2030,"Nine miles, 22 stations",0.17,0.08,-117.41,47.7,"BRT"],["Madison North-South BRT","City of Madison","S",2023,0,2027,2027,2029,"12.5 miles, 24 stations",0.18,0.12,-89.39,43.07,"BRT"],["Interborough Express","MTA","L",2031,2032,2033,2033,2038,"14 miles and 18 stations of light rail on a freight corridor, Brooklyn to Queens",5.5,0.0,-73.9,40.68,"LRT"],["Sepulveda Transit Corridor","LA Metro","L",2031,2033,2035,2035,2043,"About 13 miles of automated heavy rail, seven stations, Van Nuys to the E Line under the Sepulveda Pass",24.2,0.0,-118.47,34.12,"HR"],["West Seattle Link Extension","Sound Transit","L",2031,2031,2032,2032,2037,"3.9 miles and three stations across the Duwamish",5.1,0.0,-122.38,47.56,"LRT"],["Ballard Link Extension","Sound Transit","L",2031,2033,2035,2035,2042,"7.7 miles with a second downtown tunnel; funded only as far as Seattle Center",21.4,0.0,-122.38,47.67,"LRT"],["Baltimore Red Line","Maryland Transit Administration","L",2031,2033,2034,2034,2040,"14 miles east-west; light rail or bus rapid transit, state decision due early 2027",7.0,0.0,-76.61,39.29,"LRT"],["Red-Blue Connector","MBTA","L",2031,2032,2033,2033,2037,"0.4-mile Blue Line extension to Charles/MGH",0.85,0.0,-71.07,42.36,"HR"],["Red and Purple Modernization Phase 2","Chicago Transit Authority","L",2031,2032,2033,2033,2039,"Addison to Sheridan, Thorndale to Howard and the Evanston branch; no published estimate",4.0,0.0,-87.66,41.97,"HR"],["Charlotte Red Line commuter rail","Charlotte Area Transit System","L",2031,2032,2034,2034,2038,"25 miles and 10 stations to Mount Mourne on the Norfolk Southern O-Line",1.26,0.0,-80.84,35.4,"CR"],["Link21 new transbay rail crossing","BART and Capitol Corridor JPA","L",2032,2036,2040,2040,2050,"Standard-gauge transbay crossing shared by regional and intercity rail; $18-30B in 2023 dollars",29.0,0.0,-122.33,37.8,"CR"]];
+  // [name, region, lon, lat, ...]
+  var S=[["MTA New York","New York",-73.99,40.75,2026,2028,0,"Balanced through 2026; reported gaps of $160M, $243M and $306M in 2027-29, with $700M a year of one-time money ending in 2029"],["NJ Transit","New Jersey",-74.17,40.73,2026,2030,0,"$3.5B budget leans on a $765.6M corporate transit fee and a $302M state subsidy"],["WMATA","Washington",-77.03,38.9,2026,2027,2028,"DMVMoves: $460M a year of new capital funding from FY2028, endorsed by Virginia and Maryland leaders"],["SEPTA","Philadelphia",-75.16,39.95,2026,2027,0,"$213M structural deficit; $394M of state capital funds covers operations for two years"],["Pittsburgh Regional Transit","Pittsburgh",-79.99,40.44,2026,2027,0,"$100M-plus deficit deferred to 2027; FY2027 uses $44.8M of capital funds and $15.4M of reserves"],["MBTA","Boston",-71.06,42.36,2026,2028,0,"Gaps closed year to year with state surtax revenue"],["CTA, Metra and Pace","Chicago",-87.63,41.88,2026,2026,2027,"$1.5B state package enacted October 2025"],["BART","San Francisco Bay Area",-122.27,37.8,2026,2027,0,"$350-400M a year; regional sales tax measure on the November 2026 ballot"],["SFMTA (Muni)","San Francisco",-122.42,37.77,2026,2027,0,"$307M, growing to $430M by 2030; cuts from FY2027-28 without new funding"],["TriMet","Portland",-122.68,45.52,2026,2028,0,"Service cuts and layoffs announced May 2026"],["Greater Cleveland RTA","Cleveland",-81.69,41.5,2026,2028,0,"Service cuts in 2026; no long-term source identified"],["Milwaukee County Transit","Milwaukee",-87.91,43.04,2026,2028,0,"County stopgap of $4.8M; 2027 gap unresolved"],["Caltrain and AC Transit","San Francisco Bay Area",-122.2,37.55,2026,2027,0,"Dependent on the same November 2026 regional measure as BART"]];
+  // ARCA section 310 terminals shared with commuter and transit operators: [name, lon, lat, operators]
+  var T=[["Chicago Union Station",-87.63,41.88,"six Metra lines"],["New York Penn",-73.99,40.75,"Long Island Rail Road and NJ Transit"],["Washington Union",-77.01,38.90,"MARC and Virginia Railway Express"],["Los Angeles Union",-118.24,34.06,"Metrolink and Metro rail"],["Atlanta terminal",-84.39,33.75,"a MARTA connection"]];
+  // metro anchors for clustering and labels: [label, lon, lat, label dx, label dy, anchor]
+  var M=[["New York",-73.9,40.75,14,-12,"start"],["New Jersey",-74.3,40.35,12,18,"start"],["Boston",-71.08,42.33,12,-8,"start"],["Washington",-77.05,38.95,-14,16,"end"],["Baltimore",-76.61,39.29,0,-15,"middle"],["Philadelphia",-75.16,39.95,0,-15,"middle"],["Pittsburgh",-79.99,40.44,0,-15,"middle"],["Chicago",-87.63,41.8,-14,-10,"end"],["Milwaukee",-87.91,43.04,12,-6,"start"],["Minneapolis",-93.3,44.98,0,-14,"middle"],["Madison",-89.39,43.07,-10,-8,"end"],["Cleveland",-81.69,41.48,0,-16,"middle"],["Columbus",-83.0,39.98,0,-13,"middle"],["Cincinnati",-84.51,39.15,-12,6,"end"],["Indianapolis",-86.16,39.77,-10,-8,"end"],["St. Louis",-90.2,38.63,-10,4,"end"],["Raleigh and Chapel Hill",-78.8,35.82,12,-8,"start"],["Charlotte",-80.84,35.4,-10,4,"end"],["Charleston",-79.99,32.85,10,4,"start"],["Atlanta",-84.42,33.66,-12,16,"end"],["Miami and Broward",-80.17,25.95,-12,0,"end"],["Houston",-95.48,29.72,0,18,"middle"],["Austin",-97.74,30.27,-10,-6,"end"],["San Antonio",-98.49,29.42,-10,12,"end"],["Oklahoma City",-97.52,35.47,0,-12,"middle"],["Denver and Fort Collins",-105.05,40.1,12,4,"start"],["Salt Lake City",-111.89,40.8,12,4,"start"],["Tucson",-110.97,32.24,10,4,"start"],["Los Angeles",-118.3,34.05,0,26,"middle"],["Bay Area",-122.1,37.7,14,24,"start"],["Sacramento",-121.5,38.58,12,-6,"start"],["Portland",-122.7,45.53,14,6,"start"],["Seattle",-122.33,47.55,16,4,"start"],["Spokane",-117.41,47.7,0,-12,"middle"],["Honolulu (inset)",-121.5,26.6,12,4,"start"],["Fairfax",-77.1,38.76,0,0,"skip"],["Maryland suburbs",-77.1,39.05,0,0,"skip"],["Nassau",-73.6,40.72,0,0,"skip"]];
+  var ALIAS={"Fairfax":"Washington","Maryland suburbs":"Washington","Nassau":"New York"};
+  function metroOf(lon,lat){
+    if(lon<-150) return "Honolulu (inset)";
+    var best=null,bd=1e9;
+    M.forEach(function(m){ var d=Math.pow(lon-m[1],2)+Math.pow(lat-m[2],2); if(d<bd){bd=d;best=m[0];} });
+    return ALIAS[best]||best;
+  }
+  function status(r,y){ if(r[7]<=y) return "service"; if(r[6]<=y) return "build"; if(r[3]<=y) return "plan"; return null; }
+  function rad(c){ return c>=5?7:c>=1?5:3; }
+  var svg=document.getElementById("map");
+
+  function render(year){
+    var out=[];
+    out.push('<rect x="0" y="0" width="1060" height="640" fill="var(--panel)"/>');
+    out.push('<path d="'+line(US)+'Z" fill="var(--land)" stroke="var(--landline)" stroke-width="1"/>');
+    var groups={};
+    D.forEach(function(r){ var st=status(r,year); if(!st) return; var k=metroOf(r[11],r[12]); (groups[k]=groups[k]||[]).push([r,st]); });
+    var sysBy={}; S.forEach(function(s){ sysBy[metroOf(s[2],s[3])]=true; });
+    M.forEach(function(m){
+      if(m[5]==="skip") return;
+      var g=groups[m[0]]||[], hasSys=sysBy[m[0]];
+      if(!g.length&&!hasSys) return;
+      var cx=px(m[1]), cy=py(m[2]);
+      g.sort(function(a,b){return b[0][9]-a[0][9];});
+      var widths=g.map(function(e){return rad(e[0][9])*2+3;}), tot=widths.reduce(function(a,b){return a+b;},0);
+      var perRow=g.length>6?Math.ceil(g.length/2):g.length, rows=[g.slice(0,perRow),g.slice(perRow)];
+      var rw=rows.map(function(rr){return rr.reduce(function(a,e){return a+rad(e[0][9])*2+3;},0);});
+      var halfw=Math.max(rw[0],rw[1]||0)/2, halfh=rows[1].length?13:8;
+      if(hasSys) out.push('<ellipse cx="'+cx.toFixed(1)+'" cy="'+(cy+(rows[1].length?6:0)).toFixed(1)+'" rx="'+(Math.max(halfw,7)+7).toFixed(1)+'" ry="'+(halfh+6)+'" fill="none" stroke="var(--fi)" stroke-width="2.2" opacity=".75"><title>'+m[0]+': operating tier and backlog schedule</title></ellipse>');
+      rows.forEach(function(rr,ri){
+        var xx=cx-rw[ri]/2;
+        rr.forEach(function(e){
+          var r=e[0], st=e[1], R=rad(r[9]); xx+=R+1.5;
+          var fill=st==="service"?"var(--t1)":"var(--panel)", stroke=st==="service"?"var(--t1)":st==="build"?"var(--t2)":"var(--gap)", sw=st==="build"?2.4:st==="plan"?1.4:0.5;
+          out.push('<circle cx="'+xx.toFixed(1)+'" cy="'+(cy+ri*13).toFixed(1)+'" r="'+R+'" fill="'+fill+'" stroke="'+stroke+'" stroke-width="'+sw+'"><title>'+r[0]+' ('+r[7]+')</title></circle>');
+          xx+=R+1.5;
+        });
+      });
+      if(!g.length) out.push('<circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="2.4" fill="var(--ink)" opacity=".7"/>');
+      var lx=cx+(m[5]==="middle"?0:(m[3]>0?halfw+m[3]-4:-(halfw)+m[3]+4)), ly=cy+m[4]+(m[4]>10&&rows[1].length?12:0);
+      out.push('<text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" font-family="Archivo, system-ui, sans-serif" font-size="11.5" font-weight="500" fill="var(--ink)" opacity=".85" text-anchor="'+m[5]+'">'+m[0]+'</text>');
+    });
+    T.forEach(function(t){
+      var x=px(t[1])-0, y=py(t[2])-19;
+      out.push('<rect x="'+(x-4.5).toFixed(1)+'" y="'+(y-4.5).toFixed(1)+'" width="9" height="9" transform="rotate(45 '+x.toFixed(1)+' '+y.toFixed(1)+')" fill="'+(year>=2045?"var(--t3)":"var(--panel)")+'" stroke="var(--t3)" stroke-width="2"><title>'+t[0]+': shared with '+t[3]+'</title></rect>');
+    });
+    out.push('<rect x="'+(px(-124.6)).toFixed(1)+'" y="'+(py(27.9)).toFixed(1)+'" width="150" height="44" fill="none" stroke="var(--landline)" stroke-dasharray="3 3"/>');
+    out.push('<text x="30" y="628" font-family="Archivo, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="0.06em" fill="var(--muted)">'+year+'</text>');
+    svg.innerHTML=out.join("");
+  }
+
+  function backlog(year){ return Math.max(0,127.8-127.8/20*(year-2030)); }
+  function stats(year){
+    var svc=D.filter(function(r){return r[7]<=year;}), big=svc.filter(function(r){return r[9]>=1;}), bld=D.filter(function(r){return r[6]<=year&&r[7]>year;});
+    var cost=svc.reduce(function(a,r){return a+r[9];},0);
+    document.getElementById("stats").innerHTML=
+      tile("Projects in service",svc.length,"of "+D.length)+tile("Of which over $1B",big.length,"projects")+
+      tile("Under construction",bld.length,"projects")+tile("Capital in service","$"+cost.toFixed(0)+"B","total cost")+
+      tile("Repair backlog left","$"+backlog(year).toFixed(0)+"B","2025 dollars");
+    return {svc:svc.length,big:big.length,bld:bld,cost:cost,back:backlog(year)};
+  }
+  function tile(label,v,unit){ return '<div class="stat"><dt>'+label+'</dt><dd>'+v+'<span class="unit">'+unit+'</span></dd></div>'; }
+
+  var MODE={HR:"Heavy rail",LRT:"Light rail",CR:"Commuter rail",BRT:"Bus rapid transit",SC:"Streetcar"};
+  function pill(s){
+    if(s==="service") return '<span class="pill p-service">In service</span>';
+    if(s==="build") return '<span class="pill p-build">Building</span>';
+    if(s==="plan") return '<span class="pill p-none">Planning</span>';
+    return '<span class="pill p-none">&mdash;</span>';
+  }
+  function money(v){ return v>=1? "$"+v.toFixed(1)+"B" : "$"+Math.round(v*1000)+"M"; }
+  function rows(){
+    var html="";
+    D.slice().sort(function(a,b){return b[9]-a[9];}).forEach(function(r){
+      html+='<tr><td class="name">'+r[0]+'<div style="font-weight:400;color:var(--muted);font-size:13px">'+r[1]+'</div></td><td style="color:var(--muted)">'+MODE[r[13]]+'</td><td class="mi">'+money(r[9])+'</td><td>'+pill(status(r,2036))+'</td><td>'+pill(status(r,2045))+'</td><td>'+pill(status(r,2055))+'</td></tr>';
+    });
+    document.getElementById("rows").innerHTML=html;
+  }
+  function note(y,s){
+    var names=s.bld.filter(function(r){return r[9]>=1;}).map(function(r){return r[0];});
+    var tail=names.length? " Still building: "+names.join(", ")+"." : " Nothing tracked here is still under construction.";
+    if(y===2036) return s.svc+" projects are in service, "+s.big+" of them over $1 billion, and nearly all were already designed when the Act passed. A quarter of the repair backlog is retired. The Act's own starts are in the ground, not open."+tail;
+    if(y===2045) return s.svc+" projects are in service and the backlog is down to $"+s.back.toFixed(0)+" billion. The projects that entered the pipeline under the Act (Interborough Express, West Seattle and Ballard, Baltimore's Red Line, Sepulveda) are open."+tail;
+    return "All "+s.svc+" tracked projects are in service and the 2030 backlog baseline is fully retired. What this map cannot show is the second baseline: assets that wore out after 2030, which the FY2036 reauthorization has to schedule.";
+  }
+  function setYear(y){
+    [["y36",2036],["y45",2045],["y55",2055]].forEach(function(p){document.getElementById(p[0]).setAttribute("aria-pressed", y===p[1]?"true":"false");});
+    render(y); var s=stats(y); document.getElementById("yearNote").textContent=note(y,s);
+  }
+  document.getElementById("y36").addEventListener("click",function(){setYear(2036);});
+  document.getElementById("y45").addEventListener("click",function(){setYear(2045);});
+  document.getElementById("y55").addEventListener("click",function(){setYear(2055);});
+  rows(); setYear(2036);
+})();
+</script>
+
+</body></html>

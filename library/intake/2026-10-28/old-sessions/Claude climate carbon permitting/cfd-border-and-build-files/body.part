@@ -1,0 +1,255 @@
+<div class="wrap">
+<header>
+  <h1>Carbon Dividend Act of 2029</h1>
+  <p>A fee-and-dividend design for a 2029 reconciliation bill, and a simulation of the U.S. energy system that projects its emissions, revenue and household dividend to 2050. Dollars are 2025 dollars.</p>
+  <nav><a href="#model">Model</a><a href="#policy">Policy design</a><a href="#method">How the model works</a><a href="#checks">Checks and limits</a></nav>
+</header>
+
+<section id="model">
+<div class="grid">
+  <form class="controls" id="controls" onsubmit="return false">
+    <div class="group">Fee schedule</div>
+    <div class="ctl"><label for="startPrice">Fee in 2030 <output id="o_startPrice"></output></label><input type="range" id="startPrice" min="10" max="100" step="5"></div>
+    <div class="ctl"><label for="step">Annual increase <output id="o_step"></output></label><input type="range" id="step" min="0" max="15" step="1"></div>
+    <div class="ctl"><label for="stepType">Increase type</label><select id="stepType"><option value="linear">Dollars per year</option><option value="percent">Percent per year</option></select></div>
+    <label class="check"><input type="checkbox" id="ratchet"> Ratchet when a target is missed</label>
+    <div class="group">What the fee covers</div>
+    <div class="checks">
+      <label class="check"><input type="checkbox" checked disabled id="c_fossil"> Fossil fuel CO2 (always)</label>
+      <label class="check"><input type="checkbox" id="c_process"> Industrial process CO2 and N2O</label>
+      <label class="check"><input type="checkbox" id="c_methane"> Methane: oil, gas, coal, landfills</label>
+      <label class="check"><input type="checkbox" id="c_fgas"> HFC refrigerants</label>
+      <label class="check"><input type="checkbox" id="c_border"> Border charge on imports</label>
+      <label class="check"><input type="checkbox" id="c_bunkers"> International ship and jet fuel</label>
+    </div>
+    <div class="group">Other legislation</div>
+    <label class="check"><input type="checkbox" id="credits"> 2029 climate bill restoring clean energy tax credits</label>
+    <label class="check"><input type="checkbox" id="grid"> Federal grid build-out program</label>
+    <label class="check"><input type="checkbox" id="nuclear"> Advanced nuclear, fusion and hydro program</label>
+    <label class="check"><input type="checkbox" id="standards"> EPA vehicle and power plant standards reinstated</label>
+    <div class="ctl"><label for="permit">Permitting reform</label><select id="permit"><option value="none">Not passed</option><option value="2027">Passed by 2027 (current Senate bill)</option><option value="2029">Passed in 2029 with the fee</option></select></div>
+    <div class="group">Revenue</div>
+    <div class="ctl"><label for="dividendShare">Share paid as dividend <output id="o_dividendShare"></output></label><input type="range" id="dividendShare" min="50" max="100" step="5"></div>
+    <label class="check"><input type="checkbox" id="offset"> Apply 25% budget offset</label>
+    <div class="group">State of the world</div>
+    <div class="ctl"><label for="tech">Clean technology progress</label><select id="tech"><option value="slow">Slow</option><option value="mid">Central</option><option value="fast">Fast</option></select></div>
+    <div class="ctl"><label for="gas">Natural gas price</label><select id="gas"><option value="3.0">Low ($3.00)</option><option value="3.9">Central ($3.90)</option><option value="5.5">High ($5.50)</option></select></div>
+    <div class="ctl"><label for="load">Electricity demand growth</label><select id="load"><option value="0.008">Low (0.8% a year)</option><option value="0.011">Central (1.1%)</option><option value="0.016">High (1.6%)</option></select></div>
+    <div class="ctl"><label for="sccRate">Climate damage discount rate</label><select id="sccRate"><option value="2.5">2.5%</option><option value="2.0">2.0%</option><option value="1.5">1.5%</option></select></div>
+    <button type="button" id="reset">Reset to the bill as drafted</button>
+  </form>
+
+  <div class="results">
+    <div class="tiles" id="tiles"></div>
+    <p class="note" id="note" hidden></p>
+    <div class="charts">
+      <div class="chart"><h3>Energy CO2 emissions</h3><p class="sub">Million metric tons. Band is the 10th to 90th percentile of 120 runs with uncertain inputs drawn at random.</p><div class="legend" id="lg_emis"></div><div id="c_emis"></div></div>
+      <div class="chart"><h3>Dividend per adult</h3><p class="sub">Dollars per year for one full share. Children receive half.</p><div class="legend" id="lg_div"></div><div id="c_div"></div></div>
+      <div class="chart"><h3>Covered emissions by source</h3><p class="sub">Million metric tons of CO2-equivalent under the policy.</p><div class="legend" id="lg_sec"></div><div id="c_sec"></div></div>
+      <div class="chart"><h3>Electricity generation</h3><p class="sub">Terawatt-hours under the policy.</p><div class="legend" id="lg_gen"></div><div id="c_gen"></div></div>
+      <div class="chart"><h3>Fee revenue by source</h3><p class="sub">Billions of dollars per year, before the budget offset.</p><div class="legend" id="lg_rev"></div><div id="c_rev"></div></div>
+      <div class="chart"><h3>Electric share of new car sales</h3><p class="sub">Percent of new light-duty vehicles.</p><div class="legend" id="lg_ev"></div><div id="c_ev"></div></div>
+      <div class="chart"><h3>Net effect per household</h3><p class="sub">Dividend minus fee cost, dollars per household, by <select id="hhGroup" style="width:auto;display:inline-block;padding:2px 6px"><option value="decile">income tenth</option><option value="quintile">income fifth</option><option value="region">region</option><option value="area">urban and rural</option></select> <label for="decYear">in</label> <select id="decYear" style="width:auto;display:inline-block;padding:2px 6px"></select></p><div class="legend" id="lg_dec"></div><div id="c_dec"></div></div>
+      <div class="chart"><h3>What the average person pays and gets back</h3><p class="sub">Dollars per person per year. Stacked areas are the fee as it reaches people through what they buy; the line is the dividend averaged over adults and children.</p><div class="legend" id="lg_pay"></div><div id="c_pay"></div></div>
+      <div class="chart"><h3>What limits wind and solar building</h3><p class="sub">Gigawatts per year, for decisions taken in each year. Built is the lowest of what investors want, what industry can deliver and what the grid can connect.</p><div class="legend" id="lg_bld"></div><div id="c_bld"></div></div>
+      <div class="chart"><h3>Average retail electricity price</h3><p class="sub">Cents per kilowatt-hour.</p><div class="legend" id="lg_el"></div><div id="c_el"></div></div>
+    </div>
+    <div class="charts">
+      <div class="chart" style="grid-column:1/-1"><h3>What each layer adds</h3><p class="sub">Each row adds one measure to the rows above it. Order matters: a measure added later gets credit only for what the earlier ones left undone, so the table also shows what each companion measure avoids when it is the only thing added to the fee. Tons are cumulative through 2050.</p><div class="tablewrap" style="margin-top:8px"><table id="ladder" class="kv"></table></div></div>
+      <div class="chart" style="grid-column:1/-1"><h3>Net effect per household by region and income</h3><p class="sub">Dollars per household in the year selected above. Positive means the dividend exceeds what the household pays.</p><div class="tablewrap" style="margin-top:8px"><table id="hhri" class="kv"></table></div></div>
+      <div class="chart" style="grid-column:1/-1"><h3>What the result depends on most</h3><p class="sub">Each uncertain input is moved alone from the low to the high end of its range, for the selected case. The ten with the largest effect on 2050 emissions are shown.</p><div class="tablewrap" style="margin-top:8px"><table id="sens" class="kv"></table></div></div>
+      <div class="chart" style="grid-column:1/-1"><h3>Ten-year budget, 2030 to 2039</h3><p class="sub">Billions of dollars for the selected case, on the convention CBO uses for excise taxes.</p><div class="tablewrap" style="margin-top:8px"><table id="budget" class="kv"></table></div></div>
+    </div>
+    <details open><summary>Year-by-year table</summary>
+      <div class="tablewrap" style="margin-top:10px"><table id="tbl"></table></div>
+    </details>
+  </div>
+</div>
+</section>
+
+<section id="policy">
+  <h2>Policy design</h2>
+  <div class="cols">
+    <div class="prose">
+      <h3>The fee</h3>
+      <ul>
+        <li><b>Rate:</b> $40 per metric ton of CO2-equivalent in 2030, rising $8 a year above inflation. That reaches $80 in 2035, $120 in 2040 and $200 in 2050.</li>
+        <li><b>Ratchet:</b> targets of 35% below 2005 by 2035 and 55% by 2050 for energy CO2. In any year after emissions exceed the glide path, the step rises by an extra $4. The targets sit where the model says the fee alone can deliver, so the ratchet is insurance against a bad draw, not a promise the fee cannot keep.</li>
+      </ul>
+      <h3>What it covers</h3>
+      <ul>
+        <li><b>Fossil fuel CO2:</b> collected at the mine, gas processing plant, refinery and port of entry. About 4,900 million tons in 2025.</li>
+        <li><b>Industrial process emissions:</b> cement, lime, steel, ammonia, petrochemicals, gas processing vents, waste incineration and nitric and adipic acid plants, charged at the facility. About 345 million tons.</li>
+        <li><b>Methane:</b> oil and gas systems, coal mines and large landfills, charged on measured emissions at the fee rate per ton of CO2-equivalent. About 380 million tons. This replaces the methane charge that Congress delayed to 2034.</li>
+        <li><b>HFC refrigerants:</b> a charge at 20% of the fee rate on the allowances already issued under the AIM Act. The cap sets the quantity, so this raises revenue without changing emissions.</li>
+        <li><b>Imports:</b> a border charge at the fee rate on the embodied carbon of steel, aluminum, cement, fertilizer, glass, paper, chemicals and refined products, with credit for a carbon price paid at origin.</li>
+        <li><b>Optional:</b> fuel sold in the U.S. for international shipping and aviation, about 83 million tons. Off by default because air service agreements exempt international jet fuel from tax.</li>
+        <li><b>Left out:</b> farm emissions, about 585 million tons. They come from millions of small sources that cannot be metered at the price point a fee needs.</li>
+      </ul>
+      <h3>Exports and carbon storage</h3>
+      <ul>
+        <li><b>Exports:</b> exported fuels and covered goods are rebated. The Export Clause bars taxing exports.</li>
+        <li><b>Storage:</b> a refund at the fee rate for verified geologic storage, reduced by any 45Q credit claimed for the same ton.</li>
+      </ul>
+    </div>
+    <div class="prose">
+      <h3>The dividend</h3>
+      <ul>
+        <li><b>Who gets it:</b> every resident with a Social Security or taxpayer number. Adults get one share, under-19s a half share.</li>
+        <li><b>How much:</b> 90% of net receipts, split equally. Net means after the 25% offset CBO applies for lost income and payroll tax receipts, so the bill scores as deficit-neutral.</li>
+        <li><b>How it is paid:</b> monthly, by direct deposit, as a separately labeled Treasury payment. The first payment goes out in October 2029, three months before the fee starts.</li>
+        <li><b>Tax treatment:</b> not taxable income, and not counted for benefit eligibility.</li>
+      </ul>
+      <h3>The other 10%</h3>
+      <ul>
+        <li>A Transition and Hardship Account for wage and pension replacement in coal, oil and gas communities, and a supplement for households heating with propane or fuel oil and for rural drivers.</li>
+      </ul>
+      <h3>What it leaves alone</h3>
+      <ul>
+        <li><b>EPA authority:</b> no pause or preemption.</li>
+        <li><b>State programs:</b> they continue, with no credit against the federal fee.</li>
+        <li><b>Existing credits:</b> 45Q and whatever else survives to 2029 stay.</li>
+      </ul>
+      <h3>Companion measures</h3>
+      <ul>
+        <li><b>Permitting reform, assumed passed:</b> the bipartisan Senate bill released on September 30, 2026 sets a 150-day limit on court challenges, favors fixing a review over cancelling a permit, gives FERC backstop authority to site interstate transmission, and speeds grid connection. The model treats it as law from 2027, in the no-policy path as well.</li>
+        <li><b>Optional 2029 climate bill:</b> restores the tax credits repealed in 2025. An investment credit for solar and storage and a production credit for wind, with bonus adders, until power emissions fall to a quarter of their 2022 level. For ten years, then phasing out over two: $7,500 for new electric cars and $4,000 for used ones, charging station credits, a commercial vehicle credit, heat pump credits and rebates, the battery manufacturing credit, and industrial investment credits.</li>
+        <li><b>Optional grid build-out program:</b> goes beyond the transmission credit. Federal financing and anchor-customer contracts for new interregional lines, and grants to re-string existing lines with advanced conductors, which takes 18 to 36 months against 5 to 15 years for a new line. Modeled at $12 billion a year for ten years.</li>
+        <li><b>Optional advanced nuclear, fusion and hydro program:</b> a 40% investment credit and federal loans for new reactors, aimed at small modular designs, with faster industry scale-up. $2 billion a year for fusion research, which the model does not expect to deliver power before 2050. Support for hydropower in existing pipes and canals (1.4 gigawatts of potential) and for wave energy demonstrations.</li>
+        <li><b>Optional EPA standards:</b> a new administration could reissue EPA rules without Congress. For vehicles the rule requires an electric share of car sales of 25% in 2032, 50% in 2037 and 67% in 2040, then successor rules that keep tightening to 100% by 2050; for trucks 30% by 2037 rising to 65% by 2050; and new gasoline cars must improve 1% a year faster through 2040. Carmakers differ, so the rule lifts sales somewhat even when the market average is already above it, and anything that lifts the market still adds sales when the rule binds. For power plants, coal without capture retires by 2040 and new baseload gas plants need capture from 2033.</li>
+      </ul>
+      <h3>What the model says about the design</h3>
+      <ul>
+        <li><b>The fee clears out power first.</b> With permitting reform in place, coal is gone within five years and gas burned without capture falls by about 85% by 2050. Long-duration storage and hydrogen take over part of the peaking role in the 2040s.</li>
+        <li><b>On its own it moves cars slowly.</b> At $200 a ton gasoline costs $1.70 more, which lifts the electric share of sales in 2050 from 37% to 44%. Europe taxes gasoline far more heavily than that and electric cars were 17% of its 2025 sales. Purchase credits and standards do much more: with the restored credits the share passes 60% by 2040, then stalls for a decade as the credits expire.</li>
+        <li><b>The fee and the credits overlap in power.</b> The fee already makes investors want more wind and solar than the grid can connect, so the credits add little there. On their own the credits cut power emissions by about a fifth by 2035. Their extra value alongside the fee is in cars, trucks and heating.</li>
+        <li><b>The ratchet buys little.</b> From 2030 investors want to build two to three times more wind and solar than the grid can connect, so a higher fee mostly raises revenue.</li>
+        <li><b>Grid access is the binding limit.</b> With the fee in place, investors want about 140 to 155 gigawatts a year and the grid can take about 75 to 80, even with permitting reform. Anything that speeds transmission is worth more than a higher fee or a bigger credit.</li>
+        <li><b>Sources other than fuel are about 13% of revenue</b> and include the cheapest tons in the bill: methane leaks and high-purity industrial capture.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="method">
+  <h2>How the model works</h2>
+  <div class="cols">
+    <div class="prose">
+      <p>The model tracks physical stocks year by year: power plants, vehicles, heating equipment and industrial capture units. Each year operators run what they have at least cost and investors choose what to build, both facing the fee. Nothing is fitted to other models' carbon-price results.</p>
+      <ul>
+        <li><b>Power dispatch:</b> coal, gas and capture plants are stacked by running cost, including the fee, against a load curve net of nuclear, hydro, wind and solar. Coal-to-gas switching falls out of the stack.</li>
+        <li><b>Power investment:</b> new demand and retirements are met by the cheapest mix of wind, solar, gas and gas with capture. Wind and solar are also built to displace each running fossil plant they can undercut, coal first, up to annual build limits. Their value falls as their share rises, and surplus output is curtailed.</li>
+        <li><b>Coal retirement:</b> a plant retires when its going-forward cost exceeds the cheapest replacement.</li>
+        <li><b>Cars:</b> 36 age cohorts with survival rates. Buyers choose electric or gasoline on purchase price, fuel savings over a payback period, how common electric cars already are on the road, and how large their share of recent sales is. That last term stands in for carmakers offering more models and charging networks growing as sales rise, and it amplifies any incentive by roughly half. Miles driven and new-car fuel economy respond to fuel price.</li>
+        <li><b>Trucks:</b> electric share of sales depends on cost per mile, with a 14-year fleet turnover.</li>
+        <li><b>Aviation:</b> flying responds to fuel cost. Low-carbon jet fuel is blended in as the fee passes its extra cost: up to 10% from waste oils at about $220 a ton, and up to a further 50% from alcohol-based and synthetic fuel at about $400.</li>
+        <li><b>Buildings:</b> one-eighteenth of fossil heating is replaced each year, and the heat pump share of replacements depends on lifetime cost.</li>
+        <li><b>Industry:</b> efficiency responds to fuel cost. Low-temperature heat electrifies when a heat pump beats a gas boiler. High-temperature heat (furnaces and kilns, about 45% of other industrial fuel use) switches to capture, hydrogen or electric heat as the fee passes roughly $150 a ton, slowly, because the equipment lasts decades. Capture is adopted source by source when the fee or 45Q exceeds its cost. Refining shrinks with fuel demand.</li>
+        <li><b>Methane and N2O:</b> EPA's abatement cost curves by source. Coal mine methane also falls with coal output.</li>
+        <li><b>Feedbacks:</b> electric cars, trucks, heat pumps and industrial heat add to power demand. Power costs feed back into the retail price that those buyers face.</li>
+        <li><b>How fast wind and solar get built:</b> each year's build is the lowest of four numbers. What investors want, from the cost comparison above. Mature projects: those with a grid connection agreement, which take about four years from request to operation, and a third of which are cancelled at the siting stage. Industry capacity: what developers and suppliers can deliver, which grows up to 25% a year for solar and 15% for wind when it is fully used and shrinks when idle. Grid access: about 26 gigawatts a year for each percentage point of annual transmission growth, plus a base amount and half of any retiring coal plant's connection.</li>
+        <li><b>Batteries:</b> cost starts from NREL's 2025 mid case for lithium-ion (about half today's by 2050), with new chemistries taking a further 30% off the energy part by 2040; developers spend the same and get more storage. Batteries wear out after about 18 years and are replaced with whatever duration is then on sale, so the 4-hour fleet is gradually swapped for longer batteries. New batteries are assumed to lengthen from 4 hours to 8 by 2038, so that 8-hour-plus systems are the norm for new installations by 2040, and to 10 by 2050, which lets more wind and solar be used and counts for more at the peak, at a higher cost per kilowatt.</li>
+        <li><b>Long-duration storage:</b> multi-day storage is charged only from wind and solar output that would otherwise be wasted, and replaces gas plants that run few hours when it is cheaper including the fee. Cost falls from $2,200 a kilowatt to $1,500 by 2035, short of the Energy Department's $1,100 target; supply starts at 1 gigawatt a year in 2030 and can grow 30% a year to 15.</li>
+        <li><b>Hydrogen:</b> gas plants burn hydrogen instead of gas where it is cheaper including the fee, up to the supply available: 1 million tons in 2032 rising to 15 million in 2050. Delivered price falls from $5 a kilogram in 2030 to $2.50 in 2050. The restored credits take $3 a kilogram off through 2040, then phase out by 2045. Hydrogen is assumed to be made off the grid, so it adds no electricity demand here.</li>
+        <li><b>Gas plants:</b> new turbines are limited to 12 gigawatts a year now, rising to 34 by 2031, reflecting manufacturers' order books. Shortfalls in firm capacity beyond that are met with storage.</li>
+        <li><b>Firm low-carbon plants:</b> gas with capture and new nuclear compete for new demand and for the wind and solar energy the grid could not connect. They also replace running gas plants on their own economics, but a new plant only earns the hours the plant it replaces was running, so they do not replace plants that run a few weeks a year. Capture starts in 2032 at 2 gigawatts a year and nuclear in 2033 at 1, each growing up to 25% a year when fully used, with nuclear capped at 15. Reactor cost starts at $13,000 a kilowatt and falls 8% with each doubling of what has been built.</li>
+        <li><b>Permitting reform:</b> phased in over four years. It lifts transmission growth from about 1% a year toward 2%, its long-run average, cuts the wait for a grid connection from four years to two and a half, and trims siting cancellations. It also slows the fall in wind and solar value as their share grows and speeds carbon capture build-out.</li>
+        <li><b>Restored credits:</b> lower the cost that investors and buyers compare. The model also counts what the credits cost the Treasury, including credits paid to people who would have bought anyway.</li>
+        <li><b>Expectations:</b> investors look ten years ahead on the statutory schedule from the day the bill is signed.</li>
+      </ul>
+    </div>
+    <div class="prose">
+      <h3>How each measure acts on building</h3>
+      <div class="tablewrap"><table class="kv">
+        <tr><th>Measure</th><th class="txt">What investors want</th><th class="txt">Industry capacity</th><th class="txt">Grid access</th><th class="txt">Project timing</th></tr>
+        <tr><td>Carbon fee</td><td class="txt">Large rise: new wind and solar undercut coal at once and gas as the fee climbs</td><td class="txt">Grows because it is fully used</td><td class="txt">Small rise in transmission growth; fast coal retirement frees connections</td><td class="txt">None</td></tr>
+        <tr><td>Restored credits</td><td class="txt">Rise: 38% off solar and storage cost, $34 a megawatt-hour for wind</td><td class="txt">Grows 5 points a year faster</td><td class="txt">Modest rise from a transmission investment credit</td><td class="txt">None</td></tr>
+        <tr><td>Permitting reform</td><td class="txt">Small rise: projects hold their value at higher shares</td><td class="txt">None directly</td><td class="txt">Large rise: transmission growth from 1% to 2% a year</td><td class="txt">Connection wait falls from 4 years to 2.5; fewer cancellations</td></tr>
+        <tr><td>Grid build-out program</td><td class="txt">Small rise: long-distance lines let more wind and solar output be used</td><td class="txt">None</td><td class="txt">Large rise: transmission growth up 0.8 points, plus 15 gigawatts a year from re-stringing existing lines</td><td class="txt">Re-stringing takes 18 to 36 months</td></tr>
+        <tr><td>Nuclear and hydro program</td><td class="txt">Shifts demand toward reactors, which need no new wind or solar grid access</td><td class="txt">Reactor industry grows 8 points a year faster</td><td class="txt">None</td><td class="txt">First reactors in 2033</td></tr>
+        <tr><td>EPA standards</td><td class="txt">Rise: more electric vehicles to supply, coal forced out by 2040</td><td class="txt">None</td><td class="txt">Coal retirement frees connections</td><td class="txt">None</td></tr>
+      </table></div>
+      <h3>Uncertainty</h3>
+      <p>The bands come from 120 runs in which 37 inputs are drawn at random from ranges: fuel prices, technology costs and build limits, buyer behavior, capture costs, and the border-trade figures. The three state-of-the-world controls shift the center of those draws.</p>
+      <h3>Revenue and households</h3>
+      <ul>
+        <li><b>Revenue:</b> fee times emissions for each covered source, plus the HFC and border charges. Net revenue applies the 25% offset.</li>
+        <li><b>Dividend:</b> the chosen share of net revenue, less 1.5% administration, divided by shares.</li>
+        <li><b>Households:</b> spending on gasoline, natural gas, heating fuel and electricity for each group comes from the 2024 Consumer Expenditure Survey. Each is scaled by the fee's effect on that fuel's price and by how much less of it the country is using. The rest of the fee reaches households through everything else they buy, in proportion to their other spending. The dividend follows household size: one share per adult and half per child.</li>
+        <li><b>Climate benefit:</b> covered tons avoided times EPA's 2023 social cost of carbon.</li>
+        <li><b>Health benefit:</b> coal and gas generation avoided, valued with EPA's health benefit per kilowatt-hour. I use its Midwest figure (about 8.5 cents) for coal and its California figure (about 1 cent) for gas, as stand-ins for coal-heavy and gas-only grids. It covers power plants only, not vehicles or industry.</li>
+        <li><b>What people pay:</b> driving is the fee on car and light truck fuel; heating is the residential share of building fuel; electricity is the residential 37% of power-sector fee revenue; the rest reaches people through the price of everything else.</li>
+      </ul>
+      <h3>Sources</h3>
+      <ul>
+        <li><a href="https://www.eia.gov/environment/emissions/carbon/">EIA, energy CO2 by sector, 2025</a>; <a href="https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php">generation and capacity</a>; <a href="https://www.eia.gov/outlooks/steo/archives/Jun26.pdf">fuel and power prices</a>; <a href="https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf">new plant costs</a></li>
+        <li><a href="https://www.epa.gov/system/files/documents/2024-02/us-ghg-inventory-2024-chapter-2-trends.pdf">EPA greenhouse gas inventory, Table 2-1</a>; <a href="https://19january2021snapshot.epa.gov/sites/static/files/2016-07/documents/mac_report_2014-us_summ.compressed.pdf">EPA non-CO2 abatement curves</a></li>
+        <li><a href="https://www.fhwa.dot.gov/policyinformation/statistics/2024/vm1.cfm">FHWA vehicle stock, miles and fuel</a>; <a href="https://climateprogramportal.org/wp-content/uploads/2025/02/Fast-Facts-US-Transportaton-Sector-GHG-Emissions-1990-2022.pdf">EPA transport emissions by mode</a></li>
+        <li><a href="https://www.journals.uchicago.edu/doi/10.1086/689702">Li, Tong, Xing and Zhou on EV adoption feedback</a>; <a href="https://www.acea.auto/pc-registrations/new-car-registrations-1-8-in-2025-battery-electric-17-4-market-share/">ACEA, EU electric share 2025</a>; <a href="https://www.coxautoinc.com/insights/q4-2025-ev-sales-report-commentary/">Cox Automotive, 2025 EV share</a>; <a href="https://about.bnef.com/insights/clean-transport/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices-bloombergnef/">BloombergNEF battery prices</a></li>
+        <li><a href="https://www.sandia.gov/app/uploads/sites/256/2023/09/Pathways-to-Commercial-Liftoff-LDES-May-5_UPDATED.pdf">DOE long-duration storage liftoff report</a>; <a href="https://docs.nlr.gov/docs/fy25osti/93281.pdf">NREL battery cost projections, 2025</a>; <a href="https://theicct.org/wp-content/uploads/2021/06/final_icct2020_assessment_of-_hydrogen_production_costs-v2.pdf">ICCT hydrogen production costs</a></li>
+        <li><a href="https://www.energypolicy.columbia.edu/publications/low-carbon-production-iron-steel-technology-options-economic-assessment-and-policy/">Columbia CGEP on industrial abatement costs</a>; <a href="https://energyinnovation.org/wp-content/uploads/Decarbonizing-Low-Temperature-Industrial-Heat-In-The-U.S.-Report-2.pdf">Energy Innovation on industrial heat</a>; <a href="https://theicct.org/sites/default/files/publications/Alternative_jet_fuels_cost_EU_2020_06_v3.pdf">ICCT</a> and <a href="https://www.rff.org/publications/issue-briefs/lowering-the-carbon-intensity-of-ethanol-to-jet-aviation-fuel/">RFF</a> on jet fuel</li>
+        <li><a href="https://netl.doe.gov/projects/files/CostofCapturingCO2fromIndustrialSources_033123.pdf">NETL industrial capture costs</a>; <a href="https://www.cbo.gov/publication/59832">CBO on carbon capture and 45Q</a></li>
+        <li><a href="https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf">Lazard levelized cost of energy, 2025</a></li>
+        <li><a href="https://gain.inl.gov/content/uploads/4/2024/11/DOE-Advanced-Nuclear-Liftoff-Report.pdf">DOE Advanced Nuclear Liftoff report</a>; <a href="https://www.energy.gov/cmei/water/articles/new-assessment-finds-opportunities-conduit-hydropower-development-across-united">Oak Ridge conduit hydropower assessment</a>; <a href="https://www.utilitydive.com/news/reconductoring-power-lines-transmission-capacity-goldman-gridlab/712643/">Berkeley and GridLab on advanced conductors</a>; <a href="https://www.ans.org/news/2026-09-30/article-8446/bipartisan-fusion-bill-proposes-10b-for-commercialization-and-research/">American Leadership in Fusion Act</a></li>
+        <li>Build limits: <a href="https://emp.lbl.gov/publications/queued-2025-edition-characteristics">Berkeley Lab, Queued Up 2025</a>; <a href="https://emp.lbl.gov/news/larg-e-scale-wind-and-solar">Berkeley Lab developer survey</a>; <a href="https://cleanenergygrid.org/wp-content/uploads/2025/07/ACEG_Grid-Strategies_Fewer-New-Miles-2025_Rev-1.pdf">Grid Strategies, Fewer New Miles 2025</a>; <a href="https://www.energy.gov/sites/default/files/2023-10/DOE_GDO_Needs_Study_Fact_Sheet_United_States.pdf">DOE Transmission Needs Study</a>; <a href="https://pv-magazine-usa.com/2026/02/25/solar-and-storage-to-lead-record-breaking-86-gw-of-new-u-s-capacity-in-2026/">EIA planned 2026 additions</a>; <a href="https://www.utilitydive.com/news/ge-vernova-gas-turbine-backlog-climbs-to-116-gw/826039/">GE Vernova turbine backlog</a></li>
+        <li><a href="https://www.hklaw.com/en/insights/publications/2026/10/bipartisan-senate-committee-leaders-release-permitting-reform-text">Holland &amp; Knight on the Senate permitting bill</a>; <a href="https://repeatproject.org/docs/REPEAT_IRA_Transmission_2022-09-22.pdf">Princeton REPEAT on transmission</a>; <a href="https://www.thirdway.org/memo/quantifying-the-emissions-impacts-of-the-energy-permitting-reform-act-of-2024">Third Way and RMI on the 2024 permitting bill</a>; <a href="https://www.steptoe.com/en/news-publications/the-one-big-beautiful-bill-impact-on-the-iras-clean-energy-tax-credits.html">Steptoe on the repealed credits</a></li>
+        <li><a href="https://rhg.com/research/taking-stock-2026/">Rhodium Taking Stock 2026</a>; <a href="https://www.eia.gov/outlooks/aeo/pdf/AEO_Narrative.pdf">EIA AEO2026</a></li>
+        <li><a href="https://www.globalefficiencyintel.com/embodied-co2-emissions-in-steel-imports-to-the-us">Global Efficiency Intelligence, embodied CO2 in steel imports</a></li>
+        <li><a href="https://www.bea.gov/industry/input-output-accounts-data">BEA supply-use tables</a>; <a href="https://catalog.data.gov/dataset/embodied-material-flow-and-ghg-emission-factors-for-u-s-imports-derived-from-the-2017-2022">EPA import emission factors</a>; <a href="https://catalog.data.gov/dataset/supply-chain-greenhouse-gas-emission-factors-v1-3-by-naics-6">EPA supply chain emission factors</a></li>
+        <li><a href="https://www.bls.gov/cex/tables.htm">BLS Consumer Expenditure Survey tables, 2024</a>; <a href="https://www.eia.gov/outlooks/aeo/data/browser/#/?id=17-AEO2026&cases=cb2026&sourcekey=0">EIA AEO2026 Table 18</a>; <a href="https://www.epa.gov/system/files/documents/2024-12/usepa_bpk_flyer_2024_update.pdf">EPA health benefits per kilowatt-hour</a>; <a href="https://markpaulecon.com/wp-content/uploads/2018/01/fremstad-paul-the-impact-of-a-carbon-tax-on-inequality.pdf">Fremstad and Paul</a>; <a href="https://costofcarbon.org/epa-values-for-the-social-cost-of-greenhouse-gases">EPA social cost of carbon</a>; <a href="https://www.cbo.gov/publication/61879">CBO population</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="checks">
+  <h2>Checks and limits</h2>
+  <div class="cols">
+    <div class="prose">
+      <h3>Does it reproduce 2025?</h3>
+      <div class="tablewrap"><table id="cal" class="kv"></table></div>
+      <h3>Is the no-policy path in line with other forecasts?</h3>
+      <div class="tablewrap"><table id="bl" class="kv"></table></div>
+      <h3>With EPA standards and no fee, does it match EIA's outlook?</h3>
+      <p class="sub">EIA's 2026 central case keeps the EPA vehicle and power plant rules, so the like-for-like run here is standards on and fee off. EIA's rules start in 2027; the model's restart in 2032.</p>
+      <div class="tablewrap"><table id="aeo" class="kv"></table></div>
+      <h3>How does it compare with published fee studies?</h3>
+      <p class="sub">Energy CO2 against each study's reference case, with that study's fee path run through this model.</p>
+      <div class="tablewrap"><table id="bt" class="kv"></table></div>
+      <h3>Companion measures</h3>
+      <div class="tablewrap"><table id="cm" class="kv"></table></div>
+      <p>Under today's conditions this model responds less than the published studies. The last column reruns it with 2022-era financing costs and no practical limit on how fast wind and solar can be built, which is closer to what those studies assumed. That closes most of the gap with EIA's model. The remaining gap with the EPRI and RFF studies reflects tax credits in their baselines and, in RFF's case, a capital stock that adjusts at once. So the difference is mainly about how fast clean power can be built and financed, which is why permitting reform matters so much here.</p>
+    </div>
+    <div class="prose">
+      <h3>Carbon in covered trade, 2022</h3>
+      <p class="sub">Trade values from the Bureau of Economic Analysis, emissions per dollar from EPA, full supply chain. U.S. emissions per dollar are scaled by an assumed ratio of foreign to U.S. intensity for each product, with a low and high case in brackets. The ratios are judgment: near one where chemistry fixes emissions (cement, lime, refining), higher for steel, below one possible for aluminum and paper because Canada supplies much of them on hydropower.</p>
+      <div class="tablewrap"><table class="kv"><tr><th>Product</th><th>Imports $bn</th><th>Foreign vs U.S. intensity</th><th>Imports Mt</th><th>Exports $bn</th><th>Exports Mt</th></tr><tr><td>Iron and steel mills</td><td>53</td><td>1.5</td><td>62 (45 to 82)</td><td>17</td><td>13</td></tr><tr><td>Steel products from purchased steel</td><td>6</td><td>1.4</td><td>3 (2 to 4)</td><td>1</td><td>0</td></tr><tr><td>Alumina and primary aluminum</td><td>17</td><td>0.9</td><td>15 (10 to 24)</td><td>1</td><td>1</td></tr><tr><td>Aluminum products</td><td>9</td><td>1.2</td><td>8 (6 to 11)</td><td>6</td><td>4</td></tr><tr><td>Cement</td><td>2</td><td>1.1</td><td>7 (6 to 8)</td><td>0</td><td>1</td></tr><tr><td>Lime and gypsum</td><td>0</td><td>1.1</td><td>0 (0 to 1)</td><td>0</td><td>0</td></tr><tr><td>Glass</td><td>11</td><td>1.2</td><td>7 (6 to 9)</td><td>6</td><td>3</td></tr><tr><td>Fertilizer</td><td>10</td><td>1.3</td><td>15 (11 to 20)</td><td>5</td><td>5</td></tr><tr><td>Petrochemicals</td><td>10</td><td>1.2</td><td>9 (8 to 12)</td><td>9</td><td>7</td></tr><tr><td>Other basic inorganic chemicals</td><td>14</td><td>1.3</td><td>17 (13 to 22)</td><td>18</td><td>18</td></tr><tr><td>Other basic organic chemicals</td><td>48</td><td>1.3</td><td>73 (56 to 95)</td><td>44</td><td>52</td></tr><tr><td>Plastics and resins</td><td>22</td><td>1.3</td><td>29 (22 to 38)</td><td>42</td><td>43</td></tr><tr><td>Pulp</td><td>4</td><td>1</td><td>4 (3 to 6)</td><td>6</td><td>6</td></tr><tr><td>Paper</td><td>12</td><td>1</td><td>7 (6 to 10)</td><td>12</td><td>7</td></tr><tr><td>Paperboard</td><td>2</td><td>1</td><td>2 (1 to 2)</td><td>0</td><td>0</td></tr><tr><td>Refined petroleum products</td><td>93</td><td>1.1</td><td>25 (22 to 30)</td><td>204</td><td>51</td></tr><tr><td><b>Total</b></td><td><b>313</b></td><td></td><td><b>284 (219 to 374)</b></td><td><b>371</b></td><td><b>211</b></td></tr></table></div>
+      <h3>Limits</h3>
+      <ul>
+        <li><b>One national market:</b> no regions, transmission limits or hourly weather. Coal-to-gas switching is faster than a regional model would show, and wind and solar siting is a single cost spread.</li>
+        <li><b>Calibrated baseline:</b> a floor on wind and solar building, standing in for state mandates and contracted projects, is set so the no-policy path matches Rhodium's mid case. The policy response is not calibrated.</li>
+        <li><b>Narrow bands:</b> the bands cover uncertain inputs, not the model's structure. The comparison with published studies shows structural uncertainty is larger.</li>
+        <li><b>No macroeconomy:</b> GDP, jobs, wages and industrial output are not modeled. Imports do not respond to the border charge beyond a small elasticity.</li>
+        <li><b>Households are averages:</b> each group is its mean household. The model cannot say what share of a group comes out ahead, and a household that drives far more than its group's average will do worse than shown. Groups cut their fuel use at the national rate, not their own. Heating oil and propane are costed at an assumed 2.5 kilograms of CO2 per dollar.</li>
+        <li><b>Grid access rests on two studies:</b> the link between transmission growth and wind and solar additions comes from Princeton's and the Energy Department's work, and the base amount is set so 2026 matches planned additions. Advanced conductors and other ways of getting more from existing lines are not modeled separately and could raise it. The permitting bill's oil, gas and pipeline provisions are not modeled, so its net effect could be smaller.</li>
+        <li><b>Credits are simplified:</b> bonus adders, charging credits, used-car credits and industrial credits are represented by assumed average values. Hydrogen and domestic content rules are not modeled.</li>
+        <li><b>Electric car sales are the least certain output:</b> the adoption feedback makes the path sensitive to small changes in buyer behavior. Across the uncertain runs the 2050 share ranges from 49% to 76% with the fee and credits.</li>
+        <li><b>Standards have no cost side:</b> the model does not price what compliance costs carmakers, buyers or utilities.</li>
+        <li><b>Some overlap between measures is real:</b> when one measure already does a job (the fee retiring coal, a standard setting car sales), a second aimed at the same job adds less. And every route to cutting emissions slows as it nears completion, because what is left is the hardest part: gas plants that run a few weeks a year, buyers least suited to electric cars, furnaces not yet due for replacement.</li>
+        <li><b>Nuclear cost is the most speculative input:</b> U.S. reactor costs have historically risen, not fallen, with experience. The 8% learning rate and the build ramp follow the Energy Department's targets, not a track record. Wave energy's pace is a guess and is capped at 8 gigawatts.</li>
+        <li><b>Hydrogen and long-duration storage are thinly modeled:</b> hydrogen is a fuel for gas plants only (industry's use is folded into the high-temperature heat cost), its price and supply are assumed paths, and its production is not on the model's grid. Long-duration storage can charge only from wasted output, so it arrives late, in the 2040s. Fusion power and direct air capture are absent.</li>
+      </ul>
+      <h3>Inputs that are my assumptions, not sourced figures</h3>
+      <ul>
+        <li><b>Border trade:</b> the share of imports that would earn credit for a carbon price paid at origin (15%), and the ratio of foreign to U.S. emissions per dollar for each covered product (set by judgment, product by product, in the trade table above; 0.9 for primary aluminum up to 1.5 for steel). A proper border model would use tonnes of carbon per tonne of product by source country.</li>
+        <li><b>Buyer behavior:</b> price sensitivity of car, truck and heat pump buyers, the six-year payback, and the strength of the adoption feedback.</li>
+        <li><b>Power:</b> how much each policy changes transmission growth (permitting reform +1 point, the grid program +0.8, the credit bill +0.3, the fee +0.15), the 15 gigawatts a year from re-stringing lines, the cost of the grid program, the share of retiring plants' connections that is reused, how fast industry capacity grows for each technology, the U.S. share of turbine output, the split of gas turbines and steam units, the fall in wind and solar value as their share rises, and a 4 GW a year scheduled coal retirement.</li>
+        <li><b>Industry and aviation:</b> the shares of refining (17%) and low-temperature heat (15%) in industrial CO2; the pace at which high-temperature heat and jet fuel switch once the fee passes their cost (the costs themselves come from Columbia, ICCT and Resources for the Future).</li>
+        <li><b>Standards:</b> how far the vehicle rule lifts sales when the market is near it, the 1% a year efficiency gain for gasoline cars, and the path of successor rules after 2040.</li>
+        <li><b>Storage and hydrogen:</b> the hydrogen price path and the supply open to power plants; how far long-duration storage falls short of the Energy Department's cost target and how fast its supply grows; batteries lengthening to 8 hours by 2038 and 10 by 2050, and new chemistries making the energy part of a battery 30% cheaper than NREL's lithium-ion path by 2040 (the IEA's figure for sodium-ion; one bottom-up study finds only 3%).</li>
+        <li><b>Other:</b> technology cost declines, and EV sales shares before 2025.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div>

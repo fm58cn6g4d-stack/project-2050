@@ -2,7 +2,7 @@
 """Project 2050 merge gate: tier classification, cross-agent review, Espen approval, merge and daily digest.
 
 Standard library only. The rules live in .github/merge-policy.json; the plain-language version is in
-governing/project-collaboration.md and governing/agent-automation-setup.md.
+legacy/governing/project-collaboration.md and legacy/governing/agent-automation-setup.md.
 
   agent_gate.py classify --base SHA --head SHA --out FILE    tier from changed paths and headline numbers (git only)
   agent_gate.py headlines [--rev REV]                        headline numbers read from committed outputs
@@ -13,7 +13,7 @@ governing/project-collaboration.md and governing/agent-automation-setup.md.
 
 Everything here identifies agents by what they write (branch prefix, Agent-Author / Agent-Review lines), because
 every agent currently pushes as Espen's GitHub account. That is an honest-agent protocol and an audit trail, not
-security against an agent that ignores the rules; see governing/agent-automation-setup.md.
+security against an agent that ignores the rules; see legacy/governing/agent-automation-setup.md.
 """
 import argparse
 import csv
@@ -110,7 +110,7 @@ _DOMAIN_IDS = {}
 def all_domain_ids(rev):
     if rev not in _DOMAIN_IDS:
         ids = set()
-        for path in git("ls-tree", "-r", "--name-only", rev, "--", "domains").splitlines():
+        for path in git("ls-tree", "-r", "--name-only", rev, "--", "legacy/domains").splitlines():
             ids |= program_ids(file_at(rev, path))
         _DOMAIN_IDS[rev] = ids
     return _DOMAIN_IDS[rev]
@@ -123,7 +123,7 @@ def headlines_at(rev=None):
     """{name: value}. Names start with 'test:', 'margin:' or 'num:'; see merge-policy.json for the tiers."""
     read = (lambda p: file_at(rev, p)) if rev else (lambda p: _read(p))
     h = {}
-    fp = read("index/data/fiscal-paths.csv")
+    fp = read("models/data/fiscal-paths.csv")
     if fp:
         try:
             by = {int(r["year"]): r for r in csv.DictReader(io.StringIO(fp)) if r["scenario"] == "DEC"}
@@ -135,7 +135,7 @@ def headlines_at(rev=None):
             h["num:Total debt 2056, % of GDP (fiscal model DEC)"] = float(by[2056]["debt_pct"])
         except (KeyError, ValueError) as e:
             h["test:fiscal-paths.csv readable"] = f"unreadable: {e}"
-    rb = read("index/data/recovery-budget.json")
+    rb = read("models/data/recovery-budget.json")
     if rb:
         try:
             d = json.loads(rb)
@@ -238,7 +238,7 @@ def classify(base, head, policy):
             why += "; wording only"
         reasons.append((path, tier, why))
     rows = []
-    if outputs_changed or any(p.startswith("index/data/inputs/") for _, p, _ in files):
+    if outputs_changed or any(p.startswith("models/data/inputs/") for _, p, _ in files):
         rows = compare_headlines(headlines_at(base), headlines_at(head), policy)
         for name, b, a, t in rows:
             reasons.append((f"headline: {name}", t, f"{fmt(b)} -> {fmt(a)}"))
@@ -778,7 +778,7 @@ def digest(args, policy):
         out += [f"| {n} | {fmt(b)} | {fmt(a)} | {t} |" for n, b, a, t in moved]
     else:
         out.append(f"- None (main `{old[:7] if old else 'n/a'}` -> `{git('rev-parse', 'HEAD').strip()[:7]}`).")
-    out += ["", f"Open PRs: {len(opened)}. Rules: governing/project-collaboration.md.", "", FOOTER_BOT]
+    out += ["", f"Open PRs: {len(opened)}. Rules: legacy/governing/project-collaboration.md.", "", FOOTER_BOT]
     text = "\n".join(out)
     print(text)
     if args.dry_run:

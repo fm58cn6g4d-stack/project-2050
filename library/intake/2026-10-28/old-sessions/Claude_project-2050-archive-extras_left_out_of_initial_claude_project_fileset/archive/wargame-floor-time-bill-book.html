@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Floor Time — Bill Book</title>
+<style>
+  :root{
+    --paper:#F4EFE4; --paper2:#EAE3D3; --ink:#1B2432; --inkdim:#5C6373;
+    --rule:#CDBE9A; --brass:#9C7A16;
+    --dem:#3E6FB0; --care:#4E8A63; --econ:#C08A20; --rev:#7A5E97; --safety:#5E6B80;
+    --gop:#B0413E; --green:#4E8A63; --amber:#C08A20; --red:#B0413E;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+    --mono:ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:16px;line-height:1.5}
+  .book{max-width:760px;margin:0 auto;padding:24px}
+
+  /* cover */
+  .cover{padding:80px 40px 64px;border:1px solid var(--rule);border-radius:4px;background:var(--paper2);margin-bottom:32px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass)}
+  .cover h1{font-family:var(--serif);font-weight:600;font-size:58px;line-height:1.02;letter-spacing:-.01em;margin:.15em 0 .2em}
+  .cover .sub{font-size:20px;font-style:italic;color:var(--ink);max-width:44ch;line-height:1.4}
+  .cover .meta{font-family:var(--mono);font-size:12px;color:var(--inkdim);margin-top:22px;line-height:1.7}
+  .toc{margin-top:26px;column-count:2;column-gap:34px;font-family:var(--mono);font-size:11.5px;line-height:1.85;color:var(--inkdim)}
+  .toc b{color:var(--ink);font-weight:600}
+
+  /* sheet */
+  .sheet{border:1px solid var(--rule);border-radius:4px;padding:34px 34px 26px;margin-bottom:28px;background:var(--paper);position:relative;min-height:0}
+  .sheet .head{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkdim);border-bottom:1px solid var(--rule);padding-bottom:8px;margin-bottom:16px}
+  .cat{font-weight:700}
+  .sheet h2{font-family:var(--serif);font-weight:600;font-size:27px;line-height:1.12;letter-spacing:-.01em;margin:0 0 4px}
+  .basis{font-family:var(--mono);font-size:10.5px;color:var(--inkdim);margin:0 0 12px}
+  .purpose{font-size:16.5px;font-style:italic;color:var(--ink);margin:0 0 18px;line-height:1.45}
+  .prov-h{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);margin:0 0 8px}
+  ul{margin:0 0 16px;padding:0;list-style:none}
+  li{position:relative;padding-left:20px;margin-bottom:9px;line-height:1.44;font-size:15.5px}
+  li:before{content:"";position:absolute;left:2px;top:9px;width:6px;height:6px;background:var(--brass);border-radius:1px}
+  li b{font-weight:600}
+  .payfor{background:var(--paper2);border-left:3px solid var(--brass);padding:10px 14px;font-size:14px;line-height:1.45;margin:0 0 16px}
+  .payfor .pf-h{font-family:var(--mono);font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--brass);display:block;margin-bottom:3px}
+  .foot{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;border-top:1px solid var(--rule);padding-top:12px;margin-top:4px;font-family:var(--mono);font-size:11px;color:var(--inkdim)}
+  .foot .k{color:var(--brass);text-transform:uppercase;letter-spacing:.1em;font-size:9.5px}
+  .foot b{color:var(--ink);font-weight:600}
+  .meter{display:inline-block;width:56px;height:7px;background:var(--rule);border-radius:3px;vertical-align:middle;overflow:hidden}
+  .meter i{display:block;height:7px}
+  a{color:var(--brass)}
+  @media (max-width:640px){ .book{padding:14px} .cover{padding:48px 22px} .cover h1{font-size:40px} .toc{column-count:1} .sheet{padding:24px 20px} .sheet h2{font-size:23px} }
+  @media print{
+    body{background:#fff}
+    .book{max-width:none;padding:0}
+    .cover{break-after:page;border:none;background:#fbf9f3}
+    .sheet{break-inside:avoid;break-after:page;border:none;padding:26px 8px;margin:0}
+    .payfor{background:#f3efe4}
+  }
+</style>
+</head>
+<body>
+<div class="book">
+
+  <!-- COVER -->
+  <div class="cover">
+    <div class="eyebrow">A 2029 Trifecta War Game · Field data as of June 10, 2026</div>
+    <h1>The Bill Book</h1>
+    <div class="sub">One-page fact sheets for the twenty-seven-bill legislative core of the unified Ossoff–Moore agenda.</div>
+    <div class="meta">
+      Scenario board: 56 D Senate · 244 D House · full talking-filibuster reform.<br>
+      Each sheet lists the bill's core provisions and closes with its path to enactment, the modeled
+      probability it becomes law, and its durability against a hostile 2031. Provisions summarize the
+      real legislation each bill is modeled on; the strategic footers are war-game judgments, not forecasts.
+    </div>
+    <div class="toc">
+      <div><b>Democracy &amp; anti-corruption</b><br>01 Freedom to Vote + John Lewis VRAA<br>02 Campaign Finance Transparency<br>03 D.C. Statehood<br>04 Government Ethics &amp; Anti-Corruption<br>05 Supreme Court Ethics &amp; Accountability<br>19 Puerto Rico Status Act</div>
+      <div><b>Care, health &amp; family</b><br>06 Permanent Expanded Child Tax Credit<br>07 Universal Pre-K &amp; Child Care<br>08 Public Option / Medicare at 55<br>20 Paid Family &amp; Medical Leave<br>21 Social Security Expansion</div>
+      <div style="break-before:column"><b>Economy, labor &amp; climate</b><br>09 Clean Energy Standard &amp; Carbon Dividend<br>10 PRO Act &amp; Sectoral Bargaining<br>11 Living Wage &amp; Small-Business Transition<br>12 Housing Abundance &amp; Supply<br>13 Antitrust Enforcement &amp; Competition<br>14 Junk Fees &amp; Consumer Protection</div>
+      <div><b>Borders, safety &amp; revenue</b><br>15 Comprehensive Immigration Reform<br>16 Universal Background Checks<br>17 Billionaire Minimum Income Tax<br>18 Corporate &amp; High-Income Tax Fairness</div>
+      <div><b>Rights, justice &amp; security</b><br>22 Reproductive Freedom Act<br>23 Equality Act<br>24 Justice &amp; Public Safety Reform<br>25 Education &amp; Opportunity<br>26 Veterans Health &amp; Capacity<br>27 War Powers &amp; Iran Accountability</div>
+    </div>
+  </div>
+
+  <!-- 01 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--dem)">Democracy &amp; anti-corruption</span><span>Bill 01 / 27</span></div>
+    <h2>Freedom to Vote Act + John Lewis Voting Rights Advancement Act</h2>
+    <div class="basis">Modeled on S. 2747 (Freedom to Vote) and H.R. 4 (John Lewis VRAA)</div>
+    <p class="purpose">Set a national floor for ballot access, end partisan gerrymandering, and restore the enforcement teeth the Supreme Court stripped from the Voting Rights Act in <em>Shelby County</em> and <em>Brnovich</em>.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Access floor.</b> Automatic and same-day registration, online registration, a minimum 15 days of early voting, no-excuse mail ballots and drop boxes, and Election Day as a federal holiday.</li>
+      <li><b>Small-dollar matching.</b> Public matching of small contributions (6:1 up to $200) to rebuild a grassroots donor base against big money.</li>
+      <li><b>Rights restoration.</b> Restore voting rights to citizens upon completion of any incarceration.</li>
+      <li><b>Anti-gerrymandering.</b> Ban partisan gerrymanders outright, require neutral map criteria, and give voters a private right of action to challenge maps in federal court.</li>
+      <li><b>Election protection.</b> Paper-ballot requirement with risk-limiting audits, chain-of-custody rules, and federal protection for election workers against harassment and partisan removal.</li>
+      <li><b>Preclearance, rebuilt.</b> The John Lewis VRAA writes a new Section 5 coverage formula responding to <em>Shelby County</em>, adds nationwide "practice-based" preclearance for known-discriminatory changes, and reverses <em>Brnovich</em>'s narrowing of Section 2.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Democracy carve-out</b> (or regular order under full reform)</span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:55%;background:var(--dem)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--dem)">Democracy &amp; anti-corruption</span><span>Bill 02 / 27</span></div>
+    <h2>Campaign Finance Transparency (DISCLOSE) Act</h2>
+    <div class="basis">Modeled on the DISCLOSE Act and Honest Ads Act</div>
+    <p class="purpose">End anonymous "dark money" in federal elections by forcing the true sources of political spending into the open.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Donor disclosure.</b> Any organization spending on federal elections must disclose donors who give more than $10,000, ending the 501(c)(4) dark-money shield.</li>
+      <li><b>Beneficial ownership.</b> Require the real people behind political-spending entities to be named, and add "stand by your ad" attribution for organizations.</li>
+      <li><b>Digital ad transparency.</b> Extend broadcast-style disclosure and a public ad file to online platforms (the Honest Ads Act).</li>
+      <li><b>Coordination rules.</b> Tighten the line between candidates and nominally independent super PACs to curb functionally coordinated spending.</li>
+      <li><b>Enforcement.</b> Restore a functioning FEC quorum practice and close reporting loopholes for shell entities.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Democracy carve-out</b> (rides the Freedom to Vote family)</span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:48%;background:var(--dem)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--dem)">Democracy &amp; anti-corruption</span><span>Bill 03 / 27</span></div>
+    <h2>Washington, D.C. Admission Act</h2>
+    <div class="basis">Modeled on H.R. 51</div>
+    <p class="purpose">Grant the 700,000+ residents of the District full voting representation by admitting the State of Washington, Douglass Commonwealth.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Statehood.</b> Admit the residential and commercial District as the 51st state, with one voting House member and two senators.</li>
+      <li><b>A shrunken federal district.</b> Retain a small constitutional "Capital" — the Mall, White House, Capitol, and principal federal buildings — as the seat of government under Article I.</li>
+      <li><b>Twenty-third Amendment fix.</b> Trigger an expedited repeal of the 23rd Amendment, which otherwise would award the tiny residual district three electoral votes for a near-empty population.</li>
+      <li><b>Transition.</b> Convert the existing mayor and council into state officers; assume state functions over courts, National Guard, and budget autonomy.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Note on the vote</span>Article IV §3 admits new states by simple majority; the only barrier is the filibuster, not the Constitution. It is the single most durable act on the board — a state, once admitted, cannot be un-admitted — which is why it draws the fiercest resistance and stays the closest vote.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order</b> under full reform (carve-out eligible)</span>
+      <span><span class="k">Enacted</span> <b>83%</b></span>
+      <span><span class="k">Durability</span> Entrenched <span class="meter"><i style="width:95%;background:var(--dem)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--dem)">Democracy &amp; anti-corruption</span><span>Bill 04 / 27</span></div>
+    <h2>Government Ethics &amp; Anti-Corruption Act</h2>
+    <div class="basis">Modeled on the Protecting Our Democracy Act and TRUST in Congress Act</div>
+    <p class="purpose">Close the conflicts of interest that let public officials profit from public office, and harden the guardrails a hostile executive learned to bend.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Congressional stock ban.</b> Prohibit members of Congress — and their spouses and dependents — from holding or trading individual stocks; require blind trusts or divestiture.</li>
+      <li><b>Revolving-door limits.</b> Extend lobbying cooling-off periods, and bar former members from lobbying their old chamber.</li>
+      <li><b>Executive conflicts.</b> Require presidents and vice presidents to divest or blind-trust financial holdings and disclose tax returns.</li>
+      <li><b>Inspector-general protection.</b> Bar removal of IGs without cause and advance notice to Congress, and protect their independence.</li>
+      <li><b>Executive divestiture.</b> Codify the Day-1 divestiture executive order (mandatory blind trusts, closed foreign-payment/LLC loopholes) and attach criminal emoluments penalties.</li>
+      <li><b>Enforcement machinery.</b> Reorient DOJ, SEC, CFTC, FTC, and CFPB toward anti-corruption, and restructure the FEC with genuinely independent commissioners to break the 3–3 deadlock.</li>
+      <li><b>Foreign-influence transparency.</b> Modernize FARA and strengthen Hatch Act enforcement against political use of federal office.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Full reform required</b> — good-government, not election law, so no carve-out</span>
+      <span><span class="k">Enacted</span> <b>99%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:58%;background:var(--dem)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--dem)">Democracy &amp; anti-corruption</span><span>Bill 05 / 27</span></div>
+    <h2>Supreme Court Ethics &amp; Accountability Act</h2>
+    <div class="basis">Modeled on the Supreme Court Ethics, Recusal, and Transparency Act</div>
+    <p class="purpose">Subject the justices to the same enforceable ethics standards that already bind every other federal judge.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Binding code of conduct.</b> Adopt an enforceable code for the Supreme Court — currently the only federal court without one.</li>
+      <li><b>Recusal standards.</b> Set clear recusal rules and require justices to publish written explanations of recusal decisions.</li>
+      <li><b>Gift and travel disclosure.</b> Impose disclosure of gifts, travel, and hospitality stricter than current practice, with penalties for noncompliance.</li>
+      <li><b>Complaint mechanism.</b> Create a process to receive and review ethics complaints against justices.</li>
+      <li><b>Amicus transparency.</b> Require disclosure of funding behind organizations filing briefs and financing litigation.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">The friction</span>The most contested of the anti-corruption cluster: it regulates the branch that will ultimately rule on its own constitutionality, which is both why it matters and why it is the least durable reform on the board.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Full reform required</b> — party-line, no carve-out</span>
+      <span><span class="k">Enacted</span> <b>93%</b></span>
+      <span><span class="k">Durability</span> Fragile <span class="meter"><i style="width:38%;background:var(--dem)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--care)">Care, health &amp; family</span><span>Bill 06 / 27</span></div>
+    <h2>Permanent Expanded Child Tax Credit</h2>
+    <div class="basis">Makes the 2021 American Rescue Plan CTC permanent</div>
+    <p class="purpose">Restore and lock in the monthly child benefit that cut child poverty nearly in half — the fastest-felt, most legible benefit in the whole program.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Credit amount.</b> $3,600 per child under 6 and $3,000 per child ages 6–17, indexed to inflation.</li>
+      <li><b>Full refundability.</b> Remove the earnings threshold so the lowest-income families receive the full credit — the single most important change, and the one Manchin's work-requirement objection blocked in 2021.</li>
+      <li><b>Monthly delivery.</b> Pay the credit in advance monthly deposits rather than a once-a-year lump sum.</li>
+      <li><b>High-income phase-out.</b> Retain phase-outs at upper incomes so the benefit concentrates on working and middle-class families.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Path &amp; pay-for</span>Rides Reconciliation Package A (FY-29), paired with the billionaire minimum tax as its offset.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Reconciliation · Package A</b></span>
+      <span><span class="k">Enacted</span> <b>94%</b></span>
+      <span><span class="k">Durability</span> Sticky <span class="meter"><i style="width:72%;background:var(--care)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 07 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--care)">Care, health &amp; family</span><span>Bill 07 / 27</span></div>
+    <h2>Universal Pre-K &amp; Child Care Act</h2>
+    <div class="basis">Modeled on the Build Back Better care provisions</div>
+    <p class="purpose">Make child care affordable and pre-K universal — the highest-return social investment in the package, and the slowest to arrive.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>7% cost cap.</b> Cap what families pay for child care at 7% of income on a sliding scale, with care free for the lowest earners.</li>
+      <li><b>Universal pre-K.</b> Fund a federal-state partnership offering voluntary, free pre-K for all 3- and 4-year-olds.</li>
+      <li><b>Supply expansion.</b> Grants for facilities, new providers, and slots to prevent subsidized demand from outrunning supply.</li>
+      <li><b>Workforce.</b> Raise child-care worker wages toward parity with comparably credentialed elementary teachers.</li>
+      <li><b>Head Start alignment.</b> Coordinate and expand Head Start within the new system.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Path &amp; pay-for</span>Rides Reconciliation Package B (FY-30), offset by the corporate and high-income tax package. Watch for near-term child-care price pressure until supply catches up with the new subsidies.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Reconciliation · Package B</b></span>
+      <span><span class="k">Enacted</span> <b>96%</b></span>
+      <span><span class="k">Durability</span> Entrenched <span class="meter"><i style="width:80%;background:var(--care)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 08 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--care)">Care, health &amp; family</span><span>Bill 08 / 27</span></div>
+    <h2>Public Option &amp; Medicare at 55</h2>
+    <div class="basis">Modeled on the Medicare-X and Medicare buy-in proposals</div>
+    <p class="purpose">Add a public plan to every marketplace and lower Medicare's door to age 55, insuring millions while bending the cost curve through public competition.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Public option.</b> A federal public health plan on ACA exchanges in every state, reimbursing providers at Medicare-plus rates.</li>
+      <li><b>Medicare at 55.</b> Lower Medicare eligibility to 55, letting the most expensive pre-retirement cohort buy in.</li>
+      <li><b>Medicare benefit expansion.</b> Add dental, vision, and hearing; a long-term-care framework; and enforced mental-health parity.</li>
+      <li><b>Medicaid completion.</b> A 100% federal match to finish expansion in holdout states (9 of 12 expand), plus permanent enhanced ACA subsidies and auto-enrollment.</li>
+      <li><b>Drug pricing.</b> Expand Medicare negotiation to more drugs, faster, and extend the $35 insulin cap and out-of-pocket limits to all payers.</li>
+      <li><b>Public-health rebuild.</b> Restore and expand NIH and CDC funding; grow community health centers from 32M to 36M patients served.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">The fight</span>Medicare-adjacent reimbursement is a direct revenue hit to hospitals and specialists; expect the industry's full lobbying weight against it even as the coverage gains prove nearly impossible to repeal.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order</b> under full reform</span>
+      <span><span class="k">Enacted</span> <b>97%</b></span>
+      <span><span class="k">Durability</span> Sticky <span class="meter"><i style="width:78%;background:var(--care)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 09 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--econ)">Economy, labor &amp; climate</span><span>Bill 09 / 27</span></div>
+    <h2>Clean Energy Standard &amp; Carbon Dividend Act</h2>
+    <div class="basis">Clean electricity standard + transmission reform + carbon fee-and-dividend</div>
+    <p class="purpose">Drive the grid to 80% clean by 2035, build the wires to carry it, and put a price on carbon whose revenue goes back to households as a check they can see.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Clean electricity standard.</b> 80% clean power by 2035 on a technology-neutral basis (renewables, nuclear, hydro, geothermal, carbon capture), enforced through tradable compliance credits.</li>
+      <li><b>Transmission &amp; the grid.</b> FERC backstop siting authority for interstate lines, interregional transfer minimums, cost-allocation reform, and interconnection-queue overhaul — the binding constraint on the whole transition.</li>
+      <li><b>Carbon fee.</b> An economy-wide, rising fee on carbon at the point of extraction/import, with a border carbon adjustment so importers pay the same price.</li>
+      <li><b>Clean Energy Dividend.</b> Return the majority of net fee revenue to households as an equal, branded, quarterly dividend check; most households in the bottom two-thirds come out ahead.</li>
+      <li><b>Just transition.</b> Direct the remaining revenue to grid resilience, transmission buildout, and a fund for fossil-fuel communities.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Why the dividend matters</span>A clean-electricity mandate has no constituency; a dividend check has millions of names on it. Bolting the dividend on is the one move in the program that deliberately buys the bill its own durability — moving it out of the "regulation a future EPA can gut" category and toward the stickiness of a cash transfer.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Partial reconciliation</b> (fee &amp; dividend) + regular order (standard)</span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:56%;background:var(--econ)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 10 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--econ)">Economy, labor &amp; climate</span><span>Bill 10 / 27</span></div>
+    <h2>PRO Act &amp; Sectoral Bargaining</h2>
+    <div class="basis">Modeled on H.R. 20 / S. 567, combined with sectoral-bargaining and portable-benefits frameworks</div>
+    <p class="purpose">The most consequential rewrite of American labor law since Taft-Hartley — tilting the field back toward workers who want to organize, and opening bargaining beyond the single worksite.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>ABC test.</b> Adopt a federal ABC standard for employee vs. independent-contractor status, nationalizing the gig-classification fight California fought over Prop 22.</li>
+      <li><b>Override right-to-work.</b> Permit fair-share fee agreements, overriding state right-to-work laws.</li>
+      <li><b>Penalties with teeth.</b> Civil penalties and personal liability for executives for unfair labor practices, replacing today's toothless remedies.</li>
+      <li><b>Protect the strike.</b> Ban permanent replacement of strikers; expand secondary and intermittent action; prohibit captive-audience meetings and streamline recognition.</li>
+      <li><b>Sectoral bargaining &amp; portable benefits.</b> Establish sectoral frameworks (restaurant, home care, gig) so wages and standards can be set industry-wide, with benefits that follow the worker between jobs.</li>
+      <li><b>Executive backstop.</b> Paired with NLRB precedent reversals (captive-audience ban, joint-employer, 21-day elections), an OSHA heat standard, and a wage-theft enforcement surge.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order</b> under full reform</span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:45%;background:var(--econ)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 11 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--econ)">Economy, labor &amp; climate</span><span>Bill 11 / 27</span></div>
+    <h2>Living Wage &amp; Small-Business Transition Act</h2>
+    <div class="basis">$17, then indexed to two-thirds of the median · builds on the Raise the Wage Act with EPI/Low Pay Commission design</div>
+    <p class="purpose">Raise the floor to a genuine living wage and keep it there — while giving the small employers and low-wage regions that face the steepest climb a gentler slope, so the tide lifts every boat instead of swamping the smallest.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>$17, then indexed to the median.</b> Raise the federal minimum to $17, then peg it permanently to two-thirds of the national median hourly wage — the benchmark the UK, most of the EU, and the current expert consensus have converged on. It self-adjusts with the economy and never re-erodes the way the frozen $7.25 did.</li>
+      <li><b>A longer runway for small employers.</b> Large firms (500+ workers or $1B+ revenue) reach the floor over five years; the smallest businesses phase in over eight — the thinnest-margin firms get the most time to adjust.</li>
+      <li><b>A regional circuit-breaker.</b> In counties where the scheduled floor would exceed ~60% of the <em>local</em> median — the mostly rural, low-wage markets where the research finds employment effects turn negative — the phase-in automatically extends. Same destination everywhere, a gentler grade where the relative jump is largest, with a hard sunset so it can't calcify into a permanent regional loophole.</li>
+      <li><b>Small-Business Wage Transition Credit.</b> A temporary, refundable payroll-tax credit offsetting a declining share of the added wage cost for small firms during their phase-in — support for small business without a two-tier wage.</li>
+      <li><b>A recession off-ramp.</b> If unemployment crosses an automatic trigger the next scheduled step pauses until conditions normalize, and the annual indexed adjustment is capped — so the floor never rises into a downturn. It never falls, either.</li>
+      <li><b>End the subminimum wages.</b> Phase out the $2.13 tipped wage (over seven years, for restaurant runway), the youth wage, and the 14(c) disability certificate — everyone reaches the same full floor.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Procedural note — a useful split</span>The wage mandate is <b>Byrd-barred</b> (the parliamentarian struck the $15 wage from the 2021 rescue plan), so it needs regular order and full filibuster reform. But the Small-Business Transition Credit is fiscal, so it <b>can</b> ride reconciliation — meaning the cushion for small employers can be locked in even before the mandate clears the floor.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order</b> (wage) + <b>reconciliation</b> (small-business credit)</span>
+      <span><span class="k">Enacted</span> <b>96%</b></span>
+      <span><span class="k">Durability</span> Entrenched <span class="meter"><i style="width:87%;background:var(--econ)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 12 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--econ)">Economy, labor &amp; climate</span><span>Bill 12 / 27</span></div>
+    <h2>Housing Abundance &amp; Supply Act</h2>
+    <div class="basis">Modeled on the Neighborhood Homes and YIMBY-incentive proposals — building on the ROAD to Housing Act, enacted July 2026</div>
+    <p class="purpose">Supply the capital and administrative capacity the 2026 ROAD Act deliberately left out — so three years of zoning and permitting reform finally convert into built housing.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Emergency response.</b> An emergency housing declaration with $85B in rental and construction assistance in the first reconciliation bill.</li>
+      <li><b>LIHTC expansion.</b> Substantially enlarge the Low-Income Housing Tax Credit, add a middle-income credit, and a Neighborhood Homes rehab credit for distressed markets.</li>
+      <li><b>Zoning incentives.</b> Condition a Housing Supply Fund and federal transportation/CDBG dollars on local reforms — by-right multifamily, legalized ADUs, reduced parking minimums.</li>
+      <li><b>Construction &amp; public housing.</b> A $250B mandatory revolving construction-loan fund and the Public Housing Capital Fund raised $3.5B→$9.2B against an $80B repair backlog.</li>
+      <li><b>Vouchers &amp; workforce.</b> 400,000 new Section 8 vouchers toward an entitlement, plus 450,000 construction apprentices.</li>
+      <li><b>HUD capacity.</b> Fund the staffing and operations ROAD never appropriated — the ~35 programs and two unfunded pilots it assigned to a department absorbing a 24% staffing cut — so reforms already on the books can actually be executed.</li>
+      <li><b>Social housing pilot.</b> Seed a mixed-income public development pilot.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Compounding on the ROAD Act</span>The ROAD Act — enacted July 11, 2026 without the President's signature — was the deregulatory half of housing policy with no money attached: zoning and permitting reform, manufactured-housing rules, small-balance mortgages, an institutional-investor limit — and no HUD funding. This bill is the other half. Capital landing on ground already cleared of permitting friction converts to units far more efficiently than a cold start: roughly <b>4–7M additional units over a decade</b> versus ~3–4M without ROAD in place. The old federalism catch — federal dollars can incentivize zoning but not command it — is precisely what ROAD spent three years softening.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order</b> under full reform (recon-eligible core)</span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:55%;background:var(--econ)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 13 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--econ)">Economy, labor &amp; climate</span><span>Bill 13 / 27</span></div>
+    <h2>Antitrust Enforcement &amp; Competition Act</h2>
+    <div class="basis">Modeled on CALERA and the American Innovation and Choice Online Act</div>
+    <p class="purpose">Rewrite merger law for a concentrated economy and fund the enforcers to use it — the one bill on the board with genuine populist-right reach.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Merger standards.</b> Shift the burden to merging parties in large deals, block acquisitions that entrench dominant firms, and lower reporting thresholds.</li>
+      <li><b>Killer acquisitions.</b> Scrutinize a dominant firm's purchase of nascent competitors, and tighten review of vertical and conglomerate mergers.</li>
+      <li><b>Platform conduct.</b> Ban self-preferencing by dominant digital platforms and require interoperability.</li>
+      <li><b>Enforcer capacity.</b> Increase DOJ Antitrust and FTC funding via higher merger-filing fees — the fiscal core that can ride reconciliation.</li>
+      <li><b>Labor markets.</b> Ban most non-compete clauses and revive monopsony and Robinson-Patman enforcement.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Partial reconciliation</b> (enforcement funding) + regular order</span>
+      <span><span class="k">Enacted</span> <b>97%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:50%;background:var(--econ)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 14 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--econ)">Economy, labor &amp; climate</span><span>Bill 14 / 27</span></div>
+    <h2>Junk Fees &amp; Consumer Protection Act</h2>
+    <div class="basis">Codifies the all-in pricing and junk-fee rulemakings</div>
+    <p class="purpose">Kill the hidden fees that ambush people at checkout — low-cost, unusually bipartisan, and felt the moment a customer sees the real price.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>All-in pricing.</b> Require the advertised price to include all mandatory fees — tickets, hotels, and short-term rentals up front.</li>
+      <li><b>Ban surprise fees.</b> Cap or prohibit surprise bank-overdraft charges, high credit-card late fees, airline family-seating fees, and "convenience" surcharges.</li>
+      <li><b>Telecom &amp; cable.</b> Ban undisclosed add-on fees and require clear, itemized billing.</li>
+      <li><b>Click to cancel.</b> Require cancellation to be as easy as sign-up for subscriptions.</li>
+      <li><b>Enforcement.</b> Grant the FTC rulemaking and penalty authority and a consumer private right of action.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order</b> under full reform (bipartisan pool)</span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Sticky <span class="meter"><i style="width:62%;background:var(--econ)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 15 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--safety)">Borders, safety &amp; revenue</span><span>Bill 15 / 27</span></div>
+    <h2>Comprehensive Immigration Reform</h2>
+    <div class="basis">Modeled on the U.S. Citizenship Act framework</div>
+    <p class="purpose">Legalize long-settled residents, clear the backlogs, and rebuild an asylum and border system that actually functions.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Earned citizenship.</b> A pathway for Dreamers, TPS holders, farmworkers, essential workers, and residents with 10+ years and clean records.</li>
+      <li><b>DHS restructuring.</b> Separate customs enforcement (retained) from interior immigration enforcement, replacing the latter with a <b>Humanitarian Processing Service</b>; rebuild USCIS capacity (12,000 hires).</li>
+      <li><b>Asylum overhaul.</b> A 180-day processing timeline with more judges and officers, and expanded alternatives to detention.</li>
+      <li><b>Clear the backlogs.</b> Recapture unused green cards, exempt categories from caps, and cut family- and employment-based wait times.</li>
+      <li><b>Labor pathways.</b> Pair mandatory E-Verify with legalization; expand agricultural and care-worker visas; smart border investment over wall construction.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">The hardest floor vote</span>The most contested regular-order bill after statehood — no reconciliation vehicle to hide behind and real defection risk among border-state and populist-lane members. Long-run fiscal effects of legalization are positive.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order</b> under full reform</span>
+      <span><span class="k">Enacted</span> <b>89%</b></span>
+      <span><span class="k">Durability</span> Entrenched <span class="meter"><i style="width:82%;background:var(--safety)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 16 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--safety)">Borders, safety &amp; revenue</span><span>Bill 16 / 27</span></div>
+    <h2>Universal Background Checks</h2>
+    <div class="basis">Modeled on the Bipartisan Background Checks Act</div>
+    <p class="purpose">Extend the background-check requirement to essentially all firearm sales and close the loopholes that let prohibited buyers slip through.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Universal checks.</b> Require a background check on all firearm sales and transfers, including private and gun-show sales — closing the "private sale loophole."</li>
+      <li><b>Charleston loophole.</b> Extend the NICS review window from 3 to 10 business days so a sale can't default to "proceed" before a check completes.</li>
+      <li><b>Records.</b> Strengthen state and agency reporting into NICS and fund the systems that make it accurate.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order</b> under full reform</span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Sticky <span class="meter"><i style="width:60%;background:var(--safety)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 17 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--rev)">Borders, safety &amp; revenue</span><span>Bill 17 / 27</span></div>
+    <h2>Billionaire Minimum Income Tax</h2>
+    <div class="basis">Modeled on the Billionaire Minimum Income Tax proposal</div>
+    <p class="purpose">Ensure the very wealthiest households pay a minimum rate on all their income — including the paper gains that today go untaxed for a lifetime.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>25% minimum.</b> A 25% minimum tax on total income — including unrealized capital gains — for households worth more than $100 million.</li>
+      <li><b>Mark-to-market.</b> Value tradable assets annually; apply a deferral charge and installment rules to illiquid holdings.</li>
+      <li><b>No double tax.</b> Credit prepaid amounts against future tax on realized gains.</li>
+      <li><b>Enforcement.</b> Fund IRS high-end enforcement and write valuation rules.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">The constitutional exposure</span>Its greatest vulnerability isn't passage — it's the courts. <em>Moore v. United States</em> left the realization question open and several justices signaled interest in striking a tax on unrealized gains. It is the single most legally fragile item in the program: near-certain to pass, one 5–4 opinion from nonexistent. Pairing it with the broader corporate/income raisers (Bill 18) diversifies that risk.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Reconciliation · Package A</b> (offsets the Child Tax Credit)</span>
+      <span><span class="k">Enacted</span> <b>94%</b></span>
+      <span><span class="k">Durability</span> Fragile <span class="meter"><i style="width:25%;background:var(--rev)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 18 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--rev)">Borders, safety &amp; revenue</span><span>Bill 18 / 27</span></div>
+    <h2>Corporate &amp; High-Income Tax Fairness Act</h2>
+    <div class="basis">Modeled on the Biden-era revenue proposals</div>
+    <p class="purpose">Rebuild the revenue base on conventional, court-durable ground — so the program's pay-fors don't rest on a single contested theory.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Corporate rate.</b> Raise the corporate income tax rate from 21% toward 28%.</li>
+      <li><b>Top individual rate.</b> Restore the 39.6% top bracket and add a surtax on the highest incomes.</li>
+      <li><b>Capital gains.</b> Tax capital gains at ordinary rates above a high threshold and limit stepped-up basis at death.</li>
+      <li><b>Carried interest.</b> Close the carried-interest loophole so fund managers' fees are taxed as ordinary income.</li>
+      <li><b>Global &amp; buybacks.</b> Strengthen the global minimum tax, curb inversions, and raise the stock-buyback excise.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Why it matters strategically</span>Unlike the billionaire tax, none of this depends on taxing unrealized gains, so it carries no <em>Moore</em> exposure. It is the durable revenue floor beneath the whole agenda — the offset that survives even if the Court strikes the flashier one.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Reconciliation · Package B</b> (offsets universal child care)</span>
+      <span><span class="k">Enacted</span> <b>96%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:50%;background:var(--rev)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 19 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--dem)">Democracy &amp; anti-corruption</span><span>Bill 19 / 27</span></div>
+    <h2>Puerto Rico Status Act</h2>
+    <div class="basis">Modeled on the Puerto Rico Status Act (H.R. 8393, passed the House in 2022)</div>
+    <p class="purpose">Resolve, at last, the status of 3.2 million American citizens with no voting representation — by letting them decide.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Binding referendum.</b> A federally sponsored plebiscite among statehood, independence, and sovereignty in free association — excluding the current territorial status as an option.</li>
+      <li><b>Congress pre-commits.</b> The Act binds Congress to honor and implement the result, ending the cycle of advisory votes that went nowhere.</li>
+      <li><b>Transition frameworks.</b> Detailed implementation paths for each outcome — citizenship guarantees, fiscal transition, and (if statehood) admission on equal footing.</li>
+      <li><b>Civic education.</b> Funded, neutral voter-education campaigns in Spanish and English ahead of the vote.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Why it pairs with D.C.</span>Together with Douglass Commonwealth, this completes the democracy plank: every American citizen either represented or on a chosen path. Unlike D.C. admission, the Act itself carries some genuine GOP support.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order under full reform (carve-out eligible)</b></span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Entrenched <span class="meter"><i style="width:88%;background:var(--dem)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 20 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--care)">Care, health &amp; family</span><span>Bill 20 / 27</span></div>
+    <h2>Paid Family &amp; Medical Leave</h2>
+    <div class="basis">Modeled on the FAMILY Act</div>
+    <p class="purpose">End America&rsquo;s status as the only wealthy country without national paid leave — twelve weeks, as social insurance, for every worker.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>12 weeks, universal.</b> Paid family and medical leave for birth, adoption, serious illness, caregiving, and military deployment — covering every worker, including self-employed and gig workers.</li>
+      <li><b>Social insurance, not mandate.</b> Financed by a small payroll contribution and paid from a federal trust fund — no per-firm burden, which is what makes it small-business-friendly.</li>
+      <li><b>Progressive wage replacement.</b> Higher replacement rates for lower earners (up to ~85%), phasing down for high earners.</li>
+      <li><b>Job protection.</b> Leave-takers return to their position; retaliation prohibited.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">The missing care pillar</span>Childcare handles the working years&rsquo; beginning; this handles every family emergency in between. Fully fiscal, so it rides reconciliation — no filibuster exposure at all.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Reconciliation</b></span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Entrenched <span class="meter"><i style="width:78%;background:var(--care)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 21 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--care)">Care, health &amp; family</span><span>Bill 21 / 27</span></div>
+    <h2>Social Security Expansion Act</h2>
+    <div class="basis">Modeled on the Social Security 2100 Act and Social Security Expansion Act</div>
+    <p class="purpose">The first benefit increase in over half a century, paid for by asking earnings above $250,000 to contribute like everyone else&rsquo;s.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Across-the-board increase.</b> Raise benefits for all current and future beneficiaries, with a stronger minimum benefit lifting long-career low earners above poverty.</li>
+      <li><b>An honest elderly index.</b> Switch cost-of-living adjustments to CPI-E, which tracks what seniors actually buy — chiefly health care.</li>
+      <li><b>Lift the cap.</b> Apply payroll contributions to earnings above $250,000, closing the gap through which the highest earners stop contributing in February.</li>
+      <li><b>Solvency extension.</b> The revenue provisions extend trust-fund solvency for decades while funding the expansion.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">A second Byrd-style wall</span>Section 310(g) of the Budget Act bars any Social Security change from reconciliation outright. Like the living wage, this lives or dies on the floor — full filibuster reform is what makes it possible.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order only — &sect;310(g) bars reconciliation</b></span>
+      <span><span class="k">Enacted</span> <b>99%</b></span>
+      <span><span class="k">Durability</span> Entrenched <span class="meter"><i style="width:92%;background:var(--care)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 22 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--safety)">Rights, justice &amp; security</span><span>Bill 22 / 27</span></div>
+    <h2>Reproductive Freedom Act</h2>
+    <div class="basis">Modeled on the Women&rsquo;s Health Protection Act, with contraception and IVF protections</div>
+    <p class="purpose">Restore, in statute, the protections <em>Dobbs</em> erased — and shield the patients and providers the post-<em>Dobbs</em> landscape has criminalized.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Codify Roe.</b> A federal statutory right to abortion care before viability, and after when health is at risk — preempting state bans, grounded in the commerce power.</li>
+      <li><b>Contraception &amp; IVF.</b> Explicit federal protection for contraception access and fertility treatment against state restriction.</li>
+      <li><b>Shield laws.</b> Protect interstate travel for care, and shield patients, providers, and helpers from cross-state prosecution and data-driven surveillance.</li>
+      <li><b>Clinic access.</b> Strengthen FACE Act enforcement and telehealth access for medication abortion.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">The glaring omission, fixed</span>No progressive agenda written after 2022 is complete without this. It will be litigated immediately — the commerce-power basis is real, but the current Court is the current Court — which is why the durability score is honest rather than hopeful.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order under full reform</b></span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Fragile <span class="meter"><i style="width:38%;background:var(--safety)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 23 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--safety)">Rights, justice &amp; security</span><span>Bill 23 / 27</span></div>
+    <h2>Equality Act</h2>
+    <div class="basis">Modeled on H.R. 15, codifying and extending <em>Bostock</em></div>
+    <p class="purpose">Write LGBTQ+ Americans into the Civil Rights Act — fully, explicitly, and in every domain of public life.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Full civil-rights coverage.</b> Add sexual orientation and gender identity to federal protections in employment, housing, credit, education, jury service, and public accommodations.</li>
+      <li><b>Modernize public accommodations.</b> Update the 1964 Act&rsquo;s definition to cover retail, transportation, and online services — for every protected class.</li>
+      <li><b>Codify Bostock.</b> Convert the Court&rsquo;s employment holding into explicit statute the Court cannot quietly narrow.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order under full reform</b></span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Sticky <span class="meter"><i style="width:65%;background:var(--safety)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 24 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--safety)">Rights, justice &amp; security</span><span>Bill 24 / 27</span></div>
+    <h2>Justice &amp; Public Safety Reform Act</h2>
+    <div class="basis">Modeled on the MORE Act, First Step Act follow-ons, and the George Floyd Justice in Policing Act</div>
+    <p class="purpose">Unwind the machinery of mass incarceration where the federal government controls it — and make policing accountable where it doesn&rsquo;t.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Cannabis legalization.</b> Federal descheduling with automatic expungement of federal cannabis records, resentencing, and reinvestment in the communities most harmed by enforcement.</li>
+      <li><b>Sentencing reform.</b> Retroactive crack-powder parity, mandatory-minimum relief with judicial discretion, and expanded compassionate release.</li>
+      <li><b>Policing standards.</b> Qualified-immunity reform, a national misconduct/decertification registry, use-of-force standards for federal officers, and conditioned grants for state adoption.</li>
+      <li><b>Reentry.</b> Ban-the-box in federal hiring and contracting; restored access to benefits, housing, and student aid after release.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">The crossover surprise</span>Cannabis brings genuine libertarian-right votes even as the policing provisions repel them — the model prices real tough-on-crime defection among frontline members, making this one of the harder floor votes despite polling well.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order under full reform</b></span>
+      <span><span class="k">Enacted</span> <b>95%</b></span>
+      <span><span class="k">Durability</span> Sticky <span class="meter"><i style="width:70%;background:var(--safety)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 25 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--care)">Rights, justice &amp; security</span><span>Bill 25 / 27</span></div>
+    <h2>Education &amp; Opportunity Act</h2>
+    <div class="basis">Title I / IDEA / Pell / student-loan provisions of the unified agenda</div>
+    <p class="purpose">Fund, at last, the promises federal education law has carried for fifty years — and lower the price of the credential the economy demands.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Title I doubled.</b> From $11.2B to $26B by Year 3, concentrated on high-poverty schools.</li>
+      <li><b>The IDEA promise.</b> A statutory glide path to the full 40% federal share of special-education costs Congress pledged in 1975 and never paid.</li>
+      <li><b>Pell to $9,500.</b> A ~$2,100 increase in the maximum award, indexed forward.</li>
+      <li><b>Loan relief that works.</b> SAVE-plan restoration and PSLF timeline repair for public servants.</li>
+    </ul>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Reconciliation</b></span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Sticky <span class="meter"><i style="width:65%;background:var(--care)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 26 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--safety)">Rights, justice &amp; security</span><span>Bill 26 / 27</span></div>
+    <h2>Veterans Health &amp; Capacity Act</h2>
+    <div class="basis">VA capacity provisions of the unified agenda</div>
+    <p class="purpose">Deliver the care already promised — faster, closer to home, and with the mental-health workforce the mission requires.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>12,000 clinicians.</b> A dedicated VA mental-health hiring and retention surge.</li>
+      <li><b>Claims overhaul.</b> Backlog reduction toward a 125-day decision target, with automation and staffing.</li>
+      <li><b>Rural access.</b> Community-care expansion where VA facilities are distant.</li>
+      <li><b>Outcome target.</b> Veteran suicide down 12% from peak by Year 3 in the modeled program.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">The most bipartisan bill on the board</span>With heavy Republican crossover, this is the one bill that sometimes clears even a 60-vote threshold — the model shows it surviving a carve-out world about half the time.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Reconciliation (broad bipartisan support)</b></span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Entrenched <span class="meter"><i style="width:90%;background:var(--safety)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- 27 -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--safety)">Rights, justice &amp; security</span><span>Bill 27 / 27</span></div>
+    <h2>War Powers &amp; Iran Accountability Act</h2>
+    <div class="basis">The war-powers and Iran-transition framework of the unified agenda</div>
+    <p class="purpose">Return the war power to the branch the Constitution gave it — and wind down the inherited conflict under law rather than improvisation.</p>
+    <div class="prov-h">Key provisions</div>
+    <ul>
+      <li><b>Notification framework.</b> First-ever statutory requirement of congressional notification before military strikes, with defined emergency exceptions.</li>
+      <li><b>AUMF sunsets.</b> Automatic expiration of use-of-force authorizations absent reauthorization, ending the era of forever-war authorities.</li>
+      <li><b>The Iran architecture.</b> Codify the ceasefire framework (Gulf Cooperation Council monitoring) and the successor nuclear-oversight regime replacing the collapsed JCPOA.</li>
+      <li><b>War-powers enforcement.</b> Expedited judicial review and funding cut-offs as the compliance mechanism.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Constitutional crossover</span>War-powers reform draws the anti-interventionist right; the model gives it real GOP crossover. Its durability question is unique: statutes constraining the executive endure only as well as the next executive&rsquo;s compliance.</div>
+    <div class="foot">
+      <span><span class="k">Path</span> <b>Regular order under full reform</b></span>
+      <span><span class="k">Enacted</span> <b>100%</b></span>
+      <span><span class="k">Durability</span> Contested <span class="meter"><i style="width:45%;background:var(--safety)"></i></span></span>
+    </div>
+  </section>
+
+  <!-- BEYOND THE CORE -->
+  <section class="sheet">
+    <div class="head"><span class="cat" style="color:var(--slate)">Beyond the legislative core</span><span>Appendix</span></div>
+    <h2>The Rest of the Unified Agenda</h2>
+    <div class="basis">Measures that sit outside the eighteen-bill passage model — executive action, appointments, constitutional amendment, and new domains</div>
+    <p class="purpose">The war game models the twenty-seven headline legislative fights. The unified Ossoff–Moore program is wider than that; these measures move by other means and belong to the whole even though they never face a cloture vote.</p>
+    <div class="prov-h">Executive &amp; institutional</div>
+    <ul>
+      <li><b>Day-1 Government Ethics EO &amp; FEC restructuring.</b> Divestiture and blind-trust mandates by order; independent FEC commissioners to break the 3–3 deadlock. <em>(Folded into Bill 04.)</em></li>
+      <li><b>Citizens United constitutional amendment.</b> A decade-long ratification campaign — 28 of 38 states by Year 3, including first Republican chambers. <em>(2/3 of Congress + 38 states, not a cloture vote.)</em></li>
+      <li><b>NLRB / OSHA action &amp; AI governance.</b> Precedent reversals, a heat standard, and an OSTP AI Safety Framework with platform-antitrust and FCC deepfake rules.</li>
+    </ul>
+    <div class="prov-h">Foreign-policy reconstruction beyond the War Powers Act</div>
+    <ul>
+      <li><b>Civilian power rebuilt.</b> USAID reconstructed from the studs ($12B emergency funding; staffing 800→8,000) under a democracy-as-foreign-policy framework.</li>
+      <li><b>Alliances &amp; competition.</b> NATO Article 5 recommitment, career diplomats over donor appointees, and managed competition with China — cooperation on climate and nuclear stability, firmness on Taiwan and trade.</li>
+    </ul>
+    <div class="payfor"><span class="pf-h">Why they're not modeled here</span>A passage simulator prices cloture and reconciliation math. Executive orders, appointments, and constitutional amendments don't face that math, and foreign-policy reconstruction runs on different levers — so they're catalogued rather than scored. See the unified-agenda companion for the full program and its sequencing.</div>
+    <div class="foot">
+      <span><span class="k">Scope</span> <b>Wider Ossoff–Moore program</b></span>
+      <span><span class="k">Core modeled</span> <b>27 bills · ~26.3 enacted</b></span>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

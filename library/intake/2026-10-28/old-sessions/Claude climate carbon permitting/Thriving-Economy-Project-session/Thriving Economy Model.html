@@ -1,0 +1,563 @@
+<title>Thriving Economy Model</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: summary tiles across the top; levers (left) drive a sticky contribution panel (right); method notes at the foot. */
+:root{
+  --bg:#F3F5F4; --surface:#FFFFFF; --ink:#14201B; --muted:#5A6A63; --line:#D6DED9;
+  --accent:#1D6A55; --accent-soft:#E0EDE8; --cost:#9A5419; --cost-soft:#F5E8DC; --bad:#B03A3A;
+  --s1:#2F5E8C; --s2:#8A5A9E; --s3:#1D6A55;
+  --sans:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0E1412; --surface:#151E1B; --ink:#E4ECE8; --muted:#92A29B; --line:#28342F;
+  --accent:#5DC4A3; --accent-soft:#1A2F28; --cost:#E2A46C; --cost-soft:#33261A; --bad:#EB7B7B;
+  --s1:#7FAEE0; --s2:#C49BD6; --s3:#5DC4A3; color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --bg:#0E1412; --surface:#151E1B; --ink:#E4ECE8; --muted:#92A29B; --line:#28342F;
+  --accent:#5DC4A3; --accent-soft:#1A2F28; --cost:#E2A46C; --cost-soft:#33261A; --bad:#EB7B7B;
+  --s1:#7FAEE0; --s2:#C49BD6; --s3:#5DC4A3; color-scheme:dark; }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:20px;padding-block:28px 64px;display:grid;gap:28px}
+header{display:grid;gap:10px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{margin:0;font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;text-wrap:balance}
+.dek{margin:0;max-width:68ch;color:var(--muted)}
+.presets{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.presets .lbl{font-size:13px;color:var(--muted);margin-right:4px}
+button{font:inherit;cursor:pointer}
+.chip-btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600}
+.chip-btn:hover{border-color:var(--accent)}
+.chip-btn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+button:focus-visible,input:focus-visible+.sw,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:4px;align-content:start}
+.tile .k{font-size:12.5px;font-weight:600;color:var(--muted);letter-spacing:.02em}
+.tile .v{font-family:var(--mono);font-size:30px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1.15}
+.tile .v small{font-size:14px;font-weight:500;color:var(--muted);margin-left:4px;letter-spacing:0}
+.tile .r{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.tile .sub{font-size:13px;color:var(--ink);margin-top:4px}
+.tile.good .v{color:var(--accent)} .tile.costv .v{color:var(--cost)}
+.meter{height:6px;border-radius:3px;background:var(--line);position:relative;overflow:hidden;margin-top:6px}
+.meter span{position:absolute;top:0;bottom:0;left:0;background:var(--accent);border-radius:3px}
+.meter i{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--muted)}
+.main{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:24px;align-items:start}
+.groups{display:grid;gap:18px}
+.group{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.ghead{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.ghead h2{margin:0;font-size:15px;font-weight:700}
+.ghead .gsum{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.ghead button{border:none;background:none;color:var(--accent);font-size:12.5px;font-weight:600;padding:2px 4px}
+.lever{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.lever:last-child{border-bottom:none}
+.lever.off .ltitle,.lever.off .vals{opacity:.5}
+.tg{position:relative;display:inline-block;width:38px;height:22px;margin-top:2px}
+.tg input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer;z-index:1}
+.sw{position:absolute;inset:0;border-radius:999px;background:var(--line);transition:background .15s}
+.sw::after{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:var(--surface);box-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform .15s}
+.tg input:checked+.sw{background:var(--accent)}
+.tg input:checked+.sw::after{transform:translateX(16px)}
+.ltitle{font-weight:600;font-size:14.5px;line-height:1.35}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:4px;font-size:12px;color:var(--muted)}
+.pill{font-family:var(--mono);font-size:11px;font-weight:600;border-radius:4px;padding:1px 6px;border:1px solid currentColor}
+.pill.st1{color:var(--s1)} .pill.st2{color:var(--s2)} .pill.st3{color:var(--s3)}
+.pill.conf{color:var(--muted)}
+.vals{grid-column:2;display:flex;flex-wrap:wrap;gap:4px 14px;font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.vals b{color:var(--ink);font-weight:600}
+details{grid-column:2;font-size:13px;color:var(--muted)}
+details summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:12.5px;width:max-content}
+details p{margin:6px 0 0;max-width:72ch}
+.panel{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:14px;max-height:calc(100vh - 24px);overflow:auto}
+.panel h2{margin:0;font-size:15px;font-weight:700}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg .chip-btn{padding:4px 10px;font-size:12px}
+.bars{display:grid;gap:7px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px;font-size:12.5px}
+.bar .nm{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar .num{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--muted)}
+.bar .track{grid-column:1/-1;height:8px;background:var(--bg);border-radius:4px;position:relative;overflow:hidden}
+.bar .fill{position:absolute;top:0;bottom:0;left:0;border-radius:4px;background:var(--accent)}
+.bar .fill.neg{background:var(--cost)}
+.empty{font-size:13px;color:var(--muted)}
+.inter{display:grid;gap:8px;border-top:1px solid var(--line);padding-top:12px}
+.inter h3{margin:0;font-size:13px;font-weight:700}
+.irow{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;font-size:12.5px;align-items:start}
+.dot{width:9px;height:9px;border-radius:50%;margin-top:5px;background:var(--line)}
+.dot.ok{background:var(--accent)} .dot.warn{background:var(--cost)}
+.method{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;display:grid;gap:10px}
+.method h2{margin:0;font-size:17px}
+.method ul{margin:0;padding-left:18px;display:grid;gap:6px;max-width:90ch;font-size:13.5px}
+.method p{margin:0;max-width:90ch;font-size:13.5px;color:var(--muted)}
+@media (max-width:900px){ .main{grid-template-columns:minmax(0,1fr)} .panel{position:static;max-height:none} .tiles{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:520px){ .tiles{grid-template-columns:minmax(0,1fr)} .wrap{padding-inline:16px} }
+@media (prefers-reduced-motion:reduce){ .sw,.sw::after{transition:none} }
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">SEEC Institute Thriving Economy Project · effects model · 2035 horizon</div>
+    <h1>Thriving Economy Model</h1>
+    <p class="dek">Turn the agenda's 32 policy levers on or off to see their projected effect on emissions, household energy bills, the federal budget, clean power, avoided climate damages and jobs. Effects are measured against current law after the 2025 budget law (OBBBA), with most trifecta items assumed enacted in 2029.</p>
+    <div class="presets" role="group" aria-label="Scenarios">
+      <span class="lbl">Scenario</span>
+      <button class="chip-btn" data-preset="all" id="p-all">Full agenda</button>
+      <button class="chip-btn" data-preset="s1" id="p-s1">Stage 1: law under Trump</button>
+      <button class="chip-btn" data-preset="s12" id="p-s12">Stage 1 + House contrast bills</button>
+      <button class="chip-btn" data-preset="s3" id="p-s3">Trifecta package only</button>
+      <button class="chip-btn" data-preset="none" id="p-none">Clear all</button>
+    </div>
+  </header>
+
+  <section class="tiles" aria-label="Headline effects" id="tiles"></section>
+
+  <div class="main">
+    <div class="groups" id="groups"></div>
+    <aside class="panel" aria-label="Contributions">
+      <h2>What drives the total</h2>
+      <div class="seg" role="group" aria-label="Metric" id="seg"></div>
+      <div class="bars" id="bars"></div>
+      <div class="inter">
+        <h3>Interactions in play</h3>
+        <div id="inter"></div>
+      </div>
+    </aside>
+  </div>
+
+  <section class="method">
+    <h2>How the model works</h2>
+    <p>This is a light, transparent model: each lever carries a central 2035 estimate per metric, anchored where possible to published modeling, then combined with four interaction rules. Treat outputs as order-of-magnitude planning numbers, not a score.</p>
+    <ul>
+      <li><b>Baseline.</b> Current-policy 2035 net emissions of 4,650 Mt CO2e, about 30% below 2005 (6,635 Mt), consistent with post-OBBBA projections from Rhodium (27–44% below 2005 in 2035) and REPEAT.</li>
+      <li><b>Restoring repealed credits.</b> REPEAT estimates OBBBA adds ~470 Mt in 2035, ~$280 a year to household energy costs and ~300 GW of lost wind and solar. Restoration in 2029 is assumed to recover ~65% of that by 2035, split across the electricity, household and EV levers.</li>
+      <li><b>Transmission interaction.</b> REPEAT found that if transmission grows only at its historical ~1% a year, most of the IRA's potential emissions cuts are lost. Here, clean-power levers deliver 60% of their effect with neither the permitting deal nor the transmission credit, 85% with permitting only, 75% with the credit only, and 100% with both.</li>
+      <li><b>Delivery interaction.</b> Grant and program levers deliver 85% of their effect and spending without the Chapter 9 funds-delivery rules, reflecting 2025–26 cancellations and DOE's slow IIJA execution.</li>
+      <li><b>EV pairing.</b> Consumer EV credits and freight electrification each get 10% more abatement when both are on (shared charging build-out).</li>
+      <li><b>Overlap.</b> Combined emissions cuts and combined bill savings are discounted for diminishing returns (scale 2,600 Mt and $1,500 per household), since several levers chase the same tons and the same utility costs.</li>
+      <li><b>Ranges.</b> Each lever has a confidence grade (H ±20%, M ±40%, L ±65%); ranges combine them as independent errors. Most House contrast bills and new mandates are graded L.</li>
+      <li><b>Metrics.</b> Bills are the average across 132M households in 2035, against roughly $2,150 a year in energy spending. Federal cost is FY2029–38 (Stage 1 items are counted in the same window for comparability). Jobs are gross job-years supported by investment and program spending at 4 per $1M, averaged over 2029–35, not net employment. Damages avoided cover disaster, infrastructure and health losses; the global climate benefit uses EPA's 2023 social cost of carbon ($190/t).</li>
+      <li><b>Not modeled.</b> Macroeconomic feedback, energy-price effects of lower demand, state policy responses, and items without a quantifiable 2035 effect (most Tribal sovereignty, data and institutional reforms).</li>
+    </ul>
+    <p>Sources: REPEAT Project OBBBA analysis (July 2025); Rhodium Group projections; EPA GHG Inventory and 2023 methane rule RIA; Brattle; NIBS Natural Hazard Mitigation Saves; FEMA Building Codes Save; Climate Leadership Council; SEEC Institute Thriving Economy Project (2026). Each lever's notes name its specific anchor.</p>
+  </section>
+</div>
+<script>
+// Thriving Economy Model — data and engine. Effects are 2035 annual values except cost (FY2029–38) and investment (2029–35 cumulative).
+const BASE = {
+  net2005: 6635,      // EPA GHG Inventory, 2005 net emissions, Mt CO2e
+  base2035: 4650,     // current-policy 2035 net emissions after OBBBA (~30% below 2005; midpoint of Rhodium/REPEAT post-OBBBA ranges)
+  households: 132,    // millions of U.S. households
+  scc: 190,           // EPA 2023 social cost of carbon, $/t (2020$), for the monetized climate benefit line
+  jobYearsPerM: 4,    // gross job-years per $1M of investment and program spending
+  years: 7,           // 2029–2035
+  dimCap: 2600,       // diminishing-returns scale for combined abatement, Mt
+  billCap: 1500,      // diminishing-returns scale for overlapping household bill savings, $/household
+  baseBill: 2150,     // average household energy spending in 2035 under current policy (REPEAT: +$280 = ~13%)
+  realizeOff: 0.85    // share of grant/spending programs delivered without funds-delivery protections
+};
+
+const GROUPS = [
+  ["power", "Power & grid"],
+  ["homes", "Homes & household bills"],
+  ["transport", "Transportation"],
+  ["industry", "Industry, fuels & supply chains"],
+  ["finance", "Finance & states"],
+  ["land", "Agriculture, lands & ecosystems"],
+  ["resilience", "Resilience, insurance & health"],
+  ["gov", "Government that delivers"]
+];
+
+// mt: change in 2035 emissions (Mt CO2e/yr, negative = cut); bills: $/household/yr in 2035 (negative = savings);
+// cost: federal 10-yr cost FY2029–38 ($B, negative = net revenue); gw: clean capacity added by 2035;
+// dmg: climate/disaster/health damages avoided in 2035 ($B/yr); inv: investment + program spending 2029–35 ($B).
+// conf: H/M/L. spend: delivery depends on federal grant/program execution. tx: power-sector effect depends on transmission.
+const LEVERS = [
+  {id:"cleanElec", g:"power", stage:3, name:"Restore and extend clean electricity credits (45Y/48E)", veh:"Trifecta reconciliation",
+   mt:-215, bills:-140, cost:310, gw:180, dmg:0, inv:600, conf:"M", tx:true,
+   basis:"REPEAT estimates OBBBA's credit repeal adds ~470 Mt in 2035, ~$280/household/yr in energy costs and ~300 GW of lost wind and solar. Restoring in 2029 recovers an assumed ~65% of that by 2035; this lever carries the power-sector share. Values assume adequate transmission (see interactions).",
+   src:"REPEAT Project, OBBBA analysis (July 2025); JCT-scale credit costs"},
+  {id:"permit", g:"power", stage:1, name:"Senate permitting deal: FERC line siting, interregional planning, interconnection", veh:"2026 lame duck / 2027 permitting package",
+   mt:-30, bills:-20, cost:3, gw:50, dmg:0, inv:150, conf:"L",
+   basis:"Direct effect from faster interconnection and new interregional lines, net of a modest increase from faster fossil permitting. Its larger effect runs through the transmission interaction on clean-power levers.",
+   src:"Report Ch. 5 & 9; LBNL interconnection queue data (1,312 GW waiting); REPEAT transmission analysis"},
+  {id:"txITC", g:"power", stage:3, name:"30% transmission investment credit + Transmission Facilitation Program", veh:"Trifecta reconciliation + appropriations",
+   mt:-40, bills:-25, cost:40, gw:40, dmg:0, inv:120, conf:"M",
+   basis:"Lowers the cost of interregional lines and reconductoring; congestion costs consumers $12B+ a year (report Ch. 5). Strengthens the transmission interaction.",
+   src:"Report Ch. 5, 8; ACORE transmission ITC proposal"},
+  {id:"gridUtil", g:"power", stage:1, name:"Get more from the existing grid: utilization data, GETs, reconductoring, VPPs", veh:"Permitting package / standalone",
+   mt:-15, bills:-30, cost:10, gw:30, dmg:0, inv:40, conf:"M",
+   basis:"Brattle estimates better use of the existing grid saves consumers $100B+ over a decade (~$10B/yr); residential share spread over 132M households is ~$30.",
+   src:"Brattle, \"The Untapped Grid\" (2026), cited in report Ch. 5"},
+  {id:"dcFloor", g:"power", stage:2, name:"Data centers pay their way: ratepayer floor + clean behind-the-meter power", veh:"House contrast bill → trifecta",
+   mt:-15, bills:-55, cost:0, gw:0, dmg:0, inv:0, conf:"L",
+   basis:"Studies project data-center load could raise average bills ~8% by 2030 (~$145/yr). Assumes a federal floor prevents roughly a third of that shift, and the clean behind-the-meter rule avoids some new gas burn.",
+   src:"Report Ch. 5; Carnegie Mellon/NC State data-center bill projections"},
+  {id:"electron", g:"power", stage:3, name:"Electron Accelerator: data-center fee-and-rebate for 24/7 clean power", veh:"Trifecta reconciliation",
+   mt:-50, bills:0, cost:0, gw:35, dmg:0, inv:150, conf:"L", tx:true,
+   basis:"Revenue-neutral feebate pulls geothermal, nuclear and long-duration storage onto AI load. Effect scales with data-center growth.",
+   src:"Report Ch. 5, Benchmark 5.4"},
+  {id:"cleanFirm", g:"power", stage:1, name:"Clean firm power & innovation: nuclear licensing, geothermal, demos, loan reform", veh:"Standalone bills / NDAA / appropriations",
+   mt:-25, bills:-5, cost:45, gw:15, dmg:0, inv:120, conf:"L", spend:true,
+   basis:"First commercial advanced nuclear and enhanced geothermal units by the early 2030s; most of the payoff lands after 2035.",
+   src:"Report Ch. 6; ADVANCE Act; DOE Liftoff reports"},
+  {id:"utilReform", g:"power", stage:2, name:"Utility accountability & performance-based ratemaking", veh:"House contrast bill → 60-vote structural law",
+   mt:-10, bills:-25, cost:2, gw:0, dmg:0, inv:0, conf:"L",
+   basis:"Assumes ~50 basis points lower allowed equity returns, no ratepayer-funded lobbying or excess executive pay, and incentives to cut costs rather than grow rate base.",
+   src:"Report Ch. 5 & 8; state precedents (MD, CO, CT, ME)"},
+
+  {id:"hhCredits", g:"homes", stage:3, name:"Restore home efficiency & rooftop solar credits (25C/25D), refundable at point of sale", veh:"Trifecta reconciliation",
+   mt:-20, bills:-15, cost:75, gw:15, dmg:0, inv:90, conf:"M",
+   basis:"Part of the REPEAT OBBBA delta. Refundability widens uptake to lower-income households. Bill figure is the all-household average; participants save far more.",
+   src:"REPEAT; JCT-scale costs; report Ch. 8"},
+  {id:"efficiency", g:"homes", stage:3, name:"Efficiency: national efficiency standard, appliance standards, LIHEAP & weatherization", veh:"Reconciliation (spending) + 60-vote (standards)",
+   mt:-60, bills:-70, cost:70, gw:0, dmg:0, inv:150, conf:"M", spend:true,
+   basis:"26 states already run energy efficiency resource standards; a national floor plus updated appliance standards and expanded LIHEAP/WAP. Bill savings are averaged over all households.",
+   src:"ACEEE state EERS evidence; DOE appliance standards program; report Ch. 3 & 5"},
+  {id:"freeHours", g:"homes", stage:2, name:"Two free hours of electricity a day (national time-of-use)", veh:"House contrast bill",
+   mt:-5, bills:-15, cost:0, gw:0, dmg:0, inv:0, conf:"L",
+   basis:"Modeled on Australia's Solar Sharer. Net savings come from moving load into solar hours and trimming evening peaks; part of the free window is recovered in other hours.",
+   src:"Report Ch. 5; Australian DCCEEW"},
+
+  {id:"evCredits", g:"transport", stage:3, name:"Restore EV credits (30D, 25E, 45W) and charging credit (30C)", veh:"Trifecta reconciliation",
+   mt:-50, bills:-25, cost:190, gw:0, dmg:0, inv:250, conf:"M",
+   basis:"Transport share of the REPEAT OBBBA delta, discounted for slow fleet turnover. Fuel savings averaged over all households.",
+   src:"REPEAT; JCT-scale costs; report Ch. 3, 5, 8"},
+  {id:"hdFreight", g:"transport", stage:3, name:"Heavy-duty & fleet credit + freight electrification corridors", veh:"Reconciliation + surface transportation",
+   mt:-20, bills:-5, cost:35, gw:0, dmg:0, inv:50, conf:"L",
+   basis:"Shared charging hubs along freight corridors (I-95 Clean Corridor model) plus a technology-neutral truck credit.",
+   src:"Report Ch. 5 & 8"},
+  {id:"transitRes", g:"transport", stage:1, name:"Surface transportation wins: restore PROTECT & transit, TIFIA/RRIF fixes", veh:"2026 lame duck / surface transportation bill",
+   mt:-5, bills:-5, cost:40, gw:0, dmg:3, inv:60, conf:"L", spend:true,
+   basis:"Restores the resilience and transit money the House bill cuts. Main payoff is avoided transportation damage, not emissions.",
+   src:"Report Ch. 3; NIBS mitigation benefit-cost ratios"},
+  {id:"rail", g:"transport", stage:3, name:"High-Performance Rail Network down payment", veh:"Trifecta reconciliation / 2031 reauthorization",
+   mt:-8, bills:-5, cost:90, gw:0, dmg:0, inv:110, conf:"L", spend:true,
+   basis:"Construction mostly lands after 2035; emissions effect by 2035 is small.",
+   src:"Report Ch. 3, Benchmark 3.3"},
+
+  {id:"methane", g:"industry", stage:3, name:"Methane standards & fee for oil and gas", veh:"Reconciliation (fee) + regulation",
+   mt:-120, bills:5, cost:-20, gw:0, dmg:0, inv:20, conf:"M",
+   basis:"EPA's 2023 methane rule projected ~58 Mt of methane avoided over 2024–38 (~1.5 Gt CO2e), roughly 100–130 Mt CO2e a year by the mid-2030s. Restoring standards plus a fee recovers most of that.",
+   src:"EPA 2023 oil and gas methane rule RIA; report Ch. 5 & 7"},
+  {id:"gbam", g:"industry", stage:3, name:"Carbon border adjustment + industrial emissions standards", veh:"Reconciliation (revenue) + 60-vote (standards)",
+   mt:-60, bills:5, cost:-150, gw:0, dmg:0, inv:30, conf:"L",
+   basis:"Climate Leadership Council estimates a U.S. border adjustment raises $120–240B over 10 years. Domestic steel, cement, fertilizer and chemicals standards drive the emissions cut.",
+   src:"Climate Leadership Council, cited in report Ch. 7"},
+  {id:"materials", g:"industry", stage:3, name:"Low-carbon steel & cement: federal procurement + production incentive", veh:"Reconciliation",
+   mt:-25, bills:0, cost:30, gw:0, dmg:0, inv:40, conf:"L",
+   basis:"Restores the IRA Buy Clean money OBBBA repealed and adds an output-based incentive.",
+   src:"Report Ch. 3 & 6"},
+  {id:"mfg", g:"industry", stage:3, name:"Manufacturing credits: expand 45X and 48C (transformers, magnets, storage, wind)", veh:"Reconciliation",
+   mt:-5, bills:-10, cost:90, gw:10, dmg:0, inv:200, conf:"M",
+   basis:"Eases the transformer and switchgear bottleneck that raises grid costs; IRA-era 45X drew $115B of manufacturing investment in under three years.",
+   src:"Report Ch. 5 & 8; Clean Investment Monitor"},
+  {id:"minerals", g:"industry", stage:1, name:"Critical minerals: price floors, federal offtake, recycling, Office of Global Energy Security", veh:"Standalone / NDAA",
+   mt:0, bills:0, cost:25, gw:0, dmg:0, inv:60, conf:"L", spend:true,
+   basis:"A supply-security lever: few direct emissions or bill effects by 2035, but it underwrites the manufacturing levers.",
+   src:"Report Ch. 7; USGS 2025 import reliance"},
+  {id:"cdr", g:"industry", stage:1, name:"Carbon removal procurement + CO2 pipeline & storage rules", veh:"Permitting package / appropriations",
+   mt:-15, bills:0, cost:20, gw:0, dmg:0, inv:40, conf:"L",
+   basis:"Reverse auctions and multi-year offtake for durable removal, plus Class VI and PHMSA rules that make 45Q projects bankable.",
+   src:"Report Ch. 6"},
+  {id:"exports", g:"industry", stage:2, name:"LNG export price test + fuel export safety valve", veh:"House contrast bill",
+   mt:5, bills:-25, cost:0, gw:0, dmg:0, inv:-20, conf:"L",
+   basis:"Lower, steadier domestic gas prices help bills; slower export growth costs some investment and jobs, and cheaper gas slightly raises domestic use.",
+   src:"Report Ch. 5 (60% wholesale gas price rise 2024–25)"},
+  {id:"windfall", g:"industry", stage:2, name:"Windfall-profits tax funding a Strategic Energy Affordability Reserve", veh:"House contrast bill → reconciliation",
+   mt:0, bills:-20, cost:0, gw:0, dmg:0, inv:0, conf:"L",
+   basis:"Revenue roughly equals relief paid out over a price cycle, so net federal cost is ~zero. Bill relief is averaged across years with and without price spikes.",
+   src:"Report Ch. 5"},
+
+  {id:"srf", g:"finance", stage:3, name:"Clean Energy State Revolving Fund, green banks, GGRF & CPRG recapitalization", veh:"Reconciliation",
+   mt:-40, bills:-10, cost:60, gw:10, dmg:0, inv:180, conf:"L", spend:true,
+   basis:"Revolving capital leverages private money roughly 3:1 (CWSRF turned $62B federal into $194B lent). CPRG drew $30B+ in requests for $4.5B.",
+   src:"EPA CWSRF; report Ch. 8 & 9"},
+
+  {id:"agFarmBill", g:"land", stage:1, name:"Farm bill: conservation access, nitrogen program, crop-insurance reform", veh:"Farm bill",
+   mt:-15, bills:0, cost:15, gw:0, dmg:1, inv:20, conf:"L", spend:true,
+   basis:"N2O from fertilizer and enteric methane are ~80% of farm emissions; tiered nitrogen payments and soil-health practices cut both and reduce drought losses.",
+   src:"Report Ch. 1"},
+  {id:"agBig", g:"land", stage:3, name:"$100B agricultural R&D + commodity-program redesign", veh:"Reconciliation (2029 or 2031 reauthorization)",
+   mt:-30, bills:0, cost:110, gw:0, dmg:1, inv:110, conf:"L", spend:true,
+   basis:"Triples public ag research ($20 return per $1 historically) and pays for revenue and ecosystem outcomes instead of historic yields.",
+   src:"Report Ch. 1"},
+  {id:"lands", g:"land", stage:3, name:"Public lands & ecosystems: market royalties, Legacy Restoration Fund, PILT, PFAS", veh:"Mixed: reconciliation + 60-vote",
+   mt:-10, bills:0, cost:15, gw:0, dmg:1, inv:25, conf:"L", spend:true,
+   basis:"Net of new royalty revenue (a <5% royalty rise on $7.5B of FY2025 receipts yields ~$320M/yr). Forest and wetland restoration trims wildfire and flood losses.",
+   src:"Report Ch. 4"},
+
+  {id:"femaReform", g:"resilience", stage:1, name:"FEMA & mitigation reform: $1-for-$1 mitigation set-aside, CDBG-DR, NFIP reauthorization", veh:"FEMA/Stafford reform, NFIP, WRDA",
+   mt:0, bills:0, cost:90, gw:0, dmg:15, inv:110, conf:"M", spend:true,
+   basis:"NIBS finds federal mitigation grants return $6 per $1. ~$9B/yr of added mitigation compounds into ~$15B/yr of avoided losses by 2035.",
+   src:"NIBS Natural Hazard Mitigation Saves; report Ch. 3"},
+  {id:"codesLand", g:"resilience", stage:3, name:"Modern building codes, extreme-risk build limits, voluntary relocation", veh:"60-vote structural law + reconciliation (relocation money)",
+   mt:-5, bills:-5, cost:55, gw:0, dmg:12, inv:60, conf:"M", spend:true,
+   basis:"FEMA: current codes would avoid ~$600B in losses by 2060 if all new construction complied; NIBS finds codes return $11 per $1. Partial adoption via federal conditions by 2035.",
+   src:"FEMA Building Codes Save; NIBS; report Ch. 3"},
+  {id:"insurance", g:"resilience", stage:3, name:"Insurance & risk finance: premium aid, resilience tax credit, disclosure, FSOC", veh:"Reconciliation + 60-vote",
+   mt:0, bills:0, cost:80, gw:0, dmg:4, inv:40, conf:"L",
+   basis:"Includes NFIP debt relief (~$22.5B), means-tested premium aid and a refundable resilience credit. FORTIFIED roofs cut premiums ~22% and losses 55%+.",
+   src:"Report Ch. 3; IBHS; Louisiana Legislative Auditor"},
+  {id:"healthHeat", g:"resilience", stage:3, name:"Climate & health: CDC climate-health program, healthcare resilience, heat standard", veh:"Appropriations + regulation",
+   mt:0, bills:0, cost:25, gw:0, dmg:3, inv:25, conf:"L", spend:true,
+   basis:"Heat deaths more than doubled 1999–2023. Avoided costs are hospital use, lost work and disrupted care.",
+   src:"JAMA heat-mortality study; report Ch. 3"},
+  {id:"rural", g:"resilience", stage:1, name:"Rural & Tribal capacity: water, broadband, CDFIs, 10-20-30, match waivers", veh:"Farm bill / appropriations",
+   mt:0, bills:-5, cost:70, gw:0, dmg:1, inv:90, conf:"L", spend:true,
+   basis:"Mostly access and capacity outcomes the other metrics don't capture; small effects on bills (rural energy burden is ~40% higher).",
+   src:"Report Ch. 2"},
+
+  {id:"delivery", g:"gov", stage:3, name:"Funds-delivery & anti-cancellation rules (\"Trump-proofing\")", veh:"Appropriations riders → trifecta boilerplate",
+   mt:0, bills:0, cost:5, gw:0, dmg:0, inv:0, conf:"M",
+   basis:"Termination only for cause, deemed apportionment, district-court review. Without it, grant and program levers deliver an assumed 85% of their effect.",
+   src:"Report Ch. 9; DOE IIJA implementation tracking"}
+];
+
+const UNC = {H:0.2, M:0.4, L:0.65};
+const METRICS = ["mt","bills","cost","gw","dmg","jobs"];
+
+function txFactor(on){ return 0.6 + (on.permit?0.25:0) + (on.txITC?0.15:0); }
+
+// Returns per-lever realized contributions and totals with ranges.
+function compute(on){
+  const tf = txFactor(on);
+  const real = on.delivery ? 1 : BASE.realizeOff;
+  const evBoth = on.evCredits && on.hdFreight;
+  const rows = [];
+  for (const L of LEVERS){
+    if (!on[L.id]) continue;
+    let k = L.spend ? real : 1;
+    let kPow = L.tx ? tf : 1;
+    let evk = (evBoth && (L.id==="evCredits"||L.id==="hdFreight")) ? 1.1 : 1;
+    const r = {
+      id:L.id,
+      mt: L.mt*k*kPow*evk,
+      bills: L.bills*k*(L.tx?kPow:1),
+      cost: L.cost*k,
+      gw: L.gw*k*kPow,
+      dmg: L.dmg*k,
+      inv: L.inv*k*(L.tx?kPow:1),
+      u: UNC[L.conf]
+    };
+    r.jobs = r.inv*BASE.jobYearsPerM/BASE.years; // thousands of jobs, avg/yr
+    rows.push(r);
+  }
+  const tot = {}, sd = {};
+  for (const m of METRICS.concat(["inv"])){ tot[m]=0; sd[m]=0; }
+  for (const r of rows) for (const m of METRICS.concat(["inv"])){ tot[m]+=r[m]; sd[m]+= (r[m]*r.u)**2; }
+  for (const m in sd) sd[m]=Math.sqrt(sd[m]);
+  // diminishing returns on combined abatement
+  const gross = -tot.mt;
+  let net = gross;
+  if (gross>0){ net = gross*(1 - gross/(2*BASE.dimCap)); }
+  const scale = gross>0 ? net/gross : 1;
+  tot.mtGross = tot.mt; tot.mt = tot.mt*scale; sd.mt = sd.mt*scale;
+  for (const r of rows) r.mt *= scale;
+  // overlapping bill savings (several levers trim the same utility costs)
+  const gb = -tot.bills;
+  if (gb>0){ const nb = gb*(1 - gb/(2*BASE.billCap)); const sb = nb/gb; tot.bills*=sb; sd.bills*=sb; for (const r of rows) r.bills*=sb; }
+  const e2035 = BASE.base2035 + tot.mt;
+  tot.e2035 = e2035;
+  tot.pctBelow2005 = (1 - e2035/BASE.net2005)*100;
+  tot.basePct = (1 - BASE.base2035/BASE.net2005)*100;
+  tot.sccBenefit = -tot.mt*BASE.scc/1000; // $B/yr
+  tot.billsNational = tot.bills*BASE.households/1000; // $B/yr
+  return {rows, tot, sd, tf, real};
+}
+
+(function(){
+  const KEY = "tem-state-v1";
+  let on = {};
+  let metric = "mt";
+  const byId = {}; LEVERS.forEach(L => byId[L.id] = L);
+
+  function preset(name){
+    const o = {};
+    LEVERS.forEach(L => {
+      if (name === "all") o[L.id] = true;
+      else if (name === "s1") o[L.id] = L.stage === 1;
+      else if (name === "s12") o[L.id] = L.stage <= 2;
+      else if (name === "s3") o[L.id] = L.stage === 3;
+      else o[L.id] = false;
+    });
+    return o;
+  }
+  function load(){
+    try { const s = JSON.parse(localStorage.getItem(KEY) || "null"); if (s && s.on) { on = Object.assign(preset("all"), s.on); metric = s.metric || "mt"; return; } } catch(e) {}
+    on = preset("all");
+  }
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify({on, metric})); } catch(e) {} }
+
+  const fmt0 = n => Math.round(n).toLocaleString("en-US");
+  const sgn = n => (n > 0.5 ? "+" : n < -0.5 ? "−" : "");
+  const abs0 = n => fmt0(Math.abs(n));
+  function money(b){ // $B
+    const a = Math.abs(b);
+    if (a >= 1000) return "$" + (a/1000).toFixed(2).replace(/0$/,"") + "T";
+    return "$" + fmt0(a) + "B";
+  }
+  function jobs(k){ return k >= 1000 ? (k/1000).toFixed(2).replace(/0$/,"") + "M" : fmt0(k) + "K"; }
+
+  const STAGE_LBL = {1:"Stage 1", 2:"Stage 2", 3:"Stage 3"};
+  const STAGE_TIP = {1:"Can pass under Trump (2027–28)", 2:"House contrast bill", 3:"Needs a trifecta"};
+
+  function buildGroups(){
+    const host = document.getElementById("groups");
+    host.innerHTML = "";
+    GROUPS.forEach(([gid, gname]) => {
+      const sec = document.createElement("section");
+      sec.className = "group"; sec.dataset.g = gid;
+      const head = document.createElement("div"); head.className = "ghead";
+      head.innerHTML = `<div><h2>${gname}</h2><div class="gsum" id="gs-${gid}"></div></div><button type="button" data-gtoggle="${gid}"></button>`;
+      sec.appendChild(head);
+      LEVERS.filter(L => L.g === gid).forEach(L => {
+        const row = document.createElement("div");
+        row.className = "lever"; row.id = "row-" + L.id;
+        row.innerHTML = `
+          <label class="tg" title="Turn ${L.name} on or off"><input type="checkbox" id="t-${L.id}" data-lever="${L.id}" aria-label="${L.name.replace(/"/g,"&quot;")}"><span class="sw"></span></label>
+          <div><div class="ltitle">${L.name}</div>
+            <div class="meta"><span class="pill st${L.stage}" title="${STAGE_TIP[L.stage]}">${STAGE_LBL[L.stage]}</span><span class="pill conf" title="Confidence">${L.conf === "H" ? "High" : L.conf === "M" ? "Medium" : "Low"} confidence</span><span>${L.veh}</span></div></div>
+          <div class="vals" id="v-${L.id}"></div>
+          <details><summary>Basis</summary><p>${L.basis}</p><p><i>Anchor:</i> ${L.src}</p></details>`;
+        sec.appendChild(row);
+      });
+      host.appendChild(sec);
+    });
+  }
+
+  function leverVals(L, r){
+    const src = r || {mt:L.mt, bills:L.bills, cost:L.cost, gw:L.gw, dmg:L.dmg};
+    const parts = [];
+    if (Math.abs(src.mt) >= 0.5) parts.push(`<span><b>${sgn(src.mt)}${abs0(src.mt)}</b> Mt</span>`);
+    if (Math.abs(src.bills) >= 0.5) parts.push(`<span><b>${sgn(src.bills)}$${abs0(src.bills)}</b>/household</span>`);
+    if (Math.abs(src.cost) >= 0.5) parts.push(`<span><b>${src.cost < 0 ? "−" : ""}${money(src.cost)}</b> ${src.cost < 0 ? "revenue" : "cost"}</span>`);
+    if (Math.abs(src.gw) >= 0.5) parts.push(`<span><b>+${abs0(src.gw)}</b> GW</span>`);
+    if (Math.abs(src.dmg) >= 0.5) parts.push(`<span><b>$${abs0(src.dmg)}B</b>/yr damages avoided</span>`);
+    return parts.join("") || `<span>Enabler: works through other levers</span>`;
+  }
+
+  const METRIC_DEF = [
+    ["mt", "Emissions"], ["bills", "Bills"], ["cost", "Federal cost"], ["gw", "Clean GW"], ["dmg", "Damages"], ["jobs", "Jobs"]
+  ];
+
+  function render(){
+    const res = compute(on);
+    const t = res.tot, sd = res.sd;
+    const rowMap = {}; res.rows.forEach(r => rowMap[r.id] = r);
+
+    // tiles
+    const cut = -t.mt, cutSd = sd.mt;
+    const revenue = res.rows.filter(r => r.cost < 0).reduce((a,r) => a + r.cost, 0);
+    const pct = Math.max(0, Math.min(60, t.pctBelow2005));
+    const billPct = -t.bills / BASE.baseBill * 100;
+    document.getElementById("tiles").innerHTML = `
+      <div class="tile good"><div class="k">Emissions cut in 2035</div>
+        <div class="v">${cut >= 0 ? "" : "+"}${abs0(cut)}<small>Mt CO2e/yr</small></div>
+        <div class="r">range ${abs0(cut - cutSd)}–${abs0(cut + cutSd)}</div>
+        <div class="sub">${t.pctBelow2005.toFixed(0)}% below 2005, vs ${t.basePct.toFixed(0)}% under current law</div>
+        <div class="meter" aria-hidden="true"><span style="width:${(pct/60*100).toFixed(1)}%"></span><i style="left:${(t.basePct/60*100).toFixed(1)}%"></i></div>
+        <div class="r">Global climate benefit ≈ $${fmt0(t.sccBenefit)}B/yr at $190/t</div></div>
+      <div class="tile good"><div class="k">Household energy bills, 2035</div>
+        <div class="v">${t.bills <= 0 ? "−" : "+"}$${abs0(t.bills)}<small>/household/yr</small></div>
+        <div class="r">range $${abs0(t.bills + sd.bills)}–$${abs0(t.bills - sd.bills)}</div>
+        <div class="sub">${billPct.toFixed(0)}% of an average energy bill; ≈ $${abs0(t.billsNational)}B/yr nationally</div></div>
+      <div class="tile costv"><div class="k">Federal cost, FY2029–38</div>
+        <div class="v">${t.cost < 0 ? "−" : ""}${money(t.cost)}<small>net</small></div>
+        <div class="r">range ${money(t.cost - sd.cost)}–${money(t.cost + sd.cost)}</div>
+        <div class="sub">${revenue < 0 ? "After " + money(-revenue) + " in new revenue" : "No revenue levers on"}</div></div>
+      <div class="tile good"><div class="k">Clean power added by 2035</div>
+        <div class="v">+${abs0(t.gw)}<small>GW</small></div>
+        <div class="r">range ${abs0(t.gw - sd.gw)}–${abs0(t.gw + sd.gw)}</div>
+        <div class="sub">Clean-power levers delivering at ${(res.tf*100).toFixed(0)}% given transmission</div></div>
+      <div class="tile good"><div class="k">Climate damages avoided, 2035</div>
+        <div class="v">$${abs0(t.dmg)}B<small>/yr</small></div>
+        <div class="r">range $${abs0(t.dmg - sd.dmg)}–$${abs0(t.dmg + sd.dmg)}B</div>
+        <div class="sub">Disaster, infrastructure and health losses in the U.S.</div></div>
+      <div class="tile good"><div class="k">Jobs supported, 2029–35</div>
+        <div class="v">${jobs(t.jobs)}<small>avg/yr, gross</small></div>
+        <div class="r">range ${jobs(Math.max(0,t.jobs - sd.jobs))}–${jobs(t.jobs + sd.jobs)}</div>
+        <div class="sub">From ${money(t.inv)} in investment and program spending</div></div>`;
+
+    // levers
+    LEVERS.forEach(L => {
+      const cb = document.getElementById("t-" + L.id);
+      cb.checked = !!on[L.id];
+      document.getElementById("row-" + L.id).classList.toggle("off", !on[L.id]);
+      document.getElementById("v-" + L.id).innerHTML = leverVals(L, rowMap[L.id]);
+    });
+    GROUPS.forEach(([gid]) => {
+      const ls = LEVERS.filter(L => L.g === gid);
+      const n = ls.filter(L => on[L.id]).length;
+      document.getElementById("gs-" + gid).textContent = `${n} of ${ls.length} on`;
+      const b = document.querySelector(`[data-gtoggle="${gid}"]`);
+      b.textContent = n === ls.length ? "Turn all off" : "Turn all on";
+    });
+
+    // presets highlight
+    const presetNames = ["all","s1","s12","s3","none"];
+    presetNames.forEach(p => {
+      const P = preset(p);
+      const match = LEVERS.every(L => !!P[L.id] === !!on[L.id]);
+      document.getElementById("p-" + p).setAttribute("aria-pressed", match ? "true" : "false");
+    });
+
+    // segmented metric
+    document.getElementById("seg").innerHTML = METRIC_DEF.map(([k, lbl]) =>
+      `<button class="chip-btn" type="button" data-metric="${k}" aria-pressed="${k === metric}">${lbl}</button>`).join("");
+
+    // bars
+    const val = r => metric === "mt" ? -r.mt : metric === "bills" ? -r.bills : r[metric];
+    const items = res.rows.map(r => ({id:r.id, v:val(r)})).filter(x => Math.abs(x.v) >= 0.5).sort((a,b) => Math.abs(b.v) - Math.abs(a.v));
+    const max = items.reduce((m,x) => Math.max(m, Math.abs(x.v)), 0) || 1;
+    const unit = {mt:" Mt", bills:"", cost:"", gw:" GW", dmg:"", jobs:""}[metric];
+    const show = v => metric === "bills" ? `${v >= 0 ? "−" : "+"}$${abs0(v)}` :
+      metric === "cost" ? `${v < 0 ? "−" : ""}${money(v)}` :
+      metric === "dmg" ? `$${abs0(v)}B` :
+      metric === "jobs" ? jobs(v) :
+      `${v < 0 ? "+" : ""}${abs0(v)}${unit}`;
+    const isBad = v => metric === "cost" ? v > 0 : v < 0;
+    document.getElementById("bars").innerHTML = items.length ? items.map(x =>
+      `<div class="bar"><span class="nm" title="${byId[x.id].name.replace(/"/g,"&quot;")}">${byId[x.id].name}</span><span class="num">${show(x.v)}</span>
+       <div class="track"><div class="fill${isBad(x.v) ? " neg" : ""}" style="width:${(Math.abs(x.v)/max*100).toFixed(1)}%"></div></div></div>`).join("")
+      : `<p class="empty">No active levers move this metric. Turn some on.</p>`;
+
+    // interactions
+    const anyTx = on.cleanElec || on.electron;
+    const evBoth = on.evCredits && on.hdFreight;
+    const gross = -t.mtGross, net = -t.mt;
+    const rowsI = [
+      [anyTx ? (res.tf >= 1 ? "ok" : "warn") : "", anyTx
+        ? `Transmission: clean-power levers deliver <b>${(res.tf*100).toFixed(0)}%</b>${res.tf < 1 ? ` (${!on.permit ? "permitting deal off" : ""}${!on.permit && !on.txITC ? ", " : ""}${!on.txITC ? "transmission credit off" : ""})` : " with permitting and the transmission credit on"}.`
+        : "Transmission: no transmission-dependent levers on."],
+      [on.delivery ? "ok" : "warn", on.delivery
+        ? "Delivery: grant and program levers deliver in full."
+        : `Delivery: without funds-delivery rules, grant and program levers deliver <b>${(BASE.realizeOff*100).toFixed(0)}%</b>.`],
+      [evBoth ? "ok" : "", evBoth ? "EV pairing: consumer and freight electrification reinforce each other (+10%)." : "EV pairing: inactive (needs both EV levers)."],
+      [gross > 0 ? "warn" : "", gross > 0 ? `Overlap: ${abs0(gross)} Mt of gross cuts net to ${abs0(net)} Mt after diminishing returns.` : "Overlap: none."]
+    ];
+    document.getElementById("inter").innerHTML = rowsI.map(([c, txt]) => `<div class="irow"><span class="dot ${c}"></span><span>${txt}</span></div>`).join("");
+
+    save();
+  }
+
+  document.addEventListener("change", e => {
+    const id = e.target && e.target.dataset && e.target.dataset.lever;
+    if (id) { on[id] = e.target.checked; render(); }
+  });
+  document.addEventListener("click", e => {
+    const p = e.target.closest("[data-preset]");
+    if (p) { on = preset(p.dataset.preset); render(); return; }
+    const m = e.target.closest("[data-metric]");
+    if (m) { metric = m.dataset.metric; render(); return; }
+    const g = e.target.closest("[data-gtoggle]");
+    if (g) {
+      const ls = LEVERS.filter(L => L.g === g.dataset.gtoggle);
+      const allOn = ls.every(L => on[L.id]);
+      ls.forEach(L => on[L.id] = !allOn); render();
+    }
+  });
+
+  load(); buildGroups(); render();
+})();
+</script>
