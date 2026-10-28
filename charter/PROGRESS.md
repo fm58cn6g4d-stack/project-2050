@@ -8,7 +8,7 @@ Updated October 28, 2026 by Claude Code (stage A, PR 1).
 
 | Stage | Step | Status | Owner | Where |
 | --- | --- | --- | --- | --- |
-| A. Reset | 1. Clean tree, `legacy/`, models and checks migrated, standards, board, decision log, entry files | In review: needs Espen's approval (tier 3) | Claude Code | This PR (branch `claude/stage-a-reset`) |
+| A. Reset | 1. Clean tree, `legacy/`, models and checks migrated, standards, board, decision log, entry files | In review: needs Espen's approval (tier 3) | Claude Code | PR #46 (branch `claude/stage-a-reset`) |
 | A. Reset | 2. `agenda/agenda.csv` from the legacy domain files and options register | Next | Claude Code | — |
 | A. Reset | 3. `library/catalog.csv` and the generated name index | Waiting on step 1 | Claude Code | — |
 | A. Reset | 4. Registry checker, generalized from the story builder's checks | Waiting on step 1 | Claude Code | — |
@@ -38,4 +38,4 @@ Updated October 28, 2026 by Claude Code (stage A, PR 1).
 
 ## Questions for Espen
 
-1. Approve the reset PR (add `espen-approved`), after PR #45 if you approve that one too.
+1. Approve the reset, PR #46 (add `espen-approved`), after PR #45 if you approve that one too.
