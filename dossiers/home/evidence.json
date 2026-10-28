@@ -586,5 +586,114 @@
   "supports": [
    "dossiers/home/1-problem.md"
   ]
+ },
+ {
+  "id": "EV-HOU-030",
+  "statement": "Households with worst case needs in 2023 included 2.46 million older adult households, 2.33 million families with children, 0.87 million other family households and 2.80 million other nonfamily households (mostly single people).",
+  "claim": "data",
+  "figures": [
+   "2.46",
+   "2.33",
+   "0.87",
+   "2.80"
+  ],
+  "source": "SRC-0296",
+  "anchor": "In\n2023, households with worst case needs included 2.46 million older adult households, 2.33\nmillion families with children, 0.87 million “other family” households, and 2.80 million “other\nnonfamily” households.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-031",
+  "statement": "Among very low-income renters in 2023, worst case needs affected 42.9 percent of families with children, 38.8 percent of older adult households without children, 52.2 percent of other family households and 49.2 percent of other nonfamily households.",
+  "claim": "data",
+  "figures": [
+   "42.9",
+   "38.8",
+   "52.2",
+   "49.2"
+  ],
+  "source": "SRC-0296",
+  "anchor": "The prevalence of worst case needs was 42.9 percent among families with children, 38.8\npercent among households headed by older adults without children, 52.2 percent among “other\nfamily” households (including multiple family members without children), and 49.2 percent\namong “other nonfamily” households (mostly single individuals).",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-032",
+  "statement": "About one in seven renter households with worst case needs in 2023, 1.16 million (13.7 percent), included people younger than 62 with disabilities; 37.0 percent of very low-income renter households with such members had worst case needs.",
+  "claim": "data",
+  "figures": [
+   "1.16",
+   "13.7",
+   "37.0"
+  ],
+  "source": "SRC-0296",
+  "anchor": [
+   "About one in seven renter households with worst case needs—13.7\npercent, or 1.16 million—included people younger than 62 who have disabilities.",
+   "37.0 percent of VLI renter households with people younger than 62 with disabilities\nexperienced worst case needs in 2023"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-033",
+  "statement": "Of the households with worst case needs in 2023, 3.17 million lived in the South, 2.29 million in the West, 1.48 million in the Northeast and 1.53 million in the Midwest.",
+  "claim": "data",
+  "figures": [
+   "3.17",
+   "2.29",
+   "1.48",
+   "1.53"
+  ],
+  "source": "SRC-0296",
+  "anchor": "of whom 3.17 million lived in\nthe South, 2.29 million lived in the West, 1.48 million lived in the Northeast, and 1.53 million\nlived in the Midwest.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-034",
+  "statement": "Among very low-income renters in 2023, worst case needs affected 55.1 percent of Asian, 48.0 percent of Hispanic, 45.0 percent of non-Hispanic White and 38.1 percent of non-Hispanic Black households; the lower rate for Black households reflects that 39.4 percent of them reported housing assistance, against 24.8 percent of White, 22.1 percent of Hispanic and 20.6 percent of Asian very low-income renters.",
+  "claim": "data",
+  "figures": [
+   "55.1",
+   "48.0",
+   "45.0",
+   "38.1",
+   "39.4",
+   "24.8",
+   "22.1",
+   "20.6"
+  ],
+  "source": "SRC-0296",
+  "anchor": [
+   "In 2023, the prevalence of worst case needs was 55.1 percent among Asian households, 48.0\npercent among Hispanic households, 45.0 percent among non-Hispanic White households, and\n38.1 percent among non-Hispanic Black households.",
+   "The lower prevalence of worst case needs among Black households reflects a greater likelihood\nthat Black VLI households receive housing assistance. 24 Among non-Hispanic Black renters\nwith very low incomes, 39.4 percent report housing assistance compared with only 24.8 percent\nof non-Hispanic White renters, 22.1 percent of Hispanic renters, 20.6 percent of Asian renters,"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
  }
 ]

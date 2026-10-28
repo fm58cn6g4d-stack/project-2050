@@ -16,7 +16,7 @@ Updated October 28, 2026 by Claude Code (stage C: sources and evidence method).
 | B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
 | C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | Done | Claude Code | PR #53, merged |
 | C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | In review | Claude Code | Branch `claude/library-citations` |
-| C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | Next; HUD evidence already added in step 1 | Claude Code | — |
+| C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In progress: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; ACS refresh after the October 29 release | Claude Code | Branch `claude/stage-c-housing-2` (after PR #54) |
 | C. First dossiers | 3. Housing section 2, what works | Most capable | Waiting on step 2 | Claude Code | — |
 | C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | Waiting on step 3 | Claude Code | — |
 | C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (with Codex on the budget model) | Most capable | Later | Claude Code, Codex | — |
