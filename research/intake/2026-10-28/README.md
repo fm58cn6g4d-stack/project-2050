@@ -15,3 +15,4 @@ Raw originals from Espen's earlier Claude and ChatGPT sessions, uploaded to Clau
   - CBO's February 2026 data files and reports used by the CBO scorer tool. The CSV extracts of the same February 2026 data that the fiscal model needs are already in `index/data/cbo/`.
 
   Re-fetch them from SEEC Institute and cbo.gov, and verify against the manifest.
+- **Removed for copyright:** a POLITICO Pro article on the Senate's bipartisan permitting bill. It is paywalled, and this repository is public, so it was deleted from the branch. It is recorded by checksum only. Cite it, and quote short passages only. It remains in this branch's earlier history unless that history is rewritten.

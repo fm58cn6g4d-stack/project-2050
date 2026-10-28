@@ -245,7 +245,8 @@
   "path": "Claude climate carbon permitting/POLITICO Pro _ Article _ Here\u0393\u00c7\u00d6s what\u0393\u00c7\u00d6s inside the Senate\u0393\u00c7\u00d6s new bipartisan permit.pdf",
   "bytes": 119480,
   "sha256": "fe2308a9359a5460b0bb97c28b08db7ff6e9caff43230886a18c64ee13f4d8b8",
-  "filed": true
+  "filed": false,
+  "note": "removed from the branch tip: paywalled, copyrighted article (POLITICO Pro) in a public repository. Cite and quote only. It remains in the history of commit d5ea954-era intake until that history is rewritten."
  },
  {
   "archive": "old-sessions.zip",
