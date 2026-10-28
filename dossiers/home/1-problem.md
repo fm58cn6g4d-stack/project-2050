@@ -48,20 +48,28 @@ The scale already evidenced:
 - Housing Choice Vouchers, the largest program, help more than 2.3 million households (5 million people) [EV-HOU-013]. They too reach roughly one in four eligible households, so housing authorities keep waiting lists [EV-HOU-012].
 - A household's help depends less on its need than on whether it reached the top of a list.
 
-Two numbers the design will be sized against are not yet evidenced here:
-- how many households have the most severe needs;
-- how many homes are missing.
+**Hundreds of thousands have no home at all.**
+- On a single night in 2025, 745,652 people were homeless: 479,332 in shelters and 266,320 unsheltered [EV-HOU-014].
+- That is slightly below 2024's record of 771,480, but well above the 2016 low of 549,928 [EV-HOU-015].
+- Chronic homelessness, among people with disabilities homeless for a year or more, reached 155,750 in 2025, the highest number recorded and double the 2016 low [EV-HOU-016].
 
-The dossier does not state them until the sources below are in the library. The assistance gap above is a secondary estimate (grade C); HUD's own counts would replace it.
+**There are too few homes the poorest renters can afford.**
+- Commonly cited estimates put the national housing shortage at roughly 4 million to 5 million homes. The methods differ, and some researchers argue the shortage is really local, or specific to homes low-income renters can afford [EV-HOU-017].
+- For the lowest-income renters the shortage is not in doubt. One estimate counts 7.1 million too few rental homes that are affordable and available to them [EV-HOU-018]. That is 35 such homes for every 100 of those households, with shortages in every state and major metropolitan area [EV-HOU-019].
+- Rental help alone cannot close a gap of that kind everywhere. That is why the design weighs building (HOU-2, HOU-3, HOU-6) alongside vouchers (HOU-4).
+
+One number the design will be sized against is not yet evidenced here: how many households have the most severe needs (HUD's *worst case needs*). The dossier does not state it until that source is in the library.
+
+The assistance gap, homelessness and shortage figures are drawn from Congressional Research Service summaries (grade C). The homelessness counts are HUD's own figures as CRS reports them, and the shortage figures are outside estimates that CRS summarizes. Primary HUD reports would raise them to grade A.
 
 ## Evidence still needed
 
 | Claim | Source | Status |
 | --- | --- | --- |
 | Very low-income renters with worst case needs: unassisted, paying more than half of income or in severely inadequate housing | HUD, *Worst Case Housing Needs: 2025 Report to Congress* | HUD's site blocks automated download; Espen to upload |
-| People experiencing homelessness on a single night, and the trend | HUD, *2024 Annual Homelessness Assessment Report*, Part 1 | Espen to upload |
+| Homelessness counts from the primary report | HUD, *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026) | CRS figures in place (EV-HOU-014 to 016, grade C); upload to raise them to grade A |
 | Share of eligible low-income renters who receive rental assistance, from primary counts | HUD *Worst Case Housing Needs* (assisted and unassisted counts); CBO or GAO on rental assistance | CRS estimate in place (EV-HOU-011, grade C); upload to raise it to grade A |
-| Shortage of homes affordable and available to extremely low-income renters | HUD *Worst Case Housing Needs* (units per 100 renters) | Upload |
+| Shortage of affordable homes, from HUD's own measure | HUD *Worst Case Housing Needs* (units per 100 renters) | Outside estimates in place via CRS (EV-HOU-017 to 019, grade C); upload |
 | Eviction filings and judgments | Court data or academic series (licensed: cite and quote only) | To find |
 | 2025 rent burden | Census, 2025 American Community Survey 1-year estimates, released October 29, 2026 | Refresh EV-HOU-001 to 005 next session |
 | Burden for children, older and disabled renters, rural and tribal areas | Census ACS tables; HUD *Worst Case Housing Needs* | To find |

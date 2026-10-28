@@ -229,5 +229,108 @@
   "supports": [
    "dossiers/home/1-problem.md"
   ]
+ },
+ {
+  "id": "EV-HOU-014",
+  "statement": "On a single night in 2025, 745,652 people were experiencing homelessness: 479,332 sheltered and 266,320 unsheltered (HUD point-in-time count, as reported by CRS).",
+  "figures": [
+   "745,652",
+   "479,332",
+   "266,320"
+  ],
+  "source": "SRC-0293",
+  "anchor": "On a single night in 2025, there were 745,652 total people experiencing homelessness, 479,332 of whom were sheltered\nand 266,320 of whom were unsheltered.",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-015",
+  "statement": "The 2025 count compares with 647,258 in 2007, a low of 549,928 in 2016, and 771,480 in 2024.",
+  "figures": [
+   "647,258",
+   "549,928",
+   "771,480"
+  ],
+  "source": "SRC-0293",
+  "anchor": "In 2025, 745,652 people were experiencing homelessness\naccording to PIT data; this compares to 647,258 in 2007;\n549,928 in 2016 (the year with the lowest number); and\n771,480 in 2024.",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-016",
+  "statement": "In 2025, 155,750 individuals were chronically homeless, the highest number recorded, up from 77,486 in 2016.",
+  "figures": [
+   "155,750",
+   "77,486"
+  ],
+  "source": "SRC-0293",
+  "anchor": "In 2025, 155,750\nindividuals were chronically homeless, the highest number\nrecorded. It is up from 77,486 at the lowest point in 2016.",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-017",
+  "statement": "Commonly cited estimates put the national housing shortage at roughly 4 million to 5 million homes, but methods differ and some observers argue the shortages are local or specific to housing types, including housing affordable to low-income renters.",
+  "figures": [
+   "4 million",
+   "5 million"
+  ],
+  "source": "SRC-0294",
+  "anchor": "Although Table 1 suggests a shortage ranging between approximately 4 million and 5 million, there is not\nuniversal agreement that the United States has a housing shortage at all.",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-018",
+  "statement": "The National Low Income Housing Coalition estimates a shortage of 7.1 million rental homes affordable and available to extremely low-income renters (as summarized by CRS).",
+  "figures": [
+   "7.1 million"
+  ],
+  "source": "SRC-0294",
+  "anchor": "Low Income Housing Coalition (NLIHC) estimates a shortage of 7.1 million rental homes affordable and\navailable to renters with extremely low incomes",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-019",
+  "statement": "By the same estimate there are 35 affordable and available rental homes for every 100 extremely low-income renter households, and shortages exist in every state and major metropolitan area.",
+  "figures": [
+   "35",
+   "100"
+  ],
+  "source": "SRC-0294",
+  "anchor": "that for every 100 extremely low-income renter households, there are 35 affordable and available rental\nhomes, and that shortages exist in every state and major metropolitan area",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
  }
 ]

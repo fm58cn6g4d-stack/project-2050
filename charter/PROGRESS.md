@@ -45,7 +45,7 @@ The stage C, step 1 PR (housing problem section).
 ## Known gaps
 
 - **Review capacity.** Codex reviews again (PR #50). The scheduled Claude reviewer session also reviews routine PRs on request. Espen's `espen-approved` stands in for an agent review only on tier 3.
-- **Blocked sources.** HUD, CBO, GAO and congress.gov block automated downloads from agent sessions; Census, the Federal Reserve and EveryCRSReport do not; the GovQuery connector finds CRS and GAO reports by topic. Blocked documents come in through Espen's uploads.
+- **Blocked sources.** HUD, CBO, GAO and congress.gov block automated downloads from agent sessions; Census, the Federal Reserve and EveryCRSReport do not; the GovQuery connector finds CRS and GAO reports by topic. The Congress.gov API names each CRS report's current version (EveryCRSReport can lag), and congress.gov's CRS PDFs download. The API needs an api.data.gov key, which Espen gives a session directly; it is never committed or written into the repository. Blocked documents come in through Espen's uploads.
 - **Legacy outputs.** The legacy model suite still regenerates its reports in `legacy/index/` and `legacy/sources/` (`models/README.md`). They move into `models/` as each core model is rebuilt.
 - **Story claims after PR #45.** Two essay claims (`q4`, `downside`) cite figures that PR #45 changed (fourth-quintile −$2,906 is now −$3,054). The page stays pinned to its evidence commit; an editor should reread and advance the pin. `run-all.sh` reports it on every run.
 - **Catalog facts.** `catalog-facts.csv` dates depend on the clone's history depth, so the file is refreshed, never checked.
@@ -53,4 +53,4 @@ The stage C, step 1 PR (housing problem section).
 
 ## Questions for Espen
 
-1. Upload HUD's *Worst Case Housing Needs: 2025 Report to Congress* and the *2024 Annual Homelessness Assessment Report*, Part 1. HUD's site blocks automated downloads; the housing problem section waits on them for worst case needs, homelessness and the housing shortage. The assistance gap now has a Congressional Research Service estimate (one in four eligible households helped); HUD's counts would confirm it.
+1. Upload HUD's *Worst Case Housing Needs: 2025 Report to Congress*; HUD's site blocks automated downloads. It is the one number the housing problem section still lacks. Optionally also the *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026). The assistance gap, homelessness and the shortage now rest on Congressional Research Service summaries (grade C); HUD's reports would raise them to grade A.
