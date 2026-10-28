@@ -16,22 +16,22 @@ Two income groups matter here:
 
 ## The options
 
-The costs below are this dossier's rough arithmetic, not a score. They use today's average voucher cost, about $13,000 a household a year ($30.25 billion for about 2.3 million households [EV-HOU-187] [EV-HOU-013]). Real costs depend on rents in 2030, how many people sign up, and how deep the help must be. Section 6 prices them properly.
+The costs below are this dossier's rough arithmetic, not a score. They use the project's planning figure of $15,200 a voucher a year in 2026 (`legacy/domains/domain-housing.md`, HOU-4A). A check from 2023 budget data gives about $13,000 ($30.25 billion for about 2.3 million households [EV-HOU-187] [EV-HOU-013]); rents have risen since. Real costs will be higher by 2030, plus administration, and depend on how many people sign up and how deep the help must be. Section 6 prices them properly.
 
 **A. Bounded help, no guarantee.**
 - The million new vouchers already decided, plus the extra $135 billion envelope. Waiting lists stay for everyone else.
 - *For people:* about a million more families helped. Most of the 5.8 million poorest renters with severe problems [EV-HOU-186] would still wait.
-- *Cost:* already in the plan; roughly $13 billion a year for the million vouchers once phased in.
+- *Cost:* already in the plan; roughly $15 billion a year for the million vouchers once phased in.
 
 **B. A guarantee for extremely low-income renters (recommended).**
 - Phased in group by group (memo 8 sets the order). The million vouchers and the $135 billion are its first steps.
 - *For people:* for example, a disabled man living alone on a small fixed income, now paying most of it in rent, would be able to count on help once his group is reached.
-- *Cost:* roughly $75 billion to $100 billion a year at full scale, depending on how many of the 5.8 million to 7.7 million unassisted households take it [EV-HOU-185] [EV-HOU-186]. This is a large permanent cost, and the plan's fiscal rule already falls short in 2040 (legacy governing decisions, D4). It needs new revenue, mostly from the top 1% and corporations under the fairness test.
+- *Cost:* roughly $88 billion to $117 billion a year at full scale, before growth to 2030, depending on how many of the 5.8 million to 7.7 million unassisted households take it [EV-HOU-185] [EV-HOU-186]. This is a large permanent cost, and the plan's fiscal rule already falls short in 2040 (legacy governing decisions, D4). It needs new revenue, mostly from the top 1% and corporations under the fairness test.
 - *Risk:* landlords can capture part of the money where homes are scarce (see C). Memos 1 and 3 address supply.
 
 **C. A guarantee for all very low-income renters.**
 - *For people:* reaches 13.77 million unassisted households [EV-HOU-023], including working families just above the lowest band.
-- *Cost:* roughly $180 billion a year at full take-up.
+- *Cost:* roughly $209 billion a year at full take-up, before growth to 2030.
 - *Risk:* the bigger the program, the more of it can go to landlords. When France extended help to all low-income renters, 78 cents of each euro went into higher rents [EV-HOU-156]. A U.S. voucher increase did not raise rents overall [EV-HOU-096], so the U.S. risk may be smaller, but it has never been tested at this scale.
 
 ## Recommendation

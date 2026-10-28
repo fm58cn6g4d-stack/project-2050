@@ -10,9 +10,9 @@ Outcomes the choices serve:
 ## How to read this section
 
 - **Eight forks.** Section 2 left seven forks and carried section 1's question of who is reached first as the eighth (`2-what-works.md`, last list). Each fork below has four parts: options, evidence, interactions and a recommendation.
-- **Six decision memos.** Six forks are Espen's to decide. Each has a short memo in `memos/`, one file per fork, that Espen can decide from without reading the rest. The memos are separate files so each can be read, discussed and decided on its own; approval is per decision, never as a package (`charter/STANDARDS.md`).
-- **Two forks and several narrower points are resolved here.** Where the evidence settles a question, or it is an implementation detail, this section makes a recommendation without a memo and says so. Espen can object to any of them; each is listed in "Resolved here without a memo" below.
-- **Evidence rules.** A recommendation rests only on data or on analysis an independent publisher corroborates. Where independent sources disagree, both views are given. Analysis without independent corroboration (EV-HOU-052, 087, 137, 141 and 158) is mentioned only as one source's view.
+- **Seven decision memos.** Seven forks are Espen's to decide. Each has a short memo in `memos/`, one file per fork, that Espen can decide from without reading the rest. The memos are separate files so each can be read, discussed and decided on its own; approval is per decision, never as a package (`charter/STANDARDS.md`). Each memo says what Espen has already chosen and what its recommendation would change.
+- **Recommended without a memo: Espen decides each.** Fork 7 and eight narrower points are recommendations without a full memo, listed under "Recommended without a memo" with a yes-or-no question each. They are not decided by silence: section 4 drafts none of them until Espen agrees, item by item.
+- **Evidence rules.** Recommendations rest on data or on analysis an independent publisher corroborates. Where the evidence for part of a recommendation is not yet in the register, the section and the memo say so and name what the recommendation rests on instead (Espen's October 26 direction, or this dossier's judgment). Where independent sources disagree, both views are given. Analysis without independent corroboration (EV-HOU-052, 087, 137, 141 and 158) is mentioned only as one source's view.
 
 ## What is already settled
 
@@ -27,19 +27,21 @@ These are not reopened. Each fork works inside them.
 | D3 and D4 | Every income group below the top better off on net, with new general-fund revenue mostly from the top 1% and corporations (D3). Permanent programs paid for at maturity, from FY2040; time-limited investments may borrow inside an envelope (D4-B) | Legacy governing decisions; `charter/outcomes.md`, OUT-11 |
 | D5 | Housing money rides the FY2030 reconciliation bill (R2) | Legacy governing decisions, D5 |
 
+Other items are `chosen` in the agenda: designs carried over from the legacy domain file that Espen has not reopened, such as HOU-1A, HOU-2A and HOU-6's fund and conditions. They are the starting point, not settled decisions, but a recommendation that would change one says so plainly, in this section and in its memo.
+
 The federal builder of last resort (HOU-9A, 9B or 9C) is an open call already on Espen's list in the legacy governing decisions. Fork 3 takes it up.
 
 ## The forks at a glance
 
 | Fork | Agenda items | Handled by | Recommendation in one line |
 | --- | --- | --- | --- |
-| 1. Help or homes | HOU-4 with HOU-2, 3, 5, 6, 8 | Memo 1 | Match the tool to the market: vouchers where homes are available, vouchers tied to new and acquired homes where they are not |
+| 1. Help or homes | HOU-4 with HOU-2, 3, 5, 6, 8 | Memo 1 | Match the tool to the market for help beyond HOU-4A: vouchers where homes are available, help tied to new and acquired homes where they are not |
 | 2. How broad the guarantee is | HOU-4A, HOU-4D, HOU-4C | Memo 2 | A guarantee for extremely low-income renters, phased in group by group; not yet all very low-income renters |
-| 3. Production tool | HOU-2, HOU-3, HOU-5, HOU-8, HOU-9 | Memo 3 | Weight public and nonprofit lending and lasting affordability; narrow the tax credits; authorize a small federal backstop builder now |
-| 4. Zoning conditions | HOU-6 | Resolved here | Pay for homes permitted and built, favor broad state-level reform, and count lower-cost homes |
+| 3. Production tool | HOU-2, HOU-3, HOU-5, HOU-8, HOU-9 | Memo 3 (two parts) | Part 1: narrow the tax credits and make federally financed homes permanently affordable. Part 2: authorize a small federal backstop builder now (a limited HOU-9A) |
+| 4. Zoning conditions | HOU-6 | Memo 4 | Pay for homes permitted and built, favor broad state-level reform, and count lower-cost homes |
 | 5. Homelessness approach | HOU-4, HOU-1, HOU-8 | Memo 5 | Housing First as the default, with a recovery-housing option people can choose, never a condition |
 | 6. Prevention and emergency aid | HOU-1 | Memo 6 | A standing emergency-rent fund with tested delivery rules, plus a smaller one-time start |
-| 7. Immigration and construction labor | HOU-3, HOU-6, HOU-9; OUT-07 | Resolved here | Treat the construction workforce as a shared dependency; ask the immigration dossier to weigh it |
+| 7. Immigration and construction labor | HOU-3, HOU-6, HOU-9; OUT-07 | Recommended without a memo (yes or no) | Treat the construction workforce as a shared dependency; ask the immigration dossier to weigh it |
 | 8. Who is reached first | HOU-4A, HOU-4D | Memo 8 | People without a home first, then extremely low-income families with children, then other extremely low-income renters with the most severe needs |
 
 ## Fork 1. Help or homes
@@ -48,7 +50,7 @@ The federal builder of last resort (HOU-9A, 9B or 9C) is an open call already on
 
 **Options.**
 - **1A. Vouchers everywhere (as filed).** New awards under HOU-4A and HOU-4D are tenant-based vouchers in every market. Building money goes out by the HOU-3 formula (renter cost burden and construction costs).
-- **1B. Match the tool to the market.** Where vacancies are low, part of the new awards is attached to homes built or bought with HOU-3, HOU-5B and HOU-8 money (project-based awards), so each award comes with a home. HOU-3 and HOU-6 money is weighted toward those markets. Where homes are available, awards stay tenant-based. Tenants in attached homes can later move with a tenant-based voucher.
+- **1B. Match the tool to the market.** Where vacancies are low, part of the new help beyond HOU-4A (the HOU-4D envelope and later stages of the guarantee) is attached to homes built or bought with HOU-3, HOU-5B and HOU-8 money (project-based awards), so each award comes with a home. HOU-3 and HOU-6 money is weighted toward those markets. Where homes are available, awards stay tenant-based. Tenants in attached homes can later move with a tenant-based voucher.
 - **1C. Build first.** In tight markets, slow the growth of awards until units exist, and move part of the HOU-4D envelope into building.
 
 **Evidence.**
@@ -63,6 +65,10 @@ The federal builder of last resort (HOU-9A, 9B or 9C) is an open call already on
 - Fork 4: zoning reform decides how fast supply can respond in tight markets.
 - Fork 8: people leaving homelessness often need a home ready to move into; attached homes help them most.
 - D4: 1C moves permanent spending (rental help) into time-limited capital. That changes how it is financed, but delays help.
+
+**What is settled.** HOU-4A's million awards are `decided` as voucher awards. 1B leaves them as they are and applies only to help beyond them. Applying it to HOU-4A would amend a decided item; this section does not recommend that.
+
+**Evidence gap.** The register does not yet hold evidence on how project-based awards lease up or affect rents (see "Evidence still needed"). The case for 1B rests on the evidence that tenant-based vouchers fail in tight markets, not on direct evidence that attached awards do better there.
 
 **Recommendation: 1B.** The evidence supports vouchers as the core and shows where they fail: tight markets with landlords who refuse them. 1B keeps tenant choice where it works and adds homes where it does not. The share of attached awards, the vacancy trigger and the right to move are set in section 4. Memo: `memos/1-help-or-homes.md`.
 
@@ -80,10 +86,14 @@ The federal builder of last resort (HOU-9A, 9B or 9C) is an open call already on
 - There were 19.14 million very low-income renter households [EV-HOU-020], 13.77 million of them unassisted [EV-HOU-023].
 - Today's voucher program serves more than 2.3 million households [EV-HOU-013]. Its account received $30.25 billion in FY2023 [EV-HOU-187].
 
-**Rough order of magnitude (this dossier's arithmetic, not a score).** $30.25 billion for about 2.3 million households is roughly $13,000 per household a year [EV-HOU-187] [EV-HOU-013]. Per-voucher costs follow the gap between tenant incomes and market rents [EV-HOU-187], so the poorest renters cost more and rents will be higher by 2030. At that average:
-- 2A's million HOU-4A awards: on the order of $13 billion a year once fully phased in.
-- 2B: on the order of $75 billion a year if all 5.8 million unassisted extremely low-income households with severe problems took help, and about $100 billion if all 7.7 million unassisted ones did (12.0 million less 4.3 million) [EV-HOU-185] [EV-HOU-186]. HOU-4A and HOU-4D count toward it.
-- 2C: on the order of $180 billion a year at full take-up of 13.77 million households [EV-HOU-023].
+**Rough order of magnitude (this dossier's arithmetic, not a score).** Two per-household bases:
+- *The project's adopted planning input:* $15,200 per voucher-year in FY2026, growing 3% a year, with a housing-agency administration allowance on top (`legacy/domains/domain-housing.md`, HOU-4A). This is the basis the memos use.
+- *A check from the evidence:* $30.25 billion for about 2.3 million households in FY2023 is roughly $13,000 [EV-HOU-187] [EV-HOU-013]. The gap is mostly rent growth since 2023.
+
+At $15,200, before growth to 2030, administration and any deeper subsidy for the poorest renters (per-voucher costs follow the gap between tenant incomes and market rents [EV-HOU-187]):
+- 2A's million HOU-4A awards: on the order of $15 billion a year once fully phased in.
+- 2B: on the order of $88 billion a year if all 5.8 million unassisted extremely low-income households with severe problems took help, and about $117 billion if all 7.7 million unassisted ones did (12.0 million less 4.3 million) [EV-HOU-185] [EV-HOU-186]. HOU-4A and HOU-4D count toward it.
+- 2C: on the order of $209 billion a year at full take-up of 13.77 million households [EV-HOU-023].
 Take-up, rents and lease-up will move these numbers a great deal; section 6 prices them.
 
 **Evidence.**
@@ -105,10 +115,18 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 
 **The question.** HOU-3C is chosen, and the October 26 direction asks for public and nonprofit supply with lasting affordability and a federal backstop. What should the rest of the production toolkit look like: the tax credits (HOU-2), public housing (HOU-5), the social housing pilot (HOU-8) and a federal builder (HOU-9)?
 
-**Options.**
-- **3A. As filed.** All three tax credit pieces (HOU-2A: a further Low-Income Housing Tax Credit increase with a boost for extremely low-income units, a middle-income credit and a Neighborhood Homes credit), HOU-3C, HOU-5 with HOU-5B, the HOU-8 pilot, and no federal builder (HOU-9C).
-- **3B. Lending and lasting affordability first.** Keep HOU-3C, HOU-5B and HOU-8. Narrow HOU-2 to the credit increase with the extremely low-income boost (HOU-2B), and drop or defer the middle-income credit. Require lasting affordability on every federally financed home. Authorize a small federal builder now, to build only where state channels fail (a limited HOU-9A).
-- **3C. A federal builder at scale.** 3B plus HOU-9A at full size, scaling in 2033-36.
+HOU-3C, HOU-5 with HOU-5B and the HOU-8 pilot stay as chosen under every option. The fork has two parts, decided separately.
+
+**Options, part 1: tax credits and lasting affordability.**
+- **3.1A. As chosen (HOU-2A).** All three tax credit pieces: a further Low-Income Housing Tax Credit increase with a boost for extremely low-income units, a middle-income credit and a Neighborhood Homes credit. Affordability terms as under current law.
+- **3.1B. Narrower credits, permanent affordability.** Change HOU-2A to HOU-2B: keep the credit increase with the extremely low-income boost; drop or defer the middle-income and Neighborhood Homes credits. Every home built or bought with HOU-3, HOU-5B, HOU-8 or HOU-9 money stays affordable permanently, through public or nonprofit ownership or a recorded restriction; new tax credit awards carry a nonprofit right to buy at the end of the compliance period.
+- **3.1C. All three credits, permanent affordability.** HOU-2A as chosen, plus 3.1B's affordability rule.
+
+**Options, part 2: a federal builder of last resort (the open call on HOU-9).**
+- **HOU-9C. No federal builder;** strengthen HOU-6's conditions instead.
+- **HOU-9B. Fold it into the pilot:** if the HOU-8 social housing pilot works, its sponsor becomes the federal builder. Cheapest, slowest.
+- **HOU-9A, limited.** Authorize a federal builder in 2029-30 with a small pilot capitalization, building only on federal and acquired land in tight markets where state channels fall short.
+- **HOU-9A, full.** As above, scaling up in 2033-36.
 
 **Evidence.**
 - *Tax credits partly replace building that would happen anyway.* Estimates of crowd-out range from little to nearly 100% [EV-HOU-112]. One subsidized unit adds a third to a half of a unit [EV-HOU-114]; one study's best estimate is that nearly all is offset [EV-HOU-115]. Crowd-out appears in gentrifying areas, not stable or declining ones [EV-HOU-116]. New building has aimed mostly at the high end [EV-HOU-066]. In this dossier's judgment, a credit for rentals at 60-100% of area median income would work mostly in markets where private building already happens, where crowd-out is greatest.
@@ -125,13 +143,22 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 - D3: the middle-income credit is the one housing item that reaches the third and fourth income fifths (`legacy/domains/domain-housing.md`, D3). D3 is still unresolved for the fourth fifth, which nets a loss in one model measure (`charter/PROGRESS.md`, PR #45). Dropping the credit removes a benefit that reaches that group, so the incidence model must check it; it also removes a permanent tax expenditure.
 - D4: tax credits are permanent and paid for at maturity. HOU-3's grants and HOU-5's repair borrow inside the envelope (C21, C31). Direct loans score at their subsidy cost. A federal builder's capital would be lent; its operating and equity costs are the real claim.
 
-**Recommendation: 3B.** The evidence favors deep, lasting affordability over broad credits, and the October 26 direction asks for a federal backstop. A small builder authorized now avoids building the institution only after it is needed, at modest cost. Memo: `memos/3-production.md`.
+**Evidence gaps.** The register holds no independent evaluation of a U.S. public development corporation (Montgomery County's fund is uncorroborated [EV-HOU-141]) and no evidence on acquisition. A builder's cost includes development, staff and the risk that projects do not repay; section 6 must price it.
 
-## Fork 4. Zoning conditions (resolved here)
+**Recommendation.**
+- **Part 1: 3.1B.** This would change HOU-2A, which is `chosen`. The evidence favors deep, lasting affordability over broad credits: crowd-out is large where the market already builds, and expiring rent limits are a documented loss.
+- **Part 2: HOU-9A, limited.** This rests on Espen's October 26 direction ("a lawful federal sponsor/backstop where state participation fails") and on the slow start of new state programs [EV-HOU-150], not on evidence that a federal builder works; that evidence is thin. A small builder authorized now means the backstop exists before it is needed. HOU-9B is the cheaper fallback if Espen prefers to wait for the pilot.
+
+Memo: `memos/3-production.md`.
+
+## Fork 4. Zoning conditions
 
 **The question.** What makes HOU-6's Housing Supply Fund and its conditions produce homes, rather than higher land values?
 
-**Options.** 4A, reward jurisdictions for adopting reforms (as filed). 4B, reward homes actually permitted and completed, favoring broad reforms. 4C, federal override of local permitting for federally financed homes.
+**Options.**
+- **4A. As chosen.** HOU-6's fund rewards jurisdictions that adopt reforms, with awards scaling with units permitted, and conditions on new transportation and community development money.
+- **4B. Pay for results.** Awards scale with homes permitted and completed; statewide and region-wide reforms earn more than narrow area upzonings; lower-cost homes are counted separately. Conditions still attach only to new federal money.
+- **4C. Federal override** of local permitting for federally financed homes.
 
 **Evidence.**
 - Broad reforms produced building: Auckland's upzoning of three-quarters of its residential land added an estimated 21,808 permitted homes in five years [EV-HOU-123], and California's statewide accessory-dwelling laws took annual permits from 1,336 to 30,354 [EV-HOU-128]. Houston's smaller lot sizes allowed nearly 80,000 small-lot houses [EV-HOU-127].
@@ -139,7 +166,7 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 - Gains are modest and mostly at the high end: loosening reforms were associated with 0.8% more housing in three to nine years, with no significant gain in lower-cost units [EV-HOU-177].
 - Minneapolis's lower rents may reflect weaker demand rather than new supply [EV-HOU-126], a reading contested by another study's supply figures [EV-HOU-125]; both views stand.
 
-**Recommendation: 4B, resolved here without a memo.** Scale awards to homes permitted and completed, not ordinances passed. Give more to statewide and region-wide reforms that make apartments, accessory units and small lots legal by right than to narrow area upzonings. Report lower-cost homes separately, since that is where reforms have done least. Keep the legacy rule that conditions attach only to new federal money. 4C's broad override is not recommended; federal construction on federal land is handled in fork 3. Espen can object.
+**Recommendation: 4B.** This would change the chosen HOU-6 design, though it keeps its fund and its conditions. Scale awards to homes permitted and completed, not ordinances passed. Give more to statewide and region-wide reforms that make apartments, accessory units and small lots legal by right than to narrow area upzonings. Report lower-cost homes separately, since that is where reforms have done least. 4C's broad override is not recommended; federal construction on federal land is part of fork 3. Memo: `memos/4-zoning.md`.
 
 ## Fork 5. Homelessness approach
 
@@ -164,7 +191,7 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 - The care flagship: treatment capacity and Medicaid-funded services decide whether offered services exist.
 - OUT-07: asylum seekers drove most of the 2022-2024 rise in sheltered homelessness, not the unsheltered rise [EV-HOU-062]; that is a shelter and processing question for the immigration dossier.
 
-**Recommendation: 5B.** The housing evidence is strong and consistent across trials; the treatment evidence neither supports making it a condition nor shows Housing First solves addiction. A chosen recovery option respects people who want it and lets the plan learn what works for the group the trials missed. Memo: `memos/5-homelessness.md`.
+**Recommendation: 5B.** The housing evidence is strong and consistent across trials; the treatment evidence neither supports making it a condition nor shows Housing First solves addiction. A chosen recovery option respects people who want it and lets the plan learn what works for the group the trials missed. The recovery-housing part rests on judgment: no evaluation of recovery housing is in the register yet. Memo: `memos/5-homelessness.md`.
 
 ## Fork 6. Prevention and emergency aid
 
@@ -187,9 +214,9 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 - D4: a one-time package adds nothing to the FY2040 run rate; a standing fund is permanent spending and must be paid for from FY2040. Its cost is likely small next to rental help, but section 6 must price it.
 - Design rules: durable instruments and recurring help beat one-time help (legacy governing decisions, standing design rules 2 and 3).
 
-**Recommendation: 6C.** The evidence supports prevention as a standing tool and shows national one-time aid is slow to start. Moving construction money into HOU-3 puts it in the channel built for it. Memo: `memos/6-prevention.md`.
+**Recommendation: 6C.** This would change HOU-1A, which is `chosen`. The evidence supports prevention as a standing tool and shows national one-time aid is slow to start. Its value depends on targeting. The Chicago program cost about $10,300 per case of homelessness averted, and its authors expect much less with better targeting [EV-HOU-108]; the Santa Clara aid averaged about $2,000 a household [EV-HOU-109]. In this dossier's reading, the gap means many recipients would have stayed housed anyway. Moving construction money into HOU-3 puts it in the channel built for it. Memo: `memos/6-prevention.md`.
 
-## Fork 7. Immigration and construction labor (resolved here)
+## Fork 7. Immigration and construction labor (recommended without a memo)
 
 **The question.** The supply goals depend on construction workers, a third of whom are immigrants [EV-HOU-055]. How should the housing dossier align with the immigration flagship (OUT-07)?
 
@@ -198,13 +225,13 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 - Immigration also raises rents where migrants settle, modestly for the typical metro [EV-HOU-050] [EV-HOU-053] [EV-HOU-054], with a lag [EV-HOU-183]. In the short run the recent inflows did not expand supply [EV-HOU-053].
 - Asylum seekers drove about 60% of the 2022-2024 rise in sheltered homelessness, concentrated in four places [EV-HOU-062] [EV-HOU-172].
 
-**Recommendation, resolved here without a memo.** This is a dependency, not a housing choice; the immigration dossier decides its own design. The housing dossier will:
+**Recommendation.** This is a dependency, not a housing choice; the immigration dossier decides its own design. The housing dossier will:
 1. State its supply estimates in sections 6 and 7 as conditional on the construction workforce, and test them against a scenario in which it shrinks.
 2. Ask the immigration dossier's design section to weigh the housing evidence when it sets interior enforcement priorities (IMM-4A) and the scope of earned legalization (IMM-1), and whether a construction-trades channel belongs in legal immigration (IMM-2, which names agricultural and care-worker visas but not construction).
 3. Count the domestic channel: construction apprenticeships under LAB-8, which the legacy file says supply HOU-3 and HOU-6.
 4. Plan for newcomers' housing needs where they settle: shelter surges from asylum arrivals belong with asylum processing (IMM-3), and fork 6's fund can serve receiving communities.
 
-Espen can object, for example by making the construction workforce a housing decision rather than an immigration one.
+**For Espen (yes or no):** treat the construction workforce as a dependency the immigration dossier weighs, as above? A "no" would make it a housing decision, with its own memo.
 
 ## Fork 8. Who is reached first
 
@@ -236,21 +263,20 @@ Espen can object, for example by making the construction workforce a housing dec
 - OUT-01 and OUT-04: 8B reaches the most children; 8A reaches the most severe hardship first.
 - Black renters were 28% of renters but 39% of those named in eviction filings [EV-HOU-077], and worst case needs are more common among Black and Hispanic households [EV-HOU-036]. Section 7 should check who each order reaches.
 
-**Recommendation: a combination of 8A and 8B.** People without a home first, families with children among them first. Then extremely low-income families with children with severe needs. Then other extremely low-income households with severe needs, including older and disabled renters. Renters at imminent risk are served by fork 6's fund, not the guarantee's queue. Memo: `memos/8-who-first.md`.
+**Recommendation: a combination of 8A and 8B.** People without a home first, families with children among them first. Then extremely low-income families with children with severe needs. Then other extremely low-income households with severe needs, including older and disabled renters. Renters at imminent risk are served by fork 6's fund, not the guarantee's queue. If Espen keeps a one-time package instead (6A or 6B), there is no standing route for them after 2031 beyond local programs; the order should then reserve a small share of awards for households at imminent risk. Memo: `memos/8-who-first.md`.
 
-## Resolved here without a memo
+## Recommended without a memo
 
-Espen can object to any of these. Each is evidence-led or an implementation detail.
+Espen decides each item, yes or no. None is adopted by silence, and section 4 drafts none of them until Espen agrees. Points 2 and 4 are policy choices with political weight; the others are closer to implementation detail. Lasting affordability, listed here in an earlier draft, is now part of memo 3.
 
 1. **Payment limits by neighborhood.** Set voucher payment limits by ZIP code (Small Area Fair Market Rents) in metro areas, not one limit for the whole metro. Metro-wide increases mainly raised landlords' rents; neighborhood limits moved families to safer, lower-poverty areas [EV-HOU-095]. This applies under every option in fork 2.
-2. **Source-of-income protection.** Bar landlords from refusing tenants because they pay with a voucher. Refusal rates were 15% and 31% where such laws exist against 67% to 78% where they do not [EV-HOU-093], and the laws modestly improve where voucher holders live [EV-HOU-094]. A federal rule needs a regular bill, not reconciliation; section 4 drafts it and its enforcement.
+2. **Source-of-income protection.** Bar landlords nationwide from refusing tenants because they pay with a voucher. Refusal rates were 15% and 31% where such laws exist against 67% to 78% where they do not [EV-HOU-093], and the laws modestly improve where voucher holders live [EV-HOU-094]. *Consequence:* it is a federal rule on private landlords, so it needs a regular bill under the Senate rules change, not reconciliation, and landlord groups will oppose it. The alternative is to reward states that adopt such laws through HOU-6.
 3. **Search help.** Fund search help, landlord outreach and short-term costs such as deposits with every new award. In Seattle and King County they raised moves to high-opportunity areas from 15% to 53% [EV-HOU-091]. Emergency Housing Vouchers carried extra fees for services and landlord incentives [EV-HOU-188].
-4. **Right to counsel.** Make legal help for tenants an allowed use of fork 6's fund, without a federal mandate. Full representation helped in one trial [EV-HOU-143] and not in its companion [EV-HOU-144]. New York City's program reduced evictions [EV-HOU-145] but rents rose 1.2-1.6% in its second year, enough by one estimate to leave tenants slightly worse off [EV-HOU-147]. Both views stand; states and cities can choose, and their programs should be evaluated.
-5. **Delivery rules for emergency aid.** Let tenants self-attest income and hardship, verify with neighborhood data where possible, accept applications started by landlords, and measure improper payments from the first year. Self-attestation doubled spending in a month [EV-HOU-150]; neighborhood-data verification and landlord applications were associated with more success [EV-HOU-152] (contested on overall effects [EV-HOU-153]); improper payments went unmeasured [EV-HOU-154] [EV-HOU-182].
-6. **Lasting affordability.** Every home built or bought with HOU-3, HOU-5B, HOU-8 or HOU-9 money stays affordable permanently, through public or nonprofit ownership or a recorded restriction; new tax credit awards under HOU-2 carry a nonprofit right to buy at the end of the compliance period. About a third of tax credit units are set to expire by 2035 [EV-HOU-119].
-7. **Public housing redevelopment.** Repair sound buildings first. Where buildings are redeveloped, replace every unit and guarantee residents the right to return, with a tenant-based voucher as their alternative. HOPE VI returned few residents [EV-HOU-122]; children who left distressed high-rises with vouchers did better [EV-HOU-121].
-8. **No residency-length rules in social housing.** Vienna requires two years at a Vienna address and gives longer-term residents preference [EV-HOU-164], which keeps out newcomers and homeless people [EV-HOU-162]. U.S. voucher rules bar residency requirements and length-of-residence preferences [EV-HOU-189]. HOU-8 and the guarantee should follow the same rule. Whether fair-housing law would bar them in a new program is for section 4.
-9. **The investor limit (HOU-7).** No change from the chosen design. The evidence is mixed: rents rose where merging institutional landlords overlapped [EV-HOU-138] and investors raise rents when they buy [EV-HOU-139], while their effect on access to ownership was limited [EV-HOU-140]. Section 4 adds the reporting HOU-7 already calls for.
+4. **Right to counsel.** Make legal help for tenants an allowed use of fork 6's fund, without a federal mandate. Full representation helped in one trial [EV-HOU-143] and not in its companion [EV-HOU-144]. New York City's program reduced evictions [EV-HOU-145] but rents rose 1.2-1.6% in its second year, enough by one estimate to leave tenants slightly worse off [EV-HOU-147]. Both views stand; states and cities can choose, and their programs should be evaluated. *Consequence:* no national right to a lawyer in eviction court; the alternative is a federal mandate with funding, which the evidence does not yet support.
+5. **Delivery rules for emergency aid.** Let tenants self-attest income and hardship, verify with neighborhood data where possible, accept applications started by landlords, and measure improper payments from the first year. Spending doubled in the month after Treasury allowed self-attestation [EV-HOU-150]; neighborhood-data verification and landlord applications were associated with more success [EV-HOU-152] (contested on overall effects [EV-HOU-153]); improper payments went unmeasured [EV-HOU-154] [EV-HOU-182].
+6. **Public housing redevelopment.** Repair sound buildings first. Where buildings are redeveloped, replace every unit and guarantee residents the right to return, with a tenant-based voucher as their alternative. HOPE VI returned few residents [EV-HOU-122]; children who left distressed high-rises with vouchers did better [EV-HOU-121].
+7. **No residency-length rules in social housing.** Vienna requires two years at a Vienna address and gives longer-term residents preference [EV-HOU-164], which keeps out newcomers and homeless people [EV-HOU-162]. U.S. voucher rules bar residency requirements and length-of-residence preferences [EV-HOU-189]. HOU-8 and the guarantee should follow the same rule. Whether fair-housing law would bar them in a new program is for section 4.
+8. **The investor limit (HOU-7).** No change from the chosen design. The evidence is mixed: rents rose where merging institutional landlords overlapped [EV-HOU-138] and investors raise rents when they buy [EV-HOU-139], while their effect on access to ownership was limited [EV-HOU-140]. Section 4 adds the reporting HOU-7 already calls for.
 
 ## How the choices fit together
 
@@ -258,6 +284,7 @@ Taken together, the recommendations make one design:
 - **A guarantee for the lowest-income renters**, built on HOU-4A and HOU-4D and phased in by group (forks 2 and 8): people without a home first, then families with children, then other renters with severe needs.
 - **Delivered to fit the market** (fork 1): vouchers with neighborhood payment limits, source-of-income protection and search help where homes are available; awards attached to new and acquired homes where they are not.
 - **Backed by lasting supply** (forks 3 and 4): public and nonprofit lending through HOU-3C, permanent affordability, public housing repair with a right to return, a narrower tax credit, zoning rewards paid for homes built, and a small federal builder for places where state channels fail.
+- **Before section 4.** Each piece waits on Espen's decision on its memo or list item.
 - **Caught early** (fork 6): a standing emergency-rent fund for renters at risk, with tested delivery rules.
 - **Housing First for homelessness** (fork 5), with a recovery option people can choose.
 
@@ -295,12 +322,13 @@ The project's long-term model already fails the FY2040 test after the October 24
 
 ## Questions for Espen
 
-Six decision memos, one per fork, in `memos/`:
+Seven decision memos, one per fork, in `memos/`:
 1. `memos/1-help-or-homes.md`: how to place new rental help in tight and loose markets.
 2. `memos/2-how-broad.md`: how broad the rental guarantee should be.
-3. `memos/3-production.md`: tax credits, lasting affordability and the federal builder of last resort.
-4. `memos/5-homelessness.md`: Housing First and a recovery option.
-5. `memos/6-prevention.md`: a standing emergency-rent fund or a one-time package.
-6. `memos/8-who-first.md`: who the guarantee reaches first.
+3. `memos/3-production.md`: two parts: tax credits and lasting affordability; the federal builder of last resort.
+4. `memos/4-zoning.md`: what the zoning fund pays for.
+5. `memos/5-homelessness.md`: Housing First and a recovery option.
+6. `memos/6-prevention.md`: a standing emergency-rent fund or a one-time package.
+7. `memos/8-who-first.md`: who the guarantee reaches first.
 
-Forks 4 and 7 and the nine points under "Resolved here without a memo" are recommendations Espen can object to.
+Also a yes or no on fork 7 and on each of the eight points under "Recommended without a memo".

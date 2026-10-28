@@ -4,7 +4,9 @@ Role: decision memo for Espen, fork 1 of the housing design (`../3-design.md`). 
 
 ## The question
 
-The plan already gives renters more help paying rent (one million new vouchers, plus the extra $135 billion envelope) and builds more homes. In places where there are almost no empty apartments, a voucher can be hard to use. Should the new help work the same way everywhere, or change where homes are scarce?
+The plan already gives renters more help paying rent (one million new vouchers, plus the extra $135 billion envelope) and builds more homes. In places where there are almost no empty apartments, a voucher can be hard to use. Should the new help work the same way everywhere, or change where homes are scarce? A "tight" market here means one with few empty apartments for rent.
+
+**What you already decided, and what this would change.** The million new vouchers you decided on are not affected under any option: they stay normal vouchers. This memo is about the help beyond them: the $135 billion envelope and later stages of the guarantee.
 
 ## Why it matters
 
@@ -17,7 +19,7 @@ A voucher pays part of the rent at a home the family finds. Nationally, about tw
 - *Risk:* in tight markets many vouchers go unused, and raising the voucher limit across a whole city mostly raises landlords' rents [EV-HOU-095].
 
 **B. Match the tool to the market (recommended).**
-- Where empty homes are scarce, part of the new help comes attached to homes the plan builds or buys. The family gets a home and the help together.
+- Where empty homes are scarce, part of the help beyond the million vouchers comes attached to homes the plan builds or buys. The family gets a home and the help together.
 - Elsewhere, families get a normal voucher.
 - Families in attached homes can later move with a normal voucher.
 - *For people:* for example, a mother in a tight city who now waits months for a landlord to say yes could move straight into a new building. A family in a city with plenty of empty apartments still chooses its own home.
@@ -31,6 +33,8 @@ A voucher pays part of the rent at a home the family finds. Nationally, about tw
 ## Recommendation
 
 **B.** Vouchers work for the families who can use them [EV-HOU-086]. They fail where homes are scarce and landlords refuse them. B keeps choice where it works and adds homes where it doesn't. Tax-credit buildings reach the poorest renters mainly when help is attached [EV-HOU-118], which is what B does.
+
+**What the evidence doesn't show yet.** There is no evidence in the register yet on how well help attached to buildings works in tight markets. B rests on the evidence that normal vouchers fail there, and on judgment that attaching help to homes fixes that.
 
 ## If you decide
 

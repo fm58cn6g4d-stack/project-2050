@@ -40,7 +40,7 @@ The new help phases in at 250,000 vouchers a year from 2030 to 2033. Far more ho
 2. The poorest families with children with severe problems.
 3. Other households among the poorest renters with severe problems, including older and disabled renters.
 
-Renters about to lose their homes get help from memo 6's emergency fund, not this line. Local housing agencies can keep local preferences under this order, but not rules based on how long someone has lived in the area [EV-HOU-189].
+Renters about to lose their homes get help from memo 6's emergency fund, not this line. If you keep a one-time package instead (memo 6, A or B), they would have no national help after 2031; then this order should set aside a small share of vouchers for them. Local housing agencies can keep local preferences under this order, but not rules based on how long someone has lived in the area [EV-HOU-189].
 
 ## If you decide
 

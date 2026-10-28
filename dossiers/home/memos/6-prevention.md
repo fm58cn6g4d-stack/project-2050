@@ -6,6 +6,8 @@ Role: decision memo for Espen, fork 6 of the housing design (`../3-design.md`). 
 
 The plan has an $85 billion one-time emergency housing package for 2030-31 (HOU-1A). Should emergency help be a one-time package, or a standing fund that is always there when a renter hits a crisis?
 
+**What you already chose, and what this would change.** HOU-1A is the plan as filed (`chosen`). The recommendation would replace it with a standing fund and a smaller one-time start.
+
 ## Why it matters
 
 Small, fast help keeps people housed. In Chicago, people who called a help line when money happened to be available were 76% less likely to enter a shelter [EV-HOU-108]. In a California trial, about $2,000 of aid made households 81% less likely to become homeless within six months [EV-HOU-109]. In 2025, 23% of renters fell behind on rent at some point [EV-HOU-008].
@@ -30,8 +32,8 @@ Small, fast help keeps people housed. In Chicago, people who called a help line 
 
 ## Recommendation
 
-**C.** Prevention works and is cheap per family helped. A standing fund is there when need rises, and it avoids rebuilding a program from scratch each crisis. The evidence on the last national program is split: one evaluation credits it with fewer evictions [EV-HOU-152], while lottery studies found it helped people pay rent but did little to keep them from moving [EV-HOU-153]. That argues for building and testing a lasting program carefully.
+**C.** Prevention works. Its value depends on reaching the right people: in Chicago it cost about $10,300 for each case of homelessness prevented, and the researchers expect much less with better targeting [EV-HOU-108]. Many people who get emergency aid would have stayed housed anyway, so the fund's rules must aim it at those most at risk. A standing fund is there when need rises, and it avoids rebuilding a program from scratch each crisis. The evidence on the last national program is split: one evaluation credits it with fewer evictions [EV-HOU-152], while lottery studies found it helped people pay rent but did little to keep them from moving [EV-HOU-153]. That argues for building and testing a lasting program carefully.
 
 ## If you decide
 
-Section 4 writes the fund and its delivery rules; section 6 sizes it. A right to a lawyer in eviction court stays a state and local choice the fund can pay for; the dossier does not propose a federal mandate (`../3-design.md`, "Resolved here without a memo", point 4).
+Section 4 writes the fund and its delivery rules; section 6 sizes it. A right to a lawyer in eviction court stays a state and local choice the fund can pay for; the dossier does not propose a federal mandate (`../3-design.md`, "Recommended without a memo", point 4).

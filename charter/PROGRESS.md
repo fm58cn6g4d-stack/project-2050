@@ -18,7 +18,7 @@ Updated October 28, 2026 by Claude Code (stage C, step 4).
 | C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | Done | Claude Code | PR #54, merged |
 | C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In progress: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; ACS refresh after the October 29 release | Claude Code | Branch `claude/stage-c-housing-2` |
 | C. First dossiers | 3. Housing section 2, what works | Most capable | Done: `dossiers/home/2-what-works.md`, EV-HOU-050 to 184; causes, programs and experience abroad | Claude Code (session_01UQzgBwQoJg2sZm4YbUgNaQ) | PR #58, merged |
-| C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | In review: `dossiers/home/3-design.md` with six memos in `dossiers/home/memos/`, EV-HOU-185 to 189. Waits on Espen's decisions before section 4 | Claude Code (session_01UQzgBuhoTGv4SfXLxQf4ZT) | Branch `claude/stage-c-housing-4` |
+| C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | In review: `dossiers/home/3-design.md` with seven memos in `dossiers/home/memos/`, EV-HOU-185 to 189. Waits on Espen's decisions before section 4 | Claude Code (session_01UQzgBuhoTGv4SfXLxQf4ZT) | Branch `claude/stage-c-housing-4` |
 | C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (with Codex on the budget model) | Most capable | Later: starts once Espen decides the section 3 memos | Claude Code, Codex | — |
 | C. First dossiers | 6. Housing sections 7-9; L2/L3 milestone review | Most capable | Later | Claude Code; reviewer | — |
 | C. First dossiers | 7. Transportation converted as the reference dossier; template fixes | Standard to convert; Most capable for gaps | Later | Claude Code | — |
@@ -59,13 +59,14 @@ Updated October 28, 2026 by Claude Code (stage C, step 4).
 
 ## Questions for Espen
 
-1. **Six housing design decisions**, one short memo each in `dossiers/home/memos/`, decided one at a time:
+1. **Seven housing design decisions**, one short memo each in `dossiers/home/memos/`, decided one at a time:
    - `1-help-or-homes.md`: where new rental help goes in tight and loose markets;
    - `2-how-broad.md`: how broad the rental guarantee is;
-   - `3-production.md`: tax credits, lasting affordability and the federal builder of last resort (HOU-9A, 9B or 9C);
+   - `3-production.md`, in two parts: tax credits and lasting affordability; the federal builder of last resort (HOU-9A, 9B or 9C);
+   - `4-zoning.md`: what the zoning fund pays for;
    - `5-homelessness.md`: Housing First and a recovery-housing option;
    - `6-prevention.md`: a standing emergency-rent fund or a one-time package;
    - `8-who-first.md`: who the guarantee reaches first.
-   `dossiers/home/3-design.md` also lists recommendations it settles without a memo, which Espen can object to.
+   `dossiers/home/3-design.md` also asks a yes or no on fork 7 and on eight narrower points ("Recommended without a memo"); none is adopted until Espen agrees.
 2. Optional uploads for housing section 2: HUD's Family Options Study reports and *A Picture of Subsidized Households*, and CBO's analysis of the 2023 immigration surge (publication 61464). They would replace secondary summaries (`dossiers/home/2-what-works.md`, "Evidence still needed").
 3. Optional: upload HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026), to raise the 2025 homelessness figures from grade C to A. *Worst Case Housing Needs 2025* and the 2024 homelessness report arrived October 28 and are in the library.
