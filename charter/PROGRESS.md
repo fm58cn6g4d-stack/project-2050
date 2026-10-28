@@ -17,14 +17,14 @@ Updated October 28, 2026 by Claude Code (stage A, step 4).
 
 ## Open PRs
 
-The catalog `copy_of` follow-up and PR #50 (outcomes draft, tier 3: Espen decides). Routine PRs merge on review by the scheduled Claude reviewer session.
+PR #50 (outcomes draft, tier 3: Espen decides). Routine PRs merge on review by the scheduled Claude reviewer session.
 
 ## Done (recent)
 
 | Item | Result |
 | --- | --- |
 | Stage A step 1, the reset (PR #46) | Merged: clean tree, `legacy/`, migrated models and checks, standards, board |
-| Catalog follow-up: one home per name (in review) | 16 original uploads marked `copy_of` their working copies in `legacy/`; two generic titles renamed; the catalog check now fails if any title or alias leads to two homes |
+| Catalog follow-up: one home per name (PR #51, merged; staging rows fixed after) | 16 original uploads marked `copy_of` their working copies in `legacy/`; two generic titles renamed; the catalog check now fails if any title or alias leads to two homes |
 | Stage A step 4, the registry checker (PR #49, merged) | `models/registry/check.py` checks the agenda, the library catalog, charter IDs, evidence registers and provisions, and every SRC-, EV-, OUT- and DEC- reference; it runs in every PR as `run-all.sh` step 8e. The story builder now uses the same claim rules (`models/registry/claims.py`) |
 | Stage A step 3, the library catalog (PR #48, merged) | 286 documents in `library/catalog.csv` with `SRC-` IDs; generated file facts; `library/name-index.md` resolves 856 names, including Bill Book, the map, the go-big and revenue tabs, staging rows and the durability session. The one PDF flagged for rights is the Senate Energy and Natural Resources Committee's public one-pager (reviewer, PR #48) |
 | Stage A step 2, the agenda (PR #47, merged) | 499 items in `agenda/agenda.csv`: 38 decided, 266 chosen, 58 options, 118 alternatives, 19 held, declined, pointer or retired. None is L3 yet |
