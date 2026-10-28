@@ -79,6 +79,8 @@ class RegistryTests(unittest.TestCase):
     def test_citation_sources_take_short_located_quotations(self):
         root, e = self.tree()
         e.update(source='SRC-0003', anchor='rents rose 4.2% in 2025', grade='B')
+        self.assertEqual(check.publisher_of({'origin': 'Joint Center for Housing Studies (Harvard) (2024)'}),
+                         'Joint Center for Housing Studies (Harvard)')
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
         self.assertIn('needs a locator', ' '.join(self.run_on(root)[0]))
         e['locator'] = 'p. 12'
@@ -87,6 +89,9 @@ class RegistryTests(unittest.TestCase):
         e['anchor'] = 'word ' * 61 + 'rents rose 4.2% in 2025'
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
         self.assertIn('quotation over 60 words', ' '.join(self.run_on(root)[0]))
+        e['anchor'] = ['word ' * 50 + 'rents rose 4.2% in 2025'] * 3
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
+        self.assertIn('quotations total over 120 words', ' '.join(self.run_on(root)[0]))
         e['anchor'] = 'rents rose 4.5% in 2025'
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e]))
         self.assertIn("figure '4.2%' not in its anchors", ' '.join(self.run_on(root)[0]))
@@ -105,6 +110,14 @@ class RegistryTests(unittest.TestCase):
         other.update(source='SRC-0003', locator='p. 3', anchor='rents rose 4.2% in 2025')
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
         self.assertEqual(self.run_on(root)[:2], ([], []))
+        e['corroboration'] = [{'evidence': 'EV-HOU-002', 'stance': 'contests'}]  # an independent dissent alone
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
+        warnings = ' '.join(self.run_on(root)[1])
+        self.assertIn('without corroboration from an independent publisher', warnings)
+        self.assertIn('present both views', warnings)
+        e['corroboration'] = 'EV-HOU-002'
+        (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
+        self.assertIn('must be a list', ' '.join(self.run_on(root)[0]))
         e['corroboration'] = [{'evidence': 'EV-HOU-009', 'stance': 'agrees'}]
         (root / 'dossiers/home/evidence.json').write_text(json.dumps([e, other]))
         self.assertIn('not an evidence ID', ' '.join(self.run_on(root)[0]))

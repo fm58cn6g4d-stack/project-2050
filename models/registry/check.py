@@ -43,6 +43,7 @@ CLAIMS = {'data', 'analysis'}  # a measured fact, or an interpretation of facts 
 STANCES = {'supports', 'contests', 'qualifies'}
 CITATION = 'citation (not saved)'  # library/build_catalog.py: a cited source the repository does not hold
 QUOTE_WORDS = 60  # a brief quotation from a licensed source; longer passages belong in a saved, open text
+QUOTE_TOTAL = 120  # all quotations in one evidence entry together
 
 
 def module(path, name):
@@ -53,8 +54,10 @@ def module(path, name):
 
 
 def publisher_of(row):
-    """The publisher in a catalog origin: "Publisher: address" for saved texts, "Publisher (year)" for citations."""
-    return re.split(r':\s|\s\(', row.get('origin', ''), maxsplit=1)[0].strip()
+    """The publisher in a catalog origin: "Publisher: address" for saved texts, "Publisher (year)" for citations.
+    Independence compares these names exactly, so a citation row spells its publisher as other rows do."""
+    name = row.get('origin', '').split(': ', 1)[0]
+    return re.sub(r'\s*\(\d{4}\)$', '', name).strip()
 
 
 def date(value):
@@ -143,6 +146,8 @@ def check_dossiers(root, catalog, agenda, today):
                     errors.append(f'{where}: a quotation from {src} needs a locator (page, section or table)')
                 long_ = [a for a in anchors if len(a.split()) > QUOTE_WORDS]
                 errors += [f'{where}: quotation over {QUOTE_WORDS} words; quote less: {a[:70]!r}' for a in long_]
+                if sum(len(a.split()) for a in anchors) > QUOTE_TOTAL:
+                    errors.append(f'{where}: quotations total over {QUOTE_TOTAL} words; quote less')
             else:
                 text_path = root / (e.get('text_version') or src_paths[src])
                 if text_path.suffix.lower() not in TEXT:
@@ -163,10 +168,14 @@ def check_dossiers(root, catalog, agenda, today):
             if loose:
                 errors.append(f'{where}: statement number(s) {", ".join(loose)} not in its anchors')
     # Analysis is only as good as its independent corroboration: each analysis entry lists the entries that
-    # support, contest or qualify it, and at least one should come from a different publisher.
+    # support, contest or qualify it. It is relied on only once one that supports or qualifies it comes from
+    # a different publisher; an independent entry that contests it means the dossier must present both views.
     publisher = {r['id']: publisher_of(r) for r in catalog}
     for where, e in analyses:
         links = e.get('corroboration', [])
+        if not isinstance(links, list) or not all(isinstance(link, dict) for link in links):
+            errors.append(f'{where}: corroboration must be a list of {{"evidence", "stance"}} entries')
+            continue
         if e.get('claim') != 'analysis':
             if links:
                 errors.append(f'{where}: only an analysis entry takes corroboration')
@@ -177,8 +186,11 @@ def check_dossiers(root, catalog, agenda, today):
             if link.get('stance') not in STANCES:
                 errors.append(f'{where}: corroboration stance must be supports, contests or qualifies')
         own = publisher.get(e.get('source'))
-        if not any(publisher.get(source_of.get(link.get('evidence'))) not in (None, own) for link in links):
+        independent = [link for link in links if publisher.get(source_of.get(link.get('evidence'))) not in (None, own)]
+        if not any(link.get('stance') in ('supports', 'qualifies') for link in independent):
             warnings.append(f'{where}: analysis without corroboration from an independent publisher')
+        if any(link.get('stance') == 'contests' for link in independent):
+            warnings.append(f'{where}: contested by an independent publisher; present both views')
     for path in sorted((root / 'dossiers').rglob('provisions.json')) if (root / 'dossiers').exists() else []:
         rel = path.relative_to(root)
         try:
@@ -247,6 +259,8 @@ def run(root=ROOT, today=None, with_legacy=True):
             errors.append('library/catalog.csv: files are uncatalogued or out of order (run library/build_catalog.py)')
         errors += [f'library/catalog.csv: {r["id"]}: {r["path"]} no longer exists'
                    for r in catalog if not lib.is_citation(r) and not (root / r['path']).exists()]
+        errors += [f'library/catalog.csv: {r["id"]}: a citation row needs an http(s) address as its path'
+                   for r in catalog if lib.is_citation(r) and not r['path'].startswith(('https://', 'http://'))]
         if (root / 'library/name-index.md').read_text() != lib.name_index(current):
             errors.append('library/name-index.md is stale (run library/build_catalog.py)')
     charter_errors, known = check_charter(root)
