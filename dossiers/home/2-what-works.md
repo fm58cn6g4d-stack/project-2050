@@ -156,7 +156,7 @@ HUD reads the lower rate of worst case needs among Black very low-income renters
 - Nearly 6 in 10 low-income cost-burdened Black renters have extremely low incomes, against less than half of White renters. White renters are a smaller share of assisted households than of those in need [EV-HOU-084].
 - In pandemic rental aid, a different program, Black renters' share of recipients was 21-22 points above their share of eligible renters; the evaluators note that income distributions vary by race and ethnicity [EV-HOU-085].
 
-The direct check, HUD's *Picture of Subsidized Households*, is on the evidence list below; it is a download from huduser.gov, not part of HUD's data API.
+HUD's own data agree. At the end of 2023, 42% of the 4,569,973 households in HUD's rental programs had a non-Hispanic Black head and 33% a non-Hispanic White head; for vouchers the shares were 48% and 30%. 77% of assisted households had incomes below 30% of area median income [EV-HOU-190]. Among very low-income renters, by contrast, about 4.73 million households were non-Hispanic Black and 8.17 million non-Hispanic White, of 19.14 million [EV-HOU-191] [EV-HOU-020]. Black households are about a quarter of those eligible but over two-fifths of those helped. These are HUD's figures, so they confirm the premise of HUD's reading without being independent of it, and they cover HUD programs only, not the tax credit or USDA housing.
 
 ### Where HUD's accounts stand now
 
@@ -166,7 +166,7 @@ The direct check, HUD's *Picture of Subsidized Households*, is on the evidence l
 | Record immigration drives sustained rental demand [EV-HOU-027] | Direction supported [EV-HOU-050] [EV-HOU-053] [EV-HOU-183]. Size qualified: a minority share, and fading [EV-HOU-054] [EV-HOU-057] [EV-HOU-058]. The framing is contested [EV-HOU-055] [EV-HOU-061] | Qualified and contested: present both views |
 | Household formation, "largely" immigration, added 321,000 cases; a tight market added 196,000 [EV-HOU-029] | Tight market supported [EV-HOU-065]; it has since eased [EV-HOU-068]. Remote work drove pandemic demand [EV-HOU-069]. Three-quarters of household growth was native-born [EV-HOU-055] | Tight market corroborated; the immigration reading contested. No independent source re-estimates the 321,000 |
 | Causes of the 2024 homelessness rise [EV-HOU-028] | Asylum seekers in shelters supported [EV-HOU-062]. Housing costs supported as the main driver of differences between places, while poverty, drugs and mental illness are not [EV-HOU-079]. End of pandemic aid qualified: child poverty and evictions returned to pre-pandemic levels, not above [EV-HOU-073] [EV-HOU-076]. Regulation, shelter policy and climate added [EV-HOU-081] [EV-HOU-082] | Partly corroborated; qualified |
-| Black renters' lower worst case needs reflect more assistance [EV-HOU-035] | Supported [EV-HOU-084]; consistent evidence from a different program [EV-HOU-085] | Corroborated |
+| Black renters' lower worst case needs reflect more assistance [EV-HOU-035] | Supported [EV-HOU-084]; consistent evidence from a different program [EV-HOU-085]; HUD's administrative data confirm the over-representation [EV-HOU-190] [EV-HOU-191] | Corroborated |
 
 ## 2. What programs and policies have been shown to do
 
@@ -415,7 +415,7 @@ Transfer to the U.S. is uncertain: Finland's result rests on unusual investment 
 | --- | --- | --- |
 | Family Options Study full 3-year report; Welfare to Work voucher experiment; voucher success rates 2025 | HUD (huduser.gov blocks downloads) | The summary report, uploaded by Espen, is in (EV-HOU-184); the full report would add detail |
 | CBO's estimate of how much the surge raised rents | CBO, *The Demographic Outlook* and later analyses | CBO's 2023 budget analysis (EV-HOU-183), uploaded by Espen, gives the direction only |
-| Who receives HUD assistance, by race and income | HUD, *A Picture of Subsidized Households* (a huduser.gov download; HUD's data API does not serve it) | Would directly check EV-HOU-035 |
+| Who receives HUD assistance, by race and income level together | HUD, *A Picture of Subsidized Households* at finer levels, or HUD custom tabulations | The 2023 national file (EV-HOU-190) gives race and income separately, not race by income |
 | GAO reports: rental assistance oversight (GAO-22-105490, GAO-24-107084), LIHTC cost data and fraud-risk management (GAO-18-637), institutional investors (GAO-24-106643), homelessness counts (GAO-20-433) | GAO (blocks downloads) | Cited second-hand via CRS where at all |
 | A re-estimate of HUD's 321,000 household-formation figure | No independent source found | EV-HOU-029's immigration reading stays HUD's |
 | Original Manhattan right-to-counsel trial (Seron et al., 2001) | Law & Society Review (licensed) | Summaries disagree on its figures; not cited until checked |

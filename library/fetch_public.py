@@ -12,6 +12,8 @@ With --file, the text comes from a copy Espen uploaded (for sites that block age
 HUD's); URL is still the official address, so the copy can be checked against it.
 
 HTML becomes one paragraph per line (tags removed, whitespace collapsed); PDF goes through pdftotext.
+An Excel workbook (.xlsx) becomes one line per cell, "row label | column header = value", where the row
+label is the row's first text cell, so each figure can be anchored with its row and column.
 The header records the address, retrieval date and the original's SHA-256, so the text can be checked
 against the original later.
 Evidence anchors (dossiers/*/evidence.json) must be exact passages of the saved text.
@@ -24,6 +26,9 @@ import re
 import subprocess
 import sys
 import tempfile
+import zipfile
+import xml.etree.ElementTree as ET
+from io import BytesIO
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -48,6 +53,47 @@ def pdf_text(data):
         return subprocess.check_output(['pdftotext', f.name, '-'], text=True)
 
 
+def xlsx_text(data):
+    ns = {'m': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
+    rel = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id'
+    z = zipfile.ZipFile(BytesIO(data))
+    shared = []
+    if 'xl/sharedStrings.xml' in z.namelist():
+        for si in ET.fromstring(z.read('xl/sharedStrings.xml')).findall('m:si', ns):
+            shared.append(''.join(t.text or '' for t in si.iter(f"{{{ns['m']}}}t")))
+    rels = {r.get('Id'): r.get('Target') for r in ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))}
+    out = []
+    for sheet in ET.fromstring(z.read('xl/workbook.xml')).find('m:sheets', ns):
+        target = rels[sheet.get(rel)].lstrip('/')
+        root = ET.fromstring(z.read(target if target.startswith('xl/') else 'xl/' + target))
+        rows = []
+        for row in root.iter(f"{{{ns['m']}}}row"):
+            cells = []
+            for c in row.findall('m:c', ns):
+                v = c.find('m:v', ns)
+                inline = c.find('m:is', ns)
+                if c.get('t') == 's' and v is not None:
+                    cells.append(shared[int(v.text)])
+                elif inline is not None:
+                    cells.append(''.join(t.text or '' for t in inline.iter(f"{{{ns['m']}}}t")))
+                else:
+                    cells.append(v.text if v is not None else '')
+            rows.append(cells)
+        out.append(f'Sheet: {sheet.get("name")}')
+        if not rows:
+            continue
+        header, body = rows[0], rows[1:]
+        # Label rows by the first text column whose values tell the rows apart.
+        width = max(len(r) for r in body) if body else 0
+        key = next((j for j in range(width)
+                    if all(j < len(r) and r[j] and not re.fullmatch(r'-?[\d.]+', r[j]) for r in body)
+                    and len({r[j] for r in body}) == len(body)), None)
+        for i, cells in enumerate(body, start=2):
+            label = cells[key] if key is not None else f'row {i}'
+            out += [f'{label} | {h} = {c}' for h, c in zip(header, cells)]
+    return '\n'.join(out) + '\n'
+
+
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('url')
@@ -68,8 +114,9 @@ if __name__ == '__main__':
     # curl, with the environment's proxy and certificates; some government sites refuse other clients.
     data = (Path(upload).read_bytes() if upload else
             subprocess.check_output(['curl', '-sS', '-L', '--fail', '--max-time', '120', url]))
-    kind = 'pdf' if data[:5] == b'%PDF-' else 'html'
-    text = pdf_text(data) if 'pdf' in kind or url.lower().endswith('.pdf') else html_text(data.decode('utf-8', 'replace'))
+    kind = 'pdf' if data[:5] == b'%PDF-' else 'xlsx' if data[:2] == b'PK' else 'html'
+    text = (xlsx_text(data) if kind == 'xlsx' else
+            pdf_text(data) if 'pdf' in kind or url.lower().endswith('.pdf') else html_text(data.decode('utf-8', 'replace')))
     retrieved = datetime.date.today().isoformat() + (' (copy uploaded by Espen)' if upload else '')
     header = (f'Source: {url}\nPublisher: {publisher}\nRetrieved: {retrieved}\n'
               f'Original SHA-256: {hashlib.sha256(data).hexdigest()}\n'
