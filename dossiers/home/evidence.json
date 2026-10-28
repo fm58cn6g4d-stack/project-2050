@@ -180,5 +180,54 @@
   "supports": [
    "dossiers/home/1-problem.md"
   ]
+ },
+ {
+  "id": "EV-HOU-011",
+  "statement": "In 2021 there were 4.8 million renter households receiving federal rental assistance, against 19.34 million very low-income renters; CRS divides one by the other to estimate that one in four eligible households is assisted, a rough measure because some programs serve higher incomes and some very low-income households are not eligible for other reasons.",
+  "figures": [
+   "4.8 million",
+   "19.34 million",
+   "2021"
+  ],
+  "source": "SRC-0292",
+  "anchor": "there were 4.8 million assisted renters.* This compares to\n19.34 million very low-income renters in 2021",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-012",
+  "statement": "Because federal funding does not meet demand, the Housing Choice Voucher program serves roughly one in four eligible households, and housing authorities keep waiting lists.",
+  "figures": [],
+  "source": "SRC-0291",
+  "anchor": "demand for vouchers—the program serves roughly one in\nfour eligible households—PHAs generally maintain waiting\nlists for vouchers.",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-013",
+  "statement": "The Housing Choice Voucher program subsidizes the rents of more than 2.3 million households (5 million people) and is the nation's largest rental assistance program.",
+  "figures": [
+   "2.3 million",
+   "5 million"
+  ],
+  "source": "SRC-0291",
+  "anchor": "§1437f(o)), it subsidizes the rents of more than 2.3 million\nhouseholds (5 million people)",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
  }
 ]

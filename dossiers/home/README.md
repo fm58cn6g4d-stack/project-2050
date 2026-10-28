@@ -16,7 +16,7 @@ Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C
 
 | Section | Status |
 | --- | --- |
-| 1. The problem | Draft (stage C, step 1). Rent burden and arrears are evidenced. Worst case needs, homelessness, the assistance gap and supply are listed as evidence still needed |
+| 1. The problem | Draft (stage C, step 1). Rent burden, arrears and the assistance gap (CRS estimate) are evidenced. Worst case needs, homelessness and supply are listed as evidence still needed |
 | 2. What works | Not started |
 | 3. Design choices | Not started |
 | 4. Specification | Not started |
@@ -33,4 +33,4 @@ Evidence register: `evidence.json`, entries EV-HOU-001 onward.
 1. **HUD sources.** HUD's site blocks automated downloads, so these two reports need to be uploaded (`library/README.md`):
    - *Worst Case Housing Needs: 2025 Report to Congress*;
    - the *2024 Annual Homelessness Assessment Report*, Part 1.
-2. **CBO and GAO.** Their sites block downloads too, so their rental-assistance reports need the same route.
+2. **CBO and GAO.** Their sites block downloads too. The assistance gap now rests on Congressional Research Service estimates (EV-HOU-011 to 013); HUD's counts would confirm it.

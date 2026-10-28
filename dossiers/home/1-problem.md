@@ -43,12 +43,16 @@ The scale already evidenced:
 - tens of millions of cost-burdened renter households [EV-HOU-001];
 - almost a quarter of renters falling behind each year [EV-HOU-008].
 
-Three numbers the design will be sized against are not yet evidenced here:
+**Most eligible households get no help.** Federal rental assistance is not an entitlement: it is funded each year, and the funding falls short.
+- In 2021, 4.8 million renter households received federal rental assistance, against 19.34 million very low-income renters [EV-HOU-011]. The Congressional Research Service puts that at roughly one in four eligible households, and calls it a rough measure.
+- Housing Choice Vouchers, the largest program, help more than 2.3 million households (5 million people) [EV-HOU-013]. They too reach roughly one in four eligible households, so housing authorities keep waiting lists [EV-HOU-012].
+- A household's help depends less on its need than on whether it reached the top of a list.
+
+Two numbers the design will be sized against are not yet evidenced here:
 - how many households have the most severe needs;
-- how many eligible households get no help;
 - how many homes are missing.
 
-The dossier does not state them until the sources below are in the library.
+The dossier does not state them until the sources below are in the library. The assistance gap above is a secondary estimate (grade C); HUD's own counts would replace it.
 
 ## Evidence still needed
 
@@ -56,7 +60,7 @@ The dossier does not state them until the sources below are in the library.
 | --- | --- | --- |
 | Very low-income renters with worst case needs: unassisted, paying more than half of income or in severely inadequate housing | HUD, *Worst Case Housing Needs: 2025 Report to Congress* | HUD's site blocks automated download; Espen to upload |
 | People experiencing homelessness on a single night, and the trend | HUD, *2024 Annual Homelessness Assessment Report*, Part 1 | Espen to upload |
-| Share of eligible low-income renters who receive rental assistance | HUD *Worst Case Housing Needs* (assisted and unassisted counts); CBO or GAO on rental assistance | Upload; CBO and GAO block automated download |
+| Share of eligible low-income renters who receive rental assistance, from primary counts | HUD *Worst Case Housing Needs* (assisted and unassisted counts); CBO or GAO on rental assistance | CRS estimate in place (EV-HOU-011, grade C); upload to raise it to grade A |
 | Shortage of homes affordable and available to extremely low-income renters | HUD *Worst Case Housing Needs* (units per 100 renters) | Upload |
 | Eviction filings and judgments | Court data or academic series (licensed: cite and quote only) | To find |
 | 2025 rent burden | Census, 2025 American Community Survey 1-year estimates, released October 29, 2026 | Refresh EV-HOU-001 to 005 next session |
