@@ -1,261 +1,273 @@
-# Project 2050: strategic reorientation
+# Project 2050: strategic reorientation and restructuring plan
 
-October 28, 2026 · Fifth draft. It began as a strategic reflection at Espen's request, rather than a reorganization within the current rules, and now records their first decisions on it. It supersedes the earlier drafts on this branch.
+October 28, 2026 · Adopted by Espen Swanson (pronouns: they/them). Prepared by Claude Code. This document is the working plan for the project's next stage. Its progress is tracked on the progress board (`charter/PROGRESS.md`, created in stage A).
 
-**Decided by Espen, October 28:**
-- the six flagships, with the democracy flagship widened to take in a government that works and long-run institutional renewal;
-- an eventual goal of an exhaustive set of fully scoped topics, with education and transportation emphasized in a later wave;
-- the clean new tree;
-- the vision for models.
+## 1. Purpose
 
-**Still open:** the items in section 8.
+Project 2050 sets out a vision of a country where people have security, time and real power. It argues for that vision honestly and gives people the means to make it real. To do that well, the project works like a serious research enterprise:
+- **Evidence:** policies rest on evidence anyone can call up and check.
+- **Specification:** policies are specified as legislative and executive provisions.
+- **Models:** they are tested by models that express that evidence and that professionals can use.
+- **Public case:** they are explained in persuasive, forthright and optimistic terms that never claim more than the evidence supports.
 
-## 1. Where the project stands
+**What success looks like.**
+1. Every number or factual claim in a decision, provision, model input or public text leads, by an ID, to the exact passage it rests on, and a script checks that it still does.
+2. Every document has one home, and every name it has gone by leads there.
+3. Each commitment has one readable statement of what is decided, why, and what would change the decision. Its history is kept separately.
+4. The core models carry model cards, benchmarks and run logs good enough for outside professionals to rely on.
+5. The public briefs, organizing material and illustrated vision are built on specified commitments.
+6. Over successive waves, every topic in the agenda reaches the same standard, producing an exhaustive, fully scoped program.
 
-**What is strong.**
-- **Purpose.** The project has a clear and attractive purpose: a country where people have security, time and real power, argued for honestly.
-- **Research.** It has a large body of research, most of it now uploaded: the war-game set, the climate and carbon work, the transportation and rail plan, the health analysis, the poverty pilots and the SEEC report.
-- **Tools.** It has real analytical tools: fiscal, incidence, poverty, carbon, transportation and calendar models.
-- **One worked area.** Transportation (Moving America) shows what a fully worked policy area looks like.
-- **Public work.** The public work has found a voice that persuades without overclaiming.
+## 2. Starting point
 
-**What is weak.**
-- **Ideas outrun specification.** The project has 22 policy areas, 438 distinct policy and option IDs, and an options register of about 280 rows. Only a few programs are specified well enough for a skeptical professional to check: who is eligible, what they receive, who administers it, what it costs, what evidence says it works and how it gets delivered. Many entries are directions ("develop an all-age home-support benefit", "develop a housing guarantee") that have been approved before they were designed.
-- **Numbers move because designs are placeholders.** The capacity surge went from about $600B to $300B to $105B within a week. The carbon price rose from $100 to $150 a ton. The financing settlement keeps being re-solved for a program whose largest pieces aren't yet fixed. Precise arithmetic on vague designs produces churn, not confidence.
-- **Evidence is disconnected.** The research exists but reached the working files mostly as conclusions and nicknames, and each pass of work drew on the last summary.
-- **Process has outgrown its purpose.** Merge tiers, agent gates, queues, coordination memos and several overlapping instruction files were built for multi-agent coordination. They consume much of each session and much of Espen's attention, while the thing that most needs attention, the substance of the policies, gets less.
-- **Too many open fronts at once.** Fiscal settlement, capacity reviews, climate portfolios, education funds, public pages and calendar models all advance in parallel. None reaches done.
+The project begins this stage with real strengths:
+- **Purpose:** a clear and attractive purpose.
+- **Research:** a large body of research, now uploaded in full: the war-game set and Bill Book, the climate and carbon work, the transportation and rail plan, the health analysis, the poverty pilots and the SEEC Thriving Economy report.
+- **Models:** working fiscal, incidence, poverty, carbon, transportation and calendar models.
+- **A finished example:** one fully worked area, transportation.
+- **A public voice:** one that persuades without overclaiming.
 
-**The strategic conclusion.** The project should go deep before it goes wide. It should specify a small core of defining commitments first, to a professional standard, on evidence, with models that express that evidence, and build the public argument on that core. Then it should extend the same depth, wave by wave, to every topic, toward an exhaustive set of fully scoped policies. Breadth is the destination, not the starting point.
+Its weaknesses define the work:
+- **Ideas outrun specification.** There are 22 policy areas and 438 distinct policy and option IDs, but few programs are specified well enough for a skeptical professional to check.
+- **Numbers move because designs are placeholders.** Precise arithmetic on vague designs produces churn: the capacity surge moved from about $600B to $105B within a week.
+- **Evidence is disconnected.** It reached the working files as conclusions and nicknames.
+- **Canonical files mix in history.** They carry accumulated dated updates.
+- **Process has grown heavier than the substance it serves.**
 
-## 2. The reoriented strategy
+## 3. Strategy: depth first, then full scope
 
-### 2.1 A core of flagship commitments
+The project specifies a core of defining commitments first, to a professional standard, and builds its public argument on them. It then extends the same depth, wave by wave, to every topic. Breadth is the destination, not the starting point.
 
-A flagship is a commitment that defines what Project 2050 is for, that people would feel in their lives, and that the project specifies all the way down first. Espen has approved six flagships and one foundation. I also recommend a seventh flagship, on immigration, below.
+### 3.1 Flagships and foundations
 
-| # | Flagship | What it brings together | Why it belongs in the core |
-| --- | --- | --- | --- |
-| 1 | **A secure floor for every household** | Monthly child benefit, income support and participation help, paid leave, Social Security protection | The project's founding promise: security that does not depend on luck, work status or family form |
-| 2 | **Care you can count on** | Health coverage restored and extended, a public option, care at home for all ages, child care and pre-K, the care workforce | Care connects health, family and work. It is the largest unfinished design question |
-| 3 | **A home you can keep** | Rental help as a guarantee, building and repair, zoning incentives | A clear problem, strong evidence, and a design already partly developed |
-| 4 | **Clean, affordable power and a prepared country** | Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition | The generational responsibility, with the deepest existing research and models |
-| 5 | **Fair pay and real power at work** | Labor law, wage floors, sectoral standards, support when jobs change | Security depends on power in the economy, not only on public benefits |
-| 6 | **Democratic renewal: a democracy and a government that work for the 21st century** | Voting floor, money in politics, ethics, courts, participation, a government that delivers (capacity, payment systems, remedies when delivery fails), and long-run institutional reform | Every other commitment depends on democratic power that lasts and a state that can deliver. Renewal is the frame that joins them |
-| 7 (proposed) | **A new consensus on immigration** | A humane, orderly and lawful system: legal pathways and status for long-settled residents, fair and fast adjudication, enforcement that respects rights, integration and workforce | After the shock of the Trump years there may be an opening for partisan realignment around a new consensus, but only if a vision is presented and defended in full. That makes it a design question to specify early, not a supporting topic |
+**Flagships** are commitments that define what Project 2050 is for and that people would feel in their lives. They are specified first.
 
-| Foundation | What it covers | Role |
+| # | Flagship | What it brings together |
 | --- | --- | --- |
-| **Fair financing** | Revenue rebalancing, the fiscal rule, the household fairness test | Settled after the flagships' designs are fixed, so the arithmetic finally has stable inputs |
+| 1 | **A secure floor for every household** | Monthly child benefit, income support and participation help, paid leave, Social Security protection |
+| 2 | **Care you can count on** | Health coverage restored and extended, a public option, care at home for all ages, child care and pre-K, the care workforce |
+| 3 | **A home you can keep** | Rental help as a guarantee, building and repair, zoning incentives |
+| 4 | **Clean, affordable power and a prepared country** | Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition |
+| 5 | **Fair pay and real power at work** | Labor law, wage floors, sectoral standards, support when jobs change |
+| 6 | **A new consensus on immigration** | A humane, orderly and lawful system: legal pathways and status for long-settled residents, fair and fast adjudication, enforcement that respects rights, integration and workforce. A new consensus can win only if it is presented and defended in full, so it is specified early |
 
-A government that delivers is now part of flagship 6. Each dossier still specifies its own delivery needs in its delivery section, and flagship 6 owns the cross-cutting state capacity those sections draw on.
+**Foundations** are the conditions every flagship depends on. They are specified alongside and after the flagships.
 
-Every other topic is part of the **full-scope agenda**. It is worked to the same standard in later waves, toward the goal of an exhaustive set of fully scoped policies:
-- **Wave two** puts **education** (K–12 and higher education beyond care) and **transportation** first, the areas the project expects to emphasize later.
-- **Wave three** covers the rest: rights, public safety, national security, competition, executive power, Social Security beyond the floor, amendments and the remaining items.
+| Foundation | What it covers |
+| --- | --- |
+| **Democratic renewal: a democracy and a government that work for the 21st century** | The voting floor, money in politics, ethics, courts, participation, long-run institutional reform, and a government that delivers: agency capacity, payment systems, and remedies when delivery fails. Each flagship's delivery section states its own needs; this foundation owns the cross-cutting state capacity |
+| **Fair financing** | Revenue rebalancing, the fiscal rule, the household fairness test. Settled once the flagship designs are fixed, so the arithmetic has stable inputs |
 
-Transportation is a special case: it is already the most fully specified area, so it is also converted early as the reference example of a finished dossier.
+**The full-scope agenda** covers every other topic, worked to the same standard in later waves:
+- **Wave two:** education (K–12 and higher education beyond care) and transportation, the areas the project expects to emphasize in a second term.
+- **Wave three:** everything else, including rights, public safety, national security, competition, executive power, Social Security beyond the floor and amendments.
 
-### 2.2 A specification ladder
+Transportation is already the most fully specified area, so it is also converted early as the reference example of a finished dossier.
 
-Every policy item gets a level, so everyone can see how finished it is and what "done" means.
+### 3.2 The specification ladder
+
+Every policy item carries a level, so progress and "done" are visible.
 
 | Level | Name | What exists |
 | --- | --- | --- |
 | L0 | Idea | A sentence and a source |
 | L1 | Direction | A goal and a general approach |
-| L2 | Design | Key parameters chosen: who, what, how much, who administers. Main alternatives considered |
-| L3 | Specified | Provisions written section by section; eligibility, benefit, administration, phase-in and remedies; evidence for each load-bearing claim; cost range validated by models with stated limits; delivery plan |
-| L4 | Legislative-ready | Draft legislative text for priority provisions; costs benchmarked against official methods; implementation timeline; known objections answered |
+| L2 | Design | Key parameters chosen (who, what, how much, who administers), with the main alternatives considered |
+| L3 | Specified | Provisions section by section: eligibility, benefit, administration, phase-in and remedies; evidence for each load-bearing claim; a cost range validated by models with stated limits; a delivery plan |
+| L4 | Legislative-ready | Draft legislative text for priority provisions; costs benchmarked against official methods; an implementation timeline; the strongest objections answered |
 
 **Targets:**
-- **First wave:** flagships reach L3, with the most important pieces at L4. Financing reaches L3.
-- **Later waves:** every topic in the full-scope agenda reaches L3, and priority pieces L4, building toward an exhaustive, fully scoped program.
-- **Until a topic's wave arrives:** it sits in the agenda file at its honest level.
-- **The idea bank:** items that are ideas, not commitments, stay organized and searchable at L0–L1 until promoted.
+- **First wave:** flagships and foundations reach L3, with the most important pieces at L4.
+- **Later waves:** every topic reaches L3, with priority pieces at L4.
+- **The idea bank:** items that are ideas rather than commitments stay organized and searchable at L0–L1 until promoted.
 
-The ladder replaces the current habit of approving directions as if they were designs. A direction can be approved as a direction. Its cost is not booked as if it were a specified program.
+A direction can be approved as a direction. Its cost is not booked as if it were a specified program.
 
-### 2.3 The dossier: one unit of work and one product
+### 3.3 Dossiers
 
-Each flagship becomes a **dossier**. A dossier is the unit agents work on, the unit Espen decides on, and the unit professionals read. It has a fixed shape:
+Each flagship, foundation and agenda topic becomes a **dossier**. A dossier is the unit agents work on, the unit Espen decides on and the unit professionals read. Every dossier has the same sections:
 
-1. **The problem.** What is wrong, for whom, how large, with evidence.
-2. **What the evidence says works.** Research, programs at home and abroad, failures to avoid.
-3. **Design choices.** The real forks, options weighed and the choice with reasons. Decision memos for Espen are written at the forks that matter.
-4. **The specification.** Provisions section by section, with IDs.
-5. **Delivery.** Who administers it, capacity needed, timeline, remedies when it fails, state roles.
-6. **Cost and financing.** Cost ranges from models that express the evidence, and how the dossier fits the fiscal rule.
-7. **Validation.** Model runs showing likely outcomes, benchmarks, what the models miss, and the strongest objections answered.
+1. **The problem:** what is wrong, for whom and how large, with evidence.
+2. **What works:** research, programs at home and abroad, and failures to avoid.
+3. **Design choices:** the real forks, the options weighed, and the choice with its reasons. Decision memos go to Espen at the forks that matter.
+4. **Specification:** provisions section by section, with IDs.
+5. **Delivery:** administration, capacity, timeline, remedies and state roles.
+6. **Cost and financing:** cost ranges from models that express the evidence, and fit with the fiscal rule.
+7. **Validation:** model runs, benchmarks, what the models miss, and the strongest objections answered.
 8. **What would change our minds.**
-9. **The public case.** The research brief, plus organizing material: who gains, stories, objections and answers. It is built from the sections above, never ahead of them.
+9. **The public case:** a research brief and organizing material, built from the sections above, never ahead of them.
 
-Every factual claim in a dossier carries an evidence ID that leads to an exact passage, and a script checks it, as on the essay page.
+### 3.4 Models
 
-### 2.4 Models as expressions of the evidence, and as a toolkit
+Models are part of the reasoning: comparing options, sizing programs, finding where a design fails. They are legitimate in that role because they express the evidence:
+- every input traces to an evidence ID, or is a labeled assumption with a tested range;
+- every mechanism rests on documented research;
+- every model states what it leaves out.
 
-Models are part of the reasoning, especially for comparing options, sizing programs and finding failure points. But a model is only as good as the evidence it encodes. Every input traces to evidence or is a labeled assumption with a range. Every model states what it leaves out. Every published result records the model version and the design version it tested. Public language presents model results as "our analysis" of the evidence, never as an independent authority.
+A model result carries the weight of the evidence beneath it, no more. A result built on untraced assumptions, or one that conflicts with stronger direct evidence, is a reason to look harder, not a basis for a decision. In public, model results are "our analysis" of the evidence, never an independent authority, and they appear with their conditions and limits.
 
-The models also become a professional product: analytical and policymaking code that legislative staff, analysts, researchers and advocates can run, inspect and adapt. Each core model gets:
-- a model card: question, evidence map, mechanisms, limits, status;
-- benchmarks against official estimates (CBO, the Joint Committee on Taxation, SSA's actuaries, the Treasury, the Tax Policy Center, the Energy Information Administration, the Census Bureau's poverty measure);
-- a stable one-command interface;
-- tests;
-- a run log.
+The models are also a professional product: validated analytical and policymaking code that legislative staff, analysts, researchers and advocates can run, inspect and adapt. The core models, built from today's tools:
 
-The models should consolidate around what the flagships need first. Over time, the project should develop further tools that are validated and genuinely useful to policy professionals.
-
-| Core model | Serves | Built from today's tools |
+| Core model | Serves | Built from |
 | --- | --- | --- |
-| **Household model**: taxes, benefits, poverty and distribution for real household types | Flagships 1, 2, 3, 5 and 7; the fairness test | The incidence model and the child-poverty microsimulation, unified |
-| **Federal budget model**: costs, revenues, the fiscal rule, trust funds | Foundations; every flagship's cost | The ledger, fiscal, recovery-budget and fund models |
-| **Energy and climate model**: emissions, prices, bills, dividends | Flagship 4 | The carbon model and the climate portfolio tools |
-| **Housing model**: assistance reach, rents, supply | Flagship 3 | New, small, evidence-based |
-| **Transportation model** | Supporting agenda | Existing |
+| **Household model:** taxes, benefits, poverty and distribution for real household types | Flagships 1, 2, 3, 5 and 6; the fairness test | The incidence model and the child-poverty microsimulation, unified |
+| **Health coverage model:** coverage, premiums, out-of-pocket costs and federal cost under restoration, the public option and Medicare changes | Flagship 2 | New, starting simple and benchmarked to CBO's coverage estimates |
+| **Federal budget model:** costs, revenues, the fiscal rule, trust funds | Every dossier; fair financing | The ledger, fiscal, recovery-budget and fund models |
+| **Energy and climate model:** emissions, prices, bills, dividends | Flagship 4 | The carbon model and the climate portfolio tools |
+| **Housing model:** assistance reach, rents, supply | Flagship 3 | New, small and evidence-based |
+| **Immigration model:** system capacity, adjudication, fiscal and labor-market effects | Flagship 6 | New, built during that dossier |
+| **Transportation model** | Wave two | Existing |
 
-Immigration will need its own evidence base and, later, a model of system capacity and fiscal and labor-market effects. Calendar and vote simulations are kept but paused. Legislative sequencing matters once there is specified legislation to sequence. Health coverage has no model today. That is a gap to fill in the care dossier, starting simple.
+The calendar and vote simulations are paused until there is specified legislation to sequence. Over time the toolkit grows into a broader set of validated tools useful to policy professionals.
 
-### 2.5 Public and organizing work, built on the core
+**The toolkit standard.** Every core model carries:
+- **a model card:** the question it answers and the questions it cannot; its evidence map (each input to an evidence ID or a labeled assumption with a range); its mechanisms and their research basis; its limits; its status (exploratory, working or released); its owner;
+- **benchmarks:** comparison with official or independent estimates (CBO, the Joint Committee on Taxation, SSA's actuaries, the Treasury, the Tax Policy Center, the Energy Information Administration, the Census Bureau's poverty measure), with differences explained;
+- **a stable interface:** documented inputs, outputs and scenarios, runnable from one command with public or documented data;
+- **tests:** accounting identities, boundary cases and reproduction of published results;
+- **a run log:** every published result linked to the model version, inputs and provision versions it used.
 
-There is one research brief per flagship, in the persuasive, forthright and optimistic voice Espen set, built from its dossier. Each brief gets an organizing kit: plain talking points, who gains, local stories, hard questions with honest answers. The illustrated "day in 2050" front door is rebuilt once several flagships are specified, so the vision is backed by real designs. Nothing public runs ahead of its dossier.
+The toolkit never claims to produce official scores or individual benefit determinations.
 
-## 3. Organization: a clean structure, with the old one kept intact (decided)
+### 3.5 Public and organizing work
 
-The current tree mixes canon, history, research, models, generated reports and coordination memos. Rather than reorganizing it in place over months, I recommend a clean new structure, with the entire current tree preserved read-only as `legacy/`. Nothing is lost, and nothing in `legacy/` counts as current until a dossier pulls it in.
+Each flagship and foundation gets a research brief in the persuasive, forthright and optimistic voice Espen set, and an organizing kit: plain talking points, who gains, stories, and hard questions with honest answers. Each is built from its dossier and released as the dossier reaches L2–L3. The illustrated "day in 2050" front door is rebuilt on the specified flagships.
+
+## 4. Structure
+
+The project uses a clean tree. The previous tree is preserved unchanged and read-only as `legacy/`. Anything not in the six current folders below is not current.
 
 ```
-charter/          goals, the flagship list, the outcomes record, the decision log, the one-page standards
+charter/          goals, the flagship list, the outcomes record, the decision log, the standards page, the progress board
 dossiers/
-  <flagship>/     problem, evidence, design, specification, delivery, cost, validation, public case
-  foundations/    financing
-agenda/           the supporting agenda and idea bank: every policy item, one row each, with level, status and source
-library/          originals (the uploads and primary sources), the catalog, the name index, evidence registers
-models/           the core models, each with its model card, data, tests and run log
+  <flagship>/     the dossier sections (3.3), its evidence register, provisions and decision log
+  foundations/    democratic renewal, fair financing
+  agenda/         wave-two and wave-three dossiers as they start
+agenda/           every policy item, one row each: ID, plain name, home dossier, level, status, source, note
+library/          originals and their text versions, source cards, the catalog, the name index
+models/           the core models, each with model card, data, tests and run log; the registry checker
 public/           the site, briefs and organizing material
-legacy/           the current tree as of the reorientation, unchanged and read-only
+legacy/           the tree as of October 28, 2026, unchanged
 ```
 
-**Why a clean break rather than gradual moves.** A clean break makes it obvious what is current: if a document isn't in `charter/`, `dossiers/`, `agenda/`, `library/`, `models/` or `public/`, it isn't current. Gradual moves would leave the old ambiguity in place for most of a year, and agents would keep drawing on stale material.
+**Records and IDs.** One registry checker verifies every link between records. It generalizes the essay builder's proven checks: anchors exist, figures belong to cited claims, rounded figures follow from raw values, IDs resolve, and re-check dates aren't past due.
 
-**Cost.** The cost is one careful migration of the models and checks, so the tools run from their new paths. Git keeps every file's history, and a name index maps every old path and nickname to its new home.
-
-**The agenda file.** This is how breadth is kept without being worked on. Every policy and option ID (about 440 today) becomes one row, with these fields:
-- its ID;
-- a plain name;
-- the flagship, foundation or supporting area it belongs to;
-- its ladder level;
-- its status: adopted, direction, option, parked or retired;
-- its source document;
-- a one-line note.
-
-This turns the sprawling domain files into a navigable map. Detailed design moves into dossiers only when an item is promoted.
-
-## 4. Process: much lighter, and aimed at substance
-
-**What to keep:**
-- Git and pull requests.
-- The automatic checks that are cheap and valuable: tests, generated-file drift, and evidence and claim checks.
-- Espen as the decision-maker on goals and major design forks.
-- A second agent's review of dossiers at milestones.
-
-**What to simplify:**
-- **Two merge categories instead of three tiers.**
-  - *Routine:* research, evidence, models, drafts and public pages. These merge once checks pass.
-  - *Decisions:* the charter, the flagship list, design forks, and anything that changes what the project commits to. These wait for Espen.
-- **Review at milestones, not on every PR.** Another agent reviews each dossier when it reaches L2 and again at L3, against a checklist. Per-PR ceremony goes away.
-- **One standards page** replaces the overlapping instruction files. Entry files for each agent point to it.
-- **One progress board** replaces the queue and coordination memos. It shows each dossier's level, the next step and open decisions for Espen.
-- **Decision memos at real forks.** Espen gets two to four options, a recommendation and the consequences. That replaces blanket approval of whole recommendation packages, which made directions look like designs and fed the churn.
-
-**What to stop for now:**
-- New policy areas and new ideas beyond the agenda file. They can still be logged there.
-- Re-solving the financing settlement before flagship designs are fixed.
-- Legislative calendar and vote modeling, until there is specified legislation.
-- Parallel work on many fronts. At most two dossiers are active at once.
-
-**The session routine.** Every agent session, Claude or Codex:
-1. reads the standards page and the progress board;
-2. works on one dossier step;
-3. runs the checks;
-4. updates the board;
-5. opens a PR.
-
-The repository is the only memory.
-
-## 5. Sequence
-
-| Stage | What happens | Sessions |
+| Record | ID | Home |
 | --- | --- | --- |
-| **A. Reset** | Espen decides the flagships and the structure. Build the new tree with `legacy/` preserved. Migrate the models and checks. Write the standards page and progress board. Build the agenda file from the domain files and options register, with every item given a level and status. Build the library catalog and name index from the repository and the uploads | 4–6 |
-| **B. Post-election update** | Rebaseline the political planning scenario after the November 3 results. Kept small and placed early, because it frames what's achievable when | 1–2 |
-| **C. First dossiers** | **Housing:** furthest along, with a brief already written. **Transportation:** convert as the reference dossier, mostly organization. Set the templates from what these teach | 5–7 |
-| **D. The big designs** | **Care** (flagship 2) and **the secure floor** (flagship 1): the largest unfinished design questions, and the heart of the project. Build the household model alongside | 10–14 |
-| **E. Climate and immigration** | Climate and energy (flagship 4), on the deepest existing research. Immigration (flagship 7, if approved), placed here so a specified vision exists well before the 2028 cycle | 9–12 |
-| **F. Work and democratic renewal** | Flagships 5 and 6, including state capacity sized to what the specified flagships need | 7–10 |
-| **G. Financing** | The financing settlement solved once, on stable designs, with the household fairness test | 3–5 |
-| **H. Toolkit and front door** | Release the core models as a professional toolkit. Rebuild the illustrated vision on the specified flagships | 5–8 |
+| Source | `SRC-0001` | `library/catalog.csv` (authored fields) with generated facts (path, size, checksum, git dates) in a separate file |
+| Evidence claim | `EV-HOU-001` | `dossiers/<dossier>/evidence.json` |
+| Outcome | `OUT-01` | `charter/outcomes.md` |
+| Policy and option | Existing IDs, e.g. `HOU-4`, `HOU-4A` | `agenda/agenda.csv` |
+| Provision | `HOU-4A.01` | `dossiers/<dossier>/provisions.json` |
+| Vehicle and ledger row | Existing, e.g. `R2` | The federal budget model's ledger inputs, with a provision crosswalk |
+| Decision | `DEC-2026-10-28-01` | `charter/decisions.md` (goals and Espen's decisions) and each dossier's design section (design choices and reasons) |
+| Model and run | `MOD-household`, `RUN-household-2026-11-02-a` | `models/<model>/` |
+
+**Evidence entries** record:
+- the statement and its figures;
+- the source ID and the exact anchor passage;
+- an evidence grade: A, official data or primary law; B, experimental or peer-reviewed research; C, credible secondary analysis; D, project estimate; E, assumption;
+- the date of the fact, the date checked, and a re-check date;
+- what the entry supports.
+
+Registers cover the claims that decisions, provisions, models and public content rely on. They grow as the work needs them; they are not an exhaustive catalogue of facts.
+
+**Restatement check.** When legacy content becomes a canonical dossier, a script compares every number and policy ID in the source with the result. Anything not carried over must appear in the decision log or be flagged.
+
+**Public repository.** The repository stays public so the merge automation keeps working on GitHub Free. Consequently:
+- the library holds open and public-domain material in full;
+- licensed or paywalled material (such as POLITICO Pro) appears only as citations and short quotations, with full copies kept by Espen outside the repository;
+- personal references come out of the writing guide.
+
+A private working repository, with releases to a public one, remains an option for later.
+
+## 5. Process
+
+The process is designed for AI agents working without memory between sessions, with limited context and with one human decision-maker.
+
+**Principles.**
+- **The repository is the only memory.** Every session can start cold, and the standards page and progress board are enough to orient it.
+- **Small, self-describing files.** A dossier section, an evidence register or a model card fits comfortably in one reading. Files state their own role and status at the top, and canonical files carry no history.
+- **Machine-checkable wherever possible.** Every cross-reference uses a stable ID, and the registry checker, tests and drift checks run on every PR. Agents rely on checks rather than on remembering conventions.
+- **One canonical home per fact.** Generated indexes (the name index, readable registers, the agenda view) are rebuilt by script, never hand-edited.
+- **Bounded tasks.** One dossier step per session, so work finishes, gets checked and lands.
+
+**The session routine.** Every agent session follows the same steps:
+1. Read `charter/STANDARDS.md` and `charter/PROGRESS.md`.
+2. Claim one step on the board.
+3. Read that dossier's files and the evidence it needs.
+4. Do the step.
+5. Run the checks.
+6. Update the board: done, next, and open questions for Espen.
+7. Open a PR.
+
+**Merging:**
+- **Routine changes** merge once checks pass. These are research, evidence, models, dossier drafts and public pages that change no commitment.
+- **Decisions** wait for Espen. These are the charter, the flagship list, design choices at real forks, and anything that changes what the project commits to.
+
+**Review:**
+- **Dossiers:** a second agent reviews each dossier against a checklist when it reaches L2 and again at L3, rather than on every PR. The reviewer tries to break the work, looking for weak evidence, missing populations, optimistic assumptions and cheaper alternatives.
+- **Outside reviewers:** people who run these programs should eventually review each flagship dossier. That needs Espen, since agents never contact other people.
+
+**Decision memos.** At each real fork, Espen gets two to four options, a recommendation, and the consequences of each. Approval is given per decision, not as a package.
+
+**Roles:**
+- **Codex** leads the federal budget model and fair financing.
+- **Claude** leads the dossiers.
+- Each reviews the other's work at milestones.
+- At most two dossiers are active at once.
+
+**Paused:**
+- new policy areas outside the agenda file (ideas are still logged there);
+- re-solving the financing settlement before the flagship designs are fixed;
+- legislative calendar and vote modeling.
+
+## 6. Sequence
+
+A session is one focused working session by one agent.
+
+| Stage | Work | Sessions |
+| --- | --- | --- |
+| **A. Reset** | Build the clean tree, with `legacy/` preserved. Migrate the models and checks so they run from their new paths. Write the standards page, the progress board and the outcomes record (outcomes for Espen's approval). Build the agenda file from the domain files and options register, with every item given a level and status. Build the library catalog and name index from the repository and the October 28 uploads. Write the registry checker | 5–7 |
+| **B. Post-election update** | Rebaseline the political planning scenario after the November 3 results | 1–2 |
+| **C. First dossiers** | Housing, the first full dossier. Transportation, converted as the reference example. Fix the templates from what these teach | 5–7 |
+| **D. Care and the secure floor** | Flagships 2 and 1, the largest design questions. Build the household and health coverage models alongside | 12–16 |
+| **E. Climate and immigration** | Flagships 4 and 6, with immigration specified well before the 2028 cycle | 9–12 |
+| **F. Work and democratic renewal** | Flagship 5 and the democratic renewal foundation, including state capacity sized to the specified flagships | 7–10 |
+| **G. Fair financing** | The financing settlement, solved once on stable designs, with the household fairness test | 3–5 |
+| **H. Toolkit and front door** | Release the core models as a professional toolkit, and rebuild the illustrated vision | 5–8 |
 | **I. Wave two** | Education and transportation to L3, with priority pieces at L4 | 6–10 |
-| **J. Wave three** | Every remaining topic to L3, toward the exhaustive program | 20–35 |
+| **J. Wave three** | Every remaining topic to L3 | 20–35 |
 
 **Totals:**
-- **First wave (stages A–H):** about 45–65 sessions.
-- **Full scope (adding stages I–J):** roughly 70–110 sessions over a longer period, at whatever pace credits allow.
+- **First wave (stages A–H):** about 47–67 sessions.
+- **Full scope (adding stages I–J):** about 75–110 sessions.
 
-**If sessions are scarce:** stages A and B, then the housing dossier, about 10 sessions. That gives a clean project, a current political frame and one complete dossier as the pattern for the rest.
+**When credits are scarce,** stages A and B and the housing dossier come first, about 10 sessions. That gives a clean project, a current political frame and one complete dossier as the pattern for the rest.
 
-**Why this order.** Housing comes first because it's ready. Care and the secure floor come early because they define the project and most need design. Financing comes late on purpose: it should pay for a specified program, not chase a moving one. A strategic review with Espen sits at each stage boundary, with permission to change the flagship list when the evidence warrants it.
+Housing comes first because it is ready. Care and the secure floor come early because they define the project. Financing comes after the designs it pays for. At every stage boundary Espen holds a short strategic review, and the flagship list can change when the evidence warrants it.
 
-## 6. How agents should work on this, given their limits
+## 7. What agents can and cannot do
 
-- **No memory between sessions.** Everything lives in the repository; the progress board says where things stand.
-- **Limited context.** One dossier step per session. Scripts handle cataloguing and checks.
-- **Material agents can't reach:** the claude.ai Projects, the ChatGPT Library, paywalled sources. Espen uploads what's needed.
-- **What agents are good at:** reading and converting originals, checking public sources, writing and testing models, drafting specifications and briefs. They are weaker at final judgment on values and priorities. That is why design forks go to Espen as decision memos.
-- **Judgment calls can be wrong:** levels, evidence grades, which claims carry weight. The automatic checks and milestone reviews catch most of it.
-- **No contact with other people.** Expert review, records requests or outreach need Espen. The plan should eventually include real outside review of each flagship dossier, by people who run these programs. No model or agent review substitutes for it.
+- **Memory and context.** Agents start each session without memory and cannot hold the whole corpus at once. Scripts handle cataloguing and checking, and each session takes one bounded step.
+- **What agents can do:**
+  - read PDF, Word, Excel and HTML originals and convert them to text;
+  - check public sources on the web;
+  - write, test and benchmark models;
+  - draft specifications, decision memos and briefs.
+- **What agents cannot reach:** the claude.ai Projects, the ChatGPT Library, or paywalled sources. Espen uploads what's needed.
+- **Judgment calls.** Levels, grades and which claims carry weight can be wrong. The checks and milestone reviews catch most errors. Values and priorities belong to Espen, through decision memos.
+- **No contact with other people.** Agents never contact people on Espen's behalf.
 
-## 7. Risks
+## 8. Risks
 
 | Risk | Response |
 | --- | --- |
-| Narrowing to flagships looks like abandoning the rest | The agenda file keeps every idea visible with its status. Promotion is always possible |
-| The clean break loses something | `legacy/` keeps everything intact, the name index maps it, and Git keeps history |
-| Migration breaks the tools | One focused migration session, with the full checks run before and after |
-| Depth takes longer than expected | The specification ladder shows partial progress honestly. A flagship at L2 is still more useful than 40 items at L1 |
-| The project loses its public momentum | The research brief per flagship ships as each dossier reaches L2–L3, not at the end |
-| Financing stays unresolved for months | That is honest. The fiscal rule and fairness test still apply, and the brief says plainly what is and isn't settled |
-
-## 8. Decisions
-
-**Decided, October 28:**
-- depth first, then full scope;
-- the six flagships, with democratic renewal widened as described;
-- education and transportation as wave two;
-- the clean new tree with `legacy/`;
-- the vision for models and the professional toolkit.
-
-**Still open for Espen:**
-1. **Immigration:** add it as flagship 7 (recommended), or as the first priority after the flagships.
-2. **Flagship 6 title:** a working title such as "Democratic renewal" or "A democracy that works for the 21st century."
-3. **Process:** two merge categories, milestone reviews, one standards page, one progress board, and decision memos at real forks.
-4. **What to stop:** pause new areas, financing re-solves, and calendar and vote modeling until the flagships are specified.
-5. **Sequence and pace:** the order in section 5, and the minimum path (about 10 sessions) if credits are tight.
-6. **Codex's role:** I suggest Codex leads the federal budget model and financing, Claude leads dossiers, and each reviews the other at milestones.
-7. **Where the work lives:** see section 9.
-
-## 9. Public, private, and the automation
-
-The repository is public because the merge automation needs it. On GitHub Free, branch protection and rulesets, which enforce the required checks, work only on public repositories; GitHub Pro adds them for private ones (GitHub docs, checked October 28). Being public has costs:
-- anyone can read the internal decision records and strategy;
-- anyone can read the writing style guide, which names private writing samples and two sent emails;
-- copyrighted or licensed material can't be stored in full. A paywalled POLITICO Pro article in the uploads was deleted from the branch for this reason; it remains in that branch's earlier history unless the history is rewritten.
-
-The clean new tree is a natural moment to choose deliberately. Options:
-
-| Option | What it means | Tradeoffs |
-| --- | --- | --- |
-| **A. Stay public** | Everything stays as it is | Free, and the automation keeps working. Internal deliberation stays visible. The library holds open material in full and only citations and short quotations of licensed material; full licensed copies live in your own storage. Personal references come out of the style guide |
-| **B. Private, with GitHub Pro** | One private repository with branch protection and rulesets | Small monthly cost. The automation keeps working as built. Licensed originals can be kept in full (still subject to their licenses). Actions minutes on private repos are metered beyond a free allowance |
-| **C. Split** | A private working repository (library, dossiers in progress, decision records) and a public repository for the published edition and the professional toolkit | Matches the product: deliberation stays private, while finished public content and validated tools are published on purpose. Needs a simple release step from private to public, plus either GitHub Pro for the private repo's merge checks or a simpler review process there |
-
-**Recommendation:** C as the destination, because the public edition and the toolkit are meant to be public and the deliberation is not. B is the simplest bridge until the public edition is ready to release. The new tree is designed for this split: `charter/`, `dossiers/` drafts and `library/` stay internal, while `public/` and released `models/` are publishable.
+| Narrowing to flagships looks like abandoning the rest | The agenda file keeps every item visible with its level and status, and later waves cover every topic |
+| The clean break loses something | `legacy/`, the name index and Git history keep everything reachable |
+| Migration breaks the tools | One focused migration step, with the full checks run before and after |
+| Depth takes longer than expected | The ladder shows partial progress honestly, and briefs ship as dossiers reach L2–L3 |
+| Registers become busywork | Only claims that carry weight are registered |
+| Models imply precision they lack | Model cards, benchmarks, stated limits, and no claim to official scores |
+| Licensed material leaks into the public repository | The catalog's rights field, and quotations only |
+| Review capacity runs short | Milestone reviews, small PRs, and Espen's direct approval for decisions |
