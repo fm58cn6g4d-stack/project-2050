@@ -150,9 +150,12 @@ footer.site { border-top:1px solid var(--line); padding:24px 0 40px; font-size:.
 .register h1 { font-size:clamp(2rem,5vw,3rem) }
 .register p { line-height:1.6; max-width:48rem }
 .table-scroll { overflow-x:auto; border:1px solid var(--line); border-radius:10px; background:var(--white) }
-.register table { border-collapse:collapse; width:100%; min-width:760px; font-size:.9rem; line-height:1.45 }
+.register table { border-collapse:collapse; width:100%; min-width:900px; font-size:.9rem; line-height:1.45 }
 .register caption { text-align:left; padding:12px 14px; color:var(--muted) }
-.register th, .register td { text-align:left; vertical-align:top; padding:10px 14px; border-top:1px solid var(--line); overflow-wrap:anywhere }
+.register th, .register td { text-align:left; vertical-align:top; padding:10px 14px; border-top:1px solid var(--line) }
+.register td:nth-child(2), .register td:nth-child(3), .register tbody th { white-space:nowrap }
+.register td:last-child { overflow-wrap:anywhere; min-width:14rem }
+.register td:nth-child(4) { min-width:20rem }
 .register thead th { background:var(--soft) }
 .register li { margin-bottom:8px; line-height:1.5 }
 </style></head><body>
