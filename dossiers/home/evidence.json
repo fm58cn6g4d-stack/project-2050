@@ -1,0 +1,509 @@
+[
+ {
+  "id": "EV-HOU-001",
+  "statement": "Over 21 million renter households, 49.7% of the 42.5 million for whom rent burden is calculated, spent more than 30% of income on housing costs in 2023.",
+  "figures": [
+   "21 million",
+   "49.7%",
+   "42.5 million",
+   "30%",
+   "2023"
+  ],
+  "source": "SRC-0287",
+  "anchor": "Over 21 million renter households spent more than 30% of their income on housing costs in 2023, representing nearly half (49.7%) of the 42.5 million renter households in the United States for whom rent burden is calculated",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2026-11-05",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ],
+  "note": "2023 ACS 1-year. The 2025 ACS 1-year estimates are released October 29, 2026: refresh."
+ },
+ {
+  "id": "EV-HOU-002",
+  "statement": "HUD counts a household as cost-burdened above 30% of income on housing and severely cost-burdened above 50%.",
+  "figures": [
+   "30%",
+   "50%"
+  ],
+  "source": "SRC-0287",
+  "anchor": "Households are considered cost-burdened when they spend more than 30% of their income on rent, mortgage payments, and other housing costs, according to the U.S. Department of Housing and Urban Development (HUD). Households spending more than 50% of their income on housing costs are considered severely cost-burdened.",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-10-28",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-003",
+  "statement": "4.6 million Black renter households (56.2%) were cost-burdened in 2023.",
+  "figures": [
+   "4.6 million",
+   "56.2%",
+   "2023"
+  ],
+  "source": "SRC-0287",
+  "anchor": "4.6 million (56.2%) paid more than 30% of their income on housing costs in 2023",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2026-11-05",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-004",
+  "statement": "About 2.5 million Black renter households (30.6%) were severely cost-burdened in 2023.",
+  "figures": [
+   "2.5 million",
+   "30.6%"
+  ],
+  "source": "SRC-0287",
+  "anchor": "About 2.5 million (30.6%) Black alone and 1.1 million (28.8%) Some Other Race alone renter householders were severely cost-burdened",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2026-11-05",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-005",
+  "statement": "Median gross rent rose 2.7% from $1,448 in 2023 (inflation-adjusted) to $1,487 in 2024; the median share of income going to rent stayed at 31%.",
+  "figures": [
+   "2.7%",
+   "$1,448",
+   "$1,487",
+   "31%"
+  ],
+  "source": "SRC-0288",
+  "anchor": "median gross rent (rent plus the cost of utilities) increased 2.7% from $1,448 in 2023 (adjusted for inflation) to $1,487 in 2024. Despite this rise in cost, the median percentage of income going towards rent did not increase in 2024, staying at 31%.",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2026-11-05",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-006",
+  "statement": "In 2023 real median gross rent grew 3.8%, faster than real median home values (1.8%), the largest annual real rise in rental costs since at least 2011.",
+  "figures": [
+   "3.8%",
+   "1.8%",
+   "2011"
+  ],
+  "source": "SRC-0289",
+  "anchor": "grew faster annually (3.8%) than real median home values (1.8%) in 2023 for the first time in 10 years, according to the 2023 American Community Survey (ACS) released today.\nThis marked the largest annual real increase in rental costs since at least 2011.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2026-11-05",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-007",
+  "statement": "From 2019 to 2021 the share of income spent on rent and utilities rose, and renters with the lowest incomes saw the largest increases.",
+  "figures": [
+   "2019",
+   "2021"
+  ],
+  "source": "SRC-0289",
+  "anchor": "The percentage of household income spent on rent plus utilities increased from 2019 to 2021 and renters with the lowest annual income saw the largest spikes.",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-10-28",
+  "recheck": "2026-11-05",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-008",
+  "statement": "Twenty-three percent of renters were behind on rent at some point in the past year (2025), up 2 points from 2024 and 6 points since 2021.",
+  "figures": [
+   "Twenty-three percent",
+   "2 percentage points",
+   "2024",
+   "6 percentage points",
+   "2021"
+  ],
+  "source": "SRC-0290",
+  "anchor": "Twenty-three percent of renters\nreported that they had been behind on their rent at some point in the past year, up 2 percentage points from 2024 and 6 percentage points since 2021.",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ],
+  "note": "Federal Reserve Survey of Household Economics and Decisionmaking, fielded October 2025; the 2026 report is due May 2027."
+ },
+ {
+  "id": "EV-HOU-009",
+  "statement": "Nearly a third of renters with incomes under $50,000 were behind on rent at some point in the past year, against 5 percent of renters with incomes of at least $100,000.",
+  "figures": [
+   "$50,000",
+   "5 percent",
+   "$100,000"
+  ],
+  "source": "SRC-0290",
+  "anchor": [
+   "Nearly one-third of renters with less than\n$50,000 in income reported being behind on\nrent at some point during the past year, compared with 5 percent among renters with",
+   "income of at least $100,000 (table 48)."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-010",
+  "statement": "The median reported rent among renters held at $1,200 in 2025.",
+  "figures": [
+   "$1,200"
+  ],
+  "source": "SRC-0290",
+  "anchor": "Among renters, the median reported rent held\nsteady at $1,200",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-011",
+  "statement": "In 2021 there were 4.8 million renter households receiving federal rental assistance, against 19.34 million very low-income renters; CRS divides one by the other to estimate that one in four eligible households receives assistance, and calls it a rough measure.",
+  "figures": [
+   "4.8 million",
+   "19.34 million",
+   "2021"
+  ],
+  "source": "SRC-0292",
+  "anchor": "The estimate that one in four eligible households receives\nfederal rental assistance comes from dividing the number of\nhouseholds receiving federal rental assistance by the\nnumber of very low-income renters. In 2021, according to\nHUD’s “2021 Picture of Subsidized Households” data and\nUSDA’s Multifamily Housing Annual Occupancy Report,\nthere were 4.8 million assisted renters.* This compares to\n19.34 million very low-income renters in 2021, according\nto HUD’s Worst Case Housing Needs Report, 2023. This is\na rough measure",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-012",
+  "statement": "Because federal funding does not meet demand, the Housing Choice Voucher program serves roughly one in four eligible households, and housing authorities keep waiting lists.",
+  "figures": [],
+  "source": "SRC-0291",
+  "anchor": "demand for vouchers—the program serves roughly one in\nfour eligible households—PHAs generally maintain waiting\nlists for vouchers.",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-013",
+  "statement": "The Housing Choice Voucher program subsidizes the rents of more than 2.3 million households (5 million people) and is the nation's largest rental assistance program.",
+  "figures": [
+   "2.3 million",
+   "5 million"
+  ],
+  "source": "SRC-0291",
+  "anchor": "the nation’s largest rental assistance program. Authorized\nunder Section 8 of the Housing Act of 1937 (42 U.S.C.\n§1437f(o)), it subsidizes the rents of more than 2.3 million\nhouseholds (5 million people)",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-014",
+  "statement": "On a single night in 2025, 745,652 people were experiencing homelessness: 479,332 sheltered and 266,320 unsheltered (HUD point-in-time count, as reported by CRS).",
+  "figures": [
+   "745,652",
+   "479,332",
+   "266,320"
+  ],
+  "source": "SRC-0293",
+  "anchor": "On a single night in 2025, there were 745,652 total people experiencing homelessness, 479,332 of whom were sheltered\nand 266,320 of whom were unsheltered.",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-015",
+  "statement": "The 2025 count compares with 647,258 in 2007, a low of 549,928 in 2016, and 771,480 in 2024.",
+  "figures": [
+   "647,258",
+   "549,928",
+   "771,480"
+  ],
+  "source": "SRC-0293",
+  "anchor": "In 2025, 745,652 people were experiencing homelessness\naccording to PIT data; this compares to 647,258 in 2007;\n549,928 in 2016 (the year with the lowest number); and\n771,480 in 2024.",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-016",
+  "statement": "In 2025, 155,750 individuals were chronically homeless, the highest number recorded, up from 77,486 in 2016. The series counts individuals only; chronically homeless people in families are reported separately and are not included. In law, a chronically homeless person has a disability and has lived in a place not meant for habitation, an emergency shelter or a safe haven for at least one year continuously, or on four separate occasions totaling one year over three years.",
+  "figures": [
+   "155,750",
+   "77,486"
+  ],
+  "source": "SRC-0293",
+  "anchor": [
+   "In 2025, 155,750\nindividuals were chronically homeless, the highest number\nrecorded. It is up from 77,486 at the lowest point in 2016.",
+   "homeless people in families since 2013. Family data are not\nincluded in the AHAR report",
+   "haven for at least one year continuously or on four separate\noccasions totaling one year over the course of three years."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-017",
+  "statement": "Commonly cited estimates put the national housing shortage at roughly 4 million to 5 million homes, but methods differ and some observers argue the shortages are local or specific to housing types, including housing affordable to low-income renters.",
+  "figures": [
+   "4 million",
+   "5 million"
+  ],
+  "source": "SRC-0294",
+  "anchor": [
+   "Although Table 1 suggests a shortage ranging between approximately 4 million and 5 million, there is not\nuniversal agreement that the United States has a housing shortage at all.",
+   "United States does not have an overall shortage, but rather location or housing-type specific shortages,\nincluding housing affordable to low-income renters."
+  ],
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-018",
+  "statement": "The National Low Income Housing Coalition estimates a shortage of 7.1 million rental homes affordable and available to extremely low-income renters (as summarized by CRS).",
+  "figures": [
+   "7.1 million"
+  ],
+  "source": "SRC-0294",
+  "anchor": "Low Income Housing Coalition (NLIHC) estimates a shortage of 7.1 million rental homes affordable and\navailable to renters with extremely low incomes",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-019",
+  "statement": "By the same estimate there are 35 affordable and available rental homes for every 100 extremely low-income renter households, and shortages exist in every state and major metropolitan area.",
+  "figures": [
+   "35",
+   "100"
+  ],
+  "source": "SRC-0294",
+  "anchor": "that for every 100 extremely low-income renter households, there are 35 affordable and available rental\nhomes, and that shortages exist in every state and major metropolitan area",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-28",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-020",
+  "statement": "Of the 19.14 million very low-income renter households at risk of severe rent burdens and severely inadequate housing in 2023, 8.46 million (44.2 percent) had worst case needs: one or both problems without housing assistance.",
+  "figures": [
+   "19.14 million",
+   "8.46 million",
+   "44.2 percent"
+  ],
+  "source": "SRC-0296",
+  "anchor": "Of the 19.14 million VLI renter households susceptible to\nsevere rent burdens and severely inadequate housing in 2023, 8.46 million—44.2 percent—faced\none or both problems without housing assistance.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-021",
+  "statement": "The 8.46 million households with worst case needs in 2023 were an insignificant decrease from the record 8.53 million in 2021, which topped the recession-driven 8.48 million of 2011.",
+  "figures": [
+   "8.46 million",
+   "8.53 million",
+   "2021",
+   "8.48 million",
+   "2011"
+  ],
+  "source": "SRC-0296",
+  "anchor": "There were 8.46 million renter households with worst case needs in 2023, an insignificant\ndecrease of 62,000 cases compared with 8.53 million in 2021, which had topped even the\nrecession-driven record of 8.48 million in 2011.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-022",
+  "statement": "In 2023, 28 percent of very low-income renter households received housing assistance, ranging from 24.4 percent in the West to 38.0 percent in the Northeast.",
+  "figures": [
+   "28 percent",
+   "24.4",
+   "38.0"
+  ],
+  "source": "SRC-0296",
+  "anchor": "percent of VLI renter households in 2023 were assisted compared with 28 percent overall. The\nrapidly expanding central cities and suburbs in the South and West had particularly low rates of\nassistance. These regional disparities in the prevalence of housing assistance for VLI renter\nhouseholds were also evident nationally, ranging from 24.4 percent assisted in the West to 38.0\npercent assisted in the Northeast.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-023",
+  "statement": "There were 13.77 million unassisted very low-income renter households in 2023, and 61.4 percent of them had worst case needs.",
+  "figures": [
+   "13.77 million",
+   "61.4 percent"
+  ],
+  "source": "SRC-0296",
+  "anchor": "The population of unassisted VLI renters decreased by 420,000 households, or 3.0 percent, from\n14.19 to 13.77 million between 2021 and 2023. The rate of worst case needs among unassisted\nVLI renters increased by 1.4 percentage points from 60.1 to 61.4 percent during this same\nperiod.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-024",
+  "statement": "In 2023 there were only 59 affordable and available rental units per 100 very low-income renter households, and only 38 per 100 extremely low-income renter households.",
+  "figures": [
+   "59",
+   "100",
+   "38"
+  ],
+  "source": "SRC-0296",
+  "anchor": "As a result, in 2023, only 59 affordable units were available per 100 very low-income renter\nhouseholds, and only 38 units were available per 100 extremely low-income renter households.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-025",
+  "statement": "On a single night in 2024, 771,480 people experienced homelessness, about 23 of every 10,000 people in the United States, the highest number ever recorded; the number rose 18 percent in a year.",
+  "figures": [
+   "771,480",
+   "23",
+   "10,000",
+   "18 percent"
+  ],
+  "source": "SRC-0295",
+  "anchor": [
+   "The number of people experiencing homelessness on a single night in 2024 was the highest ever\nrecorded. A total of 771,480 people – or about 23 of every 10,000 people in the United States –",
+   "number of people experiencing homelessness increased by 18 percent."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2026-12-31",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-026",
+  "statement": "Nearly 150,000 children experienced homelessness on a single night in 2024, 33 percent (32,618) more than in 2023; people in families with children had the largest single-year increase, 39 percent.",
+  "figures": [
+   "150,000",
+   "33 percent",
+   "32,618",
+   "39 percent"
+  ],
+  "source": "SRC-0295",
+  "anchor": [
+   "People in families with children had the largest single year increase in homelessness. Between 2023\nand 2024, 39 percent more people in families with children experienced homelessness.",
+   "Nearly 150,000 children experienced homelessness on a single night in 2024, reflecting a 33 percent\nincrease (or 32,618 more children) over 2023."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2026-12-31",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-027",
+  "statement": "HUD's latest worst case needs report attributes the elevated needs to wage growth too weak to make rent affordable for low-income renters and to sustained rental demand, which it ties to record immigration.",
+  "figures": [],
+  "source": "SRC-0296",
+  "anchor": "This year’s report shows two realities. The first is that economic growth has been insufficient to\nlift the wages of low-income renting families high enough to make rent affordable. The second is\nthat national macroeconomic policies, such as record immigration, have combined to drive\nsustained high rental demand, which has continued to place upward pressure on rent prices.",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-10-28",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-028",
+  "statement": "HUD's 2024 homelessness report names several likely causes of the record count: the affordable housing crisis, inflation, stagnating wages, systemic racism, public health crises, natural disasters, immigration, and the end of pandemic-era prevention programs including the expanded child tax credit.",
+  "figures": [],
+  "source": "SRC-0295",
+  "anchor": "Our worsening national affordable housing crisis, rising inflation, stagnating wages among\nmiddle- and lower-income households, and the persisting effects of systemic racism have stretched\nhomelessness services systems to their limits. Additional public health crises, natural disasters that\ndisplaced people from their homes, rising numbers of people immigrating to the U.S., and the end to\nhomelessness prevention programs put in place during the COVID-19 pandemic, including the end of the\nexpanded child tax credit, have exacerbated this already stressed system.",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-10-28",
+  "recheck": "2026-12-31",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ }
+]
