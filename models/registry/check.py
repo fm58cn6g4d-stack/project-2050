@@ -156,7 +156,8 @@ def check_references(root, known):
                 continue
             text = path.read_text(errors='replace')
             if path.suffix == '.md':
-                text = re.sub(r'`[^`\n]*`', '', text)  # an ID in code formatting is a format example, not a citation
+                # An ID in code formatting (inline or a fenced block) is a format example, not a citation.
+                text = re.sub(r'`[^`\n]*`', '', re.sub(r'```.*?```', '', text, flags=re.S))
             for kind, pattern in REFS.items():
                 for ref in sorted(set(pattern.findall(text)) - known[kind]):
                     errors.append(f'{path.relative_to(root)}: {ref} does not resolve')
