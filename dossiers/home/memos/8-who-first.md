@@ -12,8 +12,8 @@ The new help phases in at 250,000 vouchers a year from 2030 to 2033. Far more ho
 - **The poorest renters with severe problems** (no help, paying over half their income in rent, or living in very bad conditions) (HUD, Worst Case Housing Needs report, 2025) [EV-HOU-186]:
   - 1.7 million families with children, with 3.3 million children in all;
   - 1.7 million older adults;
-  - 1.8 million other households, mostly people living alone.
-- **People with disabilities:** 1.16 million households with severe needs include someone under 62 with a disability (same report) [EV-HOU-032].
+  - 1.8 million other households, mostly single individuals.
+- **People with disabilities:** 1.16 million households with severe needs include someone under 62 with a disability (HUD, Worst Case Housing Needs report, 2025) [EV-HOU-032].
 - **Everyone paying over 30% of income for rent:** over 21 million households (Census Bureau, American Community Survey, 2023 data) [EV-HOU-001].
 
 ## The options
@@ -28,13 +28,13 @@ The new help phases in at 250,000 vouchers a year from 2030 to 2033. Far more ho
 **B. Families with children first.**
 - *For people:* a single father of two paying most of his income in rent gets help early.
 - *Evidence:*
-  - Moving children to lower-poverty areas young raised their adult earnings (Chetty, Hendren and Katz, Moving to Opportunity study, 2016) [EV-HOU-090].
+  - Moving children to lower-poverty areas young raised their adult earnings (Chetty, Hendren and Katz, Moving to Opportunity study, National Bureau of Economic Research, 2015) [EV-HOU-090].
   - People in families with children had the largest one-year rise in homelessness in 2024, 39% (HUD, 2024 homelessness report) [EV-HOU-026].
 
 **C. People about to lose their home first.**
 - *For people:* renters facing eviction get long-term help.
 - *Evidence:* many of them may need only short help, not a long-term voucher.
-  - In one trial, about $2,000 of one-time aid made households 81% less likely to become homeless within six months (Phillips and Sullivan, Santa Clara County trial, 2023) [EV-HOU-109].
+  - In one trial, about $2,000 of one-time aid made households 81% less likely to become homeless within six months (MIT Press Reader, 2023, on Phillips and Sullivan's Santa Clara County trial) [EV-HOU-109].
   - Memo 6's fund serves them better.
 
 **D. No priority: everyone eligible by need score or lottery.**
@@ -49,8 +49,8 @@ The new help phases in at 250,000 vouchers a year from 2030 to 2033. Far more ho
 
 It rests on three findings:
 1. The strongest trials are for people without a home (Family Options Study, 2018; Aubry and others, 2016) [EV-HOU-086] [EV-HOU-099].
-2. Children gain most from early moves (Chetty, Hendren and Katz, 2016) [EV-HOU-090].
-3. One-time help serves renters at imminent risk at much lower cost (Phillips and Sullivan, 2023) [EV-HOU-109].
+2. Children gain most from early moves (Chetty, Hendren and Katz, 2015) [EV-HOU-090].
+3. One-time help serves renters at imminent risk: about $2,000 once cut homelessness sharply in one trial (MIT Press Reader, 2023, on Phillips and Sullivan's trial) [EV-HOU-109]. That compares with about $15,200 a year for a voucher, the plan's planning figure (`legacy/domains/domain-housing.md`, HOU-4A); the comparison is this dossier's.
 
 Renters about to lose their homes get help from memo 6's emergency fund, not this line. If you keep a one-time package instead (memo 6, A or B), they would have no national help after 2031; then this order should set aside a small share of vouchers for them.
 

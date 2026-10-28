@@ -25,7 +25,7 @@ The costs below are this dossier's rough arithmetic, not a score. They use the p
 
 **B. A guarantee for extremely low-income renters (recommended).**
 - Phased in group by group (memo 8 sets the order). The million vouchers and the $135 billion are its first steps.
-- *For people:* for example, a disabled man living alone on a small fixed income, now paying most of it in rent, would be able to count on help once his group is reached. Long-term rent help sharply reduces homelessness for the families who get it (Family Options Study, Gubits and others, 2018) [EV-HOU-086].
+- *For people:* for example, a disabled man living alone on a small fixed income, now paying most of it in rent, would be able to count on help once his group is reached. Long-term rent help sharply reduced homelessness for homeless families who got it (Family Options Study, Gubits and others, 2018) [EV-HOU-086].
 - *Cost:* roughly $88 billion to $117 billion a year at full scale, before growth to 2030, depending on how many of the 5.8 million to 7.7 million unassisted households take it (HUD, 2025) [EV-HOU-185] [EV-HOU-186]. This is a large permanent cost, and the plan's fiscal rule already falls short in 2040 (legacy governing decisions, D4). It needs new revenue, mostly from the top 1% and corporations under the fairness test.
 - *Risk:* landlords can capture part of the money where homes are scarce. Raising voucher limits across a whole city mostly raised landlords' rents (Collinson and Ganong, 2018) [EV-HOU-095]. Memos 1 and 3 address supply.
 
@@ -40,8 +40,8 @@ The costs below are this dossier's rough arithmetic, not a score. They use the p
 
 **B, phased.** It is the group you named on October 26, and it rests on three findings:
 1. Needs are deepest here: these renters make up 68.6% of all worst case needs (HUD, 2025) [EV-HOU-185].
-2. Their problem is mostly income too low for any market rent, not rents rising faster for them (Collinson, Ellen and Ludwig, National Bureau of Economic Research, 2016) [EV-HOU-071].
-3. Rent help works for the people who get it (Family Options Study, 2018) [EV-HOU-086].
+2. Their problem is mostly income. Rents for the poorest fifth of renters rose no faster than for the richest from 1985 to 2019 (Federal Reserve Board staff, 2021) [EV-HOU-070]. Rents tracked incomes until 2007; after that, renters' incomes fell while rents rebounded (Collinson, Ellen and Ludwig, National Bureau of Economic Research, 2016) [EV-HOU-071].
+3. Long-term rent help sharply reduced homelessness for homeless families who got it (Family Options Study, 2018) [EV-HOU-086]. Most renters this guarantee covers are housed, so the effect for them is not measured by that trial.
 
 Keep C as a later step, decided on what the phase-in shows about rents. The French evidence is the main reason to wait (Fack, 2006) [EV-HOU-156].
 

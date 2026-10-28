@@ -40,9 +40,9 @@ The recommendation would change that.
 - *Risk:* keeps the permanent cost of credits that may buy few extra homes (Sinai and Waldfogel, 2005; Eriksen and Rosenthal, 2010) [EV-HOU-114] [EV-HOU-115].
 
 **Recommendation: B.** It rests on three findings:
-1. Studies typically find tenant help more cost-effective than building subsidies (Congressional Research Service, tax credit overview, 2025) [EV-HOU-112].
+1. Studies typically find tenant help more cost-effective than building subsidies (Congressional Research Service, *The Low-Income Housing Tax Credit: Policy Issues*, 2019) [EV-HOU-112].
 2. Tax credits partly replace building that would have happened anyway (Sinai and Waldfogel, 2005; Eriksen and Rosenthal, 2010) [EV-HOU-114] [EV-HOU-115].
-3. Affordability that expires is lost (Federal Reserve Bank of Chicago, 2025) [EV-HOU-119].
+3. About a third of tax-credit homes are set to leave their rent limits by 2035 (Federal Reserve Bank of Chicago, 2025) [EV-HOU-119].
 
 Building money should go where it adds homes the market won't, and keep them affordable.
 

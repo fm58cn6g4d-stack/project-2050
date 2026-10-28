@@ -27,7 +27,7 @@ Some zoning reforms produce homes, and some mostly raise land prices.
 - Broad state or regional reforms earn more than narrow ones.
 - Lower-cost homes are counted separately, since reforms have done least there (Stacy and others, 2023) [EV-HOU-177].
 - Conditions still apply only to new federal money, as now.
-- *For people:* for example, a state that legalizes small apartment buildings everywhere, and sees them built, gets more than a city that rezones a few blocks. Broad reforms are the ones that built homes (Auckland, 2023; California, 2026) [EV-HOU-123] [EV-HOU-128].
+- *For people:* for example, a state that legalizes small apartment buildings everywhere, and sees them built, gets more than a city that rezones a few blocks. Broad reforms are the ones followed by building: Auckland's with a measured effect, California's by raw permit counts (Auckland, 2023; California, 2026) [EV-HOU-123] [EV-HOU-128].
 - *Cost or risk:* about the same money. Places with slow markets get less, even if they reform. This is judgment; the register has no evidence on how such a formula performs.
 
 **C. Federal override.**
@@ -37,7 +37,7 @@ Some zoning reforms produce homes, and some mostly raise land prices.
 ## Recommendation
 
 **B.** It rests on three findings:
-1. Broad reforms built homes in Auckland and California (Greenaway-McGrevy and Phillips, 2023; California housing department, 2026) [EV-HOU-123] [EV-HOU-128].
+1. Auckland's broad rezoning added homes beyond what would otherwise have been built, the only reform here measured against a comparison (Greenaway-McGrevy and Phillips, 2023) [EV-HOU-123]. California's permits rose sharply after its statewide law, but that is a raw count from the agency that runs it, not a measured effect (California housing department, 2026) [EV-HOU-128].
 2. A narrow reform in Chicago raised land values without building (Freemark, 2019) [EV-HOU-124].
 3. Gains across U.S. cities were modest and mostly at higher rents (Urban Institute, 2023) [EV-HOU-177].
 

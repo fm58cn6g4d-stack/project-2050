@@ -17,7 +17,7 @@ A voucher pays part of the rent at a home the family finds.
 ## The options
 
 **A. Vouchers everywhere (as now planned).**
-- *For people:* families choose where to live, which helps children. Moving to a lower-poverty area before age 13 raised adult earnings by 31% (Chetty, Hendren and Katz, Moving to Opportunity study, 2016) [EV-HOU-090].
+- *For people:* families choose where to live, which helps children. Moving to a lower-poverty area before age 13 raised adult earnings by 31% (Chetty, Hendren and Katz, Moving to Opportunity study, National Bureau of Economic Research, 2015) [EV-HOU-090].
 - *Risk:* in tight markets many vouchers go unused (Ellen, O'Regan and Strochak, 2024) [EV-HOU-092]. Raising the voucher limit across a whole city mostly raises landlords' rents (Collinson and Ganong, 2018) [EV-HOU-095].
 
 **B. Match the tool to the market (recommended).**
@@ -26,7 +26,7 @@ A voucher pays part of the rent at a home the family finds.
 - Families in attached homes can later move with a normal voucher.
 - *For people:* for example, a mother in a tight city who now waits months for a landlord to say yes could move straight into a new building. A family in a city with plenty of empty apartments still chooses its own home.
 - *Evidence for it:* tax-credit buildings reach the poorest renters mainly when rent help is attached (O'Regan and Horn, NYU Furman Center, 2012) [EV-HOU-118].
-- *Cost or risk:* about the same money, placed differently. It needs the building program to deliver homes on time. Attached homes must not cluster in the poorest neighborhoods, since moves to lower-poverty areas are what helped children (Chetty, Hendren and Katz, 2016) [EV-HOU-090]. That part rests on judgment: the register has no direct evidence on attached help in tight markets.
+- *Cost or risk:* about the same money, placed differently. It needs the building program to deliver homes on time. Attached homes must not cluster in the poorest neighborhoods, since moves to lower-poverty areas are what helped children (Chetty, Hendren and Katz, 2015) [EV-HOU-090]. That part rests on judgment: the register has no direct evidence on attached help in tight markets.
 
 **C. Build first.**
 - In tight markets, slow new vouchers until new homes exist, and move some voucher money into building.
@@ -36,7 +36,7 @@ A voucher pays part of the rent at a home the family finds.
 ## Recommendation
 
 **B.** It rests on three findings:
-1. Vouchers work for the families who can use them: priority access to a long-term subsidy sharply reduced family homelessness (Family Options Study, 2018) [EV-HOU-086].
+1. Vouchers work for homeless families who get them: priority access to a long-term subsidy sharply reduced family homelessness (Family Options Study, 2018) [EV-HOU-086].
 2. They fail where homes are scarce and landlords refuse them (Ellen, O'Regan and Strochak, 2024; HUD landlord study, 2018) [EV-HOU-092] [EV-HOU-093].
 3. Buildings reach the poorest renters when help is attached (NYU Furman Center, 2012) [EV-HOU-118].
 
