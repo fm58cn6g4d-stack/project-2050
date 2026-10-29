@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated October 28, 2026 by Claude Code (stage C, step 4).
+Updated October 29, 2026 by Claude Code (stage C, step 2).
 
 ## Standing sessions
 
@@ -26,7 +26,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
 | C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | Done | Claude Code | PR #53, merged |
 | C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | Done | Claude Code | PR #54, merged |
-| C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In progress: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; ACS refresh after the October 29 release | Claude Code | Branch `claude/stage-c-housing-2` |
+| C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In review: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; 2025 ACS refresh: EV-HOU-038 to 044, section 1 updated, shared-rules fixes (PR #62 notes) | Claude Code (session_01UQzgBvYjGdPE5ZxakSiAHf) | Branch `claude/acs-2025-refresh` |
 | C. First dossiers | 3. Housing section 2, what works | Most capable | Done: `dossiers/home/2-what-works.md`, EV-HOU-050 to 184, and EV-HOU-190 and 191 from HUD's *Picture of Subsidized Households* 2023 (Espen's upload); causes, programs and experience abroad | Claude Code (session_01UQzgBwQoJg2sZm4YbUgNaQ) | PR #58, merged; follow-up PR open |
 | C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | In review: `dossiers/home/3-design.md` with seven memos in `dossiers/home/memos/`, EV-HOU-185 to 189. Waits on Espen's decisions before section 4 | Claude Code (session_01UQzgBuhoTGv4SfXLxQf4ZT) | Branch `claude/stage-c-housing-4` |
 | C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (with Codex on the budget model) | Most capable | Later: starts once Espen decides the section 3 memos | Claude Code, Codex | — |
@@ -36,6 +36,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 ## Open PRs
 
 - Stage C step 4: housing section 3, design choices (`claude/stage-c-housing-4`).
+- Stage C step 2: 2025 ACS refresh and shared-rules fixes (`claude/acs-2025-refresh`).
 
 ## Done (recent)
 
@@ -58,7 +59,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 ## Known gaps
 
 - **Review capacity.** Codex reviews again (PR #50). The scheduled Claude reviewer session also reviews routine PRs on request. Espen's `espen-approved` stands in for an agent review only on tier 3.
-- **Blocked sources.** HUD, CBO and GAO block automated downloads from agent sessions; Census, the Federal Reserve, EveryCRSReport and congress.gov's CRS files do not; the GovQuery connector finds CRS and GAO reports by topic. The Congress.gov API names each CRS report's current version (EveryCRSReport can lag), and congress.gov's CRS PDFs download. The API needs an api.data.gov key, which Espen gives a session directly; it is never committed or written into the repository. Blocked documents come in through Espen's uploads; `library/fetch_public.py --file` saves an uploaded public document as text under its official address.
+- **Blocked sources.** HUD, CBO and GAO block automated downloads from agent sessions; Census, the Federal Reserve, EveryCRSReport and congress.gov's CRS files do not; the GovQuery connector finds CRS and GAO reports by topic. The Congress.gov API names each CRS report's current version (EveryCRSReport can lag), and congress.gov's CRS PDFs download. Sessions read API keys from the environment variables `API_CENSUS_KEY` (Census Data API) and `API_DATA_GOV_KEY` (the Congress.gov and GovInfo APIs). Both are set in the cloud environment settings and never written into the repository; a recorded query address leaves the key out. Blocked documents come in through Espen's uploads; `library/fetch_public.py --file` saves an uploaded public document as text under its official address.
 - **Legacy outputs.** The legacy model suite still regenerates its reports in `legacy/index/` and `legacy/sources/` (`models/README.md`). They move into `models/` as each core model is rebuilt.
 - **Story claims after PR #45.** Two essay claims (`q4`, `downside`) cite figures that PR #45 changed (fourth-quintile −$2,906 is now −$3,054). The page stays pinned to its evidence commit; an editor should reread and advance the pin. `run-all.sh` reports it on every run.
 - **Catalog facts.** `catalog-facts.csv` dates depend on the clone's history depth, so the file is refreshed, never checked.

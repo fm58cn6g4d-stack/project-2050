@@ -857,6 +857,184 @@
   ]
  },
  {
+  "id": "EV-HOU-038",
+  "statement": "In 2025, 21,551,355 renter households spent more than 30% of income on housing costs: 49.6% of the 43,437,030 renter households for whom burden is calculated (46,551,688 renter households in all; 3,114,658 not calculated).",
+  "claim": "data",
+  "figures": [
+   "21,551,355",
+   "49.6%",
+   "43,437,030",
+   "30%",
+   "46,551,688",
+   "3,114,658"
+  ],
+  "source": "SRC-0432",
+  "anchor": [
+   "B25140_010E | Estimate: Total:!!Rented = 46551688 (46,551,688)",
+   "B25140_011E | Estimate: Total:!!Rented!!Over 30 Percent = 21551355 (21,551,355)",
+   "B25140_013E | Estimate: Total:!!Rented!!Not Calculated = 3114658 (3,114,658)",
+   "Arithmetic | Renter households for whom burden is calculated (B25140_010E minus B25140_013E) = 43437030 (43,437,030)",
+   "Arithmetic | Share of those paying over 30 percent (B25140_011E divided by the base) = 0.4962 (49.6%)"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-29",
+  "recheck": "2027-09-30",
+  "note": "2025 ACS 1-year estimates, released October 29, 2026, read from the Census Data API (extract in library/text). Table B25140, the table behind the Census Bureau's 2023 figure in EV-HOU-001: the same arithmetic on the 2023 API response gives its 49.7% and 42.5 million, so the two years compare like for like. Margin of error on the count: 132,870. The share is the project's arithmetic; the counts are the Bureau's. Table B25070 (EV-HOU-040) bins the same households differently and counts about 0.9 million more at 30% or more in both years.",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-039",
+  "statement": "In 2025, 11,084,148 renter households spent more than 50% of income on housing costs: 25.5% of the 43,437,030 renter households for whom burden is calculated.",
+  "claim": "data",
+  "figures": [
+   "11,084,148",
+   "25.5%",
+   "43,437,030",
+   "50%"
+  ],
+  "source": "SRC-0432",
+  "anchor": [
+   "B25140_012E | Estimate: Total:!!Rented!!Over 50 Percent = 11084148 (11,084,148)",
+   "Arithmetic | Renter households for whom burden is calculated (B25140_010E minus B25140_013E) = 43437030 (43,437,030)",
+   "Arithmetic | Share of those paying over 50 percent (B25140_012E divided by the base) = 0.2552 (25.5%)"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-29",
+  "recheck": "2027-09-30",
+  "note": "2025 ACS 1-year estimates, released October 29, 2026, read from the Census Data API (extract in library/text). Table B25140. Margin of error on the count: 84,489. The share is the project's arithmetic.",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-040",
+  "statement": "Counted from the bins of table B25070, 22,486,693 renter households (51.8% of the 43,437,030 whose burden is computed) paid 30.0 percent or more of income on gross rent in 2025, and 11,401,379 (26.2%) paid 50.0 percent or more.",
+  "claim": "data",
+  "figures": [
+   "22,486,693",
+   "51.8%",
+   "43,437,030",
+   "30.0",
+   "11,401,379",
+   "26.2%",
+   "50.0"
+  ],
+  "source": "SRC-0430",
+  "anchor": [
+   "B25070_010E | Estimate: Total:!!50.0 percent or more = 11401379 (11,401,379)",
+   "Arithmetic | Renter households for whom burden is calculated (B25070_001E minus B25070_011E) = 43437030 (43,437,030)",
+   "Arithmetic | Households paying 30.0 percent or more (B25070_007E plus 008E, 009E and 010E) = 22486693 (22,486,693)",
+   "Arithmetic | Share paying 30.0 percent or more = 0.5177 (51.8%)",
+   "Arithmetic | Share paying 50.0 percent or more (B25070_010E divided by the base) = 0.2625 (26.2%)"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-29",
+  "recheck": "2027-09-30",
+  "note": "2025 ACS 1-year estimates, released October 29, 2026, read from the Census Data API (extract in library/text). Table B25070 is the gross-rent table with the full income-share distribution. Its bins start at 30.0 and 50.0 percent, and its counts run about 0.9 million above the 'over 30%' counts of table B25140 in 2023 as well as 2025, so the dossier headlines B25140 (EV-HOU-038, EV-HOU-039) and keeps this entry as the cross-check. Do not mix the two tables in one comparison.",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-041",
+  "statement": "The median renter household spent 30.9% of its income on gross rent in 2025.",
+  "claim": "data",
+  "figures": [
+   "30.9%"
+  ],
+  "source": "SRC-0431",
+  "anchor": [
+   "B25071_001E | Estimate: Median gross rent as a percentage of household income = 30.9 (30.9)"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-29",
+  "recheck": "2027-09-30",
+  "note": "2025 ACS 1-year estimates, released October 29, 2026, read from the Census Data API (extract in library/text). Table B25071. Margin of error: 0.1 point. Compare EV-HOU-005, which gives 31% for 2024.",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-042",
+  "statement": "Median gross rent (rent plus the cost of utilities) was $1,557 a month in 2025.",
+  "claim": "data",
+  "figures": [
+   "$1,557"
+  ],
+  "source": "SRC-0429",
+  "anchor": [
+   "B25064_001E | Estimate: Median gross rent = 1557 (1,557)"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-29",
+  "recheck": "2027-09-30",
+  "note": "2025 ACS 1-year estimates, released October 29, 2026, read from the Census Data API (extract in library/text). Table B25064. Margin of error: $4. The ACS reports dollar values in the survey year's dollars; EV-HOU-005 gives the 2024 value, $1,487.",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-043",
+  "statement": "In 2025, 4,633,829 renter households with a Black alone householder spent more than 30% of income on housing costs: 56.7% of the 8,167,808 for whom burden is calculated (8,711,250 renter households in all; 543,442 not calculated).",
+  "claim": "data",
+  "figures": [
+   "4,633,829",
+   "56.7%",
+   "8,167,808",
+   "30%",
+   "8,711,250",
+   "543,442"
+  ],
+  "source": "SRC-0433",
+  "anchor": [
+   "B25140B_010E | Estimate: Total:!!Rented = 8711250 (8,711,250)",
+   "B25140B_011E | Estimate: Total:!!Rented!!Over 30 Percent = 4633829 (4,633,829)",
+   "B25140B_013E | Estimate: Total:!!Rented!!Not Calculated = 543442 (543,442)",
+   "Arithmetic | Renter households for whom burden is calculated (B25140B_010E minus B25140B_013E) = 8167808 (8,167,808)",
+   "Arithmetic | Share of those paying over 30 percent (B25140B_011E divided by the base) = 0.5673 (56.7%)"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-29",
+  "recheck": "2027-09-30",
+  "note": "2025 ACS 1-year estimates, released October 29, 2026, read from the Census Data API (extract in library/text). Table B25140B (Black or African American alone householder), the table behind EV-HOU-003 and EV-HOU-004: the same arithmetic on the 2023 API response gives their 56.2% and 30.6%. Margin of error on the count: 50,136. The table counts Black or African American alone householders of any ethnicity.",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-044",
+  "statement": "In 2025, 2,518,375 renter households with a Black alone householder spent more than 50% of income on housing costs: 30.8% of the 8,167,808 for whom burden is calculated.",
+  "claim": "data",
+  "figures": [
+   "2,518,375",
+   "30.8%",
+   "8,167,808",
+   "50%"
+  ],
+  "source": "SRC-0433",
+  "anchor": [
+   "B25140B_012E | Estimate: Total:!!Rented!!Over 50 Percent = 2518375 (2,518,375)",
+   "Arithmetic | Renter households for whom burden is calculated (B25140B_010E minus B25140B_013E) = 8167808 (8,167,808)",
+   "Arithmetic | Share of those paying over 50 percent (B25140B_012E divided by the base) = 0.3083 (30.8%)"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-10-29",
+  "recheck": "2027-09-30",
+  "note": "2025 ACS 1-year estimates, released October 29, 2026, read from the Census Data API (extract in library/text). Table B25140B. Margin of error on the count: 43,139.",
+  "supports": [
+   "dossiers/home/1-problem.md"
+  ]
+ },
+ {
   "id": "EV-HOU-050",
   "statement": "Across U.S. metropolitan areas, an immigration inflow equal to 1% of a city's population is associated with increases of about 1% in average rents and housing values, an effect an order of magnitude bigger than in labor markets.",
   "claim": "analysis",
