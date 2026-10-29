@@ -6423,6 +6423,7 @@
   "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
   "supports": [
    "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md",
    "dossiers/shared-rules.md"
   ]
  },
@@ -6689,6 +6690,50 @@
   "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
   "supports": [
    "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-246",
+  "statement": "Source of income is not a protected class under the federal Fair Housing Act, which covers race, color, national origin, religion, sex, familial status and disability. Only a limited number of federal statutes and regulations bar landlords from refusing voucher holders, for example in certain HOME, Low-Income Housing Tax Credit and HUD-sold multifamily properties. Federal voucher rules do not preempt state or local protections.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0439",
+  "anchor": [
+   "While source of income is not an expressly protected attribute under the Fair Housing Act 1, states or\nlocalities are not precluded by Federal law from expanding discrimination protections to explicitly include\na person\u2019s source of income, such as a housing choice voucher. No HUD housing choice voucher\nregulations within 24 CFR 982 are intended to pre-empt the operation of state or local laws prohibiting\ndiscrimination against voucher holders. Additionally, at the Federal level, a limited number of statutes\nand regulations prohibit landlords from refusing to lease to voucher holders. For example, such\nrestrictions apply to certain properties supported under the HOME Investment Partnership Program,\nLow-Income Housing Tax Credit, and subsidized multifamily properties purchased from HUD.",
+   "The Fair Housing Act prohibits discrimination in housing on the basis of race, color, national origin, religion,\nsex, familial status, and disability."
+  ],
+  "locator": "Background, page 1 and note 1",
+  "grade": "A",
+  "fact_date": "2025-08-13",
+  "checked": "2026-10-29",
+  "recheck": "2027-08-13",
+  "context": "HUD Office of Inspector General audit, August 2025, second Trump administration. A count of enacted laws (data), graded A; the audit makes no recommendations.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-247",
+  "statement": "As of January 2025, 23 states and the District of Columbia had statewide laws making source of income a protected class, 16 of them explicitly protecting housing choice voucher holders; 152 cities and counties in 27 states had local ordinances, including in 19 states without a statewide law.",
+  "claim": "data",
+  "figures": [
+   "23",
+   "16",
+   "152",
+   "27",
+   "19"
+  ],
+  "source": "SRC-0439",
+  "anchor": "As of January 2025,\n23 states and the District of Columbia had passed statewide laws prohibiting source of income\ndiscrimination by officially designating source of income as a protected class, with 16 of them explicitly\nprohibiting discrimination against housing choice voucher holders. Meanwhile, 152 cities/counties in 27\nstates have passed local ordinances which prohibit source of income discrimination, including cities and\ncounties in 19 states without a statewide law.",
+  "locator": "Highlights, What We Audited and Why",
+  "grade": "A",
+  "fact_date": "2025-01",
+  "checked": "2026-10-29",
+  "recheck": "2027-08-13",
+  "context": "HUD Office of Inspector General audit, August 2025, second Trump administration. A count of enacted laws (data), graded A; the audit makes no recommendations.",
+  "supports": [
    "dossiers/home/3-design.md"
   ]
  }
