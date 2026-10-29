@@ -91,7 +91,7 @@ A rule is added here only when two dossiers actually depend on it. Every other c
 - **The direction so far.** The participation-support program (LAB-10, approved October 26) is "an offer, not a work condition on income, housing, health or food assistance" (`legacy/domains/domain-labor.md`, LAB-10). Housing's recommended homelessness approach offers services without requiring them (housing fork 5, option 5B, not yet decided).
 - **Housing's working answer.**
   - Work half: no work conditions on the guarantee. This departs from the public housing service requirement above, which the housing dossier would have to address in section 4.
-  - Treatment half: a range, because housing memo 5 is still open. It runs from no treatment condition at one end to a chosen recovery-housing option (5B) at the other.
+  - Treatment half: a range, because housing memo 5 is still open. It runs from no treatment condition (memo 5 options A and B, where services and recovery housing are offered, never required) to treatment as a condition of help (option C, the July 2025 executive order's approach) at the other.
 - **Owner:** the work flagship (flagship 5) records the cross-program principle; each flagship applies it. If Espen decides otherwise in any dossier, the others are reviewed.
 
 ### 7. Services that make housing work
