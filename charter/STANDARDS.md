@@ -4,6 +4,8 @@ Role: the one page every agent session reads first, with `charter/PROGRESS.md`. 
 
 **Who decides.** Espen Swanson owns the project and uses they/them pronouns. Espen decides goals, the flagship list, design choices at real forks and anything that changes what the project commits to. Agents decide project elements in service of those goals and record why. Agents never contact other people on Espen's behalf. Espen is not a programmer: write to them plainly and briefly, and run commands yourself.
 
+**Time frame.** The project is written now, from the data, research and law available today, but it recommends a governing plan that begins in January 2029. Everything is aimed at a strategy ready to carry out from 2029 on. Two narrow exceptions are labeled as such: what to attempt under divided government in 2027-28, and the preparation needed between now and January 2029. So state the current-law baseline as it will stand in 2029, counting enacted laws with later effective dates and scheduled expirations; date recommendations from 2029 on; and treat earlier dates as preparation, not launch. Espen set this rule on October 29, 2026.
+
 **Where things live.** Anything outside these folders is not current work.
 
 | Folder | Holds |
