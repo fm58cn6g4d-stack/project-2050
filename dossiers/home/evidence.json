@@ -5718,7 +5718,7 @@
  },
  {
   "id": "EV-HOU-206",
-  "statement": "Innovation Fund: within one year HUD must establish competitive grants to local governments and tribes that have demonstrated an objective improvement in housing supply growth; at least 25 grants a year unless appropriations are insufficient, each from $250,000 to $10,000,000, with priority for marked improvement in supply growth. It authorizes $200,000,000 a year for fiscal years 2027 through 2031, adjusted for inflation; the program ends 7 years after enactment and may not mandate or preempt local zoning.",
+  "statement": "Innovation Fund: within one year HUD must establish competitive grants to local governments and tribes that have demonstrated an objective improvement in housing supply growth; at least 25 grants a year unless appropriations are insufficient, each from $250,000 to $10,000,000, by a HUD method published for comment at least 90 days before the funding notice. Priority goes to places that have used innovative policies and shown marked improvement in supply growth. It authorizes $200,000,000 a year for fiscal years 2027 through 2031, adjusted for inflation; the program ends 7 years after enactment and may not mandate or preempt local zoning.",
   "claim": "data",
   "figures": [
    "25",
@@ -5735,7 +5735,8 @@
    "(A) a metropolitan city or urban county, as those\nterms are defined in section 102 of the Housing and\nCommunity Development Act of 1974 (42 U.S.C. 5302), that\nhas demonstrated an objective improvement in housing\nsupply growth, as determined by the Secretary, whose",
    "(B) a unit of general local government or an Indian\ntribe,",
    "Secretary shall make not fewer than 25\ngrants on an annual basis (unless amounts appropriated\nto provide grant amounts consistent with subsection (b)\nare insufficient, in which case fewer grants may be\nawarded), with strong consideration of different\ngeographical areas and a relatively even spread of\nrural, suburban, and urban communities.\n(B) Limitations on awards.--No grant awarded under\nthis paragraph may be--\n(i) more than $10,000,000; or\n(ii) less than $250,000.",
-   "(ii) demonstrated a marked improvement in\nhousing supply growth, as needed.",
+   "(i) demonstrated the use of innovative\npolicies, interventions, or programs for\nincreasing housing supply; and\n(ii) demonstrated a marked improvement in\nhousing supply growth, as needed.",
+   "whose methodology for determining such improvement is\npublished in the Federal Register to allow for public\ncomment not less than 90 days before the date on which\nthe notice of funding opportunity is made available.",
    "(1) to authorize the Secretary to mandate, supersede, or\npreempt any local zoning or land use policy; or",
    "terminate on the date that is 7 years after the date of enactment of\nthis Act.\n(e) Authorization of Appropriations.--\n(1) <<NOTE: Time period.>> In general.--There is authorized\nto be appropriated to carry out this section $200,000,000 for\neach of fiscal years 2027 through 2031.\n(2) Adjustment.--The amount authorized to be appropriated\nunder paragraph (1) shall be adjusted for inflation"
   ],
@@ -5981,13 +5982,16 @@
  },
  {
   "id": "EV-HOU-217",
-  "statement": "USDA need not carry out any study or report on environmental effects when it assists construction or modification of housing on an infill site under its main rural housing programs; it reports on the effect within 5 years.",
+  "statement": "USDA need not carry out any study or report on environmental effects when it assists construction or modification of housing on an infill site under six listed sections of the Housing Act of 1949; it reports on the effect within 5 years. An infill site is served by existing infrastructure beyond a road alone, and excludes greenfields and tracts at very high or relatively high risk of wildfire or flooding.",
   "claim": "data",
   "figures": [
    "5 years"
   ],
   "source": "SRC-0438",
-  "anchor": "(a) Exemption.--In providing assistance under section 501, 502, 504,\n515, 533, or 538 of the Housing Act of 1949 (42 U.S.C. 1471, 1472, 1474,\n1485, 1490m, or 1490p-2) for the construction or modification of\nresidential housing located on an infill site, the Secretary of\nAgriculture shall not be required to carry out any study or report on\nthe environmental effects of such assistance.\n(b) Report.--Not later than the date that is 5 years after the date",
+  "anchor": [
+   "(a) Exemption.--In providing assistance under section 501, 502, 504,\n515, 533, or 538 of the Housing Act of 1949 (42 U.S.C. 1471, 1472, 1474,\n1485, 1490m, or 1490p-2) for the construction or modification of\nresidential housing located on an infill site, the Secretary of\nAgriculture shall not be required to carry out any study or report on\nthe environmental effects of such assistance.\n(b) Report.--Not later than the date that is 5 years after the date",
+   "(2) Infill site.--The term ``infill site''--\n(A) means a site that is served by existing\ninfrastructure, including water lines, sewer lines, and\nroads; and\n(B) does not include--\n(i) a site that is served by existing\ninfrastructure that only consists of a road;\n(ii) a site within a census tract designated\nas very high or relatively high risk for wildfire,\ncoastal flooding, and riverine flooding under the\nNational Risk Index of the Federal Emergency\nManagement Agency pursuant to section 206 of the\nRobert T. Stafford Disaster Relief and Emergency\nAssistance Act (42 U.S.C. 5136); and\n(iii) a greenfield."
+  ],
   "locator": "Sec. 103",
   "grade": "A",
   "fact_date": "2026-07-11",
@@ -6119,7 +6123,7 @@
  },
  {
   "id": "EV-HOU-223",
-  "statement": "The investor ban excepts, among others, homes built or renovated for sale, build-to-rent homes, renovate-to-rent rehabilitation of at least 15 percent of the price, rent-to-own programs, purchases from another large investor, purchases from smaller investors in the first 2 years, and 55-and-older communities; Treasury regulations may not amend the definitions.",
+  "statement": "The investor ban excepts, among others, homes built or renovated for sale, build-to-rent homes, renovate-to-rent rehabilitation of at least 15 percent of the price, rent-to-own programs, purchases from another large investor, purchases from smaller investors in the first 2 years, and 55-and-older communities. Treasury may issue regulations, but they may not amend the definitions.",
   "claim": "data",
   "figures": [
    "15 percent",
@@ -6131,6 +6135,7 @@
    "(A) newly constructed, renovated, or a rental\nconversion for sale by a large institutional investor\nand not as a residence rented pending sale;\n(B) pursuant to a build-to-rent program where the\nlarge institutional investor purchases, constructs, or\nconstructs and retains a newly constructed single-family\nhomes to be managed as a rental property, whether as\npart of a community made up exclusively of renter-\noccupied single-family homes or as part of a community\nmade up of single-family homes that are both owner- and\nrenter-occupied;",
    "(ii) makes improvements in an aggregate dollar\namount of not less than 15 percent of the purchase\nprice of the single-family home;",
    "(H) purchased from another large institutional\ninvestor that either owned the single-family home on the\ndate of enactment of this Act or purchased the single-\nfamily home in compliance with this section;\n(I) purchased from an investor not covered under\nthis section, so long as the purchase occurred not more\nthan 2 years after the effective date under subsection\n(f);\n(J) newly constructed, renovated, or a rental\nconversion that is intended and operated for occupancy\nas part of a community for households with 1 or more\nmembers aged 55 years or older, and satisfies\nvisitability standards established by the Secretary of\nHousing and Urban Development; or",
+   "Commission, the Secretary of the Treasury may issue\nregulations in accordance with the notice and comment",
    "(B) Rule of construction.--For the avoidance of\ndoubt, no regulation issued under subparagraph (A) may\namend the definitions of the terms defined under\nsubsection (a), including to--"
   ],
   "locator": "Sec. 1001(a)(2), (b)(4)(B)",
@@ -6177,7 +6182,7 @@
  },
  {
   "id": "EV-HOU-225",
-  "statement": "Civil penalties for violating the investor ban are up to $1,000,000 per violation or 3 times the purchase price, whichever is greater; to the extent provided in appropriations Acts they go to the HOME program for single-family construction and first-time buyer help.",
+  "statement": "Treasury, or the Attorney General at Treasury's request, may sue for a civil penalty of up to $1,000,000 per violation or 3 times the purchase price, whichever is greater; to the extent provided in appropriations Acts they go to the HOME program for single-family construction and first-time buyer help.",
   "claim": "data",
   "figures": [
    "$1,000,000"
@@ -6247,7 +6252,7 @@
  },
  {
   "id": "EV-HOU-228",
-  "statement": "CRS: the Act authorizes disaster recovery block grants (CDBG-DR) as a standing program with a Long-Term Disaster Recovery Fund and a HUD disaster office, but the program terminates three years after enactment, on July 11, 2029.",
+  "statement": "CRS: the Act authorizes disaster recovery block grants (CDBG-DR) as a standing program, with a Long-Term Disaster Recovery Fund and a HUD disaster office, and says the CDBG-DR program terminates three years after enactment, on July 11, 2029.",
   "claim": "data",
   "figures": [
    "2029"
@@ -6691,6 +6696,84 @@
   "supports": [
    "dossiers/home/road-act.md",
    "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-248",
+  "statement": "The sunset in the disaster recovery section applies to the program under the new section 124 of the Housing and Community Development Act of 1974, which ends 3 years after enactment; Congress states it may fund a similar successor program after that date.",
+  "claim": "data",
+  "figures": [
+   "124",
+   "1974",
+   "3 years"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(g) Sunset.--The program under section 124 of the Housing and\nCommunity Development Act of 1974, as added by subsection\n[[Page 140 STAT. 948]]\n(d) shall terminate on the date that is 3 years after the date of\nenactment of this Act.",
+   "(h) Sense of Congress.--It is the sense of Congress that, should\nCongress opt to appropriate funds for disaster recovery through a\nsimilar successor program following the sunset date, subsection (g)\nshall not preclude Congress from doing so."
+  ],
+  "locator": "Sec. 504(g), (h)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-249",
+  "statement": "HUD may not take adverse action against, or withhold otherwise offered actions or services from, a state or locality that declines to adopt the zoning guidelines or best practices.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": "(e) Rule of Construction.--Nothing in this section may be construed\nto permit the Department of Housing and Urban Development to take an\nadverse action against or fail to provide otherwise offered actions or\nservices for any State or locality if the State or locality declines to\nadopt a guideline or best practice under subsection (b).",
+  "locator": "Sec. 107(e)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-250",
+  "statement": "States must recertify each year that they treat manufactured homes built without a permanent chassis the same; a state that does not certify on time must bar the manufacture, installation or sale of such homes where it administers installation.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": [
+   "``(3) <<NOTE: Determination.>> Annual recertification.--Not\nlater than a date to be determined by the Secretary each year, a\nState shall submit to the Secretary an additional certification\nthat--\n``(A) confirms the accuracy of the initial\ncertification submitted under subparagraph (A) or (B) of\nparagraph (1); and\n``(B) certifies that any new laws or regulations\nenacted or adopted by the State since the date of the\nprevious certification do not change the veracity of the\ninitial certification submitted under paragraph (1)(A).",
+   "``(B) Building, installation, and sale.--If a State\ndoes not submit a certification under paragraph (1)(A)\nor (3) by the date on which those certifications are\nrequired to be submitted--\n``(i) with respect to a State in which the\nState administers the installation of manufactured\nhomes, the State shall prohibit the manufacture,\ninstallation, or sale of a covered manufactured\nhome within the State; and"
+  ],
+  "locator": "Sec. 301, new 42 U.S.C. 5403 certification paragraphs (3) and (5)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-251",
+  "statement": "The vacant-building conversion program covers properties built as warehouses, factories, malls, strip malls, hotels or for other industrial or commercial use.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": "``(6) Vacant and abandoned building.--The term `vacant and\nabandoned building' means a property--\n``(A) that was constructed for use as a warehouse,\nfactory, mall, strip mall, or hotel, or for another\nindustrial or commercial use; and",
+  "locator": "Sec. 210, definition of vacant and abandoned building",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
   ]
  },
  {
