@@ -1,0 +1,15 @@
+Source: https://api.census.gov/data/2025/acs/acs1?get=NAME,B25064_001E,B25064_001M&for=us:1
+Publisher: U.S. Census Bureau
+Retrieved: 2026-10-29
+Original SHA-256: bdaa2bed130403b7cf0b5bbc0f86b123647e2a064c656ef83b341f8919f347d7
+Rights: public domain (U.S. government work)
+Text version of a Census Data API response, written by the project: library/fetch_public.py takes a web address or an uploaded file, not a query that needs a key. The address above is the query as sent, without the key (api.census.gov issues keys free). Values are as the API returned them, each followed by a copy with thousands separators.
+---
+Table B25064: Median Gross Rent (Dollars)
+Dataset: 2025 ACS 1-year estimates (acs/acs1)
+Geography: United States
+Name returned: United States
+B25064_001E | Estimate: Median gross rent = 1557 (1,557)
+B25064_001M | Margin of error: Median gross rent = 4 (4)
+---
+Arithmetic by the project from the values above (not returned by the API). Households with burden not computed are left out of the base, as in the Census Bureau release CB24-150.
