@@ -4,6 +4,16 @@ Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session 
 
 Updated October 28, 2026 by Claude Code (stage C, step 4).
 
+## Standing sessions
+
+Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" and "Handing over a standing role"). Espen talks to the lead for day-to-day work.
+
+| Role | Session | Title | Since |
+| --- | --- | --- | --- |
+| Lead | `session_01UQzgBx6gAsCr9hXdHVxrQy` | Project 2050: lead | October 28 (began as the stage A reset session) |
+| Reviewer | `session_01QHgvhVvafmiGMqU7Vewnst` | Project 2050: reviewer | October 26; woken every three hours by the "Project 2050 Claude reviewer (wakes standing session)" scheduled task |
+| Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
+
 ## Now
 
 | Stage | Step | Tier | Status | Owner | Where |
