@@ -118,7 +118,7 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 1. The lead reads the standing review prompt and schedule from the old task (`get_trigger`).
 2. The lead starts a new session with the most capable model, title "Project 2050: reviewer" and tags `["project-2050", "reviewer"]`. Its brief is that prompt.
 3. The lead creates a new recurring task with the same schedule and prompt and `persistent_session_id` set to the new reviewer, then disables the old task with `update_trigger` (`enabled: false`). Never delete it: `delete_trigger` also deletes every session the task started, which can include the old reviewer.
-4. The lead updates the Standing sessions table in its next board PR and retitles the old reviewer "Project 2050: former reviewer, <PRs reviewed>, <first date> to <last date>" (for example "Project 2050: former reviewer, PRs #26 to #65, Oct 26 to Oct 30").
+4. The lead updates the Standing sessions table in its next board PR, adds the old reviewer to the "Former standing sessions" list (role, session ID, PRs reviewed, dates), and retitles the old reviewer "Project 2050: former reviewer, <PRs reviewed>, <first date> to <last date>" (for example "Project 2050: former reviewer, PRs #26 to #65, Oct 26 to Oct 30").
 5. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
 
 ## Pinging another session
