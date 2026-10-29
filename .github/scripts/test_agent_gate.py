@@ -594,6 +594,22 @@ class Classify(unittest.TestCase):
         self.assertEqual(cls["tier"], 3)
         self.assertIn("renamed from legacy/governing/rules.md", cls["reasons"][0][2])
 
+    def test_rename_out_of_domains_counts_as_removing_a_domain_file(self):
+        os.makedirs(os.path.join(self.tmp, "library"))
+        self.git("mv", "legacy/domains/domain-x.md", "library/domain-x.md")
+        cls = g.classify(self.base, self.commit("r"), POLICY)
+        self.assertEqual(cls["tier"], 3)
+        self.assertIn("renamed from legacy/domains/domain-x.md", cls["reasons"][0][2])
+        self.assertIn("-HLT-1", cls["reasons"][0][2])
+        self.git("reset", "-q", "--hard", self.base)
+        self.write("legacy/domains/domain-y.md", "# Y\n\nWorks with HLT-1.\n")
+        base = self.commit("y")
+        os.makedirs(os.path.join(self.tmp, "library"), exist_ok=True)
+        self.git("mv", "legacy/domains/domain-x.md", "library/domain-x.md")
+        cls = g.classify(base, self.commit("r2"), POLICY)  # HLT-1 is still in a domain file
+        self.assertEqual(cls["tier"], 2)
+        self.assertIn("renamed from legacy/domains/domain-x.md", cls["reasons"][0][2])
+
     def test_same_changes_when_main_edits_the_same_file(self):
         lines = [f"line {i}\n" for i in range(60)]
         self.write("legacy/sources/long.md", "".join(lines))

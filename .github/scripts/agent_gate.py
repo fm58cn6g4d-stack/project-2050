@@ -223,7 +223,15 @@ def classify(base, head, policy):
         if st == "R":
             # A rename also removes the source path: keep the higher tier of the two.
             src = match_rule(old, policy)
-            if isinstance(src["tier"], int) and isinstance(rule["tier"], int) and src["tier"] > rule["tier"]:
+            if src["tier"] == "domain" and rule["tier"] != "domain":
+                # Moving a domain file out of the domain folder removes it as a domain file.
+                lost = sorted(program_ids(file_at(base, old) or "") - all_domain_ids(head))
+                if lost:
+                    rule = {"tier": 3, "why": f"renamed from {old}: program IDs removed: "
+                                              + ", ".join(f"-{i}" for i in lost)}
+                elif rule["tier"] < 2:
+                    rule = {"tier": 2, "why": f"renamed from {old}: domain file moved out of the domain files"}
+            elif isinstance(src["tier"], int) and isinstance(rule["tier"], int) and src["tier"] > rule["tier"]:
                 rule = {"tier": src["tier"], "why": f"renamed from {old}: {src['why']}"}
         tier, why = rule["tier"], rule["why"]
         if tier == "domain":
