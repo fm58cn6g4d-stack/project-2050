@@ -1,0 +1,13 @@
+Source: https://api.census.gov/data/2025/acs/acs1?get=NAME,B25071_001E,B25071_001M&for=us:1
+Publisher: U.S. Census Bureau
+Retrieved: 2026-10-29
+Original SHA-256: 767faec6981163eac9b4c46decf2eb7d81e8b0067cadefeade480686dad666ad
+Rights: public domain (U.S. government work)
+Text version of a Census Data API response, written by the project: library/fetch_public.py takes a web address or an uploaded file, not a query that needs a key. The address above is the query as sent, without the key (api.census.gov issues keys free). Values are as the API returned them, each followed by a copy with thousands separators.
+---
+Table B25071: Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+Dataset: 2025 ACS 1-year estimates (acs/acs1)
+Geography: United States
+Name returned: United States
+B25071_001E | Estimate: Median gross rent as a percentage of household income = 30.9 (30.9)
+B25071_001M | Margin of error: Median gross rent as a percentage of household income = 0.1 (0.1)
