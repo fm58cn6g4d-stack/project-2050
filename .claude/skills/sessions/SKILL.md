@@ -91,7 +91,7 @@ Don't hand over in the middle of a step you are writing yourself. Finish it or p
 For the reviewer, the lead starts the successor; the reviewer starts nothing.
 
 **Handing over the lead.**
-1. **Write the handoff.** In a PR, update the board's Standing sessions table and add a short "Lead handoff" note under it. The note lists:
+1. **Write the handoff.** In a PR, update the board's Standing sessions table, add the outgoing session to a "Former standing sessions" list under it (role, session ID, what it covered, dates), and add a short "Lead handoff" note. The note lists:
    - every active session (ID, step, state, report-back address);
    - open PRs and their author sessions;
    - your scheduled check-ins (`list_triggers`, the ones bound to your session ID) and what each is for;
@@ -99,7 +99,7 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
    - anything in flight that isn't in the repository yet.
 2. **Start the new lead.** Use the most capable model, title "Project 2050: lead", tags `["project-2050", "lead"]` and `source_url`. The brief says it takes over as lead, names the handoff PR, and lists the steps under "The new lead's first turn" below.
 3. **Step back.** Once the new lead confirms with a `done` message:
-   - retitle yourself "Project 2050: former lead (until <date>)";
+   - retitle yourself "Project 2050: former lead, <what you led>, <first date> to <last date>", naming the stages and steps you coordinated (for example "Project 2050: former lead, stage A reset and stage C housing, Oct 28 to Nov 4");
    - start nothing more;
    - pass any message you receive on to the new lead, once;
    - finish the PRs you authored, or hand them to the new lead with a `handoff` message;
@@ -118,7 +118,7 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 1. The lead reads the standing review prompt and schedule from the old task (`get_trigger`).
 2. The lead starts a new session with the most capable model, title "Project 2050: reviewer" and tags `["project-2050", "reviewer"]`. Its brief is that prompt.
 3. The lead creates a new recurring task with the same schedule and prompt and `persistent_session_id` set to the new reviewer, then disables the old task with `update_trigger` (`enabled: false`). Never delete it: `delete_trigger` also deletes every session the task started, which can include the old reviewer.
-4. The lead updates the Standing sessions table in its next board PR and retitles the old reviewer "Project 2050: former reviewer (until <date>)".
+4. The lead updates the Standing sessions table in its next board PR and retitles the old reviewer "Project 2050: former reviewer, <PRs reviewed>, <first date> to <last date>" (for example "Project 2050: former reviewer, PRs #26 to #65, Oct 26 to Oct 30").
 5. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
 
 ## Pinging another session
