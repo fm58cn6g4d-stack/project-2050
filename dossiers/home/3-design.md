@@ -1,6 +1,6 @@
 # A home you can keep: design choices
 
-Role: section 3 of the housing dossier: the real forks in the design, the options at each, what the evidence says for and against them, how they connect, and a recommendation. Status: draft (stage C, step 4). Every figure and factual claim cites the evidence register (`evidence.json`). Recommendations are the dossier's advice, not decisions: no agenda status or level changes until Espen decides, through a later charter PR. Costs are not modeled here; section 6 prices the choices with the budget model. Where this section gives an order of magnitude, it says so and shows the arithmetic.
+Role: section 3 of the housing dossier: the real forks in the design, the options at each, what the evidence says for and against them, how they connect, and a recommendation. Status: draft (stage C, step 4), rebaselined on the ROAD to Housing Act (Public Law 119-101, July 11, 2026), which is current law and the starting point for every fork (`road-act.md`). Every figure and factual claim cites the evidence register (`evidence.json`). Recommendations are the dossier's advice, not decisions: no agenda status or level changes until Espen decides, through a later charter PR. Costs are not modeled here; section 6 prices the choices with the budget model. Where this section gives an order of magnitude, it says so and shows the arithmetic.
 
 Outcomes the choices serve:
 - OUT-04, a home people can keep;
@@ -26,6 +26,7 @@ These are not reopened. Each fork works inside them.
 | HOU-3C | Construction capital in two channels: about $72 billion of grants to state revolving funds and $300 billion of federal direct loans. Chosen by Espen | `legacy/domains/domain-housing.md`, HOU-3 |
 | D3 and D4 | Every income group below the top better off on net, with new general-fund revenue mostly from the top 1% and corporations (D3). Permanent programs paid for at maturity, from FY2040; time-limited investments may borrow inside an envelope (D4-B) | Legacy governing decisions; `charter/outcomes.md`, OUT-11 |
 | D5 | Housing money rides the FY2030 reconciliation bill (R2) | Legacy governing decisions, D5 |
+| Current law: the ROAD to Housing Act | Not a choice but the baseline. Public Law 119-101 became law on July 11, 2026 [EV-HOU-200]. It appropriates nothing [EV-HOU-201] [EV-HOU-202], but it already enacts a supply-growth reward fund, a CDBG reallocation by housing growth, a 15-year limit on large investors' purchases of single-family homes, a permanent Rental Assistance Demonstration and faster voucher inspections [EV-HOU-206] [EV-HOU-208] [EV-HOU-222] [EV-HOU-231] [EV-HOU-232]. Each fork builds on it rather than duplicating it | `road-act.md` |
 
 Other items are `chosen` in the agenda: designs carried over from the legacy domain file that Espen has not reopened, such as HOU-1A, HOU-2A and HOU-6's fund and conditions. They are the starting point, not settled decisions, but a recommendation that would change one says so plainly, in this section and in its memo.
 
@@ -38,11 +39,33 @@ The federal builder of last resort (HOU-9A, 9B or 9C) is an open call already on
 | 1. Help or homes | HOU-4 with HOU-2, 3, 5, 6, 8 | Memo 1 | Match the tool to the market for help beyond HOU-4A: vouchers where homes are available, help tied to new and acquired homes where they are not |
 | 2. How broad the guarantee is | HOU-4A, HOU-4D, HOU-4C | Memo 2 | A guarantee for extremely low-income renters, phased in group by group; not yet all very low-income renters |
 | 3. Production tool | HOU-2, HOU-3, HOU-5, HOU-8, HOU-9 | Memo 3 (two parts) | Part 1: narrow the tax credits and make federally financed homes permanently affordable. Part 2: authorize a small federal backstop builder now (a limited HOU-9A) |
-| 4. Zoning conditions | HOU-6 | Memo 4 | Pay for homes permitted and built, favor broad state-level reform, and count lower-cost homes |
+| 4. Zoning conditions | HOU-6 | Memo 4 | Pay for results through ROAD's Innovation Fund, funded at scale and opened to states, rather than a separate fund; leave ROAD's Build Now as the only CDBG test; count lower-cost homes |
 | 5. Homelessness approach | HOU-4, HOU-1, HOU-8 | Memo 5 | Housing First as the default, with a recovery-housing option people can choose, never a condition |
 | 6. Prevention and emergency aid | HOU-1 | Memo 6 | A standing emergency-rent fund with tested delivery rules, plus a smaller one-time start |
 | 7. Immigration and construction labor | HOU-3, HOU-6, HOU-9; OUT-07 | Recommended without a memo (yes or no) | Treat the construction workforce as a shared dependency; ask the immigration dossier to weigh it |
 | 8. Who is reached first | HOU-4A, HOU-4D | Memo 8 | People without a home first, then extremely low-income families with children, then other extremely low-income renters with the most severe needs |
+
+## What the ROAD to Housing Act changes
+
+The first draft of this section did not account for the ROAD to Housing Act. It is now law, so each fork and each smaller choice was re-checked against it (`road-act.md` maps the provisions). Three verdicts are possible: no change; wording and baseline change only; or the options or recommendation change.
+
+**In short: the Act changes the options and the recommendation at fork 4 (zoning, HOU-6) and the recommendation on the investor limit (HOU-7, smaller choice 8). Every other recommendation stands.** Fork 3, the production toolkit, might have been expected to move too; it does not, because the Act adds no construction money and leaves the tax credits alone [EV-HOU-201] [EV-HOU-202].
+
+| Fork or choice | Verdict | What changes |
+| --- | --- | --- |
+| 1. Help or homes | Wording and baseline only | Faster voucher inspections, including pre-inspection for landlords new to the program [EV-HOU-232], ease one cause of slow lease-up, not landlord refusal or scarcity. The Act's Build Now test already sorts places by whether rental vacancy is above the national rate [EV-HOU-208]; section 4 can reuse it as fork 1's tight-market trigger |
+| 2. How broad | No change | The Act adds no rental assistance. Its one income-rule change widens HUD-VASH eligibility for disabled veterans [EV-HOU-233] |
+| 3. Production toolkit | Wording and baseline only | No new construction money and no tax-credit change. It opens existing channels: CDBG may build [EV-HOU-215], HOME is reauthorized with no amount [EV-HOU-226], banks may hold more tax-credit equity [EV-HOU-241], reviews are lighter [EV-HOU-217] [EV-HOU-218], and the Rental Assistance Demonstration becomes permanent [EV-HOU-231]. Part 1's "drop or defer" for the middle-income credit becomes "defer until GAO's workforce-housing study, due July 2027" [EV-HOU-242]. Part 2 is unchanged |
+| 4. Zoning conditions | **Options and recommendation change** | The Act already has a supply-growth reward fund (the Innovation Fund) and a CDBG reallocation by housing growth (Build Now) [EV-HOU-206] [EV-HOU-208]. HOU-6 as chosen would duplicate both. New options; the recommendation now builds on these two tools instead of creating a separate fund and a second CDBG condition. See fork 4 |
+| 5. Homelessness | Wording and baseline only | Housing First and the 2025 order are untouched. A new federal plan to end homelessness is due July 2027 [EV-HOU-238], and Emergency Solutions Grants recipients may shift more money to shelter and outreach for FY2027-2030, but not if they remove people without offering shelter or housing [EV-HOU-237] |
+| 6. Prevention | No change | The Act creates no emergency rent aid. Its disaster recovery block grant ends July 2029 [EV-HOU-228] |
+| 7. Immigration and labor | Wording only | Factory-built housing gets easier: no permanent chassis, modular financing, higher FHA Title I limits [EV-HOU-219] [EV-HOU-245] [EV-HOU-220]. Section 7's workforce scenario should count it as a partial hedge |
+| 8. Who first | No change | Disabled veterans in HUD-VASH are easier to qualify [EV-HOU-233]; nothing on priorities |
+| Smaller choices 1, 4, 5, 7 | No change | Nothing in the Act on payment limits, right to counsel, emergency aid rules or residency rules |
+| Smaller choice 2 (source of income) | No change | The Act has no source-of-income protection; pre-inspection for new landlords [EV-HOU-232] complements it |
+| Smaller choice 3 (search help) | Wording only | Housing agencies must now give new voucher holders a list of pre-inspected units [EV-HOU-232]; search help builds on it |
+| Smaller choice 6 (public housing redevelopment) | Wording and baseline only | The Rental Assistance Demonstration is permanent, its cap on total conversions rises from 455,000 to 555,000 units, and HUD must report yearly on residents who stay or return [EV-HOU-231]. The right to return should cover these conversions and use that reporting |
+| Smaller choice 8 (investor limit, HOU-7) | **Recommendation changes** | The limit and its reporting are law until January 2042 [EV-HOU-222] [EV-HOU-224]. HOU-7's reporting is already done; what is left is removing the sunset. Recommended: HOU-7B, leave the Act as enacted and decide after the 2037 reports. Now a yes-or-no question for Espen |
 
 ## Fork 1. Help or homes
 
@@ -69,6 +92,11 @@ The federal builder of last resort (HOU-9A, 9B or 9C) is an open call already on
 **What is settled.** HOU-4A's million awards are `decided` as voucher awards. 1B leaves them as they are and applies only to help beyond them. Applying it to HOU-4A would amend a decided item; this section does not recommend that.
 
 **Evidence gap.** The register does not yet hold evidence on how project-based awards lease up or affect rents (see "Evidence still needed"). The case for 1B rests on the evidence that tenant-based vouchers fail in tight markets, not on direct evidence that attached awards do better there.
+
+**Current law (ROAD to Housing Act).** No change to the options.
+- Inspections under the tax credit, HOME or rural programs now count for vouchers, and housing agencies may pre-inspect units of landlords new to the program and must list them for new voucher holders [EV-HOU-232]. That removes one cause of slow lease-up; landlord refusal and scarcity remain.
+- The Rental Assistance Demonstration, now permanent with its cap on total conversions raised from 455,000 to 555,000 units, keeps converting public housing to project-based assistance [EV-HOU-231]: attached help already exists at scale in that stock.
+- The Act's Build Now test exempts places whose rental vacancy is above the national rate [EV-HOU-208]. Section 4 can use the same Census measure as 1B's tight-market trigger, so the two federal tests agree.
 
 **Recommendation: 1B.** The evidence supports vouchers as the core and shows where they fail: tight markets with landlords who refuse them. 1B keeps tenant choice where it works and adds homes where it does not. The share of attached awards, the vacancy trigger and the right to move are set in section 4. Memo: `memos/1-help-or-homes.md`.
 
@@ -109,6 +137,8 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 - Fork 8 sets the order; fork 6 catches households not yet reached.
 - OUT-01: about 3.3 million children lived in unassisted extremely low-income households with severe problems [EV-HOU-186].
 
+**Current law (ROAD to Housing Act).** No change. The Act adds no rental assistance and no voucher awards [EV-HOU-201] [EV-HOU-202]. Its one change to the income rules widens HUD-VASH eligibility for veterans with VA disability benefits [EV-HOU-233].
+
 **Recommendation: 2B, phased.** It is the group the October 26 direction names, where needs are deepest and where the evidence on vouchers is strongest. Phase it in by group (fork 8) and by market readiness (fork 1). Keep 2C as a later step, to be judged on what the phase-in shows about rents and lease-up. Payment rules, landlord rules and search help are resolved below; they apply under any option. Memo: `memos/2-how-broad.md`.
 
 ## Fork 3. Production tool
@@ -145,28 +175,58 @@ HOU-3C, HOU-5 with HOU-5B and the HOU-8 pilot stay as chosen under every option.
 
 **Evidence gaps.** The register holds no independent evaluation of a U.S. public development corporation (Montgomery County's fund is uncorroborated [EV-HOU-141]) and no evidence on acquisition. A builder's cost includes development, staff and the risk that projects do not repay; section 6 must price it.
 
+**Current law (ROAD to Housing Act).** The options stand; the baseline they build on changes.
+- *No new construction money, no tax-credit change.* The Act appropriates nothing [EV-HOU-201] [EV-HOU-202] and does not amend the Low-Income Housing Tax Credit. HOU-2, HOU-3C, HOU-8 and HOU-9 duplicate nothing in it.
+- *Existing channels open wider.* CDBG may now pay for new affordable construction, up to 20% of a grant [EV-HOU-215]. HOME is authorized as a standing program, with no amount, no 24-month commitment deadline and homeownership help up to 100% of area median income [EV-HOU-226] [EV-HOU-227]. A vacant-building conversion program is authorized but unfunded [EV-HOU-229]. HOU-3's revolving funds sit beside HOME and CDBG; section 4 should say how a project combines them.
+- *Private capital.* Banks may now hold public welfare investments, which include tax-credit equity, up to 20% of capital instead of 15% [EV-HOU-241]. That widens the investor base for any credit increase under 3.1A, 3.1B or 3.1C.
+- *Lower review costs.* USDA infill projects skip environmental studies, and HUD must exempt or exclude more housing activities, including infill construction, once it writes the rules [EV-HOU-217] [EV-HOU-218].
+- *Public housing.* The Rental Assistance Demonstration is permanent, and its cap on total public housing conversions since 2012 rises from 455,000 to 555,000 units [EV-HOU-231]; just under 920,000 units remained in public housing in 2023 [EV-HOU-120]. HOU-5's repair money and HOU-5B's Faircloth repeal work on a program that conversion keeps shrinking; section 4 must say how HOU-5 treats units that convert.
+- *Middle incomes.* GAO must report by July 2027 on housing for households at 80-120% of area median income and on defining "workforce housing" in federal programs [EV-HOU-242]. That is the question the middle-income credit answers.
+- *Land and acquisition.* CDBG grantees must publish databases of the undeveloped land they own [EV-HOU-214], a ready list of local public land for HOU-8 or HOU-9 projects. The investor limit binds only for-profit entities and excludes governments [EV-HOU-222], so public and nonprofit acquisition of single-family homes, named in the October 26 direction, is not limited by it.
+
 **Recommendation.**
-- **Part 1: 3.1B.** This would change HOU-2A, which is `chosen`. The evidence favors deep, lasting affordability over broad credits: crowd-out is large where the market already builds, and expiring rent limits are a documented loss.
+- **Part 1: 3.1B.** This would change HOU-2A, which is `chosen`. The evidence favors deep, lasting affordability over broad credits: crowd-out is large where the market already builds, and expiring rent limits are a documented loss. With the Act in force, 3.1B's middle-income credit is deferred, not dropped: the dossier revisits it when GAO's workforce-housing study arrives in July 2027 [EV-HOU-242].
 - **Part 2: HOU-9A, limited.** This rests on Espen's October 26 direction ("a lawful federal sponsor/backstop where state participation fails") and on the slow start of new state programs [EV-HOU-150], not on evidence that a federal builder works; that evidence is thin. A small builder authorized now means the backstop exists before it is needed. HOU-9B is the cheaper fallback if Espen prefers to wait for the pilot.
 
 Memo: `memos/3-production.md`.
 
 ## Fork 4. Zoning conditions
 
-**The question.** What makes HOU-6's Housing Supply Fund and its conditions produce homes, rather than higher land values?
+**The question.** What makes HOU-6's Housing Supply Fund and its conditions produce homes, rather than higher land values? And now that the ROAD to Housing Act has enacted two federal tools of the same kind, should HOU-6 be a separate program at all?
+
+**What the Act already does** (`road-act.md`, title II):
+- *Innovation Fund (section 208).* Competitive grants to local governments and tribes that have shown "an objective improvement in housing supply growth", with priority to marked improvement; at least 25 grants a year, from $250,000 to $10 million each [EV-HOU-206]. The reforms it lists are HOU-6's: by-right duplexes to apartment buildings, parking reform, lot-size reform, accessory dwelling units, faster permits [EV-HOU-207]. It authorizes $200 million a year for FY2027-2031, appropriates nothing, and ends July 2033 [EV-HOU-202] [EV-HOU-206]. States cannot apply.
+- *Build Now (section 213).* From FY2029 through FY2043, metropolitan cities and urban counties whose housing growth rate improved less than the median lose 10% of their CDBG grant, and the money goes to those above the median and to fast growers. Low-cost places, places with rental vacancy above the national rate, recent disaster areas and places without zoning power are exempt [EV-HOU-208]. CDBG was $3.3 billion in FY2025 [EV-HOU-209]. The formula rewards a rise in a place's own growth rate rather than a high level of building (CRS) [EV-HOU-244].
+- *Planning, designs and guidance.* Planning and zoning-code grants to states, cities and regions until 2031 [EV-HOU-210]; pre-reviewed building designs [EV-HOU-212]; single-stair building guidance [EV-HOU-243]; national zoning guidelines by 2029 [EV-HOU-213]. None preempts local zoning [EV-HOU-206] [EV-HOU-243].
+
+So the Act already pays for growth rather than ordinances, which is what option 4B in the first draft asked for, and already conditions part of CDBG on housing growth, which HOU-6's conditions were to do for new CDBG money. HOU-6 as chosen would create a second reward fund and a second CDBG test for the same reforms.
+
+**Where the Act falls short of what the evidence favors.**
+- *No money.* Nothing is appropriated, and a $10 million award cap is small next to the reforms that moved permits [EV-HOU-206].
+- *No states.* The reforms followed by the most building were broad: Auckland rezoned three-quarters of its residential land [EV-HOU-123], and California's accessory-dwelling laws were statewide [EV-HOU-128]. Neither the Innovation Fund nor Build Now can reward a state.
+- *No count of lower-cost homes.* Reforms have done least for lower-cost units [EV-HOU-177]. The Innovation Fund's application "may include" data on income levels served [EV-HOU-207]; neither tool rewards it.
+- *Build Now's measure.* It rewards acceleration, so a place that already builds steadily can lose money while a place recovering from a slump gains [EV-HOU-244]. That is CRS's reading of the formula; no evaluation exists yet.
+- *End dates.* The Innovation Fund ends in 2033 and the planning grants in 2031 [EV-HOU-206] [EV-HOU-210].
 
 **Options.**
-- **4A. As chosen.** HOU-6's fund rewards jurisdictions that adopt reforms, with awards scaling with units permitted, and conditions on new transportation and community development money.
-- **4B. Pay for results.** Awards scale with homes permitted and completed; statewide and region-wide reforms earn more than narrow area upzonings; lower-cost homes are counted separately. Conditions still attach only to new federal money.
-- **4C. Federal override** of local permitting for federally financed homes.
+- **4A. As chosen.** A separate Housing Supply Fund rewards jurisdictions that adopt reforms, with awards scaling with units permitted, plus conditions on new transportation and new CDBG money. Under current law it runs beside the Innovation Fund and Build Now: two reward programs and two CDBG tests for the same reforms.
+- **4B. Pay for results through the Act's tools (revised).** No separate fund. HOU-6's money funds the Innovation Fund at scale, amended so that states and regions can compete with larger awards for statewide or region-wide by-right reform; awards follow homes completed; lower-cost homes are reported and rewarded separately; the $10 million cap rises; and the 2033 end date goes. Build Now stays as the only CDBG test, so HOU-6's separate CDBG condition is dropped. The condition on new transportation money (Moving America's 2031 authorization) stays; the Act has nothing like it. HOU-6 commissions an evaluation of Build Now's formula and proposes a fix if it penalizes steady builders.
+- **4C. Federal override** of local permitting for federally financed homes. Unchanged. The Act chose incentives and says its grants preempt nothing [EV-HOU-206].
+- **4D. The Act as enacted.** Appropriate the Innovation Fund at its authorized $200 million a year through 2031 [EV-HOU-206] and add nothing else. Cheapest; no state role, no lower-cost count, and it ends in 2033.
 
 **Evidence.**
 - Broad reforms produced building: Auckland's upzoning of three-quarters of its residential land added an estimated 21,808 permitted homes in five years [EV-HOU-123], and California's statewide accessory-dwelling laws took annual permits from 1,336 to 30,354 [EV-HOU-128]. Houston's smaller lot sizes allowed nearly 80,000 small-lot houses [EV-HOU-127].
 - Narrow ones did not: Chicago's transit-area upzonings raised land values with no added permits in five years [EV-HOU-124].
 - Gains are modest and mostly at the high end: loosening reforms were associated with 0.8% more housing in three to nine years, with no significant gain in lower-cost units [EV-HOU-177].
 - Minneapolis's lower rents may reflect weaker demand rather than new supply [EV-HOU-126], a reading contested by another study's supply figures [EV-HOU-125]; both views stand.
+- There is no evaluation yet of the Innovation Fund or Build Now; both are new.
 
-**Recommendation: 4B.** This would change the chosen HOU-6 design, though it keeps its fund and its conditions. Scale awards to homes permitted and completed, not ordinances passed. Give more to statewide and region-wide reforms that make apartments, accessory units and small lots legal by right than to narrow area upzonings. Report lower-cost homes separately, since that is where reforms have done least. 4C's broad override is not recommended; federal construction on federal land is part of fork 3. Memo: `memos/4-zoning.md`.
+**Interactions.**
+- Fork 1: Build Now's vacancy exemption and fork 1's tight-market trigger should use the same measure.
+- Fork 3: a federal builder on federal land sidesteps local permitting there; the Act's public-land databases list local public land [EV-HOU-214].
+- Vehicle: money for section 208 can ride R2 as a mandatory appropriation. Amending its eligibility and award rules may need the floor bill that already carries the transportation condition; section 5 settles which (judgment, not evidence).
+
+**Recommendation: 4B, revised.** This would change the chosen HOU-6 more than the first draft did: it keeps HOU-6's money and its transportation condition, but drops the separate fund and the CDBG condition in favor of the Act's two tools. Paying for homes built, favoring broad reform and counting lower-cost homes are still the right design, for the reasons the evidence gives. The Act supplies the vehicle; this plan supplies the money, the state role and the lower-cost count. 4D is the cheaper fallback; 4A now duplicates current law. Memo: `memos/4-zoning.md`.
 
 ## Fork 5. Homelessness approach
 
@@ -191,6 +251,11 @@ Memo: `memos/3-production.md`.
 - The care flagship: treatment capacity and Medicaid-funded services decide whether offered services exist.
 - OUT-07: asylum seekers drove most of the 2022-2024 rise in sheltered homelessness, not the unsheltered rise [EV-HOU-062]; that is a shelter and processing question for the immigration dossier.
 
+**Current law (ROAD to Housing Act).** No change to the options; the Act neither codifies nor reverses the 2025 order.
+- The Interagency Council on Homelessness must issue a new National Strategic Plan to End Homelessness by July 2027 [EV-HOU-238]. In this dossier's judgment it will likely follow the 2025 order [EV-HOU-107], so 5A and 5B would reverse any treatment conditions carried into that plan as well as the order's.
+- For FY2027-2030 grants, Emergency Solutions Grants recipients may ask to spend more than the usual cap on shelter and street outreach. HUD must refuse a recipient that removes people or their belongings without offering shelter or housing [EV-HOU-237]. That rule is a federal precedent section 4 can build on.
+- Veterans with VA disability benefits are easier to qualify for HUD-VASH vouchers [EV-HOU-233].
+
 **Recommendation: 5B.** The housing evidence is strong and consistent across trials; the treatment evidence neither supports making it a condition nor shows Housing First solves addiction. A chosen recovery option respects people who want it and lets the plan learn what works for the group the trials missed. The recovery-housing part rests on judgment: no evaluation of recovery housing is in the register yet. Memo: `memos/5-homelessness.md`.
 
 ## Fork 6. Prevention and emergency aid
@@ -214,6 +279,8 @@ Memo: `memos/3-production.md`.
 - D4: a one-time package adds nothing to the FY2040 run rate; a standing fund is permanent spending and must be paid for from FY2040. Its cost is likely small next to rental help, but section 6 must price it.
 - Design rules: durable instruments and recurring help beat one-time help (legacy governing decisions, standing design rules 2 and 3).
 
+**Current law (ROAD to Housing Act).** No change. The Act creates no emergency rent aid. Its Emergency Solutions Grants waiver lets recipients put more of that grant into shelter and outreach for FY2027-2030 [EV-HOU-237]; the same grant also pays for prevention, so local prevention money may shrink in those years (judgment). Its disaster recovery block grant ends July 2029 [EV-HOU-228], before 6C's fund would start; section 4 should say whether the fund also serves renters displaced by disasters.
+
 **Recommendation: 6C.** This would change HOU-1A, which is `chosen`. The evidence supports prevention as a standing tool and shows national one-time aid is slow to start. Its value depends on targeting. The Chicago program cost about $10,300 per case of homelessness averted, and its authors expect much less with better targeting [EV-HOU-108]; the Santa Clara aid averaged about $2,000 a household [EV-HOU-109]. In this dossier's reading, the gap means many recipients would have stayed housed anyway. Moving construction money into HOU-3 puts it in the channel built for it. Memo: `memos/6-prevention.md`.
 
 ## Fork 7. Immigration and construction labor (recommended without a memo)
@@ -231,7 +298,7 @@ Memo: `memos/3-production.md`.
 **Recommendation.** This is a dependency, not a housing choice; the immigration dossier decides its own design. The housing dossier will:
 1. State its supply estimates in sections 6 and 7 as conditional on the construction workforce, and test them against a scenario in which it shrinks.
 2. Ask the immigration dossier's design section to weigh the housing evidence when it sets interior enforcement priorities (IMM-4A) and the scope of earned legalization (IMM-1), and whether a construction-trades channel belongs in legal immigration (IMM-2, which names agricultural and care-worker visas but not construction).
-3. Count the domestic channel: construction apprenticeships under LAB-8, which the legacy file says supply HOU-3 and HOU-6.
+3. Count the domestic channel: construction apprenticeships under LAB-8, which the legacy file says supply HOU-3 and HOU-6. Count factory-built housing too: the ROAD to Housing Act drops the permanent-chassis rule for manufactured homes, orders a review of FHA financing for modular building and raises FHA Title I loan limits (ROAD to Housing Act, 2026; Congressional Research Service, 2026) [EV-HOU-219] [EV-HOU-245] [EV-HOU-220]. In this dossier's judgment, factory building needs fewer workers on site, so the workforce scenario should test it as a partial hedge.
 4. Plan for newcomers' housing needs where they settle: shelter surges from asylum arrivals belong with asylum processing (IMM-3), and fork 6's fund can serve receiving communities.
 
 **For Espen (yes or no):** treat the construction workforce as a dependency the immigration dossier weighs, as above? A "no" would make it a housing decision, with its own memo.
@@ -266,20 +333,24 @@ Memo: `memos/3-production.md`.
 - OUT-01 and OUT-04: 8B reaches the most children; 8A reaches the most severe hardship first.
 - Black renters were 28% of renters but 39% of those named in eviction filings [EV-HOU-077], and worst case needs are more common among Black and Hispanic households [EV-HOU-036]. Section 7 should check who each order reaches.
 
+**Current law (ROAD to Housing Act).** No change. The Act sets no priorities for vouchers. It makes veterans with VA disability benefits easier to qualify for HUD-VASH vouchers [EV-HOU-233], which helps reach homeless veterans under 8A.
+
 **Recommendation: a combination of 8A and 8B.** People without a home first, families with children among them first. Then extremely low-income families with children with severe needs. Then other extremely low-income households with severe needs, including older and disabled renters. Renters at imminent risk are served by fork 6's fund, not the guarantee's queue. If Espen keeps a one-time package instead (6A or 6B), there is no standing route for them after 2031 beyond local programs; the order should then reserve a small share of awards for households at imminent risk. Memo: `memos/8-who-first.md`.
 
 ## Recommended without a memo
 
-Espen decides each item, yes or no. Sources are named in plain text, with the register tag after each. None is adopted by silence, and section 4 drafts none of them until Espen agrees. Points 2 and 4 are policy choices with political weight; the others are closer to implementation detail. Lasting affordability, listed here in an earlier draft, is now part of memo 3.
+Espen decides each item, yes or no. Sources are named in plain text, with the register tag after each. None is adopted by silence, and section 4 drafts none of them until Espen agrees. Points 2, 4 and 8 are policy choices with political weight; the others are closer to implementation detail. Lasting affordability, listed here in an earlier draft, is now part of memo 3.
 
 1. **Payment limits by neighborhood.** Set voucher payment limits by ZIP code (Small Area Fair Market Rents) in metro areas, not one limit for the whole metro. Metro-wide increases mainly raised landlords' rents; neighborhood limits moved families in Dallas to safer, lower-poverty areas (Collinson and Ganong, 2018) [EV-HOU-095]. This applies under every option in fork 2.
 2. **Source-of-income protection.** Bar landlords nationwide from refusing tenants because they pay with a voucher.
    - Refusal rates were 15% and 31% where such laws exist, against 67% to 78% where they do not (HUD landlord study by the Urban Institute, 2018) [EV-HOU-093].
    - The laws modestly improve where voucher holders live (Freeman and Li, 2014) [EV-HOU-094].
    - *Consequence:* it is a federal rule on private landlords, so it needs a regular bill under the Senate rules change, not reconciliation, and landlord groups will oppose it. That is judgment, not evidence from the register. The alternative is to reward states that adopt such laws through HOU-6.
+   - *Current law:* the ROAD to Housing Act has no such protection. It lets housing agencies inspect a new landlord's unit in advance (ROAD to Housing Act, 2026) [EV-HOU-232], which lowers one cost of joining the program but does not stop refusals.
 3. **Search help.** Fund search help, landlord outreach and short-term costs such as deposits with every new award.
    - In Seattle and King County they raised moves to high-opportunity areas from 15% to 53% (Bergman and others, 2024) [EV-HOU-091].
    - Emergency Housing Vouchers carried extra fees for services and landlord incentives (Congressional Research Service, voucher program overview, 2023) [EV-HOU-188].
+   - Current law now requires housing agencies to give new voucher holders a list of pre-inspected units (ROAD to Housing Act, 2026) [EV-HOU-232]; search help starts from that list.
 4. **Right to counsel.** Make legal help for tenants an allowed use of fork 6's fund, without a federal mandate.
    - Full representation helped in one Massachusetts trial (Greiner, Pattanayak and Hennessy, 2013) [EV-HOU-143] and not in its companion (Greiner and others, 2012) [EV-HOU-144].
    - New York City's program reduced evictions (Cassidy and Currie, 2023) [EV-HOU-145]. But rents rose 1.2-1.6% in its second year, enough by one estimate to leave tenants slightly worse off (Collinson and others, University of Notre Dame, 2026) [EV-HOU-147].
@@ -293,22 +364,26 @@ Espen decides each item, yes or no. Sources are named in plain text, with the re
    - HOPE VI redevelopment returned few original residents (Popkin and others, Urban Institute, 2004) [EV-HOU-122].
    - Children who left distressed Chicago high-rises with vouchers did better as adults (Chyn, 2018) [EV-HOU-121].
    - "Repair first" is judgment; the evidence bears on the right to return and the voucher alternative.
+   - *Current law:* the Rental Assistance Demonstration, the main route by which public housing is now redeveloped, is permanent, its cap on total conversions rises from 455,000 to 555,000 units, and HUD must publish each year how many residents stay or return (ROAD to Housing Act, 2026) [EV-HOU-231]. The right to return should cover these conversions and use that yearly reporting.
 7. **No residency-length rules in social housing.** HOU-8 and the guarantee should not favor people by how long they have lived in an area.
    - Vienna requires two years at a Vienna address and gives longer-term residents preference (City of Vienna) [EV-HOU-164]. That keeps out newcomers and homeless people (Friesenecker and Kazepov, 2021) [EV-HOU-162].
    - U.S. voucher rules bar residency requirements and length-of-residence preferences (HUD voucher rules, 24 CFR 982.207) [EV-HOU-189].
    - Whether fair-housing law would bar them in a new program is for section 4.
-8. **The investor limit (HOU-7).** No change from the chosen design. The evidence is mixed:
-   - rents rose where merging institutional landlords overlapped (Gurun and others, 2023) [EV-HOU-138];
-   - investors raise rents when they buy (Lee and Wylie, Federal Reserve Bank of Philadelphia, 2024) [EV-HOU-139];
-   - their effect on access to ownership was limited (Giacoletti and others, Federal Reserve Bank of Philadelphia, 2025) [EV-HOU-140].
-   - Section 4 adds the reporting HOU-7 already calls for.
+8. **The investor limit (HOU-7): make it permanent now, or leave the ROAD to Housing Act as enacted (HOU-7B)?**
+   - *Current law.* Large investors (for-profit owners of at least 350 single-family homes) may not buy more from January 7, 2027. The ban is repealed on January 7, 2042 (ROAD to Housing Act, 2026) [EV-HOU-222]. It has wide exceptions, including build-to-rent and renovate-to-rent [EV-HOU-223].
+   - *Reporting is already law.* Investors report their holdings by city to HUD each year, and GAO and HUD report on the ban's effects 2 and 10 years after it starts, in 2029 and 2037 (ROAD to Housing Act, 2026) [EV-HOU-224]. HOU-7's added reporting would duplicate this, so the choice is only about the sunset.
+   - *The evidence is mixed.* Rents rose where merging institutional landlords overlapped (Gurun and others, 2023) [EV-HOU-138]; investors raise rents when they buy (Lee and Wylie, Federal Reserve Bank of Philadelphia, 2024) [EV-HOU-139]; their effect on access to ownership was limited (Giacoletti and others, Federal Reserve Bank of Philadelphia, 2025) [EV-HOU-140]. No study of the ban itself exists yet.
+   - *Recommendation: HOU-7B.* Leave the ban as enacted and decide whether to make it permanent after the 2037 reports, five years before it lapses. The ban lasts beyond the plan's 2030-39 window, the reports arrive in time, and removing the sunset now would spend floor time in the first Congress (the legacy file marks it as needing a rules change) on a rule nobody has evaluated. That is judgment, not evidence.
+   - *Against:* the project's durability rule avoids sunsets on permanent policy (`legacy/domains/domain-housing.md`, HOU-7), and a later Congress could simply let the ban lapse.
+   - *For Espen (yes or no):* leave the investor limit as enacted and decide after the 2037 reports (HOU-7B)? A "no" keeps HOU-7 as chosen: the floor bill removes the 2042 sunset, without new reporting.
 
 ## How the choices fit together
 
 Taken together, the recommendations make one design:
 - **A guarantee for the lowest-income renters**, built on HOU-4A and HOU-4D and phased in by group (forks 2 and 8): people without a home first, then families with children, then other renters with severe needs.
 - **Delivered to fit the market** (fork 1): vouchers with neighborhood payment limits, source-of-income protection and search help where homes are available; awards attached to new and acquired homes where they are not.
-- **Backed by lasting supply** (forks 3 and 4): public and nonprofit lending through HOU-3C, permanent affordability, public housing repair with a right to return, a narrower tax credit, zoning rewards paid for homes built, and a small federal builder for places where state channels fail.
+- **Backed by lasting supply** (forks 3 and 4): public and nonprofit lending through HOU-3C, permanent affordability, public housing repair with a right to return, a narrower tax credit, zoning rewards paid for homes built through the ROAD to Housing Act's Innovation Fund, funded and opened to states, and a small federal builder for places where state channels fail.
+- **On top of current law.** The ROAD to Housing Act is the baseline: its reward fund, its CDBG reallocation, its investor limit and its program changes stay, and this plan adds the money and the pieces it lacks (`road-act.md`).
 - **Before section 4.** Each piece waits on Espen's decision on its memo or list item.
 - **Caught early** (fork 6): a standing emergency-rent fund for renters at risk, with tested delivery rules.
 - **Housing First for homelessness** (fork 5), with a recovery option people can choose.
@@ -332,6 +407,8 @@ The project's long-term model already fails the FY2040 test after the October 24
 
 - **HOU-4D is not in `agenda/agenda.csv`.** It was adopted as a working allocation on October 26 (legacy governing decisions) but the agenda extraction did not give it a row. The next charter PR should add it, along with any new options Espen chooses here (such as fork 6's standing fund).
 - **Agenda status words.** HOU-3C is `chosen` in the agenda although the legacy file records it as Espen's choice. This section treats it as settled.
+- **HOU-7 and HOU-7B.** Both rows exist in `agenda/agenda.csv` and both are `chosen`, though they are alternatives; HOU-7B's name ("Investor limit permanent / leave ROAD as enacted") is the old register's label for the pair. After Espen answers point 8, the next charter PR should name HOU-7B "Leave the ROAD to Housing Act's investor limit as enacted" and mark only the chosen one. Agenda edits are tier 3, so this section makes none.
+- **HOU-6's name and design.** If Espen chooses fork 4's revised 4B, HOU-6 becomes "Fund and extend the ROAD to Housing Act's Innovation Fund; transportation condition", and its CDBG condition is dropped. The same charter PR records it.
 
 ## Evidence still needed
 
@@ -343,7 +420,9 @@ The project's long-term model already fails the FY2040 test after the October 24
 | Acquisition of existing buildings by public and nonprofit owners: cost and outcomes | Academic and agency evaluations | The October 26 direction names acquisition; no evidence in the register yet |
 | Evidence on public development corporations in the U.S. | Independent evaluations | Montgomery County's fund is uncorroborated [EV-HOU-141] |
 | Fair-housing law on residency preferences in a new federal program | Fair Housing Act case law; HUD guidance | Section 4 |
-| Rural, tribal and Native housing (NAHASDA) | HUD, tribal housing research | Not covered in sections 1-3 |
+| Rural, tribal and Native housing (NAHASDA) | HUD, tribal housing research | Not covered in sections 1-3. The ROAD to Housing Act's rural provisions are mapped in `road-act.md` [EV-HOU-217] [EV-HOU-239] [EV-HOU-240]; evidence on outcomes is still missing |
+| Effects of the ROAD to Housing Act's Innovation Fund and Build Now; HUD's first Build Now growth rates | HUD notices and data; later evaluations | Neither tool is funded or evaluated yet; fork 4 rests on the earlier zoning evidence |
+| Evaluation of the investor limit | GAO and HUD reports due 2029 and 2037 [EV-HOU-224] | Not yet due; point 8 rests on earlier studies |
 
 ## Questions for Espen
 
@@ -356,4 +435,4 @@ Seven decision memos, one per fork, in `memos/`:
 6. `memos/6-prevention.md`: a standing emergency-rent fund or a one-time package.
 7. `memos/8-who-first.md`: who the guarantee reaches first.
 
-Also a yes or no on fork 7 and on each of the eight points under "Recommended without a memo".
+Also a yes or no on fork 7 and on each of the eight points under "Recommended without a memo". Point 8 is new with the ROAD to Housing Act: leave its investor limit as enacted (HOU-7B), or remove its 2042 sunset now (HOU-7).

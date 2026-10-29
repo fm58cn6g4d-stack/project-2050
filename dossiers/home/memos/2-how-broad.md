@@ -6,6 +6,8 @@ Role: decision memo for Espen, fork 2 of the housing design (`../3-design.md`). 
 
 On October 26 you asked for a guarantee that ends waiting-list luck for the lowest-income renters. Which renters should it cover?
 
+**Current law.** The ROAD to Housing Act (2026) does not change this memo's options or recommendation: it adds no rent help (ROAD to Housing Act, 2026; Congressional Research Service, 2026) [EV-HOU-201] [EV-HOU-202]. Its one change to the income rules makes disabled veterans easier to qualify for the veterans' voucher program (ROAD to Housing Act, 2026) [EV-HOU-233].
+
 ## Why it matters
 
 Today rental help is rationed. Only 28% of very low-income renters get any (HUD, Worst Case Housing Needs report, 2025) [EV-HOU-022], and housing agencies keep waiting lists (Congressional Research Service, voucher program overview, 2023) [EV-HOU-012]. A guarantee means everyone in the covered group who qualifies gets help, like food stamps, instead of a lottery.

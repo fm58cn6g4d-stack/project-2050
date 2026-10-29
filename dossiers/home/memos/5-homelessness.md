@@ -6,6 +6,8 @@ Role: decision memo for Espen, fork 5 of the housing design (`../3-design.md`). 
 
 "Housing First" gives a homeless person a home without first requiring treatment or sobriety. Services are offered, not required. A July 2025 executive order turns federal policy against it and pushes treatment as a condition of help (White House executive order, July 2025) [EV-HOU-107]. What should the plan do?
 
+**Current law.** The ROAD to Housing Act (2026) does not change this memo's options or recommendation. It neither writes the 2025 order into law nor reverses it. It does require a new federal plan to end homelessness by July 2027 (Congressional Research Service, 2026) [EV-HOU-238], which this dossier expects to follow the order; that is judgment. And for 2027-2030 it lets cities put more of one homelessness grant into shelter and outreach, but not if they clear people out without offering shelter or housing (ROAD to Housing Act, 2026) [EV-HOU-237].
+
 ## Why it matters
 
 Chronic homelessness among single adults reached 155,750 in 2025, the highest on record (Congressional Research Service, homelessness overview, 2026) [EV-HOU-016]. These are people homeless for at least a year, or four times adding up to a year over three years (same source) [EV-HOU-016].

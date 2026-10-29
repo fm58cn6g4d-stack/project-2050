@@ -8,6 +8,15 @@ You already chose the construction money: grants to state revolving funds and fe
 - **Part 1.** Should the plan keep all three housing tax credits, and should every home it pays for stay affordable for good?
 - **Part 2.** Should it create a federal builder for places where states don't build?
 
+## Current law: the ROAD to Housing Act
+
+The ROAD to Housing Act, law since July 11, 2026, **does not change the options or the recommendations in this memo.** It adds no construction money and does not touch the housing tax credits (ROAD to Housing Act, 2026; Congressional Research Service, 2026) [EV-HOU-201] [EV-HOU-202]. What it does change is the starting point (`../road-act.md`):
+- Community development grants may now pay for new affordable homes, up to a fifth of a grant, and the HOME program is renewed with fewer deadlines, though with no set amount (ROAD to Housing Act, 2026; Congressional Research Service, 2026) [EV-HOU-215] [EV-HOU-226] [EV-HOU-227].
+- Banks may put more money into tax-credit projects: up to 20% of their capital instead of 15% (Congressional Research Service, 2026) [EV-HOU-241].
+- Public housing can keep converting to other kinds of rent help with no end date, and the limit on conversions since 2012 rises from 455,000 to 555,000 homes (ROAD to Housing Act, 2026) [EV-HOU-231]. The repair money you chose (HOU-5) works on a shrinking program, and section 4 must say how it treats homes that convert.
+- Congress's auditors (GAO) must report by July 2027 on housing for middle-income households (Congressional Research Service, 2026) [EV-HOU-242]. Under the recommendation, the middle-income credit is put off until that report is in, not dropped.
+- Cities and counties must list the empty land they own (ROAD to Housing Act, 2026) [EV-HOU-214], which helps find sites for public building.
+
 ## Why it matters
 
 - **Tax credits partly pay for homes that would have been built anyway.**
@@ -30,7 +39,7 @@ The recommendation would change that.
 - *Risk:* the middle-income credit is a permanent tax cost that may buy few extra homes. Affordability keeps expiring (Federal Reserve Bank of Chicago, 2025) [EV-HOU-119].
 
 **B. Narrower credits, permanent affordability (recommended).**
-- Keep the bigger tax credit with the boost for the poorest renters. Drop or postpone the other two.
+- Keep the bigger tax credit with the boost for the poorest renters. Postpone the middle-income credit until GAO's report on middle-income housing, due July 2027 (Congressional Research Service, 2026) [EV-HOU-242]; drop or postpone the neighborhood repair credit.
 - Every home the plan builds or buys stays affordable permanently. New tax-credit buildings give a nonprofit the right to buy when the rent limits end.
 - *For people:* for example, a home-care worker renting in a new nonprofit building keeps an affordable rent decades from now. Today's tax-credit tenants can lose theirs when the rent limits expire (Federal Reserve Bank of Chicago, 2025) [EV-HOU-119].
 - *Risk:* the middle-income credit is the one housing benefit that reaches middle-to-upper-middle earners, and the fairness test is not yet met for that group (`charter/PROGRESS.md`). The household model must confirm that group still comes out ahead.
