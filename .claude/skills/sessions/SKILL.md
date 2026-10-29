@@ -16,7 +16,7 @@ The board's **Standing sessions** table (top of `charter/PROGRESS.md`) names the
 - **Lead** (titled "Project 2050: lead"): coordinates the stages. It starts workers, receives their reports, schedules check-ins and keeps the board current. Espen talks to it for day-to-day work. It may start any session these rules allow.
 - **Worker**: a session started from a brief to do one board step. When it finishes, it reports to its report-back address, which is the lead unless the brief says otherwise (the relay, below). It starts a session itself only when the lead is gone. Other new work goes on the board as "Next" or in a message to the lead.
 - **Reviewer** (titled "Project 2050: reviewer"): a scheduled task wakes it every three hours. It reviews PRs and starts nothing.
-- **Strategy** (titled "Project 2050: strategy and systems"): Espen's session for stepping back to work on the plan, the process and these rules. It doesn't coordinate stages or start workers. It may start a new lead or reviewer (see "Handing over a standing role").
+- **Strategy** (titled "Project 2050: strategy and systems"): Espen's session for stepping back to work on the plan, the process and these rules. It doesn't coordinate stages or start workers. It may start a new lead (see "Handing over a standing role").
 
 ## Start a new session when
 
@@ -85,7 +85,7 @@ Don't hand over in the middle of a step you are writing yourself. Finish it or p
 
 **Who starts the successor.** The new session should sit high in the session tree:
 1. the strategy session, if it is alive (ask it with a `handoff` message);
-2. otherwise the outgoing lead, if its own `lineage.depth` is at most 4;
+2. otherwise the outgoing lead, if its own `lineage.depth` is at most 4 (`get_session` shows lineage only in a session's own record, so each session checks its own);
 3. otherwise, Espen. Say so in your final reply and give them the one-line prompt to paste into a new session: "You are the new Project 2050 lead: follow the handoff in charter/PROGRESS.md and .claude/skills/sessions/SKILL.md."
 
 For the reviewer, the lead starts the successor; the reviewer starts nothing.
@@ -109,16 +109,17 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 1. Read `charter/STANDARDS.md`, the board, the handoff note and this skill.
 2. Check each listed session with `get_session`.
 3. Send each live worker a `handoff` message giving your ID as its new report-back address.
-4. Recreate the outgoing lead's scheduled check-ins for yourself (with `send_later`, or `create_trigger` for recurring ones), then delete the old ones. A scheduled task can't be moved to another session in place.
+4. Recreate the outgoing lead's scheduled check-ins for yourself (with `send_later`, or `create_trigger` for recurring ones), then disable the old ones with `update_trigger` (`enabled: false`). A scheduled task can't be moved to another session in place. Never delete a task during a handover: `delete_trigger` also deletes every session the task started.
 5. Review the handoff PR so the gate can merge it (another Claude session's review counts), or fix it.
 6. Send the outgoing lead a `done` message saying you hold the role.
 7. In your first reply, tell Espen that the session titled "Project 2050: lead" is now you.
 
 **Handing over the reviewer.**
-1. The lead starts a new session with the most capable model, title "Project 2050: reviewer" and tags `["project-2050", "reviewer"]`. Its brief is the standing review prompt, which the scheduled task holds (`list_triggers`).
-2. The lead creates a new recurring task with the same schedule and prompt and `persistent_session_id` set to the new reviewer, then deletes the old task.
-3. The lead updates the Standing sessions table in its next board PR and retitles the old reviewer "Project 2050: former reviewer (until <date>)".
-4. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
+1. The lead reads the standing review prompt and schedule from the old task (`get_trigger`).
+2. The lead starts a new session with the most capable model, title "Project 2050: reviewer" and tags `["project-2050", "reviewer"]`. Its brief is that prompt.
+3. The lead creates a new recurring task with the same schedule and prompt and `persistent_session_id` set to the new reviewer, then disables the old task with `update_trigger` (`enabled: false`). Never delete it: `delete_trigger` also deletes every session the task started, which can include the old reviewer.
+4. The lead updates the Standing sessions table in its next board PR and retitles the old reviewer "Project 2050: former reviewer (until <date>)".
+5. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
 
 ## Pinging another session
 
