@@ -220,6 +220,19 @@ def classify(base, head, policy):
                 reasons.append((path, 2, "regenerated model output"))
             continue
         rule = match_rule(path, policy)
+        if st == "R":
+            # A rename also removes the source path: keep the higher tier of the two.
+            src = match_rule(old, policy)
+            if src["tier"] == "domain" and rule["tier"] != "domain":
+                # Moving a domain file out of the domain folder removes it as a domain file.
+                lost = sorted(program_ids(file_at(base, old) or "") - all_domain_ids(head))
+                if lost:
+                    rule = {"tier": 3, "why": f"renamed from {old}: program IDs removed: "
+                                              + ", ".join(f"-{i}" for i in lost)}
+                elif rule["tier"] < 2:
+                    rule = {"tier": 2, "why": f"renamed from {old}: domain file moved out of the domain files"}
+            elif isinstance(src["tier"], int) and isinstance(rule["tier"], int) and src["tier"] > rule["tier"]:
+                rule = {"tier": src["tier"], "why": f"renamed from {old}: {src['why']}"}
         tier, why = rule["tier"], rule["why"]
         if tier == "domain":
             before = file_at(f"{base}", old) if st != "A" else ""
@@ -285,16 +298,19 @@ def parse_review(body):
 
 
 def same_changes(old, new):
-    """True when `new` only adds main to `old`: old is an ancestor of new and the PR's own changes (the diff from
-    each commit's merge base with main) are identical. Then a review of `old` still describes `new`."""
+    """True when `new` only adds main to `old`: old is an ancestor of new, and merging main (as of new's merge base
+    with it) into old gives exactly new's tree. Then a review of `old` still describes `new`."""
     try:
         if git("rev-parse", old).strip() == git("rev-parse", new).strip():
             return True
         if subprocess.run(["git", "merge-base", "--is-ancestor", old, new], cwd=ROOT,
                           stderr=subprocess.DEVNULL).returncode:
             return False
-        own = lambda c: git("diff", "--no-color", git("merge-base", "HEAD", c).strip(), c)
-        return own(old) == own(new)
+        # Replay main onto the reviewed commit: the carry-over holds only if that merge is clean and gives exactly
+        # the new tree, so any edit beyond main's (even whitespace, or moving a line) voids it.
+        r = subprocess.run(["git", "merge-tree", "--write-tree", old, git("merge-base", "HEAD", new).strip()],
+                           cwd=ROOT, capture_output=True, text=True)
+        return r.returncode == 0 and r.stdout.split()[0] == git("rev-parse", f"{new}^{{tree}}").strip()
     except RuntimeError:
         return False  # a commit not available locally: no carry-over
 

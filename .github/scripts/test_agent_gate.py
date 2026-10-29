@@ -588,6 +588,51 @@ class Classify(unittest.TestCase):
         self.assertFalse(g.same_changes(reviewed, edited))
         self.assertFalse(g.same_changes("0" * 40, merged))
 
+    def test_rename_keeps_source_tier(self):
+        self.git("mv", "legacy/governing/rules.md", "legacy/sources/rules.md")
+        cls = g.classify(self.base, self.commit("r"), POLICY)
+        self.assertEqual(cls["tier"], 3)
+        self.assertIn("renamed from legacy/governing/rules.md", cls["reasons"][0][2])
+
+    def test_rename_out_of_domains_counts_as_removing_a_domain_file(self):
+        os.makedirs(os.path.join(self.tmp, "library"))
+        self.git("mv", "legacy/domains/domain-x.md", "library/domain-x.md")
+        cls = g.classify(self.base, self.commit("r"), POLICY)
+        self.assertEqual(cls["tier"], 3)
+        self.assertIn("renamed from legacy/domains/domain-x.md", cls["reasons"][0][2])
+        self.assertIn("-HLT-1", cls["reasons"][0][2])
+        self.git("reset", "-q", "--hard", self.base)
+        self.write("legacy/domains/domain-y.md", "# Y\n\nWorks with HLT-1.\n")
+        base = self.commit("y")
+        os.makedirs(os.path.join(self.tmp, "library"), exist_ok=True)
+        self.git("mv", "legacy/domains/domain-x.md", "library/domain-x.md")
+        cls = g.classify(base, self.commit("r2"), POLICY)  # HLT-1 is still in a domain file
+        self.assertEqual(cls["tier"], 2)
+        self.assertIn("renamed from legacy/domains/domain-x.md", cls["reasons"][0][2])
+
+    def test_same_changes_when_main_edits_the_same_file(self):
+        lines = [f"line {i}\n" for i in range(60)]
+        self.write("legacy/sources/long.md", "".join(lines))
+        self.commit("long file")
+        self.git("checkout", "-q", "-b", "pr")
+        self.write("legacy/sources/long.md", "".join(lines[:2] + ["line 2, revised\n"] + lines[3:]))
+        reviewed = self.commit("pr edits line 2")
+        self.git("checkout", "-q", "main")
+        self.write("legacy/sources/long.md", "".join(lines[:45] + ["line 45, main\n"] + lines[46:]))
+        self.commit("main edits line 45")
+        self.git("checkout", "-q", "pr")
+        self.git("merge", "-q", "--no-edit", "main")
+        merged = self.git("rev-parse", "HEAD").strip()
+        self.write("legacy/sources/long.md", "".join(lines[:2] + ["    line 2, revised\n"] + lines[3:]))
+        indented = self.commit("pr re-indents its line")
+        self.write("legacy/sources/long.md", "".join(lines[:2] + lines[3:6] + ["line 2, revised\n"] + lines[6:45]
+                                                     + ["line 45, main\n"] + lines[46:]))
+        moved = self.commit("pr moves its line")
+        self.git("checkout", "-q", "main")
+        self.assertTrue(g.same_changes(reviewed, merged))
+        self.assertFalse(g.same_changes(reviewed, indented))  # whitespace can change behaviour (Python)
+        self.assertFalse(g.same_changes(reviewed, moved))
+
     def test_governing_is_tier3(self):
         self.write("legacy/governing/rules.md", "Rule, reworded.\n")
         self.assertEqual(g.classify(self.base, self.commit("g"), POLICY)["tier"], 3)
