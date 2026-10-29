@@ -60,14 +60,17 @@ def file_at(rev, path):
 
 def changed_files(base, head):
     """[(status, path, old_path)] between the merge base of base..head and head."""
-    out = []
-    for line in git("diff", "--name-status", "-M", f"{base}...{head}").splitlines():
-        parts = line.split("\t")
-        st = parts[0][0]
-        if st == "R":
-            out.append(("R", parts[2], parts[1]))
+    # -z gives raw, NUL-separated paths; without it git quotes and escapes unusual names, and a quoted
+    # ".github/..." would not match its tier rule. Fields: status, path (old and new for a rename or copy).
+    fields, out, i = git("diff", "--name-status", "-z", "-M", f"{base}...{head}").split("\0"), [], 0
+    while i < len(fields) and fields[i]:
+        st = fields[i][0]
+        if st in "RC":
+            out.append((st, fields[i + 2], fields[i + 1]))
+            i += 3
         else:
-            out.append((st, parts[1], parts[1]))
+            out.append((st, fields[i + 1], fields[i + 1]))
+            i += 2
     return out
 
 
@@ -315,13 +318,36 @@ def same_changes(old, new):
         return False  # a commit not available locally: no carry-over
 
 
+def review_items(comments, reviews):
+    """Issue comments and formal PR reviews as review inputs. A dismissed approval is withdrawn and does not count; a
+    dismissed changes-requested still blocks, since a block stands until the same reviewer approves."""
+    items = [{"body": c.get("body"), "created_at": c["created_at"], "updated_at": c.get("updated_at") or "",
+              "user": c["user"]["login"],
+              "app": (c.get("performed_via_github_app") or {}).get("slug")} for c in comments]
+    for r in reviews:
+        dismissed = (r.get("state") or "").upper() == "DISMISSED"
+        if r.get("body") and not (dismissed and (parse_review(r["body"]) or ("",))[0] == "approve"):
+            items.append({"body": r["body"], "created_at": r.get("submitted_at") or "", "user": r["user"]["login"],
+                          "app": (r.get("performed_via_github_app") or {}).get("slug")})
+    return items
+
+
+def verdict_time(it):
+    """When a review item's verdict was given. A comment edited into changes-requested blocks from its edit; an
+    approval dates from when it was posted, so editing an old approval cannot outrun a later block."""
+    p = parse_review(it.get("body"))
+    if p and p[0] == "changes-requested":
+        return max(it["created_at"], it.get("updated_at") or "")
+    return it["created_at"]
+
+
 def evaluate_reviews(items, head_sha, author, owners, policy, carries=lambda h: False, ignore_blocks=False):
     """items: [{'body','created_at','app'}] in any order. `carries(h)` says whether an approval of commit h still
     describes the head (see same_changes). Returns (ok, summary, approvals, blocks)."""
     author_agent, author_session = author
     latest = {}
     trusted = set(policy["trusted_logins"])
-    for it in sorted(items, key=lambda x: x["created_at"]):
+    for it in sorted(items, key=verdict_time):
         if it.get("user") not in trusted:
             continue  # on a public repository anyone can comment
         p = parse_review(it["body"])
@@ -604,12 +630,7 @@ def gate(args, policy):
     status(gh, head, "merge-tier", tier_state, tier_desc, run_url)
 
     author = pr_author(pr.get("body"), pr["head"]["ref"], policy)
-    items = [{"body": c.get("body"), "created_at": c["created_at"], "user": c["user"]["login"],
-              "app": (c.get("performed_via_github_app") or {}).get("slug")} for c in comments]
-    for r in gh.pages(f"/pulls/{n}/reviews"):
-        if r.get("body"):
-            items.append({"body": r["body"], "created_at": r.get("submitted_at") or "", "user": r["user"]["login"],
-                          "app": (r.get("performed_via_github_app") or {}).get("slug")})
+    items = review_items(comments, gh.pages(f"/pulls/{n}/reviews"))
     for it in items:
         if parse_review(it["body"]):
             print(f"review comment by {it['user']} at {it['created_at']}, performed_via_github_app={it['app']}: {parse_review(it['body'])}")

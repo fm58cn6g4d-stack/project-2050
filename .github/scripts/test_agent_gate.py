@@ -132,6 +132,19 @@ class Reviews(unittest.TestCase):
         self.assertFalse(self.ev([a, b])[0])
         self.assertTrue(self.ev([a, b, c])[0])
 
+    def test_edited_into_block_counts_from_the_edit(self):
+        old = item(review("changes-requested"), t="2026-10-26T10:00:00Z", app="chatgpt-codex-connector")
+        later = item(review(), t="2026-10-26T11:00:00Z", app="chatgpt-codex-connector")
+        self.assertTrue(self.ev([old, later])[0])  # unedited, the later approval lifts the block
+        old["updated_at"] = "2026-10-26T12:00:00Z"
+        self.assertFalse(self.ev([old, later])[0])
+
+    def test_edited_old_approval_does_not_lift_a_later_block(self):
+        old = item(review(), t="2026-10-26T10:00:00Z", app="chatgpt-codex-connector")
+        old["updated_at"] = "2026-10-26T12:00:00Z"
+        block = item(review("changes-requested"), t="2026-10-26T11:00:00Z", app="chatgpt-codex-connector")
+        self.assertFalse(self.ev([old, block])[0])
+
     def test_outsider_comment_ignored(self):
         self.assertFalse(self.ev([item(review(), user="someone-else", app="chatgpt-codex-connector")])[0])
 
@@ -160,6 +173,24 @@ class Reviews(unittest.TestCase):
         self.assertEqual(g.pr_author("x\nAgent-Author: codex task-9\n", "whatever", POLICY), ("codex", "task-9"))
         self.assertEqual(g.pr_author("", "claude/agent-automation", POLICY), ("claude-code", None))
         self.assertEqual(g.pr_author("", "feature/x", POLICY), (None, None))
+
+
+class ReviewItems(unittest.TestCase):
+    def rev(self, verdict, state):
+        body = f"Agent-Review: {verdict}\nReviewed-Head: abc1234\nReviewer: claude-code session_B"
+        return {"body": body, "state": state, "submitted_at": "t", "user": {"login": "u"},
+                "performed_via_github_app": {"slug": "claude"}}
+
+    def test_dismissed_approval_does_not_count(self):
+        self.assertEqual(len(g.review_items([], [self.rev("approve", "COMMENTED")])), 1)
+        self.assertEqual(g.review_items([], [self.rev("approve", "DISMISSED")]), [])
+
+    def test_dismissed_block_still_blocks(self):
+        self.assertEqual(len(g.review_items([], [self.rev("changes-requested", "DISMISSED")])), 1)
+
+    def test_comment_keeps_its_edit_time(self):
+        c = {"body": "x", "created_at": "t1", "updated_at": "t2", "user": {"login": "u"}}
+        self.assertEqual(g.review_items([c], [])[0]["updated_at"], "t2")
 
 
 class ReviewFlow(unittest.TestCase):
@@ -587,6 +618,10 @@ class Classify(unittest.TestCase):
         self.assertTrue(g.same_changes(reviewed[:12], merged))
         self.assertFalse(g.same_changes(reviewed, edited))
         self.assertFalse(g.same_changes("0" * 40, merged))
+
+    def test_unusual_filename_keeps_its_tier(self):
+        self.write(".github/workflows/\u00e9 x.yml", "on: push\n")
+        self.assertEqual(g.classify(self.base, self.commit("w"), POLICY)["tier"], 3)
 
     def test_rename_keeps_source_tier(self):
         self.git("mv", "legacy/governing/rules.md", "legacy/sources/rules.md")
