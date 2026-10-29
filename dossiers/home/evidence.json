@@ -5571,5 +5571,1253 @@
   "supports": [
    "dossiers/home/2-what-works.md"
   ]
+ },
+ {
+  "id": "EV-HOU-200",
+  "statement": "H.R. 6644, the 21st Century ROAD to Housing Act, is Public Law 119-101. It was presented to the President on June 29, 2026 and became law without his signature on July 11, 2026.",
+  "claim": "data",
+  "figures": [
+   "119-101",
+   "June 29",
+   "2026",
+   "July 11"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "21ST CENTURY ROAD TO HOUSING ACT",
+   "Public Law 119-101",
+   "purposes. <<NOTE: July 11, 2026 - [H.R. 6644]>>",
+   "been presented to the President of the United States on Monday, June 29,\n2026, and not having been returned by him to the House of Congress in\nwhich it originated within the time prescribed by the Constitution of\nthe United States, has become law without his signature on July 11,\n2026."
+  ],
+  "locator": "Heading; Office of the Federal Register note at the end",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law. The Congress.gov API (bill 119/hr/6644) gives the same law number.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-201",
+  "statement": "The Act states that no additional funds are authorized to be appropriated to carry out its requirements or its amendments.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": "No additional funds are authorized to be appropriated to carry out\nthe requirements of this Act or any amendment made by this Act.",
+  "locator": "Sec. 1202",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-202",
+  "statement": "CRS: the Act does not appropriate funding to implement any section; many provisions are not self-implementing and need rulemaking and appropriations. Its one funding authorization is the Innovation Fund, $200 million a year for FY2027 through FY2031, adjusted for inflation.",
+  "claim": "data",
+  "figures": [
+   "$200 million",
+   "FY2027",
+   "FY2031"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "provisions are not self-implementing and may require rulemakings and appropriations to be fully\nimplemented. P.L. 119-101 does not appropriate funding to implement any section.",
+   "For this purpose, the section authorizes $200 million for each of FY2027 through FY2031, to be\nadjusted for inflation. This is the only funding authorization included in P.L. 119-101."
+  ],
+  "locator": "Implementation Considerations; Section 208",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-203",
+  "statement": "CRS: most of the new programs the Act authorizes are discretionary for the agency, intended to be temporary, and carry statutory sunset dates; if Congress appropriates funds, eligible entities compete for limited funding rather than receiving it by formula.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0437",
+  "anchor": [
+   "Several sections in P.L. 119-101 authorize new programs. In many cases, federal agencies have\ndiscretion over whether to establish these programs, and most of them are intended to be\ntemporary and have statutory sunset dates.",
+   "If Congress appropriates\nfunding to these new programs, eligible entities would compete for limited funding, rather than\nbeing guaranteed funding by formula."
+  ],
+  "locator": "Overview of the Act, New Programs",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-204",
+  "statement": "CRS: the House bill had six titles comprising 38 sections; the enacted law includes many of its elements, with others removed, added or modified.",
+  "claim": "data",
+  "figures": [
+   "38"
+  ],
+  "source": "SRC-0436",
+  "anchor": [
+   "The bill contains six titles comprising 38 sections",
+   "includes many elements from the Housing for the 21 st Century Act, with other elements\nremoved, added, or modified."
+  ],
+  "locator": "Summary",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the House-passed bill (H.R. 6644 as passed February 9, 2026), dated October 20, 2026.",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-205",
+  "statement": "CRS: the enacted law has 12 titles and 59 sections. It is a compromise between the Senate ROAD to Housing Act of 2025 (S. 2651) and the House Housing for the 21st Century Act (H.R. 6644), and passed 85-5 in the Senate and 358-32 in the House.",
+  "claim": "data",
+  "figures": [
+   "12",
+   "59",
+   "85-5",
+   "358-32",
+   "2651",
+   "6644"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "P.L. 119-101 represents a compromise between two bills that were separately introduced and\nconsidered in the House and Senate: the Renewing Opportunity in the American Dream to\nHousing Act of 2025 (S. 2651, also known as the ROAD to Housing Act of 2025); and the\nHousing for the 21st Century Act (H.R. 6644). Both of these bills included a number of sections\nthat, in many cases, were similar or identical to standalone housing bills that had been introduced\npreviously, often with bipartisan cosponsorship by members of the relevant authorizing\ncommittees. P.L. 119-101 was enacted on July 11, 2026, after passing with bipartisan support in\nboth the Senate (85-5) and the House (358-32).",
+   "The law contains 12 titles comprising 59 sections."
+  ],
+  "locator": "Summary",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-206",
+  "statement": "Innovation Fund: within one year HUD must establish competitive grants to local governments and tribes that have demonstrated an objective improvement in housing supply growth; at least 25 grants a year unless appropriations are insufficient, each from $250,000 to $10,000,000, by a HUD method published for comment at least 90 days before the funding notice. Priority goes to places that have used innovative policies and shown marked improvement in supply growth. It authorizes $200,000,000 a year for fiscal years 2027 through 2031, adjusted for inflation; the program ends 7 years after enactment and may not mandate or preempt local zoning.",
+  "claim": "data",
+  "figures": [
+   "25",
+   "$10,000,000",
+   "$250,000",
+   "$200,000,000",
+   "2027",
+   "2031",
+   "7 years"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "year after the date of enactment of this Act, the Secretary\nshall establish a program to award grants on a competitive basis\nto eligible entities that have increased their local housing\nsupply.",
+   "(A) a metropolitan city or urban county, as those\nterms are defined in section 102 of the Housing and\nCommunity Development Act of 1974 (42 U.S.C. 5302), that\nhas demonstrated an objective improvement in housing\nsupply growth, as determined by the Secretary, whose",
+   "(B) a unit of general local government or an Indian\ntribe,",
+   "Secretary shall make not fewer than 25\ngrants on an annual basis (unless amounts appropriated\nto provide grant amounts consistent with subsection (b)\nare insufficient, in which case fewer grants may be\nawarded), with strong consideration of different\ngeographical areas and a relatively even spread of\nrural, suburban, and urban communities.\n(B) Limitations on awards.--No grant awarded under\nthis paragraph may be--\n(i) more than $10,000,000; or\n(ii) less than $250,000.",
+   "(i) demonstrated the use of innovative\npolicies, interventions, or programs for\nincreasing housing supply; and\n(ii) demonstrated a marked improvement in\nhousing supply growth, as needed.",
+   "whose methodology for determining such improvement is\npublished in the Federal Register to allow for public\ncomment not less than 90 days before the date on which\nthe notice of funding opportunity is made available.",
+   "(1) to authorize the Secretary to mandate, supersede, or\npreempt any local zoning or land use policy; or",
+   "terminate on the date that is 7 years after the date of enactment of\nthis Act.\n(e) Authorization of Appropriations.--\n(1) <<NOTE: Time period.>> In general.--There is authorized\nto be appropriated to carry out this section $200,000,000 for\neach of fiscal years 2027 through 2031.\n(2) Adjustment.--The amount authorized to be appropriated\nunder paragraph (1) shall be adjusted for inflation"
+  ],
+  "locator": "Sec. 208(a)(2), (b), (c), (d), (e)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-207",
+  "statement": "Innovation Fund initiatives that qualify include by-right duplexes to multifamily buildings in areas of opportunity, revising or eliminating off-street parking requirements, revising lot-size, floor-area, setback and height limits, ending restrictions on accessory dwelling units, and streamlining permitting. Applications give data on the added housing over the past 3 years, which \"may include\" whether it serves a range of income levels. Grants may also fund CDBG-eligible activities and transportation projects eligible under the Local and Regional Project Assistance (RAISE) program.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": [
+   "(i) increasing by-right uses, including\nduplex, triplex, quadplex, and multifamily\nbuildings, in areas of opportunity;\n(ii) revising or eliminating off-street\nparking requirements to reduce the cost of housing\nproduction;\n(iii) revising minimum lot size requirements,\nfloor area ratio requirements, set-back\nrequirements, building heights, and bans or limits\non construction that allow for denser and more\naffordable development;",
+   "(vi) streamlining regulatory requirements and\nshortening processes, increasing code enforcement",
+   "(vii) eliminating restrictions against\naccessory dwelling units and expanding their by-\nright use;",
+   "data on\ncharacteristics of increased housing supply during\nthe 3-year period ending on the date on which the\napplication is submitted, which may include\nwhether such housing--\n(I) serves households at a range of\nincome levels; and\n(II) has improved the quality and\naffordability of housing in the\njurisdiction of the eligible entity;",
+   "(A) carry out any of the activities described in\nsection 105 of the Housing and Community Development Act\nof 1974 (42 U.S.C. 5305);\n[[Page 140 STAT. 876]]\n(B) carry out any of the activities permitted under\nthe Local and Regional Project Assistance Program\nestablished under section 6702 of title 49, United\nStates Code; and"
+  ],
+  "locator": "Sec. 208(b)(3) and (b)(4)(B)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-208",
+  "statement": "Build Now: from the third full fiscal year after enactment through fiscal year 2043, HUD adjusts CDBG allocations to metropolitan cities and urban counties by their housing growth improvement rate. Those below the median lose 10 percent, shared as a bonus among those at or above the median and those growing at least 4 percent a year, in proportion to recent housing-unit growth. Jurisdictions with low rents and home values, rental vacancy above the national rate, a recent disaster declaration, or no zoning authority are exempt. It does not apply to money appropriated before enactment.",
+  "claim": "data",
+  "figures": [
+   "2043",
+   "10 percent",
+   "4 percent"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(3) Eligible recipient.--The term ``eligible recipient''\nmeans any covered recipient unless--\n(A)(i) the median Small Area Fair Market Rent in the\njurisdiction of the covered recipient is at or below the\n60th percentile of median Small Area Fair Market Rents\nin the jurisdictions of all covered recipients; and\n(ii) the median home value in the jurisdiction of\nthe covered recipient is below the median home value for\nthe United States;\n(B) the annual rental vacancy rate in the\njurisdiction of the covered recipient is greater than\nthe national annual rental vacancy rate for the most\nrecent year available, as published by the Bureau of the\nCensus;\n(C) during the 3-year period preceding the date on\nwhich the Secretary allocates funds under section 106,\nthe jurisdiction of the covered recipient has been the\nsubject of a major disaster or emergency declaration\nunder section 401 or 501, respectively, of the Robert T.\nStafford Disaster Relief and Emergency Assistance Act\n(42 U.S.C. 5170, 5191); or\n(D) the covered recipient lacks the legal authority\nto enact or update zoning and permitting ordinances.",
+   "(4) Extremely high-growth recipient.--The term ``extremely\nhigh-growth recipient'' means an eligible recipient for which\nthe current annual growth rate is at or above 4 percent.",
+   "(A) Housing growth improvement rate at or above\nmedian; extremely high-growth recipients.--\n(i) In general.--If, with respect to a fiscal\nyear for which the allocation under section 106 is\nbeing determined, the housing growth improvement\nrate for an eligible recipient is at or above the\nmedian housing growth improvement rate for all\neligible recipients other than extremely high-\ngrowth recipients, or if an eligible recipient is\nan extremely high-growth recipient, the Secretary\nshall allocate to the eligible recipient for that\nfiscal year, in addition to the amount that would\notherwise be allocated to the eligible recipient\nunder section 106, a bonus amount, as determined",
+   "the Secretary shall decrease the amount that would\notherwise be allocated to the eligible recipient under\nsection 106 for that fiscal year by 10 percent.",
+   "Subsection (b) shall take effect beginning with the third full\nfiscal year after the date of enactment of this Act and remain\nin effect through fiscal year 2043.",
+   "shall not apply to amounts appropriated before the date of\nenactment of this Act.\nTITLE III"
+  ],
+  "locator": "Sec. 213(a)(3)-(4), (b)(2), (e)(2)-(3)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-209",
+  "statement": "CRS, on the Senate bill: Congress has considered partly conditioning existing federal funding on state and local policy or housing production; the Build Now section reallocates part of CDBG formula funding, which was $3.3 billion in FY2025.",
+  "claim": "data",
+  "figures": [
+   "$3.3 billion",
+   "FY2025"
+  ],
+  "source": "SRC-0435",
+  "anchor": [
+   "In recent years, Congress has considered whether to partly condition existing federal funding\nsources on state and local policy actions or housing production so as to incentivize increased\nhousing development.",
+   "This section would reallocate a portion of Community Development Block Grant (CDBG)\nformula funding",
+   "CDBG was funded at $3.3 billion in FY2025."
+  ],
+  "locator": "Section 206/Section 5206, Build Now Act",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the Senate bill (S. 2651), dated October 20, 2026. The enacted Build Now section (EV-HOU-208) uses the S. 2296 version this report describes.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-210",
+  "statement": "Planning grants: within one year HUD must establish competitive grants to states, metropolitan cities, urban counties and regional planning agencies for planning and implementation, including updating zoning codes and reducing barriers to supply; they may not pay for construction, and the program ends 5 years after enactment.",
+  "claim": "data",
+  "figures": [
+   "5 years"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "the date of enactment of this Act, the Secretary shall establish a\nprogram to award grants on a competitive basis to eligible entities to\nassist planning and implementation activities associated with affordable\nhousing, except that such grant awards may not be used for construction,\nalteration, or repair work.",
+   "(A) a State, insular area, metropolitan city, or\nurban county, as those terms are defined in section 102\nof the Housing and Community Development Act of 1974 (42\nU.S.C. 5302); or\n(B) a regional planning agency or consortia of\nregional planning agencies.",
+   "(D) updating zoning codes;",
+   "(f) Sunset.--The program established under this section shall\nterminate on the date that is 5 years after the date of enactment of\nthis Act."
+  ],
+  "locator": "Sec. 207(b), (c), (f)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-211",
+  "statement": "CRS: the planning grant program is comparable to the PRO Housing competition funded through annual appropriations from FY2023 to FY2026.",
+  "claim": "data",
+  "figures": [
+   "FY2023",
+   "FY2026"
+  ],
+  "source": "SRC-0437",
+  "anchor": "This grant program is comparable to the Pathways to Removing Obstacles to Housing (PRO\nHousing) competition, which was established and funded through annual appropriations from\nFY2023-FY2026.",
+  "locator": "Section 207",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-212",
+  "statement": "CRS: HUD may make competitive grants to local governments and tribes to adopt pre-reviewed designs (pattern books) for low- or mid-rise housing of no more than 25 units, with at least 10% of funds for rural areas.",
+  "claim": "data",
+  "figures": [
+   "25",
+   "10%"
+  ],
+  "source": "SRC-0437",
+  "anchor": "Section 209 authorizes HUD to provide competitive grants to eligible entities, including local\ngovernments and Indian tribes, to adopt pre-reviewed designs for certain types of low- or mid-rise\nhousing with no more than 25 dwelling units. At least 10% of any funds made available for this\npurpose in a fiscal year is to be used for eligible entities in rural areas.",
+  "locator": "Section 209",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-213",
+  "statement": "CRS: the Act abolishes HUD's Regulatory Barriers Clearinghouse and requires HUD to publish zoning and land-use guidelines and best practices (\"zoning frameworks\") within three years, with a task force and draft guidelines within two years.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0437",
+  "anchor": "Section 107 abolishes the RBC and requires HUD\u2019s Assistant Secretary for Policy Development\nand Research to publish, not later than three years after enactment (July 11, 2029), guidelines and\nbest practices with respect to state and local zoning and land use policies (referred to in the bill as\n\u201czoning frameworks\u201d). The section requires that these guidelines be developed in consultation\nwith a task force consisting of academics, practitioners, and state and local officials. The task\nforce must be established, and draft guidelines must be published in the Federal Register for\npublic comment, not later than two years after enactment (July 11, 2028).",
+  "locator": "Section 107",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-214",
+  "statement": "CDBG grantees must keep a public, searchable database of all undeveloped land they own, from October 1, 2026; keeping it is an eligible CDBG cost.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": [
+   "maintains, on a publicly accessible website, a searchable\ndatabase that identifies all parcels of undeveloped land owned\nby the grantee.",
+   "``(27) the creation and maintenance of a database of land as\nrequired under section 104(b)(7).''.\n(c) <<NOTE: 42 USC 5304 note.>> Effective Date.--The amendment made\nby this subsection shall take effect on October 1, 2026."
+  ],
+  "locator": "Sec. 104",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-215",
+  "statement": "New construction of affordable housing (as HOME defines it) becomes an eligible CDBG activity, capped at 20 percent of a recipient's allocation, for money appropriated after enactment.",
+  "claim": "data",
+  "figures": [
+   "20 percent"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "``(28) the new construction of affordable housing, within\nthe meaning given such term under section 215 of the Cranston-\nGonzalez National Affordable Housing Act (42 U.S.C. 12745), and\nwhich shall not exceed 20 percent of the amounts allocated to\nthe recipient.",
+   "The\namendments made by this section shall apply with respect only to amounts\nappropriated after the date of enactment of this Act."
+  ],
+  "locator": "Sec. 204",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-216",
+  "statement": "CRS: HUD may give extra weight in housing competitive grants to applicants located in, or primarily serving, opportunity zones.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0437",
+  "anchor": "Section 201 permits the HUD Secretary to give additional weight to competitive grant applicants\nlocated in, or that primarily serve, a community that has been designated as an opportunity zone.",
+  "locator": "Section 201",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-217",
+  "statement": "USDA need not carry out any study or report on environmental effects when it assists construction or modification of housing on an infill site under six listed sections of the Housing Act of 1949; it reports on the effect within 5 years. An infill site is served by existing infrastructure beyond a road alone, and excludes greenfields and tracts at very high or relatively high risk of wildfire or flooding.",
+  "claim": "data",
+  "figures": [
+   "5 years"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(a) Exemption.--In providing assistance under section 501, 502, 504,\n515, 533, or 538 of the Housing Act of 1949 (42 U.S.C. 1471, 1472, 1474,\n1485, 1490m, or 1490p-2) for the construction or modification of\nresidential housing located on an infill site, the Secretary of\nAgriculture shall not be required to carry out any study or report on\nthe environmental effects of such assistance.\n(b) Report.--Not later than the date that is 5 years after the date",
+   "(2) Infill site.--The term ``infill site''--\n(A) means a site that is served by existing\ninfrastructure, including water lines, sewer lines, and\nroads; and\n(B) does not include--\n(i) a site that is served by existing\ninfrastructure that only consists of a road;\n(ii) a site within a census tract designated\nas very high or relatively high risk for wildfire,\ncoastal flooding, and riverine flooding under the\nNational Risk Index of the Federal Emergency\nManagement Agency pursuant to section 206 of the\nRobert T. Stafford Disaster Relief and Emergency\nAssistance Act (42 U.S.C. 5136); and\n(iii) a greenfield."
+  ],
+  "locator": "Sec. 103",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-218",
+  "statement": "CRS: the Act directs HUD to exempt or categorically exclude more housing activities from environmental review, including infill new construction and rehabilitation; the changes take effect only after HUD rulemaking and apply only to funds appropriated after the revised rules take effect. HUD may also let local responsible entities, rather than HUD, take over certain reviews.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 206 directs the HUD Secretary to modify the environmental review regulations for\nseveral housing activities. The changes in this section will not be effective until HUD undergoes\nformal rulemaking to incorporate them into 24 C.F.R. Part 50 and Part 58. The changes will only\napply to funds appropriated after the effective date of the revised regulations.",
+   "One of these activities is \u201cinfill projects consisting of new\nconstruction, rehabilitation, or development of residential housing units.\u201d",
+   "would give the HUD Secretary flexibility to redesignate certain Part 50 projects as Part 58\nprojects and allow responsible entities (rather than HUD) to assume responsibility for\nenvironmental review of them."
+  ],
+  "locator": "Sections 205 and 206",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-219",
+  "statement": "CRS: a manufactured home may now be built with or without a permanent chassis; states must certify within one year (two for legislatures that meet every other year) that they treat both the same, and HUD must adopt minimum energy standards within one year.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0437",
+  "anchor": "Section 301 amends the statutory definition of a \u201cmanufactured home\u201d to provide that the home\nmay be \u201cwith or without a permanent chassis.\u201d This section also directs HUD to issue revised\nstandards for such homes, including a requirement for a distinct label to distinguish manufactured\nhomes built with and without a permanent chassis. Additionally, this section provides that states\nshall certify to HUD, not later than one year after enactment (July 11, 2027) (or two years after\nenactment for states with legislatures that meet biennially), that they have amended their laws and\nregulations to treat manufactured homes with and without a permanent chassis the same.\nSection 301 also requires the HUD Secretary to adopt minimum energy efficiency standards for\nmanufactured homes not later than one year after enactment (July 11, 2027) and to update those\nstandards at least once every three years after adoption.",
+  "locator": "Section 301",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-220",
+  "statement": "CRS: FHA Title I loan limits for property improvement and manufactured homes rise and are indexed, and accessory dwelling units become an eligible use; the PRICE program for manufactured home communities is authorized until July 11, 2033.",
+  "claim": "data",
+  "figures": [
+   "2033"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "Specifically, this section increases the baseline loan\nlimits for both the property improvement and manufactured home loan programs;",
+   "construction of additional or accessory dwelling units is an eligible use of Title I property",
+   "The program authorized by this section will terminate on July 11,\n2033."
+  ],
+  "locator": "Sections 303 and 304",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-221",
+  "statement": "CRS: HUD may set up a small-dollar mortgage pilot through FHA that ends four years after it is established; the Consumer Financial Protection Bureau must study originator pay and points-and-fees limits for loans of about $100,000 or less.",
+  "claim": "data",
+  "figures": [
+   "$100,000"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 105 allows HUD, acting through the Federal Housing Commissioner, to establish a pilot\nprogram to increase access to small-dollar mortgages within a certain period.32 The pilot program\ncould include activities such as direct payments to lenders, adjustments to FHA requirements,\nfinancial assistance for borrowers, outreach to borrowers, or technical assistance for lenders. The\nsection requires an annual report to Congress beginning not later than one year after the\nestablishment of the pilot program. The pilot program would sunset four years after the date it is\nestablished.",
+   "Section 401 directs the Director of the Consumer Financial Protection Bureau\n(CFPB) to submit a report on loan compensation practices in the residential mortgage market to\nthe authorizing committees not later than 270 days after enactment (April 7, 2027).",
+   "principal balance no higher than $100,000"
+  ],
+  "locator": "Sections 105, 401 and 402",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-222",
+  "statement": "A large institutional investor (a for-profit entity with investment control of at least 350 single-family homes, not counting homes bought in excepted purchases, and not a government entity) may not buy any more single-family homes (one or two units; manufactured homes excluded). It need not sell homes bought before enactment. The ban and its penalties take effect 180 days after enactment and are repealed 15 years after that.",
+  "claim": "data",
+  "figures": [
+   "350",
+   "180 days",
+   "15 years"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(II) alone or in concert with 1 or\nmore other entities, beginning after the\ndate of enactment of this Act, directly\nor indirectly has investment control of\nnot less than 350 single-family homes in\nthe aggregate, not including any single-\nfamily home purchased in an excepted\npurchase made after the date of\nenactment of this Act; and\n(ii) does not include any local, State,\nTribal, or Federal government entity or\ninstrumentality thereof.",
+   "(A) means a structure that contains 2 or fewer\ndwelling units that are each intended for residential\noccupancy by a single household; and\n(B) does not include a manufactured home, as defined\nin section 603 of the National Manufactured Housing\nConstruction and Safety Standards Act of 1974 (42 U.S.C.\n5402).",
+   "(1) <<NOTE: Contracts.>> In general.--No large institutional\ninvestor may purchase, or enter into a contract to directly or\nindirectly purchase, any single-family home.",
+   "(A) require any large institutional investor to\ndivest or otherwise sell any single-family home\npurchased before the date of enactment of this Act; or",
+   "(f) Effective Date.--The requirements and prohibitions under\nsubsections (b) and (d) of this section--\n(1) shall take effect on the date that is 180 days after the\ndate of enactment of this Act; and\n(2) are repealed on the date that is 15 years after the\neffective date under paragraph (1)."
+  ],
+  "locator": "Sec. 1001(a)(3), (a)(5), (b), (f)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-01-07",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-223",
+  "statement": "The investor ban excepts, among others, homes built or renovated for sale, build-to-rent homes, renovate-to-rent rehabilitation of at least 15 percent of the price, rent-to-own programs, purchases from another large investor, purchases from smaller investors in the first 2 years, and 55-and-older communities. Treasury may issue regulations, but they may not amend the definitions.",
+  "claim": "data",
+  "figures": [
+   "15 percent",
+   "2 years",
+   "55"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(A) newly constructed, renovated, or a rental\nconversion for sale by a large institutional investor\nand not as a residence rented pending sale;\n(B) pursuant to a build-to-rent program where the\nlarge institutional investor purchases, constructs, or\nconstructs and retains a newly constructed single-family\nhomes to be managed as a rental property, whether as\npart of a community made up exclusively of renter-\noccupied single-family homes or as part of a community\nmade up of single-family homes that are both owner- and\nrenter-occupied;",
+   "(ii) makes improvements in an aggregate dollar\namount of not less than 15 percent of the purchase\nprice of the single-family home;",
+   "(H) purchased from another large institutional\ninvestor that either owned the single-family home on the\ndate of enactment of this Act or purchased the single-\nfamily home in compliance with this section;\n(I) purchased from an investor not covered under\nthis section, so long as the purchase occurred not more\nthan 2 years after the effective date under subsection\n(f);\n(J) newly constructed, renovated, or a rental\nconversion that is intended and operated for occupancy\nas part of a community for households with 1 or more\nmembers aged 55 years or older, and satisfies\nvisitability standards established by the Secretary of\nHousing and Urban Development; or",
+   "Commission, the Secretary of the Treasury may issue\nregulations in accordance with the notice and comment",
+   "(B) Rule of construction.--For the avoidance of\ndoubt, no regulation issued under subparagraph (A) may\namend the definitions of the terms defined under\nsubsection (a), including to--"
+  ],
+  "locator": "Sec. 1001(a)(2), (b)(4)(B)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-01-07",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-224",
+  "statement": "Each large institutional investor must notify HUD every year how many single-family homes it controls and in which city and state. HUD must set up a renter outreach phone line and website within 180 days and report to Congress each March 31; GAO and HUD must report 2 and 10 years after the ban takes effect on its effects on availability, affordability and homeownership, HUD with legislative recommendations.",
+  "claim": "data",
+  "figures": [
+   "180 days",
+   "2 years",
+   "10 years"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(8) <<NOTE: Deadlines.>> Annual notification.--Not later\nthan 180 days after the date of the enactment of this Act, and\nnot later than December 31st of each year thereafter, each\nperson or entity that satisfies the definition of a large\ninstitutional investor, as such term is defined in subsection\n(a), shall--\n(A) notify the Secretary each year whether such\nowner is a large institutional investor as defined in\nsubsection (a); and\n[[Page 140 STAT. 982]]\n(B) in such notification, identify how many single-\nfamily homes such large institutional investor has\ndirect or indirect investment control of as of the date\nof the submission of such notice, and the city and State\nwhere each such single-family home is located, unless\nsuch large institutional investor owns 10 or fewer\nsingle-family homes in such city.",
+   "this subsection referred to as the ``Secretary'') shall, not\nlater than 180 days after the date of enactment of this Act,\nestablish a renter outreach resource that consists of a toll-\nfree telephone number and a public website",
+   "(A) In general.--The Secretary shall, not later than\nMarch 31 of each year, submit to the Congress a public",
+   "(1) Gao report.--Not later than 2 years after the date on\nwhich the prohibition under subsection (b)(1) takes effect, and\nagain not later than 10 years after that date, the Comptroller\nGeneral of the United States shall submit to the Committee on\nBanking, Housing and Urban Affairs of the Senate and the\nCommittee on Financial Services of the House of Representatives\na report on--\n(A) the impact of the ownership by large\ninstitutional investors of single-family homes on\nhousing availability and affordability for renters and\nhomebuyers; and\n(B) the effectiveness of this section in reducing\ndemand by large institutional investors for single-\nfamily homes and expanding homeownership for renters and\nhomebuyers.",
+   "(2) Hud report.--Not later than 2 years after the date on\nwhich the prohibition under subsection (b)(1) takes effect, and\nagain not later than 10 years after that date, the Secretary of",
+   "(C) any legislative recommendations regarding ways"
+  ],
+  "locator": "Sec. 1001(c), (e)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-01-07",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-225",
+  "statement": "Treasury, or the Attorney General at Treasury's request, may sue for a civil penalty of up to $1,000,000 per violation or 3 times the purchase price, whichever is greater; to the extent provided in appropriations Acts they go to the HOME program for single-family construction and first-time buyer help.",
+  "claim": "data",
+  "figures": [
+   "$1,000,000"
+  ],
+  "source": "SRC-0438",
+  "anchor": "(1) Civil penalties.--The Secretary of the Treasury, or the\nAttorney General at the request of the Secretary of the\nTreasury, may bring an action against a large institutional\ninvestor that violates subsection (b) for a civil penalty in an\namount that is not more than $1,000,000 per violation, or 3\ntimes the purchase price of the property involved, whichever is\ngreater.\n(2) Transfer to hud for homeownership expansion\nactivities.--For fiscal <<NOTE: Time periods.>> year 2027 and\neach fiscal year thereafter, to the extent and in the amounts\nprovided in advance in appropriations Acts, civil penalties\nassessed under this section shall be transferred to and\navailable to the Secretary of Housing and Urban Development to\nprovide additional funding for the HOME Investment Partnerships\nprogram under subtitle A of title II of the Cranston-Gonzalez\nNational Affordable Housing Act (42 U.S.C. 12741 et seq.), to be\nallocated in accordance with the formula under that program, for\nnew construction, acquisition, and rehabilitation of single-\nfamily homes and to provide assistance grants to first-time\nhomebuyers, which may be for downpayments, closing costs, and\ninterest rate buydowns.",
+  "locator": "Sec. 1001(d)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-01-07",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-226",
+  "statement": "HOME is \"hereby authorized\" as a program, with no amount; HOME homeownership help may now go to families with incomes up to 100 percent of area median income, and the purchase-price limit rises from 95 percent to 110 percent.",
+  "claim": "data",
+  "figures": [
+   "100 percent",
+   "95 percent",
+   "110 percent"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "``SEC. 205. AUTHORIZATION OF PROGRAM.\n``The HOME Investment Partnerships Program under subtitle A is\nhereby authorized.''.",
+   "12742(2)), by striking ``households that qualify as low-income\nfamilies'' and inserting ``families with a household income that\ndoes not exceed 100 percent of the median family income of the\narea, as determined by the Secretary''; and",
+   "(I) by striking ``95 percent'' and\ninserting ``110 percent''; and"
+  ],
+  "locator": "Sec. 501(a), (c), and the home-ownership qualification amendment",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-227",
+  "statement": "CRS: the Act removes HOME's 24-month commitment deadline, lets jurisdictions use set-asides for community housing development organizations for other eligible activities after 24 months, raises minimum allocations and exempts small projects from some requirements.",
+  "claim": "data",
+  "figures": [
+   "24"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 501 eliminates commitment deadlines from the HOME program. Specifically, this section\nremoves the requirement that HOME funds be committed to specific projects within 24 months,\nincluding funds reserved for Community Housing Development Organizations (CHDOs).",
+   "reserved for CHDOs for any other eligible activities after 24 months have elapsed.",
+   "Other changes to the HOME program include increases to minimum allocation amounts,\nexemptions from certain requirements for small housing projects"
+  ],
+  "locator": "Section 501",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-228",
+  "statement": "CRS: the Act authorizes disaster recovery block grants (CDBG-DR) as a standing program, with a Long-Term Disaster Recovery Fund and a HUD disaster office, and says the CDBG-DR program terminates three years after enactment, on July 11, 2029.",
+  "claim": "data",
+  "figures": [
+   "2029"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "establishes the Office of Disaster Management and Resiliency, which will be\nresponsible for coordinating HUD\u2019s disaster preparedness and response activities,\nincluding coordinating with interagency efforts to provide a comprehensive\napproach to working with communities on recovery and resilience activities;\nestablishes the Long-Term Disaster Recovery Fund to provide for CDBG-DR\nactivities;\nauthorizes CDBG-DR as a standing program; and",
+   "The CDBG-DR program authorized by Section 504 shall terminate three years after enactment\n(July 11, 2029)"
+  ],
+  "locator": "Section 504",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-229",
+  "statement": "CRS: a competitive program to convert vacant and abandoned buildings into \"attainable housing\" (RESIDE) is open to HOME participating jurisdictions from FY2027 through FY2031, subject to appropriations; attainable housing here and in the Innovation Fund serves households below 120% of area median income, with most units affordable below 60%.",
+  "claim": "data",
+  "figures": [
+   "FY2027",
+   "FY2031",
+   "120%",
+   "60%"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 210 authorizes the HUD Secretary to establish a new competitive grant program for\nconverting vacant and abandoned buildings into attainable housing.",
+   "for the HOME program. The program is active from FY2027 through FY2031 and is explicitly\nsubject to the availability of funds appropriated for this purpose.",
+   "\u201cAttainable housing\u201d is defined in the section as housing that serves households below 120% of area median income\n\n(AMI) with a majority of units affordable to households below 60% AMI."
+  ],
+  "locator": "Sections 208 and 210",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-230",
+  "statement": "A whole-home repair pilot funds repairs for owners at or below 80 percent of area median income, and for landlords who cap annual rent increases at 5 percent or inflation, whichever is lower, for at least 3 years; it ends October 1, 2031.",
+  "claim": "data",
+  "figures": [
+   "80 percent",
+   "5 percent",
+   "2031"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(i) is not more than 80 percent of the area",
+   "(IV) cap annual rent increases for each\nassisted unit at 5 percent of base rent or at the\nrate of inflation, whichever is lower, for not\nless than 3 years beginning after the completion\nof the repairs.",
+   "subsection shall terminate on October 1, 2031."
+  ],
+  "locator": "Sec. 202",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-231",
+  "statement": "Rental Assistance Demonstration: the September 30, 2029 end date is replaced with each fiscal year from 2012 on, and the public housing conversion cap rises from 455,000 to 555,000 units; HUD must publish each year findings on pre-conversion residents remaining or returning, and may penalize material violations.",
+  "claim": "data",
+  "figures": [
+   "2029",
+   "2012",
+   "455,000",
+   "555,000"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(1) in the second proviso, by striking ``until September 30,\n2029'' and inserting ``for fiscal year 2012 and each fiscal year\nthereafter'';\n(2) in the fourth proviso, by striking ``455,000'' and\ninserting ``555,000'';",
+   "the Secretary shall annually assess and publish findings\nregarding the impact of the conversion of assistance under the\nFirst Component of the demonstration with respect to the\npreservation and improvement of public housing, the amount of\nprivate sector leveraging resulting from such conversion\ntransactions, the prevalence of pre-conversion residents\nremaining in or returning to the property following conversion,",
+   "That the Secretary may take\nremediative action or impose civil money penalties or other\nadministrative sanctions for material violations of a\nrequirement under the First and Second Components of this\ndemonstration:"
+  ],
+  "locator": "Sec. 212",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-232",
+  "statement": "Voucher inspections: a recent passing inspection under the tax credit, HOME or Rural Housing Service programs satisfies the voucher inspection requirement. A housing agency may inspect a new landlord's unit before a tenant picks it, valid if leased within 60 days, and must give newly selected families a list of pre-inspected units.",
+  "claim": "data",
+  "figures": [
+   "60 days"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "``(I) <<NOTE: Time period.>> Satisfaction of\ninspection requirements through participation in other\nhousing programs.--",
+   "``(ii) Home investment partnerships program.--\nA dwelling shall be deemed to meet the inspection\nrequirements under this paragraph if--",
+   "``(iii) Rural housing service.--A dwelling\nunit shall be deemed to meet the inspection\nrequirements under this paragraph if--",
+   "``(II) <<NOTE: Determination.>>\nEarly inspection.--Upon the request of a\nnew landlord, a public housing agency\nmay inspect the dwelling unit owned by\nthe new landlord to determine whether\nthe unit meets the housing quality\nstandards under subparagraph (B) before\nthe unit is selected by a tenant\nassisted under this subsection.\n``(III) <<NOTE: Contracts. Deadline.>> Ef\nfect.--An inspection conducted under\nsubclause (II) that determines that the\ndwelling unit meets the housing quality\nstandards under subparagraph (B) shall\nsatisfy this subparagraph and\nsubparagraph (C) if the new landlord\nenters into a lease agreement with a\ntenant assisted under this subsection\nnot later than 60 days after the date of\nthe inspection.",
+   "``(IV) Information when family is\nselected.--When <<NOTE: List.>> a\npublic housing agency selects a family\nto participate in the tenant-based\nassistance program under this\nsubsection, the public housing agency\nshall include in the information\nprovided to the family a list of\ndwelling units that have been inspected\nunder subclause (II) and determined to\nmeet the housing quality standards under\nsubparagraph (B).''."
+  ],
+  "locator": "Sec. 405, amending 42 U.S.C. 1437f(o)(8)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-233",
+  "statement": "The Act amends the income definition in 42 U.S.C. 1437a(b)(4)(B): veterans' VA disability benefits are excluded from income when determining eligibility for HUD-VASH supported housing vouchers, and for other housing assistance a HUD-VASH household applies for, but not from adjusted income used to set rent. HUD must also exclude those benefits for eligibility for assisted housing built on VA property after enactment.",
+  "claim": "data",
+  "figures": [
+   "1437"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(a) Exclusion of Certain Disability Benefits.--Section 3(b)(4)(B) of\nthe United States Housing Act of 1937 (42 U.S.C. 1437a(b)(4)(B)) is\namended--",
+   "``(iv) for the purpose of determining income\neligibility with respect to the supported housing\nprogram under section 8(o)(19), any disability\nbenefits received under chapter 11 or chapter 15\nof title 38, United States Code, received by a\nveteran, except that this exclusion shall not\napply to the income in the definition of adjusted\nincome;\n``(v) for the purpose of determining income\neligibility with respect to any household\nreceiving rental assistance under the supported\nhousing program under section 8(o)(19) as it\nrelates to eligibility for other types of housing\nassistance, any disability benefits received under\nchapter 11 or chapter 15 of title 38, United\nStates Code, received by a veteran, but such\namounts shall not be excluded from income when\ndetermining adjusted income;''.",
+   "(1) In general.--When determining the eligibility of a\nveteran to rent a residential dwelling unit constructed on\nDepartment property on or after the date of enactment of this\nAct, for which assistance is provided as part of a housing\nassistance program administered by the Secretary, the Secretary\nshall exclude from income any disability benefits received under\nchapter 11 or chapter 15 of title 38, United States Code by such\nperson."
+  ],
+  "locator": "Sec. 602, amending 42 U.S.C. 1437a(b)(4)(B)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-234",
+  "statement": "CRS: up to 25 more housing agencies may join a modified Moving to Work cohort, after an initial HUD report; they cannot get waivers on rent setting, rent burdens, portability, project-basing, time limits or work requirements, and self-sufficiency programs must be optional.",
+  "claim": "data",
+  "figures": [
+   "25"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 505 permits the HUD Secretary to implement a limited MTW expansion by allowing up\nto an additional 25 PHAs to participate in a modified version of the demonstration. The Secretary\nmay only implement the expansion after completing an initial report to Congress assessing the",
+   "limited and cannot include certain waivers related to rent setting, rent burdens, portability,\nproject-basing, time limits, or work requirements. Additionally, for this cohort of PHAs, resident\nparticipation in any self-sufficiency program administered pursuant to waivers must be optional."
+  ],
+  "locator": "Section 505",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-235",
+  "statement": "HUD must study work requirements that Moving to Work agencies already used, including effects on homelessness, poverty, earnings and agency capacity, and report initial findings within 1 year, but only if enough agencies exist to evaluate rigorously and the study would not harm low-income families.",
+  "claim": "data",
+  "figures": [
+   "1 year"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(1) Study.--Subject to subsection (b), the Secretary of\nHousing and Urban Development shall conduct a study on the\nimplementation of work requirements implemented prior\n[[Page 140 STAT. 960]]\nto the date of enactment of this Act",
+   "requirements, including the effects work requirements\nhave on homelessness rates, poverty rates, asset\nbuilding, earnings growth, job attainment and retention,\nand public housing agencies' administrative capacity;",
+   "(3) Report.--Not later than 1 year after the date of",
+   "(b) Determination.--The requirement under subsection (a) shall apply\nif the Secretary of Housing and Urban Development determines that--\n(1) there are a sufficient number of public housing agencies\ndescribed in subsection (a)(4) such that the Secretary of\nHousing and Urban Development can rigorously evaluate the impact\nof the implementation of work requirements described in that\nsubsection; and\n(2) the study would not negatively impact low-income\nfamilies receiving assistance through a public housing agency"
+  ],
+  "locator": "Sec. 803",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-236",
+  "statement": "CRS: HUD may run an escrow-only Family Self-Sufficiency pilot with up to 25 agencies or owners and up to 5,000 low-income families, ending July 11, 2036.",
+  "claim": "data",
+  "figures": [
+   "25",
+   "5,000",
+   "2036"
+  ],
+  "source": "SRC-0437",
+  "anchor": "Section 404 authorizes the HUD Secretary to create a new Escrow Expansion Pilot within the\nFSS program that would allow families to participate in a streamlined version of FSS featuring\nonly the escrow account component of the program, without the caseworker and self-sufficiency\nplan requirements. Under this section, HUD would select not more than 25 eligible entities\n(PHAs or owners/sponsors of a multifamily property receiving project-based rental assistance) to\nestablish escrow accounts for not more than 5,000 low-income families. Section 404 requires the\nHUD Secretary to select eligible entities not later than one year after establishing the pilot\nprogram and to conduct a study and submit to Congress a report on outcomes not later than 10\nyears after selecting eligible entities. The termination date for the pilot program is 10 years after\nenactment (July 11, 2036).",
+  "locator": "Section 404",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-237",
+  "statement": "Emergency Solutions Grants recipients may request a waiver of the cap on shelter and street-outreach spending for fiscal years 2027 through 2030; HUD must deny a waiver to a recipient that relocates or threatens to relocate people or their property without offering shelter, rapid rehousing, transitional, supportive or other permanent housing.",
+  "claim": "data",
+  "figures": [
+   "2027",
+   "2030"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "any other provision of law or regulation, a recipient may\nrequest a waiver to the expenditure limit established pursuant\nto section 415(b) for amounts provided for each of fiscal years\n2027 through 2030.",
+   "``(iii) deny any waiver request submitted\nunder subparagraph (A) by a recipient that\nrelocates or threaten to relocate individuals or\ntheir property without providing emergency\nshelter, rapid rehousing,\n[[Page 140 STAT. 929]]\ntransitional housing, permanent supportive\nhousing, or other permanent housing options."
+  ],
+  "locator": "Sec. 503, adding 42 U.S.C. 11373(f)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-238",
+  "statement": "CRS: the U.S. Interagency Council on Homelessness must release a National Strategic Plan to End Homelessness by July 11, 2027 and report annually on changes to it.",
+  "claim": "data",
+  "figures": [
+   "2027"
+  ],
+  "source": "SRC-0437",
+  "anchor": "Section 703 directs the USICH to release a National Strategic Plan to End Homelessness not later\nthan 12 months after enactment (July 11, 2027), and to report annually thereafter on",
+  "locator": "Section 703",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-239",
+  "statement": "CRS: the Act makes permanent the rural Multifamily Preservation and Revitalization demonstration (in appropriations acts since FY2006) and Section 521 rental assistance decoupling (since FY2024), and formally authorizes the Rural Community Development Initiative.",
+  "claim": "data",
+  "figures": [
+   "FY2006",
+   "FY2024"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 502 revises and makes\npermanent various programs and policies that have been created and maintained via provisions in\nannual appropriations legislation. This includes the Multifamily Preservation and Revitalization\n(MPR) demonstration program, which has been included in annual appropriations acts since\nFY2006, and Section 521 rental assistance decoupling authority, which has been included in\nannual appropriations acts since FY2024.",
+   "Section 502 also formally authorizes the Rural Community Development Initiative"
+  ],
+  "locator": "Section 502",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-240",
+  "statement": "Rural housing vouchers may go to any low-income household in a Section 514, 515 or 516 property that has been prepaid, foreclosed or has matured. Within 2 years USDA must set interim and annual reviews of voucher amounts, with annual recertification that household income does not exceed 80 percent of area median income.",
+  "claim": "data",
+  "figures": [
+   "80 percent",
+   "2 years"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "this Act, the Secretary of Agriculture shall issue regulations\nto establish a process for adjusting the voucher amount provided\nunder section 542 of the Housing Act of 1949 (42 U.S.C. 1490r)\nafter the issuance of the voucher following an interim or annual\nreview of the amount of the voucher.",
+   "(1) <<NOTE: Deadline. Regulations. Process. Review.>> In\ngeneral.--Not later than 2 years after the date of enactment of",
+   "tenants\nto annually recertify the family composition of the\nhousehold and that the family income of the household\ndoes not exceed 80 percent of the area median income at",
+   "``(c) Eligibility of Households in Sections 514, 515, and 516\nProjects.--The Secretary may provide rural housing vouchers under this\nsection for any low-income household (including those not receiving\nrental assistance) residing for a term longer than the remaining term of\ntheir lease that is in effect on the date of prepayment, foreclosure, or\nmortgage maturity, in a property financed with a loan under section 514\nor 515 or a grant under section 516 that has--\n``(1) been prepaid with or without restrictions imposed by\nthe Secretary pursuant to section 502(c)(5)(G)(ii)(I);\n``(2) been foreclosed; or\n``(3) matured after September 30, 2005.''."
+  ],
+  "locator": "Sec. 502(k) and (l)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-241",
+  "statement": "CRS: the Act raises FHA multifamily loan limits and indexes them to a construction-cost deflator, and raises the cap on banks' public welfare investments from 15% to 20% of capital and surplus.",
+  "claim": "data",
+  "figures": [
+   "15%",
+   "20%"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 211 increases the multifamily loan limits for several FHA multifamily programs. It also\nrequires HUD to use the Census Bureau\u2019s Price Deflator Index of Multifamily Residential Units\nUnder Construction to calculate the annual inflation adjustment rather than the CPI-U.",
+   "This section raises the allowable PWI percentage from 15% of a national or state bank\u2019s\nunimpaired capital and unimpaired surplus to 20% of that amount."
+  ],
+  "locator": "Sections 203 and 211",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-242",
+  "statement": "CRS: GAO must study housing for middle-income households (80% to 120% of area median income), their eligibility for federal programs and options for including \"workforce housing\" in them, within one year.",
+  "claim": "data",
+  "figures": [
+   "80%",
+   "120%"
+  ],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 804 directs GAO to study housing affordability\nfor middle-income households, the eligibility of middle-income households for existing federal\nhousing programs, recommendations for a definition of \u201cworkforce housing,\u201d and policy options\nfor including workforce housing in new and existing federal housing programs. The section\ndefines \u201cmiddle-income households\u201d as those with incomes between 80% and 120% of area\nmedian family income, as determined by HUD.",
+   "All four studies must be submitted to Congress\nnot later than one year after enactment (July 11, 2027)."
+  ],
+  "locator": "Section 804",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md",
+   "dossiers/shared-rules.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-243",
+  "statement": "Within 18 months HUD must issue model code language, best practices and technical guidance to help states, tribes and localities permit single-stair (point-access block) apartment buildings of up to 6 stories; HUD may run pilot grants that end 7 years after enactment, and nothing in the section preempts a state or local building code.",
+  "claim": "data",
+  "figures": [
+   "18 months",
+   "7 years",
+   "6"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "Not later than 18 months after\nthe date of enactment of this section, the Secretary of Housing and\nUrban Development shall issue guidelines to provide States, territories,\nTribes, and localities with model code language, best practices,\n[[Page 140 STAT. 850]]\nand technical guidance that could be used to facilitate the permitting\nof point-access block residential buildings.",
+   "(2) Sunset.--The program established under paragraph (1)\nshall terminate on the date that is 7 years after the date of\nenactment of this subsection.",
+   "(f) Rule of Construction.--Nothing in this section may be construed\nto preempt a State or local building code.",
+   "egress for all dwelling units in a building that is not greater\nthan 6 stories in height."
+  ],
+  "locator": "Sec. 102(a), (d)(2), (f), (g)(2)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-244",
+  "statement": "CRS, on the Build Now formula: the housing growth improvement rate gives higher values to places with lower but positive prior growth than to places with higher positive prior growth, all else equal, so it rewards a rise in a place's own growth rate rather than a high level of building.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0435",
+  "anchor": "Both definitions would give higher values to jurisdictions with lower but positive\nprior growth rates than to jurisdictions with higher positive growth rates, all else\nequal. Such jurisdictions would be ranked higher and be more likely to receive\nincreased CDBG funding under both proposed definitions.",
+  "locator": "Section 206/Section 5206, Build Now Act",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency, dated October 20, 2026. CRS's reading of the formula's arithmetic; the enacted formula (EV-HOU-208) is the S. 2296 definition CRS analyzes.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/2-what-works.md",
+   "dossiers/home/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-208",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-245",
+  "statement": "CRS: HUD must review FHA construction financing for barriers to modular building and report within one year, then start a rulemaking on an alternative draw schedule for construction loans to modular and manufactured home developers.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0437",
+  "anchor": [
+   "Section 302 directs the HUD Secretary to review FHA construction financing programs to\nidentify barriers to using modular building methods, including regulatory and programmatic\nfeatures that restrict participation by modular home builders.",
+   "Section 302 directs the Secretary to publish a report describing the results of the\nreview and recommendations of policy changes not later than one year after enactment (July 11,",
+   "This section also directs the Secretary to initiate a rulemaking within 120 days of the\npublication of the report to examine an alternative draw schedule for construction financing loans\nto modular and manufactured home developers."
+  ],
+  "locator": "Section 302",
+  "grade": "C",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-10-20",
+  "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-248",
+  "statement": "The sunset in the disaster recovery section applies to the program under the new section 124 of the Housing and Community Development Act of 1974, which ends 3 years after enactment; Congress states it may fund a similar successor program after that date.",
+  "claim": "data",
+  "figures": [
+   "124",
+   "1974",
+   "3 years"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(g) Sunset.--The program under section 124 of the Housing and\nCommunity Development Act of 1974, as added by subsection\n[[Page 140 STAT. 948]]\n(d) shall terminate on the date that is 3 years after the date of\nenactment of this Act.",
+   "(h) Sense of Congress.--It is the sense of Congress that, should\nCongress opt to appropriate funds for disaster recovery through a\nsimilar successor program following the sunset date, subsection (g)\nshall not preclude Congress from doing so."
+  ],
+  "locator": "Sec. 504(g), (h)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-249",
+  "statement": "HUD may not take adverse action against, or withhold otherwise offered actions or services from, a state or locality that declines to adopt the zoning guidelines or best practices.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": "(e) Rule of Construction.--Nothing in this section may be construed\nto permit the Department of Housing and Urban Development to take an\nadverse action against or fail to provide otherwise offered actions or\nservices for any State or locality if the State or locality declines to\nadopt a guideline or best practice under subsection (b).",
+  "locator": "Sec. 107(e)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-250",
+  "statement": "States must recertify each year that they treat manufactured homes built without a permanent chassis the same; a state that does not certify on time must bar the manufacture, installation or sale of such homes where it administers installation.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": [
+   "``(3) <<NOTE: Determination.>> Annual recertification.--Not\nlater than a date to be determined by the Secretary each year, a\nState shall submit to the Secretary an additional certification\nthat--\n``(A) confirms the accuracy of the initial\ncertification submitted under subparagraph (A) or (B) of\nparagraph (1); and\n``(B) certifies that any new laws or regulations\nenacted or adopted by the State since the date of the\nprevious certification do not change the veracity of the\ninitial certification submitted under paragraph (1)(A).",
+   "``(B) Building, installation, and sale.--If a State\ndoes not submit a certification under paragraph (1)(A)\nor (3) by the date on which those certifications are\nrequired to be submitted--\n``(i) with respect to a State in which the\nState administers the installation of manufactured\nhomes, the State shall prohibit the manufacture,\ninstallation, or sale of a covered manufactured\nhome within the State; and"
+  ],
+  "locator": "Sec. 301, new 42 U.S.C. 5403 certification paragraphs (3) and (5)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-251",
+  "statement": "The vacant-building conversion program covers properties built as warehouses, factories, malls, strip malls, hotels or for other industrial or commercial use.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0438",
+  "anchor": "``(6) Vacant and abandoned building.--The term `vacant and\nabandoned building' means a property--\n``(A) that was constructed for use as a warehouse,\nfactory, mall, strip mall, or hotel, or for another\nindustrial or commercial use; and",
+  "locator": "Sec. 210, definition of vacant and abandoned building",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-10-29",
+  "recheck": "2027-07-11",
+  "context": "Enacted federal law (primary law).",
+  "supports": [
+   "dossiers/home/road-act.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-246",
+  "statement": "Source of income is not a protected class under the federal Fair Housing Act, which covers race, color, national origin, religion, sex, familial status and disability. Only a limited number of federal statutes and regulations bar landlords from refusing voucher holders, for example in certain HOME, Low-Income Housing Tax Credit and HUD-sold multifamily properties. Federal voucher rules do not preempt state or local protections.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0439",
+  "anchor": [
+   "While source of income is not an expressly protected attribute under the Fair Housing Act 1, states or\nlocalities are not precluded by Federal law from expanding discrimination protections to explicitly include\na person\u2019s source of income, such as a housing choice voucher. No HUD housing choice voucher\nregulations within 24 CFR 982 are intended to pre-empt the operation of state or local laws prohibiting\ndiscrimination against voucher holders. Additionally, at the Federal level, a limited number of statutes\nand regulations prohibit landlords from refusing to lease to voucher holders. For example, such\nrestrictions apply to certain properties supported under the HOME Investment Partnership Program,\nLow-Income Housing Tax Credit, and subsidized multifamily properties purchased from HUD.",
+   "The Fair Housing Act prohibits discrimination in housing on the basis of race, color, national origin, religion,\nsex, familial status, and disability."
+  ],
+  "locator": "Background, page 1 and note 1",
+  "grade": "A",
+  "fact_date": "2025-08-13",
+  "checked": "2026-10-29",
+  "recheck": "2027-08-13",
+  "context": "HUD Office of Inspector General audit, August 2025, second Trump administration. A count of enacted laws (data), graded A; the audit makes no recommendations.",
+  "supports": [
+   "dossiers/home/road-act.md",
+   "dossiers/home/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-247",
+  "statement": "As of January 2025, 23 states and the District of Columbia had statewide laws making source of income a protected class, 16 of them explicitly protecting housing choice voucher holders; 152 cities and counties in 27 states had local ordinances, including in 19 states without a statewide law.",
+  "claim": "data",
+  "figures": [
+   "23",
+   "16",
+   "152",
+   "27",
+   "19"
+  ],
+  "source": "SRC-0439",
+  "anchor": "As of January 2025,\n23 states and the District of Columbia had passed statewide laws prohibiting source of income\ndiscrimination by officially designating source of income as a protected class, with 16 of them explicitly\nprohibiting discrimination against housing choice voucher holders. Meanwhile, 152 cities/counties in 27\nstates have passed local ordinances which prohibit source of income discrimination, including cities and\ncounties in 19 states without a statewide law.",
+  "locator": "Highlights, What We Audited and Why",
+  "grade": "A",
+  "fact_date": "2025-01",
+  "checked": "2026-10-29",
+  "recheck": "2027-08-13",
+  "context": "HUD Office of Inspector General audit, August 2025, second Trump administration. A count of enacted laws (data), graded A; the audit makes no recommendations.",
+  "supports": [
+   "dossiers/home/3-design.md"
+  ]
  }
 ]

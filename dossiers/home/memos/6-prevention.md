@@ -8,6 +8,8 @@ The plan has an $85 billion one-time emergency housing package for 2030-31 (HOU-
 
 **What you already chose, and what this would change.** HOU-1A is the plan as filed (`chosen`). The recommendation would replace it with a standing fund and a smaller one-time start.
 
+**Current law.** The ROAD to Housing Act (2026) does not change this memo's options or recommendation. It creates no emergency rent help. Its disaster recovery grants end in July 2029 (Congressional Research Service, 2026) [EV-HOU-228], before the plan's help would start.
+
 ## Why it matters
 
 Small, fast help keeps people housed.

@@ -8,6 +8,8 @@ The plan already gives renters more help paying rent (one million new vouchers, 
 
 **What you already decided, and what this would change.** The million new vouchers you decided on are not affected under any option: they stay normal vouchers. This memo is about the help beyond them: the $135 billion envelope and later stages of the guarantee.
 
+**Current law.** The ROAD to Housing Act (2026) does not change this memo's options or recommendation. It speeds up voucher inspections, including for landlords new to the program (ROAD to Housing Act, 2026) [EV-HOU-232], but adds no rent help and does nothing about landlords who refuse vouchers or places with no empty homes (`../road-act.md`).
+
 ## Why it matters
 
 A voucher pays part of the rent at a home the family finds.

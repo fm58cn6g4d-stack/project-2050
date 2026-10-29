@@ -6,6 +6,8 @@ Role: decision memo for Espen, fork 8 of the housing design (`../3-design.md`), 
 
 The new help phases in at 250,000 vouchers a year from 2030 to 2033. Far more households need it than that. Who should be first in line?
 
+**Current law.** The ROAD to Housing Act (2026) does not change this memo's options or recommendation. It sets no order for who gets vouchers. It makes disabled veterans easier to qualify for the veterans' voucher program (ROAD to Housing Act, 2026) [EV-HOU-233], which helps reach homeless veterans.
+
 ## Who is waiting
 
 - **People without a home:** 745,652 on a single night in 2025 (HUD count, reported by the Congressional Research Service, 2026) [EV-HOU-014]. That included nearly 150,000 children in 2024 (HUD, 2024 homelessness report to Congress) [EV-HOU-026].

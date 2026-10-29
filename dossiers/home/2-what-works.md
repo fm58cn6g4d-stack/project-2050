@@ -1,6 +1,6 @@
 # A home you can keep: what works
 
-Role: section 2 of the housing dossier: what research says about the causes of the problem in section 1, what housing programs and policies have been shown to do, and what other countries teach. Status: draft (stage C, step 3). Every figure and factual claim cites the evidence register (`evidence.json`, EV-HOU-050 onward). Claims still missing evidence are listed at the end and are not made here. This section weighs evidence; it chooses no designs. The forks it leaves are listed at the end for section 3.
+Role: section 2 of the housing dossier: what research says about the causes of the problem in section 1, what housing programs and policies have been shown to do, and what other countries teach. Status: draft (stage C, step 3). Every figure and factual claim cites the evidence register (`evidence.json`, EV-HOU-050 onward). Claims still missing evidence are listed at the end and are not made here. This section weighs evidence; it chooses no designs. The forks it leaves are listed at the end for section 3. Current law changed on July 11, 2026 with the ROAD to Housing Act; the section below summarizes it, and `road-act.md` maps it provision by provision.
 
 Outcomes this section bears on:
 - OUT-04, a home people can keep;
@@ -40,6 +40,19 @@ Outcomes this section bears on:
    - Emergency cash and legal help keep people housed [EV-HOU-108] [EV-HOU-143].
    - Evidence on pandemic rental aid and on the right to counsel is mixed [EV-HOU-144] [EV-HOU-147]. The best-designed study of the aid found it improved rent payment but not moves [EV-HOU-153].
 8. **Abroad, entitlement allowances and large social housing sectors cover far more people than U.S. programs** [EV-HOU-159] [EV-HOU-160] [EV-HOU-161]. Where supply cannot respond, landlords capture much of the allowance [EV-HOU-155] [EV-HOU-156]. Vienna's and Finland's results rest on a scale of social housing the U.S. does not have [EV-HOU-161] [EV-HOU-167].
+9. **Current law moved in July 2026.** The ROAD to Housing Act rewards places for housing growth, limits large investors' purchases of single-family homes until 2042 and eases inspections and environmental reviews, but appropriates nothing [EV-HOU-200] [EV-HOU-201] [EV-HOU-206] [EV-HOU-208] [EV-HOU-222].
+
+## Current law: the ROAD to Housing Act (2026)
+
+The 21st Century ROAD to Housing Act, Public Law 119-101, became law on July 11, 2026 [EV-HOU-200]. It is the baseline the evidence below is weighed against. The full map, with dates, money and the fork each provision touches, is in `road-act.md`; the points that bear on this section:
+- **Money.** It appropriates nothing and authorizes only $200 million a year, for the Innovation Fund [EV-HOU-201] [EV-HOU-202]. Most of its programs are discretionary, temporary and competitive [EV-HOU-203].
+- **Zoning (HOU-6).** An Innovation Fund pays local governments that show faster housing growth [EV-HOU-206] [EV-HOU-207], and Build Now moves part of CDBG from places whose growth lags to places whose growth speeds up, from FY2029 to FY2043 [EV-HOU-208]. Planning grants, pre-reviewed designs and zoning guidelines come with them [EV-HOU-210] [EV-HOU-212] [EV-HOU-213]. Neither reward has been funded or evaluated.
+- **Permitting.** Infill housing assisted by USDA skips environmental studies; HUD must exempt more housing activities once it writes rules [EV-HOU-217] [EV-HOU-218].
+- **Vouchers (HOU-4).** Inspections from other programs count, and new landlords' units can be inspected in advance [EV-HOU-232]. No new vouchers.
+- **Public housing (HOU-5).** The Rental Assistance Demonstration is permanent, and its cap on total public housing conversions rises from 455,000 to 555,000 units [EV-HOU-231].
+- **Investors (HOU-7).** Large institutional investors may not buy more single-family homes from January 2027 until the ban lapses in January 2042, with annual reporting and GAO and HUD studies [EV-HOU-222] [EV-HOU-224].
+- **Homelessness.** No change to Housing First; a new federal plan is due July 2027 [EV-HOU-238].
+- **Income rules.** One change to 42 U.S.C. 1437a, for disabled veterans in HUD-VASH [EV-HOU-233] (`../shared-rules.md`, rule 1).
 
 ## 1. Why rents and homelessness rose: the causes weighed
 
@@ -191,6 +204,7 @@ HUD's own data agree. At the end of 2023, 42% of the 4,569,973 households in HUD
 - 61% of new voucher holders leased a home within six months, fewer in tight markets [EV-HOU-092].
 - In paired tests, landlords refused voucher holders 67% to 78% of the time in three metros. In the two metros whose source-of-income laws require landlords to accept vouchers, the refusal rates were 31% and 15% [EV-HOU-093].
 - Such laws modestly improve where voucher holders live [EV-HOU-094].
+- Current law since July 2026 lets other programs' inspections count and lets agencies pre-inspect new landlords' units [EV-HOU-232]; it does not address refusals.
 
 **Design decides who captures the subsidy.**
 - Raising payment limits across a whole metro area mainly raised landlords' rents. In Dallas, setting limits by neighborhood (Small Area Fair Market Rents) moved families to safer, lower-poverty areas [EV-HOU-095].
@@ -262,6 +276,8 @@ HUD's own data agree. At the end of 2023, 42% of the 4,569,973 households in HUD
 - Children displaced from Chicago's demolished high-rises earned 16% more as adults and had 14% fewer violent-crime arrests than peers in buildings that stayed [EV-HOU-121].
 - In HOPE VI redevelopment, only 19% of residents in one study lived in the rebuilt sites, and 18% left assisted housing altogether; those who moved with vouchers went to tracts with much lower poverty, 27% against 61% [EV-HOU-122].
 
+Current law since July 2026 makes the Rental Assistance Demonstration permanent, raises its cap on total conversions from 455,000 to 555,000 units and requires HUD to report each year how many residents stay or return [EV-HOU-231].
+
 These findings bear on HOU-5 and HOU-8; section 3 weighs them.
 
 ### Zoning and land-use reform (HOU-6)
@@ -277,6 +293,8 @@ These findings bear on HOU-5 and HOU-8; section 3 weighs them.
 - Chicago's transit-area upzonings of 2013 and 2015, applied broadly near stations, raised land values with no added permits in five years [EV-HOU-124].
 - Minneapolis grew its housing stock 12% while rents rose 1% from 2017 to 2022 [EV-HOU-125]. 87% of new units were in buildings of 20 or more units and 1% in two-to-four-unit buildings, so the newly legal triplexes added little [EV-HOU-125].
 - A later study finds Minneapolis's lower prices came from weaker demand, not new supply [EV-HOU-126].
+
+**Current law rewards growth, not ordinances.** The ROAD to Housing Act's Innovation Fund and Build Now reallocation both measure housing growth rather than reforms adopted [EV-HOU-206] [EV-HOU-208]. Neither has been evaluated; Build Now's formula rewards acceleration over a high level of building [EV-HOU-244].
 
 ### New market-rate housing and filtering
 
@@ -305,6 +323,7 @@ These findings bear on HOU-5 and HOU-8; section 3 weighs them.
 - Rents rose where merging single-family landlords overlapped [EV-HOU-138].
 - Investors raise rents faster when they buy [EV-HOU-139].
 - They had limited effect on access to homeownership [EV-HOU-140].
+- Current law bars large investors from buying more single-family homes from January 2027 until January 2042, with wide exceptions such as build-to-rent [EV-HOU-222] [EV-HOU-223]. No evaluation exists yet; GAO and HUD report in 2029 and 2037 [EV-HOU-224].
 
 ### Public development
 
@@ -439,7 +458,7 @@ These are forks for decision memos; this section does not choose.
    - LIHTC partly replaces private building and reaches the poorest mainly with vouchers attached [EV-HOU-115] [EV-HOU-118].
    - Revolving public funds and social housing are untested at scale in the U.S. [EV-HOU-141] [EV-HOU-163].
    - Which mix, and how to keep affordability permanent [EV-HOU-119]?
-4. **Zoning conditions (HOU-6).** What makes reform binding enough to build, as in Auckland and California, rather than raising land values, as in Chicago [EV-HOU-123] [EV-HOU-124] [EV-HOU-128]?
+4. **Zoning conditions (HOU-6).** What makes reform binding enough to build, as in Auckland and California, rather than raising land values, as in Chicago [EV-HOU-123] [EV-HOU-124] [EV-HOU-128]? And how should HOU-6 build on the ROAD to Housing Act's growth rewards rather than duplicate them [EV-HOU-206] [EV-HOU-208]?
 5. **Homelessness approach.**
    - Housing First keeps people housed, but federal policy now opposes it [EV-HOU-100] [EV-HOU-107].
    - What should the dossier propose for people with active addiction, where the evidence is thin [EV-HOU-105]?

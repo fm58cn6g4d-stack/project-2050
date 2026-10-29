@@ -24,6 +24,7 @@ A rule is added here only when two dossiers actually depend on it. Every other c
   - Voucher holders are excluded from that rule. Their payment rules are in 42 U.S.C. 1437f(o), not yet checked for this note.
   - "Income" counts all sources, minus listed exclusions and any amount another federal law excludes (1437a(b)(4)).
   - Tax refunds and advance payments of refundable credits under the tax code do not count as income for any federally funded program (26 U.S.C. 6409).
+  - **Changed by the ROAD to Housing Act (July 11, 2026).** Section 602 amended 1437a(b)(4)(B): VA disability benefits are excluded from income when determining eligibility for HUD-VASH supported housing vouchers, and for other housing assistance a HUD-VASH household applies for, but they still count in adjusted income, so rent is unchanged. A separate provision excludes them for eligibility in assisted housing built on VA property [EV-HOU-233]. This is the Act's only change to 1437a; it touches no other income definition, exclusion or rent rule (`home/road-act.md`).
 - **Why it is shared.** Every new cash benefit from another flagship could raise rent in the 1437a programs: about 30 cents of each dollar, or a similar share for voucher holders. That cancels part of the benefit for assisted renters and lowers the housing subsidy in the budget.
   - The child benefit (FAM-1) is designed as a monthly refundable credit with advance payments (`legacy/domains/domain-family.md`, FAM-1). On that design, section 6409 already keeps it out of rent. If it were paid some other way, it would count unless a statute excludes it.
   - Paid leave (FAM-3), wage floors (LAB-4) and any income support outside the tax code would count. For wages this is how the rent rule is meant to work. For new benefits it is a choice.
@@ -39,6 +40,7 @@ A rule is added here only when two dossiers actually depend on it. Every other c
   - Housing help falls by about 30 cents per added dollar of adjusted income (rule 1).
   - In most cases, a rise in earnings is not counted until the next annual review (1437a(a)(6)(A)(iv)).
   - Tax credits, health subsidies and food aid each phase out on their own schedules.
+  - The ROAD to Housing Act leaves the 30% rule alone. It authorizes an escrow-only Family Self-Sufficiency pilot for up to 5,000 families, which banks part of the rent increase from higher earnings in a savings account [EV-HOU-236], and a new Moving to Work cohort whose agencies cannot waive the rules on rent setting or rent burdens [EV-HOU-234].
 - **Why it is shared.** When phase-outs stack, a raise can leave a family barely better off, or worse off. The housing, secure floor, care and work flagships each set one layer.
 - **Housing's working answer.** Keep the 30% rate and current review timing. Add no new phase-out.
 - **Owner:** the secure floor, with the household model. It sets a ceiling on the combined rate at which help falls for typical households, and each flagship designs within it. Until then, each dossier reports its own phase-out rate in section 4.
@@ -65,6 +67,7 @@ A rule is added here only when two dossiers actually depend on it. Every other c
   - HUD sets eligibility by area median income. "Extremely low income" means a very low-income family whose income does not exceed the higher of the federal poverty guideline for its size and 30% of area median (1437a(b)(2)(C)). The line is therefore capped at the very-low-income limit, and the poverty-guideline alternative does not apply in Puerto Rico or other territories.
   - Health and food programs use the federal poverty guidelines.
   - Tax credits use tax-filing units.
+  - The ROAD to Housing Act adds more income lines by area median income: HOME homeownership help now reaches families up to 100% of area median income [EV-HOU-226]; its "attainable housing" serves households under 120% with most units under 60% [EV-HOU-229]; and rural vouchers require annual recertification that income does not exceed 80% [EV-HOU-240]. GAO is studying a "workforce housing" band at 80-120% [EV-HOU-242].
 - **Why it is shared.** Housing's guarantee is defined by area median income (housing fork 2). Other flagships will likely use poverty lines or tax units. Families moving between programs face different tests, and models must translate between them.
 - **Housing's working answer.** Keep area median income for housing, which reflects local rents.
 - **Owner:** the secure floor, for the definitions and the translation between them. The democratic renewal foundation owns any common application or shared verification (rule 5).
@@ -75,6 +78,7 @@ A rule is added here only when two dossiers actually depend on it. Every other c
   - Housing agencies administer vouchers and verify income themselves.
   - They may rely on timely income determinations from other means-tested programs such as TANF, Medicaid and SNAP, to the extent the information is available to them (1437a(a)(7)(D)). That safe harbor covers income before deductions, so the agency still applies the housing deductions itself. They also get federal income-matching data (1437a(a)(7)(E)).
   - The IRS pays the child credit; states run Medicaid.
+  - The ROAD to Housing Act applies the verify-once idea to inspections, not income: a recent passing inspection under the tax credit, HOME or rural programs now counts for vouchers [EV-HOU-232]. For rural vouchers it requires interim reviews on request and annual recertification of income and household [EV-HOU-240]. It changes no income-verification rule in 1437a.
 - **Why it is shared.** Each flagship adds caseloads to agencies that are already stretched. Emergency rental aid started slowly, and improper payments went unmeasured [EV-HOU-150] [EV-HOU-154]. Verifying income once and reusing it saves work in every program.
 - **Housing's working answer.**
   - Housing agencies keep administering.
@@ -88,6 +92,7 @@ A rule is added here only when two dossiers actually depend on it. Every other c
   - TANF holds states to minimum work-participation rates (42 U.S.C. 607).
   - Every adult resident of public housing must give 8 hours a month of community service or join an economic self-sufficiency program, with exemptions for older adults, people with disabilities, and others (42 U.S.C. 1437j(c)).
   - The Medicaid and food-assistance rules are not read for this note.
+  - The ROAD to Housing Act adds no work requirement. Agencies in its new Moving to Work cohort cannot use waivers for work requirements or time limits, and any self-sufficiency program there must be optional [EV-HOU-234]. HUD must study the work requirements earlier Moving to Work agencies used, if enough exist and the study would not harm families [EV-HOU-235]. It leaves treatment conditions to the July 2025 executive order [EV-HOU-107].
 - **The direction so far.** The participation-support program (LAB-10, approved October 26) is "an offer, not a work condition on income, housing, health or food assistance" (`legacy/domains/domain-labor.md`, LAB-10). Housing's recommended homelessness approach offers services without requiring them (housing fork 5, option 5B, not yet decided).
 - **Housing's working answer.**
   - Work half: no work conditions on the guarantee. This departs from the public housing service requirement above, which the housing dossier would have to address in section 4.
