@@ -58,7 +58,7 @@ It rests on three findings:
 2. Children gain most from early moves (Chetty, Hendren and Katz, 2015) [EV-HOU-090].
 3. One-time help serves renters at imminent risk: about $2,000 once cut homelessness sharply in one trial (MIT Press Reader, 2023, on Phillips and Sullivan's trial) [EV-HOU-109]. That compares with about $15,200 a year for a voucher, the plan's planning figure (`legacy/domains/domain-housing.md`, HOU-4A); the comparison is this dossier's.
 
-Under memo 2's recommendation, the million vouchers cover step 1 and the start of step 2; the $135 billion then enrolls the rest of step 2, the poorest families with children with severe problems, at up to 300,000 a year from 2034, so that every family in the group can get help from 2037. Step 3 follows only when the budget allows.
+Under memo 2's recommendation, the million vouchers cover step 1 and the start of step 2; the $135 billion then enrolls the rest of step 2, the poorest families with children with severe problems, at up to 300,000 a year from 2034, so that every family in the group can get help from 2037. Step 3 follows only when the budget allows: under memo 2's recommendation it has no funded route in the 2030s, a change from the earlier draft, which phased all three steps in.
 
 Renters about to lose their homes get help from memo 6's emergency fund, not this line. If you keep a one-time package instead (memo 6, A or B), they would have no national help after 2031; then this order should set aside a small share of vouchers for them.
 

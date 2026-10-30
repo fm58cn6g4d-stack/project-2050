@@ -52,7 +52,7 @@ A voucher pays part of the rent at a home the family finds.
 
 Why include the million: a family in a tight city faces the same failed search whether its voucher is in the first million or the second. Plain vouchers are the right answer where homes are available, so B keeps them there; that part of the plan as filed holds up.
 
-**What the evidence doesn't show yet.** There is no evidence in the register on how well help attached to buildings works in tight markets, and one study finds normal vouchers reach people without homes better (Sinai and Waldfogel, 2005) [EV-HOU-114]. B rests on the evidence that normal vouchers fail in tight markets, and on judgment that attaching help to homes fixes that. So the attached share should start small and be tested. If you would rather leave the million exactly as filed, B-narrow is the cautious fallback.
+**What the evidence doesn't show yet.** There is no evidence in the register on how well help attached to buildings works in tight markets, and one study finds normal vouchers better at reaching people who would otherwise have no home of their own, mostly people doubled up with others (Sinai and Waldfogel, 2005) [EV-HOU-114]. B rests on the evidence that normal vouchers fail in tight markets, and on judgment that attaching help to homes fixes that. So the attached share should start small and be tested. If you would rather leave the million exactly as filed, B-narrow is the cautious fallback.
 
 ## If you decide
 
