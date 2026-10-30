@@ -21,7 +21,7 @@ Role: `agenda.csv` lists every policy and option ID, one row each. Status: seede
 - `held`, `declined`, `retired`, `pointer`: as the options register defines them.
 
 **Seed levels.**
-- `decided` and `chosen` items start at **L2**: the legacy domain files give each a chosen design with key parameters, a ten-year cost range and a vehicle.
+- `decided` and `chosen` items were seeded at L2, because the legacy domain files give each a design with key parameters, a ten-year cost range and a vehicle. `DEC-2026-10-30-03` moved them all to **L1**: those parameters were set without the main alternatives weighed on evidence, which L2 requires (`charter/PLAN.md` 3.2). An item reaches L2 when its dossier's design section weighs the alternatives and Espen decides the memo. `seed_from_legacy.py` still records the original seed levels.
 - Options, alternatives, held, declined and pointer rows start at **L1**; retired IDs at **L0**.
 - Nothing is L3 yet. L3 needs provisions, an evidence register and model validation in a dossier. Transportation has draft bill text and is converted first, as the reference dossier.
 
