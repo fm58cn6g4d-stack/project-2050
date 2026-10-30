@@ -1,6 +1,6 @@
 # A home you can keep: design choices
 
-Role: section 3 of the housing dossier: the real forks in the design, the options at each, what the evidence says for and against them, how they connect, and a recommendation. Status: draft (stage C, step 4), rebaselined on the ROAD to Housing Act (Public Law 119-101, July 11, 2026), which is current law and the starting point for every fork (`road-act.md`). Every figure and factual claim cites the evidence register (`evidence.json`). Recommendations are the dossier's advice, not decisions: no agenda status or level changes until Espen decides, through a later charter PR. Costs are not modeled here; section 6 prices the choices with the budget model. Where this section gives an order of magnitude, it says so and shows the arithmetic.
+Role: section 3 of the housing dossier: the real forks in the design, the options at each, what the evidence says for and against them, how they connect, and a recommendation. Status: draft (stage C, step 4), rebaselined on the ROAD to Housing Act (Public Law 119-101, July 11, 2026), which is current law and the starting point for every fork (`road-act.md`), and refreshed under `DEC-2026-10-30-02`: the legacy rental-help and construction-capital designs (HOU-4A, HOU-4D, HOU-3C) are starting points weighed as options, not fixed inputs. The plan these choices serve begins in January 2029 (`DEC-2026-10-29-01`): the baseline is current law as it will stand in 2029, and recommendations are dated from 2029 on. Every figure and factual claim cites the evidence register (`evidence.json`). Recommendations are the dossier's advice, not decisions: no agenda status or level changes until Espen decides, through a later charter PR. Costs are not modeled here; section 6 prices the choices with the budget model. Where this section gives an order of magnitude, it says so and shows the arithmetic.
 
 Outcomes the choices serve:
 - OUT-04, a home people can keep;
@@ -13,37 +13,58 @@ Outcomes the choices serve:
 - **Seven decision memos.** Seven forks are Espen's to decide. Each has a short memo in `memos/`, one file per fork, that Espen can decide from without reading the rest. The memos are separate files so each can be read, discussed and decided on its own; approval is per decision, never as a package (`charter/STANDARDS.md`). Each memo says what Espen has already chosen and what its recommendation would change.
 - **Recommended without a memo: Espen decides each.** Fork 7 and eight narrower points are recommendations without a full memo, listed under "Recommended without a memo" with a yes-or-no question each. They are not decided by silence: section 4 drafts none of them until Espen agrees, item by item.
 - **Evidence rules.** Recommendations rest on data or on analysis an independent publisher corroborates. Where the evidence for part of a recommendation is not yet in the register, the section and the memo say so and name what the recommendation rests on instead (Espen's October 26 direction, or this dossier's judgment). Where independent sources disagree, both views are given. Analysis without independent corroboration (EV-HOU-052, 087, 137, 141 and 158) is mentioned only as one source's view.
+- **Executive-branch sources** carry the administration that produced them, in the register's context note and, on reader-facing pages, in the prose (`DEC-2026-10-30-01`). Analysis from the second Trump administration (2025 on) is presented as that administration's view and never carries a recommendation on its own.
+- **Time frame.** Recommendations are for a plan that starts in January 2029. Earlier dates are labeled as preparation or as current law that takes effect before then.
 
-## What is already settled
+## Starting points (chosen, open to revision)
 
-These are not reopened. Each fork works inside them.
+Espen ruled on October 30 that the legacy decisions on the form and funding level of rental help and construction capital are working choices, not settled (`DEC-2026-10-30-02`). Keeping each of them is a fine outcome, but this section weighs keeping them as one option among others, on the evidence, rather than assuming it. Each fork that touches them lists "keep the legacy design" as an explicit option and says what each alternative would change about how the package fits together.
 
-| Item | What is settled | Where |
+| Item | Legacy design (the starting point) | Weighed in | Where it comes from |
+| --- | --- | --- | --- |
+| HOU-4A | One million new voucher awards, mandatory funding, phased in over 2030-33 (250,000 a year), aimed at extremely low-income renters. Status `chosen` (it was `decided` until `DEC-2026-10-30-02`) | Fork 1 (form: tenant vouchers or attached awards), fork 2 (scale and funding: a fixed count or part of a guarantee), fork 8 (pace and order) | `legacy/domains/domain-housing.md`, HOU-4; legacy governing decisions, "Family package adopted, October 24" |
+| HOU-4D | A bounded $135 billion expansion of rental help over FY2030-39 beyond HOU-4A. Its award count, cohort and delivery were never chosen; "approximately another million awards" was a scale illustration. It is not HOU-4C's broad entitlement. Status `chosen` | Fork 2 (what the money buys: an unnamed cohort or a defined stage of the guarantee), fork 1 (form), fork 8 (which group) | `legacy/domains/domain-housing.md`, HOU-4, "October 26 approved extension"; added to `agenda/agenda.csv` by PR #73 |
+| HOU-3C | Construction capital in two channels: about $72 billion of grants to state revolving funds (ramped $3 billion, $5 billion, then $8 billion a year; at least 30% forgivable for extremely low-income units) and $300 billion of federal direct loans through state agencies. Status `chosen` | Fork 3, part 3 (channels, amounts, eligible uses, and the balance between grants and loans and between building and rental help) | `legacy/domains/domain-housing.md`, HOU-3 |
+
+Other `chosen` items, such as HOU-1A, HOU-2A and HOU-6's fund and conditions, are starting points in the same sense; a recommendation that would change one says so plainly, in this section and in its memo. The federal builder of last resort (HOU-9A, 9B or 9C) is an open call already on Espen's list in the legacy governing decisions. Fork 3 takes it up.
+
+**Given.** These are not reopened here; each fork works inside them.
+
+| Item | What is given | Where |
 | --- | --- | --- |
-| HOU-4A | One million new voucher awards, mandatory funding, phased in over 2030-33 (250,000 a year), aimed at extremely low-income renters. Status `decided` | `agenda/agenda.csv`; `legacy/governing/project-2050-governing-decisions.md`, "Family package adopted, October 24" |
-| HOU-4D | A bounded $135 billion expansion of rental help over FY2030-39 beyond HOU-4A. Its award count and delivery are not yet chosen. It is not HOU-4C's broad entitlement | Legacy governing decisions, "Recovery and Solvency recommendations approved, October 26"; `legacy/domains/domain-housing.md`, HOU-4. Not yet a row in `agenda/agenda.csv` (see "Housekeeping") |
-| Housing-security direction | Develop a guarantee for extremely low-income renters that "should replace waiting-list luck for its defined population", alongside public and nonprofit acquisition, repair and construction, lasting affordability, and a lawful federal sponsor or backstop where state participation fails. Eligibility, supply, federal and state roles and funding are to be resolved; HOU-4A's benefits are preserved | `legacy/domains/domain-housing.md`, "Accepted housing-security development direction, October 26"; legacy governing decisions, PR #20 acceptance |
-| HOU-3C | Construction capital in two channels: about $72 billion of grants to state revolving funds and $300 billion of federal direct loans. Chosen by Espen | `legacy/domains/domain-housing.md`, HOU-3 |
-| D3 and D4 | Every income group below the top better off on net, with new general-fund revenue mostly from the top 1% and corporations (D3). Permanent programs paid for at maturity, from FY2040; time-limited investments may borrow inside an envelope (D4-B) | Legacy governing decisions; `charter/outcomes.md`, OUT-11 |
-| D5 | Housing money rides the FY2030 reconciliation bill (R2) | Legacy governing decisions, D5 |
-| Current law: the ROAD to Housing Act | Not a choice but the baseline. Public Law 119-101 became law on July 11, 2026 [EV-HOU-200]. It appropriates nothing [EV-HOU-201] [EV-HOU-202], but it already enacts a supply-growth reward fund, a CDBG reallocation by housing growth, a 15-year limit on large investors' purchases of single-family homes, a permanent Rental Assistance Demonstration and faster voucher inspections [EV-HOU-206] [EV-HOU-208] [EV-HOU-222] [EV-HOU-231] [EV-HOU-232]. Each fork builds on it rather than duplicating it | `road-act.md` |
+| Housing-security direction (October 26) | A direction, not a form or a funding level. Develop a guarantee for extremely low-income renters that "should replace waiting-list luck for its defined population", alongside public and nonprofit acquisition, repair and construction, lasting affordability, and a lawful federal sponsor or backstop where state participation fails. Eligibility, supply, federal and state roles and funding are to be resolved; HOU-4A's benefits are preserved | `legacy/domains/domain-housing.md`, "Accepted housing-security development direction, October 26"; legacy governing decisions, PR #20 acceptance |
+| D3 and D4 (OUT-11) | Every income group below the top better off on net, with new general-fund revenue mostly from the top 1% and corporations (D3). Permanent programs paid for at maturity, from FY2040; time-limited investments may borrow inside an envelope (D4-B) | Legacy governing decisions; `charter/outcomes.md`, OUT-11 |
 
-Other items are `chosen` in the agenda: designs carried over from the legacy domain file that Espen has not reopened, such as HOU-1A, HOU-2A and HOU-6's fund and conditions. They are the starting point, not settled decisions, but a recommendation that would change one says so plainly, in this section and in its memo.
+The legacy vehicle decision, D5 (housing money rides the FY2030 reconciliation bill, R2), is a cross-cutting choice that `DEC-2026-10-30-02` does not address. This section keeps it as the working vehicle and does not weigh it.
 
-The federal builder of last resort (HOU-9A, 9B or 9C) is an open call already on Espen's list in the legacy governing decisions. Fork 3 takes it up.
+## The baseline in 2029
+
+The plan's first budget is FY2030, enacted in 2029. This is current law as it will stand then, counting enacted laws with later effective dates and scheduled expirations (`road-act.md` has the full map).
+- **The ROAD to Housing Act** (Public Law 119-101, law since July 11, 2026) [EV-HOU-200]. It appropriates nothing [EV-HOU-201] [EV-HOU-202]. By 2029:
+  - the large-investor purchase limit is in force, from January 7, 2027 until its repeal on January 7, 2042 [EV-HOU-222];
+  - Build Now's CDBG reallocation by housing growth starts in FY2029 and runs through FY2043 [EV-HOU-208];
+  - the Innovation Fund is authorized at $200 million a year for FY2027-2031 and ends in July 2033, but has money only if Congress appropriates it [EV-HOU-202] [EV-HOU-206];
+  - the Rental Assistance Demonstration is permanent, with a 555,000-unit cap [EV-HOU-231], and faster voucher inspections and pre-inspection for new landlords are law [EV-HOU-232];
+  - the Emergency Solutions Grants shelter waiver runs for FY2027-2030 [EV-HOU-237], and the disaster recovery block grant ends in July 2029 [EV-HOU-228];
+  - GAO's workforce-housing study (July 2027) [EV-HOU-242] and the Interagency Council on Homelessness's new national plan (July 2027) [EV-HOU-238] are due before the plan starts.
+- **Tax credits.** The One Big Beautiful Bill Act's permanent 12% increase in Low-Income Housing Tax Credit allocations and its lower bond-financing test apply from 2026 [EV-HOU-113].
+- **Homelessness policy.** The July 2025 executive order against Housing First [EV-HOU-107] stays in force unless revoked; a president taking office in January 2029 can revoke it.
+- **Rental help.** The voucher program served more than 2.3 million households [EV-HOU-013]; its 2029 size depends on appropriations not yet made. No law enacted so far adds voucher awards.
+
+Each fork builds on this baseline rather than duplicating it.
 
 ## The forks at a glance
 
 | Fork | Agenda items | Handled by | Recommendation in one line |
 | --- | --- | --- | --- |
-| 1. Help or homes | HOU-4 with HOU-2, 3, 5, 6, 8 | Memo 1 | Match the tool to the market for help beyond HOU-4A: vouchers where homes are available, help tied to new and acquired homes where they are not |
-| 2. How broad the guarantee is | HOU-4A, HOU-4D, HOU-4C | Memo 2 | A guarantee for extremely low-income renters, phased in group by group; not yet all very low-income renters |
-| 3. Production tool | HOU-2, HOU-3, HOU-5, HOU-8, HOU-9 | Memo 3 (two parts) | Part 1: narrow the tax credits and make federally financed homes permanently affordable. Part 2: authorize a small federal backstop builder now (a limited HOU-9A) |
+| 1. Help or homes | HOU-4A, HOU-4D with HOU-2, 3, 5, 6, 8 | Memo 1 | Match the tool to the market for all new awards, HOU-4A's later cohorts included: vouchers where homes are available, help tied to new and acquired homes where they are not. Changes HOU-4A's form for part of its 2032-33 cohorts; keeps its count, pace and funding |
+| 2. How broad the guarantee is | HOU-4A, HOU-4D, HOU-4C | Memo 2 | Turn the legacy money into the first two stages of a guarantee: HOU-4A as filed for people without a home and the first families, then HOU-4D's $135 billion for the rest of the extremely low-income families with children with severe needs, instead of an unnamed second million awards. Keeps both amounts and mandatory funding |
+| 3. Production tool | HOU-2, HOU-3, HOU-5, HOU-8, HOU-9 | Memo 3 (three parts) | Part 1: narrow the tax credits and make federally financed homes permanently affordable. Part 2: authorize a small federal backstop builder from 2029 (a limited HOU-9A). Part 3: keep HOU-3C's two channels and amounts, and open both to acquiring and preserving existing buildings |
 | 4. Zoning conditions | HOU-6 | Memo 4 | Pay for results through ROAD's Innovation Fund, funded at scale and opened to states, rather than a separate fund; leave ROAD's Build Now as the only CDBG test; count lower-cost homes |
 | 5. Homelessness approach | HOU-4, HOU-1, HOU-8 | Memo 5 | Housing First as the default, with a recovery-housing option people can choose, never a condition |
 | 6. Prevention and emergency aid | HOU-1 | Memo 6 | A standing emergency-rent fund with tested delivery rules, plus a smaller one-time start |
 | 7. Immigration and construction labor | HOU-3, HOU-6, HOU-9; OUT-07 | Recommended without a memo (yes or no) | Treat the construction workforce as a shared dependency; ask the immigration dossier to weigh it |
-| 8. Who is reached first | HOU-4A, HOU-4D | Memo 8 | People without a home first, then extremely low-income families with children, then other extremely low-income renters with the most severe needs |
+| 8. Who is reached first | HOU-4A, HOU-4D | Memo 8 | People without a home first, then extremely low-income families with children, then other extremely low-income renters with the most severe needs. Keeps HOU-4A's 250,000-a-year pace |
 
 ## What the ROAD to Housing Act changes
 
@@ -69,15 +90,16 @@ The first draft of this section did not account for the ROAD to Housing Act. It 
 
 ## Fork 1. Help or homes
 
-**The question.** The plan already pairs rental help with building (HOU-4A, HOU-3C and the October 26 direction). The remaining question is how to place them: should new rental help work the same way in every market, or change where homes are scarce?
+**The question.** The October 26 direction pairs rental help with building, and the legacy designs give each a form: HOU-4A's million awards and HOU-4D's envelope as tenant-based vouchers, HOU-3C's capital as state grants and federal loans. With HOU-4A and HOU-4D open (`DEC-2026-10-30-02`), the question covers all new awards: should new rental help work the same way in every market, or change where homes are scarce?
 
 **Options.**
-- **1A. Vouchers everywhere (as filed).** New awards under HOU-4A and HOU-4D are tenant-based vouchers in every market. Building money goes out by the HOU-3 formula (renter cost burden and construction costs).
-- **1B. Match the tool to the market.** Where vacancies are low, part of the new help beyond HOU-4A (the HOU-4D envelope and later stages of the guarantee) is attached to homes built or bought with HOU-3, HOU-5B and HOU-8 money (project-based awards), so each award comes with a home. HOU-3 and HOU-6 money is weighted toward those markets. Where homes are available, awards stay tenant-based. Tenants in attached homes can later move with a tenant-based voucher.
-- **1C. Build first.** In tight markets, slow the growth of awards until units exist, and move part of the HOU-4D envelope into building.
+- **1A. Keep the legacy design: vouchers everywhere.** Every new award under HOU-4A and HOU-4D is a tenant-based voucher in every market. Building money goes out by the HOU-3 formula (renter cost burden and construction costs). *How the package fits:* help and building run side by side but are not linked; HOU-3C's homes reach extremely low-income renters only where a voucher holder happens to rent one, or through the 30% forgivable share.
+- **1B. Match the tool to the market, for all new awards.** Where vacancies are low, part of the new awards, HOU-4A's later cohorts included, is attached to homes built or bought with HOU-3, HOU-5B and HOU-8 money (project-based awards), so each award comes with a home. HOU-3 and HOU-6 money is weighted toward those markets. Where homes are available, awards stay tenant-based. Tenants in attached homes can later move with a tenant-based voucher. HOU-4A's count, 2030-33 schedule and mandatory funding stay; in practice its 2030-31 cohorts stay tenant-based, because HOU-3C's first new homes will not be finished until about 2032 (its loans ramp from $10 billion in 2030; `legacy/domains/domain-housing.md`, HOU-3, and this dossier's judgment on build times). Existing buildings bought under fork 3, part 3's recommendation could host attached awards sooner. *How the package fits:* the award is the steady rent that lets a loan-financed home serve the poorest renters, so HOU-3C's loan channel and the rental help work as one tool in tight markets.
+- **1B-narrow. Match the tool to the market, beyond HOU-4A only.** As 1B, but HOU-4A's million awards stay tenant-based everywhere; only HOU-4D and later stages of the guarantee can be attached. This was the first draft's recommendation, written when HOU-4A was treated as settled. *How the package fits:* as 1B from about 2034, but HOU-3C homes finished in 2032-33 in tight markets have no new awards to attach.
+- **1C. Build first.** In tight markets, slow the growth of awards until units exist, and move part of the HOU-4D envelope into building. *How the package fits:* it shifts the balance from help to building; see fork 3, part 3, for what that money would buy.
 
 **Evidence.**
-- *For vouchers as the core.* Long-term subsidies sharply reduce homelessness among families who get them [EV-HOU-086] [EV-HOU-184]. Studies typically find tenant subsidies more cost-effective than production subsidies [EV-HOU-112] [EV-HOU-114]. A voucher expansion did not raise rents across the market [EV-HOU-096]. Moves to lower-poverty areas before age 13 raised children's adult earnings 31% [EV-HOU-090]: tenant choice matters for children.
+- *For vouchers as the core.* Long-term subsidies sharply reduce homelessness among families who get them [EV-HOU-086] [EV-HOU-184]. Studies typically find tenant subsidies more cost-effective than production subsidies [EV-HOU-112] [EV-HOU-114], and tenant-based vouchers seem better than project-based programs at reaching people who would otherwise lack their own housing [EV-HOU-114]. A voucher expansion did not raise rents across the market [EV-HOU-096]. Moves to lower-poverty areas before age 13 raised children's adult earnings 31% [EV-HOU-090]: tenant choice matters for children.
 - *Against vouchers alone in tight markets.* Only 61% of new voucher holders leased a home within six months, and fewer where vacancies are low [EV-HOU-092]. Landlords refused voucher holders 67% to 78% of the time in three metros without source-of-income laws [EV-HOU-093]. Raising payment limits across a whole metro mainly raised landlords' rents [EV-HOU-095], and the voucher expansion did raise rents for units near the limit in supply-constrained cities [EV-HOU-096]. For every 100 extremely low-income renter households there were only 38 affordable and available homes [EV-HOU-024].
 - *For pairing help with homes.* More than 40% of Low-Income Housing Tax Credit tenants had extremely low incomes, and most of them also had rental help [EV-HOU-118]: building reaches the poorest when help is attached. New buildings can lower nearby rents [EV-HOU-132] [EV-HOU-133], though one Minneapolis study found higher rents for nearby lower-priced units [EV-HOU-135]; both views stand. In supply-constrained metros homes filter up to richer occupants rather than down [EV-HOU-179], so market-rate building alone reaches the poorest slowly there.
 - *Against building first.* Building takes years. Holding back awards leaves families waiting who could lease now. National rental vacancy reached 7.4% in February 2026, the highest in its series [EV-HOU-068]; many markets are not tight.
@@ -87,41 +109,55 @@ The first draft of this section did not account for the ROAD to Housing Act. It 
 - Fork 3: project-based awards give HOU-3 and HOU-8 projects the steady rent they need to serve the poorest.
 - Fork 4: zoning reform decides how fast supply can respond in tight markets.
 - Fork 8: people leaving homelessness often need a home ready to move into; attached homes help them most.
-- D4: 1C moves permanent spending (rental help) into time-limited capital. That changes how it is financed, but delays help.
+- Fork 3, part 3: under 1A, homes for extremely low-income renters must be paid for mostly by grants, because their rents cannot carry debt; under 1B, attached awards carry the rent, and the loan-heavy HOU-3C fits.
+- D4: 1C moves permanent spending (rental help) into time-limited capital. That changes how it is financed, but delays help. 1A, 1B and 1B-narrow cost about the same; they place the money differently.
 
-**What is settled.** HOU-4A's million awards are `decided` as voucher awards. 1B leaves them as they are and applies only to help beyond them. Applying it to HOU-4A would amend a decided item; this section does not recommend that.
+**Keeping the legacy design (1A), weighed.** 1A has the strongest direct evidence: the trials that show rental help works used mostly tenant-based vouchers [EV-HOU-086], and tenant-based help reaches people without housing better than project-based programs [EV-HOU-114]. Its weakness is also measured: in tight markets many awards go unused [EV-HOU-092] and landlords refuse them [EV-HOU-093]. 1A is the right design where homes are available, and with national rental vacancy at a series high in early 2026 [EV-HOU-068], many markets are not tight; it is weakest where homes are scarce.
 
-**Evidence gap.** The register does not yet hold evidence on how project-based awards lease up or affect rents (see "Evidence still needed"). The case for 1B rests on the evidence that tenant-based vouchers fail in tight markets, not on direct evidence that attached awards do better there.
+**HOU-4A under 1B, weighed.** Applying 1B to HOU-4A changes only part of its 2032-33 cohorts, in tight markets, because attached homes do not exist earlier. The case for including them is that a family in a tight market faces the same failed search whether its award is in the first million or the second [EV-HOU-092]; fencing off the first million leaves HOU-3C's first finished homes without awards to attach. The case against is that it adds an untested form to the one award group with the best evidence behind its plain-voucher form.
+
+**Evidence gap.** The register does not yet hold evidence on how project-based awards lease up or affect rents (see "Evidence still needed"). The case for 1B rests on the evidence that tenant-based vouchers fail in tight markets, not on direct evidence that attached awards do better there, and one review finds tenant-based help reaches people without housing better [EV-HOU-114].
 
 **Current law (ROAD to Housing Act).** No change to the options.
 - Inspections under the tax credit, HOME or rural programs now count for vouchers, and housing agencies may pre-inspect units of landlords new to the program and must list them for new voucher holders [EV-HOU-232]. That removes one cause of slow lease-up; landlord refusal and scarcity remain.
 - The Rental Assistance Demonstration, now permanent with its cap on total conversions raised from 455,000 to 555,000 units, keeps converting public housing to project-based assistance [EV-HOU-231]: attached help already exists at scale in that stock.
 - The Act's Build Now test exempts places whose rental vacancy is above the national rate [EV-HOU-208]. Section 4 can use the same Census measure as 1B's tight-market trigger, so the two federal tests agree.
 
-**Recommendation: 1B.** The evidence supports vouchers as the core and shows where they fail: tight markets with landlords who refuse them. 1B keeps tenant choice where it works and adds homes where it does not. The share of attached awards, the vacancy trigger and the right to move are set in section 4. Memo: `memos/1-help-or-homes.md`.
+**Recommendation: 1B, for all new awards.** This changes the form of HOU-4A, which is `chosen`, for a share of its 2032-33 cohorts in tight markets; its count, schedule and mandatory funding stay. The evidence supports vouchers as the core and shows where they fail: tight markets with landlords who refuse them. 1B keeps tenant choice where it works and adds homes where it does not, and it lets HOU-3C's first homes serve the poorest renters as soon as they open. Keep the attached share small and tested until project-based lease-up evidence is in, because the review evidence favors tenant-based help [EV-HOU-114]. 1B-narrow is the cautious fallback if Espen prefers to leave HOU-4A's form exactly as filed; it differs from 1B only in 2032-33. The share of attached awards, the vacancy trigger and the right to move are set in section 4. Memo: `memos/1-help-or-homes.md`.
 
 ## Fork 2. How broad the guarantee is
 
-**The question.** The October 26 direction asks for a guarantee that replaces waiting-list luck for a defined group. How large should that group be, and how fast should it be reached?
+**The question.** The October 26 direction asks for a guarantee that replaces waiting-list luck for a defined group. With HOU-4A and HOU-4D open (`DEC-2026-10-30-02`), the question also covers their scale and funding: should new help be a fixed number of awards, or a guarantee for named groups? How large should the group be, how fast should it be reached, and how should it be funded?
 
 **Options.**
-- **2A. Bounded help, no guarantee.** HOU-4A's million awards plus the HOU-4D envelope, with waiting lists kept for everyone else (HOU-4B, the appropriated version, was not chosen and is less durable).
-- **2B. A guarantee for extremely low-income renters.** Every renter household at or below 30% of area median income that qualifies can get help, phased in group by group (fork 8 sets the order). HOU-4A and HOU-4D are its first stages.
-- **2C. A guarantee for all very low-income renters (HOU-4C).** Every renter household at or below 50% of area median income can get help.
+- **2A. Keep the legacy design: bounded help, no guarantee.** HOU-4A's million awards plus the HOU-4D envelope, with waiting lists kept for everyone else. HOU-4D's $135 billion buys roughly another 800,000 awards on HOU-4A's schedule (arithmetic below), for a cohort never named. *How the package fits:* help is a fixed count; who gets it is decided by local waiting lists, so the order in fork 8 decides who is ever helped, not who is helped first.
+- **2B. A staged guarantee within the legacy money.** The same two amounts, re-formed as the first two stages of a guarantee for extremely low-income renters (at or below 30% of area median income). Stage 1 is HOU-4A as filed: one million awards over 2030-33, reaching people without a home first and then the first families with children (fork 8). Stage 2 is HOU-4D: from 2034, every extremely low-income family with children with severe problems that qualifies can get help, instead of an unnamed second million awards. Later groups follow only as section 6 finds the money under D4. *How the package fits:* the award count becomes an outcome of who qualifies rather than a cap; for the groups reached, help is a right rather than a lottery; cost follows take-up, so the $135 billion becomes an estimate to be checked rather than a ceiling.
+- **2C. A guarantee for all extremely low-income renters by 2039.** As 2B, but every group of extremely low-income renters is phased in within the decade, not only the first two. *How the package fits:* the guarantee is the plan's largest permanent claim, reaching three to four times as many households as the legacy items (arithmetic below), and needs new permanent revenue before FY2040.
+- **2D. A guarantee for all very low-income renters (HOU-4C).** Every renter household at or below 50% of area median income can get help.
+
+**Funding, under every option.** Keep the legacy choice of mandatory funding, not annual appropriations (HOU-4B was the appropriated version, not chosen). The tenant-based account is appropriated each year and 87% of it already goes to renew existing vouchers [EV-HOU-187]; new awards funded the same way would compete with renewals. Congress has funded new vouchers as mandatory spending before: $5 billion for 70,000 Emergency Housing Vouchers [EV-HOU-188]. A guarantee needs mandatory funding by definition: an appropriation can run out mid-year. That last point is judgment.
+
+**Pace, under every option.** Keep HOU-4A's 250,000 awards a year. Even today, only 61% of new voucher holders lease a home within six months [EV-HOU-092]; a faster start would add awards faster than housing agencies and landlords can place them. That is judgment from the lease-up evidence, not a measured capacity limit.
 
 **The size of each group.**
 - There were 12.0 million extremely low-income renter households in 2023. 4.3 million had rental assistance, and only 1.9 million avoided severe housing problems without it [EV-HOU-185]. 5.8 million were unassisted with severe problems [EV-HOU-186].
 - There were 19.14 million very low-income renter households [EV-HOU-020], 13.77 million of them unassisted [EV-HOU-023].
+- Extremely low-income families with children with severe problems: 1.717 million households [EV-HOU-186].
 - Today's voucher program serves more than 2.3 million households [EV-HOU-013]. Its account received $30.25 billion in FY2023 [EV-HOU-187].
 
 **Rough order of magnitude (this dossier's arithmetic, not a score).** Two per-household bases:
 - *The project's adopted planning input:* $15,200 per voucher-year in FY2026, growing 3% a year, with a housing-agency administration allowance on top (`legacy/domains/domain-housing.md`, HOU-4A). This is the basis the memos use.
 - *A check from the evidence:* $30.25 billion for about 2.3 million households in FY2023 is roughly $13,000 [EV-HOU-187] [EV-HOU-013]. The gap is mostly rent growth since 2023.
 
-At $15,200, before growth to 2030, administration and any deeper subsidy for the poorest renters (per-voucher costs follow the gap between tenant incomes and market rents [EV-HOU-187]):
-- 2A's million HOU-4A awards: on the order of $15 billion a year once fully phased in.
-- 2B: on the order of $88 billion a year if all 5.8 million unassisted extremely low-income households with severe problems took help, and about $117 billion if all 7.7 million unassisted ones did (12.0 million less 4.3 million) [EV-HOU-185] [EV-HOU-186]. HOU-4A and HOU-4D count toward it.
-- 2C: on the order of $209 billion a year at full take-up of 13.77 million households [EV-HOU-023].
+*What the legacy money buys.* At $15,200 growing 3% a year, a voucher-year costs about $17,100 in FY2030, $19,300 in FY2034 and $22,300 in FY2039, an average of about $19,600 over FY2030-39. Before administration and any deeper subsidy for the poorest renters (per-voucher costs follow the gap between tenant incomes and market rents [EV-HOU-187]):
+- HOU-4A: 250,000, 500,000 and 750,000 awards in 2030-32, then one million a year for 2033-39, is 8.5 million award-years, about $170 billion if every award were leased all year. The legacy working midpoint is $150 billion, which allows for lease-up (`legacy/domains/domain-housing.md`, HOU-4). At maturity it is about $22 billion a year in FY2039.
+- HOU-4D: $135 billion at about $19,600 is about 6.9 million award-years. On HOU-4A's schedule that is about 800,000 more awards ($135 billion against $170 billion for a million); started later, more.
+- 2B's stage 2: the extremely low-income families with children with severe problems number 1.717 million households [EV-HOU-186]. If HOU-4A's million reaches people without a home and about half a million of these families first, about 1.2 million remain. Phasing them in at 300,000 a year over 2034-37 is 5.4 million award-years through FY2039, about $114 billion at full take-up, inside HOU-4D's $135 billion; at maturity it is about $27 billion a year in FY2039. How many of HOU-4A's million go to families depends on how many households are homeless, a number the register does not yet hold (the point-in-time count is people, not households [EV-HOU-014]), so the split is this dossier's assumption.
+
+*The full guarantees*, at FY2030 costs (about $17,100):
+- 2C: about $99 billion a year if all 5.8 million unassisted extremely low-income households with severe problems took help, and about $132 billion if all 7.7 million unassisted ones did (12.0 million less 4.3 million) [EV-HOU-185] [EV-HOU-186]. That is three to four times as many households as the two legacy items reach at maturity, about 2 million. HOU-4A and HOU-4D count toward it.
+- 2D: about $236 billion a year at full take-up of 13.77 million households [EV-HOU-023].
+
 Take-up, rents and lease-up will move these numbers a great deal; section 6 prices them.
 
 **Evidence.**
@@ -131,7 +167,7 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 - *Delivery.* Lease-up is incomplete even now [EV-HOU-092]. An award is not a home.
 
 **Interactions.**
-- D4: every option is permanent spending, paid for from FY2040. The project's long-term model already shows the FY2040 test failing, by about $71.9 billion, after the October 24 adoption of the family credit and HOU-4A (legacy governing decisions, D4, "What the current long-term model shows"). 2B and 2C widen that gap and need new permanent revenue.
+- D4: every option is permanent spending, paid for from FY2040. The project's long-term model already shows the FY2040 test failing, by about $71.9 billion, after the October 24 adoption of the family credit and HOU-4A (legacy governing decisions, D4, "What the current long-term model shows"). 2B costs about what 2A does through FY2039, but its stage 2 is a right, so its cost can rise with take-up and rents where 2A's cannot; section 6 must test it. 2C and 2D widen the gap and need new permanent revenue.
 - D3: help at these incomes lands almost entirely in the bottom two income fifths (`legacy/domains/domain-housing.md`, D3), so it supports D3's first test. The revenue that pays for it must meet D3's second: mostly from the top 1% and corporations.
 - Fork 1 and fork 4: breadth without supply raises rents in tight markets.
 - Fork 8 sets the order; fork 6 catches households not yet reached.
@@ -139,13 +175,15 @@ Take-up, rents and lease-up will move these numbers a great deal; section 6 pric
 
 **Current law (ROAD to Housing Act).** No change. The Act adds no rental assistance and no voucher awards [EV-HOU-201] [EV-HOU-202]. Its one change to the income rules widens HUD-VASH eligibility for veterans with VA disability benefits [EV-HOU-233].
 
-**Recommendation: 2B, phased.** It is the group the October 26 direction names, where needs are deepest and where the evidence on vouchers is strongest. Phase it in by group (fork 8) and by market readiness (fork 1). Keep 2C as a later step, to be judged on what the phase-in shows about rents and lease-up. Payment rules, landlord rules and search help are resolved below; they apply under any option. Memo: `memos/2-how-broad.md`.
+**Keeping the legacy design (2A), weighed.** 2A's amounts and funding are sound: the arithmetic above shows they are about what the first two stages of a guarantee cost, and mandatory funding is what a lasting program needs [EV-HOU-187] [EV-HOU-188]. What 2A lacks is a defined group. Its second million awards have no named cohort, so they would go through the same waiting lists that ration help today, to about one in four eligible households [EV-HOU-011] [EV-HOU-012]. That is the "waiting-list luck" the October 26 direction asks to replace.
+
+**Recommendation: 2B.** Keep HOU-4A as filed, as stage 1, and keep HOU-4D's $135 billion and mandatory funding, but change what HOU-4D buys: a guarantee, from 2034, for extremely low-income families with children with severe problems, instead of a bounded count for an unnamed cohort. This changes HOU-4D's form, which is `chosen`; it keeps both legacy amounts. The evidence: needs are deepest among extremely low-income renters, 68.6% of all worst case needs [EV-HOU-185]; families with children are the group where the evidence on children's gains is strongest [EV-HOU-090], and long-term help sharply reduced homelessness for families [EV-HOU-086]; and on this dossier's arithmetic, the legacy money is enough to reach the whole group by 2037. Phase it in by group (fork 8) and by market readiness (fork 1). Keep 2C and 2D as later steps, judged on what the phase-in shows about rents and lease-up, because broad allowances abroad went largely into rents where supply could not respond [EV-HOU-156]. Payment rules, landlord rules and search help are resolved below; they apply under any option. Memo: `memos/2-how-broad.md`.
 
 ## Fork 3. Production tool
 
-**The question.** HOU-3C is chosen, and the October 26 direction asks for public and nonprofit supply with lasting affordability and a federal backstop. What should the rest of the production toolkit look like: the tax credits (HOU-2), public housing (HOU-5), the social housing pilot (HOU-8) and a federal builder (HOU-9)?
+**The question.** The October 26 direction asks for public and nonprofit supply with lasting affordability and a federal backstop. What should the production toolkit look like: the tax credits (HOU-2), the construction capital (HOU-3C, open under `DEC-2026-10-30-02`), public housing (HOU-5), the social housing pilot (HOU-8) and a federal builder (HOU-9)?
 
-HOU-3C, HOU-5 with HOU-5B and the HOU-8 pilot stay as chosen under every option. The fork has two parts, decided separately.
+HOU-5 with HOU-5B and the HOU-8 pilot stay as chosen under every option. The fork has three parts, decided separately; part 3, on HOU-3C, is new in this draft.
 
 **Options, part 1: tax credits and lasting affordability.**
 - **3.1A. As chosen (HOU-2A).** All three tax credit pieces: a further Low-Income Housing Tax Credit increase with a boost for extremely low-income units, a middle-income credit and a Neighborhood Homes credit. Affordability terms as under current law.
@@ -158,22 +196,32 @@ HOU-3C, HOU-5 with HOU-5B and the HOU-8 pilot stay as chosen under every option.
 - **HOU-9A, limited.** Authorize a federal builder in 2029-30 with a small pilot capitalization, building only on federal and acquired land in tight markets where state channels fall short.
 - **HOU-9A, full.** As above, scaling up in 2033-36.
 
+**Options, part 3: construction capital (HOU-3C).** The legacy design puts about $386 billion behind construction over 2030-39 (with the states' 20% match) and scores at about $75 billion, because only the loans' subsidy cost counts (`legacy/domains/domain-housing.md`, HOU-3; the loan subsidy rate is an estimate that needs CBO's figure).
+- **3.3A. Keep the legacy design (HOU-3C as chosen).** About $72 billion of grants to state revolving funds, ramped $3 billion in FY2030, $5 billion in FY2031, then $8 billion a year, with at least 30% of each year's grant forgivable for extremely low-income units; and $300 billion of federal direct loans through state agencies for mixed-income and social housing, public housing authorities' new development and nonprofit and tax-credit projects. *How the package fits:* loans for homes whose rents can repay them, grants for the deepest affordability.
+- **3.3B. Keep the channels and amounts; open both to buying and preserving existing buildings.** As 3.3A, but both channels may also finance public and nonprofit purchase of existing rental buildings, including tax-credit buildings leaving their rent limits and single-family homes, with part 1's permanent affordability attached. *How the package fits:* bought homes can be ready years before new ones, so fork 1's attached awards have homes from the early 2030s, and the October 26 direction's "acquisition" gets a funded channel.
+- **3.3C. More grants, fewer loans (toward HOU-3D).** For example, HOU-3D's even split: $125 billion of grants and $125 billion of loans, scored at about $140 billion (`legacy/domains/domain-housing.md`, HOU-3). *How the package fits:* more homes for the poorest without depending on attached awards, so it suits fork 1's 1A. It costs about $65 billion more in score, and $12.5 billion a year of grants is close to what the mature water revolving funds absorb, about $13 billion a year (legacy file, from CRS; not in the register), for states that mostly have no housing revolving fund yet.
+- **3.3D. Less building, more rental help.** Move part or all of the grant channel into rental awards. *How the package fits:* it shifts the balance from building to help. The trade is mostly in grants: $72 billion at about $19,600 a voucher-year is about 3.7 million award-years, roughly 370,000 households for a decade. The loans score at about $15 billion ($300 billion at the assumed 5% subsidy rate), so cutting them frees enough for only about 770,000 award-years, while removing $300 billion of lending. (This dossier's arithmetic; fork 2 gives the voucher-year cost.)
+
 **Evidence.**
 - *Tax credits partly replace building that would happen anyway.* Estimates of crowd-out range from little to nearly 100% [EV-HOU-112]. One subsidized unit adds a third to a half of a unit [EV-HOU-114]; one study's best estimate is that nearly all is offset [EV-HOU-115]. Crowd-out appears in gentrifying areas, not stable or declining ones [EV-HOU-116]. New building has aimed mostly at the high end [EV-HOU-066]. In this dossier's judgment, a credit for rentals at 60-100% of area median income would work mostly in markets where private building already happens, where crowd-out is greatest.
 - *Credits reach the poorest mainly with rental help attached* [EV-HOU-118], which supports the extremely low-income boost paired with fork 1's attached awards.
 - *Affordability expires.* About one-third of 2.5 million tax credit units are set to leave their rent limits by 2035, about 40% counting early exits [EV-HOU-119].
 - *Public housing is shrinking.* From about 1.3 million units in 1993 to just under 920,000 in 2023, with $30 billion-$70 billion of repairs needed against $2 billion-$3 billion a year of capital grants [EV-HOU-120]. Lessons from redevelopment: children who left distressed high-rises with vouchers did better as adults [EV-HOU-121], but HOPE VI returned few original residents [EV-HOU-122].
 - *Social housing works at a scale the U.S. lacks.* Social housing is 43% of Vienna's homes, with rents well below the city average [EV-HOU-163], against 2-10% of the stock in the U.S. [EV-HOU-161]. Its model depends on a large limited-profit sector and dedicated financing [EV-HOU-163] [EV-HOU-165]. Montgomery County's revolving fund is a projection without independent evaluation [EV-HOU-141]; it is not relied on.
-- *New state programs start slowly.* Only about 6% of the first round of pandemic rental aid was spent by May 2021, and more than $3.1 billion was moved from grantees who could not spend it [EV-HOU-150]. That is the risk a federal backstop answers. The legacy case for HOU-9 rests on a scenario model, not evidence (`legacy/domains/domain-housing.md`, HOU-9), so the evidence here does not settle 9A against 9B.
+- *New state programs start slowly.* Only about 6% of the first round of pandemic rental aid was spent by May 2021, and more than $3.1 billion was moved from grantees who could not spend it [EV-HOU-150]. That is the risk a federal backstop answers. The legacy case for HOU-9 rests on a scenario model, not evidence (`legacy/domains/domain-housing.md`, HOU-9), so the evidence here does not settle 9A against 9B. The same slow start bears on HOU-3C's grant ramp: a grant channel that starts at $3 billion while states build their funds is consistent with it; a larger one (3.3C) is not.
+- *Grants or loans: deep affordability needs either grants or rental help.* Tax-credit buildings reach extremely low-income renters mostly when rental help is attached [EV-HOU-118]. A loan has to be repaid from rents, and the poorest renters' rents cannot carry debt; their gap is income against any market rent [EV-HOU-070] [EV-HOU-071]. So a loan-heavy channel (3.3A, 3.3B) serves them only with attached awards (fork 1) or the forgivable share; a grant-heavy one (3.3C) does it without. This is reasoning from the evidence; the register has no study comparing the two financing forms.
+- *Help or building: the trade.* Tenant subsidies are typically more cost-effective [EV-HOU-112] [EV-HOU-114], and subsidized building partly displaces other building [EV-HOU-114] [EV-HOU-115], which favors 3.3D. Against it: there are only 38 affordable and available homes for every 100 extremely low-income renter households [EV-HOU-024], vouchers go unused where homes are scarce [EV-HOU-092], and in supply-constrained metros homes filter up rather than down [EV-HOU-179]. Crowd-out appears in gentrifying areas, not stable or declining ones [EV-HOU-116], so building aimed at tight markets and the poorest renters displaces least.
+- *Preservation.* About a third of 2.5 million tax-credit homes are set to leave their rent limits by 2035, about 40% counting early exits [EV-HOU-119]. Buying them keeps homes that already exist; the register holds no evidence on what acquisition costs or achieves (see "Evidence gaps").
 
 **Interactions.**
-- Fork 1: attached awards are what let HOU-3, HOU-8 and HOU-9 homes serve extremely low-income renters.
+- Fork 1: attached awards are what let HOU-3, HOU-8 and HOU-9 homes serve extremely low-income renters. Part 3's choice and fork 1's go together: 3.3A or 3.3B with 1B; 3.3C with 1A.
+- Fork 2: 3.3D would buy roughly 370,000 more households a decade of help; it would not change the guarantee's stages unless it moved the grant channel entirely.
 - Fork 4: a federal builder on federal land sidesteps local permitting there; zoning reform is needed everywhere else.
 - Fork 7: every production tool depends on construction workers.
 - D3: the middle-income credit is the one housing item that reaches the third and fourth income fifths (`legacy/domains/domain-housing.md`, D3). D3 is still unresolved for the fourth fifth, which nets a loss in one model measure (`charter/PROGRESS.md`, PR #45). Dropping the credit removes a benefit that reaches that group, so the incidence model must check it; it also removes a permanent tax expenditure.
 - D4: tax credits are permanent and paid for at maturity. HOU-3's grants and HOU-5's repair borrow inside the envelope (C21, C31). Direct loans score at their subsidy cost. A federal builder's capital would be lent; its operating and equity costs are the real claim.
 
-**Evidence gaps.** The register holds no independent evaluation of a U.S. public development corporation (Montgomery County's fund is uncorroborated [EV-HOU-141]) and no evidence on acquisition. A builder's cost includes development, staff and the risk that projects do not repay; section 6 must price it.
+**Evidence gaps.** The register holds no independent evaluation of a U.S. public development corporation (Montgomery County's fund is uncorroborated [EV-HOU-141]) and no evidence on acquisition. A builder's cost includes development, staff and the risk that projects do not repay; section 6 must price it. HOU-3C's amounts rest on the legacy file's benchmarks (the water revolving funds, from CRS) and an assumed 2-10% loan subsidy rate, not on register entries; the register also has no figure for what a new affordable home costs to build, so this section does not convert the capital into a count of homes.
 
 **Current law (ROAD to Housing Act).** The options stand; the baseline they build on changes.
 - *No new construction money, no tax-credit change.* The Act appropriates nothing [EV-HOU-201] [EV-HOU-202] and does not amend the Low-Income Housing Tax Credit. HOU-2, HOU-3C, HOU-8 and HOU-9 duplicate nothing in it.
@@ -185,8 +233,9 @@ HOU-3C, HOU-5 with HOU-5B and the HOU-8 pilot stay as chosen under every option.
 - *Land and acquisition.* CDBG grantees must publish databases of the undeveloped land they own [EV-HOU-214], a ready list of local public land for HOU-8 or HOU-9 projects. The investor limit binds only for-profit entities and excludes governments [EV-HOU-222], so public and nonprofit acquisition of single-family homes, named in the October 26 direction, is not limited by it.
 
 **Recommendation.**
-- **Part 1: 3.1B.** This would change HOU-2A, which is `chosen`. The evidence favors deep, lasting affordability over broad credits: crowd-out is large where the market already builds, and expiring rent limits are a documented loss. With the Act in force, 3.1B's middle-income credit is deferred, not dropped: the dossier revisits it when GAO's workforce-housing study arrives in July 2027 [EV-HOU-242].
-- **Part 2: HOU-9A, limited.** This rests on Espen's October 26 direction ("a lawful federal sponsor/backstop where state participation fails") and on the slow start of new state programs [EV-HOU-150], not on evidence that a federal builder works; that evidence is thin. A small builder authorized now means the backstop exists before it is needed. HOU-9B is the cheaper fallback if Espen prefers to wait for the pilot.
+- **Part 1: 3.1B.** This would change HOU-2A, which is `chosen`. The evidence favors deep, lasting affordability over broad credits: crowd-out is large where the market already builds, and expiring rent limits are a documented loss. With the Act in force, 3.1B's middle-income credit is deferred, not dropped: the dossier revisits it when GAO's workforce-housing study arrives in July 2027 [EV-HOU-242], as preparation before the plan's 2029 start.
+- **Part 2: HOU-9A, limited.** This rests on Espen's October 26 direction ("a lawful federal sponsor/backstop where state participation fails") and on the slow start of new state programs [EV-HOU-150], not on evidence that a federal builder works; that evidence is thin. A small builder authorized in 2029 means the backstop exists before it is needed. HOU-9B is the cheaper fallback if Espen prefers to wait for the pilot.
+- **Part 3: 3.3B.** Keep HOU-3C's two channels, amounts and ramp, and open both to public and nonprofit purchase and preservation of existing buildings. This keeps HOU-3C's form and funding level and changes only its eligible uses. Why keep the amounts and the loan-heavy split: with fork 1's attached awards, loans can finance homes for the poorest renters, as tax-credit buildings do when rental help is attached [EV-HOU-118]; the grant ramp matches how slowly new state programs start [EV-HOU-150]; and moving the grants into rental help (3.3D) would buy relatively little, about 370,000 households for a decade, while giving up homes in the markets where vouchers fail [EV-HOU-092] [EV-HOU-024]. Why add acquisition: the October 26 direction names it, expiring tax-credit homes are a measured loss [EV-HOU-119], and bought homes give attached awards somewhere to go before new building is finished. The acquisition part rests on the direction and judgment; the register has no evidence on acquisition yet. If Espen prefers 1A in fork 1, 3.3C becomes the better fit, at about $65 billion more in score.
 
 Memo: `memos/3-production.md`.
 
@@ -231,7 +280,7 @@ So the Act already pays for growth rather than ordinances, which is what option 
 
 ## Fork 5. Homelessness approach
 
-**The question.** Housing First keeps people housed, but a July 2025 executive order directs agencies away from it [EV-HOU-107]. What should the plan propose, especially for people with active addiction, where evidence is thin?
+**The question.** Housing First keeps people housed, but a July 2025 executive order of the second Trump administration directs agencies away from it [EV-HOU-107]. The order stays in force unless a later president revokes it, so it is part of the 2029 baseline. What should the plan propose, especially for people with active addiction, where evidence is thin?
 
 **Options.**
 - **5A. Housing First as the federal default.** Housing without preconditions; services offered, not required. Reverse the 2025 order's conditions.
@@ -240,7 +289,7 @@ So the Act already pays for growth rather than ordinances, which is what option 
 
 **Evidence.**
 - *Housing.* In Canada's trial, Housing First participants were stably housed 71% of the time against 29% [EV-HOU-099]. A meta-analysis found people 2.46 times as likely to be housed [EV-HOU-100]; a CDC review found homelessness down 88% against treatment-first programs [EV-HOU-101]. In a New York trial, substance use was no worse than in the treatment-first group [EV-HOU-098].
-- *Health and addiction.* Effects on substance use are unclear [EV-HOU-100]; mortality did not differ [EV-HOU-103]. Data on people with active, severe addiction are limited [EV-HOU-105]. The order says Housing First fails to promote treatment and recovery [EV-HOU-173]; on those outcomes the trials are consistent with its doubts, and on housing they are not.
+- *Health and addiction.* Effects on substance use are unclear [EV-HOU-100]; mortality did not differ [EV-HOU-103]. Data on people with active, severe addiction are limited [EV-HOU-105]. The order says Housing First fails to promote treatment and recovery [EV-HOU-173], the second Trump administration's view rather than research; on those outcomes the trials are consistent with its doubts, and on housing they are not.
 - *Cost.* In U.S. studies median benefits exceeded median costs, $18,247 against $16,479 per person a year [EV-HOU-102].
 - *At community level.* Associations are smaller: roughly 3% less chronic homelessness per added supportive unit per 10,000 adults [EV-HOU-175], one fewer homeless veteran per added veterans' voucher [EV-HOU-176], and an association that faded after the first year in another study [EV-HOU-083]. A critic argues Housing First has not been shown to end homelessness community-wide [EV-HOU-106].
 - *Scale of need.* Chronic homelessness among individuals reached 155,750 in 2025, the highest recorded [EV-HOU-016].
@@ -306,7 +355,9 @@ So the Act already pays for growth rather than ordinances, which is what option 
 
 ## Fork 8. Who is reached first
 
-**The question.** Section 1's question: who must the guarantee reach first, renters at risk of losing their homes or everyone over the burden line? With HOU-4A phasing in 250,000 awards a year, the order decides who waits.
+**The question.** Section 1's question: who must the guarantee reach first, renters at risk of losing their homes or everyone over the burden line? With HOU-4A open (`DEC-2026-10-30-02`), the question also covers its pace. Under fork 2's recommendation, the order also decides which group HOU-4D's stage of the guarantee covers.
+
+**Pace.** Keep HOU-4A's 250,000 awards a year over 2030-33, under every option here. A faster start would front-load help for people without a home, but lease-up is already incomplete [EV-HOU-092], and awards that cannot be used help no one; fork 2 gives the reasoning. At that pace the order decides who waits.
 
 **Options.**
 - **8A. People without a home first.** Families and individuals who are homeless, then extremely low-income renters with the most severe needs.
@@ -336,7 +387,7 @@ So the Act already pays for growth rather than ordinances, which is what option 
 
 **Current law (ROAD to Housing Act).** No change. The Act sets no priorities for vouchers. It makes veterans with VA disability benefits easier to qualify for HUD-VASH vouchers [EV-HOU-233], which helps reach homeless veterans under 8A.
 
-**Recommendation: a combination of 8A and 8B.** People without a home first, families with children among them first. Then extremely low-income families with children with severe needs. Then other extremely low-income households with severe needs, including older and disabled renters. Renters at imminent risk are served by fork 6's fund, not the guarantee's queue. If Espen keeps a one-time package instead (6A or 6B), there is no standing route for them after 2031 beyond local programs; the order should then reserve a small share of awards for households at imminent risk. Memo: `memos/8-who-first.md`.
+**Recommendation: a combination of 8A and 8B.** People without a home first, families with children among them first. Then extremely low-income families with children with severe needs. Then other extremely low-income households with severe needs, including older and disabled renters. Under fork 2's recommendation, HOU-4D's money is the second step: the guarantee for the remaining extremely low-income families with children from 2034. Renters at imminent risk are served by fork 6's fund, not the guarantee's queue. If Espen keeps a one-time package instead (6A or 6B), there is no standing route for them after 2031 beyond local programs; the order should then reserve a small share of awards for households at imminent risk. Memo: `memos/8-who-first.md`.
 
 ## Recommended without a memo
 
@@ -349,7 +400,7 @@ Espen decides each item, yes or no. Sources are named in plain text, with the re
    - *Consequence:* it is a federal rule on private landlords, so it needs a regular bill under the Senate rules change, not reconciliation, and landlord groups will oppose it. That is judgment, not evidence from the register. The alternative is to reward states that adopt such laws through HOU-6.
    - *Is refusing vouchers already illegal?* Not under federal law in general. Source of income is not a protected class under the Fair Housing Act. A few federal rules bar refusals only in certain properties, such as some HOME, tax-credit and HUD-sold buildings (HUD Inspector General, 2025) [EV-HOU-246]. The ROAD to Housing Act adds no protection. It lets housing agencies inspect a new landlord's unit in advance (ROAD to Housing Act, 2026) [EV-HOU-232], which lowers one cost of joining the program but does not stop refusals.
    - *State and local laws fill part of the gap.* As of January 2025, 23 states and the District of Columbia barred source-of-income discrimination statewide, 16 of them naming vouchers explicitly; 152 cities and counties in 27 states had their own ordinances (HUD Inspector General, 2025) [EV-HOU-247]. So in much of the country, refusal is still legal. How many voucher holders those laws cover is not yet in the register.
-3. **Search help.** Fund search help, landlord outreach and short-term costs such as deposits with every new award.
+3. **Search help.** Fund search help, landlord outreach and short-term costs such as deposits with every new tenant-based award, and for tenants in attached homes who move on with a voucher (fork 1).
    - In Seattle and King County they raised moves to high-opportunity areas from 15% to 53% (Bergman and others, 2024) [EV-HOU-091].
    - Emergency Housing Vouchers carried extra fees for services and landlord incentives (Congressional Research Service, voucher program overview, 2023) [EV-HOU-188].
    - Current law now requires housing agencies to give new voucher holders a list of pre-inspected units (ROAD to Housing Act, 2026) [EV-HOU-232]; search help starts from that list. The Act has no other provision on voucher mobility or search help. Its new Moving to Work cohort may not waive portability, the right to move a voucher to another area (Congressional Research Service, 2026) [EV-HOU-234].
@@ -360,7 +411,7 @@ Espen decides each item, yes or no. Sources are named in plain text, with the re
    - *Consequence:* no national right to a lawyer in eviction court. The alternative is a federal mandate with funding, which the evidence does not yet support.
 5. **Delivery rules for emergency aid.** Let tenants self-attest income and hardship, verify with neighborhood data where possible, accept applications started by landlords, and measure improper payments from the first year.
    - Spending doubled in the month after Treasury allowed self-attestation (Congressional Research Service, Emergency Rental Assistance report, 2023) [EV-HOU-150].
-   - Neighborhood-data verification and landlord applications were associated with more success (UC Berkeley and University of Pennsylvania researchers for HUD, 2026) [EV-HOU-152]. That evaluation is contested on overall effects (Collinson and others, National Bureau of Economic Research, 2025) [EV-HOU-153].
+   - Neighborhood-data verification and landlord applications were associated with more success (UC Berkeley and University of Pennsylvania researchers under contract to HUD, published in 2026 under the second Trump administration) [EV-HOU-152]. That evaluation is contested on overall effects (Collinson and others, National Bureau of Economic Research, 2025) [EV-HOU-153]. Because no independent study yet supports those two rules, and the evaluation was published under the second Trump administration, they rest on that one evaluation and judgment; self-attestation rests on the Congressional Research Service's account [EV-HOU-150].
    - Improper payments went unmeasured (Treasury Inspector General, 2024 and 2025) [EV-HOU-154] [EV-HOU-182].
 6. **Public housing redevelopment.** Repair sound buildings first. Where buildings are redeveloped, replace every unit and guarantee residents the right to return, with a tenant-based voucher as their alternative.
    - HOPE VI redevelopment returned few original residents (Popkin and others, Urban Institute, 2004) [EV-HOU-122].
@@ -383,23 +434,29 @@ Espen decides each item, yes or no. Sources are named in plain text, with the re
 ## How the choices fit together
 
 Taken together, the recommendations make one design:
-- **A guarantee for the lowest-income renters**, built on HOU-4A and HOU-4D and phased in by group (forks 2 and 8): people without a home first, then families with children, then other renters with severe needs.
-- **Delivered to fit the market** (fork 1): vouchers with neighborhood payment limits, source-of-income protection and search help where homes are available; awards attached to new and acquired homes where they are not.
-- **Backed by lasting supply** (forks 3 and 4): public and nonprofit lending through HOU-3C, permanent affordability, public housing repair with a right to return, a narrower tax credit, zoning rewards paid for homes built through the ROAD to Housing Act's Innovation Fund, funded and opened to states, and a small federal builder for places where state channels fail.
-- **On top of current law.** The ROAD to Housing Act is the baseline: its reward fund, its CDBG reallocation, its investor limit and its program changes stay, and this plan adds the money and the pieces it lacks (`road-act.md`).
-- **Before section 4.** Each piece waits on Espen's decision on its memo or list item.
+- **A guarantee for the lowest-income renters, staged within the legacy money** (forks 2 and 8). HOU-4A's million awards over 2030-33 reach people without a home first, then the first families with children; HOU-4D's $135 billion then guarantees help, from 2034, to the rest of the extremely low-income families with children with severe problems. Later groups follow as the budget model finds the money.
+- **Delivered to fit the market** (fork 1): vouchers with neighborhood payment limits, source-of-income protection and search help where homes are available; awards attached to new and acquired homes where they are not, HOU-4A's later cohorts included.
+- **Backed by lasting supply** (forks 3 and 4): HOU-3C's state grants and federal loans at their legacy amounts, opened to buying and preserving existing buildings; permanent affordability; public housing repair with a right to return; a narrower tax credit; zoning rewards paid for homes built through the ROAD to Housing Act's Innovation Fund, funded and opened to states; and a small federal builder for places where state channels fail.
 - **Caught early** (fork 6): a standing emergency-rent fund for renters at risk, with tested delivery rules.
 - **Housing First for homelessness** (fork 5), with a recovery option people can choose.
+- **On top of current law in 2029.** The ROAD to Housing Act is the baseline: its reward fund, its CDBG reallocation, its investor limit and its program changes stay, and this plan adds the money and the pieces it lacks (`road-act.md`).
+- **Before section 4.** Each piece waits on Espen's decision on its memo or list item.
+
+**What reopening the legacy items changed.** Weighed as options, the legacy amounts held up: HOU-4A's count, pace and mandatory funding, HOU-4D's $135 billion and HOU-3C's channels and amounts are each recommended as they stand. What changes is how they connect:
+- *A guarantee in place of a fixed count* (fork 2). The same money, aimed at named groups, makes help a right for those groups by about 2037 instead of a second million awards handed out through waiting lists.
+- *Attached awards and loans as one tool* (forks 1 and 3). Attached awards supply the rent that lets HOU-3C's loan-financed homes serve the poorest renters; that is why the loan-heavy split works. If Espen keeps vouchers everywhere (1A), the better fit is more grants (3.3C).
+- *Acquisition as the bridge in time* (fork 3, part 3). Bought buildings give attached awards homes before new building is finished.
+- *The balance between help and building.* About $285 billion of rental help over FY2030-39 (HOU-4A's $150 billion working midpoint and HOU-4D's $135 billion) against about $75 billion of scored construction capital that puts about $386 billion to work. Moving the grant channel into help would buy about 370,000 households a decade of help; this dossier does not recommend it, because the markets where vouchers fail are the ones that need the homes.
 
 **Fairness and fiscal tests (OUT-11).**
 
 | Item | D4 class | D3 reach |
 | --- | --- | --- |
-| HOU-4A, HOU-4D and the guarantee (forks 2, 8) | Permanent: paid for from FY2040 | Bottom two income fifths |
+| HOU-4A, HOU-4D and the guarantee (forks 2, 8) | Permanent: paid for from FY2040. Under fork 2's recommendation, HOU-4D's stage is a right, so its cost follows take-up | Bottom two income fifths |
 | Standing emergency-rent fund (fork 6, if chosen) | Permanent: paid for from FY2040 | Bottom two income fifths |
 | One-time emergency aid (HOU-1) | One-time: no FY2040 claim; counts in the ten-year total | Bottom two income fifths |
 | Tax credits (HOU-2) | Permanent tax expenditure: paid for from FY2040 | Mostly low incomes; the middle-income credit reaches the third and fourth fifths |
-| HOU-3 grants, HOU-5 repair | Time-limited capital: borrowed inside the envelope (C21, C31) | Low incomes |
+| HOU-3 grants, HOU-5 repair | Time-limited capital: borrowed inside the envelope (C21, C31). Acquisition under fork 3, part 3 stays inside the same amounts | Low incomes |
 | HOU-3 loans, HOU-9 lending | Scored at subsidy cost; operating and equity costs are the claim | Low and middle incomes |
 
 The project's long-term model already fails the FY2040 test after the October 24 adoptions (legacy governing decisions, D4). The guarantee is the largest permanent claim in this dossier, so its phase-in and its financing must be decided together; section 6 does that with the budget model.
@@ -408,8 +465,7 @@ The project's long-term model already fails the FY2040 test after the October 24
 
 ## Housekeeping
 
-- **HOU-4D is not in `agenda/agenda.csv`.** It was adopted as a working allocation on October 26 (legacy governing decisions) but the agenda extraction did not give it a row. The next charter PR should add it, along with any new options Espen chooses here (such as fork 6's standing fund).
-- **Agenda status words.** HOU-3C is `chosen` in the agenda although the legacy file records it as Espen's choice. This section treats it as settled.
+- **HOU-4A, HOU-4D and HOU-3C in the agenda.** PR #73 (`DEC-2026-10-30-02`) moves HOU-4A from `decided` to `chosen`, adds HOU-4D as `chosen`, and notes that HOU-3C stays `chosen` as a working choice. This section reads them that way. If Espen decides fork 2 as recommended, the next charter PR should rename HOU-4D to say what it buys ("Guarantee for extremely low-income families with children, from 2034, within $135B FY2030-39"); if Espen decides fork 3, part 3 as recommended, HOU-3C's name gains "including acquisition and preservation". New options Espen chooses here (such as fork 6's standing fund) get rows in the same PR.
 - **HOU-7 and HOU-7B.** Both rows exist in `agenda/agenda.csv` and both are `chosen`, though they are alternatives; HOU-7B's name ("Investor limit permanent / leave ROAD as enacted") is the old register's label for the pair. After Espen answers point 8, the next charter PR should name HOU-7B "Leave the ROAD to Housing Act's investor limit as enacted" and mark only the chosen one. Agenda edits are tier 3, so this section makes none.
 - **HOU-6's name and design.** If Espen chooses fork 4's revised 4B, HOU-6 becomes "Fund and extend the ROAD to Housing Act's Innovation Fund; transportation condition", and its CDBG condition is dropped. The same charter PR records it.
 
@@ -420,7 +476,10 @@ The project's long-term model already fails the FY2040 test after the October 24
 | Evaluations of recovery housing and treatment-linked housing for people with active addiction | National Academies of Sciences, Engineering, and Medicine, *Permanent Supportive Housing* (2018); recovery-housing studies | Not yet read; fork 5 rests on the trials without it |
 | Voucher costs per household by income group and market, current year | HUD budget justifications; CBO | Fork 2 uses the FY2023 account average as a rough guide |
 | Lease-up and rent effects of project-based vouchers | HUD research; academic studies | Needed for fork 1's share of attached awards |
-| Acquisition of existing buildings by public and nonprofit owners: cost and outcomes | Academic and agency evaluations | The October 26 direction names acquisition; no evidence in the register yet |
+| Acquisition of existing buildings by public and nonprofit owners: cost and outcomes | Academic and agency evaluations | The October 26 direction names acquisition, and fork 3, part 3 now recommends funding it; no evidence in the register yet |
+| Homeless households (not people), on a night and over a year | HUD's homelessness reports, households tables | Fork 2's split of HOU-4A between people without a home and families is an assumption without it |
+| Development cost per affordable home, new and acquired | Tax-credit cost studies; GAO; state housing finance agencies | Needed to turn HOU-3C's capital into a count of homes (fork 3, part 3) |
+| Loan subsidy rate for a federal housing construction loan program | CBO credit-subsidy estimate | HOU-3C's $75 billion score assumes 2-10% (legacy estimate) |
 | Evidence on public development corporations in the U.S. | Independent evaluations | Montgomery County's fund is uncorroborated [EV-HOU-141] |
 | Share of voucher holders covered by state and local source-of-income laws | A current count by voucher holder, from HUD data matched to the Inspector General's list [EV-HOU-247] | Point 2 gives only the number of laws |
 | Fair-housing law on residency preferences in a new federal program | Fair Housing Act case law; HUD guidance | Section 4 |
@@ -433,10 +492,12 @@ The project's long-term model already fails the FY2040 test after the October 24
 Seven decision memos, one per fork, in `memos/`:
 1. `memos/1-help-or-homes.md`: how to place new rental help in tight and loose markets.
 2. `memos/2-how-broad.md`: how broad the rental guarantee should be.
-3. `memos/3-production.md`: two parts: tax credits and lasting affordability; the federal builder of last resort.
+3. `memos/3-production.md`: three parts: tax credits and lasting affordability; the federal builder of last resort; the construction capital (HOU-3C).
 4. `memos/4-zoning.md`: what the zoning fund pays for.
 5. `memos/5-homelessness.md`: Housing First and a recovery option.
 6. `memos/6-prevention.md`: a standing emergency-rent fund or a one-time package.
 7. `memos/8-who-first.md`: who the guarantee reaches first.
+
+Memos 1, 2, 3 and 8 now weigh the legacy rental-help and construction designs (HOU-4A, HOU-4D, HOU-3C) as options (`DEC-2026-10-30-02`). Memo 2 recommends changing what HOU-4D buys; memo 1 recommends attaching part of HOU-4A's later cohorts in tight markets; memo 3 recommends keeping HOU-3C's amounts and adding acquisition.
 
 Also a yes or no on fork 7 and on each of the eight points under "Recommended without a memo". On point 8 the recommendation has changed: leave the Act's investor limit as enacted (HOU-7B) rather than remove its 2042 sunset now (HOU-7, as chosen).

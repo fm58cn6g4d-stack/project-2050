@@ -30,12 +30,14 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | C. First dossiers | 3. Housing section 2, what works | Most capable | Done: `dossiers/home/2-what-works.md`, EV-HOU-050 to 184, and EV-HOU-190 and 191 from HUD's *Picture of Subsidized Households* 2023 (Espen's upload); causes, programs and experience abroad | Claude Code (session_01UQzgBwQoJg2sZm4YbUgNaQ) | PR #58, merged; follow-up PR open |
 | C. First dossiers | 4. Housing section 3, design choices, with decision memos for Espen | Most capable | In review: `dossiers/home/3-design.md` with seven memos in `dossiers/home/memos/`, EV-HOU-185 to 189. Waits on Espen's decisions before section 4 | Claude Code (session_01UQzgBuhoTGv4SfXLxQf4ZT) | Branch `claude/stage-c-housing-4` |
 | C. First dossiers | 4r. Housing: rebaseline section 3 and the memos on the ROAD to Housing Act (Public Law 119-101): provision map, evidence, fork-by-fork changes | Most capable | In review: `dossiers/home/road-act.md`; EV-HOU-200 to 251 from the enacted text and a HUD Inspector General audit (grade A) and CRS R49354, R48732, R48849 (grade C); smaller choice 2 now answers whether voucher refusal is already illegal; fork 4 options and recommendation revised (memo 4); HOU-7 becomes a yes-or-no (point 8, HOU-7B recommended); other forks wording only; shared-rules notes on 1437a | Claude Code (session_01UQzgBtDfz7sX8TE79NK7t2) | Branch `claude/road-act-baseline` |
+| C. First dossiers | 4b. Housing: refresh section 3 and the memos under `DEC-2026-10-30-02` (HOU-4A, HOU-4D, HOU-3C as working choices, weighed as options); 2029 baseline; administration named on executive-branch evidence | Most capable | In review: forks 1, 2, 3 (new part 3, HOU-3C) and 8 re-run with "keep the legacy design" as an explicit option; memos 1, 2, 3, 8 rewritten; context notes in `evidence.json` | Claude Code (session_01UQzgBu67MWo6dPaJU4jBTk) | Branch `claude/housing-design-refresh` |
 | C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (with Codex on the budget model) | Most capable | Later: starts once Espen decides the section 3 memos | Claude Code, Codex | — |
 | C. First dossiers | 6. Housing sections 7-9; L2/L3 milestone review | Most capable | Later | Claude Code; reviewer | — |
 | C. First dossiers | 7. Transportation converted as the reference dossier; template fixes | Standard to convert; Most capable for gaps | Later | Claude Code | — |
 
 ## Open PRs
 
+- Stage C step 4b: housing section 3 refresh under `DEC-2026-10-30-02` (`claude/housing-design-refresh`).
 - Stage C step 4r: ROAD to Housing Act baseline for housing section 3 and the memos (`claude/road-act-baseline`).
 
 - Stage C step 4: housing section 3, design choices (`claude/stage-c-housing-4`).
