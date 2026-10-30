@@ -13,7 +13,7 @@ Role: verifies every link between project records (`charter/PLAN.md`, section 4)
 | `dossiers/*/provisions.json` | `HOU-4A.01`-style IDs whose parent is in the agenda, citing known evidence |
 | Text in `charter/`, `dossiers/`, `public/`, `agenda/`, `models/` | Every cited `SRC-`, `EV-`, `OUT-` and `DEC-` ID resolves |
 
-In Markdown, an ID written in code formatting is a format example and is not checked. A plain ID is a citation and must resolve.
+In Markdown, an ID in a fenced code block is a format example and is not checked. Any other ID, plain or in inline code, is a citation and must resolve; placeholders such as `DEC-YYYY-MM-DD-NN` never match an ID pattern.
 
 The figure and rounding rules live in `claims.py`. The public story builder uses the same module, so essays and evidence registers follow one rule set.
 

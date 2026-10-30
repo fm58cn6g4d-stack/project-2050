@@ -138,13 +138,15 @@ class RegistryTests(unittest.TestCase):
 
     def test_provisions_and_references_resolve(self):
         root, _ = self.tree(provisions=[{'id': 'HOU-9.01', 'evidence': ['EV-HOU-404']}],
-                            charter_extra='Cites OUT-07 and SRC-0099; `OUT-01` is only a format example.\n')
+                            charter_extra='Cites OUT-07 and SRC-0099, and `DEC-2026-10-31-09` in code.\n'
+                                          '```\nOUT-01 is only a format example.\n```\n')
         text = ' '.join(self.run_on(root)[0])
         self.assertIn('HOU-9 is not in agenda/agenda.csv', text)
         self.assertIn('unknown evidence EV-HOU-404', text)
         self.assertIn('OUT-07 does not resolve', text)
         self.assertIn('SRC-0099 does not resolve', text)
-        self.assertNotIn('OUT-01', text)
+        self.assertIn('DEC-2026-10-31-09 does not resolve', text)  # inline code is a citation too
+        self.assertNotIn('OUT-01', text)  # a fenced block is a format example
 
     def test_duplicate_ids(self):
         root, e = self.tree(charter_extra='| DEC-2026-10-28-01 | again |\n')

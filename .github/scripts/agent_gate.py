@@ -698,6 +698,26 @@ MERGE_DELAYS = (3, 6, 12)
 FOOTER_BOT = "---\n_Posted by the Project 2050 agent gate (`.github/scripts/agent_gate.py`)._"
 
 
+def tests_passed(gh, sha, delays=None):
+    """Whether the latest rebuild-and-tests check run on `sha` succeeded. A missing or unfinished run is asked
+    again a few times: on PR #75 a label run read "not passed" two minutes after the run had succeeded, and
+    nothing re-ran the gate. A completed run that did not succeed is final. Logs what it saw each time."""
+    for wait in (*(TEST_DELAYS if delays is None else delays), None):
+        runs = gh.call("GET", f"/commits/{sha}/check-runs?check_name=rebuild-and-tests")["check_runs"]
+        runs.sort(key=lambda r: r.get("started_at") or "")
+        last = runs[-1] if runs else {}
+        print(f"rebuild-and-tests on {sha[:7]}: {len(runs)} run(s); latest status={last.get('status')} "
+              f"conclusion={last.get('conclusion')}")
+        if last.get("conclusion") == "success":
+            return True
+        if last.get("status") == "completed" or wait is None:
+            return False
+        time.sleep(wait)
+
+
+TEST_DELAYS = (5, 10, 20)
+
+
 def merge_ready(gh, pr, labels, tier_state, rev_ok, cls, base_now, policy):
     if os.environ.get("AGENT_AUTOMERGE", "").lower() != "on":
         return False, "automatic merging is off (repository variable AGENT_AUTOMERGE is not 'on')"
@@ -709,9 +729,7 @@ def merge_ready(gh, pr, labels, tier_state, rev_ok, cls, base_now, policy):
         return False, "tier gate not passed"
     if not rev_ok:
         return False, "agent review not passed"
-    runs = gh.call("GET", f"/commits/{pr['head']['sha']}/check-runs?check_name=rebuild-and-tests")["check_runs"]
-    runs.sort(key=lambda r: r.get("started_at") or "")
-    if not runs or runs[-1].get("conclusion") != "success":
+    if not tests_passed(gh, pr["head"]["sha"]):
         return False, "rebuild-and-tests has not passed on this head"
     if cls.get("tested_base") and cls["tested_base"] != base_now:
         return False, (f"out of date: main moved since the checks ran (tested against {cls['tested_base'][:7]}, main is "
