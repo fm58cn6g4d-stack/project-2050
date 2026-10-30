@@ -14,7 +14,7 @@ Role: `agenda.csv` lists every policy and option ID, one row each. Status: seede
 
 **Status.**
 - `decided`: Espen decided this item individually (the options register or the decision record says so), or it is a component of a decided package.
-- `chosen`: part of a legacy domain file's chosen design. Espen accepted those files as canonical batches, not item by item.
+- `chosen`: part of a legacy domain file's chosen design, which Espen accepted as canonical batches, not item by item; or an item Espen decided individually and later reopened as a working choice by a `DEC-` entry.
   A `chosen` item is a working starting point, not a settled decision: a dossier's design section may recommend changing its form, scale or funding, and Espen decides in a memo (`DEC-2026-10-30-02`).
 - `option`: filed, not chosen; would need a decision.
 - `alternative`: a lettered variant whose sibling was chosen.
