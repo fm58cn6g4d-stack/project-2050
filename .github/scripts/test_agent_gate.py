@@ -395,6 +395,14 @@ class TestsPassed(unittest.TestCase):
         self.assertFalse(g.tests_passed(gh, "a" * 40, delays=(0, 0)))
         self.assertEqual(len(calls), 3)
 
+    def test_queued_rerun_is_latest(self):
+        # A re-run still queued has no started_at; it must not sort below the older finished run.
+        gh, calls = self.gh([[{"id": 2, "status": "queued", "conclusion": None, "created_at": "2026-10-30T18:00:00Z"},
+                              {"id": 1, "status": "completed", "conclusion": "failure",
+                               "started_at": "2026-10-30T17:50:00Z"}]])
+        self.assertFalse(g.tests_passed(gh, "a" * 40, delays=(0,)))
+        self.assertEqual(len(calls), 2)  # queued: asked again, not judged on the older run
+
     def test_latest_run_wins(self):
         gh, _ = self.gh([[{"status": "completed", "conclusion": "success", "started_at": "t2"},
                           {"status": "completed", "conclusion": "failure", "started_at": "t1"}]])

@@ -704,7 +704,9 @@ def tests_passed(gh, sha, delays=None):
     nothing re-ran the gate. A completed run that did not succeed is final. Logs what it saw each time."""
     for wait in (*(TEST_DELAYS if delays is None else delays), None):
         runs = gh.call("GET", f"/commits/{sha}/check-runs?check_name=rebuild-and-tests")["check_runs"]
-        runs.sort(key=lambda r: r.get("started_at") or "")
+        # Newest last. A queued run has no started_at yet, so fall back to created_at, then to the run's id
+        # (which increases with each run), so a newer run never sorts as the oldest.
+        runs.sort(key=lambda r: (r.get("started_at") or r.get("created_at") or "", r.get("id") or 0))
         last = runs[-1] if runs else {}
         print(f"rebuild-and-tests on {sha[:7]}: {len(runs)} run(s); latest status={last.get('status')} "
               f"conclusion={last.get('conclusion')}")
