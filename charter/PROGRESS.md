@@ -71,7 +71,6 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - **Front-door edition.** `public/site/index.html` is pinned to an older evidence commit and is rebuilt in stage H.
 
 - **Standards wording.** The data-versus-analysis and corroboration rule Espen asked for on October 28 is in `dossiers/TEMPLATE.md` and the checker. It also belongs in `charter/STANDARDS.md`, which is tier 3: proposed for the next charter PR, with Espen's stage A sign-off for `charter/decisions.md`.
-- **HOU-4D missing from the agenda.** The $135 billion rental-help envelope adopted October 26 has no row in `agenda/agenda.csv`. The next charter PR should add it (`dossiers/home/3-design.md`, "Housekeeping").
 
 ## Questions for Espen
 
