@@ -388,7 +388,8 @@
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/1-problem.md"
-  ]
+  ],
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data); the report's causal framing is analysis and is not relied on here."
  },
  {
   "id": "EV-HOU-021",
@@ -428,7 +429,8 @@
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/1-problem.md"
-  ]
+  ],
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data); the report's causal framing is analysis and is not relied on here."
  },
  {
   "id": "EV-HOU-023",
@@ -446,7 +448,8 @@
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/1-problem.md"
-  ]
+  ],
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data); the report's causal framing is analysis and is not relied on here."
  },
  {
   "id": "EV-HOU-024",
@@ -465,7 +468,8 @@
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/1-problem.md"
-  ]
+  ],
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data); the report's causal framing is analysis and is not relied on here."
  },
  {
   "id": "EV-HOU-025",
@@ -488,7 +492,8 @@
   "recheck": "2026-12-31",
   "supports": [
    "dossiers/home/1-problem.md"
-  ]
+  ],
+  "context": "HUD, 2024 Annual Homelessness Assessment Report, Part 1, published December 2024 under the Biden administration. Point-in-time counts are data."
  },
  {
   "id": "EV-HOU-026",
@@ -511,7 +516,8 @@
   "recheck": "2026-12-31",
   "supports": [
    "dossiers/home/1-problem.md"
-  ]
+  ],
+  "context": "HUD, 2024 Annual Homelessness Assessment Report, Part 1, published December 2024 under the Biden administration. Point-in-time counts are data."
  },
  {
   "id": "EV-HOU-027",
@@ -735,7 +741,8 @@
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/1-problem.md"
-  ]
+  ],
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data); the report's causal framing is analysis and is not relied on here."
  },
  {
   "id": "EV-HOU-033",
@@ -836,7 +843,8 @@
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/1-problem.md"
-  ]
+  ],
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data); the report's causal framing is analysis and is not relied on here."
  },
  {
   "id": "EV-HOU-037",
@@ -2253,7 +2261,7 @@
   "fact_date": "2015",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Randomized trial funded by HUD and run by Abt Associates with academic co-authors (Journal of Policy Analysis and Management, 2018). The long-term subsidies were mostly Housing Choice Vouchers.",
+  "context": "Randomized trial funded by HUD and run by Abt Associates with academic co-authors (Journal of Policy Analysis and Management, 2018). HUD commissioned it under the Bush administration and published its main reports under the Obama administration (2015-16); the journal article is the academic authors'. The long-term subsidies were mostly Housing Choice Vouchers.",
   "corroboration": [
    {
     "evidence": "EV-HOU-087",
@@ -2465,7 +2473,7 @@
   "fact_date": "2017",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Paired-testing study for HUD by the Urban Institute (2018), a center-left research organization; a pilot in five sites.",
+  "context": "Published by HUD's research office in 2018, under the first Trump administration. Paired-testing study for HUD by the Urban Institute (2018), a center-left research organization; a pilot in five sites.",
   "supports": [
    "dossiers/home/2-what-works.md",
    "dossiers/home/3-design.md"
@@ -2694,7 +2702,7 @@
   "fact_date": "2020",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Peer-reviewed systematic review for the Community Preventive Services Task Force (2020).",
+  "context": "Peer-reviewed systematic review for the Community Preventive Services Task Force (2020), an independent panel that the CDC supports; published under the first Trump administration.",
   "corroboration": [
    {
     "evidence": "EV-HOU-100",
@@ -2728,7 +2736,7 @@
   "fact_date": "2022",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Peer-reviewed economic review for the CDC Community Guide (2022). The 1.80:1 summarizes the studies' own ratios, which is why it differs from the ratio of the median cost and median benefit. Shares an author with EV-HOU-101.",
+  "context": "Peer-reviewed economic review for the CDC Community Guide (2022, Biden administration). The 1.80:1 summarizes the studies' own ratios, which is why it differs from the ratio of the median cost and median benefit. Shares an author with EV-HOU-101.",
   "corroboration": [
    {
     "evidence": "EV-HOU-104",
@@ -2889,7 +2897,7 @@
   "fact_date": "2025",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "The administration's reading, not research. The order makes no claim about housing stability. On treatment and recovery outcomes the trial evidence is consistent with its doubts (EV-HOU-100, 105), and a conservative critic shares its view (EV-HOU-106).",
+  "context": "Second Trump administration (executive order, July 2025). The administration's reading, not research. The order makes no claim about housing stability. On treatment and recovery outcomes the trial evidence is consistent with its doubts (EV-HOU-100, 105), and a conservative critic shares its view (EV-HOU-106). As that administration's analysis, it never carries a recommendation on its own.",
   "corroboration": [
    {
     "evidence": "EV-HOU-106",
@@ -4356,7 +4364,7 @@
   "fact_date": "2022",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "UC Berkeley and University of Pennsylvania researchers under HUD contract (April 2026), under review; the summary is written in an advocacy tone. Observational county data and household surveys.",
+  "context": "UC Berkeley and University of Pennsylvania researchers under HUD contract; published April 2026, under the second Trump administration, and under review; the summary is written in an advocacy tone. Observational county data and household surveys. As second-Trump-administration-era analysis without independent support for its delivery findings, it does not carry a recommendation on its own.",
   "corroboration": [
    {
     "evidence": "EV-HOU-078",
@@ -4417,7 +4425,7 @@
   "fact_date": "2023",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Audit by a contractor for Treasury's inspector general (2024). So there is no official improper-payment rate for the program, and fraud claims can be neither confirmed nor sized from Treasury's reporting.",
+  "context": "Audit by a contractor for Treasury's inspector general (2024, Biden administration; inspectors general report independently of agency leadership). So there is no official improper-payment rate for the program, and fraud claims can be neither confirmed nor sized from Treasury's reporting.",
   "corroboration": [
    {
     "evidence": "EV-HOU-150",
@@ -5302,7 +5310,7 @@
   "fact_date": "2024",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "Treasury's inspector general (audit for FY 2024). There is still no published improper-payment rate for the program.",
+  "context": "Treasury's inspector general (audit for FY 2024, published in 2025 under the second Trump administration; inspectors general report independently of agency leadership). There is still no published improper-payment rate for the program.",
   "supports": [
    "dossiers/home/2-what-works.md",
    "dossiers/home/3-design.md"
@@ -5360,7 +5368,7 @@
   "fact_date": "2015",
   "checked": "2026-10-28",
   "recheck": "2027-10-28",
-  "context": "HUD-funded randomized trial run by Abt Associates; summary report (October 2016), uploaded by Espen.",
+  "context": "HUD-funded randomized trial run by Abt Associates; summary report published by HUD under the Obama administration (October 2016), uploaded by Espen.",
   "corroboration": [
    {
     "evidence": "EV-HOU-086",
@@ -5401,7 +5409,8 @@
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/3-design.md"
-  ]
+  ],
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data); the report's causal framing is analysis and is not relied on here."
  },
  {
   "id": "EV-HOU-186",
@@ -5436,7 +5445,8 @@
   "recheck": "2027-09-30",
   "supports": [
    "dossiers/home/3-design.md"
-  ]
+  ],
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data); the report's causal framing is analysis and is not relied on here."
  },
  {
   "id": "EV-HOU-187",
