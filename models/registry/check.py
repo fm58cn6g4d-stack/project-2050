@@ -248,10 +248,12 @@ def run(root=ROOT, today=None, with_legacy=True):
         errors += [f'agenda/agenda.csv: {r["id"]}: level {r["level"]!r} is not L0-L4'
                    for r in rows(root / 'agenda/agenda.csv') if r['level'] not in {'L0', 'L1', 'L2', 'L3', 'L4'}]
         # An item its own domain file marks "(adopted ...)", "(decided ...)" or "Pointer only" must say so.
+        # A legacy decision may also be chosen: DEC-2026-10-30-02 reopened them as working choices.
         status_of = {r['id']: r['status'] for r in rows(root / 'agenda/agenda.csv')}
+        allowed = {'decided': ('decided', 'chosen'), 'pointer': ('pointer',)}
         for pid, d in seed.domain_definitions().items():
             own = seed.own_status(d['flags'])
-            if own in ('decided', 'pointer') and status_of.get(pid) != own:
+            if own in allowed and status_of.get(pid) not in allowed[own]:
                 errors.append(f'agenda/agenda.csv: {pid} is {status_of.get(pid)}, but its domain file marks it {own}')
         lib = module(root / 'library/build_catalog.py', 'library_catalog')
         current = lib.catalog_rows()
