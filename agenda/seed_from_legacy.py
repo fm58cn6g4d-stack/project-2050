@@ -280,10 +280,12 @@ if __name__ == '__main__':
         missing = sorted({r['id'] for r in seed()} - set(ids))
         bad = [r['id'] for r in rows if r['level'] not in {'L0', 'L1', 'L2', 'L3', 'L4'} or list(r) != COLUMNS]
         # An item its own domain file marks adopted, decided or pointer-only must say so here.
+        # A legacy decision may also be `chosen`: DEC-2026-10-30-02 reopened them as working choices.
         status_of = {r['id']: r['status'] for r in rows}
+        allowed = {'decided': ('decided', 'chosen'), 'pointer': ('pointer',)}
         bad += [f'{pid} (domain file says {own_status(d["flags"])}, agenda says {status_of.get(pid)})'
-                for pid, d in defs.items() if own_status(d['flags']) in ('decided', 'pointer')
-                and status_of.get(pid) != own_status(d['flags'])]
+                for pid, d in defs.items() if own_status(d['flags']) in allowed
+                and status_of.get(pid) not in allowed[own_status(d['flags'])]]
         for label, items in (('duplicate', dup), ('missing from agenda.csv', missing), ('bad level/columns', bad)):
             if items:
                 print(f'{label}: {", ".join(items)}')
