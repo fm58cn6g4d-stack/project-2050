@@ -301,10 +301,11 @@ HOU-2C,Neighborhood Homes credit only,home,L1,alternative,legacy/domains/domain-
 HOU-3,Construction capital,home,L2,chosen,legacy/domains/domain-housing.md:15,
 HOU-3A,$250B of capitalization grants to state revolving funds,home,L1,alternative,legacy/domains/domain-housing.md:110,Register: C chosen; C21 accepted (borrowing)
 HOU-3B,$250B of federal direct loans only,home,L1,alternative,legacy/domains/domain-housing.md:111,Register: C chosen; C21 accepted (borrowing)
-HOU-3C,"About $72B of state revolving-fund grants (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans through state agencies",home,L2,chosen,legacy/domains/domain-housing.md:109,Register: C chosen; C21 accepted (borrowing)
+HOU-3C,"About $72B of state revolving-fund grants (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans through state agencies",home,L2,chosen,legacy/domains/domain-housing.md:109,"Register: C chosen; C21 accepted (borrowing); a working choice, open in the housing design section (DEC-2026-10-30-02)"
 HOU-3D,"An even split: $125B of grants, $125B of loans",home,L1,alternative,legacy/domains/domain-housing.md:112,Register: C chosen; C21 accepted (borrowing)
 HOU-4,Rental assistance,home,L2,chosen,legacy/domains/domain-housing.md:16,
-HOU-4A,"One million new awards, mandatory, phased 2030–33",home,L2,decided,legacy/domains/domain-housing.md:127,Register: A amended/adopted October 24; C optional exploration only
+HOU-4A,"One million new awards, mandatory, phased 2030–33",home,L2,chosen,legacy/domains/domain-housing.md:127,Register: A amended/adopted October 24; C optional exploration only; reopened as a working choice by DEC-2026-10-30-02
+HOU-4D,A bounded $135B FY2030-39 expansion of rental assistance beyond HOU-4A,home,L2,chosen,legacy/domains/domain-housing.md:118,Approved October 26 as a working envelope; award count and delivery not chosen; a working choice (DEC-2026-10-30-02)
 HOU-4B,Appropriated assistance alternative,home,L1,alternative,legacy/domains/domain-housing.md:128,Register: A amended/adopted October 24; C optional exploration only
 HOU-4C,Broader assistance potentially reaching all proxy-eligible renters,home,L1,alternative,legacy/domains/domain-housing.md:129,Register: A amended/adopted October 24; C optional exploration only
 HOU-5,Public housing repair,home,L2,chosen,legacy/domains/domain-housing.md:17,Register: Chosen; C31 accepted (borrowing)
