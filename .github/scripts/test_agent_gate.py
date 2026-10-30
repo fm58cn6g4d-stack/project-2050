@@ -368,6 +368,39 @@ class FakeGitHub:
         raise AssertionError(path)
 
 
+class TestsPassed(unittest.TestCase):
+    """tests_passed re-asks GitHub about a missing or unfinished rebuild-and-tests run, never about a failed one."""
+
+    def gh(self, answers):
+        calls = []
+
+        class GH:
+            def call(self, method, path, data=None):
+                calls.append(path)
+                return {"check_runs": answers[min(len(calls), len(answers)) - 1]}
+        return GH(), calls
+
+    def test_missing_then_success(self):
+        gh, calls = self.gh([[], [{"status": "completed", "conclusion": "success", "started_at": "t1"}]])
+        self.assertTrue(g.tests_passed(gh, "a" * 40, delays=(0, 0)))
+        self.assertEqual(len(calls), 2)
+
+    def test_failure_is_final(self):
+        gh, calls = self.gh([[{"status": "completed", "conclusion": "failure", "started_at": "t1"}]])
+        self.assertFalse(g.tests_passed(gh, "a" * 40, delays=(0, 0)))
+        self.assertEqual(len(calls), 1)
+
+    def test_still_running_gives_up(self):
+        gh, calls = self.gh([[{"status": "in_progress", "conclusion": None, "started_at": "t1"}]])
+        self.assertFalse(g.tests_passed(gh, "a" * 40, delays=(0, 0)))
+        self.assertEqual(len(calls), 3)
+
+    def test_latest_run_wins(self):
+        gh, _ = self.gh([[{"status": "completed", "conclusion": "success", "started_at": "t2"},
+                          {"status": "completed", "conclusion": "failure", "started_at": "t1"}]])
+        self.assertTrue(g.tests_passed(gh, "a" * 40, delays=()))
+
+
 class Retry(unittest.TestCase):
     """GitHub.call against a fake urlopen. Each scripted step is 200, an HTTP error code, an exception raised
     by urlopen(), or ('read', exc) for an exception raised while reading the response body."""

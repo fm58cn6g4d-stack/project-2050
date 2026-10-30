@@ -12,8 +12,8 @@ Checks, in one run:
   analysis entry lists entries that support, contest or qualify it (a warning until one comes from an
   independent publisher)
   and its dates are valid; each provisions.json entry belongs to an agenda ID and cites known evidence;
-- references: every SRC-, EV-, OUT- and DEC- ID cited in current text resolves (in Markdown, an ID in
-  `code formatting` is a format example and is not checked).
+- references: every SRC-, EV-, OUT- and DEC- ID cited in current text resolves, including inline code
+  (in Markdown, an ID in a fenced code block is a format example and is not checked).
 
 A re-check date in the past is reported as a warning (an error with --strict), so an evidence entry
 falling due never breaks unrelated work.
@@ -225,8 +225,9 @@ def check_references(root, known):
                 continue
             text = path.read_text(errors='replace')
             if path.suffix == '.md':
-                # An ID in code formatting (inline or a fenced block) is a format example, not a citation.
-                text = re.sub(r'`[^`\n]*`', '', re.sub(r'```.*?```', '', text, flags=re.S))
+                # An ID in a fenced block is a format example, not a citation. Inline code is checked: a real
+                # decision cited as `DEC-…` must resolve, and placeholders like DEC-YYYY-MM-DD-NN never match.
+                text = re.sub(r'```.*?```', '', text, flags=re.S)
             for kind, pattern in REFS.items():
                 for ref in sorted(set(pattern.findall(text)) - known[kind]):
                     errors.append(f'{path.relative_to(root)}: {ref} does not resolve')
