@@ -847,7 +847,7 @@ Spend-out of discretionary budget authority: rough least-squares shares over fou
 
 An account counts as having no discretionary budget authority in any year its budget authority is zero; its outlays are kept apart, mainly highway, transit and airport grants whose contract authority is mandatory.
 
-- **Value:** about $88-103B a year; about $87B in function 400 ($B a year)
+- **Value:** nondefense about $91-96B a year (all discretionary, with defense, $87-103B); function 400 about $85-94B ($B a year)
 - **How much it matters:** medium: these outlays cannot be spent out from budget authority, so a BA-based reading must carry them separately (planned for a B3 follow-up)
 - **Where:** models/tools/budget/build_data.py:331-352 (cbo_spending_by_function); models/data/budget/cbo-spending-by-function.csv column outlays_without_ba
 - **Source:** CBO, Spending Projections by Budget Account (Feb 2026, publication 51142)
