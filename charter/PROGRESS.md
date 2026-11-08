@@ -47,7 +47,7 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 
 | Piece | Step | Tier | Status | Owner | Where |
 | --- | --- | --- | --- | --- | --- |
-| Federal budget model | B1. Budget conventions and assumptions register | Most capable | In review: `models/tools/budget/CONVENTIONS.md` (ten conventions, five choices for Espen); `models/data/budget/assumptions.csv`, 74 assumptions (`ASM-`, including B2's data-layer rows); the generated `models/tools/budget/assumptions.md` (run-all step 8f, drift-checked); the registry checker resolves `ASM-` IDs. Next: B7 memos from the five choices (strategy session) | Claude Code (session_01UQzgBswpk24hYE4v6TeEnD) | Branch `claude/budget-b1-assumptions` |
+| Federal budget model | B1. Budget conventions and assumptions register | Most capable | Done (PR #107, merged); B2 rows in a follow-up PR: `models/tools/budget/CONVENTIONS.md` (ten conventions, five choices for Espen); `models/data/budget/assumptions.csv`, 74 assumptions (`ASM-`, including B2's data-layer rows); the generated `models/tools/budget/assumptions.md` (run-all step 8f, drift-checked); the registry checker resolves `ASM-` IDs. Next: B7 memos from the five choices (strategy session) | Claude Code (session_01UQzgBswpk24hYE4v6TeEnD) | Branch `claude/budget-b1-assumptions` |
 
 ## Open PRs
 
