@@ -68,15 +68,17 @@ Sources: `senate-model-2028.md`, sections 4-6 and 9, and `2030-2034-control.md`,
 
 ## 3. Decisions waiting on you
 
-**PR #80: which Senate size the plan designs for (D1).** It is tier 3, so only your `espen-approved` label merges it. I have not applied or asked for any label.
+**PR #80: two choices for the planning scenario (D1), the Senate band and the House.** It is tier 3, so only your `espen-approved` label merges it. I have not applied or asked for any label. Refreshed at `e3b5de6`; adding the label decides B and House option 2.
+
+*Choice 1: the Senate band.*
 
 | Option | Plan for | Test every item at | Upside | What changes in the plan |
 | --- | --- | --- | --- | --- |
 | A. Keep the old D1 | 52-54 seats | 51 | 56+ | Nothing. Bills that need 55 dependable votes stay out of the base package. The old assumption that Democrats hold the Senate to 2036 stays in. |
-| **B. Move to the estimate (recommended)** | **53-56** | **51** | **58+** | Each dossier designs for a somewhat bigger Senate. The 51-seat test stays, so nothing that passes today drops out. The "hold to 2036" assumption is replaced by a stated risk in 2030 and 2032. The House assumption now notes the 2027 majority and the *Callais* ruling. |
-| C. Plan for the 2026 result | 55-57 | 52 | 60 | The most ambitious package. It assumes 2028 repeats 2026, and it fails in an even year. The safety test rises from 51 seats to 52. |
+| **B. Plan for 53-56 (recommended)** | **53-56** | **51** | **58+** | Each dossier designs for a somewhat bigger Senate. The 51-seat test stays, so nothing that passes today drops out. The "hold to 2036" assumption is replaced by a stated risk in 2030 and 2032. The House assumption now notes the 2027 majority and the *Callais* ruling. |
+| C. Plan for the center | 55-57 | 52 | 60 | Matches the models' central estimate, but fails in a bad year (Minnesota lost and a weak 2028), when the average falls to about 55. The safety test rises from 51 seats to 52. |
 
-The newer model supports B. Its center with a Democratic president (56.7) sits at the top of B's band. It does not argue for C, because 2029 is the peak and the Senate shrinks after it. One fact for #80: its base of 40 seats not up in 2028 also needs Democrats to hold Minnesota in 2027. To choose B, add the label. To choose A or C, leave a comment and the author session will rewrite it. If you decide on a later day than November 8, say so, so the decision can be re-dated.
+B is now the conservative choice. With a Democratic president the models center on about 57 seats (90% range 53-60), and C matches that center. #80 still recommends B for three reasons: a planning band should hold in a bad year too; what decides regular-order bills is the filibuster head count, which a higher band doesn't change; and B keeps the 51-seat test. If the 2027 results run well ahead of track, the band can be raised then. To choose B, add the label. To choose A or C, leave a comment and the author session will rewrite it. If you decide on a later day than November 8, say so, so the decision can be re-dated.
 
 **The defense and DEM-2 memo: two choices, decided separately.** Neither changes anything until you decide.
 
@@ -101,13 +103,13 @@ B or C changes the adopted model inputs, which Codex looks after. That is a tier
 
 The memo now recommends D, changed from B after PR #91 found that nearly all of DEM-2's value for the 2032 maps comes from part 2, not the ban. B stays the choice if you want the commission mandate tried in court. The memo's option list still has B marked "recommended" in one heading; its final recommendation is D.
 
-**A related question for #80: what if the House is lost?** PR #88's stress test (`house-stress-test-2029.md`) looks at a Democratic president and Senate with a Republican House, about 11% of Democratic-president runs and mostly narrow wins. In that case the three budget bills are gone, probably until 2033. What remains: every nomination, the Senate's own rules, and executive action (care, clean power, work and immigration keep part of their agenda; the secure floor, the housing money and DEM-1 stall). The leverage would come from the FY2030 spending bills, the debt limit and the tax deductions that expire after 2028. It offers three options alongside #80. None changes the Senate band:
+*Choice 2: the House.* PR #88's stress test (`house-stress-test-2029.md`) looks at a Democratic president and Senate with a Republican House, about 11% of Democratic-president runs and mostly narrow wins. In that case the three budget bills are gone, probably until 2033. What remains: every nomination, the Senate's own rules, and executive action (care, clean power, work and immigration keep part of their agenda; the secure floor, the housing money and DEM-1 stall). The leverage would come from the FY2030 spending bills, the debt limit and the tax deductions that expire after 2028. #80 now carries the three options:
 
 | Option | What it means |
 | --- | --- |
 | 1. Keep the House assumption as is | Plan as if a Democratic president brings a Democratic House (89% of runs). No plan for the narrow-win case |
-| 2. Add an "H" stress tag | Each item also says whether it survives a Republican House, next to the 51-seat Senate test. Light work |
-| 3. Write a divided-2029 branch plan | A short plan for that case: first 100 days of executive action, nominations, the spending and tax bargaining positions. More work, ready by November 2028 |
+| **2. Add an "H" tag (recommended)** | Each item also says whether it survives a Republican House, next to the 51-seat Senate test. Light work |
+| 3. Write a divided-2029 branch plan | A short plan for that case: first 100 days of executive action, nominations, the spending and tax bargaining positions. More work. #80 suggests writing it in 2028, if the 2027 scorecard points to a narrow win |
 
 **Housing point 5: the rules for emergency rent help (approve or amend).** PR #93, now on `main`, answers your open question (`dossiers/home/point-5-emergency-aid-rules.md`). Its key finding: in the Treasury inspector general's cases of questioned payments in the last emergency rent program, the fraud came through fake leases and false landlords, not tenants misstating income. So the checks before payment fall on the landlord and the property. The five lines to approve or amend:
 1. **Who:** renters at or below 50% of area income (or already on SNAP, Medicaid or SSI) facing a housing crisis now, ranked by a short tested risk screen, court cases first.
