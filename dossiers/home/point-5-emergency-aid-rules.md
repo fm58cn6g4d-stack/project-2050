@@ -1,6 +1,6 @@
 # Point 5: the rules for emergency rent help
 
-Role: a note for Espen on point 5 of "Recommended without a memo" in `3-design.md` (delivery rules for emergency aid), worked out rule by rule. Status: draft, awaiting Espen's yes, no or amendment, item by item; nothing is adopted by silence, and section 4 drafts none of it until Espen agrees. As of November 8, 2026.
+Role: a note for Espen on point 5 of "Recommended without a memo" in `3-design.md` (delivery rules for emergency aid), worked out rule by rule. Status: approved by Espen as written, all eight rules and the five-line summary, on November 8, 2026 (Notion comment "All approved", 14:10 UTC, on the mirrored page; restated to the reviewer session at 14:35 UTC: "Point 5: yes, as written"). These rules are now the working choice for section 4 to specify; the decisions-log entry follows in the batched housing-decisions PR with memos 3-8.
 
 **What this note does and does not decide.** It recommends the rules any emergency rent program in the plan should carry. It does not choose the fund's size or vehicle, which stay with memo 6 (`memos/6-prevention.md`): the rules work under A ($85 billion one time), B ($40 billion one time) or C (a standing fund with a smaller start, recommended there). Where a rule matters more under one option, the note says so. It does not edit the memo or `3-design.md`.
 
