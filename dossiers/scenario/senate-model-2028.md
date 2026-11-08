@@ -35,7 +35,7 @@ Role: a runnable model of the 2028 Senate elections, run under several national 
   - She has pledged to "vote against any motion to weaken the filibuster" [SRC-0592].
   - Even as a Democratic-caucusing independent she would win only 19% of runs in a neutral year (51% at D+6), and she would not be a vote for D2.
 - **For the plan.** 60 seats is a remote upside (about 9% with a Democratic president), so D2's rules change stays the path for every regular-order flagship. The 2029 Senate is the largest the decade is likely to offer (`2030-2034-control.md`), which argues for doing regular-order work in 2029-30. The estimate supports #80's option B (53-56) and sits at the top of it.
-- **Round 4 (section 9):** the D2-F whip count is the binding constraint, not the seat count. With a Democratic president the model's margin before defections is about 6-7 seats, and public statements plus judgment put expected opponents at about 6 (Fetterman, Hamilton, probably Cooper, and red-state freshmen whose positions are unknown). D2-F has the votes in 62% of runs, with a range of 9-88% depending on those unknowns. Measure 2 is failing (No 51.85%), so ranked-choice voting, and with it the Murkowski question, very likely survives.
+- **Round 4 (section 9):** the D2-F whip count is the binding constraint, not the seat count. With a Democratic president the model's margin before defections is about 6-7 seats, and public statements plus judgment put expected opponents at about 6 (Fetterman, Hamilton, probably Cooper, and red-state freshmen whose positions are unknown). D2-F has the votes in 62% of runs, with a range of 9-89% depending on those unknowns. Measure 2 is failing (No 51.85%), so ranked-choice voting, and with it the Murkowski question, very likely survives.
 
 ## 1. Which seats are up, checked
 
@@ -309,13 +309,13 @@ It counts opponents in each simulated Senate:
 
 | Democratic president, environment | Mean seats | Mean opponents | Margin before defections | P(D2-F has the votes) |
 | --- | --- | --- | --- | --- |
-| Neutral | 55.1 | 6.1 | 5.1 | 44% |
+| Neutral | 55.1 | 6.0 | 5.1 | 44% |
 | D+3 | 55.7 | 6.2 | 5.7 | 51% |
 | D+6 | 56.8 | 6.4 | 6.8 | 65% |
 | Evidence-weighted | 56.6 | 6.4 | 6.6 | **62%** |
 
 - **The finding.** The seat count is no longer the constraint: the caucus's composition is. The 2026 wave brought in senators from Trump states, and some of them oppose ending the filibuster. They take up most of the margin the wave created.
-- **How much it rests on assumptions.** Halving the unknowns' probabilities gives 88% (4.2 opponents); doubling them gives 9% (10.8). The unknowns' actual positions are the most valuable fact to collect before 2029.
+- **How much it rests on assumptions.** Halving the unknowns' probabilities gives 89% (4.2 opponents); doubling them gives 9% (10.8). The unknowns' actual positions are the most valuable fact to collect before 2029.
 - **What it means for D2.** It strengthens the case for its opening offer (C, the talking filibuster with a 15-day backstop) and its written fallback (G, the democracy carve-out). Both exist for holdouts, and this count shows the holdouts will probably exist. The 2022 precedent is closest to C and G, not to F.
 - **A question for Espen:** should D2's whip count be re-run senator by senator in 2027, once the freshmen have spoken? Or should the plan now treat C as the likely 2029 rule, with F as the upside?
 
@@ -338,7 +338,7 @@ It counts opponents in each simulated Senate:
 2. **The Minnesota 2027 special.** Who Klobuchar appoints (placeholder or candidate; a placeholder costs about 6 points of probability at an even environment), and whether Republicans recruit seriously. It is one full seat in every 2029 scenario and 13-19 points of P(55+) (section 9).
 3. **Retirements,** in order of effect: Kelly (presidential decision), Grassley (2027), Johnson, Murkowski, Cortez Masto. Kelly alone moves Arizona by about 10 points.
 4. **First published ratings** (Cook, Sabato, Inside Elections) and the first 2028 polls, to check the model's lean and candidate effects against independent judgment.
-5. **The 2027 caucus count for D2-F, senator by senator.** Round 4 puts expected opponents (about 6) roughly level with the margin (about 6-7), so D2-F has the votes in about 62% of runs, with a range of 9-88%. The positions of Andrews, Turek, Jackson, Colom and Peltola, and of Gallego, Slotkin and the other post-2022 senators, decide it. This connects to `4-2029-plan.md` (D2).
+5. **The 2027 caucus count for D2-F, senator by senator.** Round 4 puts expected opponents (about 6) roughly level with the margin (about 6-7), so D2-F has the votes in about 62% of runs, with a range of 9-89%. The positions of Andrews, Turek, Jackson, Colom and Peltola, and of Gallego, Slotkin and the other post-2022 senators, decide it. This connects to `4-2029-plan.md` (D2).
 6. **Byrd-rule edges for each flagship.** The table in section 7 is a first sort. The care, housing-conditions and paid-leave edges need a parliamentarian-precedent check before the 2029 vehicles are fixed (D5).
 7. **A demographic correlation structure.** For example, by education and Hispanic share, to test whether Arizona, Nevada and Georgia (or Wisconsin, Ohio and Iowa) move together more than the regional blocs allow.
 8. **What a C (talking filibuster) path looks like at about 6 holdouts.** If round 4 is right that F is a coin flip, D2's floor-day arithmetic for C (about 213-272 days against a 163-day budget, legacy D2) becomes the base case to stress-test, not the fallback.
