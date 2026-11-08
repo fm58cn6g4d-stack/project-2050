@@ -209,6 +209,7 @@ DISC_LABELS = {  # Table 5.6 / 8.7 row label (lowercased) -> (program id, group)
     "natural resources and environment": ("natural_resources_environment", "nondefense"),
     "agriculture": ("agriculture", "nondefense"),
     "commerce and housing credit": ("commerce_housing_credit", "nondefense"),
+    "ground transportation": ("ground_transportation", "nondefense"),
     "total transportation": ("transportation", "nondefense"),
     "community and regional development": ("community_regional_development", "nondefense"),
     "total education, training, employment and social services": ("education_training_social", "nondefense"),
@@ -299,21 +300,13 @@ LAGS = 4                     # outlays this year from budget authority of this y
 def spendout(disc_rows):
     """Estimated spend-out of discretionary budget authority, by group: least-squares weights w_k
     in outlays(t) = sum_k w_k * BA(t-k), k = 0..LAGS-1, over SPEND_YEARS. An estimate from
-    annual totals, not CBO's program-level outlay rates; see the README. Groups: defense,
-    nondefense, and nondefense without OMB's transportation program group (whose outlays run on
-    mandatory contract authority), which B3 uses for nondefense provisions."""
+    annual totals, not CBO's program-level outlay rates; see the README."""
     S = collections.defaultdict(dict)
     for r in disc_rows:
-        if r["program"] in ("defense_total", "nondefense_total", "transportation") and r["ba"] and r["outlays"]:
+        if r["program"] in ("defense_total", "nondefense_total") and r["ba"] and r["outlays"]:
             S[r["program"]][r["year"]] = (float(r["ba"]), float(r["outlays"]))
-    # Nondefense without transportation: OMB's discretionary transportation outlays include highway
-    # and transit spending whose budget authority is mandatory contract authority (B3 follow-up)
-    S["nondefense_ex_transportation"] = {
-        y: (v[0] - S["transportation"][y][0], v[1] - S["transportation"][y][1])
-        for y, v in S["nondefense_total"].items() if y in S["transportation"]}
     out = []
-    for prog, grp in (("defense_total", "defense"), ("nondefense_total", "nondefense"),
-                      ("nondefense_ex_transportation", "nondefense_ex_transportation")):
+    for prog, grp in (("defense_total", "defense"), ("nondefense_total", "nondefense")):
         d = S[prog]
         yrs = range(SPEND_YEARS[0], SPEND_YEARS[1] + 1)
         X = [[d[y - k][0] for k in range(LAGS)] for y in yrs]
@@ -407,6 +400,66 @@ def cbo_contract_authority():
             "outlays": b(d["outlays"]), "ca_to_outlays": "%.4f" % (d["ca"] / d["outlays"])}
            for k, d in sorted(S.items())]
     return ["year", "group", "accounts", "contract_authority", "outlays", "ca_to_outlays"], out
+CAL_YEARS = (2029, 2036)   # calibration years: CBO's account projections start in FY2026, the fit needs three earlier years
+
+
+def _fit(pairs, years):
+    """Least-squares shares w_k, k = 0..LAGS-1, with outlays(t) = sum_k w_k * BA(t-k)."""
+    X = [[pairs[y - k][0] for k in range(LAGS)] for y in years]
+    yv = [pairs[y][1] for y in years]
+    A = [[sum(x[i] * x[j] for x in X) for j in range(LAGS)] for i in range(LAGS)]
+    b = [sum(x[i] * v for x, v in zip(X, yv)) for i in range(LAGS)]
+    return solve(A, b)
+
+
+def _err(w, pairs, years):
+    fit = [sum(w[k] * pairs[y - k][0] for k in range(LAGS)) for y in years]
+    yv = [pairs[y][1] for y in years]
+    return 100 * (sum((f - v) ** 2 for f, v in zip(fit, yv)) / len(yv)) ** 0.5 / (sum(yv) / len(yv))
+
+
+def spendout_cbo(disc_rows, by_function):
+    """Spend-out of discretionary budget authority with its level set by CBO's own projections.
+    Timing (the shape of the shares) comes from OMB's history, FY1993-2019, as in spendout();
+    for nondefense, ground transportation is taken out of both budget authority and outlays,
+    because most of its outlays rest on mandatory contract authority. The shares are then
+    scaled by one factor per group so that, applied to CBO's projected discretionary budget
+    authority (account file, FY2026-2036), they reproduce CBO's projected outlays over
+    CAL_YEARS. For nondefense the CBO outlays leave out accounts with no budget authority in
+    the year (outlays_without_ba: highway, transit and airport grants above all), which have
+    no budget authority to spend out and are carried as outlays on their own."""
+    H = collections.defaultdict(dict)
+    for r in disc_rows:
+        if r["ba"] and r["outlays"]:
+            H[r["program"]][r["year"]] = (float(r["ba"]), float(r["outlays"]))
+    hist = {"defense": H["defense_total"],
+            "nondefense": {y: (v[0] - H["ground_transportation"][y][0], v[1] - H["ground_transportation"][y][1])
+                           for y, v in H["nondefense_total"].items() if y in H["ground_transportation"]}}
+    C = {"defense": collections.defaultdict(lambda: [0.0, 0.0]), "nondefense": collections.defaultdict(lambda: [0.0, 0.0])}
+    for r in by_function:
+        if r["disc_or_mand"] != "discretionary":
+            continue
+        g = r["category"].lower()
+        c = C[g][int(r["year"])]
+        c[0] += float(r["ba"])
+        c[1] += float(r["outlays"]) - (float(r["outlays_without_ba"]) if g == "nondefense" else 0.0)
+    hy, cy = range(SPEND_YEARS[0], SPEND_YEARS[1] + 1), range(CAL_YEARS[0], CAL_YEARS[1] + 1)
+    out = []
+    for g in ("defense", "nondefense"):
+        w = _fit(hist[g], hy)
+        cbo = {y: tuple(v) for y, v in C[g].items()}
+        fit = sum(sum(w[k] * cbo[y - k][0] for k in range(LAGS)) for y in cy)
+        scale = sum(cbo[y][1] for y in cy) / fit
+        ws = [x * scale for x in w]
+        for k in range(LAGS):
+            out.append({"group": g, "year_of_spending": k, "share": "%.4f" % ws[k],
+                        "history_share": "%.4f" % w[k], "scale": "%.4f" % scale,
+                        "sum_of_shares": "%.4f" % sum(ws), "history_years": "%d-%d" % SPEND_YEARS,
+                        "calibration_years": "%d-%d" % CAL_YEARS,
+                        "history_rmse_pct": "%.2f" % _err(w, hist[g], hy),
+                        "calibration_rmse_pct": "%.2f" % _err(ws, cbo, cy)})
+    return ["group", "year_of_spending", "share", "history_share", "scale", "sum_of_shares",
+            "history_years", "calibration_years", "history_rmse_pct", "calibration_rmse_pct"], out
 
 
 def render(cols, rows):
@@ -430,7 +483,9 @@ def build():
     dcols, drows = omb_discretionary()
     files["omb-discretionary.csv"] = render(dcols, drows)
     files["spendout-discretionary.csv"] = render(*spendout(drows))
-    files["cbo-spending-by-function.csv"] = render(*cbo_spending_by_function())
+    sf_cols, sf_rows = cbo_spending_by_function()
+    files["cbo-spending-by-function.csv"] = render(sf_cols, sf_rows)
+    files["spendout-discretionary-cbo.csv"] = render(*spendout_cbo(drows, sf_rows))
     files["cbo-contract-authority.csv"] = render(*cbo_contract_authority())
     files["deflators.csv"] = render(*deflators(tables["cbo-economic-historical.csv"],
                                                tables["cbo-economic.csv"],

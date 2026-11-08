@@ -19,23 +19,25 @@ Standard library only. Units: billions of nominal dollars by federal fiscal year
 What the money is ("kind"), each with one scoring method:
 
   discretionary  Outlays: the row's calibrated profile path (below), which stays canonical.
-                 Budget authority: an estimate that leads outlays. Each year's budget authority
-                 is the outlays it pays for over its spend-out: the next four years' outlays
-                 weighted by B2's discretionary shares for the row's group (defense or
-                 nondefense without transportation, spendout-discretionary.csv), BA(t) = sum over k
-                 of share(k) x outlays(t+k). Lifetime budget authority then equals lifetime
-                 outlays, it is never negative, and a program whose outlays start in FY2030 shows
-                 budget authority from FY2027. B2's shares are rough (a least-squares fit on
-                 totals, FY1993-2019); this library zeroes the defense year-4 share, which is
-                 negative noise, and rescales each group's shares to add to one. So every
-                 discretionary budget-authority figure is marked rough (ASM-SPENDOUT). Spending that budget
-                 authority out at the same shares does not give back the model's outlays exactly:
-                 the model's profiles spend faster at the start and stop faster at a time limit
-                 than B2's rates allow. spendout_gap() measures the difference. (The exact
-                 inverse, the only budget authority that reproduces the outlays exactly,
-                 oscillates by several times a year's outlays, because outlays jump from zero in
-                 FY2030; it is not a usable reading.) Years after FY2056 are extended at the
-                 row's FY2055-56 growth.
+                 Budget authority: an estimate that leads outlays. Spend-out shares are B2's
+                 CBO-calibrated ones, used as stored (spendout-discretionary-cbo.csv,
+                 ASM-SPENDOUT): the timing of OMB's FY1993-2019 history, with ground
+                 transportation taken out of nondefense, scaled so that CBO's projected budget
+                 authority gives CBO's projected outlays over FY2029-36 (within 1%). Each year's
+                 budget authority is the outlays it pays for over its spend-out, the next four
+                 years' outlays weighted by the shares, divided by the square of the shares' sum:
+                 BA(t) = sum over k of share(k) x outlays(t+k) / S^2. Spending that budget
+                 authority out at the same shares then gives back the row's lifetime outlays, so
+                 the level is consistent in both directions, and a program whose outlays start in
+                 FY2030 shows budget authority from FY2027. Year by year the spend-out does not
+                 give back the model's outlays exactly: the model's profiles spend faster at the
+                 start and stop faster at a time limit than these rates allow. spendout_gap()
+                 measures the difference. (The exact inverse, the only budget authority that
+                 reproduces the outlays exactly, oscillates by several times a year's outlays,
+                 because outlays jump from zero in FY2030; it is not a usable reading.) Years
+                 after FY2056 are extended at the row's FY2055-56 growth. The shares are history's
+                 shape, not CBO's account rates, so every discretionary budget-authority figure is
+                 marked rough.
   contract_authority
                  Highway and transit spending from the Highway Trust Fund, recorded as CBO does:
                  the budget authority is mandatory contract authority, and the outlays, which
@@ -45,10 +47,11 @@ What the money is ("kind"), each with one scoring method:
                  America model (contract_authority()). The rest of the row (general-fund rail and
                  transit money) gets discretionary budget authority by the spend-out estimate
                  above, on the row's outlays scaled by one minus its contract-authority share.
-                 Nondefense spend-out never applies to contract authority: its shares are fit on
-                 OMB's nondefense totals without transportation (spendout_group
-                 nondefense_ex_transportation, ASM-SPENDOUT), whose outlays run on contract
-                 authority. Rough, like every spend-out figure.
+                 Spend-out never applies to contract authority: the nondefense shares are fit
+                 without ground transportation and calibrated to CBO's outlays without the
+                 accounts that have no discretionary budget authority (outlays_without_ba), so
+                 those outlays are carried on their own (cbo_discretionary_outlays()). Rough,
+                 like every spend-out figure.
   mandatory      Outlays: the calibrated profile path. Budget authority equals outlays in the
                  same year, CBO's usual reading of benefits and tax credits, where the spec says
                  so (budget_authority = outlays). Where the spec says on_enactment (a multi-year
@@ -98,7 +101,7 @@ VEHICLES = ("regular_appropriations", "supplemental_emergency", "advance_appropr
             "reconciliation", "regular_order", "none", "unknown")
 METHODS = ("profile", "years", "components", "climate", "dynamic", "not_scored")
 BUDGET_AUTHORITY = ("spendout", "contract_authority", "outlays", "on_enactment", "none", "unknown")
-SPENDOUT_GROUPS = ("defense", "nondefense_ex_transportation")
+SPENDOUT_GROUPS = ("defense", "nondefense")
 UNIFIED = ("same", "zero", "net_of_own_revenue")
 COLUMNS = ["id", "table", "parent", "label", "in_model", "category", "kind", "vehicle",
            "vehicle_source", "appropriation", "budget_authority", "spendout_group",
@@ -356,25 +359,39 @@ def climate_path(spec, S=None, B=None):
 
 
 def _spendout(group):
-    """B2's discretionary spend-out shares for a group, year of spending 0-3, with negative
-    shares set to zero and the rest rescaled to add to one (rough; see the module docstring)."""
-    rows = sorted((r for r in D.table("spendout-discretionary") if r["group"] == group),
+    """B2's CBO-calibrated discretionary spend-out shares for a group (defense or nondefense),
+    year of spending 0-3, as stored in spendout-discretionary-cbo.csv (ASM-SPENDOUT)."""
+    rows = sorted((r for r in D.table("spendout-discretionary-cbo") if r["group"] == group),
                   key=lambda r: int(r["year_of_spending"]))
-    raw = [max(0.0, float(r["share"])) for r in rows]
-    tot = sum(raw)
-    return [v / tot for v in raw]
+    return [float(r["share"]) for r in rows]
 
 
 def spendout_ba(outlays, group):
     """Budget authority by year, FY2026-2056, as described in the module docstring: the
-    outlays each year's budget authority pays for over its spend-out. Outlays after FY2056 are
-    extended at the FY2055-56 growth rate (or held flat, or zero, where that is undefined)."""
+    outlays each year's budget authority pays for over its spend-out, at a level that spends
+    out to the same lifetime outlays. Outlays after FY2056 are extended at the FY2055-56 growth
+    rate (or held flat, or zero, where that is undefined)."""
     s = _spendout(group)
+    tot = sum(s)
     o = dict(outlays)
     g = o[Y1] / o[Y1 - 1] if o.get(Y1 - 1) else 1.0
     for y in range(Y1 + 1, Y1 + len(s)):
         o[y] = o[y - 1] * g
-    return {y: sum(s[k] * o.get(y + k, 0.0) for k in range(len(s))) for y in range(Y0, Y1 + 1)}
+    return {y: sum(s[k] * o.get(y + k, 0.0) for k in range(len(s))) / tot ** 2 for y in range(Y0, Y1 + 1)}
+
+
+def cbo_discretionary_outlays(group):
+    """CBO's February 2026 discretionary outlays for a group, FY2029-2036, rebuilt the way this
+    library reads discretionary money: B2's shares applied to CBO's projected discretionary
+    budget authority (account file), plus, for nondefense, the outlays of accounts with no
+    discretionary budget authority (highway, transit and airport grants above all), carried as
+    outlays on their own. {year: (rebuilt, CBO's own)}. B4 benchmarks against it."""
+    cat = group.capitalize()
+    ba = D.cbo_spending("ba", "discretionary", cat)
+    out = D.cbo_spending("outlays", "discretionary", cat)
+    extra = D.cbo_spending("outlays_without_ba", "discretionary", cat) if group == "nondefense" else {}
+    back = spendout_apply(ba, group)
+    return {y: (back[y] + extra.get(y, 0.0), out[y]) for y in range(2029, 2037)}
 
 
 def spendout_gap(ba, outlays, group, years=range(W0, W1 + 1)):
