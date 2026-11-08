@@ -1,8 +1,10 @@
 # The 2027 scorecard
 
-Role: a pre-registered reading of the November 2027 results. For each contest it gives the result that would be "on track" for the published 2028 prior (D+3.0, SD 4.5); how far each outcome should move that prior, by a rule fixed now; what the moved prior does to P(trifecta), P(55+ Senate) and P(Democratic House in 2033); and the 2027-28 signals that should change the plan, not just the numbers. Status: draft (stage B follow-up), November 8, 2026. It builds on #92's indicators (`model-credibility.md`, section 4 and next questions 3-4) and on b-4's race list (`2027-races.md`).
+Role: a pre-registered reading of the November 2027 results. For each contest it gives the result that would be "on track" for the published 2028 prior (D+3.0, SD 4.5); how far each outcome should move that prior, by a rule fixed now; what the moved prior does to P(trifecta), P(55+ Senate) and P(Democratic House in 2033); and the 2027-28 signals that call for contingency preparation, not just new numbers. Status: draft (stage B follow-up), November 8, 2026. It builds on #92's indicators (`model-credibility.md`, section 4 and next questions 3-4) and on b-4's race list (`2027-races.md`).
 
 **What kind of evidence this is.** This is this project's own arithmetic (`tools/scorecard_2027.py`; tables in `2027-scorecard-outputs.md`; tests in `tools/test_scorecard_2027.py`). The special-election series is committed as `specials-by-year.csv`, derived from The Downballot's trackers [SRC-1092] by `tools/specials_extract.py`. Other past results are cited in the script and catalogued as SRC-1070 to SRC-1091. 2016 state margins come from FiveThirtyEight's files [SRC-0600]. The headline odds come from the Senate, House and redistricting models, run unchanged at the moved prior. Every "on track" figure is analysis, not a rating; no rater has published 2027 ratings.
+
+**Planning premise (#80, 14:20 UTC, November 8, 2026).** Espen settled #80's House sub-choice: plan on a Democratic trifecta in 2029-30, with the House, Senate and White House all Democratic. The scorecard does not reopen that premise. A 2027 reading that points to a narrow 2028 win, or a loss, triggers contingency preparation (the divided-government and Republican-branch notes), not a change to the 2029 plan.
 
 ## The scorecard on one screen
 
@@ -125,7 +127,7 @@ The two plain points:
 | **0.4 (pre-registered)** | **D+1.0** | **3.5** |
 | 0.7 | R+0.4 | 2.6 |
 
-## 4. Signals that should change the plan, not just the numbers
+## 4. Signals that call for contingency preparation, not just new numbers
 
 Each signal below is stated now, with what it would change. Each is a question for Espen, not a decision. D1 (#80) stays Espen's.
 
@@ -137,12 +139,12 @@ Each signal below is stated now, with what it would change. Each is a question f
    - **What changes is D2-F:**
      - **Defection room shrinks:** P(D2-F has the votes) falls from 61% to 41%. The average Senate shrinks from 56.5 to 54.9 seats, so it can absorb about one and a half fewer defections, against the same whip count;
      - **A Democratic president becomes a coin flip:** 50%, from 69%.
-   - **The plan change:**
-     - treat D2's written fallback (G, the democracy carve-out) and its opening offer (C) as the working path, not the reserve;
-     - weight the Republican-presidency branch (`2028-republican-branch.md`) equally in 2028 preparation.
+   - **The response (contingency preparation; the 2029 premise stays a trifecta):**
+     - ready D2's written fallback (G, the democracy carve-out) and its opening offer (C) to be used if needed;
+     - step up preparation of the Republican-presidency branch (`2028-republican-branch.md`).
 2. **The full slate 5 or more points behind track** (estimate D+1 or lower):
    - **The odds:** P(trifecta) falls below a coin flip (42%).
-   - **The plan change:** order 2028-29 preparation by what pays off under both presidencies, and stop treating the trifecta plan as the default.
+   - **The response:** contingency preparation. Give more 2028 preparation time to work that pays off under both presidencies. The 2029 premise stays a trifecta.
 3. **The full slate 10 or more points ahead** (estimate D+7 or higher):
    - **The odds:** P(55+) reaches 88%.
    - **The question it raises:** whether #80's planning band should reach above 56 for the 2029-30 Congress. The 2030 and 2032 drops still argue against planning the later Congresses on it (`2030-2034-control.md`).
