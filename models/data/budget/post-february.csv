@@ -1,0 +1,8 @@
+id,kind,category,year,year_end,base,change,rule,after,label,basis
+FY26-rev_total,fy2026_actual,rev_total,2026,,5234.616,169,replace_total,,FY2026 revenue (FY2025 actual plus the reported change),"CBO Monthly Budget Review for September 2026, via AAF and CRFB, Oct 8, 2026: revenue up $169B"
+FY26-out_total,fy2026_actual,out_total,2026,,7009.986,386,replace_total,,FY2026 outlays (FY2025 actual plus the reported change),"Same source: outlays up $386B"
+FY26-out_net_interest,fy2026_actual,out_net_interest,2026,,969.938,115,replace,,FY2026 net interest,"Same source: net interest up $115B"
+FY26-rev_customs,fy2026_actual,rev_customs,2026,,194.866,-22,replace,,FY2026 customs duties,"Same source: customs down $22B"
+FY26-debt_public,fy2026_actual,debt_public,2026,,32400.0,,replace,,FY2026 debt held by the public,"Same source: $32.4T"
+ADJ-T1,adjustment,rev_customs,2027,2036,-650.0,,gdp_spread,fade_half_2046,"Tariff ruling: IEEPA tariffs replaced by smaller 301/338 tariffs (net revenue loss)","Estimate from CRFB (Jul 2026): replacement tariffs ~$950B through FY2036, <60% of lost IEEPA revenue"
+ADJ-T2,adjustment,rev_customs,2027,2027,-36.0,,one_time,,Remaining IEEPA tariff refunds,"AAF (Oct 2026): ~$130B of $166B refunded in FY2026"

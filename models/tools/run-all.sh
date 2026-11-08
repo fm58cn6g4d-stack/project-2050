@@ -33,9 +33,12 @@ if [[ $FETCH == 1 ]]; then
 else
   echo "== 5. fiscal baseline";  python3 fiscal-data.py --cache "$DATA/cbo" --out "$BUILD/fiscal-baseline.csv"
 fi
+echo "== 5b. budget data layer"; python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_data.py 2>&1 | tail -1
 echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fiscal-baseline.csv" > fiscal-model.log; head -1 fiscal-model.log
 python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 python3 "$TOOLS"/test_climate_integration.py
+echo "== 6a. provision specs (budget B3)"; python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_provisions.py 2>&1 | tail -1
+python3 "$TOOLS"/budget/provisions_report.py --ledger "$BUILD/ledger.json" --out "$BUILD/budget-provisions.md"
 echo "== 6b. carbon model";    (cd "$TOOLS"/carbon && node cfd-tests.js >/dev/null) || { echo "carbon model checks failed: run node models/tools/carbon/cfd-tests.js"; exit 1; }
                                 cp "$TOOLS"/carbon-model.py "$BUILD"/; python3 carbon-model.py
 echo "== 6c. dedicated funds";  cp "$TOOLS"/funds-model.py "$BUILD"/; python3 funds-model.py
@@ -70,6 +73,7 @@ python3 "$TOOLS"/budget/assumptions_page.py --out "$BUILD/budget-assumptions.md"
 OUT=(
   'climate-ledger-integration.md|legacy/sources/climate-ledger-integration.md'
   'budget-assumptions.md|models/tools/budget/assumptions.md'
+  'budget-provisions.md|models/tools/budget/provisions.md'
   'recovery-budget.md|legacy/index/recovery-budget.md'
   'recovery-budget.json|models/data/recovery-budget.json'
   'recovery-budget-paths.csv|models/data/recovery-budget-paths.csv'
