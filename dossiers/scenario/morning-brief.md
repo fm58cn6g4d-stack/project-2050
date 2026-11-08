@@ -1,8 +1,8 @@
 # Morning brief: the politics after 2026, and what it means for 2029
 
-Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file on `main` at `7d50150`, where all the scenario PRs it cites are merged (#82, #84, #86-#88, #90-#96 and #98; #89's memo arrived through #94), and against PR #80 at `e3b5de6`.
+Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file on `main` at `7d50150`, where all the scenario PRs it cites are merged (#82, #84, #86-#88, #90-#96 and #98; #89's memo arrived through #94), and against PR #80 as merged.
 
-**Where the files are.** Every file named here is merged into `main`, apart from PR #80's decision file (`d1-planning-scenario.md`, at `e3b5de6`) and `2028-lame-duck.md`, which is in [PR #100](https://github.com/fm58cn6g4d-stack/project-2050/pull/100) (not yet merged; checked at `d09d274`). All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
+**Where the files are.** Every file named here is merged into `main`. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
 
 ## How much to trust these numbers
 
@@ -44,7 +44,7 @@ PR #96 ([2027-scorecard.md](2027-scorecard.md)), updated by PR #98, sets out now
 
 ## The 2028 lame duck
 
-From `2028-lame-duck.md` (PR #100, not yet merged). Costs are the Joint Committee on Taxation's, sent with CBO's letter of August 4, 2025; no figure comes from the administration.
+From [2028-lame-duck.md](2028-lame-duck.md) (PR #100). Costs are the Joint Committee on Taxation's, sent with CBO's letter of August 4, 2025; no figure comes from the administration.
 
 - **What expires after tax year 2028:** the four household deductions (no tax on tips, no tax on overtime, car-loan interest, and the $6,000 deduction for people 65 and over), plus the $1,000 children's-account pilot and expensing for factories. The higher SALT cap ($40,000) and the clean fuel credit end a year later, after 2029.
 - **What extending them would cost:** the four household deductions are $33 billion in FY2029, then $68-73 billion a year: $384 billion over FY2029-34. All ten temporary provisions together are $787 billion.
@@ -81,21 +81,14 @@ From `2028-lame-duck.md` (PR #100, not yet merged). Costs are the Joint Committe
 
 Sources: `senate-model-2028.md`, sections 4-6 and 9, and `2030-2034-control.md`, section 3 (both PR #84).
 
-## 3. Decisions waiting on you
+## 3. Decisions: what was decided, and what still waits
 
-**PR #80: the planning scenario (D1).** It is tier 3, so only your `espen-approved` label merges it. I have not applied or asked for any label. #80 is now at `56b54cd`.
+**Decided this morning**
+- **The planning scenario (D1), PR #80, merged at 14:28 UTC with your label** (`DEC-2026-11-08-01`, [d1-planning-scenario.md](d1-planning-scenario.md)). Plan for a Senate of 53-56 seats, test every item at 51, and treat 58 or more as upside. Plan on a full trifecta in 2029-30, the House included, as you directed ("the premise of the Project 2050 work includes an initial trifecta window in 2029-30"); other outcomes are modeled and prepared for from 2030 on. The models center near 57 seats with a Democratic president, so 53-56 is the cautious end.
+- **Housing point 5, the rules for emergency rent help: approved as written** (on Notion at 14:10 UTC, as the lead reported; not yet recorded in the repository). The rules are in `dossiers/home/point-5-emergency-aid-rules.md`. Their basis: in the Treasury inspector general's cases of questioned payments in the last program, the fraud came through fake leases and false landlords, so the checks before payment fall on the landlord and the property, while tenants may state their own income and hardship.
+- **The merge-gate fix (PR #76)** merged on October 30.
 
-**The House is settled by your direction on #80** (November 8, 14:20 UTC): "Act as if the House goes to Democrats in the 2028 election along with the Senate and White House. For 2030 and beyond, we can model and prepare for other outcomes, but the premise of the Project 2050 work includes an initial trifecta window in 2029-30." So D1 plans for a full trifecta in 2029-30, the House included (House option 1), and no "H" tag is added. **Only the Senate band still waits on you:** add the label for B, or comment if you want C.
-
-*The Senate band (waiting on you).*
-
-| Option | Plan for | Test every item at | Upside | What changes in the plan |
-| --- | --- | --- | --- | --- |
-| A. Keep the old D1 | 52-54 seats | 51 | 56+ | Nothing. Bills that need 55 dependable votes stay out of the base package. The old assumption that Democrats hold the Senate to 2036 stays in. |
-| **B. Plan for 53-56 (recommended)** | **53-56** | **51** | **58+** | Each dossier designs for a somewhat bigger Senate. The 51-seat test stays, so nothing that passes today drops out. The "hold to 2036" assumption is replaced by a stated risk in 2030 and 2032. The House assumption now notes the 2027 majority and the *Callais* ruling. |
-| C. Plan for the center | 55-57 | 52 | 60 | Matches the models' central estimate, but fails in a bad year (Minnesota lost and a weak 2028), when the average falls to about 55. The safety test rises from 51 seats to 52. |
-
-B is now the conservative choice. With a Democratic president the models center on about 57 seats (90% range 53-60), and C matches that center. #80 still recommends B for three reasons: a planning band should hold in a bad year too; what decides regular-order bills is the filibuster head count, which a higher band doesn't change; and B keeps the 51-seat test. If the 2027 results run well ahead of track, the band can be raised then. To choose B, add the label. To choose A or C, leave a comment and the author session will rewrite it. If you decide on a later day than November 8, say so, so the decision can be re-dated.
+**Still waiting on you**
 
 **The defense and DEM-2 memo: two choices, decided separately.** Neither changes anything until you decide.
 
@@ -120,16 +113,9 @@ B or C changes the adopted model inputs, which Codex looks after. That is a tier
 
 The memo now recommends D, changed from B after PR #91 found that nearly all of DEM-2's value for the 2032 maps comes from part 2, not the ban. B stays the choice if you want the commission mandate tried in court.
 
+**Housing memos 3, 4, 5, 6 and 8** are still open (`dossiers/home/memos/`); section 4 gives input to them.
+
 *Contingency, not a 2029 choice: a Republican House.* PR #88's stress test (`house-stress-test-2029.md`) stays as analysis for 2030 and after. It looks at a Democratic president and Senate with a Republican House, about 11% of Democratic-president runs in the models. In that case the three budget bills are gone, probably until 2033. What remains: every nomination, the Senate's own rules, and executive action. The leverage would come from spending bills, the debt limit and expiring tax deductions. The same tools matter if the House is lost in the 2030 midterm, which D1 plans for.
-
-**Housing point 5: the rules for emergency rent help (approve or amend).** PR #93, now on `main`, answers your open question (`dossiers/home/point-5-emergency-aid-rules.md`). Its key finding: in the Treasury inspector general's cases of questioned payments in the last emergency rent program, the fraud came through fake leases and false landlords, not tenants misstating income. So the checks before payment fall on the landlord and the property. The five lines to approve or amend:
-1. **Who:** renters at or below 50% of area income (or already on SNAP, Medicaid or SSI) facing a housing crisis now, ranked by a short tested risk screen, court cases first.
-2. **Payments:** back rent plus up to two months ahead, capped by local rents, one episode a year; legal help paid separately.
-3. **Checks:** tenants may state income and hardship; identity, tenancy and the landlord's ownership checked before paying; a random sample audited afterward.
-4. **Landlords:** may apply with the tenant's consent; paid first, with tenants paid if the landlord refuses; no eviction for paid months; payment within 30 days.
-5. **Accountability:** the error rate measured from year one and published; one administrator per place, funded by a need-and-performance formula; one payment data standard with a duplicate check.
-
-**PR #76 (the merge-gate fix): nothing to do.** You approved it, and it merged on October 30.
 
 **Three smaller questions the new files raise** (not urgent):
 - Should the filibuster plan now treat the talking filibuster (D2-C) as the likely 2029 rule, with graduated cloture as the upside? (`senate-model-2028.md`, section 9)
