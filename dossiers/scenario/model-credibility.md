@@ -91,18 +91,18 @@ The back-test shows how those judgments compare with simple rules applied two ye
 
 | Prior | P(D president) | P(55+ Senate seats) | P(D House 2029) | P(trifecta) | P(D House 2033), D president: no DEM-2 / with Titles I-II |
 | --- | --- | --- | --- | --- | --- |
-| Even, SD 4.5 | 42% | 42% | 41% | 35% | 34% / 49% |
-| D+1.5, SD 4.5 | 54% | 53% | 53% | 47% | 37% / 52% |
-| D+3.0, SD 3.0 | 71% | 65% | 67% | 61% | 36% / 51% |
-| **D+3.0, SD 4.5 (published)** | **65%** | **63%** | **64%** | **58%** | **42% / 56%** |
-| D+3.0, SD 6.0 | 62% | 61% | 61% | 56% | 48% / 61% |
-| D+4.5, SD 4.5 | 76% | 72% | 74% | 70% | 47% / 60% |
-| D+5.7, SD 4.5 (the rule) | 83% | 78% | 81% | 77% | 51% / 64% |
-| D+7.0, SD 4.5 | 88% | 84% | 86% | 84% | 57% / 69% |
+| Even, SD 4.5 | 42% | 42% | 41% | 35% | 50% / 61% |
+| D+1.5, SD 4.5 | 54% | 53% | 53% | 47% | 53% / 63% |
+| D+3.0, SD 3.0 | 71% | 65% | 67% | 61% | 51% / 63% |
+| **D+3.0, SD 4.5 (published)** | **65%** | **63%** | **64%** | **58%** | **57% / 67%** |
+| D+3.0, SD 6.0 | 62% | 61% | 61% | 56% | 62% / 71% |
+| D+4.5, SD 4.5 | 76% | 72% | 74% | 70% | 61% / 71% |
+| D+5.7, SD 4.5 (the rule) | 83% | 78% | 81% | 77% | 65% / 74% |
+| D+7.0, SD 4.5 | 88% | 84% | 86% | 84% | 70% / 78% |
 
 - **The center matters most.** Each 1.5 points moves the trifecta by about 11-12 points.
 - **The spread matters little.** Over SD 3-6, the trifecta moves by 5 points.
-- **The 2033 House barely moves,** because the 2030 midterm and the 2032 environment dominate it. DEM-2's gain is about 13-15 points in every row.
+- **The 2033 House moves less:** 50-70% without DEM-2 across the whole range, because the 2030 midterm and the 2032 environment dilute the 2028 starting point. DEM-2's gain is about 8-12 points in every row.
 
 **What would move the prior between now and 2028.** Each is a signal to fold in as it arrives; none is in the model yet:
 
@@ -132,7 +132,7 @@ The back-test shows how those judgments compare with simple rules applied two ye
 | 4 | **The House break-even about D+1.5,** with a +1.5-point incumbency shift and about +1.5 net seats from pending redraws | A break-even of D+2 to D+4 moves P(Democratic House) at D+3 between 62% and 84% | The New York referendum (November 2027); Maryland's MD-1 map; the Wisconsin rulings; freshman Democrats' retirements; the first Cook and Inside Elections ratings in early 2027 |
 | 5 | **The caucus's filibuster positions,** which give D2-F the votes in 63% of runs (range 14-87%) | It decides whether a large Senate turns into regular-order bills, and so whether DEM-2 and statehood can pass at all | Statements by the 2026 reform camp (Turek, Andrews, Pappas) on graduated cloture specifically; Colom's and Peltola's positions if seated; any 2027 cloture-reform votes; Fetterman's 2028 primary |
 
-**Also high-leverage, but not top five:** how much of a gerrymander DEM-2's Title II would remove in court. It is worth +6 to +13 House seats across its tested range, and it is a legal question, not an electoral one (`redistricting-2030-model.md`).
+**Also high-leverage, but not top five:** how much of a gerrymander DEM-2's Title II would remove in court. Together with how much of today's Republican lean is maps rather than geography, it sets DEM-2's value at +2 to +10 House seats (`redistricting-2030-model.md`). The first is a legal question; the second an empirical one.
 
 ## Next questions
 
