@@ -220,6 +220,16 @@ class SpendingByAccount(unittest.TestCase):
             n[r["year"]] = n.get(r["year"], 0) + int(r["accounts"])
         self.assertEqual(set(n.values()), {1979})
 
+    def test_cbo_calibrated_spendout(self):
+        """History's timing, CBO's level: one scale factor near 1, a close fit to CBO's outlays."""
+        s = D.table("spendout-discretionary-cbo")
+        for grp in ("defense", "nondefense"):
+            rows = [r for r in s if r["group"] == grp]
+            self.assertEqual([int(r["year_of_spending"]) for r in rows], list(range(build_data.LAGS)))
+            self.assertTrue(0.95 < float(rows[0]["scale"]) < 1.05, grp)
+            self.assertTrue(0.95 < float(rows[0]["sum_of_shares"]) < 1.05, grp)
+            self.assertLess(float(rows[0]["calibration_rmse_pct"]), 2.0, grp)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=1)
