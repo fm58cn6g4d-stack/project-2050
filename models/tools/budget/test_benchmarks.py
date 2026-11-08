@@ -413,7 +413,7 @@ def bm_sensitivity(M):
                    "Table 3, on the February 2026 baseline; Espen's November 8 upload (PR #121)",
                    "The model's stress cases (DEC-R1, BASE-R1) raise every rate by one point from FY2030. Here the same method, reproduced "
                    "exactly (it gives BASE-R1 to the dollar), is run on CBO's own scenario: every rate 0.1 point higher each year, on CBO's "
-                   "baseline, from FY2027 (the model's first year it can shock). That compares like with like, with no scaling. CBO says its "
+                   "baseline, from FY2027 (the first year the model can shock). That is the closest comparison the model allows, with no scaling. It is not exact: CBO's scenario starts in FY2026, a year earlier, so CBO's figure for each year has had one more year to phase in. That makes the comparison kinder to the model, not harsher. CBO says its "
                    "rules of thumb are roughly symmetrical and scalable up to one point. The total gets 15% for CBO's rounding and the "
                    "model's simpler rate rule; each year gets 25%, because the stress case is read year by year (the guardrails in "
                    "2035, 2045 and 2056), so timing matters as well as the total. Revenue effects (Federal Reserve remittances, under "
