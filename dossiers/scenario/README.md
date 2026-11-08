@@ -20,7 +20,11 @@ This is not a flagship dossier, so it does not follow the nine-section template.
 | `2027-28-playbook.md` | The 2027-28 governing playbook as options: federal levers, governors and trifectas, courts and executive-defiance risks; each with odds (analysis) and its effect on 2028 conditions |
 | `2028-outlook.md` | 2028 as scenarios with drivers: the presidential fields, the House map, governor races, what moves the national environment |
 | `compounding-2029-2050.md` | How the 2026 result and 2027-28 paths change the 2029 plan and the long run (pre-built bills, the 2029 starting point, stage order, courts, the census, redistricting, durable majorities); questions for Espen |
-| `2027-28-stress-tests.md` | Two rounds of hard questions on the four files above, the research and revisions, and the combined next questions |
+| `2027-28-stress-tests.md` | Three rounds of hard questions on the files above, the research and revisions, and the combined next questions |
+| `2028-republican-branch.md` | If a Republican wins in 2028 and Democrats keep the Senate: what survives of the 2029 plan and what the project could do |
+| `compounding-prebuild.md` | The pre-build pipeline: for each flagship, what a 2027-28 House bill would contain, its vehicle and its lock-in risk |
+| `compounding-redistricting.md` | Redistricting through 2032: the 2028 redraws, what DEM-2 is worth in seats, who draws in 2031, the states ranked |
+| `compounding-defense.md` | The defense lock-in: three FY2028 paths and their effect on NSC-1A's 2030-39 base (script in `tools/`) |
 
 **Time frame.** Under `DEC-2026-10-29-01` the plan is a governing program from January 2029. 2027-28 is one of its two labeled exceptions, and the work here on 2027-28 is that exception: it serves the 2029 plan and does not replace it.
 
