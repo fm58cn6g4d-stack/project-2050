@@ -228,7 +228,7 @@ The process is designed for AI agents working without memory between sessions, w
 
 **Roles:**
 - **Claude** leads the dossiers and the federal budget model, with its shared fiscal inputs (`DEC-2026-11-08-02`).
-- **Codex** leads fair financing, and reviews the federal budget model independently at its benchmark and integration milestones.
+- **Codex** leads fair financing, and is asked to review the federal budget model at its benchmark and integration milestones. This is a convention, not enforced by the merge gate: those PRs request Codex's review by comment, and if Codex is unavailable they say so and merge on the Claude reviewer's review.
 - Each reviews the other's work at milestones.
 - At most two dossiers are active at once.
 
