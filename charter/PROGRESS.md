@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated October 29, 2026 by Claude Code (stage C, step 4r).
+Updated November 8, 2026 by Claude Code (stage B, step 1).
 
 ## Standing sessions
 
@@ -11,7 +11,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
 | Lead | `session_01UQzgBx6gAsCr9hXdHVxrQy` | Project 2050: lead | October 28 (began as the stage A reset session) |
-| Reviewer | `session_01QHgvhVvafmiGMqU7Vewnst` | Project 2050: reviewer | October 26; woken every three hours by the "Project 2050 Claude reviewer (wakes standing session)" scheduled task |
+| Reviewer | `session_01UQzgBx8fyTLVyi9sHKfawa` | Project 2050: reviewer | October 29; woken by the reviewer scheduled task. The former reviewer was `session_01QHgvhVvafmiGMqU7Vewnst` (October 26 to 29) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 ## Now
@@ -23,7 +23,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | A. Reset | 3. `library/catalog.csv` and the generated name index | Light for file facts; Standard for status, aliases and rights | Done | Claude Code | PR #48, merged |
 | A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | Done | Claude Code | PR #49, merged |
 | A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Done: approved by Espen | Claude Code | PR #50, merged |
-| B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
+| B. Post-election update | 1. Rebaseline the political planning scenario: results record by certainty, analysis review, 2027-28 framework with open questions, what it means for the 2029 plan | Most capable | In progress | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | Branch `claude/stage-b-midterms`, `dossiers/scenario/` |
 | C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | Done | Claude Code | PR #53, merged |
 | C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | Done | Claude Code | PR #54, merged |
 | C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In review: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; 2025 ACS refresh: EV-HOU-038 to 044, section 1 updated, shared-rules fixes (PR #62 notes) | Claude Code (session_01UQzgBvYjGdPE5ZxakSiAHf) | Branch `claude/acs-2025-refresh` |
