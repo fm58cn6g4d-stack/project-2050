@@ -294,11 +294,16 @@ def bm_published(M):
                (grp, "2.2%" if grp == "defense" else "3.6%"))
         det = ["Over FY2028-36 the method gives %+.1f%% of CBO's total. Largest year FY%d: %.0f against CBO's %.0f billion." % (100 * tot_gap, wy, got[wy], cbo_out[wy])]
         if grp == "nondefense":
-            det.append("A known cause, from B2's README (\"Spend-out\"): nondefense discretionary outlays include highway and transit spending "
-                       "whose budget authority is mandatory contract authority, so it is not in the discretionary budget authority that goes in. "
-                       "B3 also rescales the nondefense shares, which add to 1.10, down to one. B2 has since measured the first cause in CBO's "
-                       "account-level file (PR #114): about $94 billion a year of nondefense discretionary outlays come from accounts with no "
-                       "discretionary budget authority, $87 billion of it in function 400 (highways, transit, airports). That is roughly the size of the miss.")
+            raw = sorted((r for r in D.table("spendout-discretionary") if r["group"] == grp), key=lambda r: int(r["year_of_spending"]))
+            raw = [float(r["share"]) for r in raw]
+            unscaled = {y: sum(raw[k] * ba[y - k] for k in range(len(raw))) / cbo_out[y] - 1 for y in yrs}
+            det.append("Most of the miss comes from B3's rescaling, not from B2's shares. B2's nondefense shares as stored add to 1.10; with them, "
+                       "the gap in FY%d is %+.1f%% (largest year FY%d, %+.1f%%). The extra tenth carries, implicitly, outlays whose budget "
+                       "authority isn't discretionary: B2 measured about $94 billion a year of them in CBO's account-level file (PR #114), "
+                       "$87 billion in function 400 (highways, transit, airports). B3 rescales the shares to add to one (provisions._spendout), "
+                       "which drops those outlays. B2 found this first; B2's PR #114 also proposes CBO-calibrated shares plus those outlays added "
+                       "separately. Which to adopt is for B3's owner and the strategy session." % (
+                           wy, 100 * unscaled[wy], max(unscaled, key=lambda y: abs(unscaled[y])), 100 * max(unscaled.values(), key=abs)))
         out.append(_bm("PS-3" + ("a" if grp == "defense" else "b"), "Published scores",
                        "CBO: discretionary %s outlays from budget authority (February 2026 baseline)" % grp,
                        "pass" if abs(gaps[wy]) <= 0.05 else "fail", "%+.1f%%" % (100 * gaps[wy]), "CBO's outlays, FY2028-36", "5% in each year",
