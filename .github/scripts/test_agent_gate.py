@@ -61,7 +61,7 @@ class Rules(unittest.TestCase):
         self.assertTrue(g.is_generated("models/data/dashboard/bills.json", POLICY))
         self.assertTrue(g.is_generated("legacy/index/recovery-budget.md", POLICY))
         self.assertFalse(g.is_generated("legacy/index/options-register.md", POLICY))
-        self.assertEqual(g.owners_of("models/tools/recovery-budget/model.py", POLICY), {"codex"})
+        self.assertEqual(g.owners_of("models/tools/recovery-budget/model.py", POLICY), {"claude-code"})
         self.assertEqual(g.owners_of("legacy/sources/climate-portfolio-allocation.md", POLICY), {"claude-code"})
 
 
