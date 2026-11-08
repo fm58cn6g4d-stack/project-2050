@@ -11,11 +11,11 @@ Facts are from `1-results.md` unless cited here. Section 6 checks the two input 
 | Lever | Held by | What it does in 2027-28 | Can Trump block it? |
 | --- | --- | --- | --- |
 | Floor agenda, committees, hearings | Democratic House and Senate | Decide what gets a vote; House-passed bills become a record and pre-drafted text | No |
-| Oversight and subpoenas | Committee chairs (expected: Garcia, Oversight; Raskin, Judiciary; DeLauro, Appropriations [SRC-0523]) | Investigations, documents, testimony | Partly: the executive can refuse and litigate, and the Justice Department will not prosecute contempt of Congress against its own officials |
+| Oversight and subpoenas | Committee chairs (expected: Garcia, Oversight; Raskin, Judiciary; [SRC-0523]; DeLauro, Appropriations [SRC-0524]; all projections until steering committees act) | Investigations, documents, testimony | Partly: the executive can refuse and litigate, and the Justice Department will not prosecute contempt of Congress against its own officials |
 | Senate confirmation | Democratic Senate | Every nominee, judges included, needs Democratic votes; departures are already reported (Dhillon at Civil Rights; Rubio reportedly weighing leaving State) [SRC-0522] | No, though acting officials and the post-*Slaughter* removal power let him run agencies without confirmed heads [SRC-0547] |
 | Budget resolution | Congress (a concurrent resolution, not signed by the President) | Sets toplines and allows a 51-vote reconciliation bill | The resolution, no; the reconciliation bill, yes, by veto |
 | Appropriations | Congress writes; President signs | Funding levels, riders, guardrails; the stopgap runs out December 11, then FY2028 on October 1, 2027 | Yes by veto, at the price of a shutdown he would share |
-| War powers | Congress | Joint resolutions to end hostilities with Iran passed the House in June and July 2026 and failed in the Senate [SRC-0534] | Yes by veto; a concurrent resolution has no legal force |
+| War powers | Congress | The House passed war powers measures in June and July 2026; the June one was a concurrent resolution never sent to the President, and the July joint resolution failed in the Senate 47-49 [SRC-0534] | Yes by veto; a concurrent resolution has no legal force |
 | Impeachment | House impeaches; Senate convicts by 67 | Massie (R) plans articles against Defense Secretary Hegseth [SRC-0524] | No, but conviction is out of reach |
 | The veto | President | "I have the ultimate power — it's called 'veto'" [SRC-0520] | — |
 | Executive orders, rules, enforcement | President | Most of the 2025-26 agenda ran this way | — |
@@ -23,7 +23,7 @@ Facts are from `1-results.md` unless cited here. Section 6 checks the two input 
 | Impoundment and pocket rescissions | President, contested | GAO found the $810 million pocket rescission illegal on September 29, 2026 [SRC-0536]; courts have narrowed private suits | Congress's remedies are guardrail language, GAO and litigation, not certainty |
 | Tariffs | President, narrowed | IEEPA tariffs were struck down February 20, 2026; the administration moved to Sections 122, 232 and 301 [SRC-0535] | Congress can pass limits; he can veto them |
 | States | 30 Democratic governors (if Kansas and Alaska hold); about 22 Democratic trifectas | Medicaid work requirements start January 1, 2027, and SNAP cost shifts begin in FY2027 and FY2028, so states choose how to carry them out; state versions of blocked federal policy | No, within federal law; federal cost shifts constrain state budgets |
-| The courts | | *Slaughter* (June 29, 2026) ended for-cause protection at the FTC and similar bodies [SRC-0547]; *Callais* (April 29) narrowed Section 2 of the Voting Rights Act [SRC-0546] | — |
+| The courts | | *Slaughter* (June 29, 2026) ended for-cause protection at the FTC and put the NLRB, FERC and similar bodies in doubt [SRC-0547]; *Callais* (April 29) narrowed Section 2 of the Voting Rights Act [SRC-0546] | — |
 
 **What Trump cannot block:** the agenda, hearings, investigations, the record, a budget resolution, the Senate's refusal to confirm, a House impeachment, and states acting within their powers. **What he can block:** any law, any reconciliation bill, and any appropriation, at a price. **What 41 Senate Republicans can block, even where Trump might sign:** anything outside reconciliation and appropriations deals.
 
@@ -34,15 +34,15 @@ Facts are from `1-results.md` unless cited here. Section 6 checks the two input 
 | Lame duck, to January 3 | Stopgap past **December 11** | No FY2027 bill enacted; the House passed 3 of 12 [SRC-0526] | Short stopgap, or settle FY2027 with the outgoing Republican Congress? |
 | | Republican "reconciliation 3.0" (defense, Iran, possibly the debt limit) | Thune refused to bring up the July resolution; one analyst puts passage at about 10% [SRC-0524] | Mostly theirs to decide |
 | | Iran war supplemental | Requested June 24: $87.6 billion, $67.1 billion of it defense; not enacted [SRC-0525] | |
-| | Permitting, S. 5653 (Capito, Lee, Whitehouse, Heinrich) | White House supports; Capito wants it as the first post-election vote [SRC-0542] [SRC-0527] | It is D1's permitting stipulation (section 5 of `4-2029-plan.md`) |
-| | Year-end lapses | Farm bill expired September 30 (dairy reverts to 1949 law January 1); Community Health Center Fund and Ex-Im Bank expire December 31; FISA 702 lapsed June 12 [SRC-0526] [SRC-0527] | Extensions are leverage for both sides |
+| | Permitting, S. 5653 (Capito, Lee, Whitehouse, Heinrich) | White House supports; Capito reportedly wants it as the first post-election vote (search summary only) [SRC-0542] [SRC-0527] | It is D1's permitting stipulation (section 5 of `4-2029-plan.md`) |
+| | Year-end lapses | Farm bill expired September 30 (dairy reportedly reverts to 1949 law January 1; trade-press snippet); Community Health Center Fund and Ex-Im Bank expire December 31; FISA 702 lapsed June 12 [SRC-0526] [SRC-0527] | Extensions are leverage for both sides |
 | | Merkley-Daines Senate rules package | Released October 8; needs 67 votes; no post-election vote found [SRC-0529] [SRC-0530] | Whether any of it passes changes D2's 2029 fight |
 | 2027 | FY2027 full-year bills, then **FY2028 by October 1, 2027** | Democrats write the bills | Levels, guardrails and riders; the defense base (section 6) |
 | | A Democratic FY2028 budget resolution and reconciliation bill | 51 votes; a certain or likely veto | Worth it as a record? Which fiscal-year slots it spends (section 4) |
 | | Debt limit | Likely reached about May 2027; Treasury's extraordinary measures last to about February 2028 (NTU, a fiscally conservative group) [SRC-0528] | A must-pass bill with 60-vote leverage both ways |
 | | NDAA, farm bill, surface transportation | NDAA failed cloture in the Senate in 2026; farm bill expired; surface transportation was extended on the stopgap | Bipartisan must-pass bills where Democrats now write the base text |
-| | Oversight program | Chairs have named the Epstein files, Trump family business, DHS and ICE, pardons and crypto [SRC-0523] | How it is sequenced against delivery |
-| 2028 | FY2029 appropriations; tax expirations | OBBBA's tips, overtime and senior deductions expire after tax year 2028 | A 2028 tax fight that sets the 2029 baseline |
+| | Oversight program | Likely chairs, per a law firm's projection, have named the Epstein files, Trump family business, DHS and ICE, pardons and crypto [SRC-0523] | How it is sequenced against delivery |
+| 2028 | FY2029 appropriations; tax expirations | OBBBA's tips, overtime and senior deductions expire after tax year 2028 (secondary sources; check against the statute) | A 2028 tax fight that sets the 2029 baseline |
 | | The 2028 election | Federal election administration money falls in FY2028 bills; 30 Democratic governors and six new Democratic secretaries of state | Protecting the count is a delivery question too |
 
 ## 3. What could count as success
@@ -90,14 +90,14 @@ The two docs are useful and broadly accurate on results; several figures are out
 | Claim in the docs | Check |
 | --- | --- |
 | "A likely 56-seat Senate" | **Not yet.** 54 called; 55 or 56. 56 needs Peltola to survive the ranked-choice count, which is close |
-| House "about 255-264," the largest majority "since the early 1990s" | **Range fine, top high.** About 256-263. "Since the early 1990s" holds only at about 258 or more |
+| House "about 255-264," the largest majority "since the early 1990s" | **Range fine, top high.** About 256-263. "Since the early 1990s" holds only at 259 or more (258 ties 1993-95) |
 | "About 30-31 governors" | **30 at most** |
 | Trifectas in MI, MN, NV, PA and WI | **Six**, with Arizona |
 | "43% said their vote expressed disapproval" | 44% in the current weighting; 43% was earlier |
 | Trust on health costs 42-22 and cost of living 39-25 | **Misattributed**: KFF's September poll, not post-election data |
 | A third of Democrats are democratic socialists | From a July CNN poll; consistent with the Voter Poll |
 | Moderates about half the coalitions in flipped Senate states | **No source found** |
-| Trump's pre-election approval "~32%" | Reuters/Ipsos's figure; the Silver Bulletin average was about 38% [SRC-0541] |
+| Trump's pre-election approval "~32%" | Reuters/Ipsos's figure [SRC-0541]; the Silver Bulletin average was about 38% (search summary only) |
 | PBM reform as a "signable" 2027 bill | **Partly enacted** on February 3, 2026, in H.R. 7148 (Part D delinking, pass-through, transparency) [SRC-0540]; only the remaining pieces are open |
 | A $67 billion Iran supplemental | $87.6 billion, of which $67.1 billion is defense [SRC-0525] |
 | ICE and Border Patrol pre-funded through FY2029 | **Confirmed** [SRC-0537] |
@@ -112,8 +112,8 @@ The two docs are useful and broadly accurate on results; several figures are out
 - *House-passed bills pre-build 2029:* **supported, with a design caution.** They give text, scores and a record; they also fix designs before dossiers decide them (section 4). One answer is to pass bills at the level of direction where a dossier has not decided, and in full where one has.
 - *Governors as the delivery arm:* **supported by the map, constrained by money.** Six new Democratic trifectas and 30 governors, but SNAP administrative cost shifts begin in FY2027 and benefit cost shares in FY2028, and Medicaid work requirements start January 1, 2027 (OBBBA, as summarized by the landscape research; recheck against statute).
 - *The institutional-buyer bill duplicates current law:* **confirmed.** ROAD Act section 1001 bars large investors (350 or more single-family homes) from buying more, from January 7, 2027 until its sunset about 2042, with built-in reporting (`dossiers/home/road-act.md`). Per the lead's brief, Espen chose to keep that limit as enacted (HOU-7B); that choice is not yet recorded in the charter or the agenda, so this review treats it as the working direction, not a recorded decision. A 2027 bill on the same ground would add nothing unless it changes the limit.
-- *Dollar-for-dollar defense parity raises the FY2029 base:* **confirmed by the docs' own numbers.** The Ledger's likely FY2027 deal puts the defense bill at $870 billion against $838.7 billion in FY2026, about 1.3% real growth, and its FY2028 target at $905 billion [SRC-0545]. NSC-1A holds defense flat in real terms *from the FY2029 base*, so every dollar added in 2027-28 is carried into the 2029-39 plan. The docs' figures are proposals, not sourced estimates.
-- *"Trump is a popularity-seeker with a veto pen":* **one analyst's judgment.** Evidence runs both ways: he says he will work with Democrats "unless they want to be destructive" and that vetoes lead to deals [SRC-0520] [SRC-0521]; he also let the ROAD Act become law unsigned rather than claim it, sought to overturn a count in Alaska, and calls himself "Mr. Veto." Treat it as a hypothesis to test on the first bills, not a premise.
+- *Dollar-for-dollar defense parity raises the FY2029 base:* **confirmed by the docs' own numbers.** The Ledger's likely FY2027 deal puts the defense bill at $870 billion against $838.7 billion in FY2026, about 1.3% real growth, and its FY2028 target at $905 billion, a further 4% nominal [SRC-0545]. NSC-1A holds defense flat in real terms *from the FY2029 base*, so every dollar added in 2027-28 is carried into the 2029-39 plan. The docs' figures are proposals, not sourced estimates.
+- *"Trump is a popularity-seeker with a veto pen":* **one analyst's judgment.** Evidence runs both ways: he says he is willing to work with Democrats [SRC-0521], reportedly "unless they want to be destructive" (CBS, search summary only), and that vetoes lead to deals [SRC-0520]; he also let the ROAD Act become law unsigned rather than claim it, sought to overturn a count in Alaska, and calls himself "Mr. Veto." Treat it as a hypothesis to test on the first bills, not a premise.
 - *An early deal can lock in weaker designs:* **agreed**, and it is the central design question for the two years (question 2).
 
 ## 7. Open questions for Espen
