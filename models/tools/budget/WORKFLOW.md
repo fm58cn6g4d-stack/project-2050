@@ -73,7 +73,12 @@ Each worker reports to the strategy session (`session_01UQzgBuA3EdnR7Dx4kUq1un`)
 ## How the work is checked
 
 - **Every piece:** `bash .github/scripts/run-checks.sh` passes; the PR carries `Agent-Author`. The reviewer session, or Codex where its review matters most (B2, B3, B4), signs off at the current head.
-- **No silent moves:** B2 and B3 must leave every headline figure unchanged; the gate's headline check enforces this. Any figure that moves is tier 3 and goes to Espen with the reason.
+- **No silent moves, by test:** the merge gate alone doesn't guarantee this. It treats a headline change under 1% as tier 2 and doesn't see per-row ledger totals. So each piece ships its own **exact-equality tests**, run by `run-checks.sh`:
+  - B2: the adopted baseline (`models/data/fiscal-baseline.csv`) is reproduced to the cent;
+  - B3: every ledger row's FY2030-39 total, and `models/data/fiscal-paths.csv`, are unchanged;
+  - B6: the same tests, rerun after integration.
+
+  A figure that has to move is a project decision for Espen: a tier-3 PR with the reason, labeled `needs-espen`, whatever tier the gate assigns.
 - **Benchmarks before trust:** nothing new feeds a public or decision figure until B4's benchmarks pass.
 - **Assumptions are cited:** after B1, every assumption the model uses has an `ASM-` entry, and the checker fails on an uncited one once B6 lands.
 
