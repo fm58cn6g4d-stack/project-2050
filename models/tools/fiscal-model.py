@@ -39,8 +39,8 @@ SCENARIOS = [
     ("DEC", "Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims", DEC, {}),
     ("DEC+ENV", "Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S", DEC, {"envelope": 0.5, "net_of_borrow": True}),
     ("DEC-DYN", "Decided, with CBO-style dynamic feedback (about -$0.56T)", DEC, {"dynamic": "mid"}),
-    ("DEC-R1", "Decided, with interest rates 1 point higher on all debt from 2030", DEC, {"rate_shift": 1.0}),
-    ("BASE-R1", "Baseline with interest rates 1 point higher from 2030", None, {"rate_shift": 1.0}),
+    ("DEC-R1", "Decided, with interest rates 1 point higher from 2030, phased in as debt rolls over", DEC, {"rate_shift": 1.0}),
+    ("BASE-R1", "Baseline with interest rates 1 point higher from 2030, phased in as debt rolls over", None, {"rate_shift": 1.0}),
     ("DEC+TRIMS", "Decided plus the five trims declined in Decision Brief 2 (reference only)", DEC + TRIMS, {}),
 ]
 
@@ -188,18 +188,18 @@ def build(ledger_path, baseline_path):
     adj_primary = {y: B[y]["adj_deficit"] for y in range(Y0, Y1 + 1)}
     E_I, E_D = debt_roll(B, adj_primary, 0.0, start_balance=B[2026]["debt_public"] - cbo_debt_2026, start_year=2027)
 
+    core_debt = lambda y: B[y]["debt_public"] + (E_D.get(y, B[2026]["debt_public"] - cbo_debt_2026) if y >= 2026 else 0.0)
     def baseline(shift=0.0):
-        """Adjusted current-law path. A rate shift (percentage points, from 2030) raises the
-        rate on all debt and the extra interest compounds."""
+        """Adjusted current-law path. A rate shift (points, from 2030) phases in as the debt outstanding
+        in 2029 rolls over (rate_shift_interest, ASM-RATE-ROLLOVER); the extra interest compounds."""
         out, sD = {}, 0.0
+        shifted = rate_shift_interest(B, core_debt, shift, W0, read_rollover()) if shift else {}
         for y in range(Y0, Y1 + 1):
             b = B[y]
             if y == Y0:
                 out[y] = dict(gdp=b["gdp"], rev=b["rev_total"], prim_out=b["out_primary"], interest=b["out_net_interest"], debt=b["debt_public"])
                 continue
-            s_ = shift / 100 if y >= W0 else 0.0
-            prev_core = B[y - 1]["debt_public"] + (E_D.get(y - 1, B[2026]["debt_public"] - cbo_debt_2026) if y - 1 >= 2026 else 0.0)
-            sI = s_ * prev_core + (marginal_rate(B, y) + s_) * sD
+            sI = shifted.get(y, 0.0)
             sD = sD + sI
             out[y] = dict(gdp=b["gdp"], rev=b["rev_total"] - adj_primary[y], prim_out=b["out_primary"],
                           interest=b["out_net_interest"] + E_I.get(y, 0.0) + sI,
@@ -212,7 +212,7 @@ def build(ledger_path, baseline_path):
     results = {}
     for sid, label, opts, cfg in SCENARIOS:
         shift = cfg.get("rate_shift", 0.0)
-        base = baseline(shift)
+        base = apply_growth(B, baseline(shift), cfg.get("growth"))
         res = dict(id=sid, label=label, options=opts, years={})
         if opts is None:
             prog_uni = {y: 0.0 for y in range(Y0, Y1 + 1)}; prog_gf = dict(prog_uni)
@@ -310,6 +310,107 @@ def build(ledger_path, baseline_path):
     composition = {sid: {y: comp(sid, y) for y in (2026, 2034, 2039, 2045, 2056)} for sid in ("BASE", "DEC")}
 
     return dict(results=results, rows=rows, opt_rows=opt_rows, dyn=dyn, checks=checks, composition=composition, B=B, ledger_summary=L["summary"])
+
+
+def data_path(*parts):
+    """A file in models/data, from models/tools or from the build/ copy run-all.sh makes."""
+    for base in (os.path.join(HERE, "..", "data"), os.path.join(HERE, "..", "models", "data")):
+        p = os.path.join(base, *parts)
+        if os.path.exists(p):
+            return p
+    raise FileNotFoundError(os.path.join("models", "data", *parts))
+
+
+def read_rollover(path=None):
+    """Share of the marketable debt outstanding when a rate shock starts that is still at its old rate,
+    averaged over each year of the shock: {1: first year, 2: second year, ...}. From Treasury's maturity
+    structure at the end of FY2026 (models/data/budget/treasury-maturity.csv, ASM-RATE-ROLLOVER), read
+    quarter by quarter, straight lines between quarter-ends; floating-rate notes reprice at once."""
+    with open(path or data_path("budget", "treasury-maturity.csv")) as f:
+        S = [float(r["share_unrepriced"]) for r in csv.DictReader(f)]
+    return {k: sum((S[q] + S[q + 1]) / 2 for q in range(4 * (k - 1), 4 * k)) / 4 for k in range(1, (len(S) - 1) // 4 + 1)}
+
+
+def rate_shift_interest(B, core_debt, shift, start, rollover):
+    """Added net interest on the baseline's own debt when every rate is `shift` points higher from
+    fiscal year `start` (ASM-RATE-SHIFT, ASM-RATE-ROLLOVER). As in CBO's rules of thumb (publication
+    62257), the higher rate reaches the debt outstanding when the shock starts only as that debt
+    matures and is refinanced; debt borrowed after it starts pays the higher rate in full. core_debt(y)
+    is the baseline's debt at the end of year y. The added interest is itself borrowed, at the
+    program's rate plus the shift (ASM-RATE-MARGINAL). Returns {year: added interest}, start to Y1."""
+    out, sD, s_ = {}, 0.0, shift / 100
+    D0 = core_debt(start - 1)
+    for y in range(start, Y1 + 1):
+        repriced = max(0.0, core_debt(y - 1) - D0 * rollover.get(y - start + 1, 0.0))
+        sI = s_ * repriced + (marginal_rate(B, y) + s_) * sD
+        sD += sI
+        out[y] = sI
+    return out
+
+
+GROWTH_GDP_2036 = {"productivity": -1.3, "labor_force": -0.8}   # % gap in GDP in 2036, 62257 Table 1
+
+
+def growth_shares(B, path=None):
+    """CBO's rules of thumb for slower growth (publication 62257, April 2026, Table 2: productivity or
+    labor force growth 0.1 point slower each year from FY2026), as shares of CBO's February 2026 GDP by
+    year of the shock: {factor: {k: dict(rev, man, rate, gap)}}, k = 1 for the first year. rev is the
+    change in revenue, man in mandatory outlays, rate the change in net interest from lower interest
+    rates on baseline debt; gap is the GDP level gap, growing in a straight line to Table 1's 2036
+    figure (ASM-GROWTH-LINK)."""
+    out = {}
+    with open(path or data_path("budget", "cbo-rules-of-thumb.csv")) as f:
+        for r in csv.DictReader(f):
+            y = int(r["year"]); k = y - 2025; g = B[y]["gdp"]
+            out.setdefault(r["scenario"], {})[k] = dict(
+                rev=float(r["revenues"]) / g, man=float(r["mandatory"]) / g, rate=float(r["net_interest_rates"]) / g,
+                gap=GROWTH_GDP_2036[r["scenario"]] / 100 * k / 11)
+    return out
+
+
+def growth_path(B, factor, shift, start, shares=None):
+    """The budget effects of growth `shift` points a year different from CBO's (negative = slower) in
+    productivity or the labor force, from fiscal year `start` (ASM-GROWTH-LINK). CBO's 0.1-point effects,
+    as shares of GDP by year of the shock, are scaled in proportion to the shift (CBO: roughly symmetrical
+    and scalable within half a point) and applied to the baseline's GDP. After CBO's eleventh year they
+    continue on the straight line through its seventh and eleventh years. The added deficits are
+    borrowed at the program's rate (ASM-RATE-MARGINAL, ASM-RATE-HALFYEAR). Returns {year: dict(rev, man,
+    rate, debt_service, deficit, debt, gap)} from start to Y1, in billions (gap as a fraction of GDP);
+    deficit is the increase in the deficit."""
+    sh = (shares or growth_shares(B))[factor]
+    scale = shift / -0.1
+    def at(k, key):
+        if k in sh:
+            return sh[k][key]
+        return sh[11][key] + (sh[11][key] - sh[7][key]) / 4 * (k - 11)
+    out, D = {}, 0.0
+    for y in range(start, Y1 + 1):
+        k, G, r = y - start + 1, B[y]["gdp"], marginal_rate(B, y)
+        rev, man, rate = (scale * at(k, key) * G for key in ("rev", "man", "rate"))
+        flow = -rev + man + rate
+        ds = r * D + r * flow / 2
+        D += flow + ds
+        out[y] = dict(rev=rev, man=man, rate=rate, debt_service=ds, deficit=flow + ds, debt=D, gap=scale * at(k, "gap"))
+    return out
+
+
+def apply_growth(B, base, cfg):
+    """A baseline path with a growth change (cfg = dict(factor, shift, start)) applied; unchanged when
+    cfg is None. GDP, revenue, mandatory spending, interest and debt all move; the program's rows do not
+    (they stay as calibrated in dollars, ASM-GROWTH-LINK)."""
+    if not cfg:
+        return base
+    gp = growth_path(B, cfg["factor"], cfg["shift"], cfg.get("start", W0))
+    out = {}
+    for y, o in base.items():
+        o = dict(o)
+        if y in gp:
+            e = gp[y]
+            o["gdp"] *= 1 + e["gap"]; o["rev"] += e["rev"]; o["prim_out"] += e["man"]
+            o["interest"] += e["rate"] + e["debt_service"]; o["debt"] += e["debt"]
+            o["deficit"] = o["prim_out"] + o["interest"] - o["rev"]; o["primary_deficit"] = o["prim_out"] - o["rev"]
+        out[y] = o
+    return out
 
 
 def main():
