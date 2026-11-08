@@ -1,12 +1,12 @@
 # Memo: five choices about how the plan's budget is counted
 
-Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/budget/WORKFLOW.md`). It has five separate choices, each with options, a recommendation and what changes. Status: choices 1, 2, 4 and 5 decided by Espen on November 8, 2026, by following CBO's practice; choice 3 is open, waiting on a consistency check Espen asked for. Espen's direction, relayed by the lead session: "do what CBO would do for all except 3, the 2029 window, where i want you to tell me if it will mess things up for consistency of our plan's data to do as CBO does." (Choice 5 was decided first, with "do what CBO would do".) Nothing changes until Espen decides, and any change it leads to is a tier-3 PR. Sources: the "Choices for Espen" section of `models/tools/budget/CONVENTIONS.md` (B1, PR #107) and `dossiers/scenario/memo-defense-baseline-and-dem2.md`, choice (a). The `ASM-` IDs are in `models/data/budget/assumptions.csv`.
+Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/budget/WORKFLOW.md`). It has five separate choices, each with options, a recommendation and what changes. Status: all five choices decided by Espen on November 8, 2026. Choices 1, 2, 4 and 5 follow CBO's practice. For choice 3, Espen asked first whether CBO's practice would break the consistency of the plan's data, then agreed to the lead session's answer: A, plus a score in each bill's own CBO window. Espen's direction, relayed by the lead session: "do what CBO would do for all except 3, the 2029 window, where i want you to tell me if it will mess things up for consistency of our plan's data to do as CBO does." (Choice 5 was decided first, with "do what CBO would do".) Nothing changes until Espen decides, and any change it leads to is a tier-3 PR. Sources: the "Choices for Espen" section of `models/tools/budget/CONVENTIONS.md` (B1, PR #107) and `dossiers/scenario/memo-defense-baseline-and-dem2.md`, choice (a). The `ASM-` IDs are in `models/data/budget/assumptions.csv`.
 
 **About the figures.** The numbers quoted in choice 5 come from `legacy/index/fiscal-long-term-model.md`. That report is the **pre-EDU-9B comparison vintage**: by its own header, its "decided package" results don't establish whether today's plan passes D3 or D4 (see also `legacy/index/fiscal-recovery-model.md`). Here they show what each rule would do to a package like the plan, not whether the current plan passes or fails. Each test is rerun on the current plan once the budget model is integrated (B6).
 
 **How to read this.** Each choice is about how the plan's own numbers are judged. None of them changes a program. Today's practice is option A each time. Taken together, the recommendations make the plan more cautious and more visible, without making it impossible to compare with CBO. Choice 5 keeps the rule already decided, because the stricter reading would make the decided package fail every year (see below).
 
-**What CBO would do.** Espen's answer on choice 5 was to follow CBO's practice. Each choice below ends with a short note on whether its recommendation matches what CBO does and, where it departs, why. Espen then applied the same principle to every choice except 3. Each decided choice opens with its decision; the recommendations as first written are kept beneath for the record.
+**What CBO would do.** Espen's answer on choice 5 was to follow CBO's practice. Each choice below ends with a short note on whether its recommendation matches what CBO does and, where it departs, why. Espen then applied the same principle to every choice except 3, which was decided after a consistency check. Each decided choice opens with its decision; the recommendations as first written are kept beneath for the record.
 
 ---
 
@@ -57,7 +57,12 @@ Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/bu
 
 ## 3. FY2029 and the scoring window
 
-**Open.** Espen asked whether scoring as CBO does (option C, each bill over its own resolution's window) would break the consistency of the plan's data. The lead session is answering that question, and Espen decides after.
+**Decision (Espen, November 8, 2026, agreeing with the lead session's recommendation): A, plus each bill's own CBO window.** Espen asked whether scoring as CBO does would break the consistency of the plan's data. The answer: not if both come from one series.
+- **Plan totals and the D4 tests** keep one common FY2030-39 window, with FY2029 priced as a separate, disclosed line (option A).
+- **Each bill is also scored over its own CBO window:** the budget year plus nine, so R1 under an FY2029 resolution is scored over FY2029-38. This is required now, not later, so the Byrd rule's out-year test and each resolution's limits can be checked.
+- **The viewer and the reports show both, labeled.** Both are sums of the same annual series, so they always reconcile.
+
+This builds the recommendation's "can grow into C" now. It goes into the scope of B3 (per-bill window scoring), B5 (both labeled readings) and B6 (FY2029 on the debt path); the workflow (`models/tools/budget/WORKFLOW.md`) adds it in a follow-up once PR #104 merges.
 
 **The question.** The plan starts in January 2029. The first reconciliation bill (R1) runs under an FY2029 budget resolution, but every total is FY2030-39 (`ASM-WINDOW`). Money spent or raised in FY2029 is outside the ledger, the D4 tests and the debt path. The known case is CAP-7S's FY2029 cash, recorded as "unpriced, not zero".
 
@@ -66,7 +71,7 @@ Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/bu
 - **B. Move the window to FY2029-38.** It matches R1's official window, but every ten-year figure in the project changes.
 - **C. Score each bill over its own resolution's window.** The most faithful, and the most work. Totals across bills would no longer share one window.
 
-**Recommendation: A**, built so it can grow into C. The provision library (B3) already records each row's vehicle. Once it can score a bill over its own window, an R1 score over FY2029-38 can sit beside the plan's common FY2030-39 totals without changing them.
+**Recommendation, as written before the decision: A**, built so it can grow into C. The provision library (B3) already records each row's vehicle. Once it can score a bill over its own window, an R1 score over FY2029-38 can sit beside the plan's common FY2030-39 totals without changing them.
 
 **What changes under A.** FY2029 rows get priced (CAP-7S first). The FY2029 total appears as its own line in the fiscal report and the viewer, and is added to the debt path from FY2029.
 
@@ -114,4 +119,4 @@ Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/bu
 
 ## After Espen decides
 
-The budget model's owner makes each change in its own tier-3 PR, with a `DEC-` entry. Under the ownership proposal in PR #106, that's a Claude worker, with Codex asked to review. B5's viewer then shows the result. With the decisions taken, choices 2 and 5 add readings beside the existing tests, and choice 4 keeps the stress case as a reported reading; none of them changes a pass or fail result. Choice 1 adds the disclosed 2027-28 lines. The `DEC-` entries for choices 1, 2, 4 and 5 are filed with the first tier-3 PR that records the budget choices; choice 3's follows Espen's decision.
+The budget model's owner makes each change in its own tier-3 PR, with a `DEC-` entry. Under the ownership proposal in PR #106, that's a Claude worker, with Codex asked to review. B5's viewer then shows the result. With the decisions taken, choices 2 and 5 add readings beside the existing tests, and choice 4 keeps the stress case as a reported reading; none of them changes a pass or fail result. Choice 1 adds the disclosed 2027-28 lines. The `DEC-` entries for all five choices are filed with the first tier-3 PR that records the budget choices.
