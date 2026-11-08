@@ -44,6 +44,8 @@ echo "== 6b. carbon model";    (cd "$TOOLS"/carbon && node cfd-tests.js >/dev/nu
 echo "== 6c. dedicated funds";  cp "$TOOLS"/funds-model.py "$BUILD"/; python3 funds-model.py
 echo "== 6d. surge funding";  python3 "$TOOLS"/test_capacity_funding.py
                                cp "$TOOLS"/capacity-funding.py "$BUILD"/; python3 capacity-funding.py
+echo "== 6e. budget benchmarks and model card (budget B4)"
+P2050_BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_benchmarks.py 2>&1 | tail -1
 echo "== 7. dashboard data";   python3 "$TOOLS"/dashboard-data.py >/dev/null
 echo "== 8. consistency check"; cp "$TOOLS"/check-project.py "$TOOLS"/window.py "$BUILD"/; python3 check-project.py
 
@@ -74,6 +76,9 @@ OUT=(
   'climate-ledger-integration.md|legacy/sources/climate-ledger-integration.md'
   'budget-assumptions.md|models/tools/budget/assumptions.md'
   'budget-provisions.md|models/tools/budget/provisions.md'
+  'budget-benchmarks.md|models/tools/budget/benchmarks.md'
+  'budget-benchmarks.json|models/tools/budget/benchmarks.json'
+  'budget-model-card.md|models/tools/budget/MODEL-CARD.md'
   'recovery-budget.md|legacy/index/recovery-budget.md'
   'recovery-budget.json|models/data/recovery-budget.json'
   'recovery-budget-paths.csv|models/data/recovery-budget-paths.csv'
