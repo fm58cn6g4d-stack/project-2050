@@ -4,6 +4,8 @@
 
 Role: every assumption the fiscal models use now, in plain language, with where it lives, its source, who decided it and how much it matters. Status: current register (B1 of `models/tools/budget/WORKFLOW.md`). How the project counts is in `models/tools/budget/CONVENTIONS.md`. Nothing here changes a model input.
 
+**A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
+
 **79 assumptions:** 25 matter a lot, 31 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
