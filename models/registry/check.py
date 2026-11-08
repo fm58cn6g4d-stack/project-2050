@@ -12,7 +12,9 @@ Checks, in one run:
   analysis entry lists entries that support, contest or qualify it (a warning until one comes from an
   independent publisher)
   and its dates are valid; each provisions.json entry belongs to an agenda ID and cites known evidence;
-- references: every SRC-, EV-, OUT- and DEC- ID cited in current text resolves, including inline code
+- assumptions: models/data/budget/assumptions.csv is well formed (IDs like ASM-CPI-PATH, once each, with a
+  value, location, source, decider and a high/medium/low reason);
+- references: every SRC-, EV-, OUT-, DEC- and ASM- ID cited in current text resolves, including inline code
   (in Markdown, an ID in a fenced code block is a format example and is not checked).
 
 A re-check date in the past is reported as a warning (an error with --strict), so an evidence entry
@@ -37,7 +39,9 @@ import claims  # noqa: E402
 TEXT = {'.md', '.txt', '.csv', '.json', '.html', '.htm', '.py', '.js', '.jsx', '.rtf'}
 EV_ID = re.compile(r'^EV-[A-Z]{2,4}-\d{3}$')
 REFS = {'SRC': re.compile(r'\bSRC-\d{4}\b'), 'EV': re.compile(r'\bEV-[A-Z]{2,4}-\d{3}\b'),
-        'OUT': re.compile(r'\bOUT-\d{2}\b'), 'DEC': re.compile(r'\bDEC-\d{4}-\d{2}-\d{2}-\d{2}\b')}
+        'OUT': re.compile(r'\bOUT-\d{2}\b'), 'DEC': re.compile(r'\bDEC-\d{4}-\d{2}-\d{2}-\d{2}\b'),
+        'ASM': re.compile(r'\bASM-[A-Z0-9]+(?:-[A-Z0-9]+)*\b')}
+ASSUMPTIONS = 'models/data/budget/assumptions.csv'  # the assumptions register (B1, models/tools/budget/WORKFLOW.md)
 GRADES = set('ABCDE')
 CLAIMS = {'data', 'analysis'}  # a measured fact, or an interpretation of facts (causes, effects, projections, models)
 STANCES = {'supports', 'contests', 'qualifies'}
@@ -213,6 +217,16 @@ def check_dossiers(root, catalog, agenda, today):
     return errors, warnings, evidence
 
 
+def check_assumptions(root):
+    """The assumptions register: its format errors (the page generator's own rules) and its IDs."""
+    path = root / ASSUMPTIONS
+    if not path.exists():
+        return [], set()
+    page = module(ROOT / 'models/tools/budget/assumptions_page.py', 'assumptions_page')
+    register = rows(path)
+    return [f'{ASSUMPTIONS}: {p}' for p in page.problems(register)], {r['id'] for r in register}
+
+
 def check_references(root, known):
     """Every registry ID cited in current text resolves to its record."""
     errors = []
@@ -271,10 +285,13 @@ def run(root=ROOT, today=None, with_legacy=True):
     dossier_errors, dossier_warnings, evidence = check_dossiers(root, catalog, agenda, today)
     errors += dossier_errors
     warnings += dossier_warnings
-    known.update({'SRC': {r['id'] for r in catalog}, 'EV': evidence})
+    assumption_errors, assumptions = check_assumptions(root)
+    errors += assumption_errors
+    known.update({'SRC': {r['id'] for r in catalog}, 'EV': evidence, 'ASM': assumptions})
     errors += check_references(root, known)
     return errors, warnings, {'agenda': len(agenda), 'sources': len(catalog), 'evidence': len(evidence),
-                              'decisions': len(known['DEC']), 'outcomes': len(known['OUT'])}
+                              'decisions': len(known['DEC']), 'outcomes': len(known['OUT']),
+                              'assumptions': len(assumptions)}
 
 
 if __name__ == '__main__':
