@@ -4,7 +4,7 @@
 
 Role: every assumption the fiscal models use now, in plain language, with where it lives, its source, who decided it and how much it matters. Status: current register (B1 of `models/tools/budget/WORKFLOW.md`). How the project counts is in `models/tools/budget/CONVENTIONS.md`. Nothing here changes a model input.
 
-**77 assumptions:** 25 matter a lot, 30 somewhat, 22 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**81 assumptions:** 25 matter a lot, 32 somewhat, 24 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -35,7 +35,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Expiring provisions (3)
 - Trust funds (6)
 - Funds engine (15)
-- Data layer (B2, PR #105) (6)
+- Data layer (B2, PR #105) (10)
 - Provision library (B3, PR #108) (3)
 - Recovery budget (exploratory) (1)
 
@@ -841,6 +841,48 @@ Spend-out of discretionary budget authority: rough least-squares shares over fou
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
 - **Notes:** A placeholder until CBO's account-level spending projections are uploaded. Nondefense sums above 1 because transportation obligation limits are not discretionary budget authority.
 
+### ASM-SPENDOUT-CBO-TIMING
+
+Timing of the CBO-calibrated spend-out: four-year least-squares shares fit to OMB's FY1993-2019 history, with ground transportation taken out of nondefense budget authority and outlays because its outlays rest on mandatory contract authority.
+
+- **Value:** defense 44/34/24/-4%; nondefense (without zero-BA accounts) 25/36/30/10% (share of BA by year)
+- **How much it matters:** medium: the spend-out B3 should use for budget-authority readings; removes the 1.10 nondefense overshoot of ASM-SPENDOUT
+- **Where:** on branch claude/budget-b2-spending-detail (commit 31c6984, not yet on main): models/tools/budget/build_data.py:295 (SPEND_YEARS), 374-390 (spendout_cbo); models/data/budget/spendout-discretionary-cbo.csv
+- **Source:** OMB Historical Tables 5.6 and 8.7 (FY2027 Budget), fit by B2
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+- **Notes:** Not yet read by B3, which still uses spendout-discretionary.csv (ASM-SPENDOUT).
+
+### ASM-SPENDOUT-CBO-SCALE
+
+Level of the CBO-calibrated spend-out: one scale factor per group so that the shares applied to CBO's projected discretionary budget authority give CBO's projected outlays over FY2029-36.
+
+- **Value:** defense 1.009 (fit within 0.4%); nondefense 0.998 (within 0.8%) (scale factor)
+- **How much it matters:** low: both factors are within 1% of one
+- **Where:** on branch claude/budget-b2-spending-detail (commit 31c6984, not yet on main): models/tools/budget/build_data.py:356 (CAL_YEARS), 374-390
+- **Source:** CBO, Spending Projections by Budget Account (Feb 2026, publication 51142)
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+
+### ASM-ZERO-BA-OUTLAYS
+
+An account counts as having no discretionary budget authority in any year its budget authority is zero; its outlays are kept apart, mainly highway, transit and airport grants whose contract authority is mandatory.
+
+- **Value:** about $88-103B a year; about $87B in function 400 ($B a year)
+- **How much it matters:** medium: these outlays cannot be spent out from budget authority, so a BA-based reading must add them separately
+- **Where:** models/tools/budget/build_data.py:331-352 (cbo_spending_by_function); models/data/budget/cbo-spending-by-function.csv column outlays_without_ba
+- **Source:** CBO, Spending Projections by Budget Account (Feb 2026, publication 51142)
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+- **Notes:** The rule also catches a few accounts spending earlier advance appropriations, such as broadband deployment (function 370).
+
+### ASM-CBO-ACCOUNTS-VINTAGE
+
+CBO's account-level spending projections, February 2026 baseline, the same vintage as the rest of the data layer.
+
+- **Value:** publication 51142; US-CBO/cbo-data commit 284a956; 1,979 accounts, FY2026-36 (source vintage)
+- **How much it matters:** low: totals equal CBO's ten-year baseline in every year to the $1 million
+- **Where:** models/data/cbo/budget_spending_detail_annual_fy_2026-02.csv; models/data/budget/README.md:37
+- **Source:** CBO, Spending Projections by Budget Account (Feb 2026, publication 51142), via github.com/US-CBO/cbo-data
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+
 
 ## Provision library (B3, PR #108)
 
@@ -853,7 +895,7 @@ The provision library sets B2's negative defense year-4 spend-out share to zero 
 - **Where:** models/tools/budget/provisions.py:339-346 (_spendout)
 - **Source:** Project method on B2's fitted shares (ASM-SPENDOUT)
 - **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
-- **Notes:** Nondefense shares summed to 1.10 before rescaling (transportation obligation limits).
+- **Notes:** Nondefense shares summed to 1.10 before rescaling (transportation obligation limits). B2 (PR #114) finds the rescaling drops the highway and transit outlays the old nondefense shares carried implicitly, which probably explains B4's -11.1% nondefense miss; the fix is ASM-SPENDOUT-CBO-TIMING plus ASM-ZERO-BA-OUTLAYS, for B3's owner to adopt.
 
 ### ASM-BA-LEADS-OUTLAYS
 
