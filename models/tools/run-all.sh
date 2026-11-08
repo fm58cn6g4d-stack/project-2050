@@ -33,6 +33,7 @@ if [[ $FETCH == 1 ]]; then
 else
   echo "== 5. fiscal baseline";  python3 fiscal-data.py --cache "$DATA/cbo" --out "$BUILD/fiscal-baseline.csv"
 fi
+echo "== 5b. budget data layer"; python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_data.py 2>&1 | tail -1
 echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fiscal-baseline.csv" > fiscal-model.log; head -1 fiscal-model.log
 python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 python3 "$TOOLS"/test_climate_integration.py
