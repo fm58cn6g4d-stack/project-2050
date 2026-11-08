@@ -156,10 +156,10 @@ The other 23 seats are safe in every environment up to D+6. Democratic: Californ
 | **Independent, caucusing with neither** (8%) | 36% / none / 64% | 53% / none / 47% | 70% / none / 30% | Neither: a free vote in a close Senate |
 | **Retires** (30%; she is 71 in 2028) | open: Democrat 3% | 9% | 19% | The winner's party |
 
-With ranked-choice voting repealed (4% assumed after the round 4 count, section 9), she almost never wins. A Republican Murkowski would have to survive a closed primary against Dunleavy; if she lost it and ran as an independent, she would split the anti-Dunleavy vote under plurality rules. Her Democratic-side share as an independent caucusing with Democrats is an assumption: at her 2022 Republican-side share (16% rather than 12%) that branch rises to 48% neutral, 64% at D+3 and 79% at D+6.
+With ranked-choice voting repealed (4% assumed after the round 4 count, section 9), a Republican Murkowski must first win a closed primary against Dunleavy (assumed 30%). If she wins it, she is the nominee against a Democrat and wins about 30% of runs in every environment. If she loses and runs as an independent, she splits the anti-Dunleavy vote under plurality rules and almost never wins. As an independent from the start (either independent branch) she wins 2-11% under plurality. Her Democratic-side share as an independent caucusing with Democrats is an assumption: at her 2022 Republican-side share (16% rather than 12%) that branch rises to 48% neutral, 64% at D+3 and 79% at D+6.
 
 **What it means.**
-1. **Ranked-choice voting is what keeps her viable.** If Measure 2 passes, the Murkowski question nearly disappears and the seat becomes a normal Republican hold.
+1. **Ranked-choice voting is what keeps her viable without her party.** If Measure 2 passes, her fate turns on a closed Republican primary, and as an independent she almost never wins. The Democratic-caucus route disappears.
 2. **A strong Democrat is a spoiler for a Republican Murkowski.** In the Republican branch, the stronger the Democratic candidate, the likelier Murkowski finishes third and Dunleavy wins. A Democratic Party that wanted her to survive would field a weak nominee or none (as with Osborn in Nebraska in 2024). That buys a moderate Republican, not a Democratic seat.
 3. **A caucus deal is worth least when it is likeliest to be offered.** A deal matters to Democrats only near 50-50, and with a Democratic president the model puts 50 or 51 seats at about 1%. At 56 seats her vote does not decide control. Her filibuster position also means she would not be the 51st vote for D2. She is valuable mainly as a possible Republican vote toward 60 on specific bills (permitting, appropriations, Alaska-specific items), not as a path to a rules change.
 4. **Across the branches**, the Alaska seat goes to the Democratic caucus in about 8% of evidence-weighted runs. The model counts that seat; it does not count a Murkowski switch after the election, which would be a separate gain.
@@ -282,7 +282,7 @@ All tables are in `senate-model-outputs.md`, sections 9-11.
 - **The count.** The repeal trails 98,460 Yes to 106,040 No (48.15-51.85%, a 7,580-vote gap) with about 205,000 counted [SRC-0594]. About 60,000 early and absentee ballots remain (`1-results.md`), so Yes would need about 56% of them. Ballots of those kinds broke toward keeping the system in 2024, when a repeal that led on election night lost by 743 votes [SRC-0561].
 - **The model.** P(repeal) is cut from 15% to **4%**. Both outcomes are rerun in `senate-model-outputs.md`, section 6.
   - If the system survives, every branch in section 5 stands. A Republican Murkowski beats Dunleavy in 25-51% of runs and a Democratic-caucusing Murkowski in 19-51%.
-  - If it is repealed, she wins in 1% or less (Republican branch) to 10% (independent branch) of runs. The seat becomes a Republican hold, with a Democrat winning only through a three-way split (1-6%).
+  - If it is repealed, a Republican Murkowski wins only by first taking the closed primary from Dunleavy (assumed 30%), and then wins about 30% of runs. As an independent she wins 2-11% under plurality, so the Democratic-caucus route effectively disappears. A Democrat wins only through a three-way split (1-6%).
 - **What else repeal would do.** It would also end open primaries and repeal the 2020 campaign-finance rules [SRC-0594]. This page could not confirm whether it would take effect for 2028.
 
 **The D2-F whip count** (Next question 5 in round 3).
@@ -310,7 +310,7 @@ It counts opponents in each simulated Senate:
 | Democratic president, environment | Mean seats | Mean opponents | Margin before defections | P(D2-F has the votes) |
 | --- | --- | --- | --- | --- |
 | Neutral | 55.1 | 6.1 | 5.1 | 44% |
-| D+3 | 55.7 | 6.2 | 5.7 | 51% |
+| D+3 | 55.7 | 6.2 | 5.7 | 52% |
 | D+6 | 56.8 | 6.4 | 6.8 | 65% |
 | Evidence-weighted | 56.6 | 6.4 | 6.6 | **62%** |
 

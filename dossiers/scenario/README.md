@@ -10,7 +10,15 @@ This is not a flagship dossier, so it does not follow the nine-section template.
 | `2-analysis.md` | The exit polls and AP VoteCast (data), and the analysts' competing readings of why (analysis) |
 | `3-framework-2027-28.md` | Who holds which levers in 2027-28, the vehicles, what counts as success, how the two years feed the 2029 plan, what could change the picture, and the open questions for Espen. Questions and options, not decisions. Includes a check of the two input docs |
 | `4-2029-plan.md` | What the results mean for the legacy decisions D1, D2, D3, D4, D8 and D9 and for the stage order in `charter/PLAN.md`: flagged changes, none made |
-| `5-senate-2028.md` | The 2028 Senate map and a scenario estimate of the Senate in January 2029 (script in `tools/`), the evidence for a proposed D1 update |
+| `5-senate-2028.md` | The 2028 Senate map and history; its first-iteration estimate is superseded by `senate-model-2028.md` |
+| `senate-model-2028.md` | The seat-by-seat 2028 Senate model: inputs, scenarios, tipping points, Espen's priors tested, the Murkowski branches, and what each Senate size means for the 2029 plan (options and questions) |
+| `senate-model-outputs.md` | The tables `tools/senate_model.py --write` generates (do not edit by hand); `senate-model-fec-cash.csv` holds the FEC cash-on-hand extract |
+| `2030-2034-control.md` | Senate control through the 2033-34 Congress: the 2030 and 2032 classes, chained from the 2028 model |
+| `2027-races.md` | The 2027 off-cycle races (governors, legislatures, state supreme courts, the Minnesota Senate special, mayors, ballot measures) and the 2027 decisions that move the 2028 House map |
+| `2027-28-playbook.md` | The 2027-28 governing playbook as options: federal levers, governors and trifectas, courts and executive-defiance risks; each with odds (analysis) and its effect on 2028 conditions |
+| `2028-outlook.md` | 2028 as scenarios with drivers: the presidential fields, the House map, governor races, what moves the national environment |
+| `compounding-2029-2050.md` | How the 2026 result and 2027-28 paths change the 2029 plan and the long run (pre-built bills, the 2029 starting point, stage order, courts, the census, redistricting, durable majorities); questions for Espen |
+| `2027-28-stress-tests.md` | Two rounds of hard questions on the four files above, the research and revisions, and the combined next questions |
 
 **Time frame.** Under `DEC-2026-10-29-01` the plan is a governing program from January 2029. 2027-28 is one of its two labeled exceptions, and the work here on 2027-28 is that exception: it serves the 2029 plan and does not replace it.
 

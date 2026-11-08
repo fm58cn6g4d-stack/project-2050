@@ -111,7 +111,7 @@ Who wins the Alaska seat (Murkowski / the Democrat / Dunleavy or another Republi
 | Branch | Voting system | Neutral: M / D / R; D caucus | D+3 | D+6 |
 | --- | --- | --- | --- | --- |
 | R | top four + RCV | 25% / 1% / 74%; 1% | 38% / 2% / 59%; 2% | 51% / 5% / 43%; 5% |
-| R | repealed (closed primary, plurality) | <1% / 1% / 99%; 1% | <1% / 3% / 97%; 3% | 1% / 6% / 93%; 6% |
+| R | repealed (closed primary, plurality) | 30% / 1% / 69%; 1% | 30% / 3% / 67%; 3% | 31% / 6% / 63%; 6% |
 | I-D | top four + RCV | 19% / 0 / 81%; 19% | 34% / 0 / 66%; 34% | 51% / 0 / 49%; 51% |
 | I-D | repealed (closed primary, plurality) | 19% / 0 / 81%; 19% | 34% / 0 / 66%; 34% | 51% / 0 / 49%; 51% |
 | I-none | top four + RCV | 36% / 0 / 64%; 0 | 53% / 0 / 47%; 0 | 70% / 0 / 30%; 0 |
@@ -219,12 +219,12 @@ Opponents drawn per run from the whip table in the script (assumptions anchored 
 
 | Environment | Mean seats | Mean opponents | Mean margin before defections | P(5+ opponents) | P(D2-F has the votes) |
 | --- | --- | --- | --- | --- | --- |
-| Neutral, Democratic president | 55.1 | 6.1 | 5.1 | 77% | 43% |
-| D+3, Democratic president | 55.7 | 6.2 | 5.7 | 79% | 51% |
-| D+6, Democratic president | 56.8 | 6.4 | 6.8 | 82% | 65% |
+| Neutral, Democratic president | 55.1 | 6.1 | 5.1 | 78% | 44% |
+| D+3, Democratic president | 55.7 | 6.2 | 5.7 | 78% | 52% |
+| D+6, Democratic president | 56.8 | 6.5 | 6.8 | 83% | 65% |
 | Evidence-weighted prior, D+3 with SD 4.5, Democratic president | 56.6 | 6.4 | 6.6 | 82% | 62% |
 
-Sensitivity (evidence-weighted, Democratic president): unnamed senators' probabilities halved, P(votes) 88% (mean opponents 4.2); doubled, 9% (10.8). Fetterman, Hamilton and Cooper are held at their stated positions.
+Sensitivity (evidence-weighted, Democratic president): unnamed senators' probabilities halved, P(votes) 89% (mean opponents 4.2); doubled, 9% (10.8). Fetterman, Hamilton and Cooper are held at their stated positions.
 
 
 ## 11. Round 4: what drives the 2032 drop, and what would change it
@@ -255,5 +255,5 @@ Levers (same runs; held 50+ means in every Congress through 2033-34):
 | Candidate and campaign strength: +2 points in the six most exposed seats | 54.1 | 49.4 | 49% | 49% | 23% |
 | D.C. statehood, seated January 2031 | 56.1 | 50.9 | 58% | 57% | 30% |
 | D.C. and Puerto Rico, seated January 2031 | 57.3 | 52.1 | 64% | 64% | 36% |
-| D.C. and Puerto Rico, seated January 2033 | 54.2 | 52.1 | 64% | 62% | 33% |
-| D.C. and Puerto Rico 2031, a mild midterm and +2 in the exposed seats | 59.1 | 54.3 | 75% | 74% | 47% |
+| D.C. and Puerto Rico, seated January 2033 | 54.1 | 52.1 | 64% | 62% | 33% |
+| D.C. and Puerto Rico 2031, a mild midterm and +2 in the exposed seats | 59.1 | 54.3 | 74% | 74% | 47% |

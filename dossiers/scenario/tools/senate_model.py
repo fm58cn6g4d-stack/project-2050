@@ -293,6 +293,10 @@ def alaska_outcome(m, branch, rcv=True, rng=None, r_primary_win=0.3):
                     caucus = 'I'      # runs as a write-in or independent, as in 2010
                 else:
                     return ('D' if m > 0 else 'R'), m, ('D' if m > 0 else 'R')
+            else:
+                # she is the Republican nominee: Dunleavy is off the general ballot, and most of his
+                # Republican-side voters back the nominee (ASSUMPTION 0.85; the rest split or abstain)
+                shares = {'M': murk + 0.85 * rep, 'D': dem + 0.05 * rep}
         if not br['dem']:
             shares.pop('D')
     else:
@@ -513,7 +517,9 @@ def simulate_chain(env28, n=20000, seed=2030, prm=None, env_sd=3.0, midterm=None
         won = o28['dwon'][i]
         # Holders that depend on this run: Minnesota (2027 special) and Tennessee (2028 special)
         holder1 = {'MN': 'D' if dr['MN-2027'] else 'R', 'TN': 'D' if 'TN*' in won else 'R'}
-        d_c1_before = 18 + dr['MN-2027']
+        # Class 1 Democratic seats held going into 2030: 18 certain, Minnesota (2027 special) and a
+        # Democratic Tennessee special winner (2028), which s28 already counts and 2030 contests again
+        d_c1_before = 18 + dr['MN-2027'] + ('TN*' in won)
         not_up30 = s28 - d_c1_before
         reg = {r: rng.gauss(0, prm['sd_reg']) for r in regions}
         tick = rng.gauss(0, prm['sd_tick'])

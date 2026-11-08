@@ -25,6 +25,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Done: approved by Espen | Claude Code | PR #50, merged |
 | B. Post-election update | 1. Rebaseline the political planning scenario: results record by certainty, analysis review, 2027-28 framework with open questions, what it means for the 2029 plan | Most capable | Done: `dossiers/scenario/` (results record, analysis review, 2027-28 framework with 12 questions, flags for D1-D9 and the stage order); SRC-0440 to 0554 | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | PR #78, merged
 | B. Post-election update | 2. Follow-up for Espen: Alaska Senate rechecked; governor count; the 2028 Senate map and a scenario estimate of the 2029 Senate (`5-senate-2028.md`); a proposed D1 update in a separate tier-3 PR | Most capable | In review | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | Branch `claude/stage-b-followup`; D1 on `claude/d1-rebaseline` |
+| B. Post-election update | 3. 2027-28 and 2028: the 2027 off-cycle races; the governing playbook as options (federal levers, governors, courts and defiance risks); 2028 scenarios with drivers; how the 2026 result compounds for the 2029 plan and to 2050; two rounds of stress tests | Most capable | Done: `dossiers/scenario/2027-races.md`, `2027-28-playbook.md`, `2028-outlook.md`, `compounding-2029-2050.md`, `2027-28-stress-tests.md`; SRC-0800 to 0989 (citation rows). The 2028 Senate stays in `5-senate-2028.md` | Claude Code (session_01UQzgBxGYju6momc4d3CoJd) | PR #81, merged; follow-up on `claude/scenario-2027-28` |
 | C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | Done | Claude Code | PR #53, merged |
 | C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | Done | Claude Code | PR #54, merged |
 | C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In review: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; 2025 ACS refresh: EV-HOU-038 to 044, section 1 updated, shared-rules fixes (PR #62 notes) | Claude Code (session_01UQzgBvYjGdPE5ZxakSiAHf) | Branch `claude/acs-2025-refresh` |
@@ -40,6 +41,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 - Stage B step 2: Alaska and governor rechecks and the 2028 Senate map (`claude/stage-b-followup`).
 - Stage B: proposed D1 update, tier 3, waits for Espen (`claude/d1-rebaseline`).
+- Stage B step 3 follow-up: filibuster arithmetic, README rows, review notes (`claude/scenario-2027-28`).
 
 - Stage C step 4b: housing section 3 refresh under `DEC-2026-10-30-02` (`claude/housing-design-refresh`).
 
@@ -76,6 +78,13 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - **Standards wording.** The data-versus-analysis and corroboration rule Espen asked for on October 28 is in `dossiers/TEMPLATE.md` and the checker. It also belongs in `charter/STANDARDS.md`, which is tier 3: proposed for the next charter PR, with Espen's stage A sign-off for `charter/decisions.md`.
 
 ## Questions for Espen
+
+0a. **Stage B step 3, 2027-28 and 2028** (`dossiers/scenario/2027-28-stress-tests.md`, "Next questions"; options, none urgent before the lame duck ends):
+   - protect the FY2029 reconciliation slot by using only FY2027 and FY2028 resolutions in 2027-28;
+   - which 2027-28 deals are worth their lock-in (a time-limited ACA extension, drug pricing on Trump's design, a $15 minimum wage, a Social Security donut, defense parity);
+   - decide the FY2028 defense path before summer 2027, since it sets NSC-1A's base (about $0.1-0.4 trillion over 2030-39);
+   - a position on 2027 mid-decade redraws, given DEM-2's planned ban;
+   - whether to write a branch for a Republican presidency in 2029.
 
 0. **Stage B, the post-election update** (`dossiers/scenario/3-framework-2027-28.md`, section 7; none urgent before the lame duck ends). The five that matter most:
    - what 2027-28 is for: laws now, a clear record, a plan ready for 2029, a protected 2028 election, or a mix;
