@@ -121,6 +121,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 - **Why:** Tests the model's interest method (fiscal-model.py, debt_roll: market rates on new borrowing, half a year of interest on each year's new deficit) against CBO's own debt-service estimate for the same deficits. JCT's deficits go in; the model's interest comes out. Fifteen percent allows for two known differences: CBO used its January 2025 interest rates and the model uses February 2026's, and FY2031-33 are not recorded, so they are set equal (157 billion each, which matches JCT's total). The tolerance was chosen in this PR; the reviewer should say if it is too loose.
 - Model interest by year: FY2029 0.8, FY2030 3.8, FY2031 9.0, FY2032 15.5, FY2033 22.2, FY2034 29.5.
 - The model is +14% from CBO. A higher figure is the cautious direction: the model's rate on new borrowing is at least the market blend.
+- Checked against Espen's November 8 upload (PR #121): CBO's Table 5-1 (file 51118-2026-02, "Changes in CBO's Baseline Projections of the Deficit Since January 2025") gives the 2025 act's effects by year as enacted, not the cost of making its ten temporary provisions permanent, and its net-interest line covers all legislation since January 2025 together. So it can't fill in FY2031-33 here; the equal split stays until publication 61466 is in the library.
 
 ### PS-3a. CBO: discretionary defense outlays from budget authority (February 2026 baseline)
 
@@ -197,6 +198,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 - **Source:** 2026 Social Security and Medicare Trustees Reports, intermediate assumptions, as recorded in models/data/inputs/funds-*.csv and printed beside the model's figures by models/tools/funds-model.py (lines 306 and 335; legacy/index/dedicated-funds.md)
 - **Why:** funds-model.py already runs this check against the Trustees on every run and prints it; this benchmark reads its output (build/funds.json) and applies a stated tolerance. The engine uses the Trustees' own annual rates, so it should land on their figures to within rounding: the tolerances are the published rounding (whole percent payable) plus a small allowance for the balance, which funds-model.py says differs only by "rounding in the published rates and the interest path".
 - funds-model.py's own page says the HI check is off and that the program's gain, not the absolute balance, is the reading to use (legacy/index/dedicated-funds.md, Medicare HI).
+- Which reference: the Trustees. The engine runs on the Trustees' own cost and income rates, so their projection is the one it should reproduce, and the miss is against them. CBO projects HI exhausted during FY2040 (Long-Term Budget Outlook data, February 2026; Espen's November 8 upload, PR #121), 7 years after the Trustees and 6 after the model. That gap is a difference between the two forecasters' assumptions, not a check on the engine, so it is context, not a target.
 
 ### TF-3. SSA's own scores of seven Social Security provisions, rebuilt by the engine
 
@@ -210,7 +212,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 ## Documents for Espen to upload
 
-www.cbo.gov refuses agent sessions (403), so these come in as uploads (`library/fetch_public.py --file`). CBO's own GitHub data repository (`US-CBO/cbo-data`, commit 284a956) was checked first: none of the three is there.
+www.cbo.gov refuses agent sessions (403), so these come in as uploads (`library/fetch_public.py --file`). CBO's own GitHub data repository (`US-CBO/cbo-data`, commit 284a956) was checked first, and so were the 16 CBO files Espen uploaded on November 8 (PR #121): none of the three is there.
 
 1. CBO's rules-of-thumb workbook for the February 2026 baseline: how deficits change if interest rates, productivity growth or labor-force growth differ from CBO's projections (released with *The Budget and Economic Outlook: 2026 to 2036*, on cbo.gov's budget and economic data page). *Unlocks:* SE-1, SE-2: turns the sensitivity benchmarks from pending into pass or fail. SRC-0203's numbers say they came from this workbook; they can't be checked without it.
 2. CBO's letter of August 4, 2025 to Senator Merkley, *Effects on Deficits and the Debt of Public Law 119-21 and of Making Certain Tax Policies in the Act Permanent* (publication 61466, the PDF with Table 2). *Unlocks:* PS-1, PS-2: the full FY2025-34 annual figures. The repository records only FY2029, FY2030, FY2034 and the totals, so PS-2 assumes FY2031-33 are equal (SRC-1093 is a citation row, not a saved copy).
