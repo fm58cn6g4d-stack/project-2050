@@ -2,7 +2,7 @@
 
 Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/budget/WORKFLOW.md`). It has five separate choices, each with options, a recommendation and what changes. Status: awaiting Espen's decision, one choice at a time. Nothing changes until Espen decides, and any change it leads to is a tier-3 PR. Sources: the "Choices for Espen" section of `models/tools/budget/CONVENTIONS.md` (B1, PR #107) and `dossiers/scenario/memo-defense-baseline-and-dem2.md`, choice (a). The `ASM-` IDs are in `models/data/budget/assumptions.csv`.
 
-**How to read this.** Each choice is about how the plan's own numbers are judged. None of them changes a program. Today's practice is option A each time. Taken together, the recommendations make the plan more cautious and more visible, without making it impossible to compare with CBO.
+**How to read this.** Each choice is about how the plan's own numbers are judged. None of them changes a program. Today's practice is option A each time. Taken together, the recommendations make the plan more cautious and more visible, without making it impossible to compare with CBO. Choice 5 keeps the rule already decided, because the stricter reading would make the decided package fail every year (see below).
 
 ---
 
@@ -35,6 +35,8 @@ Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/bu
 - **B. The tests must also pass at the cautious end:** high costs and low revenue. This is the most prudent commitment, but it would probably need more revenue or smaller programs.
 - **C. Midpoints decide; a cautious reading is reported beside every test.** It shows the margin, and the test is flagged when the cautious reading fails.
 
+**Note: the cautious reading isn't computed yet.** The ledger's low and high ends don't reach the fiscal model today. Under C or B, the first step is to carry them through (B3 records them per provision), and only then would the readings exist.
+
 **Recommendation: C now, with B reconsidered once the uncertainty simulation exists** (`models/tools/roadmap.md`, item 1). The simulation gives a probability of passing instead of a worst-case stack. Stacking every high cost with every low revenue overstates the risk, because the errors aren't all in one direction. Reporting the cautious reading means you always see the margin.
 
 **What changes under C.** Each D4 line in the fiscal report and the viewer gets a second number, "at the cautious end", with pass or fail. Midpoint results don't change.
@@ -65,7 +67,7 @@ Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/bu
 - **B. The guardrails must also hold in the one-point-higher case.** The plan must not do worse than the baseline even when rates are higher.
 - **C. Add an absolute condition under stress,** such as net interest below a stated share of GDP. This needs a threshold Espen would have to choose.
 
-**Recommendation: B**, with C taken up in the fair financing foundation, where a threshold can be set against evidence rather than picked here. B is a real, testable commitment that uses only what the model already computes.
+**Recommendation: B**, with C taken up in the fair financing foundation, where a threshold can be set against evidence rather than picked here. B is a real, testable commitment that uses only what the model already computes. **The decided package passes B today:** in the +1-point case, its debt stays below the baseline's by 2.5, 12.4 and 26.8 points of GDP at the three test years, and its 2056 net interest is 9.6% of GDP against the baseline's 10.9%. So adopting B commits the plan to keep that margin; it doesn't require a change now.
 
 **What changes under B.** A third D4 reading, "at rates +1 point", becomes pass-or-fail in place of report-only. If it fails today, the fiscal report says so and by how much. That would be a finding for the fair financing work, not something to fix by changing the test.
 
@@ -80,9 +82,11 @@ Role: decision memo for Espen, piece B7 of the budget workflow (`models/tools/bu
 - **B. Test total debt without the trust funds' own improvement.** It's stricter, and it matches "Social Security pays for Social Security".
 - **C. Report both, with the stricter one as the commitment.**
 
-**Recommendation: C.** It keeps the number comparable with CBO, and it makes the stricter reading, which matches D4-B, the one the plan is judged by. Social Security's new revenue then can't quietly fund other programs.
+**What the stricter reading would show today.** The decided package fails it in every year. Its general-fund-attributable debt is above zero throughout: 5.4% of GDP in 2039, 5.9% in 2045 and 5.1% in 2056. Over 2030-39 the general fund runs a $2.30 trillion primary deficit, while the unified budget, with SS-1's surplus, shows −$2.94 trillion (`legacy/index/fiscal-long-term-model.md`). Most of the general fund's 2030-35 deficit is time-limited spending the D4 investment envelope already allows (CAP-7S's surge, Moving America's capital lines). From 2040 the general fund runs a surplus.
 
-**What changes under C.** Each total-debt guardrail gets a second reading, "excluding Social Security's improvement", and pass or fail is judged on that one. If it fails where the unified reading passes, the gap shows how much other programs lean on Social Security's surplus. That's a finding for fair financing.
+**Recommendation: A, the rule already decided, with the general-fund reading kept beside it.** The fiscal report already shows that reading "for information", and states that under the decided rule it isn't a guardrail. Switching to B or C would make the decided package fail every year. It would also reverse a decision Espen has made, for a reason that is mostly the planned, time-limited investment surge. The plain finding: the plan's ten-year general-fund deficit is $2.30 trillion, and Social Security's surplus is what keeps total debt on its path. Whether the general fund should carry that on its own is a fair financing question, and it belongs there.
+
+**What changes under A.** Nothing in the tests. The viewer (B5) shows the general-fund reading next to the unified one, so the gap is never hidden.
 
 ---
 
