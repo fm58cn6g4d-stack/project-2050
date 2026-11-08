@@ -6,7 +6,7 @@ Facts are from `1-results.md` unless cited here. Section 6 checks the two input 
 
 ## 1. Who holds which levers
 
-**The arithmetic.** From January 3, 2027: a Democratic House of about 256-263 and a Democratic Senate of 55 or 56 (54 called), with President Trump and Vice President Vance. Overriding a veto takes 290 House and 67 Senate votes, so contested overrides are out. Ending a filibuster takes 60, so 4 or 5 Republicans per bill. In 2027-28 the Vice President breaks Senate ties for Republicans, so a rules change by majority precedent would need 51 Democratic votes.
+**The arithmetic.** From January 3, 2027: a Democratic House of about 256-263 and a Democratic Senate of 55 or 56 (54 called; 56 more likely, since Alaska leans Peltola), with President Trump and Vice President Vance. Overriding a veto takes 290 House and 67 Senate votes, so contested overrides are out. Ending a filibuster takes 60, so 4 or 5 Republicans per bill. In 2027-28 the Vice President breaks Senate ties for Republicans, so a rules change by majority precedent would need 51 Democratic votes.
 
 | Lever | Held by | What it does in 2027-28 | Can Trump block it? |
 | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ The two docs are useful and broadly accurate on results; several figures are out
 
 | Claim in the docs | Check |
 | --- | --- |
-| "A likely 56-seat Senate" | **Not yet.** 54 called; 55 or 56. 56 needs Peltola to survive the ranked-choice count, which is close |
+| "A likely 56-seat Senate" | **Plausible, not yet called.** 54 called; Mississippi is likely Democratic and Alaska leans Peltola (about 75-80%), so 56 is the most likely result and 55 the alternative |
 | House "about 255-264," the largest majority "since the early 1990s" | **Range fine, top high.** About 256-263. "Since the early 1990s" holds only at 259 or more (258 ties 1993-95) |
 | "About 30-31 governors" | **30 at most** |
 | Trifectas in MI, MN, NV, PA and WI | **Six**, with Arizona |
