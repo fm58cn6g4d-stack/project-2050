@@ -296,7 +296,9 @@ def bm_published(M):
         if grp == "nondefense":
             det.append("A known cause, from B2's README (\"Spend-out\"): nondefense discretionary outlays include highway and transit spending "
                        "whose budget authority is mandatory contract authority, so it is not in the discretionary budget authority that goes in. "
-                       "B3 also rescales the nondefense shares, which add to 1.10, down to one.")
+                       "B3 also rescales the nondefense shares, which add to 1.10, down to one. B2 has since measured the first cause in CBO's "
+                       "account-level file (PR #114): about $94 billion a year of nondefense discretionary outlays come from accounts with no "
+                       "discretionary budget authority, $87 billion of it in function 400 (highways, transit, airports). That is roughly the size of the miss.")
         out.append(_bm("PS-3" + ("a" if grp == "defense" else "b"), "Published scores",
                        "CBO: discretionary %s outlays from budget authority (February 2026 baseline)" % grp,
                        "pass" if abs(gaps[wy]) <= 0.05 else "fail", "%+.1f%%" % (100 * gaps[wy]), "CBO's outlays, FY2028-36", "5% in each year",
