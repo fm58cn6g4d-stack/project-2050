@@ -219,12 +219,12 @@ Opponents drawn per run from the whip table in the script (assumptions anchored 
 
 | Environment | Mean seats | Mean opponents | Mean margin before defections | P(5+ opponents) | P(D2-F has the votes) |
 | --- | --- | --- | --- | --- | --- |
-| Neutral, Democratic president | 55.1 | 6.0 | 5.1 | 77% | 44% |
-| D+3, Democratic president | 55.7 | 6.2 | 5.7 | 79% | 51% |
-| D+6, Democratic president | 56.8 | 6.4 | 6.8 | 82% | 65% |
-| Evidence-weighted prior, D+3 with SD 4.5, Democratic president | 56.6 | 6.4 | 6.6 | 81% | 62% |
+| Neutral, Democratic president | 55.1 | 6.0 | 5.1 | 77% | 45% |
+| D+3, Democratic president | 55.7 | 6.1 | 5.7 | 78% | 52% |
+| D+6, Democratic president | 56.8 | 6.4 | 6.8 | 82% | 67% |
+| Evidence-weighted prior, D+3 with SD 4.5, Democratic president | 56.6 | 6.3 | 6.6 | 80% | 63% |
 
-Sensitivity (evidence-weighted, Democratic president): unnamed senators' probabilities halved, P(votes) 89% (mean opponents 4.2); doubled, 9% (10.8). Fetterman, Hamilton and Cooper are held at their stated positions.
+Sensitivity (evidence-weighted, Democratic president): unnamed senators' probabilities halved, P(votes) 87% (mean opponents 4.4); doubled, 14% (10.1). Fetterman, Hamilton, Cooper and King are held at their stated positions.
 
 
 ## 11. Round 4: what drives the 2032 drop, and what would change it
