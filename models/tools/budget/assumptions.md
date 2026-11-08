@@ -4,7 +4,7 @@
 
 Role: every assumption the fiscal models use now, in plain language, with where it lives, its source, who decided it and how much it matters. Status: current register (B1 of `models/tools/budget/WORKFLOW.md`). How the project counts is in `models/tools/budget/CONVENTIONS.md`. Nothing here changes a model input.
 
-**74 assumptions:** 25 matter a lot, 29 somewhat, 20 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**77 assumptions:** 25 matter a lot, 30 somewhat, 22 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -36,6 +36,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Trust funds (6)
 - Funds engine (15)
 - Data layer (B2, PR #105) (6)
+- Provision library (B3, PR #108) (3)
 - Recovery budget (exploratory) (1)
 
 ## Baseline
@@ -839,6 +840,41 @@ Spend-out of discretionary budget authority: rough least-squares shares over fou
 - **Source:** OMB Historical Tables (fit by B2)
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
 - **Notes:** A placeholder until CBO's account-level spending projections are uploaded. Nondefense sums above 1 because transportation obligation limits are not discretionary budget authority.
+
+
+## Provision library (B3, PR #108)
+
+### ASM-SPENDOUT-NORM
+
+The provision library sets B2's negative defense year-4 spend-out share to zero and rescales each group's shares to add to one, so a provision's budget authority is all spent in the end.
+
+- **Value:** defense year-4 share -4.27% set to 0; defense and nondefense shares rescaled to sum 1.0 (share of BA by year)
+- **How much it matters:** low: changes discretionary budget-authority figures only, not outlays or any headline
+- **Where:** models/tools/budget/provisions.py:339-346 (_spendout)
+- **Source:** Project method on B2's fitted shares (ASM-SPENDOUT)
+- **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
+- **Notes:** Nondefense shares summed to 1.10 before rescaling (transportation obligation limits).
+
+### ASM-BA-LEADS-OUTLAYS
+
+Discretionary budget authority is backed out of the model's outlays: each year's budget authority is the outlays it pays for over its spend-out; outlays after FY2056 are extended at the FY2055-56 growth rate.
+
+- **Value:** BA(t) = sum over k of share(k) x outlays(t+k) (method)
+- **How much it matters:** medium: sets every discretionary budget-authority and spending-cap reading; outlays stay canonical
+- **Where:** models/tools/budget/provisions.py:349-358 (spendout_ba)
+- **Source:** Project method (B3)
+- **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
+- **Notes:** B3 finds about $0.10T of budget authority would fall in FY2027-29, before the window (CONVENTIONS.md, Choice 3). All spend-out figures are flagged rough.
+
+### ASM-BA-EQUALS-OUTLAYS
+
+For benefits, entitlements and tax credits, budget authority equals outlays in the same year; other mandatory rows have budget authority unknown.
+
+- **Value:** 22 rows budget_authority = outlays; 18 rows unknown (convention)
+- **How much it matters:** low: these programs spend as they are authorized; only budget-authority readings use it
+- **Where:** models/data/budget/provisions.csv column budget_authority
+- **Source:** Project convention (B3)
+- **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
 
 
 ## Recovery budget (exploratory)
