@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Exploratory scenario estimate of the Senate in January 2029, from the 2028 map.
 
-Role: the arithmetic behind dossiers/scenario/5-senate-2028.md. Status: exploratory (stage B follow-up,
+Role: the arithmetic behind dossiers/scenario/5-senate-2028.md. Status: superseded by senate_model.py (the
+seat-by-seat model; dossiers/scenario/senate-model-2028.md), kept as the first iteration's record. Its 38 and 40
+bases omit Minnesota's November 2027 special. Originally exploratory (stage B follow-up,
 November 8, 2026); not a core model and not a forecast. Inputs are typed in below from the sources that
 file cites: 2024 presidential margins, unofficial 2026 statewide margins (NBC, read 2026-11-08), and the
 project's own incumbency adjustments (labeled assumptions). Recheck once 2026 results are certified.

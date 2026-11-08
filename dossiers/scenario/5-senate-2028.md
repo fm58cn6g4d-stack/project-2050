@@ -2,10 +2,12 @@
 
 Role: the seats up in 2028, how the 2024 and 2026 results bear on each, and a scenario estimate of the Senate a 2029 Democratic government would work with. It is the evidence for the proposed update to D1 (`d1-planning-scenario.md`). Status: draft (stage B follow-up), November 8, 2026. The estimate is **this project's own exploratory arithmetic** (`tools/senate_2028_sim.py`), not a published forecast; no rater has published 2028 Senate ratings yet. 2026 margins are unofficial.
 
+**Superseded in part (November 8, 2026).** The estimate in section 3 and the seat figures in "In brief" are replaced by the seat-by-seat model in `senate-model-2028.md` (code `tools/senate_model.py`, tables `senate-model-outputs.md`), and the 2030-2032 exposure by `2030-2034-control.md`. Two corrections carry over: (1) the seats not up in 2028 are **37 certain**, and 40 needs three uncertain wins, Alaska and Mississippi in 2026 and **Minnesota's November 2027 special** for Klobuchar's seat (Minn. Stat. 204D.28) [SRC-0578]; (2) Tennessee's special is confirmed for November 2028 [SRC-0582]. The seat list (section 1) and the history (section 2) remain this file's record.
+
 ## In brief
 
 - **35 races in 2028:** the 34 regular Class 3 seats plus, probably, a Tennessee special for Blackburn's seat, since she won the governorship (the appointee serves "until the next November election," read here as 2028; recheck) [SRC-0564] [SRC-0571]. **Republicans defend 19, Democrats 16**, counting the Ohio seat Brown won in the 2026 special, which is up again for the full term [SRC-0568].
-- **Democrats not up in 2028: 38, or 40 if they win the uncalled Alaska and Mississippi seats**, both Class 2 and next up in 2032. Alaska leans Peltola and Mississippi Colom (`1-results.md`), so 40 is the more likely base.
+- **Democrats not up in 2028: 37 certain; 40 only if they win the uncalled Alaska and Mississippi seats and Minnesota's November 2027 special** (corrected; see the note above). Alaska leans Peltola and Mississippi Colom (`1-results.md`), and the Minnesota seat leans Democratic, so 39-40 is the more likely base.
 - **A Democratic majority in January 2029 is likely in every environment where a Democrat wins the presidency.** From 40 seats not up: about 54 seats on average in a tied national vote, about 55-56 at D+3, about 57 at D+6. The structural risks are Ohio, Arizona and Nevada; the openings are Wisconsin and North Carolina, then Iowa.
 - **The map is not 2026.** Since 1994, a midterm environment reverted by about 4 to 8 points in the next presidential year in four of six cases; it was about unchanged from 2022 to 2024, and it grew from 2006 to 2008, an open-seat year after an unpopular two-term president and the closest analog to 2028 [SRC-0570]. Senate races now follow the state's presidential vote about 90% of the time [SRC-0569].
 
@@ -50,6 +52,8 @@ Fox News coverage lists New Hampshire, Nevada, Arizona, Georgia, Pennsylvania an
 House vote from Brookings's *Vital Statistics on Congress* [SRC-0570]; presidential margins from Wikipedia. The Clerk of the House's 2006 figures give about D+8.0 rather than D+6.4, which would make the 2008 growth about 2.6 points rather than 4.2; recheck the table. Small differences from `1-results.md` (2018 D+8.7 here against D+8.6; Ohio D+4.8 and Kansas D+5.0 here, from NBC, against D+4.9 and D+5.1 from civicAPI) are differences between sources, not typos. Two Brookings rows on Senate seat changes look inconsistent and are not used. Split Senate results: none in 2016, one in 2020, four of 34 in 2024; since 2012, 91% of Senate races matched the state's latest presidential vote (Pew) [SRC-0569].
 
 ## 3. The estimate
+
+*Superseded by `senate-model-2028.md`, sections 3-4. Kept as the first iteration's record; its 38 and 40 bases omit the Minnesota special.*
 
 **Method** (labeled assumptions, `tools/senate_2028_sim.py`). Each seat's expected Democratic margin = 0.7 × the state's 2024 presidential lean + 0.3 × its 2026 statewide margins relative to the D+13 national House vote, plus the national environment E (the 2028 Democratic presidential margin) and an incumbency adjustment (+3 points for an elected incumbent; smaller for appointees, Fetterman and Murkowski's special case; none for seats treated as open, Wisconsin and Iowa). Each of 200,000 runs draws a shared national error (SD 2.5 points) and a state error (SD 7). Sensitivity runs (weights 0.5 to 1.0, SDs 6-8 and 2-4) moved the probabilities by up to 10 points.
 
