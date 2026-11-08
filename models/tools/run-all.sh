@@ -68,9 +68,15 @@ python3 "$TOOLS"/climate-integration-report.py
 echo "== 8f. budget assumptions page (from models/data/budget/assumptions.csv)"
 python3 "$TOOLS"/budget/assumptions_page.py --out "$BUILD/budget-assumptions.md" >/dev/null
 
+echo "== 8g. fiscal viewer (B5): tests, then the page from this run's fiscal-model.json"
+python3 -W ignore::ResourceWarning "$TOOLS"/budget/viewer/test_viewer.py 2>&1 | tail -1
+python3 "$TOOLS"/budget/viewer/build_viewer.py --model "$BUILD/fiscal-model.json" --out "$BUILD/fiscal-viewer.html" --snapshot-out "$BUILD/viewer-snapshot.json" >/dev/null
+
 OUT=(
   'climate-ledger-integration.md|legacy/sources/climate-ledger-integration.md'
   'budget-assumptions.md|models/tools/budget/assumptions.md'
+  'fiscal-viewer.html|models/tools/budget/viewer/fiscal-viewer.html'
+  'viewer-snapshot.json|models/tools/budget/viewer/snapshot.json'
   'recovery-budget.md|legacy/index/recovery-budget.md'
   'recovery-budget.json|models/data/recovery-budget.json'
   'recovery-budget-paths.csv|models/data/recovery-budget-paths.csv'
