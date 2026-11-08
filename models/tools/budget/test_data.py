@@ -14,7 +14,7 @@ Run from the repo root: python3 models/tools/budget/test_data.py   (standard lib
   4. The category list is complete and well formed.
   5. The two conversions behave, and CBO's and OMB's actuals agree where they should.
 """
-import csv, importlib.util, os, sys, unittest
+import csv, importlib.util, os, re, sys, unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
@@ -229,6 +229,91 @@ class SpendingByAccount(unittest.TestCase):
             self.assertTrue(0.95 < float(rows[0]["scale"]) < 1.05, grp)
             self.assertTrue(0.95 < float(rows[0]["sum_of_shares"]) < 1.05, grp)
             self.assertLess(float(rows[0]["calibration_rmse_pct"]), 2.0, grp)
+
+
+class UploadCrossChecks(unittest.TestCase):
+    """Espen's CBO uploads (library/intake/2026-11-08/cbo/, read only) against the layer, which
+    reads CBO's machine-readable repository. They must agree wherever both carry a series."""
+
+    @staticmethod
+    def rows(fname, sheet):
+        return build_data.xlsx_rows(os.path.join(build_data.INTAKE, fname), sheet)
+
+    @staticmethod
+    def num(v):
+        return float(v)
+
+    def by_fiscal_year(self, rows):
+        out = {}
+        for r in rows:
+            if r and r[0] is not None and re.fullmatch(r"\d{4}(\.0)?", str(r[0]).strip()):
+                out[int(float(r[0]))] = r
+        return out
+
+    def test_february_account_workbook_matches_cached_csv(self):
+        _, got = build_data.spending_xlsx("51142-2026-02-Spending-Projections.xlsx", "1. February 2026 Baseline")
+        self.assertEqual(got, D.table(os.path.join("..", "cbo", build_data.SPENDING_DETAIL)))
+
+    def test_june_extract_is_current(self):
+        _, got = build_data.spending_xlsx("51142-2026-06-Spending-Projections.xlsx", "1. Updated Spending Projections")
+        self.assertEqual(got, D.table(os.path.join("..", "cbo", build_data.SPENDING_JUNE)))
+        self.assertFalse([r for r in got if r["function_code"] == "900"])   # CBO left net interest out
+
+    def test_ten_year_table_1_1(self):
+        rows = self.rows("51118-2026-02-Budget-Projections.xlsx", "Table 1-1")
+        yr = next(r for r in rows if len(r) > 2 and str(r[1]).startswith("2025") and str(r[2]).startswith("2026"))
+        cols = {int(float(v)): i for i, v in enumerate(yr) if v and re.fullmatch(r"\d{4}(\.0)?", str(v))}
+        stop = next(i for i, r in enumerate(rows) if r and any("percentage of GDP" in str(x) for x in r if x))
+        want = {"Individual income taxes": "proj_rev_individual_income", "Payroll taxes": "proj_rev_payroll",
+                "Corporate income taxes": "proj_rev_corporate_income", "Customs duties": "proj_rev_customs",
+                "Other": "proj_rev_other", "Mandatory": "proj_outlays_mandatory",
+                "Discretionary": "proj_outlays_discretionary", "Net interest": "proj_outlays_net_interest",
+                "Debt held by the public": "proj_debt_held_by_public"}
+        T = D.by_year("cbo-ten-year")
+        seen = set()
+        for r in rows[:stop]:
+            label = (r[0] or "").strip() if r else ""
+            if label in want and label not in seen:
+                seen.add(label)
+                for y, i in cols.items():
+                    self.assertAlmostEqual(self.num(r[i]), T[y][want[label]], delta=0.0015, msg=(label, y))
+        self.assertEqual(seen, set(want))
+
+    def test_long_term_extended_baseline(self):
+        """Both February long-term files: the February 11 one as reposted on February 26 (it
+        corrects Supplemental Table 1, cell M20) and the February 25 one."""
+        L = D.by_year("cbo-long-term")
+        a = self.by_fiscal_year(self.rows("51119-2026-02-11-LTBO-Budget.xlsx", "Supplemental Table 1"))
+        b = self.by_fiscal_year(self.rows("51119-2026-02-25-LTBO-Budget.xlsx", "1. Summary Ext Baseline"))
+        A = {2: "lt_mand_social_security_gdp_share", 3: "lt_mand_medicare_gdp_share",
+             4: "lt_mand_medicaid_chip_gdp_share", 5: "lt_mand_other_gdp_share",
+             6: "lt_outlays_discretionary_gdp_share", 8: "lt_outlays_net_interest_gdp_share",
+             9: "lt_outlays_total_gdp_share", 1: "lt_rev_total_gdp_share",
+             11: "lt_deficit_total_gdp_share", 12: "lt_debt_held_by_public_gdp_share"}
+        Bc = {1: "lt_rev_individual_income_gdp_share", 2: "lt_rev_payroll_gdp_share",
+              3: "lt_rev_corporate_income_gdp_share", 4: "lt_rev_customs_gdp_share",
+              5: "lt_rev_other_gdp_share", 6: "lt_rev_total_gdp_share", 18: "lt_debt_held_by_public_gdp_share",
+              21: "lt_gdp_trillions"}
+        self.assertEqual(sorted(a), list(range(2026, 2057)))
+        self.assertEqual(sorted(b), list(range(2026, 2057)))
+        for y in range(2026, 2057):
+            for i, v in A.items():
+                self.assertAlmostEqual(self.num(a[y][i]), L[y][v], delta=0.0006, msg=("Feb 11", y, v))
+            for i, v in Bc.items():
+                self.assertAlmostEqual(self.num(b[y][i]), L[y][v], delta=0.0006, msg=("Feb 25", y, v))
+        self.assertEqual(self.num(a[2036][12]), 120.209)   # the corrected cell M20
+
+    def test_economic_projections_fiscal_year(self):
+        rows = self.rows("51135-2026-02-Economic-Projections.xlsx", "3. Fiscal Year")
+        hdr = next(r for r in rows if r and len(r) > 2 and r[1] == "Units")
+        cols = {int(float(v)): i for i, v in enumerate(hdr) if v and re.fullmatch(r"\d{4}(\.0)?", str(v))}
+        E = D.by_year("cbo-economic")
+        for label, var in (("Gross domestic product (GDP)", "gdp"),
+                           ("Consumer price index, all urban consumers (CPI-U)", "cpiu"),
+                           ("GDP price index", "gdp_price_index")):
+            r = next(x for x in rows if x and " ".join(str(x[0] or "").split()) == label)
+            for y, i in cols.items():
+                self.assertAlmostEqual(self.num(r[i]), E[y][var], delta=0.0015, msg=(label, y))
 
 
 if __name__ == "__main__":

@@ -24,6 +24,7 @@ Role: the budget series every piece of the federal budget model reads (workflow 
 | `omb-discretionary.csv` | OMB Historical Tables 5.6 and 8.7: discretionary budget authority and outlays by program group, defense and nondefense, with ground transportation shown separately | BA FY1976-2025; outlays FY1962-2025 | `build_data.py` |
 | `provisions.csv` | One provision spec per ledger row (piece B3; see "Provision specs") | — | by hand, seeded from the ledger and profile tables |
 | `cbo-spending-by-function.csv` | CBO's *Spending Projections, by Budget Account*, February 2026 baseline (1,979 accounts), summed by year, discretionary or mandatory, CBO category and budget function: budget authority, outlays, and outlays of accounts with no budget authority that year (see "Accounts") | FY2026-2036 | `build_data.py` |
+| `cbo-spending-2026-06-vs-02.csv` | CBO's June 2026 update of its account-level spending projections against the February baseline, by year, discretionary or mandatory and CBO category, net interest left out (see "CBO uploads"). For comparison only: the baseline stays February's | FY2026-2036 | `build_data.py` |
 | `cbo-contract-authority.csv` | Highway, transit and airport contract authority from CBO's account file: transportation accounts with discretionary outlays and no discretionary budget authority, whose budget authority CBO records as mandatory; by year and group (see "Accounts") | FY2026-2036 | `build_data.py` |
 | `spendout-discretionary-cbo.csv` | Spend-out of discretionary budget authority, defense and nondefense: OMB history's timing, scaled to CBO's projected outlays (see "Spend-out set by CBO's projections") | history FY1993-2019; calibration FY2029-2036 | `build_data.py` |
 | `spendout-discretionary.csv` | Estimated spend-out of discretionary budget authority, defense and nondefense (see "Spend-out") | fit on FY1993-2019 | `build_data.py` |
@@ -37,6 +38,8 @@ Run `python3 models/tools/budget/build_data.py` to rewrite the generated files. 
 | --- | --- | --- | --- |
 | CBO, *The Budget and Economic Outlook: 2026 to 2036* and *The Long-Term Budget Outlook: 2026 to 2056* (February 2026), as CBO's standardized CSVs: historical budget, ten-year budget, long-term budget, fiscal-year economic projections, fiscal-year economic history, long-term economic levels | `https://github.com/US-CBO/cbo-data`, files `data/budget/{historical_budget/annual_fy,ten_year_budget/annual_fy,long_term_budget/annual_fy}_2026-02.csv` and `data/economic/{economic_projections/fiscal,historical_economic/annual_fy,long_term_economic/levels}_2026-02.csv` | Cached in `models/data/cbo/` (in the repository since October 28, 2026). On November 8, 2026 all six were byte-identical to the repository's current copies (commit `284a956`, June 12, 2026) | US government work, public domain |
 | CBO, *Spending Projections, by Budget Account* (publication 51142, February 2026 baseline), in millions | `https://github.com/US-CBO/cbo-data`, file `data/budget/spending_detail/annual_fy_2026-02.csv`; cached as `models/data/cbo/budget_spending_detail_annual_fy_2026-02.csv` | November 8, 2026 (commit `284a956`) | US government work, public domain |
+| CBO, updated spending projections by budget account underlying *An Analysis of Spending Proposals in the President's 2027 Budget* (June 2026; file under publication 51142, report 62385), in millions | Espen's upload, `library/intake/2026-11-08/cbo/51142-2026-06-Spending-Projections.xlsx` (checksum in that folder's `SHA256SUMS`); not in CBO's repository. Extracted by `build_data.py` to `models/data/cbo/budget_spending_detail_annual_fy_2026-06.csv` in the repository's layout | uploaded November 8, 2026 | US government work, public domain |
+| CBO, the other 14 files Espen uploaded November 8, 2026 (see "CBO uploads") | `library/intake/2026-11-08/cbo/` | uploaded November 8, 2026 | US government work, public domain |
 | OMB, *Historical Tables, Budget of the U.S. Government, Fiscal Year 2027* (April 2026): tables 3.2, 5.1, 5.6, 8.7 | `https://www.whitehouse.gov/wp-content/uploads/2026/04/hist_fy2027.zip` (page: `https://www.whitehouse.gov/omb/information-resources/budget/historical-tables/`); zip SHA-256 `7a5033e6ef074e190442084a1af528fd459040a951e06659432f5bb4ec01ef9d` | November 8, 2026 | US government work, public domain |
 | FY2026 preliminary actuals: CBO *Monthly Budget Review for September 2026*, as reported by AAF and CRFB, October 8, 2026 | as cited in `fiscal-data.py` | carried over from `fiscal-data.py` | cited only |
 | ADJ-T1 (CRFB, July 2026) and ADJ-T2 (AAF, October 2026) | as cited in `fiscal-data.py` | carried over from `fiscal-data.py` | cited only; these are analysis (estimates), not data |
@@ -44,6 +47,33 @@ Run `python3 models/tools/budget/build_data.py` to rewrite the generated files. 
 **Which administration.** The OMB tables come from the FY2027 Budget of the second Trump administration. Only the actual years are used. Those are recorded outlays and budget authority, which is data, not analysis. They are checked against CBO's independent historical series: total outlays are identical through FY2019 and within 0.6% in FY2020-2025, and discretionary defense and nondefense outlays are within 0.2% in every year (`test_data.py`). The FY2020-2025 gap is largest in FY2020 (OMB $36.8 billion lower) and FY2024 ($15.6 billion lower). The layer keeps both series and does not explain the gap; the benchmarks piece (B4) should, before either is used for those years.
 
 **Blocked.** `www.cbo.gov` returns 403 to this session, as the board's "Known gaps" notes. It isn't needed: CBO's standardized CSVs on GitHub carry everything above, including CBO's *Spending Projections, by Budget Account* (publication 51142), which an earlier version of this page wrongly listed as missing. GovInfo was not needed either: OMB's own site served the tables.
+
+## CBO uploads
+
+Espen uploaded 16 original CBO files on November 8, 2026 (`library/intake/2026-11-08/cbo/`, with a README and checksums; never edited here). The layer still reads CBO's machine-readable repository, `github.com/US-CBO/cbo-data`, pinned at commit `284a956` (June 12, 2026, still its latest on November 8). The uploads fill one gap and check the rest. `test_data.py`, class `UploadCrossChecks`, runs these checks on every build:
+
+| Upload | Use | Result |
+| --- | --- | --- |
+| 51142, February 2026 spending by account | Cross-check | `build_data.py` reads the workbook into exactly the cached CSV, all 21,769 account-years, in order. This also validates the extractor used for June |
+| 51142, June 2026 spending by account | **Gap filled** | Not in CBO's repository. Extracted to `models/data/cbo/` in the repository's layout and compared with February in `cbo-spending-2026-06-vs-02.csv` |
+| 51118, ten-year budget projections (Table 1-1) | Cross-check | Revenues by source, mandatory, discretionary and net interest outlays, and debt match `cbo-ten-year.csv`, FY2025-2036, to $1.5 million |
+| 51119, long-term budget data, February 11 file (reposted February 26 to correct Supplemental Table 1, cell M20) and February 25 file | Cross-check | Every share of GDP and GDP itself match `cbo-long-term.csv`, FY2026-2056, within rounding. The repository has the corrected cell (FY2036 debt, 120.209% of GDP) |
+| 51135, economic projections (fiscal-year sheet) | Cross-check | GDP, CPI-U and the GDP price index match `cbo-economic.csv`, FY2023-2036 |
+| 51134, 51136, 51138, 53724, 55022, 57054, 57059, 62044 | Not needed now | Covered by CBO's repository (historical budget, trust funds, revenue detail, tax parameters, historical economics, long-term economics, demographics), or, for 62044, the long-term outlook data the repository's long-term files come from. Available for later pieces |
+| 62556, 2026 long-term Social Security projections, and its additional information | Not needed now | Not in CBO's repository; no current piece reads them |
+
+**June against February.** CBO notes that most agencies were still running on a part-year continuing resolution when it finished the February baseline. The June update adds legislation that passed both houses after January 14, 2026 and was enacted by June 10, plus technical adjustments to discretionary spending and the 2026 credit-subsidy reestimates in the President's budget. The June file has no net interest accounts. Against February, non-interest outlays are:
+
+| | FY2026 | FY2027-2036 |
+| --- | --- | --- |
+| Discretionary defense | +$20.5 billion | +$77.1 billion |
+| Discretionary nondefense | -$30.8 billion | -$183.7 billion |
+| Mandatory, other spending | -$29.5 billion | +$54.5 billion |
+| Medicare, Medicaid, offsetting receipts | +$3.3 billion | -$6.3 billion |
+| Social Security | 0 | 0 |
+| **Total** | **-$36.5 billion** | **-$58.4 billion** |
+
+The June file has 1,691 accounts, outside net interest, against February's 1,658: 39 new accounts and 6 dropped. Some programs moved between accounts, so account-by-account comparisons are noisy, while the category totals above are not. **The layer and the baseline stay on February.** Moving to the June vintage is part of question 0c, choice 1, on the board, and is Espen's decision.
 
 ## Categories
 
