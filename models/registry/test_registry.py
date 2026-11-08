@@ -155,6 +155,26 @@ class RegistryTests(unittest.TestCase):
         self.assertIn('DEC-2026-10-28-01 defined twice', text)
         self.assertIn('EV-HOU-001: defined twice', text)
 
+    def test_assumption_ids_resolve_to_the_register(self):
+        root, _ = self.tree()
+        (root / 'models/data/budget').mkdir(parents=True)
+        header = 'id,topic,label,value,unit,where,source,decided_by,matters,notes\n'
+        good = 'ASM-CPI-PATH,Economic paths,CPI path,2.26,% a year,fiscal-model.py:28,CBO,unrecorded,low: calibrated,\n'
+        (root / 'models/data/budget/assumptions.csv').write_text(header + good)
+        (root / 'dossiers/home/note.md').write_text('Uses `ASM-CPI-PATH`; `ASM-` alone is a format, not an ID.\n')
+        errors, _, counts = self.run_on(root)
+        self.assertEqual(errors, [])
+        self.assertEqual(counts['assumptions'], 1)
+        (root / 'dossiers/home/note.md').write_text('Uses ASM-GDP-PATH.\n')
+        self.assertIn('dossiers/home/note.md: ASM-GDP-PATH does not resolve', ' '.join(self.run_on(root)[0]))
+        # The register's own format: a malformed ID, a duplicate and a "matters" without a level all fail.
+        bad = good + good + 'asm-x,T,L,1,,w,s,d,important,\n'
+        (root / 'models/data/budget/assumptions.csv').write_text(header + bad)
+        text = ' '.join(self.run_on(root)[0])
+        self.assertIn('defined twice', text)
+        self.assertIn('id must look like ASM-CPI-PATH', text)
+        self.assertIn('matters must start', text)
+
 
 if __name__ == '__main__':
     unittest.main()
