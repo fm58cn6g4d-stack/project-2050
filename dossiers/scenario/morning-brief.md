@@ -1,8 +1,8 @@
 # Morning brief: the politics after 2026, and what it means for 2029
 
-Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file at these heads: `main` at `34110f6`, PR #82 at `c83dd98`, PR #84 at `5b4d0f5`, PR #86 at `ee2ea63`, PR #88 at `11bf03f`, PR #87 at `a38b1d1`, PR #89 at `ac5af16`, PR #80 at `af4e45a`.
+Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file at these heads: `main` at `34110f6`, PR #82 at `c83dd98`, PR #84 at `5b4d0f5`, PR #86 at `ee2ea63`, PR #88 at `11bf03f`, PR #87 at `a38b1d1`, PR #89 at `ac5af16`, PR #90 at `72ae47b`, PR #80 at `af4e45a`.
 
-**Where the files are.** Most files are merged into `main` and linked directly. Some files exist only on open PRs and are not merged yet. `senate-model-2028.md`, `senate-model-outputs.md` and `2030-2034-control.md` come from [PR #82](https://github.com/fm58cn6g4d-stack/project-2050/pull/82), updated by [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84), which is built on top of #82; figures from them use #84's version. #84 is still in review: the reviewer asked for changes, and some figures there may move again. `2028-republican-branch.md`, `compounding-redistricting.md`, `compounding-defense.md` and `compounding-prebuild.md` come from [PR #86](https://github.com/fm58cn6g4d-stack/project-2050/pull/86). `house-model-2028.md` comes from [PR #88](https://github.com/fm58cn6g4d-stack/project-2050/pull/88), which is built on #84. `presidential-model-2028.md` comes from [PR #87](https://github.com/fm58cn6g4d-stack/project-2050/pull/87), built on #84. The defense and DEM-2 memo, `memo-defense-baseline-and-dem2.md`, comes from [PR #89](https://github.com/fm58cn6g4d-stack/project-2050/pull/89), built on #86. None of these is merged yet. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
+**Where the files are.** Most files are merged into `main` and linked directly. Some files exist only on open PRs and are not merged yet. `senate-model-2028.md`, `senate-model-outputs.md` and `2030-2034-control.md` come from [PR #82](https://github.com/fm58cn6g4d-stack/project-2050/pull/82), updated by [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84), which is built on top of #82; figures from them use #84's version. #84 is still in review: the reviewer asked for changes, and some figures there may move again. `2028-republican-branch.md`, `compounding-redistricting.md`, `compounding-defense.md` and `compounding-prebuild.md` come from [PR #86](https://github.com/fm58cn6g4d-stack/project-2050/pull/86). `house-model-2028.md` comes from [PR #88](https://github.com/fm58cn6g4d-stack/project-2050/pull/88), which is built on #84. `presidential-model-2028.md` comes from [PR #87](https://github.com/fm58cn6g4d-stack/project-2050/pull/87), built on #84. The defense and DEM-2 memo, `memo-defense-baseline-and-dem2.md`, comes from [PR #89](https://github.com/fm58cn6g4d-stack/project-2050/pull/89), built on #86. `housing-by-2029-world.md` comes from [PR #90](https://github.com/fm58cn6g4d-stack/project-2050/pull/90). None of these is merged yet. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
 
 ## 1. The ten most important findings
 
@@ -71,7 +71,30 @@ With B, the memo also suggests the ban apply from enactment through the 2031 map
 - Which horizon matters to you: "before 2032" (82-85% safe) or "through 2034" (46-60%)? (`2030-2034-control.md`, section 6)
 - Which defense level to accept in the 2027-28 budget deals, decided before about summer 2027 (finding 10; separate from #89's counting question). (`compounding-defense.md`, PR #86)
 
-## 4. Where the models disagree, or the evidence is thin
+## 4. What this means for housing
+
+Your housing memos 3-8 are still undecided. This section is input to them, not advice on what to choose (`housing-by-2029-world.md`, PR #90).
+
+**Four possible 2029 worlds** (central assumption, from the House model in PR #88):
+
+| World | Chance |
+| --- | --- |
+| Democratic trifecta | about 58% |
+| Democratic president, Republican House | about 7% |
+| Republican president, Democratic Senate | about 29% |
+| Full Republican government | about 5% |
+
+- **The core of the housing plan moves only in a trifecta.** The million new rental awards (HOU-4A), the guarantee's stages and the building money (HOU-3C) all need a 51-vote budget bill (reconciliation), and that needs both chambers.
+- **Three choices work in every world:** paying for zoning results through the ROAD Act's fund (memo 4 B), Housing First by reversing the 2025 order (memo 5 B), and keeping the investor limit (HOU-7B). They rest on current law, yearly funding or executive action.
+- **Choices whose best answer depends on the world:**
+  - Memo 6: should a standing emergency-rent fund be designed so its rules can also run on one-time money?
+  - Memo 3, parts 1-2: outside a trifecta, a tax-credit deal is likelier to widen the credits than narrow them, and a federal builder needs a law only a trifecta could pass.
+  - Memo 1 B: in a split government, a partial version exists through HUD's power to attach existing vouchers to buildings.
+  - Stage 3 for disabled renters: written as an expansion of the existing disability voucher program (Mainstream), it could grow from 2027 in any world.
+  - Memo 8 (who comes first): the order doesn't change, but outside a trifecta it reaches only as far as guidance to local agencies.
+- **The 2027-28 risk:** a bipartisan expansion of the low-income housing tax credit would work against memo 3 part 1's recommended narrowing, if you choose it.
+
+## 5. Where the models disagree, or the evidence is thin
 
 - **The filibuster head count conflicts between two files.** The playbook lists Jackson as for ending the filibuster, Turek and Andrews for a talking filibuster, and King as opposed. It cites a Washington Examiner count, a right-leaning source. The Senate model says no position was found for Jackson, Turek or Andrews, treats each as a 25-40% chance of voting no, and does not count King. If the playbook is right, the model's 62% for D2-F is probably too low. The reviewer flagged the same point on #84, and it is not fixed yet. ([2027-28-playbook.md](2027-28-playbook.md), section 6, against `senate-model-2028.md`, section 9)
 - **The statehood figures were corrected after review.** The first version of #84 said D.C. and Puerto Rico statehood would raise the chance of holding the Senate through 2034 from 46% to 64%. It had kept counting 50 seats as a majority in a Senate of 102 or 104. With that fixed (`5b4d0f5`), statehood gives only 52-53%, and a milder 2030 midterm becomes the biggest lever. The same fix made the filibuster count come out the same on every run; before it, figures varied by a point or so between runs.
@@ -86,9 +109,9 @@ With B, the memo also suggests the ban apply from enactment through the 2031 map
 - **#86 leans on memory and trackers in places.** Rubio's role in a 2017 child-credit amendment and the 2015 Supreme Court dissent lineup on redistricting commissions are marked "memory; verify". Most litigation statuses come from case trackers, not the rulings. The 5-10 seat value of DEM-2 is this project's estimate, anchored to FiveThirtyEight (about 5) and Brennan (6-9 in four states). The Republican primary polling comes from a UK aggregator and one AtlasIntel poll.
 - **Thin evidence in places.** Several facts are from search summaries or headlines not opened (for example Fetterman's newer filibuster stance in `4-2029-plan.md`, Murkowski's endorsement in the governor race). A 2006 House figure differs between Brookings and the House Clerk. The model uses no polling, because none exists yet for 2028.
 
-## 5. The next research wave, ranked
+## 6. The next research wave, ranked
 
-1. **A senator-by-senator filibuster count for the 2027 caucus.** Settle the conflict in section 4 and find the unknown positions. *Why:* it decides whether the 2029 rule is graduated cloture or a talking filibuster, and it swings D2-F from 9% to 89%.
+1. **A senator-by-senator filibuster count for the 2027 caucus.** Settle the conflict in section 5 and find the unknown positions. *Why:* it decides whether the 2029 rule is graduated cloture or a talking filibuster, and it swings D2-F from 9% to 89%.
 2. **A House stress test for D1.** Plan for a Democratic president with a Republican House, the way every item is already tested at 51 Senate seats. *Why:* in 11% of Democratic-president runs the House is lost, and then none of the three budget bills (R1-R3) can pass, however big the Senate is.
 3. **Recheck after certification (November 18-25).** Alaska, Mississippi and Measure 2, and whether a repeal would apply in 2028. *Why:* these set the base of 37-39 certain seats and decide whether the Murkowski question exists at all.
 4. **Does visible delivery in 2029-30 shrink the 2030 midterm loss? And what are the House odds in 2030 and 2032?** *Why:* a milder midterm is now the biggest single lever on keeping the Senate after 2032, and it is the one that policy controls. Halving the usual loss is worth about 10 points.
