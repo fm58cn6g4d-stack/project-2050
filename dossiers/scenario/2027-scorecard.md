@@ -2,7 +2,7 @@
 
 Role: a pre-registered reading of the November 2027 results. For each contest it gives the result that would be "on track" for the published 2028 prior (D+3.0, SD 4.5); how far each outcome should move that prior, by a rule fixed now; what the moved prior does to P(trifecta), P(55+ Senate) and P(Democratic House in 2033); and the 2027-28 signals that should change the plan, not just the numbers. Status: draft (stage B follow-up), November 8, 2026. It builds on #92's indicators (`model-credibility.md`, section 4 and next questions 3-4) and on b-4's race list (`2027-races.md`).
 
-**What kind of evidence this is.** This is this project's own arithmetic (`tools/scorecard_2027.py`; tables in `2027-scorecard-outputs.md`; tests in `tools/test_scorecard_2027.py`). Past results are cited in the script and catalogued as SRC-1070 to SRC-1091. 2016 state margins come from FiveThirtyEight's files [SRC-0600]. The headline odds come from the Senate, House and redistricting models, run unchanged at the moved prior. Every "on track" figure is analysis, not a rating; no rater has published 2027 ratings.
+**What kind of evidence this is.** This is this project's own arithmetic (`tools/scorecard_2027.py`; tables in `2027-scorecard-outputs.md`; tests in `tools/test_scorecard_2027.py`). The special-election series is committed as `specials-by-year.csv`, derived from The Downballot's trackers [SRC-1092] by `tools/specials_extract.py`. Other past results are cited in the script and catalogued as SRC-1070 to SRC-1091. 2016 state margins come from FiveThirtyEight's files [SRC-0600]. The headline odds come from the Senate, House and redistricting models, run unchanged at the moved prior. Every "on track" figure is analysis, not a rating; no rater has published 2027 ratings.
 
 ## The scorecard on one screen
 
@@ -10,7 +10,7 @@ Role: a pre-registered reading of the November 2027 results. For each contest it
 
 | Contest (2027) | On track for D+3.0 | Per 5 points off track: 2028 estimate moves | Why it matters beyond the number |
 | --- | --- | --- | --- |
-| Special-election average, all year (Democratic margin minus Harris 2024) | **Harris +12.5** | ±0.6 (±1.5 alone) | The best single gauge; it has to stay near 2025's pace (about +13) just to be on track |
+| Special-election average, all year (Democratic margin minus Harris 2024) | **Harris +11.2** | ±0.6 (±1.5 alone) | The best single gauge; it has to stay close to the 2025-26 pace (+12.5 over 110 races) just to be on track |
 | Minnesota U.S. Senate special, Nov 2 | **D+12.7** | ±0.4 (±1.3 alone) | Its seat itself: losing it cuts P(55+ Senate) from 66% to 42% with everything else on track |
 | Pennsylvania Supreme Court, open seat, Nov 2 | **D+10.2** | ±0.3 (±1.1 alone) | Court control can't flip; a close race is the signal |
 | Wisconsin Supreme Court, Apr 6 (only if a conservative runs) | **Liberal +7.2** | ±0.3 (±1.1 alone) | The first reading of the year |
@@ -44,7 +44,7 @@ The two plain points:
    The excess comes from three sources:
    - **Courts:** the 2019 and 2023 Wisconsin Supreme Court races and the 2023 Pennsylvania Supreme Court race ran an average of 6.2 points ahead of their states' next presidential margins. That figure is used for the courts and the Senate special.
    - **Governor races:** each keeps 40% of its own state's excess beyond 6.2, the same carry-over the Senate model uses for candidate effects. Kentucky's history is +21 to +33, from Conway and Beshear; Mississippi's is −13 to +23; Louisiana's is +18 and +32, from Edwards.
-   - **Specials:** they ran about 12 points ahead of the next presidential change in 2023-24, and about 2 points before the last three midterms. The rule uses 8 (ASSUMPTION).
+   - **Specials:** before the two presidential years with data, they ran 2.3 points (2019) and 11.1 points (2023) ahead of the next national change. The rule uses the mean, 6.7, so on track is the 2028 change from 2024 (+4.5) plus 6.7: **Harris +11.2**. Before the three midterms the excess was smaller (−0.5 to +4.7).
 2. **The reading.** Each result's distance from its benchmark is averaged, weighting each contest by its noise:
    - specials, SD 5;
    - the Senate special, SD 6.1 (the Senate model's open-seat and regional errors);
@@ -62,9 +62,14 @@ The two plain points:
 - **Watch:** the appointee in January and the Republican nominee (`2027-races.md`, section 4).
 
 **The special-election average (all of 2027).**
-- **On track:** Harris +12.5, about the pace of 2025 (+13) and 2017-18 (+10.6).
-- **Both ways:** an average of only Harris +5 moves the estimate to D+2.1, and Harris +18 to D+3.7.
-- **Caveat:** the series comes from press summaries and differs by race set (section 5). Committing one series to the repo is next question 1.
+- **On track:** Harris +11.2.
+  - The 2025-26 cycle averaged +12.5 over 110 counted races (2025: +13.9 over 67; 2026 through August: +10.4 over 43).
+  - So a 2027 at the 2025-26 pace would be about 1 point above track; at 2026's pace, about 1 below.
+- **Both ways:** an average of only Harris +5 moves the estimate to D+2.2, and Harris +18 to D+3.9.
+- **The series:** `specials-by-year.csv` holds the per-year series for 2017-2026: races, races counted, average and median swing, official results, and the federal subset. It is derived from every D-vs-R special since 2017 (463 races) in The Downballot's trackers, by `tools/specials_extract.py` [SRC-1092].
+  - The Downballot asks users to "refrain from reproducing entire spreadsheets", so the race-level extract (date, district, presidential baseline, result, swing) is not committed.
+  - The extractor writes it to `dossiers/scenario/.local/`, which is untracked, for checking.
+  - Rerun the extractor, then the scorecard, as 2027 results come in.
 
 **Pennsylvania Supreme Court (open seat) and the two retentions.**
 - **On track:** D+10.2 for the open seat.
@@ -95,16 +100,16 @@ The two plain points:
 
 | Off-year | Next cycle | Governor-race swing vs. last presidential | Specials average | Next national change |
 | --- | --- | --- | --- | --- |
-| 2017 (VA, NJ) | 2018 midterm | +1.8 | +10.6 | +6.5 |
-| 2021 (VA, NJ) | 2022 midterm | −12.4 | −4.0 | −7.1 |
-| 2025 (VA, NJ) | 2026 midterm | +9.0 | +13.0 | +14.4 |
+| 2017 (VA, NJ) | 2018 midterm | +1.8 | +11.2 | +6.5 |
+| 2021 (VA, NJ) | 2022 midterm | −12.4 | −4.4 | −7.1 |
+| 2025 (VA, NJ) | 2026 midterm | +9.0 | +13.9 | +14.4 |
 | 2015 (KY, LA, MS) | 2016 presidential | +7.0 | — | −1.8 |
-| 2019 (KY, LA, MS) | 2020 presidential | +21.8 | — | +2.4 |
-| 2023 (KY, MS) | 2024 presidential | +22.2 | +5.7 | −5.9 |
+| 2019 (KY, LA, MS) | 2020 presidential | +21.8 | +4.7 | +2.4 |
+| 2023 (KY, MS) | 2024 presidential | +22.2 | +5.2 | −5.9 |
 
 **Before midterms, the relation is close to perfect.**
 - The next national change equals the Virginia-New Jersey swing plus 5.1, with a slope of 1.00. The three residuals are within half a point.
-- The specials give a slope of 1.14.
+- The specials give a slope of 1.07.
 - On this record alone, 2027 would carry most of the weight.
 
 **Before presidential years, there is no relation.**
@@ -146,13 +151,18 @@ Each signal below is stated now, with what it would change. Each is a question f
    - **The plan question:** it would say the 2026 Deep South shift was federal and anti-Trump, so 2032's Class 2 defense in Mississippi, South Carolina, Kansas, Iowa and Alaska is the place to shift plan weight (`senate-model-2028.md`, section 7, option d).
 5. **The New York referendum fails.** That leaves P(D House 2033) about 3 points below a pass (44% against 47%); a Virginia Senate loss adds little. It would raise the weight on DEM-2 Title II (`redistricting-2030-model.md`), since the 2031 maps would then rest more on court-drawn and Republican-drawn states.
 6. **The special-election average below Harris +5 for 2027:**
-   - **On its own:** it is 7.5 points below track, which moves the estimate to D+2.1.
+   - **On its own:** it is 6.2 points below track, which moves the estimate to D+2.2.
    - **With a generic ballot under D+1 by spring 2028:** apply signal 1.
 
 ## 5. Limits
 
 - **The calibration rests on six off-years** and two kinds of contest: Virginia and New Jersey governors before midterms, Southern governors before presidential years. It proves the off-year signal's strength before midterms. Its weight before a presidential year (k = 0.40) is a judgment, set in advance so it cannot be bent afterwards.
-- **The special-election series is approximate.** It mixes The Downballot, CNN and Daily Kos figures, read in press summaries and measured over different sets of races [SRC-1085] [SRC-1086] [SRC-1087] [SRC-1088]. The 2023 value is the midpoint of 7.6 and a later 3.8, and the 3.8 was seen only in a search summary.
+- **The special-election series is one compiler's.**
+  - **Baselines:** the presidential margins by legislative district are The Downballot's calculations from Dave's Redistricting App; no official source publishes them for most states.
+  - **Results:** the tracker marks which results are the official canvass. In 2025-26, 92 of the 111 races are marked official.
+  - **Cross-check:** all seven federal 2025-26 specials (FL-1, FL-6, VA-11, AZ-7, TN-7, GA-14, NJ-11) match published results to within 0.1 point. The comparison was against Wikipedia's tables, because the state election offices' pages could not be retrieved.
+  - **Two sheet errors:** the averages recomputed from the race rows match the tracker's own for every off-year. 2018 and 2020 differ (+11.0 against +9.9, +5.7 against +5.0) because a few sheet rows carry a typed margin that contradicts their vote shares, such as Alabama HD-21 in 2018. The extractor recomputes margins from the shares.
+  - **The old figures:** the press figures this PR first used (SRC-1085 to SRC-1088) agree with the series within 1 point in every year (for example, 2023: +5.2 in the series against the 5.7 used before).
 - **Two benchmarks rest on unconfirmed figures:**
   - **Pennsylvania 2023:** the court excess uses McCaffery's unofficial 53-47 [SRC-1091].
   - **Virginia and New Jersey 2025:** both governor margins come from infoboxes not marked certified.
@@ -161,7 +171,7 @@ Each signal below is stated now, with what it would change. Each is a question f
 
 ## Next questions
 
-1. **A committed special-election series.** Compile every 2027 state legislative and congressional special (margin minus Harris 2024) in one file and rerun the scorecard monthly. This replaces the press summaries.
+1. **Monthly reruns in 2027.** The per-year special-election series is committed (`specials-by-year.csv`). Should the scorecard be rerun monthly as 2027 specials post, with the running average logged against Harris +11.2?
 2. **A 2007-08 row.** The open-seat presidential year whose in-party was unpopular is the closest analog to 2028. Adding Kentucky 2007, Mississippi 2007 and Louisiana 2007 would test whether k = 0.40 is too low.
 3. **The Wisconsin decision in January.** If no conservative files, drop Wisconsin and note that the slate's gain falls slightly.
 4. **A generic-ballot rule for 2028.** Signal 1 needs a stated mid-2028 environment. Should the scorecard add a second, pre-registered step that folds in the generic-ballot average on June 1, 2028?
