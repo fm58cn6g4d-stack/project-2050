@@ -12,13 +12,13 @@ This file is the numbers; the qualitative state-by-state account is `compounding
 ## In brief
 
 - **Under a Democratic president, Republicans probably draw most of the big maps.** The 2030 midterm swing against the president's party, drawn from 1990-2026, puts the average 2030 environment at about R+1.5. Republicans then hold the pen in Florida (93% of runs), North Carolina (87%), Ohio (77%) and Texas (71%), and in Georgia half the time. On average they draw 3.8 of those five states, and all five in 39% of runs. Democrats draw New York only if its November 2027 referendum passes (45%). Pennsylvania and Wisconsin are mostly deadlocked or Republican.
-- **DEM-2 Titles I-II are worth about +10 Democratic House seats on the 2032 maps under a Democratic president.** The 10th-90th percentile range is +3 to +15, and the sensitivity range +6 to +13.
-  - Without DEM-2, the 2032 maps carry a net Republican partisan effect of about 15 seats: 11 from the twelve states and 4 from the rest of the country.
-  - With Title II removing about two-thirds of each gerrymander, P(Democratic House, January 2033) rises from **42% to 57%**.
+- **DEM-2 Titles I-II are worth about +7 Democratic House seats on the 2032 maps under a Democratic president.** The 10th-90th percentile range is +2 to +11, and the sensitivity range +2 to +10. The largest uncertainty is how the 2026 lines' Republican lean splits between geography and partisan maps (section 1).
+  - Without DEM-2, the 2032 maps carry a net Republican partisan effect of about 10 seats: 8 from the twelve states and 3 from the rest of the country.
+  - With Title II removing about two-thirds of each gerrymander, P(Democratic House, January 2033) rises from **57% to 68%**.
 
-  This matches the upper half of #86's analysis-based "+5 to +10."
+  This sits inside #86's analysis-based "+5 to +10." (Corrected after review on #91: the first version did not tie the partisan effects to the 2026 lines' observed D+3.0 break-even, and overstated the value at about +10.)
 - **Title I adds nothing to the 2032 maps.** The ban does not touch the decennial 2031 redraw. Its value is after 2032: it stops a 2033-40 round of mid-decade redraws. On the 2025-26 evidence that round nets about zero in expectation but swings plus or minus 2-3 seats (section 4). The 2032 value is Title II's, which supports #89's ordering (ban, then criteria, then commissions) only if Title II is in the bill: a ban-only DEM-2 is worth about zero seats in 2032.
-- **One correction to #86.** #86 calls DEM-2 "about neutral" if Democrats sweep 2030. In the model, even with a Republican president (an average 2030 of about D+4.9), Republicans still draw Florida 78% and North Carolina 66% of the time, because the North Carolina Senate, Florida's chambers, Ohio's legislature and the Texas Senate sit far to the right of their states. Democrats rarely gain a pen, so DEM-2 is still worth about +6 seats. A Republican president would not sign it, so this is a note on the maps, not a plan.
+- **One correction to #86.** #86 calls DEM-2 "about neutral" if Democrats sweep 2030. In the model, even with a Republican president (an average 2030 of about D+4.9), Republicans still draw Florida 78% and North Carolina 66% of the time, because the North Carolina Senate, Florida's chambers, Ohio's legislature and the Texas Senate sit far to the right of their states. Democrats rarely gain a pen, so DEM-2 is still worth about +4 seats. A Republican president would not sign it, so this is a note on the maps, not a plan.
 
 ## 1. How the model works
 
@@ -51,9 +51,22 @@ How the break-evens are set:
 
 Office errors have SD 7 for governors and SD 5 for chambers; governor races stray about four points further from lean than Senate races [SRC-0589].
 
-**Outside the twelve:** a fixed net Republican partisan effect of 4 seats (SD 2; tested 0 and 8). D-drawn Illinois, Maryland, Oregon and New Mexico add about +6; R-drawn Tennessee, Louisiana, Alabama, South Carolina, Indiana, Missouri, Kentucky, Kansas, Utah and Mississippi about −10. The PNAS study of the 2021 maps found partisan effects of +8.6 Republican and +6.2 Democratic seats nationally (#86, section 2).
+**Outside the twelve:** a fixed net Republican partisan effect of 4 seats at full scale (SD 2; tested 0 and 8). D-drawn Illinois, Maryland, Oregon and New Mexico add about +6; R-drawn Tennessee, Louisiana, Alabama, South Carolina, Indiana, Missouri, Kentucky, Kansas, Utah and Mississippi about −10. The PNAS study of the 2021 maps found partisan effects of +8.6 Republican and +6.2 Democratic seats nationally (#86, section 2).
 
-**Geography:** the 2026 lines' break-even of D+3.0 (`house-model-2028.md`) is split into about 1.9 points of geography and about 1.1 points (4 seats) of net partisan maps. That split is an assumption.
+**Calibrating to today's maps (review on #91).** The partisan effects must reproduce the 2026 lines' observed break-even of D+3.0 (`house-model-2028.md`) under the pens that drew those lines:
+- Republican: TX, FL, NC, GA and OH;
+- Democratic: NV, and California's Proposition 50 map (about +5 D until 2031);
+- neutral: court maps in PA, WI and VA, and commissions in MI, AZ and NY.
+
+How the 3.0 points split between geography and partisan maps is uncertain. The model therefore scales every partisan effect by one factor and treats geography as whatever remains:
+
+| Calibration | Scale | Today's net partisan effect | Geography-only break-even | Value of Titles I-II in 2032 |
+| --- | --- | --- | --- | --- |
+| **Base:** Wang's Republican map edge of "around 10 seats" [SRC-0818] | 0.71 | −10 seats | D+0.3 | +6.9 |
+| #86's swings at face value | 1.0 | −14 seats | R+0.8 | +9.5 |
+| A PNAS-style geographic bias of about 8 seats (2021 maps) | 0.21 | −3 seats | D+2.2 | +2.0 |
+
+A test checks that today's pens reproduce 217.5 seats at D+3.0 at every scale. The base reads the 2024-26 evidence as having shrunk geography's role: Democratic voters became less concentrated in 2024, and the 2025-26 redraw war produced a 3-point lean that the maps alone can explain.
 
 ## 2. Results
 
@@ -77,8 +90,8 @@ Office errors have SD 7 for governors and SD 5 for chambers; governor races stra
 
 | 2028 president | Net partisan map effect (D seats): 12 states / all | Expected D House seats in 2032, no DEM-2 | With Titles I-II | Value (10th-90th percentile) | P(D House, Jan 2033): no DEM-2 / with |
 | --- | --- | --- | --- | --- | --- |
-| **Democratic** | −10.9 / −14.8 | 214 | 223 | **+9.7** (+2.7 to +15.1) | **42% / 57%** |
-| Republican | −4.6 / −8.6 | 191 | 196 | +5.6 (−3.1 to +13.1) | 15% / 19% |
+| **Democratic** | −7.7 / −10.5 | 224 | 231 | **+6.9** (+1.9 to +10.7) | **57% / 68%** |
+| Republican | −3.3 / −6.1 | 199 | 203 | +4.0 (−2.2 to +9.3) | 23% / 27% |
 
 The average 2032 environment is D+4.9 in Democratic-president runs (winning in 2028 selects the better environments) and R+3.1 in Republican-president runs.
 
@@ -86,18 +99,20 @@ The average 2032 environment is D+4.9 in Democratic-president runs (winning in 2
 
 | Change | Value of Titles I-II | P(D House 2033): without / with |
 | --- | --- | --- |
-| Title II removes 40% of each gerrymander | +5.9 | 44% / 52% |
-| Title II removes 85% | +12.5 | 44% / 63% |
-| No net effect outside the twelve states | +6.9 | 49% / 60% |
-| An 8-seat net Republican effect outside them | +12.1 | 38% / 56% |
-| The partisan-fairness standard also cuts geographic bias by a quarter | +11.3 | 44% / 61% |
-| A near-neutral 2028 | +11.1 | 24% / 40% |
+| Title II removes 40% of each gerrymander | +4.2 | 59% / 65% |
+| Title II removes 85% | +8.8 | 59% / 72% |
+| #86's swings at face value (scale 1.0) | +9.5 | 58% / 72% |
+| PNAS-style geography (scale 0.21) | +2.0 | 60% / 63% |
+| No net effect outside the twelve states | +4.9 | 59% / 66% |
+| An 8-seat net Republican effect outside them | +8.6 | 59% / 71% |
+| The partisan-fairness standard also cuts geographic bias by a quarter | +7.0 | 59% / 69% |
+| A near-neutral 2028 | +7.9 | 40% / 53% |
 
-The value is robust in sign and size, about +6 to +13 seats. Its size rests mainly on how much of a gerrymander Title II's criteria remove in court, which is a legal question, not an electoral one.
+The value is robust in sign, and about +2 to +10 seats in size. Two things set the size: how much of today's Republican lean is maps rather than geography (an empirical question a district-level study could settle), and how much of a gerrymander Title II's criteria remove in court (a legal one).
 
 ## 3. What it means for Project 2050 (options and questions)
 
-- **D1's House stipulation.** D1 makes a 2033 House trifecta conditional on DEM-1 and DEM-2 being in force before the 2031 maps. With a Democratic president elected in 2028, the model puts P(Democratic House, January 2033) at 42% without DEM-2 and 57% with Titles I-II. **DEM-2 is necessary but not sufficient.** Even with it, the 2033 House is close to a coin flip. #89 proposes restating the stipulation around Titles I-II; these numbers support that, and suggest it read "improves the odds from about 4 in 10 to about 6 in 10," not "secures."
+- **D1's House stipulation.** D1 makes a 2033 House trifecta conditional on DEM-1 and DEM-2 being in force before the 2031 maps. With a Democratic president elected in 2028, the model puts P(Democratic House, January 2033) at 57% without DEM-2 and 68% with Titles I-II. **DEM-2 helps, but it does not secure the House.** #89 proposes restating the stipulation around Titles I-II; these numbers support that, and suggest it read "improves the odds by about 10 points," not "secures."
 - **Title II carries the 2032 value.** The ban (Title I) has the lowest legal risk but adds nothing to the 2031 maps. If DEM-2 is severable (#89, option B) and Title II falls in court while Title I stands, the 2032 value falls to about zero. Question for Espen: should Title II be written to survive on its own, for example with criteria tied to existing Elections Clause precedent, and should its partisan-fairness standard be the plan's priority rather than the commission mandate?
 - **Timing.** The value exists only if Titles I-II are in force before states draw in 2031, which means enactment in 2029-30 under D2's rules change. The whip count in `senate-model-2028.md`, section 9, puts that at about 63%. DEM-1F already targets DEM-1 floor time by March 2029; DEM-2's own slot is not fixed.
 - **The 2030 races still matter.** Without DEM-2, the five big Republican-leaning pens (TX, FL, NC, GA, OH) are Republican in an average of 3.8 states under a Democratic president. The model's most movable pens are Georgia (about half deadlocked), Pennsylvania (56% deadlocked), Wisconsin, Texas (27% deadlocked through Hinojosa's veto) and Nevada. Holding governors' vetoes in Texas, Georgia, Wisconsin and Ohio is worth more than flipping chambers that sit 10-20 points to the right of their states.
@@ -108,5 +123,6 @@ The value is robust in sign and size, about +6 to +13 seats. Its size rests main
 1. **Ohio's rule in detail.** Ohio's 2018 amendment routes failed maps through a commission of statewide officials, which this model treats as neutral. Who holds the auditor's and secretary of state's offices in 2030, and how would the commission vote?
 2. **State legislative chamber data.** The chamber break-evens are placed from 2022-26 results. A seat-by-seat state legislative model, using district presidential results for the state maps, would replace them.
 3. **Texas's two-thirds override.** The model treats a Democratic governor's veto as decisive. Republican supermajorities in both Texas chambers would override it, and the model gives them little chance, but that is untested.
-4. **Title II's legal reach.** How much of a partisan gerrymander can statutory criteria remove in court after *Rucho*? This is the model's most valuable input (+6 to +13 seats across the tested range).
+4. **Title II's legal reach.** How much of a partisan gerrymander can statutory criteria remove in court after *Rucho*? Together with the maps-versus-geography split, this decides DEM-2's value (+2 to +10 seats across the tested ranges).
 5. **The 2033-40 decade.** Chain the 2034 and 2036 House and the mid-decade question (Title I) to state DEM-2's full-decade value.
+6. **Maps or geography?** A district-level estimate of how much of the 2026 lines' D+3.0 break-even is partisan mapmaking rather than where voters live. It is the largest uncertainty in DEM-2's value: +2 seats if mostly geography, +9.5 if mostly maps.

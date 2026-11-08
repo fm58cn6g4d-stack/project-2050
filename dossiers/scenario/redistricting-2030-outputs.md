@@ -2,6 +2,8 @@
 
 Role: the tables `tools/redistricting_2030.py --write` produces, read by `redistricting-2030-model.md`. Status: generated; do not edit by hand. This project's exploratory scenario arithmetic, not a forecast. Runs come from `senate_model.simulate_chain` (evidence-weighted 2028 environment, D+3 with SD 4.5), n = 20000, seeded.
 
+Calibration: today's pens give a net partisan effect of -9.9 D seats on the 2026 lines (scale 0.71), so the geography-only break-even is D+0.3 and today's maps reproduce the D+3.0 median.
+
 ## 1. Who holds the 2031 pens
 
 Share of runs in which each state's 2031 congressional map is Democratic-drawn / neutral (court, commission, deadlock) / Republican-drawn. Average 2030 environment: R+1.5 with a Democratic president, D+4.9 with a Republican president.
@@ -25,8 +27,8 @@ Share of runs in which each state's 2031 congressional map is Democratic-drawn /
 
 | 2028 president | Net partisan map effect, 12 states (D seats) | Net, all states | Expected D House seats 2032, no DEM-2 | With Titles I-II | Value of Titles I-II (10th-90th percentile) | P(D House 2033), no DEM-2 | With |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Democratic | -10.9 | -14.8 | 214 | 223 | +9.7 (+2.7 to +15.1) | 42% | 57% |
-| Republican | -4.6 | -8.6 | 191 | 196 | +5.6 (-3.1 to +13.1) | 15% | 19% |
+| Democratic | -7.7 | -10.5 | 224 | 231 | +6.9 (+1.9 to +10.7) | 57% | 68% |
+| Republican | -3.3 | -6.1 | 199 | 203 | +4.0 (-2.2 to +9.3) | 23% | 27% |
 
 Average 2032 environment: D+4.9 (Democratic president elected 2028), R+3.1 (Republican). Title I (the mid-decade ban) does not change the decennial 2031 maps, so the 2032 value is Title II's; Title I's value is in section 4.
 
@@ -34,13 +36,15 @@ Average 2032 environment: D+4.9 (Democratic president elected 2028), R+3.1 (Repu
 
 | Change | Value of Titles I-II, D seats 2032 | P(D House 2033): without / with |
 | --- | --- | --- |
-| Base (f = 0.65) | +9.5 | 44% / 58% |
-| Title II removes 40% | +5.9 | 44% / 52% |
-| Title II removes 85% | +12.5 | 44% / 63% |
-| Rest-of-country net effect 0 | +6.9 | 49% / 60% |
-| Rest-of-country net effect -8 | +12.1 | 38% / 56% |
-| Partisan-fairness standard also cuts geographic bias by a quarter | +11.3 | 44% / 61% |
-| 2028 environment neutral (SD 2) | +11.1 | 24% / 40% |
+| Base (f = 0.65) | +6.8 | 59% / 69% |
+| Title II removes 40% | +4.2 | 59% / 65% |
+| Title II removes 85% | +8.8 | 59% / 72% |
+| Swings at face value (scale 1.0; geography about -0.8) | +9.5 | 58% / 72% |
+| PNAS-style geography (scale 0.21; geography about 2.2) | +2.0 | 60% / 63% |
+| Rest-of-country net effect 0 | +4.9 | 59% / 66% |
+| Rest-of-country net effect -8 | +8.6 | 59% / 71% |
+| Partisan-fairness standard also cuts geographic bias by a quarter | +7.0 | 59% / 69% |
+| 2028 environment neutral (SD 2) | +7.9 | 40% / 53% |
 
 ## 4. Title I, the mid-decade ban
 
