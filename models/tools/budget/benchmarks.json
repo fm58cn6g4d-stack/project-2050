@@ -164,7 +164,8 @@
    "why": "Tests B3's spend-out method (provisions.cbo_discretionary_outlays, on B2's CBO-calibrated shares, ASM-SPENDOUT) against CBO's own conversion of budget authority into outlays: CBO's projected discretionary defense budget authority, account by account, goes in; outlays FY2029-2036 come out. Five percent in each year is about twice the fit error of B2's historical timing (2.2% of mean outlays), so it allows for the fit and would catch a wrong rate. **This is partly in-sample.** B2 set the shares' overall level (one scale factor, 1.009) so that, over these same years, they give CBO's outlays. So the total is fitted, not tested; what is tested is the year-by-year timing, which comes from OMB's history (FY1993-2019), not from CBO.",
    "detail": [
     "Over FY2029-2036 the method gives -0.01% of CBO's total (fitted). Largest year FY2035: 1077 against CBO's 1068 billion."
-   ]
+   ],
+   "in_sample": true
   },
   {
    "id": "PS-3b",
@@ -181,7 +182,8 @@
    "detail": [
     "Over FY2029-2036 the method gives +0.00% of CBO's total (fitted). Largest year FY2029: 996 against CBO's 1010 billion.",
     "Earlier reading (#113): before B3's fix (#118), the library rescaled B2's OMB-fit nondefense shares, which add to 1.10, down to one, and added nothing for highway and transit. That fell 11.1% short in FY2029 and failed. With B2's OMB-fit shares as stored, the FY2029 gap was -2.6%: the extra tenth stood in for outlays whose budget authority isn't discretionary (B2 measured about $94 billion a year, $87 billion of it in function 400: highways, transit, airports). #118 now carries those outlays on their own, which is what this benchmark reads."
-   ]
+   ],
+   "in_sample": true
   },
   {
    "id": "PS-4",

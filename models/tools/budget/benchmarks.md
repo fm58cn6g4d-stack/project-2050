@@ -4,7 +4,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 **How to read it.** *pass*: within the stated tolerance. *fail*: outside it; the miss column gives the size. *pending*: there is no target yet, because the source isn't in the library or the model can't compute the quantity. A miss is reported, never fixed by changing the model or the tolerance.
 
-17 benchmarks: 13 pass, 1 fail, 3 pending.
+17 benchmarks: 13 pass, 1 fail, 3 pending. 2 of the passes (PS-3a, PS-3b) are partly in-sample: their level was calibrated to the same CBO figures they are checked against, so only their timing is tested.
 
 **Milestone status: not passed.** PS-4, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
 
@@ -19,8 +19,8 @@ Role: the current result of every benchmark of the federal budget model (piece B
 | ID-5 | Nominal equals real times the deflator, and share of GDP times GDP (B2's two conversions) | **pass** | 2.07e-16 (largest relative error) | 0.00 | relative error 1e-12 | — |
 | PS-1 | JCT: extending P.L. 119-21's four household deductions; the library's timing of a permanent revenue provision | **pass** | FY2030 65.0, FY2034 75.9 ($B) | FY2030 68, FY2034 73 | 5% in each year | — |
 | PS-2 | CBO: interest cost of extending P.L. 119-21's ten temporary provisions, FY2025-34 | **pass** | 80.70 ($B) | 71 | 15% | — |
-| PS-3a | CBO: discretionary defense outlays from budget authority (February 2026 baseline) | **pass** | +0.9% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
-| PS-3b | CBO: discretionary nondefense outlays from budget authority (February 2026 baseline) | **pass** | -1.4% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
+| PS-3a | CBO: discretionary defense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | +0.9% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
+| PS-3b | CBO: discretionary nondefense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | -1.4% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
 | PS-4 | CBO: cost estimate for a full-year appropriations act | **pending** | — | — | to be set with the source | — |
 | SE-1 | Interest rates 1 point higher on all debt: added net interest | **pending** | year 1 387, year 5 574, year 10 911; ten-year 6211 ($B) | — | to be set with the source | — |
 | SE-2 | Slower growth (productivity or labor force 0.1 point a year lower): added deficits | **pending** | — | — | to be set with the source | — |

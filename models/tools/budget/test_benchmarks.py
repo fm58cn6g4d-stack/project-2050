@@ -319,6 +319,7 @@ def bm_published(M):
                        "pass" if abs(gaps[wy]) <= 0.05 else "fail", "%+.1f%%" % (100 * gaps[wy]), "CBO's outlays, FY%d-%d" % (yrs[0], yrs[-1]),
                        "5% in each year", "CBO February 2026 baseline by budget account (US-CBO/cbo-data spending_detail, models/data/budget/cbo-spending-by-function.csv)",
                        why, unit="largest yearly gap", miss="%+.1f%% in FY%d" % (100 * gaps[wy], wy) if abs(gaps[wy]) > 0.05 else None, detail=det))
+        out[-1]["in_sample"] = True
     out.append(_bm("PS-4", "Published scores", "CBO: cost estimate for a full-year appropriations act", "pending", None, None, "to be set with the source",
                    "Pending source: not in the library, and www.cbo.gov returns 403 to agent sessions (see uploads)",
                    "A published appropriations score, with budget authority and outlays by year and account, would test the spend-out method "
@@ -437,15 +438,20 @@ def _counts(results):
 def summary_table(results):
     lines = ["| ID | Benchmark | Result | Model | Target | Tolerance | Miss |", "| --- | --- | --- | --- | --- | --- | --- |"]
     for r in results:
-        lines.append("| %s | %s | **%s** | %s%s | %s | %s | %s |" % (
-            r["id"], r["name"], r["status"], _fmt(r["value"]), (" (%s)" % r["unit"]) if r["unit"] and r["value"] is not None else "",
+        lines.append("| %s | %s | **%s**%s | %s%s | %s | %s | %s |" % (
+            r["id"], r["name"], r["status"], " (partly in-sample)" if r.get("in_sample") else "", _fmt(r["value"]), (" (%s)" % r["unit"]) if r["unit"] and r["value"] is not None else "",
             _fmt(r["target"]), r["tolerance"], r["miss"] or "—"))
     return "\n".join(lines)
 
 
 def counts_line(results):
     c = _counts(results)
-    return "%d benchmarks: %s." % (len(results), ", ".join("%d %s" % (c[k], k) for k in ("pass", "fail", "pending", "info") if c.get(k)))
+    line = "%d benchmarks: %s." % (len(results), ", ".join("%d %s" % (c[k], k) for k in ("pass", "fail", "pending", "info") if c.get(k)))
+    ins = [r["id"] for r in results if r.get("in_sample") and r["status"] == "pass"]
+    if ins:
+        line += (" %d of the passes (%s) are partly in-sample: their level was calibrated to the same CBO figures they are checked "
+                 "against, so only their timing is tested." % (len(ins), ", ".join(ins)))
+    return line
 
 
 def milestone_line(results):
