@@ -58,11 +58,11 @@ The budget model projects the whole federal budget, year by year from FY2026 to 
 | ID-4a | Interest on the program's borrowing follows from its debt and the stated rates | **pass** | 0.00 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4b | The baseline's net interest is consistent with its debt and CBO's average interest rate | **pass** | 0.10 (points, largest gap (implied minus CBO)) | 0.00 | 0.25 percentage point in every year FY2027-36 | — |
 | ID-5 | Nominal equals real times the deflator, and share of GDP times GDP (B2's two conversions) | **pass** | 2.07e-16 (largest relative error) | 0.00 | relative error 1e-12 | — |
-| PS-1 | JCT: extending P.L. 119-21's four household deductions; the library's timing of a permanent revenue provision | **pass** | FY2030 65.0, FY2034 75.9 ($B) | FY2030 68, FY2034 73 | 5% in each year | — |
-| PS-2 | CBO: interest cost of extending P.L. 119-21's ten temporary provisions, FY2025-34 | **pass** | 80.70 ($B) | 71 | 15% | — |
+| PS-1 | JCT: extending P.L. 119-21's four household deductions; the library's timing of a permanent revenue provision | **pass** | FY2030 65.0, FY2031 67.3, FY2032 69.9, FY2033 72.8, FY2034 75.9 ($B) | FY2030 68, FY2031 69, FY2032 70, FY2033 71, FY2034 73 | 5% in each year | — |
+| PS-2 | CBO: interest cost of extending P.L. 119-21's ten temporary provisions, FY2025-34 | **pass** | 80.20 ($B) | 71 | 15% | — |
 | PS-3a | CBO: discretionary defense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | +0.9% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
 | PS-3b | CBO: discretionary nondefense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | -1.4% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
-| PS-4 | CBO: cost estimate for a full-year appropriations act | **pending** | — | — | to be set with the source | — |
+| PS-4 | CBO: cost estimate for an appropriations act, outlays by year from new budget authority | **pending** | — | — | to be set with the source | — |
 | SE-1 | Interest rates 0.1 point higher on all debt from FY2027: added net interest | **fail** | FY2027-36 total 502; FY2027 32, FY2036 72 ($B) | CBO: total 383; FY2027 14, FY2036 62 | ten-year total within 15%, and each year within 25% | ten-year total +31%; 5 of 10 years outside 25% (largest FY2027, +131%) |
 | SE-2 | Slower growth (productivity or labor force 0.1 point a year slower): added deficits | **fail** | 0 for both (the model has no growth response) ($B) | CBO, FY2027-36: productivity 317, labor force 166 | ten-year total within 15% for each scenario | -100% for both: 0 against 317 and 166 |
 | TF-1 | Social Security (OASDI combined): current law | **pass** | depletion 2034, 83% payable, balance -4.45% | depletion 2034, 83% payable, balance -4.42% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | — |
@@ -88,13 +88,13 @@ The workflow says nothing new feeds a public or decision figure until B4's bench
 | Reading | Open benchmark | What resolves it |
 | --- | --- | --- |
 | Medicare Hospital Insurance's absolute depletion year and 75-year balance (the program's gain to HI is the reading the engine supports) | TF-2 (fail) | A fix in `funds-model.py` by its owner, or a year-by-year Trustees HI table |
-| How the library scores an appropriations act (budget authority to outlays, account by account) | PS-4 (pending) | A CBO cost estimate for a full-year act (upload) |
+| How the library spends out an appropriations act (budget authority to outlays over the years) | PS-4 (pending) | A CBO estimate showing one act's outlays by year, such as a supplemental appropriations estimate. The two FY2026 House estimates uploaded give one year only |
 | The size and timing of the interest-rate stress case (DEC-R1, BASE-R1) | SE-1 (fail) | A B6 method choice: phase the higher rate in as debt is refinanced, as CBO does, or keep the cautious all-at-once reading and say so beside every stress figure |
 | Any response to slower or faster growth | SE-2 (fail; the model has none) | A growth response built in B6 or later, calibrated to CBO's rules of thumb |
 
 Two passing benchmarks are weaker than their status suggests, and Codex's review says so too:
 - **PS-1 and PS-2 check methods, not costs.** The cost total goes in from JCT; the benchmarks check how the library spreads it over the years and what interest the model adds. They do not show that the model can estimate a cost.
-- **PS-2 is a weak match.** It is 14% from CBO against a 15% tolerance, with three years of its inputs set equal because the source isn't in the library.
+- **PS-2 is a near match.** It is about 13% from CBO against a 15% tolerance, now on Table 2's actual years; the remaining difference is mostly the two interest-rate vintages.
 - **PS-3a and PS-3b are partly in-sample.** B2 set the spend-out shares' overall level to match CBO's outlays over the same years the benchmark checks, so the ten-year total is fitted. Only the year-by-year timing, taken from OMB's history, is tested.
 
 What the benchmarks do support now: the baseline (BL-1), the accounting identities (ID-1 to ID-5), the year-by-year timing of the discretionary spend-out (PS-3a, PS-3b), Social Security's trust-fund engine (TF-1, TF-3), and the arithmetic behind the D4 readings. The D4 readings also rest on the ledger's midpoints, which no benchmark tests (`CONVENTIONS.md`, choice 2). B4 changes none of those figures.
