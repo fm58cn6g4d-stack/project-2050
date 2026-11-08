@@ -71,6 +71,7 @@ When your step's PR is ready:
 3. If the report-back session and the lead named on the board are both archived, start the successor yourself, but only if your own `lineage.depth` is at most 5. Otherwise leave the next step as "Next, ready" on the board.
 4. If the next step isn't ready, write its status and blocker on the board, and schedule a `send_later` check-in if a known event will unblock it.
 5. Stay until your PR merges or its review wakes you: an open PR is still yours (the review and CI rules in your system instructions apply).
+6. **Stacked PRs:** if your PR's base is another PR's branch, retarget it to `main` as soon as that base merges, and merge `main` in. The gate merges an approved PR into whatever base it names, so a PR left on a merged branch lands in a dead branch and never reaches `main` (PR #113, November 8).
 
 ## Handing over a standing role
 

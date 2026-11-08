@@ -199,5 +199,37 @@ class CBOAgainstOMB(unittest.TestCase):
             self.assertLess(float(rows[0]["rmse_pct_of_mean_outlays"]), 5.0)
 
 
+class SpendingByAccount(unittest.TestCase):
+    """CBO's account-level projections (publication 51142) add up to its ten-year baseline."""
+    def test_totals_match_ten_year_baseline(self):
+        T = D.by_year("cbo-ten-year")
+        pairs = [(D.cbo_spending("outlays"), "proj_outlays_total"),
+                 (D.cbo_spending("outlays", "discretionary", "Defense"), "proj_disc_defense"),
+                 (D.cbo_spending("outlays", "discretionary", "Nondefense"), "proj_disc_nondefense"),
+                 (D.cbo_spending("ba", "discretionary", "Defense"), "proj_disc_defense_ba_timing_adj"),
+                 (D.cbo_spending("ba", "discretionary", "Nondefense"), "proj_disc_nondefense_ba_timing_adj"),
+                 (D.cbo_spending("outlays", category="Net Interest"), "proj_outlays_net_interest")]
+        for series, var in pairs:
+            self.assertEqual(sorted(series), list(range(2026, 2037)), var)
+            for y, v in series.items():
+                self.assertAlmostEqual(v, T[y][var], delta=0.002, msg="%s FY%d" % (var, y))
+
+    def test_every_account_every_year(self):
+        n = {}
+        for r in D.table("cbo-spending-by-function"):
+            n[r["year"]] = n.get(r["year"], 0) + int(r["accounts"])
+        self.assertEqual(set(n.values()), {1979})
+
+    def test_cbo_calibrated_spendout(self):
+        """History's timing, CBO's level: one scale factor near 1, a close fit to CBO's outlays."""
+        s = D.table("spendout-discretionary-cbo")
+        for grp in ("defense", "nondefense"):
+            rows = [r for r in s if r["group"] == grp]
+            self.assertEqual([int(r["year_of_spending"]) for r in rows], list(range(build_data.LAGS)))
+            self.assertTrue(0.95 < float(rows[0]["scale"]) < 1.05, grp)
+            self.assertTrue(0.95 < float(rows[0]["sum_of_shares"]) < 1.05, grp)
+            self.assertLess(float(rows[0]["calibration_rmse_pct"]), 2.0, grp)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

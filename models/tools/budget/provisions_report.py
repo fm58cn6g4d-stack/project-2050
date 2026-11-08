@@ -16,7 +16,8 @@ ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
 sys.path.insert(0, HERE)
 import provisions as P  # noqa: E402
 
-KIND_WORDS = {"discretionary": "Discretionary appropriation", "mandatory": "Mandatory (direct) spending",
+KIND_WORDS = {"discretionary": "Discretionary appropriation",
+              "mandatory": "Mandatory (direct) spending",
               "revenue": "Revenue", "transfer": "Interest-neutral transfer (self-funded)",
               "none": "No direct budget effect"}
 VEHICLE_WORDS = {"reconciliation": "Reconciliation (R1, R2, R3)", "regular_order": "Regular-order authorization",
@@ -108,17 +109,25 @@ def render(ledger_path):
     o.append("")
     # discretionary budget authority
     disc = [s["id"] for s in scored if s["budget_authority"] == "spendout" and any(SC[s["id"]]["outlays"].values())]
-    ba_w = sum(P.window_total(SC[i]["budget_authority"]) for i in disc)
-    out_w = sum(P.window_total(SC[i]["outlays"]) for i in disc)
-    early = sum(SC[i]["budget_authority"][y] for i in disc for y in range(P.Y0, P.W0)) / 1000
-    gaps = {i: P.spendout_gap(SC[i]["budget_authority"], SC[i]["outlays"], S[i]["spendout_group"]) for i in disc}
+    cover = {i: SC[i]["outlays"] for i in disc}
+    ba_w = sum(P.window_total(SC[i]["ba_discretionary"]) for i in disc)
+    out_w = sum(P.window_total(cover[i]) for i in disc)
+    early = sum(SC[i]["ba_discretionary"][y] for i in disc for y in range(P.Y0, P.W0)) / 1000
+    gaps = {i: P.spendout_gap(SC[i]["ba_discretionary"], cover[i], S[i]["spendout_group"]) for i in disc}
     worst = sorted(disc, key=lambda i: -max(abs(v) for v in gaps[i].values()))[:5]
     first_share = P._spendout("nondefense")[0]
-    o.append("**What the discretionary spend-out shows.** For the %d discretionary rows with spending, the library estimates the budget authority (the appropriations) behind the model's outlays: each year's appropriation is the outlays it pays for over B2's four-year spend-out. Over FY2030-39 that is $%.2f trillion of budget authority for $%.2f trillion of outlays. Another $%.2f trillion would have to be appropriated before FY2030, in FY2027-29: at B2's rates only %.0f%% of new nondefense budget authority is spent in its first year, so outlays that start at full speed in FY2030, as most profiles have them, need money enacted earlier. The scoring window does not count it (CONVENTIONS.md, choice 3)." % (
-        len(disc), ba_w, out_w, early, 100 * first_share))
+    worst_cbo = lambda g: max(100 * abs(a / b - 1) for a, b in P.cbo_discretionary_outlays(g).values())
+    o.append("**What the discretionary spend-out shows.** For the %d rows with discretionary budget authority, the library estimates that budget authority (the appropriations) behind the model's outlays: each year's appropriation is the outlays it pays for over B2's four-year spend-out. The shares are B2's, calibrated to CBO (`spendout-discretionary-cbo.csv`): OMB's history gives their timing, with ground transportation taken out of nondefense because its outlays run on contract authority (see below), and one scale per group makes CBO's projected budget authority give CBO's projected outlays. Rebuilt that way, CBO's FY2029-36 discretionary outlays come back within %.1f%% for defense and %.1f%% for nondefense, once the nondefense accounts with no discretionary budget authority are carried on their own. Over FY2030-39 that is $%.2f trillion of budget authority for $%.2f trillion of outlays. Another $%.2f trillion would have to be appropriated before FY2030, in FY2027-29: at these rates only %.0f%% of new nondefense budget authority is spent in its first year, so outlays that start at full speed in FY2030, as most profiles have them, need money enacted earlier. The scoring window does not count it (CONVENTIONS.md, choice 3)." % (
+        len(disc), worst_cbo("defense"), worst_cbo("nondefense"), ba_w, out_w, early, 100 * first_share))
     o.append("")
-    o.append("Spending that budget authority out at the same rates does not give back the model's outlays exactly, because the model's profiles start and stop faster than B2's rates allow. The largest FY2030-39 gaps, in billions: %s. The model's outlays stay canonical; the budget-authority figures are rough until CBO's account-level spend-out replaces B2's estimate (B2 README, \"Spend-out\")." % (
+    o.append("Spending that budget authority out at the same rates does not give back the model's outlays exactly, because the model's profiles start and stop faster than B2's rates allow. The largest FY2030-39 gaps, in billions: %s. The model's outlays stay canonical. The budget-authority figures are a diagnostic reading, not validated for spending-cap or official scoring use (Codex's review of #108); they are rough, because the shares' timing is OMB history's, not CBO's account-by-account rates (B2 README, \"Spend-out set by CBO's projections\")." % (
         "; ".join("%s %+.1f in FY%d" % (i, gaps[i][y], y) for i in worst for y in [max(gaps[i], key=lambda y: abs(gaps[i][y]))])))
+    o.append("")
+    cbo = [r for r in P.D.table("cbo-contract-authority") if r["group"] == "highway_transit"]
+    cav = [float(r["contract_authority"]) for r in cbo]
+    cao = [float(r["outlays"]) for r in cbo]
+    o.append("**Contract authority.** Highway and transit programs paid from the Highway Trust Fund get mandatory budget authority (contract authority) from their authorizing law, while annual appropriations acts cap how much may be obligated each year, so their outlays count as discretionary. CBO records them that way: in its February 2026 baseline, FY%s-%s, the trust fund's highway and transit accounts carry about $%.0f billion a year of mandatory contract authority (the FY2026 level, which CBO's baseline extends) and $%.0f-%.0f billion a year of discretionary nondefense outlays (`models/data/budget/cbo-contract-authority.csv`). Those outlays have no discretionary budget authority to spend out, so the rebuild of CBO's outlays above carries them on their own. No ledger row is contract authority. Moving America's renewal top-ups (MOV-29, MOV-30) are general-fund appropriations to programs, made in addition to the trust fund's contract authority, which the bill keeps within each account's receipts (Draft 2 sec. 110; decision A-14). So they are scored as discretionary appropriations like the rest of those rows, with the conflict between their reconciliation rail and their discretionary category listed below." % (
+        cbo[0]["year"], cbo[-1]["year"], sum(cav) / len(cav), min(cao), max(cao)))
     o.append("")
     o.append("## Unknown fields")
     o.append("")
