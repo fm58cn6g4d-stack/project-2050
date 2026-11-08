@@ -1,6 +1,6 @@
-# D1, the planning scenario (proposed update)
+# D1, the planning scenario
 
-Role: the proposed replacement for legacy decision D1, "Which scenario do we plan for?" (`legacy/governing/project-2050-governing-decisions.md`, D1). Status: **proposed, for Espen's decision** (tier 3). Until Espen approves it and it is logged in `charter/decisions.md`, the legacy D1 stays in force. The legacy file is read-only (`charter/STANDARDS.md`), so the updated decision lives here and the decision log points to it. The evidence is `1-results.md` and `5-senate-2028.md`. D2 to D9 are unchanged.
+Role: the decision in force on D1, "Which scenario do we plan for?", replacing the legacy D1 (`legacy/governing/project-2050-governing-decisions.md`). Status: decided by Espen (`DEC-2026-11-08-01`), option B below. The legacy file is read-only (`charter/STANDARDS.md`), so the updated decision lives here and the decision log points to it; the options are kept as the memo it was decided on. The evidence is `1-results.md` and `5-senate-2028.md`. D2 to D9 are unchanged.
 
 ## What changes and why
 
@@ -18,9 +18,9 @@ Two things are now known:
 | **B. Move the band to the estimate (recommended)** | **53-56** | **51** | **58+** | Matches the central range while keeping the 51-seat test as the floor; the stress test is unchanged, so no item that survives today is dropped |
 | C. Plan for the 2026 result | 55-57 | 52 | 60 | Assumes no reversion from a 13-point midterm; fails in an even year, when the estimate centers near 52-54 |
 
-**Recommendation: B.** It follows the evidence without betting on a repeat of 2026. Keeping the stress test at 51 means the change adds options for a larger Senate without removing any protection for a smaller one. The probabilities behind it are this project's exploratory estimate, not a forecast, and should be rechecked when the 2026 results are certified and the first published 2028 ratings appear.
+**Decided: B** (recommended in the memo). It follows the evidence without betting on a repeat of 2026. Keeping the stress test at 51 means the change adds options for a larger Senate without removing any protection for a smaller one. The probabilities behind it are this project's exploratory estimate, not a forecast, and should be rechecked when the 2026 results are certified and the first published 2028 ratings appear.
 
-## The decision text, if B is chosen
+## The decision
 
 **D1, decided: plan for a Senate of 53-56 seats; test every item against 51; treat 58 or more as upside.** Each domain file designs for the 53-56 band and reports the stress test as before: ✔ survives at 51 (reconciliation, state, executive, House-only); ◐ needs a D2 majority-precedent path; ✖ needs 60, 67 or Republican votes in any scenario.
 
