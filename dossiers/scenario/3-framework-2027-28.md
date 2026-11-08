@@ -6,7 +6,7 @@ Facts are from `1-results.md` unless cited here. Section 6 checks the two input 
 
 ## 1. Who holds which levers
 
-**The arithmetic.** From January 3, 2027: a Democratic House of about 256-263 and a Democratic Senate of 55 or 56 (54 called), with President Trump and Vice President Vance. Overriding a veto takes 290 House and 67 Senate votes, so contested overrides are out. Ending a filibuster takes 60, so 4 or 5 Republicans per bill. In 2027-28 the Vice President breaks Senate ties for Republicans, so a rules change by majority precedent would need 51 Democratic votes.
+**The arithmetic.** From January 3, 2027: a Democratic House of about 256-263 and a Democratic Senate of 55 or 56 (54 called; 56 more likely, since Alaska leans Peltola), with President Trump and Vice President Vance. Overriding a veto takes 290 House and 67 Senate votes, so contested overrides are out. Ending a filibuster takes 60, so 4 or 5 Republicans per bill. In 2027-28 the Vice President breaks Senate ties for Republicans, so a rules change by majority precedent would need 51 Democratic votes.
 
 | Lever | Held by | What it does in 2027-28 | Can Trump block it? |
 | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ The two docs are useful and broadly accurate on results; several figures are out
 
 | Claim in the docs | Check |
 | --- | --- |
-| "A likely 56-seat Senate" | **Not yet.** 54 called; 55 or 56. 56 needs Peltola to survive the ranked-choice count, which is close |
+| "A likely 56-seat Senate" | **Plausible, not yet called.** 54 called; Mississippi is likely Democratic and Alaska leans Peltola (about 75-80%), so 56 is the most likely result and 55 the alternative |
 | House "about 255-264," the largest majority "since the early 1990s" | **Range fine, top high.** About 256-263. "Since the early 1990s" holds only at 259 or more (258 ties 1993-95) |
 | "About 30-31 governors" | **30 at most** |
 | Trifectas in MI, MN, NV, PA and WI | **Six**, with Arizona |
@@ -122,7 +122,7 @@ Numbered for reference; the first five matter most.
 
 1. **What are 2027-28 for?** Weigh the success options in section 3: laws that lower costs now (A), a clear record (B), a plan ready for 2029 (C), a protected 2028 election (D), a government left to rebuild (E), states as proof (F). The project's time frame already says C and preparation come first; the question is how much else it takes on.
 2. **When is an early deal worth its lock-in?** Options: (a) take any durable gain; (b) take a deal only where it is a floor the 2029 design can build on (a minimum wage that 2029 can raise, a credit 2029 can widen); (c) take a deal only where the dossier has decided the design. Examples now in play: a $15 minimum wage, a partial ACA restoration, a Social Security deal, defense levels.
-3. **Should the project rebaseline D1 now or after 2028?** The 2026 result (55-56 seats) exceeds D1's 52-54 working band, but the 2029 Senate is set by the 2028 elections, not 2026. Options in `4-2029-plan.md`.
+3. **Should the project rebaseline D1 now or after 2028?** The 2026 result (55-56 seats) exceeds D1's 52-54 working band, but the 2029 Senate is set by the 2028 elections, not 2026. The map analysis is in `5-senate-2028.md`; options in `4-2029-plan.md`.
 4. **Should any Senate rules change happen in 2027, or wait for the first week of 2029 (D2)?** With Vance in the chair, a 2027 change needs 51 Democrats; it would carry into 2029. Options: hold everything for 2029; adopt narrow carve-outs (appropriations, debt limit) on a clean trigger; back the bipartisan Merkley-Daines package (67 votes).
 5. **What should 2027-28 appropriations do to the FY2029 defense base?** Options: hold defense near flat in real terms through FY2028; accept dollar parity with nondefense; or accept parity in FY2027 only. Each sets the base NSC-1A then holds flat.
 6. **Should a 2027-28 Democratic reconciliation bill be used at all, and with which fiscal-year resolution?** Needs a procedural check first (section 4): could using a FY2029 resolution in 2028 cost the 2029 trifecta its R1 slot?

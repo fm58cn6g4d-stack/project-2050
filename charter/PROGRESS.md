@@ -23,7 +23,8 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | A. Reset | 3. `library/catalog.csv` and the generated name index | Light for file facts; Standard for status, aliases and rights | Done | Claude Code | PR #48, merged |
 | A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | Done | Claude Code | PR #49, merged |
 | A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Done: approved by Espen | Claude Code | PR #50, merged |
-| B. Post-election update | 1. Rebaseline the political planning scenario: results record by certainty, analysis review, 2027-28 framework with open questions, what it means for the 2029 plan | Most capable | In review: `dossiers/scenario/` (results record by certainty as of November 8, analysis review, 2027-28 framework with 12 questions, flags for D1-D9 and the stage order); SRC-0440 to 0554. Next: a light recheck after certification and the Alaska count of November 18 | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | PR #78 |
+| B. Post-election update | 1. Rebaseline the political planning scenario: results record by certainty, analysis review, 2027-28 framework with open questions, what it means for the 2029 plan | Most capable | Done: `dossiers/scenario/` (results record, analysis review, 2027-28 framework with 12 questions, flags for D1-D9 and the stage order); SRC-0440 to 0554 | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | PR #78, merged
+| B. Post-election update | 2. Follow-up for Espen: Alaska Senate rechecked; governor count; the 2028 Senate map and a scenario estimate of the 2029 Senate (`5-senate-2028.md`); a proposed D1 update in a separate tier-3 PR | Most capable | In review | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | Branch `claude/stage-b-followup`; D1 on `claude/d1-rebaseline` |
 | C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | Done | Claude Code | PR #53, merged |
 | C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | Done | Claude Code | PR #54, merged |
 | C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In review: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; 2025 ACS refresh: EV-HOU-038 to 044, section 1 updated, shared-rules fixes (PR #62 notes) | Claude Code (session_01UQzgBvYjGdPE5ZxakSiAHf) | Branch `claude/acs-2025-refresh` |
@@ -37,7 +38,8 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 ## Open PRs
 
-- Stage B step 1: the 2026 results and a 2027-28 framework (PR #78, `claude/stage-b-midterms`).
+- Stage B step 2: Alaska and governor rechecks and the 2028 Senate map (`claude/stage-b-followup`).
+- Stage B: proposed D1 update, tier 3, waits for Espen (`claude/d1-rebaseline`).
 
 - Stage C step 4b: housing section 3 refresh under `DEC-2026-10-30-02` (`claude/housing-design-refresh`).
 
