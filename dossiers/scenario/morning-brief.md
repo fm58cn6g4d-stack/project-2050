@@ -2,7 +2,7 @@
 
 Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file on `main` at `7d50150`, where all the scenario PRs it cites are merged (#82, #84, #86-#88, #90-#96 and #98; #89's memo arrived through #94), and against PR #80 at `e3b5de6`.
 
-**Where the files are.** Every file named here is merged into `main`, apart from PR #80's decision file and `2028-senate-candidates.md`, which is in [PR #99](https://github.com/fm58cn6g4d-stack/project-2050/pull/99) (not yet merged; checked at `b8cc372`). All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
+**Where the files are.** Every file named here is merged into `main`, apart from PR #80's decision file `2028-senate-candidates.md`, which is in [PR #99](https://github.com/fm58cn6g4d-stack/project-2050/pull/99) (not yet merged; checked at `b8cc372`), and `2028-lame-duck.md`, which is in [PR #100](https://github.com/fm58cn6g4d-stack/project-2050/pull/100) (not yet merged; checked at `d09d274`). All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
 
 ## How much to trust these numbers
 
@@ -41,6 +41,19 @@ PR #96 ([2027-scorecard.md](2027-scorecard.md)), updated by PR #98, sets out now
 
 - **The signal for the plan.** If Minnesota is lost and the national mood is under D+1 by mid-2028, the Senate still averages 54.9 seats with a Democratic president, inside #80's option B. What falls is the filibuster rule change (D2-F): from 61% to 41%. So the right response is D2's fallback paths (the talking filibuster and the democracy carve-out), not a lower Senate band.
 - **Caveat:** the special-election benchmark is derived from The Downballot's public trackers, covering 463 races since 2017. Only the yearly summary (`specials-by-year.csv`) is committed, because The Downballot asks users not to reproduce its full spreadsheets. 92 of the 111 races in 2025-26 are official canvass results, and the federal specials match published results to within 0.1 point. The weight given to 2027 before a presidential year (0.40) is still a judgment set in advance.
+
+## The 2028 lame duck
+
+From `2028-lame-duck.md` (PR #100, not yet merged). Costs are the Joint Committee on Taxation's, sent with CBO's letter of August 4, 2025; no figure comes from the administration.
+
+- **What expires after tax year 2028:** the four household deductions (no tax on tips, no tax on overtime, car-loan interest, and the $6,000 deduction for people 65 and over), plus the $1,000 children's-account pilot and expensing for factories. The higher SALT cap ($40,000) and the clean fuel credit end a year later, after 2029.
+- **What extending them would cost:** the four household deductions are $33 billion in FY2029, then $68-73 billion a year: $384 billion over FY2029-34. All ten temporary provisions together are $787 billion.
+- **Who decides:** the Democratic Congress sits until January 3, 2029, and Trump until January 20. Any lame-duck extension needs both.
+- **By 2029 world:**
+  - *Trifecta:* the provisions lapse, and the new government redesigns them in its own budget bills (R1/R2).
+  - *Democratic president and Senate, Republican House:* letting them lapse keeps the strongest bargaining chip that case has, since Republicans would then need Democrats to bring their tax cuts back. But D3's stance must be settled before November 2028. #100 gives four options: let all four lapse; convert them into a refundable work credit and senior credit; restore them only paired with a Democratic item and top-end revenue; or set a design test now and fit any offer to it.
+  - *Republican president, Democratic Senate:* a standoff.
+- **The project's numbers already assume they lapse.** A permanent extension would need a new revenue adjustment (about −$33 billion in FY2029, then −$68 to −$73 billion a year). #100 flags this for Codex and changes nothing.
 
 ## 1. The ten most important findings
 
@@ -176,3 +189,4 @@ None of the housing memos has a recorded decision. Memos 1 B and 2 B and a stage
 7. **Which parts of each flagship can pass with 51 votes (Byrd-rule edges).** Care, housing conditions and paid leave first. *Why:* it sorts the 2029 bills between reconciliation and regular order before the bills are fixed.
 8. **The Minnesota 2027 special.** Who Klobuchar appoints, and whether Republicans recruit a serious candidate. *Why:* a full seat in every 2029 scenario, and a placeholder appointee costs about 6 points of the chance of holding it.
 9. **Whether DEM-2 survives the Court.** The memo now recommends option D (no commission mandate). What remains is checking the 2015 dissents (cited from memory), whether a statutory fairness test survives in court after *Rucho*, and whether the three-judge backstop works as the memo assumes. *Why:* part 2 carries about 7 House seats on the 2032 maps, but only if it is in force before the 2031 maps. It is the plan's main answer to losing the 2030 midterm.
+10. **A future decision: D3's position on the expiring tax deductions, settled before November 2028.** Run the household test on each of the four deductions and on a converted credit, then choose among #100's four options. *Why:* in a split 2029 government, the lapse is the strongest bargaining chip, and it only works if the position is set before the lame duck.
