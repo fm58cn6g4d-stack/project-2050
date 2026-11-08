@@ -31,6 +31,7 @@ This is not a flagship dossier, so it does not follow the nine-section template.
 | `compounding-redistricting.md` | Redistricting through 2032: the 2028 redraws, what DEM-2 is worth in seats, who draws in 2031, the states ranked |
 | `compounding-defense.md` | The defense lock-in: three FY2028 paths and their effect on NSC-1A's 2030-39 base (script in `tools/`) |
 | `memo-defense-baseline-and-dem2.md` | Decision memo for Espen: what defense is counted against in the fiscal tests; whether DEM-2 is written severable, and in what order |
+| `d1-planning-scenario.md` | The D1 in force (the planning scenario), decided as `DEC-2026-11-08-01`, with the options it was decided on |
 
 **Time frame.** Under `DEC-2026-10-29-01` the plan is a governing program from January 2029. 2027-28 is one of its two labeled exceptions, and the work here on 2027-28 is that exception: it serves the 2029 plan and does not replace it.
 
