@@ -71,7 +71,7 @@ AP's call status from the States Newsroom dataset built on AP calls (CSV version
 
 **Outlets disagree by one or two seats** because they call at different times. They also disagree on the **net gain** (Fox +42, NBC +41, CNN +44 for 259), because each measures against a different notional baseline for the redrawn districts. 254 is 39 more than the 215 seats Democrats won in 2024, so quote seat totals, not net gains.
 
-**Flips.** CBS (November 6) and Fox (November 7) count **44 seats to Democrats and 2 to Republicans** (TX-32, TN-9); NBC counts 43 and 2 [SRC-0468] [SRC-0462] [SRC-0463]. Some outlets count UT-1, a new seat, as a flip and some do not. Defeated Republican incumbents include the NRCC chair, Richard Hudson (NC-9), and Lawler, Fitzpatrick, Valadao, Kean, Perry, Kiggans and Steil [SRC-0468] [SRC-0467]. The full CBS list is in the research notes kept with the PR; it is not repeated here.
+**Flips.** CBS (November 6) and Fox (November 7) count **44 seats to Democrats and 2 to Republicans** (TX-32, TN-9); NBC counts 43 and 2 [SRC-0468] [SRC-0462] [SRC-0463]. Some outlets count UT-1, a new seat, as a flip and some do not. Defeated Republican incumbents include the NRCC chair, Richard Hudson (NC-9), and Lawler, Fitzpatrick, Valadao, Kean, Perry, Kiggans and Steil [SRC-0468] [SRC-0467]. The full list is on the CBS page [SRC-0468]; it is not repeated here.
 
 ### Governors: 34 of 36 called
 
