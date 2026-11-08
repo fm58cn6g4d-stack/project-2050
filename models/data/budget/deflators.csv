@@ -1,0 +1,108 @@
+year,cpiu,gdp_price_index,source
+1950,23.8042,12.0500,cbo-economic-historical
+1951,25.5675,12.8133,cbo-economic-historical
+1952,26.4717,13.2208,cbo-economic-historical
+1953,26.7200,13.4102,cbo-economic-historical
+1954,26.8983,13.5593,cbo-economic-historical
+1955,26.7708,13.6948,cbo-economic-historical
+1956,27.0175,14.1160,cbo-economic-historical
+1957,27.9008,14.6255,cbo-economic-historical
+1958,28.7450,15.0247,cbo-economic-historical
+1959,29.0433,15.2255,cbo-economic-historical
+1960,29.4825,15.4390,cbo-economic-historical
+1961,29.8492,15.6293,cbo-economic-historical
+1962,30.1558,15.7995,cbo-economic-historical
+1963,30.5275,15.9767,cbo-economic-historical
+1964,30.9408,16.2102,cbo-economic-historical
+1965,31.3892,16.4892,cbo-economic-historical
+1966,32.1875,16.9007,cbo-economic-historical
+1967,33.1292,17.3992,cbo-economic-historical
+1968,34.4000,18.0710,cbo-economic-historical
+1969,36.1667,18.9383,cbo-economic-historical
+1970,38.3167,19.9400,cbo-economic-historical
+1971,40.1333,20.9655,cbo-economic-historical
+1972,41.4667,21.8955,cbo-economic-historical
+1973,43.5333,22.9623,cbo-economic-historical
+1974,47.9333,24.7888,cbo-economic-historical
+1975,52.8750,27.3092,cbo-economic-historical
+1976,56.2167,28.9590,cbo-economic-historical
+1977,59.6583,30.6698,cbo-economic-historical
+1978,63.8583,32.7353,cbo-economic-historical
+1979,70.4500,35.3798,cbo-economic-historical
+1980,80.0000,38.4655,cbo-economic-historical
+1981,88.8833,42.2375,cbo-economic-historical
+1982,95.4917,45.1743,cbo-economic-historical
+1983,98.7917,47.1497,cbo-economic-historical
+1984,102.8833,48.8365,cbo-economic-historical
+1985,106.6750,50.4680,cbo-economic-historical
+1986,109.3250,51.6033,cbo-economic-historical
+1987,112.4000,52.7587,cbo-economic-historical
+1988,117.0333,54.4690,cbo-economic-historical
+1989,122.5500,56.6683,cbo-economic-historical
+1990,128.6833,58.7443,cbo-economic-historical
+1991,135.1750,60.8407,cbo-economic-historical
+1992,139.2333,62.3608,cbo-economic-historical
+1993,143.4917,63.8257,cbo-economic-historical
+1994,147.2750,65.2177,cbo-economic-historical
+1995,151.4000,66.6030,cbo-economic-historical
+1996,155.6167,67.8547,cbo-economic-historical
+1997,159.7750,69.0610,cbo-economic-historical
+1998,162.3917,69.9237,cbo-economic-historical
+1999,165.5083,70.7950,cbo-economic-historical
+2000,170.7417,72.2687,cbo-economic-historical
+2001,176.2250,74.0198,cbo-economic-historical
+2002,178.8667,75.1817,cbo-economic-historical
+2003,183.0917,76.6215,cbo-economic-historical
+2004,187.3417,78.4930,cbo-economic-historical
+2005,193.5083,80.8820,cbo-economic-historical
+2006,200.5833,83.5122,cbo-economic-historical
+2007,205.3051,85.8075,cbo-economic-historical
+2008,214.4145,87.5950,cbo-economic-historical
+2009,213.7693,88.4848,cbo-economic-historical
+2010,217.4089,89.2505,cbo-economic-historical
+2011,223.0859,91.0457,cbo-economic-historical
+2012,228.5056,92.6965,cbo-economic-historical
+2013,232.2534,94.3840,cbo-economic-historical
+2014,236.0336,96.1055,cbo-economic-historical
+2015,236.7646,97.0950,cbo-economic-historical
+2016,238.9310,97.8688,cbo-economic-historical
+2017,243.8451,99.5258,cbo-economic-historical
+2018,249.7313,101.7335,cbo-economic-historical
+2019,254.3583,103.5970,cbo-economic-historical
+2020,258.0548,104.9643,cbo-economic-historical
+2021,266.5610,108.5373,cbo-economic-historical
+2022,287.6807,116.2065,cbo-economic-historical
+2023,302.2892,121.5805,cbo-economic-historical
+2024,311.6028,124.6642,cbo-economic-historical
+2025,320.0297,127.8906,cbo-economic-historical
+2026,329.5080,131.4950,cbo-economic
+2027,338.2190,134.6740,cbo-economic
+2028,346.2990,137.6380,cbo-economic
+2029,354.2670,140.5080,cbo-economic
+2030,362.2970,143.3450,cbo-economic
+2031,370.4830,146.1940,cbo-economic
+2032,378.8470,149.0800,cbo-economic
+2033,387.3970,152.0220,cbo-economic
+2034,396.1390,155.0150,cbo-economic
+2035,405.0790,158.0680,cbo-economic
+2036,414.2230,161.1900,cbo-economic
+2037,423.5716,164.3760,cbo-long-term-economic growth from FY2036
+2038,433.1191,167.6615,cbo-long-term-economic growth from FY2036
+2039,442.9650,171.0466,cbo-long-term-economic growth from FY2036
+2040,452.9103,174.4317,cbo-long-term-economic growth from FY2036
+2041,463.1540,178.0159,cbo-long-term-economic growth from FY2036
+2042,473.6961,181.5005,cbo-long-term-economic growth from FY2036
+2043,484.3376,185.1843,cbo-long-term-economic growth from FY2036
+2044,495.3769,188.8681,cbo-long-term-economic growth from FY2036
+2045,506.5157,192.6514,cbo-long-term-economic growth from FY2036
+2046,518.0522,196.5343,cbo-long-term-economic growth from FY2036
+2047,529.7877,200.4172,cbo-long-term-economic growth from FY2036
+2048,541.8216,204.4992,cbo-long-term-economic growth from FY2036
+2049,554.0543,208.5813,cbo-long-term-economic growth from FY2036
+2050,566.5855,212.7628,cbo-long-term-economic growth from FY2036
+2051,579.5144,216.9444,cbo-long-term-economic growth from FY2036
+2052,592.6422,221.3251,cbo-long-term-economic growth from FY2036
+2053,606.0684,225.8054,cbo-long-term-economic growth from FY2036
+2054,619.8924,230.2857,cbo-long-term-economic growth from FY2036
+2055,633.9153,234.8655,cbo-long-term-economic growth from FY2036
+2056,648.3361,239.6444,cbo-long-term-economic growth from FY2036
