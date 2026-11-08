@@ -11,7 +11,7 @@ Role: how Project 2050 builds the federal budget model of `charter/PLAN.md` 3.4.
 
 ## Where things stand
 
-The project already has a working long-term fiscal model (`models/tools/fiscal-model.py`, built on `fiscal-data.py`, `fiscal-profiles.py`, the ledger and the dedicated-funds engine). Codex built most of it and leads it (`charter/PLAN.md`, roles). It answers the D4 questions well. Five gaps stand between it and what Espen asked for:
+The project already has a working long-term fiscal model (`models/tools/fiscal-model.py`, built on `fiscal-data.py`, `fiscal-profiles.py`, the ledger and the dedicated-funds engine). Codex built most of it and leads it today (`charter/PLAN.md`, roles); see "Ownership" below for the proposed change. It answers the D4 questions well. Five gaps stand between it and what Espen asked for:
 
 1. **No budget-concept layer.** A program is a ten-year midpoint from the ledger, spread over years by a phase-in profile. The model doesn't record:
    - whether the money is budget authority or outlays, or how fast it spends out;
@@ -38,9 +38,9 @@ Its approach of having a language model read bill text and produce a score shoul
 | **B1** | **Conventions and assumptions register** | `models/tools/budget/CONVENTIONS.md`: how the project counts, in plain language (baseline rules, budget authority and outlays, the categories, real and nominal, the scoring window, dynamic effects, how a policy is measured against the baseline). `models/data/budget/assumptions.csv`: every assumption now in the model, with an `ASM-` ID, its value, where it lives in code, its source, who decided it and how much it matters. A generated plain-language page lists them. The registry checker resolves `ASM-` IDs. | Nothing | Claude worker, Most capable; Codex reviews | 1 for the register; conventions that change a commitment go to Espen as memos |
 | **B2** | **Budget data layer and baseline reproduction** | `models/data/budget/`: CBO's February 2026 baseline by category, with budget authority and outlays where CBO or OMB publishes them; OMB historical tables for spend-out patterns; deflators (CPI-U, GDP price index) as series. A loader and a test that **reproduces the adopted baseline** (`models/data/fiscal-baseline.csv`) to the dollar, so no second baseline exists. | Nothing (B1 in parallel) | Claude worker, Most capable; Codex reviews | 1 |
 | **B3** | **Provision scoring library** | `models/tools/budget/`: a typed provision format that records category, budget authority, spend-out, phase-in, indexation, vehicle and expiry, with a scoring method per type (from the CBO scorer's ideas and the existing profiles). A crosswalk gives every current ledger row a provision spec. Calibrated so each row's 2030-39 total still equals its ledger midpoint: no headline figure moves. | B1, B2 | Claude worker, Most capable; Codex reviews | 1; changing any ledger figure is tier 3 |
-| **B4** | **Benchmarks and model card** | Tests that the model reproduces CBO's baseline; reproduces two or three published CBO or JCT scores (for example, Public Law 119-21 and one appropriations act) within stated tolerances; keeps the accounting identities (deficit equals outlays minus revenue; debt grows by the deficit plus other means of financing); and responds to interest and growth shocks as CBO's rules of thumb say. Plus a model card: purpose, limits, known errors. | B2, B3 | Claude worker, Most capable; independent review by Codex | 1 |
+| **B4** | **Benchmarks and model card** | Tests that the model reproduces CBO's baseline; reproduces two or three published CBO or JCT scores (for example, Public Law 119-21 and one appropriations act) within stated tolerances; keeps the accounting identities (deficit equals outlays minus revenue; debt grows by the deficit plus other means of financing); and responds to interest and growth shocks as CBO's rules of thumb say. Plus a model card: purpose, limits, known errors. | B2, B3 | Claude worker, Most capable; **independent milestone review by Codex** | 1 |
 | **B5** | **Fiscal viewer** | A page Espen can open: deficits, debt, interest and spending by category to 2056, in nominal, real and %GDP terms. Scenarios side by side. Each assumption links to its `ASM-` entry. A "what changed since the last run" view. Built from generated files only, so it never holds numbers of its own. | B2 (first version from today's `fiscal-paths.csv`); B3 for the full version | Claude worker, Standard | 2 |
-| **B6** | **Integration** | `fiscal-model.py` reads the new layer and library in place of its in-code constants. One shared scenario file for the ledger, incidence and fiscal models. | B1–B4 | **Codex** (owner of the fiscal model and adopted inputs); Claude helps if Codex is at its limit | 3 |
+| **B6** | **Integration** | `fiscal-model.py` reads the new layer and library in place of its in-code constants. One shared scenario file for the ledger, incidence and fiscal models. | B1–B4 | The budget model's owner: a Claude worker if PR #106 is approved, otherwise Codex. **Independent milestone review by Codex** either way | 3 |
 | **B7** | **Decisions for Espen** | Short memos, one choice each: the defense reference (the existing memo); a possible lame-duck revenue adjustment (`dossiers/scenario/2028-lame-duck.md`, section 4); and any convention in B1 that changes what the plan commits to. | B1 | Lead or strategy session | 3 |
 
 ## How the pieces fit
@@ -66,7 +66,7 @@ The account hit its five-hour usage limit overnight, and at most three Claude se
 1. **Now:** B1 and B2 in parallel. They write different files.
 2. **When B1 and B2 have PRs up:** B3, then B5's first version, which needs only today's outputs.
 3. **When B3 is in review:** B4.
-4. **When B4 merges:** B6, handed to Codex through a PR comment with a handoff note. B7 memos go to Espen whenever B1 surfaces a choice.
+4. **When B4 merges:** B6, by the model's owner (see "Ownership"), with Codex's review requested through a PR comment. B7 memos go to Espen whenever B1 surfaces a choice.
 
 Each worker reports to the strategy session (`session_01UQzgBuA3EdnR7Dx4kUq1un`). The strategy session starts the next piece and tells the lead when each one lands.
 
@@ -77,8 +77,19 @@ Each worker reports to the strategy session (`session_01UQzgBuA3EdnR7Dx4kUq1un`)
 - **Benchmarks before trust:** nothing new feeds a public or decision figure until B4's benchmarks pass.
 - **Assumptions are cited:** after B1, every assumption the model uses has an `ASM-` entry, and the checker fails on an uncited one once B6 lands.
 
+## Ownership
+
+Espen has said the budget model and its shared inputs can come back to Claude from Codex if that's easier.
+
+**Recommendation: move them to Claude**, and keep Codex as the independent reviewer of B4 (benchmarks) and B6 (integration). That change is its own decision, in PR #106 (`DEC-2026-11-08-02`, tier 3), so Espen can take this workflow without it.
+
+- **Why move:** Codex's reviews keep stopping at its usage limits (PRs #75 and #77). Claude sessions are building B1–B5, and integration needs that same context. Handing B6 across vendors through PR notes would be the slowest, most error-prone step in the plan.
+- **Why keep Codex involved:** Codex wrote most of the current fiscal model. Its review of the benchmarks and the integration is the check most likely to catch a Claude-side mistake, and the gate already relies on a second vendor for independence.
+- **Unchanged either way:** changing adopted inputs in `models/data/inputs/` is Espen's decision, and fair financing stays Codex's.
+
 ## Decisions for Espen
 
 1. **Approve this workflow**, which approves this PR. B1 and B2 have started; they change nothing adopted, so they're safe to stop or redirect if the plan changes.
-2. **Defense reference** (`memo-defense-baseline-and-dem2.md`, choice a): already waiting on the board.
-3. Later, as B1 surfaces them: the conventions that change what the plan commits to.
+2. **Ownership** (PR #106): move the budget model to Claude, with Codex reviewing (recommended), or keep it with Codex.
+3. **Defense reference** (`memo-defense-baseline-and-dem2.md`, choice a): already waiting on the board.
+4. Later, as B1 surfaces them: the conventions that change what the plan commits to.
