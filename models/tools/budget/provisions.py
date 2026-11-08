@@ -66,7 +66,12 @@ phase-in (start year, ramp years), its growth index (indexation), and its time l
 it is scaled so its FY2030-39 sum equals the ledger amount exactly; after 2039 it continues at
 a share (continues_after_2039) of the run rate, shrinking by fade a year. Other methods:
 "years" (a year-by-year shape in fiscal-years.csv, scaled to the ledger amount), "components"
-(a bill split into disjoint parts in fiscal-components.csv, each with its own spec), "climate"
+(a bill split into disjoint parts in fiscal-components.csv, each with its own spec, all in the
+parent's category), "split" (one provision enacted through more than one vehicle, board 0d: each
+part, a "part" row in provisions.csv, takes a share of the provision's amount from
+provision-splits.csv and is scored in its own kind, category and vehicle, so a mandatory part in
+reconciliation and a discretionary part in regular appropriations land on their own lines),
+"climate"
 (the climate package's exact annual accounts, climate-integration.py, added to the profile path
 of the row's pre-package amount), "dynamic" (the DY rows' summed midpoints on one profile; only
 scenario DEC-DYN uses it) and "not_scored" (rows the fiscal model leaves out).
@@ -80,6 +85,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 TOOLS = os.path.normpath(os.path.join(HERE, ".."))
 ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
 SPECS = os.path.join(ROOT, "models", "data", "budget", "provisions.csv")
+SPLITS = os.path.join(ROOT, "models", "data", "budget", "provision-splits.csv")
 sys.path.insert(0, HERE)
 import data as D  # noqa: E402
 
@@ -94,7 +100,7 @@ SS_FADE = 0.015              # SS-1's net saving shrinks 1.5% a year after 2039 
 KINDS = ("discretionary", "mandatory", "revenue", "transfer", "none")
 VEHICLES = ("regular_appropriations", "supplemental_emergency", "advance_appropriation",
             "reconciliation", "regular_order", "none", "unknown")
-METHODS = ("profile", "years", "components", "climate", "dynamic", "not_scored")
+METHODS = ("profile", "years", "components", "split", "climate", "dynamic", "not_scored")
 BUDGET_AUTHORITY = ("spendout", "outlays", "on_enactment", "none", "unknown")
 SPENDOUT_GROUPS = ("defense", "nondefense")
 UNIFIED = ("same", "zero", "net_of_own_revenue")
@@ -163,10 +169,66 @@ def problems(S):
             bad("revenue has no budget authority")
         if s["parent"] and s["parent"] not in S:
             bad("parent %s has no spec" % s["parent"])
+        if s["table"] == "part" and S.get(s["parent"], {}).get("method") != "split":
+            bad("a part's parent must have method split")
         for a in s["asm_ids"]:
             if not a.startswith("ASM-"):
                 bad("asm_ids entry %r" % a)
+    errs += split_problems(S)
     return errs
+
+
+def split_problems(S, splits=None):
+    """A split provision's parts must exist, be its own, and take shares that add to one."""
+    splits = read_splits() if splits is None else splits
+    errs = []
+    for i, s in S.items():
+        if s["method"] != "split":
+            continue
+        parts = splits.get(i, [])
+        if not parts:
+            errs.append("%s: method split but no parts in provision-splits.csv" % i)
+            continue
+        if abs(sum(sh for _, sh in parts) - 1.0) > 1e-9:
+            errs.append("%s: part shares add to %.6f, not 1" % (i, sum(sh for _, sh in parts)))
+        for pid, _ in parts:
+            if pid not in S or S[pid]["table"] != "part" or S[pid]["parent"] != i:
+                errs.append("%s: part %s has no part row in provisions.csv" % (i, pid))
+            elif S[pid]["method"] in ("split", "components", "climate", "dynamic", "not_scored"):
+                errs.append("%s: part %s must be scored by profile or years" % (i, pid))
+            elif S[pid]["vehicle"] == "reconciliation" and S[pid]["kind"] == "discretionary":
+                errs.append("%s: part %s is on reconciliation but discretionary; a split's parts must each fit their vehicle" % (i, pid))
+    for parent in splits:
+        if parent not in S or S[parent]["method"] != "split":
+            errs.append("provision-splits.csv: %s is not a split provision" % parent)
+    return errs
+
+
+def read_splits(path=None):
+    """{parent: [(part id, share of the parent's amount)]} from provision-splits.csv."""
+    out, path = {}, path or SPLITS
+    if not os.path.exists(path):
+        return out
+    with open(path, newline="") as f:
+        for r in csv.DictReader(f):
+            out.setdefault(r["parent"], []).append((r["part"], float(r["share"])))
+    return out
+
+
+def vehicle_flags(S):
+    """Rows whose vehicle and kind disagree: reconciliation carries only direct spending and
+    revenue, and annual appropriations carry discretionary money. Each is an open design choice
+    (board 0d, answered November 8, 2026: weigh provision by provision; a program may split
+    across vehicles with the split method), reported, not rebooked. [(id, message)]"""
+    out = []
+    for i, s in S.items():
+        if s["in_model"] != "yes" or s["method"] == "split" or s["table"] == "part":
+            continue
+        if s["vehicle"] == "reconciliation" and s["kind"] == "discretionary":
+            out.append((i, "on a reconciliation bill but booked as discretionary"))
+        elif s["vehicle"] == "regular_appropriations" and s["kind"] == "mandatory":
+            out.append((i, "in annual appropriations but booked as mandatory"))
+    return out
 
 
 def _profile(s):
@@ -330,6 +392,9 @@ def deficit_path(spec, mid10, S=None, B=None):
             raise ValueError("component amounts differ from the ledger: " + spec["id"])
         paths = [profile_path(B, a, _profile(c)) for a, c in zip(amounts, parts)]
         return {y: sum(p[y] for p in paths) for y in range(Y0, Y1 + 1)}
+    if m == "split":
+        paths = [deficit_path(S[pid], share * mid10, S, B) for pid, share in read_splits()[spec["id"]]]
+        return {y: sum(p[y] for p in paths) for y in range(Y0, Y1 + 1)}
     if m == "years":
         return years_path(B, mid10, year_shapes()[spec["id"]], _profile(spec))
     if m in ("profile", "climate", "dynamic"):
@@ -408,6 +473,14 @@ def score(spec, amounts, S=None, B=None):
     S = S or specs()
     B = B or baseline()
     i = spec["id"]
+    if spec["method"] == "split":
+        a_gf, a_uni = amounts[i]
+        parts = [score(S[pid], {pid: (share * a_gf, share * a_uni)}, S, B) for pid, share in read_splits()[i]]
+        out = Score(id=i, category="split", kind="split", parts=parts, budget_authority_rough=any(p["budget_authority_rough"] for p in parts))
+        for k in ("gf", "unified", "outlays", "receipts", "budget_authority", "ba_mandatory", "ba_discretionary"):
+            have = [p[k] for p in parts if p[k] is not None]
+            out[k] = {y: sum(h[y] for h in have) for y in range(Y0, Y1 + 1)} if have else None
+        return out
     if spec["method"] == "climate":
         gf = climate_path(spec, S, B)
         uni = dict(gf)
@@ -440,7 +513,7 @@ def score_all(ledger_path):
     amounts = ledger_amounts(ledger_path)
     out = {}
     for i, s in S.items():
-        if s["in_model"] != "yes" or s["table"] == "component":
+        if s["in_model"] != "yes" or s["table"] in ("component", "part"):
             continue
         if s["method"] == "dynamic":
             if "DYN" not in out:
@@ -457,9 +530,10 @@ def by_category(scores, basis="unified", ids=None):
     for i, sc in scores.items():
         if (ids is None and i == "DYN") or (ids is not None and i not in ids):
             continue
-        tgt = out.setdefault(sc["category"], {y: 0.0 for y in range(Y0, Y1 + 1)})
-        for y, v in sc[basis].items():
-            tgt[y] += v
+        for part in sc.get("parts") or [sc]:
+            tgt = out.setdefault(part["category"], {y: 0.0 for y in range(Y0, Y1 + 1)})
+            for y, v in part[basis].items():
+                tgt[y] += v
     return out
 
 

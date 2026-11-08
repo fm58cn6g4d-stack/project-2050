@@ -87,19 +87,34 @@ The model always has a growth index and an end year (or none) for a scored row; 
 
 ## Where the files disagree
 
-These are reported, not fixed: changing a category or a profile changes adopted inputs, which is Espen's decision (tier 3), and B6's work.
+These are reported, not fixed: changing a category or a profile changes adopted inputs, which is Espen's decision (tier 3). B6 (item 3) sorted them into open design choices, kept as they are, and plain booking errors, corrected in their own tier-3 PR.
 
-- **EDU-4**: Conflict: a reconciliation rail with a discretionary category; reconciliation carries only direct spending and revenue (CONVENTIONS.md section 3).
-- **LAB-8**: Conflict: a reconciliation rail with a discretionary category; reconciliation carries only direct spending and revenue (CONVENTIONS.md section 3).
+### Open design choices: vehicle and category (board 0d)
+
+Espen, November 8, 2026: how each of these is enacted is not a decision to take now. They stay legacy working choices, weighed provision by provision as each dossier reaches them, and many programs will end up with both a mandatory or advance-appropriation part in reconciliation and a regular-appropriations part. The library can now score that: a provision with method `split` has parts, each with its own share, kind, category and vehicle (`provision-splits.csv`; no row is split yet). Until a dossier decides, each row stays booked as it is. Where an existing document already says how the row is enacted, it is cited here.
+
+- **EDU-4**: On a reconciliation bill but booked as discretionary. No document says mandatory or appropriated; the rail is R2 (legacy/domains/domain-education.md:22), and its apprenticeship part runs through LAB-8.
+- **LAB-8**: On a reconciliation bill but booked as discretionary. Legacy/domains/domain-labor.md:134 says mandatory grants through R2.
+- **DEM-11**: Vehicle and category to be settled. Legacy/domains/domain-democracy.md:222 prefers mandatory funding if a reconciliation committee can carry it, otherwise annual appropriations, as the ledger records.
+- **DEM-17**: On a reconciliation bill but booked as discretionary. Legacy/domains/domain-democracy.md:269 prefers capital grants as direct spending in R3 (Byrd unchecked), with appropriations as the fallback.
+- **CAP-7S**: Vehicle and category to be settled. Legacy/domains/domain-capacity.md:157 targets R1 direct multi-year appropriations, pending Byrd and jurisdiction checks.
+- **NSC-10**: On a reconciliation bill but booked as discretionary. Legacy/domains/domain-national-security.md:126 says it rides R2 as mandatory funding.
+- **SAF-10**: On a reconciliation bill but booked as discretionary. Legacy/domains/domain-public-safety.md:130 chose mandatory formula funding in R3 (SAF-10A); SAF-10C (line 132) is a split, a mandatory core with the rest appropriated, if titles fail the Byrd check.
+- **MOV-29**: On a reconciliation bill but booked as discretionary. Draft 2 classes the package grants and FY2032-35 top-ups as direct spending in reconciliation, general-fund appropriations to carry out existing programs (legacy/domains/transportation-moving-america-act-2031-draft-2.md:64, 216).
+- **MOV-30**: On a reconciliation bill but booked as discretionary. As MOV-29, for package two and the FY2035-36 top-ups (legacy/domains/transportation-moving-america-act-2031-draft-2.md:64-65, 216).
+
+### Other mismatches between the files
+
 - **DEM-11**: Conflict: the ledger says mandatory if Byrd-eligible (unchecked), but the rail is annual appropriations and the category nondefense discretionary; the ledger also says indexed while the profile grows it with GDP.
-- **DEM-17**: Conflict: a reconciliation rail with a discretionary category; reconciliation carries only direct spending and revenue (CONVENTIONS.md section 3).
 - **CAP-7S**: Conflict: the profile calls it a direct multi-year appropriation and puts it in other mandatory; votes-bills.csv says its R1 routing assumes eligibility and does not certify it.
-- **NSC-10**: Conflict: a reconciliation rail with a discretionary category; reconciliation carries only direct spending and revenue (CONVENTIONS.md section 3).
-- **SAF-10**: Conflict: a reconciliation rail with a discretionary category; reconciliation carries only direct spending and revenue (CONVENTIONS.md section 3).
 - **SAF-10**: Conflict: the ledger says the funding title is mandatory spending (SAF-10A), but the profile's category is nondefense discretionary.
-- **MOV-29**: Conflict: a reconciliation rail with a discretionary category; reconciliation carries only direct spending and revenue (CONVENTIONS.md section 3).
 - **MOV-29**: Text and model differ: the ledger names FY2032-35 renewal top-ups; the profile has no end year and continues 30% after 2039.
-- **MOV-30**: Conflict: a reconciliation rail with a discretionary category; reconciliation carries only direct spending and revenue (CONVENTIONS.md section 3).
 - **MOV-30**: Text and model differ: the ledger names FY2035-36 top-ups; the profile has no end year and continues 30% after 2039.
 - **C33**: Conflict: the option says national service at appropriations scale, but the profile's category is other mandatory.
 - **C35**: Conflict: the text says the exemption is frozen in nominal terms, so receipts grow faster than GDP, but the profile holds them at GDP.
+
+How B6 classes them:
+
+- **A plain booking error, corrected:** C33. Its own text says national service at appropriations scale, the declined LAB-9B design, so its category is nondefense discretionary, not other mandatory. The fix moves no total, only the category line of the reference-only DEC+TRIMS scenario. It changes `fiscal-profiles.csv`, an adopted input, so it is its own tier-3 PR for Espen.
+- **Design choices, kept as booked:** SAF-10, DEM-11 and CAP-7S, listed above. SAF-10's own title says mandatory spending, but it is one of the seven rows Espen left to the dossiers (board 0d).
+- **Timing and growth findings, proposed for Espen, not changed:** MOV-29 and MOV-30 (the ledger names top-up years the profile spreads evenly and carries on at 30% after 2039; the transportation model's annual figures could shape them), C35 (an exemption frozen in dollars grows faster than GDP; the profile's own note says it is held at GDP on purpose), and DEM-11's indexation. Each moves figures, so each is a tier-3 change.
