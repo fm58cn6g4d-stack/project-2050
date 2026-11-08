@@ -196,7 +196,7 @@
    "tolerance": "within 10 points of CBO's cumulative share in each of the first four years",
    "unit": "share of budget authority",
    "miss": "+21 points by end of year 3",
-   "source": "CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day",
+   "source": "CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023; SRC-1170), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day",
    "why": "Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated defense shares, ASM-SPENDOUT) on a single act: one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace that kind of spending by a year or more.",
    "detail": [
     "CBO by year (millions): 5629, 1373, 1659, 1107, 520, 177, 66, 18, 0, 0 from $10,600 million.",
@@ -215,7 +215,7 @@
    "tolerance": "within 10 points of CBO's cumulative share in each of the first four years",
    "unit": "share of budget authority",
    "miss": "-72 points by end of year 1",
-   "source": "CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day",
+   "source": "CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023; SRC-1170), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day",
    "why": "Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated nondefense shares, ASM-SPENDOUT) on a single act: one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace that kind of spending by a year or more.",
    "detail": [
     "CBO by year (millions): 3583, 60, 33, 15, 5, 2, 1, 0, 0, 0 from $3,700 million.",

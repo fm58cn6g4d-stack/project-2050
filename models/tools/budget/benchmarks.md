@@ -151,7 +151,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 - **Model:** spent by end of year 1-4: 44%, 78%, 103%, 99% (share of budget authority)
 - **Target:** CBO: 53%, 66%, 82%, 92%
 - **Tolerance:** within 10 points of CBO's cumulative share in each of the first four years
-- **Source:** CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day
+- **Source:** CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023; SRC-1170), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day
 - **Why:** Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated defense shares, ASM-SPENDOUT) on a single act: one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace that kind of spending by a year or more.
 - CBO by year (millions): 5629, 1373, 1659, 1107, 520, 177, 66, 18, 0, 0 from $10,600 million.
 - This is one emergency supplemental, not a regular appropriation. The library uses one set of shares for every defense row, fit to the average of all such spending; a single act's programs can spend much faster or slower. The result shows how far one act can sit from that average, which is a limit on the library's per-row timing rather than proof that the average is wrong (PS-3 tests the average).
@@ -164,7 +164,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 - **Model:** spent by end of year 1-4: 25%, 60%, 90%, 100% (share of budget authority)
 - **Target:** CBO: 97%, 98%, 99%, 100%
 - **Tolerance:** within 10 points of CBO's cumulative share in each of the first four years
-- **Source:** CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day
+- **Source:** CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023; SRC-1170), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day
 - **Why:** Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated nondefense shares, ASM-SPENDOUT) on a single act: one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace that kind of spending by a year or more.
 - CBO by year (millions): 3583, 60, 33, 15, 5, 2, 1, 0, 0, 0 from $3,700 million.
 - This is one emergency supplemental, not a regular appropriation. The library uses one set of shares for every nondefense row, fit to the average of all such spending; a single act's programs can spend much faster or slower. The result shows how far one act can sit from that average, which is a limit on the library's per-row timing rather than proof that the average is wrong (PS-3 tests the average).
