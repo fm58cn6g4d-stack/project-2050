@@ -41,7 +41,7 @@ class Values(unittest.TestCase):
     def test_title2_shrinks_partisan_effect(self):
         runs = rd.simulate(n=1500, seed=5)
         for r in runs[:200]:
-            self.assertAlmostEqual(r['with_t2'] - r['without'], -rd.F_TITLE2 * r['eff'], places=6)
+            self.assertAlmostEqual(r['with_t2'] - r['without'], -rd.F_TITLE2 * r['eff'], places=6)   # eff is scaled
 
     def test_value_rises_with_f(self):
         lo = rd.summarize(rd.simulate(n=1500, seed=6, f=0.4), 'D')['value']
@@ -54,6 +54,16 @@ class Values(unittest.TestCase):
         r = rd.summarize(runs, 'R')
         self.assertLess(d['eff12'], r['eff12'])          # the 2030 midterm penalty
         self.assertGreater(d['value'], r['value'])
+
+    def test_today_pens_reproduce_the_2026_median(self):
+        import house_model as hm
+        for scale in (rd.SWING_SCALE, 1.0, 0.21):
+            b = rd.b_geo_for(scale)
+            seats = hm.SEATS * hm.phi((rd.MEDIAN_2026 - b) / hm.fit_spread()) + rd.today_effect(scale)
+            self.assertAlmostEqual(seats, hm.SEATS / 2, delta=0.6)   # 217.5 at D+3.0
+
+    def test_wang_anchor(self):
+        self.assertAlmostEqual(rd.today_effect(), -10.0, delta=0.6)
 
     def test_deterministic(self):
         a = rd.summarize(rd.simulate(n=800, seed=8), 'D')['value']

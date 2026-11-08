@@ -61,8 +61,34 @@ SD_CHAMBER = 5.0         # from partisan lean than Senate races [SRC-0589]); cha
 # nationally, a net of about 2 Republican (compounding-redistricting.md, section 2).
 REST_NET = -4.0
 REST_SD = 2.0
-B_GEO = 1.9   # ASSUMPTION: break-even from geography alone, i.e. the 2026 lines' 3.0 less about 1.1 points
-              # (about 4 seats) of net Republican partisan effects on those lines
+# Calibration to the 2026 lines (review on #91). Who holds the pens today: TX, FL, NC, GA and OH Republican-drawn;
+# NV Democratic; PA, WI and VA court maps; MI and AZ commissions; NY's commission map. Elsewhere California's
+# Proposition 50 map adds about 5 Democratic seats until 2031 (`2028-outlook.md`). The 2026 lines' break-even is
+# D+3.0 [SRC-0817] [SRC-0818]; how it splits between geography and partisan maps is uncertain, so the partisan
+# effects are scaled by SWING_SCALE and geography is whatever remains. ASSUMPTION: anchor today's net partisan
+# effect at Wang's "around 10 seats" Republican map edge [SRC-0818] (scale 0.71, geography about 0.3 points).
+# Tested: 1.0 (#86's swings at face value, geography about -0.8) and 0.21 (a PNAS-style geographic bias of about
+# 8 seats, 2.2 points, leaving about 3 seats of net partisan effect).
+TODAY_PENS = {'TX': 'R', 'FL': 'R', 'NC': 'R', 'GA': 'R', 'OH': 'R', 'NV': 'D', 'PA': 'N', 'WI': 'N', 'VA': 'N',
+              'MI': 'N', 'AZ': 'N', 'NY': 'N'}
+CA_PROP50 = 5.0
+MEDIAN_2026 = 3.0
+SWING_SCALE = 0.71
+
+
+def today_effect(scale=SWING_SCALE, rest=REST_NET):
+    """Net partisan map effect on the 2026 lines (D seats), at the given scale."""
+    eff12 = sum(STATES[s][1] / 2 * (1 if p == 'D' else -1 if p == 'R' else 0) for s, p in TODAY_PENS.items())
+    return scale * (eff12 + rest + CA_PROP50)
+
+
+def b_geo_for(scale=SWING_SCALE, rest=REST_NET):
+    """Geography-only break-even that makes today's pens reproduce the 2026 lines' D+3.0 median."""
+    slope = hm.SEATS / math.sqrt(2 * math.pi) / hm.fit_spread()   # seats per point at the median
+    return MEDIAN_2026 + today_effect(scale, rest) / slope
+
+
+B_GEO = b_geo_for()
 F_TITLE2 = 0.65  # ASSUMPTION: share of each partisan effect that Title II's criteria remove (0.4-0.85 tested)
 
 
@@ -86,8 +112,11 @@ def pen(state, e30, reg, rng):
     return 'N'
 
 
-def simulate(env28=3.0, env_sd=4.5, n=20000, seed=2031, f=F_TITLE2, b_geo=B_GEO, rest=REST_NET, geo_cut=0.0):
+def simulate(env28=3.0, env_sd=4.5, n=20000, seed=2031, f=F_TITLE2, b_geo=None, rest=REST_NET, geo_cut=0.0,
+             scale=SWING_SCALE):
     """Returns per-run dicts: pres28, pens, partisan effect, 2032 D seats with and without Title II."""
+    if b_geo is None:
+        b_geo = b_geo_for(scale, rest)
     res = sm.simulate_chain(env28, n=n, seed=seed, env_sd=env_sd)
     rng = random.Random(seed + 3)
     spread = hm.fit_spread()
@@ -98,8 +127,8 @@ def simulate(env28=3.0, env_sd=4.5, n=20000, seed=2031, f=F_TITLE2, b_geo=B_GEO,
         e32 = res['e32'][i]
         reg = {r: rng.gauss(0, sm.BASE_PARAMS['sd_reg']) for r in regions}
         pens = {s: pen(s, e30, reg[sm.REGION_OF[s]], rng) for s in STATES}
-        eff12 = sum(STATES[s][1] / 2 * (1 if p == 'D' else -1 if p == 'R' else 0) for s, p in pens.items())
-        eff_rest = rest + rng.gauss(0, REST_SD)
+        eff12 = scale * sum(STATES[s][1] / 2 * (1 if p == 'D' else -1 if p == 'R' else 0) for s, p in pens.items())
+        eff_rest = scale * (rest + rng.gauss(0, REST_SD))
         eff = eff12 + eff_rest
         e_house = e32 + rng.gauss(0, hm.PARAMS['sd_house'])
         noise = rng.gauss(0, hm.PARAMS['sd_seats'])
@@ -143,6 +172,9 @@ def report(n=20000):
       '`senate_model.simulate_chain` (evidence-weighted 2028 environment, D+3 with SD 4.5), n = %d, seeded.\n' % n)
     runs = simulate(n=n)
     S = {c: summarize(runs, c) for c in ('D', 'R')}
+    w('Calibration: today\'s pens give a net partisan effect of %+.1f D seats on the 2026 lines (scale %.2f), so the '
+      'geography-only break-even is %s and today\'s maps reproduce the D+3.0 median.\n' % (
+          today_effect(), SWING_SCALE, envs(b_geo_for())))
     w('## 1. Who holds the 2031 pens\n')
     w('Share of runs in which each state\'s 2031 congressional map is Democratic-drawn / neutral (court, commission, '
       'deadlock) / Republican-drawn. Average 2030 environment: %s with a Democratic president, %s with a Republican '
@@ -168,6 +200,8 @@ def report(n=20000):
     w('| Change | Value of Titles I-II, D seats 2032 | P(D House 2033): without / with |')
     w('| --- | --- | --- |')
     for label, kw in [('Base (f = 0.65)', {}), ('Title II removes 40%', {'f': 0.40}), ('Title II removes 85%', {'f': 0.85}),
+                      ('Swings at face value (scale 1.0; geography about -0.8)', {'scale': 1.0}),
+                      ('PNAS-style geography (scale 0.21; geography about 2.2)', {'scale': 0.21}),
                       ('Rest-of-country net effect 0', {'rest': 0.0}), ('Rest-of-country net effect -8', {'rest': -8.0}),
                       ('Partisan-fairness standard also cuts geographic bias by a quarter', {'geo_cut': 0.25}),
                       ('2028 environment neutral (SD 2)', {'env28': 0.0, 'env_sd': 2.0})]:
