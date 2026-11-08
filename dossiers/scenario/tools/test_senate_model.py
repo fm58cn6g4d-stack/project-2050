@@ -148,5 +148,42 @@ class Simulation(unittest.TestCase):
         self.assertGreater(b['wins']['NV'], a['wins']['NV'])
 
 
+class Round4(unittest.TestCase):
+    def test_minnesota_special_rises_with_environment(self):
+        ps = [m.p_mn_2027(e) for e in (-3, 0, 3, 8)]
+        self.assertEqual(ps, sorted(ps))
+        self.assertGreater(m.p_mn_2027(0), m.p_mn_2027(0, appointee=0.0))
+
+    def test_whip_opponents_bounded_by_caucus(self):
+        o = m.simulate_2028(3.0, n=500, seed=12)
+        for seats, opp, _ in m.whip_d2f(o):
+            self.assertLessEqual(opp, seats)
+        lo = m.d2f_summary(o, None, scale=0.5)
+        hi = m.d2f_summary(o, None, scale=2.0)
+        self.assertGreater(lo['p_pass'], hi['p_pass'])
+        self.assertLess(lo['opp'], hi['opp'])
+
+    def test_statehood_adds_seats_when_seated(self):
+        base = m.simulate_chain(3.0, n=1500, seed=13, env_sd=0.0)
+        dc31 = m.simulate_chain(3.0, n=1500, seed=13, env_sd=0.0, statehood='DC', statehood_from=2031)
+        dc33 = m.simulate_chain(3.0, n=1500, seed=13, env_sd=0.0, statehood='DC', statehood_from=2033)
+        self.assertEqual(dc31['s28'], base['s28'])
+        self.assertEqual([a - b for a, b in zip(dc31['s30'], base['s30'])], [2] * base['kept'])
+        self.assertEqual(dc33['s30'], base['s30'])
+        self.assertEqual([a - b for a, b in zip(dc33['s32'], base['s32'])], [2] * base['kept'])
+
+    def test_pr_split_probabilities_sum_to_one(self):
+        self.assertAlmostEqual(sum(p for _, p in m.PR_SPLIT), 1.0)
+
+    def test_drivers_shares_sum_to_one(self):
+        res = m.simulate_chain(3.0, n=1500, seed=14, env_sd=0.0)
+        rows = m.drivers_2032(res, None)
+        self.assertAlmostEqual(sum(r[2] for r in rows), 1.0, places=6)
+        self.assertTrue(all(0 <= r[1] <= 1 for r in rows))
+
+    def test_repeal_assumption_matches_count(self):
+        self.assertLess(m.AK_P_REPEAL, 0.10)   # No leads 51.85% with about 60,000 ballots out
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=1)

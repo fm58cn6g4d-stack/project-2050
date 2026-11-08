@@ -12,20 +12,20 @@ Role: a runnable model of the 2028 Senate elections, run under several national 
   - Murkowski's seat is Class 3, up in 2028.
 - **One correction to `5-senate-2028.md`.** Klobuchar's election as governor triggers a **Minnesota special election on November 2, 2027**, not in 2028 (Minn. Stat. 204D.28) [SRC-0578] [SRC-0579]. Its winner serves to January 2031. So the "40 seats not up" base needs three uncertain wins (Alaska 2026, Mississippi 2026 and Minnesota 2027), and only **37 are certain**.
 - **With a Democratic president, the central Senate is about 56-57 seats.** Under the evidence-weighted environment (D+3, SD 4.5), conditional on a Democrat winning the presidency:
-  - mean 56.6, 90% range 53-60;
+  - mean 56.7, 90% range 53-60;
   - 55 or more in 84% of runs;
   - 60 or more in 9%.
 
-  By fixed environment, across all runs: neutral 53.9 (51-57), D+3 55.4 (52-58), D+6 56.8 (54-60), R+3 52.3 (49-56). Even under a Republican president, Democrats keep control in 85% of runs.
+  By fixed environment, across all runs: neutral 53.9 (51-57), D+3 55.4 (52-58), D+6 56.8 (54-60), R+3 52.4 (49-56). Even under a Republican president, Democrats keep control in 85% of runs.
 - **Where the Senate is decided.** Control turns on New Hampshire, Georgia, Nevada, Pennsylvania and Arizona: these are the tipping-point seats for the 50th and 51st votes. Ohio rarely decides control (about 2% of runs). It matters for the 58th to 60th seats, along with Florida, Iowa and Alaska.
 - **Espen's priors, scored.**
 
   | Prior | Verdict | Evidence |
   | --- | --- | --- |
-  | Ohio is the riskiest Democratic seat by a lot | **Right** | 21% in a neutral year; the next lowest are Arizona and Pennsylvania at 56% |
-  | Arizona, Georgia and Nevada are safe-leaning in a neutral year | **Too optimistic** | 56%, 71% and 60%; all three held in only 30% of runs. True only from about D+6 (73%) |
+  | Ohio is the riskiest Democratic seat by a lot | **Right** | 21% in a neutral year; the next lowest are Arizona (54%) and Pennsylvania (56%) |
+  | Arizona, Georgia and Nevada are safe-leaning in a neutral year | **Too optimistic** | 54%, 71% and 59%; all three held in only 30% of runs. True only from about D+6 (73%) |
   | Hard to lose the Senate before 2032 | **Right** | Democrats hold 50+ through the 2031-32 Congress in 82-85% of runs with a Democratic president. The danger is the 2032 election itself, when the wave class of 2026 is up |
-  | A very solid shot at North Carolina and Wisconsin | **Toss-ups in a neutral year** | 45% and 39%; favored from D+3 (65% and 57%) |
+  | A very solid shot at North Carolina and Wisconsin | **Toss-ups in a neutral year** | 45% and 38%; favored from D+3 (65% and 57%) |
   | Montana | **Not up** | The southern and Midwestern "wild map" needs a 2026-sized environment: at D+13, Iowa 66%, Florida 56%, Alaska 31%, Kansas 30%, Missouri 28% |
   | Murkowski deals with Democrats or caucuses with them | **Evidence runs against it** | Below |
 
@@ -35,6 +35,7 @@ Role: a runnable model of the 2028 Senate elections, run under several national 
   - She has pledged to "vote against any motion to weaken the filibuster" [SRC-0592].
   - Even as a Democratic-caucusing independent she would win only 19% of runs in a neutral year (51% at D+6), and she would not be a vote for D2.
 - **For the plan.** 60 seats is a remote upside (about 9% with a Democratic president), so D2's rules change stays the path for every regular-order flagship. The 2029 Senate is the largest the decade is likely to offer (`2030-2034-control.md`), which argues for doing regular-order work in 2029-30. The estimate supports #80's option B (53-56) and sits at the top of it.
+- **Round 4 (section 9):** the D2-F whip count is the binding constraint, not the seat count. With a Democratic president the model's margin before defections is about 6-7 seats, and public statements plus judgment put expected opponents at about 6 (Fetterman, Hamilton, probably Cooper, and red-state freshmen whose positions are unknown). D2-F has the votes in 62% of runs, with a range of 9-88% depending on those unknowns. Measure 2 is failing (No 51.85%), so ranked-choice voting, and with it the Murkowski question, very likely survives.
 
 ## 1. Which seats are up, checked
 
@@ -71,11 +72,11 @@ Five holders are set by hand: Moody, Kennedy, Hoeven, Lee and the Tennessee appo
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | New Hampshire | Hassan (D) | +1.4 | +4.5 | Running (assumed) | $2.0M | 84% | 93% |
 | Georgia | Warnock (D) | -1.0 | +4.3 | Running (assumed) | $4.1M | 71% | 85% |
-| Nevada | Cortez Masto (D) | -1.9 | +3.3 | Intent unknown | $3.5M | 60% | 77% |
+| Nevada | Cortez Masto (D) | -1.9 | +3.3 | Intent unknown | $3.5M | 59% | 76% |
 | Pennsylvania | Fetterman (D) | +1.1 | 0 (set; extra uncertainty) | Many possible primary challengers [SRC-0564] | $2.3M | 56% | 73% |
-| Arizona | Kelly (D) | -3.7 | +5.8 | 75% he is the nominee: deciding on a presidential run after the election; Arizona law lets him run for both [SRC-0581] | **$26.5M**, the most of any 2028 incumbent | 56% | 72% |
+| Arizona | Kelly (D) | -3.7 | +5.8 | 75% he is the nominee: deciding on a presidential run after the election; Arizona law lets him run for both [SRC-0581] | **$26.5M**, the most of any 2028 incumbent | 54% | 71% |
 | North Carolina | Budd (R) | 0.0 | -0.7 | Running; a primary challenger filed [SRC-0564] | $0.7M | 45% | 65% |
-| Wisconsin | Johnson (R) | -1.9 | +0.1 | 25% he runs: "does not want" a fourth term [SRC-0586] | $1.1M | 39% | 57% |
+| Wisconsin | Johnson (R) | -1.9 | +0.1 | 25% he runs: "does not want" a fourth term [SRC-0586] | $1.1M | 38% | 57% |
 | Ohio | Brown (D) | -9.1 | +4.2 | Up for the full term | (2026 committee; not in the 2028 list) | 21% | 38% |
 | Iowa | Grassley (R) | -10.3 | -0.2 | 35% he runs; decides in 2027, 95 in 2028 [SRC-0572] | $0.5M | 5% | 12% |
 | Alaska | Murkowski (R) | -11.9 | branch model (section 5) | Dunleavy expected to challenge [SRC-0584] | $1.6M | 3% | 6% |
@@ -100,7 +101,7 @@ The other 23 seats are safe in every environment up to D+6. Democratic: Californ
 **The evidence-weighted environment (D+3, SD 4.5), an assumption.** Since 1994 the national vote has reverted toward the party that lost the midterm by 0-8 points in the following presidential year. It grew instead from 2006 to 2008, the closest analog to an open-seat year after a two-term president (`5-senate-2028.md`, section 2). Reverting from D+12.9 would center 2028 around D+5 to D+9. But no presidential margin since 1992 has exceeded 8.5 points [SRC-0588], and the nominees are unknown. So the center is set below the reversion arithmetic, at D+3, with a wide spread. Under it, Democrats win the presidency in 66% of runs. The fixed-environment rows show what changes if the center is wrong.
 
 **Sensitivity (D+3).** Across every range above, the mean moves by at most 0.6 seats and P(55+) by at most 7 points (`senate-model-outputs.md`, section 7). The seats not up move it more:
-- if Republicans win both uncalled 2026 races, the mean falls to 53.7 and P(55+) from 69% to 36%;
+- if Republicans win both uncalled 2026 races, the mean falls to 53.8 and P(55+) from 69% to 36%;
 - losing the Minnesota special costs a full seat (P(55+) 52%).
 
 ## 4. Results
@@ -109,13 +110,13 @@ The other 23 seats are safe in every environment up to D+6. Democratic: Californ
 
 | Environment | Mean | 90% range | P(≥51) | P(≥55) | P(≥58) | P(≥60) | P(Democrats control) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| R+3 | 52.3 | 49-56 | 82% | 14% | <1% | <1% | 82% |
-| Neutral | 53.9 | 51-57 | 95% | 39% | 3% | <1% | 95% |
-| D+3 | 55.4 | 52-58 | 99% | 69% | 14% | 1% | 99% |
+| R+3 | 52.4 | 49-56 | 83% | 14% | <1% | <1% | 83% |
+| Neutral | 53.9 | 51-57 | 96% | 39% | 3% | <1% | 96% |
+| D+3 | 55.4 | 52-58 | 99% | 70% | 14% | 1% | 99% |
 | D+6 | 56.8 | 54-60 | 100% | 90% | 36% | 5% | 100% |
-| 2026 repeat (D+13, a midterm-style electorate) | 59.8 | 57-63 | 100% | 100% | 91% | 56% | 100% |
-| **Evidence-weighted, Democratic president (66% of runs)** | **56.6** | **53-60** | 100% | 84% | 34% | 9% | 100% |
-| Evidence-weighted, Republican president (34%) | 52.8 | 49-56 | 85% | 22% | 1% | <1% | 85% |
+| 2026 repeat (D+13, a midterm-style electorate) | 59.9 | 57-63 | 100% | 100% | 92% | 59% | 100% |
+| **Evidence-weighted, Democratic president (66% of runs)** | **56.7** | **53-60** | 100% | 84% | 34% | 9% | 100% |
+| Evidence-weighted, Republican president (34%) | 52.7 | 49-56 | 85% | 22% | 1% | <1% | 85% |
 
 "Control" counts 50 seats plus a Democratic Vice President. In a neutral year conditional on a Democratic president (31% of neutral runs), the mean is 55.1 (52-58).
 
@@ -123,8 +124,8 @@ The other 23 seats are safe in every environment up to D+6. Democratic: Californ
 
 | Threshold | Seats most often decisive (share of runs) |
 | --- | --- |
-| 50th and 51st seats (control) | New Hampshire 17%, Georgia 14%, Nevada 9%, Pennsylvania 9%, Arizona 9%, North Carolina 6%, Wisconsin 5%; often a safe Democratic seat, meaning control was never in doubt |
-| 60th seat | Florida 15%, Iowa 15%, Alaska 14%, Kansas 11%, Missouri 10%, South Carolina 7%, Ohio 7%, Indiana 6% |
+| 50th and 51st seats (control) | New Hampshire 18%, Georgia 14%, Nevada 10%, Pennsylvania 9%, Arizona 9%, North Carolina 6%, Wisconsin 5%; often a safe Democratic seat, meaning control was never in doubt |
+| 60th seat | Florida 15%, Iowa 15%, Alaska 15%, Kansas 10%, Missouri 10%, Ohio 7%, South Carolina 7%, Indiana 5% |
 
 **Reading it.** The Senate majority itself is very likely with a Democratic president, and likely even without one. The real question for the plan is size. The likely band is 53-60, which holds:
 - with **5-10 votes of margin** for a D2 rules change at 51;
@@ -155,7 +156,7 @@ The other 23 seats are safe in every environment up to D+6. Democratic: Californ
 | **Independent, caucusing with neither** (8%) | 36% / none / 64% | 53% / none / 47% | 70% / none / 30% | Neither: a free vote in a close Senate |
 | **Retires** (30%; she is 71 in 2028) | open: Democrat 3% | 9% | 19% | The winner's party |
 
-With ranked-choice voting repealed (15% assumed), she almost never wins. A Republican Murkowski would have to survive a closed primary against Dunleavy; if she lost it and ran as an independent, she would split the anti-Dunleavy vote under plurality rules. Her Democratic-side share as an independent caucusing with Democrats is an assumption: at her 2022 Republican-side share (16% rather than 12%) that branch rises to 48% neutral, 64% at D+3 and 79% at D+6.
+With ranked-choice voting repealed (4% assumed after the round 4 count, section 9), she almost never wins. A Republican Murkowski would have to survive a closed primary against Dunleavy; if she lost it and ran as an independent, she would split the anti-Dunleavy vote under plurality rules. Her Democratic-side share as an independent caucusing with Democrats is an assumption: at her 2022 Republican-side share (16% rather than 12%) that branch rises to 48% neutral, 64% at D+3 and 79% at D+6.
 
 **What it means.**
 1. **Ranked-choice voting is what keeps her viable.** If Measure 2 passes, the Murkowski question nearly disappears and the seat becomes a normal Republican hold.
@@ -167,11 +168,11 @@ With ranked-choice voting repealed (15% assumed), she almost never wins. A Repub
 
 | Prior (Espen's words) | Model and evidence | Agree? | Why they differ, where they do |
 | --- | --- | --- | --- |
-| "Ohio is the riskiest dem seat to defend by a lot, and it's not close." | Ohio 21% in a neutral year and 38% at D+3; the next lowest Democratic seats are Arizona and Pennsylvania at 56% | **Yes** | Ohio's lean is R+9 even after 2026. Brown ran 7.6 points ahead of Harris in 2024 and about 3 points ahead of what Ohio's lean implied in 2026, and that brand is in the model (+4.2). It still leaves him about 5 points short in a neutral year. Ohio is the riskiest seat, but it rarely decides control (2% of 51st-seat tipping points) |
-| "If it's even a neutral year I find it unlikely we lose Arizona or Georgia or Nevada seats coming off four years of Trump." | Neutral year: Arizona 56%, Georgia 71%, Nevada 60%; all three held in **30%** of runs, losing at least one in 70%. At D+3, 52%; at D+6, 73% | **No, for a truly neutral year** | All three states voted to the right of the nation in 2024 (by 4, 0.7 and 1.6 points). Nevada's 2026 governor margin, even net of Lombardo's incumbency, was below the national swing. Kelly's 25% chance of leaving the race costs Arizona about 10 points. "Coming off four years of Trump" is an argument about the environment, not about these states: if it means D+5 or better, the prior holds (73% for all three at D+6). The disagreement is whether 2028 is neutral; at a real neutral, these are lean, not safe, seats. Matching the prior takes an extra 2.5-5.5 points in each state, more than any input supports (`senate-model-outputs.md`, section 5) |
+| "Ohio is the riskiest dem seat to defend by a lot, and it's not close." | Ohio 21% in a neutral year and 38% at D+3; the next lowest Democratic seats are Arizona (54%) and Pennsylvania (56%) | **Yes** | Ohio's lean is R+9 even after 2026. Brown ran 7.6 points ahead of Harris in 2024 and about 3 points ahead of what Ohio's lean implied in 2026, and that brand is in the model (+4.2). It still leaves him about 5 points short in a neutral year. Ohio is the riskiest seat, but it rarely decides control (2% of 51st-seat tipping points) |
+| "If it's even a neutral year I find it unlikely we lose Arizona or Georgia or Nevada seats coming off four years of Trump." | Neutral year: Arizona 54%, Georgia 71%, Nevada 59%; all three held in **30%** of runs, losing at least one in 70%. At D+3, 52%; at D+6, 73% | **No, for a truly neutral year** | All three states voted to the right of the nation in 2024 (by 4, 0.7 and 1.6 points). Nevada's 2026 governor margin, even net of Lombardo's incumbency, was below the national swing. Kelly's 25% chance of leaving the race costs Arizona about 10 points. "Coming off four years of Trump" is an argument about the environment, not about these states: if it means D+5 or better, the prior holds (73% for all three at D+6). The disagreement is whether 2028 is neutral; at a real neutral, these are lean, not safe, seats. Matching the prior takes an extra 2.5-5.5 points in each state, more than any input supports (`senate-model-outputs.md`, section 5) |
 | "Realistically I actually think it's gonna be hard for us to lose the senate before 2032." | Control in January 2029: 100% with a Democratic president, 85% without. Holding 50+ through the 2031-32 Congress: 82-85% with a Democratic president | **Yes** | The 2030 class (elected in 2024's R+1.5 year) is not over-extended, so even a typical midterm penalty costs only about 2-3 seats. The danger is the **2032 election**, when the 2026 wave class is up: `2030-2034-control.md` |
-| "A very solid shot to pick up the other North Carolina and Wisconsin seats in 28" | Neutral: North Carolina 45%, Wisconsin 39%, both 19%. D+3: 65%, 57%, both 38%. D+6: 81%, 74%, both 60% | **Partly**: "solid" from about D+3 | North Carolina's 2026 Senate win (D+19.6) was partly Cooper's own popularity. Wisconsin's 2026 governor margin (D+8.0) ran 5 points behind the nation. Johnson retiring (75% assumed) helps Democrats only slightly, since his own record carries no penalty in the model |
-| "Maybe make some more wild map expanding plays in the south or Midwest. Montana, anyone?" | Montana is not up. At D+6: Iowa 25%, Florida 16%, Alaska 12%, Kansas 4%, Missouri 4%. At D+13: Iowa 66%, Florida 56%, Alaska 31%, Kansas 30%, Missouri 28%, South Carolina 18%, Indiana 15% | **Only in a 2026-sized year** | Expected Republican-held pickups: 0.9 seats neutral, 1.5 at D+3, 2.2 at D+6, 4.5 at D+13. Iowa is the best wild seat if Grassley retires: Democrats won both Iowa statewide races in 2026, but the state still sits about 10 points right of the nation. Spending in these seats is a bet on the environment, worth most for the 60-seat upside |
+| "A very solid shot to pick up the other North Carolina and Wisconsin seats in 28" | Neutral: North Carolina 45%, Wisconsin 38%, both 19%. D+3: 65%, 57%, both 38%. D+6: 81%, 74%, both 60% | **Partly**: "solid" from about D+3 | North Carolina's 2026 Senate win (D+19.6) was partly Cooper's own popularity. Wisconsin's 2026 governor margin (D+8.0) ran 5 points behind the nation. Johnson retiring (75% assumed) helps Democrats only slightly, since his own record carries no penalty in the model |
+| "Maybe make some more wild map expanding plays in the south or Midwest. Montana, anyone?" | Montana is not up. At D+6: Iowa 24%, Florida 15%, Alaska 11%, Kansas 5%, Missouri 4%. At D+13: Iowa 66%, Florida 56%, Alaska 31%, Kansas 30%, Missouri 27%, South Carolina 18%, Indiana 15% | **Only in a 2026-sized year** | Expected Republican-held pickups: 0.9 seats neutral, 1.5 at D+3, 2.2 at D+6, 4.5 at D+13. Iowa is the best wild seat if Grassley retires: Democrats won both Iowa statewide races in 2026, but the state still sits about 10 points right of the nation. Spending in these seats is a bet on the environment, worth most for the 60-seat upside |
 | "Murkowski is up I believe, and I could see her trying to strike a deal with Dems or even becoming an independent and caucusing with us." | She is up. A Democratic-caucusing run wins 19-51% depending on the year, but is given only a 6% chance of happening | **Fact right; the deal is unlikely and would not help D2** | She endorsed Sullivan "to keep in the majority" (January 2026) and her standing with Alaska's left collapsed in 2025. Her leverage is lowest when Democrats hold 55+, and she opposes weakening the filibuster (section 5) |
 
 ## 7. What it means for Project 2050
@@ -201,7 +202,7 @@ Options and questions, not decisions. Nothing for 2029 is decided (`dossiers/hom
 | Democratic renewal (DEM-1) | None | All | D2-F first, or the G carve-out |
 
 **How the expected map compounds across 2029-2034** (details in `2030-2034-control.md`). The Senate seated in January 2029 is probably the largest of the decade:
-- with a Democratic president, about 56.6 seats in 2029;
+- with a Democratic president, about 56.7 seats in 2029;
 - about 54 after the 2030 midterm;
 - about 49-51 after 2032.
 
@@ -215,7 +216,7 @@ Questions only; none is a recommendation yet.
 
 **Notes for #80 (D1).** #80 is Espen's decision, and nothing here changes D1. Two facts bear on it:
 - Its "40 not up" base also needs the Minnesota 2027 special.
-- The model's center with a Democratic president (56.6) sits at the top of option B's 53-56 band. It supports B over A, and does not by itself argue for C, because 2029 is the peak.
+- The model's center with a Democratic president (56.7) sits at the top of option B's 53-56 band. It supports B over A, and does not by itself argue for C, because 2029 is the peak.
 
 ## 8. How the model was iterated
 
@@ -226,9 +227,9 @@ Questions only; none is a recommendation yet.
 
 **Round 2.**
 1. **Governors.** Split Ticket finds governor races stray about four points further from partisan lean than Senate races: average deviation 14.5 against 10.0 in 2014, 11.7 against 8.0 in 2018 [SRC-0589]. Several 2026 margins were incumbents' results: Lombardo (NV, lost by 7.6), Ayotte (NH, won by 4.3), Hobbs (AZ), Shapiro (PA). The fix nets out incumbency (3 points for a governor, 2 for a senator) and gives governor races half weight. The effect:
-   - Nevada 53% → 60% in a neutral year;
+   - Nevada 53% → 59% in a neutral year;
    - New Hampshire 79% → 84%;
-   - Arizona 60% → 56%;
+   - Arizona 60% → 54%;
    - Pennsylvania 62% → 56%;
    - seat totals unchanged.
 2. **Error size.** States' 2020-24 swings varied around the national swing with an SD of 2.4. 2024 Senate margins varied around the same state's presidential margin with an SD of 5.9, including candidate effects. The model's combined state error of about 5.7, on top of explicit candidate effects, is slightly conservative, so no change.
@@ -252,7 +253,77 @@ Questions only; none is a recommendation yet.
 2. **Murkowski's crossover.** Her 2025 approval collapse and her Sullivan endorsement [SRC-0590] [SRC-0591] lowered her assumed Democratic-side share from 45-80% to 35-70%, and the Democratic-caucus branch from 10% to 6%.
 3. **Her filibuster position** [SRC-0592] moved the Murkowski reading from "possible 51st vote" to "possible Republican vote toward 60 on specific bills." That changed the section 7 text, not the numbers.
 
-## 9. Limits
+**Round 4** (asked by the lead after round 3: Minnesota, Measure 2, the 2032 drop, the D2-F whip count). It is reported in section 9 and in `2030-2034-control.md`.
+
+## 9. Round 4: Minnesota, Measure 2 and the D2-F whip count
+
+All tables are in `senate-model-outputs.md`, sections 9-11.
+
+**Minnesota's November 2027 special.**
+- **No appointee yet.** Klobuchar says she will make the appointment herself and "be very careful," calling it "an interim position because there will be an election" [SRC-0593]. Names reported:
+  - Secretary of State Steve Simon;
+  - Reps. Angie Craig (who lost the 2026 Senate endorsement to Flanagan) and Kelly Morrison.
+- Analysts expect either a placeholder or a candidate for 2027 [SRC-0579]. No Republican candidate is reported.
+- **The race's lean.** Minnesota's lean is D+2.5 against the nation: 2020 D+7.1, 2024 D+4.2, Flanagan's open-seat 2026 win D+10.1 in a D+12.9 year. With an appointee as a weak incumbent (+1), Democrats hold it:
+
+  | 2027 national environment | R+3 | Even | D+3 | D+8 | D+13 |
+  | --- | --- | --- | --- | --- | --- |
+  | P(Democrats hold) | 53% | 71% | 84% | 96% | 99% |
+
+  The 90% kept in the base fits an off-year electorate voting under Trump at about D+5 to D+8. A placeholder appointee (no incumbency) costs about 6 points of probability at an even environment (71% to 65%).
+- **What losing it costs.** One seat in every scenario:
+  - mean seats down 1.0;
+  - P(55+) down 13-19 points (D+3: 70% to 52%; evidence-weighted: 64% to 51%);
+  - control down up to 6 points in a neutral year (96% to 90%).
+
+  It is the only seat outside the 2028 map that a 2027 campaign can still change.
+
+**Alaska's Measure 2.**
+- **The count.** The repeal trails 98,460 Yes to 106,040 No (48.15-51.85%, a 7,580-vote gap) with about 205,000 counted [SRC-0594]. About 60,000 early and absentee ballots remain (`1-results.md`), so Yes would need about 56% of them. Ballots of those kinds broke toward keeping the system in 2024, when a repeal that led on election night lost by 743 votes [SRC-0561].
+- **The model.** P(repeal) is cut from 15% to **4%**. Both outcomes are rerun in `senate-model-outputs.md`, section 6.
+  - If the system survives, every branch in section 5 stands. A Republican Murkowski beats Dunleavy in 25-51% of runs and a Democratic-caucusing Murkowski in 19-51%.
+  - If it is repealed, she wins in 1% or less (Republican branch) to 10% (independent branch) of runs. The seat becomes a Republican hold, with a Democrat winning only through a three-way split (1-6%).
+- **What else repeal would do.** It would also end open primaries and repeal the 2020 campaign-finance rules [SRC-0594]. This page could not confirm whether it would take effect for 2028.
+
+**The D2-F whip count** (Next question 5 in round 3).
+
+On record:
+- **Against ending the filibuster:**
+  - Fetterman: "horribly wrong" to have opposed it, July 2026 [SRC-0595].
+  - Senator-elect Hamilton (KS) would keep "the 60-vote threshold"; Senator-elect Cooper (NC) "has not been quite so definitive" but praised it as a firewall against "bad legislation" [SRC-0596].
+- **For ending it:** Talarico (TX), who called it a "Jim Crow relic" [SRC-0597], and Stratton (IL) [SRC-0599].
+- **The 2022 vote.** On January 19, 2022 every Democrat but Manchin and Sinema voted to change the rule for the voting-rights bills [SRC-0598]. 35 of those Democrats sit in the 2027 caucus.
+- **Unknown:** no position was found for the other 2026 winners in Trump states: Andrews (SC), Turek (IA), Jackson (ME), and Colom (MS) and Peltola (AK) if seated.
+
+The model gives each Democrat a probability of voting against D2-F. These are assumptions:
+
+| Group | P(votes against D2-F) |
+| --- | --- |
+| Stated opponents (Fetterman, Hamilton) | 0.85-0.9; Fetterman's seat counts only if he is the 2028 nominee and wins |
+| Cooper | 0.6 |
+| Unknown red-state freshmen | 0.25-0.40 |
+| New 2028 winners of Republican-held seats | 0.20-0.40 |
+| Senators who voted for the 2022 change | 0.02-0.10 |
+
+It counts opponents in each simulated Senate:
+
+| Democratic president, environment | Mean seats | Mean opponents | Margin before defections | P(D2-F has the votes) |
+| --- | --- | --- | --- | --- |
+| Neutral | 55.1 | 6.1 | 5.1 | 44% |
+| D+3 | 55.7 | 6.2 | 5.7 | 51% |
+| D+6 | 56.8 | 6.4 | 6.8 | 65% |
+| Evidence-weighted | 56.6 | 6.4 | 6.6 | **62%** |
+
+- **The finding.** The seat count is no longer the constraint: the caucus's composition is. The 2026 wave brought in senators from Trump states, and some of them oppose ending the filibuster. They take up most of the margin the wave created.
+- **How much it rests on assumptions.** Halving the unknowns' probabilities gives 88% (4.2 opponents); doubling them gives 9% (10.8). The unknowns' actual positions are the most valuable fact to collect before 2029.
+- **What it means for D2.** It strengthens the case for its opening offer (C, the talking filibuster with a 15-day backstop) and its written fallback (G, the democracy carve-out). Both exist for holdouts, and this count shows the holdouts will probably exist. The 2022 precedent is closest to C and G, not to F.
+- **A question for Espen:** should D2's whip count be re-run senator by senator in 2027, once the freshmen have spoken? Or should the plan now treat C as the likely 2029 rule, with F as the upside?
+
+**The 2032 drop** (lead's question 3) is in `2030-2034-control.md`, sections 4 and 5:
+- what drives it: Mississippi, South Carolina, Kansas, Iowa and Alaska supply 63% of the expected losses;
+- what changes it: D.C. and Puerto Rico statehood, a mild 2030 midterm and candidate strength.
+
+## 10. Limits
 
 - **The environment is the dominant input,** and it is an assumption. Every row shows its environment for that reason.
 - **Candidate effects come from one past race,** shrunk toward zero. The model knows nothing about 2028 nominees, scandals or primaries beyond the three drawn candidacies and Fetterman's extra uncertainty.
@@ -263,10 +334,12 @@ Questions only; none is a recommendation yet.
 
 ## Next questions
 
-1. **The certified count.** Recheck after November 18-25: the Alaska and Mississippi results (they set 37-39 of the base), the Measure 2 result (it decides whether the Murkowski branches matter) and the certified 2026 margins.
-2. **The Minnesota 2027 special.** Who Klobuchar appoints, and whether Republicans recruit seriously. It is one full seat in every 2029 scenario.
+1. **The certified count.** Recheck after November 18-25: the Alaska and Mississippi results (they set 37-39 of the base), the certified Measure 2 result (4% repeal assumed; section 9) and the certified 2026 margins. Also whether a repeal would take effect for 2028.
+2. **The Minnesota 2027 special.** Who Klobuchar appoints (placeholder or candidate; a placeholder costs about 6 points of probability at an even environment), and whether Republicans recruit seriously. It is one full seat in every 2029 scenario and 13-19 points of P(55+) (section 9).
 3. **Retirements,** in order of effect: Kelly (presidential decision), Grassley (2027), Johnson, Murkowski, Cortez Masto. Kelly alone moves Arizona by about 10 points.
 4. **First published ratings** (Cook, Sabato, Inside Elections) and the first 2028 polls, to check the model's lean and candidate effects against independent judgment.
-5. **The 2027 caucus count for D2-F.** Which Democrats would vote against graduated cloture? The margin for defections is 5-10 seats in this model, and the number of likely defectors decides whether that is enough. This connects to `4-2029-plan.md` (D2).
+5. **The 2027 caucus count for D2-F, senator by senator.** Round 4 puts expected opponents (about 6) roughly level with the margin (about 6-7), so D2-F has the votes in about 62% of runs, with a range of 9-88%. The positions of Andrews, Turek, Jackson, Colom and Peltola, and of Gallego, Slotkin and the other post-2022 senators, decide it. This connects to `4-2029-plan.md` (D2).
 6. **Byrd-rule edges for each flagship.** The table in section 7 is a first sort. The care, housing-conditions and paid-leave edges need a parliamentarian-precedent check before the 2029 vehicles are fixed (D5).
 7. **A demographic correlation structure.** For example, by education and Hispanic share, to test whether Arizona, Nevada and Georgia (or Wisconsin, Ohio and Iowa) move together more than the regional blocs allow.
+8. **What a C (talking filibuster) path looks like at about 6 holdouts.** If round 4 is right that F is a coin flip, D2's floor-day arithmetic for C (about 213-272 days against a 163-day budget, legacy D2) becomes the base case to stress-test, not the fallback.
+9. **Statehood as a 2029-30 bill.** D.C. and Puerto Rico seated by January 2031 is the largest single lever on the 2033 Senate (`2030-2034-control.md`). It needs D2 and, for Puerto Rico, a plebiscite (DEM-6). Can it fit the first Congress's floor budget?
