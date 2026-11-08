@@ -2,6 +2,8 @@
 
 Role: what a 2029 Democratic government could still do if it wins the presidency and the Senate but not the House, the case `house-model-2028.md` puts at about 11% of Democratic-president runs. It looks at the FY2029 reconciliation slot, the flagships and how the case relates to #80's options for D1. Status: draft (stage B follow-up), November 8, 2026. **Analysis only.** It proposes no change to `charter/` or `legacy/`, and D1 is Espen's to decide in #80.
 
+**Planning premise (#80, 14:20 UTC, November 8, 2026).** Espen settled #80's House sub-choice: plan on a Democratic trifecta in 2029-30, with the House, Senate and White House all Democratic. This note's divided-government material is contingency analysis, prepared for 2030 and beyond and for a narrow 2028 miss. It is not the planning case.
+
 ## In brief
 
 - **How likely.** With a Democratic president, the Senate is Democratic in effectively every run (99.9%; `house-model-outputs.md`, section 6). The House is Democratic in 89%. So the realistic divided case is a **Democratic president, a Democratic Senate and a Republican House**. It is concentrated in narrow presidential wins: at a neutral national vote, about 3 in 10 Democratic wins come with a Republican House.

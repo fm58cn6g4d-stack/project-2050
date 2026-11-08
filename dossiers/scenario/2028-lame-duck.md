@@ -9,6 +9,8 @@ Role: what in the 2025 reconciliation law (Public Law 119-21, "OBBBA") expires a
 - **The lame-duck scenarios:** this project's analysis.
 - **Administration sources:** no figure here comes from the administration. Treasury and the Council of Economic Advisers under the second Trump administration have published claims about who gains from these deductions. Under `DEC-2026-10-30-01` those would be that administration's view, not evidence, and none is used.
 
+**Planning premise (#80, 14:20 UTC, November 8, 2026).** Espen settled #80's House sub-choice: plan on a Democratic trifecta in 2029-30, with the House, Senate and White House all Democratic. Case A (section 3) is therefore the planning case. Cases B and C, including D3's leverage in the divided case (section 5), are contingency analysis, not the planning case.
+
 ## In brief
 
 - **Four household deductions end after tax year 2028:** no tax on tips, no tax on overtime, car-loan interest, and the $6,000 deduction for people 65 and over (statute). Six other provisions also end after 2028 or 2029: the $1,000 children's account pilot, expensing for factories, the higher SALT cap, the clean fuel credit, a small sound-recording rule and a limit on the carbon-sequestration credit.
