@@ -49,16 +49,16 @@ From `2028-lame-duck.md` (PR #100, not yet merged). Costs are the Joint Committe
 - **What expires after tax year 2028:** the four household deductions (no tax on tips, no tax on overtime, car-loan interest, and the $6,000 deduction for people 65 and over), plus the $1,000 children's-account pilot and expensing for factories. The higher SALT cap ($40,000) and the clean fuel credit end a year later, after 2029.
 - **What extending them would cost:** the four household deductions are $33 billion in FY2029, then $68-73 billion a year: $384 billion over FY2029-34. All ten temporary provisions together are $787 billion.
 - **Who decides:** the Democratic Congress sits until January 3, 2029, and Trump until January 20. Any lame-duck extension needs both.
-- **By 2029 world:**
-  - *Trifecta:* the provisions lapse, and the new government redesigns them in its own budget bills (R1/R2).
-  - *Democratic president and Senate, Republican House:* letting them lapse keeps the strongest bargaining chip that case has, since Republicans would then need Democrats to bring their tax cuts back. But D3's stance must be settled before November 2028. #100 gives four options: let all four lapse; convert them into a refundable work credit and senior credit; restore them only paired with a Democratic item and top-end revenue; or set a design test now and fit any offer to it.
+- **In the planning case (a 2029 trifecta):** the provisions lapse, and the new government redesigns them in its own budget bills (R1/R2).
+- **Contingency analysis, not the plan:**
+  - *Democratic president and Senate, Republican House:* letting them lapse would keep the strongest bargaining chip that case has, since Republicans would then need Democrats to bring their tax cuts back. D3's stance on the deductions is worth settling before November 2028 in any case, since the trifecta's R1/R2 redesign needs it too. #100 gives four options: let all four lapse; convert them into a refundable work credit and senior credit; restore them only paired with a Democratic item and top-end revenue; or set a design test now and fit any offer to it.
   - *Republican president, Democratic Senate:* a standoff.
 - **The project's numbers already assume they lapse.** A permanent extension would need a new revenue adjustment (about −$33 billion in FY2029, then −$68 to −$73 billion a year). #100 flags this for Codex and changes nothing.
 
 ## 1. The ten most important findings
 
 1. **With a Democratic president, the 2029 Senate is probably about 57 seats.** The average is 56.7, and 90% of runs fall between 53 and 60. 55 or more happens in 84% of runs; 60 or more in only 9%. A Democratic majority is near-certain in this case: 99.8% of runs have 51 or more, because Democrats need only one of New Hampshire, Georgia, Nevada, Pennsylvania, Arizona, North Carolina or Wisconsin. In a narrow win where Alaska, Mississippi and Minnesota all go Republican, it is about 80-90%. (`house-model-2028.md`, PR #88) (`senate-model-2028.md`, section 4, [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84))
-2. **The House, not the Senate, decides whether there is a 2029 trifecta.** On the current maps Democrats need about D+1.5 for an even chance at the House: they hold it in 8% of runs at R+3, 35% in a neutral year, 75% at D+3 and 96% at D+6. A full trifecta comes in 58% of runs on the central assumption, and in 89% when a Democrat wins the presidency. Under a Republican president, Democrats hold the House in only 15% of runs but the Senate in 85%. The presidency itself is close to even in a neutral year: a separate state-by-state model, which shares the Senate model's national and regional swings, gives a Democrat 38% at even, 76% at D+3 and 95% at D+6 (65% on the central assumption), with an even chance at about D+0.9. Pennsylvania, Michigan, Georgia and North Carolina are each the deciding state in 14-16% of runs. (`house-model-2028.md`, PR #88; `presidential-model-2028.md`, PR #87)
+2. **In the models, the House, not the Senate, decides whether there is a 2029 trifecta.** (The plan itself assumes the trifecta, as you directed on #80; this finding is why the 2028 House races matter.) On the current maps Democrats need about D+1.5 for an even chance at the House: they hold it in 8% of runs at R+3, 35% in a neutral year, 75% at D+3 and 96% at D+6. A full trifecta comes in 58% of runs on the central assumption, and in 89% when a Democrat wins the presidency. Under a Republican president, Democrats hold the House in only 15% of runs but the Senate in 85%. The presidency itself is close to even in a neutral year: a separate state-by-state model, which shares the Senate model's national and regional swings, gives a Democrat 38% at even, 76% at D+3 and 95% at D+6 (65% on the central assumption), with an even chance at about D+0.9. Pennsylvania, Michigan, Georgia and North Carolina are each the deciding state in 14-16% of runs. (`house-model-2028.md`, PR #88; `presidential-model-2028.md`, PR #87)
 3. **January 2029 is the high point of the decade.** The average falls from 56.7 seats in 2029 to 54.1 after the 2030 midterm and 48.9 after 2032. Democrats hold 50 or more in every Congress through 2034 in only 46% of runs. (`2030-2034-control.md`, section 3, PR #84)
 4. **Five seats drive the 2032 drop.** Mississippi, South Carolina, Kansas, Iowa and Alaska supply 63% of the expected 2032 losses. All are states Trump won by 13 to 23 points, and all were won in the 2026 wave. (same file, section 4)
 5. **The best protection for 2032 is a milder 2030 midterm, and that depends on visible delivery in 2029-30.** Halving the usual midterm loss raises the chance of holding the Senate through 2034 from 46% to 56%. Statehood helps less than it looks (52-53%), because it also makes the Senate bigger, so a majority needs more seats. Stronger candidates in the exposed seats barely help (47-49%). (same file, section 5)
@@ -83,9 +83,11 @@ Sources: `senate-model-2028.md`, sections 4-6 and 9, and `2030-2034-control.md`,
 
 ## 3. Decisions waiting on you
 
-**PR #80: two choices for the planning scenario (D1), the Senate band and the House.** It is tier 3, so only your `espen-approved` label merges it. I have not applied or asked for any label. Refreshed at `e3b5de6`; adding the label decides B and House option 2.
+**PR #80: the planning scenario (D1).** It is tier 3, so only your `espen-approved` label merges it. I have not applied or asked for any label. #80 is now at `56b54cd`.
 
-*Choice 1: the Senate band.*
+**The House is settled by your direction on #80** (November 8, 14:20 UTC): "Act as if the House goes to Democrats in the 2028 election along with the Senate and White House. For 2030 and beyond, we can model and prepare for other outcomes, but the premise of the Project 2050 work includes an initial trifecta window in 2029-30." So D1 plans for a full trifecta in 2029-30, the House included (House option 1), and no "H" tag is added. **Only the Senate band still waits on you:** add the label for B, or comment if you want C.
+
+*The Senate band (waiting on you).*
 
 | Option | Plan for | Test every item at | Upside | What changes in the plan |
 | --- | --- | --- | --- | --- |
@@ -118,13 +120,7 @@ B or C changes the adopted model inputs, which Codex looks after. That is a tier
 
 The memo now recommends D, changed from B after PR #91 found that nearly all of DEM-2's value for the 2032 maps comes from part 2, not the ban. B stays the choice if you want the commission mandate tried in court.
 
-*Choice 2: the House.* PR #88's stress test (`house-stress-test-2029.md`) looks at a Democratic president and Senate with a Republican House, about 11% of Democratic-president runs and mostly narrow wins. In that case the three budget bills are gone, probably until 2033. What remains: every nomination, the Senate's own rules, and executive action (care, clean power, work and immigration keep part of their agenda; the secure floor, the housing money and DEM-1 stall). The leverage would come from the FY2030 spending bills, the debt limit and the tax deductions that expire after 2028. #80 now carries the three options:
-
-| Option | What it means |
-| --- | --- |
-| 1. Keep the House assumption as is | Plan as if a Democratic president brings a Democratic House (89% of runs). No plan for the narrow-win case |
-| **2. Add an "H" tag (recommended)** | Each item also says whether it survives a Republican House, next to the 51-seat Senate test. Light work |
-| 3. Write a divided-2029 branch plan | A short plan for that case: first 100 days of executive action, nominations, the spending and tax bargaining positions. More work. #80 suggests writing it in 2028, if the 2027 scorecard points to a narrow win |
+*Contingency, not a 2029 choice: a Republican House.* PR #88's stress test (`house-stress-test-2029.md`) stays as analysis for 2030 and after. It looks at a Democratic president and Senate with a Republican House, about 11% of Democratic-president runs in the models. In that case the three budget bills are gone, probably until 2033. What remains: every nomination, the Senate's own rules, and executive action. The leverage would come from spending bills, the debt limit and expiring tax deductions. The same tools matter if the House is lost in the 2030 midterm, which D1 plans for.
 
 **Housing point 5: the rules for emergency rent help (approve or amend).** PR #93, now on `main`, answers your open question (`dossiers/home/point-5-emergency-aid-rules.md`). Its key finding: in the Treasury inspector general's cases of questioned payments in the last emergency rent program, the fraud came through fake leases and false landlords, not tenants misstating income. So the checks before payment fall on the landlord and the property. The five lines to approve or amend:
 1. **Who:** renters at or below 50% of area income (or already on SNAP, Medicaid or SSI) facing a housing crisis now, ranked by a short tested risk screen, court cases first.
@@ -144,7 +140,7 @@ The memo now recommends D, changed from B after PR #91 found that nearly all of 
 
 None of the housing memos has a recorded decision. Memos 1 B and 2 B and a stage 3 for disabled renters are the recommended directions, not choices you have made. This section is input to the memos, not advice on what to choose (`housing-by-2029-world.md`, PR #90). #90 itself now says these are working assumptions until they are recorded.
 
-**Four possible 2029 worlds** (central assumption, from the House model in PR #88):
+**The planning case is world 1, a Democratic trifecta**, as you directed on #80. The model's other worlds stay as contingency analysis for 2030 and after (central assumption, from the House model in PR #88):
 
 | World | Chance |
 | --- | --- |
@@ -155,7 +151,7 @@ None of the housing memos has a recorded decision. Memos 1 B and 2 B and a stage
 
 - **The core of the housing plan moves only in a trifecta.** The million new rental awards (HOU-4A), the guarantee's stages and the building money (HOU-3C) all need a 51-vote budget bill (reconciliation), and that needs both chambers.
 - **Three choices work in every world:** paying for zoning results through the ROAD Act's fund (memo 4 B), Housing First by reversing the 2025 order (memo 5 B), and keeping the investor limit (HOU-7B). They rest on current law, yearly funding or executive action.
-- **Choices whose best answer depends on the world:**
+- **Choices that would change if the plan had to run outside a trifecta (contingency):**
   - Memo 6: should a standing emergency-rent fund be designed so its rules can also run on one-time money? #90 sketches "one rulebook, three taps": the same delivery rules (who qualifies, what is paid, how it is checked, who runs it) fed by a standing fund in a trifecta, a yearly appropriation in a split government, or one-time money in a recession. The sketch does not choose between memo 6's options.
   - Memo 3, parts 1-2: outside a trifecta, a tax-credit deal is likelier to widen the credits than narrow them, and a federal builder needs a law only a trifecta could pass.
   - Memo 1 B (recommended, not yet decided): much of it can start without a new law in any world with a Democratic HUD. Under 42 U.S.C. 1437f(o)(13), HUD can name areas where vouchers are "difficult to use". There, housing agencies may attach an extra 10% of their vouchers to buildings, and one building may have 40% of its units assisted instead of 25%. This was checked against the statute.
@@ -181,7 +177,7 @@ None of the housing memos has a recorded decision. Memos 1 B and 2 B and a stage
 ## 6. The next research wave, ranked
 
 1. **A senator-by-senator filibuster count for the 2027 caucus.** Confirm the list in section 5 from the senators' own words, and find the unknown positions. *Why:* it decides whether the 2029 rule is graduated cloture or a talking filibuster, and it swings D2-F from 14% to 87%.
-2. **A House stress test for D1.** #88 has drafted the analysis. The next step, if you want it, is the "H" tag on each domain file or the short branch plan (section 3). *Why:* in 11% of Democratic-president runs the House is lost, and then none of the three budget bills (R1-R3) can pass, however big the Senate is.
+2. **Contingency plans for losing the House from 2030 on.** D1 now plans a full trifecta for 2029-30; #88's stress test is the starting analysis for what survives if the House is lost in the 2030 midterm. *Why:* without the House, none of the budget bills can pass, however big the Senate is, so 2029-30 is the window for anything that needs them.
 3. **Recheck after certification (November 18-25).** Alaska, Mississippi and Measure 2, and whether a repeal would apply in 2028. *Why:* these set the base of 37-39 certain seats and decide whether the Murkowski question exists at all.
 4. **Does visible delivery in 2029-30 shrink the 2030 midterm loss? And what are the House odds in 2030 and 2032?** *Why:* a milder midterm is now the biggest single lever on keeping the Senate after 2032, and it is the one that policy controls. Halving the usual loss is worth about 10 points.
 5. **The talking-filibuster floor-time math at about 6 holdouts.** The old estimate was 213-272 floor days against a 163-day budget. *Why:* if graduated cloture is a coin flip, this becomes the base case, and it may not fit the first Congress.
