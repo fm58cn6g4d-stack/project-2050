@@ -219,12 +219,12 @@ Opponents drawn per run from the whip table in the script (assumptions anchored 
 
 | Environment | Mean seats | Mean opponents | Mean margin before defections | P(5+ opponents) | P(D2-F has the votes) |
 | --- | --- | --- | --- | --- | --- |
-| Neutral, Democratic president | 55.1 | 6.1 | 5.1 | 78% | 44% |
-| D+3, Democratic president | 55.7 | 6.2 | 5.7 | 78% | 52% |
-| D+6, Democratic president | 56.8 | 6.5 | 6.8 | 83% | 65% |
-| Evidence-weighted prior, D+3 with SD 4.5, Democratic president | 56.6 | 6.4 | 6.6 | 82% | 62% |
+| Neutral, Democratic president | 55.1 | 6.0 | 5.1 | 77% | 45% |
+| D+3, Democratic president | 55.7 | 6.1 | 5.7 | 78% | 52% |
+| D+6, Democratic president | 56.8 | 6.4 | 6.8 | 82% | 67% |
+| Evidence-weighted prior, D+3 with SD 4.5, Democratic president | 56.6 | 6.3 | 6.6 | 80% | 63% |
 
-Sensitivity (evidence-weighted, Democratic president): unnamed senators' probabilities halved, P(votes) 89% (mean opponents 4.2); doubled, 9% (10.8). Fetterman, Hamilton and Cooper are held at their stated positions.
+Sensitivity (evidence-weighted, Democratic president): unnamed senators' probabilities halved, P(votes) 87% (mean opponents 4.4); doubled, 14% (10.1). Fetterman, Hamilton, Cooper and King are held at their stated positions.
 
 
 ## 11. Round 4: what drives the 2032 drop, and what would change it
@@ -244,16 +244,16 @@ Evidence-weighted prior, Democratic president elected in 2028. Each Democratic-h
 | MN | 77% | 4% | 0.23 |
 | NH | 78% | 4% | 0.22 |
 
-Levers (same runs; held 50+ means in every Congress through 2033-34):
+Levers (same runs; held 50+ means in every Congress through 2033-34). With statehood the chamber has 102 or 104 seats, so the thresholds are chamber-adjusted: "50+" means control with a Democratic Vice President (51 of 102, 52 of 104) and "55+" shifts the same way; mean seats are raw.
 
-| Lever | Mean seats Jan 2031 | Mean seats Jan 2033 | P(≥50) Jan 2033 | Held 50+ through 2033-34 | Held 55+ through 2033-34 |
+| Lever | Mean seats Jan 2031 | Mean seats Jan 2033 | P(control-equivalent 50+) Jan 2033 | Held 50+ through 2033-34 | Held 55+ through 2033-34 |
 | --- | --- | --- | --- | --- | --- |
 | Base | 54.1 | 48.9 | 47% | 46% | 21% |
 | Mild 2030 midterm (half the usual penalty) | 55.9 | 50.7 | 56% | 56% | 28% |
 | Every 2026 winner runs again (no Class 2 retirements) | 54.1 | 49.0 | 48% | 47% | 22% |
 | Retention: 2026 winners keep 60% of their overperformance | 54.1 | 48.9 | 46% | 46% | 21% |
 | Candidate and campaign strength: +2 points in the six most exposed seats | 54.1 | 49.4 | 49% | 49% | 23% |
-| D.C. statehood, seated January 2031 | 56.1 | 50.9 | 58% | 57% | 30% |
-| D.C. and Puerto Rico, seated January 2031 | 57.3 | 52.1 | 64% | 64% | 36% |
-| D.C. and Puerto Rico, seated January 2033 | 54.1 | 52.1 | 64% | 62% | 33% |
-| D.C. and Puerto Rico 2031, a mild midterm and +2 in the exposed seats | 59.1 | 54.3 | 74% | 74% | 47% |
+| D.C. statehood, seated January 2031 | 56.1 | 50.9 | 52% | 52% | 25% |
+| D.C. and Puerto Rico, seated January 2031 | 57.3 | 52.1 | 53% | 53% | 26% |
+| D.C. and Puerto Rico, seated January 2033 | 54.1 | 52.1 | 53% | 52% | 26% |
+| D.C. and Puerto Rico 2031, a mild midterm and +2 in the exposed seats | 59.1 | 54.3 | 65% | 65% | 37% |

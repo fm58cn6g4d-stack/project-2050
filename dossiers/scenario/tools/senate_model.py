@@ -341,7 +341,7 @@ def simulate_2028(env, n=20000, seed=2028, prm=None, overrides=None, ak_branch=N
     ceff = {k: (candidate_effect(k, prm, races) if not races[k].get('alaska') else 0.0) for k in keys}
     regions = sorted(REGION)
     out = dict(seats=[], dpres=[], wins={k: 0 for k in keys}, tip51={}, tip50={}, tip60={}, ak={},
-               ind=[], env=[], draws=[], dwon=[])
+               ind=[], env=[], draws=[], dwon=[], reg=[])
     for _ in range(n):
         e = env + (rng.gauss(0, env_sd) if env_sd else 0.0)
         nat = rng.gauss(0, prm['sd_nat'])
@@ -385,6 +385,7 @@ def simulate_2028(env, n=20000, seed=2028, prm=None, overrides=None, ak_branch=N
         out['ind'].append(ind)
         out['env'].append(pres)
         out['draws'].append(draws)
+        out['reg'].append(reg)          # per-run regional errors, shared with presidential_2028.py (#87)
         out['dwon'].append(frozenset(k for k in keys if margins[k][1]))
         order = sorted(keys, key=lambda k: -margins[k][0])
         for need, tab in ((51 - base, out['tip51']), (50 - base, out['tip50']), (60 - base, out['tip60'])):
@@ -501,7 +502,8 @@ def simulate_chain(env28, n=20000, seed=2030, prm=None, env_sd=3.0, midterm=None
     prm2 = dict(prm, shrink=c2_shrink) if c2_shrink is not None else prm
     c2 = {s: (lean(s, prm), class_effect(s, p, m, 2026, prm2, vs_ind=s in CLASS2_VS_IND)) for s, (p, m) in CLASS2.items()}
     half = prm['inc'] * 0.5
-    res = dict(s28=[], s30=[], s32=[], dpres28=[], dpres32=[], e30=[], e32=[], kept=0, w32=[], h32=[])
+    res = dict(s28=[], s30=[], s32=[], dpres28=[], dpres32=[], e30=[], e32=[], kept=0, w32=[], h32=[],
+               add30=[], add32=[])   # seats added to the chamber by statehood, by Congress
     for i in range(n):
         s28 = o28['seats'][i]
         e28 = o28['env'][i]
@@ -535,6 +537,10 @@ def simulate_chain(env28, n=20000, seed=2030, prm=None, env_sd=3.0, midterm=None
         new = 0
         if statehood:
             new = 2 + (_pick_split(rng) if statehood == 'DC+PR' else 0)
+        add30 = add32 = 0
+        if statehood:
+            add32 = 2 if statehood == 'DC' else 4
+            add30 = add32 if statehood_from == 2031 else 0
         if statehood and statehood_from == 2031:
             s30 += new
         # 2032 presidential year: environment drifts from 2028
@@ -570,6 +576,8 @@ def simulate_chain(env28, n=20000, seed=2030, prm=None, env_sd=3.0, midterm=None
         res['e30'].append(e30)
         res['e32'].append(e32)
         res['w32'].append(frozenset(won32))
+        res['add30'].append(add30)
+        res['add32'].append(add32)
         res['h32'].append(frozenset(s for s, (p, _) in CLASS2.items() if (holder2.get(s, p)) == 'D'))
     res['kept'] = len(res['s28'])
     return res
@@ -600,18 +608,32 @@ def drivers_2032(res, cond28='D'):
     return sorted(rows, key=lambda r: -r[2])
 
 
+def need(t, added):
+    """Seats needed for threshold t (stated for a 100-seat Senate) in a chamber enlarged by `added` seats.
+
+    50 and 51 (control with and without the Vice President) and 55 shift by half the added seats; 60 becomes
+    three-fifths of the chamber, rounded up (cloture). Review finding on #84: statehood enlarges the chamber."""
+    if t == 60:
+        return math.ceil(0.6 * (100 + added) - 1e-9)
+    return t + added / 2
+
+
 def chain_table(res, cond28=None):
+    """Seat thresholds are chamber-adjusted: with statehood, 50 means control-equivalent (51 of 102, 52 of 104)."""
     idx = [i for i in range(res['kept']) if cond28 is None or res['dpres28'][i] == (cond28 == 'D')]
     m = len(idx)
+    add = {'s28': [0] * res['kept'], 's30': res.get('add30') or [0] * res['kept'],
+           's32': res.get('add32') or [0] * res['kept']}
     rows = []
     for key, label in (('s28', 'January 2029'), ('s30', 'January 2031'), ('s32', 'January 2033')):
-        v = [res[key][i] for i in idx]
-        rows.append((label, st.mean(v), sum(x >= 50 for x in v) / m, sum(x >= 51 for x in v) / m,
-                     sum(x >= 55 for x in v) / m, sum(x >= 60 for x in v) / m))
-    # "through each Congress": the seat floor held continuously from 2029
+        v = [(res[key][i], add[key][i]) for i in idx]
+        rows.append((label, st.mean(x for x, _ in v)) +
+                    tuple(sum(x >= need(t, a) for x, a in v) / m for t in (50, 51, 55, 60)))
+    # "through each Congress": the threshold held continuously from 2029
     thru = []
     for upto in (('s28',), ('s28', 's30'), ('s28', 's30', 's32')):
-        thru.append(tuple(sum(all(res[k][i] >= t for k in upto) for i in idx) / m for t in (50, 55, 60)))
+        thru.append(tuple(sum(all(res[k][i] >= need(t, add[k][i]) for k in upto) for i in idx) / m
+                          for t in (50, 55, 60)))
     return m, rows, thru
 
 
@@ -781,20 +803,24 @@ def report(n=20000):
 # (KS) would keep the 60-vote threshold and Cooper (NC) has praised it as a firewall against "bad
 # legislation" [SRC-0596]; Talarico [SRC-0597] and Stratton favor ending it. Every Democrat then serving
 # except Manchin and Sinema voted on January 19, 2022 to change the rule for voting-rights bills [SRC-0598];
-# 35 of them sit in the 2027 caucus, and get 0.02-0.10. Others are judgment calls by state and stated
-# profile; unknown red-state freshmen get 0.25-0.40.
-WHIP_C1 = {'AZ': 0.10, 'CA': 0.05, 'CT': 0.03, 'DE': 0.05, 'HI': 0.03, 'ME': 0.05, 'MD': 0.05, 'MA': 0.02,
+# 35 of them sit in the 2027 caucus, and get 0.02-0.10. Review on #84: the playbook's sourced count
+# (`2027-28-playbook.md`; Roll Call and the Washington Examiner [SRC-0868] [SRC-0869]) puts Jackson,
+# El-Sayed and Flanagan for abolition (0.03); Turek, Andrews and Pappas for reform such as a talking
+# filibuster (0.10-0.15: graduated cloture is reform, but ends at majority cloture); Brown "open" (0.10);
+# King among those who would keep it (0.60: he voted for the 2022 voting-rights change, so not certain);
+# Peltola and Colom unknown (0.35-0.40). Others are judgment calls by state and profile.
+WHIP_C1 = {'AZ': 0.10, 'CA': 0.05, 'CT': 0.03, 'DE': 0.05, 'HI': 0.03, 'ME': 0.60, 'MD': 0.05, 'MA': 0.02,
            'MI': 0.15, 'MN': 0.10, 'NV': 0.05, 'NJ': 0.05, 'NM': 0.03, 'NY': 0.03, 'RI': 0.03, 'VT': 0.02,
            'VA': 0.05, 'WA': 0.03, 'WI': 0.03}
-WHIP_C2 = {'TX': 0.02, 'NC': 0.60, 'SC': 0.35, 'KS': 0.85, 'IA': 0.30, 'ME': 0.25, 'GA': 0.03, 'MI': 0.05,
-           'NH': 0.15, 'MN': 0.03, 'IL': 0.02, 'VA': 0.08, 'NJ': 0.03, 'NM': 0.03, 'CO': 0.10, 'OR': 0.02,
+WHIP_C2 = {'TX': 0.02, 'NC': 0.60, 'SC': 0.15, 'KS': 0.85, 'IA': 0.15, 'ME': 0.03, 'GA': 0.03, 'MI': 0.03,
+           'NH': 0.10, 'MN': 0.03, 'IL': 0.02, 'VA': 0.08, 'NJ': 0.03, 'NM': 0.03, 'CO': 0.10, 'OR': 0.02,
            'DE': 0.10, 'MA': 0.02, 'RI': 0.05, 'MS': 0.40, 'AK': 0.35}
 WHIP_C3 = {'AZ': 0.10, 'CA': 0.03, 'CO': 0.05, 'CT': 0.03, 'GA': 0.03, 'HI': 0.02, 'IL': 0.03, 'MD': 0.03,
-           'NV': 0.08, 'NH': 0.10, 'NY': 0.05, 'OH': 0.05, 'OR': 0.03, 'PA': 0.68, 'VT': 0.05, 'WA': 0.03,
+           'NV': 0.08, 'NH': 0.10, 'NY': 0.05, 'OH': 0.10, 'OR': 0.03, 'PA': 0.68, 'VT': 0.05, 'WA': 0.03,
            # pickups of Republican-held seats: new senators from Trump-won states
            'NC': 0.25, 'WI': 0.20, 'IA': 0.30, 'FL': 0.30, 'AK': 0.40, 'KS': 0.40, 'TN*': 0.40}
 WHIP_OTHER = 0.35   # any other pickup
-WHIP_NAMED = {('C3', 'PA'), ('C2', 'KS'), ('C2', 'NC')}   # positions on record; not scaled in the sensitivity
+WHIP_NAMED = {('C3', 'PA'), ('C2', 'KS'), ('C2', 'NC'), ('C1', 'ME')}   # 'keep' on record; not scaled in the sensitivity
 EXPOSED32 = {s: 2.0 for s in ('MS', 'SC', 'KS', 'IA', 'AK', 'TX')}
 
 
@@ -808,12 +834,12 @@ def whip_d2f(o, seed=11, scale=1.0):
         for s, p in WHIP_C1.items():
             if s == 'MN' and not dr['MN-2027']:
                 continue
-            opp += rng.random() < min(1.0, p * scale)
+            opp += rng.random() < (p if ('C1', s) in WHIP_NAMED else min(1.0, p * scale))
         for s, p in WHIP_C2.items():
             if (s == 'AK' and not dr['AK-2026']) or (s == 'MS' and not dr['MS-2026']):
                 continue
             opp += rng.random() < (p if ('C2', s) in WHIP_NAMED else min(1.0, p * scale))
-        for k in o['dwon'][i]:
+        for k in sorted(o['dwon'][i]):   # sorted: frozenset order varies with the hash seed
             p = WHIP_C3.get(k, WHIP_OTHER)
             opp += rng.random() < (p if ('C3', k) in WHIP_NAMED else min(1.0, p * scale))
         out.append((o['seats'][i], opp, o['dpres'][i]))
@@ -865,7 +891,7 @@ def report_round4(n=20000):
                                                     fmt_pct(s['p_opp_ge5']), fmt_pct(s['p_pass'])))
     o = simulate_2028(3.0, n=n // 2, seed=31, env_sd=4.5)
     w('\nSensitivity (evidence-weighted, Democratic president): unnamed senators\' probabilities halved, P(votes) %s '
-      '(mean opponents %.1f); doubled, %s (%.1f). Fetterman, Hamilton and Cooper are held at their stated positions.\n' % (
+      '(mean opponents %.1f); doubled, %s (%.1f). Fetterman, Hamilton, Cooper and King are held at their stated positions.\n' % (
           fmt_pct(d2f_summary(o, 'D', scale=0.5)['p_pass']), d2f_summary(o, 'D', scale=0.5)['opp'],
           fmt_pct(d2f_summary(o, 'D', scale=2.0)['p_pass']), d2f_summary(o, 'D', scale=2.0)['opp']))
     w('\n## 11. Round 4: what drives the 2032 drop, and what would change it\n')
@@ -876,8 +902,10 @@ def report_round4(n=20000):
     w('| --- | --- | --- | --- |')
     for s, ph, share, el in drivers_2032(base)[:10]:
         w('| %s | %s | %s | %.2f |' % (s, fmt_pct(ph), fmt_pct(share), el))
-    w('\nLevers (same runs; held 50+ means in every Congress through 2033-34):\n')
-    w('| Lever | Mean seats Jan 2031 | Mean seats Jan 2033 | P(≥50) Jan 2033 | Held 50+ through 2033-34 | Held 55+ through 2033-34 |')
+    w('\nLevers (same runs; held 50+ means in every Congress through 2033-34). With statehood the chamber has 102 '
+      'or 104 seats, so the thresholds are chamber-adjusted: "50+" means control with a Democratic Vice President '
+      '(51 of 102, 52 of 104) and "55+" shifts the same way; mean seats are raw.\n')
+    w('| Lever | Mean seats Jan 2031 | Mean seats Jan 2033 | P(control-equivalent 50+) Jan 2033 | Held 50+ through 2033-34 | Held 55+ through 2033-34 |')
     w('| --- | --- | --- | --- | --- | --- |')
     levers = [
         ('Base', {}),
