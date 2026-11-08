@@ -783,7 +783,7 @@ OMB historical tables used for budget authority, outlays by function and discret
 
 - **Value:** FY2027 Budget vintage; actuals to FY2025 (source vintage)
 - **How much it matters:** medium: the only source of budget-authority and function detail; actuals only, so second Trump administration projections do not enter
-- **Where:** on branch claude/budget-b2-data-layer (PR #105): models/tools/budget/build_data.py:31 (LAST_ACTUAL); models/data/budget/omb-*.csv
+- **Where:** models/tools/budget/build_data.py:31 (LAST_ACTUAL); models/data/budget/omb-*.csv
 - **Source:** OMB, Budget of the U.S. Government FY2027, Historical Tables
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
 - **Notes:** Excluding the administration's estimates follows DEC-2026-10-30-01.
@@ -794,7 +794,7 @@ Default deflator for real-dollar views: the GDP price index (CPI-U also availabl
 
 - **Value:** gdp_price_index (index)
 - **How much it matters:** medium: decides what "real" means on every real-dollar view
-- **Where:** on branch claude/budget-b2-data-layer (PR #105): models/tools/budget/data.py:28 (DEFAULT_INDEX), 217-225
+- **Where:** models/tools/budget/data.py:28 (DEFAULT_INDEX), 217-225
 - **Source:** CBO, The Budget and Economic Outlook: 2026 to 2036 (Feb 2026, publication 62105), via github.com/US-CBO/cbo-data (gdp_price_index); CBO, The Long-Term Budget Outlook: 2026 to 2056 (Feb 2026), via github.com/US-CBO/cbo-data
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
 - **Notes:** Matches how CBO inflates discretionary funding (2 U.S.C. 907(c)(5)) and so how NSC-1A's "flat real" reads; CPI-U matches what households feel (CONVENTIONS.md, section 7).
@@ -805,7 +805,7 @@ Default base year for real dollars: FY2026 dollars.
 
 - **Value:** FY2026 (year)
 - **How much it matters:** low: rescales every real figure by one constant; no comparison changes
-- **Where:** on branch claude/budget-b2-data-layer (PR #105): models/tools/budget/data.py:29 (DEFAULT_BASE_YEAR)
+- **Where:** models/tools/budget/data.py:29 (DEFAULT_BASE_YEAR)
 - **Source:** Project choice
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
 
@@ -815,7 +815,7 @@ Deflators after FY2036: the FY2036 level grown by CBO's long-term calendar-year 
 
 - **Value:** CPI-U averages 2.27% a year and the GDP price index 2.00% a year over 2037-56; native bases CPI-U 1982-84=100, GDP price index CY2017=100 (% a year)
 - **How much it matters:** low: calendar-to-fiscal-year mismatch of one quarter in the growth rates
-- **Where:** on branch claude/budget-b2-data-layer (PR #105): models/tools/budget/build_data.py:261 (deflators); models/data/budget/deflators.csv
+- **Where:** models/tools/budget/build_data.py:261 (deflators); models/data/budget/deflators.csv
 - **Source:** CBO, The Long-Term Budget Outlook: 2026 to 2056 (Feb 2026), via github.com/US-CBO/cbo-data (cpiu_index_level, gdp_price_index_level)
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
 
@@ -825,7 +825,7 @@ Discretionary budget authority is CBO's timing-adjusted series, the only one CBO
 
 - **Value:** timing-adjusted BA (series)
 - **How much it matters:** low: shifts advance appropriations into the year they become available
-- **Where:** on branch claude/budget-b2-data-layer (PR #105): models/data/budget/categories.csv (ba_* rows)
+- **Where:** models/data/budget/categories.csv (ba_* rows)
 - **Source:** CBO, The Budget and Economic Outlook: 2026 to 2036 (Feb 2026, publication 62105), via github.com/US-CBO/cbo-data
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
 
@@ -835,7 +835,7 @@ Spend-out of discretionary budget authority: rough least-squares shares over fou
 
 - **Value:** defense 44/34/24/-4% (sum 0.98); nondefense 27/37/31/15% (sum 1.10) (share of BA by year)
 - **How much it matters:** medium: B3 would use it to turn budget authority into outlays
-- **Where:** on branch claude/budget-b2-data-layer (PR #105): models/tools/budget/build_data.py:299 (spendout); models/data/budget/spendout-discretionary.csv
+- **Where:** models/tools/budget/build_data.py:299 (spendout); models/data/budget/spendout-discretionary.csv
 - **Source:** OMB Historical Tables (fit by B2)
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
 - **Notes:** A placeholder until CBO's account-level spending projections are uploaded. Nondefense sums above 1 because transportation obligation limits are not discretionary budget authority.
