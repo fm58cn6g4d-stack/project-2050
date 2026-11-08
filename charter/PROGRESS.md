@@ -41,6 +41,14 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | C. First dossiers | 6. Housing sections 7-9; L2/L3 milestone review | Most capable | Later | Claude Code; reviewer | — |
 | C. First dossiers | 7. Transportation converted as the reference dossier; template fixes | Standard to convert; Most capable for gaps | Later | Claude Code | — |
 
+### Federal budget model
+
+The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Workers report to the strategy session.
+
+| Step | Tier | Status | Owner | Where |
+| --- | --- | --- | --- | --- |
+| B2. Budget data layer and baseline reproduction | Most capable | In progress: `models/data/budget/`, `models/tools/budget/data.py`, `test_data.py` | Claude Code (session_01UQzgBuzP6Vxf1gkL2Syq8d) | Branch `claude/budget-b2-data-layer` |
+
 ## Open PRs
 
 - Stage B step 3b: round 2 scenario files (`claude/scenario-2027-28-r2`).
