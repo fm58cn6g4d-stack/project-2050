@@ -21,9 +21,8 @@ Run from the repo root, after bash models/tools/run-all.sh:  python3 models/tool
      the library's own totals, and every generated output is unchanged (run-all's drift check).
   6. The budget-concept paths behave: discretionary budget authority leads outlays, is never
      negative and adds up to lifetime outlays; budget authority splits into mandatory and
-     discretionary; highway and transit contract authority (MOV-29, MOV-30) is mandatory budget
-     authority equal to the transportation model's top-ups, with discretionary outlays; the
-     spend-out shares are B2's CBO-calibrated ones as stored, and with the zero-budget-authority
+     discretionary; no ledger row is contract authority (Moving America's top-ups are general-fund
+     appropriations); the spend-out shares are B2's CBO-calibrated ones as stored, and with the zero-budget-authority
      accounts carried on their own they rebuild CBO's discretionary outlays within 2%; budget authority equals outlays where the spec says so; receipts are minus the
      deficit effect; views come from data.py.
   7. provisions.md is what provisions_report.py writes from the specs.
@@ -199,14 +198,13 @@ class BudgetConcepts(unittest.TestCase):
     def test_spendout_budget_authority(self):
         """Discretionary budget authority by spend-out: never negative where outlays are not, spends
         out to the same lifetime total as the outlays it covers (FY2026-56 plus the extension), and
-        comes first. For contract-authority rows the outlays it covers are the non-contract share."""
+        comes first."""
         n = 0
         for i, sc in SC.items():
-            if S.get(i, {}).get("budget_authority") not in ("spendout", "contract_authority"):
+            if S.get(i, {}).get("budget_authority") != "spendout":
                 continue
             ba = sc["ba_discretionary"]
-            share = sc.get("contract_authority_share", 0.0)
-            o = {y: (1 - share) * v for y, v in sc["outlays"].items()}
+            o = sc["outlays"]
             self.assertTrue(sc["budget_authority_rough"])
             if all(v >= 0 for v in o.values()):
                 self.assertTrue(all(v >= 0 for v in ba.values()), i)
@@ -286,25 +284,18 @@ class BudgetConcepts(unittest.TestCase):
 
 
 class ContractAuthority(unittest.TestCase):
-    """Highway and transit contract authority: mandatory budget authority, discretionary outlays."""
+    """Highway, transit and airport contract authority: in CBO's baseline, not in the ledger."""
 
-    def test_rows_and_amounts(self):
-        ca = [i for i, s in S.items() if s["kind"] == "contract_authority"]
-        self.assertEqual(sorted(ca), ["MOV-29", "MOV-30"])
-        tu = P.transportation().Model().topups()
-        want = {"MOV-29": {y: tu[y]["hwy"] + tu[y]["tra"] for y in (2032, 2033, 2034, 2035)},
-                "MOV-30": {2036: tu[2036]["hwy"] + tu[2036]["tra"]}}
-        for i in ca:
-            sc = SC[i]
-            self.assertEqual({y: v for y, v in sc["ba_mandatory"].items() if v}, want[i], i)
-            self.assertEqual(sc["category"], "out_disc_nondefense", i)   # outlays stay discretionary
-            self.assertAlmostEqual(sc["contract_authority_share"],
-                                   sum(want[i].values()) / sum(sc["outlays"][y] for y in range(P.W0, P.W1 + 1)), places=12)
-            self.assertTrue(0 < sc["contract_authority_share"] < 1, i)
-        self.assertNotEqual(S["MOV-31"]["kind"], "contract_authority")
+    def test_no_ledger_row_is_contract_authority(self):
+        """Moving America's top-ups are general-fund appropriations in addition to the trust
+        fund's contract authority (Draft 2 sec. 110; decision A-14), so they stay discretionary."""
+        for i in ("MOV-29", "MOV-30", "MOV-31"):
+            self.assertEqual(S[i]["kind"], "discretionary", i)
+            self.assertEqual(S[i]["budget_authority"], "spendout", i)
+        self.assertNotIn("contract_authority", P.KINDS)
 
     def test_spendout_reads_the_cbo_calibrated_file(self):
-        groups = {s["spendout_group"] for s in S.values() if s["budget_authority"] in ("spendout", "contract_authority")}
+        groups = {s["spendout_group"] for s in S.values() if s["budget_authority"] == "spendout"}
         self.assertEqual(groups, {"defense", "nondefense"})
         self.assertEqual(P.SPENDOUT_GROUPS, ("defense", "nondefense"))
 
