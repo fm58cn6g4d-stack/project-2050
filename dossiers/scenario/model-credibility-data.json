@@ -1,0 +1,8488 @@
+{
+"pres": {
+"2000": {
+"AK": -30.95,
+"AL": -7.46,
+"AR": -5.44,
+"AZ": -6.29,
+"CA": 11.8,
+"CO": -8.36,
+"CT": 17.47,
+"DC": 76.2,
+"DE": 13.06,
+"FL": -0.01,
+"GA": -11.69,
+"HI": 18.33,
+"IA": 0.31,
+"ID": -39.53,
+"IL": 12.01,
+"IN": -15.63,
+"KS": -20.8,
+"KY": -15.13,
+"LA": -7.68,
+"M1": 7.93,
+"M2": 1.87,
+"MA": 26.99,
+"MD": 16.3,
+"ME": 5.11,
+"MI": 5.13,
+"MN": 2.4,
+"MO": -3.34,
+"MS": -16.92,
+"MT": -25.07,
+"N1": -21.9,
+"N2": -18.4,
+"N3": -46.41,
+"NC": -12.81,
+"ND": -27.6,
+"NE": -28.99,
+"NH": -1.27,
+"NJ": 15.83,
+"NM": 0.06,
+"NV": -3.55,
+"NY": 24.19,
+"OH": -3.55,
+"OK": -21.88,
+"OR": 0.44,
+"PA": 4.17,
+"RI": 29.08,
+"SC": -15.96,
+"SD": -22.73,
+"TN": -3.86,
+"TX": -21.32,
+"UT": -40.49,
+"VA": -8.04,
+"VT": 9.94,
+"WA": 5.58,
+"WI": 0.22,
+"WV": -6.32,
+"WY": -40.92
+},
+"2004": {
+"AK": -25.55,
+"AL": -25.62,
+"AR": -9.76,
+"AZ": -10.47,
+"CA": 9.95,
+"CO": -4.67,
+"CT": 10.37,
+"DC": 79.84,
+"DE": 7.59,
+"FL": -5.01,
+"GA": -16.6,
+"HI": 8.74,
+"IA": -0.67,
+"ID": -38.12,
+"IL": 10.34,
+"IN": -20.68,
+"KS": -25.38,
+"KY": -19.86,
+"LA": -14.51,
+"M1": 11.94,
+"M2": 5.83,
+"MA": 25.03,
+"MD": 12.98,
+"ME": 9.0,
+"MI": 3.42,
+"MN": 3.48,
+"MO": -7.2,
+"MS": -19.69,
+"MT": -20.5,
+"NC": -12.43,
+"ND": -27.36,
+"NE": -33.22,
+"NH": 1.37,
+"NJ": 6.68,
+"NM": -0.79,
+"NV": -2.59,
+"NY": 18.44,
+"OH": -2.11,
+"OK": -31.14,
+"OR": 4.16,
+"PA": 2.5,
+"RI": 20.75,
+"SC": -17.08,
+"SD": -21.47,
+"TN": -14.27,
+"TX": -22.86,
+"UT": -45.54,
+"VA": -8.2,
+"VT": 20.14,
+"WA": 7.18,
+"WI": 0.38,
+"WV": -12.86,
+"WY": -39.79
+},
+"2008": {
+"AK": -21.54,
+"AL": -21.58,
+"AR": -19.85,
+"AZ": -8.52,
+"CA": 24.06,
+"CO": 8.95,
+"CT": 22.37,
+"DC": 85.92,
+"DE": 25.0,
+"FL": 2.82,
+"GA": -5.21,
+"HI": 45.26,
+"IA": 9.53,
+"ID": -25.43,
+"IL": 25.14,
+"IN": 1.03,
+"KS": -14.96,
+"KY": -16.23,
+"LA": -18.63,
+"M1": 22.82,
+"M2": 11.25,
+"MA": 25.63,
+"MD": 25.44,
+"ME": 17.32,
+"MI": 16.47,
+"MN": 10.24,
+"MO": -0.13,
+"MS": -13.17,
+"MT": -2.26,
+"N1": -9.77,
+"N2": 1.21,
+"N3": -39.01,
+"NC": 0.33,
+"ND": -8.63,
+"NE": -14.93,
+"NH": 9.61,
+"NJ": 15.57,
+"NM": 15.13,
+"NV": 12.49,
+"NY": 28.83,
+"OH": 4.59,
+"OK": -31.29,
+"OR": 16.35,
+"PA": 10.32,
+"RI": 27.81,
+"SC": -8.98,
+"SD": -8.41,
+"TN": -15.07,
+"TX": -11.77,
+"UT": -28.18,
+"VA": 6.3,
+"VT": 37.01,
+"WA": 17.18,
+"WI": 13.9,
+"WV": -13.12,
+"WY": -32.24
+},
+"2012": {
+"AK": -13.99,
+"AL": -22.19,
+"AR": -23.69,
+"AZ": -9.06,
+"CA": 23.12,
+"CO": 5.37,
+"CT": 17.33,
+"DC": 83.63,
+"DE": 18.63,
+"FL": 0.88,
+"GA": -7.82,
+"HI": 42.71,
+"IA": 5.81,
+"ID": -31.91,
+"IL": 16.87,
+"IN": -10.2,
+"KS": -21.72,
+"KY": -22.69,
+"LA": -17.21,
+"M1": 21.39,
+"M2": 8.56,
+"MA": 23.02,
+"MD": 26.08,
+"ME": 15.29,
+"MI": 9.5,
+"MN": 7.69,
+"MO": -9.38,
+"MS": -11.5,
+"MT": -13.65,
+"N1": -16.6,
+"N2": -7.16,
+"N3": -42.42,
+"NC": -2.04,
+"ND": -19.62,
+"NE": -21.78,
+"NH": 5.58,
+"NJ": 17.72,
+"NM": 10.15,
+"NV": 6.68,
+"NY": 29.52,
+"OH": 2.98,
+"OK": -33.54,
+"OR": 12.09,
+"PA": 5.39,
+"RI": 27.37,
+"SC": -10.47,
+"SD": -18.02,
+"TN": -20.4,
+"TX": -15.78,
+"UT": -48.04,
+"VA": 3.87,
+"VT": 35.6,
+"WA": 14.87,
+"WI": 6.84,
+"WV": -26.76,
+"WY": -40.82
+},
+"2016": {
+"AK": -14.73,
+"AL": -27.73,
+"AR": -26.92,
+"AZ": -3.55,
+"CA": 30.11,
+"CO": 4.91,
+"CT": 13.64,
+"DC": 86.78,
+"DE": 11.37,
+"FL": -1.2,
+"GA": -5.13,
+"HI": 32.18,
+"IA": -9.41,
+"ID": -31.77,
+"IL": 17.06,
+"IN": -19.17,
+"KS": -20.6,
+"KY": -29.84,
+"LA": -19.64,
+"M1": 14.81,
+"M2": -10.29,
+"MA": 27.2,
+"MD": 26.42,
+"ME": 2.96,
+"MI": -0.22,
+"MN": 1.52,
+"MO": -18.64,
+"MS": -17.83,
+"MT": -20.42,
+"N1": -20.72,
+"N2": -2.24,
+"N3": -54.18,
+"NC": -3.66,
+"ND": -35.73,
+"NE": -25.05,
+"NH": 0.37,
+"NJ": 14.1,
+"NM": 8.21,
+"NV": 2.42,
+"NY": 23.99,
+"OH": -8.13,
+"OK": -36.39,
+"OR": 10.98,
+"PA": -0.72,
+"RI": 15.53,
+"SC": -14.27,
+"SD": -29.79,
+"TN": -26.01,
+"TX": -9.0,
+"UT": -18.08,
+"VA": 5.32,
+"VT": 26.41,
+"WA": 15.71,
+"WI": -0.76,
+"WV": -42.07,
+"WY": -46.3
+},
+"2020": {
+"AK": -10.06,
+"AL": -25.46,
+"AR": -27.62,
+"AZ": 0.31,
+"CA": 29.16,
+"CO": 13.5,
+"CT": 20.07,
+"DC": 86.75,
+"DE": 18.97,
+"FL": -3.36,
+"GA": 0.24,
+"HI": 29.46,
+"IA": -8.2,
+"ID": -30.77,
+"IL": 16.99,
+"IN": -16.06,
+"KS": -14.65,
+"KY": -25.94,
+"LA": -18.61,
+"M1": 23.09,
+"M2": -7.44,
+"MA": 33.46,
+"MD": 33.21,
+"ME": 9.07,
+"MI": 2.78,
+"MN": 7.11,
+"MO": -15.39,
+"MS": -16.55,
+"MT": -16.37,
+"N1": -14.92,
+"N2": 6.5,
+"N3": -53.02,
+"NC": -1.35,
+"ND": -33.36,
+"NE": -19.06,
+"NH": 7.35,
+"NJ": 15.94,
+"NM": 10.79,
+"NV": 2.39,
+"NY": 22.06,
+"OH": -8.03,
+"OK": -33.09,
+"OR": 16.09,
+"PA": 1.16,
+"RI": 20.77,
+"SC": -11.68,
+"SD": -26.16,
+"TN": -23.21,
+"TX": -5.58,
+"UT": -20.48,
+"VA": 10.11,
+"VT": 35.41,
+"WA": 19.2,
+"WI": 0.63,
+"WV": -38.93,
+"WY": -43.38
+},
+"2024": {
+"AK": -13.14,
+"AL": -30.47,
+"AR": -30.64,
+"AZ": -5.53,
+"CA": 20.13,
+"CO": 10.98,
+"CT": 14.5,
+"DC": 83.81,
+"DE": 14.7,
+"FL": -13.1,
+"GA": -2.19,
+"HI": 23.1,
+"IA": -13.21,
+"ID": -36.49,
+"IL": 10.9,
+"IN": -18.96,
+"KS": -16.12,
+"KY": -30.53,
+"LA": -22.01,
+"M1": 21.83,
+"M2": -9.53,
+"MA": 25.2,
+"MD": 28.54,
+"ME": 6.94,
+"MI": -1.41,
+"MN": 4.24,
+"MO": -18.41,
+"MS": -22.9,
+"MT": -19.93,
+"N1": -12.96,
+"N2": 4.59,
+"N3": -53.6,
+"NC": -3.21,
+"ND": -36.45,
+"NE": -20.46,
+"NH": 2.78,
+"NJ": 5.91,
+"NM": 6.0,
+"NV": -3.1,
+"NY": 13.12,
+"OH": -11.21,
+"OK": -34.26,
+"OR": 14.31,
+"PA": -1.71,
+"PR": 46.72,
+"RI": 13.78,
+"SC": -17.87,
+"SD": -29.19,
+"TN": -29.72,
+"TX": -13.68,
+"UT": -21.58,
+"VA": 5.77,
+"VT": 31.51,
+"WA": 18.22,
+"WI": -0.86,
+"WV": -41.86,
+"WY": -45.76
+}
+},
+"senate": [
+{
+"candidates": [
+"Barry Hess",
+"Jon Kyl",
+"Vance Hansen",
+"William Toel"
+],
+"cycle": 2000,
+"d": null,
+"r": 79.32252790828845,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "Jon Kyl",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brian M. Rees",
+"Diane Beall Templin",
+"Dianne Feinstein",
+"Gail Katherine Lightfoot",
+"Jose Luis Camahort",
+"Medea Susan Benjamin",
+"Tom Campbell"
+],
+"cycle": 2000,
+"d": 55.84281724250367,
+"r": 36.58693920182296,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Dianne Feinstein",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Joseph I. Lieberman",
+"Phil Giordano",
+"Wildey Judd Moore",
+"William Kozak"
+],
+"cycle": 2000,
+"d": 63.214112217171106,
+"r": 34.17145785621627,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Joseph I. Lieberman",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"J. Burke Morrison",
+"Mark E. Dankof",
+"Robert E. Mattson",
+"Thomas R. Carper",
+"William V. Roth Jr."
+],
+"cycle": 2000,
+"d": 55.525959271299385,
+"r": 43.69848895847923,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Thomas R. Carper",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Andy Martin",
+"Bill McCollum",
+"Bill Nelson",
+"Darrell L. McCormick",
+"Huey Joel Deckard",
+"Joe Simonetta",
+"Willie Logan"
+],
+"cycle": 2000,
+"d": 51.04361118856235,
+"r": 46.19211638711083,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Bill Nelson",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ben Ballenger",
+"Jeff Gates",
+"Mack Mattingly",
+"Paul Robert MacGregor",
+"Winnie Walsh",
+"Zell Bryan Miller"
+],
+"cycle": 2000,
+"d": 58.50059381316638,
+"r": 38.10330817475203,
+"seat": "Class III",
+"special": true,
+"stage": "jungle primary",
+"state": "GA",
+"winner": "Zell Bryan Miller",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Daniel K. Akaka",
+"David Porter",
+"John Stanley Carroll",
+"Lauri A. Clegg",
+"Lloyd Jeffrey Mallan"
+],
+"cycle": 2000,
+"d": 72.68468822966064,
+"r": 24.506760256117214,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Daniel K. Akaka",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Clyde Paul Hager",
+"David L. Johnson",
+"Richard G. Lugar"
+],
+"cycle": 2000,
+"d": 31.851115672179258,
+"r": 66.56433009557577,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Richard G. Lugar",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Carla A. Howell",
+"Dale E. Friedgen",
+"Edward M. Kennedy",
+"Jack E. Robinson",
+"Philip F. Lawler",
+"Philip Hyde"
+],
+"cycle": 2000,
+"d": 69.11082126374265,
+"r": 12.228978283149342,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "Edward M. Kennedy",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Corrogan R. Vaughn",
+"Paul H. Rappaport",
+"Paul S. Sarbanes"
+],
+"cycle": 2000,
+"d": 63.17809150761878,
+"r": 36.73423055547851,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Paul S. Sarbanes",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Mark W. Lawrence",
+"Olympia J. Snowe"
+],
+"cycle": 2000,
+"d": 31.058701596542292,
+"r": 68.94129840345771,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Olympia J. Snowe",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Debbie Stabenow",
+"John S. Mangopoulos",
+"Mark A. Forton",
+"Matthew Abel",
+"Michael R. Corliss",
+"Spencer Abraham",
+"William B. Quarton"
+],
+"cycle": 2000,
+"d": 49.474756369543286,
+"r": 47.86093478753792,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Debbie Stabenow",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"David Daniels",
+"David H. Swan",
+"Erik D. Pakieser",
+"Jim Gibson",
+"Mark Dayton",
+"Rebecca Ellis",
+"Rod Grams"
+],
+"cycle": 2000,
+"d": 48.83419025261209,
+"r": 43.29263655601111,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Mark Dayton",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Charles Dockins",
+"Evaline Taylor",
+"Grant Samuel Stauffer",
+"Hugh Foley",
+"John Ashcroft",
+"Mel Carnahan"
+],
+"cycle": 2000,
+"d": 50.46659321320502,
+"r": 48.3934101912867,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Mel Carnahan",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jim Giles",
+"Lewis Napper",
+"Shawn R. O'Hara",
+"Trent Lott",
+"Troy Brown"
+],
+"cycle": 2000,
+"d": 31.594014549200118,
+"r": 65.8798926513664,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Trent Lott",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brian Schweitzer",
+"Conrad Burns",
+"Gary Lee"
+],
+"cycle": 2000,
+"d": 47.23749456391019,
+"r": 50.55429894485193,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Conrad Burns",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Duane Sand",
+"Kent Conrad"
+],
+"cycle": 2000,
+"d": 61.37254424617182,
+"r": 38.62745575382818,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "Kent Conrad",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ben Nelson",
+"Don Stenberg"
+],
+"cycle": 2000,
+"d": 50.999205604101974,
+"r": 48.815916805084136,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Ben Nelson",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob Franks",
+"Bruce Afran",
+"Dennis Arthur Breen",
+"Emerson Ellett",
+"George Gostigian",
+"Gregory Pason",
+"J. M. Carter",
+"Jon Stevens Corzine",
+"Lorraine LaNeve",
+"Nancy Rosenstock",
+"Pat DiNizio"
+],
+"cycle": 2000,
+"d": 50.112943691965484,
+"r": 47.096358942083036,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Jon Stevens Corzine",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bill Redmond",
+"Jeff Bingaman",
+"Orlin Gentry Cole"
+],
+"cycle": 2000,
+"d": 61.70109545634968,
+"r": 38.253953175941355,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Jeff Bingaman",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bill Grutzmacher",
+"Ed Bernstein",
+"Ernie Berghof",
+"J.J. Johnson",
+"John Ensign",
+"Kathryn Rusco"
+],
+"cycle": 2000,
+"d": 39.69346105789254,
+"r": 55.09154518950437,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "John Ensign",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Hillary Rodham Clinton",
+"Jacob J. Perasso",
+"Jeffrey E. Graham",
+"John Clifton",
+"John O. Adefope",
+"Louis Wein",
+"Mark J. Dunau",
+"Rick Lazio"
+],
+"cycle": 2000,
+"d": 51.18660934970693,
+"r": 39.14829484535312,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Hillary Rodham Clinton",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"John Eastman",
+"John R. McAlister",
+"Mike DeWine",
+"Ted Celeste"
+],
+"cycle": 2000,
+"d": 35.853840169519835,
+"r": 59.91528953531524,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "Mike DeWine",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John J. Featherman",
+"Lester B. Searer",
+"Rick Santorum",
+"Robert E. Domske",
+"Ron Klink"
+],
+"cycle": 2000,
+"d": 45.50908573306335,
+"r": 52.41607597364035,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "Rick Santorum",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Christopher F. Young",
+"Kenneth P. Proulx",
+"Lincoln Chafee",
+"Robert A. Weygand"
+],
+"cycle": 2000,
+"d": 41.1452065015472,
+"r": 56.87652835164161,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Lincoln Chafee",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bill Frist",
+"Charles F. Johnson",
+"David Jarrod Ownby",
+"Jeff Clark",
+"Joel Kinstle",
+"Robert O. Watson",
+"Tom Burrell"
+],
+"cycle": 2000,
+"d": 32.20718723766769,
+"r": 65.09569312246677,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Bill Frist",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Douglas S. Sandage",
+"Gene Kelly",
+"Kay Bailey Hutchison",
+"Mary J. Ruwart"
+],
+"cycle": 2000,
+"d": 32.30752442100816,
+"r": 65.07621932736053,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "Kay Bailey Hutchison",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Carlton E. Bowen",
+"Jim Dexter",
+"Orrin G. Hatch",
+"Scott N. Howell"
+],
+"cycle": 2000,
+"d": 31.51458222901271,
+"r": 65.58404269693284,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "Orrin G. Hatch",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Charles S. Robb",
+"George F. Allen"
+],
+"cycle": 2000,
+"d": 47.68026057452799,
+"r": 52.255434552685664,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "George F. Allen",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Billy Greer",
+"Charles W. Russell",
+"Ed Flanagan",
+"Hugh Douglas",
+"James M. Jeffords",
+"Jerry E. Levy",
+"Rick Hubbard"
+],
+"cycle": 2000,
+"d": 25.42530329289428,
+"r": 65.55736568457539,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "James M. Jeffords",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jeff E. Jared",
+"Maria Cantwell",
+"Slade Gorton"
+],
+"cycle": 2000,
+"d": 48.73028493377087,
+"r": 48.6397259422462,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Maria Cantwell",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Eugene A. Hem",
+"Herb Kohl",
+"John Gillespie",
+"Robert Raymond",
+"Tim C. Peterson"
+],
+"cycle": 2000,
+"d": 61.5427921056123,
+"r": 37.035955124301054,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Herb Kohl",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"David T. Gallaher",
+"Francis Joseph Whelan",
+"Robert C. Byrd"
+],
+"cycle": 2000,
+"d": 77.75192757967578,
+"r": 20.155697731645116,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "Robert C. Byrd",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Craig Thomas",
+"Margaret Dawson",
+"Mel Logan"
+],
+"cycle": 2000,
+"d": 22.03838827290215,
+"r": 73.772693872011,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "Craig Thomas",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Frank J. Vondersaar",
+"Jim Dore",
+"Jim Sykes",
+"Leonard J. Karpinski",
+"Ted Stevens"
+],
+"cycle": 2002,
+"d": 10.513269555822747,
+"r": 78.1701430637601,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AK",
+"winner": "Ted Stevens",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jeff Allen",
+"Jeff Sessions",
+"Susan Parker"
+],
+"cycle": 2002,
+"d": 39.827704333185764,
+"r": 58.577053013880764,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AL",
+"winner": "Jeff Sessions",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Mark L. Pryor",
+"Tim Hutchinson"
+],
+"cycle": 2002,
+"d": 53.895620186514215,
+"r": 46.10437981348578,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AR",
+"winner": "Mark L. Pryor",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Douglas Campbell",
+"Gary Cooper",
+"John J. Heckman",
+"Rick Stanley",
+"Tom Strickland",
+"Wayne A. Allard"
+],
+"cycle": 2002,
+"d": 45.76924217665361,
+"r": 50.69572242285404,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "CO",
+"winner": "Wayne A. Allard",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Joe Biden",
+"Maurice J. Barros",
+"Raymond J. Clatworthy",
+"Raymond T. Buranello",
+"Robert E. Mattson"
+],
+"cycle": 2002,
+"d": 58.21990926074193,
+"r": 40.80382585638403,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Joe Biden",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Claude Thomas",
+"Max Cleland",
+"Saxby Chambliss"
+],
+"cycle": 2002,
+"d": 45.895853719524084,
+"r": 52.73429270664952,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "GA",
+"winner": "Saxby Chambliss",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Greg Ganske",
+"Richard J. Moore",
+"Timothy A. Harthan",
+"Tom Harkin"
+],
+"cycle": 2002,
+"d": 54.17765070986975,
+"r": 43.77899958458569,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "IA",
+"winner": "Tom Harkin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Alan Blinken",
+"Donovan Bramwell",
+"Larry E. Craig"
+],
+"cycle": 2002,
+"d": 32.54851374637738,
+"r": 65.16189198715439,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "ID",
+"winner": "Larry E. Craig",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jim Durkin",
+"Richard J. Durbin",
+"Steven Burgauer"
+],
+"cycle": 2002,
+"d": 60.334267222774926,
+"r": 38.02006452240144,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "IL",
+"winner": "Richard J. Durbin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"George H. Cook",
+"Pat Roberts",
+"Steven A. Rosile"
+],
+"cycle": 2002,
+"d": null,
+"r": 82.52236596511553,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "KS",
+"winner": "Pat Roberts",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Lois Combs Weinberg",
+"Mitch McConnell"
+],
+"cycle": 2002,
+"d": 35.32479517162801,
+"r": 64.67520482837199,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "KY",
+"winner": "Mitch McConnell",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Mary L. Landrieu",
+"Suzanne Haik Terrell"
+],
+"cycle": 2002,
+"d": 51.70048312307334,
+"r": 48.29951687692666,
+"seat": "Class II",
+"special": false,
+"stage": "runoff",
+"state": "LA",
+"winner": "Mary L. Landrieu",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"John Kerry",
+"Michael E. Cloud",
+"Randall Forsberg"
+],
+"cycle": 2002,
+"d": 72.33145415869289,
+"r": null,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "John Kerry",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Chellie Pingree",
+"Susan M. Collins"
+],
+"cycle": 2002,
+"d": 41.56435247445528,
+"r": 58.43564752554471,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Susan M. Collins",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Andrew Rocky Raczkowski",
+"Carl Levin",
+"Doug Dern",
+"Eric J. Borregard",
+"John S. Mangopoulos"
+],
+"cycle": 2002,
+"d": 60.60850283147566,
+"r": 37.88546720067543,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Carl Levin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ed McGaa",
+"Jim R.C. Moore",
+"Michelle Harbeck",
+"Miro Drago Kovatchevitch",
+"Norm Coleman",
+"Paul Wellstone",
+"Raymond Tricomo",
+"Richard Franson",
+"Walter F. Mondale"
+],
+"cycle": 2002,
+"d": 47.33556014954057,
+"r": 49.52886027430555,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Norm Coleman",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Daniel Romano",
+"Jean Carnahan",
+"Jim Talent",
+"Tamara A. Millay"
+],
+"cycle": 2002,
+"d": 48.66682289281111,
+"r": 49.798787827142874,
+"seat": "Class I",
+"special": true,
+"stage": "general",
+"state": "MO",
+"winner": "Jim Talent",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Shawn R. O'Hara",
+"Thad Cochran"
+],
+"cycle": 2002,
+"d": null,
+"r": 84.57941775906232,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Thad Cochran",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bob Kelleher",
+"Max Baucus",
+"Mike Taylor",
+"Stan Jones"
+],
+"cycle": 2002,
+"d": 62.735003996484316,
+"r": 31.730248027022974,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Max Baucus",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Elizabeth H. Dole",
+"Erskine Bowles",
+"Paul G. DeLaney",
+"Sean Newton Haugh"
+],
+"cycle": 2002,
+"d": 44.9550249422932,
+"r": 53.56358000515618,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NC",
+"winner": "Elizabeth H. Dole",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Charlie Matulka",
+"Chuck Hagel",
+"John J. Graziano",
+"Phil Chase"
+],
+"cycle": 2002,
+"d": 14.637132796215043,
+"r": 82.76216793657866,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Chuck Hagel",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jeanne Shaheen",
+"John E. Sununu",
+"Ken Blevens",
+"Robert C. Smith"
+],
+"cycle": 2002,
+"d": 46.40164603531372,
+"r": 50.81888020396524,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NH",
+"winner": "John E. Sununu",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Douglas R. Forrester",
+"Elizabeth Macron",
+"Frank R. Lautenberg",
+"Gregory Pason",
+"John Glick",
+"Norman E. Wahner"
+],
+"cycle": 2002,
+"d": 53.87630620788373,
+"r": 43.94761157320539,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Frank R. Lautenberg",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Gloria Tristani",
+"Pete V. Domenici"
+],
+"cycle": 2002,
+"d": 34.95723063164519,
+"r": 65.0427693683548,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Pete V. Domenici",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David Walters",
+"James Germalic",
+"James M. Inhofe"
+],
+"cycle": 2002,
+"d": 36.30992592476218,
+"r": 57.30216491363126,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "OK",
+"winner": "James M. Inhofe",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bill Bradbury",
+"Dan Fitzgerald",
+"Gordon H. Smith",
+"Lon Mabon"
+],
+"cycle": 2002,
+"d": 39.606193394837995,
+"r": 56.208585558477964,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "OR",
+"winner": "Gordon H. Smith",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jack Reed",
+"Robert G. Tingle"
+],
+"cycle": 2002,
+"d": 78.42648849441564,
+"r": 21.573511505584364,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Jack Reed",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Alex Sanders",
+"Lindsey Graham",
+"Ted Adams",
+"Victor Kocher"
+],
+"cycle": 2002,
+"d": 44.18838493007602,
+"r": 54.402345790053964,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "SC",
+"winner": "Lindsey Graham",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John R. Thune",
+"Kurt Evans",
+"Tim Johnson"
+],
+"cycle": 2002,
+"d": 49.62385296636158,
+"r": 49.466223803781325,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "SD",
+"winner": "Tim Johnson",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Basil Marceaux",
+"Bob Clement",
+"Connie L. Gammon",
+"Gary Keplinger",
+"John Hooker",
+"Karl Stanley Davidson",
+"Lamar Alexander",
+"Wesley M. Baker"
+],
+"cycle": 2002,
+"d": 44.33863928613179,
+"r": 54.27914215017729,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Lamar Alexander",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"James Wellington Wright",
+"John Cornyn",
+"Ron Kirk",
+"Roy H. Williams",
+"Scott Lanier Jameson"
+],
+"cycle": 2002,
+"d": 43.32638016912671,
+"r": 55.29987514432837,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "John Cornyn",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jacob George Hornberger",
+"John W. Warner",
+"Nancy B. Spannaus"
+],
+"cycle": 2002,
+"d": null,
+"r": 82.57525402471563,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "John W. Warner",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jay Wolfe",
+"John D. Rockefeller, IV"
+],
+"cycle": 2002,
+"d": 63.11135463784696,
+"r": 36.88864536215304,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "John D. Rockefeller, IV",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Joyce  Ann Jansa Corcoran",
+"Michael B. Enzi"
+],
+"cycle": 2002,
+"d": 27.046049759930163,
+"r": 72.95395024006984,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "Michael B. Enzi",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jerry Sanders",
+"Jim Sykes",
+"Lisa Murkowski",
+"Marc J. Millican",
+"Scott A. Kohlhaas",
+"Ted Gianoutsos",
+"Tony Knowles"
+],
+"cycle": 2004,
+"d": 45.545627037283296,
+"r": 48.577915443620974,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AK",
+"winner": "Lisa Murkowski",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Richard C. Shelby",
+"Wayne Sowell"
+],
+"cycle": 2004,
+"d": 32.354358136140846,
+"r": 67.54515607378963,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AL",
+"winner": "Richard C. Shelby",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Blanche Lincoln",
+"Glen Schwarz",
+"Jim Holt",
+"Vernon E. Mason"
+],
+"cycle": 2004,
+"d": 55.897778320852765,
+"r": 44.06950889450993,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AR",
+"winner": "Blanche Lincoln",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ernest T. Hancock",
+"John McCain",
+"Stuart Starky"
+],
+"cycle": 2004,
+"d": 20.620469119024182,
+"r": 76.73903501952665,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "John McCain",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Barbara Boxer",
+"Bill Jones",
+"Don J. Grundmann",
+"James P. Gray",
+"Marsha J. Feinland"
+],
+"cycle": 2004,
+"d": 57.70810388362684,
+"r": 37.79814565228844,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Barbara Boxer",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Douglas Campbell",
+"Finn Gotaas",
+"John R. Harris",
+"Ken Salazar",
+"Pete Coors",
+"Richard Randall",
+"Victor A. Good"
+],
+"cycle": 2004,
+"d": 51.30260330860861,
+"r": 46.53290767326921,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CO",
+"winner": "Ken Salazar",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher J. Dodd",
+"Jack C. Orchulli",
+"Leonard H. Rasch",
+"Timothy A. Knibbs"
+],
+"cycle": 2004,
+"d": 66.35289873280897,
+"r": 32.12891461235353,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Christopher J. Dodd",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Betty Castor",
+"Dennis F. Bradley",
+"Mark K. Stufft",
+"Mel Martinez",
+"Nancy Travis",
+"Piotr Blass",
+"Rachele Fruit"
+],
+"cycle": 2004,
+"d": 48.32102584505243,
+"r": 49.433598918100316,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Mel Martinez",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Allen Buckley",
+"Denise Majette",
+"Johnny Isakson",
+"Matthew Jamison"
+],
+"cycle": 2004,
+"d": 39.9781929790955,
+"r": 57.87683938526803,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "GA",
+"winner": "Johnny Isakson",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cam Cavasso",
+"Daniel K. Inouye",
+"Jim Brewer",
+"Lloyd Jeffrey Mallan"
+],
+"cycle": 2004,
+"d": 75.51011563824946,
+"r": 20.987752409431153,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Daniel K. Inouye",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Art Small",
+"Christy Ann Welty",
+"Chuck Grassley",
+"Daryl A. Northrop",
+"Edwin B. Fruit"
+],
+"cycle": 2004,
+"d": 27.877041267471952,
+"r": 70.18356872638971,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IA",
+"winner": "Chuck Grassley",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Mike Crapo",
+"Scott F. McClure"
+],
+"cycle": 2004,
+"d": null,
+"r": 99.17925434384004,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "ID",
+"winner": "Mike Crapo",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Alan Keyes",
+"Albert J. Franzen",
+"Barack Obama",
+"Jerry Kohn"
+],
+"cycle": 2004,
+"d": 69.96872520188583,
+"r": 27.048226983460143,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IL",
+"winner": "Barack Obama",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Albert Barger",
+"Evan Bayh",
+"Marvin Bailey Scott"
+],
+"cycle": 2004,
+"d": 61.648779173991954,
+"r": 37.22513449080051,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Evan Bayh",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"George H. Cook",
+"Lee Jones",
+"Sam Brownback",
+"Steven A. Rosile"
+],
+"cycle": 2004,
+"d": 27.487241169791197,
+"r": 69.1627798218281,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "KS",
+"winner": "Sam Brownback",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Daniel Mongiardo",
+"Jim Bunning"
+],
+"cycle": 2004,
+"d": 49.34317736067021,
+"r": 50.65682263932979,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "KY",
+"winner": "Jim Bunning",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Arthur A. Morrell",
+"Chris John",
+"David Vitter",
+"John Kennedy",
+"RA Galan",
+"Richard M. Fontanesi",
+"Sam Houston Melton"
+],
+"cycle": 2004,
+"d": 29.336232235386806,
+"r": 51.02734982056821,
+"seat": "Class III",
+"special": false,
+"stage": "jungle primary",
+"state": "LA",
+"winner": "David Vitter",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Barbara A. Mikulski",
+"Dennard A. Gayle-El",
+"E. J. Pipkin",
+"Maria Allwine",
+"Ray Bly",
+"Robert Gemmill",
+"Thomas M. Trump"
+],
+"cycle": 2004,
+"d": 64.80343300468446,
+"r": 33.72430102358769,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Barbara A. Mikulski",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher S. Bond",
+"Don Griffin",
+"Kevin J. Tull",
+"Nancy Farmer"
+],
+"cycle": 2004,
+"d": 42.797078926190565,
+"r": 56.09251692837945,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Christopher S. Bond",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Erskine Bowles",
+"Richard Burr",
+"Thomas Aaron Bailey",
+"Walker F. Rucker"
+],
+"cycle": 2004,
+"d": 47.018676402227825,
+"r": 51.595843646549824,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NC",
+"winner": "Richard Burr",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Byron L. Dorgan",
+"Mike Liffrig"
+],
+"cycle": 2004,
+"d": 68.27992635888457,
+"r": 31.72007364111543,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "Byron L. Dorgan",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Doris R. Haddock",
+"Judd Gregg",
+"Ken Blevens"
+],
+"cycle": 2004,
+"d": 33.716895505306766,
+"r": 66.17809540912452,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NH",
+"winner": "Judd Gregg",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David K. Schumann",
+"Gary A. Marinch",
+"Harry Reid",
+"Richard Ziser",
+"Thomas L. Hurst"
+],
+"cycle": 2004,
+"d": 61.08190917305708,
+"r": 35.137790901504566,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "Harry Reid",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Abraham Hirschfeld",
+"Charles E. Schumer",
+"David E. McReynolds",
+"Donald Silberger",
+"Howard Mills",
+"Marilyn F. O'Grady",
+"Martin Koppel"
+],
+"cycle": 2004,
+"d": 58.87505575458477,
+"r": 21.81939730535843,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Charles E. Schumer",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Eric D. Fingerhut",
+"George V. Voinovich",
+"Helen Meyers"
+],
+"cycle": 2004,
+"d": 36.145134111451846,
+"r": 63.84941049496086,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "George V. Voinovich",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brad R. Carson",
+"Sheila Bilyeu",
+"Tom Coburn"
+],
+"cycle": 2004,
+"d": 41.24488715454167,
+"r": 52.765325404362315,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OK",
+"winner": "Tom Coburn",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Al King",
+"Dan Fitzgerald",
+"David M. Brownlow",
+"Ron Wyden",
+"Teresa C. Keane"
+],
+"cycle": 2004,
+"d": 63.39209794726348,
+"r": 31.746033528965768,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OR",
+"winner": "Ron Wyden",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Arlen Specter",
+"Betsy Summers",
+"James N. Clymer",
+"Joe Hoeffel"
+],
+"cycle": 2004,
+"d": 41.987442223163626,
+"r": 52.61782247322186,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "Arlen Specter",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Efia Nwangaza",
+"Inez Tenenbaum",
+"Jim DeMint",
+"Patrick Tyndall",
+"Rebekah Sutherland",
+"Tee Ferguson"
+],
+"cycle": 2004,
+"d": 44.10059722480483,
+"r": 53.66614889235741,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "SC",
+"winner": "Jim DeMint",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John R. Thune",
+"Tom Daschle"
+],
+"cycle": 2004,
+"d": 49.423806456230764,
+"r": 50.576193543769236,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "SD",
+"winner": "John R. Thune",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Gary R. Van Horn",
+"Joe LaBonte",
+"R. Paul Van Dam",
+"Robert F. Bennett"
+],
+"cycle": 2004,
+"d": 28.4027218703865,
+"r": 68.73117581378617,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "Robert F. Bennett",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Benjamin L. Mitchell",
+"Craig Barclay Hill",
+"Cris Ericson",
+"Jack McMullen",
+"Keith M. Stern",
+"Patrick J. Leahy"
+],
+"cycle": 2004,
+"d": 70.62706700346345,
+"r": 24.54298065154553,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "Patrick J. Leahy",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"George R. Nethercutt",
+"J. Mills",
+"Mark B. Wilson",
+"Patty Murray"
+],
+"cycle": 2004,
+"d": 54.980485345649384,
+"r": 42.73618833974125,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Patty Murray",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Arif Khan",
+"Eugene A. Hem",
+"Russ Feingold",
+"Tim Michels"
+],
+"cycle": 2004,
+"d": 55.35048307598323,
+"r": 44.1117412601708,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Russ Feingold",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jim Pederson",
+"Jon Kyl",
+"Richard I. Mack"
+],
+"cycle": 2006,
+"d": 43.49939939035173,
+"r": 53.340817484093996,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "Jon Kyl",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Dianne Feinstein",
+"Don J. Grundmann",
+"Marsha J. Feinland",
+"Michael S. Metti",
+"Richard Dick Mountjoy",
+"Todd Chretien"
+],
+"cycle": 2006,
+"d": 59.43105149508118,
+"r": 35.015283072855325,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Dianne Feinstein",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Alan Schlesinger",
+"Carl E. Vassar",
+"Edward Lamont",
+"Joseph I. Lieberman",
+"Ralph A. Ferrucci",
+"Timothy A. Knibbs"
+],
+"cycle": 2006,
+"d": 39.72974425812296,
+"r": 9.622859821797586,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Joseph I. Lieberman",
+"winner_party": "OTH"
+},
+{
+"candidates": [
+"Jan Ting",
+"Thomas R. Carper",
+"William E. Morris"
+],
+"cycle": 2006,
+"d": 70.20026998995769,
+"r": 28.700426386579526,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Thomas R. Carper",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Belinda Noah",
+"Bernard Senter",
+"Bill Nelson",
+"Brian Patrick Moore",
+"Floyd Ray Frazier",
+"Katherine Harris",
+"Lawrence Sidney Scott",
+"Roy Tanner"
+],
+"cycle": 2006,
+"d": 60.30098044574211,
+"r": 38.09563048890443,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Bill Nelson",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Cynthia Henry Thielen",
+"Daniel K. Akaka",
+"Lloyd Jeffrey Mallan"
+],
+"cycle": 2006,
+"d": 61.34895957904808,
+"r": 36.77991611296166,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Daniel K. Akaka",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jack H. Baldwin",
+"Mark Pool",
+"Richard G. Lugar",
+"Steve Osborn"
+],
+"cycle": 2006,
+"d": null,
+"r": 87.35690036096938,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Richard G. Lugar",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Edward M. Kennedy",
+"Kenneth G. Chase"
+],
+"cycle": 2006,
+"d": 66.88272533408205,
+"r": 29.482203459701807,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "Edward M. Kennedy",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Benjamin L. Cardin",
+"Kevin Zeese",
+"Lih Y. Young",
+"Michael S. Steele"
+],
+"cycle": 2006,
+"d": 54.205595408331405,
+"r": 44.195427757182344,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Benjamin L. Cardin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jean M. Hay Bright",
+"Olympia J. Snowe",
+"William H. Slavick"
+],
+"cycle": 2006,
+"d": 20.75310752703952,
+"r": 74.40380974743547,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Olympia J. Snowe",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bret McAtee",
+"David Sole",
+"Debbie Stabenow",
+"Leonard C. Schwartz",
+"Mike Bouchard",
+"W. Dennis FitzSimons"
+],
+"cycle": 2006,
+"d": 56.909978514034655,
+"r": 41.25763000437549,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Debbie Stabenow",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Amy Klobuchar",
+"Ben Powers",
+"Mark R. Kennedy",
+"Michael James Cavlan",
+"Robert Fitzgerald"
+],
+"cycle": 2006,
+"d": 58.05634900025968,
+"r": 37.936427374235734,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Amy Klobuchar",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Claire McCaskill",
+"Frank Gilmour",
+"Jim Talent",
+"Lydia Lewis"
+],
+"cycle": 2006,
+"d": 49.57835692395297,
+"r": 47.30845179540692,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Claire McCaskill",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Erik R. Fleming",
+"Harold M. Taylor",
+"Trent Lott"
+],
+"cycle": 2006,
+"d": 34.86539176096418,
+"r": 63.57597790876398,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Trent Lott",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Conrad Burns",
+"Jon Tester",
+"Stan Jones"
+],
+"cycle": 2006,
+"d": 49.16175692795907,
+"r": 48.28550694333403,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Jon Tester",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Dwight Grotberg",
+"James Germalic",
+"Kent Conrad",
+"Roland Riemers"
+],
+"cycle": 2006,
+"d": 68.82632293080054,
+"r": 29.528493894165535,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "Kent Conrad",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ben Nelson",
+"Pete Ricketts"
+],
+"cycle": 2006,
+"d": 63.882792293302906,
+"r": 36.1172077066971,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Ben Nelson",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Angela L. Lariscy",
+"Bob Menendez",
+"Daryl Mikell Brooks",
+"Gregory Pason",
+"J. M. Carter",
+"Len T. Flynn",
+"N. Leonard Smith",
+"Robert Edward Forchion",
+"Thomas H. Kean Jr."
+],
+"cycle": 2006,
+"d": 57.20435801633765,
+"r": 41.18541182469869,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Bob Menendez",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Allen W. McCulloch MD",
+"Jeff Bingaman",
+"Orlin Gentry Cole"
+],
+"cycle": 2006,
+"d": 70.60513830453854,
+"r": 29.33058812997941,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Jeff Bingaman",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Brendan J. Trainor",
+"David K. Schumann",
+"Jack Carter",
+"John Ensign"
+],
+"cycle": 2006,
+"d": 40.98995488969604,
+"r": 55.358135990057875,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "John Ensign",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Hillary Rodham Clinton",
+"Howie Hawkins",
+"Jeffrey T. Russell",
+"John Spencer",
+"Roger Calero",
+"William Van Auken"
+],
+"cycle": 2006,
+"d": 57.41634316406815,
+"r": 25.802955857850602,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Hillary Rodham Clinton",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Mike DeWine",
+"Richard Austing Duncan",
+"Sherrod Brown"
+],
+"cycle": 2006,
+"d": 56.16413169069943,
+"r": 43.815217618472765,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "Sherrod Brown",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Rick Santorum",
+"Robert P. Casey Jr."
+],
+"cycle": 2006,
+"d": 58.6365789333756,
+"r": 41.28302495219972,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "Robert P. Casey Jr.",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Lincoln Chafee",
+"Sheldon Whitehouse"
+],
+"cycle": 2006,
+"d": 53.518635403760584,
+"r": 46.48136459623941,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Sheldon Whitehouse",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob Corker",
+"Christopher J. Lugo",
+"David Gatchell",
+"Eduardo Bryan Choate",
+"Emory S. Heyward",
+"Gary Keplinger",
+"Gloria D. Reagon Price",
+"Harold E. Ford Jr.",
+"James Anthony Gray",
+"John Hooker",
+"Mary Taylor Shelby"
+],
+"cycle": 2006,
+"d": 47.989223944003776,
+"r": 50.71241400560071,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Bob Corker",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Barbara Ann Radnofsky",
+"Kay Bailey Hutchison",
+"Scott Lanier Jameson"
+],
+"cycle": 2006,
+"d": 36.044576366682634,
+"r": 61.69170106680406,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "Kay Bailey Hutchison",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Dave Starr Seely",
+"Julian Hatch",
+"Orrin G. Hatch",
+"Pete Ashdown",
+"Roger I. Price",
+"Scott N. Bradley"
+],
+"cycle": 2006,
+"d": 31.064924061535017,
+"r": 62.36091952413295,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "Orrin G. Hatch",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"George F. Allen",
+"Glenda Gail Parker",
+"Jim Webb"
+],
+"cycle": 2006,
+"d": 49.59431667893581,
+"r": 49.20076188226261,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "Jim Webb",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bernie Sanders",
+"Craig Barclay Hill",
+"Cris Ericson",
+"Pete Diamondstone",
+"Peter D. Moss",
+"Rich Tarrant"
+],
+"cycle": 2006,
+"d": null,
+"r": 32.361985984246566,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "Bernie Sanders",
+"winner_party": "IND"
+},
+{
+"candidates": [
+"Aaron Dixon",
+"Bruce M. Guthrie",
+"Maria Cantwell",
+"Mike McGavick",
+"Robin Adair"
+],
+"cycle": 2006,
+"d": 56.852698089103505,
+"r": 39.9334080069721,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Maria Cantwell",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ben J. Glatzel",
+"Herb Kohl",
+"Rae S. Vogeler",
+"Robert Gerald Lorge"
+],
+"cycle": 2006,
+"d": 67.30655283152902,
+"r": 29.476681677054216,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Herb Kohl",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"John Raese",
+"Robert C. Byrd"
+],
+"cycle": 2006,
+"d": 77.04902160126258,
+"r": 22.950978398737426,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "Robert C. Byrd",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Craig Thomas",
+"Dale Groutage"
+],
+"cycle": 2006,
+"d": 29.860305691326317,
+"r": 69.98902327893298,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "Craig Thomas",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Fredrick David Haase",
+"Mark Begich",
+"Robert Bird",
+"Ted Gianoutsos",
+"Ted Stevens"
+],
+"cycle": 2008,
+"d": 47.767080129546805,
+"r": 46.522914614302394,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AK",
+"winner": "Mark Begich",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jeff Sessions",
+"Vivian Davis Figures"
+],
+"cycle": 2008,
+"d": 36.52044883217139,
+"r": 63.36223194839702,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AL",
+"winner": "Jeff Sessions",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Mark L. Pryor",
+"Rebekah J. Kennedy"
+],
+"cycle": 2008,
+"d": 79.53296947677005,
+"r": null,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AR",
+"winner": "Mark L. Pryor",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob Schaffer",
+"Bruce Edward Lohmiller",
+"Buddy Moore",
+"Douglas Campbell",
+"Gary Cooper",
+"Mark Udall",
+"Robert A. Kinsey"
+],
+"cycle": 2008,
+"d": 52.795630164593646,
+"r": 42.49211171112287,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "CO",
+"winner": "Mark Udall",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christine O'Donnell",
+"Joe Biden"
+],
+"cycle": 2008,
+"d": 64.68651258119125,
+"r": 35.31348741880874,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Joe Biden",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Allen Buckley",
+"Eleanor Garcia",
+"Jim Martin",
+"Saxby Chambliss",
+"William Salamone"
+],
+"cycle": 2008,
+"d": 46.83277881190731,
+"r": 49.756281504123265,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "GA",
+"winner": "Saxby Chambliss",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jim Martin",
+"Saxby Chambliss"
+],
+"cycle": 2008,
+"d": 42.56041752028573,
+"r": 57.43958247971427,
+"seat": "Class II",
+"special": false,
+"stage": "runoff",
+"state": "GA",
+"winner": "Saxby Chambliss",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Christopher Reed",
+"Tom Harkin"
+],
+"cycle": 2008,
+"d": 62.655780288744964,
+"r": 37.26124778597368,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "IA",
+"winner": "Tom Harkin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"James E. Risch",
+"Kent A. Marmon",
+"Kevin Volkmann",
+"Larry LaRocco",
+"Marvin Richardson",
+"Rex Rammell"
+],
+"cycle": 2008,
+"d": 34.105121126585814,
+"r": 57.6543937467043,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "ID",
+"winner": "James E. Risch",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Chad Koppie",
+"Kathleen J. Cummings",
+"Larry A. Stafford",
+"Patricia Elaine Beard",
+"Richard J. Durbin",
+"Steve Sauerberg"
+],
+"cycle": 2008,
+"d": 67.84095113514665,
+"r": 28.530095589322396,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "IL",
+"winner": "Richard J. Durbin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jim Slattery",
+"Joseph L. Martin",
+"Pat Roberts",
+"Randall L. Hodgkinson"
+],
+"cycle": 2008,
+"d": 36.45846583353294,
+"r": 60.05839645161024,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "KS",
+"winner": "Pat Roberts",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bruce Lunsford",
+"Mitch McConnell"
+],
+"cycle": 2008,
+"d": 47.03438042981507,
+"r": 52.96561957018493,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "KY",
+"winner": "Mitch McConnell",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jay Patel",
+"John Kennedy",
+"Mary L. Landrieu",
+"Richard M. Fontanesi",
+"Robert Stewart"
+],
+"cycle": 2008,
+"d": 52.109646130338184,
+"r": 45.72334114039315,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "LA",
+"winner": "Mary L. Landrieu",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jeffrey K. Beatty",
+"John Kerry",
+"Robert Jospeh Underwood"
+],
+"cycle": 2008,
+"d": 63.55066637232738,
+"r": 29.84355437246918,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "John Kerry",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Susan M. Collins",
+"Thomas H. Allen"
+],
+"cycle": 2008,
+"d": 38.58343801333462,
+"r": 61.3309774581395,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Susan M. Collins",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Carl Levin",
+"Doug Dern",
+"Harley G. Mikkelson",
+"Jacob W. Hoogendyk Jr.",
+"Michael N. Nikitin",
+"Scott Avery Boman"
+],
+"cycle": 2008,
+"d": 62.664964464115556,
+"r": 33.846125289257564,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Carl Levin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Al Franken",
+"Anthony Keith Price",
+"Charles A. Aldrich",
+"Dean Barkley",
+"James J. Niemackl",
+"Michael James Cavlan",
+"Norm Coleman"
+],
+"cycle": 2008,
+"d": 41.99368620668877,
+"r": 41.98288155819654,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Al Franken",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Roger F. Wicker",
+"Ronnie Musgrove"
+],
+"cycle": 2008,
+"d": null,
+"r": 54.959697556762386,
+"seat": "Class I",
+"special": true,
+"stage": "general",
+"state": "MS",
+"winner": "Roger F. Wicker",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Erik R. Fleming",
+"Thad Cochran"
+],
+"cycle": 2008,
+"d": 38.56495373793329,
+"r": 61.435046262066706,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Thad Cochran",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bob Kelleher",
+"Max Baucus"
+],
+"cycle": 2008,
+"d": 72.91597754041594,
+"r": 27.084022459584055,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Max Baucus",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher Scott Cole",
+"Elizabeth H. Dole",
+"Kay R. Hagan"
+],
+"cycle": 2008,
+"d": 52.652780801363306,
+"r": 44.183596794921314,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NC",
+"winner": "Kay R. Hagan",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Kelly Renee Rosberg",
+"Mike Johanns",
+"Scott Kleeb",
+"Steven R. Larrick"
+],
+"cycle": 2008,
+"d": 40.05698343619205,
+"r": 57.52021107593459,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Mike Johanns",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jeanne Shaheen",
+"John E. Sununu",
+"Ken Blevens"
+],
+"cycle": 2008,
+"d": 51.58962387033724,
+"r": 45.251710236374606,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NH",
+"winner": "Jeanne Shaheen",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Daryl Mikell Brooks",
+"Dick Zimmer",
+"Frank R. Lautenberg",
+"J. M. Carter",
+"Jason M. Scheurer",
+"Jeffrey Harlan Boss",
+"Sara J. Lobman"
+],
+"cycle": 2008,
+"d": 56.0301167714063,
+"r": 41.95400070927179,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Frank R. Lautenberg",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Stevan Pearce",
+"Tom Udall"
+],
+"cycle": 2008,
+"d": 61.32799125842288,
+"r": 38.67200874157712,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Tom Udall",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Andrew Rice",
+"James M. Inhofe",
+"Stephen P. Wallace"
+],
+"cycle": 2008,
+"d": 39.18388439723526,
+"r": 56.67985081885539,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "OK",
+"winner": "James M. Inhofe",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David M. Brownlow",
+"Gordon H. Smith",
+"Jeff Merkley"
+],
+"cycle": 2008,
+"d": 48.9046700884411,
+"r": 45.55344712091175,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "OR",
+"winner": "Jeff Merkley",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jack Reed",
+"Robert G. Tingle"
+],
+"cycle": 2008,
+"d": 73.07092786888234,
+"r": 26.474663409387162,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Jack Reed",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob Conley",
+"Lindsey Graham"
+],
+"cycle": 2008,
+"d": 42.2468688399412,
+"r": 57.524642906951954,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "SC",
+"winner": "Lindsey Graham",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Joel D. Dykstra",
+"Tim Johnson"
+],
+"cycle": 2008,
+"d": 62.491692344873414,
+"r": 37.50830765512658,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "SD",
+"winner": "Tim Johnson",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher G. Fenner",
+"Christopher J. Lugo",
+"Daniel Towers Lewis",
+"David Gatchell",
+"Ed Lawhorn",
+"Edward L. Buck",
+"Lamar Alexander",
+"Robert D. Tuke"
+],
+"cycle": 2008,
+"d": 31.644013305369782,
+"r": 65.14422055733249,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Lamar Alexander",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John Cornyn",
+"Rick Noriega",
+"Yvonne Adams Schick"
+],
+"cycle": 2008,
+"d": 42.83787754792516,
+"r": 54.82087821462764,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "John Cornyn",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bill Redpath",
+"Glenda Gail Parker",
+"James S. Gilmore III",
+"Mark R. Warner"
+],
+"cycle": 2008,
+"d": 65.03255021417431,
+"r": 33.728543455455416,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "Mark R. Warner",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Chad Shaffer",
+"Jay Wolfe",
+"John D. Rockefeller, IV",
+"John Richard Bartlett"
+],
+"cycle": 2008,
+"d": 63.727025749386314,
+"r": 36.25603011784004,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "John D. Rockefeller, IV",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"John Barrasso",
+"Nicholas H. Carter"
+],
+"cycle": 2008,
+"d": 26.527700975324375,
+"r": 73.35489144808021,
+"seat": "Class I",
+"special": true,
+"stage": "general",
+"state": "WY",
+"winner": "John Barrasso",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Christopher Rothfuss",
+"Michael B. Enzi"
+],
+"cycle": 2008,
+"d": 24.257639650164435,
+"r": 75.63473710321429,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "Michael B. Enzi",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Fredrick David Haase",
+"Joe Miller",
+"Lisa Murkowski",
+"Robert Timothy Carter",
+"Scott T. McAdams",
+"Ted Gianoutsos"
+],
+"cycle": 2010,
+"d": 23.50070253578236,
+"r": 35.55300720539485,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AK",
+"winner": "Lisa Murkowski",
+"winner_party": "W"
+},
+{
+"candidates": [
+"Richard C. Shelby",
+"William G. Barnes"
+],
+"cycle": 2010,
+"d": 34.71015463490719,
+"r": 65.17547302286975,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AL",
+"winner": "Richard C. Shelby",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Blanche Lincoln",
+"John Boozman",
+"John Laney Gray",
+"Stephan Hercher",
+"Trevor Drown"
+],
+"cycle": 2010,
+"d": 36.9451136408802,
+"r": 57.902935674658984,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AR",
+"winner": "John Boozman",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"'Ray J' Raymond Caplette",
+"David F. Nolan",
+"Ian Gilyeat",
+"Jerry Joslyn",
+"John McCain",
+"Loyd Ellis",
+"Rodney Britz Glassman",
+"Santos Chavez",
+"Sydney Dudikoff"
+],
+"cycle": 2010,
+"d": 34.65124636812519,
+"r": 58.86007712100319,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "John McCain",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Barbara Boxer",
+"Carly Fiorina",
+"Constant G. Vlakancic",
+"Duane Roberts",
+"Edward C. Noonan",
+"Gail Katherine Lightfoot",
+"Hans J. Kugler",
+"James Harris",
+"Jerry Leon Carroll",
+"Marsha J. Feinland"
+],
+"cycle": 2010,
+"d": 52.183575062798994,
+"r": 42.17298523223628,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Barbara Boxer",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bruce Edward Lohmiller",
+"Charley Miller",
+"Jason Napolitano",
+"Jorge H. Moromisato",
+"Ken Buck",
+"Maclyn Stringer",
+"Michael Bennet",
+"Michele M. Newman",
+"Robert A. Kinsey",
+"Robert Rank"
+],
+"cycle": 2010,
+"d": 48.050371102632425,
+"r": 46.42202217926452,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CO",
+"winner": "Michael Bennet",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Brian Hill",
+"Carl E. Vassar",
+"David Olszta",
+"Jay J. Giles",
+"Jeffery Russell",
+"John M. Traceski",
+"John Mertens",
+"Linda McMahon",
+"Matthew Coleman",
+"Richard Blumenthal",
+"Todd Vachon",
+"Warren Bruce Mosler"
+],
+"cycle": 2010,
+"d": 52.484270866305614,
+"r": 43.216938466675046,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Richard Blumenthal",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Christine O'Donnell",
+"Christopher A. Coons",
+"Glenn A. Miller",
+"James W. Rash",
+"Maurice F. Bourgeois",
+"Samtra Devard"
+],
+"cycle": 2010,
+"d": 56.607308996037766,
+"r": 40.029993298677304,
+"seat": "Class II",
+"special": true,
+"stage": "general",
+"state": "DE",
+"winner": "Christopher A. Coons",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Alexander Andrew Snitker",
+"Belinda Gail Quarterman-Noah",
+"Bernie DeCastro",
+"Bobbie Bean",
+"Bruce Ray Riggs",
+"Carol Ann Joyce LaRosa",
+"Charlie Crist",
+"George Drake",
+"Howard Knepper",
+"Kendrick B. Meek",
+"Lewis J. Armstrong",
+"Marco Rubio",
+"Piotr Blass",
+"Richard Lock",
+"Rick Tyler",
+"Robert Monroe",
+"Sue Askeland"
+],
+"cycle": 2010,
+"d": 20.19801497143098,
+"r": 48.89468068080721,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Marco Rubio",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brian Russell Brown",
+"Chuck Donovan",
+"Johnny Isakson",
+"Michael Thurmond",
+"Raymond Beckworth",
+"Steve Davis"
+],
+"cycle": 2010,
+"d": 38.99864514659576,
+"r": 58.30738031149888,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "GA",
+"winner": "Johnny Isakson",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cam Cavasso",
+"Daniel K. Inouye",
+"Jeff S. Jarrett",
+"Jim Brewer",
+"Lloyd Jeffrey Mallan"
+],
+"cycle": 2010,
+"d": 74.80861237563515,
+"r": 21.571146005078486,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Daniel K. Inouye",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Chuck Grassley",
+"John Heiderscheit",
+"Roxanne Conlin"
+],
+"cycle": 2010,
+"d": 33.30331710665079,
+"r": 64.35254999045753,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IA",
+"winner": "Chuck Grassley",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Frederick R. Reinisch",
+"Mike Crapo",
+"Randy Lynn Bergquist",
+"Tom Sullivan"
+],
+"cycle": 2010,
+"d": 24.927591039530174,
+"r": 71.17500500522769,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "ID",
+"winner": "Mike Crapo",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Alexi Giannoulias",
+"Avner Nager",
+"Corey Dabney",
+"Darren Raichart",
+"LeAlan M. Jones",
+"Lowell Martin Seida",
+"Mark Kirk",
+"Mike Labno",
+"Robert L. Zadek",
+"Shon-Tiyon Taiwan Horton",
+"Stan Jagla",
+"Susanne Atanus",
+"Will Boyd"
+],
+"cycle": 2010,
+"d": 46.41626487762227,
+"r": 48.01487283076432,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IL",
+"winner": "Mark Kirk",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Alexi Giannoulias",
+"Avner Nager",
+"Corey Dabney",
+"Darren Raichart",
+"LeAlan M. Jones",
+"Lowell Martin Seida",
+"Mark Kirk",
+"Mike Labno",
+"Robert L. Zadek",
+"Shon-Tiyon Taiwan Horton",
+"Stan Jagla",
+"Susanne Atanus",
+"Will Boyd"
+],
+"cycle": 2010,
+"d": 46.41626487762227,
+"r": 48.01487283076432,
+"seat": "Class III",
+"special": true,
+"stage": "general",
+"state": "IL",
+"winner": "Mark Kirk",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brad Ellsworth",
+"Daniel Coats",
+"Jack Rooney",
+"Jim Miller",
+"Rebecca Sink-Burris"
+],
+"cycle": 2010,
+"d": 39.99900256867229,
+"r": 54.57875436877788,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Daniel Coats",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jerry Moran",
+"Joseph K. Bellis",
+"Lisa Johnston",
+"Michael William Dann"
+],
+"cycle": 2010,
+"d": 26.378549633994357,
+"r": 70.09437836340803,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "KS",
+"winner": "Jerry Moran",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Billy Ray Wilson",
+"Jack Conway",
+"Rand Paul"
+],
+"cycle": 2010,
+"d": 44.248489782434284,
+"r": 55.726585728444,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "KY",
+"winner": "Rand Paul",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Charlie Melancon",
+"David Vitter",
+"Ernest D. Woolon",
+"Michael Karlton Brown",
+"Michael Lane Spears",
+"Milton Gordon",
+"RA Galan",
+"Randall T. Hayes",
+"Sam Houston Melton",
+"Thomas G. LaFargue",
+"William R. McShan",
+"William Robert Lang"
+],
+"cycle": 2010,
+"d": 37.67385457954741,
+"r": 56.5548136987211,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "LA",
+"winner": "David Vitter",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Joseph L. Kennedy",
+"Martha Coakley",
+"Scott Brown"
+],
+"cycle": 2010,
+"d": 47.09533326644713,
+"r": 51.859510552778985,
+"seat": "Class I",
+"special": true,
+"stage": "general",
+"state": "MA",
+"winner": "Scott Brown",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Barbara A. Mikulski",
+"Claud L. Ashbury",
+"Denise L. Whittington",
+"Donald Kaplan",
+"Eric Wargotz",
+"James T. Lynch",
+"Kenniss Henry",
+"Lih Y. Young",
+"Mary Catherine Podlesak",
+"Richard Shawver",
+"Robert J. Evans"
+],
+"cycle": 2010,
+"d": 62.19298331713797,
+"r": 35.753368036129295,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Barbara A. Mikulski",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Charlie L. Bailey",
+"Dale Michael Hoinoski",
+"Frazier Glenn Miller",
+"Jeff Wirick",
+"Jerry Garth Beck",
+"Jonathan Dine",
+"Mark S. Memoly",
+"Richie L. Wolfe",
+"Robin Carnahan",
+"Roy Blunt"
+],
+"cycle": 2010,
+"d": 40.626390568645796,
+"r": 54.22915490979727,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Roy Blunt",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Elaine Marshall",
+"Michael A. Beitler",
+"Richard Burr"
+],
+"cycle": 2010,
+"d": 43.04661628470433,
+"r": 54.81213151940224,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NC",
+"winner": "Richard Burr",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John Hoeven",
+"Keith J. Hanson",
+"Tracy Potter"
+],
+"cycle": 2010,
+"d": 22.20018949080634,
+"r": 76.16901573779839,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "John Hoeven",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Chris Booth",
+"Kelly Ayotte",
+"Ken Blevens",
+"Paul W. Hodes"
+],
+"cycle": 2010,
+"d": 36.846561544720814,
+"r": 60.08620879241714,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NH",
+"winner": "Kelly Ayotte",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Harry Reid",
+"Jeffrey C. Reeves",
+"Jesse Holland",
+"Michael L. Haines",
+"Scott Ashjian",
+"Sharron Angle",
+"Timothy Fasano",
+"Wil Stand"
+],
+"cycle": 2010,
+"d": 50.28874250766561,
+"r": 44.546606339859494,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "Harry Reid",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bruce Blakeman",
+"Cecile Ann Lawrence",
+"John Clifton",
+"Joseph Huff",
+"Joseph J. DioGuardi",
+"Kirsten E. Gillibrand",
+"Vivia M. Morgan"
+],
+"cycle": 2010,
+"d": 59.64484454986564,
+"r": 28.129690486975147,
+"seat": "Class I",
+"special": true,
+"stage": "general",
+"state": "NY",
+"winner": "Kirsten E. Gillibrand",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Charles E. Schumer",
+"Colia Clark",
+"Jay Townsend",
+"Randolph A. Credico"
+],
+"cycle": 2010,
+"d": 63.97868636593681,
+"r": 26.020807745924085,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Charles E. Schumer",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Arthur T. Sullivan",
+"Daniel H. La Botz",
+"Eric W. Deaton",
+"Lee Fisher",
+"Michael L. Pryce",
+"Rob Portman"
+],
+"cycle": 2010,
+"d": 39.40388949379544,
+"r": 56.84629857476794,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "Rob Portman",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jim Rogers",
+"Ronald F. Dwyer",
+"Stephen P. Wallace",
+"Tom Coburn"
+],
+"cycle": 2010,
+"d": 26.13318966407151,
+"r": 70.63670979038511,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OK",
+"winner": "Tom Coburn",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bruce W. Cronk",
+"Jim Huffman",
+"Marc L. Delphine",
+"Richard K. Staggenborg",
+"Ron Wyden"
+],
+"cycle": 2010,
+"d": 57.22403070038015,
+"r": 39.24883611952962,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OR",
+"winner": "Ron Wyden",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Joe Sestak",
+"Patrick J. Toomey"
+],
+"cycle": 2010,
+"d": 48.99150530927598,
+"r": 51.008494690724014,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "Patrick J. Toomey",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Alvin Greene",
+"Jim DeMint",
+"Thomas Clements"
+],
+"cycle": 2010,
+"d": 27.646319288683447,
+"r": 61.478214186597754,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "SC",
+"winner": "Jim DeMint",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John R. Thune"
+],
+"cycle": 2010,
+"d": null,
+"r": 100.0,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "SD",
+"winner": "John R. Thune",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Mike Lee",
+"Samuel Frank Granato",
+"Scott N. Bradley"
+],
+"cycle": 2010,
+"d": 32.76182013909062,
+"r": 61.5831382533363,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "Mike Lee",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cris Ericson",
+"Daniel Freilich",
+"Johenry Nunes",
+"Leonard Wheeler Britton",
+"Patrick J. Leahy",
+"Pete Diamondstone",
+"Stephen J. Cain"
+],
+"cycle": 2010,
+"d": 64.32616996487766,
+"r": 30.91233023497096,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "Patrick J. Leahy",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Dino Rossi",
+"Patty Murray"
+],
+"cycle": 2010,
+"d": 52.364825848813304,
+"r": 47.635174151186696,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Patty Murray",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ernest J. Pagels, Jr.",
+"Michael D. LaForest",
+"Robert Taylor",
+"Ron Johnson",
+"Russ Feingold"
+],
+"cycle": 2010,
+"d": 47.019915434358005,
+"r": 51.85754728321016,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Ron Johnson",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jeff C. Becker",
+"Jesse Johnson",
+"Joe Manchin, III",
+"John Raese"
+],
+"cycle": 2010,
+"d": 53.46901960192321,
+"r": 43.40293764671251,
+"seat": "Class I",
+"special": true,
+"stage": "general",
+"state": "WV",
+"winner": "Joe Manchin, III",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Don Manspeaker",
+"Jeff Flake",
+"Marc Victor",
+"Richard Carmona",
+"Steven Watts"
+],
+"cycle": 2012,
+"d": 46.20361216035146,
+"r": 49.23090706964628,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "Jeff Flake",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Dianne Feinstein",
+"Elizabeth Emken"
+],
+"cycle": 2012,
+"d": 62.5242844721446,
+"r": 37.4757155278554,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Dianne Feinstein",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher S. Murphy",
+"Jeffery Russell",
+"John M. Traceski",
+"Linda McMahon",
+"Matthew Coleman",
+"Michael D. Adams",
+"Michael Vasile",
+"Paul Passarelli"
+],
+"cycle": 2012,
+"d": 52.454152896880736,
+"r": 39.99096419811558,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Christopher S. Murphy",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Alexander Pires",
+"Andrew Richard Groff",
+"Kevin Wade",
+"Thomas R. Carper"
+],
+"cycle": 2012,
+"d": 66.41917288529201,
+"r": 28.95351921642818,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Thomas R. Carper",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bill Nelson",
+"Chris Borgia",
+"Connie Mack",
+"Lawrence Sidney Scott",
+"Lionel Long",
+"Naomi L. Craine",
+"Piotr Blass",
+"Robert Monroe",
+"William G. Gaylor"
+],
+"cycle": 2012,
+"d": 55.23175610681682,
+"r": 42.225760707091354,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Bill Nelson",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Linda Lingle",
+"Mazie K. Hirono"
+],
+"cycle": 2012,
+"d": 62.6015429180711,
+"r": 37.3984570819289,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Mazie K. Hirono",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Amy J. Willis",
+"Andrew Horning",
+"James Johnson",
+"Joe Donnelly",
+"Richard Mourdock"
+],
+"cycle": 2012,
+"d": 50.044138866342045,
+"r": 44.28030601905705,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Joe Donnelly",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Elizabeth Ann Warren",
+"Scott Brown"
+],
+"cycle": 2012,
+"d": 53.273919067796086,
+"r": 45.79014608397222,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "Elizabeth Ann Warren",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Benjamin L. Cardin",
+"Brandy Baker",
+"Daniel J. Bongino",
+"Dean A. Ahmad",
+"Ed Tinus",
+"Lih Y. Young",
+"Mary Catherine Podlesak",
+"Rob Sobhani"
+],
+"cycle": 2012,
+"d": 55.97785840529175,
+"r": 26.32849948010697,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Benjamin L. Cardin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Andrew Ian Dodge",
+"Angus S. King Jr.",
+"Charlie Summers",
+"Cynthia Dill",
+"Danny Francis Dalton",
+"Stephen M. Woods"
+],
+"cycle": 2012,
+"d": 13.260081730062417,
+"r": 30.74497679842535,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Angus S. King Jr.",
+"winner_party": "OTH"
+},
+{
+"candidates": [
+"Amitabh Ghosh",
+"Daniel Holloway",
+"Debbie Stabenow",
+"Harley G. Mikkelson",
+"John D. Litle",
+"Katherine Houston",
+"Pete Hoekstra",
+"Raymond O'Donnell",
+"Richard A. Matkin",
+"Scott Avery Boman"
+],
+"cycle": 2012,
+"d": 58.79807037218365,
+"r": 37.98446480251748,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Debbie Stabenow",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Amy Klobuchar",
+"Kurt Patrick Bills",
+"Michael James Cavlan",
+"Stephen J. Williams",
+"Tim A. Davis"
+],
+"cycle": 2012,
+"d": 65.22898262419866,
+"r": 30.527991806435477,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Amy Klobuchar",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Arnie C. Dienoff",
+"Bernard J. Duraski",
+"Bernard Mowinski",
+"Charlie L. Bailey",
+"Claire McCaskill",
+"Jonathan Dine",
+"Ted Kimzey",
+"Todd Akin",
+"William Dean"
+],
+"cycle": 2012,
+"d": 54.81432375826044,
+"r": 39.113718466515984,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Claire McCaskill",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Albert N. Gore",
+"Roger F. Wicker",
+"Shawn R. O'Hara",
+"Thomas Cramer"
+],
+"cycle": 2012,
+"d": 40.55090015206578,
+"r": 57.15562901105699,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Roger F. Wicker",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Dan Cox",
+"Denny Rehberg",
+"Jon Tester"
+],
+"cycle": 2012,
+"d": 48.578382359597256,
+"r": 44.86036875650632,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Jon Tester",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Heidi Heitkamp",
+"Rick Berg"
+],
+"cycle": 2012,
+"d": 50.23821089604663,
+"r": 49.32397927409511,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "Heidi Heitkamp",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob Kerrey",
+"Deb Fischer"
+],
+"cycle": 2012,
+"d": 42.22556722784984,
+"r": 57.77443277215016,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Deb Fischer",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bob Menendez",
+"Daryl Mikell Brooks",
+"Eugene Martin LaVergne",
+"Gregory Pason",
+"Gwen Diakos",
+"Inder Jit Soni",
+"J. David Dranikoff",
+"Joe Kyrillos",
+"Kenneth R. Kaplan",
+"Kenneth Wolski",
+"Robert D. Turkavage"
+],
+"cycle": 2012,
+"d": 58.86546099402099,
+"r": 39.3743619783993,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Bob Menendez",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Heather A. Wilson",
+"Jon Ross Barrie",
+"Martin Heinrich",
+"Robert L. Anderson"
+],
+"cycle": 2012,
+"d": 51.00806529576833,
+"r": 45.27754181850055,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Martin Heinrich",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"David Lory VanDerBeek",
+"Dean Heller",
+"Shelley Berkley"
+],
+"cycle": 2012,
+"d": 44.706129955251775,
+"r": 45.86627647686672,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "Dean Heller",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Christopher Edes",
+"Colia Clark",
+"John Mangelli",
+"Kirsten E. Gillibrand",
+"Wendy E. Long"
+],
+"cycle": 2012,
+"d": 62.10867000495178,
+"r": 21.28321165585724,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Kirsten E. Gillibrand",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Josh Mandel",
+"Scott Allen Rupert",
+"Sherrod Brown"
+],
+"cycle": 2012,
+"d": 50.70069506101833,
+"r": 44.70001750774176,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "Sherrod Brown",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Rayburn Smith",
+"Robert P. Casey Jr.",
+"Tom Smith"
+],
+"cycle": 2012,
+"d": 53.69002004825656,
+"r": 44.587592684536546,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "Robert P. Casey Jr.",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Barry Hinckley",
+"Sheldon Whitehouse"
+],
+"cycle": 2012,
+"d": 64.81136519611945,
+"r": 34.9655299398119,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Sheldon Whitehouse",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Allen Hoenicke",
+"Angelia Stinnett",
+"Bob Corker",
+"Christopher Schappert",
+"David Gatchell",
+"Gary Gene Davis",
+"Jacob Maurer",
+"James Higdon",
+"Jim Maynard",
+"Kermit E. Steck",
+"Larry Crim",
+"Lee Stewart",
+"Margie Nell Penn",
+"Mark E. Clayton",
+"Martin Pleasant",
+"Mary Wright",
+"Michel Joseph Long",
+"Shaun E. Crowell",
+"Troy Stephen Scoggin"
+],
+"cycle": 2012,
+"d": 30.406590287131856,
+"r": 64.89157549267127,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Bob Corker",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David B. Collins",
+"John Jay Myers",
+"Paul Sadler",
+"Ted Cruz"
+],
+"cycle": 2012,
+"d": 40.6230045638668,
+"r": 56.45565786485696,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "Ted Cruz",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Daniel Geery",
+"JoAnn Secrist",
+"Orrin G. Hatch",
+"Scott N. Howell",
+"Shaun Lynn McCausland",
+"William C. Barron"
+],
+"cycle": 2012,
+"d": 29.980405223552264,
+"r": 65.31009503416921,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "Orrin G. Hatch",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"George F. Allen",
+"Timothy Michael Kaine"
+],
+"cycle": 2012,
+"d": 52.86594904628799,
+"r": 46.960808964082865,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "Timothy Michael Kaine",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bernie Sanders",
+"Cris Ericson",
+"John MacGovern",
+"Laurel LaFramboise",
+"Pete Diamondstone",
+"Peter D. Moss"
+],
+"cycle": 2012,
+"d": null,
+"r": 24.90008949248878,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "Bernie Sanders",
+"winner_party": "IND"
+},
+{
+"candidates": [
+"Maria Cantwell",
+"Michael Baumgartner"
+],
+"cycle": 2012,
+"d": 60.45099118171301,
+"r": 39.54900881828699,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Maria Cantwell",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Diane E. Lorbiecki",
+"Joseph M. Kexel",
+"Nimrod Y.U. Allen",
+"Riley J. Hood",
+"Tammy Baldwin",
+"Tommy Thompson"
+],
+"cycle": 2012,
+"d": 51.40886372781917,
+"r": 45.86033612557407,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Tammy Baldwin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob Henry Baber",
+"Joe Manchin, III",
+"John Raese"
+],
+"cycle": 2012,
+"d": 60.57206733696656,
+"r": 36.47171623230466,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "Joe Manchin, III",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Joel Otto",
+"John Barrasso",
+"Tim Chesnut"
+],
+"cycle": 2012,
+"d": 21.65260432406825,
+"r": 75.65485865507918,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "John Barrasso",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Edward J. Markey",
+"Gabriel E. Gomez",
+"Richard A. Heos"
+],
+"cycle": 2013,
+"d": 54.80000679238234,
+"r": 44.60107489450581,
+"seat": "Class II",
+"special": true,
+"stage": "general",
+"state": "MA",
+"winner": "Edward J. Markey",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Antonio N. Sabas",
+"Cory A. Booker",
+"Edward C. Stackhouse",
+"Eugene Martin LaVergne",
+"Pablo Olivera",
+"Robert DePasquale",
+"Steven M. Lonegan",
+"Stuart David Meissner"
+],
+"cycle": 2013,
+"d": 54.92433595148959,
+"r": 44.02031944323954,
+"seat": "Class II",
+"special": true,
+"stage": "general",
+"state": "NJ",
+"winner": "Cory A. Booker",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Dan Sullivan",
+"Mark Begich",
+"Mark S. Fish",
+"Ted Gianoutsos"
+],
+"cycle": 2014,
+"d": 45.83250708215297,
+"r": 47.9621104815864,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AK",
+"winner": "Dan Sullivan",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jeff Sessions"
+],
+"cycle": 2014,
+"d": null,
+"r": 97.25164712928895,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AL",
+"winner": "Jeff Sessions",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Mark H. Swaney",
+"Mark L. Pryor",
+"Nathan LaFrance",
+"Tom Cotton"
+],
+"cycle": 2014,
+"d": 39.430327844673485,
+"r": 56.4974837906561,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AR",
+"winner": "Tom Cotton",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cory Gardner",
+"Gaylon Kent",
+"John W. Willoughby",
+"Kathleen Rosewater Cunningham",
+"Mark Udall",
+"Raul Acosta",
+"Steve Shogan",
+"William Robert Hammons"
+],
+"cycle": 2014,
+"d": 46.26046883528053,
+"r": 48.20495056975353,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "CO",
+"winner": "Cory Gardner",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Andrew Richard Groff",
+"Christopher A. Coons",
+"Kevin Wade"
+],
+"cycle": 2014,
+"d": 55.826404259137405,
+"r": 42.225194199232604,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Christopher A. Coons",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Amanda Swafford",
+"Anantha Reddy Muscu",
+"Brian Russell Brown",
+"David A. Perdue",
+"Mary H. Schroder",
+"Mary Michelle Nunn"
+],
+"cycle": 2014,
+"d": 45.20635328617243,
+"r": 52.889062837715485,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "GA",
+"winner": "David A. Perdue",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brian Schatz",
+"Cam Cavasso",
+"Michael Kokoski"
+],
+"cycle": 2014,
+"d": 69.76968347023806,
+"r": 27.702996828483723,
+"seat": "Class III",
+"special": true,
+"stage": "general",
+"state": "HI",
+"winner": "Brian Schatz",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob Quast",
+"Bruce L. Braley",
+"Douglas Butzier",
+"Joni K. Ernst",
+"Rick Stewart",
+"Ruth Smith"
+],
+"cycle": 2014,
+"d": 43.76117553332743,
+"r": 52.100115074798616,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "IA",
+"winner": "Joni K. Ernst",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"James E. Risch",
+"Nels Mitchell"
+],
+"cycle": 2014,
+"d": 34.67163803554681,
+"r": 65.32836196445318,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "ID",
+"winner": "James E. Risch",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Hilaire F. Shioura",
+"James D. Oberweis",
+"Richard J. Durbin",
+"Roger K. Davis",
+"Sharon Hansen",
+"Sherry Procarione"
+],
+"cycle": 2014,
+"d": 53.54868393922718,
+"r": 42.69498787157776,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "IL",
+"winner": "Richard J. Durbin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Gregory Orman",
+"Pat Roberts",
+"Randall A. Batson"
+],
+"cycle": 2014,
+"d": null,
+"r": 53.146476931762166,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "KS",
+"winner": "Pat Roberts",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Alison Lundergan Grimes",
+"David Patterson",
+"Gregory D. Welch",
+"Mike Maggard",
+"Mitch McConnell",
+"Robert Edward Ransdell",
+"Shawna Sterling"
+],
+"cycle": 2014,
+"d": 40.72087406363259,
+"r": 56.188103641838936,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "KY",
+"winner": "Mitch McConnell",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bill Cassidy",
+"Mary L. Landrieu"
+],
+"cycle": 2014,
+"d": 44.06523611620389,
+"r": 55.9347638837961,
+"seat": "Class II",
+"special": false,
+"stage": "runoff",
+"state": "LA",
+"winner": "Bill Cassidy",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brian J. Herr",
+"Brian R. Muello",
+"Edward J. Markey"
+],
+"cycle": 2014,
+"d": 61.868648595760526,
+"r": 37.983723522426196,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "Edward J. Markey",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Shenna Bellows",
+"Susan M. Collins"
+],
+"cycle": 2014,
+"d": 31.49754647135563,
+"r": 68.45791916931003,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Susan M. Collins",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Chris Wahmhoff",
+"Gary C. Peters",
+"Jeff Jones",
+"Jim Fulner",
+"Richard A. Matkin",
+"Robert Boensch",
+"Terri Lynn Land"
+],
+"cycle": 2014,
+"d": 54.614383950648524,
+"r": 41.32907250403697,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Gary C. Peters",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Al Franken",
+"Heather Johnson",
+"Mike McFadden",
+"Stephen W. Carlson"
+],
+"cycle": 2014,
+"d": 53.15115405888788,
+"r": 42.90764500930595,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Al Franken",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Shawn R. O'Hara",
+"Thad Cochran",
+"Travis W. Childers"
+],
+"cycle": 2014,
+"d": 37.89443197680492,
+"r": 59.89969265246305,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Thad Cochran",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Amanda G. Curtis",
+"Roger Roots",
+"Steve Daines"
+],
+"cycle": 2014,
+"d": 40.068572788284214,
+"r": 57.786364398392756,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Steve Daines",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Barry Gurney",
+"David Waddell",
+"John W. Rhodes",
+"Kay R. Hagan",
+"Sean Newton Haugh",
+"Thomas Roland Tillis"
+],
+"cycle": 2014,
+"d": 47.256199316635346,
+"r": 48.82064541977257,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NC",
+"winner": "Thomas Roland Tillis",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Ben Sasse",
+"Dave Domina",
+"Jim Jenkins",
+"Todd F. Watson"
+],
+"cycle": 2014,
+"d": 31.485350808847073,
+"r": 64.3368860544438,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Ben Sasse",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jeanne Shaheen",
+"Scott Brown"
+],
+"cycle": 2014,
+"d": 51.45536597706894,
+"r": 48.211136125729524,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NH",
+"winner": "Jeanne Shaheen",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Antonio N. Sabas",
+"Cory A. Booker",
+"Eugene Martin LaVergne",
+"Hank Schroeder",
+"Jeff Bell",
+"Jeffrey Harlan Boss",
+"Joseph Baratelli"
+],
+"cycle": 2014,
+"d": 55.83559548229907,
+"r": 42.325872476310956,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Cory A. Booker",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Allen E. Weh",
+"Tom Udall"
+],
+"cycle": 2014,
+"d": 55.558810178737005,
+"r": 44.441189821262995,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Tom Udall",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Aaron DeLozier",
+"James M. Inhofe",
+"Joan E. Farr",
+"Matt Silverstein",
+"Ray Woods"
+],
+"cycle": 2014,
+"d": 28.548504812161813,
+"r": 68.00823166608384,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "OK",
+"winner": "James M. Inhofe",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Constance N. Johnson",
+"James Lankford",
+"Mark Beard"
+],
+"cycle": 2014,
+"d": 28.983542252920614,
+"r": 67.85342737760236,
+"seat": "Class III",
+"special": true,
+"stage": "general",
+"state": "OK",
+"winner": "James Lankford",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Christina Jean Lugo",
+"James E. Leuenberger",
+"Jeff Merkley",
+"Mike Montchalin",
+"Monica Wehby"
+],
+"cycle": 2014,
+"d": 55.7284461466676,
+"r": 36.86647263512081,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "OR",
+"winner": "Jeff Merkley",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jack Reed",
+"Mark S. Zaccaria"
+],
+"cycle": 2014,
+"d": 70.58264804448119,
+"r": 29.247265681702,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Jack Reed",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Charles Bradley Hutto",
+"Lindsey Graham",
+"Thomas Ravenel",
+"Victor Kocher"
+],
+"cycle": 2014,
+"d": 36.830514283410274,
+"r": 54.26615325685946,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "SC",
+"winner": "Lindsey Graham",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jill Bossi",
+"Joyce Dickerson",
+"Tim Scott"
+],
+"cycle": 2014,
+"d": 38.014048182685926,
+"r": 60.15101961815809,
+"seat": "Class III",
+"special": true,
+"stage": "general",
+"state": "SC",
+"winner": "Tim Scott",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Gordon K. Howie",
+"Larry Pressler",
+"M. Michael Rounds",
+"Richard P. Weiland"
+],
+"cycle": 2014,
+"d": 29.51054357006857,
+"r": 50.37042074069832,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "SD",
+"winner": "M. Michael Rounds",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bartholomew J. Phillips",
+"Choudhury Salekin",
+"Danny Page",
+"Edmund Louis Gauthier",
+"Eric Schechter",
+"Erin Kent Magee",
+"Joe B. Wilmoth",
+"Joshua James",
+"Lamar Alexander",
+"Martin Pleasant",
+"Rick Tyler",
+"Tom Emerson",
+"William Gordon Ball"
+],
+"cycle": 2014,
+"d": 31.865159217358713,
+"r": 61.86657836419675,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Lamar Alexander",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David M. Alameel",
+"Emily Sanchez",
+"John Cornyn",
+"Mohammed Tahiro",
+"Rebecca Paddock"
+],
+"cycle": 2014,
+"d": 34.364543350576696,
+"r": 61.560039050348536,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "John Cornyn",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Ed W. Gillespie",
+"Mark R. Warner",
+"Robert C. Sarvis"
+],
+"cycle": 2014,
+"d": 49.14993227199421,
+"r": 48.33843219852111,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "Mark R. Warner",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Alex Wolf Weinstein",
+"Bob Henry Baber",
+"Dino Battista",
+"John S. Buckley",
+"Larry Eugene Butcher",
+"Natalie E. Tennant",
+"Phillip J. Hudok",
+"Roger Smith",
+"Shelley Moore Capito"
+],
+"cycle": 2014,
+"d": 34.46413732755257,
+"r": 62.11744168362028,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "Shelley Moore Capito",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Charlie Hardy",
+"Curt Gottshall",
+"Joseph Porambo",
+"Michael B. Enzi"
+],
+"cycle": 2014,
+"d": 17.445810321277985,
+"r": 72.18599679315874,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "Michael B. Enzi",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Breck A. Craig",
+"Joe Miller",
+"Lisa Murkowski",
+"Margaret Stock",
+"Ray Metcalfe",
+"Ted Gianoutsos"
+],
+"cycle": 2016,
+"d": 11.623389341801497,
+"r": 44.35800039172749,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AK",
+"winner": "Lisa Murkowski",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Richard C. Shelby",
+"Ronald Steven Crumpton"
+],
+"cycle": 2016,
+"d": 35.86726158881388,
+"r": 63.958793625122404,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AL",
+"winner": "Richard C. Shelby",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Conner W. Eldridge",
+"Frank Gilbert",
+"John Boozman"
+],
+"cycle": 2016,
+"d": 36.171019627601076,
+"r": 59.771634333223176,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AR",
+"winner": "John Boozman",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Ann Kirkpatrick",
+"Anthony Camboni",
+"Gary Swing",
+"Gene Scott",
+"John McCain",
+"Leonard A. Clark",
+"Pat Quinn",
+"Santos Chavez",
+"Selena Lopez",
+"Sheila Bilyeu",
+"Sydney Dudikoff"
+],
+"cycle": 2016,
+"d": 40.74891434487282,
+"r": 53.710470891798025,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "John McCain",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Kamala Harris",
+"Loretta Sanchez"
+],
+"cycle": 2016,
+"d": 61.60283060289235,
+"r": null,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Kamala Harris",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Arn Menconi",
+"Dan Chapin",
+"Darryl Glenn",
+"Lily Tang Williams",
+"Michael Bennet",
+"Paul Fiorino",
+"William Robert Hammons"
+],
+"cycle": 2016,
+"d": 49.97078041270525,
+"r": 44.30578963428305,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CO",
+"winner": "Michael Bennet",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Andrew Rule",
+"Dan Carter",
+"Jeffery Russell",
+"John M. Traceski",
+"Richard Blumenthal",
+"Richard Lion"
+],
+"cycle": 2016,
+"d": 57.68213015794261,
+"r": 34.61938912819588,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Richard Blumenthal",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Angela Marie Walls-Windhauser",
+"Anton Khoury",
+"Basil E. Dalack",
+"Bradley Patrick",
+"Bruce Nathan",
+"Charles Frederick Tolbert",
+"Howard Knepper",
+"Marco Rubio",
+"Patrick Murphy",
+"Paul Anthony Stanton",
+"Robert Samuel Kaplan",
+"Steven Machat"
+],
+"cycle": 2016,
+"d": 44.31485451234274,
+"r": 51.98112842432986,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Marco Rubio",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Allen Buckley",
+"Jim Barksdale",
+"Johnny Isakson",
+"Michelle Gates"
+],
+"cycle": 2016,
+"d": 41.03329267776551,
+"r": 54.783852172764355,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "GA",
+"winner": "Johnny Isakson",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brian Schatz",
+"John \"Raghu\" Giuffre",
+"John Stanley Carroll",
+"Joy J. Allison",
+"Michael Kokoski"
+],
+"cycle": 2016,
+"d": 73.60344918643563,
+"r": 22.242307267585616,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Brian Schatz",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Charles A. Aldrich",
+"Chuck Grassley",
+"Jim Hennager",
+"Michael Luick-Thrams",
+"Patty Judge"
+],
+"cycle": 2016,
+"d": 35.6552345305366,
+"r": 60.08990056040222,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IA",
+"winner": "Chuck Grassley",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jerry Sturgill",
+"Mike Crapo",
+"Ray J. Writz"
+],
+"cycle": 2016,
+"d": 27.726775296306172,
+"r": 66.13471233962203,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "ID",
+"winner": "Mike Crapo",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Chad Koppie",
+"Christopher Aguayo",
+"Eric Kufi James Stewart",
+"Jim Brown",
+"Kenton McMillen",
+"Mark Kirk",
+"Patricia Elaine Beard",
+"Scott K. Summers",
+"Susana Sandoval",
+"Tammy Duckworth"
+],
+"cycle": 2016,
+"d": 54.86174310499978,
+"r": 39.78041755479637,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IL",
+"winner": "Tammy Duckworth",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Evan Bayh",
+"James Johnson",
+"Lucy M. Brenton",
+"Todd Young"
+],
+"cycle": 2016,
+"d": 42.41271693138926,
+"r": 52.11224257523936,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Todd Young",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"DJ Smith",
+"Jerry Moran",
+"Patrick Wiesner",
+"Robert David Garrard"
+],
+"cycle": 2016,
+"d": 32.23812782170636,
+"r": 62.175254388660704,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "KS",
+"winner": "Jerry Moran",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Angel Doss",
+"Billy Ray Wilson",
+"Jim Gray",
+"Rand Paul"
+],
+"cycle": 2016,
+"d": 42.72450504737413,
+"r": 57.27328845027358,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "KY",
+"winner": "Rand Paul",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Foster L. Campbell",
+"John Kennedy"
+],
+"cycle": 2016,
+"d": 39.345389798949554,
+"r": 60.65461020105044,
+"seat": "Class III",
+"special": false,
+"stage": "runoff",
+"state": "LA",
+"winner": "John Kennedy",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bob Robinson",
+"Charles Ulysses Smith",
+"Chris Van Hollen",
+"Ed Tinus",
+"Greg A. Dorsey",
+"Jeffrey Binkins",
+"Kathy Szeliga",
+"Lih Y. Young",
+"Margaret Flowers"
+],
+"cycle": 2016,
+"d": 60.88787566439363,
+"r": 35.674847863486136,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Chris Van Hollen",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Fred Ryman",
+"Gina Bufe",
+"Jason Kander",
+"Johnathan McFarland",
+"Jon Kelly",
+"Jonathan Dine",
+"Nathaniel Malone",
+"Patrick Lee",
+"Roy Blunt",
+"Steven Wallace",
+"Thomas Morgan"
+],
+"cycle": 2016,
+"d": 46.391956729384894,
+"r": 49.18425156843135,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Roy Blunt",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Deborah K. Ross",
+"Richard Burr",
+"Sean Newton Haugh"
+],
+"cycle": 2016,
+"d": 45.365693106548036,
+"r": 51.06177974489319,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NC",
+"winner": "Richard Burr",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Eliot Glassheim",
+"James Germalic",
+"John Hoeven",
+"Robert N. Marquette"
+],
+"cycle": 2016,
+"d": 16.96812564050908,
+"r": 78.47801904228017,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "John Hoeven",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Aaron Day",
+"Brian Chabot",
+"Kelly Ayotte",
+"Maggie Hassan"
+],
+"cycle": 2016,
+"d": 47.981302594907596,
+"r": 47.84371025786725,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NH",
+"winner": "Maggie Hassan",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Catherine Cortez Masto",
+"Jarrod M. Williams",
+"Joseph J. Heck",
+"Tom F. Jones",
+"Tom Sawyer",
+"Tony Gumina"
+],
+"cycle": 2016,
+"d": 47.09887448637275,
+"r": 44.67036724912343,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "Catherine Cortez Masto",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Alex Merced",
+"Charles E. Schumer",
+"Robin Laverne Wilson",
+"Wendy E. Long"
+],
+"cycle": 2016,
+"d": 65.61765538489898,
+"r": 23.64440761393137,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Charles E. Schumer",
+"winner_party": "OTH"
+},
+{
+"candidates": [
+"James Stahl",
+"Joseph Rosario DeMare",
+"Rob Portman",
+"Scott Allen Rupert",
+"Ted Strickland",
+"Tom Connors"
+],
+"cycle": 2016,
+"d": 37.157607593358605,
+"r": 58.02883049847697,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "Rob Portman",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"James Lankford",
+"Mark Beard",
+"Mike Workman",
+"Robert Murphy",
+"Sean Donahue Braddy"
+],
+"cycle": 2016,
+"d": 24.578691161267553,
+"r": 67.7389615116084,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OK",
+"winner": "James Lankford",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cody Reynolds",
+"Eric Navickas",
+"James D. Lindsay",
+"Mark Callahan",
+"Ron Wyden",
+"Shanti S. Lewallen"
+],
+"cycle": 2016,
+"d": 56.60084262153018,
+"r": 33.347674083907734,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OR",
+"winner": "Ron Wyden",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Edward T. Clifford",
+"Kathleen Alana McGinty",
+"Patrick J. Toomey"
+],
+"cycle": 2016,
+"d": 47.341047110175786,
+"r": 48.773500228690175,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "Patrick J. Toomey",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bill Bledsoe",
+"Rebel Michael Scarborough",
+"Thomas Dixon",
+"Tim Scott"
+],
+"cycle": 2016,
+"d": 34.36959880344974,
+"r": 60.569454112970774,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "SC",
+"winner": "Tim Scott",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jay H. Williams",
+"John R. Thune"
+],
+"cycle": 2016,
+"d": 28.172138420585625,
+"r": 71.82786157941437,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "SD",
+"winner": "John R. Thune",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Mike Lee",
+"Misty Katherine Snow",
+"Stone Teiko Fonua",
+"William C. Barron"
+],
+"cycle": 2016,
+"d": 27.057891302321245,
+"r": 68.14588995417745,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "Mike Lee",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cris Ericson",
+"Jerry P. Trudell",
+"Patrick J. Leahy",
+"Pete Diamondstone",
+"Scott Milne"
+],
+"cycle": 2016,
+"d": 61.261149297821284,
+"r": 33.02550277398035,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "Patrick J. Leahy",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Chris Vance",
+"Patty Murray"
+],
+"cycle": 2016,
+"d": 59.01301044578745,
+"r": 40.986989554212556,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Patty Murray",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"John Schiess",
+"Phil Anderson",
+"Ron Johnson",
+"Russ Feingold"
+],
+"cycle": 2016,
+"d": 46.810994929700506,
+"r": 50.17297212607007,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Ron Johnson",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Gordon Douglas Jones",
+"Roy S. Moore"
+],
+"cycle": 2017,
+"d": 49.96559701049884,
+"r": 48.340055756569186,
+"seat": "Class II",
+"special": true,
+"stage": "general",
+"state": "AL",
+"winner": "Gordon Douglas Jones",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Angela Green",
+"Barry Hess",
+"Edward Davida",
+"Jeff Pearce",
+"Jonathan B. Ringham",
+"Kyrsten Sinema",
+"Martha McSally",
+"Michael DeCarlo",
+"Robert Kay",
+"Sheila Bilyeu"
+],
+"cycle": 2018,
+"d": 49.9557943017429,
+"r": 47.61129854028926,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "Kyrsten Sinema",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Dianne Feinstein",
+"Kevin de Le\u00f3n"
+],
+"cycle": 2018,
+"d": 54.1638157447196,
+"r": null,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Dianne Feinstein",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher S. Murphy",
+"Fred Linck",
+"Jeffery Russell",
+"Kristi L. Talmadge",
+"Matthew M. Corey",
+"Richard Lion"
+],
+"cycle": 2018,
+"d": 56.79710709238268,
+"r": 39.349672637074214,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Christopher S. Murphy",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Barry Eveland",
+"Demitri G. Theodoropoulos",
+"Matthew Water Stout",
+"Nadine M. Frost",
+"Peter Todd Farina",
+"Rob Arlett",
+"Thomas R. Carper"
+],
+"cycle": 2018,
+"d": 59.9507454371963,
+"r": 37.81707969531668,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Thomas R. Carper",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bill Nelson",
+"Charles Frederick Tolbert",
+"David Weeks",
+"Howard Knepper",
+"Lateresa Jones",
+"Michael Stephen Levinson",
+"Rick Scott"
+],
+"cycle": 2018,
+"d": 49.93247256869807,
+"r": 50.05497554641297,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Rick Scott",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Mazie K. Hirono",
+"Ronald C. Curtis"
+],
+"cycle": 2018,
+"d": 71.15109784705074,
+"r": 28.848902152949265,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Mazie K. Hirono",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher Fischer",
+"James Johnson",
+"Joe Donnelly",
+"Lucy M. Brenton",
+"Mike Braun",
+"Nathan Altman"
+],
+"cycle": 2018,
+"d": 44.8422279321728,
+"r": 50.7323997345092,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Mike Braun",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Elizabeth Ann Warren",
+"Geoff Diehl",
+"Shiva Ayyadurai"
+],
+"cycle": 2018,
+"d": 60.33678230129031,
+"r": 36.17205190813752,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "Elizabeth Ann Warren",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Arvin Vohra",
+"Benjamin L. Cardin",
+"Edward Shlikas",
+"Lih Y. Young",
+"Michael Brandon Puskar",
+"Neal Simon",
+"Tony Campbell"
+],
+"cycle": 2018,
+"d": 64.85591261143473,
+"r": 30.306549576957842,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Benjamin L. Cardin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Angus S. King Jr.",
+"Eric L. Brakey",
+"Zak Ringelstein"
+],
+"cycle": 2018,
+"d": 10.445627347657425,
+"r": 35.22995417782535,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Angus S. King Jr.",
+"winner_party": "IND"
+},
+{
+"candidates": [
+"Debbie Stabenow",
+"George E. Huffman",
+"John Howard Wilhelm",
+"John James",
+"Marcia Squier",
+"Tim Yow",
+"Tom Bagwell",
+"Valerie Willis"
+],
+"cycle": 2018,
+"d": 52.261892147091835,
+"r": 45.7562898384361,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Debbie Stabenow",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Amy Klobuchar",
+"Dennis Schuller",
+"Jim Newberger",
+"Paula M. Overby"
+],
+"cycle": 2018,
+"d": 60.30985656243514,
+"r": 36.21412472433255,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Amy Klobuchar",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jerry Trooien",
+"Karin Housley",
+"Sarah Wellington",
+"Tina Smith"
+],
+"cycle": 2018,
+"d": 52.9706774019501,
+"r": 42.35122650304017,
+"seat": "Class II",
+"special": true,
+"stage": "general",
+"state": "MN",
+"winner": "Tina Smith",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Claire McCaskill",
+"Craig S. O'Dear",
+"Gina Bufe",
+"Japheth R. Campbell",
+"Jo Crain",
+"Josh Hawley",
+"Martin Lindstedt",
+"Rodney Stock"
+],
+"cycle": 2018,
+"d": 45.56934089290825,
+"r": 51.38323105905977,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Josh Hawley",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Danny Bedwell",
+"David Baria",
+"Roger F. Wicker",
+"Shawn R. O'Hara"
+],
+"cycle": 2018,
+"d": 39.47458649989586,
+"r": 58.492867557131646,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Roger F. Wicker",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cindy Hyde-Smith",
+"Mike Espy"
+],
+"cycle": 2018,
+"d": 46.36674350035479,
+"r": 53.63325649964521,
+"seat": "Class II",
+"special": true,
+"stage": "runoff",
+"state": "MS",
+"winner": "Cindy Hyde-Smith",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jon Tester",
+"Matt Rosendale",
+"Rick Breckenridge"
+],
+"cycle": 2018,
+"d": 50.333872604999364,
+"r": 46.78241181322168,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Jon Tester",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Heidi Heitkamp",
+"Kevin Cramer"
+],
+"cycle": 2018,
+"d": 44.268377190023855,
+"r": 55.105507484561755,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "Kevin Cramer",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Deb Fischer",
+"Jane Raybould",
+"Jim Schultz"
+],
+"cycle": 2018,
+"d": 38.621199828869784,
+"r": 57.6850488565325,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Deb Fischer",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bob Hugin",
+"Bob Menendez",
+"Hank Schroeder",
+"Kevin Kimple",
+"Madelyn R. Hoffman",
+"Murray Sabrin",
+"Natalie Lynn Rivera",
+"Patricia Flanagan"
+],
+"cycle": 2018,
+"d": 54.007149821254465,
+"r": 42.828091919061244,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Bob Menendez",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Gary Johnson",
+"Martin Heinrich",
+"Mick Rich"
+],
+"cycle": 2018,
+"d": 54.0877345009842,
+"r": 30.532185959495678,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Martin Heinrich",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Barry Michaels",
+"Dean Heller",
+"Jacky S. Rosen",
+"Kamau Akil Bakari",
+"Timothy Rex Hagan"
+],
+"cycle": 2018,
+"d": 50.411981088987915,
+"r": 45.38498886982426,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "Jacky S. Rosen",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Chele Farley",
+"Kirsten E. Gillibrand"
+],
+"cycle": 2018,
+"d": 61.98175844521469,
+"r": 28.55970343733635,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Kirsten E. Gillibrand",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jim Renacci",
+"Sherrod Brown",
+"Stephen Faris"
+],
+"cycle": 2018,
+"d": 53.41141418368777,
+"r": 46.56564264238257,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "Sherrod Brown",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Dale R. Kerns",
+"Lou Barletta",
+"Neal Taylor Gale",
+"Robert P. Casey Jr."
+],
+"cycle": 2018,
+"d": 55.74394139018645,
+"r": 42.6168403401605,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "Robert P. Casey Jr.",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob Flanders",
+"Sheldon Whitehouse"
+],
+"cycle": 2018,
+"d": 61.4424347955343,
+"r": 38.33459858044583,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Sheldon Whitehouse",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Breton Phillips",
+"G. Dean Hill",
+"John Carico",
+"Kevin Lee McCants",
+"Kris L. Todd",
+"Marsha Blackburn",
+"Phil Bredesen",
+"Trudy A. Austin"
+],
+"cycle": 2018,
+"d": 43.91997290238619,
+"r": 54.70700705072781,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Marsha Blackburn",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Beto O'Rourke",
+"Neal M. Dikeman",
+"Ted Cruz"
+],
+"cycle": 2018,
+"d": 48.32535502239402,
+"r": 50.8926012837366,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "Ted Cruz",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Caleb Dan Reeve",
+"Craig R. Bowden",
+"Glade G. Fitzgerald",
+"Hektor Reiksthegn",
+"Jenny Wilson",
+"Mitt Romney",
+"Reed C. McCandless",
+"Ryan David Jackson",
+"Timothy Noel Aalders",
+"Tyrone Jensen"
+],
+"cycle": 2018,
+"d": 30.9099564680303,
+"r": 62.58508585497936,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "Mitt Romney",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Corey Stewart",
+"Matt J. Waters",
+"Timothy Michael Kaine"
+],
+"cycle": 2018,
+"d": 57.00260758799453,
+"r": 41.00746171792874,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "Timothy Michael Kaine",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bernie Sanders",
+"Brad J. Peacock",
+"Bruce Busa",
+"Edward S. Gilbert",
+"Folasade Adeluola",
+"Jon Svitavsky",
+"Lawrence Zupan",
+"Reid Kane",
+"Russell Beste"
+],
+"cycle": 2018,
+"d": null,
+"r": 27.442558248723515,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "Bernie Sanders",
+"winner_party": "IND"
+},
+{
+"candidates": [
+"Maria Cantwell",
+"Susan Hutchison"
+],
+"cycle": 2018,
+"d": 58.433759924929554,
+"r": 41.566240075070446,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Maria Cantwell",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"John Schiess",
+"Leah Vukmir",
+"Mary Jo Walters",
+"Tammy Baldwin"
+],
+"cycle": 2018,
+"d": 55.356828097805035,
+"r": 44.53177528400688,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Tammy Baldwin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Joe Manchin, III",
+"Patrick Morrisey",
+"Rusty Hollen"
+],
+"cycle": 2018,
+"d": 49.5722091209725,
+"r": 46.262332902186564,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "Joe Manchin, III",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Gary Trauner",
+"John Barrasso",
+"Joseph Porambo"
+],
+"cycle": 2018,
+"d": 30.09881034313244,
+"r": 66.95998426900009,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "John Barrasso",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Al Gross",
+"Dan Sullivan",
+"John Wayne Howe"
+],
+"cycle": 2020,
+"d": 41.19383959366812,
+"r": 53.89706898448053,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AK",
+"winner": "Dan Sullivan",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Gordon Douglas Jones",
+"Tommy Tuberville"
+],
+"cycle": 2020,
+"d": 39.73666545072299,
+"r": 60.09536164251688,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AL",
+"winner": "Tommy Tuberville",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Ricky Dale Harrington Jr.",
+"Tom Cotton"
+],
+"cycle": 2020,
+"d": null,
+"r": 66.52953544949513,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "AR",
+"winner": "Tom Cotton",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Adam Chilton",
+"Benjamin Rodriguez",
+"Buzz Stewart",
+"Christopher Beckett",
+"Debbie Simmons",
+"Edward Davida",
+"Frank Saenz",
+"Jim Stevens",
+"John Schiess",
+"Joshua Rodriguez",
+"Mark Kelly",
+"Martha McSally",
+"Matthew Dorchester",
+"Matthew Haupt",
+"Mohammad Arif",
+"Nicholas N. Glenn",
+"Patrick Thomas",
+"Perry Kapadia",
+"William Decker"
+],
+"cycle": 2020,
+"d": 51.15662692973571,
+"r": 48.8079367761675,
+"seat": "Class III",
+"special": true,
+"stage": "general",
+"state": "AZ",
+"winner": "Mark Kelly",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bruce Edward Lohmiller",
+"Cory Gardner",
+"Daniel Doyle",
+"Danny Skelly",
+"John Wright Hickenlooper",
+"Michael Sanchez",
+"Raymon Anthony Doane",
+"Stephen Dale Evans"
+],
+"cycle": 2020,
+"d": 53.498960068484045,
+"r": 44.17752697177505,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "CO",
+"winner": "John Wright Hickenlooper",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher A. Coons",
+"Lauren E. Witzke",
+"Mark W. Turley",
+"Nadine M. Frost"
+],
+"cycle": 2020,
+"d": 59.43841852791103,
+"r": 37.89788872253964,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Christopher A. Coons",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"David A. Perdue",
+"Jon Ossoff",
+"Shane Hazel"
+],
+"cycle": 2020,
+"d": 47.94901230267509,
+"r": 49.72798820720188,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "GA",
+"winner": "David A. Perdue",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David A. Perdue",
+"Jon Ossoff"
+],
+"cycle": 2020,
+"d": 50.61254404221096,
+"r": 49.387455957789044,
+"seat": "Class II",
+"special": false,
+"stage": "runoff",
+"state": "GA",
+"winner": "Jon Ossoff",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Kelly Loeffler",
+"Raphael Warnock"
+],
+"cycle": 2020,
+"d": 51.0398322925943,
+"r": 48.960167707405695,
+"seat": "Class III",
+"special": true,
+"stage": "runoff",
+"state": "GA",
+"winner": "Raphael Warnock",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Joni K. Ernst",
+"Rick Stewart",
+"Suzanne Herzog",
+"Theresa Greenfield"
+],
+"cycle": 2020,
+"d": 45.15171417155353,
+"r": 51.739592828927385,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "IA",
+"winner": "Joni K. Ernst",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"James E. Risch",
+"Natalie M. Fleming",
+"Paulette E. Jordan",
+"Ray J. Writz"
+],
+"cycle": 2020,
+"d": 33.24668799653884,
+"r": 62.62259733644093,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "ID",
+"winner": "James E. Risch",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Albert A. Schaal",
+"Danny Malouf",
+"David F. Black",
+"Kevin Keely",
+"Lowell Martin Seida",
+"Mark C. Curran",
+"Richard J. Durbin",
+"WIllie Wilson"
+],
+"cycle": 2020,
+"d": 54.93356314671662,
+"r": 38.865948689716916,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "IL",
+"winner": "Richard J. Durbin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Barbara Goolsbee Bollier",
+"Jason Buckley",
+"Roger Marshall"
+],
+"cycle": 2020,
+"d": 41.78599237436529,
+"r": 53.22312841115551,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "KS",
+"winner": "Roger Marshall",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Amy McGrath",
+"Brad Barron",
+"Daniel Cobble",
+"Demetra Jefferson Wysinger",
+"Harold H. Fitzpatrick",
+"Mitch McConnell",
+"Paul John Frangedakis",
+"Randall Lee Teegarden"
+],
+"cycle": 2020,
+"d": 38.231157294629604,
+"r": 57.76496833573999,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "KY",
+"winner": "Mitch McConnell",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Aaron C. Sigler",
+"Adrian Perkins",
+"Antoine Pierce",
+"Beryl A. Billiot",
+"Bill Cassidy",
+"David Drew Knight",
+"Derrick Edwards",
+"Dustin Murphy",
+"Jamar Montgomery",
+"John Paul Bourgeois",
+"M.V. \"Vinny\" Mendoza",
+"Melinda Mary Price",
+"Peter Wenstrup",
+"Reno Jean Daret",
+"Xan John"
+],
+"cycle": 2020,
+"d": 19.02200437065511,
+"r": 59.323316001647086,
+"seat": "Class II",
+"special": false,
+"stage": "jungle primary",
+"state": "LA",
+"winner": "Bill Cassidy",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Edward J. Markey",
+"Kevin J. O'Connor",
+"Shiva Ayyadurai"
+],
+"cycle": 2020,
+"d": 66.1537326297313,
+"r": 33.04489503206387,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "Edward J. Markey",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Lisa Savage",
+"Max Linn",
+"Sara I. Gideon",
+"Susan M. Collins"
+],
+"cycle": 2020,
+"d": 42.38649971984282,
+"r": 50.9831136632474,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Susan M. Collins",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Doug Dern",
+"Gary C. Peters",
+"John James",
+"Leonard Paul Gadzinski",
+"Marcia Squier",
+"Robert William Carr",
+"Valerie Willis"
+],
+"cycle": 2020,
+"d": 49.90342572248217,
+"r": 48.218394370515284,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Gary C. Peters",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Jason Lewis",
+"Kevin O'Connor",
+"Oliver Steinberg",
+"Tina Smith"
+],
+"cycle": 2020,
+"d": 48.736690543628136,
+"r": 43.498246561568216,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Tina Smith",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Cindy Hyde-Smith",
+"Jimmy Edwards",
+"Mike Espy"
+],
+"cycle": 2020,
+"d": 44.12927401754217,
+"r": 54.105222540976726,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Cindy Hyde-Smith",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Steve Bullock",
+"Steve Daines"
+],
+"cycle": 2020,
+"d": 44.98783925024396,
+"r": 55.01216074975604,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Steve Daines",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cal Cunningham",
+"Kevin Eugene Hayes",
+"Shannon W. Bray",
+"Thomas Roland Tillis"
+],
+"cycle": 2020,
+"d": 46.94041153237507,
+"r": 48.68714830741895,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NC",
+"winner": "Thomas Roland Tillis",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Ben Sasse",
+"Chris E. Janicek",
+"Gene Siadek",
+"Preston Love Jr."
+],
+"cycle": 2020,
+"d": 24.428824574306567,
+"r": 62.74187859941593,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Ben Sasse",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bryant Messner",
+"Jeanne Shaheen",
+"Justin F. O'Donnell"
+],
+"cycle": 2020,
+"d": 56.63652103116669,
+"r": 40.98797106220019,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NH",
+"winner": "Jeanne Shaheen",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Cory A. Booker",
+"Daniel Burke",
+"Madelyn R. Hoffman",
+"Rikin Mehta",
+"Veronica Fernandez"
+],
+"cycle": 2020,
+"d": 57.22806748880741,
+"r": 40.920539406004806,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Cory A. Booker",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ben Ray Luj\u00e1n",
+"Bob Walsh",
+"Mark V. Ronchetti"
+],
+"cycle": 2020,
+"d": 51.72959660371311,
+"r": 45.624304296490436,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Ben Ray Luj\u00e1n",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"A. D. Nesbit",
+"Abby Broyles",
+"James M. Inhofe",
+"Joan E. Farr",
+"Robert Murphy"
+],
+"cycle": 2020,
+"d": 32.7535192670595,
+"r": 62.9121392787406,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "OK",
+"winner": "James M. Inhofe",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Gary Dye",
+"Ibrahim Ali Taher",
+"Jeff Merkley",
+"Jo Rae Perkins"
+],
+"cycle": 2020,
+"d": 56.911042288009604,
+"r": 39.32426034432325,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "OR",
+"winner": "Jeff Merkley",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Allen R. Waters",
+"Jack Reed"
+],
+"cycle": 2020,
+"d": 66.47769806297065,
+"r": 33.353767839728725,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Jack Reed",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bill Bledsoe",
+"Jaime Harrison",
+"Lindsey Graham"
+],
+"cycle": 2020,
+"d": 44.16628497270888,
+"r": 54.4365958624375,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "SC",
+"winner": "Lindsey Graham",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Daniel P. Ahlers",
+"M. Michael Rounds"
+],
+"cycle": 2020,
+"d": 34.26475242671083,
+"r": 65.73524757328917,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "SD",
+"winner": "M. Michael Rounds",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Aaron James",
+"Al Green",
+"Bill Hagerty",
+"Elizabeth McLeod",
+"Eric William Stansberry",
+"G. Dean Hill",
+"Jeffrey Alan Grunau",
+"John Gentry",
+"Kacey Morgan",
+"Marquita Bradshaw",
+"Ronnie Henley",
+"Steven J. Hooper",
+"Yomi Faparusi"
+],
+"cycle": 2020,
+"d": 35.16131876864382,
+"r": 62.19846805198122,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Bill Hagerty",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David B. Collins",
+"John Cornyn",
+"Kerry Douglas McKennon",
+"Mary Jennings Hegar",
+"Ricardo Turullols-Bonilla"
+],
+"cycle": 2020,
+"d": 43.86886622804656,
+"r": 53.50826989134999,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "John Cornyn",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Daniel M. Gade",
+"Mark R. Warner"
+],
+"cycle": 2020,
+"d": 55.99208369777941,
+"r": 43.908304194673114,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "Mark R. Warner",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"David Moran",
+"Paula Jean Swearengin",
+"Shelley Moore Capito"
+],
+"cycle": 2020,
+"d": 27.000146356869404,
+"r": 70.28390664999397,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "Shelley Moore Capito",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cynthia M. Lummis",
+"Merav Ben-David"
+],
+"cycle": 2020,
+"d": 26.75840360083402,
+"r": 72.84775517858915,
+"seat": "Class II",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "Cynthia M. Lummis",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Buzz A. Kelley",
+"Kelly C. Tshibaka",
+"Lisa Murkowski",
+"Patricia R. Chesbro"
+],
+"cycle": 2022,
+"d": 11.196642621337956,
+"r": 53.70198216367819,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AK",
+"winner": "Lisa Murkowski",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John Sophocleus",
+"Katie Britt",
+"Will Boyd"
+],
+"cycle": 2022,
+"d": 30.882072183041327,
+"r": 66.6191970516985,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AL",
+"winner": "Katie Britt",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John Boozman",
+"Kenneth Cates",
+"Natalie James"
+],
+"cycle": 2022,
+"d": 31.08677851917107,
+"r": 65.73095042083376,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AR",
+"winner": "John Boozman",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Blake Masters",
+"Christopher Bullock",
+"Edward Davida",
+"Lester Ralph Maul",
+"Marc Victor",
+"Mark Kelly",
+"Roxanne Renee Rodriguez",
+"Sherrise Bordes",
+"Todd James Smeltzer",
+"Ty Richard McLean",
+"William Michael Taylor"
+],
+"cycle": 2022,
+"d": 51.39486388414388,
+"r": 46.50743655274241,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "Mark Kelly",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Alex Padilla",
+"Mark P. Meuser"
+],
+"cycle": 2022,
+"d": 61.064507760815765,
+"r": 38.935492239184235,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Alex Padilla",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Alex Padilla",
+"Mark P. Meuser"
+],
+"cycle": 2022,
+"d": 60.89357447894488,
+"r": 39.10642552105512,
+"seat": "Class III",
+"special": true,
+"stage": "general",
+"state": "CA",
+"winner": "Alex Padilla",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Brian Peotter",
+"Frank Atwood",
+"Joe O'Dea",
+"Michael Bennet",
+"T.J. Cole"
+],
+"cycle": 2022,
+"d": 55.88389403751005,
+"r": 41.26557419014211,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CO",
+"winner": "Michael Bennet",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"John Anderson",
+"Leora R. Levy",
+"Richard Blumenthal",
+"Shabadjot Bharara"
+],
+"cycle": 2022,
+"d": 55.65380069799911,
+"r": 42.538973733358624,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Richard Blumenthal",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Dennis Misigoy",
+"Edward A. Gray",
+"Howard Knepper",
+"Marco Rubio",
+"Moses Quiles",
+"Steven B. Grant",
+"Tuan T.Q. Nguyen",
+"Uloma Uma Ekpete",
+"Val Demings"
+],
+"cycle": 2022,
+"d": 41.26728825186446,
+"r": 57.680316122141576,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Marco Rubio",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Chase Oliver",
+"Herschel Junior Walker",
+"Raphael Warnock"
+],
+"cycle": 2022,
+"d": 49.44498420193073,
+"r": 48.48777567859542,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "GA",
+"winner": "Raphael Warnock",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Herschel Junior Walker",
+"Raphael Warnock"
+],
+"cycle": 2022,
+"d": 51.40305549853933,
+"r": 48.59694450146066,
+"seat": "Class III",
+"special": false,
+"stage": "runoff",
+"state": "GA",
+"winner": "Raphael Warnock",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bob McDermott",
+"Brian Schatz",
+"Dan Decker",
+"Emma Jane Avila Pohlman",
+"Feena Bonoan"
+],
+"cycle": 2022,
+"d": 71.2073181777013,
+"r": 26.035146640164303,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Brian Schatz",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Chuck Grassley",
+"Michael Franken"
+],
+"cycle": 2022,
+"d": 43.836087078739425,
+"r": 56.01473230504189,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IA",
+"winner": "Chuck Grassley",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David Roth",
+"Idaho Sierra Law",
+"Mike Crapo",
+"Ray J. Writz",
+"Scott Oh Cleveland"
+],
+"cycle": 2022,
+"d": 28.73766690923861,
+"r": 60.67779112863646,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "ID",
+"winner": "Mike Crapo",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bill Redpath",
+"Constant G. Vlakancic",
+"Kathy Salvi",
+"Lowell Martin Seida",
+"Tammy Duckworth"
+],
+"cycle": 2022,
+"d": 56.82349588767317,
+"r": 41.50032106206159,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IL",
+"winner": "Tammy Duckworth",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Antonio Xavier Alvarez",
+"Daniel Niederberger",
+"David G. Storer",
+"Haneefah Khaaliq",
+"James Sceniak",
+"Phillip Beachy",
+"Thomas Baer",
+"Thomas McDermott",
+"Todd Young"
+],
+"cycle": 2022,
+"d": 37.87213316746893,
+"r": 58.61826493935448,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Todd Young",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"David C. Graham",
+"Jerry Moran",
+"Mark R. Holland"
+],
+"cycle": 2022,
+"d": 37.03784046266702,
+"r": 60.000238816425785,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "KS",
+"winner": "Jerry Moran",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Billy Ray Wilson",
+"Charles Booker",
+"Charles Lee Thomason",
+"Rand Paul"
+],
+"cycle": 2022,
+"d": 38.18510924801905,
+"r": 61.801831063112814,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "KY",
+"winner": "Rand Paul",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Aaron C. Sigler",
+"Beryl A. Billiot",
+"Bradley McMorris",
+"Devin Lance Graham",
+"Gary Chambers",
+"John Kennedy",
+"Luke Mixon",
+"M.V. \"Vinny\" Mendoza",
+"Salvador P. Rodriguez",
+"Syrita Steib",
+"Thomas Wenn",
+"W. Thomas La Fontaine Olson",
+"Xan John"
+],
+"cycle": 2022,
+"d": 17.85113750551222,
+"r": 61.56106094889719,
+"seat": "Class III",
+"special": false,
+"stage": "jungle primary",
+"state": "LA",
+"winner": "John Kennedy",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Andrew J. Wildman",
+"Chris Chaffee",
+"Chris Van Hollen",
+"Scottie Griffin"
+],
+"cycle": 2022,
+"d": 65.76803293752896,
+"r": 34.074850574528945,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Chris Van Hollen",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"David Kirk",
+"Eric Schmitt",
+"Gina Bufe",
+"Jonathan Dine",
+"Martin Lindstedt",
+"Nathan Mooney",
+"Paul Venable",
+"Rik Combs",
+"Steve Price",
+"Theodis Brown",
+"Trudy Busch Valentine"
+],
+"cycle": 2022,
+"d": 42.17685693987328,
+"r": 55.43228313349089,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Eric Schmitt",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cheri Beasley",
+"Matthew Hoh",
+"Michelle Estelle Lewis",
+"Shannon W. Bray",
+"Ted Budd"
+],
+"cycle": 2022,
+"d": 47.273050543678146,
+"r": 50.49879117862469,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NC",
+"winner": "Ted Budd",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John Hoeven",
+"Katrina Christiansen",
+"Rick Becker"
+],
+"cycle": 2022,
+"d": 24.983343049887566,
+"r": 56.41459148829849,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "John Hoeven",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Donald C. Bolduc",
+"Jeremy Kauffman",
+"Maggie Hassan"
+],
+"cycle": 2022,
+"d": 53.49539031361971,
+"r": 44.43463907564717,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NH",
+"winner": "Maggie Hassan",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Adam Paul Laxalt",
+"Barry Lindemann",
+"Barry Rubinson",
+"Catherine Cortez Masto",
+"Neil Scott"
+],
+"cycle": 2022,
+"d": 48.81383161091247,
+"r": 48.03722388205907,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "Catherine Cortez Masto",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Charles E. Schumer",
+"Diane Sare",
+"Joe Pinion"
+],
+"cycle": 2022,
+"d": 51.648271475062735,
+"r": 37.666314066294454,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Charles E. Schumer",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"JD Vance",
+"John Cheng",
+"LaShondra Tinsley",
+"Matthew R. Esh",
+"Shane Hoffman",
+"Stephen Faris",
+"Tim Ryan"
+],
+"cycle": 2022,
+"d": 46.9230225807591,
+"r": 53.03490492681225,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "JD Vance",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Kendra Horn",
+"Markwayne Mullin",
+"Ray Woods",
+"Robert Murphy"
+],
+"cycle": 2022,
+"d": 35.23647935081066,
+"r": 61.76920783567916,
+"seat": "Class II",
+"special": true,
+"stage": "general",
+"state": "OK",
+"winner": "Markwayne Mullin",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"James Lankford",
+"Kenneth D. Blevins",
+"Madison Horn",
+"Micahael L. Delaney"
+],
+"cycle": 2022,
+"d": 32.098698915125325,
+"r": 64.30341730307318,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OK",
+"winner": "James Lankford",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Chris Henry",
+"Dan Pulju",
+"Jo Rae Perkins",
+"Ron Wyden"
+],
+"cycle": 2022,
+"d": 55.83259723156577,
+"r": 40.923852238829966,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "OR",
+"winner": "Ron Wyden",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Daniel Wassmer",
+"Erik Gerhardt",
+"John Fetterman",
+"Mehmet Oz",
+"Richard L. Weiss"
+],
+"cycle": 2022,
+"d": 51.248160169269084,
+"r": 46.3347665741248,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "John Fetterman",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Krystle Matthews",
+"Tim Scott"
+],
+"cycle": 2022,
+"d": 37.012163693856586,
+"r": 62.88097790767482,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "SC",
+"winner": "Tim Scott",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Brian L. Bengs",
+"John R. Thune",
+"Tamara J. Lesnar"
+],
+"cycle": 2022,
+"d": 26.149933911844148,
+"r": 69.627032929142,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "SD",
+"winner": "John R. Thune",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Abraham Korb",
+"Evan McMullin",
+"James Arthur Hansen",
+"Laird F. Hamblin",
+"Michael Seguin",
+"Mike Lee",
+"Tommy Williams"
+],
+"cycle": 2022,
+"d": null,
+"r": 53.154075764728624,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "Mike Lee",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Cris Ericson",
+"Dawn Marie Ellis",
+"Gerald Malloy",
+"Kerry Patrick Raheb",
+"Mark Coester",
+"Natasha Diamondstone-Kohout",
+"Peter Welch",
+"Stephen Duke"
+],
+"cycle": 2022,
+"d": 68.46917450365726,
+"r": 28.027864855451064,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "Peter Welch",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Patty Murray",
+"Tiffany Smiley"
+],
+"cycle": 2022,
+"d": 57.14843006660324,
+"r": 42.63007316513009,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Patty Murray",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Adam Nicholas Paul",
+"Mandela Barnes",
+"Ron Johnson"
+],
+"cycle": 2022,
+"d": 49.40540483480159,
+"r": 50.41268972360552,
+"seat": "Class III",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Ron Johnson",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Benjamin Rodriguez",
+"Christopher Beckett",
+"David Bozic",
+"Eduardo Quintana",
+"Jannie Prosser",
+"Kari Lake",
+"Ruben Gallego",
+"Sarah Williams",
+"Shawn Petty",
+"Steven Cavin Sanders"
+],
+"cycle": 2024,
+"d": 50.057572621232474,
+"r": 47.65152677933143,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "AZ",
+"winner": "Ruben Gallego",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Adam B. Schiff",
+"Steve Garvey"
+],
+"cycle": 2024,
+"d": 58.872517191194696,
+"r": 41.1274828088053,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CA",
+"winner": "Adam B. Schiff",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Adam B. Schiff",
+"Steve Garvey"
+],
+"cycle": 2024,
+"d": 58.750394237668004,
+"r": 41.249605762331996,
+"seat": "Class I",
+"special": true,
+"stage": "general",
+"state": "CA",
+"winner": "Adam B. Schiff",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Christopher S. Murphy",
+"John Flynn",
+"Justin Paglino",
+"Matthew M. Corey",
+"Robert Finley Hyde"
+],
+"cycle": 2024,
+"d": 55.82560958262184,
+"r": 39.70451787463142,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "CT",
+"winner": "Christopher S. Murphy",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Eric Hansen",
+"Lisa Blunt Rochester",
+"Michael \"Dr. Mike\" Katz"
+],
+"cycle": 2024,
+"d": 56.591011693827085,
+"r": 39.502722700087496,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "DE",
+"winner": "Lisa Blunt Rochester",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Ben Everidge",
+"Debbie Mucarsel-Powell",
+"Feena Bonoan",
+"Howard Knepper",
+"Rick Scott",
+"Tuan T.Q. Nguyen"
+],
+"cycle": 2024,
+"d": 42.789754205187336,
+"r": 55.56817112789414,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "FL",
+"winner": "Rick Scott",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Bob McDermott",
+"Emma Jane Avila Pohlman",
+"Mazie K. Hirono",
+"Shelby Billionaire"
+],
+"cycle": 2024,
+"d": 64.61098167860125,
+"r": 31.902511743592093,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "HI",
+"winner": "Mazie K. Hirono",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Andrew Horning",
+"Antonio Xavier Alvarez",
+"Jim Banks",
+"Phillip Beachy",
+"Valerie McCray"
+],
+"cycle": 2024,
+"d": 38.76681730819178,
+"r": 58.63874197541465,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "IN",
+"winner": "Jim Banks",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Elizabeth Ann Warren",
+"John Deaton"
+],
+"cycle": 2024,
+"d": 59.81477483030645,
+"r": 40.00297068078687,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MA",
+"winner": "Elizabeth Ann Warren",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Angela Alsobrooks",
+"Billy Bridges",
+"Christy Renee Helmondollar",
+"Irwin Gibbs",
+"Larry Hogan",
+"Mike Scott",
+"Patrick J. Burke",
+"Robin Rowe"
+],
+"cycle": 2024,
+"d": 54.64102803422809,
+"r": 42.83952554099487,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MD",
+"winner": "Angela Alsobrooks",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Angus S. King Jr.",
+"David Allen Costello",
+"Demi Kouzounas",
+"Jason S. Cherry"
+],
+"cycle": 2024,
+"d": 10.830037695758435,
+"r": 34.642328900974924,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ME",
+"winner": "Angus S. King Jr.",
+"winner_party": "IND"
+},
+{
+"candidates": [
+"Dave Stein",
+"Doug Dern",
+"Douglas P. Marsh",
+"Elissa Slotkin",
+"Joseph Solis-Mullen",
+"Mike Rogers"
+],
+"cycle": 2024,
+"d": 48.638964409836,
+"r": 48.29818329562914,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MI",
+"winner": "Elissa Slotkin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Amy Klobuchar",
+"Joyce Lynne Lacey",
+"Rebecca Whiting",
+"Royce White"
+],
+"cycle": 2024,
+"d": 56.201300401370446,
+"r": 40.501134566803046,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MN",
+"winner": "Amy Klobuchar",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Gina Bufe",
+"Jared Young",
+"Josh Hawley",
+"Lucas Kunce",
+"Nathan Kline",
+"W.C. Young"
+],
+"cycle": 2024,
+"d": 41.84031334617749,
+"r": 55.57188267751793,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MO",
+"winner": "Josh Hawley",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Roger F. Wicker",
+"Ty Pinkins"
+],
+"cycle": 2024,
+"d": 37.18780879726115,
+"r": 62.81219120273885,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MS",
+"winner": "Roger F. Wicker",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Jon Tester",
+"Robert Barb",
+"Sid Daoud",
+"Tim Sheehy"
+],
+"cycle": 2024,
+"d": 45.5001300921184,
+"r": 52.6431754333385,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "MT",
+"winner": "Tim Sheehy",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Katrina Christiansen",
+"Kevin Cramer"
+],
+"cycle": 2024,
+"d": 33.377158431848315,
+"r": 66.3055441951873,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "ND",
+"winner": "Kevin Cramer",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Dan Osborn",
+"Deb Fischer"
+],
+"cycle": 2024,
+"d": 46.51777188555059,
+"r": 53.192459843808614,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NE",
+"winner": "Deb Fischer",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Pete Ricketts",
+"Preston Love Jr."
+],
+"cycle": 2024,
+"d": 37.422473676611354,
+"r": 62.577526323388646,
+"seat": "Class II",
+"special": true,
+"stage": "general",
+"state": "NE",
+"winner": "Pete Ricketts",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Andy Kim",
+"Christina Khalil",
+"Curtis Bashaw",
+"Joanne Kuniansky",
+"Kenneth R. Kaplan",
+"Patricia G. Mooneyham"
+],
+"cycle": 2024,
+"d": 53.61113350257144,
+"r": 43.99005901837767,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NJ",
+"winner": "Andy Kim",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Martin Heinrich",
+"Nella Louise Domenici"
+],
+"cycle": 2024,
+"d": 55.05667483292023,
+"r": 44.94332516707978,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NM",
+"winner": "Martin Heinrich",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Chris Cunningham",
+"Jacky S. Rosen",
+"Janine Hansen",
+"Sam Brown"
+],
+"cycle": 2024,
+"d": 47.86588363163673,
+"r": 46.223326105597764,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NV",
+"winner": "Jacky S. Rosen",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Diane Sare",
+"Kirsten E. Gillibrand",
+"Michael D. Sapraicone"
+],
+"cycle": 2024,
+"d": 53.9167551046981,
+"r": 36.41608690392653,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "NY",
+"winner": "Kirsten E. Gillibrand",
+"winner_party": "WFP"
+},
+{
+"candidates": [
+"Bernie Moreno",
+"David Allen Pastorius",
+"Donald C. Kissick",
+"Nathan Russell",
+"Sherrod Brown",
+"Stephen Faris",
+"Tariq K. Shabazz"
+],
+"cycle": 2024,
+"d": 46.470211863366885,
+"r": 50.088927921579355,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "OH",
+"winner": "Bernie Moreno",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Dave McCormick",
+"John C. Thomas",
+"Leila Hazou",
+"Marty Selker",
+"Robert P. Casey Jr."
+],
+"cycle": 2024,
+"d": 48.60137033064264,
+"r": 48.8184420326643,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "PA",
+"winner": "Dave McCormick",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Patricia Morgan",
+"Sheldon Whitehouse"
+],
+"cycle": 2024,
+"d": 59.89759080227992,
+"r": 39.84953694292893,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "RI",
+"winner": "Sheldon Whitehouse",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Gloria Johnson",
+"Hastina Robinson",
+"Marsha Blackburn",
+"Pamela Jeanine \"P.\" Moses",
+"Tharon Chandler"
+],
+"cycle": 2024,
+"d": 34.16206500315201,
+"r": 63.796312551369724,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TN",
+"winner": "Marsha Blackburn",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Analisa Roche",
+"Colin Allred",
+"Ted Brown",
+"Ted Cruz",
+"Tracy Andrus"
+],
+"cycle": 2024,
+"d": 44.55644750631739,
+"r": 53.05365265969609,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "TX",
+"winner": "Ted Cruz",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Carlton E. Bowen",
+"Caroline Gleich",
+"John Curtis",
+"Laird F. Hamblin"
+],
+"cycle": 2024,
+"d": 31.739811644479126,
+"r": 62.50046976137489,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "UT",
+"winner": "John Curtis",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"Hung Cao",
+"Timothy Michael Kaine"
+],
+"cycle": 2024,
+"d": 54.36572655047597,
+"r": 45.44284554818154,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VA",
+"winner": "Timothy Michael Kaine",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Bernie Sanders",
+"Gerald Malloy",
+"Justin Schoville",
+"Mark Stewart Greenstein",
+"Matt Hill",
+"Steve Berry"
+],
+"cycle": 2024,
+"d": null,
+"r": 32.07461466250795,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "VT",
+"winner": "Bernie Sanders",
+"winner_party": "IND"
+},
+{
+"candidates": [
+"Maria Cantwell",
+"Raul Garcia"
+],
+"cycle": 2024,
+"d": 59.085676154413335,
+"r": 40.63557489250185,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WA",
+"winner": "Maria Cantwell",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"Eric D. Hovde",
+"John Schiess",
+"Phil Anderson",
+"Tammy Baldwin",
+"Thomas Leager"
+],
+"cycle": 2024,
+"d": 49.33300145364483,
+"r": 48.484201455296365,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WI",
+"winner": "Tammy Baldwin",
+"winner_party": "DEM"
+},
+{
+"candidates": [
+"David Moran",
+"Glenn Elliott",
+"Jim Justice",
+"Joshua Standridge",
+"Lewie Andrews",
+"Tim Stevenski"
+],
+"cycle": 2024,
+"d": 27.757560681380788,
+"r": 68.75315125909937,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WV",
+"winner": "Jim Justice",
+"winner_party": "REP"
+},
+{
+"candidates": [
+"John Barrasso",
+"Scott D. Morrow"
+],
+"cycle": 2024,
+"d": 24.124211657997744,
+"r": 75.11224173045328,
+"seat": "Class I",
+"special": false,
+"stage": "general",
+"state": "WY",
+"winner": "John Barrasso",
+"winner_party": "REP"
+}
+],
+"source": "FiveThirtyEight election-results (CC BY 4.0), github.com/fivethirtyeight/election-results"
+}
