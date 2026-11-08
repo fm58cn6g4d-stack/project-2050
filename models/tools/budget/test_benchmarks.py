@@ -347,7 +347,7 @@ def bm_published(M):
                        "spent by end of year 1-4: " + ", ".join("%.0f%%" % (100 * v) for v in lc),
                        "CBO: " + ", ".join("%.0f%%" % (100 * v) for v in cc),
                        "within 10 points of CBO's cumulative share in each of the first four years",
-                       "CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023), "
+                       "CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023; SRC-1170), "
                        "fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day",
                        "Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated %s shares, ASM-SPENDOUT) on a single act: "
                        "one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own "
