@@ -47,7 +47,7 @@ Fox News coverage lists New Hampshire, Nevada, Arizona, Georgia, Pennsylvania an
 | 2022 R+2.6 | 2024 R+2.5; Trump R+1.5 | about 0 |
 | **2026 about D+13** | 2028: ? | Reversion of 0-8 points (4-8 in the four cases with substantial reversion) would leave about D+5 to D+13; growth, as in 2008, more |
 
-House vote from Brookings's *Vital Statistics on Congress* [SRC-0570]; presidential margins from Wikipedia. Two Brookings rows on Senate seat changes look inconsistent and are not used. Split Senate results: none in 2016, one in 2020, four of 34 in 2024; since 2012, 91% of Senate races matched the state's latest presidential vote (Pew) [SRC-0569].
+House vote from Brookings's *Vital Statistics on Congress* [SRC-0570]; presidential margins from Wikipedia. The Clerk of the House's 2006 figures give about D+8.0 rather than D+6.4, which would make the 2008 growth about 2.6 points rather than 4.2; recheck the table. Small differences from `1-results.md` (2018 D+8.7 here against D+8.6; Ohio D+4.8 and Kansas D+5.0 here, from NBC, against D+4.9 and D+5.1 from civicAPI) are differences between sources, not typos. Two Brookings rows on Senate seat changes look inconsistent and are not used. Split Senate results: none in 2016, one in 2020, four of 34 in 2024; since 2012, 91% of Senate races matched the state's latest presidential vote (Pew) [SRC-0569].
 
 ## 3. The estimate
 
