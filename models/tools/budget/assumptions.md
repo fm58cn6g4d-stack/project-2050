@@ -4,7 +4,7 @@
 
 Role: every assumption the fiscal models use now, in plain language, with where it lives, its source, who decided it and how much it matters. Status: current register (B1 of `models/tools/budget/WORKFLOW.md`). How the project counts is in `models/tools/budget/CONVENTIONS.md`. Nothing here changes a model input.
 
-**67 assumptions:** 25 matter a lot, 26 somewhat, 16 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**77 assumptions:** 25 matter a lot, 30 somewhat, 22 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -27,7 +27,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Baseline adjustments (3)
 - FY2026 actuals (3)
 - Economic paths (3)
-- Interest (5)
+- Interest (6)
 - Dynamic effects (2)
 - Program measurement (11)
 - Profiles (10)
@@ -35,6 +35,8 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Expiring provisions (3)
 - Trust funds (6)
 - Funds engine (15)
+- Data layer (B2, PR #105) (6)
+- Provision library (B3, PR #108) (3)
 - Recovery budget (exploratory) (1)
 
 ## Baseline
@@ -165,6 +167,7 @@ Nominal GDP is CBO's February 2026 path (ten-year economic projections to 2036, 
 - **Where:** models/tools/fiscal-data.py:116, 140; models/data/fiscal-baseline.csv column gdp
 - **Source:** CBO, The Budget and Economic Outlook: 2026 to 2036 (Feb 2026, publication 62105), via github.com/US-CBO/cbo-data; CBO, The Long-Term Budget Outlook: 2026 to 2056 (Feb 2026), via github.com/US-CBO/cbo-data
 - **Decided by:** Espen (comes with CBO's baseline, adopted for the D4-B guardrails)
+- **Notes:** History: FY1962-2024 GDP is derived from CBO's revenue and revenue-share series (fiscal-data.py:95); B2 publishes the same series (data.py gdp(), PR #105).
 
 ### ASM-CPI-PATH
 
@@ -186,7 +189,7 @@ No price deflator is applied anywhere: every model figure is in nominal dollars 
 - **Where:** models/tools/fiscal-model.py:15 (docstring); models/data/inputs/readme.md:6
 - **Source:** Project convention
 - **Decided by:** unrecorded
-- **Notes:** B2 adds deflator series (CPI-U, GDP price index); WORKFLOW.md says real dollars come from one function only.
+- **Notes:** B2 adds deflator series (CPI-U, GDP price index) and one function for real dollars (ASM-DEFLATOR-DEFAULT, ASM-BASE-YEAR); the fiscal model does not use them yet.
 
 
 ## Interest
@@ -242,6 +245,16 @@ Interest rates do not respond to the program's extra borrowing or saving.
 - **How much it matters:** medium: conventional scoring practice; a large program could move rates
 - **Where:** models/tools/fiscal-model.py:111-121
 - **Source:** Project convention; roadmap item "interest-rate feedback" (models/tools/roadmap.md:32)
+- **Decided by:** unrecorded
+
+### ASM-BASE-IMPLIED-EARLY
+
+The baseline's implied interest rate for FY2026-27 uses CBO's February values, not the FY2026 actuals.
+
+- **Value:** implied_rate computed before the FY2026 replacement (method)
+- **How much it matters:** low: the model uses implied_rate only after 2036 (ASM-RATE-LT)
+- **Where:** models/tools/fiscal-data.py:159-167 (before 168-183)
+- **Source:** Project method (noted by B2)
 - **Decided by:** unrecorded
 
 
@@ -761,6 +774,107 @@ Overlap and avoidance haircut for stacked high-income options: 15% of G11, G6, G
 - **Where:** models/data/inputs/ledger-revenue.csv:14 (GX)
 - **Source:** Claude's estimate (audit finding 4)
 - **Decided by:** unrecorded
+
+
+## Data layer (B2, PR #105)
+
+### ASM-OMB-VINTAGE
+
+OMB historical tables used for budget authority, outlays by function and discretionary detail: the FY2027 Budget's Historical Tables 3.2, 5.1, 5.6 and 8.7, actual years through FY2025 only; the administration's estimates are left out.
+
+- **Value:** FY2027 Budget vintage; actuals to FY2025 (source vintage)
+- **How much it matters:** medium: the only source of budget-authority and function detail; actuals only, so second Trump administration projections do not enter
+- **Where:** models/tools/budget/build_data.py:31 (LAST_ACTUAL); models/data/budget/omb-*.csv
+- **Source:** OMB, Budget of the U.S. Government FY2027, Historical Tables
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+- **Notes:** Excluding the administration's estimates follows DEC-2026-10-30-01.
+
+### ASM-DEFLATOR-DEFAULT
+
+Default deflator for real-dollar views: the GDP price index (CPI-U also available).
+
+- **Value:** gdp_price_index (index)
+- **How much it matters:** medium: decides what "real" means on every real-dollar view
+- **Where:** models/tools/budget/data.py:28 (DEFAULT_INDEX), 217-225
+- **Source:** CBO, The Budget and Economic Outlook: 2026 to 2036 (Feb 2026, publication 62105), via github.com/US-CBO/cbo-data (gdp_price_index); CBO, The Long-Term Budget Outlook: 2026 to 2056 (Feb 2026), via github.com/US-CBO/cbo-data
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+- **Notes:** Matches how CBO inflates discretionary funding (2 U.S.C. 907(c)(5)) and so how NSC-1A's "flat real" reads; CPI-U matches what households feel (CONVENTIONS.md, section 7).
+
+### ASM-BASE-YEAR
+
+Default base year for real dollars: FY2026 dollars.
+
+- **Value:** FY2026 (year)
+- **How much it matters:** low: rescales every real figure by one constant; no comparison changes
+- **Where:** models/tools/budget/data.py:29 (DEFAULT_BASE_YEAR)
+- **Source:** Project choice
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+
+### ASM-DEFLATOR-SPLICE
+
+Deflators after FY2036: the FY2036 level grown by CBO's long-term calendar-year level growth.
+
+- **Value:** CPI-U averages 2.27% a year and the GDP price index 2.00% a year over 2037-56; native bases CPI-U 1982-84=100, GDP price index CY2017=100 (% a year)
+- **How much it matters:** low: calendar-to-fiscal-year mismatch of one quarter in the growth rates
+- **Where:** models/tools/budget/build_data.py:261 (deflators); models/data/budget/deflators.csv
+- **Source:** CBO, The Long-Term Budget Outlook: 2026 to 2056 (Feb 2026), via github.com/US-CBO/cbo-data (cpiu_index_level, gdp_price_index_level)
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+
+### ASM-DISC-BA
+
+Discretionary budget authority is CBO's timing-adjusted series, the only one CBO publishes.
+
+- **Value:** timing-adjusted BA (series)
+- **How much it matters:** low: shifts advance appropriations into the year they become available
+- **Where:** models/data/budget/categories.csv (ba_* rows)
+- **Source:** CBO, The Budget and Economic Outlook: 2026 to 2036 (Feb 2026, publication 62105), via github.com/US-CBO/cbo-data
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+
+### ASM-SPENDOUT
+
+Spend-out of discretionary budget authority: rough least-squares shares over four years, fit FY1993-2019.
+
+- **Value:** defense 44/34/24/-4% (sum 0.98); nondefense 27/37/31/15% (sum 1.10) (share of BA by year)
+- **How much it matters:** medium: B3 would use it to turn budget authority into outlays
+- **Where:** models/tools/budget/build_data.py:299 (spendout); models/data/budget/spendout-discretionary.csv
+- **Source:** OMB Historical Tables (fit by B2)
+- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+- **Notes:** A placeholder until CBO's account-level spending projections are uploaded. Nondefense sums above 1 because transportation obligation limits are not discretionary budget authority.
+
+
+## Provision library (B3, PR #108)
+
+### ASM-SPENDOUT-NORM
+
+The provision library sets B2's negative defense year-4 spend-out share to zero and rescales each group's shares to add to one, so a provision's budget authority is all spent in the end.
+
+- **Value:** defense year-4 share -4.27% set to 0; defense and nondefense shares rescaled to sum 1.0 (share of BA by year)
+- **How much it matters:** low: changes discretionary budget-authority figures only, not outlays or any headline
+- **Where:** models/tools/budget/provisions.py:339-346 (_spendout)
+- **Source:** Project method on B2's fitted shares (ASM-SPENDOUT)
+- **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
+- **Notes:** Nondefense shares summed to 1.10 before rescaling (transportation obligation limits).
+
+### ASM-BA-LEADS-OUTLAYS
+
+Discretionary budget authority is backed out of the model's outlays: each year's budget authority is the outlays it pays for over its spend-out; outlays after FY2056 are extended at the FY2055-56 growth rate.
+
+- **Value:** BA(t) = sum over k of share(k) x outlays(t+k) (method)
+- **How much it matters:** medium: sets every discretionary budget-authority and spending-cap reading; outlays stay canonical
+- **Where:** models/tools/budget/provisions.py:349-358 (spendout_ba)
+- **Source:** Project method (B3)
+- **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
+- **Notes:** B3 finds about $0.10T of budget authority would fall in FY2027-29, before the window (CONVENTIONS.md, Choice 3). All spend-out figures are flagged rough.
+
+### ASM-BA-EQUALS-OUTLAYS
+
+For benefits, entitlements and tax credits, budget authority equals outlays in the same year; other mandatory rows have budget authority unknown.
+
+- **Value:** 22 rows budget_authority = outlays; 18 rows unknown (convention)
+- **How much it matters:** low: these programs spend as they are authorized; only budget-authority readings use it
+- **Where:** models/data/budget/provisions.csv column budget_authority
+- **Source:** Project convention (B3)
+- **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
 
 
 ## Recovery budget (exploratory)
