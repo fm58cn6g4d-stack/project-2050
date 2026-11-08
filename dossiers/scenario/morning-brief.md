@@ -2,7 +2,7 @@
 
 Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file on `main` at `7d50150`, where all the scenario PRs it cites are merged (#82, #84, #86-#88, #90-#96 and #98; #89's memo arrived through #94), and against PR #80 at `e3b5de6`.
 
-**Where the files are.** Every file named here is merged into `main`, apart from PR #80's decision file. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
+**Where the files are.** Every file named here is merged into `main`, apart from PR #80's decision file and `2028-senate-candidates.md`, which is in [PR #99](https://github.com/fm58cn6g4d-stack/project-2050/pull/99) (not yet merged; checked at `b8cc372`). All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
 
 ## How much to trust these numbers
 
@@ -11,6 +11,8 @@ PR #92 (`model-credibility.md`) re-ran the Senate model on the 2018-2024 electio
 - **The model is good, but it leans Republican.** Its accuracy score (Brier, lower is better) is 0.076, against 0.098 for the simple rule "each state votes for its last presidential winner." But it under-predicted Democratic seats in every cycle: 61 in total against 70 actually won. Swing-state Democrats (Arizona, Georgia, Nevada, Pennsylvania, Michigan) kept outrunning their states. The House curve under-predicted too, by about 7 seats on average.
 - **The central assumption is cautious.** The best simple rule for 2028 says D+5.7; the models use D+3.0. Each 1.5 points of difference moves the chance of a trifecta by about 11-12 points: 35% at an even year, 58% as published, 77% at D+5.7.
 - **Bottom line:** the published numbers are more likely too low for Democrats than too high. But four cycles is a small sample, all in the Trump era, and the model has not been re-tuned. Read the figures as a cautious central case.
+
+- **Nominee quality is the largest swing the model leaves out** (`2028-senate-candidates.md`, PR #99, not yet merged). A 2-point shift in candidate strength across all the competitive races moves the chance of 55+ seats in a neutral year from 39% to 59% (toward Democrats) or 21% (away). North Carolina, Wisconsin and Nevada are the most sensitive races. The biggest open questions are retirements: Brown in Ohio (the model assumes he runs; #99 suggests a 70% chance), Kelly and Warnock (both weighing presidential runs), and Johnson. The biggest primary risk is Pennsylvania, where party leaders are coalescing around Rep. Chris Deluzio against Fetterman. (Michigan has no 2028 Senate race.) #99 lists eight adjustments for the model's author to test; the model has not been re-tuned.
 
 **The five assumptions that matter most, and what to watch:**
 
