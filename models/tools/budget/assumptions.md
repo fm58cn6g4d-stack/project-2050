@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**80 assumptions:** 25 matter a lot, 32 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**81 assumptions:** 25 matter a lot, 33 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -30,7 +30,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - FY2026 actuals (3)
 - Economic paths (3)
 - Interest (7)
-- Dynamic effects (2)
+- Dynamic effects (3)
 - Program measurement (11)
 - Profiles (10)
 - Defense (1)
@@ -293,6 +293,17 @@ Dynamic sensitivity: the sum of the DY1-DY9 midpoints, phased in over 2030-39, b
 - **Source:** ledger-dynamic.csv bases: mostly project estimates; DY4 scaled from CBO's 2021 Raise the Wage score; DY8 from CBO's 2013 S.744 score; DY1 from a remembered JCT 2017 figure
 - **Decided by:** unrecorded
 - **Notes:** DY1 (-0.6, taxes on corporations and top earners) dominates and its basis is "from memory"; it needs a published source. Continuing the full amount after 2039 is a hidden choice.
+
+### ASM-GROWTH-LINK
+
+Growth link: slower or faster productivity or labor-force growth moves revenue, mandatory spending, interest and GDP by CBO's rules of thumb, scaled to the size of the change.
+
+- **Value:** per 0.1 point slower a year, FY2027-36 added deficit: productivity $320 billion, labor force $171 billion; GDP 1.3% and 0.8% lower after eleven years (share of GDP by year of the change)
+- **How much it matters:** medium: no scenario uses it yet; it is a capability for growth stress cases. CBO's own rules of thumb moved 20-33% between the 2025 and 2026 editions (SE-2a, SE-2b)
+- **Where:** models/tools/fiscal-model.py:351-413; models/data/budget/cbo-rules-of-thumb.csv
+- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Tables 1 and 2
+- **Decided by:** Claude Code (B6, item 2)
+- **Notes:** Calibrated to the same table SE-2 checks (in-sample). After CBO's eleventh year the effects continue on a straight line. Linear in the size of the change, as CBO says holds within half a point. Program rows do not shrink with GDP; interest-rate effects reach baseline debt only.
 
 
 ## Program measurement

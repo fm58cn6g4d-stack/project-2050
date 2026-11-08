@@ -212,7 +212,7 @@ def build(ledger_path, baseline_path):
     results = {}
     for sid, label, opts, cfg in SCENARIOS:
         shift = cfg.get("rate_shift", 0.0)
-        base = baseline(shift)
+        base = apply_growth(B, baseline(shift), cfg.get("growth"))
         res = dict(id=sid, label=label, options=opts, years={})
         if opts is None:
             prog_uni = {y: 0.0 for y in range(Y0, Y1 + 1)}; prog_gf = dict(prog_uni)
@@ -345,6 +345,71 @@ def rate_shift_interest(B, core_debt, shift, start, rollover):
         sI = s_ * repriced + (marginal_rate(B, y) + s_) * sD
         sD += sI
         out[y] = sI
+    return out
+
+
+GROWTH_GDP_2036 = {"productivity": -1.3, "labor_force": -0.8}   # % gap in GDP in 2036, 62257 Table 1
+
+
+def growth_shares(B, path=None):
+    """CBO's rules of thumb for slower growth (publication 62257, April 2026, Table 2: productivity or
+    labor force growth 0.1 point slower each year from FY2026), as shares of CBO's February 2026 GDP by
+    year of the shock: {factor: {k: dict(rev, man, rate, gap)}}, k = 1 for the first year. rev is the
+    change in revenue, man in mandatory outlays, rate the change in net interest from lower interest
+    rates on baseline debt; gap is the GDP level gap, growing in a straight line to Table 1's 2036
+    figure (ASM-GROWTH-LINK)."""
+    out = {}
+    with open(path or data_path("budget", "cbo-rules-of-thumb.csv")) as f:
+        for r in csv.DictReader(f):
+            y = int(r["year"]); k = y - 2025; g = B[y]["gdp"]
+            out.setdefault(r["scenario"], {})[k] = dict(
+                rev=float(r["revenues"]) / g, man=float(r["mandatory"]) / g, rate=float(r["net_interest_rates"]) / g,
+                gap=GROWTH_GDP_2036[r["scenario"]] / 100 * k / 11)
+    return out
+
+
+def growth_path(B, factor, shift, start, shares=None):
+    """The budget effects of growth `shift` points a year different from CBO's (negative = slower) in
+    productivity or the labor force, from fiscal year `start` (ASM-GROWTH-LINK). CBO's 0.1-point effects,
+    as shares of GDP by year of the shock, are scaled in proportion to the shift (CBO: roughly symmetrical
+    and scalable within half a point) and applied to the baseline's GDP. After CBO's eleventh year they
+    continue on the straight line through its seventh and eleventh years. The added deficits are
+    borrowed at the program's rate (ASM-RATE-MARGINAL, ASM-RATE-HALFYEAR). Returns {year: dict(rev, man,
+    rate, debt_service, deficit, debt, gap)} from start to Y1, in billions (gap as a fraction of GDP);
+    deficit is the increase in the deficit."""
+    sh = (shares or growth_shares(B))[factor]
+    scale = shift / -0.1
+    def at(k, key):
+        if k in sh:
+            return sh[k][key]
+        return sh[11][key] + (sh[11][key] - sh[7][key]) / 4 * (k - 11)
+    out, D = {}, 0.0
+    for y in range(start, Y1 + 1):
+        k, G, r = y - start + 1, B[y]["gdp"], marginal_rate(B, y)
+        rev, man, rate = (scale * at(k, key) * G for key in ("rev", "man", "rate"))
+        flow = -rev + man + rate
+        ds = r * D + r * flow / 2
+        D += flow + ds
+        out[y] = dict(rev=rev, man=man, rate=rate, debt_service=ds, deficit=flow + ds, debt=D, gap=scale * at(k, "gap"))
+    return out
+
+
+def apply_growth(B, base, cfg):
+    """A baseline path with a growth change (cfg = dict(factor, shift, start)) applied; unchanged when
+    cfg is None. GDP, revenue, mandatory spending, interest and debt all move; the program's rows do not
+    (they stay as calibrated in dollars, ASM-GROWTH-LINK)."""
+    if not cfg:
+        return base
+    gp = growth_path(B, cfg["factor"], cfg["shift"], cfg.get("start", W0))
+    out = {}
+    for y, o in base.items():
+        o = dict(o)
+        if y in gp:
+            e = gp[y]
+            o["gdp"] *= 1 + e["gap"]; o["rev"] += e["rev"]; o["prim_out"] += e["man"]
+            o["interest"] += e["rate"] + e["debt_service"]; o["debt"] += e["debt"]
+            o["deficit"] = o["prim_out"] + o["interest"] - o["rev"]; o["primary_deficit"] = o["prim_out"] - o["rev"]
+        out[y] = o
     return out
 
 

@@ -101,6 +101,33 @@ CBO_ROT_LABOR_10YR = 166               # FY2027-36 added deficit, labor force gr
 # table), which confirms where that table came from.
 ROT_2025_INTEREST_FY2026 = 13.34
 
+CBO_ROT_DEBT_SERVICE_10YR = {"productivity": 40, "labor_force": 20}   # Table 2, debt service, FY2027-36
+# CBO's 2025 workbook (61183, January 2025 baseline), illustrative sheets 5 and 6: the same 0.1-point
+# scenarios from FY2025, billions by year of the shock (k = 1 is FY2025), and the baseline's fiscal-year
+# GDP. Used only for the cross-vintage check in SE-2.
+ROT_2025 = {
+    "gdp": [30136.1, 31341.3, 32538.1, 33764.5, 35047.1, 36393.7, 37792.1, 39252.4, 40767.9, 42330.4, 43936.5],
+    "productivity": dict(rev=[-4.219, -11.04, -18.894, -27.509, -36.963, -47.412, -58.82, -71.374, -84.974, -99.661, -115.773],
+                         man=[-0.023, -0.486, -1.061, -1.901, -2.476, -3.312, -4.229, -5.332, -6.691, -8.041, -9.694],
+                         rate=[-0.596, -2.314, -4.533, -7.337, -10.657, -14.574, -18.938, -23.798, -28.932, -34.53, -40.346]),
+    "labor_force": dict(rev=[-1.649, -4.283, -7.2, -10.373, -13.878, -17.782, -22.053, -26.788, -31.961, -37.56, -43.764],
+                        man=[0.281, 0.74, 1.211, 1.733, 2.29, 2.856, 3.532, 4.482, 5.455, 6.303, 7.304],
+                        rate=[-0.3, -1.101, -2.174, -3.507, -5.131, -7.009, -9.071, -11.442, -13.92, -16.604, -19.399]),
+}
+
+
+def growth_vintage_2025(M):
+    """SE-2's cross-vintage check: growth_path run on shares from CBO's 2025 workbook instead of 62257."""
+    FM, B = M["_FM"], M["B"]
+    out = {}
+    for f in ("productivity", "labor_force"):
+        sh = {f: {k: dict(rev=ROT_2025[f]["rev"][k - 1] / ROT_2025["gdp"][k - 1], man=ROT_2025[f]["man"][k - 1] / ROT_2025["gdp"][k - 1],
+                          rate=ROT_2025[f]["rate"][k - 1] / ROT_2025["gdp"][k - 1], gap=0.0) for k in range(1, 12)}}
+        gp = FM.growth_path(B, f, -0.1, 2026, shares=sh)
+        out[f] = sum(gp[y]["deficit"] for y in range(2027, 2037))
+    return out
+
+
 UPLOADS = [
 ]
 
@@ -460,18 +487,36 @@ def bm_sensitivity(M):
                            "billion over FY2030-39." % (r1[2030], sum(r1[y] for y in range(2030, 2040))),
                            "Cross-check: CBO's 2025 workbook (61183, January 2025 baseline) gives %+.2f billion in FY2026 for the same "
                            "scenario. Those are the figures in Espen's old CBO scorer (SRC-0203), so that table came from it." % ROT_2025_INTEREST_FY2026]))
-    out.append(_bm("SE-2", "Sensitivity", "Slower growth (productivity or labor force 0.1 point a year slower): added deficits",
-                   "fail", "0 for both (the model has no growth response)",
-                   "CBO, FY2027-36: productivity %d, labor force %d" % (CBO_ROT_PRODUCTIVITY_10YR, CBO_ROT_LABOR_10YR),
-                   "ten-year total within 15% for each scenario",
-                   "CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), "
-                   "Table 2; Espen's November 8 upload (PR #121)",
-                   "The model takes CBO's baseline revenue and spending as given in dollars. It has no input for slower growth, so its added "
-                   "deficit is zero where CBO's is $%d billion (productivity) and $%d billion (labor force) over FY2027-36. That is a "
-                   "missing capability, not a calibration error: building a growth response is for B6 or later, calibrated to these tables. "
-                   "Fifteen percent is the same allowance as SE-1's total." % (CBO_ROT_PRODUCTIVITY_10YR, CBO_ROT_LABOR_10YR),
-                   unit="$B", miss="-100%% for both: 0 against %d and %d" % (CBO_ROT_PRODUCTIVITY_10YR, CBO_ROT_LABOR_10YR),
-                   detail=["Program rows indexed to GDP would also shrink with slower growth; the model has no way to feed that in either."]))
+    vint = growth_vintage_2025(M)
+    for sid, factor, want, label in (("SE-2a", "productivity", CBO_ROT_PRODUCTIVITY_10YR, "productivity"),
+                                     ("SE-2b", "labor_force", CBO_ROT_LABOR_10YR, "labor force")):
+        gp = M["_FM"].growth_path(M["B"], factor, -0.1, 2026)
+        # independent arithmetic: each year's deficit is its parts, and the debt grows by the deficits
+        worst = max(abs(gp[y]["deficit"] - (-gp[y]["rev"] + gp[y]["man"] + gp[y]["rate"] + gp[y]["debt_service"])) for y in gp)
+        if worst > FLOAT:
+            raise AssertionError("growth_path's deficit is not the sum of its parts (%.3g)" % worst)
+        got = sum(gp[y]["deficit"] for y in yrs)
+        ds = sum(gp[y]["debt_service"] for y in yrs)
+        cbo_ds = CBO_ROT_DEBT_SERVICE_10YR[factor]
+        miss = got / want - 1
+        out.append(_bm(sid, "Sensitivity", "Slower growth (%s growth 0.1 point a year slower from FY2026): added deficits, FY2027-36" % label,
+                       "pass" if abs(miss) <= 0.15 else "fail", round(got, 1), want, "ten-year total within 15%",
+                       "CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), "
+                       "Tables 1 and 2; Espen's November 8 upload (PR #121); copied into models/data/budget/cbo-rules-of-thumb.csv",
+                       "B6 (item 2) gives the model a growth link (fiscal-model.py, growth_path; ASM-GROWTH-LINK): CBO's own effects on "
+                       "revenue, mandatory spending and interest rates, as shares of GDP by year of the shock, scaled to the size of the "
+                       "change; the model then borrows the added deficits at its own rate. **This is in-sample.** The link is taken from "
+                       "the same CBO table it is checked against, so the benchmark tests only the model's debt service on the added "
+                       "deficits ($%.0f billion against CBO's $%d billion) and the bookkeeping, not how well the link predicts. "
+                       "Fifteen percent is the same allowance as SE-1's total." % (ds, cbo_ds),
+                       unit="$B", miss=None if abs(miss) <= 0.15 else "%+.0f%%" % (100 * miss),
+                       detail=["Model by year: " + ", ".join("FY%d %.0f" % (y, gp[y]["deficit"]) for y in yrs) + ".",
+                               "Out of sample, across vintages: the same method calibrated to CBO's 2025 workbook (61183, January 2025 "
+                               "baseline) and applied to the February 2026 baseline gives $%.0f billion, %+.0f%% from CBO's 2026 figure. "
+                               "CBO's own rules of thumb moved that much between the two baselines, mostly through a larger effect of lower "
+                               "interest rates in 2026. Read any growth reading with that much uncertainty." % (vint[factor], 100 * (vint[factor] / want - 1)),
+                               "Not modeled: program rows indexed to GDP would also shrink with slower growth; the link moves the baseline only."]))
+        out[-1]["in_sample"] = True
     return out
 
 
@@ -569,8 +614,8 @@ def counts_line(results):
     line = "%d benchmarks: %s." % (len(results), ", ".join("%d %s" % (c[k], k) for k in ("pass", "fail", "pending", "info") if c.get(k)))
     ins = [r["id"] for r in results if r.get("in_sample") and r["status"] == "pass"]
     if ins:
-        line += (" %d of the passes (%s) are partly in-sample: their level was calibrated to the same CBO figures they are checked "
-                 "against, so only their timing is tested." % (len(ins), ", ".join(ins)))
+        line += (" %d of the passes (%s) are partly in-sample: they were calibrated to the same CBO figures they are checked "
+                 "against, so only part of each is tested (each entry says which part)." % (len(ins), ", ".join(ins)))
     return line
 
 
