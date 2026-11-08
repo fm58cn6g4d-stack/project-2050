@@ -8,7 +8,7 @@ The legacy D1 planned for a Senate of 52-54 seats, tested every item at 51, and 
 
 Two things are now known:
 - **2026 produced about 55-56 seats** (54 called; Mississippi likely and Alaska leaning Democratic), above the old band (`1-results.md`).
-- **The 2029 Senate is set by the 2028 elections.** Democrats defend 16 seats and Republicans 19. Conditional on a Democratic president, the scenario estimate is about 53-57 seats as the central range, 52 or more very likely, and 58 or more an upside (`5-senate-2028.md`). A midterm wave usually shrinks in the next presidential year, so the 2026 result alone would overstate 2029.
+- **The 2029 Senate is set by the 2028 elections.** Democrats defend 16 seats and Republicans 19. Conditional on a Democratic president, the scenario estimate is about 53-57 seats as the central range, 52 or more very likely, and 58 or more an upside (`5-senate-2028.md`). A midterm environment has usually reverted by several points in the next presidential year (four of six cases since 1994), so the 2026 result alone would likely overstate 2029.
 
 ## The options
 
