@@ -11,7 +11,7 @@ Role: what in the 2025 reconciliation law (Public Law 119-21, "OBBBA") expires a
 
 ## In brief
 
-- **Four household deductions end after tax year 2028:** no tax on tips, no tax on overtime, car-loan interest, and the $6,000 deduction for people 65 and over (statute). Five other provisions also end after 2028 or 2029: the $1,000 children's account pilot, expensing for factories, the higher SALT cap, the clean fuel credit and a small film and sound-recording rule.
+- **Four household deductions end after tax year 2028:** no tax on tips, no tax on overtime, car-loan interest, and the $6,000 deduction for people 65 and over (statute). Six other provisions also end after 2028 or 2029: the $1,000 children's account pilot, expensing for factories, the higher SALT cap, the clean fuel credit, a small sound-recording rule and a limit on the carbon-sequestration credit.
 - **What extending them would cost (JCT, August 2025):**
   - **The four household deductions:** $33 billion in FY2029, because only part of that year's tax receipts is affected, then $68-73 billion a year. That is $384 billion over FY2029-34, about 0.18% of GDP a year once fully phased in.
   - **All ten temporary provisions that CBO and JCT costed:** $787 billion over the same years, $166 billion in FY2034, or 0.38% of GDP.
@@ -53,7 +53,7 @@ Costs are JCT's estimates of the added deficit from making each provision perman
 
 **Reading the costs.**
 - **The fiscal-year pattern.** FY2029 shows only part of tax year 2029 (refunds come in calendar 2030), which is why the household deductions jump from $33 billion to $68 billion.
-- **Interest.** CBO puts the added interest on the full ten-provision extension at $789 billion with the enacted law, against $718 billion without it, over 2025-34. So the extension adds about $71 billion of interest in that window [SRC-1093].
+- **Interest.** CBO puts the act's total debt-service cost over 2025-34 at $789 billion with the ten-provision extension, against $718 billion for the act as enacted. So the extension itself adds about $71 billion of interest in that window [SRC-1093].
 - **Later baselines.** CBO's February 2026 baseline, which the project uses, will have re-estimated all of these. JCT's August 2025 numbers are the latest per-provision extension costs found. CBO's or JCT's next estimates should replace them when published.
 
 **Not on the 2028 list.**
@@ -128,7 +128,7 @@ This is the case `house-stress-test-2029.md` puts at about 11% of Democratic-pre
 ## 4. What it means for the FY2029 baseline (flagged, not changed)
 
 **The adopted input.**
-- **What it is:** CBO's February 2026 ten-year and long-term baselines, adjusted for the tariff ruling (ADJ-T1) and the remaining tariff refunds (ADJ-T2) (`models/tools/fiscal-data.py`; `build/fiscal-long-term-model.md`).
+- **What it is:** CBO's February 2026 ten-year and long-term baselines, adjusted for the tariff ruling (ADJ-T1) and the remaining tariff refunds (ADJ-T2) (`models/tools/fiscal-data.py`; `legacy/index/fiscal-long-term-model.md`).
 - **What it assumes:** CBO's baseline is current law, so it assumes every provision in section 1 lapses on schedule.
 
 **What would change it, for Codex to decide; nothing is changed here.**
