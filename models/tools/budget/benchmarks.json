@@ -5,6 +5,14 @@
   "fail": 2,
   "pending": 3
  },
+ "milestone_passed": false,
+ "open": [
+  "PS-3b",
+  "PS-4",
+  "SE-1",
+  "SE-2",
+  "TF-2"
+ ],
  "benchmarks": [
   {
    "id": "BL-1",

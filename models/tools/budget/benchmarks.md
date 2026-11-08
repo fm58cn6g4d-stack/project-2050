@@ -6,6 +6,8 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 17 benchmarks: 12 pass, 2 fail, 3 pending.
 
+**Milestone status: not passed.** PS-3b, PS-4, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
+
 | ID | Benchmark | Result | Model | Target | Tolerance | Miss |
 | --- | --- | --- | --- | --- | --- | --- |
 | BL-1 | The baseline equals CBO's February 2026 projections plus the documented adjustments | **pass** | B2's 3 reproduction tests: 3 pass | every cell of models/data/fiscal-baseline.csv, FY1962-2056 | exact (the file's three decimals; the unrounded values are the same floating-point numbers) | — |

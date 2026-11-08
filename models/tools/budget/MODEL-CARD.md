@@ -47,6 +47,8 @@ The budget model projects the whole federal budget, year by year from FY2026 to 
 
 17 benchmarks: 12 pass, 2 fail, 3 pending.
 
+**Milestone status: not passed.** PS-3b, PS-4, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
+
 | ID | Benchmark | Result | Model | Target | Tolerance | Miss |
 | --- | --- | --- | --- | --- | --- | --- |
 | BL-1 | The baseline equals CBO's February 2026 projections plus the documented adjustments | **pass** | B2's 3 reproduction tests: 3 pass | every cell of models/data/fiscal-baseline.csv, FY1962-2056 | exact (the file's three decimals; the unrounded values are the same floating-point numbers) | — |
@@ -78,6 +80,24 @@ Unknown fields in the 112 provision specs the model scores (B3, `provisions.md`)
 - **Trust funds (TF):** that the dedicated-funds engine reproduces the 2026 Trustees and SSA's actuaries.
 
 A miss is a result. Nothing in the model or the tolerances is changed to make a benchmark pass; a fix to a method is its own change, reviewed on its own.
+
+## What is not yet validated
+
+The workflow says nothing new feeds a public or decision figure until B4's benchmarks pass. They don't all pass yet (the milestone status in the block above), and Codex's milestone review asked for changes on that ground (PR #115). Until each open benchmark is resolved, or Espen decides the scope explicitly, these readings are **diagnostic only** and must not be used in a decision memo, a dossier's cost section or a public page:
+
+| Reading | Open benchmark | What resolves it |
+| --- | --- | --- |
+| Budget authority for nondefense discretionary rows, and any nondefense spend-out timing | PS-3b (fail) | B3's fix carrying highway and transit separately (PR #118), then a rerun of PS-3b |
+| Medicare Hospital Insurance's absolute depletion year and 75-year balance (the program's gain to HI is the reading the engine supports) | TF-2 (fail) | A fix in `funds-model.py` by its owner, or a year-by-year Trustees HI table |
+| How the library scores an appropriations act (budget authority to outlays, account by account) | PS-4 (pending) | A CBO cost estimate for a full-year act (upload) |
+| The size of the interest-rate stress case (DEC-R1, BASE-R1) | SE-1 (pending) | CBO's rules-of-thumb workbook (upload) |
+| Any response to slower or faster growth | SE-2 (pending; the model has none) | The workbook, and a growth response built in B6 or later |
+
+Two passing benchmarks are weaker than their status suggests, and Codex's review says so too:
+- **PS-1 and PS-2 check methods, not costs.** The cost total goes in from JCT; the benchmarks check how the library spreads it over the years and what interest the model adds. They do not show that the model can estimate a cost.
+- **PS-2 is a weak match.** It is 14% from CBO against a 15% tolerance, with three years of its inputs set equal because the source isn't in the library.
+
+What the benchmarks do support now: the baseline (BL-1), the accounting identities (ID-1 to ID-5), the defense spend-out (PS-3a), Social Security's trust-fund engine (TF-1, TF-3), and the arithmetic behind the D4 readings. The D4 readings also rest on the ledger's midpoints, which no benchmark tests (`CONVENTIONS.md`, choice 2). B4 changes none of those figures.
 
 ## Known limits and errors
 
