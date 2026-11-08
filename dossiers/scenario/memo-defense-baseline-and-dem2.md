@@ -75,18 +75,31 @@ DEM-2 (legacy domain file) is one provision: a federal mandate for congressional
 - *For it:* the ban might attract Republican votes and could ride DEM-1; it is in force sooner.
 - *Against it:* two floor fights under D2's rules; commissions may never get their own slot before 2031.
 
-**Recommendation: B.** It keeps one floor fight and protects the part most likely to survive. Two related choices go with it:
+**D. Criteria and a court backstop, with commissions as a voluntary safe harbor (legacy DEM-2E).**
+- *Source:* the legacy domain file records DEM-2E as an open option under "Decisions in force": "criteria and a three-judge backstop, with commissions as a voluntary safe harbor" (`legacy/domains/domain-democracy.md`, line 16). It does not say whether the mid-decade ban comes with it; this memo assumes it does, as Title I, since the ban is the lowest-risk part.
+- *How it works:* Title I, the ban. Title II, federal criteria with a partisan-fairness standard. Title III, enforcement: a three-judge federal court hears challenges on a fast track and draws a remedial map where a state's map fails the criteria; a map drawn by an independent commission that meets set standards is presumed compliant (the safe harbor). No state is ordered to create a commission.
+- *For it:* removes the highest-risk part, the claim that Congress cannot displace the "Legislature" under the Elections Clause, so there is no mandate for a court to strike. Court-drawn remedial maps are routine after failed redistricting, and three-judge panels with direct appeal to the Supreme Court already exist for redistricting cases (28 U.S.C. 2284; memory, verify). It is settled law before the 2031 maps rather than mid-litigation.
+- *Against it:* fewer states would have commissions; legislatures keep drawing where they choose to, policed only by criteria and courts. The partisan-fairness standard is new and its enforcement depends on federal courts, including a Supreme Court that held partisan gerrymandering claims non-justiciable under the Constitution (*Rucho*); a statutory standard is different, but untested. Weaker message than "independent commissions everywhere."
+
+**Weighing B against D.** They share Titles I and II; the difference is the third title.
+- *If the commission mandate would be upheld,* B is better: every state gets a commission.
+- *If it would be struck,* B falls back to D's position anyway, but only after the litigation ends. Enacted in 2029-30, a mandate would very likely still be in court when states draw in 2031 (census data arrive in spring 2031). States that oppose it would decline to set up commissions while it is challenged, and the 2031 maps would be drawn under uncertainty or under an injunction. D gives the same fallback without the wait.
+- *On the 2031 maps, the ones D1 cares about,* D is the safer bet; B's extra value arrives mostly from the 2041 cycle.
+
+**Recommendation: D, written as B's Titles I-II plus a court backstop and a commission safe harbor.** This changes the recommendation from the earlier draft (B), after weighing DEM-2E. B stays the choice if Espen wants the mandate tried in court: in that case, set Title III's effective date at the 2041 cycle, so a pending challenge cannot cloud the 2031 maps, and keep D's backstop as the fallback. Two related choices go with either:
 - **Effective date:** the ban should apply from enactment through the 2031 cycle, not after 2032 (the bipartisan bill's date), or it leaves 2031 untouched. From enactment, it also freezes the 2025-26 Republican maps and any 2028 Democratic maps until 2031; that is the price of using it at all before 2031.
-- **D1's stipulation** would read as "DEM-2's ban and criteria in force before the 2031 maps," with the commission mandate as the goal rather than the condition.
+- **D1's stipulation** would read as "DEM-2's ban and criteria in force before the 2031 maps," with commissions as the goal rather than the condition. That restatement changes D1's wording, a tier-3 change that also depends on how PR #80 lands; it would go in a separate tier-3 PR after both decisions, not in this memo.
 
 ### What changes under each
 
-| | A | B | C |
-| --- | --- | --- | --- |
-| DEM-2 in the agenda | One item | One item, three titles (sub-IDs added when the democratic-renewal dossier specifies it) | Two items |
-| D1's House stipulation | Unchanged | Restated around Titles I-II | Restated; depends on the first bill's date |
-| Floor time (D2) | One bill | One bill | Two bills |
-| If a court strikes commissions | Risk to the whole | Ban and criteria stand | Ban stands if already enacted |
+| | A | B | C | D (DEM-2E) |
+| --- | --- | --- | --- | --- |
+| DEM-2 in the agenda | One item | One item, three titles (sub-IDs added when the democratic-renewal dossier specifies it) | Two items | One item, three titles; the legacy DEM-2E label |
+| D1's House stipulation | Unchanged | Restated around Titles I-II | Restated; depends on the first bill's date | Restated around Titles I-II |
+| Floor time (D2) | One bill | One bill | Two bills | One bill |
+| Commissions | Mandated | Mandated, severable | Mandated, in a later bill | Voluntary, rewarded by the safe harbor |
+| If a court strikes commissions | Risk to the whole | Ban and criteria stand, after the litigation | Ban stands if already enacted | Nothing to strike |
+| State of the law for the 2031 maps | Mandate likely in court | Mandate likely in court | Second bill may not exist | Settled, if Titles I-II hold |
 
 ## Decide one at a time
 

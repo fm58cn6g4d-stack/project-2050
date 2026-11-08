@@ -81,7 +81,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 ## Questions for Espen
 
-0b. **Two choices in `dossiers/scenario/memo-defense-baseline-and-dem2.md`**, one at a time: (a) count defense against CBO's baseline (A), a fixed flat-real reference (B), or CBO's baseline with a disclosed line (C, recommended; work by Codex after Espen decides); (b) DEM-2 as one provision (A), one severable bill in order ban, criteria, commissions (B, recommended), or two bills (C).
+0b. **Two choices in `dossiers/scenario/memo-defense-baseline-and-dem2.md`**, one at a time: (a) count defense against CBO's baseline (A), a fixed flat-real reference (B), or CBO's baseline with a disclosed line (C, recommended; work by Codex after Espen decides); (b) DEM-2 as one provision (A), one severable bill in order ban, criteria, commissions (B), two bills (C), or legacy DEM-2E, criteria with a court backstop and commissions as a voluntary safe harbor (D, recommended).
 
 0a. **Stage B step 3, 2027-28 and 2028** (`dossiers/scenario/2027-28-stress-tests.md`, "Next questions"; options, none urgent before the lame duck ends):
    - protect the FY2029 reconciliation slot by using only FY2027 and FY2028 resolutions in 2027-28;
