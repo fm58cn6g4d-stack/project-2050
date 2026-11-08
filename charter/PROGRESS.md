@@ -47,7 +47,7 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 
 | Step | Tier | Status | Owner | Where |
 | --- | --- | --- | --- | --- |
-| B2. Budget data layer and baseline reproduction | Most capable | In progress: `models/data/budget/`, `models/tools/budget/data.py`, `test_data.py` | Claude Code (session_01UQzgBuzP6Vxf1gkL2Syq8d) | Branch `claude/budget-b2-data-layer` |
+| B2. Budget data layer and baseline reproduction | Most capable | In review: `models/data/budget/` (CBO February 2026 series, OMB FY2027 Historical Tables 3.2, 5.1, 5.6, 8.7, deflators, a rough discretionary spend-out, `categories.csv`); loader `models/tools/budget/data.py`; `test_data.py` rebuilds `fiscal-baseline.csv` exactly from the layer alone (run-all step 5b). Next: B3. Optional upload for Espen: CBO's *Spending Projections, by Budget Account*, February 2026 (cbo.gov blocks agents) | Claude Code (session_01UQzgBuzP6Vxf1gkL2Syq8d) | PR #105 |
 
 ## Open PRs
 
@@ -113,5 +113,6 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
    - `6-prevention.md`: a standing emergency-rent fund or a one-time package;
    - `8-who-first.md`: who the guarantee reaches first.
    `dossiers/home/3-design.md` also asks a yes or no on fork 7 and on eight narrower points ("Recommended without a memo"); none is adopted until Espen agrees. Point 8 is now the investor limit: leave the ROAD to Housing Act's limit as enacted until the 2037 reports (HOU-7B, recommended), or remove its 2042 sunset now (HOU-7).
+1b. Optional upload for the budget model: CBO's *Spending Projections, by Budget Account* for the February 2026 baseline (cbo.gov, the budget-account spreadsheet). It would give piece B3 CBO's own spend-out rates in place of the rough estimate in `models/data/budget/spendout-discretionary.csv`.
 2. Optional uploads for housing section 2: HUD's Family Options Study reports and *A Picture of Subsidized Households*, and CBO's analysis of the 2023 immigration surge (publication 61464). They would replace secondary summaries (`dossiers/home/2-what-works.md`, "Evidence still needed").
 3. Optional: upload HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026), to raise the 2025 homelessness figures from grade C to A. *Worst Case Housing Needs 2025* and the 2024 homelessness report arrived October 28 and are in the library.
