@@ -887,7 +887,7 @@ Discretionary budget authority is backed out of the model's outlays: each year's
 - **Where:** models/tools/budget/provisions.py:359-370 (spendout_ba)
 - **Source:** Project method (B3)
 - **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
-- **Notes:** B3 finds about $0.10T of budget authority would fall in FY2027-29, before the window (CONVENTIONS.md, Choice 3). All spend-out figures are flagged rough.
+- **Notes:** Some budget authority (about $0.09T on main today; the current figure is in the generated models/tools/budget/provisions.md) would have to be enacted in FY2027-29, before the window (CONVENTIONS.md, Choice 3). All spend-out figures are flagged rough.
 
 ### ASM-BA-EQUALS-OUTLAYS
 
