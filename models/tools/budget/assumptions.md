@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**79 assumptions:** 25 matter a lot, 31 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**81 assumptions:** 25 matter a lot, 33 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -14,9 +14,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - ASM-FY26-TOTALS: FY2026 preliminary actual totals replace CBO's February FY2026 projection
 - ASM-RATE-MARGINAL: Rate on the program's own borrowing through 2036: the higher of CBO's average rate on debt and a 40/60 blend of the 3-month bill and 10-year note
 - ASM-RATE-LT: Rate on the program's own borrowing after 2036: the baseline's implied average rate (net interest over last year's debt)
-- ASM-RATE-SHIFT: Rate stress case: one percentage point higher on all debt (baseline and program) from 2030
-- ASM-WINDOW: The scoring window is FY2030-39; every ledger amount is a ten-year total for those years
-- ASM-CALIB-MID: Each row's FY2030-39 path sums exactly to its ledger midpoint; the low and high ends do not enter the fiscal model
+- ASM-RATE-SHIFT: Rate stress case: one percentage point higher on all rates from 2030, reaching existing debt as it rolls over (ASM-RATE-ROLLOVER) and new borrowing (baseline and program) in full
 - ASM-PROF-DEFAULT: Default profile: starts FY2030, full in its first year, grows with GDP, permanent at the 2039 run rate
 - ASM-PROF-HEALTH: Health rows grow with CBO's own health category, so they keep a constant share of it
 - ASM-PROF-REVENUE: Revenue rows grow with their own tax base (the matching CBO revenue category), including bracket creep
@@ -29,8 +27,8 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Baseline adjustments (3)
 - FY2026 actuals (3)
 - Economic paths (3)
-- Interest (6)
-- Dynamic effects (2)
+- Interest (7)
+- Dynamic effects (3)
 - Program measurement (11)
 - Profiles (10)
 - Defense (1)
@@ -51,7 +49,7 @@ The adopted baseline is CBO's February 2026 current-law baseline: history to FY2
 - **How much it matters:** high: every test and every "below the baseline" figure is measured against it
 - **Where:** models/tools/fiscal-data.py:32-38 (FILES); models/data/fiscal-baseline.csv
 - **Source:** CBO, The Budget and Economic Outlook: 2026 to 2036 (Feb 2026, publication 62105), via github.com/US-CBO/cbo-data; CBO, The Long-Term Budget Outlook: 2026 to 2056 (Feb 2026), via github.com/US-CBO/cbo-data
-- **Decided by:** Espen (D4-B guardrails are "against the real (CBO, adjusted) baseline", Decision Brief 2)
+- **Decided by:** Espen (D4-B guardrails are "against the real (CBO, adjusted) baseline", Decision Brief 2); Espen, Nov 8, 2026: CBO's latest baseline, with the 2027-28 changes as disclosed lines (choice 1, C; memo-budget-choices.md, PR #110; no DEC- entry yet)
 - **Notes:** The only baseline; B2 reproduces it and nothing selects another (WORKFLOW.md). Not yet rebuilt for CBO's 2027 baseline.
 
 ### ASM-BASE-LT-SHARES
@@ -230,14 +228,25 @@ A year's new borrowing pays half a year of interest in that year.
 
 ### ASM-RATE-SHIFT
 
-Rate stress case: one percentage point higher on all debt (baseline and program) from 2030.
+Rate stress case: one percentage point higher on all rates from 2030, reaching existing debt as it rolls over (ASM-RATE-ROLLOVER) and new borrowing (baseline and program) in full.
 
 - **Value:** +1.0 point from FY2030 (percentage points)
-- **How much it matters:** high: the biggest single risk; 2056 baseline debt 180% becomes 224% of GDP
-- **Where:** models/tools/fiscal-model.py:42-43, 121, 191-206
+- **How much it matters:** high: the biggest single risk; 2056 baseline debt 180% becomes 217% of GDP (224% before B6 phased it in)
+- **Where:** models/tools/fiscal-model.py:42-43, 191-206, 334-348
 - **Source:** Project sensitivity; the size echoes CBO's rule-of-thumb tests
 - **Decided by:** unrecorded
 - **Notes:** Reported as scenarios DEC-R1 and BASE-R1; the D4 tests are judged at CBO rates, not under this case.
+
+### ASM-RATE-ROLLOVER
+
+In a rate shock, debt outstanding when it starts reprices only as it matures, on Treasury's maturity structure at the end of FY2026; new borrowing pays the new rate in full.
+
+- **Value:** share still at the old rate, averaged over each year of the shock: 0.75, 0.60, 0.50, 0.42, 0.36 (years 1-5), 0.19 (year 10); average time to repricing 5.9 years (share of debt)
+- **How much it matters:** medium: sets how fast the stress case bites; it lowers the FY2030-39 added interest in BASE-R1 by about a third. SE-1 checks it against CBO
+- **Where:** models/tools/fiscal-model.py:315-348; models/data/budget/treasury-maturity.csv; models/tools/budget/build_maturity.py
+- **Source:** Treasury, Monthly Statement of the Public Debt, Table III, September 30, 2026, via api.fiscaldata.treasury.gov (mspd_table_3_market); method as in CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026)
+- **Decided by:** Claude Code (B6, item 1)
+- **Notes:** The structure at the end of FY2026 is used for a shock starting in any year (a stationary-maturity assumption); floating-rate notes reprice at once, TIPS count by maturity. Debt held by the public is treated as all marketable.
 
 ### ASM-RATE-NOFEEDBACK
 
@@ -269,7 +278,7 @@ Headline figures and the D4 tests are conventional: macroeconomic feedback is ne
 - **Value:** excluded (convention)
 - **How much it matters:** medium: a dynamic score would lower the program's apparent cost by roughly $0.56T only if every DY estimate held
 - **Where:** models/tools/ledger-build.py:98, 211-212 (kept as a separate summary); models/tools/readme.md:23; models/data/inputs/readme.md:18
-- **Source:** Project convention, matching CBO's cost estimates
+- **Source:** Project convention, matching CBO's cost estimates: SRC-1165 (CBO publication 61346, conventional estimates "do not reflect possible macroeconomic changes"); SRC-1163 (CBO publication 57420)
 - **Decided by:** unrecorded
 
 ### ASM-DYN-MID
@@ -283,6 +292,17 @@ Dynamic sensitivity: the sum of the DY1-DY9 midpoints, phased in over 2030-39, b
 - **Decided by:** unrecorded
 - **Notes:** DY1 (-0.6, taxes on corporations and top earners) dominates and its basis is "from memory"; it needs a published source. Continuing the full amount after 2039 is a hidden choice.
 
+### ASM-GROWTH-LINK
+
+Growth link: slower or faster productivity or labor-force growth moves revenue, mandatory spending, interest and GDP by CBO's rules of thumb, scaled to the size of the change.
+
+- **Value:** per 0.1 point slower a year, FY2027-36 added deficit: productivity $320 billion, labor force $171 billion; GDP 1.3% and 0.8% lower after eleven years (share of GDP by year of the change)
+- **How much it matters:** medium: no scenario uses it yet; it is a capability for growth stress cases. CBO's own rules of thumb moved 20-33% between the 2025 and 2026 editions (SE-2a, SE-2b)
+- **Where:** models/tools/fiscal-model.py:351-413; models/data/budget/cbo-rules-of-thumb.csv
+- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Tables 1 and 2
+- **Decided by:** Claude Code (B6, item 2)
+- **Notes:** Calibrated to the same table SE-2 checks (in-sample). After CBO's eleventh year the effects continue on a straight line. Linear in the size of the change, as CBO says holds within half a point. Program rows do not shrink with GDP; interest-rate effects reach baseline debt only.
+
 
 ## Program measurement
 
@@ -293,8 +313,8 @@ The scoring window is FY2030-39; every ledger amount is a ten-year total for tho
 - **Value:** FY2030-39 (years)
 - **How much it matters:** high: anything in FY2029 is outside every total
 - **Where:** models/tools/fiscal-model.py:27; models/data/inputs/readme.md:6
-- **Source:** Project convention (plan begins January 2029, DEC-2026-10-29-01)
-- **Decided by:** unrecorded
+- **Source:** Project convention (plan begins January 2029, DEC-2026-10-29-01); CBO cost estimates cover "the next 5 or 10 years" (SRC-1163, CBO publication 57420)
+- **Decided by:** Espen, Nov 8, 2026: common FY2030-39 window with FY2029 as a disclosed line, plus each bill in its own CBO window (choice 3, A; memo-budget-choices.md, PR #110; no DEC- entry yet)
 - **Notes:** FY2029 effects are unpriced, not zero (fiscal-model.py:98-99 sets years before 2030 to zero; models/data/inputs/readme.md:45 for CAP-7S).
 
 ### ASM-HORIZON
@@ -315,7 +335,7 @@ A policy is measured as an increment over the adopted baseline: each row adds to
 - **Value:** increment over the adjusted CBO baseline (convention)
 - **How much it matters:** high: a row that CBO's baseline already contains reads $0 (see ASM-DEF-BASELINE)
 - **Where:** models/tools/fiscal-model.py:8-10, 144-177; models/tools/fiscal-profiles.py:10-11
-- **Source:** Project convention, matching CBO scoring
+- **Source:** Project convention, matching CBO scoring: SRC-1163 (CBO publication 57420, cost estimates are "in relation to CBO's projections of budgetary outcomes under current law")
 - **Decided by:** Espen (D4-B: guardrails relative to the baseline, Decision Brief 2)
 
 ### ASM-CALIB-MID
@@ -326,7 +346,7 @@ Each row's FY2030-39 path sums exactly to its ledger midpoint; the low and high 
 - **How much it matters:** high: the tests are judged on midpoints, not on a cautious estimate
 - **Where:** models/tools/fiscal-model.py:71-108 (scale at 95); models/tools/fiscal-profiles.py:4-6
 - **Source:** Project method
-- **Decided by:** unrecorded
+- **Decided by:** Espen, Nov 8, 2026: midpoints decide, with a cautious reading reported (choice 2, C; memo-budget-choices.md, PR #110; no DEC- entry yet)
 - **Notes:** The ledger carries low and high ends for every bill (ledger-bills.csv cost_lo, cost_hi).
 
 ### ASM-SIGN
@@ -346,8 +366,8 @@ Two bases: general fund (D4 maturity test) and unified (total debt guardrails). 
 - **Value:** unified_zero for FAM-3 and CLI-2; SS-1 unified = net_mid (convention)
 - **How much it matters:** high: the unified guardrails count Social Security's new payroll revenue against general-fund borrowing
 - **Where:** models/tools/fiscal-model.py:151-154; models/data/inputs/fiscal-profiles.csv:10, 19 (unified_zero)
-- **Source:** SRC-0041 (Decision Brief 2, Oct 20); SRC-0043 (Governing Decisions, D4)
-- **Decided by:** Espen (D4-B, Decision Brief 2)
+- **Source:** SRC-0041 (Decision Brief 2, Oct 20); SRC-0043 (Governing Decisions, D4); SRC-1163 (CBO publication 57420: the unified budget "encompasses all the activities of the federal government"; Social Security is off-budget)
+- **Decided by:** Espen (D4-B, Decision Brief 2); kept by Espen, Nov 8, 2026, with the reading without Social Security as disclosure (choice 5, A; memo-budget-choices.md, PR #110; no DEC- entry yet)
 
 ### ASM-LATER-ROWS
 
@@ -519,8 +539,8 @@ Defense is measured against CBO's baseline: NSC-1A (flat in real terms from FY20
 - **Value:** NSC-1 ledger 0.0 / 0.0 / 0.3 ($T 2030-39)
 - **How much it matters:** high: whatever 2027-28 enacts for defense disappears into the baseline (about $0.13-0.30T over 2030-39)
 - **Where:** models/data/inputs/ledger-bills.csv:51; models/data/inputs/fiscal-profiles.csv:51
-- **Source:** Baseline rule: 2 U.S.C. 907(c) and CBO publication 59208; dossiers/scenario/memo-defense-baseline-and-dem2.md
-- **Decided by:** Espen (NSC-1A, Decision Brief 2); the measuring rule itself is open (memo, choice a)
+- **Source:** Baseline rule: 2 U.S.C. 907(c) and CBO publication 59208; dossiers/scenario/memo-defense-baseline-and-dem2.md; SRC-1164 (CBO publication 58916)
+- **Decided by:** Espen (NSC-1A, Decision Brief 2); the measuring rule was open (memo, choice a) until Espen, Nov 8, 2026: CBO's latest baseline, with 2027-28 defense as a disclosed line (choice 1, C; memo-budget-choices.md, PR #110; no DEC- entry yet)
 - **Notes:** CBO inflates discretionary funding with the GDP price index (and the employment cost index for pay), not CPI, so "flat real" in CBO's sense is GDP-deflator real.
 
 
@@ -533,7 +553,7 @@ Temporary tax provisions of Public Law 119-21 lapse on schedule in the baseline 
 - **Value:** lapse as scheduled (convention)
 - **How much it matters:** high: extending the four household deductions would cost about $33B in FY2029 and $68-73B a year after; all ten, up to $166B by FY2034
 - **Where:** models/tools/fiscal-data.py:10-11 (CBO ten-year file as published)
-- **Source:** CBO publication 59208 ("when taxes are scheduled to expire, those expirations are generally incorporated"); dossiers/scenario/2028-lame-duck.md, sections 1 and 4; SRC-1093
+- **Source:** CBO publication 59208 ("when taxes are scheduled to expire, those expirations are generally incorporated"); dossiers/scenario/2028-lame-duck.md, sections 1 and 4; SRC-1093; SRC-1164 (CBO publication 58916: the baseline "generally reflects current law, including scheduled expiration dates for most tax provisions")
 - **Decided by:** Espen (comes with CBO's baseline, adopted for the D4-B guardrails)
 - **Notes:** A lame-duck extension would need a third baseline adjustment (Codex to decide, 2028-lame-duck.md section 4).
 
@@ -544,7 +564,7 @@ Expiring mandatory programs over $50 million and expiring trust-fund excise taxe
 - **Value:** continue (inherited from CBO) (convention)
 - **How much it matters:** medium: reauthorizing such a program costs $0 against the baseline; letting it lapse would read as a saving
 - **Where:** inherited through models/data/fiscal-baseline.csv
-- **Source:** 2 U.S.C. 907(b)(2); CBO publication 59208
+- **Source:** 2 U.S.C. 907(b)(2); CBO publication 59208; SRC-1164 (CBO publication 58916: mandatory programs "continue to operate throughout the baseline projection period after their scheduled expiration dates")
 - **Decided by:** Espen (comes with CBO's baseline, adopted for the D4-B guardrails)
 
 ### ASM-BASE-DISC-INFLATE
@@ -554,7 +574,7 @@ Discretionary spending in the baseline is the latest full-year appropriation gro
 - **Value:** inherited from CBO (convention)
 - **How much it matters:** high: a supplemental enacted before CBO's next baseline is projected forward in every year
 - **Where:** inherited through models/data/fiscal-baseline.csv
-- **Source:** 2 U.S.C. 907(c)(1), (c)(5); CBO publication 59208
+- **Source:** 2 U.S.C. 907(c)(1), (c)(5); CBO publication 59208; SRC-1164 (CBO publication 58916: appropriations grow with inflation "even if the appropriation is for an emergency or is widely viewed as a onetime appropriation")
 - **Decided by:** Espen (comes with CBO's baseline, adopted for the D4-B guardrails)
 
 
@@ -567,7 +587,7 @@ The all-of-government baseline pays Social Security and Medicare benefits in ful
 - **Value:** scheduled benefits paid (convention)
 - **How much it matters:** high: the baseline's debt includes the cost of paying through depletion
 - **Where:** inherited through models/data/fiscal-baseline.csv
-- **Source:** 2 U.S.C. 907(b)(1); CBO publication 59208
+- **Source:** 2 U.S.C. 907(b)(1); CBO publication 59208; SRC-1164 (CBO publication 58916: "full funding for benefits under entitlement programs even if the source of that funding is inadequate")
 - **Decided by:** Espen (comes with CBO's baseline, adopted for the D4-B guardrails)
 
 ### ASM-TF-75YR

@@ -53,14 +53,15 @@ def fiscal_model():
 
 
 # ---------------------------------------------------------------- published figures used as targets
-# Each is copied from the repository's own record of the source, which is cited; none is fetched.
+# Each is copied from the source, which is cited; the code fetches nothing.
 
 # JCT's estimates of making the temporary provisions of Public Law 119-21 permanent, billions by
 # fiscal year, against CBO's January 2025 baseline, excluding interest. CBO letter of August 4,
-# 2025, Table 2 (SRC-1093), as transcribed in dossiers/scenario/2028-lame-duck.md, section 1. The
-# transcription has FY2029, FY2030, FY2034 and the FY2029-34 total, not FY2031-33.
-JCT_FOUR_DEDUCTIONS = {"fy2029": 33, "fy2030": 68, "fy2034": 73, "fy2029_34": 384}   # tips, overtime, car loans, seniors
-JCT_ALL_TEN = {"fy2029": 42, "fy2030": 108, "fy2034": 166, "fy2029_34": 787}
+# 2025 (publication 61466, SRC-1093), Table 2, read from the PDF Espen uploaded on November 8
+# (library/intake/2026-11-08/cbo/61466-DebtService.pdf, PR #121). The four household deductions are
+# sections 70103 (seniors), 70201 (tips), 70202 (overtime) and 70203 (car-loan interest).
+JCT_FOUR_DEDUCTIONS = {2029: 33, 2030: 68, 2031: 69, 2032: 70, 2033: 71, 2034: 73}   # sum of the four rows; FY2029-34 384
+JCT_ALL_TEN = {2029: 42, 2030: 108, 2031: 151, 2032: 157, 2033: 163, 2034: 166}       # Table 2's total row; FY2029-34 787
 # CBO's debt service on P.L. 119-21 over FY2025-34: $789 billion with the ten provisions made
 # permanent, $718 billion as enacted (same letter, SRC-1093; 2028-lame-duck.md, "Interest").
 CBO_DEBT_SERVICE_WITH, CBO_DEBT_SERVICE_ENACTED = 789, 718
@@ -73,31 +74,61 @@ TRUSTEES_HI = {"depletion": 2033, "payable": 89, "balance": -0.56}
 # during fiscal year 2040"), from Espen's November 8 upload (library/intake/2026-11-08/cbo/, PR #121).
 CBO_HI_EXHAUSTION = 2040
 
-# Leads only, not targets: the "ROT" table in Espen's old CBO scorer (SRC-0203,
-# library/intake/2026-10-28/old-sessions/Claude built CBO scorer tool/cbo-scorer.jsx, line 33),
-# labeled "per 0.1 pp change, 2026-2035, from CBO workbook". The workbook is not in the library,
-# so these numbers are shown for orientation and no benchmark passes or fails on them.
-LEAD_ROT = {
-    "interest_net_interest_per_0.1pt": [13.34, 18.69, 23.74, 28.61, 33.52, 38.08, 42.90, 47.43, 52.25, 56.95],
-    "productivity_deficit_per_0.1pt": [-8.53, -13.98, -19.52, -25.84, -32.50, -39.80, -47.81, -56.59, -66.30, -77.19],
-    "labor_force_deficit_per_0.1pt": [-4.06, -6.57, -9.21, -12.02, -15.09, -18.55, -22.57, -27.09, -31.85, -37.45],
+# CBO's estimate of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023; relative
+# to CBO's May 2023 baseline), millions of dollars by fiscal year: one year of new emergency budget
+# authority and CBO's outlays from it, year by year. Fetched from
+# https://www.cbo.gov/system/files/2023-11/CBO_Estimate_for_the_Israel_Security_Supp_Approp_Act_2024.pdf
+# on November 8, 2026 through a search tool, as Espen allowed that day; cited, not saved.
+CBO_SUPPLEMENTAL_2024 = {
+    "defense": {"title": "Title I, Defense", "ba": 10600,
+                "outlays": [5629, 1373, 1659, 1107, 520, 177, 66, 18, 0, 0]},
+    "nondefense": {"title": "Title II, State, Foreign Operations", "ba": 3700,
+                   "outlays": [3583, 60, 33, 15, 5, 2, 1, 0, 0, 0]},
 }
 
+# CBO's rules of thumb for the February 2026 baseline: How Changes in Economic Conditions Might Affect
+# the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Tables 2 and 3, billions by fiscal
+# year, each for a change of 0.1 percentage point every year. From Espen's November 8 upload
+# (library/intake/2026-11-08/cbo/62257-Rules-of-Thumb.pdf, PR #121). CBO rounds each year to $1 billion;
+# the ten-year totals are CBO's own.
+CBO_ROT_INTEREST = {   # Table 3, interest rates 0.1 point higher: total change in net interest outlays
+    2026: 6, 2027: 14, 2028: 20, 2029: 25, 2030: 31, 2031: 36, 2032: 41, 2033: 46, 2034: 51, 2035: 57, 2036: 62}
+CBO_ROT_INTEREST_10YR = 383            # FY2027-36, Table 3
+CBO_ROT_PRODUCTIVITY_10YR = 317        # FY2027-36 added deficit, productivity growth 0.1 point slower (Table 2)
+CBO_ROT_LABOR_10YR = 166               # FY2027-36 added deficit, labor force growth 0.1 point slower (Table 2)
+# Cross-check only: the 2025 workbook (61183, January 2025 baseline) gives net interest +13.34 in FY2026
+# for the same 0.1-point scenario. Those are the numbers in Espen's old CBO scorer (SRC-0203, the ROT
+# table), which confirms where that table came from.
+ROT_2025_INTEREST_FY2026 = 13.34
+
+CBO_ROT_DEBT_SERVICE_10YR = {"productivity": 40, "labor_force": 20}   # Table 2, debt service, FY2027-36
+# CBO's 2025 workbook (61183, January 2025 baseline), illustrative sheets 5 and 6: the same 0.1-point
+# scenarios from FY2025, billions by year of the shock (k = 1 is FY2025), and the baseline's fiscal-year
+# GDP. Used only for the cross-vintage check in SE-2.
+ROT_2025 = {
+    "gdp": [30136.1, 31341.3, 32538.1, 33764.5, 35047.1, 36393.7, 37792.1, 39252.4, 40767.9, 42330.4, 43936.5],
+    "productivity": dict(rev=[-4.219, -11.04, -18.894, -27.509, -36.963, -47.412, -58.82, -71.374, -84.974, -99.661, -115.773],
+                         man=[-0.023, -0.486, -1.061, -1.901, -2.476, -3.312, -4.229, -5.332, -6.691, -8.041, -9.694],
+                         rate=[-0.596, -2.314, -4.533, -7.337, -10.657, -14.574, -18.938, -23.798, -28.932, -34.53, -40.346]),
+    "labor_force": dict(rev=[-1.649, -4.283, -7.2, -10.373, -13.878, -17.782, -22.053, -26.788, -31.961, -37.56, -43.764],
+                        man=[0.281, 0.74, 1.211, 1.733, 2.29, 2.856, 3.532, 4.482, 5.455, 6.303, 7.304],
+                        rate=[-0.3, -1.101, -2.174, -3.507, -5.131, -7.009, -9.071, -11.442, -13.92, -16.604, -19.399]),
+}
+
+
+def growth_vintage_2025(M):
+    """SE-2's cross-vintage check: growth_path run on shares from CBO's 2025 workbook instead of 62257."""
+    FM, B = M["_FM"], M["B"]
+    out = {}
+    for f in ("productivity", "labor_force"):
+        sh = {f: {k: dict(rev=ROT_2025[f]["rev"][k - 1] / ROT_2025["gdp"][k - 1], man=ROT_2025[f]["man"][k - 1] / ROT_2025["gdp"][k - 1],
+                          rate=ROT_2025[f]["rate"][k - 1] / ROT_2025["gdp"][k - 1], gap=0.0) for k in range(1, 12)}}
+        gp = FM.growth_path(B, f, -0.1, 2026, shares=sh)
+        out[f] = sum(gp[y]["deficit"] for y in range(2027, 2037))
+    return out
+
+
 UPLOADS = [
-    ("CBO's rules-of-thumb workbook for the February 2026 baseline: how deficits change if interest "
-     "rates, productivity growth or labor-force growth differ from CBO's projections (released with "
-     "*The Budget and Economic Outlook: 2026 to 2036*, on cbo.gov's budget and economic data page)",
-     "SE-1, SE-2: turns the sensitivity benchmarks from pending into pass or fail. SRC-0203's numbers "
-     "say they came from this workbook; they can't be checked without it."),
-    ("CBO's letter of August 4, 2025 to Senator Merkley, *Effects on Deficits and the Debt of Public "
-     "Law 119-21 and of Making Certain Tax Policies in the Act Permanent* (publication 61466, the PDF "
-     "with Table 2)",
-     "PS-1, PS-2: the full FY2025-34 annual figures. The repository records only FY2029, FY2030, "
-     "FY2034 and the totals, so PS-2 assumes FY2031-33 are equal (SRC-1093 is a citation row, not a saved copy)."),
-    ("A CBO cost estimate for a recent full-year appropriations act, with budget authority and "
-     "estimated outlays by year (for example, the act of November 2025 that ended the shutdown and "
-     "carried three full-year FY2026 bills, or any later full-year FY2026 act)",
-     "PS-4: a published appropriations score for the spend-out method, account by account."),
 ]
 
 
@@ -238,55 +269,52 @@ def bm_published(M):
     prof = {"start": 2030, "ramp": 1, "grow": "rev_individual"}   # ASM-PROF-REVENUE: the project's default for a revenue row
     path = P.profile_path(PB, 1.0, prof)
     window = range(2030, 2035)
-    tot = JCT_FOUR_DEDUCTIONS["fy2029_34"] - JCT_FOUR_DEDUCTIONS["fy2029"]          # FY2030-34
+    tot = sum(JCT_FOUR_DEDUCTIONS[y] for y in window)          # FY2030-34
     scale = tot / sum(path[y] for y in window)
-    got30, got34 = path[2030] * scale, path[2034] * scale
-    m30 = got30 / JCT_FOUR_DEDUCTIONS["fy2030"] - 1
-    m34 = got34 / JCT_FOUR_DEDUCTIONS["fy2034"] - 1
-    worst = max(abs(m30), abs(m34))
+    got = {y: path[y] * scale for y in window}
+    gaps = {y: got[y] / JCT_FOUR_DEDUCTIONS[y] - 1 for y in window}
+    wy = max(gaps, key=lambda y: abs(gaps[y]))
+    worst = abs(gaps[wy])
     cpi = P.profile_path(PB, 1.0, dict(prof, grow="cpi"))
     cs = tot / sum(cpi[y] for y in window)
     out.append(_bm("PS-1", "Published scores", "JCT: extending P.L. 119-21's four household deductions; the library's timing of a permanent revenue provision",
-                   "pass" if worst <= 0.05 else "fail", "FY2030 %.1f, FY2034 %.1f" % (got30, got34),
-                   "FY2030 %d, FY2034 %d" % (JCT_FOUR_DEDUCTIONS["fy2030"], JCT_FOUR_DEDUCTIONS["fy2034"]),
-                   "5% in each year", "JCT estimates in CBO's letter of August 4, 2025, Table 2 (SRC-1093), as transcribed in dossiers/scenario/2028-lame-duck.md, section 1",
-                   "The library doesn't estimate how much a provision costs: it takes a ten-year total and spreads it over the years. So the test "
+                   "pass" if worst <= 0.05 else "fail", ", ".join("FY%d %.1f" % (y, got[y]) for y in window),
+                   ", ".join("FY%d %d" % (y, JCT_FOUR_DEDUCTIONS[y]) for y in window),
+                   "5% in each year", "JCT estimates in CBO's letter of August 4, 2025 (publication 61466, SRC-1093), Table 2, from the PDF in Espen's November 8 upload (PR #121)",
+                   "The library doesn't estimate how much a provision costs: it takes a total and spreads it over the years. So the test "
                    "of the library is the spreading. The FY2030-34 total JCT gives ($%d billion) goes in; the library's method (provisions.profile_path) "
                    "with the project's default spec for a revenue row (full from the start, growing with individual income tax receipts, "
-                   "permanent: ASM-PROF-REVENUE) puts out the yearly amounts. Five percent allows for JCT's rounding to the billion and "
-                   "the different baseline (January 2025). Over a five-year window it can't tell growth rates apart by less than about two "
-                   "points a year, so the growth gap below is reported as a finding, not tested." % tot,
-                   unit="$B", miss="%+.1f%% in FY2030, %+.1f%% in FY2034" % (100 * m30, 100 * m34) if worst > 0.05 else None,
-                   detail=["JCT's amounts grow about %.1f%% a year, FY2030-34; the default spec grows %.1f%% a year, the speed of individual income tax receipts. "
+                   "permanent: ASM-PROF-REVENUE) puts out the yearly amounts, compared with JCT's in every year. Five percent allows for JCT's "
+                   "rounding to the billion and the different baseline (January 2025). Over a five-year window it can't tell growth rates apart "
+                   "by less than about two points a year, so the growth gap below is reported as a finding, not tested." % tot,
+                   unit="$B", miss="%+.1f%% in FY%d" % (100 * gaps[wy], wy) if worst > 0.05 else None,
+                   detail=["Largest yearly gap: FY%d, %+.1f%%." % (wy, 100 * gaps[wy]),
+                           "JCT's amounts grow about %.1f%% a year, FY2030-34; the default spec grows %.1f%% a year, the speed of individual income tax receipts. "
                            "A likely reason: the deductions are fixed dollar amounts ($25,000 of tips, $12,500 of overtime, $10,000 of car-loan "
                            "interest, $6,000 for each senior), so their cost would grow more slowly than the tax base; whether the statute indexes "
                            "them was not checked here. For a provision like this the default spec front-loads too little and back-loads too much." % (
-                               100 * ((JCT_FOUR_DEDUCTIONS["fy2034"] / JCT_FOUR_DEDUCTIONS["fy2030"]) ** 0.25 - 1),
+                               100 * ((JCT_FOUR_DEDUCTIONS[2034] / JCT_FOUR_DEDUCTIONS[2030]) ** 0.25 - 1),
                                100 * ((path[2034] / path[2030]) ** 0.25 - 1)),
-                           "For comparison only (not the test): the same spec growing with CPI-U gives FY2030 %.1f and FY2034 %.1f." % (cpi[2030] * cs, cpi[2034] * cs),
-                           "Only four of JCT's ten years are recorded in the repository (see uploads)."]))
+                           "For comparison only (not the test): the same spec growing with CPI-U gives FY2030 %.1f and FY2034 %.1f." % (cpi[2030] * cs, cpi[2034] * cs)]))
     # PS-2: debt service on the ten-provision extension
-    fy3133 = (JCT_ALL_TEN["fy2029_34"] - JCT_ALL_TEN["fy2029"] - JCT_ALL_TEN["fy2030"] - JCT_ALL_TEN["fy2034"]) / 3
-    prim = {2029: JCT_ALL_TEN["fy2029"], 2030: JCT_ALL_TEN["fy2030"], 2031: fy3133, 2032: fy3133, 2033: fy3133, 2034: JCT_ALL_TEN["fy2034"]}
+    prim = dict(JCT_ALL_TEN)
     I, _ = FM.debt_roll(B, prim, 0.0)
     got = sum(I[y] for y in range(2025, 2035) if y in I)
     want = CBO_DEBT_SERVICE_WITH - CBO_DEBT_SERVICE_ENACTED
     miss = got / want - 1
     out.append(_bm("PS-2", "Published scores", "CBO: interest cost of extending P.L. 119-21's ten temporary provisions, FY2025-34",
                    "pass" if abs(miss) <= 0.15 else "fail", round(got, 1), want, "15%",
-                   "CBO's letter of August 4, 2025 (SRC-1093): debt service $789 billion with the extension, $718 billion without; JCT's Table 2 for the deficits",
+                   "CBO's letter of August 4, 2025 (publication 61466, SRC-1093): debt service $789 billion with the extension, $718 billion without; "
+                   "Table 2 for the deficits, every year FY2029-34; from the PDF in Espen's November 8 upload (PR #121)",
                    "Tests the model's interest method (fiscal-model.py, debt_roll: market rates on new borrowing, half a year of interest on "
-                   "each year's new deficit) against CBO's own debt-service estimate for the same deficits. JCT's deficits go in; the model's "
-                   "interest comes out. Fifteen percent allows for two known differences: CBO used its January 2025 interest rates and the "
-                   "model uses February 2026's, and FY2031-33 are not recorded, so they are set equal (%.0f billion each, which matches JCT's total). "
-                   "The tolerance was chosen in this PR; the reviewer should say if it is too loose." % fy3133,
+                   "each year's new deficit) against CBO's own debt-service estimate for the same deficits. JCT's deficits go in, year by year; "
+                   "the model's interest comes out. Fifteen percent allows for one known difference: CBO used its January 2025 interest rates "
+                   "and the model uses February 2026's. (Until the PDF arrived, FY2031-33 were set equal; Table 2's own years now go in.)",
                    unit="$B", miss="%+.0f%%" % (100 * miss) if abs(miss) > 0.15 else None,
                    detail=["Model interest by year: " + ", ".join("FY%d %.1f" % (y, I[y]) for y in range(2029, 2035)) + ".",
                            "The model is %+.0f%% from CBO. A higher figure is the cautious direction: the model's rate on new borrowing is at least the market blend." % (100 * miss),
-                           "Checked against Espen's November 8 upload (PR #121): CBO's Table 5-1 (file 51118-2026-02, \"Changes in CBO's Baseline "
-                           "Projections of the Deficit Since January 2025\") gives the 2025 act's effects by year as enacted, not the cost of making "
-                           "its ten temporary provisions permanent, and its net-interest line covers all legislation since January 2025 together. "
-                           "So it can't fill in FY2031-33 here; the equal split stays until publication 61466 is in the library."]))
+                           "Table 2 gives the debt service only for the act and the extension together (by year: FY2026 14 rising to FY2034 155), "
+                           "so the extension's own $%d billion is CBO's two totals differenced, not a yearly series." % want]))
     # PS-3: discretionary spend-out against CBO's projected outlays, read the way the library reads
     # discretionary money (provisions.cbo_discretionary_outlays: CBO's account-level budget authority
     # spent out at B2's CBO-calibrated shares, plus, for nondefense, outlays with no discretionary BA)
@@ -328,44 +356,167 @@ def bm_published(M):
                        "5% in each year", "CBO February 2026 baseline by budget account (US-CBO/cbo-data spending_detail, models/data/budget/cbo-spending-by-function.csv)",
                        why, unit="largest yearly gap", miss="%+.1f%% in FY%d" % (100 * gaps[wy], wy) if abs(gaps[wy]) > 0.05 else None, detail=det))
         out[-1]["in_sample"] = True
-    out.append(_bm("PS-4", "Published scores", "CBO: cost estimate for a full-year appropriations act", "pending", None, None, "to be set with the source",
-                   "Pending source: not in the library, and www.cbo.gov returns 403 to agent sessions (see uploads)",
-                   "A published appropriations score, with budget authority and outlays by year and account, would test the spend-out method "
-                   "on the kind of bill the plan's discretionary rows will be. Pending source."))
+    # PS-4: one act's new budget authority spent out by the library, against CBO's own spend-out
+    for grp, letter in (("defense", "a"), ("nondefense", "b")):
+        c = CBO_SUPPLEMENTAL_2024[grp]
+        ba = {2024 + k: (c["ba"] / 1000.0 if k == 0 else 0.0) for k in range(10)}   # billions; later years zero
+        lib = P.spendout_apply(ba, grp)
+        lib_share = [lib.get(2024 + k, 0.0) * 1000.0 / c["ba"] for k in range(4)]
+        cbo_share = [v / c["ba"] for v in c["outlays"][:4]]
+        cum = lambda xs: [sum(xs[:k + 1]) for k in range(len(xs))]
+        lc, cc = cum(lib_share), cum(cbo_share)
+        gaps = [100 * (lc[k] - cc[k]) for k in range(4)]
+        wk = max(range(4), key=lambda k: abs(gaps[k]))
+        ok = all(abs(g) <= 10 for g in gaps)
+        out.append(_bm("PS-4" + letter, "Published scores",
+                       "CBO: outlays by year from one appropriations act's new %s budget authority (2024 Israel security supplemental, %s)" % (grp, c["title"]),
+                       "pass" if ok else "fail",
+                       "spent by end of year 1-4: " + ", ".join("%.0f%%" % (100 * v) for v in lc),
+                       "CBO: " + ", ".join("%.0f%%" % (100 * v) for v in cc),
+                       "within 10 points of CBO's cumulative share in each of the first four years",
+                       "CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023; SRC-1170), "
+                       "fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day",
+                       "Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated %s shares, ASM-SPENDOUT) on a single act: "
+                       "one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own "
+                       "estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows "
+                       "for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace "
+                       "that kind of spending by a year or more." % grp,
+                       unit="share of budget authority", miss="%+.0f points by end of year %d" % (gaps[wk], wk + 1) if not ok else None,
+                       detail=["CBO by year (millions): " + ", ".join(str(v) for v in c["outlays"]) + " from $%s million." % format(c["ba"], ","),
+                               "This is one emergency supplemental, not a regular appropriation. The library uses one set of shares for every "
+                               "%s row, fit to the average of all such spending; a single act's programs can spend much faster or slower. "
+                               "The result shows how far one act can sit from that average, which is a limit on the library's per-row timing "
+                               "rather than proof that the average is wrong (PS-3 tests the average)." % grp,
+                               ("The library's defense shares spend %.0f%% of the money by the end of year 3 and take some back in year 4, "
+                                "because B2's year-4 defense share is negative and is used as stored (ASM-SPENDOUT-NORM)." % (100 * max(lc))
+                                if grp == "defense" and max(lc) > 1.0 else "The library's shares spend the money evenly over four years; CBO spends this act's almost at once."),
+                               "The two FY2026 House estimates Espen uploaded (H.R. 6938, H.R. 7006) were checked first: they report FY2026 only, "
+                               "with prior years' appropriations mixed into the outlays, so they can't test timing."]))
+    return out
+
+
+MATURITY = os.path.join(ROOT, "models", "data", "budget", "treasury-maturity.csv")
+
+
+def unrepriced_by_year():
+    """From Treasury's maturity table alone: the share of the debt outstanding when a shock starts
+    that is still at its old rate, averaged over each year of the shock. The table gives the share
+    at each quarter-end; between quarter-ends it is taken as a straight line."""
+    with open(MATURITY) as f:
+        S = [float(r["share_unrepriced"]) for r in csv.DictReader(f)]
+    out = {}
+    for k in range(1, (len(S) - 1) // 4 + 1):
+        pts = S[4 * (k - 1):4 * k + 1]
+        out[k] = (pts[0] / 2 + sum(pts[1:-1]) + pts[-1] / 2) / 4
+    return out
+
+
+def shifted_interest(M, shift_pts, start):
+    """Added net interest, {year: billions}, when every rate is shift_pts higher from fiscal year start,
+    by the fiscal model's stated stress method (ASM-RATE-SHIFT, ASM-RATE-ROLLOVER), rewritten here
+    from the written rule rather than called: the debt outstanding at the end of start-1 reaches the
+    higher rate only as it matures (Treasury's maturity structure); debt borrowed since pays it in
+    full; and the added interest is borrowed at the program's rate plus the shift. The debt path is the
+    model's own baseline (BASE); FY2025's is the actual, so a shock can start as early as FY2026."""
+    FM, B, base = M["_FM"], M["B"], M["results"]["BASE"]["years"]
+    debt = lambda y: base[y]["debt"] if y in base else B[y]["debt_public"]
+    still_old = unrepriced_by_year()
+    out, sD, s_ = {}, 0.0, shift_pts / 100
+    D0 = debt(start - 1)
+    for y in range(start, 2057):
+        new_rate_debt = max(0.0, debt(y - 1) - D0 * still_old.get(y - start + 1, 0.0))
+        sI = s_ * new_rate_debt + (FM.marginal_rate(B, y) + s_) * sD
+        sD += sI
+        out[y] = sI
     return out
 
 
 def bm_sensitivity(M):
     R = M["results"]
-    b, r1 = R["BASE"]["years"], R["BASE-R1"]["years"]
-    d, d1 = R["DEC"]["years"], R["DEC-R1"]["years"]
-    extra = [r1[y]["interest"] - b[y]["interest"] for y in range(2030, 2040)]
-    extra_dec = [d1[y]["interest"] - d[y]["interest"] for y in range(2030, 2040)]
-    lead = [10 * v for v in LEAD_ROT["interest_net_interest_per_0.1pt"]]
-    out = [_bm("SE-1", "Sensitivity", "Interest rates 1 point higher on all debt: added net interest", "pending",
-               "year 1 %.0f, year 5 %.0f, year 10 %.0f; ten-year %.0f" % (extra[0], extra[4], extra[9], sum(extra)), None,
-               "to be set with the source",
-               "Pending source: CBO's rules of thumb for the February 2026 baseline (not in the library; see uploads)",
-               "The model's BASE-R1 case raises the rate on all debt by one point from FY2030. CBO's rule of thumb raises all rates by a "
-               "tenth of a point (scaled here by ten) from the first projection year. Until CBO's workbook is in the library there is no "
-               "target, so the result is shown without a pass or fail.", unit="$B",
-               detail=["Model, baseline (FY2030-39, years 1-10 of the shock): " + ", ".join("%.0f" % v for v in extra) + ".",
-                       "Model, decided program (DEC-R1 less DEC): year 1 %.0f, year 10 %.0f, ten-year %.0f." % (extra_dec[0], extra_dec[9], sum(extra_dec)),
-                       "Lead only, not a target (SRC-0203, ten times its per-0.1-point figures for FY2026-35): " + ", ".join("%.0f" % v for v in lead) +
-                       "; ten-year %.0f." % sum(lead),
-                       "What the comparison already suggests: the model reprices all debt at once (fiscal-model.py, baseline(): the shift applies to "
-                       "last year's whole debt), so its year-1 effect is a full point on about $%.1f trillion. CBO's rules of thumb phase the higher "
-                       "rate in as debt matures and is refinanced. If the workbook confirms that, the model overstates the early effect, which is "
-                       "the cautious direction for the plan's stress case (CONVENTIONS.md, choice 4)." % (b[2029]["debt"] / 1000)])]
-    out.append(_bm("SE-2", "Sensitivity", "Slower growth (productivity or labor force 0.1 point a year lower): added deficits", "pending",
-                   None, None, "to be set with the source",
-                   "Pending source and a model capability: CBO's rules of thumb (not in the library; see uploads)",
-                   "The model takes CBO's baseline revenue and spending as given in dollars. It has no way to slow the economy, so it has no "
-                   "response to compare. Only program rows indexed to GDP would move. Building one is for B6 or later, and needs CBO's rules "
-                   "of thumb to calibrate.",
-                   detail=["Lead only, not a target (SRC-0203, per 0.1 point, FY2026-35 ten-year sum; its table lowers deficits, read here as faster growth, "
-                           "so slower growth would raise them by about as much): productivity %.0f, labor force %.0f billion of added deficit." % (
-                       -sum(LEAD_ROT["productivity_deficit_per_0.1pt"]), -sum(LEAD_ROT["labor_force_deficit_per_0.1pt"]))]))
+    out = []
+    # The re-implementation must reproduce the model's own +1-point case exactly before it is used.
+    r1 = shifted_interest(M, 1.0, 2030)
+    check = max(abs(r1.get(y, 0.0) - (R["BASE-R1"]["years"][y]["interest"] - R["BASE"]["years"][y]["interest"])) for y in range(2027, 2057))
+    if check > FLOAT:
+        raise AssertionError("shifted_interest does not reproduce BASE-R1 (largest gap %.3g billion)" % check)
+    got = shifted_interest(M, 0.1, 2026)
+    old = {}   # the method before B6, for the record: all of last year's debt repriced at once
+    sD = 0.0
+    for y in range(2026, 2057):
+        sI = 0.001 * (R["BASE"]["years"][y - 1]["debt"] if y > 2026 else M["B"][2025]["debt_public"]) + (M["_FM"].marginal_rate(M["B"], y) + 0.001) * sD
+        sD += sI
+        old[y] = sI
+    yrs = range(2027, 2037)
+    tot = sum(got[y] for y in yrs)
+    gaps = {y: got[y] / CBO_ROT_INTEREST[y] - 1 for y in yrs}
+    wy = max(gaps, key=lambda y: abs(gaps[y]))
+    tgap = tot / CBO_ROT_INTEREST_10YR - 1
+    ok = abs(tgap) <= 0.15 and all(abs(g) <= 0.25 for g in gaps.values())
+    misses = []
+    if abs(tgap) > 0.15:
+        misses.append("ten-year total %+.0f%%" % (100 * tgap))
+    bad = [y for y in yrs if abs(gaps[y]) > 0.25]
+    if bad:
+        misses.append("%d of 10 years outside 25%% (largest FY%d, %+.0f%%)" % (len(bad), wy, 100 * gaps[wy]))
+    base = R["BASE"]["years"]
+    out.append(_bm("SE-1", "Sensitivity", "Interest rates 0.1 point higher on all debt from FY2026: added net interest",
+                   "pass" if ok else "fail", "FY2027-36 total %.0f; FY2027 %.0f, FY2036 %.0f" % (tot, got[2027], got[2036]),
+                   "CBO: total %d; FY2027 %d, FY2036 %d" % (CBO_ROT_INTEREST_10YR, CBO_ROT_INTEREST[2027], CBO_ROT_INTEREST[2036]),
+                   "ten-year total within 15%, and each year within 25%",
+                   "CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), "
+                   "Table 3, on the February 2026 baseline; Espen's November 8 upload (PR #121). Treasury, Monthly Statement of the Public "
+                   "Debt, September 30, 2026, for the maturity structure (models/data/budget/treasury-maturity.csv)",
+                   "The model's stress cases (DEC-R1, BASE-R1) raise every rate by one point from FY2030. Here the same method, rewritten "
+                   "from its written rule and checked to give BASE-R1 to the dollar, is run on CBO's own scenario: every rate 0.1 point "
+                   "higher each year from FY2026, CBO's first year, on the model's baseline. That compares like with like, with no scaling. "
+                   "FY2026 itself is not compared, because the model's FY2026 is the actual year and CBO's FY2026 shock is partial. "
+                   "As in CBO's rules of thumb, the higher rate reaches the debt outstanding at the start only as it is refinanced, "
+                   "on Treasury's maturity structure (ASM-RATE-ROLLOVER); new borrowing pays it in full. CBO says its rules of thumb are "
+                   "roughly symmetrical and scalable up to one point. The total gets 15% for CBO's rounding and the model's simpler rate "
+                   "rule; each year gets 25%, because the stress case is read year by year (the guardrails in 2035, 2045 and 2056), so "
+                   "timing matters as well as the total. Revenue effects (Federal Reserve remittances, under $5 billion a year in CBO's "
+                   "table) are left out of both sides.",
+                   unit="$B", miss="; ".join(misses) or None,
+                   detail=["Model by year: " + ", ".join("FY%d %.0f" % (y, got[y]) for y in yrs) + ".",
+                           "CBO by year: " + ", ".join("FY%d %d" % (y, CBO_ROT_INTEREST[y]) for y in yrs) + ".",
+                           "Before B6 the model applied the higher rate to all of last year's debt at once. On this scenario that method gave "
+                           "$%.0f billion over FY2027-36 and $%.0f billion in FY2027 (from a FY2027 start, B4's run: $502 billion and $32 billion), "
+                           "against CBO's $383 billion and $14 billion. Phasing the rate in as debt rolls over is B6's fix (item 1)." % (
+                               sum(old[y] for y in yrs), old[2027]),
+                           "In the model's own +1 point case (BASE-R1), the phased method adds $%.0f billion in FY2030, the first year, and $%.0f "
+                           "billion over FY2030-39." % (r1[2030], sum(r1[y] for y in range(2030, 2040))),
+                           "Cross-check: CBO's 2025 workbook (61183, January 2025 baseline) gives %+.2f billion in FY2026 for the same "
+                           "scenario. Those are the figures in Espen's old CBO scorer (SRC-0203), so that table came from it." % ROT_2025_INTEREST_FY2026]))
+    vint = growth_vintage_2025(M)
+    for sid, factor, want, label in (("SE-2a", "productivity", CBO_ROT_PRODUCTIVITY_10YR, "productivity"),
+                                     ("SE-2b", "labor_force", CBO_ROT_LABOR_10YR, "labor force")):
+        gp = M["_FM"].growth_path(M["B"], factor, -0.1, 2026)
+        # independent arithmetic: each year's deficit is its parts, and the debt grows by the deficits
+        worst = max(abs(gp[y]["deficit"] - (-gp[y]["rev"] + gp[y]["man"] + gp[y]["rate"] + gp[y]["debt_service"])) for y in gp)
+        if worst > FLOAT:
+            raise AssertionError("growth_path's deficit is not the sum of its parts (%.3g)" % worst)
+        got = sum(gp[y]["deficit"] for y in yrs)
+        ds = sum(gp[y]["debt_service"] for y in yrs)
+        cbo_ds = CBO_ROT_DEBT_SERVICE_10YR[factor]
+        miss = got / want - 1
+        out.append(_bm(sid, "Sensitivity", "Slower growth (%s growth 0.1 point a year slower from FY2026): added deficits, FY2027-36" % label,
+                       "pass" if abs(miss) <= 0.15 else "fail", round(got, 1), want, "ten-year total within 15%",
+                       "CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), "
+                       "Tables 1 and 2; Espen's November 8 upload (PR #121); copied into models/data/budget/cbo-rules-of-thumb.csv",
+                       "B6 (item 2) gives the model a growth link (fiscal-model.py, growth_path; ASM-GROWTH-LINK): CBO's own effects on "
+                       "revenue, mandatory spending and interest rates, as shares of GDP by year of the shock, scaled to the size of the "
+                       "change; the model then borrows the added deficits at its own rate. **This is in-sample.** The link is taken from "
+                       "the same CBO table it is checked against, so the benchmark tests only the model's debt service on the added "
+                       "deficits ($%.0f billion against CBO's $%d billion) and the bookkeeping, not how well the link predicts. "
+                       "Fifteen percent is the same allowance as SE-1's total." % (ds, cbo_ds),
+                       unit="$B", miss=None if abs(miss) <= 0.15 else "%+.0f%%" % (100 * miss),
+                       detail=["Model by year: " + ", ".join("FY%d %.0f" % (y, gp[y]["deficit"]) for y in yrs) + ".",
+                               "Out of sample, across vintages: the same method calibrated to CBO's 2025 workbook (61183, January 2025 "
+                               "baseline) and applied to the February 2026 baseline gives $%.0f billion, %+.0f%% from CBO's 2026 figure. "
+                               "CBO's own rules of thumb moved that much between the two baselines, mostly through a larger effect of lower "
+                               "interest rates in 2026. Read any growth reading with that much uncertainty." % (vint[factor], 100 * (vint[factor] / want - 1)),
+                               "Not modeled: program rows indexed to GDP would also shrink with slower growth; the link moves the baseline only."]))
+        out[-1]["in_sample"] = True
     return out
 
 
@@ -463,8 +614,8 @@ def counts_line(results):
     line = "%d benchmarks: %s." % (len(results), ", ".join("%d %s" % (c[k], k) for k in ("pass", "fail", "pending", "info") if c.get(k)))
     ins = [r["id"] for r in results if r.get("in_sample") and r["status"] == "pass"]
     if ins:
-        line += (" %d of the passes (%s) are partly in-sample: their level was calibrated to the same CBO figures they are checked "
-                 "against, so only their timing is tested." % (len(ins), ", ".join(ins)))
+        line += (" %d of the passes (%s) are partly in-sample: they were calibrated to the same CBO figures they are checked "
+                 "against, so only part of each is tested (each entry says which part)." % (len(ins), ", ".join(ins)))
     return line
 
 
@@ -481,7 +632,7 @@ def milestone_line(results):
 def page(results):
     w = ["# Budget model benchmarks: results",
          "",
-         "Role: the current result of every benchmark of the federal budget model (piece B4 of `models/tools/budget/WORKFLOW.md`, PR #104 until it merges). "
+         "Role: the current result of every benchmark of the federal budget model (piece B4 of `models/tools/budget/WORKFLOW.md`). "
          "Status: generated by `models/tools/budget/test_benchmarks.py` on every run of `models/tools/run-all.sh`; do not edit by hand. "
          "The same results are in `benchmarks.json` for other tools. What the benchmarks mean, and the model's limits, are in `MODEL-CARD.md`.",
          "",
@@ -510,10 +661,11 @@ def page(results):
         w += ["- %s" % d for d in r["detail"]]
         w.append("")
     w += ["## Documents for Espen to upload", "",
-          "www.cbo.gov refuses agent sessions (403), so these come in as uploads (`library/fetch_public.py --file`). CBO's own GitHub "
+          "www.cbo.gov's bot check blocks direct downloads from agent sessions (403). Since November 8 Espen allows agents to fetch CBO "
+          "documents through search tools instead; an upload (`library/fetch_public.py --file`) also works. CBO's own GitHub "
           "data repository (`US-CBO/cbo-data`, commit 284a956) was checked first, and so were the 16 CBO files Espen uploaded on November 8 "
-          "(PR #121): none of the three is there.", ""]
-    w += ["%d. %s. *Unlocks:* %s" % (i + 1, d, u) for i, (d, u) in enumerate(UPLOADS)]
+          "(PR #121), and CBO documents fetched through search tools where needed.", ""]
+    w += ["%d. %s. *Unlocks:* %s" % (i + 1, d, u) for i, (d, u) in enumerate(UPLOADS)] or ["None outstanding: every benchmark has its source."]
     return "\n".join(w) + "\n"
 
 
@@ -580,10 +732,10 @@ class Benchmarks(unittest.TestCase):
             if r["group"] in ("Baseline", "Accounting identities"):
                 self.assertEqual(r["status"], "pass", "%s: %s (%s)" % (r["id"], r["name"], r["miss"] or r["value"]))
 
-    def test_leads_are_not_targets(self):
+    def test_sensitivity_targets_are_cbos_2026_rules(self):
         for r in RESULTS:
             if r["group"] == "Sensitivity":
-                self.assertIsNone(r["target"], r["id"] + ": SRC-0203's numbers are leads, not targets")
+                self.assertIn("62257", r["source"], r["id"] + ": targets come from CBO's 2026 rules of thumb, not SRC-0203's leads")
 
 
 if __name__ == "__main__":
