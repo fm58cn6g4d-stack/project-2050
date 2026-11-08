@@ -81,7 +81,7 @@ Each worker reports to the strategy session (`session_01UQzgBuA3EdnR7Dx4kUq1un`)
 
 Espen has said the budget model and its shared inputs can come back to Claude from Codex if that's easier.
 
-**Recommendation: move them to Claude**, and keep Codex as the independent reviewer of B4 (benchmarks) and B6 (integration). That change is its own decision, in PR #106 (`DEC-2026-11-08-02`, tier 3), so Espen can take this workflow without it.
+**Recommendation: move them to Claude**, and keep Codex as the independent reviewer of B4 (benchmarks) and B6 (integration). That change is its own decision, in PR #106 (tier 3), so Espen can take this workflow without it.
 
 - **Why move:** Codex's reviews keep stopping at its usage limits (PRs #75 and #77). Claude sessions are building B1–B5, and integration needs that same context. Handing B6 across vendors through PR notes would be the slowest, most error-prone step in the plan.
 - **Why keep Codex involved:** Codex wrote most of the current fiscal model. Its review of the benchmarks and the integration is the check most likely to catch a Claude-side mistake, and the gate already relies on a second vendor for independence.
