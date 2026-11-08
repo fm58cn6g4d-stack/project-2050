@@ -301,8 +301,8 @@ def bm_published(M):
                        "the gap in FY%d is %+.1f%% (largest year FY%d, %+.1f%%). The extra tenth carries, implicitly, outlays whose budget "
                        "authority isn't discretionary: B2 measured about $94 billion a year of them in CBO's account-level file (PR #114), "
                        "$87 billion in function 400 (highways, transit, airports). B3 rescales the shares to add to one (provisions._spendout), "
-                       "which drops those outlays. B2 found this first; B2's PR #114 also proposes CBO-calibrated shares plus those outlays added "
-                       "separately. Which to adopt is for B3's owner and the strategy session." % (
+                       "which drops those outlays. B2 found this first. The strategy session has given the fix to B3: carry highway and transit "
+                       "separately as contract authority (data.cbo_spending, outlays_without_ba, is on main)." % (
                            wy, 100 * unscaled[wy], max(unscaled, key=lambda y: abs(unscaled[y])), 100 * max(unscaled.values(), key=abs)))
         out.append(_bm("PS-3" + ("a" if grp == "defense" else "b"), "Published scores",
                        "CBO: discretionary %s outlays from budget authority (February 2026 baseline)" % grp,
@@ -468,7 +468,8 @@ def page(results):
         w += ["- %s" % d for d in r["detail"]]
         w.append("")
     w += ["## Documents for Espen to upload", "",
-          "www.cbo.gov refuses agent sessions (403), so these come in as uploads (`library/fetch_public.py --file`).", ""]
+          "www.cbo.gov refuses agent sessions (403), so these come in as uploads (`library/fetch_public.py --file`). CBO's own GitHub "
+          "data repository (`US-CBO/cbo-data`, commit 284a956) was checked first: none of the three is there.", ""]
     w += ["%d. %s. *Unlocks:* %s" % (i + 1, d, u) for i, (d, u) in enumerate(UPLOADS)]
     return "\n".join(w) + "\n"
 
