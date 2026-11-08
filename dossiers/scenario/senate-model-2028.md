@@ -310,7 +310,7 @@ It counts opponents in each simulated Senate:
 | Democratic president, environment | Mean seats | Mean opponents | Margin before defections | P(D2-F has the votes) |
 | --- | --- | --- | --- | --- |
 | Neutral | 55.1 | 6.1 | 5.1 | 44% |
-| D+3 | 55.7 | 6.2 | 5.7 | 52% |
+| D+3 | 55.7 | 6.2 | 5.7 | 51% |
 | D+6 | 56.8 | 6.4 | 6.8 | 65% |
 | Evidence-weighted | 56.6 | 6.4 | 6.6 | **62%** |
 
@@ -321,7 +321,7 @@ It counts opponents in each simulated Senate:
 
 **The 2032 drop** (lead's question 3) is in `2030-2034-control.md`, sections 4 and 5:
 - what drives it: Mississippi, South Carolina, Kansas, Iowa and Alaska supply 63% of the expected losses;
-- what changes it: D.C. and Puerto Rico statehood, a mild 2030 midterm and candidate strength.
+- what changes it: a mild 2030 midterm is the largest lever (46% → 56% chance of holding control through 2033-34). Statehood helps less, once the larger chamber is counted (52-53%), and candidate strength least (47-49%).
 
 ## 10. Limits
 
@@ -342,4 +342,4 @@ It counts opponents in each simulated Senate:
 6. **Byrd-rule edges for each flagship.** The table in section 7 is a first sort. The care, housing-conditions and paid-leave edges need a parliamentarian-precedent check before the 2029 vehicles are fixed (D5).
 7. **A demographic correlation structure.** For example, by education and Hispanic share, to test whether Arizona, Nevada and Georgia (or Wisconsin, Ohio and Iowa) move together more than the regional blocs allow.
 8. **What a C (talking filibuster) path looks like at about 6 holdouts.** If round 4 is right that F is a coin flip, D2's floor-day arithmetic for C (about 213-272 days against a 163-day budget, legacy D2) becomes the base case to stress-test, not the fallback.
-9. **Statehood as a 2029-30 bill.** D.C. and Puerto Rico seated by January 2031 is the largest single lever on the 2033 Senate (`2030-2034-control.md`). It needs D2 and, for Puerto Rico, a plebiscite (DEM-6). Can it fit the first Congress's floor budget?
+9. **Statehood as a 2029-30 bill.** Counting the larger chamber, D.C. and Puerto Rico seated by January 2031 are worth only about 6-7 points on 2033 Senate control (`2030-2034-control.md`), less than a mild 2030 midterm. Their case is representation, not the Senate majority. They need D2 and, for Puerto Rico, a plebiscite (DEM-6). Can it fit the first Congress's floor budget?

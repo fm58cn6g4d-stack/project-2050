@@ -188,6 +188,28 @@ class Round4(unittest.TestCase):
         self.assertEqual(dc33['s30'], base['s30'])
         self.assertEqual([a - b for a, b in zip(dc33['s32'], base['s32'])], [2] * base['kept'])
 
+    def test_chamber_adjusted_thresholds(self):
+        self.assertEqual(m.need(50, 0), 50)
+        self.assertEqual(m.need(50, 2), 51)    # 51 of 102 is control with the Vice President
+        self.assertEqual(m.need(50, 4), 52)
+        self.assertEqual(m.need(60, 2), 62)    # three-fifths of 102, rounded up
+        self.assertEqual(m.need(60, 4), 63)
+        # D.C. statehood alone adds two Democratic seats but also raises the bar by one
+        base = m.simulate_chain(3.0, n=1500, seed=13, env_sd=0.0)
+        dc = m.simulate_chain(3.0, n=1500, seed=13, env_sd=0.0, statehood='DC', statehood_from=2031)
+        b = m.chain_table(base)[2][2][0]
+        d = m.chain_table(dc)[2][2][0]
+        self.assertGreaterEqual(d, b)
+
+    def test_whip_is_independent_of_hash_seed(self):
+        import subprocess
+        code = ('import sys; sys.path.insert(0, %r); import senate_model as m; '
+                'o = m.simulate_2028(3.0, n=400, seed=31, env_sd=4.5); print(m.d2f_summary(o, None)["p_pass"])'
+                % os.path.dirname(os.path.abspath(m.__file__)))
+        outs = {subprocess.run([sys.executable, '-c', code], capture_output=True, text=True,
+                               env=dict(os.environ, PYTHONHASHSEED=s)).stdout for s in ('0', '1', '7')}
+        self.assertEqual(len(outs), 1, outs)
+
     def test_pr_split_probabilities_sum_to_one(self):
         self.assertAlmostEqual(sum(p for _, p in m.PR_SPLIT), 1.0)
 

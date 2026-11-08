@@ -501,7 +501,8 @@ def simulate_chain(env28, n=20000, seed=2030, prm=None, env_sd=3.0, midterm=None
     prm2 = dict(prm, shrink=c2_shrink) if c2_shrink is not None else prm
     c2 = {s: (lean(s, prm), class_effect(s, p, m, 2026, prm2, vs_ind=s in CLASS2_VS_IND)) for s, (p, m) in CLASS2.items()}
     half = prm['inc'] * 0.5
-    res = dict(s28=[], s30=[], s32=[], dpres28=[], dpres32=[], e30=[], e32=[], kept=0, w32=[], h32=[])
+    res = dict(s28=[], s30=[], s32=[], dpres28=[], dpres32=[], e30=[], e32=[], kept=0, w32=[], h32=[],
+               add30=[], add32=[])   # seats added to the chamber by statehood, by Congress
     for i in range(n):
         s28 = o28['seats'][i]
         e28 = o28['env'][i]
@@ -535,6 +536,10 @@ def simulate_chain(env28, n=20000, seed=2030, prm=None, env_sd=3.0, midterm=None
         new = 0
         if statehood:
             new = 2 + (_pick_split(rng) if statehood == 'DC+PR' else 0)
+        add30 = add32 = 0
+        if statehood:
+            add32 = 2 if statehood == 'DC' else 4
+            add30 = add32 if statehood_from == 2031 else 0
         if statehood and statehood_from == 2031:
             s30 += new
         # 2032 presidential year: environment drifts from 2028
@@ -570,6 +575,8 @@ def simulate_chain(env28, n=20000, seed=2030, prm=None, env_sd=3.0, midterm=None
         res['e30'].append(e30)
         res['e32'].append(e32)
         res['w32'].append(frozenset(won32))
+        res['add30'].append(add30)
+        res['add32'].append(add32)
         res['h32'].append(frozenset(s for s, (p, _) in CLASS2.items() if (holder2.get(s, p)) == 'D'))
     res['kept'] = len(res['s28'])
     return res
@@ -600,18 +607,32 @@ def drivers_2032(res, cond28='D'):
     return sorted(rows, key=lambda r: -r[2])
 
 
+def need(t, added):
+    """Seats needed for threshold t (stated for a 100-seat Senate) in a chamber enlarged by `added` seats.
+
+    50 and 51 (control with and without the Vice President) and 55 shift by half the added seats; 60 becomes
+    three-fifths of the chamber, rounded up (cloture). Review finding on #84: statehood enlarges the chamber."""
+    if t == 60:
+        return math.ceil(0.6 * (100 + added) - 1e-9)
+    return t + added / 2
+
+
 def chain_table(res, cond28=None):
+    """Seat thresholds are chamber-adjusted: with statehood, 50 means control-equivalent (51 of 102, 52 of 104)."""
     idx = [i for i in range(res['kept']) if cond28 is None or res['dpres28'][i] == (cond28 == 'D')]
     m = len(idx)
+    add = {'s28': [0] * res['kept'], 's30': res.get('add30') or [0] * res['kept'],
+           's32': res.get('add32') or [0] * res['kept']}
     rows = []
     for key, label in (('s28', 'January 2029'), ('s30', 'January 2031'), ('s32', 'January 2033')):
-        v = [res[key][i] for i in idx]
-        rows.append((label, st.mean(v), sum(x >= 50 for x in v) / m, sum(x >= 51 for x in v) / m,
-                     sum(x >= 55 for x in v) / m, sum(x >= 60 for x in v) / m))
-    # "through each Congress": the seat floor held continuously from 2029
+        v = [(res[key][i], add[key][i]) for i in idx]
+        rows.append((label, st.mean(x for x, _ in v)) +
+                    tuple(sum(x >= need(t, a) for x, a in v) / m for t in (50, 51, 55, 60)))
+    # "through each Congress": the threshold held continuously from 2029
     thru = []
     for upto in (('s28',), ('s28', 's30'), ('s28', 's30', 's32')):
-        thru.append(tuple(sum(all(res[k][i] >= t for k in upto) for i in idx) / m for t in (50, 55, 60)))
+        thru.append(tuple(sum(all(res[k][i] >= need(t, add[k][i]) for k in upto) for i in idx) / m
+                          for t in (50, 55, 60)))
     return m, rows, thru
 
 
@@ -813,7 +834,7 @@ def whip_d2f(o, seed=11, scale=1.0):
             if (s == 'AK' and not dr['AK-2026']) or (s == 'MS' and not dr['MS-2026']):
                 continue
             opp += rng.random() < (p if ('C2', s) in WHIP_NAMED else min(1.0, p * scale))
-        for k in o['dwon'][i]:
+        for k in sorted(o['dwon'][i]):   # sorted: frozenset order varies with the hash seed
             p = WHIP_C3.get(k, WHIP_OTHER)
             opp += rng.random() < (p if ('C3', k) in WHIP_NAMED else min(1.0, p * scale))
         out.append((o['seats'][i], opp, o['dpres'][i]))
@@ -876,8 +897,10 @@ def report_round4(n=20000):
     w('| --- | --- | --- | --- |')
     for s, ph, share, el in drivers_2032(base)[:10]:
         w('| %s | %s | %s | %.2f |' % (s, fmt_pct(ph), fmt_pct(share), el))
-    w('\nLevers (same runs; held 50+ means in every Congress through 2033-34):\n')
-    w('| Lever | Mean seats Jan 2031 | Mean seats Jan 2033 | P(≥50) Jan 2033 | Held 50+ through 2033-34 | Held 55+ through 2033-34 |')
+    w('\nLevers (same runs; held 50+ means in every Congress through 2033-34). With statehood the chamber has 102 '
+      'or 104 seats, so the thresholds are chamber-adjusted: "50+" means control with a Democratic Vice President '
+      '(51 of 102, 52 of 104) and "55+" shifts the same way; mean seats are raw.\n')
+    w('| Lever | Mean seats Jan 2031 | Mean seats Jan 2033 | P(control-equivalent 50+) Jan 2033 | Held 50+ through 2033-34 | Held 55+ through 2033-34 |')
     w('| --- | --- | --- | --- | --- | --- |')
     levers = [
         ('Base', {}),
