@@ -24,6 +24,9 @@ The leading number in each name is CBO's publication ID; the file names are othe
 | `57420-Budgetary-Terms.pdf` | Common Budgetary Terms Explained (December 2021) |
 | `53537-workingpaper.pdf` | Working paper: How CBO Produces Its 10-Year Economic Forecast (Robert W. Arnold) |
 | `61882-Outlook-2026.pdf.zip` | The Budget and Economic Outlook: 2026 to 2036 (February 2026), report PDF as uploaded (zipped; not opened) |
+| `61466-DebtService.pdf` | Effects on Deficits and the Debt of Public Law 119-21 and of Making Certain Tax Policies in the Act Permanent (letter to Sen. Merkley, August 4, 2025) |
+| `hr6938-Divisions-A-C.pdf` | Cost estimate, H.R. 6938, Commerce-Justice-Science; Energy and Water; Interior and Environment Appropriations Act, 2026, divisions A-C (January 7, 2026) |
+| `hr7006-Divisions-A-and-B.pdf` | Cost estimate, H.R. 7006, Financial Services and General Government; National Security, State and Related Programs Appropriations Act, 2026, divisions A-B (January 14, 2026) |
 | `62044-2026-LTBO.xlsx` | 2026 long-term budget outlook supplemental data |
 | `62556-2026-Additional-Info.xlsx` | Additional information (2026) |
 | `62556-2026-Long-Term-Social-Security-Projections.xlsx` | Long-term Social Security projections (2026) |
