@@ -68,6 +68,10 @@ CBO_DEBT_SERVICE_WITH, CBO_DEBT_SERVICE_ENACTED = 789, 718
 # Trustees' 2026 intermediate figures, as funds-model.py prints them beside its own (lines 306, 335)
 TRUSTEES_OASDI = {"depletion": 2034, "payable": 83, "balance": -4.42}
 TRUSTEES_HI = {"depletion": 2033, "payable": 89, "balance": -0.56}
+# Context only, not a target: CBO's own projection of the HI trust fund (The Long-Term Budget Outlook:
+# 2026 to 2056, data file 51119-2026-02-25, sheet "3. HI Trust Fund Inc Exp Bal", note: "exhausted
+# during fiscal year 2040"), from Espen's November 8 upload (library/intake/2026-11-08/cbo/, PR #121).
+CBO_HI_EXHAUSTION = 2040
 
 # Leads only, not targets: the "ROT" table in Espen's old CBO scorer (SRC-0203,
 # library/intake/2026-10-28/old-sessions/Claude built CBO scorer tool/cbo-scorer.jsx, line 33),
@@ -278,7 +282,11 @@ def bm_published(M):
                    "The tolerance was chosen in this PR; the reviewer should say if it is too loose." % fy3133,
                    unit="$B", miss="%+.0f%%" % (100 * miss) if abs(miss) > 0.15 else None,
                    detail=["Model interest by year: " + ", ".join("FY%d %.1f" % (y, I[y]) for y in range(2029, 2035)) + ".",
-                           "The model is %+.0f%% from CBO. A higher figure is the cautious direction: the model's rate on new borrowing is at least the market blend." % (100 * miss)]))
+                           "The model is %+.0f%% from CBO. A higher figure is the cautious direction: the model's rate on new borrowing is at least the market blend." % (100 * miss),
+                           "Checked against Espen's November 8 upload (PR #121): CBO's Table 5-1 (file 51118-2026-02, \"Changes in CBO's Baseline "
+                           "Projections of the Deficit Since January 2025\") gives the 2025 act's effects by year as enacted, not the cost of making "
+                           "its ten temporary provisions permanent, and its net-interest line covers all legislation since January 2025 together. "
+                           "So it can't fill in FY2031-33 here; the equal split stays until publication 61466 is in the library."]))
     # PS-3: discretionary spend-out against CBO's projected outlays, read the way the library reads
     # discretionary money (provisions.cbo_discretionary_outlays: CBO's account-level budget authority
     # spent out at B2's CBO-calibrated shares, plus, for nondefense, outlays with no discretionary BA)
@@ -386,7 +394,13 @@ def bm_trust_funds():
                        "balance, which funds-model.py says differs only by \"rounding in the published rates and the interest path\".",
                        miss=", ".join(misses) or None,
                        detail=(["funds-model.py's own page says the HI check is off and that the program's gain, not the absolute balance, is "
-                                "the reading to use (legacy/index/dedicated-funds.md, Medicare HI)."] if id == "TF-2" else [])))
+                                "the reading to use (legacy/index/dedicated-funds.md, Medicare HI).",
+                                "Which reference: the Trustees. The engine runs on the Trustees' own cost and income rates, so their projection is "
+                                "the one it should reproduce, and the miss is against them. CBO projects HI exhausted during FY%d (Long-Term Budget "
+                                "Outlook data, February 2026; Espen's November 8 upload, PR #121), %d years after the Trustees and %d after the "
+                                "model. That gap is a difference between the two forecasters' assumptions, not a check on the engine, so it is "
+                                "context, not a target." % (CBO_HI_EXHAUSTION, CBO_HI_EXHAUSTION - want["depletion"], CBO_HI_EXHAUSTION - got["depletion"])]
+                               if id == "TF-2" else [])))
     v = F["ss_validation"]
     worst = max(v, key=lambda r: abs(r["model"] - r["ssa"]))
     gap = worst["model"] - worst["ssa"]
@@ -497,7 +511,8 @@ def page(results):
         w.append("")
     w += ["## Documents for Espen to upload", "",
           "www.cbo.gov refuses agent sessions (403), so these come in as uploads (`library/fetch_public.py --file`). CBO's own GitHub "
-          "data repository (`US-CBO/cbo-data`, commit 284a956) was checked first: none of the three is there.", ""]
+          "data repository (`US-CBO/cbo-data`, commit 284a956) was checked first, and so were the 16 CBO files Espen uploaded on November 8 "
+          "(PR #121): none of the three is there.", ""]
     w += ["%d. %s. *Unlocks:* %s" % (i + 1, d, u) for i, (d, u) in enumerate(UPLOADS)]
     return "\n".join(w) + "\n"
 
