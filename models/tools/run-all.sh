@@ -65,8 +65,12 @@ python3 "$ROOT"/library/test_fetch_public.py 2>&1 | tail -1
 
 python3 "$TOOLS"/climate-integration-report.py
 
+echo "== 8f. budget assumptions page (from models/data/budget/assumptions.csv)"
+python3 "$TOOLS"/budget/assumptions_page.py --out "$BUILD/budget-assumptions.md" >/dev/null
+
 OUT=(
   'climate-ledger-integration.md|legacy/sources/climate-ledger-integration.md'
+  'budget-assumptions.md|models/tools/budget/assumptions.md'
   'recovery-budget.md|legacy/index/recovery-budget.md'
   'recovery-budget.json|models/data/recovery-budget.json'
   'recovery-budget-paths.csv|models/data/recovery-budget-paths.csv'

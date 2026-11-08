@@ -45,9 +45,10 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Workers report to the strategy session.
 
-| Step | Tier | Status | Owner | Where |
-| --- | --- | --- | --- | --- |
-| B2. Budget data layer and baseline reproduction | Most capable | In review: `models/data/budget/` (CBO February 2026 series, OMB FY2027 Historical Tables 3.2, 5.1, 5.6, 8.7, deflators, a rough discretionary spend-out, `categories.csv`); loader `models/tools/budget/data.py`; `test_data.py` rebuilds `fiscal-baseline.csv` exactly from the layer alone (run-all step 5b). Next: B3. Optional upload for Espen: CBO's *Spending Projections, by Budget Account*, February 2026 (cbo.gov blocks agents) | Claude Code (session_01UQzgBuzP6Vxf1gkL2Syq8d) | PR #105 |
+| Piece | Step | Tier | Status | Owner | Where |
+| --- | --- | --- | --- | --- | --- |
+| Federal budget model | B1. Budget conventions and assumptions register | Most capable | In review: `models/tools/budget/CONVENTIONS.md` (ten conventions, five choices for Espen); `models/data/budget/assumptions.csv`, 67 assumptions (`ASM-`); the generated `models/tools/budget/assumptions.md` (run-all step 8f, drift-checked); the registry checker resolves `ASM-` IDs. Next: B7 memos from the five choices (strategy session); B2's deflator assumptions join the register | Claude Code (session_01UQzgBswpk24hYE4v6TeEnD) | Branch `claude/budget-b1-assumptions` |
+| Federal budget model | B2. Budget data layer and baseline reproduction | Most capable | In review: `models/data/budget/` (CBO February 2026 series, OMB FY2027 Historical Tables 3.2, 5.1, 5.6, 8.7, deflators, a rough discretionary spend-out, `categories.csv`); loader `models/tools/budget/data.py`; `test_data.py` rebuilds `fiscal-baseline.csv` exactly from the layer alone (run-all step 5b). Next: B3. Optional upload for Espen: CBO's *Spending Projections, by Budget Account*, February 2026 (cbo.gov blocks agents) | Claude Code (session_01UQzgBuzP6Vxf1gkL2Syq8d) | PR #105 |
 
 ## Open PRs
 
@@ -88,6 +89,8 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 - **Standards wording.** The data-versus-analysis and corroboration rule Espen asked for on October 28 is in `dossiers/TEMPLATE.md` and the checker. It also belongs in `charter/STANDARDS.md`, which is tier 3: proposed for the next charter PR, with Espen's stage A sign-off for `charter/decisions.md`.
 
 ## Questions for Espen
+
+0c. **Five budget counting choices** (`models/tools/budget/CONVENTIONS.md`, "Choices for Espen"; memos to follow from the strategy session, none urgent): which baseline the plan is held to as CBO rebaselines (defense, a lame-duck tax extension, supplementals); midpoints or cautious estimates in the D4 tests; FY2029 and the scoring window; whether the debt guardrails must hold with higher interest rates; whether Social Security's new revenue counts toward the total-debt guardrails.
 
 0b. **Two choices in `dossiers/scenario/memo-defense-baseline-and-dem2.md`**, one at a time: (a) count defense against CBO's baseline (A), a fixed flat-real reference (B), or CBO's baseline with a disclosed line (C, recommended; work by Codex after Espen decides); (b) DEM-2 as one provision (A), one severable bill in order ban, criteria, commissions (B), two bills (C), or legacy DEM-2E, criteria with a court backstop and commissions as a voluntary safe harbor (D, recommended, with Title II, the criteria, written to survive on its own, since it carries nearly all of the 2032 House value).
 
