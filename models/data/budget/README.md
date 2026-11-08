@@ -21,9 +21,10 @@ Role: the budget series every piece of the federal budget model reads (workflow 
 | `deflators.csv` | CPI-U and the GDP price index as one fiscal-year series each (see "Deflators") | FY1950-2056 | `build_data.py` |
 | `omb-outlays-by-function.csv` | OMB Historical Table 3.2: outlays by function and subfunction | FY1962-2025 | `build_data.py` |
 | `omb-ba-by-function.csv` | OMB Historical Table 5.1: budget authority by function and subfunction | FY1976-2025 | `build_data.py` |
-| `omb-discretionary.csv` | OMB Historical Tables 5.6 and 8.7: discretionary budget authority and outlays by program group, defense and nondefense | BA FY1976-2025; outlays FY1962-2025 | `build_data.py` |
+| `omb-discretionary.csv` | OMB Historical Tables 5.6 and 8.7: discretionary budget authority and outlays by program group, defense and nondefense, with ground transportation shown separately | BA FY1976-2025; outlays FY1962-2025 | `build_data.py` |
 | `provisions.csv` | One provision spec per ledger row (piece B3; see "Provision specs") | — | by hand, seeded from the ledger and profile tables |
 | `cbo-spending-by-function.csv` | CBO's *Spending Projections, by Budget Account*, February 2026 baseline (1,979 accounts), summed by year, discretionary or mandatory, CBO category and budget function: budget authority, outlays, and outlays of accounts with no budget authority that year (see "Accounts") | FY2026-2036 | `build_data.py` |
+| `spendout-discretionary-cbo.csv` | Spend-out of discretionary budget authority, defense and nondefense: OMB history's timing, scaled to CBO's projected outlays (see "Spend-out set by CBO's projections") | history FY1993-2019; calibration FY2029-2036 | `build_data.py` |
 | `spendout-discretionary.csv` | Estimated spend-out of discretionary budget authority, defense and nondefense (see "Spend-out") | fit on FY1993-2019 | `build_data.py` |
 | `omb/*.xlsx` | The four OMB tables as published, the source for the OMB files above | — | downloaded |
 
@@ -70,13 +71,31 @@ OMB publishes discretionary budget authority and outlays, but not how fast each 
 | Defense | 44% | 34% | 24% | -4% | 0.98 | 2.2% of mean outlays |
 | Nondefense | 27% | 37% | 31% | 15% | 1.10 | 3.6% |
 
-Read these as rough. The defense year-4 share is slightly negative, which is noise in the fit. Nondefense shares add to more than one because nondefense discretionary outlays include highway and transit spending under obligation limitations. That budget authority is mandatory contract authority, so OMB does not count it as discretionary. B3 uses these shares (`ASM-SPENDOUT`) and should treat them as placeholders; "Accounts" below has CBO's own figures to replace or calibrate them.
+Read these as rough. The defense year-4 share is slightly negative, which is noise in the fit. Nondefense shares add to more than one because nondefense discretionary outlays include highway and transit spending under obligation limitations. That budget authority is mandatory contract authority, so OMB does not count it as discretionary. B3 uses these shares (`ASM-SPENDOUT`) and should treat them as placeholders. "Spend-out set by CBO's projections" below gives a version calibrated to CBO's own figures.
 
 ## Accounts
 
 `cbo-spending-by-function.csv` sums CBO's account-level projections. Its discretionary defense and nondefense budget authority and outlays, its net interest and its total outlays equal CBO's ten-year baseline in every year FY2026-2036, to the $1 million (`test_data.py`). The full account file stays in the CBO cache, as CBO wrote it, for anyone who needs an account.
 
-The file gives each account's budget authority and outlays by year, not the outlay rates CBO applies to each year's appropriation. So it does not hand B3 spend-out rates directly. It does give CBO's own outlays for any group of discretionary accounts, which a spend-out can be calibrated to. It also shows where most of the gap B4 found comes from (PR #113: B3's spend-out on CBO's nondefense budget authority falls about 11% short of CBO's nondefense outlays in FY2029). About $94 billion a year of discretionary nondefense outlays come from accounts with no discretionary budget authority: `outlays_without_ba`, $87 billion of it in function 400, transportation (federal-aid highways, transit formula grants, airport grants), whose contract authority is mandatory. Any spend-out applied to discretionary budget authority misses that spending unless it is added separately. Whether B3 switches is for B3's owner and the strategy session; nothing here changes `spendout-discretionary.csv` or B3's results.
+The file gives each account's budget authority and outlays by year, not the outlay rates CBO applies to each year's appropriation. So it does not hand B3 spend-out rates directly. It does give CBO's own outlays for any group of discretionary accounts, which a spend-out can be calibrated to. It also shows where most of the gap B4 found comes from (PR #113: B3's spend-out on CBO's nondefense budget authority falls about 11% short of CBO's nondefense outlays in FY2029). About $94 billion a year of discretionary nondefense outlays come from accounts with no discretionary budget authority: `outlays_without_ba`, $87 billion of it in function 400, transportation (federal-aid highways, transit formula grants, airport grants), whose contract authority is mandatory. Any spend-out applied to discretionary budget authority misses that spending unless it is added separately. "Spend-out set by CBO's projections" below uses this.
+
+## Spend-out set by CBO's projections
+
+`spendout-discretionary-cbo.csv` takes the timing of spending from OMB's history and the level from CBO's projections:
+
+1. **Timing.** The same least-squares fit as `spendout-discretionary.csv`, FY1993-2019, except that ground transportation is taken out of nondefense budget authority and outlays. Most of its outlays rest on mandatory contract authority, so they have no discretionary budget authority behind them.
+2. **Level.** One scale factor per group, chosen so that the shares, applied to CBO's projected discretionary budget authority (the account file, FY2026-2036), give CBO's projected outlays over FY2029-2036. For nondefense, CBO's outlays leave out accounts with no budget authority in the year (`outlays_without_ba`).
+
+| | Year 1 | Year 2 | Year 3 | Year 4 | Shares add to | Scale | Fit to CBO |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Defense | 44% | 34% | 24% | -4% | 0.99 | 1.009 | 0.4% of mean outlays |
+| Nondefense, without zero-BA accounts | 25% | 36% | 30% | 10% | 1.00 | 0.998 | 0.8% |
+
+The two sources agree. Once ground transportation is out, OMB's history alone gives nondefense shares that add to 1.004, against 1.10 with it, and CBO's projections need a scale within 1% of one for both groups. Applied to CBO's projected budget authority, with the zero-BA outlays added back for nondefense, the shares miss CBO's FY2029 outlays by -0.1% for defense and -1.4% for nondefense. The year-1 and year-2 shares are still history's shape, not CBO's account-by-account rates. CBO doesn't publish those rates.
+
+**Highway, transit and airport grants** have no discretionary budget authority to spend out. Read their outlays directly: `data.cbo_spending("outlays_without_ba", "discretionary", "Nondefense")` gives about $94 billion a year, $87 billion of it in function 400. An account counts here in any year its budget authority is zero, so a few accounts that spend earlier advance appropriations (for example broadband deployment, function 370) are included too.
+
+`spendout-discretionary.csv` is unchanged, and so are B3 and B4, which read it. Switching to this file is for B3's owner.
 
 ## Provision specs
 
