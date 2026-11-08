@@ -4,9 +4,9 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 **How to read it.** *pass*: within the stated tolerance. *fail*: outside it; the miss column gives the size. *pending*: there is no target yet, because the source isn't in the library or the model can't compute the quantity. A miss is reported, never fixed by changing the model or the tolerance.
 
-17 benchmarks: 12 pass, 2 fail, 3 pending.
+17 benchmarks: 13 pass, 1 fail, 3 pending.
 
-**Milestone status: not passed.** PS-3b, PS-4, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
+**Milestone status: not passed.** PS-4, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
 
 | ID | Benchmark | Result | Model | Target | Tolerance | Miss |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -19,8 +19,8 @@ Role: the current result of every benchmark of the federal budget model (piece B
 | ID-5 | Nominal equals real times the deflator, and share of GDP times GDP (B2's two conversions) | **pass** | 2.07e-16 (largest relative error) | 0.00 | relative error 1e-12 | — |
 | PS-1 | JCT: extending P.L. 119-21's four household deductions; the library's timing of a permanent revenue provision | **pass** | FY2030 65.0, FY2034 75.9 ($B) | FY2030 68, FY2034 73 | 5% in each year | — |
 | PS-2 | CBO: interest cost of extending P.L. 119-21's ten temporary provisions, FY2025-34 | **pass** | 80.70 ($B) | 71 | 15% | — |
-| PS-3a | CBO: discretionary defense outlays from budget authority (February 2026 baseline) | **pass** | +2.1% (largest yearly gap) | CBO's outlays, FY2028-36 | 5% in each year | — |
-| PS-3b | CBO: discretionary nondefense outlays from budget authority (February 2026 baseline) | **fail** | -11.1% (largest yearly gap) | CBO's outlays, FY2028-36 | 5% in each year | -11.1% in FY2029 |
+| PS-3a | CBO: discretionary defense outlays from budget authority (February 2026 baseline) | **pass** | +0.9% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
+| PS-3b | CBO: discretionary nondefense outlays from budget authority (February 2026 baseline) | **pass** | -1.4% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
 | PS-4 | CBO: cost estimate for a full-year appropriations act | **pending** | — | — | to be set with the source | — |
 | SE-1 | Interest rates 1 point higher on all debt: added net interest | **pending** | year 1 387, year 5 574, year 10 911; ten-year 6211 ($B) | — | to be set with the source | — |
 | SE-2 | Slower growth (productivity or labor force 0.1 point a year lower): added deficits | **pending** | — | — | to be set with the source | — |
@@ -125,23 +125,23 @@ Role: the current result of every benchmark of the federal budget model (piece B
 ### PS-3a. CBO: discretionary defense outlays from budget authority (February 2026 baseline)
 
 - **Result:** pass
-- **Model:** +2.1% (largest yearly gap)
-- **Target:** CBO's outlays, FY2028-36
+- **Model:** +0.9% (largest yearly gap)
+- **Target:** CBO's outlays, FY2029-2036
 - **Tolerance:** 5% in each year
-- **Source:** CBO February 2026 ten-year baseline, discretionary budget authority and outlays (models/data/budget/cbo-ten-year.csv)
-- **Why:** Tests B3's spend-out method (provisions.spendout_apply, on B2's estimated shares, ASM-SPENDOUT) against CBO's own conversion of budget authority into outlays: CBO's projected discretionary defense budget authority, FY2025-36, goes in; outlays FY2028-36 come out (the first three years need budget authority from before FY2025, so they are left out). Five percent in each year is about twice B2's fit error (2.2% of mean outlays), so it allows for the fit and would catch a wrong rate.
-- Over FY2028-36 the method gives +1.0% of CBO's total. Largest year FY2035: 1090 against CBO's 1068 billion.
+- **Source:** CBO February 2026 baseline by budget account (US-CBO/cbo-data spending_detail, models/data/budget/cbo-spending-by-function.csv)
+- **Why:** Tests B3's spend-out method (provisions.cbo_discretionary_outlays, on B2's CBO-calibrated shares, ASM-SPENDOUT) against CBO's own conversion of budget authority into outlays: CBO's projected discretionary defense budget authority, account by account, goes in; outlays FY2029-2036 come out. Five percent in each year is about twice the fit error of B2's historical timing (2.2% of mean outlays), so it allows for the fit and would catch a wrong rate. **This is partly in-sample.** B2 set the shares' overall level (one scale factor, 1.009) so that, over these same years, they give CBO's outlays. So the total is fitted, not tested; what is tested is the year-by-year timing, which comes from OMB's history (FY1993-2019), not from CBO.
+- Over FY2029-2036 the method gives -0.01% of CBO's total (fitted). Largest year FY2035: 1077 against CBO's 1068 billion.
 
 ### PS-3b. CBO: discretionary nondefense outlays from budget authority (February 2026 baseline)
 
-- **Result:** fail. Miss: -11.1% in FY2029
-- **Model:** -11.1% (largest yearly gap)
-- **Target:** CBO's outlays, FY2028-36
+- **Result:** pass
+- **Model:** -1.4% (largest yearly gap)
+- **Target:** CBO's outlays, FY2029-2036
 - **Tolerance:** 5% in each year
-- **Source:** CBO February 2026 ten-year baseline, discretionary budget authority and outlays (models/data/budget/cbo-ten-year.csv)
-- **Why:** Tests B3's spend-out method (provisions.spendout_apply, on B2's estimated shares, ASM-SPENDOUT) against CBO's own conversion of budget authority into outlays: CBO's projected discretionary nondefense budget authority, FY2025-36, goes in; outlays FY2028-36 come out (the first three years need budget authority from before FY2025, so they are left out). Five percent in each year is about twice B2's fit error (3.6% of mean outlays), so it allows for the fit and would catch a wrong rate.
-- Over FY2028-36 the method gives -9.3% of CBO's total. Largest year FY2029: 898 against CBO's 1010 billion.
-- Most of the miss comes from B3's rescaling, not from B2's shares. B2's nondefense shares as stored add to 1.10; with them, the gap in FY2029 is -2.6% (largest year FY2029, -2.6%). The extra tenth carries, implicitly, outlays whose budget authority isn't discretionary: B2 measured about $94 billion a year of them in CBO's account-level file (PR #114), $87 billion in function 400 (highways, transit, airports). B3 rescales the shares to add to one (provisions._spendout), which drops those outlays. B2 found this first. The strategy session has given the fix to B3: carry highway and transit separately as contract authority (data.cbo_spending, outlays_without_ba, is on main).
+- **Source:** CBO February 2026 baseline by budget account (US-CBO/cbo-data spending_detail, models/data/budget/cbo-spending-by-function.csv)
+- **Why:** Tests B3's spend-out method (provisions.cbo_discretionary_outlays, on B2's CBO-calibrated shares, ASM-SPENDOUT) against CBO's own conversion of budget authority into outlays: CBO's projected discretionary nondefense budget authority, account by account, goes in; outlays FY2029-2036 come out, with the outlays of accounts that have no discretionary budget authority added separately. Five percent in each year is about twice the fit error of B2's historical timing (3.3% after ground transportation is set aside of mean outlays), so it allows for the fit and would catch a wrong rate. **This is partly in-sample.** B2 set the shares' overall level (one scale factor, 0.998) so that, over these same years, they give CBO's outlays. So the total is fitted, not tested; what is tested is the year-by-year timing, which comes from OMB's history (FY1993-2019), not from CBO.
+- Over FY2029-2036 the method gives +0.00% of CBO's total (fitted). Largest year FY2029: 996 against CBO's 1010 billion.
+- Earlier reading (#113): before B3's fix (#118), the library rescaled B2's OMB-fit nondefense shares, which add to 1.10, down to one, and added nothing for highway and transit. That fell 11.1% short in FY2029 and failed. With B2's OMB-fit shares as stored, the FY2029 gap was -2.6%: the extra tenth stood in for outlays whose budget authority isn't discretionary (B2 measured about $94 billion a year, $87 billion of it in function 400: highways, transit, airports). #118 now carries those outlays on their own, which is what this benchmark reads.
 
 ### PS-4. CBO: cost estimate for a full-year appropriations act
 

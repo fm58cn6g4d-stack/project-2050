@@ -279,36 +279,46 @@ def bm_published(M):
                    unit="$B", miss="%+.0f%%" % (100 * miss) if abs(miss) > 0.15 else None,
                    detail=["Model interest by year: " + ", ".join("FY%d %.1f" % (y, I[y]) for y in range(2029, 2035)) + ".",
                            "The model is %+.0f%% from CBO. A higher figure is the cautious direction: the model's rate on new borrowing is at least the market blend." % (100 * miss)]))
-    # PS-3: discretionary spend-out against CBO's projected outlays
-    for grp, ba_cat, out_cat in (("defense", "ba_disc_defense", "out_disc_defense"), ("nondefense", "ba_disc_nondefense", "out_disc_nondefense")):
-        ba, cbo_out = D.cbo_series(ba_cat), D.cbo_series(out_cat)
-        got = P.spendout_apply(ba, grp)
-        yrs = range(2028, 2037)
-        gaps = {y: got[y] / cbo_out[y] - 1 for y in yrs}
+    # PS-3: discretionary spend-out against CBO's projected outlays, read the way the library reads
+    # discretionary money (provisions.cbo_discretionary_outlays: CBO's account-level budget authority
+    # spent out at B2's CBO-calibrated shares, plus, for nondefense, outlays with no discretionary BA)
+    for grp in ("defense", "nondefense"):
+        pairs = P.cbo_discretionary_outlays(grp)
+        yrs = sorted(pairs)
+        gaps = {y: pairs[y][0] / pairs[y][1] - 1 for y in yrs}
         wy = max(gaps, key=lambda y: abs(gaps[y]))
-        tot_gap = sum(got[y] for y in yrs) / sum(cbo_out[y] for y in yrs) - 1
-        why = ("Tests B3's spend-out method (provisions.spendout_apply, on B2's estimated shares, ASM-SPENDOUT) against CBO's own "
-               "conversion of budget authority into outlays: CBO's projected discretionary %s budget authority, FY2025-36, goes in; "
-               "outlays FY2028-36 come out (the first three years need budget authority from before FY2025, so they are left out). "
-               "Five percent in each year is about twice B2's fit error (%s of mean outlays), so it allows for the fit and would catch a wrong rate." %
-               (grp, "2.2%" if grp == "defense" else "3.6%"))
-        det = ["Over FY2028-36 the method gives %+.1f%% of CBO's total. Largest year FY%d: %.0f against CBO's %.0f billion." % (100 * tot_gap, wy, got[wy], cbo_out[wy])]
+        tot_gap = sum(pairs[y][0] for y in yrs) / sum(pairs[y][1] for y in yrs) - 1
+        scale = next(float(r["scale"]) for r in D.table("spendout-discretionary-cbo") if r["group"] == grp)
+        why = ("Tests B3's spend-out method (provisions.cbo_discretionary_outlays, on B2's CBO-calibrated shares, ASM-SPENDOUT) "
+               "against CBO's own conversion of budget authority into outlays: CBO's projected discretionary %s budget authority, "
+               "account by account, goes in; outlays FY%d-%d come out%s. Five percent in each year is about twice the fit error of "
+               "B2's historical timing (%s of mean outlays), so it allows for the fit and would catch a wrong rate. "
+               "**This is partly in-sample.** B2 set the shares' overall level (one scale factor, %.3f) so that, over these same "
+               "years, they give CBO's outlays. So the total is fitted, not tested; what is tested is the year-by-year timing, "
+               "which comes from OMB's history (FY1993-2019), not from CBO." %
+               (grp, yrs[0], yrs[-1], ", with the outlays of accounts that have no discretionary budget authority added separately"
+                if grp == "nondefense" else "", "2.2%" if grp == "defense" else "3.3% after ground transportation is set aside", scale))
+        det = ["Over FY%d-%d the method gives %+.2f%% of CBO's total (fitted). Largest year FY%d: %.0f against CBO's %.0f billion." % (
+            yrs[0], yrs[-1], 100 * tot_gap, wy, pairs[wy][0], pairs[wy][1])]
         if grp == "nondefense":
+            ba, cbo_out = D.cbo_series("ba_disc_nondefense"), D.cbo_series("out_disc_nondefense")
             raw = sorted((r for r in D.table("spendout-discretionary") if r["group"] == grp), key=lambda r: int(r["year_of_spending"]))
             raw = [float(r["share"]) for r in raw]
-            unscaled = {y: sum(raw[k] * ba[y - k] for k in range(len(raw))) / cbo_out[y] - 1 for y in yrs}
-            det.append("Most of the miss comes from B3's rescaling, not from B2's shares. B2's nondefense shares as stored add to 1.10; with them, "
-                       "the gap in FY%d is %+.1f%% (largest year FY%d, %+.1f%%). The extra tenth carries, implicitly, outlays whose budget "
-                       "authority isn't discretionary: B2 measured about $94 billion a year of them in CBO's account-level file (PR #114), "
-                       "$87 billion in function 400 (highways, transit, airports). B3 rescales the shares to add to one (provisions._spendout), "
-                       "which drops those outlays. B2 found this first. The strategy session has given the fix to B3: carry highway and transit "
-                       "separately as contract authority (data.cbo_spending, outlays_without_ba, is on main)." % (
-                           wy, 100 * unscaled[wy], max(unscaled, key=lambda y: abs(unscaled[y])), 100 * max(unscaled.values(), key=abs)))
+            norm = [v / sum(raw) for v in raw]
+            def old(shares):
+                return {y: sum(shares[k] * ba[y - k] for k in range(len(shares))) / cbo_out[y] - 1 for y in range(2029, 2037)}
+            o_norm, o_raw = old(norm), old(raw)
+            det.append("Earlier reading (#113): before B3's fix (#118), the library rescaled B2's OMB-fit nondefense shares, which add to "
+                       "1.10, down to one, and added nothing for highway and transit. That fell %.1f%% short in FY2029 and failed. With "
+                       "B2's OMB-fit shares as stored, the FY2029 gap was %+.1f%%: the extra tenth stood in for outlays whose budget authority "
+                       "isn't discretionary (B2 measured about $94 billion a year, $87 billion of it in function 400: highways, transit, "
+                       "airports). #118 now carries those outlays on their own, which is what this benchmark reads." % (
+                           -100 * o_norm[2029], 100 * o_raw[2029]))
         out.append(_bm("PS-3" + ("a" if grp == "defense" else "b"), "Published scores",
                        "CBO: discretionary %s outlays from budget authority (February 2026 baseline)" % grp,
-                       "pass" if abs(gaps[wy]) <= 0.05 else "fail", "%+.1f%%" % (100 * gaps[wy]), "CBO's outlays, FY2028-36", "5% in each year",
-                       "CBO February 2026 ten-year baseline, discretionary budget authority and outlays (models/data/budget/cbo-ten-year.csv)", why,
-                       unit="largest yearly gap", miss="%+.1f%% in FY%d" % (100 * gaps[wy], wy) if abs(gaps[wy]) > 0.05 else None, detail=det))
+                       "pass" if abs(gaps[wy]) <= 0.05 else "fail", "%+.1f%%" % (100 * gaps[wy]), "CBO's outlays, FY%d-%d" % (yrs[0], yrs[-1]),
+                       "5% in each year", "CBO February 2026 baseline by budget account (US-CBO/cbo-data spending_detail, models/data/budget/cbo-spending-by-function.csv)",
+                       why, unit="largest yearly gap", miss="%+.1f%% in FY%d" % (100 * gaps[wy], wy) if abs(gaps[wy]) > 0.05 else None, detail=det))
     out.append(_bm("PS-4", "Published scores", "CBO: cost estimate for a full-year appropriations act", "pending", None, None, "to be set with the source",
                    "Pending source: not in the library, and www.cbo.gov returns 403 to agent sessions (see uploads)",
                    "A published appropriations score, with budget authority and outlays by year and account, would test the spend-out method "
