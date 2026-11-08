@@ -4,7 +4,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 **How to read it.** *pass*: within the stated tolerance. *fail*: outside it; the miss column gives the size. *pending*: there is no target yet, because the source isn't in the library or the model can't compute the quantity. A miss is reported, never fixed by changing the model or the tolerance.
 
-17 benchmarks: 13 pass, 1 fail, 3 pending. 2 of the passes (PS-3a, PS-3b) are partly in-sample: their level was calibrated to the same CBO figures they are checked against, so only their timing is tested.
+17 benchmarks: 13 pass, 3 fail, 1 pending. 2 of the passes (PS-3a, PS-3b) are partly in-sample: their level was calibrated to the same CBO figures they are checked against, so only their timing is tested.
 
 **Milestone status: not passed.** PS-4, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
 
@@ -22,8 +22,8 @@ Role: the current result of every benchmark of the federal budget model (piece B
 | PS-3a | CBO: discretionary defense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | +0.9% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
 | PS-3b | CBO: discretionary nondefense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | -1.4% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
 | PS-4 | CBO: cost estimate for a full-year appropriations act | **pending** | — | — | to be set with the source | — |
-| SE-1 | Interest rates 1 point higher on all debt: added net interest | **pending** | year 1 387, year 5 574, year 10 911; ten-year 6211 ($B) | — | to be set with the source | — |
-| SE-2 | Slower growth (productivity or labor force 0.1 point a year lower): added deficits | **pending** | — | — | to be set with the source | — |
+| SE-1 | Interest rates 0.1 point higher on all debt from FY2027: added net interest | **fail** | FY2027-36 total 502; FY2027 32, FY2036 72 ($B) | CBO: total 383; FY2027 14, FY2036 62 | ten-year total within 15%, and each year within 25% | ten-year total +31%; 5 of 10 years outside 25% (largest FY2027, +131%) |
+| SE-2 | Slower growth (productivity or labor force 0.1 point a year slower): added deficits | **fail** | 0 for both (the model has no growth response) ($B) | CBO, FY2027-36: productivity 317, labor force 166 | ten-year total within 15% for each scenario | -100% for both: 0 against 317 and 166 |
 | TF-1 | Social Security (OASDI combined): current law | **pass** | depletion 2034, 83% payable, balance -4.45% | depletion 2034, 83% payable, balance -4.42% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | — |
 | TF-2 | Medicare Hospital Insurance: current law | **fail** | depletion 2034, 89% payable, balance -0.64% | depletion 2033, 89% payable, balance -0.56% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | depletion +1 year, balance -0.08 points of payroll |
 | TF-3 | SSA's own scores of seven Social Security provisions, rebuilt by the engine | **pass** | -0.02 (points, largest gap) | 0.00 | 0.05 point of taxable payroll for each provision | — |
@@ -155,28 +155,29 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 ## Sensitivity
 
-### SE-1. Interest rates 1 point higher on all debt: added net interest
+### SE-1. Interest rates 0.1 point higher on all debt from FY2027: added net interest
 
-- **Result:** pending
-- **Model:** year 1 387, year 5 574, year 10 911; ten-year 6211 ($B)
-- **Target:** —
-- **Tolerance:** to be set with the source
-- **Source:** Pending source: CBO's rules of thumb for the February 2026 baseline (not in the library; see uploads)
-- **Why:** The model's BASE-R1 case raises the rate on all debt by one point from FY2030. CBO's rule of thumb raises all rates by a tenth of a point (scaled here by ten) from the first projection year. Until CBO's workbook is in the library there is no target, so the result is shown without a pass or fail.
-- Model, baseline (FY2030-39, years 1-10 of the shock): 387, 428, 472, 520, 574, 632, 691, 761, 834, 911.
-- Model, decided program (DEC-R1 less DEC): year 1 385, year 10 879, ten-year 6069.
-- Lead only, not a target (SRC-0203, ten times its per-0.1-point figures for FY2026-35): 133, 187, 237, 286, 335, 381, 429, 474, 522, 570; ten-year 3555.
-- What the comparison already suggests: the model reprices all debt at once (fiscal-model.py, baseline(): the shift applies to last year's whole debt), so its year-1 effect is a full point on about $38.7 trillion. CBO's rules of thumb phase the higher rate in as debt matures and is refinanced. If the workbook confirms that, the model overstates the early effect, which is the cautious direction for the plan's stress case (CONVENTIONS.md, choice 4).
+- **Result:** fail. Miss: ten-year total +31%; 5 of 10 years outside 25% (largest FY2027, +131%)
+- **Model:** FY2027-36 total 502; FY2027 32, FY2036 72 ($B)
+- **Target:** CBO: total 383; FY2027 14, FY2036 62
+- **Tolerance:** ten-year total within 15%, and each year within 25%
+- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Table 3, on the February 2026 baseline; Espen's November 8 upload (PR #121)
+- **Why:** The model's stress cases (DEC-R1, BASE-R1) raise every rate by one point from FY2030. Here the same method, reproduced exactly (it gives BASE-R1 to the dollar), is run on CBO's own scenario: every rate 0.1 point higher each year, on CBO's baseline, from FY2027 (the model's first year it can shock). That compares like with like, with no scaling. CBO says its rules of thumb are roughly symmetrical and scalable up to one point. The total gets 15% for CBO's rounding and the model's simpler rate rule; each year gets 25%, because the stress case is read year by year (the guardrails in 2035, 2045 and 2056), so timing matters as well as the total. Revenue effects (Federal Reserve remittances, under $5 billion a year in CBO's table) are left out of both sides.
+- Model by year: FY2027 32, FY2028 36, FY2029 39, FY2030 43, FY2031 47, FY2032 51, FY2033 56, FY2034 61, FY2035 66, FY2036 72.
+- CBO by year: FY2027 14, FY2028 20, FY2029 25, FY2030 31, FY2031 36, FY2032 41, FY2033 46, FY2034 51, FY2035 57, FY2036 62.
+- Why they differ: the model applies the higher rate to all of last year's debt at once (fiscal-model.py, baseline()), so its first-year effect is 0.1% of about $32.4 trillion. CBO phases the higher rate in as maturing debt is refinanced, so its effect starts lower and grows as the debt turns over. The model is higher in every year, by most at the start, which is the cautious direction. Whether to phase rates in is a method choice for B6, not a change made here.
+- In the model's own +1 point case (BASE-R1), the same method adds $387 billion in FY2030, the first year, and $6211 billion over FY2030-39.
+- Cross-check: CBO's 2025 workbook (61183, January 2025 baseline) gives +13.34 billion in FY2026 for the same scenario. Those are the figures in Espen's old CBO scorer (SRC-0203), so that table came from it.
 
-### SE-2. Slower growth (productivity or labor force 0.1 point a year lower): added deficits
+### SE-2. Slower growth (productivity or labor force 0.1 point a year slower): added deficits
 
-- **Result:** pending
-- **Model:** —
-- **Target:** —
-- **Tolerance:** to be set with the source
-- **Source:** Pending source and a model capability: CBO's rules of thumb (not in the library; see uploads)
-- **Why:** The model takes CBO's baseline revenue and spending as given in dollars. It has no way to slow the economy, so it has no response to compare. Only program rows indexed to GDP would move. Building one is for B6 or later, and needs CBO's rules of thumb to calibrate.
-- Lead only, not a target (SRC-0203, per 0.1 point, FY2026-35 ten-year sum; its table lowers deficits, read here as faster growth, so slower growth would raise them by about as much): productivity 388, labor force 184 billion of added deficit.
+- **Result:** fail. Miss: -100% for both: 0 against 317 and 166
+- **Model:** 0 for both (the model has no growth response) ($B)
+- **Target:** CBO, FY2027-36: productivity 317, labor force 166
+- **Tolerance:** ten-year total within 15% for each scenario
+- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Table 2; Espen's November 8 upload (PR #121)
+- **Why:** The model takes CBO's baseline revenue and spending as given in dollars. It has no input for slower growth, so its added deficit is zero where CBO's is $317 billion (productivity) and $166 billion (labor force) over FY2027-36. That is a missing capability, not a calibration error: building a growth response is for B6 or later, calibrated to these tables. Fifteen percent is the same allowance as SE-1's total.
+- Program rows indexed to GDP would also shrink with slower growth; the model has no way to feed that in either.
 
 ## Trust funds
 
@@ -214,6 +215,5 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 www.cbo.gov refuses agent sessions (403), so these come in as uploads (`library/fetch_public.py --file`). CBO's own GitHub data repository (`US-CBO/cbo-data`, commit 284a956) was checked first, and so were the 16 CBO files Espen uploaded on November 8 (PR #121): none of the three is there.
 
-1. CBO's rules-of-thumb workbook for the February 2026 baseline: how deficits change if interest rates, productivity growth or labor-force growth differ from CBO's projections (released with *The Budget and Economic Outlook: 2026 to 2036*, on cbo.gov's budget and economic data page). *Unlocks:* SE-1, SE-2: turns the sensitivity benchmarks from pending into pass or fail. SRC-0203's numbers say they came from this workbook; they can't be checked without it.
-2. CBO's letter of August 4, 2025 to Senator Merkley, *Effects on Deficits and the Debt of Public Law 119-21 and of Making Certain Tax Policies in the Act Permanent* (publication 61466, the PDF with Table 2). *Unlocks:* PS-1, PS-2: the full FY2025-34 annual figures. The repository records only FY2029, FY2030, FY2034 and the totals, so PS-2 assumes FY2031-33 are equal (SRC-1093 is a citation row, not a saved copy).
-3. A CBO cost estimate for a recent full-year appropriations act, with budget authority and estimated outlays by year (for example, the act of November 2025 that ended the shutdown and carried three full-year FY2026 bills, or any later full-year FY2026 act). *Unlocks:* PS-4: a published appropriations score for the spend-out method, account by account.
+1. CBO's letter of August 4, 2025 to Senator Merkley, *Effects on Deficits and the Debt of Public Law 119-21 and of Making Certain Tax Policies in the Act Permanent* (publication 61466, the PDF with Table 2). *Unlocks:* PS-1, PS-2: the full FY2025-34 annual figures (an upload, or another route if Espen approves one). The repository records only FY2029, FY2030, FY2034 and the totals, so PS-2 assumes FY2031-33 are equal (SRC-1093 is a citation row, not a saved copy).
+2. A CBO cost estimate for a recent full-year appropriations act, with budget authority and estimated outlays by year (for example, the act of November 2025 that ended the shutdown and carried three full-year FY2026 bills, or any later full-year FY2026 act). *Unlocks:* PS-4: a published appropriations score for the spend-out method, account by account.
