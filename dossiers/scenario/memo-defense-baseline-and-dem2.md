@@ -64,7 +64,7 @@ DEM-2 (legacy domain file) is one provision: a federal mandate for congressional
 - *For it:* a single, clear reform; the commission mandate is the part that most changes how maps are drawn.
 - *Against it:* if a court strikes the commission mandate without a severability clause, the ban may fall with it, and the 2031 maps are drawn by whoever won in 2030.
 
-**B. One bill, severable, in order of legal risk (recommended).**
+**B. One bill, severable, in order of legal risk.**
 - *Title I:* the mid-decade ban (with D1's 2034 exception for the House-size package).
 - *Title II:* federal criteria, including a partisan-fairness standard, enforceable in court.
 - *Title III:* the commission mandate.
@@ -76,7 +76,7 @@ DEM-2 (legacy domain file) is one provision: a federal mandate for congressional
 - *For it:* the ban might attract Republican votes and could ride DEM-1; it is in force sooner.
 - *Against it:* two floor fights under D2's rules; commissions may never get their own slot before 2031.
 
-**D. Criteria and a court backstop, with commissions as a voluntary safe harbor (legacy DEM-2E).**
+**D. Criteria and a court backstop, with commissions as a voluntary safe harbor (legacy DEM-2E; recommended).**
 - *Source:* the legacy domain file records DEM-2E as an open option under "Decisions in force": "criteria and a three-judge backstop, with commissions as a voluntary safe harbor" (`legacy/domains/domain-democracy.md`, line 16). It does not say whether the mid-decade ban comes with it; this memo assumes it does, as Title I, since the ban is the lowest-risk part.
 - *How it works:* Title I, the ban. Title II, federal criteria with a partisan-fairness standard. Title III, enforcement: a three-judge federal court hears challenges on a fast track and draws a remedial map where a state's map fails the criteria; a map drawn by an independent commission that meets set standards is presumed compliant (the safe harbor). No state is ordered to create a commission.
 - *For it:* removes the highest-risk part, the claim that Congress cannot displace the "Legislature" under the Elections Clause, so there is no mandate for a court to strike. Court-drawn remedial maps are routine after failed redistricting, and three-judge panels with direct appeal to the Supreme Court already exist for redistricting cases (28 U.S.C. 2284; memory, verify). It is settled law before the 2031 maps rather than mid-litigation.
