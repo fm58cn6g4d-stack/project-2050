@@ -1,0 +1,129 @@
+# Budget model: how the project counts
+
+Role: the counting rules behind every federal budget figure in Project 2050, in plain language. For each rule it says what the official scorekeepers do, what the project does now (with the file and line), and where today's practice hides a choice. Status: current description of the existing models (B1 of `models/tools/budget/WORKFLOW.md`); it changes no practice. Each assumption it mentions has an `ASM-` entry in `models/data/budget/assumptions.csv`, listed by topic in `models/tools/budget/assumptions.md`. Choices whose change would alter what the plan commits to are at the end, for Espen.
+
+**Sources for the official rules.** The baseline rules are in law: section 257 of the Balanced Budget and Emergency Deficit Control Act, 2 U.S.C. 907 ([text](https://www.law.cornell.edu/uscode/text/2/907)). CBO describes how it applies them in *CBO Explains the Statutory Foundations of Its Budget Baseline* (May 2023, [publication 59208](https://www.cbo.gov/publication/59208)) and *CBO Explains How It Develops the Budget Baseline* (April 2023, [publication 59085](https://www.cbo.gov/publication/59085)). Both were read on November 8, 2026; quotations below are from them. The project's data are CBO's *Budget and Economic Outlook: 2026 to 2036* and *Long-Term Budget Outlook: 2026 to 2056* (February 2026), from CBO's own data files (github.com/US-CBO/cbo-data).
+
+## 1. The baseline: what "current law" assumes
+
+**The official rule.** The baseline is "a projection of current-year levels of new budget authority, outlays, revenues, and the surplus or deficit into the budget year and the outyears based on laws enacted through the applicable date" (2 U.S.C. 907(a)). It is not a forecast of what Congress will do. CBO: the projections "are not meant to predict future outcomes, because they cannot account for future legislation" (59085). The law sets different rules for each part of the budget:
+
+- **Mandatory spending and taxes run as the law is written.** "Laws providing or creating direct spending and receipts are assumed to operate in the manner specified in those laws" (907(b)(1)).
+- **Benefits are paid in full, even after a trust fund runs out.** CBO's baseline "reflects the assumption that scheduled payments (for Social Security benefits, for example) will continue to be made in full after the funding source ... has been exhausted, even if there is no legal authority to make such payments" (59208).
+- **Large expiring spending programs continue.** Programs over $50 million a year (automatically for those created by August 5, 1997; case by case with the Budget Committees for later ones) are assumed to keep running "as they would immediately before their scheduled expiration" (59208; 907(b)(2)(A) and (D)). SNAP is CBO's example.
+- **Expiring taxes expire.** "When taxes are scheduled to expire, those expirations are generally incorporated in the baseline projections" (59208). The one exception: "Excise taxes dedicated to a trust fund, if expiring, are assumed to be extended at current rates" (907(b)(2)(C)), such as the fuel taxes for the Highway Trust Fund.
+- **Discretionary spending is this year's appropriation, grown with inflation.** CBO must "begin with the amount of budget authority for each account provided in the most recently enacted full-year appropriation act and ... adjust those amounts for inflation" (59208; 907(c)(1)). The inflator is the employment cost index for pay and the GDP price index for everything else (907(c)(5)). This holds "even if the current appropriation is for an emergency or a onetime purpose" (59208), except in rare cases agreed with the Budget Committees, such as the pandemic money.
+
+**What the project does now.** The project uses CBO's February 2026 baseline as published, so all of these rules come with it (`ASM-BASE-CBO`; `models/tools/fiscal-data.py:32-38`, written to `models/data/fiscal-baseline.csv`). On top of it the project makes three changes for events since February (`fiscal-data.py:40-62`, `168-198`):
+
+- the FY2026 preliminary actual results replace CBO's FY2026 projection (`ASM-FY26-TOTALS`);
+- ADJ-T1 takes out the IEEPA tariff revenue the Supreme Court ended, net of the replacement tariffs, about $0.65 trillion over FY2027-36 (`ASM-ADJ-T1`);
+- ADJ-T2 adds the remaining tariff refunds in FY2027 (`ASM-ADJ-T2`).
+
+The adjusted baseline is the one the D4 tests use. The unadjusted CBO baseline stays in the file. The plan's standards say the baseline should be stated as it will stand in 2029, counting enacted laws with later effective dates and scheduled expirations (`DEC-2026-10-29-01`); these adjustments are the project's way of doing that until CBO publishes a new baseline.
+
+**Hidden choices.**
+- **The 2025 law's temporary tax cuts lapse.** Because expiring taxes expire, the baseline assumes the four household deductions in Public Law 119-21 (tips, overtime, car-loan interest, the senior deduction) end after 2028, and the higher SALT cap and others after 2029 (`ASM-EXPIRE-LAPSE`). Extending the four would cost about $33 billion in FY2029 and $68-73 billion a year after (`dossiers/scenario/2028-lame-duck.md`, sections 1 and 4). If a lame-duck Congress extends them, the baseline moves; nothing in the model does that automatically.
+- **Defense reads $0.** NSC-1A holds defense flat in real terms, which is roughly what CBO's baseline already projects, so its ledger row is 0.0 (`ASM-DEF-BASELINE`; `models/data/inputs/ledger-bills.csv:51`). Whatever Congress enacts for defense in 2027-28 will become part of CBO's next baseline and still read as $0 (`dossiers/scenario/memo-defense-baseline-and-dem2.md`). "Real" here means grown with the GDP price index, which runs about 0.3 points a year below CPI-U in CBO's projections, not with CPI.
+- **A one-time supplemental grows forever in the baseline.** Under the discretionary rule, an emergency appropriation enacted before CBO's next baseline is projected forward, grown with inflation, in every later year (`ASM-BASE-DISC-INFLATE`). A plan that "replaces" such money with its own program may score as a saving or as $0 depending on when the baseline was drawn.
+- **After FY2036 the defense and nondefense lines are the project's split.** CBO's long-term outlook gives one discretionary total; the project splits it at FY2036's shares (`ASM-BASE-DEF-SPLIT`; `fiscal-data.py:138, 152-154`). Totals are unaffected.
+- **FY2026's surprise carries forward only as debt.** The higher FY2026 deficit adds about $0.3 trillion of starting debt, with interest, but CBO's later years are not re-estimated from the higher level (`ASM-FY26-NOREBASE`; `fiscal-model.py:187-189`).
+
+## 2. Budget authority versus outlays
+
+**The official terms.** Budget authority is "authority provided to federal agencies by law that allows them to incur financial obligations that result in outlays" (59208, quoting 2 U.S.C. 622(2)). Outlays are the money actually paid out, which can come years later. Deficits and debt are counted in outlays. Appropriations committees and spending caps work in budget authority.
+
+**What the project does now.** Every model figure is an outlay-like annual amount. A program is a ten-year midpoint from the ledger, spread over years by a phase-in profile (`ASM-PROF-DEFAULT`, `ASM-PROF-RAMP`; `models/tools/fiscal-profiles.py:3-21`; `fiscal-model.py:71-108`). No row records its budget authority or how fast that authority turns into outlays.
+
+**Hidden choice.** The profiles stand in for spend-out rates. A construction program funded once but spent over eight years is modeled only by its ramp and its "share continuing after 2039". The one row where the difference is explicit is CAP-7S, the agency rebuild surge: its full multi-year budget authority is available on enactment in FY2029 (`models/data/inputs/capacity-funding.csv:2`), while its FY2029 outlays are unpriced and its FY2030-35 cash is a proxy (`ASM-PROF-YEARS`; `models/data/inputs/fiscal-years.csv:2`). B3 adds budget authority and spend-out to every row.
+
+## 3. Discretionary, mandatory and receipts
+
+**The official categories.** CBO's baseline has four parts: revenues; mandatory (direct) spending, "governed by statutory criteria and usually not constrained by the annual appropriation process"; discretionary spending, "controlled by appropriation acts"; and net interest (59085).
+
+**What the project does now.** The baseline keeps CBO's long-term groupings: five revenue categories and seven outlay categories (Social Security, Medicare net of offsetting receipts, other health, other mandatory, defense and nondefense discretionary, net interest) (`fiscal-data.py:16-23, 64-66`). Every program row adds to one of them through its `cat` field (`models/data/inputs/fiscal-profiles.csv`). The ledger's rail says how a bill is meant to pass (reconciliation, regular order, annual appropriations; `models/tools/ledger-build.py:34-42`), but the fiscal model does not use it.
+
+**Hidden choices.**
+- **The category is the profile's, not the law's.** A row's `cat` decides which CBO line it adds to, but nothing checks it against the bill's vehicle. Reconciliation can carry only direct (mandatory) spending and revenue, yet seven rows on reconciliation rails sit in the nondefense discretionary category: EDU-4, LAB-8, NSC-10 and MOV-29 (R1 or R2) and DEM-17, SAF-10 and MOV-30 (R3) (`ledger-bills.csv` rail against `fiscal-profiles.csv` cat). Totals are unaffected; the category lines and any future spending-cap reading are. Before FY2025, CBO's history does not split out Medicare offsetting receipts, CHIP and marketplace subsidies (`ASM-BASE-HEALTH-SEAM`).
+- **General fund versus unified budget.** The project reads money two ways (`ASM-GF-UNIFIED`; `fiscal-model.py:151-154`). The general-fund reading excludes self-funded programs and trust-fund revenue; the D4 maturity test uses it. The unified reading counts everything, the way CBO's deficit does; the D4 debt guardrails use it. Paid leave (FAM-3) and the carbon dividend (CLI-2) count zero on the unified reading because their own fees pay for them (`fiscal-profiles.csv:10, 19`). How each bill's cost reaches the general fund ("all", "residual" or "none") is a rule in the ledger code (`ASM-LEDGER-OWNREV`; `ledger-build.py:102-107`).
+
+## 4. Regular, supplemental (emergency) and advance appropriations
+
+**The official terms.** Regular appropriations are the annual bills. Supplemental appropriations add money during a year, often designated as emergency, which keeps them outside the spending caps when caps exist. Advance appropriations are enacted now but become available in a later year. In CBO's baseline, all of them become "the current-year amount" and are projected forward with inflation (section 1).
+
+**What the project does now.** The model doesn't tell these apart. Six ledger bills are marked as annual appropriations (`rail` APPROPS in `models/data/inputs/ledger-bills.csv`) and are modeled like any other row: a ten-year total spread by a profile. No row is modeled as emergency or advance funding.
+
+**Hidden choice.** Because a supplemental enacted before a baseline is extended in that baseline, the year a supplemental is enacted changes what later programs appear to cost. The project has no rule for this yet (see Choice 1).
+
+## 5. Reconciliation and regular order
+
+**The official terms.** Reconciliation (section 310 of the Congressional Budget Act) lets a bill that carries out a budget resolution's instructions pass the Senate by simple majority. The Byrd rule (section 313) strikes provisions with no budget effect or that add to deficits beyond the resolution's window; Social Security cannot be changed in reconciliation (section 310(g)). Regular order is everything else, which in the Senate needs cloture unless the rules change (plan decision D2).
+
+**What the project does now.** The ledger assigns each bill a rail: R1 (FY2029 resolution), R2 (FY2030), R3 (FY2031), regular order, appropriations, or later Congresses (`ledger-build.py:34-42`). The vote model uses the rails. The fiscal model does not: all rows are scored over the same FY2030-39 window whatever their vehicle. The Byrd test for each bill is a roadmap item (`models/tools/roadmap.md:30`).
+
+**Hidden choice.** A reconciliation bill under an FY2029 budget resolution would normally be scored over that resolution's own window, which starts in FY2029, not over FY2030-39. The project's window does not move with the vehicle (see Choice 3).
+
+## 6. The scoring window and the long-term horizon
+
+**What the project does now.**
+- **The scoring window is FY2030-39.** Every ledger amount is a ten-year total for those years (`ASM-WINDOW`; `fiscal-model.py:27`; `models/data/inputs/readme.md:6`). Amounts before FY2030 are set to zero in the annual paths (`fiscal-model.py:98-99`). The ledger calls FY2029 outlays "unpriced, not zero" (`models/data/inputs/readme.md:45`).
+- **The long-term horizon runs to FY2056**, the end of CBO's long-term outlook (`ASM-HORIZON`; `fiscal-model.py:26`). The D4 tests are read to 2056: permanent programs paid for in FY2040 and every later year (`ASM-MATURITY`; `fiscal-model.py:273-277`), total debt and net interest below the baseline (`ASM-GUARDRAILS`; `fiscal-model.py:280-286`), and the investment envelope (`ASM-ENVELOPE`; `fiscal-model.py:226, 265`). Espen decided these in Decision Brief 2 (D4-B), and `DEC-2026-10-30-02` keeps D4 settled.
+- **Social Security and Medicare HI are read on 75 years**, 2026 to 2100, on the Trustees' intermediate assumptions (`ASM-TF-75YR`; `models/tools/funds-model.py:27`).
+
+**Hidden choice.** The plan begins in January 2029, in fiscal year 2029, but the window starts in FY2030. Anything spent or raised in FY2029 is outside every total (see Choice 3).
+
+## 7. Nominal, real and share of GDP
+
+**What the project does now.** Every amount is in nominal dollars by federal fiscal year (`fiscal-model.py:15`; `models/data/inputs/readme.md:6`). Shares of GDP divide by CBO's nominal GDP path (`ASM-GDP-PATH`). No real-dollar figure is computed anywhere (`ASM-NO-DEFLATOR`). Price indexes appear only as growth rates for program rows:
+- rows indexed to prices grow with one rounded CPI-U rate, 2.26% a year through 2036 and 2.3% after (`ASM-CPI-PATH`; `fiscal-model.py:28`). CBO's own CPI-U path is 2.27% in 2030 and 2.26% in 2031-36, and averages about 2.27% in 2037-56, so the rounding matters little;
+- most other rows grow with nominal GDP, and health and revenue rows with their own CBO category (`ASM-PROF-HEALTH`, `ASM-PROF-REVENUE`).
+
+**Which deflator where.** CBO inflates discretionary funding with the GDP price index (and the employment cost index for pay), not CPI (907(c)(5)). Benefits indexed by law (Social Security, the child tax credit) follow CPI measures. The project uses CPI-U for every price-indexed row and has no GDP-price-index path. B2 adds both series and one function for real dollars (`WORKFLOW.md`, shared interfaces). Which index a real-dollar view uses is a presentation choice for B2 and B5, not a commitment: GDP-price-index dollars match how CBO and NSC-1A count discretionary spending; CPI-U dollars match what households feel.
+
+## 8. Conventional versus dynamic scoring
+
+**The official practice.** CBO's cost estimates are conventional: they hold the size of the economy fixed and count behavior such as tax avoidance, but not effects on total output. CBO and JCT add macroeconomic ("dynamic") analysis for some major bills.
+
+**What the project does now.** Every ledger total, the base and the gap, and every D4 test are conventional (`ASM-DYN-CONVENTIONAL`; `models/tools/readme.md:23`; `models/data/inputs/readme.md:18`). Avoidance is counted inside the scores, including a 15% overlap and avoidance haircut on the stacked high-income options (`ASM-LEDGER-GX`; `models/data/inputs/ledger-revenue.csv:14`). Dynamic effects are a separate table, DY1-DY9 (`models/data/inputs/ledger-dynamic.csv:2-10`), whose midpoints net to about $0.56 trillion of extra deficit over 2030-39. They enter only scenario DEC-DYN, phased in over ten years and kept in full after 2039 (`ASM-DYN-MID`; `fiscal-model.py:176-177, 223-224`). Interest rates never respond to the program's borrowing (`ASM-RATE-NOFEEDBACK`).
+
+**Hidden choices.** Keeping dynamic effects out of the tests is the cautious choice: on the table's own midpoints the program looks worse, not better, dynamically. But the largest entry, DY1 (−$0.6 trillion for taxes on corporations and top earners), rests on a JCT figure recorded "from memory", and continuing the full dynamic amount after 2039 is not argued anywhere.
+
+## 9. How a policy is measured
+
+**The official rule.** CBO measures a bill's effect against its baseline: the change from what current law would do (59085).
+
+**What the project does now.**
+- **Each row is an increment over the adjusted baseline.** It adds to or subtracts from one CBO category (`ASM-INCREMENT`; `fiscal-model.py:8-10, 144-177`). A positive amount raises the deficit; revenue and savings are negative (`ASM-SIGN`; `fiscal-profiles.py:23-24`).
+- **Each row is calibrated to its ledger midpoint.** Its FY2030-39 path sums exactly to the midpoint, whatever its profile (`ASM-CALIB-MID`; `fiscal-model.py:95`). The profile decides only how that total spreads across the years and what continues after 2039 (`ASM-PROF-TIMELIMITED`, `ASM-PROF-SS1`, `ASM-PROF-COMPONENTS`, `ASM-PROF-CLIMATE`). The low and high ends in the ledger never enter the fiscal model.
+- **Rows the ledger leaves to later Congresses** (MOV-31, DEM-3) are included in the long-term model (`ASM-LATER-ROWS`; `fiscal-model.py:183-184`).
+
+**Hidden choices.**
+- **The tests are judged on midpoints.** A cautious reading would test the plan on its high-cost, low-revenue ends (see Choice 2).
+- **What continues after 2039 is set by profile, not by score.** About half the rows take the default profile: full from 2030, growing with GDP, permanent (`ASM-PROF-DEFAULT`). Health rows grow with CBO's health spending, which grows faster than GDP (`ASM-PROF-HEALTH`), and revenue rows with their tax base, which grows faster than GDP through bracket creep (`ASM-PROF-REVENUE`). Those three growth choices largely decide whether the maturity test passes in 2040-56.
+- **Against-the-baseline means a row that CBO's baseline already contains reads $0.** Defense is the visible case (section 1); an expiring mandatory program that the baseline already extends is another (`ASM-EXPIRE-MANDATORY`).
+
+## 10. Interest on the program's own borrowing
+
+**What the project does now.** The baseline's own interest is CBO's, as published. The program's added borrowing (or saving), and the baseline adjustments, carry their own interest, compounding to 2056 (`fiscal-model.py:124-133, 187-206`):
+- **through 2036**, the rate is the higher of CBO's average rate on all debt and a 40/60 blend of CBO's 3-month bill and 10-year note rates, about 3.9% in 2030-36 (`ASM-RATE-MARGINAL`; `fiscal-model.py:111-121`). New borrowing pays market rates, not the lower average on old debt, which is the cautious choice;
+- **after 2036**, the rate is the baseline's implied average rate, net interest over last year's debt, about 4.05-4.18% (`ASM-RATE-LT`);
+- **a year's new borrowing pays half a year of interest** in that year (`ASM-RATE-HALFYEAR`);
+- **a stress case** raises rates one point on all debt from 2030 (`ASM-RATE-SHIFT`; scenarios DEC-R1 and BASE-R1). It takes the baseline's 2056 debt from 180% to 224% of GDP (`legacy/index/fiscal-long-term-model.md`).
+
+**Hidden choices.** The 40/60 weights are the project's, and the market-rate floor stops in 2037. The D4 tests are judged at CBO's rates only; the one-point case is reported but no test must pass under it (see Choice 4). Trust-fund interest in the dedicated-funds engine is a different rate, the Trustees' (`ASM-TF-INTEREST`).
+
+## Choices for Espen
+
+Each of these would change what the plan commits to, so none is changed here. The strategy session turns them into one-choice memos (B7 of `WORKFLOW.md`). Codex owns the fiscal model and the adopted inputs and would make any change Espen decides.
+
+1. **Which baseline the plan is held to as CBO rebaselines (defense and the 2027-28 deals).** Today the plan is measured against whatever CBO's baseline is when the model runs, and the model still uses February 2026. When CBO's 2027 and 2028 baselines arrive, anything enacted in 2027-28 joins the baseline and disappears from the plan's own numbers: a higher defense level (NSC-1A reads $0 either way, though $0.13-0.30 trillion over 2030-39 is at stake), a lame-duck extension of the 2025 law's tax cuts ($33 billion in FY2029, then about $70 billion a year), or a supplemental, which the baseline then extends forever. The options run from adopting each new CBO baseline as it comes (the standard practice, comparable with every scorekeeper, but it hides what 2027-28 cost) to holding a fixed, stated reference such as February 2026 adjusted (it shows the 2027-28 cost, but no scorekeeper will reproduce it), with a middle course of CBO's latest baseline plus disclosed lines for the 2027-28 changes. The defense memo (`memo-defense-baseline-and-dem2.md`, choice a) already asks this for defense alone; it may be better decided once for all three, so the plan doesn't adopt one rule for defense and another for taxes.
+
+2. **Midpoints or cautious estimates in the fiscal tests.** The D4 maturity test and the debt guardrails are judged on each ledger row's midpoint (`ASM-CALIB-MID`). The ledger has low and high ends for every bill, but they never reach the fiscal model, so a plan that passes on midpoints may fail if costs land at the high end and revenue at the low end. The options are to keep midpoints (the scorekeepers' central-estimate practice; the tests stay comparable), to require the tests to pass at the cautious end too (a more prudent commitment that would need more revenue or smaller programs), or to keep midpoints but report a cautious-end reading next to each test with a stated margin. The roadmap's correlated-uncertainty simulation (`models/tools/roadmap.md:27`) would make the third option precise.
+
+3. **FY2029 and the scoring window.** The plan starts in January 2029, and R1, the first reconciliation bill, runs under an FY2029 budget resolution, but every total is FY2030-39 (`ASM-WINDOW`). So anything that spends or raises money in FY2029 is outside the ledger, the D4 tests and the debt path; CAP-7S's FY2029 cash is the known example, and is recorded as "unpriced, not zero". A scorekeeper would score R1 over the resolution's own window, starting in FY2029. The options are to keep FY2030-39 and price FY2029 as a separate, disclosed line (cheapest; no headline moves), to shift the window to FY2029-38 (matches the first bill's official window, but every ten-year figure in the project changes), or to score each vehicle on its own resolution's window (most faithful, most work, and totals across bills no longer share a window).
+
+4. **Whether the debt guardrails must hold if interest rates are higher.** The D4 guardrails are judged at CBO's projected rates (`ASM-RATE-MARGINAL`, `ASM-RATE-LT`). Interest is the biggest single risk: one point higher on all debt from 2030 raises the decided program's 2056 debt from 156% to 197% of GDP (`ASM-RATE-SHIFT`). The guardrails are relative to the baseline, which also worsens, so the test may still pass; the question is whether the plan commits to anything absolute under stress. The options are to keep the test at CBO rates and report the stress case (today's practice), to require the relative guardrails to hold under the one-point case as well, or to add an absolute stress condition, such as net interest below a stated share of GDP under the one-point case.
+
+5. **Whether Social Security's new revenue counts toward the total-debt guardrails.** The maturity test reads the general fund only, but the total-debt guardrails read the unified budget, where SS-1's payroll revenue lowers total debt alongside general-fund borrowing (`ASM-GF-UNIFIED`). D4-B also says Social Security is kept whole and read on 75 years. The question is whether trust-fund surpluses may help general-fund programs pass the debt test. The options are to keep the unified reading (the convention CBO's deficit uses), to test total debt excluding the trust funds' own improvement (stricter, and closer to "Social Security pays for Social Security"), or to report both, with the stricter one as the commitment.
+
+**Not for Espen** (conventions to settle in the build, with Codex): the deflator for real-dollar views (section 7, B2 and B5); budget authority and spend-out by row (section 2, B3); a rule for when the baseline adjustments are replaced by a new CBO baseline (section 1, Codex); the post-2036 defense split (section 1); and a published source for DY1 (section 8).
