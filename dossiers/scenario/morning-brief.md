@@ -1,8 +1,8 @@
 # Morning brief: the politics after 2026, and what it means for 2029
 
-Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file at these heads: `main` at `dc6816c` (PRs #82, #86, #89 and #93 merged), PR #84 at `c47c371`, PR #88 at `dc5e920`, PR #87 at `d78ddb9`, PR #90 at `1d70867`, PR #91 at `300a884`, PR #92 at `9f75bae`, PR #80 at `af4e45a`.
+Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file at these heads: `main` at `dc6816c` (PRs #82, #86, #89 and #93 merged), PR #84 at `c47c371`, PR #88 at `dc5e920`, PR #87 at `d78ddb9`, PR #90 at `1d70867`, PR #91 at `300a884`, PR #92 at `9f75bae`, PR #96 at `2480a28`, PR #80 at `af4e45a`.
 
-**Where the files are.** Most files are merged into `main` and linked directly. Some files exist only on open PRs and are not merged yet. `senate-model-2028.md`, `senate-model-outputs.md` and `2030-2034-control.md` were merged with [PR #82](https://github.com/fm58cn6g4d-stack/project-2050/pull/82). Figures quoted here use the newer version in [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84), which is still open and could move again. `2028-republican-branch.md`, `compounding-redistricting.md`, `compounding-defense.md` and `compounding-prebuild.md` came from PR #86 and are now on `main`. `house-model-2028.md` and `house-stress-test-2029.md` come from [PR #88](https://github.com/fm58cn6g4d-stack/project-2050/pull/88), which is built on #84. `presidential-model-2028.md` comes from [PR #87](https://github.com/fm58cn6g4d-stack/project-2050/pull/87), built on #84. The defense and DEM-2 memo, [memo-defense-baseline-and-dem2.md](memo-defense-baseline-and-dem2.md), is now on `main` (PRs #89 and #94). `housing-by-2029-world.md` comes from [PR #90](https://github.com/fm58cn6g4d-stack/project-2050/pull/90). `redistricting-2030-model.md` comes from [PR #91](https://github.com/fm58cn6g4d-stack/project-2050/pull/91), built on #88. `model-credibility.md` comes from [PR #92](https://github.com/fm58cn6g4d-stack/project-2050/pull/92), built on #91. The others named here are not merged yet. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
+**Where the files are.** Most files are merged into `main` and linked directly. Some files exist only on open PRs and are not merged yet. `senate-model-2028.md`, `senate-model-outputs.md` and `2030-2034-control.md` were merged with [PR #82](https://github.com/fm58cn6g4d-stack/project-2050/pull/82). Figures quoted here use the newer version in [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84), which is still open and could move again. `2028-republican-branch.md`, `compounding-redistricting.md`, `compounding-defense.md` and `compounding-prebuild.md` came from PR #86 and are now on `main`. `house-model-2028.md` and `house-stress-test-2029.md` come from [PR #88](https://github.com/fm58cn6g4d-stack/project-2050/pull/88), which is built on #84. `presidential-model-2028.md` comes from [PR #87](https://github.com/fm58cn6g4d-stack/project-2050/pull/87), built on #84. The defense and DEM-2 memo, [memo-defense-baseline-and-dem2.md](memo-defense-baseline-and-dem2.md), is now on `main` (PRs #89 and #94). `housing-by-2029-world.md` comes from [PR #90](https://github.com/fm58cn6g4d-stack/project-2050/pull/90). `redistricting-2030-model.md` comes from [PR #91](https://github.com/fm58cn6g4d-stack/project-2050/pull/91), built on #88. `model-credibility.md` comes from [PR #92](https://github.com/fm58cn6g4d-stack/project-2050/pull/92), built on #91. `2027-scorecard.md` comes from [PR #96](https://github.com/fm58cn6g4d-stack/project-2050/pull/96). The others named here are not merged yet. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
 
 ## How much to trust these numbers
 
@@ -21,6 +21,24 @@ PR #92 (`model-credibility.md`) re-ran the Senate model on the 2018-2024 electio
 | The three uncertain seats not up (Alaska, Mississippi, Minnesota) | The Alaska and Mississippi certifications; Klobuchar's appointee and the 2027 Republican candidate |
 | The House break-even near D+1.5 | The New York referendum, Maryland's map, the Wisconsin rulings, freshman retirements, the first House ratings |
 | The caucus's filibuster positions (D2-F at 63%) | The reform camp's statements on graduated cloture; Colom and Peltola if seated; any 2027 rules votes |
+
+## What to watch in 2027
+
+PR #96 (`2027-scorecard.md`) sets out now what each November 2027 result would mean, so the reading can't be bent afterward.
+
+- **Winning isn't the test.** The central assumption (D+3.0) already expects Democrats to run far ahead of the 2024 map in off-year races. Being "on track" means about: Minnesota Senate special D+12.7; special elections averaging 12.5 points better than Harris did; Pennsylvania Supreme Court D+10.2; Kentucky governor R+10.3 (holding the seat would beat track); Mississippi governor R+8.6. Holding Minnesota by 5 would be bad news.
+- **The update rule is fixed in advance.** If the whole slate reports, the 2028 estimate moves 0.40 points for every point the results run off track. 2027 can move it a few points, not more.
+
+| If 2027 comes in... | Chance of a trifecta | Chance of 55+ Senate seats | Chance of a Democratic House in 2033 (no DEM-2) |
+| --- | --- | --- | --- |
+| On track | 60% | 66% | 45% |
+| 5 points behind | 42% | 52% | 36% |
+| 10 points ahead | 88% | 88% | 65% |
+
+(The 2033 House figures here cover all runs, not only those with a Democratic president, so they are lower than the 57% in finding 9.)
+
+- **The signal for the plan.** If Minnesota is lost and the national mood is under D+1 by mid-2028, the Senate still averages 54.9 seats with a Democratic president, inside #80's option B. What falls is the filibuster rule change (D2-F): from 61% to 41%. So the right response is D2's fallback paths (the talking filibuster and the democracy carve-out), not a lower Senate band.
+- **Caveat:** the special-election series comes from press summaries that measure different sets of races. Committing one series to the repository is #96's first next question.
 
 ## 1. The ten most important findings
 
