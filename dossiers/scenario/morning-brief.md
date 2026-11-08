@@ -74,7 +74,7 @@ With B, the memo also suggests the ban apply from enactment through the 2031 map
 
 **PR #76 (the merge-gate fix): nothing to do.** You approved it, and it merged on October 30.
 
-**Two smaller questions the new files raise** (not urgent):
+**Three smaller questions the new files raise** (not urgent):
 - Should the filibuster plan now treat the talking filibuster (D2-C) as the likely 2029 rule, with graduated cloture as the upside? (`senate-model-2028.md`, section 9)
 - Which horizon matters to you: "before 2032" (82-85% safe) or "through 2034" (46-60%)? (`2030-2034-control.md`, section 6)
 - Which defense level to accept in the 2027-28 budget deals, decided before about summer 2027 (finding 10; separate from #89's counting question). (`compounding-defense.md`, PR #86)
