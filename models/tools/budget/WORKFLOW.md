@@ -40,14 +40,14 @@ Its approach of having a language model read bill text and produce a score shoul
 | **B3** | **Provision scoring library** | `models/tools/budget/`: a typed provision format that records category, budget authority, spend-out, phase-in, indexation, vehicle and expiry, with a scoring method per type (from the CBO scorer's ideas and the existing profiles). A crosswalk gives every current ledger row a provision spec. Calibrated so each row's 2030-39 total still equals its ledger midpoint: no headline figure moves. | B1, B2 | Claude worker, Most capable; Codex reviews | 1; changing any ledger figure is tier 3 |
 | **B4** | **Benchmarks and model card** | Tests that the model reproduces CBO's baseline; reproduces two or three published CBO or JCT scores (for example, Public Law 119-21 and one appropriations act) within stated tolerances; keeps the accounting identities (deficit equals outlays minus revenue; debt grows by the deficit plus other means of financing); and responds to interest and growth shocks as CBO's rules of thumb say. Plus a model card: purpose, limits, known errors. | B2, B3 | Claude worker, Most capable; **independent milestone review by Codex** | 1 |
 | **B5** | **Fiscal viewer** | A page Espen can open: deficits, debt, interest and spending by category to 2056, in nominal, real and %GDP terms. Scenarios side by side. Each assumption links to its `ASM-` entry. A "what changed since the last run" view. Built from generated files only, so it never holds numbers of its own. | B2 (first version from today's `fiscal-paths.csv`); B3 for the full version | Claude worker, Standard | 2 |
-| **B6** | **Integration** | `fiscal-model.py` reads the new layer and library in place of its in-code constants. One shared scenario file for the ledger, incidence and fiscal models. | B1–B4 | The budget model's owner: a Claude worker if PR #106 is approved, otherwise Codex. **Independent milestone review by Codex** either way | 3 |
+| **B6** | **Integration** | `fiscal-model.py` reads the new layer and library in place of its in-code constants. One shared scenario file for the ledger, incidence and fiscal models. | B1–B4 | The budget model's owner: a Claude worker if PR #106 is approved, with **independent milestone review by Codex**; otherwise Codex, with independent review by the Claude reviewer (an author never reviews its own work) | 3 |
 | **B7** | **Decisions for Espen** | Short memos, one choice each: the defense reference (the existing memo); a possible lame-duck revenue adjustment (`dossiers/scenario/2028-lame-duck.md`, section 4); and any convention in B1 that changes what the plan commits to. | B1 | Lead or strategy session | 3 |
 
 ## How the pieces fit
 
 ```
 B1 conventions + assumptions ─┐
-                              ├─> B3 provision library ─> B4 benchmarks ─> B6 integration (Codex)
+                              ├─> B3 provision library ─> B4 benchmarks ─> B6 integration (owner)
 B2 data layer + baseline ─────┘                                              │
         └──────────────> B5 viewer (first version on today's outputs) <──────┘
 B1 ──> B7 decision memos for Espen (any time)
@@ -66,7 +66,7 @@ The account hit its five-hour usage limit overnight, and at most three Claude se
 1. **Now:** B1 and B2 in parallel. They write different files.
 2. **When B1 and B2 have PRs up:** B3, then B5's first version, which needs only today's outputs.
 3. **When B3 is in review:** B4.
-4. **When B4 merges:** B6, by the model's owner (see "Ownership"), with Codex's review requested through a PR comment. B7 memos go to Espen whenever B1 surfaces a choice.
+4. **When B4 merges:** B6, by the model's owner (see "Ownership"). If a Claude worker builds it, Codex's review is requested through a PR comment; if Codex builds it, the Claude reviewer reviews it. B7 memos go to Espen whenever B1 surfaces a choice.
 
 Each worker reports to the strategy session (`session_01UQzgBuA3EdnR7Dx4kUq1un`). The strategy session starts the next piece and tells the lead when each one lands.
 
