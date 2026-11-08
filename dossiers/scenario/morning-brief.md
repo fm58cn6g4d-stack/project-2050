@@ -1,13 +1,13 @@
 # Morning brief: the politics after 2026, and what it means for 2029
 
-Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file at these heads: `main` at `34110f6`, PR #82 at `c83dd98`, PR #84 at `5b4d0f5`, PR #86 at `ee2ea63`, PR #88 at `11bf03f`, PR #80 at `af4e45a`.
+Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file at these heads: `main` at `34110f6`, PR #82 at `c83dd98`, PR #84 at `5b4d0f5`, PR #86 at `ee2ea63`, PR #88 at `11bf03f`, PR #87 at `a38b1d1`, PR #89 at `ac5af16`, PR #80 at `af4e45a`.
 
-**Where the files are.** Most files are merged into `main` and linked directly. Some files exist only on open PRs and are not merged yet. `senate-model-2028.md`, `senate-model-outputs.md` and `2030-2034-control.md` come from [PR #82](https://github.com/fm58cn6g4d-stack/project-2050/pull/82), updated by [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84), which is built on top of #82; figures from them use #84's version. #84 is still in review: the reviewer asked for changes, and some figures there may move again. `2028-republican-branch.md`, `compounding-redistricting.md`, `compounding-defense.md` and `compounding-prebuild.md` come from [PR #86](https://github.com/fm58cn6g4d-stack/project-2050/pull/86). `house-model-2028.md` comes from [PR #88](https://github.com/fm58cn6g4d-stack/project-2050/pull/88), which is built on #84. None of these is merged yet. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
+**Where the files are.** Most files are merged into `main` and linked directly. Some files exist only on open PRs and are not merged yet. `senate-model-2028.md`, `senate-model-outputs.md` and `2030-2034-control.md` come from [PR #82](https://github.com/fm58cn6g4d-stack/project-2050/pull/82), updated by [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84), which is built on top of #82; figures from them use #84's version. #84 is still in review: the reviewer asked for changes, and some figures there may move again. `2028-republican-branch.md`, `compounding-redistricting.md`, `compounding-defense.md` and `compounding-prebuild.md` come from [PR #86](https://github.com/fm58cn6g4d-stack/project-2050/pull/86). `house-model-2028.md` comes from [PR #88](https://github.com/fm58cn6g4d-stack/project-2050/pull/88), which is built on #84. `presidential-model-2028.md` comes from [PR #87](https://github.com/fm58cn6g4d-stack/project-2050/pull/87), built on #84. The defense and DEM-2 memo, `memo-defense-baseline-and-dem2.md`, comes from [PR #89](https://github.com/fm58cn6g4d-stack/project-2050/pull/89), built on #86. None of these is merged yet. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
 
 ## 1. The ten most important findings
 
 1. **With a Democratic president, the 2029 Senate is probably about 57 seats.** The average is 56.7, and 90% of runs fall between 53 and 60. 55 or more happens in 84% of runs; 60 or more in only 9%. (`senate-model-2028.md`, section 4, [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84))
-2. **The House, not the Senate, decides whether there is a 2029 trifecta.** On the current maps Democrats need about D+1.5 for an even chance at the House: they hold it in 8% of runs at R+3, 35% in a neutral year, 75% at D+3 and 96% at D+6. A full trifecta comes in 58% of runs on the central assumption, and in 89% when a Democrat wins the presidency. Under a Republican president, Democrats hold the House in only 15% of runs but the Senate in 85%. (`house-model-2028.md`, PR #88)
+2. **The House, not the Senate, decides whether there is a 2029 trifecta.** On the current maps Democrats need about D+1.5 for an even chance at the House: they hold it in 8% of runs at R+3, 35% in a neutral year, 75% at D+3 and 96% at D+6. A full trifecta comes in 58% of runs on the central assumption, and in 89% when a Democrat wins the presidency. Under a Republican president, Democrats hold the House in only 15% of runs but the Senate in 85%. The presidency itself is close to even in a neutral year: a separate state-by-state model gives a Democrat 38% at even, 75% at D+3 and 95% at D+6 (65% on the central assumption), with an even chance at about D+0.9. Pennsylvania, Michigan, Georgia and North Carolina are each the deciding state in 14-16% of runs. (`house-model-2028.md`, PR #88; `presidential-model-2028.md`, PR #87)
 3. **January 2029 is the high point of the decade.** The average falls from 56.7 seats in 2029 to 54.1 after the 2030 midterm and 48.9 after 2032. Democrats hold 50 or more in every Congress through 2034 in only 46% of runs. (`2030-2034-control.md`, section 3, PR #84)
 4. **Five seats drive the 2032 drop.** Mississippi, South Carolina, Kansas, Iowa and Alaska supply 63% of the expected 2032 losses. All are states Trump won by 13 to 23 points, and all were won in the 2026 wave. (same file, section 4)
 5. **The best protection for 2032 is a milder 2030 midterm, and that depends on visible delivery in 2029-30.** Halving the usual midterm loss raises the chance of holding the Senate through 2034 from 46% to 56%. Statehood helps less than it looks (52-53%), because it also makes the Senate bigger, so a majority needs more seats. Stronger candidates in the exposed seats barely help (47-49%). (same file, section 5)
@@ -42,12 +42,34 @@ Sources: `senate-model-2028.md`, sections 4-6 and 9, and `2030-2034-control.md`,
 
 The newer model supports B. Its center with a Democratic president (56.7) sits at the top of B's band. It does not argue for C, because 2029 is the peak and the Senate shrinks after it. One fact for #80: its base of 40 seats not up in 2028 also needs Democrats to hold Minnesota in 2027. To choose B, add the label. To choose A or C, leave a comment and the author session will rewrite it. If you decide on a later day than November 8, say so, so the decision can be re-dated.
 
+**PR #89: two choices in one memo, decided separately.** Neither changes anything until you decide.
+
+*(a) How the plan counts defense.* Today the plan's cost checks measure everything against CBO's baseline, so a bigger 2027-28 defense deal would never show up (finding 10).
+
+| Option | What it means | What changes |
+| --- | --- | --- |
+| A. Keep CBO for everything | The current rule | Nothing. The 2027-28 defense choice stays invisible in the plan's numbers |
+| B. Measure defense against a fixed path | Flat in real terms from the 2026 level; anything above it is booked as a cost | The defense line shows the gap ($0.13-0.30 trillion), and the fiscal-rule checks tighten by the same amount |
+| **C. Keep CBO, add a disclosed line (recommended)** | The tests stay the same; a separate line shows defense above the 2026 flat path | A new line in the ledger and the fiscal report. It informs but does not bind. It can be upgraded to B later |
+
+B or C changes the adopted model inputs, which Codex looks after. That is a tier-3 change: it needs your approval, and then a request to Codex.
+
+*(b) How the redistricting reform (DEM-2) is written.*
+
+| Option | What it means | What changes |
+| --- | --- | --- |
+| A. One provision, as now | Commissions plus a ban on mid-decade redraws, together | If a court strikes the commissions, the ban may fall with them |
+| **B. One bill, three separable parts (recommended)** | Part 1, the mid-decade ban; part 2, federal fairness rules; part 3, commissions. Each stands alone | Same floor time as A. If the commissions fall, the ban and the rules survive. D1's House assumption would rest on parts 1-2 |
+| C. Two bills | The ban and rules first, commissions later | Two floor fights; commissions may never get a slot before 2031 |
+
+With B, the memo also suggests the ban apply from enactment through the 2031 maps, not only after 2032.
+
 **PR #76 (the merge-gate fix): nothing to do.** You approved it, and it merged on October 30.
 
 **Two smaller questions the new files raise** (not urgent):
 - Should the filibuster plan now treat the talking filibuster (D2-C) as the likely 2029 rule, with graduated cloture as the upside? (`senate-model-2028.md`, section 9)
 - Which horizon matters to you: "before 2032" (82-85% safe) or "through 2034" (46-60%)? (`2030-2034-control.md`, section 6)
-- Which defense level to accept in the 2027-28 budget deals, decided before about summer 2027 (finding 10). (`compounding-defense.md`, PR #86)
+- Which defense level to accept in the 2027-28 budget deals, decided before about summer 2027 (finding 10; separate from #89's counting question). (`compounding-defense.md`, PR #86)
 
 ## 4. Where the models disagree, or the evidence is thin
 
@@ -74,4 +96,4 @@ The newer model supports B. Its center with a Democratic president (56.7) sits a
 6. **Statehood as a 2029-30 bill.** Floor time, Puerto Rico's vote on statehood, and which election cycles the new senators fall in. *Why:* after the correction it is worth only about 6-7 points on keeping the Senate after 2032, so its case rests on representation. The plan should say so plainly before spending first-Congress floor time on it.
 7. **Which parts of each flagship can pass with 51 votes (Byrd-rule edges).** Care, housing conditions and paid leave first. *Why:* it sorts the 2029 bills between reconciliation and regular order before the bills are fixed.
 8. **The Minnesota 2027 special.** Who Klobuchar appoints, and whether Republicans recruit a serious candidate. *Why:* a full seat in every 2029 scenario, and a placeholder appointee costs about 6 points of the chance of holding it.
-9. **How to write DEM-2 so it survives the Court.** Should the commission mandate be severable from the mid-decade ban and federal criteria, and what do the 2015 dissents imply? *Why:* DEM-2 is worth about 5-10 House seats a cycle only if it is in force before the 2031 maps, and it is the plan's main answer to losing the 2030 midterm.
+9. **Whether DEM-2 survives the Court.** #89 recommends a severable bill; what remains is checking the 2015 dissents (cited from memory) and whether Congress can require commissions under the Elections Clause. *Why:* DEM-2 is worth about 5-10 House seats a cycle only if it is in force before the 2031 maps, and it is the plan's main answer to losing the 2030 midterm.
