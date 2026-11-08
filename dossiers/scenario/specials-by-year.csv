@@ -1,0 +1,12 @@
+# Derived from The Downballot, D-vs.-R special elections vs. presidential results, 2017-2026 (Donner, Lambert, Nir; the-downballot.com/data) [SRC-1092], by tools/specials_extract.py on 2026-11-08. Swing = D-minus-R margin minus the district's last presidential margin, points; counted = D + R at 90% or more and not starred by the sheet.
+year,cycle,baseline,races,races_counted,avg_swing,median_swing,official,federal_counted,federal_avg_swing
+2017,2017-18,Clinton 2016,70,67,11.19,10.82,0,4,11.95
+2018,2017-18,Clinton 2016,54,52,11.02,9.96,0,3,15.57
+2019,2019-20,Clinton 2016,51,48,4.69,4.44,0,3,3.06
+2020,2019-20,Clinton 2016,29,29,5.67,6.13,0,4,0.55
+2021,2021-22,Biden 2020,51,49,-4.43,-3.87,16,3,-1.13
+2022,2021-22,Biden 2020,34,28,-2.52,4.04,12,7,2.52
+2023,2023-24,Biden 2020,39,38,5.15,8.50,37,3,2.58
+2024,2023-24,Biden 2020,24,23,0.79,2.28,19,5,6.00
+2025,2025-26,Harris 2024,67,67,13.87,12.61,51,5,17.14
+2026,2025-26,Harris 2024,44,43,10.40,12.10,41,2,18.56
