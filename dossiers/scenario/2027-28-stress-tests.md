@@ -39,7 +39,7 @@ Role: hard questions the first drafts of `2027-races.md`, `2027-28-playbook.md`,
 **What the research found.**
 - Unity is real on the first bills: Senator Cortez Masto, who recruited many of the moderates, expects agreement on restoring the ACA credits, tariffs, the war and ICE [SRC-0976]; NPR reports "near-total agreement" on the first-100-hours list [SRC-0977].
 - The splits are on pay-fors and on the next big idea. Semafor notes California voters rejected the billionaire tax even in a wave, so paying for restoration with taxes on the wealthy "is challenging" [SRC-0973]. House Democrats' 84-page health memo plans first-year votes on Medicare for All, a public option and a Medicare buy-in [SRC-0978]; Sanders wants Medicare at 55 through reconciliation [SRC-0979]; Schatz says bolder policy "is for 2028" [SRC-0977]. Red-state senators will diverge on energy (Cortez Masto on Talarico and oil and gas); Turek says he would have voted with Republicans on farm and data-center bills [SRC-0976].
-- On the filibuster, four or five firm no's (playbook, section 6).
+- On the filibuster, four named opponents, which leave exactly 51 votes at 55 seats and 52 at 56: abolition needs every other Democrat (playbook, section 6).
 
 **What it changes.**
 - *Playbook:* reconciliation passing Congress lowered to **55-75%**, with the risk named: the pay-for package, not the restoration. The sequencing rule (consensus first, the bigger health debate in hearings) is now stated as the input docs' advice and as the evidence's.
