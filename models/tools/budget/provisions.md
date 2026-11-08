@@ -87,7 +87,7 @@ The model always has a growth index and an end year (or none) for a scored row; 
 
 ## Where the files disagree
 
-These are reported, not fixed: changing a category or a profile changes adopted inputs, which is Espen's decision (tier 3). B6 (item 3) sorted them into open design choices, kept as they are, and plain booking errors, corrected in their own tier-3 PR.
+These are reported, not fixed: changing a category or a profile changes adopted inputs, which is Espen's decision (tier 3). B6 (item 3) sorted them: open design choices kept as they are, and findings that would move figures, proposed to Espen. None is a plain booking error.
 
 ### Open design choices: vehicle and category (board 0d)
 
@@ -115,6 +115,6 @@ Espen, November 8, 2026: how each of these is enacted is not a decision to take 
 
 How B6 classes them:
 
-- **A plain booking error, corrected:** C33. Its own text says national service at appropriations scale, the declined LAB-9B design, so its category is nondefense discretionary, not other mandatory. The fix moves no total, only the category line of the reference-only DEC+TRIMS scenario. It changes `fiscal-profiles.csv`, an adopted input, so it is its own tier-3 PR for Espen.
+- **No plain booking error found.** C33 looked like one (its text says national service at appropriations scale, booked as other mandatory), but it is a net trim: it swaps LAB-9A's $0.12 trillion of mandatory money for LAB-9B's $0.05 trillion of appropriations, so neither single category is right. The faithful booking is a split (a mandatory saving and a discretionary cost). It is a declined, reference-only option (DEC+TRIMS), so it stays as booked.
 - **Design choices, kept as booked:** SAF-10, DEM-11 and CAP-7S, listed above. SAF-10's own title says mandatory spending, but it is one of the seven rows Espen left to the dossiers (board 0d).
 - **Timing and growth findings, proposed for Espen, not changed:** MOV-29 and MOV-30 (the ledger names top-up years the profile spreads evenly and carries on at 30% after 2039; the transportation model's annual figures could shape them), C35 (an exemption frozen in dollars grows faster than GDP; the profile's own note says it is held at GDP on purpose), and DEM-11's indexation. Each moves figures, so each is a tier-3 change.
