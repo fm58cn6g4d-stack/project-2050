@@ -1,6 +1,6 @@
 # Stress tests for the 2027-28 scenario
 
-Role: hard questions the first drafts of `2027-races.md`, `2027-28-playbook.md`, `2028-outlook.md` and `compounding-2029-2050.md` raised, with the research done to answer each and the revisions made because of it. Status: draft (stage B, step 3), as of November 8, 2026. Two rounds of three questions. Answers are **analysis** built on the cited sources, which were read November 8, 2026. The combined "Next questions" list for Espen and for later sessions is at the end.
+Role: hard questions the drafts of `2027-races.md`, `2027-28-playbook.md`, `2028-outlook.md`, `compounding-2029-2050.md` and the round-2 files raised, with the research done to answer each and the revisions made because of it. Status: draft (stage B, step 3), as of November 8, 2026. Three rounds of three questions. Answers are **analysis** built on the cited sources, which were read November 8, 2026. The combined "Next questions" list for Espen and for later sessions is at the end.
 
 ## Round 1
 
@@ -81,6 +81,28 @@ Role: hard questions the first drafts of `2027-races.md`, `2027-28-playbook.md`,
 **What it changes.**
 - *Playbook (section 2a):* the debt limit's leverage moment is late 2027, beside FY2028 (October 1), not February. The likely shape is a single fall-2027 package or standoff on FY2028 and the debt limit together, landing as the 2028 primaries begin. A raise sized to last into 2030 is the option that serves the 2029 plan.
 
+## Round 3 (after the lead's round-2 questions)
+
+Round 2's new files (`2028-republican-branch.md`, `compounding-prebuild.md`, `compounding-redistricting.md`, `compounding-defense.md`) raised three more.
+
+### 7. What if the Republican nominee is Rubio, not Vance?
+
+**Why it is hard.** `2028-republican-branch.md` reads the deal space from Vance's stated positions. The PollCheck average shows Rubio up about 7 points in a month, and one AtlasIntel poll (October 28 to November 1) had him ahead, 45.6 to 32.9 [SRC-1002].
+
+**What it changes (analysis).** The branch's structure (a Democratic Senate blocking reconciliation, confirmations, the 2030 midterm) does not depend on the nominee. The overlap table does: Rubio co-wrote the 2017 Rubio-Lee child tax credit amendment (memory; verify), so the child credit stays the likeliest deal, while Vance's war restraint and antitrust record are his own. A Rubio presidency is likelier to keep the Iran war's military posture, which keeps the war as a 2030 midterm driver. Revision: the branch now says it is written for "a Republican President," with Vance's positions as a guide only.
+
+### 8. What if DEM-2 passes in 2029 and the Court strikes the commission mandate before 2031?
+
+**Why it is hard.** `compounding-redistricting.md` values DEM-2 at about 5 to 10 seats a cycle, but its riskiest piece (mandated commissions) faces a Court with three justices who dissented when it upheld state commissions in 2015 (memory; verify).
+
+**What it changes (analysis).** If the statute is not severable, the whole package can fall with the commissions, leaving 2030's winners to draw. A severable design keeps the mid-decade ban and federal criteria, the two lower-risk pieces, which still remove the 2028-30 redraw wars and some of the partisan swing. Revision: the redistricting file now puts the split as Espen's question 2, and the pre-build pipeline lists DEM-2 at direction level only.
+
+### 9. What if Republicans refuse parity and FY2027-28 run on full-year stopgaps?
+
+**Why it is hard.** `compounding-defense.md` treats parity as a trade Democrats can choose. FY2025 ran on a full-year stopgap (the Ledger's own history [SRC-0545]), and a Republican Senate minority can force one again.
+
+**What it changes (analysis).** Full-year stopgaps land near path 1: defense roughly flat in nominal terms (below flat real), nondefense frozen. NSC-1A's base would be the lowest of the paths, but the nondefense rebuild the Ledger wants would be deferred, so CAP-7S's 2029 surge grows by roughly the forgone increases. The defense lock-in and the nondefense rebuild move together: the cheapest defense path is also the most expensive 2029 rebuild. Revision: noted in the defense file's reading of the parity trade.
+
 ## What changed in the drafts
 
 | File | Revision |
@@ -89,6 +111,9 @@ Role: hard questions the first drafts of `2027-races.md`, `2027-28-playbook.md`,
 | `2028-outlook.md` | War driver rewritten around Hormuz and prices; ceasefire as the key signpost |
 | `2027-races.md` | Mississippi redistricting row: the court orders behind the 2025 districts were reversed |
 | `compounding-2029-2050.md` | Drug-price lock-in row; DEM-1 note on the NVRA |
+| `2028-republican-branch.md` (round 3) | Written for any Republican nominee; Vance's positions as a guide |
+| `compounding-redistricting.md` (round 3) | DEM-2's severability as a question for Espen |
+| `compounding-defense.md` (round 3) | Full-year stopgaps: the cheapest defense path is the costliest rebuild |
 
 ## Next questions
 
