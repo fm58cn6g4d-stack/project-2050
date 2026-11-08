@@ -66,6 +66,28 @@ class Calibration(unittest.TestCase):
         self.assertAlmostEqual(sc.G, 6.2, delta=0.1)
 
 
+class Specials(unittest.TestCase):
+    def test_series_matches_the_trackers_own_averages(self):
+        by = sc.specials_by_year()
+        for y, (n, avg) in {2017: (67, 11.2), 2019: (48, 4.7), 2021: (49, -4.4), 2023: (38, 5.2),
+                            2025: (67, 13.9), 2026: (43, 10.4)}.items():
+            self.assertEqual(by[y][0], n)
+            self.assertAlmostEqual(by[y][1], avg, delta=0.05)
+
+    def test_2025_26_cycle(self):
+        rows = [r for r in sc.load_specials() if r['cycle'] == '2025-26' and r['counted'] == 'yes']
+        self.assertEqual(len(rows), 110)
+        self.assertAlmostEqual(sum(float(r['swing']) for r in rows) / len(rows), 12.5, delta=0.05)
+
+    def test_swing_is_margin_minus_baseline(self):
+        for r in sc.load_specials():
+            self.assertAlmostEqual(float(r['swing']), float(r['margin']) - float(r['pres_margin']), delta=0.011)
+
+    def test_benchmark(self):
+        self.assertAlmostEqual(sc.on_track('SP'), 4.48 + sc.SPECIALS_EXCESS, delta=0.01)
+        self.assertAlmostEqual(sc.on_track('SP'), 11.2, delta=0.05)
+
+
 class Fixing(unittest.TestCase):
     def test_fixed_restores_globals(self):
         before = dict(sm.UNCERTAIN_NOT_UP)

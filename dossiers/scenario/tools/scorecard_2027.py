@@ -49,13 +49,28 @@ VA_NJ = {2017: {'VA': 8.91, 'NJ': 14.14}, 2021: {'VA': -1.94, 'NJ': 3.22}, 2025:
 # in the all-candidate primary (Landry 51.6%) and has no two-candidate margin.
 SOUTH = {2015: {'KY': -8.71, 'LA': 12.22, 'MS': -33.86}, 2019: {'KY': 0.37, 'LA': 2.66, 'MS': -5.08},
          2023: {'KY': 5.07, 'MS': -3.24}}
-# Special-election average: Democratic margin minus the district's last presidential margin, by cycle.
-# 2017-18: 10.6 over 119 specials, The Downballot via TribLive [SRC-1085]; 2021: Republicans about 4 points
-# ahead of Trump 2020 through August (CNN) [SRC-1086]; 2023: 7.6 by November 1 (Daily Kos) [SRC-1087], and a
-# later 2023-24 tally of 3.8 seen only in a search summary, so the midpoint 5.7; 2025-26: "roughly 13" since
-# the start of 2025 (NPR, citing The Downballot) [SRC-1088]. ASSUMPTION: approximate press figures, not one
-# dataset, and measured over different race sets.
-SPECIALS = {2017: 10.6, 2021: -4.0, 2023: 5.7, 2025: 13.0}
+# Special-election average: Democratic margin minus the district's last presidential margin, every D-vs-R
+# special in the calendar year with D + R at 90% or more, from the committed series specials-2017-2026.csv
+# (The Downballot's trackers, extracted by tools/specials_extract.py) [SRC-1092].
+SPECIALS_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'specials-2017-2026.csv')
+
+
+def load_specials(path=SPECIALS_CSV):
+    with open(path) as f:
+        import csv
+        return [r for r in csv.DictReader(line for line in f if not line.startswith('#'))]
+
+
+def specials_by_year(rows=None):
+    """{year: (races counted, average swing)} from the committed series."""
+    out = {}
+    for r in rows or load_specials():
+        if r['counted'] == 'yes':
+            out.setdefault(int(r['year']), []).append(float(r['swing']))
+    return {y: (len(v), st.mean(v)) for y, v in sorted(out.items())}
+
+
+SPECIALS = {y: a for y, (n, a) in specials_by_year().items() if y % 2 == 1}   # the off-years
 
 
 def ols(xs, ys):
@@ -91,10 +106,10 @@ COURTS = [('WI', 2019, -0.50, 2020), ('WI', 2023, 11.04, 2024), ('PA', 2023, 6.0
 G = st.mean(m - PRES[nxt][s] for s, y, m, nxt in COURTS)   # about +6.2
 INC_GOV = sm.BASE_PARAMS['inc_gov']     # 3.0, removed when an incumbent governor ran
 SHRINK = sm.BASE_PARAMS['shrink']       # 0.4: share of a state's own governor excess that carries over
-# ASSUMPTION: specials ran about 11.6 points ahead of the next presidential change in 2023-24 (the one
-# presidential cycle) and about 1.9 ahead on average before the three midterms; 8 is set between, nearer the
-# presidential case.
-SPECIALS_EXCESS = 8.0
+# Specials' excess over the next national change, before each presidential year with data (2019, 2023): the
+# rule uses their mean. Before the three midterms it was smaller (shown in the outputs, section 2).
+PRES_YEARS = (2019, 2023)
+SPECIALS_EXCESS = st.mean(SPECIALS[y] - (NAT[y + 1] - NAT[y - 3]) for y in PRES_YEARS)
 GOV_INC = {('KY', 2019): 'R', ('KY', 2023): 'D', ('LA', 2019): 'D', ('MS', 2015): 'R', ('MS', 2023): 'R'}
 
 
@@ -264,8 +279,9 @@ def report(n=20000):
 
     w('## 1. On-track benchmarks for D+3.0, and how far each result moves the 2028 estimate\n')
     w('Off-year excess (how far a contest ran ahead of the state\'s next presidential margin): courts and other '
-      'non-governor statewide races %+.1f on average; specials %+.1f over the next presidential change '
-      '(ASSUMPTION). Governor races keep %.0f%% of their own state\'s excess beyond that.\n' % (G, SPECIALS_EXCESS, 100 * SHRINK))
+      'non-governor statewide races %+.1f on average; specials %+.1f over the next presidential change (the '
+      'mean of 2019 and 2023, section 2). Governor races keep %.0f%% of their own state\'s excess beyond '
+      'that.\n' % (G, SPECIALS_EXCESS, 100 * SHRINK))
     w('| Contest | Date | Lean (vs nation) | On track for D+3.0 | On track for Even / D+6 | Noise SD | Move in 2028 estimate per point above track: full slate / alone |')
     w('| --- | --- | --- | --- | --- | --- | --- |')
     for key, label, date, kind, s, sig in CONTESTS:
@@ -282,8 +298,9 @@ def report(n=20000):
 
     w('## 2. Calibration: did off-year results predict the next cycle?\n')
     mid, pres = calibration()
-    w('Signal = average Democratic gain over the state\'s previous presidential margin (governor races); specials '
-      'as reported. Next change = next national result minus the previous presidential margin.\n')
+    w('Signal = average Democratic gain over the state\'s previous presidential margin (governor races), and the '
+      'calendar-year special-election average from `specials-2017-2026.csv`. Next change = next national result '
+      'minus the previous presidential margin.\n')
     w('| Off-year | Target | Governor-race swing | Specials average | Next national change |')
     w('| --- | --- | --- | --- | --- |')
     for y, swing, sp, nxt in mid:
@@ -298,6 +315,21 @@ def report(n=20000):
     w('\nFits: before midterms, next change = %+.1f + %.2f x governor swing (residuals %s); specials, slope %.2f. '
       'Before presidential years, slope %.2f: no usable relation, and in 2023 the sign was wrong.\n' % (
           am, bm, ', '.join('%+.1f' % r for r in resid), bs, bp))
+    w('**The special-election series** (every counted D-vs-R special, by calendar year; swing against the last '
+      'presidential margin in the district):\n')
+    w('| Year | Races | Average swing | Next national change | Excess (swing minus next change) |')
+    w('| --- | --- | --- | --- | --- |')
+    for y, (cnt, avg) in specials_by_year().items():
+        nxt = {2017: NAT[2018] - NAT[2016], 2019: NAT[2020] - NAT[2016], 2021: NAT[2022] - NAT[2020],
+               2023: NAT[2024] - NAT[2020], 2025: NAT[2026] - NAT[2024]}.get(y)
+        w('| %d | %d | %+.1f | %s | %s |' % (y, cnt, avg, '—' if nxt is None else '%+.1f' % nxt,
+                                            '—' if nxt is None else '%+.1f' % (avg - nxt)))
+    rows = load_specials()
+    c2526 = [float(r['swing']) for r in rows if r['cycle'] == '2025-26' and r['counted'] == 'yes']
+    w('\n2025-26 cycle: %d counted races, average swing %+.1f against Harris 2024. The specials benchmark for D+3.0 '
+      'is the 2028 change from 2024 (%+.1f) plus the presidential-year excess (%+.1f) = %s.\n' % (
+          len(c2526), st.mean(c2526), PRIOR_MEAN - NAT[2024], SPECIALS_EXCESS,
+          'Harris %+.1f' % on_track('SP')))
     w('Gain sensitivity (same contests, all on track except a 5-point miss across the board):\n')
     w('| Full-slate gain k | Implied TAU | 2028 estimate after a 5-point miss | Posterior SD |')
     w('| --- | --- | --- | --- |')

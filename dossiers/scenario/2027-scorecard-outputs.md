@@ -4,7 +4,7 @@ Role: the tables `tools/scorecard_2027.py --write` produces, read by `2027-score
 
 ## 1. On-track benchmarks for D+3.0, and how far each result moves the 2028 estimate
 
-Off-year excess (how far a contest ran ahead of the state's next presidential margin): courts and other non-governor statewide races +6.2 on average; specials +8.0 over the next presidential change (ASSUMPTION). Governor races keep 40% of their own state's excess beyond that.
+Off-year excess (how far a contest ran ahead of the state's next presidential margin): courts and other non-governor statewide races +6.2 on average; specials +6.7 over the next presidential change (the mean of 2019 and 2023, section 2). Governor races keep 40% of their own state's excess beyond that.
 
 | Contest | Date | Lean (vs nation) | On track for D+3.0 | On track for Even / D+6 | Noise SD | Move in 2028 estimate per point above track: full slate / alone |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,7 @@ Off-year excess (how far a contest ran ahead of the state's next presidential ma
 | Kentucky governor (open D seat) | Nov 2 | R+28.1 | R+10.3 | R+13.3 / R+7.3 | 9.0 | 0.03 / 0.16 |
 | Mississippi governor (open R seat) | Nov 2 | R+18.1 | R+8.6 | R+11.6 / R+5.6 | 9.0 | 0.03 / 0.16 |
 | Louisiana governor (runoff, if a Democrat makes it) | Nov 20 | R+19.3 | R+2.6 | R+5.6 / D+0.4 | 9.0 | 0.03 / 0.16 |
-| Special-election average, all of 2027 (vs. Harris 2024) | all year | — | D+12.5 | D+9.5 / D+15.5 | 5.0 | 0.11 / 0.29 |
+| Special-election average, all of 2027 (vs. Harris 2024) | all year | — | D+11.2 | D+8.2 / D+14.2 | 5.0 | 0.11 / 0.29 |
 
 KY governor excess by race, incumbency removed: +21.1, +29.3, +32.6; carried over: +14.8.
 
@@ -26,18 +26,35 @@ Translation noise (shared by every 2027 contest) TAU = 4.8 points; full-slate ga
 
 ## 2. Calibration: did off-year results predict the next cycle?
 
-Signal = average Democratic gain over the state's previous presidential margin (governor races); specials as reported. Next change = next national result minus the previous presidential margin.
+Signal = average Democratic gain over the state's previous presidential margin (governor races), and the calendar-year special-election average from `specials-2017-2026.csv`. Next change = next national result minus the previous presidential margin.
 
 | Off-year | Target | Governor-race swing | Specials average | Next national change |
 | --- | --- | --- | --- | --- |
-| 2017 (VA, NJ) | 2018 midterm | +1.8 | +10.6 | +6.5 |
-| 2021 (VA, NJ) | 2022 midterm | -12.4 | -4.0 | -7.1 |
-| 2025 (VA, NJ) | 2026 midterm | +9.0 | +13.0 | +14.4 |
+| 2017 (VA, NJ) | 2018 midterm | +1.8 | +11.2 | +6.5 |
+| 2021 (VA, NJ) | 2022 midterm | -12.4 | -4.4 | -7.1 |
+| 2025 (VA, NJ) | 2026 midterm | +9.0 | +13.9 | +14.4 |
 | 2015 (KY, LA, MS) | 2016 presidential | +7.0 | — | -1.8 |
-| 2019 (KY, LA, MS) | 2020 presidential | +21.8 | — | +2.4 |
-| 2023 (KY, MS) | 2024 presidential | +22.2 | +5.7 | -5.9 |
+| 2019 (KY, LA, MS) | 2020 presidential | +21.8 | +4.7 | +2.4 |
+| 2023 (KY, MS) | 2024 presidential | +22.2 | +5.2 | -5.9 |
 
-Fits: before midterms, next change = +5.1 + 1.00 x governor swing (residuals -0.5, +0.2, +0.3); specials, slope 1.14. Before presidential years, slope -0.01: no usable relation, and in 2023 the sign was wrong.
+Fits: before midterms, next change = +5.1 + 1.00 x governor swing (residuals -0.5, +0.2, +0.3); specials, slope 1.07. Before presidential years, slope -0.01: no usable relation, and in 2023 the sign was wrong.
+
+**The special-election series** (every counted D-vs-R special, by calendar year; swing against the last presidential margin in the district):
+
+| Year | Races | Average swing | Next national change | Excess (swing minus next change) |
+| --- | --- | --- | --- | --- |
+| 2017 | 67 | +11.2 | +6.5 | +4.7 |
+| 2018 | 52 | +11.0 | — | — |
+| 2019 | 48 | +4.7 | +2.4 | +2.3 |
+| 2020 | 29 | +5.7 | — | — |
+| 2021 | 49 | -4.4 | -7.1 | +2.6 |
+| 2022 | 28 | -2.5 | — | — |
+| 2023 | 38 | +5.2 | -5.9 | +11.1 |
+| 2024 | 23 | +0.8 | — | — |
+| 2025 | 67 | +13.9 | +14.4 | -0.5 |
+| 2026 | 43 | +10.4 | — | — |
+
+2025-26 cycle: 110 counted races, average swing +12.5 against Harris 2024. The specials benchmark for D+3.0 is the 2028 change from 2024 (+4.5) plus the presidential-year excess (+6.7) = Harris +11.2.
 
 Gain sensitivity (same contests, all on track except a 5-point miss across the board):
 
@@ -70,8 +87,8 @@ Gain sensitivity (same contests, all on track except a 5-point miss across the b
 | Minnesota lost by 2 | D+1.8 | 49% | 42% | 39% |
 | Kentucky lost by 15 | D+2.8 | 59% | 65% | 44% |
 | Mississippi won by 3 | D+3.5 | 65% | 69% | 47% |
-| Specials average only Harris +5 | D+2.1 | 52% | 59% | 41% |
-| Specials average Harris +18 | D+3.7 | 67% | 71% | 49% |
+| Specials average only Harris +5 | D+2.2 | 53% | 61% | 41% |
+| Specials average Harris +18 | D+3.9 | 68% | 72% | 49% |
 | New York referendum passes | D+3.0 | 63% | 66% | 47% |
 | New York referendum fails | D+3.0 | 59% | 66% | 44% |
 | Virginia Senate lost (21-19 flips) | D+3.0 | 60% | 66% | 45% |
