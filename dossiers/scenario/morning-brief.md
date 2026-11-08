@@ -2,7 +2,7 @@
 
 Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file on `main` at `7d50150`, where all the scenario PRs it cites are merged (#82, #84, #86-#88, #90-#96 and #98; #89's memo arrived through #94), and against PR #80 as merged.
 
-**Where the files are.** Every file named here is merged into `main`, apart from `2028-lame-duck.md`, which is in [PR #100](https://github.com/fm58cn6g4d-stack/project-2050/pull/100) (not yet merged; checked at `d09d274`). All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
+**Where the files are.** Every file named here is merged into `main`. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
 
 ## How much to trust these numbers
 
@@ -44,7 +44,7 @@ PR #96 ([2027-scorecard.md](2027-scorecard.md)), updated by PR #98, sets out now
 
 ## The 2028 lame duck
 
-From `2028-lame-duck.md` (PR #100, not yet merged). Costs are the Joint Committee on Taxation's, sent with CBO's letter of August 4, 2025; no figure comes from the administration.
+From [2028-lame-duck.md](2028-lame-duck.md) (PR #100). Costs are the Joint Committee on Taxation's, sent with CBO's letter of August 4, 2025; no figure comes from the administration.
 
 - **What expires after tax year 2028:** the four household deductions (no tax on tips, no tax on overtime, car-loan interest, and the $6,000 deduction for people 65 and over), plus the $1,000 children's-account pilot and expensing for factories. The higher SALT cap ($40,000) and the clean fuel credit end a year later, after 2029.
 - **What extending them would cost:** the four household deductions are $33 billion in FY2029, then $68-73 billion a year: $384 billion over FY2029-34. All ten temporary provisions together are $787 billion.
