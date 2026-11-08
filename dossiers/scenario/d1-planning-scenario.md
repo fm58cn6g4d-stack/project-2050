@@ -1,16 +1,12 @@
 # D1, the planning scenario
 
-Role: the decision in force on D1, "Which scenario do we plan for?", replacing the legacy D1 (`legacy/governing/project-2050-governing-decisions.md`). Status: decided by Espen (`DEC-2026-11-08-01`): Senate option B and House option 2 below. The legacy file is read-only (`charter/STANDARDS.md`), so the updated decision lives here and the decision log points to it; the options are kept as the memo it was decided on.
+Role: the decision in force on D1, "Which scenario do we plan for?", replacing the legacy D1 (`legacy/governing/project-2050-governing-decisions.md`). Status: decided by Espen (`DEC-2026-11-08-01`): Senate option B, and on the House, option 1 as Espen directed on PR #80 (November 8). The legacy file is read-only (`charter/STANDARDS.md`), so the updated decision lives here and the decision log points to it; the options are kept as the memo it was decided on.
 
 ## In brief
 
-Espen decides two things here:
-- **the Senate band to plan for**;
-- **whether to plan for a Republican House**.
-
-The recommendation is B and 2:
-- **B:** plan for 53-56 seats, keep the 51-seat test, and treat 58 or more as upside.
-- **2:** add an "H" tag showing which items survive a Republican House.
+Two things are settled here:
+- **The Senate band:** B, plan for 53-56 seats, keep the 51-seat test, and treat 58 or more as upside (recommended; Espen decides it with the label).
+- **The House:** Espen's direction on PR #80 is to plan on a full trifecta in 2029-30, the House included. Other outcomes are modeled and prepared for from 2030 on. So the House stipulation stays (option 1) and no House tag is added.
 
 D2 to D9 do not change.
 
@@ -47,31 +43,30 @@ Every Senate option assumes a Democratic House comes with the presidency. If it 
 
 | Option | What it means | Cost |
 | --- | --- | --- |
-| 1. Keep the stipulation | Plan as if the House comes with the presidency | No plan for the 11% case, which falls in narrow wins, when a fallback matters most |
-| **2. Add an "H" tag (recommended)** | Each item also says whether it survives a Republican House: ✔ if executive, state or Senate-only, ✖ otherwise. One more column beside D1's existing ✔ / ◐ / ✖ | Light |
+| **1. Keep the stipulation (Espen's direction)** | Plan on a trifecta in 2029-30, the House included | No 2029 plan for the divided case; it stays analysis in `house-stress-test-2029.md` |
+| 2. Add an "H" tag | Each item also says whether it survives a Republican House: ✔ if executive, state or Senate-only, ✖ otherwise. One more column beside D1's existing ✔ / ◐ / ✖ | Light |
 | 3. Write a divided-2029 branch plan | First-100-days executive actions, the confirmation slate, negotiating positions, the 2030 ask | More work |
 
-**Why 2.** It shows at a glance which commitments are real without the House, at little cost. A full branch plan (3) is better written in 2028, if the 2027 scorecard points to a narrow win.
+**Decided: 1.** Espen, on PR #80: "Act as if the House goes to Democrats in the 2028 election along with the Senate and White House. For 2030 and beyond, we can model and prepare for other outcomes, but the premise of the Project 2050 work includes an initial trifecta window in 2029-30." The project's own models put a Democratic House at 89% of Democratic-president runs (`house-model-2028.md`); the stipulation is a planning premise, not a forecast.
 
 ## The decision
 
 **D1, decided:**
 - **Plan for a Senate of 53-56 seats.** Test every item against 51 and treat 58 or more as upside.
-- **Tag each item twice:**
-  - for the Senate, as before: ✔ survives at 51 (reconciliation, state, executive, House-only); ◐ needs a D2 majority-precedent path; ✖ needs 60, 67 or Republican votes;
-  - **H** for the House: ✔ survives a Republican House; ✖ needs a Democratic House.
+- **Tag each item for the Senate, as before:** ✔ survives at 51 (reconciliation, state, executive, House-only); ◐ needs a D2 majority-precedent path; ✖ needs 60, 67 or Republican votes.
+- **Plan on a trifecta in 2029-30.** Outcomes from 2030 on (a lost House, a narrower Senate) are modeled and prepared for, not assumed away.
 
 **Stipulations for modeling.** These are modeling assumptions, not forecasts.
 - **White House:** a Democrat holds it from January 2029 to at least January 2037 (unchanged).
 - **Senate:** Democrats hold 53-56 seats from January 2029. Holding the Senate through 2036 is no longer stipulated:
   - control holds through the 2031-32 Congress in about 82% of runs, but only 46% through 2033-34 (`2030-2034-control.md`);
-  - the 2032 class holds the seats won in 2026's wave.
-- **House:** a Democratic majority comes with the presidency in the base plan, with items tagged H. It is possibly lost or narrowed in 2030. A trifecta comes again from January 2033 if DEM-1 (with DEM-2 and the *Callais* response) is in force before the 2031 redistricting.
+  - the 2032 class contains the seats won in 2026's wave, which Democrats must defend.
+- **House:** Democrats hold it in the 2029-30 Congress, with the presidency and the Senate. It is possibly lost or narrowed in 2030, and plans for 2031 on prepare for that. A trifecta comes again from January 2033 if DEM-1 (with DEM-2 and the *Callais* response) is in force before the 2031 redistricting.
 - **Permitting:** a version of S. 5653, the bipartisan permitting bill, is enacted in the 2026 lame duck or the 2027-28 Congress (unchanged; record its status after the lame duck).
 - **First-trifecta scope:** unchanged from the legacy D1.
 
 ## Where it bears on D2 to D9 (notes only)
 
 - **D2:** the seat band matters less than the whip count. If the 2027 signals turn bad, the scorecard points to D2's fallback (G) and opening offer (C) as the working path, not to a lower band.
-- **D5:** reconciliation is lost in the divided case. The H tag shows what that costs.
+- **D5:** the three reconciliation vehicles stay as planned for 2029-30. The divided case, in which they are lost, is analysis only (`house-stress-test-2029.md`).
 - **D3, D4, D6 to D9:** no direct effect.
