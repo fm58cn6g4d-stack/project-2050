@@ -4,16 +4,16 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 **How to read it.** *pass*: within the stated tolerance. *fail*: outside it; the miss column gives the size. *pending*: there is no target yet, because the source isn't in the library or the model can't compute the quantity. A miss is reported, never fixed by changing the model or the tolerance.
 
-18 benchmarks: 13 pass, 5 fail. 2 of the passes (PS-3a, PS-3b) are partly in-sample: their level was calibrated to the same CBO figures they are checked against, so only their timing is tested.
+19 benchmarks: 16 pass, 3 fail. 4 of the passes (PS-3a, PS-3b, SE-2a, SE-2b) are partly in-sample: they were calibrated to the same CBO figures they are checked against, so only part of each is tested (each entry says which part).
 
-**Milestone status: not passed.** PS-4a, PS-4b, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
+**Milestone status: not passed.** PS-4a, PS-4b, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
 
 | ID | Benchmark | Result | Model | Target | Tolerance | Miss |
 | --- | --- | --- | --- | --- | --- | --- |
 | BL-1 | The baseline equals CBO's February 2026 projections plus the documented adjustments | **pass** | B2's 3 reproduction tests: 3 pass | every cell of models/data/fiscal-baseline.csv, FY1962-2056 | exact (the file's three decimals; the unrounded values are the same floating-point numbers) | — |
 | ID-1 | Deficit equals outlays minus revenue, every year and scenario | **pass** | 3.64e-12 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion): floating-point error only | — |
 | ID-2 | The program's added debt grows by exactly its added deficit (spending, revenue and interest) | **pass** | 1.93e-12 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
-| ID-3 | Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario | **pass** | 3.91e-11 ($B, largest gap from CBO's residual) | 0.00 | $1,000 (1e-6 billion) | — |
+| ID-3 | Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario | **pass** | 6.18e-11 ($B, largest gap from CBO's residual) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4a | Interest on the program's borrowing follows from its debt and the stated rates | **pass** | 0.00 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4b | The baseline's net interest is consistent with its debt and CBO's average interest rate | **pass** | 0.10 (points, largest gap (implied minus CBO)) | 0.00 | 0.25 percentage point in every year FY2027-36 | — |
 | ID-5 | Nominal equals real times the deflator, and share of GDP times GDP (B2's two conversions) | **pass** | 2.07e-16 (largest relative error) | 0.00 | relative error 1e-12 | — |
@@ -23,8 +23,9 @@ Role: the current result of every benchmark of the federal budget model (piece B
 | PS-3b | CBO: discretionary nondefense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | -1.4% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
 | PS-4a | CBO: outlays by year from one appropriations act's new defense budget authority (2024 Israel security supplemental, Title I, Defense) | **fail** | spent by end of year 1-4: 44%, 78%, 103%, 99% (share of budget authority) | CBO: 53%, 66%, 82%, 92% | within 10 points of CBO's cumulative share in each of the first four years | +21 points by end of year 3 |
 | PS-4b | CBO: outlays by year from one appropriations act's new nondefense budget authority (2024 Israel security supplemental, Title II, State, Foreign Operations) | **fail** | spent by end of year 1-4: 25%, 60%, 90%, 100% (share of budget authority) | CBO: 97%, 98%, 99%, 100% | within 10 points of CBO's cumulative share in each of the first four years | -72 points by end of year 1 |
-| SE-1 | Interest rates 0.1 point higher on all debt from FY2027: added net interest | **fail** | FY2027-36 total 502; FY2027 32, FY2036 72 ($B) | CBO: total 383; FY2027 14, FY2036 62 | ten-year total within 15%, and each year within 25% | ten-year total +31%; 5 of 10 years outside 25% (largest FY2027, +131%) |
-| SE-2 | Slower growth (productivity or labor force 0.1 point a year slower): added deficits | **fail** | 0 for both (the model has no growth response) ($B) | CBO, FY2027-36: productivity 317, labor force 166 | ten-year total within 15% for each scenario | -100% for both: 0 against 317 and 166 |
+| SE-1 | Interest rates 0.1 point higher on all debt from FY2026: added net interest | **pass** | FY2027-36 total 382; FY2027 14, FY2036 62 ($B) | CBO: total 383; FY2027 14, FY2036 62 | ten-year total within 15%, and each year within 25% | — |
+| SE-2a | Slower growth (productivity growth 0.1 point a year slower from FY2026): added deficits, FY2027-36 | **pass** (partly in-sample) | 320 ($B) | 317 | ten-year total within 15% | — |
+| SE-2b | Slower growth (labor force growth 0.1 point a year slower from FY2026): added deficits, FY2027-36 | **pass** (partly in-sample) | 171 ($B) | 166 | ten-year total within 15% | — |
 | TF-1 | Social Security (OASDI combined): current law | **pass** | depletion 2034, 83% payable, balance -4.45% | depletion 2034, 83% payable, balance -4.42% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | — |
 | TF-2 | Medicare Hospital Insurance: current law | **fail** | depletion 2034, 89% payable, balance -0.64% | depletion 2033, 89% payable, balance -0.56% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | depletion +1 year, balance -0.08 points of payroll |
 | TF-3 | SSA's own scores of seven Social Security provisions, rebuilt by the engine | **pass** | -0.02 (points, largest gap) | 0.00 | 0.05 point of taxable payroll for each provision | — |
@@ -63,7 +64,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 ### ID-3. Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario
 
 - **Result:** pass
-- **Model:** 3.91e-11 ($B, largest gap from CBO's residual)
+- **Model:** 6.18e-11 ($B, largest gap from CBO's residual)
 - **Target:** 0.00
 - **Tolerance:** $1,000 (1e-6 billion)
 - **Source:** CBO February 2026 ten-year and long-term projections of debt and deficits, as stored in the adopted baseline (models/data/fiscal-baseline.csv, to $1 million)
@@ -173,29 +174,43 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 ## Sensitivity
 
-### SE-1. Interest rates 0.1 point higher on all debt from FY2027: added net interest
+### SE-1. Interest rates 0.1 point higher on all debt from FY2026: added net interest
 
-- **Result:** fail. Miss: ten-year total +31%; 5 of 10 years outside 25% (largest FY2027, +131%)
-- **Model:** FY2027-36 total 502; FY2027 32, FY2036 72 ($B)
+- **Result:** pass
+- **Model:** FY2027-36 total 382; FY2027 14, FY2036 62 ($B)
 - **Target:** CBO: total 383; FY2027 14, FY2036 62
 - **Tolerance:** ten-year total within 15%, and each year within 25%
-- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Table 3, on the February 2026 baseline; Espen's November 8 upload (PR #121)
-- **Why:** The model's stress cases (DEC-R1, BASE-R1) raise every rate by one point from FY2030. Here the same method, reproduced exactly (it gives BASE-R1 to the dollar), is run on CBO's own scenario: every rate 0.1 point higher each year, on CBO's baseline, from FY2027 (the first year the model can shock). That is the closest comparison the model allows, with no scaling. It is not exact: CBO's scenario starts in FY2026, a year earlier, so CBO's figure for each year has had one more year to phase in. That makes the comparison kinder to the model, not harsher. CBO says its rules of thumb are roughly symmetrical and scalable up to one point. The total gets 15% for CBO's rounding and the model's simpler rate rule; each year gets 25%, because the stress case is read year by year (the guardrails in 2035, 2045 and 2056), so timing matters as well as the total. Revenue effects (Federal Reserve remittances, under $5 billion a year in CBO's table) are left out of both sides.
-- Model by year: FY2027 32, FY2028 36, FY2029 39, FY2030 43, FY2031 47, FY2032 51, FY2033 56, FY2034 61, FY2035 66, FY2036 72.
+- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Table 3, on the February 2026 baseline; Espen's November 8 upload (PR #121). Treasury, Monthly Statement of the Public Debt, September 30, 2026, for the maturity structure (models/data/budget/treasury-maturity.csv)
+- **Why:** The model's stress cases (DEC-R1, BASE-R1) raise every rate by one point from FY2030. Here the same method, rewritten from its written rule and checked to give BASE-R1 to the dollar, is run on CBO's own scenario: every rate 0.1 point higher each year from FY2026, CBO's first year, on the model's baseline. That compares like with like, with no scaling. FY2026 itself is not compared, because the model's FY2026 is the actual year and CBO's FY2026 shock is partial. As in CBO's rules of thumb, the higher rate reaches the debt outstanding at the start only as it is refinanced, on Treasury's maturity structure (ASM-RATE-ROLLOVER); new borrowing pays it in full. CBO says its rules of thumb are roughly symmetrical and scalable up to one point. The total gets 15% for CBO's rounding and the model's simpler rate rule; each year gets 25%, because the stress case is read year by year (the guardrails in 2035, 2045 and 2056), so timing matters as well as the total. Revenue effects (Federal Reserve remittances, under $5 billion a year in CBO's table) are left out of both sides.
+- Model by year: FY2027 14, FY2028 20, FY2029 25, FY2030 31, FY2031 36, FY2032 41, FY2033 46, FY2034 51, FY2035 57, FY2036 62.
 - CBO by year: FY2027 14, FY2028 20, FY2029 25, FY2030 31, FY2031 36, FY2032 41, FY2033 46, FY2034 51, FY2035 57, FY2036 62.
-- Why they differ: the model applies the higher rate to all of last year's debt at once (fiscal-model.py, baseline()), so its first-year effect is 0.1% of about $32.4 trillion. CBO phases the higher rate in as maturing debt is refinanced, so its effect starts lower and grows as the debt turns over. The model is higher in every year, by most at the start, which is the cautious direction. Whether to phase rates in is a method choice for B6, not a change made here.
-- In the model's own +1 point case (BASE-R1), the same method adds $387 billion in FY2030, the first year, and $6211 billion over FY2030-39.
+- Before B6 the model applied the higher rate to all of last year's debt at once. On this scenario that method gave $517 billion over FY2027-36 and $34 billion in FY2027 (from a FY2027 start, B4's run: $502 billion and $32 billion), against CBO's $383 billion and $14 billion. Phasing the rate in as debt rolls over is B6's fix (item 1).
+- In the model's own +1 point case (BASE-R1), the phased method adds $95 billion in FY2030, the first year, and $4228 billion over FY2030-39.
 - Cross-check: CBO's 2025 workbook (61183, January 2025 baseline) gives +13.34 billion in FY2026 for the same scenario. Those are the figures in Espen's old CBO scorer (SRC-0203), so that table came from it.
 
-### SE-2. Slower growth (productivity or labor force 0.1 point a year slower): added deficits
+### SE-2a. Slower growth (productivity growth 0.1 point a year slower from FY2026): added deficits, FY2027-36
 
-- **Result:** fail. Miss: -100% for both: 0 against 317 and 166
-- **Model:** 0 for both (the model has no growth response) ($B)
-- **Target:** CBO, FY2027-36: productivity 317, labor force 166
-- **Tolerance:** ten-year total within 15% for each scenario
-- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Table 2; Espen's November 8 upload (PR #121)
-- **Why:** The model takes CBO's baseline revenue and spending as given in dollars. It has no input for slower growth, so its added deficit is zero where CBO's is $317 billion (productivity) and $166 billion (labor force) over FY2027-36. That is a missing capability, not a calibration error: building a growth response is for B6 or later, calibrated to these tables. Fifteen percent is the same allowance as SE-1's total.
-- Program rows indexed to GDP would also shrink with slower growth; the model has no way to feed that in either.
+- **Result:** pass
+- **Model:** 320 ($B)
+- **Target:** 317
+- **Tolerance:** ten-year total within 15%
+- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Tables 1 and 2; Espen's November 8 upload (PR #121); copied into models/data/budget/cbo-rules-of-thumb.csv
+- **Why:** B6 (item 2) gives the model a growth link (fiscal-model.py, growth_path; ASM-GROWTH-LINK): CBO's own effects on revenue, mandatory spending and interest rates, as shares of GDP by year of the shock, scaled to the size of the change; the model then borrows the added deficits at its own rate. **This is in-sample.** The link is taken from the same CBO table it is checked against, so the benchmark tests only the model's debt service on the added deficits ($43 billion against CBO's $40 billion) and the bookkeeping, not how well the link predicts. Fifteen percent is the same allowance as SE-1's total.
+- Model by year: FY2027 8, FY2028 11, FY2029 16, FY2030 21, FY2031 26, FY2032 32, FY2033 38, FY2034 46, FY2035 56, FY2036 66.
+- Out of sample, across vintages: the same method calibrated to CBO's 2025 workbook (61183, January 2025 baseline) and applied to the February 2026 baseline gives $421 billion, +33% from CBO's 2026 figure. CBO's own rules of thumb moved that much between the two baselines, mostly through a larger effect of lower interest rates in 2026. Read any growth reading with that much uncertainty.
+- Not modeled: program rows indexed to GDP would also shrink with slower growth; the link moves the baseline only.
+
+### SE-2b. Slower growth (labor force growth 0.1 point a year slower from FY2026): added deficits, FY2027-36
+
+- **Result:** pass
+- **Model:** 171 ($B)
+- **Target:** 166
+- **Tolerance:** ten-year total within 15%
+- **Source:** CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Tables 1 and 2; Espen's November 8 upload (PR #121); copied into models/data/budget/cbo-rules-of-thumb.csv
+- **Why:** B6 (item 2) gives the model a growth link (fiscal-model.py, growth_path; ASM-GROWTH-LINK): CBO's own effects on revenue, mandatory spending and interest rates, as shares of GDP by year of the shock, scaled to the size of the change; the model then borrows the added deficits at its own rate. **This is in-sample.** The link is taken from the same CBO table it is checked against, so the benchmark tests only the model's debt service on the added deficits ($22 billion against CBO's $20 billion) and the bookkeeping, not how well the link predicts. Fifteen percent is the same allowance as SE-1's total.
+- Model by year: FY2027 4, FY2028 5, FY2029 8, FY2030 10, FY2031 13, FY2032 16, FY2033 20, FY2034 25, FY2035 32, FY2036 38.
+- Out of sample, across vintages: the same method calibrated to CBO's 2025 workbook (61183, January 2025 baseline) and applied to the February 2026 baseline gives $199 billion, +20% from CBO's 2026 figure. CBO's own rules of thumb moved that much between the two baselines, mostly through a larger effect of lower interest rates in 2026. Read any growth reading with that much uncertainty.
+- Not modeled: program rows indexed to GDP would also shrink with slower growth; the link moves the baseline only.
 
 ## Trust funds
 

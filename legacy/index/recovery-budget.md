@@ -9,7 +9,7 @@
 | mixed | 120.0% | 116.0% | 3.79% | True | 1.59 |
 | larger_payroll | 119.6% | 114.3% | 3.62% | True | 1.29 |
 | mixed_downside | 125.5% | 138.2% | 5.62% | False | 5.36 |
-| mixed_all_debt_rate_plus1 | 131.6% | 152.5% | 6.64% | False | 5.40 |
+| mixed_all_debt_rate_plus1 | 127.8% | 146.3% | 6.32% | False | 5.14 |
 | mixed_no_macro_translation | 119.8% | 114.6% | 3.63% | True | — |
 | mixed_leave_admin_high | 120.1% | 116.3% | 3.81% | True | — |
 | mixed_ssa_medicare_all_hi | 120.0% | 116.0% | 3.79% | True | — |
