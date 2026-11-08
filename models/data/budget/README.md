@@ -22,6 +22,7 @@ Role: the budget series every piece of the federal budget model reads (workflow 
 | `omb-outlays-by-function.csv` | OMB Historical Table 3.2: outlays by function and subfunction | FY1962-2025 | `build_data.py` |
 | `omb-ba-by-function.csv` | OMB Historical Table 5.1: budget authority by function and subfunction | FY1976-2025 | `build_data.py` |
 | `omb-discretionary.csv` | OMB Historical Tables 5.6 and 8.7: discretionary budget authority and outlays by program group, defense and nondefense | BA FY1976-2025; outlays FY1962-2025 | `build_data.py` |
+| `provisions.csv` | One provision spec per ledger row (piece B3; see "Provision specs") | — | by hand, seeded from the ledger and profile tables |
 | `spendout-discretionary.csv` | Estimated spend-out of discretionary budget authority, defense and nondefense (see "Spend-out") | fit on FY1993-2019 | `build_data.py` |
 | `omb/*.xlsx` | The four OMB tables as published, the source for the OMB files above | — | downloaded |
 
@@ -68,3 +69,36 @@ OMB publishes discretionary budget authority and outlays, but not how fast each 
 | Nondefense | 27% | 37% | 31% | 15% | 1.10 | 3.6% |
 
 Read these as rough. The defense year-4 share is slightly negative, which is noise in the fit. Nondefense shares add to more than one because nondefense discretionary outlays include highway and transit spending under obligation limitations. That budget authority is mandatory contract authority, so OMB does not count it as discretionary. B3 should treat these shares as placeholders until CBO's account-level spend-out is uploaded (see "Blocked").
+
+## Provision specs
+
+`provisions.csv` (piece B3) says how each ledger row's money is enacted and how the library scores it. The ledger keeps the amounts; a spec keeps the rest. The library is `models/tools/budget/provisions.py`, its tests `test_provisions.py`, and `models/tools/budget/provisions.md` summarizes the specs (generated). One row per ledger row: every bill, revenue option, gap-closing option and dynamic-feedback row in `models/data/inputs/ledger-*.csv`, plus one per component of a split bill (`HOU-1/<component>`, from `fiscal-components.csv`).
+
+`unknown` means the repository does not say; nothing is guessed. Until piece B6 the model fields (`category` through `unified`, marked * below) must equal the row's profile in `models/data/inputs/fiscal-profiles.csv` or `fiscal-components.csv`, and the tests fail if they drift. Numbers keep their typed form (`1` and `1.0` differ) for the same reason.
+
+| Column | Values | Meaning |
+| --- | --- | --- |
+| `id` | ledger ID | the key; a component is `<bill>/<component>` |
+| `table` | `bill`, `component`, `base_revenue`, `revenue_option`, `option`, `dynamic` | which ledger table it comes from |
+| `parent` | ledger ID | the bill a component belongs to |
+| `label` | text | the ledger's description, shortened |
+| `in_model` | `yes`, `no` | whether the fiscal model scores the row |
+| `category` * | a baseline category of `categories.csv` | the CBO line the row adds to |
+| `kind` | `discretionary`, `mandatory`, `revenue`, `transfer`, `none` | what the money is: a discretionary appropriation, mandatory (direct) spending, revenue, an interest-neutral transfer (self-funded, zero on the unified budget), or no direct budget effect. Taken from the category, except `transfer` (unified rule `zero`) and `none` (ledger amount 0; NSC-1 stays discretionary because it reads 0 only against CBO's baseline) |
+| `vehicle` | `regular_appropriations`, `supplemental_emergency`, `advance_appropriation`, `reconciliation`, `regular_order`, `none`, `unknown` | the bill that carries it |
+| `vehicle_source` | text | where the vehicle comes from: the ledger rail, or the package in `models/data/inputs/votes-bills.csv` |
+| `appropriation` | `annual`, `subject_to_appropriation`, `direct_spending`, `multi_year`, `advance`, `none`, `unknown` | how the budget authority is provided |
+| `budget_authority` | `spendout`, `outlays`, `on_enactment`, `none`, `unknown` | how the library gets budget authority: estimated from outlays at B2's discretionary spend-out (rough), equal to outlays (benefits, entitlements, tax credits), provided in full on enactment (not priced), none, or not known |
+| `spendout_group` | `defense`, `nondefense` | which spend-out shares a discretionary row uses |
+| `method` | `profile`, `years`, `components`, `climate`, `dynamic`, `not_scored` | the scoring method (`provisions.py` docstring) |
+| `start` * | fiscal year | first year with any effect (the model's default is 2030) |
+| `ramp` * | years | years to full phase-in |
+| `indexation` * | `gdp`, `cpi`, a baseline category, `special_ss` | the growth index the model uses (health rows track CBO's health spending, a stand-in for enrollment and cost growth; revenue rows their tax base) |
+| `indexation_basis` | `stated`, `model`, `unknown` | `stated` where the ledger's text says how the law is indexed (quoted in `notes`); `model` where the growth index is the model's own assumption |
+| `expiry` * | fiscal year, `none` | the last year of a time-limited line |
+| `expiry_basis` | `stated`, `model`, `unknown` | as for indexation |
+| `continues_after_2039` * | share | share of the 2039 run rate that continues after 2039 |
+| `fade` * | share a year | how fast the continuing part shrinks after 2039 |
+| `unified` * | `same`, `zero`, `net_of_own_revenue` | the unified-budget amount: the general-fund amount, zero (self-funded), or the net of the row's own revenue (SS-1) |
+| `asm_ids` | `ASM-` IDs | the assumptions the row's score relies on (`assumptions.csv`) |
+| `notes` | text, parts separated by ` \| ` | the profile's basis, quoted evidence, and any conflict between files |
