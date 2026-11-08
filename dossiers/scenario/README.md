@@ -11,6 +11,7 @@ This is not a flagship dossier, so it does not follow the nine-section template.
 | `3-framework-2027-28.md` | Who holds which levers in 2027-28, the vehicles, what counts as success, how the two years feed the 2029 plan, what could change the picture, and the open questions for Espen. Questions and options, not decisions. Includes a check of the two input docs |
 | `4-2029-plan.md` | What the results mean for the legacy decisions D1, D2, D3, D4, D8 and D9 and for the stage order in `charter/PLAN.md`: flagged changes, none made |
 | `5-senate-2028.md` | The 2028 Senate map and a scenario estimate of the Senate in January 2029 (script in `tools/`), the evidence for a proposed D1 update |
+| `d1-planning-scenario.md` | The updated D1 (planning scenario), proposed for Espen's decision with options; recorded as `DEC-2026-11-08-01` once decided |
 
 **Time frame.** Under `DEC-2026-10-29-01` the plan is a governing program from January 2029. 2027-28 is one of its two labeled exceptions, and the work here on 2027-28 is that exception: it serves the 2029 plan and does not replace it.
 

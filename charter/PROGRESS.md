@@ -80,7 +80,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 0. **Stage B, the post-election update** (`dossiers/scenario/3-framework-2027-28.md`, section 7; none urgent before the lame duck ends). The five that matter most:
    - what 2027-28 is for: laws now, a clear record, a plan ready for 2029, a protected 2028 election, or a mix;
    - when an early deal is worth locking in a design before its dossier decides it;
-   - whether to rebaseline D1 (52-54 seats) now that 2026 produced 55-56, or after a 2028 map analysis;
+   - D1: a proposed update is ready (`dossiers/scenario/d1-planning-scenario.md`, tier-3 PR): plan for 53-56 seats instead of 52-54, keep the 51-seat test, upside at 58+; options A (keep), B (recommended) and C (plan for the 2026 result);
    - whether any Senate rules change happens in 2027 or waits for 2029 (D2);
    - what 2027-28 appropriations should do to the FY2029 defense base that NSC-1A holds flat.
 
