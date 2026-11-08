@@ -22,7 +22,7 @@ What the money is ("kind"), each with one scoring method:
                  Budget authority: an estimate that leads outlays. Each year's budget authority
                  is the outlays it pays for over its spend-out: the next four years' outlays
                  weighted by B2's discretionary shares for the row's group (defense or
-                 nondefense, models/data/budget/spendout-discretionary.csv), BA(t) = sum over k
+                 nondefense without transportation, spendout-discretionary.csv), BA(t) = sum over k
                  of share(k) x outlays(t+k). Lifetime budget authority then equals lifetime
                  outlays, it is never negative, and a program whose outlays start in FY2030 shows
                  budget authority from FY2027. B2's shares are rough (a least-squares fit on
@@ -36,6 +36,19 @@ What the money is ("kind"), each with one scoring method:
                  oscillates by several times a year's outlays, because outlays jump from zero in
                  FY2030; it is not a usable reading.) Years after FY2056 are extended at the
                  row's FY2055-56 growth.
+  contract_authority
+                 Highway and transit spending from the Highway Trust Fund, recorded as CBO does:
+                 the budget authority is mandatory contract authority, and the outlays, which
+                 annual obligation limitations control, are discretionary. Outlays: the
+                 calibrated profile path, in its discretionary category. Mandatory budget
+                 authority: the contract authority the row provides, by year, from the Moving
+                 America model (contract_authority()). The rest of the row (general-fund rail and
+                 transit money) gets discretionary budget authority by the spend-out estimate
+                 above, on the row's outlays scaled by one minus its contract-authority share.
+                 Nondefense spend-out never applies to contract authority: its shares are fit on
+                 OMB's nondefense totals without transportation (spendout_group
+                 nondefense_ex_transportation, ASM-SPENDOUT), whose outlays run on contract
+                 authority. Rough, like every spend-out figure.
   mandatory      Outlays: the calibrated profile path. Budget authority equals outlays in the
                  same year, CBO's usual reading of benefits and tax credits, where the spec says
                  so (budget_authority = outlays). Where the spec says on_enactment (a multi-year
@@ -80,14 +93,16 @@ W0, W1 = 2030, 2039          # the ledger's scoring window (ASM-WINDOW)
 CPI_RATE = {y: 2.26 if y <= 2036 else 2.3 for y in range(Y0, Y1 + 1)}
 SS_FADE = 0.015              # SS-1's net saving shrinks 1.5% a year after 2039 (ASM-PROF-SS1)
 
-KINDS = ("discretionary", "mandatory", "revenue", "transfer", "none")
+KINDS = ("discretionary", "contract_authority", "mandatory", "revenue", "transfer", "none")
 VEHICLES = ("regular_appropriations", "supplemental_emergency", "advance_appropriation",
             "reconciliation", "regular_order", "none", "unknown")
 METHODS = ("profile", "years", "components", "climate", "dynamic", "not_scored")
-BUDGET_AUTHORITY = ("spendout", "outlays", "on_enactment", "none", "unknown")
+BUDGET_AUTHORITY = ("spendout", "contract_authority", "outlays", "on_enactment", "none", "unknown")
+SPENDOUT_GROUPS = ("defense", "nondefense_ex_transportation")
 UNIFIED = ("same", "zero", "net_of_own_revenue")
 COLUMNS = ["id", "table", "parent", "label", "in_model", "category", "kind", "vehicle",
-           "vehicle_source", "appropriation", "budget_authority", "spendout_group", "method",
+           "vehicle_source", "appropriation", "budget_authority", "spendout_group",
+           "contract_authority_years", "method",
            "start", "ramp", "indexation", "indexation_basis", "expiry", "expiry_basis",
            "continues_after_2039", "fade", "unified", "asm_ids", "notes"]
 UNKNOWN = "unknown"
@@ -145,8 +160,12 @@ def problems(S):
                 bad("unified %r" % s["unified"])
             if s["method"] in ("profile", "years", "components", "dynamic") and s["indexation"] in ("", UNKNOWN):
                 bad("a scored row needs its growth index")
-        if s["kind"] == "discretionary" and s["budget_authority"] == "spendout" and s["spendout_group"] not in ("defense", "nondefense"):
-            bad("discretionary spend-out needs spendout_group defense or nondefense")
+        if s["budget_authority"] in ("spendout", "contract_authority") and s["spendout_group"] not in SPENDOUT_GROUPS:
+            bad("spend-out needs spendout_group %s" % " or ".join(SPENDOUT_GROUPS))
+        if (s["kind"] == "contract_authority") != (s["budget_authority"] == "contract_authority"):
+            bad("kind contract_authority and budget_authority contract_authority go together")
+        if s["kind"] == "contract_authority" and not s["contract_authority_years"]:
+            bad("contract authority needs contract_authority_years")
         if s["kind"] == "revenue" and s["budget_authority"] not in ("none",):
             bad("revenue has no budget authority")
         if s["parent"] and s["parent"] not in S:
@@ -370,10 +389,37 @@ def spendout_apply(ba, group):
     return {y: sum(s[k] * ba.get(y - k, 0.0) for k in range(len(s))) for y in sorted(ba)}
 
 
+def transportation():
+    """models/tools/transportation/moving_america.py, the Moving America model (read, not changed)."""
+    if "MA" not in _cache:
+        d = os.path.join(TOOLS, "transportation")
+        if d not in sys.path:
+            sys.path.insert(0, d)
+        sp = importlib.util.spec_from_file_location("moving_america_b3", os.path.join(d, "moving_america.py"))
+        m = importlib.util.module_from_spec(sp)
+        sp.loader.exec_module(m)
+        _cache["MA"] = m
+    return _cache["MA"]
+
+
+def contract_authority(spec):
+    """{fiscal year: billions} of highway and transit contract authority a spec provides: the
+    Moving America model's renewal top-ups to the Highway Trust Fund's highway and transit
+    accounts in the spec's contract_authority_years. The model's amounts are budget authority
+    (moving_america.ledger_rows). Rail top-ups and the rail and transit packages are general-fund
+    money, not contract authority."""
+    a, _, b = spec["contract_authority_years"].partition("-")
+    years = range(int(a), int(b or a) + 1)
+    tu = transportation().Model().topups()
+    return {y: tu[y]["hwy"] + tu[y]["tra"] for y in years}
+
+
 class Score(dict):
     """id, category, kind, gf and unified deficit effects, and the budget-concept paths:
-    outlays (spending kinds), receipts (revenue), budget_authority (or None where unknown),
-    budget_authority_rough (True for every spend-out figure)."""
+    outlays (spending kinds), receipts (revenue), budget_authority (or None where unknown), split
+    into ba_mandatory and ba_discretionary (None where that type has none), and
+    budget_authority_rough (True for every spend-out figure). Contract-authority rows also carry
+    contract_authority_share, their contract authority over their FY2030-39 outlays."""
 
 
 def score(spec, amounts, S=None, B=None):
@@ -389,16 +435,28 @@ def score(spec, amounts, S=None, B=None):
         gf = deficit_path(spec, a_gf, S, B)
         uni = deficit_path(spec, a_uni, S, B)
     out = Score(id=i, category=spec["category"], kind=spec["kind"], gf=gf, unified=uni,
-                outlays=None, receipts=None, budget_authority=None, budget_authority_rough=False)
+                outlays=None, receipts=None, budget_authority=None, budget_authority_rough=False,
+                ba_mandatory=None, ba_discretionary=None)
     if spec["kind"] == "revenue":
         out["receipts"] = {y: -v for y, v in uni.items()}
-    elif spec["kind"] in ("discretionary", "mandatory", "transfer"):
+    elif spec["kind"] in ("discretionary", "contract_authority", "mandatory", "transfer"):
         out["outlays"] = dict(uni if spec["kind"] != "transfer" else gf)
         if spec["budget_authority"] == "spendout":
-            out["budget_authority"] = spendout_ba(out["outlays"], spec["spendout_group"])
+            out["ba_discretionary"] = spendout_ba(out["outlays"], spec["spendout_group"])
+            out["budget_authority_rough"] = True
+        elif spec["budget_authority"] == "contract_authority":
+            ca = contract_authority(spec)
+            share = sum(ca.values()) / sum(out["outlays"][y] for y in range(W0, W1 + 1))
+            rest = {y: (1 - share) * v for y, v in out["outlays"].items()}
+            out["ba_mandatory"] = {y: ca.get(y, 0.0) for y in range(Y0, Y1 + 1)}
+            out["ba_discretionary"] = spendout_ba(rest, spec["spendout_group"])
+            out["contract_authority_share"] = share
             out["budget_authority_rough"] = True
         elif spec["budget_authority"] == "outlays":
-            out["budget_authority"] = dict(out["outlays"])
+            out["ba_mandatory"] = dict(out["outlays"])
+        parts = [p for p in (out["ba_mandatory"], out["ba_discretionary"]) if p is not None]
+        if parts:
+            out["budget_authority"] = {y: sum(p[y] for p in parts) for y in range(Y0, Y1 + 1)}
     return out
 
 

@@ -16,7 +16,8 @@ ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
 sys.path.insert(0, HERE)
 import provisions as P  # noqa: E402
 
-KIND_WORDS = {"discretionary": "Discretionary appropriation", "mandatory": "Mandatory (direct) spending",
+KIND_WORDS = {"discretionary": "Discretionary appropriation",
+              "contract_authority": "Contract authority (mandatory budget authority, discretionary outlays)", "mandatory": "Mandatory (direct) spending",
               "revenue": "Revenue", "transfer": "Interest-neutral transfer (self-funded)",
               "none": "No direct budget effect"}
 VEHICLE_WORDS = {"reconciliation": "Reconciliation (R1, R2, R3)", "regular_order": "Regular-order authorization",
@@ -25,10 +26,11 @@ VEHICLE_WORDS = {"reconciliation": "Reconciliation (R1, R2, R3)", "regular_order
                  "advance_appropriation": "Advance appropriation", "none": "Not a provision (financing line or feedback)",
                  "unknown": "Unknown"}
 BA_WORDS = {"spendout": "Derived from outlays at B2's discretionary spend-out rates (rough)",
+            "contract_authority": "Contract authority from the transportation model, plus spend-out for the rest (rough)",
             "outlays": "Equal to outlays (a benefit, entitlement or tax credit)",
             "on_enactment": "Provided in full on enactment; amount not priced",
             "none": "None (revenue, or no budget effect)", "unknown": "Unknown"}
-APPR_WORDS = {"annual": "Annual appropriation", "subject_to_appropriation": "Authorized, subject to later appropriation",
+APPR_WORDS = {"annual": "Annual appropriation", "contract_authority": "Contract authority, limited by annual obligation limits", "subject_to_appropriation": "Authorized, subject to later appropriation",
               "direct_spending": "Direct spending provided by the law itself", "multi_year": "Multi-year appropriation",
               "advance": "Advance appropriation", "none": "None", "unknown": "Unknown"}
 FIELDS = ("category", "vehicle", "appropriation", "budget_authority", "start", "ramp", "indexation",
@@ -101,25 +103,38 @@ def render(ledger_path):
     o.append("")
     o.append("### Appropriation type and budget authority (scored spending rows)")
     o.append("")
-    spend = [s for s in scored if s["kind"] in ("discretionary", "mandatory", "transfer")] + comps
+    spend = [s for s in scored if s["kind"] in ("discretionary", "contract_authority", "mandatory", "transfer")] + comps
     o += table(["Appropriation type", "Rows"], [[APPR_WORDS[a], n] for a, n in Counter(s["appropriation"] for s in spend).most_common()])
     o.append("")
     o += table(["Budget authority", "Rows"], [[BA_WORDS[a], n] for a, n in Counter(s["budget_authority"] for s in spend).most_common()])
     o.append("")
     # discretionary budget authority
-    disc = [s["id"] for s in scored if s["budget_authority"] == "spendout" and any(SC[s["id"]]["outlays"].values())]
-    ba_w = sum(P.window_total(SC[i]["budget_authority"]) for i in disc)
-    out_w = sum(P.window_total(SC[i]["outlays"]) for i in disc)
-    early = sum(SC[i]["budget_authority"][y] for i in disc for y in range(P.Y0, P.W0)) / 1000
-    gaps = {i: P.spendout_gap(SC[i]["budget_authority"], SC[i]["outlays"], S[i]["spendout_group"]) for i in disc}
+    disc = [s["id"] for s in scored if s["budget_authority"] in ("spendout", "contract_authority") and any(SC[s["id"]]["outlays"].values())]
+    cover = {i: {y: (1 - SC[i].get("contract_authority_share", 0.0)) * v for y, v in SC[i]["outlays"].items()} for i in disc}
+    ba_w = sum(P.window_total(SC[i]["ba_discretionary"]) for i in disc)
+    out_w = sum(P.window_total(cover[i]) for i in disc)
+    early = sum(SC[i]["ba_discretionary"][y] for i in disc for y in range(P.Y0, P.W0)) / 1000
+    gaps = {i: P.spendout_gap(SC[i]["ba_discretionary"], cover[i], S[i]["spendout_group"]) for i in disc}
     worst = sorted(disc, key=lambda i: -max(abs(v) for v in gaps[i].values()))[:5]
-    first_share = P._spendout("nondefense")[0]
-    o.append("**What the discretionary spend-out shows.** For the %d discretionary rows with spending, the library estimates the budget authority (the appropriations) behind the model's outlays: each year's appropriation is the outlays it pays for over B2's four-year spend-out. Over FY2030-39 that is $%.2f trillion of budget authority for $%.2f trillion of outlays. Another $%.2f trillion would have to be appropriated before FY2030, in FY2027-29: at B2's rates only %.0f%% of new nondefense budget authority is spent in its first year, so outlays that start at full speed in FY2030, as most profiles have them, need money enacted earlier. The scoring window does not count it (CONVENTIONS.md, choice 3)." % (
+    first_share = P._spendout("nondefense_ex_transportation")[0]
+    o.append("**What the discretionary spend-out shows.** For the %d rows with discretionary budget authority, the library estimates that budget authority (the appropriations) behind the model's outlays: each year's appropriation is the outlays it pays for over B2's four-year spend-out. Nondefense rows use shares fit on OMB's nondefense totals without transportation, whose outlays run on contract authority (see below); those shares add to 1.00, where the shares with transportation add to 1.10. Over FY2030-39 that is $%.2f trillion of budget authority for $%.2f trillion of outlays. Another $%.2f trillion would have to be appropriated before FY2030, in FY2027-29: at these rates only %.0f%% of new nondefense budget authority is spent in its first year, so outlays that start at full speed in FY2030, as most profiles have them, need money enacted earlier. The scoring window does not count it (CONVENTIONS.md, choice 3)." % (
         len(disc), ba_w, out_w, early, 100 * first_share))
     o.append("")
-    o.append("Spending that budget authority out at the same rates does not give back the model's outlays exactly, because the model's profiles start and stop faster than B2's rates allow. The largest FY2030-39 gaps, in billions: %s. The model's outlays stay canonical; the budget-authority figures are rough until CBO's account-level spend-out replaces B2's estimate (B2 README, \"Spend-out\")." % (
+    o.append("Spending that budget authority out at the same rates does not give back the model's outlays exactly, because the model's profiles start and stop faster than B2's rates allow. The largest FY2030-39 gaps, in billions: %s. The model's outlays stay canonical; the budget-authority figures are rough until CBO's own spend-out replaces B2's estimate (B2 README, \"Spend-out\")." % (
         "; ".join("%s %+.1f in FY%d" % (i, gaps[i][y], y) for i in worst for y in [max(gaps[i], key=lambda y: abs(gaps[i][y]))])))
     o.append("")
+    ca = [s["id"] for s in scored if s["kind"] == "contract_authority"]
+    if ca:
+        cbo = [r for r in P.D.table("cbo-contract-authority") if r["group"] == "highway_transit"]
+        cav = [float(r["contract_authority"]) for r in cbo]
+        cao = [float(r["outlays"]) for r in cbo]
+        firsts = ", ".join("FY%d for %s" % (min(y for y, v in SC[i]["ba_mandatory"].items() if v), i) for i in ca)
+        o.append("**Contract authority.** Highway and transit programs paid from the Highway Trust Fund get mandatory budget authority (contract authority) from their authorizing law, while annual appropriations acts cap how much may be obligated each year, so their outlays count as discretionary. CBO records them that way: in its February 2026 baseline, FY%s-%s, the trust fund's highway and transit accounts carry about $%.0f billion a year of mandatory contract authority (the FY2026 level, which CBO's baseline extends) and $%.0f-%.0f billion a year of discretionary nondefense outlays (`models/data/budget/cbo-contract-authority.csv`). %s carry the Moving America acts' top-ups to those accounts, and the library records them the same way. %s The rest of each row (rail and transit packages, rail top-ups) is general-fund money and gets discretionary budget authority by spend-out. The model spreads each row's outlays from FY2030, before its first contract authority (%s), and continues 30%% of them after 2039 with no contract authority behind them; the text-and-model differences below say the same." % (
+            cbo[0]["year"], cbo[-1]["year"], sum(cav) / len(cav), min(cao), max(cao), " and ".join(ca),
+            " ".join("%s: $%.1f billion of contract authority in FY%s, %.0f%% of its FY2030-39 outlays." % (
+                i, sum(SC[i]["ba_mandatory"].values()), S[i]["contract_authority_years"], 100 * SC[i]["contract_authority_share"]) for i in ca),
+            firsts))
+        o.append("")
     o.append("## Unknown fields")
     o.append("")
     o.append("A field is `unknown` where the repository does not say. Nothing was guessed. For the %d scored rows (and the %d HOU-1 components):" % (len(scored), len(comps)))

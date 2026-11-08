@@ -20,7 +20,10 @@ Run from the repo root, after bash models/tools/run-all.sh:  python3 models/tool
   5. models/data/fiscal-paths.csv is the file this run wrote, the ledger headlines follow from
      the library's own totals, and every generated output is unchanged (run-all's drift check).
   6. The budget-concept paths behave: discretionary budget authority leads outlays, is never
-     negative and adds up to lifetime outlays; budget authority equals outlays where the spec says so; receipts are minus the
+     negative and adds up to lifetime outlays; budget authority splits into mandatory and
+     discretionary; highway and transit contract authority (MOV-29, MOV-30) is mandatory budget
+     authority equal to the transportation model's top-ups, with discretionary outlays, and the
+     nondefense spend-out leaves transportation out; budget authority equals outlays where the spec says so; receipts are minus the
      deficit effect; views come from data.py.
   7. provisions.md is what provisions_report.py writes from the specs.
 """
@@ -193,13 +196,16 @@ class NoSilentMoves(unittest.TestCase):
 
 class BudgetConcepts(unittest.TestCase):
     def test_spendout_budget_authority(self):
-        """Discretionary budget authority: never negative where outlays are not, adds up to the
-        same lifetime total as outlays (FY2026-56 plus the extension), and comes first."""
+        """Discretionary budget authority by spend-out: never negative where outlays are not, adds
+        up to the same lifetime total as the outlays it covers (FY2026-56 plus the extension), and
+        comes first. For contract-authority rows the outlays it covers are the non-contract share."""
         n = 0
         for i, sc in SC.items():
-            if S.get(i, {}).get("budget_authority") != "spendout":
+            if S.get(i, {}).get("budget_authority") not in ("spendout", "contract_authority"):
                 continue
-            ba, o = sc["budget_authority"], sc["outlays"]
+            ba = sc["ba_discretionary"]
+            share = sc.get("contract_authority_share", 0.0)
+            o = {y: (1 - share) * v for y, v in sc["outlays"].items()}
             self.assertTrue(sc["budget_authority_rough"])
             if all(v >= 0 for v in o.values()):
                 self.assertTrue(all(v >= 0 for v in ba.values()), i)
@@ -216,6 +222,18 @@ class BudgetConcepts(unittest.TestCase):
             self.assertAlmostEqual(sum(ba.values()), sum(o.values()) + tail, places=6, msg=i)
             n += 1
         self.assertGreater(n, 20)
+
+    def test_budget_authority_by_type_adds_up(self):
+        for i, sc in SC.items():
+            if sc["budget_authority"] is None:
+                continue
+            parts = [p for p in (sc["ba_mandatory"], sc["ba_discretionary"]) if p is not None]
+            for y in range(P.Y0, P.Y1 + 1):
+                self.assertEqual(sc["budget_authority"][y], sum(p[y] for p in parts), i)
+            if sc["kind"] == "discretionary":
+                self.assertIsNone(sc["ba_mandatory"], i)
+            if sc["kind"] in ("mandatory", "transfer"):
+                self.assertIsNone(sc["ba_discretionary"], i)
 
     def test_spendout_apply_inverts_a_flat_stream(self):
         flat = {y: 10.0 for y in range(P.Y0, P.Y1 + 1)}
@@ -250,6 +268,41 @@ class BudgetConcepts(unittest.TestCase):
         for y in (2030, 2039, 2056):
             self.assertAlmostEqual(sum(c[y] for c in cats.values()),
                                    sum(sc["unified"][y] for i, sc in SC.items() if i != "DYN"), places=6)
+
+
+class ContractAuthority(unittest.TestCase):
+    """Highway and transit contract authority: mandatory budget authority, discretionary outlays."""
+
+    def test_rows_and_amounts(self):
+        ca = [i for i, s in S.items() if s["kind"] == "contract_authority"]
+        self.assertEqual(sorted(ca), ["MOV-29", "MOV-30"])
+        tu = P.transportation().Model().topups()
+        want = {"MOV-29": {y: tu[y]["hwy"] + tu[y]["tra"] for y in (2032, 2033, 2034, 2035)},
+                "MOV-30": {2036: tu[2036]["hwy"] + tu[2036]["tra"]}}
+        for i in ca:
+            sc = SC[i]
+            self.assertEqual({y: v for y, v in sc["ba_mandatory"].items() if v}, want[i], i)
+            self.assertEqual(sc["category"], "out_disc_nondefense", i)   # outlays stay discretionary
+            self.assertAlmostEqual(sc["contract_authority_share"],
+                                   sum(want[i].values()) / sum(sc["outlays"][y] for y in range(P.W0, P.W1 + 1)), places=12)
+            self.assertTrue(0 < sc["contract_authority_share"] < 1, i)
+        self.assertNotEqual(S["MOV-31"]["kind"], "contract_authority")
+
+    def test_nondefense_spendout_leaves_out_transportation(self):
+        groups = {s["spendout_group"] for s in S.values() if s["budget_authority"] in ("spendout", "contract_authority")}
+        self.assertEqual(groups, {"defense", "nondefense_ex_transportation"})
+        rows = [r for r in D.table("spendout-discretionary") if r["group"] == "nondefense_ex_transportation"]
+        self.assertEqual(len(rows), 4)
+        self.assertAlmostEqual(float(rows[0]["sum_of_shares"]), 1.0, places=2)
+
+    def test_cbo_records_contract_authority_as_mandatory(self):
+        """CBO's account file: the Highway Trust Fund accounts carry mandatory contract authority
+        and discretionary outlays, with no discretionary budget authority, in every year."""
+        rows = [r for r in D.table("cbo-contract-authority") if r["group"] == "highway_transit"]
+        self.assertEqual(sorted(int(r["year"]) for r in rows), list(range(2026, 2037)))
+        for r in rows:
+            self.assertGreater(float(r["contract_authority"]), 70)
+            self.assertGreater(float(r["outlays"]), 70)
 
 
 class Report(unittest.TestCase):

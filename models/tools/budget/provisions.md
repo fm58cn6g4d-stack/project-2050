@@ -14,7 +14,8 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 
 | Kind | Rows | Scored | Bills and base revenue | FY2030-39, $T |
 | --- | --- | --- | --- | --- |
-| Discretionary appropriation | 23 | 23 | 21 | 1.33 |
+| Discretionary appropriation | 21 | 21 | 19 | 0.98 |
+| Contract authority (mandatory budget authority, discretionary outlays) | 2 | 2 | 2 | 0.35 |
 | Mandatory (direct) spending | 37 | 37 | 33 | 5.78 |
 | Revenue | 80 | 32 | 13 | -5.85 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
@@ -27,7 +28,7 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Regular (annual) appropriations | 6 | 6 | discretionary 6 | EDU-8, DEM-11, DEM-16, CAP-7, NSC-1, NSC-8 |
 | Supplemental or emergency appropriations | 0 | 0 |  |  |
 | Advance appropriation | 0 | 0 |  |  |
-| Reconciliation (R1, R2, R3) | 54 | 54 | discretionary 7, mandatory 28, revenue 17, transfer 2 |  |
+| Reconciliation (R1, R2, R3) | 54 | 54 | discretionary 5, contract_authority 2, mandatory 28, revenue 17, transfer 2 |  |
 | Regular-order authorization | 29 | 29 | discretionary 8, mandatory 5, none 16 |  |
 | Not a provision (financing line or feedback) | 16 | 9 | revenue 9, none 7 |  |
 | Unknown | 60 | 12 | discretionary 2, mandatory 4, revenue 54 |  |
@@ -39,21 +40,25 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 | Appropriation type | Rows |
 | --- | --- |
 | Direct spending provided by the law itself | 40 |
-| Unknown | 9 |
 | Authorized, subject to later appropriation | 8 |
+| Unknown | 7 |
 | Annual appropriation | 6 |
+| Contract authority, limited by annual obligation limits | 2 |
 | Multi-year appropriation | 1 |
 
 | Budget authority | Rows |
 | --- | --- |
-| Derived from outlays at B2's discretionary spend-out rates (rough) | 23 |
 | Equal to outlays (a benefit, entitlement or tax credit) | 22 |
+| Derived from outlays at B2's discretionary spend-out rates (rough) | 21 |
 | Unknown | 18 |
+| Contract authority from the transportation model, plus spend-out for the rest (rough) | 2 |
 | Provided in full on enactment; amount not priced | 1 |
 
-**What the discretionary spend-out shows.** For the 21 discretionary rows with spending, the library estimates the budget authority (the appropriations) behind the model's outlays: each year's appropriation is the outlays it pays for over B2's four-year spend-out. Over FY2030-39 that is $1.26 trillion of budget authority for $1.20 trillion of outlays. Another $0.10 trillion would have to be appropriated before FY2030, in FY2027-29: at B2's rates only 24% of new nondefense budget authority is spent in its first year, so outlays that start at full speed in FY2030, as most profiles have them, need money enacted earlier. The scoring window does not count it (CONVENTIONS.md, choice 3).
+**What the discretionary spend-out shows.** For the 21 rows with discretionary budget authority, the library estimates that budget authority (the appropriations) behind the model's outlays: each year's appropriation is the outlays it pays for over B2's four-year spend-out. Nondefense rows use shares fit on OMB's nondefense totals without transportation, whose outlays run on contract authority (see below); those shares add to 1.00, where the shares with transportation add to 1.10. Over FY2030-39 that is $1.09 trillion of budget authority for $1.02 trillion of outlays. Another $0.07 trillion would have to be appropriated before FY2030, in FY2027-29: at these rates only 24% of new nondefense budget authority is spent in its first year, so outlays that start at full speed in FY2030, as most profiles have them, need money enacted earlier. The scoring window does not count it (CONVENTIONS.md, choice 3).
 
-Spending that budget authority out at the same rates does not give back the model's outlays exactly, because the model's profiles start and stop faster than B2's rates allow. The largest FY2030-39 gaps, in billions: MOV-31 -10.3 in FY2036; CAP-7 -8.2 in FY2032; MOV-29 -8.1 in FY2039; MOV-30 -2.9 in FY2039; DEM-17 -1.8 in FY2036. The model's outlays stay canonical; the budget-authority figures are rough until CBO's account-level spend-out replaces B2's estimate (B2 README, "Spend-out").
+Spending that budget authority out at the same rates does not give back the model's outlays exactly, because the model's profiles start and stop faster than B2's rates allow. The largest FY2030-39 gaps, in billions: MOV-31 -10.1 in FY2036; CAP-7 -7.8 in FY2032; MOV-29 -3.3 in FY2039; MOV-30 -2.0 in FY2039; DEM-17 -1.8 in FY2036. The model's outlays stay canonical; the budget-authority figures are rough until CBO's own spend-out replaces B2's estimate (B2 README, "Spend-out").
+
+**Contract authority.** Highway and transit programs paid from the Highway Trust Fund get mandatory budget authority (contract authority) from their authorizing law, while annual appropriations acts cap how much may be obligated each year, so their outlays count as discretionary. CBO records them that way: in its February 2026 baseline, FY2026-2036, the trust fund's highway and transit accounts carry about $80 billion a year of mandatory contract authority (the FY2026 level, which CBO's baseline extends) and $78-89 billion a year of discretionary nondefense outlays (`models/data/budget/cbo-contract-authority.csv`). MOV-29 and MOV-30 carry the Moving America acts' top-ups to those accounts, and the library records them the same way. MOV-29: $149.6 billion of contract authority in FY2032-2035, 58% of its FY2030-39 outlays. MOV-30: $27.0 billion of contract authority in FY2036, 30% of its FY2030-39 outlays. The rest of each row (rail and transit packages, rail top-ups) is general-fund money and gets discretionary budget authority by spend-out. The model spreads each row's outlays from FY2030, before its first contract authority (FY2032 for MOV-29, FY2036 for MOV-30), and continues 30% of them after 2039 with no contract authority behind them; the text-and-model differences below say the same.
 
 ## Unknown fields
 
@@ -63,7 +68,7 @@ A field is `unknown` where the repository does not say. Nothing was guessed. For
 | --- | --- | --- |
 | `category` | 0 | none |
 | `vehicle` | 12 | H1b, G8, GX, CX, CXP, C5, C17, C19, C29, C33, C34, C36 |
-| `appropriation` | 9 | EDU-4, LAB-8, DEM-17, NSC-10, SAF-10, MOV-29, MOV-30, C17, C34 |
+| `appropriation` | 7 | EDU-4, LAB-8, DEM-17, NSC-10, SAF-10, C17, C34 |
 | `budget_authority` | 18 | FAM-2, EDU-1, CLI-5, CLI-7, HOU-1, LAB-9, CLI-7C, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, CLI-2O, C29, C33, HOU-1/legacy-housing-title, HOU-1/additional-600000-voucher-awards |
 | `start` | 0 | none |
 | `ramp` | 0 | none |
