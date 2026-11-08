@@ -19,6 +19,11 @@ The leading number in each name is CBO's publication ID; the file names are othe
 | `57059-2026-01-Demographic-Projections.zip` | Demographic projections, January 2026 |
 | `61183-Rules-of-Thumb-2025.xlsx` | Rules of thumb workbook for the 2025 edition: how changes in economic conditions affect the budget |
 | `62257-Rules-of-Thumb.pdf` | How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (April 2026); the current rules of thumb |
+| `61346-Dynamic-Scoring.pdf` | CBO letter on dynamic analysis (to Rep. August Pfluger, April 29, 2025) |
+| `58916-Budget-Primer-Baseline.pdf` | Budget primer: CBO Explains How It Develops the Budget Baseline (April 2023) |
+| `57420-Budgetary-Terms.pdf` | Common Budgetary Terms Explained (December 2021) |
+| `53537-workingpaper.pdf` | Working paper: How CBO Produces Its 10-Year Economic Forecast (Robert W. Arnold) |
+| `61882-Outlook-2026.pdf.zip` | The Budget and Economic Outlook: 2026 to 2036 (February 2026), report PDF as uploaded (zipped; not opened) |
 | `62044-2026-LTBO.xlsx` | 2026 long-term budget outlook supplemental data |
 | `62556-2026-Additional-Info.xlsx` | Additional information (2026) |
 | `62556-2026-Long-Term-Social-Security-Projections.xlsx` | Long-term Social Security projections (2026) |
