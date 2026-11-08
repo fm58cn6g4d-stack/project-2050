@@ -7,7 +7,7 @@ Role: the seats up in 2028, how the 2024 and 2026 results bear on each, and a sc
 - **35 races in 2028:** the 34 regular Class 3 seats plus, probably, a Tennessee special for Blackburn's seat, since she won the governorship (the appointee serves "until the next November election," read here as 2028; recheck) [SRC-0564] [SRC-0571]. **Republicans defend 19, Democrats 16**, counting the Ohio seat Brown won in the 2026 special, which is up again for the full term [SRC-0568].
 - **Democrats not up in 2028: 38, or 40 if they win the uncalled Alaska and Mississippi seats**, both Class 2 and next up in 2032. Alaska leans Peltola and Mississippi Colom (`1-results.md`), so 40 is the more likely base.
 - **A Democratic majority in January 2029 is likely in every environment where a Democrat wins the presidency.** From 40 seats not up: about 54 seats on average in a tied national vote, about 55-56 at D+3, about 57 at D+6. The structural risks are Ohio, Arizona and Nevada; the openings are Wisconsin and North Carolina, then Iowa.
-- **The map is not 2026.** A midterm wave has shrunk by about 4 to 8 points in the next presidential year in five of six cases since 1994; the exception, 2006 to 2008, was an open-seat year after an unpopular two-term president, the closest analog to 2028 [SRC-0570]. Senate races now follow the state's presidential vote about 90% of the time [SRC-0569].
+- **The map is not 2026.** Since 1994, a midterm environment reverted by about 4 to 8 points in the next presidential year in four of six cases; it was about unchanged from 2022 to 2024, and it grew from 2006 to 2008, an open-seat year after an unpopular two-term president and the closest analog to 2028 [SRC-0570]. Senate races now follow the state's presidential vote about 90% of the time [SRC-0569].
 
 ## 1. The seats
 
@@ -45,7 +45,7 @@ Fox News coverage lists New Hampshire, Nevada, Arizona, Georgia, Pennsylvania an
 | 2014 R+5.1 | 2016 R+0.9; Clinton D+2.1 | about 4.2 |
 | 2018 D+8.7 | 2020 D+3.0; Biden D+4.5 | about 5.7 |
 | 2022 R+2.6 | 2024 R+2.5; Trump R+1.5 | about 0 |
-| **2026 about D+13** | 2028: ? | A typical reversion would leave about D+5 to D+9 |
+| **2026 about D+13** | 2028: ? | Reversion of 0-8 points (4-8 in the four cases with substantial reversion) would leave about D+5 to D+13; growth, as in 2008, more |
 
 House vote from Brookings's *Vital Statistics on Congress* [SRC-0570]; presidential margins from Wikipedia. Two Brookings rows on Senate seat changes look inconsistent and are not used. Split Senate results: none in 2016, one in 2020, four of 34 in 2024; since 2012, 91% of Senate races matched the state's latest presidential vote (Pew) [SRC-0569].
 

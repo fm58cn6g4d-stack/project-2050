@@ -76,7 +76,7 @@ for E in ENVS:
         M=B+E+adj
         rows.append((E,s,L,L26,B,adj,M,phi(M/math.hypot(SIG_S,SIG_N))))
 # print table
-print('state inc L24 L26 Blend adj | M(D+0) P | M(D+3) P | M(D+6) P')
+print('state inc L24 L26 Blend adj |'+''.join(f' M({"R" if E<0 else "D"}+{abs(E)}) P |' for E in ENVS))
 for s in S:
     L,L26,B=lean(s); adj=S[s][3]
     out=f"{s:4} {S[s][0]} {L:6.1f} {('%6.1f'%L26) if L26 is not None else '   n/a'} {B:6.1f} {adj:+d} |"
