@@ -18,10 +18,10 @@
     "gemini": {"branch_prefixes": ["gemini/"], "apps": []}
   },
   "owners": [
-    {"pattern": "models/tools/recovery-budget/*", "owner": "codex"},
-    {"pattern": "models/data/recovery-budget*", "owner": "codex"},
-    {"pattern": "legacy/index/recovery-budget.md", "owner": "codex"},
-    {"pattern": "legacy/sources/recovery-budget-audit.csv", "owner": "codex"},
+    {"pattern": "models/tools/recovery-budget/*", "owner": "claude-code"},
+    {"pattern": "models/data/recovery-budget*", "owner": "claude-code"},
+    {"pattern": "legacy/index/recovery-budget.md", "owner": "claude-code"},
+    {"pattern": "legacy/sources/recovery-budget-audit.csv", "owner": "claude-code"},
     {"pattern": "legacy/sources/capacity-recovery-*", "owner": "claude-code"},
     {"pattern": "models/tools/capacity-review/*", "owner": "claude-code"},
     {"pattern": "legacy/sources/climate-portfolio-*", "owner": "claude-code"},
