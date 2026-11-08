@@ -283,6 +283,59 @@ class BudgetConcepts(unittest.TestCase):
                                    sum(sc["unified"][y] for i, sc in SC.items() if i != "DYN"), places=6)
 
 
+class Splits(unittest.TestCase):
+    """Board 0d (Espen, November 8, 2026): a program may carry a mandatory or advance-appropriation
+    part in reconciliation and a regular-appropriations part. The split method scores each part
+    in its own category. No ledger row is split yet; this checks the format on a made-up row."""
+
+    def setUp(self):
+        import tempfile
+        base = dict(S["EDU-4"])
+        self.S = dict(S)
+        self.S["X-1"] = dict(base, id="X-1", method="split", kind="mandatory", vehicle="reconciliation")
+        self.S["X-1/a"] = dict(base, id="X-1/a", table="part", parent="X-1", method="profile", kind="mandatory",
+                               category="out_other_mandatory", vehicle="reconciliation", budget_authority="outlays")
+        self.S["X-1/b"] = dict(base, id="X-1/b", table="part", parent="X-1", method="profile", kind="discretionary",
+                               category="out_disc_nondefense", vehicle="regular_appropriations",
+                               budget_authority="spendout", spendout_group="nondefense")
+        self.tmp = tempfile.NamedTemporaryFile("w", suffix=".csv", delete=False)
+        self.tmp.write("parent,part,share,source\nX-1,X-1/a,0.7,test\nX-1,X-1/b,0.3,test\n")
+        self.tmp.close()
+        self.saved, P.SPLITS = P.SPLITS, self.tmp.name
+
+    def tearDown(self):
+        P.SPLITS = self.saved
+        os.unlink(self.tmp.name)
+
+    def test_parts_add_to_the_whole_and_land_in_their_own_categories(self):
+        sc = P.score(self.S["X-1"], {"X-1": (0.10, 0.10)}, self.S)
+        self.assertAlmostEqual(P.window_total(sc["unified"]), 0.10, places=12)
+        a, b = sc["parts"]
+        self.assertAlmostEqual(P.window_total(a["unified"]), 0.07, places=12)
+        self.assertAlmostEqual(P.window_total(b["unified"]), 0.03, places=12)
+        cats = P.by_category({"X-1": sc})
+        self.assertEqual(set(cats), {"out_other_mandatory", "out_disc_nondefense"})
+        self.assertEqual(cats["out_disc_nondefense"], b["unified"])
+        self.assertIsNone(a["ba_discretionary"])          # the mandatory part: budget authority equals outlays
+        self.assertEqual(a["ba_mandatory"], a["outlays"])
+        self.assertIsNotNone(b["ba_discretionary"])       # the appropriated part spends out
+        self.assertTrue(sc["budget_authority_rough"])
+        self.assertEqual(P.deficit_path(self.S["X-1"], 0.10, self.S), sc["unified"])
+
+    def test_format_errors(self):
+        self.assertEqual(P.split_problems(self.S), [])
+        bad = dict(self.S)
+        bad["X-1/b"] = dict(bad["X-1/b"], vehicle="reconciliation")
+        self.assertTrue(any("must each fit their vehicle" in e for e in P.split_problems(bad)))
+        self.assertTrue(any("add to" in e for e in P.split_problems(self.S, {"X-1": [("X-1/a", 0.7), ("X-1/b", 0.2)]})))
+        self.assertTrue(any("no parts" in e for e in P.split_problems(self.S, {})))
+
+    def test_vehicle_flags_are_the_known_rows(self):
+        """The rows whose vehicle and kind disagree are flagged as design choices, not rebooked."""
+        flagged = {i for i, _ in P.vehicle_flags(S)}
+        self.assertEqual(flagged, {"EDU-4", "LAB-8", "NSC-10", "MOV-29", "DEM-17", "SAF-10", "MOV-30"})
+
+
 class ContractAuthority(unittest.TestCase):
     """Highway, transit and airport contract authority: in CBO's baseline, not in the ledger."""
 
