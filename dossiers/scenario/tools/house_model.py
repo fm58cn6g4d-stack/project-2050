@@ -184,6 +184,25 @@ def report(n=20000):
     w('| --- | --- |')
     for k, v in targets.items():
         w('| %s | %s |' % (k, ('D+%.1f' % v if v >= 0 else 'R+%.1f' % -v) if v is not None else 'above D+10'))
+    w('\n## 6. Is "Senate control with a Democratic president" really near 100%?\n')
+    w('Evidence-weighted prior, runs with a Democratic president. "Narrow win" means a presidential margin under 3 points. '
+      'Every run already carries race, regional and Senate-wide errors, so a split result is possible; the stressed rows '
+      'widen them (race SD 8, regional SD 4, Senate-wide SD 2) and/or lose all three uncertain seats not up (Alaska and '
+      'Mississippi 2026, Minnesota 2027).\n')
+    w('| Case | 51+ seats | Exactly 50 (+ VP) | 49 or fewer | Narrow wins: 50 or fewer | Narrow wins: 49 or fewer |')
+    w('| --- | --- | --- | --- | --- | --- |')
+    for label, kw in [('Base', {}),
+                      ('Lose AK, MS and MN (37 not up)', {'uncertain': {'AK-2026': 0.0, 'MS-2026': 0.0, 'MN-2027': 0.0}}),
+                      ('Wider errors', {'prm': {'sd_race': 8.0, 'sd_reg': 4.0, 'sd_tick': 2.0}}),
+                      ('Both', {'prm': {'sd_race': 8.0, 'sd_reg': 4.0, 'sd_tick': 2.0},
+                                'uncertain': {'AK-2026': 0.0, 'MS-2026': 0.0, 'MN-2027': 0.0}})]:
+        o = sm.simulate_2028(3.0, n=n, env_sd=4.5, **kw)
+        d = [i for i in range(o['n']) if o['dpres'][i]]
+        nar = [i for i in d if o['env'][i] < 3.0]
+        f = lambda idx, cond: sum(1 for i in idx if cond(o['seats'][i])) / len(idx)
+        w('| %s | %s | %s | %s | %s | %s |' % (label, fmt(f(d, lambda s: s >= 51)), fmt(f(d, lambda s: s == 50)),
+                                               fmt(f(d, lambda s: s <= 49)), fmt(f(nar, lambda s: s <= 50)),
+                                               fmt(f(nar, lambda s: s <= 49))))
     return '\n'.join(L) + '\n'
 
 

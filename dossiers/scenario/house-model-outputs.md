@@ -52,3 +52,14 @@ The presidential margin at which each outcome reaches 50% (scan in 0.5-point ste
 | --- | --- |
 | D House | D+1.5 |
 | trifecta | D+2.0 |
+
+## 6. Is "Senate control with a Democratic president" really near 100%?
+
+Evidence-weighted prior, runs with a Democratic president. "Narrow win" means a presidential margin under 3 points. Every run already carries race, regional and Senate-wide errors, so a split result is possible; the stressed rows widen them (race SD 8, regional SD 4, Senate-wide SD 2) and/or lose all three uncertain seats not up (Alaska and Mississippi 2026, Minnesota 2027).
+
+| Case | 51+ seats | Exactly 50 (+ VP) | 49 or fewer | Narrow wins: 50 or fewer | Narrow wins: 49 or fewer |
+| --- | --- | --- | --- | --- | --- |
+| Base | 100% | <1% | <1% | 1% | <1% |
+| Lose AK, MS and MN (37 not up) | 96% | 3% | 1% | 12% | 4% |
+| Wider errors | 99% | 1% | <1% | 3% | 1% |
+| Both | 91% | 5% | 4% | 21% | 10% |

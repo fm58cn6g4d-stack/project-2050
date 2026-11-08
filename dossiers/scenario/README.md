@@ -15,6 +15,7 @@ This is not a flagship dossier, so it does not follow the nine-section template.
 | `senate-model-outputs.md` | The tables `tools/senate_model.py --write` generates (do not edit by hand); `senate-model-fec-cash.csv` holds the FEC cash-on-hand extract |
 | `2030-2034-control.md` | Senate control through the 2033-34 Congress: the 2030 and 2032 classes, chained from the 2028 model |
 | `house-model-2028.md` | The 2028 House on the current maps and the 2029 trifecta, chained to the Senate model's runs (`tools/house_model.py`; tables in `house-model-outputs.md`) |
+| `house-stress-test-2029.md` | D1 stress test: a Democratic president and Senate with a Republican House; what passes, what the reconciliation slot becomes, which flagships move (analysis) |
 | `2027-races.md` | The 2027 off-cycle races (governors, legislatures, state supreme courts, the Minnesota Senate special, mayors, ballot measures) and the 2027 decisions that move the 2028 House map |
 | `2027-28-playbook.md` | The 2027-28 governing playbook as options: federal levers, governors and trifectas, courts and executive-defiance risks; each with odds (analysis) and its effect on 2028 conditions |
 | `2028-outlook.md` | 2028 as scenarios with drivers: the presidential fields, the House map, governor races, what moves the national environment |

@@ -91,7 +91,31 @@ Net: +1.5 seats in expectation, with a range of −3 to +6. Texas, California's 
 | Doubled House-vs-presidential error | 68% |
 | Doubled seat noise | 69% |
 
-## 3. What it means for Project 2050 (options and questions)
+## 3. A check: is Senate control with a Democratic president really 100%?
+
+The lead asked whether this figure is an artifact of one shared national swing. It is not. Each run already carries:
+- an error for each race (SD 5, more for open seats);
+- an error for each of six regions (SD 2.5);
+- a Senate-wide ticket-splitting error (SD 1).
+
+So split results do occur. The rounding hides a small tail. With a Democratic president, 99.8% of runs have 51 or more seats, 0.14% exactly 50 (control through the Vice President) and 0.05% 49 or fewer.
+
+The reason is the map. With 37-40 Democratic seats not up and about 10 safe Democratic seats on the 2028 ballot, Democrats need only one of New Hampshire, Georgia, Nevada, Pennsylvania, Arizona, North Carolina or Wisconsin. A Democratic presidential win (above about D+1) rarely loses all seven.
+
+The tail grows when stressed (`house-model-outputs.md`, section 6):
+
+| Case | Democratic president: 51+ seats | Narrow wins (under 3 points): 50 or fewer |
+| --- | --- | --- |
+| Base | 100% | 1% |
+| Losing all three uncertain seats not up (Alaska and Mississippi 2026, Minnesota 2027) | 96% | 12% |
+| Wider errors (race SD 8, regional SD 4, Senate-wide SD 2) | 99% | 3% |
+| Both | 91% | 21% |
+
+The honest statement is: **near-certain on the current base, and about 80-90% in a narrow win if the three uncertain seats are lost.** The independent presidential model in #87 gets 86% Democratic Senate control under a Republican president, against this model's 85%.
+
+The divided case, a Democratic president and Senate with a Republican House, is worked through in `house-stress-test-2029.md`.
+
+## 4. What it means for Project 2050 (options and questions)
 
 - **D1's House stipulation.** D1 assumes a 2029 House majority comes with the presidency. The model supports it: conditional on a Democratic president it holds in 89% of runs. But it fails in most narrow-win worlds: at a neutral environment, conditional on a Democratic win, 69% of runs have a Democratic House (mean 222 seats), and the odds fall fast below D+1.5. Question for Espen: should D1 add a House stress test (a 2029 Democratic president with a Republican House), the way it tests every item at 51 Senate seats? `2028-outlook.md` raised the same question.
 - **Reconciliation needs the House too.** D5's three vehicles need a majority in both chambers. In the 11% of Democratic-president runs without the House, R1-R3 are unavailable, whatever the Senate size. Only executive action, state action and bipartisan bills remain. The 51-seat Senate test does not cover that world.
