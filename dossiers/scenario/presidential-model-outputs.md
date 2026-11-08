@@ -21,11 +21,11 @@
 
 | Environment | P(D wins the Electoral College) | Mean D electors | Top tipping-point states | P(D Senate control), D president | P(D Senate control), R president | Runs where the Senate model's ec_bias rule picks the same winner |
 | --- | --- | --- | --- | --- | --- | --- |
-| R+3 | 10% | 229 | PA 16%, MI 15%, GA 15%, NC 14% | 99% | 82% | 91% |
-| Neutral | 38% | 259 | PA 16%, MI 15%, GA 15%, NC 14% | >99% | 94% | 75% |
-| D+3 | 75% | 292 | PA 16%, MI 15%, GA 15%, NC 14% | >99% | 98% | 80% |
-| D+6 | 95% | 326 | PA 16%, MI 15%, GA 15%, NC 14% | >99% | >99% | 95% |
-| Evidence-weighted (D+3, SD 4.5), as in the Senate model | 65% | 293 | PA 16%, MI 15%, GA 15%, NC 14% | >99% | 86% | 87% |
+| R+3 | 10% | 229 | PA 16%, MI 15%, GA 14%, NC 14% | >99% | 81% | 91% |
+| Neutral | 38% | 259 | PA 16%, MI 15%, GA 14%, NC 14% | >99% | 93% | 75% |
+| D+3 | 76% | 292 | PA 16%, MI 15%, GA 14%, NC 14% | >99% | 97% | 80% |
+| D+6 | 95% | 325 | PA 16%, MI 15%, GA 14%, NC 14% | >99% | 99% | 96% |
+| Evidence-weighted (D+3, SD 4.5), as in the Senate model | 65% | 293 | PA 17%, MI 15%, NC 14%, GA 14% | >99% | 85% | 87% |
 
 The tipping-point shares do not depend on the environment: with a uniform national swing, the order of states is set by lean and the regional and state errors alone.
 

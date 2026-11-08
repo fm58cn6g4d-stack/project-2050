@@ -10,7 +10,7 @@ Senate-model run, so a presidency and a Senate drawn in the same run share one n
 
 Method. In each run the state's Democratic margin = lean(s) + P + R[region] + e_s, where P is the
 national presidential margin of that Senate-model run (environment E plus the national error, sd_nat),
-R is a regional error (sd_reg, drawn here, independent of the Senate model's own regional draw) and e_s
+R is the Senate-model run's own regional error (shared since #84's c47c371; drawn here with sd_reg if absent) and e_s
 a state error (SD_STATE, an ASSUMPTION; tested 2-4). Electors are the 2020 apportionment, used in 2024
 and 2028 [SRC-1051]; Maine and Nebraska are treated as winner-take-all (an approximation of +/-1
 elector each; their district electors are not modeled). DC is safe Democratic.
@@ -42,10 +42,13 @@ def leans(prm=None):
     return {s: sm.lean(s, prm) for s in STATES}
 
 
-def ec_run(pres, ln, rng, sd_state=SD_STATE, sd_reg=None):
-    """One Electoral College outcome given the national presidential margin pres."""
+def ec_run(pres, ln, rng, sd_state=SD_STATE, sd_reg=None, reg=None):
+    """One Electoral College outcome given the national presidential margin pres.
+
+    reg: the Senate-model run's regional errors, if shared; otherwise drawn here."""
     sd_reg = sm.BASE_PARAMS['sd_reg'] if sd_reg is None else sd_reg
-    reg = {r: rng.gauss(0, sd_reg) for r in sorted(sm.REGION)}
+    if reg is None:
+        reg = {r: rng.gauss(0, sd_reg) for r in sorted(sm.REGION)}
     m = {s: ln[s] + pres + reg[sm.REGION_OF[s]] + rng.gauss(0, sd_state) for s in STATES}
     d_ev = EV['DC'] + sum(EV[s] for s in STATES if m[s] > 0)
     acc, tip = EV['DC'], None
@@ -64,7 +67,8 @@ def joint(env, n, seed=2028, prm=None, sd_state=SD_STATE, env_sd=0.0):
     rng = random.Random(seed + 7)
     res = dict(n=n, dwin=0, tips={}, ctrl_d=0, ctrl_r=0, dwins=0, rwins=0, rule_agree=0, d_ev=[])
     for i in range(n):
-        d_ev, tip = ec_run(out['env'][i], ln, rng, sd_state=sd_state)
+        shared = out.get('reg')
+        d_ev, tip = ec_run(out['env'][i], ln, rng, sd_state=sd_state, reg=shared[i] if shared else None)
         dwin = d_ev >= 270
         res['d_ev'].append(d_ev)
         res['tips'][tip] = res['tips'].get(tip, 0) + 1

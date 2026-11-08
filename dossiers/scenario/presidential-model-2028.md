@@ -4,26 +4,26 @@ Role: the chance a Democrat wins the 2028 Electoral College in a neutral, D+3 an
 
 ## In brief
 
-- **A Democrat wins the Electoral College in 38% of runs in a neutral year, 75% at D+3 and 95% at D+6;** 10% at R+3. Under the Senate model's evidence-weighted environment (D+3, SD 4.5), **65%**, against that model's 66% from its simpler rule.
+- **A Democrat wins the Electoral College in 38% of runs in a neutral year, 76% at D+3 and 95% at D+6;** 10% at R+3. Under the Senate model's evidence-weighted environment (D+3, SD 4.5), **65%**, against that model's 66% from its simpler rule.
 - **The Electoral College leans about 1 point Republican.** Democrats need a national margin of about **D+0.9** for an even chance (D+0.8 to D+1.0 across state-error sizes; **D+1.3** on presidential results alone, without the 2026 midterms). The Senate model's assumed threshold (ec_bias = 1.0) holds up.
-- **Four states decide it:** Pennsylvania (16% of runs), Michigan (15%), Georgia (15%) and North Carolina (14%) are the tipping point in about 60% of runs. On presidential results alone Pennsylvania leans 1.1 points Republican of the nation; the 2026 results move it 2 points toward Democrats.
-- **The Senate barely depends on who wins the White House in a good year.** With a Democratic President, Democrats control the Senate in more than 99% of runs from neutral up; with a Republican President, 82% at R+3, 94% neutral, and **86%** under the evidence-weighted environment, matching the Senate model's 85% (`2028-republican-branch.md`).
+- **Four states decide it:** Pennsylvania (16% of runs), Michigan (15%), Georgia (14%) and North Carolina (14%) are the tipping point in about 60% of runs. On presidential results alone Pennsylvania leans 1.1 points Republican of the nation; the 2026 results move it 2 points toward Democrats.
+- **The Senate barely depends on who wins the White House in a good year.** With a Democratic President, Democrats control the Senate in more than 99% of runs from neutral up; with a Republican President, 81% at R+3, 93% neutral, and **85%** under the evidence-weighted environment, the same as the Senate model's 85% (`2028-republican-branch.md`).
 
 ## 1. Method
 
-**Shared with the Senate model.** The script imports `senate_model.py`: its state leans (`lean()`: 2020 and 2024 presidential margins and 2026 statewide results, each against the national margin, weighted 0.2, 0.5 and 0.3), its regions and its error sizes. For every Senate-model run it reads that run's national presidential margin (the environment plus the national error, SD 2), so the Senate and the presidency in a run share one national swing.
+**Shared with the Senate model.** The script imports `senate_model.py`: its state leans (`lean()`: 2020 and 2024 presidential margins and 2026 statewide results, each against the national margin, weighted 0.2, 0.5 and 0.3), its regions and its error sizes. For every Senate-model run it reads that run's national presidential margin (the environment plus the national error, SD 2), so the Senate and the presidency in a run share one national swing. Since the Senate model began returning its regional draws (#84, commit c47c371), they share the regional errors too.
 
-**Added here.** Each state's margin = lean + the run's national margin + a regional error (SD 2.5, the Senate model's size, drawn here) + a state error (SD 3, an assumption; tested 2 to 4). Electors are the 2020 apportionment used in 2024 and 2028 [SRC-1051]; DC is safe Democratic. **Approximations:** Maine and Nebraska are treated as winner-take-all (each has one district elector the model ignores); the regional draw is independent of the Senate model's own regional draw, so only the national swing is shared.
+**Added here.** Each state's margin = lean + the run's national margin + the same run's regional error (SD 2.5, read from the Senate model) + a state error (SD 3, an assumption; tested 2 to 4). Electors are the 2020 apportionment used in 2024 and 2028 [SRC-1051]; DC is safe Democratic. **Approximations:** Maine and Nebraska are treated as winner-take-all (each has one district elector the model ignores).
 
 ## 2. Results
 
 | Environment | P(D wins) | Mean D electors | P(D Senate control), D President | P(D Senate control), R President |
 | --- | --- | --- | --- | --- |
-| R+3 | 10% | 229 | 99% | 82% |
-| Neutral | 38% | 259 | >99% | 94% |
-| D+3 | 75% | 292 | >99% | 98% |
-| D+6 | 95% | 326 | >99% | >99% |
-| Evidence-weighted (D+3, SD 4.5) | 65% | 293 | >99% | 86% |
+| R+3 | 10% | 229 | >99% | 81% |
+| Neutral | 38% | 259 | >99% | 93% |
+| D+3 | 76% | 292 | >99% | 97% |
+| D+6 | 95% | 325 | >99% | 99% |
+| Evidence-weighted (D+3, SD 4.5) | 65% | 293 | >99% | 85% |
 
 Senate control counts a 50-50 Senate for the party of the Vice President. With the environment fixed, Senate seats rise with the same national swing that elects the President, which is why control is near certain with a Democratic President.
 
@@ -45,12 +45,11 @@ Senate control counts a 50-50 Senate for the party of the Vice President. With t
 
 ## 3. What it means for the plan
 
-- **D1's stipulation of a Democratic President** corresponds to a national margin above about D+1. The 2028 scenarios in `2028-outlook.md` translate as: A (D+7 or more) about 95% or more; B (D+3 to D+6) about 75-95%; C (D+0 to D+3) about 38-75%; D (R+1 or worse) under about 30%.
+- **D1's stipulation of a Democratic President** corresponds to a national margin above about D+1. The 2028 scenarios in `2028-outlook.md` translate as: A (D+7 or more) about 95% or more; B (D+3 to D+6) about 76-95%; C (D+0 to D+3) about 38-76%; D (R+1 or worse) under about 30%.
 - **The 2030 census moves the tipping point to Georgia from 2032** (`compounding-2029-2050.md`, section 4). In 2028, on the 2020 apportionment, Pennsylvania, Michigan, Georgia and North Carolina are about equal.
-- **Shared assumptions.** The model confirms the Senate model's ec_bias = 1.0, so the two can keep using the simple rule for conditioning. If the Senate model later returns its regional draws per run, this script can share them too, which would raise the link between, for example, a Wisconsin presidential and Senate result.
+- **Shared assumptions.** The model confirms the Senate model's ec_bias = 1.0, so the two can keep using the simple rule for conditioning. National and regional errors are now shared run by run, so a bad Rust Belt year moves the Wisconsin presidential and Senate results together.
 
 ## 4. Next questions
 
 1. Should state leans for a presidential race weight the 2026 midterm at 0.3 (the Senate model's choice) or less? It moves the break-even by 0.4 points and reorders the Blue Wall.
 2. Add Maine's and Nebraska's district electors, which matter in a 269-269 or 270-268 race.
-3. Share regional errors with the Senate model (a small change to `senate_model.simulate_2028`'s return value).
