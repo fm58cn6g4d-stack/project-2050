@@ -28,6 +28,7 @@ ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
 CBO = os.path.join(ROOT, "models", "data", "cbo")
 OUT = os.path.join(ROOT, "models", "data", "budget")
 OMB = os.path.join(OUT, "omb")
+INTAKE = os.path.join(ROOT, "library", "intake", "2026-11-08", "cbo")   # Espen's CBO uploads (read only)
 LAST_ACTUAL = 2025   # last fiscal year OMB and CBO report as actual in these vintages
 ROUND_TOL = Decimal("0.005")  # billions: OMB rounds each function line to $1 million on its own; the gap to the published total is at most $3 million (FY1962-2025)
 
@@ -98,13 +99,27 @@ def cbo_table(src, keep):
 NS = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
 
 
-def xlsx_rows(path):
+def _sheet_part(z, name):
+    """Worksheet part for a sheet name (the first sheet when name is None)."""
+    if name is None:
+        return "xl/worksheets/sheet1.xml"
+    R = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id"
+    wb = ET.fromstring(z.read("xl/workbook.xml"))
+    rid = [s.get(R) for s in wb.find("m:sheets", NS) if s.get("name") == name]
+    if len(rid) != 1:
+        raise SystemExit("%s: no sheet named %r" % (z.filename, name))
+    rels = ET.fromstring(z.read("xl/_rels/workbook.xml.rels"))
+    tgt = [r.get("Target") for r in rels if r.get("Id") == rid[0]][0]
+    return tgt.lstrip("/") if tgt.startswith("/") else "xl/" + tgt
+
+
+def xlsx_rows(path, sheet=None):
     z = zipfile.ZipFile(path)
     shared = []
     if "xl/sharedStrings.xml" in z.namelist():
         for si in ET.fromstring(z.read("xl/sharedStrings.xml")).findall("m:si", NS):
             shared.append("".join(t.text or "" for t in si.iter("{%s}t" % NS["m"])))
-    sheet = ET.fromstring(z.read("xl/worksheets/sheet1.xml"))
+    sheet = ET.fromstring(z.read(_sheet_part(z, sheet)))
     out = []
     for row in sheet.iter("{%s}row" % NS["m"]):
         cells = {}
@@ -330,6 +345,59 @@ def spendout(disc_rows):
 SPENDING_DETAIL = "budget_spending_detail_annual_fy_2026-02.csv"   # CBO publication 51142
 
 
+SPENDING_JUNE = "budget_spending_detail_annual_fy_2026-06.csv"   # extracted from Espen's upload
+SPENDING_COLS = ["date", "tin", "title", "disc_or_mand", "category", "agency", "bureau",
+                 "function_code", "subfunction_code", "off_budget", "budget_authority", "outlays"]
+
+
+def spending_xlsx(fname, sheet):
+    """CBO's Spending Projections by Budget Account workbook -> rows in cbo-data's
+    spending_detail layout (one row per account and year, millions), text fields stripped."""
+    rows = xlsx_rows(os.path.join(INTAKE, fname), sheet)
+    hi = next(i for i, r in enumerate(rows) if r and (r[0] or "").startswith("Treasury Identification"))
+    hdr = rows[hi]
+    yc = [i for i, h in enumerate(hdr) if h and re.fullmatch(r"\d{4}(\.0)?", str(h).strip())]
+    n = len(yc) // 2                        # budget authority block, then outlays block
+    ba_c, out_c = yc[:n], yc[n:]
+    years = [int(float(hdr[i])) for i in ba_c]
+    if years != [int(float(hdr[i])) for i in out_c]:
+        raise SystemExit("%s: budget authority and outlay years differ" % fname)
+    out = []
+    for r in rows[hi + 1:]:
+        if not r or not re.match(r"\d{3}-\d{4}-", (r[0] or "").strip()):
+            continue                         # notes and "Back to Table of Contents" lines
+        r = r + [None] * (max(out_c) + 1 - len(r))
+        txt = [(r[i] or "").strip() for i in range(9)]
+        for y, b, o in zip(years, ba_c, out_c):
+            out.append(dict(zip(SPENDING_COLS, ["FY%d" % y] + txt +
+                                ["%s" % float(r[b] or 0), "%s" % float(r[o] or 0)])))
+    order = {y: i for i, y in enumerate(years)}
+    out.sort(key=lambda d: order[int(d["date"][2:])])   # cbo-data lists all accounts for a year, then the next
+    return SPENDING_COLS, out
+
+
+def spending_june_vs_february(june_rows):
+    """June 2026 update (CBO publication 62385) against the February baseline the layer uses,
+    by year, discretionary or mandatory and CBO category, in billions. Net interest is left out:
+    the June file has no function 900 accounts."""
+    with open(os.path.join(CBO, SPENDING_DETAIL), newline="") as f:
+        feb_rows = list(csv.DictReader(f))
+    S = {}
+    for tag, src in (("feb", feb_rows), ("jun", june_rows)):
+        for r in src:
+            if r["function_code"] == "900":
+                continue
+            k = (int(r["date"][2:]), r["disc_or_mand"].lower(), r["category"])
+            d = S.setdefault(k, {c: Decimal(0) for c in ("ba_feb", "ba_jun", "outlays_feb", "outlays_jun")})
+            d["ba_" + tag] += Decimal(r["budget_authority"] or 0)
+            d["outlays_" + tag] += Decimal(r["outlays"] or 0)
+    b = lambda v: format((v / 1000).normalize(), "f") if v else "0"
+    rows = [{"year": k[0], "disc_or_mand": k[1], "category": k[2], **{c: b(v) for c, v in d.items()},
+             "outlays_change": b(d["outlays_jun"] - d["outlays_feb"])} for k, d in sorted(S.items())]
+    return ["year", "disc_or_mand", "category", "ba_feb", "ba_jun", "outlays_feb", "outlays_jun",
+            "outlays_change"], rows
+
+
 def cbo_spending_by_function():
     """CBO's Spending Projections by Budget Account (February 2026 baseline), summed over
     accounts by year, discretionary or mandatory, CBO category and budget function. Millions
@@ -487,6 +555,9 @@ def build():
     files["cbo-spending-by-function.csv"] = render(sf_cols, sf_rows)
     files["spendout-discretionary-cbo.csv"] = render(*spendout_cbo(drows, sf_rows))
     files["cbo-contract-authority.csv"] = render(*cbo_contract_authority())
+    jcols, jrows = spending_xlsx("51142-2026-06-Spending-Projections.xlsx", "1. Updated Spending Projections")
+    files[os.path.join("..", "cbo", SPENDING_JUNE)] = render(jcols, jrows)    # a cache file, like CBO's own CSVs
+    files["cbo-spending-2026-06-vs-02.csv"] = render(*spending_june_vs_february(jrows))
     files["deflators.csv"] = render(*deflators(tables["cbo-economic-historical.csv"],
                                                tables["cbo-economic.csv"],
                                                tables["cbo-long-term-economic.csv"]))
