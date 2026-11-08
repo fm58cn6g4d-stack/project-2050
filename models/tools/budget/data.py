@@ -254,3 +254,18 @@ def baseline_csv_rows(rows=None):
             cells.append(v if isinstance(v, str) else ("" if v is None else str(round(v, 3))))
         out.append(cells)
     return out
+
+
+def cbo_spending(measure="outlays", disc_or_mand=None, category=None, function=None):
+    """CBO's February 2026 baseline by budget account, summed (cbo-spending-by-function.csv):
+    {fiscal year: billions}, FY2026-2036. measure is "ba", "outlays" or "outlays_without_ba";
+    the filters take "discretionary"/"mandatory", CBO's category (e.g. "Nondefense") and a
+    three-digit function code."""
+    out = {}
+    for r in table("cbo-spending-by-function"):
+        if disc_or_mand not in (None, r["disc_or_mand"]) or category not in (None, r["category"]) \
+                or function not in (None, r["function_code"]):
+            continue
+        y = int(r["year"])
+        out[y] = out.get(y, 0.0) + float(r[measure])
+    return out

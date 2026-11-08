@@ -199,5 +199,27 @@ class CBOAgainstOMB(unittest.TestCase):
             self.assertLess(float(rows[0]["rmse_pct_of_mean_outlays"]), 5.0)
 
 
+class SpendingByAccount(unittest.TestCase):
+    """CBO's account-level projections (publication 51142) add up to its ten-year baseline."""
+    def test_totals_match_ten_year_baseline(self):
+        T = D.by_year("cbo-ten-year")
+        pairs = [(D.cbo_spending("outlays"), "proj_outlays_total"),
+                 (D.cbo_spending("outlays", "discretionary", "Defense"), "proj_disc_defense"),
+                 (D.cbo_spending("outlays", "discretionary", "Nondefense"), "proj_disc_nondefense"),
+                 (D.cbo_spending("ba", "discretionary", "Defense"), "proj_disc_defense_ba_timing_adj"),
+                 (D.cbo_spending("ba", "discretionary", "Nondefense"), "proj_disc_nondefense_ba_timing_adj"),
+                 (D.cbo_spending("outlays", category="Net Interest"), "proj_outlays_net_interest")]
+        for series, var in pairs:
+            self.assertEqual(sorted(series), list(range(2026, 2037)), var)
+            for y, v in series.items():
+                self.assertAlmostEqual(v, T[y][var], delta=0.002, msg="%s FY%d" % (var, y))
+
+    def test_every_account_every_year(self):
+        n = {}
+        for r in D.table("cbo-spending-by-function"):
+            n[r["year"]] = n.get(r["year"], 0) + int(r["accounts"])
+        self.assertEqual(set(n.values()), {1979})
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

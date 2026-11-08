@@ -326,6 +326,32 @@ def spendout(disc_rows):
             "rmse_pct_of_mean_outlays", "outlay_to_ba_ratio"], out
 
 
+SPENDING_DETAIL = "budget_spending_detail_annual_fy_2026-02.csv"   # CBO publication 51142
+
+
+def cbo_spending_by_function():
+    """CBO's Spending Projections by Budget Account (February 2026 baseline), summed over
+    accounts by year, discretionary or mandatory, CBO category and budget function. Millions
+    become billions exactly. outlays_without_ba is the outlays of accounts with zero budget
+    authority in that year (chiefly highway, transit and airport grants under obligation
+    limitations, whose contract authority is mandatory)."""
+    S = {}
+    with open(os.path.join(CBO, SPENDING_DETAIL), newline="") as f:
+        for r in csv.DictReader(f):
+            k = (int(r["date"].replace("FY", "")), r["disc_or_mand"].lower(), r["category"], r["function_code"])
+            d = S.setdefault(k, {"accounts": 0, "ba": Decimal(0), "outlays": Decimal(0), "nob": Decimal(0)})
+            ba, out = Decimal(r["budget_authority"] or 0), Decimal(r["outlays"] or 0)
+            d["accounts"] += 1; d["ba"] += ba; d["outlays"] += out
+            if ba == 0:
+                d["nob"] += out
+    b = lambda v: format((v / 1000).normalize(), "f") if v else "0"
+    rows = [{"year": k[0], "disc_or_mand": k[1], "category": k[2], "function_code": k[3],
+             "accounts": d["accounts"], "ba": b(d["ba"]), "outlays": b(d["outlays"]),
+             "outlays_without_ba": b(d["nob"])} for k, d in sorted(S.items())]
+    return ["year", "disc_or_mand", "category", "function_code", "accounts", "ba", "outlays",
+            "outlays_without_ba"], rows
+
+
 def render(cols, rows):
     buf = io.StringIO()
     w = csv.DictWriter(buf, fieldnames=cols, lineterminator="\n", extrasaction="raise")
@@ -347,6 +373,7 @@ def build():
     dcols, drows = omb_discretionary()
     files["omb-discretionary.csv"] = render(dcols, drows)
     files["spendout-discretionary.csv"] = render(*spendout(drows))
+    files["cbo-spending-by-function.csv"] = render(*cbo_spending_by_function())
     files["deflators.csv"] = render(*deflators(tables["cbo-economic-historical.csv"],
                                                tables["cbo-economic.csv"],
                                                tables["cbo-long-term-economic.csv"]))
