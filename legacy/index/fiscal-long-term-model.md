@@ -22,7 +22,7 @@ It answers three questions the ten-year ledger cannot:
 - **It stays below the real baseline, by more each decade.** Total debt is 124.7% of GDP in 2039 and 156.4% in 2056, 2.8, 11.6 and 23.8 points below the baseline in 2035, 2045 and 2056. Net interest is 6.20% of GDP in 2056 against the baseline's 7.14%. Most of the improvement is SS-1, which stays in its trust fund under D4 but lowers debt held by the public; CBO's baseline pays scheduled benefits after the trust fund runs out, so this is a real saving against it.
 - **The structural gap remains, and is reported, not required.** The program narrows the fiscal gap from 2.48% to 1.67% of GDP. Bending the total path down (peak by the mid-2030s, falling through the 2040s) would take a sustainability layer of about 2% of GDP (Decision Brief 2). Under the decided rule that is a separate track (health cost growth, SS-5, further revenue), not a condition on the program.
 - **Filling the rest of the envelope is affordable.** New time-limited investments using the remaining ~$0.30T of room, with no return counted, add about 0.8 points to 2056 debt and take the ten-year general-fund deficit to $2.59T.
-- **Interest rates are the biggest risk to every path.** One point higher on all debt from 2030 takes the baseline to 223.6% of GDP in 2056 and the decided program to 196.8%. CBO-style dynamic feedback (about −$0.56T in the window) costs about 5.3 points by 2056 and would turn the 2040 balance to 0.35% of GDP; D4 counts no dynamic revenue, but the cushion is thin against it.
+- **Interest rates are the biggest risk to every path.** One point higher on all debt from 2030 takes the baseline to 217.4% of GDP in 2056 and the decided program to 190.6%. CBO-style dynamic feedback (about −$0.56T in the window) costs about 5.3 points by 2056 and would turn the 2040 balance to 0.35% of GDP; D4 counts no dynamic revenue, but the cushion is thin against it.
 
 ## History: the federal budget since 1962 (% of GDP, decade averages; debt at decade end)
 
@@ -76,8 +76,8 @@ All program scenarios include every program row (with MOV-31 and DEM-3, which th
 | DEC | Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims | 2.30 | -2.94 | 116.2 | 124.7 | 134.2 | 156.4 | 6.2 | 1.67 |
 | DEC+ENV | Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S | 2.59 | -2.56 | 116.6 | 125.4 | 134.9 | 157.2 | 6.2 | 1.70 |
 | DEC-DYN | Decided, with CBO-style dynamic feedback (about -$0.56T) | 2.86 | -2.30 | 116.5 | 125.9 | 136.8 | 161.7 | 6.4 | 1.85 |
-| DEC-R1 | Decided, with interest rates 1 point higher on all debt from 2030 | 2.30 | -3.08 | 121.6 | 136.3 | 154.4 | 196.8 | 9.6 | 2.66 |
-| BASE-R1 | Baseline with interest rates 1 point higher from 2030 | — | — | 124.1 | 142.2 | 166.8 | 223.6 | 10.9 | 3.46 |
+| DEC-R1 | Decided, with interest rates 1 point higher from 2030, phased in as debt rolls over | 2.30 | -3.08 | 118.9 | 132.5 | 149.6 | 190.6 | 9.3 | 2.48 |
+| BASE-R1 | Baseline with interest rates 1 point higher from 2030, phased in as debt rolls over | — | — | 121.4 | 138.4 | 162.0 | 217.4 | 10.6 | 3.28 |
 | DEC+TRIMS | Decided plus the five trims declined in Decision Brief 2 (reference only) | 1.61 | -3.76 | 115.4 | 123.1 | 132.0 | 153.1 | 6.1 | 1.56 |
 
 "GF" is the general fund (what D4's pay-for rule governs). "Unified" adds the dedicated channels, mainly SS-1's surplus; it is what moves debt held by the public. Negative numbers reduce deficits.

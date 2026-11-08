@@ -108,7 +108,7 @@ The adjusted baseline is the one the D4 tests use. The unadjusted CBO baseline s
 - **through 2036**, the rate is the higher of CBO's average rate on all debt and a 40/60 blend of CBO's 3-month bill and 10-year note rates, about 3.9% in 2030-36 (`ASM-RATE-MARGINAL`; `fiscal-model.py:111-121`). New borrowing pays market rates, not the lower average on old debt, which is the cautious choice;
 - **after 2036**, the rate is the baseline's implied average rate, net interest over last year's debt, about 4.05-4.18% (`ASM-RATE-LT`);
 - **a year's new borrowing pays half a year of interest** in that year (`ASM-RATE-HALFYEAR`);
-- **a stress case** raises rates one point on all debt from 2030 (`ASM-RATE-SHIFT`; scenarios DEC-R1 and BASE-R1). It takes the baseline's 2056 debt from 180% to 224% of GDP (`legacy/index/fiscal-long-term-model.md`).
+- **a stress case** raises every rate one point from 2030 (`ASM-RATE-SHIFT`; scenarios DEC-R1 and BASE-R1). As in CBO's rules of thumb, the higher rate reaches the debt already outstanding only as it matures and is refinanced, on Treasury's maturity structure, while new borrowing pays it in full (`ASM-RATE-ROLLOVER`). It takes the baseline's 2056 debt from 180% to 217% of GDP (`legacy/index/fiscal-long-term-model.md`). Benchmark SE-1 checks the method against CBO's own table.
 
 **Hidden choices.** The 40/60 weights are the project's, and the market-rate floor stops in 2037. The D4 tests are judged at CBO's rates only; the one-point case is reported but no test must pass under it (see Choice 4). Trust-fund interest in the dedicated-funds engine is a different rate, the Trustees' (`ASM-TF-INTEREST`).
 

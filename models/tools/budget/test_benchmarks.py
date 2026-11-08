@@ -368,16 +368,37 @@ def bm_published(M):
     return out
 
 
+MATURITY = os.path.join(ROOT, "models", "data", "budget", "treasury-maturity.csv")
+
+
+def unrepriced_by_year():
+    """From Treasury's maturity table alone: the share of the debt outstanding when a shock starts
+    that is still at its old rate, averaged over each year of the shock. The table gives the share
+    at each quarter-end; between quarter-ends it is taken as a straight line."""
+    with open(MATURITY) as f:
+        S = [float(r["share_unrepriced"]) for r in csv.DictReader(f)]
+    out = {}
+    for k in range(1, (len(S) - 1) // 4 + 1):
+        pts = S[4 * (k - 1):4 * k + 1]
+        out[k] = (pts[0] / 2 + sum(pts[1:-1]) + pts[-1] / 2) / 4
+    return out
+
+
 def shifted_interest(M, shift_pts, start):
     """Added net interest, {year: billions}, when every rate is shift_pts higher from fiscal year start,
-    by the fiscal model's own stress method (fiscal-model.py, baseline()): the shift applies to all of
-    last year's debt at once, and the added interest compounds at the market rate plus the shift.
-    Year 2026 is the model's fixed starting year, so a shock can start in FY2027 at the earliest."""
+    by the fiscal model's stated stress method (ASM-RATE-SHIFT, ASM-RATE-ROLLOVER), rewritten here
+    from the written rule rather than called: the debt outstanding at the end of start-1 reaches the
+    higher rate only as it matures (Treasury's maturity structure); debt borrowed since pays it in
+    full; and the added interest is borrowed at the program's rate plus the shift. The debt path is the
+    model's own baseline (BASE); FY2025's is the actual, so a shock can start as early as FY2026."""
     FM, B, base = M["_FM"], M["B"], M["results"]["BASE"]["years"]
-    out, sD = {}, 0.0
-    for y in range(2027, 2057):
-        s_ = shift_pts / 100 if y >= start else 0.0
-        sI = s_ * base[y - 1]["debt"] + (FM.marginal_rate(B, y) + s_) * sD
+    debt = lambda y: base[y]["debt"] if y in base else B[y]["debt_public"]
+    still_old = unrepriced_by_year()
+    out, sD, s_ = {}, 0.0, shift_pts / 100
+    D0 = debt(start - 1)
+    for y in range(start, 2057):
+        new_rate_debt = max(0.0, debt(y - 1) - D0 * still_old.get(y - start + 1, 0.0))
+        sI = s_ * new_rate_debt + (FM.marginal_rate(B, y) + s_) * sD
         sD += sI
         out[y] = sI
     return out
@@ -388,10 +409,16 @@ def bm_sensitivity(M):
     out = []
     # The re-implementation must reproduce the model's own +1-point case exactly before it is used.
     r1 = shifted_interest(M, 1.0, 2030)
-    check = max(abs(r1[y] - (R["BASE-R1"]["years"][y]["interest"] - R["BASE"]["years"][y]["interest"])) for y in range(2027, 2057))
+    check = max(abs(r1.get(y, 0.0) - (R["BASE-R1"]["years"][y]["interest"] - R["BASE"]["years"][y]["interest"])) for y in range(2027, 2057))
     if check > FLOAT:
         raise AssertionError("shifted_interest does not reproduce BASE-R1 (largest gap %.3g billion)" % check)
-    got = shifted_interest(M, 0.1, 2027)
+    got = shifted_interest(M, 0.1, 2026)
+    old = {}   # the method before B6, for the record: all of last year's debt repriced at once
+    sD = 0.0
+    for y in range(2026, 2057):
+        sI = 0.001 * (R["BASE"]["years"][y - 1]["debt"] if y > 2026 else M["B"][2025]["debt_public"]) + (M["_FM"].marginal_rate(M["B"], y) + 0.001) * sD
+        sD += sI
+        old[y] = sI
     yrs = range(2027, 2037)
     tot = sum(got[y] for y in yrs)
     gaps = {y: got[y] / CBO_ROT_INTEREST[y] - 1 for y in yrs}
@@ -405,27 +432,31 @@ def bm_sensitivity(M):
     if bad:
         misses.append("%d of 10 years outside 25%% (largest FY%d, %+.0f%%)" % (len(bad), wy, 100 * gaps[wy]))
     base = R["BASE"]["years"]
-    out.append(_bm("SE-1", "Sensitivity", "Interest rates 0.1 point higher on all debt from FY2027: added net interest",
+    out.append(_bm("SE-1", "Sensitivity", "Interest rates 0.1 point higher on all debt from FY2026: added net interest",
                    "pass" if ok else "fail", "FY2027-36 total %.0f; FY2027 %.0f, FY2036 %.0f" % (tot, got[2027], got[2036]),
                    "CBO: total %d; FY2027 %d, FY2036 %d" % (CBO_ROT_INTEREST_10YR, CBO_ROT_INTEREST[2027], CBO_ROT_INTEREST[2036]),
                    "ten-year total within 15%, and each year within 25%",
                    "CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026), "
-                   "Table 3, on the February 2026 baseline; Espen's November 8 upload (PR #121)",
-                   "The model's stress cases (DEC-R1, BASE-R1) raise every rate by one point from FY2030. Here the same method, reproduced "
-                   "exactly (it gives BASE-R1 to the dollar), is run on CBO's own scenario: every rate 0.1 point higher each year, on CBO's "
-                   "baseline, from FY2027 (the model's first year it can shock). That compares like with like, with no scaling. CBO says its "
-                   "rules of thumb are roughly symmetrical and scalable up to one point. The total gets 15% for CBO's rounding and the "
-                   "model's simpler rate rule; each year gets 25%, because the stress case is read year by year (the guardrails in "
-                   "2035, 2045 and 2056), so timing matters as well as the total. Revenue effects (Federal Reserve remittances, under "
-                   "$5 billion a year in CBO's table) are left out of both sides.",
+                   "Table 3, on the February 2026 baseline; Espen's November 8 upload (PR #121). Treasury, Monthly Statement of the Public "
+                   "Debt, September 30, 2026, for the maturity structure (models/data/budget/treasury-maturity.csv)",
+                   "The model's stress cases (DEC-R1, BASE-R1) raise every rate by one point from FY2030. Here the same method, rewritten "
+                   "from its written rule and checked to give BASE-R1 to the dollar, is run on CBO's own scenario: every rate 0.1 point "
+                   "higher each year from FY2026, CBO's first year, on the model's baseline. That compares like with like, with no scaling. "
+                   "FY2026 itself is not compared, because the model's FY2026 is the actual year and CBO's FY2026 shock is partial. "
+                   "As in CBO's rules of thumb, the higher rate reaches the debt outstanding at the start only as it is refinanced, "
+                   "on Treasury's maturity structure (ASM-RATE-ROLLOVER); new borrowing pays it in full. CBO says its rules of thumb are "
+                   "roughly symmetrical and scalable up to one point. The total gets 15% for CBO's rounding and the model's simpler rate "
+                   "rule; each year gets 25%, because the stress case is read year by year (the guardrails in 2035, 2045 and 2056), so "
+                   "timing matters as well as the total. Revenue effects (Federal Reserve remittances, under $5 billion a year in CBO's "
+                   "table) are left out of both sides.",
                    unit="$B", miss="; ".join(misses) or None,
                    detail=["Model by year: " + ", ".join("FY%d %.0f" % (y, got[y]) for y in yrs) + ".",
                            "CBO by year: " + ", ".join("FY%d %d" % (y, CBO_ROT_INTEREST[y]) for y in yrs) + ".",
-                           "Why they differ: the model applies the higher rate to all of last year's debt at once (fiscal-model.py, baseline()), "
-                           "so its first-year effect is 0.1%% of about $%.1f trillion. CBO phases the higher rate in as maturing debt is refinanced, "
-                           "so its effect starts lower and grows as the debt turns over. The model is higher in every year, by most at the start, "
-                           "which is the cautious direction. Whether to phase rates in is a method choice for B6, not a change made here." % (base[2026]["debt"] / 1000),
-                           "In the model's own +1 point case (BASE-R1), the same method adds $%.0f billion in FY2030, the first year, and $%.0f "
+                           "Before B6 the model applied the higher rate to all of last year's debt at once. On this scenario that method gave "
+                           "$%.0f billion over FY2027-36 and $%.0f billion in FY2027 (from a FY2027 start, B4's run: $502 billion and $32 billion), "
+                           "against CBO's $383 billion and $14 billion. Phasing the rate in as debt rolls over is B6's fix (item 1)." % (
+                               sum(old[y] for y in yrs), old[2027]),
+                           "In the model's own +1 point case (BASE-R1), the phased method adds $%.0f billion in FY2030, the first year, and $%.0f "
                            "billion over FY2030-39." % (r1[2030], sum(r1[y] for y in range(2030, 2040))),
                            "Cross-check: CBO's 2025 workbook (61183, January 2025 baseline) gives %+.2f billion in FY2026 for the same "
                            "scenario. Those are the figures in Espen's old CBO scorer (SRC-0203), so that table came from it." % ROT_2025_INTEREST_FY2026]))

@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**79 assumptions:** 25 matter a lot, 31 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**80 assumptions:** 25 matter a lot, 32 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -14,7 +14,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - ASM-FY26-TOTALS: FY2026 preliminary actual totals replace CBO's February FY2026 projection
 - ASM-RATE-MARGINAL: Rate on the program's own borrowing through 2036: the higher of CBO's average rate on debt and a 40/60 blend of the 3-month bill and 10-year note
 - ASM-RATE-LT: Rate on the program's own borrowing after 2036: the baseline's implied average rate (net interest over last year's debt)
-- ASM-RATE-SHIFT: Rate stress case: one percentage point higher on all debt (baseline and program) from 2030
+- ASM-RATE-SHIFT: Rate stress case: one percentage point higher on all rates from 2030, reaching existing debt as it rolls over (ASM-RATE-ROLLOVER) and new borrowing (baseline and program) in full
 - ASM-WINDOW: The scoring window is FY2030-39; every ledger amount is a ten-year total for those years
 - ASM-CALIB-MID: Each row's FY2030-39 path sums exactly to its ledger midpoint; the low and high ends do not enter the fiscal model
 - ASM-PROF-DEFAULT: Default profile: starts FY2030, full in its first year, grows with GDP, permanent at the 2039 run rate
@@ -29,7 +29,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Baseline adjustments (3)
 - FY2026 actuals (3)
 - Economic paths (3)
-- Interest (6)
+- Interest (7)
 - Dynamic effects (2)
 - Program measurement (11)
 - Profiles (10)
@@ -230,14 +230,25 @@ A year's new borrowing pays half a year of interest in that year.
 
 ### ASM-RATE-SHIFT
 
-Rate stress case: one percentage point higher on all debt (baseline and program) from 2030.
+Rate stress case: one percentage point higher on all rates from 2030, reaching existing debt as it rolls over (ASM-RATE-ROLLOVER) and new borrowing (baseline and program) in full.
 
 - **Value:** +1.0 point from FY2030 (percentage points)
-- **How much it matters:** high: the biggest single risk; 2056 baseline debt 180% becomes 224% of GDP
-- **Where:** models/tools/fiscal-model.py:42-43, 121, 191-206
+- **How much it matters:** high: the biggest single risk; 2056 baseline debt 180% becomes 217% of GDP (224% before B6 phased it in)
+- **Where:** models/tools/fiscal-model.py:42-43, 191-206, 334-348
 - **Source:** Project sensitivity; the size echoes CBO's rule-of-thumb tests
 - **Decided by:** unrecorded
 - **Notes:** Reported as scenarios DEC-R1 and BASE-R1; the D4 tests are judged at CBO rates, not under this case.
+
+### ASM-RATE-ROLLOVER
+
+In a rate shock, debt outstanding when it starts reprices only as it matures, on Treasury's maturity structure at the end of FY2026; new borrowing pays the new rate in full.
+
+- **Value:** share still at the old rate, averaged over each year of the shock: 0.75, 0.60, 0.50, 0.42, 0.36 (years 1-5), 0.19 (year 10); average time to repricing 5.9 years (share of debt)
+- **How much it matters:** medium: sets how fast the stress case bites; it lowers the FY2030-39 added interest in BASE-R1 by about a third. SE-1 checks it against CBO
+- **Where:** models/tools/fiscal-model.py:315-348; models/data/budget/treasury-maturity.csv; models/tools/budget/build_maturity.py
+- **Source:** Treasury, Monthly Statement of the Public Debt, Table III, September 30, 2026, via api.fiscaldata.treasury.gov (mspd_table_3_market); method as in CBO, How Changes in Economic Conditions Might Affect the Federal Budget: 2026 to 2036 (publication 62257, April 2026)
+- **Decided by:** Claude Code (B6, item 1)
+- **Notes:** The structure at the end of FY2026 is used for a shock starting in any year (a stationary-maturity assumption); floating-rate notes reprice at once, TIPS count by maturity. Debt held by the public is treated as all marketable.
 
 ### ASM-RATE-NOFEEDBACK
 
