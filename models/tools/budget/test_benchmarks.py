@@ -74,6 +74,18 @@ TRUSTEES_HI = {"depletion": 2033, "payable": 89, "balance": -0.56}
 # during fiscal year 2040"), from Espen's November 8 upload (library/intake/2026-11-08/cbo/, PR #121).
 CBO_HI_EXHAUSTION = 2040
 
+# CBO's estimate of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023; relative
+# to CBO's May 2023 baseline), millions of dollars by fiscal year: one year of new emergency budget
+# authority and CBO's outlays from it, year by year. Fetched from
+# https://www.cbo.gov/system/files/2023-11/CBO_Estimate_for_the_Israel_Security_Supp_Approp_Act_2024.pdf
+# on November 8, 2026 through a search tool, as Espen allowed that day; cited, not saved.
+CBO_SUPPLEMENTAL_2024 = {
+    "defense": {"title": "Title I, Defense", "ba": 10600,
+                "outlays": [5629, 1373, 1659, 1107, 520, 177, 66, 18, 0, 0]},
+    "nondefense": {"title": "Title II, State, Foreign Operations", "ba": 3700,
+                   "outlays": [3583, 60, 33, 15, 5, 2, 1, 0, 0, 0]},
+}
+
 # CBO's rules of thumb for the February 2026 baseline: How Changes in Economic Conditions Might Affect
 # the Federal Budget: 2026 to 2036 (publication 62257, April 2026), Tables 2 and 3, billions by fiscal
 # year, each for a change of 0.1 percentage point every year. From Espen's November 8 upload
@@ -90,10 +102,6 @@ CBO_ROT_LABOR_10YR = 166               # FY2027-36 added deficit, labor force gr
 ROT_2025_INTEREST_FY2026 = 13.34
 
 UPLOADS = [
-    ("A CBO cost estimate that shows outlays by year from one act's new budget authority, such as CBO's "
-     "estimate for a supplemental (emergency) appropriations act, which spreads the new money over the years "
-     "it is spent. The two FY2026 House estimates already uploaded (H.R. 6938, H.R. 7006) report one year only",
-     "PS-4: a published spend-out for the library's appropriations method."),
 ]
 
 
@@ -321,21 +329,42 @@ def bm_published(M):
                        "5% in each year", "CBO February 2026 baseline by budget account (US-CBO/cbo-data spending_detail, models/data/budget/cbo-spending-by-function.csv)",
                        why, unit="largest yearly gap", miss="%+.1f%% in FY%d" % (100 * gaps[wy], wy) if abs(gaps[wy]) > 0.05 else None, detail=det))
         out[-1]["in_sample"] = True
-    out.append(_bm("PS-4", "Published scores", "CBO: cost estimate for an appropriations act, outlays by year from new budget authority", "pending", None, None,
-                   "to be set with the source",
-                   "Pending source: a CBO estimate that spreads one act's new budget authority over the years it is spent (see uploads). "
-                   "Checked and not enough: CBO's cost estimates for H.R. 6938 (January 7, 2026) and H.R. 7006 (January 14, 2026), "
-                   "Espen's November 8 upload (PR #121)",
-                   "A published appropriations score with outlays by year from one act's new budget authority would test the spend-out method "
-                   "on the kind of bill the plan's discretionary rows will be. The two FY2026 House estimates Espen uploaded cover 5 of the 12 "
-                   "acts (CJS, Energy-Water, Interior; FSGG, State-Foreign Operations) but report FY2026 only: budget authority and outlays "
-                   "by subcommittee for that one year, with the outlays including spending from appropriations made in earlier years (their "
-                   "notes name the 2021 infrastructure law's advance appropriations among them). They don't show how a year's appropriation "
-                   "spends out over the following years, which is what the library's spend-out assumes, so PS-4 can't be scored on them "
-                   "without inventing the prior-year spending. It stays pending rather than being stretched past what the estimates cover.",
-                   detail=["For the record, FY2026 base spending in the two bills: H.R. 6938, $174.7 billion of budget authority and $211.9 "
-                           "billion of outlays; H.R. 7006, $76.3 billion and $89.6 billion. The outlays exceed the budget authority because "
-                           "they include earlier years' appropriations, which is why a one-year figure can't test the timing."]))
+    # PS-4: one act's new budget authority spent out by the library, against CBO's own spend-out
+    for grp, letter in (("defense", "a"), ("nondefense", "b")):
+        c = CBO_SUPPLEMENTAL_2024[grp]
+        ba = {2024 + k: (c["ba"] / 1000.0 if k == 0 else 0.0) for k in range(10)}   # billions; later years zero
+        lib = P.spendout_apply(ba, grp)
+        lib_share = [lib.get(2024 + k, 0.0) * 1000.0 / c["ba"] for k in range(4)]
+        cbo_share = [v / c["ba"] for v in c["outlays"][:4]]
+        cum = lambda xs: [sum(xs[:k + 1]) for k in range(len(xs))]
+        lc, cc = cum(lib_share), cum(cbo_share)
+        gaps = [100 * (lc[k] - cc[k]) for k in range(4)]
+        wk = max(range(4), key=lambda k: abs(gaps[k]))
+        ok = all(abs(g) <= 10 for g in gaps)
+        out.append(_bm("PS-4" + letter, "Published scores",
+                       "CBO: outlays by year from one appropriations act's new %s budget authority (2024 Israel security supplemental, %s)" % (grp, c["title"]),
+                       "pass" if ok else "fail",
+                       "spent by end of year 1-4: " + ", ".join("%.0f%%" % (100 * v) for v in lc),
+                       "CBO: " + ", ".join("%.0f%%" % (100 * v) for v in cc),
+                       "within 10 points of CBO's cumulative share in each of the first four years",
+                       "CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023), "
+                       "fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day",
+                       "Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated %s shares, ASM-SPENDOUT) on a single act: "
+                       "one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own "
+                       "estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows "
+                       "for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace "
+                       "that kind of spending by a year or more." % grp,
+                       unit="share of budget authority", miss="%+.0f points by end of year %d" % (gaps[wk], wk + 1) if not ok else None,
+                       detail=["CBO by year (millions): " + ", ".join(str(v) for v in c["outlays"]) + " from $%s million." % format(c["ba"], ","),
+                               "This is one emergency supplemental, not a regular appropriation. The library uses one set of shares for every "
+                               "%s row, fit to the average of all such spending; a single act's programs can spend much faster or slower. "
+                               "The result shows how far one act can sit from that average, which is a limit on the library's per-row timing "
+                               "rather than proof that the average is wrong (PS-3 tests the average)." % grp,
+                               ("The library's defense shares spend %.0f%% of the money by the end of year 3 and take some back in year 4, "
+                                "because B2's year-4 defense share is negative and is used as stored (ASM-SPENDOUT-NORM)." % (100 * max(lc))
+                                if grp == "defense" and max(lc) > 1.0 else "The library's shares spend the money evenly over four years; CBO spends this act's almost at once."),
+                               "The two FY2026 House estimates Espen uploaded (H.R. 6938, H.R. 7006) were checked first: they report FY2026 only, "
+                               "with prior years' appropriations mixed into the outlays, so they can't test timing."]))
     return out
 
 
@@ -559,8 +588,8 @@ def page(results):
           "www.cbo.gov's bot check blocks direct downloads from agent sessions (403). Since November 8 Espen allows agents to fetch CBO "
           "documents through search tools instead; an upload (`library/fetch_public.py --file`) also works. CBO's own GitHub "
           "data repository (`US-CBO/cbo-data`, commit 284a956) was checked first, and so were the 16 CBO files Espen uploaded on November 8 "
-          "(PR #121); what is still missing is listed here.", ""]
-    w += ["%d. %s. *Unlocks:* %s" % (i + 1, d, u) for i, (d, u) in enumerate(UPLOADS)]
+          "(PR #121), and CBO documents fetched through search tools where needed.", ""]
+    w += ["%d. %s. *Unlocks:* %s" % (i + 1, d, u) for i, (d, u) in enumerate(UPLOADS)] or ["None outstanding: every benchmark has its source."]
     return "\n".join(w) + "\n"
 
 

@@ -4,9 +4,9 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 **How to read it.** *pass*: within the stated tolerance. *fail*: outside it; the miss column gives the size. *pending*: there is no target yet, because the source isn't in the library or the model can't compute the quantity. A miss is reported, never fixed by changing the model or the tolerance.
 
-17 benchmarks: 13 pass, 3 fail, 1 pending. 2 of the passes (PS-3a, PS-3b) are partly in-sample: their level was calibrated to the same CBO figures they are checked against, so only their timing is tested.
+18 benchmarks: 13 pass, 5 fail. 2 of the passes (PS-3a, PS-3b) are partly in-sample: their level was calibrated to the same CBO figures they are checked against, so only their timing is tested.
 
-**Milestone status: not passed.** PS-4, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
+**Milestone status: not passed.** PS-4a, PS-4b, SE-1, SE-2, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
 
 | ID | Benchmark | Result | Model | Target | Tolerance | Miss |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -21,7 +21,8 @@ Role: the current result of every benchmark of the federal budget model (piece B
 | PS-2 | CBO: interest cost of extending P.L. 119-21's ten temporary provisions, FY2025-34 | **pass** | 80.20 ($B) | 71 | 15% | — |
 | PS-3a | CBO: discretionary defense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | +0.9% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
 | PS-3b | CBO: discretionary nondefense outlays from budget authority (February 2026 baseline) | **pass** (partly in-sample) | -1.4% (largest yearly gap) | CBO's outlays, FY2029-2036 | 5% in each year | — |
-| PS-4 | CBO: cost estimate for an appropriations act, outlays by year from new budget authority | **pending** | — | — | to be set with the source | — |
+| PS-4a | CBO: outlays by year from one appropriations act's new defense budget authority (2024 Israel security supplemental, Title I, Defense) | **fail** | spent by end of year 1-4: 44%, 78%, 103%, 99% (share of budget authority) | CBO: 53%, 66%, 82%, 92% | within 10 points of CBO's cumulative share in each of the first four years | +21 points by end of year 3 |
+| PS-4b | CBO: outlays by year from one appropriations act's new nondefense budget authority (2024 Israel security supplemental, Title II, State, Foreign Operations) | **fail** | spent by end of year 1-4: 25%, 60%, 90%, 100% (share of budget authority) | CBO: 97%, 98%, 99%, 100% | within 10 points of CBO's cumulative share in each of the first four years | -72 points by end of year 1 |
 | SE-1 | Interest rates 0.1 point higher on all debt from FY2027: added net interest | **fail** | FY2027-36 total 502; FY2027 32, FY2036 72 ($B) | CBO: total 383; FY2027 14, FY2036 62 | ten-year total within 15%, and each year within 25% | ten-year total +31%; 5 of 10 years outside 25% (largest FY2027, +131%) |
 | SE-2 | Slower growth (productivity or labor force 0.1 point a year slower): added deficits | **fail** | 0 for both (the model has no growth response) ($B) | CBO, FY2027-36: productivity 317, labor force 166 | ten-year total within 15% for each scenario | -100% for both: 0 against 317 and 166 |
 | TF-1 | Social Security (OASDI combined): current law | **pass** | depletion 2034, 83% payable, balance -4.45% | depletion 2034, 83% payable, balance -4.42% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | — |
@@ -144,15 +145,31 @@ Role: the current result of every benchmark of the federal budget model (piece B
 - Over FY2029-2036 the method gives +0.00% of CBO's total (fitted). Largest year FY2029: 996 against CBO's 1010 billion.
 - Earlier reading (#113): before B3's fix (#118), the library rescaled B2's OMB-fit nondefense shares, which add to 1.10, down to one, and added nothing for highway and transit. That fell 11.1% short in FY2029 and failed. With B2's OMB-fit shares as stored, the FY2029 gap was -2.6%: the extra tenth stood in for outlays whose budget authority isn't discretionary (B2 measured about $94 billion a year, $87 billion of it in function 400: highways, transit, airports). #118 now carries those outlays on their own, which is what this benchmark reads.
 
-### PS-4. CBO: cost estimate for an appropriations act, outlays by year from new budget authority
+### PS-4a. CBO: outlays by year from one appropriations act's new defense budget authority (2024 Israel security supplemental, Title I, Defense)
 
-- **Result:** pending
-- **Model:** —
-- **Target:** —
-- **Tolerance:** to be set with the source
-- **Source:** Pending source: a CBO estimate that spreads one act's new budget authority over the years it is spent (see uploads). Checked and not enough: CBO's cost estimates for H.R. 6938 (January 7, 2026) and H.R. 7006 (January 14, 2026), Espen's November 8 upload (PR #121)
-- **Why:** A published appropriations score with outlays by year from one act's new budget authority would test the spend-out method on the kind of bill the plan's discretionary rows will be. The two FY2026 House estimates Espen uploaded cover 5 of the 12 acts (CJS, Energy-Water, Interior; FSGG, State-Foreign Operations) but report FY2026 only: budget authority and outlays by subcommittee for that one year, with the outlays including spending from appropriations made in earlier years (their notes name the 2021 infrastructure law's advance appropriations among them). They don't show how a year's appropriation spends out over the following years, which is what the library's spend-out assumes, so PS-4 can't be scored on them without inventing the prior-year spending. It stays pending rather than being stretched past what the estimates cover.
-- For the record, FY2026 base spending in the two bills: H.R. 6938, $174.7 billion of budget authority and $211.9 billion of outlays; H.R. 7006, $76.3 billion and $89.6 billion. The outlays exceed the budget authority because they include earlier years' appropriations, which is why a one-year figure can't test the timing.
+- **Result:** fail. Miss: +21 points by end of year 3
+- **Model:** spent by end of year 1-4: 44%, 78%, 103%, 99% (share of budget authority)
+- **Target:** CBO: 53%, 66%, 82%, 92%
+- **Tolerance:** within 10 points of CBO's cumulative share in each of the first four years
+- **Source:** CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day
+- **Why:** Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated defense shares, ASM-SPENDOUT) on a single act: one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace that kind of spending by a year or more.
+- CBO by year (millions): 5629, 1373, 1659, 1107, 520, 177, 66, 18, 0, 0 from $10,600 million.
+- This is one emergency supplemental, not a regular appropriation. The library uses one set of shares for every defense row, fit to the average of all such spending; a single act's programs can spend much faster or slower. The result shows how far one act can sit from that average, which is a limit on the library's per-row timing rather than proof that the average is wrong (PS-3 tests the average).
+- The library's defense shares spend 103% of the money by the end of year 3 and take some back in year 4, because B2's year-4 defense share is negative and is used as stored (ASM-SPENDOUT-NORM).
+- The two FY2026 House estimates Espen uploaded (H.R. 6938, H.R. 7006) were checked first: they report FY2026 only, with prior years' appropriations mixed into the outlays, so they can't test timing.
+
+### PS-4b. CBO: outlays by year from one appropriations act's new nondefense budget authority (2024 Israel security supplemental, Title II, State, Foreign Operations)
+
+- **Result:** fail. Miss: -72 points by end of year 1
+- **Model:** spent by end of year 1-4: 25%, 60%, 90%, 100% (share of budget authority)
+- **Target:** CBO: 97%, 98%, 99%, 100%
+- **Tolerance:** within 10 points of CBO's cumulative share in each of the first four years
+- **Source:** CBO, Estimated Budgetary Effects of the Israel Security Supplemental Appropriations Act, 2024 (November 1, 2023), fetched from cbo.gov on November 8, 2026 through a search tool, as Espen allowed that day
+- **Why:** Tests the library's spend-out (provisions.spendout_apply, on B2's CBO-calibrated nondefense shares, ASM-SPENDOUT) on a single act: one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace that kind of spending by a year or more.
+- CBO by year (millions): 3583, 60, 33, 15, 5, 2, 1, 0, 0, 0 from $3,700 million.
+- This is one emergency supplemental, not a regular appropriation. The library uses one set of shares for every nondefense row, fit to the average of all such spending; a single act's programs can spend much faster or slower. The result shows how far one act can sit from that average, which is a limit on the library's per-row timing rather than proof that the average is wrong (PS-3 tests the average).
+- The library's shares spend the money evenly over four years; CBO spends this act's almost at once.
+- The two FY2026 House estimates Espen uploaded (H.R. 6938, H.R. 7006) were checked first: they report FY2026 only, with prior years' appropriations mixed into the outlays, so they can't test timing.
 
 ## Sensitivity
 
@@ -214,6 +231,6 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 ## Documents for Espen to upload
 
-www.cbo.gov's bot check blocks direct downloads from agent sessions (403). Since November 8 Espen allows agents to fetch CBO documents through search tools instead; an upload (`library/fetch_public.py --file`) also works. CBO's own GitHub data repository (`US-CBO/cbo-data`, commit 284a956) was checked first, and so were the 16 CBO files Espen uploaded on November 8 (PR #121); what is still missing is listed here.
+www.cbo.gov's bot check blocks direct downloads from agent sessions (403). Since November 8 Espen allows agents to fetch CBO documents through search tools instead; an upload (`library/fetch_public.py --file`) also works. CBO's own GitHub data repository (`US-CBO/cbo-data`, commit 284a956) was checked first, and so were the 16 CBO files Espen uploaded on November 8 (PR #121), and CBO documents fetched through search tools where needed.
 
-1. A CBO cost estimate that shows outlays by year from one act's new budget authority, such as CBO's estimate for a supplemental (emergency) appropriations act, which spreads the new money over the years it is spent. The two FY2026 House estimates already uploaded (H.R. 6938, H.R. 7006) report one year only. *Unlocks:* PS-4: a published spend-out for the library's appropriations method.
+None outstanding: every benchmark has its source.
