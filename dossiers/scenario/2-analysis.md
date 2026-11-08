@@ -47,7 +47,7 @@ The Latino margin varies by source: Nate Cohn cites 69-29 from New York Times es
 | Tariffs | Hurt the national economy 66%, helped 21% | [SRC-0489] |
 | Iran war | Wrong decision 63%; about a quarter of Republicans say so | [SRC-0489] [SRC-0492] |
 | Immigration enforcement | Gone too far 58%, not far enough 20%; ICE approval 40% | [SRC-0489] |
-| Party better on (D-R) | Health care 50-30; foreign policy 45-38; economy 44-37; taxes 40-38; corruption 37-30; immigration 41-43 | [SRC-0489] |
+| Party better on (D-R), all eight issues tested | Health care 50-30; foreign policy 45-38; transgender policy 45-34; economy 44-37; taxes 40-38; corruption 37-30; AI 30-27; immigration 41-43 | [SRC-0489] |
 | Party favorability | Democratic 47-52; Republican 40-60; about one in five Democratic voters view their own party unfavorably | [SRC-0489] [SRC-0490] |
 | Checks on the president | Congress doing "not enough" to check him: 71%, about 4 in 10 Republicans included | [SRC-0489] [SRC-0490] |
 | AI and data centers | A crucial or major factor for 56%; 76% oppose a data center in their own community | [SRC-0489] |
@@ -77,7 +77,7 @@ Each row is an interpretation. Its supporting and cutting data come from section
 | **10. Redistricting backfired** | CBS (Linton) [SRC-0502]; ABC [SRC-0471]; UBS [SRC-0516] | Republicans lost most of the seats they redrew (more than two-thirds by ABC's count) | An amplifier of the wave, not its cause; California's Democratic map added about five seats |
 | **11. Fundamentals: the sixth-year midterm** | National Review [SRC-0503]; The Federalist [SRC-0504]; NPR's 2006 analogy | Anger at 38-39% against 31% in 2024 [SRC-0499] | Does not explain the size, the second-biggest midterm swing since World War II (Silver) [SRC-0496], or the deep-red Senate flips |
 | **12. A mandate for the left** (corporate power, AI, oligarchy) | Rep. Casar and the Progressive Caucus; Working Families Party [SRC-0513]; DSA's record House night [SRC-0514] | 70% say the economic system favors the wealthy; 76% oppose a local data center; DSA's House contingent more than triples | Socialism favorable at 33%; liberals 26% of voters against conservatives 33%; AI crucial for only 23% |
-| **13. A rejection, not a realignment** | Teixeira [SRC-0512]; National Review [SRC-0503]; Jacobin's Abbott, on class (socialist left) [SRC-0515] | Democratic Party favorability 47-52; 15% dislike both parties | Democrats lead on 7 of 8 issues tested; the Washington Post reports the first Democratic lead on the economy in over a decade [SRC-0501] |
+| **13. A rejection, not a realignment** | Teixeira [SRC-0512]; National Review [SRC-0503]; Jacobin's Abbott, on class (socialist left) [SRC-0515] | Democratic Party favorability 47-52; 15% dislike both parties | Democrats lead on 7 of the 8 issues tested, all but immigration; the Washington Post reports the first Democratic lead on the economy in over a decade [SRC-0501] |
 
 **What most readings share.** Nearly every analyst, left to right, agrees on three things: voters were angry about prices; Trump's standing was low and his choices (tariffs, the war) were blamed; and the result punished the governing party more than it endorsed the opposition. They split on what Democrats should do with it: deliver on costs and stay broad (readings 2, 8, 13), pursue accountability (6), or move boldly left (12). That split matters for the 2027-28 framework (`3-framework-2027-28.md`, question 3).
 
