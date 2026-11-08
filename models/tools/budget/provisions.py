@@ -28,7 +28,7 @@ What the money is ("kind"), each with one scoring method:
                  budget authority from FY2027. B2's shares are rough (a least-squares fit on
                  totals, FY1993-2019); this library zeroes the defense year-4 share, which is
                  negative noise, and rescales each group's shares to add to one. So every
-                 discretionary budget-authority figure is marked rough. Spending that budget
+                 discretionary budget-authority figure is marked rough (ASM-SPENDOUT). Spending that budget
                  authority out at the same shares does not give back the model's outlays exactly:
                  the model's profiles spend faster at the start and stop faster at a time limit
                  than B2's rates allow. spendout_gap() measures the difference. (The exact
