@@ -117,8 +117,8 @@ From `2028-senate-candidates-outputs.md`: each race shifted by 2 points toward e
 | Ohio | +4.8 | +1.0 | +1.1 |
 | Georgia | +5.5 | +0.9 | +0.8 |
 | New Hampshire | +4.1 | +0.6 | +0.5 |
-| Iowa, Florida, Alaska, Kansas | under +3.2 | +0.4 or less | +0.4 or less |
-| **All but Kansas at once** | — | **+9.3** (21% at −2, 59% at +2) | **+8.7** (49% to 84%) |
+| Iowa, Florida, Alaska, Kansas | +1.6 or less | +0.3 or less | +0.4 or less |
+| **All but Kansas at once** | — | **+9.3** (21% at −2, 59% at +2) | **+8.8** (49% to 84%) |
 
 Reading it (analysis):
 - **The 55+ threshold runs through North Carolina, Wisconsin and Nevada.** They are the closest to 50-50 among the seats Democrats need beyond the first 51, so a point there buys the most.
