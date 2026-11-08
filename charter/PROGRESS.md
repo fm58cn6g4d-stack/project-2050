@@ -24,7 +24,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | Done | Claude Code | PR #49, merged |
 | A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Done: approved by Espen | Claude Code | PR #50, merged |
 | B. Post-election update | 1. Rebaseline the political planning scenario: results record by certainty, analysis review, 2027-28 framework with open questions, what it means for the 2029 plan | Most capable | Done: `dossiers/scenario/` (results record, analysis review, 2027-28 framework with 12 questions, flags for D1-D9 and the stage order); SRC-0440 to 0554 | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | PR #78, merged
-| B. Post-election update | 2. Follow-up for Espen: Alaska Senate rechecked; governor count; the 2028 Senate map and a scenario estimate of the 2029 Senate (`5-senate-2028.md`); a proposed D1 update in a separate tier-3 PR | Most capable | In review | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | Branch `claude/stage-b-followup`; D1 on `claude/d1-rebaseline` |
+| B. Post-election update | 2. Follow-up for Espen: Alaska Senate rechecked; governor count; the 2028 Senate map and a scenario estimate of the 2029 Senate (`5-senate-2028.md`); D1 updated (`DEC-2026-11-08-01`: plan for 53-56 seats, test at 51, upside 58+, a trifecta planned for 2029-30) | Most capable | Done: map analysis (PR #79); D1 decided by Espen (PR #80) | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | Branch `claude/stage-b-followup`; D1 on `claude/d1-rebaseline` |
 | B. Post-election update | 3. 2027-28 and 2028: the 2027 off-cycle races; the governing playbook as options (federal levers, governors, courts and defiance risks); 2028 scenarios with drivers; how the 2026 result compounds for the 2029 plan and to 2050; two rounds of stress tests | Most capable | Done: `dossiers/scenario/2027-races.md`, `2027-28-playbook.md`, `2028-outlook.md`, `compounding-2029-2050.md`, `2027-28-stress-tests.md`; SRC-0800 to 0989 (citation rows). The 2028 Senate stays in `5-senate-2028.md` | Claude Code (session_01UQzgBxGYju6momc4d3CoJd) | PRs #81 and #83, merged |
 | B. Post-election update | 3b. Round 2 for the lead: a Republican-presidency branch; the pre-build pipeline by flagship; redistricting through 2032 (2028 redraws, DEM-2's worth, the 2031 pens ranked); the defense lock-in arithmetic; a third round of stress tests | Most capable | In review: `dossiers/scenario/2028-republican-branch.md`, `compounding-prebuild.md`, `compounding-redistricting.md`, `compounding-defense.md` (script `tools/compounding-defense.py`); SRC-1001 to 1050 | Claude Code (session_01UQzgBxGYju6momc4d3CoJd) | Branch `claude/scenario-2027-28-r2` |
 | B. Post-election update | 3c. Round 3 for the lead: decision memo on the defense baseline and DEM-2's severability; a state-by-state 2028 presidential model sharing the Senate model's swing | Most capable | In review: `dossiers/scenario/memo-defense-baseline-and-dem2.md` (PR #89 merged into its stacked base, carried to main on `claude/dem2-value-order` with the 2031-pens update); `presidential-model-2028.md` on `claude/presidential-2028` (PR #87, stacked on #84) | Claude Code (session_01UQzgBxGYju6momc4d3CoJd) | Branch `claude/scenario-memo` |
@@ -43,8 +43,6 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 ## Open PRs
 
-- Stage B step 2: Alaska and governor rechecks and the 2028 Senate map (`claude/stage-b-followup`).
-- Stage B: proposed D1 update, tier 3, waits for Espen (`claude/d1-rebaseline`).
 - Stage B step 3b: round 2 scenario files (`claude/scenario-2027-28-r2`).
 
 - Stage C step 4b: housing section 3 refresh under `DEC-2026-10-30-02` (`claude/housing-design-refresh`).
@@ -95,7 +93,6 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 0. **Stage B, the post-election update** (`dossiers/scenario/3-framework-2027-28.md`, section 7; none urgent before the lame duck ends). The five that matter most:
    - what 2027-28 is for: laws now, a clear record, a plan ready for 2029, a protected 2028 election, or a mix;
    - when an early deal is worth locking in a design before its dossier decides it;
-   - whether to rebaseline D1 (52-54 seats) now that 2026 produced 55-56, or after a 2028 map analysis;
    - whether any Senate rules change happens in 2027 or waits for 2029 (D2);
    - what 2027-28 appropriations should do to the FY2029 defense base that NSC-1A holds flat.
 
