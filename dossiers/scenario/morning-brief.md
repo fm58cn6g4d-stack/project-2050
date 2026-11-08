@@ -1,0 +1,71 @@
+# Morning brief: the politics after 2026, and what it means for 2029
+
+Role: a plain-language summary for Espen of the scenario work done overnight on November 7-8, 2026: the 2027 races, what Democrats can do in 2027-28, the 2028 Senate and presidential outlook, and how it adds up for the plan that starts in January 2029 (`DEC-2026-10-29-01`). Status: synthesis only, November 8, 2026. It adds no new modelling. Every number below was checked against its source file at these heads: `main` at `34110f6`, PR #82 at `c9cbb3c`, PR #84 at `6b1301c`, PR #80 at `af4e45a`.
+
+**Where the files are.** Most files are merged into `main` and linked directly. Three files exist only on open PRs and are not merged yet: `senate-model-2028.md`, `senate-model-outputs.md` and `2030-2034-control.md`. They come from [PR #82](https://github.com/fm58cn6g4d-stack/project-2050/pull/82), updated by [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84), which is built on top of #82. Figures from them use #84's version. All the probabilities are this project's own scenario arithmetic, not forecasts. No rating service has rated 2028 yet.
+
+## 1. The ten most important findings
+
+1. **With a Democratic president, the 2029 Senate is probably about 57 seats.** The average is 56.7, and 90% of runs fall between 53 and 60. 55 or more happens in 84% of runs; 60 or more in only 9%. (`senate-model-2028.md`, section 4, [PR #84](https://github.com/fm58cn6g4d-stack/project-2050/pull/84))
+2. **Democrats likely keep the Senate even if they lose the presidency.** Under a Republican president they still control it in 85% of runs, with about 53 seats. (same file, section 4)
+3. **January 2029 is the high point of the decade.** The average falls from 56.7 seats in 2029 to 54.1 after the 2030 midterm and 48.9 after 2032. Democrats hold 50 or more in every Congress through 2034 in only 46% of runs. (`2030-2034-control.md`, section 3, PR #84)
+4. **Five seats drive the 2032 drop.** Mississippi, South Carolina, Kansas, Iowa and Alaska supply 63% of the expected 2032 losses. All are states Trump won by 13 to 23 points, and all were won in the 2026 wave. (same file, section 4)
+5. **Statehood is the biggest lever on 2032. Better candidates barely help.** Seating D.C. and Puerto Rico by January 2031 raises the chance of holding the Senate through 2034 from 46% to 64%. Stronger candidates in the exposed seats only reach 47-49%. (same file, section 5)
+6. **On the filibuster, who is in the caucus matters more than how many seats it has.** About 6 Democrats are expected to oppose a rules change, against a margin of about 6-7 seats. The graduated-cloture plan (D2-F) has the votes in 62% of runs, but the range is 9-88% depending on senators whose views are unknown. (`senate-model-2028.md`, section 9, PR #84)
+7. **The Minnesota Senate seat is on the ballot in November 2027, not 2028.** Its winner serves to January 2031. Losing it costs a full seat in every 2029 scenario and 13-19 points off the chance of 55+. Only 37 Democratic seats not up in 2028 are certain, not 40. (`senate-model-2028.md`, sections 1 and 9, PR #84; [2027-races.md](2027-races.md), section 4)
+8. **There is probably one real legislative year, 2027, then a campaign.** Two budget bills that need only 51 votes (FY2027 and FY2028) are available without touching the FY2029 slot the 2029 plan needs. The chance a reconciliation bill passes Congress is put at 55-75%; the risk is how to pay for it. ([2027-28-playbook.md](2027-28-playbook.md), in brief and section 2; [2027-28-stress-tests.md](2027-28-stress-tests.md), question 3)
+9. **The House, not the Senate, is the hinge in 2028.** The middle House seat is Trump +4.5 against Trump +1.5 nationally, about a 3-point Republican tilt. Democrats break even near D+3 and hold the House comfortably at D+5 or better. ([2028-outlook.md](2028-outlook.md), in brief and section 5)
+10. **After 2028 the map moves to the Sun Belt.** On projected 2030 census seats, the Harris states plus Wisconsin, Michigan and Pennsylvania fall from 270 electoral votes to 258, and the tipping-point state moves from Pennsylvania to Georgia. The 2031 maps are drawn by whoever wins in November 2030. ([compounding-2029-2050.md](compounding-2029-2050.md), in brief and section 4)
+
+## 2. Your priors, tested
+
+| Your prior | What the model says |
+| --- | --- |
+| **Ohio is the riskiest Democratic Senate seat, by a lot.** | **Right.** Brown wins 21% of runs in a neutral year; the next lowest are Arizona (54%) and Pennsylvania (56%). But Ohio rarely decides control (about 2% of runs). It matters for seats 58-60. |
+| **Arizona, Georgia and Nevada are safe-ish in a neutral year.** | **Too optimistic.** Neutral year: Arizona 54%, Georgia 71%, Nevada 59%, and all three hold in only 30% of runs. They are only safe-ish at about D+6 (73% for all three). If Kelly runs for president instead, Arizona drops about 10 points. |
+| **It will be hard to lose the Senate before 2032.** | **Right.** With a Democratic president, Democrats hold 50+ through the 2031-32 Congress in 82% of runs (84% if the president is re-elected in 2032). The danger is the 2032 election itself: 46-60% hold through 2033-34. |
+| **Good shots at North Carolina and Wisconsin.** | **Partly.** They are toss-ups in a neutral year (45% and 38%; both in 19% of runs). They become favored at D+3 (65% and 57%). |
+| **Montana as a reach.** | **Montana is not up in 2028.** Sheehy is up in 2030 and Alme in 2032. The best "wild" seats among those up need a 2026-sized year: at D+13, Iowa 66% and Florida 56%. At D+3 Democrats expect to win only 1.5 Republican-held seats. |
+| **A Murkowski deal, or a party switch.** | **She is up, but the evidence runs against a deal.** She endorsed Sullivan "to keep in the majority," her approval collapsed in 2025, and she has pledged to oppose weakening the filibuster. A run as a Democratic-aligned independent is given a 6% chance. Overall, the seat goes to the Democratic caucus in about 8% of runs. The repeal of ranked-choice voting (Measure 2) is losing (No 51.85%), which keeps her viable. |
+
+Sources: `senate-model-2028.md`, sections 4-6 and 9, and `2030-2034-control.md`, section 3 (both PR #84).
+
+## 3. Decisions waiting on you
+
+**PR #80: which Senate size the plan designs for (D1).** It is tier 3, so only your `espen-approved` label merges it. I have not applied or asked for any label.
+
+| Option | Plan for | Test every item at | Upside | What changes in the plan |
+| --- | --- | --- | --- | --- |
+| A. Keep the old D1 | 52-54 seats | 51 | 56+ | Nothing. Bills that need 55 dependable votes stay out of the base package. The old assumption that Democrats hold the Senate to 2036 stays in. |
+| **B. Move to the estimate (recommended)** | **53-56** | **51** | **58+** | Each dossier designs for a somewhat bigger Senate. The 51-seat test stays, so nothing that passes today drops out. The "hold to 2036" assumption is replaced by a stated risk in 2030 and 2032. The House assumption now notes the 2027 majority and the *Callais* ruling. |
+| C. Plan for the 2026 result | 55-57 | 52 | 60 | The most ambitious package. It assumes 2028 repeats 2026, and it fails in an even year. The safety test rises from 51 seats to 52. |
+
+The newer model supports B. Its center with a Democratic president (56.7) sits at the top of B's band. It does not argue for C, because 2029 is the peak and the Senate shrinks after it. One fact for #80: its base of 40 seats not up in 2028 also needs Democrats to hold Minnesota in 2027. To choose B, add the label. To choose A or C, leave a comment and the author session will rewrite it. If you decide on a later day than November 8, say so, so the decision can be re-dated.
+
+**PR #76 (the merge-gate fix): nothing to do.** You approved it, and it merged on October 30.
+
+**Two smaller questions the new files raise** (not urgent):
+- Should the filibuster plan now treat the talking filibuster (D2-C) as the likely 2029 rule, with graduated cloture as the upside? (`senate-model-2028.md`, section 9)
+- Which horizon matters to you: "before 2032" (82-85% safe) or "through 2034" (46-60%)? (`2030-2034-control.md`, section 6)
+
+## 4. Where the models disagree, or the evidence is thin
+
+- **The filibuster head count conflicts between two files.** The playbook lists Jackson as for ending the filibuster, Turek and Andrews for a talking filibuster, and King as opposed. It cites a Washington Examiner count, a right-leaning source. The Senate model says no position was found for Jackson, Turek or Andrews, treats each as a 25-40% chance of voting no, and does not count King. If the playbook is right, the model's 62% for D2-F is probably too low. ([2027-28-playbook.md](2027-28-playbook.md), section 6, against `senate-model-2028.md`, section 9)
+- **Older files still use the 40-seat base.** The 2028 scenarios and #80 rest on the first, simpler estimate in [5-senate-2028.md](5-senate-2028.md). The newer model shows only 37 seats are certain. Some seat odds also differ between the two (at D+3, North Carolina 54% in the old estimate against 65% in the new one; Nevada 67% against 76%).
+- **Numbers changed between rounds.** Round 2 corrected for governors' personal popularity: in a neutral year Nevada went from 53% to 59%, Arizona from 60% to 54%, and Pennsylvania from 62% to 56%. Round 3 cut the Murkowski-caucuses-with-Democrats branch from 10% to 6%. Round 4 cut the chance of the ranked-choice repeal from 15% to 4%. Between #82 and #84 the 2029 center moved from 56.6 to 56.7 seats.
+- **Small mismatches remain.** The text says D2-F passes in 44% of neutral-year runs; the outputs table says 43%. `2030-2034-control.md` cites 13,150 runs; the outputs say 13,136. P(55+) in 2029 is 84% in one table and 85% in the chained run. None changes a conclusion.
+- **The biggest input is a judgment call.** The 2028 national mood is set at D+3, give or take 4.5 points. That is below what history's reversion would suggest (D+5 to D+9) and is a labeled assumption.
+- **The 2032 loss is heavier than history.** The model loses about 5 seats; past wave classes lost a median of 1 six years later. The model's authors argue this class is unusually deep in red states (the 2018 losses support them), but this is a contested point.
+- **Sources from the current administration.** Under `DEC-2026-10-30-01`, the analysis these agencies produce gets extra skepticism. The playbook's figure that the Medicaid agency (CMS) expects to approve about 2 in 10 state exemption requests is that agency's own projection. The gas-price forecast ($3.91 to $3.56) comes from the Energy Information Administration's October 2026 outlook. Neither has an independent check yet. The Social Security dates (2032 and 2034) come through the Congressional Research Service, an independent source. The census claim in `compounding-2029-2050.md` (that the administration wants to change who counts for seats) is from memory and is marked "verify".
+- **Thin evidence in places.** Several facts are from search summaries or headlines not opened (for example Fetterman's newer filibuster stance in `4-2029-plan.md`, Murkowski's endorsement in the governor race). A 2006 House figure differs between Brookings and the House Clerk. The model uses no polling, because none exists yet for 2028.
+
+## 5. The next research wave, ranked
+
+1. **A senator-by-senator filibuster count for the 2027 caucus.** Settle the conflict in section 4 and find the unknown positions. *Why:* it decides whether the 2029 rule is graduated cloture or a talking filibuster, and it swings D2-F from 9% to 88%.
+2. **Recheck after certification (November 18-25).** Alaska, Mississippi and Measure 2, and whether a repeal would apply in 2028. *Why:* these set the base of 37-39 certain seats and decide whether the Murkowski question exists at all.
+3. **Statehood as a 2029-30 bill.** Floor time, Puerto Rico's vote on statehood, and which election cycles the new senators fall in. *Why:* it is the largest single lever on keeping the Senate after 2032, and it only works if it passes in the first Congress.
+4. **The talking-filibuster floor-time math at about 6 holdouts.** The old estimate was 213-272 floor days against a 163-day budget. *Why:* if graduated cloture is a coin flip, this becomes the base case, and it may not fit the first Congress.
+5. **Does visible delivery in 2029-30 shrink the 2030 midterm loss? And what are the House odds in 2030 and 2032?** *Why:* this is the one lever on 2033 that policy controls. A half-size midterm loss is worth about 1.8 seats through 2033.
+6. **Which parts of each flagship can pass with 51 votes (Byrd-rule edges).** Care, housing conditions and paid leave first. *Why:* it sorts the 2029 bills between reconciliation and regular order before the bills are fixed.
+7. **The Minnesota 2027 special.** Who Klobuchar appoints, and whether Republicans recruit a serious candidate. *Why:* a full seat in every 2029 scenario, and a placeholder appointee costs about 6 points of the chance of holding it.
+8. **A written branch for a Republican presidency in 2029.** *Why:* the presidency is won in only 66% of runs on the central assumption, and the plan has no "scenario D" yet.
