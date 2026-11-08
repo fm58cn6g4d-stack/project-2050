@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated October 29, 2026 by Claude Code (stage C, step 4r).
+Updated November 8, 2026 by Claude Code (stage B, step 1).
 
 ## Standing sessions
 
@@ -11,7 +11,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
 | Lead | `session_01UQzgBx6gAsCr9hXdHVxrQy` | Project 2050: lead | October 28 (began as the stage A reset session) |
-| Reviewer | `session_01QHgvhVvafmiGMqU7Vewnst` | Project 2050: reviewer | October 26; woken every three hours by the "Project 2050 Claude reviewer (wakes standing session)" scheduled task |
+| Reviewer | `session_01UQzgBx8fyTLVyi9sHKfawa` | Project 2050: reviewer | October 29; woken by the reviewer scheduled task. The former reviewer was `session_01QHgvhVvafmiGMqU7Vewnst` (October 26 to 29) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 ## Now
@@ -23,7 +23,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | A. Reset | 3. `library/catalog.csv` and the generated name index | Light for file facts; Standard for status, aliases and rights | Done | Claude Code | PR #48, merged |
 | A. Reset | 4. Registry checker, generalized from the story builder's checks | Most capable | Done | Claude Code | PR #49, merged |
 | A. Reset | 5. `charter/outcomes.md` draft, for Espen's approval | Most capable | Done: approved by Espen | Claude Code | PR #50, merged |
-| B. Post-election update | Rebaseline the political planning scenario | Most capable | Starts after the November 3 results | — | — |
+| B. Post-election update | 1. Rebaseline the political planning scenario: results record by certainty, analysis review, 2027-28 framework with open questions, what it means for the 2029 plan | Most capable | In review: `dossiers/scenario/` (results record by certainty as of November 8, analysis review, 2027-28 framework with 12 questions, flags for D1-D9 and the stage order); SRC-0440 to 0554. Next: a light recheck after certification and the Alaska count of November 18 | Claude Code (session_01UQzgBuqtNbQNRi98DUinu5) | PR #78 |
 | C. First dossiers | 1. Dossier template; housing section 1, the problem, with its evidence register | Most capable (text extraction: Light) | Done | Claude Code | PR #53, merged |
 | C. First dossiers | 1b. Sources and evidence method: non-government sources (open-licensed texts, citation rows for licensed works); data versus analysis; analysis corroborated by independent publishers | Most capable | Done | Claude Code | PR #54, merged |
 | C. First dossiers | 2. Housing: refresh rent burden with the 2025 ACS (released Oct 29); subgroup breakdowns from the HUD report | Standard | In review: HUD subgroup breakdowns (EV-HOU-030 to 034) drafted; 2025 ACS refresh: EV-HOU-038 to 044, section 1 updated, shared-rules fixes (PR #62 notes) | Claude Code (session_01UQzgBvYjGdPE5ZxakSiAHf) | Branch `claude/acs-2025-refresh` |
@@ -36,6 +36,8 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | C. First dossiers | 7. Transportation converted as the reference dossier; template fixes | Standard to convert; Most capable for gaps | Later | Claude Code | — |
 
 ## Open PRs
+
+- Stage B step 1: the 2026 results and a 2027-28 framework (PR #78, `claude/stage-b-midterms`).
 
 - Stage C step 4b: housing section 3 refresh under `DEC-2026-10-30-02` (`claude/housing-design-refresh`).
 
@@ -72,6 +74,13 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - **Standards wording.** The data-versus-analysis and corroboration rule Espen asked for on October 28 is in `dossiers/TEMPLATE.md` and the checker. It also belongs in `charter/STANDARDS.md`, which is tier 3: proposed for the next charter PR, with Espen's stage A sign-off for `charter/decisions.md`.
 
 ## Questions for Espen
+
+0. **Stage B, the post-election update** (`dossiers/scenario/3-framework-2027-28.md`, section 7; none urgent before the lame duck ends). The five that matter most:
+   - what 2027-28 is for: laws now, a clear record, a plan ready for 2029, a protected 2028 election, or a mix;
+   - when an early deal is worth locking in a design before its dossier decides it;
+   - whether to rebaseline D1 (52-54 seats) now that 2026 produced 55-56, or after a 2028 map analysis;
+   - whether any Senate rules change happens in 2027 or waits for 2029 (D2);
+   - what 2027-28 appropriations should do to the FY2029 defense base that NSC-1A holds flat.
 
 1. **Seven housing design decisions**, one short memo each in `dossiers/home/memos/`, decided one at a time:
    - `1-help-or-homes.md`: where new rental help goes in tight and loose markets;
