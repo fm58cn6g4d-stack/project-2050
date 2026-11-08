@@ -834,14 +834,14 @@ Discretionary budget authority is CBO's timing-adjusted series, the only one CBO
 
 ### ASM-SPENDOUT
 
-Spend-out of discretionary budget authority: rough least-squares shares over four years, fit FY1993-2019.
+Spend-out of discretionary budget authority: four-year shares with OMB's FY1993-2019 timing (ground transportation taken out of nondefense), scaled per group so CBO's projected FY2029-36 budget authority gives CBO's projected outlays.
 
-- **Value:** defense 44/34/24/-4% (sum 0.98); nondefense 27/37/31/15% (sum 1.10) (share of BA by year)
-- **How much it matters:** medium: B3 would use it to turn budget authority into outlays
-- **Where:** models/tools/budget/build_data.py:299 (spendout); models/data/budget/spendout-discretionary.csv
-- **Source:** OMB Historical Tables (fit by B2)
-- **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
-- **Notes:** A placeholder until CBO's account-level spending projections are uploaded. Nondefense sums above 1 because transportation obligation limits are not discretionary budget authority.
+- **Value:** defense 44/34/24/-4% (sum 0.986; scale 1.009, fit within 0.4%); nondefense 25/36/30/10% (sum 1.004; scale 0.998, fit within 0.8%) (share of BA by year)
+- **How much it matters:** medium: turns outlays into budget authority for every discretionary provision; outlays and headline figures do not depend on it
+- **Where:** models/tools/budget/build_data.py:296 (SPEND_YEARS), 403 (CAL_YEARS), 421 (spendout_cbo); models/data/budget/spendout-discretionary-cbo.csv; read by models/tools/budget/provisions.py:351-356 (_spendout)
+- **Source:** OMB Historical Tables 5.6 and 8.7 (FY2027 Budget) for timing; CBO, Spending Projections by Budget Account (Feb 2026, publication 51142) for the level
+- **Decided by:** Strategy session (handoff after #114: carry highway and transit separately); method proposed by B2, ported by B3 (#118); unrecorded as a decision
+- **Notes:** A fit to history, not a legal spend-out rule. Highway, transit and airport outlays with no discretionary budget authority are carried as outlays on their own (ASM-ZERO-BA-OUTLAYS). The earlier history-only fit, spendout-discretionary.csv (defense 44/34/24/-4%, nondefense 27/37/31/15%, sum 1.10), is still published but no longer read by the provision library.
 
 ### ASM-ZERO-BA-OUTLAYS
 
@@ -852,7 +852,7 @@ An account counts as having no discretionary budget authority in any year its bu
 - **Where:** models/tools/budget/build_data.py:331-352 (cbo_spending_by_function); models/data/budget/cbo-spending-by-function.csv column outlays_without_ba
 - **Source:** CBO, Spending Projections by Budget Account (Feb 2026, publication 51142)
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
-- **Notes:** The rule also catches a few accounts spending earlier advance appropriations, such as broadband deployment (function 370).
+- **Notes:** The rule also catches a few accounts spending earlier advance appropriations, such as broadband deployment (function 370). The provision library carries these as outlays on their own when rebuilding CBO's discretionary outlays (models/tools/budget/provisions.py:373, cbo_discretionary_outlays).
 
 ### ASM-CBO-ACCOUNTS-VINTAGE
 
@@ -869,22 +869,22 @@ CBO's account-level spending projections, February 2026 baseline, the same vinta
 
 ### ASM-SPENDOUT-NORM
 
-The provision library sets B2's negative defense year-4 spend-out share to zero and rescales each group's shares to add to one, so a provision's budget authority is all spent in the end.
+The provision library uses the spend-out shares as stored: no negative share is zeroed and no group is rescaled to sum to one.
 
-- **Value:** defense year-4 share -4.27% set to 0; defense and nondefense shares rescaled to sum 1.0 (share of BA by year)
-- **How much it matters:** low: changes discretionary budget-authority figures only, not outlays or any headline
-- **Where:** models/tools/budget/provisions.py:339-346 (_spendout)
-- **Source:** Project method on B2's fitted shares (ASM-SPENDOUT)
+- **Value:** as stored; the defense year-4 share stays at -4.31% and defense shares sum to 0.986 (convention)
+- **How much it matters:** low: the sums are within 1.5% of one; ASM-BA-LEADS-OUTLAYS divides by the sum, so lifetime outlays are preserved
+- **Where:** models/tools/budget/provisions.py:351-356 (_spendout)
+- **Source:** Project method (B3, #118) on ASM-SPENDOUT
 - **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
-- **Notes:** Nondefense shares summed to 1.10 before rescaling (transportation obligation limits). B2 (PR #114) finds the rescaling drops the highway and transit outlays the old nondefense shares carried implicitly, which probably explains B4's -11.1% nondefense miss. The strategy session has decided to carry highway and transit separately as contract authority (see ASM-ZERO-BA-OUTLAYS) in a B3 follow-up, not to recalibrate the shares.
+- **Notes:** Until #118 this row described zeroing the negative share and rescaling to one; that rescaling dropped the highway and transit outlays the old shares carried implicitly, behind B4's -11.1% nondefense miss.
 
 ### ASM-BA-LEADS-OUTLAYS
 
 Discretionary budget authority is backed out of the model's outlays: each year's budget authority is the outlays it pays for over its spend-out; outlays after FY2056 are extended at the FY2055-56 growth rate.
 
-- **Value:** BA(t) = sum over k of share(k) x outlays(t+k) (method)
+- **Value:** BA(t) = sum over k of share(k) x outlays(t+k) / S^2, where S is the sum of the shares, so spending the BA back out gives the same lifetime outlays (method)
 - **How much it matters:** medium: sets every discretionary budget-authority and spending-cap reading; outlays stay canonical
-- **Where:** models/tools/budget/provisions.py:349-358 (spendout_ba)
+- **Where:** models/tools/budget/provisions.py:359-370 (spendout_ba)
 - **Source:** Project method (B3)
 - **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
 - **Notes:** B3 finds about $0.10T of budget authority would fall in FY2027-29, before the window (CONVENTIONS.md, Choice 3). All spend-out figures are flagged rough.
