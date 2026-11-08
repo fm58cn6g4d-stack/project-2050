@@ -98,6 +98,12 @@ class Alaska(unittest.TestCase):
     def test_republican_murkowski_wins_as_republican_in_a_red_year(self):
         self.assertEqual(m.alaska_outcome(-15.0, 'R')[0], 'R')
 
+    def test_repealed_primary_winner_faces_no_dunleavy(self):
+        import random
+        win, _, who = m.alaska_outcome(-12.0, 'R', rcv=False, rng=random.Random(1), r_primary_win=1.0)
+        self.assertEqual(who, 'M')
+        self.assertEqual(win, 'R')
+
     def test_calibration_to_2022(self):
         # 2022: D side about 45% of voters; Murkowski 43.4, Democrat 10.4 on first choices
         p, a, b = 0.45, 0.77, 0.16
@@ -141,6 +147,16 @@ class Simulation(unittest.TestCase):
         # held continuously can only fall as more elections are added
         self.assertGreaterEqual(thru[0][0], thru[1][0])
         self.assertGreaterEqual(thru[1][0], thru[2][0])
+
+    def test_tennessee_special_is_not_double_counted(self):
+        # With every 2030 Class 1 race lost, January 2031 seats are the Class 2 and 3 Democrats only:
+        # s28 minus the Class 1 Democrats held in 2029, which includes a Democratic Tennessee winner.
+        o = m.simulate_2028(13.0, n=300, seed=15)
+        for i in range(o['n']):
+            c1 = 18 + o['draws'][i]['MN-2027'] + ('TN*' in o['dwon'][i])
+            c23 = o['seats'][i] - c1
+            self.assertEqual(c23, m.CERTAIN_D_NOT_UP - 18 + o['draws'][i]['AK-2026'] + o['draws'][i]['MS-2026']
+                             + len(o['dwon'][i]) - ('TN*' in o['dwon'][i]))
 
     def test_overrides_raise_target_seats(self):
         a = m.simulate_2028(0.0, n=3000, seed=9)

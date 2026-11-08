@@ -111,7 +111,7 @@ Who wins the Alaska seat (Murkowski / the Democrat / Dunleavy or another Republi
 | Branch | Voting system | Neutral: M / D / R; D caucus | D+3 | D+6 |
 | --- | --- | --- | --- | --- |
 | R | top four + RCV | 25% / 1% / 74%; 1% | 38% / 2% / 59%; 2% | 51% / 5% / 43%; 5% |
-| R | repealed (closed primary, plurality) | <1% / 1% / 99%; 1% | <1% / 3% / 97%; 3% | 1% / 6% / 93%; 6% |
+| R | repealed (closed primary, plurality) | 30% / 1% / 69%; 1% | 30% / 3% / 67%; 3% | 31% / 6% / 63%; 6% |
 | I-D | top four + RCV | 19% / 0 / 81%; 19% | 34% / 0 / 66%; 34% | 51% / 0 / 49%; 51% |
 | I-D | repealed (closed primary, plurality) | 19% / 0 / 81%; 19% | 34% / 0 / 66%; 34% | 51% / 0 / 49%; 51% |
 | I-none | top four + RCV | 36% / 0 / 64%; 0 | 53% / 0 / 47%; 0 | 70% / 0 / 30%; 0 |
@@ -169,7 +169,7 @@ Expected Republican-held seats won: neutral 0.9; D+3 1.5; D+6 2.2; D+13 4.5.
 | --- | --- | --- | --- | --- | --- | --- |
 | 2028 | January 2029 | 56.7 | 100% | 100% | 84% | 9% |
 | 2030 | January 2031 | 54.2 | 82% | 76% | 48% | 16% |
-| 2032 | January 2033 | 49.0 | 47% | 42% | 23% | 7% |
+| 2032 | January 2033 | 49.0 | 47% | 42% | 22% | 7% |
 
 Held in every Congress from January 2029 (50+ / 55+ / 60+): the 2029-30 Congress 100% / 84% / 9%; through the 2031-32 Congress 82% / 46% / 6%; through the 2033-34 Congress 47% / 22% / 4%.
 

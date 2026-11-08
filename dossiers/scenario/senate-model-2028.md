@@ -16,7 +16,7 @@ Role: a runnable model of the 2028 Senate elections, run under several national 
   - 55 or more in 84% of runs;
   - 60 or more in 9%.
 
-  By fixed environment, across all runs: neutral 53.9 (51-57), D+3 55.4 (52-58), D+6 56.8 (54-60), R+3 52.3 (49-56). Even under a Republican president, Democrats keep control in 85% of runs.
+  By fixed environment, across all runs: neutral 53.9 (51-57), D+3 55.4 (52-58), D+6 56.8 (54-60), R+3 52.4 (49-56). Even under a Republican president, Democrats keep control in 85% of runs.
 - **Where the Senate is decided.** Control turns on New Hampshire, Georgia, Nevada, Pennsylvania and Arizona: these are the tipping-point seats for the 50th and 51st votes. Ohio rarely decides control (about 2% of runs). It matters for the 58th to 60th seats, along with Florida, Iowa and Alaska.
 - **Espen's priors, scored.**
 
@@ -109,11 +109,11 @@ The other 23 seats are safe in every environment up to D+6. Democratic: Californ
 
 | Environment | Mean | 90% range | P(≥51) | P(≥55) | P(≥58) | P(≥60) | P(Democrats control) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| R+3 | 52.3 | 49-56 | 82% | 14% | <1% | <1% | 82% |
-| Neutral | 53.9 | 51-57 | 95% | 39% | 3% | <1% | 95% |
-| D+3 | 55.4 | 52-58 | 99% | 69% | 14% | 1% | 99% |
+| R+3 | 52.4 | 49-56 | 83% | 15% | <1% | <1% | 83% |
+| Neutral | 53.9 | 51-57 | 96% | 39% | 3% | <1% | 96% |
+| D+3 | 55.4 | 52-58 | 99% | 70% | 14% | 1% | 100% |
 | D+6 | 56.8 | 54-60 | 100% | 90% | 36% | 5% | 100% |
-| 2026 repeat (D+13, a midterm-style electorate) | 59.8 | 57-63 | 100% | 100% | 91% | 56% | 100% |
+| 2026 repeat (D+13, a midterm-style electorate) | 59.9 | 57-63 | 100% | 100% | 92% | 59% | 100% |
 | **Evidence-weighted, Democratic president (66% of runs)** | **56.6** | **53-60** | 100% | 84% | 34% | 9% | 100% |
 | Evidence-weighted, Republican president (34%) | 52.8 | 49-56 | 85% | 22% | 1% | <1% | 85% |
 
@@ -155,10 +155,10 @@ The other 23 seats are safe in every environment up to D+6. Democratic: Californ
 | **Independent, caucusing with neither** (8%) | 36% / none / 64% | 53% / none / 47% | 70% / none / 30% | Neither: a free vote in a close Senate |
 | **Retires** (30%; she is 71 in 2028) | open: Democrat 3% | 9% | 19% | The winner's party |
 
-With ranked-choice voting repealed (15% assumed), she almost never wins. A Republican Murkowski would have to survive a closed primary against Dunleavy; if she lost it and ran as an independent, she would split the anti-Dunleavy vote under plurality rules. Her Democratic-side share as an independent caucusing with Democrats is an assumption: at her 2022 Republican-side share (16% rather than 12%) that branch rises to 48% neutral, 64% at D+3 and 79% at D+6.
+With ranked-choice voting repealed (15% assumed), a Republican Murkowski must first win a closed primary against Dunleavy (assumed 30%). If she wins it, she is the nominee against a Democrat and wins about 30% of runs in every environment. If she loses and runs as an independent, she splits the anti-Dunleavy vote under plurality rules and almost never wins. As an independent from the start (either independent branch) she wins 2-11% under plurality. Her Democratic-side share as an independent caucusing with Democrats is an assumption: at her 2022 Republican-side share (16% rather than 12%) that branch rises to 48% neutral, 64% at D+3 and 79% at D+6.
 
 **What it means.**
-1. **Ranked-choice voting is what keeps her viable.** If Measure 2 passes, the Murkowski question nearly disappears and the seat becomes a normal Republican hold.
+1. **Ranked-choice voting is what keeps her viable without her party.** If Measure 2 passes, her fate turns on a closed Republican primary, and as an independent she almost never wins. The Democratic-caucus route disappears.
 2. **A strong Democrat is a spoiler for a Republican Murkowski.** In the Republican branch, the stronger the Democratic candidate, the likelier Murkowski finishes third and Dunleavy wins. A Democratic Party that wanted her to survive would field a weak nominee or none (as with Osborn in Nebraska in 2024). That buys a moderate Republican, not a Democratic seat.
 3. **A caucus deal is worth least when it is likeliest to be offered.** A deal matters to Democrats only near 50-50, and with a Democratic president the model puts 50 or 51 seats at about 1%. At 56 seats her vote does not decide control. Her filibuster position also means she would not be the 51st vote for D2. She is valuable mainly as a possible Republican vote toward 60 on specific bills (permitting, appropriations, Alaska-specific items), not as a path to a rules change.
 4. **Across the branches**, the Alaska seat goes to the Democratic caucus in about 8% of evidence-weighted runs. The model counts that seat; it does not count a Murkowski switch after the election, which would be a separate gain.
