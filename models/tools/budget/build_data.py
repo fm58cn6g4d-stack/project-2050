@@ -209,6 +209,7 @@ DISC_LABELS = {  # Table 5.6 / 8.7 row label (lowercased) -> (program id, group)
     "natural resources and environment": ("natural_resources_environment", "nondefense"),
     "agriculture": ("agriculture", "nondefense"),
     "commerce and housing credit": ("commerce_housing_credit", "nondefense"),
+    "ground transportation": ("ground_transportation", "nondefense"),
     "total transportation": ("transportation", "nondefense"),
     "community and regional development": ("community_regional_development", "nondefense"),
     "total education, training, employment and social services": ("education_training_social", "nondefense"),
@@ -352,6 +353,115 @@ def cbo_spending_by_function():
             "outlays_without_ba"], rows
 
 
+CA_FUNCTION = "400"          # transportation
+CA_GROUPS = {"Federal Highway Administration": "highway_transit", "Federal Transit Administration": "highway_transit",
+             "National Highway Traffic Safety Administration": "highway_transit",
+             "Federal Motor Carrier Safety Administration": "highway_transit",
+             "Federal Aviation Administration": "airports"}
+
+
+def cbo_contract_authority():
+    """Contract authority under obligation limitations, from CBO's account file: transportation
+    (function 400) accounts with discretionary outlays and no discretionary budget authority in
+    any year, whose budget authority CBO records as mandatory under the same account. By year
+    and group (highway_transit: the Highway Trust Fund's FHWA, FTA, NHTSA and FMCSA accounts;
+    airports: FAA's grants-in-aid): accounts, mandatory contract authority, discretionary
+    outlays, and their ratio. Millions become billions exactly."""
+    rows = []
+    with open(os.path.join(CBO, SPENDING_DETAIL), newline="") as f:
+        rows = list(csv.DictReader(f))
+    dba, dout, mba = collections.Counter(), collections.Counter(), collections.Counter()
+    bureau = {}
+    for r in rows:
+        if r["function_code"] != CA_FUNCTION:
+            continue
+        ba, out = Decimal(r["budget_authority"] or 0), Decimal(r["outlays"] or 0)
+        if r["disc_or_mand"] == "Discretionary":
+            dba[r["tin"]] += abs(ba); dout[r["tin"]] += out; bureau[r["tin"]] = r["bureau"]
+        else:
+            mba[r["tin"]] += ba
+    sel = {t for t in dout if dba[t] == 0 and dout[t] > 0 and mba[t] > 0}
+    unknown = sorted(bureau[t] for t in sel if bureau[t] not in CA_GROUPS)
+    if unknown:
+        raise ValueError("contract-authority accounts with no group: %s" % unknown)
+    S = {}
+    for r in rows:
+        if r["tin"] not in sel:
+            continue
+        k = (int(r["date"].replace("FY", "")), CA_GROUPS[bureau[r["tin"]]])
+        d = S.setdefault(k, {"tins": set(), "ca": Decimal(0), "outlays": Decimal(0)})
+        d["tins"].add(r["tin"])
+        if r["disc_or_mand"] == "Discretionary":
+            d["outlays"] += Decimal(r["outlays"] or 0)
+        else:
+            d["ca"] += Decimal(r["budget_authority"] or 0)
+    b = lambda v: format((v / 1000).normalize(), "f") if v else "0"
+    out = [{"year": k[0], "group": k[1], "accounts": len(d["tins"]), "contract_authority": b(d["ca"]),
+            "outlays": b(d["outlays"]), "ca_to_outlays": "%.4f" % (d["ca"] / d["outlays"])}
+           for k, d in sorted(S.items())]
+    return ["year", "group", "accounts", "contract_authority", "outlays", "ca_to_outlays"], out
+CAL_YEARS = (2029, 2036)   # calibration years: CBO's account projections start in FY2026, the fit needs three earlier years
+
+
+def _fit(pairs, years):
+    """Least-squares shares w_k, k = 0..LAGS-1, with outlays(t) = sum_k w_k * BA(t-k)."""
+    X = [[pairs[y - k][0] for k in range(LAGS)] for y in years]
+    yv = [pairs[y][1] for y in years]
+    A = [[sum(x[i] * x[j] for x in X) for j in range(LAGS)] for i in range(LAGS)]
+    b = [sum(x[i] * v for x, v in zip(X, yv)) for i in range(LAGS)]
+    return solve(A, b)
+
+
+def _err(w, pairs, years):
+    fit = [sum(w[k] * pairs[y - k][0] for k in range(LAGS)) for y in years]
+    yv = [pairs[y][1] for y in years]
+    return 100 * (sum((f - v) ** 2 for f, v in zip(fit, yv)) / len(yv)) ** 0.5 / (sum(yv) / len(yv))
+
+
+def spendout_cbo(disc_rows, by_function):
+    """Spend-out of discretionary budget authority with its level set by CBO's own projections.
+    Timing (the shape of the shares) comes from OMB's history, FY1993-2019, as in spendout();
+    for nondefense, ground transportation is taken out of both budget authority and outlays,
+    because most of its outlays rest on mandatory contract authority. The shares are then
+    scaled by one factor per group so that, applied to CBO's projected discretionary budget
+    authority (account file, FY2026-2036), they reproduce CBO's projected outlays over
+    CAL_YEARS. For nondefense the CBO outlays leave out accounts with no budget authority in
+    the year (outlays_without_ba: highway, transit and airport grants above all), which have
+    no budget authority to spend out and are carried as outlays on their own."""
+    H = collections.defaultdict(dict)
+    for r in disc_rows:
+        if r["ba"] and r["outlays"]:
+            H[r["program"]][r["year"]] = (float(r["ba"]), float(r["outlays"]))
+    hist = {"defense": H["defense_total"],
+            "nondefense": {y: (v[0] - H["ground_transportation"][y][0], v[1] - H["ground_transportation"][y][1])
+                           for y, v in H["nondefense_total"].items() if y in H["ground_transportation"]}}
+    C = {"defense": collections.defaultdict(lambda: [0.0, 0.0]), "nondefense": collections.defaultdict(lambda: [0.0, 0.0])}
+    for r in by_function:
+        if r["disc_or_mand"] != "discretionary":
+            continue
+        g = r["category"].lower()
+        c = C[g][int(r["year"])]
+        c[0] += float(r["ba"])
+        c[1] += float(r["outlays"]) - (float(r["outlays_without_ba"]) if g == "nondefense" else 0.0)
+    hy, cy = range(SPEND_YEARS[0], SPEND_YEARS[1] + 1), range(CAL_YEARS[0], CAL_YEARS[1] + 1)
+    out = []
+    for g in ("defense", "nondefense"):
+        w = _fit(hist[g], hy)
+        cbo = {y: tuple(v) for y, v in C[g].items()}
+        fit = sum(sum(w[k] * cbo[y - k][0] for k in range(LAGS)) for y in cy)
+        scale = sum(cbo[y][1] for y in cy) / fit
+        ws = [x * scale for x in w]
+        for k in range(LAGS):
+            out.append({"group": g, "year_of_spending": k, "share": "%.4f" % ws[k],
+                        "history_share": "%.4f" % w[k], "scale": "%.4f" % scale,
+                        "sum_of_shares": "%.4f" % sum(ws), "history_years": "%d-%d" % SPEND_YEARS,
+                        "calibration_years": "%d-%d" % CAL_YEARS,
+                        "history_rmse_pct": "%.2f" % _err(w, hist[g], hy),
+                        "calibration_rmse_pct": "%.2f" % _err(ws, cbo, cy)})
+    return ["group", "year_of_spending", "share", "history_share", "scale", "sum_of_shares",
+            "history_years", "calibration_years", "history_rmse_pct", "calibration_rmse_pct"], out
+
+
 def render(cols, rows):
     buf = io.StringIO()
     w = csv.DictWriter(buf, fieldnames=cols, lineterminator="\n", extrasaction="raise")
@@ -373,7 +483,10 @@ def build():
     dcols, drows = omb_discretionary()
     files["omb-discretionary.csv"] = render(dcols, drows)
     files["spendout-discretionary.csv"] = render(*spendout(drows))
-    files["cbo-spending-by-function.csv"] = render(*cbo_spending_by_function())
+    sf_cols, sf_rows = cbo_spending_by_function()
+    files["cbo-spending-by-function.csv"] = render(sf_cols, sf_rows)
+    files["spendout-discretionary-cbo.csv"] = render(*spendout_cbo(drows, sf_rows))
+    files["cbo-contract-authority.csv"] = render(*cbo_contract_authority())
     files["deflators.csv"] = render(*deflators(tables["cbo-economic-historical.csv"],
                                                tables["cbo-economic.csv"],
                                                tables["cbo-long-term-economic.csv"]))
