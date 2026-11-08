@@ -75,7 +75,13 @@ def esc(s):
 
 # ---------------------------------------------------------------- the model file
 def generate_model(tmp):
-    """Rebuild fiscal-model.json the way run-all.sh does (steps 0, 1 and 6), in tmp."""
+    """Rebuild fiscal-model.json the way run-all.sh does (steps 0, 1 and 6), in tmp.
+
+    The scripts run from tmp/tools with tmp/data linked to models/data, so the
+    fiscal model's data_path() finds data files (e.g. budget/treasury-maturity.csv)."""
+    os.symlink(os.path.join(ROOT, "models", "data"), os.path.join(tmp, "data"))
+    tmp = os.path.join(tmp, "tools")
+    os.mkdir(tmp)
     for f in ("ledger-build.py", "inputs.py", "fiscal-profiles.py", "fiscal-model.py", "climate-integration.py"):
         shutil.copy(os.path.join(MODEL_TOOLS, f), tmp)
     env = dict(os.environ, P2050_INPUTS=os.path.join(ROOT, "models", "data", "inputs"))
