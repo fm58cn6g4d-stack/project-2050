@@ -81,7 +81,7 @@ Each row is an interpretation. Its supporting and cutting data come from section
 
 **What most readings share.** Nearly every analyst, left to right, agrees on three things: voters were angry about prices; Trump's standing was low and his choices (tariffs, the war) were blamed; and the result punished the governing party more than it endorsed the opposition. They split on what Democrats should do with it: deliver on costs and stay broad (readings 2, 8, 13), pursue accountability (6), or move boldly left (12). That split matters for the 2027-28 framework (`3-framework-2027-28.md`, question 3).
 
-**Trump's own account.** Voters "just weren't inspired"; "a mood in the air, I guess"; [SRC-0508]; he posted that he would have won "IN A LANDSLIDE" had he been on the ballot [SRC-0554]. He partly blamed Iran and called Vance's war comment "largely true" while saying the war was "worth it" (reported by CBS, seen only in a search summary).
+**Trump's own account.** Voters "just weren't inspired"; "a mood in the air, I guess" [SRC-0508]; he posted that he would have won "IN A LANDSLIDE" had he been on the ballot [SRC-0554]. He partly blamed Iran and called Vance's war comment "largely true" while saying the war was "worth it" (reported by CBS, seen only in a search summary).
 
 ## 4. Where a headline outruns its own numbers
 
