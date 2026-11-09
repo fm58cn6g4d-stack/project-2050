@@ -64,7 +64,7 @@ The project's budget rule says lasting programs must be paid for from 2040 on. H
 - **The plan's own building is small next to the shortage.** About 1.3 million homes the plan pays for is about 9% of the national goal; most homes will still be built privately (HOU-3C.04).
 - **It doesn't promise to end homelessness.** For a family that gets a voucher, the effect is large and well tested. How much the national count falls is unknown, because people keep losing homes (section 7, 1.5).
 - **The 2040 gap is real** and not yet paid for (above).
-- **Some rules still take money back.** A worker on a voucher in the earned-income credit's phase-out range keeps about 25 cents of each added dollar, as under today's law, and free child care raises voucher rent (section 7, 3.1-3.2).
+- **Some rules still take money back.** A single parent with two children on a voucher and SNAP, earning in the earned-income credit's phase-out range, keeps about 25 cents of each added dollar before payroll and income taxes, as under today's law, and free child care raises voucher rent (section 7, 3.1-3.2).
 - **Protections need a law.** The national voucher protection, the mixed-status protection and Housing First in statute need a regular bill, not only the budget bill (section 4, consistency notes). Until it passes, they are not in place.
 - **What would change our minds** is written down. If, despite search help and full fees, lease-up stays below 70% after 18 months, the plan leans further toward homes with help attached. Every trigger starts a published review, and no review takes help away from a household (section 8; `DEC-2026-11-09-15`).
 
@@ -169,7 +169,7 @@ Every number in part 1, with the section that carries it and the evidence behind
 | FY2040 gap about $12 billion, $19 billion with the capital tail; wider entry roughly $7-12 billion more; passes from FY2041 | 6 | `6-cost.md` 3.3; `DEC-2026-11-09-09` |
 | 90% leased assumed; 67% for Emergency Housing Vouchers after about two years | 6, 7 | `6-cost.md` 1.4; EV-HOU-345 (Economy, Finnigan and Espinoza, UC Berkeley, 2023; C) |
 | 57% of voucher searches succeeded in 2022 | 7 | EV-HOU-395 (NYU Furman Center, Ellen, O'Regan and Strochak, 2025; C) |
-| About 25 cents kept of each added dollar in the earned-income credit's phase-out range | 7 | `7-validation.md` 3.2; EV-HOU-410, EV-HOU-416 to 418 |
+| About 25 cents kept of each added dollar: a single parent with two children, on a voucher and SNAP, in the earned-income credit's phase-out range, before payroll and income taxes | 7 | `7-validation.md` 3.2; EV-HOU-410, EV-HOU-416 to 418 |
 | Below 70% leased at 18 months as the trigger; no review cuts a household's help | 8 | `8-change-our-minds.md` 1.1; `DEC-2026-11-09-15` |
 
 Part 2's numbers are the same ones, plus: 31% higher earnings for children who moved before 13 [EV-HOU-090]; one subsidized home adding a third to a half of a home [EV-HOU-114]; landlord refusal in three of five metros [EV-HOU-093]; about 2.4 million voucher households today [EV-HOU-370]; and the 2023 real rent rise [EV-HOU-006].
