@@ -1,6 +1,6 @@
 # Memo 12: Aging in place with dignity
 
-Role: decision memo for Espen, part 2 of the section 3 addendum (`../3-design.md`, "Addendum, part 2: repair and renovation; aging in place"). Status: awaiting Espen's decision; four parts, each decided on its own. The research is in `../research-repair-aging.md`, sections 6 to 9. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Costs and counts marked "judgment" are this dossier's estimates, not official scores.
+Role: decision memo for Espen, part 2 of the section 3 addendum (`../3-design.md`, "Addendum, part 2: repair and renovation; aging in place"). Status: decided by Espen (November 9, 2026; `DEC-2026-11-09-22`): part 1 B, part 2 B at minimum (part 2 C noted for the care dossier), part 3 B, part 4 C (part 4 B to follow if the GAO study warrants), and both smaller points as written. Section 4 writes them as HOU-13.01 to .04, HOU-12.04, HOU-3C.06 and HOU-12.01's accessory-unit loans. The research is in `../research-repair-aging.md`, sections 6 to 9. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Costs and counts marked "judgment" are this dossier's estimates, not official scores.
 
 ## The question
 
