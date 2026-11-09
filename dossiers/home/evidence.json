@@ -8543,6 +8543,338 @@
   ]
  },
  {
+  "id": "EV-HOU-340",
+  "statement": "HUD's workforce fell by about 29 percent between December 2024 and December 2025, from about 8,800 to about 6,300 employees; over half of those who left had at least 10 years at HUD, including 41 percent with more than 20, and HUD hired 193 employees in 2025.",
+  "claim": "data",
+  "figures": [
+   "29",
+   "8,800",
+   "6,300",
+   "10",
+   "41",
+   "20",
+   "193"
+  ],
+  "source": "SRC-1440",
+  "anchor": [
+   "HUD\u2019s workforce decreased by about 29 percent between December 2024 and December 2025, from about 8,800 to about 6,300 employees",
+   "Over half of the separated employees had worked at HUD for at least 10 years, including 41 percent who had over 20 years of service",
+   "from January 2025 to December 2025, HUD hired 193 employees"
+  ],
+  "locator": "Section 'HUD Lost 29 Percent of Its Staff', p. 8 and fig. 2",
+  "grade": "A",
+  "fact_date": "2025-12",
+  "recheck": "2027-10-15",
+  "context": "GAO (legislative branch), October 2026, counting OPM workforce data on the second Trump administration's 2025 reductions. HUD did not answer GAO's questions. Data, graded A.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-341",
+  "statement": "In fiscal year 2024, more than one-quarter of VA medical centers with two or more HUD-VASH case managers had at least 20 percent of those positions unfilled, and annual case manager turnover ran from 20 to 26 percent in fiscal years 2020-2024; staffing shortfalls reduced services and delayed admissions.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "20",
+   "26"
+  ],
+  "source": "SRC-1441",
+  "anchor": [
+   "In fiscal year 2024, more than one-quarter of medical centers with two or more case managers had at least 20 percent of these positions unfilled",
+   "annual case manager turnover ranged from 20 percent to 26 percent in fiscal years 2020\u20132024",
+   "The effects of insufficient staffing include reduced services for veterans and delays in admitting new participants."
+  ],
+  "locator": "What GAO Found (product page highlights)",
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2027-03-30",
+  "context": "GAO (legislative branch), March 2026, analyzing VA staffing data for fiscal years 2020-2024 (first Trump and Biden administrations). Data, graded A.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-342",
+  "statement": "Of 174,045 instances of eligible veterans not being referred to HUD-VASH in 2020-2024, VA did not record the reason in 151,296 (87 percent), so it cannot measure how much case-manager shortages keep veterans out.",
+  "claim": "data",
+  "figures": [
+   "174,045",
+   "151,296",
+   "87"
+  ],
+  "source": "SRC-1441",
+  "anchor": [
+   "Of 174,045 instances of veterans not being referred to the program in 2020\u20132024, VA did not document the reason in 151,296 (87 percent), according to GAO\u2019s analysis."
+  ],
+  "locator": "What GAO Found (product page highlights)",
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2027-03-30",
+  "context": "GAO, March 2026. Data, graded A.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-343",
+  "statement": "HUD estimated calendar-2026 administrative fees for Housing Choice Vouchers at 85% proration of what housing agencies are eligible for; Emergency Housing Voucher fees were funded at the full rate and not prorated.",
+  "claim": "data",
+  "figures": [
+   "2026",
+   "85%"
+  ],
+  "source": "SRC-1442",
+  "anchor": [
+   "Administrative fees for CY 2026 were estimated at 85% proration.",
+   "The Emergency Housing Voucher (EHV) program ongoing fees are funded at the HCV\nprogram Column A rate and will not be prorated in CY 2026."
+  ],
+  "locator": "Administrative fee narrative, p. 1",
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-02-01",
+  "context": "HUD notice, second Trump administration, 2026; the proration follows from the FY2026 appropriation Congress passed. NAHRO reported an 86% estimate in August 2026. Data, graded A.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-344",
+  "statement": "A year after Emergency Housing Vouchers were awarded, 87% were leased or issued; more than 26,000 households had leased and nearly 35,000 were searching, and the average time from issuance to lease was 77 days.",
+  "claim": "data",
+  "figures": [
+   "87%",
+   "26,000",
+   "35,000",
+   "77"
+  ],
+  "source": "SRC-1443",
+  "anchor": [
+   "In the last year, EHVs have helped more than 26,000 households secure permanent housing, and nearly 35,000 are searching for a unit or completing the leasing process. 87% of EHVs have been either leased or issued , and on average, the time between an EHV being issued to leasing a home is 77 days."
+  ],
+  "grade": "A",
+  "fact_date": "2022-07",
+  "recheck": "2027-07-01",
+  "context": "USICH announcement, Biden administration, July 2022, with a stake in presenting the program well; the counts come from HUD's EHV dashboard. 'Leased or issued' counts vouchers still searching; the leased share alone was about a third of 70,000 (26,000). Data.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-345",
+  "statement": "As of February 2023, 67 percent of awarded Emergency Housing Vouchers were leased; 129 of 610 housing agencies had leased less than half of their vouchers, and only 62 had leased all of them.",
+  "claim": "data",
+  "figures": [
+   "2023",
+   "67",
+   "129",
+   "610",
+   "62"
+  ],
+  "source": "SRC-1444",
+  "anchor": [
+   "As of February 21, 2023, 67 percent of awarded EHVs were leased",
+   "More than one fifth of PHAs that were awarded EHVs\u2014129 of 610 PHAs\u2014had leased less than half of their total EHV authority.",
+   "Only 62 PHAs have successfully managed to lease all of their EHVs."
+  ],
+  "locator": "Section on lease-up rates, figure 2",
+  "grade": "C",
+  "fact_date": "2023-02",
+  "recheck": "2027-07-01",
+  "context": "Terner Center (UC Berkeley), March 2023, reading HUD's EHV dashboard; independent of the administration that ran the program. Data from HUD's counts, graded C as a secondary tabulation.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-346",
+  "statement": "Emergency Housing Vouchers, 70,000 vouchers allocated to 613 housing agencies in May 2021, helped more than 60,000 households into housing; as of April 2025, 59,323 were still leased. Interviewed agencies credited partnerships with Continuums of Care, existing case managers, separate waiting lists, at least 120 days to search, self-certification of documents and income, pre-inspection and higher payment standards.",
+  "claim": "analysis",
+  "figures": [
+   "70,000",
+   "613",
+   "2021",
+   "60,000",
+   "2025",
+   "59,323",
+   "120"
+  ],
+  "source": "SRC-1448",
+  "anchor": [
+   "In May 2021, HUD allocated 70,000 tenant-based vouchers to 613 public housing authorities (PHAs) across the country. The EHV program has helped move more than 60,000 households into housing, and as of April 2025, 59,323 vouchers are still leased.",
+   "the separate waiting lists for the EHV program, the extension of the minimum initial search term to at least 120 days, self-certification of identity documents and income during applications, preinspection of units, and a higher payment standard for EHVs."
+  ],
+  "locator": "Project summary and key findings",
+  "grade": "C",
+  "fact_date": "2025-04",
+  "recheck": "2027-04-29",
+  "context": "Urban Institute (center-left research organization), April 2025: HUD counts plus 23 interviews in six communities. The counts are data; which features helped is the interviewees' account (analysis).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-345",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-344",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-347",
+  "statement": "Although the number of vouchers rose slightly from 2010 to 2016, the number of landlords in the Housing Choice Voucher program fell from just over 700,000 to around 640,000, raising vouchers per landlord from 2.6 to 3.1.",
+  "claim": "data",
+  "figures": [
+   "2010",
+   "2016",
+   "700,000",
+   "640,000",
+   "2.6",
+   "3.1"
+  ],
+  "source": "SRC-1445",
+  "anchor": [
+   "although the total number of vouchers increased slightly between 2010 and 2016, the number of landlords decreased from just over 700,000 to around 640,000, resulting in an overall increase in the number of vouchers per landlord from 2.6 vouchers per landlord in 2010 to 3.1 vouchers per landlord in 2016."
+  ],
+  "locator": "Section 3.1, Landlord Participation Trends",
+  "grade": "A",
+  "fact_date": "2016",
+  "recheck": "2027-11-01",
+  "context": "HUD PD&R study, first Trump administration, 2019, counting HUD's administrative (PIC) records. Data, graded A. The same study's interviews found housing agency staff named payment levels and paperwork, more than attitudes to tenants, as why landlords leave.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-348",
+  "statement": "In the Rental Assistance Demonstration evaluation's tenant survey, 82 percent of respondents stayed at the same property through conversion; after conversion 75 percent were back in their original unit, 92 percent in the original property, and just over 2 percent were no longer in subsidized housing.",
+  "claim": "data",
+  "figures": [
+   "82",
+   "75",
+   "92",
+   "2"
+  ],
+  "source": "SRC-1446",
+  "anchor": [
+   "we found that 82 percent of all respondents remained in the same throughout the RAD conversion process",
+   "75 percent were back in their original unit, 92 percent were in the original property, and almost 98 percent were receiving rental assistance of some kind",
+   "Just over 2 percent of respondents reported they were no longer in subsidized housing."
+  ],
+  "locator": "Tenant Relocation, pp. 19-20",
+  "grade": "C",
+  "fact_date": "2019",
+  "recheck": "2027-11-01",
+  "context": "HUD-commissioned evaluation (Econometrica), first Trump administration, 2019. A survey of 298 residents of 18 early conversions, with a 31% enrollment rate; NLIHC (2019) counted 13 of the 18 in the South and notes the sample may not represent later conversions. HUD's data could not track movers. Survey data, graded C for the small, unrepresentative sample.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-349",
+  "statement": "In a 2023 survey of homeless services workers, 55 percent of full-time respondents earned under $50,000 a year, three in four said their organizations were understaffed, and 71 percent said high turnover was an issue at their jobs.",
+  "claim": "data",
+  "figures": [
+   "55",
+   "50,000",
+   "71"
+  ],
+  "source": "SRC-1447",
+  "anchor": [
+   "Of those responding (and working at leady 35 hours per week), 55 percent were making under $50,000 per year.",
+   "Three out of every four workers indicated that their organizations/agencies were understaffed",
+   "71 percent of respondents said that this was an issue at their jobs."
+  ],
+  "locator": "Salaries; Difficult Work Environments",
+  "grade": "C",
+  "fact_date": "2023",
+  "recheck": "2027-12-01",
+  "context": "National Alliance to End Homelessness (advocacy organization), December 2023: a convenience survey of its own networks, not a random sample, and mostly college-educated respondents. Its summary also says 55 percent earned under $55,000; the salary table gives under $50,000, used here. Data with a stake in the answer, graded C.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-350",
+  "statement": "The first round of Emergency Rental Assistance set aside $0.800 billion for governments in tribal areas, allocated in proportion to FY2020 Native American Housing Block Grant payments; the second round had no tribal set-aside.",
+  "claim": "data",
+  "figures": [
+   "$0.800 billion",
+   "FY2020"
+  ],
+  "source": "SRC-0304",
+  "anchor": [
+   "$0.800 billion was set aside for governments in tribal areas, with individual\ngovernment allocations distributed in proportion to relative payments made under\nthe Native American Housing Block Program in FY2020;",
+   "ERA-2 did not include a tribal set-aside"
+  ],
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-01",
+  "context": "CRS (nonpartisan legislative-branch agency), January 2023, summarizing the enacted laws. Data.",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-351",
+  "statement": "A housing agency may use for project-based vouchers not more than 20 percent of its authorized units, plus up to an additional 10 percent for homeless families, veterans, supportive housing and areas where vouchers are difficult to use.",
+  "claim": "data",
+  "figures": [
+   "20",
+   "10"
+  ],
+  "source": "SRC-1449",
+  "anchor": [
+   "a public housing agency may use for project-based assistance under this paragraph not more than 20 percent of the authorized units for the agency.",
+   "A public housing agency may use up to an additional 10 percent of the authorized units for the agency for project-based assistance under this paragraph"
+  ],
+  "locator": "42 U.S.C. 1437f(o)(13)(B)(i)-(ii)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "context": "Primary law, as amended through 2026.",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-352",
+  "statement": "A family in a project-based voucher unit may move at any time after 12 months and must be given tenant-based help, but if none is immediately available the agency may meet the duty by giving the family priority for the next voucher that becomes available.",
+  "claim": "data",
+  "figures": [
+   "12"
+  ],
+  "source": "SRC-1449",
+  "anchor": [
+   "may move from the housing at any time after the family has occupied the dwelling unit for 12 months.",
+   "such requirement may be met by providing the family priority to receive the next voucher or other tenant-based rental assistance amounts that become available"
+  ],
+  "locator": "42 U.S.C. 1437f(o)(13)(E)(i)-(ii)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "context": "Primary law, as amended through 2026.",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
   "id": "EV-HOU-370",
   "statement": "At the end of 2023, 2404197 Housing Choice Voucher households were reported in 2752351 voucher units, 84% occupied; average HUD spending per voucher unit was $1068 a month.",
   "claim": "data",

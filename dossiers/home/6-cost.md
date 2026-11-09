@@ -11,12 +11,12 @@ Role: section 6 of the housing dossier. It prices each provision of section 4 (`
 
 ## In brief
 
-1. **The housing plan costs about $0.57 trillion over FY2030-39 with tax credit option B, or $0.60 trillion with option D** (central; range about $0.45-0.78 trillion). That is about $0.13 trillion below what the budget model now books for housing: $0.71 trillion, the ledger's $0.56 trillion plus the $0.147 trillion of HOU-4D and the housing-agency fee allowance that the recovery budget adds. The window falls because the new awards lease up over months rather than at once, the one-time $85 billion package (HOU-1A) is replaced by a smaller start and a standing fund, stage 2 starts in 2034 rather than 2030, and the credits are narrower than the legacy package.
-2. **At maturity it costs more than the model books.** In FY2040 the plan's permanent housing lines cost about $77 billion (0.14% of GDP), against the $65 billion the model carries. Stage 3 for disabled renters (about $9 billion in FY2040, $14 billion by FY2042), the standing emergency fund (about $6 billion), and stage 2 at its true timing make up most of the difference. Capital money still being spent after FY2039 adds about $16 billion in FY2040, falling to zero by FY2043.
+1. **The housing plan costs about $0.58 trillion over FY2030-39 with tax credit option B, or $0.61 trillion with option D** (central; range about $0.46-0.81 trillion). That is about $0.10-0.12 trillion below what the budget model now books for housing: $0.71 trillion, the ledger's $0.56 trillion plus the $0.147 trillion of HOU-4D and the housing-agency fee allowance that the recovery budget adds. The window falls because the new awards lease up over months rather than at once, the one-time $85 billion package (HOU-1A) is replaced by a smaller start and a standing fund, stage 2 starts in 2034 rather than 2030, and the credits are narrower than the legacy package.
+2. **At maturity it costs more than the model books.** In FY2040 the plan's permanent housing lines cost about $79 billion (0.15% of GDP), against the $65 billion the model carries. Stage 3 for disabled renters (about $9 billion in FY2040, $14 billion by FY2042), the standing emergency fund (about $6 billion), and stage 2 at its true timing make up most of the difference. Capital money still being spent after FY2039 adds about $16 billion in FY2040, falling to zero by FY2043.
 3. **Fit with the fiscal rule.**
    - The fiscal model's decided program (scenario DEC) already fails the maturity test by 0.13% of GDP in FY2040, before HOU-4D or any of this section's new costs.
    - The adopted recovery architecture passes it with a margin of $4.5 billion in FY2040, and only that year is tight.
-   - Swapped into it, this section's central housing costs use up that margin. FY2040 then fails by about $7 billion counting the permanent lines alone, or $23 billion with the capital tail. From FY2041 the test passes again, by about $25 billion, and by more each year after.
+   - Swapped into it, this section's central housing costs use up that margin. FY2040 then fails by about $9 billion counting the permanent lines alone, or $25 billion with the capital tail. From FY2041 the test passes again, by about $23 billion, and by more each year after.
    - The high case fails FY2040 and FY2041. The low case passes.
    - So housing's new permanent costs are not yet paid for in FY2040. The financing settlement has to cover them, or the timing has to change (questions 1 and 5).
 4. **Stage 3 checks out at the lead's rough figure.** On HUD's 2023 counts, about 0.5-0.8 million households qualify if the stage covers people under 62 with severe housing problems. Fully enrolled, they cost about $14 billion a year in FY2042 dollars (range $8-26 billion). If stage 3 also covers disabled people 62 and over, the count could roughly double, and it is unpriced.
@@ -30,10 +30,10 @@ Role: section 6 of the housing dossier. It prices each provision of section 4 (`
 | Rent subsidy per leased household, FY2030 | $17,000 | $15,500 | $18,500 | HUD's 2023 spending per voucher unit, $1068 a month (about $12,800 a year) [EV-HOU-370], grown at 4% a year to 2030. That lands within 1% of the legacy planning figure ($15,200 in FY2026, growing 3%; `legacy/domains/domain-housing.md`, HOU-4A). The range is judgment: price growth of 2.3% to 5% a year from 2023. The account grew 34% in four years to FY2023 [EV-HOU-187] |
 | Growth after 2030 | 3% a year | 2.3% (CPI, `ASM-CPI-PATH`) | 4% | Legacy planning input; range is judgment |
 | Share of awards leased at steady state | 90% | 84% | 98% | National vouchers run 84% occupied [EV-HOU-370]. Section 5's full fees, search help, over-issue and reallocation should do better (judgment) |
-| Time from award to lease | 6 months | 9 | 3 | Emergency Housing Vouchers took 77 days from issuance to lease, but only 67% were leased after almost two years (section 5, 2.2). The central figure is judgment |
-| Housing agency fees | 8.1% of the subsidy, plus a $750 issuance fee per award | 7%, $500 | 10%, $1,000 | The legacy fee allowance ($12.2 billion on $150 billion; `recovery-adoption.json`, `housing_admin_basis`). Section 5 requires fees in full, never prorated; HUD now prorates regular fees at 85% (section 5, 2.2). If the legacy 8.1% reflects prorated fees, full fees are about 9.5%, inside the high case. The issuance fee is judgment |
+| Time from award to lease | 6 months | 9 | 3 | Emergency Housing Vouchers took 77 days from issuance to lease [EV-HOU-344], but only 67% were leased after almost two years [EV-HOU-345]. The central figure is judgment |
+| Housing agency fees | 8.1% of the subsidy, plus a $750 issuance fee per award | 7%, $500 | 10%, $1,000 | The legacy fee allowance ($12.2 billion on $150 billion; `recovery-adoption.json`, `housing_admin_basis`). Section 5 requires fees in full, never prorated; HUD now prorates regular fees at 85% [EV-HOU-343]. If the legacy 8.1% reflects prorated fees, full fees are about 9.5%, inside the high case. The issuance fee is judgment |
 | Search help (HOU-4.07) | $2,000 per new award and per reissue (10% of leased households a year) | $1,000 | $3,500 | Judgment, pending the design research section 4 still owes. Includes section 5's landlord damage and vacancy fund |
-| Award timing | R2 signed about January 14, 2030; first awards from April 2030; 250,000 in each of FY2030-33 | | | Section 5's central calendar date; awards within six months of enactment |
+| Award timing | R2 signed about January 14, 2030; first awards from April 2030; 250,000 in each of FY2030-33 | | | Section 5's calendar: the two middle central runs finish R2 on October 30, 2029 and January 14, 2030. This section takes the later one, the cautious choice for 2030's lease-up. If R2 is signed on October 30, 2029, awards start about January 2030: that adds about $0.5 billion to HOU-4A's window cost and changes nothing from FY2034 on |
 
 ### 1.2 The table
 
@@ -54,18 +54,22 @@ FY2030-39 outlays in billions, central (low-high). "BA" is budget authority. FY2
 | HOU-8.01 Social housing pilot, equity | Mandatory, R2 | 10 | 9 | 1 | Time-limited | Legacy |
 | HOU-9A.01 Small federal builder, capital | Mandatory, R2 (capital); regular bill (the corporation) | 5 (2-20) | 5 | 0 | Time-limited capital; its loans repay | Placeholder, judgment: the legacy file leaves it unscored |
 | HOU-4.10 Recovery housing, 2030-34 | Mandatory, R2, time-limited | 1.5 | 1.5 | 0 | Appropriations after 2034 if renewed | Placeholder, judgment; no evidence on per-place cost in the register |
-| HOU-4.12 HUD services backstop | Mandatory, R2, 2030-39; appropriations after | 6 | 6 | 1 | Permanent at about $0.7 billion as priced, but as appropriations | Placeholder, judgment (section 2.3) |
-| **Spending, total** | | | **473 (373-637)** | **78 with the capital tail; 62 permanent** | | |
+| HOU-4.12 HUD services backstop | Mandatory, R2, 2030-39; appropriations after | 6 | 6 | 1 | Permanent at about $0.7 billion as priced, but as appropriations | Placeholder, judgment (section 2.3); includes peer-specialist training and navigator shortfall money (section 5, 2.6) |
+| Payment standards up to 120% where lease-up is low (section 5, 2.2) | Inside HOU-4A, HOU-4D and HOU-4.08 | Equal to outlays | 7 (2-20) | 2 (0.4-5) | Permanent | Judgment: about a quarter of awards in low lease-up markets, with payment limits about 10% higher there, raise the rent subsidy by about 3% overall (1-6%). The subsidy rises more than the limit, because the tenant's share is fixed by income |
+| Inspector general set-aside for audits of the new programs (section 5, section 7) | Mandatory, R2 | $50 million a year, indexed | 0.6 (0.3-1.1) | 0.1 | Permanent | Judgment |
+| Federal administration, systems and evaluation set-aside (section 5, 2.1) | Mandatory, R2, available until spent | 0.5% of housing's program outlays | 2 (1-7) | 0.4 | Permanent | Judgment: priced as added money, not carved out of the programs (range 0.25-1%) |
+| Interest on late first payments to landlords (section 5, 2.3) | Inside HOU-4.07 | — | Under 0.1 | — | — | Judgment: a penalty that costs only if HUD or agencies pay late; not in the totals |
+| **Spending, total** | | | **483 (376-665)** | **80 with the capital tail; 64 permanent** | | |
 | HOU-2.01 Tax credits, option B | Revenue, R2 | None (a revenue loss) | 100 (80-120) | about 15 (12-22) | Permanent for the low-income credit | Section 4 |
 | HOU-2.01 Tax credits, option D | Revenue, R2 | None | 122 (102-142) | about 16 (13-24) | As B, plus trial credits claimed to about 2048 | Section 4 |
-| **Housing, with option B** | | | **573 (453-757)** | **93 (67-139)** | | |
-| **Housing, with option D** | | | **595 (475-779)** | **94 (68-140)** | | |
+| **Housing, with option B** | | | **583 (456-785)** | **95 (68-146)** | | |
+| **Housing, with option D** | | | **605 (478-807)** | **96 (69-147)** | | |
 
 **Provisions with no cost of their own.** HOU-4.01 to HOU-4.06, HOU-4.09, HOU-4.11, HOU-5.02, HOU-6.02, HOU-7B.01 and HOU-3C.03 are rules, conditions or regular-bill items. Their costs, if any, sit in the rows above. HOU-4.05's neighborhood payment limits change the cost per award, and the register has no national estimate of by how much (section 4).
 
 **Revenue effects.** HOU-2 is the only revenue line. The construction loans' repayments and interest are inside their subsidy cost under credit reform (legacy file). No offsetting savings are counted anywhere: not shelter or Medicaid savings from Housing First, which the National Academies advise not to expect except perhaps among the heaviest users [EV-HOU-315] [EV-HOU-318], and not lower spending on homelessness programs. That is CBO's practice for savings outside the bill's own accounts, and the cautious choice.
 
-**FY2029, disclosed.** Housing puts nothing in R1, so its FY2029 line is $0 in mandatory money. HUD's readiness work in 2029 runs on appropriations and the agency rebuild (CAP-7S, CAP-7; section 5). If Espen approves section 5's readiness tranche in R1 (section 5, question 1), it would be a FY2029 line of roughly $0.5-1 billion (judgment, unpriced) in R1's own window, FY2029-38.
+**FY2029, disclosed.** Housing puts nothing in R1, so its FY2029 line is $0 in mandatory money. HUD's readiness work in 2029 runs on appropriations and the agency rebuild surge (CAP-7S; CAP-7 is marked declined; section 5). If Espen approves section 5's readiness tranche in R1 (section 5, question 1), it would be a FY2029 line of roughly $0.5-1 billion (judgment, unpriced) in R1's own window, FY2029-38.
 
 ### 1.3 How the rental help lines are built
 
@@ -136,8 +140,8 @@ FY2030-39 outlays in billions, central (low-high). "BA" is budget authority. FY2
 
 - **Fees in full, never prorated, with an issuance fee** (section 5, 2.2) are inside HOU-4A, HOU-4D and HOU-4.08: about $12 billion, $7 billion and $1 billion over the window. That is 8.1% of the subsidy plus $750 an award.
 - If "in full" means the unprorated rate and the legacy allowance was set at prorated rates, the fee is about 9.5%. That adds about $2.5 billion over the window and $0.7 billion a year at maturity (this section's arithmetic; inside the high case).
-- **HUD's own staff** are in the agency rebuild (CAP-7S, CAP-7), not here (section 4, HOU-4A.02).
-- Section 5's proposal to set aside a share of each new mandatory program for federal administration, systems and evaluation is **unpriced**. If carved out of the amounts above, it adds nothing. If added, 0.5% of housing's mandatory outlays would be about $2.5 billion over the window (judgment).
+- **HUD's own staff** are in the agency rebuild (CAP-7S), not here (section 4, HOU-4A.02; section 5 notes CAP-7 is marked declined).
+- Section 5's set-aside of each new mandatory program for federal administration, systems and evaluation is priced as added money: 0.5% of housing's program outlays, about $2.4 billion over the window (judgment; section 1.2). If it is carved out of the programs instead, it adds nothing and buys slightly less help.
 
 ### 2.5 The guarantee from 2037
 
@@ -172,23 +176,23 @@ Replace the model's housing paths with this section's, and leave everything else
 
 | FY | Model's housing | This section, central (B) | Difference | Recovery budget's general-fund balance, adjusted | Test |
 | --- | --- | --- | --- | --- | --- |
-| 2039 | 88.9 | 90.0 | +1.1 | 138.5 (inside the envelope years) | Not a maturity year |
-| 2040 | 65.2 | 93.1 (76.7 permanent) | +27.9 (+11.5) | **+23.4 (+7.0 permanent only)**, 0.04% (0.01%) of GDP | **Fails** |
-| 2041 | 67.5 | 91.5 | +24.1 | −25.5 | Passes |
-| 2042 | 69.8 | 88.4 | +18.6 | −78.1 | Passes |
-| 2045 | 77.2 | 93.5 | +16.2 | −205.6 | Passes |
-| 2056 | 110.8 | 130.1 | +19.4 | −479.2 | Passes |
+| 2039 | 88.9 | 91.9 | +3.0 | 140.3 (inside the envelope years) | Not a maturity year |
+| 2040 | 65.2 | 95.1 (78.8 permanent) | +30.0 (+13.6) | **+25.4 (+9.1 permanent only)**, 0.05% (0.02%) of GDP | **Fails** |
+| 2041 | 67.5 | 93.8 | +26.3 | −23.3 | Passes |
+| 2042 | 69.8 | 90.7 | +20.9 | −75.8 | Passes |
+| 2045 | 77.2 | 96.0 | +18.7 | −203.2 | Passes |
+| 2056 | 110.8 | 133.6 | +22.8 | −475.7 | Passes |
 
 Billions. The adjusted balance is the recovery budget's FY figure plus the difference; negative passes.
 - **Low case:** FY2040 passes, at −$2 billion.
-- **High case:** FY2040 fails by $69 billion (0.13% of GDP) and FY2041 by $24 billion. It passes from FY2042.
+- **High case:** FY2040 fails by $76 billion (0.14% of GDP) and FY2041 by $31 billion. It passes from FY2042.
 - **Option D** adds about $1 billion a year to option B through 2047.
-- **Against the fiscal model's DEC,** which carries no HOU-4D, this section's housing adds about $48 billion in FY2040. That widens DEC's shortfall from 0.13% to about 0.22% of GDP.
+- **Against the fiscal model's DEC,** which carries no HOU-4D, this section's housing adds about $50 billion in FY2040. That widens DEC's shortfall from 0.13% to about 0.23% of GDP.
 
 **What this means.**
-1. **Housing's new permanent claims are not yet financed in FY2040.** Stage 3, the standing fund and stage 2 at its true timing add about $12 billion a year at maturity to what the model carries. FY2040 is the one year with no margin to absorb it. From FY2041 the adopted architecture's margin covers housing's central costs, and its high case from FY2042.
+1. **Housing's new permanent claims are not yet financed in FY2040.** Stage 3, the standing fund and stage 2 at its true timing add about $14 billion a year at maturity to what the model carries. FY2040 is the one year with no margin to absorb it. From FY2041 the adopted architecture's margin covers housing's central costs, and its high case from FY2042.
 2. **The capital tail is the other FY2040 problem.** Grants and repair money awarded in FY2037-39 are still being spent in FY2040-42: about $16 billion in FY2040. The envelope ends in 2040, and nothing in the D4 text exempts a time-limited line's last outlays from the FY2040 test. Two fixes: schedule the capital awards so they are spent by FY2039 (move the last two years' awards forward, keeping the amounts), or rule that a time-limited line's tail counts as time-limited (question 5).
-3. **The guardrails are not at risk from housing.** Before interest, this section's central costs sum to about $0.12 trillion less than the model's through 2035, about the same through 2045, and $0.18 trillion more through 2056: 0.19% of 2056 GDP. The high case is 1.6% of 2056 GDP more, perhaps two to three points of debt with interest (this section's arithmetic, not run). The DEC guardrails pass by 2.8, 11.6 and 23.8 points in 2035, 2045 and 2056, and housing's high case lowers debt through 2035.
+3. **The guardrails are not at risk from housing.** Before interest, this section's central costs sum to about $0.12 trillion less than the model's through 2035, about the same through 2045, and $0.24 trillion more through 2056: 0.25% of 2056 GDP. The high case is 1.8% of 2056 GDP more, perhaps two to three points of debt with interest (this section's arithmetic, not run). The DEC guardrails pass by 2.8, 11.6 and 23.8 points in 2035, 2045 and 2056, and housing's high case lowers debt through 2035.
 4. **The Byrd rule.** R2's permanent housing lines raise deficits after the window. Reconciliation strikes a provision that adds to deficits beyond the resolution's window (`CONVENTIONS.md`, section 5), unless other provisions in its title offset it in those years. So R2 needs the offsets for stage 2, stage 3, the standing fund and the credits in the same bill, or the lines must sunset. This is the per-bill test budget choice 3 asks for, and B3 has not built it (`models/tools/roadmap.md`).
 
 ### 3.4 Within the envelope
@@ -238,7 +242,7 @@ None is made here. Each moves figures, so each is an adopted-input change for it
 9. **Provision specs** (`provisions.csv`): the housing components' `budget_authority` is `unknown` today. For the rental help lines it would be `outlays`; for the capital lines, provided in full on enactment with spend-out.
 10. **Byrd check.** When B3 builds the per-bill window test, run R2's housing title through it (section 3.3, item 4).
 
-The net effect on the headline (central, option B): about −$0.13 trillion over FY2030-39, about +$12 billion a year in FY2040 for the permanent lines, and about +$28 billion in FY2040 with the capital tail.
+The net effect on the headline (central, option B): about −$0.12 trillion over FY2030-39, about +$14 billion a year in FY2040 for the permanent lines, and about +$30 billion in FY2040 with the capital tail.
 
 ## 6. What is still unpriced
 
@@ -252,21 +256,21 @@ The net effect on the headline (central, option B): about −$0.13 trillion over
 - **Attached awards** (HOU-4.04): whether they cost more or less than tenant-based ones. The register has no evaluation.
 - **Rent offsets from other flagships' benefits** (shared rule 1): new income outside the tax code raises tenants' rent and lowers housing's cost by up to 30 cents a dollar. That is the household model's work.
 - **The capital tail after FY2039** under either answer to question 5, and CBO's subsidy rate for the construction loans.
-- **Section 5's smaller items:** the R1 readiness tranche (FY2029), HUD's administration set-aside, fair housing testing grants for 2030-34, a tribal set-aside (a share, not more money), and the cost of deemed approval.
+- **Section 5's items that wait on Espen:** the R1 readiness tranche (FY2029), fair housing testing grants for 2030-34, a tribal set-aside (a share, not more money), the cost of deemed approval, and attorney's fees for successful private suits under the 2037 guarantee, the right to return and the Housing First lease protection (section 5, question 6; scored with the rights once decided).
 - **Inflow and outflow in stage 2** after 2037. The count is held flat, and the exit rule's effect is unmeasured.
 
 ## Questions for Espen
 
 Each is yes or no, and none is adopted until you answer. "Housing's FY2040 gap" means the shortfall in the fiscal rule's maturity test in FY2040, on the budget model's adopted architecture.
 
-1. **Should housing's FY2040 gap go to the financing settlement rather than be closed by trimming housing?** On the central figures housing is about $7 billion short in FY2040 counting permanent programs only, or $23 billion with the capital tail. From FY2041 the adopted architecture's margin covers it. The alternative is to slow something in housing: stage 3's enrollment over 2038-41 instead of 2038-40 would save about $3 billion in FY2040 (this section's arithmetic). Recommendation: yes, send it to the settlement, with the slower stage 3 as the fallback.
+1. **Should housing's FY2040 gap go to the financing settlement rather than be closed by trimming housing?** On the central figures housing is about $9 billion short in FY2040 counting permanent programs only, or $25 billion with the capital tail. From FY2041 the adopted architecture's margin covers it. The alternative is to slow something in housing: stage 3's enrollment over 2038-41 instead of 2038-40 would save about $3 billion in FY2040 (this section's arithmetic). Recommendation: yes, send it to the settlement, with the slower stage 3 as the fallback.
 2. **Does stage 3 include disabled renters 62 and over?** Section 4 implies it does. HUD's worst case needs report (2025) counts disability only under 62. The older group could be as large again, unpriced. Recommendation: decide with the care flagship; until then, price stage 3 for people under 62 and say so.
 3. **Should stage 3 use stage 2's test: unassisted, with severe housing problems?** This section assumes yes. Without it, the eligible group is larger and uncounted. Recommendation: yes.
 4. **Should the standing emergency fund be a capped yearly amount of about $5 billion, indexed to prices, with a one-time start of about $15 billion in 2030-31?** Both sizes rest on judgment: the Santa Clara trial (Phillips and Sullivan) [EV-HOU-109], the 2021-22 program's start-up record (Congressional Research Service, 2023) [EV-HOU-150], and Eviction Lab's filing counts (2025) [EV-HOU-077]. An open-ended fund that paid every eligible crisis has no reliable cost. Recommendation: yes.
 5. **Should the last two years of construction and repair money be awarded earlier, so it is spent by FY2039?** The amounts stay as you decided. Otherwise about $16 billion of capital spending falls in FY2040, the first year the rule tests, after the borrowing envelope closes. Recommendation: yes.
 6. **Does the zoning reward (HOU-6.01) end with the FY2030-39 money?** Section 4 removes the Innovation Fund's 2033 end date but sets no money after 2039. Continuing at the same scale would be about $3 billion a year at maturity. Recommendation: yes, it ends unless renewed on its results.
 7. **Should the central estimate for stage 2 assume 85% of eligible families apply, rather than memo 2's full sign-up?** The rule's tests use the central figure. Full sign-up is the high case: about $142 billion through 2039 rather than $81 billion. No evidence on take-up of a housing right is in the register. Recommendation: yes, with full sign-up reported as the cautious reading (budget choice 2).
-8. **Should "fees in full" mean HUD's unprorated rate?** HUD now pays agencies 85% of their fees (section 5). The unprorated rate costs about $2.5 billion more over the window than the legacy allowance. Recommendation: yes.
+8. **Should "fees in full" mean HUD's unprorated rate?** HUD now pays agencies 85% of their fees (HUD's 2026 fee notice) [EV-HOU-343]. The unprorated rate costs about $2.5 billion more over the window than the legacy allowance. Recommendation: yes.
 
 ## Evidence still needed
 
