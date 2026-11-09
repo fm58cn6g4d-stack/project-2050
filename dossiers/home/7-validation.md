@@ -38,7 +38,7 @@ Each row sets the plan's figure beside independent ones. "Plan" is section 6's c
 **Verdict: holds, with the risk upward.**
 - The plan's figure is HUD's 2023 spending grown at 4% a year. The account grew much faster than that in FY2019-23 [EV-HOU-187], so 4% is not generous.
 - The plan's households are poorer than the average voucher household. Stage 1 is homeless households and stage 2 extremely low-income families with children, so tenants pay less and families need larger units. Both raise the subsidy above the national average (judgment; the register has no subsidy by household type).
-- Three design choices push the cost per award up, and section 6 does not price them separately: neighborhood payment limits (HOU-4.05), which raise payments in high-rent ZIP codes [EV-HOU-095]; payment standards up to 120% where lease-up is low (section 5, 2.2); and full fees.
+- Three design choices push the cost per award up. Section 6 now prices two of them: payment standards up to 120% where lease-up is low (about $7 billion over the window; section 6, 1.2) and full fees (section 6, question 8). The third, neighborhood payment limits (HOU-4.05), which raise payments in high-rent ZIP codes [EV-HOU-095], is still unpriced.
 - The high case ($18,500, 5% a year) covers all of this. **Ask of section 6:** report the cost per award for stage 2's families separately from the national average, once HUD's tabulation by household type is in the register.
 
 ### 1.2 Lease-up
@@ -64,7 +64,7 @@ Each row sets the plan's figure beside independent ones. "Plan" is section 6's c
 | 75% | about $113 billion | 750,000 | 150,000 |
 | 67% (EHV after about two years) | about $101 billion | 670,000 | 230,000 |
 
-- A low lease rate shows up in the budget as a saving and in people's lives as a failure. Section 6's low case already includes 84%. **Ask of section 6:** add a 75% reading, report it as a reach shortfall, not a saving, and do not let it count toward the D4 test as available money.
+- A low lease rate shows up in the budget as a saving and in people's lives as a failure. Section 6's low case already includes 84%. Section 6 now has a 75% reading (about $0.54 trillion over the window, about 390,000 fewer households housed in FY2042) and reports households housed as a range, saying lower lease-up is not a saving (section 6, 1.4). That ask is met. It remains that a shortfall must not count toward the D4 test as available money.
 - **Stage 2 compounds it.** Section 6 assumes 85% of eligible families apply, and 90% of those lease: about 77% of the group housed. At a 75% lease rate it is about 64% (this section's arithmetic). After 2037 the statute promises help to every eligible family that applies (HOU-4D.01). A family whose voucher expires unused has the right on paper only. **Ask of section 4:** under the right, a family whose search fails must be offered an attached home, a reissued voucher with search help, or a higher payment standard, in that order, within a deadline.
 
 ### 1.3 Take-up of the right
@@ -447,7 +447,7 @@ For their owners; none is made here. Items that change what the plan commits to 
 | 4 (HOU-4.01) | Note that the voucher rent rule uses the same adjusted income as 1437a (closing the shared-rules open check) [EV-HOU-410] | Settled here |
 | 5 | Monthly reporting of awards and leases by rural and urban county, and for tribal areas | Reach by place is invisible (4.2) |
 | 5 | State which rule governs the shared record if HUD's verification rule requires reporting to DHS | Conflict (3.4) |
-| 6 | Add a 75% leased reading, reported as reach lost, not as saving | Lease-up (1.2) |
+| 6 | ~~Add a 75% leased reading, reported as reach lost, not as saving~~ Met at section 6's head (1.4) | Lease-up (1.2) |
 | 6 | Report stage 2 families' cost per award separately when the data exist | Cost per award (1.1) |
 | 6 | Add the count risk (doubled-up families forming households) to the high case | Take-up (1.3) |
 | 6 | Count SNAP's response to lower rent, as CBO would | Missing offset (2.5) |
