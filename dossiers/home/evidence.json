@@ -8541,5 +8541,79 @@
   "supports": [
    "dossiers/home/research-supportive-housing.md"
   ]
+ },
+ {
+  "id": "EV-HOU-370",
+  "statement": "At the end of 2023, 2404197 Housing Choice Voucher households were reported in 2752351 voucher units, 84% occupied; average HUD spending per voucher unit was $1068 a month.",
+  "claim": "data",
+  "figures": [
+   "2404197",
+   "2752351",
+   "84%",
+   "$1068"
+  ],
+  "source": "SRC-0428",
+  "anchor": [
+   "Housing Choice Vouchers | total_units = 2752351",
+   "Housing Choice Vouchers | pct_occupied = 84",
+   "Housing Choice Vouchers | number_reported = 2404197",
+   "Housing Choice Vouchers | spending_per_month = 1068"
+  ],
+  "grade": "A",
+  "fact_date": "2023-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-28",
+  "note": "HUD administrative data (Picture of Subsidized Households, U.S. total, Housing Choice Vouchers row). spending_per_month is HUD's average federal spending per unit per month; the extract does not say whether it includes the administrative fee, so section 6 treats it as the rent subsidy and adds fees separately (the cautious reading). Section 6 uses it as the 2023 base for the cost of a voucher-year.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-371",
+  "statement": "In 2023, 3,143 thousand very low-income renter households had people younger than 62 with disabilities and 1,162 thousand of them had worst case needs. By household type the worst case needs counts were 345 thousand families with children, 57 thousand older adult households, 175 thousand other family households and 585 thousand other nonfamily households (of 940, 154, 448 and 1,601 thousand).",
+  "claim": "data",
+  "figures": [
+   "3,143",
+   "1,162",
+   "345",
+   "57",
+   "175",
+   "585",
+   "940",
+   "154",
+   "448",
+   "1,601"
+  ],
+  "source": "SRC-0296",
+  "anchor": [
+   "Exhibit 1-13. Worst Case Needs Among Households With People with Disabilities, 2023\nFamilies\nWith\nChildren\n\nOlder Adult\nHouseholds\n\nOther\nFamily\nHouseholds\n\nOther\nNonfamily\nHouseholds\n\nTotal",
+   "Very low-income renter\nhouseholds having\npeople younger than 62\nwho have disabilities\n(thousands)\n\n940\n\n154\n\n448\n\n1,601\n\n3,143\n\nWorst case needs\n(thousands)\n\n345\n\n57\n\n175\n\n585\n\n1,162"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-30",
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data). The report counts disability only for people younger than 62, and does not split these households by extremely low and very low income.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-372",
+  "statement": "For 2023, the SSI monthly federal benefit rate for an individual living alone was $914.",
+  "claim": "data",
+  "figures": [
+   "$914"
+  ],
+  "source": "SRC-0296",
+  "anchor": "For 2023, the SSI monthly federal benefit rate for an individual living alone is $914.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-30",
+  "note": "Footnote in HUD's Worst Case Housing Needs 2025 report, citing SSA. Section 6 uses it to judge that most very low-income disabled renter households living on SSI fall below the extremely low-income line.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
  }
 ]
