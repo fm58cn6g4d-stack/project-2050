@@ -59,7 +59,7 @@ FY2030-39 outlays in billions, central (low-high). "BA" is budget authority. FY2
 | HOU-4.10 Recovery housing, 2030-34 | Mandatory, R2, time-limited | 1.5 | 1.5 | 0 | Appropriations after 2034 if renewed | Placeholder, judgment; no evidence on per-place cost in the register |
 | HOU-4.12 HUD services backstop | Mandatory, R2, 2030-39; appropriations after | 6 | 6 | 1 | Permanent at about $0.7 billion as priced, but as appropriations | Placeholder, judgment (section 2.3); includes peer-specialist training and navigator shortfall money (section 5, 2.6) |
 | HOU-4.12 Wider backstop through 2035, for tenants whose state Medicaid does not cover the services (`DEC-2026-11-09-10`) | Mandatory, R2, 2030-35 | 6 (3-12) | 6 (3-12) | 0 | Ends 2035 | Placeholder, judgment (section 2.3): $1 billion a year (0.5-2) |
-| HOU-4.06 Fair housing testing and enforcement grants, 2030-34 (`DEC-2026-11-09-10`) | Mandatory, R2 | 0.5 (0.3-1) | 0.5 (0.3-1) | 0 | Ends 2034 | Placeholder, judgment: $100 million a year (60-200 million); the program's current appropriation is not in the register |
+| HOU-4.06 Fair housing testing and enforcement grants, 2030-34 (`DEC-2026-11-09-10`; amount `DEC-2026-11-09-17`) | Mandatory, R2 | 0.5 | 0.5 | 0 | Ends 2034 | Decided: $100 million a year; the program's current appropriation is not in the register |
 | Payment standards up to 120% where lease-up is low (section 5, 2.2) | Inside HOU-4A, HOU-4D and HOU-4.08 | Equal to outlays | 7 (2-20) | 2 (0.4-5) | Permanent | Judgment: about a quarter of awards in low lease-up markets, with payment limits about 10% higher there, raise the rent subsidy by about 3% overall (1-6%). The subsidy rises more than the limit, because the tenant's share is fixed by income |
 | Inspector general set-aside for audits of the new programs (section 5, section 7) | Mandatory, R2 | $50 million a year, indexed | 0.6 (0.3-1.1) | 0.1 | Permanent | Judgment |
 | Federal administration, systems and evaluation set-aside (section 5, 2.1) | Mandatory, R2, available until spent | 0.5% of housing's program outlays | 2 (1-7) | 0.4 | Permanent | Judgment: priced as added money, not carved out of the programs (range 0.25-1%) |
@@ -72,7 +72,7 @@ FY2030-39 outlays in billions, central (low-high). "BA" is budget authority. FY2
 
 **Revenue effects.** HOU-2D is the only revenue line. The construction loans' repayments and interest are inside their subsidy cost under credit reform (legacy file). No offsetting savings are counted anywhere: not shelter or Medicaid savings from Housing First, which the National Academies advise not to expect except perhaps among the heaviest users [EV-HOU-315] [EV-HOU-318], and not lower spending on homelessness programs. That is CBO's practice for savings outside the bill's own accounts, and the cautious choice.
 
-**FY2029, disclosed.** Espen adopted section 5's readiness tranche in R1 (`DEC-2026-11-09-10`; HOU-4.02, item 7). It is a FY2029 line of about $0.75 billion (range $0.5-1 billion; judgment, proposed for Espen) in R1's own window, FY2029-38, outside the FY2030-39 totals above. HUD's other readiness work in 2029 runs on appropriations and the agency rebuild surge (CAP-7S; section 5).
+**FY2029, disclosed.** Espen adopted section 5's readiness tranche in R1 (`DEC-2026-11-09-10`; HOU-4.02, item 7). It is a FY2029 line of $0.75 billion (`DEC-2026-11-09-14`) in R1's own window, FY2029-38, outside the FY2030-39 totals above. HUD's other readiness work in 2029 runs on appropriations and the agency rebuild surge (CAP-7S; section 5).
 
 ### 1.3 How the rental help lines are built
 
@@ -181,7 +181,7 @@ Stage 2 becomes a right in 2037: every eligible family that applies gets help (H
 
 ### 2.6 Tribal set-asides
 
-Espen decided that tribal housing gets dedicated set-asides (`DEC-2026-11-09-10`; HOU-4.13). They are shares of amounts already priced, so they add nothing to the totals. At the shares section 4 proposes, about $13 billion of the FY2030-39 money goes through tribes (this section's arithmetic, central):
+Espen decided that tribal housing gets dedicated set-asides (`DEC-2026-11-09-10`; HOU-4.13). They are shares of amounts already priced, so they add nothing to the totals. At the shares Espen decided (`DEC-2026-11-09-16`), about $13 billion of the FY2030-39 money goes through tribes (this section's arithmetic, central):
 - 3% of the emergency fund and its start: about $1.9 billion of $64 billion;
 - 3% of the new-award money (HOU-4A, HOU-4D with the duty to house, HOU-4.08, with fees, search help and higher payment standards): about $7.5 billion of $251 billion;
 - 5% of the revolving-fund grants: about $3.6 billion of $72 billion.
@@ -296,9 +296,9 @@ The net effect on the headline (central, option D): about −$0.08 trillion over
 - **Attached awards** (HOU-4.04): whether they cost more or less than tenant-based ones. The register has no evaluation.
 - **Rent offsets from other flagships' benefits** (shared rule 1): new income outside the tax code raises tenants' rent and lowers housing's cost by up to 30 cents a dollar. That is the household model's work.
 - **The remaining capital tail** (about $8 billion in FY2040), which rests on this section's spend-out judgment, and CBO's subsidy rate for the construction loans.
-- **Section 5's items Espen adopted** (`DEC-2026-11-09-10`): the R1 readiness tranche and the testing grants are placeholders (sections 1.2 and 1.2's FY2029 note); the cost of deemed approval's payments before checks and the attorney's fees for successful private suits under the 2037 guarantee, the right to return and the Housing First lease protection are unpriced.
+- **Section 5's items Espen adopted** (`DEC-2026-11-09-10`): the R1 readiness tranche ($0.75 billion) and the testing grants ($100 million a year) are set (`DEC-2026-11-09-14`, `-17`); the cost of deemed approval's payments before checks and the attorney's fees for successful private suits under the 2037 guarantee, the right to return and the Housing First lease protection are unpriced.
 - **The duty to house's placement homes,** if they cost more than an average voucher (section 2.5).
-- **Tribal need:** what restoring resources sufficient for tribes to care for their people would cost beyond the set-asides (section 2.6; HOU-4.13's proposed need report).
+- **Tribal need:** what restoring resources sufficient for tribes to care for their people would cost beyond the set-asides (section 2.6; HOU-4.13's 2032 need report).
 - **Stage 2's wider entry** (`DEC-2026-11-09-12`): from 2034, families with children with no home of their own, doubled up or homeless, can enter stage 2. Roughly $7-12 billion in FY2040 on this section's inputs (section 3.3). A pricing follow-up will add it from the count in `research-doubled-up.md` (PR #141): about 0.5 million newly eligible families net of stage 1 (0.38-0.8 million), plus a flow of about 0.1 million homeless families a year.
 - **Inflow and outflow in stage 2** after 2037. The count is held flat, and the exit rule's effect is unmeasured.
 
