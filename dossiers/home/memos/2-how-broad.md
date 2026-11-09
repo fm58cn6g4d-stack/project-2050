@@ -1,6 +1,6 @@
 # Memo 2: How broad the rental guarantee should be
 
-Role: decision memo for Espen, fork 2 of the housing design (`../3-design.md`). Status: awaiting Espen's decision. Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
+Role: decision memo for Espen, fork 2 of the housing design (`../3-design.md`). Status: decided by Espen: B with a condition, a third stage for extremely low-income renters with long-term disabilities from 2038, outside the $135 billion (November 3, 2026; `DEC-2026-11-09-01`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 **This memo decides the scale and funding of the new rental help: the million new vouchers (HOU-4A) and the $135 billion envelope (HOU-4D).** On October 30 you made both working choices rather than settled ones (`DEC-2026-10-30-02`), so keeping them exactly as filed is option A here, weighed like the others. The recommendation keeps both amounts, HOU-4A's schedule and mandatory funding, but changes what the $135 billion buys: a guarantee for a named group instead of a second batch of vouchers for no one in particular.
 

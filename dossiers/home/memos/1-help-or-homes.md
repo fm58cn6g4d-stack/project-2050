@@ -1,6 +1,6 @@
 # Memo 1: Help or homes
 
-Role: decision memo for Espen, fork 1 of the housing design (`../3-design.md`). Status: awaiting Espen's decision. Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
+Role: decision memo for Espen, fork 1 of the housing design (`../3-design.md`). Status: decided by Espen: B (November 3, 2026; `DEC-2026-11-09-01`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 **This memo decides the form of the new rental help, including the million new vouchers (HOU-4A) and the $135 billion envelope (HOU-4D).** On October 30 you made both working choices rather than settled ones (`DEC-2026-10-30-02`), so keeping them as plain vouchers is now one option here, weighed like the others. The recommendation changes the form of part of HOU-4A's last two years of awards, in tight markets only; it keeps HOU-4A's count, its 2030-33 schedule and its mandatory funding.
 

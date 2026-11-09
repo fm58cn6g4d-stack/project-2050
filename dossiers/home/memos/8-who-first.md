@@ -1,6 +1,6 @@
 # Memo 8: Who the guarantee reaches first
 
-Role: decision memo for Espen, fork 8 of the housing design (`../3-design.md`), section 1's open question. Status: awaiting Espen's decision. Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
+Role: decision memo for Espen, fork 8 of the housing design (`../3-design.md`), section 1's open question. Status: decided by Espen: as recommended, with the guarantee, vouchers and emergency help harmonized and their interactions with other Project 2050 policies assessed by group (November 9, 2026; `DEC-2026-11-09-06`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 **This memo also decides the pace of the million new vouchers (HOU-4A) and which group the $135 billion envelope (HOU-4D) reaches.** On October 30 you made both working choices rather than settled ones (`DEC-2026-10-30-02`). The recommendation keeps HOU-4A's pace as filed, 250,000 a year from 2030 to 2033, and, with memo 2's recommendation, points HOU-4D at the second group in line.
 

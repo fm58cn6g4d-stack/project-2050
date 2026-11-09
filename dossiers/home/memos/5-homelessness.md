@@ -1,6 +1,6 @@
 # Memo 5: Housing First
 
-Role: decision memo for Espen, fork 5 of the housing design (`../3-design.md`). Status: awaiting Espen's decision. Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
+Role: decision memo for Espen, fork 5 of the housing design (`../3-design.md`). Status: decided by Espen: B, with research on behavioral health and on supportive housing with a baseline expectation of engagement for section 4 (November 9, 2026; `DEC-2026-11-09-05`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 ## The question
 

@@ -1,6 +1,6 @@
 # Memo 4: What the zoning reward pays for
 
-Role: decision memo for Espen, fork 4 of the housing design (`../3-design.md`). Status: awaiting Espen's decision; revised for the ROAD to Housing Act, now current law (`../road-act.md`). Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
+Role: decision memo for Espen, fork 4 of the housing design (`../3-design.md`). Status: decided by Espen: B (November 9, 2026; `DEC-2026-11-09-04`); revised for the ROAD to Housing Act, now current law (`../road-act.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 ## In short
 
