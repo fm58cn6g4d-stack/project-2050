@@ -57,6 +57,12 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-2D.02 | A middle-income credit in high-cost areas, a 2030-34 trial | Decided (`DEC-2026-11-09-08`) | R2 (revenue) |
 | HOU-2D.03 | The neighborhood homes credit, a 2030-34 trial | Decided (`DEC-2026-11-09-08`) | R2 (revenue) |
 | HOU-2D.04 | Permanent affordability for every rental home the plan pays for | Decided (`DEC-2026-11-09-08`) | R2 (credit conditions); regular bill |
+| HOU-10.01 | Down payment help for first-time buyers through state housing finance agencies, 2030-39 | Decided (memo 9 part 1 C, with Espen's two changes, `DEC-2026-11-09-19`); income limits decided by Espen, November 9; DEC entry in #165 | R2, mandatory, time-limited |
+| HOU-10.02 | FHA's annual premium on purchase loans cut to 0.30% from 2030, with a safety line | Decided (memo 9 part 2 B, `DEC-2026-11-09-19`); safety line decided by Espen, November 9; DEC entry in #165 | R2 (credit subsidy) or regular bill; CBO decides how it scores |
+| HOU-3C.05 | Homes to buy: up to $30 billion of the construction loans for starter homes and condos, and revolving-fund grants for resale-limited homes | Decided (memo 9 part 3 C, `DEC-2026-11-09-19`) | R2 (inside HOU-3C's amounts) |
+| HOU-11.01 | Cheaper loans for manufactured homes | Decided (memo 10 part 2 B, `DEC-2026-11-09-20`); grant amount decided by Espen, November 9; DEC entry in #165 | FHFA action (2029); regular bill; R2 (community grants) |
+| HOU-11.02 | Federal land near growing western cities sold at fair value for housing | Decided (memo 10 part 3 B, `DEC-2026-11-09-20`); proceeds split decided by Espen, November 9; DEC entry in #165 | Regular bill |
+| HOU-11.03 | Assisted infill housing excluded from federal environmental review | Decided (memo 10 part 4 B, `DEC-2026-11-09-20`) | Regular bill |
 
 ## 1. Rules shared by all housing help
 
@@ -379,7 +385,7 @@ Rules 6, 7 and 8 of the point 5 note.
 - **Amounts.** About $72 billion, awarded over FY2030-37 so that it is spent by 2039 (`DEC-2026-11-09-09`): $3 billion in 2030, $5 billion in 2031, $10 billion a year in 2032-33 and $11 billion a year in 2034-37. The total and the first two years are as decided (memo 3 part 3 B); the legacy schedule ran $8 billion a year to 2039, and this yearly split is this section's (judgment). States match 20%. Section 5's fund plans and plan-by-silence (`5-delivery.md`, 2.4) carry the faster ramp.
 - **Tribal share.** Part of the grants goes through tribes (HOU-4.13).
 - **For the poorest renters.** At least 30% goes out as grants or forgivable loans for homes for extremely low-income renters.
-- **Eligible uses.** New building, plus buying and preserving existing rental buildings and single-family homes, including tax-credit buildings whose rent limits are ending [EV-HOU-119].
+- **Eligible uses.** New building, plus buying and preserving existing rental buildings and single-family homes, including tax-credit buildings whose rent limits are ending [EV-HOU-119]. Also permanently affordable homes to buy with a resale limit, from the grants outside the 30% share (HOU-3C.05; `DEC-2026-11-09-19`).
 - **Vehicle.** R2, mandatory. It is borrowed inside the D4-B envelope as time-limited capital (ledger C21).
 - **Cost source.** Legacy file. The grant channel is about $0.06 trillion of HOU-3C's $0.075 trillion midpoint (range $0.061-0.10 trillion), and it is the part C21 borrows. The rest, about $0.015 trillion, is the loans' subsidy cost (HOU-3C.02). Both sit inside the ledger's housing title component ($0.47 trillion).
 - **Agency.** HUD, with state housing finance agencies.
@@ -390,7 +396,7 @@ Rules 6, 7 and 8 of the point 5 note.
 
 - **What it does.** A HUD Housing Construction Loan program, funded through the Federal Financing Bank.
 - **Amounts.** $300 billion of commitments, made over 2030-38 so the loans are disbursed by about 2039 (`DEC-2026-11-09-09`): $10 billion in 2030, $20 billion in 2031, $30 billion in 2032, then $40 billion a year in 2033-38. The legacy ramp ran about $34 billion a year to 2039; this split is this section's (judgment).
-- **Who borrows.** Mixed-income and social housing, with HOU-8 the first borrower; housing agencies' new building; nonprofit and tax-credit projects; and tribes and tribally designated housing entities (HOU-4.13). Acquisition and preservation are eligible, as in HOU-3C.01.
+- **Who borrows.** Mixed-income and social housing, with HOU-8 the first borrower; housing agencies' new building; nonprofit and tax-credit projects; and tribes and tribally designated housing entities (HOU-4.13). Acquisition and preservation are eligible, as in HOU-3C.01. Up to $30 billion of the commitments may be construction and construction-to-permanent loans for homes to buy (HOU-3C.05; `DEC-2026-11-09-19`).
 - **Terms.** Loans are priced near Treasury rates plus a margin for administration. State agencies originate and service them under a risk-share (the HUD-HFA Risk-Sharing model, sec. 542(c)).
 - **Vehicle.** R2, for the credit subsidy. Only the expected loss scores under the Federal Credit Reform Act; it needs CBO's subsidy rate.
 - **Cost source.** Legacy file: about $0.015 trillion of subsidy cost (range $0.006-0.03 trillion). HOU-3C as a whole is about $0.075 trillion inside the ledger's housing title.
@@ -496,7 +502,8 @@ Espen's direction (`DEC-2026-11-09-10`): publish a target for homes built and pr
 - awards follow homes finished, not homes permitted;
 - lower-cost homes are counted and rewarded separately. The reporting the Act leaves optional becomes required [EV-HOU-207];
 - the $10 million cap on awards rises;
-- the 2033 end date goes.
+- the 2033 end date goes;
+- places and states also earn credit for six further reforms (memo 10 part 1 B, `DEC-2026-11-09-20`): single-stair apartment buildings up to six stories [EV-HOU-580]; manufactured homes treated like other homes wherever houses are allowed, including titling as real property on land the owner holds (HOU-11.01) [EV-HOU-578]; small lots [EV-HOU-596]; no parking minimums [EV-HOU-592]; a state exemption of zoning-consistent infill from state environmental review [EV-HOU-590]; and condo defect-liability reform on Colorado's warranty-for-narrower-claims model [EV-HOU-598]. No new money and no new rule: the award still follows homes finished. Because HOU-6.02 uses the Innovation Fund's list, the same reforms count toward the transportation condition.
 
 - **Build Now.** Its CDBG reallocation stays as the only test on community development grants [EV-HOU-208]. HUD studies whether it penalizes steady builders below 4% growth [EV-HOU-244] and reports by 2032, with a proposed fix if it does.
 - **Vehicle (split).** The money is a direct appropriation in R2, mandatory. The changes to who may apply and what is paid for go in a regular bill. The R2 money is written so it can be spent under the Act's current rules until the regular bill passes (judgment; memo 4).
@@ -558,6 +565,106 @@ Espen chose memo 3 part 1's option D (`DEC-2026-11-09-08`): a bit of all three c
 - **Current law.** The credit's compliance and extended-use periods, and the exits from them, are not yet read from the statute into the register (evidence still needed).
 
 **Vehicle and agency for HOU-2D.** R2, as revenue: the credits are tax-code changes. The affordability rules ride R2 as conditions on the credits; if any is struck as merely incidental to the budget, the regular bill carries it (judgment). Treasury (IRS) runs the credits, with the state allocating agencies.
+
+## 7. Homeownership and broad supply (memos 9 and 10)
+
+Espen decided memos 9 and 10 on November 9, 2026 (`DEC-2026-11-09-19`, `-20`), from the section 3 addendum (`3-design.md`; research in `research-ownership-supply.md`). Memo 9 part 1 came with two changes: a higher income limit, in the 135-150% range, and a plain rule that states may stack the federal help with their own. The design lens applies throughout: one plain test, the buyer's own statement, records the lender already holds, and published counts with review triggers.
+
+### HOU-10.01 Down payment help for first-time buyers, 2030-39
+
+**Parameters** (memo 9 part 1 C, as changed by Espen).
+1. **Who.** First-time buyers who will live in the home. First-time means not having owned a home in the past three years, by the buyer's signed statement (the usual federal three-year test; judgment).
+2. **Income limit: 140% of area median income, and 160% in high-cost areas (decided by Espen, November 9; DEC entry in #165).** Espen asked for a limit in the 135-150% range; the 160% high-cost limit sits above it, and Espen accepted it as recommended. 140% is the limit the plan's neighborhood homes credit already uses for its buyers [EV-HOU-269], so the plan's two buyer programs share one number (design lens); it sits inside the 150% where the 2025 buyer-credit bill starts phasing out [EV-HOU-524]. The high-cost limit keeps the bill's 20-point step above the standard limit [EV-HOU-525] and matches the cap in the 2021 credit bill [EV-HOU-523]. A high-cost area is one where FHA's loan limit is above its national floor, a list HUD already publishes, so no new test is needed (judgment). Income is the figure in the mortgage file the lender already underwrites.
+3. **First-generation priority.** Where requests exceed a state's money, first-generation buyers come first: those whose parents did not own a home, or who were in foster care, by the buyer's signed statement, with no further papers, and lenders who rely on it in good faith are protected [EV-HOU-526]. Within each group, the state's own queue order (first come, or a lottery, as California used [EV-HOU-542]).
+4. **Amount.** Up to $20,000 or 10% of the price, whichever is greater [EV-HOU-525]. A state may give up to 25% more (to $25,000 or 12.5%) for a newly built home, or a home in a place that has earned the zoning reward (HOU-6.01), so the money pulls building rather than bidding up existing homes. The 25% is judgment; no study has tested the pairing.
+5. **Form, by each state.** A grant; a zero-interest second mortgage forgiven over five years; or a zero-interest deferred loan repaid at sale or refinance, including a shared-appreciation loan [EV-HOU-540]. Repaid money stays in the state's program.
+6. **Stacking, written plainly into the law.** States may combine this help with any other down payment or closing-cost help: state, city, county, tribal, employer, nonprofit or family, and with a second mortgage from any of them, as state agencies already do [EV-HOU-535].
+   - The federal help is never reduced because a buyer has other help.
+   - No separate federal limit or form on the total; the normal financing process settles how the pieces fit (`DEC-2026-11-09-23`; Espen, November 9, 2026: "don't let that be an extra limit constraining process here via another set of paperwork"). Espen expects that where more help is available than a buyer needs at closing, it will usually show up as a larger second mortgage from the state or local agency; that is a prediction about practice, not a rule.
+   - Combined loan amounts follow the first mortgage's own rules (for example, up to 105% combined loan-to-value for agency second loans under Freddie Mac's rules [EV-HOU-535]); the federal program adds no limit of its own.
+   - No federal approval of the other programs is needed. The closing statement records each source.
+7. **Counseling, offered, not required by federal rule (decided by Espen, November 9; DEC entry in #165, point 5).** Each state offers every buyer free homebuyer counseling, which state agencies already provide and which is part of the package tied to lower default [EV-HOU-537]. Federal law does not make it a condition of the help: a required course adds a step and a wait before closing, and the evidence ties lower default to the agency's whole package (counseling with sound loans and its own servicing), not to counseling alone. States that already require it may keep doing so. Where counseling is simply part of an agency's or lender's normal loan process, it stays as it is and is not an added requirement (Espen: "yes unless 'counseling' just means a part of the normal loan process, which might be the case").
+8. **Money.** $3 billion a year to states by formula through their housing finance agencies, FY2031-39, with $1.5 billion in FY2030 while programs start (about $28.5 billion; judgment). Each year's money stays available until spent. A tribal share goes through tribes (HOU-4.13's set-aside rule).
+9. **Review, not a cap.** HUD publishes each year who was helped (income, age, race, first-generation status, new or existing home) and the price trend in the places using the most help. A price rise in those places well above their region's for two years triggers a review of the amounts there (section 8). Missing a group's projected share is a published finding, not a reason to withhold money (`DEC-2026-11-09-13`).
+
+- **Agency.** HUD, through state housing finance agencies; tribes for the tribal share.
+- **Vehicle.** R2, mandatory, time-limited (FY2030-39). As a time-limited program it can borrow inside the D4-B envelope (section 6, 2.8).
+- **Current law.** New. HOME's homebuyer help (up to 100% of area median income under the ROAD to Housing Act [EV-HOU-226]) and state programs continue and stack with it.
+- **Evidence.** [EV-HOU-525] [EV-HOU-526] [EV-HOU-535] [EV-HOU-536] [EV-HOU-537] [EV-HOU-539] [EV-HOU-540] [EV-HOU-541] [EV-HOU-544] [EV-HOU-545] [EV-HOU-546] [EV-HOU-547].
+- **Cost source.** Section 6, 2.8: about $28 billion of outlays over FY2030-39.
+
+### HOU-10.02 FHA's annual premium on purchase loans cut to 0.30%
+
+**Parameters** (memo 9 part 2 B).
+1. **The cut.** FHA's annual mortgage insurance premium on new purchase loans falls from 0.55% [EV-HOU-551] to 0.30% from January 2030. Refinances keep HUD's rate. HUD may set it lower but not higher while the safety line holds.
+2. **The safety line: FHA's insurance fund keeps a capital ratio of at least 3% in its annual actuarial review (decided by Espen, November 9; DEC entry in #165).** That is one point above the 2% legal minimum; the ratio was 11.47% in fiscal 2025, and 4.42% under a severe stress test [EV-HOU-552]. If the ratio falls below 3%, HUD may raise the premium back toward 0.55%, by published review, only as far as needed to restore the line.
+3. **No buyer test.** The premium follows the loan; there is nothing to apply for.
+
+- **Agency.** HUD (FHA).
+- **Vehicle.** In law, so a later administration cannot raise it while the line holds. It changes the subsidy cost of FHA's loans under the Federal Credit Reform Act; whether that scores as direct spending in R2 or against appropriations is CBO's call (needs CBO). If R2 cannot carry it, the regular bill does.
+- **Current law.** The premium is set by HUD within statutory maximums; 0.55% since 2023 [EV-HOU-551].
+- **Evidence.** [EV-HOU-550] [EV-HOU-551] [EV-HOU-552].
+- **Cost source.** Section 6, 2.8: about $25 billion over FY2030-39 on a credit-reform basis, about $3 billion a year from FY2040, permanent.
+
+### HOU-3C.05 Homes to buy: starter homes, condos and resale-limited homes
+
+**Parameters** (memo 9 part 3 C).
+1. **Loans.** Up to $30 billion of HOU-3C.02's $300 billion of commitments may be construction loans, and construction-to-permanent loans that become the buyer's mortgage, for homes sold to people who will live in them. Small, nonprofit and other builders borrow through state agencies and community development lenders. No new money: the rental share shrinks by what is used.
+2. **Price.** Each home sells at or under FHA's loan limit for its area, the limit HUD already publishes. The builder certifies the sale price and the buyer's statement that they will live there; there is no buyer income test.
+3. **Resale-limited homes.** The revolving-fund grants (HOU-3C.01), outside the 30% share reserved for extremely low-income renters, may fund homes sold below market with a recorded resale limit, through land trusts and similar owners, so the discount stays with the home for later buyers [EV-HOU-548]. A price check at each resale; owners keep a share of the gain set by the state.
+4. **Pairing.** HOU-10.01's larger amount for newly built homes applies to these homes.
+5. **Count.** HOU-3C.04's first number is unchanged; homes for sale are reported as their own line, by type (market-rate starter home, condo, resale-limited).
+
+- **Agency.** HUD, with state housing finance agencies and community development lenders.
+- **Vehicle.** R2, inside HOU-3C's amounts.
+- **Evidence.** [EV-HOU-567] [EV-HOU-568] [EV-HOU-569] [EV-HOU-548] [EV-HOU-597]. The register has no evaluation of federal construction lending to small builders.
+- **Cost source.** Section 6, 2.8: no added cost; short construction loans may carry a lower subsidy rate than the rental loans (needs CBO).
+
+### HOU-11.01 Cheaper loans for manufactured homes
+
+**Parameters** (memo 10 part 2 B).
+1. **Chattel loans bought by Fannie Mae and Freddie Mac.** The two companies buy loans secured by the home but not the land, under their existing duty to serve the manufactured housing market, with consumer protections like those on mortgages (ability to repay, limits on fees, foreclosure-style notice before repossession). FHFA acts in 2029; the regular bill writes the purchases into the duty-to-serve goals. Today 42% of manufactured-home purchase loans are chattel loans, at a median 8.6% against 4.9% for manufactured-home mortgages [EV-HOU-576].
+2. **Titling as real property.** A manufactured home on land the owner holds can be titled as real property, so it qualifies for a mortgage; 17% of such owners still take chattel loans [EV-HOU-576]. States that allow it earn credit in the zoning reward (HOU-6.01).
+3. **Resident purchases of communities.** Fund the ROAD to Housing Act's grants for manufactured-home communities (PRICE), authorized but unfunded [EV-HOU-220], at $350 million a year for FY2030-39 (decided by Espen, November 9; DEC entry in #165), with priority to resident and nonprofit purchases; the regular bill extends the program past its 2033 end.
+
+- **Agency.** FHFA (the companies); HUD (PRICE).
+- **Vehicle.** FHFA action; regular bill; R2 for the grants.
+- **Evidence.** [EV-HOU-575] [EV-HOU-576] [EV-HOU-577] [EV-HOU-578] [EV-HOU-219] [EV-HOU-220]. No study shows how far chattel rates would fall.
+- **Cost source.** Section 6, 2.8: about $3.5 billion over FY2030-39 for the grants; the companies' new credit risk is unpriced (CBO counts their guarantees as governmental [EV-HOU-556]).
+
+### HOU-11.02 Federal land for housing near growing western cities
+
+**Parameters** (memo 10 part 3 B).
+1. **Sales.** The Bureau of Land Management sells land within a set distance of cities with housing shortages to local governments with a housing plan for it, at appraised fair market value, on the Southern Nevada model [EV-HOU-585]. The list of eligible land comes from the Interior-HUD task force's work [EV-HOU-582].
+2. **Proceeds (decided by Espen, November 9; DEC entry in #165).** Up to half pays for water, sewer and roads serving the new homes; the rest goes to the Treasury. The Southern Nevada law sends most proceeds to projects in the state [EV-HOU-585].
+3. **Affordability.** None required on the land itself; the plan's construction money and the zoning reward can add it there.
+4. **Surplus buildings.** Homeless providers keep their first claim on surplus federal property under McKinney-Vento Title V [EV-HOU-586].
+5. **Limits.** Environmental review and tribal consultation for the sales stay as under current law; the infill exclusion (HOU-11.03) does not apply to greenfield sites.
+
+- **Agency.** Interior (BLM), with HUD.
+- **Vehicle.** Regular bill.
+- **Evidence.** [EV-HOU-582] [EV-HOU-583] [EV-HOU-584] [EV-HOU-585] [EV-HOU-586]. How many homes is contested: about 0.1 to 1 million over a decade [EV-HOU-583] [EV-HOU-584]. HOU-3C.04's targets do not count on them.
+- **Cost source.** Section 6, 2.8: receipts, not counted in the totals.
+
+### HOU-11.03 Assisted infill housing excluded from federal environmental review
+
+**Parameters** (memo 10 part 4 B).
+1. **The exclusion.** Housing that receives federal money from any agency, the plan's included, on an infill site is categorically excluded from review under the National Environmental Policy Act. An infill site is one with existing infrastructure beyond a road, not a greenfield, and outside high-risk flood and wildfire tracts, the definition the ROAD to Housing Act already uses for USDA [EV-HOU-217].
+2. **Deemed complete.** A review that still applies (a non-infill site, or an extraordinary circumstance) is deemed complete 90 days after a complete application unless the agency has finished it.
+3. **The project's test.** The developer certifies the site meets the infill definition; false certification is grounds to recover the money.
+4. **States.** Part 1 of memo 10 rewards states that exempt infill from their own review (HOU-6.01).
+
+- **Agency.** Each funding agency; CEQ guidance.
+- **Vehicle.** Regular bill. It builds on the ROAD to Housing Act's HUD rulemaking [EV-HOU-218] rather than waiting for it.
+- **Evidence.** [EV-HOU-217] [EV-HOU-218] [EV-HOU-589] [EV-HOU-591]. The only federal cost figure is dated [EV-HOU-589]; the time saved is judgment.
+- **Cost source.** None.
+
+### How these fit the rest of section 4
+
+- **HOU-3C.04.** Number 1 is unchanged; homes for sale under HOU-3C.05 are reported as their own line. Federal-land homes and HOU-10.01's buyers are not counted toward the targets.
+- **HOU-2D.03.** Neighborhood homes credit buyers may also use HOU-10.01, under its stacking rule.
+- **HOU-4.01.** Buyer programs use the mortgage file's income, not the rental help's income rules, so a renter household moving to ownership has no second income check.
+- **D3.** HOU-10.01's higher limit and HOU-10.02 are the plan's main new reach into the middle income groups; the incidence model checks them (section 7).
 
 ## Interactions with the rest of the plan
 

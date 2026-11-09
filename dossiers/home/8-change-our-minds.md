@@ -175,6 +175,19 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 - **What we'd do instead.** For cost: section 6's fallback, enrolling over 2038-41 instead of 2038-40, which saves about $3 billion in FY2040 (`6-cost.md`, question 1). If the older group is added: price it, and either send it to the financing settlement or phase it in after the under-62 group. That is Espen's decision with the care flagship. For services: HOU-4.12's backstop pays where Medicaid does not, and the opening date holds; services are offered, never a condition (HOU-4.08). For accessible homes: tenant-based vouchers with search help in the meantime, and a larger reserved share in the regular bill.
 - **Kind.** Review. Readiness checks release extra administrative money, never a delay of the right (`5-delivery.md`, 3).
 
+### 1.14 Help for first-time buyers and broad supply (memos 9 and 10; HOU-10.01, HOU-10.02, HOU-3C.05, HOU-11.01 to .03)
+
+- **Main uncertainties.** Whether buyer help raises prices where it is used most [EV-HOU-545] [EV-HOU-546]; how many buyers it draws in who could not otherwise buy, which no U.S. study measures [EV-HOU-544] [EV-HOU-547]; whether FHA's cut strains its fund; whether builders use the construction loans for homes to buy; and how many homes federal land yields, which estimates put anywhere from about 0.1 to 1 million [EV-HOU-583] [EV-HOU-584].
+- **What would change our minds.**
+  - *Prices:* home prices in the places using the most down payment help rise well above their region's for two years in a row (judgment: by more than the help's average amount as a share of price).
+  - *Reach:* first-generation buyers under a third of those helped, nationally, after the first two years (judgment).
+  - *Defaults:* serious delinquency on loans with this help more than a quarter above comparable agency loans without it (judgment; FHA's own unadjusted gap is about that size [EV-HOU-529]).
+  - *The fund:* FHA's capital ratio below the 3% safety line (HOU-10.02).
+  - *Homes to buy:* less than a third of the $30 billion committed by 2034 (judgment).
+- **Who sees it, when.** HUD's yearly down payment report, from 2031; FHA's annual actuarial review; HOU-3C.04's yearly line for homes for sale; BLM's sale records.
+- **What we'd do instead.** Prices: lower the amount, or limit it to newly built homes, in the places affected. Reach: move more of the money to the first-generation queue. Defaults: stronger counseling and agency servicing, as the evidence favors [EV-HOU-537]. The fund: the premium rises only as far as the safety line needs. Homes to buy: the unused loan room returns to rentals.
+- **Kind.** Review. None of these ends a buyer's help once given.
+
 ## 2. Political and legal events
 
 | Event | Signal and source | Threshold | What we'd do instead | Kind |

@@ -1,6 +1,6 @@
 # Memo 9: Helping people buy a first home
 
-Role: decision memo for Espen, part 1 of the section 3 addendum (`../3-design.md`, "Addendum: homeownership and broad supply"). Status: awaiting Espen's decision; three parts, each decided on its own. The research is in `../research-ownership-supply.md`. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Costs and counts marked "judgment" are this dossier's estimates, not official scores.
+Role: decision memo for Espen, part 1 of the section 3 addendum (`../3-design.md`, "Addendum: homeownership and broad supply"). Status: decided by Espen (November 9, 2026; `DEC-2026-11-09-19`): part 1 C with two changes (the income limit rises to the 135-150% range, proposed in section 4 at 140%, and 160% in high-cost areas; and the law plainly lets states stack the federal help with their own), part 2 B, part 3 C. Section 4 writes them as HOU-10.01, HOU-10.02 and HOU-3C.05. The research is in `../research-ownership-supply.md`. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Costs and counts marked "judgment" are this dossier's estimates, not official scores.
 
 ## The question
 

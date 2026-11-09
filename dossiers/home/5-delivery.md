@@ -29,6 +29,12 @@ Role: section 5 of the housing dossier. It says who runs each provision in `4-sp
 | HOU-6.01, 6.02 zoning reward and transportation condition | HUD (Innovation Fund); DOT (Moving America) | States, regions, localities | — | A production count that cannot be gamed |
 | HOU-8.01 social housing pilot; HOU-9A.01 small builder | HUD; the new corporation | Public and nonprofit owners; the corporation | GSA and other land-holding agencies | A new corporation's start-up |
 | HOU-2D.01 to .04 tax credits (option D, `DEC-2026-11-09-08`) | Treasury (IRS) | State allocating agencies | — | State agencies check market rents for the middle-income trial and run its lottery (HOU-2D.02) |
+| HOU-10.01 down payment help (`DEC-2026-11-09-19`) | HUD | State housing finance agencies, through their lenders; tribes | Counseling agencies; state and local down payment programs (stacking) | Small: agencies already give down payment help to about three-quarters of their borrowers (2.7) |
+| HOU-10.02 FHA premium cut | HUD (FHA) | FHA-approved lenders | — | None: a rate change |
+| HOU-3C.05 homes to buy | HUD, with the Federal Financing Bank | State agencies and community development lenders | Small and nonprofit builders; land trusts | Construction lending is a new line for the HUD lending office (2.7) |
+| HOU-11.01 manufactured-home finance | FHFA; HUD (PRICE) | Fannie Mae and Freddie Mac; their lenders; states (titling) | Resident groups and nonprofits buying communities | Lenders that make chattel loans to the companies' standards |
+| HOU-11.02 federal land sales | Interior (BLM), with HUD | Local governments | Water and transportation agencies | Water supply in the interior West |
+| HOU-11.03 infill exclusion | Each funding agency; CEQ | Developers certify the site | — | None |
 
 **One federal lead for rental help.** Section 4 put the emergency fund at HUD so one agency holds the application, the record and the income findings. Delivery confirms the choice on two grounds and qualifies it on one. For it: housing agencies already verify income with federal matching data (shared rule 5), and one agency is what makes one record possible. Against it: HUD lost about 29% of its staff in 2025 (GAO, 2026) [EV-HOU-340], while Treasury has run the only national household rent program. The answer is not to move the fund but to write it so it runs with a thin HUD: formula money that flows to grantees by statute, a shared data system built and staffed with its own money, and default rules where HUD misses a deadline (section 8). The Treasury alternative stays available if the 2029 rebuild fails; this section does not reopen it (judgment).
 
@@ -105,6 +111,17 @@ ERA built about 740 grantees almost from nothing in 2021 [SRC-1068], spent about
 4. **Rent is never held back for want of a navigator.** Stage 1 awards go out on HOU-4.03's order. Where the navigator duty in HOU-4.11 cannot be met, the provider reports it and the shortfall is funded, but the tenant keeps the home (Housing First, memo 5 B).
 5. **Measure the gap.** Every provider and VA medical center reports unfilled navigator posts and households waiting for one. GAO's HUD-VASH finding shows what is lost without this [EV-HOU-342].
 6. **HUD-VASH itself.** The research note's change (a veteran who stops engaging moves to a regular voucher automatically) [EV-HOU-325] needs a HUD notice in 2029 and the regular bill. VA case manager hiring is the VA's and the care flagship's; this dossier asks for it to be counted.
+
+### 2.7 Homeownership and broad supply (memos 9 and 10)
+
+**What the record shows.** State housing finance agencies financed almost 148,800 first mortgages in 2025, and nearly 77% of their borrowers got down payment help (National Council of State Housing Agencies, a group with a stake) [EV-HOU-536]. Their borrowers default about 30% less than similar borrowers, partly because of counseling and their own servicing [EV-HOU-537]. FHA changes its premium by notice, as it did in 2015 and 2023 [EV-HOU-550] [EV-HOU-551]. BLM already runs land sales near Las Vegas [EV-HOU-585].
+
+**Fixes and order.**
+1. **Down payment help starts through programs that exist.** HUD issues the formula and a short program notice within 90 days of R2; each state agency files a one-page plan (its form of help, its queue order, the counseling it offers) and HUD has 30 days to object, silence being approval. The first year's money is half the later years' because some states must widen their programs to 140% of area median income (HOU-10.01).
+2. **Stacking needs no new system and no new check.** The closing statement already lists every source of funds, and the lender's normal underwriting sets how they combine, with no separate federal cap or form (`DEC-2026-11-09-23`). Espen expects extra help will usually show up as a larger agency second mortgage; that is a prediction, not a rule.
+3. **The FHA cut takes effect on a set date,** January 1, 2030, for loans endorsed after it.
+4. **Construction loans for homes to buy** are short and need draw inspections, unlike the rental loans. The HUD lending office works through state agencies and community development lenders that already make them; ROAD's review of FHA's modular draw schedules feeds the draw rules [EV-HOU-245].
+5. **Land sales** follow the task force's land list [EV-HOU-582]; the regular bill sets a sale calendar so each local government can plan water and roads before it buys.
 
 ## 3. Timeline, 2029-2038
 

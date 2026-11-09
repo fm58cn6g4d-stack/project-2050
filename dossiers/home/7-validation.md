@@ -300,6 +300,17 @@ A single parent with two children, on a voucher and SNAP, earning in the earned 
 
 Also found here, not on section 4's list: **SNAP's response to lower rent** (2.5), which belongs on it.
 
+### 3.6 Homeownership and broad supply (memos 9 and 10)
+
+Memos 9 and 10 were decided after this section's checks (`DEC-2026-11-09-19`, `-20`). The checks below apply its method to them.
+- **Prices.** Buyer help raises prices where homes cannot be built [EV-HOU-545] [EV-HOU-546]. HOU-10.01 is modest, time-limited and paired with new homes; HUD's yearly report and section 8's review trigger watch prices where the help is used most. The higher income limit (140%, proposed) widens it toward broad help, which is the kind that capitalizes; the fixed yearly amount bounds it (judgment).
+- **Who would have bought anyway.** On the research note's basis, about half of each tool's induced purchases are only earlier buying (`research-ownership-supply.md`, section 5). The lasting added owners are about 0.17-0.26 million for HOU-10.01 and 0.15-0.23 million for HOU-10.02 (section 6, 2.8). Both are estimates; no U.S. study measures either.
+- **The income groups D3 watches.** HOU-10.01 at up to 140% of area median income, and FHA's premium cut, reach the third and fourth income fifths, which the rental help does not (`3-design.md`, fork 3, D3). The incidence model should add them (section 2.4).
+- **Race.** First-generation priority reaches Black and Latino renters most: about 32% of the eligible pool is Black and 27% Latino [EV-HOU-539]. FHA's borrowers are 13% Black and 20% Hispanic [EV-HOU-552].
+- **Defaults.** Help with counseling and agency servicing defaults less [EV-HOU-537]; help alone has been tied to more FHA claims [EV-HOU-527]. HOU-10.01 offers counseling to every buyer and does not require it by federal rule (decided); counseling that is already part of an agency's normal loan process stays. FHA's cut lowers payments, which works the other way on default (judgment).
+- **The insurance fund.** FHA's capital ratio was 11.47% in fiscal 2025, 4.42% under a severe stress [EV-HOU-552]. The 3% safety line (proposed) protects the fund before the 2% legal floor.
+- **No cliff.** Buyer help is one-time at closing and uses the mortgage file's income, so it adds no phase-out to the rental help's stack (3.2).
+
 ## 4. Who it reaches
 
 Memo 8 promised that this section would check who the order reaches by race, place and disability.
