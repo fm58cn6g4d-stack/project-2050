@@ -12,7 +12,7 @@ Role: section 7 of the housing dossier, the adversarial section. It checks the p
 ## In brief
 
 1. **The money per household holds.** The plan's subsidy per leased household ($17,000 in FY2030, section 6) follows HUD's own 2023 spending [EV-HOU-370] and sits above CBO's older per-voucher figure [EV-HOU-391] for reasons that hold up: rents rose fast, and the plan's households are poorer and larger than the average voucher family. The risk runs upward, not downward, and the high case covers it.
-2. **Lease-up is the weakest assumption.** Section 6 assumes 90% of awards are leased at steady state. The national program runs at 84% [EV-HOU-370]; only 57% of searches succeeded in 2022 [EV-HOU-395]; Emergency Housing Vouchers reached 67% after about two years (section 5, 2.2). A lower lease rate makes the plan cheaper and the reach smaller: at 75% leased, about 150,000 fewer households are housed by 2034 than the central case says. The right that begins in 2037 could become a right to a voucher a family cannot use.
+2. **Lease-up is the weakest assumption.** Section 6 assumes 90% of awards are leased at steady state, after reissue. The closest precedent, Emergency Housing Vouchers, had 67% of its awards leased after about two years despite full fees and waivers (section 5, 2.2), and the share of individual searches that succeed fell from 66% in 2020 to 57% in 2022 [EV-HOU-395]. A lower lease rate makes the plan cheaper and the reach smaller: at 75% leased, about 150,000 fewer households are housed by 2034 than the central case says. The right that begins in 2037 could become a right to a voucher a family cannot use.
 3. **Stage 1 may be larger than the million.** Section 4 counts families doubled up for economic hardship as "without a home". That definition is far wider than the one-night count, and nobody has counted it for this plan. If it is used, stage 1 alone could take every award and push stage 2 back.
 4. **The construction money is small next to the shortage, and the plan sets no production target.** This section's rough arithmetic is a few hundred thousand to about a million plan-financed homes over the decade, and perhaps 0.2-0.5 million net new ones after crowd-out. The shortage is 4-5 million homes, and 7.1 million affordable rentals for the poorest renters [EV-HOU-017] [EV-HOU-018].
 5. **Income counting mostly works, with two clawbacks.** The monthly child benefit does not raise rent [26 U.S.C. 6409; section 4]. But free child care removes the child care deduction from voucher rent, so housing takes back about 30 cents of each dollar of care costs a family no longer pays [EV-HOU-409] [EV-HOU-410]. New Social Security and SSI income, and paid leave, count in full.
@@ -43,24 +43,24 @@ Each row sets the plan's figure beside independent ones. "Plan" is section 6's c
 
 ### 1.2 Lease-up
 
-| Source | Figure |
-| --- | --- |
-| National share of voucher units occupied [EV-HOU-370] | 84% (2023) |
-| New voucher holders who leased within six months [EV-HOU-092] | 61% (2015-19) |
-| Searches that succeeded [EV-HOU-395] | 57% in 2022, down from 66% in 2020; median successful search 78 days |
-| Rural against urban agencies [EV-HOU-396] | 58.5% against 62.3% (2019); the gap had grown to about 11 points by 2022 (Furman Center, 2025) [EV-HOU-395] |
-| Emergency Housing Vouchers, with full fees and waivers (section 5, 2.2) | 87% leased or issued after a year; 67% leased after about two years; 129 of 610 agencies under half |
-| Urban Institute's caveat on full funding [EV-HOU-394] | The success rate "would likely fall" as more households search |
-| **Plan** (section 6) | **90% leased at steady state** (84-98%); 6 months from award to lease (3-9) |
+| Source | Measure | Figure |
+| --- | --- | --- |
+| Emergency Housing Vouchers, with full fees and waivers (section 5, 2.2) | **Awards leased, with reissue** (the plan's own measure) | 87% leased or issued after a year; 67% leased after about two years; 129 of 610 agencies under half |
+| Searches that succeeded [EV-HOU-395] | Per search, within the search term | 57% in 2022, down from 66% in 2020; median successful search 78 days |
+| New voucher holders [EV-HOU-092] | Per new holder, within six months | 61% (2015-19) |
+| Rural against urban agencies [EV-HOU-396] | Per search, within six months | 58.5% against 62.3% (2019); success is lower in rural counties in 2022 too [EV-HOU-395] |
+| National voucher units [EV-HOU-370] | **Units occupied** of units authorized, held down by funding as well as by search | 84% (2023) |
+| Urban Institute's caveat on full funding [EV-HOU-394] | Per search | The success rate "would likely fall" as more households search |
+| **Plan** (section 6) | **Awards leased at steady state, with reissue** | **90%** (84-98%); 6 months from award to lease (3-9) |
 
-**Verdict: at risk.** The central case beats the national program by six points and the best recent precedent by more than twenty. Section 5's fixes (full fees, search help, over-issue, reallocation, a backstop administrator, source-of-income protection) are the right ones, and each has evidence behind it. But no program in the register has reached 90% at the plan's pace, and the plan's first awards land in the tight markets where homelessness is concentrated [EV-HOU-414] and lease-up is worst [EV-HOU-092].
+**Verdict: at risk.** The measures differ, so they are not compared one for one. A per-search rate understates the plan's measure, because a household whose first search fails can search again with a reissued voucher. The national occupancy rate is held down by funding limits as much as by search, so it is not a ceiling. The verdict rests on the two measures that bear directly: the only precedent measured the plan's way, Emergency Housing Vouchers, reached 67% after about two years, more than twenty points below the plan's 90%; and search success has been falling [EV-HOU-395]. Section 5's fixes (full fees, search help, over-issue, reallocation, a backstop administrator, source-of-income protection) are the right ones, and each has evidence behind it. But no program in the register has reached 90% at the plan's pace, and the plan's first awards land in the tight markets where homelessness is concentrated [EV-HOU-414] and lease-up is worst [EV-HOU-092].
 
 **What a lower rate does** (this section's arithmetic on section 6's central case: the rent cost scales with the leased share).
 
 | Leased share | HOU-4A rent cost, FY2030-39 | Households leased of the million (from FY2034) | Reach lost against the central case |
 | --- | --- | --- | --- |
 | 90% (central) | $136 billion | 900,000 | — |
-| 84% (national program) | about $127 billion | 840,000 | 60,000 |
+| 84% (section 6's low case) | about $127 billion | 840,000 | 60,000 |
 | 75% | about $113 billion | 750,000 | 150,000 |
 | 67% (EHV after about two years) | about $101 billion | 670,000 | 230,000 |
 
@@ -129,7 +129,7 @@ The plan sets no target for homes built or preserved by HOU-3C, HOU-8 and HOU-9A
 | Number | Plan | Independent range | Verdict |
 | --- | --- | --- | --- |
 | Subsidy per leased household, FY2030 | $17,000 | $15,800-18,000 from HUD's 2023 figure | Holds; risk upward |
-| Leased share at steady state | 90% | 57-84% | At risk |
+| Awards leased at steady state, with reissue | 90% | 67% after about two years (EHV); per-search success 57-66% and falling | At risk |
 | Take-up of stage 2 | 85% | 78-88% | Holds |
 | Homes from the capital | No target | 0.2-0.5 million net (arithmetic) | Gap: no target |
 | Homelessness reduction | Not stated | 0.12-1 fewer homeless person per targeted award | Direction holds; size unknown |
@@ -323,7 +323,7 @@ Memo 8 promised that this section would check who the order reaches by race, pla
 | --- | --- | --- |
 | Tight markets | Most homeless people are in the 50 largest cities and their suburbs [EV-HOU-414]; attached homes from 2032; neighborhood payment limits | Lease-up is worst [EV-HOU-092]; rent pass-through risk is highest (5.1); the 25% attached share is small |
 | Loose markets | Tenant-based vouchers; lease-up easier | Fewer homeless people per award; supply money has the least to do |
-| Rural areas | Same vouchers; HUD's definition of homelessness misses doubling up, which section 4 counts | Search success is lower at rural agencies, and the gap grew to about 11 points by 2022 [EV-HOU-395] [EV-HOU-396]; small agencies; the register has no rural share of new awards |
+| Rural areas | Same vouchers; HUD's definition of homelessness misses doubling up, which section 4 counts | Search success is lower at rural agencies [EV-HOU-395] [EV-HOU-396]; small agencies; the register has no rural share of new awards |
 | Tribal lands | Tribes are emergency-fund grantees (HOU-1D.03); nothing else is set | Tribal housing problems are physical condition and crowding (23% and 16%, against 5% and 2% nationally), with 42,000-85,000 homeless people living doubled up [EV-HOU-406]. Vouchers buy rent, not repair or new homes, so the guarantee does little here |
 
 - **The tribal gap is the largest place gap.** The plan has no tribal construction or repair line. Options for Espen (none adopted): a tribal set-aside in HOU-3C.01 run through the Native American housing block grant, as section 5's question 2 asks; or a separate tribal capital line. The ERA precedent gave tribes about 3% of its first round (section 5, question 2).
