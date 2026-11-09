@@ -16432,5 +16432,122 @@
   "supports": [
    "dossiers/home/research-ownership-supply.md"
   ]
+ },
+ {
+  "id": "EV-HOU-599",
+  "statement": "CRS: USDA's Section 502 Direct program lends to very low- and low-income rural buyers who cannot get credit elsewhere; payment subsidies can cut the effective rate to as low as 1%, no down payment is generally required, and terms run to 33 years, or 38 for borrowers below 60% of area median income. Direct loans peaked at nearly 133,000 in FY1976; in FY2021 USDA made about 5,000 direct loans against about 127,000 guaranteed, with $55.4 million of appropriations supporting up to $1 billion of direct loans; FY2019 direct borrowers averaged $35,220 of income against $63,240 for guaranteed borrowers.",
+  "claim": "data",
+  "figures": [
+   "1%",
+   "33 years",
+   "60%",
+   "38 years",
+   "133,000",
+   "127,000",
+   "5,000",
+   "$55.4 million",
+   "$1 billion",
+   "$35,220",
+   "$63,240"
+  ],
+  "source": "SRC-1898",
+  "anchor": [
+   "Through this program, USDA makes direct loans to very low- and low-income individuals, who\ndo not currently own adequate housing, to purchase homes to be used as primary residences.",
+   "provides mortgages with fixed interest rates to qualified borrowers who are unable to obtain\ncredit elsewhere.",
+   "payment subsidies can reduce effective interest rates to as low as 1%. Loan amounts\nmay be up to 100% of the property\u2019s market value or an area loan limit, whichever is less.30 No\ndown payment is generally required.31 In general, the maximum loan term is 33 years; certain\nborrowers with incomes below 60% of area median income may qualify for a loan term as long as\n38 years.",
+   "annually peaked in FY1976, at nearly 133,000, and then began to steadily decrease",
+   "In FY2021, USDA guaranteed about 127,000 Section 502 loans and made about 5,000 Section\n502 direct loans.",
+   "FY2021, $55.4 million in appropriations was provided to support up to $1 billion in Section 502\ndirect loans.",
+   "direct loan borrowers had an average income of $35,220 compared to $63,240 in the guaranteed\nloan program.",
+   "populations served by the direct and guaranteed programs. For example, in FY2019 Section 502"
+  ],
+  "locator": "Homeownership Programs, Section 502 Single Family Housing Direct Loans; Trends in Section 502 Direct and Guaranteed Loans",
+  "grade": "C",
+  "fact_date": "2022-03-08",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Nonpartisan legislative-branch agency; overview dated March 2022 (FY2021 data, from Housing Assistance Council tabulations of RHS data). Graded C as a secondary summary; 7 CFR 3550.67 and 3550.68 set the terms. Later volume is in EV-HOU-700.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md",
+   "dossiers/home/memos/9-homeownership.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-700",
+  "statement": "USDA reported that in FY2026 the Section 502 Direct Loan Program lent $571 million, about 76% of available funds, to 2,115 families, at an average loan of $269,000, and that first-year delinquency fell from 3.82% in September 2025 to 2.89% in September 2026.",
+  "claim": "data",
+  "figures": [
+   "$571 million",
+   "76%",
+   "2,115",
+   "$269,000",
+   "3.82%",
+   "2.89%"
+  ],
+  "source": "SRC-1899",
+  "anchor": [
+   "also known as the Section 502 Direct Loan Program",
+   "In FY 2026, the agency provided $571 million in loans, about 76% of available funds, to help 2,115 families buy homes. The average loan amount was $269,000.",
+   "first-year delinquency rates dropped 25%, falling from 3.82% in September 2025 to 2.89% in September 2026"
+  ],
+  "locator": "Statutory Multi-Year Allocation and Operational Execution; Strengthened Credit Performance, item 1",
+  "grade": "A",
+  "fact_date": "2026-10-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-31",
+  "context": "USDA Rural Development press release, October 6, 2026 (second Trump administration). Program data; its framing (\"fiscal discipline\", lower volume) is the administration's. The program's FY2026-27 funding was $1 billion over two years.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-701",
+  "statement": "ProPublica and the Bangor Daily News reported that 30,496 of USDA's 159,208 active Section 502 direct loans, nearly a fifth, were delinquent in March 2025, double what a 1993 internal agency report called acceptable, and that Maine borrowers USDA foreclosed on had been in default for an average of nearly nine years.",
+  "claim": "data",
+  "figures": [
+   "159,208",
+   "30,496",
+   "1993"
+  ],
+  "source": "SRC-2000",
+  "anchor": [
+   "Nearly a fifth of the USDA\u2019s 159,208 Section 502 direct loans in its active national portfolio \u2014 30,496 \u2014 were delinquent as of March, according to internal agency data obtained by the Bangor Daily News and ProPublica. That rate is double what a 1993 internal agency report said was acceptable.",
+   "The borrowers have been in default for an average of nearly nine years."
+  ],
+  "locator": "Article body",
+  "grade": "C",
+  "fact_date": "2025-03",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Investigative news report (ProPublica with the Bangor Daily News, July 18, 2025) citing internal USDA data it obtained; not an official release. Delinquency here is all delinquent loans in the portfolio, a broader measure than EV-HOU-700's first-year rate.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md",
+   "dossiers/home/memos/9-homeownership.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-702",
+  "statement": "Petach finds that states with more USDA Section 502 loans per person (direct and guaranteed together) have higher homeownership and lower housing-cost burdens, more so for Black and Hispanic households: doubling loans per person goes with a 1 to 8.7 point higher chance of owning for Black households, though some estimates are imprecise.",
+  "claim": "analysis",
+  "figures": [
+   "1",
+   "8.7"
+  ],
+  "source": "SRC-2001",
+  "anchor": [
+   "an increase in the number of small dollar mortgage loans per-capita at the state level is positively associated with homeownership and housing affordability, particularly for low income households and non-white households.",
+   "Doubling the number of state-level USDA loans per-capita increases the probability of homeownership for Black households between 1 and 8.7 percentage points",
+   "The effect of USDA Section 502 lending on homeownership is meaningfully increased for Black and Hispanic households, although it is imprecisely estimated in some specifications."
+  ],
+  "locator": "Abstract; section 1",
+  "grade": "B",
+  "fact_date": "2024-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed article (Journal of Regional Analysis and Policy; accepted November 2024) by one economist (Belmont University). State-level correlations with fixed effects, not a causal design; it pools direct and guaranteed loans, so it does not isolate the direct program. Read 2026-11-09 through the Exa tool; the reviewer should check the quotations.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
  }
 ]
