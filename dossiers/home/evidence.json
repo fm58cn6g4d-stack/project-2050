@@ -16549,5 +16549,251 @@
   "supports": [
    "dossiers/home/research-ownership-supply.md"
   ]
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md",
+   "dossiers/home/6-cost.md",
+   "dossiers/scenario/2027-28-playbook.md"
+  ],
+  "id": "EV-HOU-750",
+  "statement": "The FY2027 continuing resolution funds the programs in the FY2026 THUD and Agriculture appropriations acts at FY2026 rates and under FY2026 conditions until December 11, 2026, unless a full-year act comes first.",
+  "claim": "data",
+  "figures": [
+   "2026",
+   "11"
+  ],
+  "source": "SRC-2200",
+  "anchor": [
+   "Sec. 106. Unless otherwise provided for in this Act or in the\napplicable appropriations Act for fiscal year 2027, appropriations and",
+   "(3) December 11, 2026.",
+   "(12) The Transportation, Housing and Urban Development, and\nRelated Agencies Appropriations Act, 2026 (division D of Public Law"
+  ],
+  "locator": "Division A, sections 101(1), 101(12) and 106",
+  "grade": "A",
+  "fact_date": "2026-09-02",
+  "context": "Enacted law, signed September 2, 2026. Section 101(1) continues the FY2026 Agriculture act (division B of P.L. 119-37) and 101(12) the FY2026 THUD act (division D of P.L. 119-75). The 119-103 and 2027 in the statement are the law's own number and fiscal year (header)."
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md",
+   "dossiers/home/4-specification.md",
+   "dossiers/home/6-cost.md",
+   "dossiers/scenario/2027-28-playbook.md"
+  ],
+  "id": "EV-HOU-751",
+  "statement": "The continuing resolution bars using its funds to start or resume any activity that had no appropriation in FY2026, so no ROAD to Housing Act program enacted in July 2026 can start under it.",
+  "claim": "data",
+  "figures": [
+   "2026"
+  ],
+  "source": "SRC-2200",
+  "anchor": [
+   "Sec. 104. Except as otherwise provided in section 102, no\nappropriation or funds made available or authority granted pursuant to\nsection 101 shall be used to initiate or resume any project or activity\nfor which appropriations, funds, or other authority were not available\nduring fiscal year 2026."
+  ],
+  "locator": "Division A, section 104",
+  "grade": "A",
+  "fact_date": "2026-09-02",
+  "context": "The text bars new starts; that this covers the ROAD programs is this note's reading, since none had FY2026 money (the FY2026 THUD act predates the ROAD Act, and SRC-1901's table has no ROAD line)."
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md"
+  ],
+  "id": "EV-HOU-752",
+  "statement": "No FY2027 regular appropriations bill had been enacted when the continuing resolution was enacted; the House Appropriations Committee had reported all 12 and the House had passed 3, while the Senate Appropriations Committee had reported none.",
+  "claim": "data",
+  "figures": [
+   "2027",
+   "12",
+   "3"
+  ],
+  "source": "SRC-2204",
+  "anchor": [
+   "None of the regular appropriations bills for FY2027 had been enacted prior to the enactment of P.",
+   "The House Appropriations Committee reported its version of all 12 FY2027 regular appropriations bills, and the House subsequently passed 3.",
+   "The Senate Appropriations Committee had not reported its version of any FY2027 regular appropriations bills, and none had been considered by the Senate."
+  ],
+  "locator": "Introduction",
+  "grade": "C",
+  "fact_date": "2026-09-17",
+  "context": "CRS (nonpartisan, legislative branch), version 1 of September 17, 2026. The three House-passed bills were Military Construction-VA, Agriculture (H.R. 8646) and National Security-State; THUD was not among them."
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md",
+   "dossiers/home/4-specification.md",
+   "dossiers/home/6-cost.md",
+   "dossiers/scenario/2027-28-playbook.md"
+  ],
+  "id": "EV-HOU-753",
+  "statement": "The House Appropriations Committee's THUD bill would hold CDBG formula grants at $3,300 million, cut HOME from $1,250 million to $500 million, give nothing to the PRO Housing barrier-removal grants (50 in FY2026), cut public housing capital grants from $3,200 million to $2,286 million and voucher administrative fees from $2,836 million to $2,300 million. HUD's gross FY2026 appropriations, before offsets, were $84,274 million.",
+  "claim": "data",
+  "figures": [
+   "3,300",
+   "1,250",
+   "500",
+   "50",
+   "3,200",
+   "2,286",
+   "2,836",
+   "2,300",
+   "84,274"
+  ],
+  "source": "SRC-1901",
+  "anchor": [
+   "CDBG Formula Grants\n3,300\n0\n3,300",
+   "Grants to Reduce Barriers to Affordable Housing/PRO Housing\n50\n0\n0",
+   "HOME Investment Partnerships\n1,250\n0\n500",
+   "Capital Formula Grants (non-add)\n3,200\n3,200\n2,286",
+   "Administrative Fees (non-add)\n2,836\n2,951\n2,300",
+   "Gross Appropriations Subtotal (non-emergency)\n84,274"
+  ],
+  "locator": "Table 3 (columns: FY2026 enacted, FY2027 request, FY2027 House committee), millions of dollars",
+  "grade": "C",
+  "fact_date": "2026-09-03",
+  "context": "CRS table of the House committee bill (H.R. 9170, Republican majority) against FY2026 enacted; the second figure in each anchor is the President's request (second Trump administration), which zeroed CDBG, HOME and PRO Housing. The Senate committee had proposed no FY2027 THUD bill; Congress.gov's version 7 of the report (November 4, 2026) still shows none."
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md",
+   "dossiers/home/4-specification.md",
+   "dossiers/home/6-cost.md"
+  ],
+  "id": "EV-HOU-754",
+  "statement": "H.R. 9170, the House committee's THUD bill printed June 5, 2026, appropriates $500,000,000 for HOME and, inside the healthy homes line, $30,000,000 for home modification repairs that let low-income seniors stay in their homes; it carries no line for any ROAD to Housing Act program.",
+  "claim": "data",
+  "figures": [
+   "9170",
+   "5",
+   "2026",
+   "500,000,000",
+   "30,000,000"
+  ],
+  "source": "SRC-2201",
+  "anchor": [
+   "H. R. 9170",
+   "June 5, 2026",
+   "amended (42 U.S.C. 12721 et seq.), $500,000,000, to remain available",
+   "communities: Provided further, That $30,000,000 of amounts\nmade available under this paragraph shall be for grants to\nexperienced non-profit organizations, States, local\ngovernments, or public housing agencies for safety and\nfunctional home modification repairs and renovations to meet\nthe needs of low-income seniors to enable them to remain in"
+  ],
+  "locator": "Title II, HOME Investment Partnerships Program; Office of Lead Hazard Control and Healthy Homes",
+  "grade": "A",
+  "fact_date": "2026-06-05",
+  "context": "Bill text as reported, before the ROAD Act became law on July 11, 2026. The absence of ROAD lines (Innovation Fund, planning grants, pattern books, whole-home repair, RESIDE, PRICE) is this note's reading of the full text; it cannot be anchored to one passage."
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md",
+   "dossiers/scenario/2027-28-playbook.md"
+  ],
+  "id": "EV-HOU-755",
+  "statement": "The House-passed Agriculture bill keeps Section 502 direct loans at $1,000,000,000, raises rural rental assistance to $1,795,000,000, and keeps $48,000,000 for rural housing vouchers and $30,000,000 for the 514, 515 and 516 preservation and revitalization demonstration.",
+  "claim": "data",
+  "figures": [
+   "502",
+   "1,000,000,000",
+   "1,795,000,000",
+   "48,000,000",
+   "30,000,000",
+   "514",
+   "515",
+   "516"
+  ],
+  "source": "SRC-2202",
+  "anchor": [
+   "follows: $1,000,000,000 shall be for section 502 direct loans;",
+   "Housing Act of 1949, $1,795,000,000, and in addition such sums as may",
+   "such section, $48,000,000, to remain available until expended:",
+   "Budget Act of 1974, $30,000,000, to remain available until expended,\nfor a demonstration program for the preservation and revitalization of\nthe sections 514, 515, and 516 multi-family rental housing properties"
+  ],
+  "locator": "Title III, Rural Housing Service: Rural Housing Insurance Fund Program Account, Rental Assistance Program, Rural Housing Voucher Account",
+  "grade": "A",
+  "fact_date": "2026-06-04",
+  "context": "Passed the House 213-210 on June 4, 2026 (CRS R49343); the Senate has no FY2027 Agriculture bill (EV-HOU-757). The 2027 in the statement is the bill's fiscal year."
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md"
+  ],
+  "id": "EV-HOU-756",
+  "statement": "The Agriculture act now in force, which the continuing resolution extends, provided $1,715,000,000 for rural rental assistance, $48,000,000 for rural housing vouchers, $30,000,000 for the preservation demonstration and $27,000,000 for very low-income repair and preservation grants.",
+  "claim": "data",
+  "figures": [
+   "1,715,000,000",
+   "48,000,000",
+   "30,000,000",
+   "27,000,000"
+  ],
+  "source": "SRC-2203",
+  "anchor": [
+   "Act of 1949, $1,715,000,000, and in addition such sums as may be",
+   "such section, $48,000,000, to remain available until expended:",
+   "Budget Act of 1974, $30,000,000, to remain available until expended, for",
+   "U.S.C. 1474, and 1490m, $27,000,000, to remain available until expended."
+  ],
+  "locator": "Division B, title III, Rural Housing Service",
+  "grade": "A",
+  "fact_date": "2025-11-12",
+  "context": "Enacted law; division B is the FY2026 Agriculture appropriations act. The House FY2027 bill (EV-HOU-755) cuts the repair and preservation grants to $26 million."
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md",
+   "dossiers/scenario/2027-28-playbook.md"
+  ],
+  "id": "EV-HOU-757",
+  "statement": "The House has passed the FY2027 Agriculture bill (H.R. 8646), but no FY2027 Agriculture appropriations bill has been introduced in the Senate.",
+  "claim": "data",
+  "figures": [
+   "2027",
+   "8646"
+  ],
+  "source": "SRC-2205",
+  "anchor": [
+   "In the 119 th Congress, the House passed an FY2027 Agriculture appropriations bill ( H.R. 8646 ). To date, an FY2027 Agriculture appropriations bill has not been introduced in the Senate. 11"
+  ],
+  "locator": "Introduction",
+  "grade": "C",
+  "fact_date": "2026-11-04",
+  "context": "CRS (nonpartisan), version 2 of November 4, 2026."
+ },
+ {
+  "checked": "2026-11-09",
+  "recheck": "2027-02-09",
+  "supports": [
+   "dossiers/home/road-funding.md"
+  ],
+  "id": "EV-HOU-758",
+  "statement": "The ROAD to Housing Act lets USDA use money appropriated for the purpose to add Rural Housing Service staff and upgrade its loan technology, with technology money available for 5 years; it appropriates none.",
+  "claim": "data",
+  "figures": [
+   "5"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "(c) <<NOTE: 7 USC 1981 note.>> Staffing and Information Technology\nUpgrades.--Utilizing funds appropriated for such purposes, the Secretary\nof Agriculture may increase staffing capacity and upgrade information\ntechnology to support all Rural Housing Service programs.",
+   "(2) <<NOTE: Expiration date.>> Availability.--Amounts\nappropriated pursuant to paragraph (1) shall remain available\nuntil the date that is 5 years after the date of the"
+  ],
+  "locator": "Section 502(c) and (d)",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "context": "Enacted text. 'None appropriated' follows from section 1202 (EV-HOU-201)."
  }
 ]
