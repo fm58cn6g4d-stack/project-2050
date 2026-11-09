@@ -10139,5 +10139,179 @@
   "supports": [
    "dossiers/home/research-doubled-up.md"
   ]
+ },
+ {
+  "id": "EV-HOU-440",
+  "statement": "New privately-owned housing units completed in the United States were 1390.5 thousand in 2022, 1448.8 thousand in 2023, 1626.9 thousand in 2024 and 1488.5 thousand in 2025.",
+  "claim": "data",
+  "figures": [
+   "1390.5",
+   "1448.8",
+   "1626.9",
+   "1488.5"
+  ],
+  "source": "SRC-1720",
+  "anchor": [
+   "row 60 | New Privately-Owned Housing Units Completed = 2022",
+   "row 60 |  = 1390.5",
+   "row 61 | New Privately-Owned Housing Units Completed = 2023",
+   "row 61 |  = 1448.8",
+   "row 62 | New Privately-Owned Housing Units Completed = 2024",
+   "row 62 |  = 1626.9",
+   "row 63 | New Privately-Owned Housing Units Completed = 2025",
+   "row 63 |  = 1488.5"
+  ],
+  "locator": "Sheet Annual, United States total, rows 60-63 (thousands of units)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-02-28",
+  "note": "Census Bureau and HUD, New Residential Construction, annual completions. Over 2016-2025 the rows sum to about 13.2 million (this dossier's arithmetic from rows 54-63).",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-441",
+  "statement": "The Joint Center for Housing Studies projects baseline demand for 11.3 million new homes in 2025-2035 (9.5 million under low immigration, 14.1 million under high) and 8.0 million in 2035-2045, not counting any current shortage.",
+  "claim": "analysis",
+  "figures": [
+   "11.3 million",
+   "8.0 million"
+  ],
+  "source": "SRC-1721",
+  "anchor": [
+   "we estimate the need for 11.3 million new homes to be built between 2025 and 2035, slowing to just 8.0 million new units needed between 2035 and 2045",
+   "Under the low-immigration projection, construction demand for 2025\u20132035 falls to 9.5 million units",
+   "even under the high-immigration projection, new construction demand for 2025\u20132035 would be for 14.1 million units"
+  ],
+  "locator": "Abstract; Demand for New Housing Units",
+  "grade": "C",
+  "fact_date": "2025-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "context": "Harvard Joint Center for Housing Studies working paper (McCue, January 2025), a university research center funded partly by housing-industry sponsors. Analysis: a projection driven by Census population projections; most sensitive to immigration.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-017",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-442",
+  "statement": "The Joint Center notes that actual construction could exceed its demand projections to the extent new building is needed to overcome an existing shortage, which it puts at anywhere from 1.5 million to 5.5 million units.",
+  "claim": "analysis",
+  "figures": [
+   "1.5 million",
+   "5.5 million"
+  ],
+  "source": "SRC-1722",
+  "anchor": [
+   "Actual construction levels in the future could exceed these estimates to the extent that new construction is needed to overcome an existing shortage of housing, which is estimated to be anywhere from 1.5 million to 5.5 million units."
+  ],
+  "locator": "Blog summary of the projections, January 6, 2025",
+  "grade": "C",
+  "fact_date": "2025-01-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "context": "Harvard Joint Center for Housing Studies blog by the paper's author; summarizes published shortage estimates.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-017",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-443",
+  "statement": "Since 1987 the low-income housing tax credit has created just over 3 million affordable rental units.",
+  "claim": "data",
+  "figures": [
+   "1987",
+   "3"
+  ],
+  "source": "SRC-0301",
+  "anchor": [
+   "Since 1987, the LIHTC program has created just over 3",
+   "million affordable rental units."
+  ],
+  "locator": "Selected Policy Issues Facing Congress: Affordable Housing Supply",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "note": "CRS summary of HUD's LIHTC database; about 95,000 units a year on average over the program's life (this dossier's arithmetic).",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-444",
+  "statement": "Novogradac estimates the Affordable Housing Credit Improvement Act could finance 1,589,100 additional rental homes over 10 years, including 517,500 to 1,143,000 from lowering the bond test to 25%, more than 175,000 from 30% basis boosts, 104,000 from the extremely low-income boost and 167,000 from the 9% allocation increase.",
+  "claim": "analysis",
+  "figures": [
+   "1,589,100",
+   "517,500",
+   "1,143,000",
+   "175,000",
+   "104,000",
+   "167,000"
+  ],
+  "source": "SRC-1723",
+  "anchor": [
+   "Novogradac analysis estimating that its enactment could finance 1,589,100 additional affordable rental homes over 10 years",
+   "517,500 affordable rental homes over 2026-2035",
+   "1,143,000 affordable rental homes over 2026-2035",
+   "could finance more than 175,000 additional affordable rental homes over 2026-2035",
+   "an additional 104,000 affordable rental homes over 2026-35",
+   "could finance 167,000 additional affordable rental homes over 2025-2034",
+   "The AHCIA would lower the PAB financed-by threshold, commonly known as the \u201c50% test,\u201d from 50% to 25%.",
+   "enacting AHCIA 30% basis boost provisions primarily affecting 4% LIHTC",
+   "The 2025 AHCIA\u2019s provisions to increase 9% allocation annually by 25% plus inflation"
+  ],
+  "locator": "Notes from Novogradac, April 8, 2025",
+  "grade": "C",
+  "fact_date": "2025-04-08",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "context": "Novogradac is an accounting and consulting firm in the tax-credit business, so it has a stake; the estimates assume gap financing scales with the credit. The 2025 law (P.L. 119-21) has since enacted the 25% bond test and a 12% allocation increase [EV-HOU-260], so those parts are no longer the bill's to add. Presented as one source's view; no independent estimate found.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-275",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-445",
+  "statement": "The United States had 148,228,967 housing units in 2025, with a margin of error of 9,472.",
+  "claim": "data",
+  "figures": [
+   "148,228,967",
+   "9,472"
+  ],
+  "source": "SRC-1724",
+  "anchor": [
+   "B25001_001E | Estimate: Total housing units = 148228967 (148,228,967)",
+   "B25001_001M | Margin of error: Total housing units = 9472 (9,472)"
+  ],
+  "locator": "Table B25001, United States",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
  }
 ]
