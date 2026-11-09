@@ -1405,12 +1405,13 @@
     "id": "HOU-12.01",
     "title": "The home repair fund for low- and moderate-income owners, 2030-39",
     "agenda": "HOU-12",
-    "status": "decided (memo 11 part 1 C); amounts proposed, for Espen",
+    "status": "decided (memo 11 part 1 C); amounts decided (DEC-2026-11-09-25)",
     "decisions": [
       "DEC-2026-11-09-21",
-      "DEC-2026-11-09-22"
+      "DEC-2026-11-09-22",
+      "DEC-2026-11-09-25"
     ],
-    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (proposed); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (proposed); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030 then $4B a year FY2031-39 (proposed); published counts and reviews, no set-asides",
+    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (decided, DEC-2026-11-09-25); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (decided, DEC-2026-11-09-25); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030 then $4B a year FY2031-39 (decided, DEC-2026-11-09-25); published counts and reviews, no set-asides",
     "eligibility": "Owner-occupants at or below 120% AMI, heirs in residence included, by signed statement or enrollment in SNAP, Medicaid, SSI, LIHEAP or Weatherization; no credit or tax-current test",
     "vehicle": [
       {
@@ -1451,11 +1452,12 @@
     "id": "HOU-12.02",
     "title": "Repairs for renters: landlord loans with a light rent term, city repair funds, receivership, relocation help",
     "agenda": "HOU-12",
-    "status": "decided (memo 11 part 2 B); loan limits proposed, for Espen",
+    "status": "decided (memo 11 part 2 B); loan limits decided (DEC-2026-11-09-25)",
     "decisions": [
-      "DEC-2026-11-09-21"
+      "DEC-2026-11-09-21",
+      "DEC-2026-11-09-25"
     ],
-    "parameters": "Loans to owners of up to 20 units (proposed), up to $25,000 a unit (proposed), forgiven after 3 years if rent increases stay at or below the lower of 5% or inflation; no tenant income check or ownership period; publicly paid work never passed on in rent; city repair-and-bill funds with liens; revolving loans to receivers; moving costs and up to three months' rent where tenants are ordered out (proposed); no federal inspection mandate",
+    "parameters": "Loans to owners of up to 20 units (decided, DEC-2026-11-09-25), up to $25,000 a unit (decided, DEC-2026-11-09-25), forgiven after 3 years if rent increases stay at or below the lower of 5% or inflation; no tenant income check or ownership period; publicly paid work never passed on in rent; city repair-and-bill funds with liens; revolving loans to receivers; moving costs and up to three months' rent where tenants are ordered out (decided, DEC-2026-11-09-25); no federal inspection mandate",
     "eligibility": "Small landlords; local governments; court-appointed receivers; tenants ordered out of unsafe homes",
     "vehicle": [
       {
@@ -1557,11 +1559,12 @@
     "id": "HOU-13.01",
     "title": "A federal match for state property-tax relief for older owners, with deferral",
     "agenda": "HOU-13",
-    "status": "decided (memo 12 part 1 B); threshold and maintenance of effort proposed, for Espen",
+    "status": "decided (memo 12 part 1 B); threshold and maintenance of effort decided (DEC-2026-11-09-25)",
     "decisions": [
-      "DEC-2026-11-09-22"
+      "DEC-2026-11-09-22",
+      "DEC-2026-11-09-25"
     ],
-    "parameters": "From FY2031, half of state relief for owners 65+ or disabled up to 80% AMI, on relief above 3% of income (proposed); standards: relief by income, deferral of the rest as a lien repaid at sale or death with no yearly reapplication, enrollment from records the state holds; renters optional; match only above each state's 2028 effort (proposed); a payment plan or deferral offered before any tax sale of an older owner's home; yearly published counts",
+    "parameters": "From FY2031, half of state relief for owners 65+ or disabled up to 80% AMI, on relief above 3% of income (decided, DEC-2026-11-09-25); standards: relief by income, deferral of the rest as a lien repaid at sale or death with no yearly reapplication, enrollment from records the state holds; renters optional; match only above each state's 2028 effort (decided, DEC-2026-11-09-25); a payment plan or deferral offered before any tax sale of an older owner's home; yearly published counts",
     "eligibility": "Owners 65 or over, or with disabilities, at or below 80% AMI, in states meeting the standards",
     "vehicle": [
       {
@@ -1593,11 +1596,12 @@
     "id": "HOU-13.02",
     "title": "Protecting older owners' equity: legal help, reverse-mortgage relief in law, a payment plan before tax sales",
     "agenda": "HOU-13",
-    "status": "decided (memo 12 part 3 B); amount proposed, for Espen",
+    "status": "decided (memo 12 part 3 B); amount decided (DEC-2026-11-09-25)",
     "decisions": [
-      "DEC-2026-11-09-22"
+      "DEC-2026-11-09-22",
+      "DEC-2026-11-09-25"
     ],
-    "parameters": "Legal-aid grants of $200M a year (proposed) for tangled titles, simple wills and transfer-on-death deeds, and tax-foreclosure defense, for owners at or below 80% AMI; FHA's 2023 HECM relief in statute ($5,000 arrears threshold, repayment plans up to five years); the tax-sale offer in HOU-13.01; published list of states with the uniform partition law",
+    "parameters": "Legal-aid grants of $200M a year (decided, DEC-2026-11-09-25) for tangled titles, simple wills and transfer-on-death deeds, and tax-foreclosure defense, for owners at or below 80% AMI; FHA's 2023 HECM relief in statute ($5,000 arrears threshold, repayment plans up to five years); the tax-sale offer in HOU-13.01; published list of states with the uniform partition law",
     "eligibility": "Owners at or below 80% AMI (legal help); HECM borrowers",
     "vehicle": [
       {
@@ -1629,11 +1633,12 @@
     "id": "HOU-13.03",
     "title": "Service coordinators in older renters' buildings",
     "agenda": "HOU-13",
-    "status": "decided (memo 12 part 4 C); amount proposed, for Espen",
+    "status": "decided (memo 12 part 4 C); amount decided (DEC-2026-11-09-25)",
     "decisions": [
-      "DEC-2026-11-09-22"
+      "DEC-2026-11-09-22",
+      "DEC-2026-11-09-25"
     ],
-    "parameters": "A service coordinator available to every federally assisted building where most households are headed by someone 62 or over; $150M a year more from FY2031 (proposed); referrals to Medicaid home care and HOU-12.04",
+    "parameters": "A service coordinator available to every federally assisted building where most households are headed by someone 62 or over; $150M a year more from FY2031 (decided, DEC-2026-11-09-25); referrals to Medicaid home care and HOU-12.04",
     "eligibility": "Federally assisted buildings mostly of older households",
     "vehicle": [
       {
@@ -1657,11 +1662,12 @@
     "id": "HOU-13.04",
     "title": "Home-sharing grants",
     "agenda": "HOU-13",
-    "status": "decided (memo 12 smaller point 2); amount proposed, for Espen",
+    "status": "decided (memo 12 smaller point 2); amount decided (DEC-2026-11-09-25)",
     "decisions": [
-      "DEC-2026-11-09-22"
+      "DEC-2026-11-09-22",
+      "DEC-2026-11-09-25"
     ],
-    "parameters": "Grants to nonprofits matching older owners with low-rent tenants who help around the house; $30M a year FY2031-39 (proposed; the decision sets it under $50M); report by 2035",
+    "parameters": "Grants to nonprofits matching older owners with low-rent tenants who help around the house; $30M a year FY2031-39 (decided, DEC-2026-11-09-25); report by 2035",
     "eligibility": "Older owners and home-sharing nonprofits",
     "vehicle": [
       {
