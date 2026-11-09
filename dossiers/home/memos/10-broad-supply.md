@@ -1,6 +1,6 @@
 # Memo 10: Building more homes of every kind
 
-Role: decision memo for Espen, part 1 of the section 3 addendum (`../3-design.md`, "Addendum: homeownership and broad supply"). Status: awaiting Espen's decision; four parts, each decided on its own. The research is in `../research-ownership-supply.md`, section 4. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Counts marked "judgment" are this dossier's estimates.
+Role: decision memo for Espen, part 1 of the section 3 addendum (`../3-design.md`, "Addendum: homeownership and broad supply"). Status: decided by Espen (November 9, 2026; `DEC-2026-11-09-20`): option B in all four parts. Section 4 writes part 1 into HOU-6.01 and parts 2 to 4 as HOU-11.01 to .03. The research is in `../research-ownership-supply.md`, section 4. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Counts marked "judgment" are this dossier's estimates.
 
 ## The question
 

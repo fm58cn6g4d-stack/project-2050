@@ -708,7 +708,8 @@
     "decisions": [
       "DEC-2026-11-09-03",
       "DEC-2026-11-09-09",
-      "DEC-2026-11-09-10"
+      "DEC-2026-11-09-10",
+      "DEC-2026-11-09-19"
     ],
     "parameters": "About $72B awarded FY2030-37 so it is spent by 2039: $3B 2030, $5B 2031, $10B a year 2032-33, $11B a year 2034-37 (yearly split judgment); 20% state match; at least 30% grants or forgivable loans for ELI homes; acquisition and preservation eligible; tribal share through tribes (HOU-4.13; proposed 5%)",
     "eligibility": "States",
@@ -741,7 +742,8 @@
     "decisions": [
       "DEC-2026-11-09-03",
       "DEC-2026-11-09-09",
-      "DEC-2026-11-09-10"
+      "DEC-2026-11-09-10",
+      "DEC-2026-11-09-19"
     ],
     "parameters": "$300B commitments 2030-38 ($10B, $20B, $30B, then $40B a year 2033-38; split judgment), disbursed by about 2039; FFB; state HFA risk-share; acquisition eligible; tribes and tribally designated housing entities eligible borrowers",
     "eligibility": "Mixed-income and social housing, housing agencies, nonprofit and tax-credit projects",
@@ -839,6 +841,36 @@
     "spec": "dossiers/home/4-specification.md"
   },
   {
+    "id": "HOU-3C.05",
+    "title": "Homes to buy: up to $30 billion of construction loans for starter homes and condos, and grants for resale-limited homes",
+    "agenda": "HOU-3C",
+    "status": "decided (memo 9 part 3 C)",
+    "decisions": [
+      "DEC-2026-11-09-19"
+    ],
+    "parameters": "Up to $30B of HOU-3C.02 commitments as construction and construction-to-permanent loans; homes sold to owner-occupants at or under FHA's area loan limit; HOU-3C.01 grants outside the 30% share may fund resale-limited homes; reported as its own line in HOU-3C.04",
+    "eligibility": "Small, nonprofit and other builders; buyers who will live in the home",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "credit subsidy",
+        "note": "inside HOU-3C's amounts"
+      }
+    ],
+    "agency": "HUD, with state housing finance agencies and community development lenders",
+    "current_law": "New use of HOU-3C",
+    "evidence": [
+      "EV-HOU-567",
+      "EV-HOU-568",
+      "EV-HOU-569",
+      "EV-HOU-548",
+      "EV-HOU-597"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.8: no added cost",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
     "id": "HOU-5.01",
     "title": "Public housing repair",
     "agenda": "HOU-5",
@@ -903,9 +935,10 @@
     "agenda": "HOU-6",
     "status": "decided",
     "decisions": [
-      "DEC-2026-11-09-04"
+      "DEC-2026-11-09-04",
+      "DEC-2026-11-09-20"
     ],
-    "parameters": "Plan's money into ROAD sec. 208 fund; states and regions eligible; pay for homes finished; count lower-cost homes; raise $10M cap; remove 2033 end; Build Now kept, studied by 2032",
+    "parameters": "Plan's money into ROAD sec. 208 fund; states and regions eligible; pay for homes finished; count lower-cost homes; raise $10M cap; remove 2033 end; Build Now kept, studied by 2032; also rewards single-stair buildings to six stories, equal treatment and real-property titling of manufactured homes, small lots, no parking minimums, state infill exemptions from state environmental review, and condo defect-liability reform (memo 10 part 1 B)",
     "eligibility": "States, regions, localities, tribes",
     "vehicle": [
       {
@@ -928,7 +961,13 @@
       "EV-HOU-206",
       "EV-HOU-207",
       "EV-HOU-208",
-      "EV-HOU-244"
+      "EV-HOU-244",
+      "EV-HOU-578",
+      "EV-HOU-580",
+      "EV-HOU-590",
+      "EV-HOU-592",
+      "EV-HOU-596",
+      "EV-HOU-598"
     ],
     "sources": [],
     "cost_source": "legacy about $0.03T inside ledger title",
@@ -1166,6 +1205,166 @@
     ],
     "sources": [],
     "cost_source": "none directly; lowers credit pricing somewhat (memo 3 research, M4)",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-10.01",
+    "title": "Down payment help for first-time buyers through state housing finance agencies, 2030-39",
+    "agenda": "HOU-10",
+    "status": "decided (memo 9 part 1 C, with Espen's changes); income limits proposed",
+    "decisions": [
+      "DEC-2026-11-09-19"
+    ],
+    "parameters": "Up to $20,000 or 10% of price (up to 25% more for new homes or homes in zoning-reward places); grant, forgivable or deferred zero-interest second, or shared-appreciation loan, by state; stacks freely with other help, total help capped at the buyer's closing needs; counseling; $1.5B FY2030 then $3B a year FY2031-39; yearly reporting and a price review trigger",
+    "eligibility": "First-time buyers (no ownership in three years) at or below 140% of area median income, 160% in high-cost areas (proposed); first-generation priority by signed statement",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "time-limited FY2030-39; may borrow inside the D4-B envelope"
+      }
+    ],
+    "agency": "HUD, through state housing finance agencies; tribes for the tribal share",
+    "current_law": "New; HOME homebuyer help (ROAD sec. 501) and state programs continue and stack",
+    "evidence": [
+      "EV-HOU-525",
+      "EV-HOU-526",
+      "EV-HOU-535",
+      "EV-HOU-536",
+      "EV-HOU-537",
+      "EV-HOU-539",
+      "EV-HOU-540",
+      "EV-HOU-541",
+      "EV-HOU-544",
+      "EV-HOU-545",
+      "EV-HOU-546",
+      "EV-HOU-547"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.8: about $28B of outlays FY2030-39 (19-47)",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-10.02",
+    "title": "FHA's annual premium on purchase loans cut to 0.30% from 2030, with a safety line",
+    "agenda": "HOU-10",
+    "status": "decided (memo 9 part 2 B); safety line proposed",
+    "decisions": [
+      "DEC-2026-11-09-19"
+    ],
+    "parameters": "Annual premium on new purchase loans 0.55% to 0.30% from January 2030; HUD may raise it back toward 0.55% only if the fund's capital ratio falls below 3% (proposed) in the annual actuarial review",
+    "eligibility": "All new FHA purchase loans",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "credit subsidy",
+        "note": "CBO decides whether it scores as direct spending; otherwise the regular bill"
+      }
+    ],
+    "agency": "HUD (FHA)",
+    "current_law": "Premium set by HUD within statutory maximums (12 U.S.C. 1709); 0.55% since 2023",
+    "evidence": [
+      "EV-HOU-550",
+      "EV-HOU-551",
+      "EV-HOU-552"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.8: about $25B FY2030-39 (15-35), about $3B a year from FY2040, permanent",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-11.01",
+    "title": "Cheaper loans for manufactured homes",
+    "agenda": "HOU-11",
+    "status": "decided (memo 10 part 2 B); grant amount proposed",
+    "decisions": [
+      "DEC-2026-11-09-20"
+    ],
+    "parameters": "Fannie Mae and Freddie Mac buy chattel loans under the duty to serve, with mortgage-like protections; real-property titling on owned land rewarded through HOU-6.01; PRICE community grants funded at $350M a year FY2030-39 (proposed) and extended past 2033",
+    "eligibility": "Manufactured-home buyers and owners; residents and nonprofits buying their communities",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "duty-to-serve goals; PRICE extension"
+      },
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "PRICE grants, time-limited"
+      }
+    ],
+    "agency": "FHFA; HUD",
+    "current_law": "ROAD sec. 301-304 (chassis rule, FHA Title I limits, PRICE authorized and unfunded); 12 U.S.C. 4565 duty to serve",
+    "evidence": [
+      "EV-HOU-575",
+      "EV-HOU-576",
+      "EV-HOU-577",
+      "EV-HOU-578",
+      "EV-HOU-219",
+      "EV-HOU-220"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.8: about $3.5B FY2030-39 (2-5); GSE credit risk unpriced",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-11.02",
+    "title": "Federal land near growing western cities sold at fair value for housing",
+    "agenda": "HOU-11",
+    "status": "decided (memo 10 part 3 B); proceeds split proposed",
+    "decisions": [
+      "DEC-2026-11-09-20"
+    ],
+    "parameters": "BLM sells land near cities with shortages to local governments with a housing plan, at appraised fair market value; up to half of proceeds for water, sewer and roads serving the homes (proposed), the rest to the Treasury; Title V first claim kept",
+    "eligibility": "Local governments with a housing plan for the land",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "receipts not counted in housing's totals"
+      }
+    ],
+    "agency": "Interior (BLM), with HUD",
+    "current_law": "SNPLMA (Southern Nevada) as model; no general authority today",
+    "evidence": [
+      "EV-HOU-582",
+      "EV-HOU-583",
+      "EV-HOU-584",
+      "EV-HOU-585",
+      "EV-HOU-586"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.8: receipts, not counted",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-11.03",
+    "title": "Assisted infill housing excluded from federal environmental review",
+    "agenda": "HOU-11",
+    "status": "decided (memo 10 part 4 B)",
+    "decisions": [
+      "DEC-2026-11-09-20"
+    ],
+    "parameters": "Statutory categorical exclusion for federally assisted housing on infill sites (ROAD sec. 103 definition), all agencies; remaining reviews deemed complete 90 days after a complete application; developer certifies the site",
+    "eligibility": "Federally assisted housing on infill sites outside high-risk flood and wildfire tracts",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "amends NEPA's application to housing"
+      }
+    ],
+    "agency": "Each funding agency; CEQ",
+    "current_law": "ROAD sec. 103 (USDA infill exemption) and 206 (HUD exclusions after rulemaking)",
+    "evidence": [
+      "EV-HOU-217",
+      "EV-HOU-218",
+      "EV-HOU-589",
+      "EV-HOU-591"
+    ],
+    "sources": [],
+    "cost_source": "None",
     "spec": "dossiers/home/4-specification.md"
   }
 ]
