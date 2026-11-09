@@ -1,6 +1,6 @@
 # Dossier: A home you can keep (flagship 3)
 
-Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C. Level: the housing items Espen decided in section 3 (`DEC-2026-11-09-01` to `-06`) are at L2 in `agenda/agenda.csv`; the rest stay at L1, including the tax credits (HOU-2, memo 3 part 1 reopened) (`DEC-2026-10-30-03`, PR #75); their designs are carried over from `legacy/domains/domain-housing.md`. The target is L3, with priority pieces at L4.
+Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C. Level: the housing items Espen decided in section 3 (`DEC-2026-11-09-01` to `-06`, and the tax credits in `DEC-2026-11-09-08`) are at L2 in `agenda/agenda.csv`; the rest stay at L1 (`DEC-2026-10-30-03`, PR #75); their designs are carried over from `legacy/domains/domain-housing.md`. The target is L3, with priority pieces at L4.
 
 **What it brings together:**
 - rental help as a guarantee;
@@ -36,6 +36,6 @@ Evidence register: `evidence.json`, entries EV-HOU-001 onward.
 
 ## Open questions for Espen
 
-1. **Housing memo 3, part 1 (tax credits), reopened.** Espen decided the other section 3 memos and points between October 29 and November 9, 2026 (`DEC-2026-11-09-01` to `-06`; each memo's status line gives its decision). Part 1 waits on a deeper research revision covering U.S. federal proposals, a middle-income credit included (worker session_01UQzgBtwmZTQ5KDasf1JQUB). Memo 5's follow-up research on supportive housing and behavioral health (worker session_01UQzgBv1hxxPY6YUSFFYS1g) feeds section 4.
+1. **One housing question still open: doubled-up households in stage 1.** Espen asked for more research and a final recommendation (November 9). The other questions in the November 9 morning brief (Notion page 413de87bfd9c81cb8b10c90e1b8661b4) are decided: `DEC-2026-11-09-08` to `-11`.
 2. **Optional uploads for section 2.** HUD's Family Options Study reports and *A Picture of Subsidized Households*, and CBO's analysis of the 2023 immigration surge (publication 61464), would replace secondary summaries. The list is at the end of `2-what-works.md`.
 3. **Optional upload.** HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026) would raise the 2025 homelessness figures from grade C to A. The 2024 report and *Worst Case Housing Needs 2025* are in the library (thanks for uploading them).

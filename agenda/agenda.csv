@@ -295,10 +295,11 @@ HOU-1A,$85B in R2 (fall 2029),home,L1,alternative,legacy/domains/domain-housing.
 HOU-1B,"$85B in R1 (spring 2029), as Bill Book 12 wrote it",home,L1,alternative,legacy/domains/domain-housing.md:50,Register: A chosen
 HOU-1C,$40B rental assistance only,home,L1,alternative,legacy/domains/domain-housing.md:51,Register: A chosen
 HOU-1D,A standing emergency-rent fund plus a smaller one-time start,home,L2,decided,dossiers/home/memos/6-prevention.md,DEC-2026-11-09-04 (memo 6 C); delivery rules in dossiers/home/point-5-emergency-aid-rules.md
-HOU-2,Housing tax credits,home,L1,chosen,legacy/domains/domain-housing.md:14,
-HOU-2A,All three pieces,home,L1,chosen,legacy/domains/domain-housing.md:68,Register: A chosen
+HOU-2,Housing tax credits,home,L2,decided,legacy/domains/domain-housing.md:14,"DEC-2026-11-09-08 (memo 3 part 1, option D)"
+HOU-2A,All three pieces,home,L1,alternative,legacy/domains/domain-housing.md:68,Not chosen: Espen chose HOU-2D (DEC-2026-11-09-08)
 HOU-2B,LIHTC increase and extremely-low-income boost only,home,L1,alternative,legacy/domains/domain-housing.md:69,Register: A chosen
 HOU-2C,Neighborhood Homes credit only,home,L1,alternative,legacy/domains/domain-housing.md:70,Register: A chosen
+HOU-2D,Bigger LIHTC with the poorest-renter boost; middle-income credit in high-cost areas and neighborhood homes credit as 2030-34 trials; permanent affordability,home,L2,decided,dossiers/home/memos/3-production.md,"DEC-2026-11-09-08 (memo 3 part 1, option D)"
 HOU-3,Construction capital,home,L2,decided,legacy/domains/domain-housing.md:15,DEC-2026-11-09-03 (memo 3 part 3 B)
 HOU-3A,$250B of capitalization grants to state revolving funds,home,L1,alternative,legacy/domains/domain-housing.md:110,Register: C chosen; C21 accepted (borrowing)
 HOU-3B,$250B of federal direct loans only,home,L1,alternative,legacy/domains/domain-housing.md:111,Register: C chosen; C21 accepted (borrowing)
