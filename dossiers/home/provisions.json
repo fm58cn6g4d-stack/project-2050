@@ -769,11 +769,12 @@
     "agenda": "HOU-3C",
     "status": "decided for homes the construction money pays for",
     "decisions": [
-      "DEC-2026-11-09-03",
       "DEC-2026-11-09-01",
-      "DEC-2026-11-09-08"
+      "DEC-2026-11-09-03",
+      "DEC-2026-11-09-08",
+      "DEC-2026-11-09-19"
     ],
-    "parameters": "Permanent affordability with nonprofit or public right of first refusal; attached awards first to these homes in tight markets; accessibility minimums plus a reserved share of accessible units for stage 3 from 2038 (share with the care flagship); CLI-8 code baseline",
+    "parameters": "Permanent affordability for rental homes (with nonprofit or public right of first refusal) and for HOU-3C.05's resale-limited homes for sale; not for HOU-3C.05's market-rate starter homes and condos, whose only condition is the first-sale price limit; attached awards first to these homes in tight markets; accessibility minimums plus a reserved share of accessible units for stage 3 from 2038 (share with the care flagship); CLI-8 code baseline",
     "eligibility": "Homes financed by HOU-3C, HOU-8, HOU-9A",
     "vehicle": [
       {
@@ -848,7 +849,7 @@
     "decisions": [
       "DEC-2026-11-09-19"
     ],
-    "parameters": "Up to $30B of HOU-3C.02 commitments as construction and construction-to-permanent loans; homes sold to owner-occupants at or under FHA's area loan limit; HOU-3C.01 grants outside the 30% share may fund resale-limited homes; reported as its own line in HOU-3C.04",
+    "parameters": "Up to $30B of HOU-3C.02 commitments as construction and construction-to-permanent loans; market-rate homes sold to owner-occupants at or under FHA's area loan limit, the only condition on them (no permanent affordability); HOU-3C.01 grants outside the 30% share may fund resale-limited homes; reported as its own line in HOU-3C.04",
     "eligibility": "Small, nonprofit and other builders; buyers who will live in the home",
     "vehicle": [
       {
@@ -1211,10 +1212,11 @@
     "id": "HOU-10.01",
     "title": "Down payment help for first-time buyers through state housing finance agencies, 2030-39",
     "agenda": "HOU-10",
-    "status": "decided (memo 9 part 1 C, with Espen's changes); parameters decided by Espen (DEC entry in #165)",
+    "status": "decided (memo 9 part 1 C, with Espen's changes); parameters decided by Espen (DEC-2026-11-09-24)",
     "decisions": [
       "DEC-2026-11-09-19",
-      "DEC-2026-11-09-23"
+      "DEC-2026-11-09-23",
+      "DEC-2026-11-09-24"
     ],
     "parameters": "Up to $20,000 or 10% of price (up to 25% more for new homes or homes in zoning-reward places); grant, forgivable or deferred zero-interest second, or shared-appreciation loan, by state; stacks freely with other help, with no separate federal cap or form on the total (normal underwriting settles it); counseling offered free, not required by federal rule (counseling already in an agency's normal loan process stays); $1.5B FY2030 then $3B a year FY2031-39; yearly reporting and a price review trigger",
     "eligibility": "First-time buyers (no ownership in three years) at or below 140% of area median income, 160% in high-cost areas; first-generation priority by signed statement",
@@ -1249,9 +1251,10 @@
     "id": "HOU-10.02",
     "title": "FHA's annual premium on purchase loans cut to 0.30% from 2030, with a safety line",
     "agenda": "HOU-10",
-    "status": "decided (memo 9 part 2 B); safety line decided by Espen (DEC entry in #165)",
+    "status": "decided (memo 9 part 2 B); safety line decided by Espen (DEC-2026-11-09-24)",
     "decisions": [
-      "DEC-2026-11-09-19"
+      "DEC-2026-11-09-19",
+      "DEC-2026-11-09-24"
     ],
     "parameters": "Annual premium on new purchase loans 0.55% to 0.30% from January 2030; HUD may raise it back toward 0.55% only if the fund's capital ratio falls below 3% in the annual actuarial review",
     "eligibility": "All new FHA purchase loans",
@@ -1277,9 +1280,10 @@
     "id": "HOU-11.01",
     "title": "Cheaper loans for manufactured homes",
     "agenda": "HOU-11",
-    "status": "decided (memo 10 part 2 B); grant amount decided by Espen (DEC entry in #165)",
+    "status": "decided (memo 10 part 2 B); grant amount decided by Espen (DEC-2026-11-09-24)",
     "decisions": [
-      "DEC-2026-11-09-20"
+      "DEC-2026-11-09-20",
+      "DEC-2026-11-09-24"
     ],
     "parameters": "Fannie Mae and Freddie Mac buy chattel loans under the duty to serve, with mortgage-like protections; real-property titling on owned land rewarded through HOU-6.01; PRICE community grants funded at $350M a year FY2030-39 and extended past 2033",
     "eligibility": "Manufactured-home buyers and owners; residents and nonprofits buying their communities",
@@ -1313,9 +1317,10 @@
     "id": "HOU-11.02",
     "title": "Federal land near growing western cities sold at fair value for housing",
     "agenda": "HOU-11",
-    "status": "decided (memo 10 part 3 B); proceeds split decided by Espen (DEC entry in #165)",
+    "status": "decided (memo 10 part 3 B); proceeds split decided by Espen (DEC-2026-11-09-24)",
     "decisions": [
-      "DEC-2026-11-09-20"
+      "DEC-2026-11-09-20",
+      "DEC-2026-11-09-24"
     ],
     "parameters": "BLM sells land near cities with shortages to local governments with a housing plan, at appraised fair market value; up to half of proceeds for water, sewer and roads serving the homes, the rest to the Treasury; Title V first claim kept",
     "eligibility": "Local governments with a housing plan for the land",
