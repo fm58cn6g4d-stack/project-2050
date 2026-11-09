@@ -118,7 +118,7 @@
       }
     ],
     "agency": "HUD",
-    "current_law": "Project-based voucher authority 42 U.S.C. 1437f(o)(13); cap disapplied for new awards",
+    "current_law": "Project-based voucher authority 42 U.S.C. 1437f(o)(13); change: its share cap is lifted for these awards",
     "evidence": [
       "EV-HOU-092",
       "EV-HOU-093",
@@ -309,7 +309,9 @@
     "agency": "HUD, with HHS",
     "current_law": "New",
     "evidence": [
-      "EV-HOU-105"
+      "EV-HOU-105",
+      "EV-HOU-312",
+      "EV-HOU-301"
     ],
     "sources": [],
     "cost_source": "section 6",
@@ -338,12 +340,24 @@
       }
     ],
     "agency": "HUD, VA, HHS",
-    "current_law": "Amends 24 CFR 578.75(h) and the HUD-VASH notice; research note dossiers/home/research-supportive-housing.md (evidence tags added when it merges)",
+    "current_law": "Amends 24 CFR 578.75(h) and the HUD-VASH notice; research note dossiers/home/research-supportive-housing.md",
     "evidence": [
       "EV-HOU-099",
       "EV-HOU-100",
       "EV-HOU-107",
-      "EV-HOU-238"
+      "EV-HOU-238",
+      "EV-HOU-321",
+      "EV-HOU-322",
+      "EV-HOU-323",
+      "EV-HOU-327",
+      "EV-HOU-332",
+      "EV-HOU-325",
+      "EV-HOU-300",
+      "EV-HOU-302",
+      "EV-HOU-304",
+      "EV-HOU-308",
+      "EV-HOU-318",
+      "EV-HOU-334"
     ],
     "sources": [],
     "cost_source": "none directly",
@@ -378,7 +392,12 @@
     ],
     "agency": "HHS (Medicaid), HUD",
     "current_law": "Revises shared rule 7's working answer",
-    "evidence": [],
+    "evidence": [
+      "EV-HOU-337",
+      "EV-HOU-339",
+      "EV-HOU-329",
+      "EV-HOU-338"
+    ],
     "sources": [],
     "cost_source": "section 6",
     "spec": "dossiers/home/4-specification.md"
@@ -541,7 +560,7 @@
     "decisions": [
       "DEC-2026-11-09-02"
     ],
-    "parameters": "One administrator per place (states plus localities of 200,000+); links to courts, legal aid, 211; need-and-performance formula; first-year error-rate sample published yearly; monthly payment-level data standard shared with HOU-4.02",
+    "parameters": "One administrator per place (states, localities of 200,000+, and tribes or tribally designated housing entities); links to courts, legal aid, 211; need-and-performance formula; first-year error-rate sample published yearly; monthly payment-level data standard shared with HOU-4.02",
     "eligibility": "Grantees",
     "vehicle": [
       {
@@ -565,7 +584,9 @@
     "sources": [
       "SRC-0315",
       "SRC-1061",
-      "SRC-1066"
+      "SRC-1066",
+      "SRC-1068",
+      "SRC-0304"
     ],
     "cost_source": "inside HOU-1D; section 6",
     "spec": "dossiers/home/4-specification.md"
@@ -578,7 +599,7 @@
     "decisions": [
       "DEC-2026-11-09-04"
     ],
-    "parameters": "A one-time rent-help tranche smaller than $85B through the fund's network; HOU-1A's construction gap money moves to HOU-3C",
+    "parameters": "A one-time rent-help tranche smaller than $85B through the fund's network; HOU-3C keeps its decided amounts, so HOU-1A's construction gap money leaves the plan (yes-or-no for Espen: add it to HOU-3C instead)",
     "eligibility": "As HOU-1D.01",
     "vehicle": [
       {

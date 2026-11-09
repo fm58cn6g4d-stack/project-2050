@@ -7547,5 +7547,999 @@
    "dossiers/home/memos/3-production.md",
    "dossiers/home/memo-3-part1-research.md"
   ]
+ },
+ {
+  "id": "EV-HOU-300",
+  "statement": "In a meta-analysis of cohort studies, all-cause deaths per thousand person-years were 11.3 in methadone treatment against 36.1 out of it, and 4.3 against 9.5 for buprenorphine; the weeks starting methadone and right after leaving either treatment carry higher risk.",
+  "claim": "analysis",
+  "figures": [
+   "11.3",
+   "36.1",
+   "4.3",
+   "9.5"
+  ],
+  "source": "SRC-1340",
+  "anchor": [
+   "Pooled all cause mortality rates were 11.3 and 36.1 per 1000 person years in and out of methadone treatment (unadjusted out-to-in rate ratio 3.20, 95% confidence interval 2.65 to 3.86) and reduced to 4.3 and 9.5 in and out of buprenorphine treatment (2.20, 1.34 to 3.61).",
+   "The induction phase onto methadone treatment and the time immediately after leaving treatment with both drugs are periods of particularly increased mortality risk"
+  ],
+  "grade": "B",
+  "fact_date": "2017",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (BMJ, 2017); observational cohorts, so confounding is possible, as the authors note. Spanish and EU public funders; no developer stake.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-301",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-301",
+  "statement": "The National Academies concluded that people with opioid use disorder are up to half as likely to die when treated long term with methadone or buprenorphine, and that the absence of counseling is not a reason to withhold the medications.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1341",
+  "anchor": [
+   "people with OUD are up to 50 percent less likely to die when they are being treated long term with methadone or buprenorphine.",
+   "A lack of availability of behavioral interventions is not a sufficient justification to withhold medications to treat opioid use disorder."
+  ],
+  "locator": "Summary, p. 6; Box S-2",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "National Academies consensus report (2019), requested by NIDA and SAMHSA; synthesizes trials and cohort studies.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-300",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-302",
+  "statement": "A systematic review found that take-home naloxone met all nine Bradford Hill criteria for a causal effect and reduces overdose deaths among participants and in the community, with few adverse events.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1342",
+  "anchor": [
+   "met all nine Bradford Hill criteria.",
+   "Take\u2010home naloxone programmes are found to reduce overdose mortality among programme participants and in the community and have a low rate of adverse events."
+  ],
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (Addiction, 2016) narrative synthesis of 22 observational studies. Conflict to weigh: the authors' university holds naloxone intellectual property and Strang has been paid by makers of naloxone products.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-303",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-303",
+  "statement": "CDC reports that people who use syringe services programs are five times as likely to enter drug treatment, and that decades of research find the programs safe, effective and cost saving without increasing drug use or crime.",
+  "claim": "analysis",
+  "figures": [
+   "5"
+  ],
+  "source": "SRC-1343",
+  "anchor": [
+   "SSP participants are 5 times more likely to enter drug treatment and 3.5 times more likely to cease injecting compared to those who don't utilize these programs.",
+   "Nearly 30 years of research has shown that comprehensive SSPs are safe, effective, and cost saving, do not increase illegal drug use or crime"
+  ],
+  "locator": "'What studies show' section",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "CDC (Biden administration, 2024) summary of mostly observational research. The second Trump administration's July 2025 order bars SAMHSA discretionary grants for \"harm reduction\" efforts (EV-HOU-107, same order).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-302",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-304",
+  "statement": "A meta-analysis of 74 randomized trials with more than ten thousand adults on medication for opioid use disorder found contingency management (small rewards for negative drug tests) associated with abstinence from stimulants, other drugs and cigarettes, with a medium-to-large effect for stimulants.",
+  "claim": "analysis",
+  "figures": [
+   "74"
+  ],
+  "source": "SRC-1344",
+  "anchor": [
+   "In this systematic review and meta-analysis that included 74 randomized clinical trials and 10 444 adults receiving medication for opioid use disorder, the efficacy of contingency management was associated with abstinence from 4 types of substance use (psychomotor stimulants, polysubstance use, illicit opioids, and cigarettes)",
+   "stimulants, Cohen d = 0.70 [95% CI, 0.49-0.92]"
+  ],
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (JAMA Psychiatry, 2021), NIH-funded; the senior author helped develop voucher-based contingency management. Effects are measured at the end of treatment, not long term.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-305",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-305",
+  "statement": "In the VA, 1,481 patients with stimulant use disorder who received contingency management were 41% less likely to die over a year than 1,481 matched patients who did not.",
+  "claim": "analysis",
+  "figures": [
+   "1,481",
+   "41%"
+  ],
+  "source": "SRC-1345",
+  "anchor": [
+   "A total of 1,481 patients with StUD who received CM were included alongside 1,481 matched control subjects. Over the 1-year follow-up period, those who received CM were 41% less likely to die (adjusted hazard ratio=0.59, 95% CI=0.36, 0.95) than those who did not receive CM."
+  ],
+  "locator": "abstract, results",
+  "grade": "B",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (American Journal of Psychiatry, 2025) matched cohort, not randomized; authors include the VA program lead. The interval is wide.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-304",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-306",
+  "statement": "In a Birmingham trial of 196 homeless cocaine users in day treatment, housing that required abstinence produced more abstinence than housing that did not, which in turn beat no housing; the authors recommend abstinence-contingent housing.",
+  "claim": "analysis",
+  "figures": [
+   "196"
+  ],
+  "source": "SRC-1346",
+  "anchor": [
+   "We studied 196 cocaine-dependent participants who received day treatment and no housing (NH), housing contingent on drug abstinence (ACH), or housing not contingent on abstinence (NACH).",
+   "The ACH group had a higher prevalence of drug abstinence than the NACH group (after control for treatment attendance), which in turn had a higher prevalence than the NH group."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2005",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed randomized trial (AJPH, 2005) by the developers of the model. The housing was time-limited and the main outcome was abstinence, not long-term housing. This is the strongest evidence the treatment-first side cites.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-100",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-307",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-307",
+  "statement": "In a follow-up of the Birmingham trials, 34.1% of 138 participants had stable housing at 12 months; most did not, partly because local housing programs would not take people who had not achieved perfect abstinence.",
+  "claim": "analysis",
+  "figures": [
+   "34.1%",
+   "138"
+  ],
+  "source": "SRC-1347",
+  "anchor": [
+   "Of 138 participants, the percentages with stable housing and employment at 12 months were 34.1 and 33.3%, respectively.",
+   "The majority of participants, however, did not achieve housing or employment, in part because of the limited capacity of the local housing programs to accommodate persons who had not achieved perfect abstinence."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2007",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (2007) by the same team as EV-HOU-306, so not independent of it.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-316",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-308",
+  "statement": "In randomized trials, assertive community treatment (a team that provides most care itself, around the clock) reduced homelessness 37% more and psychiatric symptoms 26% more than standard case management for homeless people with severe mental illness; hospital use did not differ.",
+  "claim": "analysis",
+  "figures": [
+   "37%",
+   "26%"
+  ],
+  "source": "SRC-1348",
+  "anchor": [
+   "In randomized trials, assertive community treatment subjects demonstrated a 37% (95% CI=18%-55%) greater reduction in homelessness and a 26% (95% CI=7%-44%) greater improvement in psychiatric symptom severity compared with standard case management treatments.",
+   "Hospitalization outcomes were not significantly different between the two groups."
+  ],
+  "locator": "abstract, results",
+  "grade": "B",
+  "fact_date": "2007",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed meta-analysis (American Journal of Psychiatry, 2007); academic authors with no developer stake known.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-309",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-309",
+  "statement": "A systematic review found intensive case management reduced days homeless and substance use, assertive community treatment and critical time intervention protected against rehospitalization and looked promising for housing, and standard case management had limited, short-term effects.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1349",
+  "anchor": [
+   "Intensive case management substantially reduced\nthe number of days spent homeless (SMD -0.22 95% CI -0.40 to -0.03), as well\nas substance and alcohol use. Critical time interventions and assertive\ncommunity treatment were found to have a protective effect in terms of\nrehospitalizations and a promising effect on housing stability.",
+   "Standard case management had both limited and short-term effects\non substance use and housing outcomes and showed potential to increase\nhostility and depression."
+  ],
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (PLOS ONE, 2020) review of 56 studies for a Canadian clinical guideline; certainty varied by outcome. An earlier review (de Vet and others, 2013, not in the register) found standard case management helped substance users.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-308",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-310",
+  "statement": "The federal evaluation of Certified Community Behavioral Health Clinics found lower hospitalization in some states, such as 23% in Nevada, but the inpatient savings did not offset higher outpatient behavioral health costs.",
+  "claim": "analysis",
+  "figures": [
+   "23%"
+  ],
+  "source": "SRC-1350",
+  "anchor": [
+   "in Nevada, there was a 23 percent decrease in hospitalizations",
+   "Although the demonstration decreased inpatient costs for some populations in some states, these decreases did not offset an increase in ambulatory behavioral health costs driven by increased behavioral health\u2013related ambulatory visits."
+  ],
+  "locator": "findings on hospitalization and costs",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "HHS report to Congress (second Trump administration, 2025) on an independent Mathematica and RAND evaluation begun under earlier administrations; results vary by state and are not specific to homeless people. Presented as one source's view: no independent evaluation in the register.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-311",
+  "statement": "A review of recovery housing rated the evidence moderate: studies consistently showed positive outcomes, but they were few (six trials or quasi-experiments), small and single-site.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1351",
+  "anchor": [
+   "They identified six individual articles from 1995 through 2012 that reported on randomized controlled trials or quasi-experimental studies; no reviews or meta-analyses were found.",
+   "The level of evidence for recovery housing was moderate. Studies consistently showed positive outcomes, but the results were tempered by research design limitations"
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (Psychiatric Services, 2014), part of a SAMHSA-funded evidence series. Its main trial is an Oxford House study of people leaving treatment, not specifically homeless people. Presented as one source's view.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-312",
+  "statement": "SAMHSA recommends that recovery housing put no barriers on residents' use of prescribed medications, including for addiction.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1352",
+  "anchor": [
+   "SAMHSA recommends that recovery housing operators not have any barriers or restrictions for residents to use prescribed medications for behavioral or physical health conditions."
+  ],
+  "locator": "Medication Policies",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal guidance (SAMHSA, Biden administration, 2023); describes a recommended practice, not an outcome.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-313",
+  "statement": "A systematic review of nine studies of compulsory drug treatment found that, on the whole, it did not improve outcomes, and some studies suggested harm.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1353",
+  "anchor": [
+   "Of an initial 430 potential studies identified, nine quantitative studies met the inclusion criteria.",
+   "Evidence does not, on the whole, suggest improved outcomes related to compulsory treatment approaches, with some studies suggesting potential harms."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (International Journal of Drug Policy, 2016) by harm-reduction researchers; partly funded by the Open Society Foundations. Includes drug detention centers abroad, unlike U.S. court-mandated community treatment.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-314",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-314",
+  "statement": "In a VA cohort of 2,095 patients, those mandated to treatment by courts had similar or better 1- and 5-year outcomes than voluntary patients, which the authors read as support for judicial mandates as a route into treatment.",
+  "claim": "analysis",
+  "figures": [
+   "2,095"
+  ],
+  "source": "SRC-1354",
+  "anchor": [
+   "This prospective study (n=2,095) examined differences in pretreatment characteristics, treatment perceptions and satisfaction, during-treatment changes, and 1- and 5-year outcomes",
+   "Mandated patients had a less severe clinical profile at treatment intake, yet this did not account for their observed similar/better outcomes"
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2005",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (Journal of Substance Abuse Treatment, 2005); VA researchers; not randomized and not specific to homeless people.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-313",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-315",
+  "statement": "The National Academies found no substantial published evidence, apart from people with HIV/AIDS, that permanent supportive housing improves health or cuts health costs, and advised policymakers not to expect net savings except perhaps among the heaviest users of emergency services.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1355",
+  "anchor": [
+   "except for some evidence that PSH improves health outcomes among individuals with HIV/AIDS, the committee finds that there is no substantial published evidence as yet to demonstrate that PSH improves health outcomes or reduces health care costs.",
+   "The committee does not believe policy makers and others should expect that permanent supportive housing programs would yield net cost savings"
+  ],
+  "locator": "Summary, conclusions",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "National Academies consensus report (2018); it notes supportive housing was designed to end chronic homelessness, not to save money. Predates the Denver and Santa Clara trials.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-319",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-318",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-316",
+  "statement": "In a Santa Clara County trial of 423 chronically homeless frequent users of public services, Eighty-six percent of those offered supportive housing were housed against 36 percent with usual care; psychiatric emergency visits and shelter days fell, but total emergency, inpatient and jail use did not change.",
+  "claim": "analysis",
+  "figures": [
+   "423",
+   "36 percent"
+  ],
+  "source": "SRC-1356",
+  "anchor": [
+   "We enrolled 423 participants (199 intervention; 224 control). Eighty\u2010six percent of those randomized to PSH received housing compared with 36 percent in usual care. On average, the 169 individuals housed by the PSH intervention have remained housed for 28.8 months (92.9 percent of the study follow",
+   "Intervention group members had lower rates of psychiatric ED visits IRR 0.62; 95% CI [0.43, 0.91] and shelter days IRR 0.30; 95% CI [0.17, 0.53], and higher rates of ambulatory mental health services use IRR 1.84; 95% CI [1.43, 2.37] compared to controls. We found no differences in total ED or inpatient use, or jail."
+  ],
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed randomized trial (Health Services Research, 2020) of a county pay-for-success project; more than a third of the control group got other subsidized housing, biasing results toward no effect.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-099",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-317",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-317",
+  "statement": "In the Denver supportive housing trial for frequent jail users, 79 percent of those referred were located, engaged and housed; 77 percent of living participants were still housed at three years, and total jail days fell 27 percent.",
+  "claim": "analysis",
+  "figures": [
+   "79 percent",
+   "77 percent",
+   "27 percent"
+  ],
+  "source": "SRC-1357",
+  "anchor": [
+   "Of those in the treatment group, 79 percent (285 people) were located, engaged, and housed.",
+   "At year 3, the rate was 77 percent.",
+   "This represents a 30 percent reduction in unique jail stays and a 27 percent reduction in total jail days."
+  ],
+  "locator": "executive summary, pp. v-vi",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Urban Institute (2021), the initiative's independent evaluator; investors' payments depended on the outcomes. Randomized, intent-to-treat, administrative data; emergency medical use did not differ significantly.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-316",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-318",
+  "statement": "In Denver, about half of the yearly cost of supportive housing per person was offset by lower spending on other public services, $6,876 per person a year.",
+  "claim": "analysis",
+  "figures": [
+   "$6,876"
+  ],
+  "source": "SRC-1358",
+  "anchor": [
+   "Approximately half the total annual per person cost of the Denver SIB was offset by reductions in the costs of other public services. The treatment group had $6,876 less in total annual per person costs associated with avoided outcomes compared with the control group."
+  ],
+  "locator": "executive summary",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Urban Institute (2021) cost study on the randomized trial; funded by Arnold Ventures; same team as EV-HOU-317.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-319",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-315",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-319",
+  "statement": "A review of Housing First cost studies found pre-post studies reported net savings but experimental studies reported net cost increases, so the programs may not pay for themselves, though their offsets and benefits make them an efficient use of resources.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1359",
+  "anchor": [
+   "Studies using a pre\u2013post design reported a net decrease in overall costs with HF. In contrast, experimental studies reported a net increase in overall costs with HF.",
+   "While our review casts doubt on whether HF programs can be expected to pay for themselves, the certainty of significant cost offsets, combined with their benefits for participants, means that they represent a more efficient allocation of resources than traditional services."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed review (Canadian Journal of Psychiatry, 2015); Latimer led the At Home/Chez Soi cost analysis.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-315",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-102",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-320",
+  "statement": "In Canada's At Home/Chez Soi trial, every $10 spent on Housing First saved an average of $9.60 for high-needs participants served by assertive community treatment and $3.42 for moderate-needs participants served by intensive case management.",
+  "claim": "analysis",
+  "figures": [
+   "$10",
+   "$9.60",
+   "$3.42"
+  ],
+  "source": "SRC-1360",
+  "anchor": [
+   "every $10 invested in HF services resulted in an average savings of $9.60 for high needs/ ACT participants and $3.42 for moderate needs/ICM participants."
+  ],
+  "locator": "executive summary, p. 5",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Final report of the randomized trial (Mental Health Commission of Canada, 2014), written by its investigators; Canadian costs.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-318",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-315",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-321",
+  "statement": "At Home/Chez Soi let participants choose their housing and supports but required them to meet a member of their support team at least once a week.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1360",
+  "anchor": [
+   "Participants had a choice around the housing and supports they needed, with a requirement that participants meet with a member of their support team at least once a week."
+  ],
+  "locator": "program implementation section",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Program description in the trial's final report (Mental Health Commission of Canada, 2014).",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-322",
+  "statement": "The original Pathways to Housing program had two requirements: tenants paid 30% of income toward rent through money management and met a staff member at least twice a month, applied flexibly.",
+  "claim": "data",
+  "figures": [
+   "30%"
+  ],
+  "source": "SRC-0352",
+  "anchor": [
+   "There are 2 program requirements: tenants must pay 30% of their income (usually Supplemental Security Income [SSI]) toward the rent by participating in a money management program, and tenants must meet with a staff member a minimum of twice a month. These requirements are applied flexibly to suit consumers' needs."
+  ],
+  "locator": "Methods, program description",
+  "grade": "B",
+  "fact_date": "2004",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Program description in the founding Housing First trial (AJPH, 2004); Tsemberis founded Pathways to Housing.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-323",
+  "statement": "The Pathways Housing First fidelity scale gives its top score to programs where tenants keep housing with no requirement beyond a standard lease and a weekly face-to-face visit with staff, and can refuse any other service.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1361",
+  "anchor": [
+   "Participants can keep their housing with no requirements for continued tenancy, other than adhering to a standard lease and seeing staff for a face-to-face visit once a week.",
+   "Participants have the right to choose, modify, or refuse services and supports at any time, except one face-to-face visit with staff a week."
+  ],
+  "locator": "scale items 8 and 13, score 4",
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Validated fidelity instrument (2013) by the model's founder and colleagues.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-324",
+  "statement": "SAMHSA's supportive housing fidelity scale gives full marks when tenancy is in no way contingent on program or treatment participation, a middle score when rules require ongoing services but noncompliance does not lead to eviction, and the lowest when tenancy is revoked for noncompliance.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1362",
+  "anchor": [
+   "Tenancy is not contingent in any way on compliance with program or treatment participation",
+   "Program rules require participating in ongoing services, but failure to comply with this requirement does not lead to eviction.",
+   "Tenancy is revoked based on noncompliance with program or failure to participate in treatment"
+  ],
+  "locator": "Evaluating Your Program, Appendix B, item 5.1.b",
+  "grade": "C",
+  "fact_date": "2010",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal practice standard (SAMHSA, Obama administration, 2010).",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-325",
+  "statement": "HUD-VASH vouchers are conditioned on VA case management, not treatment; if the VA finds a veteran is not participating without good cause, the housing agency must end HUD-VASH assistance but may move the family to a regular voucher.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1363",
+  "anchor": [
+   "As a condition of HCV rental assistance, both tenant-based voucher\nand PBV, a HUD-VASH eligible veteran must receive the case management\nservices noted above, as needed, directly from or arranged by the VA.\nThe VA, in consultation with the veteran, is responsible for\ndetermining if case management is required and if the case management\nrequirement is satisfied.",
+   "If the VA has determined that a veteran is not\nparticipating in required case management, without good cause, the PHA\nmust terminate the family from the HUD-VASH program. However, the PHA\nmay offer the family continued assistance through one of its regular\nvouchers or a PBV unit not exclusively made available for HUD-VASH."
+  ],
+  "grade": "A",
+  "fact_date": "2024-08-13",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal program notice (HUD, Biden administration, 2024); binding operating requirements.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-326",
+  "statement": "Under HUD-VASH, a VA finding that a veteran no longer needs case management is never grounds to end the voucher, and the VA stays in contact to help with recertification.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1363",
+  "anchor": [
+   "A VA determination that the veteran does not require or no longer\nrequires case management is never grounds for termination of HCV\nassistance.",
+   "If a veteran no longer requires case management, but maintains\ntheir HUD-VASH voucher assistance, the VA will maintain contact with\nthe veteran family to provide support and planning assistance with the\nrecertification and reinspection process."
+  ],
+  "grade": "A",
+  "fact_date": "2024-08-13",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal program notice (HUD, Biden administration, 2024).",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-327",
+  "statement": "Finland's Y-Foundation writes no sobriety or similar terms into leases; a tenant behind on rent who stops answering housing counsellors is reported to social services before any eviction begins.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1364",
+  "anchor": [
+   "Any terms are not included in the agreements, for instance sobriety.",
+   "A resident can be evicted due to overdue rent when they stop answering the housing counselling services' contacts after multiple attempts to contact them. If they cannot be reached, a notice of concern regarding the tenant is submitted to social welfare services. It is only after this that eviction steps into the picture."
+  ],
+  "locator": "section on tenancy and evictions",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Practitioner guide (Y-Foundation, 2022), Finland's largest nonprofit landlord for formerly homeless people; describes practice, not measured outcomes.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-328",
+  "statement": "In Washington's Medicaid-funded supportive housing services, exits from homelessness were about 4 percentage points higher than in a matched comparison group in the first evaluation; reductions in emergency and inpatient use were promising but not quite statistically significant.",
+  "claim": "analysis",
+  "figures": [
+   "4"
+  ],
+  "source": "SRC-1365",
+  "anchor": [
+   "The percentage of individuals transitioning out of homelessness as of the last month of the follow-up period was roughly 4 percentage points higher for both populations.",
+   "These impact estimates approached but did not quite achieve the usual standard of statistical significance."
+  ],
+  "locator": "key findings",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "State evaluation (Washington DSHS, 2020) funded by the agency that runs the program; matched comparison, short follow-up. Presented as one source's view.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-329",
+  "statement": "CMS approved Minnesota's request to terminate its Medicaid Housing Stabilization Services benefit effective November 1, 2025.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1366",
+  "anchor": [
+   "The effective date for this amendment is November 1, 2025. With this amendment, the\nstate is terminating this benefit."
+  ],
+  "grade": "A",
+  "fact_date": "2025-10-24",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal approval letter (CMS, second Trump administration, 2025). Minnesota sought the termination after suspending payments to providers over credible allegations of fraud (state news release, not saved).",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-330",
+  "statement": "Residents of Housing First programs were less likely than residents of other supportive housing to report that treatment was required to get or keep housing, with no difference in housing satisfaction.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1367",
+  "anchor": [
+   "those in housing-first programs were significantly less likely to report that mental health treatment adherence was an explicit requirement of obtaining housing and less likely to report that mental health and substance abuse treatment was a requirement of retaining housing. There was no difference between the programs in residents' satisfaction with their housing."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2009",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed cross-sectional survey (Psychiatric Services, 2009) of 136 residents; it does not measure whether perceived coercion changes engagement.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-331",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-331",
+  "statement": "At Home/Chez Soi's Toronto site found the weekly-visit requirement may have hindered recovery for some participants, such as those with jobs or school who did not want to be seen with caseworkers.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1368",
+  "anchor": [
+   "The Toronto site found that the requirements of the program model for caseworkers to meet with participants weekly may have been an impediment to recovery processes for some.",
+   "did not want to be seen with caseworkers in their community."
+  ],
+  "locator": "pp. 16-17",
+  "grade": "C",
+  "fact_date": "2014",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Qualitative implementation evaluation by the trial team (Mental Health Commission of Canada).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-330",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-332",
+  "statement": "Continuum of Care rules let projects require participation in services that are not disability-related, such as case management, as a condition of staying in the program; they may require treatment only in projects whose purpose is substance abuse treatment.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1369",
+  "anchor": [
+   "Recipients and subrecipients may require\nthe program participants to take part\nin supportive services that are not disability-related\nservices\nprovided\nthrough the project as a condition of\ncontinued participation in the program.",
+   "Notwithstanding this provision, if the purpose\nof the project is to provide substance\nabuse treatment services, recipients\nand subrecipients may require program\nparticipants to take part in such services as a condition of continued participation in the program."
+  ],
+  "grade": "A",
+  "fact_date": "2025-04-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal regulation (HUD Continuum of Care interim rule, 2012; 2025 edition).",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-333",
+  "statement": "The second Trump administration's HUD argues that Housing First never ruled out participation requirements, citing Pathways' original visits and HUD-VASH, and that chronic homelessness rose 80.5 percent since 2013 despite a 44 percent increase in supportive housing beds.",
+  "claim": "analysis",
+  "figures": [
+   "80.5",
+   "44"
+  ],
+  "source": "SRC-1370",
+  "anchor": [
+   "the Evidence Matters report acknowledged that the first\nprogram to implement Housing First--Pathways to Housing--initially\nrequired program participants to agree to two staff visits per month.\nThis example illustrates that Housing First did not preclude\nparticipation requirements.",
+   "HUD finds that HUD-VASH demonstrates the efficacy of housing\nassistance tied to participation in case management and services.",
+   "chronic homelessness has increased 80.5 percent\nsince 2013 to the highest number on record despite a 44 percent\nincrease nationwide in Permanent Supportive Housing beds during the\nsame period."
+  ],
+  "grade": "C",
+  "fact_date": "2026-09-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "HUD (second Trump administration, 2026), written to justify its FY2026 Continuum of Care scoring during litigation; the administration's view. Its trend figures are descriptive, not causal. Its point that the Pathways model expected staff contact matches the model's own rules (EV-HOU-322, EV-HOU-323); its conclusion against Housing First is contested by the trial evidence.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-323",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-101",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-175",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-334",
+  "statement": "HUD's FY2026 Continuum of Care competition sets aside $1.3 billion of $4.04 billion for transitional housing and services-only projects, and awards up to 20 of 200 points for treatment and recovery services and up to 8 for requiring participation in services; Congress required HUD to fund at least 60 percent of each community's renewals.",
+  "claim": "data",
+  "figures": [
+   "$1.3 billion",
+   "$4.04 billion",
+   "20",
+   "200",
+   "8",
+   "60 percent"
+  ],
+  "source": "SRC-1371",
+  "anchor": [
+   "FY2026, $1.3 billion (of $4.04 billion in total funding) is set aside for",
+   "Of the 200 points available in the competition, up to 20 are for providing treatment and recovery services\nand up to 8 for requiring participation in supportive services.",
+   "provided that HUD \u201cshall select projects totaling not less than 60 percent of the [ARD]\u201d for each"
+  ],
+  "grade": "C",
+  "fact_date": "2026-09-18",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Congressional Research Service summary (nonpartisan, 2026) of the notice and appropriations law.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-335",
+  "statement": "The First Circuit stayed the district court's order vacating HUD's FY2026 Continuum of Care notice, finding HUD likely to win on the notice-and-comment question; HUD must make awards by December 1, 2026.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1372",
+  "anchor": [
+   "HUD has made a strong\nshowing that it is likely to succeed on the merits of its challenge to the district court's holding that\nthe set-aside in the NOFO was subject to notice and comment requirements pursuant to 42 U.S.C.",
+   "HUD only has until December 1, 2026"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09-16",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal appellate order (2026). The merits appeal and remaining district court claims were open as of this note.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-336",
+  "statement": "States must start Medicaid work requirements by January 1, 2027; CMS says homelessness alone does not make someone medically frail, though a substance use disorder or disabling mental disorder can.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1373",
+  "anchor": [
+   "States are required to\nimplement the new requirement no later than January 1, 2027.",
+   "we do not believe\nit would be reasonable for States to consider an individual who is\nhomeless as medically frail solely on the basis that the individual is\nhomeless, as that circumstance is not a medical condition. However,\nindividuals who are homeless may have a medical condition, such as an\nSUD or disabling mental disorder, that could qualify them for the\nmedically frail exclusion."
+  ],
+  "grade": "A",
+  "fact_date": "2026-06-03",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal rule (CMS, second Trump administration, 2026), implementing Public Law 119-21.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-337",
+  "statement": "From January 1, 2027, CMS may approve or renew a Medicaid demonstration (waiver) only if its chief actuary certifies it will not raise federal spending.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1374",
+  "anchor": [
+   "general.--Beginning January 1 2027, the Secretary may not\napprove an application for (or renewal or amendment of) an\nexperimental, pilot, or demonstration project undertaken under\nsubsection (a) to promote the objectives of title XIX in a State\n(in this subsection referred to as a `Medicaid demonstration\nproject') unless the Chief Actuary for the Centers for Medicare\n& Medicaid Services certifies that such project, or, in the case\nof a renewal, the duration of the preceding waiver, is not\nexpected to result in an increase in the amount of Federal\nexpenditures compared to the amount that such expenditures would\notherwise be in the absence of such project."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07-04",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Enacted federal law (Public Law 119-21, sec. 71118).",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-338",
+  "statement": "HRSA projects shortages at its projection horizon, under current trends, of 77,050 addiction counselors, 36,780 adult psychiatrists and 99,780 mental health counselors.",
+  "claim": "analysis",
+  "figures": [
+   "77,050",
+   "36,780",
+   "99,780"
+  ],
+  "source": "SRC-1376",
+  "anchor": [
+   "Addiction counselors | -77,050 (30%)",
+   "Adult psychiatrists | -36,780 (50%)",
+   "Mental health counselors | -99,780 (55%)"
+  ],
+  "locator": "Table 2, 2038, status quo scenario",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal workforce model (HRSA, second Trump administration, December 2025); model-based projections. Presented as one source's view; the 2024 edition projected larger shortages for 2037.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-339",
+  "statement": "In March 2025 CMS rescinded its 2023 and 2024 guidance on covering housing and other health-related social needs in Medicaid waivers, saying it would weigh state requests case by case.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1375",
+  "anchor": [
+   "CMS is rescinding the November 2023 and December 2024 CIBs.",
+   "case-by-case basis to\ndetermine whether they satisfy federal requirements for approval under the applicable\nprovisions of the Social Security Act and implementing federal regulations, without reference\nto the November 2023 and December 2024 CIBs or the HRSN Framework."
+  ],
+  "grade": "A",
+  "fact_date": "2025-03-04",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal guidance (CMS, second Trump administration, 2025). The bulletin is silent on waivers already approved.",
+  "supports": [
+   "dossiers/home/research-supportive-housing.md"
+  ]
  }
 ]
