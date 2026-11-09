@@ -10139,5 +10139,68 @@
   "supports": [
    "dossiers/home/research-doubled-up.md"
   ]
+ },
+ {
+  "id": "EV-HOU-460",
+  "statement": "Current law boosts eligible basis to 130% for new buildings in a qualified census tract or difficult development area, whatever their financing.",
+  "claim": "data",
+  "figures": [
+   "130"
+  ],
+  "source": "SRC-1275",
+  "anchor": [
+   "In the case of any building located in a qualified census tract or difficult development area which is designated for purposes of this subparagraph\u2014\n(I) in the case of a new building, the eligible basis of such building shall be 130 percent of such basis determined without regard to this subparagraph, and"
+  ],
+  "locator": "26 U.S.C. 42(d)(5)(B)(i)",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Primary law; unchanged by P.L. 119-21.",
+  "supports": [
+   "dossiers/home/memos/3b-bond-boost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-461",
+  "statement": "Current law lets a state housing credit agency give the boost to any building it designates as needing it for financial feasibility, but not to a building financed under the tax-exempt bond rule.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1275",
+  "anchor": [
+   "Any building which is designated by the State housing credit agency as requiring the increase in credit under this subparagraph in order for such building to be financially feasible as part of a qualified low-income housing project shall be treated for purposes of this subparagraph as located in a difficult development area which is designated for purposes of this subparagraph. The preceding sentence shall not apply to any building if paragraph (1) of subsection (h) does not apply to any portion of the eligible basis of such building by reason of paragraph (4) of such subsection."
+  ],
+  "locator": "26 U.S.C. 42(d)(5)(B)(v)",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Primary law; the second sentence excludes buildings whose credit comes through the bond rule, 42(h)(4), rather than the state ceiling.",
+  "supports": [
+   "dossiers/home/memos/3b-bond-boost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-462",
+  "statement": "The Affordable Housing Credit Improvement Act's section 308 strikes that exclusion, so a housing credit agency could also designate bond-financed buildings, for bonds issued after December 31, 2025.",
+  "claim": "data",
+  "figures": [
+   "308",
+   "2025"
+  ],
+  "source": "SRC-1263",
+  "anchor": [
+   "SEC. 308. INCREASE IN CREDIT FOR BOND-FINANCED PROJECTS DESIGNATED BY\nSTATE AGENCY.\n(a) In General.--Clause (v) of section 42(d)(5)(B) of the Internal\nRevenue Code of 1986 is amended by striking the second sentence.\n(b) Technical Amendment.--Clause (v) of section 42(d)(5)(B) of the",
+   "(c) Effective Date.--The amendments made by this section shall\napply to buildings described in section 42(h)(4)(B) of the Internal\nRevenue Code of 1986 which are financed by obligations which are part\nof an issue the issue date of which is after December 31, 2025."
+  ],
+  "locator": "Sec. 308",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-09",
+  "recheck": "2027-04-29",
+  "context": "Bill as introduced; not law.",
+  "supports": [
+   "dossiers/home/memos/3b-bond-boost.md"
+  ]
  }
 ]
