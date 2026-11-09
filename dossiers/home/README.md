@@ -1,6 +1,6 @@
 # Dossier: A home you can keep (flagship 3)
 
-Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C. Level: the housing items Espen decided in section 3 (`DEC-2026-11-09-01` to `-06`) are at L2 in `agenda/agenda.csv`; the rest stay at L1, including the tax credits (HOU-2, memo 3 part 1 reopened) (`DEC-2026-10-30-03`, PR #75); their designs are carried over from `legacy/domains/domain-housing.md`. The target is L3, with priority pieces at L4.
+Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C. Level: the housing items Espen decided in section 3 (`DEC-2026-11-09-01` to `-06`) are at L2 in `agenda/agenda.csv`; the rest stay at L1, the tax credits included since `DEC-2026-11-09-08` (`DEC-2026-10-30-03`, PR #75); their designs are carried over from `legacy/domains/domain-housing.md`. The target is L3, with priority pieces at L4.
 
 **What it brings together:**
 - rental help as a guarantee;
@@ -36,6 +36,6 @@ Evidence register: `evidence.json`, entries EV-HOU-001 onward.
 
 ## Open questions for Espen
 
-1. **Housing memo 3, part 1 (tax credits), reopened.** Espen decided the other section 3 memos and points between October 29 and November 9, 2026 (`DEC-2026-11-09-01` to `-06`; each memo's status line gives its decision). Part 1 waits on a deeper research revision covering U.S. federal proposals, a middle-income credit included (worker session_01UQzgBtwmZTQ5KDasf1JQUB). Memo 5's follow-up research on supportive housing and behavioral health (worker session_01UQzgBv1hxxPY6YUSFFYS1g) feeds section 4.
+1. **Three housing questions still open** (Espen's Notion comments on the November 9 morning brief, page 413de87bfd9c81cb8b10c90e1b8661b4; the rest of that brief's questions are decided, `DEC-2026-11-09-08` to `-10`): whether doubled-up households count in stage 1 (recommended: only those with children, with the count published before the 2032 awards); the form of the data firewall for the shared household record (recommended: record what eligibility needs, with a statutory bar on immigration-enforcement use); and stage 2's exit income line (80% of area median as drafted, or 50%).
 2. **Optional uploads for section 2.** HUD's Family Options Study reports and *A Picture of Subsidized Households*, and CBO's analysis of the 2023 immigration surge (publication 61464), would replace secondary summaries. The list is at the end of `2-what-works.md`.
 3. **Optional upload.** HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026) would raise the 2025 homelessness figures from grade C to A. The 2024 report and *Worst Case Housing Needs 2025* are in the library (thanks for uploading them).
