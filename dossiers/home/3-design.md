@@ -431,6 +431,14 @@ Espen decides each item, yes or no. Sources are named in plain text, with the re
    - *Against:* the project's durability rule avoids sunsets on permanent policy (`legacy/domains/domain-housing.md`, HOU-7), and a later Congress could simply let the ban lapse.
    - *For Espen (yes or no):* leave the investor limit as enacted and decide after the 2037 reports (HOU-7B)? A "no" keeps HOU-7's main point: the regular bill removes the 2042 sunset. Its added reporting would still be dropped as already law, which is a change to HOU-7 under either answer.
 
+## Addendum: homeownership and broad supply (part 1 of 2)
+
+Espen wrote on November 9, 2026 that the plan had "focused too exclusively on low-income households and the actively homeless or those at risk of homelessness" and neglected housing production more broadly and "the ability to buy a home for more middle-class households, especially younger ones". This addendum adds forks for that; the forks above are unchanged. The research is `research-ownership-supply.md` (EV-HOU-500 to 598), including how far buyer help raises prices where supply is tight, weighed in its section 3.
+- **Memo 9, `memos/9-homeownership.md`** (three parts): help for first-time buyers (recommended: time-limited down payment help through state housing agencies, with a first-generation priority by self-attestation, counting for more on newly built homes); a cut in FHA's annual premium (recommended); and opening part of HOU-3C's federal loans, and some of its grants, to starter homes and condos for sale (recommended, inside HOU-3C's amounts).
+- **Memo 10, `memos/10-broad-supply.md`** (four parts): a wider list of reforms the zoning reward pays for (single-stair buildings, equal treatment of manufactured homes, lot size, parking, state infill review exemptions, condo liability); cheaper loans for manufactured homes; fair-value sales of federal land near growing western cities; a statutory exclusion from federal environmental review for assisted infill housing. All recommended.
+
+Part 2 of the addendum (repair and renovation for owners and renters; aging in place) follows in a later session. Sections 4-9 take up whichever options Espen chooses; nothing here is adopted by silence.
+
 ## How the choices fit together
 
 Taken together, the recommendations make one design:
@@ -500,5 +508,7 @@ Seven decision memos, one per fork, in `memos/`:
 7. `memos/8-who-first.md`: who the guarantee reaches first.
 
 Memos 1, 2, 3 and 8 now weigh the legacy rental-help and construction designs (HOU-4A, HOU-4D, HOU-3C) as options (`DEC-2026-10-30-02`). Memo 2 recommends changing what HOU-4D buys; memo 1 recommends attaching part of HOU-4A's later cohorts in tight markets; memo 3 recommends keeping HOU-3C's amounts and adding acquisition.
+
+Addendum (November 2026): `memos/9-homeownership.md` (three parts) and `memos/10-broad-supply.md` (four parts), each part decided on its own.
 
 Also a yes or no on fork 7 and on each of the eight points under "Recommended without a memo". On point 8 the recommendation has changed: leave the Act's investor limit as enacted (HOU-7B) rather than remove its 2042 sunset now (HOU-7, as chosen).
