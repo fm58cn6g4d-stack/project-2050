@@ -1,6 +1,6 @@
 # A home you can keep: what would change our minds
 
-Role: section 8 of the housing dossier. For each major design choice (13 in all) it names the main uncertainty, the evidence or event that would make the plan revise the choice (with a threshold where one can be set), who would see it and when, and what the plan would do instead. It also covers the political, legal and economic events that would change the plan. Espen decided its four questions as recommended (`DEC-2026-11-09-15`). Status: draft (stage C, step 6). It works only from sections 1-7, the memos and Espen's decisions (`DEC-2026-11-09-01` to `-13`). It adds no evidence entries: every threshold below either comes from section 7's early-warning table (`7-validation.md`, 6) or is marked as judgment. It changes no provision. What it asks of sections 4 and 7 is listed at the end, and the choices that are Espen's are questions at the end and in the README.
+Role: section 8 of the housing dossier. For each major design choice (13 in all) it names the main uncertainty, the evidence or event that would make the plan revise the choice (with a threshold where one can be set), who would see it and when, and what the plan would do instead. It also covers the political, legal and economic events that would change the plan. Espen decided its four questions as recommended (`DEC-2026-11-09-15`). Status: draft (stage C, step 6). It works only from sections 1-7, the memos and Espen's decisions (`DEC-2026-11-09-01` to `-17`). It adds no evidence entries: every threshold below either comes from section 7's early-warning table (`7-validation.md`, 6) or is marked as judgment. It changes no provision. What it asks of sections 4 and 7 is listed at the end, and the choices that are Espen's are questions at the end and in the README.
 
 Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning beyond the next paycheck), OUT-01 (child poverty), and OUT-11 for the fiscal rule.
 
@@ -54,13 +54,13 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
   - *Neighborhood credit:* public cost per home finished above about $400,000, the line where section 7 finds the plan's other capital stops being good value (`7-validation.md`, 1.4 and 6; judgment), or homes that resell without the owner-occupancy the credit pays for.
   - *Low-income credit:* the Joint Committee on Taxation's score above section 6's high case ($0.12 trillion over FY2030-39) goes to a review of size. Before the bill: GAO's July 2027 study [EV-HOU-242] finds the middle-income gap lies somewhere other than high-cost areas, in which case HOU-2D.02's targeting is redrawn before 2029.
   - *Permanent affordability:* state agencies cannot place their full allocation for two years running, against full use today (judgment). That would mean the rule is costing homes.
-- **Who sees it, when.** GAO, July 2027. JCT, when R2 is scored in 2029. The trials' interim reports by 2034 and final reports by 2037 (proposed, for Espen, in HOU-2D.02). State allocating agencies' yearly reports to the IRS.
+- **Who sees it, when.** GAO, July 2027. JCT, when R2 is scored in 2029. The trials' interim reports by 2034 and final reports by 2037 (`DEC-2026-11-09-14`; HOU-2D.02). State allocating agencies' yearly reports to the IRS.
 - **What we'd do instead.** If both trials fail: memo 3 part 1's option B, the low-income credit with the boost for the poorest renters and permanent affordability, at the lowest cost. If only one fails, end that one. If permanent affordability shrinks placement: keep permanence for homes the plan finances directly (HOU-3C.03) and use a long fixed term with a nonprofit right to buy for new credit homes (memo 3, option A's rules as a floor; judgment).
 - **Kind.** Review. The trials end on their own dates unless renewed, so no stop is needed.
 
 ### 1.4 The construction money and the small federal builder (memo 3 parts 2 and 3; HOU-3C.01 to .04, HOU-9A.01)
 
-- **Main uncertainties.** Cost per home, which decides whether HOU-3C.04's first number can be met: about 1.3 million homes the plan pays for, built or preserved over 2030-39 (range 0.8-1.9 million), of which 900,000 come from the construction money (600,000-1.3 million) and the rest from the credits (proposed, for Espen). Whether new state revolving funds can spend $10-11 billion a year from 2032; new state programs have started slowly [EV-HOU-150]. Whether the loans are used, since they need steady rent, much of it from attached help. Whether a U.S. public builder can deliver at all: the register has no evaluation of one (memo 3).
+- **Main uncertainties.** Cost per home, which decides whether HOU-3C.04's first number can be met: about 1.3 million homes the plan pays for, built or preserved over 2030-39 (range 0.8-1.9 million), of which 900,000 come from the construction money (600,000-1.3 million) and the rest from the credits (`DEC-2026-11-09-17`). Whether new state revolving funds can spend $10-11 billion a year from 2032; new state programs have started slowly [EV-HOU-150]. Whether the loans are used, since they need steady rent, much of it from attached help. Whether a U.S. public builder can deliver at all: the register has no evaluation of one (memo 3).
 - **What would change our minds.**
   - *Target at risk:* homes financed below the yearly path to HOU-3C.04's first number (section 7's threshold), or public money above about $400,000 a home, where section 7 finds the capital stops being good value and the construction money's 900,000 falls toward the bottom of its range (`7-validation.md`, 1.4; HOU-3C.04).
   - *A state behind:* a state below its share of the path for two years (judgment).
@@ -75,7 +75,7 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 - **Main uncertainties.** Neither the Innovation Fund nor Build Now has been funded or evaluated (memo 4). Paying for homes finished may mostly reward places that were already building [EV-HOU-177]. Build Now rewards a rise in a place's own growth rate rather than a high level of building [EV-HOU-244].
 - **What would change our minds.**
   - Awards in 2030-34 go mostly to places whose building was already rising before they reformed (judgment: more than half of award dollars).
-  - Rewarded places miss HOU-3C.04's second number: homes finished above their own prior pace of at least 1% of their housing stock within five years of the award (proposed, for Espen). Across rewarded places, a shortfall for most of them by 2035 would mean the reward pays for less than it should (judgment).
+  - Rewarded places miss HOU-3C.04's second number: homes finished above their own prior pace of at least 1% of their housing stock within five years of the award, about 600,000 homes nationally (`DEC-2026-11-09-17`). Across rewarded places, a shortfall for most of them by 2035 would mean the reward pays for less than it should (judgment).
   - Lower-cost homes, now counted on their own, stay a small share of homes rewarded (judgment: below a quarter).
   - HUD's 2032 study finds that Build Now penalizes steady builders below 4% growth (HOU-6.01).
   - The regular bill does not pass, so the money must run under the Act's current rules: cities, counties and tribes only, at $10 million an award at most [EV-HOU-206].
@@ -103,7 +103,7 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
   - Fewer than half of paid households have an eviction filing or notice (section 7's threshold).
   - The first-year randomization at the margin of the risk screen (section 7's ask of section 4) shows no fall in shelter entry or eviction judgments among screened households.
   - The published payment-error rate above its target for two years at a grantee (HOU-1D.03).
-  - Repeat use concentrated in the same households. This matters only if Espen replaces the episode limits with a published count (section 4's proposal under `DEC-2026-11-09-13`).
+  - Repeat use concentrated in the same households, in the published count of repeat use that replaced the episode limits (`DEC-2026-11-09-16`; the annual cap of four months of Fair Market Rent, usable across crises, `DEC-2026-11-09-17`). A second crisis in a year already prompts referral to long-term help; a rising share of households at the cap, or of third crises, would mean the fund is carrying people who need a voucher (judgment).
   - In a recession, demand far above the capped yearly amount (section 6, 2.2).
 - **Who sees it, when.** Grantees' monthly payment data in the federal format and the cross-grantee duplicate check. HUD's error estimate from the first year's sample, published in 2031 and yearly after. Linked eviction-court and shelter records for evaluation (HOU-1D.03).
 - **What we'd do instead.** Tighten the risk screen and fast-track court cases; give a larger share to legal help (point 4). If the fund still averts little, memo 6's option B: one-time help only, with the standing money moved to vouchers or attached homes. In a recession, a one-time top-up through the same network, as HOU-1D.04 was built to allow. Section 6's range ($3-8 billion a year) is the size lever.
@@ -116,7 +116,7 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
   - Paired tests after 2032 still find refusal rates above 31%, the top of the range seen under existing laws [EV-HOU-093]. That points to weak enforcement, not a wrong rule.
   - Lease-up falls in ZIP codes where the new limits came in below the old metro-wide limit (judgment: more than 5 points below the same metro's other ZIP codes for two years).
   - Cost per award rises above section 6's high case where the limits apply.
-- **Who sees it, when.** The Fair Housing Initiatives Program's paired tests, 2030-34 (HOU-4.06). Lease-up by ZIP code from the record. Section 6's cost per award on each estimate.
+- **Who sees it, when.** The Fair Housing Initiatives Program's paired tests, funded at $100 million a year for 2030-34 (`DEC-2026-11-09-17`; HOU-4.06). Lease-up by ZIP code from the record. Section 6's cost per award on each estimate.
 - **What we'd do instead.** For weak enforcement: carry the testing money past 2034 and give more weight to private enforcement. If the regular bill fails or a court narrows the protection: point 2's alternative, rewarding states that adopt the protection through the zoning fund (HOU-6), with the 23 state laws and 152 local ones [EV-HOU-247] as the floor. For payment limits: raise the floor in the ZIP codes that lag, and keep the two-year hold harmless for sitting tenants (HOU-4.05).
 - **Kind.** Review.
 
@@ -133,10 +133,10 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 
 ### 1.10 The duty to house and the production target (`DEC-2026-11-09-10`; HOU-4D.01, HOU-3C.04)
 
-- **Main uncertainties.** Whether there are homes to place families in when searches fail in tight markets after 2037. In 2022 only 57% of searches succeeded [EV-HOU-395], and the placements depend on attached homes that the capital must first produce. Whether the proposed 60-day deadline is workable: the median successful search took 78 days [EV-HOU-395].
+- **Main uncertainties.** Whether there are homes to place families in when searches fail in tight markets after 2037. In 2022 only 57% of searches succeeded [EV-HOU-395], and the placements depend on attached homes that the capital must first produce. Whether the 60-day deadline (`DEC-2026-11-09-14`) is workable: the median successful search took 78 days [EV-HOU-395].
 - **What would change our minds.**
   - More than 20% of entitled families still unhoused six months after approval (section 7's threshold).
-  - Offers made late, past the proposed 60 days, in more than a quarter of failed searches at an agency (judgment).
+  - Offers made late, past the 60 days, in more than a quarter of failed searches at an agency (judgment).
   - Placements leaning on the 120% payment standard in a market while rents near the standard rise faster (see 1.1).
   - The target's yearly path missed (see 1.4).
 - **Who sees it, when.** Monthly placements, offers and deadlines from the record, from 2037. HOU-3C.04's yearly production reports. Private suits under HOU-4D.01's remedies, a signal in themselves.
@@ -157,9 +157,9 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 
 ### 1.12 Tribal housing set-asides (`DEC-2026-11-09-10`; HOU-4.13)
 
-- **Main uncertainty.** Whether the set-asides match the need. They are shares of decided amounts: 3% of the emergency fund and of new-award money, and 5% of the revolving-fund grants, about $13 billion over FY2030-39 (proposed, for Espen; `6-cost.md`, 2.6). Tribal needs are mostly physical condition and crowding, at 23% and 16% of households against 5% and 2% nationally [EV-HOU-406], and vouchers pay rent rather than repair homes. The register has no count of tribal homes needing repair or replacement. At $150,000-300,000 a home, the grant share repairs or builds roughly 12,000-24,000 homes (`7-validation.md`, 4.2).
+- **Main uncertainty.** Whether the set-asides match the need. They are shares of decided amounts: 3% of the emergency fund and of new-award money, and 5% of the revolving-fund grants, about $13 billion over FY2030-39 (`DEC-2026-11-09-16`; `6-cost.md`, 2.6). Tribal needs are mostly physical condition and crowding, at 23% and 16% of households against 5% and 2% nationally [EV-HOU-406], and vouchers pay rent rather than repair homes. The register has no count of tribal homes needing repair or replacement. At $150,000-300,000 a home, the grant share repairs or builds roughly 12,000-24,000 homes (`7-validation.md`, 4.2).
 - **What would change our minds.**
-  - The 2032 need report (HOU-4.13, item 4; proposed, for Espen) finds the need well above what the set-asides deliver. That would argue for added investment, as Espen's direction asks.
+  - The 2032 need report (HOU-4.13, item 4; `DEC-2026-11-09-16`) finds the need well above what the set-asides deliver. That would argue for added investment, as Espen's direction asks.
   - Tribal set-asides unspent after three years, or a tribal lease rate on rental awards more than 10 points below urban areas (section 7's threshold for rural places, applied here to tribal areas). That would mean the form or the administration is wrong, not the amount.
 - **Who sees it, when.** The shared record's tribal-area reports of awards, leases, payments and homes financed (HOU-4.13, item 6), from 2030. HUD's Office of Native American Programs and the tribes' 2032 need report.
 - **What we'd do instead.** Where money sits unspent, more flexibility, worked out with the tribes: more of the award share used to repair or build homes, which item 3 already allows, and technical help to tribally designated housing entities. The money stays available until spent and is not taken back. Where the need is larger, raise the grant share, or add a tribal capital line sized from the need report (section 7's earlier option). Either would change amounts, so it would be Espen's decision. Every route goes through tribes under NAHASDA, never through states.
@@ -167,7 +167,7 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 
 ### 1.13 Stage 3: who counts as disabled, and how many (memo 2's condition; HOU-4.08)
 
-- **Main uncertainties.** The definition is set with the care flagship and not yet written; this dossier's placeholder is the voucher program's definition. The count could double. Section 6 counts about 600,000 households under 62 (450,000-800,000), costing about $14 billion a year by FY2042 ($8-26 billion). HUD counts disability only under 62, and disabled renters 62 and over could be as many again: there are 1.749 million older extremely low-income households with worst case needs [EV-HOU-186] (`6-cost.md`, 2.1; questions 2 and 3 there, still open). Stage 3 also needs Medicaid home and community-based services where it lands (shared rule 7).
+- **Main uncertainties.** The definition is set with the care flagship and not yet written; this dossier's placeholder is the voucher program's definition, with SSI, SSDI or Medicaid disability coverage accepted as proof (`DEC-2026-11-09-14`). The count could double. Section 6 counts about 600,000 households under 62 (450,000-800,000), costing about $14 billion a year by FY2042 ($8-26 billion). HUD counts disability only under 62, and disabled renters 62 and over could be as many again: there are 1.749 million older extremely low-income households with worst case needs [EV-HOU-186] (`6-cost.md`, 2.1; questions 2 and 3 there, still open). Stage 3 also needs Medicaid home and community-based services where it lands (shared rule 7).
 - **What would change our minds.**
   - The care flagship's definition takes in disabled people 62 and over, or drops the severe-problems test, and the count passes section 6's high case of 800,000 households. That would push the FY2040-42 cost above section 6's high case (see 1.11).
   - By 2036, two years before opening, the care flagship's Medicaid services are not in place in many of the places where stage 3's households live (judgment: states holding more than a quarter of the projected count).
@@ -226,10 +226,10 @@ Everything else in this section is a review.
 | From 2030 | The record's monthly public reports; HUD's yearly tight-market list; stage 1's yearly counts | 1.1; 1.2; 1.10 |
 | 2031 | First payment-error estimate for the emergency fund; first production reports | 1.7; 1.4 |
 | 2032 | HUD's Build Now study; the plan's second-term election | 1.5; section 2 |
-| 2034 | Recovery-housing evaluation; middle-income trial's interim report (proposed); neighborhood credit awards end; testing money ends | 1.6; 1.3; 1.8 |
+| 2034 | Recovery-housing evaluation; middle-income trial's interim report (`DEC-2026-11-09-14`); neighborhood credit awards end; testing money ends | 1.6; 1.3; 1.8 |
 | 2035 | The builder's first results (judgment); the wider services backstop ends | 1.4; 1.6 |
 | 2036 | The attached-help evaluation | 1.1 |
-| 2037 | Stage 2 becomes a right, with the duty to house; GAO and HUD's ten-year investor report; middle-income final report (proposed) | 1.2; 1.10; 1.9; 1.3 |
+| 2037 | Stage 2 becomes a right, with the duty to house; GAO and HUD's ten-year investor report; middle-income final report (`DEC-2026-11-09-14`) | 1.2; 1.10; 1.9; 1.3 |
 | FY2040 | The maturity test | 1.11 |
 | January 2042 | The investor ban's repeal date [EV-HOU-222] | 1.9 |
 
