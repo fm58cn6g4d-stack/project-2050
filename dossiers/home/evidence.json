@@ -8776,7 +8776,7 @@
   "grade": "C",
   "fact_date": "2019",
   "recheck": "2027-11-01",
-  "context": "HUD-commissioned evaluation (Econometrica), first Trump administration, 2019. A survey of 298 residents of 18 early conversions, mostly in the South, with a 31% enrollment rate; NLIHC (2019) notes it may not represent later conversions. HUD's data could not track movers. Survey data, graded C for the small, unrepresentative sample.",
+  "context": "HUD-commissioned evaluation (Econometrica), first Trump administration, 2019. A survey of 298 residents of 18 early conversions, with a 31% enrollment rate; NLIHC (2019) counted 13 of the 18 in the South and notes the sample may not represent later conversions. HUD's data could not track movers. Survey data, graded C for the small, unrepresentative sample.",
   "checked": "2026-11-09",
   "supports": [
    "dossiers/home/5-delivery.md"

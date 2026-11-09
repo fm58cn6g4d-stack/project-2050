@@ -1,6 +1,6 @@
 # A home you can keep: delivery
 
-Role: section 5 of the housing dossier. It says who runs each provision in `4-specification.md` and `provisions.json`, whether they can, what fixes their capacity, the timeline from 2029 to 2038 matched to the vehicles, how the one rental help system works on the ground, how states, cities and tribes take part, the remedies tenants have, the fraud controls, and what the statute must say so that delivery does not depend on a willing agency. Status: draft (stage C, step 5), on top of section 4 (PR #136, not yet merged). It changes no provision; where delivery argues for a change, it says so and leaves the change to the section 4 owner or to Espen. Choices that are Espen's are listed at the end and in the README as questions, not decided here.
+Role: section 5 of the housing dossier. It says who runs each provision in `4-specification.md` and `provisions.json`, whether they can, what fixes their capacity, the timeline from 2029 to 2038 matched to the vehicles, how the one rental help system works on the ground, how states, cities and tribes take part, the remedies tenants have, the fraud controls, and what the statute must say so that delivery does not depend on a willing agency. Status: draft (stage C, step 5), on top of section 4 (PR #136, not yet merged). It changes no provision; where delivery argues for a change, it says so and leaves the change to the section 4 owner or to Espen. Every addition that costs money is listed at the end ("Changes this section asks of section 4"), so section 6 prices it or Espen decides it. Choices that are Espen's are listed at the end and in the README as questions, not decided here.
 
 ## How to read this section
 
@@ -18,7 +18,7 @@ Role: section 5 of the housing dossier. It says who runs each provision in `4-sp
 | HOU-4.04 attached awards; HOU-4.05 neighborhood payment limits | HUD | Housing agencies | State housing finance agencies (the homes attached help goes to) | Project-based caps and choice mobility in current law (2.2) |
 | HOU-4.06 source-of-income protection | HUD (Fair Housing and Equal Opportunity); Justice Department | Fair housing groups; state and local fair housing agencies; courts | — | HUD's fair housing staff (2.1, 6.1) |
 | HOU-4.07 search help | HUD | Housing agencies, or a regional nonprofit where agencies are small | Landlord groups | Search counselors (2.3) |
-| HOU-1D.01 to .04 emergency fund | HUD (section 4's choice, HOU-4.02) | One grantee per place: states, and cities and counties of 200,000 or more that opt in | Courts, legal aid, 211 | A network built from scratch in 2030 (2.5) |
+| HOU-1D.01 to .04 emergency fund | HUD (section 4's choice, HOU-4.02) | One grantee per place: states, cities and counties of 200,000 or more that opt in, and tribes or tribally designated housing entities (HOU-1D.03) | Courts, legal aid, 211 | A network built from scratch in 2030 (2.5) |
 | HOU-4.09 to 4.12 Housing First, recovery housing, supportive housing | HUD (CoC and ESG programs), VA (HUD-VASH), HHS (SAMHSA; CMS for Medicaid) | CoCs and nonprofit providers; state Medicaid agencies | Care flagship (HLT-1, HLT-4) | The services workforce (2.6) |
 | HOU-3C.01 state revolving funds | HUD | State housing finance agencies (or a state's designated fund) | Localities; nonprofit and tax-credit developers | State readiness (2.4) |
 | HOU-3C.02 construction loans | HUD, with the Federal Financing Bank (Treasury) | State agencies originate and service under a risk-share | CBO (subsidy rate) | A new HUD lending office (2.4) |
@@ -37,7 +37,7 @@ Role: section 5 of the housing dossier. It says who runs each provision in `4-sp
 **What the record shows.** HUD's workforce fell from about 8,800 to about 6,300 between December 2024 and December 2025; over half of those who left had at least ten years at HUD, 41% more than twenty; HUD hired 193 people in 2025 (GAO, 2026) [EV-HOU-340]. The same report records stakeholders' accounts of slower answers and of a housing agency locked out of HUD's payment system for three months [SRC-1440]. The ROAD to Housing Act gave HUD about 38 new duties with no money for staff (`road-act.md`, "HUD's load").
 
 **Fixes.**
-1. **Staff for the plan's programs, paid with the programs.** HOU-4A.02 and HOU-1D.03 already carry administration money for housing agencies and grantees. The statute should also set aside a share of each new mandatory program for federal administration, systems and evaluation, available until spent, so the plan's programs do not wait on the yearly HUD salaries account (judgment). The agency rebuild lines (CAP-7S, CAP-7) cover HUD's base; this covers what the plan adds.
+1. **Staff for the plan's programs, paid with the programs.** HOU-4A.02 and HOU-1D.03 already carry administration money for housing agencies and grantees. The statute should also set aside a share of each new mandatory program for federal administration, systems and evaluation, available until spent, so the plan's programs do not wait on the yearly HUD salaries account (judgment). The agency rebuild surge (CAP-7S) covers part of HUD's base; the sustained increase (CAP-7) is marked declined in `agenda/agenda.csv` though the legacy capacity file keeps it, so HUD's staffing after the surge has no settled line. That makes this set-aside the plan's only assured federal staffing for its own programs (a note for the democratic renewal dossier, which owns CAP-7).
 2. **Hiring authority for 2029.** Direct-hire authority for HUD's rental assistance, data and lending offices in 2029-31, and authority to bring back former staff without pay penalties. This is executive action in 2029 where OPM allows it, and the regular bill where it needs law (judgment).
 3. **A delivery office.** A small HUD office for the one rental help system, reporting monthly on applications, awards, leases and payments by place, with a technology team on the model the federal digital service units use (judgment). Its reports are public by statute.
 4. **Build what HUD would have to build anyway, once.** The data standard, the application and the duplicate check (section 4 below) are one system, not three.
@@ -58,7 +58,7 @@ Role: section 5 of the housing dossier. It says who runs each provision in `4-sp
 4. **A backstop administrator.** Where an agency declines new awards or misses the measures twice, the state housing agency or a regional consortium takes them. Small agencies may pool administration (judgment).
 5. **Pace by readiness, not by waiting.** The 2030 awards go first to places that sign the CoC and data agreements by mid-2030; the rest follow in the second half (judgment). HUD's 2030-31 awards are then spread by need through the year rather than in one batch.
 
-**Project-based limits in current law (section 4's open check).** An agency may now project-base at most 20% of its authorized units, plus 10% for homeless, veteran, supportive and hard-to-use areas (42 U.S.C. 1437f(o)(13)(B)) [EV-HOU-351]. HOU-4.04's attached awards would exceed this in some tight markets, so the statute must exempt them, as section 4 assumed. Current law's right to move after 12 months is real, but if no voucher is available the agency may give the family priority for the next one [EV-HOU-352]. That is a wait, not a right. For HOU-4.04's "right to move", the statute should say the move-out voucher is funded from the award itself, so it is always available (judgment). Both points go to the section 4 owner as text changes; this section does not edit section 4.
+**Project-based limits in current law (section 4's open check).** An agency may now project-base at most 20% of its authorized units, plus 10% for homeless, veteran, supportive and hard-to-use areas (42 U.S.C. 1437f(o)(13)(B)) [EV-HOU-351]. HOU-4.04's attached awards would exceed this in some tight markets; section 4 now exempts them as a change to current law. Current law's right to move after 12 months is real, but if no voucher is available the agency may give the family priority for the next one [EV-HOU-352]. That is a wait, not a right. Section 4 now funds each household's move-out voucher from its own award, so it is always available. **Data for the tight-market test** (section 4 asks): where no annual Census vacancy reading exists for an area, the lease-up test uses HUD's own voucher records of issuance and lease dates for new awards, which every agency already reports (judgment).
 
 ### 2.3 Landlords
 
@@ -112,12 +112,12 @@ ERA built about 740 grantees almost from nothing in 2021 [SRC-1068], spent about
 | --- | --- | --- | --- | --- |
 | Executive action, January 2029 | Revoke the July 2025 order's conditions [EV-HOU-107]; HUD notices and rules (Housing First, CoC rule, HUD-VASH, payment limits); hiring | First weeks | — | — |
 | R1 (FY2029 resolution) | Nothing in section 4. A question for Espen: a small readiness tranche (systems, data, staff) | Done by about February 20, 2029 (median) | Late January | July 2029 (median); as late as November |
-| R2 (FY2030 resolution) | All of housing's mandatory money and conditions | Median **January 14, 2030**; runs span June 2029 to December 2030 | Median July 12, 2029 | Median run does not finish |
+| R2 (FY2030 resolution) | All of housing's mandatory money and conditions | Half of central runs finish by October 30, 2029, the rest by mid-January 2030 or later (the two middle runs are October 30, 2029 and January 14, 2030); central runs span June 2029 to December 2030 | Median July 12, 2029; earliest May 14, 2029 | 34 of 50 difficult runs never finish R2 |
 | R3 (FY2031 resolution) | Fixes found in 2030; any housing piece that slips from R2 | Median July 2, 2030 | May 2030 | Median run does not finish |
 | Housing regular bill (calendar row HOU-7) | HOU-4.01 definitions, 4.02 data and privacy, 4.05, 4.06, 4.09, 4.11, 1D.03 privacy, 5.02, 6.01 eligibility, 6.02, 9A.01 | Median February 26, 2030; September 2029 to October 2030 | Median July 24, 2029 | Median run does not finish |
-| Appropriations | Evaluations; renewals after the mandatory windows; HUD's base staff (CAP-7S, CAP-7) | Yearly from FY2030 (October 1, 2029) | — | — |
+| Appropriations | Evaluations; renewals after the mandatory windows; HUD's base staff (CAP-7S; CAP-7 is marked declined) | Yearly from FY2030 (October 1, 2029) | — | — |
 
-**What this means.** Section 4 calls R2 "fall 2029"; in the calendar's central runs it is about January 2030, and in difficult runs it may not pass. A plan whose first awards are dated "2030" must still work if R2 is signed in mid-2030. So:
+**What this means.** In the calendar's central runs R2 is as likely to pass by late October 2029 as after it: half finish by October 30, 2029 and the rest by mid-January 2030 or later. In difficult runs it often does not pass (34 of 50 runs). A plan whose first awards are dated "2030" must still work if R2 is signed in mid-2030. So:
 - **Dates run from enactment, with a latest date.** "First awards within 6 months of enactment" rather than a fixed month; and money for each award year is available until spent, so a late law does not lose a year (judgment).
 - **The money does not wait on the regular bill.** Section 4 already writes R2's zoning money so it can be spent under the Act's current rules (HOU-6.01). The same applies to the data system: R2 funds it, and until the regular bill gives the data-sharing authority, programs share records under current law with the household's consent (section 4 below).
 - **If R2 fails** (the calendar's difficult case), the guarantee, the fund and the construction money have no other vehicle that carries mandatory spending except R3. Housing would then move to R3 whole. This is a scenario point for the lead and Espen, not a housing decision.
@@ -161,7 +161,7 @@ Section 4 defines the system (HOU-4.02). Delivery has to make it work across hou
 - **Housing agencies** are local or regional bodies under state law, not state governments. A state cannot by itself stop its agencies from taking new awards, so the guarantee reaches every state (judgment). The backstop administrator (2.2 item 4) covers places where an agency declines.
 - **States** run the revolving funds and are the default emergency fund grantee. They also hold Medicaid, which decides whether services reach supportive housing.
 - **Cities and counties** of 200,000 or more may run their own emergency fund program, with no overlap; they compete for the zoning reward; and they are where eviction courts and CoCs sit.
-- **Tribes.** ERA's first round set aside $0.800 billion for tribal areas by the Native American Housing Block Grant formula; its second round had none [EV-HOU-350]. Tribal HUD-VASH is a pilot that GAO says lacks measurable objectives and an evaluation plan [SRC-1441]. The register has no evidence on how the new awards would reach tribal lands, where vouchers are hard to use. The working answer here is a tribal set-aside in HOU-1D, HOU-3C.01 and the new awards, run through tribes or their housing entities under the block grant law. The share is a question for Espen (judgment).
+- **Tribes.** Section 4 makes tribes and tribally designated housing entities emergency-fund grantees, as in ERA (HOU-1D.03). ERA's first round set aside $0.800 billion for tribal areas by the Native American Housing Block Grant formula; its second round had none [EV-HOU-350]. Tribal HUD-VASH is a pilot that GAO says lacks measurable objectives and an evaluation plan [SRC-1441]. The register has no evidence on how the new awards would reach tribal lands, where vouchers are hard to use. Still open: the size of the emergency-fund set-aside, and whether a tribal set-aside also reaches HOU-3C.01 and the new awards, run through tribes or their housing entities under the block grant law. Both are questions for Espen (judgment).
 
 ### Where a state refuses
 
@@ -185,7 +185,7 @@ The protection rides the Fair Housing Act's remedies (HOU-4.06): a HUD complaint
 
 ### 6.2 Right to return and repair first
 
-HOPE VI returned few residents to rebuilt sites: 19% in one study [EV-HOU-122]. RAD's evaluation found 82% stayed at the same property and 92% were in the original property after conversion, but its survey covered 298 residents of 18 early, mostly southern conversions and HUD's data could not track movers (HUD-commissioned, first Trump administration, 2019) [EV-HOU-348]. The ROAD to Housing Act now requires HUD to publish yearly how many residents stay or return [EV-HOU-231]. Delivery (judgment):
+HOPE VI returned few residents to rebuilt sites: 19% in one study [EV-HOU-122]. RAD's evaluation found 82% stayed at the same property and 92% were in the original property after conversion, but its survey covered 298 residents of 18 early conversions (NLIHC counted 13 of the 18 in the South) and HUD's data could not track movers (HUD-commissioned, first Trump administration, 2019) [EV-HOU-348]. The ROAD to Housing Act now requires HUD to publish yearly how many residents stay or return [EV-HOU-231]. Delivery (judgment):
 - **every displaced resident is tracked in the household record** (section 4), so the yearly count is a census, not a survey;
 - **residents have a private right to enforce** the right to return, one-for-one replacement and relocation payments (HOU-5.02), with fees for a resident who wins;
 - **HUD's withholding power** stays, but residents do not have to wait for it.
@@ -263,18 +263,39 @@ None of this makes a law self-executing against an agency that ignores it; it gi
 
 These are flagged, not decided; each also appears in the README.
 1. **A readiness tranche in R1?** A small amount of mandatory money in the first reconciliation bill (February 2029) for HUD's data system, the application, hiring and the grantee rules, so 2030 is not lost if R2 runs to 2030. The alternative is FY2029-30 appropriations, which a Democratic Congress would also write. Recommendation: yes, if R1's scope allows it (judgment).
-2. **A tribal set-aside** in the emergency fund, the revolving funds and the new awards, and its size. ERA used about 3% of its first round [EV-HOU-350] ($0.800 billion of $25 billion [EV-HOU-150]). Recommendation: yes, at a share set from need data in section 6.
+2. **Tribal set-asides.** Tribes are already emergency-fund grantees in section 4 (HOU-1D.03). Open: the size of their set-aside, and whether set-asides also reach the revolving funds (HOU-3C.01) and the new awards. ERA used about 3% of its first round [EV-HOU-350] ($0.800 billion of $25 billion [EV-HOU-150]). Recommendation: yes, at a share set from need data in section 6.
 3. **The services backstop where a state's Medicaid program does not cover tenancy services.** Section 4 pays it only for tenants without Medicaid; delivery suggests extending it to tenants whose state does not cover the service. It costs more and lowers the pressure on states to cover it. Recommendation: yes, through 2035, then only for tenants without Medicaid.
 4. **Mandatory fair housing testing money for 2030-34** to enforce source-of-income protection while HUD's fair housing office rebuilds. Recommendation: yes.
 5. **Deemed approval** for guarantee applications not decided within 30 days from 2037. It protects the right against a slow agency but pays some families before checks. Recommendation: yes, with checks after award.
+6. **Private rights of action with fees.** Section 6 above gives tenants and residents the right to sue, with attorney's fees, to enforce the guarantee from 2037, the right to return and replacement (HOU-5.02) and the Housing First lease protection. This is a substantive commitment, not only a delivery mechanism: it moves enforcement from HUD to courts and exposes agencies and providers to suits. The alternative is administrative enforcement only (HUD withholding money, and hearings), which a hostile HUD could leave unused. Recommendation: yes.
 
 ## Changes this section asks of section 4
 
-For the section 4 owner; not made here.
-- HOU-4.04: exempt attached awards from the project-based cap [EV-HOU-351], and fund each household's move-out voucher from its own award, since current law allows a wait for the next voucher [EV-HOU-352].
+For the section 4 owner and section 6; not made here.
+
+**Text changes.** Section 4's head (c6b4aa6) has taken up the first four.
+- HOU-4.04: fund each household's move-out voucher from its own award, since current law allows a wait for the next voucher [EV-HOU-352]. (The cap exemption [EV-HOU-351] is already in section 4.)
 - HOU-4A.02: fees for the new awards paid in full, never prorated [EV-HOU-343], with an issuance fee.
 - HOU-4A.01 and others: dates written from enactment, with money available until spent.
 - HOU-4.02: the consent-based fallback for data sharing until the regular bill passes.
+- Section 4's "Vehicles" line: replace "its central date is about January 14, 2030" with the range in section 3 above (half of central runs by October 30, 2029, the rest by mid-January 2030 or later; earliest May 14, 2029).
+
+**Additions that cost money.** Each needs a provision line or a parameter in an existing one, and a cost in section 6. "Section 6 prices" means the item follows from decided designs; "if Espen agrees" means it waits on a question above.
+
+| Addition | Where it would sit | Status |
+| --- | --- | --- |
+| Federal administration, systems and evaluation set-aside, available until spent (2.1) | Each R2 program, or one line beside HOU-4A.02 and HOU-1D.03 | Section 6 prices |
+| Issuance fee for each new award (2.2) | HOU-4A.02 | Section 6 prices (now in section 4) |
+| Payment standards up to 120% of the limit where lease-up is low (2.2) | HOU-4A.01, HOU-4.05 | Section 6 prices (raises cost per award) |
+| Damage and vacancy-loss fund, and interest on late first payments to landlords (2.3) | HOU-4.07 | Section 6 prices |
+| Peer-specialist training money from 2030 (2.6) | HOU-4.12 | Section 6 prices |
+| Funding for navigator shortfalls where HOU-4.11's duty cannot be met (2.6) | HOU-4.12 | Section 6 prices |
+| Inspector general set-aside for audits of the new programs (section 7) | Each R2 program | Section 6 prices |
+| Readiness tranche in R1 (question 1) | New line in R1 | If Espen agrees |
+| Tribal set-asides: size in the emergency fund, and any reach into HOU-3C.01 and the new awards (question 2) | HOU-1D.03, HOU-3C.01, HOU-4A.01, HOU-4D.01 | If Espen agrees; size from section 6 |
+| Wider services backstop through 2035 (question 3) | HOU-4.12 | If Espen agrees |
+| Mandatory fair housing testing and enforcement grants, 2030-34 (question 4) | HOU-4.06 (money in R2, rules in the regular bill) | If Espen agrees |
+| Fees for successful private suits (question 6) | HOU-4D.01, HOU-5.02, HOU-4.11 | If Espen agrees; scored with the rights |
 
 ## Evidence still needed
 

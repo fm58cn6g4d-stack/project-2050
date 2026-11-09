@@ -41,7 +41,8 @@ Evidence register: `evidence.json`, entries EV-HOU-001 onward.
 3. **Optional upload.** HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026) would raise the 2025 homelessness figures from grade C to A. The 2024 report and *Worst Case Housing Needs 2025* are in the library (thanks for uploading them).
 4. **Section 5 delivery questions** (`5-delivery.md`, "Questions for Espen"; none adopted by silence):
    - a small readiness tranche for HUD's systems and staff in R1 (February 2029), so 2030 is not lost if R2 slips into 2030 (recommended, if R1's scope allows);
-   - a tribal set-aside in the emergency fund, the revolving funds and the new awards (recommended; size set in section 6);
+   - tribal set-asides: the size of the emergency-fund set-aside (tribes are grantees in section 4), and whether set-asides also reach the revolving funds and the new awards (recommended; size set in section 6);
    - extending the HUD services backstop to tenants whose state Medicaid program does not cover tenancy services, through 2035 (recommended);
    - mandatory fair housing testing money for 2030-34 to enforce source-of-income protection (recommended);
    - deemed approval of guarantee applications not decided within 30 days from 2037, with checks after award (recommended).
+   - private rights of action with attorney's fees to enforce the 2037 guarantee, the right to return and the Housing First lease protection (recommended; a substantive commitment, not only mechanics).
