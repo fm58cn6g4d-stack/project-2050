@@ -85,14 +85,15 @@
     "id": "HOU-4.03",
     "title": "Order of reach",
     "agenda": "HOU-4",
-    "status": "decided; open: whether doubled-up households count in stage 1 (research in PR #141)",
+    "status": "decided",
     "decisions": [
       "DEC-2026-11-09-06",
       "DEC-2026-11-09-01",
       "DEC-2026-11-09-02",
-      "DEC-2026-11-09-10"
+      "DEC-2026-11-09-10",
+      "DEC-2026-11-09-12"
     ],
-    "parameters": "Stage 1 people without a home (families first) 2030-33; stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters from 2038; within stage: severity, youngest children, date; older non-disabled renters reconsidered once the care program is scoped; doubled-up households open",
+    "parameters": "Stage 1 people with no home of their own: literally homeless, and families with children doubled up, shown by their own word or a school record, no deadline test and no cap; order by local need-based intake, counts published yearly, a two-year imbalance triggers review (DEC-2026-11-09-12); stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters from 2038; within stage: severity, youngest children, date; older non-disabled renters reconsidered once the care program is scoped",
     "eligibility": "As stated; local preferences allowed, no residency rules",
     "vehicle": [
       {
@@ -533,10 +534,11 @@
       "DEC-2026-11-09-01",
       "DEC-2026-11-09-06",
       "DEC-2026-11-09-10",
-      "DEC-2026-11-09-11"
+      "DEC-2026-11-09-11",
+      "DEC-2026-11-09-12"
     ],
-    "parameters": "Enrollment opens 2034, up to 300,000 a year; a right from 2037; $135B is an estimate, not a cap; exit at 80% of AMI (youngest-child rule judgment); duty to house from 2037: search help and landlord recruitment, and an offer of an attached home or a reissued voucher with a higher payment standard when a search fails (60-day deadline and two-offer rule proposed, for Espen); decisions within 30 days or deemed approved, with checks after award; private right of action with attorney's fees; tribal share (HOU-4.13)",
-    "eligibility": "Unassisted ELI renter households with a child under 18 and severe problems",
+    "parameters": "Enrollment opens 2034, up to 300,000 a year; a right from 2037; $135B is an estimate, not a cap; exit at 80% of AMI (youngest-child rule judgment); duty to house from 2037: search help and landlord recruitment, and an offer of an attached home or a reissued voucher with a higher payment standard when a search fails (60-day deadline proposed, for Espen); decisions within 30 days or deemed approved, with checks after award; private right of action with attorney's fees; tribal share (HOU-4.13)",
+    "eligibility": "Unassisted ELI renter households with a child under 18 and severe problems; from 2034 also families with children with no home of their own (doubled up or homeless; DEC-2026-11-09-12)",
     "vehicle": [
       {
         "vehicle": "R2",
@@ -556,7 +558,7 @@
       "EV-HOU-346"
     ],
     "sources": [],
-    "cost_source": "6-cost.md: $81B FY2030-39 plus about $3B for the duty to house; ledger housing_extra_tn 0.135",
+    "cost_source": "6-cost.md: $81B FY2030-39 plus about $3B for the duty to house; ledger housing_extra_tn 0.135; wider entry under DEC-2026-11-09-12 not yet priced",
     "spec": "dossiers/home/4-specification.md"
   },
   {

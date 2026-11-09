@@ -298,6 +298,7 @@ The net effect on the headline (central, option D): about −$0.08 trillion over
 - **Section 5's items Espen adopted** (`DEC-2026-11-09-10`): the R1 readiness tranche and the testing grants are placeholders (sections 1.2 and 1.2's FY2029 note); the cost of deemed approval's payments before checks and the attorney's fees for successful private suits under the 2037 guarantee, the right to return and the Housing First lease protection are unpriced.
 - **The duty to house's placement homes,** if they cost more than an average voucher (section 2.5).
 - **Tribal need:** what restoring resources sufficient for tribes to care for their people would cost beyond the set-asides (section 2.6; HOU-4.13's proposed need report).
+- **Stage 2's wider entry** (`DEC-2026-11-09-12`): from 2034, families with children with no home of their own, doubled up or homeless, can enter stage 2. Decided after this revision; not in the figures above. It needs the doubled-up counts in PR #141's research note.
 - **Inflow and outflow in stage 2** after 2037. The count is held flat, and the exit rule's effect is unmeasured.
 
 ## Questions for Espen
