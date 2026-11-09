@@ -13215,5 +13215,3339 @@
    "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "AARP Research with NORC, 2024; AARP advocates aging-in-place policy (stake). Re-check: next AARP survey, usually every three years."
+ },
+ {
+  "id": "EV-HOU-500",
+  "statement": "The 2008 HERA credit was refundable, worth 10% of price up to $7,500, phased out between $75,000 and $95,000 of income ($150,000-$170,000 joint), and had to be repaid over 15 years, making it an interest-free loan; ARRA raised it to $8,000 and dropped repayment; the WHBAA extension added a $6,500 credit for repeat buyers (five of the last eight years in the home), raised the income limits to $125,000/$225,000 and barred homes priced over $800,000.",
+  "claim": "data",
+  "figures": [
+   "$7,500",
+   "$75,000",
+   "$95,000",
+   "$150,000",
+   "$170,000",
+   "15 years",
+   "$8,000",
+   "$6,500",
+   "$125,000",
+   "$225,000",
+   "$800,000"
+  ],
+  "source": "SRC-1800",
+  "anchor": [
+   "Eligible buyers were allowed a refundable credit against their federal income tax equal to a maximum of 10% of a home's purchase price, or $7,500. The amount of the credit that could be claimed was reduced for individuals with modified adjusted gross income (AGI) of more than $75,000 ($150,000 for joint filers), and was zero for those individuals with modified AGI in excess of $95,000 ($170,000 for joint filers).",
+   "Those who claimed the 2008 first-time homebuyer tax credit must repay the tax credit in equal installments over 15 years beginning in the second taxable year after the purchase of a home.",
+   "the repayable tax credit equates to an interest free loan",
+   "The credit amount was set equal to a maximum of 10% of a home's purchase price, or $8,000. The tax credit remained refundable, although the repayment requirement was removed.",
+   "The tax credit for repeat buyers was capped at $6,500 and was limited to those who have owned and lived in their current home for five of the last eight years. Other changes included an expansion of the maximum credit income eligibility limits to $125,000 for individuals and $225,000 for married couples, up from $75,000 and $150,000, respectively. Lastly, an $800,000 limit on the purchase price of a home was included."
+  ],
+  "locator": "Summary; \"Overview of the Homebuyer Tax Credit\"",
+  "grade": "C",
+  "fact_date": "2010-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-501",
+  "statement": "JCT estimated the HERA credit at $4.9 billion over 10 years, the ARRA changes at $6.5 billion and the WHBAA version at $10.8 billion; by CRS's count of early IRS data, 1.4 million first-time buyers had claimed about $10 billion (average $7,004), and CRS judged that most claimants were buyers who had already decided to purchase.",
+  "claim": "analysis",
+  "figures": [
+   "$4.9 billion",
+   "$6.5 billion",
+   "$10.8 billion",
+   "1.4 million",
+   "$10 billion",
+   "$7,004"
+  ],
+  "source": "SRC-1800",
+  "anchor": [
+   "The Joint Committee on Taxation (JCT) has estimated the 10-year cost of the most recent version of the tax credit to be $10.8 billion. 2 In comparison, the original HERA version of the first-time homebuyer tax credit was estimated to cost $4.9 billion over 10 years, while the 10-year cost of the modifications made by ARRA was estimated to be $6.5 billion.",
+   "Thus far, 1.4 million first-time homebuyers have claimed approximately $10 billion worth of tax credits.",
+   "The average tax credit claimed was $7,004.",
+   "while the majority of the other claimants likely were buyers who had already decided to purchase a home, and simply claimed the tax credit because it was available."
+  ],
+  "locator": "Introduction; \"Number of First-Time Homebuyer Tax Credits Claimed\"",
+  "grade": "C",
+  "fact_date": "2010-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Congressional Research Service, July 2010; nonpartisan; reports JCT estimates and preliminary IRS counts (through August 2009 purchases); the \"majority anyway\" judgment is CRS reasoning, not an estimate.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-509",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-510",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-502",
+  "statement": "Using price elasticities of -0.5 to -1.5, CRS estimated the ARRA credit could have been expected to add 42,790 to 128,371 home purchases and the WHBAA version 51,523 to 153,760, well below industry estimates.",
+  "claim": "analysis",
+  "figures": [
+   "42,790",
+   "128,371",
+   "51,523",
+   "153,760"
+  ],
+  "source": "SRC-1800",
+  "anchor": [
+   "Because estimates of the price elasticity vary, three different values were used; -0.5, -1.0, and -1.5.",
+   "Depending on the assumed responsiveness of buyers to price changes, it was estimated that the ARRA tax credit could have been expected to result in between 42,790 and 128,371 additional home purchases, while it was estimated that the WHBAA tax credit could be expected to result in between 51,523 and 153,760 additional purchases.",
+   "It is immediately apparent that private industry analysts' estimates are higher than those reported in the top half of the table."
+  ],
+  "locator": "\"Estimates of Home Purchases Attributable to the ARRA and WHBAA Homebuyer Tax Credits\", Table 3",
+  "grade": "C",
+  "fact_date": "2010-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Congressional Research Service, 2010; ex ante simulation multiplying an assumed elasticity by the credit as a share of the median price; not an ex post causal estimate. Later causal studies (Berger, Turner and Zwick; Hembre) found larger effects.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-508",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-510",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-503",
+  "statement": "CRS estimated that after repayment the $7,500 HERA credit was worth only $2,104, or 1.0% of the price, and that falling prices and mortgage rates cut the typical buyer's payment about eight times as much as the ARRA credit did.",
+  "claim": "analysis",
+  "figures": [
+   "$7,500",
+   "$2,104",
+   "1.0%"
+  ],
+  "source": "SRC-1800",
+  "anchor": [
+   "After accounting for repayment, the $7,500 tax credit was estimated to have a reduced a home's purchase price by $2,104 or 1.0%.",
+   "Combined, home prices and mortgages rates were estimated to be eight times more powerful at lowering the cost of homeownership than the tax credit."
+  ],
+  "locator": "\"Home Prices, Mortgage Rates, and the HERA and ARRA Homebuyer Tax Credits\", Table 2",
+  "grade": "C",
+  "fact_date": "2010-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Congressional Research Service, 2010; mortgage-payment arithmetic for a median-priced home, not a behavioral estimate.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-512",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-504",
+  "statement": "TIGTA reported that through July 30, 2011 the IRS processed more than 4.3 million homebuyer credit claims totaling almost $30.4 billion; a prior TIGTA audit estimated potentially erroneous refunds of more than $513 million to taxpayers who most likely did not qualify, and IRS examinations had stopped or assessed more than $1.57 billion.",
+  "claim": "data",
+  "figures": [
+   "4.3 million",
+   "$30.4 billion",
+   "$513 million",
+   "$1.57 billion"
+  ],
+  "source": "SRC-1808",
+  "anchor": [
+   "Through July 30, 2011, the IRS reported that it processed more than 4.3 million claims for the Homebuyer Credit totaling almost $30.4 billion.",
+   "a prior TIGTA audit estimated that IRS control weaknesses allowed taxpayers who most likely did not qualify for the Homebuyer Credit to receive potentially erroneous refunds of more than $513 million.",
+   "The completed examinations have resulted in more than $1.57 billion being stopped before a refund was issued or assessed to the taxpayer's account subsequent to the refund being issued (post-refund)."
+  ],
+  "locator": "Highlights (\"Impact on Taxpayers\", \"Why TIGTA Did the Audit\"); Results of Review",
+  "grade": "A",
+  "fact_date": "2011-07-30",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-505",
+  "statement": "In 2009 TIGTA found 19,351 e-filed 2008 returns claiming over $139 million in credits for homes not yet purchased, and 70,005 taxpayers whose prior returns suggested they were not first-time buyers whose claims were processed before IRS filters were in place.",
+  "claim": "data",
+  "figures": [
+   "19,351",
+   "2008",
+   "$139 million",
+   "70,005"
+  ],
+  "source": "SRC-1806",
+  "anchor": [
+   "TIGTA identified 19,351 Tax Year 2008 electronically filed tax returns on which taxpayers claimed Credits totaling over $139 million for homes that had not yet been purchased.",
+   "taxpayers who appear not to be first-time homebuyers (based on their prior tax return information) were claiming the Credit.",
+   "TIGTA identified 70,005 taxpayers whose tax returns were processed prior to the implementation of these filters."
+  ],
+  "locator": "Highlights, \"What TIGTA Found\"",
+  "grade": "A",
+  "fact_date": "2009-09-29",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-506",
+  "statement": "TIGTA's June 2010 interim report found that control weaknesses let an estimated $9.1 million in fraudulent claims by prison inmates be processed, allowed multiple claims for the same home, and allowed an estimated $17.6 million in claims for homes bought before the dates the law allowed.",
+  "claim": "data",
+  "figures": [
+   "$9.1 million",
+   "$17.6 million"
+  ],
+  "source": "SRC-1807",
+  "anchor": [
+   "Control weaknesses allowed fraudulent claims filed by prison inmates totaling an estimated $9.1 million to be processed. Multiple claims for the same home were allowed. In addition, claims totaling an estimated $17.6 million were allowed for homes purchased prior to the dates allowed by the law."
+  ],
+  "locator": "Highlights, \"What TIGTA Found\" (Reference Number 2010-41-069)",
+  "grade": "A",
+  "fact_date": "2010-06-17",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-507",
+  "statement": "Recapture proved hard to administer: TIGTA reported $29.7 billion of claims by more than 4 million people as of May 7, 2011, and found that of 86,609 people sent a notice that their home had changed status, 53,558 (62 percent) got it because a vendor wrongly flagged their address.",
+  "claim": "data",
+  "figures": [
+   "$29.7 billion",
+   "4 million",
+   "86,609",
+   "53,558",
+   "62 percent"
+  ],
+  "source": "SRC-1809",
+  "anchor": [
+   "The IRS reported a total of $29.7 billion in Homebuyer Credit claims were made by more than 4 million individuals as of May 7, 2011.",
+   "For the 86,609 individuals who received a Notice CP03c, 53,558 (62 percent) received this notice because the third-party vendor incorrectly indicated the individual\u2019s address did not match the address in the IRS\u2019s Recapture File."
+  ],
+  "locator": "Highlights, \"Why TIGTA Did the Audit\" and \"What TIGTA Found\" (Report Number 2011-41-097)",
+  "grade": "A",
+  "fact_date": "2011-09-15",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-508",
+  "statement": "Berger, Turner and Zwick estimate the credit raised home sales by 490,000 (9.8%), raised median prices by $2,400 (1.1%) per standard deviation of program exposure, and raised the transition rate into homeownership by 53%; induced buyers were three years younger than typical first-time buyers (claimants' median age 32), and effects were concentrated in low-price ZIP codes.",
+  "claim": "analysis",
+  "figures": [
+   "490,000",
+   "9.8%",
+   "$2,400",
+   "1.1%",
+   "53%",
+   "32",
+   "0.026",
+   "0.000"
+  ],
+  "source": "SRC-1810",
+  "anchor": [
+   "we find that the First-Time Homebuyer Credit increased home sales by 490,000 (9.8%), median home prices by $2,400 (1.1%) per standard deviation increase in program exposure, and the transition rate into homeownership by 53%.",
+   "induced buyers were three years younger in 2009 than typical first-time buyers.",
+   "the median age is 32, three years younger than the typical first-time buyer in other years.",
+   "The effects are concentrated in the low-price ZIPs, which yield a coefficient of 0.026, while the high-price ZIPs show no discernible effect with a coefficient of 0.000."
+  ],
+  "locator": "Abstract; Section IV (Table IV discussion); Section on age distribution (p. 299)",
+  "grade": "B",
+  "fact_date": "2020-02",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Journal of Finance, February 2020; peer-reviewed; IRS administrative data on all claims, ZIP-level difference-in-differences and an income-kink design; one author at the Federal Reserve Board; finds the policy effective at moving sales forward with prices supported.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-510",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-512",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-513",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-509",
+  "statement": "In the working-paper version, Berger, Turner and Zwick estimated that 24 to 35 percent of claims were for induced sales, the rest being sales that would have happened anyway, implying a direct fiscal cost of about $28K per induced sale ($11B over 397K induced sales).",
+  "claim": "analysis",
+  "figures": [
+   "24 percent",
+   "35 percent",
+   "546",
+   "$11B",
+   "397K",
+   "$28K"
+  ],
+  "source": "SRC-1811",
+  "anchor": [
+   "under the assumptions that the lowest exposure group is a plausible control group and that our sample is representative of the national market, 24 percent of claims were made for induced sales, as opposed to sales that would have happened in the absence of the policy.",
+   "The extrapolated aggregate estimate in this case is 546 thousand and implies that 35 percent of claims were made for induced sales.",
+   "The implied direct fiscal cost per induced sale is $11B/397K\u2248 $28K per sale."
+  ],
+  "locator": "Section on aggregate effects and footnote 17",
+  "grade": "C",
+  "fact_date": "2016-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "NBER working paper, December 2016, not peer-reviewed; earlier version of the Journal of Finance article; the published version raises the central sales estimate to 490,000, so the published cost per induced sale is lower than this figure.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-510",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-501",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-510",
+  "statement": "Hembre estimates the credit induced 399,846 first-time buyers; with about $21.1 billion spent, that is $52,770 of spending per new homeowner, or $27,010 per induced homeowner counting only the deadweight-loss cost; induced owners were younger and used smaller down payments.",
+  "claim": "analysis",
+  "figures": [
+   "399,846",
+   "$27,010",
+   "$52,770",
+   "$21.1 billion"
+  ],
+  "source": "SRC-1812",
+  "anchor": [
+   "I estimate the tax credit induced 399,846 first-time homebuyers and calculate an economic cost of $27,010 per induced homeowner.",
+   "This translates into paying $52,770 per new homeowner.",
+   "claimed the credit at a monetary cost of $21.1 billion",
+   "Induced homeowners were more likely to be younger and use a smaller down payment"
+  ],
+  "locator": "Abstract; Introduction; Section 5 (price of homeowners)",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Regional Science and Urban Economics, 2018; peer-reviewed; AHS-based difference-in-differences by income eligibility; no stake identified.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-509",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-508",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-511",
+  "statement": "Across states and metros, Hembre finds the credit worked better where homes were cheaper (a doubling of average home values implies an effect 18.8 percentage points smaller) and finds a near-zero, insignificant coefficient on housing supply elasticity.",
+  "claim": "analysis",
+  "figures": [
+   "18.8"
+  ],
+  "source": "SRC-1812",
+  "anchor": [
+   "I find a strong correlation between local effect size and average home values, with a doubling in average home values implying a drop in effect size by 18.8 percentage points.",
+   "The supply elasticity coefficient is near zero and not statistically significant."
+  ],
+  "locator": "Abstract; Section 4.2 and Table 8",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Regional Science and Urban Economics, 2018; peer-reviewed; local effects from Fannie Mae, Freddie Mac and FHA loan data with the Saiz (2008) supply elasticity for selected metros; small samples.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-508",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-514",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-512",
+  "statement": "Dynan, Gayer and Plotkin conclude the federal and state homebuyer credits had at best small and mostly temporary effects on housing activity, with state programs giving less than a percentage point boost to prices and no rise in construction.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1813",
+  "anchor": [
+   "All told, our different analyses suggest that the various homebuyer tax credit programs had, at best, small and mostly temporary effects on housing activity.",
+   "The regressions also provide some evidence that the programs provided a modest (less than a percentage point) boost to home prices.",
+   "the results suggest that any increase in demand did not translate into higher home construction activity"
+  ],
+  "locator": "Introduction and Conclusion",
+  "grade": "C",
+  "fact_date": "2013-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Brookings Institution working paper, June 2013; not peer-reviewed; national time series plus state-program panel; authors were Brookings Economic Studies co-directors (Gayer later a Treasury official under Bush; Dynan later Treasury under Obama).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-508",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-513",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-503",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-513",
+  "statement": "Brogaard and Roshak find no measurable rise in sales volume but prices in affected markets $6,116 higher during the credits, a gap that more than reversed ($6,470) after the final credit expired.",
+  "claim": "analysis",
+  "figures": [
+   "$6,116",
+   "$6,470"
+  ],
+  "source": "SRC-1814",
+  "anchor": [
+   "We find that quantity was not perceptibly affected and that prices rose only temporarily.",
+   "prices in affected housing markets rose $6,116 more than unaffected markets during the program. This price differential more than reverses, falling $6,470 after the expiration of the final tax credit program"
+  ],
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2011-05",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "SSRN working paper, 2011; not peer-reviewed in this version; city-level triple-difference design; result on quantity conflicts with the later administrative-data studies.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-508",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-512",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-514",
+  "statement": "Hilber and Turner find the mortgage interest deduction raises homeownership only for higher-income households in loosely regulated (elastic-supply) markets and lowers it in restrictive ones, at a subsidy cost of $28,397 per new homeowner per year.",
+  "claim": "analysis",
+  "figures": [
+   "$28,397"
+  ],
+  "source": "SRC-1815",
+  "anchor": [
+   "We find that the MID boosts homeownership attainment only of higher income households in less tightly regulated housing markets. In more restrictive places an adverse effect exists.",
+   "Our cost simulations suggest that the subsidy cost per converted homeowner amounts to a staggering $28,397 per new homeowner per year."
+  ],
+  "locator": "Abstract; Introduction",
+  "grade": "B",
+  "fact_date": "2014-10",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Review of Economics and Statistics, 2014; peer-reviewed; PSID 1984-2007 with state-federal MID variation and the Saks regulation index for 83 metros; no stake identified.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-515",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-516",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-517",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-515",
+  "statement": "Using a Danish reform that cut the deduction for middle- and high-income households, Gruber, Jensen and Kleven find a precisely estimated zero effect on homeownership, but larger and more expensive homes, more debt and higher prices where the deduction was larger.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1816",
+  "anchor": [
+   "First, the mortgage deduction has a precisely estimated zero effect on homeownership for high- and middle-income households.",
+   "inducing homeowners to buy larger and more expensive houses",
+   "Finally, the reduction of the tax subsidy lowered equilibrium house prices."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2021-05",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "AEJ: Economic Policy, 2021; peer-reviewed; quasi-experiment from Denmark's 1987 tax reform using administrative data; external validity to the U.S. is a judgment.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-514",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-517",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-516",
+  "statement": "In Sommer and Sullivan's equilibrium model, eliminating the mortgage interest deduction lowers house prices, raises homeownership, cuts mortgage debt and improves welfare.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1817",
+  "anchor": [
+   "Eliminating the mortgage interest deduction causes house prices to decline, increases homeownership, decreases mortgage debt, and improves welfare.",
+   "Our findings challenge the widely held view that repealing the preferential tax treatment of mortgages would depress homeownership."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018-02",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "American Economic Review, 2018; peer-reviewed; calibrated dynamic model (a simulation, not an observed outcome); first author a Federal Reserve Board economist.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-514",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-515",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-517",
+  "statement": "Glaeser and Shapiro argue the deduction is a poor tool for raising homeownership because it goes to the wealthy, who almost always own, and note the ownership rate stayed essentially constant from 1965 while the subsidy moved with inflation.",
+  "claim": "analysis",
+  "figures": [
+   "1965"
+  ],
+  "source": "SRC-1818",
+  "anchor": [
+   "the home mortgage interest deduction is a particularly poor instrument for encouraging homeownership because it is targeted at the wealthy, who are almost always homeowners.",
+   "the ownership subsidy moves with inflation and has changed significantly between 1965 and today, but the homeownership rate has been essentially constant."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2003",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "NBER Tax Policy and the Economy vol. 17, 2003; edited NBER volume; time-series and cross-state evidence; no stake identified.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-514",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-518",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-518",
+  "statement": "After the TCJA, JCT's estimate of the deduction's cost fell from $66.4 billion (2017) to $30.2 billion (2020); itemizers fell from 30.6% of households in 2017 to 10.9% in 2018, and about 1% of the bottom 40% itemized versus 40% of the top 20%, so the benefit mostly goes to upper-income households.",
+  "claim": "data",
+  "figures": [
+   "$66.4 billion",
+   "$30.2 billion",
+   "10.9%",
+   "30.6%",
+   "1%",
+   "40%",
+   "20%"
+  ],
+  "source": "SRC-1801",
+  "anchor": [
+   "in 2017, prior to the TCJA, the deduction was estimated to cost $66.4 billion by the Joint",
+   "Committee on Taxation (JCT). In comparison, the JCT estimated the deduction will cost $30.2 billion in 2020.",
+   "in the past (10.9% in 2018 compared to 30.6% in 2017) due to the TCJA (P.L. 115-97), which",
+   "deduction. For example, according to Tax Policy Center (TPC) estimates, about 1% of households",
+   "in the bottom 40% of the income distribution itemized in 2018 compared to 40% of households in",
+   "the top 20% of the distribution.",
+   "These three reasons explain why the benefits of the mortgage interest deduction",
+   "mostly accrue to upper-income households."
+  ],
+  "locator": "Summary; \"Effect on Homeownership\" (pp. 12-14)",
+  "grade": "C",
+  "fact_date": "2020-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-519",
+  "statement": "Li and Yu find that the TCJA's $10,000 cap on deducting state and local taxes slowed home value growth by an annualized 0.8 percentage point (15 percent) in high-property-tax counties, while the cut in the mortgage-debt limit to $750,000 had a small effect.",
+  "claim": "analysis",
+  "figures": [
+   "$10,000",
+   "0.8",
+   "15 percent",
+   "$750,000"
+  ],
+  "source": "SRC-1819",
+  "anchor": [
+   "capping the federal tax deduction of real estate taxes at $10,000 has caused the growth rate of home value to decline by an annualized 0.8 percentage point, or 15 percent, in areas where real estate taxes as shares of taxable income exceeded the national median.",
+   "we find that counties with more mortgages above $750,000 had slower house price growth, but the economic magnitude was not large."
+  ],
+  "locator": "Abstract; Section 5.1",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal Reserve Bank of Philadelphia working paper, 2020; not peer-reviewed in this version; county difference-in-differences, January 2018 to October 2019.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-520",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-515",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-520",
+  "statement": "A Tax Policy Center study finds the TCJA's overall effect on home prices was close to zero, because the smaller mortgage subsidy was offset by lower taxes, with some areas up and others down.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1820",
+  "anchor": [
+   "However, combining these results, we find that the overall effect of the TCJA on home prices was close to zero, although some variation exists across by location"
+  ],
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2022-03",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Urban-Brookings Tax Policy Center report, March 2022; not peer-reviewed; two-stage instrumental-variable estimate by PUMA using Zillow ZTRAX; measures the whole TCJA, not the MID alone.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-519",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-521",
+  "statement": "The Biden FY2025 budget proposed a refundable first-time buyer credit of ten percent of price up to $10,000, paid half in the purchase year and half the next, phasing out between $100,000 and $200,000 of modified AGI, with full recapture if the home is sold or not lived in during three years, for purchases after December 31, 2023 and before January 1, 2026; a matching up-to-$10,000 credit went to sellers of homes priced below the area median.",
+  "claim": "data",
+  "figures": [
+   "$10,000",
+   "$100,000",
+   "$200,000",
+   "80 percent",
+   "100 percent"
+  ],
+  "source": "SRC-1802",
+  "anchor": [
+   "General Explanations of the Administration's Fiscal Year 2025 Revenue Proposals",
+   "The first-time homebuyer credit would be equal to ten percent of the purchase price of a home,",
+   "up to a maximum credit of $10,000. For multiple individuals who purchase a home together, the",
+   "of $100,000 and ending at a modified AGI of $200,000. In the case of a married individual filing",
+   "Half of a purchaser\u2019s credit would be applied to the return for the tax year in which the home",
+   "In general, the taxpayer must continue to use the credited home as a principal residence during",
+   "the three years following the date of purchase. If, during those three years, the taxpayer disposes",
+   "The tax credit would be available for home purchases after December 31, 2023, and before",
+   "January 1, 2026.",
+   "The proposal would provide two refundable tax credits: a refundable credit for qualified firsttime homebuyers and a refundable credit for qualified home sellers.",
+   "of 80 percent of the area median price and ending at a sales price of 100 percent of the area"
+  ],
+  "locator": "pp. 115-119, \"Provide tax credits for certain first-time homebuyers and home sellers\"",
+  "grade": "A",
+  "fact_date": "2024-03",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-522",
+  "statement": "HUD described the proposal as $5,000 a year for two years, equivalent to cutting the mortgage rate by more than 1.5 percentage points for two years on the median home, and claimed it would help more than 3.5 million families; the separate first-generation down payment proposal of up to $25,000 was estimated to help 400,000 families.",
+  "claim": "analysis",
+  "figures": [
+   "$5,000",
+   "1.5",
+   "3.5 million",
+   "$25,000",
+   "400,000"
+  ],
+  "source": "SRC-1803",
+  "anchor": [
+   "President Biden is calling on Congress to pass a mortgage relief credit that would provide middle-class first-time homebuyers with an annual tax credit of $5,000 a year for two years. This is the equivalent of reducing the mortgage rate by more than 1.5 percentage points for two years on the median home and will help more than 3.5 million middle-class families purchase their first home over the next two years.",
+   "The President continues to call on Congress to provide up to $25,000 in down payment assistance to first-generation homebuyers whose families haven't benefited from the generational wealth building associated with homeownership. This proposal is estimated to help 400,000 families purchase their first home."
+  ],
+  "locator": "\"Building Homeownership Opportunities\"",
+  "grade": "C",
+  "fact_date": "2024-03-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "HUD press release, March 7, 2024, Biden administration (stake: proposer); the 3.5 million figure counts all claimants, not added buyers; method not published.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-521",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-509",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-523",
+  "statement": "Blumenauer's First-Time Homebuyer Act of 2021 (H.R. 2863) would have given a refundable credit of 10 percent of price up to $15,000, denied to buyers with income above 160 percent of area median income, reduced above 110 percent of the area median price, with 25 percent of the credit recaptured for each remaining year of a 4-year period if the home is sold.",
+  "claim": "data",
+  "figures": [
+   "10 percent",
+   "$15,000",
+   "160 percent",
+   "110 percent",
+   "25 percent",
+   "4"
+  ],
+  "source": "SRC-1804",
+  "anchor": [
+   "H. R. 2863",
+   "10 percent of the purchase price of the residence.",
+   "shall not exceed $15,000.",
+   "means an amount that is equal to 160 percent of",
+   "110 percent of the area median purchase",
+   "``(A) 25 percent of the amount of the credit",
+   "the term `recapture period' means the 4 taxable years beginning"
+  ],
+  "locator": "Sec. 2, new IRC sec. 36(a), (b)(1)-(3), (f)",
+  "grade": "A",
+  "fact_date": "2021-04-28",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-524",
+  "statement": "The 2025 reintroduction (H.R. 4717) keeps the 10 percent/$15,000 credit but phases it out from 150 percent of area median income over 20 percent of AMI, phases it out above 110 percent of area median price over 15 percent, limits it to purchases with a federally backed mortgage, keeps the 4-year recapture, and lets the buyer transfer the credit to the lender at closing, with Treasury advancing payments to lenders.",
+  "claim": "data",
+  "figures": [
+   "10 percent",
+   "$15,000",
+   "150 percent",
+   "20 percent",
+   "110 percent",
+   "15",
+   "4"
+  ],
+  "source": "SRC-1805",
+  "anchor": [
+   "H. R. 4717",
+   "10 percent of the purchase price of the residence.",
+   "shall not exceed $15,000.",
+   "``(II) 150 percent of the",
+   "``(ii) 20 percent of the applicable Area",
+   "110 percent of the area median purchase",
+   "``(ii) the amount which is equal to 15",
+   "a federally backed mortgage loan (as defined in",
+   "the term `recapture period' means the 4 taxable years beginning",
+   "principal residence shall be allowed to the mortgage lender",
+   "program to make advance payments to any eligible entity"
+  ],
+  "locator": "Sec. 2, new IRC sec. 36(a), (b), (c)(3), (f)(7), (h)",
+  "grade": "A",
+  "fact_date": "2025-07-23",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-525",
+  "statement": "The Downpayment Toward Equity Act of 2025 (H.R. 4069) would authorize $100,000,000,000 for HUD grants, 75 percent to states by formula and 25 percent competitively, for one-time assistance of up to the greater of $20,000 or 10 percent of the price, to first-generation, first-time buyers with income up to 120 percent of area median (140 percent in high-cost areas); buyers who stop living in the home within 5 years repay a prorated share.",
+  "claim": "data",
+  "figures": [
+   "$100,000,000,000",
+   "75 percent",
+   "25 percent",
+   "$20,000",
+   "10 percent",
+   "120 percent",
+   "140 percent",
+   "5 years"
+  ],
+  "source": "SRC-1825",
+  "anchor": [
+   "[H.R. 4069 Introduced in House (IH)]",
+   "$100,000,000,000, and any amounts appropriated pursuant to this section",
+   "(1) States.--75 percent of such amounts shall be allocated",
+   "(2) Eligible entities.--25 percent of such amounts shall be",
+   "(1) may be provided on behalf of any qualified homebuyer\nonly once; and\n(2) may not exceed the greater of $20,000 or 10 percent of\nthe purchase price",
+   "(A) 120 percent of median income for the area",
+   "determined by the Secretary, 140 percent of the median",
+   "occupied the eligible home up to 5 years, except that no\nassistance shall be repaid if the qualified homebuyer occupies\nthe eligible home as a primary residence for 5 years or more."
+  ],
+  "locator": "Secs. 2(b), 2(d), 3(a)(1), 4(b), 12",
+  "grade": "A",
+  "fact_date": "2025-06-23",
+  "recheck": "2027-01-03",
+  "context": "Bill as introduced in the House by Rep. Maxine Waters; Senate companion S. 967 (Sen. Raphael Warnock). Not enacted; the authorization is not an appropriation. The 2021 version (H.R. 4495, not catalogued) capped assistance at $20,000, or $25,000 for socially and economically disadvantaged buyers.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-526",
+  "statement": "The 2025 bill defines a first-generation homebuyer by self-attestation: someone whose parents or legal guardians do not (or did not at death) own a home, or who was in foster care, and whose spouse or partner has not owned in the prior 3 years; no documentation beyond the borrower's attestation may be required, and lenders relying on it in good faith are shielded from repurchase or penalties.",
+  "claim": "data",
+  "figures": [
+   "3-year"
+  ],
+  "source": "SRC-1825",
+  "anchor": [
+   "(i) whose parents or legal guardians do\nnot, or did not at the time of their death, to\nthe best of the individual's knowledge, have\nany present ownership interest in a residence",
+   "(B) an individual who has at any time been placed\nin foster care or institutional care whose spouse or\ndomestic partner has not, during the 3-year period",
+   "(b) Reliance on Borrower Attestations.--No additional documentation\nbeyond the borrower's attestation shall be required to demonstrate\neligibility under paragraph (3) of subsection (a), and no creditor\nshall be subject to liability, including monetary penalties or\nrequirements to indemnify a Federal agency or repurchase a loan"
+  ],
+  "locator": "Sec. 3(a)(3), 3(b)",
+  "grade": "A",
+  "fact_date": "2025-06-23",
+  "recheck": "2027-01-03",
+  "context": "Bill as introduced; not law. Compare California's verification by random audit (EV-HOU-542).",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-527",
+  "statement": "GAO found in 2005 that, holding credit score, loan-to-value and other factors constant, FHA loans with down payment assistance from non-seller sources (such as governments, relatives and nonprofits not funded by sellers) had a 49 percent higher probability of claim and a 21 percent higher probability of delinquency than loans without assistance; seller-funded assistance raised claims by 76 percent, and homes bought with it appraised and sold for about 2 to 3 percent more than comparable homes.",
+  "claim": "analysis",
+  "figures": [
+   "49 percent",
+   "21 percent",
+   "76 percent",
+   "2 to 3 percent"
+  ],
+  "source": "SRC-1826",
+  "anchor": [
+   "the national sample, it raised the probability of claim by 49 percent and the\nprobability of delinquency by 21 percent relative to similar loans with no\ndown payment assistance.",
+   "from a seller-funded nonprofit raised the probability that the loan had gone\nto claim by 76 percent relative to similar loans with no assistance.",
+   "were appraised at and sold for about 2 to 3 percent more than comparable\nhomes bought without such assistance."
+  ],
+  "locator": "pp. 28-29 and Highlights",
+  "grade": "C",
+  "fact_date": "2005-11",
+  "recheck": "2027-11-09",
+  "context": "GAO (nonpartisan, legislative branch), report of November 2005 on FHA loans endorsed 2000-2002, using FHA's TOTAL scorecard variables. Seller-funded DPA was later prohibited for FHA (2008). The price finding concerns seller-funded assistance only.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-529",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-538",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-534",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-528",
+  "statement": "In fiscal year 2025, 42.31 percent of FHA purchase mortgages used down payment assistance: 23.16 percent from family gifts and 17.74 percent from government sources, the highest DPA share in 16 years.",
+  "claim": "data",
+  "figures": [
+   "42.31 percent",
+   "23.16 percent",
+   "17.74 percent"
+  ],
+  "source": "SRC-1827",
+  "anchor": [
+   "assistance (DPA). The remaining 42.31 percent utilized DPA.",
+   "2025, with utilization in 23.16 percent of FHA\u2019s total forward purchase mortgages. Loans with\nDPA from government sources represented 17.74 percent of FY 2025 forward mortgage purchase",
+   "to the highest levels in the past 16 years"
+  ],
+  "locator": "Section I, Down Payment Assistance, Exhibit I-18",
+  "grade": "A",
+  "fact_date": "2025",
+  "recheck": "2026-12-31",
+  "context": "HUD/FHA annual report to Congress, second Trump administration.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-529",
+  "statement": "FHA reported in 2020 that serious delinquency rates on loans with down payment assistance had historically exceeded those on loans without it by over 25 percent, and early payment default rates by about 60 percent; seasoned loans with government-entity DPA had the highest serious delinquency rates, though the gap between DPA sources had evened out in recent vintages.",
+  "claim": "data",
+  "figures": [
+   "25 percent",
+   "60 percent"
+  ],
+  "source": "SRC-1828",
+  "anchor": [
+   "Serious delinquency (SDQ) rates on DPA loans historically have exceeded non-DPA loans by over\n25 percent. Seasoned loans with DPA from government entities are associated with the highest\nSDQ rates, although the differential between DPA sources appears to have evened out in recent\nyears.",
+   "EPD rates for DPA loans exceeded non-DPA\nloans by about 60 percent prior to FY 2020."
+  ],
+  "locator": "Section I, pp. 30 and 39 (Exhibits I-18, I-19)",
+  "grade": "A",
+  "fact_date": "2020",
+  "recheck": "2027-11-09",
+  "context": "Descriptive comparisons without controls for credit score or race (HUD/FHA, first Trump administration). FHA reported a related scrutiny of government-entity DPA in 2019.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-530",
+  "statement": "GAO found in 2006 that HUD reported $98.5 million of the $211 million appropriated for the American Dream Downpayment Initiative spent, helping more than 13,000 families (nearly half minorities), but data limits meant ADDI's accomplishments were not known, and local officials said it had not had a significant impact on local homeownership rates.",
+  "claim": "analysis",
+  "figures": [
+   "$98.5 million",
+   "$211 million",
+   "13,000"
+  ],
+  "source": "SRC-1829",
+  "anchor": [
+   "jurisdictions had spent $98.5 million of the $211 million appropriated for\nADDI, helping more than 13,000 families\u2014nearly half of which were\nminorities\u2014become homeowners.",
+   "As a result, the\nexpenditures and accomplishments attributable to ADDI are not known.",
+   "Officials from\nthe jurisdictions GAO contacted indicated that ADDI has not had a\nsignificant impact on local homeownership rates because the program has\nbeen modestly funded and is relatively new."
+  ],
+  "locator": "Highlights page",
+  "grade": "C",
+  "fact_date": "2006-06-30",
+  "recheck": "2027-11-09",
+  "context": "GAO report covering ADDI through December 31, 2005 (George W. Bush administration program). No impact evaluation of ADDI exists; the HUD foreclosure study (EV-HOU-534) is the main outcome analysis.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-531",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-534",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-531",
+  "statement": "ADDI was funded within HOME from FY2003 through FY2008 and offered up to $10,000 or 6% of the price; since then HOME homebuyer aid has continued as an eligible use, accounting for 419,263 completed units (23%) through FY2024 at about $11,000 each over the program's life ($28,121 per homebuyer acquisition unit in FY2024), with nearly half (49%) of initial HOME homebuyers above 60% of area median income.",
+  "claim": "data",
+  "figures": [
+   "FY2003",
+   "FY2008",
+   "$10,000",
+   "6%",
+   "419,263",
+   "23%",
+   "$11,000",
+   "$28,121",
+   "49%",
+   "60%"
+  ],
+  "source": "SRC-1830",
+  "anchor": [
+   "The American Dream Downpayment Initiative (ADDI) was funded in the HOME account from\nFY2003 through FY2008.",
+   "use ADDI funds to provide closing cost and down payment assistance up to $10,000 or 6% of a\nhome\u2019s purchase price, whichever was greater.",
+   "As shown in Figure 3, 419,263 completed units (23%) have been homebuyer assistance;",
+   "homebuyer assistance involved about\n$11,000",
+   "The average per-unit HOME cost for homebuyer acquisition projects (typically downpayment assistance) was\n$28,121 in FY2024",
+   "Nearly half (49%) of the initial occupants of HOME-assisted\nhomebuyer units had household incomes greater than 60% of AMI."
+  ],
+  "locator": "Appendix A (ADDI); Figure 3 discussion; footnote 58; Figure 8 discussion",
+  "grade": "C",
+  "fact_date": "2026-10-06",
+  "recheck": "2027-10-06",
+  "context": "CRS summary of HUD production data through FY2024. See also EV-HOU-226 on HOME homebuyer help up to 100% AMI under P.L. 119-101.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-532",
+  "statement": "In the third quarter of 2026 the U.S. homeownership rate was 65.5 percent; it was 75.1 percent for non-Hispanic White householders and 44.4 percent for Black householders, and 36.6 percent for householders under 35.",
+  "claim": "data",
+  "figures": [
+   "65.5 percent",
+   "75.1 percent",
+   "44.4 percent",
+   "36.6 percent"
+  ],
+  "source": "SRC-1831",
+  "anchor": [
+   "The homeownership rate of 65.5 percent was not statistically different from the rate in the third quarter 2025",
+   "householders reporting a single race was highest at 75.1 percent.",
+   "and the rate for Black Alone householders\nwas lowest at 44.4 percent.",
+   "lowest for those householders under 35 years of age (36.6 percent)."
+  ],
+  "locator": "Homeownership rates; Tables 6 and 7 discussion",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "recheck": "2027-02-03",
+  "context": "Census CPS/HVS, not seasonally adjusted. The Hispanic rate is in Table 7 but did not convert cleanly to text.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-533",
+  "statement": "In the 2025 Survey of Consumer Finances, median wealth of White non-Hispanic families was nine times that of Black non-Hispanic families (whose median fell 25 percent from 2022) and a bit more than four times that of Hispanic families; median net worth was $458,900 for homeowners and $10,600 for renters.",
+  "claim": "data",
+  "figures": [
+   "nine",
+   "25 percent",
+   "four times",
+   "$458,900",
+   "$10,600"
+  ],
+  "source": "SRC-1832",
+  "anchor": [
+   "families experienced a large decline in median net worth (25 percent)",
+   "median wealth for White non-Hispanic families was nine\ntimes that for Black non-Hispanic families",
+   "Median and mean net worth increased between 2022 and 2025",
+   "median wealth for White non-Hispanic families was a bit more than four times that for\nHispanic or Latino families",
+   "$458,900 and 8 percent to $1,812,900, respectively. Renters or other non-homeowners saw\ndeclines in median and mean net worth of 7 percent to $10,600"
+  ],
+  "locator": "Net worth section, pp. 13-14",
+  "grade": "A",
+  "fact_date": "2025",
+  "recheck": "2029-10-01",
+  "context": "Federal Reserve Board triennial survey, released October 9, 2026.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-534",
+  "statement": "A 2008 HUD-commissioned study of more than 4,000 buyers who bought with HOME or ADDI help in 2001-2005 found foreclosure rates averaged 1.2 percentage points (roughly a quarter) lower than for FHA loans generally and 40 percent lower than for seller-financed down payment assistance.",
+  "claim": "analysis",
+  "figures": [
+   "4,000",
+   "2001",
+   "2005",
+   "1.2 percentage points",
+   "40 percent"
+  ],
+  "source": "SRC-1833",
+  "anchor": [
+   "The researchers gathered program administrative data and loan level information about more than 4,000 home buyers from a representative sample of participating jurisdictions administering HOME/ADDI funds.",
+   "purchased homes during the period from 2001 through 2005",
+   "The foreclosure rates among HOME/ADDI loans averaged 1.2 percentage points lower (or roughly a quarter lower) than the corresponding rate for FHA loans over the five year period in general.",
+   "The foreclosure rates among HOME/ADDI-assisted buyers were on average 40 percent lower than for seller-financed downpayment assistance programs"
+  ],
+  "locator": "Foreword",
+  "grade": "C",
+  "fact_date": "2008-11",
+  "recheck": "2027-11-09",
+  "context": "Contractor study (Concentrance, Abt Associates) for HUD PD&R, George W. Bush administration; descriptive comparison with FHA, not a controlled comparison with similar unassisted buyers; covers purchases before the 2008-2010 foreclosure peak.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-536",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-527",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-535",
+  "statement": "State housing finance agencies report that in 2022, 80 percent of their mortgage borrowers received down payment assistance, averaging $10,360, in the form of grants, amortizing second mortgages and forgivable second mortgages, typically in second-lien position with combined loan-to-value up to 105 percent under Freddie Mac rules.",
+  "claim": "data",
+  "figures": [
+   "2022",
+   "80 percent",
+   "$10,360",
+   "105 percent"
+  ],
+  "source": "SRC-1834",
+  "anchor": [
+   "In 2022, 80 percent of state HFA mortgage program borrowers received DPA and the average amount of DPA provided to HFA borrowers was $10,360.",
+   "State HFAs provide DPA assistance in a variety of forms, including grants, amortizing second mortgage loans, and forgivable second mortgage loans.",
+   "Those requirements permit total loan-to-value (TLTV) lending up to 105 percent TLTV."
+  ],
+  "locator": "p. 2",
+  "grade": "C",
+  "fact_date": "2022",
+  "recheck": "2027-11-09",
+  "context": "National Council of State Housing Agencies, comment letter of May 22, 2024; figures from its State HFA Factbook. Trade association of the agencies that run the programs.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-536",
+  "statement": "State housing finance agencies financed almost 148,800 first-lien single-family mortgages in 2025, and nearly 77 percent of HFA borrowers received down payment assistance.",
+  "claim": "data",
+  "figures": [
+   "148,800",
+   "77 percent"
+  ],
+  "source": "SRC-1835",
+  "anchor": [
+   "In 2025, HFAs financed almost 148,800 first-lien single-family mortgage loans, and DPA continues to be a critical component of HFAs\u2019 single-family home loan programs. In 2025, nearly 77 percent of HFA program borrowers received DPA."
+  ],
+  "locator": "About the HFA1 Lender Toolkit",
+  "grade": "C",
+  "fact_date": "2025",
+  "recheck": "2027-06-01",
+  "context": "NCSHA web page (trade association); implies on the order of 110,000 HFA-assisted DPA buyers a year, a project inference, not an NCSHA figure. Excludes local and nonprofit programs.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-537",
+  "statement": "A peer-reviewed study of a matched sample of 2005-2014 originations found state HFA borrowers about 30 percent less likely to default or foreclose than similar non-HFA borrowers, with 37 percent of the effect explained by HFA practices such as direct servicing and homeownership counseling.",
+  "claim": "analysis",
+  "figures": [
+   "2005",
+   "2014",
+   "30 percent",
+   "37 percent"
+  ],
+  "source": "SRC-1836",
+  "anchor": [
+   "Using a matched sample of HFA originations between 2005 and 2014, we estimate a multinomial logit model of mortgage default (or foreclosure) and prepayment.",
+   "We find that HFA borrowers are about 30 percent less likely to default or foreclose on their mortgages than otherwise similar non\u2010HFA borrowers.",
+   "We find that 37 percent of this HFA effect can be explained by HFA origination and service delivery practices including direct servicing and homeownership counseling."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2021",
+  "recheck": "2027-11-09",
+  "context": "Hembre, Moulton and Record, Journal of Policy Analysis and Management (2021). HFA loans usually come with DPA, so this compares a package (HFA first mortgage, DPA, counseling, servicing), not DPA alone.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-534",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-529",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-538",
+  "statement": "Using Community Advantage Program loans with multivariate controls, Stegman, Riley and Quercia found receipt of down payment assistance not significantly associated with default risk; Black borrowers were less likely than White borrowers to get help from family and more likely to get second-mortgage or government grant assistance. About 43 percent of FHA first-time buyers used DPA in FY2018.",
+  "claim": "analysis",
+  "figures": [
+   "43 percent",
+   "FY2018"
+  ],
+  "source": "SRC-1837",
+  "anchor": [
+   "Despite HUD\u2019s stated concerns, my colleagues and I find that the receipt of down payment assistance is not significantly associated with default risk.",
+   "Blacks are significantly less likely than whites to have received assistance from family or friends, but significantly more likely than whites to have received assistance via a second mortgage, or to have received a government or community grant",
+   "in FY2018, approximately 43 percent of FHA first-time homebuyers relied on some form of down payment assistance"
+  ],
+  "locator": "Blog post, paragraphs 2-5",
+  "grade": "C",
+  "fact_date": "2019-10-28",
+  "recheck": "2027-11-09",
+  "context": "JCHS blog by a co-author summarizing a 2019 working paper (not peer-reviewed); loans originated 2000-2003. Grant assistance was marginally significant until racial controls were added.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-529",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-527",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-537",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-539",
+  "statement": "Urban Institute researchers estimated that 35 percent of renters up to 120 percent of area median income have parents who were not homeowners (65 percent of Black, 21 percent of White renters), and that a first-generation definition yields about 5.37 million potentially eligible households aged 25-54 at 40-120 percent of AMI: 32 percent Black, 27 percent Latinx, 31 percent White.",
+  "claim": "analysis",
+  "figures": [
+   "35 percent",
+   "120 percent",
+   "65 percent",
+   "21 percent",
+   "5.37 million",
+   "32 percent",
+   "27 percent",
+   "31 percent",
+   "40 percent",
+   "25",
+   "54"
+  ],
+  "source": "SRC-1838",
+  "anchor": [
+   "In the Panel Study of Income Dynamics survey data, 35 percent of renters with incomes up to 120 percent of the AMI have parents who were not homeowners. This share is much higher for Black households (65 percent) than for white households (21 percent).",
+   "removing those with incomes below 40 percent of the AMI and those in less active homebuying ages (younger than 25 and older than 54). This results in 5.37 million potential eligible participants, fairly evenly distributed between Black (32 percent), Latinx (27 percent), and white (31 percent) households"
+  ],
+  "locator": "Section 'How many first-generation buyers would be eligible'",
+  "grade": "C",
+  "fact_date": "2021-04-07",
+  "recheck": "2027-11-09",
+  "context": "Urban Institute (Choi and Ratcliffe), PSID analysis; counts potential eligibles, not buyers who would be induced to buy. Stricter definitions (parents never owned) cut the pool to 2.5 million. Cited by bill sponsors.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-533",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-532",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-540",
+  "statement": "California's Dream For All shared-appreciation loan (up to 20% of price, repaid with a matching share of appreciation, 15% for buyers up to 80% AMI) committed its first $300 million within 11 calendar days in 2023; 2,182 buyers closed with loans averaging $113,000 on homes averaging $564,000. Borrowers were 33% Hispanic, 19% AAPI, 3% Black and 35% White, and nearly 40% earned under $100,000.",
+  "claim": "data",
+  "figures": [
+   "20%",
+   "15%",
+   "80%",
+   "$300 million",
+   "11",
+   "2,182",
+   "$113,000",
+   "$564,000",
+   "33%",
+   "19%",
+   "3%",
+   "35%",
+   "40%",
+   "$100,000"
+  ],
+  "source": "SRC-1839",
+  "anchor": [
+   "earning up to 80% AMI received a larger share",
+   "will ultimately pay back the original amount of the loan plus 15% (instead of 20%) of the home price appreciation.",
+   "CalHFA had $300 million available",
+   "All available funds were committed within 11 calendar days",
+   "As of November 30, 2023, the Dream For All program helped 2,182 new homeowners purchase a home.",
+   "The average Dream For All loan amount was $113,000 with an average sales price of approximately $564,000.",
+   "33% identified as Hispanic or Latino",
+   "19% identified as Asian American or Pacific Islander",
+   "3% identified as Black or African American.",
+   "35% identified as White (Not Hispanic/Latino)",
+   "Nearly 40% of DFA borrowers earned less than $100,000."
+  ],
+  "locator": "pp. 5-11",
+  "grade": "A",
+  "fact_date": "2023-11-30",
+  "recheck": "2027-01-31",
+  "context": "Administrative data reported by CalHFA, the administering agency. Phase 1 income limit was about 150% of AMI and first-come, first-served; prospective buyers prepared under 80% AMI got the 15% rate (the prospective 'Social Equity Feature'). No counterfactual on how many would have bought anyway.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-541",
+  "statement": "In Dream For All's second phase (first-generation buyers, about 120% AMI, loans up to 20% or $150,000, the program's appreciation share capped at 2.5 times the loan, lottery with regional set-asides), 1,732 buyers closed between July 2024 and June 2025 with $200 million, an average loan of $116,000 on an average price of $602,000; 40% were Hispanic, 31% AAPI and 7% Black, and over 80% earned under $150,000.",
+  "claim": "data",
+  "figures": [
+   "120%",
+   "20%",
+   "$150,000",
+   "2.5 times",
+   "1,732",
+   "$200 million",
+   "$116,000",
+   "$602,000",
+   "40%",
+   "31%",
+   "7%",
+   "80%"
+  ],
+  "source": "SRC-1840",
+  "anchor": [
+   "earning up to the CalHFA Dream For All income limits (~120% Area Median Income [AMI])",
+   "Appreciation Loan for up to 20% of the home sale price or $150,000, whichever is lower.",
+   "The Program\u2019s share of appreciation is capped at 2.5 times the original loan amount.",
+   "From July 1, 2024 through June 30, 2025, the Dream For All program helped 1,732 new homeowners purchase a home. This corresponds to $200 million in down payment assistance",
+   "The average Dream For All loan amount was $116,000 with an average sales price of approximately $602,000.",
+   "40% identified as Hispanic or Latino.",
+   "31% identified as Asian American or Pacific Islander",
+   "7% identified as Black or African American",
+   "Over 80% earned less than $150,000."
+  ],
+  "locator": "pp. 8, 13-16",
+  "grade": "A",
+  "fact_date": "2025-06-30",
+  "recheck": "2027-01-31",
+  "context": "Administrative data from CalHFA. At about $115,000 per loan the program reaches roughly 1,700-2,200 buyers per round; no estimate of how many would have bought without it.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-542",
+  "statement": "For its second phase, CalHFA received over 18,000 eligible applications for an estimated 2,000 awards, issued about 1,700 conditional awards by random draw and waitlisted 4,500; first-generation status rested on an attestation under penalty of perjury, with a random subset audited for parental relationship and parents' homeownership, and CalHFA plans to require supplemental documentation.",
+  "claim": "data",
+  "figures": [
+   "18,000",
+   "2,000",
+   "1,700",
+   "4,500"
+  ],
+  "source": "SRC-1841",
+  "anchor": [
+   "receiving over 18,000 eligible applications for an estimated 2,000 DFA awards.",
+   "issue conditional awards to approximately 1,700 borrowers and place an additional 4,500 borrowers on a waitlist.",
+   "first-generation Homebuyer eligibility was initially established based on an attestation under penalty of perjury.",
+   "of first-generation borrowers were then subject to a quality assurance investigation that verified their stated parental relationships and their parents\u2019 homeownership status.",
+   "Requiring borrowers to upload additional supplemental documentation that will assist CalHFA in verifying first-generation borrower status."
+  ],
+  "locator": "pp. 11-14, 18",
+  "grade": "A",
+  "fact_date": "2026-01-31",
+  "recheck": "2027-01-31",
+  "context": "CalHFA report to the Legislature. The oversubscription (about 9 eligible applicants per award) is the program's own measure of excess demand.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-543",
+  "statement": "CalHFA itself warned in 2026 that continued high levels of down payment assistance risk perpetuating market distortions, that market volatility will have major impacts on the program, and that federal rules cap repayment of a subordinate lien in a short sale at $6,000; it proposed shifting some funds to a supply pilot.",
+  "claim": "analysis",
+  "figures": [
+   "$6,000"
+  ],
+  "source": "SRC-1841",
+  "anchor": [
+   "continued investment in high levels of down payment assistance runs the risk of perpetuating market distortions.",
+   "Economic and real estate market volatility will have major impacts on DFA.",
+   "the maximum repayment for a subordinate lien is $6,000.",
+   "A portion of DFA funds could be used to incentivize the production of new homes affordable to entry level home buyers."
+  ],
+  "locator": "pp. 16, 19",
+  "grade": "C",
+  "fact_date": "2026-01-31",
+  "recheck": "2027-01-31",
+  "context": "Administering agency's own lessons-learned report to the Legislature (Newsom administration); a candid statement against interest, not an empirical estimate of price effects.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-545",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-546",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-544",
+  "statement": "England's official evaluation of the Help to Buy equity loan put demand additionality, the share of buyers drawn in who could not otherwise have bought, at a central 37% once buyers who could have bought a smaller home are excluded; 79% of buyers said it let them buy sooner.",
+  "claim": "analysis",
+  "figures": [
+   "37%",
+   "79%"
+  ],
+  "source": "SRC-1842",
+  "anchor": [
+   "Demand additionality is defined as the extent to which the scheme has drawn in more buyers.",
+   "This results in a reduction in the central estimate from 41% to 37%.",
+   "Some 79% of buyers agreed it enabled them to buy a property sooner"
+  ],
+  "locator": "Executive Summary, pp. 10-11",
+  "grade": "C",
+  "fact_date": "2018-10",
+  "recheck": "2027-11-09",
+  "context": "Commissioned by the UK Ministry of Housing, Communities and Local Government; buyer survey, not an experiment. The equity loan (20%, 40% in London) is the closest large analog to Dream For All. Implies roughly two in three assisted buyers would have bought anyway (project inference).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-547",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-545",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-545",
+  "statement": "Carozzi, Hilber and Yu found that Help to Buy significantly raised house prices with no detectable effect on construction in supply-constrained Greater London, while near the English/Welsh border it raised construction without a noticeable price effect.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1843",
+  "anchor": [
+   "we find that HtB significantly increased house prices and had no detectable effect on construction volumes in severely supply constrained and unaffordable Greater London.",
+   "HtB did increase construction numbers without a noticeable effect on prices near the English/Welsh border, an affordable area with comparably lax supply conditions."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2024",
+  "recheck": "2027-11-09",
+  "context": "Journal of Urban Economics (2024), peer-reviewed; difference-in-discontinuities. Capitalization depends on local supply elasticity.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-546",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-543",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-546",
+  "statement": "Krolage found that a 2018 Bavarian flat-rate home purchase subsidy raised single-family home prices in Bavarian border regions by approximately 10,000 euros more than across the border, consistent with full capitalization, with no effect on apartments.",
+  "claim": "analysis",
+  "figures": [
+   "2018",
+   "10,000 euros"
+  ],
+  "source": "SRC-1844",
+  "anchor": [
+   "in the second half of 2018, single-family home prices increased by roughly 10,000 euros more in Bavarian border regions than in neighboring regions of other states.",
+   "the prices of single-family homes increased by approximately 10,000 euros more in Bavarian border regions. This is consistent with a full capitalization of the subsidy. No effect is found for apartments, whose purchasers seldom qualify for the subsidy."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2023",
+  "recheck": "2027-11-09",
+  "context": "International Tax and Public Finance (2023), peer-reviewed; uses offer prices. A broad, untargeted grant to families; contrast the Irish Help to Buy grant, where Central Bank of Ireland researchers (McCann and Singh 2023, not entered) found buyers mostly kept the money as liquidity and only the highest-income buyers paid more.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-545",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-547",
+  "statement": "In a randomized experiment in Tulsa offering low-income renters matched savings for a down payment, the treatment group's homeownership gain through 2003 disappeared after the program ended because controls caught up quickly, suggesting the aid mainly changed the timing of purchases.",
+  "claim": "analysis",
+  "figures": [
+   "2003"
+  ],
+  "source": "SRC-1845",
+  "anchor": [
+   "Prior work shows that, among households who rented in 1998, homeownership rates increased more through 2003 in the treatment group than for controls.",
+   "We show that control group renters caught up rapidly with the treatment group after the experiment ended.",
+   "Homeownership rates in the treatment group stayed flat until homeownership rates in the control group caught up."
+  ],
+  "locator": "Abstract and conclusion",
+  "grade": "B",
+  "fact_date": "2013",
+  "recheck": "2027-11-09",
+  "context": "Grinstein-Weiss et al., American Economic Journal: Economic Policy (2013); small sample, matched savings rather than a grant, and controls became eligible for other homebuyer aid after 2003.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-544",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-548",
+  "statement": "The Urban Institute's 2010 evaluation of seven shared-equity programs found very few owners lost homes to foreclosure, over 90 percent remained homeowners five years after purchase where data existed, and resellers' median returns ranged from 6.5 percent to 60.0 percent despite resale restrictions.",
+  "claim": "analysis",
+  "figures": [
+   "90 percent",
+   "6.5 percent",
+   "60.0 percent"
+  ],
+  "source": "SRC-1846",
+  "anchor": [
+   "only a very small number of shared equity homeowners lose their home because of foreclosure; and a very high percentage of these low income, first-time homeowners (over 90 percent in the three programs for which data were available) remain homeowners five years after purchasing a shared equity home.",
+   "In all programs the median rate of return realized by resellers was at least 6.5 percent, and was as high as 60.0 percent (Table 8)."
+  ],
+  "locator": "Executive summary; Table 8 discussion",
+  "grade": "C",
+  "fact_date": "2010-10-26",
+  "recheck": "2027-11-09",
+  "context": "Temkin, Theodos and Price, Urban Institute, funded through NCB Capital Impact (Ford Foundation); seven selected programs, no comparison group of similar unassisted buyers. Returns are internal rates of return on small down payments.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-549",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-549",
+  "statement": "A 2011 survey of community land trusts found 1.30% of CLT homeowners' mortgages seriously delinquent at the end of 2010, versus 8.57% in the conventional market, although CLT owners are all low-to-moderate income.",
+  "claim": "analysis",
+  "figures": [
+   "1.30%",
+   "2010",
+   "8.57%"
+  ],
+  "source": "SRC-1847",
+  "anchor": [
+   "1.30% of the mortgage loans held by CLT homeowners were seriously delinquent (defined as loans at least 90 days delinquent or in foreclosure proceedings) at the end of 2010, compared to a delinquency rate of 8.57% of mortgage loans in the conventional market reported by the MBA.",
+   "Mortgages in the CLT sample are all held by low-to-moderate income homeowners, while mortgages in the conventional market are held by owners across all incomes."
+  ],
+  "locator": "Publication summary",
+  "grade": "C",
+  "fact_date": "2011-07",
+  "recheck": "2027-11-09",
+  "context": "Thaden, Lincoln Institute working paper commissioned by the National CLT Network (advocate); 62 CLTs, 3,143 mortgages; selection into CLTs and their underwriting are not separated from stewardship effects.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-548",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-550",
+  "statement": "When FHA cut its annual mortgage insurance premium by 50 basis points in January 2015 (from 135 to 85 basis points, about $1,000 less in the first year on a $200,000 loan), home purchase loans to the FHA-reliant population rose by nearly 14 percent; the response fell with income, with none among relatively high-income borrowers, and the authors found no evidence the cut raised house prices.",
+  "claim": "analysis",
+  "figures": [
+   "50 basis points",
+   "14 percent",
+   "135 basis points",
+   "85 basis points",
+   "$1,000",
+   "$200,000"
+  ],
+  "source": "SRC-1851",
+  "anchor": [
+   "in January, 2015 the FHA abruptly reduced the",
+   "MIP, and thus FHA borrowers\u2019 effective interest rate, by 50 basis points. Using a regression",
+   "discontinuity design, we find that the MIP reduction increased the number of home purchase",
+   "originations among the FHA-reliant population by nearly 14 percent. The response to the",
+   "premium cut was negatively correlated with borrower income, with no observable response",
+   "among relatively high income borrowers.",
+   "Finally, we find no evidence that the MIP reduction increased",
+   "annual mortgage insurance premiums by 50 basis points, from 135 basis points to 85 basis points",
+   "$1,000 for a $200,000 loan in the first year of the loan, and about $4,700 in the first five years."
+  ],
+  "locator": "Abstract; section 2 (background on the 2015 premium cut)",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal Reserve Board economists (FEDS 2017-086; published in the Journal of Monetary Economics, 2021). Regression discontinuity around the January 26, 2015 effective date, Optimal Blue and HMDA-McDash loan data; the cut was ordered by the Obama administration. Price test is a 12-month difference-in-differences by tract FHA share, so long-run capitalization is not ruled out. The authors note a smaller general-equilibrium response to an economy-wide rate cut.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-551",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-570",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-551",
+  "statement": "HUD said the March 2023 cut in FHA's annual premium from 0.85 to 0.55 percent would save an estimated 850,000 borrowers an average of $800 a year (about $678 million in aggregate by the end of 2023), with the $800 figure based on a $265,000 mortgage.",
+  "claim": "analysis",
+  "figures": [
+   "0.85 percent",
+   "0.55 percent",
+   "$678 million",
+   "850,000",
+   "$800",
+   "$265,000"
+  ],
+  "source": "SRC-1852",
+  "anchor": [
+   "The premium will be reduced from 0.85 percent to 0.55 percent for most homebuyers seeking an FHA-insured mortgage, which could mean an estimated savings of $678 million for American families in aggregate by the end of 2023 alone. The reduction will benefit an estimated 850,000 borrowers over the coming year, saving these families an average of $800 annually.",
+   "The average FHA borrower purchasing a one-unit single family home with a $265,000 mortgage will save approximately $800 this year as a result of FHA's premium reduction."
+  ],
+  "locator": "Press release, paragraphs 1 and \"Annual MIP Reduction Details\"",
+  "grade": "C",
+  "fact_date": "2023-02-22",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "HUD press release, Biden administration, February 22, 2023, announcing its own action (effective for endorsements on or after March 20, 2023). The 850,000 and $678 million are agency projections of borrowers who would have used FHA anyway plus new ones; HUD did not estimate how many added buyers the cut would create. No independent published evaluation of the 2023 cut was reached.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-550",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-552",
+  "statement": "In fiscal 2025, 83.03 percent of FHA purchase mortgages (538,642 loans) went to first-time buyers; borrowers were 20.17 percent Hispanic and 13.10 percent Black; forward insurance in force was $1.583 trillion; and the MMI Fund capital ratio was 11.47 percent against a 2.00 percent statutory minimum, falling to 4.42 percent in a Great Recession-type stress test.",
+  "claim": "data",
+  "figures": [
+   "83.03 percent",
+   "538,642",
+   "20.17 percent",
+   "13.10 percent",
+   "$1.583 trillion",
+   "11.47",
+   "2.00 percent",
+   "4.42 percent"
+  ],
+  "source": "SRC-1827",
+  "anchor": [
+   "In FY 2025, 83.03 percent or 538,642 forward purchase mortgage endorsements facilitated",
+   "borrowers. Exhibit I-3, below, shows that for FY 2025, the composition of borrowers using FHAinsured mortgages was: 20.17 percent Hispanic; 13.10 percent Black; 2.65 percent Asian; and",
+   "FHA\u2019s footprint in the U.S. housing market remains substantial, totaling $1.583 trillion of forward",
+   "As of September 30, 2025, the combined Capital Ratio in the MMI Fund for FY 2025 is 11.47",
+   "The MMI Capital Ratio exceeds the 2.00 percent statutory minimum for the eleventh consecutive",
+   "MMI Fund Capital Ratio fell to 4.42 percent, which remains over two times the statutory"
+  ],
+  "locator": "Section I (Exhibits I-2, I-3), Overview (Exhibit O-5), capital ratio and stress-test sections",
+  "grade": "A",
+  "fact_date": "2025-09-30",
+  "checked": "2026-11-09",
+  "recheck": "2026-12-15",
+  "context": "Statutory report to Congress, second Trump administration. Insurance in force is the base an annual-premium change applies to only gradually (new endorsements only, unless HUD changes premiums on existing loans).",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-553",
+  "statement": "Fannie Mae and Freddie Mac charged an average guarantee fee of 65.2 basis points on 2024 single-family acquisitions (65.5 in 2023): 49.1 basis points ongoing and 16.1 basis points upfront; FHFA put the average profitability gap at negative 0.6 basis points, meaning fees roughly matched estimated costs including capital.",
+  "claim": "data",
+  "figures": [
+   "65.2 basis points",
+   "65.5",
+   "16.1",
+   "49.1",
+   "0.6 basis points"
+  ],
+  "source": "SRC-1854",
+  "anchor": [
+   "The average total guarantee fee (G-Fee) was 65.2 basis points in 2024, slightly down from 65.5",
+   "Average upfront fees declined from 18.0 basis points in 2023 to",
+   "16.1 basis points in 2024 as FHFA encouraged the Enterprises to acquire certain mission-related",
+   "The rise in ongoing fees from 47.5 basis points to 49.1 basis points was driven by changes in the",
+   "The average profitability gap in 2024 was negative 0.6 basis points compared to 2.1 basis points"
+  ],
+  "locator": "Guarantee Fee and Profitability Gap Results for 2024, pages 6-7",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-01-31",
+  "context": "FHFA annual report required by HERA, published December 2025 (second Trump administration). Costs in the profitability gap include expected default costs, a required return on regulatory capital, G&A and the 10 bp TCCA fee, so a g-fee cut below cost would come out of GSE capital accumulation.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-554",
+  "statement": "Ten basis points of every Fannie Mae and Freddie Mac guarantee fee is remitted to the Treasury under the Temporary Payroll Tax Cut Continuation Act of 2011 (effective April 2012), and the Infrastructure Investment and Jobs Act extended that fee to 2032.",
+  "claim": "data",
+  "figures": [
+   "10 basis points",
+   "2011",
+   "2032"
+  ],
+  "source": "SRC-1854",
+  "anchor": [
+   "(4) 10 basis points allocated to the U.S.",
+   "Department of the Treasury as required by the Temporary Payroll Tax Cut Continuation Act of",
+   "2011 (TCCA). The TCCA fee was extended to 2032 by the Infrastructure Investment and Jobs",
+   "This fee increase was effective with April 2012 deliveries and was set to expire"
+  ],
+  "locator": "Profitability of Providing the Guarantee, page 5; history table, page 13",
+  "grade": "A",
+  "fact_date": "2021-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-555",
+  "statement": "In October 2022 FHFA eliminated upfront guarantee fees (loan-level price adjustments) for first-time homebuyers at or below 100 percent of area median income (120 percent in high-cost areas) and for HomeReady, Home Possible and HFA loans, and recalibrated the upfront fee grids effective May 1, 2023.",
+  "claim": "data",
+  "figures": [
+   "100 percent",
+   "120",
+   "2022",
+   "2023"
+  ],
+  "source": "SRC-1854",
+  "anchor": [
+   "FHFA announced the elimination of upfront fees for certain homebuyers and",
+   "affordable products. Upfront fees were eliminated for first-time",
+   "homebuyers at or below 100 percent of area median income, and below 120",
+   "percent in high-cost areas; HomeReady and Home Possible loans; HFA",
+   "FHFA announced recalibrated upfront fee grids for purchase, rate-term",
+   "refinance, and cash-out refinance loans, effective May 1, 2023.",
+   "October 2022",
+   "January 2023"
+  ],
+  "locator": "History of guarantee fee changes, page 14",
+  "grade": "A",
+  "fact_date": "2023-05-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Biden administration FHFA (Director Thompson). FHFA says upfront fees fell in 2024 partly because the GSEs bought more of these limited-fee mission loans.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-556",
+  "statement": "CBO estimated that extending the 10-basis-point TCCA guarantee fee for two more years would reduce federal outlays by $3.3 billion in 2033 and $3.4 billion in 2034 ($6.7 billion in total), keeping the average guarantee fee at about 58 basis points; CBO counts the GSEs as governmental and projects their guarantees cost more than the fees they receive.",
+  "claim": "analysis",
+  "figures": [
+   "-3.3",
+   "-3.4",
+   "-6.7",
+   "10",
+   "58 basis points"
+  ],
+  "source": "SRC-1855",
+  "anchor": [
+   "Billions of dollars 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034",
+   "Increase guarantee fees 0 0 0 0 0 0 0 0 -3.3 -3.4 0 -6.7",
+   "implemented an additional fee of 10 basis points per year, remitted to the Treasury.",
+   "The first alternative would extend the TCCA fee by two years. Doing so would keep the average guarantee fee at about 58 basis points, its level in 2025, CBO projects.",
+   "CBO projects that under current law, the mortgage guarantees issued by the GSEs will have a budgetary cost"
+  ],
+  "locator": "Chapter 2, Mandatory Spending Option 2, pages 6-7 and table",
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Nonpartisan CBO, December 2024. Fair-value-style subsidy estimates; the Administration's budget treats the GSEs as nongovernmental, so OMB scoring differs. Implies roughly $0.33 billion a year per basis point of g-fee on the GSE book at 2033-34 volumes (project arithmetic, not CBO's).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-557",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-553",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-557",
+  "statement": "CBO estimated in 2016 that raising the average GSE guarantee fee by 10 basis points would reduce net federal spending by $6 billion from 2017 through 2026 and cause new Fannie Mae and Freddie Mac guarantees to fall by around 10 percent.",
+  "claim": "analysis",
+  "figures": [
+   "10 basis points",
+   "$6 billion",
+   "2017",
+   "2026",
+   "10 percent"
+  ],
+  "source": "SRC-1856",
+  "anchor": [
+   "the average guarantee fee that Fannie Mae and Freddie Mac assess on loans they include in their MBSs would increase by 10 basis points",
+   "would reduce net federal spending by $6 billion from 2017 through 2026, would cause new guarantees by Fannie Mae and Freddie Mac to fall by around 10 percent, and would change the mix of borrowers, CBO estimates."
+  ],
+  "locator": "Budget option 52173, description paragraph",
+  "grade": "C",
+  "fact_date": "2016-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Nonpartisan CBO, December 2016 (Obama administration ending). The drop in guarantees is partly a shift to private, FHA or portfolio lending, not only fewer loans; the same logic run backwards suggests a g-fee cut moves volume toward the GSEs.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-556",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-558",
+  "statement": "Federal Reserve staff estimated that the November 25, 2008 announcement of the Fed's MBS purchase program reduced mortgage rates by about 85 basis points by December 31, 2008, before any purchases, and that once buying started abnormal risk premiums in mortgage rates fell roughly 50 basis points more.",
+  "claim": "analysis",
+  "figures": [
+   "85 basis points",
+   "50 basis points"
+  ],
+  "source": "SRC-1857",
+  "anchor": [
+   "program\u2014a 16 month program announced on November 25, 2008 and completed on March 31, 2010\u2014affected",
+   "particular and for the financial system more generally, reduced mortgage rates by about 85 basis points between",
+   "November 25 and December 31, 2008, even though no MBS had (yet) been purchased by the Federal Reserve.",
+   "Once the Federal Reserve\u2019s MBS program started purchasing MBS, we estimate that the abnormal risk",
+   "premiums embedded mortgage rates decreased roughly 50 basis points. However, observed mortgage rates",
+   "declined only slightly because of generally rising interest rates."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2008-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal Reserve Board staff (FEDS 2011-01; published in the Journal of Monetary Economics, 2011). Crisis-period estimates of removing abnormal risk premiums in a $1.25 trillion program; not a guide to the effect of buying in normal markets.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-559",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-560",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-559",
+  "statement": "Treasury invested $225 billion in Fannie Mae and Freddie Mac MBS in 2008 and 2009 under HERA authority and received $250 billion back through sales, principal and interest, a positive return of $25 billion.",
+  "claim": "data",
+  "figures": [
+   "$225 billion",
+   "$250 billion",
+   "$25 billion",
+   "2008",
+   "2009"
+  ],
+  "source": "SRC-1858",
+  "anchor": [
+   "Treasury invested $225 billion in MBS during 2008 and 2009 through authority provided to it by Congress under the Housing and Economic Recovery Act of 2008.",
+   "Overall, taxpayers received total cash returns of $250 billion from this MBS portfolio through sales, principal, and interest \u2013 $25 billion more than their initial investment."
+  ],
+  "locator": "Press release, paragraph 1",
+  "grade": "A",
+  "fact_date": "2012-03-19",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Obama administration Treasury reporting on its own program; the return is a cash figure, not risk- or funding-cost adjusted.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-560",
+  "statement": "After the January 2026 directive that Fannie Mae and Freddie Mac buy up to $200 billion of MBS, they added $12.5 billion in January; a BTIG analyst attributed the fall in mortgage rates from 6.20% to 5.95% roughly to 15 basis points of lower Treasury rates and only 5-10 basis points of tighter MBS spreads.",
+  "claim": "analysis",
+  "figures": [
+   "$200 billion",
+   "$12.5 billion",
+   "6.20%",
+   "5.95%",
+   "15 bps",
+   "5-10 bps"
+  ],
+  "source": "SRC-1859",
+  "anchor": [
+   "Fannie Mae and Freddie Mac added a combined $12.5 billion in agency mortgage-backed securities (MBS) to their retained portfolios in January",
+   "he had directed the government-sponsored enterprises (GSEs) to purchase up to $200 billion in MBS.",
+   "\u201cMortgage rates were 6.20% before the announcement, versus 5.95% currently, which we attribute roughly to: 15 bps of lower benchmark 10-year Treasury rates, 5-10 bps of tighter MBS spreads in the secondary market, and slightly lower/tighter profit margins for lenders,\u201d"
+  ],
+  "locator": "Article, paragraphs 1-4",
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-01",
+  "context": "HousingWire trade news, March 2, 2026, reporting a broker-dealer analyst (BTIG); second Trump administration policy (directive announced January 8, 2026). Purchases are limited by the $225 billion per-GSE portfolio cap in the Treasury agreements. Not peer-reviewed; no official FHFA estimate of the effect was reached.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-561",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-558",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-561",
+  "statement": "In January 2026 FHFA Director Pulte said the administration had \"other priorities\" than 50-year mortgages, and that Fannie Mae and Freddie Mac had begun carrying out the directive to buy $200 billion of mortgage bonds, starting with a $3 billion purchase.",
+  "claim": "data",
+  "figures": [
+   "$200 billion",
+   "$3 billion",
+   "50"
+  ],
+  "source": "SRC-1860",
+  "anchor": [
+   "\u201cI think we have other priorities,\u201d Pulte told reporters, when asked if 50-year mortgages are still on the table.",
+   "have started carrying out Trump\u2019s direction Thursday to purchase $200 billion in mortgage bonds in an effort to lower home loan rates, starting with a $3 billion buy."
+  ],
+  "locator": "Article, paragraphs 2 and 6",
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-01",
+  "context": "Politico news report (via NASCUS repost), second Trump administration. No FHFA or GSE document formally adopting or withdrawing a 50-year product was reached; the CFPB qualified-mortgage rule limits QM loans to 30-year terms.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-562",
+  "statement": "FHFA staff estimate that each percentage point by which market rates exceed a homeowner's fixed rate cuts the probability of sale by 18.1%, that lock-in prevented 1.72 million sales from 2022Q2 to 2024Q2, and that it raised home prices by 7.0% while the direct effect of higher rates lowered them by 5.6%.",
+  "claim": "analysis",
+  "figures": [
+   "18.1%",
+   "1.72 million",
+   "7.0%",
+   "5.6%"
+  ],
+  "source": "SRC-1861",
+  "anchor": [
+   "Findings reveal that each percentage point",
+   "that market rates exceed existing fixed rates reduces sale probability by 18.1%. This",
+   "lock-in prevented 1.72 million transactions from 2022Q2 to 2024Q2 and increased home",
+   "prices by 7.0%.",
+   "the direct effect of higher interest rates has decreased prices by 5.6%. However, the sizeable",
+   "considerable uncertainty. Consequently, the total effect of +1.4% has a 95% confidence",
+   "interval (-4.2%, +7.0%) which includes zero."
+  ],
+  "locator": "Abstract; section on price effects (Figure 8)",
+  "grade": "C",
+  "fact_date": "2024-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "FHFA staff working paper 24-03 (revised August 2024), views of the authors not FHFA; Biden-era. Net price effect (+1.4%) is not statistically different from zero. Relevant to rate policy: a rate cut that frees locked-in owners adds listings as well as demand.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-565",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-563",
+  "statement": "In the third quarter of 2026 the U.S. homeownership rate was 65.5 percent; it was 36.6 percent for householders under 35 and 79.1 percent for those 65 and over; 75.1 percent for non-Hispanic White, 62.3 percent for Asian, Native Hawaiian and Pacific Islander, and 44.4 percent for Black householders; and 52.6 percent for households below median family income versus 78.3 percent at or above it.",
+  "claim": "data",
+  "figures": [
+   "65.5 percent",
+   "36.6 percent",
+   "79.1",
+   "75.1 percent",
+   "62.3 percent",
+   "44.4 percent",
+   "52.6 percent",
+   "78.3 percent"
+  ],
+  "source": "SRC-1831",
+  "anchor": [
+   "The homeownership rate of 65.5 percent was not statistically different from the rate in the third quarter 2025",
+   "The third quarter 2026 homeownership rate was highest for those householders aged 65 years and over (79.1",
+   "percent) and lowest for those householders under 35 years of age (36.6 percent). Compared to the rates in",
+   "householders reporting a single race was highest at 75.1 percent. The rate for Asian, Native Hawaiian and",
+   "Pacific Islander Alone householders was second at 62.3 percent, and the rate for Black Alone householders",
+   "was lowest at 44.4 percent.",
+   "median family income (78.3 percent) was not statistically different from the third quarter 2025 rate (78.9",
+   "percent). The rate for households with family income less than the median family income (52.6 percent) was"
+  ],
+  "locator": "Release text and Tables 6, 7, 8",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-09",
+  "recheck": "2027-02-02",
+  "context": "Census Bureau CPS/HVS, not seasonally adjusted; next release (2026Q4) about February 2, 2027. The Hispanic rate is in Table 7 and was not anchored here.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-564",
+  "statement": "The Atlanta Fed estimated that in August 2026 the median-income U.S. household, earning $86,656, needed to spend 43.9 percent of its income to own the median-priced home ($406,000), against a 30 percent affordability threshold.",
+  "claim": "analysis",
+  "figures": [
+   "$86,656",
+   "43.9 percent",
+   "$406,000",
+   "30 percent"
+  ],
+  "source": "SRC-1862",
+  "anchor": [
+   "In August, the median-income household in the US, making $86,656 per year, needed to spend 43.9 percent of its income to own the median priced home ($406,000).",
+   "HOAM uses the US Department of Housing and Urban Development (HUD) standard 30 percent share of income threshold to measure affordability."
+  ],
+  "locator": "HOAM national summary, August 2026",
+  "grade": "C",
+  "fact_date": "2026-08",
+  "checked": "2026-11-09",
+  "recheck": "2026-12-15",
+  "context": "Federal Reserve Bank of Atlanta model (principal and interest at current rates plus taxes, insurance and PMI); monthly; the page is overwritten each month, so record the vintage.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-565",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-565",
+  "statement": "Harvard's Joint Center estimated that the monthly mortgage payment on the median-priced existing home was $2,420 in late 2025 ($3,120 with insurance and taxes), that the income needed to afford it was $120,800, and that just 32 percent of households, including 16 percent of renters, met that threshold.",
+  "claim": "analysis",
+  "figures": [
+   "$2,420",
+   "$3,120",
+   "$120,800",
+   "32 percent",
+   "16 percent"
+  ],
+  "source": "SRC-1863",
+  "anchor": [
+   "total monthly home ownership costs balloon to $3,120 (Figure 18).",
+   "At lenders\u2019 typical 31 percent debt-to-income ratio, the income needed to afford payments on the median-priced home was $120,800 at the end of 2025, up from $68,700 five years earlier. Just 32 percent of house holds nationwide meet that threshold, including 16 percent of renter households.",
+   "the monthly mortgage payment on that home is $2,420."
+  ],
+  "locator": "Homeownership chapter, Figure 18",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "context": "Harvard JCHS, State of the Nation's Housing 2026 (June 2026); assumes 3.5 percent down, 30-year fixed at 6.23 percent and the Moody's median existing-home price of $409,000. University center funded partly by industry sponsors.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-564",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-566",
+  "statement": "The National Association of Realtors reports that first-time buyers were 22% of home buyers from July 2025 to June 2026 (21% a year earlier, against about 40% before 2008), with a median age of 40, a record high.",
+  "claim": "data",
+  "figures": [
+   "22%",
+   "21%",
+   "40",
+   "40%"
+  ],
+  "source": "SRC-1864",
+  "anchor": [
+   "covers transactions between July 2025 and June 2026",
+   "The share of first-time home buyers rose slightly to 22% from last year\u2019s record low of 21%, while the typical age of first-time buyers remained at an all-time high of 40",
+   "\u201cThe share of first-time buyers is still about half the historical norm of 40% seen before 2008,"
+  ],
+  "locator": "Press release, paragraphs 1 and 3",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-05",
+  "context": "NAR, a trade association whose members earn commissions on sales (stake). Mail, text and email survey of primary-residence buyers, 7,125 responses, adjusted response rate 3.1%; excludes investors. Its first-time share is far below other measures (FHA alone made 538,642 first-time purchase loans in FY2025, EV-HOU-552), so treat the level with caution.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-567",
+  "statement": "In the Federal Reserve's October 2026 Senior Loan Officer survey, banks reported tightening standards, on net, for construction and land development loans and weaker demand for all commercial real estate loan categories over roughly the third quarter of 2026.",
+  "claim": "data",
+  "figures": [
+   "2026"
+  ],
+  "source": "SRC-1865",
+  "anchor": [
+   "Banks reported having tightened, on net, lending standards for all commercial real estate (CRE) loan categories: those secured by construction and land development, nonfarm nonresidential properties, and multifamily properties. Furthermore, banks reported weaker demand for all CRE loan categories.",
+   "which generally corresponds to the third quarter of 2026."
+  ],
+  "locator": "Summary, \"Questions on commercial real estate lending\"",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-09",
+  "recheck": "2027-02-02",
+  "context": "Federal Reserve Board survey; construction and land development includes residential AD&C but is not reported separately for small builders.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-568",
+  "statement": "FDIC data tabulated by the home builders' association show $91.1 billion of outstanding 1-4 family residential construction and land development loans at the end of 2025, 56% below the first-quarter 2008 peak of $204 billion, with banks under $1 billion in assets holding $19.8 billion (21.7%).",
+  "claim": "data",
+  "figures": [
+   "$91.1 billion",
+   "56%",
+   "$204 billion",
+   "$19.8 billion",
+   "21.7%",
+   "2008"
+  ],
+  "source": "SRC-1866",
+  "anchor": [
+   "the volume of 1-4 family residential construction and land development loans declined to $91.1 billion in the fourth quarter",
+   "The current amount of existing 1-4 family residential AD&C loans now stands 56% lower than the peak level of residential construction lending of $204 billion reached during the first quarter of 2008.",
+   "The smallest banks, those with under $1 billion in assets, held $19.8 billion (21.7%)"
+  ],
+  "locator": "Blog post, paragraphs 2-3 and \"Which Size Banks are Lending?\"",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-09",
+  "recheck": "2026-12-15",
+  "context": "NAHB (builders' trade group, stake in easier credit) tabulating FDIC Call Reports; these are loan stocks, not flows, and exclude nonbank and equity finance, which NAHB says has grown.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-569",
+  "statement": "The median single-family home completed in 2025 was 2,142 square feet (2,194 for new homes sold, at a median price of $417,400), and 41% of homes built for sale had lots under 7,000 square feet.",
+  "claim": "data",
+  "figures": [
+   "2,142",
+   "2,194",
+   "$417,400",
+   "41%",
+   "7,000"
+  ],
+  "source": "SRC-1867",
+  "anchor": [
+   "The median size of a completed single-family home was 2,142 square feet.",
+   "The median size of a new single-family home sold in 2025 was 2,194 square feet.",
+   "The median price of new single-family homes sold in 2025 was $417,400, while the average sales price was $523,800.",
+   "\u2022 41% built for sale had a lot size under 7,000 square feet."
+  ],
+  "locator": "Highlights page",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "context": "Census Bureau/HUD Survey of Construction. The Census size table (squarefeet_cust.xls, not saved: .xls) shows 316,000 of 1,005,000 completions under 1,800 square feet in 2025 versus 21 percent in 2015; anchor it once a text version can be saved.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-570",
+  "statement": "The AEI Housing Center estimates that a builder lowers a buyer's rate by 100 basis points at a cost of about 3.2% of the sale price, versus a 10% price cut for the same payment; that about 64% of new homes sold by the largest builders in June 2025 used a permanent buydown (about 13% for smaller builders); and that buydowns let the largest builders avoid a 10-12% price cut.",
+  "claim": "analysis",
+  "figures": [
+   "100 bps",
+   "3.2%",
+   "10%",
+   "64%",
+   "13%",
+   "10-12%"
+  ],
+  "source": "SRC-1868",
+  "anchor": [
+   "lowering the rate by 100 bps costs the builder roughly 3.2% of the sale price. To achieve the same monthly payment through a direct price cut, the builder would need to cut the price by 10%.",
+   "As of June 2025, around 64% of new homes sold by the largest builders used a permanent buydown, with the share for smaller builders hovering around 13%.",
+   "This gap implies that the use of permanent buydowns has enabled the largest builders to avoid a 10-12% price cut on those homes with a buydown."
+  ],
+  "locator": "Commentary, paragraphs 2-3 and 6",
+  "grade": "C",
+  "fact_date": "2025-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "AEI Housing Center commentary (Li and Pinto, November 2025), a conservative think tank critical of federal mortgage subsidies; method compares price growth of large-builder new homes with smaller-builder and existing homes, not a causal design. Contested by industry analysts (Zelman, via HousingWire) who argue buydowns widen access; a Realtor.com September 2026 metro comparison found no consistent price pattern.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-550",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-562",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-571",
+  "statement": "HUD's 2019 condominium rule allowed FHA to insure single units in unapproved projects, with the cap on such single-unit approvals set by notice within 0 to 20 percent of a project's units; HUD expected a moderate effect of 20,000 to 60,000 added loans, below the 2010 peak of 73,000.",
+  "claim": "analysis",
+  "figures": [
+   "0-to-20 percent",
+   "20,000 to 60,000",
+   "73,000",
+   "2010"
+  ],
+  "source": "SRC-1869",
+  "anchor": [
+   "This final rule implements the proposed rule's 0-to-20 percent",
+   "Under a 20 percent cap, 90 percent of current approved projects could",
+   "that the maximum volume would exceed the historic peak of 73,000 loans",
+   "in 2010, so that could be regarded as the potential upper limit. HUD",
+   "likely, the rule is expected to have a moderate effect on volume with a",
+   "maximum impact ranging from 20,000 to 60,000 loans."
+  ],
+  "locator": "Preamble, section 4 (Maximum FHA-Insured Concentration for Single-Unit Approval); regulatory impact discussion",
+  "grade": "C",
+  "fact_date": "2019-08-15",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Final rule, first Trump administration (84 FR 41846). Volume estimate is HUD's own; current SUA percentage is set in HUD Handbook 4000.1 and was not checked here.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-552",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-572",
+  "statement": "The affordable housing lenders' association says the FFB Risk Sharing program, in which Treasury's Federal Financing Bank funds FHA-insured state housing finance agency loans, has committed over $7.03 billion for more than 56,000 rental homes with no appropriation, but that the FY2027 budget signaled it has stopped issuing new commitments.",
+  "claim": "analysis",
+  "figures": [
+   "$7.03 billion",
+   "56,000",
+   "2027"
+  ],
+  "source": "SRC-1870",
+  "anchor": [
+   "The FFB Risk Sharing program provides low-cost financing for housing projects, and requires no Congressional appropriation while generating positive cash flow back to the Treasury Department.",
+   "Since its inception, the FFB Risk-Sharing Initiative has committed over $7.03 billion in loans, financing more than 56,000 affordable rental homes.",
+   "But in its Fiscal Year 2027 Budget proposal, the Trump Administration signaled it has stopped issuing new commitments for the program."
+  ],
+  "locator": "News release, paragraph 1",
+  "grade": "C",
+  "fact_date": "2026-05",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-01",
+  "context": "NAAHL, a trade group of lenders that use the program (stake), May 2026; second Trump administration budget. FFB Risk Sharing is multifamily only; no analysis of FFB direct loans for single-family builder or AD&C finance was found. The Mortgage Bankers Association argued in 2021 that FFB financing should be reserved for extraordinary market conditions.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-573",
+  "statement": "Since November 4, 2024, FHA's Limited 203(k) loan can finance total rehabilitation costs of up to $75,000, without requiring a 203(k) consultant, with the cap to be reviewed annually.",
+  "claim": "data",
+  "figures": [
+   "$75,000",
+   "2024"
+  ],
+  "source": "SRC-1871",
+  "anchor": [
+   "The provisions of this ML must be implemented for FHA case numbers",
+   "assigned on or after November 4, 2024.",
+   "nonstructural repairs (II.A.8.a.vii(B)). The Limited 203(k) does not require",
+   "the use of a 203(k) Consultant, but a Consultant may be used. The total",
+   "rehabilitation costs must not exceed $75,000. The Limited 203(k) total",
+   "rehabilitation cost limit will be evaluated on an annual basis in conjunction"
+  ],
+  "locator": "Mortgagee Letter 2024-13, Effective Date; Types of 203(k) Rehabilitation Mortgages",
+  "grade": "A",
+  "fact_date": "2024-11-04",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Biden administration policy. The prior $35,000 limit is from HUD's February 2023 203(k) request for information, not this letter.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-574",
+  "statement": "Federal Reserve staff note that construction loans are treated as high volatility commercial real estate with higher capital risk weights, and cite an estimate that the HVCRE rule raised loan rates by about 40 basis points; among high-growth regional and small banks, construction loans rose from 10 percent of CRE originations in 2015 to 40 percent by 2024.",
+  "claim": "analysis",
+  "figures": [
+   "40 basis points",
+   "10 percent",
+   "2015",
+   "40 percent",
+   "2024"
+  ],
+  "source": "SRC-1872",
+  "anchor": [
+   "Due to their historically higher loss rates, U.S. regulators categorize these as High Volatility Commercial Real Estate (HVCRE) loans, subjecting them to higher risk weights.",
+   "estimating that the HVCRE rule increased loan rates by approximately 40 basis points relative to unaffected CRE loans.",
+   "the share of construction loans surged from 10 percent in 2015 to 40 percent by 2024."
+  ],
+  "locator": "FEDS Note, section on CRE loan composition (Figure 3)",
+  "grade": "C",
+  "fact_date": "2026-05-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Federal Reserve Board staff note, May 2026. HVCRE does not apply to loans for one-to-four family residential construction, so the 40 bp estimate bears on multifamily and land/commercial AD&C, not most starter-home construction loans; cited estimate is Glancy and Kurtzman (2018).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-568",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-575",
+  "statement": "In 2024 a new manufactured home sold for an average of about $123 thousand, or $84.45 per square foot (average 1460 square feet), while a new single-family site-built home cost $168.86 per square foot excluding land (average 2404 square feet); manufactured home shipments were about 103 thousand, up from about 64 thousand in 2014.",
+  "claim": "data",
+  "figures": [
+   "84.45",
+   "168.86",
+   "1460",
+   "2404"
+  ],
+  "source": "SRC-1875",
+  "anchor": [
+   "row 5 |  = 2024",
+   "row 5 |  = 2014",
+   "row 8 | Cost & Size Comparisons: = Avg. Sales Price",
+   "row 8 |  = 123300",
+   "row 9 |  = 1460",
+   "row 10 | Cost & Size Comparisons: = Avg. Cost per Sq. Ft.",
+   "row 10 |  = 84.45",
+   "row 35 |  = 2404",
+   "row 36 | Cost & Size Comparisons: = Avg. Price per Sq Ft. (excl. land)",
+   "row 36 |  = 168.86",
+   "row 37 | Cost & Size Comparisons: = Manufactured Home Shipments",
+   "row 38 |  = 103314",
+   "row 38 |  = 64331"
+  ],
+  "locator": "sheet \"2014 - 2024\", rows 8-10 (manufactured, all), 35-36 (site-built), 38 (shipments); first value in each row is 2024, last is 2014",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "rounded": [
+   {
+    "figure": "$123 thousand",
+    "value": "123300",
+    "scale": 0.001,
+    "places": 0
+   },
+   {
+    "figure": "103 thousand",
+    "value": "103314",
+    "scale": 0.001,
+    "places": 0
+   },
+   {
+    "figure": "64 thousand",
+    "value": "64331",
+    "scale": 0.001,
+    "places": 0
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-576",
+  "statement": "In 2019 HMDA data, about 42 percent (48,029) of manufactured-home purchase loans were chattel loans secured by the home but not the land, and in 72 percent of those the borrower did not own the land; the median chattel rate was 8.6%, against 4.9% for manufactured-home mortgages and 4.1% for site-built mortgages. Only 27 percent of manufactured-home loan applications were financed, against 74 percent for site-built homes, and 17 percent of landowning manufactured-home borrowers still took a chattel loan.",
+  "claim": "data",
+  "figures": [
+   "42 percent (48,029)",
+   "72 percent",
+   "8.6%",
+   "4.9%",
+   "4.1%",
+   "27 percent",
+   "74 percent",
+   "17 percent"
+  ],
+  "source": "SRC-1876",
+  "anchor": [
+   "Analysis of HMDA finds that approximately 42 percent (48,029) of manufactured home",
+   "purchase loans in HMDA are chattel. For the majority of these loans (72 percent), the consumer",
+   "MEDIAN INTEREST RATE",
+   "LOANS\n8.6%",
+   "HOUSING: NONCHATTEL LOANS\n4.9%",
+   "SITE-BUILT\n4.1%",
+   "in an origination. Only 27 percent of manufactured home loan applications resulted in",
+   "the loan being financed, compared to 74 percent of applications for site-built homes.",
+   "mortgage. However, 17 percent of these borrowers take out a chattel loan."
+  ],
+  "locator": "Key findings; Table 6 (pricing characteristics); section 6 conclusion",
+  "grade": "A",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-577",
+  "statement": "About 6.7 million occupied manufactured homes make up about six percent of the U.S. housing stock and 13 percent of occupied homes in rural and small-town communities; their owners tend to be rural, older, and lower in income and net worth than site-built homeowners.",
+  "claim": "data",
+  "figures": [
+   "6.7 million",
+   "13 percent"
+  ],
+  "source": "SRC-1876",
+  "anchor": [
+   "There are approximately 6.7 million occupied manufactured homes in the U.S., accounting for",
+   "approximately six percent of U.S. housing stock.",
+   "with manufactured housing making up 13 percent of all occupied homes in rural and small town",
+   "manufactured housing found that manufactured-home owners tend to live in rural areas, to be",
+   "older, and to have lower incomes and net worth than site-built homeowners."
+  ],
+  "locator": "section 1 (introduction and background)",
+  "grade": "A",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-578",
+  "statement": "The federal manufactured housing code preempts local building codes but not local zoning; courts largely uphold exclusions and conditional-use denials. A HUD-cited survey found the chance a HUD-code unit was placed fell from 77.5% to 53.9% where zoning was a significant barrier, and another survey found only 29 percent of communities treated manufactured and traditional housing comparably.",
+  "claim": "analysis",
+  "figures": [
+   "77.5%",
+   "53.9%",
+   "29 percent"
+  ],
+  "source": "SRC-1877",
+  "anchor": [
+   "The Act does not preempt restrictive zoning, and Congress should amend the law to cover zoning restrictions.",
+   "Communities often require approval of manufactured housing as a conditional use, and approval as a conditional use is often denied.",
+   "In jurisdictions where zoning was rated as a significant barrier, the probability of units having been placed was significantly lower than in jurisdictions where zoning was rated as a minor barrier (dropping from 77.5% to 53.9%).",
+   "only 29 percent of communities had laws that treated traditional and manufactured housing comparably."
+  ],
+  "locator": "abstract; Part I, footnote 17",
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Law review article by Daniel Mandelker (Washington University School of Law), 2016; legal and case-law analysis, with survey figures quoted from a HUD regulatory-barriers study and a 1996 survey. Advocates amending federal law to preempt zoning barriers.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-577",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-250",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-579",
+  "statement": "Off-site (modular) construction has cut project timelines from groundbreaking to occupancy by 10 to 30 percent on multiple projects, but cost savings are inconsistent: most interviewed practitioners judged current off-site methods about as expensive as site-built, with some estimating 10-20 percent savings; one San Francisco affordable project combining off-site methods with streamlined approvals cut cost about 25 percent.",
+  "claim": "analysis",
+  "figures": [
+   "10 \u2013 30 percent",
+   "10-20 percent",
+   "25 percent"
+  ],
+  "source": "SRC-1878",
+  "anchor": [
+   "Multiple projects have seen measurable improvements in their project schedule, reducing timelines from breaking ground to occupancy by 10 \u2013 30 percent.",
+   "Most respondents estimated that current off-site methods seem to be \u201cas expensive\u201d as site-built practices, with some estimating savings in the range of 10-20 percent compared to traditional construction methods both now and in the future.",
+   "using off-site methods, combined with streamlined approvals and flexible, non-public capital, led to approximately 25 percent reduction in cost"
+  ],
+  "locator": "Table 3 (Perceived Benefits of Off-site Construction in the U.S.) and its note 2",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Terner Center (UC Berkeley housing research center), March 2021, funded by Los Angeles County; based on stakeholder interviews and project examples. Generally favorable to off-site construction but reports mixed cost results. Earlier Terner work (2017) cited developer claims of up to 20 percent cost savings.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-575",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-245",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-580",
+  "statement": "Pew and the Center for Building in North America find single-stair buildings of four to six stories with small floor plates cost 6% to 13% less to build than dual-stair buildings, and the second stair and corridor take around 7% of floor area; all but three major U.S. cities (New York City, Seattle, Honolulu) require two stairs at that height. A Boston-area study it cites estimated 130,000 homes on vacant parcels near transit if the code changed.",
+  "claim": "analysis",
+  "figures": [
+   "6% to 13%",
+   "7%",
+   "130,000"
+  ],
+  "source": "SRC-1879",
+  "anchor": [
+   "Single-stairway four-to-six-story buildings with relatively small floor plates cost 6% to 13% less to construct than similar dual-stairway buildings.",
+   "The additional stairway and corridor consume around 7% of the building\u2019s floor area.",
+   "Current U.S. building codes in all but three major cities (New York City, Seattle, and Honolulu) stipulate that apartment buildings four to six stories must have two stairways.",
+   "A study of the Boston area estimated that such a building code change had the potential to create 130,000 new homes simply by developing the vacant parcels within walking distance of transit."
+  ],
+  "locator": "report summary, overview and key findings",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Pew Charitable Trusts (nonpartisan, advocates single-stair reform) with the Center for Building in North America, 2025; contractor cost quotes and a fire-death analysis of New York City and Seattle buildings. The 130,000-home Boston figure is a secondary citation of another study, a capacity estimate rather than a forecast.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-243",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-581",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-581",
+  "statement": "A new elevator in a U.S. or Canadian mid-rise building costs at least three times as much as in Western Europe or East Asia: around $150,000 even in low-cost U.S. areas against around $50,000 in peer countries, after adjusting for price levels; small buildings that would have elevators in Europe are built as walk-ups in the United States.",
+  "claim": "analysis",
+  "figures": [
+   "$150,000",
+   "$50,000"
+  ],
+  "source": "SRC-1880",
+  "anchor": [
+   "The price to install an elevator in a new mid-rise building in the United States or Canada is now at least three times the cost in Western Europe or East Asia.",
+   "have found ways to install wheelchair-accessible elevators in mid-rise apartment buildings for around $50,000 each",
+   "In the United States and Canada, on the other hand, these installations start at around $150,000 in even low-cost areas.",
+   "Small apartment buildings which would have elevators in Western Europe are built as walk-up buildings in the United States."
+  ],
+  "locator": "Introduction (summary); Cost section",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Center for Building in North America (Stephen Smith), May 2024; price quotes for comparable four- and six-stop installations, PPP-adjusted to December 2023 dollars. Advocates smaller cabins, harmonized European standards and labor reforms.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-580",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-582",
+  "statement": "CRS: the Interior Department and HUD set up a joint task force on March 17, 2025 to find federal land to convey for housing, and reconciliation proposals to convey land were not enacted in P.L. 119-21. About 200 million of the 438 million acres managed by BLM and the Forest Service lie in metro or micro areas, about 95 million in areas with vacancy below 11.7%; estimates that screen for developability are far smaller: about 1 million acres (Headwaters Economics) or 850 square miles, about 0.54 million acres (AEI).",
+  "claim": "analysis",
+  "figures": [
+   "200 million",
+   "438 million",
+   "95",
+   "11.7%",
+   "0.54 million"
+  ],
+  "source": "SRC-1881",
+  "anchor": [
+   "17, 2025, the Department of the Interior (DOI) and the",
+   "announced the establishment of a joint task force to identify",
+   "for housing, though such provisions were not enacted in",
+   "P.L. 119-21. (This In Focus uses convey and dispose",
+   "communities. CRS estimates that roughly 200 million acres",
+   "of the 438 million acres managed by BLM and FS are",
+   "Congressional Research Service estimates that roughly 95",
+   "within CBSAs that have vacancy rates below 11.7%, the",
+   "development, such as Headwaters Economics (about 1",
+   "million acres) and the American Enterprise Institute (850",
+   "square miles, or about 0.54 million acres)."
+  ],
+  "locator": "pp. 1-2, introduction and \"Location and Suitability of Lands\"",
+  "grade": "C",
+  "fact_date": "2025-08-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Congressional Research Service (nonpartisan), August 2025, during the second Trump administration; CRS acreage estimates use 2023 CBSA boundaries and do not screen for slope or wildfire risk.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-583",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-584",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-583",
+  "statement": "AEI estimates that developing 135-180 square miles of the most suitable BLM land within five miles of population centers in western states could yield about 1 million homes over ten years and about $15 billion in land-sale receipts.",
+  "claim": "analysis",
+  "figures": [
+   "135-180",
+   "1 million",
+   "$15 billion"
+  ],
+  "source": "SRC-1882",
+  "anchor": [
+   "The proposal directs the Secretary of the Interior to dispose of between 0.25 and 0.5 percent of BLM land located within five miles of a population center for the express purpose of housing development.",
+   "Our analysis finds that developing just 135-180 square miles of the most suitable BLM land, a minuscule fraction of the total, could yield approximately 1 million new homes over ten years.",
+   "generating an estimated $15 billion for the U.S. Treasury from land sales."
+  ],
+  "locator": "report page, summary paragraphs",
+  "grade": "C",
+  "fact_date": "2025-06-27",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "American Enterprise Institute Housing Center (center-right; advocates selling BLM land for starter homes), June 2025; GIS screen of developable BLM parcels with assumed densities and absorption caps. Analysis of a proposal (Sen. Lee) that was not enacted.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-584",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-582",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-584",
+  "statement": "Smart Growth America estimates that developing all viable federal land in the commuting zones of the 50 largest metros would yield only about 118,000 homes at a typical suburban gross density; 15 of those 50 metros have no such land, and Las Vegas, the one large metro with a big federal share, has 221 square miles that could hold around 44,000 homes.",
+  "claim": "analysis",
+  "figures": [
+   "118,000",
+   "15",
+   "221",
+   "44,000"
+  ],
+  "source": "SRC-1883",
+  "anchor": [
+   "even a highly optimistic scenario\u2014where all viable federal lands as traditionally defined in the commuting zones of the top 50 MSAs is developed\u2014would yield only 118,000 homes.",
+   "15 of the largest 50 MSAs have zero federal lands (as defined by this study) within their employment catchment areas",
+   "There are 221 square miles of federally owned land in the region\u2014mostly in the desert\u2014that could theoretically accommodate around 44,000 homes."
+  ],
+  "locator": "article text",
+  "grade": "C",
+  "fact_date": "2025-04-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Smart Growth America (advocates infill and transit-oriented growth; opposes sprawl), April 2025; assumes 200 housing units per square mile gross density, which is far lower than AEI's assumptions and drives much of the gap between the two estimates.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-583",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-582",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-585",
+  "statement": "In September 2026 BLM sold nearly 940 acres near Las Vegas to the City of Las Vegas for $94 million at appraised fair market value under SNPLMA, for a master-planned community of up to 6,000 homes; 85% of proceeds go to projects in Nevada, 5% to state education and 10% to the Southern Nevada Water Authority.",
+  "claim": "data",
+  "figures": [
+   "940",
+   "$94 million",
+   "6,000",
+   "85%",
+   "5%",
+   "10%"
+  ],
+  "source": "SRC-1884",
+  "anchor": [
+   "Strategic 940-acre public land sale generates $94 million to fund wildfire resiliency, education and recreation opportunities across Nevada",
+   "announced the sale of nearly 940 acres of federally managed public land to the City of Las Vegas, clearing the way for a master-planned community of up to 6,000 homes",
+   "In accordance with the Act, 85% of the proceeds from this sale will support projects throughout Nevada",
+   "An additional 5% will go to the State of Nevada for education, and 10% will go to the Southern Nevada Water Authority."
+  ],
+  "locator": "press release text",
+  "grade": "A",
+  "fact_date": "2026-09-10",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Bureau of Land Management press release, second Trump administration; the 6,000 homes are a planned maximum for a master-planned community, not permits.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-586",
+  "statement": "Title V of the McKinney-Vento Act, which gives homeless providers first claim on surplus federal property, transferred 122 properties from 1987 to 2014, of which 81 were in use; in 2013 about 80 percent of the properties HUD listed as suitable and available were for off-site use only, meaning a provider would have to move the building.",
+  "claim": "data",
+  "figures": [
+   "122",
+   "81",
+   "80 percent"
+  ],
+  "source": "SRC-1885",
+  "anchor": [
+   "Since inception in 1987, the nationwide Title V homeless-assistance program has transferred 122 properties from federal agencies to homeless assistance providers.",
+   "Of these properties, 81 are currently being used to provide a range of homeless assistance services nationwide.",
+   "in 2013 about 80 percent of these properties were for off-site use only\u2014meaning that a provider would need to physically move the property in order to use it."
+  ],
+  "locator": "What GAO Found",
+  "grade": "A",
+  "fact_date": "2014-09-30",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-587",
+  "statement": "HUD's second PRO Housing round (FY24) awarded $100 million to 18 winners in 15 states; HUD received more than 200 applications from 47 states and more than $10 was requested for every $1 available. HUD describes planned uses (zoning updates, permitting, infrastructure, subsidies), not homes built.",
+  "claim": "data",
+  "figures": [
+   "$100 million",
+   "18",
+   "15",
+   "200",
+   "47",
+   "$1",
+   "$10"
+  ],
+  "source": "SRC-1886",
+  "anchor": [
+   "awarded $100 million through the FY24 Pathways to",
+   "oversubscribed. HUD received more than 200",
+   "applications representing communities across 47",
+   "States. For every $1 available in funding, more than $10",
+   "HUD announced 18 winners with proposed activities",
+   "benefiting communities across 15 states supporting"
+  ],
+  "locator": "p. 1",
+  "grade": "A",
+  "fact_date": "2025-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "HUD fact sheet issued at the end of the Biden administration; promotional; reports applications and planned uses, not outcomes.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-588",
+  "statement": "Urban Institute case studies of the most exclusionary towns find many rely on state and federal transfers, so conditioning grants on land-use reform could work in some places, but some of the most exclusionary towns receive almost no pass-through money, and the legal basis for federal conditions is not yet established.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1887",
+  "anchor": [
+   "Conditioning grants on implementing more equitable land-use regulations could thus be an effective strategy to address inadequate housing production in some communities\u2014though more strategies are necessary to address the full breadth of exclusion in municipalities around the country because some cities (such as University Park), receive almost no pass-through dollars.",
+   "there is a logic to linking transportation grantmaking to allowances for housing, but the legal basis for such policy remains to be established."
+  ],
+  "locator": "Conclusions; Introduction",
+  "grade": "C",
+  "fact_date": "2023-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Urban Institute (nonpartisan, center-left), January 2023, Housing Crisis Research Collaborative; qualitative budget and zoning case studies, no estimate of homes added. Favors conditioning grants as one tool among several.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-209",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-244",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-589",
+  "statement": "A HUD-sponsored 2007 study found environmental compliance costs of about $5,000-15,000 per lot or unit in the Washington DC market, averaging 4.7 percent of the finished-lot price, and judged environmental compliance and delay costs real but not a major factor in rising housing costs compared with other land and development costs.",
+  "claim": "analysis",
+  "figures": [
+   "$5,000-15,000",
+   "4.7 percent"
+  ],
+  "source": "SRC-1888",
+  "anchor": [
+   "Costs of compliance are about $5,000-15,000 per lot or unit in the DC market, comparable in Tucson, but apparently less in Denver and considerably less in Dallas.",
+   "Environmental regulatory compliance and delay costs are real and significant, but they are not a major factor in the increasing cost of housing compared to other land and development costs.",
+   "environmentally-related costs per finished lot, based on an estimate of the market clearing price of a finished lot to builders, averaged 4.7 percent."
+  ],
+  "locator": "Executive Summary, Table ES-3 and Pilot Study findings",
+  "grade": "C",
+  "fact_date": "2007-10",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "HUD Office of Policy Development and Research contract study (George W. Bush administration), October 2007; small case-study sample of greenfield subdivisions, mostly local and state environmental rules rather than NEPA; authors call it preliminary.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-218",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-591",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-590",
+  "statement": "California's AB 130 and SB 131, signed June 30, 2025 and effective July 1, 2025, created a complete CEQA exemption for qualifying urban infill housing projects, including their permits and public improvements, generally on sites up to 20 acres, in all incorporated cities and Census urban areas; projects must be consistent with zoning and meet minimum density and siting limits.",
+  "claim": "data",
+  "figures": [
+   "20 acres"
+  ],
+  "source": "SRC-1889",
+  "anchor": [
+   "On June 30, 2025, Governor Gavin Newsom signed two budget trailer bills\u2014Assembly Bill (AB) 130 and Senate Bill (SB) 131\u2014",
+   "These provisions took effect immediately on July 1, 2025.",
+   "provides a complete exemption from CEQA for all aspects of a qualifying \u201chousing development project,\u201d including any permits and public improvements required for the project.",
+   "This exemption applies in all incorporated cities, including charter cities, and in unincorporated \u201curban areas.\u201d",
+   "Generally, the project site may be up to 20 acres"
+  ],
+  "locator": "pp. 1-3, \"Urban Infill Housing Development Projects\"",
+  "grade": "C",
+  "fact_date": "2025-06-30",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-591",
+  "statement": "In its first four years (2018-2021), California's SB 35 ministerial approval path, which bypasses CEQA for code-compliant infill, was used by 156 approved or pending projects with over 18,000 units, 62 percent of them fully affordable; a developer estimated it saves about a year in entitlement.",
+  "claim": "analysis",
+  "figures": [
+   "156",
+   "18,000",
+   "62 percent"
+  ],
+  "source": "SRC-1890",
+  "anchor": [
+   "We find that between 2018 and 2021, 156 projects were approved or pending for SB 35 streamlining, totaling over 18,000 units.",
+   "We also find that 62 percent of projects approved or under review for SB 35 streamlining are 100 percent affordable for low-income house holds",
+   "estimated that using SB 35 saves about a year during the entitlement process"
+  ],
+  "locator": "Executive summary; Findings",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Terner Center (UC Berkeley), August 2023; descriptive analysis of state permit data and interviews, no counterfactual for how many units would have been built anyway. Favorable to streamlining.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-590",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-589",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-592",
+  "statement": "After Buffalo repealed parking minimums citywide in 2017, 47% of 36 major developments in the first two years built less parking than the old rules required, and mixed-use projects built 53% fewer spaces; overall parking was 21% lower, a difference not statistically significant, as single-use projects kept building at or above the old minimums.",
+  "claim": "analysis",
+  "figures": [
+   "47%",
+   "36",
+   "53%",
+   "21%"
+  ],
+  "source": "SRC-1891",
+  "anchor": [
+   "Buffalo (NY) adopted the Green Code in 2017.",
+   "First, 47% of major developments included fewer parking spaces than previously permissible, suggesting earlier minimum parking requirements may have been excessive.",
+   "Second, mixed-use developments introduced 53% fewer parking spaces than would have been required by earlier minimum requirements",
+   "21% (502) fewer off-street parking spaces accompanied 36 total developments in the first 2 years of the Green Code than would have been mandated by earlier MPRs.",
+   "indicating that the code reform has thus far not achieved a statistically significant reduction in off-street parking overall."
+  ],
+  "locator": "abstract; Results (Table 1 discussion)",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (JAPA), University at Buffalo planners, 2021; small sample, short window; measures parking supplied, not homes added.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-593",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-207",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-593",
+  "statement": "Garage parking bundled with a rental unit costs renters about $1,700 a year, about 17% of rent; about 708,000 carless households have a garage space, a deadweight loss of about $440 million a year, and those households earn about $24,000 against $44,000 for others.",
+  "claim": "analysis",
+  "figures": [
+   "$1,700",
+   "17%",
+   "708,000",
+   "$440 million",
+   "$24,000",
+   "$44,000"
+  ],
+  "source": "SRC-1892",
+  "anchor": [
+   "We find that the cost of garage parking to renter households is approximately $1,700 per year, or an additional 17% of a housing unit\u2019s rent.",
+   "There are about 708,000 households without a car who have a garage parking space.",
+   "We estimate the direct deadweight loss for carless renters to be $440 million annually.",
+   "we find that households which have a garage space but no car have only a little more than half of the income ($24,000) of other households ($44,000)."
+  ],
+  "locator": "abstract; Introduction; Discussion",
+  "grade": "B",
+  "fact_date": "2011",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (Housing Policy Debate), UCLA planners, 2017; hedonic estimate on 2011 AHS data, may capture unobserved quality; measures cost, not homes added.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-592",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-594",
+  "statement": "Gyourko and Krimmel estimate that land-use rules raise the price of a quarter-acre single-family lot (the zoning tax) by $409,706 at the median in San Francisco, $198,769 in Los Angeles, $174,850 in Seattle and $152,417 in New York, but by under $25,000 in a dozen interior markets such as Atlanta, Dallas, Denver and Phoenix.",
+  "claim": "analysis",
+  "figures": [
+   "$409,706",
+   "$198,769",
+   "$174,850",
+   "$152,417",
+   "$25,000"
+  ],
+  "source": "SRC-1893",
+  "anchor": [
+   "San Francisco 69 $37.62 $409,706",
+   "Los Angeles 157 $18.25 $198,769",
+   "Seattle 232 $16.06 $174,850",
+   "New York 58 $14.00 $152,417",
+   "in which the typical zoning tax ranges from negligible to small, with \u2018small\u2019 defined (admittedly somewhat arbitrarily) as a median zoning tax per quarter acre of land that is less than $25,000"
+  ],
+  "locator": "Table 1 (median zoning tax per quarter acre); section III.A",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (Journal of Urban Economics), Gyourko (Wharton) and Krimmel (Federal Reserve Board), 2021; quoted from NBER WP 28993. Measures the price of the right to build, not homes forgone; both authors favor loosening supply restrictions.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-064",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-127",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-595",
+  "statement": "Washington's 2025 parking law bars cities over 30,000 people from requiring more than 0.5 parking spaces per multifamily unit or one per single-family home, and bans any minimum for homes under 1,200 square feet, affordable housing and senior housing; cities of 50,000 or more must comply within 18 months.",
+  "claim": "data",
+  "figures": [
+   "30,000",
+   "0.5",
+   "1,200",
+   "50,000",
+   "18 months"
+  ],
+  "source": "SRC-1894",
+  "anchor": [
+   "(1) A city may not require more than 0.5 parking space per multifamily dwelling unit or more than one parking space per single-family home.",
+   "(a) Residences under 1,200 square feet;",
+   "(c) Affordable housing;",
+   "(d) Senior housing;",
+   "(a) To cities with a population of 30,000 or less, as determined by the population estimate of the office of financial management under RCW 43.62.030 ;",
+   "Cities with a population of 50,000 or greater shall implement the requirements of this act within 18 months of the effective date of this act.",
+   "Approved May 7, 2025 1:22 PM"
+  ],
+  "locator": "sec. 2(1), (3), (6)(a), (11)",
+  "grade": "A",
+  "fact_date": "2025-05-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-27",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-596",
+  "statement": "Texas S.B. 15, effective September 1, 2025, bars cities of more than 150,000 people in counties of more than 300,000 from requiring lots larger than 3,000 square feet on new unplatted single-family tracts of five acres or more, and limits setbacks, parking and other rules on lots of 4,000 square feet or less.",
+  "claim": "data",
+  "figures": [
+   "150,000",
+   "300,000",
+   "3,000",
+   "4,000"
+  ],
+  "source": "SRC-1895",
+  "anchor": [
+   "89(R) SB 15 - Enrolled version - Bill Text",
+   "(A) has a population of more than 150,000; and",
+   "population of more than 300,000; and",
+   "(B) is five acres or more; and",
+   "(C) has no recorded plat.",
+   "(A) larger than 3,000 square feet;",
+   "(2) \"Small lot\" means a residential lot that is 4,000",
+   "SECTION 2. This Act takes effect September 1, 2025."
+  ],
+  "locator": "secs. 211.051-211.055, Local Government Code; SECTION 2",
+  "grade": "A",
+  "fact_date": "2025-09-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-01",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-597",
+  "statement": "Colorado legislative staff report that condominiums were only 4 percent of for-sale construction in Denver County from 2008 through 2020, that the state has added one condominium for every 19 apartments since 2010, and that a 2013 regional study estimated defect-related costs added about $15,000 per unit to a condo project compared with an apartment building.",
+  "claim": "analysis",
+  "figures": [
+   "4 percent",
+   "19",
+   "$15,000"
+  ],
+  "source": "SRC-1896",
+  "anchor": [
+   "to HUD, condominiums in the Denver County market accounted for only 4 percent of for-sale",
+   "construction activity from 2008 through 2020. In suburban markets, the number was even lower.",
+   "A University of Colorado report suggests that since 2010, the state has added one condominium",
+   "for every 19 apartments built.",
+   "A 2013 DRCOG Denver Metro Area Housing Diversity Study estimated that because of additional",
+   "$15,000 more per unit for a condominium project than an apartment building, reducing the"
+  ],
+  "locator": "pp. 9-10, \"Condominiums\"",
+  "grade": "C",
+  "fact_date": "2024-01-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Colorado Legislative Council Staff (nonpartisan), January 2024; compiles HUD, University of Colorado and DRCOG figures; notes 2017 reforms and the Vallagio arbitration ruling may not have eased insurance markets. Descriptive, no causal estimate.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-598",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-598",
+  "statement": "Colorado's 2025 defect law finds that before 2009 the state built 1.25 apartments per condominium and now builds 14; from January 1, 2026 builders of attached housing who give a no-cost warranty (one year workmanship, two years plumbing and electrical, six years structure) and get third-party inspection face narrower defect claims, and an owners' association needs approval from owners holding sixty-five percent of votes to sue.",
+  "claim": "data",
+  "figures": [
+   "1.25",
+   "14",
+   "2026"
+  ],
+  "source": "SRC-1897",
+  "anchor": [
+   "2009, there were 1.25 new apartments for every one condominium. This has",
+   "shifted radically to 14 new apartments for every condominium in recent",
+   "1, 2026, A BUILDER OF MULTIFAMILY, ATTACHED HOUSING OF TWO OR MORE",
+   "(I) ONE YEAR FOR WORKMANSHIP AND MATERIALS;",
+   "(II) TWO YEARS FOR PLUMBING, ELECTRICAL, AND MATERIALS; AND",
+   "(III) SIX YEARS FOR MAJOR STRUCTURAL COMPONENTS;",
+   "(b) HAVING A THIRD-PARTY INSPECTION PERFORMED; AND",
+   "SIXTY-FIVE PERCENT of votes in the association are allocated."
+  ],
+  "locator": "sec. 1 legislative declaration (1)(c); sec. 3 (13-20-803.3(1)); sec. 6 (38-33.3-303.5(1)(d))",
+  "grade": "A",
+  "fact_date": "2025-05-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-12",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-599",
+  "statement": "CRS: USDA's Section 502 Direct program lends to very low- and low-income rural buyers who cannot get credit elsewhere; payment subsidies can cut the effective rate to as low as 1%, no down payment is generally required, and terms run to 33 years, or 38 for borrowers below 60% of area median income. Direct loans peaked at nearly 133,000 in FY1976; in FY2021 USDA made about 5,000 direct loans against about 127,000 guaranteed, with $55.4 million of appropriations supporting up to $1 billion of direct loans; FY2019 direct borrowers averaged $35,220 of income against $63,240 for guaranteed borrowers.",
+  "claim": "data",
+  "figures": [
+   "1%",
+   "33 years",
+   "60%",
+   "38 years",
+   "133,000",
+   "127,000",
+   "5,000",
+   "$55.4 million",
+   "$1 billion",
+   "$35,220",
+   "$63,240"
+  ],
+  "source": "SRC-1898",
+  "anchor": [
+   "Through this program, USDA makes direct loans to very low- and low-income individuals, who\ndo not currently own adequate housing, to purchase homes to be used as primary residences.",
+   "provides mortgages with fixed interest rates to qualified borrowers who are unable to obtain\ncredit elsewhere.",
+   "payment subsidies can reduce effective interest rates to as low as 1%. Loan amounts\nmay be up to 100% of the property\u2019s market value or an area loan limit, whichever is less.30 No\ndown payment is generally required.31 In general, the maximum loan term is 33 years; certain\nborrowers with incomes below 60% of area median income may qualify for a loan term as long as\n38 years.",
+   "annually peaked in FY1976, at nearly 133,000, and then began to steadily decrease",
+   "In FY2021, USDA guaranteed about 127,000 Section 502 loans and made about 5,000 Section\n502 direct loans.",
+   "FY2021, $55.4 million in appropriations was provided to support up to $1 billion in Section 502\ndirect loans.",
+   "direct loan borrowers had an average income of $35,220 compared to $63,240 in the guaranteed\nloan program.",
+   "populations served by the direct and guaranteed programs. For example, in FY2019 Section 502"
+  ],
+  "locator": "Homeownership Programs, Section 502 Single Family Housing Direct Loans; Trends in Section 502 Direct and Guaranteed Loans",
+  "grade": "C",
+  "fact_date": "2022-03-08",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Nonpartisan legislative-branch agency; overview dated March 2022 (FY2021 data, from Housing Assistance Council tabulations of RHS data). Graded C as a secondary summary; 7 CFR 3550.67 and 3550.68 set the terms. Later volume is in EV-HOU-700.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md",
+   "dossiers/home/memos/9-homeownership.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-700",
+  "statement": "USDA reported that in FY2026 the Section 502 Direct Loan Program lent $571 million, about 76% of available funds, to 2,115 families, at an average loan of $269,000, and that first-year delinquency fell from 3.82% in September 2025 to 2.89% in September 2026.",
+  "claim": "data",
+  "figures": [
+   "$571 million",
+   "76%",
+   "2,115",
+   "$269,000",
+   "3.82%",
+   "2.89%"
+  ],
+  "source": "SRC-1899",
+  "anchor": [
+   "also known as the Section 502 Direct Loan Program",
+   "In FY 2026, the agency provided $571 million in loans, about 76% of available funds, to help 2,115 families buy homes. The average loan amount was $269,000.",
+   "first-year delinquency rates dropped 25%, falling from 3.82% in September 2025 to 2.89% in September 2026"
+  ],
+  "locator": "Statutory Multi-Year Allocation and Operational Execution; Strengthened Credit Performance, item 1",
+  "grade": "A",
+  "fact_date": "2026-10-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-31",
+  "context": "USDA Rural Development press release, October 6, 2026 (second Trump administration). Program data; its framing (\"fiscal discipline\", lower volume) is the administration's. The program's FY2026-27 funding was $1 billion over two years.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-701",
+  "statement": "ProPublica and the Bangor Daily News reported that 30,496 of USDA's 159,208 active Section 502 direct loans, nearly a fifth, were delinquent in March 2025, double what a 1993 internal agency report called acceptable, and that Maine borrowers USDA foreclosed on had been in default for an average of nearly nine years.",
+  "claim": "data",
+  "figures": [
+   "159,208",
+   "30,496",
+   "1993"
+  ],
+  "source": "SRC-2000",
+  "anchor": [
+   "Nearly a fifth of the USDA\u2019s 159,208 Section 502 direct loans in its active national portfolio \u2014 30,496 \u2014 were delinquent as of March, according to internal agency data obtained by the Bangor Daily News and ProPublica. That rate is double what a 1993 internal agency report said was acceptable.",
+   "The borrowers have been in default for an average of nearly nine years."
+  ],
+  "locator": "Article body",
+  "grade": "C",
+  "fact_date": "2025-03",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Investigative news report (ProPublica with the Bangor Daily News, July 18, 2025) citing internal USDA data it obtained; not an official release. Delinquency here is all delinquent loans in the portfolio, a broader measure than EV-HOU-700's first-year rate.",
+  "supports": [
+   "dossiers/home/research-ownership-supply.md",
+   "dossiers/home/memos/9-homeownership.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-702",
+  "statement": "Petach finds that states with more USDA Section 502 loans per person (direct and guaranteed together) have higher homeownership and lower housing-cost burdens, more so for Black and Hispanic households: doubling loans per person goes with a 1 to 8.7 point higher chance of owning for Black households, though some estimates are imprecise.",
+  "claim": "analysis",
+  "figures": [
+   "1",
+   "8.7"
+  ],
+  "source": "SRC-2001",
+  "anchor": [
+   "an increase in the number of small dollar mortgage loans per-capita at the state level is positively associated with homeownership and housing affordability, particularly for low income households and non-white households.",
+   "Doubling the number of state-level USDA loans per-capita increases the probability of homeownership for Black households between 1 and 8.7 percentage points",
+   "The effect of USDA Section 502 lending on homeownership is meaningfully increased for Black and Hispanic households, although it is imprecisely estimated in some specifications."
+  ],
+  "locator": "Abstract; section 1",
+  "grade": "B",
+  "fact_date": "2024-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed article (Journal of Regional Analysis and Policy; accepted November 2024) by one economist (Belmont University). State-level correlations with fixed effects, not a causal design; it pools direct and guaranteed loans, so it does not isolate the direct program. Read 2026-11-09 through the Exa tool; the reviewer should check the quotations.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/research-ownership-supply.md"
+  ]
  }
 ]

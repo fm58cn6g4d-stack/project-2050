@@ -1,0 +1,3493 @@
+Source: https://www.fhfa.gov/sites/default/files/2024-08/wp2403.pdf
+Publisher: Federal Housing Finance Agency
+Retrieved: 2026-11-09
+Original SHA-256: 73bdf4e072c81717b803552797aab5f2111bdc676072a4c895e2c18f89444d87
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The Lock-In Effect of Rising Mortgage Rates
+Ross M. Batzer
+Jonah R. Coste
+William M. Doerner
+Michael J. Seiler
+August 2024 (revised)
+March 2024 (original)
+Working Paper 24-03
+FEDERAL HOUSING FINANCE AGENCY
+Division of Research and Statistics
+400 7th Street SW
+Washington, DC 20219, USA
+
+Please address correspondence to Jonah Coste (jonah.coste@fhfa.gov). Helpful feedback was provided by Josh Abel, Jiakai Chen, Justin Contat, Tom Daula, Julia Fonseca, David Genesove, Dan
+Grodzicki, Martin Hoesli, Keith Ihlandfeldt, Gray Kimbrough, Michael LaCour-Little, Lu Liu,
+Norm Miller, Phillip Millman, Raven Molloy, Tarun Ramadorai, Eric Rosenblatt, Tien Foo Sing,
+Jon Spader, Scott Weiner, Michelle White, Tony Yezer, Albert Yoon, and Shuang Zhu. Data assistance was provided by Sewei Long and Robert Renner.
+Working Papers prepared by staff of the Federal Housing Finance Agency (FHFA) are preliminary
+products circulated to stimulate discussion and critical comment. The analysis and conclusions are
+those of the authors alone and should not be represented or interpreted as conveying an official
+FHFA position, policy, analysis, opinion, or endorsement. Any errors or omissions are the sole
+responsibility of the authors. References to FHFA Working Papers (other than acknowledgment)
+should be cleared with the authors to protect the tentative character of these papers.
+The latest paper and associated datasets can be found at https://www.fhfa.gov/research/papers/wp2403
+
+The Lock-In Effect of Rising Mortgage Rates
+Ross M. Batzer, Jonah R. Coste, William M. Doerner, and Michael J. Seiler
+FHFA Staff Working Paper 24-03
+August 2024
+Abstract
+Financial “lock-in” limits individuals’ ability to make adjustments, such as moving
+homes, changing jobs, selling stocks, shifting financial accounts, or inheriting wealth.
+This paper focuses on U.S. residential real estate, where many homeowners have fixed
+mortgage rates well below prevailing rates. Findings reveal that each percentage point
+that market rates exceed existing fixed rates reduces sale probability by 18.1%. This
+lock-in prevented 1.72 million transactions from 2022Q2 to 2024Q2 and increased home
+prices by 7.0%. Lock-in restricts mobility, results in people not living in homes they
+would prefer, inflates prices, and exacerbates economic inequality.
+Keywords:
+
+housing · interest rate · lock-in · monetary policy · mortgages
+
+JEL Classification: C50 · D10 · E50 · G21 · G50 · R23 · R31
+
+Ross M. Batzer
+Federal Housing Finance Agency
+Division of Research and Statistics
+Office of Research and Analysis
+400 7th Street SW
+Washington, DC 20219, USA
+ross.batzer@fhfa.gov
+
+Jonah R. Coste
+Federal Housing Finance Agency
+Division of Research and Statistics
+Office of Research and Analysis
+400 7th Street SW
+Washington, DC 20219, USA
+jonah.coste@fhfa.gov
+
+William M. Doerner
+Federal Housing Finance Agency
+Division of Research and Statistics
+Office of Research and Analysis
+400 7th Street SW
+Washington, DC 20219, USA
+william.doerner@fhfa.gov
+
+Michael J. Seiler
+Federal Housing Finance Agency
+Division of Research and Statistics
+Office of Research and Analysis
+400 7th Street SW
+Washington, DC 20219, USA
+michael.seiler@fhfa.gov, mjseiler@wm.edu
+
+FHFA Working Paper 24-03
+
+1
+
+Introduction
+
+When modeling financial decision-making, personal and market frictions are commonly assumed away, but in reality, people are often “locked-in” or constrained to their current path
+because the cost to change course is prodigious. Whether it is continuing to hold a low basis
+stock to avoid a high taxable sale or avoiding portfolio rebalancing in the face of tax law
+changes to the treatment of dividends or capital gains, these lock-in effects play a major
+role in forming financial preferences (Dai et al., 2008; Eilbott and Hersh, 1976; Holt and
+Shelton, 1962; Kiefer, 1990; Landsman and Shackelford, 1995). These effects are even more
+pronounced with residential real estate, where the financial asset is physically stationary and
+transaction costs are at their highest.
+During the Great Financial Crisis (GFC) of 2008, many borrowers could not afford to move
+because they had negative equity in their homes and a capital budgeting constraint that
+prevented them from paying off their outstanding mortgage balances, which is necessary to
+clear the title (Bernstein, 2021; Bernstein and Struyven, 2022; Foote, 2016; Ferreira, Gyourko,
+and Tracy, 2011; Farber, 2012). Badarinza et al. (2024) and Andersen et al. (2022) examine
+a different lock-in effect from falling prices due to reference dependence and loss aversion.
+Several states, like Florida and California, have implemented well-meaning policies that
+cap property tax increases for primary residences to avoid homeowners being priced out
+of their homes due to rapid home price appreciation that outpaces income growth. Such
+policies work in the sense that they allow owner-occupants the ability to match their slowly
+increasing income levels to an artificially stagnant tax increase. However, over time, the
+difference between what homeowners pay if they remain in their homes compared to what
+they would pay on comparably priced different domiciles becomes a genuine impediment to
+moving (Ihlanfeldt, 2011; Wasi and White, 2005; Ferreira, Gyourko, and Tracy, 2010).
+Home equity and property taxes are not the only characteristics of homeownership that
+create a lock-in effect. So, too, does an environment of rising mortgage rates (Fonseca and
+Liu, 2023; Liebersohn and Rothstein, 2023; Ferreira, Gyourko, and Tracy, 2011; Qiugley,
+1987; Quigley, 2002). In the U.S., over 96% of borrowers have a fixed-rate mortgage, and
+57% of those borrowers have a rate below 4% as of 2024Q2. Given that current rates are still
+close to 7%, many in-place borrowers simply cannot afford to sell their homes because they
+would give up roughly $400 a month in lower mortgage payments worth nearly $50,000 in
+
+1
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+present value and an aggregate value of $2.4 trillion across all active fixed-rate mortgages.1
+No matter the reason for residential real estate lock-in, several potential ramifications arise.
+First, lock-in restricts labor mobility from its highest and best use, which reduces productivity and employee satisfaction and creates a deadweight loss to society. Second, it impeeds
+“right-sizing” in that younger, growing families stay in homes that become too small, while
+empty-nesters inhabit homes that are now too large. Third, lock-in can prevent household
+formation, dissolution, and other family dynamics. Lock-in may also have political implications by interfering with the Tiebout (1956) mechanism or slowing polarization (McCartney,
+Orellana-Li, and Zhang, 2024). Finally, it hurts housing affordability as lower supply puts
+upward pressure on home prices. Moreover, a reduction in housing affordability is more likely
+felt by first-time homebuyers, minorities, and lower-income borrowers. These factors may
+combine to reduce utility for borrowers and underscore the importance of understanding the
+extent to which borrowers are locked-in.
+In this study, we extend the model introduced by Fonseca and Liu (2023) to examine the
+effects of lock-in on home sales and prices. We test the theory, perform empirical regressions
+using proprietary data with millions of loans, and estimate the aggregate impacts of mortgage lock-in. For every percentage point that market mortgage rates exceed the origination
+interest rate, there is a decrease of 17.6 basis points or 18.1% in the quarterly probability
+of sale. We estimate that lock-in decreased the sales of homes with fixed-rate mortgages
+by 45% in 2024Q2 and prevented 1.72 million sales between 2022Q2 and 2024Q2. We consider several possible scenarios and find that the reduction in sales is unlikely to dissipate
+quickly. Additionally, we find evidence that these transactions are mostly lost, not just delayed. Finally, we estimate that, during this period, home prices increased by 7.0% due to
+the lock-in-related supply reduction while they decreased by 5.6% from the direct effect of
+elevated rates. All of these results are consistent with the predictions of the model.
+This paper makes several key contributions to the growing literature on the lock-in effect of
+rising mortgage rates. First, our study uses a rich loan-level dataset that includes the 2022–
+2024 period of rapidly rising interest rates. Specifically, we harness 95 million Fannie Mae
+If all borrowers were to re-originate their loans at 2024Q2 interest rates, they would experience a $398
+or 31.2% increase in their average monthly principal and interest payment. If borrowers re-mortgage only
+their current balance, the average present value of the increased payments over the remaining life of the loan
+(21 years on average) is $49,050 when discounting using 2024Q2 mortgage rates.
+1
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+2
+
+FHFA Working Paper 24-03
+
+and Freddie Mac mortgages originated between 2000 and 2024 and 11 million loans from a
+nationally representative 5% sample of mortgages active between 1998 and 2024. This data
+allows us to explore heterogeneity across several dimensions, model the persistence of the
+current period of lock-in, and find evidence that most sales are lost permanently. Second,
+while extant studies have measured how lock-in stymies mobility, we focus on real estate
+markets. Joining the loan-level mortgage data to transaction records allows us to produce
+the first estimate of the effect of lock-in on the likelihood of sale and the aggregate number
+of lost sales. Third, by including a rental sector in our theoretical model, we demonstrate
+how lock-in can cause mortgage rate increases to be inflationary for home prices. We then
+empirically confirm this counter-intuitive effect on prices. Finally, we create free and publicly
+available datasets that can generate many of these results and contain several other series
+relevant to the study of the lock-in effect of rising mortgage rates.2
+The remainder of this paper is structured as follows. Section 2 overviews literature on
+lock-in effects for other financial assets and describes why mortgage rates offer particularly
+interesting generalizable results. A theoretical model is presented in Section 3 to introduce
+lock-in and how it may affect sales and prices. The predictions are then tested with various
+empirical specifications in Section 4. Final reflections are provided in Section 5.
+
+2
+
+Literature Review
+
+Rising mortgage rates subsequent to loan origination will lock borrowers into staying in their
+existing homes when it would otherwise make sense to sell or move. This results in a lack
+of “right-sizing” (i.e., empty-nesters remain in a home that is too large or a growing family
+continues to live in a home that is too small), restricts supply in the housing market, and
+directly and indirectly impacts home prices. The “lock-in effect” is not unique to residential
+real estate. In fact, it is ubiquitous in the financial markets, in general.
+In equities markets, investors are locked-in to holding certain stocks based on differential tax
+rates between capital gains and dividends as well as changes in the relative treatment of these
+taxes (Eilbott and Hersh, 1976; Holt and Shelton, 1962; Klein, 2001; Dai et al., 2008), the
+treatment of estate taxes upon death (Kiefer, 1990), short-sale restrictions around specific
+announcements (Senchack and Starks, 1993), and even when involuntary capital gains are
+triggered through such things as a leveraged buyout (Landsman and Shackelford, 1995).
+2
+
+3
+
+These datasets can be downloaded at https://www.fhfa.gov/research/papers/wp2403.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Following the dot-com stock market bubble, housing prices rose sharply in some locations,
+and homeowners regularly pulled equity out of their homes. This refinancing activity, coupled
+with lax lending standards, caused loan-to-value (LTV) ratios to be far above historical
+standards. When the GFC of 2008 occurred, home prices fell precipitously, leaving borrowers
+underwater or owing more on their mortgages than their homes were worth (LaCour-Little,
+Rosenblatt, and Yao, 2010). As a result, many homeowners who wanted to sell could not do
+so because they were liquidity-constrained.3 In this sense, they were locked into their homes
+because they were unable to raise the capital necessary to overcome the financial deficiency
+(Ferreira, Gyourko, and Tracy, 2011; Farber, 2012).4
+Rising mortgage rates subsequent to a mortgage origination can also cause borrowers to be
+locked into their homes. Quigley (1987, 2002) models that for fixed-rate mortgages (or any
+other bond, for that matter), rising interest rates increase the value of an existing mortgage
+to the borrower. Since the lender is committed to loaning money at this increasingly subsidized rate (what we call the rate delta), the higher interest rates move, the more valuable the
+ability to borrow at the below-market fixed rate.5 During periods of falling interest rates,
+the converse does not apply. Instead, when mortgage rates decline, borrowers can refinance
+into lower rates, thus resetting the price of their bonds to roughly par value. During several
+past economic periods, mortgage rates have increased to the level of achieving a nationwide
+lock-in effect.6 Most recently, during the COVID-19 pandemic, the U.S. Congress passed
+the Coronavirus Aid, Relief, and Economic Security (CARES) Act to avoid a global economic meltdown. The injection of trillions of dollars through various financial mechanisms
+mitigated another Great Depression but, coupled with supply disruptions, led to inflation
+3
+
+Conversely, Van Straelen (2024) showed that builders in financial distress were more likely to sell.
+Residential lock-ins come in all shapes and sizes. Some states utilize homestead exemption laws to
+insulate existing homeowners from rising property taxes by artificially capping property tax increases or
+restricting tax rate adjustments. Owner-occupants will be more likely to continue owning their homes
+because if they “right-size,” their newly calculated property taxes will be at current, presumably much
+higher, market price levels (Wasi and White, 2005; Ihlanfeldt, 2011).
+5
+Since most loans are fully amortizing and bond prices are par-reverting as maturity approaches, these
+bonds will eventually lose their excess value, but this typically occurs only over many years. There is also a
+chance mortgage rates may decline back to a level near the original contract interest rate, along which path
+the value of borrowing at a below-market interest rate will decline.
+6
+Lock-in depends on how outstanding mortgage rates compare to current market offerings while accounting for access to credit. Going back to the 1970s, we calculate a rolling comparison of current mortgage
+rates to historical values from a year prior. This exercise ignores cohorts with outstanding loans, but historical performance data are not readily available before the 2000s, and major lock-in episodes would be
+missed. Rate deltas with consecutive months over 200 basis points happened in 1979–1981, 1994–1995, and
+2022–2023, while there were less severe episodes with a delta over 150 basis points in 1984 and 2000.
+4
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+4
+
+FHFA Working Paper 24-03
+
+and a steep rise in interest rates, sparking renewed interest in the lock-in effect. Beyond
+incentivizing borrowers to continue to carry their current mortgages, this sharp rebound
+in mortgage rates has also greatly restrained labor mobility.7 Liebersohn and Rothstein
+(2023) find that labor mobility was restricted for roughly one in every seven families holding
+an existing mortgage. Since the pandemic, workers have been allowed to work remotely to
+varying degrees, making the lock-in effect potentially less of an issue, at least regarding labor
+mobility.
+The study most closely related to ours is Fonseca and Liu (2023). Their analysis examines
+how mortgage lock-in affects labor mobility, while ours focuses on the consequences for
+housing markets. Their study’s dependent variable is moving ZIP codes rather than selling.
+While these are related, owners can move ZIP codes without selling if the home is converted
+into (or already is) an investment property or second home. Similarly, owners can sell without
+moving ZIP codes if the move is local or the home was not their primary residence. We further
+develop their theoretical model to include renters, allowing us to establish new expectations
+about the effect of lock-in on home sales and prices. We confirm the model’s predictions
+using proprietary loan-level data joined with transaction records. The magnitude of our
+estimated effect on home sales is consistent with the Fonseca and Liu (2023) estimates for
+moving using their preferred 2SLS specification. However, their OLS results suggest much
+less sensitivity, while the results of our equivalent OLS specification are much closer and
+slightly larger than the headline results. Borrower-specific variations in interest rates due
+to borrower behaviors, such as buying mortgage points and search intensity, are removed
+in the more robust identifications. Our results suggest that these activities are negatively
+correlated with moving. Conversely, the estimates of Fonseca and Liu (2023) indicate that
+borrowers who shop for lower rates and buy points are likelier to move soon.
+Finally, our paper contributes to the inconclusive literature on the effects of interest rates
+and monetary policy on home prices. A framework where supply effects due to lock-in
+oppose the direct impact of changing interest rates can help reconcile studies like Case
+and Shiller (2003) (little effect from interest rates) with research by McQuinn and O’Reilly
+7
+
+Mobility can be limited in states with strong recourse laws as observed after the GFC when lenders pursued delinquent borrowers for other assets (Brown and Matsa, 2020). Besides affecting borrowers, bankruptcy
+laws can limit access to capital markets and create debtor lock-in (Hasan, Ramı́rez, and Zhang, 2019). In
+contrast, weaker legal restrictions can lead to decentralized lending patterns (Esty and Megginson, 2003).
+While such studies are interesting, institutional lock-in is tangential to this study because we take a marketoriented approach to understanding how lock-in can affect financial markets.
+
+5
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+(2008) (more sizeable effects). Furthermore, the result that lock-in can cause interest rate
+hikes to be inflationary for home prices8 illustrates a path-dependent constraint on monetary
+policy’s ability to fight inflation, much like Berger et al. (2021) asserted path dependency in
+the potency of monetary stimulus.
+
+3
+
+Modeling Lock-In Effects
+
+To formally describe lock-in’s effects on real estate markets, we extend the model of Fonseca
+and Liu (2023). Households begin by either renting or owning a home, then make choices
+based on their initial ownership status and market conditions. Renters compare the market
+price for renting with how much it costs to purchase a home. Meanwhile, owners use current mortgage rates and home prices to evaluate whether they should do nothing, refinance
+their existing mortgage, or purchase a new home with a new mortgage. The difference, or
+rate delta, between an owner’s existing mortgage rate and prevailing market rates leads to
+potential lock-in. In later sections, we use data to test the model’s implications.
+
+3.1
+
+Environment
+
+Households live for two periods indexed by t = 1, 2. In the first period, households are
+assigned to be either renters or homeowners. All households receive income Y each period,
+and all homeowners own a mortgage of size L. Renters pay R in rent each period, while
+homeowners pay the interest on their loans. The interest rate on mortgage debt in period t
+is denoted rt . We explore two types of home loans: adjustable-rate mortgages (ARMs) and
+fixed-rate mortgages (FRMs). With ARMs, the interest paid by each homeowner in each
+period is rt L. Alternatively, with FRMs, households with a mortgage in the first period
+have the right to keep their interest rate in the second period and pay r1 L in both periods.
+Under FRMs, homeowners must pay a fixed cost κr to originate a new mortgage and pay
+the existing market rate on their loan.9
+In the second period, renters can choose between continuing to rent or becoming homeowners.
+Buying a home requires paying a normally distributed fixed cost κr to originate a mortgage
+8
+
+This is consistent with Garriga, Kydland, and Šustek (2017). Amromin and Eberly (2023) study a
+different model environment and also find that lock-in can exert upward pressure on home prices by reducing
+the available supply of homes for sale.
+9
+Implicitly, for both ARMs and FRMs, there is no call option where mortgage servicers or investors
+could require repayment. Default and foreclosure are assumed away to focus on certain household financial
+decisions instead of banking cash flow resolutions. Adding foreclosure and default should not affect overall
+outcomes. Recent microeconomic data have extremely low default and foreclosure rates, and delinquent
+borrowers can sell because of positive price appreciation, which is consistent with this model.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+6
+
+FHFA Working Paper 24-03
+
+and an additional normally distributed cost κm to move. Meanwhile, homeowners with
+FRMs in the second period must choose between staying (same house, same mortgage),
+refinancing (same house, different mortgage), or selling (different house, different mortgage).
+Both refinancing and selling require paying the fixed cost to originate a new mortgage κr ,
+while selling also entails paying the cost of moving κm . Homeowners with ARMs may only
+choose between staying and selling.
+The rate delta, ∆r, is the difference between the market rate in the second period and the
+fixed rate from the first period.
+∆r ≡ r1 − r2
+
+(1)
+
+All households receive linear utility from consumption Ct in each period. Additionally,
+renters who buy a home and homeowners who sell each receive a normally distributed payoff
+ϕ, which stands in for the benefits of a household being able to buy a new house. Next, we
+consider the separate cases of ARMs and FRMs and then explore the model’s implications
+for home prices and the probability of sale.
+
+3.2
+
+Adjustable-Rate Mortgages (ARMs)
+
+ARMs are available for renters considering homeownership and existing owners contemplating switching to a different mortgage product. Both are considered below.
+3.2.1
+
+Renter Problem
+
+Renters choose D ∈ {rent, buy} to solve their problem,
+
+C + C
+, D = rent
+1
+2
+max Urent =
+D
+C + C + ϕ , D = buy
+1
+2
+subject to their budget constraint
+C1 + C2 = Y − 2R
+
+, D = rent
+
+C1 + C2 = Y − R − r2 P L − κr − κm , D = buy
+Since utility is linear, renters will choose to buy if and only if R − r2 P L + ϕ ≥ κr + κm . Here,
+P is the unit price of residential housing for new buyers in t = 2. This price is endogenous
+and adjusts so the measure of renters choosing to buy a home and the measure of owners
+7
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+choosing to sell are equal in equilibrium. The rental price is assumed to be a simple markup
+on the mortgage interest in the first period: R = (1 + θ)r1 L. Note that demand for housing
+by buyers is decreasing in both rates r2 and prices P . Therefore, to maintain the same level
+of buyers, real estate prices must move in the opposite direction as rates.
+3.2.2
+
+Homeowner Problem
+
+Homeowners with ARMs choose D ∈ {stay, sell} to solve their problem,
+
+max Uown =
+D
+
+
+C + C
+1
+
+2
+
+, D = stay
+
+C + C + ϕ , D = sell
+1
+2
+
+subject to their budget constraint
+C1 + C2 = Y − (r1 + r2 )L
+
+, D = stay
+
+C1 + C2 = Y − (r1 + r2 )L − κr − κm , D = sell
+Taking the difference in payoffs between the two choices, homeowners will choose to sell
+if and only if ϕ ≥ κr + κm . Therefore, the decision for a homeowner with an ARM to
+stay or sell is independent of rate changes. Unlike with renters, real estate prices faced by
+owners are assumed to be equal to one in both periods. This avoids homeowners entering the
+market to purchase their previous houses. In this framework, renters are potential first-time
+homebuyers and, hence, search for smaller homes. Meanwhile, homeowners who sell are
+interested in larger homes. Thus, renters and sellers look for homes in different markets.
+
+3.3
+
+Fixed-Rate Mortgages (FRMs)
+
+The renters’ problem is identical to the above description and is not repeated here for FRMs.
+However, the owners’ problem is different because they now keep the first-period rate if they
+stay and must refinance or move to acquire the second-period rate. Therefore, homeowners
+with FRMs choose D ∈ {stay, refi, sell} to solve
+
+max Uown =
+D
+
+
+C + C
+1
+
+2
+
+, D ∈ {stay, refi}
+
+C + C + ϕ , D = sell
+1
+2
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+8
+
+FHFA Working Paper 24-03
+
+subject to
+C1 + C2 = Y − 2r1 L
+
+, D = stay
+
+C1 + C2 = Y − (r1 + r2 )L − κr
+
+, D = refi
+
+C1 + C2 = Y − (r1 + r2 )L − κr − κm , D = sell
+A homeowner with an FRM will choose to sell if ∆rL + ϕ ≥ κr + κm and ϕ ≥ κm or they
+will refinance if not selling and ∆rL ≥ κr . Otherwise, the homeowner will stay.
+
+3.4
+
+Parameterization
+
+We choose parameters so that the theoretical model can be computed. This will allow us to
+explore the model’s predictions for how the rate delta will affect the probability of sale and
+home prices. These results are in Figure 1.
+The loan size L, the initial interest rate r1 , and fixed costs for moving or refinancing are all
+borrowed from Fonseca and Liu (2023).10 This leaves three free parameters: the mean of the
+benefit of moving ϕ̄, the markup for rental prices θ, and the population share of owners ψ.
+The mean of the moving benefit ϕ̄ is set to 3, 250. This is chosen so four percent of owners
+choose to sell when ∆r = 0. The standard deviation of the utility benefit is set to half of
+the mean so that there is considerable variation in the utility from moving, but it is positive
+for virtually all households. The share of households who are renters ψ is set to one-third,
+and the rental price markup θ is chosen so that P = 1 when ∆r = 0.
+
+3.5
+
+Probability of Sale under ARM and FRM
+
+The relation between rate deltas and probability of sale for both the ARM and FRM models
+is depicted in Figure 1 in panel (a). In the ARM model, rate deltas do not affect sales. With
+FRMs, the probability of sale increases in ∆r and plateaus between +1 and +2. For rate
+deltas above this point, the benefit from refinancing exceeds the fixed costs. Homeowners
+can reap the benefits of lower rates by refinancing, and further rate decreases provide no
+additional incentive to sell.
+10
+
+9
+
+Specifically, we set L = 150, 000, r1 = 0.04, κr ∼ N (2,500, 500), and κm ∼ N (10,000, 5,000).
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Figure 1: Theoretical Results Describing Mortgage Rates, Sales, and Prices
+
+(a) Probability of Sale vs. Rate Delta (∆r)
+
+(b) Home Price (P ) vs. Rate Delta (∆r)
+
+Notes: Panel (a) shows the theoretical relation between rate deltas and probability of sale for both the
+ARM and FRM models. In the ARM model, rate deltas do not affect sales. With FRMs, the probability
+of sale increases in ∆r and plateaus between +1 and +2. For rate deltas above this point, the benefit from
+refinancing exceeds the fixed costs, and further rate decreases provide no additional incentive to sell. Panel
+(b) depicts the theoretical relation between rate deltas and real estate prices for both the ARM and FRM
+models. With ARMs, prices are increasing in ∆r. In the FRM model, prices are decreasing in ∆r in the
+region ∆r< ≈1.5.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+10
+
+FHFA Working Paper 24-03
+
+3.6
+
+Residential Real Estate Prices
+
+The price for new homebuyers P is determined such that the measure of renters who decide
+to buy is equal to the measure of homeowners who choose to sell,11
+Z
+
+Z
+dFrent (D = buy) =
+
+dFown (D = sell),
+
+where Frent and Fown are the distributions of renters and homeowners, respectively. To avoid
+homeowners entering the market to purchase the houses they just sold, markets are assumed
+to be segmented where existing owners shop in a separate market from renters. Additionally,
+housing supply in the market for sellers must be perfectly elastic to allow real estate prices
+to equal one in both periods.12
+The relation for buyers between rate delta and real estate prices for both the ARM and
+FRM models is depicted in Figure 1 in panel (b). With ARMs, prices are increasing in
+∆r, conforming to the conventional logic that rate hikes, which cause negative rate deltas,
+lead to lower home prices. Alternatively, in the FRM model, prices are decreasing in ∆r
+in the region where the fixed costs of refinancing exceed its benefits for most homeowners
+(i.e., ∆r <≈ 1.5). This happens because the direct price effects of higher (lower) interest
+rates are dominated by the decrease (increase) in supply due to lock-in. Once the rate delta
+is sufficiently large that the probability of sale plateaus, the housing supply stays constant
+while demand continues to increase. This causes price to begin increasing in the rate delta.
+There is no obvious intuition for why lock-in should affect prices. Many sellers are simultaneously home buyers, so the reduction in supply coincides with a decrease in demand. The
+above model shows that price effects can result if the housing market is segmented so that
+existing homeowners shop for different homes than first-time homebuyers. Alternatively, the
+demand reduction need not match the decrease in supply if homeowners can become landlords by renting rather than selling their existing homes. Appendix B shows how lock-in can
+11
+
+The model assumes a national housing market where shifts in supply and demand are driven by interest
+rate movements, ignoring regional variation and shifts due to other factors such as the transition to remote
+work. Consequently, the model output should be interpreted as predictions relative to a counterfactual where
+interest rates remain constant. Price changes due to other factors are most likely to affect our results by
+altering homeowners’ leverage. However, the empirical results in Section 4.5 show that LTV ratios have little
+effect on sensitivity to rate deltas.
+12
+While prices for houses of different sizes are likely to adjust simultaneously, existing owners’ equity will
+move with prices, which will at least partially offset the effect of prices on sellers’ budgets for a new house.
+
+11
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+affect price even in a unified housing market if the landlord option is included in the model.
+
+4
+
+Empirically Measuring Lock-In Effects
+
+The theoretical model describes how the financial decisions of renters and homeowners can
+affect home sales and prices. The framework is a way to consider how groups respond to
+changing interest rates. It offers a chance to formally describe what may be happening in the
+real world. The following sections share empirical evidence consistent with the theoretical
+model by quantifying the extent of lock-in, the impact on the likelihood of selling a home,
+and how it influences real estate prices.
+
+4.1
+
+Data
+
+Several sources bring together mortgage and real estate transaction information that can help
+us understand homeowner behavior under different interest rate scenarios.13 The following
+two subsections describe the underlying databases and how they are matched, filtered, and
+adjusted for subsequent statistical analysis. The data used to generate many of the results
+in this section and several other helpful series for studying lock-in are available for free
+download at https://www.fhfa.gov/research/papers/wp2403.14
+4.1.1
+
+Data Sources
+
+Mortgage data are collected from two sources. Market-wide mortgage activity in the U.S.
+comes from the National Mortgage Database (NMDB® ), a nationally representative five percent sample of closed-end first-lien residential mortgages.15,16 The NMDB database contains
+records for 14,496,726 loans from the population of 2.9 billion loans that were active at any
+point between January 1998 and June 2024. Of these loans, 88.6% are fixed-rate mortgages.
+This representative sample is used to measure exposure to mortgage lock-in and the aggregate effects. Figure 10 in Appendix A tallies the number of active fixed-rate mortgages by
+13
+The empirical analysis focuses entirely on homeowner behavior because of the richness and national
+coverage of proprietary mortgage data. Standardized rental data is not available at a similarly representative
+scale (i.e., nearly complete coverage across the country). Hence, the empirical focus is only on homeowners.
+Future work might usefully extend this paper by studying renters.
+14
+Three files are available to download on that webpage. The wp2403-lock-in-data.xlsx file contains estimates of lock-in exposure, sensitivity, and the effect on sales over time for different geographies and demographic groups. The wp2403-figures.xlsx file presents the data from several figures in the working paper in
+tabular form. A frequently asked questions document covers topics related to both data files.
+15
+All results and statistics in this paper refer to loans in the 50 U.S. states plus the District of Columbia.
+16
+The NMDB is maintained jointly by the Federal Housing Finance Agency (FHFA) and the Consumer
+Financial Protection Bureau. More information can be found at https://www.fhfa.gov/programs/nationalmortgage-database-program.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+12
+
+FHFA Working Paper 24-03
+
+loan type, the fixed-rate share of all mortgages, and the GSE share of fixed-rate mortgages
+from 1998 to 2024.
+A challenge with the NMDB data is that prepayments due to sales cannot be distinguished
+from other prepayments. As a workaround, we use proprietary Government Sponsored Enterprise (GSE) data to estimate the effects of lock-in on the probability of sale.17 This
+dataset contains over 2 billion quarterly records for 129,156,933 loans originated since 2000
+and acquired by the GSEs. Of these loans, 94.1% are fixed-rate mortgages. We join these
+records to county assessor and recorder data provided by CoreLogic to determine which
+loans end due to sales. The CoreLogic dataset contains records for 156,173,775 properties
+and 181,250,442 arms-length transactions since 2000. Finally, we analyze the effects of interest rates and lock-in on home prices as measured by the quarterly all-transactions FHFA
+House Price Index® (FHFA HPI® ) at the metropolitan statistical area (MSA) level.18
+4.1.2
+
+Data Processing and Definitions
+
+We join GSE loan data to CoreLogic property data using masked standardized addresses to
+identify loans that closed due to sales. We consider a loan matched if its standardized address
+reflects a unique property, that property has 20 or fewer loans assigned to it, and no two
+loans overlap for the property (with a two-month tolerance to account for recording delays).
+Of the fixed-rate mortgages in the filtered GSE data, 90.7% are successfully matched. Table
+7 in Appendix A lays out summary statistics for matched and unmatched loans. Condos pose
+a unique challenge for address matching; consequently, the match rate for condos is 65.5%.
+Still, the percentage of condo loans in the matched sample (5.8%) is only 2.3 percentage
+points lower than in the full data (8.1%). The other big difference between matched and
+unmatched loans is age. On average, unmatched loans were originated about two years
+earlier than matched loans. The match rate for loans originated between 2000 and 2011 is
+17
+
+In this paper, “GSE” refers only to Fannie Mae and Freddie Mac. The FHFA also regulates the Federal
+Home Loan Banks, which are GSEs, and there are other examples of financial lending GSEs like Farmer
+Mac and Sallie Mae. However, we adopt the term as it is used commonly in the academic literature, popular
+press, and the NMDB.
+18
+FHFA HPI data offer various options for public investigation that include these indices as well
+as those for other geographic areas and temporal frequencies. The suite of data is available at
+https://www.fhfa.gov/data/HPI.
+
+13
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+89.0% compared to 92.4% for loans originated since 2012.19
+Of the GSE loans able to be connected to a property, 81.8% match one that has had an
+arms-length transaction since 2000. On average, those properties transacted 2.21 times. A
+loan is considered to have terminated with a sale if its close date aligns with the date (within
+a two-month tolerance) of an arms-length transaction of the property.20 The CoreLogic
+data contains both cash and financed transaction records, so we identify loans prepaid due
+to either type of sale. Using this definition, 17.7% of all loans and 24.2% of closed loans
+end with a sale. Figure 2 demonstrates the sale rate closely tracks National Association
+of REALTORS® (NAR) Existing Home Sales (EHS) data, but with larger swings. This
+higher variance implies that arms-length sales by leveraged homeowners are more sensitive
+to economic conditions than other types of transactions.21
+All models using the NMDB or GSE loan data are estimated with filtered data. Loans
+are removed if they are missing covariates, have prepayment penalties, participated in the
+Home Affordable Refinance Program (HARP), pertain to more than one housing unit, the
+collateral is a manufactured house, or were underwritten for purposes other than a purchase
+or refinance. We exclude loans with outlier values for any key variable.22 Overall, 88.2% of
+fixed-rate loans in the GSE data and 89.0% of the NMDB fixed-rate loans meet all the filter
+criteria. While models are calibrated using the filtered dataset, rate deltas are calculated for
+all fixed-rate mortgages in NMDB to display distributions and aggregate statistics.
+A loan’s scheduled loan-to-value ratio (LTV) is defined as the scheduled unpaid principal
+balance (UPB), given the original payment schedule, divided by the original appraisal value.23
+19
+
+Practitioners will not be surprised to read about older unmatched loans. Address standardization is
+performed with software that processes millions of locations every hour. Private vendor techniques, software,
+and data quality keep improving. Although we might wish otherwise, vendors lack a strong business case
+to fix problematic addresses from decades ago. Furthermore, modern addresses are likely easier to match
+because better input reporting and quality checks are in place today.
+20
+All results are robust to using a one-month tolerance instead.
+21
+Unencumbered homeownership is difficult to track. Homeowners drop out of performance datasets after
+prepaying, and mortgage recordings in digitized databases do not easily reflect when a lien expires. Census
+surveys or credit reports are tools for future researchers to explore whether lock-in influences the financial
+decisions of owners without mortgages.
+22
+We remove all loans with: interest rate <1% or >20%, term <120 or >429 months, DTI <1 or >100,
+origination LTV<10 or >110, appraised values (adjusted to 2022 prices) <$10,000 or >$10,000,000, loan
+amounts (in 2022 dollars) < $10,000, or monthly incomes (in 2022 dollars) < $1,000 or > $1,000,000.
+23
+Results are robust to using the origination LTV or mark-to-market LTV instead.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+14
+
+FHFA Working Paper 24-03
+Figure 2: Sale Rate vs. Existing Home Sales
+
+Notes: The figure displays the seasonally adjusted quarterly sale probability for loans in the proprietary
+Government Sponsored Enterprise (GSE) dataset with transactions matched from county recorder data
+provided by CoreLogic. For comparison, the figure includes existing home sales estimated by the National
+Association of REALTORS® (NAR). Existing home sales are expressed as a seasonally adjusted annual rate
+with values on the right axis. Source: GSE, CoreLogic, and NAR data.
+
+Borrower age is the first borrower’s age at origination plus the loan’s age in years. The
+LTV and borrower age are calculated separately for each quarter in which the loan is open.
+Race is the primary race of the first borrower. Home value is the original appraisal value
+adjusted to 2022 prices using the national all-transactions FHFA HPI. The loan amount is
+the original UPB adjusted to 2022 dollars using the Consumer Price Index for All Urban
+Consumers (CPI).24 Borrower incomes are also adjusted to 2022 dollars using the CPI. In the
+NMDB data, GSE loans are all loans acquired by the GSEs and conventional loans are nongovernment-insured loans not sold to a GSE.25 Government-insured loans are guaranteed by
+the Federal Housing Administration (FHA), the Department of Veterans Affairs (VA), and
+the Department of Agriculture (USDA) through its Rural Housing Service (RHS) and Farm
+Service Agency (FSA) programs.
+24
+
+To calculate LTV, neither UPB nor appraisal value is adjusted for inflation.
+Of the non-GSE conventional loans in the NMDB data, about 12% exceed the conforming loan limit
+values (i.e. jumbo loans), and an additional 27% do not qualify for GSE purchase because they have DTI>50,
+LTV>97, or credit score<620.
+25
+
+15
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Table 1 summarizes the filtered datasets. The first column lists statistics for the GSE dataset,
+and the second column presents the NMDB numbers. Many of the differences are due to
+coverage. The GSE data contain loans originated between 2000 and 2024, while the NMDB
+data has all loans active at any time between 1998 and 2024. To aid with comparison, the
+third column has statistics for NMDB loans originated between 2000 and 2024.
+
+4.2
+
+Quantifying Lock-In Exposure
+
+We quantify a borrower’s degree of lock-in exposure with their rate delta, ∆r, which we
+define as the difference between an existing mortgage’s fixed rate and the rate the borrower
+could obtain on the same mortgage in some future period.
+f
+∆ri,t = ri,o
+− ri,t
+
+(2)
+
+f
+is the fixed rate on loan i originated at
+Here ∆ri,t is the rate delta for loan i at time t, ri,o
+time o, and ri,t is the rate the borrower could obtain at time t. Calculating ∆ri,t requires
+knowing ri,t , the unobservable interest rate on the same loan had it been made at time t.
+f
+To estimate ri,t , we first predict ri,o
+using quarter of origination fixed effects and a vector of
+borrower and loan characteristics Xi .26
+f
+ri,o
+= γo + βXi + εi
+
+(3)
+
+The estimated γ and β parameters are used to estimate ri,t and ∆ri,t .
+r̂i,t = γ̂t + β̂Xi
+
+(4)
+
+f
+∆ri,t = ri,o
+− r̂i,t
+
+(5)
+
+All results are robust to two alternative methods of estimating ri,t that are discussed further
+in Appendix C. One method allows the pricing of loan and borrower characteristics to vary
+over time. The other method uses the average origination interest rate in period t.
+Figure 3 shows the distribution of rate deltas for all active fixed-rate mortgages. Panel (a)
+26
+
+The full vector of borrower and loan characteristics is the occupancy type, mortgage purpose, property
+type, loan term, borrower credit score, debt-to-income ratio, loan-to-value ratio, log property value (adjusted
+to 2022 prices using the national all-transactions FHFA HPI), log loan amount (adjusted for inflation), log
+borrower income (adjusted for inflation), and borrower race. For the baseline specification, these characteristics and their shadow prices are assumed to be time-invariant, but this assumption is relaxed in Appendix
+C.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+16
+
+FHFA Working Paper 24-03
+
+Table 1: Summary Statistics
+GSE Data
+Number of Loans
+Origination Date
+
+NMDB
+
+95,408,712 11,432,089
+2011Q4
+2008Q1
+
+NMDB
+Orig≥2000
+9,040,604
+2011Q2
+
+Borrower Attributes
+Borrower Age (at origination)
+Borrower Credit Score
+DTI
+Home Value (2022 Prices)
+Annual Income (2022$)
+
+46
+741
+34
+$542,400
+$135,450
+
+44
+715
+34
+$489,750
+$126,150
+
+45
+719
+35
+$507,400
+$128,950
+
+Loan Characteristics
+Loan Amount (2022$)
+Origination LTV
+Loan Term (months)
+Interest Rate
+Purchase-Only Mortgage
+Owner Occupied
+Active
+
+$274,550
+71
+313
+4.84
+37.7%
+91.4%
+26.9%
+
+$253,750
+74
+312
+5.70
+47.4%
+94.0%
+19.8%
+
+$272,550
+74
+316
+5.08
+43.0%
+93.4%
+24.9%
+
+Loan Type
+GSE
+Conventional
+FHA
+VA
+USDA
+
+100%
+—
+—
+—
+—
+
+57.0%
+23.1%
+13.0%
+5.9%
+0.9%
+
+60.2%
+19.6%
+13.0%
+6.1%
+1.1%
+
+Race and Ethnicity
+White
+Black
+Asian
+Hispanic (of any race)
+American Indian/Alaska Native
+Native Hawaiian/Pacific Islander
+
+62.0%
+3.0%
+5.6%
+6.0%
+0.4%
+0.2%
+
+79.0%
+6.3%
+5.1%
+8.7%
+0.3%
+0.4%
+
+77.9%
+6.3%
+5.6%
+9.1%
+0.3%
+0.4%
+
+Notes: The table shows summary statistics for fixed-rate mortgages in the filtered GSE
+and NMDB datasets. Column 1 lists statistics for the GSE dataset, and Column 2
+presents those for the NMDB data. Many of the differences are explainable by mismatched sample coverage periods. The GSE dataset contains loans originated between
+2000 and 2024, while the NMDB data has all loans active between 1998 and 2024. Column 3 has statistics for NMDB loans originated between 2000 and 2024 to aid with
+comparison.
+
+17
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+displays the distribution from 1998 to 2024Q2. Warmer colors (i.e., red, orange, and yellow)
+indicate that a greater portion of the distribution is affected by potential lock-in. Rapidly
+rising mortgage rates in 2022 and 2023 have caused an unprecedented spike in the number
+of loans with very negative rate deltas. Almost 50% of active loans have a rate delta less
+than -3 as of 2024Q2. In previous periods with rising rates, including 2000, 2006–2007, and
+2018, no more than 40% of active loans had rate deltas less than -1.
+Panel (b) focuses on a single quarter, 2024Q2, to illustrate the rate delta distributions for
+different fixed-rate mortgage products. All types have very negative rate deltas. VA loans
+have the highest degree of lock-in with an average rate delta of -2.71. Non-GSE-insured
+conventional loans are the least locked-in, but their average rate delta of -2.20 is still well
+below 0. Differences in rate deltas arise mainly from loan vintages. GSE and VA loans are the
+most likely to have originated in the low-rate years of 2020 and 2021 and, consequently, are
+more locked-in. FHA and USDA loans have a wide range of origination dates and, therefore,
+more dispersion and lower average amounts of lock-in. Non-GSE conventional loans have an
+even wider distribution of origination dates and rate deltas. There is a non-trivial number
+of conventional loans with positive rate deltas, as 10% of these loans originated before the
+Great Recession when interest rates were higher. Conventional loans also have a higher
+concentration of recently originated loans with rate deltas near 0, some of which will later
+be sold to a GSE.
+
+4.3
+
+Estimating the Sensitivity of Sale Probability to Lock-In
+
+In almost all cases, borrowers must use sale proceeds to pay off an outstanding mortgage.
+For borrowers with negative rate deltas, this means giving up a below-market interest rate
+and possibly taking out a new mortgage at a higher rate. Therefore, it is reasonable for the
+probability of selling to decrease as rate deltas fall. However, once rate deltas are sufficiently
+positive, the benefits of refinancing exceed the fixed costs, and there is no additional incentive
+to sell as shown in Section 3. Therefore, the probability of selling may not be a linear or
+even a strictly increasing function of ∆r. Accordingly, we model the probability of sale using
+a linear probability model with a flexible function f (∆r).
+1(Salei,t ) = θt + βXi,t + f (∆ri,t ) + ui,t
+
+(6)
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+18
+
+FHFA Working Paper 24-03
+
+Figure 3: Rate Delta Distribution
+
+(a) Over Time
+
+(b) 2024Q2 by Loan Type
+
+Notes: The figure shows the rate delta distribution for all fixed-rate mortgages in the U.S. in two ways.
+Panel (a) displays the distribution over time. Panel (b) illustrates a single quarter’s distribution (2024Q2)
+by loan type. Rate deltas are defined as the difference between an existing mortgage’s fixed rate and the
+rate the borrower could obtain on the same mortgage in some future period. Source: Author calculations
+using NMDB data from 1998–2024.
+
+19
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+4.3.1
+
+Non-Parametric Estimation
+
+The baseline specification uses a non-parametric approach to estimate f (∆r) with dummies
+for each ∆r percentile. The model includes quarterly fixed effects θt that capture economic
+conditions, including the level of interest rates, which are correlated with rate deltas. The
+model has a vector of characteristics Xi,t for loan i at time t that consists of dummies for loan
+age interacted with the loan term and the loan purpose. The vector of characteristics also has
+the occupancy type, property type, borrower credit score, debt-to-income ratio, scheduled
+loan-to-value ratio (at time t), log property value (adjusted to 2022 prices using the national
+all-transactions FHFA HPI), log loan amount (adjusted for inflation), log borrower income
+(adjusted for inflation), borrower age (at time t), and borrower race.
+The model is run with GSE loan data joined to transaction data from CoreLogic. Figure
+4 illustrates the results in its top panel. Each point represents one percentile of the ∆r
+distribution where the x-coordinate is the mean ∆r, and the y-coordinate is the estimated
+coefficient expressed as a percentage of the average sale rate. As a robustness check, Figure 16
+in Appendix D presents the results of a proportional hazard model using a similar approach.
+Estimations of the baseline non-parametric model are drawn with solid blue circles. As the
+theoretical model predicts in Section 3.5, the likelihood of sale increases in ∆r up to around
+∆r ≈ 1–2. While the likelihood falls as ∆r increases further, this decline represents selection
+bias rather than a causal result. Borrowers with a ∆r > 2 are in an environment where
+refinancing would be profitable, but they are either inattentive or cannot refinance for credit
+or other reasons (as in Keys, Pope, and Pope, 2016; DeFusco and Mondragon, 2020). These
+borrowers are also less likely to sell.
+It is conceivable that the rate delta is also endogenous in the upward-sloping region. For
+example, a borrower who intends to stay in a home for a long time may buy points to
+decrease their interest rate or spend more time searching for the best rate. Conversely, a
+borrower with a short investment horizon may prioritize speed to close or take a lender credit
+that increases their interest rate. In these cases, εi , the error term in Equation (3), will be
+correlated with ui,t , the error term in Equation (6). To measure the causal effect of rate
+c as the dependent
+deltas on sales, we address this issue by using the predicted rate delta, ∆r,
+c as the difference in predicted rates at origination and time
+variable. Equation (7) defines ∆r
+t. This approach is similar to instrumenting for ∆r using the quarter of origination but
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+20
+
+FHFA Working Paper 24-03
+
+Figure 4: Testing Whether Lock-In Influences the Likelihood of Sale
+
+(a) Sale Probability by Rate Delta for Fixed-Rate Mortgages
+
+(b) A Placebo Test using Adjustable-Rate Mortgages
+
+Notes: The figure is split into panels with estimations run on fixed-rate mortgages (FRMs) and adjustablerate mortgages (ARMs). Panel (a) depicts non-parametric estimates of the relation between rate deltas and
+the likelihood of sale for FRMs. Results using observed rate deltas are drawn with solid blue circles, and
+results using predicted rate deltas are noted with red hollow squares. Each point represents one percentile of
+the ∆r distribution where the x-coordinate is the mean ∆r, and the y-coordinate is the estimated coefficient
+on an indicator variable for that percentile expressed as a percentage of the average sale rate. The population
+average likelihood is 0.971%/quarter during the sample period. Panel (b) exhibits the results of a placebo
+test using ARMs with expired introductory fixed-rate periods. These loans should not be subject to lock-in.
+The population average likelihood is 1.916%/quarter during the sample period. Source: Author calculations
+using GSE and CoreLogic data from 2000–2024.
+
+21
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+avoids the issue of non-linearity in f (∆r).
+c i,t = r̂i,o − r̂i,t
+∆r
+
+(7)
+
+A non-parametric model using predicted rate delta percentiles is juxtaposed with red hollow
+squares against the blue circles conveying the results using observed rate deltas in the top
+panel of Figure 4. The previously downward-sloping region becomes flat, and the transition
+from the upward-sloping region occurs more sharply at ∆r ≈ 1, which is consistent with the
+model predictions depicted in Figure 1. The flattening occurs because the borrowers with
+very positive ∆r and low sale probabilities have high interest rates due to unobserved credit
+characteristics or lower search intensity—not because of the timing of their origination. These
+constraints also explain their failure to refinance and correlate with low selling likelihood.
+As a placebo test, the bottom panel in Figure 4 presents results for adjustable-rate mortgages
+(ARMs). Most ARMs are hybrid with introductory fixed-rate periods. Consequently, the
+placebo test uses only loan records after the fixed-rate period has expired. These loans should
+not be subject to lock-in as their interest rate rises in line with market rates. As expected, the
+likelihood of sale is no longer upward-sloping in ∆r and may be slightly downward-sloping.
+The slight downward slope is not statistically significant for ∆r ≤ 1, but may indicate that
+some homeowners with ARMs are forced to sell when their interest payments increase.
+4.3.2
+
+Parametric Estimation
+
+This study is primarily interested in the effects of negative rate deltas. The non-parametric
+results convey that the probability of sale is increasing and approximately linear for ∆r ≤ 1.
+Therefore, we parameterize f (∆r) as a linear function for ∆r ≤ 1 and add a dummy variable
+for ∆r > 1. Econometrically, this alters Equation (6) to become
+1(Salei,t ) = θt + βX Xi,t + βr1 1(∆ri,t ≤ 1)∆ri,t + βr2 1(∆ri,t > 1) + ui,t
+
+(8)
+
+Empirical estimates of Equation (8) are in Table 2. Each additional percentage point of lockin (decrease in ∆r) reduces the quarterly likelihood of sale by 18.9 basis points or 19.4% using
+observed rate deltas (∆r), and 17.6 basis points or 18.1% in the preferred specification using
+c The slightly smaller estimated effect in the ∆r
+c specification is
+predicted rate deltas (∆r).
+intuitive because the prediction removes variation in ∆r from discount points, lender credits,
+and search intensity. The coefficient suggests a homeowner with a 4% mortgage rate is more
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+22
+
+FHFA Working Paper 24-03
+
+than 50% less likely to sell when mortgage rates are 7% than if their rate delta was zero.
+Almost all observations in the data with rate deltas less than -2 occur after 2022. Therefore,
+the estimated relation between rate deltas and sales could be driven mostly by low sales
+in recent quarters.27 However, Figure 12 in Appendix A clarifies that the non-parametric
+relation is virtually identical (but truncated) when estimated using only pre-2020 data.
+Applying the parametric model to the pre-2020 data yields a relative sensitivity of 19.4%
+(S.E.=1.8%) using observed rate deltas and 17.0% (S.E.=2.5%) using predicted rate deltas.
+
+4.4
+
+Aggregate Impact on Sales
+
+The model outputs allow us to translate the estimated sensitivity into an aggregate effect
+of lock-in on the sales of homes with GSE-insured mortgages. A counterfactual average sale
+probability is estimated for each quarter using a rate delta of 0, as written in Equation (9).
+∆R=0
+
+Salet
+
+= θt + β̂X X̄t
+
+(9)
+
+Additionally, to estimate the aggregate effects of other economic factors, including interest
+rates, a counterfactual average sale probability is constructed for each quarter, removing the
+quarterly fixed effect as done in Equation (10).
+θt =θ̄
+
+Salet
+
+= θ̄ + β̂X X̄t + β̂r1 1(∆rt ≤ 1)(∆rt |∆r ≤ 1) + β̂r2 1(∆rt > 1)
+
+(10)
+
+These counterfactual estimates are converted into aggregate effects for each factor f by
+comparing the counterfactual change in sale probability for the quarter to the overall average
+sale probability, as in Equation (11).
+f
+Salet − Salet
+f
+Effectt =
+
+Sale
+
+(11)
+
+Figure 5 presents the estimated lock-in and other modeled effects for 2000Q1–2024Q2 in its
+top panel.28 The economic effects (captured with quarterly fixed effects) follow an expected
+pattern with strong positive results during the 2004–2007 housing boom and the post-COVID
+boom of 2020–2022 but even stronger negative results from 2008 to 2012 due to the Great
+Recession and its aftermath. Interestingly, the model suggests that, if not for lock-in, current
+27
+
+We cluster standard errors at the quarter level to account for this uncertainty.
+The GSE dataset contains only loans originated since 2000, so observed sale rates are low from 2000 to
+2005 due to age effects.
+28
+
+23
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Table 2: Parametric Model Estimates
+∆r
+1(∆r ≤ 1)∆r
+1(∆r > 1)
+
+P.P.
+0.189***
+(0.012)
+0.247***
+(0.025)
+
+c
+∆r
+%
+19.4%***
+(1.3)
+25.4%***
+(2.6)
+
+P.P.
+0.176***
+(0.015)
+0.215***
+(0.029)
+
+%
+18.1%***
+(1.6)
+22.1%***
+(3.0)
+
+Borrower Attributes
+Borrower Age
+
+-0.071***
+(0.003)
+Borrower Age2
+0.00060***
+(0.00002)
+Scheduled LTV
+0.0091***
+(0.0008)
+Borrower Credit Score
+0.0108***
+(0.0008)
+Borrower Credit Score2 -0.0000075***
+(0.0000006)
+DTI
+0.0038***
+(0.0002)
+Log Income
+0.191***
+(0.008)
+
+-7.3%***
+(0.3)
+0.062%***
+(0.003)
+0.94%***
+(0.08)
+1.11%***
+(0.08)
+-0.00077%***
+(0.00006)
+0.39%***
+(0.02)
+19.6%***
+(0.8)
+
+-0.070***
+(0.003)
+0.00060***
+(0.00002)
+0.0091***
+(0.0009)
+0.0091***
+(0.0008)
+-0.0000063***
+(0.0000006)
+0.0039***
+(0.0002)
+0.191***
+(0.008)
+
+-7.3%***
+(0.3)
+0.061%***
+(0.003)
+0.94%***
+(0.09)
+0.93%***
+(0.08)
+-0.00064%***
+(0.00006)
+0.40%***
+(0.02)
+19.7%***
+(0.8)
+
+Loan Characteristics
+Log Original UPB
+Log Appraisal Value
+Second/Vacation
+Investment
+Condo
+PUD
+
+-0.302***
+(0.034)
+0.184***
+(0.038)
+0.096***
+(0.0011)
+0.320***
+(0.025)
+0.434***
+(0.024)
+0.321***
+(0.014)
+
+-31.1%***
+(3.5)
+18.9%***
+(3.9)
+9.9%***
+(1.1)
+33.0%***
+(2.5)
+44.7%***
+(2.5)
+33.1%***
+(1.5)
+
+-0.300***
+(0.037)
+0.178***
+(0.040)
+0.093***
+(0.0011)
+0.315***
+(0.025)
+0.434***
+(0.024)
+0.322***
+(0.014)
+
+-30.9%***
+(3.8)
+18.4%***
+(4.1)
+9.6%***
+(1.1)
+32.4%***
+(2.5)
+44.7%***
+(2.5)
+33.1%***
+(1.5)
+
+-0.462***
+(0.018)
+-0.314***
+(0.015)
+-0.349***
+(0.018)
+-0.040***
+(0.006)
+-0.254***
+(0.012)
+
+-47.6%***
+(1.9)
+-32.4%***
+(1.6)
+-36.0%***
+(1.9)
+-4.1%***
+(0.6)
+-26.2%***
+(1.2)
+
+-0.461***
+(0.018)
+-0.310***
+(0.015)
+-0.348***
+(0.018)
+-0.039***
+(0.006)
+-0.253***
+(0.012)
+
+-47.4%***
+(1.9)
+-32.0%***
+(1.6)
+-35.9%***
+(1.9)
+-4.0%***
+(0.6)
+-26.1%***
+(1.2)
+
+!
+!
+!
+
+!
+!
+!
+
+!
+!
+!
+
+!
+!
+!
+
+Race and Ethnicity
+Black
+Hispanic (of any race)
+Asian
+American Indian/
+Alaska Native
+Native Hawaiian/
+Pacific Islander
+Loan Age x Term FE
+Loan Age x Purpose FE
+Quarter FE
+
+Notes: The coefficients in the “P.P.” columns represent the percentage point effect on the quarterly likelihood
+of sale. The “%” columns convey this effect as a percentage of the average sale likelihood. The population
+average likelihood is 0.971%/quarter during the sample period. Additional controls for missing race and
+unknown age are included, but results are omitted. Robust standard errors, clustered at the quarter level, are
+in parentheses. *=p<0.1, **=p<0.05, ***=p<0.01. Source: Author calculations using GSE and CoreLogic
+data from 2000–2024.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+24
+
+FHFA Working Paper 24-03
+
+economic conditions would be conducive to home sales. Figure 11 in Appendix A depicts
+the actual and no-lock-in counterfactual sale rates over time.
+Meanwhile, the lock-in effect has had only a modest influence on sales until recently. Positive
+rate deltas increased sales by 10–15% during the Great Recession and decreased them by
+a similar amount during the rate-increasing cycles of 2006–2007 and 2018. However, the
+dramatic rate increase starting in 2022 has tremendously disrupted sales. The effect peaked
+in 2023Q4 when lock-in decreased sales of homes with GSE-insured fixed-rates mortgages by
+57%. For homes with any fixed-rate mortgage, we estimate the peak effect was 54%. In the
+most recent quarter, 2024Q2, lock-in decreased sales by 45%.
+The estimated sensitivity of sales to rate deltas can be applied to the historical rate deltas
+estimated with NMDB data to compute the cumulative number of sales lost. While the
+sensitivity is estimated using GSE loan data, we adjust for each loan in NMDB to account
+for differences across home values, income, race, borrower age, borrower credit score, LTV,
+and DTI. Heterogeneity across these dimensions is discussed further in Section 4.5 below.
+In the bottom panel, Figure 5 tracks the total number of sales lost due to lock-in by quarter
+and loan type since 2022Q2 (when average rate deltas turned negative).29 We estimate that
+1.72 million more sales would have occurred absent a mortgage lock-in, meaning 1.72 million
+households have not been able to optimize their housing choices. In 2023Q4 alone, sales
+would have been 261,000 higher. Of lost sales, 1,089,000, or 63%, are from GSE loans, while
+conventional, FHA, VA, and USDA loans account for 15%, 12%, 8%, and 2%, respectively.30
+The overall sale rate in the data is 0.971%/quarter or 3.88%/year. If some sales are missed,
+the absolute rate delta sensitivities will be biased towards zero. The relative sensitivities
+could also be biased if missed sales are not random. To check, we construct a sample
+29
+
+The two panels in Figure 5 reflect slightly different data sources. The top panel has estimates based on
+GSE and CoreLogic data for loans originated since 2000. The GSEs represent slightly less than two-thirds
+of the mortgage market, but a market-wide number is more useful. The bottom panel uses NMDB data for
+a broader statistic.
+30
+Government-insured loans are assumable. LaCour-Little, Lin, and Yu (2020) showed, theoretically, these
+loans should be less sensitive to lock-in. However, Park (2022) found that in 2018–2019, the assumption
+rate for FHA loans averaged around 0.06%/year or about 1.2% of the sale rate. In 2023, the FHA and
+VA processed about 6,400 assumptions combined. (Source: Eisen, Ben and Nicole Friedman. February 4,
+2024. “A 3% Mortgage Sounds Too Good to Be True. In Many Cases It Is.” The Wall Street Journal.)
+This extremely low take-up means the assumability of government-insured loans cannot meaningfully negate
+their sensitivity to lock-in.
+
+25
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Figure 5: Estimating Aggregate Effects of Lock-In
+
+(a) Modeled Effects Over Time
+
+(b) Sales Lost to Lock-In by Quarter
+
+Notes: The figure displays modeled effects and then uses them to calculate potential lost sales. Panel (a)
+tracks aggregate effects from lock-in (measured with rate deltas), other economic factors (captured with
+quarterly fixed effects), age/composition effects, and seasonal effects on the probability of sale over time.
+Panel (b) uses those findings to approximate the number of sales lost due to mortgage lock-in by quarter
+since 2022Q2 (when average rate deltas turned negative). Sale sensitivity to lock-in is modeled using
+GSE data and is estimated for all loan types while accounting for heterogeneity across home values, race,
+borrower age, credit score, LTV, and DTI simultaneously. Source: Author calculations using NMDB,
+GSE, and CoreLogic data.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+26
+
+FHFA Working Paper 24-03
+
+using only loans originating after the first recorded post-2000 property sale. After one
+transaction appears, the county data will likely capture future property sales. This sample
+has a 1.094%/quarter sale rate or 4.38%/year. The restricted sample’s sale rate is only
+13% higher than the overall sample. More importantly, both samples produce an identical
+effect of ∆r on relative sale probability, as depicted in Figure 12 in Appendix A. With the
+restricted sample, the estimated absolute change in sale probability for a one-point change
+in ∆r increases from 17.6 to 19.6 basis points (S.E.=1.7 bp). The change in relative sale
+probability is essentially unaltered at 17.9% (S.E.=1.5%). Cumulative sales lost since 2022Q2
+increases to 1.91 million using the sensitivity estimated with the restricted sample.
+
+4.5
+
+Heterogeneity Analysis
+
+The richness of the data allows us to explore two sources of heterogeneity across several
+dimensions. First, changes in rate deltas could have distinct effects on the likelihood of
+selling for different groups, which we refer to as “sensitivity” to ∆r. Second, groups could
+have different average rate deltas, which we call “exposure” to ∆r.
+Table 3 segments these calculations across borrower age, credit score, home value, LTV, DTI,
+loan type, and race. The first column reports each group’s average quarterly sale probability.
+This baseline probability is important as some groups, such as Black borrowers, have low
+sensitivity to rate deltas in terms of absolute probability only because they sell their homes at
+a lower rate overall. The second column has each group’s estimated βr1 coefficient or absolute
+∆r sensitivity. These estimates represent the absolute percentage point change in quarterly
+sale probability for a one-point increase in ∆r while ∆r ≤ 1. The third column translates
+this into a change in relative sensitivity by dividing by the group’s overall probability of
+sale. The estimates account for heterogeneity across the other variables and each group’s
+2024Q2 composition of loans. The fourth column lists the group’s 2024Q2 average rate
+delta. The fifth column displays the lock-in effect on sales for 2024Q2 by multiplying the
+relative sensitivity to ∆r by the average rate delta.31 Finally, the last three columns contain
+the group’s relative ∆r sensitivity, ∆r exposure, and lock-in effect as a percentage of the
+average for all fixed-rate mortgages.
+Table 4 presents the results of heterogeneity regressions using GSE data. The first four
+31
+
+To compute the aggregate lock-in effect, individual loans’ ∆r are top coded at +1 to account for the
+non-linear relation between rate deltas and probability of sale. Additionally, each loan’s lock-in effect is
+capped at -100%.
+
+27
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Table 3: Lock-In Across Groups
+Quarterly Sale
+Probability
+Overall
+
+0.958%
+
+∆r Coefficient 2024Q2
+P.P.
+%
+Avg. ∆r
+0.170
+
+17.7%
+
+-2.54
+
+2024Q2
+Lock-In Effect
+
+Relative
+Relative
+∆r Sensitivity ∆r Exposure
+
+-44.9%
+
+Relative
+Lock-In Effect
+
+—
+
+—
+
+—
+
+104.3%
+110.2%
+81.3%
+
+97.3%
+103.0%
+97.5%
+
+102.0%
+112.8%
+79.7%
+
+87.6%
+104.3%
+107.9%
+
+88.6%
+103.7%
+107.6%
+
+77.9%
+108.2%
+115.5%
+
+86.8%
+103.5%
+111.4%
+
+95.5%
+100.5%
+105.4%
+
+83.1%
+103.9%
+117.3%
+
+75.0%
+109.4%
+124.8%
+
+89.4%
+103.3%
+110.2%
+
+67.4%
+113.4%
+135.9%
+
+97.8%
+97.9%
+104.7%
+
+100.1%
+104.2%
+94.0%
+
+97.3%
+102.4%
+98.6%
+
+101.7%
+99.8%
+99.4%
+
+108.1%
+102.4%
+92.7%
+
+109.7%
+102.2%
+92.3%
+
+103.1%
+96.2%
+93.3%
+100.9%
+85.3%
+
+105.2%
+88.6%
+89.4%
+106.2%
+97.9%
+
+108.3%
+85.2%
+83.7%
+107.2%
+83.9%
+
+93.6%
+108.3%
+122.7%
+141.2%
+92.3%
+105.3%
+
+100.9%
+92.1%
+96.9%
+105.4%
+93.6%
+100.5%
+
+95.0%
+98.6%
+117.7%
+144.3%
+86.8%
+106.2%
+
+Borrower Age
+Age<40
+40≤Age<60
+Age≥60
+
+1.255%
+0.807%
+0.951%
+
+0.232
+0.157
+0.137
+
+18.4%
+19.5%
+14.4%
+
+-2.47
+-2.62
+-2.46
+
+Score<700
+700≤Score<780
+Score≥780
+
+0.947%
+1.013%
+0.891%
+
+0.147
+0.187
+0.170
+
+15.5%
+18.4%
+19.1%
+
+-2.23
+-2.64
+-2.74
+
+-45.8%
+-50.6%
+-35.8%
+
+Borrower Credit Score
+-35.0%
+-48.5%
+-51.8%
+Borrower Income
+Income<$75K
+$75K≤Income<$150K
+Income≥$150K
+
+0.929%
+0.955%
+1.007%
+
+0.143
+0.175
+0.198
+
+15.4%
+18.3%
+19.7%
+
+-2.41
+-2.55
+-2.68
+
+-37.3%
+-46.6%
+-52.6%
+Home Value
+
+Value<$300K
+$300K≤Value<$600K
+Value≥$600K
+
+0.991%
+0.994%
+0.847%
+
+0.132
+0.192
+0.187
+
+13.3%
+19.4%
+22.1%
+
+-2.25
+-2.63
+-2.81
+
+-30.3%
+-50.9%
+-61.0%
+Scheduled LTV
+
+LTV≤60
+60<LTV≤80
+LTV>80
+
+0.801%
+1.046%
+1.092%
+
+0.139
+0.181
+0.202
+
+17.3%
+17.3%
+18.5%
+
+-2.53
+-2.65
+-2.39
+
+-43.7%
+-45.9%
+-44.2%
+
+DTI≤25
+25<DTI≤40
+DTI>40
+
+0.910%
+0.960%
+0.982%
+
+0.164
+0.169
+0.173
+
+18.0%
+17.7%
+17.6%
+
+-2.75
+-2.60
+-2.35
+
+-49.2%
+-45.9%
+-41.4%
+
+GSE
+Conventional
+FHA
+VA
+USDA
+
+0.949%
+0.936%
+0.978%
+1.023%
+1.095%
+
+0.173
+0.159
+0.161
+0.182
+0.165
+
+18.2%
+17.0%
+16.5%
+17.8%
+15.1%
+
+-2.68
+-2.20
+-2.28
+-2.71
+-2.49
+
+-48.6%
+-38.2%
+-37.5%
+-48.1%
+-37.6%
+
+DTI
+
+Loan Type
+
+Race and Ethnicity
+White
+Black
+Hispanic
+Asian
+American Indian / Alaska Native
+Native Hawaiian / Pacific Islander
+
+1.049%
+0.624%
+0.780%
+0.741%
+1.031%
+0.852%
+
+0.174
+0.120
+0.169
+0.185
+0.168
+0.159
+
+16.6%
+19.2%
+21.7%
+25.0%
+16.3%
+18.6%
+
+-2.56
+-2.32
+-2.46
+-2.68
+-2.36
+-2.55
+
+-42.6%
+-44.2%
+-52.8%
+-64.7%
+-39.0%
+-47.6%
+
+Notes: Column 1 reports each group’s quarterly sale probability. Column 2 has each group’s estimated βr1 coefficient, representing the absolute percentage point
+change in quarterly sale probability for a one-point increase in ∆r while ∆r ≤ 1. Column 3 translates this as a percentage of the group’s mean sale probability.
+Column 4 lists the group’s 2024Q2 average rate delta. Column 5 displays the lock-in effect on sales for 2024Q2. The last three columns contain the group’s relative
+∆r sensitivity, ∆r exposure, and lock-in effect as a percentage of the overall average. Source: Author calculations using NMDB, GSE, and CoreLogic data.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+28
+
+FHFA Working Paper 24-03
+
+columns reflect the results from separate regressions measuring heterogeneity across one dimension at a time. The second set of columns measures heterogeneity across all dimensions
+simultaneously. The regressions are performed using both observed rate deltas (∆r) and
+c The results of the combined regression with predicted rate deltas
+predicted rate deltas (∆r).
+are used to produce loan-level sensitivity estimates for all NMDB loans. These estimates are
+used to calculate the averages in Table 3 and the publicly available data aggregates.32 The coefficients in the “P.P.” columns represent the difference in the absolute effect on the quarterly
+likelihood of sale between each group and the omitted group. The “%” columns transform
+this effect into a difference in relative effect using the group’s baseline sale probability and the
+baseline probability of the omitted group. Because groups can have dramatically differing
+baseline probabilities, the estimated difference in relative sensitivity can have a different statistical significance and even the opposite sign as the difference in absolute sensitivity. Most
+questions regarding heterogeneity concern relative probabilities, not the absolute number of
+sales lost, so we focus on the results in the “%” columns.
+The largest differences in current lock-in effects occur across home value, where homes valued
+above $600K (adjusted to 2022 prices) experience twice the lock-in effect as homes valued
+under $300K. This disparity occurs because higher-valued homes are both more sensitive
+to rate deltas and more exposed to negative rate deltas. This is visualized in panel (a) of
+Figures 6 and 7, respectively. A one-point decrease in ∆r leads to a 22.1% decrease in sale
+probability for homes valued above $600K compared to only a 13.3% decrease for homes
+valued under $300K. High-valued homes go from being the least likely to sell at negative
+rate deltas to the most likely to sell at rate deltas above ≈1.5, while low-value homes do
+the opposite. Table 4 shows that these differences are essentially unchanged by controlling
+for differences across other dimensions. While affluent borrowers are the most locked-in,
+the results also indicate that they are more financially equipped to time the sale of their
+home to take advantage of interest rate movements. In contrast, less affluent households
+face conditions that force them to sell at inopportune times. Similarly, loans on high-value
+homes currently face higher lock-in exposure (lower rate deltas) because these borrowers
+were more likely to refinance when rates were low. These differences seem more closely
+linked to absolute rather than relative home values. Repeating the analysis using MSA-level
+value terciles yields less dramatic differences between groups. Similar patterns emerge for
+borrowers with high versus low incomes and credit scores as illustrated in panels (b) and (f)
+32
+
+29
+
+The data can be downloaded at https://www.fhfa.gov/research/papers/wp2403.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Table 4: Results of Heterogeneity Regressions
+Separate Regressions
+∆r
+1(∆r ≤ 1)∆r×
+
+P.P.
+
+Combined Regression
+c
+∆r
+
+%
+
+P.P.
+
+∆r
+%
+
+c
+∆r
+
+P.P.
+
+%
+
+P.P.
+
+%
+
+0.059***
+(0.014)
+-0.007**
+(0.003)
+
+-2.3%*
+(1.2)
+-3.5%***
+(0.4)
+
+-0.021***
+(0.004)
+-0.004
+(0.003)
+
+-1.4%***
+(0.4)
+1.9%***
+(0.4)
+
+-0.009**
+(0.004)
+0.016***
+(0.005)
+
+-0.6%
+(0.4)
+0.6%
+(0.5)
+
+-0.047***
+(0.006)
+-0.003
+(0.007)
+
+-4.7%***
+(0.6)
+2.9%***
+(0.8)
+
+-0.028***
+(0.007)
+0.016***
+(0.006)
+
+2.5%**
+(1.0)
+0.3%
+(0.5)
+
+-0.002
+(0.003)
+0.004
+(0.003)
+
+0.9%***
+(0.3)
+0.0%
+(0.3)
+
+-0.037***
+(0.012)
+-0.008
+(0.011)
+-0.008
+(0.011)
+0.002
+(0.004)
+-0.021***
+(0.008)
+
+4.9%**
+(2.2)
+4.9%***
+(1.6)
+5.4%***
+(1.6)
+0.6
+(0.4)
+1.8%
+(1.1)
+
+Borrower Age (Base: 40≤Age<60)
+Age<40
+Age≥60
+
+0.059***
+(0.015)
+-0.017***
+(0.002)
+
+-2.7%**
+(1.3)
+-4.7%***
+(0.3)
+
+0.063***
+(0.016)
+-0.018***
+(0.002)
+
+-2.0%
+(1.4)
+-4.7%***
+(0.3)
+
+0.056***
+(0.013)
+-0.004
+(0.003)
+
+-2.9%***
+(1.1)
+-3.4%***
+(0.4)
+
+Borrower Credit Score (Base: 700≤Score<780)
+Score<700
+
+-0.026***
+(0.005)
+-0.012**
+(0.005)
+
+-1.9%***
+(0.5)
+1.2%**
+(0.6)
+
+-0.028***
+(0.004)
+-0.013**
+(0.005)
+
+Income<$75K -0.028***
+(0.003)
+Income≥$150K 0.017***
+(0.004)
+
+-2.6%***
+(0.3)
+0.7%*
+(0.4)
+
+-0.026***
+(0.003)
+0.016***
+(0.004)
+
+Value<$300K
+
+-5.5%***
+(0.6)
+3.2%***
+(0.9)
+
+-0.050***
+(0.006)
+-0.005
+(0.008)
+
+Score≥780
+
+-2.1%***
+(0.5)
+1.0%
+(0.6)
+
+-0.018***
+(0.004)
+-0.005*
+(0.003)
+
+-1.0%**
+(0.4)
+2.0%***
+(0.4)
+
+Borrower Income (Base: $75K≤Income<$150K)
+-2.4%***
+(0.3)
+0.6%*
+(0.4)
+
+-0.010***
+(0.003)
+0.017***
+(0.005)
+
+-0.7%**
+(0.3)
+0.7%
+(0.5)
+
+Home Value (Base: $300K≤Value<$600K)
+-0.054***
+(0.006)
+Value≥$600K
+-0.003
+(0.008)
+
+-5.0%***
+(0.6)
+2.7%***
+(0.9)
+
+-0.052***
+(0.006)
+0.000
+(0.007)
+
+-5.2%***
+(0.6)
+3.5%***
+(0.8)
+
+Scheduled LTV (Base: 60<LTV≤80)
+LTV≤60
+LTV>80
+
+-0.041***
+(0.009)
+0.014*
+(0.008)
+
+1.4%
+(1.2)
+0.1%
+(0.7)
+
+-0.037***
+(0.010)
+0.025***
+(0.008)
+
+1.4%
+(1.3)
+1.1%
+(0.7)
+
+-0.032***
+(0.006)
+0.008
+(0.005)
+
+2.4%***
+(0.9)
+-0.5%
+(0.5)
+
+DTI (Base: 25<DTI≤40)
+DTI≤25
+DTI>40
+
+-0.004
+(0.003)
+0.000
+(0.002)
+
+0.8%**
+(0.3)
+-0.3%
+(0.3)
+
+-0.004
+(0.003)
+0.001
+(0.003)
+
+0.7%**
+(0.3)
+-0.3%
+(0.3)
+
+-0.002
+(0.003)
+0.003
+(0.003)
+
+1.1%***
+(0.3)
+-0.1%
+(0.3)
+
+Race and Ethnicity (Base: White)
+Black -0.047***
+(0.011)
+Hispanic
+-0.006
+(0.010)
+Asian
+0.007
+(0.011)
+American Indian/
+-0.002
+Alaska Native
+(0.004)
+Native Hawaiian/ -0.025***
+Pacific Islander
+(0.008)
+
+4.4%**
+(1.9)
+5.7%***
+(1.4)
+8.2%***
+(1.5)
+0.3%
+(0.4)
+1.6%
+(1.0)
+
+-0.042***
+(0.012)
+-0.004
+(0.011)
+0.006
+(0.011)
+0.000
+(0.004)
+-0.017*
+(0.009)
+
+4.1%*
+(2.2)
+5.4%***
+(1.6)
+7.4%***
+(1.7)
+0.3%
+(0.4)
+2.2%*
+(1.2)
+
+-0.042***
+(0.011)
+-0.010
+(0.010)
+-0.008
+(0.010)
+0.000
+(0.004)
+-0.030***
+(0.007)
+
+5.2%***
+(2.0)
+5.2%***
+(1.5)
+6.1%***
+(1.5)
+0.5%
+(0.4)
+1.1%
+(1.0)
+
+Notes: The coefficients in the “P.P.” columns represent the difference in the absolute effect on the quarterly likelihood of sale between each group
+and the omitted group. The “%” columns transform this effect into a difference in relative effect using the group’s baseline sale probability and
+the baseline probability of the omitted group. Because groups can have dramatically different baseline probabilities, the absolute and relative
+sensitivities can have different statistical significance levels and even opposite signs. Coefficients in the first four columns come from separate
+regressions, with each regression interacting the groupings for one variable with rate deltas. Coefficients in the last four columns are from
+a regression with all variable groupings interacted with rate deltas. Regressions include all the control variables from Table 2, and variables
+interacted with ∆r are also interacted with loan age. *=p<0.1, **=p<0.05, ***=p<0.01. Source: Author calculations using GSE and CoreLogic
+data 2000–2024.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+30
+
+FHFA Working Paper 24-03
+
+of Figures 6 and 7. However, the differences are less stark and, in the case of income, lose
+statistical significance when controlling for other dimensions of heterogeneity.
+Looking at average relative sensitivities across race and ethnicity in Table 3, Black (19.2%),
+Hispanic (21.7%), and Asian (25.0%) borrowers are all more sensitive to lock-in than White
+(16.6%) borrowers. This may seem surprising as Black and Hispanic borrowers are, on
+average, less affluent, which correlates with lower lock-in sensitivity. However, Bhutta and
+Hizmo (2021) find racial minority borrowers sort differently by mortgage rate schedules,
+which they suggest may be explainable by ability to pay or other preferences. Table 4
+shows that, controlling for heterogeneity across all dimensions, these non-white groups are
+more sensitive to lock-in by similar and statistically significant amounts. Each additional
+percentage point of lock-in decreases the probability of sale by 16.6% for White borrowers
+compared to 21.5%, 21.4%, and 22.0% for otherwise similar Black, Hispanic, and Asian
+borrowers, respectively.
+Surprisingly, LTV and DTI do not have large effects on relative sensitivity. A borrower with
+lower LTV and DTI ratios should care less about forfeiting a below-market-rate mortgage,
+as less of their asset is financed, and their payment represents less of their income. However,
+Table 4 demonstrates that, to the extent that there are any differences, low LTV and DTI
+borrowers are slightly more sensitive after controlling for other factors. This may be because
+these borrowers, much like those with high home values and credit scores, can better time
+their purchases due to a lack of credit and budget constraints. Low LTV and DTI borrowers’
+superior ability to sell strategically makes up for their lower incentives. Using origination
+LTV or mark-to-market LTV rather than scheduled LTV yields similar results.
+While not a focus of this analysis, Figure 6 reveals that, across all dimensions, groups exhibit
+different responses to positive rate deltas, especially when ∆r > 1. These findings mirror
+those of Andersen et al. (2020), who find refinancing behavior is driven by group differences
+in psychological costs.
+
+4.6
+
+Estimating the Impact of Lock-In on Home Prices
+
+Sections 4.3 and 4.4 establish that mortgage lock-in decreases the supply of existing homes
+available for purchase. However, since many home sellers are simultaneously buyers, it is
+unclear how much of a positive effect this should have on prices. A further complication
+is that mortgage lock-in occurs when interest rates rise, which also negatively affects prices
+31
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Figure 6: Rate Delta Sensitivity Heterogeneity
+(a) Home Value
+
+(b) Borrower Income
+
+(c) Race and Ethnicity
+
+(d) Borrower Age
+
+(e) Scheduled LTV
+
+(f) Borrower Credit Score
+
+Notes: The figures depict non-parametric estimates of the relation between rate deltas and the likelihood
+of sale for different groups of borrowers. Each point represents one percentile of the ∆r distribution for
+each group where the x-coordinate is the mean ∆r, and the y-coordinate is the estimated coefficient on an
+indicator variable for that percentile expressed as a percentage of the average sale rate across all groups.
+The population average likelihood is 0.971%/quarter during the sample period. Home value is the value at
+origination, adjusted to 2022 prices using the national all-transactions FHFA HPI. Scheduled LTV is the
+scheduled UPB amount divided by the original appraised value. Race is the primary race of the first borrower.
+Borrower age is the age of the first borrower and is updated each period. Source: Author calculations using
+GSE and CoreLogic data 2000–2024.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+32
+
+FHFA Working Paper 24-03
+
+Figure 7: 2024Q2 Rate Delta Distribution Heterogeneity
+
+(a) Home Value
+
+(b) Borrower Income
+
+(c) Race and Ethnicity
+
+(d) Borrower Age
+
+(e) Scheduled LTV
+
+(f) Borrower Credit Score
+
+Notes: The figures visualize 2024Q2 rate delta distributions by group for all fixed-rate mortgages. Appraised
+values are adjusted to 2022 prices using the national all-transactions FHFA HPI. Scheduled LTVs are the
+scheduled UPB amounts divided by the original appraised value. Race is the primary race of the first
+borrower. Borrower age is the age of the first borrower and is updated each period. Source: Author
+calculations using NMDB data.
+
+33
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+through decreased demand and increased cap rates. The theoretical model in Section 3.6
+suggests that, in a rising interest rate environment with fixed-rate mortgages, the positive
+price effect of decreased supply can counteract the negative direct (demand) effect of higher
+rates.33 This section estimates both effects empirically and tests this prediction.
+Home prices adjust slowly towards their fundamental value (Capozza, Hendershott, and
+Mack, 2004; Oikarinen et al., 2018), so the impacts from rising rates and mortgage lock-in
+are more likely to be visible in price appreciation rates than in price levels. To estimate these
+effects, we regress the seasonally-adjusted quarter-over-quarter percent change in the alltransactions FHFA HPI at the MSA level on the MSA average ∆r and MSA average interest
+rate for new mortgages using NMDB data. The ∆r for individual loans are top coded at +1
+to account for the non-linear relation between ∆r and probability of sale. We instrument
+for both ∆r and interest rates using the origination quarters of active mortgages and the
+national average interest rate on new mortgages. Instrumenting allows for endogeneity in
+∆r and endogenous variation in local interest rates. The results are in Table 5.
+Column (1) confirms that higher degrees of lock-in (lower ∆r) have a positive effect on
+price appreciation, as hypothesized. Column (2) indicates that higher interest rates have
+the expected negative impact on prices, but the effect is not significant. However, interest
+rates are negatively correlated with ∆r (ρ = −0.38), so it is difficult to measure their effects
+individually. Column (3) includes both variables simultaneously and both effects retain their
+expected sign and are significant at the p = 0.05 level.
+A one percentage point increase in mortgage lock-in (decrease in ∆r) is estimated to increase
+quarterly price appreciation by 35 basis points. A one percentage point increase in origination
+mortgage rates is estimated to decrease quarterly price appreciation by 23 basis points. While
+the lock-in effect from rising rates has a larger estimated impact on prices than the direct
+effect of the elevated rate, the difference between the two effects is not statistically significant.
+Additionally, it is important to note that an increase in mortgage rates will cause a slightly
+smaller decrease in ∆r due to new originations. This difference grows as time passes and
+33
+
+The demand effect does not explain why sales are low. To investigate, we compare relative sales rates
+for recent loans made within the last year and more seasoned loans. Recently purchased homes are selling
+at normal and higher rates over the past several years. The opposite had been true when prices reached
+trough levels following the GFC until midway through the pandemic. A historical time series graphic can
+be provided upon request.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+34
+
+FHFA Working Paper 24-03
+
+Table 5: Effects on Real Estate Price Appreciation
+
+∆r
+
+(1)
+-0.257**
+(0.130)
+
+Interest Rate
+∆r×Mortgage
+
+(2)
+
+(3)
+(4)
+-0.353** -0.338**
+(0.145)
+(0.143)
+-0.151 -0.229** -0.233**
+(0.098) (0.108)
+(0.109)
+-0.928
+(0.679)
+
+Interest Rate×Mortgage
+Number of MSAs
+Number of Quarters
+βInterest Rate − β∆r
+
+366
+105
+
+366
+105
+
+366
+105
+0.124
+(0.136)
+
+366
+105
+0.105
+(0.136)
+
+(5)
+-0.327**
+(0.138)
+-0.229**
+(0.108)
+-1.097
+(0.863)
+0.020
+(0.027)
+366
+105
+0.097
+(0.134)
+
+Notes: The coefficients represent the percentage point effect on quarter-over-quarter price appreciation. Robust standard errors, double-clustered at the quarter and MSA levels, are in parentheses.
+*=p<0.1, **=p<0.05, ***=p<0.01. Source: Author calculations using NMDB and FHFA HPI
+data 1998–2024.
+
+more mortgages are made at the new higher rate.
+Interest rates vary substantially across time but are pretty consistent across geographies.
+Quarter fixed-effects explain 96% of the variation in ∆r and 99% of the variation in interest
+rates, with the remainder occurring between MSAs.34 However, there is more substantial
+geographic variation in the fraction of homeowners who have mortgages. American Community Survey data shows that the percentage of owners with a mortgage varies from 39% to
+74% across the 366 MSAs in our data. The supply reduction due to lock-in should be more
+pronounced in areas with higher mortgaged ownership rates. Columns (4) and (5) interact
+the (normalized) percentage of owners who have a mortgage with the independent variables.
+While not statistically significant (p=0.17), Column (4) confirms that the negative coefficient
+for ∆r is stronger in areas where more existing homeowners have mortgages. Column (5)
+shows that the interaction has almost no effect on the direct impact of interest rates.
+Figure 8 depicts the cumulative effects on home prices due to increases in interest rates and
+lock-in. Through 2024Q2, we estimate the lock-in effect has increased prices by 7.0%, while
+the direct effect of higher interest rates has decreased prices by 5.6%. However, the sizeable
+34
+
+35
+
+We cluster the standard errors by quarter to account for this.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+95% confidence intervals of (+1.4%, +12.6%) and (-10.7%, -0.4%) reflect these estimates’
+considerable uncertainty. Consequently, the total effect of +1.4% has a 95% confidence
+interval (-4.2%, +7.0%) which includes zero. Nevertheless, there is strong evidence that
+lock-in increases prices while the direct effect of higher rates reduces prices. The sum of
+these opposing forces has an inconclusive sign, but there is some evidence for a positive net
+effect in the initial years of a high interest rate environment.
+Figure 8: Modeled Cumulative Effects on Home Prices
+
+Notes: The figure communicates the estimated cumulative effects on home prices due to increases in interest
+rates and lock-in since 2022Q1. The shaded region and error bars represent 95% confidence intervals.
+Through 2024Q2, the estimated cumulative effect from lock-in is +7.0% with a 95% confidence interval of
+(+1.4%, +12.6%), and the estimated cumulative effect from interest rates is -5.6% with a 95% confidence
+interval of (-10.7%, -0.4%). The estimated total effect is +1.4% with a 95% confidence interval of (-4.2%,
++7.0%). Source: Author calculations using NMDB and FHFA HPI data.
+
+4.7
+
+Modeling the Persistence of the Current Lock-In Episode
+
+As a thought exercise, we perform sensitivity tests to understand how the current episode of
+lock-in may evolve with interest rates and the passage of time. A potential criticism might be
+that declining rates, which are widely expected in industry forecasts, could wipe out lock-in
+and render the findings in this paper irrelevant. Figure 9 presents sensitivities to several
+scenarios. The blue line reflects the historical lock-in effect through 2024Q2. After that,
+the dashed green line offers a perspective of what may happen if mortgage rates stick to
+the 2024Q2 level, the long-dash maroon line represents a one-point increase, the short-dash
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+36
+
+FHFA Working Paper 24-03
+Figure 9: Simulated Future Lock-In Effect on Sales
+
+Notes: The figure illustrates the historical and simulated future effect of lock-in on sales in various interest
+rate environments. Source: Author calculations using NMDB, GSE, and CoreLogic data.
+
+orange line is a one-point decrease, and the dot-dash purple line pertains to a two-point
+decrease.35 Each scenario accounts for the estimated rate of sales and other prepayments (at
+the loan level based on the simulated interest rate), maturing loans, and a small number of
+other loan exits (<5% of exits, assumed to be insensitive to rate deltas).36 New originations
+are made at the simulated interest rate, keeping the total number of mortgages constant.
+A one-point increase in interest rates would intensify the current lock-in effect from -45%
+to -61%. A one-point or two-point rate decrease would lessen the effect to -28% or -13%,
+respectively. The decay of the effect over time is quite slow in all scenarios. This similar
+decay masks big differences in loan payoff rates. The 2024Q2 portfolio remains 65% of active
+loans after ten years in the one-point increase scenario compared to 34% in the two-point
+decrease scenario. In the rate decrease scenarios, payoffs are replaced by loans with interest
+rates that are much closer to the existing pool, so the rate of normalization ends up being
+slower in absolute terms despite being faster in relative terms. Among existing loans, the
+lock-in effect actually grows over time as the loans with the least exposure to lock-in are
+the most likely to prepay. Under constant interest rates, the average rate delta for currently
+35
+36
+
+37
+
+The average interest rate for new fixed-rate mortgages was 6.65% in 2024Q2.
+Appendix D discusses the sensitivity of other prepayments to rate deltas.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+existing loans decreases from -2.54 to -2.98 over ten years. In 2034, the lock-in effect on
+sales ranges from -45% with a one-point increase to -8% with a two-point decrease. Absent
+a dramatic decrease in rates, lock-in could be with us for a long time.
+
+4.8
+
+Are Sales Lost or Delayed?
+
+Given the substantial lock-in effect on sales, an important question is whether transactions
+are lost or delayed. Delay could happen for at least two reasons. First, the lock-in effect could
+decay over time. Second, lock-in could create pent-up supply that releases when rates drop
+or begins to erode the aggregate lock-in effect. Table 6 reports the results of two regressions
+designed to test these hypotheses.
+The decay hypothesis is tested by interacting past exposure to lock-in (measured as the
+number of quarters with ∆r < 0) with the current ∆r. If the effect decays over time, the
+coefficient on this interaction should be negative, counteracting the positive coefficient on
+c less than 0
+∆r. Partial evidence emerges. The interaction of cumulative quarters with ∆r
+is significant at the p = 0.01 level. However, the coefficient’s magnitude suggests that any
+decay is very slow. Based on the point estimate, it would take 136 quarters (34 years) of
+negative rate deltas to nullify the lock-in effect.
+The pent-up supply hypothesis is investigated by adding cumulative past exposure to lock-in
+(measured as cumulative ∆r below 0) to the regression. If lock-in creates pent-up supply, the
+coefficient should be negative as large amounts of past lock-in (highly negative cumulative
+∆r) would increase the probability of sale. The results do not return convincing evidence
+for this hypothesis. The coefficient on the measure of cumulative lock-in has the expected
+negative sign but is not significant. Furthermore, the point estimate suggests the effect of
+current lock-in is 216 times as strong as the effect of cumulative past lock-in.
+In both tests, we exclude the current quarter from the cumulative measures, as this directly
+affects the probability of sale in the current quarter. We also drop the preceding quarter
+because selling takes several months and may be influenced by the previous quarter’s rate
+environment.37 These tests help explore the permanence of sales lost to lock-in. However,
+we lack data from a prolonged period of severe lock-in, and estimates may improve as more
+data become available.
+37
+
+Estimates are robust to including the previous quarter and using lock-in thresholds other than ∆r = 0.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+38
+
+FHFA Working Paper 24-03
+
+Table 6: Delayed Sales Tests
+
+c t ≤ 1)∆r
+ct
+1(∆r
+
+Baseline
+
+Decay
+
+Pent-Up Supply
+
+0.176***
+(0.015)
+
+0.186***
+(0.016)
+
+0.179***
+(0.020)
+
+∞
+
+c t ≤ 1)∆r
+c t × P 1(∆r
+c t−i < 0)
+1(∆r
+
+-0.0014***
+(0.0004)
+
+i=2
+∞
+P
+c t−i |∆r
+c t−i < 0)
+(∆r
+i=2
+
+Borrower & Loan Characteristics
+Loan Age x Term FE
+Loan Age x Purpose FE
+Quarter FE
+
+!
+!
+!
+!
+
+!
+!
+!
+!
+
+-0.0008
+(0.0019)
+!
+!
+!
+!
+
+Notes: The coefficients represent the percentage point effect on the quarterly likelihood of
+sale. The population average likelihood is 0.971%/quarter during the sample period. Robust
+standard errors, clustered at the quarter level, are in parentheses. *=p<0.1, **=p<0.05,
+***=p<0.01. Source: Author calculations using GSE and CoreLogic data from 2000–2024.
+
+5
+
+Conclusions and Policy Implications
+
+We study the impact of mortgage lock-in on home sales and find that for every percentage
+point decrease in rate delta (increase in market rates relative to the fixed rate of an existing
+mortgage), the quarterly probability of sale decreases by 17.6 basis points or 18.1%. We
+estimate that lock-in decreased sales of homes with fixed-rate mortgages by a maxiumum of
+54% (in 2023Q4) and prevented 1.72 million arms-length sales between 2022Q2 and 2024Q2.
+This lock-in prevents certain households from optimizing their housing and location choices.
+More affluent borrowers can better time their home sales strategically, widening the wealth
+inequality gap. The existing evidence suggests that these sales are mostly lost rather than
+delayed, and even with moderate decreases in interest rates, these effects are likely to persist.
+We also examine the effects on prices and find that lock-in exerts upward pressure on home
+prices, counteracting the direct effects of higher rates and worsening affordability. A onepoint decrease in rate deltas increases quarterly price appreciation by an estimated 35 basis
+points, while a one-point increase in mortgage rates decreases quarterly appreciation by 23
+basis points. Cumulatively, from 2022Q2 to 2024Q2, we estimate the supply reduction due
+to lock-in boosted home prices by 7.0%, while the direct effect of elevated rates reduced
+them by 5.6%. There is more uncertainty in our estimates of the price effects of lock-in
+39
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+than the effects on sale likelihood. Nevertheless, both sets of point estimates are consistent
+with predictions of a two-period model where households can choose to rent or buy using a
+mortgage instrument.
+Future studies might explore how, if at all, to address the lock-in effect. We present ideas to
+stimulate discussion, but remain agnostic about policy solutions including recently proposed
+tax credits for sellers of starter homes.38 Mitigating market features that exist internationally
+or have been used in the past in the U.S. include (1) portability, where a homeowner could
+retain financing terms when moving to another home, or (2) assumability, where a seller could
+transfer mortgage terms to the buyer. Both possibilities may be worth policy consideration,
+even if changes only apply to future origination activity and do not resolve current lockin. Portability would presumably be more attractive to both the servicer and owner of the
+note because only the asset, not the borrower, would change. If so, this might result in
+a higher “take-up” because the original borrower passes on the full portability benefit to
+himself instead of splitting the benefit (of having a below-market interest rate) with another
+party.39 Extant studies using FHA and VA loans indicate that only 1/3 of the benefits from
+assuming a loan are capitalized into the home’s sale price (Sirmans, Smith, and Sirmans,
+1983). Assumability has not faced a receptive interest rate environment to justify its usage,
+given that mortgage rates have been declining since the early 1980s.40 A portable mortgage
+with a greater take-up rate (than an assumable loan) would increase the mortgage’s duration,
+38
+
+A provoking question is: What systemic problem would be addressed by removing lock-in? This paper
+has focused on household financial decisions but left room to explore whether lock-in affects mortgage risk
+pricing or the business cycle. Current credit risk models are based on mortgage portfolios with shorter
+durations than are expected in an environment with negative rate deltas. Lock-in could imply that fees and
+insurance coverage must be raised or extended longer. On the other hand, lock-in is most prevalent for loans
+with lower risk profiles and causes the proportion of seasoned loans to increase. These factors may keep
+expected losses from rising despite longer duration. Lock-in may also be a useful countercyclical tool as it
+decreases sales when rates rise and boosts sales when rates fall. The justification for removing lock-in is not
+as straightforward as it might seem.
+39
+Real estate markets have several instances of portability. For investments, the 1031 like-kind exchange
+applies sales proceeds for a subsequent property purchase to avoid capital gains taxes. For property taxes,
+Florida offers homesteaders the chance to transfer their capped property tax delta, either in a dollar or
+proportional amount, to another primary residence.
+40
+The assumability concept had been popular in the U.S. until due-on-sale clauses became enforceable
+with the Garn-St. Germain Depository Institutions Act (coincidentally before the longstanding decline in
+mortgage rates). The impetus for the legislation was a preemption by the Federal Home Loan Bank Board
+(FHLBB) to prevent such transfers, which means the contractual prohibition might be possible to relax
+depending on pending outcomes with Chevron deference.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+40
+
+FHFA Working Paper 24-03
+
+making the bond more interest rate sensitive.41 Furthermore, the increase in duration would
+be concentrated in loans with low interest rates and below-par market values. Currently,
+home sales trigger these loans to be repaid at par value. Removing lock-in with portable
+(or assumable) mortgages would instead force lenders and investors to continue collecting
+below-market interest on these loans. A higher interest rate would need to be charged at
+origination for the investors to take on this increased risk. While we identify potential
+benefits of removing lock-in, the effects on equilibrium interest rates and mortgage pricing
+could be topics for future research.
+Regardless of whether potential lock-in solutions are utilized or properly capitalized in the
+U.S., the options are being implemented successfully in some international settings.42 Furthermore, while this paper focuses on mortgages, the methodology is adaptable to other
+financial assets. When retaining an asset avoids a cost or realizes a benefit, there are clear
+and predictable ways to describe how transaction volume and pricing will respond. Previous
+academic studies usually focus on a theoretical model or empirical tests. We have done both
+while using real estate markets as a convenient, data-rich opportunity to shed light on a
+social conundrum arising from unusual circumstances. Additional research might improve
+understanding of mechanisms to alleviate supply challenges, market designs to avert future
+frictions, and transition pathways that could be pursued more immediately by policymakers.
+Conventional wisdom is that interest rates and prices move in opposite directions, however,
+this paper establishes an enigmatic reversal in the presence of financial lock-in.
+
+41
+
+The worsening of the maturity-mismatch problem is not a big issue so long as the mortgage can be sold
+into a secondary market, a problem that has long since been addressed.
+42
+In Canada, both portability and assumability are possible. Europe has flexible financing, too. Denmark
+allows borrowers to buy back the loan at market value and allows buyers to assume the mortgage. The
+United Kingdom and Amsterdam permit mortgage porting to avoid prepayment penalties. However, the
+note rates tend to be higher, last for shorter durations, and more often are variable rates.
+
+41
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+References
+Amromin, Gene and Janice C. Eberly. 2023. “Macro Shocks and Housing Markets.”
+Working Paper. Accessed on Sveriges Riksbank website.
+Andersen, Steffen, Cristian Badarinza, Lu Liu, Julie Marx, and Tarun Ramadorai. 2022. “Reference dependence in the housing market.” American Economic Review,
+112(10): 3398–3440.
+Andersen, Steffen, John Y. Campbell, Kasper Meisner Nielsen, and Tarun Ramadorai. 2020. “Sources of Inaction in Household Finance: Evidence from the Danish
+Mortgage Market.” American Economic Review, 110(10): 3184–3230.
+Badarinza, Cristian, Tarun Ramadorai, Juhana Siljander, and Jagdish Tripathy. 2024. “Behavioral Lock-In: Aggregate Implications of Reference Dependence in the
+Housing Market.” Bank of England Working Paper 1,054.
+Berger, David, Konstantin Milbradt, Fabrice Tourre, and Joseph Vavra. 2021.
+“Mortgage Prepayment and Path-Dependent Effects of Monetary Policy.” American Economic Review, 111(9): 2829–2878.
+Bernstein, Asaf. 2021. “Negative Home Equity and Household Labor Supply.” The Journal
+of Finance, 76(6): 2963–2995.
+Bernstein, Asaf and Daan Struyven. 2022. “Housing Lock: Dutch Evidence on the
+Impact of Negative Home Equity on Household Mobility.” American Economic Journal:
+Economic Policy, 14(3): 1–32.
+Bhutta, Neil and Aurel Hizmo. 2021. “Do Minorities Pay More for Mortgages?” Review
+of Financial Studies, 34(2): 763–789.
+Brown, Jennifer and David A. Matsa. 2020. “Locked in by Leverage: Job Search During
+the Housing Crisis.” Journal of Financial Economics, 136(3): 623–648.
+Capozza, Dennis R., Patric H. Hendershott, and Charlotte Mack. 2004. “An
+Anatomy of Price Dynamics in Illiquid Markets: Analysis and Evidence from Local Housing Markets.” Real Estate Economics, 32(1): 1–32.
+Case, Karl E. and Robert J. Shiller. 2003. “Is There a Bubble in the Housing Market?”
+Brookings Papers on Economic Activity, 34(2): 299–362.
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+42
+
+FHFA Working Paper 24-03
+
+Dai, Zhonglan, Edward Maydew, Douglas A. Shackelford, and Harold H. Zhang.
+2008. “Capital Gains Taxes and Asset Prices: Capitalization or Lock-In?” The Journal of
+Finance, 63(2): 709–742.
+DeFusco, Anthony A. and John Mondragon. 2020. “No Job, No Money, No Refi:
+Frictions to Refinancing in a Recession.” The Journal of Finance, 75(5): 2327–2376.
+Eilbott, Peter and Larry Hersh. 1976. “The Capital Gains Tax and the ‘Lock-In’ Effect.”
+Nebraska Journal of Economics and Business, 15(1): 23–33.
+Esty, Benjamin C. and William L. Megginson. 2003. “Creditor Rights, Enforcement,
+and Debt Ownership Structure: Evidence from the Global Syndicated Loan Market.” The
+Journal of Financial and Quantitative Analysis, 38(1): 37–59.
+Farber, Henry S. 2012. “Unemployment in the Great Recession: Did the Housing Market
+Crisis Prevent the Unemployed from Moving to Take Jobs?” American Economic Review:
+Papers & Proceedings, 102(3): 520–525.
+Ferreira, Fernando, Joseph Gyourko, and Joseph Tracy. 2010. “Housing Busts and
+Household Mobility.” Journal of Urban Economics, 68: 34–45.
+Ferreira, Fernando, Joseph Gyourko, and Joseph Tracy. 2011. “Housing Busts and
+Household Mobility: An Update.” National Bureau of Economic Research Working Paper
+Series 17405.
+Fonseca, Julia and Lu Liu. 2023. “Mortgage Lock-In, Mobility, and Labor Reallocation.”
+Working Paper. Revise and resubmit at The Journal of Finance.
+Foote, Andrew. 2016. “The Effects of Negative House Price Changes on Migration: Evidence across U.S. Housing Downturns.” Regional Science and Urban Economics, 60: 292–
+299.
+Garriga, Carlos, Finn E. Kydland, and Roman Šustek. 2017. “Mortgages and Monetary Policy.” Review of Financial Studies, 30(10): 3337–3375.
+Hasan, Iftekhar, Gabriel G. Ramı́rez, and Gaiyan Zhang. 2019. “Lock-In Effects in
+Relationship Lending: Evidence from DIP Loans.” Journal of Money, Credit and Banking,
+51(4): 1021–1043.
+
+43
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+Holt, Charles C. and John P. Shelton. 1962. “The Lock-In Effect of the Capital Gains
+Tax.” National Tax Journal, 15(4): 337–352.
+Ihlanfeldt, Keith R. 2011. “Do Caps on Increases in Assessed Values Create a Lock-In
+Effect? Evidence from Florida’s Amendment One.” National Tax Journal, 64(1): 7–25.
+Keys, Benjamin J., Devin G. Pope, and Jaren C. Pope. 2016. “Failure to Refinance.”
+Journal of Financial Economics, 122(3): 482–499.
+Kiefer, Donald W. 1990. “Lock-In Effect Within a Simple Model of Corporate Stock
+Trading.” National Tax Journal, 43(1): 75–94.
+Klein, Peter. 2001. “The Capital Gain Lock-In Effect and Long-Horizon Return Reversal.”
+Journal of Financial Economics, 59(1): 33–62.
+LaCour-Little, Michael, Eric Rosenblatt, and Vincent Yao. 2010. “Home Equity
+Extraction by Homeowners: 2000–2006.” The Journal of Real Estate Research, 32(1): 23–
+46.
+LaCour-Little, Michael, Zhenguo Lin, and Wei Yu. 2020. “Assumable Financing
+Redux: A New Challenge for Appraisal?” Journal of Real Estate Finance and Economics,
+60: 3–39.
+Landsman, Wayne R. and Douglas A. Shackelford. 1995. “The Lock-In Effect of
+Capital Gains Taxes: Evidence from the RJR Nabisco Leveraged Buyout.” National Tax
+Journal, 48(2): 245–259.
+Liebersohn, Jack and Jesse Rothstein. 2023. “Household Mobility and Mortgage Rate
+Lock.” Working Paper. Accessed on SSRN.
+McCartney, W. Ben, John Orellana-Li, and Calvin Zhang. 2024. “Political Polarization Affects Households’ Financial Decisions: Evidence from Home Sales.” The Journal
+of Finance, 79(2): 795–841.
+McQuinn, Kieran and Gerard O’Reilly. 2008. “Assessing the Role of Income and Interest Rates in Determining House Prices.” Economic Modelling, 25(3): 377–390.
+Oikarinen, Elias, Steven C. Bourassa, Martin Hoesli, and Janne Engblom. 2018.
+“U.S. Metropolitan House Price Dynamics.” Journal of Urban Economics, 105: 54–69.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+44
+
+FHFA Working Paper 24-03
+
+Park, Kevin A. 2022. “What Happens When You Assume.” Cityscape, 24(3): 317–338.
+Qiugley, John M. 1987. “Interest Rate Variations, Mortgage Prepayments and Household
+Mobility.” The Review of Economics and Statistics, 69(4): 636–643.
+Quigley, John M. 2002. “Homeowner Mobility and Mortgage Interest Rates: New Evidence
+from the 1990s.” Real Estate Economics, 30(3): 345–364.
+Senchack, A. J. and Laura T. Starks. 1993. “Short-Sale Restrictions and Market Reaction to Short-Interest Announcements.” The Journal of Financial and Quantitative Analysis, 28(2): 177–194.
+Sirmans, G. Stacy, Stanley D. Smith, and C. F. Sirmans. 1983. “Assumption Financing and Selling Price of Single-Family Homes.” The Journal of Financial and Quantitative
+Analysis, 18(3): 307–317.
+Tiebout, Charles M. 1956. “A Pure Theory of Local Expenditures.” Journal of Political
+Economy, 64(5): 416–424.
+Van Straelen, Eileen. 2024. “Desperate House Sellers: Distress Among Developers.” Review of Financial Studies, 37(3): 802–836.
+Wasi, Nada and Michelle J. White. 2005. “Property Tax Limitations and Mobility:
+The Lock-In Effect of California’s Propostion 13.” National Bureau of Economic Research
+Working Paper Series 11108.
+
+45
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+A
+
+Additional Tables and Figures
+Table 7: Merge Statistics for GSE and CoreLogic Datasets
+Matched
+
+Unmatched
+
+Total
+
+General
+Number of Loans
+Origination Date
+
+95,408,712
+2011Q4
+
+9,837,531
+2010Q3
+
+105,245,974
+2011Q4
+
+Borrower Attributes
+Borrower Age
+Borrower Credit Score
+DTI
+Home Value (2022 Prices)
+Annual Income (2022$)
+
+46
+741
+34
+$542,400
+$135,450
+
+46
+737
+35
+$488,200
+$137,150
+
+46
+741
+34
+$537,350
+$135,600
+
+Loan Characteristics
+Loan Amount (2022$)
+Origination LTV
+Loan Term (months)
+Interest Rate
+
+$274,550
+71
+313
+4.84
+
+$251,850
+71
+315
+5.32
+
+$272,450
+71
+313
+4.89
+
+Payment Status
+Active
+Prepaid
+
+26.9%
+71.2%
+
+24.0%
+69.9%
+
+26.6%
+71.0%
+
+Loan Purpose
+Purchase
+Cash-Out Refinance
+Other Refinance
+
+37.7%
+26.3%
+35.9%
+
+43.4%
+24.9%
+31.7%
+
+38.3%
+26.2%
+35.6%
+
+Property Type
+Single Family
+Condo
+PUD
+
+72.7%
+5.8%
+21.5%
+
+57.8%
+29.8%
+12.4%
+
+71.3%
+8.1%
+20.6%
+
+Ownership Type
+Owner Occupied
+Second/Vacation
+Investment
+
+91.4%
+3.4%
+5.2%
+
+86.0%
+8.2%
+5.8%
+
+90.9%
+3.8%
+5.3%
+
+Race and Ethnicity
+White
+Black
+Hispanic (of any race)
+Asian
+American Indian/Alaska Native
+Native Hawaiian/Pacific Islander
+Unknown
+
+62.0%
+3.0%
+6.0%
+5.6%
+0.4%
+0.2%
+22.8%
+
+60.5%
+3.0%
+5.3%
+5.2%
+0.4%
+0.2%
+25.4%
+
+61.8%
+3.0%
+6.0%
+5.5%
+0.4%
+0.2%
+23.1%
+
+Notes: The table lays out summary statistics for fixed-rate mortgages in the filtered proprietary GSE dataset. Column 1 lists statistics for loans that can be matched to a property
+in the CoreLogic data. Column 2 has statistics for loans that cannot be matched. Column
+3 records statistics for all loans in the filtered dataset. Source: GSE and CoreLogic data
+2000–2024.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+46
+
+FHFA Working Paper 24-03
+Figure 10: Active Fixed-Rate Mortgages Over Time
+
+Notes: The figure tallies the end-of-quarter number of active fixed-rate mortgages by loan type, the fixed-rate
+share of all mortgages, and the GSE share of fixed-rate mortgages. Source: NMDB data 1998–2024.
+
+Figure 11: Counterfactual Analysis
+
+Notes: The figure depicts the seasonally adjusted quarterly sale probability of homes with GSE loans and
+the counterfactual sale probability after removing the estimated effect of mortgage lock-in. Source: Author
+calculations using GSE and CoreLogic data.
+
+47
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+Figure 12: Alternative Samples
+
+Notes: The figure depicts non-parametric estimates of the relation between rate deltas and the likelihood
+of sale for full GSE data, for a “Pre-2020 Sample” sample with quarterly loan records before 2020, and for
+a “Restricted Subsample” with loans originating after the first post-2000 sale of the underlying property as
+recorded by CoreLogic. Each point represents one percentile of the ∆r distribution where the x-coordinate
+is the mean ∆r, and the y-coordinate is the estimated coefficient on an indicator variable for that percentile
+expressed as a percentage of the average sale rate. The average likelihood of sale is 0.971%/quarter for
+the full data, 0.937% for the pre-2020 sample, and 1.094% for the restricted subsample. Source: Author
+calculations using GSE and CoreLogic data 2000–2024.
+
+B
+
+Model With Landlord Option
+
+As a practical exercise, we extend the theoretical framework so homeowners can become
+landlords if they must move, but they are unwilling or unable to pay off the original mortgage.43
+
+Environment
+The setup is identical to the model in Section 3 except that homeowners may now choose to
+become landlords and rent their homes. Homeowners who rent their home receive income R,
+but they must purchase a new house. While renting their house, they make interest payments
+on the mortgages for each house, and they have the option to refinance the original mortgage.
+Homeowners who rent their home receive stochastic disutility χ chosen to have half the mean
+and standard deviation as the utility of buying a new home ϕ.
+43
+
+These people have been described informally as “accidental” landlords. Sometimes a marriage, divorce,
+job, or school situation may instigate a housing relocation where a homeowner moves out and purchases
+elsewhere, but does not sell the home. Realistically, this scenario happens infrequently.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+48
+
+FHFA Working Paper 24-03
+
+Adjustable Rate Mortgages (ARMs)
+Homeowner Problem
+Homeowners with ARMs choose D ∈ {stay,sell,rent} to solve their problem,
+
+
+
+C + C2
+, D = stay
+
+ 1
+max Uown = C1 + C2 + ϕ
+, D = sell
+D
+
+
+
+C + C + ϕ − χ , D = rent
+1
+2
+subject to their budget constraint
+C1 + C2 = Y − (r1 + r2 )L, D = stay
+C1 + C2 = Y − (r1 + r2 )L − κr − κm , D = sell
+C1 + C2 = Y − [r1 + (1 + P )r2 ] L + R − κr − κm , D = rent
+Homeowners choose to rent out their existing home if
+ϕ + R ≥ χ + κr + κm + r2 P L
+R ≥ χ + r2 P L
+If not renting, homeowners sell if
+ϕ ≥ κr + κm
+In all other cases, homeowners stay.
+
+Fixed-Rate Mortgages (FRMs)
+Homeowner Problem
+Homeowners with FRMs choose D ∈ {stay,refi,sell,rent,rent+refi} to solve their problem,
+
+
+
+C + C2
+, D ∈ {stay,refi}
+
+ 1
+max Uown = C1 + C2 + ϕ
+, D = sell
+D
+
+
+
+C + C + ϕ − χ , D ∈ {rent,rent+refi}
+1
+2
+
+49
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+
+subject to
+C1 + C2 = Y − 2r1 L, D = stay
+C1 + C2 = Y − (r1 + r2 )L − κr , D = refi
+C1 + C2 = Y − (r1 + r2 )L − κr − κm , D = sell
+C1 + C2 = Y − (2r1 + r2 P )L + R − κr − κm , D = rent
+C1 + C2 = Y − [r1 + r2 (1 + P )] L + R − 2κr − κm , D = rent+refi
+Homeowners rent their home and refinance their existing mortgage if
+ϕ + R + ∆rL ≥ χ + 2κr + κm + r2 P L
+ϕ + R ≥ χ + κr + κm + r2 P L
+R ≥ χ + κr + r2 P L
+∆rL ≥ κr
+else, they rent without refinancing if
+ϕ + R ≥ χ + κr + κm + r2 P L
+ϕ + R ≥ χ + κm + r2 P L + ∆rL
+R ≥ χ + r2 P L + ∆rL
+If not renting, homeowners will sell if
+ϕ + ∆rL ≥ κr + κm
+ϕ ≥ κm
+If not renting or selling, homeowners refinance if
+∆rL ≥ κr
+In all other cases, homeowners stay.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+50
+
+FHFA Working Paper 24-03
+
+Home Prices
+Assume the housing stock grows by γ in the second period. Home price P is determined so
+that the total number of buyers is equal to the stock of new housing:
+µ(Drent = buy) + µ(Down = rent) = γ(1 − ψ)
+where ψ is the share of households in the first period who are renters (so 1 − ψ is the stock
+of houses). The rental markup is assumed to be 20% of the first-period interest payment,
+and γ is chosen so that P = 1 when ∆r = 0.
+
+51
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+Figure 13: Home Prices and Mortgage Rates with Landlord Model
+
+(a) Home Price versus Rate Delta (∆r)
+
+(b) Home Price Relative to ARM Case
+
+Notes: Panel (a) shows the theoretical relation between rate deltas and real estate prices for both ARMs
+and FRMs models in the model with the landlord option. Home prices are less sensitive to interest rate
+movements for rate deltas between -2 and 2. Panel (b) depicts the relation for FRMs relative to ARMs.
+Lock-in from fixed-rate mortgages increases prices (relative to the ARM counterfactual) when rate deltas
+are negative.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+52
+
+FHFA Working Paper 24-03
+
+C
+
+Alternative Rate Delta Estimation
+
+We consider two alternative methods for estimating rate deltas. The first uses the quarterly
+average origination rate as the counterfactual interest rate for the borrower each period.
+r̂i,t = r̄o=t
+
+(12)
+
+The second allows the pricing of loan and borrower characteristics to vary over time. Equation (3) is modified to allow for unique β coefficients each quarter.
+f
+ri,o
+= γo + βo Xi + εi
+
+(13)
+
+The estimated γ and β coefficients are again used to estimate ri,t and ∆ri,t .
+r̂i,t = γ̂t + β̂t Xi
+c i,t = rf − r̂i,t
+∆r
+i,o
+
+(14)
+(15)
+
+The advantage of this approach is that it allows for distinct degrees of lock-in for loans
+whose features are priced differently than they were at origination. For example, if spreads
+for borrowers with low credit scores have widened, low credit score borrowers would be more
+locked-in. However, this also assumes borrowers will keep their choice of loan characteristics
+the same even when faced with changing price differentials. For example, borrowers may
+increasingly choose larger down payments if spreads for high LTV loans widen. For this
+reason, our baseline specification using only time fixed effects is preferred. The baseline
+specification assumes borrowers choose their optimal loan each period with the fixed effects
+capturing the overall change in the price level for their “menu” of choices.
+Most variation in rate deltas comes from across-the-board changes in interest rates over
+time. Consequently, all three approaches yield similar distributions of rate deltas and sale
+sensitivity to rate deltas, as exhibited in Figures 14 and 15, respectively.
+
+53
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+Figure 14: 204Q2 Rate Delta Distributions by Method
+
+Notes: The figure exhibits rate delta distributions for all fixed-rate mortgages for three different measures of
+rate delta. The “Quarterly Average” method uses the quarterly average origination rate as the counterfactual
+interest rate available to the borrower each period. The “Dynamic Pricing” method accounts for how the
+pricing of loan and borrower characteristics has changed over time. Source: Author calculations using NMDB
+data.
+
+D
+
+Proportional Hazard Model and Other Prepayment
+
+Sensitivity
+Proportional Hazard Model
+As a robustness check, we estimate the relation between rate deltas and sale probability
+using a proportional hazard model instead of the baseline linear probability model. With
+the proportional hazard model, the probability of sale of loan i at time t given loan and
+borrower characteristics X and rate delta ∆r is given by Equation (16).
+P r(Salei,t |Xi,t , ∆ri,t ) = λt−o eβXi,t +f (∆ri,t )
+
+(16)
+
+Here, λ is an underlying hazard rate, and t − o is the loan age in quarters. Figure 16
+compares this model (red hollow squares) to a linear probability model (solid blue circles)
+using a non-parametric specification of f (∆r). For computational reasons, both models are
+estimated with a 10% sample of loans from the full GSE fixed-rate mortgage dataset and
+omit the interactions of loan age with loan term and purpose included in the baseline model.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+54
+
+FHFA Working Paper 24-03
+Figure 15: Sale Probability by Rate Delta Across Methods
+
+Notes: The figure depicts non-parametric estimates of the relation between rate deltas and the likelihood of
+sale using three measures of rate delta. Each point represents one percentile of the ∆r distribution where
+the x-coordinate is the mean ∆r, and the y-coordinate is the estimated coefficient on an indicator variable
+for that percentile expressed as a percentage of the average sale rate. The population average likelihood
+is 0.971%/quarter during the sample period. Source: Author calculations using GSE and CoreLogic data
+2000–2024.
+
+The proportional hazard model does not permit parametrizing f (∆r) to specify a linear
+relation between sale probability and ∆r. Linear regression on the non-parametric percentile
+estimates for ∆r ≤ 1 suggests the slope of the relation is about 18% less steep using the
+proportional hazard model. However, this is mostly an artifact of the differing interpretations
+of the model outputs. The linear probability coefficients give changes in absolute probability,
+which are converted into changes in relative probability by dividing by the overall probability
+of sale. The proportional hazard model gives changes in relative probability given Xi,t and
+loan age t − o. The smaller estimated effect of ∆r in the proportional hazard model is an
+artifact of loans with very negative (or positive) rate deltas having values for these covariates
+that make them more likely to sell. Specifically, loans with large (absolute) values are unlikely
+to be new, and properties with loans less than one year old are unlikely to sell.
+
+Other Prepayment Sensitivity to Rate Deltas
+Since we are interested in using our estimates to calculate aggregate decreases in sales,
+the linear probability model estimates are more appropriate. However, the proportional
+hazard model does allow for comparing how sales and other prepayments (mostly from
+
+55
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+FHFA Working Paper 24-03
+Figure 16: Linear Probability vs. Proportional Hazard Model
+
+Notes: The figure depicts non-parametric estimates of the relation between rate deltas and the likelihood of
+sale using linear probability and proportional hazard models. Each point represents one percentile of the ∆r
+distribution where the x-coordinate is the mean ∆r. For the linear probability model, the y-coordinate is
+the estimated coefficient on an indicator variable for that percentile expressed as a percentage of the average
+sale rate. For the proportional hazard model, the y-coordinate is the exponentiated estimated coefficient
+on the indicator variable. The population average likelihood is 0.972%/quarter during the sample period.
+Source: Author calculations using GSE and CoreLogic data 2000–2024.
+
+refinances) react to rate deltas. Modeling other prepayments using a linear probability model
+is impractical because of the highly predictive and non-linear relation between rate deltas
+and refinancing. Figure 17 plots the non-parametric f (∆r) estimates from Equation (16)
+and the same model with non-sale prepayment as the dependent variable. For computational
+reasons, the models are again estimated using a 10% sample and omit the interactions of
+loan age with loan term and purpose.
+Rate deltas are much more determinative of non-sale prepayments (hollow red square) than
+sales (solid blue circle), as most of these prepayments are refinances, which generally make
+little sense for borrowers with negative rate deltas. Nevertheless, the relation between ∆r
+and other prepayments retains a significantly positive slope even for ∆r < −2, albeit less
+steep than the slope for sales. However, because sales (0.972%/quarter) are over three
+times less common than other prepayments (2.945%/quarter), there are more lost non-sale
+prepayments than sales when rate deltas decline, even if they are already highly negative.
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+56
+
+FHFA Working Paper 24-03
+
+Figure 17: Sale and Other Prepayment Probabilities by Rate Delta
+
+Notes: The figure depicts non-parametric proportional hazard model estimates of the relation between rate
+deltas and the likelihood of sale and non-sale prepayment. Each point represents one percentile of the ∆r
+distribution where the x-coordinate is the mean ∆r, and the y-coordinate is the exponentiated estimated
+coefficient on an indicator variable for that percentile. The population average likelihood during the sample
+period is 0.972%/quarter for sales and 2.945%/quarter for other prepayments. Source: Author calculations
+using GSE and CoreLogic data 2000–2024.
+
+57
+
+Batzer, Coste, Doerner, & Seiler — The Lock-In Effect of Rising Mortgage Rates
+
+

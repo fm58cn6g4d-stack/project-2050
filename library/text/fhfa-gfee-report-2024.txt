@@ -1,0 +1,770 @@
+Source: https://www.fhfa.gov/document/gfee-report-2024.pdf
+Publisher: Federal Housing Finance Agency
+Retrieved: 2026-11-09
+Original SHA-256: f7f1701a3956e61ac08b35070aab3de8f9e5fe1aea4eee682e8e2245bbc64314
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+DRAFT - CONTROLLED
+
+FANNIE MAE AND FREDDIE MAC SINGLE-FAMILY
+GUARANTEE FEES IN 2024
+December 2025
+
+a
+
+Page Footer
+
+T ABLE OF C ONTENTS
+Executive Summary ................................................................................................................ 2
+Guarantee Fees: Background ................................................................................................ 3
+Profitability of Providing the Guarantee ............................................................................ 5
+Guarantee Fee and Profitability Gap Results for 2024 .................................................... 6
+I.
+Study Population ................................................................................................................ 7
+II. Average Guarantee Fees by Year, Product, and Purpose ......................................... 7
+III. Average Guarantee Fees by Risk Class ........................................................................ 10
+IV. Average Guarantee Fees by Seller Volume ............................................................... 11
+Appendix: Timeline of Key Changes in Guarantee Fees from 2008 to 2025 .................................... 13
+
+1
+
+Executive Summary
+Fannie Mae and Freddie Mac (the Enterprises) were chartered by Congress to provide stability
+and liquidity to the nation’s secondary mortgage market, as well as to promote broad access to
+mortgage credit. They primarily do so by issuing securities backed by mortgage loans they
+acquire and guaranteeing timely payments to investors in these securities. In 2024, the
+Enterprises collectively acquired more than $650 billion of single-family mortgages.
+The Enterprises charge guarantee fees, both ongoing and upfront, to cover the costs of
+providing these guarantees. These fees serve as the primary source of revenue for the
+Enterprises and, in doing so, drive profitability and capital accumulation. Despite this,
+guarantee fees generally represent a small portion of the total monthly mortgage payment for
+most borrowers. In 2024, the average guarantee fee across the Enterprises’ single-family loan
+acquisitions was 65 basis points – or 0.65 percent of the loan amount per year. This compares
+to average interest rates for 30-year fixed-rate mortgages that were between 6.1 percent and
+7.2 percent during the year.
+The Housing and Economic Recovery Act of 2008 (HERA) requires FHFA to conduct an ongoing
+study of the guarantee fees charged by the Enterprises and to annually submit a report to
+Congress on the results of the study. 1 Pursuant to these requirements, this report presents an
+analysis of the guarantee fees charged by the Enterprises in 2024, along with a comparison to
+those fees charged in 2023.
+In summary, the Enterprises’ average guarantee fee of 65.2 basis points on 2024 single-family
+loan acquisitions declined slightly from 65.5 basis points in 2023. This modest change reflected
+a reduction in upfront fees, partially offset by an increase in ongoing fees. Upfront fees
+declined due to the Enterprises’ acquisition during 2024 of certain loans with limited guarantee
+fees designed to support the Enterprises’ housing mission. The rise in ongoing fees was driven
+by changes in the product mix, the continued effects of a purchase money market, and capital
+return requirements.
+
+1
+
+See Section 1601 of the Housing and Economic Recovery Act of 2008, Public Law 110-289, 122 Stat 2824 at
+https://www.congress.gov/110/plaws/publ289/PLAW-110publ289.pdf.
+
+2
+
+Guarantee Fees: Background
+Guarantee fees enable the Enterprises to acquire mortgage loans from lenders (or “sellers” 2),
+issue securities backed by these mortgage loans (mortgage-backed securities, or MBS), and
+guarantee to investors the timely payment of principal and interest on these MBS. In doing so,
+the Enterprises facilitate the effective channeling of funds from the global capital markets into
+the domestic mortgage market, making mortgage credit more accessible and affordable for
+American homebuyers.
+The Enterprises acquire loans through two primary
+channels: the MBS swap and the cash window. In the MBS
+swap channel, a seller exchanges a group of loans for an
+The Enterprises acquire loans
+through two channels, MBS
+MBS guaranteed by Fannie Mae or Freddie Mac, which the
+seller can then sell in the secondary market. By contrast, in swap and cash window.
+the cash window acquisition channel, also called the whole
+loan conduit, a seller delivers loans to an Enterprise in
+exchange for cash payment. The Enterprises then bundle these loans into guaranteed MBS and
+sell them in the secondary market. Generally, larger sellers use the MBS swap channel, while
+smaller sellers are more likely to sell loans for cash.
+The Enterprises charge a guarantee fee in exchange for retaining the credit risk on the loans
+and guaranteeing timely payments to MBS investors. 3,4 Investors typically pay a premium for
+Enterprise MBS over private-label MBS due to the guarantee of principal and interest, as well as
+the strong liquidity of the Enterprises’ MBS market.
+The level of the guarantee fees is set to cover the costs of providing the guarantee. These costs
+encompass expected credit losses, administrative costs, and the cost of capital required to
+guarantee single-family loans.
+
+2
+
+The term “seller” refers to an entity that is the ultimate seller of a loan to the Enterprises, which may include
+mortgage originators that sell directly to the Enterprises or mortgage aggregators that purchase mortgages from
+other financial institutions and resell the loans to the Enterprises.
+3
+Although the Enterprises are always the ultimate guarantors of their MBS, they may choose to retain the full credit risk
+or, through their credit risk transfer (CRT) programs, pay private entities to bear some of the credit risk.
+4
+Private holders of MBS assume market risk—the risk that the value of the security may decline due to changes in
+market interest rates.
+
+3
+
+The Enterprises charge two types of guarantee fees: ongoing and upfront. An ongoing fee is a
+monthly charge over the life of the loan, built into the loan’s interest rate, that varies by
+product type (e.g., 30- or 15-year fixed-rate loans).
+Ongoing fees are based primarily
+Ongoing fees presented in this report include the net gain
+on product type, such as whether
+or loss generated from buy-up/buy-down transactions, in
+the loan is a 30-year fixed-rate or
+which the Enterprise buys from or sells to the seller a
+a 15-year fixed-rate loan.
+portion of the loan’s ongoing interest to allow for loans to
+be pooled more flexibly during the creation of MBS.
+An upfront fee is a one-time payment made by sellers at loan delivery and is passed through to
+borrowers. Upfront fees serve as the Enterprises’ main form of risk-based pricing because they
+vary with factors such as loan-to-value (LTV) ratio, credit score, property type, and occupancy. 5
+Higher-risk loans generally pay higher upfront fees. The
+Enterprises introduced risk-based pricing through upfront
+Upfront fees are based primarily
+on specific risk attributes.
+fees in 2008. Certain upfront fees are aligned across the
+Enterprises.6 In this report, FHFA presents upfront fees in
+an annualized form.7
+Key risk attributes for upfront fees include, but are not limited to:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Loan-to-value (LTV) ratio
+Borrower credit score
+Type of refinance (rate-term or cash-out)
+Occupancy type (e.g., investment properties or second homes)
+Property type (e.g., condominiums, multi-unit properties, manufactured homes)
+Adjustable-rate mortgages (ARMs) with high LTVs
+Minimum mortgage insurance coverage
+Loan size compared with the baseline conforming loan limit
+Presence and amount of subordinate financing (second liens)
+
+5
+
+See Enterprise upfront fees at https://www.fanniemae.com/content/pricing/llpa-matrix.pdf and
+https://guide.freddiemac.com//euf/assets/pdfs/Exhibit_19.pdf.
+6
+Ibid.
+7
+For the purposes of reporting to FHFA, the Enterprises annualize upfront fees by dividing the upfront fee for a
+given loan by that loan’s specific present value multiplier (PVM). For example, a loan with an upfront fee of 60
+basis points and a PVM of 4 would have an annualized upfront fee of 60/4 = 15 basis points. PVMs are modeled by
+the Enterprises, based on interest rates and loan characteristics.
+
+4
+
+Upfront fees are assessed on a layered basis, with separate fees applied for each risk attribute
+of a loan. For example, a loan that is both an investment property and has a high LTV ratio
+would incur the fees associated with each attribute, which are then added together to
+determine the total upfront fee. In contrast, certain borrowers may not be charged upfront
+fees under specific programs that offer reduced or waived fees to support eligible borrowers. 8
+
+Profitability of Providing the Guarantee
+FHFA estimated the Enterprises’ profitability gaps, defined as the differences between the
+revenue an Enterprise received for guaranteeing MBS payments and its estimated total costs of
+providing their guarantee. Revenue in the profitability gap calculation includes the Enterprises’
+ongoing and upfront guarantee fees. Total costs in the calculation include: (1) expected default
+costs arising from the failure of some borrowers to make their payments under anticipated
+economic conditions; (2) the cost of holding capital, reflecting regulatory capital maintained to
+protect against borrower defaults under severe stress scenarios and a minimum return on
+capital; (3) general and administrative expenses; and (4) 10 basis points allocated to the U.S.
+Department of the Treasury as required by the Temporary Payroll Tax Cut Continuation Act of
+2011 (TCCA). The TCCA fee was extended to 2032 by the Infrastructure Investment and Jobs
+Act in November 2021.
+The profitability gap is estimated for each newly
+acquired loan, and loan-level gaps are aggregated by
+segment. A positive or zero gap indicates that the
+Enterprise’s revenue for the loan is sufficient to
+cover its costs at the specified minimum return
+threshold. A negative gap indicates that revenue
+does not cover costs at this return threshold. A
+negative gap does not imply that the loan or
+segment is unprofitable; rather, it indicates that the
+Enterprise expects to earn a return on capital below
+its overall minimum return threshold.
+
+FHFA defines profitability gap as
+the difference between guarantee
+fees received for a mortgage loan
+and the estimated total cost of
+providing the guarantee.
+The
+profitability gap serves as the
+measure of estimated profitability
+accounting for a minimum rate of
+return on capital.
+
+Two primary factors contribute to changes in profitability gaps over time. The first is annual
+See Enterprise upfront fees at https://www.fanniemae.com/content/pricing/llpa-matrix.pdf and
+https://guide.freddiemac.com//euf/assets/pdfs/Exhibit_19.pdf.
+
+8
+
+5
+
+updates to the assumptions underlying cost and return estimates. For example, the Enterprises
+model expected default costs and estimate capital costs using: (1) assumptions about economic
+variables, including house prices, interest rates, unemployment, and discount rates, and (2)
+their regulatory capital framework. Higher costs generally reduce the profitability gap for a
+given level of revenue, while lower costs increase it. The second factor is changes in the mix of
+risk characteristics within each year’s acquisitions. Because profitability gaps vary significantly
+by segment, shifts in the Enterprises’ annual acquisition mix directly affect overall profitability
+gaps.
+In addition, the Enterprises limit guarantee fees on certain loans to fulfill their housing mission.
+Such pricing is consistent with the Federal Housing Enterprises Financial Safety and Soundness
+Act of 1992 and the Enterprises’ charter acts, which provide that Enterprise activities include
+purchases of mortgages on housing for low- and moderate-income families that may feature
+lower returns than the returns earned on other activities. However, FHFA expects each
+Enterprise to earn a minimum return on capital on its aggregate quarterly single-family
+acquisitions.
+
+Guarantee Fee and Profitability Gap Results for 2024
+The Enterprises’ 2024 single-family pricing frameworks reflected the significant changes
+introduced by FHFA in 2022 and 2023. FHFA did not implement additional significant changes
+to the Enterprises’ single-family pricing framework in 2024.
+FHFA continues to ensure a level playing field across sellers. The Senior Preferred Stock
+Purchase Agreements prohibit single-family pricing differentiation based on a seller’s size,
+charter type, or volume of business. 9 This prohibition encourages robust competition and
+benefits borrowers.
+This year’s report compares average guarantee fees and average profitability gaps on
+Enterprise loan acquisitions between 2023 and 2024. It provides details by segment, including
+year, product type, and loan purpose; risk class (LTV ratio and credit score); and seller delivery
+volume. These details allow for attribution of changes in the average guarantee fee and the
+average profitability gap to changes over time in the acquisition composition. Because this
+report uses economic concepts rather than accounting data to analyze guarantee fees, certain
+9
+
+This condition was added to the Senior Preferred Stock Purchase Agreements by letter agreements executed in
+January 2021.
+
+6
+
+metrics in this report differ from similar metrics reported in the published financial statements
+of the Enterprises, which are prepared in accordance with Generally Accepted Accounting
+Principles.
+
+I.
+
+Study Population
+
+Table 1: Total Study Population – Dollar and Loan Volume
+
+Dollars (in Billions)
+Loans (in Millions)
+
+2023
+$609
+1.9
+
+2024
+$665
+2.0
+
+Change
+2023 to 2024
+$56
+0.1
+
+The study population consists of single-family mortgages acquired by the Enterprises under their
+standard underwriting and delivery guidelines from January 1, 2023, through December 31, 2024.
+Loan counts and acquisition dollar volumes slightly increased in 2024 compared to 2023, largely
+due to a drop in interest rates from a high of 7.8 percent in 2023 to a high of 7.2 percent in 2024.
+Compared to 2023 acquisitions, the Enterprises’ 2024 acquisitions featured a marginally smaller
+proportion of home purchase loans (83 versus 87 percent) and a marginally higher proportion of
+refinance loans (4 versus 8 percent).
+
+II.
+
+Average Guarantee Fees by Year, Product, and Purpose
+
+Table 2: Average Guarantee Fees by Year
+
+Total G-Fee (bps)
+Ongoing Fee (bps)
+Upfront Fee (bps)
+Total Gap (bps)
+
+2023
+65.5
+47.5
+18.0
+2.1
+
+2024
+65.2
+49.1
+16.1
+-0.6
+
+The average total guarantee fee (G-Fee) was 65.2 basis points in 2024, slightly down from 65.5
+basis points in 2023. This modest change reflected a reduction in upfront fees partially offset
+by an increase in ongoing fees. Average upfront fees declined from 18.0 basis points in 2023 to
+16.1 basis points in 2024 as FHFA encouraged the Enterprises to acquire certain mission-related
+loans with limited guarantee fees. Those and other pricing components are under review at
+7
+
+this time.
+The rise in ongoing fees from 47.5 basis points to 49.1 basis points was driven by changes in the
+product mix and the continued effects of a purchase money market. Further, the
+countercyclical features of FHFA’s regulatory capital framework also exerted upward pressure
+on capital costs and, therefore, ongoing fees in 2024.
+The average profitability gap in 2024 was negative 0.6 basis points compared to 2.1 basis points
+in 2023. The decline was due to product mix and changes in Enterprises’ projected costs,
+including the Enterprises’ capital costs. The negative profitability gap indicates that the
+expected profitability on new loans was below the minimum return on capital threshold.
+
+Table 3: Average Guarantee Fees by Year, Product, and Purpose
+
+By Product Type
+30-year Fixed
+15-year Fixed
+Other Fixed Terms
+ARM Loans
+By Loan Purpose
+Purchase
+Rate-Term Refinance
+Cash-Out Refinance
+
+UPB
+Share
+
+2023
+G-Fee
+(bps)
+
+UPB
+Share
+
+2024
+G-Fee
+(bps)
+
+Gap
+(bps)
+
+Gap
+(bps)
+
+95%
+3%
+1%
+1%
+
+66
+47
+65
+64
+
+1.8
+2.7
+14.5
+7.1
+
+94%
+3%
+2%
+1%
+
+66
+47
+62
+67
+
+-1.0
+1.7
+10.5
+8.2
+
+87%
+4%
+9%
+
+64
+64
+84
+
+-0.4
+3.8
+26.0
+
+83%
+8%
+9%
+
+63
+64
+85
+
+-3.2
+0.5
+22.5
+
+Product Type Segment:
+Loan shares by product type were largely unchanged between 2023 to 2024. The 30-year fixed
+rate product accounted for 94 percent of the study population, followed by 15-year fixed rate,
+other terms, and ARM loans. Elevated mortgage rates in 2024 prompted borrowers to select
+longer loan terms to enhance affordability.
+Average guarantee fees by product type were largely stable, with modest changes observed
+8
+
+only for select smaller products. Average guarantee fees remained constant on 30-year and 15year fixed rate products at 66 basis points and 47 basis points, respectively. Average fees on
+ARMs increased by 3 basis points from 64 to 67 basis points. The average fee on loans with
+other fixed terms decreased from 65 to 62 basis points.
+Profitability gaps declined for all products, except for ARM loans. The decreases were driven by
+increases in Enterprise costs, with capital costs serving as a key contributor.
+Loan Purpose Segment:
+Loan shares by loan purpose shifted modestly toward rate-term refinances. Mortgage interest
+rates remained elevated throughout the year, with average 30-year fixed-rate mortgage rates
+above 6 percent. As a result, 2024 acquisitions were predominantly home purchase loans (at
+83 percent). A short-lived decline in rates in October 2024 prompted an uptick in refinancing,
+increasing the UPB share of rate-term refinances to 8 percent in 2024, up from 4 percent in
+2023.
+Average guarantee fees by product type were largely stable from 2023 to 2024. Home
+purchase and rate-term refinance loans reflected fees of 63 basis points and 64 basis points,
+respectively. By comparison, the average fee on cash-out refinances was 85 basis points in
+2024, up 1 basis point from 2023.
+Profitability gaps across loan purpose declined for all segments. The profitability gap on home
+purchase loans decreased by 2.8 basis points to -3.2 basis points. It decreased by 3.3 basis
+points to 0.5 basis points for rate-term refinances, and by 3.5 basis points to 22.5 basis points
+for cash-out refinances.
+
+9
+
+III.
+
+Average Guarantee Fees by Risk Class
+
+Table 4: Average Guarantee Fees by Risk Class
+
+By LTV Ratio
+<=80
+>80-90*
+>90*
+By Credit Score
+<660
+660-719
+>=720
+
+UPB
+Share
+
+2023
+G-Fee
+(bps)
+
+UPB
+Share
+
+2024
+G-Fee
+(bps)
+
+Gap
+(bps)
+
+Gap
+(bps)
+
+59%
+16%
+26%
+
+68
+66
+59
+
+9.5
+-4.0
+-11.2
+
+61%
+15%
+24%
+
+67
+67
+60
+
+5.5
+-7.1
+-12.0
+
+2%
+16%
+81%
+
+87
+76
+63
+
+-3.6
+-5.5
+3.8
+
+2%
+14%
+83%
+
+87
+76
+63
+
+-9.6
+-9.4
+1.2
+
+*Loans with LTV ratios greater than 80 percent require credit enhancement, which often takes the form
+of private mortgage insurance. The coverage required increases with an increase in LTV ratios.
+
+LTV Segment:
+Average guarantee fees decreased for loans with an LTV ratio less than or equal to 80 percent
+and increased for loans with an LTV ratio greater than 80 percent in 2024. The average fees
+decreased by 1 basis point to 67 basis points for loans with an LTV ratio less than or equal to 80
+percent. The average fees increased by 1 basis point to 67 basis points for loans with an LTV
+ratio greater than 80 percent but less than or equal to 90 percent. The average fees increased
+by 1 basis point to 60 basis points on loans with an LTV ratio greater than 90 percent.
+The Enterprises’ charters require credit enhancement on single-family acquisitions when a
+loan’s original LTV ratio exceeds 80 percent. The Enterprises typically fulfill this requirement by
+acquiring loans with mortgage insurance provided by approved private mortgage insurers. The
+private mortgage insurers absorb losses before the Enterprises, reducing the credit risk taken
+on by the Enterprises. As a result, the Enterprises’ guarantee fees on loans with original LTV
+ratios exceeding 80 percent are lower than they would be absent this credit enhancement,
+because credit losses are first borne by the private mortgage insurers.
+Profitability gaps decreased by 4 basis points on loans with an LTV ratio less than or equal to 80
+10
+
+percent. Profitability gaps deteriorated further for the higher LTV segments.
+Credit Score Segment:
+Average guarantee fees remained unchanged and profitability gaps declined for all credit score
+segments, particularly for the segment with lower credit scores. Profitability gaps decreased by
+6 basis points to -9.6 basis points for loans with credit scores below 660. Profitability gaps
+decreased by 3.9 basis points to -9.4 basis points for loans with credit scores greater than or
+equal to 660 and below 720. Profitability gaps decreased by 2.6 basis points to 1.2 basis points
+for loans with credit scores greater than or equal to 720.
+
+IV.
+
+Average Guarantee Fees by Seller Volume
+
+Table 5: Average Guarantee Fees by Channel and Seller Volume
+
+MBS Swap
+Small
+Medium
+Large
+Cash Window
+Small
+Medium
+Large
+
+UPB
+Share
+
+2023
+G-Fee
+(bps)
+
+UPB
+Share
+
+2024
+G-Fee
+(bps)
+
+Gap
+(bps)
+
+Gap
+(bps)
+
+1%
+28%
+71%
+
+51
+65
+67
+
+-20.3
+0.8
+3.4
+
+1%
+26%
+73%
+
+54
+64
+66
+
+-18.1
+-2.8
+-0.3
+
+37%
+62%
+1%
+
+64
+64
+54
+
+1.4
+1.2
+-9.9
+
+33%
+58%
+8%
+
+64
+65
+63
+
+0.4
+0.3
+-1.6
+
+Together, the Enterprises acquired loans from 1,776 sellers in the study population in 2024,
+with each Enterprise individually acquiring loans from about 1,000 sellers. FHFA divided these
+sellers into three groups based on their share of total Enterprise acquisition volume. The seller
+volume groups are comprised of those sellers with a share of total Enterprise acquisition
+volume at or above 2 percent (Large), greater than or equal to 0.1 percent and less than 2
+percent (Medium), and below 0.1 percent (Small), within each year studied. Generally, smaller
+sellers tend to sell loans for cash, and larger sellers exchange loans for MBS. The cash window
+provides a service for small sellers, as it allows for smaller transaction sizes. Large sellers tend
+to prefer MBS swaps, as this provides them with liquid, marketable securities.
+11
+
+In the cash window channel, the Enterprises hold the acquired loans in portfolio until they can
+be securitized. In the process, the Enterprises take on additional risk and costs, including but
+not limited to liquidity risk and hedging costs. The Enterprises also receive additional nonguarantee fee compensation for these risks and costs.
+Average fees increased across several channels and seller sizes in 2024: for small sellers in the
+MBS swap channel and for medium and larger sellers in the cash window channel. Average fees
+decreased or remained unchanged for the rest of channels and seller sizes. Profitability gaps
+decreased for most channels and seller sizes, except for small sellers in the MBS swap channel
+and large sellers in the cash window channel. For the MBS swap channel, average guarantee
+fees decreased by 1 basis point to 66 basis points for large sellers, by 1 basis point to 64 basis
+points for medium sellers, and increased by 3 basis points to 54 basis points for small sellers.
+For the MBS swap channel, profitability gaps decreased by 3.7 basis points to -0.3 basis points
+for large sellers. Profitability gaps decreased by 3.6 basis points to -2.8 basis points for medium
+sellers. Profitability gaps increased by 2.2 basis points to -18.1 basis points for small sellers
+though small sellers do not typically deliver loans through MBS swaps.
+For the cash window channel, average fees remained flat at 64 basis points for small sellers.
+Average fees increased by 1 basis point to 65 basis points for medium sellers. Average fees
+increased by 9 basis points to 63 basis points for large sellers.
+For the cash window channel, profitability gaps decreased by 1 basis point to 0.4 basis points
+for small sellers. Profitability gaps decreased by 0.9 basis points to 0.3 basis points for medium
+sellers. Profitability gaps increased by 8.3 basis points to -1.6 basis points for large sellers.
+
+12
+
+Appendix: Timeline of Key Changes in Guarantee Fees from 2008 to 2025
+Date
+March 2008
+Late 2008 through 2011
+
+December 2011
+
+August 2012
+
+December 2013
+
+April 2015
+
+July 2016
+September 2018 &
+March 2019
+April 2020
+
+Change
+The Enterprises increased ongoing fees and added two new upfront fees: a fee
+based on the borrower’s LTV ratio and credit score, and a 25-basis point adverse
+market fee.
+The Enterprises gradually raised fees and refined their upfront fee schedules.
+Pursuant to the Temporary Payroll Tax Cut Continuation Act of 2011, FHFA
+directed the Enterprises to increase the ongoing fee for all loans by 10 basis
+points. The Enterprises pay this fee to the U.S. Department of the Treasury.
+This fee increase was effective with April 2012 deliveries and was set to expire
+after 10 years.
+FHFA directed the Enterprises to raise fees by an additional 10 basis points on
+average to better compensate for credit risk exposure. FHFA directed the
+Enterprises to raise fees more on loans with terms longer than 15 years than
+on shorter-term loans to better align the profitability gaps and to make fees
+more uniform across sellers with varying loan delivery volumes. These
+changes were effective with December 2012 MBS deliveries.
+FHFA directed the Enterprises to increase ongoing fees by 10 basis points,
+change upfront fees to better align pricing with credit risk characteristics, and
+remove the 25-basis point adverse market fee for loans in all but four states.
+However, in January 2014, FHFA suspended the implementation of these
+changes pending review.
+FHFA completed its fee review and directed the Enterprises to eliminate the
+adverse market fee in all markets and add targeted increases for specific loan
+groups effective with September 2015 deliveries. These changes were
+approximately revenue-neutral with little or no impact for most borrowers.
+Based on findings from FHFA’s quarterly guarantee fee reviews, the Agency
+directed the Enterprises to set minimum ongoing guarantee fees by product type,
+effective in November 2016, consistent with FHFA’s responsibility to ensure the
+safety and soundness of the Enterprises.
+The Enterprises implemented a 25-basis point upfront fee for loans on second
+homes where the LTV ratio exceeds 85 percent.
+FHFA allowed the Enterprises to purchase loans in forbearance, with an upfront
+fee add-on of 500 basis points for first-time homebuyers and 700 basis points
+for all others, effective for loans closed through December 31, 2020, following
+multiple extensions.
+
+13
+
+Date
+
+Change
+
+August 2020
+
+FHFA directed the Enterprises to introduce a 50-basis point upfront adverse
+market refinance fee, effective December 1, 2020, for cash-out and rateterm refinances. The Enterprises excluded loans with a principal balance less
+than or equal to $125,000, those associated with HomeReady/Home
+Possible, and construction-to-permanent loans meeting certain criteria.
+
+July 2021
+
+FHFA announced that the Enterprises would eliminate the adverse market
+refinance fee for loan deliveries effective August 1, 2021.
+
+November 2021
+
+The Infrastructure Investment and Jobs Act extended to 2032 the existing 10basis point ongoing fee arising from the Temporary Payroll Tax Cut
+Continuation Act of 2011, which was due to expire in 2022. The Enterprises
+remit the proceeds from this fee to the U.S. Department of the Treasury.
+
+January 2022
+
+FHFA announced targeted increases to upfront fees for certain high balance
+loans and second home loans, effective April 1, 2022.
+
+October 2022
+
+FHFA announced the elimination of upfront fees for certain homebuyers and
+affordable products. Upfront fees were eliminated for first-time
+homebuyers at or below 100 percent of area median income, and below 120
+percent in high-cost areas; HomeReady and Home Possible loans; HFA
+Advantage and HFA Preferred loans; and single-family loans supporting the
+Duty to Serve program. Targeted increases to upfront fees for cash-out
+refinances were announced, effective February 1, 2023.
+
+January 2023
+
+FHFA announced recalibrated upfront fee grids for purchase, rate-term
+refinance, and cash-out refinance loans, effective May 1, 2023.
+
+14
+
+

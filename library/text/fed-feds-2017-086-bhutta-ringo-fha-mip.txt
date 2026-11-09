@@ -1,0 +1,1942 @@
+Source: https://www.federalreserve.gov/econres/feds/files/2017086pap.pdf
+Publisher: Board of Governors of the Federal Reserve System
+Retrieved: 2026-11-09
+Original SHA-256: bad4e36bab1d62b360eccc80a73d93ee9f8bf0ef79c1e455108bd3403e54e644
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Finance and Economics Discussion Series
+Divisions of Research & Statistics and Monetary Affairs
+Federal Reserve Board, Washington, D.C.
+
+The Effect of Interest Rates on Home Buying: Evidence from a
+Discontinuity in Mortgage Insurance Premiums
+
+Neil Bhutta and Daniel Ringo
+2017-086
+
+Please cite this paper as:
+Bhutta, Neil, and Daniel Ringo (2017). “The Effect of Interest Rates on Home Buying:
+Evidence from a Discontinuity in Mortgage Insurance Premiums,” Finance and Economics
+Discussion Series 2017-086. Washington: Board of Governors of the Federal Reserve System,
+https://doi.org/10.17016/FEDS.2017.086.
+NOTE: Staff working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staff or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+The Effect of Interest Rates on Home Buying: Evidence from a Discontinuity in Mortgage
+Insurance Premiums
+Neil Bhutta and Daniel Ringo 1
+
+Abstract: We study the effect of interest rates on the housing market by taking advantage of a
+sudden and unexpected price change in a large government mortgage program. The Federal
+Housing Administration (FHA) insures most mortgages to lower-downpayment, lower-credit
+score borrowers, including a majority of first-time homebuyers. The FHA charges borrowers an
+annual mortgage insurance premium (MIP), and in January, 2015 the FHA abruptly reduced the
+MIP, and thus FHA borrowers’ effective interest rate, by 50 basis points. Using a regression
+discontinuity design, we find that the MIP reduction increased the number of home purchase
+originations among the FHA-reliant population by nearly 14 percent. The response to the
+premium cut was negatively correlated with borrower income, with no observable response
+among relatively high income borrowers. We trace part of the jump in home buying to the MIP
+reduction helping ease binding debt payment-to-income ratio limits thus allowing more
+applications to be approved. Finally, we find no evidence that the MIP reduction increased
+house prices.
+
+1
+
+Both authors are at the Board of Governors of the Federal Reserve System, K93, Washington DC 20551,
+neil.bhutta@frb.gov, daniel.r.ringo@frb.gov. Jimmy Kelliher provided excellent research assistance. We thank
+Peter Blair, Felipe Carozzi, Pedro Gete, John Krainer, Doug McManus, Raven Molloy, Karen Pence, David
+Rappoport, Paul Willen, and seminar participants at Clemson University, Freddie Mac, and the Federal Reserve
+Board for helpful comments. The views and analysis are solely those of the authors, and do not necessarily
+represent Federal Reserve Board or staff.
+
+Introduction
+How do interest rates affect the housing market? Understanding this link is important for
+gauging the potential effects of monetary policy, and is central to the debate about the causes of
+the recent housing boom of the 2000s (e.g. Taylor 2007; Bernanke 2010). Understanding this
+link also matters for evaluating U.S. housing policy. Through government-sponsored enterprises
+(Fannie Mae and Freddie Mac, or GSEs) and institutions such as the Veteran’s Administration
+(VA) and the Federal Housing Administration (FHA), the government insures or guarantees
+most residential mortgages in the U.S., with the aim of lowering mortgage rates and promoting
+homeownership. 2 In addition, the mortgage interest tax deduction is a major federal expenditure
+intended to boost homeownership by reducing mortgage costs (e.g. Glaeser and Shapiro 2003;
+Hilber and Turner 2014; Sommer and Sullivan 2017).
+Standard theory indicates that housing demand could be quite sensitive to interest rates, as the
+user cost of home ownership varies directly with the cost of credit (Poterba 1984; Himmelberg,
+Mayer, and Sinai 2005; Boivin, Kiley, and Mishkin 2010). However, estimating the causal
+effect of interest rates on housing demand is difficult because of the endogeneity of interest rates
+to an array of economic forces that could also be correlated with housing demand. In general,
+without a clear identification strategy, estimates of the effect of interest rates on house prices and
+other housing indicators are likely to be biased toward zero, and possibly even have the wrong
+sign.
+
+For example, over the two year period from April 2007 to April 2009, the prime mortgage
+
+rate fell from approximately 6.2 to 4.8 percent. Despite falling rates, home purchase originations
+dropped by about 50 percent as the financial crisis, recession, and expectations for continued
+house price declines set in. The difficulty of empirically controlling for confounding factors may
+underlie the somewhat weak correlations between home prices and interest rates typically found
+in macro data (e.g. Dokko et al. 2011; Glaeser, Gottlieb, and Gyourko 2013; Kuttner 2012).
+In this paper, we identify the effect of interest rates on home buying by studying a sharp,
+unexpected drop in 2015 in the cost of mortgages insured by the FHA. For borrowers with
+below-average credit scores and limited funds for a down payment, which includes many firsttime homebuyers, FHA loans have been just about the only financing option since the financial
+2
+
+A number of papers explore the effect of the GSEs on mortgage rates. See, for example, Passmore, Sherlund, and
+Burgess (2005). Statistics in Bhutta, Popper, and Ringo (2015) imply that in 2014 the Federal Government insured
+or guaranteed at least half of owner-occupied home purchase mortgage originations (see Table 13).
+
+1
+
+crisis. In 2014, the FHA insured about one-fifth of all home purchase loans originated in the
+U.S., or nearly 600,000 loans, with about eight-in-ten FHA loans going to first-time homebuyers.
+The FHA charges borrowers an annual mortgage insurance premium (MIP) – a percentage of the
+expected average loan balance in the coming year – and this premium is added to the borrower’s
+monthly interest and principal payments. Thus, the MIP mimics an interest rate risk premium,
+and the FHA determines the size of this risk premium. 3 Following a surprise executive order
+from the Obama administration in January 2015, the FHA lowered the annual MIP by 50 basis
+points. For lower credit score, liquidity-constrained households, the MIP reduction represented a
+direct drop in the cost of mortgage credit they faced.
+Using this policy change, we implement a regression discontinuity design where the cost of
+mortgages for a large subgroup of the population dropped discontinuously, while all other
+economic conditions that might affect home buying decisions evolved smoothly or remained
+constant. Using detailed loan-level data, we find that the total number of home purchase loans to
+“FHA-likely” borrowers jumped discontinuously by nearly 14 percent when the new premiums
+went into effect. As explained in Section 2, this estimate nets out any shifts into FHA from
+alternative options such as private mortgage insurance (PMI). This discontinuity can be clearly
+seen in Figure 1, which we will discuss in more detail later and replicate in other datasets. 4
+Only one other paper, to our knowledge, estimates the extensive margin response of mortgage
+borrowing and home buying to interest rates in the United States using quasi-experimental
+methods. Adelino, Schoar, and Severino (2012) find a small increase in home sales among
+houses that recently became easier to purchase with cheaper GSE financing due to changes in the
+conforming loan limit. In addition, Martins and Villanueva (2006, 2009) study a program in
+Portugal and find that interest rate encouraged household formation and mortgage borrowing.
+
+3
+
+The base interest rate for FHA loans is market determined and, because FHA assumes the credit risk, is typically a
+little lower than the prime mortgage rate.
+4
+This paper builds on initial work in Bhutta and Ringo (2016). Two other papers also study the FHA MIP cut. Park
+(2017) studies the effect of the 2015 FHA MIP cut on mortgage maturity choice. Davis et al. (2016) estimate that
+about half of the rise in FHA loans from 2014 to 2015 was a result of borrowers shifting into FHA from other
+programs like PMI. However, their data makes it difficult to disentangle how much of the remaining FHA growth
+stems from the MIP cut as opposed to trend growth. In contrast, our high frequency data allows us to employ an RD
+design that generates a direct estimate of the MIP cut’s causal effect on borrowing.
+
+2
+
+Other researchers have used time series methods to estimate the effect of interest rates on home
+sales and homeownership, including Painter and Redfearn (2002) and Hamilton (2008).
+The discontinuous jump in home buying evident in Figure 1 implies a surprisingly quick
+response by households, in contrast to previous time-series based evidence (Hamilton 2008). We
+view it as unlikely that the MIP drop would cause people who were not already shopping for a
+home to immediately go out and apply for a mortgage. Instead, the drop in the MIP would
+probably be salient to those already shopping (almost surely their real estate agent or loan officer
+would know about it) and encourage more of them to bid on a house and get a mortgage. In
+other words, the MIP reduction may generate a higher “yield” of homebuyers from the pool of
+people shopping for a home at the time of the MIP cut.
+Another reason for an immediate rise in home buying is that a reduction in the FHA’s MIP, by
+lowering a mortgage applicant’s expected monthly payment, could ease borrowing constraints
+due to limits on borrowers’ debt-payment-to-income (DTI) ratios, which would increase the
+fraction of applications that can be accepted. Indeed, we provide evidence that DTI limits bind,
+and, more importantly, find a discontinuous drop in denial rates among FHA-likely borrowers
+after the MIP reduction. We estimate that this drop in denials could account for up to 40 percent
+of the overall rise in lending. While higher down payment requirements can dampen the
+response of housing demand to interest rates, as shown in Glaeser, Gottlieb, and Gyourko (2012),
+we provide novel evidence that binding DTI constraints amplify the response to interest rates. 5
+New regulations under Dodd-Frank that discourage lending to borrowers with DTI ratios in
+excess of 43 percent add to the importance of understanding the extent to which DTI limits bind
+and how such limits influence the response of housing markets to interest rates (Bhutta and
+Ringo 2015; DeFusco, Johnson, and Mondragon 2016).
+We also find that the effect of the MIP reduction on home buying shrinks as household income
+rises, with the top-quartile of FHA-likely households (those with annual incomes of nearly $100k
+and higher) largely insensitive to the premium cut. As Glaeser and Shapiro (2003) argue in the
+
+5
+
+Feldman (2001) simulates the effect of interest rates on homeownership through changes in DTI. Others have
+studied the likelihood of homeownership as a function of the likelihood of being credit constrained due to low
+income, low wealth or low credit score (e.g. Acolin et al. 2016). Other studies have shown the effect of credit
+constraints, including DTI constraints, on house prices, such as Anenberg et al. (2017) and Kuttner and Shim (2016).
+Johnson and Li (2010) show that a high DTI is predictive of the consumer having been denied credit.
+
+3
+
+context of the mortgage interest deduction, high-income households are likely to be homeowners
+regardless of interest rates as larger, detached homes tend not to be available for rent due to
+agency problems in home maintenance (Henderson and Ionnides 1983). Instead, interest rates
+may only influence intensive margin housing and mortgage decisions among high-income
+households.
+However, using the same RD design, we find no evidence that borrowers took out larger loans or
+paid more for their home (either by buying a larger home or by bidding up the price of a given
+home) in response to the reduced cost of credit. The lack of an intensive-margin response may
+stem from binding down payment constraints among FHA-likely borrowers, even those with
+relatively high incomes. That said, previous research has also found – among arguably less
+constrained borrowers – small intensive-margin responses to mortgage interest rates. DeFusco
+and Paciorek (2017) use a discontinuity in interest rates at the GSE conforming loan limit (the
+“jumbo-conforming spread”) to estimate a semi-elasticity of loan size to interest rates of only
+about 2 percent. Best et al. (2015) similarly exploit mortgage rate discontinuities in the U.K. and
+generate estimates slightly larger than DeFusco and Paciorek (2017). Moreover, survey
+estimates under hypothetical interest rate changes suggest small intensive-margin and
+willingness-to-pay elasticities (Fuster and Zafar 2015). 6
+We also employ a difference-in-difference design to test for longer-run effects on house prices,
+comparing FHA-reliant neighborhoods to less-reliant neighborhoods, but find little evidence that
+the MIP cut led to faster home price growth over the subsequent 12 months. 7 Altogether, our
+findings suggest that the reduction in FHA premiums increased home buying among lower
+income households, without much, if any, of the MIP cut being capitalized into house prices.
+The lack of house price effects in FHA-reliant neighborhoods differs somewhat from what has
+been found in higher-income markets. Adelino, Schoar, and Severino (2012) find modest price
+increases among relatively high-priced homes as their eligibility for cheaper, GSE-based
+financing increases. That said, Anenberg and Kung (2017) argue that house prices may not
+6
+
+One other paper, Jappelli and Pistaferri (2006), finds that mortgage borrowing in Italy was largely unresponsive to
+changes in the tax treatment of mortgage interest in the early 1990’s. See Zinman (2015) for a review of literature
+on the interest rate elasticity of non-mortgage of borrowing.
+7
+Davis et al. (2016) estimate that quality-adjusted sales prices grew slightly more from 2014 to 2015 for FHAfinanced homes compared to non-FHA-financed homes.
+
+4
+
+always react strongly to interest rates because home sellers can respond to demand shocks along
+non-price dimensions such as the time to sell. 8
+The rest of the paper proceeds as follows. In the next section we provide more background about
+the FHA premium cut. In section 2 we lay out the identification strategy. In section 3 we
+describe our data sources. Section 4 provides the main estimation results. Section 5 describes
+evidence supporting key identifying assumptions. Section 6 investigates the mechanisms by
+which reduced premiums lead to greater home buying. In section 7 we test for effects of the MIP
+cut on house prices. Finally, section 8 concludes.
+
+1. Mortgage Insurance and the Surprise FHA Premium Cut in 2015
+The ratio of the amount of a mortgage loan to the market value of the property securing the loan
+(known as the loan-to-value, or LTV ratio) is an important underwriting factor. High LTV loans
+default at higher rates, and creditors tend to suffer greater losses given default on such loans. To
+get approved, applicants with low down payments often need to pay for mortgage insurance,
+which helps protect creditors against losses in the event of default.
+In addition to several large private mortgage insurance (PMI) companies, the FHA, a Federal
+agency within the Department of Housing and Urban Development (HUD), is an important
+provider of mortgage insurance. The FHA does not extend credit, but insures loans extended by
+private lenders if the loan meets or exceeds the FHA’s underwriting standards, and is within
+statutory loan size limits. 9 Since 2012, 20-30 percent of all home purchase originations for 1-4
+family owner-occupied properties in the U.S. have carried FHA insurance. FHA-insured loans
+require a down payment as low as 3.5 percent of the property value, which can ease the transition
+into homeownership for first time homebuyers with little in the way of accumulated assets. In
+2014, more than 80 percent of FHA-insured home purchase loans went to first-time homebuyers,
+
+8
+
+Hilber and Turner’s (2014) finding of a negative effect of the mortgage interest deduction on homeownership in
+highly regulated housing markets implies capitalization of the deduction in such markets, but the actual effect of
+interest rates on house prices is not estimated.
+9
+The 2015 maximum loan size for a one-family house was $271,050 in most counties, and as high as $625,500 in
+high-cost areas such as counties in San Francisco.
+
+5
+
+and over three-quarters of FHA-insured loans had down payments of less than 5 percent. 10 FHA
+mortgage insurance premiums can also be substantially lower than those from PMI companies
+for many borrowers, particularly those with lower credit scores. 11
+The FHA charges a one-time upfront premium, set as a percentage of the original loan amount
+(and which can be financed). The FHA also charges an annual premium, set each year during
+the life of the loan as a fixed percentage of the expected average outstanding balance during the
+year. The premium rates are generally the same for all borrowers, regardless of credit risk. 12
+On January 7, 2015, the Obama administration announced that the FHA would be reducing its
+annual mortgage insurance premiums by 50 basis points, from 135 basis points to 85 basis points
+for typical FHA loans. 13 This reduction would lead to a decline in premium payments of about
+$1,000 for a $200,000 loan in the first year of the loan, and about $4,700 in the first five years.
+The FHA provided additional details two days later, indicating that the new premiums would
+apply in less than three weeks to loans that close on or after January 26, 2015, regardless of loan
+application date.
+The 2015 premium cut came after several increases in FHA’s premiums, beginning with a small
+rise in late 2008, and larger increases starting in 2010 (Figure 2). During the financial crisis and
+recession, FHA insurance became heavily used, and FHA suffered sizeable losses on the 2008
+vintage of loans in particular (Avery et al. 2010; HUD 2012). FHA began raising premiums to
+help rebuild reserves more quickly. Prior to 2010, the annual MIP was essentially flat for at least
+a decade.
+Because FHA’s reserves were still below target levels, the announcement on January 7th of the
+FHA premium cut appears to have been a real surprise. In its annual actuarial report released in
+
+10
+
+Source: HUD (2015).
+See the June 2016 Housing Finance at a Glance monthly chartbook published by the Urban Institute. Over half
+of FHA-insured mortgages in 2014 went to borrowers with credit scores under 680 (HUD, 2015). Fannie Mae and
+Freddie Mac, which purchased just under half of all new mortgage loans by dollar volume in 2015 according to
+Inside Mortgage Finance, by statute can only purchase loans with an LTV in excess of 80 percent if they have PMI.
+12
+Currently, annual insurance premiums differ very slightly if the loan amount exceeds $625,000 (add 5 basis
+points), or the LTV ratio at origination exceeds 95 percent (add 5 basis points). Premiums are significantly lower
+for loans with a maturity of 15 years or less, but 15-year FHA loans are rare.
+13
+Typical means a loan amount under $625,000 and LTV over 95 percent, but annual premiums were lowered by 50
+basis points for all 30-year loans.
+11
+
+6
+
+November, 2014, the FHA noted that the economic value of its insurance fund had increased in
+2014, but its capital ratio still stood at just 0.41 percent, well below the congressionally
+mandated 2 percent target (HUD 2014). Earlier in 2014, FHA Commissioner Carol Galante told
+the Washington Post, “[I]t’s not the time to do a wholesale rollback of the premiums. FHA’s
+financial condition is not where it should be yet.” 14 Additionally, a Housing Wire article in
+December, 2014 remarked, “Industry analysts said that despite the increased health of the [FHA],
+changes in the FHA mortgage insurance premiums were unlikely in 2015,” 15 Finally, the Urban
+Institute released an analysis on January 6, 2015 – the day before the announcement of the
+premium cut – arguing that, despite slower-than-expected improvements in their finances, the
+FHA could reduce its premiums (Bai, Goodman and Zhu 2015). The tone and timing of their
+discussion underscores the lingering questions around FHA’s finances and suggests there was
+little expectation for the announcement that would come the next day. Indeed, data from Google
+Trends are consistent with the announced FHA premium cuts being a surprise, with searches for
+“FHA mortgage” and “FHA mip reduction” being steady for several months and then suddenly
+spiking on January 8, 2015 – the day after the announcement. 16 Overall, we have not found any
+news article or blog indicating any expectation among real estate and mortgage industry
+participants for an FHA premium cut in the weeks and months just before the announcement. 17
+
+2. Identification and Estimation
+Our primary goal in this paper is to use the sharp 2015 FHA MIP cut to study the causal response
+of home buying to interest rates in a regression discontinuity (RD) design. Two key attributes of
+the FHA MIP cut, as discussed in the previous section, are, first, that it was a surprise and,
+second, that there was little time between its announcement and implementation that might
+encourage strategic delays in home buying.
+
+14
+
+ElBoghdady, Dina. “Why a government agency won’t lower mortgage fees for borrowers.” Washington Post,
+April 21, 2014.
+15
+Lane, Ben. “18 Senators, mortgage bankers tell HUD: Time to lower FHA premiums.” Housing Wire, December
+18, 2014.
+16
+See Appendix Figure A1
+17
+We searched for FHA-related articles available on the internet prior to January 7, 2015 using Google’s datespecific search tool.
+
+7
+
+The MIP cut mimics an interest rate decline, but helps avoid a central difficulty in estimating the
+effect of interest rates, which is the endogeneity of rates to a host of aggregate- and individuallevel confounding factors. A closer examination of one recent shock to interest rates illustrates
+these difficulties. In the late summer of 2016, the prevailing prime mortgage rate stood at around
+3.5 percent. Following the surprising results of the U.S. presidential election on November 8th,
+rates jumped by approximately 50 basis points over a few days, superficially providing a case
+study to examine the response of mortgage borrowing to higher rates. However, the sudden
+jump in rates reflected a shift in market expectations about the future of the economy. The value
+of the stock market and indexes of consumer confidence and small business confidence all
+jumped upon news of the election, likely in response to expectations of expansionary policies.
+This surge in confidence likely affected housing demand. Furthermore, as rates moved up, so did
+consumers’ expectations of the future path of rate increases. These updated expectations may
+have pulled future home buying demand forward, as can be seen in the representative Surveys of
+Consumers run by the University of Michigan. Between August 2016 and January 2017 the
+number of homeowners who responded that it was a good time to buy a house due to low interest
+rates fell from 53 to 38 percent. Nearly offsetting this change, however, the number who
+responded that it was a good time to buy because rates were likely to rise soon rose from 6
+percent to 20 percent. In contrast to endogenous interest rate changes, the discontinuous drop in
+the FHA MIP in January 2015 occurred while other determinants of housing demand evolved
+more smoothly (as we will show later).
+Our main empirical approach tests for a discontinuity at the time of the MIP cut in the share of
+home purchase loans going to borrowers with below-average credit scores and less than a 20
+percent down payment – characteristics that make them most sensitive to FHA premiums. In our
+primary dataset from Optimal Blue, which we describe in the next section, about 85 percent of
+borrowers with a FICO score below 680 and an LTV over 80 percent used FHA insurance during
+the sample period. We refer to such borrowers throughout the paper as “FHA-likely” borrowers,
+or “treatment group” borrowers. All other borrowers (implicitly the control group) used FHA
+insurance only 17 percent of the time. 18
+
+18
+
+We also examine several alternative definitions of the treatment and control groups in the appendix.
+
+8
+
+Our approach of testing for a discontinuity in the share of loans to lower-score, higher-LTV
+borrowers is motivated by two issues. First, a more straightforward approach of simply testing
+for a discontinuity in the total volume of home purchase loans is confounded by the strong
+seasonal cyclicality of the mortgage market. In practice, a discontinuity can be hard to
+distinguish from a sufficiently steep slope. To illustrate the difficulty, in Figure 3 we plot the
+volume of home purchase loans from mid-2012 through 2015 by week of application, with
+vertical lines representing the week of January 26 for each year. The rate of change in loan
+volume is typically rapid through the late January/early February period, so distinguishing any
+discontinuity in lending, even one of substantial size, from the prevailing upward trend would be
+challenging. Instead, we test for a discontinuity in the share of all home purchase loans going to
+treatment group borrowers, which displays almost no seasonality as the control group absorbs
+seasonal trends.
+A second issue is that some borrowers seeking a high-LTV loan may have a choice between PMI
+and FHA mortgage insurance, and the decrease in FHA premiums may have pulled some of
+these borrowers away from PMI and into FHA. Figure 4 shows a clear discontinuity in the FHA
+share of home purchase loans, from about 22 percent to 27 percent, but this discontinuity likely
+overstates the effect of the MIP cut on new borrowing. Although seasonality is not an issue with
+the FHA share, the discontinuity in the FHA share is confounded by borrowers shifting from
+PMI into FHA. In contrast, our treatment group share of home purchase loans is not affected by
+such shifting. If, for instance, a borrower with a FICO score of 670 got FHA insurance instead
+of PMI after the MIP cut, our treatment group share would not change – that borrower would
+contribute one loan to the numerator regardless.
+Focusing on home purchase loans for owner-occupied properties, we estimate the equation:
+𝑦𝑦𝑖𝑖 = 𝛽𝛽0 + 𝛽𝛽1 𝑥𝑥𝑖𝑖 + 𝑔𝑔(𝑡𝑡𝑖𝑖 |𝑥𝑥𝑖𝑖 ) + 𝜀𝜀𝑖𝑖
+
+(1)
+
+where y is an indicator for the borrower being a member of the treatment group. The variable x is
+a dummy for either the date of application or the date of interest rate lock, depending on our
+
+dataset, being within or after the week of January 26, 2015. Observing the application date in the
+data is key to our study because this date marks the point when a decision to borrow occurs, as
+
+9
+
+opposed to the closing date of a loan which can occur weeks or months after application. 19
+Finally, g(t|x) is a flexible function in the week of application or rate lock. The function g(·) is
+specified relative to the week of rate lock, rather than the exact date, to absorb day-of-the-week
+effects (mortgage applications exhibit strong periodicity within the week). Assuming y is a
+continuous function of t in the absence of the MIP cut, least-squares estimation of (1) yields a
+consistent estimate of β1, the effect of the FHA MIP reduction on the treatment group share of
+home purchase loans. Following Imbens and Lemieux (2008), we model g(·) as a local linear
+function with different slopes on either side of the January 26 breakpoint. We try a variety of
+bandwidths, and cluster all standard errors by week of rate lock.
+A key concern in any RD design is whether the “running variable”—in our case the week of
+application or rate lock—would have been manipulated (McCrary 2008). As already
+emphasized, the MIP cut was a surprise and was quickly implemented, limiting concerns about
+borrowers strategically delaying their mortgage applications. However, a remaining concern is
+that existing mortgage applicants at the time of the announcement may have had an incentive to
+re-apply for a mortgage after January 26th to get the lower premium. Later in Section 6 we
+discuss how the FHA explicitly mitigated such incentives, and present empirical evidence
+supporting this exogeneity assumption.
+Finally, the consistency of our estimator requires that membership in the treatment group be
+exogenous to the FHA MIP reduction. We believe this assumption is a fair one. The primary
+threat to this assumption is if low-FICO borrowers with the liquid assets to potentially make a
+down payment of 20 percent or more decided to put less down and take an FHA loan when the
+MIP dropped. Sub-680 FICO score borrowers with a down payment of 20 percent or more were
+relatively uncommon even before the MIP cut, however. Furthermore, the decision to put less
+than 20 percent down would be quite costly, as the borrower would then have to pay mortgage
+insurance on the entire loan, as well as interest and insurance on the additional borrowed funds.
+Later in Section 6 we discuss an explicit test of this exogeneity assumption, providing evidence
+that there was little or no switching into the treatment group as a result of the reduced FHA
+premiums.
+
+19
+
+Rate locks usually occur shortly after application.
+
+10
+
+3. Data
+Data for this project come from several sources. One source is loan-level data reported under the
+Home Mortgage Disclosure Act (HMDA). These data cover nearly the entire residential
+mortgage market, and data collected include FHA status, the dates of application and origination,
+loan amount, loan purpose (home purchase, refinance or home improvement), property type,
+occupancy status, lien status and application outcome (originated, denied, withdrawn by
+applicant, etc.), borrower socioeconomic characteristics including income, race and ethnicity,
+and the census tract of the securing property. 20
+In addition, we draw on loan-level rate lock data provided by Optimal Blue. 21 Optimal Blue is a
+lending services company that provides mortgage lenders with a software platform that can be
+used during the interest rate lock process. Optimal Blue retains the data entered by lenders, and
+these data can be purchased for research. In 2014 and 2015 they recorded approximately
+1,600,000 rate locks for owner-occupied home purchase loans, about one quarter of the number
+of mortgage originations reported in HMDA over that period. Lenders using the Optimal Blue
+platform tend to be smaller and thus the data do not include loans originated by the largest banks
+such as Wells Fargo and JPMorgan Chase. The Optimal Blue data include borrower FICO score,
+DTI and LTV ratios as well as the contract rate, FHA status, date of rate lock, loan amount,
+occupancy and the ZIP Code of the securing property. Unlike HMDA, the final disposition of the
+application is not available in this data – some applications may be withdrawn or denied after the
+borrower locks in a rate.
+In order to assess how our estimated elasticity varies with borrowers’ income, we perform a
+merge of home purchase loans in the HMDA and Optimal Blue data sets. Loans are merged
+based on loan amount (rounded to the nearest thousand), location (as determined by the overlap
+between ZIP Code Tabulation Areas and census tracts) and loan type (i.e. FHA, VA, RHS or no
+government insurance). We also require that the date of rate lock from Optimal Blue fall
+
+20
+
+The public version of the HMDA data does not include application and origination dates. See Bhutta and Ringo
+(2016) for more details on the information available in the HMDA data.
+21
+The data from Optimal Blue do not contain lender or customer identifies, or complete rate sheets. We report only
+aggregate statistics.
+
+11
+
+between the dates of loan application and origination from HMDA. We then drop all non-unique
+matches. This leaves about 600,000 matches for 2014 and 2015, 540,000 of which were for
+owner-occupied properties.
+Finally, to verify that our results are robust to the choice of data set, we replicate our estimation
+on a large sample of loans provided by McDash Analytics. The McDash data are composed of
+the servicing portfolios of the largest mortgage servicers in the U.S. These data cover over half
+of one- to four-family mortgage loans originated in 2014 and 2015, and, in contrast to the
+Optimal Blue data, coverage is skewed towards larger lenders.
+The McDash data include information on the origination date, loan amount, contract rate and
+LTV ratio of the loan, as well as ZIP Code of the securing property and FICO score and backend DTI ratio of the borrower. To get the associated application dates for these loans, we must
+merge these data with HMDA data. The merge is performed on loan amount, county, origination
+date, loan purpose and loan type. 22 McDash has records for 1.6 million home purchase loans
+originated in a 50 week window around the 2015 FHA MIP reduction, and we match over
+900,000 to HMDA after dropping observations that were non-unique on the matching criteria in
+either data set.
+Summary statistics for each loan-level data source are presented in Table 1, for both all home
+purchase loans and for those with FHA insurance. FHA loans tend to be for smaller dollar
+amounts and carry higher LTV ratios, while FHA borrowers tend to have lower incomes and
+weaker credit scores than the overall borrower population. The HMDA data are the most
+representative, as the vast majority of residential mortgages are covered. Loans in the Optimal
+Blue data are slightly smaller on average and more likely to have FHA insurance. FHA loans or
+those with otherwise risky characteristics were less likely to have a unique match between the
+two data sets – the merged HMDA/Optimal Blue sample has a lower FHA share, lower DTI and
+LTV ratios, and a higher average FICO score. Relative to Optimal Blue, McDash covers a
+higher loan amount, higher income and a generally less risky borrower population.
+
+22
+
+In accordance with our contract with Black Knight, the data provider, institutional identifying information was
+dropped before the merge and was not available to researchers in the final, merged data set.
+
+12
+
+4. The Effect of the MIP Cut on Home Buying
+As mentioned earlier, Figure 1 illustrates our main finding, plotting the share of owner-occupied,
+home purchase loans going to the treatment group against the week of rate lock, using the
+Optimal Blue data. Rate lock typically occurs about one week after the loan application is
+recorded, and should therefore provide a good proxy for the FHA pricing regime the borrower
+faced. A local polynomial curve is fitted over the weekly data, and a vertical line represents the
+week of January 26, 2015. There is only a muted seasonality to the treatment group share (which
+peaks in the late fall and bottoms out in the early summer), in comparison to the large
+fluctuations in total lending apparent in Figure 4. A jump in lending to the treatment group
+coincident with the FHA MIP reduction is quite apparent, with approximately 18 percent of
+loans going to treatment group borrowers before the change and 20 percent after.
+Estimates of the discontinuity in treatment group share based on the Optimal Blue data are
+presented in the first row of Table 2. The function g(·) is estimated separately on either side of
+the breakpoint with a triangular weighting kernel. We show results for a variety of bandwidths,
+and find a statistically significant effect in all of them. At the narrowest bandwidths of 12 and 25
+weeks, the point estimates match Figure 1, suggesting the new premiums increased the treatment
+group share of loans by about 2 percentage points, from 18 percent to 20 percent. The estimate
+at a bandwidth of 50 weeks is smaller at 1.2 percentage points. Overall, we estimate from these
+data that the MIP reduction led to an increase in borrowing of 8 to 14 percent by the treatment
+group. While these estimates assume total borrowing by the control group was unaffected by the
+reduced annual MIP, results are quite similar when we use more restrictive definitions for the
+control group, including specifications under which the control group has FHA utilization rates
+below 2 percent. See Appendix Table A1 for results under various different treatment and
+control group specifications.
+Next, we verify that the observed discontinuity in lending is not peculiar to the Optimal Blue
+data. For example, it is conceivable that a large group of borrowers switched lenders as a result
+of the new premiums, and only their new lenders are covered by Optimal Blue. To rule out such
+possibilities, we turn to the matched HMDA/McDash data, which tends to cover the largest
+lenders whereas Optimal Blue tends to cover smaller lenders. We plot the share of owner13
+
+occupied, home purchase loans in the HMDA/McDash dataset against the week of application in
+Figure 5. A large discontinuity in lending to the treatment group at the week of January 26 is
+apparent in these data as well. Estimates of the discontinuity from equation (1) are presented in
+the second row of Table 2. The RD estimates are stable and statistically significant across the
+choice of bandwidth, and similar to the estimates from Optimal Blue – the share of lending to the
+treatment group increased by approximately 13 percent around January 26, 2015.
+Going back to Figure 5, we can see that after the week of January 26 the treatment group fraction
+declines and returns to the pre-MIP-cut level within 20 weeks. While it is tempting to try and
+draw conclusions about the persistence of the effects of the MIP cut (or lack thereof) from
+Figures 1 and 5, it is important to keep in mind that our RD estimates only identify the effects of
+the MIP cut near the dates when the cut was announced and went into effect. Thus, Figure 5
+does not necessarily imply the effect died out within 20 weeks, nor does Figure 1 necessarily
+imply that the effect was persistent.
+To help ensure that the estimated discontinuity is not an artifact of the time of year, we run
+placebo RD tests around the week of January 26 the year before the MIP reduction (2014) and
+the year after (2016; year after estimates are only available with the Optimal Blue data since
+2016 HMDA data were not yet available at the time of writing). The estimates, also presented in
+Table 2 across three bandwidths, are all close to zero, inconsistent in sign, and statistically
+insignificant in all but one instance. Seasonality does not appear to be driving our main results.
+
+4.1 Heterogeneous Responses by Borrower Income
+We test for a heterogeneous response to the reduced premiums by dividing treatment group
+borrowers in the merged Optimal Blue/HMDA data into four quartiles based on HMDA reported
+applicant income. The cutoffs are annual incomes of $46,000, $66,000 and $96,000. We
+estimate a discontinuity in the share of all lending going to each treatment group subsample as in
+(1). Results are reported in Table 3. 23 The discontinuity is strongest in the lowest income
+
+23
+
+Summing over the four income categories, the estimated discontinuities, in percentage point terms, are smaller in
+the merged Optimal Blue/HMDA data than those in the Optimal Blue data alone (Table 2). This is because the
+merged data contains a lower proportion of FHA and treatment group borrowers (see Table 1). The estimated
+discontinuity as a percent of the 2014 treatment group share is similar in both the merged and non-merged data.
+
+14
+
+sample, and weakens as income increases. We repeat the analysis on the merged
+HMDA/McDash data, and find very similar results, also shown in Table 3. In both data sets, the
+estimated effect decreases with borrower income. It appears that among households with annual
+incomes above $96,000, the demand for home purchase loans is essentially rate inelastic.
+Applicants with lower incomes may be relatively more sensitive to reduced premiums for two
+reasons. First, lower-income borrowers may have higher DTI ratios, and therefore more likely to
+be on the margin of denial. Reduced premiums could then have a greater effect on their
+probability of being approved for a loan. Second, lower income households may have more
+price-elastic demand for owner-occupied housing, in which case reducing premiums would bring
+relatively more lower-income applicants into the market.
+
+5. Validity of the Identification Strategy
+Before we move on to discussing the mechanisms behind the discontinuity in home buying, in
+this section we address four potential issues related to the validity of the RD design. They
+include: exogeneity in the timing of the MIP reduction with respect to other macroeconomic
+trends; the extent to which lenders pass-through the MIP cut to borrowers, exogeneity of the
+assignment variable; and selection into the “treatment” group.
+
+5.1 Was the Timing of the MIP Reduction Exogenous?
+To be certain that we can attribute the increase in treatment group share of borrowing to the
+reduced FHA premiums, we need to make sure that the other economic drivers of housing
+demand did not vary discontinuously around January 26. In Figure 8 we plot a variety of
+economic indicators across time around the date of the premium cut. These are the yields on 1-,
+and 10-year Treasury securities, the S&P 500 stock market index, and the seasonally adjusted
+unemployment rate. None of these measures show evidence of a discontinuity around January
+26. In addition, we rerun our main RD specifications including these macro series as control
+variables. The results, shown in Table 2, are robust to adding these controls.
+
+15
+
+5.2 Pass-Through of the MIP Reduction to Borrowers
+Was the MIP cut fully passed through to borrowers? Previous research, for instance, has found
+that price reductions in the mortgage backed securities market are not fully passed through to
+consumer-facing interest rates, particularly in times of high mortgage borrowing volume (Fuster,
+Lo, and Willen 2017). This research attributes this incomplete pass through to capacity
+constraints, as mortgage retailers become overwhelmed with demand.
+To be sure that the MIP cut was passed through, we test for a discontinuity in the contract
+interest rate among treatment group borrowers relative to control group borrowers. Full pass
+through of the MIP reduction to borrowers would imply no change in this rate. Because the
+premium cut changed the composition of treatment group borrowers by inducing more marginal
+households into the pool of borrowers, we try specifications with and without controls for
+various underwriting factors that could influence the rate. Results are presented in Table 4.
+There appears to be little or no effect on the interest rates treatment group borrowers paid,
+regardless of specification, implying full pass through of the MIP reduction to borrowers.
+Notably, the FHA MIP cut we study occurred in January, near the trough of the highly cyclical
+mortgage market, when there may have been slack capacity for lenders to originate more loans
+and allow for full pass through.
+
+5.3 Did Borrowers Shift their Loan Application Date?
+As noted earlier, the validity of our RD design depends on whether borrowers delayed their loan
+applications upon hearing the news to take advantage of the lower premiums. A related concern
+is that, by the time of the announcement, those who had already submitted an application but not
+yet reached settlement could withdraw their application and reapply to get the lower premiums.
+The jump we see in treatment group lending might represent these delayers and withdrawers,
+rather than a true increase in lending.
+However, the implementation of the MIP reduction removed most of the incentive for borrowers
+to withdraw and re-apply for and FHA loan. Eligibility for the lower FHA premium depends on
+the FHA “case assignment date” rather than the loan application date. When the new MIP was
+announced, FHA also announced that existing FHA mortgage applicants who had not yet closed
+16
+
+could simply cancel their existing case number and get a new one in order to receive the lower
+MIP, without withdrawing the loan application (as long as they close on or after January 26th). 24
+Indeed, many borrowers appear to have moved their case number assignment dates. In Figure 6,
+using loan-level data obtained from HUD on all FHA loans originated from 2011 through 2015
+merged to HMDA, we plot the average number of days between loan application and case
+number assignment for all FHA home purchase loans by week of loan application. While the
+typical gap is approximately one week, the gap rose substantially for loans with application dates
+in December 2014 and early January 2015. This pattern is consistent with many borrowers
+getting new case numbers assigned post-January 26, despite their much earlier loan application
+dates.
+While there was no incentive for FHA applicants to withdraw in response to the MIP news, and
+most treatment group borrowers were FHA applicants, it is still possible some treatment group
+applicants withdrew and then reapplied. Using the merge between HMDA applications and
+Optimal Blue rate locks, we can test for an increase in the withdrawal rate of treatment group
+applications (among those that made it to rate lock before withdrawing).
+In Figure 7 we plot the share of all withdrawn loans for which the applicant was a treatment
+group household, by the week of application. A rise in treatment group withdrawals in late 2014
+and early 2015, or a sharp fall in withdrawals after January 26, 2015, might suggest that
+borrowers were manipulating their application date in response to the lower premiums. No such
+pattern is apparent, however, as the share of withdrawn loans by treatment group applicants
+holds steady for the months around the MIP reduction.
+In addition to withdrawals, we may be concerned about the possibility that some borrowers
+delayed applying in response to the news of the lower premiums. Again, there was no actual
+incentive to do so, as borrowers could always get a case number assignment after the 26th even
+with an earlier application date. There was also very limited scope for delay – the White House
+announced the premium reduction less than 3 weeks before it was implemented. Inspection of
+Figures 1 and 5 also reveals no indication of a sudden dip in applications or rate locks in the few
+
+24
+
+FHA made clear the ability for borrowers to get a new case number assignment date in an FAQ released at the
+time they announced the new premium structure. See Appendix Figure A2.
+
+17
+
+weeks just before the premium reductions, suggesting that borrowers were not delaying their
+applications.
+
+5.4 Is Selection into the Treatment Group Exogenous?
+We demonstrate above that the fraction of home purchase loans going to borrowers with a FICO
+score below 680 and an LTV ratio in excess of 80% jumped discontinuously when the FHA
+reduced its premiums. A concern with our interpretation of this finding is that the amount of
+down payment is a choice made by the borrower, so there is potential for endogenous selection.
+If borrowers who counterfactually would have put 20% of the purchase price or more down
+under the old FHA premiums put down less than 20% given the new MIP, our estimates would
+be biased upward.
+We believe endogenous selection into the treatment group is at most a minor source of bias, for
+several reasons. First, borrowers with a FICO score below 680 were very likely to be part of the
+treatment group regardless of the FHA’s policy—in 2014, only 10 percent of these low-score
+borrowers had an LTV ratio less than or equal to 80 percent in the Optimal Blue data.
+Essentially all of these households would have had to “switch” into the treatment group in
+response to the MIP reduction to explain the magnitude of the discontinuity seen in Figure 1.
+Second, the cost of borrowing jumps discontinuously at an 80% LTV ratio, as borrowers have to
+pay annual and upfront insurance premiums on the entire loan balance once they cross that
+threshold, in addition to interest and insurance on the additional amount borrowed. Borrowers
+with the liquid assets available for a 20% down payment who chose to put less down and get an
+FHA loan would be costing themselves a substantial amount of money.
+Third, while we cannot theoretically rule out the existence of borrowers who respond to the MIP
+reduction by getting an FHA loan despite being able to afford a 20 percent down payment, we
+can test for their presence. For a given house value, borrowers face a budget constraint, trading
+off between the amount of down payment (conversely, the LTV ratio) and the amount of their
+monthly mortgage payments. With mortgage insurance required above an 80 percent LTV ratio,
+both the total and marginal “cost” of a higher LTV ratio jump at this threshold. This notch in the
+budget constraint at 80 percent LTV explains the commonly observed bunching of borrowers
+18
+
+right at this threshold. In the Optimal Blue data, over half of borrowers with a FICO score below
+680 and an LTV less than or equal to 80 percent in 2014 had an LTV exactly equal to 80 percent.
+If we assume that borrowers have convex preferences over combinations of LTV ratio and
+monthly payments (i.e. if the disutility from the marginal dollar of down payment and debt
+service payments is increasing in their respective levels) then we can show:
+1) Any borrower whose optimal LTV under the old (higher) MIP was less than 80 percent
+will have the same optimal LTV under the new (lower) MIP.
+2) For any borrower whose optimal LTV under the new MIP is above 80 percent, and whose
+optimal LTV under the old MIP was less than or equal to 80 percent, the optimal LTV
+under the old MIP was exactly 80 percent.
+We can therefore test for endogenous selection into the treatment group, as any such “switching”
+borrowers should be of the second type described above – coming from the group who would
+choose exactly 80 percent LTV under the old MIP.
+We redefine the treatment group as households with a FICO score below 680 and an LTV ratio
+in excess of 79 percent and re-estimate equation 1. Results are quite similar to those presented in
+Table 2, indicating that there was not a significant shift of borrowers from an 80% LTV ratio to
+the treatment group in response to the lower MIP. We therefore conclude that the assumption of
+exogeneity of treatment group status is sound. A graphical demonstration of points 1) and 2)
+above, and a table of results using the redefined treatment group are included in the appendix.
+
+6. Mechanism
+Understanding the mechanism by which reduced FHA MIPs increased lending to the treatment
+group is necessary for the extrapolation of these results to other contexts and the broader
+population. We posit that two distinct channels are responsible. First, more applicants may have
+decided to buy homes in response to lower premiums (the typical quantity-demanded response to
+a price decrease). Second, reduced premiums mechanically improve applicants’ DTI ratios and
+could thereby have led to many borrowers being approved for loans that they would otherwise
+have been denied. In this section we provide evidence that both mechanisms were at work.
+
+19
+
+6.1 Denial Rates and the DTI Ratio
+A reduction in DTI ratios leading to a reduction in denials is an intuitively appealing channel,
+given the rapid effect of the new premiums. According to 2014 HMDA data, about 18 percent of
+FHA home purchase loan applications were denied, and lenders cited DTI as a reason for denial
+in 31 percent of denied applications with a reported reason. DTI ratios on FHA loan applications
+should drop mechanically with the annual premiums, without requiring borrowers to change their
+behavior. Was the reduction in annual premiums large enough to change denials to acceptances
+for an appreciable number of mortgage applicants? Using the loan level data, we can calculate
+how much a 50 basis point change in mortgage insurance premiums means for borrower DTI
+ratios. Taking FHA borrowers in 2015 (after the MIP reduction), we approximate their
+counterfactual DTI ratio as:
+𝐷𝐷𝐷𝐷𝐷𝐷𝑐𝑐 = 𝐷𝐷𝐷𝐷𝐷𝐷𝑓𝑓 + 0.005
+
+𝐿𝐿
+𝑌𝑌
+
+(2)
+
+where DTIc is the counterfactual DTI ratio, DTIf is the ratio in the data, L is the loan amount at
+origination and Y is the borrower’s income as reported in HMDA. In the merged
+
+HMDA/Optimal Blue data, the average FHA borrower in 2015 would have a DTI 1.6 percentage
+points higher under the old premiums than under the reduced premiums. In the merged
+HMDA/McDash data, average DTI ratios would have been 1.4 percentage points higher. If
+many applicants have a DTI ratio within a percentage point or two of the margin for denial, a 50
+basis point change in premiums is certainly enough to swing the outcome for a sizable
+population.
+The FHA imposes underwriting standards that tighten in a stepwise manner as the applicant’s
+DTI ratio increases. A basic cap of 43 percent is imposed on manually underwritten loans with
+no compensating factors. For borrowers with an additional compensating factor, this limit may
+be raised to 47 percent. With two factors, it is raised again to 50 percent (see the FHA Single
+Family Housing Policy Handbook, 2016). 25 Using the FHA’s automated underwriting tool,
+
+25
+
+Acceptable compensating factors include cash reserves, residual income not included in the DTI calculation and
+proof that the new mortgage payment represents a minimal increase over previous housing payments.
+
+20
+
+borrowers may be approved with a DTI ratio up to 57 percent. Additionally, lenders may impose
+overlays and, in particular, tighten the availability of credit at DTI ratios of 45 and 55 percent.
+FHA borrowers just under one of these thresholds in 2015 would have been over the threshold if
+they had to pay the old, higher premiums. In Figure 9 we plot the sample frequency of DTI
+ratios for all FHA home purchase loans in 2014 and 2015, in bins of a single percentage point.
+For borrowers with a FICO score below 620, the 43 percent DTI cutoff is clearly relevant. For
+borrowers with a higher FICO score, we can see substantial drop-offs in the sample density at 45,
+50, 55 and 57 percent. A significant fraction of FHA borrowers have a DTI ratio close enough to
+an underwriting cutoff such that a 50 basis point change in their insurance premiums could affect
+their probability of getting denied.
+If the new premiums caused increased lending to the treatment group by reducing DTI-based
+denials, we would expect to see a discontinuous drop in the overall denial rate around January
+26, 2015. Unfortunately, a direct test of this prediction is confounded once again by the
+seasonality of mortgage markets. Denial rates fall rapidly through the early months of every
+year, violating the continuity assumption necessary for consistency of an RD estimator.
+As a next-best alternative, we turn to the logic of comparing treatment and control groups.
+Denial rates should only be affected for borrowers limited to FHA loans. Unfortunately, HMDA
+is our only source for data on denied loan applications. We therefore do not have FICO score or
+LTV ratio information for these applicants, and so we cannot use our previously defined
+treatment and control groups. 26
+While we do not have credit score or LTV data for HMDA applications, HMDA data do provide
+applicant race, which is highly correlated with credit score and FHA status. Among black
+applicants, about 53 percent of home purchase applications (excluding VA applications) in 2014
+were for FHA loans, compared to just 10 percent among Asian applicants, and previous research
+has found large gaps in credit scores between black and Asian borrowers. 27 If the MIP reduction
+
+26
+In Appendix Table A3, we show that the denial rate for FHA loan applications dropped discontinuously on
+January 26, 2015, relative to all other applications. However, the reduction in premiums may have led to changes in
+the composition of the FHA applicant pool, so the fall in denial rates may reflect stronger FHA applicant
+underwriting factors in addition to any easing of DTI constraints.
+27
+Bhutta and Canner (2013) document large differences in credit scores between black and Asian homebuyers of
+70-80 points, on average.
+
+21
+
+made any given FHA application more likely to qualify, the denial rate of black applicants
+should have fallen relative to Asian applicants around January 26, 2015.
+We test for a relative decline in the black/Asian denial rate in the HMDA data. Taking
+individual loan applications in HMDA as our unit of observation, we estimate:
+𝑑𝑑𝑖𝑖 = 𝛽𝛽0 + 𝛽𝛽1 𝑥𝑥𝑖𝑖 + 𝛽𝛽2 𝑥𝑥𝑖𝑖 ∙ 𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵 + 𝑔𝑔(𝑡𝑡𝑖𝑖 |𝑥𝑥𝑖𝑖 ) + ℎ(𝑡𝑡𝑖𝑖 |𝑥𝑥𝑖𝑖 ) ∙ 𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵𝐵 + 𝜀𝜀𝑖𝑖
+
+(3)
+
+where Black is an indicator that the applicant or co-applicant was black, and di indicates that the
+
+application was denied. The running variable t is again the week of application, while xi indicates
+the application date was on or after January 26, 2015. The functions g and h are flexible
+functions of time, with slopes that can vary discontinuously across the January 26 thresholds and
+allow for different levels and time trends in black and Asian denial rates. We restrict the sample
+to applications for which all applicants were recorded as being either black or Asian, and for
+which a credit decision was reached. The parameter of interest, β2, represents the discontinuous
+change in black denial rates, relative to Asian denial rates, when the premiums were reduced.
+The results, presented in Table 5, indicate that black applicants became approximately 1
+percentage point less likely to be denied after the MIP reduction, relative to Asian applicants. As
+can also be seen in Table 5, no statistically significant discontinuity appeared around January 26,
+2014 – when there was no MIP cut – suggesting the estimated effect is not an artifact of
+seasonality. The reduced premiums appear to have increased overall borrowing at least in part
+by reducing the denial rate of borrowers who rely heavily on FHA insurance.
+About half of home purchase applications from black applicants were for FHA loans. Assuming
+the reduction in FHA premiums had no effect on the denial probability of a non-FHA
+application, conditional on risk characteristics, these estimates suggest the MIP cut reduced the
+probability of any given FHA applicant being denied by about 2 to 3 percentage points.
+Approximately 736,000 applications for home purchase FHA loans for owner-occupied single
+family homes reached a credit decision and were recorded in the HMDA data in 2014.
+Extrapolating from the previous estimates, the reduced premiums could have turned
+approximately 15,000 to 22,000 of these from denials into originated loans. With about 2.7
+million total home purchase originations in 2014, the denial rate channel could therefore explain
+
+22
+
+from 28 to 40 percent of the two percent total increase in lending we previously estimated the
+FHA premium reduction was responsible for.
+Potentially confounding these results on denial rates is the possibility that the MIP reduction
+altered the composition of the pool of applicants. If marginal applicants tend to be better
+qualified, that could explain the reduction in the denial rate. However, as demonstrated in
+Section 5.1, the increase in lending was particularly concentrated among lower-income
+households and such borrowers may be relatively less qualified. To check for compositional
+changes, we test for a discontinuity in the FICO scores of black borrowers relative to Asian
+borrowers on January 26, 2015. Equation (3) is re-estimated on the Optimal Blue/HMDA
+merged data, using reported FICO score as the outcome variable. Results are presented in Table
+5. We estimate that the average FICO score of black borrowers dropped a small amount, a few
+points on a scale that runs from 300 to 850. The estimated discontinuity is also only statistically
+significant under one of the three bandwidth specifications we use. This data is inherently
+censored – we only observe FICO scores for applications that made it to rate lock – but the pool
+of black borrowers shows at most a minor weakening of creditworthiness following the MIP
+reduction.
+
+6.2 Volume of Applications
+In addition to a change in the denial rate, the MIP reduction could have increased treatment
+group borrowing by encouraging a greater quantity of demand for loans. While home buying
+can be a lengthy process, Figures 1 and 5 indicate that there was a nearly immediate response to
+reduced premiums. If marginal applicants respond to changes in the cost of credit within a week
+or two, this suggests there is a substantial pool of potential home buyers that are actively
+searching but uncommitted to applying for a mortgage. Such households may only learn about
+their total borrowing costs when they are close to the decision point and contact a broker or loan
+officer.
+In this section, we provide evidence that the reduction in FHA premiums caused more
+households to submit home purchase mortgage applications. As we discussed previously, the
+seasonality of the mortgage market makes looking for discontinuities in the overall volume of
+23
+
+applications or originations tricky. One way of dealing with the seasonality is to identify a
+treatment and control group, as we do in section 4. FICO and LTV information is not available
+in HMDA, so this method won’t work for estimating the effect on the number of applications. A
+second option is to control for seasonal effects and estimate a discontinuity in the deviations
+from the seasonal trend.
+To test for an effect of the reduced premiums on demand, we follow the second option,
+controlling for seasonal variation by estimating a discontinuity in the year-over-year change in
+the log of the weekly volume of home purchase loan applications and originations. We reestimate (1) with these weekly growth rates as the outcome variable. Results are presented in
+Table 5. The estimates are somewhat imprecise and sensitive to choice of bandwidth, however,
+they are consistent with the reduced MIPs causing a jump in total applications and originations
+of 3 to 5 percent. 28 The estimates of the effect on loan volume are greater than on application
+volume, which fits the theory that denial rates dropped. Standard errors are too large to
+distinguish the effect sizes from each other statistically, however. As can also be seen in Table
+5, there is no evidence of discontinuity in total lending or applications around January 26, 2014,
+suggesting the discontinuity at the time of the MIP cut in 2015 are not driven by residual
+seasonal factors. In Figure 10, the annual growth in the number of applications is plotted by
+week around the premium cut on January 26, 2015 and around a placebo date on January 26,
+2014.
+
+7. The Effect of the MIP Cut on Loan Amounts and Home Prices
+In addition to the extensive margin of home buying, borrowers may respond to a reduction in
+their cost of credit along the intensive margin by bidding more for a given home, purchasing
+more expensive properties, and/or taking out larger loan amounts. Increasing demand along both
+the extensive and intensive margins could lead to higher house prices. In this section we estimate
+
+28
+For the volume regressions, we omit estimates using the 50 week bandwidth due to an artifact of data collection.
+Loan applications are reported under HMDA in a given year only if a credit decision is made prior to December 31
+of that year. For 2015, the most recent year HMDA data is available at the time this writing, the volume of
+applications therefore spuriously appears to drop off in the late fall and early winter, disrupting the estimated
+discontinuity when using the widest bandwidth.
+
+24
+
+borrowers’ responses along the intensive margin, as well as whether the shock to housing
+demand caused an increase in the overall level of house prices.
+To begin, we test for a discontinuity in (log) amount borrowed and in (log) purchase price
+around January 26, 2015. Note that an unconditional discontinuity test is likely to pick up the
+effect of a change in the composition of treatment group borrowers. As shown earlier, new
+borrowers induced into home buying by the MIP reduction tended to have relatively low
+incomes. These lower income households may buy less expensive homes, which would tend to
+pull the average loan amount of treatment group borrowers down after the premium cut. Indeed,
+Table 6 indicates that treatment group mortgages and purchase prices dropped 7 to 9 percent, on
+average, after January 26. However, when we control for borrower income and FICO scores, the
+RD estimates for loan amount and purchase price are close to zero and statistically insignificant.
+With the caveat that residual compositional effects may still be biasing our estimates downward,
+we find no evidence that lower FHA premiums caused households to borrow and spend more,
+conditional on getting a mortgage.
+These results reflect RD estimates for the treatment group (FHA-likely borrowers) relative to the
+control group (all other borrowers). However, if FHA-likely borrowers bid up house prices, that
+might affect the prices and loan amounts in the control group, biasing the RD estimates toward
+zero. To check for this issue, we restrict the sample to only treatment group borrowers and
+estimate the discontinuity in loan size and purchase price without the control group. Results are
+presented in Table 6. We again find no evidence of house price or loan size effects.
+One possible explanation for the lack of an intensive margin response is binding underwriting
+constraints. While the MIP cut reduced DTI ratios for any given FHA loan, LTV ratio limits
+may still have bound. FHA loans have a maximum LTV ratio of 96.5 percent, and the median
+LTV ratio among treatment group FHA borrowers in 2014 was 95.7 percent. Even if home
+buyers would have liked to borrow more in response to the lower premiums, many had little
+scope to do so without producing a larger down payment.
+The FHA premium reduction could have led to a more gradual rise in home prices, which the RD
+approach may not pick up. Therefore, in addition to these RD estimates, we also test if home
+prices accelerated after the premium cut more rapidly in areas that are more reliant on the FHA.
+In some neighborhoods, the FHA share of loans tends to be much higher than the national
+25
+
+average. If lowering interest rates drives up home prices by spurring housing demand, then the
+reduction in FHA premiums may similarly drive up prices in areas where a greater portion of the
+population relies on FHA financing.
+First, we demonstrate that areas with higher pre-period FHA participation experienced a greater
+demand shock following the premium reduction. To do so, we re-estimate equation (1)
+separately for each of the 50 U.S. states and Puerto Rico. In Figure 11, we plot these statespecific coefficients against the state’s 2014 FHA share of home purchase loans. There is a clear
+positive correlation between the two, confirming that the jump in treatment group lending shown
+in Figure 1 and Table 2 was concentrated in areas that were more FHA reliant prior to the
+premium cut.
+Next, we test if house prices began to grow faster after the FHA premium cut in census tracts
+that had a higher 2014 FHA share (and therefore experienced a greater surge in home buying
+demand). We estimate equations of the form:
+∆𝑃𝑃 = 𝛽𝛽0 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹ℎ𝑎𝑎𝑎𝑎𝑎𝑎 + 𝛽𝛽1 𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃 + 𝛽𝛽3 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹ℎ𝑎𝑎𝑎𝑎𝑎𝑎 × 𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃 + 𝜃𝜃 + 𝜀𝜀
+
+(4)
+
+where ΔP is local house price growth (in log points), FHAshare is the fraction of all home
+purchase loans in 2014 that carried FHA insurance, and Post is an indicator for the period after
+the premium cut. The vector θ contains a set of fixed effects described below. We compare
+price growth in windows of 6, 12 and 24 months prior to the premium cut to matching post-cut
+windows. FHA shares are observed in the HMDA data at the census tract level. For house price
+data, we use the ZIP code level single-family home house price index from Zillow. Estimates of
+house prices at the census tract level are produced by averaging across the price levels of ZIP
+codes that intersect with the target tract, weighted by the fraction of housing units in that tract
+that appear in each ZIP code.
+Equation (4) describes a difference-in-differences estimator with a continuous measure of
+treatment status (the FHA share). A key identification concern is that neighborhoods with high
+FHA shares may experience different economic conditions and be on different price trends than
+neighborhoods with low shares.
+To deal with this issue, we try a number of specifications controlling for various fixed effects.
+First, we include county-by-time period fixed effects. This specification absorbs any regional
+26
+
+differences in economic conditions that might affect high and low FHA share areas differently.
+Second, we use a matching estimator to compare tracts to their peers with nearly identical pretrends in home price growth. We place each tract into buckets based on the growth rate in house
+prices across 2014, with bin widths of a single percentage point, and then control for fixed
+effects of these buckets interacted with the pre/post dummy. The final specification uses fixed
+effects for the combination of time, county and price growth bins.
+The coefficient of interest, β3, indicates how acceleration in house prices after the MIP reduction
+correlates with the tract’s 2014 FHA share. Estimates of β3 are presented in Table 7 for various
+time windows. The FHA share is measured between 0 and 1, so the coefficients represent the
+estimated difference in post-MIP cut log price growth between a hypothetical tract whose
+population was completely reliant on FHA insurance to one whose population did not use FHA
+insurance at all. Overall, the estimates do not provide strong evidence that FHA reliant areas
+experienced more rapid price growth as a result of the FHA premium reduction. The estimates
+in the second column suggest a modest positive effect after 12 and 24 months, but these are not
+robust to matching on pre-trend growth, as seen in columns 3 and 4.
+Our finding of an elastic demand response with little change in prices may be reconciled to some
+extent by the mechanism outlined in Anenberg and Kung (2017). They argue that the average
+time-on-market of homes for sale could absorb demand shocks from interest rates, with house
+prices showing little change. In addition, our finding of no intensive margin response to the MIP
+reduction may have mitigated any upward pressure on prices. 29
+
+7.2. The Effect of the MIP Cut on Loan Performance
+Earlier, we found that the reduced premiums affected the composition of the borrower pool by
+pulling in lower-income and marginal borrowers. If marginal borrowers have a higher than
+average propensity to miss payments, the overall delinquency rate could rise and act as a drag on
+neighborhood home prices. However, at the same time, the reduced MIP lowers payments for all
+
+29
+
+Rappoport (2016) models the process by which interest rate subsidies get capitalized into house prices, offsetting
+much of the benefit of the subsidy to borrowers.
+
+27
+
+new borrowers, which could help borrowers stay current. Thus, ex-ante, the overall effect of the
+MIP cut on delinquency is ambiguous.
+We test for an effect of the 50 basis point reduction in MIPs on delinquencies using the McDash
+data, which tracks loan performance over time. We estimate (1) on the probability a payment for
+a treatment-group loan is ever 30 days or more past due within the first 12 months after
+origination. Results are presented in Table 8. We cannot reject the null hypothesis that there
+was no change in the delinquency rate among the treatment group, despite the influx of new
+borrowers and the lower insurance premiums. It is possible that these two opposing forces
+cancel each other out, or that the net effect is simply too small to be detected.
+
+8. Conclusion
+This paper uses a sudden drop in the pricing of government-provided mortgage insurance to
+identify how the volume of home buying responds to the cost of credit. Using a regression
+discontinuity design and loan-level data, we find that a 50 basis point reduction in the FHA’s
+annual mortgage insurance premium increased home purchase borrowing by FHA-likely
+borrowers (those with below-average credit scores and less than a 20 percent down payment) by
+about 14 percent. Further evidence suggests that the reduced premiums improved applicants’
+debt payments-to-income ratios, and the easing of underwriting constraints along this dimension
+was an important – but not the only – channel by which more lending occurred.
+We also find heterogeneity in the borrowing response by income, with lower-income borrowers
+exhibiting a strong response to the premium cut, and higher-income borrowers demonstrating
+little or no response. Although we study the FHA market, many homebuyers outside the FHA
+market (those getting VA-guaranteed loans and conventional, or non-government, loans) may
+have similar liquidity positions and be responsive to interest rates. In 2014-2015, about 30
+percent of non-FHA home buyers had incomes below the median of $60,000 for FHA borrowers;
+roughly 45 percent made a down payment of less than 20 percent; and the distribution of DTIs
+
+28
+
+suggests many borrowers bump up against DTI constraints in the non-FHA market. 30 Thus, we
+believe the evidence in this paper demonstrates that policies, including monetary policy, that
+influence the cost of mortgage credit can have a significant and immediate effect on housing
+demand. That said, the overall demand response to an interest rate shock that applies to all
+households will be more muted than the response to the MIP cut we estimate, as our target
+population contains a higher proportion of relatively low-income, low-wealth borrowers. In this
+sense, our findings suggest that subsidizing FHA premiums may be more effective at increasing
+home buying than subsidizing interest rates in general, as the FHA implicitly targets a borrower
+population with more elastic demand. General equilibrium effects could also attenuate the
+benefits or costs to borrowers of interest rate shocks as rate changes may be capitalized into
+home values, although evidence provided in this paper and others in the literature suggest that
+interest rates exert only weak influence over house prices. Furthermore, capacity constraints
+could mitigate the effect of lower interest rates on home purchase lending, as discussed in Sharpe
+and Sherlund (2016). Finally, our results suggest that home buying responses to policies that
+tend to target higher-income households, like the mortgage interest deduction, may be quite
+limited.
+
+References
+Acolin, Arthur, Jesse Bricker, Paul Calem, and Susan Wachter (2016). "Borrowing Constraints
+and Homeownership," American Economic Review, vol. 106 (5),pp. 625-629.
+Adelino, Manuel, Antoinette Schoar, and Felipe Severino (2012). “Credit Supply and House
+Prices: Evidence from Mortgage Market Segmentation,” National Bureau of Economic
+Research, no. w17832.
+
+30
+
+We estimate the fraction of non-FHA home buyers with incomes below $60,000 from HMDA data. The fraction
+of non-FHA buyers with a down payment of less than 20 percent assumes that all VA borrowers put down less than
+20 percent, and we estimate that about 1.3 million out of 3.6 million conventional borrowers took out PMI, implying
+that they put down less than 20 percent. Goodman et al. (2016) report that PMI accounted for about 38 percent of
+all insured or guaranteed loans in 2014-2015, which translates into about 1.3 million conventional mortgages with
+PMI. Finally, regarding DTI constraints, the GSEs impose a 45 percent cap on DTI ratios, which is allowed to rise
+to 50 percent for loans with strong compensating factors. As can be seen in Appendix Figure A6, these thresholds
+are very important for borrowers in the non-FHA space as well. Nearly 10 percent of non-FHA borrowers in
+Optimal Blue are just under one of these DTI thresholds (in the sense that adding a 50 basis point MIP would push
+them over) while only 3 percent are just above one.
+
+29
+
+Anenberg, Elliot, Aurel Hizmo, Edward Kung and Raven Molloy (2017). “Measuring Mortgage
+Credit Availability: A Frontier Estimation Approach,” unpublished paper, Board of Governors of
+the Federal Reserve System, Division of Research and Statistics.
+Anenberg, Elliot and Edward Kung (2017). “Interest Rates and Housing Market Dynamics in a
+Housing Search Model.” unpublished paper.
+Avery, Robert B., Neil Bhutta, K.P. Brevoort, and Glenn B. Canner (2010). “The 2009 HMDA
+Data: The Mortgage Market in a Time of Low Interest Rates and Economic Distress,” Federal
+Reserve Bulletin, vol. 96 (December), pp. A39-A77.
+Bai, Bing, Jun Zhu and Laurie Goodman (2015). “FHA: Time to Stop Overcharging Today’s
+Borrowers for Yesterday’s Mistakes.” Urban Wire: Housing and Housing Finance. Urban
+Institute.
+Bernanke, Ben S (2010). “Monetary Policy and the Housing Bubble: a Speech at the Annual
+Meeting of the American Economic Association,” speech delivered at the Annual Meeting of the
+American Economic Association, Atlanta, Georgia, January 3.
+Best, Michael Carlos, James Cloyne, Ethan Ilzetzki, and Henrik Jacobsen Kleven (2015).
+"Interest Rates, Debt and Intertemporal Allocation: Evidence from Notched Mortgage Contracts
+in the United Kingdom." Bank of England Staff Working Paper No 543.
+Boivin, Jean, Michael T. Kiley and Frederic S. Mishkin (2011). “How Has the Monetary
+Transmission Mechanism Evolved Over Time?” Handbook of Monetary Economics
+(Amsterdam: Elsevier), pp. 369-422.
+Bhutta, Neil, Jack Popper, and Daniel Ringo (2015). "The 2014 Home Mortgage Disclosure Act
+Data." Federal Reserve Bulletin, vol. 101 (4), pp. 1-43.
+Bhutta, Neil, and Daniel Ringo (2015). “Effects of the Ability to Repay and Qualified Mortgage
+Rules on the Mortgage Market.” Board of Governors of the Federal Reserve System, December
+29, 2015, https://www.federalreserve.gov/econresdata/notes/feds-notes/2015/effects-of-theability-to-repay-and-qualified-mortgage-rules-on-the-mortgage-market-20151229.html.
+Bhutta, Neil, and Daniel Ringo (2016). "Residential Mortgage Lending from 2004 to 2015:
+Evidence for the Home Mortgage Disclosure Act Data,” Federal Reserve Bulletin, vol. 102 (6),
+pp. 1-26.
+Bhutta, Neil, and Daniel Ringo (2016). "Changing FHA Mortgage Insurance Premiums and the
+Effects on Lending," Finance and Economics Discussion Series. Washington: Board of
+Governors of the Federal Reserve System, September 29, 2016, http://dx.doi.org/10.17016/23807172.1843.
+Davis, Morris A., Stephen D. Oliner, Tobias J. Peter, and Edward J. Pinto (2016). “Credit
+Liberalization in a Seller’s Market – FHA’s 2015 Mortgage Insurance Premium Cut,” a speech
+30
+
+presented at the Fifth International Conference on Housing Risk held at the American Enterprise
+Institute, Washington, DC, October 5.
+DeFusco, Anthony A., Stephanie Johnson, and John Mondragon (2017). "Regulating Household
+Leverage," Kellogg School of Management, March.
+DeFusco, Anthony A., and Andrew Paciorek (2017). "The Interest Rate Elasticity of Mortgage
+Demand: Evidence from Bunching at the Conforming Loan Limit," American Economic
+Journal: Economic Policy, vol. 9 (February), pp. 210-240.
+Dokko, Jane, Brian M. Doyle, Michael T. Kiley, Jinill Kim, Shane Sherlund, Jae Sim, Skander
+Van Den Heuvel (2011). “Monetary Policy and the Global Housing Bubble,” Econ Policy , vol.
+26 (66), pp. 237-287.
+Feldman, Ron J (2002). "Mortgage Rates, Homeownership Rates, and Government-Sponsored
+Enterprises," Federal Reserve Bank of Minneapolis, The Region, vol. 16 (1), pp. 4-24.
+Froot, Kenneth A. (1989). “Heteroskedasticity in Financial Data," The Journal of Financial
+and Quantitative Analysis, vol. 24, pp. 333-355.
+Fuster, Andreas, and Basit Zafar (2015). The Sensitivity of Housing Demand to Financing
+Conditions: Evidence from a Survey, Staff Report 702. New York: Federal Reserve Bank of New
+York (August).
+Fuster, Andreas, Stephanie H. Lo, and Paul Willen (2017). The Time-Varying Price of Financial
+Intermediation in the Mortgage Market, Staff Report 805. New York: Federal Reserve Bank of
+New York (January).
+Glaeser, Edward L., Joshua D. Gottlieb, and Joseph Gyourko (2013). "Can Cheap Credit Explain
+the Housing Boom?" in Edward L. Glaeser and Todd Sinai, Housing and the Financial Crisis
+Chicago: University of Chicago Press, pp. 301-359.
+Glaeser, Edward L., and Jesse M. Shapiro (2003). "The Benefits of the Home Mortgage Interest
+Deduction," Tax Policy and the Economy, vol. 17, MIT Press, pp. 37-82..
+Goodman, Laurie, Alanna McCargo, Ellen Seidman, Jim Parrott, Sheryl Pardo, Jun Zhu, Wei Li,
+Bing Bai, Karan Kaul, Maia Woluchem and Alison Rincon (2016). "Housing Finance at a
+Glance: A Monthly Chartbook, June 2016," webpage, Urban Institute,
+http://www.urban.org/research/publication/housing-finance-glance-monthly-chartbook-june2016/view/full_report.
+Henderson, J.V. and Ioannides, Y.M. (1983). “A model of housing tenure choice,” The American
+Economic Review, vol. 73(1), pp.98-113.
+Hamilton, James D. (2008). "Daily monetary policy shocks and new home sales." Journal of
+Monetary Economics, vol 55 (7), pp. 1171-1190.
+31
+
+Hilber, Christian AL, and Tracy M. Turner (2014). "The Mortgage Interest Deduction and its
+Impact on Homeownership Decisions," Review of Economics and Statistics, vol. 96 (4), pp.. 618637.
+Himmelberg, Charles, Christopher Mayer, and Todd Sinai (2005). "Assessing High House
+Prices: Bubbles, Fundamentals and Misperceptions," Journal of Economic Perspectives, vol. 19
+(4), pp. 67-92.
+Imbens, Guido W., and Thomas Lemieux (2008). "Regression Discontinuity Designs: A Guide
+to Practice," Journal of Econometrics, vol. 142 (2), pp. 615-635.
+Jappelli, Tullio and Luigi Pistaferri (2007). “Do People Respond to Tax Incentives? An Analysis
+of the Italian Reform of the Deductibility of Home Mortgage Interests,” European Economic
+Review, vol. 51, pp. 247-271.
+Johnson, Kathleen W., and Geng Li (2010). "The Debt‐Payment‐to‐Income Ratio as an Indicator
+of Borrowing Constraints: Evidence from Two Household Surveys," Journal of Money, Credit
+and Banking, vol. 42 (7), pp. 1373-1390.
+Kuttner, Kenneth N. (2012). "Low Interest Rates and Housing Bubbles: Still no Smoking Gun,"
+In Douglas Evanoff, Cornelia Holthausen, George Kaufman, and Manfred Kremer, eds., The
+Role of Central Banks in Financial Stability: How Has It Changed. World Scientific Publishing
+Co. Pte. Ltd., pp. 159-186.
+Kuttner, Kenneth N., and Ilhyock Shim (2016). "Can Non-Interest Rate Policies Stabilize
+Housing Markets? Evidence from a Panel of 57 Economies," Journal of Financial Stability, vol.
+26, pp. 31-44.
+Martins, Nuno C., and Ernesto Villanueva (2006). "The impact of mortgage interest-rate
+subsidies on household borrowing." Journal of Public Economics, vol. 90 (8), pp. 1601-1623.
+Martins, Nuno C., and Ernesto Villanueva (2009). "Does the High Cost of Mortgage Debt
+Explain Why Young Adults Live with Their Parents?" Journal of the European Economic
+Association, vol. 7 (5), pp. 974-1010.
+Painter, Gary, and Christian L. Redfearn (2002). "The Role of Interest Rates in Influencing
+Long-run Homeownership Rates." Journal of Real Estate Finance and Economics, vol. 25 (2),
+pp. 243-267.
+Park, Kevin (2017). “An Event Study in Mortgage Insurance Premiums and Choice of Loan
+Term,” unpublished paper.
+Passmore, Wayne, Shane M. Sherlund, and Gillian Burgess (2005). "The Effect of Housing
+Government‐Sponsored Enterprises on Mortgage Rates." Real Estate Economics, vol. 33 (3), pp.
+427-463.
+32
+
+Poterba, James M (1984). "Tax Subsidies to Owner-Occupied Housing: An Asset-Market
+Approach." Quarterly Journal of Economics, vol. 99 (4), pp. 729-752.
+Rappoport, David (2016). “Do Mortgage Subsidies Help or Hurt Borrowers?” Finance and
+Economics Discussion Series 2016-81. Washington: Board of Governors of the Federal Reserve
+System, October, https://doi.org/10.17016/FEDS.2016.081.
+Sharpe, Steve A. and Shane M. Sherlund (2016). “Crowding Out Effects of Refinancing on New
+Purchase Mortgages,” Review of Industrial Organization, vol. 48 (2), pp. 209-239.
+Sommer, Kamila and Paul Sullivan (2017). “Implications of U.S. Tax Policy for House Prices,
+Rents and Homeownership,” unpublished paper, Board of Governors of the Federal Reserve
+System, Division of Research and Statistics.
+Taylor, John B. (2007). “Housing and Monetary Policy,” NBER Working Paper Series 13682.
+Cambridge, Mass.: National Bureau of Economic Research, December,
+http://www.nber.org/papers/w13682.
+U.S. Department of Housing and Urban Development (2012). Annual Report to Congress
+Regarding the Financial Status of the FHA Mutual Mortgage Insurance: Fund Fiscal Year 2012.
+Washington: Department of Housing and Urban Development,
+https://portal.hud.gov/hudportal/documents/huddoc?id=F12MMIFundRepCong111612.pdf.
+U.S. Department of Housing and Urban Development (2014). Annual Report to Congress
+Regarding the Financial Status of the FHA Mutual Mortgage Insurance: Fund Fiscal Year 2014.
+Washington: Department of Housing and Urban Development,
+portal.hud.gov/hudportal/documents/huddoc?id=FY2014FHAAnnRep11_17_14.pdf.
+U.S. Department of Housing and Urban Development (2015). Annual Report to Congress
+Regarding the Financial Status of the FHA Mutual Mortgage Insurance: Fund Fiscal Year 2015.
+Washington: Department of Housing and Urban Development,
+https://portal.hud.gov/hudportal/documents/huddoc?id=2015fhaannualreport.pdf.
+White, Halbert (1980). “A Heteroskedasticity-Consistent Covariance Matrix Estimator and
+a Direct Test of Heteroskedasticity," Econometrica, vol. 48, pp. 817-838.
+Zinman, Jonathan (2015). "Household debt: Facts, puzzles, theories, and policies." Annual
+Review of Economics, vol 7, (1), pp. 251-276.
+
+33
+
+Figure 1. Treatment Group Share of Home Purchase Loans by Week of Rate Lock
+
+Note: Treatment group defined as borrowers with a FICO score less than 680 and an LTV above 80 percent. The
+vertical line marks the week of January 26, 2015, the date of the FHA annual MIP reduction. Curve of best fit
+overlaid on weekly data.
+Source: Optimal Blue
+
+34
+
+Figure 2. Mortgage Rate and FHA Premium, 2001-2015
+
+Source: Freddie Mac and HUD.
+
+35
+
+Figure 3. Count of Home Purchase Loan Originations for 1- to 4-Family, Owner-Occupied
+Properties, by Week of Loan Application
+
+Note: Vertical lines mark the weeks of January 26, 2013, 2014 and 2015.
+Source: Data reported under HMDA.
+
+36
+
+Figure 4. FHA Share of Home Purchase Loans by Week of Loan Application
+
+Note: The vertical line marks the week of January 26, 2015, the week of the FHA annual MIP reduction. Curve of
+best fit overlaid on weekly data.
+Source: Data reported under HMDA.
+
+37
+
+Figure 5. Treatment Group Share of Home Purchase Loans by Week of Loan Application
+(HMDA/McDash Merge)
+
+Note: The vertical line marks January 26, 2015, the date of the decrease in annual FHA MIP referenced in Table 1.
+Estimated curve of best fit overlaid on weekly data.
+Source: McDash Analytics and data reported under HMDA.
+
+38
+
+Figure 6. Average Time between Loan Application and Case Number Assignment, by
+Week of Loan Application
+
+Note: Vertical lines indicate the week January 26 for the years 2012-2015.
+Source: HUD loan-level data and data reported under HMDA.
+
+39
+
+Figure 7. Treatment Group Share of Withdrawn Home Purchase Applications, by Week of
+Loan Application
+
+Source: Data collected under HMDA and Optimal Blue
+
+40
+
+Figure 8. Continuity of Other Economic Indicators
+
+41
+
+Figure 9. Distribution of DTI Ratios for FHA Home Purchase Loans
+FICO Score < 620
+
+FICO Score ≥ 620
+
+Note: Sample densities in one-percentage point bins.
+Source: HUD loan-level data.
+
+42
+
+Figure 10: Year-over-Year Log Growth in the Number of Home Purchase Applications, by
+Week of Loan Application
+2015
+
+2014
+
+Source: Data collected under HMDA
+
+43
+
+Figure 11: Correlation between Effect of FHA MIP Reduction on Treatment Group
+Borrowing and 2014 FHA Share, by State
+
+Note: Figure plots state-specific point estimates of the coefficient β1 from equation 1. The red line plots a
+linear fit of the estimate effect to the state’s proportion of FHA loans among its home purchase borrowing
+in 2014.
+Source: Optimal Blue and data collected under HMDA.
+
+44
+
+Table 1. Summary of Loan Level Data for 2014-15
+Data Source
+HMDA
+
+Optimal Blue
+
+HMDA/Optimal
+Blue Merge
+
+HMDA/McDash
+Merge
+
+A. All Loans
+Loan Amount ($, 000's)
+
+244
+(210)
+
+236
+(155)
+
+241
+(158)
+
+241
+(220)
+
+FHA
+
+0.24
+(0.42)
+
+0.3
+(0.45)
+
+0.09
+(0.3)
+
+0.21
+(0.41)
+
+Income ($, 000's)
+
+101
+(125)
+
+97
+(89)
+
+117
+(162)
+
+LTV Ratio
+
+89
+(13.3)
+
+87.7
+(14.1)
+
+84
+(17.1)
+
+FICO Score
+
+719
+(57)
+
+730
+(54)
+
+740
+(52)
+
+1,574,184
+
+542,794
+
+1,679,119
+
+181
+(84)
+
+169
+(87)
+
+65
+(39)
+
+64
+(38)
+
+N
+
+5,865,166
+
+B. FHA Loans
+Loan Amount ($, 000's)
+
+185
+(97)
+
+Income ($, 000's)
+
+67
+(40)
+
+190
+(97)
+
+LTV Ratio
+
+95.2
+(5.5)
+
+95.4
+(4.8)
+
+94.9
+(16.5)
+
+FICO Score
+
+679
+(45)
+
+678
+(44.8)
+
+689
+(44)
+
+N
+1,371,074
+469,577
+49,350
+Note: Sample means shown. Sample standard deviations in parentheses.
+
+45
+
+458,485
+
+Table 2: Regression Discontinuity Estimates of the Effect of the FHA
+MIP Reduction on Treatment Group Share of Lending
+Bandwidth (Weeks)
+Year Data Source
+Macro controls
+12
+25
+50
+2015 Optimal Blue
+No
+0.021** 0.019** 0.012**
+(0.006) (0.005) (0.003)
+0.015** 0.016** 0.013**
+HMDA/McDash No
+(0.004) (0.003) (0.002)
+Optimal Blue
+
+Yes
+
+HMDA/McDash
+
+Yes
+
+2014 Optimal Blue
+HMDA/McDash
+
+2016 Optimal Blue
+
+No
+No
+
+No
+
+0.015** 0.018** 0.014**
+(0.005) (0.003) (0.003)
+0.011* 0.014** 0.013**
+(0.005) (0.003) (0.002)
+-0.004
+(0.004)
+0.004
+(0.003)
+
+-0.002
+(0.004)
+0.006
+(0.003)
+
+-0.005*
+(0.003)
+0.002
+(0.003)
+
+-0.006
+(0.005)
+
+0.006
+(0.005)
+
+0.004
+(0.003)
+
+Note: Table shows the estimated discontinuity at January 26, 2015 in the share of
+home purchase loans going to the treatment group. Estimated placebo tests for
+discontinuities on January 26 in 2014 and 2016 are also shown. Effects estimated
+using a local linear regression and a triangular weighting kernel. Treatment
+group share refers to the fraction of total home purchase loans for the borrower
+had a FICO score below 680 and an LTV ratio between 80 and 100 percent.
+Macro controls are the national unemployment rate, the yield on 1 year and 10
+year treasury securities, and the value of the S&P 500 stock market index.
+Standard errors, shown in parentheses, are adjusted for clustering at the weekly
+level, calculated using the method of White (1980) and Froot (1989).
+* p < 0.05
+** p < 0.01
+
+46
+
+Table 3: Effect of FHA MIP Reduction on Treatment Group Share, by
+Borrower Income
+Bandwidth (Weeks)
+Data Source
+Borrower Income
+12
+25
+50
+Optimal Blue
+Less than $46,001
+0.005** 0.005** 0.006**
+(0.002)
+(0.002)
+(0.001)
+$46,001-$66,000
+0.003* 0.004** 0.004**
+(0.002)
+(0.001)
+(0.001)
+$66,001-$96,000
+0.002*
+0.002* 0.002**
+(0.001)
+(0.001)
+(0.001)
+Greater than $96,000
+-0.004
+-0.002
+-0.002
+(0.002)
+(0.002)
+(0.001)
+HMDA/McDash
+
+Less than $46,001
+$46,001-$66,000
+$66,001-$96,000
+Greater than $96,000
+
+0.008**
+(0.002)
+0.004
+(0.002)
+0.003
+(0.002)
+0.0002
+(0.001)
+
+0.008**
+(0.001)
+0.004**
+(0.001)
+0.003**
+(0.001)
+0.001
+(0.001)
+
+0.005**
+(0.001)
+0.003**
+(0.001)
+0.003**
+(0.001)
+0.003**
+(0.001)
+
+Note: Table shows the estimated discontinuity at January 26, 2015 in the fraction of total
+home purchase loans going to borrowers with FICO scores below 680 and LTV ratios
+between 80 and 100 percent in each of the income categories. Standard errors, shown in
+parentheses, are adjusted for clustering at the weekly level, calculated using the method of
+White (1980) and Froot (1989).
+* p < 0.05
+** p < 0.01
+
+47
+
+Table 4: Effect of the FHA MIP Reduction on Contract Rates
+Outcome Variable
+
+Underwriting Controls
+
+Contract Rate (Percentage Points)
+
+No
+
+Bandwidth (Weeks)
+12
+25
+50
+0.009
+(0.068)
+0.002
+(0.025)
+
+Yes
+
+0.015
+(0.071)
+0.011
+(0.017)
+
+-0.002
+(0.058)
+-0.01
+(0.012)
+
+Note: Table shows the estimated discontinuity at January 26, 2015 in the contract rate on treatment group
+loans, relative to the control group. Data is from Optimal Blue merged with data collected under the
+Home Mortgage Disclosure Act. Effects estimated using a local linear regression and a triangular
+weighting kernel. Treatment group refers to borrowers with a FICO score below 680 and an LTV ratio
+between 80 and 100 percent. Control variables consist of flexible functions of borrower income and
+FICO score. Standard errors, shown in parentheses, are adjusted for clustering at the weekly level,
+calculated using the method of White (1980) and Froot (1989).
+* p < 0.05
+** p < 0.01
+
+48
+
+Table 5: Effect of the FHA MIP Reduction on Denial Rates, Average FICO Scores and
+Application Volume
+Bandwidth (Weeks)
+Year Outcome Variable
+12
+25
+50
+2015
+Denial Rate Difference between Black and
+Asian Applicants
+-0.012**
+-0.009**
+-0.014**
+(0.004)
+(0.004)
+(0.003)
+FICO Score Difference between Black and
+Asian Applicants
+-7.36*
+-4.91
+-2.13
+(2.72)
+(2.55)
+(1.84)
+
+Log Total Loans (Seasonally Adjusted)
+Log Total Applications (Seasonally
+Adjusted)
+2014
+
+Denial Rate Difference between Black and
+Asian Applicants
+FICO Score Difference between Black and
+Asian Applicants
+
+Log Total Loans (Seasonally Adjusted)
+Log Total Applications (Seasonally
+Adjusted)
+
+0.032
+(0.033)
+
+0.051**
+(0.019)
+
+0.027
+(0.033)
+
+0.041*
+(0.018)
+
+-0.002
+(0.006)
+
+-0.0005
+(0.004)
+
+0.0008
+(0.003)
+
+5.28
+(4.61)
+
+1.80
+(3.38)
+
+-0.56
+(2.37)
+
+-0.0001
+(0.110)
+
+-0.003
+(0.058)
+
+-0.031
+(0.034)
+
+0.006
+(0.110)
+
+0.006
+(0.058)
+
+-0.025
+(0.034)
+
+Note: Table shows the estimated discontinuity at January 26, 2015 in the outcome variable.
+Estimated placebo tests for discontinuities on January 26 in 2014 and 2016 are also shown.
+Effects estimated using a local linear regression and a triangular weighting kernel. Standard
+errors, shown in parentheses, are adjusted for clustering at the weekly level, calculated using
+the method of White (1980) and Froot (1989).
+* p < 0.05
+** p < 0.01
+
+49
+
+Table 6: Effect of the FHA MIP Reduction on Loan Amounts and Purchase Prices
+Bandwidth (Weeks)
+Outcome Variable
+
+Include Control
+Group?
+
+Underwriting
+Controls
+
+Log Loan Amount
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+No
+
+No
+
+No
+
+Yes
+
+No
+
+No
+
+No
+
+Yes
+
+Log Purchase Price
+
+Log Loan Amount
+
+Log Purchase Price
+
+12
+
+25
+
+50
+
+-0.089**
+(0.016)
+-0.027
+(0.020)
+
+-0.070**
+(0.014)
+-0.019
+(0.013)
+
+-0.074**
+(0.012)
+-0.018*
+(0.009)
+
+-0.094**
+(0.017)
+-0.015
+(0.019)
+
+-0.069**
+(0.017)
+-0.004
+(0.013)
+
+-0.073**
+(0.014)
+0.001
+(0.009)
+
+-0.089**
+(0.019)
+-0.016
+(0.018)
+
+-0.064**
+(0.014)
+-0.002
+(0.012)
+
+-0.045**
+(0.012)
+0.011
+(0.008)
+
+-0.094**
+(0.019)
+-0.019
+(0.019)
+
+-0.070**
+(0.014)
+-0.006
+(0.012)
+
+-0.052**
+(0.012)
+0.006
+(0.008)
+
+Note: Table shows the estimated discontinuity at January 26, 2015 in the outcome variable for the
+treatment group. Data is from Optimal Blue merged with data collected under the Home Mortgage
+Disclosure Act. Effects estimated using a local linear regression and a triangular weighting kernel.
+Treatment group refers to borrowers with a FICO score below 680 and an LTV ratio between 80 and
+100 percent, while the control group is all others. Control variables consist of flexible functions of
+borrower income and FICO score. Standard errors, shown in parentheses, are adjusted for clustering
+at the weekly level, calculated using the method of White (1980) and Froot (1989).
+* p < 0.05
+** p < 0.01
+
+50
+
+Table 7: Effect of Local FHA Share on Census Tract House Price Growth after
+MIP Reduction
+Time Window
+6 Months
+12 Months
+24 Months
+
+(1)
+-0.002
+(0.003)
+0.002
+(0.005)
+0.014
+(0.014)
+
+County-by-Time Fixed Effects
+Pre-Period Growth Rate-by-Time Fixed
+Effects
+County-by-Pre-Period Growth Rate-by-Time
+Fixed Effects
+
+(2)
+-0.00001
+(0.002)
+0.011**
+(0.004)
+0.030**
+(0.009)
+X
+
+(3)
+-0.001
+(0.002)
+0.0001
+(0.0001)
+-0.016
+(0.013)
+
+(4)
+-0.001
+(0.001)
+0.0002
+(0.0002)
+0.004
+(0.005)
+
+X
+X
+N=55,743
+
+Note: Table shows the estimated influence of the share of loans in 2014 that used FHA
+insurance on the subsequent growth in house prices at the census tract level. Prices are
+measured in logs. The FHA share takes values between 0 and 1. The time window refers to the
+number of months before and after January 2015 house price growth is measured over.
+Standard errors, shown in parentheses, are adjusted for clustering at the county level, calculated
+using the method of White (1980) and Froot (1989).
+* p < 0.05
+** p < 0.01
+
+51
+
+Table 8: Effect of the FHA MIP Reduction on
+Delinquencies
+Bandwidth (Weeks)
+12
+25
+50
+Delinquency Rate for
+Treatment Group
+
+0.009 0.0002 -0.004
+(0.005) (0.006) (0.004)
+
+Note: Table shows the estimated discontinuity at January
+26, 2015 in the delinquency rate of treatment group
+loans. Effects estimated using a local linear regression
+and a triangular weighting kernel. Treatment group
+refers to borrowers with a FICO score below 680 and an
+LTV ratio between 80 and 100 percent. Delinquency
+rate is the fraction of loans with a payment that was 30
+days or more past due within 12 months after origination.
+Standard errors, shown in parentheses, are adjusted for
+clustering at the weekly level, calculated using the
+method of White (1980) and Froot (1989).
+* p < 0.05
+** p < 0.01
+
+52
+
+Appendix
+available here
+
+53
+
+
