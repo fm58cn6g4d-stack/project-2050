@@ -1,6 +1,6 @@
 # Research note: doubled-up families and the order of reach
 
-Role: research for HOU-4.03 (the order of reach) in section 4. It answers the question section 7 raised (`7-validation.md`, 1.5 and question 1): should families doubled up because of economic hardship count as "without a home" in stage 1 of the rental guarantee? Espen asked on November 9, 2026 for "more research on this and make a final rec". Status: draft (stage C). It recommends; Espen decides. It does not edit section 4.
+Role: research for HOU-4.03 (the order of reach) in section 4. It answers the question section 7 raised (`7-validation.md`, 1.5 and question 1): should families doubled up because of economic hardship count as "without a home" in stage 1 of the rental guarantee? Espen asked on November 9, 2026 for "more research on this and make a final rec". Status: draft (stage C). Its recommendation (section 6) is superseded by Espen's decision `DEC-2026-11-09-12`; its counts and evidence stand, and section 7 gives the stage 2 count the cost pass needs. It does not edit section 4.
 
 Evidence is EV-HOU-420 to 434 in `evidence.json`, plus earlier entries where cited. Counts from executive-branch sources are data; this note relies on no executive-branch causal reading (`DEC-2026-10-30-01`). Several sources were read through a search tool because their hosts block downloads; the catalog rows say which, and the reviewer should check those quotations against the originals.
 
@@ -11,7 +11,7 @@ Evidence is EV-HOU-420 to 434 in `evidence.json`, plus earlier entries where cit
 3. **Adding all doubled-up families with children would push single homeless adults back by years.** Stage 1 puts families with children first. About 0.4 to 0.7 million doubled-up families with children (this note's estimate) would come ahead of the 0.5 million single adults homeless on a night [EV-HOU-434], including the 155,750 chronically homeless individuals [EV-HOU-016] whom HOU-4.11 says to house first.
 4. **Stage 2, as written, leaves doubled-up families out entirely.** Stage 2 covers *renter households* with HUD's worst case needs. A family staying in someone else's home is not a renter household, and HUD treats overcrowding as only a moderate problem [EV-HOU-432]. The overlap the lead expected between the two stages is small. Families with no home of their own, doubled up or in shelter, have no route into stage 2 at all. That is a drafting gap in HOU-4D.01, whatever Espen decides here.
 5. **Doubled-up families fare badly, and vouchers help them.** Doubling up is the usual step before shelter. 29 percent of sheltered families came straight from staying with family or friends [EV-HOU-427], and 85 percent of families in the Family Options Study had doubled up as adults [EV-HOU-428]. Their children do worse in school than poor children with homes of their own; compared with sheltered children, the findings are mixed [EV-HOU-430] [EV-HOU-431]. In two randomized trials, vouchers sharply cut doubling up and homelessness [EV-HOU-428] [EV-HOU-429].
-6. **Final recommendation (section 6 below).** Stage 1 takes a doubled-up family with children only when its arrangement is ending: the host has said it must leave within 14 days, or it has moved twice or more in 60 days. These families are capped at 20 percent of each year's stage 1 awards (50,000 a year). The count is published yearly. Every other poor doubled-up family with children goes to stage 2 from 2034, once stage 2's wording is fixed to admit families without a home of their own.
+6. **Decided differently (`DEC-2026-11-09-12`).** Espen chose one plain test, "no home of your own", with no deadline test and no cap (section 6). The recommendation it replaced: stage 1 takes a doubled-up family with children only when its arrangement is ending: the host has said it must leave within 14 days, or it has moved twice or more in 60 days. These families are capped at 20 percent of each year's stage 1 awards (50,000 a year). The count is published yearly. Every other poor doubled-up family with children goes to stage 2 from 2034, once stage 2's wording is fixed to admit families without a home of their own.
 
 ## 1. How many are doubled up, by definition
 
@@ -88,9 +88,11 @@ Espen's rule for the shared record is to collect only the basic information coll
 - **The 10 percent limit in current law** [EV-HOU-423] shows Congress has already capped school-defined homelessness as a share of homelessness money. A share cap here follows that precedent.
 - **Race and place.** Doubled-up homelessness is relatively more common among Hispanic people and in some rural areas than literal homelessness is [EV-HOU-425]. Option (a) alone would under-serve both. Option (d) and the stage 2 fix reach them.
 
-## 6. Final recommendation for Espen
+## 6. Recommendation (superseded by DEC-2026-11-09-12)
 
-**Recommendation (option d, with a stage 2 fix).** It rests on judgment applied to the counts above and to the voucher trials (Welfare to Work Voucher evaluation, Mills and others, 2006 [EV-HOU-429]; Family Options Study, Bush and Shinn's summary, 2017 [EV-HOU-428]). The plain-language version:
+**Decision.** Espen decided on November 9 that stage 1 uses one plain test, "no home of your own": people literally homeless and doubled-up families with children, shown by the family's own word or an existing school record, with no deadline test and no cap. Local need-based intake sets the order. Counts are published yearly, and an imbalance two years running triggers a review. Stage 2 (HOU-4D.01) is widened from 2034 for doubled-up and homeless families (`DEC-2026-11-09-12`, under the design lens `DEC-2026-11-09-13`). The recommendation below is kept as the record of what was weighed.
+
+**Recommendation as written (option d, with a stage 2 fix).** It rests on judgment applied to the counts above and to the voucher trials (Welfare to Work Voucher evaluation, Mills and others, 2006 [EV-HOU-429]; Family Options Study, Bush and Shinn's summary, 2017 [EV-HOU-428]). The plain-language version:
 
 1. **Who comes first in 2030-33.** People with no home at all: on the street, in a shelter, or fleeing violence. They are joined by doubled-up families with children whose arrangement is ending: the family must leave within 14 days, or has moved twice or more in the past 60 days.
 2. **How it is checked.** Everyone answers the same short questions about where they stay. The family's own statement, recorded by the intake worker, is enough, or a school's existing finding that the children are homeless. There are no home visits, no questions about disability or history, and no contact with the host's landlord.
@@ -104,9 +106,24 @@ Espen's rule for the shared record is to collect only the basic information coll
 - *All doubled-up families with children (b)*, the lead's earlier recommendation, would hand most of the million to families who have a roof, ahead of single adults on the street. That cuts against HOU-4.11's priority.
 - *All doubled-up (c)* is three times the million.
 
-**Questions for Espen.**
-- Agree to option (d), the 20 percent cap and the yearly count? Yes or no.
-- Agree that stage 2 (HOU-4D.01) should admit families with no home of their own? Yes or no. This enlarges stage 2 and costs more from 2034.
+**Questions for Espen** (both answered by `DEC-2026-11-09-12`: no cap or deadline test; stage 2 widened).
+
+## 7. Count for the cost pass: households newly entering stage 2 under the widening
+
+Stage 2 as first written covered 1,717 thousand extremely low-income renter families with children with worst case needs in 2023 [EV-HOU-186]. The widening adds families with no home of their own, who were outside that count because they are not renter households [EV-HOU-432]. All figures are this note's estimates (grade D) on the counts in section 1, for households eligible at the 2034 opening.
+
+| Group | Gross count | Less those already housed by stage 1 in 2030-33 | Newly eligible for stage 2, central (range) |
+| --- | --- | --- | --- |
+| Doubled-up families with children, extremely low income | 0.4 to 0.7 million at a time (section 1); about 80 to 100 percent are under the extremely low-income line, since the research measures stop at 125 percent of a local poverty line [EV-HOU-425] (judgment) | Stage 1 now admits them without a cap, so some hold awards before 2034; families keep doubling up, so the stock refills. Assumed 0.1 million net (judgment) | **0.4 million (0.3 to 0.6 million)** |
+| Literally homeless families with children | About 81,000 family households on a night [EV-HOU-434]; 141,609 over 2022 [EV-HOU-427], and people in families rose 39 percent in 2024 [EV-HOU-026] | Stage 1 serves them first, but new families keep arriving after HOU-4A's last awards in 2033 | **0.1 million a year (0.08 to 0.2 million)** |
+| **Total** | | | **About 0.5 million households (0.38 to 0.8 million), about 29 percent (22 to 47 percent) more than the 1.717 million** |
+
+**For section 6.**
+- At section 6's 85 percent application rate, the central figure is about 0.43 million more families enrolled (0.32 to 0.68 million).
+- The homeless-family line is a yearly flow, not a one-time stock. After the first year, it is the number entering each year, much of it families who would otherwise have reached shelter.
+- Do not add this to the "count risk" in section 7 (families forming households once help is a right): that risk is the same families, now counted here.
+- Hosts are unaffected. A host renter household already in the 1,717 thousand stays there; its guest family is counted separately here.
+- The weakest input is the families-per-student ratio (1.5 to 2, an assumption). An ACS microdata run with the Richard measure (evidence still needed, below) would replace it.
 
 ## Evidence still needed
 
