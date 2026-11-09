@@ -34,7 +34,7 @@ You asked on November 9 for policies to help older people stay in their homes as
   3. **Records the state already holds:** age and income from state tax or benefit records, so most owners are enrolled without filling in a form. Owners who do not file can sign a one-page statement.
 - Renters 65 and over in the same states can get the share of rent that stands for property tax, as some state circuit breakers already allow (the register does not yet count which).
 - *For people:* a retired bus driver in Ohio whose bill jumps after a reassessment gets the part above 5 percent of income credited back automatically, and can defer the rest instead of selling.
-- *Cost or risk:* about $1-2.5 billion a year in federal match once states join, $8-20 billion over 2030-39 (judgment: roughly 2-4 million older owners at $500-1,000 each of federal share). It is permanent, so it adds to the FY2040 gap that already goes to the financing settlement (`../6-cost.md`; `DEC-2026-11-09-09`). Some relief goes to owners who would have stayed anyway; the moving effect is an upper bound [EV-HOU-681]. Federal money can let states cut their own spending; the match is paid only on spending above each state's 2028 level to limit that (judgment).
+- *Cost or risk:* about $1-4 billion a year in federal match once states join, $8-35 billion over 2030-39 as states join (judgment: roughly 2-4 million older owners at $500-1,000 each of federal share). It is permanent, so it adds to the FY2040 gap that already goes to the financing settlement (`../6-cost.md`; `DEC-2026-11-09-09`). Some relief goes to owners who would have stayed anyway; the moving effect is an upper bound [EV-HOU-681]. Federal money can let states cut their own spending; the match is paid only on spending above each state's 2028 level to limit that (judgment).
 - *Burden:* light for owners, if states use their records. California shows what happens otherwise: a deferral program with yearly requalification had about 1,000 participants against more than a million eligible (California Legislative Analyst's Office, 2018) [EV-HOU-683].
 
 **C. A federally backed deferral only.**
@@ -62,7 +62,7 @@ You asked on November 9 for policies to help older people stay in their homes as
 - Renters get the same help with the landlord's written consent; the landlord may not raise rent for it.
 - **Where it meets care.** The repair fund pays for the home. Whether Medicare or Medicaid pays for CAPABLE's nurse and therapist visits, and how Medicaid home care grows, is the care program's decision (HLT-4). The fund sends people to Medicaid home care where they qualify, and the care dossier can later move CAPABLE's clinical part into Medicare.
 - *For people:* a 78-year-old with arthritis in Detroit gets a railing, a raised toilet and a fixed furnace, and a therapist shows her how to get in and out of the tub safely.
-- *Cost or risk:* about $0.5-1 billion a year inside memo 11's fund, reaching about 100,000-200,000 older households a year at $3,000-8,000 each (judgment). Falls prevented and nursing-home stays delayed are likely but not well measured.
+- *Cost or risk:* about $0.3-1.6 billion a year inside memo 11's fund, reaching about 100,000-200,000 older households a year at $3,000-8,000 each (judgment). Falls prevented and nursing-home stays delayed are likely but not well measured.
 - *Burden:* light: the same self-attested income as memo 11; an assessment visit.
 
 **C. Make CAPABLE a Medicare benefit now.**

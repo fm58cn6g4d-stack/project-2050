@@ -148,15 +148,15 @@ All figures are this note's rough estimates (grade D), nominal, FY2030-39 unless
 
 | Item | Yearly | Ten years | Basis |
 | --- | --- | --- | --- |
-| Owner repair fund (memo 11, part 1 C) | $3-4.5 billion | $30-45 billion | 200,000-300,000 homes a year at $12,000-18,000 with administration, from Philadelphia's and Detroit's costs [EV-HOU-647] [EV-HOU-660]; time-limited capital |
+| Owner repair fund (memo 11, part 1 C) | $2.5-5.5 billion | $25-55 billion | 200,000-300,000 homes a year at $12,000-18,000 with administration, from Philadelphia's and Detroit's costs [EV-HOU-647] [EV-HOU-660]; time-limited capital |
 | Renter repairs inside it (part 2 B) | $0.5-1 billion | Inside the fund | Landlord loans, city repair funds, receivership and relocation |
-| Readiness repairs for clean power (part 3 B) | $0.3-0.8 billion | Inside the fund | About one in five of 250,000 homes a year [EV-HOU-639] at $5,000-15,000 |
-| Property-tax match (memo 12, part 1 B) | $1-2.5 billion | $8-20 billion | 2-4 million older owners at $500-1,000 of federal share; permanent |
-| Older-adult home changes (part 2 B) | $0.5-1 billion | Inside memo 11's fund | 100,000-200,000 households at $3,000-8,000 [EV-HOU-686] [EV-HOU-673] |
+| Readiness repairs for clean power (part 3 B) | $0.25-0.75 billion | Inside the fund | About one in five of 250,000 homes a year [EV-HOU-639] at $5,000-15,000 |
+| Property-tax match (memo 12, part 1 B) | $1-4 billion | $8-35 billion | 2-4 million older owners at $500-1,000 of federal share, ramping up as states join; permanent |
+| Older-adult home changes (part 2 B) | $0.3-1.6 billion | Inside memo 11's fund | 100,000-200,000 households at $3,000-8,000 [EV-HOU-686] [EV-HOU-673] |
 | Equity protection (part 3 B) | $0.1-0.3 billion | $1-3 billion | Legal aid at about $9,200 per title [EV-HOU-684] and foreclosure defense |
 | Service coordinators (part 4 C) | $0.1-0.2 billion | $1-2 billion | From HUD's $122 million for about 1,500 grants [EV-HOU-672] |
 
-**Total, if every recommendation is chosen:** about $4.5-7.5 billion a year, roughly $45-70 billion over 2030-39. About $1.2-3 billion a year of it is permanent (the tax match, legal aid, coordinators) and adds to the FY2040 gap that goes to the financing settlement (`DEC-2026-11-09-09`). The repair fund is time-limited capital.
+**Total, if every recommendation is chosen:** about $4-10 billion a year, roughly $35-95 billion over 2030-39. About $1.2-4.5 billion a year of it is permanent (the tax match, legal aid, coordinators) and adds to the FY2040 gap that goes to the financing settlement (`DEC-2026-11-09-09`). The repair fund is time-limited capital.
 
 ## 12. What it means for the plan
 
