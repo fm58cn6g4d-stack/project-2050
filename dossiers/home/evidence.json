@@ -9702,5 +9702,442 @@
   "supports": [
    "dossiers/home/7-validation.md"
   ]
+ },
+ {
+  "id": "EV-HOU-420",
+  "statement": "HUD's definition of homelessness for its homelessness programs has four categories: (1) no fixed, regular and adequate nighttime residence (a place not meant for habitation, a shelter, or leaving an institution after 90 days or less); (2) imminent loss of the primary nighttime residence within 14 days, with no subsequent residence and no resources or support networks to obtain other permanent housing; (3) unaccompanied youth under 25 and families with children homeless under another federal statute, such as the McKinney-Vento education definition, who have had no lease in the 60 days before applying, have moved two or more times in that period and are expected to stay unstable because of disability, abuse or violence histories, or barriers to employment; (4) fleeing domestic violence with no other residence and no resources.",
+  "claim": "data",
+  "figures": [
+   "90",
+   "14",
+   "25",
+   "60"
+  ],
+  "source": "SRC-1700",
+  "anchor": [
+   "( 1 ) An individual or family who lacks a fixed, regular, and adequate nighttime residence, meaning:",
+   "( iii ) An individual who is exiting an institution where he or she resided for 90 days or less",
+   "( i ) The primary nighttime residence will be lost within 14 days of the date of application for homeless assistance;",
+   "( iii ) The individual or family lacks the resources or support networks, e.g., family, friends, faith-based or other social networks, needed to obtain other permanent housing;",
+   "( 2 ) An individual or family who will imminently lose their primary nighttime residence, provided that:",
+   "( 4 ) Any individual or family who:",
+   "( 3 ) Unaccompanied youth under 25 years of age, or families with children and youth, who do not otherwise qualify as homeless under this definition, but who:",
+   "or section 725 of the McKinney-Vento Homeless Assistance Act ( 42 U.S.C. 11434a );",
+   "( ii ) Have not had a lease, ownership interest, or occupancy agreement in permanent housing at any time during the 60 days immediately preceding the date of application for homeless assistance;",
+   "( iii ) Have experienced persistent instability as measured by two moves or more during the 60-day period immediately preceding the date of applying for homeless assistance; and",
+   "( i ) Is fleeing, or is attempting to flee, domestic violence, dating violence, sexual assault, stalking,"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-11-09",
+  "note": "24 CFR 578.3 (the ESG definition at 24 CFR 576.2 is the same). Category 2 covers a doubled-up household told to leave within 14 days; category 3 is the only route for other doubled-up families.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-421",
+  "statement": "HUD's evidence rules for homeless status put third-party documentation first, the intake worker's observations second and the applicant's own certification third, and lack of third-party papers may not delay entry to shelter. For imminent loss of housing, a household's oral statement that the owner or renter where it stays will not let it stay more than 14 days counts if the intake worker records it and finds it credible, confirmed with the host or, failing that, after documented due diligence. For families and youth homeless under another federal statute, the evidence is a certification of homeless status by the agency that administers the other federal program, such as a school district's McKinney-Vento liaison.",
+  "claim": "data",
+  "figures": [
+   "14"
+  ],
+  "source": "SRC-1701",
+  "anchor": [
+   "The procedures must establish the order of priority for obtaining evidence as third-party documentation first, intake worker observations second, and certification from the person seeking assistance third. However, lack of third-party documentation must not prevent an individual or family from being immediately admitted to emergency shelter",
+   "( C ) An oral statement by the individual or head of household that the owner or renter of the housing in which they currently reside will not allow them to stay for more than 14 days after the date of application for homeless assistance. The intake worker must record the statement and certify that it was found credible.",
+   "be verified by the owner or renter of the housing in which the individual or family resides at the time of application for homeless assistance",
+   "if the intake worker is unable to contact the owner or renter, be documented by a written certification by the intake worker of his or her due diligence",
+   "certification of homeless status by the local private nonprofit organization or state or local governmental entity responsible for administering assistance under",
+   "or subtitle B of title VII of the McKinney-Vento Homeless Assistance Act ( 42 U.S.C. 11431 et seq. ), as applicable;"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-11-09",
+  "note": "24 CFR 576.500(b); 24 CFR 578.103(a)(3) applies it to the Continuum of Care program [SRC-1702].",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-422",
+  "statement": "The McKinney-Vento education definition counts as homeless children and youths who lack a fixed, regular and adequate nighttime residence, including those sharing the housing of other persons due to loss of housing, economic hardship or a similar reason.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1703",
+  "anchor": [
+   "(A) means individuals who lack a fixed, regular, and adequate nighttime residence",
+   "(i) children and youths who are sharing the housing of other persons due to loss of housing, economic hardship, or a similar reason;"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "recheck": "2027-11-09",
+  "note": "42 U.S.C. 11434a(2), section 725(2) of the Act.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-423",
+  "statement": "A Continuum of Care may use not more than 10 percent of its program funds to serve families with children and youth who are homeless only under other federal statutes and only if it shows this is of equal or greater priority or cost-effectiveness; the limit does not apply where the point-in-time homelessness rate is under one-tenth of 1 percent of the population.",
+  "claim": "data",
+  "figures": [
+   "10 percent",
+   "1 percent"
+  ],
+  "source": "SRC-1704",
+  "anchor": [
+   "A collaborative applicant may use not more than 10 percent of funds awarded under this part (continuum of care funding)",
+   "to serve families with children and youth defined as homeless under other Federal statutes",
+   "but only if the applicant demonstrates that the use of such funds is of an equal or greater priority or is equally or more cost effective",
+   "The 10 percent limitation under paragraph (1) shall not apply to collaborative applicants in which the rate of homelessness, as calculated in the most recent point in time count, is less than one-tenth of 1 percent of total population."
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "recheck": "2027-11-09",
+  "note": "42 U.S.C. 11382(j), from the 2009 HEARTH Act.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-424",
+  "statement": "Public schools identified 1,548,191 homeless children and youth in school year 2023\u201324 under the McKinney-Vento definition. 1,150,630 were doubled up, up from 915,578 in 2021\u201322; 107,986 of the doubled-up (84.5% of unaccompanied homeless youth) were unaccompanied.",
+  "claim": "data",
+  "figures": [
+   "1,548,191",
+   "1,150,630",
+   "915,578",
+   "107,986",
+   "84.5%"
+  ],
+  "source": "SRC-1705",
+  "anchor": [
+   "States reported 1,548,191 CYEH that public school districts identified during the SY 2023\u201324, which is",
+   "category grew from 915,578 to 1,150,630, an increase of 235,052 CYEH or 28.4%.",
+   "housing or economic hardship. Their numbers rose from 94,291 (85.2%) in SY 2021\u201322\nto 107,986 (84.5%) in SY 2023\u201324, a 13.8% increase."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2027-03-01",
+  "context": "National Center for Homeless Education, the Education Department's technical assistance center, February 2026 (second Trump administration). The counts are states' EDFacts submissions (data). They count students identified at any time in the school year, not households or a single night, and leave out children not enrolled. The report's text and its table 3 disagree on the 2023\u201324 shelter and hotel figures, which are not used here.",
+  "note": "Doubled-up students living with a parent or guardian: 1,150,630 minus 107,986, about 1.04 million (project arithmetic).",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-425",
+  "statement": "An American Community Survey measure counts 3,717,589 people (1.2% of the population) doubled up in 2019; 737,886 were school-age children, against the Education Department's 1.04 million doubled-up students over the 2018\u20132019 school year. The measure counts poor or near-poor people (at or below 125% of a geographically adjusted poverty line) living in another's home as relatives the householder is not customarily responsible for, or as non-partners not sharing costs. Renters may not report extra members for fear of eviction, so it may undercount. Doubling up is common among Hispanic people, whose rates of literal homelessness are lower; the authors also map rural areas with little literal homelessness but much doubling up.",
+  "claim": "analysis",
+  "figures": [
+   "3,717,589",
+   "1.2%",
+   "737,886",
+   "1.04 million",
+   "125%"
+  ],
+  "source": "SRC-1706",
+  "anchor": [
+   "there were 3,717,589 people\u20141.2% of the population\u2014 doubled up in the United States in 2019",
+   "Of the 3.7 million people doubled up by the ACS measure, an estimated 737,886 were school-age children.",
+   "By DoE counts, there were 1.04 million doubled-up students in school year 2018\u20132019.",
+   "poor or near-poor individuals in a poor or near-poor household (at or below 125% of a geographically adjusted poverty threshold)",
+   "renters may avoid reporting additional household members for fear of being evicted",
+   "rates of Hispanic/Latinx doubled-up homelessness were high, in contrast to their rates of literal homelessness"
+  ],
+  "locator": "Methods (measure of doubling up); Results (comparison with existing measures); Limitations",
+  "grade": "B",
+  "fact_date": "2019",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (Housing Policy Debate, 2024; online 2022). Authors from Vanderbilt University, the Chicago Coalition for the Homeless (an advocacy group that wants doubled-up people counted as homeless) and Heartland Alliance. The ACS does not ask why people share housing, so who counts as doubled up is the authors' model (analysis). The number is a point-in-time average, comparable with the one-night count, not an annual total.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-424",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-426",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-426",
+  "statement": "The National Alliance to End Homelessness counts nearly 3.2 million people living doubled up, defined as living in overcrowded housing out of financial necessity; nearly half of participants in the California Statewide Study of People Experiencing Homelessness had lived doubled up before becoming homeless.",
+  "claim": "analysis",
+  "figures": [
+   "3.2 million"
+  ],
+  "source": "SRC-1707",
+  "anchor": [
+   "nearly 3.2 million people live doubled up",
+   "A person who is living in overcrowded housing out of financial necessity.",
+   "Nearly half of survey participants in the recent California Statewide Study of People Experiencing Homelessness reported living in doubled up situations before experiencing homelessness."
+  ],
+  "locator": "\"Many people live doubled up out of financial necessity\"",
+  "grade": "C",
+  "fact_date": "2023",
+  "recheck": "2027-09-01",
+  "context": "National Alliance to End Homelessness, September 2025, an advocacy group. Its estimate uses ACS data and its own definition, which has changed over the years; the page says the number rose in 21 states from 2022 to 2023. Its overcrowding test makes it narrower than the Richard measure.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-425",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-427",
+  "statement": "Over federal fiscal year 2022, 1,388,000 people used shelter: 923,000 in adult-only households and 453,016 people in 141,609 family households. 29 percent of those family households were staying with family or friends before entering shelter.",
+  "claim": "data",
+  "figures": [
+   "1,388,000",
+   "923,000",
+   "453,016",
+   "141,609",
+   "29 percent"
+  ],
+  "source": "SRC-1708",
+  "anchor": [
+   "1,388,000 people experienced homelessness in sheltered settings",
+   "Two-thirds of people experiencing homelessness were in households with only adults present (923,000 people)",
+   "In 2022, 453,016 people in 141,609 family households accessed a shelter program during the year.",
+   "Almost 4 in 10 family households (39%) were staying in a housed situation prior to entering a shelter program; 29 percent were staying with family or friends"
+  ],
+  "locator": "Executive summary; family households",
+  "grade": "A",
+  "fact_date": "2022",
+  "recheck": "2027-06-01",
+  "context": "HUD, Biden administration, published May 2024, from local HMIS records (data). Read through a search tool because huduser.gov blocks downloads; the reviewer should check the quotations against the PDF.",
+  "note": "People per sheltered family household: 453,016 / 141,609 = 3.2 (project arithmetic), used to turn one-night counts of people in families into households. Households using shelter over the year: about 923,000 adult-only (people, nearly all single) plus 141,609 families, about 1.06 million.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-428",
+  "statement": "In the Family Options Study, 85 percent of families in shelter had doubled up as adults because they could not pay rent, and 45 percent lived with friends or relatives immediately before shelter. At 20 months, 31 percent of families in usual care had recently doubled up, against 12 percent of those offered long-term subsidies, 26 percent offered short-term subsidies and 32 percent offered transitional housing.",
+  "claim": "analysis",
+  "figures": [
+   "85 percent",
+   "45 percent",
+   "20 months",
+   "31 percent",
+   "12 percent",
+   "26 percent",
+   "32 percent"
+  ],
+  "source": "SRC-1710",
+  "anchor": [
+   "85 percent of families were doubled up with other households as adults because they could not pay rent, and 45 percent of families reported living with friends or relatives immediately before entering the shelters",
+   "At 20 months after entering shelter, 31 percent of study families assigned to usual care, 12 percent of those offered long-term subsidies, 26 percent of those offered short-term subsidies, and 32 percent of those offered transitional housing reported spending at least 1 night in the past 6 months with a friend or relative"
+  ],
+  "locator": "Introduction (summarizing Gubits et al., 2015)",
+  "grade": "B",
+  "fact_date": "2015",
+  "recheck": "2027-11-09",
+  "context": "Bush and Shinn, Cityscape (HUD), 2017, summarizing the randomized Family Options Study (EV-HOU-086); Shinn is a co-author of that study, so the two are one research team. The 85 and 45 percent shares are baseline data; the 31-against-12 contrast is the trial's experimental effect.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-429",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-433",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-429",
+  "statement": "In the randomized Welfare to Work Voucher evaluation of families on or eligible for welfare, vouchers increased independent housing and reduced doubling up; among families who had lived with friends, relatives or others at baseline, homelessness in the past year fell from 18 to 12 percent, and among those on the streets or in shelters from 7 to 5 percent.",
+  "claim": "analysis",
+  "figures": [
+   "18",
+   "12 percent",
+   "7",
+   "5 percent"
+  ],
+  "source": "SRC-1709",
+  "anchor": [
+   "An increase in independent housing and a corresponding reduction in doubling-up",
+   "(2) families who lived with or among friends, relatives, or others at baseline",
+   "The vouchers reduced homelessness in the first category from 7 to 5 percent and they cut homelessness in the second category from 18 to 12 percent. Both impacts were statistically significant."
+  ],
+  "locator": "Executive summary, material well-being",
+  "grade": "B",
+  "fact_date": "2006",
+  "recheck": "2027-11-09",
+  "context": "Randomized trial (8,731 families, six sites) run by Abt Associates for HUD, published under the Bush administration (2006). The same report finds no effect on employment or earnings over 3.5 years. Read through a search tool because huduser.gov blocks downloads; the reviewer should check the quotations against the PDF.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-433",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-428",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-430",
+  "statement": "In Houston school records for over 400,000 students, students who became homeless attended less school and were more likely to drop out than other students, but doubled-up students fared relatively well on most outcomes, while students in shelter had particularly poor attainment.",
+  "claim": "analysis",
+  "figures": [
+   "400,000"
+  ],
+  "source": "SRC-1711",
+  "anchor": [
+   "We analyze data from over 400,000 students in Houston Independent School District",
+   "students who became homeless attended less school and were more likely to drop out than nonhomeless students",
+   "Doubled-up students fared relatively well on most outcomes, whereas students in shelter had particularly poor attainment."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2017",
+  "recheck": "2027-11-09",
+  "context": "Peer-reviewed (Educational Researcher, 2022); fixed-effects models and matching on district records (analysis). One urban district.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-431",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-431",
+  "statement": "In Washington state, doubled-up homeless students had academic outcomes similar to other homeless students: in 2023, 15% of doubled-up students were proficient in math, against 15% to 16% of students in other nighttime residences, 25% of housed low-income students and 41% of housed students.",
+  "claim": "data",
+  "figures": [
+   "2023",
+   "15%",
+   "16%",
+   "25%",
+   "41%"
+  ],
+  "source": "SRC-1712",
+  "anchor": [
+   "Students experiencing homelessness who are living doubled-up have academic outcomes that are similar to those living in hotels/motels and shelters, and those who are unsheltered.",
+   "the math proficiency rate for students living doubled-up in 2023 was 15%, while rates for students experiencing homelessness in other types of nighttime residences ranged between 15% and 16%, all well below the rates for housed students (41%) and housed, low-income students (25%)."
+  ],
+  "locator": "Executive summary",
+  "grade": "C",
+  "fact_date": "2023",
+  "recheck": "2027-04-01",
+  "context": "Building Changes, a Washington nonprofit that advocates for homeless students and families, April 2025, tabulating state education records (descriptive data, no controls).",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-432",
+  "statement": "HUD's worst case needs test counts only renter households with severe rent burden or severely inadequate housing; it treats overcrowding as a moderate problem, so overcrowded households without those problems are left out. Overcrowding may be a lease violation that brings the risk of eviction. In 2023, 797,000 very low-income renter households were overcrowded, 94.5 percent of them families with children.",
+  "claim": "data",
+  "figures": [
+   "2023",
+   "797,000",
+   "94.5 percent"
+  ],
+  "source": "SRC-0296",
+  "anchor": [
+   "HUD categorizes overcrowding as a moderate housing problem rather than a severe problem, so households that\nexperience overcrowding but do not experience severe rent burden or severely inadequate conditions are not included in\nthe count of households with worst case needs.",
+   "However, overcrowding may be a lease violation that brings the\nrisk of eviction.",
+   "In 2023, about 797,000\nVLI renter households, or 4.2 percent, were overcrowded.",
+   "Most VLI households with\novercrowding\u201494.5 percent\u2014were families with children."
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "recheck": "2027-09-30",
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, July 2025 (second Trump administration). The definitions and counts are data from the American Housing Survey; nothing here relies on the report's causal reading.",
+  "note": "A family staying as a guest in another household is not a separate renter household in this count; the host household is.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-433",
+  "statement": "In a long-term follow-up of randomized supportive housing for families involved with child welfare, families offered housing were less likely to be doubled up, had fewer moves and evictions, and were half as likely to have had a homeless spell in the past 12 months.",
+  "claim": "analysis",
+  "figures": [
+   "12"
+  ],
+  "source": "SRC-1713",
+  "anchor": [
+   "We looked at household composition and found that, overall, families in the treatment group were less likely to be doubled up (table 5).",
+   "The treatment group experienced fewer moves and had fewer evictions in the prior three years",
+   "in the previous 12 months, on average, the treatment group spent 4.5 fewer days in a homeless shelter and were half as likely (5 percentage points) to have experienced a homeless spell."
+  ],
+  "locator": "Findings: household composition; housing stability and homelessness",
+  "grade": "B",
+  "fact_date": "2023",
+  "recheck": "2027-11-09",
+  "context": "Urban Institute, October 2023, a nonpartisan research organization; evaluation of randomized sites in the federal Supportive Housing for Families in the Child Welfare System demonstration (not peer-reviewed). The offer combined housing and services, so it is not a voucher-only test.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-429",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-428",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-434",
+  "statement": "On a single night in January 2024, 512,007 people in households without children and 259,473 people in families with children were homeless.",
+  "claim": "data",
+  "figures": [
+   "512,007",
+   "259,473"
+  ],
+  "source": "SRC-0295",
+  "anchor": [
+   "In January of 2024, 512,007 people in households without children\u2014i.e., individuals\u2014experienced",
+   "On a single night in January 2024, 259,473 people in families with children were experiencing"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2026-12-31",
+  "context": "HUD, 2024 Annual Homelessness Assessment Report, Part 1, December 2024 (Biden administration); point-in-time counts (data).",
+  "note": "Households on the night (project arithmetic): about 512,000 individuals plus 259,473 / 3.2 = about 81,000 family households (ratio from EV-HOU-427), about 0.59 million in all.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/research-doubled-up.md"
+  ]
  }
 ]
