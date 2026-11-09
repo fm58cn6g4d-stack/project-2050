@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 9, 2026 by Claude Code (lead handoff).
+Updated November 9, 2026 by Claude Code (lead: housing scope addendum, reviewer handover).
 
 ## Standing sessions
 
@@ -11,17 +11,18 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
 | Lead | `session_01UQzgBwqphpchudhq51her6` | Project 2050: lead | November 9 |
-| Reviewer | `session_01UQzgBsenKA1Ueo3vzQwHFw` | Project 2050: reviewer | November 9; woken by the reviewer scheduled task `trig_01QPXBRZzoMHhTSs3k8PAAuP` |
+| Reviewer | `session_01UQzgBvvXhR1anmPFd9zr4d` | Project 2050: reviewer | November 9; woken by the reviewer scheduled task `trig_01Ev3YUmoFDLvTk2Negkwi9u` (the old task `trig_01QPXBRZzoMHhTSs3k8PAAuP` is disabled) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions**
 - Lead `session_01UQzgBx6gAsCr9hXdHVxrQy`: stage A reset, stage B, stage C housing through section 9, and the budget side quest coordination; October 28 to November 9.
+- Reviewer `session_01UQzgBsenKA1Ueo3vzQwHFw`: PRs #141 to #156; November 9.
 - Reviewer `session_01UQzgBx8fyTLVyi9sHKfawa`: PRs up to #136; October 29 to November 9.
 - Reviewer `session_01UQzgBtEveznkR76gmgDdVm`: PRs #133 to #144; November 9.
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
 **Lead handoff (November 9, 2026, about 20:00 UTC)**
-- **Where housing stands.** All nine sections are on main, and every decision is recorded through `DEC-2026-11-09-17`, plus the memo 3b switch to option (b) in #153. Next, before the L2/L3 milestone review (row 6): the housing scope addendum Espen asked for ("Directions for later stages", first item), then Espen's strategic review, then section 6's proposed budget-model changes. After that, transportation (step 7) and stage D's health work run side by side ("Directions for later stages").
+- **Where housing stands.** All nine sections are on main, and every decision is recorded through `DEC-2026-11-09-17`, plus the memo 3b switch to option (b) in #153. Next, before the L2/L3 milestone review (row 6): the housing scope addendum Espen asked for ("Directions for later stages", first item; rows 4h, 4i, 6a, 6b), then Espen's strategic review, then section 6's proposed budget-model changes. After that, transportation (step 7) and stage D's health work run side by side ("Directions for later stages").
 - **Open PRs.**
   - #153: the memo 3b switch to option (b); tier 3, approved or under review, needs Espen's label.
   - #155: memo 3b's option (b) written into HOU-2D.01 and section 6. Draft by `session_01UQzgBtwmZTQ5KDasf1JQUB`, which has its own check-in `trig_01LyJSTYyktN1A2v24ymH6N8` to mark it ready after #153.
@@ -69,7 +70,10 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | C. First dossiers | 4g. Housing: memo 3b, whether HOU-2D.01 includes AHCIA section 308 (the 30% boost for bond-financed projects) | Most capable | Done: `dossiers/home/memos/3b-bond-boost.md`; Espen chose (a) (`DEC-2026-11-09-17`), then (b) (`DEC-2026-11-09-18`), now written into HOU-2D.01, `provisions.json` and section 6; EV-HOU-460 to 462, SRC-1275 | Claude Code (session_01UQzgBtwmZTQ5KDasf1JQUB) | Branch `claude/housing-memo3b-bond-boost` |
 | C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (on the budget model) | Most capable | Done: section 4 (#136), section 5 (#137) and section 6 (#138). In review: the fold-in of `DEC-2026-11-09-08` to `-13` into sections 4-7, `provisions.json` and the agenda (HOU-2D.01-.04, HOU-3C.04, HOU-4.13; capital re-timed; stage 2 widened, its pricing pending #141's count; design lens applied; about $0.63T and $81B a year in FY2040 before that) | Claude Code (session_01UQzgBwnaVpTtzWXrB1h7T9) | Branch `claude/housing-fold-nov9` |
 | C. First dossiers | 5a. Housing: production targets as three numbers (HOU-3C.04), after Espen's direction in session November 9: homes the plan pays for (credits included), homes in zoning-reward places, a national goal; evidence EV-HOU-440 to 444 | Most capable | In review: numbers proposed, for Espen | Claude Code (session_01UQzgBwnaVpTtzWXrB1h7T9) | Branch `claude/housing-production-target` |
-| C. First dossiers | 6. Housing sections 7-9; L2/L3 milestone review | Most capable | Section 7 done (#139, merged): `dossiers/home/7-validation.md`. Section 8 done (#147, merged): `dossiers/home/8-change-our-minds.md`, with four questions Espen decided as recommended (`DEC-2026-11-09-15`). Section 9 in review: `dossiers/home/9-public-case.md` (brief, organizing material, source table; no new evidence). Next: the L2/L3 milestone review | Claude Code (session_01UQzgBtvEGzaBz5teTRf5im; section 9: session_01UQzgBwhTRTNETarTTSN1jB); reviewer | Branch `claude/housing-section-9` |
+| C. First dossiers | 4i. Housing: section 3 addendum, part 2 of 2 (repair and renovation for owners and renters, crossing with clean power; aging in place under an "age with dignity" frame, crossing with care): research note, decision memos (probably 11 and 12), new evidence rows numbered from 600 and sources numbered from 1900 (ranges reserved for it) | Most capable | In progress (started November 9, after part 1) | Claude Code (session_01UQzgBvWgVmqa2tziRJL4Sn) | Branch `claude/housing-repair-aging` |
+| C. First dossiers | 6. Housing sections 7-9; L2/L3 milestone review | Most capable | Sections 7, 8 and 9 done: `7-validation.md` (#139), `8-change-our-minds.md` (#147; `DEC-2026-11-09-15`), `9-public-case.md` (#152, #154). **The milestone review is held** until the section 3 addendum (rows 4h and 4i), its fold-in, the ROAD to Housing funding map (6a) and the section 9 update (6b) are done (Espen, November 9) | Claude Code (sections 7-9 authors); reviewer | — |
+| C. First dossiers | 6a. Housing: fund the ROAD to Housing Act (Espen, November 9: "we need to make sure dems are fully funding ROAD to Housing, whether that starts in 2027-28 divided government or 2029 playing catchup"). Map every ROAD program the plan relies on to a funding line: the amount, FY2027 and FY2028 appropriations asks under divided government, and FY2029-30 catch-up in R1 or R2; check FY2027 HUD appropriations (`road-act.md`, open item); fold into sections 4-6 and `dossiers/scenario/2027-28-playbook.md` | Most capable | Ready after the addendum's fold-in, or alongside it | — | — |
+| C. First dossiers | 6b. Housing: update section 9 for the addendum (homebuyers, aging with dignity, production targets in the brief, the can-say table and the source table) before the milestone review; section 9 never runs ahead of sections 1-8 (Espen asked in session_01UQzgBwhTRTNETarTTSN1jB, November 9) | Most capable | Waits on the addendum's fold-in | Section 9's author, session_01UQzgBwhTRTNETarTTSN1jB, if live; otherwise a fresh session | — |
 | C. First dossiers | 7. Transportation converted as the reference dossier; template fixes | Standard to convert; Most capable for gaps | Later | Claude Code | — |
 
 ### Federal budget model
@@ -130,6 +134,7 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
   - affordable repair and renovation for homeowners and renters, which crosses with clean power;
   - helping seniors stay in their homes as they age, under an "age with dignity" frame that crosses with care.
   None of these has been weighed yet. The dossier has no forks on homeownership finance, broad supply levers beyond the zoning reward and the construction money, owner or renter repair (beyond the neighborhood homes credit and public housing), or aging in place. The lead's recommendation is a section 3 addendum before the milestone review: research, then decision memos, then a fold-in to sections 4-9, under the design lens and with the evidence on buyer subsidies raising prices in tight markets weighed honestly.
+  Espen agreed (lead session, November 9: "yes, go with your recommendation, start homebuying first"): part 1, homeownership finance and broad supply (row 4h), then part 2, repair and aging in place (row 4i); decision memos; the fold-in to sections 4-9; then rows 6a and 6b; then the milestone review.
 - **Sequence after housing section 7 (Espen, November 9, 2026: "agreed, go with your recommendation").** Housing goes first, end to end, as the model for the other dossiers:
   1. the fold-in pass (`DEC-2026-11-09-08` to `-13`);
   2. section 8;
