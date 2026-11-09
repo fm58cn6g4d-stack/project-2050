@@ -10291,5 +10291,27 @@
   "supports": [
    "dossiers/home/4-specification.md"
   ]
+ },
+ {
+  "id": "EV-HOU-445",
+  "statement": "The United States had 148,228,967 housing units in 2025, with a margin of error of 9,472.",
+  "claim": "data",
+  "figures": [
+   "148,228,967",
+   "9,472"
+  ],
+  "source": "SRC-1724",
+  "anchor": [
+   "B25001_001E | Estimate: Total housing units = 148228967 (148,228,967)",
+   "B25001_001M | Margin of error: Total housing units = 9472 (9,472)"
+  ],
+  "locator": "Table B25001, United States",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
  }
 ]
