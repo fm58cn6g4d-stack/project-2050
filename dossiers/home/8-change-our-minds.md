@@ -145,14 +145,13 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 
 ### 1.11 The 2040 fiscal gap sent to the financing settlement (`DEC-2026-11-09-09`)
 
-- **Main uncertainty.** Whether the financing settlement closes a gap that is still moving. FY2040 fails by about $12 billion on permanent lines, or $19 billion with the capital tail. Stage 2's wider entry adds roughly $7-12 billion that is not yet priced. The high case fails both FY2040 and FY2041 (`6-cost.md`, 3.3).
+- **Main uncertainty.** Whether the financing settlement closes a gap that is still moving. FY2040 fails by about $20 billion on permanent lines, or $28 billion with the capital tail, stage 2's wider entry included (about $8 billion of it). The high case fails FY2040 and FY2041, and probably FY2042 (`6-cost.md`, 3.3).
 - **What would change our minds.**
-  - Housing's FY2040 path more than $10 billion above section 6's central on a new estimate (section 7's threshold). The pricing follow-up for stage 2's wider entry may cross this line by itself.
+  - Housing's FY2040 path more than $10 billion above section 6's central on a new estimate (section 7's threshold). Section 6's central now includes stage 2's wider entry, whose high case alone is about $16 billion above its central.
   - The settlement does not cover housing's share when it is drafted.
   - The Byrd rule's per-bill test, once built, shows R2's permanent housing lines have no offsets in their titles after the window (`6-cost.md`, 3.3, item 4).
 - **Who sees it, when.** Section 6 and the budget model at each revision. The financing settlement (Codex's lead, `charter/STANDARDS.md`, "Roles"). B3's per-bill test.
 - **What we'd do instead.** Section 6's fallbacks first: enroll stage 3 over 2038-41 instead of 2038-40, saving about $3 billion in FY2040 (question 1's fallback), and count a time-limited line's tail as time-limited (question 5's alternative). Then, proposed, for Espen (this section's judgment): set the emergency fund at the low end of its range ($3 billion a year). For the Byrd rule: offsets in the same bill, or sunsets on the permanent lines with renewal written in. A lease-up shortfall is not fiscal room (`7-validation.md`, 5.4). Rights already granted are not on this list.
-- **Note.** These figures predate PR #146's pricing of stage 2's wider entry; refresh them when it merges.
 - **Kind.** Review. Espen accepted slight FY2040 overshoots at this stage (`DEC-2026-11-09-09`), so nothing here acts automatically.
 
 ### 1.12 Tribal housing set-asides (`DEC-2026-11-09-10`; HOU-4.13)
