@@ -437,7 +437,14 @@ Espen wrote on November 9, 2026 that the plan had "focused too exclusively on lo
 - **Memo 9, `memos/9-homeownership.md`** (three parts): help for first-time buyers (recommended: time-limited down payment help through state housing agencies, with a first-generation priority by self-attestation, counting for more on newly built homes); a cut in FHA's annual premium (recommended); and opening part of HOU-3C's federal loans, and some of its grants, to starter homes and condos for sale (recommended, inside HOU-3C's amounts).
 - **Memo 10, `memos/10-broad-supply.md`** (four parts): a wider list of reforms the zoning reward pays for (single-stair buildings, equal treatment of manufactured homes, lot size, parking, state infill review exemptions, condo liability); cheaper loans for manufactured homes; fair-value sales of federal land near growing western cities; a statutory exclusion from federal environmental review for assisted infill housing. All recommended.
 
-Part 2 of the addendum (repair and renovation for owners and renters; aging in place) follows in a later session. Sections 4-9 take up whichever options Espen chooses; nothing here is adopted by silence.
+Part 2 of the addendum (repair and renovation; aging in place) follows. Sections 4-9 take up whichever options Espen chooses; nothing here is adopted by silence.
+## Addendum, part 2: repair and renovation; aging in place
+
+Espen asked on November 9, 2026 for ways to make sure homeowners and renters can affordably repair or renovate their homes, crossing with the clean-power agenda, and for policies to help older people stay in their homes as they age, if they want to but are at financial risk of losing them, under an "age with dignity" frame, crossing with care. This addendum adds forks for both; the forks above, and part 1's (homeownership and broad supply, memos 9 and 10, PR #158), are unchanged. The research is `research-repair-aging.md` (EV-HOU-600 to 699).
+- **Memo 11, `memos/11-repair.md`** (three parts): a standing ten-year home repair fund for low- and moderate-income owners through states, cities and tribes, with one plain income test and no credit test (recommended); landlord repair loans with the ROAD to Housing Act pilot's three-year rent term, city repair funds, receivership and relocation help (recommended); and one front door with the clean-power heat-pump and weatherization programs, the fund paying for the repairs that make a home ready (recommended).
+- **Memo 12, `memos/12-aging-in-place.md`** (four parts): a federal match for state property-tax relief for older owners that enrolls them from records and offers deferral (recommended); an older-adult track in the repair fund on the CAPABLE model, leaving the clinical benefit to the care program (recommended); legal help for tangled titles and wills, reverse-mortgage relief written into law, and a payment-plan offer before tax sales (recommended); and HOU-3C pointed at older renters' homes with service coordinators (recommended). Rental help for older renters who are not disabled still waits on the care program (`DEC-2026-11-09-10`).
+
+Sections 4-9 take up whichever options Espen chooses; nothing here is adopted by silence.
 
 ## How the choices fit together
 
@@ -508,5 +515,7 @@ Seven decision memos, one per fork, in `memos/`:
 7. `memos/8-who-first.md`: who the guarantee reaches first.
 
 Memos 1, 2, 3 and 8 now weigh the legacy rental-help and construction designs (HOU-4A, HOU-4D, HOU-3C) as options (`DEC-2026-10-30-02`). Memo 2 recommends changing what HOU-4D buys; memo 1 recommends attaching part of HOU-4A's later cohorts in tight markets; memo 3 recommends keeping HOU-3C's amounts and adding acquisition.
+
+Addendum, part 2 (November 2026): `memos/11-repair.md` (three parts) and `memos/12-aging-in-place.md` (four parts), each part decided on its own.
 
 Also a yes or no on fork 7 and on each of the eight points under "Recommended without a memo". On point 8 the recommendation has changed: leave the Act's investor limit as enacted (HOU-7B) rather than remove its 2042 sunset now (HOU-7, as chosen).

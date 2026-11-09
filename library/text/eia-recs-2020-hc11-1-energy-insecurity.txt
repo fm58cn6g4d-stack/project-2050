@@ -1,0 +1,2474 @@
+Source: https://www.eia.gov/consumption/residential/data/2020/hc/xls/HC%2011.1.xlsx
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-09
+Original SHA-256: 7e389ceceacdf6698a13ca88ca83524c283ca79824c4aff6d0da6da2bb1b02f1
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Sheet: data
+row 2 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Table HC11.1  Household energy insecurity, 2020
+row 3 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 
+row 3 |  = Number of housing units (million)
+row 4 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 
+row 4 |  = Households reporting…
+row 5 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 
+row 5 |  = Total U.S.a
+row 5 |  = Any household energy insecurityb
+row 5 |  = Reducing or forgoing food or medicine to pay energy costs
+row 5 |  = Leaving home at unhealthy temperature
+row 5 |  = Receiving disconnect or delivery stop notice
+row 5 |  = Unable to use heating equipmentc
+row 5 |  = Unable to use air-conditioning equipmentd
+row 6 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = All homes
+row 6 |  = 123.53
+row 6 |  = 33.58
+row 6 |  = 24.61
+row 6 |  = 12.2
+row 6 |  = 12.36
+row 6 |  = 4.93
+row 6 |  = 6.35
+row 7 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Census region and division
+row 8 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Northeast
+row 8 |  = 21.92
+row 8 |  = 5.54
+row 8 |  = 3.82
+row 8 |  = 2.38
+row 8 |  = 1.84
+row 8 |  = 0.79
+row 8 |  = 0.84
+row 9 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = New England
+row 9 |  = 5.88
+row 9 |  = 1.36
+row 9 |  = 0.93
+row 9 |  = 0.56999999999999995
+row 9 |  = 0.42
+row 9 |  = 0.25
+row 9 |  = 0.19
+row 10 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Middle Atlantic
+row 10 |  = 16.04
+row 10 |  = 4.17
+row 10 |  = 2.89
+row 10 |  = 1.81
+row 10 |  = 1.43
+row 10 |  = 0.54
+row 10 |  = 0.65
+row 11 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Midwest
+row 11 |  = 27.04
+row 11 |  = 6.58
+row 11 |  = 4.87
+row 11 |  = 2.0099999999999998
+row 11 |  = 2.8
+row 11 |  = 0.94
+row 11 |  = 1.04
+row 12 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = East North Central
+row 12 |  = 18.55
+row 12 |  = 4.78
+row 12 |  = 3.52
+row 12 |  = 1.46
+row 12 |  = 2.0099999999999998
+row 12 |  = 0.63
+row 12 |  = 0.74
+row 13 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = West North Central
+row 13 |  = 8.5
+row 13 |  = 1.8
+row 13 |  = 1.35
+row 13 |  = 0.55000000000000004
+row 13 |  = 0.79
+row 13 |  = 0.31
+row 13 |  = 0.3
+row 14 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = South
+row 14 |  = 46.84
+row 14 |  = 14
+row 14 |  = 10.66
+row 14 |  = 4.6500000000000004
+row 14 |  = 5.69
+row 14 |  = 2.09
+row 14 |  = 3.11
+row 15 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = South Atlantic
+row 15 |  = 24.84
+row 15 |  = 6.58
+row 15 |  = 4.99
+row 15 |  = 2.2599999999999998
+row 15 |  = 2.68
+row 15 |  = 0.96
+row 15 |  = 1.5
+row 16 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = East South Central
+row 16 |  = 7.38
+row 16 |  = 2.38
+row 16 |  = 1.85
+row 16 |  = 0.85
+row 16 |  = 0.98
+row 16 |  = 0.38
+row 16 |  = 0.57999999999999996
+row 17 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = West South Central
+row 17 |  = 14.62
+row 17 |  = 5.03
+row 17 |  = 3.83
+row 17 |  = 1.53
+row 17 |  = 2.0299999999999998
+row 17 |  = 0.74
+row 17 |  = 1.03
+row 18 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = West
+row 18 |  = 27.72
+row 18 |  = 7.46
+row 18 |  = 5.25
+row 18 |  = 3.16
+row 18 |  = 2.02
+row 18 |  = 1.1200000000000001
+row 18 |  = 1.36
+row 19 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mountain
+row 19 |  = 9.2200000000000006
+row 19 |  = 2.2599999999999998
+row 19 |  = 1.65
+row 19 |  = 0.86
+row 19 |  = 0.75
+row 19 |  = 0.39
+row 19 |  = 0.45
+row 20 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mountain North
+row 20 |  = 4.62
+row 20 |  = 1.01
+row 20 |  = 0.74
+row 20 |  = 0.32
+row 20 |  = 0.38
+row 20 |  = 0.15
+row 20 |  = 0.18
+row 21 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mountain South
+row 21 |  = 4.5999999999999996
+row 21 |  = 1.25
+row 21 |  = 0.91
+row 21 |  = 0.54
+row 21 |  = 0.37
+row 21 |  = 0.24
+row 21 |  = 0.28000000000000003
+row 22 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Pacific
+row 22 |  = 18.510000000000002
+row 22 |  = 5.2
+row 22 |  = 3.6
+row 22 |  = 2.2999999999999998
+row 22 |  = 1.27
+row 22 |  = 0.73
+row 22 |  = 0.9
+row 23 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Census urban/rural classificatione
+row 24 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Urban
+row 24 |  = 100.44
+row 24 |  = 28.04
+row 24 |  = 20.54
+row 24 |  = 10.27
+row 24 |  = 10.32
+row 24 |  = 3.93
+row 24 |  = 5.31
+row 25 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Urbanized area
+row 25 |  = 89.24
+row 25 |  = 24.86
+row 25 |  = 18.190000000000001
+row 25 |  = 9.14
+row 25 |  = 9.0399999999999991
+row 25 |  = 3.47
+row 25 |  = 4.8099999999999996
+row 26 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Urban cluster
+row 26 |  = 11.2
+row 26 |  = 3.18
+row 26 |  = 2.35
+row 26 |  = 1.1299999999999999
+row 26 |  = 1.28
+row 26 |  = 0.45
+row 26 |  = 0.5
+row 27 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Rural
+row 27 |  = 23.09
+row 27 |  = 5.54
+row 27 |  = 4.0599999999999996
+row 27 |  = 1.93
+row 27 |  = 2.04
+row 27 |  = 1.01
+row 27 |  = 1.03
+row 28 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Climate regionf
+row 29 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Very-cold/Cold
+row 29 |  = 42.5
+row 29 |  = 10.02
+row 29 |  = 7.23
+row 29 |  = 3.51
+row 29 |  = 3.82
+row 29 |  = 1.36
+row 29 |  = 1.43
+row 30 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mixed-humid
+row 30 |  = 36.79
+row 30 |  = 10.51
+row 30 |  = 7.74
+row 30 |  = 3.81
+row 30 |  = 4.21
+row 30 |  = 1.66
+row 30 |  = 2.2599999999999998
+row 31 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mixed-dry/Hot-dry
+row 31 |  = 15.06
+row 31 |  = 4.75
+row 31 |  = 3.41
+row 31 |  = 2.0499999999999998
+row 31 |  = 1.29
+row 31 |  = 0.77
+row 31 |  = 0.98
+row 32 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Hot-humid
+row 32 |  = 22.31
+row 32 |  = 6.72
+row 32 |  = 5.19
+row 32 |  = 2.11
+row 32 |  = 2.68
+row 32 |  = 0.99
+row 32 |  = 1.5
+row 33 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Marine
+row 33 |  = 6.87
+row 33 |  = 1.58
+row 33 |  = 1.03
+row 33 |  = 0.71
+row 33 |  = 0.36
+row 33 |  = 0.16
+row 33 |  = 0.17
+row 34 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Housing unit type
+row 35 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Single-family detached
+row 35 |  = 77.069999999999993
+row 35 |  = 17.09
+row 35 |  = 11.93
+row 35 |  = 5.89
+row 35 |  = 6.33
+row 35 |  = 2.77
+row 35 |  = 3.75
+row 36 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Single-family attached
+row 36 |  = 7.45
+row 36 |  = 2.1
+row 36 |  = 1.57
+row 36 |  = 0.8
+row 36 |  = 0.76
+row 36 |  = 0.25
+row 36 |  = 0.34
+row 37 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Apartments in buildings with 2–4 units
+row 37 |  = 9.34
+row 37 |  = 4.1900000000000004
+row 37 |  = 3.32
+row 37 |  = 1.61
+row 37 |  = 1.55
+row 37 |  = 0.52
+row 37 |  = 0.59
+row 38 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Apartments in buildings with 5 or more units
+row 38 |  = 22.84
+row 38 |  = 7
+row 38 |  = 5.27
+row 38 |  = 2.75
+row 38 |  = 2.27
+row 38 |  = 0.61
+row 38 |  = 0.88
+row 39 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mobile homes
+row 39 |  = 6.83
+row 39 |  = 3.21
+row 39 |  = 2.5099999999999998
+row 39 |  = 1.1499999999999999
+row 39 |  = 1.45
+row 39 |  = 0.78
+row 39 |  = 0.79
+row 40 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Year of construction
+row 41 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Before 1950
+row 41 |  = 20.260000000000002
+row 41 |  = 5.96
+row 41 |  = 4.16
+row 41 |  = 2.4300000000000002
+row 41 |  = 2.2599999999999998
+row 41 |  = 1.08
+row 41 |  = 1.04
+row 42 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1950 to 1959
+row 42 |  = 12.48
+row 42 |  = 3.7
+row 42 |  = 2.6
+row 42 |  = 1.39
+row 42 |  = 1.31
+row 42 |  = 0.61
+row 42 |  = 0.81
+row 43 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1960 to 1969
+row 43 |  = 12.76
+row 43 |  = 3.92
+row 43 |  = 2.92
+row 43 |  = 1.29
+row 43 |  = 1.52
+row 43 |  = 0.51
+row 43 |  = 0.72
+row 44 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1970 to 1979
+row 44 |  = 18.34
+row 44 |  = 5.48
+row 44 |  = 4.21
+row 44 |  = 2.0499999999999998
+row 44 |  = 1.97
+row 44 |  = 0.69
+row 44 |  = 0.94
+row 45 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1980 to 1989
+row 45 |  = 16.3
+row 45 |  = 4.5199999999999996
+row 45 |  = 3.32
+row 45 |  = 1.82
+row 45 |  = 1.72
+row 45 |  = 0.74
+row 45 |  = 0.89
+row 46 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1990 to 1999
+row 46 |  = 17.16
+row 46 |  = 4.08
+row 46 |  = 3.02
+row 46 |  = 1.31
+row 46 |  = 1.51
+row 46 |  = 0.66
+row 46 |  = 0.92
+row 47 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2000 to 2009
+row 47 |  = 16.16
+row 47 |  = 3.61
+row 47 |  = 2.66
+row 47 |  = 1.1100000000000001
+row 47 |  = 1.22
+row 47 |  = 0.38
+row 47 |  = 0.75
+row 48 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2010 to 2015
+row 48 |  = 5.53
+row 48 |  = 1.34
+row 48 |  = 1.01
+row 48 |  = 0.47
+row 48 |  = 0.52
+row 48 |  = 0.16
+row 48 |  = 0.21
+row 49 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2016 to 2020
+row 49 |  = 4.5599999999999996
+row 49 |  = 0.96
+row 49 |  = 0.72
+row 49 |  = 0.33
+row 49 |  = 0.33
+row 49 |  = 0.09
+row 49 |  = 0.06
+row 50 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Main heating fuel and equipment
+row 51 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Natural gas
+row 51 |  = 62.71
+row 51 |  = 15.28
+row 51 |  = 10.8
+row 51 |  = 5.33
+row 51 |  = 5.45
+row 51 |  = 1.99
+row 51 |  = 2.99
+row 52 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Electricity
+row 52 |  = 42.57
+row 52 |  = 13.21
+row 52 |  = 10.02
+row 52 |  = 4.6399999999999997
+row 52 |  = 5.2
+row 52 |  = 1.61
+row 52 |  = 2.4500000000000002
+row 53 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Fuel oil or kerosene
+row 53 |  = 4.93
+row 53 |  = 1.19
+row 53 |  = 0.79
+row 53 |  = 0.54
+row 53 |  = 0.45
+row 53 |  = 0.3
+row 53 |  = 0.18
+row 54 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Propane
+row 54 |  = 5.21
+row 54 |  = 1.1499999999999999
+row 54 |  = 0.9
+row 54 |  = 0.42
+row 54 |  = 0.35
+row 54 |  = 0.28000000000000003
+row 54 |  = 0.13
+row 55 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Wood
+row 55 |  = 2.25
+row 55 |  = 0.52
+row 55 |  = 0.38
+row 55 |  = 0.27
+row 55 |  = 0.14000000000000001
+row 55 |  = 0.18
+row 55 |  = 0.1
+row 56 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Some other fuelg
+row 56 |  = Q
+row 56 |  = Q
+row 56 |  = Q
+row 56 |  = Q
+row 56 |  = Q
+row 56 |  = N
+row 56 |  = N
+row 57 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Does not use heating equipment
+row 57 |  = 5.79
+row 57 |  = 2.21
+row 57 |  = 1.71
+row 57 |  = 1
+row 57 |  = 0.76
+row 57 |  = 0.56999999999999995
+row 57 |  = 0.49
+row 58 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Main heating equipment (including all fuels)
+row 59 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Central warm-air furnace
+row 59 |  = 74.42
+row 59 |  = 18.55
+row 59 |  = 13.51
+row 59 |  = 6.13
+row 59 |  = 7.23
+row 59 |  = 2.59
+row 59 |  = 3.71
+row 60 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Heat pump
+row 60 |  = 16.13
+row 60 |  = 4.17
+row 60 |  = 3.27
+row 60 |  = 1.34
+row 60 |  = 1.59
+row 60 |  = 0.37
+row 60 |  = 0.73
+row 61 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Steam or hot water system
+row 61 |  = 9.2899999999999991
+row 61 |  = 2.4
+row 61 |  = 1.53
+row 61 |  = 1.0900000000000001
+row 61 |  = 0.72
+row 61 |  = 0.39
+row 61 |  = 0.37
+row 62 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Ductless heat pump (mini-split)
+row 62 |  = 1.06
+row 62 |  = 0.28999999999999998
+row 62 |  = 0.18
+row 62 |  = 0.1
+row 62 |  = Q
+row 62 |  = Q
+row 62 |  = Q
+row 63 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Built-in electric units
+row 63 |  = 7.65
+row 63 |  = 2.4700000000000002
+row 63 |  = 1.8
+row 63 |  = 1.06
+row 63 |  = 0.84
+row 63 |  = 0.22
+row 63 |  = 0.32
+row 64 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Built-in oil or gas room heater
+row 64 |  = 3.49
+row 64 |  = 1.33
+row 64 |  = 1.04
+row 64 |  = 0.52
+row 64 |  = 0.4
+row 64 |  = 0.27
+row 64 |  = 0.18
+row 65 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Portable electric heaters
+row 65 |  = 3.03
+row 65 |  = 1.54
+row 65 |  = 1.1599999999999999
+row 65 |  = 0.68
+row 65 |  = 0.56999999999999995
+row 65 |  = 0.31
+row 65 |  = 0.38
+row 66 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Heating stove burning wood
+row 66 |  = 1.94
+row 66 |  = 0.45
+row 66 |  = 0.31
+row 66 |  = 0.23
+row 66 |  = 0.11
+row 66 |  = 0.16
+row 66 |  = 0.08
+row 67 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Some other equipment
+row 67 |  = 0.74
+row 67 |  = 0.16
+row 67 |  = 0.11
+row 67 |  = Q
+row 67 |  = 7.0000000000000007E-2
+row 67 |  = Q
+row 67 |  = Q
+row 68 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Does not use heating equipment
+row 68 |  = 5.79
+row 68 |  = 2.21
+row 68 |  = 1.71
+row 68 |  = 1
+row 68 |  = 0.76
+row 68 |  = 0.56999999999999995
+row 68 |  = 0.49
+row 69 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Air-conditioning equipment
+row 70 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Uses air-conditioning equipment
+row 70 |  = 109.51
+row 70 |  = 28.48
+row 70 |  = 21
+row 70 |  = 9.9700000000000006
+row 70 |  = 10.7
+row 70 |  = 4.03
+row 70 |  = 5.7
+row 71 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Does not use air-conditioning equipment
+row 71 |  = 14.02
+row 71 |  = 5.0999999999999996
+row 71 |  = 3.61
+row 71 |  = 2.23
+row 71 |  = 1.66
+row 71 |  = 0.9
+row 71 |  = 0.65
+row 72 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Main type of air-conditioning equipment used 
+row 73 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Central air-conditioning equipment (including central heat pump)
+row 73 |  = 82.69
+row 73 |  = 18.37
+row 73 |  = 13.5
+row 73 |  = 5.91
+row 73 |  = 7.05
+row 73 |  = 2.37
+row 73 |  = 3.75
+row 74 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Ductless heat pump (mini-split)
+row 74 |  = 1.76
+row 74 |  = 0.34
+row 74 |  = 0.19
+row 74 |  = 0.14000000000000001
+row 74 |  = 0.14000000000000001
+row 74 |  = 0.08
+row 74 |  = 0.1
+row 75 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Window or wall air conditioner
+row 75 |  = 21.43
+row 75 |  = 8.43
+row 75 |  = 6.36
+row 75 |  = 3.33
+row 75 |  = 3.13
+row 75 |  = 1.38
+row 75 |  = 1.52
+row 76 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Portable air conditioner
+row 76 |  = 2.68
+row 76 |  = 0.96
+row 76 |  = 0.66
+row 76 |  = 0.41
+row 76 |  = 0.28999999999999998
+row 76 |  = 0.16
+row 76 |  = 0.23
+row 77 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Evaporative or swamp cooler
+row 77 |  = 0.95
+row 77 |  = 0.38
+row 77 |  = 0.28999999999999998
+row 77 |  = 0.18
+row 77 |  = 0.09
+row 77 |  = Q
+row 77 |  = 0.09
+row 78 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Does not use air-conditioning equipment
+row 78 |  = 14.02
+row 78 |  = 5.0999999999999996
+row 78 |  = 3.61
+row 78 |  = 2.23
+row 78 |  = 1.66
+row 78 |  = 0.9
+row 78 |  = 0.65
+row 79 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Adequacy of insulation
+row 80 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Well insulated
+row 80 |  = 34.340000000000003
+row 80 |  = 6.58
+row 80 |  = 4.9000000000000004
+row 80 |  = 2
+row 80 |  = 2.17
+row 80 |  = 0.74
+row 80 |  = 1.07
+row 81 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Adequately insulated
+row 81 |  = 64.27
+row 81 |  = 15.34
+row 81 |  = 11.13
+row 81 |  = 4.8
+row 81 |  = 5.6
+row 81 |  = 1.77
+row 81 |  = 2.89
+row 82 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Poorly insulated
+row 82 |  = 21.29
+row 82 |  = 9.8000000000000007
+row 82 |  = 7.17
+row 82 |  = 4.4800000000000004
+row 82 |  = 3.98
+row 82 |  = 2.0099999999999998
+row 82 |  = 2
+row 83 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = No insulation
+row 83 |  = 3.63
+row 83 |  = 1.85
+row 83 |  = 1.41
+row 83 |  = 0.92
+row 83 |  = 0.61
+row 83 |  = 0.41
+row 83 |  = 0.38
+row 84 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Type of glass in windows
+row 85 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Single-pane glass
+row 85 |  = 43.51
+row 85 |  = 15.97
+row 85 |  = 11.93
+row 85 |  = 6.07
+row 85 |  = 6.24
+row 85 |  = 2.61
+row 85 |  = 3.03
+row 86 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Double-pane glass
+row 86 |  = 77.95
+row 86 |  = 17.25
+row 86 |  = 12.44
+row 86 |  = 5.93
+row 86 |  = 6.04
+row 86 |  = 2.27
+row 86 |  = 3.25
+row 87 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Triple-pane glass
+row 87 |  = 2.0699999999999998
+row 87 |  = 0.35
+row 87 |  = 0.24
+row 87 |  = 0.2
+row 87 |  = 7.0000000000000007E-2
+row 87 |  = Q
+row 87 |  = 7.0000000000000007E-2
+row 88 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Number of household members
+row 89 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1 member
+row 89 |  = 33.590000000000003
+row 89 |  = 8.52
+row 89 |  = 6.07
+row 89 |  = 3.66
+row 89 |  = 2.62
+row 89 |  = 1.07
+row 89 |  = 1.2
+row 90 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2 members
+row 90 |  = 45.31
+row 90 |  = 9.56
+row 90 |  = 6.7
+row 90 |  = 3.64
+row 90 |  = 3.15
+row 90 |  = 1.26
+row 90 |  = 1.86
+row 91 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 3 members
+row 91 |  = 18.27
+row 91 |  = 5.87
+row 91 |  = 4.42
+row 91 |  = 1.85
+row 91 |  = 2.1800000000000002
+row 91 |  = 0.95
+row 91 |  = 1.02
+row 92 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 4 members
+row 92 |  = 15.56
+row 92 |  = 5.08
+row 92 |  = 3.91
+row 92 |  = 1.61
+row 92 |  = 2.1
+row 92 |  = 0.69
+row 92 |  = 1.0900000000000001
+row 93 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 5 members
+row 93 |  = 6.44
+row 93 |  = 2.4500000000000002
+row 93 |  = 1.93
+row 93 |  = 0.75
+row 93 |  = 1.22
+row 93 |  = 0.52
+row 93 |  = 0.62
+row 94 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 6 or more members
+row 94 |  = 4.37
+row 94 |  = 2.08
+row 94 |  = 1.59
+row 94 |  = 0.68
+row 94 |  = 1.0900000000000001
+row 94 |  = 0.45
+row 94 |  = 0.56000000000000005
+row 95 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2020 annual household income
+row 96 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Less than $5,000
+row 96 |  = 4.4800000000000004
+row 96 |  = 2.6
+row 96 |  = 2.1
+row 96 |  = 1.1100000000000001
+row 96 |  = 1.19
+row 96 |  = 0.5
+row 96 |  = 0.54
+row 97 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $5,000 to $9,999
+row 97 |  = 4.01
+row 97 |  = 2.25
+row 97 |  = 1.87
+row 97 |  = 0.85
+row 97 |  = 0.78
+row 97 |  = 0.38
+row 97 |  = 0.32
+row 98 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $10,000 to $19,999
+row 98 |  = 10.25
+row 98 |  = 4.8
+row 98 |  = 3.86
+row 98 |  = 2.12
+row 98 |  = 1.86
+row 98 |  = 0.82
+row 98 |  = 0.88
+row 99 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $20,000 to $39,999
+row 99 |  = 24.07
+row 99 |  = 9.56
+row 99 |  = 7.54
+row 99 |  = 3.6
+row 99 |  = 3.46
+row 99 |  = 1.52
+row 99 |  = 1.97
+row 100 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $40,000 to $59,999
+row 100 |  = 19.61
+row 100 |  = 5.74
+row 100 |  = 4.22
+row 100 |  = 1.75
+row 100 |  = 2.25
+row 100 |  = 0.83
+row 100 |  = 1.1399999999999999
+row 101 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $60,000 to $99,999
+row 101 |  = 27.71
+row 101 |  = 5.57
+row 101 |  = 3.56
+row 101 |  = 1.57
+row 101 |  = 1.94
+row 101 |  = 0.56000000000000005
+row 101 |  = 0.92
+row 102 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $100,000 to $149,999
+row 102 |  = 16.54
+row 102 |  = 1.84
+row 102 |  = 1.01
+row 102 |  = 0.68
+row 102 |  = 0.62
+row 102 |  = 0.2
+row 102 |  = 0.34
+row 103 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $150,000 or more
+row 103 |  = 16.86
+row 103 |  = 1.22
+row 103 |  = 0.44
+row 103 |  = 0.52
+row 103 |  = 0.26
+row 103 |  = 0.14000000000000001
+row 103 |  = 0.24
+row 104 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Payment method for energy bills
+row 105 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = All paid by household
+row 105 |  = 112.7
+row 105 |  = 30.36
+row 105 |  = 22.29
+row 105 |  = 10.92
+row 105 |  = 11.57
+row 105 |  = 4.43
+row 105 |  = 5.89
+row 106 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Some paid by household; some included in rent or condo fee
+row 106 |  = 6.32
+row 106 |  = 2.14
+row 106 |  = 1.68
+row 106 |  = 0.76
+row 106 |  = 0.56999999999999995
+row 106 |  = 0.33
+row 106 |  = 0.32
+row 107 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = All included in rent or condo fee
+row 107 |  = 4.34
+row 107 |  = 1.01
+row 107 |  = 0.56999999999999995
+row 107 |  = 0.47
+row 107 |  = 0.18
+row 107 |  = 0.13
+row 107 |  = 0.12
+row 108 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Some other method
+row 108 |  = 0.16
+row 108 |  = Q
+row 108 |  = Q
+row 108 |  = Q
+row 108 |  = Q
+row 108 |  = Q
+row 108 |  = Q
+row 109 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Householder 60 or olderh
+row 110 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Yes
+row 110 |  = 52.11
+row 110 |  = 10
+row 110 |  = 6.93
+row 110 |  = 4.38
+row 110 |  = 2.77
+row 110 |  = 1.41
+row 110 |  = 1.89
+row 111 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = No
+row 111 |  = 71.42
+row 111 |  = 23.57
+row 111 |  = 17.670000000000002
+row 111 |  = 7.81
+row 111 |  = 9.59
+row 111 |  = 3.53
+row 111 |  = 4.46
+row 112 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Children under 18 in household
+row 113 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Yes
+row 113 |  = 34.58
+row 113 |  = 12.88
+row 113 |  = 10.02
+row 113 |  = 3.97
+row 113 |  = 5.9
+row 113 |  = 2.25
+row 113 |  = 2.81
+row 114 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = No
+row 114 |  = 88.95
+row 114 |  = 20.69
+row 114 |  = 14.59
+row 114 |  = 8.2200000000000006
+row 114 |  = 6.46
+row 114 |  = 2.69
+row 114 |  = 3.54
+row 115 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Ethnicity of householderh
+row 116 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Hispanic or Latino
+row 116 |  = 13.99
+row 116 |  = 6.57
+row 116 |  = 5.14
+row 116 |  = 2.4
+row 116 |  = 2.2400000000000002
+row 116 |  = 0.92
+row 116 |  = 1.19
+row 117 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Not Hispanic or Latino
+row 117 |  = 109.54
+row 117 |  = 27.01
+row 117 |  = 19.47
+row 117 |  = 9.7899999999999991
+row 117 |  = 10.119999999999999
+row 117 |  = 4.0199999999999996
+row 117 |  = 5.15
+row 118 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Race of householderh,i
+row 119 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = White alone
+row 119 |  = 99.99
+row 119 |  = 23.17
+row 119 |  = 16.78
+row 119 |  = 8.4700000000000006
+row 119 |  = 8.02
+row 119 |  = 3.23
+row 119 |  = 4.28
+row 120 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Hispanic or Latino
+row 120 |  = 12.04
+row 120 |  = 5.52
+row 120 |  = 4.43
+row 120 |  = 2.02
+row 120 |  = 1.87
+row 120 |  = 0.76
+row 120 |  = 1
+row 121 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Not Hispanic or Latino
+row 121 |  = 87.94
+row 121 |  = 17.66
+row 121 |  = 12.35
+row 121 |  = 6.44
+row 121 |  = 6.15
+row 121 |  = 2.4700000000000002
+row 121 |  = 3.28
+row 122 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Black or African American alone
+row 122 |  = 12.95
+row 122 |  = 6.73
+row 122 |  = 5.21
+row 122 |  = 2.2599999999999998
+row 122 |  = 3.37
+row 122 |  = 1.23
+row 122 |  = 1.42
+row 123 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Hispanic or Latino
+row 123 |  = 0.63
+row 123 |  = 0.35
+row 123 |  = 0.26
+row 123 |  = 0.11
+row 123 |  = 0.14000000000000001
+row 123 |  = Q
+row 123 |  = Q
+row 124 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Not Hispanic or Latino
+row 124 |  = 12.32
+row 124 |  = 6.39
+row 124 |  = 4.95
+row 124 |  = 2.15
+row 124 |  = 3.23
+row 124 |  = 1.1599999999999999
+row 124 |  = 1.34
+row 125 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Asian alone
+row 125 |  = 6.06
+row 125 |  = 1.53
+row 125 |  = 1.03
+row 125 |  = 0.75
+row 125 |  = 0.21
+row 125 |  = 0.18
+row 125 |  = 0.26
+row 126 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = American Indian or Alaska Native alone
+row 126 |  = 1.08
+row 126 |  = 0.56000000000000005
+row 126 |  = 0.41
+row 126 |  = 0.17
+row 126 |  = 0.19
+row 126 |  = 0.11
+row 126 |  = 7.0000000000000007E-2
+row 127 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Native Hawaiian or Other Pacific Islander alone
+row 127 |  = 0.35
+row 127 |  = 0.15
+row 127 |  = 0.12
+row 127 |  = Q
+row 127 |  = Q
+row 127 |  = Q
+row 127 |  = Q
+row 128 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = More than one race
+row 128 |  = 3.1
+row 128 |  = 1.43
+row 128 |  = 1.06
+row 128 |  = 0.51
+row 128 |  = 0.53
+row 128 |  = 0.18
+row 128 |  = 0.31
+row 129 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Ownership of housing unitj
+row 130 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Owned
+row 130 |  = 82.92
+row 130 |  = 16.920000000000002
+row 130 |  = 11.76
+row 130 |  = 5.99
+row 130 |  = 5.49
+row 130 |  = 2.84
+row 130 |  = 3.83
+row 131 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Rented
+row 131 |  = 40.61
+row 131 |  = 16.66
+row 131 |  = 12.84
+row 131 |  = 6.2
+row 131 |  = 6.87
+row 131 |  = 2.09
+row 131 |  = 2.52
+row 132 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 
+row 133 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Data source: U.S. Energy Information Administration, Office of Energy Demand and Integrated Statistics, Form EIA-457A of the 2020 Residential Energy Consumption Survey
+Notes:  Because of rounding, data may not sum to totals.  See RECS Terminology for the definitions of terms used in these tables.
+a Total U.S. includes all primary occupied housing units in the 50 states and the District of Columbia. Vacant housing units, seasonal units, second homes, military houses, and group quarters are excluded.
+b Household energy insecurity as defined in this table includes only those issues collected as part of the RECS questionnaire. Other factors, such as energy costs as a percentage of household income, could be considered as household energy insecurity, but they are not included here. Respondents may report more than one energy insecurity issue.
+c Includes inability to use main heating equipment at any time during the previous 12 months because equipment was broken and household could not have it repaired or because of an electricity, natural gas, or bulk fuel disruption due to lack of payment.
+d Includes inability to use air-conditoning equipment at any time during the previous 12 months because equipment was broken and household could not have it repaired or because of an electricity disruption due to lack of payment.
+e Housing units are classified using criteria created by the U.S. Census Bureau based on 2010 Census data. Urbanized areas are densely settled groupings of blocks or tracts with 50,000 or more people, while urban clusters have at least 2,500 but less than 50,000 people. All other areas are rural.
+f The Building America program, sponsored by the U.S. Department of Energy’s Office of Energy Efficiency and Renewable Energy (EERE), created these climate regions. We combined climate regions for this publication. The Subarctic region is included with data for Very-cold/Cold. 
+g Some other fuel includes coal and district steam.
+h These characteristics refer to the householder that completed the RECS questionnaire.  
+i Householders could select more than one racial category to describe themselves. These householders are only included as more than one race.        
+j Rent includes households that occupy their primary housing units without paying rent.
+Q = Data withheld because either the relative standard error (RSE) was greater than 50% or fewer than 10 households were in the reporting sample.
+N = No households in reporting sample.
+Sheet: rse
+row 2 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Relative standard errors (RSEs) for Table HC11.1  Household energy insecurity, 2020
+row 3 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 
+row 3 |  = RSEs for number of housing units
+row 4 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 
+row 4 |  = Households reporting…
+row 5 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 
+row 5 |  = Total U.S.a
+row 5 |  = Any household energy insecurityb
+row 5 |  = Reducing or forgoing food or medicine to pay energy costs
+row 5 |  = Leaving home at unhealthy temperature
+row 5 |  = Receiving disconnect or delivery stop notice
+row 5 |  = Unable to use heating equipmentc
+row 5 |  = Unable to use air-conditioning equipmentd
+row 6 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = All homes
+row 6 |  = 0
+row 6 |  = 1.48
+row 6 |  = 1.68
+row 6 |  = 2.95
+row 6 |  = 2.35
+row 6 |  = 4.71
+row 6 |  = 3.79
+row 7 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Census region and division
+row 7 |  =  
+row 7 |  =  
+row 7 |  =  
+row 7 |  =  
+row 7 |  =  
+row 7 |  =  
+row 7 |  =  
+row 8 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Northeast
+row 8 |  = 0
+row 8 |  = 3.56
+row 8 |  = 4.13
+row 8 |  = 6.07
+row 8 |  = 6.16
+row 8 |  = 9.84
+row 8 |  = 10.27
+row 9 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = New England
+row 9 |  = 0
+row 9 |  = 5.77
+row 9 |  = 7.28
+row 9 |  = 9.85
+row 9 |  = 9.23
+row 9 |  = 12.82
+row 9 |  = 14.71
+row 10 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Middle Atlantic
+row 10 |  = 0
+row 10 |  = 4.24
+row 10 |  = 5.42
+row 10 |  = 7.3
+row 10 |  = 7.51
+row 10 |  = 13.71
+row 10 |  = 12.03
+row 11 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Midwest
+row 11 |  = 0
+row 11 |  = 3.4
+row 11 |  = 3.87
+row 11 |  = 8.01
+row 11 |  = 5.28
+row 11 |  = 11.21
+row 11 |  = 10.42
+row 12 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = East North Central
+row 12 |  = 0
+row 12 |  = 4.3600000000000003
+row 12 |  = 4.92
+row 12 |  = 9.7200000000000006
+row 12 |  = 6.54
+row 12 |  = 14.35
+row 12 |  = 11.87
+row 13 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = West North Central
+row 13 |  = 0
+row 13 |  = 5.18
+row 13 |  = 6.51
+row 13 |  = 10.33
+row 13 |  = 9.43
+row 13 |  = 13.04
+row 13 |  = 14.8
+row 14 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = South
+row 14 |  = 0
+row 14 |  = 2.23
+row 14 |  = 2.82
+row 14 |  = 4.8899999999999997
+row 14 |  = 3.91
+row 14 |  = 6.45
+row 14 |  = 5.75
+row 15 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = South Atlantic
+row 15 |  = 0
+row 15 |  = 3.09
+row 15 |  = 4.1399999999999997
+row 15 |  = 6.4
+row 15 |  = 5.97
+row 15 |  = 11.56
+row 15 |  = 8.6999999999999993
+row 16 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = East South Central
+row 16 |  = 0
+row 16 |  = 4.29
+row 16 |  = 5.16
+row 16 |  = 9.23
+row 16 |  = 8.09
+row 16 |  = 12.79
+row 16 |  = 9.84
+row 17 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = West South Central
+row 17 |  = 0
+row 17 |  = 3.58
+row 17 |  = 4.4000000000000004
+row 17 |  = 8.0299999999999994
+row 17 |  = 5.92
+row 17 |  = 8.9
+row 17 |  = 10.43
+row 18 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = West
+row 18 |  = 0
+row 18 |  = 3.08
+row 18 |  = 3.6
+row 18 |  = 5.25
+row 18 |  = 7.22
+row 18 |  = 10.199999999999999
+row 18 |  = 8.59
+row 19 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mountain
+row 19 |  = 0
+row 19 |  = 4.3899999999999997
+row 19 |  = 5.77
+row 19 |  = 6.98
+row 19 |  = 8.9600000000000009
+row 19 |  = 12.59
+row 19 |  = 12.52
+row 20 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mountain North
+row 20 |  = 0
+row 20 |  = 6.84
+row 20 |  = 8.75
+row 20 |  = 14.06
+row 20 |  = 11.87
+row 20 |  = 20.81
+row 20 |  = 22.24
+row 21 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mountain South
+row 21 |  = 0
+row 21 |  = 5.78
+row 21 |  = 7.47
+row 21 |  = 9.1
+row 21 |  = 12.5
+row 21 |  = 17.309999999999999
+row 21 |  = 13.78
+row 22 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Pacific
+row 22 |  = 0
+row 22 |  = 3.88
+row 22 |  = 4.93
+row 22 |  = 6.73
+row 22 |  = 10.61
+row 22 |  = 12.75
+row 22 |  = 11.55
+row 23 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Census urban/rural classificatione
+row 23 |  =  
+row 23 |  =  
+row 23 |  =  
+row 23 |  =  
+row 23 |  =  
+row 23 |  =  
+row 23 |  =  
+row 24 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Urban
+row 24 |  = 0.28000000000000003
+row 24 |  = 1.64
+row 24 |  = 1.86
+row 24 |  = 2.97
+row 24 |  = 2.5299999999999998
+row 24 |  = 5.07
+row 24 |  = 4.1399999999999997
+row 25 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Urbanized area
+row 25 |  = 0.42
+row 25 |  = 1.73
+row 25 |  = 2.02
+row 25 |  = 3.1
+row 25 |  = 2.61
+row 25 |  = 5.38
+row 25 |  = 4.3
+row 26 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Urban cluster
+row 26 |  = 2.74
+row 26 |  = 4.4000000000000004
+row 26 |  = 4.96
+row 26 |  = 7.41
+row 26 |  = 8.4499999999999993
+row 26 |  = 14.67
+row 26 |  = 12.43
+row 27 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Rural
+row 27 |  = 1.23
+row 27 |  = 3.69
+row 27 |  = 4.12
+row 27 |  = 6.53
+row 27 |  = 6.31
+row 27 |  = 8.2200000000000006
+row 27 |  = 10.26
+row 28 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Climate regionf
+row 28 |  =  
+row 28 |  =  
+row 28 |  =  
+row 28 |  =  
+row 28 |  =  
+row 28 |  =  
+row 28 |  =  
+row 29 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Very-cold/Cold
+row 29 |  = 0.54
+row 29 |  = 2.85
+row 29 |  = 3.05
+row 29 |  = 4.91
+row 29 |  = 4.34
+row 29 |  = 7.34
+row 29 |  = 8.42
+row 30 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mixed-humid
+row 30 |  = 0.77
+row 30 |  = 2.6
+row 30 |  = 3.06
+row 30 |  = 4.3899999999999997
+row 30 |  = 4.78
+row 30 |  = 7.43
+row 30 |  = 4.97
+row 31 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mixed-dry/Hot-dry
+row 31 |  = 1.23
+row 31 |  = 3.83
+row 31 |  = 4.6500000000000004
+row 31 |  = 6.77
+row 31 |  = 10.220000000000001
+row 31 |  = 12.47
+row 31 |  = 9.73
+row 32 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Hot-humid
+row 32 |  = 0.69
+row 32 |  = 3.31
+row 32 |  = 4.1100000000000003
+row 32 |  = 7.33
+row 32 |  = 6.45
+row 32 |  = 9.36
+row 32 |  = 9.8000000000000007
+row 33 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Marine
+row 33 |  = 2.39
+row 33 |  = 6.89
+row 33 |  = 9.1199999999999992
+row 33 |  = 11.96
+row 33 |  = 17.899999999999999
+row 33 |  = 25.49
+row 33 |  = 22.07
+row 34 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Housing unit type
+row 34 |  =  
+row 34 |  =  
+row 34 |  =  
+row 34 |  =  
+row 34 |  =  
+row 34 |  =  
+row 34 |  =  
+row 35 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Single-family detached
+row 35 |  = 0
+row 35 |  = 1.98
+row 35 |  = 2.35
+row 35 |  = 3.96
+row 35 |  = 3.46
+row 35 |  = 5.48
+row 35 |  = 4.38
+row 36 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Single-family attached
+row 36 |  = 0
+row 36 |  = 4.8099999999999996
+row 36 |  = 5.6
+row 36 |  = 8.32
+row 36 |  = 10.09
+row 36 |  = 14.23
+row 36 |  = 10.48
+row 37 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Apartments in buildings with 2–4 units
+row 37 |  = 0
+row 37 |  = 3.33
+row 37 |  = 4.34
+row 37 |  = 6.97
+row 37 |  = 6.57
+row 37 |  = 13.24
+row 37 |  = 14.47
+row 38 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Apartments in buildings with 5 or more units
+row 38 |  = 0
+row 38 |  = 3.34
+row 38 |  = 3.79
+row 38 |  = 6.36
+row 38 |  = 6.56
+row 38 |  = 14.38
+row 38 |  = 11.2
+row 39 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Mobile homes
+row 39 |  = 0
+row 39 |  = 3.72
+row 39 |  = 4.29
+row 39 |  = 9.09
+row 39 |  = 7.2
+row 39 |  = 12.69
+row 39 |  = 11.62
+row 40 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Year of construction
+row 40 |  =  
+row 40 |  =  
+row 40 |  =  
+row 40 |  =  
+row 40 |  =  
+row 40 |  =  
+row 40 |  =  
+row 41 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Before 1950
+row 41 |  = 0
+row 41 |  = 3.3
+row 41 |  = 4.1900000000000004
+row 41 |  = 6.46
+row 41 |  = 5.75
+row 41 |  = 10.61
+row 41 |  = 9.1
+row 42 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1950 to 1959
+row 42 |  = 0
+row 42 |  = 4.1900000000000004
+row 42 |  = 6.08
+row 42 |  = 8.61
+row 42 |  = 7.46
+row 42 |  = 10.67
+row 42 |  = 9.5
+row 43 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1960 to 1969
+row 43 |  = 0
+row 43 |  = 4.1399999999999997
+row 43 |  = 4.4800000000000004
+row 43 |  = 9.24
+row 43 |  = 7.95
+row 43 |  = 17.920000000000002
+row 43 |  = 11.29
+row 44 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1970 to 1979
+row 44 |  = 0
+row 44 |  = 3.42
+row 44 |  = 3.93
+row 44 |  = 6.59
+row 44 |  = 6.05
+row 44 |  = 10.54
+row 44 |  = 9.18
+row 45 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1980 to 1989
+row 45 |  = 0
+row 45 |  = 3.91
+row 45 |  = 4.93
+row 45 |  = 8.2799999999999994
+row 45 |  = 7.48
+row 45 |  = 12
+row 45 |  = 12.11
+row 46 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1990 to 1999
+row 46 |  = 0
+row 46 |  = 4.28
+row 46 |  = 5.7
+row 46 |  = 8.4
+row 46 |  = 8.0399999999999991
+row 46 |  = 11.94
+row 46 |  = 10.79
+row 47 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2000 to 2009
+row 47 |  = 0
+row 47 |  = 4.0599999999999996
+row 47 |  = 4.7699999999999996
+row 47 |  = 6.48
+row 47 |  = 7.04
+row 47 |  = 12.89
+row 47 |  = 8.5500000000000007
+row 48 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2010 to 2015
+row 48 |  = 2.84
+row 48 |  = 7.65
+row 48 |  = 8.15
+row 48 |  = 12.82
+row 48 |  = 11.41
+row 48 |  = 22.47
+row 48 |  = 23.67
+row 49 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2016 to 2020
+row 49 |  = 3.44
+row 49 |  = 8.41
+row 49 |  = 9.76
+row 49 |  = 17.28
+row 49 |  = 17.84
+row 49 |  = 31.68
+row 49 |  = 38.549999999999997
+row 50 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Main heating fuel and equipment
+row 50 |  =  
+row 50 |  =  
+row 50 |  =  
+row 50 |  =  
+row 50 |  =  
+row 50 |  =  
+row 50 |  =  
+row 51 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Natural gas
+row 51 |  = 0.77
+row 51 |  = 2.27
+row 51 |  = 2.76
+row 51 |  = 4.29
+row 51 |  = 4.24
+row 51 |  = 7.44
+row 51 |  = 6.03
+row 52 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Electricity
+row 52 |  = 0.92
+row 52 |  = 2.58
+row 52 |  = 2.86
+row 52 |  = 5.1100000000000003
+row 52 |  = 4.5
+row 52 |  = 7.04
+row 52 |  = 6.06
+row 53 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Fuel oil or kerosene
+row 53 |  = 3.5
+row 53 |  = 6.55
+row 53 |  = 8.84
+row 53 |  = 11.41
+row 53 |  = 10.6
+row 53 |  = 14.77
+row 53 |  = 19.420000000000002
+row 54 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Propane
+row 54 |  = 3.76
+row 54 |  = 6.56
+row 54 |  = 8.18
+row 54 |  = 13.04
+row 54 |  = 13.95
+row 54 |  = 15.52
+row 54 |  = 20.75
+row 55 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Wood
+row 55 |  = 4.88
+row 55 |  = 12.07
+row 55 |  = 14.74
+row 55 |  = 16.940000000000001
+row 55 |  = 25.56
+row 55 |  = 19.57
+row 55 |  = 30.82
+row 56 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Some other fuelg
+row 56 |  = 35.67
+row 56 |  = 72.540000000000006
+row 56 |  = 72.540000000000006
+row 56 |  = 100.21
+row 56 |  = 100.21
+row 56 |  = 0
+row 56 |  = 0
+row 57 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Does not use heating equipment
+row 57 |  = 4.41
+row 57 |  = 6.9
+row 57 |  = 8.09
+row 57 |  = 10.48
+row 57 |  = 12.61
+row 57 |  = 14.38
+row 57 |  = 16.27
+row 58 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Main heating equipment (including all fuels)
+row 58 |  =  
+row 58 |  =  
+row 58 |  =  
+row 58 |  =  
+row 58 |  =  
+row 58 |  =  
+row 58 |  =  
+row 59 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Central warm-air furnace
+row 59 |  = 0.57999999999999996
+row 59 |  = 1.99
+row 59 |  = 2.54
+row 59 |  = 4.0999999999999996
+row 59 |  = 3.41
+row 59 |  = 5.41
+row 59 |  = 5.65
+row 60 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Heat pump
+row 60 |  = 1.83
+row 60 |  = 4.8099999999999996
+row 60 |  = 5.36
+row 60 |  = 8.6999999999999993
+row 60 |  = 7.5
+row 60 |  = 14.97
+row 60 |  = 9.98
+row 61 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Steam or hot water system
+row 61 |  = 2.89
+row 61 |  = 5.69
+row 61 |  = 6.94
+row 61 |  = 9.5500000000000007
+row 61 |  = 11.56
+row 61 |  = 14.15
+row 61 |  = 18.96
+row 62 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Ductless heat pump (mini-split)
+row 62 |  = 8.94
+row 62 |  = 18.010000000000002
+row 62 |  = 22.92
+row 62 |  = 30.98
+row 62 |  = 35.58
+row 62 |  = 49.83
+row 62 |  = 34.659999999999997
+row 63 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Built-in electric units
+row 63 |  = 2.83
+row 63 |  = 5.18
+row 63 |  = 6.94
+row 63 |  = 8.66
+row 63 |  = 10.55
+row 63 |  = 20.67
+row 63 |  = 18.7
+row 64 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Built-in oil or gas room heater
+row 64 |  = 5.37
+row 64 |  = 8.7200000000000006
+row 64 |  = 9.32
+row 64 |  = 14.19
+row 64 |  = 14.85
+row 64 |  = 22.57
+row 64 |  = 23.2
+row 65 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Portable electric heaters
+row 65 |  = 6.15
+row 65 |  = 7.96
+row 65 |  = 9.69
+row 65 |  = 13.87
+row 65 |  = 14.27
+row 65 |  = 19.399999999999999
+row 65 |  = 17.21
+row 66 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Heating stove burning wood
+row 66 |  = 5.46
+row 66 |  = 13.28
+row 66 |  = 16.27
+row 66 |  = 19.09
+row 66 |  = 29.55
+row 66 |  = 20.65
+row 66 |  = 34.22
+row 67 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Some other equipment
+row 67 |  = 9.92
+row 67 |  = 23.68
+row 67 |  = 26.08
+row 67 |  = 38.14
+row 67 |  = 34.340000000000003
+row 67 |  = 72.36
+row 67 |  = 59.59
+row 68 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Does not use heating equipment
+row 68 |  = 4.41
+row 68 |  = 6.9
+row 68 |  = 8.09
+row 68 |  = 10.48
+row 68 |  = 12.61
+row 68 |  = 14.38
+row 68 |  = 16.27
+row 69 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Air-conditioning equipment
+row 69 |  =  
+row 69 |  =  
+row 69 |  =  
+row 69 |  =  
+row 69 |  =  
+row 69 |  =  
+row 69 |  =  
+row 70 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Uses air-conditioning equipment
+row 70 |  = 0.35
+row 70 |  = 1.56
+row 70 |  = 1.88
+row 70 |  = 3.19
+row 70 |  = 2.64
+row 70 |  = 5.2
+row 70 |  = 4.1900000000000004
+row 71 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Does not use air-conditioning equipment
+row 71 |  = 2.7
+row 71 |  = 4.57
+row 71 |  = 5.3
+row 71 |  = 6.46
+row 71 |  = 7.52
+row 71 |  = 10.46
+row 71 |  = 12.23
+row 72 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Main type of air-conditioning equipment used 
+row 72 |  =  
+row 72 |  =  
+row 72 |  =  
+row 72 |  =  
+row 72 |  =  
+row 72 |  =  
+row 72 |  =  
+row 73 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Central air-conditioning equipment (including central heat pump)
+row 73 |  = 0.55000000000000004
+row 73 |  = 2.15
+row 73 |  = 2.56
+row 73 |  = 3.69
+row 73 |  = 3.48
+row 73 |  = 6.66
+row 73 |  = 5.51
+row 74 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Ductless heat pump (mini-split)
+row 74 |  = 6.82
+row 74 |  = 16.41
+row 74 |  = 24.75
+row 74 |  = 26.09
+row 74 |  = 25.44
+row 74 |  = 35.89
+row 74 |  = 31.27
+row 75 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Window or wall air conditioner
+row 75 |  = 2.04
+row 75 |  = 3.42
+row 75 |  = 3.77
+row 75 |  = 5.94
+row 75 |  = 4.7300000000000004
+row 75 |  = 8.7200000000000006
+row 75 |  = 7.96
+row 76 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Portable air conditioner
+row 76 |  = 5.77
+row 76 |  = 9.94
+row 76 |  = 12.04
+row 76 |  = 15.71
+row 76 |  = 17.91
+row 76 |  = 26.17
+row 76 |  = 22.01
+row 77 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Evaporative or swamp cooler
+row 77 |  = 8.39
+row 77 |  = 13.74
+row 77 |  = 15.89
+row 77 |  = 22.07
+row 77 |  = 29.78
+row 77 |  = 43.85
+row 77 |  = 34.82
+row 78 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Does not use air-conditioning equipment
+row 78 |  = 2.7
+row 78 |  = 4.57
+row 78 |  = 5.3
+row 78 |  = 6.46
+row 78 |  = 7.52
+row 78 |  = 10.46
+row 78 |  = 12.23
+row 79 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Adequacy of insulation
+row 79 |  =  
+row 79 |  =  
+row 79 |  =  
+row 79 |  =  
+row 79 |  =  
+row 79 |  =  
+row 79 |  =  
+row 80 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Well insulated
+row 80 |  = 1.43
+row 80 |  = 3.18
+row 80 |  = 3.68
+row 80 |  = 7.83
+row 80 |  = 7.15
+row 80 |  = 11.89
+row 80 |  = 9.4600000000000009
+row 81 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Adequately insulated
+row 81 |  = 0.76
+row 81 |  = 2.27
+row 81 |  = 2.66
+row 81 |  = 4.53
+row 81 |  = 3.47
+row 81 |  = 7.37
+row 81 |  = 6.25
+row 82 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Poorly insulated
+row 82 |  = 1.85
+row 82 |  = 2.77
+row 82 |  = 3.03
+row 82 |  = 4.4800000000000004
+row 82 |  = 3.95
+row 82 |  = 6.82
+row 82 |  = 6.4
+row 83 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = No insulation
+row 83 |  = 5.49
+row 83 |  = 7.91
+row 83 |  = 10.41
+row 83 |  = 10.49
+row 83 |  = 12.96
+row 83 |  = 15.82
+row 83 |  = 14.62
+row 84 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Type of glass in windows
+row 84 |  =  
+row 84 |  =  
+row 84 |  =  
+row 84 |  =  
+row 84 |  =  
+row 84 |  =  
+row 84 |  =  
+row 85 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Single-pane glass
+row 85 |  = 1.08
+row 85 |  = 2.4900000000000002
+row 85 |  = 2.63
+row 85 |  = 4.47
+row 85 |  = 3.58
+row 85 |  = 5.73
+row 85 |  = 5.59
+row 86 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Double-pane glass
+row 86 |  = 0.61
+row 86 |  = 2.0699999999999998
+row 86 |  = 2.54
+row 86 |  = 3.51
+row 86 |  = 3.65
+row 86 |  = 6.48
+row 86 |  = 4.93
+row 87 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Triple-pane glass
+row 87 |  = 6.23
+row 87 |  = 14.32
+row 87 |  = 17.899999999999999
+row 87 |  = 16.670000000000002
+row 87 |  = 35.119999999999997
+row 87 |  = 43.76
+row 87 |  = 31
+row 88 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Number of household members
+row 88 |  =  
+row 88 |  =  
+row 88 |  =  
+row 88 |  =  
+row 88 |  =  
+row 88 |  =  
+row 88 |  =  
+row 89 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 1 member
+row 89 |  = 1.25
+row 89 |  = 3.5
+row 89 |  = 4.0199999999999996
+row 89 |  = 5.22
+row 89 |  = 6.01
+row 89 |  = 10.96
+row 89 |  = 7.59
+row 90 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2 members
+row 90 |  = 1.1499999999999999
+row 90 |  = 2.9
+row 90 |  = 3.25
+row 90 |  = 6.02
+row 90 |  = 5.36
+row 90 |  = 8.7200000000000006
+row 90 |  = 6.73
+row 91 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 3 members
+row 91 |  = 1.87
+row 91 |  = 3.48
+row 91 |  = 4.24
+row 91 |  = 7.61
+row 91 |  = 7.28
+row 91 |  = 11
+row 91 |  = 9.0299999999999994
+row 92 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 4 members
+row 92 |  = 2.08
+row 92 |  = 4.33
+row 92 |  = 4.46
+row 92 |  = 8.6
+row 92 |  = 7.47
+row 92 |  = 10.87
+row 92 |  = 9.67
+row 93 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 5 members
+row 93 |  = 4.12
+row 93 |  = 6.99
+row 93 |  = 7.31
+row 93 |  = 10.87
+row 93 |  = 9.69
+row 93 |  = 13.18
+row 93 |  = 13.96
+row 94 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 6 or more members
+row 94 |  = 4.58
+row 94 |  = 6.51
+row 94 |  = 6.77
+row 94 |  = 11.44
+row 94 |  = 10.16
+row 94 |  = 13.43
+row 94 |  = 13.42
+row 95 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 2020 annual household income
+row 95 |  =  
+row 95 |  =  
+row 95 |  =  
+row 95 |  =  
+row 95 |  =  
+row 95 |  =  
+row 95 |  =  
+row 96 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Less than $5,000
+row 96 |  = 4.63
+row 96 |  = 5.93
+row 96 |  = 6.19
+row 96 |  = 9.4700000000000006
+row 96 |  = 9.9600000000000009
+row 96 |  = 11.38
+row 96 |  = 16
+row 97 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $5,000 to $9,999
+row 97 |  = 5.53
+row 97 |  = 6.62
+row 97 |  = 6.83
+row 97 |  = 12.73
+row 97 |  = 10.98
+row 97 |  = 15.92
+row 97 |  = 17.350000000000001
+row 98 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $10,000 to $19,999
+row 98 |  = 3.21
+row 98 |  = 4.5999999999999996
+row 98 |  = 5.41
+row 98 |  = 6.47
+row 98 |  = 7.5
+row 98 |  = 12.63
+row 98 |  = 10.19
+row 99 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $20,000 to $39,999
+row 99 |  = 1.98
+row 99 |  = 3.04
+row 99 |  = 3.54
+row 99 |  = 5.16
+row 99 |  = 5.1100000000000003
+row 99 |  = 8.1999999999999993
+row 99 |  = 6.62
+row 100 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $40,000 to $59,999
+row 100 |  = 1.83
+row 100 |  = 3.78
+row 100 |  = 4.5199999999999996
+row 100 |  = 7.77
+row 100 |  = 6.78
+row 100 |  = 10.67
+row 100 |  = 9.89
+row 101 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $60,000 to $99,999
+row 101 |  = 1.58
+row 101 |  = 4.04
+row 101 |  = 5.78
+row 101 |  = 6.74
+row 101 |  = 6.35
+row 101 |  = 12.77
+row 101 |  = 9.09
+row 102 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $100,000 to $149,999
+row 102 |  = 1.83
+row 102 |  = 6.17
+row 102 |  = 9.2799999999999994
+row 102 |  = 9.92
+row 102 |  = 12.78
+row 102 |  = 19.8
+row 102 |  = 15.2
+row 103 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = $150,000 or more
+row 103 |  = 1.93
+row 103 |  = 7.8
+row 103 |  = 15.35
+row 103 |  = 14
+row 103 |  = 17.100000000000001
+row 103 |  = 25.03
+row 103 |  = 17.29
+row 104 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Payment method for energy bills
+row 104 |  =  
+row 104 |  =  
+row 104 |  =  
+row 104 |  =  
+row 104 |  =  
+row 104 |  =  
+row 104 |  =  
+row 105 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = All paid by household
+row 105 |  = 0.27
+row 105 |  = 1.53
+row 105 |  = 1.71
+row 105 |  = 3.02
+row 105 |  = 2.63
+row 105 |  = 4.83
+row 105 |  = 3.94
+row 106 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Some paid by household; some included in rent or condo fee
+row 106 |  = 3.9
+row 106 |  = 6.29
+row 106 |  = 7.84
+row 106 |  = 10.98
+row 106 |  = 12.54
+row 106 |  = 21.8
+row 106 |  = 16.239999999999998
+row 107 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = All included in rent or condo fee
+row 107 |  = 4.78
+row 107 |  = 10.62
+row 107 |  = 15.2
+row 107 |  = 14.64
+row 107 |  = 28.02
+row 107 |  = 25.91
+row 107 |  = 39.81
+row 108 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Some other method
+row 108 |  = 25.04
+row 108 |  = 44.84
+row 108 |  = 47.78
+row 108 |  = 50.77
+row 108 |  = 59.42
+row 108 |  = 63.85
+row 108 |  = 66.53
+row 109 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Householder 60 or olderh
+row 109 |  =  
+row 109 |  =  
+row 109 |  =  
+row 109 |  =  
+row 109 |  =  
+row 109 |  =  
+row 109 |  =  
+row 110 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Yes
+row 110 |  = 0.94
+row 110 |  = 3.32
+row 110 |  = 4.08
+row 110 |  = 4.99
+row 110 |  = 5.0599999999999996
+row 110 |  = 7.77
+row 110 |  = 6.7
+row 111 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = No
+row 111 |  = 0.69
+row 111 |  = 1.88
+row 111 |  = 2
+row 111 |  = 3.51
+row 111 |  = 2.65
+row 111 |  = 5.67
+row 111 |  = 4.68
+row 112 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Children under 18 in household
+row 112 |  =  
+row 112 |  =  
+row 112 |  =  
+row 112 |  =  
+row 112 |  =  
+row 112 |  =  
+row 112 |  =  
+row 113 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Yes
+row 113 |  = 1.29
+row 113 |  = 2.71
+row 113 |  = 2.5299999999999998
+row 113 |  = 4.58
+row 113 |  = 3.92
+row 113 |  = 5.84
+row 113 |  = 6.2
+row 114 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = No
+row 114 |  = 0.5
+row 114 |  = 2.23
+row 114 |  = 2.62
+row 114 |  = 4
+row 114 |  = 3.75
+row 114 |  = 6.09
+row 114 |  = 5.26
+row 115 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Ethnicity of householderh
+row 115 |  =  
+row 115 |  =  
+row 115 |  =  
+row 115 |  =  
+row 115 |  =  
+row 115 |  =  
+row 115 |  =  
+row 116 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Hispanic or Latino
+row 116 |  = 2.5
+row 116 |  = 3.87
+row 116 |  = 4.08
+row 116 |  = 7.49
+row 116 |  = 7.01
+row 116 |  = 9.58
+row 116 |  = 8.84
+row 117 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Not Hispanic or Latino
+row 117 |  = 0.32
+row 117 |  = 1.65
+row 117 |  = 2.0299999999999998
+row 117 |  = 3.48
+row 117 |  = 2.6
+row 117 |  = 5.47
+row 117 |  = 4.3499999999999996
+row 118 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Race of householderh,i
+row 118 |  =  
+row 118 |  =  
+row 118 |  =  
+row 118 |  =  
+row 118 |  =  
+row 118 |  =  
+row 118 |  =  
+row 119 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = White alone
+row 119 |  = 0.37
+row 119 |  = 1.68
+row 119 |  = 1.83
+row 119 |  = 3.66
+row 119 |  = 3
+row 119 |  = 5.72
+row 119 |  = 4.92
+row 120 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Hispanic or Latino
+row 120 |  = 2.92
+row 120 |  = 4.2
+row 120 |  = 4.18
+row 120 |  = 8.74
+row 120 |  = 7.5
+row 120 |  = 11.4
+row 120 |  = 10.3
+row 121 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Not Hispanic or Latino
+row 121 |  = 0.48
+row 121 |  = 2.0699999999999998
+row 121 |  = 2.5099999999999998
+row 121 |  = 4.38
+row 121 |  = 3.28
+row 121 |  = 6.78
+row 121 |  = 5.53
+row 122 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Black or African American alone
+row 122 |  = 2.23
+row 122 |  = 3.33
+row 122 |  = 3.92
+row 122 |  = 7.37
+row 122 |  = 4.66
+row 122 |  = 7.95
+row 122 |  = 7.15
+row 123 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Hispanic or Latino
+row 123 |  = 14.07
+row 123 |  = 18.559999999999999
+row 123 |  = 22.01
+row 123 |  = 30.94
+row 123 |  = 27.72
+row 123 |  = 43.37
+row 123 |  = 39.78
+row 124 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Not Hispanic or Latino
+row 124 |  = 2.34
+row 124 |  = 3.6
+row 124 |  = 4.16
+row 124 |  = 7.39
+row 124 |  = 4.57
+row 124 |  = 7.6
+row 124 |  = 6.94
+row 125 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Asian alone
+row 125 |  = 3.04
+row 125 |  = 8.6199999999999992
+row 125 |  = 10.97
+row 125 |  = 11.92
+row 125 |  = 23.06
+row 125 |  = 23.27
+row 125 |  = 16.46
+row 126 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = American Indian or Alaska Native alone
+row 126 |  = 9.5500000000000007
+row 126 |  = 14.4
+row 126 |  = 18.39
+row 126 |  = 22.78
+row 126 |  = 22.93
+row 126 |  = 37.28
+row 126 |  = 35.36
+row 127 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Native Hawaiian or Other Pacific Islander alone
+row 127 |  = 15.09
+row 127 |  = 24.25
+row 127 |  = 27.51
+row 127 |  = 64.83
+row 127 |  = 51.73
+row 127 |  = 100.38
+row 127 |  = 68.709999999999994
+row 128 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = More than one race
+row 128 |  = 4.87
+row 128 |  = 7.05
+row 128 |  = 8.25
+row 128 |  = 16.34
+row 128 |  = 11.92
+row 128 |  = 22.68
+row 128 |  = 18.98
+row 129 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Ownership of housing unitj
+row 129 |  =  
+row 129 |  =  
+row 129 |  =  
+row 129 |  =  
+row 129 |  =  
+row 129 |  =  
+row 129 |  =  
+row 130 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Owned
+row 130 |  = 0.42
+row 130 |  = 2.17
+row 130 |  = 2.48
+row 130 |  = 3.88
+row 130 |  = 3.96
+row 130 |  = 5.34
+row 130 |  = 4.6399999999999997
+row 131 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Rented
+row 131 |  = 0.86
+row 131 |  = 2.1800000000000002
+row 131 |  = 2.59
+row 131 |  = 3.93
+row 131 |  = 3.04
+row 131 |  = 7.47
+row 131 |  = 6.24
+row 132 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = 
+row 133 | Preliminary data release date: March 2022
+Preliminary data revised release date: May 2022
+Final data release date: August 2025 = Data source: U.S. Energy Information Administration, Office of Energy Demand and Integrated Statistics, Form EIA-457A of the 2020 Residential Energy Consumption Survey
+Notes: See RECS Terminology for the definitions of terms used in these tables.
+a Total U.S. includes all primary occupied housing units in the 50 states and the District of Columbia. Vacant housing units, seasonal units, second homes, military houses, and group quarters are excluded.
+b Household energy insecurity as defined in this table includes only those issues collected as part of the RECS questionnaire. Other factors, such as energy costs as a percentage of household income, could be considered as household energy insecurity, but they are not included here. Respondents may report more than one energy insecurity issue.
+c Includes inability to use main heating equipment at any time during the previous 12 months because equipment was broken and household could not have it repaired or because of an electricity, natural gas, or bulk fuel disruption due to lack of payment.
+d Includes inability to use air-conditoning equipment at any time during the previous 12 months because equipment was broken and household could not have it repaired or because of an electricity disruption due to lack of payment.
+e Housing units are classified using criteria created by the U.S. Census Bureau based on 2010 Census data. Urbanized areas are densely settled groupings of blocks or tracts with 50,000 or more people, while urban clusters have at least 2,500 but less than 50,000 people. All other areas are rural.
+f The Building America program, sponsored by the U.S. Department of Energy’s Office of Energy Efficiency and Renewable Energy (EERE), created these climate regions. We combined climate regions for this publication. The Subarctic region is included with data for Very-cold/Cold. 
+g Some other fuel includes coal and district steam.
+h These characteristics refer to the householder that completed the RECS questionnaire.  
+i Householders could select more than one racial category to describe themselves. These householders are only included as more than one race.        
+j Rent includes households that occupy their primary housing units without paying rent.

@@ -1,0 +1,1005 @@
+Source: https://osf.io/download/gukjd/
+Publisher: SocArXiv (OSF Preprints)
+Retrieved: 2026-11-09
+Original SHA-256: f1b7b3e393450121312de10a225959358f16cf4bc61a097bfa31e944f3e7f904
+Rights: CC BY 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+How Safe is Owner-Occupied Housing? An
+Exploration of Philadelphia’s Basic Service Repair
+Program
+A Preprint
+Jamaal Green
+Department of City and Regional Planning
+University of Pennsylvania
+Philadelphia, PA 19104
+jamaalg@upenn.edu
+
+Vincent Reina
+Department of City and Regional Planning
+University of Pennsylvania
+Philadelphia, PA 19104
+vreina@upenn.edu
+
+January 2, 2023
+
+Abstract
+Owner Occupied housing is generally assumed to be safe and of reasonably high quality in
+the United States. Prior research on housing quality using the American Housing Survey
+generally finds housing quality is good. Recent research critiquing housing quality measures
+found in the AHS and offering alternative measures complicate this assumption by showing
+housing quality is more variable than usually assumed and the costs of housing repair needs
+are worth billions of dollars a year. In order to better understand the state of housing
+quality in owner occupied housing we present information from Philadelphia’s Basic Systems
+Repair Program (BSRP). BSRP is an emergency repair program that offers grants to low
+income homeowners. From 2009-2019 the city has spect a little over $98 million in repairs
+helping nearly 11,000 households. Comparing AHS derived estimates of housing quality to
+the BSRP we find that housing quality for owner occupied homes in Philadelphia may be
+more severe than is often assumed and that severe housing quality issues disproportionately
+affect Black homeowners in the city. Planners concerned with stabilizing neighborhoods,
+protecting property values and the racially disparate costs of homeownership should pay
+closer to attention to housing quality issues and look at the feasibility of emergency home
+repair programs in affected areas.
+K eywords deferred maintenance · urban planning · American Housing Sutvey
+
+1
+
+Introduction
+
+The contemporary “equity” turn in planning focuses, in part, on the role that planning, as a field, has played
+in exacerbating structural racism in the United States. On the question of housing, planners often focus on
+questions concerning access to housing, particularly home ownership. These concerns often cover questions
+examining the role of redlining and discrimination on racial wealth inequality and homeownership gaps (Hillier
+2003; Gibson 2007). While the field has been principally concerned with expanding access to homeownership,
+there is relatively little attention paid to the challenges of owning a home across demographic groups and low
+income homeowners more generally. We generally assume that getting a family to own their home is the
+primary goal, but the ability of families to remain in and to maintain their homes is equally important.
+A major impediment to keeping homeowners in their homes is that of decreased housing quality due to
+deferred maintenance. In economically distressed regions and neighborhoods there are potentially significant
+numbers of lower income homeowners living in potentially unsafe and uncomfortable units. Substandard and
+unsafe housing pose many risks to homeowners and their broader neighborhoods including, but not limited
+to: negative mental health and chronic disease outcomes, decreased property taxes and links to violent crime
+
+A preprint - January 2, 2023
+
+(South, MacDonald, and Reina 2021; Ruggiero, Rivera, and Cooney 2020; Mallach, n.d.). Even with these
+recognized negative individual and community level effects the prevalence of substandard housing is an open
+question.
+Contemporary studies regarding housing quality run into one major issue– measurement. Studies focused
+on measuring housing quality often use the American Housing Survey (AHS), which is limited by its poor
+measures of housing quality and relatively small sample size (Eggers and Moumen 2013a, 2013b). The AHS
+is the best data source researchers have access to, especially for national level studies, and researchers expend
+a lot intellectual energy attempting to maximize what they can get from it. In addition to measurement
+concerns, studies on housing quality often focus on rental housing as opposed to owner-occupied units and
+often have difficulty disaggregating populations of interest by income levels or racial/ethnic differences either
+due to a lack of data or poor sample size (Ruggiero, Rivera, and Cooney 2020; Divringi et al. 2019). These
+issues suggest that researchers need to look at novel sources of data to gain a better understanding of the
+state of housing quality.
+In order to offer some estimates on the burden of poor housing quality on low income homeowners we
+performed three analyses. First, using the AHS, we offer an alternative estimate of housing quality and
+explore the differential rates of housing quality by race/ethnicity, income groupings and by geography, focusing
+on the Philadelphia metropolitan area. Second, using city administrative data from Philadelphia’s Basic
+Systems Repair program, we offer direct estimates of the need for emergency home repairs for low income
+homeowners in the city. Finally, in an attempt to better explore what unit or individual level variables may
+effect levels of deferred maintenance we performed a series of regressions on the BSRP dataset on household
+repair expenses paid by the program. Our results provide a mixed picture.
+Using the AHS, we find that reported poor housing quality is relatively rare among homeowners, overall,
+though low income, Black and Hispanic homeowners report higher levels of poor quality housing than higher
+income or White homeowners. Additionally, the AHS data for the Philadelphia metro area shows higher
+levels of poor quality housing than the rest of the nation with Black homeowners, in particular, reporting
+poor quality housing. Focusing on the city of Philadelphia, we take ten years of Basic Systems Repair
+administrative data and find that of the approximately 11,000 households selected for repairs, the average
+cost of repairs is approximately $8,900 while the city has spent nearly $100 million on repairs. Given the
+thousands of homeowners on BSRP’s waitlist, it is possible that tens of thousands of low income homeowners
+in Philadelphia not only have poorer quality housing, but have acute housing repair needs necessary for basic
+survival. And, finally, the regressions do not highlight any one set of variables, either at the householder or
+unit level, that explain housing repair costs.
+While we cannot offer broader estimates on the prevalence of deferred maintenance or poor quality housing
+due to the limitations of the data we do provide direct measures of the burden of poor quality housing for
+low income homeowners in Philadelphia using city administrative data. These data are suggestive and should
+encourage planners, and housing specialists, to invest in research programs to better estimate the prevalence
+of deferred maintenance in their respective markets, and, in particular, the burden that deferred maintenance
+places on non-White and low income households.
+
+2
+
+Literature Review
+
+2.1
+
+Planning’s Role (or lack thereof) In Housing
+
+In a 2012 review, Bates (2012) highlights the relative lack of planning influence in housing in the UK and
+the US. Planning generally indirectly dictates the provision of housing through land use policy with private
+development interests largely responsible for the ultimate production and placement of housing. The result is
+a vitally important system that lacks the benefits of a planning approach, namely, a comprehensive view
+of systems, a future orientation and attention to geographic scale. The end result of this disjuncture is
+that certain planning regulations, such as local zoning, have an outsized influence on the overall supply of
+housing, but planners largely lack a comprehensive understanding of housing supply, quality or future growth
+dynamics.
+This indirect role planning plays with respect to housing is relatively recent. The rise, and fall, of public
+housing and the legacies of urban renewal are a testament to the role planning, at multiple scales, played in the
+provision of housing (Vale and Freemark 2012; Goetz 2012). The construction of public housing, in particular,
+is notable not just for the public production of housing, but in the extensive surveys of housing quality and
+the concern (however cynical it may have been at points) with the proliferation of slum housing conditions.
+2
+
+A preprint - January 2, 2023
+
+With the retreat of the federal government in funding public housing there have not been equivalent surveys
+on the quality of housing, writ large, in cities. The result is that planners often have little idea of the state of
+the quality of housing in their respective jurisdictions, and, therefore, cannot offer any potential guidance on
+alleviating housing quality issues if they exist.
+Of course, planners have much to say on planning and housing remains a core issue in all cities, especially
+those in distressed markets. (2016) gives an extensive review of the literature on neighborhood decline
+in legacy cities. While covering a wide array of issues, Mallach highlights the role of both vacant and
+degraded properties in declining neighborhood fortunes and the necessity to design policies to arrest these
+specific patterns in order to better stabilize neighborhoods. More recently, (2020) finds positive effects on
+the demolition of vacant and degraded housing on the repair decisions of nearby homeowners. This body
+of research highlights the central importance of housing quality to contemporary housing issues in weaker
+markets and declining cities, but while this body of research explores specific cases in particular cities the
+question of broader housing quality remains largely absent in the planning literature.
+2.2
+
+Housing Quality Is Hard to Estimate
+
+While planning practice has largely turned away from studies of housing quality in a systematic sense over
+the past decades, the issue of housing quality has remained an issue for local governments and in academic
+research in related fields such as public administration, housing studies and public health. Topics include the
+effect of housing repairs on local crime rates, the role that demolitions in degraded housing play in terms of
+affecting property prices and the ability of older homeowners to effectively manage repairs in order to safely
+age in place (South, MacDonald, and Reina 2021; Begley and Lambie-Hanson 2015; Kuhlmann 2020).
+While such studies illuminate housing quality issues at the local level, studies at larger scales that attempt
+to estimate the scale and scope of housing quality suffer from major measurement problems. The primary
+survey source on housing quality for the US, as a whole, is the American Housing Survey (AHS), a biannual
+survey conducted jointly by the Department and Housing and Urban Development and the Census Bureau.
+In a 2013 piece, Eggers and Moumen (2013b), highlight issues with using the AHS to measure housing quality
+and offer their own alternative measure. First, they note that researchers will often use an already provided
+measure in the AHS called ZADEQ. ZADEQ is a three-point variable that purportedly measures housing
+adequacy and not quality. Still, researchers will often use it because it is what the AHS provides even as it
+is generally recognized to be insufficient for measuring quality. Second, they also found that measures of
+adequacy were not stable across years and that some variables that would be used for tracking adequacy
+were not present across all sample years further confusing the measure.
+In a follow up report, Eggers and Moumen (2013a) offer a solution to the ZADEQ variable issue that many
+other researchers have taken- providing their own measure. Their answer was to design the “Poor Quality
+Index” (PQI), a 35-variable weighted measure of housing quality that uses many of the variables that go into
+the construction of ZADEQ variable, but applies individual weights instead of a large aggregation approach.
+For each individual variable, the authors applied a weight to individual answers to questions. They generally
+find the PQI as preferable as it allows for more variation across units to be explored and they also find general
+stability over time across surveys. We use a modified version of the PQI in this study due to it being based
+on the AHS, the basic calculations are publicly documented and one of the authors was willing to provide
+their SAS script for us to make sure we could properly reproduce the measure.
+Even with all of the work that went into the development of the PQI, Eggers and Moumen (2013a) still find
+rather low rates of poor housing quality in the US, and, in fact, find that housing quality, on the whole, had
+largely improved over time at the time of printing. This is a relatively common finding, especially in studies
+using the AHS, that housing quality issues are generally rare and that housing quality is largely improving.
+That basic conclusion may be correct, but using the AHS still remains an issue. First, while it is nationally
+representative, the AHS has a relatively small sample size that make estimating housing quality in particular
+metropolitan areas difficult and makes comparing social differences in exposure to housing quality at finer
+scales a tricky proposition. Second, while the PQI, or other housing quality measures, offer better construct
+validity than the ZADEQ variable, the indices remain relatively hard to interpret with respect to what they
+mean for the daily experiences of residents. And, finally, many studies look at all occupied housing in the
+AHS mixing rental and owner-occupied properties making it difficult to isolate housing quality issues for
+homeowners.
+One approach to the problem of construct validity regarding housing quality is to estimate the financial
+cost of home repairs as opposed to listing them individually. A recent study from the Philadelphia Federal
+Reserve does just this: first, they modify their PQI type measure by developing a cost-based index on the
+3
+
+A preprint - January 2, 2023
+
+estimated cost of needed home repairs; and, second, they make use of a hierarchical clustering approach in
+order to develop a typology of households in order to gain a better understanding of the variation in housing
+quality needs across different household types (Divringi et al. 2019). The report from the Fed estimates that
+in 2018 there were approximately $126.9 billion in needed home repairs. Additionally, they find higher cost
+burdens for non-White households, particularly Hispanic/Latinx, Black and Native American households.
+The Fed report offers an alternative measure of home repair that gives a better view of the actual burden poor
+quality housing though it still suffers from the weaknesses of using the AHS with respect to sample size and
+representativeness. In examining the Philadelphia MSA, the Fed report estimated a $2.7 billion repair need
+largely concentrated on low income housing occupants and older homeowners. Beyond the topline value, the
+Fed estimated that nearly 20% of needed repairs in the Philadelphia MSA would cost between $1,000-5,000.
+Additionally, nearly half of Black and Hispanic/Latinx households reported repair needs compared to a 1/3
+of White or Asian households.
+
+3
+
+Data and Methodology
+
+In order to offer some alternative measures on the prevalence of substandard housing in Philadelphia, we
+make use of two datasets: the 2019 American Housing Survey and ten years of Basic Systems Repair Program
+administrative data. The AHS is the principal source of information on residents and structural attributes
+for researchers.
+3.1
+
+American Housing Survey
+
+Performed in conjunction with the Census Bureau, the AHS offers hundreds of variables on individual
+borrowers, households and structural attributes for housing units. It is a biannual nationally representative
+survey.
+Following Eggers and Moumen (2013a) we calculated a modified Poor Quality Index (PQI) and provide
+descriptive statistics of the prevalence and burden of poor housing quality by sociodemographic factors,
+income as well as disability. The PQI is a composite measure of housing quality based on 35 variables found
+in the AHS. We modified the PQI by removing the question on elevators as we limited our sample to owner
+occupied single family attached and detached homes. The theoretical maximum score with this modified PQI
+is 162. Eggers and Moumen (2013a) go into detail on the calculation of the PQI in detail, but it is important
+to have a basic idea of the measure. The PQI is a composite measure based on the weighted responses to
+certain questions regarding housing quality in their unit. Eggers and Moumen (2013a) decided on the weights
+on individual questions. For example, if a homeowner reports a unit does not have electricity that question
+receives a score of 10, whereas the question regarding the number of the unit’s heating equipment broke down
+for 6 hours or more would have a maximum score of 16 if a respondent answered 8 times or more.
+Additionally, we recoded race ethnicity variables to include Non-Hispanic White, Black, American Indian,
+Asian, Hawaiian and Pacific Islander, Other and Hispanic/Latinx. AHS offers a richer array of racial/ethnic
+categories, but cell sizes become prohibitively small requiring aggregation.
+3.2
+
+Basic Systems Repair Program
+
+BSRP is an emergency home repair program for qualified low income homeowners in the city of Philadelphia.
+It is one of multiple programs designed to assist low income homeowners and to encourage neighborhood
+stability through the Philadelphia Housing Development Corporation. BSRP provides grants of up to $20,000
+for structural emergency repairs. These repairs may range from unsafe electric systems to leaky roofs or
+compromised plumbing systems. Recent research finds BSRP repairs were linked with reductions in violent
+crime highlighting additional benefits to the program (South, MacDonald, and Reina 2021).
+BSRP is designed to serve the most extreme cases of deferred maintenance and vulnerable homeowners. While
+applications are open, the program has strict income requirements, for example, a household of four may
+have not have a total gross income exceeding $63,250. Beyond meeting the income requirements, applicants
+may not have a current lien on their property, own any other property and must have proof of need of an
+emergency repair. While some households that apply are turned away, the vast majority of applicants that
+are not served are due to a lack of funds, not because they do not meet program standards.
+Preparing the BSRP data involved a few steps. Client data and repair data are in two separate tables.
+We matched the primary client table, which includes all households that applied to the program, with the
+contractor table that includes information on the repairs performed for accepted households. In addition to
+4
+
+A preprint - January 2, 2023
+
+Table 1: PQI Baseline Descriptives
+Variable
+Philadelphia Rest of US
+Avg. PQI
+Median PQI
+Q1, Q4
+
+2.67
+0
+0-4
+
+2.26
+0
+0-2
+
+matching the program with the repairs table we also linked program participants to the city’s parcel information
+by joining the table with data from the city’s Office of Property Assessment and Water Departmentˆ1.
+Using the final linked program data from 2009-2019, we used the final costs the city paid to contractors as
+measures of the severity of deferred maintenance. Final costs are the sums of repairs performed in one of
+six categories: asbestos; heating; plumbing; electrical; roofing or structural work. Additionally, we have the
+self-reported race/ethnicity of program participants, the age of the head of household and whether or not a
+disabled person resides in the household.
+
+4
+
+Results
+
+4.1
+
+American Housing Survey
+
+Echoing earlier works, the 2019 AHS shows relatively modest values of the PQI, overall, signaling that the
+majority of housing in the United States is of good quality (Divringi et al. 2019; Eggers and Moumen 2013a).
+Philadelphia, while having a higher average PQI than the rest of nation, as well as more extreme values, still
+has relatively modest PQI scores (Table 1).
+While the prevalence and severity of poorer quality housing is relatively low in the AHS, low income homeowners
+are still disproportionately affected by poorer quality housing both nationally and in Philadelphia. PQI
+by household income quartiles illustrates the pattern that lower income households have poorer quality
+housing than higher income households at both the national level and the Philadelphia metropolitan region.
+Homeowners in Philadelphia generally report larger PQI scores at every income level except for the lowest
+income quartile. The greatest reported difference in housing quality is found in the second income quartile.
+When examining racial and ethnic difference, Black and Hispanic/Latinx respondents report poorer quality
+housing than other groups in both the Philadelphia metro area as well as nationally. American Indians
+report the worst quality housing, overall, nationally, but the AHS lacks any such respondents in the
+Philadelphia metro. A striking feature of this disproportionate exposure is that Black and Hispanic/Latinx
+homeowners report significantly poorer quality housing in the Philadelphia metro compared to other Black
+or Hispanic/Latinx owners, nationally. This speaks to the more degraded housing stock in Philadelphia,
+generally, but it should be noted that the differences in average PQI scores for Philadelphia versus the rest of
+the country for these groups are much larger compared to others.
+A more detailed breakdown of the regional and racial/ethnic differences in PQI illustrates the intra-racial
+distribution of poorer quality housing. Black-headed households have higher PQI scores across all income
+quartiles than other racial groups, but the most extreme differences in PQI between the Phialdelphia metro
+area and the rest of the country lies in the difference of homeowners within the second income quartile.
+Conversely, Hispanic/Latinx have more even PQI scores between Philadelphia and the rest of the nation
+except at the lowest income quartile where the average PQI is more than double that of lower income
+Hispanic/Latinx homeowners in the rest of the country.
+4.2
+
+BSRP
+
+The BSRP data allow us to take a more granular view of housing quality issues for low income homeowners
+as well as to offer analysts estimates of the burden of deferred maintenance. While the BSRP is not a
+representative sample of all homeowners in the city, the program from 2009-2019 had over 45,000 applicants
+and nearly a 1/3 applications have been approved. Of those nearly 15,000 approved repairs we were able to
+link 10,908 of BSRP repairs to city parcel data. Of those 10,908, 9,893, or 90%, were of distinct owners. The
+remaining difference were owners who were able to receive multiple repairs.
+A review of the participants compared to 2019 five-year American Community Survey data show that BSRP
+homeowners are significantly poorer, older and much more Black than the city of Philadelphia, as a whole.
+5
+
+A preprint - January 2, 2023
+
+Income Quartiles
+
+4
+
+3
+Philadelphia
+Rest of the Country
+2
+
+1
+
+0
+
+1
+
+2
+
+3
+
+Average PQI
+Source: American Housing Survey, 2019
+
+Figure 1: Lower Income Households Report Higher Average PQI
+
+Table 2: BSRP Participants Compared to Philadelphia
+Variable
+Philadelphia BSRP
+Median HH Income
+Median Age
+White Alone
+Black Alone
+American Indian
+
+$59,282
+34.60
+34.50%
+40.80%
+0.20%
+
+$12,000
+59
+7.60%
+78.30%
+0.10%
+
+Asian Alone
+Other
+Hispanic
+
+7.20%
+0.4%
+14.70%
+
+0.50%
+0.10%
+12.30%
+
+Of particular interest are the median household income and age differences.1 We calculated annual household
+income for BSRP participants by multiplying their reported monthly income by 12. The city has relatively
+strict income restrictions on the BSRP targeting especially low income homeowners. The age differences
+here are partially due to the fact that homeowners skew older, but also speaks to the fact that the level of
+deferred maintenance and necessary repairs for these households may be linked to homeowner age and their
+ability to either perform repairs themselves or no longer being the workforce. The over representation of
+Black homeowners also speaks to the disparate share of poorer Black homeowners in the city.
+From 2009-2019, Philadelphia spent approximately $98,773,528 in emergency repairs for an average repair
+cost of $8,908.85. The relatively high average repair costs speaks to the fact that the BSRP targets emergency
+1
+
+American Community Survey, five-year 2019 Tables: B25119, DP05_0070, DP05_0071, DP05_0076, DP05_0078,
+DP05_0079, DP05_0080, DP05_0082
+
+6
+
+A preprint - January 2, 2023
+
+White only
+
+Other
+
+Hispanic/Latinx
+
+Philadelphia
+
+Hawaiian/Pacific Islander only
+
+Rest of the Country
+Black only
+
+Asian only
+
+AIAN only
+
+0
+
+2
+
+4
+
+Average PQI
+Source: American Housing Survey, 2019
+
+Figure 2: Black and Hispanic/Latinx Homeowners Report Higher PQI
+Table 3: BSRP Total Repairs and Costs
+Year No. of Repairs Final Costs
+2009
+2010
+2011
+2012
+2013
+
+393
+1210
+959
+655
+969
+
+$1,471,645
+$6,044,025
+$6,236,978
+$5,904,978
+$8,679,061
+
+2014
+2015
+2016
+2017
+2018
+
+888
+759
+1009
+1479
+1851
+
+$8,173,485
+$7,651,893
+$9,914,007
+$14,902,555
+$21,041,927
+
+2019
+
+736
+
+$8,618,148
+
+repairs, but also that the kind of repairs necessary are often more extreme. This is seen, in a broad sense,
+when examining the cost distribution based on type of repairs over time.
+Figure 3 shows how roofing and plumbing repairs make up nearly 50% of home repair costs in the BSRP, on
+average, from 2009-2019. Unfortunately we do not have specific contract information in order to label needed
+repairs more explicitly, but this high level breakdown gives an idea of the needs of low income homeowners in
+the city, as well as a notion of the severity of deferred maintenance.
+While the descriptive statistics are informative we also estimated a series of regressions in order to measure
+the association of certain homeowner and parcel characteristics with total repair costs in order to explore
+what variables are potentially predictive of more extreme deferred maintenance. We pooled our full sample
+7
+
+A preprint - January 2, 2023
+
+AIAN only
+
+Asian only
+
+Black only
+
+Hawaiian/Pacific Islander only
+
+Hispanic/Latinx
+
+Other
+
+Income Quartile
+
+4
+3
+2
+1
+
+4
+3
+2
+1
+Philadelphia
+Rest of the Country
+
+4
+3
+2
+1
+0.0
+
+White only
+
+2.5
+
+5.0
+
+7.5
+
+10.0
+
+4
+3
+2
+1
+0.0
+
+2.5
+
+5.0
+
+7.5
+
+10.0
+
+Average PQI
+Source: American Housing Survey, 2019
+
+Figure 3: Race by Income Quartile
+over the 10 years of program data. Our dependent variable is the log of the final repair cost paid by the
+city to a program participant. Table 4 provides the descriptive statistics for the covariates included in the
+models (note that we dropped two observations that recorded zeroes for total living area). We included
+standard unit level predictors and additional person predictors. The primary predictors are: year built,
+number of stories, number of bathrooms (categorical variable with 1 bathroom as the reference level), number
+of bedrooms (categorical variable with 1 bedroom as the reference level), the log of livable area, sale date,
+the log market value, age of the homeowner, homeowner income and whether a disabled person lives in the
+household. We estimate three models, first including only unit-level variables, second, including individual
+homeowner characteristics and a third full model.
+All model specifications show relatively weak predictive performance with modest R2 values ranging from
+1-2.8%. The log of livable area and whether or not a person with a disability lives in the house have the two
+largest positive coefficients while the log of the market value of the house is the largest negative coefficient.
+The market value coefficient makes intuitive sense as a house with a higher valuation implies a house that may
+be better maintained, more recently sold or exists in a neighborhood with higher property values overall. The
+livable area coefficient is more difficult to interpret, but may be a signal of the added burden of maintaining a
+larger home where they may be more potential points for features of the house to break down. These model
+results are intriguing overall but have very little predictive power highlighting the difficulty of identifying risk
+factors for deferred maintenance in a cross sectional setting.
+Table 4: BSRP Model Characteristics
+Overall (N=10908)
+Repair Costs
+Mean
+Q1, Q3
+Year Built
+
+9042.785
+4283.500, 12521.250
+
+8
+
+A preprint - January 2, 2023
+
+Overall (N=10908)
+Mean
+Q1, Q3
+No. Stories
+Mean
+Q1, Q3
+Bathrooms
+N-Miss
+1 Baths
+0 Baths
+2 Baths
+3+ Baths
+Bedrooms
+1 Beds
+O Beds
+2 Beds
+3+ Beds
+Livable Area
+Mean
+Q1, Q3
+Year Unit Sold
+Median
+Range
+market_value
+Mean
+Q1, Q3
+BSRP Annual Income
+Mean
+Q1, Q3
+Homeowner Age
+Mean
+Q1, Q3
+Disabled Person in HH
+Mean
+Q1, Q3
+
+9
+
+1927.099
+1920.000, 1930.000
+1.780
+2.000, 2.000
+2
+9670 (88.7%)
+985 (9.0%)
+218 (2.0%)
+33 (0.3%)
+3 (0.0%)
+1008 (9.2%)
+394 (3.6%)
+9503 (87.1%)
+1236.233
+1034.000, 1364.000
+2002-04-18
+1924-02-10 - 2021-08-01
+83555.024
+46800.000, 104100.000
+13362.468
+8760.000, 16140.000
+58.725
+49.000, 69.000
+0.190
+0.000, 0.000
+
+A preprint - January 2, 2023
+
+100%
+
+Repairs Cost Share
+
+75%
+
+Services
+Asbestos
+Electrical
+Heating
+
+50%
+
+Plumbing
+Roofing
+Structural
+25%
+
+0%
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+2019
+
+Source: Basic Systems Repair Program, City of Philadelphia
+
+Figure 4: Roofing and Plumbing Repairs Make up the Bulk of BSRP Needs
+
+5
+
+Discussion
+
+A review of the AHS with a modified PQI score echoes earlier work in finding a generally low prevalence
+and severity of home repair needs in owner occupied single family residences at the national level. But as
+recent work has highlighted, current estimates of home quality are flawed and call into question the construct
+validity of AHS-based housing quality measures. Issues regarding small sample size, appropriate questions
+and a lack of standardization, such as through estimated repair costs, obscures the burden of housing quality
+issues (Divringi et al. 2019). While the AHS is the best available source we have with a rich array of variables,
+it is largely not usable at any geography finer than the MSA level, and even at the MSA level cell counts
+become prohibitively small. This makes exploring housing issues by race/ethnicity or income levels impossible
+except at a much larger scale.
+Even recognizing the limits of the AHS in estimating housing quality issues, the work of the Federal Reserve
+highlights how burdensome deferred maintenance truly is. Taking the aggregated calculations from Divringi
+et al (2019), nationally, they identified average costs to homeowners at $3,842. Their estimates for the
+Philadelphia MSA report an average repair cost of $3,176 dollars with over a 1/3 of homeowners reporting
+some form of repair need. Even at lower median costs, the estimated burden on low income households is
+non-trivial. For example, BSRP participants in our sample reported a median annual income of $12,000. The
+average repair cost for the MSA is over a 1/4 of their annual income, and from the administrative data we
+found that average repair costs were over $8,000, or 3/4 of reported annual income.
+The BSRP data offer an alternative and detailed examination of the extreme repair needs in Philadelphia. Of
+the 11,087 approved repairs from 2009-2019, the average cost of repairs at $8,908 dollars represents not just
+the severity of degraded housing, but the immense burden such repairs pose to households. Additionally,
+the racially disparate participation rates of the BSRP highlight the relatively unique burden that deferred
+maintenance plays in the experiences of low income Black homeowners. In an already poor city, severely
+degraded housing is primarily a Black homeowner problem. While the BSRP represents a self-selected sample,
+10
+
+A preprint - January 2, 2023
+
+the older housing stock and greater prevalence of low income homeowners in the city signal that unaddressed
+home repair needs may be in the hundreds of millions of dollars.
+While we cannot offer estimates of the overall prevalence of severe deferred maintenance as we find in the
+BSRP data we can offer some nominal estimates to get a better idea of what the current burden on low
+income households in Philadelphia is. We pulled five year ACS 2019 data for owner-occupied housing income
+for households that make up to $35,000 a year. From the ACS, there were 97,848 households in Philadelphia
+that reported up to $35,000 of income. We then took all unique BSRP addresses that had repairs from
+2015-2019 and reported, at most, $35,000 in income. Of the 5,677 unique addresses that received repairs from
+2015-2019, 5,587 or 98% made less than or equal to $35,000, thus BSRP households make up approximately
+5.7% of households making up to $35,000 in Philadelphia. This is not a stringent estimate of the prevalence of
+deferred maintenance but to highlight the relatively large share of low income households who not only require
+emergency repairs, but received funding. It is likely that the demand for such repairs, and the prevalence of
+home repair needs, for lower income households is non-trivial.
+Regression models on the BSRP data show the difficulty in predicting the burden of deferred maintenance
+using cross sectional data. Common unit and individual level variables are relatively weak predictors of
+the severity of deferred maintenance, though the livable area and market value of the home are consistent
+strong predictors across both specifications. These results potentially highlight the fact that estimating the
+burden of deferred maintenance is dependent upon a more dynamic, temporally based set of processes such
+as neighborhood or economic decline and may not be possible to isolate well in a cross sectional approach.
+
+6
+
+Conclusion
+
+The prevalence and severity of poor housing quality is unclear in the US. National level estimates often
+make use of the AHS, a national level survey with well recognized limitations with respect to the variables
+collected and sample size. The result is that studies that do attempt to estimate housing quality using the
+AHS generally find modest to minuscule rates of inadequate/poor quality housing. Due to the limitations of
+the AHS and the pressing policy need in cities like Philadelphia that need to maintain and upgrade their
+housing stock, alternative measures and datasets for measuring housing quality are necessary.
+We made use of a decade Philadelphia’s Basic Systems Repair Program data in order to to gauge the burden
+poor housing quality places on low income homeowners in the city. Within that decade, the city performed
+over 11,000 repairs with nearly 40,000 homeowners applying, and being rejected, or placed on the program’s
+waitlist. Over that decade the city has spent $100 million with an average repair cost of $8,900. While this
+is a self-selected sample the number of program applicants, the high average cost of repairs and growth in
+repairs performed over time imply that housing quality in Philadelphia, at least at the lower ends of the
+housing market, may be especially acute.
+Taking these results into account as well as the recognized limitations of the AHS, cities/counties should
+seriously consider collecting their own data on local housing quality. This need may be especially urgent in
+larger, older and lower income urban areas such as Philadelphia, Baltimore or Cleveland. Additionally, the
+challenges facing low income homeowners in these cities should encourage planners to revisit assumptions
+they may hold regarding homeowners. Homeownership is generally the stated goal of many policies as well
+as a normative push in US society. As such, the question of whether homeowners can adequately maintain,
+or keep, their homes are often secondary concerns, but become urgent questions in regions with relative
+high homeownership but larger proportions of low income homeowners and weaker housing markets overall.
+Pennsylvania recently passed the Whole Home Repair Program to provide funding for counties to address
+single and multifamily deferred maintenance as well as energy efficiency programs. In Pennsylvania, at least,
+the issue of deferred maintenance is now officially a statewide concern.
+Relatedly, Black homeowners disproportionately suffer from degraded housing more than other racial/ethnic
+groups (American Indians also report high levels of degraded housing, but insufficient sample size makes
+comparisons difficult). The causes of this disproportionate racial exposure is unclear and further research
+should focus on whether Black homeowners are steered into lower quality housing due to Black borrowers
+lower incomes and it should call into the question the value of homeownership as a primary goal for Black
+people. Or homeownership programs towards Black Americans should potentially include information and
+additional funding for housing upkeep and repair.
+Housing quality remains a black box across the country. Rental housing must often meet safety requirements
+in many areas, but inspection regimes are generally uneven and under resourced. Owner-occupied units are
+11
+
+A preprint - January 2, 2023
+
+largely unknown to inspection offices unless an owner wants to make some change to their unit or to sell
+their house. As such, we have very little to zero knowledge of the physical state of owner occupied housing in
+many places even in areas where it is clear the housing stock may be generally degraded or in a process of
+prolonged disinvestment. Given the importance of safe and well maintained housing for personal health and
+safety, as well as neighborhood stabilization, cities should investigate ways to gain a better understanding of
+housing quality issues, and, if necessary, design programs to help property owners to repair and upgrade their
+properties.
+
+12
+
+A preprint - January 2, 2023
+
+Works Cited
+Bates, Lisa K. 2012. “Housing: Planning and Policy Challenges.” In The Oxford Handbook of Urban Planning,
+499–523. Oxford University Press. https://doi.org/10.1093/oxfordhb/9780195374995.013.0025.
+Begley, Jaclene, and Lauren Lambie-Hanson. 2015. “The Home Maintenance and Improvement Behaviors of
+Older Adults in Boston.” Housing Policy Debate 25 (4): 754–81. https://doi.org/10.1080/10511482.
+2015.1004097.
+Divringi, Eileen, Eliza Wallace, Keith Wardrip, and Elizabeth Nash. 2019. “Measuring and Understanding
+Home Repair Costs.” Philadelphia: Federal Reserve Bank of Philadelphia.
+Eggers, Frederick J., and Fouad Moumen. 2013a. “American Housing Survey: A Measure of (Poor)
+Housing Quality.” Washington DC: U.S. Department of Housing and Urban Development Office of Policy
+Development and Research.
+———. 2013b. “American Housing Survey: Housing Adequacy and Quality As Measured by the AHS.”
+Washington, D.C.: Office of Policy Development and Research.
+Gibson, Karen J. 2007. “Bleeding Albina: A History of Community Disinvestment, 1940-2000.” Transforming
+Anthropology 15 (1): 3–25. https://doi.org/10.1525/tran.2007.15.1.03.
+Goetz, Edward G. 2012. “The Transformation of Public Housing Policy, 1985–2011.” Journal of the American
+Planning Association 78 (4): 452–63. https://doi.org/10.1080/01944363.2012.737983.
+Hillier, Amy E. 2003. “Redlining and the Home Owners’ Loan Corporation.” Journal of Urban History 29
+(4): 394–420.
+Kuhlmann, Daniel. 2020. “Fixing Up After Tearing Down: The Impact of Demolitions on Residential
+Investment.” Journal of Planning Education and Research, July, 0739456X2093416. https://doi.org/
+10.1177/0739456X20934168.
+Mallach, Alan. 2016. “Neighborhood Change Supplement: What Does the Research Tell Us? (Tech.
+Rep).”
+https://vacantpropertyresearch.com/wp-content/uploads/2016/02/Companion-Brief_
+Neighborhood-Change-FINAL.pdf.
+———. n.d. “Neighborhood Change Supplement: What Does the Research Tell Us? (Tech. Rep).”
+Ruggiero, Ryan, Josh Rivera, and Patrick Cooney. 2020. “A Decent Home: The Status of Home Repair in
+Detroit.” Ann Arbor: Poverty Solutions University of Michigan.
+South, Eugenia C., John MacDonald, and Vincent Reina. 2021. “Association Between Structural Housing
+Repairs for Low-Income Homeowners and Neighborhood Crime.” JAMA Network Open 4 (7): e2117067.
+https://doi.org/10.1001/jamanetworkopen.2021.17067.
+Vale, Lawrence J., and Yonah Freemark. 2012. “From Public Housing to Public-Private Housing: 75 Years
+of American Social Experimentation.” Journal of the American Planning Association 78 (4): 379–402.
+https://doi.org/10.1080/01944363.2012.737985.
+
+13
+
+A preprint - January 2, 2023
+
+Table 5: BSRP Models
+Unit Level
+Year Built
+
+No. Stories
+
+O Baths
+
+2 Baths
+
+3+ Baths
+
+O Beds
+
+2 Beds
+
+3+ Beds
+
+log(Livable Area)
+
+Sale Date
+
+log(Market Value)
+
+Household Level
+
+-0.002 ***
+
+-0.002 ***
+
+(0.000)
+
+(0.000)
+
+-0.006
+
+-0.007
+
+(0.009)
+
+(0.009)
+
+0.057
+
+0.068
+
+(0.055)
+
+(0.055)
+
+-0.033
+
+-0.031
+
+(0.046)
+
+(0.046)
+
+-0.069
+
+-0.039
+
+(0.116)
+
+(0.116)
+
+0.395
+
+0.426
+
+(0.383)
+
+(0.381)
+
+0.372
+
+0.421
+
+(0.381)
+
+(0.379)
+
+0.376
+
+0.418
+
+(0.379)
+
+(0.377)
+
+0.272 ***
+
+0.278 ***
+
+(0.032)
+
+(0.032)
+
+0.001
+
+-0.000
+
+(0.000)
+
+(0.000)
+
+-0.121 ***
+
+-0.116 ***
+
+(0.012)
+
+(0.012)
+
+Age of HH
+
+Person w/Disability
+
+N
+R2
+
+Full
+
+10906
+
+-0.004 ***
+
+-0.004 ***
+
+(0.000)
+
+(0.000)
+
+0.110 ***
+
+0.102 ***
+
+(0.016)
+
+(0.016)
+
+10908
+
+10906
+
+0.018
+
+0.010
+
+0.028
+
+logLik
+
+-10882.822
+
+-10928.496
+
+-10826.059
+
+AIC
+
+21791.644
+
+21866.992
+
+21684.118
+
+14
+
+*** p < 0.001; ** p < 0.01; * p < 0.05.
+
+

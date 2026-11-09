@@ -1,0 +1,1379 @@
+Source: https://aspe.hhs.gov/sites/default/files/private/pdf/262071/SASH5.pdf
+Publisher: U.S. Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation
+Retrieved: 2026-11-09
+Original SHA-256: 79022b83b7c00a0ecc70ae96e221b2ed659361688f2da2a40f99c636cea6805d
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+U.S. Department of Health and Human Services
+Assistant Secretary for Planning and Evaluation
+Office of Disability, Aging and Long-Term Care Policy
+
+SUPPORT AND SERVICES AT
+HOME (SASH) EVALUATION:
+SASH EVALUATION FINDINGS,
+2010-2016
+
+July 2019
+
+Office of the Assistant Secretary for Planning and Evaluation
+The Assistant Secretary for Planning and Evaluation (ASPE) advises the Secretary of
+the U.S. Department of Health and Human Services (HHS) on policy development in
+health, disability, human services, data, and science; and provides advice and analysis
+on economic policy. ASPE leads special initiatives; coordinates the Department's
+evaluation, research, and demonstration activities; and manages cross-Department
+planning activities such as strategic planning, legislative planning, and review of
+regulations. Integral to this role, ASPE conducts research and evaluation studies;
+develops policy analyses; and estimates the cost and benefits of policy alternatives
+under consideration by the Department or Congress.
+
+Office of Disability, Aging and Long-Term Care Policy
+The Office of Disability, Aging and Long-Term Care Policy (DALTCP), within ASPE, is
+responsible for the development, coordination, analysis, research, and evaluation of
+HHS policies and programs. Specifically, DALTCP addresses policies and programs
+that support the independence, health, and long-term care of people of all ages with
+disabilities; that promote the health and wellbeing of older adults; and, that prevent,
+treat, and support recovery from mental and substance use disorders.
+This report was prepared under contract #HHSP23337006T between HHS’s
+ASPE/DALTCP and RTI International. For additional information about this subject, you
+can visit the DALTCP home page at https://aspe.hhs.gov/office-disability-aging-andlong-term-care-policy-daltcp or contact the ASPE Project Officer, Emily Rosenoff, at
+HHS/ASPE/DALTCP, Room 424E, H.H. Humphrey Building, 200 Independence
+Avenue, S.W., Washington, D.C. 20201. Her e-mail address is:
+Emily.Rosenoff@hhs.gov.
+
+The opinions and views expressed in this report are those of the authors. They
+do not reflect the views of the Department of Health and Human Services, the
+contractor or any other funding organization. This report was completed and
+submitted on October 2018.
+
+July 2019
+
+Support And Services at Home
+(SASH) Evaluation:
+SASH Evaluation Findings, 2010-2016
+Prepared for
+Emily Rosenoff
+Office of the Assistant Secretary for Planning and Evaluation
+Department of Health and Human Services
+200 Independence Ave., SW
+Washington, DC 20201
+
+Prepared by
+Amy Kandilov
+Vincent Keyes
+Noëlle Siegfried
+Kevin Smith
+Patrick Edwards
+Jenna Brophy
+Aubrey Collins
+Martijn Van Hasselt*
+RTI International
+3040 East Cornwallis Road
+Research Triangle Park, NC 27709
+*Formerly with RTI International
+Alisha Sanders
+Robyn Stone
+LeadingAge Center for Applied Research
+2519 Connecticut Avenue, NW
+Washington, DC 20008
+RTI Project Number 0215288.001.000
+
+TABLE OF CONTENTS
+ACRONYMS .............................................................................................................................. iii
+1. OVERVIEW ........................................................................................................................... 1
+1.1. Introduction ................................................................................................................ 1
+1.2. Health Needs among Low-Income Households Receiving Housing
+Assistance ................................................................................................................. 1
+2. SUPPORT AND SERVICES AT HOME PROGRAM ............................................................. 3
+2.1. Design and Development of the SASH Program ........................................................ 3
+2.2. SASH-Housing Sites and SASH Participants: Who Enrolled in the
+SASH Program? ........................................................................................................ 4
+3. FINDINGS ............................................................................................................................. 8
+3.1. Medicare Expenditures .............................................................................................. 8
+3.2. Medicaid Expenditures ............................................................................................ 13
+3.3. Managing Multiple Medications ................................................................................ 15
+3.4. Perspectives on Property Management at SASH-Housing Sites .............................. 16
+4. SUMMARY ......................................................................................................................... 19
+4.1. Lessons for Replication ........................................................................................... 19
+4.2. Conclusions ............................................................................................................. 20
+REFERENCES ......................................................................................................................... 23
+
+i
+
+LIST OF FIGURES AND TABLES
+FIGURE 1. Total SASH Participants and SASH Participants Included in the
+Quantitative Analysis .............................................................................................. 6
+FIGURE 2. Panel Characteristics of Site-Based SASH Participants in the
+Analysis Sample ..................................................................................................... 9
+FIGURE 3. Percentage of Respondents Who Had Difficulty Performing
+Medication-Related Tasks .................................................................................... 16
+
+TABLE 1.
+
+Characteristics of Housing Properties Hosting the SASH Program ......................... 5
+
+TABLE 2.
+
+Average Baseline Demographic Characteristics and Health Status
+for Site-based and Community Participants in the SASH Program.......................... 7
+
+TABLE 3.
+
+DID Estimates for 8 Categories of Medicare Expenditures, Comparing
+SASH Program Participants to Non-SASH Comparison Beneficiaries .................. 11
+
+TABLE 4.
+
+DID Estimates for 3 Categories of Medicaid Expenditures, Comparing
+Dually-Eligible SASH Program Participants to Dually-Eligible
+Non-SASH Comparison Beneficiaries ................................................................... 14
+
+ii
+
+ACRONYMS
+The following acronyms are mentioned in this report.
+BMQ
+
+Brief Medication Questionnaire
+
+CHT
+CSC
+
+Community Health Team
+Cathedral Square Corporation
+
+DID
+DRHO
+
+Difference-In-Differences
+Designated Regional Housing Organization
+
+ER
+
+Emergency Room
+
+FFS
+
+Fee-For-Service
+
+HCBS
+HCC
+HHS
+HUD
+
+Home and Community-Based Services
+Hierarchical Condition Category
+U.S. Department of Health and Human Services
+U.S. Department of Housing and Urban Development
+
+LIHTC
+
+Low Income Housing Tax Credit
+
+PBPM
+PIC
+
+Per-Beneficiary Per-Month
+Public and Indian housing information Center
+
+RTI
+
+Research Triangle Institute
+
+SASH
+
+Support And Services at Home
+
+TRACS
+
+Tenant Rental Assistance Certification System
+
+VNA
+
+Visiting Nurse Association
+
+iii
+
+1. OVERVIEW
+1.1. Introduction
+This report provides highlights of the evaluation of the Support and Services at
+Home (SASH) program. The SASH program in Vermont is a promising approach to
+providing support services and care coordination to older adults and individuals with
+disabilities, using affordable housing properties as a platform for service delivery. Under
+contract from the U.S. Department of Health and Human Services (HHS) and the
+Department of Housing and Urban Development (HUD), RTI International and the
+LeadingAge Center for Applied Research have conducted a mixed-methods evaluation
+of the SASH program. To better understand the design and implementation of the
+SASH program, the team collected primary data from in-person and phone interviews
+with SASH program staff, property managers, and representatives of SASH community
+partners such as councils on aging, community health teams (CHTs), and visiting nurse
+associations (VNAs). To determine the impact of the SASH program on participant
+outcomes, we fielded a mail survey that asked participants and a comparison group
+about their health status and medication-management. We also analyzed data from
+Medicare and Medicaid claims to explore the impact of the SASH program on health
+care costs and utilization. Full SASH evaluation results for years 2011 to 2016 are
+available from the HHS Office of the Assistant Secretary for Planning and Evaluation.1
+In the next section, we present the larger policy context of the SASH program by
+discussing the health needs of low-income households. In Section 2.1, we provide an
+overview of the design and development of the SASH program; and in Section 2.2, we
+describe the participants who enrolled in the SASH program and the affordable housing
+properties involved. In the next four sections, we highlight selected findings from the
+larger evaluation report--the impacts of the SASH program on Medicare expenditures
+(Section 3.1), on Medicaid expenditures (Section 3.2), on participants’ management of
+their medications (Section 3.3), and on property management issues (Section 3.4). We
+summarize some of the challenges for the SASH program that emerged from our
+evaluation in Section 4.1, where we discuss lessons learned for replication of this
+housing-with-services model. The final Section 4.2 concludes with a summary and
+discussion of the findings reported in this report.
+
+1.2. Health Needs among Low-Income Households Receiving
+Housing Assistance
+Older adults prefer to live independently in their own homes and communities as
+long as possible. Advancing age, however, increases the likelihood of chronic illness,
+1
+
+Full reports available at https://aspe.hhs.gov/.
+
+1
+
+frailty, and disability, and consequently places some older adults in greater need of
+health and long-term services and supports (AARP, 2009; Redford & Cook, 2001). To
+continue to live independently, older adults may need access to in-home support
+services and housing that can be adapted to their growing needs (Lawton, 1976).
+Living independently as they age may be particularly difficult for lower-income
+older adults; they may have fewer resources for support service and greater health care
+needs. In particular, older adults who qualify for housing assistance may require greater
+levels of assistance and support. As shown in a recent descriptive analysis comparing
+HUD-assisted Medicare beneficiaries dually enrolled in Medicaid to similar beneficiaries
+without HUD assistance, those assisted by HUD programs are more likely to have five
+or more chronic conditions, use health care such as visits to an emergency room at
+higher rates, and generate higher Medicare and Medicaid expenditures (Lewin Group,
+2014). Even when controlling for geographic region and person-level confounding
+variables, HUD-assisted Medicare beneficiaries dually enrolled in Medicaid had higher
+utilization of health care services covered by Medicaid and higher Medicaid
+expenditures (Lewin Group, 2016). Medicare beneficiaries with HUD-assistance also
+had higher rates of health care utilization for hospital stays, skilled nursing facility stays,
+and emergency room visits (Lewin Group, 2016).
+One approach to help lower-income older adults address their health and
+functional challenges involves capitalizing on publicly-assisted, multi-unit rental
+properties housing low-income seniors. Organizing a system of health care and longterm services and supports around this type of housing has the potential to improve
+health care outcomes and reduce health care costs. Economies of scale can be
+achieved in organizing, delivering, and purchasing services. Publicly-assisted serviceenriched housing also enables on-site staff to observe and respond to residents’ health
+and supportive services needs as they arise. Previous research shows that older
+residents living in housing with on-site service coordinators had significantly lower
+hospitalization rates than residents in housing without service coordinators (Sanders et
+al., 2014). Models such as the SASH program could provide strategies for helping to
+meet the health and long-term services and supports needs of lower-income older
+adults, while improving health care outcomes and reducing health care costs. The goal
+of our evaluation of the SASH program was to identify the impact of the SASH program
+on health care costs (Medicare and Medicaid expenditures) and to examine which
+aspects of the SASH program contributed to any favorable results.
+
+2
+
+2. SUPPORT AND SERVICES AT HOME PROGRAM
+2.1. Design and Development of the SASH Program
+The SASH program is designed to promote greater care coordination for a
+population of older adults and individuals with disabilities who live in affordable housing
+properties and who have high health care costs. The program’s unique contribution is its
+use of teams embedded in affordable housing properties to connect residents to health
+services and social supports. The services provided by the SASH program are centered
+around a panel of participants; each panel has a core staff of a full-time SASH
+coordinator and a quarter-time SASH wellness nurse who serve approximately 100
+participants. The SASH program officially launched in July 2011 and expanded into nonprofit affordable housing properties throughout Vermont; as of December 2016, the
+SASH program had 54 panels with 6,064 participants who had been in the program for
+at least 3 months.
+When a participant first enrolls in a SASH panel, the SASH coordinator completes
+a comprehensive assessment on health conditions, medications, and support services
+currently used or needed; this assessment is updated annually and helps the SASH
+coordinator identify the health and service needs of the individual and target group
+programming to the needs in the panel. To connect participants to resources in the
+community, the SASH coordinator and wellness nurse partner with local service
+provider organizations, such as home health agencies, councils on aging or area
+agencies on aging, and community mental health organizations, which together create
+the SASH Team. SASH coordinators and wellness nurses are expected to
+communicate and meet with participating service providers on the SASH Team regularly
+(at least once a month) to discuss specific participant cases and group wellness
+approaches.
+When individuals enroll in the SASH program, they consent to the sharing of health
+care information between the SASH staff, community partners, and health care
+providers. With this consent, SASH staff work with the participants’ health care
+providers to ensure proper medication usage, successful hospital discharges, and
+overall coordination and continuity of care. The SASH program provides a continuum of
+support and services that meets participants’ needs, whether they are extremely healthy
+and looking for minimal supports or are very frail and in need of more robust support
+from the full SASH Team. Individuals who do not consent to share their health
+information but live in properties hosting SASH can still receive limited assistance from
+the SASH coordinator and wellness nurse and participate in SASH programming.
+
+3
+
+However, without consent to share their information, staff cannot serve these individuals
+as intensively.2
+The SASH program is a Vermont-wide initiative coordinated at the state, regional,
+and local levels. The non-profit housing provider Cathedral Square Corporation (CSC),
+which developed the SASH program, oversees the program at the state level and is
+responsible for defining and implementing the programmatic elements along with
+coordinating program expansion and training. At the regional level, six Designated
+Regional Housing Organizations (DRHOs) are responsible for planning the roll-out of
+the SASH program across their geographic regions; CSC serves as one of these six
+DRHOs. The program is delivered at the community level through the SASH panels,
+which are operated by housing host organizations.
+There are more than 20 affordable housing organizations in Vermont that host the
+SASH program by operating one or more SASH panels in their properties.3 These
+hosts are required to be non-profits, and they receive assistance or support from HUD,
+the Low-Income Housing Tax Credit (LIHTC) program, the U.S. Department of
+Agriculture Rural Development, and/or the State of Vermont. Housing hosts also include
+a few mobile home parks. We refer to the properties hosting the SASH panels as SASH
+sites.
+While SASH was originally created to help meet the needs of residents in
+affordable housing sites (site-based participants), the program is available to any
+Medicare beneficiary living in surrounding communities (community participants). Most
+individuals become eligible for Medicare by turning 65 or by having a qualifying disability
+or health condition. SASH panels that primarily serve residents in affordable housing
+sites are called site-based panels. As the SASH program expanded statewide, some
+panels based in affordable housing sites were created to serve a mixture of site-based
+and community participants (mixed-panels), and a few panels were created solely for
+community participants (community panels).
+
+2.2. SASH-Housing Sites and SASH Participants: Who Enrolled in
+the SASH Program?
+The housing host sites are essential partners in the implementation of the SASH
+program. The SASH coordinators and wellness nurses typically operate out of space
+provided by the housing host. Across the 54 SASH panels, we identified 116 properties
+that were hosting the SASH program; on average, there are two properties in each
+
+For example, if a SASH participant is admitted to the hospital, that participant’s physicians have permission to
+involve the SASH coordinator and wellness nurse in discharge planning for the participant. For an individual who
+does not consent, his or her physicians would not be able to involve the SASH Team in discharge planning, or even
+alert them to the hospitalization.
+2
+
+3
+
+A complete list of housing organizations participating in SASH is available at http://sashvt.org/admin/.
+
+4
+
+SASH panel.4 In Table 1, we present characteristics for properties that hosted the
+SASH program, using property data from 2012 through 2016. The housing properties
+that host the SASH program and that are included in our analysis are federally assisted
+housing properties, including public housing, privately owned assisted housing, and
+affordable housing built with LIHTC.
+TABLE 1. Characteristics of Housing Properties Hosting the SASH Program
+SASH Host
+Property Characteristics
+Properties
+Number of properties
+116
+Mean number of units per property
+79
+Mean occupancy length (years)
+6.8
+Mean household size
+1.6
+Mean household income of residents
+$16,541
+Mean tenant rent
+$360
+Residents aged 65 years and older (%)
+59.7
+Metropolitan (%)
+30.4
+Micropolitan (%)
+32.9
+Rural (%)
+36.6
+Median household income (by county)
+$51,756
+Average annual Medicare expenditures
+$7,765
+NOTE: Data from 2012-2016 TRACS and PIC data bases and 2012-2015 LIHTC data bases.
+Occupancy length could not be determined from the LIHTC data base.
+
+There were 79 units on average in the properties hosting the SASH program.
+Residents of these properties had an average occupancy of 6.8 years. The mean
+household size was 1.6 person, the mean household income was $16,541, and the
+mean rent was $360. Almost 60% of residents in these properties were aged 65 or
+older. About one-third of properties were in metropolitan, micropolitan, and rural areas.
+County median household income ($52,756) and average annual Medicare
+expenditures ($7,765) is provided for reference.
+Medicare FFS is the traditional Medicare program offered directly through the Federal
+Government. The other option, Medicare Advantage, consists of private plans that
+contract with the government to provide Medicare benefits. Medicare FFS covers over
+93% of Vermont’s Medicare population.
+
+As of December 2016, there were 54 active SASH panels; and 6,064 individuals
+had participated in the program for at least 3 months. In Figure 1, we show how many
+participants are living in HUD-assisted and LIHTC housing versus how many are living
+in the community, as well as what proportion of SASH participants are Medicare fee-forservice (FFS) beneficiaries. In our examination of the impact of the SASH program on
+Medicare expenditures, the analysis sample is limited to the 2,973 participants who
+were Medicare FFS beneficiaries and who were living in HUD-assisted or LIHTC
+housing properties that hosted the SASH program.
+
+4
+
+Note that 2.5 of the SASH panels were community panels, and therefore had no housing host and operated out of a
+centralized location in the community, such as a senior center.
+
+5
+
+FIGURE 1. Total SASH Participants and SASH Participants
+Included in the Quantitative Analysis
+
+Table 2 presents the average demographic and health status characteristics for
+the SASH participants in the sample and the unweighted averages for the non-SASH
+comparison group beneficiaries. These characteristics are reported during the baseline
+year prior to the start of the SASH program (July 2010-June 2011). Statistically
+significant results in the table are denoted by asterisks (*).
+Similar proportions of site-based SASH participants and the comparison group
+beneficiaries were White and female. Among both SASH participants and the
+comparison group, about half had Medicaid coverage in addition to Medicare. Mean
+household income was also similar between the SASH participants and the comparison
+group. However, there were significant differences between the SASH participants and
+the comparison group in all the remaining characteristics. SASH program participants
+were older on average than the comparison group beneficiaries (mean age, 69.2 vs.
+65.7), were less likely to have originally qualified for Medicare because of disability, and
+were residing in smaller households.
+We examined two measures of health status among SASH participants, the
+Hierarchical Condition Category (HCC) risk score and the Charlson comorbidity index
+(both are created using diagnosis codes on claims in the year before the start of the
+SASH program). The HCC risk score is interpreted as the predicted health care costs
+relative to the average Medicare FFS beneficiary. SASH participants have an HCC risk
+score of 1.06, meaning that their predicted health care costs are 6% more than the
+average, while the comparison group has an HCC risk score of 0.97, meaning that their
+predicted health care costs are 3% less than the average. The Charlson comorbidity
+index is a mortality predictor that sums across a list of 18 chronic conditions, each of
+which receives a score between one and six, depending on the probability of mortality.
+
+6
+
+SASH participants have a higher average value of the Charlson index score (0.74 vs.
+0.61) than the comparison group, meaning that they have more chronic conditions on
+average.
+TABLE 2. Average Baseline Demographic Characteristics and Health Status
+for Site-based and Community Participants in the SASH Program
+Site-Based
+Comparison
+Demographic and Health Status Characteristics
+Participantsa
+Groupb
+Total beneficiaries
+2,973
+2,614
+Demographics
+Mean age
+69.2
+65.7*
+Age <= 64 (%)
+32.9
+44.1*
+Age 65–74 (%)
+29.9
+25.1*
+Age >=75 (%)
+37.3
+30.8*
+White (%)
+97
+97
+Female (%)
+68
+66
+Originally qualified for Medicare because of disability (%)
+42
+48*
+Medicaid (%)
+52
+51
+Health status
+Mean HCC Score
+1.06
+0.97*
+Mean Charlson Comorbidity Index
+0.74
+0.61*
+NOTE: Standardized differences comparing SASH program beneficiaries to non-SASH
+comparison beneficiaries that are greater than or equal to the absolute value of 0.10 are noted
+with an “*”.
+a. Site-based participants limited to Medicare FFS beneficiaries receiving housing assistance
+reported in PIC or TRACS data bases and/or living in a LIHTC property, residing in a
+property that was hosting the SASH program.
+b. Comparison group includes Medicare FFS beneficiaries who were not participating in the
+SASH program and who were not living in a property that was hosting the SASH program.
+
+Because the comparison group differs from the intervention group baseline
+characteristics which may affect the outcomes of interest, our regression analyses use
+weights derived from propensity-scores. Propensity-score matching attempts to balance
+the intervention and comparison groups with respect to baseline characteristics to
+reduce the potential for bias in the estimate of the intervention effect. After matching, all
+the statistically significant differences disappeared, indicating that matching was able to
+sufficiently balance demographic characteristics and health status between the SASH
+participants and the comparison group.
+
+7
+
+3. FINDINGS
+3.1. Medicare Expenditures
+SASH coordinators and wellness nurses emphasize prevention, nutrition, and
+healthy living in their work with SASH participants. Blood pressure clinics and foot
+clinics provided by the SASH staff help identify health problems before they lead to
+costly adverse health events. SASH staff partner with primary care practices and
+hospitals to promote better care coordination and discharge planning for participants
+who have been in the hospital. We would expect that these efforts could result in
+relative reductions in the growth of Medicare expenditures, when SASH participants are
+compared to a similar group of non-participants who are not receiving SASH services.
+A negative estimate indicates that the average change in Medicare expenditure
+outcomes among SASH program participants was lower by the reported amount,
+relative to the comparison group.
+
+In this section, we estimate the impact of the SASH program on the Medicare
+expenditures of SASH participants, compared to similar non-participants. In this
+analysis, we limit the treatment group to SASH participants who are Medicare FFS
+beneficiaries living in HUD-assisted or LIHTC housing properties that host the SASH
+program. Participants who are not covered by Medicare FFS and community
+participants living outside of the properties hosting the SASH program are excluded,
+leaving a sample of 2,973 site-based participants (see Figure 1). The demographic
+characteristics of the site-based SASH participants and the comparison group of nonparticipants were previously described in Table 2. The comparison beneficiaries are
+weighted so that their demographic characteristics are like those of the site-based
+SASH participants. We use Medicare claims data from January 2006 through December
+2016 to examine the impact of the SASH program on the Medicare expenditures of
+SASH participants.
+The quantitative analysis estimates the impact of the SASH program on
+expenditure outcomes using regression methods. We use a linear version of the
+difference-in-differences (DID) model, which allows us to compare the Medicare
+expenditures before and after the participants enrolled in the SASH program to the
+Medicare expenditures for comparison group beneficiaries during the same time
+periods. For each SASH participant, the baseline period spans from January 2006
+through the date of SASH enrollment; the intervention period spans from the date of
+SASH enrollment through December 2016.
+In our first report evaluating the SASH program (RTI International, 2014), we
+discovered that “early” SASH panels, the ones that began operation within the first 9
+months of the SASH program, saw significantly slower growth in Medicare
+expenditures, while the panels that started later were not affected. Our hypothesis was
+8
+
+that the intensive panel start-up activities (recruiting, initial participant assessments,
+etc.) might make it difficult for the SASH program to have a favorable impact on the
+health care expenditures of participants within a panel’s first year. We anticipated that,
+as time progressed and as the start-up activities were completed, those later panels
+would also see favorable impacts. However, in subsequent reports (Kandilov et al.,
+2016) our analysis revealed that the favorable impact for the early panels persisted
+while the later panels did not see a favorable impact, even after they had been in
+operation for a few years.
+FIGURE 2. Panel Characteristics of Site-Based SASH Participants
+in the Analysis Sample
+
+In the evaluation of the first 4 years of the SASH program (Kandilov et al., 2017),
+we identified other characteristics of panels that could contribute to the favorable results
+for Medicare expenditures, and we explored whether SASH had a different impact on
+panels with and without those characteristics. Most of the early panels were site-based
+panels; in site-based panels, more than 50% of participants are living in a HUD-assisted
+or LIHTC housing property that is hosting the SASH program. Results for the site-based
+panels are compared to the results for mixed-panels, where more than 50% of
+participants are living in the community. Participants in site-based panels may
+experience a more favorable impact from the SASH program, since most of the
+participants are easily accessible to the SASH staff in the host property. Note, even in
+the mixed-panels, the SASH participants included in the analysis are the ones living in
+the HUD-assisted or LIHTC host property, not the community participants. From Figure
+2, note that about three-quarters of the analysis sample of site-based participants are in
+site-based panels. Participants in both site-based and mixed-panels are compared to
+9
+
+the entire comparison group, since there is no way to designate the comparison
+properties as site-based or mixed.
+Six different DRHOs are responsible for planning the roll-out of the SASH program
+across their geographic regions. CSC, the statewide administrator for the SASH
+program, was one of the six DRHOs; almost half (48%) of the SASH participants in our
+sample were in panels that were administered by the CSC DRHO. There were some
+differences between the operations of the CSC DRHO and the other five DRHOs during
+our analysis period, as well as some differences in participant demographics, so we
+compare the results for these two types of panels to determine if these differences were
+associated with favorable impacts of the SASH program. In Figure 2, we graphically
+represent the overlap between the site-based panels and the CSC DRHO panels. Most
+of the participants in CSC DRHO panels are also in site-based panels, but a small
+proportion are in mixed-panels. Participants in both CSC DRHO and other DRHO
+panels are compared to the entire comparison group.
+Most of the early panels were in Chittenden County, which was the one urban
+county in Vermont. The rural panels are those in all other counties. Urban panels may
+perform better, since urban areas tend to have more community resources that can be
+tapped to aid the SASH participants and since the SASH staff do not have to travel long
+distances in rural areas to reach their participants. As shown in Figure 2, the urban
+panels are a subset of the CSC DRHO panels, and most of the sample in urban panels
+are in site-based panels. Participants in urban and rural panels are compared to the
+entire comparison group.
+We used these three panel characteristics to conduct subgroup analyses, to
+explore which, if any, of these panel characteristics might be contributing to the
+favorable results found for the early panels. We compared each subgroup of panels to
+the entire comparison group.
+In Table 3 we present the Medicare results for all SASH participants (column 1),
+for those in site-based panels (column 2) or mixed-panels (column 3), for those in CSC
+DRHO panels (column 4) or all other DRHO panels (column 5), and for those in urban
+(Chittenden County) panels (column 6) or rural panels (column 7). Positive coefficients
+in the table indicate that the growth in expenditures was faster among the SASH
+participants relative to the comparison group. Negative coefficients indicate that the
+growth in expenditures was slower among SASH participants and signal that the SASH
+program was successful in reducing the growth of these expenditures. Statistically
+significant results in the table are denoted by asterisks (*). The estimates in this table
+are the DID estimates for the per-beneficiary per-month (PBPM) change in Medicare
+expenditures. We calculate PBPM amounts by summing Medicare expenditures within
+each calendar quarter (i.e., January 1, 2012-March 31, 2012) and dividing by 3.
+Multiplying the PBPM estimates by 12 will produce the annual impact of the SASH
+program on the change in Medicare expenditures.
+
+10
+
+TABLE 3. DID Estimates for 8 Categories of Medicare Expenditures,
+Comparing SASH Program Participants to Non-SASH Comparison Beneficiaries
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+All SASH
+Site-Based
+Mixed
+CSC DRHO
+Other DRHO
+Urban
+Rural
+Participants
+Panels
+Panels
+Panels
+Panels
+Panels
+Panels
+(n=2,973)
+(n=2,271)
+(n=702)
+(n=1,440)
+(n=1,533)
+(n=1,179)
+(n=1,794)
+Total
+12.72
+-17.32
+22.31
+-91.59**
+59.95
+-122.24**
+63.35
+Medicare
+(42.56)
+(46.61)
+(75.16)
+(46.37)
+(50.49)
+(48.74)
+(47.51)
+Acute
+-2.82
+-23.01
+15.08
+-56.63**
+21.82
+-70.64***
+21.40
+hospital care
+(22.06)
+(23.56)
+(47.89)
+(23.60)
+(28.20)
+(24.91)
+(26.27)
+Post-acute
+16.79
+12.07
+17.43
+-8.78
+31.71**
+-16.81
+32.10**
+care
+(12.34)
+(13.78)
+(20.54)
+(13.29)
+(14.88)
+(13.81)
+(13.92)
+ER
+-3.67
+-5.04
+-3.93
+-9.84**
+-0.87
+-12.48***
+0.03
+(3.70)
+(4.04)
+(5.14)
+(4.32)
+(4.39)
+(4.37)
+(4.22)
+Outpatient
+-8.68
+-5.77
+-20.90
+-8.51
+-9.97
+-7.71
+-9.96
+department
+(7.85)
+(8.45)
+(13.30)
+(10.09)
+(9.71)
+(11.43)
+(8.94)
+Primary care
+2.29
+2.10
+1.75
+1.65
+2.14
+1.54
+2.27
+physician
+(1.48)
+(1.73)
+(2.38)
+(1.36)
+(2.41)
+(1.51)
+(2.14)
+Specialist
+-3.34
+-4.48
+-3.66
+-6.83**
+-1.92
+-6.70**
+-2.55
+physician
+(2.24)
+(2.48)
+(3.69)
+(2.79)
+(2.67)
+(2.99)
+(2.60)
+Hospice care
+-0.25
+-0.90
+-2.24
+4.19
+-6.50
+4.29
+-4.84
+(3.61)
+(3.75)
+(6.21)
+(4.56)
+(4.37)
+(4.64)
+(4.23)
+* p < 0.10; ** p < 0.05; *** p < 0.01; standard errors are in parentheses.
+NOTES: Medicare Part A and Part B claims data from January 2006 through December 2016. The SASH program began in July
+2011. Baseline data for each beneficiary looks back to January 2006, if available.
+Site-based panels have greater than 50% of participants living in HUD-assisted or LIHTC housing. Mixed-panels have greater
+than 50% of participants living in the community. Urban panels are those located in Chittenden County; rural panels are those
+located in all other Vermont counties.
+Expenditure
+Type
+
+Total Medicare expenditures: For the CSC DRHO panels, the SASH program
+reduced the growth in total Medicare expenditures by $91.59 PBPM, or approximately
+$1,100 per beneficiary per year. For the participants in the urban panels (a subset of the
+CSC DRHO panels), Medicare growth is slower by $122.24 PBPM, or more than $1,400
+per beneficiary per year. Neither rural DRHO panels nor all other DRHO panels exhibit
+significant reductions in total Medicare expenditure growth. Among all SASH
+participants, there is no significant reduction in the growth of total Medicare
+expenditures, relative to the comparison group; similarly, when we separate the sitebased panels from the mixed-panels, there is no significant reduction in the growth of
+total Medicare expenditures.
+Acute hospital care expenditures: Medicare costs for stays in acute care hospitals
+are measured in the category of acute hospital care expenditures; this is the largest
+health care expense category for this population. SASH participants in the CSC DRHO
+panels have significantly slower growth in acute hospital care expenditures; Medicare
+expenditure growth in this category is $56.63 PBPM lower among SASH participants.
+This amount accounts for more than half of the slower total Medicare expenditure
+growth. Additionally, the subset of panels in urban areas have slower growth in
+expenditures for acute hospital care of $70.64 PBPM, which is the largest contributor to
+the slower total Medicare growth for participants in these panels. We find no impact of
+the SASH program on acute hospital care expenditures in the first 5.5 years of the
+program, for all SASH participants relative to the comparison group, or for participants
+in any of the other subsets of SASH panels.
+Post-acute care expenditures: Post-acute care expenditures include stays in a
+skilled nursing facility or an inpatient rehabilitation facility which occur after a hospital
+
+11
+
+stay. In our analysis, we find that participants in non-CSC DRHO panels and rural
+panels have significantly faster growth in post-acute care expenditures.
+Emergency room expenditures: The growth rate in emergency room expenditures
+is $9.84 PBPM lower for the SASH participants in the CSC DRHO panels than for the
+comparison group and $12.48 PBPM lower for the SASH participants in the urban
+panels, but all other subsets of SASH participants do not have a significant difference in
+emergency room expenditure growth, nor does the entire sample of SASH participants.
+Hospital outpatient expenditures: When we examine hospital outpatient
+expenditures, we do not find any significant differences between all SASH participants
+and the comparison group, or between any of the subsets of SASH participants and the
+comparison group.
+Primary care physician expenditures: Among all SASH participants, there is no
+significant impact of the SASH program on the growth of primary care physician
+expenditures, relative to the comparison group. Also, no subset of SASH panels exhibits
+significantly higher or lower expenditure growth for primary care physicians.
+Specialist physician expenditures: For the panels in the CSC DRHO, the SASH
+program reduced the growth in specialist physician expenditures by $6.83 PBPM; and
+for panels in the urban areas, the SASH program reduces the expenditure growth by
+$6.70 PBPM. No other subset of SASH panels exhibits significant reductions in
+specialist physician expenditure growth.
+Hospice care expenditures: Hospice care is palliative care provided to end-of-life
+patients. When we compare all SASH participants to the comparison group, we find no
+impact of the SASH program on expenditures for hospice care. There is no impact when
+comparing any of the subsets of SASH participants to the comparison group.
+Based on the results in Table 3, we find that the SASH program had no statistically
+significant impact on the growth of any of the examined Medicare expenditure measures
+for the entire population of SASH participants in the sample, across the first 5.5 years of
+the SASH program. When we report the results for the CSC DRHO panels and for the
+urban panels (subset of the CSC DRHO panels), we do find significantly slower PBPM
+growth in total Medicare expenditures, acute hospital care expenditures, emergency
+room expenditures, and specialist physician expenditures.
+There are a few important limitations to the analysis of Medicare expenditures.
+One-third of SASH participants were living in the community and so were not included in
+the analysis due to the challenge of finding a suitable comparison group. Another 17%
+of participants were excluded because they were not Medicare FFS beneficiaries and
+thus had no claims data. The impacts of the SASH program on these participants may
+be different from the impacts observed for Medicare FFS beneficiaries living in HUDassisted or LIHTC housing. Also, there could be positive spillover effects of the SASH
+program onto residents of the SASH properties who had not consented to share their
+
+12
+
+health care information with the SASH Team, but we were unable to include these
+effects in our analysis.
+
+3.2. Medicaid Expenditures
+One goal of the SASH program is to help older adults age in place--live safely in
+their homes as they age and delay or prevent the need for long-term institutional care.
+Long-term institutional care can be expensive for state Medicaid programs, and it is not
+covered by Medicare. As presented in Table 2, approximately one half of the site-based
+SASH participants were dually-eligible for Medicare and Medicaid. For these
+participants, we can examine the impact of the SASH program on Medicaid
+expenditures and particularly on expenditures for home and community-based services
+(HCBS) and for long-term institutional care.
+Dually-eligible = individual who is enrolled in both Medicare and Medicaid. For these
+individuals, Medicare is the primary payer for health care services, while Medicaid pays
+for services not covered by Medicare (such as long-term institutional care).
+
+In this analysis, both SASH participants and individuals in the comparison group
+are dually-eligible Medicare FFS beneficiaries living in HUD-assisted or LIHTC housing
+who were at least 65 years old when the SASH program began; we limit the sample to
+older adults since the use of long-term care services is very low among the younger
+SASH participants. We answer the research question using Medicaid claims data from
+2007 through 2016.
+The quantitative analysis is like the approach described in the previous section; we
+use a linear version of the DID model to compare the Medicaid expenditures before and
+after the participants enrolled in the SASH program to the Medicaid expenditures for
+comparison group beneficiaries during the same time periods. For each SASH
+participant, the baseline period spans from January 2007 through the date of SASH
+enrollment; the intervention period spans from the date of SASH enrollment through
+December 2016.
+In Table 4 we present the Medicaid results for all dually-eligible SASH participants
+(column 1), for those in site-based panels (column 2) or mixed-panels (column 3), for
+those in CSC DRHO panels (column 4) or non-CSC DRHO panels (column 5), and for
+those in urban (Chittenden County) panels (column 6) or rural panels (column 7).
+Positive coefficients in the table indicate that the growth in expenditures was faster
+among the dually-eligible SASH participants relative to the comparison group. Negative
+coefficients indicate that the growth in expenditures was slower among dually-eligible
+SASH participants and signal that the SASH program was successful in reducing the
+growth of these expenditures. Statistically significant results in the table are denoted by
+asterisks (*). The estimates in this table are the DID estimates for the PBPM change in
+Medicaid expenditures.
+
+13
+
+TABLE 4. DID Estimates for 3 Categories of Medicaid Expenditures, Comparing Dually-Eligible
+SASH Program Participants to Dually-Eligible Non-SASH Comparison Beneficiaries
+Expenditure
+Type
+
+Total
+Medicaid
+HCBS
+
+(1)
+All DuallyEligible
+SASH
+Participants
+(n=1,052)
+-9.14
+(25.90)
+20.42
+(15.78)
+
+(2)
+Site-Based
+Panels
+(n=737)
+
+(3)
+Mixed
+Panels
+(n=315)
+
+(4)
+CSC DRHO
+Panels
+(n=482)
+
+(5)
+CSC DRHO
+Panels
+(n=507)
+
+(6)
+Urban
+Panels
+(n=381)
+
+(7)
+Rural
+Panels
+(n=671)
+
+-20.76
+(26.75)
+17.78
+(16.44)
+
+13.24
+(37.77)
+25.66
+(18.40)
+
+-7.31
+(29.99)
+17.12
+(17.61)
+
+-13.67
+(29.02)
+22.17
+(17.60)
+
+-14.35
+(30.54)
+5.38
+(16.65)
+
+-8.10
+(28.55)
+28.86
+(17.65)
+
+Long-term
+-25.76
+-33.40*
+-12.25
+-20.57
+-31.55
+-13.88
+-34.07*
+institutional
+(19.72)
+(19.76)
+(28.59)
+(22.98)
+(21.04)
+(24.25)
+(20.61)
+care
+* p < 0.10; ** p < 0.05; *** p < 0.01; standard errors are in parentheses.
+NOTES: Vermont Medicaid claims data from January 2007 through December 2016. The SASH program began in July 2011.
+Baseline data for each beneficiary looks back to January 2007, if available.
+Site-based panels have greater than 50% of participants living in HUD-assisted or LIHTC housing. Mixed-panels have greater
+than 50% of participants living in the community. Urban panels are those located in Chittenden County; rural panels are those
+located in all other Vermont counties.
+
+Total Medicaid expenditures: Among all dually-eligible SASH participants, there
+was no statistically significant difference in the growth of total Medicaid expenditures,
+relative to the comparison group. Also, there was difference in the growth of total
+Medicaid expenditures for any subset of SASH panels.
+Expenditures for HCBS: There was no difference in HBCS expenditures in the first
+5.5 years of the program, for all dually-eligible SASH participants relative to the
+comparison group, or for any subset of SASH panels. While the positive trends reported
+for all types of panels would be consistent with the idea that SASH staff are helping to
+connect participants to needed services, none of these trends are statistically
+significant.
+Expenditures for long-term institutional care: Across all SASH participants, there
+was no statistically significant impact on expenditures for long-term institutional care.
+For participants in the site-based panels, the growth in expenditures for long-term
+institutional care was slower by $33.40 PBPM; and for participants in rural panels, the
+growth in these Medicaid expenditures was slower by $34.07 PBPM. To get an annual
+estimate, we multiplied the PBPM estimate by 12. This gives us an annual impact of
+about $400 per dually-eligible SASH participant over the age of 65.
+The growth in Medicaid expenditures for institutional long-term care was about $400
+slower per year among SASH participants in both site-based panels and rural panels.
+
+In summary, across our entire sample of dually-eligible SASH participants over the
+age of 65, there was no statistically significant impact of the SASH program on any of
+the examined Medicaid expenditure outcomes. However, we did see favorable impacts
+of the SASH program on the institutional long-term care expenditures of participants in
+the site-based panels (70% of sample) and on participants in the rural panels (64% of
+sample).
+
+14
+
+3.3. Managing Multiple Medications
+Many SASH participants are managing one or more chronic illness, as well as the
+multiple medications that accompany chronic illness. Therefore, medication selfmanagement is an important component of the SASH program. Through site visit
+interviews, our evaluation team explored how the SASH coordinators and wellness
+nurses address medication-management issues with participants. The interviews with
+SASH staff highlighted ways that the SASH Team collaborates with participants’ health
+care providers to ensure proper medication usage and teaches participants to properly
+manage their medications on their own.
+When a participant first enrolls in a SASH panel, the SASH coordinator completes
+a comprehensive assessment to gather information on health conditions, medications,
+and support services currently used or needed; this assessment is updated annually
+and helps to identify participants who may have problems with their medications or need
+assistance with managing them.
+SASH participants reported less difficulty with common medication-management tasks,
+such as remembering to take all pills and getting refills on time.
+
+SASH staff provide a helpful front-line for identifying medication problems early
+and preventing issues caused by medication mismanagement, according to site visit
+interviewees. Wellness nurses are the key resource in this area because of their
+medical backgrounds, reminding participants to take all medications, training
+participants in how to fill their weekly pill boxes, or reaching out to participants’ providers
+on medication usage. The emphasis in any medication-related support is on teaching
+SASH participants better self-management of their prescription drugs. However,
+wellness nurses’ ability to provide support and training around medication-management
+is limited by the 10 hours per week they are available for each panel.
+To further evaluate the impact of the SASH program on participants’ medicationmanagement, we conducted a mail survey of Medicare FFS beneficiaries who were
+living in HUD-assisted or LIHTC housing, surveying random samples of SASH
+participants and non-participants. In the survey, respondents were asked about the
+difficulties they had with common medication-management tasks, using items from the
+Brief Medication Questionnaire (BMQ) (Svarstad et al., 1999). The BMQ asked
+respondents about how difficult it was to open or close the medication bottle, read the
+print on the bottle, remember to take all the pills, get refills in time, and take many pills
+at the same time. As shown in Figure 3, SASH respondents indicated less difficulty with
+each of the five medication tasks relative to the comparison group of Medicare FFS
+beneficiaries in HUD-assisted or LIHTC housing where SASH was not available. Most
+notably, SASH participants had much less difficulty getting their refills in time and taking
+multiple pills at the same time.
+
+15
+
+FIGURE 3. Percentage of Respondents Who Had Difficulty
+Performing Medication-Related Tasks
+
+NOTE: Unweighted responses from 2015 SASH beneficiary survey.
+
+Answers from the BMQ survey questions were combined into a single outcome
+measure. Our regression analysis of this medication measure, using propensity-score
+weights to balance the health and demographic characteristics of the SASH participants
+and the comparison group beneficiaries, revealed that SASH participants had fewer
+problems with medication-related tasks relative to comparison group members; the
+magnitude of this effect was moderate and statistically significant. Although the survey
+results are limited by the fact that we do not have baseline information on medicationmanagement for the SASH participants and the comparison group to know how their
+scores compared prior to the start of the SASH program, the results are consistent with
+the efforts that SASH staff are taking to help participants better manage their
+medications. Thus, there is evidence from our analysis of the mail survey responses
+that SASH participants experienced fewer problems with medication-related tasks
+relative to a comparison group of Medicare beneficiaries living in HUD-assisted or
+LIHTC housing where the SASH program was not available.
+
+3.4. Perspectives on Property Management at SASH-Housing Sites
+The SASH program was initially designed to serve the needs of older adults and
+individuals with disabilities living in affordable housing properties and to help these
+residents age in place. Although the program expanded to include Medicare
+beneficiaries who were living in the community, about two-thirds of SASH participants
+were residents of HUD-assisted or LIHTC housing properties that hosted the SASH
+program.
+
+16
+
+The SASH program has the potential to have a positive impact on the participating
+properties and property management. Our evaluation examined the effect of the SASH
+program on the host properties by conducting in-person interviews with three property
+managers, eight SASH coordinators, and seven wellness nurses during the site visit in
+2015; these site visit interviews were supplemented by one-on-one telephone interviews
+with property managers from four additional housing organizations hosting the SASH
+program.
+Property managers reported that the SASH program helped provide residents with
+services and resources to remain safely in their homes and to avoid eviction.
+
+During our interviews, property managers discussed the impacts the SASH
+program had on operations, property administration, and their own workload. Property
+managers who had not formerly had support services in place before the SASH
+program felt that they were better able to perform their primary function because the
+SASH coordinator and wellness nurse could address the health and wellness issues of
+participants. One property manager expressed concern that aging residents with unmet
+needs presented financial risk to their portfolios, such as physical property damages
+and property legal liabilities. For this reason, they felt the SASH program could reduce
+costs for the housing properties. Furthermore, SASH staff and property managers felt
+that SASH activities help create a better community within the properties. In addition to
+providing opportunities for social engagement, the program helps address tenant
+conflicts and complaints, such as conflicts surrounding lifestyle differences between
+long-term older residents and younger residents with disabilities, which can be
+disruptive to the community.
+Property managers spoke of working with the SASH staff to identify resources and
+supports to address issues that arose. Almost all the property managers interviewed
+have regular engagement with the SASH staff, most often with the SASH coordinator.
+They mentioned meeting as needed, sometimes as frequently as weekly, or daily
+communication via phone and e-mail. At these meetings, property managers and SASH
+coordinators discuss many issues, including delinquent tenants who are not paying rent
+or not obeying property policies (e.g., smoking areas, hoarding, or other unsanitary
+conditions), mobility challenges that make it difficult for residents to get around and to
+keep their apartments safe and well maintained, and other medical-related needs of
+residents. Property managers and SASH staff also conduct joint welfare checks on
+residents.
+Mental health issues can be a challenge among this population. The SASH
+program provides training to help the SASH coordinator and wellness nurse recognize
+and respond to mental health issues, and the SASH sites are required to partner with
+the local mental health agencies. This enhanced mental health capacity is an asset to
+property managers as well as residents. As one property manager noted, mental health
+issues can create challenges, and property managers are not trained to handle these
+issues. This manager had seen had several residents with mental illness at a previous
+property she operated, many of whom ended up being evicted; however, properties she
+now manages with the SASH program have had no evictions due to mental health
+17
+
+issues, because SASH connects these residents with the needed resources and
+services.
+Several SASH staff and property managers believe that a notable success has
+been the program’s ability to help participants remain in their homes, both in terms of
+aging in place as their health and functional needs increase and in terms of helping
+participants avoid eviction. SASH staff help ensure that participants have the services
+and resources needed to be safe in their apartments and uphold their tenancy
+obligations.
+
+18
+
+4. SUMMARY
+4.1. Lessons for Replication
+Through the evaluation’s interviews with SASH program staff, property managers,
+and representatives of SASH community partners such as councils on aging, CHTs,
+and VNAs, we were able to identify successes and challenges to consider when
+implementing similar housing-with-services programs.
+Availability of staff time and other resources can be a significant help or
+hindrance to housing-with-services programs. Across all the SASH panels, site visit
+interviewees emphasized the limited number of wellness nurse hours as one of the
+primary challenges in the SASH program. The greater travel time in rural areas and in
+panels with a large proportion of community participants reduced the amount of time
+that wellness nurses could spend with SASH participants. Increasing the wellness nurse
+hours could result in a larger impact on participants.
+The availability of additional resources may have contributed to the favorable
+impacts on Medicare expenditures in the CSC DRHO panels and the urban panels. The
+CSC DRHO panels benefited from having an additional level of support and
+management, called SASH Team Leaders. While this Team Leader role has now been
+implemented throughout the SASH program, during much of the analysis period only
+the CSC DRHO panels benefited from this additional support and management role.
+Our interviews also revealed that the urban panels (in Chittenden County) had access
+to more health care and social support services than those in rural areas. This could
+also contribute to the favorable impact of SASH among urban panels.
+Population differences may affect the impact of housing-with-services
+programs. The SASH staff interviewed in the non-CSC DRHO panels indicated that
+their participant populations had a higher proportion of younger participants with
+disabilities, often with mental illness or substance use disorders. Additional quantitative
+analyses confirmed that the CSC DRHO panels had a larger proportion of older
+participants and fewer who originally qualified for Medicare due to disability. The SASH
+program may have more favorable impacts on health care costs among panels with a
+larger proportion of older adults.
+Another population difference that became more important as the SASH program
+expanded throughout the State of Vermont was the difference between the site-based
+participants and the community participants. The expansion of the SASH program
+beyond the housing sites and into the community presented many challenges. SASH
+staff noted that participants living in the community had greater health and support
+needs and fewer resources to obtain the supports they required. Our claims data
+analysis confirmed that SASH participants in the community are older and in poorer
+
+19
+
+health relative to the site-based participants. Future housing-with-services programs
+seeking to serve a widely dispersed population in the community should be aware that
+the needs of the community participants could require additional resources.
+Education and communication are key to successful implementation of
+housing-with-services programs. The implementation of the comprehensive SASH
+training program was identified as an operational success by many interviewees. A
+training program for new staff, as well as ongoing training for existing SASH staff,
+ensures that staff maintain the necessary knowledge and skills to best serve SASH
+participants.
+A focus of the SASH program is building relationships and fostering greater
+collaboration across community organizations, which in turn can help connect SASH
+participants to a variety of needed services and resources. While some partner
+agencies perceived that SASH activities are a duplication of services already being
+provided, others felt that the relationship with the core SASH staff was collaborative and
+that the SASH program complemented their own services. Other entities seeking to
+implement SASH-like programs should plan to spend time educating partner agencies
+and clearly delineating roles and responsibilities across organizations and programs, to
+avoid any real or perceived duplication of services and to foster good relationships.
+
+4.2. Conclusions
+In this report, we summarized notable successes observed during the first 5.5
+years of the SASH program. We also outlined important lessons learned for future
+housing-with-services programs. For further details on the SASH program
+implementation, complete methodology of the evaluation, and additional findings from
+the interviews, beneficiary survey, and Medicare and Medicaid claims data analysis, we
+refer the reader to the previous SASH evaluation reports.5
+The SASH program had a favorable impact on the Medicare expenditures for
+site-based participants in the CSC DRHO panels and in the urban (Chittenden
+County) panels. The impact of the SASH program on the growth of Medicare
+expenditures varied across different types of panels. Site-based participants in the CSC
+DRHO panels--representing 48% of the sample of site-based SASH participants who
+were Medicare FFS beneficiaries--experienced significantly slower growth in Medicare
+expenditures relative to a comparison group of similar Medicare beneficiaries; for these
+participants, growth in annual Medicare expenditures was lower by an estimated $1,100
+per beneficiary per year. Also, the participants in urban panels experienced growth in
+Medicare expenditures that were slower by $1,400 per beneficiary per year; these
+panels were a subset of the CSC DRHO panels. These impacts on total Medicare
+expenditures were driven by statistically significant slower growth in Medicare
+expenditures for hospital stays, emergency room visits, and specialist physicians, which
+5
+
+Full reports available at https://aspe.hhs.gov/.
+
+20
+
+is consistent with the SASH program goal of preventing unnecessary high-cost care.
+The early adoption of the Team Leader role in the CSC DRHO panels and the greater
+availability of resources in Chittenden County may help to explain why there is a
+significant impact of the SASH program among these panels but not across all panels.
+Growth in average annual Medicaid expenditures for long-term institutional
+care was $400 slower for dually-eligible SASH participants in site-based panels
+and in rural panels. One goal of the SASH program is to prevent or delay the need for
+long-term institutional care among older adults by providing the supports they need to
+live and age safely in their homes. Our analysis of Medicaid claims data indicates that
+the SASH program had a favorable impact on Medicaid expenditures for long-term
+institutional care for dually-eligible SASH participants over the age of 65. Dually-eligible
+participants in site-based panels and in rural panels experienced statistically significant
+slower growth in these Medicaid expenditures that averaged about $400 per beneficiary
+per year. Particularly for the participants in rural panels, SASH may be filling a gap in
+geographic areas where there are fewer community resources to support residents in
+their homes. Positive trends in Medicaid expenditures for HBCS, though not significant,
+are consistent with the SASH program goal of connecting participants to the health care
+and services they need.
+SASH participants reported less difficulty with common medicationmanagement tasks. Based on our analysis of responses from a mail survey, we find
+that SASH participants reported significantly less difficulty with tasks such as
+remembering to take all pills and getting refills on time, relative to a comparison group of
+Medicare beneficiaries who were not participating in SASH. Medication-management
+support is provided by the SASH staff, who focus on identifying medication-related
+issues and teaching participants to better manage their multiple medications on their
+own.
+Property managers reported that the SASH program helps provide residents
+with the support they need to remain in their homes and to avoid eviction.
+Through both in-person and telephone discussion, property managers in SASH sites
+indicated that the SASH staff were valued assets in their properties. These property
+managers appreciated how the SASH coordinators and wellness nurses aided residents
+with physical and mental health concerns and provided connections with health care
+and support services.
+The lessons for a replication of SASH-like models in other areas include ensuring
+adequacy of wellness nursing hours and understanding the additional challenges of
+serving participants in rural areas. Clear communication and delineation of roles among
+partner organizations could help prevent duplication or perceptions of duplication in
+services.
+The SASH program is designed to promote greater care coordination for a highcost population of older adults and individuals with disabilities living in affordable
+housing properties. The program’s unique contribution is its use of teams embedded in
+
+21
+
+affordable housing properties to connect residents to health services and social
+supports. Our highlighted findings suggest that the SASH program has the potential to
+reduce the growth of Medicare and Medicaid expenditures for some participants,
+improve self-management of multiple medications, and enable a population of older
+adults and disabled residents living in affordable congregate housing to remain safely in
+their homes as they age.
+
+22
+
+REFERENCES
+AARP. (2009). Beyond 50.09 chronic care: A call to action for health care reform.
+Washington, DC: AARP Public Policy Institute.
+Kandilov, A., Keyes, V., Siegfried, N., Edwards, P., Larsen, A., Smith, K., Eicheldinger,
+C., McCall, N., Van Hasselt, M., Raedar, D., Sanders, A., & Stone, R. (2016).
+Support and Services at Home (SASH) evaluation: Second annual report.
+Washington, DC: Office of the Assistant Secretary for Planning and Evaluation.
+https://aspe.hhs.gov/pdf-report/support-and-services-home-sash-evaluation-secondannual-report.
+Kandilov, A., Keyes, V., Siegfried, N., Smith, K., Edwards, P., Brophy, J., Larsen, A.,
+Van Hasselt, M., Sanders, A., & Stone, R. (2017). Evaluation of the first four years of
+the Support and Services at Home (SASH) program. Washington, DC: Assistant
+Secretary for Planning and Evaluation. https://aspe.hhs.gov/basic-report/supportand-services-home-sash-evaluation-highlights-first-four-years-research-summary.
+Lawton, M.P. (1976). The relative impact of congregate and traditional housing on
+elderly tenants. Gerontologist, 16, 237–242.
+Lewin Group. (2014). Picture of housing and health: Medicare and Medicaid use among
+older adults in HUD-assisted Housing. Washington, DC: Office of the Assistant
+Secretary for Planning and Evaluation. https://aspe.hhs.gov/basic-report/picturehousing-and-health-medicare-and-medicaid-use-among-older-adults-hud-assistedhousing.
+Lewin Group. (2016). Picture of housing and health part 2: Medicare and Medicaid use
+among older adults in HUD-assisted housing, controlling for confounding factors.
+Washington, DC: Office of the Assistant Secretary for Planning and Evaluation.
+https://aspe.hhs.gov/pdf-report/picture-housing-and-health-part-2-medicare-andmedicaid-use-among-older-adults-hud-assisted-housing-controlling-confoundingfactors.
+Redford, L., & Cook, D. (2001). Rural health care in transition: The role of technology.
+Public Policy and Aging Report, National Academy on an Aging Society,
+Gerontological Society of America, 12(1).
+RTI International & LeadingAge. (2014). Support and Services at Home (SASH)
+evaluation: First annual report. Washington, DC: Office of the Assistant Secretary for
+Planning and Evaluation. https://aspe.hhs.gov/report/support-and-services-homesash-evaluation-first-annual-report.
+
+23
+
+Sanders, A. Smathers, K., Patterson, T., Stone, R., Kahn, J., Marshall, J., & Alecxih, L.
+(2014). Affordable senior housing plus services: What’s the value? Washington, DC:
+LeadingAge Center for Housing Plus Services.
+Svarstad, B.L., Chewning, B.A., Sleath, B.L., & Claesson, C. (1999). The Brief
+Medication Questionnaire: A tool for screening patient adherence and barriers to
+adherence. Patient Education and Counseling, 37(2), 113-124.
+dx.doi.org/10.1016/S0738-3991(98)00107-4.
+
+24
+
+SUPPORT AND SERVICES AT HOME (SASH) EVALUATION
+Reports Available for This Project
+SUPPORT AND SERVICES AT HOME (SASH) EVALUATION: FIRST ANNUAL
+REPORT
+HTML
+https://aspe.hhs.gov/report/support-and-services-home-sash-evaluationfirst-annual-report
+PDF
+https://aspe.hhs.gov/pdf-report/support-and-services-home-sashevaluation-first-annual-report
+
+SUPPORT AND SERVICES AT HOME (SASH) EVALUATION: SECOND ANNUAL
+REPORT
+HTML
+https://aspe.hhs.gov/basic-report/support-and-services-home-sashevaluation-second-annual-report
+PDF
+https://aspe.hhs.gov/pdf-report/support-and-services-home-sashevaluation-second-annual-report
+
+SUPPORT AND SERVICES AT HOME (SASH) EVALUATION: HIGHLIGHTS FROM
+THE FIRST FOUR YEARS
+HTML
+https://aspe.hhs.gov/basic-report/support-and-services-home-sashevaluation-highlights-first-four-years-research-summary
+PDF
+https://aspe.hhs.gov/pdf-report/support-and-services-home-sashevaluation-highlights-first-four-years-research-summary
+
+SUPPORT AND SERVICES AT HOME (SASH) EVALUATION: EVALUATION OF
+THE FIRST FOUR YEARS
+HTML
+https://aspe.hhs.gov/basic-report/support-and-services-home-sashevaluation-evaluation-first-four-years
+PDF
+https://aspe.hhs.gov/pdf-report/support-and-services-home-sashevaluation-evaluation-first-four-years
+
+SUPPORT AND SERVICES AT HOME (SASH) EVALUATION: HIGHLIGHTS FROM
+THE EVALUATION OF PROGRAM OUTCOMES FROM 2010 TO 2016
+HTML
+https://aspe.hhs.gov/basic-report/support-and-services-home-sashevaluation-highlights-evaluation-program-outcomes-2010-2016
+PDF
+https://aspe.hhs.gov/pdf-report/support-and-services-home-sashevaluation-highlights-evaluation-program-outcomes-2010-2016
+
+SUPPORT AND SERVICES AT HOME (SASH) EVALUATION: SASH EVALUATION
+FINDINGS, 2010-2016
+HTML
+https://aspe.hhs.gov/basic-report/support-and-services-home-sashevaluation-sash-evaluation-findings-2010-2016
+PDF
+https://aspe.hhs.gov/pdf-report/support-and-services-home-sashevaluation-sash-evaluation-findings-2010-2016
+
+
