@@ -42,7 +42,7 @@ CAP-3,"CRS, GAO, CBO",foundations/democratic-renewal,L1,chosen,legacy/domains/do
 CAP-4,Budget process,foundations/democratic-renewal,L1,option,legacy/domains/domain-capacity.md:20,Register: Option
 CAP-5,Earmarks,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:21,
 CAP-6,Statute-tracking office,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:22,
-CAP-7,Sustained capacity increase,foundations/democratic-renewal,L1,declined,legacy/domains/domain-capacity.md:24,Register: Declined Oct 20
+CAP-7,Sustained capacity increase,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:24,"Register: Decided Oct 20 (D9, with CAP-7S); working sizing $300B FY2030-39 (Oct 26). The Oct 20 decline was the low-end CAP-7 at $0.5T (C17), not CAP-7 itself. Agency shares provisional; decided in the legacy files; a working choice under DEC-2026-10-30-02"
 CAP-7S,Agency rebuild surge,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:23,Register: Decided Oct 20; availability updated Oct 21. Agency sizing provisional; Byrd/jurisdiction checks open; decided in the legacy files; a working choice under DEC-2026-10-30-02
 CAP-8,Schedule Policy/Career prohibition,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:25,
 CAP-9,Civil service modernization,foundations/democratic-renewal,L1,chosen,legacy/domains/domain-capacity.md:26,
@@ -299,15 +299,15 @@ HOU-2,Housing tax credits,home,L2,decided,legacy/domains/domain-housing.md:14,"D
 HOU-2A,All three pieces,home,L1,alternative,legacy/domains/domain-housing.md:68,Not chosen: Espen chose HOU-2D (DEC-2026-11-09-08)
 HOU-2B,LIHTC increase and extremely-low-income boost only,home,L1,alternative,legacy/domains/domain-housing.md:69,Register: A chosen
 HOU-2C,Neighborhood Homes credit only,home,L1,alternative,legacy/domains/domain-housing.md:70,Register: A chosen
-HOU-2D,Bigger LIHTC with the poorest-renter boost; middle-income credit in high-cost areas and neighborhood homes credit as 2030-34 trials; permanent affordability,home,L2,decided,dossiers/home/memos/3-production.md,"DEC-2026-11-09-08 (memo 3 part 1, option D)"
+HOU-2D,Bigger LIHTC with the poorest-renter boost; middle-income credit in high-cost areas and neighborhood homes credit as 2030-34 trials; permanent affordability,home,L2,decided,dossiers/home/memos/3-production.md,"DEC-2026-11-09-08 (memo 3 part 1, option D); provisions HOU-2D.01 to .04"
 HOU-3,Construction capital,home,L2,decided,legacy/domains/domain-housing.md:15,DEC-2026-11-09-03 (memo 3 part 3 B)
 HOU-3A,$250B of capitalization grants to state revolving funds,home,L1,alternative,legacy/domains/domain-housing.md:110,Register: C chosen; C21 accepted (borrowing)
 HOU-3B,$250B of federal direct loans only,home,L1,alternative,legacy/domains/domain-housing.md:111,Register: C chosen; C21 accepted (borrowing)
-HOU-3C,"About $72B of state revolving-fund grants (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans through state agencies",home,L2,decided,legacy/domains/domain-housing.md:109,DEC-2026-11-09-03 (memo 3 part 3 B): amounts and channels kept; may also buy and preserve existing buildings
+HOU-3C,"About $72B of state revolving-fund grants (ramped, 30% forgivable for extremely-low-income units) + $300B of federal direct loans through state agencies",home,L2,decided,legacy/domains/domain-housing.md:109,"DEC-2026-11-09-03 (memo 3 part 3 B): amounts and channels kept; may also buy and preserve existing buildings. DEC-2026-11-09-09: last awards moved earlier so the money is spent by 2039. DEC-2026-11-09-10: a published production target (HOU-3C.04) and a tribal set-aside (HOU-4.13)"
 HOU-3D,"An even split: $125B of grants, $125B of loans",home,L1,alternative,legacy/domains/domain-housing.md:112,Register: C chosen; C21 accepted (borrowing)
-HOU-4,Rental assistance,home,L2,decided,legacy/domains/domain-housing.md:16,"DEC-2026-11-09-01 and -06 (memos 1, 2, 8)"
+HOU-4,Rental assistance,home,L2,decided,legacy/domains/domain-housing.md:16,"DEC-2026-11-09-01 and -06 (memos 1, 2, 8); DEC-2026-11-09-10 (supportive-housing parameters, no-sweeps condition, mixed-status protection, tribal housing HOU-4.13); DEC-2026-11-09-11 (shared record)"
 HOU-4A,"One million new awards, mandatory, phased 2030–33",home,L2,decided,legacy/domains/domain-housing.md:127,"DEC-2026-11-09-01 and -06 (memos 1, 2, 8): count, pace (250,000 a year 2030-33) and mandatory funding kept; matched to the market; order of memo 8"
-HOU-4D,A bounded $135B FY2030-39 expansion of rental assistance beyond HOU-4A,home,L2,decided,legacy/domains/domain-housing.md:118,"DEC-2026-11-09-01 (memo 2 B): a guarantee for the poorest families with children, enrolled 2034-37; disabled extremely low-income renters a third stage from 2038, outside the $135B"
+HOU-4D,A bounded $135B FY2030-39 expansion of rental assistance beyond HOU-4A,home,L2,decided,legacy/domains/domain-housing.md:118,"DEC-2026-11-09-01 (memo 2 B): a guarantee for the poorest families with children, enrolled 2034-37; disabled extremely low-income renters a third stage from 2038, outside the $135B. DEC-2026-11-09-10: the duty to house, deemed approval and a private right of action from 2037. DEC-2026-11-09-11: exit at 80% of AMI"
 HOU-4B,Appropriated assistance alternative,home,L1,alternative,legacy/domains/domain-housing.md:128,Register: A amended/adopted October 24; C optional exploration only
 HOU-4C,Broader assistance potentially reaching all proxy-eligible renters,home,L1,alternative,legacy/domains/domain-housing.md:129,Register: A amended/adopted October 24; C optional exploration only
 HOU-5,Public housing repair,home,L1,chosen,legacy/domains/domain-housing.md:17,Register: Chosen; C31 accepted (borrowing)
@@ -317,7 +317,7 @@ HOU-7,Institutional investor limit made permanent,home,L1,alternative,legacy/dom
 HOU-7B,Leave the investor limit as the ROAD to Housing Act enacted it; decide after the 2037 reports,home,L2,decided,legacy/index/options-register.md:232,DEC-2026-11-09-02 (point 8)
 HOU-8,Social housing pilot,home,L1,chosen,legacy/domains/domain-housing.md:20,
 HOU-9,"Federal builder of last resort, small start",home,L2,decided,legacy/domains/domain-housing.md:22,"DEC-2026-11-09-03 (memo 3 part 2, A-small)"
-HOU-9A,Authorize the corporation in 2029-30 with a pilot capitalization; scale in 2033-36,home,L2,decided,legacy/domains/domain-housing.md:187,"DEC-2026-11-09-03 (memo 3 part 2, A-small): from 2029, on federal land, in tight markets where states fall short"
+HOU-9A,Authorize the corporation in 2029-30 with a pilot capitalization; no scheduled scale-up,home,L2,decided,legacy/domains/domain-housing.md:187,"DEC-2026-11-09-03 (memo 3 part 2, A-small): from 2029, on federal land, in tight markets where states miss their share of the production target (HOU-9A.01, HOU-3C.04); growth is a later decision on results"
 HOU-9B,Fold into HOU-8: let the social housing pilot's sponsor become the federal builder if the pilot works,home,L1,alternative,legacy/domains/domain-housing.md:188,Not chosen (DEC-2026-11-09-03)
 HOU-9C,No federal builder; strengthen HOU-6's conditions instead,home,L1,alternative,legacy/domains/domain-housing.md:189,Not chosen (DEC-2026-11-09-03)
 IMM-1,Earned legalization,immigration,L1,chosen,legacy/domains/domain-immigration.md:11,
