@@ -68,7 +68,7 @@ FY2030-39 outlays in billions, central (low-high). "BA" is budget authority. FY2
 | HOU-10.02 FHA's annual premium on purchase loans to 0.30% (`DEC-2026-11-09-19`) | Credit subsidy (Federal Credit Reform Act); R2 or regular bill | Subsidy at endorsement, cohort by cohort | 25 (15-35) | 3 (2-4) | Permanent; grows with FHA's purchase volume | Section 2.8; needs CBO's score |
 | HOU-3C.05 Homes to buy inside HOU-3C (`DEC-2026-11-09-19`) | Inside HOU-3C.01 and .02 | — | 0 | 0 | — | Section 2.8: up to $30 billion of the $300 billion of commitments; no added cost |
 | HOU-11.01 Manufactured-home community grants (PRICE), 2030-39 (`DEC-2026-11-09-20`) | Mandatory, R2, time-limited | 3.5 | 3.5 (2-5) | 0.3 | Ends FY2039 | Section 2.8; amount decided by Espen, `DEC-2026-11-09-24`. The companies' chattel purchases are unpriced |
-| HOU-12.01 Home repair fund, with HOU-12.02 to .04 inside it, 2030-39 (`DEC-2026-11-09-21`, `-22`) | Mandatory, R2, time-limited | 38: $2 billion in FY2030, then $4 billion a year (amounts proposed) | 37 (25-54) | 1.2 (tail) | Ends FY2039 | Section 2.9 |
+| HOU-12.01 Home repair fund, with HOU-12.02 to .04 inside it, 2030-39 (`DEC-2026-11-09-21`, `-22`) | Mandatory, R2, time-limited | 38: $2 billion in FY2030, then $4 billion a year (amounts decided, `DEC-2026-11-09-25`) | 37 (25-54) | 1.2 (tail) | Ends FY2039 | Section 2.9 |
 | HOU-13.01 Property-tax match for older owners (`DEC-2026-11-09-22`) | Mandatory, R2, permanent | Equal to outlays | 20.5 (8-35) | 3.1 (1.2-5.2) | Permanent; grows with property taxes | Section 2.9 |
 | HOU-13.02 to .04 Equity protection, service coordinators, home-sharing grants (`DEC-2026-11-09-22`) | Mandatory, R2 | Equal to outlays | 3.6 (2-5) | 0.35 | Legal help and coordinators permanent; home sharing ends FY2039 | Section 2.9 |
 | HOU-3C.06 Older and disabled renters' homes inside HOU-3C (`DEC-2026-11-09-22`) | Inside HOU-3C.01 and .02 | — | 0 | 0 | — | Section 2.9 |
@@ -246,7 +246,7 @@ Espen chose memo 9's parts 1 C (with a higher income limit and plain stacking), 
 
 ### 2.9 Repair and aging in place (memos 11 and 12)
 
-Espen chose every recommended part of memos 11 and 12 (`DEC-2026-11-09-21`, `-22`). The research note's draft numbers (`research-repair-aging.md`, section 11) are the starting point; the amounts are section 4's proposals (question 10), and every input here is this section's judgment unless it cites the register.
+Espen chose every recommended part of memos 11 and 12 (`DEC-2026-11-09-21`, `-22`). The research note's draft numbers (`research-repair-aging.md`, section 11) are the starting point; the amounts are section 4's, decided by Espen as proposed (`DEC-2026-11-09-25`; question 10), and every input here is this section's judgment unless it cites the register.
 
 | Provision | FY2030-39, central (low-high) | FY2040 | How it is built |
 | --- | --- | --- | --- |
@@ -403,7 +403,7 @@ Each is yes or no, and none is adopted until you answer. Questions 1 and 5 are n
    - *Manufactured-home community grants:* $350 million a year for FY2030-39.
    - *Federal land proceeds:* up to half for water, sewer and roads for the new homes, the rest to the Treasury.
 
-10. **The amounts memos 11 and 12 left open** (`DEC-2026-11-09-21`, `-22`; section 4, HOU-12 and HOU-13). Proposed, for Espen; each is yes or no:
+10. **The amounts memos 11 and 12 left open** (`DEC-2026-11-09-21`, `-22`; section 4, HOU-12 and HOU-13), **decided by Espen, November 9, 2026, as proposed** ("yes to all six as recommended"; the 3% floor kept: "keep 3%"; `DEC-2026-11-09-25`):
    - *The repair fund's size:* $2 billion in FY2030, then $4 billion a year to FY2039, about $38 billion, the middle of memo 11's range. More reaches more of the need (lower-income owners alone need about $74.6 billion of repairs [EV-HOU-602]) but runs into contractor shortages.
    - *Per-home limits:* up to $25,000 a home, plus $15,000 for lead or accessibility work; for landlords, up to $25,000 a unit for owners of up to 20 units.
    - *Tribal share of the repair fund:* 5%, as for the construction grants (HOU-4.13).
