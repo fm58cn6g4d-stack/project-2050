@@ -71,7 +71,7 @@ Section 7 already warned that when stage 2 becomes a right, doubled-up families 
 
 ## 4. Administration: verifying status without intrusive checks
 
-Espen's rule for the shared record is to collect only the basic information collected for everyone, where possible (decision 11 of November 9, PR #140, not yet merged). The narrow test can meet it.
+Espen's rule for the shared record is to collect only the basic information collected for everyone, where possible (`DEC-2026-11-09-11`). The narrow test can meet it.
 
 1. **Same questions for everyone.** The common application (HOU-4.02) asks every applicant where they stayed last night (own place on a lease, with others, shelter, outside, hotel), and, if with others, whether they must leave and by when, and how many times they have moved in the past 60 days. These are housing-situation questions every applicant answers, and HMIS already records prior living situation for everyone entering shelter [EV-HOU-427]. Nothing about disability, abuse history or criminal record is asked to decide this status.
 2. **The applicant's word first.** HUD's rule lets a household's oral statement that its host will not let it stay more than 14 days count, if the intake worker records it and finds it credible. The statement is confirmed with the host or, failing that, after documented effort [EV-HOU-421]. Lack of papers may never delay shelter [EV-HOU-421]. Recommended: self-certification recorded by the intake worker is enough. A call to the host is optional, never a home visit.
@@ -114,13 +114,14 @@ Stage 2 as first written covered 1,717 thousand extremely low-income renter fami
 
 | Group | Gross count | Less those already housed by stage 1 in 2030-33 | Newly eligible for stage 2, central (range) |
 | --- | --- | --- | --- |
-| Doubled-up families with children, extremely low income | 0.4 to 0.7 million at a time (section 1); about 80 to 100 percent are under the extremely low-income line, since the research measures stop at 125 percent of a local poverty line [EV-HOU-425] (judgment) | Stage 1 now admits them without a cap, so some hold awards before 2034; families keep doubling up, so the stock refills. Assumed 0.1 million net (judgment) | **0.4 million (0.3 to 0.6 million)** |
-| Literally homeless families with children | About 81,000 family households on a night [EV-HOU-434]; 141,609 over 2022 [EV-HOU-427], and people in families rose 39 percent in 2024 [EV-HOU-026] | Stage 1 serves them first, but new families keep arriving after HOU-4A's last awards in 2033 | **0.1 million a year (0.08 to 0.2 million)** |
-| **Total** | | | **About 0.5 million households (0.38 to 0.8 million), about 29 percent (22 to 47 percent) more than the 1.717 million** |
+| Doubled-up families with children, extremely low income | 0.4 to 0.7 million at a time (section 1); about 60 to 90 percent (central 80) are under the extremely low-income line; the research measure reaches up to 125 percent of a local poverty line [EV-HOU-425], so not all are (judgment) | Stage 1 now admits them without a cap, so some hold awards before 2034; families keep doubling up, so the stock refills. Assumed 0.1 million net (judgment) | **0.3 million, one-time stock (0.15 to 0.55 million)**: 0.5 × 80% − 0.1; low 0.4 × 60% − 0.1; high 0.7 × 90% − 0.1 |
+| Literally homeless families with children | About 81,000 family households on a night [EV-HOU-434]; 141,609 over 2022 [EV-HOU-427], and people in families rose 39 percent in 2024 [EV-HOU-026] | Stage 1 serves them first, but new families keep arriving after HOU-4A's last awards in 2033 | **0.1 million a year, a flow (0.08 to 0.2 million)** |
+| **Total** | | | **A one-time stock of about 0.3 million households at the 2034 opening (0.15 to 0.55 million), 17 percent (9 to 32 percent) more than the 1.717 million, plus a flow of about 0.1 million homeless families a year (0.08 to 0.2 million)** |
 
 **For section 6.**
-- At section 6's 85 percent application rate, the central figure is about 0.43 million more families enrolled (0.32 to 0.68 million).
-- The homeless-family line is a yearly flow, not a one-time stock. After the first year, it is the number entering each year, much of it families who would otherwise have reached shelter.
+- At section 6's 85 percent application rate: about 0.26 million more families enrolled from the stock (0.13 to 0.47 million), plus about 0.085 million a year from the flow (0.07 to 0.17 million).
+- Keep the two apart. The stock enrolls once, over 2034-37 under the enrollment cap; the flow is the number of homeless families entering each year, much of it families who would otherwise have reached shelter.
+- The extremely-low-income share is the most uncertain step after the families-per-student ratio; an ACS run would settle both.
 - Do not add this to the "count risk" in section 7 (families forming households once help is a right): that risk is the same families, now counted here.
 - Hosts are unaffected. A host renter household already in the 1,717 thousand stays there; its guest family is counted separately here.
 - The weakest input is the families-per-student ratio (1.5 to 2, an assumption). An ACS microdata run with the Richard measure (evidence still needed, below) would replace it.
