@@ -1,0 +1,2075 @@
+Source: https://www.federalreserve.gov/pubs/feds/2008/200850/200850pap.pdf
+Publisher: Board of Governors of the Federal Reserve System
+Retrieved: 2026-11-09
+Original SHA-256: 2388e8eb62e332972e5bffcb625aba79ec5afda7d05a47cac7a6992e651fad0f
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Finance and Economics Discussion Series
+Divisions of Research & Statistics and Monetary Affairs
+Federal Reserve Board, Washington, D.C.
+
+Property Taxes and Elderly Mobility
+
+Hui Shan
+2008-50
+
+NOTE: Staff working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staff or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Property Taxes and Elderly Mobility
+Hui Shan ∗
+September 16, 2008
+Abstract
+The recent housing market boom in the U.S. has caused sharp increases in residential property taxes. Housing-rich but income-poor elderly homeowners often complain
+about rising tax burdens, and anecdotal evidence suggests that some move to reduce
+their tax burden. There has been little systematic analysis, however, of the link between property tax levels and the mobility rate of elderly homeowners. This paper
+investigates this link using household-level panel data from the Health and Retirement
+Study (HRS) and a newly collected dataset on state-provided property tax relief programs. These relief programs generate variation in effective property tax burdens that
+is not due solely to arguably endogenous local community choices about taxes and
+expenditure programs. The findings provide evidence suggesting that higher property
+taxes raise mobility among elderly homeowners. The point estimates from instrumental
+variable estimation using relief programs to generate instruments suggest that a $100
+increase in annual property taxes is associated with a 0.76 percentage point increase in
+the two-year mobility rate for homeowners over the age of 50. This is an eight percent
+increase from the baseline two-year mobility rate of nine percent. These results are
+robust to alternative specifications.
+Keywords: Property tax, Elderly mobility, Property tax relief program
+JEL classification: H31, H71, R21
+
+Division of Research and Statistics, Board of Governors of the Federal Reserve System, Washington, D.C.
+20551, hui.shan@frb.gov. I am very grateful to Jim Poterba, Bill Wheaton and Jerry Hausman for advice and
+support. I thank Nathan Anderson, Josh Angrist, David Baer, Jon Bakija, Neil Bhutta, Tonja Bowen, Victor
+Chernozhukov, Peter Diamond, Martin Farhnam, Amy Finkelstein, Jon Gruber, Daphne Kenyon, Amanda
+Kowalski, Whitney Newey, Kim Rueben, Chris Smith, and Bob Tannenwald for encouragement and helpful
+discussions. I also thank Mohan Ramanujan for technical assistance with using HRS restricted data. This
+research was supported by the National Institute on Aging, Grant Number P01-AG05842, and the Lincoln
+Institute of Land Policy. The findings and conclusions expressed are solely those of the authors and do not
+represent views of the Board of Governors, the staff of the Federal Reserve System, or the National Institute
+of Aging, or the Lincoln Institute.
+∗
+
+1
+
+1
+
+Introduction
+
+During the late 1990s and early 2000s, the housing market in the United States experienced
+a remarkable boom. As housing prices increased, property taxes rose significantly in many
+parts of the country. Increases in property taxes have drawn attention from both the general
+public and policy makers. The public and politicians are particularly concerned that elderly
+homeowners who live on fixed incomes will be driven out of their homes because they can no
+longer afford increasing property taxes. In response, many states are looking for new ways of
+providing property tax relief to elderly homeowners. Although policy makers have assumed
+that rising property taxes cause elderly homeowners to move, researchers have provided little
+empirical evidence of such a link.
+Apart from its policy implications, studying property taxes’ effect on elderly mobility is also of great economic importance. The simplest version of the life-cycle model,
+which assumes away capital market imperfection, transaction costs, bequest motives, and
+uncertainty, predicts that utility-maximizing agents accumulate wealth while working and
+deplete wealth after retirement. If elderly homeowners view their housing wealth as a part
+of retirement savings to be used for general consumption, then we would expect elderly
+homeowners to trade down and consume their housing wealth after retirement. However,
+studies including Feinstein and McFadden (1989) and Venti and Wise (1989, 1990, 2001)
+find little evidence of downsizing behavior among elderly homeowners in the absence of precipitating shocks such as health decline and loss of spouse. Because residential mobility is
+directly linked to housing adjustment and downsizing decisions, studying how factors such as
+property taxes affect elderly mobility may help us build richer models to describe household
+life-cycle saving and consumption patterns.
+Despite its policy and economic significance, the question whether property taxes
+
+2
+
+have caused elderly homeowners to move is difficult to address empirically for two reasons.
+First, reliable household-level measures of property tax payments and mobility outcomes are
+scarce. Hence, many earlier studies use aggregated measures such as property tax per capita
+and state to state or county to county migration flows. These studies include Cebula (1974),
+Clark and Hunter (1992), Dresher (1994), Conway and Houtenville(2001), and Duncombe
+et al (2003). Second, property taxes are likely to be endogenous to individuals’ moving
+decisions. For example, many local public services are financed through property taxes.
+Hence, elderly homeowners who value local public services (e.g. nice parks, low crime rates,
+and new senior centers) are likely to live in areas with high property taxes. Because tastes for
+local public services may be correlated with mobility outcomes and because econometricians
+do not observe individual tastes, studies that fail to instrument for property taxes often
+suffer from omitted variable bias.
+In this paper, I use the 1992 to 2004 waves of the Health and Retirement Survey
+(HRS) panel data. This dataset has household-level measures of property tax payments and
+mobility outcomes in addition to extensive information on demographics and socio-economic
+characteristics. To address the endogeneity problem associated with property taxes, I exploit
+the variation in state-provided property tax relief programs and use simulated relief benefits
+to instrument for property tax payments. By construction, these simulated relief benefits
+contain only the variation in program rules and depend exclusively on state of residence,
+year, and age of homeowners. More generous relief programs reduce property tax payments of
+eligible homeowners, and these state-provided programs are arguably exogenous to individual
+homeowners’ unobserved tendency to move. Therefore, simulated relief benefits serve as a
+valid instrument for property taxes in studying elderly mobility.
+I also use the variation in effective property tax rates and housing value appreciation rates as an alternative strategy to study whether higher property taxes cause elderly
+
+3
+
+homeowners to move. The thought experiment is to compare two observably identical homeowners, one living in a place with a high effective property tax rate and the other living in a
+place with a low effective property tax rate. When housing values in both places go up, the
+person who lives in the area with a high effective tax rate will experience a larger increase in
+property taxes. Thus, he would be more likely to move if property taxes affect homeowners’
+mobility. The key identification assumption here is that in the absence of a property tax
+effect, mobility in areas with high effective tax rates responds to rising property values the
+same way as mobility in areas with low effective tax rates, after controlling for observable
+characteristics. For example, if increases in housing wealth affect mobility, this identification
+strategy assumes that such a wealth effect is symmetric for homeowners in both areas with
+high effective tax rates and areas with low effective tax rates.
+I find that higher property taxes have a significant impact on elderly homeowners’
+moving decisions. My central instrumental variable estimates suggest that a $100 increase
+in annual property taxes causes the two-year mobility rate to increase by 0.76 percentage
+points, which represents an eight percent increase from a baseline two-year mobility rate of
+nine percent. The results are robust to various model specifications. Individuals living in
+areas where the effective property tax rate is high and housing values have been appreciating rapidly are the most affected. Moreover, I find mixed evidence on whether liquidity
+constraints may play a role in the effect of property taxes on elderly mobility. This paper’s findings provide indispensable evidence for normative welfare analysis of the impact of
+property taxes and property tax relief programs on elderly homeowners.
+This paper proceeds as follows. The next section outlines the background and reviews previous research on property taxes and elderly mobility. Section 3 then describes the
+data used in this paper. In section 4, I explain the empirical strategies that I use to identify
+the effect of property taxes on elderly mobility. I also show estimation results using these
+
+4
+
+strategies. The last section concludes and provides directions for future research.
+
+2
+
+Background and Previous Research
+
+In 2004, property tax collections in the U.S. exceeded $300 billion. Property taxes are
+responsible for approximately 72% of all local tax revenues, representing the most important
+tax revenue source for local governments.1 The housing market boom of the late 1990s and
+early 2000s led to significant increases in residential property taxes. Figure 1 shows that
+from 2000 to 2005, median house value rose by 47% in real terms and median property tax
+payments by homeowners increased by 30%.2
+Rising property taxes may be particularly burdensome to elderly homeowners. Following notations in Poterba (1992), the user cost faced by a homeowner under the current
+U.S. tax system can be written as
+
+uc =
+
+
+
+
+(1 − τinc )[τp + αi + (1 − α)r] + m + δ − π H
+
+
+τp + αi + (1 − τinc )(1 − α)r + m + δ − π H
+
+for itemizers
+for non-itemizers
+
+where τinc is the homeowner’s marginal income tax rate, τp is the effective property tax rate,
+α is the loan to value ratio on the house, i is the mortgage interest rate, r is the interest
+rate on alternative investment opportunities, m is the maintenance cost rate, δ is the true
+economic depreciation rate, and πH is the housing value appreciation rate. One measure
+of property tax burden on homeowners is the ratio of property tax rates to user costs. For
+1
+
+See Bradley (2005) and NCSL (2005).
+A number of factors could have contributed to the increase in residential property tax payments, including
+unfunded federal mandates, reduction in state aid to local governments, changes in the cost of providing
+local public services, and relative appreciation rates of residential versus non-residential properties. Although
+interesting in its own right, it is beyond the scope of this paper to determine which factors explain the property
+tax increases the most.
+2
+
+5
+
+150
+140
+
+152,079
+
+120
+
+133,696
+
+120
+
+1631
+
+1504
+
+131,615
+
+130
+
+130
+
+148,134
+
+1451
+110
+
+1388
+
+Median House Value Index
+
+140
+
+165,323
+
+110
+
+Median Property Tax Index
+
+150
+
+Median Property Tax and House Value (in 2000 $)
+
+100
+
+100
+
+1313
+112,500
+1250
+2000
+
+2001
+
+2002
+
+2003
+
+2004
+
+2005
+
+Year
+Property Tax Index
+
+House Value Index
+
+Source: 2000 Census and 2001−2005 ACS
+
+Figure 1: Recent Trends in Property Taxes and House Values in the United States
+itemizers and non-itemizers, the ratios are
+
+
+
+
+
+
+(1 − τinc )τp
+(1 − τinc )[τp + αi + (1 − α)r] + m + δ − π H
+burden =
+
+τp
+
+
+
+τp + αi + (1 − τinc )(1 − α)r + m + δ − π H
+
+for itemizers
+for non-itemizers
+
+According to the 2004 Survey of Consumer Finances, the median homeowner of age 65
+or above is a non-itemizer who faces a marginal tax rate of 15% and who has paid off
+his mortgages. In contrast, the median homeowner of age below 65 is an itemizer with
+a marginal tax rate of 25% and a loan to value ratio of 0.5. Assuming that τp = 0.01,
+i = 0.08, r = 0.05, m = 0.02, δ = 0.02, and π H = 0.03, we have burdennonelderly = 0.12
+and burdenelderly = 0.19. If we assume elderly homeowners spend less on home maintenance
+than non-elderly homeowners as suggested by Davidoff (2007), the property tax burden on
+6
+
+elderly homeowners would appear even higher than that on non-elderly homeowners.
+State and local governments may be concerned that elderly homeowners in the face
+of rising property tax burdens decide to relocate to areas with low property taxes. Given
+that around half of property tax revenues are used to finance public schools and that elderly
+homeowners usually do not consume school services, elderly homeowners may find that the
+local public services that they receive are not worth their costs. In response, they decide
+to adjust their housing consumption bundles and relocate to areas with both fewer public
+services and lower property taxes. Precisely because elderly homeowners in general consume
+fewer public services but expand the state and local tax base, they are attractive to state
+and local governments except when they reach the end of their lives and demand expensive
+medical care services through Medicaid. They are even called “pure gold” in Longino and
+Crown (1989). As discussed in Mackey and Carter (1994), many states in the U.S. provide
+a wide range of tax preferences to entice elderly migrants.
+Alternatively, increasing property taxes may raise mobility rates among elderly
+homeowners through liquidity constraints. Because the elderly typically rely on fixed incomes such as Social Security benefits and pension benefits, and because many of them
+do not have many liquid assets, rising property taxes may cause elderly homeowners to be
+liquidity-constrained. Even if an elderly homeowner has great psychological attachment to
+his house and prefers not to move as long as he can afford it, significant increases in property
+taxes may eventually cause the homeowner to liquidate his housing wealth. This liquidity
+constraint mechanism and the demand adjustment mechanism mentioned earlier have very
+different welfare implications as to whether property tax relief programs should be provided
+by state and local governments.
+A few papers investigate property taxes and elderly mobility using household-level
+data. The studies closest to this paper are Farnham and Sevak (2006) and Seslen (2005). The
+7
+
+former study is a test of a life-cycle Tiebout model using the 1992-2000 HRS data and local
+fiscal data. It finds that cross-state, empty-nest movers experience reduced exposure to local
+school spending and property taxes. Although their study examines both property taxes and
+elderly mobility, Farnham and Sevak (2006) addresses the question from a different angle
+than the current study. Their study focuses on testing whether property tax payments decline
+after an elderly homeowner makes a move, whereas my study asks whether rising property
+taxes induce elderly homeowners to move. Moreover, their paper presents a correlation study,
+while my paper tackles the causality question using instrumental variable strategies.
+Seslen (2005) examines the effect of property taxes on elderly homeowners’ downsizing decisions in a competing risk framework. Using the Retirement History Survey from 1969
+to 1979, she finds little evidence that property taxes affect elderly homeowners’ decisions to
+move and to liquidate their housing wealth. Thus, she concludes that property tax relief
+programs are likely to solely transfer resources to the wealthy without achieving the goal of
+protecting the needy. Although Seslen (2005) employs sophisticated econometric tools, the
+data she studies were collected about 30 years ago, and they may not bear on the current
+situation. She uses self-reported property tax payments as the key explanatory variable, but
+she ignores the potential endogeneity problem where some unobserved factor drives both
+property tax payments and mobility decisions.
+My paper advances the prior literature in several ways. First, I use the HRS data,
+a nationally representative panel of elderly households that contains rich information on
+individual and household characteristics, including actual annual property tax payments.
+The panel structure also provides an opportunity for me to look at the dynamic relationship
+between the last period’s property tax payments and the next period’s mobility outcomes,
+which is impossible to do with cross-sectional data. Second, during my sample period, the
+United States experienced significant increases in property taxes. The recent trend of rising
+
+8
+
+property taxes provides a good opportunity to study the effect of property taxes on elderly
+homeowners’ moving decisions. Third, I obtained access to the HRS restricted geographic
+identifiers and collected data on state-provided property tax relief programs for the past 15
+years. With these data, I am able to calculate the amount of eligible property tax relief
+benefits for each household in each survey year. Lastly, I address the potential endogeneity
+problem using instrumental variable approaches. To my knowledge, this is the first study
+to examine the causal effect of property taxes on elderly mobility and to measure property
+tax relief benefits at the household level. The innovations in both data and estimation
+methodology allow this paper to present more compelling evidence than currently exists on
+the effect of property taxes on elderly mobility.
+
+3
+
+Data
+
+3.1
+
+HRS Household Level Panel Data
+
+The Health and Retirement Study (HRS) is biannual panel data of the elderly and nearelderly in the United States. At present, seven waves of the survey (1992-2004) have been
+released to researchers. The HRS includes households from four different cohorts.3 The
+original HRS cohort consists of individuals born between 1931 and 1941. They appear in all
+seven waves of my sample. The AHEAD cohort (born before 1924) was interviewed in 1993
+first and then in 1995. Since 1998, the AHEAD cohort has been interviewed concurrently
+with the HRS cohort biannually. In 1998, two other cohorts were added to the sample: the
+“Children of the Depression” (CODA) cohort (born between 1924 and 1930), and the “War
+Baby” (WB) cohort (born between 1942 and 1947). Hence, these two cohorts appear only
+3
+
+In 2004, a fifth cohort, Early Boomers (born between 1948 and 1953), was added to the HRS. Because
+households in this cohort have only been interviewed once and I need at least two adjacent surveys to study
+whether the last period’s property taxes affect mobility in the next period, I exclude them from my analysis.
+
+9
+
+in the last four waves (1998-2004) in my sample.
+In addition to the publicly available HRS data, I obtained restricted access to household level geographic identifiers. These identifiers allow me to identify the state of residence
+for each household at each survey interview time. The state identifier is crucial in my analysis
+because it links households with the state-provided property tax relief programs for which
+they are eligible. Because of the ambiguity associated with mobility for people living in
+mobile homes, I exclude them from my analysis. Because farms and ranches may be treated
+as agricultural rather than residential properties for property tax purposes, I also exclude
+people living on farms or ranches from my sample. Households residing in mobile homes
+or on farms and ranches combined constitute around 10 percent of the entire HRS sample.
+I also dropped individuals who are newly separated or divorced because mobility becomes
+complicated for these individuals. Newly separated or divorced homeowners represent less
+than 1 percent of the sample.
+Except for the very first survey conducted on each household, every subsequent
+survey asks respondents whether they have moved since their last survey interview. I use
+respondents’ answers as my mobility measure. I contacted HRS staff to confirm that this
+mobility measure is a valid and consistent measure across waves. Panel A of Table 1 displays
+the two-year mobility rates of the HRS cohort households from 1992 to 2004. In earlier years
+when those respondents were relatively young, their two-year moving probability was around
+7%. Toward the end of the panel, the probability increases to 12%. In contrast, the average
+one-year mobility rate among homeowners of age below 65 is about 10% during the 1990s and
+early 2000s. Panel B of Table 1 shows that homeownership rates of HRS cohort households
+stay steady at around 80% during the 12-year sample period. Panel C of Table 1 presents
+a tenure transition matrix for all moves made by HRS cohort households between 1992 and
+2004. Over 80% of homeowners remain homeowners after they relocate, and 70% of renters
+
+10
+
+stay renters after they move. In summary, Table 1 shows evidence consistent with the
+conclusion drawn by Venti and Wise (2001) that mobility rates among elderly homeowners
+are low, and that elderly homeowners do not seem to trade down and consume their housing
+wealth in the absence of precipitating shocks.
+In all seven waves, respondents were requested to report the amount of property
+taxes paid on their primary residence during the past year. I assume the self-reported
+property tax payments are the actual payments after all relevant exemptions, rebates or
+refunds provided by relief programs have been applied. Such an assumption is crucial for
+the first-stage regression in my IV strategy. For programs where participation is automatic
+and property tax bills are mailed to homeowners after benefits have been netted out, this
+assumption seems justified. For programs where homeowners receive rebate checks soon after
+paying property taxes, it is unclear whether respondents report their before-relief property
+tax payments or after-relief property tax payments. For programs that are implemented by
+state personal income tax credits, respondents are likely to report their before-relief benefits
+for two reasons. First, relief benefits are usually received long after homeowners have paid
+their property taxes. Second, property tax relief benefits may appear less salient on state
+personal income tax returns. For example, filers may view property tax credits that they
+claim against income tax liabilities as income tax relief benefits rather than property tax
+relief benefits. Recent studies including Chetty, Looney and Kroft (2007) and Finkelstein
+(2007) suggest that tax salience could have a significant impact on behavior. Regression
+results presented in an earlier version of this paper suggest that respondents in states that
+use income tax credits to grant property tax relief benefits do not report lower property
+tax payments when they are eligible for more generous relief benefits. Therefore, I exclude
+in my main regression analysis states where relief benefits are granted by tax credits on
+state personal income tax returns.4 The dropped observations represent about 25% of the
+4
+
+These states are District of Columbia, Massachusetts, Michigan, Missouri, Montana, New Jersey, New
+
+11
+
+sample.
+Table 2 presents the summary statistics of demographic and socio-economic variables. Note that only about 17% of moves in the sample are cross-state moves, which
+implies a 3.8% five-year cross-state mobility rate (i.e. 9 × 0.17 × (5/2) = 3.8). This rate
+is very similar to what other studies on elderly migration find.5 Given that the majority
+of moves are within-state relocations, results produced by studies focusing on cross-state
+mobilities could be misleading.
+
+3.2
+
+Data on Property Tax Relief Programs
+
+3.2.1
+
+Background on Property Tax Relief Programs
+
+As of 2005, all 50 states and District of Columbia have some form of property tax relief
+programs for homeowners, especially for low-income and elderly homeowners. Many of these
+programs were first established well before my sample period started.6 Broadly speaking,
+there are four categories of relief programs. The first includes Homestead Exemptions and
+Credits. This is the most widely used form of property tax relief. Homestead exemption
+programs usually reduce assessed property value by a certain amount.7 Homestead credit
+programs either refund a certain percentage of taxes due or provide a fixed credit to qualifying
+Mexico, New York, Oklahoma, Rhode Island, Vermont, and Wisconsin. I do not exclude states that use
+rebate checks to implement relief programs because the sample size would drop significantly and asymptotic
+theory no longer applies when there are only a few states left in the sample and standard errors are clustered
+at the state level.
+5
+Woo (2005) states that the five-year cross-state mobility rate among elderly homeowners is 4.2% in the
+Census data and 4.0% in the Current Population Survey data.
+6
+Homestead exemptions are believed to be a by-product of the Great Depression of the 1930s. Circuitbreakers were first legislated in the 1960s and 1970s. Limits were put in place in the late 1970s and early
+1980s when high inflation rates caused property tax bills to spiral out of control and eventually resulted in
+property tax revolts.
+7
+For example, a homeowner of age 65 or above in Kentucky was allowed to exclude $29,400 from the
+assessed value of his main residence for property tax purposes in 2005.
+
+12
+
+homeowners.8 These homestead exemption and credit programs usually require homeowners
+to file an application to local property tax authorities.
+The second category is Circuit-Breakers. Some of these programs are for homeowners only, and others are for homeowners as well as renters. Since these programs are
+designed to help people who need assistance, benefits are typically a decreasing function of
+income. Circuit-breaker programs can work either on a sliding scale or through a threshold
+mechanism. For example, District of Columbia has a circuit-breaker program where homeowners whose income is $20,000 or less can receive up to a $750 tax credit using a threshold
+mechanism. In 2007, Idaho’s circuit-breaker program refunded up to $1320 for homeowners
+of age 65 or above with income below $28,000 using a sliding scale mechanism.9
+The third category is Property Tax Deferral Programs. These programs allow qualified homeowners, typically low-income elderly homeowners, to defer property tax payments
+at a low interest rate. Effectively, they become a lien against the taxpayer’s house. When
+the homeowner sells the house or dies, deferred taxes must be paid when the estate is settled.
+Deferral programs are considered by academics the most targeted and cost-effective way of
+providing property tax relief. Nevertheless, very few qualified homeowners take up such
+programs in practice. Anecdotal evidence suggests that elderly homeowners are reluctant
+to put a lien on their houses. This is consistent with the observation that very few elderly
+homeowners purchase reverse mortgages in the United States.
+The last broad category is Property Tax Limits. Property tax limits include rate
+limits, assessment limits, revenue rollbacks, expenditure limits, and property tax freezes. De8
+
+For example, Massachusetts state statue Clause 17D and 41C grant a $175 homestead credit and a $500
+homestead credit respectively to homeowners of age 70 or above who satisfy certain income, assets, and
+residence requirements.
+9
+The key difference between homestead credit programs and circuit-breakers is that although homestead
+credit programs may use income as a qualification criterion, their benefit levels do not vary with income. On
+the other hand, benefits are explicitly a decreasing function of income for circuit-breakers. For this reason,
+circuit-breakers are considered better targeted at low and moderate-income individuals.
+
+13
+
+pending on the state, any one or a combination of the above limits can be used. Proposition
+13 in California and Proposition 2.5 in Massachusetts are among the most prominent examples of property tax limits. Although almost all states have property tax limits of one kind or
+another, many of these programs do not guarantee that individual homeowners’ property tax
+bills will not go up significantly from year to year. Because property taxes are the product
+of taxable values and tax rates, the amount of property taxes homeowners pay will be limited only when both assessment values and tax rates are limited. Rate limits or assessment
+limits alone are insufficient in curbing property tax growths. Moreover, states usually allow
+for override and bonded indebtedness so that local governments can still increase property
+taxes. For example, if non-elderly homeowners want to spend more on schools, they may
+approve an override, in which event the elderly will face rising property taxes. However, two
+kinds of limits apply to individual homeowners: “assessment value freezes” and “property
+tax freezes.”10
+Participation rates of property tax relief programs vary across states and programs.
+In mid-1990s, the American Association of Retired Persons (AARP) obtained numbers of
+program participants from various state administering offices and estimated participation
+rates for these programs.11 The median estimated participation rate among the eligible is
+the highest for homestead exemptions - around 90%. In contrast, the median estimated
+participation rate is only about 40% for homestead credits and circuit-breakers and less
+than 1% for deferral programs. It is puzzling why participation rates for homestead credits
+and circuit-breakers are so low among elderly households. Some have suggested that social
+stigma and program complexity may play a role.12
+10
+
+For example, in Illinois, homeowners of age 65 and older with income less than $40,000 may receive a
+freeze on their equalized assessed real property value. In Texas, school property taxes do not increase once a
+homeowner reaches age 65. The former is classified as an assessment value freeze and the latter is classified
+as a property tax freeze.
+11
+See Baer (1998).
+12
+See ACIR (1975).
+
+14
+
+Since state-provided property tax relief programs are extremely complicated and
+vary tremendously across states, I focus on three types of relief programs in this paper.13 The
+first type includes homestead exemptions, homestead credits, and circuit-breakers. Relief
+benefits from these programs can be quantified for individual homeowners. The second and
+the third types refer to assessment value freezes and property tax freezes, respectively. For
+these two types, it is difficult to quantify their benefits for individual homeowners. Hence,
+I use dummy variables to indicate whether a homeowner is eligible for “assessment value
+freezes” or “property tax freezes.”
+
+3.2.2
+
+Data Collection on Property Tax Relief Programs
+
+First, I collected descriptive information from a range of publications by the U.S. Advisory
+Commission on Intergovernmental Relations (ACIR), the American Association of Retired
+Persons (AARP) and the National Conference of State Legislatures (NCSL) from 1990 to
+2005. Then I compiled and organized such information by state and year. In my effort to
+confirm changes in these state programs over years and to resolve inconsistencies reported
+in various ACIR, AARP, and NCSL publications, I read state statutes that define these
+programs in legal terms. I searched for historical local news on property tax relief program changes. I studied program application forms, homeowners’ brochures, and Q&As
+on state and/or local government websites. I contacted Connecticut, Delaware, Georgia,
+Florida, Hawaii, Illinois, Indiana, Louisiana, Maine, Maryland, Massachusetts, Mississippi,
+Nevada, New Jersey, North Dakota, Texas, Utah, Virginia, and Wyoming state and/or local
+governments for further explanation and confirmation of program details.
+After obtaining accurate program descriptions, I calculated eligible benefits as a
+13
+
+I do not consider programs that provide exactly the same amount of benefits to everyone because of the
+lack of within-state variation. Deferral programs are ignored because participation rates are too low. Limits
+that affect a jurisdiction but not necessarily individual homeowners are not considered. I also exclude local
+option programs that vary significantly across localities due to data collection difficulties.
+
+15
+
+function of state of residence, year, age, income, house value, Social Security income, marital status, household size, and wealth. This calculation generates three output variables:
+the amount of benefits from homestead exemption, homestead credit, and circuit-breaker
+programs that a homeowner is eligible for, whether eligible for an “assessment value freeze”
+program, and whether eligible for an “property tax freeze” program. Such output parameters
+can be calculated for any homeowner in the U.S. in any year between 1990 and 2004.
+Table 3 shows year 2000 formulas used in calculating property tax relief benefits for
+the ten states with the most observations in my sample. The amount of eligible benefits are
+calculated for a hypothetical married homeowner of age 65 with an annual total household
+income of $20,000, Social Security income of $10,000, and house value of $100,000. The
+amount of eligible benefits for this hypothetical homeowner varies from zero in Pennsylvania
+to $1,000 in New Jersey. The formulas shown in Table 3 suggest that eligible benefits vary
+considerably across states, and they are sensitive to individual characteristics such as income
+and house value.
+The first two columns in Table 4 show the percentage of homeowners eligible for relief
+benefits and the average benefits conditional on eligibility by age groups, income quintiles,
+and house value quintiles. A number of interesting patterns emerge. The percentage of homeowners eligible for relief benefits increases monotonically in age and decreases monotonically
+in income and housing value. Conditional on eligibility, average benefits decrease in income.
+Given that property taxes relief programs target low-income and elderly homeowners, such
+patterns are expected. The conditional average benefits increases monotonically in housing
+value. This pattern is likely due to the threshold design of circuit-breakers. For example, if
+a circuit-breaker refunds property taxes exceeding 3% of a homeowner’s income, then homeowners living in more expensive houses would receive higher refunds ceteris paribus. The
+conditional average benefits do not appear to change monotonically in age. This pattern
+
+16
+
+is likely caused by complicated correlations between age and household characteristics. For
+example, the younger elderly homeowners tend to have higher income, which leads to lower
+relief benefits. The younger elderly homeowners also tend to live in more expensive houses,
+which leads to higher relief benefits.
+The first part of Figure 2 plots conditional average benefits by state. South Dakota
+and Utah are missing from the map because no homeowners in the sample are from these two
+states. Delaware, Idaho, Maine, Montana, and Vermont each have fewer than 10 households
+in the sample. Because access to state identifiers is restricted, I cannot show them on this
+map for confidentiality reasons. This map also shows that District of Columbia, Iowa, Maryland, Michigan, Nebraska, Washington and Wisconsin have the highest average conditional
+benefits.
+
+4
+
+Empirical Strategy and Results
+
+In this section, I present the empirical models and estimation results in studying the effect
+of property taxes on elderly mobility. Specifically, I first use property tax relief benefits
+as instruments to identify the impact of property taxes on elderly mobility. Then I use
+variations in housing value appreciation rates across geographic areas and years to identify
+such impact. I also explore whether liquidity constraints play a role in property taxes’ effect
+on elderly homeowners’ moving decisions.
+
+17
+
+Benefits Imputed using Individual Characteristics
+
+Benefits based on Simulations
+
+0 - 100
+101 - 200
+201 - 300
+301 - 500
+501 - 1046
+
+Figure 2: Conditional Average Benefits in 2000 dollars by State. Note: States shown with
+stripes have no or fewer than 10 households in the sample. Information for these states
+cannot be shown for confidentiality reasons.
+
+18
+
+4.1
+
+Using Relief Benefits as Instruments
+
+4.1.1
+
+Probit and IV Probit Estimation
+
+To investigate whether property taxes have an impact on elderly mobility, I start with the
+following probit model:14
+
+Prob(M oveist = 1) = Φ(β1 T axist + Xist Π + ζs + δt )
+
+(1)
+
+where M oveist is a binary indicator for whether household i in state s moved between time
+t and t + 1, ζs denotes state fixed effects, δt denotes year fixed effects, and the covariate
+vector Xist includes income quintile indicators, house value quintile indicators, financial
+wealth quintile indicators, gender, race, household size, number of living children, whether
+married, whether newly widowed, education categories (i.e. less than high school, high
+school graduates, some college, and college graduates), whether currently working, whether
+newly retired, whether spouse is currently working, whether spouse is newly retired, whether
+hospitalized between the last interview and the current interview,15 age dummies, and spouse
+age dummies. The key variable of interest in equation (1) is T axist , property tax payments
+by household i in state s at time t. If higher property taxes cause elderly homeowners to
+move, then we expect β1 to be positive.
+The first column in Table 5 displays estimation results of equation (1). To make
+the results interpretable, I show marginal effects of independent variables by calculating the
+marginal effect for each household and then averaging them across all households. To be
+14
+
+I use a probit model here because the mean of the dependent variable is far from 0.5. A linear probability
+model (LPM) may be biased when the dependent variable is close to zero or one, and will produce predictions
+beyond the range of zero to one. Results shown later suggest that both probit and LPM generate similar
+estimation results.
+15
+For the first wave in 1992, HRS asked whether the individual was hospitalized in the past year. From
+the second wave on, HRS asked whether the individual was hospitalized since the last interview.
+
+19
+
+consistent with results presented later in this section, standard errors shown in parenthesis
+are bootstrapped by 500 random draws with replacement. I implement a block-bootstrap
+scheme to make certain that observations are clustered at state level in estimating standard
+errors.16
+The estimated effect of property taxes shown in column (1) is positive but insignificant both statistically and economically. The magnitude suggests that a $100 increase in
+property taxes is associated with a mere 0.0065 percentage points increase in two-year mobility rates. It is unsurprising that the probit estimate of β1 is small and insignificant since
+property taxes are likely to be endogenous to elderly homeowners’ moving decisions. For
+instance, if there exists heterogeneity among elderly homeowners in their tastes for local
+public services, then homeowners who desire good local public services may choose to stay
+in areas that provide excellent local public services. Since such services are financed partially
+by property taxes, homeowners in these areas also pay high property taxes. Therefore, the
+unobserved tastes for local public services are correlated with both property tax payments
+and mobility outcomes, which causes the probit estimate of β1 to be biased. An appropriate
+instrumental variable strategy has to be used to address such an endogeneity problem and
+to generate an consistent estimate of β1 .
+Since eligibility for higher relief benefits means lower property tax payments, one
+potential candidate as an instrument for property taxes is eligible benefits for property tax
+16
+
+Bertrand, Duflo and Mullainathan (2004) point out that estimated standard errors would be too small
+without recognizing such correlations in regression analysis. Such underestimated standard errors often lead
+to incorrect rejections of the null hypothesis. Two sources of correlation exist in the data studied in this
+paper: the correlation between observations of the same household over time and the correlation between
+different households in the same state. Because some households move across state borders, clustering at the
+state level alone may not produce consistent estimates of standard errors. Without imposing an arbitrary and
+restrictive structure on the variance-covariance matrix of the error term, I experimented with a multi-way
+clustering method suggested by Colin, Gelbach and Miller (2006). In practice, the standard errors estimated
+using multi-way clustering turn out to be almost identical to the standard errors estimated by clustering only
+at the state level. Given that implementing the multi-way clustering method in a bootstrapping framework
+is very computationally demanding and that the multi-way clustering method does not seem to produce any
+noticeable differences, I cluster standard errors only at the state level in all results presented in this paper.
+
+20
+
+relief programs. Recall that my property tax relief program Benefit Calculator imputes
+Benef itist (i.e. the amount of eligible benefits from homestead exemptions, homestead
+credits, and circuit-breakers) for each household in each survey year. Benef itist , however, is
+a nonlinear function of state, age, year, household income, house value, marital status, Social
+Security benefits, pension benefits, household size, and total assets. To the extent that any
+of these factors influences elderly homeowners’ moving decisions through channels other than
+property taxes, Benef itist would correlate with both property taxes and unobserved moving
+tendencies, and hence, would violate the exclusion restriction. For example, homeowners
+who receive high Social Security benefits and pension benefits may have strong ties with
+local labor markets, which reduces their moving probabilities. In other words, Benef itist
+has two sources of variation: the variation caused by relief program rules and the variation
+stemming from individual characteristics. The latter source of variation may be endogenous
+and cause probit estimates to be biased. To deal with such an endogeneity problem, I use a
+simulated IV approach.17
+To simulate program generosity in state s in year t for homeowners of age a, I take
+the national sample of homeowners of age a who responded to HRS in year t and run them
+through state s’s relief programs. The weighted average eligible benefits for these homeowners becomes the simulated measure of program generosity for state s in year t for homeowners
+of age a. Essentially, I measure state program generosity using a national representative sample that does not correlate with any individual homeowner’s characteristics, but only with
+^itist is constructed
+the exogenous variation in state, age, and year. Mathematically, Benef
+17
+
+The idea of simulated IV can be dated back to Hausman and Wise (1976), Rosen (1976), and Hausman
+(1981) in labor supply studies. Currie and Gruber (1996a, 1996b) and Cutler and Gruber (1996) build on this
+idea and name it the “simulated IV approach”. Since then, this empirical strategy has become increasingly
+popular among empirical studies. Hoxby and Kuziemko (2004) and Engelhardt and Kumar (2007) are recent
+applications of the simulated IV approach.
+
+21
+
+as follows:
+
+Bst (Wkt , Zkt )1(Zkt = Zit )
+^itist = k6=i
+P
+Benef
+1(Zkt = Zit )
+P
+
+(2)
+
+k6=i
+
+where Zkt is the age of individual k at time t. Wkt consists of relief program eligibility
+determinants, some of which may be endogenous. Bst (·) is the benefit formula specific to
+state s at time t. 1(·) is a binary function that returns one if the statement in the parentheses
+is true and zero otherwise. The above equation essentially takes everyone who shares the
+same age as individual i at time t, calculates their eligible benefits assuming that they all live
+in the state where individual i lives, and averages eligible benefits across all these people. To
+^itsist .
+improve small sample properties, I exclude individual i when calculating Benef
+^itsist isolates the exogenous variation due to relief program rules from the
+Benef
+potentially endogenous variation due to individual homeowners’ socio-economic characteristics. Comparing column (2) with column (4) of Table 4 illustrates this point. Even though
+the conditional average benefit calculated using individual characteristics has no clear relationship with age, the simulated conditional average benefit increases monotonically in age,
+reflecting the fact that property tax relief programs are more generous for the oldest homeowners. In addition, column (2) shows that the conditional average benefit calculated using
+individual characteristics decreases monotonically in income and increases monotonically in
+house value. In contrast, the simulated conditional average benefit does not exhibit any relationship with either income or house value, suggesting that the simulated benefit measure
+^itsist is rid of variations stemming from individual characteristics. In summary, the
+Benef
+simulated benefits contain only the variation in program rules and depend exclusively on
+state, age, and year by construction. Even though a homeowner’s unobserved tendencies to
+move can be correlated with factors that determine his benefit eligibility, such unobserved
+tendencies to move are orthogonal to relief program rules and thus, orthogonal to simulated
+benefits.
+22
+
+The second map in Figure 2 plots simulated conditional average benefits by state.
+South Dakota and Utah are missing from the map because no homeowners in the sample
+are from these two states. Comparing the two maps in Figure 2, we observe that simulated
+eligible benefits are highly correlated with eligible benefits calculated using individual characteristics. Nevertheless, they are noticeably different from each other. For example, the
+conditional average benefits based on individual characteristics are higher in Colorado than
+in Minnesota and North Dakota, while the simulated conditional average benefits are higher
+in Minnesota and North Dakota than in Colorado. Benef itist is measured using residents
+^itist is measured using a national representative sample. To the
+in state s, whereas Benef
+extent that residents in state s is different from the national representative sample, it is
+unsurprising for the two maps in Figure 2 to exhibit different patterns.
+I also use two other relief benefit eligibility measures, V alueF reezeist (i.e. whether
+eligible for an assessment value freeze program) and T axF reezeist (i.e. whether eligible for a
+property tax freeze program) to instrument for property tax payments. Because eligibilities
+for assessment value freeze programs and property tax freeze programs depend only on
+state, age, year, and household income, and because state, age, year, and household income
+are arguably exogenous covariates, V alueF reezeist and T axF reezeist satisfy the exclusion
+restriction and may be used as valid instruments for property tax payments.18
+To implement the simulated IV strategy in a probit framework, I use the two-step
+estimator suggested by Rivers and Vuong (1988).19 Beside computational ease, the RiversVuong two-step IV approach has another appealing feature. The usual probit t-test on v̂,
+which is a consistent estimate of the first-stage error term, is a valid test of the null hy18
+
+I also tried simulating V alueF reezeist and T axF reezeist and using the simulated eligibility measures
+as instruments for property taxes. The estimation results remain the same.
+19
+The Rivers-Vuong two-step approach is a limited information procedure. Thus, it is less efficient than
+the conditional maximum likelihood estimation (MLE). In practice, I find MLE computationally difficult,
+and iterations do not converge.
+
+23
+
+pothesis that T axist is exogenous. Such a test is equivalent to the Hausman specification
+test suggested by Hausman (1978). Because I use a two-step procedure to estimate the IV
+probit model, standard errors need to be adjusted accordingly. I choose to obtain consistent
+estimates of standard errors by bootstrapping in lieu of the delta-method for two reasons.
+First, bootstrapping is computationally easier to implement. Second, bootstrapping provides higher-order refinements while the delta-method is only a first-order approximation
+(Horowitz (2001)).
+Column (2) of Table 5 shows the IV probit estimation results. The estimated
+marginal effect of property taxes is both statistically and economically significant. The
+point estimate suggests that a $100 increase in annual property tax payments induces the
+two-year mobility rate to increase by 0.76 percentage points. Given that the baseline twoyear mobility rate among elderly homeowners is 9%, the IV probit estimate implies that a
+$100 increase in annual property taxes induces mobility to rise by 8 percent. Moreover, the
+coefficient on v̂ is statistically different from zero at 0.01 level, rejecting the null hypothesis
+that T axist is exogenous and confirming the necessity of an IV strategy.
+^itsist , V alueF reezeist ,
+Table 5 also shows that the instruments used here - Benef
+and T axF reeze - are quite strong in the first-stage regression. The first-stage F-stat is 43
+and the concentration parameter is 126. Stock, Wright and Yogo (2002) suggest that the rule
+of thumb for detecting weak instruments is to check whether the first-stage F-stat exceeds
+10. Hansen, Hausman and Newey (2006) conclude that a concentration parameter of 30 or
+^itsist ,
+above suggests that there is no weak instruments problem. By either standard, Benef
+V alueF reezeist , and T axF reeze are strong instruments for T axist .
+The estimated marginal effects of other covariates are mostly consistent with our expectation and the previous literature’s findings. For instance, homeowners who are currently
+working are less likely to move. Homeowners who are recently widowed have higher moving
+24
+
+probabilities. Large families are less prone to move, supposedly due to high moving costs.
+Negative health shocks and number of living children are associated with higher mobility
+rates, which echoes the finding by Silverstein and Angelelli (1998) that older parents engage
+in return migration in order to live closer to children from whom they receive care.
+
+4.1.2
+
+Allowing for Household Heterogeneity - Random Effects Probit Model
+
+An advantage of using panel data is that we can take into account unobserved individual
+heterogeneity. To simplify notations, I denote yit as the mobility outcome, xit as a vector
+of all explanatory variables, and ci as the time-constant unobserved household effects. The
+probit model assumes
+
+P (yit = 1|xit , ci ) = Φ(xit θ + ci ),
+
+t = 1, ..., T
+
+The density of (yi1 , ..., yiT ) can be written as
+
+f (yi1 , ..., yiT |xi , ci ; θ) =
+=
+
+T
+Y
+
+t=1
+T
+Y
+
+f (yit |xit , ci ; θ)
+Φ(xit θ + ci )yit [1 − Φ(xit θ + ci )]1−yit
+
+t=1
+
+Ideally, we would prefer estimating a fixed effects probit model where no assumption is made
+about the distribution of ci , and ci are estimated as parameters along with θ. Unfortunately,
+the data used in this paper have a small T and a large N . The fixed effects probit model fails
+to produce a consistent estimate of θ due to the incidental parameters problem. Nevertheless,
+if we are willing to assume the conditional distribution of ci , we can still estimate a random
+effects probit model.
+The traditional random effects probit model imposes the assumption that ci are
+25
+
+normally distributed conditional on xi :
+ci |xi ∼ Normal(0, σc2 )
+
+Because {ci } are unobserved, they cannot appear in the likelihood function explicitly. Instead, we find the joint distribution of (yi1 , ..., yiT ) by integrating out ci . Under the conditional normality assumption of ci ,
+
+f (yi1 , ..., yiT |xi ; θ, σc ) =
+
+Z ∞ "Y
+T
+−∞
+
+=
+
+1
+f (yit |xit , ci , θ)
+φ
+σ
+c
+t=1
+
+Z ∞ "Y
+T
+−∞
+
+#
+
+yit
+
+
+
+c
+σc
+
+
+
+dc
+1−yit
+
+Φ(xit θ + ci ) [1 − Φ(xit θ + ci )]
+
+t=1
+
+#
+
+1
+φ
+σc
+
+
+
+c
+σc
+
+
+
+dc
+
+The log-likelihood function for the entire sample of N households can be maximized with
+respect to θ and σc .
+Columns (3) and (4) in Table 6 present the estimation results of the random effects
+probit model and that of the two-step IV random effects probit model. The marginal effects
+are very close to those estimated by the probit and IV probit models. The point estimate
+of the IV random effects probit model suggests that a $100 increase in annual property
+tax payments causes the two-year mobility rate to go up by 0.73 percentage points. The
+estimated coefficient on v̂ is statistically different from zero at 0.01 level, suggesting that
+T axist is endogenous to mobility outcomes. As a robustness check, OLS and 2SLS estimation
+results are shown in columns (5) and (6). The LPM also generates similar results.
+
+4.1.3
+
+Robustness Checks across Sub-samples and Specifications
+
+In this section, I estimate the effect of property taxes on elderly mobility using different subsamples and different model specifications. The purpose of this exercise is to check whether
+26
+
+my findings are driven by some peculiar sub-population and whether the estimated results
+are robust to various regression specifications. I first exclude the AHEAD cohort. The
+AHEAD cohort were born before 1924 and are the oldest cohort in the sample. Even though
+I have included in the main specification a full set of age dummies and year dummies, which
+effectively controls for cohort fixed effects, coefficients on all covariates have been restricted
+to be the same across cohorts. If the oldest elderly move for reasons completely different
+from those of the younger elderly, they may respond to property taxes and relief programs
+distinctively from other cohorts. The regression results excluding the AHEAD cohort are
+shown in columns (3) and (4) of panel A in Table 7. The IV probit point estimate is similar
+to the one obtained when the AHEAD cohort is included.
+Next, I drop households living in California because Proposition 13 creates a very
+unusual institutional setting. Proposition 13 in California was adopted in 1978. It limits
+property tax rate at 1% and requires assessment values grow no more than 2% per year
+unless the house is sold and re-assessment is carried out. Wasi and White (2005) find that
+Proposition 13 has a lock-in effect on homeowners in California. In the late 1980s, two
+amendments to Proposition 13 were passed. They allow any homeowner of age 55 or above
+who move to another house of equal or less market value within the same county to pay
+property taxes on the previous house’ assessment value. Ferreira (2005) use a regression
+discontinuity strategy to show that mobility rates of 55-year-old homeowners are 25% higher
+than those of 54-year-old homeowners in California after those amendments were enacted.
+Proposition 13 may cause elderly homeowners in California to respond differently to property
+taxes and relief programs than elderly homeowners in other states. The regression results
+without California observations are shown in columns (5) and (6) of panel A in Table 7.
+They appear to be very similar to the results obtained for the entire sample.
+I then investigate whether the results I find are driven by a small fraction of house-
+
+27
+
+holds who made multiple moves during the sample period. Specifically, I drop households
+who moved three or more times between 1992 and 2004.20 Columns (7) and (8) of panel
+A in Table 7 present the probit and IV probit estimation results. The reported marginal
+effects remain unchanged, suggesting that the estimated marginal effect of property taxes
+on elderly mobility is not driven by frequent movers.
+By construction, the variation in the simulated benefits comes from state, age, and
+year. To ascertain that the results I have found in my main regressions do not originate from
+uncontrolled two-way interactions between state, age and year, I add two-way interaction
+fixed effects in the property tax regression. The first two columns of panel B in Table 7
+display the original estimation results without controlling for any two-way interactions. In
+columns (3) and (4), I add controls for state×year fixed effects. In columns (5) and (6), I
+add controls for year×age fixed effects. In columns (7) and (8), I add controls for state×age
+fixed effects.
+In the case of adding state×age fixed effects, around 1,500 additional fixed effects are
+controlled for in the regression model. Not surprisingly, estimated standard error becomes
+considerably larger and the marginal effect is significant only at 0.10 level. Nevertheless, the
+estimated coefficient on property tax payments always remains positive and of roughly the
+same magnitude.
+In summary, estimation results from the probit model, the random effects probit
+model, and the LPM all suggest that property taxes play an important role in elderly homeowners’ moving decisions. The results do not appear to be driven by some peculiar subsample and are robust to adding two-way interaction fixed effects. These estimation results
+also demonstrate that it is essential to recognize that property taxes are endogenous to the
+20
+
+I am aware that this procedure selects the sample based on the dependent variable. The sole purpose of
+this exercise is to check whether the estimated marginal effect of property taxes on elderly mobility changes
+significantly once we exclude frequent movers.
+
+28
+
+probability of moving. The central IV estimate suggests that a $100 increase in property
+taxes induces the two-year mobility rate to rise by 0.76 percentage points, representing a
+8% increase from the baseline average two-year mobility rate of 9 percent. Such a large
+estimated impact of property taxes may be a manifestation of the local average treatment
+effects (LATE) formulated by Imbens and Angrist (1994). The instruments used to identify
+the causal effect of property taxes - simulated benefits, eligibility for assessment value freeze
+program, and eligibility for property tax freeze program - affect property taxes only of homeowners who both are eligible for and actually take up property tax relief. Because property
+tax relief programs are designed to assist low-income and elderly homeowners, and because
+people who actually take up these programs tend to be more sensitive to property taxes, it is
+not surprising that the IV estimates are large in magnitude. The estimates shown here measure the mobility response to property taxes among the compliers (i.e. eligible homeowners
+who actually receive benefits from property tax relief programs), so one must be cautious
+when generalizing these results to the overall population.
+
+4.2
+
+Using Variations in Housing Appreciation Rates
+
+In the previous section, I used eligible benefits for property tax relief programs as instruments
+and find that higher property taxes induce elderly homeowners to move. To the extent that
+these instruments affect property tax payments only of homeowners who are both eligible
+for and actually enroll in property tax relief programs, the effect found may be specific to
+such homeowners. In this section, I use a different empirical strategy to identify the effect
+of property taxes on mobility rates of all elderly homeowners. Specifically, I make use of the
+intuition that homeowners living in places with high Effective Tax Rates (i.e. the property
+tax payment to house value ratio) and high housing appreciation rates will be the most
+affected by rising property taxes. If increasing property taxes induce elderly homeowners to
+29
+
+move, individuals subject to high ET Rist × hmt are more likely to move than those subject
+to low ET Rist × hmt , where hmt is the housing appreciation rate for Metropolitan Statistical
+Area (MSA) m at time t.21 In particular, I estimate the following probit model:
+
+Prob(M oveist = 1) = Φ(γ1 ET Rist × hmt + γ2 ET Rist + γ3 hmt + Xist Π + αs + δt )
+
+(3)
+
+If property taxes are important in elderly homeowners’ moving decisions, then we would expect γ1 to be positive. The identification assumption underlying this difference-in-differences
+framework is that, in the absence of a property tax effect, increases in housing prices have
+the same effect on low-ETR areas as on high-ETR areas. This assumption is very strong
+because it assumes that ETR varies across places for reasons exogenous to individual homeowners. It precludes situations where increases in property tax revenues are driven purely
+by homeowners’ demand for more and better local services.
+Note that individual level variables ET Rist may be endogenous for the same reasons
+that property tax payments may be endogenous. Hence, estimates of equation (3) are inconsistent without an appropriate instrumental variable strategy. I use state-year level median
+effective tax rates ET Rst , and the interaction between ET Rst and hmt to instrument for
+their individual level counterparts.22 The regression outcomes are reported in columns (1)
+and (2) of Table 8.
+The results in Table 8 show a number of interesting patterns.
+21
+
+The estimated
+
+For homeowners who do not live in MSAs, I use state-level housing appreciation rates instead. About
+75% of the sample live in MSAs.
+22
+The housing appreciation rates hmt are from the Office of Federal Housing Enterprise Oversight
+(OFHEO). OFHEO publishes quarterly House Price Indexes (HPI) by state and by MSA. I adjust HPI
+for inflation using CPI to obtain real housing appreciation rates hmt . The data I used to construct statelevel median effective tax rates ET Rst are from two sources. The first is the 2000 Census, which provides
+median effective tax rate by state. The second is the “Residential Property Tax Rates in the Largest City
+in Each State” published in the census Statistical Abstract series. Assuming the time trend of ETR in these
+largest cities coincides with the time trend of median ETR in states, I use the 2000 Census data as a baseline
+and construct the state-year specific ET Rst .
+
+30
+
+marginal effect of ET Rist × hmt in the IV probit model is positive and statistically significant, suggesting that higher property taxes induces elderly homeowners to relocate.23
+The estimated marginal effect of hmt is negative and marginally significant. The variable
+hmt measures how much housing values have changed from last year to this year. If homeowners extrapolate housing price movements, they would expect housing value to continue
+increasing in a housing market boom and to continue declining in a housing market bust.
+γ3 being negative implies that in times when housing prices keep rising, homeowners decide
+to delay moving and cash in the expected capital gains later. The Hausman test appears
+to reject the exogeneity assumption and suggests that an instrumental variable approach is
+necessary for consistent estimates. In addition, the LPM generates very similar results.
+I interpret the estimated marginal effects using the following example: Take ET Rist
+to be 0.01 and hmt to be 5% as the benchmark scenario. These numbers are chosen because
+they are close to the sample medians. Consider an increase in annual housing appreciation
+rate from 5% to 10%. The direct housing appreciation effect, γ3 hmt , implies a decrease
+in the two-year mobility rate by 1.3 (= −0.262 × 0.05) percentage points. The indirect
+property-tax-increase effect, γ1 ET Rist × hmt , suggests a rise in the mobility rate by 1.2
+(= 0.235×0.05×0.01×100) percentage points. Therefore, the net effect of an increase in the
+housing appreciation rate from 5% to 10% is a decrease of 0.1 (= −1.3−1.2) percentage points
+in the two-year mobility rate. Now take ET Rist to be 0.02 and consider the same increase
+in hmt from 5% to 10%. The direct housing appreciation effect is still a 1.3 percentage point
+decrease in the two-year mobility rate. The indirect property-tax-increase effect, however,
+will increase mobility by 2.4 (= 0.235 × 0.05 × 0.02 × 100) percentage points. Therefore,
+the net effect is a 1.1 (= −1.3 + 2.4) percentage point increase in the two-year mobility
+rate.
+23
+
+I multiplied the ET Rist and ET Rst by 100 to obtain easy-to-read estimated coefficients.
+
+31
+
+The IV probit estimation results suggest that homeowners living in places with both
+high effective property tax rates and rapid housing value appreciation are the most affected by
+rising property taxes. Exploiting variations in housing value appreciation rates rather than
+in state-provided property tax relief programs, the results shown in this section complement
+and reinforce the previous finding that property taxes play an important role in elderly
+homeowners’ moving decisions. Furthermore, finding a large and statistically significant
+effect of ET Rist × hmt on elderly mobility suggests that increasing demand for local public
+services cannot fully explain the sharp increases in property taxes during the recent years,
+at least not for elderly homeowners. If property tax increases are entirely driven by elderly
+homeowners’ demand for more and better local public services, then we would not expect
+elderly mobility to rise in areas with high ETR and fast housing price appreciation.
+
+4.3
+
+Do Liquidity Constraints Matter?
+
+There are two potential explanations for why elderly homeowners move when property taxes
+increase. The first focuses on liquidity constraints. Under the assumption that elderly
+homeowners have substantial emotional and psychological attachment to their homes, they
+do not wish to move unless they become liquidity-constrained and have to trade down. This
+explanation implies that elderly homeowners do not perceive their housing wealth in the
+same way they perceive their financial wealth. It also suggests that providing property tax
+relief programs may be welfare-improving for elderly homeowners with difficulties accessing
+the credit market and cashing out their housing wealth.
+The second explanation is a demand adjustment story. When homeowners were
+in their prime-age living with school-aged children, they were willing to pay high property
+taxes and receive local services including public schools. As homeowners grow older, they
+no longer have school-age children and, consequently, they do not value school services as
+32
+
+much. When property taxes increase, elderly homeowners may decide to relocate to places
+with lower property taxes and fewer, or different public services. This explanation suggests
+that property tax relief programs may have distorted elderly homeowners’ mobility decisions
+and locked in people who optimally should have moved.
+The liquidity constraint explanation and demand adjustment explanation have distinct policy implications. Pioneered by Zeldes (1989), a sizable literature shows both theoretically and empirically that liquidity constraints may have a significant impact on household
+consumption and saving trajectories. If there exist impediments in the credit market that
+prevent elderly homeowners from borrowing against their housing wealth, providing property
+tax relief to them may help to smooth consumption and to enhance welfare. On the other
+hand, if moving from a place with high property taxes to a place with low property taxes
+gives elderly homeowners higher utility, then property tax relief may artificially lock elderly
+homeowners into their long-time home. To explore whether liquidity constraints explain the
+effect of property taxes on elderly mobility, I estimate
+
+Prob(M oveist ) = Φ(η1 T axist × LCist + η2 T axist × (1 − LCist )
++ Xist Π + ζs + δt )
+
+(4)
+
+where LCist is a binary variable indicating whether household i faces liquidity constraints
+at time t. In practice, I define LCist in three different ways: LCist = 1 if in the bottom two
+income quintiles, LCist = 1 if in the bottom two financial wealth quintiles, and LCist = 1
+if in the bottom two education categories (i.e. less than high school and high school graduates). If liquidity constraints are indeed the reason why higher property taxes induce elderly
+homeowners to move, then we would expect that individuals facing liquidity constraints are
+more affected by property taxes than those not facing liquidity constraints. In other words,
+we would expect η1 > η2 .
+33
+
+Using eligible benefits for property tax relief programs as instruments for T axist ×
+LCist and T axist × (1 − LCist ), I find mixed evidence on whether liquidity constraints may
+have played a role in property taxes’ impact on elderly homeowners’ moving decisions. The
+estimates of η1 are larger than that of η2 regardless of whether being liquidity-constrained is
+defined by income, financial wealth, or education. For example, for households in the bottom
+two income quintiles, the IV-probit estimates suggest that a $100 increase in property taxes
+induces the two-year mobility rate to increase by 0.92 percentage points. In contrast, it
+induces the two-year mobility rate to increase by only 0.58 percentage points for households
+in the top three income quintiles. Unfortunately, standard errors of the estimated marginal
+effects are large and the null hypothesis that η1 = η2 cannot be rejected.
+
+5
+
+Conclusion
+
+Property taxes are the most important tax revenue source for local governments. The recent
+housing market boom led to significant increases in homeowners’ property tax liabilities.
+Both policy-makers and the general public are concerned by the prospect that house-rich
+but income-poor elderly homeowners are overburdened by rising property taxes. The goal
+of this paper is to provide empirical evidence on whether property taxes play an important
+role in elderly homeowners’ moving decisions.
+Using instrumental variable approaches, this paper finds that property taxes are
+important in elderly homeowners’ moving decisions. The central point estimates suggest
+that a $100 increase in annual property taxes leads to a 0.76 percentage point increase on
+average in two-year mobility rates. The median annual property tax payment in my sample
+is $1200, and the average two-year mobility rate of elderly homeowners is 9 percent. My
+point estimates suggest that the impact of property taxes on elderly mobility is economically
+
+34
+
+significant. In addition, the effect of property taxes is most pronounced for homeowners living
+in areas that rely heavily on property taxes and that experience remarkable housing value
+appreciation. A variety of robustness checks are performed to test the stability of the found
+effects.
+According to the 2004 data, property tax relief programs cost about $10 billion a
+year in the United States.24 In some states, these relief programs are provided at a great
+expense of lost revenues. For example, circuit-breakers in Vermont cost about 10% of total
+property tax revenues every year. Is the money well spent? Does the benefit of having these
+programs justify their cost? If the effect of property taxes on mobility is driven by demand
+adjustment, property tax relief programs would keep elderly homeowners from relocating
+to places where the marginal price of local services matches the marginal benefit. Thus,
+we essentially spend valuable resources locking homeowners in their houses and preventing
+them from following an optimal housing consumption path. In contrast, if the effect is due
+to liquidity constraints, providing generous property tax relief programs may alleviate such
+constraints and allow people who value the house the most to stay in it. This paper offers
+mixed evidence on whether liquidity constraints serve as a driving force behind the effect of
+increasing property taxes on elderly mobility. More empirical studies are needed before we
+can fully assess the welfare implication of property tax relief programs.
+Many intriguing and important questions remain unexplored with regard to the
+impact of property taxes on elderly homeowners. At present, little empirical analysis has been
+conducted to address the question why effective tax rates did not decline in proportion to the
+increases in housing prices. Dye and Reschovsky (2007) suggests that cuts in state school aid
+caused by state fiscal crisis may be partially responsible for rising property taxes in recent
+years. Furthermore, virtually no evidence has been presented to rationalize the prevalence
+24
+
+Author’s estimate using 2004 circuit-breaker cost data reported in Lyons et al (2007).
+
+35
+
+of property tax relief programs and the political popularity associated with expanding these
+programs. Do elderly homeowners enjoy more political power by voting more often than
+non-elderly homeowners? Do state and local governments use property tax relief programs
+to entice retiree migrants? Do population aging and baby-boomers’ entering retirement
+age imply diminishing support for public-school spending? Poterba (1998) discusses issues
+related to demographic change and the political economy of public education. More research
+is called for to address such questions.
+The second set of research questions includes investigating the best way of providing
+property tax relief. Economists believe that reverse mortgages are an efficient mechanism for
+elderly homeowners to tap into their housing wealth and to achieve consumption smoothing
+toward the end of their life-cycle. The fact that very few eligible elderly homeowners take up
+property tax deferral programs is consistent with the observation that the reverse mortgage
+market in the U.S. is tiny. Studying why property tax deferral programs are unpopular
+among elderly homeowners could help us better understand whether elderly homeowners
+perceive their housing wealth in the same way they perceive their financial wealth, and
+whether the absence of a thriving reverse mortgage market is due to a lack of demand. The
+third set of questions extends beyond mobility and asks whether property taxes induce other
+behavior responses among elderly homeowners. These remaining questions are left for future
+study.
+
+References
+[1] Baer, D., 1996, 1998, 2000, 2003 and 2006. The State Economic, Demographic and Fiscal
+Handbook. AARP Public Policy Institute.
+[2] Baer, D., 1998. Awareness and Popularity of Property tax Relief Programs. AARP Public
+Policy Institute.
+[3] Bertrand, M., Duflo, E., Mullainathan, S., 2004. How Much Should We Trust Difference
+in Differeces Estimates? Quarterly Journal of Economics 119 (1), 249-275.
+36
+
+[4] Bradley, D., 2005. Property Taxes in Perspective. Center on Budget and Policy Priorities.
+[5] Cebula, R., 1974. Interstate Migration and the Tiebout Hypothesis: An Analysis According to Race, Sex and Age. Journal of American Statistical Association 69, 876-879.
+[6] Chetty, R., Looney, A., Kroft, K., 2007. Salience and Taxation: Theory and Evidence.
+NBER Working Paper #13330.
+[7] Clark, D., Hunter, W., 1992. The Impact of Economic Opportunity, Amenities and Fiscal
+Factors on Age-Specific Migration Rates. Journal of Regional Science 32 (3), 349-365.
+[8] Cameron, C., Gelbach, J., Miller, D., 2006. Robust Inference with Multi-Way Clustering.
+NBER Technical Working Paper #T0327.
+[9] Conway, K., Houtenville, A., 2001. Elderly Migration and State Fiscal Policy: Evidence
+from the 1990 Census Migration Flows. National Tax Journal 54, 103-123.
+[10] Currie, J., Gruber, J., 1996. Health Insurance Eligibility, Utilization of Medical Care,
+and Child Health. Quarterly Journal of Economics 111 (2), 431-466.
+[11] Currie, J., Gruber, J., 1996. Saving Babies: The Efficacy and Cost of Recent Changes
+in the Medicaid Eligibility of Pregnant Women. Journal of Political Economy 104 (6),
+1263-1296.
+[12] Cutler, D., Gruber, J., 1996. Does Public Insurance Crowd Out Private Insurance?
+Quarterly Journal of Economics 111 (2), 391-430.
+[13] Davidoff, T., Welke, G., 2007. Selection and Moral Hazard in the Reverse Mortgage
+Market. Working Paper.
+[14] Dresher, K., 1994. Local Public Finance and the Residential Location Decisions of the
+Elderly. Univeristy of Wisconsin dissertation.
+[15] Duncombe, W., Robbins, M., Wolf, D., 2003. Chasing the Elderly: Can State and Local
+Governments Attract Recent Retirees? Aging Studies Program Paper, vol. 22. Center for
+Policy Research, Maxwell School of Citizenship and Public Affairs, Syracuse University.
+[16] Dye, R., Reschovsky, A., 2007. Property Tax Responses to State Aid Cuts in the Recent
+Fiscal Crisis. Working Paper.
+[17] Engelhardt, G., Kumar, A., 2007. Pensions and Household Wealth Accumulation. Working Paper.
+[18] Farnham, M., Sevak, P., 2006. State Fiscal Institutions and Empty-Nest Migration: Are
+Tiebout Voters Hobbled? Journal of Public Economics 90, 407-427.
+[19] Feinstein, J., McFadden, D., 1989. The Dynamics of Housing Demand by the Elderly.
+In: Wise, D. (Ed.). Economics of Aging. Chicago, IL: University of Chicago Press.
+
+37
+
+[20] Ferreira, F., 2005. You Can Take It With You: Proposition 13 Tax Benefits, Residential
+Mobility, and Willingness to Pay for Housing Amenities. Working Paper.
+[21] Finkelstein, A, 2007. E-Z Tax: Tax Salience and Tax Rates. NBER Working Paper
+#12924.
+[22] Hansen, C., Hausman J., Newey, W., 2006. Estimation with Many Instrumental Variables. Working Paper.
+[23] Hausman, J., 1978. Specification Tests in Econometrics. Econometrica 46 (6), 1273-1291.
+[24] Hausman, J., Wise, D., 1976. The Evaluation of Results from Truncated Samples: The
+New Jersey Income Maintenance Experiment. Annals of Economic and Social Measurement 5, 421-446.
+[25] Horowitz, J., 2001. The Bootstrap. In: Heckman, J., Leamer, E. (Eds.). Handbook of
+Econometrics, Vol. V. Amsterdam: North-Holland, 3159-3228.
+[26] Hoxby C., Kuziemko, I., 2004. Robin Hood and His Not-So-Merry Plan. NBER Working
+Paper #10722.
+[27] Imbens, G., Angrist, J., 1994. Identification and Estimation of Local Average Treatment
+Effects. Econometrica 62 (2), 467-475.
+[28] Longino, C., Crown, W., 1989. The Migration of Old Money. American Demographics
+11 (10), 28-31.
+[29] Lyons, K., Farkas, S., Johnson, N., 2007. The Property Tax Circuit Breaker: An Introduction and Survey of Current Programs. Center on Budget and Policy Priorities.
+[30] Mackey, S., Carter, K., 1994. State Tax Policy and Senior Citizens. Denver, CO: National Conference of State Legislatures, 2nd edition.
+[31] National Conference of State Legislatures, 2005. A Guide to Property Taxes: Series.
+[32] Poterba, J., 1992. Taxation and Housing: Old Questions, New Answers. American
+Economic Review 82 (2), 237-242.
+[33] Poterba, J., 1998. Demographic Change, Intergenerational Linkages, and Public Education. Americon Economic Review 88 (2), 315-320.
+[34] Rivers, D., Vuong, Q., 1988. Limited Information Estimators and Exogeneity Tests for
+Simultaneous Probit Models. Journal of Econometrics 39, 347-366.
+[35] Rosen, H., 1976. Taxes in a Labor Supply Model with Joint Wage-Hours Determination.
+Econometrica 44 (3), 485-507.
+[36] Seslen, T., 2005. Property Tax Abatement Programs: Does Relief Really Keep Grandma
+in Her Home? MIT dissertation.
+
+38
+
+[37] Silverstein, M., Angelelli, J., 1998. Older Parents’ Expectations of Moving Closer to
+Their Children. The Journals of Gerontology 53B (3), S153-S163.
+[38] Stock, J., Wright, J., Yogo, M., 2002. A Survey of Weak Instruments and Weak Identification in Generalized Method of Moments. Journal of Business and Economics Statistics
+20 (4), 518-529.
+[39] U.S. Advisory Commission on Intergovernmental Relations Information Report, February 1975. Property Tax Circuit-Breakers: Current Status and Policy Issues.
+[40] U.S. Advisory Commission on Intergovernmental Relations, 1992, 1994, and 1995. Significant Features of Fiscal Federalism.
+[41] Venti, S., Wise, D., 1989. Aging, Moving, and Housing Wealth. In: Wise, D. (Ed.).
+Economics of Aging. Chicago, IL: University of Chicago Press.
+[42] Venti, S., Wise, D., 1990. But They Don’t Want to Reduce Housing Equity. In: Wise,
+D. (Ed.). Issues in Economics of Aging. Chicago, IL: University of Chicago Press.
+[43] Venti, S., Wise, D., 2001. Aging and Housing Equity: Another Look. NBER Working
+Paper #8608.
+[44] Wasi, N., White, M., 2005. Property Tax Limitations and Mobility: The Lock-In Effect
+of California’s Proposition 13. NBER Working Paper #11108.
+[45] Woo, S., 2005. Tiebout Migration and Retirement of Older Workers. University of Wisconsin dissertation.
+[46] Zeldes, S., 1989. Consumption and Liquidity Constraints: An Empirical Investigation.
+Journal of Political Economy 97 (2), 305-346.
+
+39
+
+Table 1: Mobility and Homeownership of HRS Households
+A. Fraction of Homeowners Moving between
+Adjacent Waves
+Wave
+Mean
+SE
+No. Obs.
+1992-1994
+0.063
+0.004
+3641
+1994-1996
+0.082
+0.005
+2764
+1996-1998
+0.075
+0.005
+3264
+1998-2000
+0.092
+0.005
+3084
+2000-2002
+0.133
+0.006
+2851
+2002-2004
+0.119
+0.006
+2643
+
+Wave
+1992
+1994
+1996
+1998
+2000
+2002
+2004
+
+B. Tenure Distribution
+Homeowner
+Renter
+Other
+0.771
+0.194
+0.035
+0.788
+0.180
+0.031
+0.800
+0.177
+0.024
+0.804
+0.164
+0.032
+0.809
+0.157
+0.034
+0.817
+0.148
+0.035
+0.807
+0.147
+0.046
+
+From Own
+From Rent
+From Other
+
+C. Tenure Transition Matrix
+To Own(%) To Rent(%) To Other(%) No. Obs.
+80.66
+14.37
+4.97
+1909
+21.98
+70.68
+7.34
+1266
+22.87
+44.58
+32.54
+206
+
+No. Obs.
+6726
+5999
+5712
+5432
+5071
+4826
+4645
+
+Note: This table refers to HRS cohort (born between 1931 and 1941) households only. Household weights are used.
+
+40
+
+Table 2: Summary Statistics of Key Variables
+Mean Median
+Moved between Waves
+Fraction of Cross-State Moves
+
+0.09
+0.17
+
+Property Tax
+House Value
+Income
+Financial Wealth
+Having Mortgage or Home Loan
+
+1,756
+149,811
+63,776
+126,526
+0.46
+
+SD
+0.29
+0.38
+
+1,200
+2,693
+110,849 179,146
+41,900 102,144
+26,000 528,838
+0.50
+
+Age
+Male
+White
+Household Size
+Number of Children
+
+64.5
+0.52
+0.91
+2.25
+3.06
+
+9.8
+0.50
+0.29
+1.15
+1.93
+
+Less than High School
+High School Graduates
+Some College
+College Graduates
+
+0.22
+0.32
+0.22
+0.24
+
+0.41
+0.47
+0.42
+0.43
+
+Currently Working
+Currently Retired
+Currently Disabled
+Newly Retired
+
+0.43
+0.48
+0.02
+0.08
+
+0.49
+0.50
+0.13
+0.28
+
+Married
+Separated or Divorced
+Widowed
+Newly Widowed
+
+0.66
+0.12
+0.20
+0.02
+
+0.47
+0.32
+0.40
+0.14
+
+Recently Hospitalized
+
+0.30
+
+0.46
+
+Note: N = 29, 213. The sample is restricted to households who were
+homeowners in the current wave and who have valid data for all
+variables. Property tax, income, house value, and financial wealth
+are in 2000 dollars. Household weights are used.
+
+41
+
+Table 3: Property Tax Relief Benefit Formula Examples
+
+42
+
+State
+
+Formula Used For a Hypothetical Homeowner
+(year=2000, age=65, married, Income=$20,000, SSB=$10,000, HV=$100,000)
+
+FL
+
+0.5 × ET RF L × min(HV, 25000)
+
+$146
+
+CA
+
+0.01 × min(34000, HV ) × 0.96 × 34877−max(Income,8719)
+34877−8719
+
+$186
+
+MI
+
+min(1200, max(0, ET RM I × HV − 0.035 × Income))
+
+$536
+
+TX
+
+0.7 × ET RT X × min(HV − min(HV, 15000), 10000)
+
+$119
+
+NY
+
+0.5 × ET RN Y × min(HV − min(HV, 10000), 40000)
+
+$367
+
+IL
+
+ET RIL × min(HV, 6000)
+
+
+,
+max(0,
+ET
+R
+×
+HV
+−
+0.035
+×
+Income)
++ min 700 − 630 × min(Income,14000)
+IL
+14000
+
+$166
+
+PA
+
+
+
+
+min ET RP A × HV, 500 × 1 − max(Income−0.5×SSB,5500)−5500
+15000−5500
+
+$0
+
+NJ
+
+250 × (Income − SSB ≤ 10000)
++ max(150, min(750, ET RN J × HV − 0.05 × Income))
+
+$1000
+
+0.5 × ET RGA × min(HV, 10000) + 0.5 × ET RGA × min(HV, 25000)
+
+$150
+
+GA
+
+Benefit
+
+
+
+× Income
+$510
+MN
+min 510, 0.5 × max 0, ET RM N × HV − 0.01 + 0.03 × Income
+71700
+Note: ET R is the state-year specific average effective property tax rate. HV is house value. SSB is Social
+Security benefit. Benefits shown here refer to eligible benefits from state-provided homestead exemptions,
+homestead credits, and circuit-breakers.
+
+Table 4: Property Tax Relief Program Benefits
+Eligible Benefits
+
+Simulated Benefits
+
+Percentage Conditional
+Eligible
+Avg Benefit
+(1)
+(2)
+
+Percentage Conditional
+Eligible
+Avg Benefit
+(3)
+(4)
+
+5%
+6%
+13%
+45%
+53%
+
+A. By Age Groups
+363
+6%
+382
+7%
+332
+14%
+313
+45%
+350
+53%
+
+248
+262
+274
+305
+319
+
+Lowest
+2nd Quintile
+3rd Quintile
+4th Quintile
+Highest
+
+55%
+33%
+18%
+11%
+5%
+
+B. By Income Quintiles
+359
+34%
+338
+31%
+330
+26%
+300
+20%
+158
+16%
+
+275
+294
+287
+283
+281
+
+Lowest
+2nd Quintile
+3rd Quintile
+4th Quintile
+Highest
+
+34%
+25%
+23%
+22%
+15%
+
+C. By House Value Quintiles
+187
+29%
+272
+25%
+380
+25%
+427
+24%
+458
+23%
+
+253
+272
+230
+302
+285
+
+age<55
+55-59
+60-64
+65-74
+≥75
+
+Note: All dollar amounts are in 2000 dollars. Eligible benefits are calculated
+based on individual homeowners’ characteristics. Simulated benefits are calculated by simulation for each state-age-year cell. “Percentage Eligible” is
+the percentage of homeowners who are eligible for homestead exemptions,
+homestead credits, or circuit-breakers. “Conditional Avg Benefit” is the
+average benefit from homestead exemptions, homestead credits, and circuitbreakers conditional on being eligible for these programs. Household weights
+are used.
+
+43
+
+Table 5: Effect of Property Taxes on Mobility - Probit Model
+Probit
+IV Probit
+(1)
+(2)
+Property Taxes (in 10,000)
+
+0.0065
+(0.0115)
+
+0.7624***
+(0.2692)
+
+Male
+
+0.0021
+(0.0060)
+0.0458***
+(0.0086)
+-0.0105***
+(0.0026)
+0.0070***
+(0.0013)
+-0.0363
+(0.0370)
+0.0391***
+(0.0131)
+-0.0186***
+(0.0064)
+0.0236***
+(0.0076)
+-0.0196**
+(0.0077)
+-0.0013
+(0.0098)
+0.0108**
+(0.0051)
+
+-0.0010
+(0.0067)
+0.0385***
+(0.0101)
+-0.0104***
+(0.0028)
+0.0070***
+(0.0014)
+-0.0413
+(0.0394)
+0.0453***
+(0.0140)
+-0.0264***
+(0.0076)
+0.0129
+(0.0114)
+-0.0188*
+(0.0101)
+0.0052
+(0.0109)
+0.0096
+(0.0060)
+
+White
+Household Size
+Number of Children
+Married
+Newly Widowed
+Currently Working
+Newly Retired
+Spouse Currently Working
+Spouse Newly Retired
+Recently Hospitalized
+
+Hausman Test
+(Coef on first-stage residual v̂)
+
+-4.1179***
+(1.3602)
+
+First Stage F-Stat
+Concentration Parameter
+
+43
+126
+
+Note: This table reports marginal effects derived from estimates of equation (1).
+N = 22, 250. In addition to the variables shown in the table, the regressions also
+include income quintile dummies, house value quintile dummies, financial wealth
+quintile dummies, age dummies, spouse age dummies, states fixed effects and
+^itist and binary variables
+year fixed effects. The simulated benefit measure Benef
+V alueF reezeist and T axF reezeist are used as instruments in the IV specification.
+Marginal effects shown are weighted averages across the population. Standard errors are bootstrapped by 500 random draws with replacement clustered at state
+level. Household weights are used. ***, **, * denote significance at the 1%, 5%,
+44
+and 10% levels respectively.
+
+Table 6: Effect of Property Taxes on Mobility - Probit, Random Effect Probit, and LPM
+Probit
+
+Property Taxes
+(in 10,000)
+
+45
+
+Hausman Test
+(Coef on first-stage residual v̂)
+
+(1)
+
+IV
+(2)
+
+0.0065
+(0.0115)
+
+0.7624***
+(0.2692)
+-4.0079***
+(1.3602)
+
+RE Probit
+IV
+(3)
+(4)
+0.0046
+(0.0054)
+
+0.7260**
+(0.2901)
+
+LPM
+(5)
+
+IV
+(6)
+
+0.0068 0.6058**
+(0.0095) (0.2398)
+
+-4.9617***
+(1.7912)
+
+Note: N = 22, 250. In addition to the variables shown in the table, the regressions also include income
+quintile dummies, house value quintile dummies, financial wealth quintile dummies, male, white, household
+size, number of children, whether married, whether newly widowed, education categories, whether currently
+working, whether newly retired, whether spouse is currently working, whether spouse is newly retired, whether
+hospitalized, age dummies, spouse age dummies, state fixed effects, and year fixed effects. The simulated
+^itist and binary variables V alueF reezeist and T axF reezeist are used as instruments in
+benefit measure Benef
+the IV specifications. Marginal effects shown are weighted averages across the population. Standard errors in
+column (1)-(4) are bootstrapped with 500 random draws with replacement clustered at state level. Standard
+errors in column (5) and (6) are clustered at state level. Household weights are used. ***, **, * denote
+significance at the 1%, 5%, and 10% levels respectively.
+
+Table 7: Effect of Property Taxes on Mobility - Robustness Checks
+
+Orig. Sample
+IV
+(1)
+(2)
+Property Taxes
+(in 10,000)
+N
+
+0.0065 0.7624***
+(0.0115) (0.2692)
+22,520
+22,520
+
+A. Various Sub-Samples
+Drop AHEAD
+Drop CA
+IV
+IV
+(3)
+(4)
+(5)
+(6)
+0.0039 0.7565**
+(0.0124) (0.3172)
+17,082
+17,082
+
+0.0010 0.7697***
+(0.0114) (0.2590)
+19,963
+19,963
+
+Drop Freq. Movers
+IV
+(7)
+(8)
+0.0084
+(0.0098)
+21,691
+
+0.7676***
+(0.2670)
+21,691
+
+46
+
+B. Add Two-Way Interaction Fixed Effects
+Orig. Specification
+Add State*Year
+Add Year*Age
+Add State*Age
+IV
+IV
+IV
+IV
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+Property Taxes
+(in 10,000)
+N
+
+0.0065 0.7624***
+(0.0115) (0.2692)
+22,520
+22,520
+
+0.0054 0.5242**
+(0.0117) (0.2649)
+22,520
+22,520
+
+0.0057 0.7726***
+(0.0120) (0.2555)
+22,520
+22,520
+
+0.0091
+(0.0206)
+22,520
+
+0.8716*
+(0.4570)
+22,520
+
+Note: This table reports the robustness checks of equation (1). In addition to the variables shown in the table, the regressions
+also include income quintile dummies, house value quintile dummies, financial wealth quintile dummies, male, white, household size, number of children, whether married, whether newly widowed, education categories, whether currently working,
+whether newly retired, whether spouse is currently working, whether spouse is newly retired, whether hospitalized, age dum^itist and binary
+mies, spouse age dummies, state fixed effects, and year fixed effects. The simulated benefit measure Benef
+variables V alueF reezeist and T axF reezeist are used as instruments in the IV specification. Marginal effects shown are
+weighted averages across the population. Standard errors are bootstrapped by 500 random draws with replacement clustered
+at state level. Household weights are used. ***, **, * denote significance at the 1%, 5%, and 10% levels respectively.
+
+Table 8: Interaction between ETR and House Price Appreciation Rates
+
+ET Rist × hmt
+ET Rist
+hmt
+
+Probit
+(1)
+
+IV Probit
+(2)
+
+OLS
+(3)
+
+0.031
+0.053
+0.181
+(0.303)
+-0.042
+(0.087)
+
+0.235**
+(0.107)
+2.81
+(2.70)
+-0.262*
+(0.137)
+
+0.026
+0.234**
+(0.082) (0.093)
+0.169
+2.93
+(0.276)
+(2.90)
+-0.036 -0.260**
+(0.142) (0.102)
+
+Hausman Test
+(Coef on first-stage residual v̂1 )
+
+-1.67***
+(0.52)
+-15.5
+(19.0)
+
+(Coef on first-stage residual v̂2 )
+
+N
+
+2SLS
+(4)
+
+29,102
+
+29,102
+
+29,102
+
+29,102
+
+Note: This table reports marginal effects derived from estimates of equation 3. In
+addition to the variables shown in the table, the regressions also include income
+quintile dummies, house value quintile dummies, financial wealth quintile dummies,
+male, white, household size, number of children, whether married, whether newly
+widowed, education categories, whether currently working, whether newly retired,
+whether spouse is currently working, whether spouse is newly retired, whether hospitalized,age dummies, spouse age dummies, states fixed effects and year fixed effects.
+hmt is MSA level housing value appreciation rates. State effective tax rate ET Rst
+and the interaction between ET Rst and hmt are used as instruments for ET Rist and
+ET Rist × hmt in the IV specifications. Marginal effects shown are weighted averages
+across the population. Standard errors in column (1) and (2) are bootstrapped by
+500 random draws with replacement clustered at state level. Standard errors in
+column (3) and (4) are clustered at state level. Household weights are used. ***,
+**, * denote significance at the 1%, 5%, and 10% levels respectively.
+
+47
+
+

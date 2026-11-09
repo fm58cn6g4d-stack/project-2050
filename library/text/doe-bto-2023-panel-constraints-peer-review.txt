@@ -1,0 +1,665 @@
+Source: https://www.energy.gov/sites/default/files/2023-07/bto-peer-2023-32645-affordable-electrification-nrel-jin.pdf
+Publisher: U.S. Department of Energy
+Retrieved: 2026-11-09
+Original SHA-256: 628acb0896c39b3ff04c6a1978bea0dffc2c2314363e3fada164fc1ed91d2bd8
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Affordable and Equitable Residential Electrification
+Under Electrical Panel and Service Constraints
+
+Replace this green shape with photo(s) relevant to your project.
+
+National Renewable Energy Laboratory (NREL)
+PI: Xin Jin, Senior Research Engineer
+Xin.Jin@nrel.gov
+WBS #: 3.2.6.45
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+Lawrence Berkeley National Laboratory (LBNL)
+Co-PI: Iain Walker, Staff Scientist
+ISWalker@lbl.gov
+WBS #: 3.2.6.49
+1
+
+Project Summary
+Objective and Outcome
+
+Problem &
+Solution
+Characterization
+
+Develop publicly available resources and tools to
+characterize residential electrical panel capacity
+constraints, and advance affordable and equitable
+solutions to electrify the U.S. housing stock under
+electrical panel and service constraints.
+
+Team and Partners
+National Laboratories: NREL, LBNL
+Practitioners: Efficiency Vermont, All-Electric
+California, Redwood Energy
+Manufacturers: e-Radio, Legrand, Atom Power
+Electric Utilities: Green Mountain Power,
+Washington Electric Co-op, Vermont Electric Co-op
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+Solution
+Development
+and Validation
+
+Affordable and Equitable
+Residential Electrification
+
+Market
+Transformation
+
+TechnoEconomic
+Analysis
+
+Stats
+Performance Period: 10/1/2023 – 9/30/2025
+DOE Budget: $2M, Cost Share: $15k
+Key Milestone 1: Evaluate at least five commercially
+available technologies for load control (Go/No-Go Decision
+Point, 9/30/2023)
+Key Milestone 2: Guidance documents for local code
+authorities and contractors on minimizing the cost of safe
+home electrification (End of Project Milestone, 9/30/2024)
+
+2
+
+Team
+Core Team
+
+Xin Jin
+PI
+NREL
+
+Lixi Liu
+ResStock and technoeconomic analysis
+NREL
+
+Omkar Ghatpande
+Jing Wang
+Digital capacity management Load control assessment
+NREL
+NREL
+
+Iain Walker
+Co-PI
+LBNL
+
+Alan Meier
+Citizen science
+LBNL
+
+Brennan Less
+Data-driven analysis
+LBNL
+
+Yingli Lou
+Model-based analysis
+NREL
+
+Ilan Upfal
+Solution characterization
+NREL (SULI Intern)
+
+Bruce Nordman
+Sean Murphy
+Digital capacity management Data-driven analysis
+LBNL
+LBNL
+
+Jeff Deason
+Techno-economic analysis
+LBNL
+
+Industry Partners
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+3
+
+Problem
+• Decarbonization of homes will require electrification of currently fuel-fired end uses and introduce
+new electric end uses such as electric vehicles and heat pumps.
+• In many cases, low-capacity and space-limited panels in vintage homes cannot accommodate the
+new loads according to the current rules in the National Electrical Code (NEC)—about 21% of U.S.
+homes have 100-A or less panel capacity and 44% of homes have two or less open breaker slots in
+their panels. Older and smaller homes are much more likely to have 100-A panels.
+• Due to long wait times or high costs, upgrading electrical panels is not always feasible—especially
+for low-income families—and there are upstream impacts on the distribution grid. Electrical panel
+and service upgrades may cost customer $2,000-$30,000 and take a few months to carry out due
+to labor storages and utility coordination.
+• There are very few existing studies that characterize the challenge or identify potential solutions.
+• NREL and LBNL, along with industry partners, will characterize the panel capacity problem to inform
+future policy and program design, identify and evaluate low-cost solutions, and propose changes to
+NEC to advance affordable and equitable electrification.
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+4
+
+Alignment and Impact
+This project will accelerate building electrification and support rapid decarbonization of the U.S.
+residential building stock to the meet the goal of economy-wide net-zero emissions by 2050.
+Impacts include:
+• Improved estimates to better inform electrification policies and program design. Estimates include the
+number of U.S. homes within the 123 million total dwelling units that may need panel upgrades and
+the number of homes that could avoid panel upgrades with efficiency or load control solutions.
+• Guidance for homeowners, contractors, and other stakeholders on how to select from the 50+
+existing products to electrify homes under the current NEC without panel upgrades.
+• A system architecture for digital capacity management to overcome gaps in existing solutions and
+utilize all rated power capacity. Embody the technology in open industry technology standards.
+• Proposed changes in future NFPA 70 NEC provisions and facilitate the adoption by local authorities
+and practitioners.
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+5
+
+Approach – Overview
+1. Characterize the
+Problem
+• Citizen science
+panel survey
+• Data-driven peak
+load analysis
+• Model-based
+national scale
+analysis (ResStock)
+
+2. Characterize
+Current
+Solutions
+• Evaluate the
+functionality and
+cost of existing
+solutions
+• Assess potential of
+load control
+
+• Industry data
+gathering
+
+• Field survey and
+workforce
+outreach
+
+POP: Q1—Q3
+
+POP: Q2—Q4
+
+U.S. DEPARTMENT OF ENERGY
+
+3. Solution
+Development
+and Validation
+• Architecture
+design
+
+4. TechnoEconomic
+Analysis
+
+5. Market
+Transformation
+• Proposed changes
+and interpretation
+of the NEC
+
+• Possible paths to
+market
+
+• Framework for
+analysis at the
+building scale
+• Scale up to the
+U.S. residential
+building stock
+• Estimate impact of
+NEC revisions
+• Dissemination
+
+POP: Q3—Q7
+
+POP: Q4—Q8
+
+POP: Q6—Q8
+
+• Development of
+the digital
+capacity
+management
+solution
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+• Development of
+resources and
+tools for
+homeowners,
+code officials, and
+practitioners
+
+6
+
+Approach – Hybrid Method to Characterize the Panel Capacity Problem
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+7
+
+Approach – Hybrid Method to Characterize the Panel Capacity Problem
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+8
+
+Approach – Hybrid Method to Characterize the Panel Capacity Problem
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+9
+
+Approach – Hybrid Method to Characterize the Panel Capacity Problem
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+10
+
+Approach – Hybrid Method to Characterize the Panel Capacity Problem
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+11
+
+Approach – Characterize Current Solutions
+Evaluate existing solutions
+•Review use cases, evaluate functionality, and collect cost information
+
+Assess load control solutions
+•Model load control solutions and perform simulation-based assessment
+
+Document case study
+•Partner with practitioners to document case studies and disseminate with stakeholders
+Example Solutions for Avoiding Panel or Service Upgrade
+
+Circuit-sharing device
+NeoCharge Smart Splitter.
+https://getneocharge.com/products/neochargesmart-splitter?variant=41833619325123
+
+U.S. DEPARTMENT OF ENERGY
+
+Smart breaker
+Eaton Smart Breakers. https://www.eaton.com/us/enus/catalog/electrical-circuit-protection/energymanagement-circuit-breaker.html
+
+Meter collar
+
+Lower power appliance
+
+ConnectDER Meter Collar.
+https://connectder.com/plug-play-solar/
+
+Rheem Performance Platinum Plug-in Heat Pump
+https://hotwatersolutionsnw.org/partners/news/120-volt-heatpump-water-heater-product-overview
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+Digital capacity management
+12
+
+Approach – Digital Capacity Management
+Design
+architecture for
+digital capacity
+management
+
+Develop an
+advanced solution
+for full-scale digital
+capacity
+management
+
+Construct a
+prototype and
+conduct laboratory
+validation
+
+Describe possible
+paths to market
+
+• A novel system to depower non-critical loads
+when an electrical panel capacity limit is
+neared or breached, before the circuit
+overcurrent protection trips any breakers.
+• Sensors and controllers can be in the
+circuits or in the appliances; a simple
+communication hub will be needed.
+• A future open technology standard for
+manufacturers to create interoperable
+devices, as they do for many IT ecosystems.
+Concept diagram of the digital capacity management solution for powering and
+controlling large electrical end uses with different configurations
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+13
+
+Approach – Techno-Economic Analysis of Alternatives
+•Build a framework to compare alternative solutions to panel/service upgrades.
+Analysis •Select the least-cost alternative to enable electrification given specific building characteristics.
+
+Scale
+
+•Scale results to the entire U.S. residential building stock by using ResStock.
+•Assess how the least-cost alternatives vary across building characteristics and geographic factors.
+•Evaluate impacts across building types, levels of current capacity, and regional NEC requirements.
+
+•Determine how availability of low-cost solutions and NEC revisions could accelerate adoption of
+building electrification measures.
+Code
+Revision •Estimate regional and national impact that could be unlocked by suggested NEC revisions.
+•Publish results with a substantial focus on implications for disadvantaged communities.
+Dissemin •Document findings to support NEC revisions.
+ation
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+14
+
+Approach – Market Transformation
+Propose changes and interpretation of the NEC :
+• NEC is a safety-first code and is based on many assumptions about how loads will
+draw power and how their usage will be correlated.
+• Our suggested revisions, based on data from millions of homes, will accelerate
+home electrification without change in safety.
+• Suggested revisions will focus on sections that are relevant to decisions around
+panel sizing in existing dwellings undergoing renovation.
+Develop resources and tools for homeowners, code officials, and practitioners:
+• Many low-cost solutions do not have widespread acceptance because code
+officials and local jurisdictions are not familiar with these technologies.
+• The proposed project will give local authorities and practitioners confidence in
+adopting these unfamiliar provisions.
+• We will work with leading practitioners to develop freely available solution guides,
+calculation tools, and implementation guidance documents to simplify panel
+assessments and ensure the best use of existing panels.
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+NFPA 70 National Electrical Code:
+https://www.nfpa.org/codes-andstandards/all-codes-andstandards/list-of-codes-andstandards/detail?code=70
+
+15
+
+Progress – National Survey of Electrical Panel Capacities
+Approach:
+• Surveyed occupants of single-family homes on Amazon
+Mechanical Turk with a short questionnaire and
+requested photos of their electrical panels.
+Compensation of $2-$7/participant was provided.
+• Characteristics collected: location, floor area, building
+age, primary heating fuel, major electrical appliances,
+major gas appliances, existence of PV/battery/EV.
+
+Typical photos obtained through survey (whole panel and main)
+
+Results:
+• Collected ~300 homes with legitimate data, covering
+most states and still receiving 1-2 homes/day.
+• About 60% of single-family homes have 200-A panels.
+• Gas-heated homes have panels with lower capacities
+than electrically heated homes.
+Submissions by zip code
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+16
+
+Progress – Data-Driven Estimation of Panel Capacities
+Develop a model that can predict panel amperage based on
+building characteristics and installed equipment.
+Methods
+• Construct a 20,000-household data set of panel amperage,
+building characteristics, and installed equipment
+• Standardize fields and values to align with ResStock
+• Build machine learning models to predict panel amperage
+• Characterize external validity by testing model on national
+Mechanical Turk survey data and comparing to reported
+regional and national panel amperage data
+Status
+• Data set construction and machine learning pipeline complete.
+• Tuning models to improve performance of predictions.
+• Applying the machine learning model to ResStock to characterize how panel amperage varies across building
+stock and enable estimates of the need of panel upgrades in electrification retrofits.
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+17
+
+Progress – Identifying Alternatives to Panel/Service Upgrades
+
+Load Reduction
+
+Load Shifting
+
+Low-power appliances,
+load shedding
+
+Battery energy storage
+system, batteryintegrated appliances
+
+Slot Saver
+
+Smart Controllers
+
+Circuit-sharing plugs,
+combined appliances,
+tandem circuit breakers
+
+Smart electric panels,
+smart circuit breakers,
+home energy
+management system
+
+• Four groups of solutions with 50+ existing products have been identified as alternatives to panel/service
+upgrades for home electrification.
+• Industry partners will summarize their first-hand experience of deploying those solutions in the field.
+• We will identify gaps that will lead to the development of new solutions.
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+18
+
+Progress – Architecture for Digital Capacity Management
+• Characterized modulation capabilities of
+residential loads
+• Defined detailed system operational architecture
+- Defined capabilities
+- Current/power sensing
+- State determination
+- Timing
+- Shedding and modulating loads
+
+NREL’s System Performance Laboratory with typical
+household appliance for evaluating the prototype for
+digital capacity management
+
+• Developing python code to implement the above
+architecture
+• Next steps include development of a prototype,
+initial evaluation at LBNL, and full-scale
+laboratory validation at NREL’s System
+Performance Laboratory
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+Photo by Dennis Schroeder / NREL
+
+19
+
+Progress – Field Data Analysis on Peak Demand
+Only positive values All values Only negative values
+
+6 kW
+
+Preliminary data
+
+15-minute data from 9,093 Vermont homes shows very
+little peak demand increase after cold climate heat
+pump upgrades (data source: VEIC, Efficiency Vermont)
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+Assess 15- and 60-minute peak demand with
+data from 14,000 homes to assess head
+room in panels for revisions in NEC 220.87
+20
+
+Progress – Potential Revisions in the National Electrical Code
+Examples of Suggested Revisions
+Current NEC
+
+Examples of Suggested Revisions
+
+Bottom-Up Load Calculation (section 220.83)
+•
+•
+•
+
+Has basic assumption for things like lighting loads (3W/ft2)
+New HVAC loads added at 100% of nameplate
+Other loads: 8 kW minimum + 40% thereafter
+
+•
+•
+
+New lighting loads (1.7W/ft2)
+All new loads added at 40% of nameplate
+
+•
+•
+
+Take 60-minute peak and add 6 kW to get 15-minute peak
+All new loads added at 40% of nameplate
+
+Data-Based Load Calculation (section 220.87)
+•
+•
+•
+
+Uses metered data
+Highest hour from a year or highest 15 minutes in a month
+(that must contain operation of heating or cooling,
+whatever is higher)
+Multiplies by 1.25 and adds load at 100%
+
+Timing for Proposed NEC Revision
+• Need new revisions submitted by Sept. 2023 for 2026 code.
+• Revisions being reviewed by other industry partners with code development experience, such as New
+Buildings Institute and Peninsula Clean Energy.
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+21
+
+Future Work
+• Problem Characterization: Integrate data-driven models with ResStock to generate an
+improved estimate of the number of electrical panels that may need upgrade to support
+electrification.
+• Solution Characterization: Evaluate commercially available technologies for load control and
+identify gaps to inform the development of new solutions (Go/No-Go Decision Point).
+• Digital Capacity Management: Design and develop a solution for full-scale digital capacity
+management, construct a prototype, and conduct laboratory validation.
+• Techno-Economic Analysis of Alternatives: Compare the cost-effectiveness of technologies for
+avoiding panel upgrades at building scale and then scale to the entire U.S. res. building stock.
+• Market Transformation: Develop guidance documents for local code authorities and
+contractors on minimizing the cost of safe home electrification (End of Project Deliverable)
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+22
+
+Thank You
+NREL and LBNL
+Xin Jin (PI), Senior Research Engineer, Xin.Jin@nrel.gov
+Iain Walker (Co-PI), Staff Scientist, ISWalker@lbl.gov
+WBS #: 3.2.6.45 (NREL), 3.2.6.49 (LBNL)
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+23
+
+REFERENCE SLIDES
+
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+24
+
+Project Execution
+Planned budget
+Spent budget (as of 3/31/2023)
+Past Work
+Q1 Milestone: Citizen science panel characterization
+Q2 Milestone: Methodology for data-driven and model-based characterization of panel
+capacity constraints
+Current/Future Work
+Q3 Milestone: Review and evaluate low-power electrification solutions
+Q4 Milestone: Capacity management and system achitecture design
+Go/No-Go Decision Point: Evaluate at least 5 commercially available technologies for
+load control and identify gaps.
+Q1 Milestone: Simulation framework for evaluating least-cost solutions
+Q2 Milestone: Technoeconomic analysis and least-cost solutions
+Q3 Milestone: Impact of alternative solutions and potnetial NEC revision
+Q4 Milestone: Guidance document for minimizing the cost of safe home electrification
+U.S. DEPARTMENT OF ENERGY
+
+OFFICE OF ENERGY EFFICIENCY & RENEWABLE ENERGY
+
+FY2023
+FY2024
+$1M
+$1M
+$362,078
+Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4
+
+25
+
+

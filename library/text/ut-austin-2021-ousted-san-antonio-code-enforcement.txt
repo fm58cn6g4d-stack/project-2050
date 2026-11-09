@@ -1,0 +1,2268 @@
+Source: https://law.utexas.edu/wp-content/uploads/sites/11/2021/11/2021-ECDC-CodeEnforcement-SA-Report.pdf
+Publisher: The University of Texas at Austin School of Law, Entrepreneurship and Community Development Clinic
+Retrieved: 2026-11-09
+Original SHA-256: ef9bda28eafb19a6f50225deb42d25ce4920dd3c365c3e3034ee0f896261487f
+Rights: CC BY-NC-SA 3.0 US
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Ousted:
+The City of San Antonio’s
+Displacement of Residents through
+Code Enforcement Actions
+
+Authors:
+Heather K. Way,
+Abbey Judd,
+and Ottilia Willis
+November 2021
+
+This report reflects the research and views of the individual authors only. It does not represent the
+views of The University of Texas School of Law or The University of Texas at Austin.
+Ousted: The City of San Antonio’s Displacement of Residents through Code 		
+Enforcement Actions
+© Heather K. Way
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License; https://creativecommons.org/licenses/by-nc-sa/4.0/.
+
+For permission beyond the scope of this license, please contact:
+The Entrepreneurship and Community Development Clinic
+The University of Texas School of Law
+727 East Dean Keeton Street
+Austin, Texas 78705
+Ecdc@law.utexas.edu
+https://law.utexas.edu/clinics/ecdc/
+For electronic access to the report, visit https://law.utexas.edu/clinics/ecdc/publications/.
+
+2 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+TABLE OF CONTENTS
+Acknowledgements............................................................................................................................................................. 5
+Executive Summary............................................................................................................................................................. 6
+Introduction............................................................................................................................................................................ 9
+Part One: Overview of San Antonio’s Ordinances, Policies, and Practices for
+Evicting Residents through Code Enforcement Actions....................................................................................... 10
+Part Two: Spatial Analysis of the City’s Orders to Vacate and Demolish Homes......................................... 16
+Part Three. Comparative Analysis of Displacement through Code Enforcement
+Actions in Texas’ Largest Cities...................................................................................................................................... 27
+Part Four. Relocation and Home Repair Assistance Programs for Vulnerable Residents......................... 31
+Part Five. Findings and Recommendations................................................................................................................ 34
+Appendix................................................................................................................................................................................. 39
+App. 1: Code Compliance Targeted Area Sweeps 2015-2020 in San Antonio......................................................... 39
+App. 2: City of San Antonio Demolition Orders for Single-Family Homes, 2015-2020......................................... 40
+App. 3: City of San Antonio Orders to Vacate for Occupied Single-Family Homes, 2015-2020......................... 41
+App. 4: Notice to Vacate...................................................................................................................................................... 42
+App. 5: City of San Antonio Vacate and Demolition Orders for Single-Family Homes, 2015-2020,
+by Median Household Income............................................................................................................................................. 44
+App. 6: City of San Antonio Vacate and Demolition Orders for Single-Family Homes, 2015-2020,
+by Percent Hispanic/Latino.................................................................................................................................................. 45
+App. 7: City of San Antonio Vacate and Demolition Orders for Single-Family Homes, 2015-2020,
+by Percent Black/African American................................................................................................................................... 46
+App. 8: Near Westside and Near Eastside Clusters: Census Tracts with Highest Rates of Orders
+to Vacate and Demolish Single-Family Homes, 2015-2020.......................................................................................... 47
+Endnotes................................................................................................................................................................................. 48
+Figures
+Fig. 1. Building and Standards Board: Vacate and Demolition Orders...................................................................... 12
+Fig. 2. City of San Antonio: BSB Orders, DSD Emergency Orders, and Hold Harmless Agreements
+for the Demolition of Single-Family Residences, 2015-2020........................................................................................ 13
+Fig. 3. Orders to Vacate for Residential Properties by City of San Antonio Code
+Enforcement Staff versus Building and Standards Board, FY 2015-2020.................................................................. 14
+Fig. 4. City of San Antonio Orders to Vacate, Orders to Demolish, and Hold Harmless
+Demolition Agreements for Single-Family Residences by Council District, 2015-2020......................................... 17
+Fig. 5. City of San Antonio Orders to Vacate Single-Family Homes by City Council District, 2015-2020......... 17
+Fig. 6. Concentration of City of San Antonio Orders to Vacate from 2015-2020 in Neighborhoods
+with a High Percentage of Hispanic/Latino Residents.................................................................................................. 18
+Fig. 7. Census Tracts with Highest Total Number of Orders to Vacate and Demolish
+Single-Family Homes, 2015-2020 ...................................................................................................................................... 21
+Fig. 8. Comparing San Antonio Vacate and Demolition Orders (2015-2020)
+with Historic Redlining Maps (1935)................................................................................................................................... 22
+Fig. 9. Near Westside Cluster: Census Tracts with Highest Rates of Orders to Vacate and Demolish
+Single-Family Homes, 2015-2020....................................................................................................................................... 23
+Fig. 10 Near Westside Cluster: CoSA Redevelopment and Incentive Areas with Orders to Vacate
+and Demolish Single-Family Homes, 2015-2020............................................................................................................. 24
+Fig. 11. Near Eastside Cluster: Census Tracts with Highest Rates of Orders to Vacate and Demolish
+Single-Family Homes, 2015-2020....................................................................................................................................... 25
+Fig. 12. Near Eastside Cluster: CoSA Redevelopment and Incentive Areas with Orders to Vacate
+and Demolish Single-Family Homes, 2015-2020............................................................................................................. 26
+Fig. 13. 2015-2020: City-Issued Orders to Vacate Single-Family Homes for Unsafe Housing Conditions........ 27
+
+3 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+TABLE OF CONTENTS (cont.)
+Tables
+Table 1: City of San Antonio Census Tracts with the Highest Total Number of Orders to
+Vacate and Demolish Single-Family Homes, 2015-2020............................................................................................... 16
+Table 2: Demographics of the Census Tracts in the Near Westside Cluster of Orders to Vacate ..................... 18
+Table 3: Demographics of the Census Tracts in the Near Eastside Cluster of Orders to Vacate........................ 20
+Table 4: City Authority to Issue an Order to Vacate for a Legally-Occupied Structure without a Hearing....... 28
+Table 5: City-Issued Orders to Vacate Occupied Single-Family Residences for Unsafe Housing
+Conditions, 2015-2020........................................................................................................................................................... 28
+Table 6: Housing Repair Assistance from the City of San Antonio: 2015-2020 ..................................................... 33
+
+4 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Acknowledgements
+This report was made possible with the invaluable contributions of the following research assistants
+for the Entrepreneurship and Community Development Clinic: Abbey Judd, a 2021 M.S. graduate
+from Community Regional Planning Program at UT Austin; Ottilia Willis, a current graduate student
+in the same program; and Andrew Coleman, a law student at The University of Texas School of Law.
+Many thanks to Mia Loseff at Texas Housers for her generous help over several months creating
+the maps in the report, and to Benjamin Vergil for his help with the code sweeps maps. Much
+appreciation also to Dr. Christine Drennon, Associate Professor at Trinity University, Professor
+Alisa C. Holahan with the UT Tarlton Law Library for her marvelous research assistance; Katy
+Byther for her assistance with the graphics and layout of the report; and Sarah Beach with the
+Entrepreneurship and Community Development Clinic for all her assistance tying up the loose ends
+for this report. And, finally, special thanks to the city staff across the state who responded to our
+many questions about their code enforcement operations.
+Some changes were made to this report in December 2021 to provide updates and clarifications
+to the information regarding city relocation assistance for single-family households impacted by a
+vacate order. Additional updates were made to the number of orders to vacate and demolish after
+identifying additional properties in the dataset we received from the City of San Antonio that were
+multifamily properties.
+We welcome your feedback on the report at ecdc@law.utexas.edu. For electronic access to the
+report, visit https://law.utexas.edu/clinics/ecdc/publications/.
+
+5 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Executive Summary
+In this report, we examine the City of San Antonio’s displacement of residents from their homes for
+code violations, with a focus on single-family residences. From 2015-2020, the City issued close to
+1,000 orders to vacate and orders to demolish single-family homes, including at least 607 orders for
+occupied homes. Residents who are displaced from their homes by these blunt code enforcement
+tools are among the city’s most vulnerable residents. With the loss of their homes and lack of access
+to relocation assistance, these residents face a perilous future, including a high risk of homelessness.
+In our research, we sought to better understand the City’s process for issuing these orders to vacate
+and demolish and how this process compares to other large cities in Texas. We also analyzed the
+locations of these orders and whether certain communities have been disproportionately impacted.
+And finally, we examined the types of city resources available to help residents receiving these
+orders.
+The following is a summary of our findings and recommendations.
+
+Findings
+
+1
+
+The City of San Antonio’s aggressive use of code enforcement tools
+that displace residents is unprecedented among large Texas cities.
+• In contrast to the City of San Antonio’s 607 orders to vacate and orders to demolish
+occupied single-family homes from 2015-2020, the cities of Houston, Dallas, Austin, and
+Fort Worth issued—combined—no more than 16 orders.
+
+2
+
+The City of San Antonio’s vacate and demolition orders are heavily
+concentrated in San Antonio’s lower-income communities of color
+within the urban core, near areas of rapid redevelopment incentivized
+by the government, and in areas that the City proactively targets
+through code enforcement sweeps.
+• Four out of the five census tracts with the highest number of vacate and demolition
+orders in San Antonio are located in the near westside of the city—an area where the
+ethnic makeup of residents is 94.6% Hispanic or Latino. This area has been subject to
+a number of redevelopment pressures and is adjacent to one of the largest economic
+development projects in the city, the UTSA campus expansion.
+• The second largest cluster of vacate and demolition orders is in the near eastside of
+the city, in neighborhoods that have historically been home to San Antonio’s AfricanAmerican community and are now experiencing rapid gentrification and economic
+development pressures.
+
+6 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+3
+
+The City of San Antonio routinely fails to provide residents with a due
+process hearing when ordering them to leave their homes for code
+violations or ordering the disconnection of their utilities.
+• From 2015-2020, San Antonio code enforcement officials issued single-family residents
+337 orders to vacate outside of a hearing process, in addition to an estimated 44
+emergency demolition orders.
+• The City of San Antonio is unique among its peer Texas cities in routinely bypassing the
+hearing process when issuing an order to vacate or demolish occupied single-family
+homes. Since 2015, none of the other five largest cities in Texas have issued such an
+order outside of a hearing process.
+
+4
+
+The City of San Antonio’s repair programs serve too few homeowners
+and contain too many barriers for low-income homeowners with
+substandard conditions to qualify for assistance.
+• The City of San Antonio’s program that assists with major home repairs and
+reconstruction served only 65 households in 2020.
+• Lacking clear title is a “quick dead end” to receiving city repair assistance. This barrier
+is especially problematic for the disproportionate number of Black and Hispanic
+homeowners in the city who inherited their homes from family members without a legal
+paper trail.
+
+5
+
+The City of San Antonio rarely provides relocation assistance to
+residents who receive a vacate or demolition order from the City, in
+violation of Texas law.
+• State law includes a clear mandate for cities to provide relocation advisory services
+and pay relocation assistance when displacing residents as a direct result of a code
+enforcement action.
+• Only 9 (4%) of the 208 single-family households who received a vacate order from
+the City of San Antonio outside the DART program from 2018 through 2020 received
+financial relocation assistance from the City.
+
+7 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Recommendations for the City of San Antonio
+Recommendation 1: The City of San Antonio should cease issuing vacate
+orders, emergency demolition orders, and utility disconnection orders outside of a
+judicial or quasi-judicial hearing process.
+Recommendation 2: Amend the City of San Antonio’s code to allow for
+
+the issuance of vacate and demolition orders for occupied residences only as a last
+resort when the residents are in imminent danger of serious bodily injury.
+
+Recommendation 3: Expand access to the City’s major and minor home
+
+repair programs.
+
+Recommendation 4: Develop a code enforcement program that
+advances racial justice and eliminates discriminatory code enforcement sweeps in
+neighborhoods with high concentrations of Latino and Black residents.
+Recommendation 5: Offer relocation assistance and counseling to all
+residents who receive a code-related order to vacate or demolish their residence
+from the City of San Antonio.
+Recommendation 6: Adopt a cooperative code compliance program that
+better supports vulnerable homeowners by helping them bring their homes into
+compliance with city code and, as needed, securing alternative housing.
+Recommendation 7: Provide low-income homeowners with a right to
+
+counsel in hearings where the City seeks an order to vacate or demolish their home.
+
+8 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Introduction
+This report examines the City of San Antonio’s displacement of residents from their homes through
+code enforcement actions, with a focus on the use of vacate and demolition orders for owneroccupied and renter-occupied single-family homes. From 2015-2020, the City issued close to 1,000
+orders to vacate and orders to demolish single-family homes with unsafe conditions, impacting
+residents in at least 548 occupied homes.1 These orders displaced both homeowners and renters,
+with vacate orders continuing throughout the COVID-19 pandemic.
+The City’s displacement of residents through code enforcement measures has wide-ranging social
+justice implications. When a family occupies an unsafe home, it’s typically because the family faces
+financial barriers in repairing their home and accessing alternative, safer housing that the family can
+afford. As a result, without substantial relocation assistance, the City’s orders to vacate and demolish
+homes, while eliminating one set of hazards, places many families in perilous conditions, including
+homelessness.
+As other research has found, housing displacement negatively impacts families in a myriad of ways.
+In addition to experiencing homelessness, many displaced families end up moving into poorer
+neighborhoods with less access to opportunities and are driven deeper into poverty. Children
+often have to switch schools, impacting their academic performance. And the traumatic impacts of
+displacement can have lasting mental health impacts.2
+The City’s vacate and demolition orders are also troubling because of their heavy concentration
+in the near westside and near eastside neighborhoods of the city where generations of Latino
+and Black residents have resided. While substandard housing conditions are prevalent in these
+neighborhoods—where many of the homes were built more than 70 years ago and incomes are
+far below the city median income—these conditions have also been shaped by “decades of public
+and private disinvestment and racially discriminatory laws and land use policies,” as noted in the
+Anti-Displacement Agenda for San Antonio.3 As noted in the same report, the City’s aggressive
+code enforcement actions in these neighborhoods could incentivize owners to sell to speculative
+purchasers, further exacerbating the gentrification pressures that many of these communities of
+color are experiencing.4
+In the first part of this report, we provide an overview of the City’s processes for displacing residents
+from their homes via orders to vacate and demolish, along with the frequency that these code
+enforcement tools are used. In Part Two, we examine the location of the City’s vacate and demolition
+orders and the two areas of the city where these orders are particularly concentrated. Part Three
+examines how other large Texas cities use orders to vacate and demolish in comparison to the City
+of San Antonio. Part Four examines the City’s relocation assistance and home repair assistance
+programs for vulnerable residents. Finally, in Part Five, we present the key findings from our research
+and recommendations for how the City of San Antonio could improve its policies to reduce the
+City’s displacement of vulnerable residents and, when residents are displaced, ensure that the
+displacement process is more just and fair to the impacted residents.
+
+9 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+PART ONE: Overview of San Antonio’s Ordinances, Policies,
+and Practices for Evicting Residents through Code
+Enforcement Actions
+The City of San Antonio’s Development Services Department (DSD) oversees enforcement of the
+City’s building and property maintenance codes, identifying potentially hazardous conditions in
+homes through both proactive and reactive code enforcement measures. Reactive code enforcement
+cases, which take up about 50% of the DSD’s time on code enforcement, according to city staff,
+typically arise through reports from neighbors and other individuals through 311, as well as through
+city council offices and other government agencies.
+Most code enforcement cases are the result of proactive code enforcement work performed by code
+enforcement officers, where the City identifies potential code violations by conducting drive-bys or
+periodic inspections of properties. The City of San Antonio has operated a number of proactive code
+enforcement programs over the past several years in targeted areas of the city or by type of property
+(such as mobile home parks). For example, within the DSD, the Neighborhood Enhancement Team
+has five code enforcement officers who conduct sweeps of areas to remove “blight” in the city’s main
+district corridors and inner-city reinvestment areas.5 The City also targets code enforcement actions
+in areas in response to neighborhood leader requests, councilmember requests, and special events
+in the area, especially those that may attract tourists, such as the Rock ‘n’ Roll Marathon or MLK
+March.
+When conducting sweeps of a neighborhood, the City’s code officers concentrate on identifying
+common code violations that are visible from the street of the targeted neighborhood, such as
+overgrown yards, junk vehicles, unsecured vacant homes, and abandoned houses.6 Until recently,
+this program was called the Neighborhood Sweeps program. See the map in Appendix 1 for the
+Neighborhood Enhancement Team’s targeted code enforcement sweep areas from 2015 to 2020.
+These sweeps by and large target neighborhoods that are disproportionately home to Latino and
+Black residents as well as low-income residents.
+The City’s code enforcement work is funded largely through the City’s general fund, which
+appropriated $14 million towards code enforcement in fiscal year 2021. In recent years the City has
+supplemented these general funds with a small amount of grant funds from the federal government’s
+Community Development Block grant program, which in fiscal year 2021, for example, paid for two
+code enforcement positions.
+
+Building and Standards Board: Orders to Vacate, Repair, or Demolish
+Chapter 6 of the City of San Antonio Code governs the City’s procedures for addressing dangerous
+buildings and structures. Chapter 6 authorizes the City to order the removal of residents from their
+home when the home is determined, via public hearing, to be dangerous to the health or safety of the
+occupants.7 Similarly, the City has authority to order the demolition of a home when it is determined,
+via public hearing, to be dilapidated, substandard, or unfit for human habitation and a hazard to
+public health, safety, or welfare.8 If the dangerous conditions can be feasibly repaired so that it will no
+longer be a danger, the City must first order that the house be repaired before ordering a demolition.9
+Demolition must be “regarded as a remedy of last resort.”10 Demolition orders for occupied
+residences include an order to vacate.
+
+10 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+The City of San Antonio’s Building and Standards Board (BSB), a quasi-judicial body composed
+of 14 members split into two panels, is charged with hearing the City’s cases involving dangerous
+structures and orders to vacate and demolish a home. These cases are brought when an owner has
+failed to remediate the dangerous conditions despite notices of violations and other interventions
+by code enforcement staff.11 Code enforcement cases take an average of 15 months from the initial
+assessment of the structure by city staff to initiating a hearing through the BSB.12
+Concurrently with preparing a case for the BSB, the DSD staff is required to notify the City’s historic
+preservation officer of the location of the structure and the nature of the code violations. The historic
+preservation officer then has 30 days to advise the BSB in writing whether the structure is a historic
+landmark or located in a historic district or, if neither, whether the structure has historical, cultural,
+architectural, or archaeological significance.13 For structures that the officer believes should be
+designated as landmarks, the historic and design review commission and the city council must
+concur in the decision within a certain timeframe in order for the property to be so designated.14 For
+structures designated as historic landmarks or within historic districts, the staff must present the
+demolition case to the historic design and review commission for a recommendation regarding the
+demolition of the structure. If the commission recommends the property not be demolished, then the
+case must be heard by both panels of the BSB.15
+The City of San Antonio is required to provide notice of a BSB hearing to the owner and any
+lienholders for the property.16 In the BSB hearings we observed, typically only the officers who
+inspected the home appear to testify; the property owners rarely appeared at the hearing. In one of
+the cases we observed, the neighborhood association testified against the demolition of the property.
+After the BSB sends notice of its order to the property owner, the owner has 30 days to appeal the
+order in district court.
+When ordering repairs, the BSB must give the homeowner 30 days to repair their home. However,
+the BSB can authorize more time if the owner or lienholder establishes at the hearing that the work
+cannot be reasonably preformed within 30 days. If the BSB gives the homeowner more than 30
+days, the BSB must establish specific time tables for the commencement and performance of the
+work.17 If the work cannot be reasonably completed within 90 days of the hearing, the BSB can allow
+additional time for the work as long as the owner or lienholder submits a detailed plan and time
+schedule for the work at the hearing. The owner is then required to regularly submit progress reports
+to the BSB demonstrating compliance with the workplan.18
+From 2015 to 2020, the BSB issued 442 orders to demolish through its hearing process for singlefamily residences, with at least 138 of these residences occupied in the year leading up to the order.
+Thirty of these residences had previously received an order to vacate by city staff; the remaining
+properties had not. In the same time period, the BSB issued 69 orders to vacate for occupied singlefamily residences; these orders to vacate were issued without a demolition order.
+Through our observation of recordings from a number of BSB hearings for dangerous building cases,
+it appears that homeowners in these cases are very rarely represented by legal counsel. We also
+observed several hearings where BSB members treated residents with disrespect and disdain, such
+as in the hearing on June 13, 2019 (at 56:47), when a resident explained that she did not have the
+financial means to make the repairs cited by code officials and that the repeated visits by city code
+enforcement staff were causing her stress. The board chair responded by chastising the resident with
+the following: “Ma’am, do you know how stressful it is for us to look at this property and know that
+human beings are living here? That’s very stressful on us too.”
+
+11 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Fig. 1. Building and Standards Board: Vacate and Demolition Orders
+BSB Orders to Vacate
+(not part of a demolition order)
+
+BSB Orders to Demolish
+
+100
+
+85
+
+82
+
+75
+
+80
+
+76
+
+62
+
+62
+
+60
+
+40
+
+26
+20
+
+0
+
+0
+2015
+
+12
+
+11
+
+2017
+
+2018
+
+18
+
+2
+2016
+
+2019
+
+2020
+
+Expedited and Emergency Cases to Vacate or Demolish a Residence
+BSB expedited cases: For cases where the City’s code compliance director determines there is
+“clear and imminent danger to the life, safety, or property of any person,” city code requires the
+director to commence procedures with the Building and Standards Board to expedite the vacation,
+repair, or demolition of the building.19 The director must also commence an expedited BSB hearing
+in cases where a dangerous structure is located within 1,000 feet of an elementary, middle, or high
+school or a state-recognized day care center. The director also has an option to ask the city attorney
+to seek a temporary restraining order (TRO) in district court authorizing emergency abatement of
+the dangerous structure.20 In expedited cases, the director must immediately notify the historical
+preservation officer of the case.21
+Fire Chief and DSD Director’s emergency vacate and demolition orders: The City of San
+Antonio Fire Chief and the Director of Development Services, and their designees, are each
+authorized to issue an emergency “vacate and demolition” order without going through the BSB
+or TRO hearing process when sudden acts, such as fire or water damage or structural defects
+arising from long-term deterioration, threaten the structural integrity of the building, such that there
+is “clear and imminent danger to the life, safety or property of any person unless the building is
+immediately demolished.”22 The emergency demolition must occur within 96 hours after the director
+of development services authorizes the demolition in writing.23 Notice of the emergency demolition
+decision must be sent to the office of historic preservation (OHP).24 As an alternative to issuing an
+emergency demolition order, the City may enter into a hold harmless agreement with the property
+owner, whereby the property owner agrees to allow the City to demolish the property without a
+demolition order. About 40 percent of the City’s demolition cases that go through the BSB end up
+with hold harmless agreements.
+Additional procedures govern the demolition process for homes that have undergone long-term
+deterioration and have also been designated as historic buildings or are located in a historic
+district.25 After receiving notice of an emergency demolition decision by the fire chief or director of
+Development Services, the Office of Historic Preservation has 72 hours to notify the San Antonio
+Conservation Society and the registered neighborhood association serving the area where the
+
+12 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+structure is located as well as determine the feasibility of securing and stabilizing the structure
+through consultation with the property owner, the historic and design review commissions, and any
+other relevant city officials or commissions.26
+For these emergency demolition cases involving the long-term deterioration of a historic structure,
+an owner has 72 hours after notice of the order to present to the City a plan of action developed by
+a structural engineer to stabilize the structure.27 If the director of Development Services approves the
+plan, the plan must be implemented within 24 hours of approval. As long as the stabilization of the
+structure has begun within 24 hours of the director’s approval, the emergency demolition is put on
+hold and the structure must be scheduled for the next available hearing of the BSB.28
+From 2015 to 2020, the City’s DSD staff issued 84 emergency orders to demolish single-family
+residences, with at least 45 of these residences occupied in the year leading up to the order. The City
+also entered into 60 hold harmless agreements with property owners of single-family residences
+allowing the City to demolish the property. At least 18 of these properties were occupied in the year
+leading up to the agreement. See Appendix 2 for a map showing the location of all the City of San
+Antonio’s demolition cases for single-family homes, broken out by BSB orders, emergency orders by
+staff, and hold harmless agreements.
+
+Fig. 2. City of San Antonio: BSB Orders, DSD Emergency Orders, and Hold Harmless
+Agreements for the Demolition of Single-Family Residences, 2015-2020
+
+Type of City Action
+
+Total
+demolition
+orders/
+agreements
+
+Number of residences
+occupied in the year
+prior to the demolition
+order/agreement29
+
+Number of homes
+demolished as of
+end of 2020
+
+Demolition orders issued
+by the BSB
+
+442
+
+138
+
+353
+
+Emergency demolition
+orders issued by DSD staff
+
+84
+
+45
+
+81
+
+Hold harmless agreements
+for demolition of the
+property by the City
+
+60
+
+18
+
+60
+
+TOTALS
+
+592
+
+216
+
+500
+
+13 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Development Services Department: Orders to Vacate without a
+Hearing
+The DSD director and director’s designees have authority under the San Antonio Property
+Maintenance Code to bypass the BSB and order the occupants to vacate a property whenever a
+structure is a “threat to the public health, safety or welfare.”30 This broad authority includes instances
+in which a home is “unfit for human occupancy,” which is defined to include instances in which
+the structure is unsanitary, vermin infested, contains filth, lacks ventilation, illumination, or heating
+facilities.31 The notice of a vacate order must be posted in or about the structure and served on the
+owner of record.
+The Property Maintenance Code also allows the DSD director or designees to issue orders to
+vacate when there is an “imminent danger or when there is actual or potential danger to building
+occupants because of explosives, explosive fumes or vapors or the presence of toxic fumes, gases
+or materials, or operation of defective or dangerous equipment, or when the structure is found to be
+unfit for human occupancy.”32 The authority in this part of the city code does not apply to dangerous
+structures, which are covered under Chapter 6 of the city code.33
+The City of San Antonio regularly bypasses the BSB hearing process when ordering residents to
+vacate their homes on the grounds that their homes are a threat to the public health, safety, or
+welfare under the Property Maintenance Code. From 2015 to 2020, the City’s DSD staff issued 337
+orders to vacate to residents in single-family homes. Many of these homes were owner-occupied
+and about half of the homes receiving a vacate order had a homestead exemption.34 During this
+same time period, the City’s Building and Standards Board issued 69 orders to vacate. See Appendix
+3 for a map showing the location of all the City’s orders to vacate for occupied single-family homes,
+broken out by BSB orders and DSD staff orders.
+
+Fig. 3. Orders to Vacate for Residential Properties by City of San Antonio Code
+Enforcement Staff versus Building and Standards Board, FY 2015-202035*
+Orders to Vacate by City Staff
+
+Orders to Vacate by BSB
+101
+
+100
+
+75
+
+80
+
+61
+60
+
+49
+
+42
+40
+
+26
+20
+
+12
+
+9
+
+2
+
+0
+0
+
+2015
+
+2016
+
+2017
+
+18
+
+11
+2018
+
+2019
+
+2020
+
+*The orders to vacate included here are orders that were not part of a demolition order.
+
+14 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+The DSD staff orders, which typically include the title “Notice to Vacate,” are, in practical terms, an
+order, according to DSD staff. If the residents do not vacate in the time period required (typically 48
+to 72 hours), they are subject to a criminal conviction for a Class C misdemeanor with a fine of up to
+$2,000 for each day that the premises are not vacated. The following language from one of the vacate
+orders issued by DSD staff, which includes language explicitly ordering the resident to vacate the
+premises (see Appendix 4 for a full copy of the document), is typical of a DSD staff order:
+
+“The property shall be vacated and electrical services remain disconnected as ordered
+by the code official. Failure to vacate as ordered by the code official is a violation of the
+SAPMC. Because of these significant health and safety violations, all structures must be
+vacated within 48 hours upon the posting of this notice. Failure to vacate as ordered by
+the code official is punishable by fine upon conviction of up to $2,000 per violation. Each
+day a violation is permitted to exist shall constitute a separate offense.” (emphasis added)
+
+While these cases may include emergency situations justifying attempts to immediately remove
+residents from their home without time for a hearing, many of these cases do not warrant bypassing
+the hearing process and eliminating due process protections for the residents before they are
+displaced from their homes. In fact, according to city staff, the notices to vacate are routinely issued
+prior to taking a case to the BSB board, with the hope that the language in the vacate order will
+compel residents to bring their home into compliance with city code. If the owner fails to vacate or
+address the code violations at the property, the city staff may proceed with bringing the case to the BSB.
+We confirmed these practices in our review of orders to vacate issued by city staff in 2020. For
+example, in a case on Dawson Street, the city staff first issued an order to vacate, and then, when
+the resident did not vacate, the staff went to the BSB to seek an order to vacate from the Board two
+weeks later. In a case on Elmendorf (for lack of proper connections to city water services) and one on
+Bluegrass Run (for a water leak), the city staff similarly first sent an order to vacate, and then several
+days later went to the BSB to seek an order to vacate. In other cases, however, the city staff did not
+follow up with a hearing at the BSB, even when the resident remained in the home. For example, in
+a case on Flanders Street, the DSD staff issued an order to vacate, which was followed by another
+order to vacate from city staff several months later.
+DSD staff report that a homeowner has the right to appeal an order to vacate issued by city staff,
+but the orders that are delivered to the homeowners do not include any information about a right to
+appeal or the process for appealing the staff order.
+
+Utility Disconnections
+The City’s vacate orders are often coupled with a notice that the City is ordering the disconnection
+of all of the utilities at the property. San Antonio’s ordinances allow for the DSD director or the
+director’s designees to authorize the disconnection of utilities services to a home to eliminate “an
+immediate hazard to life or property” or when the connection has been made without the required
+authorization.36 No hearing is required before or after the disconnection takes place, and the notices
+regarding the disconnection order do not include any information about how a resident can appeal
+the disconnection decision.
+The utility disconnection orders were not the focus of our study, but it appears that the utility
+disconnections are used as additional leverage by the City to force residents to leave their homes
+without having to go through the BSB hearing process. This is an area where further research is needed.
+
+15 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+PART TWO: Spatial Analysis of the City’s Orders to Vacate
+and Demolish Homes
+As part of our study, we examined
+the locations of the City’s orders to
+vacate and demolish single-family
+homes from 2015 through 2020, along
+with the demographics of the areas
+where the orders are concentrated.38
+We found that both the vacate orders
+and the demolition orders have been
+heavily concentrated in San Antonio’s
+older and lower-income communities
+of color located within the urban
+core. For example, 65% of the
+Development Services Department’s
+orders to vacate for single-family
+homes from 2015-2020 were issued
+in a census tract with 80% or more
+Hispanic or Latino residents.
+
+Table 1: City of San Antonio Census Tracts with
+the Highest Total Number of Orders to Vacate and
+Demolish Single-Family Homes, 2015-202037
+Citywide rank
+
+Census Tract
+
+# of Orders
+
+1
+
+1703
+
+35
+
+2
+
+1704.01
+
+29
+
+3 (tie)
+
+1701.02
+
+28
+
+3 (tie)
+
+1919
+
+28
+
+5
+
+1702
+
+23
+
+6
+
+1707
+
+22
+
+7 (tie)
+
+1505.01
+
+19
+
+7 (tie)
+
+1606
+
+19
+
+9 (tie)
+
+1503
+
+16
+
+Four out the five census tracts with
+9 (tie)
+1701.01
+16
+the highest number of vacate and
+demolition orders are all located in
+the Near Westside of the city, in tracts where the percentage of Hispanic or Latino residents is 85%
+or higher. See Figure 7 for the location of all of the City’s vacate and demolition orders for singlefamily residences from 2015-2020, including the census tracts with the highest concentration of
+orders. See Appendices 5-7 for maps overlaying the race, ethnicity, and income of residents by
+census tract with the location of the City’s orders to vacate and demolish.
+Council District 5, which includes the neighborhoods immediately west of downtown, has seen by far
+the highest number of vacate and demolition orders from 2015-2020, with 299 orders.39 The council
+districts with the next highest number of vacate and demolition orders were districts 2, 1, and 3, with
+186, 181, and 144 orders, respectively.
+The neighborhoods with the highest concentration of demolition and vacate orders—particularly
+those on the westside and eastside of the city—are the same neighborhoods that have historically
+been shaped by decades of public and private disinvestment and racially discriminatory policies
+and laws, such as bank redlining.40 To visualize this relationship, we overlaid the City’s recent
+orders to vacate and demolish with the Home Owners’ Loan Corporation (HOLC) 1935 “grading”
+of neighborhoods for the City of San Antonio, which was used to assess the level of security for
+mortgages and real estate investments in a neighborhood and which correlated in large part with
+a neighborhood’s racial and ethnic makeup.41 See Figure 8. The areas of San Antonio with the
+largest clusters of orders to vacate and demolish are located in areas that the HOLC designated as
+“definitely declining” (yellow) and “hazardous” (red).
+
+16 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Fig. 4. City of San Antonio Orders to Vacate, Orders to Demolish, and Hold Harmless
+Demolition Agreements for Single-Family Residences by Council District, 2015-2020
+299
+
+300
+250
+200
+
+186
+
+181
+
+144
+
+150
+100
+
+51
+
+50
+
+47
+
+48
+16
+
+0
+CD1
+
+CD2
+
+CD3
+
+CD4
+
+CD5
+
+CD6
+
+CD7
+
+CD8
+
+21
+
+5
+CD9
+
+CD10
+
+Fig. 5. City of San Antonio Orders to Vacate Single-Family Homes
+by City Council District, 2015-2020
+85
+
+CD1
+
+77
+
+CD2
+
+68
+
+CD3
+
+14
+
+CD4
+
+114
+
+CD5
+
+13
+
+CD6
+
+27
+
+CD7
+
+12
+
+CD8
+
+0
+
+CD9
+CD10
+0
+
+7
+20
+
+40
+2015
+
+60
+2016
+
+2017
+
+80
+2018
+
+2019
+
+100
+
+120
+
+2020
+
+17 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Cluster Analysis
+In our research, we sought to identify whether
+there are higher concentrations, or clusters, of
+vacate and demolition orders for single-family
+homes within certain neighborhoods of San
+Antonio by examining the disbursement of these
+orders from 2015 to 2020 across census tracts
+compared to the percentage of single-family
+homes within each census tract.42 Through this
+analysis we identified two especially notable
+clusters of orders. See Appendix 8. The two
+clusters heavily overlap with neighborhoods the
+City has been proactively targeting through the
+City’s code enforcement sweeps programs.
+
+Fig. 6. Concentration of City of San
+Antonio Orders to Vacate from 2015-2020 in
+Neighborhoods with a High Percentage of
+Hispanic/Latino Residents
+% of orders issued in a census tract with
+80% or more Hispanic/Latino residents
+
+65%
+
+68%
+
+Development Services
+Department:
+Orders to Vacate
+
+Building and
+Standards Board:
+Orders to Vacate
+
+When conducting sweeps of a neighborhood, the
+City’s code officers concentrate on identifying
+common code violations that are visible from
+the street of the targeted neighborhood, such as
+overgrown yards, junk vehicles, unsecured vacant homes, and abandoned houses.43 Up until recently,
+this program was called the Neighborhood Sweeps program. See the map in Appendix 1 for the
+Neighborhood Enhancement Team’s targeted code enforcement sweep areas from 2015 to 2020.
+These sweeps disproportionately target neighborhoods with high concentrations of Latino and Black
+residents.
+
+Table 2: Demographics of the Census Tracts in the Near Westside Cluster of Orders to Vacate
+
+1701.01
+
+1701.02
+
+1702
+
+1703
+
+1704.01
+
+1704.02
+
+1707
+
+All Near
+Westside
+Cluster
+tracts
+
+San
+Antonio
+
+% Hispanic or Latino
+
+92.9%
+
+95.7%
+
+98.9%
+
+92.2%
+
+85.7%
+
+97.5%
+
+97.8%
+
+94.6%
+
+64.2%
+
+% Black or African
+American alone
+
+4.3%
+
+0%
+
+.4%
+
+6%
+
+7.1%
+
+1.8%
+
+.5%
+
+2.9%
+
+7.0%
+
+% families with
+children in poverty
+
+21.5%
+
+18.7%
+
+35.4%
+
+28.7%
+
+35.5%
+
+24.5%
+
+17.2%
+
+26.7%
+
+14.0%
+
+Median HH income
+
+$34,375
+
+$30,156
+
+$25,755
+
+$26,797
+
+$25,169
+
+$34,264
+
+$43,448
+
+$30,717
+
+$52,455
+
+Median year homes
+built
+
+1949
+
+1942
+
+1957
+
+1950
+
+1951
+
+1950
+
+1960
+
+1948
+
+1982
+
+Total # of orders to
+vacate and demolish,
+2015-2020 (with city
+rank in parens)*
+
+16 (9th)
+
+28 (3rd, tie)
+
+23 (5th)
+
+35 (1st)
+
+29 (2nd)
+
+15 (11th, tie)
+
+22 (6th)
+
+Data source: Social Explorer Tables: ACS 2019 (5-yr estimates)
+* For the city rank, “3rd” for example, means that the tract had the third highest number of vacate and demolish
+orders among all census tracts in the city for 2015-2020.
+
+18 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Near Westside Cluster
+The largest cluster of vacate and demolition orders is located west of downtown San Antonio in
+what we refer to as the Near Westside Cluster. See Figure 9. This cluster includes seven census
+tracts (1701.01, 1701.02, 1702, 1703, 1704.01, 1704.02, 1707), with most of the orders concentrated in
+the Historic Westside neighborhood, although the cluster also includes parts of the Gardendale,
+Prospect Hill, and Westend Hope in Action neighborhoods. Four out of five of the census tracts with
+the highest number of vacate and demolition orders in San Antonio are located in the Near Westside
+Cluster, with the highest number of orders (35 orders) located in census tract 1703, which is more
+than double the number of orders in the tenth highest ranking census tract. See Table 2.
+The ethnic makeup in the Near Westside Cluster is 94.6% Hispanic or Latino, and the median age of
+homes is 73 years. The median household income in this cluster of $30,717 is significantly lower than
+San Antonio’s median income of $52,455.44
+Public and private entities have been targeting areas within the Near Westside Cluster for
+redevelopment for many years now,45 and several public and private development projects are
+currently underway or in the planning stages in and around this cluster area. Parts of the cluster have
+also been eligible for an array of public economic development incentives designed to encourage
+redevelopment, including the City’s Westside Tax Increment Reinvestment Zone, which overlaps with
+parts of census tract 1702 on the eastern edge of the cluster. Census tract 1701.02 is a designated
+federal Opportunity Zone, which provides federal tax breaks to encourage development in high
+poverty communities. See Figure 10.
+The largest project underway is the expansion of The University of Texas at San Antonio’s downtown
+campus, located adjacent to the Near Westside Cluster. UTSA touts this expansion as providing
+a catalyst for economic development in the area.46 The Alazán-Apache Courts, a historic public
+housing community built in 1939 and located in census tract 1702, has for years been a contested
+site for potential redevelopment. The City is also in the process of restoring the Apache and Alazán
+creeks that run through the Near Westside Cluster and has been constructing trails along the creeks.
+The map of the Near Westside Cluster in Figure 10 shows a noticeable cluster of homes alongside
+the Alazán creek that have received a vacate or demolition order.
+
+Near Eastside Cluster
+The second cluster of orders to vacate and demolition that we identified is located east of downtown
+in seven census tracts (1302, 1303, 1304.01, 1305, 1306, 1404, 1919), which we refer to as the Near
+Eastside Cluster. This cluster includes the Denver Heights, Dignowity Hill, and Jefferson Heights
+neighborhoods. See Figure 11. Census tract 1919 in the Dignowity Hill neighborhood is home to the
+third highest number of orders to vacate and demolish in the city from 2015-2020, with 28 such
+orders.
+The Eastside has historically been home to San Antonio’s African American community, and Denver
+Heights is one of the oldest African American neighborhoods in the city. Today, the Near Eastside
+Cluster is over 72.2% Hispanic and has a significant African American population for the city, with
+19.6% of the population across all seven census tracts, compared to the citywide rate of 7%. The
+median household income in the seven census tracts is $32,003, and the median age of the housing
+stock in each of the seven census tracts ranges from 70 to 78 years.47
+The neighborhoods in the Near Eastside Cluster are part of a “massive, coordinated reinvestment
+effort on the Eastside.”48 The Inner City Tax Increment Reinvestment Zone, which covers a lot of the
+cluster area, provides financing for public improvement projects and economic development
+
+19 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+activities to revitalize the area.49 The census tracts in the Near Eastside Cluster are home to or
+adjacent to a number of redevelopment projects, depicted in Figure 12.
+The redevelopment pressures in the area have resulted in rapid gentrification. In Denver Heights,
+for example, which is home to the Essex Modern City development—a $150 million mixed-use
+development—the property values in the neighborhood skyrocketed by 164% over just a four-year
+period from 2015 to 2019.50
+
+Table 3: Demographics of the Census Tracts in the Near Eastside Cluster of Orders to Vacate
+Census
+Tract
+1302
+
+Census
+Tract
+1303
+
+Census
+Tract
+1304.01
+
+Census
+Tract
+1305
+
+Census
+Tract
+1306
+
+Census Census All Near
+Tract Tract 1919 Eastside
+1404
+Cluster
+tracts
+
+San
+Antonio
+
+% Hispanic or
+Latino
+
+72.6%
+
+80.7%
+
+85.2%
+
+63.2%
+
+62.9%
+
+86.6%
+
+60.7%
+
+72.2%
+
+64.2%
+
+Percent Black
+or African
+American
+alone
+
+17.2%
+
+16.0%
+
+11.7%
+
+31.7%
+
+35.8%
+
+1.1%
+
+18.4%
+
+19.6%
+
+7.0%
+
+Percent
+families with
+children in
+poverty
+
+16.9%
+
+30.1%
+
+27.3%
+
+32.9%
+
+28.6%
+
+8.2%
+
+31.4%
+
+26.1%
+
+14.0%
+
+Median HH
+income
+
+$35,292
+
+$34,449
+
+$32,027
+
+$26,651
+
+$27,308
+
+$40,250
+
+$32,255
+
+$32,003
+
+$52,455
+
+Median year
+homes built
+
+N/A
+
+1946
+
+1947
+
+1951
+
+1951
+
+1941
+
+1943
+
+N/A
+
+1982
+
+Total # of
+orders to
+vacate and
+demolish,
+2015-2020
+(with city rank
+in parens)*
+
+13
+
+15
+
+14
+
+15
+
+14
+
+15
+
+28
+
+(19th, tie)
+
+(11th, tie)
+
+(15th, tie)
+
+(11th, tie)
+
+(15th, tie)
+
+(11th, tie)
+
+(3rd, tie)
+
+Data source: Social Explorer Tables: ACS 2019 (5-yr estimates)
+* For the city rank, “3rd” for example, means that the tract had the third highest number of vacate and demolish
+orders among all census tracts in the city for 2015-2020.
+
+20 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Fig. 7. Census Tracts with Highest Total Number of Orders to Vacate and
+Demolish Single-Family Homes, 2015 - 2020
+
+1705
+1707
+
+1715.02
+
+1704.01
+
+1701.01
+
+1704.02
+
+1701.02
+
+1703
+
+1702
+
+1919
+
+1302
+1606
+1303
+
+1501
+
+1306
+
+1305
+
+1304.01
+
+1404
+1503
+1505.01
+
+BCAD, Esri, HERE, Garmin, INCREMENT P, NGA, USGS
+
+Census Tracts with
+Highest Total
+Number of Orders to
+Vacate and Demolish
+Single-Family Homes,
+2015 - 2020
+
+Total OTVs/OTDs
+13 - 19
+20 - 29
+30+
+Outside CoSA
+Boundary
+
+BSB: Orders to
+Vacate
+DSD: Orders to
+Vacate
+BSB and DSD:
+Demolitions*
+Military Base
+
+* Includes CoSA hold harmless demolition agreements
+Created by Mia Loseff - Texas Housers; Abbey Judd;
+Ottilia Willis, 2021. Source: Development Services, City
+of San Antonio (April 5, 2021)
+
+21 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Fig. 8. Comparing San Antonio Vacate and Demolition Orders (2015-2020) with Historic Redlining Maps (1935)
+
+BCAD, Esri, HERE, Garmin, INCREMENT P, NGA, USGS
+
+Comparing San
+Antonio Vacate and
+Demolition Orders
+(2015-2020) with
+Historic Redlining
+Maps (1935)
+
+Federal Home Owners'
+Loan Corporation Rating
+Maps
+Grade of Riskiness
+
+BSB: Orders to Vacate
+DSD: Orders to Vacate
+
+A: "Best"
+
+BSB and DSD:
+Demolitions*
+
+B: "Still Desirable"
+
+Military Base
+
+C: "Definitely Declining"
+
+Outside CoSA
+Boundary
+
+D: "Hazardous"
+
+* Includes CoSA hold harmless demolition agreements
+Created by: Mia Loseff - Texas Housers;
+Abbey Judd; Ottilia Willis, 2021
+Source: "Mapping Inequality," American
+Panorama, ed. Nelson, R.K. & Ayers, E. L.
+
+22 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Fig. 9. Near Westside Cluster: Census Tracts with Highest Rates of Orders to
+Vacate and Demolish Single-Family Homes, 2015-2020
+
+23 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Fig. 10 Near Westside Cluster: CoSA Redevelopment and Incentive Areas with
+Orders to Vacate and Demolish Single-Family Homes, 2015-2020
+
+24 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Fig. 11. Near Eastside Cluster: Census Tracts with Highest Rates of Orders to
+Vacate and Demolish Single-Family Homes, 2015-2020
+
+25 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Fig. 12. Near Eastside Cluster: CoSA Redevelopment and Incentive Areas with
+Orders to Vacate and Demolish Single-Family Homes, 2015-2020
+
+26 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+PART THREE. Comparative Analysis of Displacement
+through Code Enforcement Actions in Texas’ Largest Cities
+In our research, we examined the five largest Texas cities’ practices in regards to displacing residents
+from their homes through code enforcement actions, by comparing the cities’ utilization of orders to
+vacate for occupied single-family residences. Among these cities, San Antonio is an outlier. The cities
+of Houston, Dallas, Austin, and Fort Worth very rarely, if ever, issue orders to vacate to residents as a
+code enforcement tool. From 2015 through 2020, these four cities issued no more than 16 orders to
+vacate occupied single-family homes, whereas San Antonio issued 406 such orders.
+
+Note: San Antonio’s orders to vacate reported here include only orders to vacate that
+were not coupled with a demolition order. The City does not track vacate orders that are
+incorporated into a demolition order and, otherwise, does not distinguish between occupied
+and unoccupied homes when tracking demolition orders. Our reporting of other Texas cities’
+orders to vacate here includes stand-alone vacate orders that were not part of a demolition
+order as well as vacate orders that were incorporated into a demolition order, which is what
+happens when an order to demolish is issued for an occupied residence.
+
+San Antonio is also the only large city that regularly issues orders to vacate without providing
+residents of single-family homes with a due process hearing before issuing an order, with 337 such
+orders from the 2015-2020 time period. Of the code enforcement staff we spoke to in the other four
+cities, none could recall their city ever having ordered a family to vacate a legally-occupied singlefamily home for unsafe housing conditions without going through a hearing process. The same is
+true for orders to vacate coupled with a demolition order for occupied single-family homes.
+
+Fig. 13. 2015-2020: City-Issued Orders to Vacate Single-Family Homes
+for Unsafe Housing Conditions
+
+16 orders
+406 orders
+Cities of Dallas,
+Houston, Austin,
+Fort Worth
+
+City of San Antonio
+
+27 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Table 4: City Authority to Issue an Order to Vacate for a
+Legally-Occupied Structure without a Hearing*
+San
+Antonio
+
+The City’s code official may issue a vacate order without a hearing for structures
+that are a threat to the public health, safety, or welfare.
+
+Houston51
+
+The City’s building standards official can bypass the BSC hearing process to issue
+a vacate order but must first obtain approval from an administrative hearing officer.
+The property must constitute a “serious and immediate hazard,” which is a condition
+presenting “a reasonable likelihood of causing serious bodily injury to a human
+being.”
+
+Dallas
+
+No authority. The City must go through municipal court.
+
+Fort Worth
+
+The code director can bypass the Building and Standards Commission or municipal
+court hearing when a structure “may endanger the life, limb, health, property, safety,
+and/or welfare of the general public or any occupants.”
+
+Austin
+
+No authority. The City must go through the Building and Standards Commission
+or municipal court to require residents to vacate their home. The code official can
+“recommend” the occupants vacate the structure if a condition “exists that could
+cause serious or life-threatening injury or death in the near future.”
+
+*This table does not include city ordinances governing the authority of city fire chiefs to issue a
+vacate order in instances involving burned residences presenting life safety hazards.
+
+Table 5: City-Issued Orders to Vacate Occupied Single-Family Residences
+for Unsafe Housing Conditions, 2015-2020*
+San
+Antonio
+
+Dallas
+
+Houston
+
+Fort
+Worth
+
+Austin
+
+Orders to vacate issued by city staff
+without a hearing
+
+337
+
+0
+
+0
+
+0
+
+0
+
+Orders to vacate issued through a
+judicial or quasi-judicial hearing
+process
+
+69
+
+1
+
+10 max
+(since
+2013)
+
+0
+
+5
+
+Total orders to vacate
+
+406
+
+1
+
+10
+
+0
+
+5
+
+*Houston’s, Dallas’s, Fort Worth’s, and Austin’s orders to vacate include instances in which a
+vacate order is incorporated into a demolition order, which is the case for demolition orders
+involving an occupied residence. San Antonio’s vacate orders reported here only include vacate
+orders that were not part of a demolition order.
+
+28 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Houston
+Orders to vacate: In Houston, if an unsafe home is occupied, the case is first referred to the Housing
+Department, which will attempt to bring in a range of resources to assist the family in repairing the
+home or securing alternative housing. If the hazardous conditions are not addressed, the City will
+pursue a vacate order through the Building and Standards Commission (BSC), but only in instances
+where the home presents a major life safety issue. This is done very rarely. In the past eight years,
+Houston’s BSC has issued no more than ten orders to vacate occupied properties. Of these ten
+properties, if the family remained in the home after the order was issued, the Housing Department
+was able to help all of the occupants secure an alternative place to live.
+Under Houston’s Building Standards Code, in the event of an emergency, the City’s building
+standards official has authority to bypass the hearing process when issuing an order to vacate an
+occupied dangerous structure, but only if the structure constitutes a “serious and immediate hazard”
+and only after conferring with the City’s administrative hearing officer.52
+Houston’s Building Standards Code defines a “serious and immediate hazard” to mean a condition
+presenting “a reasonable likelihood of causing serious bodily injury to a human being.”53 The Building
+Standards Code lists two examples, by way of illustration, that meet this definition, both presenting
+as an immediate life threatening condition: (1) the condition presents “a reasonable likelihood of
+electrocution or asphyxiation”; or (2) “the structure is reasonably likely to collapse.”54
+Before an emergency vacate order can be issued, the hearing officer must agree with the city
+building official that the property constitutes a serious and immediate hazard and document the
+meeting with the building standards official, including specifying the reasons for concluding that the
+property constitutes a serious and immediate hazard.55 The City must also notify the property owner
+that they may request an administrative hearing before the Building and Standards Commission
+regarding the vacate order.56 City staff reported to us that the City has not issued an emergency
+vacate order for an occupied home since at least 2013.
+
+Dallas
+Orders to vacate: The City of Dallas does not issue orders to vacate outside the municipal court
+hearing process for properties where the occupants have a lawful right of possession of the
+structure. The City also does not utilize a citizen-run building and standards commission. Since
+2015, the City has ordered only one household to vacate their single-family home because of unsafe
+conditions, and that order to vacate was issued by the municipal court.
+If code staff identify a life hazard at an occupied home, the code officials will strongly recommend to
+the occupants that they leave the home to protect their safety, but the code officials do not request
+or mandate that the occupants vacate their home. If the occupants do not vacate the premises, the
+code department staff will take the case to the city attorney’s office for review, which will then decide
+whether to file a case in municipal court. Through the municipal court process, the City provides
+the residents with a notice of the hearing, and the residents have a right to appear before a judge to
+contest the City’s request for a vacate order.
+The Dallas Fire Department also has authority to issue an order to vacate (called a “summary
+abatement”) in cases involving significant fire damage, where the home is in imminent danger
+of collapsing. But in those instances, the city staff reported, the unit has already been voluntarily
+vacated, so an order to vacate has not been needed before, at least not in recent years.
+
+29 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Relocation assistance: The City of Dallas takes the position that relocation assistance is required
+under Texas law (via Section 21.046(e) of the Texas Property Code) if someone moves as a result of a
+code enforcement action, including instances in which the City issues an order to vacate.
+
+Austin
+Orders to vacate: Since at least 2015, the City of Austin has never issued an order to vacate outside
+the City’s Building and Standards Commission hearing process. From 2015 to 2020, the BSC issued
+five orders to vacate involving single-family residences, including both renter- and owner-occupied
+properties.
+Under the City’s Property Maintenance Code, the City’s code official has the authority to recommend
+(but not require) that the occupants vacate their home if a condition “exists that could cause serious
+or life-threatening injury or death in the near future.”57 A “condition” is limited to instances in which
+there is “a structure or part of a structure that has fallen or may fall; a structure or part of a structure
+that has collapsed or may collapse; the presence of explosives, explosive fumes or vapors, toxic
+fumes, gases, materials; or the presence of dangerous or defective equipment.” City staff do not have
+authority to order the occupants to vacate their homes outside the BSC process unless the structure
+is occupied by persons without a lawful right of possession of the structure.58
+
+Fort Worth
+Notices and orders to vacate: The City of Fort Worth Code Department has issued orders to
+vacate for occupied homes only through the Buildings and Standards Commission (BSC) hearing
+process and has done so only rarely. If an occupied home is hazardous, the Code Department will
+first take aggressive action to get help for the residents, connecting them to repair programs and
+other assistance. The City will seek a vacate or demolition order for an occupied home from the
+Building and Standards Commission only when the conditions are severe and the occupants’ lives
+are in imminent danger.
+The City’s code official who oversees the BSC reported to us that the BSC has heard only five to ten
+hazardous condition cases in the past five years involving residential structures that were legally
+occupied, and none of these cases resulted in an order to vacate. The secretary to the BSC likewise
+could not recall any orders to vacate involving occupied homes over the past five years.
+According to Fort Worth’s code enforcement staff, the only time when the Code Department issues
+a vacate or demolition order outside the hearing process is when a home is in imminent danger of
+collapsing. This process happens in only about four cases a year, and in at least the past five years,
+none of the cases have involved an occupied residence.
+Relocation assistance: The City of Fort Worth takes the position that relocation assistance is
+required under state law whenever the City requires the occupants to vacate their homes through a
+code enforcement action, such as when the Building and Standards Commission issues an order to
+vacate.
+
+30 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+PART FOUR. Relocation and Home Repair Assistance
+Programs for Vulnerable Residents
+Relocation assistance
+As discussed in the introduction, forcing a family to vacate their home can place them in perilous
+condition, including homelessness. However, the City of San Antonio’s orders to vacate and demolish
+do not include any information for the displaced residents about how to access assistance relocating
+to another residence, and the City rarely provides relocation assistance to residents displaced as a
+result of these orders. Only 9 of the 208 single-family households who received a city vacate order
+from 2018 to 2020 outside the City’s DART program (which is a program for high-crime properties)
+received financial relocation assistance from the City of San Antonio. City staff, in fact, take the
+position that they are not required to provide relocation assistance when displacing a family through
+a code enforcement action.
+Rather than routinely informing families that they have a right to receive relocation assistance
+from the City, code enforcement staff have a flyer for residents with community resources, which
+includes information on the repair programs operated by the Neighborhood and Housing Services
+Department. The flyer that DSD shared with us does not include any information, however, about the
+City’s Risk Mitigation Fund.
+During the COVID-19 pandemic, code enforcement staff continued to issue orders to vacate
+occupied residences. Even though families continued to be displaced from their homes during the
+pandemic, the Neighborhood & Housing Services Department reported to DSD staff in Summer
+2020 that they were unable to provide assistance to families with code violations, because their staff
+was focused on delivering rental assistance to households impacted by the pandemic. For example,
+in a code enforcement case at 1021 Torreon, DSD staff emailed NHSD staff in June 2020 about
+providing assistance to the residents but was told by NHSD that the Department could not assist the
+family because the Department’s focus was on providing COVID-19 rental assistance. The following
+month, the BSB issued an order to vacate to the residents.
+In our opinion, the City’s failure to routinely provide relocation assistance to families displaced as a
+result of a vacate or demolition order violates state law. Subsection 21.046(b) of the Texas Property
+Code requires cities to pay moving expenses, rental supplements, relocation payments, and other
+financial assistance to individuals and families “displaced in connection with an acquisition.”
+Subsection 21.046(e) then states that “[i]f a person moves or discontinues the person’s business,
+moves personal property, or moves from the person’s dwelling as a direct result of code
+enforcement, rehabilitation, or a demolition program, the person is considered to be displaced
+because of the acquisition of real property (emphasis added).”
+Despite the clear statutory language, the City of San Antonio takes the position that the relocation
+assistance statute applies only to eminent domain cases. In contrast, the Cities of Dallas and Fort
+Worth both take the position that Section 21.046 of the Texas Property Code requires cities to offer
+relocation assistance to families who are displaced from their homes as a result of an order to vacate,
+demolish, or similar displacement action. The position of these two cities is in line with the legislative
+history of the statute.
+
+31 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+The language in subsection 21.046(e) was added to state law in 1973, as part of House Bill 606.
+Before the amendment, the statute governing relocation assistance applied only to eminent domain
+actions and other acquisitions of real property by the state or local governmental entities.
+HB 606’s legislative history clearly indicates that the bill was intended to expand the relocation
+assistance statute to cover code enforcement actions. The bill’s title states: “relating to the fair and
+equitable treatment of persons displaced as a result of any program involving code enforcement.”
+According to the bill analysis for HB 606, the purpose of the bill was to bring state law in conformity
+with the Federal Uniform Relocation Assistance and Real Property Acquisition Policies Act of 1970,59
+which at the time required cities to pay relocation assistance to families displaced as a result of any
+code enforcement activity receiving federal assistance.60
+The House and Senate committees’ discussion of House Bill 606 further emphasized that the
+purpose of HB 606 was to cover relocation assistance when local governmental entities’ code
+enforcement actions displace residents.
+Senator John Traeger: “The bill, which just adds two lines to the existing law, is to allow cities when
+they displace someone as a result of a code violation, is allowed to pay relocation expenses, the
+same way they do in a condemnation case.”61
+Ken Dippel: “I’m here representing the City of Dallas in connection with this House Bill 606
+introduced by Representative Mattox. I would say to this committee that this is enabling legislation
+that closely tracks the Federal Relocation Assistance Program. The federal government in dealing
+with the City of Dallas has recommended that the city have rules and regulations regarding code
+enforcement if they are to be in receipt of federal funds. And this proceeding that we’re talking about
+here would be a code enforcement, an acquisition, a requirement that a building be removed under
+the police power to bring it up to snuff under our existing city codes.”62
+
+Home repair assistance
+Ultimately, what many low-income homeowners living in substandard housing conditions need
+to access safe housing is financial assistance to either repair or rebuild their homes or, in some
+situations, move to a safer home in a different location. It is almost always less expensive to bring a
+current substandard single-family home into safe condition than it is to subsidize the construction
+of a new affordable home at a different location.63 And when a home is demolished, not only does a
+family lose their home, but a unit of affordable housing in the city is permanently lost.
+Currently, the City of San Antonio offers public assistance for housing repairs through multiple
+programs, including the Owner-Occupied Rehab and Repair Program (OOR), the Minor Repair
+Program, the Under 1 Roof Program, Let’s Paint, and the Green and Healthy Homes Initiative (GHHI).
+Each program has unique requirements for eligibility. The City of San Antonio’s DSD staff report
+that they leave a flyer with homeowners whose homes are in disrepair about city repair assistance
+programs. This flyer also includes information on repair programs run by charitable organizations.
+
+32 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Table 6: Housing Repair Assistance from the City of San Antonio: 2015-2020
+Number of Participants
+Under 1 Roof
+
+982
+
+GHHI
+
+194
+
+OOR
+
+189
+
+Minor Repair
+
+63
+
+Let’s Paint
+
+51
+
+Multiple Programs
+
+98
+
+Total Individual Program
+Participants
+
+1397
+
+The City of San Antonio’s home repair programs are very difficult to qualify for, in part because of the
+city’s large stock of substandard homes and thus high demand for these programs in comparison
+to the number of homeowners served each year by the programs. As documented in Opportunity
+At Risk: San Antonio’s Older Affordable Housing Stock, 22% of all housing units in the city were
+constructed prior to 1960 and about 30,000 of these properties are in poor condition and need repair.
+In contrast, the City’s Owner-Occupied Rehab and Reconstruction Program, which provides loans
+of at least $5,000 for more major repair issues, served only 65 households in 2020. The City’s Minor
+Rehab Grant program, which provides grants of up to $25,000, served only 30 households in 2020.64
+We found that none of the homes that received an order to vacate or demolish from 2015 through
+2020 received housing repair assistance from the City of San Antonio during this time period. This
+may be an indication that the repair programs are successfully remediating at least some code
+enforcement cases that might otherwise turn into a vacate or demolition order. However, more
+research is needed about these programs to provide more context for who is accessing these
+programs and how many recipients of repair assistance had active code enforcement actions.
+One major barrier to the City’s repair programs is that homeowners with title issues do not qualify
+for repair assistance from the city. This is especially problematic for heirs’ property owners, where
+the current owners have inherited their homes from family members without a probate will and, as
+a result, do not have a deed to the property in their name. Heirs’ property is especially prevalent in
+Hispanic and Black communities, given the low rate of formal estate planning in these communities.
+Although we did not conduct a systematic examination of the reasons why families were denied
+housing repair assistance in San Antonio, we identified a number of heirs’ properties among the
+orders to vacate and demolition cases where the owners reported they were unable to qualify for
+repair assistance because they did not have clear title.
+Another barrier is that homeowners with any outstanding code enforcement liens are disqualified
+from receiving assistance from the City’s Owner-Occupied Rehabilitation and Reconstruction
+Program for major repairs.65 Families who are struggling to meet building code requirements and
+thus may have the greatest need for major repair assistance are automatically disqualified from this
+program.
+
+33 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+PART FIVE. Findings and Recommendations
+Findings
+The following is a summary of the five primary findings from our investigation into the City of
+San Antonio’s use of vacate and demolition orders as code enforcement tools for single-family
+residences.
+
+1.
+
+The City of San Antonio’s aggressive use of code enforcement tools that displace
+residents is unprecedented among large Texas cities.
+San Antonio is a clear outlier among the state’s largest cities when it comes to ordering
+residents to vacate their homes for code violations, with the issuance of more than 406 orders
+to vacate for residents of single-family homes from 2015-2020, along with another estimated
+201 demolition orders for occupied single-family homes, which were coupled with a vacate
+order. The City’s aggressive use of vacate orders is enabled by a broadly written city code
+that gives staff too much discretion and lacks adequate guardrails to restrict vacate orders to
+conditions that pose a more immediate and major risk to a resident’s safety.
+In contrast to the City of San Antonio, the cities of Houston, Dallas, Austin, and Fort Worth
+very rarely, if ever, issue vacate or demolition orders for occupied single-family residences for
+code violations. Among all four of these cities combined, no more than 16 orders to vacate
+were issued for code violations to residents of single-family homes from 2015 to 2020. In
+these other four cities, the city staff concentrate their efforts on assisting residents living in
+unsafe conditions with repairs to their homes, social services, or relocating to safer properties,
+depending on the circumstances. An order to vacate is issued only as a last resort in the rare
+instances where these efforts have been unsuccessful and the building conditions present a
+more immediate danger of life-threatening injury or death.
+The City of San Antonio also appears to routinely include utility disconnection orders with its
+orders to vacate, which is likewise unprecedented. The City’s utility disconnection orders were
+not the focus of our study, but it appears that the utility disconnections are used as additional
+leverage by the city to force residents from their homes without having to go through the BSB
+hearing process. The City’s issuance of orders to vacate and utility disconnections continued
+throughout 2020, even after the COVID-19 pandemic struck the city.
+
+2. The City of San Antonio’s vacate and demolition orders are heavily concentrated in San
+Antonio’s lower-income communities of color within the urban core, near areas of rapid
+redevelopment incentivized by the government, and in areas that the City proactively
+targets through code enforcement sweeps.
+The City’s two largest clusters of vacate and demolition orders are located in the near westside
+and near eastside of the city, in areas with a significantly higher proportion of Hispanic and
+Black residents compared to the city as a whole. In the Near Westside Cluster, 94.6% of the
+residents are Hispanic or Latino. And in the Near Eastside Cluster, 72.2% of the residents are
+Hispanic or Latino and 19.6% are Black or African American. Both clusters are located in areas
+that the City has been targeting with proactive code enforcement activities.
+
+34 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Four out of the five census tracts with the highest number of vacate and demolition orders in
+San Antonio are located in the Near Westside Cluster. This cluster of orders is in an area that
+public and private entities have been targeting for redevelopment for many years now and is
+adjacent to one of the largest economic development projects in the city, the UTSA campus
+expansion.
+The second largest cluster of orders to vacate is the Near Eastside Cluster, in neighborhoods
+that have historically been home to San Antonio’s African-American community and are
+now experiencing rapid gentrification. These neighborhoods have been part of a “massive,
+coordinated reinvestment effort on the Eastside”66 and are home to several large citysubsidized redevelopment projects.
+3. The City of San Antonio routinely fails to provide residents with a due process
+hearing when ordering them to leave their homes for code violations or ordering the
+disconnection of their utilities.
+From 2015-2020, San Antonio code enforcement officials issued 337 orders to vacate to
+residents in single-family homes outside of a hearing process, in addition to an estimated 44
+emergency demolition orders for occupied residences. While city staff report that residents
+have a right to appeal the vacate orders, the orders fail to inform residents of this right.
+Residents are also not provided with a hearing before the City orders their utilities to be
+disconnected in conjunction with a vacate order, nor are they notified about how they can
+appeal the disconnection order.
+The City of San Antonio is unique among its peer Texas cities in bypassing the hearing process
+when issuing an order to vacate.67 Since 2015, none of the other five largest cities in Texas have
+issued an order to vacate to residents of single-family homes outside of a hearing process,
+such as the building and standards commission or municipal court. In Dallas and Austin, under
+city code, the City must go through a hearing process before issuing an order to vacate, and
+in Houston, an order to vacate cannot be issued without going through an administrative
+hearing officer. In Fort Worth, while the City is allowed to bypass the hearing process in some
+instances, the City always uses a hearing process when considering an order to vacate or
+demolish for an occupied structure.
+4. The City of San Antonio’s repair programs serve too few homeowners and contain too
+many barriers for low-income homeowners with substandard conditions to qualify for
+assistance.
+Home repair programs are an important tool for providing housing security for low-income
+homeowners who cannot afford to repair their homes. The City of San Antonio’s home
+repair programs, however, do not serve enough homeowners given the volume of vulnerable
+residents living in substandard homes in the city, with 30,000 older properties in poor
+condition and in need of repair. The City of San Antonio’s one program that assists with major
+home repairs and reconstruction served only 65 households in 2020, while the City’s general
+program for minor repairs served only 30 households in 2020. None of the homeowners who
+received an order to vacate or demolish from the City from 2015 through 2020 received home
+repair assistance from the City.
+One major barrier to qualifying for the City’s home repair programs is that homeowners with
+title issues do not qualify for assistance. According to city staff, lacking clear title is a “quick
+dead end” to receiving city repair assistance. This disqualification from repair assistance is
+especially problematic for the predominantly Black and Hispanic homeowners who have
+inherited their homes from family members and, as a result, do not have a deed to the property
+
+35 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+in their name. Residents are also ineligible for city assistance for major repairs if they have
+a code enforcement lien on their property. This means that families with the most struggles
+bringing their homes into compliance with city code could also be cut off from city assistance
+to repair their homes.
+5. The City of San Antonio rarely provides relocation assistance to residents who receive a
+vacate or demolition order from the City, in violation of Texas law.
+Section 21.046 of the Texas Property Code requires cities to provide relocation advisory
+services and “pay moving expenses and rental supplements, make relocation payments, [and]
+provide financial assistance to acquire replacement housing” to individuals and families who
+move or are otherwise displaced “as a direct result of a code enforcement action.” Despite this
+clear statutory language and the legislative history of the statute, the City of San Antonio takes
+the position that the City is not required to provide relocation assistance when displacing a
+family through a code enforcement action, such as an order to vacate or demolish. And while
+the City has set up a new risk mitigation fund to help residents who are displaced or at risk
+of being displaced, only 9 of the 208 residents who received a vacate order from the City of
+San Antonio from 2018 through 2020 outside the DART program received financial relocation
+assistance from the City from this fund or other city funding sources. In contrast, code
+enforcement officials with the Cities of Dallas and Fort Worth report that they are required to
+provide relocation assistance under state law whenever the City orders residents to vacate
+their homes through a code enforcement action.
+
+Recommendations
+We offer the following recommendations for the City of San Antonio in structuring programs and
+policies that seek to address substandard conditions in occupied residences.
+
+Recommendation 1: Cease issuing vacate orders, emergency demolition orders, and utility
+disconnection orders outside of a judicial or quasi-judicial hearing process.
+The City of San Antonio should issue code-related vacate orders for occupied residences only
+through a Building and Standards Board hearing or municipal court hearing, and residents must
+be notified in writing of the hearing date. Emergency demolition and utility termination orders
+should also be issued through a hearing process, even if the hearing must be expedited given the
+emergency nature of the case. In no instance should city staff have the authority to issue these
+orders without providing residents with due process.
+
+Recommendation 2: Amend the City’s code to allow for the issuance of vacate and demolition
+orders for occupied residences only as a last resort when the residents are in imminent
+danger of serious bodily injury.
+The City of San Antonio’s code should be amended to allow for the issuance of vacate and
+demolition orders for occupied residences only in cases where the residents are in imminent danger
+because the home’s conditions present a reasonable likelihood of causing serious bodily injury.
+Houston’s code offers model language for this reform. This narrower standard reduces the City’s
+currently very broad discretion for issuing vacate and demolition orders and strikes a more equitable
+balance when it comes to protecting the health and safety of the city’s most vulnerable residents.
+
+36 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Recommendation 3: Expand access to the City’s major and minor home repair programs.
+The City should support more low-income families with repairs to their homes and reduce the City’s
+displacement of vulnerable homeowners by significantly increasing funding for the City’s major
+and minor home repair programs. Beyond relying on general revenue and federal grants, additional
+sources for funding could include dedicating a percentage of all revenues received through the
+San Antonio Housing Trust’s partnerships with private apartment developers and dedicating a
+percentage of funding from the City’s tax increment reinvestment zones, particularly the two TIRZs
+on the near westside and near eastside where the City’s vacate and demolition orders have been
+particularly concentrated. As part of expanding access to its repair programs, the City should also
+loosen its clear title requirements for families with inherited homesteads who are seeking repair
+assistance, in addition to providing these families with support to clear their titles.
+
+Recommendation 4: Develop a code enforcement program that advances racial justice
+and eliminates discriminatory code enforcement sweeps in neighborhoods with high
+concentrations of Latino and Black residents.
+Cities have a legal duty to ensure that their code enforcement activities do not discriminate against
+residents on the basis of their race or ethnicity. In this regard, the City of San Antonio should
+cease targeting its code enforcement sweeps and other aggressive code enforcement actions in
+neighborhoods, such as those on the near westside and near eastside where the concentration
+of Latino or Black residents far exceeds that of the city as whole. In crafting a code enforcement
+program that advances racial justice, the City should also be taking into account how the
+housing conditions in these neighborhoods have been shaped by decades of public and private
+disinvestment and racially discriminatory policies and laws, such as bank redlining. Removing Black
+and Hispanic residents from their homes and communities destabilizes families and furthers these
+systemic inequities.
+
+Recommendation 5: Offer relocation assistance and counseling to all residents who receive a
+code-related order to vacate or demolish their residence from the City of San Antonio.
+Relocation assistance is critical to reducing the perilous conditions, such as homelessness, that
+displacement actions can create for vulnerable residents. Moreover, Section 21.046 of the Texas
+Property Code requires cities to provide relocation advisory services and pay for relocation expenses
+when ordering residents to vacate or demolish their homes as a result of code violations.
+
+Recommendation 6: Adopt a cooperative code compliance program that better supports
+vulnerable homeowners with bringing their homes into compliance with city code and, as
+needed, securing alternative housing.
+For homeowners who are at risk of losing their homes because of substandard living conditions, a
+cooperative code compliance model should be used that deploys a diverse set of resources focused
+on helping homeowners bring their home into compliance with city code and reducing the number
+of demolition cases. Beyond just leaving flyers with a list of repair programs, social workers and other
+aid may be needed to help vulnerable homeowners navigate these programs, identify sources of lowincome loans and contractors, and, as needed, secure alternative housing.
+
+37 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Recommendation 7: Provide low-income homeowners with a right to counsel in hearings
+where the City seeks an order to vacate or demolish their home.
+Low-income homeowners should have a right to a pro bono attorney to represent them in any city
+proceedings that could result in the loss of their housing due to violations of the City’s codes. Short
+of providing residents with the automatic right to an attorney, notices of BSB and municipal court
+hearings should inform residents of local pro bono legal resources in the community, such as legal
+aid.
+
+38 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Appendix
+App. 1: San Antonio Code Compliance Targeted Area Sweeps 2015-2020
+
+39 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+App. 2: City of San Antonio Demolition Orders for Single-Family Homes, 2015-220
+
+40 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+App. 3: City of San Antonio Orders to Vacate for Occupied Single-Family Homes, 2015-220
+
+41 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+App. 4: Notice to Vacate
+      
+
+ 
+
+42 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+App. 4: Notice to Vacate
+
+43 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+App. 5: City of San Antonio Vacate and Demolition Orders for Single-Family Homes, 2015-2020,
+by Median Household Income
+
+44 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+App. 6: City of San Antonio Vacate and Demolition Orders for Single-Family Homes, 2015-2020,
+by Percent Hispanic/Latino
+
+45 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+App. 7: City of San Antonio Vacate and Demolition Orders for Single-Family Homes, 2015-2020,
+by Percent Black/African American
+
+BCAD, Texas Parks & Wildlife, Esri, HERE, Garmin, USGS, EPA, NPS
+
+City of San Antonio
+Vacate and Demolition
+Orders for Single-Family
+Homes, 2015 - 2020, by
+Percent Black/African
+American
+
+Percent Black/
+African American
+< 10%
+10.1% - 15%
+15.1% - 20%
+20.1% - 25%
+> 25%
+
+BSB: Orders to
+Vacate
+DSD: Orders to
+Vacate
+BSB and DSD:
+Demolitions*
+CoSA boundary
+Military Base
+
+* Includes CoSA hold harmless demolition agreements
+Created by Mia Loseff - Texas Housers; Abbey Judd; Ottilia Willis, 2021.
+Source: ACS 2015 - 2019 5-yr estimates Table: B02001; Development
+Services, City of San Antonio (April 5, 2021)
+
+46 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+App. 8: Near Westside and Near Eastside Clusters: Census Tracts with Highest Rates of Orders to
+Vacate and Demolish Single-Family Homes, 2015-2020
+
+1707
+
+1704.01
+1704.02
+
+1703
+
+1701.01
+1701.02
+
+1919
+
+1702
+1302
+1303
+
+1306
+
+1305
+
+1304.01
+
+1404
+
+BCAD, Esri, HERE, Garmin, INCREMENT P, NGA, USGS
+
+Near Westside and Near
+Eastside Clusters: Census
+Tracts with Highest Rates of
+Orders to Vacate and
+Demolish Single-Family
+Homes, 2015 - 2020
+
+BSB: Orders to Vacate
+DSD: Orders to Vacate
+BSB and DSD: Demolitions*
+High Cluster census tracts
+Outside CoSA Boundary
+Military Base
+* Includes CoSA hold harmless demolition agreements
+
+Created by Mia Loseff - Texas Housers; Abbey Judd; Ottilia
+Willis, 2021. Source: Development Services, City of San
+Antonio (April 5, 2021)
+
+47 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+Endnotes
+1
+
+For purposes of this report, “single-family home” is defined as a dwelling structure with less than four housing
+units. The total number of occupied homes receiving one or more orders to vacate from 2015-2020 was 370, and
+the total number of occupied homes that received an order to demolish that did not receive a previous order
+to vacate during the same time period was at least 178. This number includes cases that were resolved with a
+hold harmless agreement requiring the demolition of the home. The number of occupied residences that were
+subject to a demolition order is a conservative estimate utilizing images from Google Earth from within the
+12-month period prior to the issuance of the demolition order, since the City of San Antonio did not provide
+data regarding the residency status of homes receiving a demolition order. For many of the residences with a
+demolition order or hold harmless agreement, we were unable to determine whether the property was likely
+occupied either because images were unavailable or the images did not provide enough evidence to determine
+whether the property was likely occupied or vacant. Those properties are not included in our totals here.
+
+2
+
+See, e.g., Matthew Desmond and Rachel Tolbert Kimbro, Eviction’s Fallout: Housing, Hardship, and Health,
+94.1 Social Forces, Sept. 2015, at 295; Heather Sandstrom and Sandra Huerta,  The Negative Effects of
+Instability on Child Development, Urban Institute (Sept. 2013), https://www.urban.org/sites/default/files/
+publication/32721/412908-The-Negative-Effects-of-Instability-on-Child-Development-Fact-Sheet.PDF; Justine
+Marcus and Miriam Zuk, Displacement in San Mateo County, California, UC Berkeley Inst. Of Govt. Studies (May
+2017), https://www.urbandisplacement.org/sites/default/files/images/impacts_of_displacement_in_san_
+mateo_county.pdf.
+
+3
+
+Anti-Displacement Agenda for San Antonio, Grounded Solutions Network, at 55 (2020), https://
+groundedsolutions.org/sites/default/files/2021-04/San%20Antonio%20Anti-Displacement%20Agenda.pdf.
+
+4
+
+Id.
+
+5
+
+Neighborhood Enhancement Team (NET), City of San Antonio 311 City Services & Info (Nov. 13, 2018),
+https://311.sanantonio.gov/kb/docs/articles/property-maintenance-and-construction/neighborhoodenhancement-team-net. See also City of San Antonio Development Services Department is on Nextdoor,
+the neighborhood hub, Nextdoor, https://nextdoor.com/agency-post/tx/san-antonio/city-of-san-antoniodevelopment-services-department/code-enforcement-sweep-program-in-your-neighborhood-73810563/
+(last visited Oct. 21, 2021); Code Enforcement Supervisor Alice Guajardo, Los Jardines – Neighborhood sweep,
+Nextdoor (May 30, 2019), https://nextdoor.com/agency-post/tx/san-antonio/city-of-san-antonio-developmentservices-department/los-jardines-neighborhood-sweep-112922045/.
+
+6
+
+Neighborhood Enhancement Team (NET), City of San Antonio, https://www.sanantonio.gov/CES/About/TeamsUnits (last visited Oct. 22, 2021).
+
+7
+
+City of San Antonio Code §§ 6-159 and 6-156 (defining “dangerous building”). See also Tex. Local Govt. Code §§
+214.001(a)(1), (b).
+
+8
+
+City of San Antonio Code § 6-160.  
+
+9
+
+Id. at § 6-159(2).
+
+10 Id.
+11 Id. at § 6-158(a).
+12 Michael Shannon, City of San Antonio, Development Services Department, Demolitions, Slide presentation to
+the Culture and Neighborhood Services Committee, Apr. 5, 2021.
+13 City of San Antonio Code § 6-158(b).  
+14 Id.
+15 Id.
+16 Id. at § 6-162.
+17 Id. at §§ 6-162(b)-(c).
+18 Id. at §§ 6-163(d)-(e).
+
+48 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+19 Id. at § 6-167.
+20 Id.
+21 Id.
+22 Id. at §§ 6-175(a)(1) & (b)(1).
+23 Id. at § 6-175(b)(2).
+24 Id. at § 6-175(b)(3).
+25 Id. at § 6-175(b).
+26 Id. at § 6-175(b)(3).
+27 Id. at § 6-175(b)(4).
+28 Id. at §§ 6-175(b)(4)-(5).
+29 See the discussion in note 1 for a summary of the methodology for calculating these totals of occupied
+residences subject to a demolition order or hold harmless agreement.
+30 City of San Antonio Property Maint. Code § 108.4
+31 Id. at §§ 108.1.2 and 108.1.3.
+32 City of San Antonio Property Maint. Code § 109.1.
+33 City of San Antonio Property Maint. Code § 109.1, Commentary.
+34 Based on an analysis of the City of San Antonio’s 2020 orders to vacate and Bexar County Appraisal District
+records for the property.
+35 Based on tables provided by the City of San Antonio Development Services Department.
+36 City of San Antonio Property Maint. Code § 108.2.1.
+37 This list includes properties where the owners entered into a hold harmless agreement for the demolition of the
+property by the City of San Antonio.
+38 In this analysis, we also included hold harmless agreements whereby, following a code enforcement action, the
+property owner agreed to let the city demolish the property rather than be subject to a BSB demolition order.
+39 These numbers include hold harmless demolition agreements.
+40 Opportunity at Risk, City of San Antonio (2019), at 29-30, https://www.sanantonio.gov/Portals/0/Files/
+HistoricPreservation/CurrentProjects/AffordableHousing/OpportunityAtRisk-Report.pdf.
+41 Camila Domonoske, Interactive Redlining Map Zooms In On America’s History Of Discrimination, NPR, Oct. 19,
+2016, https://www.npr.org/sections/thetwo-way/2016/10/19/498536077/interactive-redlining-map-zooms-inon-americas-history-of-discrimination.
+42 In this analysis, we also included hold harmless agreements whereby, following a code enforcement action, the
+property owner agreed to let the city demolish the property rather than be subject to a BSB demolition order.
+43 Neighborhood Enhancement Team (NET), City of San Antonio, https://www.sanantonio.gov/CES/About/TeamsUnits (last visited Oct. 22, 2021).
+44 ACS 2019 (5-Year Estimates) (SE), U.S. Census Bureau (Social Explorer).
+45 See e.g., Avenida Guadalupe San Antonio, TX, City of San Antonio, February 6-11, 2005, https://www.sanantonio.
+gov/Portals/0/Files/Planning/NPUD/AvenidaGuadalupe_Report_ULI.pdf; Avenida Guadalupe – 2020 Master
+Plan, UTSA, https://www.utsa.edu/curpr/projects/avenida-guadalupe-master-plan.html (last visited October
+22, 2021); Westside Reinvestment Plan, City of San Antonio, Sept. 2009, https://www.sanantonio.gov/Portals/0/
+Files/Planning/NPUD/Westside_ReinvestmentPlan_FINAL.pdf.
+46 Shea Conner, University making strides toward Downtown Campus expansion, UTSA Today, Nov. 6, 2020, https://
+www.utsa.edu/today/2020/11/story/downtown-expansion-nscc-sds.html.
+47 ACS 2019 (5-Year Estimates)(SE), U.S. Census Bureau, (Social Explorer).
+
+49 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+48 Eastside San Antonio Equitable Development Plan, NALCAB, Jan. 2020, at 10, https://nalcab.org/wp-content/
+uploads/2021/01/SAGE-Action-Plan.pdf.
+49 City Initiated Tax Increment Reinvestment Zone (TIRZ), City of San Antonio, https://www.sanantonio.gov/NHSD/
+TIF/cityinitiated#22866823-inner-city-11 (last visited Oct. 22, 2021).
+50 Ben Olivo, ‘Skyrocket’ still describes near east property values, San Antonio Heron, Apr. 11, 2019; https://
+saheron.com/skyrocket-still-describes-near-east-side-property-values/.
+51 City staff could provide only an estimate of orders to vacate issued through a hearing process but reported that
+the number of orders issued since 2013 has not exceeded 10.
+52 City of Houston Building Standards Code §§ 10-391, 10-392.
+53 Id. at §§ 10-317, 10-392.
+54 Id. at § 10-317.
+55 Id. at § 10-392.
+56 Id. at § 10-394.
+57 City of Austin Property Maintenance Code § 112.1 (2021).
+58 Id. at § 112.2.
+59 Tex. House Bill Analysis, HB 606, 63rd Reg. Session.
+60 Uniform Relocation Assistance and Real Property Acquisition Policies Act of 1970, Pub. L. 91-646, Title II, § 217,
+Jan. 2, 1971, https://uscode.house.gov/statviewer.htm?volume=84&page=1902.
+61 Audio recording from Senate Intergovernmental Relations Committee hearing, HB 606, 63rd Reg. Session,
+April 25, 1973, https://tsl.access.preservica.com/uncategorized/IO_ed50d155-bd87-4ca8-a46f-73fbc7c7b114/
+(the discussion begins at :40 and ends at 6:30). Note: In 1973, the relocation statute authorized cities and other
+governmental agencies to provide relocation assistance but did not mandate that they do so—instead, federal
+law mandated the assistance. The state statute was later amended in 2011 to require relocation assistance.
+62 Audio recording from House Judiciary Committee hearing, HB 606, 63rd Reg. Session, March 27, 1973.
+63 Nationwide, the median cost of repairs for housing units in disrepair was $1,449 in 2017. Only 0.2% of units
+needed repairs of more than $20,000 per unit. Eliza Wallace, Eileen Divringi, and Keith Wardrip, A New CostBased Index of Housing Quality and Repair Needs, 21 Cityscape, 299, https://www.huduser.gov/portal/
+periodicals/cityscpe/vol21num3/ch14.pdf. PolicyMap has a project under development to provide data on a zip
+code and census tract level on what it would cost to bring all homes into good repair. See The Real Cost of Home
+Repairs, PolicyMap (2021), https://www.policymap.com/issues/housing-quality/.
+64 Anti-Displacement Agenda for San Antonio, Grounded Solutions Network, at 51 (2020), https://
+groundedsolutions.org/sites/default/files/2021-04/San%20Antonio%20Anti-Displacement%20Agenda.pdf
+65 Program Eligibility Requirements: Owner-Occupied Rehabilitation Program (OOR), City of San Antonio, https://
+www.sanantonio.gov/nhsd/programs/repair.
+66 Eastside San Antonio Equitable Development Plan, NALCAB, Jan. 2020, at 10, https://nalcab.org/wp-content/
+uploads/2021/01/SAGE-Action-Plan.pdf.
+67 Our research did not focus on other Texas city practices in regards to utility disconnections.
+
+50 | Ousted: The City of San Antonio’s Displacement of Residents through Code Enforcement Actions
+
+

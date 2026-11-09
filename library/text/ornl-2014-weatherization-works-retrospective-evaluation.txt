@@ -1,0 +1,264 @@
+Source: https://www.energy.gov/sites/prod/files/2015/09/f26/weatherization-works-retrospective-evaluation.pdf
+Publisher: U.S. Department of Energy
+Retrieved: 2026-11-09
+Original SHA-256: e8bbefb2f07d28417a314d6a78dd0a5d312a7b8d134f28201a8bc3795cec2802
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+ORNL/TM-2014/338
+
+Weatherization Works - Summary of
+Findings from the Retrospective Evaluation
+of the U.S. Department of Energy’s
+Weatherization Assistance Program
+
+Bruce Tonn
+David Carroll
+Scott Pigg
+Michael Blasnik
+Greg Dalhoff
+Jacqueline Berger
+Erin Rose
+Beth Hawkins
+Joel Eisenberg
+Ferit Ucar
+Ingo Bensch
+Claire Cowan
+
+September 2014
+
+EXECUTIVE SUMMARY
+In April 2009, the U.S. Department of Energy (DOE) tasked Oak Ridge National Laboratory with
+conducting an evaluation of DOE’s low-income Weatherization Assistance Program (WAP). This
+directive came at the same time that the American Recovery and Reinvestment Act of 2009 was passed.
+The Recovery Act boosted WAP’s funding from approximately $225M per year to $5B over a three year
+period. It was decided at that time to evaluate WAP as it was administered both before and during the
+Recovery Act period. The former is known as the ‘retrospective’ evaluation of WAP and focuses on
+Program Year (PY) 2008. This report summarizes findings from the twenty individual studies that
+comprise the retrospective evaluation.1
+Through WAP, DOE provides grants to states, territories, and Washington, DC (i.e. Grantees) to fund the
+weatherization of low-income homes. The Grantees provide grants to local weatherization agencies (also
+known as Subgrantees) to deliver weatherization services. Grantees and Subgrantees also leverage their
+DOE funds to acquire additional funds for low-income weatherization. Subgrantees accept applications
+for weatherization, confirm households’ income eligibility for the program, conduct energy audits of the
+homes, install weatherization measures, and inspect each home post-weatherization. Common
+weatherization measures include: air sealing, wall and attic insulation, duct sealing, and furnace repair
+and replacement. The program operates across all climate zones in the United States, and weatherizes all
+manner of homes, from single family detached units to mobile homes to large multifamily buildings.
+The retrospective evaluation concentrated on estimating program impacts (e.g., energy savings) and on
+assessing program administration. To accomplish these tasks, the retrospective evaluation collected a
+great deal of data, including:
+
+
+Housing characteristics and weatherization measures installed in ~20,000 single family and
+mobile homes
+
+
+
+Building characteristics and weatherization measures installed in ~10,000 multifamily building
+units and detailed data on over 100 large multifamily buildings weatherized in New York City
+
+
+
+Fuel type and basic occupant characteristics for ~20,000 homes
+
+
+
+Electricity and natural gas billing histories for ~8,000 weatherized and comparison homes
+collected from over 1000 natural gas and electric utilities
+
+
+
+Program implementation survey data from 50+ Grantees and ~900 Subgrantees
+
+
+
+Demographic, health-related, energy use behavior, and client satisfaction survey data from ~1400
+households (treatment plus comparison group homes)
+
+
+
+Demographic and career-related survey data from ~600 weatherization auditors, crew leaders,
+crew members
+
+
+
+Indoor environmental quality data measurements (CO, radon, formaldehyde, humidity and
+temperature) pre- and post-weatherization for a national sample of ~500 treatment and control
+group homes and radon measurements post-weatherization in ~18 homes that received ventilation
+packages meeting ASHRAE 62.2 standards
+
+1
+
+A similar summary report will be prepared for the Recovery Act Period WAP evaluation. All reports will be posted at
+http://weatherization.ornl.gov
+
+xiii
+
+
+
+Detailed in-field observations of ~450 weatherization audits, measure installation processes, and
+final inspections conducted by 19 Subgrantees around the country
+
+
+
+In-field assessments of 105 homes weatherized in 2008 that appeared to save much more or much
+less energy than expected from modeling analyses
+
+
+
+Materials and interview notes to prepare 14 in-depth case studies of high-performing and unique
+local weatherization agencies
+
+
+
+Training experiences and career path expectations from a survey of over 800 individuals who
+received training at DOE weatherization training centers
+
+In PY 2008, the impact component of the retrospective evaluation found that:
+
+
+Approximately 35 million households were eligible for WAP in PY 2008
+
+
+
+WAP funds supported the weatherization of 97,965 units in PY 2008: 59% single family site
+built, 18% mobile home, 5% small multifamily, and 18% large multifamily
+
+
+
+DOE expenditures on WAP were $236,000,000; including leveraged funding, the total
+expenditures on units weatherized were $481,000,000. The total spent by the national
+weatherization network in PY 2008 for weatherization was $850,000,000
+
+
+
+The average cost to weatherize a unit was $4,695 (the DOE share was 48%)
+
+
+
+WAP and leveraged expenditures supported directly and indirectly 8,500 jobs and increased
+national economic output by $1.2 billion
+
+
+
+The estimated first year program energy savings is 2,270,000 MMBtus.2 This is equivalent to
+nearly 400,000 barrels of oil.
+
+
+
+Site built homes averaged 29.3 MMBtus of savings in the first year3
+
+
+
+Households appeared not to take-back energy savings post-weatherization
+
+
+
+Large variations in energy savings are more influenced by changes in occupant behaviors and
+changes in primary heating fuel and use of secondary heating sources than by work quality issues
+
+
+
+The net present value of the program energy cost savings in 2013 dollars is $420,000,000 and the
+net present value per unit weatherized is $4,890, $340,000,000 and $4243 in 2008 dollars.
+
+
+
+78% of these savings accrued to households and 22% to rate payers of utilities that have
+Percentage of Income Payment Programs
+
+
+
+Carbon emissions were reduced by 2,246,000 metric tons4; criteria pollutants by 5,271 short tons
+
+2
+
+This is a conservative estimate as it only includes about one-third of the units weatherized in large multifamily buildings in PY
+2008, those in New York City.
+3
+For comparison purposes, WAP saved an average of 17.6 MMBtus of energy in site built homes in PY 1989.
+4
+This about the amount of carbon emitted by 600,000 average automobiles in the US.
+
+xiv
+
+
+
+The net present value of the environmental emissions benefits is $252,000,000; the net present
+value per weatherized unit is $2,932; a water savings benefit is $186 per unit for a total benefit of
+$14,000,0000
+
+
+
+Weatherization effectively deals with CO issues found in homes, and slightly increases
+formaldehyde in mobile homes and radon levels in site built homes located in high radon areas of
+the country
+
+
+
+Ventilation installed according to ASHRAE5 62.2 guidelines may reduce radon levels in
+weatherized homes
+
+
+
+The surveyed households reported that post-weatherization: their homes were less drafty: the
+general health of the household members improved; respondents suffered fewer asthma
+symptoms; their homes were less infested with pests; there were fewer instances of thermal stress;
+and respondents missed fewer days of work
+
+
+
+The present value of a limited set household health and home-related non-energy benefits for the
+WAP is approximately $1,137,000,000; the present value per single family and mobile home is
+$14,148
+
+The process component of the evaluation found that:
+
+
+There is a richness and diversity in how local weatherization programs are organized and
+operated across the country, by crew (in-house vs. contractor), energy audits (computerized vs.
+priority lists), context (urban vs. rural impacts job scheduling)
+
+
+
+Weatherization is complex, involving over 100 different categories of work and over 800
+different actions
+
+
+
+The national weatherization network offers a comprehensive set of training opportunities and
+certifications
+
+
+
+Weatherization work performed in the field is generally well done but there are opportunities to
+improve the technical aspects of the work and client energy education
+
+
+
+Successful local programs exhibit the characteristics of well-managed non-profit organizations
+with respect to mission, commitment, respect, quality, innovation, and resilience
+
+
+
+94% of surveyed households were satisfied or very satisfied with the weatherization program
+
+
+
+Over 80% of auditors, crew chiefs, and crew members are satisfied or very satisfied with almost
+every aspect of their jobs
+
+WAP faces numerous challenges and opportunities moving forward. The main challenges are related to
+maintaining and improving work quality, dealing with health and safety issues found in homes, and
+meeting the likely growing demand for program services over time. Major opportunities are related to
+increasing cooperation and leveraging relationships with the healthy homes and medical communities to
+achieve even higher levels of energy savings and non-energy benefits.
+
+5
+
+American Society of Heating, Refrigerating and Air Conditioning Engineers
+
+xv
+
+
