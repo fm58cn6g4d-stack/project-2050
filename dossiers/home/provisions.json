@@ -48,9 +48,10 @@
     "decisions": [
       "DEC-2026-11-09-06",
       "DEC-2026-11-09-10",
-      "DEC-2026-11-09-11"
+      "DEC-2026-11-09-11",
+      "DEC-2026-11-09-14"
     ],
-    "parameters": "Common application, shared access points, one household record, income found once reused for 12 months, defined hand-offs; consent-based record sharing until the regular bill passes; the record holds only basic information collected for everyone, no citizenship or immigration status (status findings stay with the housing agency: proposed, for Espen); statutory bar on use or sharing for immigration enforcement, with penalties (taxpayer-information model proposed, for Espen); R1 readiness tranche (proposed $0.75B, range $0.5-1B)",
+    "parameters": "Common application, shared access points, one household record, income found once reused for 12 months, defined hand-offs; consent-based record sharing until the regular bill passes; the record holds only basic information collected for everyone, no citizenship or immigration status (status findings stay with the housing agency); statutory bar on use or sharing for immigration enforcement, with penalties (taxpayer-information model, 26 U.S.C. 7213 and 7431); R1 readiness tranche of $0.75B",
     "eligibility": "Applicants to HOU-1D, HOU-4A, HOU-4D, HOU-4.08",
     "vehicle": [
       {
@@ -91,9 +92,10 @@
       "DEC-2026-11-09-01",
       "DEC-2026-11-09-02",
       "DEC-2026-11-09-10",
-      "DEC-2026-11-09-12"
+      "DEC-2026-11-09-12",
+      "DEC-2026-11-09-14"
     ],
-    "parameters": "Stage 1 people with no home of their own: literally homeless, and families with children doubled up, shown by their own word or a school record, no deadline test and no cap; order by local need-based intake, counts published yearly, a two-year imbalance triggers review (DEC-2026-11-09-12); stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters from 2038; within stage: severity, youngest children, date; older non-disabled renters reconsidered once the care program is scoped",
+    "parameters": "Stage 1 people with no home of their own: literally homeless, and families with children doubled up, shown by their own word or a school record, no deadline test and no cap; order by local need-based intake, counts published yearly, a two-year imbalance triggers review (DEC-2026-11-09-12); stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters from 2038; within stage: severity, youngest children, date; older non-disabled renters reconsidered once the care program is scoped; within stages 2 and 3, memo 2's order is national guidance and local need-based intake decides",
     "eligibility": "As stated; local preferences allowed, no residency rules",
     "vehicle": [
       {
@@ -180,9 +182,10 @@
     "status": "decided",
     "decisions": [
       "DEC-2026-11-09-02",
-      "DEC-2026-11-09-10"
+      "DEC-2026-11-09-10",
+      "DEC-2026-11-09-17"
     ],
-    "parameters": "Bars refusal or different terms because rent is paid with housing assistance; Fair Housing Act remedies; effective 2030; mandatory Fair Housing Initiatives Program testing and enforcement grants 2030-34 (proposed $100M a year, range $60-200M)",
+    "parameters": "Bars refusal or different terms because rent is paid with housing assistance; Fair Housing Act remedies; effective 2030; mandatory Fair Housing Initiatives Program testing and enforcement grants 2030-34 ($100M a year)",
     "eligibility": "Rental housing covered by the Fair Housing Act",
     "vehicle": [
       {
@@ -248,9 +251,10 @@
     "agenda": "HOU-4",
     "status": "decided (memo 2 condition); definition and services with the care flagship",
     "decisions": [
-      "DEC-2026-11-09-01"
+      "DEC-2026-11-09-01",
+      "DEC-2026-11-09-14"
     ],
-    "parameters": "Enrollment from 2038; vouchers or awards attached to reserved accessible homes; HCBS offered, never a condition; pace with care flagship and section 6",
+    "parameters": "Enrollment from 2038; vouchers or awards attached to reserved accessible homes; HCBS offered, never a condition; pace with care flagship and section 6; SSI, SSDI or Medicaid disability coverage counts as proof of disability",
     "eligibility": "ELI renter households with a member with a long-term disability (definition with care flagship)",
     "vehicle": [
       {
@@ -438,11 +442,12 @@
     "id": "HOU-4.13",
     "title": "Tribal housing: set-asides, through tribes, by self-determination",
     "agenda": "HOU-4",
-    "status": "decided; set-aside sizes proposed, for Espen",
+    "status": "decided",
     "decisions": [
-      "DEC-2026-11-09-10"
+      "DEC-2026-11-09-10",
+      "DEC-2026-11-09-16"
     ],
-    "parameters": "Set-asides as shares of decided amounts (proposed: 3% of the emergency fund and its start; 3% of new-award money; 5% of HOU-3C.01 grants); tribes and TDHEs eligible HOU-3C.02 borrowers; paid by the Native American Housing Block Grant formula under NAHASDA and each tribe's housing plan, no state pass-through; form of help follows the tribe's plan, with the shared tenant protections; need report by 2032 (proposed); tribal high-cost treatment in HOU-2D.01 (proposed); tribal reporting from the shared record",
+    "parameters": "Set-asides as shares of decided amounts (3% of the emergency fund and its start; 3% of new-award money; 5% of HOU-3C.01 grants); tribes and TDHEs eligible HOU-3C.02 borrowers; paid by the Native American Housing Block Grant formula under NAHASDA and each tribe's housing plan, no state pass-through; form of help follows the tribe's plan, with the shared tenant protections; need report by 2032; tribal high-cost treatment in HOU-2D.01; tribal reporting from the shared record",
     "eligibility": "Tribes and tribally designated housing entities",
     "vehicle": [
       {
@@ -535,9 +540,10 @@
       "DEC-2026-11-09-06",
       "DEC-2026-11-09-10",
       "DEC-2026-11-09-11",
-      "DEC-2026-11-09-12"
+      "DEC-2026-11-09-12",
+      "DEC-2026-11-09-14"
     ],
-    "parameters": "Enrollment opens 2034, up to 300,000 a year; a right from 2037; $135B is an estimate, not a cap; exit at 80% of AMI (youngest-child rule judgment); duty to house from 2037: search help and landlord recruitment, and an offer of an attached home or a reissued voucher with a higher payment standard when a search fails (60-day deadline proposed, for Espen); decisions within 30 days or deemed approved, with checks after award; private right of action with attorney's fees; tribal share (HOU-4.13)",
+    "parameters": "Enrollment opens 2034, up to 300,000 a year; a right from 2037; $135B is an estimate, not a cap; exit at 80% of AMI (youngest-child rule judgment); duty to house from 2037: search help and landlord recruitment, and an offer of an attached home or a reissued voucher with a higher payment standard when a search fails (offer within 60 days, continuing until housed); decisions within 30 days or deemed approved, with checks after award; private right of action with attorney's fees; tribal share (HOU-4.13)",
     "eligibility": "Unassisted ELI renter households with a child under 18 and severe problems; from 2034 also families with children with no home of their own (doubled up or homeless; DEC-2026-11-09-12)",
     "vehicle": [
       {
@@ -568,9 +574,11 @@
     "status": "decided",
     "decisions": [
       "DEC-2026-11-09-04",
-      "DEC-2026-11-09-02"
+      "DEC-2026-11-09-02",
+      "DEC-2026-11-09-16",
+      "DEC-2026-11-09-17"
     ],
-    "parameters": "Back rent and utilities plus up to two months ahead, deposit or moving; cap four months of FMR (HUD indexes); one episode in 12 months, two in 3 years; legal help paid separately; permanent",
+    "parameters": "Back rent and utilities plus up to two months ahead, deposit or moving; cap four months of FMR (HUD indexes); one episode in 12 months, two in 3 years; legal help paid separately; permanent; annual cap of four months' FMR per household per 12 months across any number of crises (replaces the episode limits); second crisis in 12 months prompts referral to long-term help; administrator tracks use, income verified through tax data where possible and easy; repeat use published with a review trigger",
     "eligibility": "Renters at or below 50% AMI or enrolled in SNAP, Medicaid or SSI, facing a crisis now",
     "vehicle": [
       {
@@ -632,7 +640,8 @@
     "status": "decided",
     "decisions": [
       "DEC-2026-11-09-02",
-      "DEC-2026-11-09-10"
+      "DEC-2026-11-09-10",
+      "DEC-2026-11-09-16"
     ],
     "parameters": "One administrator per place (states, localities of 200,000+, and tribes or tribally designated housing entities); links to courts, legal aid, 211; need-and-performance formula; first-year error-rate sample published yearly; monthly payment-level data standard shared with HOU-4.02; tribal share set aside and paid by the block grant formula (HOU-4.13; proposed 3%)",
     "eligibility": "Grantees",
@@ -786,11 +795,13 @@
     "id": "HOU-3C.04",
     "title": "Published production targets: three numbers",
     "agenda": "HOU-3C",
-    "status": "decided (three numbers, Espen in session November 9; decision entry pending); the numbers proposed, for Espen",
+    "status": "decided; state shares of the direct count proposed, for Espen",
     "decisions": [
-      "DEC-2026-11-09-10"
+      "DEC-2026-11-09-10",
+      "DEC-2026-11-09-14",
+      "DEC-2026-11-09-17"
     ],
-    "parameters": "Proposed: (1) homes the plan pays for, credits included: about 1.3 million built or preserved over 2030-39 (0.8-1.9 million): construction money about 900,000 (grant-financed plus loan-only homes), low-income credit 300,000, middle-income trial 60,000, neighborhood credit 150,000, less 100,000 counted twice; at least 120,000 for ELI renters (100,000-160,000); current-law credit production not counted; new, preserved, rental, for sale and net additions reported apart. (2) Zoning-reward places: homes finished at least 1% of their stock within five years of the award above their prior pace; about 600,000 added homes nationally (250,000-1.8 million). (3) National goal: 15 million homes finished over 2030-39 (13-16.5 million), holding the 2022-25 pace; the plan's own net addition about 1.0 million, net of crowd-out and of the overlap between (1) and (2). Yearly reporting by place and income band; state shares of (1) follow grant and credit shares and gate HOU-9A.01",
+    "parameters": "(1) homes the plan pays for, credits included: about 1.3 million built or preserved over 2030-39 (0.8-1.9 million): construction money about 900,000 (grant-financed plus loan-only homes), low-income credit 300,000, middle-income trial 60,000, neighborhood credit 150,000, less 100,000 counted twice; at least 120,000 for ELI renters (100,000-160,000); current-law credit production not counted; new, preserved, rental, for sale and net additions reported apart. (2) Zoning-reward places: homes finished at least 1% of their stock within five years of the award above their prior pace; about 600,000 added homes nationally (250,000-1.8 million). (3) National goal: 15 million homes finished over 2030-39 (13-16.5 million), holding the 2022-25 pace; the plan's own net addition about 1.0 million, net of crowd-out and of the overlap between (1) and (2). Yearly reporting by place and income band; state shares of (1) follow grant and credit shares (proposed, for Espen) and gate HOU-9A.01",
     "eligibility": "—",
     "vehicle": [
       {
@@ -1030,9 +1041,11 @@
     "agenda": "HOU-2D",
     "status": "decided (memo 3 part 1 D)",
     "decisions": [
-      "DEC-2026-11-09-08"
+      "DEC-2026-11-09-08",
+      "DEC-2026-11-09-16",
+      "DEC-2026-11-09-17"
     ],
-    "parameters": "AHCIA allocation ($4.25 per resident in 2025, then 1.25 times, indexed), net of the 2025 law's increase; 150% basis boost where 20% or more of homes serve households at or below 30% of AMI or poverty; rural and tribal high-cost treatment proposed, for Espen; eligible for attached awards in tight markets",
+    "parameters": "AHCIA allocation ($4.25 per resident in 2025, then 1.25 times, indexed), net of the 2025 law's increase; 150% basis boost where 20% or more of homes serve households at or below 30% of AMI or poverty; tribal high-cost treatment (DEC-2026-11-09-16); rural high-cost treatment proposed, for Espen; eligible for attached awards in tight markets; the bond-deal basis boost (AHCIA section 308) left out",
     "eligibility": "Buildings allocated credits by state agencies",
     "vehicle": [
       {
@@ -1062,9 +1075,10 @@
     "agenda": "HOU-2D",
     "status": "decided (memo 3 part 1 D)",
     "decisions": [
-      "DEC-2026-11-09-08"
+      "DEC-2026-11-09-08",
+      "DEC-2026-11-09-14"
     ],
-    "parameters": "High-cost areas only (DDAs; metros where new-building rents exceed 30% of AMI); rents at least 10% below a checked market rent for comparable new homes; 60-100% of AMI averaging 80%; permanent affordability; first call for zoning-reward winners; awards 2030-34 at about $0.50 per resident a year, 15-year credit worth 50% of basis; part awarded by lottery for evaluation, renewed only if it adds homes (report dates proposed, for Espen); states with no eligible area move their share to LIHTC; re-read against GAO's July 2027 study",
+    "parameters": "High-cost areas only (DDAs; metros where new-building rents exceed 30% of AMI); rents at least 10% below a checked market rent for comparable new homes; 60-100% of AMI averaging 80%; permanent affordability; first call for zoning-reward winners; awards 2030-34 at about $0.50 per resident a year, 15-year credit worth 50% of basis; part awarded by lottery for evaluation, renewed only if it adds homes (reports by 2034 and 2037); states with no eligible area move their share to LIHTC; re-read against GAO's July 2027 study",
     "eligibility": "Rental buildings in high-cost areas",
     "vehicle": [
       {

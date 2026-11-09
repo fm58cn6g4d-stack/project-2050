@@ -1,6 +1,6 @@
 # Point 5: the rules for emergency rent help
 
-Role: a note for Espen on point 5 of "Recommended without a memo" in `3-design.md` (delivery rules for emergency aid), worked out rule by rule. Status: approved by Espen as written, all eight rules and the five-line summary, on November 8, 2026 (Notion comment "All approved", 14:10 UTC, on the mirrored page; restated to the reviewer session at 14:35 UTC: "Point 5: yes, as written"). These rules are now the working choice for section 4 to specify; the decisions-log entry follows in the batched housing-decisions PR with memos 3-8.
+Role: a note for Espen on point 5 of "Recommended without a memo" in `3-design.md` (delivery rules for emergency aid), worked out rule by rule. Status: approved by Espen as written, all eight rules and the five-line summary, on November 8, 2026 (Notion comment "All approved", 14:10 UTC, on the mirrored page; restated to the reviewer session at 14:35 UTC: "Point 5: yes, as written"). Rule 3's episode limits were amended on November 9 (`DEC-2026-11-09-16`, `-17`; see rule 3). These rules are now the working choice for section 4 to specify; the decisions-log entry follows in the batched housing-decisions PR with memos 3-8.
 
 **What this note does and does not decide.** It recommends the rules any emergency rent program in the plan should carry. It does not choose the fund's size or vehicle, which stay with memo 6 (`memos/6-prevention.md`): the rules work under A ($85 billion one time), B ($40 billion one time) or C (a standing fund with a smaller start, recommended there). Where a rule matters more under one option, the note says so. It does not edit the memo or `3-design.md`.
 
@@ -14,7 +14,7 @@ Role: a note for Espen on point 5 of "Recommended without a memo" in `3-design.m
 | --- | --- | --- |
 | 1. Eligibility | Low-income renters (at or below 50% of area median income, or already enrolled in a means-tested program) facing a housing crisis now; no "caused by" test | Law |
 | 2. Risk screen | Rank eligible applicants with a short, tested risk score; court cases go first | Law sets the principle; guidance sets the tool |
-| 3. Payment caps | Back rent plus up to two months ahead, capped by local rent levels; one episode a year | Law sets the cap; guidance the figure |
+| 3. Payment caps | Back rent plus up to two months ahead, capped by local rent levels; an annual cap of four months' Fair Market Rent per household, usable across crises (amended November 9) | Law sets the cap; guidance the figure |
 | 4. Self-attestation and sample checks | Let tenants state income and hardship; check identity and the landlord before paying; audit a random sample after | Guidance only, but write the permission into law so it lasts |
 | 5. Landlord applications | Landlords may start applications with the tenant's consent; pay the landlord first, the tenant if the landlord won't take it; pay within 30 days | Law for who gets paid; guidance for the rest |
 | 6. Payment-error measurement | Estimate the error rate from a random sample in year one and publish it yearly | Law and a small appropriation |
@@ -53,6 +53,8 @@ Role: a note for Espen on point 5 of "Recommended without a memo" in `3-design.m
 ## 3. Payment caps
 
 **Recommendation.** Pay back rent and utilities owed plus up to two months of future rent, a deposit or moving costs, capped at a multiple of the area's Fair Market Rent (for example, four months' worth); one episode per household in 12 months, two in three years. Legal help and services are paid separately and do not count against the cap.
+
+**Amended November 9, 2026** (`DEC-2026-11-09-16`, `DEC-2026-11-09-17`). The episode limits give way to an annual cap of four months of the area's Fair Market Rent per household in any 12 months, usable across any number of crises. A second crisis within 12 months prompts a referral to long-term help. The local or state administrator tracks use, with income verified through tax data where that is possible and easy, and HUD publishes the share of payments going to repeat users, with a review trigger rather than an automatic cutoff. Section 4 writes the amended rule (HOU-1D.01).
 
 **Evidence.**
 - Short, small help is what worked in the trials: about $2,000 a household in Santa Clara County (MIT Press Reader on Phillips and Sullivan, 2023) [EV-HOU-109], one-time payments in Chicago [EV-HOU-108].
@@ -142,7 +144,7 @@ Role: a note for Espen on point 5 of "Recommended without a memo" in `3-design.m
 ## Summary for Espen (approve or amend)
 
 1. Eligibility and risk: help renters at or below 50% of area income (or already on SNAP, Medicaid or SSI) who face a housing crisis now, ranked by a short tested risk screen, court cases first (law).
-2. Payments: back rent plus up to two months ahead, capped by local rents, one episode a year; legal help paid separately (law, with the figure by guidance).
+2. Payments: back rent plus up to two months ahead, capped by local rents, at most four months' Fair Market Rent per household in 12 months across any number of crises (amended November 9); legal help paid separately (law, with the figure by guidance).
 3. Checks: tenants may state income and hardship; identity, tenancy and the landlord's ownership checked before paying; a random sample audited after (guidance, written into law so it lasts).
 4. Landlords: may apply with tenant consent; paid first, tenants paid if they refuse; no eviction for paid months; payment within 30 days (law for the payee order, guidance for the rest).
 5. Accountability: error rate measured from year one and published; one administrator per place with a need-and-performance formula; one payment-level data standard with a duplicate check (law and small appropriations).
