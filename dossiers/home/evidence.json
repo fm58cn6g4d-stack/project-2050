@@ -6076,7 +6076,9 @@
   "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
   "supports": [
    "dossiers/home/road-act.md",
-   "dossiers/home/3-design.md"
+   "dossiers/home/3-design.md",
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ]
  },
  {
@@ -6333,7 +6335,9 @@
   "recheck": "2027-07-11",
   "context": "Enacted federal law (primary law).",
   "supports": [
-   "dossiers/home/road-act.md"
+   "dossiers/home/road-act.md",
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ]
  },
  {
@@ -10429,7 +10433,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-07-16",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Harvard JCHS blog, July 16, 2026, tabulating HUD 2023 AHS. Lowest quintile is household income under $37,500."
  },
@@ -10458,7 +10463,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-12-31",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Federal Reserve Bank of Philadelphia community development brief (E. Divringi), December 2025; 2023 AHS problems priced with Gordian RSMeans 2024 costs. Author calls the estimates conservative (AHS does not ask about lead, indoor air or water). Not comparable with the 2019 estimates."
  },
@@ -10481,7 +10487,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "HUD press release, September 2024 (Biden administration), restating AHHS II (fieldwork 2018-2019). The full AHHS II Lead Findings report (October 2021) is no longer at its hud.gov address; other HUD summaries put homes with LBP at 34.6 million (29.4%)."
  },
@@ -10572,7 +10579,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "CPSTF (independent panel supported by CDC) finding of June 2008, based on a systematic review of 23 studies (Crocker et al. 2011). Effects for adults inconclusive.",
   "corroboration": [
@@ -10652,7 +10660,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-10-06",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "CRS, October 2026, from HUD HOME National Production Reports. Unit counts are completions in the year, not funding commitments."
  },
@@ -10674,7 +10683,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-01-30",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "CRS, January 2026 (before P.L. 119-101). Rule description is law; the effect on minor repairs is CRS analysis.",
   "corroboration": []
@@ -10700,7 +10710,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-03-31",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "CRS, April 2026. Second Trump administration justified eliminating HOME as federal involvement increasing \"the regulatory burden\"; Congress (P.L. 119-75) rejected it."
  },
@@ -10728,7 +10739,8 @@
   "checked": "2026-11-09",
   "recheck": "2026-12-11",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "CRS, September 3, 2026. Status as of that date; check final FY2027 THUD law. For 2029, these programs remain annually appropriated. Re-check: CR expiry."
  },
@@ -10848,7 +10860,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-01-30",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "CRS, January 2026, citing USDA Handbook HB-1-3550. USDA's own fact sheet (rd.usda.gov, blocked to downloads) gives the same caps and a $50,000 combined maximum. Annual 504 funding and households served were not obtained."
  },
@@ -11007,7 +11020,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-01-30",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "CRS, January 2026."
  },
@@ -11034,7 +11048,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-06-26",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "ACEEE (efficiency advocacy research nonprofit) blog, June 2025, on report B2504; survey of 3 state agencies and 63 local providers, 2023 data, not a random sample.",
   "corroboration": [
@@ -11172,7 +11187,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Borenstein and Davis (UC Berkeley), NBER working paper July 2024, published in the National Tax Journal March 2025; IRS SOI data; no outside funding declared. Includes EV credits; residential credits alone show the same 10%/60% split (results section of the paper).",
   "corroboration": [
@@ -11288,7 +11304,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-05-29",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "DOE, Biden administration, December 2024. The 2026 notices (EV-HOU-630, EV-HOU-631) do not list these rental terms among superseded items, but they drop the Consumer Protection Plan and inspections, so enforcement of the rent terms rests on states; check the revised guidance. The same document names the split incentive as a reason multifamily is underserved (sec. 3.1.3). Re-check: DOE revised guidance promised in the 2026 notices."
  },
@@ -11500,7 +11517,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "ACEEE, June 2025, survey of weatherization agencies (self-reported estimates); advocacy nonprofit (stake: supports weatherization readiness funds).",
   "corroboration": [
@@ -11531,7 +11549,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "DOE Building Technologies Office peer review, July 2023 (Biden administration); NREL/LBNL project estimates in slides, not a final report. A 2026 LBNL paper (Murphy et al.) estimates 58% of single-family homes have 200A or more; read only through search snippets, not entered.",
   "corroboration": [
@@ -11685,7 +11704,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "JAMA Network Open, July 2021; describes program rules as of the study; current income limits are higher (see EV-HOU-648)."
  },
@@ -11719,7 +11739,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "JAMA Network Open, 2021; peer-reviewed; authors at University of Pennsylvania; data supplied by City of Philadelphia. Observational difference-in-differences, not randomized.",
   "corroboration": []
@@ -11750,7 +11771,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "SocArXiv preprint posted December 2022 (not peer reviewed); University of Pennsylvania authors using city administrative data. Figures are program administrative data reported by the authors."
  },
@@ -11776,7 +11798,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "PHDC program page read 2026-11-09 (undated). PHDC runs BSRP for the City. The tax/water current requirement screens out owners already in arrears, the group repair programs might keep from tax foreclosure."
  },
@@ -11799,7 +11822,8 @@
   "checked": "2026-11-09",
   "recheck": "2026-09-30",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "City of Philadelphia DHCD, draft CAPER submitted to HUD, September 2025; recheck when the FY2026 CAPER is posted."
  },
@@ -11876,7 +11900,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Urban Institute, September 2022, interview-based; no uptake counts given.",
   "corroboration": [
@@ -11914,7 +11939,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "PA DCED guidelines, September 2023 (Shapiro administration), implementing the 2022 statute; primary program rules."
  },
@@ -11969,7 +11995,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "U.S. EPA profile (January 2024) relaying PA DCED staff views; the administering agency has a stake in the program.",
   "corroboration": [
@@ -12003,7 +12030,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Demos advocacy case study, November 2024, citing DCED data (stake: campaign supporter). DCED primary report not found."
  },
@@ -12027,7 +12055,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Demos, November 2024; advocacy organization that backed the program.",
   "corroboration": [
@@ -12093,7 +12122,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-10-19",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "90.5 WESA news, October 19, 2026; reports a federal pilot modeled on the program in the ROAD to Housing Act."
  },
@@ -12124,7 +12154,8 @@
   "checked": "2026-11-09",
   "recheck": "2026-11-30",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "City of Detroit Coordinated Home Repair Task Force report on 2024, posted November 2025; Renew Detroit roof program (ARPA) accounted for 79% of roof repairs."
  },
@@ -12154,7 +12185,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "University of Michigan Poverty Solutions, October 2020, using program data from the city/LISC. The program closed for an overhaul in 2026 (not anchored here)."
  },
@@ -12184,7 +12216,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-01-31",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "NYC HPD statutory report to City Council (FY26); collections as reported by Department of Finance, June 2026, excluding interest."
  },
@@ -12233,7 +12266,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Enacted New York State law (June 2019); primary law. Upon vacancy the landlord may add any remaining balance (same section)."
  },
@@ -12259,7 +12293,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Los Angeles Housing Department program overview (2023 upload, fee effective 2022); fee may have changed since. Escrow mechanics per LAMC 162.00 not quoted here."
  },
@@ -12287,7 +12322,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "UT Austin law clinic report, November 2021, based on city records requests; advocacy stance. Evidence that enforcement without repair money can displace owners and renters.",
   "corroboration": [
@@ -12314,7 +12350,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Housing Policy Debate, 2019; peer-reviewed, cross-sectional OLS (correlational). Supports pairing subsidized repair with rent conditions.",
   "corroboration": [
@@ -12347,7 +12384,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-09",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ],
   "context": "Massachusetts Office of the Attorney General program report, April 2019 (self-reported, stake); mostly vacant and abandoned homes, so it shows receivership finance, not effects on occupied rentals.",
   "corroboration": []
@@ -12374,7 +12412,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-06-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "JCHS (Harvard), June 2026; tabulations of ACS 1-year 2024 and ICE Mortgage Monitor. Independent academic center; funders include industry and foundations. Re-check: State of the Nation's Housing 2027."
  },
@@ -12401,7 +12440,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-08-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "JCHS Housing an Aging Society Program, August 2025, from ACS 2023. The post also attributes coming hardship to the 2025 reconciliation law (opinion, not used). Re-check: next JCHS older-adult tabulation of 2025 ACS."
  },
@@ -12437,7 +12477,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-05-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "HUD under the second Trump administration, spring 2026. Amounts and counts are data; need figures come from HUD's Worst Case Housing Needs 2025 report. Re-check: FY2028 Congressional Justification."
  },
@@ -12464,7 +12505,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Biden administration press release. Proposed units, not completed homes; per-home cost is the note writer's arithmetic. Re-check: next OAHMP award round."
  },
@@ -12486,7 +12528,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-05-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Second Trump administration proposal (2025); Congress did not adopt it (FY2026 enacted level in EV-HOU-672). Shows the risk to the program's base by 2029. Re-check: FY2028 budget."
  },
@@ -12511,7 +12554,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Terner Center (UC Berkeley), 2022. No age breakdown of ADU builders was found; older owners' uptake is a gap."
  },
@@ -12540,7 +12584,9 @@
   "checked": "2026-11-09",
   "recheck": "2027-07-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Enacted law (became law without the President's signature, per SRC-0438). The pilot exists in 2029 only if appropriated; no amount is authorized in the section text read. Re-check: GAO report due; FY2027 appropriations."
  },
@@ -12567,7 +12613,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Primary law. It protects surplus equity after a tax sale; it does not stop the tax foreclosure itself. Re-check: state law changes after Tyler."
  },
@@ -12591,7 +12638,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "GAO audit, 2019. FHA data then missed the termination reason for about 30 percent of loans; GAO lists its recommendations as implemented. Re-check: check for a newer GAO or HUD OIG HECM review."
  },
@@ -12615,7 +12663,8 @@
   "checked": "2026-11-09",
   "recheck": "2026-12-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "HUD/FHA under the second Trump administration, December 2025; capital ratios rest on model assumptions (the independent actuarial review put HECM economic net worth at $16.603 billion). Re-check: FY2026 annual report."
  },
@@ -12638,7 +12687,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Biden-era FHA servicing rule; still in force as of the FY2025 report, which lists further loss-mitigation changes for forward loans only. Paperwork: servicers must document borrower contact and finances; borrowers must certify occupancy yearly. Re-check: check Handbook 4000.1 for later HECM servicing changes."
  },
@@ -12661,7 +12711,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Federal Reserve Board staff working paper (Health and Retirement Study panel). The 2010 journal version reports 0.73 points and says the estimate applies to program compliers and may not generalize.",
   "corroboration": [
@@ -12695,7 +12746,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "ITEP, published November 9, 2026; a progressive think tank that promotes circuit breakers (stake). Counts are its compilation, not official."
  },
@@ -12718,7 +12770,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "California LAO, 2018, nonpartisan legislative office. One state; deferral (a loan with a lien) differs from a circuit-breaker credit. Re-check: check State Controller PTP counts.",
   "corroboration": [
@@ -12752,7 +12805,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Pew Charitable Trusts Philadelphia research initiative; Pew calls the count an undercount (death-record matching only)."
  },
@@ -12773,7 +12827,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-01-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Written by Uniform Law Commission staff (sponsor of the act). Other secondary sources give 26 or 27 jurisdictions in 2026; check the ULC enactment map before citing a number. Re-check: ULC year-end update."
  },
@@ -12799,7 +12854,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "JAMA Internal Medicine 2019, NIH-funded; authors developed CAPABLE (stake). Effect at 12 months was not significant (see EV-HOU-688). Re-check: check for replication trials.",
   "corroboration": [
@@ -12826,7 +12882,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Reported second-hand by the CAPABLE authors; the CMS evaluation was not read. Grade C because it is nonrandomized and contested (EV-HOU-688). Re-check: try to obtain the CMS/Innovation Center evaluation itself.",
   "corroboration": [
@@ -12856,7 +12913,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Journal of the American Geriatrics Society 2021 commentary by Thomas Gill (Yale), not a CAPABLE author.",
   "corroboration": [
@@ -12885,7 +12943,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-05-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Biden administration, final weeks. Whether later rounds were funded under the second Trump administration was not checked. Re-check: FY2027 appropriations and next NOFO."
  },
@@ -12911,7 +12970,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-09-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "CDC (Biden administration), 2023. The $50 billion figure rests on 2015 costs; a 2024 CDC-affiliated study put 2020 nonfatal-fall spending near $80 billion (read only through a search tool, not used). Re-check: next CDC falls surveillance update."
  },
@@ -12936,7 +12996,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-10-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "KFF state survey, October 2026. Lists are not comparable across states; most people listed have intellectual or developmental disabilities (older adults were about 23% in KFF's 2025 note, read only through a search tool). Re-check: KFF 2027 survey."
  },
@@ -12963,7 +13024,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-10-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "Self-reported program data with no comparison group; outcome claims (feeling safer, able to stay home) are participant survey answers. Re-check: FY27 annual report."
  },
@@ -13098,7 +13160,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-09-30",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "CRS summary of P.L. 117-328. Advocacy letters (October 2026) urge an extension; none enacted as of 2026-11-09 to this search. Re-check: expiry date; check for extension."
  },
@@ -13122,7 +13185,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-11-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "RTI and LeadingAge LTSS Center for HHS ASPE, July 2019; comparison-group design, one state. LeadingAge represents service providers (stake).",
   "corroboration": []
@@ -13147,7 +13211,8 @@
   "checked": "2026-11-09",
   "recheck": "2027-12-01",
   "supports": [
-   "dossiers/home/research-repair-aging.md"
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ],
   "context": "AARP Research with NORC, 2024; AARP advocates aging-in-place policy (stake). Re-check: next AARP survey, usually every three years."
  }
