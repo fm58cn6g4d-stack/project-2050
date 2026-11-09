@@ -40,7 +40,7 @@
     "decisions": [
       "DEC-2026-11-09-06"
     ],
-    "parameters": "Common application, shared access points, one household record, income found once reused for 12 months, defined hand-offs",
+    "parameters": "Common application, shared access points, one household record, income found once reused for 12 months, defined hand-offs; consent-based record sharing until the regular bill passes",
     "eligibility": "Applicants to HOU-1D, HOU-4A, HOU-4D, HOU-4.08",
     "vehicle": [
       {
@@ -108,7 +108,7 @@
     "decisions": [
       "DEC-2026-11-09-01"
     ],
-    "parameters": "Tight market: vacancy <=4% two years or <50% lease-up in 180 days (judgment); 2030-31 vouchers everywhere; from 2032 up to 25% attached in tight markets, max 50% after evaluation; move with voucher after 12 months; no attached awards in tracts over 30% poverty; randomized evaluation by 2036",
+    "parameters": "Tight market: vacancy <=4% two years or <50% lease-up in 180 days (judgment); 2030-31 vouchers everywhere; from 2032 up to 25% attached in tight markets, max 50% after evaluation; move with a voucher after 12 months, funded from the household's own award; no attached awards in tracts over 30% poverty; randomized evaluation by 2036",
     "eligibility": "New awards under HOU-4A and HOU-4D",
     "vehicle": [
       {
@@ -118,7 +118,7 @@
       }
     ],
     "agency": "HUD",
-    "current_law": "Project-based voucher authority 42 U.S.C. 1437f(o)(13); cap disapplied for new awards",
+    "current_law": "Project-based voucher authority 42 U.S.C. 1437f(o)(13); change: its share cap is lifted for these awards",
     "evidence": [
       "EV-HOU-092",
       "EV-HOU-093",
@@ -309,7 +309,9 @@
     "agency": "HUD, with HHS",
     "current_law": "New",
     "evidence": [
-      "EV-HOU-105"
+      "EV-HOU-105",
+      "EV-HOU-312",
+      "EV-HOU-301"
     ],
     "sources": [],
     "cost_source": "section 6",
@@ -317,7 +319,7 @@
   },
   {
     "id": "HOU-4.11",
-    "title": "Supportive housing: engagement as a duty on providers, treatment never a condition",
+    "title": "Supportive housing: draft engagement standard (a duty on providers) and treatment access",
     "agenda": "HOU-4",
     "status": "principle decided (memo 5 B); parameters drafted from the research note (recommendations 1-3, 6, 8, 9), for Espen",
     "decisions": [
@@ -338,12 +340,24 @@
       }
     ],
     "agency": "HUD, VA, HHS",
-    "current_law": "Amends 24 CFR 578.75(h) and the HUD-VASH notice; research note dossiers/home/research-supportive-housing.md (evidence tags added when it merges)",
+    "current_law": "Amends 24 CFR 578.75(h) and the HUD-VASH notice; research note dossiers/home/research-supportive-housing.md",
     "evidence": [
       "EV-HOU-099",
       "EV-HOU-100",
       "EV-HOU-107",
-      "EV-HOU-238"
+      "EV-HOU-238",
+      "EV-HOU-321",
+      "EV-HOU-322",
+      "EV-HOU-323",
+      "EV-HOU-327",
+      "EV-HOU-332",
+      "EV-HOU-325",
+      "EV-HOU-300",
+      "EV-HOU-302",
+      "EV-HOU-304",
+      "EV-HOU-308",
+      "EV-HOU-318",
+      "EV-HOU-334"
     ],
     "sources": [],
     "cost_source": "none directly",
@@ -378,7 +392,12 @@
     ],
     "agency": "HHS (Medicaid), HUD",
     "current_law": "Revises shared rule 7's working answer",
-    "evidence": [],
+    "evidence": [
+      "EV-HOU-337",
+      "EV-HOU-339",
+      "EV-HOU-329",
+      "EV-HOU-338"
+    ],
     "sources": [],
     "cost_source": "section 6",
     "spec": "dossiers/home/4-specification.md"
@@ -422,7 +441,7 @@
     "decisions": [
       "DEC-2026-11-09-06"
     ],
-    "parameters": "$12.2B FY2030-39 planning allowance, covering intake through the common application",
+    "parameters": "$12.2B FY2030-39 planning allowance, covering intake through the common application; fees paid in full, never prorated, plus a one-time issuance fee per new award",
     "eligibility": "Housing agencies",
     "vehicle": [
       {
@@ -541,7 +560,7 @@
     "decisions": [
       "DEC-2026-11-09-02"
     ],
-    "parameters": "One administrator per place (states plus localities of 200,000+); links to courts, legal aid, 211; need-and-performance formula; first-year error-rate sample published yearly; monthly payment-level data standard shared with HOU-4.02",
+    "parameters": "One administrator per place (states, localities of 200,000+, and tribes or tribally designated housing entities); links to courts, legal aid, 211; need-and-performance formula; first-year error-rate sample published yearly; monthly payment-level data standard shared with HOU-4.02",
     "eligibility": "Grantees",
     "vehicle": [
       {
@@ -565,7 +584,9 @@
     "sources": [
       "SRC-0315",
       "SRC-1061",
-      "SRC-1066"
+      "SRC-1066",
+      "SRC-1068",
+      "SRC-0304"
     ],
     "cost_source": "inside HOU-1D; section 6",
     "spec": "dossiers/home/4-specification.md"
@@ -578,7 +599,7 @@
     "decisions": [
       "DEC-2026-11-09-04"
     ],
-    "parameters": "A one-time rent-help tranche smaller than $85B through the fund's network; HOU-1A's construction gap money moves to HOU-3C",
+    "parameters": "A one-time rent-help tranche smaller than $85B through the fund's network; HOU-3C keeps its decided amounts, so HOU-1A's construction gap money leaves the plan (yes-or-no for Espen: add it to HOU-3C instead)",
     "eligibility": "As HOU-1D.01",
     "vehicle": [
       {
@@ -624,7 +645,7 @@
       "EV-HOU-226"
     ],
     "sources": [],
-    "cost_source": "legacy HOU-3C about $0.075T inside ledger title 0.47",
+    "cost_source": "legacy: grant channel about $0.06T of HOU-3C's $0.075T midpoint, borrowed under C21; inside ledger title 0.47",
     "spec": "dossiers/home/4-specification.md"
   },
   {
@@ -880,7 +901,7 @@
     "id": "HOU-2.01",
     "title": "Housing tax credits (placeholder)",
     "agenda": "HOU-2",
-    "status": "open: options B and D before Espen",
+    "status": "open: memo 3 part 1 options A-D before Espen (PR #134 recommends D)",
     "decisions": [
       "DEC-2026-11-09-03"
     ],

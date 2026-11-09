@@ -1,11 +1,12 @@
 # A home you can keep: specification
 
-Role: section 4 of the housing dossier. It writes each design Espen has decided as provisions: what each does, its parameters, who is eligible, amounts and timing, the vehicle, the agency, how it changes current law, and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: draft (stage C, step 5). It builds on Espen's section 3 decisions (`DEC-2026-11-09-01` to `-06`). Those decisions are recorded in PR #135, which is waiting for Espen's label. The tax credits (HOU-2, memo 3 part 1) are still open and appear only as a placeholder. Supportive housing (HOU-4.11 and HOU-4.12) is drafted from the memo 5 research note, which is pushed but not yet merged. Costs: this section only cites figures that already exist in the ledger, the budget model or the legacy domain file. Where none exists it says "section 6", which prices everything with the budget model. Where a parameter rests on judgment and not on evidence or a decision, it says so.
+Role: section 4 of the housing dossier. It writes each design Espen has decided as provisions: what each does, its parameters, who is eligible, amounts and timing, the vehicle, the agency, how it changes current law, and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: draft (stage C, step 5). It builds on Espen's section 3 decisions (`DEC-2026-11-09-01` to `-06`). Those decisions are recorded in PR #135, which is waiting for Espen's label. The tax credits (HOU-2, memo 3 part 1) are still open and appear only as a placeholder. Supportive housing (HOU-4.11 and HOU-4.12) is drafted from the memo 5 research note (`research-supportive-housing.md`). Costs: this section only cites figures that already exist in the ledger, the budget model or the legacy domain file. Where none exists it says "section 6", which prices everything with the budget model. Where a parameter rests on judgment and not on evidence or a decision, it says so.
 
 ## How to read this section
 
 - **Status of each provision.** *Decided* means Espen decided the design. *Legacy working choice* means it was carried over as `chosen` and section 3 did not re-weigh it (`DEC-2026-10-30-02`). *Pending* means it waits on research. *Open* means it waits on Espen.
-- **Vehicles.** R2 is the FY2030 budget reconciliation bill (fall 2029), which carries housing under the legacy decision D5 (`3-design.md`, "Starting points"). R3 is a later reconciliation bill. A *regular bill* passes under the Senate's ordinary rules or the D2 rules change. *Appropriations* are the yearly discretionary bills. Reconciliation can carry only spending and revenue. So a rule with no budget effect, such as a fair-housing protection, a data-privacy rule or a change to who may apply for an existing program, goes in a regular bill even when its money rides R2. Where a program has both a mandatory part and an appropriated part, the provision names each part. Section 6 enters them in the budget model as `split` rows (`models/tools/budget/provisions.md`; `models/data/budget/provision-splits.csv`, which has no row yet). Changing a row's booking is an adopted-input change (tier 3) made in B6, so this section changes no model file.
+- **Vehicles.** R2 is the reconciliation bill on the FY2030 budget resolution, which carries housing under the legacy decision D5 (`3-design.md`, "Starting points"). In the scenario calendar its central date is about January 14, 2030. Its runs span June 2029 to December 2030, and in difficult runs it does not pass (`5-delivery.md`, "The vehicles in the calendar"). R3 is a later reconciliation bill. A *regular bill* passes under the Senate's ordinary rules or the D2 rules change. *Appropriations* are the yearly discretionary bills. Reconciliation can carry only spending and revenue. So a rule with no budget effect, such as a fair-housing protection, a data-privacy rule or a change to who may apply for an existing program, goes in a regular bill even when its money rides R2. Where a program has both a mandatory part and an appropriated part, the provision names each part. Section 6 enters them in the budget model as `split` rows (`models/tools/budget/provisions.md`; `models/data/budget/provision-splits.csv`, which has no row yet). Changing a row's booking is an adopted-input change (tier 3) made in B6, so this section changes no model file.
+- **Dates.** The calendar years in this section are the plan's targets. In the statute, each start date runs from enactment, with a latest date: for example, first awards within six months of enactment. Each award year's money stays available until spent, so a late R2 does not lose a year. This follows section 5.
 - **Agency.** HUD runs everything here unless a provision says otherwise. HUD's capacity is a section 5 question (`road-act.md`, "HUD's load").
 - **Shared rules** are written once, in HOU-4.01. Every other provision points there.
 
@@ -23,7 +24,7 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-4.08 | Stage 3: extremely low-income renters with long-term disabilities, from 2038 | Decided (memo 2 condition); definition and services with the care flagship | R2 (authorized now, effective 2038); section 6 and the financing settlement |
 | HOU-4.09 | Housing First as the federal rule for homelessness help | Decided (memo 5 B) | Executive action (January 2029); regular bill |
 | HOU-4.10 | A voluntary recovery-housing option, evaluated | Decided (memo 5 B) | R2 (mandatory, time-limited); appropriations |
-| HOU-4.11 | Supportive housing: engagement as a duty on providers, treatment never a condition | Principle decided (memo 5 B); parameters drafted from the research note, for Espen | Executive action and rule (2029); regular bill |
+| HOU-4.11 | Supportive housing: draft engagement standard (a duty on providers) and treatment access | Principle decided (memo 5 B); parameters drafted from the research note, for Espen | Executive action and rule (2029); regular bill |
 | HOU-4.12 | Services and workforce for supportive housing | Draft from the research note, for Espen | Care flagship's bill (Medicaid); R2 (HUD backstop) |
 | HOU-4A.01 | One million new awards, 2030-33 (stage 1 and the start of stage 2) | Decided (memos 1, 2, 8) | R2, mandatory |
 | HOU-4A.02 | Housing agency administration for the new awards | Decided with HOU-4A (legacy allowance) | R2, mandatory |
@@ -42,7 +43,7 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-7B.01 | The investor limit left as enacted | Decided (point 8) | None |
 | HOU-8.01 | Social housing pilot | Legacy working choice | R2 (through HOU-3C.02 and a small equity grant) |
 | HOU-9A.01 | A small federal builder from 2029 | Decided (memo 3 part 2, A-small) | Regular bill (the corporation); R2 (capital and loan authority) |
-| HOU-2.01 | Housing tax credits (placeholder) | **Open**: options B and D before Espen | Not written |
+| HOU-2.01 | Housing tax credits (placeholder) | **Open**: memo 3 part 1's options A-D before Espen (PR #134 recommends D) | Not written |
 
 ## 1. Rules shared by all housing help
 
@@ -62,7 +63,7 @@ Every provision below that tests income, status or need uses the definitions her
 | Residency | No residency requirement and no preference by length of residence in any new program (point 7), as the voucher rules already require (24 CFR 982.207) [EV-HOU-189] | — | This dossier |
 
 - **Vehicle.** The definitions are restated in a regular bill. In R2 they appear as conditions on the new money, which reconciliation can carry.
-- **Changes to current law.** None to 1437a. A new subsection disapplies 1437j(c) to the new awards; it rides the regular bill, because it has no budget effect.
+- **Changes to current law.** None to 1437a. The community-service rule binds only public housing residents, so it already misses voucher households. The new subsection disapplies 1437j(c) for households whose award is attached to a public housing unit, in redevelopment under HOU-5.02 or a social housing building. It rides the regular bill, because it has no budget effect.
 - **Open check.** The voucher tenant-payment rule (42 U.S.C. 1437f(o)) is not yet read (`shared-rules.md`, "Open checks"). Section 5 reads it before writing rent rules for attached awards.
 
 ### HOU-4.02 One rental help system
@@ -87,6 +88,7 @@ Espen asked that the guarantee, the vouchers and emergency rent help be "harmoni
    - *Health and benefits.* The common application offers enrollment in Medicaid and the child tax credit's monthly payments (section 7 checks reach; see "Interactions").
 4. **Data.** One household record format across HOU-1D and the new awards, using HOU-1D.03's payment-level standard. It carries a protected household identifier, so duplicates and hand-offs can be traced. Records are reused only where law allows (rule 5) and under the privacy rules in the regular bill.
 5. **Income found once.** An income finding made by any of the three programs, or by TANF, Medicaid or SNAP, counts for the others for 12 months (an extension of 1437a(a)(7)(D)). The 12-month window is judgment.
+6. **Until the regular bill passes.** R2 funds the data system. Programs share records under current law only with the household's written consent on the common application (`5-delivery.md`).
 
 - **Vehicle.** The money for systems and grantees rides R2 inside each program's administration allowance (HOU-4A.02; HOU-1D.03). The data-sharing authority and the privacy rules go in a regular bill.
 - **Agency.** HUD runs all three programs. This is a section 4 choice: memo 6 and the point 5 note leave the fund's agency open, and one agency is what makes one application and one record possible. The alternative is Treasury, which ran the 2021-22 Emergency Rental Assistance program [EV-HOU-150]. Section 5 tests HUD's capacity for it.
@@ -111,12 +113,14 @@ Espen asked that the guarantee, the vouchers and emergency rent help be "harmoni
 **Parameters** (memo 1 B):
 1. **Tight market.** A metro area or nonmetro county counts as tight when its rental vacancy is at or below 4% in two consecutive annual Census readings, or when fewer than half of new voucher holders there have leased up within 180 days in the latest year. The 4% line is the legacy builder trigger (`legacy/domains/domain-housing.md`, HOU-9). The lease-up test follows the search evidence [EV-HOU-092]. Both lines are judgment. HUD publishes the list each year.
 2. **Form by year.** The 2030-31 awards are tenant-based vouchers everywhere. From 2032, in tight markets only, up to 25% of each year's new awards may be attached to homes financed or bought under HOU-3C, HOU-8 or HOU-9A. HUD may raise the share to at most 50% after the evaluation in item 5. Elsewhere, every award is a tenant-based voucher. Both shares are judgment: memo 1 says the attached share "should start small and be tested."
-3. **Right to move.** After 12 months in an attached home, a household may move with a tenant-based voucher and search help (HOU-4.07). This follows current law's choice-mobility rule for project-based vouchers, which is not yet in the register. Its home is then re-attached for the next household.
+3. **Right to move.** After 12 months in an attached home, a household may move with a tenant-based voucher and search help (HOU-4.07). This follows current law's choice-mobility rule for project-based vouchers, which is not yet in the register. Its home is then re-attached for the next household. The move-out voucher is funded from the household's own award, so the household does not wait for the agency's next available voucher, as current law allows (`5-delivery.md`).
 4. **Where attached homes go.** No attached awards in census tracts with poverty above 30%. The exceptions are redevelopment under HOU-5.02 and acquisitions that preserve existing tenants' homes. The line is judgment; the reason is the mobility evidence [EV-HOU-090].
 5. **Evaluation.** HUD randomizes which eligible households are offered attached homes, or uses lotteries where there are more households than units. It compares lease-up, stability and neighborhood with tenant-based vouchers in the same markets, reporting by 2036.
 
 - **Vehicle.** R2: a condition on HOU-4A and HOU-4D money and on HOU-3C's grants and loans.
-- **Current law.** Uses the project-based voucher authority (42 U.S.C. 1437f(o)(13)). The plan's attached awards are new awards under it. Its cap on the share of a housing agency's vouchers that may be project-based does not apply to them. Section 5 confirms the statutory text.
+- **Current law.** Uses the project-based voucher authority (42 U.S.C. 1437f(o)(13)), and the plan's attached awards are new awards under it.
+- **Change to current law.** The statute exempts these awards from that authority's cap on the share of a housing agency's vouchers that may be project-based. Section 5 reads the cap and finds the attached awards would exceed it in some tight markets. Section 5 confirms the statutory text.
+- **Data.** Annual vacancy readings exist only for larger areas. Where none exists, the lease-up test applies alone; section 5 names the data source.
 - **Evidence.** [EV-HOU-092] [EV-HOU-093] [EV-HOU-118] [EV-HOU-090] [EV-HOU-114]. The register has no evaluation of attached help in tight markets (memo 1), which is why item 5 exists.
 
 ### HOU-4.05 Payment limits by neighborhood
@@ -172,7 +176,7 @@ Espen's condition on memo 2 (`DEC-2026-11-09-01`): extremely low-income renters 
 2. A regular bill makes Housing First the standard for homelessness help that HUD and HHS fund, including McKinney-Vento grants and the new awards: no requirement of treatment, sobriety or service participation to get or keep housing; services offered.
 3. The National Strategic Plan due in July 2027 [EV-HOU-238] is reissued to match.
 
-- **A baseline expectation of engagement.** Espen's direction for section 4 calls for supportive housing in which "no one is threatened with a return to homelessness for declining treatment but there is a baseline expectation of engaging with service navigators" (`DEC-2026-11-09-05`). HOU-4.11 writes it as a duty on providers, not a condition on tenants.
+- **A baseline expectation of engagement.** Espen's direction for section 4 (`DEC-2026-11-09-05`, paraphrased there) asks for supportive housing in which no one is threatened with a return to homelessness for declining treatment, but where there is a baseline expectation of engaging with service navigators. HOU-4.11 drafts that as a duty on providers, not a condition on tenants.
 - **For Espen (yes or no; not adopted).** Should the rule extend current law's precedent in the Emergency Solutions Grants [EV-HOU-237]? It would bar new federal homelessness money from going to places that remove people or their belongings without offering shelter or housing.
 - **Vehicle.** Executive action, then a regular bill. No direct cost.
 - **Evidence.** [EV-HOU-099] [EV-HOU-101] [EV-HOU-102] [EV-HOU-100] [EV-HOU-105] [EV-HOU-016].
@@ -180,16 +184,16 @@ Espen's condition on memo 2 (`DEC-2026-11-09-01`): extremely low-income renters 
 ### HOU-4.10 A voluntary recovery-housing option
 
 - **What it does.** Grants for recovery (sober) housing for people who choose it, never as a condition of help (memo 5 B). People with HOU-4A awards can use them there.
-- **Who receives grants.** Continuums of Care, for nonprofit operators that meet a national quality standard. The standard requires operators to accept residents on prescribed medicines, methadone and buprenorphine included (research note, recommendation 7).
+- **Who receives grants.** Continuums of Care, for nonprofit operators that meet a national quality standard. The standard requires operators to accept residents on prescribed medicines, methadone and buprenorphine included [EV-HOU-312] [EV-HOU-301] (research note, recommendation 7).
 - **Evaluation.** Outcomes are measured for people with active addiction, the group the trials missed [EV-HOU-105]. Placement is randomized where demand exceeds places.
 - **Timing.** 2030-34, renewed on the evaluation.
 - **Vehicle.** R2, mandatory and time-limited, for operations and evaluation. Capital comes through HOU-3C. After 2034, any renewal comes through appropriations.
 - **Cost.** Section 6.
 - **Evidence.** The register has no evaluation of recovery housing (memo 5). The option rests on judgment, and the evaluation is part of the design.
 
-### HOU-4.11 Supportive housing: the engagement standard and treatment access
+### HOU-4.11 Supportive housing: a draft engagement standard and treatment access (for Espen)
 
-Source: the memo 5 follow-up research note, `dossiers/home/research-supportive-housing.md`. Worker session_01UQzgBv1hxxPY6YUSFFYS1g wrote it on branch `claude/housing-supportive-housing-research`. It was pushed but not merged when this section was written. Its evidence entries (numbered from 300 up) are on that branch. This provision cites the note's recommendations by number, and its tags are added once the note merges.
+Source: the memo 5 follow-up research note, `dossiers/home/research-supportive-housing.md`, section 5. This provision cites that note's recommendations by number.
 
 **Status.** Espen's direction decides the principle (`DEC-2026-11-09-05`). The note's recommendations are recommendations: "Espen decides." So the parameters below are this section's working draft from them, for Espen's review, not decisions.
 
@@ -199,16 +203,16 @@ Source: the memo 5 follow-up research note, `dossiers/home/research-supportive-h
    - Contact is expected at least monthly, more often at first.
    - When a tenant does not engage, the provider follows a set protocol: visits, calls, letters, a peer, a change of worker.
    - Non-engagement can never end the lease, the subsidy or the tenant's place in the program. Tenancy follows the same lease rules as any other tenant's.
-   - The note finds that no program studied writes this guarantee explicitly. Finland's practice is closest. The design rests on judgment.
-2. **Close the gaps in current rules** (recommendation 2). Amend the Continuum of Care rule (24 CFR 578.75(h)) and the HUD-VASH requirement, so that not taking part in case management cannot end housing assistance. A HUD-VASH veteran who stops engaging moves to a regular voucher automatically.
+   - The contact level follows Housing First as first designed [EV-HOU-322] [EV-HOU-321]. Those programs listed the visit as a tenant requirement [EV-HOU-323], so the no-loss guarantee goes further. Finland's practice of escalating contact before any eviction step is closest [EV-HOU-327]. The design rests on judgment.
+2. **Close the gaps in current rules** (recommendation 2). Amend the Continuum of Care rule (24 CFR 578.75(h)) [EV-HOU-332] and the HUD-VASH requirement [EV-HOU-325], so that not taking part in case management cannot end housing assistance. A HUD-VASH veteran who stops engaging moves to a regular voucher automatically.
 3. **Treatment is never a condition, and is easy to get** (recommendation 3). Providers offer, or connect tenants to, on site or by visit:
    - medicines for opioid use disorder;
    - naloxone;
    - contingency management for stimulants;
-   - assertive community treatment or intensive case management for people with serious mental illness.
-4. **Priority** (recommendation 6). Scale first for chronically homeless people who use the most public services. HOU-4A's stage 1 awards pay their rent.
+   - assertive community treatment or intensive case management for people with serious mental illness [EV-HOU-300] [EV-HOU-302] [EV-HOU-304] [EV-HOU-308].
+4. **Priority** (recommendation 6). Scale first for chronically homeless people who use the most public services, where cost offsets are largest [EV-HOU-318]. HOU-4A's stage 1 awards pay their rent.
 5. **Measurement** (recommendation 8). Each program reports contact rates, housing retention, overdose deaths, medicine starts and exits by reason.
-6. **The Continuum of Care in 2029** (recommendation 9). Restore its priority for permanent housing, and reverse the treatment-participation scoring and the transitional-housing set-aside.
+6. **The Continuum of Care in 2029** (recommendation 9). Restore its priority for permanent housing, and reverse the treatment-participation scoring and the transitional-housing set-aside [EV-HOU-334] [EV-HOU-238].
 
 - **Vehicle.** Executive action and HUD rulemaking in 2029 for items 2 and 6. A regular bill writes items 1 and 3 into McKinney-Vento with HOU-4.09.
 - **Agency.** HUD, the VA (HUD-VASH) and HHS.
@@ -216,9 +220,9 @@ Source: the memo 5 follow-up research note, `dossiers/home/research-supportive-h
 
 ### HOU-4.12 Services and workforce for supportive housing
 
-1. **Medicaid first** (recommendation 4). The care flagship is asked to include tenancy-sustaining services, housing navigation and assertive community treatment in its home and community-based services expansion (HLT-4). States would then not depend on waivers, which must be budget neutral from 2027.
-2. **A HUD services backstop.** A HUD services grant pays for the same services for tenants without Medicaid. Payment is by contract with staffing and contact standards, not open fee-for-service billing; the note cites a state's fraud experience.
-3. **Workforce** (recommendation 5). Service funding is tied to wage floors and caseload limits, with peer-specialist training.
+1. **Medicaid first** (recommendation 4). The care flagship is asked to include tenancy-sustaining services, housing navigation and assertive community treatment in its home and community-based services expansion (HLT-4). States would then not depend on waivers, which must be budget neutral from 2027 [EV-HOU-337], after CMS withdrew its housing-services guidance [EV-HOU-339].
+2. **A HUD services backstop.** A HUD services grant pays for the same services for tenants without Medicaid. Payment is by contract with staffing and contact standards, not open fee-for-service billing, given Minnesota's ended housing benefit [EV-HOU-329].
+3. **Workforce** (recommendation 5). Service funding is tied to wage floors and caseload limits, with peer-specialist training. Behavioral health workforce shortages are projected [EV-HOU-338].
 
 - **Vehicle (split).** The Medicaid benefit is in the care flagship's bill. The HUD services grant rides R2 as mandatory money for 2030-39, with appropriations after that. This split is section 4's working choice. The note leaves the vehicle open.
 - **Cost.** Section 6, with the per-unit service cost and national need the note lists as evidence still needed. Offsets are counted only for the highest-use group (recommendation 6).
@@ -241,7 +245,7 @@ Source: the memo 5 follow-up research note, `dossiers/home/research-supportive-h
 ### HOU-4A.02 Housing agency administration
 
 - **What it does.** An administration allowance for the new awards, covering intake through the common application (HOU-4.02).
-- **Amount.** The legacy planning allowance of $12.2 billion over FY2030-39 on the whole million (`legacy/domains/domain-housing.md`, "PR #22 fee correction").
+- **Amount.** The legacy planning allowance of $12.2 billion over FY2030-39 on the whole million (`legacy/domains/domain-housing.md`, "PR #22 fee correction"). Fees for the new awards are paid in full, never prorated as yearly appropriations now allow, and include a one-time issuance fee for each new award (`5-delivery.md`). Section 6 checks the allowance against that rule.
 - **Vehicle.** R2, mandatory. HUD's own federal staff come through the agency rebuild line (CAP-7S and CAP-7), not here.
 - **Cost source.** The legacy file. It is carried inside HOU-4A's $162.2 billion working midpoint.
 
@@ -251,7 +255,7 @@ Source: the memo 5 follow-up research note, `dossiers/home/research-supportive-h
 1. **Who.** Renter households with income at or below the extremely low-income line (HOU-4.01), with at least one child under 18, unassisted, with severe problems (paying over half of income for rent, or living in severely inadequate housing, HUD's worst case needs test) [EV-HOU-186].
 2. **Enrollment.** Opens in 2034, up to 300,000 families a year in HOU-4.03's order. From 2037, every eligible family that applies gets help: the cap ends and help is a right.
 3. **Form.** HOU-4.04.
-4. **Staying eligible.** A family stays eligible while its income is under the low-income line at the annual review. When the youngest child turns 18, the family keeps its help until its next move or its income rises above that line. The exit rule is judgment; section 5 tests it.
+4. **Staying eligible.** A family stays eligible while its income is under the low-income line (80% of area median income) at the annual review. When the youngest child turns 18, the family keeps its help until its next move or its income rises above that line. The exit rule is judgment. It keeps families longer than memo 2's arithmetic, which costs enrolling the group, not how long families stay. Section 6 prices it, and Espen may prefer a tighter line, such as 50% of area median income.
 
 - **Amount.** The $135 billion over FY2030-39 is an estimate, not a cap, because stage 2 is a right from 2037 (memo 2 B).
 - **Vehicle.** R2, mandatory. It is enacted in 2029 with 2034 and 2037 effective dates.
@@ -300,7 +304,7 @@ Rules 2, 4 and 5 of `point-5-emergency-aid-rules.md`, as approved.
 
 Rules 6, 7 and 8 of the point 5 note.
 1. **Grantee network.**
-   - One administrator per place: every state, plus cities and counties of at least 200,000 people that choose to run their own program, with no overlap.
+   - One administrator per place: every state, plus cities and counties of at least 200,000 people that choose to run their own program, plus tribes or tribally designated housing entities, as in the last program [SRC-1068] [SRC-0304], with no overlap.
    - Each links to eviction court, legal aid and the local 211 line.
    - Money is allocated by a need formula and moved from slow to fast grantees on published measures.
 2. **Payment errors.** HUD estimates improper and unknown payments from a random sample in year one, and publishes the rate yearly with a target. It recovers errors from grantees, never by evicting tenants over honest mistakes [SRC-0315] [EV-HOU-154] [EV-HOU-182].
@@ -312,7 +316,7 @@ Rules 6, 7 and 8 of the point 5 note.
 ### HOU-1D.04 The one-time start, 2030-31
 
 - **What it does.** A one-time tranche of rent help through the fund's network in 2030-31, smaller than HOU-1A's $85 billion. It replaces HOU-1A.
-- **Building money.** HOU-1A's construction gap money moves into HOU-3C, which keeps its own amounts (memo 6 C).
+- **Building money.** HOU-3C stays at its decided amounts (about $72 billion of grants and $300 billion of loans; `DEC-2026-11-09-03`). So HOU-1A's construction gap money leaves the plan with HOU-1A; it is not added to HOU-3C. Gap financing is an eligible use within HOU-3C's existing amounts. Memo 6 C said the gap money "moves into the construction funds", while memo 3 part 3 B kept those funds' amounts. This section reads the two together as no added money. **For Espen (yes or no; not adopted):** keep it this way, or add HOU-1A's construction share to HOU-3C's grants, which would change amounts memo 3 kept.
 - **Rules.** The same as the standing fund (HOU-1D.01 to .03). The network is built once and stays.
 - **Amount.** Section 6 sizes the tranche.
 - **Vehicle.** R2, mandatory and one-time, so it makes no FY2040 claim (D4).
@@ -327,6 +331,7 @@ Rules 6, 7 and 8 of the point 5 note.
 - **For the poorest renters.** At least 30% goes out as grants or forgivable loans for homes for extremely low-income renters.
 - **Eligible uses.** New building, plus buying and preserving existing rental buildings and single-family homes, including tax-credit buildings whose rent limits are ending [EV-HOU-119].
 - **Vehicle.** R2, mandatory. It is borrowed inside the D4-B envelope as time-limited capital (ledger C21).
+- **Cost source.** Legacy file. The grant channel is about $0.06 trillion of HOU-3C's $0.075 trillion midpoint (range $0.061-0.10 trillion), and it is the part C21 borrows. The rest, about $0.015 trillion, is the loans' subsidy cost (HOU-3C.02). Both sit inside the ledger's housing title component ($0.47 trillion).
 - **Agency.** HUD, with state housing finance agencies.
 - **Current law.** New. It works beside HOME, with no set amount, and CDBG's new construction use (ROAD to Housing Act sections 501 and 204) [EV-HOU-215] [EV-HOU-226].
 - **Evidence.** [EV-HOU-118] [EV-HOU-150] [EV-HOU-119] [EV-HOU-024].
@@ -427,7 +432,7 @@ Rules 6, 7 and 8 of the point 5 note.
 
 ### HOU-2.01 Housing tax credits (open)
 
-> **Open; not specified.** Memo 3 part 1 was reopened by Espen on November 9 (`DEC-2026-11-09-03`). PR #134's research revision puts two options before Espen. This section does not choose.
+> **Open; not specified.** Memo 3 part 1 was reopened by Espen on November 9 (`DEC-2026-11-09-03`). PR #134's research revision puts four options before Espen: A (keep all three credits), B, C (all three with permanent affordability) and D. It now recommends D, where it recommended B before. The two summarized here are the earlier and current recommendations. This section does not choose.
 > - **B. Narrower credits, permanent affordability.**
 >   - Keep the bigger low-income credit with the boost for the poorest renters.
 >   - Postpone the middle-income credit until GAO's report, due July 2027 [EV-HOU-242].
@@ -495,12 +500,13 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 **Consistency notes.**
 - **Totals.** The ledger's housing title ($0.56 trillion midpoint: the $0.47 trillion title and $0.09 trillion of vouchers) predates every section 3 decision. It still carries HOU-1A, HOU-2A and HOU-6's separate fund as filed. HOU-4D is carried outside the ledger in `recovery-adoption.json`. Section 6 rebuilds all of these from this section's provisions, as `split` rows where marked.
 - **Regular-bill items.** HOU-4.01's definitions, HOU-4.02's data rules, HOU-4.05, HOU-4.06, HOU-4.09, HOU-1D.03's privacy rules, HOU-5.02, HOU-6.01's eligibility changes, HOU-6.02 and HOU-9A.01's corporation. With the legacy floor bill (ledger row HOU-7), they make one housing regular bill. Its floor time is a section 5 question.
-- **Not yet decided, flagged for Espen.** The tax credits (HOU-2.01). The supportive-housing parameters taken from the research note (HOU-4.11 and HOU-4.12). Extending the ESG no-sweeps precedent (HOU-4.09). The tight-market and attached-share parameters (HOU-4.04) and the stage 2 exit rule (HOU-4D.01) are section 4's own judgment. Section 4 also chose HUD to run the emergency fund (HOU-4.02). The reviewer and Espen may want any of these as yes-or-no questions.
+- **Not yet decided, flagged for Espen.** The tax credits (HOU-2.01). The supportive-housing parameters taken from the research note (HOU-4.11 and HOU-4.12). Extending the ESG no-sweeps precedent (HOU-4.09). Whether HOU-1A's construction gap money is dropped or added to HOU-3C (HOU-1D.04). The tight-market and attached-share parameters (HOU-4.04) and the stage 2 exit rule (HOU-4D.01) are section 4's own judgment. Section 4 also chose HUD to run the emergency fund (HOU-4.02). The reviewer and Espen may want any of these as yes-or-no questions.
 
 ## Evidence still needed
 
 - Section 504 accessibility minimums and the project-based voucher rules (choice mobility, the share cap), from the regulations. HOU-4.04 and HOU-3C.03 rely on them.
 - 42 U.S.C. 1437f(o) and 1437a(b)(5): the voucher tenant payment and the deductions (shared-rules open check).
 - Any evaluation of recovery housing (HOU-4.10) and of attached rental help in tight markets (HOU-4.04).
-- The supportive-housing note's evidence entries (numbered from 300 up), once it merges; and the gaps it lists: per-unit service cost and national need, homeless-services wages.
+- The gaps the supportive-housing note lists: per-unit service cost and national need, and homeless-services wages and turnover.
+- Rural and tribal housing: need, and how tribal housing programs fit the guarantee and the emergency fund (already a gap in `1-problem.md` and `3-design.md`).
 - The search-help design research (HOU-4.07).
