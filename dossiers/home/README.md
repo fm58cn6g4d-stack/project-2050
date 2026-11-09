@@ -36,9 +36,8 @@ Evidence register: `evidence.json`, entries EV-HOU-001 onward.
 
 ## Open questions for Espen
 
-1. **One housing question still open: doubled-up households in stage 1.** Espen asked for more research and a final recommendation (November 9). The other questions in the November 9 morning brief (Notion page 413de87bfd9c81cb8b10c90e1b8661b4) are decided: `DEC-2026-11-09-08` to `-11`.
+1. **The November 9 housing questions are decided** (`DEC-2026-11-09-08` to `-12`), the doubled-up question included, as one plain stage 1 test with no cap (`DEC-2026-11-09-12`). The parameters those decisions leave unset (the tribal set-aside's size, the production target's number) come to Espen from the fold-in pass.
 2. **Optional uploads for section 2.** HUD's Family Options Study reports and *A Picture of Subsidized Households*, and CBO's analysis of the 2023 immigration surge (publication 61464), would replace secondary summaries. The list is at the end of `2-what-works.md`.
 3. **Optional upload.** HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026) would raise the 2025 homelessness figures from grade C to A. The 2024 report and *Worst Case Housing Needs 2025* are in the library (thanks for uploading them).
-4. **Questions from sections 4-7, mostly decided.** Espen decided the main ones on November 9: the delivery items in section 5, the 2040 gap, the duty to house, the production target, mixed-status protection, the data firewall, the tribal approach, stage 2's exit line, and the supportive-housing and no-sweeps items (`DEC-2026-11-09-08` to `-11`). Still open:
-   - doubled-up households in stage 1 (question 1 above; research in `research-doubled-up.md`, PR #141);
+4. **Questions from sections 4-7, mostly decided.** Espen decided the main ones on November 9: the delivery items in section 5, the 2040 gap, the duty to house, the production target, mixed-status protection, the data firewall, the tribal approach, stage 2's exit line, and the supportive-housing and no-sweeps items and the doubled-up question (`DEC-2026-11-09-08` to `-12`). Still open:
    - the parameters those decisions leave unset (the tribal set-aside's size, the production target's number, the remaining cost questions in `6-cost.md` and validation questions in `7-validation.md`), which the fold-in pass proposes for Espen.
