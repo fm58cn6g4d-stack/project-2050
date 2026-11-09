@@ -1,6 +1,6 @@
 # A home you can keep: specification
 
-Role: section 4 of the housing dossier. It writes each design Espen has decided as provisions: what each does, its parameters, who is eligible, amounts and timing, the vehicle, the agency, how it changes current law, and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: draft (stage C, step 5). It builds on Espen's section 3 decisions (`DEC-2026-11-09-01` to `-06`) and on the later November 9 decisions (`-08` to `-11`): the tax credits (option D, written as HOU-2D), the capital timing, the design directions from sections 5-7, the data rule and stage 2's exit line. Those decisions are recorded in `charter/decisions.md`. The doubled-up question was decided after this pass began (`DEC-2026-11-09-12`); HOU-4.03 and HOU-4D.01 state it, and section 6 has yet to price stage 2's wider entry. Costs: this section cites figures that exist in the ledger, the budget model, the legacy domain file or section 6 (`6-cost.md`), which prices every provision. Where a parameter rests on judgment and not on evidence or a decision, it says so. Where a decision leaves a parameter open, it is marked **proposed, for Espen**, with its basis.
+Role: section 4 of the housing dossier. It writes each design Espen has decided as provisions: what each does, its parameters, who is eligible, amounts and timing, the vehicle, the agency, how it changes current law, and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: draft (stage C, step 5). It builds on Espen's section 3 decisions (`DEC-2026-11-09-01` to `-06`) and on the later November 9 decisions (`-08` to `-11`): the tax credits (option D, written as HOU-2D), the capital timing, the design directions from sections 5-7, the data rule and stage 2's exit line. Those decisions are recorded in `charter/decisions.md`. The doubled-up question was decided after this pass began (`DEC-2026-11-09-12`); HOU-4.03 and HOU-4D.01 state it, and section 6 prices stage 2's wider entry. Costs: this section cites figures that exist in the ledger, the budget model, the legacy domain file or section 6 (`6-cost.md`), which prices every provision. Where a parameter rests on judgment and not on evidence or a decision, it says so. Where a decision leaves a parameter open, it is marked **proposed, for Espen**, with its basis.
 
 ## How to read this section
 
@@ -9,6 +9,14 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 - **Dates.** The calendar years in this section are the plan's targets. In the statute, each start date runs from enactment, with a latest date: for example, first awards within six months of enactment. Each award year's money stays available until spent, so a late R2 does not lose a year. This follows section 5 (`5-delivery.md`, 3).
 - **Agency.** HUD runs everything here unless a provision says otherwise. HUD's capacity is a section 5 question (`road-act.md`, "HUD's load").
 - **Shared rules** are written once, in HOU-4.01. Every other provision points there.
+- **Design lens** (`DEC-2026-11-09-13`: guide, don't police). Each test, document, deadline, cap or quota below should earn its place against the burden it adds. This pass made these changes:
+  1. *Stage 1's test* is one plain test with no cap, shown by the family's word or a school record (HOU-4.03; decided in `DEC-2026-11-09-12`).
+  2. *Order within a stage* follows local need-based intake. Memo 2's order (severity, youngest children, date) becomes national guidance, not a rule, in stages 2 and 3 (HOU-4.03; section 4's own judgment, changed here).
+  3. *Stage 2's severe-problems test* is shown by the family's own statement of rent and conditions, with income found once, and checked after award (HOU-4D.01; section 4's judgment, following section 5's self-certification).
+  4. *The duty to house* has a deadline for the agency, not a cutoff for the family: offers continue until the family is housed (HOU-4D.01; proposed, for Espen).
+  5. *Stage 3's disability test* accepts records the government already holds, such as SSI, SSDI or Medicaid disability coverage, as proof (HOU-4.08; proposed, for Espen, with the care flagship).
+  6. *The emergency fund's episode limits* (one in 12 months, two in three years; point 5, rule 3) are decided and unchanged. **Proposed, for Espen:** replace them with a published count of repeat use and a review trigger, since a household in its third crisis is often the one most at risk (HOU-1D.01).
+  Requirements kept because they earn their place: the agency-side deadlines and reallocation rules (section 5), which bind agencies, not households; the middle-income credit's market-rent check, which decides whether the credit buys anything (HOU-2D.02, decided); and the landlord ownership check before payment, which stopped the 2021 program's main fraud (HOU-1D.02, decided).
 
 ## The provisions at a glance
 
@@ -110,7 +118,7 @@ Espen asked that the guarantee, the vouchers and emergency rent help be "harmoni
 2. **Stage 2 (HOU-4A.01 from its first awards after stage 1 is served, then HOU-4D.01 from 2034).** Extremely low-income families with children with severe problems.
 3. **Stage 3 (HOU-4.08, from 2038).** Extremely low-income renters with long-term disabilities. Other households have no funded route in the 2030s. Older renters who are not disabled are reconsidered once the care program is scoped (`DEC-2026-11-09-10`).
 
-- **Within a stage.** Most severe problems first, then the youngest children, then date of application. That order is memo 2's example, adopted here as judgment.
+- **Within a stage.** In stage 1, local need-based intake decides the order, not quotas (`DEC-2026-11-09-12`). In stages 2 and 3, local intake also decides, with memo 2's example (most severe problems first, then the youngest children, then date of application) as national guidance, not a rule (judgment, under `DEC-2026-11-09-13`). The published counts (stage 1) and section 7's signals show whether the order works.
 - **Local preferences.** Housing agencies may keep local preferences inside a stage, but not residency or length-of-residence rules (24 CFR 982.207) [EV-HOU-189] (point 7).
 - **People at imminent risk** go to HOU-1D, not to this line (memo 8).
 - **Who counts as "without a home"** (`DEC-2026-11-09-12`). One plain test, "no home of your own": people literally homeless, and families with children who are doubled up. A family shows it by its own word or by an existing school record. There is no deadline test and no cap. The order within stage 1 follows local need-based intake, not quotas. Counts are published yearly, and an imbalance two years running triggers a review, not an automatic restriction. Doubled-up families are where tenant vouchers do best at reaching people [EV-HOU-114]. Section 5 sets the forms.
@@ -170,7 +178,7 @@ Espen asked that the guarantee, the vouchers and emergency rent help be "harmoni
 Espen's condition on memo 2 (`DEC-2026-11-09-01`): extremely low-income renters with long-term disabilities are a third stage from 2038. Their definition and services are designed with the care flagship, their cost is carried in section 6 and the financing settlement outside the $135 billion, and a share of accessible homes is set aside for them.
 
 **Parameters.**
-1. **Who.** Extremely low-income renter households (HOU-4.01) in which a member has a long-term disability, as defined with the care flagship. This dossier's placeholder is the voucher program's existing definition of a person with disabilities, pending that work.
+1. **Who.** Extremely low-income renter households (HOU-4.01) in which a member has a long-term disability, as defined with the care flagship. This dossier's placeholder is the voucher program's existing definition of a person with disabilities, pending that work. Proposed, for Espen, under `DEC-2026-11-09-13`: receipt of SSI or SSDI, or Medicaid coverage on the basis of disability, counts as proof, with no new disability finding.
 2. **When.** Enrollment opens in 2038, after stage 2 is complete. The pace is set with the care flagship and section 6.
 3. **Form.** Tenant-based vouchers, or awards attached to accessible homes reserved under HOU-3C.03. Help comes with home and community-based services offered through Medicaid (shared rule 7), never as a condition.
 4. **Accessible homes.** See HOU-3C.03.
@@ -285,7 +293,7 @@ Espen's direction (`DEC-2026-11-09-10`): tribal housing gets dedicated policy an
 ### HOU-4D.01 Stage 2: a guarantee for the poorest families with children
 
 **Parameters** (memo 2 B):
-1. **Who.** Renter households with income at or below the extremely low-income line (HOU-4.01), with at least one child under 18, unassisted, with severe problems (paying over half of income for rent, or living in severely inadequate housing, HUD's worst case needs test) [EV-HOU-186]. From 2034, families with children who have no home of their own under HOU-4.03's test, doubled up or homeless, can also enter (`DEC-2026-11-09-12`).
+1. **Who.** Renter households with income at or below the extremely low-income line (HOU-4.01), with at least one child under 18, unassisted, with severe problems (paying over half of income for rent, or living in severely inadequate housing, HUD's worst case needs test) [EV-HOU-186]. From 2034, families with children who have no home of their own under HOU-4.03's test, doubled up or homeless, can also enter (`DEC-2026-11-09-12`). The family shows severe problems by its own statement of rent and conditions, with income found once (HOU-4.02, item 5), checked after award (judgment, under `DEC-2026-11-09-13`; `5-delivery.md`, 2.2).
 2. **Enrollment.** Opens in 2034, up to 300,000 families a year in HOU-4.03's order. From 2037, every eligible family that applies gets help: the cap ends and help is a right.
 3. **Form.** HOU-4.04.
 4. **Staying eligible.** A family stays eligible while its income is under 80% of area median income at the annual review (`DEC-2026-11-09-11`). When the youngest child turns 18, the family keeps its help until its next move or its income rises above that line; that part is judgment. The rule keeps families longer than memo 2's arithmetic, which costs enrolling the group, not how long families stay; section 6 holds the count flat (`6-cost.md`, 1.3).
@@ -301,7 +309,7 @@ Espen's direction (`DEC-2026-11-09-10`): tribal housing gets dedicated policy an
 - **Vehicle.** R2, mandatory. It is enacted in 2029 with 2034 and 2037 effective dates.
 - **Current law.** New awards under 1437f(o), like HOU-4A.01.
 - **Evidence.** [EV-HOU-185] [EV-HOU-186] [EV-HOU-086] [EV-HOU-090] [EV-HOU-011] [EV-HOU-395] [EV-HOU-346].
-- **Cost source.** `housing_extra_tn` = 0.135 in `models/data/inputs/recovery-adoption.json`. Memo 2 arithmetic (not a score): about $114 billion through 2039 at full sign-up, or $123 billion with administration. Section 6's central figure is $81 billion over FY2030-39, plus about $3 billion for the duty to house (`6-cost.md`, 1.2).
+- **Cost source.** `housing_extra_tn` = 0.135 in `models/data/inputs/recovery-adoption.json`. Memo 2 arithmetic (not a score): about $114 billion through 2039 at full sign-up, or $123 billion with administration. Section 6's central figure is $81 billion over FY2030-39, plus about $14 billion for the wider entry under `DEC-2026-11-09-12` and about $3 billion for the duty to house (`6-cost.md`, 1.2).
 - **Charter follow-up.** The next charter PR renames HOU-4D to say what it buys (memo 2).
 
 ## 3. Emergency rent help
@@ -313,7 +321,7 @@ Espen's direction (`DEC-2026-11-09-10`): tribal housing gets dedicated policy an
 2. **Uses and caps (rule 3).**
    - Back rent and utilities, plus up to two months of future rent, a deposit or moving costs.
    - Total capped at four months of the area's Fair Market Rent. Four months is the note's example; HUD sets and indexes the multiple.
-   - One episode per household in 12 months, two in three years.
+   - One episode per household in 12 months, two in three years. (Proposed, for Espen, under `DEC-2026-11-09-13`: a published count of repeat use with a review trigger instead; see "How to read this section".)
 3. **Legal help (point 4).** Tenant legal help is an allowed use, paid apart from the cap. It is not a federal right to counsel.
 4. **Permanence.** A standing program with no end date.
 
@@ -576,7 +584,7 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 | Point 7: no residency rules | HOU-4.01, HOU-4.03 | R2 (conditions); regular bill | — | None |
 | Point 8: investor limit as enacted | HOU-7B.01 | None | Through 2042; revisit after 2037 | None |
 | Fork 7: construction workforce | Interactions, check 8 | — | — | — |
-| `DEC-2026-11-09-09`: FY2040 gap to the financing settlement; capital spent by 2039 | HOU-3C.01, HOU-3C.02, HOU-5.01 (timing) | — | Awards end 2037-38 | FY2040: about $81 billion of permanent cost; the capital tail falls from about $16 billion to about $8 billion (`6-cost.md`, 3.3) |
+| `DEC-2026-11-09-09`: FY2040 gap to the financing settlement; capital spent by 2039 | HOU-3C.01, HOU-3C.02, HOU-5.01 (timing) | — | Awards end 2037-38 | FY2040: about $87 billion of permanent cost, with every November 9 decision; the capital tail falls from about $16 billion to about $8 billion (`6-cost.md`, 3.3) |
 | `DEC-2026-11-09-10`: duty to house from 2037 | HOU-4D.01, HOU-4.07 | R2 | From 2037 | About $3 billion in FY2037-39 (placements) |
 | `DEC-2026-11-09-10`: a production target | HOU-3C.04 | Regular bill; R2 (reporting) | 2030-39 | None |
 | `DEC-2026-11-09-10`: mixed-status protection; repeal of HUD's proposed rule | HOU-4.01 | Executive action (January 2029); regular bill | From 2029 | None against current law |
@@ -584,13 +592,12 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 | `DEC-2026-11-09-10`: older non-disabled renters reconsidered after the care program is scoped | HOU-4.03 | — | — | None yet |
 | `DEC-2026-11-09-10`: section 5's delivery items | HOU-4.02 (R1 readiness), HOU-4.12 (wider backstop), HOU-4.06 (testing), HOU-4D.01 (deemed approval; private right of action), HOU-5.02 and HOU-4.11 (private rights of action) | R1; R2; regular bill | 2029 on | Readiness $0.75 billion in FY2029; others above; attorney's fees and deemed approval's error cost unpriced |
 | `DEC-2026-11-09-11`: the record holds basic information only, with an enforcement bar; stage 2's exit at 80% of area median income | HOU-4.02, HOU-4D.01 | Regular bill; R2 | From 2030 | None separately; the exit rule is inside stage 2's flat count |
-| `DEC-2026-11-09-12`: stage 1's plain test, doubled-up families with children included, no cap; stage 2 widened to them and to homeless families | HOU-4.03, HOU-4D.01 | R2 | From 2030; stage 2 from 2034 | Stage 2's wider entry not yet priced (section 6) |
+| `DEC-2026-11-09-12`: stage 1's plain test, doubled-up families with children included, no cap; stage 2 widened to them and to homeless families | HOU-4.03, HOU-4D.01 | R2 | From 2030; stage 2 from 2034 | About $14 billion in FY2037-39 and $6 billion in FY2040 (grade D count) |
 
 **Consistency notes.**
-- **Totals.** The ledger's housing title ($0.56 trillion midpoint: the $0.47 trillion title and $0.09 trillion of vouchers) predates every section 3 decision. It still carries HOU-1A, HOU-2A and HOU-6's separate fund as filed. HOU-4D is carried outside the ledger in `recovery-adoption.json`. Section 6 rebuilds them from this section's provisions: about $0.63 trillion over FY2030-39 (central, with option D's credits) and about $81 billion a year of permanent cost in FY2040. Its ledger and model changes are tier-3 proposals (`6-cost.md`, 5).
+- **Totals.** The ledger's housing title ($0.56 trillion midpoint: the $0.47 trillion title and $0.09 trillion of vouchers) predates every section 3 decision. It still carries HOU-1A, HOU-2A and HOU-6's separate fund as filed. HOU-4D is carried outside the ledger in `recovery-adoption.json`. Section 6 rebuilds them from this section's provisions: about $0.65 trillion over FY2030-39 (central, with option D's credits) and about $87 billion a year of permanent cost in FY2040. Its ledger and model changes are tier-3 proposals (`6-cost.md`, 5).
 - **Regular-bill items.** HOU-4.01's definitions and mixed-status protection, HOU-4.02's data rules and enforcement bar, HOU-4.05, HOU-4.06, HOU-4.09, HOU-4.11, HOU-4.13's NAHASDA rules, HOU-1D.03's privacy rules, HOU-3C.04's target, HOU-5.02, HOU-6.01's eligibility changes, HOU-6.02 and HOU-9A.01's corporation. With the legacy floor bill (ledger row HOU-7), they make one housing regular bill. Its floor time is a section 5 question.
 - **Still open for Espen.** Whether HOU-1A's construction gap money is dropped or added to HOU-3C (HOU-1D.04).
-- **Still to price.** Stage 2's wider entry under `DEC-2026-11-09-12` (section 6).
 - **Proposed, for Espen** (parameters the decisions leave open): the production target's number and state shares (HOU-3C.04); the tribal set-aside sizes, the 2032 tribal need report and the credit's tribal high-cost treatment (HOU-4.13, HOU-2D.01); the duty to house's 60-day deadline (HOU-4D.01); the record's handling of status findings and the penalty model (HOU-4.02); the R1 readiness amount (HOU-4.02); the testing money's size (HOU-4.06); the middle-income trial's report dates (HOU-2D.02).
 - **Section 4's own judgment.** The tight-market and attached-share parameters (HOU-4.04), the youngest-child part of stage 2's exit rule (HOU-4D.01), the capital's yearly splits (HOU-3C.01, HOU-3C.02, HOU-5.01), HUD as the emergency fund's agency (HOU-4.02), and the form rules for tribal shares (HOU-4.13).
 
