@@ -875,11 +875,11 @@
     "id": "HOU-3C.06",
     "title": "Homes for older and disabled renters inside HOU-3C, by each state's need",
     "agenda": "HOU-3C",
-    "status": "decided (memo 12 part 4 C; part 4 B to follow if GAO's study warrants)",
+    "status": "decided (memo 12 part 4 C; part 4 B added if GAO's study shows it merits it)",
     "decisions": [
       "DEC-2026-11-09-22"
     ],
-    "parameters": "Each state's revolving-fund plan and loan pipeline states its share for accessible homes for older and disabled renters near services, set by its own need; no federal quota; reported as its own line under HOU-3C.04; Section 202 construction added later only if GAO's capital-advance study shows it is faster",
+    "parameters": "Each state's revolving-fund plan and loan pipeline states its share for accessible homes for older and disabled renters near services, set by its own need; no federal quota; reported as its own line under HOU-3C.04; Section 202 construction added later if GAO's capital-advance study shows it merits it",
     "eligibility": "Older and disabled renters",
     "vehicle": [
       {

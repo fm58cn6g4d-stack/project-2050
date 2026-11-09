@@ -408,7 +408,7 @@ Each is yes or no, and none is adopted until you answer. Questions 1 and 5 are n
    - *Per-home limits:* up to $25,000 a home, plus $15,000 for lead or accessibility work; for landlords, up to $25,000 a unit for owners of up to 20 units.
    - *Tribal share of the repair fund:* 5%, as for the construction grants (HOU-4.13).
    - *Relocation help:* moving costs and up to three months' rent where a city orders tenants out of an unsafe home.
-   - *The property-tax match:* half of state relief above 3% of income, from FY2031, only above each state's 2028 effort. A lower threshold or a higher match rate costs more and adds to the FY2040 gap; dropping the maintenance-of-effort rule lets states swap federal money for their own.
+   - *The property-tax match:* half of state relief above 3% of income, from FY2031, only above each state's 2028 effort. The 3% floor is below the 4-6% memo 12 gave as an example; a 5% floor would cut the match's cost by roughly a third (judgment) and leave states free to start relief lower on their own money. A lower threshold or a higher match rate costs more and adds to the FY2040 gap; dropping the maintenance-of-effort rule lets states swap federal money for their own.
    - *Legal help:* $200 million a year. *Service coordinators:* $150 million a year more. *Home sharing:* $30 million a year, FY2031-39.
 
 ## Evidence still needed
