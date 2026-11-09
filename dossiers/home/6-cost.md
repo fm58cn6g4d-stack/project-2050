@@ -20,7 +20,7 @@ Role: section 6 of the housing dossier. It prices each provision of section 4 (`
    - The high case fails FY2040 and FY2041, and on this section's rough arithmetic FY2042 too. The low case passes.
    - So housing's new permanent costs are not yet paid for in FY2040. Espen decided that this gap goes to the financing settlement and that housing is not trimmed yet, and that slight overshoots in FY2040 are acceptable at this stage of design (`DEC-2026-11-09-09`; questions 1 and 5).
    - Stage 2's wider entry under `DEC-2026-11-09-12` is in these totals (section 2.7): about 0.4 million more eligible families (0.23-0.75 million), about $17 billion over FY2030-39 (8-54) and $8 billion in FY2040 (3-24). It accounts for about $8 billion of the FY2040 gap.
-4. **Lease-up is the softest input** (section 1.4). The central 90% leased is the cautious case for the fiscal rule. At 75% the plan costs about $0.59 trillion and houses about 2.0 million households in FY2042 rather than 2.4 million. At 57%, 2022's national search success rate, it costs about $0.55 trillion and houses about 1.5 million. From 2037 the duty to house lifts stage 2's share above these readings.
+4. **Lease-up is the softest input** (section 1.4). The central 90% leased is the cautious case for the fiscal rule. At 75% the plan costs about $0.60 trillion and houses about 2.2 million households in FY2042 rather than 2.7 million. At 57%, 2022's national search success rate, it costs about $0.56 trillion and houses about 1.7 million. These readings include stage 2's wider entry (section 2.7). From 2037 the duty to house lifts stage 2's share above these readings.
 5. **Stage 3 checks out at the lead's rough figure.** On HUD's 2023 counts, about 0.5-0.8 million households qualify if the stage covers people under 62 with severe housing problems. Fully enrolled, they cost about $14 billion a year in FY2042 dollars (range $8-26 billion). If stage 3 also covers disabled people 62 and over, the count could roughly double, and it is unpriced.
 
 ## 1. Each provision's cost
@@ -96,11 +96,11 @@ The leased share is the rental help lines' weakest input. National vouchers run 
 | 75% | $208 billion | $47 billion | 750,000 | 765,000 | 450,000 | 1.97 million |
 | **90% (central)** | **$248 billion** | **$57 billion** | **900,000** | **920,000** | **540,000** | **2.36 million** |
 
-The table leaves out the duty to house (section 2.5) and stage 2's wider entry (section 2.7). Under it, a stage 2 family whose search fails after 2037 is offered a placement, so at low lease-up the rows understate stage 2's cost and reach from FY2037 (judgment).
+The table leaves out the duty to house (section 2.5) and stage 2's wider entry (section 2.7); the readings below add the wider entry, scaled to each leased share (about $7 billion in FY2040 at 75%, $5-6 billion at 57%, and 255,000 and 195,000 families housed in FY2042). Under the duty to house, a stage 2 family whose search fails after 2037 is offered a placement, so at low lease-up the rows understate stage 2's cost and reach from FY2037 (judgment).
 
-**What each case means for the headline** (option D, with the re-timed capital; this section's arithmetic):
-- **At 75%:** housing costs about $0.59 trillion over the window and $80 billion in FY2040. The permanent lines then fail FY2040 by about $2 billion; with the capital tail, by about $10 billion. About 390,000 fewer households are housed in FY2042.
-- **At 57%:** about $0.55 trillion and $69 billion. The permanent lines pass FY2040 by about $10 billion, and with the tail by about $1 billion. About 870,000 fewer households are housed in FY2042.
+**What each case means for the headline** (option D, with the re-timed capital and stage 2's wider entry; this section's arithmetic):
+- **At 75%:** housing costs about $0.60 trillion over the window and $87 billion in FY2040. The permanent lines then fail FY2040 by about $9 billion; with the capital tail, by about $17 billion. About 440,000 fewer households are housed in FY2042.
+- **At 57%:** about $0.56 trillion and $74 billion. The permanent lines pass FY2040 by about $4 billion, but with the tail FY2040 fails by about $4 billion. About 990,000 fewer households are housed in FY2042.
 
 **Why the central figure stays at 90%.** Two reasons; neither is a forecast that the plan will reach 90%.
 - **It is the cautious case for the fiscal rule.** Cost rises with lease-up, so the test should be passed at the lease-up the plan is built to reach, not at a shortfall that would also mean the plan failed people.
@@ -108,7 +108,7 @@ The table leaves out the duty to house (section 2.5) and stage 2's wider entry (
 
 **The 57% figure is a lower bound, not a steady state.** It is the share of searches that succeed. A voucher whose search fails goes back to be reissued, so the leased share of awards over time sits above one-shot search success. The national 84% occupancy shows the gap.
 
-**For reach, read the 75% row beside the central one.** Section 7 rates lease-up at risk, and the first awards land in tight markets. Until the plan's own data show otherwise, households housed should be reported as a range: about 2.0-2.4 million across the three stages in FY2042. Lower lease-up is not a saving. The money stays available until spent, so unleased awards are help not delivered, and from 2037 the duty to house requires a placement for a stage 2 family whose search fails (HOU-4D.01, `DEC-2026-11-09-10`). Section 7 sets a warning line: below 70% leased at 18 months nationally. No decision changes here.
+**For reach, read the 75% row beside the central one.** Section 7 rates lease-up at risk, and the first awards land in tight markets. Until the plan's own data show otherwise, households housed should be reported as a range: about 2.2-2.7 million across the three stages in FY2042, with stage 2's wider entry. Lower lease-up is not a saving. The money stays available until spent, so unleased awards are help not delivered, and from 2037 the duty to house requires a placement for a stage 2 family whose search fails (HOU-4D.01, `DEC-2026-11-09-10`). Section 7 sets a warning line: below 70% leased at 18 months nationally. No decision changes here.
 
 ## 2. The new costs the decisions add
 
