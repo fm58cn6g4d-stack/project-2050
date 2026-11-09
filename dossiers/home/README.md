@@ -1,6 +1,6 @@
 # Dossier: A home you can keep (flagship 3)
 
-Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C. Level: the housing items Espen decided in section 3 (`DEC-2026-11-09-01` to `-06`) are at L2 in `agenda/agenda.csv`; the rest stay at L1, the tax credits included since `DEC-2026-11-09-08` (`DEC-2026-10-30-03`, PR #75); their designs are carried over from `legacy/domains/domain-housing.md`. The target is L3, with priority pieces at L4.
+Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C. Level: the housing items Espen decided in section 3 (`DEC-2026-11-09-01` to `-06`, and the tax credits in `DEC-2026-11-09-08`) are at L2 in `agenda/agenda.csv`; the rest stay at L1 (`DEC-2026-10-30-03`, PR #75); their designs are carried over from `legacy/domains/domain-housing.md`. The target is L3, with priority pieces at L4.
 
 **What it brings together:**
 - rental help as a guarantee;
