@@ -1,6 +1,6 @@
 # Memo 11: Repairing and renovating homes people already have
 
-Role: decision memo for Espen, part 2 of the section 3 addendum (`../3-design.md`, "Addendum, part 2: repair and renovation; aging in place"). Status: awaiting Espen's decision; three parts, each decided on its own. The research is in `../research-repair-aging.md`, sections 1 to 5. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Costs and counts marked "judgment" are this dossier's estimates, not official scores.
+Role: decision memo for Espen, part 2 of the section 3 addendum (`../3-design.md`, "Addendum, part 2: repair and renovation; aging in place"). Status: decided by Espen (November 9, 2026; `DEC-2026-11-09-21`): part 1 C, part 2 B, part 3 B, with Espen open to part 3 C (merging repair and Weatherization) if the clean-power dossier finds it workable or preferable. Section 4 writes them as HOU-12.01 to .03. The research is in `../research-repair-aging.md`, sections 1 to 5. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Costs and counts marked "judgment" are this dossier's estimates, not official scores.
 
 ## The question
 
