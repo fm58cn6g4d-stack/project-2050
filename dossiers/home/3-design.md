@@ -431,6 +431,14 @@ Espen decides each item, yes or no. Sources are named in plain text, with the re
    - *Against:* the project's durability rule avoids sunsets on permanent policy (`legacy/domains/domain-housing.md`, HOU-7), and a later Congress could simply let the ban lapse.
    - *For Espen (yes or no):* leave the investor limit as enacted and decide after the 2037 reports (HOU-7B)? A "no" keeps HOU-7's main point: the regular bill removes the 2042 sunset. Its added reporting would still be dropped as already law, which is a change to HOU-7 under either answer.
 
+## Addendum, part 2: repair and renovation; aging in place
+
+Espen asked on November 9, 2026 for ways to make sure homeowners and renters can affordably repair or renovate their homes, crossing with the clean-power agenda, and for policies to help older people stay in their homes as they age, if they want to but are at financial risk of losing them, under an "age with dignity" frame, crossing with care. This addendum adds forks for both; the forks above, and part 1's (homeownership and broad supply, memos 9 and 10, PR #158), are unchanged. The research is `research-repair-aging.md` (EV-HOU-600 to 699).
+- **Memo 11, `memos/11-repair.md`** (three parts): a standing ten-year home repair fund for low- and moderate-income owners through states, cities and tribes, with one plain income test and no credit test (recommended); landlord repair loans with the ROAD to Housing Act pilot's three-year rent term, city repair funds, receivership and relocation help (recommended); and one front door with the clean-power heat-pump and weatherization programs, the fund paying for the repairs that make a home ready (recommended).
+- **Memo 12, `memos/12-aging-in-place.md`** (four parts): a federal match for state property-tax relief for older owners that enrolls them from records and offers deferral (recommended); an older-adult track in the repair fund on the CAPABLE model, leaving the clinical benefit to the care program (recommended); legal help for tangled titles and wills, reverse-mortgage relief written into law, and a payment-plan offer before tax sales (recommended); and HOU-3C pointed at older renters' homes with service coordinators (recommended). Rental help for older renters who are not disabled still waits on the care program (`DEC-2026-11-09-10`).
+
+Sections 4-9 take up whichever options Espen chooses; nothing here is adopted by silence.
+
 ## How the choices fit together
 
 Taken together, the recommendations make one design:
@@ -500,5 +508,7 @@ Seven decision memos, one per fork, in `memos/`:
 7. `memos/8-who-first.md`: who the guarantee reaches first.
 
 Memos 1, 2, 3 and 8 now weigh the legacy rental-help and construction designs (HOU-4A, HOU-4D, HOU-3C) as options (`DEC-2026-10-30-02`). Memo 2 recommends changing what HOU-4D buys; memo 1 recommends attaching part of HOU-4A's later cohorts in tight markets; memo 3 recommends keeping HOU-3C's amounts and adding acquisition.
+
+Addendum, part 2 (November 2026): `memos/11-repair.md` (three parts) and `memos/12-aging-in-place.md` (four parts), each part decided on its own.
 
 Also a yes or no on fork 7 and on each of the eight points under "Recommended without a memo". On point 8 the recommendation has changed: leave the Act's investor limit as enacted (HOU-7B) rather than remove its 2042 sunset now (HOU-7, as chosen).

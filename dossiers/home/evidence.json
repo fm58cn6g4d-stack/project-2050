@@ -6076,7 +6076,9 @@
   "context": "Nonpartisan legislative-branch agency; summary of the enacted law dated October 20, 2026. Graded C as a secondary summary; the enacted text (SRC-0438) is the primary source where the two differ.",
   "supports": [
    "dossiers/home/road-act.md",
-   "dossiers/home/3-design.md"
+   "dossiers/home/3-design.md",
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
   ]
  },
  {
@@ -6333,7 +6335,9 @@
   "recheck": "2027-07-11",
   "context": "Enacted federal law (primary law).",
   "supports": [
-   "dossiers/home/road-act.md"
+   "dossiers/home/road-act.md",
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
   ]
  },
  {
@@ -10376,5 +10380,2840 @@
   "supports": [
    "dossiers/home/memos/3b-bond-boost.md"
   ]
+ },
+ {
+  "id": "EV-HOU-600",
+  "statement": "In the 2023 American Housing Survey, nearly 6.45 million homes (around 5% of the stock) were classified as inadequate, of which 1.65 million were severely inadequate; more renters (3.5 million) than owners (2.8 million) lived in inadequate housing.",
+  "claim": "data",
+  "figures": [
+   "6.45 million",
+   "1.65 million",
+   "5%",
+   "3.5 million",
+   "2.8 million"
+  ],
+  "source": "SRC-1920",
+  "anchor": [
+   "In 2023, nearly 6.45 million homes, around 5% of U.S housing stock, were classified as inadequate according to the American Housing Survey (AHS). Of these, 1.65 million homes were classified as severely inadequate",
+   "with more renters (3.5 million) than owners (2.8 million)"
+  ],
+  "locator": "paragraphs 1 and 6",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "NAHB (home builders' trade association) economics blog, March 2025, tabulating HUD/Census AHS 2023. Counts are AHS data; NAHB has a remodeling-market stake. Census AHS tables could not be fetched directly. Re-check: 2025 AHS release."
+ },
+ {
+  "id": "EV-HOU-601",
+  "statement": "In 2023, 2.9 million homeowner households (3.3 percent) lived in moderately or severely inadequate units; homes built before 1960 were inadequate at 5.4 percent, four times the 1.3 percent rate for homes built in 2010 or later. Among owners of pre-1960 homes, the lowest income quintile spent an average of $3,400 on improvements and repairs versus $12,700 for the highest, and 29 percent of lowest-quintile owners lived in a pre-1960 home.",
+  "claim": "data",
+  "figures": [
+   "2.9 million",
+   "3.3 percent",
+   "5.4 percent",
+   "1.3 percent",
+   "$3,400",
+   "$12,700",
+   "29 percent"
+  ],
+  "source": "SRC-1918",
+  "anchor": [
+   "In 2023, 2.9 million homeowner households (3.3 percent) lived in units classified by HUD as moderately or severely inadequate",
+   "Homes built before 1960 were the most likely to be classified as inadequate, at 5.4 percent, four times the 1.3 percent rate for owner-occupied homes built in 2010 or later.",
+   "owners in the highest income quintile spent an average of $12,700 on improvements and repairs in 2023, three times the $3,400 average for owners in the lowest income quintile",
+   "In 2023, 29 percent of homeowners in the lowest income quintile lived in a home built before 1960."
+  ],
+  "locator": "paragraphs 4-6 (Figures 2 and 3)",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-16",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Harvard JCHS blog, July 16, 2026, tabulating HUD 2023 AHS. Lowest quintile is household income under $37,500."
+ },
+ {
+  "id": "EV-HOU-602",
+  "statement": "The Philadelphia Fed estimated the cost of needed repairs to occupied homes at $198.4 billion in 2024; lower-income households made up 29.0 percent of occupied units but 37.6 percent ($74.6 billion) of costs. Owner-occupied units accounted for $128.2 billion, and 5.4 million households had repair needs costing $10,000 or more.",
+  "claim": "data",
+  "figures": [
+   "$198.4 billion",
+   "29.0 percent",
+   "37.6 percent",
+   "$74.6 billion",
+   "$128.2",
+   "5.4 million",
+   "$10,000"
+  ],
+  "source": "SRC-1919",
+  "anchor": [
+   "The total estimated cost of needed repairs to occupied housing units was $198.4 billion in 2024. Repair needs were concentrated among lower-income households, 1 which made up 29.0 percent of occupied units but accounted for 37.6 percent ($74.6 billion) of aggregate estimated repair costs.",
+   "While repair needs costing $10,000 or more were less common (4.1 percent), this figure translates to 5.4 million households nationwide.",
+   "| Owner-Occupied | 34.6% | 30.0 | $128.2 |"
+  ],
+  "locator": "Key Findings; Results; Appendix Table 1",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Federal Reserve Bank of Philadelphia community development brief (E. Divringi), December 2025; 2023 AHS problems priced with Gordian RSMeans 2024 costs. Author calls the estimates conservative (AHS does not ask about lead, indoor air or water). Not comparable with the 2019 estimates."
+ },
+ {
+  "id": "EV-HOU-603",
+  "statement": "HUD's American Healthy Homes Survey II found more than 34 million homes with lead paint somewhere in the building and approximately 3.3 million homes, including more than 2 million low-income households, with children under six facing one or more lead-based paint hazards.",
+  "claim": "data",
+  "figures": [
+   "34 million",
+   "3.3 million",
+   "2 million"
+  ],
+  "source": "SRC-1909",
+  "anchor": [
+   "more than 34 million homes in America have lead paint somewhere in the building and approximately 3.3 million homes\u2014including more than 2 million low-income households\u2014across the country have children less than six years of age facing one or more lead-based paint hazards"
+  ],
+  "locator": "paragraph 3",
+  "grade": "A",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "HUD press release, September 2024 (Biden administration), restating AHHS II (fieldwork 2018-2019). The full AHHS II Lead Findings report (October 2021) is no longer at its hud.gov address; other HUD summaries put homes with LBP at 34.6 million (29.4%)."
+ },
+ {
+  "id": "EV-HOU-604",
+  "statement": "For FY2026 the President's budget requested $0 for LIHEAP formula grants; Congress enacted $4,045 million (up from $4,025 million), and the omnibus did not adopt the proposed eliminations of LIHEAP and the Community Services Block Grant.",
+  "claim": "data",
+  "figures": [
+   "$4,045 million",
+   "$4,025 million"
+  ],
+  "source": "SRC-1916",
+  "anchor": [
+   "Low Income Home Energy Assistance Program Formula Grants\n4,025\n4,025\n0\n4,035\n4,045\n4,045",
+   "the President's budget proposed to eliminate funding for a number of other ACF programs and activities, such as the Low Income Home Energy Assistance Program (LIHEAP), the Community Services Block Grant (CSBG)",
+   "The FY2026 LHHS omnibus did not adopt these elimination proposals"
+  ],
+  "locator": "Table 7 (columns: FY2024 enacted, FY2025 estimate, FY2026 request, House committee, Senate committee, FY2026 enacted; $ millions); ACF section",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-31",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "CRS, May 2026. Enacted in P.L. 119-75 (signed February 3, 2026). Second Trump administration proposed elimination for FY2026 and again for FY2027; FY2027 is under a CR (P.L. 119-103) through December 11, 2026. LIHEAP is annually appropriated, so 2029 funding depends on future acts. Re-check: FY2027 LHHS enactment."
+ },
+ {
+  "id": "EV-HOU-605",
+  "statement": "A cost-benefit study estimated that each dollar invested in lead paint hazard control returns $17 to $221, a net saving of $181 to $269 billion for a cohort of children, using per-unit hazard control costs of $1,200 to $10,800 on the homes most at risk.",
+  "claim": "analysis",
+  "figures": [
+   "$17",
+   "$221",
+   "$181",
+   "$1,200",
+   "$10,800"
+  ],
+  "source": "SRC-1910",
+  "anchor": [
+   "Results Each dollar invested in lead paint hazard control results in a return of $17\u2013$221 or a net savings of $181\u2013269 billion.",
+   "using the bounds on costs of $1,200\u2013$10,800 per housing unit"
+  ],
+  "locator": "Abstract (Results); Methods, costs of lead hazard control",
+  "grade": "B",
+  "fact_date": "2009",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Peer-reviewed (EHP 2009), author at the Economic Policy Institute; benefits are lifetime earnings, health care, tax revenue, special education, ADHD and crime for one cohort of children under 6; costs in 2006 terms. Old but the standard citation.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-614",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-606",
+  "statement": "The Community Preventive Services Task Force found strong evidence that home-based, multi-trigger asthma interventions for children cut symptom days (21 fewer per year), school days missed (median 12.3 fewer per year) and acute care visits (0.57 fewer per year). Programs with minor to moderate remediation cost $231 to $1,720 per participant (2007 dollars) with benefit-cost ratios of 5.3 to 14.0; major structural remediation cost $3,796 to $14,858 and its value is unproven.",
+  "claim": "analysis",
+  "figures": [
+   "21",
+   "12.3",
+   "0.57",
+   "$231",
+   "$1,720",
+   "5.3",
+   "14.0",
+   "$3,796",
+   "$14,858"
+  ],
+  "source": "SRC-1911",
+  "anchor": [
+   "21 fewer symptom days per year",
+   "median absolute reduction of 12.3 school days missed per\nyear",
+   "of asthma acute care visits of 0.57 visits per year",
+   "were less expensive and cost $231 to $1,720 (2007$) per participant.",
+   "benefit-cost ratios ranging from 5.3 to 14.0",
+   "For the three interventions that involved major environmental remediation, cost per participant ranged from $3,796 to\n$14,858 (2007$).",
+   "Additional\nevidence is needed to determine the cost-benefit and cost-effectiveness of major remediation interventions."
+  ],
+  "locator": "Rationale; Economic review",
+  "grade": "B",
+  "fact_date": "2008",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "CPSTF (independent panel supported by CDC) finding of June 2008, based on a systematic review of 23 studies (Crocker et al. 2011). Effects for adults inconclusive.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-614",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-607",
+  "statement": "For FY2026 the President requested no funding for DOE's Office of State and Community Energy Programs, which provides low-income weatherization grants (it received $432 million in FY2025); the enacted act provided $1.950 billion for EERE as a whole, a 44% cut, plus $1.150 billion of prior-year IIJA balances.",
+  "claim": "data",
+  "figures": [
+   "$432 million",
+   "$1.950 billion",
+   "44%",
+   "$1.150 billion"
+  ],
+  "source": "SRC-1902",
+  "anchor": [
+   "the Office of State and Community Energy Programs (SCEP), which provides low-income weatherization and state planning grants. In FY2025, FEMP received $43 million and SCEP $432 million.",
+   "The enacted measure provided $1.950 billion for EERE, plus $1.150 billion of prior-year balances from IIJA. The new EERE appropriations are a decrease of $1.510 billion (-44%) from the equivalent FY2025 amount."
+  ],
+  "locator": "Proposed Reductions for EERE",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-31",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "CRS, March 2026. Enacted in P.L. 119-74 (January 23, 2026). The enacted weatherization line itself could not be read reliably from CRS IF13118 Table 1; trade sources report about $369 million (not verified). Re-check: FY2027 Energy and Water enactment."
+ },
+ {
+  "id": "EV-HOU-608",
+  "statement": "HUD's analysis of the 2011 AHS found that about a third of homes are potentially modifiable for a person with a mobility disability, under five percent are livable for people with moderate mobility difficulties, and just 0.15% are wheelchair accessible.",
+  "claim": "data",
+  "figures": [
+   "0.15%"
+  ],
+  "source": "SRC-1922",
+  "anchor": [
+   "although around a third of housing in the U.S. is potentially modifiable for a person with a mobility disability, currently less than five percent is accessible for individuals with moderate mobility difficulties and less than one percent of housing is accessible for wheelchair users.",
+   "we estimate that just 0.15% of housing is currently wheelchair accessible"
+  ],
+  "locator": "Executive summary",
+  "grade": "A",
+  "fact_date": "2011",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "HUD PD&R, 2015 (Obama administration), 2011 AHS accessibility module. Old data; the 2019 AHS had a home accessibility module that could update this (not obtained). Re-check: or when an AHS 2019/2025 accessibility analysis is found."
+ },
+ {
+  "id": "EV-HOU-609",
+  "statement": "HOME completed 2,488 owner-occupied rehabilitation units in FY2024, down from 6,175 in FY2015, with an average HOME contribution of $57,724 per completed owner rehab unit (up from $37,127). The ROAD to Housing Act (P.L. 119-101) removed HOME's statutory preference for rehabilitation in 2026.",
+  "claim": "data",
+  "figures": [
+   "2,488",
+   "6,175",
+   "$57,724",
+   "$37,127"
+  ],
+  "source": "SRC-1914",
+  "anchor": [
+   "Ownership Rehabilitation\n\n6,175\n\n2,488\n\n-60%",
+   "Ownership Rehabilitation\n\n$37,127\n\n$57,724\n\n55%",
+   "In 2026, NAHA was further amended by the 21st Century ROAD to\nHousing Act (P.L. 119-101) to remove the stated rehabilitation preference.",
+   "Table D-2. HOME Units Completed, FY2015 and FY2024"
+  ],
+  "locator": "Appendix D, Tables D-2 and D-3; History section",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-06",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "CRS, October 2026, from HUD HOME National Production Reports. Unit counts are completions in the year, not funding commitments."
+ },
+ {
+  "id": "EV-HOU-610",
+  "statement": "CRS notes that HOME-funded home repair must invest at least $1,000 per unit and bring the home up to all applicable state and local codes after rehabilitation, which may limit jurisdictions' use of HOME for minor or specialized repairs.",
+  "claim": "analysis",
+  "figures": [
+   "$1,000"
+  ],
+  "source": "SRC-1913",
+  "anchor": [
+   "A\nminimum of $1,000 in HOME funds must be invested per housing unit assisted",
+   "Housing\nrehabilitated with HOME funds must meet all applicable state and local codes after rehabilitation.\nThis requirement, as well as the minimum amount of HOME funds that must be invested per unit,\nmay limit jurisdictions\u2019 use of HOME funds for more minor or specialized types of home repairs."
+  ],
+  "locator": "HOME Investment Partnerships Program",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-01-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "CRS, January 2026 (before P.L. 119-101). Rule description is law; the effect on minor repairs is CRS analysis.",
+  "corroboration": []
+ },
+ {
+  "id": "EV-HOU-611",
+  "statement": "The President's FY2026 budget proposed eliminating CDBG (funded at $3.3 billion in FY2025) and HOME (funded at $1.25 billion); the FY2026 appropriations law funded both at their FY2025 levels.",
+  "claim": "data",
+  "figures": [
+   "$3.3 billion",
+   "$1.25 billion"
+  ],
+  "source": "SRC-1900",
+  "anchor": [
+   "The largest grant program that was slated for elimination, which was funded at $3.3 billion in\nFY2025, is the Community Development Block Grant (CDBG) program.",
+   "The FY2026 appropriations law continued funding for\nCDBG at the FY2025 level.",
+   "Funded at $1.25 billion in FY2025",
+   "S. 2465 proposed to fund the HOME program at its\nFY2025 level, which is what was ultimately adopted in the FY2026 appropriations law."
+  ],
+  "locator": "Proposed Elimination of Grant Programs",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-31",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "CRS, April 2026. Second Trump administration justified eliminating HOME as federal involvement increasing \"the regulatory burden\"; Congress (P.L. 119-75) rejected it."
+ },
+ {
+  "id": "EV-HOU-612",
+  "statement": "For FY2027 the President again proposed eliminating CDBG and HOME and cutting Lead Hazard Reduction from $296 million to $110 million; the House committee bill would fund HOME at $500 million (versus $1,250 million) and Lead Hazard Reduction at $296 million. FY2027 THUD funding is under a continuing resolution through December 11, 2026.",
+  "claim": "data",
+  "figures": [
+   "$296 million",
+   "$110 million",
+   "$500 million",
+   "$1,250 million"
+  ],
+  "source": "SRC-1901",
+  "anchor": [
+   "The President's budget proposed eliminating funding for a number of HUD grant programs, including the Community Development Block Grant and HOME Investment Partnerships grant programs.",
+   "HOME Investment Partnerships\n1,250\n0\n500",
+   "Lead Hazard Reduction\n296\n110\n296",
+   "The CR provides continuing appropriations for all 12 annual appropriations acts (including THUD) through December 11, 2026.",
+   "The President's FY2027 budget request\u2014like the FY2026 budget request\u2014proposed to eliminate funding for several HUD grant programs"
+  ],
+  "locator": "Summary; Table 3 (columns: FY2026 enacted, FY2027 request, House committee; $ millions); Continuing Resolution",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2026-12-11",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "CRS, September 3, 2026. Status as of that date; check final FY2027 THUD law. For 2029, these programs remain annually appropriated. Re-check: CR expiry."
+ },
+ {
+  "id": "EV-HOU-613",
+  "statement": "HUD's FY2027 request for Lead Hazard Reduction is $110.0 million, $185.6 million below the 2026 enacted level; HUD says it would make about 12,400 low-income homes healthy and safe, assuming $12,900 per unit for lead hazard control (up $900 from 2025, partly because of EPA's November 2024 dust-lead rule), $4,000 per unit for Healthy Homes supplements and $5,400 per unit for aging-in-place modifications.",
+  "claim": "data",
+  "figures": [
+   "$110.0 million",
+   "$185.6 million",
+   "12,400",
+   "$12,900",
+   "$900",
+   "$4,000",
+   "$5,400"
+  ],
+  "source": "SRC-1917",
+  "anchor": [
+   "requests $110.0 million for the Lead Hazard Reduction program, which\nis $185.6 million less than the 2026 Enacted level.",
+   "HUD would use 2027 appropriations to make approximately 12,400 homes of low-income families\nhealthy and safe.",
+   "projected production of lead-safe housing units assumes an average per-unit cost of $12,900 in 2027,\n$900 more than in 2025.",
+   "more stringent end-of-project cleaning and clearance testing required by the amended EPA dust-lead\nrule published in November 2024",
+   "(assumes per-unit cost of $4,000)",
+   "(assumes per-unit cost of\n$5,400)"
+  ],
+  "locator": "Budget overview; Justification; Key assumptions",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-31",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "HUD congressional justification, 2026 (second Trump administration); counts and costs are agency budget data. Re-check: FY2028 CJ."
+ },
+ {
+  "id": "EV-HOU-614",
+  "statement": "HUD claims its proposed lead and healthy homes grants would benefit over 8,700 children by reducing elevated blood lead levels and asthma prevalence, and that lead remediation mitigates lifelong medical, crime and productivity costs.",
+  "claim": "analysis",
+  "figures": [
+   "8,700"
+  ],
+  "source": "SRC-1917",
+  "anchor": [
+   "These OLHCHH grants would benefit over 8,700 children by reducing elevated\nblood lead levels, asthma prevalence, and the likelihood of other illnesses and injuries.",
+   "lead remediation can mitigate the social costs of lifelong medical expenses, increased criminal\nactivity, and lost productivity"
+  ],
+  "locator": "Justification, Funding Impact",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-31",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Agency causal claim in a budget request from the second Trump administration that also proposes cutting the program by $185.6 million; skepticism warranted, though the direction matches peer-reviewed evidence.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-605",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-606",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-615",
+  "statement": "USDA repair grants are limited to owner-occupants aged 62 or older with very low income; repair loans carry a 1 percent rate over 20 years. Loan balances are capped at twenty percent and lifetime grants at ten percent of the national average area loan limit, and elderly families must first use net assets above $20,000.",
+  "claim": "data",
+  "figures": [
+   "62",
+   "1 percent",
+   "20",
+   "$20,000"
+  ],
+  "source": "SRC-1912",
+  "anchor": [
+   "To be eligible for grant assistance, an applicant must be 62 years of age or older at the time of application.",
+   "the household's adjusted income must not exceed the applicable very low-income limit",
+   "The interest rate for all section 504 loans will be 1 percent.",
+   "The repayment period for all section 504 loans will be 20 years.",
+   "but no greater than twenty percent of the national average area loan limit.",
+   "The lifetime total of the grant assistance to any one household or one dwelling may not exceed ten percent of the national average area loan limit.",
+   "Elderly families must use any net family assets in excess of $20,000 to reduce their section 504 request."
+  ],
+  "locator": "7 CFR 3550.103, 3550.112, 3550.113",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Current regulation (amended February 2022). The ROAD to Housing Act (P.L. 119-101, July 2026) section 502 raised income eligibility limits for Section 504 loans (see CRS R49354, already in the library as SRC-0437); regulation text may lag."
+ },
+ {
+  "id": "EV-HOU-616",
+  "statement": "As of January 2026, the maximum lifetime USDA repair grant is $10,000 and outstanding repair loans may not exceed $40,000; loans of $7,500 or higher need a lien, and very low income means no more than 50% of area median income.",
+  "claim": "data",
+  "figures": [
+   "$10,000",
+   "$40,000",
+   "$7,500",
+   "50%"
+  ],
+  "source": "SRC-1913",
+  "anchor": [
+   "Loans of $7,500 or higher must be secured by a lien on the property.",
+   "the maximum lifetime grant amount is\n$10,000, and the maximum outstanding Section 504 loan balance for a borrower may not exceed\n$40,000.",
+   "\u201cvery low-income\u201d is defined as household income no higher than 50% of area"
+  ],
+  "locator": "USDA Section 504 Single Family Housing Repair Loans and Grants",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-01-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "CRS, January 2026, citing USDA Handbook HB-1-3550. USDA's own fact sheet (rd.usda.gov, blocked to downloads) gives the same caps and a $50,000 combined maximum. Annual 504 funding and households served were not obtained."
+ },
+ {
+  "id": "EV-HOU-617",
+  "statement": "FHA's Limited 203(k) finances up to $75,000 of nonstructural repairs with a purchase or refinance mortgage; the Standard 203(k) requires an FHA-approved consultant for inspections, work write-ups and cost estimates. Title I property improvement loans have no income limit, need a lien above $7,500, and were capped at $25,000 for a secured one-unit loan.",
+  "claim": "data",
+  "figures": [
+   "$75,000",
+   "$7,500",
+   "$25,000"
+  ],
+  "source": "SRC-1913",
+  "anchor": [
+   "Under the Limited 203(k) program, borrowers can finance a more limited amount\u2014up to $75,000\nin rehabilitation costs\u2014for relatively minor, nonstructural repairs.",
+   "Standard 203(k) program requires the use of an FHA-approved 203(k) consultant, who acts as an\nintermediary between the borrower, contractor, and lender; the consultant performs functions such\nas inspections, work writeups, and cost estimates",
+   "Loans over $7,500 must be secured by a lien on the property. There are no income limits",
+   "($25,000 for a secured loan on a one-unit residential property as of the cover date of this report)"
+  ],
+  "locator": "FHA Section 203(k); FHA Title I Property Improvement Loans",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-11",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "CRS, January 2026. P.L. 119-101 section 303 raises Title I baseline limits, indexes them annually by notice and caps terms at 30 years (CRS R49354, SRC-0437), so the $25,000 figure is out of date for 2029. 203(k) and Title I volumes were not obtained. Re-check: HUD Title I limit re-indexing due under P.L. 119-101 section 303."
+ },
+ {
+  "id": "EV-HOU-618",
+  "statement": "DOE says WAP weatherizes approximately 32,000 homes every year with DOE funds and supports 8,500 jobs; more than 7.2 million families have been served since 1976.",
+  "claim": "data",
+  "figures": [
+   "32,000",
+   "8,500",
+   "7.2 million",
+   "1976"
+  ],
+  "source": "SRC-1904",
+  "anchor": [
+   "The program supports 8,500 jobs and provides weatherization services to approximately 32,000 homes every year using DOE funds.",
+   "Since the program began in 1976, WAP has helped improve the lives of more than 7.2 million families through weatherization services."
+  ],
+  "locator": "Program overview",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "DOE program page as of November 2026 (second Trump administration). The annual figure excludes homes weatherized with leveraged or IIJA funds unless DOE counts them; not stated."
+ },
+ {
+  "id": "EV-HOU-619",
+  "statement": "DOE states that weatherization returns $2.78 in non-energy benefits for every $1.00 invested (citing the national evaluation), and that in 2018 the WAP network leveraged $679 million of non-DOE funds, $3.48 for every DOE dollar.",
+  "claim": "analysis",
+  "figures": [
+   "$2.78",
+   "$1.00",
+   "$679 million",
+   "$3.48",
+   "2018"
+  ],
+  "source": "SRC-1905",
+  "anchor": [
+   "Weatherization returns $2.78 in non-energy benefits for every $1.00 invested in the Program (National Evaluation).",
+   "providing an additional $679 million, or $3.48 for every dollar invested by DOE",
+   "In 2018, the WAP Network leveraged non-DOE funds"
+  ],
+  "locator": "How Weatherization Works; Why Weatherization Matters",
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "DOE page live in November 2026, text from earlier administrations; the non-energy benefit figure derives from ORNL's PY2008 retrospective evaluation (already in the library as ornl-2014-weatherization-works-retrospective-evaluation.txt, catalogued by another cluster). In July 2025 DOE rescinded the policy of counting non-energy impacts in WAP cost tests (EV-HOU-621).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-623",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-620",
+  "statement": "DOE's average cost per unit limit for WAP was $8,009 in Program Year 2022 and $8497 in 2024; IIJA-funded grants use a 5-year average of annual limits for 2022-2026.",
+  "claim": "data",
+  "figures": [
+   "$8,009",
+   "$8497",
+   "2022",
+   "2026"
+  ],
+  "source": "SRC-1907",
+  "anchor": [
+   "was $8,009 for the adjusted average expenditure limit",
+   "2024\n\n$8497",
+   "IIJA funded grants will follow a 5-year average of annual ACPU limits from Program\nYears (PY) 2022-2026."
+  ],
+  "locator": "Background; Guidance table",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-04-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "DOE weatherization program notice effective April 14, 2025 (second Trump administration). Statutory base is $6,500 as adjusted (10 CFR 440.18). Re-check: next program year notice."
+ },
+ {
+  "id": "EV-HOU-621",
+  "statement": "On July 8, 2025 DOE allocated $325 million in WAP funds and $30 million in Weatherization Readiness Funds to 56 grantees and rescinded WPN 22-10, the policy of considering the social cost of carbon and other non-energy impacts within WAP.",
+  "claim": "data",
+  "figures": [
+   "$325 million",
+   "$30 million",
+   "56",
+   "22-10"
+  ],
+  "source": "SRC-1906",
+  "anchor": [
+   "The Department is allocating $325 million in Weatherization Assistance Program (WAP) funds and $30 million in Weatherization Readiness Funds (WRF) to 56 Grantees",
+   "the department is also rescinding the Weatherization Program Notice 22-10 policy considering social cost of carbon and other non-energy impacts within WAP.",
+   "July 8, 2025"
+  ],
+  "locator": "Press release body",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-08",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "DOE press release, July 8, 2025, second Trump administration. Same release claims average annual savings of $372 and $514 lower out-of-pocket medical costs per household (agency claims, not used here as data)."
+ },
+ {
+  "id": "EV-HOU-622",
+  "statement": "WAP's per-dwelling funding limits and cost-effectiveness rules exclude complete roof replacement, some electrical and plumbing repairs and other large structural repairs, so households can be deferred until repairs are made; Congress created the Weatherization Readiness Fund in the FY2022 act to repair deferred homes. Households qualify at incomes up to 200% of the federal poverty level.",
+  "claim": "data",
+  "figures": [
+   "200%"
+  ],
+  "source": "SRC-1913",
+  "anchor": [
+   "The program includes per-dwelling funding limits and cost-effectiveness requirements for\nmaterials. As a result, some home improvements are not eligible for WAP funding, such as\ncomplete roof replacement, certain electrical or plumbing repairs, and other repairs for large,\nstructural problems.",
+   "To address deferrals, Congress included the Weatherization Readiness Fund (WRF) in\nthe Explanatory Statement of the Consolidated Appropriations Act, 2022",
+   "incomes no higher\nthan 200% of the federal poverty level"
+  ],
+  "locator": "Weatherization Assistance Program (WAP)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-01-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "CRS, January 2026."
+ },
+ {
+  "id": "EV-HOU-623",
+  "statement": "ACEEE estimates that nearly one in five homes audited for WAP is deferred because repairs are needed first, and 40% of those go unaddressed; the commonest problems are leaky roofs (about 45% of deferred homes), floor or framing damage and outdated electrical panels (about 23% each). It estimates $94 million a year would fund nearly all readiness work for the 7,000 homes WAP defers annually.",
+  "claim": "analysis",
+  "figures": [
+   "40%",
+   "45%",
+   "23%",
+   "$94 million",
+   "7,000"
+  ],
+  "source": "SRC-1921",
+  "anchor": [
+   "nearly one in five homes audited for WAP is deferred because repairs are needed first. Of these, 40% go unaddressed",
+   "The most common issues in deferred homes were leaky roofs (in about 45% of deferred homes), floor or framing damage (roughly 23%), and unsafe, damaged, or outdated electrical service panels (around 23%).",
+   "increased funding of $94 million per year could fund nearly all the weatherization-readiness work needed among the 7,000 homes WAP defers annually."
+  ],
+  "locator": "Body paragraphs 3-4, 7",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-26",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "ACEEE (efficiency advocacy research nonprofit) blog, June 2025, on report B2504; survey of 3 state agencies and 63 local providers, 2023 data, not a random sample.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-622",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-624",
+  "statement": "In FY2024 state LIHEAP programs served 5,876,646 households, 17% of the income-eligible population of 35.5 million; heating assistance reached 5,028,871 households with an estimated average benefit of $380, and LIHEAP weatherization served 49,793 households ($423,955,131, 10% of funds).",
+  "claim": "data",
+  "figures": [
+   "5,876,646",
+   "17%",
+   "35.5 million",
+   "5,028,871",
+   "$380",
+   "49,793",
+   "$423,955,131",
+   "10%"
+  ],
+  "source": "SRC-1915",
+  "anchor": [
+   "5,876,646",
+   "% of Income-Eligible\nPopulation Served by State\nPrograms\n\n17%\n\n35.5 million",
+   "Heating Assistance was provided by 51 states and served 5,028,871 households with estimated average benefits of $380.",
+   "Weatherization Assistance was provided by 47 states and served 49,793 households.",
+   "Weatherization Assistance\n$423,955,131\n10%"
+  ],
+  "locator": "National profile panels; Types of Assistance",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "HHS ACF LIHEAP Performance Management national profile (data as of May 30, 2025); states only, excludes tribes and territories. The 35.5 million income-eligible figure is read from the profile layout (label \"Income-Eligible Population\"); confirm against the FY2024 Report to Congress. Re-check: FY2025 profile."
+ },
+ {
+  "id": "EV-HOU-625",
+  "statement": "The Energy Efficient Home Improvement Credit equals 30% of certain qualified expenses, up to $3,200 a year, and can be claimed only for improvements made through December 31, 2025, so it does not exist when the plan starts under current law.",
+  "claim": "data",
+  "figures": [
+   "30%",
+   "$3,200",
+   "December 31, 2025"
+  ],
+  "source": "SRC-1925",
+  "anchor": [
+   "you may qualify for a tax credit up to $3,200. You can claim the credit for improvements made through December 31, 2025.",
+   "Beginning Jan. 1, 2023, the credit equals 30% of certain qualified expenses"
+  ],
+  "locator": "IRS 25C page, opening paragraphs",
+  "grade": "A",
+  "fact_date": "2026-04-28",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Sec. 25C. IRS (second Trump administration), page reviewed April 2026, implementing P.L. 119-21 sec. 70505, which struck the December 31, 2032 end date and inserted \"placed in service after December 31, 2025\" (enacted text: SRC-1374)."
+ },
+ {
+  "id": "EV-HOU-626",
+  "statement": "The Residential Clean Energy Credit (30% of the cost of solar, battery, geothermal and similar home property) is not available for property placed in service after December 31, 2025, so it does not exist when the plan starts under current law.",
+  "claim": "data",
+  "figures": [
+   "30%",
+   "December 31, 2025"
+  ],
+  "source": "SRC-1926",
+  "anchor": [
+   "The Residential Clean Energy Credit equals 30% of the costs of new, qualified clean energy property for your home installed anytime from 2022 through December 31, 2025. The credit is not available for any property placed in service after December 31, 2025."
+  ],
+  "locator": "IRS 25D page, \"Who qualifies\" section",
+  "grade": "A",
+  "fact_date": "2026-07-04",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Sec. 25D. IRS (second Trump administration), page reviewed July 2026. The statute, P.L. 119-21 sec. 70506 (SRC-1374), words the cutoff as \"with respect to any expenditures made after December 31, 2025\"; the note writer should cite the statute for the legal test."
+ },
+ {
+  "id": "EV-HOU-627",
+  "statement": "For tax year 2023, more than 1.2 million families claimed over $6 billion in residential clean energy credits (averaging $5 thousand) and 2.3 million families claimed more than $2 billion in energy efficient home improvement credits (averaging $880); nearly half of claimants had incomes under $100,000.",
+  "claim": "data",
+  "figures": [
+   "1.2 million",
+   "$6 billion",
+   "$5 thousand",
+   "2.3 million",
+   "$2 billion",
+   "$880",
+   "$100,000"
+  ],
+  "source": "SRC-1927",
+  "anchor": [
+   "More than 1.2 million American families have claimed over $6 billion in credits for residential clean energy investments",
+   "averaging $5 thousand per family. 2.3 million families have claimed more than $2 billion in credits for energy efficient home improvements",
+   "averaging $880 per family.",
+   "Nearly half of the families who claimed one or both credits had incomes in 2023 of less than $100,000."
+  ],
+  "locator": "Treasury blog, paragraphs 3 and 6 (Table 1 discussion)",
+  "grade": "A",
+  "fact_date": "2024-05-23",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Treasury Office of Economic Policy, Biden administration, August 2024; preliminary counts of returns processed through May 23, 2024, published to show program uptake (stake: the administration that enacted the credits). Re-check: the credits ended; final IRS tables for tax year 2025 are expected in 2027-28."
+ },
+ {
+  "id": "EV-HOU-628",
+  "statement": "Over two decades, U.S. households received $47 billion in clean energy tax credits; the bottom three income quintiles received about 10% and the top quintile about 60%.",
+  "claim": "analysis",
+  "figures": [
+   "$47 billion",
+   "10%",
+   "60%"
+  ],
+  "source": "SRC-1928",
+  "anchor": [
+   "U.S. households have received $47 billion in tax credits for buying heat pumps, solar panels, electric vehicles, and other \u201cclean energy\u201d technologies.",
+   "The bottom three income quintiles have received about 10% of all credits, while the top quintile has received about 60%."
+  ],
+  "locator": "Abstract, p. 1",
+  "grade": "B",
+  "fact_date": "2024-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Borenstein and Davis (UC Berkeley), NBER working paper July 2024, published in the National Tax Journal March 2025; IRS SOI data; no outside funding declared. Includes EV credits; residential credits alone show the same 10%/60% split (results section of the paper).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-627",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-629",
+  "statement": "The IRA appropriated $4.3 billion for state HOMES rebates (sec. 50121) and $4.275 billion for state electrification rebates (sec. 50122) plus $225 million for Indian tribes; as of September 9, 2024, 27 states had applied for full funding, DOE had fully funded 11, and four states (Arizona, New Mexico, New York, Wisconsin) had rebates available to consumers.",
+  "claim": "data",
+  "figures": [
+   "$4.3 billion",
+   "$4.275 billion",
+   "$225 million",
+   "27 states",
+   "11 states",
+   "four states"
+  ],
+  "source": "SRC-1929",
+  "anchor": [
+   "Section 50121 of the IRA appropriated $4.3 billion for the HOMES rebate program for states. For\nthe Home Electrification and Appliance Rebates, Section 50122 of the IRA appropriated $4.275\nbillion for states and $225 million for Indian tribes.",
+   "As of September 9, 2024, 27 states\nhad applied for full funding.",
+   "DOE has awarded full funding to 11 states, and four states have made the rebates available to\nconsumers.",
+   "As of September 9, 2024, Arizona,\nNew Mexico, New York, and Wisconsin had made one or both rebates available to consumers."
+  ],
+  "locator": "CRS R47698, \"How large are the rebate programs overall?\" and \"How much money is available\" sections",
+  "grade": "A",
+  "fact_date": "2024-09-09",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "CRS, September 2024 (Biden-era DOE data). No official 2026 count of launched states or dollars spent was found; trade trackers (NASEO, Sept. 30, 2026) report roughly 8 states plus DC with HOMES and 13 plus DC with HEEHR open, but those were read only through search summaries and are not entered here. Re-check: or the next R47698 update."
+ },
+ {
+  "id": "EV-HOU-630",
+  "statement": "DOE\u2019s HEEHR program notice, effective May 29, 2026, ends HEEHR (formerly HEAR) rebates for switching from fossil-fuel to electric equipment, allowing HVAC and appliance rebates only for replacing existing electric equipment; requires insulation and air sealing before heating and cooling upgrades; drops the 40% low-income funding reservation; and gives launched programs three months to comply.",
+  "claim": "data",
+  "figures": [
+   "May 29, 2026",
+   "40%"
+  ],
+  "source": "SRC-1930",
+  "anchor": [
+   "Effective Date: May 29, 2026",
+   "Removing program allowances for upgrades for fuel-switching (i.e. replacement\nof non-electric appliances) and instead allowing rebates for upgrading HVAC\nand appliances only from existing electric equipment to more efficient electric\nequipment.",
+   "Requiring that homes utilize rebates for insulation and air sealing prior to\ninstalling heating and cooling upgrades",
+   "Removing the Justice40 Initiative requirement for reserved allocations of 40%\nfunding for low-income households.",
+   "Launched programs are required to make changes within three months of the\npublication of this Program Notice"
+  ],
+  "locator": "Program Notice 26-2, secs. 3, 3.2 and 3.3",
+  "grade": "A",
+  "fact_date": "2026-05-29",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-29",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "DOE, second Trump administration, May 2026, citing Executive Order 14173 and \"affordability\"; a rule change, not a statute change. Statutory caps and the September 30, 2031 end date (EV-HOU-632) are unchanged; P.L. 119-21 does not amend secs. 50121-50122. Re-check: DOE said revised guidance documents would follow."
+ },
+ {
+  "id": "EV-HOU-631",
+  "statement": "DOE\u2019s HOMES program notice, effective May 29, 2026, renames the Home Efficiency Rebates \"Home Owner Managing Energy Savings\" (HOMES), drops the 40% low-income funding reservation, and replaces the Consumer Protection Plan with a fraud, waste and abuse plan, removing onsite post-install inspection.",
+  "claim": "data",
+  "figures": [
+   "May 29, 2026",
+   "40%"
+  ],
+  "source": "SRC-1931",
+  "anchor": [
+   "Effective Date: May 29, 2026",
+   "DOE is changing the program name from \u201cHome Efficiency Rebates\u201d to \u201cHome Owner\nManaging Energy Savings\u201d (HOMES)",
+   "Removing the Justice40 Initiative requirement for reserved allocations of 40%\nfunding for low-income households",
+   "Replacing the Consumer Protection Plan with a Fraud, Waste, and Abuse Mitigation\nPlan and removing requirements for:",
+   "Onsite post-install inspection"
+  ],
+  "locator": "Program Notice 26-1, secs. 3.1, 3.2 and 3.4",
+  "grade": "A",
+  "fact_date": "2026-05-29",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-29",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "DOE, second Trump administration, May 2026. The statutory low-income rebate levels in sec. 50121 remain; only the administrative reservation is dropped."
+ },
+ {
+  "id": "EV-HOU-632",
+  "statement": "Under DOE\u2019s rebate rules, for at least two years after receiving rebates for a low-income rental unit the owner must rent to a low-income tenant, not evict to obtain higher-rent tenants, and not raise rent because of the energy improvements, or refund the rebate; the programs end when funds are spent or September 30, 2031, whichever is sooner, out of $8.8 billion authorized.",
+  "claim": "data",
+  "figures": [
+   "two years",
+   "September 30, 2031",
+   "$8.8 billion"
+  ],
+  "source": "SRC-1932",
+  "anchor": [
+   "For at least two years following the receipt of the rebates:",
+   "The owner agrees to rent the dwelling unit to a low-income tenant.",
+   "The owner agrees not to evict a tenant to obtain higher rent tenants based upon the\nimprovements.",
+   "The owner agrees not to increase the rent of any tenant of the building as a result of the\nenergy improvements",
+   "In the event the owner does not comply, the owner must refund the rebate.",
+   "or September 30, 2031, whichever occurs sooner.",
+   "Home Energy Rebates together authorize $8.8 billion in funds"
+  ],
+  "locator": "Program Requirements v2.1, sec. 3.1.3 (pp. 16-17), sec. 3.1.1, and sec. 1",
+  "grade": "A",
+  "fact_date": "2024-12-16",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-29",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "DOE, Biden administration, December 2024. The 2026 notices (EV-HOU-630, EV-HOU-631) do not list these rental terms among superseded items, but they drop the Consumer Protection Plan and inspections, so enforcement of the rent terms rests on states; check the revised guidance. The same document names the split incentive as a reason multifamily is underserved (sec. 3.1.3). Re-check: DOE revised guidance promised in the 2026 notices."
+ },
+ {
+  "id": "EV-HOU-633",
+  "statement": "ACEEE (2017 data) finds 25% of U.S. households (30.6 million) have a high energy burden; low-income households spend 8.1% of income on energy versus 2.3% for non-low-income households; renters\u2019 median burden is 3.4% versus 3.0% for owners; 36% of older adult households and 30% of renters have a high burden.",
+  "claim": "data",
+  "figures": [
+   "30.6 million",
+   "8.1%",
+   "2.3%",
+   "3.4%",
+   "3.0%",
+   "36%",
+   "30%"
+  ],
+  "source": "SRC-1933",
+  "anchor": [
+   "Low-income households spend three times more of their income on energy costs compared to the median spending of non-low-income households (8.1% versus 2.3%).",
+   "The median renter energy burden is 13% higher than that of the median owner (3.4% versus 3.0%). More than 25% (30.6 million) of U.S. households experience a high energy burden",
+   "Almost 50% of low-income multifamily residents; 36% of Black, Native American, and older adult households; 30% of renters; and 28% of Hispanic households experience a high energy burden."
+  ],
+  "locator": "ACEEE U2006, Executive Summary key findings and p. 11",
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "High burden means above 6% of income (severe above 10%). ACEEE, September 2020, analysis of the 2017 American Housing Survey; efficiency advocacy group (stake: supports efficiency and weatherization funding). Pre-pandemic and pre-2022 price spike. Re-check: check for an ACEEE update using newer AHS data."
+ },
+ {
+  "id": "EV-HOU-634",
+  "statement": "DOE\u2019s LEAD Tool puts the national average energy burden of low-income households (0-80% of area median income) at 6%, three times the 2% for other households, with burdens above 30% in some areas; 42% of U.S. households, about 51 million, are low-income by this measure.",
+  "claim": "data",
+  "figures": [
+   "6%",
+   "2%",
+   "30%",
+   "42%",
+   "51 million"
+  ],
+  "source": "SRC-1934",
+  "anchor": [
+   "the national average energy burden for low-income households is 6% (i.e. an AMI of 0-80% as defined by the U.S. Department of Housing and Urban Development ), which is three times higher than that for non-low-income households, which is estimated at 2%. In some areas, depending on location and income, energy burden can be higher than 30%.",
+   "42% of U.S. households, or about 51 million, are identified as low-income."
+  ],
+  "locator": "LEAD Tool page, \"Energy Burden\" section",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "DOE State and Community Energy Programs; modeled from ACS 2018-2022 and EIA data. Uses an 80% AMI cutoff, so it is not comparable with ACEEE\u2019s 200%-of-poverty definition (EV-HOU-633)."
+ },
+ {
+  "id": "EV-HOU-635",
+  "statement": "In 2020, 33.58 million of 123.53 million U.S. households reported some energy insecurity; 24.61 million reduced or went without food or medicine to pay energy costs, 12.2 million kept their home at an unhealthy temperature and 6.35 million could not use air-conditioning equipment. Of 40.61 million renter households, 16.66 million reported energy insecurity and 12.84 million cut food or medicine, versus 11.76 million of 82.92 million owner households.",
+  "claim": "data",
+  "figures": [
+   "33.58",
+   "123.53",
+   "24.61",
+   "12.2",
+   "6.35",
+   "40.61",
+   "16.66",
+   "12.84",
+   "11.76",
+   "82.92"
+  ],
+  "source": "SRC-1935",
+  "anchor": [
+   "row 5 |  = Any household energy insecurityb\nrow 5 |  = Reducing or forgoing food or medicine to pay energy costs\nrow 5 |  = Leaving home at unhealthy temperature",
+   "row 5 |  = Unable to use air-conditioning equipmentd",
+   "Final data release date: August 2025 = All homes\nrow 6 |  = 123.53\nrow 6 |  = 33.58\nrow 6 |  = 24.61\nrow 6 |  = 12.2\nrow 6 |  = 12.36\nrow 6 |  = 4.93\nrow 6 |  = 6.35",
+   "Final data release date: August 2025 = Owned\nrow 130 |  = 82.92\nrow 130 |  = 16.920000000000002\nrow 130 |  = 11.76",
+   "Final data release date: August 2025 = Rented\nrow 131 |  = 40.61\nrow 131 |  = 16.66\nrow 131 |  = 12.84"
+  ],
+  "locator": "RECS 2020 Table HC11.1, rows 5-6 (all homes) and 130-131 (owned, rented)",
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "EIA statistical survey (RECS 2020; final data August 2025). Pandemic year. Units are millions of housing units. Shares are left to the note writer. Re-check: RECS 2024 energy insecurity tables."
+ },
+ {
+  "id": "EV-HOU-636",
+  "statement": "In a randomized evaluation of about 30,000 Michigan households, weatherization\u2019s upfront costs were about twice the actual energy savings, model-projected savings were more than three times actual savings, and the average rate of return was approximately \u22127.8% a year even counting emissions benefits.",
+  "claim": "analysis",
+  "figures": [
+   "30,000",
+   "7.8%"
+  ],
+  "source": "SRC-1936",
+  "anchor": [
+   "an experimental evaluation of the nation\u2019s largest residential energy efficiency program\u2014the Weatherization Assistance Program\u2014conducted on a sample of approximately 30,000 households in Michigan.",
+   "The findings suggest that the upfront investment costs are about twice the actual energy savings. Furthermore, the model-projected savings are more than three times the actual savings.",
+   "the average rate of return is approximately \u22127.8% annually."
+  ],
+  "locator": "Abstract, p. 1597",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Fowlie, Greenstone and Wolfram, QJE 2018 (peer-reviewed; Michigan WAP 2011-2014). The published abstract says projected savings were \"more than three times\" actual (actual below about a third of projected), not 39%; the 2015 NBER version said \"roughly 2.5 times\". Measures energy only, not health or comfort.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-637",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-638",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-637",
+  "statement": "Using Illinois weatherization data, engineering-model bias accounts for up to 41% of the gap between projected and realized savings (mostly overestimated wall insulation savings), uneven workmanship for 43%, and the rebound effect for only 6%.",
+  "claim": "analysis",
+  "figures": [
+   "41%",
+   "43%",
+   "6%"
+  ],
+  "source": "SRC-1937",
+  "anchor": [
+   "Evaluations of energy efficiency programs reveal that realized savings consistently fall short of projections.",
+   "We find that bias in engineering models can account for up to 41% of the wedge, primarily from overestimated savings in wall insulation. Heterogeneity in workmanship can also account for a large fraction (43%) of the wedge, while the rebound effect can explain only 6%."
+  ],
+  "locator": "Abstract, p. 798",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Christensen, Francisco, Myers and Souza, Review of Economics and Statistics 2023 (peer-reviewed; Illinois IHWAP). Confirms the shortfall and points to fixable causes (models, contractor quality).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-636",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-638",
+  "statement": "DOE\u2019s retrospective evaluation of program year 2008 found an average cost of $4,695 per weatherized unit against net present energy-cost savings of $4,890 per unit, plus health and home-related benefits of $14,148 per single-family and mobile home, and no sign that households took back savings.",
+  "claim": "analysis",
+  "figures": [
+   "$4,695",
+   "$4,890",
+   "$14,148"
+  ],
+  "source": "SRC-1938",
+  "anchor": [
+   "The average cost to weatherize a unit was $4,695 (the DOE share was 48%)",
+   "net present value per unit weatherized is $4,890",
+   "The present value of a limited set household health and home-related non-energy benefits for the\nWAP is approximately $1,137,000,000; the present value per single family and mobile home is\n$14,148",
+   "Households appeared not to take-back energy savings post-weatherization"
+  ],
+  "locator": "Executive summary, pp. xiii-xv",
+  "grade": "C",
+  "fact_date": "2008",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Oak Ridge National Laboratory for DOE (Obama administration), September 2014; quasi-experimental billing analysis plus monetized survey benefits; DOE evaluating its own program. Health benefits are modeled and uncertain.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-636",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-639",
+  "statement": "About 19% of income-eligible households seeking weatherization in 2023 were initially deferred because the home needed repairs; about 60% were later repaired and served while 40% could not be made ready; leading causes were roof leaks (median 45% of deferrals), floor damage (23%) and unsafe or outdated electric panels (23%).",
+  "claim": "analysis",
+  "figures": [
+   "19%",
+   "60%",
+   "40%",
+   "45%",
+   "23%"
+  ],
+  "source": "SRC-1939",
+  "anchor": [
+   "About one in five (approximately 19% of) income-eligible households in our national survey were initially deferred from the Weatherization Assistance Program (WAP) in 2023 due to repairs needed to address existing conditions and health and safety issues.",
+   "About 60% of these initially deferred homes were repaired and eventually served by WAP, while 40% could not be made weatherization ready",
+   "roof leaks or repairs (estimated median 45% of deferred homes), followed by floor damage (estimated 23%), and unsafe or outdated electric service panels (estimated 23%)."
+  ],
+  "locator": "ACEEE B2504 web page, key findings",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "ACEEE, June 2025, survey of weatherization agencies (self-reported estimates); advocacy nonprofit (stake: supports weatherization readiness funds).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-640",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-640",
+  "statement": "NREL and LBNL estimate about 21% of U.S. homes have electrical panels of 100 amps or less and 44% have two or fewer open breaker slots, older and smaller homes more often; panel and service upgrades may cost $2,000-$30,000 and take months.",
+  "claim": "analysis",
+  "figures": [
+   "21%",
+   "100-A",
+   "44%",
+   "$2,000-$30,000"
+  ],
+  "source": "SRC-1940",
+  "anchor": [
+   "about 21% of U.S.\nhomes have 100-A or less panel capacity and 44% of homes have two or less open breaker slots in\ntheir panels. Older and smaller homes are much more likely to have 100-A panels.",
+   "Electrical panel\nand service upgrades may cost customer $2,000-$30,000 and take a few months to carry out"
+  ],
+  "locator": "Slide 3, \"Problem\"",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "DOE Building Technologies Office peer review, July 2023 (Biden administration); NREL/LBNL project estimates in slides, not a final report. A 2026 LBNL paper (Murphy et al.) estimates 58% of single-family homes have 200A or more; read only through search snippets, not entered.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-639",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-641",
+  "statement": "FEMA announced on April 4, 2025 that it was ending BRIC, saying about $882 million would be returned; on December 11, 2025 a federal court ruled the termination unlawful and enjoined it, and after a March 6, 2026 enforcement order FEMA issued a single FY2024-2025 BRIC funding notice with $1 billion. The IIJA added $200 million a year for BRIC for FY2022 through FY2026 only.",
+  "claim": "data",
+  "figures": [
+   "April 4, 2025",
+   "$882 million",
+   "December 11, 2025",
+   "March 6, 2026",
+   "$1 billion",
+   "$200 million"
+  ],
+  "source": "SRC-1941",
+  "anchor": [
+   "On April 4, 2025, FEMA issued a press release indicating it was ending the BRIC program",
+   "\"approximately $882 million of funding appropriated by Congress in the IIJA will be returned to the Treasury",
+   "On December 11, 2025, the judge issued a final ruling that the administration had unlawfully terminated BRIC and issued a permanent injunction enjoining the termination of the BRIC program .",
+   "On March 6, 2026, the judge issued an order to enforce",
+   "FEMA provided the information required and issued a single NOFO for FY2024 and FY2025 , with a total of $1 billion available for the two fiscal years.",
+   "adding $200 million for each of FY2022 through FY2026."
+  ],
+  "locator": "CRS IN12609, \"BRIC Developments in 2025-2026\"",
+  "grade": "A",
+  "fact_date": "2026-06-30",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "CRS Insight, June 2026. Termination by the second Trump administration (FEMA acting administrator); ruling by D. Mass. (Washington v. FEMA, No. 25-12006). For 2029: IIJA BRIC money ends with FY2026, leaving the Stafford Act sec. 203 set-aside from disaster relief; an appeal or a replacement program remains possible."
+ },
+ {
+  "id": "EV-HOU-642",
+  "statement": "The NFIP had nearly 4.5 million policies as of August 31, 2026 and is authorized only until December 11, 2026 after 36 short-term reauthorizations; outside the mandatory-purchase area, one New York City study found take-up of 37% for properties with mortgages and 32% without. The IIJA gave Flood Mitigation Assistance (elevation, buyouts, floodproofing) $3.5 billion, $700 million a year for FY2022 to FY2026.",
+  "claim": "data",
+  "figures": [
+   "4.5 million",
+   "December 11, 2026",
+   "36",
+   "37%",
+   "32%",
+   "$3.5 billion",
+   "$700 million"
+  ],
+  "source": "SRC-1942",
+  "anchor": [
+   "As of August 31, 2026, the NFIP had nearly 4.5 million flood insurance policies",
+   "Since the end of FY2017, 36 short-term NFIP reauthorizations have been enacted (see Table 6 ). The NFIP is currently authorized until December 11, 2026.",
+   "take-up rates outside the SFHA (37% for properties with mortgages and 32% for properties without mortgages)",
+   "The Infrastructure Investment and Jobs Act 51 appropriated $3.5 billion for the FMA program, with $700 million for each of FY2022 to FY2026."
+  ],
+  "locator": "CRS R44593, Introduction; \"Mandatory Purchase Requirement\"; \"Infrastructure Funding for Flood Mitigation\"",
+  "grade": "A",
+  "fact_date": "2026-10-05",
+  "checked": "2026-11-09",
+  "recheck": "2026-12-11",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "CRS, October 2026. Take-up figures are from a 2017 New York City study cited by CRS, not national. IIJA FMA money ends with FY2026; regular FMA is funded from NFIP premiums. Re-check: NFIP authorization lapse date."
+ },
+ {
+  "id": "EV-HOU-643",
+  "statement": "In 2024, 2,391 heat-related deaths were reported in the United States; the share rose with age through 65-74, the group with the largest share (21.1%).",
+  "claim": "data",
+  "figures": [
+   "2,391",
+   "65",
+   "74",
+   "21.1%"
+  ],
+  "source": "SRC-1943",
+  "anchor": [
+   "In 2024, a total of 2,391 heat-related deaths were reported in the United States. The percentage of heat-related deaths increased with age through ages 65\u201374 years, with the highest percentage (21.1%) reported among adults in this age group."
+  ],
+  "locator": "MMWR 75(34):542, QuickStats",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "CDC/NCHS, September 2026 (second Trump administration), death certificate counts; heat is undercounted on death certificates. Re-check: 2025 mortality data."
+ },
+ {
+  "id": "EV-HOU-644",
+  "statement": "In FY24 LIHEAP had $4.1 billion and served 5.9 million households; 5 million received heating assistance but only 751K received cooling assistance and 50K weatherization; 2.5 million served households included an older adult. States may spend up to 15% (25% with a waiver) on weatherization.",
+  "claim": "data",
+  "figures": [
+   "$4.1 billion",
+   "5.9M",
+   "5M",
+   "751K",
+   "50K",
+   "2.5M",
+   "15%",
+   "25%"
+  ],
+  "source": "SRC-1944",
+  "anchor": [
+   "In FY24, $4.1 billion",
+   "5.9M Households served",
+   "2.5M Households included an older adult",
+   "5M Households that received heating assistance",
+   "751K Households that received cooling assistance",
+   "50K Households that received weatherization assistance",
+   "as well as up to 15% of their funding (or 25% with a waiver) for weatherization assistance."
+  ],
+  "locator": "ACF LIHEAP Fact Sheet, \"FY24 Program Highlights\" and \"Block Grant\"",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "HHS Administration for Children and Families; FY24 data. The second Trump administration laid off LIHEAP federal staff in April 2025 and proposed eliminating it for FY2026; Congress kept funding (about $4 billion per NEADA, an advocacy group; not verified from an official source here)."
+ },
+ {
+  "id": "EV-HOU-645",
+  "statement": "Philadelphia's Basic Systems Repair Program gives low-income owner-occupants grants of up to $20 000 for electrical, plumbing, heating and roofing emergencies, done by a city contractor team; in 2020 a 4-person household needed income under $48 300, and the wait from enrollment to repair has been 2 to 3 years (2.58 years on average among homes repaired in the study period).",
+  "claim": "data",
+  "figures": [
+   "$20 000",
+   "$48 300",
+   "2 to 3 years",
+   "2.58 years"
+  ],
+  "source": "SRC-1945",
+  "anchor": [
+   "grants of up to $20 000 to low-income owners to fix structural emergencies",
+   "in their owner-occupied homes, including electrical, plumbing, heating, and",
+   "Development and are revised annually. 32 In 2020, for example, for a household",
+   "size of 4 people, the annual income must be less than $48 300. The waiting",
+   "time from enrollment to receipt of BSRP intervention has been 2 to 3 years. In",
+   "waiting list was 2.58 years."
+  ],
+  "locator": "Methods, \"The BSRP Intervention\"; Results paragraph 2",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "JAMA Network Open, July 2021; describes program rules as of the study; current income limits are higher (see EV-HOU-648)."
+ },
+ {
+  "id": "EV-HOU-646",
+  "statement": "Comparing blocks with repaired homes to blocks of wait-listed eligible homes (13 632 houses on 6732 block faces, 2006-2013), each additional BSRP-repaired property on a block face was associated with a 21.9% decrease in total crime, 19.0% in assault, 22.6% in robbery and 21.9% in homicide; the authors call the design cross-sectional and note police-reported crime undercounts violence and spillover to nearby blocks was not evaluated.",
+  "claim": "analysis",
+  "figures": [
+   "13 632",
+   "6732",
+   "21.9%",
+   "19.0%",
+   "22.6%"
+  ],
+  "source": "SRC-1945",
+  "anchor": [
+   "Results A total of 13 632 houses on 6732 block faces received the BSRP",
+   "property that received a BSRP intervention was associated with a 21.9%",
+   "decrease in the expected count of total crime (incidence rate ratio [IRR],",
+   "0.78; 95% CI, 0.76-0.80; P < .001), 19.0%",
+   "P < .001), 22.6% decrease in robbery (IRR,",
+   "21.9% decrease in homicide (IRR, 0.78; 95% CI, 0.71-0.86;",
+   "data from the City of Philadelphia Basic Systems Repair Program (BSRP) from",
+   "January 1, 2006, through April 30, 2013. The unit of analysis was block",
+   "spillover to blocks beyond those served by the BSRP.",
+   "undercounted violence by relying on police-reported crime given that certain"
+  ],
+  "locator": "Abstract (Design; Results); Discussion, Limitations",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "JAMA Network Open, 2021; peer-reviewed; authors at University of Pennsylvania; data supplied by City of Philadelphia. Observational difference-in-differences, not randomized.",
+  "corroboration": []
+ },
+ {
+  "id": "EV-HOU-647",
+  "statement": "From 2009 to 2019 Philadelphia spent approximately $98,773,528 on 11,087 approved BSRP emergency repairs, an average of $8,908.85 each, while nearly 40,000 homeowners applied; participants reported a median annual income of $12,000, and the authors say most applicants not served were turned away for lack of funds rather than ineligibility.",
+  "claim": "data",
+  "figures": [
+   "$98,773,528",
+   "11,087",
+   "$8,908.85",
+   "40,000",
+   "$12,000"
+  ],
+  "source": "SRC-1946",
+  "anchor": [
+   "From 2009-2019, Philadelphia spent approximately $98,773,528 in emergency repairs for an average repair",
+   "cost of $8,908.85. The relatively high average repair costs speaks to the fact that the BSRP targets emergency",
+   "the 11,087 approved repairs from 2009-2019, the average cost of repairs at $8,908 dollars represents not just",
+   "over 11,000 repairs with nearly 40,000 homeowners applying, and being rejected, or placed on the program\u2019s",
+   "non-trivial. For example, BSRP participants in our sample reported a median annual income of $12,000. The",
+   "are not served are due to a lack of funds, not because they do not meet program standards."
+  ],
+  "locator": "Section on BSRP data (p. 6); Discussion; Conclusion",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "SocArXiv preprint posted December 2022 (not peer reviewed); University of Pennsylvania authors using city administrative data. Figures are program administrative data reported by the authors."
+ },
+ {
+  "id": "EV-HOU-648",
+  "statement": "BSRP today offers free emergency repairs to owner-occupants of single-family homes who own no other residential property and are current, or on a payment agreement, on both property taxes and water bill; the income limit for a family of four is $122,700, and applicants must document the emergency (for example an L&I violation notice or photos of a ceiling collapse).",
+  "claim": "data",
+  "figures": [
+   "$122,700"
+  ],
+  "source": "SRC-1947",
+  "anchor": [
+   "Not own any other residential property in Philadelphia",
+   "Own and live in the single-family house with the problem",
+   "Be current or under current payment agreement for both your property taxes and your water bill",
+   "$122,700",
+   "Violation notice from L&I",
+   "Clear photos showing a ceiling collapse in a heated living area"
+  ],
+  "locator": "\"Who is eligible?\"; \"How do I apply?\"; Income Guidelines table, family size 4",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "PHDC program page read 2026-11-09 (undated). PHDC runs BSRP for the City. The tax/water current requirement screens out owners already in arrears, the group repair programs might keep from tax foreclosure."
+ },
+ {
+  "id": "EV-HOU-649",
+  "statement": "In city fiscal 2025 BSRP repaired 3,527 owner-occupied homes, 147% of its target, and the city's Rental Improvement Fund for small landlords, launched in FY 2023, continued.",
+  "claim": "data",
+  "figures": [
+   "3,527",
+   "147%"
+  ],
+  "source": "SRC-1948",
+  "anchor": [
+   "The Basic Systems Repairs program reached 147% of its target, serving 3,527 households.",
+   "the Rental Improvement Fund (RIF), launched in FY 2023, was continued in FY 2025."
+  ],
+  "locator": "CAPER 2024-2025 draft, accomplishments summary (CR-05) and section on other actions to maintain affordable housing (p. 44)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2026-09-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "City of Philadelphia DHCD, draft CAPER submitted to HUD, September 2025; recheck when the FY2026 CAPER is posted."
+ },
+ {
+  "id": "EV-HOU-650",
+  "statement": "Philadelphia's Restore, Repair, Renew program, launched in March 2019, arranges 10-year, 3% fixed-rate loans of $2,500 to $24,999 from participating lenders for repairs focused on health, safety, weatherization, accessibility and quality of life.",
+  "claim": "data",
+  "figures": [
+   "10-year",
+   "3%",
+   "$2,500",
+   "$24,999"
+  ],
+  "source": "SRC-1950",
+  "anchor": [
+   "Lenders participating in the program are offering 10-year, 3% fixed Annual Percentage Rate loans that range from $2,500 to $24,999 to eligible homeowners.",
+   "It has been one year since the launch in March 2019 of Restore, Repair, Renew"
+  ],
+  "locator": "Restore, Repair, Renew Annual Report page, paragraphs 1-2",
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "PHDC page summarising the 2019-2020 annual report; the report itself (uptake, defaults) was not read. Income limit for RRR is 120% AMI per PHDC income guidelines (not anchored here)."
+ },
+ {
+  "id": "EV-HOU-651",
+  "statement": "Philadelphia's Rental Improvement Fund lends small landlords (no more than 15 units across no more than 5 properties) up to $100,000, secured by a mortgage; loans are forgiven if rent increases stay at or below 3% (voucher units excepted) and code violations are fixed within six months, and otherwise must be repaid at 6% interest.",
+  "claim": "data",
+  "figures": [
+   "15",
+   "5",
+   "$100,000",
+   "3%",
+   "6%"
+  ],
+  "source": "SRC-1951",
+  "anchor": [
+   "Landlords who own no more than 15 rental units across no more than 5 rental properties are eligible.",
+   "RIF will lend a maximum of $100,000 to a single landlord. All RIF loans are secured with a mortgage placed against the property.",
+   "Any rent increase cannot be more than 3%, unless you lease to a tenant using a Housing Choice Voucher (HCV)",
+   "The property must have any code violations identified by the Department of Licenses & Inspections (L&I) corrected within six months during the loan term.",
+   "you will have to repay the unforgiven portion of the loan at 6% interest."
+  ],
+  "locator": "Eligibility; loan products; \"Detailed Loan Terms\"",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "PHDC program page read 2026-11-09; terms have changed since the 2023 launch (2023 news described a 0% repayable option)."
+ },
+ {
+  "id": "EV-HOU-652",
+  "statement": "Stakeholders told Urban Institute researchers that Philadelphia's pilot Rental Improvement Fund had relatively low participation because small landlords were unaware of it or hesitated over enforcement penalties and program requirements; PHDC reported BSRP's average single-family repair cost rose 50 percent between 2018 and 2022.",
+  "claim": "analysis",
+  "figures": [
+   "50 percent"
+  ],
+  "source": "SRC-1952",
+  "anchor": [
+   "they hesitate to apply for these programs because of concerns about potential enforcement penalties and eligibility and general program requirements that could be difficult to follow and might impose additional costs.",
+   "they have recorded relatively low participation levels in the pilot Rental Improvement Fund",
+   "the average cost of repairs for a single-family house increased 50 percent between 2018 and 2022."
+  ],
+  "locator": "Section on small landlords and housing quality (Philadelphia Rental Health Impact Assessment)",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Urban Institute, September 2022, interview-based; no uptake counts given.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-657",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-653",
+  "statement": "Pennsylvania's Whole-Home Repairs guidelines allow grants to homeowners at or below 80% of area median income and loans to small landlords (no more than five properties and 15 rental units), up to $50,000 per unit; a landlord loan is forgiven only if the landlord offered the tenant a three-year lease extension, kept annual rent increases within 3% of base rent (or rented to a voucher holder) for 15 years, kept ownership 15 years and avoided uncorrected serious code violations; administrators may spend up to 4% on administration.",
+  "claim": "data",
+  "figures": [
+   "80%",
+   "$50,000",
+   "3%",
+   "15 years",
+   "4%"
+  ],
+  "source": "SRC-1955",
+  "anchor": [
+   "exceed 80% of the area median income.",
+   "c. A single grant to a homeowner or a single loan to a small landlord may not exceed $50,000 per",
+   "Small landlord offered a three-year extension of the lease to a tenant occupying a unit when",
+   "Annual increases in monthly rent have not exceeded 3% of the base rent or the unit has been",
+   "less than 15 years beginning on the date the loan was received.",
+   "The small landlord has maintained ownership of the unit for a period of no less than 15 years",
+   "2. The person has an ownership stake in no more than five properties and no more than 15 rental units.",
+   "a. Up to 4% of the grant award may be used for administration costs."
+  ],
+  "locator": "Section II.B (Uses of Funds) items a-e and 2.a; definitions",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "PA DCED guidelines, September 2023 (Shapiro administration), implementing the 2022 statute; primary program rules."
+ },
+ {
+  "id": "EV-HOU-654",
+  "statement": "Pennsylvania put $125 million of federal American Rescue Plan money into Whole-Home Repairs, with each county getting at least $200,000; by September 2023 the 52 responding county agencies had awarded or approved 408 homes, expected to serve 3,000 and reported a waitlist of 8,000 homes, with many closing applications early.",
+  "claim": "data",
+  "figures": [
+   "$125 million",
+   "$200,000",
+   "52",
+   "408",
+   "3,000",
+   "8,000"
+  ],
+  "source": "SRC-1953",
+  "anchor": [
+   "from the federal American Rescue Plan Act. The state allocated $125 million of this federal",
+   "funding to the program. 5 Each county is then provided with funding that totals at least $200,000.",
+   "results from the 52 county",
+   "that 408 homes had been",
+   "the end of September 2023.",
+   "These agencies anticipate supporting 3,000 homes and reported a waitlist of 8,000 homes.",
+   "The waitlist might have been greater, but many agencies ended the application period early"
+  ],
+  "locator": "\"Funding Mechanism\"; \"Program Impact\"",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "U.S. EPA program profile, January 2024, reporting a PA DCED survey of county administrators."
+ },
+ {
+  "id": "EV-HOU-655",
+  "statement": "State staff told EPA that many counties struggled to find contractors willing to work on the federally funded Whole-Home Repairs program, and stakeholders objected to requiring income documentation from renters and requiring landlords to own the home for another 15 years.",
+  "claim": "analysis",
+  "figures": [
+   "15 years"
+  ],
+  "source": "SRC-1953",
+  "anchor": [
+   "relates to contractor support. Many counties have struggled to find contractors willing to support",
+   "concerns over aspects of how the statute was written, including requiring income documentation",
+   "from renters and requiring landlords to own the home for another 15 years after services are"
+  ],
+  "locator": "\"Barriers and Challenges\"; program description p. 2-3",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "U.S. EPA profile (January 2024) relaying PA DCED staff views; the administering agency has a stake in the program.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-657",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-656",
+  "statement": "According to DCED figures reported by Demos, as of June 30, 2024 county administrators had received 25,715 Whole-Home Repairs applications but less than 10 percent were identified for a grant, about 17,000 were on waitlists, 1,151 homes had been repaired benefiting 5,667 residents, and only one application had been identified for a landlord loan.",
+  "claim": "data",
+  "figures": [
+   "25,715",
+   "10 percent",
+   "17,000",
+   "1,151",
+   "5,667"
+  ],
+  "source": "SRC-1956",
+  "anchor": [
+   "as of June 30, 2024, county administrators received 25,715 applications but less than 10 percent of applicants were identified to receive a grant.",
+   "nearly 17,000 applicants are on waitlists.",
+   "as of June 30, 2024, a total of 1,151 homes have been repaired benefiting 5,667 residents.",
+   "As of June 30, 2024, only one grant application has been identified to receive a landlord loan."
+  ],
+  "locator": "\"Implementation Challenges\" and \"Preliminary Reports\" sections (pp. 11-12)",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Demos advocacy case study, November 2024, citing DCED data (stake: campaign supporter). DCED primary report not found."
+ },
+ {
+  "id": "EV-HOU-657",
+  "statement": "Demos reports that many Pennsylvania counties chose not to offer Whole-Home Repairs landlord loans, citing the duty to keep rents affordable for 15 years and limited administrative funding to track loans, which largely excluded renters; some counties also capped grants at $25,000, just below the prevailing-wage trigger.",
+  "claim": "analysis",
+  "figures": [
+   "15 years",
+   "$25,000"
+  ],
+  "source": "SRC-1956",
+  "anchor": [
+   "many counties have opted not to provide loans to small landlords who provide affordable housing",
+   "Some counties opting out of the loans to landlords cite concerns with the requirement that they ensure the landlord continues to maintain affordable rents for 15 years after the loan.",
+   "some counties have capped grant amounts at $25,000\u2014just below the amount that triggers prevailing wage requirements"
+  ],
+  "locator": "\"Implementation Challenges\" section (pp. 11-12)",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Demos, November 2024; advocacy organization that backed the program.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-655",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-652",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-658",
+  "statement": "A Housing Initiative at Penn study of Allegheny County's Whole-Home Repairs program found repairs averaged $46,000 per home across 250 homes, the program served only six percent of applicants, and recipients reported lower stress and reduced energy bills.",
+  "claim": "analysis",
+  "figures": [
+   "$46,000",
+   "250"
+  ],
+  "source": "SRC-1957",
+  "anchor": [
+   "The WHR program provided repairs averaging $46,000 per home to 250 homes across the county. Homeowners who received repairs reported lower stress levels and reduced energy bills.",
+   "with the program serving only six percent of applicants during the study period."
+  ],
+  "locator": "Overview, paragraphs 3-4",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Housing Solutions Lab (NYU Furman Center) summary of a study it funded; outcomes self-reported, no comparison group described.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-656",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-659",
+  "statement": "Whole-Home Repairs was funded once, with $125 million of federal Covid-relief money in the 2022-23 state budget, and has not been reauthorized; state statistics show it helped more than 4,000 homeowners, and ACTION-Housing could assist only about 1 in every 20 applications in Allegheny County.",
+  "claim": "data",
+  "figures": [
+   "$125 million",
+   "2022-23",
+   "4,000",
+   "1 in every 20"
+  ],
+  "source": "SRC-1958",
+  "anchor": [
+   "The Whole Home Repairs program was funded with $125 million in federal Covid-relief funds as part of the state\u2019s 2022-23 budget.",
+   "state statistics show it helped more than 4,000 Pennsylvania homeowners make major improvements to their residences.",
+   "ACTION-Housing was able to assist only about 1 in every 20 of the applications for help it received.",
+   "the spending hasn\u2019t been reauthorized since the initial 2022-23 allocation."
+  ],
+  "locator": "Article paragraphs 5-7 and \"What happened in Harrisburg?\"",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-19",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "90.5 WESA news, October 19, 2026; reports a federal pilot modeled on the program in the ROAD to Housing Act."
+ },
+ {
+  "id": "EV-HOU-660",
+  "statement": "In 2024 more than 30 Detroit organizations completed 3,058 assisted home repair interventions worth $63,601,887; the average grant was $16,498 and average loan $21,840, over 99% served owner-occupied homes and only 0.4% rental units, and about 64% of the federal money was ARPA funding that ends in 2026.",
+  "claim": "data",
+  "figures": [
+   "3,058",
+   "$63,601,887",
+   "$16,498",
+   "$21,840",
+   "99%",
+   "0.4%",
+   "64%"
+  ],
+  "source": "SRC-1959",
+  "anchor": [
+   "30+ partner organizations completed over 3,058 home repair interventions in 2024",
+   "In 2024, a total of $63,601,887 in funding was reported",
+   "The average grant expenditure was $16,498, while the average loan expenditure was $21,840.",
+   "over 99% served owner-occupied homes, while only 0.4% served rental units.",
+   "approximately 64% of federal funding came from American Rescue Plan Act funds, which are sunsetting at the end of 2026"
+  ],
+  "locator": "Key findings; funding and repair-type sections",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2026-11-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "City of Detroit Coordinated Home Repair Task Force report on 2024, posted November 2025; Renew Detroit roof program (ARPA) accounted for 79% of roof repairs."
+ },
+ {
+  "id": "EV-HOU-661",
+  "statement": "Detroit's 0% Interest Home Repair Loan offered 10-year no-interest loans up to $25,000 with a 560 minimum credit score, debt-to-income no higher than 45%, homeowner's insurance and current property taxes; by June 2019 919 applicants had been approved, a 37% approval rate, ranging from 22% of applicants below 30% AMI to 53% above 80% AMI.",
+  "claim": "data",
+  "figures": [
+   "$25,000",
+   "560",
+   "45%",
+   "919",
+   "37%",
+   "22%",
+   "53%"
+  ],
+  "source": "SRC-1960",
+  "anchor": [
+   "The loan provides 10-year no-interest loans up to $25,000 for qualified homeowners",
+   "The minimum credit score is 560 and the debt-to-income ratio cannot exceed 45%, among other requirements such as homeowner\u2019s insurance and being current on property taxes (including payment plans).",
+   "As of June 2019, a total of 919 applicants had been approved for the 0% Interest Home Repair Loan Program over its four year history, with an approval rate of 37%",
+   "Just 22% of extremely low-income borrowers, below 30% AMI, have been approved for the program, compared to 53% of borrowers above 80% AMI."
+  ],
+  "locator": "Box \"What is the 0% Interest Home Repair Loan Program?\"; \"Reviewing 0% Interest Home Repair Loan Approval Data\"",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "University of Michigan Poverty Solutions, October 2020, using program data from the city/LISC. The program closed for an overhaul in 2026 (not anchored here)."
+ },
+ {
+  "id": "EV-HOU-663",
+  "statement": "Since the program began, 4,137 buildings with 69,741 units have gone through at least 12 months of New York City's Alternative Enforcement Program and 3,366 (81%) have been discharged; HPD has billed over $108 million to these properties and collected $88 million, with repair and system-replacement costs charged on the property tax bill and becoming a tax lien if unpaid.",
+  "claim": "data",
+  "figures": [
+   "4,137",
+   "69,741",
+   "3,366",
+   "81%",
+   "$108 million",
+   "$88 million"
+  ],
+  "source": "SRC-1962",
+  "anchor": [
+   "4,137 buildings with 69,741 units have each gone through at least 12 months of AEP.",
+   "3,366 buildings (81%) with 55,088 units have been discharged from AEP.",
+   "HPD has billed over $108 million to properties in the program.",
+   "$88 million in charges and fees have been collected.",
+   "Expenditures for emergency repair work or building system replacement are charged to the building through the DOF property tax bill and, if unpaid, become a tax lien."
+  ],
+  "locator": "Introduction; Section I, Overview - Summary Data (as of January 31, 2026)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-01-31",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "NYC HPD statutory report to City Council (FY26); collections as reported by Department of Finance, June 2026, excluding interest."
+ },
+ {
+  "id": "EV-HOU-664",
+  "statement": "HPD's own assessment is that the Alternative Enforcement Program works best on relatively large buildings whose owners have resources but neglect maintenance, and is not as effective for small properties or buildings that cannot finance major system replacements or support operations.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1962",
+  "anchor": [
+   "Historically, AEP has been found to be most effective as an enforcement tool for relatively large buildings whose owners have the resources to address the underlying conditions but are not making resources available or providing regular maintenance.",
+   "AEP is not as effective when addressing small properties, properties without the resources to obtain financing for major system replacements, or properties where the financial situation of the building cannot support operations."
+  ],
+  "locator": "Section I, after Cost Effectiveness bullets",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-01-31",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "NYC HPD self-assessment (agency stake). Points to pairing enforcement with repair finance for small, cash-poor buildings.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-667",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-665",
+  "statement": "New York's 2019 Housing Stability and Tenant Protection Act makes major capital improvement rent increases temporary, removed from the regulated rent after thirty years, caps collection at two percent a year, requires the increase to be reduced by any governmental grant the landlord received for the work, and bars increases in buildings with hazardous violations or with thirty-five percent or fewer rent-regulated units.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1964",
+  "anchor": [
+   "shall be removed from the legal regulated rent thirty years from the",
+   "The collection of any increase shall not exceed two percent in",
+   "(i) any governmental grant received by the landlord, where such grant",
+   "(4) prohibit temporary major capital improvement increases for buildings with outstanding hazardous or immediately hazardous violations of",
+   "(6) prohibit temporary major capital improvement increases for buildings with thirty-five per centum or fewer rent-regulated units;"
+  ],
+  "locator": "Part K, new Admin. Code 26-511.1(a)(3), (4), (6)-(8)",
+  "grade": "A",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Enacted New York State law (June 2019); primary law. Upon vacancy the landlord may add any remaining balance (same section)."
+ },
+ {
+  "id": "EV-HOU-666",
+  "statement": "Los Angeles's Systematic Code Enforcement Program inspects rental properties of two or more units about once every four years, funded by a $67.94 annual per-unit fee of which landlords may pass 50% to tenants as a $2.83 monthly surcharge; owners who do not fix violations can be placed in the Rent Escrow Account Program, where tenants pay rent into escrow.",
+  "claim": "data",
+  "figures": [
+   "$67.94",
+   "50%",
+   "$2.83"
+  ],
+  "source": "SRC-1965",
+  "anchor": [
+   "properties with two (2) or more dwelling units once every four years to ensure compliance with",
+   "Effective January 1, 2022 the SCEP fee is $67.94 annually per rental unit. A landlord may pass",
+   "through 50% of the annual SCEP fee per rental unit as a monthly surcharge of $2.83, provided that",
+   "enforcement actions, including recommendations that the property be placed in the Rent Escrow"
+  ],
+  "locator": "\"How the Program Works\"; Questions & Answers",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Los Angeles Housing Department program overview (2023 upload, fee effective 2022); fee may have changed since. Escrow mechanics per LAMC 162.00 not quoted here."
+ },
+ {
+  "id": "EV-HOU-667",
+  "statement": "San Antonio issued at least 607 orders to vacate or demolish occupied single-family homes for code violations in 2015-2020, against no more than 16 combined in Houston, Dallas, Austin and Fort Worth, and only 9 (4%) of 208 households given vacate orders outside one program in 2018-2020 got city relocation assistance.",
+  "claim": "analysis",
+  "figures": [
+   "607",
+   "16",
+   "9 (4%)",
+   "208"
+  ],
+  "source": "SRC-1967",
+  "anchor": [
+   "code violations, with a focus on single-family residences. From 2015-2020, the City issued close to",
+   "1,000 orders to vacate and orders to demolish single-family homes, including at least 607 orders for",
+   "Fort Worth issued\u2014combined\u2014no more than 16 orders.",
+   "\u2022 Only 9 (4%) of the 208 single-family households who received a vacate order from",
+   "the City of San Antonio outside the DART program from 2018 through 2020 received"
+  ],
+  "locator": "Executive Summary, Findings 1 and 5",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "UT Austin law clinic report, November 2021, based on city records requests; advocacy stance. Evidence that enforcement without repair money can displace owners and renters.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-668",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-668",
+  "statement": "Using Chicago building-violation and market data, Bartram finds that resolving building code violations increases rents while unresolved violations do not lower rents, suggesting enforced repairs can reduce affordable options for renters.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1968",
+  "anchor": [
+   "Whereas resolving building violations does increase rents, I find no significant effect on residential sales price.",
+   "although unresolved code violations decrease residential sales price, there is no significant effect on rent prices.",
+   "I suggest that code violations reinforce the divide between wealthy and poor homeowners and exacerbate the existing lack of affordable housing options for renters."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Housing Policy Debate, 2019; peer-reviewed, cross-sectional OLS (correlational). Supports pairing subsidized repair with rent conditions.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-667",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-669",
+  "statement": "Massachusetts' Attorney General's receivership fund, started with $2 million in 2013, financed rehabilitation of 88 severely blighted properties containing 181 housing units by 2019, its revolving loans turning $4 million into $7.80 million of rehabilitation.",
+  "claim": "analysis",
+  "figures": [
+   "$2 million",
+   "88",
+   "181",
+   "$4 million",
+   "$7.80 million"
+  ],
+  "source": "SRC-1969",
+  "anchor": [
+   "Created with an initial funding of $2 million in 2013",
+   "Since 2013, the AHI Receivership Fund has assisted with financing the rehabilitation of 88 severely blighted properties. The repaired properties now contain 181 housing units that would have remained uninhabitable due to significant financial obstacles.",
+   "Because of the revolving nature of the loans, the $4 million program was able to fund $7.80 million in property rehabilitation efforts."
+  ],
+  "locator": "\"AHI Receivership Fund\" section",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-09",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md"
+  ],
+  "context": "Massachusetts Office of the Attorney General program report, April 2019 (self-reported, stake); mostly vacant and abandoned homes, so it shows receivership finance, not effects on occupied rentals.",
+  "corroboration": []
+ },
+ {
+  "id": "EV-HOU-670",
+  "statement": "In 2024, homeowner households headed by someone 65 or over had the highest cost-burden rate of any age group, 28 percent; owners with a mortgage were burdened at 29 percent against 16 percent for owners without one, and property taxes rose 31 percent from 2019 to 2025 (ICE data).",
+  "claim": "data",
+  "figures": [
+   "28 percent",
+   "29 percent",
+   "16 percent",
+   "31 percent"
+  ],
+  "source": "SRC-1989",
+  "anchor": [
+   "households headed by someone age 65 and over have the highest cost burden rates (28 percent)",
+   "homeowners with a mortgage (29 percent) are considerably more likely to be cost burdened than homeowners without a mortgage (16 percent)",
+   "property taxes leapt 31 percent between 2019 and 2025"
+  ],
+  "locator": "Homeownership chapter, discussion of Figure 20",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "JCHS (Harvard), June 2026; tabulations of ACS 1-year 2024 and ICE Mortgage Monitor. Independent academic center; funders include industry and foundations. Re-check: State of the Nation's Housing 2027."
+ },
+ {
+  "id": "EV-HOU-671",
+  "statement": "In 2023, 34 percent of older households, over 12.4 million, were cost burdened; 58 percent of older renters (4.5 million households) were burdened, and cost-burdened older homeowners reached 7.9 million.",
+  "claim": "data",
+  "figures": [
+   "34 percent",
+   "12.4 million",
+   "58 percent",
+   "4.5 million",
+   "7.9 million"
+  ],
+  "source": "SRC-1990",
+  "anchor": [
+   "In 2023, over a third (34 percent) of older households were cost burdened, paying more than 30 percent of their income for housing. This represents a new high of over 12.4 million households",
+   "Fully 58 percent of older renters were burdened in 2023, representing 4.5 million households",
+   "This lifted the number of cost-burdened older homeowners to 7.9 million"
+  ],
+  "locator": "Blog post paragraphs 1-4 and Figure 1",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-08-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "JCHS Housing an Aging Society Program, August 2025, from ACS 2023. The post also attributes coming hardship to the 2025 reconciliation law (opinion, not used). Re-check: next JCHS older-adult tabulation of 2025 ACS."
+ },
+ {
+  "id": "EV-HOU-672",
+  "statement": "HUD reports that 2.46 million elderly-headed renter households had worst-case needs in 2023 (up 113,000 since 2021) and that fewer than 38.8 percent of very-low-income older households received any rental assistance; Section 202 was funded at $1,031,000 thousand for FY2026, and the FY2027 request is $959 million, $72 million below that, renewing rent contracts for about 118,000 households (average PRAC tenant income $16,854) and about 1,500 service-coordinator grants with $122 million. No new capital advances are requested.",
+  "claim": "data",
+  "figures": [
+   "2.46 million",
+   "113,000",
+   "38.8 percent",
+   "1,031,000",
+   "$959 million",
+   "$72 million",
+   "118,000",
+   "$16,854",
+   "1,500",
+   "$122 million"
+  ],
+  "source": "SRC-1975",
+  "anchor": [
+   "Congress found that, in 2023, 2.46 million renter households headed by an elderly person had worstcase housing needs, an increase of 113,000 since 2021.",
+   "$16,854. According to the American Housing survey, fewer than 38.8 percent of very low-income",
+   "The 2027 President\u2019s Budget requests $959 million for Housing for the Elderly, which is $72 million\nbelow the 2026 Enacted level.",
+   "will provide annual funding for approximately 118,000 households covered by the 2,800 contracts",
+   "The Budget includes $122 million to fully fund the renewal of the approximately 1,500 existing",
+   "1,031,000",
+   "HOUSING FOR THE ELDERLY (SECTION 202)"
+  ],
+  "locator": "FY2027 CJ, Budget Overview, Justification and Summary of Resources table (pp. 21-1 to 21-3)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "HUD under the second Trump administration, spring 2026. Amounts and counts are data; need figures come from HUD's Worst Case Housing Needs 2025 report. Re-check: FY2028 Congressional Justification."
+ },
+ {
+  "id": "EV-HOU-673",
+  "statement": "HUD's August 2024 Older Adult Home Modification round awarded more than $3.7 million to three grantees proposing to serve more than 525 senior families; one grantee proposed 195 units for $1,220,000.",
+  "claim": "data",
+  "figures": [
+   "$3.7 million",
+   "525",
+   "195",
+   "$1,220,000"
+  ],
+  "source": "SRC-1978",
+  "anchor": [
+   "awarded more than $3.7 million to two nonprofit organizations and a local housing authority",
+   "will deliver home modification services to more than 525 senior families",
+   "195",
+   "$1,220,000"
+  ],
+  "locator": "News release 24-215, paragraphs 1-3 and award table",
+  "grade": "A",
+  "fact_date": "2024-08-22",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Biden administration press release. Proposed units, not completed homes; per-home cost is the note writer's arithmetic. Re-check: next OAHMP award round."
+ },
+ {
+  "id": "EV-HOU-674",
+  "statement": "The FY2026 President's Budget proposed eliminating Section 202 funding, cutting $931.4 million from the FY2025 level and moving elderly rental aid into a proposed State Rental Assistance block grant.",
+  "claim": "data",
+  "figures": [
+   "$931.4 million"
+  ],
+  "source": "SRC-1976",
+  "anchor": [
+   "The 2026 President's Budget eliminates funding for the Housing for the Elderly (Section 202)\nprogram, reducing spending by $931.4 million compared to the 2025 Enacted level.",
+   "Please see the State Rental Assistance Program justification for more details."
+  ],
+  "locator": "FY2026 CJ, Section 202 budget overview",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Second Trump administration proposal (2025); Congress did not adopt it (FY2026 enacted level in EV-HOU-672). Shows the risk to the program's base by 2029. Re-check: FY2028 budget."
+ },
+ {
+  "id": "EV-HOU-675",
+  "statement": "Among California homeowners who built ADUs, 62 percent relied at least partly on cash savings or family money; the median construction cost in the 2021 survey was $150,000, and agency cash-out refinancing is capped at 80 percent of home value, which limits owners with an existing mortgage.",
+  "claim": "data",
+  "figures": [
+   "62 percent",
+   "$150,000",
+   "80 percent"
+  ],
+  "source": "SRC-1996",
+  "anchor": [
+   "62 percent of homeowners depend at least partially on cash savings or money from a friend or a relative to finance their ADU",
+   "A 2021 survey showed the median statewide construction cost of an ADU to be $150,000",
+   "Fannie Mae, Freddie Mac, and the Federal Housing Administration limit cash-out refinancing to 80 percent of a home\u2019s value"
+  ],
+  "locator": "Findings section, \"Building an ADU can be prohibitively expensive\"",
+  "grade": "C",
+  "fact_date": "2022-08",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Terner Center (UC Berkeley), 2022. No age breakdown of ADU builders was found; older owners' uptake is a gap."
+ },
+ {
+  "id": "EV-HOU-676",
+  "statement": "The ROAD to Housing Act (enacted 2026) authorizes a whole-home repairs pilot giving grants to owners at or below 80 percent of area median income, including people who inherited an interest in the home, for accessibility work such as grab bars and ramps, funded only from appropriations; it also orders a GAO study within 1 year on capital advances for Section 202.",
+  "claim": "data",
+  "figures": [
+   "80 percent",
+   "1 year"
+  ],
+  "source": "SRC-0438",
+  "anchor": [
+   "SEC. 202. <<NOTE: 42 USC 19502.>> WHOLE-HOME REPAIRS ACT.",
+   "(1) Establishment.--There is authorized a pilot program to",
+   "(i) is not more than 80 percent of the area",
+   "person who has inherited an interest in that",
+   "bars and handrails, guards and guardrails, lifting",
+   "receives a grant from appropriated funds made available for this",
+   "(b) Housing for Elderly or Disabled.--Not later than 1 year after",
+   "providing capital advances for--"
+  ],
+  "locator": "P.L. 119-101, sec. 202(a)(3), (a)(14), (b); GAO study subsection (b) on elderly or disabled housing",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/11-repair.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Enacted law (became law without the President's signature, per SRC-0438). The pilot exists in 2029 only if appropriated; no amount is authorized in the section text read. Re-check: GAO report due; FY2027 appropriations."
+ },
+ {
+  "id": "EV-HOU-677",
+  "statement": "A unanimous Supreme Court held in Tyler v. Hennepin County (2023) that a county that sold a home for $40,000 to collect about $15,000 in taxes and kept the $25,000 surplus plausibly violated the Takings Clause; the Court noted that thirty-six States and the Federal Government already required return of the excess.",
+  "claim": "data",
+  "figures": [
+   "$40,000",
+   "$15,000",
+   "$25,000"
+  ],
+  "source": "SRC-1970",
+  "anchor": [
+   "that accumulated about $15,000 in unpaid real estate taxes along with",
+   "$40,000, keeping the $25,000 excess over Tyler\u2019s tax debt for itself.",
+   "Held: Tyler plausibly alleges that Hennepin County\u2019s retention of the excess value of her home above her tax debt violated the Takings Clause.",
+   "ROBERTS, C. J., delivered the opinion for a unanimous Court.",
+   "Thirty-six States and the Federal Government require that\nthe excess value be returned to the taxpayer."
+  ],
+  "locator": "Syllabus and Part II-B of the opinion",
+  "grade": "A",
+  "fact_date": "2023-05-25",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Primary law. It protects surplus equity after a tax sale; it does not stop the tax foreclosure itself. Re-check: state law changes after Tyler."
+ },
+ {
+  "id": "EV-HOU-678",
+  "statement": "GAO found that the share of HECM reverse-mortgage terminations caused by borrower default rose from 2 percent in FY2014 to 18 percent in FY2018, mostly from occupancy or unpaid taxes and insurance, and that only about 22 percent of borrowers behind on property charges had received a repayment plan by the end of FY2018.",
+  "claim": "data",
+  "figures": [
+   "2 percent",
+   "18 percent",
+   "22 percent"
+  ],
+  "source": "SRC-1985",
+  "anchor": [
+   "the percentage of terminations due to borrower defaults increased from 2 percent in fiscal year 2014 to 18 percent in fiscal year 2018",
+   "Since 2015, FHA has allowed HECM servicers to put borrowers who are behind on property charges onto repayment plans to help prevent foreclosures, but as of fiscal year-end 2018, only about 22 percent of these borrowers had received this option."
+  ],
+  "locator": "GAO-19-702, \"What GAO Found\" summary",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "GAO audit, 2019. FHA data then missed the termination reason for about 30 percent of loans; GAO lists its recommendations as implemented. Re-check: check for a newer GAO or HUD OIG HECM review."
+ },
+ {
+  "id": "EV-HOU-679",
+  "statement": "FHA insured 28,149 HECM reverse mortgages in FY2025; the HECM book is about four percent of the MMI Fund's insurance in force and had a stand-alone capital ratio of 24.06 percent, so the program is not a drain on the Fund at present.",
+  "claim": "data",
+  "figures": [
+   "28,149",
+   "24.06 percent"
+  ],
+  "source": "SRC-1973",
+  "anchor": [
+   "FHA provided insurance endorsements for 28,149 HECM loans in FY 2025, representing an MCA",
+   "\u25aa The HECM portfolio, which accounts for roughly four percent of the MMI Fund\u2019s IIF, has",
+   "in FY 2024 to 24.06 percent in FY 2025."
+  ],
+  "locator": "Overview, stand-alone capital ratio highlights; Chapter I, endorsement trends (Exhibit I-26)",
+  "grade": "A",
+  "fact_date": "2025-09-30",
+  "checked": "2026-11-09",
+  "recheck": "2026-12-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "HUD/FHA under the second Trump administration, December 2025; capital ratios rest on model assumptions (the independent actuarial review put HECM economic net worth at $16.603 billion). Re-check: FY2026 annual report."
+ },
+ {
+  "id": "EV-HOU-680",
+  "statement": "Under FHA Mortgagee Letter 2023-23, a HECM servicer may delay calling a loan due when property-charge arrears are $5,000.00 or less, and repayment plans for tax and insurance advances may run up to five years.",
+  "claim": "data",
+  "figures": [
+   "$5,000.00"
+  ],
+  "source": "SRC-1974",
+  "anchor": [
+   "Mortgagee Letter 2023-23",
+   "HECMs with a total Property Charge arrearage amount that is $5,000.00 or\nless by uploading documentation into HERMIT establishing that either:",
+   "The Mortgagee must determine the shortest time period necessary, not to\nexceed five years, for the Repayment Plan"
+  ],
+  "locator": "ML 2023-23, sections III.B.2.c.ii(D)-(E)",
+  "grade": "A",
+  "fact_date": "2023-11-30",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Biden-era FHA servicing rule; still in force as of the FY2025 report, which lists further loss-mitigation changes for forward loans only. Paperwork: servicers must document borrower contact and finances; borrowers must certify occupancy yearly. Re-check: check Handbook 4000.1 for later HECM servicing changes."
+ },
+ {
+  "id": "EV-HOU-681",
+  "statement": "A Federal Reserve staff study using state relief programs as instruments estimated that a $100 rise in annual property taxes raises the two-year moving rate of homeowners over 50 by 0.76 percentage points, an eight percent increase on a nine percent base; the author calls this an upper bound for program take-up households.",
+  "claim": "analysis",
+  "figures": [
+   "$100",
+   "0.76"
+  ],
+  "source": "SRC-1979",
+  "anchor": [
+   "variable estimation using relief programs to generate instruments suggest that a $100\nincrease in annual property taxes is associated with a 0.76 percentage point increase in",
+   "the two-year mobility rate for homeowners over the age of 50. This is an eight percent\nincrease from the baseline two-year mobility rate of nine percent."
+  ],
+  "locator": "FEDS 2008-50, abstract",
+  "grade": "B",
+  "fact_date": "2008-09-16",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Federal Reserve Board staff working paper (Health and Retirement Study panel). The 2010 journal version reports 0.73 points and says the estimate applies to program compliers and may not generalize.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-670",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-682",
+  "statement": "As of 2025, 29 states and DC had property-tax circuit breakers; per ITEP, 19 of 29 aim mainly at seniors, costs run from roughly three one-hundredths of a percent of property-tax collections (Washington) to 9 percent (Vermont), and average benefits fall between $100 and $2,000.",
+  "claim": "data",
+  "figures": [
+   "29 states",
+   "19 out of 29",
+   "9 percent",
+   "$100",
+   "$2,000"
+  ],
+  "source": "SRC-1991",
+  "anchor": [
+   "As of 2025, 29 states and the District of Columbia offer property tax circuit breaker programs.",
+   "Slightly more than half of states with circuit breakers (19 out of 29) target property tax cuts primarily to seniors",
+   "to 9 percent in states with broader eligibility and more generous benefits like Vermont",
+   "The average benefit for recipients typically falls between $100 and $2,000 depending on the program\u2019s income thresholds, benefit caps, and the share of property taxes offset."
+  ],
+  "locator": "Key Findings; \"Circuit Breakers Are Common in the States\"",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "ITEP, published November 9, 2026; a progressive think tank that promotes circuit breakers (stake). Counts are its compilation, not official."
+ },
+ {
+  "id": "EV-HOU-683",
+  "statement": "California's Legislative Analyst found the state's property-tax postponement (deferral) program had around 1,000 participants against over one million potentially eligible older owners, with yearly requalification and high administrative costs paid by participants.",
+  "claim": "analysis",
+  "figures": [
+   "1,000"
+  ],
+  "source": "SRC-1992",
+  "anchor": [
+   "Participation in PTP is very low\u2014a clear shortcoming of the program. In particular, in the most recent years, PTP has had around 1,000 participants\u2014compared to the over one million Californians who are over the age of 62, own their own homes, and live in a household with incomes less than $35,500.",
+   "Homeowners must submit their applications annually and requalify for the program each year.",
+   "PTP has high administrative costs and PTP participants must subsidize the relatively high costs associated with processing unapproved applicants."
+  ],
+  "locator": "Summary of findings; \"Homeowners Must Requalify Each Year\"",
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "California LAO, 2018, nonpartisan legislative office. One state; deferral (a loan with a lien) differs from a circuit-breaker credit. Re-check: check State Controller PTP counts.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-682",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-684",
+  "statement": "Pew counted at least 10,407 Philadelphia homes with tangled titles (2% of 509,258 residential properties), worth over $1.1 billion; clearing one costs about $9,200 for a home at the $88,800 median.",
+  "claim": "data",
+  "figures": [
+   "10,407",
+   "2%",
+   "509,258",
+   "$1.1 billion",
+   "$9,200",
+   "$88,800"
+  ],
+  "source": "SRC-1993",
+  "anchor": [
+   "Philadelphia has at least 10,407 tangled titles, affecting 2% of the city\u2019s 509,258 residential properties.",
+   "the properties are still collectively worth over $1.1 billion",
+   "the cost of remedying a tangled title can be significant: about $9,200 for a home valued at the median of $88,800."
+  ],
+  "locator": "Key findings",
+  "grade": "C",
+  "fact_date": "2021-08-04",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Pew Charitable Trusts Philadelphia research initiative; Pew calls the count an undercount (death-record matching only)."
+ },
+ {
+  "id": "EV-HOU-685",
+  "statement": "By the end of 2025, the Uniform Partition of Heirs Property Act, which adds notice, appraisal and buyout rights before a forced sale of inherited land, had been enacted in 24 states, the U.S. Virgin Islands and DC.",
+  "claim": "data",
+  "figures": [
+   "24 states"
+  ],
+  "source": "SRC-1994",
+  "anchor": [
+   "The Uniform Partition of Heirs Property Act has been enacted in 24 states, the U.S. Virgin Islands, and the District of Columbia."
+  ],
+  "locator": "\"Real Property\" section of the 2025 legislative update",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-01-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Written by Uniform Law Commission staff (sponsor of the act). Other secondary sources give 26 or 27 jurisdictions in 2026; check the ULC enactment map before citing a number. Re-check: ULC year-end update."
+ },
+ {
+  "id": "EV-HOU-686",
+  "statement": "In a randomized trial of 300 low-income older adults in Baltimore, CAPABLE (nurse and occupational-therapist home visits plus up to $1300 of repairs and devices) cut activity-of-daily-living disability scores by 30% at the end of the program versus attention control, at a delivery cost of $2825 per person.",
+  "claim": "analysis",
+  "figures": [
+   "300",
+   "$1300",
+   "30%",
+   "$2825"
+  ],
+  "source": "SRC-1986",
+  "anchor": [
+   "In this randomized clinical trial of 300 low-income older adults with disability, participation in a person-directed program resulted in a 30% reduction in disability scores compared with the results achieved in an attention control group.",
+   "The cost of delivering CAPABLE services in this trial was $2825 per person, which included visits, supplies, team coordination, mileage, and home improvement parts and labor.",
+   "up to $1300 worth of home repairs, modifications, and assistive devices"
+  ],
+  "locator": "Key Points; Methods (Intervention); Discussion",
+  "grade": "B",
+  "fact_date": "2019-01-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "JAMA Internal Medicine 2019, NIH-funded; authors developed CAPABLE (stake). Effect at 12 months was not significant (see EV-HOU-688). Re-check: check for replication trials.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-688",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-687",
+  "statement": "In a nonrandomized evaluation of the CMS Innovation Center CAPABLE demonstration, CMS evaluators estimated Medicare savings of $22 000 over 2 years per participant, against a program cost of $2825.",
+  "claim": "analysis",
+  "figures": [
+   "$2825"
+  ],
+  "source": "SRC-1986",
+  "anchor": [
+   "In a nonrandomized evaluation of the CMS Innovation Center demonstration of CAPABLE, CMS evaluators estimated cost savings to Medicare of $22 000 over 2 years for the average CAPABLE participant (at a total cost per participant of $2825), compared with a propensity score\u2013matched comparison group."
+  ],
+  "locator": "Discussion, paragraph 2",
+  "grade": "C",
+  "fact_date": "2019-01-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Reported second-hand by the CAPABLE authors; the CMS evaluation was not read. Grade C because it is nonrandomized and contested (EV-HOU-688). Re-check: try to obtain the CMS/Innovation Center evaluation itself.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-688",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-688",
+  "statement": "An independent review of the CAPABLE evidence notes the trial's disability benefit was not maintained at 12 months and that only 171 (60.9%) of 281 demonstration participants were in the CMS cost analysis, so the savings estimate is uncertain.",
+  "claim": "analysis",
+  "figures": [
+   "171",
+   "60.9%",
+   "281"
+  ],
+  "source": "SRC-1987",
+  "anchor": [
+   "This clinically meaningful benefit, which was accompanied by a smaller and non-significant reduction in disability in instrumental activities of daily living, was not maintained at 12 months.",
+   "it\u2019s not clear how these savings were accrued, and only 171 (60.9%) of the 281 participants were included in the cost analysis."
+  ],
+  "locator": "Commentary, paragraphs 3-4",
+  "grade": "C",
+  "fact_date": "2021-09-08",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Journal of the American Geriatrics Society 2021 commentary by Thomas Gill (Yale), not a CAPABLE author.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-686",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-689",
+  "statement": "In January 2025 HUD awarded more than $109 million to 67 agencies and nonprofits under the Older Adults Home Modification Program, with one-third for communities with substantial rural populations, based on occupational-therapist assessments of fall and other hazards.",
+  "claim": "data",
+  "figures": [
+   "$109 million",
+   "67"
+  ],
+  "source": "SRC-1977",
+  "anchor": [
+   "HUD is awarding more than $109 million to 67 state and local government agencies and nonprofit organizations under its Older Adults Home Modification Program.",
+   "One-third of the funds will be awarded to grantees that serve communities with substantial rural populations."
+  ],
+  "locator": "News release 25-001, \"Helping Seniors Live Independently\" paragraph",
+  "grade": "A",
+  "fact_date": "2025-01-03",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Biden administration, final weeks. Whether later rounds were funded under the second Trump administration was not checked. Re-check: FY2027 appropriations and next NOFO."
+ },
+ {
+  "id": "EV-HOU-690",
+  "statement": "In 2020, 14 million older adults (27.6%) reported a fall in the past year, and in 2021, 38,742 died from unintentional falls; CDC puts medical costs of older-adult falls at approximately $50 billion a year.",
+  "claim": "data",
+  "figures": [
+   "14 million",
+   "27.6%",
+   "38,742",
+   "$50 billion"
+  ],
+  "source": "SRC-1972",
+  "anchor": [
+   "In 2020, 14 million (27.6%) older adults reported falling during the previous year.",
+   "In 2021, 38,742 (78.0 per 100,000 population) older adults died as the result of unintentional falls.",
+   "Nationally, the medical costs attributed to nonfatal and fatal falls in this age group amounts to approximately $50 billion every year"
+  ],
+  "locator": "MMWR 72(35), summary and introduction",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "CDC (Biden administration), 2023. The $50 billion figure rests on 2015 costs; a 2024 CDC-affiliated study put 2020 nonfatal-fall spending near $80 billion (read only through a search tool, not used). Re-check: next CDC falls surveillance update."
+ },
+ {
+  "id": "EV-HOU-691",
+  "statement": "In 2026, forty states kept Medicaid home-care waiting or interest lists holding almost 650,000 people, who waited 34 months on average for waiver services; states must begin reporting waiting lists in 2027 under the federal access rule.",
+  "claim": "data",
+  "figures": [
+   "650,000",
+   "34 months"
+  ],
+  "source": "SRC-1988",
+  "anchor": [
+   "Forty states maintain waiting lists or interest lists for people who would like to receive home care",
+   "with a total of almost 650,000 in 2026",
+   "Although people may wait a long time to receive waiver services\u201434 months on average in 2026\u2014most people are eligible for other types of home care while they wait.",
+   "Starting in 2027, states will be required to report the number of people on waiting lists"
+  ],
+  "locator": "Key takeaways and Box 1",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "KFF state survey, October 2026. Lists are not comparable across states; most people listed have intellectual or developmental disabilities (older adults were about 23% in KFF's 2025 note, read only through a search tool). Re-check: KFF 2027 survey."
+ },
+ {
+  "id": "EV-HOU-692",
+  "statement": "HomeShare Vermont reports 364 matched participants in FY2026, average rent $413 with 22% of guests paying no rent, on $550,332 of state and $161,668 of federal matching funds.",
+  "claim": "data",
+  "figures": [
+   "364",
+   "$413",
+   "22%",
+   "$550,332",
+   "$161,668"
+  ],
+  "source": "SRC-1997",
+  "anchor": [
+   "Resulting in 364 matched participants!",
+   "The average rent in a homesharing match was just $413, and 22% of guests paid no rent at all",
+   "In Fiscal Year 2026, Vermont provided $550,332 in state funds and $161,668 of matching federal funds to HomeShare Vermont"
+  ],
+  "locator": "FY26 Annual Report, outcomes and funding pages",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "Self-reported program data with no comparison group; outcome claims (feeling safer, able to stay home) are participant survey answers. Re-check: FY27 annual report."
+ },
+ {
+  "id": "EV-HOU-693",
+  "statement": "The July 2025 reconciliation law lets CMS approve, beginning July 1, 2028, standalone Medicaid home-care waivers for people below institutional level of care, for 3-year initial terms, covering home or community-based services but not room and board, and gives states $100,000,000 in FY2027 for HCBS systems.",
+  "claim": "data",
+  "figures": [
+   "3",
+   "$100,000,000"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "``(A) <<NOTE: Effective date.>> In general.--Beginning July\n1, 2028, notwithstanding paragraph (1), the Secretary may",
+   "the cost of home or community-based services (other than room\nand board (as described in paragraph (1)))",
+   "approved under this paragraph shall be for an initial term of 3\nyears",
+   "(B) for fiscal year 2027, $100,000,000 for purposes"
+  ],
+  "locator": "P.L. 119-21 sec. 71121, adding SSA 1915(c)(11)",
+  "grade": "A",
+  "fact_date": "2025-07-04",
+  "checked": "2026-11-09",
+  "recheck": "2028-07-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Enacted law. States must show the new waiver will not lengthen waits on existing waivers and that per-capita costs stay below institutional care; HCBS still cannot pay rent. Re-check: first standalone waivers."
+ },
+ {
+  "id": "EV-HOU-694",
+  "statement": "The July 2025 reconciliation law cuts Medicaid retroactive coverage from three months to the month before application (expansion adults) or the second month before (others) for applications from the first quarter after December 31, 2026, and from January 1, 2028 caps the state option for a higher home-equity limit in long-term-care eligibility at $1,000,000.",
+  "claim": "data",
+  "figures": [
+   "$1,000,000"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "furnished in or after the month before the month in",
+   "in or after the second month before the month in which",
+   "the third month before the month in which the recipient makes",
+   "application made on or after the first day of the first quarter that\nbegins after December 31, 2026.",
+   "amount that exceeds such amount, but does not exceed\n$1,000,000.",
+   "made by subsection (a) shall apply beginning on January 1, 2028."
+  ],
+  "locator": "P.L. 119-21 secs. 71112 and 71108",
+  "grade": "A",
+  "fact_date": "2025-07-04",
+  "checked": "2026-11-09",
+  "recheck": "2027-01-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Enacted law. Shorter retroactive coverage matters to older people who apply for long-term care after a crisis; the equity cap is not indexed above $1,000,000. Re-check: CMS implementation guidance."
+ },
+ {
+  "id": "EV-HOU-695",
+  "statement": "The July 2025 reconciliation law lowers the provider-tax safe-harbor threshold for Medicaid expansion states from 6 percent to 5.5 percent in FY2028 and 5 percent in FY2029, falling to 3.5 percent by FY2032, which squeezes the state budgets that fund optional home-care waivers.",
+  "claim": "data",
+  "figures": [
+   "6 percent",
+   "5.5 percent",
+   "5 percent",
+   "3.5 percent"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "for `6 percent' each place it appears'' after",
+   "``(II) in the case of an expansion State or unit of",
+   "``(I) for fiscal year 2028, 5.5 percent;",
+   "``(II) for fiscal year 2029, 5 percent;",
+   "``(V) for fiscal year 2032 and each subsequent",
+   "fiscal year, 3.5 percent."
+  ],
+  "locator": "P.L. 119-21 sec. 71115, amending SSA 1903(w)(4)",
+  "grade": "A",
+  "fact_date": "2025-07-04",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "Enacted law. The link to HCBS cuts is the note writer's inference (KFF reports some states cut and others expanded home care, read only through a search tool). Nursing-facility taxes are treated separately in the statute (not checked here). Re-check: FY2028 start."
+ },
+ {
+  "id": "EV-HOU-696",
+  "statement": "CMS reported that when older adults moved from nursing homes to community care under Money Follows the Person, Medicaid and Medicare spending fell $1,840 a month (23 percent), or $22,080 in the first year, but called this an upper bound; about 25 percent of older participants would not have moved without the program, and scarce affordable accessible housing was the most-reported barrier.",
+  "claim": "analysis",
+  "figures": [
+   "$1,840",
+   "23 percent",
+   "$22,080",
+   "25 percent"
+  ],
+  "source": "SRC-1981",
+  "anchor": [
+   "declined by $1,840 (23 percent) among older adults transitioning from nursing homes (Figure 4),\nwhich translates to average cost savings for Medicaid and Medicare programs of $22,080 during",
+   "The overall cost savings estimate is an upper-bound on cost savings because it assumes",
+   "approximately 25 percent of older adult MFP participants and 50 percent",
+   "Insufficient supply of affordable and accessible housing, including lack of available housing"
+  ],
+  "locator": "MFP Report to Congress, sections on savings, transition rates and state challenges",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md"
+  ],
+  "context": "CMS, June 2017, from the Mathematica national evaluation; pre-post comparison, administrative costs excluded. Re-check: MFP expiry; any new report.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-691",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-697",
+  "statement": "Money Follows the Person is funded at $450 million a year for FY2024 through FY2027 and, like the HCBS spousal-impoverishment protections, expires after FY2027 unless Congress extends it, so under current law it will not exist when the plan starts.",
+  "claim": "data",
+  "figures": [
+   "$450 million"
+  ],
+  "source": "SRC-1982",
+  "anchor": [
+   "Follows the Person program and the spousal impoverishment protections through FY2027.",
+   "to appropriate $450 million in federal funding for each of FY2024"
+  ],
+  "locator": "CRS R47821, summary and section 5114",
+  "grade": "A",
+  "fact_date": "2027",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-30",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "CRS summary of P.L. 117-328. Advocacy letters (October 2026) urge an extension; none enacted as of 2026-11-09 to this search. Re-check: expiry date; check for extension."
+ },
+ {
+  "id": "EV-HOU-698",
+  "statement": "The federal evaluation of Vermont's SASH housing-based care coordination found slower Medicare spending growth of approximately $1,100 per beneficiary per year in one regional group (48% of site-based participants), but no significant reduction across all participants.",
+  "claim": "analysis",
+  "figures": [
+   "$1,100",
+   "48%"
+  ],
+  "source": "SRC-1980",
+  "anchor": [
+   "reduced the growth in total Medicare expenditures by $91.59 PBPM, or approximately\n$1,100 per beneficiary per year.",
+   "participants, there is no significant reduction in the growth of total Medicare\nexpenditures, relative to the comparison group;",
+   "DRHO panels--representing 48% of the sample of site-based SASH participants who"
+  ],
+  "locator": "SASH Evaluation Findings 2010-2016, Medicare expenditures section and conclusions",
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "RTI and LeadingAge LTSS Center for HHS ASPE, July 2019; comparison-group design, one state. LeadingAge represents service providers (stake).",
+  "corroboration": []
+ },
+ {
+  "id": "EV-HOU-699",
+  "statement": "AARP's 2024 survey found 75 percent of adults 50 and older want to stay in their current home and 73 percent in their community for as long as possible, while 44 percent expect to relocate at some point.",
+  "claim": "data",
+  "figures": [
+   "75 percent",
+   "73 percent",
+   "44 percent"
+  ],
+  "source": "SRC-1995",
+  "anchor": [
+   "The vast majority of Americans age 50-plus would like to live in their current home (75 percent) and community (73 percent) for as long as possible",
+   "44 percent of those age 50-plus expect to relocate at some point"
+  ],
+  "locator": "Survey summary page, paragraphs 2-3",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-01",
+  "supports": [
+   "dossiers/home/research-repair-aging.md",
+   "dossiers/home/memos/12-aging-in-place.md"
+  ],
+  "context": "AARP Research with NORC, 2024; AARP advocates aging-in-place policy (stake). Re-check: next AARP survey, usually every three years."
  }
 ]
