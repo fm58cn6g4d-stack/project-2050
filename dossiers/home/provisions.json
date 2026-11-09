@@ -1,0 +1,905 @@
+[
+  {
+    "id": "HOU-4.01",
+    "title": "Shared rules for all housing help",
+    "agenda": "HOU-4",
+    "status": "decided by reference (shared-rules.md working answers)",
+    "decisions": [
+      "DEC-2026-11-09-02",
+      "DEC-2026-11-09-05"
+    ],
+    "parameters": "Income, income lines, immigrant eligibility, verification, conditions and residency, kept in one place; no work or treatment condition; no residency rules",
+    "eligibility": "All households under HOU-4, HOU-4A, HOU-4D, HOU-1D",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "definitions; disapplies 42 U.S.C. 1437j(c) to new awards"
+      },
+      {
+        "vehicle": "R2",
+        "kind": "conditions",
+        "note": "restated as conditions on new money"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "42 U.S.C. 1437a, 1436a, 26 U.S.C. 6409 unchanged; 24 CFR 982.207",
+    "evidence": [
+      "EV-HOU-189",
+      "EV-HOU-233"
+    ],
+    "sources": [],
+    "cost_source": "none",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.02",
+    "title": "One rental help system (guarantee, vouchers, emergency help harmonized)",
+    "agenda": "HOU-4",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-06"
+    ],
+    "parameters": "Common application, shared access points, one household record, income found once reused for 12 months, defined hand-offs",
+    "eligibility": "Applicants to HOU-1D, HOU-4A, HOU-4D, HOU-4.08",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "inside HOU-4A.02 and HOU-1D.03 administration"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "data sharing and privacy"
+      }
+    ],
+    "agency": "HUD (section 4 choice; section 5 tests capacity)",
+    "current_law": "Extends 1437a(a)(7)(D) income reuse",
+    "evidence": [
+      "EV-HOU-150"
+    ],
+    "sources": [
+      "SRC-1061",
+      "SRC-1066"
+    ],
+    "cost_source": "section 6",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.03",
+    "title": "Order of reach",
+    "agenda": "HOU-4",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-06",
+      "DEC-2026-11-09-01",
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "Stage 1 people without a home (families first) 2030-33; stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters from 2038; within stage: severity, youngest children, date",
+    "eligibility": "As stated; local preferences allowed, no residency rules",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "conditions",
+        "note": ""
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "24 CFR 982.207",
+    "evidence": [
+      "EV-HOU-086",
+      "EV-HOU-099",
+      "EV-HOU-090",
+      "EV-HOU-026",
+      "EV-HOU-109",
+      "EV-HOU-114",
+      "EV-HOU-189"
+    ],
+    "sources": [],
+    "cost_source": "none",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.04",
+    "title": "Matching the tool to the market",
+    "agenda": "HOU-4",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-01"
+    ],
+    "parameters": "Tight market: vacancy <=4% two years or <50% lease-up in 180 days (judgment); 2030-31 vouchers everywhere; from 2032 up to 25% attached in tight markets, max 50% after evaluation; move with voucher after 12 months; no attached awards in tracts over 30% poverty; randomized evaluation by 2036",
+    "eligibility": "New awards under HOU-4A and HOU-4D",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "conditions",
+        "note": "on HOU-4A, HOU-4D and HOU-3C money"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Project-based voucher authority 42 U.S.C. 1437f(o)(13); cap disapplied for new awards",
+    "evidence": [
+      "EV-HOU-092",
+      "EV-HOU-093",
+      "EV-HOU-118",
+      "EV-HOU-090",
+      "EV-HOU-114"
+    ],
+    "sources": [],
+    "cost_source": "inside HOU-4A and HOU-4D",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.05",
+    "title": "Payment limits by neighborhood",
+    "agenda": "HOU-4",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "Small Area Fair Market Rents in metro areas; tight markets 2030, all metros by 2032; two-year hold harmless",
+    "eligibility": "All tenant-based vouchers in metro areas",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "codify in 1437f(o); HUD may act by rule first"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Amends 42 U.S.C. 1437f(o)",
+    "evidence": [
+      "EV-HOU-095"
+    ],
+    "sources": [],
+    "cost_source": "no new money",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.06",
+    "title": "National source-of-income protection",
+    "agenda": "HOU-4",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "Bars refusal or different terms because rent is paid with housing assistance; Fair Housing Act remedies; effective 2030",
+    "eligibility": "Rental housing covered by the Fair Housing Act",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "Fair Housing Act amendment"
+      }
+    ],
+    "agency": "HUD (fair housing)",
+    "current_law": "State and local laws that protect more stay",
+    "evidence": [
+      "EV-HOU-093",
+      "EV-HOU-094",
+      "EV-HOU-246",
+      "EV-HOU-247"
+    ],
+    "sources": [],
+    "cost_source": "none",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.07",
+    "title": "Search help with every new award",
+    "agenda": "HOU-4",
+    "status": "decided; design research open",
+    "decisions": [
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "Per-award fee to housing agencies for counseling, landlord outreach, deposits and fees; starts from ROAD's pre-inspected unit list",
+    "eligibility": "New tenant-based awards and moves from attached homes",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "fee"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "evaluation"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Builds on ROAD sec. 405",
+    "evidence": [
+      "EV-HOU-091",
+      "EV-HOU-188",
+      "EV-HOU-232"
+    ],
+    "sources": [],
+    "cost_source": "section 6",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.08",
+    "title": "Stage 3: disabled extremely low-income renters from 2038",
+    "agenda": "HOU-4",
+    "status": "decided (memo 2 condition); definition and services with the care flagship",
+    "decisions": [
+      "DEC-2026-11-09-01"
+    ],
+    "parameters": "Enrollment from 2038; vouchers or awards attached to reserved accessible homes; HCBS offered, never a condition; pace with care flagship and section 6",
+    "eligibility": "ELI renter households with a member with a long-term disability (definition with care flagship)",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "authorized now, effective 2038; or the care flagship's bill"
+      }
+    ],
+    "agency": "HUD, with HHS for services",
+    "current_law": "New awards under 1437f(o)",
+    "evidence": [
+      "EV-HOU-032",
+      "EV-HOU-185"
+    ],
+    "sources": [],
+    "cost_source": "section 6, outside the $135B",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.09",
+    "title": "Housing First as the federal rule",
+    "agenda": "HOU-4",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-05"
+    ],
+    "parameters": "Revoke the 2025 order's conditions (January 2029); statutory Housing First standard for HUD and HHS homelessness help; navigator offered, declining never ends housing; ESG no-sweeps extension is a yes-or-no for Espen",
+    "eligibility": "People served by federal homelessness help and new awards",
+    "vehicle": [
+      {
+        "vehicle": "executive action",
+        "kind": "none",
+        "note": "January 2029"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "McKinney-Vento standard"
+      }
+    ],
+    "agency": "HUD, HHS, Interagency Council on Homelessness",
+    "current_law": "Reverses EO of July 2025; reissues the July 2027 national plan",
+    "evidence": [
+      "EV-HOU-107",
+      "EV-HOU-238",
+      "EV-HOU-237",
+      "EV-HOU-099",
+      "EV-HOU-101",
+      "EV-HOU-102",
+      "EV-HOU-100",
+      "EV-HOU-105",
+      "EV-HOU-016"
+    ],
+    "sources": [],
+    "cost_source": "none",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.10",
+    "title": "Voluntary recovery-housing option",
+    "agenda": "HOU-4",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-05"
+    ],
+    "parameters": "Grants through Continuums of Care to operators meeting a quality standard, 2030-34, randomized evaluation for people with active addiction, renewed on results",
+    "eligibility": "People who choose a sober setting; never a condition",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "time-limited operations and evaluation"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "renewal after 2034"
+      }
+    ],
+    "agency": "HUD, with HHS",
+    "current_law": "New",
+    "evidence": [
+      "EV-HOU-105"
+    ],
+    "sources": [],
+    "cost_source": "section 6",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.11",
+    "title": "Supportive housing: engagement as a duty on providers, treatment never a condition",
+    "agenda": "HOU-4",
+    "status": "principle decided (memo 5 B); parameters drafted from the research note (recommendations 1-3, 6, 8, 9), for Espen",
+    "decisions": [
+      "DEC-2026-11-09-05"
+    ],
+    "parameters": "Named navigator offered; contact expected at least monthly; provider follows a set re-engagement protocol; non-engagement never ends lease, subsidy or place; amend 24 CFR 578.75(h) and HUD-VASH (automatic move to a regular voucher); providers offer or connect to medicines for opioid use disorder, naloxone, contingency management, ACT; priority for highest-use chronically homeless people; report contact, retention, overdose deaths, medicine starts, exits; restore the CoC permanent housing priority",
+    "eligibility": "Tenants of federally funded supportive housing",
+    "vehicle": [
+      {
+        "vehicle": "executive action",
+        "kind": "none",
+        "note": "2029 rulemaking"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "McKinney-Vento, with HOU-4.09"
+      }
+    ],
+    "agency": "HUD, VA, HHS",
+    "current_law": "Amends 24 CFR 578.75(h) and the HUD-VASH notice; research note dossiers/home/research-supportive-housing.md (evidence tags added when it merges)",
+    "evidence": [
+      "EV-HOU-099",
+      "EV-HOU-100",
+      "EV-HOU-107",
+      "EV-HOU-238"
+    ],
+    "sources": [],
+    "cost_source": "none directly",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4.12",
+    "title": "Services and workforce for supportive housing",
+    "agenda": "HOU-4",
+    "status": "draft from the research note (recommendations 4-6), for Espen",
+    "decisions": [
+      "DEC-2026-11-09-05"
+    ],
+    "parameters": "Ask the care flagship (HLT-4) to cover tenancy supports, navigation and ACT; HUD services backstop for tenants without Medicaid, paid by contract with staffing and contact standards; wage floors, caseload limits, peer training",
+    "eligibility": "Supportive-housing tenants",
+    "vehicle": [
+      {
+        "vehicle": "care flagship bill",
+        "kind": "mandatory",
+        "note": "Medicaid HCBS benefit"
+      },
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "HUD services backstop 2030-39"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "backstop after 2039"
+      }
+    ],
+    "agency": "HHS (Medicaid), HUD",
+    "current_law": "Revises shared rule 7's working answer",
+    "evidence": [],
+    "sources": [],
+    "cost_source": "section 6",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4A.01",
+    "title": "One million new awards, 2030-33",
+    "agenda": "HOU-4A",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-01",
+      "DEC-2026-11-09-06"
+    ],
+    "parameters": "250,000 new awards a year 2030-33 with continuing help; form per HOU-4.04; mandatory, outside the yearly renewal vote",
+    "eligibility": "Stage 1, then the start of stage 2",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": ""
+      }
+    ],
+    "agency": "HUD and housing agencies",
+    "current_law": "New awards under 42 U.S.C. 1437f(o)",
+    "evidence": [
+      "EV-HOU-086",
+      "EV-HOU-092",
+      "EV-HOU-187",
+      "EV-HOU-188",
+      "EV-HOU-013"
+    ],
+    "sources": [],
+    "cost_source": "legacy $162.2B working midpoint with administration; ledger component HOU-1/additional-600000-voucher-awards 0.09",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4A.02",
+    "title": "Housing agency administration for the new awards",
+    "agenda": "HOU-4A",
+    "status": "decided with HOU-4A",
+    "decisions": [
+      "DEC-2026-11-09-06"
+    ],
+    "parameters": "$12.2B FY2030-39 planning allowance, covering intake through the common application",
+    "eligibility": "Housing agencies",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": ""
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Administrative fees under 1437f",
+    "evidence": [],
+    "sources": [],
+    "cost_source": "legacy file (inside $162.2B)",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-4D.01",
+    "title": "Stage 2: a guarantee for the poorest families with children",
+    "agenda": "HOU-4D",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-01",
+      "DEC-2026-11-09-06"
+    ],
+    "parameters": "Enrollment opens 2034, up to 300,000 a year; a right from 2037; $135B is an estimate, not a cap; exit rule judgment",
+    "eligibility": "Unassisted ELI renter households with a child under 18 and severe problems",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "effective 2034 and 2037"
+      }
+    ],
+    "agency": "HUD and housing agencies",
+    "current_law": "New awards under 1437f(o)",
+    "evidence": [
+      "EV-HOU-185",
+      "EV-HOU-186",
+      "EV-HOU-086",
+      "EV-HOU-090",
+      "EV-HOU-011"
+    ],
+    "sources": [],
+    "cost_source": "recovery-adoption.json housing_extra_tn 0.135; section 6 rescores",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-1D.01",
+    "title": "Standing emergency-rent fund: eligibility, uses, caps",
+    "agenda": "HOU-1D",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-04",
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "Back rent and utilities plus up to two months ahead, deposit or moving; cap four months of FMR (HUD indexes); one episode in 12 months, two in 3 years; legal help paid separately; permanent",
+    "eligibility": "Renters at or below 50% AMI or enrolled in SNAP, Medicaid or SSI, facing a crisis now",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "permanent; paid for from FY2040"
+      }
+    ],
+    "agency": "HUD (section 4 choice)",
+    "current_law": "New; no standing federal program exists",
+    "evidence": [
+      "EV-HOU-108",
+      "EV-HOU-109",
+      "EV-HOU-110",
+      "EV-HOU-111",
+      "EV-HOU-150",
+      "EV-HOU-228"
+    ],
+    "sources": [
+      "SRC-0304"
+    ],
+    "cost_source": "section 6",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-1D.02",
+    "title": "How the fund pays",
+    "agenda": "HOU-1D",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "Tested risk screen, court cases first; self-attestation in statute with pre-payment identity, tenancy and ownership checks and post-payment sample audits; landlord applications with consent; landlord paid first, tenant after 10 days; no eviction for paid months; pay within 30 days",
+    "eligibility": "As HOU-1D.01",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "conditions",
+        "note": ""
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "New",
+    "evidence": [
+      "EV-HOU-150",
+      "EV-HOU-152"
+    ],
+    "sources": [
+      "SRC-1065",
+      "SRC-0991"
+    ],
+    "cost_source": "inside HOU-1D",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-1D.03",
+    "title": "Accountability: grantees, errors, data",
+    "agenda": "HOU-1D",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "One administrator per place (states plus localities of 200,000+); links to courts, legal aid, 211; need-and-performance formula; first-year error-rate sample published yearly; monthly payment-level data standard shared with HOU-4.02",
+    "eligibility": "Grantees",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "allocation, administration, measurement, reporting system"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "privacy and record linkage"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Payment Integrity Information Act applies",
+    "evidence": [
+      "EV-HOU-150",
+      "EV-HOU-154",
+      "EV-HOU-182"
+    ],
+    "sources": [
+      "SRC-0315",
+      "SRC-1061",
+      "SRC-1066"
+    ],
+    "cost_source": "inside HOU-1D; section 6",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-1D.04",
+    "title": "One-time start, 2030-31",
+    "agenda": "HOU-1D",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-04"
+    ],
+    "parameters": "A one-time rent-help tranche smaller than $85B through the fund's network; HOU-1A's construction gap money moves to HOU-3C",
+    "eligibility": "As HOU-1D.01",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "one-time; no FY2040 claim"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Replaces HOU-1A",
+    "evidence": [
+      "EV-HOU-150"
+    ],
+    "sources": [],
+    "cost_source": "section 6; ledger HOU-1/legacy-housing-title still carries HOU-1A",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-3C.01",
+    "title": "State housing revolving funds",
+    "agenda": "HOU-3C",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-03"
+    ],
+    "parameters": "About $72B FY2030-39: $3B 2030, $5B 2031, $8B a year from 2032; 20% state match; at least 30% grants or forgivable loans for ELI homes; acquisition and preservation eligible",
+    "eligibility": "States",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "borrowed inside the D4-B envelope (C21)"
+      }
+    ],
+    "agency": "HUD with state housing finance agencies",
+    "current_law": "New; beside HOME and CDBG's new construction use",
+    "evidence": [
+      "EV-HOU-118",
+      "EV-HOU-150",
+      "EV-HOU-119",
+      "EV-HOU-024",
+      "EV-HOU-215",
+      "EV-HOU-226"
+    ],
+    "sources": [],
+    "cost_source": "legacy HOU-3C about $0.075T inside ledger title 0.47",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-3C.02",
+    "title": "Federal construction and acquisition loans",
+    "agenda": "HOU-3C",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-03"
+    ],
+    "parameters": "$300B commitments 2030-39 ($10B, $20B, $30B, then about $34B a year); FFB; state HFA risk-share; acquisition eligible",
+    "eligibility": "Mixed-income and social housing, housing agencies, nonprofit and tax-credit projects",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "credit subsidy under FCRA"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "New; works beside FHA insurance",
+    "evidence": [
+      "EV-HOU-118"
+    ],
+    "sources": [],
+    "cost_source": "legacy about $0.015T subsidy cost; needs CBO subsidy rate",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-3C.03",
+    "title": "Conditions on plan-financed homes",
+    "agenda": "HOU-3C",
+    "status": "decided for homes the construction money pays for",
+    "decisions": [
+      "DEC-2026-11-09-03",
+      "DEC-2026-11-09-01"
+    ],
+    "parameters": "Permanent affordability with nonprofit or public right of first refusal; attached awards first to these homes in tight markets; accessibility minimums plus a reserved share of accessible units for stage 3 from 2038 (share with the care flagship); CLI-8 code baseline",
+    "eligibility": "Homes financed by HOU-3C, HOU-8, HOU-9A",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "conditions",
+        "note": "grant and loan conditions"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Section 504 minimums (not yet in register)",
+    "evidence": [
+      "EV-HOU-119",
+      "EV-HOU-118",
+      "EV-HOU-032"
+    ],
+    "sources": [],
+    "cost_source": "none separately",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-5.01",
+    "title": "Public housing repair",
+    "agenda": "HOU-5",
+    "status": "legacy working choice",
+    "decisions": [],
+    "parameters": "Capital Fund about $9B a year for ten years; converted RAD homes keep committed repair money; Faircloth repeal (HOU-5B) carried as chosen",
+    "eligibility": "Public housing agencies",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "borrowed inside the D4-B envelope (C31)"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "RAD permanent with 555,000 cap",
+    "evidence": [
+      "EV-HOU-231"
+    ],
+    "sources": [],
+    "cost_source": "legacy about $0.06T inside ledger title",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-5.02",
+    "title": "Repair first, replacement, right to return",
+    "agenda": "HOU-5",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "Repair sound buildings first; one-for-one replacement; right to return with no re-screening; voucher alternative; moving costs both ways; HUD may withhold Capital Fund money",
+    "eligibility": "Residents in good standing on the announcement date",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "RAD and redevelopment rules"
+      },
+      {
+        "vehicle": "R2",
+        "kind": "conditions",
+        "note": "on HOU-5.01 money"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Uses ROAD sec. 212 yearly reporting",
+    "evidence": [
+      "EV-HOU-122",
+      "EV-HOU-121",
+      "EV-HOU-231"
+    ],
+    "sources": [],
+    "cost_source": "inside HOU-5",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-6.01",
+    "title": "Zoning reward through the Innovation Fund",
+    "agenda": "HOU-6",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-04"
+    ],
+    "parameters": "Plan's money into ROAD sec. 208 fund; states and regions eligible; pay for homes finished; count lower-cost homes; raise $10M cap; remove 2033 end; Build Now kept, studied by 2032",
+    "eligibility": "States, regions, localities, tribes",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "direct appropriation"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "eligibility and award rules"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "Amends ROAD secs. 208; leaves 213",
+    "evidence": [
+      "EV-HOU-123",
+      "EV-HOU-124",
+      "EV-HOU-177",
+      "EV-HOU-206",
+      "EV-HOU-207",
+      "EV-HOU-208",
+      "EV-HOU-244"
+    ],
+    "sources": [],
+    "cost_source": "legacy about $0.03T inside ledger title",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-6.02",
+    "title": "Condition on new transportation money",
+    "agenda": "HOU-6",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-04"
+    ],
+    "parameters": "A share of new Moving America 2031 money conditioned on the same reforms; new and incremental money only",
+    "eligibility": "Transportation grantees",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "Moving America 2031 authorization"
+      }
+    ],
+    "agency": "DOT with HUD",
+    "current_law": "New",
+    "evidence": [],
+    "sources": [],
+    "cost_source": "ledger HOU-7 (floor bill, no cost)",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-7B.01",
+    "title": "Investor limit left as enacted",
+    "agenda": "HOU-7B",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-02"
+    ],
+    "parameters": "No change; decide after the 2037 reports",
+    "eligibility": "—",
+    "vehicle": [],
+    "agency": "HUD",
+    "current_law": "ROAD sec. 1001 runs to January 7, 2042",
+    "evidence": [
+      "EV-HOU-222",
+      "EV-HOU-224"
+    ],
+    "sources": [],
+    "cost_source": "none",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-8.01",
+    "title": "Social housing pilot",
+    "agenda": "HOU-8",
+    "status": "legacy working choice",
+    "decisions": [],
+    "parameters": "Mixed-income public development pilot; first HOU-3C.02 borrower plus small equity grant",
+    "eligibility": "Public and nonprofit developers",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": ""
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "New",
+    "evidence": [],
+    "sources": [],
+    "cost_source": "legacy about $0.01T",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-9A.01",
+    "title": "Small federal builder from 2029",
+    "agenda": "HOU-9A",
+    "status": "decided",
+    "decisions": [
+      "DEC-2026-11-09-03"
+    ],
+    "parameters": "Corporation authorized 2029-30; federal and agreed land; tight markets where state channels miss targets; no condemnation; small start with no scheduled scale-up",
+    "eligibility": "—",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "creates the corporation"
+      },
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "capital and FFB loan authority"
+      }
+    ],
+    "agency": "New federal corporation",
+    "current_law": "Uses ROAD sec. 104 land lists",
+    "evidence": [
+      "EV-HOU-150",
+      "EV-HOU-161",
+      "EV-HOU-214"
+    ],
+    "sources": [],
+    "cost_source": "unscored; section 6",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-2.01",
+    "title": "Housing tax credits (placeholder)",
+    "agenda": "HOU-2",
+    "status": "open: options B and D before Espen",
+    "decisions": [
+      "DEC-2026-11-09-03"
+    ],
+    "parameters": "Not specified; see PR #134",
+    "eligibility": "—",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "revenue",
+        "note": "once decided"
+      }
+    ],
+    "agency": "Treasury",
+    "current_law": "—",
+    "evidence": [
+      "EV-HOU-242"
+    ],
+    "sources": [],
+    "cost_source": "open",
+    "spec": "dossiers/home/4-specification.md"
+  }
+]
