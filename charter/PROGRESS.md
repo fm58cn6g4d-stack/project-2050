@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 9, 2026 by Claude Code (lead: sequence after housing section 7).
+Updated November 9, 2026 by Claude Code (lead handoff).
 
 ## Standing sessions
 
@@ -10,9 +10,34 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBx6gAsCr9hXdHVxrQy` | Project 2050: lead | October 28 (began as the stage A reset session) |
-| Reviewer | `session_01UQzgBx8fyTLVyi9sHKfawa` | Project 2050: reviewer | October 29; woken by the reviewer scheduled task. The former reviewer was `session_01QHgvhVvafmiGMqU7Vewnst` (October 26 to 29) |
+| Lead | `session_01UQzgBwqphpchudhq51her6` | Project 2050: lead | November 9 |
+| Reviewer | `session_01UQzgBsenKA1Ueo3vzQwHFw` | Project 2050: reviewer | November 9; woken by the reviewer scheduled task `trig_01QPXBRZzoMHhTSs3k8PAAuP` |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
+
+**Former standing sessions**
+- Lead `session_01UQzgBx6gAsCr9hXdHVxrQy`: stage A reset, stage B, stage C housing through section 9, and the budget side quest coordination; October 28 to November 9.
+- Reviewer `session_01UQzgBx8fyTLVyi9sHKfawa`: PRs up to #136; October 29 to November 9.
+- Reviewer `session_01UQzgBtEveznkR76gmgDdVm`: PRs #133 to #144; November 9.
+- Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
+
+**Lead handoff (November 9, 2026, about 20:00 UTC)**
+- **Where housing stands.** All nine sections are on main, and every decision is recorded through `DEC-2026-11-09-18` (memo 3b switched to option b). Next is the L2/L3 milestone review (row 6), then Espen's strategic review, then section 6's proposed budget-model changes. After that, transportation (step 7) and stage D's health work run side by side ("Directions for later stages").
+- **Open PRs.**
+  - #153: DEC-18; tier 3, approved or under review, needs Espen's label.
+  - #155: memo 3b's option (b) written into HOU-2D.01 and section 6. Draft by `session_01UQzgBtwmZTQ5KDasf1JQUB`, which has its own check-in `trig_01LyJSTYyktN1A2v24ymH6N8` to mark it ready after #153.
+  - #156: two-line nit fixes by `session_01UQzgBwRKJvQz9cAvT8dCS6`.
+  - This handoff PR.
+- **Workers, all idle or finishing; report-back is the lead:**
+  - `session_01UQzgBtwmZTQ5KDasf1JQUB` (memo 3 part 1, memo 3b, #155);
+  - `session_01UQzgBwRKJvQz9cAvT8dCS6` (doubled-up research, #146 pricing, #156);
+  - `session_01UQzgBwnaVpTtzWXrB1h7T9` (fold-ins, production targets);
+  - `session_01UQzgBtvEGzaBz5teTRf5im` (section 8);
+  - `session_01UQzgBwhTRTNETarTTSN1jB` (section 9);
+  - the earlier housing section authors are idle.
+- **Scheduled check-ins bound to the lead:** none.
+- **Still proposed, not decided:** each state's share of the direct production count (an allocation rule for the milestone review) and the rural high-cost credit boost (a small question for Espen at the milestone review).
+- **How Espen works.** They answer in whichever session is in front of them, worker sessions included. Verify their words in that session's events, then record a `DEC-` entry; only Espen applies `espen-approved`. Apply the design lens (`DEC-2026-11-09-13`) to every recommendation. Keep updates short and plain, with clear asks.
+- **Reviewer context.** Each reviewer has filled its context in about 12 hours of heavy review. Check `get_session` at each board update and hand over before 600,000 tokens.
 
 ## Now
 
