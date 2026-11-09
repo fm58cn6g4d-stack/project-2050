@@ -21,9 +21,9 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
 **Lead handoff (November 9, 2026, about 20:00 UTC)**
-- **Where housing stands.** All nine sections are on main, and every decision is recorded through `DEC-2026-11-09-18` (memo 3b switched to option b). Next is the L2/L3 milestone review (row 6), then Espen's strategic review, then section 6's proposed budget-model changes. After that, transportation (step 7) and stage D's health work run side by side ("Directions for later stages").
+- **Where housing stands.** All nine sections are on main, and every decision is recorded through `DEC-2026-11-09-17`, plus the memo 3b switch to option (b) in #153. Next is the L2/L3 milestone review (row 6), then Espen's strategic review, then section 6's proposed budget-model changes. After that, transportation (step 7) and stage D's health work run side by side ("Directions for later stages").
 - **Open PRs.**
-  - #153: DEC-18; tier 3, approved or under review, needs Espen's label.
+  - #153: the memo 3b switch to option (b); tier 3, approved or under review, needs Espen's label.
   - #155: memo 3b's option (b) written into HOU-2D.01 and section 6. Draft by `session_01UQzgBtwmZTQ5KDasf1JQUB`, which has its own check-in `trig_01LyJSTYyktN1A2v24ymH6N8` to mark it ready after #153.
   - #156: two-line nit fixes by `session_01UQzgBwRKJvQz9cAvT8dCS6`.
   - This handoff PR.
