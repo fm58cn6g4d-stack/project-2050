@@ -27,7 +27,7 @@ The plan starts in 2029 and builds one rental help system, step by step, reachin
 
 **A million new rent awards, 2030-33.** 250,000 a year, paid as permanent spending so they never lapse in a budget fight (HOU-4A.01). They go first to people with no home of their own: people who are homeless, and families with children who are doubled up with others. A family shows it by its own word or a school record. There is no cap and no deadline test (`DEC-2026-11-09-12`).
 
-**A guarantee for the poorest families with children.** From 2034, families with children with the lowest incomes and severe housing problems enroll, along with families with children who have no home of their own, up to 300,000 a year. From 2037 it becomes a right: every eligible family that applies gets help (HOU-4D.01). The right is to a home, not just a voucher. If a family's search fails, the housing agency must offer a home or a placement within 60 days, and keep offering until the family is housed. An application gets a decision within 30 days, or it counts as approved. A family turned away can go to court, with its legal fees paid (`DEC-2026-11-09-10`, `-14`).
+**A guarantee for the poorest families with children.** From 2034, families with children with the lowest incomes and severe housing problems enroll, along with families with children who have no home of their own, up to 300,000 a year. From 2037 it becomes a right: every eligible family that applies gets help (HOU-4D.01). The right is to a home, not just a voucher. If a family's search fails, the housing agency must offer a home or a placement within 60 days, and keep offering until the family is housed. An application gets a decision within 30 days, or it counts as approved. A family turned away can go to court, with its legal fees paid if it wins (`DEC-2026-11-09-10`, `-14`).
 
 **Then renters with long-term disabilities.** From 2038, extremely low-income renters with a long-term disability join, with SSI, SSDI or Medicaid disability coverage as proof, so there is no new disability exam (HOU-4.08; `DEC-2026-11-09-14`).
 
@@ -91,7 +91,7 @@ Each message is a sentence people can say, the evidence behind it, and the line 
 
 These follow section 7's objections (`7-validation.md`, 5). Each answer says what the evidence shows and what is still true on the other side.
 
-**"Won't vouchers just push rents up?"** In some places, yes, a little. The best recent study found more vouchers didn't raise rents overall; the rises were in units near the voucher limit, in cities that can't build (Eriksen and Ross, 2015) [EV-HOU-096]. An older study found larger effects (Susin, 2002) [EV-HOU-397]. So the plan sets payment limits by neighborhood, attaches some help to new and purchased homes in tight markets, rewards towns that build, and phases in at 250,000 a year. It also publishes rents near the voucher limit every year, so we'll see it if it happens (section 7, 5.1 and 6).
+**"Won't vouchers just push rents up?"** In some places, yes, a little. The best later study in the dossier's evidence found more vouchers didn't raise rents overall; the rises were in units near the voucher limit, in cities that can't build (Eriksen and Ross, 2015) [EV-HOU-096]. An older study found larger effects (Susin, 2002) [EV-HOU-397]. So the plan sets payment limits by neighborhood, attaches some help to new and purchased homes in tight markets, rewards towns that build, and phases in at 250,000 a year. It also publishes rents near the voucher limit every year, so we'll see it if it happens (section 7, 5.1 and 6).
 
 **"Doesn't subsidized building just replace private building?"** Partly. On average one subsidized home adds a third to a half of a home to the market (Sinai and Waldfogel, 2005) [EV-HOU-114]. That's why the plan is mostly rent help, why its building money leans toward buying and preserving homes and deep affordability, and why the new credits are five-year trials that have to show results (section 7, 5.2).
 
@@ -128,7 +128,7 @@ These follow section 7's objections (`7-validation.md`, 5). Each answer says wha
 | "A million new rent awards in the first four years" | "A million families housed by 2033" | At 90% leased about 900,000 are housed by 2034, fewer if lease-up is lower (section 6, 1.4) |
 | "About 2.0 to 2.4 million more households housed by the early 2040s" | "2.4 million" alone, as a sure thing | Lease-up is the weakest assumption; report the range (section 6, 1.4) |
 | "Vouchers sharply cut homelessness for the families who get them" | "This ends homelessness" | The national effect's size is unknown (section 7, 1.5) |
-| "About 1.3 million homes the plan pays for, built or preserved" | "1.3 million new homes" or "the plan builds 15 million homes" | The 1.3 million includes preserved homes; it adds about 1.0 million net; 15 million is a national goal, mostly private building (HOU-3C.04) |
+| "About 1.3 million homes the plan pays for, built or preserved" | "1.3 million new homes" or "the plan builds 15 million homes" | The 1.3 million includes preserved homes and, net of crowd-out, adds about 0.3-0.7 million homes to the stock; with the zoning reward the plan adds about 1.0 million net new homes; 15 million is a national goal, mostly private building (HOU-3C.04) |
 | "About $0.63 trillion over ten years; lasting costs about 0.16% of the economy" | "It pays for itself" or "fully paid for" | No savings are counted, and 2040 has a gap (section 6, 1.2 and 3.3) |
 | "Housing First works for people with serious mental illness" | "Housing First fixes addiction" | Evidence for active severe addiction is limited [EV-HOU-105] |
 | "It would be illegal to refuse a tenant for paying with a voucher" | "Landlords must take vouchers now" | It needs the regular bill to pass (HOU-4.06) |
@@ -161,7 +161,7 @@ Every number in part 1, with the section that carries it and the evidence behind
 | About $72 billion of revolving-fund grants; $300 billion of loans | 4, 6 | HOU-3C.01, HOU-3C.02; `6-cost.md` 1.2 |
 | Tribal shares 3%, 3%, 5%; about $13 billion | 4 | HOU-4.13; `DEC-2026-11-09-16` |
 | About 1.3 million homes the plan pays for; 1% above past pace in rewarded places; 15 million national goal | 4 | HOU-3C.04; `DEC-2026-11-09-17`; EV-HOU-440 to 445 |
-| Plan's direct count about 9% of the national goal; about 1.0 million net new homes | 4 | HOU-3C.04 (section 4's arithmetic) |
+| Plan's direct count about 9% of the national goal; its own net addition about 0.3-0.7 million; about 1.0 million net new homes with the zoning reward, net of overlap | 4 | HOU-3C.04 (section 4's arithmetic) |
 | About 2.0-2.4 million households housed by FY2042; 2.4 million at 90% leased, 2.0 million at 75%; about 900,000 from the first million by FY2034 | 6 | `6-cost.md` 1.4 (section 6's arithmetic) |
 | About $0.63 trillion over FY2030-39 (about $0.50-0.84 trillion) | 6 | `6-cost.md`, "In brief" and 1.2 |
 | About $81 billion a year in FY2040, 0.16% of GDP | 6 | `6-cost.md`, "In brief" |
