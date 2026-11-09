@@ -49,18 +49,18 @@ The plan starts in 2029 and builds one rental help system, step by step, reachin
 
 **Fair to every family.** No work or treatment rules to get or keep help, no residency rules, and protection for families where some members are immigrants without full status, so the citizens and eligible members keep their help (HOU-4.01, HOU-4.03; `DEC-2026-11-09-10`). The shared household record holds basic information and can never be used for immigration enforcement (HOU-4.02; `DEC-2026-11-09-11`).
 
-By the early 2040s, the plan houses about 2.0 to 2.4 million more households than today (section 6, 1.4).
+By the early 2040s, the plan houses about 2.2 to 2.7 million more households than today (section 6, 1.4).
 
 ### What it costs and how it's paid for
 
-About $0.63 trillion over 2030-39 (range about $0.50-0.84 trillion), and about $81 billion a year of lasting cost by 2040, about 0.16% of the economy (section 6, "In brief"). That is in line with what rich countries spend on housing allowances (OECD Affordable Housing Database) [EV-HOU-159]. The construction and repair money is a one-time investment; the rent help, the emergency fund and the credits are lasting.
+About $0.65 trillion over 2030-39 (range about $0.51-0.90 trillion), and about $90 billion a year of lasting cost by 2040, about 0.18% of the economy (section 6, "In brief"). That is in line with what rich countries spend on housing allowances (OECD Affordable Housing Database) [EV-HOU-159]. The construction and repair money is a one-time investment; the rent help, the emergency fund and the credits are lasting.
 
-The project's budget rule says lasting programs must be paid for from 2040 on. Housing's lasting costs are not yet fully paid for in 2040: the gap is about $12 billion that year, $19 billion counting construction money still being spent, and the wider entry for families with no home of their own could add roughly $7-12 billion more (section 6, 3.3). From 2041 the rule passes. Espen decided that the 2040 gap goes to the plan's financing settlement, where the whole plan's revenue is decided, rather than cutting housing now (`DEC-2026-11-09-09`).
+The project's budget rule says lasting programs must be paid for from 2040 on. Housing's lasting costs are not yet fully paid for in 2040: the gap is about $20 billion that year, $28 billion counting construction money still being spent; about $8 billion of it comes from opening stage 2 to families with no home of their own (section 6, 3.3). From 2041 the rule passes. Espen decided that the 2040 gap goes to the plan's financing settlement, where the whole plan's revenue is decided, rather than cutting housing now (`DEC-2026-11-09-09`).
 
 ### What we're honest about
 
-- **Vouchers only help if families can use them.** The plan's numbers assume 90% of awards end up leased. The closest recent program reached 67% after about two years, and only 57% of voucher searches succeeded in 2022 (UC Berkeley study of Emergency Housing Vouchers, Economy and others, 2023; NYU Furman Center, Ellen and others, 2025) [EV-HOU-345] [EV-HOU-395]. That is the plan's weakest number. At 75%, about 2.0 million households are housed instead of 2.4 million (section 6, 1.4). The duty to house answers it for families with the right from 2037, not for the first million awards.
-- **It doesn't reach everyone who needs it.** 2.4 million households is a large step against 8.46 million with worst case needs. Single adults who are not homeless, older renters without a disability and families just above the line have no funded route in the 2030s (section 7, 5.8).
+- **Vouchers only help if families can use them.** The plan's numbers assume 90% of awards end up leased. The closest recent program reached 67% after about two years, and only 57% of voucher searches succeeded in 2022 (UC Berkeley study of Emergency Housing Vouchers, Economy and others, 2023; NYU Furman Center, Ellen and others, 2025) [EV-HOU-345] [EV-HOU-395]. That is the plan's weakest number. At 75%, about 2.2 million households are housed instead of 2.7 million (section 6, 1.4). The duty to house answers it for families with the right from 2037, not for the first million awards.
+- **It doesn't reach everyone who needs it.** 2.7 million households is a large step against 8.46 million with worst case needs. Single adults who are not homeless, older renters without a disability and families just above the line have no funded route in the 2030s (section 7, 5.8).
 - **The plan's own building is small next to the shortage.** About 1.3 million homes the plan pays for is about 9% of the national goal; most homes will still be built privately (HOU-3C.04).
 - **It doesn't promise to end homelessness.** For a family that gets a voucher, the effect is large and well tested. How much the national count falls is unknown, because people keep losing homes (section 7, 1.5).
 - **The 2040 gap is real** and not yet paid for (above).
@@ -72,7 +72,7 @@ The project's budget rule says lasting programs must be paid for from 2040 on. H
 
 ### The case in one paragraph
 
-Half of America's renters spend more than they can afford on rent, almost one in four fell behind last year, and only about one in four of the poorest renters gets any help. This plan, starting in 2029, makes rental help something families can count on. It funds a million new rent awards, first for people with no home of their own, then guarantees a home, not just a voucher, to the poorest families with children by 2037, then reaches renters with disabilities. It adds a standing emergency fund so a missed paycheck doesn't become an eviction, brings back Housing First, and pays for homes built, bought and repaired that stay affordable for good, with rewards for towns that allow more homes and shares that tribes control. It costs about $0.63 trillion over ten years. It doesn't reach everyone yet, its lasting costs are not fully paid for in 2040, and it says so, with published counts and a review whenever the numbers fall short.
+Half of America's renters spend more than they can afford on rent, almost one in four fell behind last year, and only about one in four of the poorest renters gets any help. This plan, starting in 2029, makes rental help something families can count on. It funds a million new rent awards, first for people with no home of their own, then guarantees a home, not just a voucher, to the poorest families with children by 2037, then reaches renters with disabilities. It adds a standing emergency fund so a missed paycheck doesn't become an eviction, brings back Housing First, and pays for homes built, bought and repaired that stay affordable for good, with rewards for towns that allow more homes and shares that tribes control. It costs about $0.65 trillion over ten years. It doesn't reach everyone yet, its lasting costs are not fully paid for in 2040, and it says so, with published counts and a review whenever the numbers fall short.
 
 ### Messages
 
@@ -95,9 +95,9 @@ These follow section 7's objections (`7-validation.md`, 5). Each answer says wha
 
 **"Doesn't subsidized building just replace private building?"** Partly. On average one subsidized home adds a third to a half of a home to the market (Sinai and Waldfogel, 2005) [EV-HOU-114]. That's why the plan is mostly rent help, why its building money leans toward buying and preserving homes and deep affordability, and why the new credits are five-year trials that have to show results (section 7, 5.2).
 
-**"It costs too much."** About $81 billion a year by 2040 is about 0.16% of the economy, inside the range rich countries spend on housing help (OECD Affordable Housing Database) [EV-HOU-159]. It goes first to the groups with the strongest evidence it works (section 7, 5.3).
+**"It costs too much."** About $90 billion a year by 2040 is about 0.18% of the economy, inside the range rich countries spend on housing help (OECD Affordable Housing Database) [EV-HOU-159]. It goes first to the groups with the strongest evidence it works (section 7, 5.3).
 
-**"Is it paid for?"** Not fully, in 2040. The gap that year is about $12-19 billion, and the wider entry for families with no home of their own could add $7-12 billion. It goes to the financing settlement, with the rest of the plan's revenue. From 2041 the budget rule passes (section 6, 3.3; `DEC-2026-11-09-09`).
+**"Is it paid for?"** Not fully, in 2040. The gap that year is about $20-28 billion, about $8 billion of it from opening stage 2 to families with no home of their own. It goes to the financing settlement, with the rest of the plan's revenue. From 2041 the budget rule passes (section 6, 3.3; `DEC-2026-11-09-09`).
 
 **"States will refuse."** The core doesn't need them. Rent awards go to housing agencies, with a backup administrator where one declines; building and emergency money can go to cities, counties, nonprofits or straight to borrowers; the voucher protection is a federal civil rights floor (section 7, 5.5).
 
@@ -105,7 +105,7 @@ These follow section 7's objections (`7-validation.md`, 5). Each answer says wha
 
 **"Housing help makes people stop working."** The effect is modest. A rent rule built to reward work didn't raise earnings in six years (MDRC, Rent Reform Demonstration, 2024) [EV-HOU-400], and homeless families with vouchers saw no change in average earnings [EV-HOU-086]. The plan adds no new phase-out and no work rule. The remaining problem, several programs phasing out at once, belongs to the plan's income floor (section 7, 5.7).
 
-**"It doesn't go far enough."** That's fair. It reaches about 2.4 million households against 8.46 million with worst case needs, and it says so. Each stage is written so a later Congress can open the next one, and the social housing pilot and the federal builder can grow if they work (section 7, 5.8 and 5.9).
+**"It doesn't go far enough."** That's fair. It reaches about 2.7 million households against 8.46 million with worst case needs, and it says so. Each stage is written so a later Congress can open the next one, and the social housing pilot and the federal builder can grow if they work (section 7, 5.8 and 5.9).
 
 ### Who it helps: illustrations
 
@@ -126,10 +126,10 @@ These follow section 7's objections (`7-validation.md`, 5). Each answer says wha
 | "Half of renters are cost-burdened" | "Most Americans can't afford rent" | The figure is renters, not all households [EV-HOU-038] |
 | "A home, not just a voucher, for the poorest families with children, by 2037" | "A home for everyone" or "a universal right to housing" | The right covers stage 2's families from 2037 (HOU-4D.01) |
 | "A million new rent awards in the first four years" | "A million families housed by 2033" | At 90% leased about 900,000 are housed by 2034, fewer if lease-up is lower (section 6, 1.4) |
-| "About 2.0 to 2.4 million more households housed by the early 2040s" | "2.4 million" alone, as a sure thing | Lease-up is the weakest assumption; report the range (section 6, 1.4) |
+| "About 2.2 to 2.7 million more households housed by the early 2040s" | "2.7 million" alone, as a sure thing | Lease-up is the weakest assumption; report the range (section 6, 1.4) |
 | "Vouchers sharply cut homelessness for the families who get them" | "This ends homelessness" | The national effect's size is unknown (section 7, 1.5) |
 | "About 1.3 million homes the plan pays for, built or preserved" | "1.3 million new homes" or "the plan builds 15 million homes" | The 1.3 million includes preserved homes and, net of crowd-out, adds about 0.3-0.7 million homes to the stock; with the zoning reward the plan adds about 1.0 million net new homes; 15 million is a national goal, mostly private building (HOU-3C.04) |
-| "About $0.63 trillion over ten years; lasting costs about 0.16% of the economy" | "It pays for itself" or "fully paid for" | No savings are counted, and 2040 has a gap (section 6, 1.2 and 3.3) |
+| "About $0.65 trillion over ten years; lasting costs about 0.18% of the economy" | "It pays for itself" or "fully paid for" | No savings are counted, and 2040 has a gap (section 6, 1.2 and 3.3) |
 | "Housing First works for people with serious mental illness" | "Housing First fixes addiction" | Evidence for active severe addiction is limited [EV-HOU-105] |
 | "It would be illegal to refuse a tenant for paying with a voucher" | "Landlords must take vouchers now" | It needs the regular bill to pass (HOU-4.06) |
 | "Protects mixed-status families' help" | "Covers undocumented immigrants" | It protects the eligible members' prorated help (HOU-4.01) |
@@ -162,11 +162,11 @@ Every number in part 1, with the section that carries it and the evidence behind
 | Tribal shares 3%, 3%, 5%; about $13 billion | 4 | HOU-4.13; `DEC-2026-11-09-16` |
 | About 1.3 million homes the plan pays for; 1% above past pace in rewarded places; 15 million national goal | 4 | HOU-3C.04; `DEC-2026-11-09-17`; EV-HOU-440 to 445 |
 | Plan's direct count about 9% of the national goal; its own net addition about 0.3-0.7 million; about 1.0 million net new homes with the zoning reward, net of overlap | 4 | HOU-3C.04 (section 4's arithmetic) |
-| About 2.0-2.4 million households housed by FY2042; 2.4 million at 90% leased, 2.0 million at 75%; about 900,000 from the first million by FY2034 | 6 | `6-cost.md` 1.4 (section 6's arithmetic) |
-| About $0.63 trillion over FY2030-39 (about $0.50-0.84 trillion) | 6 | `6-cost.md`, "In brief" and 1.2 |
-| About $81 billion a year in FY2040, 0.16% of GDP | 6 | `6-cost.md`, "In brief" |
+| About 2.2-2.7 million households housed by FY2042, with stage 2's wider entry; 2.7 million at 90% leased, 2.2 million at 75%; about 900,000 from the first million by FY2034 | 6 | `6-cost.md` 1.4 (section 6's arithmetic) |
+| About $0.65 trillion over FY2030-39 (about $0.51-0.90 trillion) | 6 | `6-cost.md`, "In brief" and 1.2 |
+| About $90 billion a year in FY2040, 0.18% of GDP | 6 | `6-cost.md`, "In brief" |
 | Housing allowances: 0.1-0.3% of GDP in the United States, 1.4% in the United Kingdom | 7 | EV-HOU-159 (OECD Affordable Housing Database; A); `7-validation.md` 5.3 |
-| FY2040 gap about $12 billion, $19 billion with the capital tail; wider entry roughly $7-12 billion more; passes from FY2041 | 6 | `6-cost.md` 3.3; `DEC-2026-11-09-09` |
+| FY2040 gap about $20 billion, $28 billion with the capital tail, about $8 billion of it from stage 2's wider entry; passes from FY2041 | 6 | `6-cost.md` 3.3; `DEC-2026-11-09-09` |
 | 90% leased assumed; 67% for Emergency Housing Vouchers after about two years | 6, 7 | `6-cost.md` 1.4; EV-HOU-345 (Economy, Finnigan and Espinoza, UC Berkeley, 2023; C) |
 | 57% of voucher searches succeeded in 2022 | 7 | EV-HOU-395 (NYU Furman Center, Ellen, O'Regan and Strochak, 2025; C) |
 | About 25 cents kept of each added dollar: a single parent with two children, on a voucher and SNAP, in the earned-income credit's phase-out range, before payroll and income taxes | 7 | `7-validation.md` 3.2; EV-HOU-410, EV-HOU-416 to 418 |
