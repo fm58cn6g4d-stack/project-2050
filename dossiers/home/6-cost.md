@@ -66,8 +66,8 @@ FY2030-39 outlays in billions, central (low-high). "BA" is budget authority. FY2
 | Federal administration, systems and evaluation set-aside (section 5, 2.1) | Mandatory, R2, available until spent | 0.5% of housing's program outlays | 2 (1-7) | 0.4 | Permanent | Judgment: priced as added money, not carved out of the programs (range 0.25-1%) |
 | Interest on late first payments to landlords (section 5, 2.3) | Inside HOU-4.07 | — | Under 0.1 | — | — | Judgment: a penalty that costs only if HUD or agencies pay late; not in the totals |
 | **Spending, total** | | | **528 (406-755)** | **81 with the capital tail; 73 permanent** | | |
-| HOU-2D.01-.04 Tax credits, option D (`DEC-2026-11-09-08`) | Revenue, R2 | None (a revenue loss) | 122 (102-142) | about 16 (13-24) | Permanent for the low-income credit; the trial credits are claimed to about 2048 | Section 4 of this file |
-| **Housing, total** | | | **650 (508-897)** | **97 (64-164)** | | |
+| HOU-2D.01-.04 Tax credits, option D (`DEC-2026-11-09-08`; bond-deal boost `DEC-2026-11-09-18`) | Revenue, R2 | None (a revenue loss) | 123 (102-144) | about 16 (13-24) | Permanent for the low-income credit; the trial credits are claimed to about 2048 | Section 4 of this file |
+| **Housing, total** | | | **651 (508-899)** | **97 (64-164)** | | |
 
 **Provisions with no cost of their own.** HOU-4.01 to HOU-4.05, HOU-4.06's protection itself, HOU-4.09, HOU-4.11, HOU-4.13, HOU-5.02, HOU-6.02, HOU-7B.01, HOU-3C.03, HOU-3C.04 and HOU-2D.04 are rules, conditions, set-asides or regular-bill items. Their costs, if any, sit in the rows above. HOU-4.05's neighborhood payment limits change the cost per award, and the register has no national estimate of by how much (section 4).
 
@@ -274,10 +274,13 @@ Espen chose option D (`DEC-2026-11-09-08`); section 4 writes it as HOU-2D.01 to 
 | Piece | What it is | FY2030-39 revenue loss | FY2040 |
 | --- | --- | --- | --- |
 | HOU-2D.01 Low-income credit increase with the deep-income boost | Permanent | About $0.10 trillion ($0.08-0.12; legacy estimate HOU-2B) | About $15 billion (12-22) |
+| HOU-2D.01, bond-deal boost for poorest-renter buildings (`DEC-2026-11-09-18`) | Permanent; AHCIA section 308 for bond-financed buildings using the deep-income boost | About $1 billion ($0.4-1.6; memo 3b's step table) | About $0.2 billion (0.1-0.4) |
 | HOU-2D.02 Middle-income credit | Tight markets only, 2030-34 awards, a trial with lottery evaluation | About $7 billion, with claims running to about 2048 | About $1 billion |
 | HOU-2D.03 Neighborhood homes credit | 2030-34, with evaluation | About $15 billion over five years [EV-HOU-269] [EV-HOU-270] | Small |
 | HOU-2D.04 Permanent affordability | A condition on the credits | None directly; lowers credit pricing somewhat | — |
 | **Total** | | **About $0.12 trillion ($0.10-0.14)** | **About $16 billion (13-24)** |
+
+The bond-deal boost does not move the rounded totals: it adds about $1 billion to the window ($122 billion to $123 billion; range $102-144 billion) and about $0.2 billion to FY2040 (this section's arithmetic from memo 3b: nine cohorts of awards are being claimed in FY2040, at about $11-45 million a year each). The FY2040 gap stays at about $20 billion ($28 billion with the capital tail).
 
 - **After 2040.** The low-income credit is permanent and grows with its claims; the trial credits stop adding cost by about 2048.
 - **Against the ledger's $0.15 trillion (HOU-2A):** about −$0.03 trillion.

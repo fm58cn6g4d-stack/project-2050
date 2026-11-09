@@ -1,6 +1,6 @@
 # Memo 3b: should the bigger tax credit also boost bond-financed projects?
 
-Role: decision memo for Espen, a follow-up to memo 3 part 1 (option D, `DEC-2026-11-09-08`) on one piece of provision HOU-2D.01. Status: decided by Espen on November 9, 2026: option (a), leave it out (`DEC-2026-11-09-17`): "b isn't cheap for 2k-10k extra homes-- i think we drop it". HOU-2D.01 does not include section 308. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Every cost and home count here is this dossier's estimate: no official score exists.
+Role: decision memo for Espen, a follow-up to memo 3 part 1 (option D, `DEC-2026-11-09-08`) on one piece of provision HOU-2D.01. Status: decided by Espen on November 9, 2026: option (b), the boost only for buildings using the poorest-renter boost (`DEC-2026-11-09-18`), with a review in 2034 alongside the credit trials. Espen first chose (a) (`DEC-2026-11-09-17`: "b isn't cheap for 2k-10k extra homes-- i think we drop it"), then revisited it after comparing (b)'s cost per home with the plan's other tools and said "switch to (b)". HOU-2D.01 includes section 308 on those terms (`../4-specification.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Every cost and home count here is this dossier's estimate: no official score exists.
 
 ## The question
 
@@ -48,7 +48,7 @@ Homes financed use lifetime financing value, not the window's revenue:
 - **Net new homes.** Two to five of every ten homes financed [EV-HOU-275].
 - **Cost per net new home** varies widely with the assumptions, roughly $50,000 to $2.5 million. Most of (c)'s cost is a larger credit on projects that would have gone ahead anyway.
 
-These steps replace an earlier, coarser version of the figures, which gave about $0.5-1 billion for (b) and $3-6 billion for (c). Espen decided on those figures; the decision stands either way.
+These steps replace an earlier, coarser version of the figures, which gave about $0.5-1 billion for (b) and $3-6 billion for (c). Espen's choice of (b) uses these figures (`DEC-2026-11-09-18`).
 
 **About "high-cost areas" in option (b):** bond-financed projects in designated difficult development areas and qualified census tracts already get the boost under current law [EV-HOU-460], so that half of (b) would add nothing. (b) is therefore written as the poorest-renter link alone.
 
@@ -59,7 +59,7 @@ The lens prefers one plain test and local judgment over rules checked up front, 
 - (b) adds no new test. It reuses a choice the agency already makes, whether a building gets the poorest-renter boost, so it costs no extra paperwork. It also points the money at the homes the evidence says the credit serves best (memo 3 part 1).
 - (a) adds nothing and leaves the gap to HOU-3C. HOU-3C's money is spent on purpose, home by home.
 
-## Recommendation: (b) (not chosen; Espen chose (a))
+## Recommendation: (b) (chosen, `DEC-2026-11-09-18`)
 
 Add section 308, but only for buildings using the poorest-renter boost.
 - It helps the deep-income buildings that are hardest to finance, at small cost, with a test agencies already apply.
