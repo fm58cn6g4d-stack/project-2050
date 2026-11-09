@@ -40,7 +40,7 @@
     "decisions": [
       "DEC-2026-11-09-06"
     ],
-    "parameters": "Common application, shared access points, one household record, income found once reused for 12 months, defined hand-offs",
+    "parameters": "Common application, shared access points, one household record, income found once reused for 12 months, defined hand-offs; consent-based record sharing until the regular bill passes",
     "eligibility": "Applicants to HOU-1D, HOU-4A, HOU-4D, HOU-4.08",
     "vehicle": [
       {
@@ -108,7 +108,7 @@
     "decisions": [
       "DEC-2026-11-09-01"
     ],
-    "parameters": "Tight market: vacancy <=4% two years or <50% lease-up in 180 days (judgment); 2030-31 vouchers everywhere; from 2032 up to 25% attached in tight markets, max 50% after evaluation; move with voucher after 12 months; no attached awards in tracts over 30% poverty; randomized evaluation by 2036",
+    "parameters": "Tight market: vacancy <=4% two years or <50% lease-up in 180 days (judgment); 2030-31 vouchers everywhere; from 2032 up to 25% attached in tight markets, max 50% after evaluation; move with a voucher after 12 months, funded from the household's own award; no attached awards in tracts over 30% poverty; randomized evaluation by 2036",
     "eligibility": "New awards under HOU-4A and HOU-4D",
     "vehicle": [
       {
@@ -441,7 +441,7 @@
     "decisions": [
       "DEC-2026-11-09-06"
     ],
-    "parameters": "$12.2B FY2030-39 planning allowance, covering intake through the common application",
+    "parameters": "$12.2B FY2030-39 planning allowance, covering intake through the common application; fees paid in full, never prorated, plus a one-time issuance fee per new award",
     "eligibility": "Housing agencies",
     "vehicle": [
       {
