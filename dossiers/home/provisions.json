@@ -558,7 +558,7 @@
       "EV-HOU-346"
     ],
     "sources": [],
-    "cost_source": "6-cost.md: $81B FY2030-39, plus about $14B for the wider entry (DEC-2026-11-09-12; grade D count) and about $3B for the duty to house; ledger housing_extra_tn 0.135",
+    "cost_source": "6-cost.md: $81B FY2030-39 plus about $3B for the duty to house; ledger housing_extra_tn 0.135; wider entry under DEC-2026-11-09-12 pending PR #141's count (roughly $7-12B in FY2040)",
     "spec": "dossiers/home/4-specification.md"
   },
   {
