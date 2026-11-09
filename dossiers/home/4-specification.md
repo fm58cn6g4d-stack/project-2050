@@ -63,14 +63,14 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-11.01 | Cheaper loans for manufactured homes | Decided (memo 10 part 2 B, `DEC-2026-11-09-20`); grant amount decided by Espen, `DEC-2026-11-09-24` | FHFA action (2029); regular bill; R2 (community grants) |
 | HOU-11.02 | Federal land near growing western cities sold at fair value for housing | Decided (memo 10 part 3 B, `DEC-2026-11-09-20`); proceeds split decided by Espen, `DEC-2026-11-09-24` | Regular bill |
 | HOU-11.03 | Assisted infill housing excluded from federal environmental review | Decided (memo 10 part 4 B, `DEC-2026-11-09-20`) | Regular bill |
-| HOU-12.01 | The home repair fund for low- and moderate-income owners, 2030-39 | Decided (memo 11 part 1 C, `DEC-2026-11-09-21`); amounts proposed, for Espen | R2, mandatory, time-limited |
-| HOU-12.02 | Repairs for renters: landlord loans with a light rent term, city repair funds, receivership, relocation help | Decided (memo 11 part 2 B, `DEC-2026-11-09-21`); loan limits proposed, for Espen | R2 (inside HOU-12.01) |
+| HOU-12.01 | The home repair fund for low- and moderate-income owners, 2030-39 | Decided (memo 11 part 1 C, `DEC-2026-11-09-21`); amounts decided (`DEC-2026-11-09-25`) | R2, mandatory, time-limited |
+| HOU-12.02 | Repairs for renters: landlord loans with a light rent term, city repair funds, receivership, relocation help | Decided (memo 11 part 2 B, `DEC-2026-11-09-21`); loan limits decided (`DEC-2026-11-09-25`) | R2 (inside HOU-12.01) |
 | HOU-12.03 | One front door with the clean-power programs; the fund pays readiness repairs | Decided (memo 11 part 3 B, `DEC-2026-11-09-21`) | Regular bill; R2 (inside HOU-12.01) |
 | HOU-12.04 | Older adults: repairs and home changes on the CAPABLE model | Decided (memo 12 part 2 B, `DEC-2026-11-09-22`) | R2 (inside HOU-12.01) |
-| HOU-13.01 | A federal match for state property-tax relief for older owners, with deferral | Decided (memo 12 part 1 B, `DEC-2026-11-09-22`); threshold and maintenance of effort proposed, for Espen | R2, mandatory, permanent |
-| HOU-13.02 | Protecting older owners' equity: legal help, reverse-mortgage relief in law, a payment plan before tax sales | Decided (memo 12 part 3 B, `DEC-2026-11-09-22`); amount proposed, for Espen | R2 (grants); regular bill |
-| HOU-13.03 | Service coordinators in older renters' buildings | Decided (memo 12 part 4 C, `DEC-2026-11-09-22`); amount proposed, for Espen | R2, mandatory, permanent |
-| HOU-13.04 | Home-sharing grants | Decided (memo 12 smaller point 2, `DEC-2026-11-09-22`); amount proposed, for Espen | R2, mandatory, time-limited |
+| HOU-13.01 | A federal match for state property-tax relief for older owners, with deferral | Decided (memo 12 part 1 B, `DEC-2026-11-09-22`); threshold and maintenance of effort decided (`DEC-2026-11-09-25`) | R2, mandatory, permanent |
+| HOU-13.02 | Protecting older owners' equity: legal help, reverse-mortgage relief in law, a payment plan before tax sales | Decided (memo 12 part 3 B, `DEC-2026-11-09-22`); amount decided (`DEC-2026-11-09-25`) | R2 (grants); regular bill |
+| HOU-13.03 | Service coordinators in older renters' buildings | Decided (memo 12 part 4 C, `DEC-2026-11-09-22`); amount decided (`DEC-2026-11-09-25`) | R2, mandatory, permanent |
+| HOU-13.04 | Home-sharing grants | Decided (memo 12 smaller point 2, `DEC-2026-11-09-22`); amount decided (`DEC-2026-11-09-25`) | R2, mandatory, time-limited |
 | HOU-3C.06 | Homes for older and disabled renters inside HOU-3C, by each state's need | Decided (memo 12 part 4 C, `DEC-2026-11-09-22`) | R2 (inside HOU-3C's amounts) |
 
 ## 1. Rules shared by all housing help
@@ -679,7 +679,7 @@ Espen decided memos 9 and 10 on November 9, 2026 (`DEC-2026-11-09-19`, `-20`), f
 
 ## 8. Repair and aging in place (memos 11 and 12)
 
-Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), from the section 3 addendum, part 2 (`3-design.md`; research in `research-repair-aging.md`). Every part went as recommended. Espen kept two further options open for other dossiers: merging repair and Weatherization (memo 11 part 3 C), if the clean-power dossier finds it workable or preferable, and CAPABLE as a Medicare benefit (memo 12 part 2 C), for the care dossier to review. Section 202 construction (memo 12 part 4 B) is added if the GAO study shows it merits it (Espen: "C, and B if ROAD study shows it merits it"). Amounts the decisions leave open are marked "proposed, for Espen" and collected in `6-cost.md`, question 10. The design lens applies throughout: one plain income test by the person's own statement or a benefit record the government already holds, no credit or tax-current test, local judgment on need, and published counts with review triggers instead of caps or quotas.
+Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), from the section 3 addendum, part 2 (`3-design.md`; research in `research-repair-aging.md`). Every part went as recommended. Espen kept two further options open for other dossiers: merging repair and Weatherization (memo 11 part 3 C), if the clean-power dossier finds it workable or preferable, and CAPABLE as a Medicare benefit (memo 12 part 2 C), for the care dossier to review. Section 202 construction (memo 12 part 4 B) is added if the GAO study shows it merits it (Espen: "C, and B if ROAD study shows it merits it"). The amounts the decisions left open were proposed here and decided by Espen as proposed (`DEC-2026-11-09-25`; `6-cost.md`, question 10). The design lens applies throughout: one plain income test by the person's own statement or a benefit record the government already holds, no credit or tax-current test, local judgment on need, and published counts with review triggers instead of caps or quotas.
 
 ### HOU-12.01 The home repair fund, 2030-39
 
@@ -687,12 +687,12 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 1. **Who.** Owner-occupants at or below 80% of area median income get grants; owners from 80% to 120% get zero-interest loans repaid only at sale, refinance with cash out, or when no owner lives in the home any longer. Heirs and others with an interest in the home who live in it count as owners, as the ROAD to Housing Act's pilot already allows [EV-HOU-676]. Owners of manufactured homes count, whether the home is titled as real or personal property.
 2. **The one plain test.** Income by the owner's signed statement, or automatic eligibility for anyone already enrolled in SNAP, Medicaid, SSI, LIHEAP or Weatherization. No credit score, and no test of being current on property taxes, water bills or a mortgage: owners who are behind are referred to HOU-13.01 and HOU-13.02, not turned away (Philadelphia's program, by contrast, requires owners to be current [EV-HOU-648]).
 3. **What it pays for.** Health, safety and basic systems first: roofs, heat and cooling, wiring and electric panels, plumbing, lead hazards, mold and asthma triggers, accessibility (HOU-12.04), and the repairs that let a home take weatherization or a heat pump (HOU-12.03). The work fixes what is wrong; it does not bring the whole house to code, the rule that makes each HOME repair cost about $57,724 [EV-HOU-609] [EV-HOU-610]. Lead work follows the lead-safe rules [EV-HOU-613].
-4. **Amount per home: proposed, for Espen.** Grants and loans up to $25,000 a home, plus up to $15,000 more where lead hazard control or accessibility work is added. Basis: Philadelphia's repairs averaged about $8,909 [EV-HOU-647] and Detroit's grants $16,498 [EV-HOU-660]; Pennsylvania's $50,000 cap produced costly repairs and long waits [EV-HOU-658] (judgment).
+4. **Amount per home: decided (`DEC-2026-11-09-25`).** Grants and loans up to $25,000 a home, plus up to $15,000 more where lead hazard control or accessibility work is added. Basis: Philadelphia's repairs averaged about $8,909 [EV-HOU-647] and Detroit's grants $16,498 [EV-HOU-660]; Pennsylvania's $50,000 cap produced costly repairs and long waits [EV-HOU-658] (judgment).
 5. **Accessory units.** The zero-interest loans may also pay toward an accessory unit an older owner builds for a caregiver or a tenant, up to the same cap (memo 12, smaller point 1; `DEC-2026-11-09-22`). FHA's Title I loans can finance the rest [EV-HOU-220].
 6. **Who runs it.** Money by formula to the states, cities and urban counties that already receive CDBG and HOME, using their existing grantee network, with the tribal share below. Each grantee chooses its contractors and its order of need. Small grantees may pool through their state.
-7. **Tribal share: proposed, for Espen.** 5% through tribes, by the Native American Housing Block Grant formula and each tribe's housing plan, on HOU-4.13's model. Basis: the construction grants' 5% share [EV-HOU-406] (judgment).
+7. **Tribal share: decided (`DEC-2026-11-09-25`).** 5% through tribes, by the Native American Housing Block Grant formula and each tribe's housing plan, on HOU-4.13's model. Basis: the construction grants' 5% share [EV-HOU-406] (judgment).
 8. **Wage rule.** Repairs to owner-occupied homes of one to seven units do not trigger federal prevailing-wage rules, the line CDBG already draws for small residential buildings (judgment; Pennsylvania's counties capped grants below their state's wage trigger [EV-HOU-657]).
-9. **Money: proposed, for Espen.** $2 billion in FY2030 while grantees start, then $4 billion a year in FY2031-39, about $38 billion, available until spent. HOU-12.02 to .04 are paid from the same money; there are no set-asides inside it.
+9. **Money: decided (`DEC-2026-11-09-25`).** $2 billion in FY2030 while grantees start, then $4 billion a year in FY2031-39, about $38 billion, available until spent. HOU-12.02 to .04 are paid from the same money; there are no set-asides inside it.
 10. **Review, not a cap.** HUD publishes each year homes repaired, waits, cost per home, and the share of grants to owners under 30% and 50% of area median income, to older owners and to renters (HOU-12.02), by place. A grantee whose waits run past a year, or whose poorest owners get a falling share, gets a published review, not a funding cut (`DEC-2026-11-09-13`).
 
 - **Agency.** HUD (Office of Community Planning and Development), with CDBG and HOME grantees; HUD's Office of Native American Programs and tribes for the tribal share. USDA's rural repair loans and grants [EV-HOU-615] continue alongside it.
@@ -705,11 +705,11 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 ### HOU-12.02 Repairs for renters, without rent jumps
 
 **Parameters** (memo 11 part 2 B).
-1. **Landlord loans.** HOU-12.01's grantees may lend to owners of up to 20 rental units (proposed, for Espen), up to $25,000 a unit (proposed, for Espen), for the same kinds of repair. A loan is forgiven after three years if annual rent increases on the repaired units stay at or below 5% or inflation, whichever is lower, the ROAD to Housing Act pilot's own term [EV-HOU-230]; otherwise it is repaid at the grantee's rate. Units rented to voucher holders are exempt from the rent term, since their rent is set by the voucher's own rules (judgment). The landlord signs a statement; there is no tenant income check and no ownership-period requirement, the rules that kept Pennsylvania's landlord loans nearly unused [EV-HOU-655] [EV-HOU-656] [EV-HOU-657].
+1. **Landlord loans.** HOU-12.01's grantees may lend to owners of up to 20 rental units (decided, `DEC-2026-11-09-25`), up to $25,000 a unit (decided, `DEC-2026-11-09-25`), for the same kinds of repair. A loan is forgiven after three years if annual rent increases on the repaired units stay at or below 5% or inflation, whichever is lower, the ROAD to Housing Act pilot's own term [EV-HOU-230]; otherwise it is repaid at the grantee's rate. Units rented to voucher holders are exempt from the rent term, since their rent is set by the voucher's own rules (judgment). The landlord signs a statement; there is no tenant income check and no ownership-period requirement, the rules that kept Pennsylvania's landlord loans nearly unused [EV-HOU-655] [EV-HOU-656] [EV-HOU-657].
 2. **No pass-through.** The cost of work paid for with this money may never be passed on in rent, in any program, as New York now requires for building upgrades [EV-HOU-665] and the federal energy rebates require for two years [EV-HOU-632].
 3. **City repair funds.** Grantees may pay to repair hazards a landlord fails to fix after notice, and bill the owner, recovering through a lien, as New York City does [EV-HOU-663].
 4. **Receivership.** Grantees may lend to court-appointed receivers of neglected rental buildings, as a revolving fund [EV-HOU-669].
-5. **Relocation help.** Where a local government orders tenants out of an unsafe home, the fund pays moving costs and up to three months' rent at the new home (proposed, for Espen), so enforcement does not become eviction [EV-HOU-667].
+5. **Relocation help.** Where a local government orders tenants out of an unsafe home, the fund pays moving costs and up to three months' rent at the new home (decided, `DEC-2026-11-09-25`), so enforcement does not become eviction [EV-HOU-667].
 6. **No federal inspection mandate.** Proactive inspection stays a local choice [EV-HOU-666].
 
 - **Agency, vehicle, money.** As HOU-12.01, from its money.
@@ -746,11 +746,11 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 
 **Parameters** (memo 12 part 1 B).
 1. **The match.** From FY2031, the federal government pays half of what a state spends on property-tax relief for owners 65 or over, and owners with disabilities, with incomes up to 80% of area median income, on relief that meets the three standards below.
-2. **Standard 1, relief by income.** Tax above a share of income the state sets is credited back, as a circuit breaker does. The federal match counts relief only above 3% of income (proposed, for Espen), so states set their own threshold at or above it [EV-HOU-682]. That is below the 4-6% memo 12 gave as an example: a lower floor lets states that already start relief lower draw the match, and costs more (see `6-cost.md`, question 10).
+2. **Standard 1, relief by income.** Tax above a share of income the state sets is credited back, as a circuit breaker does. The federal match counts relief only above 3% of income (decided, `DEC-2026-11-09-25`), so states set their own threshold at or above it [EV-HOU-682]. That is below the 4-6% memo 12 gave as an example: a lower floor lets states that already start relief lower draw the match, and costs more; a 5% floor would cost roughly a third less (judgment). Espen kept 3% ("keep 3%"; `DEC-2026-11-09-25`).
 3. **Standard 2, deferral for the rest.** Any older owner may defer the rest of the bill as a lien repaid at sale or death, at a rate no higher than the state's borrowing cost, with no yearly reapplication.
 4. **Standard 3, records first.** States enroll owners from the state tax and benefit records they already hold where they can; owners who do not file sign a one-page statement. Yearly requalification is not allowed: California's deferral program with yearly requalification reached about 1,000 of over a million eligible [EV-HOU-683].
 5. **Renters.** States may extend the match to renters 65 or over, crediting the share of rent that stands for property tax.
-6. **Maintenance of effort.** The match pays only on relief above each state's 2028 spending on the same groups, so it adds relief rather than replacing state money (proposed, for Espen; judgment).
+6. **Maintenance of effort.** The match pays only on relief above each state's 2028 spending on the same groups, so it adds relief rather than replacing state money (decided, `DEC-2026-11-09-25`).
 7. **Before any tax sale** of the home of an owner 65 or over, a state taking the match first offers a payment plan or deferral (HOU-13.02).
 8. **Review.** Treasury and HUD publish each year enrollment, average relief and moves among older owners in matched states.
 
@@ -763,7 +763,7 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 ### HOU-13.02 Protecting older owners' equity
 
 **Parameters** (memo 12 part 3 B).
-1. **Legal help.** Grants to legal aid and nonprofit providers, $200 million a year from FY2030 (proposed, for Espen), to clear tangled titles, write simple wills and transfer-on-death deeds, and defend tax foreclosures, for owners of any age at or below 80% of area median income, on HOU-12.01's test. Clearing a title costs about $9,200 [EV-HOU-684].
+1. **Legal help.** Grants to legal aid and nonprofit providers, $200 million a year from FY2030 (decided, `DEC-2026-11-09-25`), to clear tangled titles, write simple wills and transfer-on-death deeds, and defend tax foreclosures, for owners of any age at or below 80% of area median income, on HOU-12.01's test. Clearing a title costs about $9,200 [EV-HOU-684].
 2. **Reverse mortgages.** FHA's 2023 relief becomes law: servicers need not call a loan due while property-charge arrears are $5,000 or less, and repayment plans may run up to five years [EV-HOU-680]. HOU-13.01's deferral can cover the taxes [EV-HOU-678].
 3. **Tax sales.** HOU-13.01, point 7.
 4. **Heirs' property.** HUD and USDA publish the states that have enacted the uniform partition law [EV-HOU-685]; nothing is required of states.
@@ -777,7 +777,7 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 
 **Parameters** (memo 12 part 4 C).
 1. Every federally assisted rental building where most households are headed by someone 62 or over may get a service coordinator, who links tenants to home care, meals and benefits, adding to Section 202's about 1,500 [EV-HOU-672].
-2. **Money: proposed, for Espen.** $150 million a year more from FY2031, about $1.35 billion over the window. Basis: HUD's $122 million for about 1,500 grants [EV-HOU-672].
+2. **Money: decided (`DEC-2026-11-09-25`).** $150 million a year more from FY2031, about $1.35 billion over the window. Basis: HUD's $122 million for about 1,500 grants [EV-HOU-672].
 3. The coordinator refers tenants to Medicaid home care and to HOU-12.04.
 
 - **Agency.** HUD (multifamily housing).
@@ -787,7 +787,7 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 
 ### HOU-13.04 Home-sharing grants
 
-**Parameters** (memo 12, smaller point 2; `DEC-2026-11-09-22`). Small grants to nonprofits that match older owners with tenants who pay low rent and help around the house, as HomeShare Vermont does [EV-HOU-692]: $30 million a year in FY2031-39 (proposed, for Espen; the decision sets it under $50 million). Time-limited, with HUD reporting matches and moves by 2035.
+**Parameters** (memo 12, smaller point 2; `DEC-2026-11-09-22`). Small grants to nonprofits that match older owners with tenants who pay low rent and help around the house, as HomeShare Vermont does [EV-HOU-692]: $30 million a year in FY2031-39 (decided, `DEC-2026-11-09-25`; under the $50 million `DEC-2026-11-09-22` set). Time-limited, with HUD reporting matches and moves by 2035.
 
 - **Agency.** HUD. **Vehicle.** R2, mandatory, time-limited. **Cost source.** Section 6, 2.9: about $0.27 billion.
 
@@ -879,7 +879,7 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 - **Totals.** The ledger's housing title ($0.56 trillion midpoint: the $0.47 trillion title and $0.09 trillion of vouchers) predates every section 3 decision. It still carries HOU-1A, HOU-2A and HOU-6's separate fund as filed. HOU-4D is carried outside the ledger in `recovery-adoption.json`. Section 6 rebuilds them from this section's provisions: about $0.65 trillion over FY2030-39 (central, with option D's credits) and about $90 billion a year of permanent cost in FY2040, with stage 2's wider entry under `DEC-2026-11-09-12`. Its ledger and model changes are tier-3 proposals (`6-cost.md`, 5).
 - **Regular-bill items.** HOU-4.01's definitions and mixed-status protection, HOU-4.02's data rules and enforcement bar, HOU-4.05, HOU-4.06, HOU-4.09, HOU-4.11, HOU-4.13's NAHASDA rules, HOU-1D.03's privacy rules, HOU-3C.04's target, HOU-5.02, HOU-6.01's eligibility changes, HOU-6.02 and HOU-9A.01's corporation. With the legacy floor bill (ledger row HOU-7), they make one housing regular bill. Its floor time is a section 5 question.
 - **Still open for Espen.** Whether HOU-1A's construction gap money is dropped or added to HOU-3C (HOU-1D.04).
-- **Proposed, for Espen** (parameters the decisions leave open): memos 11 and 12's amounts and limits (HOU-12.01 to .02, HOU-13.01 to .04; collected in `6-cost.md`, question 10); each state's share of the direct production count (HOU-3C.04), and the low-income credit's high-cost boost for rural areas (HOU-2D.01; the tribal boost is decided). Espen decided the other parameters this section had proposed in `DEC-2026-11-09-14`, `-16` and `-17`.
+- **Proposed, for Espen** (parameters the decisions leave open): each state's share of the direct production count (HOU-3C.04), and the low-income credit's high-cost boost for rural areas (HOU-2D.01; the tribal boost is decided). Memos 11 and 12's amounts are decided (`DEC-2026-11-09-25`). Espen decided the other parameters this section had proposed in `DEC-2026-11-09-14`, `-16` and `-17`.
 - **Section 4's own judgment.** The tight-market and attached-share parameters (HOU-4.04), the youngest-child part of stage 2's exit rule (HOU-4D.01), the capital's yearly splits (HOU-3C.01, HOU-3C.02, HOU-5.01), HUD as the emergency fund's agency (HOU-4.02), and the form rules for tribal shares (HOU-4.13).
 
 ## Evidence still needed
