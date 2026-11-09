@@ -1,0 +1,1853 @@
+Source: https://www.oversight.gov/sites/default/files/documents/reports/2024-09/MC2024508final.pdf
+Publisher: USDA Office of Inspector General
+Retrieved: 2026-11-09
+Original SHA-256: e841be5bcc59cc5c5431139fe4c50fc042f2ed3912a7eb25128db99550e926c5
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+U.S. Department of Agriculture
+Office of Inspector General
+
+2024 USDA Top Management Challenges
+
+September 2024
+
+UNITED STATES DEPARTMENT OF AGRICULTURE
+OFFICE OF INSPECTOR GENERAL
+Washington D.C. 20250
+
+DATE:
+
+September 17, 2024
+
+TO:		
+
+Honorable Thomas J. Vilsack
+Secretary
+
+FROM:
+
+Phyllis K. Fong
+Inspector General
+
+SUBJECT:
+
+2024 USDA Management Challenges
+
+In accordance with the Reports Consolidation Act of 2000, the U.S. Department of
+Agriculture (USDA) Office of Inspector General is issuing the 2024 USDA Management
+Challenges report. This annual publication summarizes what we consider the most
+significant management and performance challenges facing the Department. The report
+is organized into three major challenge areas—Ensuring Safety and Security, Providing
+Benefits, and Delivering Efficient Programs, as well as the addition of one emerging
+challenge: Climate Impact. It is intended to aid the Department with improving program
+performance and operations.
+We would like to close by expressing our appreciation to you and the Deputy Secretary
+for your ongoing support of our work and your commitment to excellence at USDA. We
+look forward to working with the Department to address these management challenges.
+If you have any questions or would like to discuss these management challenges and
+related key challenge indicators, please contact me (202-720-8001). You or your staff
+may also contact Peter Sima-Eichler, Assistant Inspector General for Analytics and
+Innovation (202-209-3633).
+Attachment
+cc:
+Subcabinet Officials
+Agency Administrators
+
+Table of Contents
+Introduction and Approach...................................1
+Challenge 1: Ensuring Safety and Security..........2
+Plant and Animal Health...................................2
+Cybersecurity and Information Technology	������5
+Challenge 2: Providing Benefits...........................8
+Food and Nutrition Assistance Programs.........8
+Farm Programs...............................................12
+Crop Insurance...............................................14
+Grants Oversight.............................................17
+Outreach.........................................................20
+Challenge 3: Delivering Efficient Programs........22
+Financial Reporting.........................................22
+Emerging Challenge: Climate Impact.............25
+Acronyms and Abbreviations..............................26
+
+Raspberries for sale at a farmers market. USDA
+Photo by Lance Cheung from USDA’s Flickr
+account.
+All photos from USDA’s Flickr account are in the
+public domain and the photographer credited. All
+Adobe Stock photos included in this report are
+used under license. All photos from USDA Flickr
+and from Adobe Stock do not depict any specific
+audit or investigation.
+
+Introduction and Approach
+The Office of Inspector General (OIG)
+provides oversight to the U.S. Department
+of Agriculture’s (USDA) programs and
+operations to help ensure that USDA provides
+the best possible service to the public and
+American agriculture. USDA has 29 agencies
+and offices, nearly 100,000 employees in
+14,000 locations, more than $200 billion
+in assets, and $143 billion in annual
+spending. These agencies and offices
+provide specific services to the American
+people related to food, agriculture, natural
+resources, rural development, nutrition,
+and other programs based on public policy,
+the best available science, and effective
+management. In accordance with the Reports
+Consolidation Act of 2000, we are reporting
+what we consider to be the most significant
+management and performance challenges
+facing the Department.
+Our report is organized into three major
+areas—Ensuring Safety and Security,
+Providing Benefits, and Delivering Efficient
+Programs—where OIG believes USDA faces
+challenges in delivering its programs. Each
+major challenge area contains “key challenge
+indicators,” areas of focus derived from
+our findings, that can assist USDA when
+addressing those challenges. This approach
+should aid Departmental leadership by
+providing focus areas to address and resolve
+both broad and unique challenges that may
+affect multiple agencies. It also provides
+the Secretary and other policymakers with
+a streamlined report that improves clarity
+and gives significant information greater
+prominence.
+
+This report is primarily based on our audits,
+inspections, final action verifications,
+investigations, and general knowledge in
+providing oversight of USDA’s programs
+and operations from June 1, 2021, through
+May 31, 2024.
+To determine what qualified as a key
+challenge indicator, we assessed our open
+audit and inspection report recommendations
+and the number of audit and inspection
+report recommendations closed within this
+timeframe. We also included criteria such as
+the Government Accountability Office’s (GAO)
+high-risk list; GAO reports, recommendations,
+and priority recommendations; and closed
+OIG investigations.
+Our 2023 Management Challenges report
+identified eight key challenge indicators. This
+year, two challenge indicators, Food Safety
+and Data Integrity, were removed because
+they no longer met the criteria articulated in
+the preceding paragraph. However, two new
+indicators were added: Farm Programs and
+Crop Insurance. This report also includes the
+addition of one emerging challenge: Climate
+Impact. Emerging challenges are potential
+areas of concern that may develop into
+challenges in upcoming years.
+Audit products from the 2023 Management
+Challenges report that still have open
+recommendations relevant to the key
+challenge indicators are included in this
+year’s report and identified with an asterisk.
+
+1
+
+Challenge 1:
+Ensuring Safety and Security
+In the food and agriculture sector,
+USDA plays a critical role in ensuring public
+health and safety. USDA activities enhance
+public health and well-being by protecting
+the public from foodborne illness and
+ensuring that the Nation’s meat, poultry,
+and egg products are safe, wholesome, and
+correctly packaged; promote the health and
+
+care of animals and plants; and focus on
+cybersecurity and information technology (IT)
+in USDA agencies.
+The next section summarizes USDA’s
+management challenges, and its progress,
+in the areas of animal and plant welfare, and
+cybersecurity and IT.  
+
+Plant and Animal Health
+The Animal and Plant Health Inspection
+Service (APHIS) protects the health of U.S.
+agriculture and natural resources against
+invasive pests and diseases, regulates
+genetically engineered crops, administers the
+Animal Welfare Act (AWA), and helps people
+and wildlife coexist. APHIS also certifies
+the health of U.S. agricultural exports and
+resolves sanitary (animal) and phytosanitary
+(plant) issues to open, expand, and maintain
+markets for U.S. plant and animal products.
+In addition, APHIS’ Wildlife Services is
+responsible for resolving human/
+wildlife conflicts and protecting
+agriculture, human health and
+safety, personal property,
+and natural resources from
+wildlife damage and wildlifeborne diseases in the
+United States, including the
+management of rabies and
+other zoonotic diseases caused
+by various wildlife species.
+
+Mexican gray wolf
+on rocks. Courtesy
+Photo/AdobeStock.
+
+APHIS works cooperatively with Federal
+partners, State and local agencies, Tribes
+and Tribal organizations, industries,
+private groups, and foreign counterparts
+to protect the Nation’s agricultural and
+natural resources. In fiscal year (FY) 2024,
+APHIS received more than $2.1 billion,
+with $397 million to support animal health,
+$408 million for plant health, and $149 million
+for Wildlife Services.
+OIG’s work found that APHIS faces
+challenges with regulatory compliance
+and emergency preparedness. We also
+continue to investigate allegations related
+to animal welfare, including dogfighting and
+cockfighting. AWA includes provisions to
+protect animals from being used in illegal
+fighting ventures, which often entail other
+forms of criminal activity. OIG continues to
+work vigorously with our Federal, State, and
+local partners to resolve AWA allegations and
+ensure the individuals participating in this
+type of animal cruelty are brought to justice.
+2
+
+Plant and Animal Health: USDA
+OIG Highlighted Audit Work
+Animal and Plant Health Inspection
+Service Wildlife Services’ Role in
+Administering the Mexican Wolf
+Recovery Program (Report 33801-000131, issued 10/19/23)
+Plant Pest and Disease Management
+and Disaster Prevention Program
+(Report 33601-0001-21, issued 1/3/23)
+Cattle Health Program Disease Incident
+Response (Report 33601-0003-41,
+issued 11/28/22)
+Follow-up on Smuggling Interdiction
+and Trade Compliance Program (Report
+33601-0004-23, issued 9/29/21)
+Controls Over Select Agents (Report
+33701-0002-21, issued 7/27/21)
+Animal Care Program Oversight of Dog
+Breeders (Report 33601-0002-31, issued
+6/30/21)
+Recommendation Progress
+OIG issued 6 audit products with
+43 recommendations, 0 of which
+remain open.
+
+Example
+Report Summary  
+Our 2023 report, Animal
+and Plant Health Inspection
+Service Wildlife Services’ Role
+in Administering the Mexican Wolf Recovery
+Program, reviewed APHIS’ Wildlife Services’
+investigations of livestock deaths by Mexican
+gray wolves. We found that although Wildlife
+Services used a consistent approach for its
+depredation reports that attributed livestock
+deaths to Mexican gray wolves, investigators
+did not always use consistent support for
+those reports. Specifically, investigators did
+not always include photographs to document
+evidence found at depredation scenes, such
+as tracks, scat, or hair.
+Although the interagency standard operating
+procedure requires photographing the
+carcass and surrounding area when
+conducting an investigation,1 it did not
+explicitly state that photographs needed
+to be attached to the depredation reports.
+Such formal photograph requirements
+would ensure consistency in the agency’s
+depredation reports. We recommended
+that Wildlife Services develop a policy to
+clearly communicate the requirement for
+photographic evidence in depredation
+reports, train investigators and reviewers
+on that policy, and request that the Mexican
+Wolf Executive Committee review and make
+any applicable updates to its procedures.
+APHIS agreed with our recommendations.
+
+The Interagency Field Team consists of employees of agencies who have regulatory jurisdiction and management
+authority over Mexican wolves, or regulatory jurisdiction and management over the lands that Mexican wolves
+occupy in Arizona and New Mexico.
+
+1
+
+3
+
+Plant and Animal Health:
+USDA OIG Highlighted Closed
+Investigations
+OIG closed approximately 61 investigations
+involving animal and plant health during this
+time, obtaining approximately 434 criminal,
+5 civil, and 12 administrative outcomes, with
+more than $2.8 million in monetary results.
+Examples of these investigations include:
+Five Georgia Men Sentenced to Federal
+Prison for Participating in a Dog Fighting
+Operation
+Ohio Man Sentenced to 11 Years in Prison
+for Dogfighting and Drug Distribution
+Louisiana Man Sentenced to More Than
+3 Years in Prison for Dogfighting
+California Dealer of Guns and Gamecocks
+Sentenced to Over 7 Years in Prison
+
+15+ Year Prison Sentence for
+Georgia Man in Dogfighting,
+Drug Conspiracy Case
+Missouri Man Sentenced to
+32 Years for Cattle Fraud
+Scheme That Led to Murders
+Ohio Man Sentenced to More Than 10 Years
+in Prison for Dog Fighting, Drug Trafficking,
+and Illegal Possession of Firearms
+Seven Alabama Residents Sentenced for
+Felony Violations of the Animal Welfare Act,
+Ending One of the Largest Cockfighting
+Operations in the Country
+Georgia Men Sentenced to Prison for
+Dogfighting and Drug Distribution
+North Carolina Man Sentenced to 75 Months
+in Prison for a Dogfighting Offense and
+Possession of a Firearm by a Prohibited
+Person
+
+Turbo fladry installed
+on a ranch. Turbo
+fladry, a temporary
+fencing tool consisting
+of bright flags hung on
+wire capable of holding
+an electrical current,
+is one of the nonlethal
+tools the Animal
+and Plant Health
+Inspection Service’s
+Wildlife Services
+uses to prevent
+livestock depredation.
+USDA photo by Pamela
+Manns.
+
+4
+
+Cybersecurity and
+Information Technology
+Cybersecurity is a foundational shared
+service and represents a core component of
+improving digital service delivery and internal
+systems by ensuring secure, reliable access
+to USDA products and services. The Office
+of the Chief Information Officer supports
+USDA’s mission through innovative, secure,
+and cost-effective IT solutions and services.
+According to the Federal IT Dashboard,
+the Department plans to spend more
+than $3.1 billion on IT-related initiatives in
+FY 2024.
+The Department strives to fully leverage
+modern human-centered design, data,
+technology, and digital services to provide
+its internal and external customers with
+easy-to-navigate online tools to increase
+access to critical USDA programs and
+services. Both members of the public and
+USDA employees must be able to access,
+use, and communicate information, some of
+it sensitive, through online or mobile portals
+on a regular basis.  
+The Office of Management and Budget
+(OMB) establishes standards for an effective
+level of security and considers “Managed
+and Measurable” to be a sufficient level.
+However, our work has found consistent
+weaknesses with IT-related initiatives
+since the Federal Information Security
+Modernization Act of 2014 was enacted.
+Specifically, USDA has not reached the
+“Managed and Measurable” level for
+the scope of this report. We found the
+Department’s maturity level remained at the
+“Consistently Implemented” level for this
+timeframe, which indicates an ineffective
+level of security based on OMB’s criteria.  
+
+The Department and its
+agencies should develop
+and implement an effective
+plan to mitigate security
+weaknesses identified
+in the prior fiscal year
+recommendations. The Department faces
+a significant challenge in safeguarding
+information by protecting the security,
+confidentiality, and integrity of its
+IT infrastructure, even as it allows authorized
+users to access and use this information.
+Furthermore, GAO has designated
+cybersecurity as a Governmentwide highrisk area since 1997. GAO expanded this
+high-risk area in 2003 to include protection
+of critical cyber infrastructure and again in
+2015 to include protecting the privacy of
+personally identifiable information.  
+
+Courtesy Photo/AdobeStock.
+
+5
+
+During the period covered by this report, we
+issued 12 IT security-related reports, which
+were redacted or partially redacted due to
+sensitive content and are being withheld
+from public release due to concerns about
+the risk of circumvention of law. In general,
+these reports identified multiple challenges in
+cybersecurity. OIG’s Office of Investigations
+also conducts reviews in this area and
+responds accordingly.
+
+Example Report Summary
+According to the U.S. Department of
+Agriculture, Office of the Chief Information
+Officer, Fiscal Year 2023 Federal
+Information Security Modernization Act
+audit, USDA has worked diligently to
+improve its security posture, but some
+weaknesses remain. Of the 23 prior year
+recommendations, 1 remains open; 4 were
+closed by management; 2 were closed
+by management, but testing identified
+deficiencies related to the recommendations;
+and the remaining 16 closed by management
+were validated by the contract auditor as
+effectively remediated. OMB establishes
+standards for an effective level of security
+and considers level 4, “Managed and
+Measurable,” to be sufficient. However, we
+found the Department’s maturity level to be
+at level 3, “Consistently Implemented,” which
+is ineffective according to OMB criteria. The
+Department and its agencies must develop
+and implement an effective plan to mitigate
+security weaknesses identified in the prior
+fiscal year report. USDA generally concurred
+with our findings and recommendations.
+
+Cybersecurity
+and Information
+Technology: USDA
+OIG Highlighted
+Audit Work
+Fiscal Year 2023 Quarter 3 Security
+Evaluation (Report 50801-0009-12,
+issued 4/1/24)
+Fiscal Year 2023 Quarter 3 Security
+Evaluation – Interim Report (Report
+50801-0009-12(1), issued 1/17/24)
+Security Over USDA Mobile Applications
+(Report 50801-0006-12, issued 9/26/23)
+Independent Service Auditor’s Report
+on the Office of the Chief Information
+Officer’s Description of Its Data Center
+Hosting and Security Systems and the
+Suitability of the Design and Operating
+Effectiveness of Its Controls for the
+Period October 1, 2022 to June 20, 2023
+(Report 88303-0002-12, issued 9/25/23)
+Security Testing of a Selected
+USDA Network (Fiscal Year 2023)
+(Report 50801-0005-12, issued 9/15/23)
+USDA’s Compliance with Binding
+Operational Directives 19-02 and 22-01
+(Report 50801-0007-12, issued 8/17/23)
+U.S. Department of Agriculture, Office
+of the Chief Information Officer, Fiscal
+Year 2023 Federal Information Security
+Modernization Act (Report 50503-001112, issued 7/27/23)
+Security Testing of a Selected
+USDA Network (Report 50801-0004-12,
+issued 12/15/22)
+6
+
+Cybersecurity and Information
+Technology: USDA OIG
+Highlighted Audit Work
+Continued
+U.S. Department of Agriculture, Office
+of Chief Information Officer, Fiscal Year
+2022 Federal Information Security
+Modernization Act (Report 50503-000912, issued 9/27/22)
+Secure Configuration of USDA’s
+Virtualization Platforms (Report 508010003-12, issued 8/18/22)
+
+Cybersecurity
+and Information
+Technology: USDA
+OIG Highlighted
+Closed Investigations
+OIG closed 14 investigations involving
+cybersecurity and IT during this time,
+obtaining approximately 12 criminal, 1 civil,
+and 35 administrative outcomes. These
+investigations included misuse of IT
+resources and unauthorized disclosure of
+sensitive information and resulted in more
+than $160,000 in monetary results. No press
+releases are available for these cases.
+
+USDA’s Consolidated Financial
+Statements for Fiscal Years 2021 and
+2020 (Report 50401-0020-11, issued
+11/15/21)
+U.S. Department of Agriculture, Office
+of the Chief Information Officer, Fiscal
+Year 2021 Federal Information Security
+Modernization Act (Report 50503-000512, issued 10/29/21)
+Security Over USDA Web Applications
+(Report 50801-0002-12, issued 10/27/21)
+USDA’s Information Technology Incident
+Response Consideration (Report 888010001-12, issued 6/2/21)
+Recommendation Progress
+OIG issued 14 reports with
+78 recommendations. To date,
+8 recommendations remain open.
+
+Courtesy Photo/AdobeStock.
+
+7
+
+Challenge 2:
+Providing Benefits
+USDA manages more than 300 programs
+that provide a variety of services to the
+American public. Many of these programs
+provide essential services, such as disaster
+assistance, crop insurance, nutrition
+assistance programs, farm commodity
+programs, and more.
+Effective oversight and monitoring of
+USDA’s programs and operations are vital.
+This oversight ensures that funds reach
+those for whom they are intended and that
+programs are efficient, produce reliable
+results, and comply with applicable laws and
+regulations. Program integrity and proper
+stewardship of resources are significant
+responsibilities of the Department; ineffective
+oversight and accountability can lead to the
+
+benefits and assistance not reaching the
+intended beneficiaries and negatively impact
+consumer confidence in USDA programs.
+Due to the impact of these programs and
+the large amount of funding they require, the
+Department must employ efficient processes
+within its programs and provide effective
+oversight to ensure program integrity. These
+actions help mitigate instances of fraud,
+waste, and abuse and ensure benefits
+reach those for whom they are intended.
+The following sections summarize USDA’s
+challenges and progress with integrity
+of benefits related to food and nutrition
+programs, farm programs, crop insurance,
+outreach, and grant oversight.
+
+Food and Nutrition
+Assistance Programs
+
+Apple slices added to a sampler lunch tray for more than
+50 students at an elementary school. USDA photo by Lance
+Cheung.
+
+USDA is committed to ensuring that every
+American has access to affordable and
+nutritious food. Within USDA, the Food
+and Nutrition Service (FNS) administers
+16 domestic nutrition assistance programs
+that include the Supplemental Nutrition
+Assistance Program (SNAP), Special
+Supplemental Nutrition Program for Women,
+Infants, and Children (WIC), and school
+meal programs. These programs address
+food insecurity and provide low-income
+households access to healthy diets and
+8
+
+nutrition education in a manner that supports
+American agriculture. In addition, USDA’s
+Agricultural Marketing Service (AMS)
+administered the Farmers to Families Food
+Box Program during the pandemic. This
+program provided agricultural products to
+those in need by partnering with distributors
+whose workforces were significantly
+impacted by the closure of restaurants,
+hotels, and other food service businesses.
+For FY 2024, USDA included more than
+$161.4 billion in its budget for FNS’ major
+nutrition assistance programs, which
+represented more than 75 percent of the
+Department’s overall $213.2 billion budget
+request. Also, during the coronavirus
+disease 2019 (COVID-19) pandemic,
+Congress passed several laws to combat the
+pandemic’s impacts, such as the Families
+First Coronavirus Response Act (FFCRA),
+which provided additional funding for nutrition
+programs. For example, FFCRA authorized
+FNS’ Pandemic Electronic Benefits Transfer
+(EBT) program, which provided more than
+$56.8 billion through September 2021, for
+SNAP EBT card benefits of households with
+eligible children to purchase food in lieu of
+the meals the children would have received
+in school. It also authorized AMS’ Farmers
+to Families Food Box Program, which
+distributed more than 173 million food boxes
+
+worth more than $5 billion.
+Given the magnitude of
+USDA’s food assistance
+programs, Departmental
+agencies must safeguard
+program integrity and ensure
+those who qualify are able to
+participate.
+However, we found that USDA continues
+to have challenges with its administration
+and oversight of domestic nutrition
+assistance programs. During the reporting
+period, OIG found these programs had a
+variety of weaknesses such as inadequate
+policies and procedures or a lack of
+documentation needed to ensure program
+integrity and compliance. The onset of
+the COVID-19 pandemic also generated
+many changes to USDA’s food and nutrition
+assistance programs. Consequently,
+USDA can do more to strengthen its
+oversight to effectively manage its domestic
+nutrition assistance programs and meet
+performance goals. In addition, USDA loses
+millions of dollars every year to fraud and
+crime associated with SNAP and other
+FNS food assistance programs. Since these
+programs are vital to Americans, FNS should
+strengthen its oversight of these programs
+and remain vigilant against fraud, waste, and
+abuse.  
+
+A driver delivers a
+food box from the
+U.S. Department of
+Agriculture Food and
+Nutrition Service
+Meals to You program
+that responded to
+school closures due
+to the pandemic.
+USDA photo by Lance
+Cheung.
+
+9
+
+Example Report Summary
+We reviewed FNS’ controls over the
+SNAP Online Purchasing Pilot in response
+to the COVID-19 pandemic. FNS initiated
+the SNAP Online Purchasing Pilot (pilot) in
+2014, which allowed households to make
+online purchases using SNAP benefits.
+In response to the COVID-19 pandemic,
+FNS expanded the pilot from 6 States in
+March 2020 to 46 States by the end of
+December 2020, and the total value of online
+SNAP purchase transactions increased
+from more than $18.9 million to more than
+$1.5 billion cumulatively. We found that
+FNS used the same approval criteria it
+used for the original pilot selections when
+adding additional States and retailers and
+had not updated its risk assessment of the
+pilot since creating the pilot in 2014. Without
+updating its risk assessment to assess new
+risks in the rapidly evolving e-commerce
+market, the pilot could be susceptible to
+fraud and abuse—particularly as FNS
+rapidly expanded the pilot between March
+and December 2020. Finally, although we
+found FNS had established criteria and
+program requirements for retailers to be
+eligible to participate in the pilot, FNS did
+not establish controls to effectively monitor,
+evaluate, or document how participating
+retailers protect SNAP participants’ online
+personal information. Instead, the agency
+relied on retailers’ assurance and attestation
+that online retailers will protect the privacy of
+SNAP participants’ information. In order to
+proactively ensure that SNAP participants’
+personal information is not compromised,
+sold, shared, or given to any third party
+without authorization, FNS needs to better
+monitor, evaluate, and document retailers’
+compliance with safeguarding participants’
+personal information. FNS generally
+concurred with our findings and
+recommendations.
+
+Food and Nutrition
+Programs: USDA OIG
+Highlighted Audit
+Work
+COVID-19―Food and Nutrition Service’s
+Pandemic Electronic Benefits Transfer―
+Final Report** (27801-0001-23, issued
+2/15/24)
+COVID-19―Food and Nutrition Service’s
+Pandemic Electronic Benefits Transfer―
+Interim Report** (27801-0001-23(1),
+issued 6/24/23)
+COVID-19—Farmers to Families Food
+Box Program Administration
+(01801-0001-22, issued 8/15/23)
+Supplemental Nutrition Assistance
+Program Waiver Process
+(27601-0006-41, issued 1/3/23)
+COVID-19—Oversight of the Emergency
+Food Assistance Program—Final Report
+(27801-0001-21, issued 8/18/22)
+COVID-19—Farmers to Families Food
+Box Program Administration—Interim
+Report (01801-0001-22(1), issued
+6/24/22)
+COVID-19—Oversight of the Emergency
+Food Assistance Program—Interim
+Report** (27801-0001-21(2), issued
+10/18/21)
+** These reports were included because they provide
+important information about the program despite not
+having any recommendations.
+
+10
+
+Food and Nutrition Programs:
+USDA OIG Highlighted Audit
+Work Continued
+COVID-19—Supplemental Nutrition
+Assistance Program Online Purchasing in
+Response to the Coronavirus
+Disease 2019 (27801-0003-22, issued
+8/25/21)*
+Consolidated Report of FNS and Selected
+State Agencies’ Controls Over [Summer
+Food Service Program] SFSP (276010005-41, issued 9/18/20)*
+
+Man Sentenced to 20 Years
+for Stealing $2.6M in
+SNAP Benefits from Needy
+Georgia Meat Market Owner
+Sentenced to Federal Prison
+in $10 Million Food Stamp Fraud
+Scheme
+Illinois Man Sentenced to 5 Years’
+Imprisonment for Taking $1.2 Million in
+SNAP Benefits
+Man Sentenced for Conning Summer Food
+Service Program Out of $2.3 Million
+
+Recommendation Progress
+OIG issued 9 reports with
+27 recommendations. To date,
+6 recommendations remain open.
+
+Texas Man Sentenced for Fraud And Money
+Laundering Conspiracies Targeting Federally
+Funded Meal Programs for Underprivileged
+Youth
+
+Food and Nutrition Programs:
+USDA OIG Highlighted Closed
+Investigations
+
+Pennsylvania Man Sentenced to 24 Months’
+Imprisonment for Unlawfully Exchanging
+$1.8 Million in Federal Nutrition Assistance
+Benefits for Cash
+
+OIG closed approximately 416 investigations
+related to food and nutrition programs
+during this time, obtaining approximately
+2,428 criminal, 7 civil, and 862 administrative
+outcomes, with more than $208 million in
+monetary results. These programs were
+created to provide food and nutrition to those
+who truly need this assistance. OIG will
+continue to dedicate investigative resources
+and work with our law enforcement and
+prosecutorial partners to protect the integrity
+of these programs. Examples of these
+investigations include:
+Owner of Illinois Child Care Centers
+Sentenced to 4 Years in Prison for
+Fraudulently Obtaining More Than
+$3.3 Million in State Subsidies
+*A report from the 2023 Management Challenges
+report with open recommendations relevant to the key
+challenge indicator.
+
+Former Store Owner Sentenced to
+42 Months in Federal Prison
+Illinois Man Sentenced and Ordered to Pay
+Over $5 Million in Restitution
+
+U.S. Department of Agriculture
+Food and Nutrition Service
+commodities ready and available
+for teams to assemble thousands
+of Commodity Supplemental Food
+Program and The Emergency Food
+Assistance Program packages.
+USDA photo by Lance Cheung.
+
+11
+
+Farm Programs
+The Farm Service Agency’s (FSA) mission
+is to equitably serve all farmers, ranchers,
+and agricultural partners through the delivery
+of effective, efficient agricultural programs
+for all Americans. To fulfill this mission, the
+agency administers farm loan, commodity,
+conservation, and disaster assistance
+programs. It delivers its programs through
+more than 2,100 USDA Service Centers,
+50 State offices, and an area office in Puerto
+Rico.
+FSA is responsible for overseeing and
+implementing policies and procedures
+that regulate the delivery of federal farm
+programs. FSA farm programs help
+agricultural producers manage market
+risks, recover from disasters, and conserve
+and protect America’s natural resources.
+FSA makes direct and guaranteed farm
+ownership and operating loans to familysize farmers and ranchers who cannot
+obtain commercial credit from a bank, Farm
+Credit System institution, or other lender.
+
+These loans can be used to
+purchase land, livestock,
+equipment, feed, seed, and
+supplies; they can also be
+used to construct buildings
+or make farm improvements.
+According to USDA’s
+2024 Budget Summary, FSA requested
+more than $1.6 billion to support almost
+$10.7 billion in farm loans. The Budget is
+projected to support over 30,000 loans to
+farmers and ranchers by financing operating
+expenses and providing opportunities to
+acquire a farm or keep an existing one.
+In addition, USDA’s AMS administers
+programs that create domestic and
+international marketing opportunities for
+U.S. producers of food, fiber, and specialty
+crops. AMS also provides the agriculture
+industry with valuable services to ensure
+the quality and availability of wholesome
+food for consumers across the country and
+around the world. AMS also administered
+the Food Purchase and Distribution Program
+in response to retaliatory tariffs impacting
+
+Aerial view of a farm. USDA Photo by Lance Cheung.
+
+12
+
+American agricultural commodity exports.
+This program’s purpose was to assist
+impacted farmers by using program funds to
+purchase domestic foods through approved
+vendors.
+OIG’s work found that FSA faces challenges
+with farm program administration.
+Specifically, OIG audits and inspections
+identified issues with record-keeping,
+guidance, and performance tracking.
+FSA plays a crucial role in supporting
+America’s rural prosperity by providing a
+strong safety net for America’s farmers and
+ranchers. It should continue to improve its
+program delivery so it can equitably serve all
+farmers, ranchers, and agricultural partners.
+
+Example Report Summary
+In our inspection report, COVID-19—
+Coronavirus Food Assistance Program
+[CFAP]—Direct Support, we found that
+FSA did not make correct CFAP payments
+to 31 of the 99 producers that we reviewed.2
+These incorrect payments occurred because
+producers provided inaccurate certifications
+on their applications or did not provide
+support for their certifications as required. As
+a result, we questioned FSA CFAP payments
+totaling more than $1.28 million to these
+31 producers. FSA concurred with our finding
+and recommendation.
+
+Farm Programs: USDA OIG
+Highlighted Audit Work
+
+2
+
+Beginning Farmers (506010010-31, issued 9/26/22)
+Market Facilitation
+Program (03601-0003-31,
+issued 3/9/22)
+Recommendation Progress
+OIG issued 4 reports with
+12 recommendations. To date,
+5 recommendations remain open.
+
+Farm Programs: USDA OIG
+Highlighted Closed Investigations
+OIG closed approximately 107 investigations
+related to farm programs during this time,
+obtaining approximately 121 criminal, 18 civil,
+and 46 administrative outcomes, with more
+than $198 million in monetary results.
+Examples of these investigations include
+but are not limited to theft, bank fraud, false
+claims, and conversion of collateral, which
+are highlighted below:
+New York Man Sentenced to Prison for
+Stealing Nearly $1 Million in Federal Funds
+Former Grass Seed Company Employee
+Sentenced to Federal Prison for Role in
+Schemes to Defraud Simplot
+Nebraska Man Sentenced for Bank Fraud
+Livestock Dealer and Four of Its Managers
+Sentenced in Widespread Pig Fraud Scheme
+
+COVID-19 - Coronavirus Food Assistance
+Program—Direct Support (03801-000131, issued 9/25/23)
+
+Minnesota Farmer Sentenced for
+$1.4 Million USDA Farm Loan Fraud
+
+Food Purchase and Distribution Program
+(01601-0003-41, issued 8/15/23)
+
+Georgia Man Sentenced to Jail for
+Defrauding the USDA COVID-19 Relief
+Program
+
+CFAP provided vital financial assistance to producers of agricultural commodities with financial assistance
+that gave them the ability to absorb sales losses and increased marketing costs associated with the
+COVID-19 pandemic.
+
+13
+
+Crop Insurance
+Agriculture is a fundamentally risky
+enterprise, and farmers and ranchers must
+be prepared for many uncertainties, including
+natural disasters, low production, and
+financial fluctuations. Federal crop insurance
+assists farmers and ranchers in managing
+these risks. USDA’s Risk Management
+Agency’s (RMA) mission is to secure the
+future of agriculture by providing world class
+risk management tools to rural America. To
+fulfill this mission, RMA works with private
+insurance companies, or Approved Insurance
+Providers (AIP), that sell and service the
+insurance policies in every State through a
+public-private partnership.
+RMA employs approximately 408 people in
+offices nationwide. The Agency has several
+program areas: Insurance Services, Product
+Management, and Compliance. Insurance
+Services is responsible for program delivery
+and local program administration and
+support. Product Management is responsible
+for overseeing product development and
+program operations. Lastly, Compliance
+monitors program integrity and both producer
+and private insurance companies’ adherence
+to program requirements.
+For the 2023 crop year, the Federal
+Crop Insurance Program provided about
+$207 billion in crop and livestock risk
+protection or about $100 billion in normalized
+risk protection.3 The same crop insurance
+programs totaled about $15.4 billion in 2023.
+Of the 15.4 billion, about $11.6 billion was
+for net indemnities to producers. Another
+$2.4 billion was paid to private insurance
+companies for delivery expenses, $1.4 billion
+for underwriting gains, and $19 million for
+Federal Crop Insurance Act initiatives.
+3
+
+Carrot seed
+growing on a
+farm. Photo by
+Kirsten Strough.
+
+The normalized value of risk protection uses a 5-year baseline to smooth variations caused by commodity price
+swings or trends.
+
+14
+
+We found that the Department faces
+challenges with crop insurance oversight and
+program administration. These challenges
+can affect payment accuracy, program
+eligibility, and program compliance. In
+addition, our investigative results indicate
+that USDA loses millions of dollars
+associated with crop insurance fraud each
+year. Crop insurance is vital for many
+farmers and ranchers. For some farming
+and ranching operations, crop insurance is
+the difference between staying in business
+or going out of business after a disaster.
+For the next generation, crop insurance
+provides the stability that will allow them
+to begin farming. To protect these farmers
+and ranchers, RMA can act to strengthen its
+oversight and administration of the Federal
+Crop Insurance Program and remain vigilant
+against fraud.
+
+Example Report Summary
+Our 2024 report, Prevented Planting
+Followup, looked at RMA’s controls over the
+prevented planting provisions of the Federal
+Crop Insurance Program, specifically at
+how RMA oversaw those provisions in light
+of prior audit recommendations. We found
+that since our 2013 report RMA had updated
+its policy; however, it did not ensure AIPs
+adequately documented whether producers
+had planted the acres to a crop in at
+least 1 of the 4 most recent crop years as
+required to be eligible for prevented planting
+
+payments. This occurred
+because RMA allows AIPs
+to use a mathematical
+process to determine the
+number of acres eligible for
+a prevented planting claim.
+However, without documentation
+from the AIPs demonstrating eligibility, this
+process does not identify which specific
+acres were eligible for prevented planting.
+We determined that all 9 AIPs related to our
+sample made prevented planting payments
+totaling more than $1.087 billion in crop year
+2020 in North Dakota and South Dakota that
+were not fully supported. RMA agreed with
+our recommendations.
+
+Crop Insurance: USDA OIG
+Highlighted Audit Work
+Whole-Farm Revenue Protection Pilot
+Program (05601-0005-22, issued 5/6/24)
+Prevented Planting Followup (056010008-31, issued 2/9/24)
+RMA Apiculture Pilot Insurance Program
+(05601-0002-41, issued 5/9/23)
+Recommendation Progress
+OIG issued 3 reports with
+11 recommendations. To date,
+4 recommendations remain open.
+
+Organic
+pumpkins
+harvested
+on a farm.
+USDA/Farm
+Production
+and
+Conservation
+photo by
+Christopher
+Willis.
+
+15
+
+Crop Insurance: USDA OIG
+Highlighted Closed Investigations
+OIG closed approximately 31 investigations
+related to crop insurance during this time,
+obtaining approximately 61 criminal, 4 civil,
+and 33 administrative outcomes, with
+more than $18 million in monetary results.
+Examples of these investigations include
+but are not limited to submitting false
+documentation on crop ownership and crop
+production and tampering with weather
+equipment, which are highlighted below:
+Tennessee Man Sentenced to Over 3 Years
+in Federal Prison for Crop Insurance Fraud
+
+Michigan Farmer Agrees
+to $1.2 Million Settlement
+to Resolve Allegations of
+Federal Crop Insurance and
+Farm Benefit Program Fraud
+Kentucky Man Sentenced to 56 Months for
+Extensive Crop Fraud Scheme
+Iowa Man Sentenced to Prison for Crop
+Insurance Fraud
+Former Kentucky Warehouse Owner,
+Former Crop Insurance Agent Sentenced for
+Charges Related to Crop Insurance Fraud
+
+Two Colorado Farmers Sentenced to Federal
+Prison and Will Pay Over $6.5 Million
+for Defrauding Federal Crop Insurance
+Programs
+
+A farmer harvesting hay in a field. USDA/
+Farm Production and Conservation video
+still by Preston Keres.
+
+16
+
+Grants Oversight
+Each fiscal year, grants may represent a
+significant portion of total USDA awards.
+According to USASpending.gov, out of over
+$210 billion in awards for FY 2023, the
+Department made grants of over $59 billion,
+which accounted for more than 28 percent of
+total awards. The purposes of these grants
+were numerous, including large block grants
+to States, disaster relief, market development
+programs, research at universities and other
+institutions, and land conservation.
+Correspondingly, the 2021 Infrastructure
+Investment and Jobs Act (IIJA) provided
+USDA more than $8.3 billion in funding to
+improve the Nation’s energy, broadband
+access, transportation, and other
+infrastructure projects. The 2022 Inflation
+Reduction Act (IRA) provided more than
+$19 billion for conservation programs
+administered by the Natural Resources
+Conservation Service (NRCS). Also, the
+2021 American Rescue Plan Act provided
+more than $9.5 million in additional
+funding to address the continued impact of
+COVID-19 on the economy, public health,
+State and local governments, individuals,
+and businesses. Funding from these Acts
+was used to create grant programs, such as
+the ReConnect Loan and Grant Program,
+or enhance existing programs such as the
+
+Conservation Stewardship
+Program (CSP) or the
+Agricultural Conservation
+Easement Program.
+Granting agencies (grantors)
+must ensure that grants are
+used for their approved purposes and
+that each grantee complies with all terms
+and conditions. Some grants are awarded
+competitively, while others are based on
+a funding formula. Federal agencies are
+required to follow OMB guidance to award,
+monitor, and assess the success of grants.
+All grants have requirements for reporting
+on both financial and performance aspects.
+This OMB guidance provides consistent
+and uniform Governmentwide policies and
+procedures for management of the agencies’
+grants and agreements.
+OIG’s oversight work has identified
+weaknesses in how USDA manages both
+individual grants and entire grant programs.
+Some weaknesses related to internal
+controls, while others pinpointed deficiencies
+such as inadequate documentation, lack
+of performance measures, incorrect or
+unsupported calculations, and post-award
+monitoring.
+
+Poultry on a farm. The chickens are
+kept in a two-story chicken house and
+produce approximately 2.5 million chicks
+each year. To supplement their electrical
+needs, the farmers chose a contractor
+who knew about USDA Rural Energy
+for America program grants and helped
+them through the application process.
+The Rural Energy for America program
+offers grants and/or loan guarantees
+for the purchase and installation of
+renewable energy generating systems
+and for energy efficiency improvements.
+Photo by Lance Cheung.
+
+17
+
+Example Report Summary
+Our FY 2023 report, Controls Over the
+Market Access Program (MAP), determined
+whether effective policies and procedures
+have been implemented to evaluate
+participant eligibility, select proposals, and
+allocate funding. The Foreign Agricultural
+Service (FAS) administers MAP, through
+which it partners with U.S. agricultural trade
+associations, cooperatives, State regional
+trade groups, and small businesses to
+share the costs of overseas marketing
+and promotional activities to help build
+commercial export markets for U.S.
+agricultural products and commodities.  
+
+Opportunity its criteria to make
+funding determinations
+and recommend funding
+levels. Further, FAS did
+not consistently apply
+its funding processes to
+all applicants. Additionally,
+FAS did not ensure that MAP application
+reviewers were free from the appearance
+of a conflict of interest. As a result,
+FAS cannot support how it consistently,
+transparently, and fairly recommended
+and allocated more than $194 million
+in FY 2021 MAP funding. FAS officials
+generally agreed with our findings and
+recommendations.
+
+We found that FAS did not develop
+and document in the Notice of Funding
+
+Courtesy Photo/AdobeStock.
+
+18
+
+Grants Oversight: USDA OIG
+Audit Highlighted Work
+Controls Over the Meat and Poultry
+Processing Expansion Program Award
+Process (Phase 1) (34601-0001-21,
+issued 3/5/24)
+
+Grants Oversight:
+USDA OIG
+Highlighted Closed
+Investigations
+
+Oversight of the Agricultural Trade
+Promotion Program (07601-0001-24,
+issued 8/29/22)
+
+OIG closed approximately
+19 investigations involving grant fraud
+during this time, obtaining approximately
+48 criminal, 4 civil, and 18 administrative
+outcomes, with more than $8 million in
+monetary results. Grant funds are awarded
+for a specific “public purpose,” and grantees
+must use those funds as agreed and within
+certain parameters to include the granting
+agency guidelines. Common grant fraud
+risks include misappropriation and/or
+misuse of funds, theft of Government funds,
+misrepresentation to obtain the funds, and
+unreported conflict of interest to guarantee
+receipt of the funds. Examples of these
+investigations include:
+
+Florida Citrus Recovery Block Grant
+Program (03702-0001-22, issued 6/30/21)
+
+Texas Residents Sentenced for Fraud
+Schemes
+
+Hurricane Disaster Assistance—
+Emergency Watershed Protection
+Program (10702-0001-23, issued 6/25/21)
+
+Maine Woman Sentenced for Wire Fraud
+and Stealing from Federally Funded Program
+
+Controls Over the Market Access
+Program (07601-0001-21, issued 7/5/23)
+Agriculture and Food Research Initiative
+(13601-0002-22, issued 6/26/23)
+Wildfires and Hurricanes Indemnity
+Program—Puerto Rico (03702-0003-31,
+issued 3/24/23)
+
+2017 Hurricane Relief Emergency
+Conservation Program (03702-0002-23,
+issued 6/9/21)
+Recommendation Progress
+OIG issued 8 reports with
+48 recommendations. To date,
+14 recommendations remain open.
+
+This dam restoration is an estimated $1.5 million project that will
+replace an existing concrete notched weir fishway for herring
+and reinforce the dam. An approximate $400,000 grant from
+the USDA Natural Resources and Conservation Service and a
+majority share from the Community Preservation Act paid for the
+project. USDA Photo by Lance Cheung.
+
+19
+
+Outreach
+Outreach is critical to the effective delivery of
+USDA programs because without awareness
+that assistance is available, program access
+and benefits may not effectively reach their
+intended recipients. The Department has
+prioritized outreach efforts in its Strategic
+Plan Fiscal Years 2022–2026, factoring into
+5 of the Department’s 6 strategic goals and
+10 of its 21 objectives.
+Our prior work shows that to implement
+effective, efficient agricultural programs
+that also reach underrepresented groups,
+USDA must improve its outreach efforts
+by making improvements to its civil rights
+complaint process and focusing on outreach
+to underserved communities. While
+USDA has made progress in this area, the
+Department can do more to remove barriers
+to participation and improve the delivery of
+its programs.
+
+Fall apples at a farmers market. This market
+is located in an urban neighborhood where
+it may be a challenge for some to get to
+grocery stores and carry purchases home.
+USDA Photo by Lance Cheung.
+
+Example Report
+Summary
+A 2021 OIG audit reviewed
+and evaluated the
+Office of Partnerships and
+Public Engagement’s (OPPE)
+policies, procedures, and internal controls
+related to the Outreach and Assistance
+for Socially Disadvantaged Farmers and
+Ranchers and Veteran Farmers and
+Ranchers Program’s (2501 Program) grant
+management process and the 2501 Program
+grants awarded in FYs 2018 and 2019.
+Additionally, we reviewed the implementation
+of recommendations from prior audits.  
+In the first finding of our report, we
+identified that 6 of the 18 applications we
+reviewed in our sample were not eligible
+to receive 2501 Program grant funds.
+This occurred because tight deadlines
+caused 2501 Program officials to forward
+applications for scoring to the independent
+review panel while 2501 Program officials
+simultaneously verified that applicants were
+eligible. Additionally, OPPE does not have
+oversight controls to ensure its personnel
+follow the procedures established to confirm
+eligibility. Further, OPPE relied on the
+independent review panel to assess eligibility
+as part of its process. However, the scoring
+document the independent review panel
+used did not include questions to evaluate
+applicants’ eligibility. As a result, between
+FY 2018 and FY 2019, OPPE awarded a
+total of more than $1.1 million in grant funds
+to 3 of the 6 ineligible entities we identified
+in our sample, funds that could have gone to
+qualified applicants.
+Since 2013, OIG has issued audit reports
+on the 2501 Program that have consistently
+identified cases where the most meritorious
+and deserving applicants may not have
+20
+
+received funds from the program. Although
+OPPE has implemented recommendations
+from prior OIG audits to prevent ineligible
+applicants from receiving program funds, we
+continue to find that OPPE has ineffective
+oversight controls over its eligibility review
+process. OPPE officials agreed with all of our
+recommendations.
+
+Outreach: USDA OIG Highlighted
+Audit Work
+Outreach and Assistance for Socially
+Disadvantaged Farmers and Ranchers
+and Veteran Farmers and Ranchers
+Program (2501 Program) in Fiscal Years
+2018 and 2019 (91601-0001-21, issued
+11/10/21)
+
+Outreach: USDA OIG
+Highlighted Closed
+Investigations
+
+  
+OIG conducted 1 investigation
+involving fraud against outreach
+programs benefiting underrepresented
+groups during this time, obtaining
+approximately 14 criminal outcomes and
+more than $18 million in monetary results.
+Seven Defendants Sentenced to Federal
+Prison in $11.5 Million Fraud Case
+
+USDA Oversight of Civil Rights
+Complaints (60601-0001-21, issued
+9/22/21)
+Market Facilitation Program—Interim
+Report* (03601-0003-31(1), issued
+9/30/20)
+Recommendation Progress
+OIG issued 3 reports with
+42 recommendations. To date,
+4 recommendations remain open.
+*A report from the 2023 Management Challenges
+report with open recommendations relevant to the key
+challenge indicator.
+
+Wall panels with artwork titled “Manos a la obra” (Hands at work)
+line one side of a community garden plot. The plot is located on
+a vacant piece of land next to a residential park and community
+center. USDA Photo by Lance Cheung.
+
+21
+
+Challenge 3:
+Delivering Efficient Programs
+The effectiveness and efficiency with which
+USDA manages its assets are critical. For
+such a diverse portfolio of programs, the
+Department must design them well to be a
+diligent steward of Federal funds. However,
+designing, developing, and implementing
+programs that reliably achieve their intended
+results has been a recurring challenge
+for the Department. Monitoring program
+performance is also essential to ensure that
+USDA programs and benefits are delivered
+
+effectively and are accessible to all
+the communities USDA serves.
+USDA received significant funding to
+implement its pandemic-related programs,4
+as well as approximately $8.3 billion for
+IIJA and approximately $44 billion for IRA.
+Due to the influx of additional funding, the
+Department should focus more of its efforts
+to strengthen financial management. The
+following section summarizes USDA’s
+challenges and progress in the area of
+financial reporting.
+
+Financial Reporting
+Federal agencies rely on financial
+management systems5 to initiate, record,
+process, and report financial transactions.
+These systems support agency missions
+in making business decisions and provide
+transparency to the public. They also help
+agencies ensure the effectiveness and
+efficiency of operations, reliability of financial
+reporting, and compliance with applicable
+laws and regulations such as the Federal
+Financial Management Improvement Act
+of 1996 (FFMIA) and the Payment Integrity
+Information Act of 2019 (PIIA).
+
+The Office of the Chief Financial Officer
+(OCFO) serves as the principal advisor
+for all matters related to USDA’s financial
+management and its related systems,
+financial control and accounting, internal
+control and assessment, and financial
+management training. Ultimately, OCFO is
+responsible for the overall financial
+leadership of the Department, which has
+nearly 100,000 employees, 14,000 offices
+and field locations, more than $200 billion in
+assets, and $143 billion in annual spending.
+OCFO also produces the Department’s
+consolidated financial statements that
+
+Since March 2020, Congress has enacted four public laws in response to the COVID-19 pandemic: the
+CARES Act; FFCRA; the Coronavirus Response and Relief Supplemental Appropriations Act, 2021; and the
+American Rescue Plan Act of 2021. The first two laws, as of January 2021, provided more than $54.7 billion to
+USDA for pandemic relief activities, the third law provided more than $13.3 billion, and the fourth law provided
+more than $9.5 billion in additional funding.
+5
+Financial management systems are the organized collection of software, hardware, processes, procedures, and
+controls necessary to inform and support the core financial systems, including systems necessary to achieve
+financial management, operational, performance, and reporting objectives.
+4
+
+22
+
+integrate reporting information from
+USDA agencies. Given USDA’s significant
+portfolio, it is imperative that the Department
+and its agencies exercise effective financial
+management of its resources.
+However, USDA continues to face challenges
+in this area. For example, USDA reported
+non-compliance with FFMIA financial
+management system requirements and
+non-compliance with PIIA improper payment
+requirements in its Agency Financial
+Reports. Additionally, OIG has identified
+a variety of issues related to improper
+financial accounting and inadequate
+financial management controls. OIG also
+reported USDA’s noncompliance with
+PIIA requirements for FYs 2021–2022. Given
+USDA’s historical financial management
+challenges, continued effort is needed to
+meet FFMIA and PIIA objectives to provide
+better information for decision-making,
+improve financial and program managers’
+accountability, and improve the efficiency
+and effectiveness of USDA programs.
+
+Example Report Summary
+USDA received a qualified opinion on the
+audit of its consolidated financial statements
+for fiscal years 2023 and 2022. Our
+consideration of USDA’s internal control over
+financial reporting identified two material
+weaknesses: (1) improvements are needed
+in overall financial management; and
+(2) USDA needs to improve its information
+technology security and controls, as
+many weaknesses remained. Additionally,
+our review of compliance with laws and
+regulations identified noncompliance with
+the FFMIA, the Antideficiency Act, and the
+PIIA. The related agencies agreed with the
+findings and recommendation.
+
+Financial Reporting:
+USDA OIG
+Highlighted Audit
+Work
+USDA’s Controls Over Departmental
+Shared Cost Programs and Working
+Capital Fund (50601-0004-23, issued
+3/14/2024)
+USDA’s Consolidated Financial
+Statements for Fiscal Years 2023 and
+2022 (50401-0022-11, issued 1/16/2024)
+Commodity Credit Corporation’s Financial
+Statements for Fiscal Years 2023 and
+2022 (06403-0006-11, issued 11/8/2023)*
+Rural Development’s Financial
+Statements for Fiscal Years 2023 and
+2022 (85401-0014-11, issued 11/8/2023)
+Agreed-Upon Procedures—Employee
+Benefits, Withholdings, Contributions,
+and Supplemental Semiannual
+Headcount Reporting Submitted to the
+Office of Personnel Management for
+Fiscal Year 2023 (11301-0001-23, issued
+9/29/2023)
+Independent Service Auditor’s Report
+on Financial Management Services’
+Description of Its Financial Systems
+and the Suitability of the Design and
+Operating Effectiveness of Controls for
+the Period October 1, 2022, through
+June 30, 2023 (11303-0004-12, issued
+9/19/2023)
+* These reports were included because they provide
+important information despite not having any
+recommendations.
+
+23
+
+Financial Reporting: USDA OIG
+Highlighted Audit Work
+Continued
+Independent Service Auditor’s Report on
+National Finance Center’s Description
+and Operating Effectiveness of Its Payroll
+and Personnel Systems for October 2022
+Through June 2023 (11303-0003-12,
+issued 9/15/2023)
+
+USDA’s Consolidated
+Financial Statements for
+Fiscal Years 2021 and
+2020 (50401-0020-11,
+issued 11/15/21)
+Commodity Credit Corporation’s Financial
+Statements for Fiscal Years 2021 and
+2020 (06403-0004-11, issued 11/15/21)
+
+USDA’s Compliance with Improper
+Payment Requirements for Fiscal Year
+2022 (50024-0003-24, issued 5/22/23)
+
+Natural Resources Conservation
+Service’s Financial Statements for Fiscal
+Years 2021 and 2020 (10403-0004-11,
+issued 11/15/21)
+
+USDA’s Consolidated Financial
+Statements for Fiscal Years 2022 and
+2021 (50401-0021-11, issued 11/14/22)
+
+Rural Development’s Financial
+Statements for Fiscal Years 2021 and
+2020 (85401-0012-11, issued 11/9/21)
+
+Commodity Credit Corporation’s Financial
+Statements for Fiscal Years 2022 and
+2021 (06403-0005-11, issued 11/9/22)
+
+Recommendation Progress
+OIG issued 16 reports with
+44 recommendations. To date,
+6 recommendations remain open.
+
+Natural Resources Conservation
+Service’s Financial Statements for Fiscal
+Years 2022 and 2021 (10403-0005-11,
+issued 11/9/22)
+USDA’s Compliance with Improper
+Payment Requirements for Fiscal Year
+2021 (50024-0002-24, issued 6/28/22)
+
+Courtesy Photo/AdobeStock.
+
+24
+
+Emerging Challenge:
+Climate Impact
+According to the Fourth National Climate
+Assessment, changes in average weather
+conditions that persist over multiple decades
+or longer present numerous challenges
+to American agriculture, including the rise
+of natural disasters, the decline of major
+crop and livestock yields, possible changes
+in water availability, soil erosion, and
+disease and pest outbreaks. In calendar
+year 2020 alone, the United States faced
+22 extreme weather and climate-related
+disaster events with losses exceeding
+$1 billion each, which collectively cost
+nearly $100 billion. IIJA legislation includes
+over $50 billion for USDA to protect against
+droughts, floods, and wildfires, in addition
+to a major investment in weatherization.
+In addition, IRA provided an additional
+$19.5 billion over 5 years to USDA for
+climate smart agriculture through several
+of the conservation programs NRCS
+implements.
+USDA’s FY 2024 Performance Plan outlines
+objectives for reaching the goal of combating
+climate change to support America’s working
+lands, natural resources, and communities.  
+USDA’s FY 2024 Performance Plan also
+provides an FY 2022 assessment report
+of USDA’s progress towards reaching
+these objectives. For example, NRCS uses
+the measure “Cropland on Which at
+least One Conservation Practice was
+Applied to Improve Soil Quality under the
+Environmental Quality Incentives Program
+(EQIP)” as a national indicator of the
+agency’s progress related to soil quality.
+Per this plan, performance in this area is
+exceeding expectations and NRCS expects
+This audit covered the actions that NRCS took on
+EQIP from September 24, 2019, through
+September 30, 2021.
+
+6
+
+to meet the year-end target. However,
+the measure “Cropland Conservation
+Applied to Improve Soil Quality through
+Conservation Technical Assistance,” which is
+a combination of work in three programs—
+EQIP, CSP, and the Conservation Technical
+Assistance program—is not likely to reach its
+2022 target.
+USDA OIG completed one audit on EQIP
+that evaluated NRCS’ payment schedule
+process and issued no recommendations.6
+In addition, USDA OIG completed an audit
+of CSP to determine if NRCS ensured
+participants maintained control of land and
+found NRCS field officials did not always
+follow policy requirements for documenting
+contracting reviews.  
+Furthermore, in 2023, GAO reported
+on USDA’s efforts to integrate climate
+resilience into its planning and activities
+and noted that some USDA programs may
+incentivize producers to enhance their
+climate resistance, though that was not
+the intent of the programs. GAO issued
+one climate-related recommendation in the
+report, which GAO added to USDA’s priority
+recommendations in 2024.  
+OIG is currently planning and
+performing work that will
+assess FSA’s
+Conservation
+Reserve
+Program incentive
+payments,
+USDA Climate
+Hubs, and USDA’s
+Partnership for
+Climate-Smart
+Commodities activities.
+A pollinator visits a flower on
+a farm. The farm’s owners received
+assistance through USDA’s Natural Resources
+Conservation Service’s Environmental Quality
+Incentives Program to add a high tunnel and
+hedgerow to the farm. Natural Resources
+Conservation Service photo by Brandon
+O’Connor.
+
+25
+
+Acronyms and Abbreviations
+
+2501 Program.......Outreach and Assistance
+for Socially Disadvantaged
+Farmers and Ranchers
+and Veteran Farmers and
+Ranchers Program
+AIP........................Approved Insurance
+Provider
+AMS......................Agricultural Marketing
+Service
+APHIS...................Animal and Plant Health
+Inspection Service
+AWA......................Animal Welfare Act
+CFAP....................Coronavirus Food
+Assistance Program
+COVID-19.............coronavirus disease 2019
+CSP......................Conservation Stewardship
+Program
+EBT.......................electronic benefits transfer
+EQIP.....................Environmental Quality
+Incentives Program
+FAS.......................Foreign Agricultural
+Service
+FFCRA..................Families First Coronavirus
+Response Act
+FFMIA...................Federal Financial
+Management Improvement
+Act of 1996
+FNS......................Food and Nutrition Service
+FSA.......................Farm Service Agency
+FY.........................fiscal year
+GAO.....................Government Accountability
+Office
+IIJA.......................Infrastructure Investment
+and Jobs Act of 2021
+IRA........................Inflation Reduction Act of
+2022
+IT..........................information technology
+MAP......................Market Access Program
+
+NRCS...................Natural Resources
+Conservation Service
+OCFO...................Office of the Chief
+Financial Officer
+OIG.......................Office of Inspector General
+OMB.....................Office of Management and
+Budget
+OPPE...................Office of Partnerships and
+Public Engagement
+PIIA.......................Payment Integrity
+Information Act of 2019
+RMA......................Risk Management Agency
+SNAP....................Supplemental Nutrition
+Assistance Program
+USDA....................U.S. Department of
+Agriculture
+WIC.......................Special Supplemental
+Nutrition Assistance
+Program for Women,
+Infants, and Children
+
+26
+
+Learn more about USDA OIG at https://usdaoig.oversight.gov
+Find us on LinkedIn: US Department of Agriculture OIG
+Find us on Twitter: @OIGUSDA
+
+Report suspected wrongdoing in USDA programs:
+https://usdaoig.oversight.gov/hotline
+Toll-free: 800-424-9121
+In Washington, DC: 202-690-1622
+
+All photographs on the front and back covers are from Adobe Stock with a licensing agreement.
+They do not depict any particular audit, inspection, or investigation.
+
+U.S. Department of Agriculture (USDA) is an equal opportunity provider, employer, and lender.
+In accordance with Federal civil rights law and USDA civil rights regulations and policies, the USDA, its Agencies, offices, and employees, and institutions
+participating in or administering USDA programs are prohibited from discriminating based on race, color, national origin, religion, sex, gender identity
+(including gender expression), sexual orientation, disability, age, marital status, family/parental status, income derived from a public assistance program,
+political beliefs, or reprisal or retaliation for prior civil rights activity, in any program or activity conducted or funded by USDA (not all bases apply to all
+programs). Remedies and complaint filing deadlines vary by program or incident.
+Persons with disabilities who require alternative means of communication for program information (e.g., Braille, large print, audiotape, American Sign
+Language, etc.) should contact the responsible Agency or USDA’s TARGET Center at (202) 720-2600 (voice and TTY) or contact USDA through the Federal
+Relay Service at (800) 877-8339. Additionally, program information may be made available in languages other than English.
+To file a program discrimination complaint, complete the USDA Program Discrimination Complaint Form, AD-3027, found online at How to File a Program Discrimination Complaint and at any USDA office or write a letter addressed to USDA and provide in the letter all of the information requested
+in the form. To request a copy of the complaint form, call (866) 632-9992. Submit your completed form or letter to USDA by: (1) mail: U.S. Department of
+Agriculture, Office of the Assistant Secretary for Civil Rights, 1400 Independence Avenue, SW, Washington, D.C. 20250-9410; (2) fax: (202) 690-7442; or (3)
+email: program.intake@usda.gov.
+
+

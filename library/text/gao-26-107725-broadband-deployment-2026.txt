@@ -1,0 +1,3248 @@
+Source: https://files.gao.gov/reports/GAO-26-107725/index.html
+Publisher: U.S. Government Accountability Office
+Retrieved: 2026-11-09
+Original SHA-256: 3e84dbfc9bf26a04a6d84015ad05a4926489f7426ed6589620a4acc694131e55
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+GAO-26-107725, BROADBAND DEPLOYMENT: Agencies Should Take Steps to
+Better Target Underserved Areas and Consider Sustainability
+Skip to main content
+(Close the report table of contents.)
+Highlights
+What GAO Found
+Why GAO Did This
+Study
+What GAO Recommends
+Letter
+Background
+Selected Programs Have
+Begun Distributing Funding for Broadband Deployment, and Progress on Completing
+Projects Varies
+Agencies Use Mapping
+Data to Target Underserved Areas, but Aspects of FCC’s Challenge Process May
+Hamper These Efforts
+NTIA Lacks a Process
+for Monitoring Sustainability of BEAD Projects, but Agencies Have Taken Steps
+to Address Challenges with Permits and Reviews
+Conclusions
+Recommendations for
+Executive Action
+Agency Comments
+Appendix I: Objectives,
+Scope, and Methodology
+Appendix II:
+Characteristics of Broadband Deployment Projects in Selected Programs
+Appendix III: Comments
+from the Federal Communications Commission
+Appendix IV: GAO
+Contact and Staff Acknowledgments
+Tables (Open or close a list of links to the subsections in this section.) Expected Completion Date
+for Selected Programs’ Broadband Deployment
+Table 1: Key Features of Selected Federal Broadband
+Deployment Programs
+Table 2: Tribal Broadband Connectivity Program Statistics
+by Award Amount, Fiscal Years 2019–2025, as of April 2026
+Table 3: ReConnect Program Statistics by Funding Type,
+Fiscal Years 2019–2025, as of April 2026
+Table 4: Percentage of Awarded Funds Expended as of April
+2026 for U.S. Department of Agriculture (USDA) Broadband Infrastructure
+Projects Awarded in Each Fiscal Year (FY)
+Table 5: High Cost Program Statistics by Subprogram for
+Fiscal Years 2019–2025, as of April 2026
+Table 6: Selected Federal Broadband Deployment Programs by
+Agency
+Table 7: Number of Planned Broadband Deployment Projects
+and Fiber-Only Broadband Deployment Projects for Selected Programs by U.S.
+State or Territory, Fiscal Years 2019–2025
+Figures (Open or close a list of links to the subsections in this section.) Figure 1: Types of Fixed Broadband
+Figure 2: Timeline of Key Dates for Selected Broadband
+Deployment Programs, as of June 2026
+Figure 3: ReConnect Funding Awarded by Fiscal Year and
+Funding Type, Fiscal Years 2019–2025, as of April 2026
+Figure 4: Telecommunications Infrastructure Program
+Funding Awarded by Fiscal Year, Fiscal Years 2019–2025, as of April 2026
+Figure 5: Community Connect Program Funding Awarded by
+Fiscal Year, Fiscal Years 2019–2025, as of April 2026
+Figure 6: Key Dates for Subprograms Within the Federal
+Communication Commission’s (FCC) High Cost Program
+Figure 7: Broadband Equity, Access, and Deployment (BEAD)
+Program Original and Revised Milestones, as of June 2026
+Figure 8: Number of Broadband Deployment Projects by
+Planned Technology Across All Selected Programs, Fiscal Years 2019–2025
+Figure 9: Planned Technology for Broadband Deployment
+Projects Funded by Selected Agencies, Fiscal Years 2019–2025
+Figure 10: Percentage of Planned Fiber-Only Broadband
+Deployment Projects by Program, Fiscal Years 2019–2025
+Figure 11: Download and Upload Speed Combinations of
+Planned Broadband Deployment Projects by Selected Agency and Program, Fiscal
+Years 2019–2025
+Figure 12: Number of Planned Broadband Deployment Projects
+That Include Tribal Lands by Program, Fiscal Years 2019–2025
+Report to
+Congressional Committees
+August 2026
+GAO- 26-107725
+United
+States Government Accountability Office
+Highlights
+A report to congressional
+committees
+Contact: Andrew Von Ah at vonaha@gao.gov
+What GAO Found
+Since 2020, four federal agencies administered the bulk of
+federal funding for broadband deployment through the nine programs GAO
+reviewed. These were the Federal Communications Commission (FCC), National
+Telecommunications and Information Administration (NTIA), and Departments of
+Agriculture and the Treasury. For example, NTIA oversees the over $42-billion
+Broadband Equity, Access, and Deployment (BEAD) program, which provides grants
+to states and territories that select providers to deploy broadband networks to
+underserved areas. As of February 2026, all nine programs had begun
+distributing funding.
+Expected Completion Date
+for Selected Programs’ Broadband Deployment
+Program (agency)
+Date
+State and Local Fiscal Recovery Funds (Treasury)
+2026
+Broadband Infrastructure Program (NTIA); Capital
+Projects Fund (Treasury)
+2027
+Selected High Cost subprograms (FCC)
+2028
+Tribal Broadband Connectivity Program rounds one
+and two (NTIA)
+2029
+Tribal Broadband Connectivity Program round three
+(NTIA); selected High Cost subprograms (FCC); Broadband Equity, Access, and
+Deployment Program (NTIA)
+2030 and beyond
+Source: Documentation and officials from
+National Telecommunications and Information Administration (NTIA), Federal
+Communications Commission (FCC), and Department of the Treasury. |
+GAO-26-107725
+Note: Table excludes the U.S. Department of Agriculture
+programs that GAO reviewed because expected completion dates vary by funding
+round.
+Federal agencies target funding to underserved areas using
+FCC mapping data showing which locations do and do not have broadband access,
+as reported by providers. To improve data accuracy, FCC accepts challenges from
+the public and makes updates if needed. Some program participants and stakeholders
+said this challenge process was burdensome and unclear. For example, challenging
+a large number of locations in an area could be difficult for smaller communities
+and providers with limited resources. Without targeted outreach to smaller communities
+and providers to address such difficulties, FCC may not be able to obtain the
+most accurate information about broadband availability and therefore may not be
+able to effectively identify and target funding to underserved areas.
+As one of the largest programs focused on broadband
+deployment GAO reviewed, BEAD holds great potential to make broadband available
+to areas that have been underserved. GAO has previously reported on issues
+providers face in high-cost areas, including financial sustainability. In
+October 2025, NTIA announced a requirement that BEAD providers certify that
+they will not accept federal funding from other sources for broadband
+deployment and operations costs for locations funded by BEAD for at least 10
+years. This provision is intended to ensure that BEAD projects are financially
+self-sustainable without additional federal funding. NTIA’s BEAD documentation for
+states and territories states that there may be a basis for them to request certain
+data from providers. However, NTIA did not detail the circumstances that could
+warrant such a request. By providing more details, NTIA would help states
+anticipate potential problems and prevent service lapses to underserved areas
+when providers cannot continue providing services due to financial issues.
+Why GAO Did This
+Study
+Federal programs have received billions of dollars in
+recent years, including over $50 billion from the Infrastructure Investment and
+Jobs Act, to deploy broadband networks to areas that lack service. These areas
+are typically remote and harder or more expensive to serve than other areas. This
+effort involves multiple federal agencies, states, territories, Tribes, and
+broadband providers.
+House Report 118-124 includes a provision for GAO to
+review the efficacy of recent federal broadband deployment programs. This
+report examines selected agencies’ progress in deploying broadband, their approaches
+to targeting underserved areas, and NTIA’s efforts to encourage sustainability
+in its BEAD program, among other things.
+GAO analyzed broadband program data, reviewed
+documents, and interviewed officials from the four selected broadband funding
+agencies. GAO selected seven programs administered by these agencies with
+broadband deployment as a main purpose and two Treasury programs due to the
+significant amount of funding used for broadband deployment. GAO compared FCC’s
+efforts to improve data in its maps and NTIA’s efforts to encourage
+sustainability to relevant federal internal control standards.
+What GAO Recommends
+GAO recommends that FCC work with smaller communities
+and providers to identify and address difficulties in completing the challenge
+process. GAO also recommends that NTIA provide information to states and
+territories on monitoring BEAD projects to support financial sustainability. FCC
+and NTIA agreed with these recommendations.
+Abbreviations
+BEAD
+Broadband Equity Access and
+Deployment
+BFM
+Broadband Funding Map
+BIP
+Broadband Infrastructure
+Program
+BLM
+Bureau of Land Management
+CAF-II Auction
+Connect America Fund Phase II
+Auction
+CPF
+Capital Projects Fund
+E-ACAM
+Enhanced Alternative Connect
+America Cost Model
+FCC
+Federal Communications
+Commission
+NEPA
+National Environmental Policy
+Act
+NTIA
+National Telecommunications and
+Information Administration
+RDOF
+Rural Digital Opportunity Fund
+SLFRF
+State and Local Fiscal Recovery
+Funds
+TBCP
+Tribal Broadband Connectivity
+Program
+TIP
+Telecommunications
+Infrastructure Program
+USDA
+United States Department of
+Agriculture
+This is a work of the U.S. government and is not
+subject to copyright protection in the United States. The published product may
+be reproduced and distributed in its entirety without further permission from
+GAO. However, because this work may contain copyrighted images or other
+material, permission from the copyright holder may be necessary if you wish to
+reproduce this material separately.
+Letter
+August 31, 2026
+The Honorable John Hoeven
+Chair
+The Honorable Jeanne Shaheen
+Ranking Member
+Subcommittee on Agriculture, Rural Development, Food and Drug
+Administration, and Related Agencies
+Committee on Appropriations
+United States Senate
+The Honorable Andy Harris
+Chairman
+The Honorable Sanford Bishop, Jr.
+Ranking Member
+Subcommittee on Agriculture, Rural Development, Food and Drug
+Administration, and Related Agencies
+Committee on Appropriations
+House of Representatives
+Broadband, or high-speed internet, is increasingly
+considered essential for employment, education, health care, and other
+activities in Americans’ daily lives. From 2020 to 2025, Congress appropriated
+tens of billions of dollars, including over $50 billion from the Infrastructure
+Investment and Jobs Act, in additional federal funding for new and existing
+programs that support expanding broadband access to those areas of the country
+that are unserved or underserved. [1]
+However, we reported in 2025 that federal agencies continue to find that a
+substantial number of Americans lack sufficient access to broadband. [2]
+In our prior work, we found that many federal agencies
+have a role in addressing gaps in broadband access, making coordination among
+broadband programs critical to effectively identifying and addressing those
+gaps and preventing duplication of effort. Specifically, our 2022 report on
+federal broadband programs found that there were over 100 programs across 15
+agencies that supported broadband access. [3]
+More recently, in 2025, we reported on coordination among
+the four agencies that administer the bulk of federal funding for deployment of
+new or enhanced broadband networks. [4]
+These agencies are the National Telecommunications and Information
+Administration (NTIA) within the Department of Commerce, the U.S. Department of
+Agriculture (USDA), the Federal Communications Commission (FCC), and the
+Department of the Treasury. These agencies have agreements in place to
+coordinate and share information to better identify areas in need of service
+and to avoid duplication—where separate programs fund broadband grants for
+deployment in the same area, for the same population, and at the same level of
+service. [5]
+We have also reported that the role of states and
+territories in distributing federal broadband funds has increased in recent
+years with the creation of new programs that provide funds directly to them. [6] For example, NTIA’s Broadband Equity,
+Access, and Deployment (BEAD) program received approximately $42 billion in
+2021 to expand broadband access in all states and territories. Additionally,
+Treasury’s Capital Projects Fund is a $10-billion grant program available to
+states and territories, among other entities, that may be used for broadband
+infrastructure projects.
+House Report 118-124, incorporated by reference into the
+explanatory statement accompanying the Consolidated Appropriations Act, 2024,
+includes a provision for us to review federal broadband deployment programs to
+evaluate each program’s efficacy in providing internet access to unserved and
+underserved areas, which we refer to collectively as “underserved.” [7] This report examines (1) selected
+agencies’ progress in deploying broadband; (2) the selected agencies’
+approaches to targeting broadband deployment funding to underserved areas while
+avoiding duplication; and (3) how the selected agencies have addressed
+challenges that program participants face in sustaining broadband service and
+obtaining permits and reviews.
+To address these objectives, we focused on the four
+agencies specified above—NTIA, USDA, FCC, and Treasury. We chose these agencies
+because they administer the bulk of federal broadband deployment funding and
+have formally agreed to coordinate and share data on broadband deployment
+projects funded by their programs. When reviewing the selected agencies’
+activities, we focused on seven programs whose main purpose is to fund
+last-mile broadband deployment. [8]
+We also included two Treasury programs in our review due to the significant
+amount of funds used for broadband investment, although funding broadband
+deployment is only one possible eligible use of funds in these programs.
+Although some selected programs have other eligible uses for funds, we refer to
+the selected programs collectively as broadband deployment programs for the
+purposes of this report. For each agency, we reviewed agency documentation,
+reviewed relevant statutes, and interviewed agency officials.
+We also interviewed 12 program participants (three state
+broadband offices, three Tribes, and six broadband providers) and eight other
+stakeholders (five industry associations, one consumer group, and two research
+groups) to obtain their perspectives on selected agencies’ progress in
+deploying broadband, selected agencies’ approaches to targeting broadband
+deployment to underserved areas, and challenges that program participants face
+in sustaining broadband service and obtaining permits and reviews. The views
+expressed by each participant or stakeholder are not generalizable to those of
+all participants or stakeholders, though they provided us with a variety of
+perspectives.
+To examine selected agencies’ progress in deploying
+broadband, we reviewed agencies’ notices of funding opportunity and other
+documentation for selected programs to identify expected timelines for project
+completion. We also analyzed FCC’s Broadband Funding Map data for fiscal years
+2019 through 2025 to obtain information on eight selected programs’ progress,
+such as funding awarded for broadband deployment and number of deployment
+projects funded. [9]
+For one of the selected FCC subprograms, the Broadband Funding Map data
+included only projects with planned speeds of at least 100 megabits per second
+(Mbps) for download and 20 Mbps for upload. This analysis did not include NTIA’s
+BEAD program because NTIA began submitting data to the Broadband Funding Map
+for this program in fiscal year 2026.
+In assessing the reliability of the Broadband Funding Map
+data related to key program and project characteristics such as funding amount,
+speed, and technology, we identified several variables with missing or
+unexpected values and instances where agencies were using the same variable
+differently. In part because of our alerting FCC to these data issues, FCC, in
+consultation with the other selected agencies, reviewed the data specifications
+for the map and updated the specifications to ensure consistent use of data
+variables. As a result of data errors we found, FCC also updated its quality
+assurance process and fixed the specific data errors. [10] The Broadband Funding Map data we
+used for our analysis reflect these updates to the data and data
+specifications. As a result, the map’s data are more reliable and useful for
+comparisons across programs, though some cross-program comparability
+limitations remain, as discussed below. We assessed the reliability of the
+updated data and found them to be generally reliable for the purpose of
+describing characteristics of broadband programs and projects. We also analyzed
+Broadband Funding Map data on planned service locations for fiscal years 2019
+through 2025 and determined these data were sufficiently reliable for the
+purpose of reporting approximate counts of planned locations, rounded to the
+nearest 100. [11]
+To obtain information on completed projects, we reviewed
+buildout data (i.e., data on constructed broadband infrastructure) from the
+Broadband Funding Map for fiscal years 2019 through 2025. However, at the time
+of our review, data on completed projects were available for only three of our
+nine selected programs­—NTIA’s Broadband Infrastructure Program, NTIA’s Tribal
+Broadband Connectivity Program, and Treasury’s Capital Projects Fund program. [12]
+To examine agencies’ approaches to targeting broadband
+deployment funding to underserved areas while avoiding duplication, we reviewed
+agencies’ notices of funding opportunity and other program documentation to see
+how they targeted program funds. We also spoke with officials from each agency
+about how they coordinate their various programs with the other agencies. In
+addition, we evaluated FCC’s bulk challenge process—a process through which
+entities (state, local, and tribal governments and consumers) can challenge FCC
+data on broadband availability and on the location of structures that can
+receive broadband. [13]
+To do so, we compared FCC’s practices with relevant federal internal control
+standards related to obtaining quality data. [14]
+To examine challenges that participants face in sustaining
+broadband service and obtaining permits and reviews, and how agencies have
+addressed those challenges, we reviewed reports from the Congressional Research
+Service, federal inspectors general, and our prior work. To evaluate NTIA’s
+efforts to help make BEAD sustainable, we compared NTIA’s actions with its
+goals and with federal standards for internal control. We focused on BEAD
+primarily because it is the only selected program that announced a requirement
+for subrecipients (i.e., broadband providers) to certify in writing that they
+will not accept federal funding for network deployment and operations for
+BEAD-funded locations for at least 10 years.
+Appendix I provides additional information on our
+objectives, scope, and methodology, including how we selected entities to
+interview and how we assessed the reliability of the Broadband Funding Map
+data. Appendix II provides information regarding key characteristics of
+projects within selected programs, such as planned technology, planned speeds,
+and geographic location, based on our analysis of the map’s data.
+We conducted this performance audit from July 2024 to
+August 2026 in accordance with generally accepted government auditing
+standards. Those standards require that we plan and perform the audit to obtain
+sufficient, appropriate evidence to provide a reasonable basis for our findings
+and conclusions based on our audit objectives. We believe that the evidence
+obtained provides a reasonable basis for our findings and conclusions based on
+our audit objectives.
+Background
+Broadband Technologies and Speeds
+Broadband providers can use a variety of technologies to
+deliver service to single locations such as homes or businesses. The selected
+federal broadband programs we reviewed generally do not prescribe specific
+technologies—such as fiber, coaxial cable, fixed wireless, and satellite—as
+long as the service meets programmatic speed and latency requirements. [15] However, some of these requirements
+are more easily met by certain technologies. For example, USDA’s fifth round of
+funding for its ReConnect program required at least 100 Mbps upload and
+download speed, a requirement that can be readily met by fiber but may be more
+challenging to meet with other technologies. Additionally, some
+technologies—such as satellite—may meet technical requirements for some
+programs and increase access, but there are concerns about service limitations. [16]
+Geography and cost considerations can also affect the
+choice of technology. For example, remote areas may be served at a lower cost
+by fixed wireless or satellite service, as installing long stretches of fiber
+to reach those areas can be expensive. However, satellite technology may not be
+able to reach areas that have heavy tree coverage, and fixed wireless may not
+be able to reach locations in valleys or behind hills. Additionally, rocky
+ground may make it difficult to dig to lay underground coaxial cable or fiber,
+and aerial hangings (running coaxial cable or fiber from utility poles) may be
+a more economical solution. (See fig. 1.)
+Figure 1: Types of Fixed Broadband
+Note: Fixed broadband service generally refers to service
+that is fixed to a specific location, such as a home, as opposed to mobile
+broadband service. Fixed wireless refers to a technology that provides
+broadband via wireless signals that are directed to a single, static location,
+such as a home, and does not provide connectivity to other locations.
+Features of Selected Federal Agencies and Programs
+The four selected agencies in this report—NTIA, USDA, FCC,
+and Treasury—administer most of the federal government’s broadband deployment
+funding, and their programs have various purposes, funding types, and eligible
+entities. For example:
+· NTIA
+was appropriated approximately $50 billion for broadband programs in fiscal
+years 2021 and 2022, including for two multibillion-dollar deployment programs:
+BEAD, which provides grants to states and territories to, among other things,
+select subrecipient providers to deploy broadband to underserved areas; and the
+Tribal Broadband Connectivity Program, which provides funding to Tribes and
+other eligible entities for a similar purpose.
+· USDA’s
+broadband programs fund the deployment of broadband specifically to underserved
+rural communities, providing grants, loans, or both, depending on the program.
+The largest of these programs, ReConnect, began as a pilot program in 2018 and
+has since provided five separate rounds of funding, typically going directly to
+broadband providers and local entities for broadband deployment.
+· FCC’s
+Universal Service Fund programs have historically provided the bulk of federal
+broadband funding. The largest component of the Universal Service Fund is the
+High Cost program, which targets financial support to rural and high-cost areas
+for the deployment of broadband-capable voice networks, as well as for the
+operation and maintenance of networks. The High Cost program includes
+subprograms such as the Connect America Fund Phase II Auction and the Rural
+Digital Opportunity Fund.
+· Treasury’s
+Capital Projects Fund program and State and Local Fiscal Recovery Funds program
+provide funding to respond to the COVID-19 pandemic. This funding goes to state
+and territorial governments, among other entities, for many purposes, including
+expanding broadband access. Under both programs, recipients, not Treasury,
+select the individual projects for funding based on program eligibility
+requirements.
+Table 1 shows key features of the nine broadband
+deployment programs we reviewed. For some programs, a significant portion of
+the appropriation may be used for purposes other than broadband deployment. For
+example, Treasury’s State and Local Fiscal Recovery Funds program provided $350
+billion to help cover a broad range of costs stemming from the health and
+economic effects of the COVID-19 pandemic. In 2024, we reported that recipients
+obligated most of this funding for purposes other than broadband deployment,
+such as for assistance to households. [17]
+Our analysis of Broadband Funding Map data, featured later in this report,
+provides some information on how much of the appropriated funds have been or
+will be used for last-mile broadband deployment.
+Table 1: Key Features of Selected Federal Broadband
+Deployment Programs
+Program
+Amount appropriated, fiscal years 2019–2025
+Funding type
+Examples of eligible entities
+Examples of broadband-related uses of funds
+National Telecommunications and Information
+Administration
+Broadband Equity, Access, and Deployment Program
+$42.5 billion
+Grant
+States, territories
+Deployment, planning, and devices
+Tribal Broadband Connectivity Program
+$3 billion
+Grant
+Tribal governments, organizations, colleges and
+universities; Alaska Native corporations; and the Department of Hawaiian Home
+Lands
+Deployment, affordability, planning, devices, and
+digital skills
+Broadband Infrastructure Program
+$300 million
+Grant
+Partnerships between states (or political
+subdivisions) and fixed broadband providers
+Deployment
+U.S. Department of Agriculture
+ReConnect Program
+$4.7 billion a
+Grant, loan, grant-loan combination
+Cooperatives, mutual organizations, corporations,
+limited liability companies, state or local governments, U.S. territories or possessions,
+Tribes
+Deployment
+Telecommunications Infrastructure Program
+$4.6 billion b
+Loan, loan guarantee
+Nonprofits, cooperatives, mutual associations,
+Tribes, state or local governments
+Deployment
+Community Connect Grant Program
+$210 million
+Grant
+Private corporations, limited liability companies,
+cooperatives, state or local governments, Tribes
+Deployment and affordability
+Federal Communications Commission
+High Cost Program
+$5.4 billion c
+Subsidy
+Providers designated as eligible telecommunications
+carriers under 47 U.S.C. § 214(e)
+Deployment, operations, and maintenance
+Department of the Treasury
+State and Local Fiscal Recovery Funds
+$350 billion d
+Direct payment for specified uses
+States, territories, tribal, and local governments
+Deployment, affordability, devices, and digital
+skills
+Capital Projects Fund
+$10 billion d
+Grant
+States, territories, freely associated states, tribal
+governments
+Deployment, affordability, devices, and digital
+skills
+Source: GAO analysis of relevant statutes, regulations, and
+agency information . | GAO‑26‑107725
+Notes: In this table, states include the District of
+Columbia.
+Some affordability-related activities may allow for
+broadband subsidies to pay for monthly subscriber costs.
+a The amounts reported as awarded under
+ReConnect may be greater than the amounts appropriated for the program because
+the appropriated funds are not used for the amount a loan recipient borrows,
+according to U.S. Department of Agriculture officials. Instead, these
+appropriated funds cover the loans’ subsidy costs, which represent the cost of
+the loan program.
+b Appropriations for the Telecommunications
+Infrastructure Program are not limited to broadband purposes. Program funds may
+also be used to furnish and improve telephone services in rural areas.
+c The Federal Communications Commission (FCC)
+program listed is part of the Universal Service Fund, which was authorized as a
+permanent, indefinite appropriation (i.e., appropriations that, at the time of
+enactment, are for an unspecified amount, and that remain available without
+further congressional action) based on the fund’s receipts. GAO’s review
+focused on five selected subprograms within the High Cost program: Connect
+America Phase II Auction, Rural Digital Opportunity Fund, Bringing Puerto Rico
+Together Stage 2 Fixed Support, Connect U.S. Virgin Islands Stage 2 Fixed
+Support, and Enhanced Alternative Connect America Cost Model. This table lists
+the total expenses reported by FCC officials for fiscal years 2019 through 2025
+for these subprograms to represent the related receipts and amounts
+appropriated. This amount is lower than the amount GAO reports as awarded for
+these subprograms later in this report because the awarded amount is the total
+award amount, which is disbursed monthly over a 10- or 15-year funding period.
+d Appropriations for Capital Projects Fund and
+State and Local Fiscal Recovery Funds were for all uses, not just broadband
+deployment, affordability, devices, and digital skills. For example, State and
+Local Fiscal Recovery Funds recipients, including state and local governments,
+could use program funds for aid to tourism and other industries affected by
+COVID-19.
+Program Timelines
+The nine selected programs vary significantly in terms of
+key program dates and timelines, application and awarding periods, dates of
+first awards, and information related to expected timing of project completion
+(see fig. 2). [18]
+Programs with relatively short application and awarding periods that occurred
+several years ago, such as NTIA’s Broadband Infrastructure Program, are likely
+to have a higher proportion of completed projects than programs with multiple
+rounds and longer application and awarding periods, such as NTIA’s Tribal
+Broadband Connectivity Program. The Broadband Infrastructure Program had a 13-month
+application and awarding period that finished in June 2022, while the Tribal
+Broadband Connectivity Program has had a multiyear application and awarding
+period that included the first round starting in June 2021, a second round
+starting in July 2023, and a third round starting in June 2026.
+Figure 2: Timeline of Key Dates for Selected Broadband
+Deployment Programs, as of June 2026
+Note: Dates reflect all awards, not just those submitted
+to the Broadband Funding Map. For example, this figure depicts the Broadband
+Infrastructure Program application and awarding period ending in June 2022,
+when NTIA made an award that primarily funded middle-mile infrastructure and
+did not fund last-mile infrastructure and therefore was not included in the
+Broadband Funding Map, according to NTIA officials.
+a The State and Local Fiscal Recovery Funds
+program provided direct funding to state governments, local governments, and
+other recipients. According to Treasury officials, Treasury began disbursing
+the first portion of the funds to recipients 60 days after enactment of the
+statute. For the purposes of this figure, GAO considers that date to be the end
+of the application and awarding period. However, because this is the date
+Treasury began disbursing the first portion of funds, according to Treasury
+officials, the true end date may have been later.
+b The Capital Projects Fund program provided
+funding to recipients such as states, Tribes, and territories. Recipients then
+created program plans, which Treasury reviewed and approved. For the purposes
+of this figure, GAO considers the beginning of the application and awarding
+period to be when Treasury issued its program guidance and the end to be when
+Treasury announced the last project funded through an award to a state.
+c The Broadband Equity, Access, and Deployment
+program provided funding to states and territories (56 recipients). Recipients
+then created proposals, which NTIA reviewed and approved. For the purposes of
+this figure, GAO considers the beginning of the application and awarding period
+to be when NTIA issued the notice of funding opportunity. This figure does not
+depict an end of the application and awarding period for this program because
+NTIA had not approved two states’ proposals as of June 2026.
+Federal Broadband Coordination and Maps
+The selected agencies have multiple mechanisms for
+coordinating on broadband deployment. For example, the Broadband Interagency
+Coordination Act of 2020 directs NTIA, USDA, and FCC to enter into an
+interagency agreement—which the agencies established in June 2021—to coordinate
+and share information about funding for new broadband deployment projects under
+their respective programs. [19]
+Additionally, in May 2024, NTIA, USDA, FCC, and Treasury renewed a 2022
+memorandum of understanding that established guidelines for sharing information
+about broadband deployment funding under their programs. [20]
+The four agencies primarily share information about
+project areas and locations through a process that involves federal broadband
+maps. [21]
+The agencies use the underlying data from these maps to target funding to
+underserved areas and to prevent duplication of federal funding. We previously
+reported that duplication occurs when two or more agencies or programs are
+involved in the same activities or provide the same services to the same
+beneficiaries. [22]
+In the case of broadband funding, duplication occurs when multiple grants or
+subsidies go toward providing the same level of service (same
+activities/services) to the same area (same beneficiaries). Because broadband
+service is provided to physical locations, a necessary element of duplication
+is having service areas that physically overlap. Throughout this report, when
+referring to overlap, we mean the physical overlap of areas or locations being
+served.
+FCC maintains two maps that show where broadband is
+available and where the federal government has funded broadband infrastructure
+deployment projects:
+· National
+Broadband Map. This map, which FCC launched in 2022, shows where broadband
+is available in the U.S. for specific locations. FCC collects and reports data
+from broadband providers to assess the extent to which advanced
+telecommunications services are being provided in a reasonable and timely
+manner. Prior to these changes in 2022, FCC collected these data at the census
+block level, which we and others criticized as potentially overstating the
+services that were provided. As required by the 2020 Broadband DATA Act, FCC
+adopted a new mapping process to identify service at a specific location.
+To update the map, internet service providers submit
+broadband availability information to FCC twice a year, including the
+technology type and maximum advertised download and upload speeds they offer at
+each location. As required by statute, FCC implemented a process that allows
+entities (e.g., state, local, and tribal governments, and consumers) to
+challenge the accuracy of the map’s data. In our 2025 report, we found that FCC
+had not documented or assessed the sufficiency of its processes for ensuring
+the accuracy of the broadband availability information on the map. [23] We recommended that FCC assess and
+document the results of monitoring its data collection and remedy any
+identified deficiencies. FCC concurred with this recommendation, and officials
+told us they were in the process of implementing this recommendation as of July
+2026.
+· Broadband
+Funding Map. This map, which FCC launched in 2023, integrates data from
+various federal agencies to visualize the deployment of broadband
+infrastructure funded by the federal government. The mapping data include
+project areas, planned start and end dates, amounts of funding awarded,
+technology types, and expected speeds. Agencies use this map as a mechanism to
+share data with each other when coordinating on funding decisions. In our 2025
+report, we found that NTIA, USDA, FCC, and Treasury had not clearly documented
+the scope of how they would implement coordination efforts. [24] We recommended the agencies
+collaborate to clearly define and document certain aspects of their
+coordination efforts, including timelines to submit information for the map. As
+of July 2026, some of the agencies had reported implementing these
+recommendations. [25]
+Additionally, NTIA maintains the NTIA Broadband Analytics
+and Monitoring platform. This is a tool that contains nonpublic data for
+agencies showing service areas of federally funded broadband projects and
+sensitive information on pending projects not yet awarded. It includes data on
+broadband deployment from federal agencies as well as data from the U.S. Census
+and private sources.
+Selected Programs Have
+Begun Distributing Funding for Broadband Deployment, and Progress on Completing
+Projects Varies
+Selected Programs Have Begun Distributing Funding for Broadband Deployment
+and Reporting Data on Status, Including Completed Buildout
+As of February 2026, when the first BEAD subrecipients
+received funding for broadband deployment projects, all nine selected programs
+had begun distributing funding for broadband infrastructure deployment.
+Progress on completing projects varies across the programs. For example, some
+programs, such as NTIA’s Broadband Infrastructure Program and Treasury’s
+Capital Projects Fund, are expected to complete deployment for most projects in
+2026 and 2027. Other programs, such as USDA’s programs and NTIA’s Tribal
+Broadband Connectivity Program, have been awarding and completing projects on a
+rolling basis, with additional expected program completion dates in 2026 and
+beyond. BEAD subrecipients have expected project completion dates in 2030 and
+beyond.
+Below we discuss our analysis of Broadband Funding Map
+data on progress for the eight selected programs other than BEAD, such as total
+funding amount awarded; planned number of locations to be served; and the
+range, median, and mean amount awarded by project. [26] In addition, two agencies had begun
+reporting data on completed broadband deployment (buildout data) for some
+programs, and all selected agencies planned to do so for most programs, with
+varying timelines. (App. II includes our analysis of speeds, technologies, and
+other characteristics of federally funded broadband deployment projects in the
+eight selected programs.) For BEAD, we present information on key milestones,
+including a policy update and timing of expected project completion. Because
+NTIA began submitting data on BEAD projects to the Broadband Funding Map data
+in 2026, we did not analyze these data.
+NTIA’s Broadband Infrastructure Program and Tribal Broadband Connectivity
+Program
+NTIA’s Broadband Infrastructure Program (BIP) awarded
+funds in February 2022 to 13 projects to serve 138,600 locations. The total
+amount awarded was $272 million of the $300 million appropriated. [27] Awards ranged from $3 million to $42
+million, with a median of $20 million and mean of $21 million. The authorizing
+statute required recipients to expend all funds within 1 year, with extensions
+available under certain circumstances. [28]
+According to NTIA officials, all projects received extensions.
+According to our analysis of Broadband Funding Map data as
+of May 2026, infrastructure buildout was complete for 27,900 locations (about
+20 percent). NTIA officials told us they would submit updates to the Broadband
+Funding Map data as they receive additional buildout data as part of recipients’
+required reporting. The officials said they expected the remaining projects
+would be completed in 2026 and 2027. In addition, disbursement data show that
+79 percent of obligated funds had been disbursed as of April 2026, suggesting
+that buildout has progressed substantially on these projects. [29]
+NTIA’s Tribal Broadband Connectivity Program (TBCP)
+awarded funds to 147 broadband infrastructure deployment projects to serve
+165,000 locations in two funding rounds beginning in April 2022, with the
+second funding round ongoing as of June 2026. [30]
+The total amount awarded was $1.8 billion of the $3 billion appropriated. [31] About one-quarter of these awards
+were for $500,000 or less, and these awards accounted for 1 percent of the
+funding awarded. [32]
+Because projects awarded $500,000 or less varied significantly from projects
+awarded more than $500,000 in terms of maximum, median, and mean award amount,
+we analyzed these projects separately. (See table 2.)
+Table 2: Tribal Broadband Connectivity Program Statistics
+by Award Amount, Fiscal Years 2019–2025, as of April 2026
+Award amount
+Program statistics
+$500,000 or less
+Over $500,000
+All awards
+Number of projects
+38
+109
+147
+Number of locations
+4,300
+160,700
+165,000
+Total amount awarded
+$18 million
+$1.8 billion
+$1.8 billion
+Minimum amount awarded
+$220,000
+$613,000
+$220,000
+Maximum amount awarded
+$500,000
+$73 million
+$73 million
+Median amount awarded
+$500,000
+$9 million
+$6 million
+Mean amount awarded
+$471,000
+$16 million
+$12 million
+Source: GAO analysis of Federal Communications Commission
+Broadband Funding Map data. | GAO‑26‑107725
+Notes: This table presents analysis of projects in the
+Broadband Funding Map. In addition to last-mile infrastructure construction,
+such projects may also include other broadband-related activities such as
+middle-mile infrastructure construction, planning, and supporting affordability
+and digital skills.
+The funding amount is the amount of the award, not the
+amount for last-mile infrastructure construction. Dollar values are rounded
+according to magnitude. Values under 1 million are rounded to the nearest
+thousand, values between 1 million and 1 billion are rounded to the nearest
+million, and values of 1 billion or greater are rounded to the nearest 10th of
+a billion.
+For numbers of planned locations, GAO used rounded figures
+because the source data varied in unit of analysis across programs and agencies,
+and because GAO identified reliability limitations affecting exact counts.
+In June 2026, NTIA made the remaining $540 million
+available under a third notice of funding opportunity. Originally, the
+authorizing statute required expending all funds within 1 year after receiving
+an award, with extensions available under certain circumstances. A subsequent
+statute lengthened the general expenditure requirement to 4 years. [33]
+According to our analysis of Broadband Funding Map data,
+infrastructure buildout was complete for 4,600 locations (about 3 percent) as
+of May 2026. NTIA officials told us that they would submit updates as they
+received additional buildout data as part of recipients’ required reporting.
+Closeout timelines for TBCP infrastructure deployment awards are specific to
+each award, consistent with each recipient’s approved period for expending
+funds and any authorized extensions, according to NTIA officials. [34] NTIA officials told us they expected
+all round-one infrastructure deployment awards to close no later than 2029.
+Round-two infrastructure awards will likely close in 2029, and any round-three
+infrastructure awards will likely close in 2030 and beyond. Disbursement data
+show that as of April 2026, about 28 percent ($506 million of $1.8 billion) of
+TBCP funds awarded for projects in fiscal years 2022 through 2025 had been
+disbursed, suggesting that TBCP implementation may be progressing more slowly
+than BIP implementation. This difference may be due in part to TBCP awards
+having been awarded later than BIP awards.
+NTIA’s timeline for making round-two TBCP awards included
+the change of administration in January 2025. NTIA began making infrastructure
+deployment awards for round two in November 2024. According to NTIA officials,
+15 of the round-two applications that the Assistant Secretary under the
+previous administration had recommended for “full” award were subject to review
+for alignment with current administration priorities. Of these 15 applications,
+NTIA determined that six were eligible for equitable distribution awards
+(awards of $500,000 or less per tribal government), and applicants have begun
+re-scoping their applications accordingly. NTIA officials told us that the
+remaining nine applications were no longer being considered for award and that
+the applicants had been notified they were not selected.
+USDA’s ReConnect Program, Telecommunications Infrastructure Program, and
+Community Connect Program
+The largest of our selected USDA broadband deployment
+programs, ReConnect, provided grants, loans, and grant-loan combinations in
+each year from fiscal year 2019 through fiscal year 2025, with the greatest
+amounts provided in fiscal years 2022 and 2023. (See fig. 3.) Altogether,
+ReConnect awarded $5.5 billion to 424 projects to serve 583,900 locations. [35]
+Figure 3: ReConnect Funding Awarded by Fiscal Year and
+Funding Type, Fiscal Years 2019–2025, as of April 2026
+Note: This analysis excludes 19 projects that were
+erroneously classified as fiscal year 2026 projects (and therefore out of GAO’s
+scope) in the Broadband Funding Map data when GAO conducted the analysis in
+April 2026. These projects were awarded $267 million ($147 million for grants,
+$23 million for loans, and $97 million for grant-loan combinations).
+In ReConnect, grants accounted for the largest proportion
+of number of projects (70 percent), number of planned locations (66 percent),
+and funds awarded (64 percent). While the maximum, median, and mean award
+amounts for grant-only projects were significantly lower than those of the
+loan-only and grant-loan combination projects, grants are not directly
+comparable to loans because recipients must repay the loans. (See table 3.)
+Recipients must complete ReConnect projects within 5 years.
+Table 3: ReConnect Program Statistics by Funding Type,
+Fiscal Years 2019–2025, as of April 2026
+Funding types
+Program statistics
+Grants only
+Grant-loan combinations
+Loans only
+All funding types
+Number of projects
+298
+92
+34
+424
+Number of locations
+384,600
+153,900
+45,400
+583,900
+Total funds amount awarded
+$3.5 billion
+$1.4 billion
+$579 million
+$5.5 billion
+Minimum amount awarded
+$167,000
+$992,000
+$750,000
+$167,000
+Maximum amount awarded
+$35 million
+$57 million
+$50 million
+$57 million
+Median amount awarded
+$8 million
+$13 million
+$16 million
+$10 million
+Mean amount awarded
+$12 million
+$16 million
+$17 million
+$13 million
+Source: GAO analysis of Federal Communications Commission
+Broadband Funding Map data. | GAO‑26‑107725
+Notes: Amounts awarded for loans do not reflect the true
+cost to the federal government because the loans need to be repaid. The amounts
+awarded record the amounts given to the loan recipients, but the true cost to
+the U.S. Department of Agriculture (USDA) will be lower once the recipient
+repays the loan. Similarly, as explained by USDA officials, the amounts
+reported as awarded under ReConnect may be greater than the amounts
+appropriated for the program because the appropriated funds are not used for the
+amount a loan recipient borrows. Instead, these appropriated funds cover the
+loans’ subsidy costs, which represent the cost of the loan program. The subsidy
+costs are calculated based on factors such as the loan disbursements,
+repayments of principal, and interest. See 2 U.S.C. § 661a(5). Consistent with
+Office of Management and Budget (OMB) guidance, USDA borrowed funds from
+Treasury to cover the amounts awarded for the loans’ principals. See OMB Cir.
+No. A-11, § 185.2(c).
+This analysis excludes 19 projects that were erroneously
+classified as fiscal year 2026 projects (and therefore out of GAO’s scope) in
+the Broadband Funding Map data when GAO conducted the analysis in April 2026.
+These projects were awarded $267 million ($147 million for grants, $23 million
+for loans, and $97 million for grant-loan combinations) and were associated
+with 14,100 locations.
+For numbers of planned locations, GAO used rounded
+figures, because the source data varied in unit of analysis across programs and
+agencies and because GAO identified reliability limitations affecting exact
+counts.
+Dollar values are rounded according to magnitude. Values
+under 1 million are rounded to the nearest thousand, values between 1 million
+and 1 billion are rounded to the nearest million, and values of 1 billion or
+greater are rounded to the nearest 10th of a billion.
+The second largest of our selected USDA broadband
+deployment programs, the Telecommunications Infrastructure Program (TIP),
+provided loans in varying amounts from fiscal year 2019 through fiscal year
+2025 (see fig. 4). Altogether, TIP awarded $522 million in loans to 37 projects
+to serve 145,700 locations. Loan amounts ranged from $2 million to $45 million,
+with a median loan amount of $10 million and a mean loan amount of $14 million.
+Recipients are to complete projects within 5 years, according to USDA officials.
+Figure 4: Telecommunications Infrastructure Program
+Funding Awarded by Fiscal Year, Fiscal Years 2019–2025, as of April 2026
+Note: The Telecommunications Infrastructure Program
+provided loans to recipients.
+In contrast to the other selected USDA broadband programs,
+the agency has awarded much less for TIP than has been appropriated.
+Specifically, appropriations for TIP for fiscal years 2019 through 2025 totaled
+$4.6 billion, and USDA had obligated about 10 percent of this funding as of
+April 2026. [36]
+USDA officials identified several factors that likely affected the lower
+obligation rate, including the following:
+· The
+significant expansion of federal broadband funding intended to close the
+digital divide—that is, the gap between those that do and do not have broadband
+service—included many new federal broadband programs that provided funding in
+the form of grants, which are often more attractive to applicants than the
+loans offered under TIP.
+· USDA’s
+expanded ReConnect program provided more favorable funding structures, further
+drawing interest away from TIP.
+However, USDA officials stated that they expect an
+increase in TIP applications after the recent influx of federal broadband
+funding winds down, as providers seek financing to complete remaining buildouts
+and sustain long-term network needs.
+The smallest of our selected USDA broadband deployment
+programs, Community Connect, provided grants in varying amounts from fiscal
+year 2019 through fiscal year 2025, with the greatest amounts provided in
+fiscal years 2021 and 2024 (see fig. 5). Altogether, Community Connect awarded
+$174 million to 70 projects to serve 20,000 locations. Awards ranged from
+$137,000 to $5 million, with both a median and mean award amount of $2.5
+million. [37]
+Community Connect projects are to be completed within 3 years.
+Figure 5: Community Connect Program Funding Awarded by
+Fiscal Year, Fiscal Years 2019–2025, as of April 2026
+Note: The Community Connect Program provided grants to
+recipients.
+As of May 2026, USDA had not reported complete buildout
+data to the Broadband Funding Map for the three selected programs. According to
+USDA officials, they had not done so because they did not have precise data for
+a required field and did not want to submit inaccurate or misleading data. USDA
+and FCC staff met in February 2026 to resolve the issue, and FCC updated the
+map’s data specifications in March 2026 accordingly. USDA officials told us
+they planned to begin submitting buildout data later in 2026. [38] However, our analysis of expenditure
+data provides some information on progress. [39]
+As table 4 shows, the ReConnect projects that were awarded in fiscal year 2019
+have expended all obligated funds and are likely completed; as discussed above,
+ReConnect projects are to be completed within 5 years. Projects awarded in
+fiscal year 2020 and beyond show lower levels of expenditure, suggesting less
+progress. For TIP and Community Connect, more than half of awarded funds have
+been expended by projects awarded in fiscal years 2019 through 2022, suggesting
+substantial progress.
+Table 4: Percentage of Awarded Funds Expended as of April
+2026 for U.S. Department of Agriculture (USDA) Broadband Infrastructure
+Projects Awarded in Each Fiscal Year (FY)
+Program name
+FY2019
+FY2020
+FY2021
+FY2022
+FY2023
+FY2024
+FY2025
+ReConnect
+100%
+69%
+37%
+29%
+7%
+3%
+1%
+Telecommunications Infrastructure Program
+99%
+85%
+78%
+52%
+3%
+—
+3%
+Community Connect
+87%
+94%
+82%
+82%
+—
+0%
+0%
+Source: GAO analysis of Federal Communications Commission
+Broadband Funding Map data. | GAO‑26‑107725
+Notes: “—” indicates no awards were made.
+This analysis excludes 19 ReConnect projects that were
+erroneously classified as fiscal year 2026 projects (and therefore out of GAO’s
+scope) in the Broadband Funding Map data when GAO conducted the analysis in
+April 2026. These projects were awarded $267 million ($147 million for grants,
+$23 million for loans, and $97 million for grant-loan combinations).
+For projects in which recipients likely should have
+completed construction, such as for fiscal year 2020 projects, USDA officials
+explained why not all funds have been expended. For example, one recipient had
+completed its project and received reimbursement for all allowable expenses
+other than the engineering retainage. Because the deadline for advancing loan
+amounts had passed, USDA officials told us they were in the process of
+de-obligating the remaining funds. In another example, the award’s end date had
+passed, but a recipient submitted a request for a time extension that USDA was
+considering as of April 2026.
+FCC’s High Cost Program
+FCC’s High Cost program, which
+includes five subprograms, awarded over $25.4 billion for 956 projects in
+fiscal years 2019 through 2025 to serve 7,684,500 locations. [40] High Cost subprograms generally
+provide funding for deployment to underserved locations (as well as operations
+and maintenance for those locations), although one subprogram modified and
+extended existing funding to recipients to operate and maintain service to
+locations that were already served prior to the subprogram. [41] Overall, project funding amounts
+ranged from $60 to $538 million (see table 5). [42]
+Table 5: High Cost Program Statistics by Subprogram for
+Fiscal Years 2019–2025, as of April 2026
+Program statistics
+Connect America Fund Phase II Auction a
+Rural Digital Opportunity Fund
+Bringing Puerto Rico Together Stage 2 Fixed
+Support
+Connect U.S. Virgin Islands Stage 2 Fixed Support
+Enhanced Alternative Connect America Cost Model
+Number of projects
+134
+447
+4
+1
+370
+Number of planned locations
+391,100
+3,252,700
+1,222,500
+46,000
+2,772,200 b
+Funding period
+10 years
+10 years
+10 years
+10 years
+15 years
+Total amount awarded
+$1.2 billion
+$5.8 billion
+$127 million
+$84 million
+$18.3 billion
+Minimum amount awarded
+$5,000
+$60
+$4 million
+$84 million
+$100,000
+Maximum amount awarded
+$162 million
+$248 million
+$52 million
+$84 million
+$538 million
+Median amount awarded
+$2 million
+$2 million
+$36 million
+$84 million
+$26 million
+Mean amount awarded
+$9 million
+$13 million
+$32 million
+$84 million
+$49 million
+Source: GAO analysis of Federal Communications Commission
+(FCC) Broadband Funding Map data. | GAO‑26‑107725
+Notes: Locations affected by providers withdrawing from
+the program, along with the associated award amounts, are not reflected in this
+analysis because they are not in the Broadband Funding Map data. For numbers of
+planned locations, GAO used rounded figures, because the source data varied in
+unit of analysis across programs and agencies, and because GAO identified
+reliability limitations affecting exact counts.
+Dollar values are rounded according to magnitude. Values
+below 1,000 are rounded to the nearest hundred, values under 1 million are
+rounded to the nearest thousand, values between 1 million and 1 billion are
+rounded to the nearest million, and values of 1 billion or greater are rounded
+to the nearest 10th of a billion.
+a The Broadband Funding Map data GAO analyzed for
+this subprogram did not include projects with planned speeds lower than 100
+megabits per second (Mbps) download and 20 Mbps upload. According to FCC
+officials, there are fewer than an estimated 350,000 locations associated with
+these projects not included in the Broadband Funding Map data.
+b The Enhanced Alternative Connect America Cost
+Model subprogram differs from other selected subprograms in this table because
+it provided funding to carriers who were already receiving funding from a
+different subprogram to maintain that service for 15 years. It also provided
+funding to these carriers to deploy broadband service to previously unserved
+locations. GAO’s analysis of the Broadband Funding Map data indicates there are
+about 2.8 million planned locations for this subprogram. According to FCC
+officials, around 500,000 of these locations were previously unserved.
+The timeline for FCC’s High Cost subprograms follows a
+different pattern from the other federal broadband deployment programs. These
+subprograms generally have a relatively short application and awarding period,
+followed by an authorization period during which recipients submit additional
+information to prove their technical and financial qualifications before
+receiving funding. Authorized recipients then receive funding during a 10- or
+15-year period and are required to complete deployment by a certain time during
+this period. (See fig. 6.)
+Figure 6: Key Dates for Subprograms Within the Federal
+Communication Commission’s (FCC) High Cost Program
+a In cases where FCC data on broadband
+serviceable locations as of December 2026 include more locations than
+originally estimated, Rural Digital Opportunity Fund recipients will have an
+additional 2 years to complete deployment in additional locations, according to
+FCC officials.
+These funds are disbursed on a monthly basis during the
+funding period. In contrast to other selected programs that focus on broadband
+deployment, the High Cost program allows recipients to use program funds for
+operations and maintenance. The High Cost program provides a subsidy to
+providers to build and operate networks capable of delivering voice and
+broadband service in high-cost areas, and the five subprograms analyzed in this
+report do not track how recipients use funds (e.g., for construction, operations,
+or maintenance). Because of this, FCC expenditure data do not provide
+information on project progress for the High Cost program as they do for the
+programs discussed above.
+FCC monitors project progress by tracking deployment
+milestones, and most of the funding recipients have met these milestones.
+However, a number of recipients of FCC’s largest subprogram that used a reverse
+auction to award funds, the Rural Digital Opportunity Fund (RDOF), have not met
+milestones. FCC has procedures to withhold or recover funds from recipients
+that miss certain milestones. Recipients that withdraw from a subprogram during
+or after the authorization period are considered to have defaulted (i.e.,
+failed to provide the agreed-upon service). About 38 percent of funding from
+RDOF ($3.5 billion of $9.2 billion) has been affected by recipients defaulting.
+These defaults have affected about 38 percent of planned service locations
+(1,976,900 of about 5.2 million). [43]
+The Connect America Fund Phase II Auction (CAF-II Auction), which also used a
+reverse auction to award funds, has experienced defaults on a smaller scale,
+affecting less than 1 percent of CAF-II Auction funding ($11 million of at
+least $1.5 billion) and less than 2 percent of planned service locations
+(11,000 of at least 700,000). [44]
+Most of the RDOF defaults and all of the CAF-II Auction defaults occurred
+before June 6, 2025, the as-of date NTIA set for determining eligibility of
+locations for BEAD funding. To the extent these areas are ultimately served by
+BEAD or another federal broadband deployment program, they will likely be
+served later than the planned deployment completion date under the High Cost
+program (2025 for CAF-II Auction and 2027 to 2028 for most RDOF deployment).
+As of May 2026, the Broadband Funding Map data did not
+include buildout data for the FCC subprograms we reviewed. However, FCC
+officials told us they were working on improvements to FCC’s reporting system
+that would allow the agency to submit buildout data to the map for four of the
+five subprograms we reviewed (i.e., all selected subprograms except CAF-II
+Auction). Specifically, in January 2025, FCC adopted measures to revise its
+collection of buildout data for RDOF, Bringing Puerto Rico Together Stage 2
+Fixed Support, and Connect U.S. Virgin Islands Stage 2 Fixed Support to use
+FCC’s standardized location data rather than methods previously used, such as
+geocodes and addresses. FCC officials said they expected to include buildout
+data in the Broadband Funding Map for these three subprograms as well as the
+Enhanced Alternative Connect America Cost Model subprogram, which already had
+been using FCC’s standardized location data, after June or July 2026. FCC
+officials said they did not include the remaining subprogram, CAF-II Auction,
+in the measures adopted in January 2025 in part because this subprogram was
+nearing buildout completion, with completion required by the end of 2025. FCC
+officials told us they would maintain and make publicly available buildout data
+for this subprogram through other sources. [45]
+Treasury’s Capital Projects Fund and State and Local Fiscal Recovery Funds
+Treasury’s Capital Projects Fund (CPF) program provided
+$10 billion in funding to states and territories, among other entities, to
+carry out capital projects enabling work, education, and health monitoring.
+Under this program, recipients, not Treasury, select the individual projects
+for funding. Treasury made most awards to recipients on a rolling basis in
+calendar years 2022 through 2024, and recipients awarded projects to
+subrecipients primarily in calendar years 2023 through 2025, according to
+Treasury officials. Treasury’s guidance directed that funds generally be
+expended by December 31, 2026. In May 2026, Treasury announced that recipients’
+projects that receive approval for a deadline extension would be required to
+expend all funds by June 30, 2027.
+According to our analysis of Broadband Funding Map data as
+of April 2026, CPF recipients awarded at least $5.7 billion to 1,387 broadband
+deployment projects to serve approximately 1,331,000 locations. [46]
+However, according to Treasury officials, Broadband
+Funding Map data on the number of planned locations and awarded funding will
+not be fully complete and validated until after all projects are completed and
+closed out, which is currently expected to occur in 2027. Specifically:
+· Planned
+location data. Treasury officials submit data on planned service locations
+to the Broadband Funding Map after the recipient and subrecipient agree to a
+subaward and the recipient reports the planned service locations to Treasury.
+When Treasury began submitting location data it received from recipients to the
+Broadband Funding Map, much of the location data was incomplete, according to
+Treasury officials. Treasury officials said they focused on resolving issues
+with the location data before they began adding funding data to the Broadband
+Funding Map.
+· Funding
+amount data. Treasury began adding funding amounts to the Broadband Funding
+Map for CPF in 2025. Originally, Treasury planned to include funding amount
+data only after the recipient reported the project as complete to avoid posting
+incomplete and incremental data, according to officials. As of September 2025,
+Treasury had begun including funding amount data for new projects uploaded to
+the Broadband Funding Map. Beginning in late 2025, Treasury also began
+submitting funding amount data for projects that were not yet complete.
+Treasury began reporting CPF buildout data to the
+Broadband Funding Map at the end of March 2026 and is working to update the
+data, according to officials. Because the buildout data are incomplete and
+would likely misrepresent progress in constructing broadband infrastructure, we
+are not reporting on these data.
+Treasury’s State and Local Fiscal Recovery Funds (SLFRF)
+program’s $350 billion in funding went directly to recipients—over 30,000
+state, local, tribal, and territorial governments—which could spend the funds
+for a variety of purposes, including broadband deployment. [47] According to agency officials,
+Treasury began disbursing the first portion of SLFRF funds 60 days after
+enactment of the statute authorizing the program in March 2021. [48] SLFRF recipients generally have
+until December 2026 to expend their program funds, which are available to cover
+obligations incurred by December 31, 2024.
+According to our analysis of Broadband Funding Map data as
+of April 2026, SLFRF recipients awarded at least $1.5 billion to over 300
+broadband deployment projects to serve at least 403,100 locations. However, it
+is likely that the total amount is a significant underestimation, as the
+reported funding amount was zero for 63 of the over 300 projects. [49] As with CPF, Treasury originally
+planned to include funding amount data only after the recipient reported the
+project as complete to avoid posting incomplete and incremental data, according
+to officials, and only later began submitting funding amount data for projects
+that were not yet complete. Further, the Broadband Funding Map data did not
+include buildout data for SLFRF as of May 2026. Treasury officials said
+recipients are required to submit a final report to Treasury by April 30, 2027,
+and that they expect the map’s project and buildout data for SLFRF will be
+complete at that time or shortly thereafter.
+NTIA’s Broadband Equity, Access, and Deployment Program
+NTIA’s BEAD program, funded by the Infrastructure
+Investment and Jobs Act in 2021, is a multiphase federal grant program that
+aims to connect every American to high-speed internet by funding partnerships
+to build infrastructure.
+To access BEAD funding allocated by a statutory formula,
+each state or territory must create a proposal identifying each area in its
+jurisdiction that does not have sufficient access to broadband. [50] Then, the state must allow local
+governments, nonprofit organizations, and broadband providers to challenge
+whether areas are sufficiently served. After adjudicating challenges, the state
+must finalize its proposal and receive NTIA’s approval. The state proposal
+specifies where the state will use BEAD funds for broadband deployment
+projects. Finally, states use BEAD funds to award competitive grants to
+providers. These providers are to complete broadband deployment generally
+within 4 years after receiving the subaward from the state. [51]
+Key milestones in this process relate to FCC’s timing for
+updating its National Broadband Map, which the Infrastructure Investment and
+Jobs Act required NTIA to use in determining allocation amounts to states. The
+final milestone before NTIA distributes funds to providers, so they can begin
+deploying broadband infrastructure, is for NTIA to approve states’ final
+proposals. Prior to the change in administration in January 2025, NTIA had
+approved final proposals for three states. In March 2025, the Secretary of
+Commerce announced a review of BEAD and the intention to revamp the program by
+removing certain program requirements and taking a technology-neutral approach,
+according to the announcement. In June 2025, NTIA issued a policy notice that
+rescinded approval of previously approved final state proposals and required
+all states to redraft their proposals in accordance with revised requirements. [52] This policy notice included changes
+to program requirements related to technology, directed states to use
+deployment cost as a primary factor in scoring competing applications, and
+modified implementation time frames. [53]
+For example, the notice eliminated the original notice of funding opportunity’s
+fiber preference. NTIA started approving states’ updated final proposals in
+November 2025, and states began releasing funds to providers in February 2026.
+As of June 2026, NTIA had approved final proposals for all but two states and
+had signed award agreements for all but four.
+Overall, NTIA expects to serve about 3.8 million locations
+through BEAD, with a total amount awarded for deployment of $18.4 billion,
+according to NTIA officials. In February 2026, NTIA announced it estimated the
+expected deployment funds awarded according to states’ revised proposals would
+be about $21 billion less than under the states’ original proposals. [54] NTIA held listening sessions in
+February 2026 regarding how to spend the remaining funds, which they refer to
+as non-deployment funds. NTIA had not issued guidance on how recipients could
+use these funds as of July 2026. Figure 7 depicts the original and revised
+milestones for BEAD.
+Figure 7: Broadband Equity, Access, and Deployment (BEAD)
+Program Original and Revised Milestones, as of June 2026
+Note: In this figure, the term “states” refers to all BEAD
+recipients, including states and territories. Some states submitted their final
+proposals to NTIA before they were required to do so, and NTIA approved some
+states’ proposals before final proposals were due.
+The BEAD policy update lengthened the program’s timeline
+by adding time to program implementation, particularly for states with approved
+proposals. Officials we spoke with from three state broadband offices expressed
+frustration with potential changes that would require reworking final
+proposals. Additionally, in a letter addressed to the Secretary of Commerce,
+one large association that represents 19 states and three territories expressed
+concern about potential delays and changes to requirements. Two states that had
+received final approval under the original framework had their final proposals
+approved under the revised framework about 11 months after they had received
+their prior final approval; the third received approval under the revised
+framework more than a year after receiving prior approval under the original
+framework.
+The June 2025 policy update also resulted in changes that
+could lower costs. NTIA officials told us they analyzed differences between
+these three state final proposals under the original framework and the revised
+framework. In each case, these states’ revisions resulted in a greater mix of
+technologies funded, a lower overall cost for deployment, a lower average cost
+per location, and a lower highest cost per location, while still meeting
+statutory and technical requirements established in the notice of funding
+opportunity, according to NTIA officials. However, some commenters, such as
+members of Congress and research groups, have expressed concern that the
+greater mix of technologies (i.e., less fiber and more fixed wireless and
+satellite) may result in some areas being served by networks that are less able
+to meet current and future needs, such as precision agriculture and other
+advanced or growing technologies. [55]
+Differences Among Selected Programs and Data Preclude Return on Investment
+Comparison
+We used Broadband Funding Map data to analyze cost per
+location for the eight broadband deployment programs in our review for which
+fiscal year 2019 through 2025 data were available, as part of determining the
+return on investment for federal broadband deployment programs and comparing
+agencies’ progress in deploying broadband. [56]
+However, based on our analysis, we determined that a comparison among the
+programs on this basis would be misleading due to significant differences in
+costs among programs and differences and inconsistencies we identified in the
+location data.
+Although Broadband Funding Map data on award amounts for
+the eight selected programs include funding for broadband infrastructure
+deployment, these programs vary in the other costs included and in other
+factors related to cost. For example:
+· FCC’s
+High Cost subprograms. Recipients may use the subsidies that FCC provides
+monthly over a funding period to operate and maintain broadband networks that
+they constructed with funding from the subprograms. Accordingly, a
+cost-per-location metric for the subprograms would be different from such a
+metric for programs that did not fund operations and maintenance. Additionally,
+the Enhanced Alternative Connect America Cost Model subprogram provides funding
+to support ongoing operations and maintenance of broadband networks that recipients
+built with funding from an earlier High Cost subprogram, as well as to fund
+construction of new broadband infrastructure. For example, a carrier that built
+a network with funding from the Alternative Connect America Cost Model
+subprogram could receive Enhanced Alternative Connect America Cost Model
+funding to operate and maintain that network. Moreover, because recipients
+receive funding monthly throughout the 15-year funding period, a
+cost-per-location metric for this subprogram would be different than for the
+other FCC subprograms, which receive funding monthly throughout a 10-year
+funding period.
+· NTIA’s
+TBCP. Recipients can use awarded funds reported in the Broadband Funding
+Map for non-construction activities such as workforce training and subsidized
+broadband service. According to NTIA officials, they do not separate funding by
+activity category, so the map’s data reflect the total award amount rather than
+the cost for infrastructure deployment activities only.
+· USDA’s
+Community Connect program. Recipients can use awarded funds for
+non-construction activities such as improving, expanding, or acquiring a
+community center and providing broadband access for certain facilities free of
+charge for 2 years.
+· USDA’s
+TIP. Recipients can use awarded funds for activities unrelated to
+broadband, such as providing telephone services.
+In addition, several programs we reviewed funded
+middle-mile infrastructure as part of projects that also included last-mile
+infrastructure. Such projects can support regional broadband connectivity
+beyond the planned service locations represented in the Broadband Funding Map
+data. For example, USDA officials told us about a ReConnect project with a
+total project cost of $47 million (and a ReConnect award of $40 million) that
+includes both middle-mile and last-mile construction. According to USDA officials,
+a substantial portion of the overall project cost—about $40 million—is
+associated with constructing new submarine middle-mile cable infrastructure.
+The middle-mile investment is intended to improve performance, reliability, and
+resiliency for multiple coastal communities in Southcentral and Southeast
+Alaska, ultimately benefitting about 4,000 residents, Alaska Native entities, local
+business, and other entities. However, the award will fund just 34 last-mile
+connections, according to USDA officials.
+In addition to the differences among programs related to
+costs reflected in the Broadband Funding Map, we identified variations and some
+irregularities in how agencies identified the number of planned locations for
+projects included in the Broadband Funding Map data. These differences limit
+the extent to which the map’s data can support cross-program comparisons
+involving project funding amounts and planned locations.
+First, we found that the programs and subprograms we
+reviewed used different methods to determine the number of planned locations.
+Specifically, one of the FCC High Cost subprograms we reviewed (Enhanced
+Alternative Connect America Cost Model) and the two Treasury programs used FCC’s
+standardized location data. [57]
+The other programs and subprograms we reviewed began making
+funding decisions before the standardized location data became available in
+2022, so they used other methods to identify the number of planned locations,
+such as agency analysis of Census-derived data. We and others have raised
+concerns with these methods for analyzing broadband availability, and such
+concerns were instrumental in FCC’s creation of the broadband maps that use
+standardized location data. [58]
+The selected agencies vary in their plans to update planned locations to align
+with the standardized location data.
+· FCC.
+One of the selected subprograms, the Enhanced Connect America Cost Model, used the
+standardized location data from the beginning of the subprogram in 2023. In
+2025, FCC issued an order requiring that three of the five selected High Cost
+subprograms we reviewed transition to using data corresponding to FCC’s standardized
+location data for broadband availability. The other selected subprogram we
+reviewed, CAF-II Auction, was not subject to this requirement, because
+providers funded under this subprogram are subject to area- rather than
+location- based obligations, and because deployment under this subprogram was
+almost complete when FCC issued the order, according to FCC officials.
+· USDA.
+USDA officials said they would update the planned location data using FCC’s standardized
+location data later in 2026.
+· NTIA.
+NTIA officials said that using planned location data that do not reflect FCC’s standardized
+location data has not affected their ability to make and monitor awards, and
+they did not indicate plans to update planned location data to align with FCC’s
+standardized location data.
+Second, we found irregularities in USDA data on planned
+locations. Specifically, in reviewing outliers we identified in the Broadband
+Funding Map data, USDA officials determined the data on the number of planned
+locations were incorrect for multiple projects. According to USDA officials,
+the Broadband Funding Map data reflected the number of planned locations USDA
+staff estimated using Census-derived data, but for projects predating USDA’s
+use of FCC’s standardized location data, staff should have used the applicants’
+number for planned locations. For example, the map’s data for one awarded
+ReConnect project shows 32 planned locations, whereas the recipient’s approved
+application shows 189 planned locations, according to agency officials.
+Additionally, the map’s data for one awarded Community Connect project shows a
+single location, whereas the recipient plans to serve 48 households according
+to its approved application, according to agency officials. In April 2026, USDA
+officials told us they would review planned locations in the Broadband Funding
+Map to ensure they align with planned location data in approved project
+applications. They expected to complete this review later in 2026. [59]
+As mentioned above, Broadband Funding Map data on planned
+locations for CPF and SLFRF will be incomplete until the programs are complete,
+according to Treasury officials.
+Agencies Use Mapping
+Data to Target Underserved Areas, but Aspects of FCC’s Challenge Process May
+Hamper These Efforts
+Selected Agencies Use FCC Mapping Data to Identify Underserved Areas and
+Avoid Funding Duplication
+NTIA, USDA, and FCC share project information and
+predominantly use FCC mapping data sources to target broadband deployment
+funding to underserved areas. [60]
+These data (i.e., project attributes and geographic information) allow the
+agencies to identify eligible locations for broadband deployment programs by
+determining where service is already available and where federal funding
+already exists for broadband deployment. Treasury shares project information
+with NTIA, USDA, and FCC but does not directly identify underserved areas or
+set area eligibility. [61]
+Some programs, like NTIA’s Broadband Infrastructure Program and BEAD,
+explicitly require the use of FCC mapping data for these purposes. For example,
+NTIA’s BEAD program directs states and territories to identify locations
+lacking available service at a speed of at least 100/20 Mbps using FCC mapping
+data. Areas that states and territories identify as underserved are eligible
+for BEAD funding.
+The selected agencies also share mapping data to avoid
+duplication in funding. According to officials, the agencies generally avoid
+duplicative funding using these steps:
+· The
+agencies share project information with each other during regular meetings and
+by exchanging project data, including mapping data. This information includes
+proposed project areas and any changes to project areas.
+· The
+agencies examine project areas to identify awards that may overlap with one
+another.
+· Once
+the agencies identify potential overlap in project areas, they determine
+whether those overlapping areas include locations, such as households, using
+FCC’s standardized location data. For awards that are defined by lists of
+locations rather than a project area, the agencies compare the locations to see
+if any are the same.
+· If
+the number of locations in the overlapping area is above a certain threshold—10
+locations for FCC subprograms, for instance—then the agencies work to change
+the project areas, limit project activities so funding is not duplicative, or
+determine not to proceed with one of the awards to avoid duplication.
+In prior work, we found that, in general, NTIA, USDA, FCC,
+and Treasury have successfully shared award information and collaborated to
+identify and avoid duplicative funding among the broadband deployment programs
+they administer. Agency officials told us they have continued these efforts. In
+2022, we reported that USDA and FCC had avoided duplication between USDA’s
+ReConnect program and areas receiving FCC funds. [62] In 2025, we reported on efforts
+among NTIA, USDA, FCC, and Treasury to avoid duplication across their broadband
+deployment programs. [63]
+While crediting the agencies for their efforts at avoiding duplication, we
+recommended that NTIA, USDA, and FCC clearly define and formally document the
+de-duplication process. As of July 2026, some of these agencies had reported
+implementing these recommendations. [64]
+We analyzed the extent to which broadband programs
+represented in Broadband Funding Map data overlapped and identified two
+examples of projects that appeared to overlap based on our analysis. The
+overlap had been corrected in one case, and it was allowed by program rules in
+the other case. The first instance of potential overlap involved a USDA
+ReConnect award and an FCC Enhanced Alternative Connect America Cost Model
+(E-ACAM) award. According to our analysis of the project areas using the data
+shown on the Broadband Funding Map, these two awards overlapped by over 10
+percent of each award’s project area. Officials from FCC and USDA told us that
+when FCC made the E-ACAM award in October 2023, they had reviewed the ReConnect
+project areas that overlapped with E-ACAM eligible areas and identified
+locations within the overlaps. They removed any locations that were in the
+ReConnect project area from E-ACAM eligibility. [65]
+The second example of potential overlap involved a
+ReConnect project and an FCC Rural Digital Opportunity Fund (RDOF) project.
+According to agency officials, the RDOF recipient is a subsidiary of the
+ReConnect recipient and the two recipients have delineated responsibilities,
+such that ReConnect and RDOF funding will not be used for duplicative purposes.
+The recipients will retain separate accounts for each award and report on uses,
+and the RDOF funding will be used only for operational expenses, not for
+deployment. According to agency officials, this is an allowable and
+non-duplicative use of funds according to the program rules for these programs.
+Areas Where a Federal Broadband Project Has Defaulted Are Particularly at
+Risk of Remaining Underserved
+Federal broadband deployment programs target funding to
+areas that are underserved or that do not have enforceable commitments via
+other federal awards to provide broadband by a certain date. However, when
+recipients make a commitment to provide broadband in areas but then default on
+their projects (i.e., fail to provide the agreed-upon service), it can result
+in those areas remaining unserved. Agencies have taken some steps to address
+these potential service gaps. However, concerns remain that some unserved areas
+affected by defaults will remain unserved.
+Specifically, three of eight stakeholders (i.e., consumer
+advocacy organizations, industry associations, research groups) and three of 12
+participants (i.e., internet service providers, local governments, and Tribes)
+identified the impact of defaults as a particular concern with FCC’s RDOF. As
+of June 2026, over one-third (2 million of 5.2 million) of the original RDOF
+locations had been affected by defaults. Over one-third ($3.5 billion of $9.2
+billion) of the original RDOF funding was awarded to providers serving these
+locations. Three stakeholders and four participants told us that due to program
+rules to prevent funding duplication, some locations where defaults have
+occurred miss opportunities to be served by interested parties obtaining
+funding through other federal programs, because the locations were already
+considered to be receiving funding when program eligibility was determined.
+Several factors may have contributed to the relatively
+high level of RDOF defaults. Two of the stakeholders and participants we spoke
+with cited the subprogram’s reverse-auction structure—a method of awarding
+funds to the providers that commit to providing service at the lowest costs—as
+a factor. [66]
+According to FCC officials, another contributing factor may have been higher
+levels of inflation and increases in the costs of materials since the beginning
+of RDOF in July 2020.
+The generally higher costs of building in remote areas may
+also have affected the level of defaults. In one case, a participant mentioned
+a small RDOF recipient defaulting because the costs of building out to the RDOF
+area and complying with the program requirements were not worth the award
+amount. Areas that are more remote tend to be costlier to build in and less
+profitable to providers; indeed, one industry association and two providers
+told us that without federal funding, there would be no business case to serve
+these areas. The costs of serving remote areas vary based on geographic
+differences. For example, a remote area that is hilly and covered with trees
+may not be able to receive satellite or fixed wireless service, meaning that a
+wired connection—either fiber or coaxial cable—would need to be used to reach
+it. Building wired connections in such terrain results in a higher cost per
+location than for locations with flatter terrain.
+Three stakeholders and participants told us they were
+concerned that, depending on the timing, additional defaults from any broadband
+deployment program could jeopardize efforts to serve remote areas that lack
+service. For example, NTIA’s BEAD program specifies that, as of June 6, 2025,
+any areas that have service or are covered by an enforceable commitment to
+receive service are generally ineligible for BEAD funding. [67] If a recipient were to default after
+that date, then the area that the recipient was supposed to serve would be left
+without its original project and would also be ineligible for BEAD. As of June
+2026, eight RDOF recipients had announced defaults after the June 6, 2025, BEAD
+cutoff, according to FCC officials. Additionally, a satellite provider that won
+BEAD subawards in several states recently asked for an exemption to some BEAD
+program requirements. NTIA has stated that program requirements will not be
+waived. At the time of our review, the satellite provider had finalized BEAD
+agreements with some of the states for which it had won subawards.
+When defaults occur, the selected agencies provide updates
+to FCC for the Broadband Funding Map. However, the timing of these updates can
+vary. [68]
+Officials we spoke with said the amount of time between when a recipient
+defaults and when this information is reflected on the map can vary, from as
+little as 2 weeks to over a month, depending on several factors. These factors
+include whether the default was for the entire project or only part of it; the
+complexity and scope of the project; how quickly the agency is able to inform
+FCC about the default; the timing of the default; and whether other providers
+can step in and serve some of the defaulted project area. Agency officials have
+also told us they discuss how those defaults will affect eligibility of areas
+for broadband programs before making updates to the map. In addition to sharing
+information through regular meetings, officials from the selected agencies told
+us they share information with one another as needed when defaults occur,
+especially if they expect a lag between the occurrence of a default and its
+reflection on the Broadband Funding Map.
+The selected agencies may also work with states at times
+to identify areas that have been affected by defaults and may need to be made
+eligible for federal funding. For example, USDA officials told us they were working
+with states to identify areas that would not be covered by BEAD or other
+federal programs, to make these areas eligible for ReConnect funding.
+Similarly, officials from one state broadband office told us they planned to
+use any leftover BEAD funding to provide service to areas that might still be
+left unserved after it makes its initial BEAD awards. Other representatives
+from states have mentioned similar plans in public statements. As of June 2026,
+NTIA had not released official guidance on the allowable uses of BEAD funds
+that remain after final proposals for deployment receive approval. Officials
+from the selected agencies also told us they share information with one another
+when they expect awards to default or reduce in scope, based on what they learn
+from working with the recipients. They said that doing so allows them to
+proactively work toward getting service to those areas, even before receiving
+official notice about the default or change in a project.
+Some Aspects of FCC’s Challenge Process May Hamper Efforts to Reach
+Underserved Areas
+As discussed above, the selected agencies use mapping data
+from FCC’s National Broadband Map, among other sources, to identify eligible
+locations for broadband deployment programs by determining where service is
+already available. In addition, the agencies use FCC’s standardized location
+data to determine where locations that could receive broadband service exist.
+Standards for internal control in the federal government state that agencies
+should use relevant information from reliable sources. One method FCC uses to
+ensure the reliability of mapping information it publishes is a process by
+which consumers, providers, and other entities can challenge the accuracy of
+information in the National Broadband Map or its underlying location data. This
+broadband data collection challenge process helps FCC refine its data and
+ensure it provides accurate, up-to-date information. However, some aspects of
+this process may hamper agencies’ efforts to reach underserved areas.
+Entities such as internet service providers,
+municipalities, or tribal governments can submit bulk broadband availability
+and location challenges. [69]
+An availability challenge could assert, for example, that service shown on FCC’s
+National Broadband Map is not actually available at the location(s) the map
+indicates has service. A location challenge could similarly assert that the
+data are missing a location or set of locations. When FCC resolves a challenge,
+it generates a response code that indicates the result. A detailed description
+of the codes is available at FCC’s Broadband Data Collection Help Center. [70] FCC provides challengers with
+response codes indicating the results of challenges. FCC also publishes the
+publicly available data on completed challenges and the codes on the National
+Broadband Map.
+However, two of 12 participants told us they found FCC’s
+explanations for challenge resolutions to be unclear. [71] We reviewed FCC challenge response
+codes and asked FCC officials about them and whether stakeholders and providers
+have brought up issues with the codes. FCC officials told us that they have
+refined the codes, including adding some and changing the descriptions of at
+least one, to provide more details to challengers. In addition, to ensure
+transparency, the officials said FCC has provided written responses to entities
+seeking more information about their challenge results and met with them to
+discuss their challenges and review the submitted evidence.
+Additionally, three participants, including a local and a
+tribal government, and three of eight stakeholders, including industry
+associations representing rural cooperatives and other internet service
+providers, told us they or their members had experienced other difficulties
+with the bulk challenge process. Specifically, they said the process for making
+bulk challenges was overly burdensome. For example, according to one
+participant, they had to provide separate service availability information for
+each individual location that was part of the challenge, instead of using the
+geospatial data the participant had readily available regarding service
+coverage. The need to submit information for each location was prohibitively
+labor intensive and ultimately dissuaded the participant from filing a bulk
+challenge. Another participant said that providing evidence to support
+challenges for many locations is infeasible for an organization with a small
+staff.
+FCC officials told us they allow challengers to submit a
+wide variety of data as evidence for bulk availability challenges. Some of
+these data sources, like images of uninstalled network infrastructure, can
+serve as evidence for multiple locations at once. FCC officials also said they
+engaged with participants, including internet service providers, local governments,
+and Tribes, on the challenge process. In January 2024, FCC released a notice
+seeking comments on the process, and officials told us the agency was still
+reviewing those comments. Additionally, FCC officials described other actions
+they have taken to engage with participants. These actions have included, for
+example, meeting with and giving presentations and demonstrations to various
+types of entities (such as state and local governments and intergovernmental
+organizations); holding training, technical assistance, or workshop sessions
+with tribal entities; and hosting office hours with NTIA in preparation for the
+third Tribal Broadband Connectivity Program funding round.
+However, three smaller participants we interviewed have
+still described difficulties in filing bulk location and availability
+challenges. FCC has acknowledged that further outreach to smaller participants
+may improve the challenge process, and in May 2026, FCC released another notice
+seeking comments on issues providers face with the challenge process. However,
+it is unclear whether FCC releasing a call for comments will reach smaller
+participants. For example, according to one participant we spoke with, the
+methods FCC has historically used to communicate, such as publishing notices
+seeking comment, may not be effective for smaller participants. The participant
+told us that smaller providers may not check FCC’s website or published notices
+frequently and may therefore miss updates or offerings of resources.
+Additionally, letters or emails may not reach the correct recipient of an
+organization or may be filtered if the letter or email looks automated.
+Moreover, if some of the program participants we spoke to who are local or
+tribal governments experienced these challenges, it is likely that
+representatives from other communities, such as local or tribal governments who
+have not participated in broadband deployment programs, may face similar issues
+with the challenge process. Without a targeted outreach process to engage with
+smaller communities (such as local or tribal governments) and providers to
+identify and address these difficulties, FCC may not be able to collect the
+most accurate information about broadband serviceable locations and broadband
+availability.
+NTIA Lacks a Process
+for Monitoring Sustainability of BEAD Projects, but Agencies Have Taken Steps
+to Address Challenges with Permits and Reviews
+NTIA Expects BEAD Projects to Be Financially Sustainable but Does Not Have
+a Process to Monitor Providers’ Financial Health
+The underserved areas funded by the broadband deployment
+programs we reviewed typically lack service because they are more expensive and
+less profitable for providers to serve, for reasons such as geographic barriers
+(mountains or other rugged terrain), lower population density, and lower
+incomes of potential subscribers. While the selected agencies’ programs provide
+funding for the capital expense of deploying networks, once such networks are
+built, providers then face the costs of operating and maintaining those
+networks—and making them financially sustainable. Operations and maintenance
+costs are often higher in the remote and rural areas served by these programs
+than in more accessible locations.
+We have previously reported on issues that broadband
+providers may face in operating networks in high-cost areas. For example:
+· In
+our January 2023 report on FCC’s Affordable Connectivity Program—which
+subsidized broadband service for low-income households—we reported that the
+inability to afford broadband service presented a barrier to access,
+particularly for low-income households. [72]
+At the time of our report (based on data as of September 2022), over 14 million
+subscribers had benefited from the program. However, the program ended in 2024.
+· Three
+stakeholders we interviewed also noted that FCC’s Universal Service Fund, which
+includes the High Cost program, is important for supporting the long-term
+sustainability of broadband networks because it is the only selected program
+that can be used for ongoing operations and maintenance costs in addition to
+the capital expense of network deployment. Although program rules generally
+prohibit the overlap of funds from different programs for the use of
+deployment, some deployment programs, such as ReConnect, have allowed for
+overlap with the High Cost program in certain circumstances, so long as funds
+are used for complementary instead of duplicative purposes. [73] However, many broadband providers
+are not eligible to receive High Cost funding. For example, our prior work
+found that few tribally owned providers participate in the program because it
+requires a provider to be designated as an eligible telecommunications carrier
+by a relevant state or FCC—a process that tribal stakeholders have told us is
+too costly and burdensome. [74]
+· In
+our June 2024 report on NTIA’s Tribal Broadband Connectivity Program (TBCP), we
+reported that a tribal organization and NTIA told us that it would be difficult
+to financially sustain some networks built with TBCP funding. [75] Such networks would be serving areas
+that had not attracted private-sector investment due to their remote location,
+low population density, and low income levels. Over half of TBCP recipients
+with infrastructure projects planned to use other federal funding to support
+their ongoing financial sustainability. However, those sources have proven
+difficult for Tribes to obtain or have ended, such as the Affordable
+Connectivity Program. In a 2022 white paper, a tribal broadband association
+described how affordability is a greater barrier to broadband adoption in
+tribal areas than in other areas. The paper noted that while much federal
+funding has supported the deployment of broadband networks in tribal areas,
+such networks are at risk of failure without funding to also help sustain them. [76]
+In October 2025, NTIA announced a BEAD requirement to
+further emphasize that financial sustainability is an objective of the program.
+NTIA expects BEAD projects to be financially sustainable beyond the 4-year
+project deployment period. Specifically, in an update to its program General
+Terms and Conditions , NTIA stated that it requires BEAD subrecipients
+(i.e., broadband providers) to certify in writing that they will not accept
+federal funding for network deployment and operations of BEAD-funded
+locations—such as funding from FCC’s High Cost program—for a period of at least
+10 years. [77]
+According to the NTIA Administrator, the purpose of this requirement is to
+ensure that BEAD projects are financially self-sustainable without additional
+federal funding.
+As subrecipients in the BEAD program, broadband providers
+are subject to management and oversight from states rather than NTIA directly. [78] For example, the BEAD notice of
+funding opportunity calls for states to review business plans and related
+analyses that substantiate the sustainability of the proposed project when
+selecting providers to be subrecipients. NTIA also requires that BEAD subrecipients
+provide states with reports, including information such as the actual speeds of
+broadband service being offered at least every 6 months during the performance period—the
+phase during which providers are building their broadband networks. States are
+responsible for establishing the related buildout milestones, enforceable as
+conditions of the subgrant, to ensure progress is being made, which states
+report back to NTIA in semi-annual reports.
+Federal standards for internal control state that agencies
+should identify information needed to achieve objectives. However, NTIA’s BEAD
+requirements for states do not include gathering information from subrecipients
+(i.e., providers) during the 10-year federal interest period during which NTIA
+expects projects to be financially sustainable. [79] According to NTIA officials, this is
+because—despite expecting projects to be financially sustainable beyond the
+4-year project deployment period—NTIA considers the program’s objectives to
+have been met when deployment is complete. NTIA’s September 2025 BEAD
+Performance Measures Policy Notice identifies requirements for subrecipients to
+report to recipients to validate that BEAD-funded services comply with program
+performance standards (e.g., speed, capacity, latency, availability) during the
+4-year deployment period. It also indicates that states may have a basis to
+request that subrecipients provide performance data demonstrating their
+compliance with performance standards beyond this 4-year period. However, the
+notice states that it does not address these situations or provide examples of
+circumstances that might warrant these requests.
+As one of the largest of the broadband programs we
+reviewed, BEAD holds great potential to help close the digital divide. But,
+BEAD also faces risks if the program does not take additional steps to support
+its commitment to financial sustainability. In particular, NTIA risks that some
+projects may falter in the future before the state could potentially flag
+concerns and work with providers to prevent a possible service lapse for
+consumers using a BEAD-funded network. According to NTIA officials, NTIA cannot
+require BEAD recipients or subrecipients to submit reports to NTIA outside of
+the 4-year deployment period. [80]
+However, providing more details to recipient states on what data they could
+request from BEAD subrecipients would help states monitor their performance
+(which may indicate the financial sustainability) of their BEAD-funded projects
+during the 10-year federal interest period. Such information could include
+considerations about provider defaults in other BEAD projects and other
+broadband deployment programs and requesting network performance data from
+subrecipients that have defaulted. Requesting performance data from
+subrecipients that have defaulted on other BEAD projects or in other federal
+broadband programs could provide states with insight into risks related to
+financial sustainability. By providing this information to states, NTIA could
+help ensure the program’s objective of offering affordable broadband to
+currently underserved areas.
+Participants Have Faced Deployment Challenges Related to Permits and
+Reviews, and Agencies Have Taken Some Steps to Address Them
+In our interviews with selected participants and other
+stakeholders, most (16 of 20) identified deployment challenges related to
+permits, historic preservation reviews, or environmental reviews. We have
+reported on these long-standing challenges in prior reports. [81] Some federal agencies have taken
+some steps to address these challenges.
+Permits. To deploy broadband, providers may need to
+obtain permits from private landowners or from federal, state, local, or tribal
+governments. Providers may need permits to install equipment (e.g., fiber or
+cable), construct facilities (e.g., towers or equipment shelters), gain
+right-of-way access, or cross railroads. Three interviewees said that certain
+permits involved unclear costs and could extend the length of projects.
+Specifically, two stakeholders said the cost of obtaining a railroad permit was
+unpredictable. One participant told us that obtaining a permit from entities
+such as private landowners or the federal government to install fiber could add
+9 to 12 months to a project and that the cost of the permit was uncertain.
+Among federal agencies, we previously reported that the
+Bureau of Land Management (BLM) and Forest Service process most of these
+permits, [82]
+which they are required to grant or deny within 270 days of receiving an
+application. [83]
+However, three participants and two stakeholders said the agencies could take
+years to process permits. One stakeholder said BLM required a separate permit
+for providers to attach cable to electric power poles that the agency had
+already approved, resulting in a long and costly process.
+In April 2024, we reported that for about half of the
+permit applications that BLM and Forest Service reviewed—such as to lay fiber
+or cable on federal property—the agencies either exceeded the required deadline
+or did not have sufficiently accurate and complete information to determine if
+they had met the deadline. [84]
+Forest Service implemented our recommendations to better track and manage
+applications for permits, and BLM officials told us they planned to implement
+two recommendations by the end of August 2026 and the last recommendation by
+the end of December 2026.
+Historic preservation reviews. The National
+Historic Preservation Act of 1966, as amended, designates a process that
+federal agencies must follow when their projects may affect a historic
+property. [85]
+State historic preservation offices and tribal historic preservation offices
+advise and assist federal agencies in carrying out their historic preservation
+responsibilities and ensure that any impacts on historic properties are taken
+into consideration during project planning.
+Three participants and two stakeholders expressed concerns
+about the length of time and cost of the historic preservation reviews. For
+example, one participant told us they had to consult with their State Historic
+Preservation Office to complete an archaeological survey on an existing
+right-of-way for a highway and had not anticipated the additional time and cost
+it would add to their project. Another participant said their historic
+preservation review was costly and time-consuming, as they had to hire two archaeologists
+to walk the entirety of the project area—previously disturbed by other projects
+such as construction of roads and other utilities—and excavate every 3 feet to
+catalog all human-made objects over 50 years old.
+Environmental reviews. Four participants and three
+other stakeholders expressed concerns about the amount of time needed to comply
+with environmental reviews. For instance, one participant said their project
+required a lengthy and complex environmental review, because the project area
+was located in a tribal area.
+Depending on the significance of the project’s reasonably
+foreseeable environmental effects, the National Environmental Policy Act (NEPA)
+may require an environmental assessment or a more complex environmental impact
+statement. [86]
+Alternatively, a project may fall under a categorical exclusion if an agency
+has determined such category of actions normally does not significantly affect
+the human environment. [87]
+For example, one participant told us a categorical exclusion applied to part of
+their broadband deployment project, while the other part of the project
+required an environmental assessment, which resulted in a finding of no
+significant environmental impact. The selected agencies track the NEPA review
+progress for each project to ensure the necessary review is completed before
+construction begins. [88]
+The selected agencies in our review have taken some steps
+to address challenges related to permits, historic preservation reviews, and
+environmental reviews. These steps include the following:
+· For
+BEAD, NTIA created a system to track all relevant federal permits and reviews
+for each project. According to officials, NTIA also established at least 30
+categorical exclusions applicable to environmental reviews of some broadband
+projects, and participants can indicate which exclusions may apply for BEAD
+projects through the tracking system.
+· For
+TBCP, NTIA participated in an interagency program intended to improve the
+timeliness, predictability, and transparency of reviews for eligible projects. [89] As of April 2026, two TBCP projects
+had completed the program and two other projects were still undergoing the
+process, according to agency officials.
+· The
+Advisory Council on Historic Preservation amended two procedures to streamline
+compliance for agencies with historic preservation requirements related to
+broadband. [90]
+According to FCC and NTIA officials, the two agencies worked with this council
+to amend these procedures.
+· USDA
+officials told us they recognized the need for additional staffing to assist
+with environmental and historic preservation reviews, including related to
+their broadband deployment programs. In 2024, USDA hired additional archaeologists
+and an anthropologist. [91]
+Officials also said they recently improved an internal system that started
+tracking environmental and historic preservation reviews for their broadband
+programs in January 2025. In addition, officials told us they planned to move
+the tracking of environmental reviews into a more robust system that includes
+integrated mapping tools and the ability to dynamically generate environmental
+review documentation.
+Conclusions
+The large federal investment in broadband deployment since
+2020 represents a significant commitment to achieving the goal of closing the
+digital divide, but fully doing so requires sustained attention to efforts that
+will help ensure the success of federal broadband deployment programs. The
+fragmented nature of these programs requires federal agencies involved in this
+effort to closely coordinate their activities, a critical theme of our previous
+and current work on this issue. In particular, the accuracy and timeliness of
+project location data shared by the agencies and reported by FCC in its maps
+must be continuously maintained as programs offer new funding opportunities to
+continue to fill the underserved areas in those maps. The accuracy of FCC’s
+maps depends, in part, on stakeholders’ ability to submit challenges to
+inaccuracies in the maps’ underlying data. However, this check is not effective
+if stakeholders with necessary information choose not to participate due to
+hurdles in submitting such challenges. This currently may be the case with
+smaller participants, such as small local governments and tribal entities.
+Targeted outreach to these participants and their broadband providers would
+help ensure the accuracy of FCC’s Broadband Data Collection and help agencies
+identify underserved areas.
+Furthermore, as agencies extend funding to providers
+deploying networks in high-cost areas they would not have otherwise served, it
+is incumbent upon programs to consider ways to guard against the financial
+failure of such ventures. NTIA’s BEAD program is one of the largest investments
+yet to build out broadband networks in underserved areas. As such, this program
+represents an important opportunity to take steps to avoid the defaults that
+have plagued prior federal broadband programs. Providing states and territories
+with additional information on situations that warrant requesting performance
+information after the deployment period and during the federal interest period
+will help avoid the waste and delays that can result when broadband providers
+are unable to fulfill their service commitments due to a lack of financial
+sustainability. Doing so will also better ensure that the significant public
+investment in broadband can achieve its fullest potential.
+Recommendations for
+Executive Action
+We are making a total of two recommendations, including
+one to FCC and one to NTIA. Specifically:
+The Chair of FCC should conduct targeted outreach to
+smaller participants (such as local and tribal governments and providers), to
+identify and address difficulties they have experienced completing the bulk
+Broadband Data Collection challenge process. (Recommendation 1)
+The NTIA Administrator should provide information to NTIA’s
+partner states and territories on when and why to request additional
+information from BEAD subrecipients, to monitor and support their ability to
+remain financially sustainable in offering affordable broadband during the
+10-year federal interest period. (Recommendation 2)
+Agency Comments
+We provided a draft of this report to FCC, the Department
+of Commerce, NTIA, USDA, and Treasury for review and comment. We received
+written comments from FCC, which are reproduced in Appendix II and summarized
+below. FCC, NTIA, USDA, and Treasury also provided technical comments, which we
+incorporated as appropriate.
+In its comments, FCC agreed with our recommendation and
+described plans to address it. FCC noted that FCC staff have scheduled a tribal
+workshop that will provide hands-on technical assistance for filing data and
+challenges in FCC’s Broadband Data Collection. FCC also stated that it would
+partner with local government associations and provider trade associations to
+organize roundtable discussions designed to elicit feedback on the challenge
+processes, including opportunities for improvements.
+The Department of Commerce did not provide written
+comments. NTIA, however, in its technical comments, stated that it agreed with
+our recommendation and described steps it would take to implement it.
+We are sending copies of this report to the appropriate
+congressional committees; the Chair of FCC; the Secretaries of Commerce,
+Agriculture, and the Treasury; and other interested parties. In addition, the
+report is available at no charge on the GAO website at https://www.gao.gov.
+If you or your staff have any questions about this report,
+please contact me at vonaha@gao.gov .
+Contact points for our Offices of Congressional Relations and Media Relations
+may be found on the last page of this report. GAO staff who made key
+contributions to this report are listed in appendix IV.
+Andrew Von Ah
+Director, Physical Infrastructure
+Appendix I: Objectives,
+Scope, and Methodology
+This report examines (1) selected agencies’ progress in
+deploying broadband; (2) the selected agencies’ approaches to targeting
+broadband deployment funding to underserved areas while avoiding duplication;
+and (3) how the selected agencies have addressed challenges that participants
+face in sustaining broadband service and obtaining permits and reviews.
+We focused our review on the
+four federal agencies that administer the bulk of federal broadband deployment
+funding and have formally agreed to coordinate and share data on broadband
+deployment projects funded by their programs: the National Telecommunications
+and Information Administration (NTIA) within the Department of Commerce, the
+U.S. Department of Agriculture (USDA), the Federal Communications Commission
+(FCC), and the Department of the Treasury. Among programs administered by these
+agencies, we focused on those that included broadband last-mile deployment as a
+primary purpose. [92]
+We also included Treasury’s Capital Projects Fund and State and Local Fiscal
+Recovery Funds programs due to the significant amount of funds used for
+broadband deployment, although funding broadband deployment is only one
+possible purpose of these programs. Table 6 lists the nine programs we included
+in our scope.
+Table 6: Selected Federal Broadband Deployment Programs by
+Agency
+Agency
+Program
+National Telecommunications and Information
+Administration
+·
+Broadband Equity, Access, and Deployment Program
+·
+Tribal Broadband Connectivity Program
+·
+Broadband Infrastructure Program
+Department of Agriculture
+·
+ReConnect Program
+·
+Telecommunications Infrastructure Program
+·
+Community Connect Program
+Federal Communications Commission
+·
+High Cost program
+Department of the Treasury
+·
+Capital Projects Fund
+·
+State and Local Fiscal Recovery Funds
+Source: GAO. | GAO‑26‑107725
+Note: We refer to the selected programs as federal
+broadband programs for the purposes of this report although some selected
+programs have other eligible uses for funds.
+To address all three objectives, we reviewed documentation
+and interviewed officials from the selected agencies. For example, we reviewed
+notices of funding opportunity and other program documentation to understand
+how programs targeted underserved areas. We also reviewed program documentation
+related to permits, reviews, and sustainability to understand agency actions
+associated with these issues. We reviewed our previous reports on federal
+broadband programs and applicable statutes, such as those statutes that
+established the federal broadband programs we examined and those that require
+our selected agencies to take actions related to broadband availability data
+and interagency coordination.
+To gather additional perspectives on all our objectives,
+we interviewed representatives from the following eight stakeholder
+organizations selected to obtain a mix of research, advocacy, and industry
+organizations: NTCA-The Rural Broadband Association, The Pew Charitable Trusts,
+Public Knowledge, the Benton Institute for Broadband & Society, the
+National Rural Electric Cooperative Association, WTA Advocates for Rural
+Broadband, the National Tribal Telecommunications Association, and the National
+Association of Regulatory Utility Commissioners. Because the stakeholders vary
+in their expertise in various topics, not every stakeholder provided an opinion
+on every topic. Accordingly, their views are not generalizable to all
+stakeholders, though they provided us with a variety of perspectives.
+We also interviewed 12 participants from seven of our nine
+selected programs, to gather illustrative examples and contextual
+sophistication. Selected participants included state broadband offices from
+three selected states: Missouri, New Mexico, and Texas. [93] These states were selected to
+represent a range in the amount of federal broadband deployment funding
+directed to the state, participation in at least five different federal
+broadband deployment programs, and at least two states with funding specifically
+for Tribes. We selected the other nine participants to represent other types of
+participants, including six broadband providers and three Tribes that are
+recipients of funding from a variety of the selected federal broadband
+deployment programs. Eleven of the 12 participants we interviewed were in our
+three selected states. [94]
+Below is a list of the participants we interviewed.
+· Blossom
+Telephone Company
+· Confederated
+Tribes of the Umatilla Indian Reservation
+· Eastex
+Telephone Cooperative Inc.
+· La
+Jicarita Rural Telephone Cooperative
+· Missouri
+Office of Broadband Development
+· New
+Mexico Office of Broadband Access and Expansion
+· Picuris
+Pueblo
+· Poka
+Lambro Telecommunications
+· Pueblo
+of Isleta
+· Sabine
+County
+· Texas
+Broadband Development Office
+· Wisper
+Internet
+Because participants vary in their experiences in various
+topics and with the broadband programs and agencies, participants did not
+provide an opinion on every topic. Accordingly, the views of these participants
+are not generalizable to all participants.
+To address our first objective, we analyzed publicly
+available data obtained from FCC’s Broadband Funding Map (BFM). [95] Specifically, on April 27, 2026, we
+used an application programming interface to download data from FCC’s BFM
+website. In examining agency progress on deploying broadband, we focused on
+fiscal years 2019 through 2025, because fiscal year 2019 was the first year for
+which BFM data were available and fiscal year 2025 was the last full fiscal
+year for which data were available when we conducted our review. [96]
+The BFM data included program-, project-, and location-level
+information, including location data reported as both points and polygons. To
+support our analysis, we reconciled these data into a project-level analytic
+file, which allowed us to examine selected characteristics of planned projects
+across programs. We used the created project-level data for all analyses.
+According to agency officials, there may be differences between project-level
+and program-level data for a variety of reasons, such as a time lag between
+when an agency took an action and when information on that action became
+publicly available. For example, the program-level data may be updated to
+reflect an award termination or default sooner than the project-level data.
+We tested these data electronically for outliers and
+potential errors such as duplicate and missing records. We also reviewed
+documentation on these data systems and interviewed knowledgeable FCC officials
+about the data. In addition, we interviewed knowledgeable officials from our
+other selected agencies about these data, because they submit data to the BFM.
+For FCC’s Connect America Fund Phase II Auction, the BFM data included only
+projects with planned speeds of at least 100 megabits per second (Mbps) for
+download and 20 Mbps for upload. This subprogram began making awards in 2019, 2
+years before FCC made awards for the other selected subprograms. According to
+FCC officials, fewer than an estimated 350,000 locations were not included in
+the BFM data because planned speeds were lower than 100 Mbps for download and
+20 Mbps for upload.
+In assessing the reliability of the BFM data related to
+key program and project characteristics such as funding amount, speed, and
+technology, we identified several variables with missing or unexpected values,
+and instances in which agencies were using the same variable differently. In
+part because of our alerting FCC to these data issues, FCC, in consultation
+with the other selected agencies, reviewed the data specifications for the map
+and updated the specifications to ensure consistent use of data variables. As a
+result of data errors we found, FCC also updated its quality assurance process
+and fixed the specific data errors. [97]
+The BFM data we used for our analysis reflect these updates to the data and
+data specifications. As a result, the map’s data are more reliable and useful
+for comparisons across programs, though some cross-program comparability
+limitations remain, as discussed below. We assessed the reliability of the
+updated data and found them to be generally reliable with two exceptions:
+· USDA’s
+data on planned locations. In response to our questions about some outliers
+we identified, USDA officials told us there may be some errors in the number of
+planned locations for some projects. [98]
+· Treasury’s
+State and Local Fiscal Recovery Funds data on award amount. Project-level
+records for the State and Local Fiscal Recovery Funds (SLFRF) program were
+missing values for the amount of funding awarded for over 25 percent of
+records. [99]
+Regarding the BFM data on planned locations, we determined
+they were sufficiently reliable for the purpose of reporting approximate counts
+of planned locations, rounded to the nearest 100. [100] We used rounded figures because the
+source data varied in unit of analysis across programs and agencies, and
+because we identified reliability limitations affecting exact counts. We did
+not calculate a formal error rate because the available information was
+insufficient to support one. However, based on the nature of the data
+limitations and the intended use of the figures as high-level estimates, we
+determined that reporting rounded counts was appropriate.
+To obtain information on completed projects, we reviewed
+buildout data (i.e., data on constructed broadband infrastructure) from the BFM
+for fiscal years 2019 through 2025. However, at the time of our review, data on
+completed projects were available for only three of our nine selected programs:
+NTIA’s Broadband Infrastructure Program, NTIA’s Tribal Broadband Connectivity
+Program, and Treasury’s Capital Projects Fund program. [101] As with the analysis above, this
+analysis did not include NTIA’s BEAD program, because NTIA began submitting
+data to the BFM for this program in fiscal year 2026.
+To address our second objective, we reviewed documentation
+on broadband deployment programs and agency coordination. For example, we
+reviewed rules for broadband deployment programs on determining eligible
+service areas and memoranda of understanding on information sharing among
+agencies. We also interviewed agency officials about how agencies identify and
+target underserved areas, and how they avoid duplication of funding among
+broadband projects.
+Additionally, we reviewed documentation on FCC’s challenge
+process for correcting errors in FCC data on broadband serviceable locations
+and broadband availability. We also interviewed agency officials as well as
+stakeholders and participants regarding FCC’s challenge process. We compared
+FCC’s challenge process with relevant federal internal controls related to
+obtaining relevant, timely, and accurate information.
+In addition, to identify potential instances of
+duplication and obtain agencies’ perspectives on these instances, we conducted
+geospatial analysis on BFM data. Specifically, we identified planned projects
+that had overlapping areas and calculated how much the areas overlapped. We
+used this analysis to identify selected broadband projects that appeared to
+overlap. [102]
+We then asked officials from relevant agencies and FCC about these apparent
+overlaps and how, if at all, agencies took steps to avoid duplication of
+funding in these instances.
+The National Broadband Map datasets that we used in this
+analysis consist of both polygonal coverage areas and point-level location
+data. During technical vetting, we identified that point-level records for the
+Tribal Broadband Connectivity Program, Capital Projects Fund, and SLFRF
+programs do not consistently contain populated latitude and longitude fields.
+Following FCC guidance, we used satellite data from FCC’s National Broadband
+Map as a crosswalk to assign hexagonal identification numbers to these records
+to approximate “point” geometries. While hexagonal geometries enable the
+inclusion of records without coordinates, this method may overstate the actual
+physical footprint of a served location, as the hexagon represents a broader
+area than a specific point geometry. In addition, according to FCC, not all
+point-level records in the primary dataset have a corresponding, comparable
+location in the satellite crosswalk data. Consequently, a small subset of
+records may remain geographically unassigned.
+We electronically tested the BFM geospatial data for
+issues such as duplicate records and self-intersection of planned project
+areas. We found and resolved a small number of self-intersections. In general,
+we found these data were reliable for the purpose of identifying examples of
+apparent overlap among planned project areas.
+To address our third objective, we reviewed reports from
+the Congressional Research Service, federal inspectors general, and our prior
+work. Because NTIA included a long-term sustainability objective for its
+Broadband Equity, Access, and Deployment (BEAD) program, we evaluated NTIA’s
+efforts to support making BEAD sustainable. Specifically, we reviewed NTIA’s
+guidance and public statements on its requirements for subrecipients and plans
+for monitoring their finances, and we compared NTIA’s actions with BEAD program
+requirements and federal standards for internal control.
+We conducted this performance audit from July 2024 to
+August 2026 in accordance with generally accepted government auditing
+standards. Those standards require that we plan and perform the audit to obtain
+sufficient, appropriate evidence to provide a reasonable basis for our findings
+and conclusions based on our audit objectives. We believe that the evidence
+obtained provides a reasonable basis for our findings and conclusions based on
+our audit objectives.
+Appendix II:
+Characteristics of Broadband Deployment Projects in Selected Programs
+In this appendix, we provide tabulations and descriptive
+statistics of planned broadband deployment projects funded by selected programs
+administered by the National Telecommunications and Information Administration
+(NTIA) within the Department of Commerce; the U.S. Department of Agriculture
+(USDA); the Federal Communications Commission (FCC); and the Department of the
+Treasury. [103]
+Selected programs include:
+· NTIA [104]
+· Broadband
+Infrastructure Program
+· Tribal
+Broadband Connectivity Program
+· USDA
+· Community
+Connect
+· ReConnect
+· Telecommunications
+Infrastructure Program
+· FCC
+· High
+Cost Program (Within this program, we selected the following subprograms:
+Bringing Puerto Rico Together Stage 2 Fixed Support; Connect America Fund Phase
+II Auction; Connect U.S. Virgin Islands Stage 2 Fixed Support; Enhanced
+Alternative Connect America Cost Model; and Rural Digital Opportunity Fund.) [105]
+· Treasury
+· Capital
+Projects Fund
+· State
+and Local Fiscal Recovery Funds
+Specifically, we provide information about the technology
+used in these planned projects; the speed at which the planned projects will
+provide service; and the geographic locations of planned projects in fiscal
+years 2019 through 2025.
+We gathered this information using the same sources and
+methodologies as the first objective of this report. For more information on
+these methodologies, see appendix I.
+Technology Used
+In fiscal years 2019 through 2025, broadband deployment
+programs administered by NTIA, USDA, FCC, and Treasury predominantly funded
+planned projects to deploy networks that used fiber-optic cable (fiber).
+Figures 8 and 9 show the total number of planned projects that will use each
+technology type or combination (fiber; fiber and fixed wireless; licensed fixed
+wireless; fiber and coaxial cable, or fiber and copper wire; and all other
+combinations) for all planned projects across all programs, and by program for
+each agency. [106]
+Figure 8: Number of Broadband Deployment Projects by
+Planned Technology Across All Selected Programs, Fiscal Years 2019–2025
+Notes: This figure contains information on selected
+planned broadband deployment projects funded by programs administered by the
+National Telecommunications and Information Administration (NTIA): Broadband
+Infrastructure Program and Tribal Broadband Connectivity Program; U.S.
+Department of Agriculture (USDA): Community Connect, ReConnect, and
+Telecommunications Infrastructure Program; Federal Communications Commission
+(FCC): Bringing Puerto Rico Together Stage 2 Fixed Support, Connect America
+Fund Phase II Auction, Connect U.S. Virgin Islands Stage 2 Fixed Support,
+Enhanced Alternative Connect America Cost Model, and Rural Digital Opportunity
+Fund; and Department of the Treasury: Capital Projects Fund and State and Local
+Fiscal Recovery Funds. Data reported on Treasury programs to the Broadband
+Funding Map will not be complete until those programs finish deployment.
+This analysis excludes 19 ReConnect projects that were
+erroneously classified as fiscal year 2026 projects (and therefore out of GAO’s
+scope) in the Broadband Funding Map data when GAO conducted the analysis in
+April 2026. These projects were awarded $267 million ($147 million for grants,
+$23 million for loans, and $97 million for grant-loan combinations) and were
+associated with 14,100 locations.
+a A fixed wireless network provides broadband
+service by transmitting signals from fixed sites, such as radio towers, to
+other individual fixed locations, such as a consumer’s premises. Fixed wireless
+includes licensed fixed wireless, unlicensed fixed wireless, and licensed by
+rule fixed wireless. Licensed fixed wireless uses entirely licensed spectrum or
+a hybrid of licensed, unlicensed, and licensed-by-rule spectrum to make
+last-mile connections to fixed locations. Licensed-by-rule fixed wireless uses
+entirely licensed-by-rule spectrum or a hybrid of licensed-by-rule and
+unlicensed spectrum to make last-mile connections to fixed locations.
+Licensed-by-rule spectrum users include operators providing last-mile
+connections through general authorized access (GAA) in the 3.5 GHz Citizens
+Broadband Radio Service band.
+Figure 9: Planned Technology for Broadband Deployment
+Projects Funded by Selected Agencies, Fiscal Years 2019–2025
+Notes: FCC programs also included Bringing Puerto Rico
+Together Phase 2 Fixed Support (two fiber-only projects, one fiber and coaxial
+cable project, and one fiber and fixed wireless project) and Connect U.S.
+Virgin Islands Phase 2 Fixed Support (one fiber-only project). These are not
+included in the figure.
+This analysis excludes 19 ReConnect projects that were
+erroneously classified as fiscal year 2026 projects (and therefore out of GAO’s
+scope) in the Broadband Funding Map data when GAO conducted the analysis in
+April 2026. These projects were awarded $267 million ($147 million for grants,
+$23 million for loans, and $97 million for grant-loan combinations) and were
+associated with 14,100 locations.
+a These planned projects involved fiber and one
+or more of the following fixed wireless technologies: licensed fixed wireless,
+unlicensed fixed wireless, and licensed-by-rule fixed wireless. A fixed
+wireless network provides broadband service by transmitting signals from fixed
+sites, such as radio towers, to other individual fixed locations, such as a
+consumer’s premises. Fixed wireless includes licensed fixed wireless,
+unlicensed fixed wireless, and licensed-by-rule fixed wireless. Licensed fixed
+wireless uses entirely licensed spectrum or a hybrid of licensed, unlicensed,
+and licensed-by-rule spectrum to make last-mile connections to fixed locations.
+Licensed-by-rule fixed wireless uses entirely licensed-by-rule spectrum or a
+hybrid of licensed-by-rule and unlicensed spectrum to make last-mile
+connections to fixed locations. Licensed-by-rule spectrum users include
+operators providing last-mile connections through general authorized access
+(GAA) in the 3.5 GHz Citizens Broadband Radio Service band. Data reported on
+Treasury programs to the Broadband Funding Map will not be complete until those
+programs finish deployment.
+In all selected broadband deployment programs, at least 50
+percent of projects funded in fiscal years 2019 through 2025 planned to use
+only fiber. Figure 10 shows the percentage of planned fiber-only projects for
+each program.
+Figure 10: Percentage of Planned Fiber-Only Broadband
+Deployment Projects by Program, Fiscal Years 2019–2025
+Notes: FCC programs also included Bringing Puerto Rico
+Together Phase 2 Fixed Support (50 percent fiber-only) and Connect U.S. Virgin
+Islands Phase 2 Fixed Support (100 percent fiber-only). These are not included
+in the figure. Fiber-only refers to projects that only plan to use fiberoptic
+cable, according to data from FCC’s Broadband Funding Map. Data reported on
+Treasury programs to the Broadband Funding Map will not be complete until those
+programs finish deployment.
+This analysis excludes 19 ReConnect projects that were
+erroneously classified as fiscal year 2026 projects (and therefore out of GAO’s
+scope) in the Broadband Funding Map data when GAO conducted the analysis in
+April 2026. These projects were awarded $267 million ($147 million for grants,
+$23 million for loans, and $97 million for grant-loan combinations) and were
+associated with 14,100 locations.
+Speed of Service
+In fiscal years 2019 through 2025, most planned broadband
+deployment projects proposed service speeds of at least 1000 megabits per
+second (Mbps) when downloading and 1,000 Mbps when uploading, or 1,000/1,000
+Mbps. Planned projects proposing speeds of at least 100/100Mbps but less than 1,000/1,000
+Mbps numbered the next highest. Relatively few planned projects proposed
+service at speeds of 25/3 Mbps. (See fig. 11.)
+Figure 11: Download and Upload Speed Combinations of
+Planned Broadband Deployment Projects by Selected Agency and Program, Fiscal
+Years 2019–2025
+Notes: FCC programs also included Bringing Puerto Rico
+Together Phase 2 Fixed Support (two projects in the 100/20 Mbps category and
+two in the 100/100 Mbps category) and Connect U.S. Virgin Islands Phase 2 Fixed
+Support (one project in the 100/100 Mbps category). These are not included in
+the figure.
+This analysis excludes 19 ReConnect projects that were
+erroneously classified as fiscal year 2026 projects (and therefore out of GAO’s
+scope) in the Broadband Funding Map data when GAO conducted the analysis in
+April 2026. These projects were awarded $267 million ($147 million for grants,
+$23 million for loans, and $97 million for grant-loan combinations) and were
+associated with 14,100 locations.
+GAO categorized speed combinations using the lowest
+download/upload speed available through the project. The speed categories
+include speed combinations in excess of the category label that are lower than
+the next category. For example, 25/3 Mbps includes projects at speeds of 30/5
+Mbps, and 100/20 Mbps includes projects at speeds of 250/25 Mbps. This analysis
+excludes projects with a “0” for either the maximum download or maximum upload
+speed (31 projects).
+Data reported on Treasury programs to the Broadband
+Funding Map will not be complete until those programs finish deployment.
+a Of the projects GAO categorized as “1,000+/1,000+
+Mbps,” most (84 percent) were 1,000/1,000 Mbps. The other 16 percent had a
+higher download speed, upload speed, or both.
+b The Other category captures combinations of
+download/upload speeds that do not fall within the categories (e.g., 100/2
+Mbps).
+Geographic Locations
+Almost all states and territories had more than one
+planned project each. In most states and territories, broadband deployment
+programs planned to use only fiber in 70 percent or more of planned projects
+(see table 7). We considered a project to be in a state or territory if 10
+percent or more of the planned project area intersected with that state. In
+cases where a single project intersected with multiple states by 10 percent or
+more of the planned project area, we counted it as being in both states.
+Table 7: Number of Planned Broadband Deployment Projects
+and Fiber-Only Broadband Deployment Projects for Selected Programs by U.S.
+State or Territory, Fiscal Years 2019–2025
+State
+Number of broadband deployment projects
+Number of fiber-only broadband deployment
+projects
+Percentage of fiber-only broadband deployment
+projects
+Alabama
+131
+126
+96%
+Alaska
+49
+32
+65%
+Arizona
+43
+31
+72%
+Arkansas
+81
+71
+88%
+California
+126
+110
+87%
+Colorado
+60
+49
+82%
+Connecticut
+13
+13
+100%
+Delaware
+3
+3
+100%
+Florida
+272
+254
+93%
+Georgia
+70
+59
+84%
+Guam
+2
+1
+50%
+Hawaii
+3
+3
+100%
+Idaho
+41
+31
+76%
+Illinois
+104
+97
+93%
+Indiana
+111
+104
+94%
+Iowa
+133
+128
+96%
+Kansas
+77
+67
+87%
+Kentucky
+77
+75
+97%
+Louisiana
+109
+102
+94%
+Maine
+44
+39
+89%
+Maryland
+55
+42
+76%
+Massachusetts
+86
+31
+36%
+Michigan
+81
+74
+91%
+Minnesota
+135
+125
+93%
+Mississippi
+81
+77
+95%
+Missouri
+130
+125
+96%
+Montana
+80
+72
+90%
+Nebraska
+98
+86
+88%
+Nevada
+26
+14
+54%
+New Hampshire
+25
+19
+76%
+New Jersey
+13
+13
+100%
+New Mexico
+78
+57
+73%
+New York
+64
+53
+83%
+North Carolina
+89
+86
+97%
+North Dakota
+38
+35
+92%
+Northern Mariana Islands
+1
+0
+0%
+Ohio
+33
+31
+94%
+Oklahoma
+304
+232
+76%
+Oregon
+54
+46
+85%
+Pennsylvania
+83
+74
+89%
+Puerto Rico
+5
+3
+60%
+Rhode Island
+15
+13
+87%
+South Carolina
+54
+51
+94%
+South Dakota
+29
+20
+69%
+Tennessee
+72
+69
+96%
+Texas
+83
+57
+69%
+U.S. Virgin Islands
+1
+1
+100%
+Utah
+28
+24
+86%
+Vermont
+20
+17
+85%
+Virginia
+51
+47
+92%
+Washington
+76
+62
+82%
+West Virginia
+37
+34
+92%
+Wisconsin
+82
+78
+95%
+Wyoming
+33
+23
+70%
+Source: GAO analysis of Federal Communications Commission
+(FCC) Broadband Funding Map data. | GAO‑26‑107725
+Notes: This table contains information on selected planned
+broadband deployment projects funded by programs administered by the National
+Telecommunications and Information Administration (NTIA): Broadband
+Infrastructure Program and Tribal Broadband Connectivity Program; U.S.
+Department of Agriculture (USDA): Community Connect, ReConnect, and
+Telecommunications Infrastructure Program; FCC: Bringing Puerto Rico Together
+Stage 2 Fixed Support, Connect America Fund Phase II Auction, Connect U.S.
+Virgin Islands Stage 2 Fixed Support, Enhanced Alternative Connect America Cost
+Model, and Rural Digital Opportunity Fund; and Department of the Treasury:
+Capital Projects Fund and State and Local Fiscal Recovery Funds. Projects
+spanning two or more states are counted in each state. The number of planned
+projects in a state does not directly correspond to the number of locations
+served by federal broadband deployment programs in a state. The number of
+locations each planned project serves can vary. Data reported on Treasury programs
+to the Broadband Funding Map will not be complete until those programs finish
+deployment. Broadband Funding Map data also included three projects in the
+Federated States of Micronesia. These projects are not included in the table,
+as the Federated States of Micronesia is not a U.S. state or territory.
+This analysis excludes 19 ReConnect projects that were
+erroneously classified as fiscal year 2026 projects (and therefore out of GAO’s
+scope) in the Broadband Funding Map data when GAO conducted the analysis in
+April 2026. These projects were awarded $267 million ($147 million for grants,
+$23 million for loans, and $97 million for grant-loan combinations) and were
+associated with 14,100 locations.
+Several programs had planned projects that included tribal
+lands. We analyzed the planned project area data and overlaid it with U.S.
+Census Bureau shapefiles that show tribal areas. [107] If 10 percent or more of a planned
+project area intersected with tribal lands, we considered that the planned
+project included tribal lands. (See fig. 12.)
+Figure 12: Number of Planned Broadband Deployment Projects
+That Include Tribal Lands by Program, Fiscal Years 2019–2025
+Notes: Two selected FCC programs—Bringing Puerto Rico
+Together Phase 2 Fixed Support and Connect U.S. Virgin Islands Phase 2 Fixed
+Support—and NTIA’s Broadband Infrastructure Program are excluded from this
+figure because they did not have any projects that include tribal lands. Data
+reported on Treasury programs to the Broadband Funding Map will not be complete
+until those programs finish deployment.
+This analysis excludes 19 ReConnect projects that were
+erroneously classified as fiscal year 2026 projects (and therefore out of GAO’s
+scope) in the Broadband Funding Map data when GAO conducted the analysis in
+April 2026. These projects were awarded $267 million ($147 million for grants,
+$23 million for loans, and $97 million for grant-loan combinations) and were
+associated with 14,100 locations.
+Appendix III: Comments
+from the Federal Communications Commission
+Appendix IV: GAO
+Contact and Staff Acknowledgments
+GAO Contact
+Andrew Von Ah, vonaha@gao.gov
+Staff Acknowledgments
+In addition to the contact named above, Andrew Huddleston
+(Assistant Director), Nalylee Padilla (Assistant Director), Rebecca Rygg
+(Analyst in Charge), Madeline Barch, Kevin Barsaloux, Alma Laris, John Mingus,
+Jaclyn Mullen, Mike Soressi, Erin Villareal, Laurel Voloder, and Malika
+Williams made key contributions to this report.
+GAO’s Mission
+The Government Accountability
+Office, the audit, evaluation, and investigative arm of Congress, exists to
+support Congress in meeting its constitutional responsibilities and to help
+improve the performance and accountability of the federal government for the
+American people. GAO examines the use of public funds; evaluates federal
+programs and policies; and provides analyses, recommendations, and other
+assistance to help Congress make informed oversight, policy, and funding
+decisions. GAO’s commitment to good government is reflected in its core values
+of accountability, integrity, and reliability.
+Obtaining Copies of GAO Reports and Testimony
+The fastest and easiest way to obtain copies of GAO documents at no cost
+is through our website. Each weekday afternoon, GAO posts on its website newly released reports, testimony, and
+correspondence. You can also subscribe to GAO’s email
+updates to receive notification of newly posted products.
+Order by Phone
+The price of each GAO publication reflects GAO’s actual
+cost of production and distribution and depends on the number of pages in the
+publication and whether the publication is printed in color or black and white.
+Pricing and ordering information is posted on GAO’s website, https://www.gao.gov/ordering.htm .
+Place orders by calling (202) 512-6000, toll free (866) 801-7077,
+or
+TDD (202) 512-2537.
+Orders may be paid for using
+American Express, Discover Card, MasterCard, Visa, check, or money order. Call
+for additional information.
+Connect with GAO
+Connect with GAO on X ,
+LinkedIn , Instagram , and YouTube .
+Subscribe to our Email Updates . Listen to our Podcasts .
+Visit GAO on the web at https://www.gao.gov .
+To Report Fraud, Waste, and Abuse in Federal
+Programs
+Contact FraudNet:
+Website: https://www.gao.gov/about/what-gao-does/fraudnet
+Automated answering system: (800) 424-5454
+Media Relations
+Sarah Kaczmarek, Managing Director, Media@gao.gov
+Congressional Relations
+David A. Powner, Acting Managing Director, CongRel@gao.gov
+General Inquiries
+https://www.gao.gov/about/contact-us
+[1] These programs and their
+authorizing statutes vary in their requirements for what areas are eligible to
+receive funding. Some programs use broadband service speeds to determine
+whether an area is unserved or underserved, but not all programs use these
+terms or include threshold speeds for eligibility. This report uses “underserved”
+to refer to areas eligible to receive federal funding for increasing broadband
+access.
+[2] GAO, Broadband Programs:
+Agencies Need to Further Improve Their Data Quality and Coordination Efforts ,
+GAO-25-107207
+(Washington, D.C.: Apr. 17, 2025).
+[3] GAO, Broadband: National Strategy Needed to Guide Federal
+Efforts to Reduce Digital Divide , GAO‑22‑104611 (Washington,
+D.C.: May 31, 2022). Of these over 100 programs, 31 programs, including the
+nine we selected for this review, could fund broadband deployment. For over
+half (18) of these 31 programs, broadband-related activities were one possible
+use. The report recommended that the Executive Office of the President develop
+and implement a national broadband strategy to support better management of
+fragmented and overlapping federal broadband programs and synchronize
+coordination efforts. This recommendation remained open as of June 2026.
+[4] GAO‑25‑107207 .
+[5] Additionally, 2 C.F.R. §
+200.403(f) generally prohibits an award recipient from using the award to cover
+costs that were also covered by another federal award.
+[6] GAO‑22‑104611 . In this
+report, we refer to the 50 U.S. states, five U.S. territories, and the District
+of Columbia as states and territories.
+[7] Pub. L. No. 118-42, § 4, 138
+Stat. 25, 26 (2024); H.R. Rep. No. 118-124, at 6 (2023); 170 Cong. Rec. S1287
+(daily ed. Mar 5, 2024) (incorporating by reference House Report 118-124).
+[8] Last-mile broadband refers to
+the connection from a middle-mile network to a customer’s premises. Middle-mile
+network refers to broadband infrastructure that connects local service
+providers to the global internet.
+[9] We analyzed Broadband Funding
+Map data to ensure comparable data across agencies. Selected agencies maintain
+broadband program data separate from their submissions to the Broadband Funding
+Map and may make some of the data publicly available. There are some
+differences between agencies’ publicly available data and the map’s data. For
+example, data on one of FCC’s High Cost subprograms are publicly available and
+include more projects than the map’s data, because FCC limited its Broadband
+Funding Map data submissions to projects where deployed speeds could be
+considered duplicative of other potential federal broadband projects. Additionally,
+this subprogram’s data predate the creation of the Broadband Funding Map, and
+FCC does not plan to update the subprogram’s requirements to align with the
+Broadband Funding map, as discussed in greater detail below. We focused on
+Broadband Funding Map data for fiscal years 2019 through 2025 because fiscal
+year 2019 was the first year for which data were available and fiscal year 2025
+was the last full fiscal year for which data were available when we conducted
+our review.
+[10] In addition, in August 2026,
+USDA officials told us that the April 2026 Broadband Funding Map data we
+analyzed included erroneous values for project start dates for USDA’s ReConnect
+program, because a USDA staff member had misapplied the updated data
+specifications. USDA officials provided corrected data, and we updated our
+analysis to reflect the corrections. However, because of this issue, our
+analysis excludes 19 ReConnect projects that were classified as fiscal year
+2026 projects when we conducted our analysis of April 2026 data. These 19
+projects were awarded $267 million ($147 million for grants, $23 million for
+loans, and $97 million for grant-loan combinations) and had 14,100 planned service
+locations.
+[11] Similarly, dollar values
+throughout the report are rounded according to magnitude to improve
+readability. Values below 1,000 are rounded to the nearest hundred, values under
+1 million are rounded to the nearest thousand, values between 1 million and 1
+billion are rounded to the nearest million, and values of 1 billion or greater
+are rounded to the nearest 10th of a billion.
+[12] The Broadband Funding Map data
+reflect provider-reported data on broadband availability, which may indicate
+project completion but do not reflect agencies’ reporting on project
+completion.
+[13] These locations are typically
+referred to as “broadband serviceable locations” and include homes and
+businesses, but not locations like trailheads or buildings where fixed
+broadband is not needed or may not be possible due to a lack of electricity.
+Under 47 U.S.C. § 642(b), a serviceable location refers to locations in the
+U.S. where fixed broadband internet access service can be installed, as
+determined by FCC. Throughout this report, we refer to broadband serviceable
+locations as “locations.”
+[14] GAO, Standards for Internal Control in the Federal Government ,
+GAO‑25‑107721 (Washington,
+D.C.: May 15, 2025).
+[15] Latency is the time it takes
+for a signal to go between two defined points.
+[16] Congressional Research
+Service, Low Earth Orbit Satellites: Potential to
+Address the Broadband Digital Divide , R46896 (Nov. 14, 2025); and The Persistent Digital Divide: Selected Broadband
+Deployment Issues and Policy Considerations , R47506 (Apr. 18, 2023).
+[17] GAO, COVID-19 Relief: States’ and Localities’ Fiscal Recovery
+Funds Spending as of March 31, 2024 , GAO‑24‑107301 (Washington,
+D.C.: Sept. 26, 2024).
+[18] In this report, application
+and awarding period refers to the period in which program participants apply
+for funds and selected agencies identify and award recipients. For programs
+with multiple funding rounds, such as ReConnect and the Tribal Broadband Connectivity
+program, we present the application and awarding period as continuous rather
+than showing an application and awarding period for each distinct round.
+[19] Pub. L. No. 116-260, div. FF,
+tit. IX, § 904, 134 Stat. 1182, 3214 (2020) (codified at 47 U.S.C. §
+1308(b)(2)). The ACCESS BROADBAND Act, which was enacted in 2020, also
+specifies that any agency that offers a federal broadband support program
+should coordinate with NTIA.
+[20] This May 2024
+information-sharing memorandum of understanding is intended to be a separate
+agreement and not to supersede or otherwise impact the terms of the interagency
+agreement established in 2021, which is still active. Memorandum of Understanding Regarding Information Sharing
+dated as of May 9, 2024, between the Federal Communications Commission, U.S.
+Department of Agriculture, the National Telecommunications and Information
+Administration of the U.S. Department of Commerce, and the U.S. Department of
+the Treasury (May 9, 2024).
+[21] The two federal broadband maps
+discussed below both use a dataset of locations throughout the country where
+fixed broadband access is or could be installed. This dataset was first made
+available to the public in 2022 and allows data filers, FCC, and others to work
+from a single, standardized list of location identification numbers. FCC refers
+to this dataset as the “Broadband Serviceable Location Fabric (Fabric).”
+Throughout this report, we refer to data from the Fabric as “standardized
+location data.”
+[22] GAO, Fragmentation, Overlap, and Duplication: An Evaluation and
+Management Guide, GAO‑15‑49SP
+(Washington, D.C.: Apr. 14, 2015).
+[23] GAO-25-107207 .
+[24] GAO‑25‑107207 .
+[25] As of July 2026, we had
+started to receive supporting materials from some of the agencies for their
+implementation of the recommendations, and
+we were in the process of reviewing these materials and working with officials
+to determine whether these efforts address our recommendations.
+[26] In some cases, the median may
+provide a better measure of a typical value than the mean, particularly when
+the data are skewed or contain outliers, because the median is more resistant
+to extreme values.
+[27] Of the $300 million
+appropriated for the BIP, NTIA announced in its notice of funding opportunity
+that it would make up to $288 million available for awards. Differences in the
+amount awarded and amount available for award may be due in part to changes to
+the scope of an awarded project or projects.
+[28] See
+47 U.S.C. § 1705(d)(5).
+[29] Disbursement amounts are the
+amounts provided by an agency to recipients. For NTIA’s BIP program and Tribal
+Broadband Connectivity Program, we report on disbursement data, rather than
+expenditure data (as we do for USDA’s programs), because, according to NTIA
+officials, NTIA tracks disbursements and not expenditures. The percentage of
+obligated funds disbursed is an imperfect proxy for project progress. In some
+cases, participants may purchase long-lead-time materials and equipment during
+the environmental review and before construction begins, and receive
+disbursements related to these expenses, according to NTIA officials. In these
+cases, disbursements may be recorded even though deployment has not started.
+Conversely, some recipients may delay purchases until after environmental
+clearance, according to NTIA officials. According to NTIA officials, projects
+funded by BIP have completed deployment to more locations than indicated in the
+Broadband Funding Map data. NTIA officials said they will continue to submit
+buildout data to the map as they receive information from recipients’
+performance reports.
+[30] TBCP funds other project
+types, such as broadband use and adoption and planning projects. Our analysis
+only includes projects that involve broadband infrastructure deployment and
+that NTIA submitted to the Broadband Funding Map. NTIA planned to finish making
+round-two awards by the end of 2026, according to officials.
+[31] The difference between the
+amount appropriated and award amount included in the Broadband Funding Map data
+is primarily due to three factors. First, TBCP awards for use and adoption or
+planning projects without last-mile deployment activities are not included in
+the map’s data. Second, NTIA had not finished announcing awards under its
+second funding round as of June 2026 and announced a third funding round in
+June 2026 through which it expected to award up to $540 million, according to
+the notice of funding opportunity. Third, NTIA may use up to 2 percent of
+amounts appropriated for TBCP for administrative purposes. 47 U.S.C. § 1705(c)(3)(B);
+Consolidated Appropriations Act, 2022, Pub. L. No. 117-103, div. B, tit. V, §
+541, 136 Stat. 49, 153.
+[32] NTIA’s funding announcements
+stated that it would allocate up to $500,000 per tribal government to meet the
+statutory requirement that TBCP funds appropriated by the Consolidated
+Appropriations Act, 2021, be distributed equitably. The allocation is to each
+federally recognized Tribe delineated by the Bureau of Indian Affairs,
+including those listed parenthetically in the Bureau’s published list. See 91 Fed. Reg. 4102 (Jan. 30, 2026). NTIA is
+applying the statutory equitable distribution requirement to all TBCP funding,
+not just the amount appropriated for TBCP by the Consolidated Appropriations
+Act, 2021. As we previously reported, such grants would be available to
+applicants that passed merit review—the second of three application review
+phases—but did not receive the amount they requested. See GAO, Tribal Broadband: Additional Assistance to Recipients
+Would Better Support Implementation of $3 Billion in Federal Grants , GAO‑24‑106541 (Washington,
+D.C.: June 24, 2024). NTIA officials refer to these awards as equitable
+distribution awards and to other awards as “full” awards. Most TBCP awards of
+$500,000 or less were equitable distribution awards, according to NTIA
+officials.
+[33] See
+47 U.S.C. § 1705(c)(4)(B).
+[34] Generally, award recipients
+must submit all required financial and performance reports within 120 days
+after the conclusion of the performance period, the time frame in which the
+recipient must complete the work under the award. The agency must close out the
+award when it determines all administrative action and required work have been
+completed. 2 C.F.R. § 200.344.
+[35] The amount awarded was higher
+than the amount appropriated because some awarded amounts were for loans. For
+loans, the appropriated funds are not used for the amount a loan recipient
+borrows. Instead, these appropriated funds cover the loans’ subsidy costs,
+which represent the cost of the loan program.
+[36] TIP receives appropriations
+that generally expire at the end of each fiscal year, so the amount available
+in any given fiscal year was less than the total amount reported for this
+period.
+[37] Because Community Connect
+funds could also be used to provide broadband service free of charge for
+certain facilities, the obligated amount reflects other activities in addition
+to broadband deployment.
+[38] In commenting on a draft of
+this report in August July 2026, USDA officials told us they began submitting
+buildout data to the Broadband Funding Map in June 2026. Our analysis of
+buildout data in the Broadband Funding Map reflects the data as of May 2026, as
+we did not analyze or assess the reliability of data submitted later.
+[39] As with the NTIA programs
+discussed above, the percentage of obligated funds expended is an imperfect
+proxy for project progress for USDA programs for similar reasons. Additionally,
+in USDA’s programs, recipients may use matching funds before using program
+funding, according to USDA officials.
+[40] While FCC’s High Cost program
+includes additional subprograms, we selected these five subprograms because the
+Broadband Funding Map included data on planned projects for only these
+subprograms. As mentioned earlier in this report, the amount awarded reflects
+the total amount awarded for the funding period, which is 10 or 15 years
+depending on the subprogram, rather than for 6 six fiscal years we examined.
+[41] The Enhanced Alternative
+Connect America Cost Model subprogram differs from other selected subprograms
+because it provided funding to providers who were already receiving funding
+from a different subprogram to maintain that service for 15 years. Our analysis
+of the Broadband Funding Map data indicates that there are about 2.8 million
+planned locations for this subprogram. According to FCC officials, around
+500,000 of these locations were previously unserved.
+[42] Low project funding amounts
+may be associated with smaller projects associated with a larger award.
+Projects were defined and reported to the Broadband Funding Map by network
+speeds and state. For example, one Rural Digital Opportunity Fund (RDOF) project
+in this subprogram was awarded $300 to serve a single location with a network
+speed of 100/20 Mbps. This project is part of a $4.5 million award to serve
+over 6,000 locations almost entirely at the gigabit performance tier.
+[43] Of the 1,976,900 planned
+service locations affected by defaults, 1,762,000 (about 89 percent) were
+affected by defaults that occurred during the authorization phase, which means
+they had not begun receiving funding.
+[44] The number of locations here
+(at least 700,000) is much higher than the number of planned locations in table
+5 above (391,100), primarily because the number in table 5 above excludes an
+estimated 350,000 locations that are not included in the Broadband Funding Map
+because their planned speeds were lower than 100/20 Mbps, as described above.
+[45] These sources are (1) an open
+data website administered by the Universal Service Administration Company,
+which administers FCC’s High Cost program, and (2) the Connect America Fund
+map.
+[46] The Broadband Funding Map data
+for 10 projects did not include information on amount awarded. We therefore
+excluded these 10 projects from our analysis.
+[47] Treasury’s reporting guidance
+lists over 100 expenditure categories, one of which is broadband last-mile
+projects.
+[48] See
+American Rescue Plan Act of 2021, Pub. L. No. 117-2, § 9901, 135 Stat. 4, 223.
+[49] We present these figures to
+describe the scale of reported activity, but they should be interpreted in
+light of limitations in the underlying data.
+[50] Under 47 U.S.C. § 1702(c)(4),
+BEAD allocations are subject to NTIA’s approval of states’ and territories’
+application materials, such as the initial proposal and final proposal.
+Throughout this subsection, we refer to states and territories collectively as
+“states.”
+[51] 47 U.S.C. § 1702(h)(4)(C).
+[52] National Telecommunications
+and Information Administration, Broadband Equity,
+Access, and Deployment (BEAD) Program: BEAD Restructuring Policy Notice
+(June 6, 2025).
+[53] Additional changes to program
+requirements related to labor, employment, workforce, climate change, and
+affordability.
+[54] In addition to the $18.4
+billion in expected deployment funds and the expected $21 billion in
+non-deployment funds, NTIA provided planning funds to recipients, and the
+statute allowed NTIA to use some funds for administrative expenses.
+[55] See, e.g., Congressional
+Research Service, The Broadband Equity, Access, and
+Deployment (BEAD) Program: Issues for the 119th Congress , R48666
+(Washington, D.C.: Aug. 29, 2025). Precision agriculture involves collecting,
+analyzing, and taking actions based on data. It can help the agricultural
+sector meet increasing demand for food products, while also helping farmers
+improve efficiencies such as through reduced input costs.
+[56] As discussed above, NTIA began
+submitting BEAD data to the Broadband Funding Map data in fiscal year 2026, so
+our analysis did not include BEAD.
+[57] BEAD recipients also began
+funding projects after FCC’s standardized location data became available in
+2022, but we did not include BEAD in this analysis.
+[58] GAO, Broadband Internet: FCC’s Data Overstate Access on Tribal
+Lands , GAO‑18‑630 (Washington,
+D.C.: Sept. 7, 2018); Congressional Research Service, Broadband Data and Mapping: Background and Issues for the
+116th Congress , R45962 (Washington, D.C.: Oct. 16, 2019).
+[59] In commenting on a draft of
+this report in July 2026, USDA officials told us they had resolved the
+identified irregularities and submitted related updates to the Broadband
+Funding Map.
+[60] Agencies also use NTIA’s
+Broadband Analytics and Monitoring platform, a nonpublic resource that includes
+data on federally funded broadband deployment projects and sensitive
+information on pending projects not yet awarded. It includes data on broadband
+deployment from federal agencies as well as data from the U.S. Census and
+private sources.
+[61] Treasury Capital Projects Fund
+and State and Local Fiscal Recovery Funds recipients determine which areas they
+administer are eligible for program funding and make subawards for projects.
+While Treasury does not directly determine which areas are eligible for award
+in these programs, program rules and guidance direct recipients to use funds in
+areas that lack service.
+[62] GAO, Broadband: USDA Should
+Set Performance Goals and Improve Fraud Risk Management for Funding Program ,
+GAO‑23‑105265
+(Washington, D.C.: Oct. 31, 2022).
+[63] GAO-25-107207 .
+[64] As of July 2026, we had
+started to receive supporting materials from some of the agencies for their
+implementation of the recommendations, and
+we were in the process of reviewing these materials and working with officials
+to determine whether these efforts address our recommendations.
+[65] According to FCC officials,
+this overlap still appears on the Broadband Funding Map because E-ACAM awards
+are depicted on the map as areas, but the actual awards are to provide service
+to a set of locations. FCC officials told us that they are in the process of
+converting the Broadband Funding Map data on E-ACAM to reflect this.
+[66] The Connect America Fund Phase
+II Auction was also structured as a reverse auction but has not experienced the
+same levels of default as RDOF. Enacted in May 2026, the Rural Broadband
+Protection Act of 2025 requires that FCC establish a vetting process to review
+High Cost program applicants’ documentation of their technical, financial, and
+operational capabilities related to the proposed deployment, as well as a
+reasonable business plan. Pub. L. No. 119-89, 140 Stat. 818 (2026).
+[67] The BEAD Restructuring Policy
+Notice established the June 6th deadline. As explained by the policy, states
+and territories were not required to re-run their challenge processes after
+that date.
+[68] GAO‑25‑107207 . In this
+report, we found that agencies lacked clear timelines for providing updates to
+FCC. We recommended that FCC, NTIA, USDA, and Treasury, in collaboration with each
+other, clearly define and document timelines for agencies to submit data on
+funded awards to the Broadband Funding Map, including any changes to awards. As
+of July 2026, some of the agencies had reported implementing these
+recommendations, we had started to receive supporting materials from some of
+the agencies for their implementation of recommendations, and we were in the
+process of reviewing these materials and working with officials to determine
+whether these efforts address our recommendations.
+[69] Individuals can also submit
+single-location challenges to broadband availability or location data.
+[70] Federal Communications
+Commission, “Fabric Challenge Response Codes,” https://help.bdc.fcc.gov/hc/en-us/articles/17077103993371-Fabric-Challenge-Response-Codes
+(updated June 30, 2025).
+[71] Not all participants and
+stakeholders we interviewed had direct experience with FCC’s bulk challenge
+process, so they did not provide information on this issue.
+[72] GAO, Affordable Broadband: FCC Could Improve Performance Goals
+and Measures, Consumer Outreach, and Fraud Risk Management , GAO‑23‑105399 (Washington,
+D.C.: Jan. 18, 2023).
+[73] ReConnect has also allowed
+recipients of certain High Cost program funding from FCC to receive loans in
+certain rounds. For example, in Round 5, recipients of funds from FCC’s
+Enhanced Alternative Connect America Cost Model are eligible for ReConnect
+loans, but they remain ineligible for ReConnect grant funding. 89 Fed. Reg.
+13035, 13038 (Feb. 21, 2024). As reported previously, according to FCC and USDA
+officials, these loans are considered supplemental to these grants, instead of
+duplicative, because they are paid back. GAO‑23‑105265 .
+[74] GAO‑24‑106541 .
+[75] GAO‑24‑106541 . In our
+review, we found that NTIA’s plans for providing technical assistance
+throughout the funding period did not include support for recipients that are
+unable to implement their financial sustainability plans. We recommended that
+NTIA provide technical assistance throughout the funding period to support
+recipients that are unable to implement their financial sustainability plans.
+We also recommended that NTIA report to Congress on the resources necessary to
+ensure the financial sustainability of TBCP infrastructure projects. NTIA agreed
+with both recommendations but had not implemented them as of June 2026.
+[76] Douglas K. Kitch and
+Christopher S. Barron, Evaluating the Critical Need
+for Broadband Sustainability Funding on Rural Tribal Lands , a white
+paper prepared on behalf of the National Tribal Telecommunications Association,
+August 2022.
+[77] According to the NTIA FAQ for
+BEAD, for most providers, the certification applies through the period of
+federal interest (i.e., the 10-year period following the performance period),
+during which providers complete network buildout. For providers operating
+low-earth-orbit satellite networks, the 10-year period is an extended
+performance period.
+[78] Throughout this subsection, we
+refer to states and territories collectively as “states.”
+[79] Under 2 C.F.R. § 200.316, a
+federal award subrecipient serves as trustee of real property, equipment, and
+intangible property improved with the federal award. Accordingly, BEAD
+subrecipients hold property acquired or improved through BEAD in trust for the
+benefit of the public served by the infrastructure project. As explained in a
+NTIA policy notice for BEAD, the federal government retains an interest in this
+property for 10 years after the project has been closed out. This period is
+known as the federal interest period. NTIA’s BEAD Performance Measures Policy
+Notice states, “[A] subgrantee’s obligation to provide broadband service
+meeting these network performance standards continues for the duration of the
+Federal Interest Period.”
+[80] However, as NTIA guidance
+indicates there may be a basis for recipients to request performance data
+demonstrating their compliance with performance requirements beyond the 4-year
+deployment period, there may also be a basis for recipients to request
+financial data demonstrating their ability to remain financially sustainable,
+and thus meet performance requirements, during the 10-year federal interest
+period.
+[81] For example, see GAO‑24‑106541 and GAO,
+Broadband Deployment: Agencies Should Take Steps to
+Better Meet Deadline for Processing Permits , GAO‑24‑106157 (Washington,
+D.C.: Apr. 10, 2024).
+[82] GAO‑24‑106157 .
+[83] Making Opportunities for
+Broadband Investment and Limiting Excessive and Needless Obstacles to Wireless
+(“MOBILE NOW”) Act, Pub. L. No. 115-141, div. P, tit. VI, § 606(a), 132 Stat.
+1097, 1101 (2018) (amending 47 U.S.C. § 1455(b)(3)).
+[84] GAO‑24‑106157 .
+[85] Pub. L. No. 89-665, § 106, 80
+Stat. 915, 917 (1966) (codified as amended at 54 U.S.C. § 306108). As of August
+2026, the Advisory Council on Historic Preservation is considering revising the
+statute’s implementing regulations. RIN: 3010-AA10.
+[86] 42 U.S.C. § 4336(b). During
+our review, the Council on Environmental Quality (CEQ) rescinded its
+regulations implementing NEPA. 90 Fed. Reg. 10610 (Interim Final Rule, Feb. 25,
+2025); 91 Fed. Reg. 618 (Final Rule, Jan. 8, 2026). As CEQ explained when issuing
+its final rule, the rescission of CEQ’s regulations did not alter each agency’s
+duty to comply with the statute or rescind other agencies’ procedures for
+implementing NEPA. 91 Fed. Reg. 618, 625–28.
+[87] 42 U.S.C. § 4436e(1).
+[88] According to Treasury
+guidance, NEPA generally does not apply to broadband infrastructure projects
+funded by the Treasury programs we reviewed. According to Treasury officials,
+coordination related to historic preservation reviews happens at the recipient
+level, because recipients are responsible for selecting and making awards.
+[89] The program, FAST-41, was
+established in 2015 by Title 41 of the Fixing America’s Surface Transportation
+Act and is managed by an interagency group known as the Federal Permitting
+Improvement Steering Council.
+[90] This council is an independent
+federal agency established by the National Historic Preservation Act in 1966.
+The council advises and recommends measures to coordinate the activities of
+federal, state, and local agencies, private institutions, and individuals
+relating to historic preservation.
+[91] As of January 2026, USDA had
+reduced the number of archaeologists to levels below that reached after the USDA’s
+hiring in 2024, but the levels were still higher than before that hiring.
+According to USDA officials, some of the staff reduction was the result of the
+Department of Government Efficiency’s deferred resignation program and
+retirements.
+[92] Although USDA’s Rural
+Broadband Program has broadband deployment as a primary purpose, we did not
+include the program in our review, because the program made just one award in
+the period we reviewed. According to USDA officials, they did not plan to make
+additional awards in the program. Additionally, we excluded FCC programs like
+E-Rate because they provide funding for specific entities, like schools and
+libraries, rather than last-mile deployment.
+[93] In addition to the three state
+broadband offices we met with, we requested interviews with two other state
+broadband offices: Oregon and Idaho. Oregon’s state broadband office declined
+our request for an interview. Idaho’s state broadband office requested we meet
+after they completed their revised proposal for the Broadband Equity, Access,
+and Deployment (BEAD) program following NTIA’s policy update. When that time
+came, we determined that we had gathered sufficient information, so we did not
+meet with Idaho’s state broadband office.
+[94] One of the participants is in
+Oregon and was selected when we had expected to meet with the Oregon state
+broadband office.
+[95] While NTIA’s BEAD program is
+one of our selected programs, we did not include it in our analysis of BFM data
+because the first projects were awarded in fiscal 2026, whereas we analyzed
+data for fiscal years 2019 through 2025.
+[96] FCC’s BFM includes data on
+selected programs’ broadband infrastructure deployment projects funded by the
+federal government.
+[97] In addition, in August 2026,
+USDA officials told us that the April 2026 BFM data we analyzed included
+erroneous values for project start dates for ReConnect, because a USDA staff
+member had misapplied the updated data specifications. USDA officials provided
+corrected data, and we updated our analysis to reflect the corrections.
+However, because of this issue, our analysis excludes 19 ReConnect projects
+that were classified as fiscal year 2026 projects when we conducted our
+analysis of April 2026 data. These 19 projects were awarded $267 million ($147
+million for grants, $23 million for loans, and $97 million for grant-loan
+combinations) and had 14,100 planned locations.
+[98] As a result of our examination
+of the data, USDA officials told us USDA planned to review its broadband
+programs’ location data for accuracy. In commenting on a draft of this report
+in July 2026, USDA officials told us they resolved the identified
+irregularities and submitted related updates to the BFM in April 2026.
+[99] According to Treasury
+officials, BFM data on funding awarded for SLFRF will not be complete until the
+program expenditure deadline in December 2026, or shortly thereafter, because
+Treasury officials review and validate these data after the recipients report
+on completed projects.
+[100] Similarly, dollar values
+throughout the report are rounded according to magnitude to improve
+readability. Values below 1,000 are rounded to the nearest hundred, values under
+1 million are rounded to the nearest thousand, values between 1 million and 1
+billion are rounded to the nearest million, and values of 1 billion or greater
+are rounded to the nearest 10th of a billion.
+[101] The BFM data reflect
+provider-reported data on broadband availability, which may indicate that
+buildout has occurred at a particular location but do not reflect agencies’
+reporting on project completion.
+[102] In some cases, project areas
+may overlap but contain no locations to be served by federal broadband
+programs. In other cases, rules allow funds to go to the same area. For
+example, some programs allow the recipient to use other federal funds for
+operational expenses.
+[103] The data we reviewed from the
+Broadband Funding Map are data submitted for planned broadband deployment
+projects. Some projects may have been completed from fiscal year 2019 through
+fiscal year 2025. However, we refer to planned projects because the BFM data we
+analyzed are on planned projects.
+[104] We excluded NTIA’s Broadband
+Equity, Access, and Deployment program from this appendix because our analysis
+was of awards made in fiscal years 2019 through 2025, and BEAD recipients began
+making awards in fiscal year 2026.
+[105] Because of differences
+between subprograms within the High Cost program, we analyzed these selected
+subprograms separately and refer to them in this appendix as programs.
+[106] A fixed wireless network
+provides broadband service by transmitting signals from fixed sites, such as
+radio towers, to other individual fixed locations, such as a consumer’s
+premises. Licensed fixed wireless uses entirely licensed spectrum or a hybrid
+of licensed, unlicensed, and licensed-by-rule spectrum to make last-mile
+connections to fixed locations. Licensed-by-rule fixed wireless uses entirely
+licensed-by-rule spectrum or a hybrid of licensed-by-rule and unlicensed
+spectrum to make last-mile connections to fixed locations. Licensed-by-rule
+spectrum is spectrum that is open to use by users, including operators
+providing last-mile connections through general authorized access (GAA) in the
+3.5GHz Citizens Broadband Radio Service band.
+[107] We chose U.S. Census Bureau
+data because they conform with FCC’s definition of tribal lands used in FCC’s
+Broadband Deployment Reports. This definition includes (1) Joint Use Areas; (2)
+legal federally recognized American Indian area consisting of reservation and
+associated off-reservation trust land; (3) legal federally recognized American
+Indian area consisting of reservation only; (4) legal federally recognized
+American Indian area consisting of off-reservation trust land only; (5)
+Statistical American Indian area defined for a federally recognized tribe that
+does not have reservation or off-reservation trust land, specifically a tribal
+designated statistical area or Oklahoma Tribal Statistical Area; (6) Alaskan
+Native village statistical area; and (7) Hawaiian Home Lands established by the
+Hawaiian Homes Commission Act of 1921. See Federal
+Communications Commission, Inquiry Concerning the
+Deployment of Advanced Telecommunications Capability to All Americans in a
+Reasonable and Timely Fashion, Report , 39 FCC Rcd. 3247, 3276–77, para.
+57, n.221 (Mar. 18, 2024). We used these data in our report on broadband
+deployment funding and the availability of broadband service in tribal lands.
+GAO, Tribal Broadband: National Strategy and
+Coordination Framework Needed to Increase Access, GAO‑22‑104421 (Washington,
+D.C.: June 22, 2022). The Tribal Broadband Connectivity Program defines tribal
+lands using a broader definition. NTIA officials confirmed that all Tribal
+Broadband Connectivity Program projects include tribal lands according to that
+program’s definition.
+Back to Top

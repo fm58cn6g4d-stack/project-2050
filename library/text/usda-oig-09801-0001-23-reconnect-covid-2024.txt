@@ -1,0 +1,237 @@
+Source: https://www.oversight.gov/sites/default/files/documents/reports/2024-08/09801-0001-23Final-Report-81324.pdf
+Publisher: USDA Office of Inspector General
+Retrieved: 2026-11-09
+Original SHA-256: 25d67425daad725d6207ed1c56ab62a0c5875fb5c7b2fa05a45b2e9d3eb579aa
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The
+Coronavirus
+Aid, Relief,
+and Economic
+Security Act
+COVID 19 - ReConnect Program – Informational Report
+
+09801-0001-23 - September 2023
+
+Reliable and affordable broadband 1 internet is fundamental for economic activity in a diverse set of
+industries throughout the rural United States. 2 The Consolidated Appropriations Act of 2018 established
+the Rural Utilities Service (RUS) Rural eConnectivity Pilot Program (now known as the ReConnect
+Program). 3 As reported in 2020 (based on 2018 data) by the Federal Communications Commission
+(FCC), over 22 percent of Americans in rural areas lack coverage from fixed terrestrial broadband
+internet, as compared to only 1.5 percent of Americans in urban areas. 4 In its 2021 (based on 2019 data)
+report, FCC noted the percentage of rural Americans with insufficient access to broadband had dropped
+to approximately 17 percent. 5
+The Coronavirus Disease 2019 (COVID-19) pandemic highlighted the gap between those with access to
+broadband and those without access, known as the “digital divide.” 6 As stated in a United States
+Department of Agriculture (USDA) press release, “[t]he need for rural broadband has never been more
+apparent than it is now – as our nation manages the coronavirus national emergency. Access to
+telehealth services, remote learning for school children, and remote business operations all require
+access to broadband.” 7 The Coronavirus Aid, Relief, and Economic Security Act (CARES Act) provided
+funding to the ReConnect Program in response to the COVID-19 pandemic. 8
+As part of the Office of Inspector General’s oversight responsibility, we are issuing this informational
+report to provide general program information and highlight the CARES Act funding for the ReConnect
+Program. 9
+
+Broadband service is defined as “any fixed terrestrial technology, including fixed wireless, having the capacity to transmit
+data to enable a subscriber to the service to originate and receive high quality voice, data, graphics and video." See 7 C.F.R. §
+1740.2.
+2
+“Broadband” is another term for high-speed internet access.
+3
+Consolidated Appropriations Act, 2018, Pub. L. No. 115-141 § 779, 132 Stat. 348, 398 (2018).
+4
+Federal Communications Commission FCC 20-50, ”2020 Broadband Deployment Report” (Apr. 24, 2020).
+5
+Federal Communications Commission FCC 21-18, “Fourteenth Broadband Deployment Report” (Jan. 13, 2021).
+6
+CRS, USDA’s ReConnect Program: Expanding Rural Broadband, R47017 (updated Dec. 14, 2022).
+7
+USDA Press Release, Trump Administration Invests More Than $3 Million in High-Speed Broadband in Rural North
+Carolina, No. 0331.20 (July 27, 2020).
+8
+CARES Act, Pub. L. No. 116-136, § 11004,134 Stat. 281, 510, (2020).
+9
+Audit Report 09601-0001-23, Rural eConnectivity Pilot Program (ReConnect Program)—Award Process, July 2023.
+1
+
+INSPECTION REPORT 09801-0001-23
+
+1
+
+Graphic 1: Barriers to Broadband Service in Rural Areas. 10
+
+The Big Picture of the ReConnect Program
+The ReConnect Program provides grants and low-interest loans to eligible internet service providers in
+areas without sufficient access to broadband. 11 USDA’s Reconnect Program is an investment to bring
+reliable and affordable broadband to rural areas. The ReConnect Program offers three different funding
+categories for interested applicants (see below):
+
+10
+11
+
+CRS, USDA’s ReConnect Program: Expanding Rural Broadband, R47017 (updated Dec. 14, 2022).
+The CARES Act defines sufficient broadband as 10 Mbps downstream and 1 Mbps upstream.
+
+INSPECTION REPORT 09801-0001-23
+
+2
+
+100-Percent
+Grant
+
+50-Percent Grant /
+50-Percent Loan
+Combination
+
+100-Percent
+Loan
+
+ReConnect Program—CARES Act
+In March 2020, the CARES Act provided the ReConnect Program with $100 million in funding for
+grants to prevent, prepare for, and respond to the coronavirus. These funds were to be used to cover the
+costs of construction, improvement, or acquisition of facilities and equipment needed to provide
+broadband service in eligible rural areas. The CARES Act funds were provided to serve the same
+purposes as regular program purposes, except that priority consideration was provided to previously
+rejected grant applicants. The program provided funding to support broadband connections, distance
+learning, telehealth, and telework. 12
+Distribution of CARES Act ReConnect Program Funding
+According to RUS press releases, sufficient broadband access would be made available to households,
+farms, and over 400 businesses due to the CARES Act funds received. Also, the funded projects would
+provide broadband access to educational, healthcare, and essential community facilities. There were
+11 ReConnect Program applications that were designated by RUS for CARES Act funding. Between
+June and September of 2020, RUS announced funding awards for 9 projects that totaled nearly
+$85 million. 13 Two additional projects were funded in 2021 that totaled more than $12 million using
+CARES Act funds. Additionally, RUS designated $3 million for oversight and underwriting activity
+administrative expenses.
+
+12
+13
+
+CARES Act, Pub. L. No. 116-136, 134 Stat. 281 (2020).
+The other two applications were rejected and received no CARES Act or regular program funds.
+
+INSPECTION REPORT 09801-0001-23
+
+3
+
+Administrative and
+oversight activities
+$3,000,000
+
+North Carolina
+$5,532,674
+
+Texas $4,488,894
+
+Missouri $2,932,365
+
+Utah
+$7,561,538
+Mississippi $16,091,872
+Tennessee $4,917,150
+
+Oklahoma $29,791,961
+
+Maryland $13,108,229
+
+Georgia $12,575,317
+
+Graphic 2: Distribution of $100 Million CARES Act ReConnect Program Funds Awarded to Service Providers for
+Projects Within Each State. Graphic created by USDA OIG.
+
+Recent USDA OIG Broadband Audit
+We issued an audit report on July 28, 2023, on the USDA RUS ReConnect Program. 14 In the report, we
+concluded that RUS’ mapping tool had a systemic programming error that caused the number of
+households without sufficient access to broadband to be overstated for some applications. Specifically,
+when an applicant adjusted or redrew their Proposed Funded Service Area (PFSA), the programming
+error allowed multiple underserved areas to be drawn on top of each other and allowed the system to
+count households without sufficient access to broadband more than once. As a result, we questioned
+two approved applications, valued at more than $17.8 million, in which the number of households
+without sufficient access to broadband in a PFSA was larger than the total number of households in the
+PFSA. One of the questioned applications, in the amount of more than $16 million, was awarded
+CARES Act funds.
+We recommended that RUS: (1) implement a process to test mapping software to ensure that the
+software programing error found does not exist in new systems; and (2) review and confirm the
+percentage of households without access to broadband was within the eligibility parameters for
+approved applications in ReConnect Program Round 1, Round 2, and the CARES Act to ensure that only
+eligible projects received ReConnect Program funding.
+14
+
+Audit Report 09601-0001-23, Rural eConnectivity Pilot Program (ReConnect Program)—Award Process, July 2023.
+
+INSPECTION REPORT 09801-0001-23
+
+4
+
+RUS officials agreed with our findings and recommendations, and we accepted management decision on
+all two recommendations.
+Scope and Methodology
+This informational report provides general information and highlights CARES Act funding as of
+June 30, 2023. This informational report does not contain any findings or recommendations, and it was
+prepared using information obtained during the audit work and from public sources. We provided a draft
+of this product to RUS management for their review and technical comments; no comments were
+provided.
+We conducted this inspection in accordance with the Council of the Inspectors General on Integrity and
+Efficiency’s Quality Standards for Inspection and Evaluation. We believe the evidence obtained is
+sufficient and appropriate to support the information in this report.
+ReConnect program broadband installation (banner photo). USDA photo by Preston Keres. All photographs are from
+USDA’s Flickr site and are in the public domain. They do not depict any particular audit or investigation.
+
+INSPECTION REPORT 09801-0001-23
+
+5
+
+Abbreviations
+CARES Act............................Coronavirus Aid, Relief, and Economic Security Act
+COVID-19..............................coronavirus disease 2019
+FCC ........................................Federal Communications Commission
+PFSA ......................................Proposed Funded Service Area
+RUS ........................................Rural Utilities Service
+USDA.....................................United States Department of Agriculture
+
+INSPECTION REPORT 09801-0001-23
+
+6
+
+Learn more about USDA OIG
+Visit our website: https://usdaoig.oversight.gov/
+Follow us on Twitter: @OIGUSDA
+How to Report Suspected Wrongdoing in USDA Programs
+Fraud, Waste, and Abuse
+File complaint online: https://usdaoig.oversight.gov/hotline
+Monday–Friday, 9:00 a.m.– 3:00 p.m. ET
+In Washington, DC 202-690-1622
+Outside DC 800-424-9121
+TDD (Call Collect) 202-690-1202
+Bribes or Gratuities
+202-720-7257 (24 hours)
+
+In accordance with Federal civil rights law and U.S. Department of Agriculture (USDA)
+civil rights regulations and policies, the USDA, its Agencies, offices, and employees,
+and institutions participating in or administering USDA programs are prohibited from
+discriminating based on race, color, national origin, religion, sex, gender identity (including gender expression), sexual orientation, disability, age, marital status, family/
+parental status, income derived from a public
+assistance program, political beliefs, or reprisal or retaliation for prior civil rights activity, in any program or activity conducted or funded by USDA (not all bases apply to
+all programs). Remedies and complaint filing deadlines vary by program or incident.
+
+To file a program discrimination complaint, complete the USDA Program Discrimination
+Complaint Form, AD-3027, found online at How to File a Program Discrimination Complaint
+and at any USDA office or write a letter addressed to USDA and provide in the letter all of
+the information requested in the form. To request a copy of the complaint form, call (866)
+632-9992. Submit your completed form or letter to USDA by: (1) mail: U.S. Department of
+Agriculture, Office of the Assistant Secretary for Civil Rights, 1400 Independence Avenue,
+SW, Washington, D.C. 20250-9410; (2) fax: (202) 690-7442; or (3) email: program.intake@
+usda.gov.
+USDA is an equal opportunity provider, employer, and lender.
+
+Persons with disabilities who require alternative means of communication for program information (e.g., Braille, large print, audiotape, American Sign
+Language, etc.) should contact the responsible Agency or USDA’s TARGET Center at
+(202) 720-2600 (voice and TTY) or contact USDA through the Federal Relay Service
+at (800) 877-8339. Additionally, program information may be made available in
+languages other than English.
+
+All photographs on the front and back covers are from USDA’s Flickr site and are in the
+public domain. They do not depict any particular audit, inspection, or investigation.
+
+
