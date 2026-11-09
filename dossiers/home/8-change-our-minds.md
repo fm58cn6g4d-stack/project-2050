@@ -188,6 +188,19 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 - **What we'd do instead.** Prices: lower the amount, or limit it to newly built homes, in the places affected. Reach: move more of the money to the first-generation queue. Defaults: stronger counseling and agency servicing, as the evidence favors [EV-HOU-537]. The fund: the premium rises only as far as the safety line needs. Homes to buy: the unused loan room returns to rentals.
 - **Kind.** Review. None of these ends a buyer's help once given.
 
+### 1.15 Repair and aging in place (memos 11 and 12; HOU-12.01 to .04, HOU-13.01 to .04, HOU-3C.06)
+
+- **Main uncertainties.** Whether contractors can be found at the fund's scale [EV-HOU-655]; whether repairs keep owners in their homes, which no study measures; whether the crime finding holds outside Philadelphia [EV-HOU-646]; how many states join the tax match, and whether relief keeps older owners in place [EV-HOU-681]; whether CAPABLE's gains last [EV-HOU-688].
+- **What would change our minds.**
+  - *Waits:* median waits for repair above a year in more than a third of grantees after FY2032 (judgment).
+  - *Reach:* the share of grants to owners under 50% of area median income falling below half (judgment).
+  - *Rents:* rents on landlord-loan units rising faster than the local market after the three-year term (judgment).
+  - *Tax match:* fewer than 15 states joined by FY2034, or enrollment under a third of eligible older owners in joined states (judgment).
+  - *Older-adult track:* no fall in falls or nursing-home moves among people served, against a comparison group, by 2035.
+- **Who sees it, when.** HUD's yearly repair report, from 2031; Treasury and HUD's yearly tax-match report; the clean-power and care dossiers when they reach CLI-5W and HLT-4.
+- **What we'd do instead.** Waits: shift money toward grantees that spend it and add contractor help. Reach: guidance on order of need, not a quota. Rents: a longer term for repeat borrowers. Tax match: simpler standards or a higher match rate in early years. Older-adult track: keep the repairs, drop the visits, and leave the clinical part to care.
+- **Kind.** Review. None of these ends a household's help once given.
+
 ## 2. Political and legal events
 
 | Event | Signal and source | Threshold | What we'd do instead | Kind |

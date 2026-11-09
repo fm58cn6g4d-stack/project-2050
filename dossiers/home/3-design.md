@@ -444,7 +444,7 @@ Espen asked on November 9, 2026 for ways to make sure homeowners and renters can
 - **Memo 11, `memos/11-repair.md`** (three parts): a standing ten-year home repair fund for low- and moderate-income owners through states, cities and tribes, with one plain income test and no credit test (recommended); landlord repair loans with the ROAD to Housing Act pilot's three-year rent term, city repair funds, receivership and relocation help (recommended); and one front door with the clean-power heat-pump and weatherization programs, the fund paying for the repairs that make a home ready (recommended).
 - **Memo 12, `memos/12-aging-in-place.md`** (four parts): a federal match for state property-tax relief for older owners that enrolls them from records and offers deferral (recommended); an older-adult track in the repair fund on the CAPABLE model, leaving the clinical benefit to the care program (recommended); legal help for tangled titles and wills, reverse-mortgage relief written into law, and a payment-plan offer before tax sales (recommended); and HOU-3C pointed at older renters' homes with service coordinators (recommended). Rental help for older renters who are not disabled still waits on the care program (`DEC-2026-11-09-10`).
 
-Sections 4-9 take up whichever options Espen chooses; nothing here is adopted by silence.
+**Decided** (`DEC-2026-11-09-21`, `-22`): every part as recommended, with memo 11 part 3 C left open for the clean-power dossier, memo 12 part 2 C noted for the care dossier and part 4 B to follow if the GAO study warrants. Sections 4-8 carry them as HOU-12, HOU-13 and HOU-3C.06; section 9 follows in its own step.
 
 ## How the choices fit together
 

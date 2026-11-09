@@ -311,6 +311,18 @@ Memos 9 and 10 were decided after this section's checks (`DEC-2026-11-09-19`, `-
 - **The insurance fund.** FHA's capital ratio was 11.47% in fiscal 2025, 4.42% under a severe stress [EV-HOU-552]. The 3% safety line (proposed) protects the fund before the 2% legal floor.
 - **No cliff.** Buyer help is one-time at closing and uses the mortgage file's income, so it adds no phase-out to the rental help's stack (3.2).
 
+### 3.7 Repair and aging in place (memos 11 and 12)
+
+Memos 11 and 12 were decided after this section's checks (`DEC-2026-11-09-21`, `-22`). The checks below apply its method to them.
+- **Reach.** The repair fund reaches low-income owners, a group the rental help never touches: households under 200% of poverty carry $74.6 billion of the repair need [EV-HOU-602]. At about $37 billion over the window it meets perhaps half of that, so waits will remain (judgment).
+- **Who is turned away.** No credit test and no tax-current test, the two rules that cut Detroit's approval rate for its poorest applicants to 22% [EV-HOU-661] and screen out Philadelphia's owners who are behind [EV-HOU-648].
+- **Rents after repair.** Enforced repairs can raise rents [EV-HOU-668]. The landlord loans' three-year term and the rule against passing public money into rent limit that for repaired units only; HUD's yearly report should track rents on them.
+- **Clean power.** Weatherization's energy savings are contested [EV-HOU-636] [EV-HOU-638]; the one front door is justified by health and safety and by serving deferred homes [EV-HOU-639], not by energy savings alone.
+- **Older owners.** The tax match reaches owners 65 or over up to 80% of area median income; its effect on staying put rests on one study's upper-bound estimate [EV-HOU-681]. Take-up depends on automatic enrollment, which is why yearly requalification is barred [EV-HOU-683].
+- **The care line.** CAPABLE's disability gains faded by 12 months and its savings estimate is nonrandomized [EV-HOU-688] [EV-HOU-687]; HOU-12.04 reports outcomes from the start so the care dossier can decide on evidence.
+- **Older renters.** HOU-3C.06 and the coordinators add homes and services, not rental help; the 1.749 million extremely low-income older households with severe problems [EV-HOU-186] still have no funded route until the care program is scoped (`DEC-2026-11-09-10`).
+- **No cliff.** The repair fund is one-time help and the tax match uses the state's own records, so neither adds a phase-out to the rental help's stack (3.2).
+
 ## 4. Who it reaches
 
 Memo 8 promised that this section would check who the order reaches by race, place and disability.
