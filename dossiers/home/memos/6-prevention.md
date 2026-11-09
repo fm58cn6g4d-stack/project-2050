@@ -1,6 +1,6 @@
 # Memo 6: Emergency rent help
 
-Role: decision memo for Espen, fork 6 of the housing design (`../3-design.md`). Status: awaiting Espen's decision. Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
+Role: decision memo for Espen, fork 6 of the housing design (`../3-design.md`). Status: decided by Espen: C (November 9, 2026; `DEC-2026-11-09-04`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 ## The question
 

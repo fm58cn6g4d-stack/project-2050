@@ -1,6 +1,6 @@
 # Dossier: A home you can keep (flagship 3)
 
-Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C. Level: housing items are at L1 until Espen decides the section 3 memos (`DEC-2026-10-30-03`, PR #75); their designs are carried over from `legacy/domains/domain-housing.md`. The target is L3, with priority pieces at L4.
+Role: the housing flagship (`charter/PLAN.md` 3.1). Status: in progress, stage C. Level: the housing items Espen decided in section 3 (`DEC-2026-11-09-01` to `-06`) are at L2 in `agenda/agenda.csv`; the rest stay at L1, including the tax credits (HOU-2, memo 3 part 1 reopened) (`DEC-2026-10-30-03`, PR #75); their designs are carried over from `legacy/domains/domain-housing.md`. The target is L3, with priority pieces at L4.
 
 **What it brings together:**
 - rental help as a guarantee;
@@ -36,6 +36,6 @@ Evidence register: `evidence.json`, entries EV-HOU-001 onward.
 
 ## Open questions for Espen
 
-1. **Seven design decisions (section 3).** One memo each in `memos/`: where new rental help goes in tight and loose markets (`1-help-or-homes.md`); how broad the rental guarantee is (`2-how-broad.md`); tax credits and lasting affordability, a federal builder of last resort, and the construction capital (HOU-3C), as three parts (`3-production.md`); what the zoning reward pays for, revised for the ROAD to Housing Act (`4-zoning.md`); Housing First (`5-homelessness.md`); a standing emergency-rent fund (`6-prevention.md`); who the guarantee reaches first (`8-who-first.md`). Each is decided on its own. Memos 1, 2, 3 and 8 now decide the form, scale and funding of HOU-4A, HOU-4D and HOU-3C: the recommendations keep their amounts, HOU-4A's pace and mandatory funding, change what HOU-4D buys (a guarantee for extremely low-income families with children from 2034), let part of HOU-4A's 2032-33 awards be attached to homes in tight markets, and open HOU-3C to buying and preserving buildings. Section 3 also asks a yes or no on fork 7 and on eight narrower points ("Recommended without a memo"), including the investor limit (HOU-7 or HOU-7B).
+1. **Housing memo 3, part 1 (tax credits), reopened.** Espen decided the other section 3 memos and points between October 29 and November 9, 2026 (`DEC-2026-11-09-01` to `-06`; each memo's status line gives its decision). Part 1 waits on a deeper research revision covering U.S. federal proposals, a middle-income credit included (worker session_01UQzgBtwmZTQ5KDasf1JQUB). Memo 5's follow-up research on supportive housing and behavioral health (worker session_01UQzgBv1hxxPY6YUSFFYS1g) feeds section 4.
 2. **Optional uploads for section 2.** HUD's Family Options Study reports and *A Picture of Subsidized Households*, and CBO's analysis of the 2023 immigration surge (publication 61464), would replace secondary summaries. The list is at the end of `2-what-works.md`.
 3. **Optional upload.** HUD's *2025 Annual Homelessness Assessment Report*, Part 1 (May 2026) would raise the 2025 homelessness figures from grade C to A. The 2024 report and *Worst Case Housing Needs 2025* are in the library (thanks for uploading them).

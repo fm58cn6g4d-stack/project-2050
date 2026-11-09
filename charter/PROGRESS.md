@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 8, 2026 by Claude Code (stage B, step 1).
+Updated November 9, 2026 by Claude Code (lead: health direction noted).
 
 ## Standing sessions
 
@@ -39,7 +39,8 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | C. First dossiers | 4c. Housing: point 5 of "Recommended without a memo" worked out rule by rule (emergency-aid rules: eligibility, risk screen, caps, self-attestation and checks, landlord applications, error measurement, grantee network, data standard), within memo 6's options | Most capable | Done: `dossiers/home/point-5-emergency-aid-rules.md` (PR #93); text versions SRC-0990 to 0995, citation rows SRC-1060 to 1069; approved by Espen as written, November 8 | Claude Code (session_01UQzgBxGYju6momc4d3CoJd) | Merged (#93); approval recorded in #103 |
 | C. First dossiers | 4e. Housing: research note on supportive housing with ongoing services and behavioral health treatment, under memo 5 (B, approved by Espen November 9): treatment best practices, permanent supportive housing, low-barrier models with an expectation of engagement, federal scaling, recommendations for section 4 | Most capable | In review: `dossiers/home/research-supportive-housing.md`; EV-HOU-300 to 339; SRC-1340 to 1376 (14 saved texts, 23 citation rows). Recommends a contact expectation written as a duty on providers, never a ground for losing housing; nine recommendations for section 4, for Espen | Claude Code (session_01UQzgBv1hxxPY6YUSFFYS1g) | Branch `claude/housing-supportive-housing-research` |
 | C. First dossiers | 4d. Housing: memo 3 part 1 (tax credits and lasting affordability), re-opened by Espen November 9: the federal bills (LIHTC expansion, middle-income and workforce credits, Neighborhood Homes), their evidence and state analogues, design variants including a blend, a revised recommendation | Most capable | In review: part 1 of `dossiers/home/memos/3-production.md` revised (options A-C kept, new D, a narrowed blend of all three credits, recommended); detail in `dossiers/home/memo-3-part1-research.md`; EV-HOU-260 to 284, SRC-1260 to 1274. Waits on Espen's decision on part 1 | Claude Code (session_01UQzgBtwmZTQ5KDasf1JQUB) | Branch `claude/housing-memo3-part1-research` |
-| C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (with Codex on the budget model) | Most capable | Later: starts once Espen decides the section 3 memos | Claude Code, Codex | — |
+| C. First dossiers | 4f. Housing: record Espen's section 3 decisions (`DEC-2026-11-09-01` to `-06`), memo statuses, agenda rows; health direction (`DEC-2026-11-09-07`) | Most capable | In review (tier 3, needs Espen's label). All memos and points decided except memo 3 part 1, reopened for research | Claude Code (session_01UQzgBx6gAsCr9hXdHVxrQy) | Branch `claude/health-m4a-direction` |
+| C. First dossiers | 5. Housing sections 4-6: specification, delivery, cost (on the budget model) | Most capable | In progress: section 4 (#136), section 5 (#137) and section 6 by workers, stacked on 4f (#135); the tax credits wait on Espen | Claude Code | Branches `claude/housing-section-4`, `-5`, `-6` |
 | C. First dossiers | 6. Housing sections 7-9; L2/L3 milestone review | Most capable | Later | Claude Code; reviewer | — |
 | C. First dossiers | 7. Transportation converted as the reference dossier; template fixes | Standard to convert; Most capable for gaps | Later | Claude Code | — |
 
@@ -60,12 +61,7 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 
 ## Open PRs
 
-- Stage B step 3b: round 2 scenario files (`claude/scenario-2027-28-r2`).
-
-- Stage C step 4b: housing section 3 refresh under `DEC-2026-10-30-02` (`claude/housing-design-refresh`).
-
-- Stage C step 4: housing section 3, design choices (`claude/stage-c-housing-4`).
-- Stage C step 2: 2025 ACS refresh and shared-rules fixes (`claude/acs-2025-refresh`).
+- Stage C step 4f: housing section 3 decisions and the health direction (`claude/health-m4a-direction`, tier 3).
 
 ## Done (recent)
 
@@ -95,6 +91,10 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 - **Front-door edition.** `public/site/index.html` is pinned to an older evidence commit and is rebuilt in stage H.
 
 - **Standards wording.** The data-versus-analysis and corroboration rule Espen asked for on October 28 is in `dossiers/TEMPLATE.md` and the checker. It also belongs in `charter/STANDARDS.md`, which is tier 3: proposed for the next charter PR, with Espen's stage A sign-off for `charter/decisions.md`.
+
+## Directions for later stages
+
+- **Health (stage D, flagship 2): weigh Medicare for All in full.** Espen, November 9, 2026: "when we get to healthcare in the dossier workflow i want to take a serious look at medicare for all fyi (not just a public option or "medicare for all who want it")". The health dossier treats single-payer as a full design option, given the same evidence, cost, coverage and transition work as a public option, not as a reference alternative. `charter/PLAN.md` (flagship 2 and the health coverage model row) names only a public option; the health session proposes the wording change in its first charter PR (tier 3). The coverage model must be able to score it.
 
 ## Questions for Espen
 

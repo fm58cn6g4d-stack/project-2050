@@ -1,6 +1,6 @@
 # Memo 8: Who the guarantee reaches first
 
-Role: decision memo for Espen, fork 8 of the housing design (`../3-design.md`), section 1's open question. Status: awaiting Espen's decision. Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
+Role: decision memo for Espen, fork 8 of the housing design (`../3-design.md`), section 1's open question. Status: decided by Espen: as recommended, with the guarantee, vouchers and emergency help harmonized and their interactions with other Project 2050 policies assessed by group (November 9, 2026; `DEC-2026-11-09-06`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 **This memo also decides the pace of the million new vouchers (HOU-4A) and which group the $135 billion envelope (HOU-4D) reaches.** On October 30 you made both working choices rather than settled ones (`DEC-2026-10-30-02`). The recommendation keeps HOU-4A's pace as filed, 250,000 a year from 2030 to 2033, and, with memo 2's recommendation, points HOU-4D at the second group in line.
 
@@ -58,7 +58,7 @@ It rests on three findings:
 2. Children gain most from early moves (Chetty, Hendren and Katz, 2015) [EV-HOU-090].
 3. One-time help serves renters at imminent risk: about $2,000 once cut homelessness sharply in one trial (MIT Press Reader, 2023, on Phillips and Sullivan's trial) [EV-HOU-109]. That compares with about $15,200 a year for a voucher, the plan's planning figure (`legacy/domains/domain-housing.md`, HOU-4A); the comparison is this dossier's.
 
-Under memo 2's recommendation, the million vouchers cover step 1 and the start of step 2; the $135 billion then enrolls the rest of step 2, the poorest families with children with severe problems, at up to 300,000 a year from 2034, so that every family in the group can get help from 2037. Step 3 follows only when the budget allows: under memo 2's recommendation it has no funded route in the 2030s, a change from the earlier draft, which phased all three steps in.
+Under memo 2's recommendation, the million vouchers cover step 1 and the start of step 2; the $135 billion then enrolls the rest of step 2, the poorest families with children with severe problems, at up to 300,000 a year from 2034, so that every family in the group can get help from 2037. Step 3 depends on memo 2's decision (Espen, November 3, 2026: B with a condition). Extremely low-income renters with long-term disabilities are step 3's first group. They are enrolled from 2038, when step 2 completes, with their definition and services designed with the care flagship and their cost carried in section 6 and the financing settlement, outside the $135 billion. Other step 3 households, including older renters who are not disabled, still have no funded route in the 2030s.
 
 Renters about to lose their homes get help from memo 6's emergency fund, not this line. If you keep a one-time package instead (memo 6, A or B), they would have no national help after 2031; then this order should set aside a small share of vouchers for them.
 
