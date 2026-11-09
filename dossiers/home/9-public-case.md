@@ -43,7 +43,7 @@ The plan starts in 2029 and builds one rental help system, step by step, reachin
 
 **Rewards for places that allow homes.** Towns and states that change their rules get paid for homes actually finished, and new transportation money comes with the same condition (HOU-6.01, HOU-6.02).
 
-**Tribal housing.** Tribes get their own shares: 3% of the emergency fund, 3% of the new rent awards and 5% of the construction grants, about $13 billion over the decade, through tribal governments and under each tribe's own plan (HOU-4.13; `DEC-2026-11-09-16`).
+**Tribal housing.** Tribes get their own shares: 3% of the emergency fund, 3% of the new rent awards and 5% of the construction grants, about $14 billion over the decade, through tribal governments and under each tribe's own plan (HOU-4.13; `DEC-2026-11-09-16`).
 
 **Targets anyone can check.** About 1.3 million homes the plan pays for, built or preserved, over 2030-39; homes finished in rewarded places at least 1% of their stock above their own past pace; and a national goal of 15 million homes finished in the decade, today's pace held steady (HOU-3C.04; `DEC-2026-11-09-17`).
 
@@ -133,7 +133,7 @@ These follow section 7's objections (`7-validation.md`, 5). Each answer says wha
 | "Housing First works for people with serious mental illness" | "Housing First fixes addiction" | Evidence for active severe addiction is limited [EV-HOU-105] |
 | "It would be illegal to refuse a tenant for paying with a voucher" | "Landlords must take vouchers now" | It needs the regular bill to pass (HOU-4.06) |
 | "Protects mixed-status families' help" | "Covers undocumented immigrants" | It protects the eligible members' prorated help (HOU-4.01) |
-| "Tribes get their own shares, about $13 billion" | "Meets tribal housing need" | No count of tribal need yet; a 2032 report will measure it (HOU-4.13) |
+| "Tribes get their own shares, about $14 billion" | "Meets tribal housing need" | No count of tribal need yet; a 2032 report will measure it (HOU-4.13) |
 | "Some vouchers raise rents where homes can't be built; the plan watches for it" | "Vouchers never raise rents" | The research is split [EV-HOU-096] [EV-HOU-397] |
 | Figures with their year: "in 2025", "in 2023" | Old figures as if current | Each figure has its date in part 3 |
 
@@ -159,7 +159,7 @@ Every number in part 1, with the section that carries it and the evidence behind
 | Emergency fund cap: four months of Fair Market Rent per 12 months | 4 | HOU-1D.01; `DEC-2026-11-09-17` |
 | Emergency fund: $15 billion start; about $5 billion a year; about 1.4 million households a year | 6, 7 | `6-cost.md` 1.2 and 2.2; `7-validation.md` 1.6 |
 | About $72 billion of revolving-fund grants; $300 billion of loans | 4, 6 | HOU-3C.01, HOU-3C.02; `6-cost.md` 1.2 |
-| Tribal shares 3%, 3%, 5%; about $13 billion | 4 | HOU-4.13; `DEC-2026-11-09-16` |
+| Tribal shares 3%, 3%, 5%; about $14 billion with stage 2's wider entry (about $13 billion when decided) | 4, 6 | HOU-4.13; `DEC-2026-11-09-16`; `6-cost.md` 2.6 |
 | About 1.3 million homes the plan pays for; 1% above past pace in rewarded places; 15 million national goal | 4 | HOU-3C.04; `DEC-2026-11-09-17`; EV-HOU-440 to 445 |
 | Plan's direct count about 9% of the national goal; its own net addition about 0.3-0.7 million; about 1.0 million net new homes with the zoning reward, net of overlap | 4 | HOU-3C.04 (section 4's arithmetic) |
 | About 2.2-2.7 million households housed by FY2042, with stage 2's wider entry; 2.7 million at 90% leased, 2.2 million at 75%; about 900,000 from the first million by FY2034 | 6 | `6-cost.md` 1.4 (section 6's arithmetic) |
