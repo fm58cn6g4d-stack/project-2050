@@ -19,7 +19,8 @@ Role: section 6 of the housing dossier. It prices each provision of section 4 (`
    - Swapped into it, this section's central housing costs use up that margin. FY2040 then fails by about $9 billion counting the permanent lines alone, or $25 billion with the capital tail. From FY2041 the test passes again, by about $23 billion, and by more each year after.
    - The high case fails FY2040 and FY2041. The low case passes.
    - So housing's new permanent costs are not yet paid for in FY2040. The financing settlement has to cover them, or the timing has to change (questions 1 and 5).
-4. **Stage 3 checks out at the lead's rough figure.** On HUD's 2023 counts, about 0.5-0.8 million households qualify if the stage covers people under 62 with severe housing problems. Fully enrolled, they cost about $14 billion a year in FY2042 dollars (range $8-26 billion). If stage 3 also covers disabled people 62 and over, the count could roughly double, and it is unpriced.
+4. **Lease-up is the softest input** (section 1.4). The central 90% leased is the cautious case for the fiscal rule. At 75% the plan costs about $0.54 trillion and houses about 2.0 million households in FY2042 rather than 2.4 million. At 57%, 2022's national search success rate, it costs about $0.50 trillion and houses about 1.5 million.
+5. **Stage 3 checks out at the lead's rough figure.** On HUD's 2023 counts, about 0.5-0.8 million households qualify if the stage covers people under 62 with severe housing problems. Fully enrolled, they cost about $14 billion a year in FY2042 dollars (range $8-26 billion). If stage 3 also covers disabled people 62 and over, the count could roughly double, and it is unpriced.
 
 ## 1. Each provision's cost
 
@@ -81,6 +82,28 @@ FY2030-39 outlays in billions, central (low-high). "BA" is budget authority. FY2
   - Central: about $81 billion through FY2039 and $22 billion in FY2039. Memo 2's arithmetic gave $114 billion at full sign-up, or $123 billion with fees, and about $27 billion a year by 2039. The central case is lower because it counts take-up, the lease-up lag and the leased share; the high case, at full sign-up, is $142 billion.
   - **The $135 billion envelope fits the window but books the wrong years.** The recovery budget spreads it from FY2030 on a four-year ramp (`models/tools/recovery-budget/model.py`, `housing_extra`). So it carries about $35 billion in FY2030-33, before stage 2 opens, and $18.9 billion in FY2040, against $22.7 billion here. The window cost is overstated and the maturity cost understated. Section 5 lists the fix.
 - **Stage 2's exit rule** (families keep help while under 80% of area median income, section 4) is inside the flat-count assumption. A tighter line, such as 50%, would lower the mature count. The register has no exit data to price it.
+
+### 1.4 Lease-up sensitivity: cost and households housed
+
+The leased share is the rental help lines' weakest input. National vouchers run 84% occupied [EV-HOU-370]. Emergency Housing Vouchers reached 67% after about two years [EV-HOU-345]. Section 7 (PR #139) cites a national search success rate of 57% in 2022, from the NYU Furman Center. It also cites the Urban Institute's warning, made at a 61% success rate, that success "would likely fall" as more households search. The table moves only the leased share; every other input stays central. It covers the rental help lines: HOU-4A, HOU-4D and HOU-4.08, with fees, search help and the higher payment standards.
+
+| Leased share at steady state | Rental help, FY2030-39 | Rental help, FY2040 | Households housed: first million (FY2034) | Stage 2 (FY2039) | Stage 3 (FY2042) | All three (FY2042) |
+| --- | --- | --- | --- | --- | --- | --- |
+| 57% | $160 billion | $36 billion | 570,000 | 580,000 | 340,000 | 1.49 million |
+| 75% | $208 billion | $47 billion | 750,000 | 765,000 | 450,000 | 1.97 million |
+| **90% (central)** | **$248 billion** | **$57 billion** | **900,000** | **920,000** | **540,000** | **2.36 million** |
+
+**What each case means for the headline** (option B; this section's arithmetic):
+- **At 75%:** housing costs about $0.54 trillion over the window and $86 billion in FY2040. The permanent lines then pass FY2040 by about $0.3 billion; with the capital tail, FY2040 still fails by about $16 billion. About 390,000 fewer households are housed in FY2042.
+- **At 57%:** about $0.50 trillion and $75 billion. The permanent lines pass FY2040 by about $12 billion; with the tail, FY2040 fails by about $5 billion. About 870,000 fewer households are housed in FY2042.
+
+**Why the central figure stays at 90%.** Two reasons; neither is a forecast that the plan will reach 90%.
+- **It is the cautious case for the fiscal rule.** Cost rises with lease-up, so the test should be passed at the lease-up the plan is built to reach, not at a shortfall that would also mean the plan failed people.
+- **It is what the statute's design aims at.** Fees are paid in full, search help comes with every award, agencies may issue more vouchers than awards, unused awards move to other agencies, and source-of-income protection applies (section 5, 2.2 and 2.3).
+
+**The 57% figure is a lower bound, not a steady state.** It is the share of searches that succeed. A voucher whose search fails goes back to be reissued, so the leased share of awards over time sits above one-shot search success. The national 84% occupancy shows the gap.
+
+**For reach, read the 75% row beside the central one.** Section 7 rates lease-up at risk, and the first awards land in tight markets. Until the plan's own data show otherwise, households housed should be reported as a range: about 2.0-2.4 million across the three stages in FY2042. Lower lease-up is not a saving. The money stays available until spent, so unleased awards are help not delivered, and the 2037 right applies to the families still searching (section 7). Section 7 sets a warning line: below 70% leased at 18 months nationally. No decision changes here.
 
 ## 2. The new costs the decisions add
 
