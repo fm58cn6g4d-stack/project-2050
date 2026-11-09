@@ -8541,5 +8541,1166 @@
   "supports": [
    "dossiers/home/research-supportive-housing.md"
   ]
+ },
+ {
+  "id": "EV-HOU-340",
+  "statement": "HUD's workforce fell by about 29 percent between December 2024 and December 2025, from about 8,800 to about 6,300 employees; over half of those who left had at least 10 years at HUD, including 41 percent with more than 20, and HUD hired 193 employees in 2025.",
+  "claim": "data",
+  "figures": [
+   "29",
+   "8,800",
+   "6,300",
+   "10",
+   "41",
+   "20",
+   "193"
+  ],
+  "source": "SRC-1440",
+  "anchor": [
+   "HUD\u2019s workforce decreased by about 29 percent between December 2024 and December 2025, from about 8,800 to about 6,300 employees",
+   "Over half of the separated employees had worked at HUD for at least 10 years, including 41 percent who had over 20 years of service",
+   "from January 2025 to December 2025, HUD hired 193 employees"
+  ],
+  "locator": "Section 'HUD Lost 29 Percent of Its Staff', p. 8 and fig. 2",
+  "grade": "A",
+  "fact_date": "2025-12",
+  "recheck": "2027-10-15",
+  "context": "GAO (legislative branch), October 2026, counting OPM workforce data on the second Trump administration's 2025 reductions. HUD did not answer GAO's questions. Data, graded A.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-341",
+  "statement": "In fiscal year 2024, more than one-quarter of VA medical centers with two or more HUD-VASH case managers had at least 20 percent of those positions unfilled, and annual case manager turnover ran from 20 to 26 percent in fiscal years 2020-2024; staffing shortfalls reduced services and delayed admissions.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "20",
+   "26"
+  ],
+  "source": "SRC-1441",
+  "anchor": [
+   "In fiscal year 2024, more than one-quarter of medical centers with two or more case managers had at least 20 percent of these positions unfilled",
+   "annual case manager turnover ranged from 20 percent to 26 percent in fiscal years 2020\u20132024",
+   "The effects of insufficient staffing include reduced services for veterans and delays in admitting new participants."
+  ],
+  "locator": "What GAO Found (product page highlights)",
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2027-03-30",
+  "context": "GAO (legislative branch), March 2026, analyzing VA staffing data for fiscal years 2020-2024 (first Trump and Biden administrations). Data, graded A.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-342",
+  "statement": "Of 174,045 instances of eligible veterans not being referred to HUD-VASH in 2020-2024, VA did not record the reason in 151,296 (87 percent), so it cannot measure how much case-manager shortages keep veterans out.",
+  "claim": "data",
+  "figures": [
+   "174,045",
+   "151,296",
+   "87"
+  ],
+  "source": "SRC-1441",
+  "anchor": [
+   "Of 174,045 instances of veterans not being referred to the program in 2020\u20132024, VA did not document the reason in 151,296 (87 percent), according to GAO\u2019s analysis."
+  ],
+  "locator": "What GAO Found (product page highlights)",
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2027-03-30",
+  "context": "GAO, March 2026. Data, graded A.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-343",
+  "statement": "HUD estimated calendar-2026 administrative fees for Housing Choice Vouchers at 85% proration of what housing agencies are eligible for; Emergency Housing Voucher fees were funded at the full rate and not prorated.",
+  "claim": "data",
+  "figures": [
+   "2026",
+   "85%"
+  ],
+  "source": "SRC-1442",
+  "anchor": [
+   "Administrative fees for CY 2026 were estimated at 85% proration.",
+   "The Emergency Housing Voucher (EHV) program ongoing fees are funded at the HCV\nprogram Column A rate and will not be prorated in CY 2026."
+  ],
+  "locator": "Administrative fee narrative, p. 1",
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-02-01",
+  "context": "HUD notice, second Trump administration, 2026; the proration follows from the FY2026 appropriation Congress passed. NAHRO reported an 86% estimate in August 2026. Data, graded A.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-344",
+  "statement": "A year after Emergency Housing Vouchers were awarded, 87% were leased or issued; more than 26,000 households had leased and nearly 35,000 were searching, and the average time from issuance to lease was 77 days.",
+  "claim": "data",
+  "figures": [
+   "87%",
+   "26,000",
+   "35,000",
+   "77"
+  ],
+  "source": "SRC-1443",
+  "anchor": [
+   "In the last year, EHVs have helped more than 26,000 households secure permanent housing, and nearly 35,000 are searching for a unit or completing the leasing process. 87% of EHVs have been either leased or issued , and on average, the time between an EHV being issued to leasing a home is 77 days."
+  ],
+  "grade": "A",
+  "fact_date": "2022-07",
+  "recheck": "2027-07-01",
+  "context": "USICH announcement, Biden administration, July 2022, with a stake in presenting the program well; the counts come from HUD's EHV dashboard. 'Leased or issued' counts vouchers still searching; the leased share alone was about a third of 70,000 (26,000). Data.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-345",
+  "statement": "As of February 2023, 67 percent of awarded Emergency Housing Vouchers were leased; 129 of 610 housing agencies had leased less than half of their vouchers, and only 62 had leased all of them.",
+  "claim": "data",
+  "figures": [
+   "2023",
+   "67",
+   "129",
+   "610",
+   "62"
+  ],
+  "source": "SRC-1444",
+  "anchor": [
+   "As of February 21, 2023, 67 percent of awarded EHVs were leased",
+   "More than one fifth of PHAs that were awarded EHVs\u2014129 of 610 PHAs\u2014had leased less than half of their total EHV authority.",
+   "Only 62 PHAs have successfully managed to lease all of their EHVs."
+  ],
+  "locator": "Section on lease-up rates, figure 2",
+  "grade": "C",
+  "fact_date": "2023-02",
+  "recheck": "2027-07-01",
+  "context": "Terner Center (UC Berkeley), March 2023, reading HUD's EHV dashboard; independent of the administration that ran the program. Data from HUD's counts, graded C as a secondary tabulation.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-346",
+  "statement": "Emergency Housing Vouchers, 70,000 vouchers allocated to 613 housing agencies in May 2021, helped more than 60,000 households into housing; as of April 2025, 59,323 were still leased. Interviewed agencies credited partnerships with Continuums of Care, existing case managers, separate waiting lists, at least 120 days to search, self-certification of documents and income, pre-inspection and higher payment standards.",
+  "claim": "analysis",
+  "figures": [
+   "70,000",
+   "613",
+   "2021",
+   "60,000",
+   "2025",
+   "59,323",
+   "120"
+  ],
+  "source": "SRC-1448",
+  "anchor": [
+   "In May 2021, HUD allocated 70,000 tenant-based vouchers to 613 public housing authorities (PHAs) across the country. The EHV program has helped move more than 60,000 households into housing, and as of April 2025, 59,323 vouchers are still leased.",
+   "the separate waiting lists for the EHV program, the extension of the minimum initial search term to at least 120 days, self-certification of identity documents and income during applications, preinspection of units, and a higher payment standard for EHVs."
+  ],
+  "locator": "Project summary and key findings",
+  "grade": "C",
+  "fact_date": "2025-04",
+  "recheck": "2027-04-29",
+  "context": "Urban Institute (center-left research organization), April 2025: HUD counts plus 23 interviews in six communities. The counts are data; which features helped is the interviewees' account (analysis).",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-345",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-344",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-347",
+  "statement": "Although the number of vouchers rose slightly from 2010 to 2016, the number of landlords in the Housing Choice Voucher program fell from just over 700,000 to around 640,000, raising vouchers per landlord from 2.6 to 3.1.",
+  "claim": "data",
+  "figures": [
+   "2010",
+   "2016",
+   "700,000",
+   "640,000",
+   "2.6",
+   "3.1"
+  ],
+  "source": "SRC-1445",
+  "anchor": [
+   "although the total number of vouchers increased slightly between 2010 and 2016, the number of landlords decreased from just over 700,000 to around 640,000, resulting in an overall increase in the number of vouchers per landlord from 2.6 vouchers per landlord in 2010 to 3.1 vouchers per landlord in 2016."
+  ],
+  "locator": "Section 3.1, Landlord Participation Trends",
+  "grade": "A",
+  "fact_date": "2016",
+  "recheck": "2027-11-01",
+  "context": "HUD PD&R study, first Trump administration, 2019, counting HUD's administrative (PIC) records. Data, graded A. The same study's interviews found housing agency staff named payment levels and paperwork, more than attitudes to tenants, as why landlords leave.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-348",
+  "statement": "In the Rental Assistance Demonstration evaluation's tenant survey, 82 percent of respondents stayed at the same property through conversion; after conversion 75 percent were back in their original unit, 92 percent in the original property, and just over 2 percent were no longer in subsidized housing.",
+  "claim": "data",
+  "figures": [
+   "82",
+   "75",
+   "92",
+   "2"
+  ],
+  "source": "SRC-1446",
+  "anchor": [
+   "we found that 82 percent of all respondents remained in the same throughout the RAD conversion process",
+   "75 percent were back in their original unit, 92 percent were in the original property, and almost 98 percent were receiving rental assistance of some kind",
+   "Just over 2 percent of respondents reported they were no longer in subsidized housing."
+  ],
+  "locator": "Tenant Relocation, pp. 19-20",
+  "grade": "C",
+  "fact_date": "2019",
+  "recheck": "2027-11-01",
+  "context": "HUD-commissioned evaluation (Econometrica), first Trump administration, 2019. A survey of 298 residents of 18 early conversions, with a 31% enrollment rate; NLIHC (2019) counted 13 of the 18 in the South and notes the sample may not represent later conversions. HUD's data could not track movers. Survey data, graded C for the small, unrepresentative sample.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-349",
+  "statement": "In a 2023 survey of homeless services workers, 55 percent of full-time respondents earned under $50,000 a year, three in four said their organizations were understaffed, and 71 percent said high turnover was an issue at their jobs.",
+  "claim": "data",
+  "figures": [
+   "55",
+   "50,000",
+   "71"
+  ],
+  "source": "SRC-1447",
+  "anchor": [
+   "Of those responding (and working at leady 35 hours per week), 55 percent were making under $50,000 per year.",
+   "Three out of every four workers indicated that their organizations/agencies were understaffed",
+   "71 percent of respondents said that this was an issue at their jobs."
+  ],
+  "locator": "Salaries; Difficult Work Environments",
+  "grade": "C",
+  "fact_date": "2023",
+  "recheck": "2027-12-01",
+  "context": "National Alliance to End Homelessness (advocacy organization), December 2023: a convenience survey of its own networks, not a random sample, and mostly college-educated respondents. Its summary also says 55 percent earned under $55,000; the salary table gives under $50,000, used here. Data with a stake in the answer, graded C.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-350",
+  "statement": "The first round of Emergency Rental Assistance set aside $0.800 billion for governments in tribal areas, allocated in proportion to FY2020 Native American Housing Block Grant payments; the second round had no tribal set-aside.",
+  "claim": "data",
+  "figures": [
+   "$0.800 billion",
+   "FY2020"
+  ],
+  "source": "SRC-0304",
+  "anchor": [
+   "$0.800 billion was set aside for governments in tribal areas, with individual\ngovernment allocations distributed in proportion to relative payments made under\nthe Native American Housing Block Program in FY2020;",
+   "ERA-2 did not include a tribal set-aside"
+  ],
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-01",
+  "context": "CRS (nonpartisan legislative-branch agency), January 2023, summarizing the enacted laws. Data.",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-351",
+  "statement": "A housing agency may use for project-based vouchers not more than 20 percent of its authorized units, plus up to an additional 10 percent for homeless families, veterans, supportive housing and areas where vouchers are difficult to use.",
+  "claim": "data",
+  "figures": [
+   "20",
+   "10"
+  ],
+  "source": "SRC-1449",
+  "anchor": [
+   "a public housing agency may use for project-based assistance under this paragraph not more than 20 percent of the authorized units for the agency.",
+   "A public housing agency may use up to an additional 10 percent of the authorized units for the agency for project-based assistance under this paragraph"
+  ],
+  "locator": "42 U.S.C. 1437f(o)(13)(B)(i)-(ii)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "context": "Primary law, as amended through 2026.",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-352",
+  "statement": "A family in a project-based voucher unit may move at any time after 12 months and must be given tenant-based help, but if none is immediately available the agency may meet the duty by giving the family priority for the next voucher that becomes available.",
+  "claim": "data",
+  "figures": [
+   "12"
+  ],
+  "source": "SRC-1449",
+  "anchor": [
+   "may move from the housing at any time after the family has occupied the dwelling unit for 12 months.",
+   "such requirement may be met by providing the family priority to receive the next voucher or other tenant-based rental assistance amounts that become available"
+  ],
+  "locator": "42 U.S.C. 1437f(o)(13)(E)(i)-(ii)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "context": "Primary law, as amended through 2026.",
+  "supports": [
+   "dossiers/home/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-370",
+  "statement": "At the end of 2023, 2404197 Housing Choice Voucher households were reported in 2752351 voucher units, 84% occupied; average HUD spending per voucher unit was $1068 a month.",
+  "claim": "data",
+  "figures": [
+   "2404197",
+   "2752351",
+   "84%",
+   "$1068"
+  ],
+  "source": "SRC-0428",
+  "anchor": [
+   "Housing Choice Vouchers | total_units = 2752351",
+   "Housing Choice Vouchers | pct_occupied = 84",
+   "Housing Choice Vouchers | number_reported = 2404197",
+   "Housing Choice Vouchers | spending_per_month = 1068"
+  ],
+  "grade": "A",
+  "fact_date": "2023-12",
+  "checked": "2026-11-09",
+  "recheck": "2027-10-28",
+  "note": "HUD administrative data (Picture of Subsidized Households, U.S. total, Housing Choice Vouchers row). spending_per_month is HUD's average federal spending per unit per month; the extract does not say whether it includes the administrative fee, so section 6 treats it as the rent subsidy and adds fees separately (the cautious reading). Section 6 uses it as the 2023 base for the cost of a voucher-year.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-371",
+  "statement": "In 2023, 3,143 thousand very low-income renter households had people younger than 62 with disabilities and 1,162 thousand of them had worst case needs. By household type the worst case needs counts were 345 thousand families with children, 57 thousand older adult households, 175 thousand other family households and 585 thousand other nonfamily households (of 940, 154, 448 and 1,601 thousand).",
+  "claim": "data",
+  "figures": [
+   "3,143",
+   "1,162",
+   "345",
+   "57",
+   "175",
+   "585",
+   "940",
+   "154",
+   "448",
+   "1,601"
+  ],
+  "source": "SRC-0296",
+  "anchor": [
+   "Exhibit 1-13. Worst Case Needs Among Households With People with Disabilities, 2023\nFamilies\nWith\nChildren\n\nOlder Adult\nHouseholds\n\nOther\nFamily\nHouseholds\n\nOther\nNonfamily\nHouseholds\n\nTotal",
+   "Very low-income renter\nhouseholds having\npeople younger than 62\nwho have disabilities\n(thousands)\n\n940\n\n154\n\n448\n\n1,601\n\n3,143\n\nWorst case needs\n(thousands)\n\n345\n\n57\n\n175\n\n585\n\n1,162"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-30",
+  "context": "HUD, Worst Case Housing Needs: 2025 Report to Congress, published July 2025 under the second Trump administration. Counts are HUD tabulations of the 2023 American Housing Survey (data). The report counts disability only for people younger than 62, and does not split these households by extremely low and very low income.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-372",
+  "statement": "For 2023, the SSI monthly federal benefit rate for an individual living alone was $914.",
+  "claim": "data",
+  "figures": [
+   "$914"
+  ],
+  "source": "SRC-0296",
+  "anchor": "For 2023, the SSI monthly federal benefit rate for an individual living alone is $914.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-09-30",
+  "note": "Footnote in HUD's Worst Case Housing Needs 2025 report, citing SSA. Section 6 uses it to judge that most very low-income disabled renter households living on SSI fall below the extremely low-income line.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-390",
+  "statement": "CBO estimated that a one-time 10 percent increase in vouchers would assist roughly 200,000 more households at $18 billion over ten years, and that offering vouchers over ten years to all households at or below 30 percent of area median income would assist roughly 4.5 million more at $290 billion.",
+  "claim": "analysis",
+  "figures": [
+   "10 percent",
+   "200,000",
+   "$18 billion",
+   "30 percent",
+   "4.5 million",
+   "$290 billion"
+  ],
+  "source": "SRC-1560",
+  "anchor": [
+   "CBO estimates that a onetime 10 percent increase in the number of vouchers would assist roughly 200,000 additional households and cause federal spending to increase by a total of $18 billion from 2016 through 2025.",
+   "offering vouchers gradually over a period of 10 years to all households with income of no more than 30 percent of AMI would ultimately assist roughly 4.5 million additional households at a cost of $290 billion from 2016 through 2025."
+  ],
+  "locator": "Option text",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "context": "CBO budget option (2015), nonpartisan; a cost estimate, so analysis. Older price level than the plan.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-392",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-370",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-391",
+  "statement": "CBO estimated the federal government would spend $9,400 per year, on average, for each household receiving a voucher in 2019.",
+  "claim": "analysis",
+  "figures": [
+   "$9,400",
+   "2019"
+  ],
+  "source": "SRC-1561",
+  "anchor": [
+   "The federal government will spend $9,400 per year, on average, for each household that receives a voucher in 2019, CBO estimates."
+  ],
+  "locator": "Option text, parenthetical",
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "context": "CBO budget option (December 2018), nonpartisan projection.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-370",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-392",
+  "statement": "The Urban Institute estimates that full funding and use of vouchers would add 13.2 million assisted households and raise total housing subsidies from about $50 billion to $168 billion a year, an increase of $118 billion; newly assigned vouchers would average a $765 monthly subsidy.",
+  "claim": "analysis",
+  "figures": [
+   "13.2 million",
+   "$50 billion",
+   "$168 billion",
+   "$118 billion",
+   "$765"
+  ],
+  "source": "SRC-1562",
+  "anchor": [
+   "this would increase by 13.2 million to a total of 17.6 million with full funding and use of housing vouchers",
+   "providing subsidies to all who are eligible would increase the total amount of subsidies paid by $118 billion, to a total of $168 billion",
+   "Currently assisted households receive about $50 billion in housing subsidies.",
+   "households assigned vouchers in our hypothetical scenario would receive an average subsidy of $765 per month."
+  ],
+  "locator": "Key findings; pp. 2-4",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "context": "Urban Institute (2023), TRIM/ATTIS microsimulation; a thought experiment assuming every eligible household applies and leases. Center-left research organization.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-390",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-393",
+  "statement": "Full funding and use of vouchers would cut the child poverty rate by 23 percent, with the largest poverty reduction for Hispanic people (19 percent), then Black non-Hispanic people (15 percent) and white non-Hispanic people (9 percent), in the Urban Institute simulation.",
+  "claim": "analysis",
+  "figures": [
+   "23 percent",
+   "19 percent",
+   "15 percent",
+   "9 percent"
+  ],
+  "source": "SRC-1562",
+  "anchor": [
+   "The child poverty rate would fall by 23 percent",
+   "Hispanic people would have the largest reduction in poverty (19 percent), followed by Black, non-Hispanic people (15 percent)",
+   "and white, non-Hispanic people (9 percent)."
+  ],
+  "locator": "Key findings",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "context": "Urban Institute (2023) simulation; assumes full take-up and lease-up, no labor-supply response.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-085",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-394",
+  "statement": "The Urban Institute notes that the current 61 percent success rate in using vouchers would likely fall as more households sought to use them.",
+  "claim": "analysis",
+  "figures": [
+   "61 percent"
+  ],
+  "source": "SRC-1562",
+  "anchor": [
+   "The current 61 percent success rate in using vouchers would likely fall as greater numbers of households sought to use vouchers."
+  ],
+  "locator": "Caveats, p. 3",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "context": "Urban Institute (2023), stated as a caveat, not estimated.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-395",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-395",
+  "statement": "Across housing agencies with good data, 57 percent of voucher searches succeeded in 2022, down from 66 percent in 2020, and the median successful search took 78 days, up from 62; success rates are lower in rural counties.",
+  "claim": "data",
+  "figures": [
+   "57%",
+   "66%",
+   "78 days",
+   "62 days"
+  ],
+  "source": "SRC-1564",
+  "anchor": [
+   "In 2022, 57% of searches were successful, which is down markedly from 66% in 2020. The median time for a successful search was 78 days in 2022, up from 62 days in 2020.",
+   "Success rates are lower in rural counties, where searches tend to be much shorter."
+  ],
+  "locator": "Summary of key findings",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-09",
+  "recheck": "2027-04-30",
+  "note": "Computed from HUD administrative records for 1,232 agencies; same team as EV-HOU-092.",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-396",
+  "statement": "In HUD administrative data for 2019, voucher search success within six months was 58.5 percent at agencies in majority-rural counties against 62.3 percent in majority-urban counties.",
+  "claim": "data",
+  "figures": [
+   "58.5%",
+   "62.3%"
+  ],
+  "source": "SRC-1565",
+  "anchor": [
+   "Majority urban | 1,054 | 69 | 62.3% | 65",
+   "Majority rural | 256 | 39 | 58.5% | 41"
+  ],
+  "locator": "Exhibit 11",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-397",
+  "statement": "Susin estimates that, in the 90 biggest metropolitan areas, vouchers raised rents for unsubsidized poor households by 16 percent on average, an $8.2 billion increase in rent paid by low-income non-recipients against a $5.8 billion subsidy to recipients.",
+  "claim": "analysis",
+  "figures": [
+   "90",
+   "16 percent",
+   "$8.2 billion",
+   "$5.8 billion"
+  ],
+  "source": "SRC-1563",
+  "anchor": [
+   "In the 90 biggest metropolitan areas, vouchers have raised rents by 16 percent on average, a large effect consistent with a low supply elasticity in the low quality rental housing market.",
+   "vouchers have caused a $8.2 billion increase in the total rent paid by low-income non-recipients, while only providing a subsidy of $5.8 billion to recipients"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2002",
+  "checked": "2026-11-09",
+  "recheck": "2028-12-31",
+  "context": "Peer-reviewed (Journal of Public Economics, 2002), on 1974-1993 data. Contested by later work that finds little overall price effect.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-096",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-095",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-156",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-398",
+  "statement": "SNAP served 88 percent of all eligible individuals in fiscal year 2022, the highest rate in the series.",
+  "claim": "data",
+  "figures": [
+   "88 percent"
+  ],
+  "source": "SRC-1566",
+  "anchor": [
+   "SNAP served 88 percent of all eligible individuals in FY 22, which is the highest in the nearly 50-year history of estimating SNAP participation rates."
+  ],
+  "locator": "Key findings",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-09",
+  "recheck": "2027-02-28",
+  "note": "USDA (second Trump administration publication of a Mathematica estimate, February 2025); estimate method unchanged.",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-399",
+  "statement": "In tax year 2021, 78 percent of eligible taxpayers participated in the EITC, and 81 percent of eligible dollars were claimed.",
+  "claim": "data",
+  "figures": [
+   "78 percent",
+   "81 percent"
+  ],
+  "source": "SRC-1567",
+  "anchor": [
+   "Overall in tax year 2021 eligible taxpayers participated in the EITC program at a rate of 78 percent while dollar participation was 81 percent."
+  ],
+  "locator": "Abstract",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-09",
+  "recheck": "2027-06-30",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-400",
+  "statement": "In HUD's Rent Reform Demonstration, a randomized test with over 6,600 voucher families, a rent rule meant to reward work (triennial recertification and 28 percent of gross income) did not raise earnings or employment after six years, though families and agencies preferred it.",
+  "claim": "analysis",
+  "figures": [
+   "6,600",
+   "28 percent"
+  ],
+  "source": "SRC-1568",
+  "anchor": [
+   "the new rent model did not cause tenants to increase their earnings or employment after six years. However, voucher families and PHA staff members preferred the alternative rent model",
+   "More than 6,600 work-eligible HCV families at four PHAs participated in the demonstration.",
+   "Sets a family\u2019s TTP at 28 percent of gross income over the prior 12 months"
+  ],
+  "locator": "Summary; executive summary",
+  "grade": "B",
+  "fact_date": "2024",
+  "checked": "2026-11-09",
+  "recheck": "2028-12-31",
+  "context": "MDRC (2024), randomized evaluation funded by HUD (contract from the Obama administration; final report under the Biden administration). Independent research firm.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-088",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-401",
+  "statement": "CBO estimated that low- and moderate-income workers face an average effective marginal tax rate of 31 percent in 2016, counting income and payroll taxes and the phase-out of SNAP and health cost-sharing subsidies; rates vary greatly with earnings and program participation.",
+  "claim": "analysis",
+  "figures": [
+   "31 percent",
+   "2016"
+  ],
+  "source": "SRC-1569",
+  "anchor": [
+   "In 2016, low- and moderate-income workers will face an effective marginal tax rate of 31 percent, on average.",
+   "many households do not participate in all the transfer programs for which they may be eligible and thus probably face lower marginal tax rates than the family in the example."
+  ],
+  "locator": "Summary; p. 1",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "context": "CBO (2015), nonpartisan. Does not include housing assistance in its simulation.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-088",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-402",
+  "statement": "HUD proposed in February 2026 to require verification of citizenship or eligible status of every applicant and recipient regardless of age, and to make prorated assistance for mixed-status families a temporary condition pending verification, instead of indefinite as under current rules.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1570",
+  "anchor": [
+   "This proposed rule would revise HUD's Section 214 implementing regulations to require the verification of U.S. citizenship or the eligible immigration status of all applicants and recipients of assistance under a covered program regardless of age.",
+   "make prorated assistance a temporary condition pending verification of eligible status of all family members, where permitted by statute, as opposed to under HUD's current regulations where prorated assistance could continue indefinitely."
+  ],
+  "locator": "Summary",
+  "grade": "A",
+  "fact_date": "2026-02-20",
+  "checked": "2026-11-09",
+  "recheck": "2027-02-20",
+  "note": "Proposed rule (second Trump administration); not final when read. Section 214 itself (42 U.S.C. 1436a(b)(2)) requires proration where at least one member is eligible and no member is established as ineligible (shared-rules.md, rule 3).",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-403",
+  "statement": "A HUD analysis of the earlier draft rule, as reported, found it could affect 20,000 mixed-status families receiving housing assistance, 16,000 of them with children.",
+  "claim": "analysis",
+  "figures": [
+   "20,000",
+   "16,000"
+  ],
+  "source": "SRC-1571",
+  "anchor": [
+   "This rule could affect 20,000 mixed-status families that receive housing assistance, according to a HUD analysis of the rule obtained by ProPublica; 16,000 of those families include children."
+  ],
+  "locator": "Summary of the draft rule",
+  "grade": "C",
+  "fact_date": "2025-10",
+  "checked": "2026-11-09",
+  "recheck": "2027-02-20",
+  "context": "Trade association (NH&RA) summary of a HUD analysis (second Trump administration) obtained by ProPublica; secondhand. HUD's own 2019 version of the rule made a similar estimate. Presented as one source's view.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-402",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-404",
+  "statement": "The American Family Act as introduced in 2025 requires a taxpayer identification number for each qualifying child and for the taxpayer, not a Social Security number.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1572",
+  "anchor": [
+   "No credit shall be allowed under this section to a taxpayer with respect to any qualifying child unless the taxpayer includes the name and taxpayer identification number of such qualifying child on the return of tax for the taxable year"
+  ],
+  "locator": "Proposed sec. 24A(e)(1)",
+  "grade": "A",
+  "fact_date": "2025-04-09",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "note": "Introduced bill, not law. The adopted FAM-1D keeps the Act's taxpayer-identification structure (legacy/domains/domain-family.md).",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-405",
+  "statement": "Under current law from tax year 2025, a taxpayer must have a valid Social Security number to claim the child tax credit (on a joint return, one spouse), and each qualifying child must have one.",
+  "claim": "data",
+  "figures": [
+   "2025"
+  ],
+  "source": "SRC-1573",
+  "anchor": [
+   "Beginning in tax year 2025, you must have a valid SSN to claim the CTC or ACTC. If you are filing a joint return, only one filer must have a valid SSN.",
+   "If you have a qualifying child who does not have a valid SSN, you can\u2019t use the child to claim the CTC or ACTC"
+  ],
+  "locator": "What's New; Qualifying child required to have an SSN",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2026-12-31",
+  "note": "IRS instructions implementing P.L. 119-21.",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-406",
+  "statement": "Of American Indian and Alaska Native households in tribal areas, 23 percent live in housing with a physical condition problem against 5 percent of all U.S. households, and 16 percent are overcrowded against 2 percent; the study estimates 42,000 to 85,000 homeless Native Americans living in tribal areas.",
+  "claim": "data",
+  "figures": [
+   "23 percent",
+   "5 percent",
+   "16 percent",
+   "2 percent",
+   "42,000",
+   "85,000"
+  ],
+  "source": "SRC-1574",
+  "anchor": [
+   "Of American Indian and Alaska Native households living in tribal areas, 23 percent live in housing with a physical condition problem of some kind compared with 5 percent of all U.S. households.",
+   "this study estimates that between 42,000 and 85,000 homeless Native Americans are living in tribal areas.",
+   "Of American Indian and Alaska Native households living in tribal areas, 16 percent experience overcrowding compared with 2 percent of all U.S. households."
+  ],
+  "locator": "Executive summary",
+  "grade": "A",
+  "fact_date": "2015",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "note": "Survey fielded 2013-2015 (HUD, Obama administration, by the Urban Institute). The same summary finds cost burden in tribal areas comparable with all U.S. households.",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-407",
+  "statement": "J-PAL's review of emergency financial assistance reports benefits of $2.47 and $1.99 per net dollar in two studies, finds that the cost of averting a homelessness episode was 35 percent lower for very low-income families, and that an extra week of waiting raised the chance of an eviction filing within a year by up to 29 percent.",
+  "claim": "analysis",
+  "figures": [
+   "$2.47",
+   "$1.99",
+   "35 percent",
+   "29 percent"
+  ],
+  "source": "SRC-1575",
+  "anchor": [
+   "One study found $2.47 of benefits per net dollar spent 8 and another found $1.99 of benefits per net dollar spent.",
+   "the programmatic cost of averting an episode of homelessness was 35 percent lower for very low-income families than for the full sample",
+   "an additional week of wait time in receiving assistance increased the probability of an eviction filing within one year by up to 29 percent."
+  ],
+  "locator": "Cost effectiveness; timeliness",
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "context": "J-PAL North America (2026), an academic network that funds some of the studies it reviews; a synthesis, not new estimates.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-108",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-109",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-408",
+  "statement": "CBPP's summary of the Welfare to Work Voucher evaluation: vouchers cut the share of families in shelters or on the street from 13 percent to 3 percent, the share without a home of their own from 45 percent to 9 percent, and crowding from 46 percent to 22 percent.",
+  "claim": "analysis",
+  "figures": [
+   "13 percent",
+   "3 percent",
+   "45 percent",
+   "9 percent",
+   "46 percent",
+   "22 percent"
+  ],
+  "source": "SRC-1576",
+  "anchor": [
+   "Reduced the share of families that lived in shelters or on the streets by three-fourths, from 13 percent to 3 percent.",
+   "by close to 80 percent, from 45 percent to 9 percent.",
+   "Reduced the share of families living in crowded conditions by more than half, from 46 percent to 22 percent."
+  ],
+  "locator": "Reducing Crowding, Housing Instability, and Homelessness",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "context": "CBPP (2015), a center-left group that advocates voucher expansion, summarizing a randomized HUD evaluation (2000-2004); the comparison is of voucher users, not intent to treat.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-086",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-409",
+  "statement": "For HUD-assisted rent, adjusted income subtracts any reasonable child care expenses needed for work or school, and for elderly or disabled families unreimbursed medical expenses above 10 percent of income, plus $525 per elderly or disabled family and $480 per dependent.",
+  "claim": "data",
+  "figures": [
+   "10 percent",
+   "$525",
+   "$480"
+  ],
+  "source": "SRC-1577",
+  "anchor": [
+   "(C) Child care.\u2014 Any reasonable child care expenses necessary to enable a member of the family to be employed or to further his or her education.",
+   "(D) Health and medical expenses.\u2014 The amount, if any, by which 10 percent of annual family income is exceeded by the sum of\u2014",
+   "$525 in the case of any family that is an elderly family or a disabled family.",
+   "$480 for each member of the family residing in the household"
+  ],
+  "locator": "Subsection (b)(5)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "note": "The $525 and $480 amounts are indexed by HUD each year. The 10 percent medical threshold and the $525 amount come from the Housing Opportunity Through Modernization Act of 2016.",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-410",
+  "statement": "The voucher payment is the rent up to the payment standard minus the greatest of 30 percent of monthly adjusted income, 10 percent of monthly income, or a designated welfare rent.",
+  "claim": "data",
+  "figures": [
+   "30 percent",
+   "10 percent"
+  ],
+  "source": "SRC-1055",
+  "anchor": [
+   "(i) 30 percent of the monthly adjusted income of the family. (ii) 10 percent of the monthly income of the family."
+  ],
+  "locator": "Subsection (o)(2)(A)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-31",
+  "note": "Closes the shared-rules open check: voucher rent uses the same adjusted income as 42 U.S.C. 1437a(b)(5). Read on the Legal Information Institute copy of the statute, 2026-11-09.",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-411",
+  "statement": "In California it cost about $708,000 in 2023 to develop one subsidized unit funded with low-income housing tax credit equity, nearly 10 percent more than in 2019 after inflation.",
+  "claim": "data",
+  "figures": [
+   "$708,000",
+   "10 percent",
+   "2019"
+  ],
+  "source": "SRC-1578",
+  "anchor": [
+   "In 2023, it cost approximately $708,000 to develop one subsidized housing unit funded with Low Income Housing Tax Credit (LIHTC) equity in California 1, nearly 10 percent more than in 2019, after accounting for inflation."
+  ],
+  "locator": "Introduction",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-08-31",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-412",
+  "statement": "In Washington State's recent tax-credit cost certifications, the median total development cost per unit was $321,967, and $406,303 in the latest year.",
+  "claim": "data",
+  "figures": [
+   "$321,967",
+   "$406,303"
+  ],
+  "source": "SRC-1579",
+  "anchor": [
+   "The overall median per-unit TDC in this sample was $321,967",
+   "July 2024 \u2013 June 2025 36 105 $406,303"
+  ],
+  "locator": "Total projects, units and development costs, 2021-2025",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-09",
+  "recheck": "2026-12-31",
+  "note": "Sample composition varies by year; the Commission warns against reading trends.",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-413",
+  "statement": "People who identify as Black were 12 percent of the U.S. population and 21 percent of people in poverty, but 32 percent of people experiencing homelessness on a single night in 2024.",
+  "claim": "data",
+  "figures": [
+   "12 percent",
+   "21 percent",
+   "32 percent"
+  ],
+  "source": "SRC-0295",
+  "anchor": [
+   "the population experiencing homelessness. People who identify as Black made up just 12 percent of the",
+   "total U.S. population and 21 percent of the U.S. population living in poverty but were 32 percent of all"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2026-12-31",
+  "note": "HUD point-in-time count (Biden administration report, December 2024). HUD notes the share fell from 37 percent in 2023, partly from changed race and ethnicity reporting.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-414",
+  "statement": "More than half of individuals experiencing homelessness in 2024 were counted in one of the 50 largest cities, and suburban areas held the next largest share, 24 percent.",
+  "claim": "data",
+  "figures": [
+   "50",
+   "24 percent"
+  ],
+  "source": "SRC-0295",
+  "anchor": [
+   "cities. Suburban areas account for the next largest share, with 24 percent. Rural areas and suburban areas",
+   "More than half of individuals experiencing homelessness were counted in one of the nation\u2019s 50 largest"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2026-12-31",
+  "note": "Point-in-time count; rural homelessness is undercounted where people double up (EV-HOU-406).",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-415",
+  "statement": "Nearly 1.45 million people experienced sheltered homelessness at some time in 2018, against more than 580,000 people homeless on a single night in January 2020.",
+  "claim": "data",
+  "figures": [
+   "1.45 million",
+   "580,000"
+  ],
+  "source": "SRC-1580",
+  "anchor": [
+   "Nearly 1.45 million people experienced sheltered homelessness sometime in 2018",
+   "More than 580,000 people were staying in homeless shelters or living on the street on a single night in January 2020"
+  ],
+  "locator": "Section 1, Sharply Reduce Homelessness",
+  "grade": "C",
+  "fact_date": "2018",
+  "recheck": "2027-12-31",
+  "note": "HUD annual and point-in-time figures as quoted by CBPP (2021). Shows that a year's inflow is a multiple of the one-night count.",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-416",
+  "statement": "The earned income credit phases out at 21.06 percent of income above the phase-out amount for a filer with two or more qualifying children, and 15.98 percent with one.",
+  "claim": "data",
+  "figures": [
+   "21.06",
+   "15.98"
+  ],
+  "source": "SRC-1581",
+  "anchor": [
+   "2 qualifying children 40 21.06",
+   "1 qualifying child 34 15.98"
+  ],
+  "locator": "Subsection (b)(1), table of percentages",
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-12-31",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-417",
+  "statement": "A SNAP allotment equals the thrifty food plan reduced by 30 percent of the household's net income.",
+  "claim": "data",
+  "figures": [
+   "30"
+  ],
+  "source": "SRC-1582",
+  "anchor": [
+   "shall be equal to the cost to such households of the thrifty food plan reduced by an amount equal to 30 per centum of the household"
+  ],
+  "locator": "Subsection (a)",
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-12-31",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-418",
+  "statement": "SNAP deducts 20 percent of earned income before the benefit is computed.",
+  "claim": "data",
+  "figures": [
+   "20 percent"
+  ],
+  "source": "SRC-1583",
+  "anchor": [
+   "a household with earned income shall be allowed a deduction of 20 percent of all earned income to compensate for taxes, other mandatory deductions from salary, and work expenses."
+  ],
+  "locator": "Subsection (e)(2)(B)",
+  "grade": "A",
+  "fact_date": "2026",
+  "recheck": "2027-12-31",
+  "checked": "2026-11-09",
+  "supports": [
+   "dossiers/home/7-validation.md"
+  ]
  }
 ]
