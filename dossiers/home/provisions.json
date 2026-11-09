@@ -784,34 +784,43 @@
   },
   {
     "id": "HOU-3C.04",
-    "title": "A published target for homes built and preserved",
+    "title": "Published production targets: three numbers",
     "agenda": "HOU-3C",
-    "status": "decided; the number proposed, for Espen",
+    "status": "decided (three numbers, Espen in session November 9); the numbers proposed, for Espen",
     "decisions": [
       "DEC-2026-11-09-10"
     ],
-    "parameters": "Proposed: 500,000 homes built or preserved over 2030-39 (range 400,000-700,000) with HOU-3C, HOU-8 and HOU-9A, at least 100,000 for ELI renters (range 85,000-130,000); built and preserved reported apart; net additions estimated and reported, not targeted; yearly reporting by place and income band; state shares follow grant shares (proposed) and gate HOU-9A.01",
+    "parameters": "Proposed: (1) homes the plan pays for, credits included: about 900,000 built or preserved over 2030-39 (650,000-1,300,000), at least 120,000 for ELI renters (100,000-160,000); current-law credit production not counted; each home once; new, preserved, rental, for sale and net additions reported apart. (2) Zoning-reward places: homes finished at least 1% of their stock within five years of the award above their prior pace, against comparison places. (3) National goal: 15 million homes finished over 2030-39 (13-17 million). Yearly reporting by place and income band; state shares of (1) follow grant and credit shares and gate HOU-9A.01",
     "eligibility": "—",
     "vehicle": [
       {
         "vehicle": "regular bill",
         "kind": "none",
-        "note": "states the target"
+        "note": "states the targets"
       },
       {
         "vehicle": "R2",
         "kind": "conditions",
-        "note": "reporting conditions on HOU-3C grants and loans"
+        "note": "reporting conditions on HOU-3C grants and loans and HOU-2D credits"
       }
     ],
     "agency": "HUD",
     "current_law": "New",
     "evidence": [
+      "EV-HOU-440",
+      "EV-HOU-441",
+      "EV-HOU-442",
+      "EV-HOU-443",
+      "EV-HOU-444",
       "EV-HOU-114",
+      "EV-HOU-123",
+      "EV-HOU-124",
+      "EV-HOU-177",
       "EV-HOU-411",
       "EV-HOU-412",
-      "EV-HOU-275",
-      "EV-HOU-277"
+      "EV-HOU-263",
+      "EV-HOU-268",
+      "EV-HOU-270"
     ],
     "sources": [],
     "cost_source": "none",

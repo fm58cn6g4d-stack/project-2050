@@ -24,7 +24,7 @@ Role: section 5 of the housing dossier. It says who runs each provision in `4-sp
 | HOU-3C.01 state revolving funds | HUD | State housing finance agencies (or a state's designated fund) | Localities; nonprofit and tax-credit developers | State readiness (2.4) |
 | HOU-3C.02 construction loans | HUD, with the Federal Financing Bank (Treasury) | State agencies originate and service under a risk-share | CBO (subsidy rate) | A new HUD lending office (2.4) |
 | HOU-3C.03 conditions on plan-financed homes | HUD | State agencies and owners (recorded restrictions) | Care flagship (accessible-unit share) | Monitoring for decades |
-| HOU-3C.04 production target | HUD | State agencies report homes financed, started, finished and preserved | — | A count that cannot be gamed, built and preserved apart |
+| HOU-3C.04 production targets (three numbers) | HUD | State agencies report homes financed, started, finished and preserved; Treasury and state allocating agencies report credit homes; Census counts national completions | — | A count that cannot be gamed, built and preserved apart |
 | HOU-5.01, 5.02 public housing repair and right to return | HUD | Housing agencies | Residents' councils | Enforcement record (6.2) |
 | HOU-6.01, 6.02 zoning reward and transportation condition | HUD (Innovation Fund); DOT (Moving America) | States, regions, localities | — | A production count that cannot be gamed |
 | HOU-8.01 social housing pilot; HOU-9A.01 small builder | HUD; the new corporation | Public and nonprofit owners; the corporation | GSA and other land-holding agencies | A new corporation's start-up |

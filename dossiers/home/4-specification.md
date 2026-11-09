@@ -45,7 +45,7 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-3C.01 | State housing revolving funds: about $72 billion of grants, awarded by 2037 | Decided (memo 3 part 3 B; timing `DEC-2026-11-09-09`) | R2, mandatory (borrowed inside the D4-B envelope, C21) |
 | HOU-3C.02 | Federal construction and acquisition loans: $300 billion, committed by 2038 | Decided (memo 3 part 3 B; timing `DEC-2026-11-09-09`) | R2 (credit subsidy) |
 | HOU-3C.03 | Lasting affordability, attached help and accessible homes in plan-financed buildings | Decided (memo 3 part 3 B; memo 1 B; memo 2 condition; tax-credit homes `DEC-2026-11-09-08`) | R2 (grant and loan conditions) |
-| HOU-3C.04 | A published target for homes built and preserved | Decided (`DEC-2026-11-09-10`); the number proposed, for Espen | Regular bill (the target); R2 (reporting conditions) |
+| HOU-3C.04 | Published production targets: homes the plan pays for, homes in zoning-reward places, and a national goal | Decided (`DEC-2026-11-09-10`; three numbers, Espen in session November 9); the numbers proposed, for Espen | Regular bill (the targets); R2 (reporting conditions) |
 | HOU-5.01 | Public housing repair | Legacy working choice; timing `DEC-2026-11-09-09` | R2, mandatory (C31) |
 | HOU-5.02 | Repair first, one-for-one replacement and a right to return with no re-screening | Decided (point 6) | Regular bill; R2 (conditions on the repair money) |
 | HOU-6.01 | The zoning reward through the ROAD to Housing Act's Innovation Fund | Decided (memo 4 B) | R2 (money); regular bill (who may apply, what is paid for) |
@@ -404,21 +404,40 @@ Rules 6, 7 and 8 of the point 5 note.
 - **Vehicle.** R2, as grant and loan conditions.
 - **Evidence.** [EV-HOU-119] [EV-HOU-118] [EV-HOU-032].
 
-### HOU-3C.04 A published target for homes built and preserved
+### HOU-3C.04 Published production targets: three numbers
 
-Espen's direction (`DEC-2026-11-09-10`): publish a target for homes built and preserved. Section 7 found the plan had none, so nobody could check the capital against a promise (`7-validation.md`, 1.4).
+Espen's direction (`DEC-2026-11-09-10`): publish a target for homes built and preserved. Section 7 found the plan had none (`7-validation.md`, 1.4). Espen then asked for three numbers, each checkable, with the direct count including homes the tax credits finance (November 9, in session; the lead is recording it in the decision log). Every number below is **proposed, for Espen**.
 
-**Parameters.**
-1. **The target (proposed, for Espen).** 500,000 homes built or preserved over 2030-39 with HOU-3C's grants and loans, HOU-8 and HOU-9A (range 400,000-700,000), of which at least 100,000 are for extremely low-income renters (range 85,000-130,000). Each home counts once, whatever mix of money it uses.
-   - *Basis.* Section 7's arithmetic: the revolving-fund grants with the 20% state match, about $86 billion, at $150,000-300,000 of gap subsidy per home, finance about 290,000-580,000 homes; the 30% deep share finances about 85,000-130,000 (`7-validation.md`, 1.4). Tax-credit homes cost about $322,000-406,000 each to develop in Washington State and about $708,000 in California [EV-HOU-412] [EV-HOU-411]. The loans reach further where they finance mixed-income or acquisition deals with no grant, up to about 0.9-1.2 million homes, overlapping with the grants. The central target sits near the grants' midpoint plus a modest number of loan-only deals. 700,000 would need loan-only deals at scale; below 400,000 would mean costs above about $400,000 of public money a home (section 7, 6).
-   - *Built and preserved are reported apart* but targeted together, because the mix between new building and acquisition is each state's choice under HOU-3C.01. A preserved home keeps its tenants but adds nothing to the stock (section 7, 1.4).
-2. **Net additions are reported, not targeted.** HUD publishes an estimate of net new homes each year, with its method. Section 7's range is about 0.2-0.5 million over the decade, since one subsidized home adds a third to a half of a home to the stock [EV-HOU-114]. Crowd-out cannot be measured place by place each year, so a net target could not be checked (judgment).
-3. **Yearly reporting by place and income band:** homes financed, started, finished and preserved, and public money per home, from the grant and loan records.
-4. **What the target does.** Each state's share of the target follows its share of the grants (proposed, for Espen). HOU-9A.01's builder may build only where state channels have missed their share. Missing the target is a published warning (section 7, 6), not a reason to withhold money (judgment).
+**1. Homes the plan pays for: about 900,000 built or preserved over 2030-39 (range 650,000-1,300,000), at least 120,000 of them for extremely low-income renters (range 100,000-160,000).** It counts only homes the plan's added money pays for. The credit's current-law production, about 95,000 homes a year since 1987 [EV-HOU-443], is the baseline and is not counted. Each home counts once, whatever mix of money it uses.
 
-- **Vehicle.** The regular bill states the target. R2 makes the reporting a condition on HOU-3C's grants and loans.
+| Source | Homes, 2030-39 (central, range) | Basis |
+| --- | --- | --- |
+| Construction money: HOU-3C grants and loans, HOU-8, HOU-9A | 500,000 (400,000-700,000) | Section 7's arithmetic: about $86 billion of grants with the state match at $150,000-300,000 of gap subsidy a home finances 290,000-580,000 homes; loan-only deals add more (`7-validation.md`, 1.4) [EV-HOU-412] [EV-HOU-411] |
+| Bigger low-income credit with the deep-income boost (HOU-2D.01) | 300,000 (200,000-360,000) | Novogradac's estimates for the bill's remaining parts: about 175,000 from the 30% basis boosts, 104,000 from the extremely low-income boost, and about half of the 167,000 from the allocation increase, since the 2025 law already enacted 12% [EV-HOU-444] [EV-HOU-260]. The firm has a stake and assumes gap money scales; the plan's construction grants are that gap money. The low end discounts that assumption (judgment) |
+| Middle-income credit trial (HOU-2D.02) | 60,000 (40,000-90,000) | The bill's own arithmetic, about $156,000 of credit a home (`memo-3-part1-research.md`, M1), at half the allocation for five years of awards; the high-cost limit and the deeper discount lower the count (judgment) |
+| Neighborhood homes credit (HOU-2D.03), homes for sale | 150,000 (110,000-250,000) | About $15 billion of credits over 2030-34 [EV-HOU-270] at roughly $60,000-130,000 of credit a home, under the bill's cap of 32% of the national median new-home price [EV-HOU-268] (judgment) |
+| Less homes counted twice | −100,000 (−70,000 to −120,000) | About a third of the new low-income credit homes also draw HOU-3C gap money (judgment) |
+
+- *Extremely low-income homes.* At least 30% of the revolving-fund grants go to them, about 100,000 homes (85,000-130,000; `7-validation.md`, 1.4). Buildings using the deep-income boost reserve at least a fifth of their homes for them [EV-HOU-263], about 20,000 more on Novogradac's count.
+- *Reported apart:* new homes and preserved homes; rental homes and homes for sale; and net additions to the stock, estimated with a published method. One subsidized home adds a third to a half of a home on average [EV-HOU-114], so net additions are perhaps half the direct count. They are reported, not targeted, because crowd-out cannot be measured place by place each year (judgment).
+
+**2. Homes finished in places that earn the zoning reward (HOU-6.01): at least 1% of their housing stock within five years of the award, above their own prior pace.** HUD reports, for each rewarded place, homes finished against its own average for the three years before the award, and against similar places without an award.
+- *Basis.* The evidence is modest and mixed. Loosening land-use rules raised housing supply by about 0.8% within three to nine years in U.S. places [EV-HOU-177]. Auckland's broad upzoning permitted about 4.1% more of its stock over five years [EV-HOU-123]. Chicago's transit-area upzonings showed no rise [EV-HOU-124]. A 1% goal sits between the U.S. average and Auckland's result (judgment).
+- *Why a goal, not a promise.* The reward pays for homes finished (HOU-6.01), so it pulls private building that no federal dollar finances. The plan influences this number but does not control it.
+
+**3. A national goal: 15 million homes finished in the United States over 2030-39 (range 13-17 million), about 1.5 million a year.**
+- *Basis.* The country finished 1.39 to 1.63 million homes a year in 2022-25 [EV-HOU-440], and about 13.2 million over 2016-25. The Joint Center for Housing Studies projects baseline demand for 11.3 million new homes in 2025-35 and 8.0 million in 2035-45, not counting the shortage [EV-HOU-441]. That is about 10 million for 2030-39 (this section's arithmetic, blending the two periods). Closing a shortage of about 4 million homes (1.5-5.5 million) [EV-HOU-442] [EV-HOU-017] adds that much. So the goal is to keep building at today's pace through a decade when household growth alone would let it fall to about 1 million a year.
+- *Range.* The low end is baseline demand plus 3 million of the shortage. The high end follows the Joint Center's high-immigration projection, 14.1 million for 2025-35 [EV-HOU-441], plus the shortage. Immigration and the construction workforce move this number most (fork 7; `7-validation.md`, 3.5, check 8).
+- *Measurement.* Census completions. The Joint Center's demand counts include manufactured homes, so the comparison is approximate.
+- *Why a goal, not a promise.* Most homes are built by private owners with private money; the plan's direct count is about 6% of the goal. The national number says what the plan's zoning reward, credits and capital are for, and lets voters check the result.
+
+**For all three.**
+- *Yearly reporting by place and income band* from the grant, loan and credit records and Census data: homes financed, started, finished and preserved, and public money per home.
+- *What the targets do.* Each state's share of number 1 follows its share of the grants and credits (proposed, for Espen). HOU-9A.01's builder may build only where state channels have missed their share. Missing a target is a published warning (section 7, 6), not a reason to withhold money (judgment, under `DEC-2026-11-09-13`).
+
+- **Vehicle.** The regular bill states the targets. R2 makes the reporting a condition on HOU-3C's grants and loans; the credit reporting rides HOU-2D.
 - **Cost.** None directly.
-- **Evidence.** [EV-HOU-114] [EV-HOU-411] [EV-HOU-412] [EV-HOU-275] [EV-HOU-277].
+- **Evidence.** [EV-HOU-440] [EV-HOU-441] [EV-HOU-442] [EV-HOU-443] [EV-HOU-444] [EV-HOU-114] [EV-HOU-123] [EV-HOU-124] [EV-HOU-177] [EV-HOU-411] [EV-HOU-412] [EV-HOU-263] [EV-HOU-268] [EV-HOU-270].
 
 ### HOU-5.01 Public housing repair (legacy working choice)
 
@@ -586,7 +605,7 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 | Fork 7: construction workforce | Interactions, check 8 | — | — | — |
 | `DEC-2026-11-09-09`: FY2040 gap to the financing settlement; capital spent by 2039 | HOU-3C.01, HOU-3C.02, HOU-5.01 (timing) | — | Awards end 2037-38 | FY2040: about $81 billion of permanent cost, before stage 2's wider entry; the capital tail falls from about $16 billion to about $8 billion (`6-cost.md`, 3.3) |
 | `DEC-2026-11-09-10`: duty to house from 2037 | HOU-4D.01, HOU-4.07 | R2 | From 2037 | About $3 billion in FY2037-39 (placements) |
-| `DEC-2026-11-09-10`: a production target | HOU-3C.04 | Regular bill; R2 (reporting) | 2030-39 | None |
+| `DEC-2026-11-09-10`: production targets (three numbers, Espen in session November 9) | HOU-3C.04 | Regular bill; R2 (reporting) | 2030-39 | None |
 | `DEC-2026-11-09-10`: mixed-status protection; repeal of HUD's proposed rule | HOU-4.01 | Executive action (January 2029); regular bill | From 2029 | None against current law |
 | `DEC-2026-11-09-10`: tribal housing | HOU-4.13, HOU-1D.03, HOU-3C.01, HOU-3C.02, HOU-4A.01, HOU-4D.01, HOU-2D.01 | R2 (set-asides); regular bill (NAHASDA rules) | From 2030 | Shares of existing amounts; no added cost |
 | `DEC-2026-11-09-10`: older non-disabled renters reconsidered after the care program is scoped | HOU-4.03 | — | — | None yet |
@@ -598,7 +617,7 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 - **Totals.** The ledger's housing title ($0.56 trillion midpoint: the $0.47 trillion title and $0.09 trillion of vouchers) predates every section 3 decision. It still carries HOU-1A, HOU-2A and HOU-6's separate fund as filed. HOU-4D is carried outside the ledger in `recovery-adoption.json`. Section 6 rebuilds them from this section's provisions: about $0.63 trillion over FY2030-39 (central, with option D's credits) and about $81 billion a year of permanent cost in FY2040, before stage 2's wider entry under `DEC-2026-11-09-12` (pending PR #141's count). Its ledger and model changes are tier-3 proposals (`6-cost.md`, 5).
 - **Regular-bill items.** HOU-4.01's definitions and mixed-status protection, HOU-4.02's data rules and enforcement bar, HOU-4.05, HOU-4.06, HOU-4.09, HOU-4.11, HOU-4.13's NAHASDA rules, HOU-1D.03's privacy rules, HOU-3C.04's target, HOU-5.02, HOU-6.01's eligibility changes, HOU-6.02 and HOU-9A.01's corporation. With the legacy floor bill (ledger row HOU-7), they make one housing regular bill. Its floor time is a section 5 question.
 - **Still open for Espen.** Whether HOU-1A's construction gap money is dropped or added to HOU-3C (HOU-1D.04).
-- **Proposed, for Espen** (parameters the decisions leave open): the production target's number and state shares (HOU-3C.04); the tribal set-aside sizes, the 2032 tribal need report and the credit's tribal high-cost treatment (HOU-4.13, HOU-2D.01); the duty to house's 60-day deadline (HOU-4D.01); the record's handling of status findings and the penalty model (HOU-4.02); the R1 readiness amount (HOU-4.02); the testing money's size (HOU-4.06); the middle-income trial's report dates (HOU-2D.02).
+- **Proposed, for Espen** (parameters the decisions leave open): the three production numbers (about 900,000 homes the plan pays for; 1% above prior pace in zoning-reward places; 15 million nationally) and state shares (HOU-3C.04); the tribal set-aside sizes, the 2032 tribal need report and the credit's tribal high-cost treatment (HOU-4.13, HOU-2D.01); the duty to house's 60-day deadline (HOU-4D.01); the record's handling of status findings and the penalty model (HOU-4.02); the R1 readiness amount (HOU-4.02); the testing money's size (HOU-4.06); the middle-income trial's report dates (HOU-2D.02).
 - **Section 4's own judgment.** The tight-market and attached-share parameters (HOU-4.04), the youngest-child part of stage 2's exit rule (HOU-4D.01), the capital's yearly splits (HOU-3C.01, HOU-3C.02, HOU-5.01), HUD as the emergency fund's agency (HOU-4.02), and the form rules for tribal shares (HOU-4.13).
 
 ## Evidence still needed
