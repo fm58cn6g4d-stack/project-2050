@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 8, 2026 by Claude Code (stage B, step 1).
+Updated November 9, 2026 by Claude Code (lead: health direction noted).
 
 ## Standing sessions
 
@@ -93,6 +93,10 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 - **Front-door edition.** `public/site/index.html` is pinned to an older evidence commit and is rebuilt in stage H.
 
 - **Standards wording.** The data-versus-analysis and corroboration rule Espen asked for on October 28 is in `dossiers/TEMPLATE.md` and the checker. It also belongs in `charter/STANDARDS.md`, which is tier 3: proposed for the next charter PR, with Espen's stage A sign-off for `charter/decisions.md`.
+
+## Directions for later stages
+
+- **Health (stage D, flagship 2): weigh Medicare for All in full.** Espen, November 9, 2026: "when we get to healthcare in the dossier workflow i want to take a serious look at medicare for all fyi (not just a public option or "medicare for all who want it")". The health dossier treats single-payer as a full design option, given the same evidence, cost, coverage and transition work as a public option, not as a reference alternative. `charter/PLAN.md` (flagship 2 and the health coverage model row) names only a public option; the health session proposes the wording change in its first charter PR (tier 3). The coverage model must be able to score it.
 
 ## Questions for Espen
 
