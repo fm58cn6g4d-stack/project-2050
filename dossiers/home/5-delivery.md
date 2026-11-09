@@ -35,6 +35,11 @@ Role: section 5 of the housing dossier. It says who runs each provision in `4-sp
 | HOU-11.01 manufactured-home finance | FHFA; HUD (PRICE) | Fannie Mae and Freddie Mac; their lenders; states (titling) | Resident groups and nonprofits buying communities | Lenders that make chattel loans to the companies' standards |
 | HOU-11.02 federal land sales | Interior (BLM), with HUD | Local governments | Water and transportation agencies | Water supply in the interior West |
 | HOU-11.03 infill exclusion | Each funding agency; CEQ | Developers certify the site | — | None |
+| HOU-12.01 to .04 home repair fund (`DEC-2026-11-09-21`, `-22`) | HUD (Community Planning and Development) | CDBG and HOME grantees; tribes | Contractors; nonprofit repair groups; occupational therapists and nurses (HOU-12.04); legal aid | Contractors, scarce in many places (2.8) |
+| HOU-12.03 one front door | HUD and DOE jointly; HHS (LIHEAP) | The agency each state names | Weatherization agencies | Two agencies' rules made to match |
+| HOU-13.01 property-tax match | Treasury; HUD (reporting) | States and their tax offices | Counties (deferral liens) | States must change their laws to join (2.8) |
+| HOU-13.02 equity protection | HUD (FHA; Office of Housing Counseling) | Legal aid and nonprofit providers | Reverse-mortgage servicers | Legal aid capacity in rural areas |
+| HOU-13.03, HOU-13.04 coordinators and home sharing; HOU-3C.06 | HUD | Owners of assisted buildings; nonprofits; state housing finance agencies | Medicaid home care (care dossier) | — |
 
 **One federal lead for rental help.** Section 4 put the emergency fund at HUD so one agency holds the application, the record and the income findings. Delivery confirms the choice on two grounds and qualifies it on one. For it: housing agencies already verify income with federal matching data (shared rule 5), and one agency is what makes one record possible. Against it: HUD lost about 29% of its staff in 2025 (GAO, 2026) [EV-HOU-340], while Treasury has run the only national household rent program. The answer is not to move the fund but to write it so it runs with a thin HUD: formula money that flows to grantees by statute, a shared data system built and staffed with its own money, and default rules where HUD misses a deadline (section 8). The Treasury alternative stays available if the 2029 rebuild fails; this section does not reopen it (judgment).
 
@@ -122,6 +127,17 @@ ERA built about 740 grantees almost from nothing in 2021 [SRC-1068], spent about
 3. **The FHA cut takes effect on a set date,** January 1, 2030, for loans endorsed after it.
 4. **Construction loans for homes to buy** are short and need draw inspections, unlike the rental loans. The HUD lending office works through state agencies and community development lenders that already make them; ROAD's review of FHA's modular draw schedules feeds the draw rules [EV-HOU-245].
 5. **Land sales** follow the task force's land list [EV-HOU-582]; the regular bill sets a sale calendar so each local government can plan water and roads before it buys.
+
+### 2.8 Repair and aging in place (memos 11 and 12)
+
+**What the record shows.** CDBG and HOME grantees already run owner repair: HOME finished 2,488 owner repairs in fiscal 2024 [EV-HOU-609], and Philadelphia's emergency program repairs over 3,000 homes a year through a city contractor team [EV-HOU-649]. Pennsylvania's one-year program showed the limits: counties struggled to find contractors willing to work on federally funded jobs, and many closed applications early [EV-HOU-654] [EV-HOU-655]. 29 states and DC already run circuit breakers [EV-HOU-682].
+
+**Fixes and order.**
+1. **The repair fund starts through grantees that exist.** HUD issues the formula and a short notice within 90 days of R2; each grantee files a one-page plan (its order of need, its contractors, how it takes applications with Weatherization), and HUD has 30 days to object, silence being approval, as for HOU-10.01 (2.7). FY2030's money is half the later years' while programs hire.
+2. **Contractors.** Grantees may pay a standard price list for common repairs, prequalify small contractors in batches and pay within 30 days, the fixes for the shortage Pennsylvania met (judgment). Owner-occupied homes of one to seven units carry no prevailing-wage trigger (HOU-12.01).
+3. **One front door.** HUD and DOE publish the common assessment and eligibility rule within a year of the regular bill (HOU-12.03). Until then grantees accept each other's eligibility findings.
+4. **The tax match starts in FY2031,** so states can pass laws in their 2030 sessions. Treasury publishes the standards in 2029-30; a state files its relief law and its 2028 spending base, and the match follows.
+5. **Legal help and coordinators** run through HUD's existing housing counseling and multifamily grant channels from FY2030 and FY2031.
 
 ## 3. Timeline, 2029-2038
 

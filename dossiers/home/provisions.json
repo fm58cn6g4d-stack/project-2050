@@ -872,6 +872,34 @@
     "spec": "dossiers/home/4-specification.md"
   },
   {
+    "id": "HOU-3C.06",
+    "title": "Homes for older and disabled renters inside HOU-3C, by each state's need",
+    "agenda": "HOU-3C",
+    "status": "decided (memo 12 part 4 C; part 4 B added if GAO's study shows it merits it)",
+    "decisions": [
+      "DEC-2026-11-09-22"
+    ],
+    "parameters": "Each state's revolving-fund plan and loan pipeline states its share for accessible homes for older and disabled renters near services, set by its own need; no federal quota; reported as its own line under HOU-3C.04; Section 202 construction added later if GAO's capital-advance study shows it merits it",
+    "eligibility": "Older and disabled renters",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "inside HOU-3C's amounts"
+      }
+    ],
+    "agency": "HUD with state housing finance agencies",
+    "current_law": "ROAD Act GAO study of Section 202 capital advances; Section 202 rent contracts continue",
+    "evidence": [
+      "EV-HOU-672",
+      "EV-HOU-674",
+      "EV-HOU-676"
+    ],
+    "sources": [],
+    "cost_source": "None added; inside HOU-3C",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
     "id": "HOU-5.01",
     "title": "Public housing repair",
     "agenda": "HOU-5",
@@ -1371,6 +1399,284 @@
     ],
     "sources": [],
     "cost_source": "None",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-12.01",
+    "title": "The home repair fund for low- and moderate-income owners, 2030-39",
+    "agenda": "HOU-12",
+    "status": "decided (memo 11 part 1 C); amounts proposed, for Espen",
+    "decisions": [
+      "DEC-2026-11-09-21",
+      "DEC-2026-11-09-22"
+    ],
+    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (proposed); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (proposed); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030 then $4B a year FY2031-39 (proposed); published counts and reviews, no set-asides",
+    "eligibility": "Owner-occupants at or below 120% AMI, heirs in residence included, by signed statement or enrollment in SNAP, Medicaid, SSI, LIHEAP or Weatherization; no credit or tax-current test",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "time-limited FY2030-39; envelope borrowing proposed"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "wage rule and heirs' eligibility if reconciliation cannot carry them"
+      }
+    ],
+    "agency": "HUD (CPD) with CDBG and HOME grantees; HUD ONAP and tribes",
+    "current_law": "ROAD sec. 202 whole-home repair pilot (only if appropriated; ends October 1, 2031), replaced; HOME, CDBG, USDA sec. 504 continue",
+    "evidence": [
+      "EV-HOU-601",
+      "EV-HOU-602",
+      "EV-HOU-603",
+      "EV-HOU-606",
+      "EV-HOU-609",
+      "EV-HOU-610",
+      "EV-HOU-645",
+      "EV-HOU-646",
+      "EV-HOU-647",
+      "EV-HOU-649",
+      "EV-HOU-656",
+      "EV-HOU-660",
+      "EV-HOU-661",
+      "EV-HOU-230",
+      "EV-HOU-676"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.9: $38B BA, about $37B of outlays FY2030-39 (25-54), time-limited; tail about $1.2B in FY2040",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-12.02",
+    "title": "Repairs for renters: landlord loans with a light rent term, city repair funds, receivership, relocation help",
+    "agenda": "HOU-12",
+    "status": "decided (memo 11 part 2 B); loan limits proposed, for Espen",
+    "decisions": [
+      "DEC-2026-11-09-21"
+    ],
+    "parameters": "Loans to owners of up to 20 units (proposed), up to $25,000 a unit (proposed), forgiven after 3 years if rent increases stay at or below the lower of 5% or inflation; no tenant income check or ownership period; publicly paid work never passed on in rent; city repair-and-bill funds with liens; revolving loans to receivers; moving costs and up to three months' rent where tenants are ordered out (proposed); no federal inspection mandate",
+    "eligibility": "Small landlords; local governments; court-appointed receivers; tenants ordered out of unsafe homes",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "inside HOU-12.01"
+      }
+    ],
+    "agency": "HUD with HOU-12.01's grantees",
+    "current_law": "ROAD sec. 202 rent term (5% or inflation, 3 years); state and local code enforcement",
+    "evidence": [
+      "EV-HOU-651",
+      "EV-HOU-652",
+      "EV-HOU-655",
+      "EV-HOU-656",
+      "EV-HOU-657",
+      "EV-HOU-663",
+      "EV-HOU-665",
+      "EV-HOU-667",
+      "EV-HOU-668",
+      "EV-HOU-669",
+      "EV-HOU-230",
+      "EV-HOU-632"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.9: inside HOU-12.01, about $0.5-1B a year (judgment)",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-12.03",
+    "title": "One front door with the clean-power programs; the repair fund pays readiness repairs",
+    "agenda": "HOU-12",
+    "status": "decided (memo 11 part 3 B; part 3 C left to the clean-power dossier)",
+    "decisions": [
+      "DEC-2026-11-09-21"
+    ],
+    "parameters": "One application and one home assessment for repair, lead, accessibility and energy; shared eligibility across HOU-12.01, Weatherization, LIHEAP and the clean-power retrofits; HOU-12.01 pays readiness repairs (roofs, floors, wiring, panels, mold); money may flow to whichever agency the state names; merger with Weatherization, the energy credits, CLI-5 and CLI-5W left to the clean-power dossier",
+    "eligibility": "Households eligible for any of the programs",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "shared eligibility and joint HUD-DOE rule"
+      },
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "money inside HOU-12.01"
+      }
+    ],
+    "agency": "HUD and DOE jointly; HHS for LIHEAP",
+    "current_law": "Weatherization Readiness Fund (FY2022); separate program eligibility",
+    "evidence": [
+      "EV-HOU-622",
+      "EV-HOU-623",
+      "EV-HOU-639",
+      "EV-HOU-640",
+      "EV-HOU-636",
+      "EV-HOU-638"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.9: inside HOU-12.01, about $0.25-0.75B a year once CLI-5W runs (judgment)",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-12.04",
+    "title": "Older adults: repairs and home changes on the CAPABLE model",
+    "agenda": "HOU-12",
+    "status": "decided (memo 12 part 2 B; part 2 C noted for the care dossier)",
+    "decisions": [
+      "DEC-2026-11-09-22"
+    ],
+    "parameters": "Occupational-therapist assessment and home changes (grab bars, rails, ramps, first-floor bathroom, lighting) plus HOU-12.01's repairs; the CAPABLE package of nurse and therapist visits for people with daily-living limits, paid by the fund until the care dossier decides Medicare or Medicaid coverage; renters with landlord consent and no rent rise; falls, emergency visits and nursing-home moves reported",
+    "eligibility": "Owners and renters 65 or over, or with a disability, at or below 80% AMI, on HOU-12.01's test",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "inside HOU-12.01"
+      }
+    ],
+    "agency": "HUD with HOU-12.01's grantees; referral to Medicaid home care",
+    "current_law": "HUD Older Adults Home Modification grants (annual appropriations); Medicaid HCBS waivers",
+    "evidence": [
+      "EV-HOU-686",
+      "EV-HOU-687",
+      "EV-HOU-688",
+      "EV-HOU-689",
+      "EV-HOU-673",
+      "EV-HOU-690",
+      "EV-HOU-691",
+      "EV-HOU-608"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.9: inside HOU-12.01, about $0.3-1.6B a year (judgment)",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-13.01",
+    "title": "A federal match for state property-tax relief for older owners, with deferral",
+    "agenda": "HOU-13",
+    "status": "decided (memo 12 part 1 B); threshold and maintenance of effort proposed, for Espen",
+    "decisions": [
+      "DEC-2026-11-09-22"
+    ],
+    "parameters": "From FY2031, half of state relief for owners 65+ or disabled up to 80% AMI, on relief above 3% of income (proposed); standards: relief by income, deferral of the rest as a lien repaid at sale or death with no yearly reapplication, enrollment from records the state holds; renters optional; match only above each state's 2028 effort (proposed); a payment plan or deferral offered before any tax sale of an older owner's home; yearly published counts",
+    "eligibility": "Owners 65 or over, or with disabilities, at or below 80% AMI, in states meeting the standards",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "permanent capped entitlement to states; standards as conditions"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "any condition struck from reconciliation"
+      }
+    ],
+    "agency": "Treasury (payments to states); HUD (reporting)",
+    "current_law": "None federal; state circuit breakers in 29 states and DC; Tyler v. Hennepin County (2023)",
+    "evidence": [
+      "EV-HOU-670",
+      "EV-HOU-671",
+      "EV-HOU-677",
+      "EV-HOU-681",
+      "EV-HOU-682",
+      "EV-HOU-683"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.9: about $20B FY2030-39 (8-35) as states join; about $3B a year from FY2040, permanent",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-13.02",
+    "title": "Protecting older owners' equity: legal help, reverse-mortgage relief in law, a payment plan before tax sales",
+    "agenda": "HOU-13",
+    "status": "decided (memo 12 part 3 B); amount proposed, for Espen",
+    "decisions": [
+      "DEC-2026-11-09-22"
+    ],
+    "parameters": "Legal-aid grants of $200M a year (proposed) for tangled titles, simple wills and transfer-on-death deeds, and tax-foreclosure defense, for owners at or below 80% AMI; FHA's 2023 HECM relief in statute ($5,000 arrears threshold, repayment plans up to five years); the tax-sale offer in HOU-13.01; published list of states with the uniform partition law",
+    "eligibility": "Owners at or below 80% AMI (legal help); HECM borrowers",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "legal-aid grants"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "HECM servicing rules"
+      }
+    ],
+    "agency": "HUD (FHA; Office of Housing Counseling)",
+    "current_law": "FHA Mortgagee Letter 2023-23 (agency policy)",
+    "evidence": [
+      "EV-HOU-677",
+      "EV-HOU-678",
+      "EV-HOU-679",
+      "EV-HOU-680",
+      "EV-HOU-684",
+      "EV-HOU-685"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.9: about $2B FY2030-39; $0.2B a year permanent",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-13.03",
+    "title": "Service coordinators in older renters' buildings",
+    "agenda": "HOU-13",
+    "status": "decided (memo 12 part 4 C); amount proposed, for Espen",
+    "decisions": [
+      "DEC-2026-11-09-22"
+    ],
+    "parameters": "A service coordinator available to every federally assisted building where most households are headed by someone 62 or over; $150M a year more from FY2031 (proposed); referrals to Medicaid home care and HOU-12.04",
+    "eligibility": "Federally assisted buildings mostly of older households",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "permanent"
+      }
+    ],
+    "agency": "HUD (multifamily housing)",
+    "current_law": "Section 202 service coordinator grants (about 1,500)",
+    "evidence": [
+      "EV-HOU-672",
+      "EV-HOU-698",
+      "EV-HOU-696"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.9: about $1.35B FY2030-39; $0.15B a year permanent",
+    "spec": "dossiers/home/4-specification.md"
+  },
+  {
+    "id": "HOU-13.04",
+    "title": "Home-sharing grants",
+    "agenda": "HOU-13",
+    "status": "decided (memo 12 smaller point 2); amount proposed, for Espen",
+    "decisions": [
+      "DEC-2026-11-09-22"
+    ],
+    "parameters": "Grants to nonprofits matching older owners with low-rent tenants who help around the house; $30M a year FY2031-39 (proposed; the decision sets it under $50M); report by 2035",
+    "eligibility": "Older owners and home-sharing nonprofits",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "time-limited"
+      }
+    ],
+    "agency": "HUD",
+    "current_law": "None",
+    "evidence": [
+      "EV-HOU-692"
+    ],
+    "sources": [],
+    "cost_source": "Section 6, 2.9: about $0.27B FY2030-39",
     "spec": "dossiers/home/4-specification.md"
   }
 ]
