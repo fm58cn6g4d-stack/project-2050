@@ -23,7 +23,7 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-4.08 | Stage 3: extremely low-income renters with long-term disabilities, from 2038 | Decided (memo 2 condition); definition and services with the care flagship | R2 (authorized now, effective 2038); section 6 and the financing settlement |
 | HOU-4.09 | Housing First as the federal rule for homelessness help | Decided (memo 5 B) | Executive action (January 2029); regular bill |
 | HOU-4.10 | A voluntary recovery-housing option, evaluated | Decided (memo 5 B) | R2 (mandatory, time-limited); appropriations |
-| HOU-4.11 | Supportive housing: engagement as a duty on providers, treatment never a condition | Principle decided (memo 5 B); parameters drafted from the research note, for Espen | Executive action and rule (2029); regular bill |
+| HOU-4.11 | Supportive housing: draft engagement standard (a duty on providers) and treatment access | Principle decided (memo 5 B); parameters drafted from the research note, for Espen | Executive action and rule (2029); regular bill |
 | HOU-4.12 | Services and workforce for supportive housing | Draft from the research note, for Espen | Care flagship's bill (Medicaid); R2 (HUD backstop) |
 | HOU-4A.01 | One million new awards, 2030-33 (stage 1 and the start of stage 2) | Decided (memos 1, 2, 8) | R2, mandatory |
 | HOU-4A.02 | Housing agency administration for the new awards | Decided with HOU-4A (legacy allowance) | R2, mandatory |
@@ -42,7 +42,7 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-7B.01 | The investor limit left as enacted | Decided (point 8) | None |
 | HOU-8.01 | Social housing pilot | Legacy working choice | R2 (through HOU-3C.02 and a small equity grant) |
 | HOU-9A.01 | A small federal builder from 2029 | Decided (memo 3 part 2, A-small) | Regular bill (the corporation); R2 (capital and loan authority) |
-| HOU-2.01 | Housing tax credits (placeholder) | **Open**: options B and D before Espen | Not written |
+| HOU-2.01 | Housing tax credits (placeholder) | **Open**: memo 3 part 1's options A-D before Espen (PR #134 recommends D) | Not written |
 
 ## 1. Rules shared by all housing help
 
@@ -172,7 +172,7 @@ Espen's condition on memo 2 (`DEC-2026-11-09-01`): extremely low-income renters 
 2. A regular bill makes Housing First the standard for homelessness help that HUD and HHS fund, including McKinney-Vento grants and the new awards: no requirement of treatment, sobriety or service participation to get or keep housing; services offered.
 3. The National Strategic Plan due in July 2027 [EV-HOU-238] is reissued to match.
 
-- **A baseline expectation of engagement.** Espen's direction for section 4 calls for supportive housing in which "no one is threatened with a return to homelessness for declining treatment but there is a baseline expectation of engaging with service navigators" (`DEC-2026-11-09-05`). HOU-4.11 writes it as a duty on providers, not a condition on tenants.
+- **A baseline expectation of engagement.** Espen's direction for section 4 (`DEC-2026-11-09-05`, paraphrased there) asks for supportive housing in which no one is threatened with a return to homelessness for declining treatment, but where there is a baseline expectation of engaging with service navigators. HOU-4.11 drafts that as a duty on providers, not a condition on tenants.
 - **For Espen (yes or no; not adopted).** Should the rule extend current law's precedent in the Emergency Solutions Grants [EV-HOU-237]? It would bar new federal homelessness money from going to places that remove people or their belongings without offering shelter or housing.
 - **Vehicle.** Executive action, then a regular bill. No direct cost.
 - **Evidence.** [EV-HOU-099] [EV-HOU-101] [EV-HOU-102] [EV-HOU-100] [EV-HOU-105] [EV-HOU-016].
@@ -187,7 +187,7 @@ Espen's condition on memo 2 (`DEC-2026-11-09-01`): extremely low-income renters 
 - **Cost.** Section 6.
 - **Evidence.** The register has no evaluation of recovery housing (memo 5). The option rests on judgment, and the evaluation is part of the design.
 
-### HOU-4.11 Supportive housing: the engagement standard and treatment access
+### HOU-4.11 Supportive housing: a draft engagement standard and treatment access (for Espen)
 
 Source: the memo 5 follow-up research note, `dossiers/home/research-supportive-housing.md`. Worker session_01UQzgBv1hxxPY6YUSFFYS1g wrote it on branch `claude/housing-supportive-housing-research`. It was pushed but not merged when this section was written. Its evidence entries (numbered from 300 up) are on that branch. This provision cites the note's recommendations by number, and its tags are added once the note merges.
 
@@ -327,6 +327,7 @@ Rules 6, 7 and 8 of the point 5 note.
 - **For the poorest renters.** At least 30% goes out as grants or forgivable loans for homes for extremely low-income renters.
 - **Eligible uses.** New building, plus buying and preserving existing rental buildings and single-family homes, including tax-credit buildings whose rent limits are ending [EV-HOU-119].
 - **Vehicle.** R2, mandatory. It is borrowed inside the D4-B envelope as time-limited capital (ledger C21).
+- **Cost source.** Legacy file. The grant channel is about $0.06 trillion of HOU-3C's $0.075 trillion midpoint (range $0.061-0.10 trillion), and it is the part C21 borrows. The rest, about $0.015 trillion, is the loans' subsidy cost (HOU-3C.02). Both sit inside the ledger's housing title component ($0.47 trillion).
 - **Agency.** HUD, with state housing finance agencies.
 - **Current law.** New. It works beside HOME, with no set amount, and CDBG's new construction use (ROAD to Housing Act sections 501 and 204) [EV-HOU-215] [EV-HOU-226].
 - **Evidence.** [EV-HOU-118] [EV-HOU-150] [EV-HOU-119] [EV-HOU-024].
@@ -427,7 +428,7 @@ Rules 6, 7 and 8 of the point 5 note.
 
 ### HOU-2.01 Housing tax credits (open)
 
-> **Open; not specified.** Memo 3 part 1 was reopened by Espen on November 9 (`DEC-2026-11-09-03`). PR #134's research revision puts two options before Espen. This section does not choose.
+> **Open; not specified.** Memo 3 part 1 was reopened by Espen on November 9 (`DEC-2026-11-09-03`). PR #134's research revision puts four options before Espen: A (keep all three credits), B, C (all three with permanent affordability) and D. It now recommends D, where it recommended B before. The two summarized here are the earlier and current recommendations. This section does not choose.
 > - **B. Narrower credits, permanent affordability.**
 >   - Keep the bigger low-income credit with the boost for the poorest renters.
 >   - Postpone the middle-income credit until GAO's report, due July 2027 [EV-HOU-242].

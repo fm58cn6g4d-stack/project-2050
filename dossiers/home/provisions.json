@@ -317,7 +317,7 @@
   },
   {
     "id": "HOU-4.11",
-    "title": "Supportive housing: engagement as a duty on providers, treatment never a condition",
+    "title": "Supportive housing: draft engagement standard (a duty on providers) and treatment access",
     "agenda": "HOU-4",
     "status": "principle decided (memo 5 B); parameters drafted from the research note (recommendations 1-3, 6, 8, 9), for Espen",
     "decisions": [
@@ -624,7 +624,7 @@
       "EV-HOU-226"
     ],
     "sources": [],
-    "cost_source": "legacy HOU-3C about $0.075T inside ledger title 0.47",
+    "cost_source": "legacy: grant channel about $0.06T of HOU-3C's $0.075T midpoint, borrowed under C21; inside ledger title 0.47",
     "spec": "dossiers/home/4-specification.md"
   },
   {
@@ -880,7 +880,7 @@
     "id": "HOU-2.01",
     "title": "Housing tax credits (placeholder)",
     "agenda": "HOU-2",
-    "status": "open: options B and D before Espen",
+    "status": "open: memo 3 part 1 options A-D before Espen (PR #134 recommends D)",
     "decisions": [
       "DEC-2026-11-09-03"
     ],
