@@ -1,0 +1,1671 @@
+Source: https://www.congress.gov/crs_external_products/R/PDF/R48886/R48886.3.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-11-09
+Original SHA-256: 81af18b86dc1e58655e39be3f9bf8b6ed86b396023a628b132a83f5649b2f787
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Workforce or Middle-Income Housing:
+Analysis and Policy Considerations
+March 25, 2026
+
+Congressional Research Service
+https://crsreports.congress.gov
+R48886
+
+SUMMARY
+
+Workforce or Middle-Income Housing: Analysis
+and Policy Considerations
+Workforce housing is generally understood to be housing that is affordable and available for a
+population distinct from either low-income or upper-income households, though the term is not
+defined in federal statute or regulation. Proposed workforce housing definitions have generally
+considered at least one of three factors: household income, the occupation of a household
+member, and housing cost.
+
+R48886
+March 25, 2026
+Henry G. Watson
+Analyst in Housing Policy
+
+Congress may consider a beneficiary household’s income in the definition and design of a workforce housing program.
+Several income eligibility thresholds are defined in federal statute for low-income, very low-income, and extremely lowincome families. However, an income eligibility limit, or range, for middle-income or workforce-income families is not
+clearly defined in federal statute. Compared to low-income households, middle-income households tend to have lower rates
+of housing problems, such as high housing costs relative to income, but they may experience difficulties affording housing
+that meets their housing preferences, such as location, size, or tenure (owning versus renting).
+In addition to, or in place of, income-eligibility limits, policymakers may consider designing a workforce housing program
+with occupation-based eligibility. Several existing federal housing programs limit eligibility to households containing
+individuals employed as farmers, police, teachers, firefighters, and emergency medical technicians. Existing federal programs
+also provide housing benefits to federal employees in some cases. Occupation-based eligibility criteria and income-based
+eligibility criteria do not perfectly align due to substantial variation in wages.
+Congress may also consider the cost of housing in the definition and design of a workforce housing program. Existing federal
+housing programs generally base maximum housing costs on either individual household incomes, area median incomes, or
+area housing costs.
+To the extent Congress seeks to expand support for workforce or middle-income housing, policy options include supply-side
+subsidies (e.g., grants to subsidize construction), demand-side subsidies (e.g., down payment assistance to homebuyers), and
+incentivizing or supporting land use reforms, including facilitating missing middle housing. Other policy issues for Congress
+may include geographically targeting these policy interventions and facilitating filtering by increasing the supply of marketrate housing.
+
+Congressional Research Service
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Contents
+Introduction ..................................................................................................................................... 1
+Household Income ........................................................................................................................... 2
+Income Eligibility Limits .......................................................................................................... 2
+Housing Problems by Tenure and Relative Income .................................................................. 6
+Occupation....................................................................................................................................... 9
+Occupation-Based Eligibility .................................................................................................... 9
+Income Eligibility of Public Service Employees .................................................................... 10
+Housing Costs................................................................................................................................ 12
+Maximum Housing Costs ........................................................................................................ 12
+Rental Housing ................................................................................................................. 12
+Homeownership Housing.................................................................................................. 13
+Other Issues....................................................................................................................... 13
+Relationship Between Housing Cost Measures ...................................................................... 14
+Rental Housing ................................................................................................................. 14
+Homeownership Housing.................................................................................................. 15
+Policy Options ............................................................................................................................... 16
+Supply-Side Subsidies ............................................................................................................. 16
+Targeting ........................................................................................................................... 17
+Demand-Side Subsidies .......................................................................................................... 17
+Land-Use Policies and Missing Middle Housing .................................................................... 18
+Filtering ................................................................................................................................... 19
+
+Figures
+Figure 1. Housing Problems for Households by Tenure and Relative Income, 2023 ...................... 7
+Figure 2. Metropolitan Area Median Wages for Selected Public Service Occupations,
+Relative to HUD HAMFI, in 2024 .............................................................................................. 11
+
+Tables
+Table 1. Selected Active Federal Housing Programs with Income Eligibility in Excess of
+80% of Area Median Income (AMI) ............................................................................................ 5
+Table 2. Annualized 2025 FMRs Compared to 2025 HAMFIs ..................................................... 14
+Table 3. 2025 Area Median Sales Prices Compared to 2025 HAMFIs ......................................... 15
+Table A-1. Selected Legacy Federal Housing Programs with Income Eligibility in Excess
+of 80% of AMI ........................................................................................................................... 20
+
+Appendixes
+Appendix A. Selected Legacy Federal Housing Programs............................................................ 20
+
+Congressional Research Service
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Appendix B. Selected Introduced Legislation ............................................................................... 21
+
+Contacts
+Author Information........................................................................................................................ 25
+
+Congressional Research Service
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Introduction
+Congress has demonstrated interest in federal programs that would support workforce or middleincome housing.1 Workforce housing is generally understood to be housing that is affordable and
+available for a population distinct from either low-income or upper-income households, though
+the term is not defined in federal statute or regulation.2 Proposed workforce housing definitions
+have generally considered a household’s eligibility in terms of household income or the
+occupation of a household member. Some definitions also consider a housing unit’s eligibility in
+terms of cost, alone or in combination with household eligibility criteria.
+The federal government has historically targeted limited housing resources to low-income
+households who experience a shortage of affordable and available housing in the private market.3
+Broadly speaking, most households that do not qualify as low-income under federal policy can
+generally afford shelter that is decent, safe, and sanitary. Households earning more than the lowincome threshold can afford fair market rents (the 40th percentile of rental housing costs) with
+30% or less of their income in most areas, and approximately 95% of “middle-income
+households,” as defined in the U.S. Department of Housing and Urban Development’s (HUD’s)
+Worst Case Housing Needs (WCHN) report, did not experience severe housing problems in
+2023.4 However, some households that do not qualify as low-income may be unable to afford
+housing that matches their housing preferences, such as neighborhood amenities, proximity to
+jobs, and tenure (owning versus renting). Congress has, at times, supported such housing
+preferences for middle-income households, particularly homeownership.5
+To the extent Congress seeks to expand support for workforce or middle-income housing, policy
+options include supply-side subsidies (such as grants to subsidize construction), demand-side
+subsidies (such as down payment assistance to homebuyers), and incentivizing or supporting land
+use reforms, including facilitating missing middle housing.6 Other policy issues for Congress may
+include geographically targeting these policy interventions and facilitating filtering by increasing
+the supply of market-rate housing.7
+This report begins by addressing three factors often considered when defining and designing a
+potential workforce housing program: income-based eligibility, occupation-based eligibility, and
+housing costs. Their use in existing federal programs is discussed. Additionally, data are
+1 See Appendix B for a non-exhaustive list of related legislation introduced in the 118 th and 119th Congresses.
+2 Some scholars have criticized the term workforce housing for marginalizing and stigmatizing lower-income
+
+households, many of whom participate in the workforce. See, for example, Alexander Hermann et al., Subsidizing the
+Middle: Policies, Tradeoffs, and Costs of Addressing Middle-Income Affordability Challenges, Joint Center for
+Housing Studies, July 2024, https://www.jchs.harvard.edu/research-areas/working-papers/subsidizing-middle-policiestradeoffs-and-costs-addressing-middle.
+3 U.S. Department of Housing and Urban Development (HUD), Office of Policy Development and Research, Worst
+Case Housing Needs: 2025 Report to Congress, July 2025, https://www.huduser.gov/portal/publications/Worst-CaseHousing-Needs-2025-Report-to-Congress.html.
+4 See Figure 1 and Table 2.
+5 For more information, see CRS In Focus IF11305, Why Subsidize Homeownership? A Review of the Rationales, by
+Mark P. Keightley.
+6 The term missing middle housing describes housing types such as duplexes and townhouses that are more dense than
+detached single-family homes but less dense than apartment buildings. Opticos Design, “Missing Middle Housing,”
+https://missingmiddlehousing.com/about-2/ (accessed December 30, 2025).
+7 Filtering describes the process by which some households move into more expensive housing units, reducing demand
+and prices for the more affordable units they vacated. See Evan Mast, “JUE Insight: The Effect of New Market-Rate
+Housing Construction on the Low-Income Housing Market,” Journal of Urban Economics, vol. 133 (January 2023).
+
+Congressional Research Service
+
+1
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+presented on topics such as housing problems by tenure and relative income, the relative incomes
+of selected occupations, and the relationships between different measures of housing costs. The
+final sections of the report discuss several policy options for Congress. Table A-1 in the
+Appendix provides a non-exhaustive list of legislation introduced in the 118th and 119th
+Congresses that contains examples of provisions that may qualify as workforce or middle-income
+housing policies.
+List of Acronyms
+ACS: American Community Survey
+AMI: Area Median Income
+DDA: Difficult Development Area
+EAH: Employer-Assisted Housing
+FHA: Federal Housing Administration
+FMR: Fair Market Rent
+GNND: Good Neighbor Next Door
+GFH: Government-Furnished Housing
+HAMFI: Department of Housing and Urban Development (HUD) Area Median Family Income
+HRMA: Housing Requirements and Market Analysis
+HUD: U.S. Department of Housing and Urban Development
+LIHTC: Low-Income Housing Tax Credit
+MSA: Metropolitan Statistical Area
+OMB: Office of Management and Budget
+SAFMR: Small Area Fair Market Rent
+USDA: U.S. Department of Agriculture
+WCHN: Worst Case Housing Needs
+ZCTA: Zip Code Tabulation Area
+
+Household Income
+Congress may consider a beneficiary household’s income in the definition and design of a
+workforce housing program. That is, only households that satisfy a household income criterion
+would be eligible to benefit from a workforce housing program. An income eligibility limit, or
+range, for middle-income or workforce-income households is not clearly defined in federal
+statute. If middle-income is defined relative to metropolitan- or county-area incomes, middleincome households tend to have lower rates of housing problems, such as high housing costs
+relative to income, compared to low-income households. Middle-income households may
+experience difficulties affording housing that meets their housing preferences such as location,
+size, and tenure.
+
+Income Eligibility Limits
+An income eligibility limit restricts participation in a program to individuals or households who
+have an income no more than (and in some cases no less than) a specified threshold. Income
+eligibility thresholds in existing housing programs are typically set at a percentage of an adjusted
+measure of area median income (AMI) known as HUD Area Median Family Income (HAMFI).
+The methodology of HAMFI is discussed in the box below. In this report, AMI is used to refer to
+the generalized concept of area median income, whereas HAMFI is used to refer to the specific,
+HUD-calculated measure.
+
+Congressional Research Service
+
+2
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+HUD Area Median Family Income (HAMFI)
+AMI is widely used in federal housing policy to determine income eligibility limits and maximum housing costs,
+accounting for geographic differences in wages and the cost of living. HUD is directed in statute to calculate the
+“median income for the area, as determined by the Secretary with adjustments for smaller and larger families,
+except that the Secretary may establish income ceilings higher or lower ... on the basis of the Secretary’s findings
+that such variations are necessary because of prevailing levels of construction costs or unusually high or low family
+incomes” (see 42 U.S.C. §1437a(b)(2)). HUD’s calculation of AMI is referred to as HAMFI. The same methodology
+underlies Multifamily Tax Subsidy Project Income Limits (“area median gross income”) used for projects financed
+with tax exempt bonds or the Low-Income Housing Tax Credit (LIHTC).
+The geographies for HAMFIs are metropolitan areas and non-metropolitan counties. The metropolitan areas used
+for HAMFI generally align with Office of Management and Budget (OMB) definitions of Metropolitan Statistical
+Areas (MSAs), but HUD has diverged from the OMB-defined areas over time.8
+HAMFI is based on median household income as reported by the American Community Survey (ACS), with
+several adjustments applied:9
+•
+
+If statistically reliable estimates are not available for an area in recent years, HUD may use estimates
+from the next largest encompassing geography.
+
+•
+
+ACS data are adjusted for inflation based on Congressional Budget Office projections of national per
+capita wages and salaries.
+
+•
+
+HAMFI-based income limits are adjusted upward for areas where rental housing costs exceed a certain
+threshold, relative to incomes.10
+
+•
+
+HAMFI-based income limits are adjusted downward for areas where incomes exceed a certain
+threshold, relative to rental housing costs and the U.S. median family income. 11
+
+•
+
+HAMFI-based income limits are adjusted to be no lower than the State Non-Metropolitan Median Family
+Income (or the national non-metro median in states without non-metropolitan counties).
+
+•
+
+A HAMFI may not decrease more than 5% year-over-year and may not increase by the greater of 5% or
+twice the annual change in national median family income, up to 10% year-over-year.
+Baseline estimates of HAMFI are used for income limits for four-person households. Income limits for other family
+sizes are calculated by applying percentage adjustments. The one-person family income limit is 70% of the fourperson income limit, the two-person limit is 80%, the three-person limit is 90%, the five-person limit is 108%, the
+six-person limit is 116%, the seven-person limit is 124%, the eight-person limit is 132%, and an additional 8% is
+added per person for family sizes larger than eight persons.
+
+8 U.S. Department of Housing and Urban Development, Office of Economic Affairs, Office of Policy Development and
+
+Research, Assessment of Small Area Median Family Income Estimates, May 2018, https://www.huduser.gov/portal/
+sites/default/files/pdf/Assessment-of-Small-Area-Median-Family-Income-Estimates.pdf.
+9 For more information, see U.S. Department of Housing and Urban Development, Methodology for Determining FY
+2025 Section 8 Income Limits, April 1, 2025, https://www.huduser.gov/portal/datasets/il//il25/
+IncomeLimitsMethodology-FY25.pdf.
+10 In FY2025, HUD applied this adjustment to the HAMFIs of 10 non-metro counties (out of 1,958) and 25
+metropolitan areas (out of 684). See U.S. Department of Housing and Urban Development, Methodology for
+Determining FY 2025 Section 8 Income Limits, April 1, 2025, https://www.huduser.gov/portal/datasets/il//il25/
+IncomeLimitsMethodology-FY25.pdf.
+For an example, see the FY2025 Very Low (50%) Income Limit calculation for the New York, NY, HUD Metro FMR
+Area, available at https://www.huduser.gov/portal/datasets/il/il2025/select_Geography.odn.
+11 In FY2025, HUD applied this adjustment to the HAMFIs of 2 non-metro counties (out of 1,958) and 0 metropolitan
+areas (out of 684). See U.S. Department of Housing and Urban Development, Methodology for Determining FY 2025
+Section 8 Income Limits, April 1, 2025, https://www.huduser.gov/portal/datasets/il//il25/IncomeLimitsMethodologyFY25.pdf.
+For an example, see the FY2025 Very Low (50%) Income Limit calculation for Los Alamos County, NM, available at
+https://www.huduser.gov/portal/datasets/il/il2025/select_Geography.odn.
+
+Congressional Research Service
+
+3
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Several income eligibility thresholds used in many federal housing programs are defined in
+statute at 42 U.S.C. §1437a(b):
+•
+
+•
+
+•
+
+Low-income: “families whose incomes do not exceed 80 per centum of the
+median income for the area, as determined by the Secretary, with adjustments for
+smaller and larger families, except that the Secretary may establish income
+ceilings higher or lower than 80 per centum of the median for the area on the
+basis of the Secretary's findings that such variations are necessary because of
+prevailing levels of construction costs or unusually high or low family incomes.”
+Very low-income: “families whose incomes do not exceed 50 per centum of the
+median family income for the area, as determined by the Secretary with
+adjustments for smaller and larger families, except that the Secretary may
+establish income ceilings higher or lower than 50 per centum of the median for
+the area on the basis of the Secretary’s findings that such variations are necessary
+because of unusually high or low family incomes.”
+Extremely low-income: “families whose incomes do not exceed the higher of—
+(i) The poverty guidelines updated periodically by the Department of Health and
+Human Services under the authority of [42 U.S.C. §9902(2)] applicable to a
+family of the size involved (except that this clause shall not apply in the case of
+public housing agencies or projects located in Puerto Rico or any other territory
+or possession of the United States); or
+(ii) 30 percent of the median family income for the area, as determined by the
+Secretary, with adjustments for smaller and larger families (except that the
+Secretary may establish income ceilings higher or lower than 30 percent of the
+median for the area on the basis of the Secretary’s findings that such variations
+are necessary because of unusually high or low family incomes).”
+
+There is no similarly established income eligibility threshold for workforce housing or workforce
+income in federal statute. However, the Community Development Block Grant program (which
+can be used for some affordable housing activities) defines “persons of moderate income” as
+“families and individuals whose incomes exceed 50 percent, but do not exceed 80 percent, of the
+median income of the area involved, as determined by the Secretary with adjustments for smaller
+and larger families.” 12 This population would be included under the definition of “low-income”
+noted above that is used for other federal housing programs. Additionally, HUD’s 2025 WCHN
+report defines “middle-income” as 80%-120% of HAMFI.13
+Existing state and local workforce housing programs commonly set a maximum income
+eligibility of 120% of AMI, with some variation.14 Several state and local workforce housing
+programs additionally employ a minimum income eligibility threshold, commonly set at 60% or
+80% of AMI. Income eligibility minimums may be used to target benefits to households with
+12 42 U.S.C. §5302(a)(20). Similar to the definitions at 42 U.S.C. §1437a(b), this section permits the HUD Secretary to
+
+“establish percentages of median income for any area that are higher or lower than the percentages set forth ... if the
+Secretary finds such variations to be necessary because of unusually high or low family incomes in such area.”
+13 U.S. Department of Housing and Urban Development, Office of Policy Development and Research, Worst Case
+Housing Needs: 2025 Report to Congress, July 2025, p. 103, https://www.huduser.gov/portal/publications/Worst-CaseHousing-Needs-2025-Report-to-Congress.html.
+14 Alexander Hermann et al., Subsidizing the Middle: Policies, Tradeoffs, and Costs of Addressing Middle-Income
+Affordability Challenges, Joint Center for Housing Studies, July 2024, https://www.jchs.harvard.edu/research-areas/
+working-papers/subsidizing-middle-policies-tradeoffs-and-costs-addressing-middle.
+
+Congressional Research Service
+
+4
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+incomes too high to qualify for existing housing programs.15 Existing housing programs
+predominantly target “low-income” families, as defined above.
+Table 1 shows selected active federal housing programs with income eligibility limits greater
+than the federal low-income limit (80% of AMI, as adjusted). Appendix A shows selected legacy
+federal housing programs with income eligibility limits greater than the federal low-income limit.
+Table 1. Selected Active Federal Housing Programs with Income Eligibility in Excess
+of 80% of Area Median Income (AMI)
+
+Program Name
+
+Maximum
+Income
+Eligibility
+
+Capital Magnet Fund
+
+120% of AMI
+
+Federal Home Loan
+Bank Community
+Investment Programs
+
+Other Eligibility
+Limits
+
+Type of Assistance
+
+Source
+
+No more than
+50% of funds may
+be used to serve
+households with
+incomes greater
+than 80% of AMI.
+
+Financing for developing,
+preserving, or purchasing
+rental or
+homeownership housing
+
+12 U.S.C. §4569
+12 C.F.R. Part
+1807
+
+115% of AMI
+
+NA
+
+Financing for purchase
+or rehabilitation of
+rental or
+homeownership housing
+
+12 U.S.C. §1430
+
+Mortgage revenue bonds
+
+115% of AMI up
+to 140% of AMI
+in high housing
+cost areas
+
+Maximum
+acquisition costs
+
+Private activity bonds to
+finance mortgages for
+homebuyers
+
+26 U.S.C. §143
+
+Rural Housing Service
+guaranteed loans (§§502
+and 538)
+
+115% of AMIa
+
+NA
+
+Loan guarantees to
+finance the construction,
+acquisition, and
+rehabilitation of singleand multi-family housing
+
+42 U.S.C.
+§1472(h)(3)
+42 U.S.C.
+§1490p-2(d)(2)
+
+Rural Housing Service
+multifamily rental
+programs (§§514, 515,
+516, and 521)
+
+80% of AMI +
+$5,500
+
+Some programs
+prioritize
+assistance for very
+low-income
+families.
+
+Farm labor housing
+direct loans and grants;
+rural multifamily rental
+housing direct loans; and
+rural rental assistance
+
+42 U.S.C.
+§§1484 et seq.
+7 C.F.R. Part
+3560.11
+
+Source: CRS analysis of federal housing programs, based in part on U.S. Department of Housing and Urban
+Development, Office of Economic Affairs, Office of Policy Development and Research, Assessment of Small Area
+Median Family Income Estimates, May 2018, https://www.huduser.gov/portal/sites/default/files/pdf/Assessment-ofSmall-Area-Median-Family-Income-Estimates.pdf.
+a. In the regulations for Section 502, “moderate income” is defined as the greater of (1) 115% of the U.S.
+median family income, (2) the average of the statewide and state non-metro median family income, or (3)
+115/80ths of the low-income limit for the county or metropolitan statistical area where the housing is
+located (7 C.F.R. §3555.10).
+
+In addition to the programs listed in Table 1, some federal programs subsidize and incentivize
+homeownership for households of any income, including the mortgage interest deduction and
+Federal Housing Administration (FHA)-insured single-family mortgages. The FHA also insures
+mortgages to support the purchase, construction, rehabilitation, repair, or refinancing of
+multifamily rental properties. Most FHA multifamily programs do not have explicit income
+15 Rebecca Lazarovic et al., “Approaches to workforce housing in London and Chicago: from targeted sectors to
+
+income-based eligibility,” Housing Studies, vol. 31, no. 6 (September 2016), pp. 651-671.
+
+Congressional Research Service
+
+5
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+limits. However, a recent FHA Mortgagee Letter established more favorable loan terms for
+“middle-income projects” (defined as projects with at least 50% of units targeted to households
+earning up to 120% of AMI) under the Section 221(d)(4) multifamily program.16
+
+Housing Problems by Tenure and Relative Income
+In determining income eligibility limits for a potential workforce housing program, Congress may
+be interested in how current rates of housing problems—such as cost burden and physical housing
+deficiencies—vary by household income and tenure. The analysis in this section focuses
+primarily on the 26.3 million owner and renter households with incomes between 80%-120% of
+HAMFI. This income band is referred to as “middle income” in HUD’s 2025 WCHN report,17
+aligns with typical state and local workforce housing programs, and definitionally excludes lowincome households. Four-person household incomes in this band can range from $51,850 to
+$241,080 depending on the area, based on FY2025 HUD Income Limits.18
+Approximately 28% of all households with incomes between 80%-120% of HAMFI (adjusted for
+family size) had housing problems in 2023, according to data from the 2025 WCHN report.19 A
+household is considered to have housing problems if housing costs exceed 30% of household
+income; if the housing has one or more moderate physical problems related to plumbing, heating,
+upkeep, or the kitchen; or if the housing is “overcrowded” (more than one person per total
+rooms). About one-fifth of this group—approximately 5% of households with incomes between
+80%-120% of HAMFI—had severe housing problems in 2023. A household is considered to have
+severe housing problems if housing costs exceed 50% of household income or if the housing has
+one or more serious physical problems related to heating, plumbing, electrical systems, or
+upkeep. Since the late 1980s, rates of housing problems have been predominantly driven by
+housing costs rather than physical problems or overcrowding.20
+As shown in Figure 1, in 2023 approximately 7.4 million homeowner and renter households,
+earned 80%-120% of HAMFI and experienced housing problems, accounting for approximately
+32% of renter households and 26% of homeowner households in this income range.21 By
+16 U.S. Department of Housing and Urban Development, “Mortgagee Letter 2026-1: Creating a Middle Income
+
+Housing option for 221(d)(4),” January 22, 2026, https://www.hud.gov/sites/dfiles/hudclips/documents/202601hsgml.pdf.
+17 U.S. Department of Housing and Urban Development, Office of Policy Development and Research, Worst Case
+Housing Needs: 2025 Report to Congress, July 2025, https://www.huduser.gov/portal/publications/Worst-CaseHousing-Needs-2025-Report-to-Congress.html, page 103.
+18 For example, in the Morehouse Parish, LA, HUD Metro FMR Area in FY2025, 80% of HAMFI was equal to
+$51,850 and 120% of HAMFI was equal to $77,760. In the San Jose-Sunnyvale-Santa Clara, CA, HUD Metro FMR
+Area in FY2025, 80% of HAMFI was equal to $159,550 and 120% of HAMFI was equal to $241,080. See
+https://www.huduser.gov/portal/datasets/il.html.
+19 U.S. Department of Housing and Urban Development, Office of Policy Development and Research, Worst Case
+Housing Needs: 2025 Report to Congress, July 2025, https://www.huduser.gov/portal/publications/Worst-CaseHousing-Needs-2025-Report-to-Congress.html.
+20 Among all households with housing problems in 2023, approximately 90% experienced housing cost burdens. Some
+households experienced both housing cost burdens and physical problems or overcrowding. See U.S. Department of
+Housing and Urban Development, Office of Policy Development and Research, Worst Case Housing Needs: 2025
+Report to Congress, July 2025, Appendix Tables A-1A and A-1B, https://www.huduser.gov/portal/publications/WorstCase-Housing-Needs-2025-Report-to-Congress.html. For historical trends, see U.S. Department of Housing and Urban
+Development, Office of Policy Development and Research, Trends in Worst Case Needs for Housing, 1978-1999,
+December 2003, p. 8, https://www.huduser.gov/portal/publications/affhsg/worstcase03.html.
+21 These statistics include households that report receipt of housing assistance (“assisted households”). HUD’s WCHN
+report excludes assisted households from its count of households with worst case housing needs. If assisted renters
+(continued...)
+
+Congressional Research Service
+
+6
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+comparison, approximately 39.7 million households earned less than 80% of HAMFI and
+experienced housing problems in 2023, accounting for approximately 75% of renter households
+and 59% of homeowner households in this income range.22 In Figure 1, households that earned
+less than 80% of HAMFI are represented by the bottom three categories: 0-30%, >30-50%, and
+>50-80%.
+Approximately 1.4 million homeowner and renter households earned 80%-120% of HAMFI and
+experienced severe housing problems, accounting for approximately 4.9% of renter households
+and 5.5% of homeowner households in this income range.23 By comparison, approximately 22.2
+million households earned less than 80% of HAMFI and experienced severe housing problems in
+2023, accounting for approximately 42% of renter households and 33% of homeowner
+households in this income range.24
+Figure 1. Housing Problems for Households by Tenure and Relative Income, 2023
+(income categories are relative to HAMFI)
+
+Source: U.S. Department of Housing and Urban Development, Office of Policy Development and Research,
+Worst Case Housing Needs: 2025 Report to Congress, July 2025, Appendix Tables A-1A and A-1B,
+https://www.huduser.gov/portal/publications/Worst-Case-Housing-Needs-2025-Report-to-Congress.html.
+Notes: Tenure describes whether a household owns or rents their housing. Data are HUD Office of Policy
+Development and Research tabulations of the 2023 American Housing Survey. A household is considered to
+have a housing problem if housing costs exceed 30% of household income; if the housing has one or more
+moderate physical problems related to plumbing, heating, upkeep, or the kitchen; or if the housing is
+were excluded, approximately 0.1 million fewer households in this income band would be classified as having housing
+problems, and the share of renter households with housing problems would be 31%.
+22 If assisted renters were excluded, approximately 4.3 million fewer households in this income band would be
+classified as having housing problems, and the share of renter households with housing problems would be 60%.
+23 If assisted renters were excluded, approximately 0.02 million fewer households in this income band would be
+classified as having severe housing problems, and the share of renter households with severe housing problems would
+be 4.7%.
+24 If assisted renters were excluded, approximately 2.5 million fewer households in this income band would be
+classified as having severe housing problems, and the share of renter households with severe housing problems would
+be 33%.
+
+Congressional Research Service
+
+7
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+“overcrowded” (more than one person per total rooms). A household is considered to have a severe housing
+problem if housing costs exceed 50% of household income or if the housing has one or more serious physical
+problems related to heating, plumbing, electrical systems, or upkeep. In this figure, households that report
+receipt of housing assistance (“assisted households”) are categorized as either “not experiencing housing
+problems”, “experiencing any housing problems”, or “experiencing severe housing problems” based on the
+previously listed definitions. HUD’s Worst Case Housing Needs report excludes assisted households from its
+count of households with worst case housing needs.
+
+Housing cost burdens, as estimated by a 30% of income standard,25 are a major component of the
+WCHN measure of housing problems, and are not necessarily comparable between households of
+different incomes. A housing cost burden based on a fixed 30% of income does not account for
+the possibility that high-income households may require a lower percentage of their income to
+afford necessities compared to low-income households. For that reason, the 30% of income
+standard may produce higher estimates of cost burden among middle-income households
+compared to estimates produced by alternative methodologies.26
+The 2025 WCHN report also found a nationally sufficient number of affordable and available
+units for renter households with incomes greater than or equal to 100% of HAMFI, although
+some units may not be physically adequate, and the geographic distribution of units may not align
+with the distribution of renters.27
+These data can inform whether households live in housing units that are decent, safe, sanitary, and
+affordable (using the benchmark of 30% or 50% of income spent on housing costs). However,
+these data cannot show whether households live in housing that aligns with their preferences,
+which policymakers may wish to account for.28 Households make intentional decisions on where
+to live, balancing the cost of the housing against factors such as proximity to schools, jobs, and
+community. For example, a household may choose a housing unit they can afford over a more
+expensive unit closer to their job; this would not be a housing problem accounted for by the
+WCHN data. Individuals may also form larger households than they would prefer—by, for
+example, living with roommates—due to high housing costs. Provided that the housing is not
+overcrowded (more than one person per total rooms), this would not be defined as a housing
+problem either. Households may also rent housing when they would prefer to own. The
+homeownership rate among households earning 80%-120% of HAMFI declined from 73% in
+2003 to 68% in 2023.29 It is unknown what share of this decline, if any, can be attributed to
+25 For more information on housing cost burdens, see CRS Report R48450, Housing Cost Burdens in 2023: In Brief, by
+
+Maggie McCarty, Mark P. Keightley, and Mary Daniels.
+26 Christopher Herbert et al., Measuring Housing Affordability: Assessing the 30 Percent of Income Standard, Joint
+Center for Housing Studies of Harvard University, Cambridge, MA, September 2018, pp. 14-15,
+https://www.jchs.harvard.edu/sites/default/files/media/imp/
+Harvard_JCHS_Herbert_Hermann_McCue_measuring_housing_affordability.pdf.
+27 U.S. Department of Housing and Urban Development, Office of Policy Development and Research, Worst Case
+Housing Needs: 2025 Report to Congress, July 2025, p. 35, https://www.huduser.gov/portal/publications/Worst-CaseHousing-Needs-2025-Report-to-Congress.html.
+28 Some researchers have proposed alternative measures of housing affordability to address some of the limitations
+discussed in this paragraph. See, for example, Daniel Shoag et al., Affordability for Whom? Introducing an Inclusive
+Affordability Measure, Terner Center for Housing Innovation, May 2024, https://ternercenter.berkeley.edu/wp-content/
+uploads/2024/05/Affordability-for-Whom-May-2024-.pdf.; and Matthew M. Brooks, “Measuring America’s
+Affordability Problem: Comparing Alternative Measurements of Affordable Housing,” Housing Policy Debate, vol. 33,
+no. 6 (2023), pp. 1293-1312.
+29 In 2023, HUD reported 17,918,000 owner households with incomes between 80% and 120% of HAMFI, compared
+to 8,429,000 renter households. U.S. Department of Housing and Urban Development, Office of Policy Development
+and Research, Worst Case Housing Needs: 2025 Report to Congress, July 2025, Appendix Tables A-1A and A-1B,
+https://www.huduser.gov/portal/publications/Worst-Case-Housing-Needs-2025-Report-to-Congress.html.
+(continued...)
+
+Congressional Research Service
+
+8
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+changes in the affordability of homeownership, as opposed to other factors such as delayed
+family formation and shifting preferences regarding housing tenure.
+
+Occupation
+In addition to, or in place of, income-eligibility limits, policymakers may consider designing a
+workforce housing program with occupation-based eligibility. That is, only households that
+satisfy an occupational or employment criteria would be eligible to benefit from the workforce
+housing program. A small number of federal housing programs limit eligibility to households
+containing individuals employed in certain occupations, such as police, teachers, firefighters, and
+emergency medical technicians. Existing federal programs also provide housing benefits to
+federal employees in some cases. Occupation-based eligibility criteria and income-based
+eligibility criteria do not perfectly align due to substantial variation in wages across both
+occupations and locations.
+
+Occupation-Based Eligibility
+A workforce housing program could restrict eligibility to households containing individuals
+employed in certain occupations so as to capture positive economic spillovers, 30 incentivize
+residency for certain municipal employees,31 ease the burden of occupations with existing
+residency requirements, 32 or offset an influx of workers.33 A program could restrict eligibility to
+heads of households, or it could include any household with at least one member employed in a
+qualifying occupation.
+A limited number of existing federal housing programs consider occupation as an eligibility
+factor. The Section 514 and Section 516 Rural Housing Service programs prioritize eligibility to
+persons (and their families) employed in “domestic farm labor.”34 In the case of diminished need
+for farm labor housing, Section 514- and Section 516-supported housing may be made available
+to retired or disabled farm laborers35 or other elderly, disabled, and low-income families not
+connected to domestic farm labor.36
+
+In 2003, HUD reported 14,281,000 owner households with incomes between 80% and 120% of HAMFI, compared to
+5,416,000 renter households. U.S. Department of Housing and Urban Development, Office of Policy Development and
+Research, Affordable Housing Needs: A Report to Congress on the Significant Need for Housing, January 22, 2006,
+Appendix Tables A-1a and A-1b, https://www.huduser.gov/portal/publications/affhsg/affhsgneed.html.
+Freddie Mac has stated that Q4 2003 was the end of a “stable period” in the housing market; see
+https://www.freddiemac.com/research/insight/housing-supply-still-undersupplied.
+30
+Nicky Morrison, “Securing Key Worker Housing through the Planning System,” in Making Housing More
+Affordable: The Role of Intermediate Tenures, ed. Sarah Monk and Christine Whitehead (Oxford: Wiley-Blackwell,
+2010), pp. 120-133.
+31 Daniel Villa, “Measuring the Impact of Residency Requirements and the Relationship with the Citizens in the
+Community,” (Ph.D. Dissertation, DePaul University, 2021).
+32 Peter K Eisinger, “Municipal Residency Requirements and the Local Economy,” Social Science Quarterly, vol. 64,
+no. 1 (March 1, 1983).
+33 Wannakuwatte Mitiwaduge Felix Nirmal Fernando, “Economic and Social Impacts of Rapid Shale Oil Development
+in Western North Dakota,” (Ph.D. Dissertation, North Dakota State University, 2016).
+34 42 U.S.C. §1484(f)(3).
+35 42 U.S.C. §1484(f)(3)(C).
+36 42 U.S.C. §1484(i).
+
+Congressional Research Service
+
+9
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+The Good Neighbor Next Door (GNND) Sales Program provides discounts on a limited number
+of HUD-owned single-unit properties in HUD-designated revitalization areas37 for persons
+working in several defined occupations: law enforcement officers, teachers of students in grades
+pre-kindergarten through 12, firefighters, and emergency medical technicians.38 The GNND
+program followed several similar HUD programs targeted to public safety employees,39 full-time
+law enforcement officers,40 and teachers.41 HUD also permits local Public Housing Agencies to
+allow otherwise ineligible police officers to reside in public housing dwelling units for the
+purpose of increasing security in the development.42
+Some federal employees receive government-furnished housing or housing benefits. The U.S.
+Department of Defense43 provides housing benefits to active-duty servicemembers as a
+component of service agreements and compensation packages.44 Additionally, all executive
+agency heads may provide housing to federal civilian employees and employees of government
+contractors, under certain conditions.45 Government-Furnished Housing (GFH) is generally only
+provided for civilian employees when duty stations are in remote locations with inadequate
+private housing.46 The Secretary of the Interior, acting through the Director of the National Park
+Service, is separately authorized to lease and newly construct housing for rent to field
+employees.47
+
+Income Eligibility of Public Service Employees
+Occupation- and income-based eligibility criteria do not perfectly align due to substantial
+variation in wages across both occupations and locations. This analysis will focus primarily on
+public service occupations in line with the existing GNND program and several pieces of
+introduced legislation.48
+Each point in Figure 2 represents the median wage for one occupation in one MSA as a
+percentage of the relevant one-person HAMFI. The state-level minimum wage for a full-time
+employee is also shown.49 Not every occupation has a measured wage in every MSA; missing
+37 See 12 U.S.C. 1710(h)(3) for the definition of “revitalization area.”
+38 24 C.F.R. §291.510.
+39 U.S. Department of Housing and Urban Development, “Single Family Property Disposition Sales Program for Public
+
+Safety Employees,” 59 Federal Register, September 20, 1994.
+40 This program was initiated through the issuance of HUD Notice H-97-51. For more information, see U.S.
+Department of Housing and Urban Development, “Single Family Property Disposition Officer Next Door Sales
+Program,” 63 Federal Register 1886, January 12, 1998.
+41 U.S. Department of Housing and Urban Development, “Teacher Next Door Initiative; Notice,” 64 Federal Register
+68370, December 7, 1999.
+42 42 U.S.C. §1437a(4), 24 C.F.R. §960.505.
+43
+The Department of Defense is “using a secondary Department of War designation,” under Executive Order 14347
+dated September 5, 2025.
+44 For more information, see CRS Report R47728, Military Housing, by Andrew Tilghman.
+45 5 U.S.C. §5911.
+46 OMB Circular A-45 sets policies and administrative guidance for rental and construction of non-military GFH.
+47 54 U.S.C. §§101331 et seq.
+48 See Appendix B for related bills.
+49 For the purposes of this figure, the minimum wage for the state identified by the Bureau of Labor Statistics as the
+“primary state” for each MSA is used. If a state does not have a minimum wage, or has a minimum wage lower than
+the federal minimum wage ($7.25), the federal minimum wage is used. A full-time annual minimum wage is calculated
+by multiplying the hourly minimum wage by 2,080. This is a high-end estimate for minimum-wage earners, who may
+not necessarily work 2,080 hours per year.
+
+Congressional Research Service
+
+10
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+data are omitted, and the number of sampled MSAs for each occupation is provided in
+parentheses.
+These data show substantial variation in wages as a share of HAMFI by occupation and by MSA.
+Teachers, paramedics, police officers, and firefighters earn a median wage between 80% and
+120% of HAMFI in a majority of sampled MSAs. Emergency medical technicians and emergency
+dispatchers earn a median wage less than 80% of HAMFI in a majority of sampled MSAs. A fulltime minimum-wage earner would earn less than 80% of HAMFI in all sampled MSAs. The
+median wages presented here do not capture within-MSA variation in wages for these
+occupations.
+Figure 2. Metropolitan Area Median Wages for Selected Public Service Occupations,
+Relative to HUD HAMFI, in 2024
+(Each point represents the median wage for one occupation in one MSA as a share of the relevant HAMFI.
+The number of sampled MSAs for each occupation is provided in parentheses.)
+
+Source: Median wages for occupations by MSA are sourced from U.S. Department of Labor, Bureau of Labor
+Statistics (BLS), Occupational Employment and Wage Statistics (OEWS), May 2024, http://www.bls.gov/oes/.
+Minimum wages are sourced from U.S. Department and Labor, Changes in Basic Minimum Wages in Non-Farm
+Employment Under State Law: Selected Years 1968 to 2024, January 2025, https://www.dol.gov/agencies/whd/state/
+minimum-wage/history. One-person HAMFIs for 2024 are sourced from U.S. Department of Housing and Urban
+Development, Office of Policy Development and Research, “Income Limits,” updated April 1, 2025,
+https://www.huduser.gov/portal/datasets/il.html.
+Notes: HAMFI = Department of Housing and Urban Development (HUD) Area Median Family Income. MSA =
+Metropolitan Statistical Area. This figure includes data from 225 MSAs in the 50 U.S. states and the District of
+Columbia that appear in both the BLS and HUD datasets. Not every MSA has sufficient data for every listed
+occupation; missing data are omitted and the total number of MSAs for each occupation is listed in parentheses.
+OEWS estimates combine six semiannual panels of survey data over a three-year period; the May 2024 dataset
+includes data from November 2021, May 2022, November 2022, May 2023, November 2023, and May 2024.
+Wage inflation over that period is accounted for by adjusting wages from prior panels using the Employment
+Cost Index (ECI). BLS assigns a “primary state” to each MSA, including cross-state MSAs, which is used to match
+to state-level minimum wage data from 2024. Hourly minimum wage data is multiplied by 2,080 to calculate a
+full-time, full-year minimum wage.
+
+Congressional Research Service
+
+11
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Housing Costs
+Congress may additionally consider the cost of housing in the definition and design of a
+workforce housing program. That is, housing units subsidized, purchased, or rented as part of a
+workforce housing program would be subject to a maximum housing cost. Existing federal
+housing programs generally base maximum housing costs on either individual household
+incomes, AMI, or area housing costs. These different metrics can be directly related. Fair market
+rents (FMR), a measure of area rental housing costs, vary from less than 30% of 30% of HAMFI
+to almost 30% of 90% of HAMFI, depending on the area. Area median sales prices, a measure of
+area homeownership housing costs, vary from less than three times to greater than six times
+HAMFI, depending on the area.
+
+Maximum Housing Costs
+Existing federal housing programs set maximum costs based on individual household incomes,
+AMI, or area housing costs. However, the specific methodologies differ for rental housing and for
+homeownership housing.
+
+Rental Housing
+Income-based maximum rents are typically based on the concept of housing cost burden: that
+housing is affordable if it costs no more than 30% of a household’s income.50 Federal tenantbased rental assistance programs generally set a maximum tenant contribution toward rent at the
+greater of 30% of the tenant’s adjusted family income or an alternative minimum rent.51 Other
+programs set a maximum rent at 30% of a percentage of AMI, even if that rent would require
+more than 30% of the actual household income of some eligible tenants.52 For example, in the
+Low-Income Housing Tax Credit (LIHTC) program a unit is “rent-restricted” if the rent does not
+exceed 30% of the maximum income eligibility for the unit.53 Congress could, alternatively,
+disconnect income eligibility from maximum housing costs such that some eligible households
+would pay less than 30% of their income toward the maximum rent. For example, if a program
+were to have a maximum housing cost of 30% of 80% of HAMFI and an income eligibility range
+of 80%-120% of HAMFI, eligible households would pay between 20% and 30% of their income
+toward the maximum rent for an assisted unit.54
+Other rental housing production programs base maximum rents on area housing costs, such as the
+area FMR. The FMR is the 40th percentile rent for a metropolitan area or a non-metropolitan
+county, as adjusted by HUD. For example, in the HOME Investment Partnerships program, the
+maximum rent for a rental housing unit is the lesser of 30% of 65% of HAMFI or the area
+FMR.55 HUD also sets Small Area FMRs (SAFMRs) at the level of Zip Code Tabulation Areas
+50 For more information, see CRS Report R48450, Housing Cost Burdens in 2023: In Brief, by Maggie McCarty, Mark
+
+P. Keightley, and Mary Daniels.
+51 The maximum rent for all federal rental housing assistance programs was increased from 25% of adjusted family
+income to 30% of adjusted family income by the Housing and Community Development Amendments of 1981 (P.L.
+97-35) and the Housing and Urban-Rural Recovery Act of 1983 (P.L. 98-181).
+52 U.S. Department of Housing and Urban Development, Office of Economic Affairs, Office of Policy Development
+and Research, Assessment of Small Area Median Family Income Estimates, May 2018, https://www.huduser.gov/portal/
+sites/default/files/pdf/Assessment-of-Small-Area-Median-Family-Income-Estimates.pdf.
+53 26 U.S.C. §42(g)(2).
+54 30% of 80% of HAMFI is equal to 20% of 120% of HAMFI.
+55 42 U.S.C. §12745(a).
+
+Congressional Research Service
+
+12
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+(ZCTAs) for certain metropolitan areas for use in the administration of the Housing Choice
+Voucher program.56 Congress could set maximum housing costs based on SAFMR to allow for
+higher program rents (or a higher payment standard) in neighborhoods with higher market rents.57
+
+Homeownership Housing
+Most federal homeownership programs set maximum housing costs in reference to area housing
+costs. In the HOME program, for example, assisted homeownership units have a maximum initial
+purchase price of 95% of the area median purchase price for a similar unit.58 Similarly, FHAinsured mortgages cannot exceed 115% of area median home prices, within the bounds of a
+national floor and ceiling.59 Some middle-income housing proposals would limit housing sale
+prices to a multiple of household income. For example, the proposed Neighborhood Homes
+Investment Act (H.R. 2854/S. 1686) defines an “affordable sale” in part as a qualified residence
+with a price that does not exceed four times the area median family income.
+Some federal programs have subsidized homeownership based on the cost of a mortgage payment
+relative to household income. For example, the U. S. Department of Agriculture’s (USDA’s)
+Section 502 direct loan program (which is limited to low-income households) provides payment
+subsidies to eligible borrowers such that their monthly mortgage payment is the greater of 24% of
+adjusted income or the equivalent of a loan payment based on a 1% interest rate, plus taxes and
+insurance.60 A similar model was used in the Section 235 program, a legacy program that no
+longer provides assistance to new households.61
+
+Other Issues
+Maximum housing costs need not apply to every housing unit in a multiunit project. Existing
+programs such as LIHTC and HOME permit mixed-income and mixed-use projects where
+qualifying units account for less than 100% of the project. However, federal funds generally may
+only contribute to the development costs of the units that meet program requirements.
+Policymakers may consider designating a period of affordability for maximum housing cost
+requirements. In existing federal housing programs, maximum housing cost requirements (as well
+as income restrictions) commonly expire after a number of years, rather than being enforced in
+perpetuity. Maintaining maximum housing cost requirements over time requires an enforcement
+mechanism, including requirements for the resale of an assisted homeownership unit.62
+
+56 24 C.F.R. §888.113. The definition of FMR was changed from a 45 th percentile rent to a 40th percentile rent by HUD
+
+in 1995 “as a cost saving measure” for the Section 8 Existing Housing program; see U.S. Department of Housing and
+Urban Development, “Fair Market Rents for Section 8 Existing Housing; Amendments to Method of Calculating,” 60
+Federal Register 42222, August 15, 1995.
+57 This policy option is discussed in the following memo: U.S. Department of Housing and Urban Development Office
+of Economic Affairs, Office of Policy Development and Research, Assessment of Small Area Median Family Income
+Estimates, May 2018, p. 11, https://www.huduser.gov/portal/sites/default/files/pdf/Assessment-of-Small-Area-MedianFamily-Income-Estimates.pdf.
+58 See, for example, 42 U.S.C. §12745(b).
+59 12 U.S.C. §1709(b)(2).
+60 42 U.S.C. §1472.
+61 12 U.S.C. §1715z(c)(1).
+62 See, for example, 42 U.S.C. §12745(b)(3).
+
+Congressional Research Service
+
+13
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Relationship Between Housing Cost Measures
+The relationship between different measures of housing cost may be of interest to Congress when
+considering the definition and design of a workforce housing program. The relationship also
+provides some indication of whether area housing costs—FMRs and area median sales prices—
+are affordable to middle-income households.
+
+Rental Housing
+FMRs vary in value from less than 30% of 30% of HAMFI to almost 30% of 90% of HAMFI.
+Table 2 shows that the annualized two-bedroom FMR is less than 30% of 80% of the four-person
+HAMFI in all but five counties. In other words, a maximum housing cost of 30% of 80% of
+HAMFI would be a higher cost limit than FMR in most parts of the country.
+Table 2. Annualized 2025 FMRs Compared to 2025 HAMFIs
+Number of Counties and Share of U.S. Population
+Two-Bedroom FMR Relative to
+Four-Person HAMFI
+
+Number of County
+Equivalents
+
+Share of
+Populationa
+
+FMR <= 30% of 30% of HAMFI
+
+2
+
+<1%
+
+30% of 30% of HAMFI < FMR <= 30% of 40% of HAMFI
+
+523
+
+3%
+
+30% of 40% of HAMFI < FMR <= 30% of 50% of HAMFI
+
+1,882
+
+22%
+
+30% of 50% of HAMFI < FMR <= 30% of 60% of HAMFI
+
+1,571
+
+28%
+
+30% of 60% of HAMFI < FMR <= 30% of 70% of HAMFI
+
+610
+
+41%
+
+30% of 70% of HAMFI < FMR <= 30% of 80% of HAMFI
+
+32
+
+5%
+
+30% of 80% of HAMFI < FMR <= 30% of 90% of HAMFI
+
+5
+
+2%
+
+Source: U.S. Department of Housing and Urban Development, Office of Policy Development and Research,
+“Fair Market Rents (40th Percentile Rents),” updated April 27, 2025, https://www.huduser.gov/portal/datasets/
+fmr.html; and U.S. Department of Housing and Urban Development, Office of Policy Development and Research,
+“Income Limits,” updated April 1, 2025, https://www.huduser.gov/portal/datasets/il.html.
+Notes: HAMFI = Department of Housing and Urban Development (HUD) Area Median Family Income. FMR =
+Fair Market Rent. Two-bedroom FMRs are compared to four-person HAMFIs, both of which are the default
+version of their respective measure, before bedroom ratio or family size adjustments are applied. Four-person
+HAMFIs are calculated as two times the four-person Very Low-Income Limit (VLIL) for metropolitan areas and
+non-metropolitan counties. The four-person VLIL is based on 50% of the median family income, and crossreferences the two-bedroom FMR in its calculation (see the text box “HUD Area Median Family Income
+(HAMFI)”). Data are at the county level except for Connecticut, for which data are at the county-town level.
+Population data are from 2022 and are sourced from HUD’s FMR data file.
+a. Column may not add to 100% due to rounding.
+
+This result is partially a function of how HAMFI and FMR are interrelated. Methodologically,
+HAMFI is adjusted upwards in areas with a high FMR (see the discussion of HAMFI in the
+“Income Eligibility Limit” section). Furthermore, HAMFI reflects the incomes of households
+who are currently residing in a particular area, rather than the incomes of households who may
+prefer to live in that area but cannot afford to.
+Rental housing costs may vary within metropolitan areas. A household that can afford the
+metropolitan area Fair Market Rent may still be unable to afford housing in specific
+neighborhoods within their metropolitan area. For that reason, Congress may be interested in the
+relationship between metropolitan area HAMFIs and Small Area Fair Market Rents, which are
+calculated for every zip code tabulation area in HUD-defined metropolitan areas. (HUD does not
+
+Congressional Research Service
+
+14
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+calculate Small Area Fair Market Rents outside of HUD-defined metropolitan areas.) In zip code
+tabulation areas representing 87% of people who live in metropolitan areas, the Small Area Fair
+Market Rent for a two-bedroom unit costs less than 30% of the low-income limit for a family of
+four (80% of HAMFI). In zip code tabulation areas representing over 99% of people who live in
+metropolitan areas, the Small Area Fair Market Rent for a two-bedroom unit costs less than 30%
+of 120% of the four-person HAMFI.63 In other words, a maximum housing cost of 30% of 80% of
+HAMFI would be a higher cost limit than the Small Area Fair Market Rent for the majority of the
+metropolitan population, and a maximum housing cost of 30% of 120% of HAMFI would be a
+higher cost limit than the Small Area Fair Market Rent for almost the entire metropolitan
+population.
+
+Homeownership Housing
+The area median sales price, as used by FHA to calculate maximum mortgage amounts, varies
+from less than three times to greater than six times HAMFI. As shown in Table 3, the area
+median sales price is less than or equal to four times the four-person HAMFI in counties
+representing approximately 53% of the U.S. population. In other words, a maximum housing cost
+of four times HAMFI would be a higher cost limit than the area median sales price in counties
+representing the majority of people in the United States.
+Table 3. 2025 Area Median Sales Prices Compared to 2025 HAMFIs
+Number of Counties and Share of U.S. Population
+Area Median Sales Price Relative to
+Four-Person HAMFI
+
+Number of
+Counties
+
+Share of
+Populationa
+
+Sales Price <= 3 Times HAMFI
+
+2,077
+
+25%
+
+3 Times HAMFI < Sales Price <= 4 Times HAMFI
+
+580
+
+28%
+
+4 Times HAMFI < Sales Price <= 5 Times HAMFI
+
+242
+
+21%
+
+5 Times HAMFI < Sales Price <= 6 Times HAMFI
+
+114
+
+10%
+
+6 Times HAMFI < Sales Price
+
+122
+
+16%
+
+Source: U.S. Department of Housing and Urban Development, “FHA Mortgage Limits,” https://entp.hud.gov/
+idapp/html/hicostlook.cfm; and U.S. Department of Housing and Urban Development, Office of Policy
+Development and Research, “Income Limits,” updated April 1, 2025, https://www.huduser.gov/portal/datasets/
+il.html.
+Notes: HAMFI = Department of Housing and Urban Development (HUD) Area Median Family Income.
+Unadjusted median price estimates, which are calculated by HUD for the high-price county within defined
+metropolitan areas, are compared to four-person HAMFIs, which are calculated as two times the four-person
+Very Low-Income Limit (VLIL) for metropolitan areas and non-metropolitan counties. The four-person VLIL is
+based on 50% of the median family income. Population data are from the 2020 Census and are sourced from the
+Missouri Census Data Center.
+a. Column may not add to 100% due to rounding.
+
+How this result corresponds to affordability depends on several assumptions, including down
+payment amounts, interest rates, and costs of mortgage insurance, homeowner’s insurance,
+property taxes, and other sources of debt. A typical homebuyer may be able to afford a mortgage
+
+63 SAFMRs are sourced from U.S. Department of Housing and Urban Development, Office of Policy Development and
+
+Research, “Qualified Census Tracts (QCTs) and Difficult Development Areas (DDAs),” https://www.huduser.gov/
+portal/datasets/qct.html.
+
+Congressional Research Service
+
+15
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+on a home with a sales price approximately four times the homebuyer’s household income.64
+However, a household making a lower down payment may only be able to afford a mortgage on a
+home valued closer to three times its income, and a household making a higher down payment
+may be able to afford a mortgage on a home valued above four times its income.65
+
+Policy Options
+Congress could pursue several policy options to increase the affordability and availability of
+workforce or middle-income housing, as defined by some combination of the three factors
+discussed above: household income, occupation, and housing cost. Major categories of policy
+options include supply-side subsidies, demand-side subsidies, and land use policies. Appendix B
+contains a selection of recently introduced bills containing provisions that could qualify as
+workforce or middle-income housing policies.
+
+Supply-Side Subsidies
+Congress may consider providing grants, loans, or tax credits to subsidize the development,
+acquisition, or rehabilitation of housing targeted to workforce or middle-income households.
+Congress could fund grants to private developers or block grants to states and localities. It could
+also incentivize workforce or middle-income housing investment through the tax code. LIHTC,
+Opportunity Zones, and the New Markets Tax Credit provide existing models for incentivizing
+housing development.66 Additionally, Congress could consider incentivizing private sector
+businesses to invest in Employer-Assisted Housing (EAH).67
+As shown in Table 1, several active federal housing programs can already be used to provide
+supply-side subsidies to households above the low-income threshold. These programs, such as the
+Capital Magnet Fund, could be expanded or modified by Congress. Congress could also modify
+the eligibility and housing cost requirements of other existing housing programs that currently
+target low-income households, such as the LIHTC and HOME programs. Modifying eligibility
+criteria for existing low-income programs would necessarily subsidize workforce or middleincome housing projects at the expense of projects affordable to low-income households.
+Congress may also consider providing new supply-side subsidies specifically to address shortterm housing needs resulting from an influx of workers. Most existing federal housing programs,
+such as the LIHTC and HOME programs, are designed to produce long-term affordable housing.
+As such, they have income limits, building code requirements, and long-term affordability
+64 Per the National Association of Realtors’ Housing Affordability Index, the qualifying annual income for a median
+
+priced existing single family home in 2025 ($103,728) was approximately one-fourth of the price for such a home
+($419,500); see https://www.nar.realtor/research-and-statistics/housing-statistics/housing-affordability-index.
+65 CRS analysis suggests that a homebuyer could afford a home valued between 3.15 and 4.25 times the household’s
+annual income based on various assumptions: a monthly cost-to-income ratio of 30%; an income of $81,604; a low
+down payment of 3.5%; a high down payment of 20%; an interest rate of 6.11%; a 30-year mortgage term; a 0.85%
+mortgage insurance payment (with a low down payment only); monthly real estate taxes of $250; and monthly
+homeowner’s insurance payments of $108. The latter two figures are based on median reported costs from the 2023
+American Housing Survey.
+66 For more information, see CRS Report R48373, Connecting Constituents to Information on Federal Funding for
+Affordable Rental Housing Development, by Alyse N. Minter and Henry G. Watson; and CRS Report R48611, Tax
+Provisions in P.L. 119-21, the FY2025 Reconciliation Law, coordinated by Anthony A. Cilluffo.
+67 For more information and state and local examples of EAH, see National Housing Conference, Employer-Assisted
+Housing: The Basics: Program Profiles, https://nhc.org/policy-guide/employer-assisted-housing-the-basics/programprofiles-4/.
+
+Congressional Research Service
+
+16
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+requirements that are not well-suited to providing short-term housing for high-wage workers.
+These existing federal programs may be used in this context to house new permanent workers or
+prevent displacement of long-term residents.68 In practice—such as in the case of North Dakota’s
+Bakken Oil Field boom—this type of workforce housing need has typically been met through a
+mix of manufactured housing (including EAH), recreational vehicle parks, and informal camps.69
+
+Targeting
+Policymakers may be interested in targeting supply-side workforce or middle-income housing
+subsidies to geographic areas where such housing is particularly challenging to construct without
+subsidy. Targeting could take into account several different indicators. High rental housing costs
+could be indicated by high SAFMRs relative to HAMFI, a calculation used in the LIHTC
+program to identify difficult development areas (DDAs).70 A shortage of housing relative to jobs
+could be measured based on a jobs-to-housing units ratio or a jobs-housing growth ratio.71 A lack
+of market investment in housing could be accounted for by identifying areas with low home
+values and low incomes. The need for workforce or middle-income housing in a community
+could be assessed using metrics similar to Department of Defense Housing Requirements and
+Market Analyses (HRMAs), which compare current and projected military housing requirements
+for an installation to the private housing market in the surrounding community.72 In addition,
+Congress could also consider targeting supply-side subsidies to areas with unique market
+conditions—including areas in need of short-term housing—through a competitive grant
+program.
+
+Demand-Side Subsidies
+Congress could provide resources directly to eligible workforce or middle-income households as
+demand-side subsidies. These subsidies for homebuyers could include down payment assistance,
+homebuyer tax credits, or subsidized mortgage payments.73 Demand-side subsidies for renters
+could include tenant-based rental assistance and renter tax credits.74
+Homebuyer assistance, including down payment assistance, is an eligible use of several existing
+federal grant programs, including the HOME program. Congress could modify program
+requirements to accommodate workforce or middle-income housing, or create a set-aside for that
+
+68 U.S. Department of Housing and Urban Development, Office of Policy Development and Research, “Employee
+
+Housing Improves Affordability in Watford, North Dakota,” July 11, 2016, https://www.huduser.gov/archives/portal/
+pdredge/pdr-edge-inpractice-071116.html.
+69 William R. Caraher et al., “The North Dakota Man Camp Project: The Archaeology of Home in the Bakken Oil
+Fields,” Historical Archaeology, vol. 51 (2017), pp. 267-287.
+70 For more information on the calculation of DDAs, see 89 Federal Register 73113.
+71 See, for example, Robert Cervero, “Jobs-Housing Balancing and Regional Mobility,” Journal of the American
+Planning Association, vol. 55, no. 2 (Spring 1989), pp. 136-150; Jerry Weitz, Jobs-Housing Balance, American
+Planning Association, November 2003, p. 10, https://planning-org-uploaded-media.s3.amazonaws.com/publication/
+download_pdf/PAS-Report-516.pdf; and National Association of Realtors, “Housing Shortage Tracker,” December
+2024, https://www.nar.realtor/research-and-statistics/housing-statistics/housing-shortage-tracker.
+72 For more information, see CRS Report R47728, Military Housing, by Andrew Tilghman.
+73 For further discussion, see CRS In Focus IF12220, Homeownership: Tax Policy Options and Considerations, by
+Mark P. Keightley.
+74 For an example of a workforce housing renter tax credit proposal, see Novogradac and Bipartisan Policy Center,
+Renter Tax Credit to Support Essential Workers: A Pilot Demonstration Proposal, January 15, 2025,
+https://bipartisanpolicy.org/report/renter-tax-credit-to-support-essential-workers-a-pilot-proposal/.
+
+Congressional Research Service
+
+17
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+purpose.75 Congress could also expand the mortgage revenue bond program, which currently
+finances mortgages for homes with purchase prices not exceeding 90% (110% in targeted areas)
+of the area average purchase price for borrowers with incomes not exceeding 110% (140% in
+targeted areas) of AMI.76
+Congress could also consider a workforce or middle-income tenant-based rental assistance
+program. Such a program may consider a higher payment standard than current programs, or
+require a lower percentage of household income, as FMR typically requires less than 30% of the
+income of households earning above the low-income threshold (see Table 2). This could also
+present a policy tradeoff; at current funding levels, one in four eligible households receives
+federal rental assistance, and there are waiting lists for assistance in most communities.77
+
+Land-Use Policies and Missing Middle Housing
+In markets where workforce or middle-income housing would be profitable to develop without
+government subsidy, the supply of housing may yet be impeded by state and local land use
+policies such as zoning and building codes.78 State and local land use policies can be a particular
+barrier to missing middle housing: housing types such as duplexes and townhouses that are more
+dense than detached single-family homes but less dense than apartment buildings.79 While many
+factors affect the cost of housing, missing middle housing types tend to be associated with
+workforce housing due to their relative affordability compared to detached single-family homes.
+Permitting missing middle housing types may also increase local housing supply due to increased
+housing density. All else equal, research suggests that increased housing supply is associated with
+lower housing costs.80
+State and local governments set land use policies, but the federal government has several policy
+options available to incentivize and facilitate policy change. One option for Congress is to add
+reporting requirements for land use policies to existing federal grants.81 HUD currently requires
+recipients of certain HUD formula grant programs to submit to it a Consolidated Plan containing,
+among other information, an analysis of barriers to affordable housing.82 Another option for
+Congress is to provide technical assistance or funding to states and localities to facilitate adoption
+of certain land use policies. The Housing and Community Development Act of 1992 (P.L. 102550, Title XII) created the Regulatory Barriers Clearinghouse within HUD to “receive, collect,
+process, and assemble information” regarding state and local land use policies.83 In recent years,
+75 For example, the American Dream Downpayment Initiative (ADDI) was a set-aside funded in the HOME account
+
+from FY2003 through FY2008. For more information, see CRS Report R40118, An Overview of the HOME Investment
+Partnerships Program, by Henry G. Watson.
+76 26 U.S.C. §143.
+77 For more information, see CRS In Focus IF12824, Federal Rental Assistance and Affordability, by Maggie McCarty.
+78 For more information, see CRS Report R47617, U.S. Housing Supply: Recent Trends and Policy Considerations, by
+Lida R. Weinstock.
+79 Opticos Design, “Missing Middle Housing,” https://missingmiddlehousing.com/about-2/ (accessed December 30,
+2025).
+80 Vicki Been et al., “Supply Skepticism: Housing Supply and Affordability,” Housing Policy Debate, vol. 29, no. 1
+(January 2, 2019), pp. 25-40. See also Anthony Damiano, “Supply Skepticism or Supply Realism?,” Housing Policy
+Debate, November 11, 2024.
+81 See, for example, provisions in S. 1688.
+82 For more information, see CRS Report R48073, HUD’s Consolidated Planning Process: An Overview, coordinated
+by Joseph V. Jaroscak.
+83 The law also included grants to states and units of general local government for the costs of developing and
+implementing strategies to remove regulatory barriers to affordable housing.
+
+Congressional Research Service
+
+18
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Congress has also funded the Pathways to Removing Obstacles to Housing (PRO Housing)
+Competition: a competitive grant for communities to identify and remove barriers to affordable
+housing development and preservation. Congress could also condition new or existing federal
+grants to states and localities on changes to land use policy or increased housing production.84
+
+Filtering
+Increasing the supply of workforce or middle-income housing may increase the affordability and
+availability of housing for low-income households through filtering. Filtering describes the
+process by which some households move into more expensive housing units, reducing demand
+and prices for the more affordable units they vacated. For example, a household with an income
+of 120% of HAMFI may move from a housing unit costing 30% of 80% of HAMFI to one
+costing 30% of 120% of HAMFI, making the more affordable housing unit available to another,
+lower-income renter. Some research has suggested that increasing the supply of market-rate rental
+housing may encourage the filtering process, and that a lack of market-rate rental housing may
+increase competition for affordable rental units.85 According to the 2025 WCHN report, “the
+occupancy of a considerable proportion of the most affordable housing stock by renters who
+could afford to spend more but do not choose to do so worsens the paucity of affordable and
+available units.”86
+Data suggest a potential undersupply of rental housing affordable only to non-low-income
+renters. In 2023, there were 17.3 million renters with incomes greater than 80% of HAMFI and
+14.2 million rental units that cost more than 30% of 80% of HAMFI, of which 10.1 million cost
+less than 30% of 110% of HAMFI.87 On the other hand, data also suggest that the market supply
+of rental housing at this price point has increased over time. The number of rental units that cost
+more than 30% of 80% of HAMFI has more than tripled over the past 20 years, and the number
+of rental units that cost between 30% of 80% of HAMFI and 30% of 110% of HAMFI has more
+than quadrupled over the same time period.88 The supply of units in a given price band can
+change based on several factors, including new construction, substantial rehabilitation,
+demolition, changes in a unit’s rent, changes in an area’s median income, and a property shifting
+in tenure between ownership and rental.
+
+84 For examples of proposals of this type, see S. 2651 Sections 206, 209, and 211.
+85 Evan Mast, “JUE Insight: The Effect of New Market-Rate Housing Construction on the Low-Income Housing
+
+Market,” Journal of Urban Economics, vol. 133 (January 2023).
+86 U.S. Department of Housing and Urban Development, Office of Policy Development and Research, Worst Case
+Housing Needs: 2025 Report to Congress, July 2025, p. 35, https://www.huduser.gov/portal/publications/Worst-CaseHousing-Needs-2025-Report-to-Congress.html.
+87 U.S. Department of Housing and Urban Development, Office of Policy Development and Research, Worst Case
+Housing Needs: 2025 Report to Congress, July 2025, Appendix Tables A-12 and A-13, https://www.huduser.gov/
+portal/publications/Worst-Case-Housing-Needs-2025-Report-to-Congress.html.
+88 U.S. Department of Housing and Urban Development, Office of Policy Development and Research, Affordable
+Housing Needs: A Report to Congress on the Significant Need for Housing, January 22, 2006,
+https://www.huduser.gov/portal/publications/affhsg/affhsgneed.html, Appendix Tables A-12 and A-13; and U.S.
+Department of Housing and Urban Development, Office of Policy Development and Research, Worst Case Housing
+Needs: 2025 Report to Congress, July 2025, https://www.huduser.gov/portal/publications/Worst-Case-Housing-Needs2025-Report-to-Congress.html, Appendix Tables A-12 and A-13.
+
+Congressional Research Service
+
+19
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Appendix A. Selected Legacy Federal Housing
+Programs
+Table A-1. Selected Legacy Federal Housing Programs with Income Eligibility in
+Excess of 80% of AMI
+(the programs listed below no longer support new housing units or households)
+Maximum
+Income Eligibility
+
+Other Eligibility
+Limits
+
+Type of
+Assistance
+
+Section 235
+
+95% of AMI
+
+Maximum mortgage
+amounts
+
+Subsidized mortgage
+interest rates for
+individual
+homeowners
+
+12 U.S.C. §1715z
+
+Section 221(d)(3)
+Below Market
+Interest Rate
+(BMIR)
+
+95% of AMI
+
+Maximum rental
+housing costs
+
+Low-interest loans
+to developers of
+multifamily housing
+
+12 U.S.C. §1715l
+
+Housing and
+Economic Recovery
+Act (HERA), Title
+III: Neighborhood
+Stabilization
+Program
+
+120% of AMI
+
+At least 25% of
+funds must be used
+to serve households
+with incomes less
+than 50% of AMI
+
+Acquisition and
+redevelopment of
+foreclosed and
+vacant properties to
+be sold or rented
+
+42 U.S.C. §5301
+note
+
+Program Title
+
+Source
+
+Source: AMI = Area Median Income. CRS analysis of federal housing programs, based in part on U.S.
+Department of Housing and Urban Development, Office of Economic Affairs, Office of Policy Development and
+Research, Assessment of Small Area Median Family Income Estimates, May 2018, https://www.huduser.gov/portal/
+sites/default/files/pdf/Assessment-of-Small-Area-Median-Family-Income-Estimates.pdf.
+
+Congressional Research Service
+
+20
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Appendix B. Selected Introduced Legislation
+The following is a non-exhaustive list of legislation introduced in the 118th and 119th Congresses
+that contains examples of provisions that may qualify as workforce or middle-income housing
+policies.89 The list is organized by characteristics of the legislation. Within sections, bills are
+presented in reverse chronological order by introduction date.
+
+Supply-Side Workforce Housing Subsidies
+Housing for the 21st Century Act, Section 201: HOME Reform (H.R. 6644, 119th Congress)
+•
+•
+•
+
+Policy: formula grant, rental and homeowner housing.
+Income Eligibility Limit: 100% of HAMFI for homeowners, 80% of HAMFI for
+renters.
+Housing Cost Limit: 110% of area median purchase price for homeowner
+housing, lesser of 30% of 65% of HAMFI or FMR for rental housing.
+
+ROAD to Housing Act of 2025, Section 212: Revitalizing Empty Structures into Desirable
+Environments (RESIDE) Act (S. 2651, 119th Congress)
+•
+•
+
+Policy: competitive grant, rental and homeowner housing.
+Income Eligibility and Housing Cost Limit: housing may serve households with
+incomes up to 100% of AMI if a majority of the units are affordable to
+households with incomes up to 80% of AMI; housing may serve households with
+incomes up to 120% of AMI if a majority of the units are affordable to
+households with incomes up to 60% of AMI.
+
+Housing for US Act (H.R. 4266, 119th Congress)
+•
+•
+•
+
+Policy: formula grant, rental and homeowner housing.
+Income Eligibility Limit: 165% of HAMFI.
+Housing Cost Limit: for rental housing, 30% of 165% of HAMFI with a
+minimum cost of 30% of 80% of HAMFI; for homeowner housing, affordable for
+income-eligible households as determined by the HUD Secretary.
+
+Neighborhood Homes Investment Act (H.R. 2854/S. 1686, 119th Congress)
+•
+•
+•
+•
+
+Policy: tax credit, homeownership housing.
+Income Eligibility Limit: 140% of AMI.
+Housing Cost Limit: four times 100% of AMI.
+Targeting: high poverty, low incomes, low home values.
+
+American Housing and Economic Mobility Act of 2025, Section 102(g): Middle Class Housing
+Emergency Fund (H.R. 2038/S. 934, 119th Congress)
+89 This list is drawn in part from a search of the legislative text of bills introduced in the House or Senate in the 119th or
+
+118th Congresses for the following terms: ~("workforce housing”) ~(w/3(middle housing)) ~(w/3(moderate housing))
+~(w/3(missing middle)) ~("area median purchase price”) ~("fair market rent”) ~(+housing +(allowance ~downpayment
+~"down payment” ~"rental assistance” ~mortgage ~"new construction”) teacher* “emergency dispatch*” “emergency
+medical” paramedic* firefighter* “law enforcement” police) ~(+housing +("90 percent” ~ “95 percent” ~ “100 percent”
+~ “105 percent” ~ “110 percent” ~ “115 percent” ~ “120 percent” ~ “125 percent” ~ “130 percent” ~ “135 percent” ~
+“140 percent” ~ “145 percent” ~ “150 percent”) +W/3(median income)).
+
+Congressional Research Service
+
+21
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+•
+•
+•
+
+Policy: competitive grant, rental and homeownership housing.
+Housing Cost Limit: 30% of 120% of AMI.
+Targeting: housing shortages, rising housing costs relative to incomes.
+
+The Farmhouse-to-Workforce Housing Act of 2025 (S. 686, 119th Congress)
+•
+•
+
+Policy: grants for accessory dwelling units in rural areas.
+Income Eligibility Limit: 150% of AMI.
+
+Working Families Housing Tax Credit Act (H.R. 893, 119th Congress)
+•
+•
+•
+
+Policy: tax credit, rental housing.
+Income Eligibility Limit: up to 180% of AMI if the average of imputed income
+limitations for “working families” units do not exceed 100% of AMI.
+Housing Cost Limit: 30% of the income eligibility limit.
+
+New Homes Tax Credit Act (S. 5196, 118th Congress)
+•
+•
+•
+
+Policy: tax credit, homeownership housing.
+Income Eligibility Limit: 120% of AMI.
+Housing Cost Limit: satisfies requirements under 12 C.F.R.§1807.402(a)(1).
+
+Housing Supply Fund Act of 2024 (S. 3928, 118th Congress)
+•
+•
+
+Policy: competitive grant, rental and homeownership housing.
+Income Eligibility Limit: 120% of AMI for homeowners, 80% of AMI for
+renters.
+
+Workforce Housing Tax Credit Act (H.R. 6686/S. 3436, 118th Congress)
+•
+•
+•
+
+Policy: tax credit, rental housing.
+Income Eligibility Limit: 100% of AMI.
+Housing Cost Limit: 30% of the income eligibility limit. At least 20% of building
+units must not qualify under the Low-Income Tax Credit program.
+
+Workforce Housing Development Act (H.R. 5733, 118th Congress)
+•
+•
+
+Policy: competitive grant, homeownership housing.
+Housing Cost Limit: total housing costs do not exceed 30% of the income of the
+buyer; units are affordable to buyers with incomes not more than 100% of AMI.
+
+Rebuild Rural America Act of 2023 (H.R. 4239/S. 2155, 118th Congress)
+•
+•
+
+Policy: block grant.
+Housing Cost Limit: 30% of 120% of HAMFI.
+
+Demand-Side Workforce Housing Subsidies
+Housing for the 21st Century Act, Section 201: HOME Reform (H.R. 6644, 119th Congress)
+•
+•
+
+Policy: formula grant, renter and homeowner assistance.
+Income Eligibility Limit: 100% of HAMFI for homeowner assistance.
+
+Congressional Research Service
+
+22
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+•
+
+Housing Cost Limit: 110% of area median purchase price for homeowner
+assistance.
+
+American Housing and Economic Mobility Act of 2025, Section 201: Down Payment Assistance
+Program for First-Time Homebuyers (H.R. 2038/S. 934, 119th Congress)
+•
+•
+
+Policy: down payment assistance.
+Income Eligibility Limit: 120% of AMI, up to 140% in high-cost areas.
+
+DASH Act, Section 215: First-Time Homebuyer Refundable Credit (H.R. 6970, 118th Congress)
+•
+•
+
+•
+
+Policy: refundable tax credit for first-time homebuyers.
+Income Eligibility Limit: credit is reduced if the taxpayer’s modified adjusted
+gross income exceeds $100,000 or $150,000 for a head of household or $200,000
+for a joint return.
+Housing Cost Limit: credit is reduced if the purchase price of the residence
+exceeds 110% of the conforming loan limit.
+
+Occupation-Based Eligibility
+Revitalizing America’s Housing Act (H.R. 4856, 119th Congress)
+•
+
+•
+
+Policy: expanded police officer exception to public housing occupancy (§202),
+expanded Good Neighbors Next Door Sales Program to include properties
+outside of revitalization areas (§203), deduction in annual income for the
+purposes of determining income eligibility for Department of Agriculture Single
+Family Housing Guaranteed Loan Program (§204).
+Eligible Occupations: police officers, firefighters, and emergency medical
+technicians (§202), members of the Armed Forces, firefighters, and law
+enforcement officers (§203), qualified volunteer first responders (§204).
+
+Defense Shipyard Workforce Housing Act of 2025 (H.R. 3772, 119th Congress)
+•
+•
+
+Policy: study.
+Eligible Occupations: civilian workers at covered naval shipyards.
+
+Land Manager Housing and Workforce Improvement Act of 2025 (S. 1083, 119th Congress)
+•
+•
+
+Policy: modify housing and workforce programs of federal land management
+agencies.
+Eligible Occupations: field employees of covered federal agencies.
+
+HELPER Act of 2025 (H.R. 2094/S. 978, 119th Congress)
+•
+•
+
+Policy: insurance for mortgages with no down payment and an up-front mortgage
+insurance premium.
+Eligible Occupations: first responders, including law enforcement officers,
+firefighters, paramedics, emergency medical technicians, and K-12 teachers.
+
+Tim’s Act (H.R. 743/S. 279, 119th Congress)
+•
+•
+
+Policy: housing allowances.
+Eligible Occupations: federal wildland firefighters deployed to a location more
+than 50 miles from their primary residence.
+
+Congressional Research Service
+
+23
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Educator Down Payment Assistance Act of 2024 (H.R. 8285/S. 4261, 118th Congress)
+•
+•
+•
+
+Policy: down payment assistance.
+Eligible Occupations: public elementary or secondary school teachers, principals,
+paraprofessionals, school leaders, or other staff.
+Income Eligibility Limit: 120% of AMI, up to 180% of AMI in high-cost areas.
+
+Addressing Teacher Shortages Act of 2024 (H.R. 7680/S. 2417, 118th Congress)
+•
+•
+
+Policy: competitive grants, which may be used for housing allowances for
+teachers.
+Eligible Occupations: teachers in their first or second year of teaching, student
+teachers.
+
+Land Use Policies and Missing Middle Housing
+Housing for the 21st Century Act (H.R. 6644, 119th Congress)
+•
+
+Policy: guidelines and best practices for land use policies (§101), competitive
+grants to adopt pattern books (§102), guidelines for single-stair reforms (§103),
+land use policy reporting requirements for Community Development Block Grant
+grantees (§202), competitive grants for planning and implementation activities
+(§203).
+
+ROAD to Housing Act of 2025 (S. 2651, 119th Congress)
+•
+
+Policy: guidelines and best practices for land use policies (§203), conditioning of
+Community Development Block Grant funding on housing production (§206),
+competitive grants based on housing supply growth (§209), competitive grants to
+adopt pattern books (§210), conditioning of Capital Investment Grant funding on
+adoption of certain land use policies (§211).
+
+American Housing and Economic Mobility Act of 2025, Section 101: Local Housing Innovation
+Grants (H.R. 2038/S. 934, 119th Congress)
+•
+
+Policy: competitive grant to reform local land use restrictions and remove
+unnecessary barriers to building affordable units.
+
+Studies
+Housing for the 21st Century Act, Section 107: GAO Study on Workforce Housing (H.R. 6644,
+119th Congress)
+•
+
+Policy: requires a Government Accountability Office (GAO) study of workforce
+housing, including a definition of the term.
+
+Housing Innovation Act (H.R. 855, 119th Congress)
+•
+
+Policy: establishes an Office of Housing Innovation in HUD.
+
+Congressional Research Service
+
+24
+
+Workforce or Middle-Income Housing: Analysis and Policy Considerations
+
+Author Information
+Henry G. Watson
+Analyst in Housing Policy
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R48886 · VERSION 3 · NEW
+
+25
+
+

@@ -6831,6 +6831,724 @@
   ]
  },
  {
+  "id": "EV-HOU-260",
+  "statement": "JCT: under the One Big Beautiful Bill Act the state allocation ceiling for the low-income housing credit is permanently 12% higher, and the bond-financing threshold is 25%, for buildings placed in service in taxable years beginning after December 31, 2025.",
+  "claim": "data",
+  "figures": [
+   "12",
+   "25",
+   "2025"
+  ],
+  "source": "SRC-1266",
+  "anchor": "\f\u2014The State allocation ceiling considered for the low-income housing credit is\npermanently increased by 12 percent and the bond-financing threshold is lowered to 25 percent\nfor buildings placed in service in taxable years beginning after December 31, 2025.",
+  "grade": "A",
+  "fact_date": "2025-12-03",
+  "checked": "2026-11-09",
+  "recheck": "2027-12-01",
+  "context": "Joint Committee on Taxation, nonpartisan congressional staff; describes the enacted law. No later law found that amends section 42 (laws through the ROAD to Housing Act, P.L. 119-101, screened November 9, 2026). This is the 2029 baseline.",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-261",
+  "statement": "JCT scored the permanent enhancement of the low-income housing tax credit in the bill enacted as the One Big Beautiful Bill Act at $15,689 million over fiscal years 2025-2034.",
+  "claim": "data",
+  "figures": [
+   "15,689",
+   "2025",
+   "2034"
+  ],
+  "source": "SRC-1265",
+  "anchor": [
+   "2. Permanent enhancement of low-income housing tax credit.....",
+   "Fiscal Years 2025 - 2034",
+   "-15,689"
+  ],
+  "locator": "Title VII, Subchapter C (Permanent Investments in Community Development), item 2, total column",
+  "grade": "A",
+  "fact_date": "2025-07-01",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "context": "Joint Committee on Taxation, official estimate (current-policy baseline). The text version prints the table's row labels apart from its figures; the -15,689 total belongs to this row in the PDF table, which a reviewer should check.",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-262",
+  "statement": "The Affordable Housing Credit Improvement Act would set the per capita LIHTC allocation at $4.25 for 2025 and at 1.25 times that, inflation-adjusted, for 2026, well above current law.",
+  "claim": "data",
+  "figures": [
+   "4.25",
+   "2025",
+   "1.25",
+   "2026"
+  ],
+  "source": "SRC-1263",
+  "anchor": "``(H) Per capita amount.--For purposes of\nsubparagraph (C)(ii)(I), the per capita amount shall be\ndetermined as follows:\n``(i) Calendar year 2025.--For calendar\nyear 2025, the per capita amount is $4.25.\n``(ii) Calendar year 2026.--For calendar\nyear 2026, the per capita amount is the product\nof--\n``(I) 1.25, and",
+  "locator": "Sec. 101",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-09",
+  "recheck": "2027-04-29",
+  "context": "Bill as introduced (bipartisan: Sen. Young, R-IN, with Sens. Cantwell, Wyden and Blackburn and others; House companion H.R. 2725). Written before P.L. 119-21; current law's 2026 amount is $3.416 per capita (IRS Revenue Procedure 2025-32, not yet in the register).",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-263",
+  "statement": "The Affordable Housing Credit Improvement Act would raise eligible basis to 150% for the part of a building where 20% or more of units are set aside for households at or below the greater of 30% of area median income or the poverty line, when the state agency finds the boost needed for feasibility.",
+  "claim": "data",
+  "figures": [
+   "150",
+   "20",
+   "30",
+   "100"
+  ],
+  "source": "SRC-1263",
+  "anchor": "``(C) Increase in credit for projects designated to\nserve extremely low-income households.--In the case of\nany building--\n``(i) 20 percent or more of the residential\nunits (determined as if the imputed income\nlimitation applicable to such units were 30\npercent of area median gross income) in which\nare designated by the taxpayer for occupancy by\nhouseholds the aggregate household income of\nwhich does not exceed the greater of--\n``(I) 30 percent of area median\ngross income, or\n``(II) 100 percent of an amount\nequal to the Federal poverty line\n(within the meaning of section\n36B(d)(3)), and\n``(ii) which is designated by the housing\ncredit agency as requiring the increase in\ncredit under this subparagraph in order for\nsuch building to be financially feasible as\npart of a qualified low-income housing project,\nsubparagraph (B) shall not apply to the portion of such\nbuilding which is comprised of such units (determined\nin a manner similar to the unit fraction under\nsubsection (c)(1)(C)), and the eligible basis of such\nportion of the building shall be 150 percent of such\nbasis determined without regard to this\nsubparagraph.''.",
+  "locator": "Sec. 307",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-09",
+  "recheck": "2027-04-29",
+  "context": "Bill as introduced. P.L. 119-21 did not enact this boost; the House-passed version of that law had a rural and tribal boost that the final law dropped.",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-264",
+  "statement": "Under the Workforce Housing Tax Credit Act, a qualified project has 60% or more of its units rent-restricted and occupied by households at or below 100% of area median income, at least 20% of them units not counted for LIHTC, with rents at most 30% of the imputed income limit.",
+  "claim": "data",
+  "figures": [
+   "60",
+   "100",
+   "20",
+   "30"
+  ],
+  "source": "SRC-1262",
+  "anchor": "``(A) 60 percent or more of the residential units\nin such project are both rent-restricted and occupied\nby individuals whose income is 100 percent or less of\narea median gross income, and\n``(B) not less than 20 percent of the residential\nunits in such project are units which--\n``(i) are described in subparagraph (A),\nand\n``(ii) are not residential units which are\ntaken into account under section 42.\n``(2) Rent-restricted units.--\n``(A) In general.--For purposes of paragraph (1), a\nresidential unit is rent-restricted if the gross rent\nwith respect to such unit does not exceed 30 percent of\nthe imputed income limitation applicable to such unit.",
+  "locator": "Proposed sec. 42A(g)",
+  "grade": "A",
+  "fact_date": "2026-04-30",
+  "checked": "2026-11-09",
+  "recheck": "2027-04-30",
+  "context": "Bill as introduced by Rep. Panetta (D-CA) with Rep. Carey (R-OH); an earlier version (S. 3436 and H.R. 6686, 2023) was led by Sen. Wyden (D-OR) and Sen. Sullivan (R-AK).",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-265",
+  "statement": "The Workforce Housing Tax Credit Act's credit is claimed over 15 years and is set to have a present value of 50% of qualified basis for new buildings that are not federally subsidized and 20% for other buildings.",
+  "claim": "data",
+  "figures": [
+   "15",
+   "50",
+   "20"
+  ],
+  "source": "SRC-1262",
+  "anchor": [
+   "shall be percentages which will yield over a 15-year\nperiod amounts of credit under subsection (a) which\nhave a present value equal to--\n``(i) 50 percent of the qualified basis of\na new building which is not Federally\nsubsidized for the taxable year, and\n``(ii) 20 percent of the qualified basis of",
+   "``(1) Credit period defined.--For purposes of this section,\nthe term `credit period' means, with respect to any building,\nthe period of 15 taxable years beginning with--"
+  ],
+  "locator": "Proposed sec. 42A(b)(1)(B) and (f)(1)",
+  "grade": "A",
+  "fact_date": "2026-04-30",
+  "checked": "2026-11-09",
+  "recheck": "2027-04-30",
+  "context": "Bill as introduced. For comparison, the 9% LIHTC is set at a present value of 70% of qualified basis (26 U.S.C. 42(b), not in the register).",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-266",
+  "statement": "The Workforce Housing Tax Credit Act's state credit ceiling is the greater of $1.00 per resident or $1,500,000 a year, and a state may move part of it to its LIHTC ceiling.",
+  "claim": "data",
+  "figures": [
+   "1.00",
+   "1,500,000"
+  ],
+  "source": "SRC-1262",
+  "anchor": [
+   "housing credit ceiling applicable to any State for any\ncalendar year shall be an amount equal to the sum of--\n``(i) the unused State housing credit\nceiling (if any) of such State for the\npreceding calendar year,\n``(ii) the greater of--\n``(I) $1.00 multiplied by the State\npopulation, or\n``(II) $1,500,000, plus",
+   "``(10) Election to transfer state housing credit ceiling\nfor allocations to low-income buildings.--"
+  ],
+  "locator": "Proposed sec. 42A(h)(3)(C) and (h)(10)",
+  "grade": "A",
+  "fact_date": "2026-04-30",
+  "checked": "2026-11-09",
+  "recheck": "2027-04-30",
+  "context": "Bill as introduced.",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-267",
+  "statement": "The sponsor says the Workforce Housing Tax Credit is estimated to finance approximately 344,000 rental homes, with an extra 5% of the allocation reserved for rural middle-income housing.",
+  "claim": "analysis",
+  "figures": [
+   "344,000",
+   "5%"
+  ],
+  "source": "SRC-1267",
+  "anchor": [
+   "The Workforce Housing Tax Credit Act would help to close that gap between middle and low income housing by establishing the first-ever middle-income housing tax credit, which is estimated to finance approximately 344,000 affordable rental homes",
+   "An additional 5% of the allocation would be made available and reserved for middle-income housing developed in rural areas."
+  ],
+  "grade": "C",
+  "fact_date": "2026-05-06",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-06",
+  "context": "Sponsor's press release; the estimate is the industry's (Novogradac, an accounting firm in the tax-credit business). It counts homes financed, not net additions to the housing stock. Supporters quoted are industry groups (NMHC, Mortgage Bankers Association, NAHMA, Up for Growth). No JCT score was found.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-275",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-272",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-268",
+  "statement": "The Neighborhood Homes Investment Act credit is the gap between reasonable development cost and sale price (up to 120% of it if needed), capped at 40% of eligible development costs and at 32% of the national median sale price for new homes.",
+  "claim": "data",
+  "figures": [
+   "120",
+   "40",
+   "32"
+  ],
+  "source": "SRC-1264",
+  "anchor": "``(B) if the neighborhood homes credit agency\ndetermines it is necessary to ensure financial\nfeasibility, an amount not to exceed 120 percent of the\namount under subparagraph (A),\n``(2) 40 percent of the eligible development costs paid or\nincurred by the taxpayer with respect to such qualified\nresidence, or\n``(3) 32 percent of the national median sale price for new\nhomes (as determined pursuant to the most recent census data\navailable as of the date on which the neighborhood homes credit",
+  "locator": "Proposed sec. 42B(a)",
+  "grade": "A",
+  "fact_date": "2025-05-08",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-08",
+  "context": "Bill as introduced (bipartisan: Sen. Young, R-IN, with Sens. Warner, Wyden, Cramer and others; House companion H.R. 2854, Rep. Kelly, R-PA, with about 70 cosponsors of both parties).",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-269",
+  "statement": "The Neighborhood Homes Investment Act limits buyers to families at or below 140% of area median family income and gives each state the greater of $9 per resident or $12,000,000 of credits a year.",
+  "claim": "data",
+  "figures": [
+   "140",
+   "9",
+   "12,000,000"
+  ],
+  "source": "SRC-1264",
+  "anchor": [
+   "means, with respect to a qualified residence, an individual--\n``(A) who owns and uses such qualified residence as\nthe principal residence of such individual, and\n``(B) whose family income (determined as of the\ndate that a binding contract for the affordable sale of\nsuch residence is entered into) is 140 percent or less\nof the median family income for the applicable area in",
+   "credit amount for a State for a calendar year is an\namount equal to the sum of--\n``(i) the greater of--\n``(I) the product of $9, multiplied\nby the State population (determined in\naccordance with section 146(j)), or\n``(II) $12,000,000, and"
+  ],
+  "locator": "Proposed sec. 42B(d)(2) and (e)",
+  "grade": "A",
+  "fact_date": "2025-05-08",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-08",
+  "context": "Bill as introduced.",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-270",
+  "statement": "CRS: at $6 per resident (the 2021 bill), a Neighborhood Homes credit would cost approximately $2.1 billion a year in foregone revenue.",
+  "claim": "analysis",
+  "figures": [
+   "6",
+   "2.1 billion"
+  ],
+  "source": "SRC-1261",
+  "anchor": "impact since the proposals thus far specify that each state\nwould receive credits authority equal to the greater of (1) $6\nmultiplied by its population, or (2) $8 million. Applying\nthese dollar figures to the 2021 Calendar Year Resident\nPopulation Figures, used by the IRS for determining states\u2019\nLIHTC and tax-exempt private activity bonds, suggests a\nNHIC would cost approximately $2.1 billion annually in\nterms of foregone federal tax revenue.",
+  "grade": "C",
+  "fact_date": "2021-07-22",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-22",
+  "context": "Nonpartisan CRS arithmetic from the bill's per capita formula, not a JCT score. The 119th Congress bill uses $9 (EV-HOU-269), so its cost would be higher. No JCT score of the current bill was found.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-269",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-271",
+  "statement": "CRS: because the Neighborhood Homes credit fills the gap dollar for dollar, developers may lower sale prices and contain costs less, raising the cost per home; direct grants may be more cost-effective, though tax-equity investors add project oversight.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1261",
+  "anchor": [
+   "potential concern could be that developers may lower their\nsales prices below what they could otherwise receive and\nnot be as cautious containing development costs. This is\nbecause a lower sales price or higher development costs\nwould be offset dollar-for-dollar up to the maximum credit\nlimit. All else equal, this would result in fewer total\nproperties receiving financing and would unnecessarily",
+   "objective as the NHIC. While direct grants may be more\ncost-effective than the tax equity approach used by the\nNHIC, the private sector serves a project oversight and\nevaluation role in tax equity deals that can be valuable to\nthe government."
+  ],
+  "grade": "C",
+  "fact_date": "2021-07-22",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-22",
+  "context": "Nonpartisan CRS analysis of incentives; not an empirical estimate.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-284",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-272",
+  "statement": "CRS: the two-bedroom Fair Market Rent is below 30% of 80% of four-person area median income in all but five counties, and in zip code areas holding 87% of metropolitan residents (over 99% at 120% of area median income), so rent caps at those incomes sit above typical rents almost everywhere.",
+  "claim": "data",
+  "figures": [
+   "30%",
+   "80%",
+   "87%",
+   "99%",
+   "120%"
+  ],
+  "source": "SRC-1260",
+  "anchor": [
+   "Table 2 shows that the annualized two-bedroom FMR is less than 30% of 80% of the four-person\nHAMFI in all but five counties. In other words, a maximum housing cost of 30% of 80% of\nHAMFI would be a higher cost limit than FMR in most parts of the country.\nTable 2. Annualized 2025 FMRs Compared to 2025 HAMFIs",
+   "calculate Small Area Fair Market Rents outside of HUD-defined metropolitan areas.) In zip code\ntabulation areas representing 87% of people who live in metropolitan areas, the Small Area Fair\nMarket Rent for a two-bedroom unit costs less than 30% of the low-income limit for a family of\nfour (80% of HAMFI). In zip code tabulation areas representing over 99% of people who live in\nmetropolitan areas, the Small Area Fair Market Rent for a two-bedroom unit costs less than 30%\nof 120% of the four-person HAMFI.63 In other words, a maximum housing cost of 30% of 80% of"
+  ],
+  "locator": "Relationship Between Housing Cost Measures, Rental Housing",
+  "grade": "C",
+  "fact_date": "2026-03-25",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-25",
+  "context": "CRS comparison of HUD FY2025 Fair Market Rents and income limits. Fair Market Rents measure the 40th-percentile rent of the existing stock, not the rent of new buildings, so a cap can still bind on new construction in costly places (EV-HOU-279).",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-273",
+  "statement": "CRS (from HUD data): in 2023, about 32% of renter households at 80-120% of area median income had housing problems and about 4.9% severe problems, against about 75% and 42% of renters below 80%.",
+  "claim": "data",
+  "figures": [
+   "2023",
+   "80",
+   "120",
+   "32%",
+   "4.9%",
+   "75%",
+   "42%"
+  ],
+  "source": "SRC-1260",
+  "anchor": [
+   "earned 80%-120% of HAMFI and experienced housing problems, accounting for approximately\n32% of renter households and 26% of homeowner households in this income range.21 By",
+   "comparison, approximately 39.7 million households earned less than 80% of HAMFI and\nexperienced housing problems in 2023, accounting for approximately 75% of renter households\nand 59% of homeowner households in this income range.22 In Figure 1, households that earned",
+   "Approximately 1.4 million homeowner and renter households earned 80%-120% of HAMFI and\nexperienced severe housing problems, accounting for approximately 4.9% of renter households\nand 5.5% of homeowner households in this income range.23 By comparison, approximately 22.2\nmillion households earned less than 80% of HAMFI and experienced severe housing problems in\n2023, accounting for approximately 42% of renter households and 33% of homeowner\nhouseholds in this income range.24"
+  ],
+  "locator": "Housing Problems by Tenure and Relative Income",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "context": "CRS summary of HUD's Worst Case Housing Needs 2025 report (second Trump administration publication; underlying American Housing Survey data). Graded C as a secondary summary.",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-274",
+  "statement": "CRS: changing existing low-income programs to reach middle incomes would subsidize middle-income projects at the expense of low-income ones; a middle-income subsidy could instead be targeted to high-cost areas, measured as in LIHTC's difficult development areas.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1260",
+  "anchor": [
+   "the eligibility and housing cost requirements of other existing housing programs that currently\ntarget low-income households, such as the LIHTC and HOME programs. Modifying eligibility\ncriteria for existing low-income programs would necessarily subsidize workforce or middleincome housing projects at the expense of projects affordable to low-income households.",
+   "Policymakers may be interested in targeting supply-side workforce or middle-income housing\nsubsidies to geographic areas where such housing is particularly challenging to construct without\nsubsidy. Targeting could take into account several different indicators. High rental housing costs\ncould be indicated by high SAFMRs relative to HAMFI, a calculation used in the LIHTC\nprogram to identify difficult development areas (DDAs).70 A shortage of housing relative to jobs"
+  ],
+  "locator": "Supply-Side Subsidies; Targeting",
+  "grade": "C",
+  "fact_date": "2026-03-25",
+  "checked": "2026-11-09",
+  "recheck": "2027-03-25",
+  "context": "Nonpartisan CRS policy analysis; lays out options without recommending.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-283",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-275",
+  "statement": "Soltas: for every ten LIHTC units, about eight displace private housing that would have been built within ten years; LIHTC has added about 500,000 units, and its fiscal cost is about $1 million per net new unit.",
+  "claim": "analysis",
+  "figures": [
+   "500,000",
+   "1 million"
+  ],
+  "source": "SRC-1268",
+  "anchor": [
+   "For every ten LIHTC units, I find about eight units displace private housing that would have otherwise been built within ten years, and two units are net additions to the housing stock.",
+   "I conclude the LIHTC has expanded the U.S. housing stock by about 500,000 units, or by 0.4 percent.",
+   "Due to displacement, the fiscal cost of the LIHTC is about $1 million per net new unit on average."
+  ],
+  "locator": "Introduction, p. 4",
+  "grade": "C",
+  "fact_date": "2024-05-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-11",
+  "context": "Working paper (MIT job-market paper, 2024), not peer-reviewed; quasi-random award outcomes and scoring-rule nonlinearities. Agrees with the peer-reviewed crowd-out studies.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-115",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-114",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-116",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-276",
+  "statement": "Soltas: households benefit from modest rent discounts, but developers capture around half of the LIHTC subsidy in profits and another quarter goes to the cost of competing for it; a voucher program could likely give similar household benefits at less fiscal cost.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1268",
+  "anchor": [
+   "Households benefit from modest rent discounts on subsidized units, but developers capture around half of the subsidy in profits, and another quarter is dissipated in their fixed costs of competing for subsidies.",
+   "a voucher program could likely generate similar household benefits at less fiscal cost."
+  ],
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2024-05-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-11",
+  "context": "Working paper, not peer-reviewed; structural model estimates.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-112",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-114",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-277",
+  "statement": "Soltas: displacement is weaker in high-density than low-density areas, so the LIHTC's cost per net new unit is about $515 thousand in tracts above median density against about $1371 thousand below it ($960 thousand overall).",
+  "claim": "analysis",
+  "figures": [
+   "515",
+   "1371",
+   "960"
+  ],
+  "source": "SRC-1268",
+  "anchor": [
+   "Displacement is weaker in high-density than in low-density areas. As a result, the LIHTC's cost per net new unit varies notably",
+   "Cost Per Net Unit 960 870 1019 515 1371"
+  ],
+  "locator": "Section 8.2; Table 5, Panel B",
+  "grade": "C",
+  "fact_date": "2024-05-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-11",
+  "context": "Working paper, not peer-reviewed. Table 5 reports thousands of dollars; columns 4 and 5 are tracts above and below median population density.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-116",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-278",
+  "statement": "Soltas: average LIHTC rents are about 12% below potential market rents, regulated rents do not bind for about half of applications, and the LIHTC roughly triples the share of tenant households with incomes under $20,000.",
+  "claim": "analysis",
+  "figures": [
+   "12",
+   "20,000"
+  ],
+  "source": "SRC-1268",
+  "anchor": [
+   "Average monthly LIHTC rents are about 12 percent below my estimates of potential market rents",
+   "I find regulated rents do not bind for about half of applications",
+   "the LIHTC roughly triples the share of tenant households with incomes less than $20,000"
+  ],
+  "locator": "Introduction, p. 2; Section 5, p. 13",
+  "grade": "C",
+  "fact_date": "2024-05-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-11",
+  "context": "Working paper, not peer-reviewed.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-118",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-HOU-281",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-279",
+  "statement": "Terner Center: in three California markets, market-rate studios are generally priced below 100% of area median income, 100% rents in the South Bay are comparable to market rents, and no single policy change makes middle-income building feasible; property tax exemptions helped most.",
+  "claim": "analysis",
+  "figures": [
+   "100"
+  ],
+  "source": "SRC-1269",
+  "anchor": [
+   "market-rate studios are generally priced at levels below 100 percent of AMI in all three markets",
+   "are actually slightly higher than or comparable to market rate rents",
+   "not one single policy change makes middle-income housing financially feasible to build",
+   "property tax exemptions appeared to make the largest impact on feasibility in all of the scenarios"
+  ],
+  "locator": "Findings",
+  "grade": "C",
+  "fact_date": "2024-05-16",
+  "checked": "2026-11-09",
+  "recheck": "2027-05-16",
+  "context": "University research center; development pro formas for new construction, California only.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-272",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-281",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-280",
+  "statement": "California's middle-income bond deals: about $5 billion of bonds bought 9,000 existing apartments at over $540,000 a unit, with some units restricted for middle-income households; the 120% units are effectively at market rates. The advisers' test for a deal is that its benefit on units cut more than 10% below existing rents exceeds the property taxes given up.",
+  "claim": "analysis",
+  "figures": [
+   "5 billion",
+   "9,000",
+   "540,000",
+   "120%",
+   "10%"
+  ],
+  "source": "SRC-1270",
+  "anchor": [
+   "To date, approximately $5 billion of such bonds have closed to buy 9,000 apartments at an average investment per unit over $540,000, with a portion of such units restricted for middle-income households.",
+   "there is generally little or no reduction for units at 120% of AMI. Such 120% units are effectively at market rates and would be the same regardless of the program.",
+   "The direct affordability benefit, on units where rents are being reduced more than 10% below existing rents, is greater than the total local property taxes"
+  ],
+  "locator": "Purpose of this memo, p. 1; Part One, item 2; criterion 2, p. 2",
+  "grade": "C",
+  "fact_date": "2021-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "context": "Analysis by public-agency financial advisers (CSG Advisors, HR&A Advisors, California Housing Partnership), who state no financial stake. Deals bought existing buildings with a property tax exemption, a different tool from a construction credit.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-281",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-279",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-281",
+  "statement": "University of Washington evaluation of Seattle's tax exemption: income-restricted rents may be only a modest discount and in lower-cost neighborhoods exceed market rents; roughly half of the exemption's cost returns as discounted rents; 7,047 restricted units have been produced.",
+  "claim": "analysis",
+  "figures": [
+   "7,047"
+  ],
+  "source": "SRC-1271",
+  "anchor": [
+   "In lower-cost neighborhoods and for certain unit-types, average income-restricted MFTE rents exceed average market-rate rents.",
+   "roughly half of the exemption (cost of the program) is returned in the form of discounted rents in MFTE units",
+   "7,047 total income-restricted units have been produced"
+  ],
+  "locator": "Executive summary, pp. 3-4; program history",
+  "grade": "C",
+  "fact_date": "2024-11-22",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-22",
+  "context": "Evaluation commissioned by the City of Seattle; restricted units are mostly at 65-90% of area median income. The authors say the effect on total supply is hard to measure.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-280",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-279",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-282",
+  "statement": "NLIHC: just 2% of renters at 80-100% of area median income are severely cost burdened, and there are 33 affordable and available homes for every 100 extremely low-income renters against 99 for every 100 renters at or below 100%.",
+  "claim": "data",
+  "figures": [
+   "2%",
+   "80",
+   "100",
+   "33",
+   "99"
+  ],
+  "source": "SRC-1272",
+  "anchor": [
+   "just 2% of middle-income renters (those with incomes between 80% and 100% of AMI) are severely housing cost burdened",
+   "There are only 33 affordable and available rental homes for every 100 ELI",
+   "compared to 99 homes affordable and available for every 100 renters with incomes at or below 100% of area median income (AMI)."
+  ],
+  "locator": "Fact sheet, p. 1",
+  "grade": "C",
+  "fact_date": "2023-07-10",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-10",
+  "context": "Advocacy group for extremely low-income renters, which opposes the middle-income credit; figures from its tabulation of American Community Survey data. CRS's HUD-based rates (EV-HOU-273) point the same way.",
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-283",
+  "statement": "Harvard JCHS: state and local middle-income programs hold some promise in severely unaffordable or hard-to-build places, but as commonly defined they do not serve most working renters with affordability problems, who are overwhelmingly lower-income; it recommends such programs not divert resources from the lowest-income households and operate where the market cannot serve middle incomes.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-1273",
+  "anchor": [
+   "do not serve most working renters with affordability challenges, who are overwhelmingly lower-income.",
+   "recommending that middle-income programs be designed in a way that does not divert resources away from the lowest-income households, that they operate in places where the market cannot adequately serve middle-income households",
+   "These programs hold some promise for expanding the supply of affordable housing, especially in places with severe affordability challenges or in difficult-to-develop areas"
+  ],
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2024-07",
+  "checked": "2026-11-09",
+  "recheck": "2027-07-01",
+  "context": "University research center; reviews eleven state and local programs.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-274",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-273",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-284",
+  "statement": "In Missouri's lottery for neighborhood preservation tax credits, winners got nearly two-thirds more building permits, crowd-out was smaller in declining neighborhoods, and each $1 of credit raised recipients' assessed values by about $0.50.",
+  "claim": "analysis",
+  "figures": [
+   "0.50"
+  ],
+  "source": "SRC-1274",
+  "anchor": [
+   "those whose applications were approved were issued nearly two-thirds more building permits during the two-year window credit recipients had to complete their projects.",
+   "The program also appears to crowd out less private construction activity in declining neighborhoods relative to growing neighborhoods.",
+   "For every $1 in NPA credits authorized to properties in the data, we find that, compared to those denied credits, tax credit recipients' city-assessed property values increase by about $0.50 on average."
+  ],
+  "locator": "Introduction, pp. 1-2",
+  "grade": "C",
+  "fact_date": "2018-11",
+  "checked": "2026-11-09",
+  "recheck": "2027-11-01",
+  "context": "Preliminary working paper (Clarke and Freedman, 2018), not peer-reviewed; randomized allocation, so its design is strong. Missouri's credit is a close analogue of the Neighborhood Homes credit.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-116",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-271",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/home/memos/3-production.md",
+   "dossiers/home/memo-3-part1-research.md"
+  ]
+ },
+ {
   "id": "EV-HOU-300",
   "statement": "In a meta-analysis of cohort studies, all-cause deaths per thousand person-years were 11.3 in methadone treatment against 36.1 out of it, and 4.3 against 9.5 for buprenorphine; the weeks starting methadone and right after leaving either treatment carry higher risk.",
   "claim": "analysis",
