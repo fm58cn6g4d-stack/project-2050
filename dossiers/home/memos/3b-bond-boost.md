@@ -1,6 +1,6 @@
 # Memo 3b: should the bigger tax credit also boost bond-financed projects?
 
-Role: decision memo for Espen, a follow-up to memo 3 part 1 (option D, `DEC-2026-11-09-08`) on one piece of provision HOU-2D.01. Status: awaiting Espen's decision. Nothing changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Every cost and home count here is this dossier's estimate: no official score exists.
+Role: decision memo for Espen, a follow-up to memo 3 part 1 (option D, `DEC-2026-11-09-08`) on one piece of provision HOU-2D.01. Status: decided by Espen on November 9, 2026: option (a), leave it out (`DEC-2026-11-09-17`): "b isn't cheap for 2k-10k extra homes-- i think we drop it". HOU-2D.01 does not include section 308. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). Every cost and home count here is this dossier's estimate: no official score exists.
 
 ## The question
 
@@ -8,7 +8,7 @@ The bill behind HOU-2D.01, the Affordable Housing Credit Improvement Act, has a 
 
 ## What the law does now
 
-- **Projects in high-cost or very poor areas already get the boost, bond-financed or not** (U.S. Code, 26 U.S.C. 42) [EV-HOU-460].
+- **Projects in high-cost or very poor areas already get the boost, bond-financed or not** (U.S. Code, 2023 edition, unchanged on this point by the 2025 tax law) [EV-HOU-460].
 - **Elsewhere, an agency may give the boost to a project that needs it, but not to a bond-financed one** (U.S. Code) [EV-HOU-461]. Section 308 removes that exclusion for bonds issued after 2025 (bill text, 2025) [EV-HOU-462].
 - **Bonds are easier to get now.** The 2025 tax law cut the share of a project that bonds must finance from 50% to 25% (Joint Committee on Taxation, 2025) [EV-HOU-260]. The same bond allowance now stretches over more projects, so the limit on bond deals is usually the leftover funding gap.
 - **The plan already fills gaps two ways.** HOU-2D.01's boost for the poorest renters raises basis to 150% for buildings that set aside a fifth of their homes for them (bill text, 2025) [EV-HOU-263]. HOU-3C's grants and loans pay about $150,000-300,000 of gap per home (`4-specification.md`, HOU-3C.04).
@@ -16,8 +16,8 @@ The bill behind HOU-2D.01, the Affordable Housing Credit Improvement Act, has a 
 ## What it would buy
 
 - **Per home:** about $35,000-45,000 more in credits. That is this dossier's arithmetic: a 30% boost on the 4% credit over ten years is about 12% of eligible basis. Tax-credit homes cost about $322,000-406,000 to build in Washington State (Washington State Housing Finance Commission) [EV-HOU-412]. That covers roughly a tenth to a quarter of a typical gap.
-- **The industry's estimate:** more than 175,000 more homes over ten years from all three of the bill's 30% boosts (Novogradac, 2025; to be tagged when PR #148 adds it to the register). Novogradac is a tax-credit accounting firm with a stake. Its figure assumes other gap money grows to match, and here that money is largely HOU-3C's. So homes it counts would often have been financed by HOU-3C anyway.
-- **Crowd-out:** about eight of every ten tax-credit homes replace homes that would have been built anyway, and replacement is highest outside dense areas (Soltas, MIT working paper, 2024) [EV-HOU-275] [EV-HOU-277]. Outside dense areas is exactly where section 308 adds the boost, since high-cost and very poor areas already have it.
+- **The industry's estimate:** more than 175,000 more homes over ten years from all three of the bill's 30% boosts (Novogradac, 2025) [EV-HOU-444]. Novogradac is a tax-credit accounting firm with a stake. Its figure assumes other gap money grows to match, and here that money is largely HOU-3C's. So homes it counts would often have been financed by HOU-3C anyway.
+- **Crowd-out:** about eight of every ten tax-credit homes replace homes that would have been built anyway, and replacement is highest outside dense areas (Soltas, MIT working paper, 2024) [EV-HOU-275] [EV-HOU-277]. Outside dense areas is mostly where section 308 adds the boost, since high-cost and very poor areas already have it.
 
 ## The options
 
@@ -44,7 +44,7 @@ The lens prefers one plain test and local judgment over rules checked up front, 
 - (b) adds no new test. It reuses a choice the agency already makes, whether a building gets the poorest-renter boost, so it costs no extra paperwork. It also points the money at the homes the evidence says the credit serves best (memo 3 part 1).
 - (a) adds nothing and leaves the gap to HOU-3C. HOU-3C's money is spent on purpose, home by home.
 
-## Recommendation: (b)
+## Recommendation: (b) (not chosen; Espen chose (a))
 
 Add section 308, but only for buildings using the poorest-renter boost.
 - It helps the deep-income buildings that are hardest to finance, at small cost, with a test agencies already apply.
