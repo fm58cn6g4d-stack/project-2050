@@ -273,12 +273,11 @@ These are flagged, not decided; each also appears in the README.
 
 For the section 4 owner and section 6; not made here.
 
-**Text changes.** Section 4's head (c6b4aa6) has taken up the first four.
+**Text changes.** Section 4's head (11e556a) has taken up all four, and its R2 dates now match section 3 above.
 - HOU-4.04: fund each household's move-out voucher from its own award, since current law allows a wait for the next voucher [EV-HOU-352]. (The cap exemption [EV-HOU-351] is already in section 4.)
 - HOU-4A.02: fees for the new awards paid in full, never prorated [EV-HOU-343], with an issuance fee.
 - HOU-4A.01 and others: dates written from enactment, with money available until spent.
 - HOU-4.02: the consent-based fallback for data sharing until the regular bill passes.
-- Section 4's "Vehicles" line: replace "its central date is about January 14, 2030" with the range in section 3 above (half of central runs by October 30, 2029, the rest by mid-January 2030 or later; earliest May 14, 2029).
 
 **Additions that cost money.** Each needs a provision line or a parameter in an existing one, and a cost in section 6. "Section 6 prices" means the item follows from decided designs; "if Espen agrees" means it waits on a question above.
 
