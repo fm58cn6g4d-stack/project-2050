@@ -85,7 +85,7 @@ FY2030-39 outlays in billions, central (low-high). "BA" is budget authority. FY2
 
 ### 1.4 Lease-up sensitivity: cost and households housed
 
-The leased share is the rental help lines' weakest input. National vouchers run 84% occupied [EV-HOU-370]. Emergency Housing Vouchers reached 67% after about two years [EV-HOU-345]. Section 7 (PR #139) cites a national search success rate of 57% in 2022, from an Urban Institute study, and warns that success "would likely fall" as more households search. The table moves only the leased share; every other input stays central. It covers the rental help lines: HOU-4A, HOU-4D and HOU-4.08, with fees, search help and the higher payment standards.
+The leased share is the rental help lines' weakest input. National vouchers run 84% occupied [EV-HOU-370]. Emergency Housing Vouchers reached 67% after about two years [EV-HOU-345]. Section 7 (PR #139) cites a national search success rate of 57% in 2022, from the NYU Furman Center. It also cites the Urban Institute's warning, made at a 61% success rate, that success "would likely fall" as more households search. The table moves only the leased share; every other input stays central. It covers the rental help lines: HOU-4A, HOU-4D and HOU-4.08, with fees, search help and the higher payment standards.
 
 | Leased share at steady state | Rental help, FY2030-39 | Rental help, FY2040 | Households housed: first million (FY2034) | Stage 2 (FY2039) | Stage 3 (FY2042) | All three (FY2042) |
 | --- | --- | --- | --- | --- | --- | --- |
