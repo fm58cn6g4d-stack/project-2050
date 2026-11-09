@@ -1,0 +1,2222 @@
+Source: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7313544&retmode=xml
+Publisher: PLOS ONE (Public Library of Science)
+Retrieved: 2026-11-09
+Original SHA-256: 7683b3297426cadd0a397304cb1a508d302b4d1418fc4698295d4092376ec565
+Rights: CC BY 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+PLoS One PLoS ONE 440 plosone 101285081 plos PLoS ONE 1932-6203 PLOS PMC7313544 PMC7313544.1 7313544 7313544 32271769 10.1371/journal.pone.0230896 PONE-D-19-19380 1 Research Article Earth Sciences Geography Human Geography Housing Social Sciences Human Geography Housing Medicine and Health Sciences Mental Health and Psychiatry Medicine and Health Sciences Health Care Quality of Life Social Sciences Economics Economic Analysis Cost-Effectiveness Analysis Medicine and Health Sciences Public and Occupational Health Behavioral and Social Aspects of Health Research and Analysis Methods Research Assessment Systematic Reviews Research and Analysis Methods Database and Informatics Methods Database Searching Biology and Life Sciences Psychology Addiction Social Sciences Psychology Addiction The effectiveness of case management interventions for the homeless,
+vulnerably housed and persons with lived experience: A systematic
+review The Effectiveness of Case-Management
+Interventions for the Homeless Ponka David Conceptualization Data curation Funding acquisition Methodology Writing – original draft Writing – review &
+editing 1 http://orcid.org/0000-0001-5371-5390 Agbata Eric Data curation Formal analysis Writing – original draft Writing – review &
+editing 2 http://orcid.org/0000-0003-2686-1135 Kendall Claire Conceptualization Data curation Funding acquisition Methodology Writing – review &
+editing 3 4 5 Stergiopoulos Vicky Conceptualization Data curation Funding acquisition Methodology Writing – review &
+editing 6 Mendonca Oreen Data curation Formal analysis Writing – original draft Writing – review &
+editing 3 http://orcid.org/0000-0003-0262-5621 Magwood Olivia Data curation Formal analysis Writing – original draft Writing – review &
+editing 3 Saad Ammar Data curation Formal analysis Writing – original draft Writing – review &
+editing 3 7 Larson Bonnie Data curation Writing – original draft Writing – review &
+editing 8 Sun Annie Huiru Data curation Formal analysis Writing – review &
+editing 3 Arya Neil Data curation Formal analysis Writing – original draft Writing – review &
+editing 9 Hannigan Terry Writing – review &
+editing 3 http://orcid.org/0000-0003-4738-8447 Thavorn Kednapa Data curation Formal analysis Writing – original draft Writing – review &
+editing 5 7 http://orcid.org/0000-0002-7734-2610 Andermann Anne Data curation Writing – review &
+editing 10 Tugwell Peter Conceptualization Data curation Funding acquisition Methodology Writing – review &
+editing 11 http://orcid.org/0000-0002-1874-8346 Pottie Kevin Conceptualization Data curation Funding acquisition Methodology Supervision Writing – review &
+editing 3 4 * 1
+Department of Family Medicine, University of Ottawa, Ottawa, ON,
+Canada 2
+Faculty of Health Science, University of Roehampton, London, United
+Kingdom 3
+C.T. Lamont Primary Health Care Research Centre, Bruyère Research
+Institute, Ottawa, ON, Canada 4
+Department of Family Medicine and School of Epidemiology and Public
+Health, University of Ottawa, Ottawa, ON, Canada 5
+Ottawa Hospital Research Institute, Ottawa, ON, Canada 6
+Centre for Addiction and Mental Health, Department of Psychiatry,
+University of Toronto, Toronto, ON, Canada 7
+School of Epidemiology and Public Health, University of Ottawa, Ottawa,
+ON, Canada 8
+Department of Family Medicine, University of Calgary, Calgary, AB,
+Canada 9
+Department of Health Sciences, Wilfred Laurier University, Waterloo, ON,
+Canada 10
+Department of Family Medicine and Department of Epidemiology,
+Biostatistics and Occupational Health, McGill University, Montreal, QC,
+Canada 11
+Faculty of Medicine, University of Ottawa, Ottawa, ON,
+Canada Federici Stefano Editor Università degli Studi di Perugia, ITALY Competing Interests: David Ponka, Claire Kendall, Vicky Stergiopoulos, Anne Andermann, Peter
+Tugwell and Kevin Pottie are principal investigators in an ongoing project
+to develop Canadian evidence-based guidelines for providing social programs
+and healthcare services to people who are homeless and vulnerably housed.
+Terry Hannigan was paid an honorarium by the Bruyère Research Institute to
+provide consultations on this work. This does not alter our adherence to
+PLOS ONE policies on sharing data and materials. The authors declare no
+other conflicts of interest.
+* E-mail: kpottie@uottawa.ca 9 4 2020 2020 15 4 355157 e0230896 26 7 2019 12 3 2020 09 04 2020 26 06 2020 20 08 2025 © 2020 Ponka et al 2020 Ponka et al https://creativecommons.org/licenses/by/4.0/ This is an open access article distributed under the terms of the
+Creative Commons Attribution License ,
+which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are credited. 10.1371/journal.pone.0230896 10.1371/journal.pone.0230896 Background Individuals who are homeless or vulnerably housed are at an increased risk
+for mental illness, other morbidities and premature death. Standard case
+management interventions as well as more intensive models with practitioner
+support, such as assertive community treatment, critical time interventions,
+and intensive case management, may improve healthcare navigation and
+outcomes. However, the definitions of these models as well as the fidelity
+and adaptations in real world interventions are highly variable. We
+conducted a systematic review to examine the effectiveness and
+cost-effectiveness of case management interventions on health and social
+outcomes for homeless populations.
+Methods and findings We searched Medline, Embase and 7 other electronic databases for trials on
+case management or care coordination, from the inception of these databases
+to July 2019. We sought outcomes on housing stability, mental health,
+quality of life, substance use, hospitalization, income and employment, and
+cost-effectiveness. We calculated pooled random effects estimates and
+assessed the certainty of the evidence using the GRADE approach. Our search
+identified 13,811 citations; and 56 primary studies met our full inclusion
+criteria. Standard case management had both limited and short-term effects
+on substance use and housing outcomes and showed potential to increase
+hostility and depression. Intensive case management substantially reduced
+the number of days spent homeless (SMD -0.22 95% CI -0.40 to -0.03), as well
+as substance and alcohol use. Critical time interventions and assertive
+community treatment were found to have a protective effect in terms of
+rehospitalizations and a promising effect on housing stability. Assertive
+community treatment was found to be cost-effective compared to standard case
+management.
+Conclusions Case management approaches were found to improve some if not all of the
+health and social outcomes that were examined in this study. The important
+factors were likely delivery intensity, the number and type of caseloads,
+hospital versus community programs and varying levels of participant needs.
+More research is needed to fully understand how to continue to obtain the
+increased benefits inherent in intensive case management, even in community
+settings where feasibility considerations lead to larger caseloads and
+less-intensive follow-up.
+Inner City Health Associates http://orcid.org/0000-0002-1874-8346 Pottie Kevin This systematic review was funded by Inner City Health
+Associates, Toronto, Canada to KP. The funders of the study had no role in the
+study design, data collection, data analysis, data interpretation, or the
+writing of the report. The corresponding author had full access to all of the
+data in the study and had final responsibility for the decision to submit for
+publication. pmc-status-qastatus 0 pmc-status-live yes pmc-status-embargo no pmc-status-released yes pmc-prop-open-access yes pmc-prop-olf no pmc-prop-manuscript no pmc-prop-legally-suppressed no pmc-prop-has-pdf yes pmc-prop-has-supplement yes pmc-prop-pdf-only no pmc-prop-suppress-copyright no pmc-prop-is-real-version no pmc-prop-is-scanned-article no pmc-prop-preprint no pmc-prop-in-epmc yes pmc-license-ref CC BY Data Availability All relevant data are within the paper and its Supporting
+Information files. Data Availability All relevant data are within the paper and its Supporting
+Information files.
+Introduction Homeless and vulnerably housed populations have poorer health outcomes including
+acute and chronic illness [ 1 ], traumatic injury [ 1 ], mental health and substance use disorders [ 2 – 7 ], and mortality [ 8 ]. While often related to individual medical
+and complex social needs, structural challenges posed by fragmented health and
+social systems create a potent mix of barriers to access to health care. These
+include a lack of sufficient language capacity, awareness of affordable healthcare
+services and their location, transportation services, childcare, and reasonable wait
+times. When coupled with previous experiences of rejection or discrimination from
+service providers, these barriers further contribute to individuals failing to
+access appropriate and available health care [ 9 – 11 ].
+To address these barriers, people who are homeless or vulnerably housed may benefit
+from tailored, patient-centered care with an integrated approach to community and
+social services [ 12 – 14 ]. Case management (CM) is
+one such intervention where individual case managers respond to the complexity of
+navigating the healthcare system by assessing, planning and facilitating access to
+health and social services [ 15 , 16 ]. While
+case management interventions are heterogeneous in definition, complexity, target
+populations served, and modes of delivery [ 12 ], among these, four predominant models have
+evolved in relation to health care: standard case management (SCM), intensive case
+management (ICM), assertive community treatment (ACT), and critical time
+intervention (CTI) (See Table
+1 ) [ 17 ].
+10.1371/journal.pone.0230896.t001 Table 1 Characteristics of case management models- Adapted from de Vet et al.
+2013 [ 15 ]. Standard Case
+Management Intensive Case
+Management Assertive
+Community Treatment Critical Time
+Intervention
+Focus of Services Coordination of services Comprehensive approach addressing several needs
+(i.e. housing, physical and mental health, addictions services
+etc.) Comprehensive approach addressing several needs
+(i.e. housing, physical and mental health, addictions services
+etc.) Targeted to continuity of care between a period of
+transition i.e. between precarious housing conditions (i.e.
+living in a shelter or discharged from hospital) and independent
+housing arrangements
+Target Population Homeless persons with complex health concerns Homeless persons with the greatest service need
+i.e. persons with serious mental illnesses, but typically fewer
+hospitalizations or less functional impairments [ 18 ], and
+for people experiencing addictions [ 19 ]. Homeless persons with the greatest service need
+i.e. for persons with serious mental illness, often
+schizophrenia or bipolar disorder, accompanied by a history of
+multiple psychiatric hospitalizations and functional impairment
+[ 20 ]. Homeless persons at critical transitions in their
+lives i.e. between a shelter or hospital and independent
+housing
+Access Point Varies by location. Typically services
+are accessed through a referral by healthcare professionals
+(clinician, nurse, social worker, outreach worker). Some
+locations offer self-referral services where clients can apply
+for access to services on their own [ 21 ].
+Duration of Services Time limited. once the case manager has
+brokered the client to a service provider, the service provider
+to provide ongoing support until a positive outcome is achieved
+[ 15 ]. Ongoing Ongoing but transfer to lower intensity services is
+common after a period of stability [ 22 , 23 ]. Time-limited. Usually a period of 9
+months after institutional discharge or placement in housing
+[ 22 ].
+Availability of case management services up to 12 hours per day, 7 days a week [ 24 ]. 24 hours per day, 7 days per week availability
+[ 22 ].
+Where services are offered Brokering of services to other providers [ 25 ]. Case manager accompanies clients to meetings and
+appointments [ 24 ]. Services are offered in a natural setting such
+as the workplace, home or social setting [ 15 , 22 ]. Worker provides services in the home and helps to
+strengthen community networks [ 22 ].
+Coordination of access to services run
+by other agencies or service provision by the
+agency itself Coordination Coordination and service provision Coordination and service provision Coordination and service provision
+Average Caseload (program intensity) 35 15 15 25
+Outreach No Yes Yes Yes
+Responsibility for clients’ care Case managers can originate from
+several different teams (a mental health team, addictions care
+team, primary care health team, shelter team, Housing First
+etc.). Regardless of the team, all case managers play the role
+of navigator and keep the client’s needs at the forefront of
+their care.
+Case manager or a navigator role is played by a
+clinician, nurse, community outreach worker, or social worker
+[ 15 , 26 ]. Case manager A multidisciplinary team including case managers,
+peer support workers, and physicians [ 20 ]. Case manager or CTI worker [ 22 ].
+Case example Client is homeless or vulnerably housed with no
+serious mental illness or addictions concerns. Client accesses
+SCM. Here a clinician, nurse, social worker or outreach worker
+to play the role of a standard case manager and refer to needed
+services. Client is homeless or vulnerably housed with a
+serious mental illness and/or addiction concern. Client accesses
+ICM. Here a case manager will arrange for needed assistance and
+will accompany them to services. Client is homeless or vulnerably housed with a
+serious mental illness and/or addiction concern and a history of
+recurrent hospitalizations. Client accesses ACT. A
+multidisciplinary team led by a case manager, will offer
+services in the client’s natural setting (home/workplace). Client is homeless or vulnerably housed and is in a
+period of transition (i.e. from a shelter or hospital into a
+housing unit). Client accesses CTI where a case manager or CTI
+worker will broker or provide services to help with the
+transition.
+Case management has been shown to improve patient satisfaction [ 27 ], quality of life, and the utilization of
+community-based services among other high-risk populations [ 28 ]. However, the evidence base for CM and its
+implementation among homeless and vulnerably housed populations remains sparse. This
+review is one of a series of reviews on the effectiveness of providing interventions
+for homeless and/or vulnerably housed persons. The objective of this review is to
+assess the effectiveness and cost-effectiveness of four CM models for the health and
+social outcomes of homeless or vulnerably housed individuals in the following
+domains: housing stability, mental health, substance use, quality of life,
+hospitalization, employment and income.
+Methods Protocol registration and reporting We conducted a systematic review according to a published peer-reviewed protocol
+[ 29 ]. The protocol
+was not registered in an open-access registry (e.g. PROSPERO) prior to
+publication. We followed the PRISMA checklist and SWiM (Synthesis Without
+Meta-Analysis) reporting guidelines when reporting our findings (see S1 File )
+[ 30 , 31 ]. Ethical approval was
+not required for this study.
+Selection of priority interventions We conducted a Delphi consensus process with 84 experienced healthcare
+practitioners and 76 persons with lived homelessness experience to prioritize
+person-centered and clinically meaningful priority topics, outcomes, and
+subgroups [ 32 ]. Among
+these, case management and care coordination were highly prioritized. We then
+scoped literature using Google Scholar and PubMed to broadly determine a list of
+interventions and terms relating to each of the Delphi priority topic
+categories. A working group was formed to arrive at a consensus and inform the
+final selection of interventions to be included in this review. This working
+group consisted of medical practitioners, allied health professionals, and
+community scholars (people with lived experience of homelessness or vulnerable
+housing) [ 33 ]. Our
+working group deliberated the value of systematic reviews and evidence-based
+guidelines on various interventions, giving significant weight to the needs and
+opinions of persons with lived experience of homelessness. Consensus of the
+working group was to describe case management interventions by level of
+intensity ( Table 1 )
+Search strategy and selection criteria A search strategy was developed and peer-reviewed by a health science librarian.
+We searched MEDLINE, Embase, CINAHL, PsycINFO, Epistemonikos, HTA database,
+NHSEED, DARE, and the Cochrane Central Register of Controlled Trials (CENTRAL)
+from the inception of these databases to February 8, 2018, for studies on
+effectiveness, cost and cost-effectiveness. A combination of indexed terms, free
+text words, and MeSH headings were used (See S2 File ).
+There were no date or language restrictions. We searched the reference lists of
+relevant systematic reviews for studies that met our inclusion criteria. We
+consulted experts in the field of homelessness and people with lived experience
+to identify any additional studies we may have missed. We updated our search on
+July 19, 2019 and deduplicated against our previous search to identify trials
+published since February 2018.
+The results were uploaded to Rayyan reference manager software to facilitate the
+study selection process [ 34 ]. Teams of review authors assessed each study for inclusion in
+duplicate (See Table 2 );
+disagreements were resolved through discussion or a third reviewer. All
+peer-reviewed studies that assessed case management interventions among homeless
+or vulnerably housed populations and that reported on relevant outcomes were
+included. We excluded articles where case management was delivered as a
+component of a permanent supportive housing intervention as this is covered by a
+parallel review [ 35 ].
+10.1371/journal.pone.0230896.t002 Table 2 Eligibility criteria. Study
+Characteristics Inclusion
+Criteria Definitions
+Population People experiencing homelessness
+and vulnerable housing. If study populations were
+heterogeneous, we included the study if the population was
+comprised of >50% homeless or vulnerably housed
+individuals.
+Interventions Standard Case Management (SCM) These allow for the provision of an array of
+social, healthcare, and other services with the goal of
+helping the client maintain good health and social
+relationships. This is done by “including engagement of the
+patient, assessment, planning, linkage with resources,
+consultation with families, collaboration with
+psychiatrists, patient psychoeducation, and crisis
+intervention” [ 36 ].
+Intensive Case Management (ICM) ICM helps service users maintain housing and
+achieve a better quality of life through the support of a
+case manager that brokers access to an array of services.
+The case manager accompanies the service user to meetings
+and can be available for up to 12 hours per day, 7 days a
+week. Case managers for ICM often have a caseload of 15–20
+service users each [ 15 ].
+Assertive Community Treatment (ACT) ACT offers team-based care by a
+multidisciplinary group of healthcare workers in the
+community. This team has 24 hours per day, 7 days per week
+availability and provides services tailored to the needs and
+goals of each service user [ 15 , 23 ].
+Critical Time Intervention (CTI) CTI is a service that supports continuity of
+care for service users during times of transition; for
+example, from a shelter to independent housing or following
+discharge from a hospital. This service strengthens the
+person’s network of support in the community [ 37 ]. It
+is administered by a CTI worker and is a time-limited
+service, of usually a period of 6–9 months.
+Comparison No intervention, standard
+intervention, alternative intervention, treatment as
+usual.
+Outcomes Housing stability, mental health,
+quality of life, substance use, hospitalization, income, and
+employment-related outcomes.
+Study
+Characteristics Primary studies as defined by EPOC
+criteria [ 38 ] Randomized controlled trials Non-randomized
+controlled trials Controlled before-after studies
+Interrupted time series and repeated measures studies Cost
+or cost-consequence studies Full economic evaluation
+studies: cost-minimization analysis, cost-benefit analysis,
+cost-effectiveness analysis, and cost-utility analysis. All
+study designs must include interventions with a
+comparison/control group and have measured outcomes.
+Study
+Characteristics Exclusion Criteria Justifications
+Studies taking place in low- middle-income
+countries [ 39 ]. Due to the variability in access to resources
+and supports in comparison to that in a high-income country
+vary greatly. We feel that the settings are different and
+should be synthesized separately
+Studies that exclusively report on Indigenous
+specific interventions The analysis of the interventions tailored to
+this population will be covered by an Indigenous research
+group.
+Case management delivered as a component of a
+permanent supportive housing intervention This is covered by a parallel systematic review
+[ 35 ].
+Data analysis We used a standardized data extraction sheet that included the study methodology,
+population, intervention, control, outcome, study limitations, and funding
+details. The data were extracted independently by two reviewers. Disagreements
+were resolved through discussion. To prevent double-counting of outcomes,
+individual records were carefully screened to identify unique trial studies.
+Each study was then evaluated for potential overlap using study design,
+enrollment and data collection dates, authors and their associated affiliations
+and the reported selection and eligibility criteria in the studies to inform the
+assessment. Studies deemed to be at risk for double-counting were discussed by
+the research team and decisions for inclusion in meta-analysis (and any
+additional analyses) were made. We used the Cochrane Risk-of-Bias tool to assess
+the quality of each study’s methodology, in duplicate [ 40 ].
+Where possible, we conducted meta-analysis of measures of effectiveness using
+random effects models due to their consideration of heterogeneity using RevMan
+5.3 software [ 41 ]. We
+verified that the random effects model did not under-estimate the confidence
+intervals by running parallel fixed effects analyses. We present the summary
+effects as relative risks or standardized mean differences, as appropriate.
+Where study heterogeneity did not allow for meta-analysis, we employed a
+narrative synthesis, defined as a “synthesis of findings from multiple studies
+that relies primarily on the use of words and text to summarise and explain the
+findings of the synthesis. Whilst it can involve the manipulation of statistical
+data, the defining characteristic is that it adopts a textual approach to the
+process of synthesis to ‘tell the story’ of the findings from the included
+studies” [ 42 ]. We used
+the GRADE approach to appraise the certainty of the evidence (See Table 3 ) [ 43 ].
+10.1371/journal.pone.0230896.t003 Table 3 GRADE certainty of evidence and definitions. Certainty
+rating Definition
+High Further research is very unlikely to change our
+confidence in the estimate of the effect
+Moderate Further research is likely to have an important
+impact on our confidence in the estimate of the effect and
+may change the estimate
+Low Further research is very likely to have an
+important impact on our confidence in the estimate of the
+effect and is likely to change the estimate
+Very low Any estimate of the effect is very
+uncertain
+Source: [ 43 ]
+Results We identified 11,934 citations from bibliographic databases and an additional 17 from
+other sources. After removing duplicates, we screened 7,514 titles and abstracts for
+eligibility. We assessed 268 citations at full-text, of which 214 were excluded (See
+Fig 1 and S3 File ). Our
+updated search yielded a total of 1877 additional records, of which 1869 records
+were screened by title and abstract after removing duplicates. We assessed 36
+articles at full text, of which 34 were excluded (See Fig 2 ). From both searches, we included a total
+of 56 citations, of which 11 reported on SCM [ 44 – 54 ], 10 on ACT [ 25 , 55 – 63 ], 17 on ICM [ 64 – 80 ], and 11 on CTI [ 81 – 91 ]. Twelve articles provided evidence on
+cost-effectiveness; 3 on SCM [ 50 , 79 , 92 ]; 6 on ACT [ 56 , 59 , 93 – 96 ]; 2 on ICM [ 97 , 98 ]; and 1 for CTI [ 89 ] (See Figs 1 and 2 ). Five of the cost-effectiveness articles were
+included in the effectiveness analysis as well [ 50 , 56 , 59 , 79 , 89 ]. The majority of the included studies were
+set in the United States, with three studies from Europe and one from Australia. All
+of the studies focused on homeless and vulnerably housed populations, with varying
+levels of participant profiles and comorbidities across studies. All trials compared
+case management interventions to usual care (UC) or an alternative intervention,
+such as rent vouchers, peer support groups or drop-in services. Appendix S4 lists
+the characteristics of the included studies on SCM, ICM, ACT, CTI and
+cost-effectiveness studies.
+10.1371/journal.pone.0230896.g001 Fig 1 PRISMA flow diagram of search up to February 2018. 10.1371/journal.pone.0230896.g002 Fig 2 PRISMA flow diagram with updated search up to July 2019. Characteristics of included studies (SCM) The effects of all of the case management interventions are summarized in Table 4 . In our risk-of-bias
+assessment (See S5 File ), we found that the majority of studies had methodological
+deficiencies in randomization, allocation concealment and blinding of
+participants and personnel. The GRADE certainty of the evidence for critical
+patient-important outcomes is available in S6
+File .
+10.1371/journal.pone.0230896.t004 Table 4 Results of studies comparing assertive community treatment, intensive
+case management, critical time interventions, and standard case
+management to control services. Is the between-group difference
+significantly favouring the case management
+intervention?
+Intervention * Study ID Housing stability Mental health Quality of life Substance use Hospitalization Employment Income
+ACT [ 55 ] No - - - No - -
+ACT [ 56 ] Yes No Yes 1 , 3 - Yes 1 , 3 - No
+ACT [ 25 ] - No No Yes 2 Yes 2 - -
+ACT [ 57 ] Yes 2 No - No - - -
+ACT [ 58 ] Yes 1 No Yes 1 - Yes - -
+ACT [ 61 ] Yes 2 No - No - - No
+ACT [ 62 , 63 ] Yes 2 Yes 1 - No - - No
+ACT [ 59 , 60 ] No No - No - - -
+ICM [ 64 ] No No No Yes 1 - No -
+ICM [ 65 ] No No - No - - -
+ICM [ 66 ] - Yes 1 Yes 1 No - - -
+ICM [ 67 ] Yes 2 - - - - - -
+ICM [ 68 , 69 ] Yes - - Yes 1 - No Yes 1 , 3
+ICM [ 70 ] - No Yes 1 , 2 - - - -
+ICM [ 71 ] No - - - - - No
+ICM [ 72 ] Yes - - - No - -
+ICM [ 73 ] No No - Yes 1 No -
+ICM [ 74 ] No No No - No No -
+ICM [ 75 ] Yes 3 Yes 3 - Yes 3 - Yes 3 -
+ICM [ 76 ] No - - No Yes - Yes
+ICM [ 77 ] Yes 1 Yes 1 Yes 1 - - - -
+ICM [ 78 ] Yes 2 No - Yes 2 - No -
+ICM [ 79 ] Yes No - Yes Yes 2 - Yes
+ICM [ 80 ] No Yes 1 - No - - No
+CTI [ 81 ] No No No No - - -
+CTI [ 82 , 83 ] Yes 1 , 3 - - - Yes 1 , 3 - -
+CTI [ 84 ] Yes 1 No
+CTI [ 85 , 86 ] Yes 1 Yes 1 , 2 - - - - -
+CTI [ 87 – 91 ] Yes 1 - - - No - No
+SCM [ 44 ] Yes
+[diminished with time] No - Yes 1
+[diminished with time] - Yes -
+SCM [ 45 , 46 ] No - Yes 1 - No - -
+SCM [ 47 ] No - - - - - -
+SCM [ 48 ] No - - No - No -
+SCM [ 49 ] - HARMS No No - - -
+SCM [ 50 ] No - - No - No -
+SCM [ 51 ] Yes - - Yes - No -
+SCM [ 52 ] Yes - - - - - -
+SCM [ 53 ] No Yes 1 - No - - -
+SCM [ 54 ] No No - - - No -
+*Assertive Community Treatment; ACT. Intensive Case Management; ICM.
+Critical Time Intervention; CTI. Standard Case Management; SCM.
+1 . Depends on sub-outcomes
+2 . Depends on sub-groups
+3 . Depends on analysis methodology
+Effects of standard case management (SCM) Of 11 trials on SCM, ten evaluated housing stability [ 44 – 48 , 50 – 54 ]. Only three reported significant
+decreases in homelessness [ 44 , 51 , 52 ]; an effect that
+diminished over time in one trial of a time-limited residential case management
+where participants in all groups accessed significant levels of services [ 44 ].
+A SCM program tailored to women reduced the odds of depression at 3 months (OR
+0.38 95% CI 0.14 to 0.99) but did not show improvements in their overall mental
+health status (MD 4.50; 95% CI -0.98 to 9.98) [ 53 ]. One trial reported
+higher levels of hostility (p<0.001) and depression
+symptoms (p<0.05) among female participants receiving nurse-led SCM compared
+to those receiving standard care, although no significant difference in
+psychological well-being was reported between these groups [ 49 ]. Two additional trials
+reported no impact on mental health outcomes [ 44 , 54 ]. Two trials reported decreased
+problematic substance use [ 44 , 79 ], and
+four others reported no effect on this outcome [ 48 – 50 , 53 ].
+Findings were equivocal for quality of life outcomes. One trial compared health
+advocate SCM (with or without outreach registration) to usual care [ 45 , 46 ]. While some quality of life domains
+(e.g. social isolation, sleep) favored health advocate SCM, most effects on
+quality of life were not significant. Another trial reported no significant
+benefits of nurse-led SCM on life satisfaction scores [ 49 ].
+A single trial of health advocate SCM (with or without outreach registration)
+assessed health service utilization over three months [ 46 ]. Only five percent of all participants
+accessed the emergency department, with no significant difference between health
+advocacy or usual care groups [ 46 ]. Finally, five studies assessed the effectiveness of SCM on
+employment outcomes. One trial reported a significant improvement in employment
+over 24 months [ 44 ],
+whereas four trials showed no significant difference [ 48 , 50 , 51 , 54 ]. While one trial suggests that SCM
+improves access to income assistance (p<0.05) [ 51 ], no trials on SCM measured participant
+income as an outcome.
+Effects of intensive case management (ICM) Fourteen of sixteen trials on ICM assessed housing stability [ 64 , 65 , 67 , 68 , 71 – 80 ]. Overall, ICM showed small positive
+effects on housing outcomes, with seven of these fourteen studies [ 67 , 68 , 72 , 75 , 77 – 79 ] suggesting improvements in housing
+stability and the other seven reporting no effect ( Table 4 ). A pooled analysis shows that ICM
+significantly reduced the number of days spent homeless (SMD -0.22 95% CI -0.40
+to -0.03; See Fig 3 ) but had
+no significant effect on the number of days spent in stable housing compared to
+usual services (See Fig 4 ).
+These findings were unchanged regardless of whether random effects or fixed
+effects models were used in the analysis (See S7 File ).
+For time-limited interventions, ICM effectively housed more participants [ 72 ], reduced time spent in
+community housing, streets and shelters [ 77 ], and reduced the number of moves to
+different residences [ 71 ]. Three other trials reported that ICM was associated with no
+difference on the number of days in no-rent or privately rented accommodations,
+better or worse accommodations, stable housing or homelessness compared to
+standard case management or usual services [ 74 , 75 , 78 ].
+10.1371/journal.pone.0230896.g003 Fig 3 ICM versus usual care pooled analysis of number of days spent
+homeless (long term, 13+ months follow-up). 10.1371/journal.pone.0230896.g004 Fig 4 ICM versus usual care pooled analysis of number of days spent in
+stable housing (long term, 13+ months follow-up). ICM had mixed effects on mental health outcomes. Four trials reported significant
+reductions in psychological symptoms [ 66 , 75 , 77 , 80 ], whereas seven additional trials
+reported no effect [ 64 , 65 , 70 , 73 , 74 , 78 , 79 ]. In two trials, positive mental health
+outcomes were correlated with improvements in quality of life [ 66 , 77 ], with an additional trial reporting
+better quality of life despite no significant differences in mental health
+[ 70 ]. Only one trial
+reported no effect of ICM on quality of life [ 74 ].
+ICM had a significant benefit in reducing substance use in six of ten trials that
+measured this outcome [ 64 , 68 , 73 , 75 , 78 , 79 ]. ICM was associated with significant
+reductions in alcohol consumption [ 68 , 73 , 75 ] and reductions in problematic drug use
+[ 64 , 78 , 79 ].
+ICM had mixed effects on participants’ hospitalization outcomes. Two studies
+reported significant reductions in the number of emergency department visits but
+not in the use of other hospital services compared to usual care [ 76 , 79 ]; while three additional trials reported
+no significant reductions in the number of days in hospital compared to usual
+services or support groups [ 72 – 74 ].
+Finally, the effect of ICM on income and employment outcomes was small. In one
+study, ICM was associated with increased number of days paid from employment
+[ 75 ], which was not
+found in four other trials [ 64 , 68 , 74 , 78 ]. Three studies reported that ICM was
+significantly associated with increased attainment of public income assistance
+and reduced the incidence of unmet financial need [ 79 ] among single adults [ 68 , 76 ]. However, among youth [ 71 ], and families [ 80 ], ICM had no impact on
+income obtained from employment or public assistance.
+Effects of assertive community treatment (ACT) Assertive community treatment showed promising effects on housing stability in
+five of seven trials that measured this outcome [ 56 – 58 , 61 , 62 ]. Participants who received ACT reported
+significantly more days in community housing (p = 0.006) [ 58 ], and fewer days homeless (p<0.01)
+compared to usual or supportive services [ 61 ]. ACT marginally improved the number of
+days participants spent in stable housing compared to supportive services (p =
+0.032) [ 62 ], and usual
+services (p = 0.09) [ 57 ].
+However, two trials, one of which included a follow-up study, did not identify
+any housing-stability benefits of ACT over usual or supportive services [ 55 , 59 , 60 ].
+The effects of ACT on mental health outcomes were moderately positive. In one
+trial, ACT interventions were associated with fewer psychological symptoms in
+the areas of unusual activity levels (p<0.03) and thought disorder
+(p<0.02) compared to other supportive services [ 62 ]. Six other trials reported no
+additional effects of ACT on mental health compared to usual or supportive
+services [ 25 , 56 – 59 , 61 ]. ACT had equivocal effects on substance
+use outcomes. One trial showed that ACT participants with more severe alcohol
+use disorder experienced faster and earlier improvements in substance use
+compared to those with less severe alcohol-use disorder or those randomized to
+usual or supportive services (p<0.01) [ 25 ]; however, this difference was not
+significant by the end of three years. Four trials reported no additional
+benefits of ACT on substance use outcomes over usual or supportive services
+[ 57 , 59 , 61 , 62 ].
+Findings on quality of life outcomes were mixed. One trial reported that ACT was
+significantly associated with better overall quality of life over 18 months
+compared to those receiving SCM (p<0.05) [ 56 ]. Another trial found no significant
+improvements for ACT over usual care in objective quality of life measures over
+12 months, although ACT participants showed earlier improvement in life
+satisfaction rates compared to usual care at 6 months (p = 0.005) [ 58 ]. A third trial found no
+additional effects of ACT on quality of life outcomes compared to usual and
+supportive services [ 25 ].
+Findings on hospitalization outcomes were mostly positive. One trial reported
+that ACT participants spent approximately half as many days in the hospital
+compared to those receiving standard case management [ 56 ]. No significant differences between
+groups were found on time to discharge from hospital or length of
+hospitalization. Another trial showed that ACT was associated with significantly
+fewer days hospitalized over 3 years compared to other supportive services (MD
+19; p = 0.002) [ 25 ]. One
+trial reported fewer emergency department visits for ACT participants compared
+to usual care at 12 months (p = 0.009) [ 58 ], whereas another trial found no effect
+of ACT over usual care on either days in hospital or emergency department visits
+[ 55 ].
+Finally, three trials reported no effect of ACT on income outcomes over usual or
+supportive services [ 56 , 61 , 62 ]. No trials measured
+employment outcomes.
+Effects of critical time interventions (CTI) Critical time interventions showed a promising effect on housing stability in
+three of four trials [ 82 , 85 , 87 ]. In the US context, one
+trial found that CTI significantly reduced the number of days spent homeless
+during the final 18 weeks of the study, compared to usual services (OR 0.22; 95%
+CI 0.06 to 0.88) [ 82 ];
+however, this effect was not significant over the entire 18 months of the trial.
+Another trial reported a significant reduction in the average number of nights
+spent homeless among CTI participants compared to usual services over 18 months
+(Difference = -61; p = 0.003) [ 87 ]. Families that received CTI transitioned from shelter to housing
+more rapidly than the usual services group (MD -107.9 days; 95% CI -136.2,-79.6)
+[ 86 ]. Conversely, one
+European trial found that CTI did not have any impact on days rehoused after a
+9-month period compared to usual services [ 81 ].
+CTI showed little effect on mental health outcomes. However, a trial conducted
+among abused women reported significantly fewer symptoms of PTSD during
+follow-up (Adjusted MD -7.27, 95% CI -14.31 to -0.22, p = 0.04), but no effect
+on symptoms of depression or psychological distress [ 84 ]. In another RCT [ 85 ], families who received CTI showed mixed
+results on the frequency of children’s internalizing and externalizing
+problems.
+Two RCTs examined quality of life outcomes and found no significant impact of CTI
+over usual services at 9 months [ 81 , 84 ]. As
+well, when looking at substance-use outcomes, CTI was associated with
+non-significant reductions in cannabis and alcohol use [ 81 ].
+One study found that CTI was significantly associated with reduced odds of
+rehospitalization (OR 0.11, 95% CI 0.01 to 0.96, p = 0.07) and total number of
+nights hospitalized (p<0.05) in the final 18 weeks of the trial [ 83 ]. Another trial suggests
+that CTI reduced the total number of nights of hospitalization over 18 months
+but not the average length of hospital stays [ 88 ].
+Finally, one trial showed no significant effect of CTI on income-related outcomes
+compared to usual services [ 89 ]. No trials reported on employment-related outcomes.
+Cost and cost-effectiveness of the interventions Evidence on cost and cost-effectiveness was mixed. The total cost incurred by SCM
+clients was higher than those receiving usual or standard care [ 50 , 79 ], but lower compared to a US clinical
+case management program that included housing vouchers and ICM [ 98 ]. Cost-effectiveness
+studies showed that when the benefits gained and costs borne to all payers were
+considered (also known as a societal perspective) SCM was not cost-effective
+compared to ACT for persons with serious mental disorders or those with a
+concurrent substance-use disorder as it was both more expensive [ 56 , 94 ], and was associated with more days in
+unstable housing [ 56 ],
+and poorer quality of life [ 94 ]. SCM was slightly more costly than ACT because SCM clients had
+nominally more frequent visits to outpatient health care and other community
+services, more arrest episodes, and incurred higher family time costs compared
+to ACT clients. For ICM, Stergiopoulos and colleagues showed that the cost of
+supporting housing with ICM could be partially offset by reductions in the use
+of emergency shelters and in single-room occupancies [ 97 ]. ICM was reported as likely to be
+cost-effective when all costs and benefits to society are considered [ 98 ]. A pre-post study found
+that when ICM was provided to high users of emergency departments there was a
+net hospital cost savings of USD$132,726 [ 92 ]. For ACT, the included studies that
+focused on individuals with severe mental illness or dual disorders consistently
+showed that ACT interventions were associated with lower costs and improved
+health outcomes compared to the outcomes of usual care [ 56 , 59 , 94 – 96 ]. We identified only one study on the
+cost-effectiveness of CTI which reported that the CTI provided to men with
+severe mental illness had comparable costs (US$52,574 vs. US$51,749) despite
+fewer nights spent homeless (508 vs. 450 nights) compared to usual services
+[ 89 ].
+Discussion We conducted a comprehensive systematic review of four case management interventions
+for people who are homeless or vulnerably housed. The interventions were complex,
+and the study populations, intervention intensity, and outcomes were heterogeneous,
+making it challenging to generalize our findings. However, we can make some
+overarching statements to guide policy and practice. In general, standard case
+management showed little to no benefit across any of our outcome domains and in one
+trial [ 49 ], implementing SCM
+was associated with elevated levels of hostility and depression. We found that
+interventions of greater intensity, such as intensive case management, assertive
+community treatment and critical time intervention, did improve several outcomes of
+interest, most notably housing stability. ICM was found to reduce substance use in
+several studies and CTI to marginally reduce psychological symptoms; however, there
+was little impact on the quality of life across studies. ICM was associated with a
+reduced number of emergency department visits but not of hospital admissions, and
+both ACT and CTI, overall, showed significant reductions in both the number of
+emergency department visits and days in hospital. Only ICM was found to consistently
+improve income outcomes, with significant improvements in access to financial
+assistance and reductions in unmet financial needs. Case management interventions,
+especially ACT, were cost-effective for persons with complex needs, including those
+with severe mental illness or dual disorders, if the overall costs and benefits to
+patients, health care systems and society as a whole were considered.
+Our findings suggest that the effectiveness of case management interventions is
+related both to the intensity of models as well as to their ability to address and
+advocate for the comprehensive needs of specific groups such as those with severe
+mental health conditions or those experiencing transitions in care. Findings
+suggested that the case management needed to be continuous, community-based and
+intensive so as to maintain and/or increase the gains achieved. For example, in
+Sosin and colleague’s trial [ 51 ], improvements in housing stability were attributed to the case
+worker’s advocacy for access to income benefits and help with locating housing. Not
+surprisingly, higher intensity case management models, which generally have lower
+caseloads, also include the provision of services above and beyond care coordination
+and incorporate outreach services, especially in the case of ICM, which is shown to
+have greater effects compared to other less intensive case-management models. This
+may be due to their capacity to address some of the underlying social determinants
+of health that contribute to the cycle of homelessness, such as poverty, which
+requires longitudinal engagement with case managers. A parallel review also suggests
+that case management can have significant impacts when provided in conjunction with
+permanent housing [ 35 ]. Given
+the heterogeneity of these complex interventions, we cannot be certain of the
+precise mechanisms and key features that promote effectiveness. However, it is
+likely that a dose-response relationship may explain some of our findings, and that
+as higher intensity interventions such as ACT and ICM are more precisely defined,
+there may be greater attention to fidelity in their implementation [ 19 ]. Alternatively, it is
+possible that lower intensity models work predominantly for homeless populations
+with less acute issues (or for those that are precariously housed), and this would
+suggest the importance of matching the intensity of the intervention with the acuity
+of need. Some indicators from a parallel qualitative review point to a
+case-manager-client relationship built on trust and continuity of care and
+integrated services as being key factors in the success of case management programs
+[ 99 ]. Many programs
+include peers and people with lived experience acting in case management roles
+[ 100 – 103 ], and while this has been
+identified as important to those confronted with homelessness [ 104 – 106 ], such approaches require formal
+evaluation.
+These findings contribute to an expanding evidence base on effective interventions
+for people who are homeless or vulnerably housed. Our review builds on a previous
+review by De Vet [ 15 ] as it
+incorporates evidence up to 2019 and also considers a broader definition of standard
+case management that includes health advocates, as well as residential and
+disease-specific case management. Our study includes studies from the US, Europe and
+Australia, allowing us to make inferences about more diverse health and social
+systems which are important to address homelessness as an international public
+health priority [ 15 ].
+Overall, our findings are congruent with De Vet’s conclusions, but with some
+important differences. Notably, we saw fewer significant results in access to
+housing among recipients of CTI, likely arising from differences in healthcare and
+social contexts. The intensity of “usual care” in the Netherlands was high compared
+to the US context, where follow-up services were not typically available.
+Additionally, the Netherlands has an extensive social housing system; thus, reducing
+the short-term risk of recurrent homelessness. More recent CTI studies also suggest
+lower rates of rehospitalization than was found in our review. Finally, our broader
+inclusion criteria of SCM interventions allowed us to identify potential harms, such
+as higher levels of hostility and depression among case management recipients.
+Overall, our findings are in agreement with other earlier reviews, including those
+of Coldwell and Bender [ 23 ],
+Hwang [ 107 ], Vanderplasschen
+[ 28 ], and Mueser [ 108 ]. We also incorporated
+cost-effectiveness, and while the results were mixed, they provide important
+evidence on the potential economic impact of case management interventions on health
+care systems and society.
+In the studies reviewed, the quantitative synthesis was complicated by the
+heterogeneity that exists across interventions. In addition, there is a lack of
+clarity in and overlap of the nomenclature used to define different case management
+interventions [ 12 ].
+Furthermore, few studies provided the level of intervention detail required to make
+concrete recommendations with respect to the types of activities conducted, the
+roles and responsibilities of the case managers, and the postulated mechanisms of
+success that could inform future practice. Such lack of detail can further
+contribute to challenges in implementation and fidelity across interventions.
+To our knowledge, this is the first systematic review to consider a broad range of
+outcomes and cost-effectiveness of these types of case-management interventions. We
+used high quality methods to synthesize randomized controlled trials and controlled
+trials, conducted meta-analyses, and used GRADE methods to assess the certainty of
+the effects. We integrated persons with lived experience of homelessness into our
+research team to ensure the relevancy of this work. Limitations include
+heterogeneous interventions and populations that precluded quantitative synthesis;
+thus, the studies were too few to allow us to conduct meta-analyses for the many
+included outcomes. As the majority of studies were conducted in the United States,
+our findings may not be generalizable to contexts with substantially different
+health and social systems. Poorly defined control or “usual care” groups further
+complicates the relative effectiveness of one case management model over another—a
+particular issue for SCM models. A weakness inherent to a secondary analysis is the
+potential for bias with respect to the reporting of results for multiple outcomes.
+Further, we restricted our inclusion criteria to rigorous experimental study
+designs, thereby, excluding observational studies that may have provided additional
+evidence in this area. This review is quantitative in nature and we may have
+excluded important findings related to case management found in the qualitative
+literature.
+In summary, helping people who are homeless and vulnerably housed navigate and access
+a complex system of services yields positive outcomes in areas such as housing
+stability and mental health. Case management interventions may be most effective
+when they target specific complex populations or times of transition with more
+effective interventions that involve low caseloads, greater intensity and continuity
+of contact time, and direct service provision in addition to mere coordination. More
+research is needed on SCM models and their ideal target populations. Further, there
+is a need to more formally evaluate how to best integrate case management into
+delivery models such as chronic care management programs [ 109 – 111 ], and patient medical home approaches
+[ 112 , 113 ]. We postulate that further
+work is required to understand how to embed such interventions in the primary care
+setting, given the appeal of its continuous and comprehensive nature [ 114 , 115 ]. We suggest future research should apply a
+realist lens in order to further understand the critical elements and implementation
+strategies of case management interventions [ 116 , 117 ].
+Supporting information S1 File PRISMA checklist. (PDF)
+Click here for additional data file.
+S2 File Search strategy. (PDF)
+Click here for additional data file.
+S3 File List of excluded studies. (PDF)
+Click here for additional data file.
+S4 File Characteristics of included studies. (PDF)
+Click here for additional data file.
+S5 File Risk of bias summary. (PDF)
+Click here for additional data file.
+S6 File GRADE evidence profiles. (PDF)
+Click here for additional data file.
+S7 File Fixed and random effects analyses. (PDF)
+Click here for additional data file.
+The authors would like to acknowledge Doug Salzwedel for the systematic search, as
+well as the following working group members for technical support in screening, data
+extraction and/or critical appraisal: Tasnim Abdalla, Michaela Beder, German
+Chique-Alfonzo, Wahab Daghmach, Priya Gaba, Akalewold Gebremeskel, Samantha Green,
+Gilbert Habonimana, Nicole Kozloff, Victoire Kpade, Pierre Lauzon, Andrew Mclellan,
+Van Nguyen, Anita Palepu, Nicole Pinto, Asia Rehman, Kim Van Herk, Jean Wang,
+Mackenzie Wilson, Vanessa Ymele Leki. Finally, the authors would like to thank
+Glenna Jenkins for her editorial input.
+References 1 Hwang SW , Bugeja AL . Barriers to appropriate diabetes management among
+homeless people in Toronto . CMAj .
+2000 ; 163 ( 2 ): 161 – 5 .
+10934977 PMC80205 2 Fazel S , Geddes JR , Kushel M . The health of homeless people in high-income countries:
+descriptive epidemiology, health consequences, and clinical and policy
+recommendations . Lancet .
+2014 ; 384 ( 9953 ): 1529 – 40 .
+10.1016/S0140-6736(14)61132-6
+25390578 PMC4520328 3 Aubry T , Klodawsky F , Coulombe D . Comparing the housing trajectories of different classes
+within a diverse homeless population.
+Am J Community Psychol.
+2012
+3 ; 49 ( 1–2 ): 142 – 55 .
+10.1007/s10464-011-9444-z
+21557093 4 Grinman MN , Chiu S , Redelmeier DA , Levinson W , Kiss A , Tolomiczenko G , et al
+Drug problems among homeless
+individuals in Toronto, Canada: prevalence, drugs of choice, and relation to
+health status.
+BMC Public Health .
+2010 ; 10 ( 1 ): 94 . 20181248 10.1186/1471-2458-10-94 PMC2841106 5 Kennedy MC , Karamouzian M , Kerr T . Public health and public order outcomes associated with
+supervised drug consumption facilities: a systematic review .
+Curr HIV/AIDS Rep .
+2017 ; 14 ( 5 ): 161 – 83 .
+10.1007/s11904-017-0363-y
+28875422 6 Kerr T , Marshall BDL , Miller C , Shannon K , Zhang R , Montaner JSG , et al
+Injection drug use among
+street-involved youth in a Canadian setting.
+BMC Public Health.
+2009 ; 9 ( 1 ): 171 . 19493353 10.1186/1471-2458-9-171 PMC2697990 7 Torchallaa I , Strehlaub V , Lia K , Krausz M . Substance Use and Predictors of Substance Dependence in
+Homeless Women . Drug Alcohol Depend .
+2011 ; 118 ( 2–3 ): 173 – 9 .
+10.1016/j.drugalcdep.2011.03.016
+21498010 8 Nordentoft M , Wandall-Holm N . 10 year follow up study of mortality among users of
+hostels for homeless people in Copenhagen .
+BMJ [Internet]. 2003
+7
+10 ; 327 ( 7406 ): 81
+Available from: http://www.bmj.com/content/327/7406/81.abstract
+10.1136/bmj.327.7406.81
+12855527 PMC164916 9 Rosenheck R , Lam JA . Client and site characteristics as barriers to service
+use by homeless persons with serious mental illness.
+Psychiatr Serv.
+1997 ; 48 ( 3 ): 387 – 9 .
+10.1176/ps.48.3.387
+9057243 10 Milloy M-J , Kerr T , Bangsberg DR , Buxton J , Parashar S , Guillemi S , et al
+Homelessness as a structural barrier
+to effective antiretroviral therapy among HIV-seropositive illicit drug
+users in a Canadian setting . AIDS Patient Care
+STDS .
+2012 ; 26 ( 1 ): 60 – 7 .
+10.1089/apc.2011.0169
+22107040 PMC3242618 11 Palepu A , Milloy MJ , Kerr T , Zhang R , Wood E . Homelessness and adherence to antiretroviral therapy
+among a cohort of HIV-infected injection drug users.
+J Urban Heal .
+2011 ; 88 ( 3 ): 545 – 55 . 10.1007/s11524-011-9562-9 PMC3126933 21409604 12 Lukersmith S , Millington M , Salvador-Carulla L . What Is Case Management? A Scoping and Mapping
+Review.
+Int J Integr Care.
+2016
+10 ; 16 ( 4 ): 2
+10.5334/ijic.2477
+28413368 PMC5388031 13 Hwang SW , Burns T . Health interventions for people who are
+homeless . Lancet (London, England).
+2014
+10 ; 384 ( 9953 ): 1541 – 7 . 10.1016/S0140-6736(14)61133-8 25390579 14 Frankish CJ , Hwang SW , Quantz D . Homelessness and health in Canada .
+Can J public Heal .
+2005 ; 96 ( 2 ): S23 – 9 . 10.1007/BF03403700 PMC6976130 16078553 15 de Vet R , van Luijtelaar MJA , Brilleslijper-Kater SN , Vanderplasschen W , Beijersbergen MD , Wolf JRLM . Effectiveness of case management for homeless persons: a
+systematic review.
+Am J Public Health.
+2013
+10 ; 103 ( 10 ): e13 – 26 .
+10.2105/AJPH.2013.301491
+23947309 PMC3780754 16 Schutt R , Siegfriedt J , Fawcett J . Who cares? Case management and patient navigation in a
+public health programme. Vol. 1 ,
+International Journal of Care and Caring .
+2017
+367 – 387 p. 17 Morse G . A review of case management for people who are homeless:
+Implications for practice, policy, and research . In:
+Practical Lessons: The 1998 National Symposium on
+Homelessness Research
+Washington, DC , US Department of
+Housing and Urban Development
+1999 . 18 Douglas Mental Health
+University Institute. Intensive Case Management (ICM) [Internet]. 2018 [cited
+2019 Dec 29]. Available from: http://www.douglas.qc.ca/page/intensive-case-management-icm 19 Dieterich M , Irving CB , Park B , Marshall M . Intensive case management for severe mental
+illness.
+Cochrane database Syst Rev.
+2010
+10 ;( 10 ): CD007906 . 10.1002/14651858.CD007906.pub2 PMC4233116 20927766 20 Douglas Mental Health
+University Institute. Suivi Intensif (SI) [Internet]. 2017 [cited 2019 Dec 29].
+Available from: http://www.douglas.qc.ca/page/suivi-intensif-en-equipe 21 The Toronto Mental
+Health and Addictions Access Point. Frequently Asked Questions [Internet]. 2019
+[cited 2019 Dec 29]. Available from: http://theaccesspoint.ca/frequently-asked-questions/ 22 The Homeless Hub.
+Assertive Community Treatment (ACT) Teams [Internet]. The Homeless Hub Website.
+2019 [cited 2019 Dec 29]. Available from: https://www.homelesshub.ca/solutions/supports/assertive-community-treatment-act-teams 23 Coldwell CM , Bender WS . The Effectiveness of Assertive Community Treatment for
+Homeless Populations With Severe Mental Illness: A
+Meta-Analysis.
+Am J Psychiatry.
+2007
+3 ; 164 ( 3 ): 393 – 9 .
+10.1176/ajp.2007.164.3.393
+17329462 24 The Homeless Hub.
+Intensive Case Management (ICM) Teams [Internet]. The Homeless Hub Webiste. 2019
+[cited 2019 Dec 29]. Available from: https://www.homelesshub.ca/solutions/supports/intensive-case-management-icm-teams 25 Essock SM , Mueser KT , Drake RE , Covell NH , McHugo GJ , Frisman LK , et al
+Comparison of ACT and standard case
+management for delivering integrated treatment for co-occurring
+disorders.
+Psychiatr Serv.
+2006 ; 57 ( 2 ): 185 – 96 .
+10.1176/appi.ps.57.2.185
+16452695 26 Guarino K . Step-by Step: A Comprehensive Approach to Case
+Management.
+Homeless Hub.
+2011 ; 27 Stokes J , Panagioti M , Alam R , Checkland K , Cheraghi-Sohi S , Bower P . Effectiveness of Case Management for “At Risk” Patients
+in Primary Care: A Systematic Review and Meta-Analysis.
+PLoS One.
+2015 ; 10 ( 7 ): e0132340
+10.1371/journal.pone.0132340
+26186598 PMC4505905 28 Vanderplasschen W , Wolf J , Rapp RC , Broekaert E . Effectiveness of different models of case management for
+substance-abusing populations.
+J Psychoactive Drugs .
+2007 ; 39 ( 1 ): 81 – 95 .
+10.1080/02791072.2007.10399867
+17523588 PMC1986794 29 Pottie K , Mathew CM , Mendonca O , Magwood O , Saad A , Abdalla T , et al
+PROTOCOL: A comprehensive review of
+prioritized interventions to improve the health and wellbeing of persons
+with lived experience of homelessness . Campbell Syst
+Rev [Internet]. 2019
+9
+1 ; 15 ( 3 ): e1048
+Available from: 10.1002/cl2.1048 PMC8356496 37133294 30 Primack RB , Cigliano JA , Parsons ECM , Chen C-S , Doloff JC , Waxman DJ , et al
+Editorial: Coauthors gone bad; how
+to avoid publishing conflict and a proposed agreement for co-author
+teams . Biol Conserv .
+2014 ; 176 : 277 – 80 . 31 Campbell M , McKenzie JE , Sowden A , Katikireddi SV , Brennan SE , Ellis S , et al
+Synthesis without meta-analysis
+(SWiM) in systematic reviews: reporting guideline.
+bmj . 2020 ; 368 . 10.1136/bmj.l6890 PMC7190266 31948937 32 Shoemaker E , Kendall C , Mathew C , Crispo S , Welch V , Andermann A , et al
+Establishing need and population
+priorities to improve the health of homeless and vulnerably housed women,
+youth, and men: a Delphi consensus study.
+submitted . 10.1371/journal.pone.0231758 PMC7162520 32298388 33 Kendall CE , Shoemaker ES , Crowe L , Rosenes R , Lundrigan P , Bibeau C , et al
+Engagement of people with lived
+experience in primary care research: Living with HIV Innovation Team
+Community Scholar Program.
+Can Fam Physician.
+2017 ; 63 ( 9 ): 730 – 1 .
+28904041 PMC5597020 34 Ouzzani M , Hammady H , Fedorowicz Z , Elmagarmid A . Rayyan-a web and mobile app for systematic
+reviews.
+Syst Rev.
+2016
+12 ; 5 ( 1 ): 210
+10.1186/s13643-016-0384-4
+27919275 PMC5139140 35 Aubry T , Bloch G , Brcic V , Saad A , Magwood A , Abdalla T , et al
+The Effectiveness of Permanent
+Supportive Housing and Income Assistance Interventions for Homeless,
+Vulnearbly Housed, and Persons with Lived Experience of Homelessness: A
+Systematic Review and Meta-Analysis.
+Submitted . 10.1016/S2468-2667(20)30055-4 32504587 36 Kanter J . Clinical case management: definition, principles,
+components.
+Hosp Community Psychiatry.
+1989
+4 ; 40 ( 4 ): 361 – 8 .
+10.1176/ps.40.4.361
+2714749 37 Silberman School of
+Social Work. Understanding the Critical Time Intervention Model | CTI
+Implementation FAQs. 2017. 38 Cochrane. What study
+designs should be included in an EPOC review and what should they be called?
+[Internet]. 2015. Available from: https://epoc.cochrane.org/sites/epoc.cochrane.org/files/public/uploads/EPOC
+Study Designs About.pdf 39 The World Bank. World
+Bank Country and Lending Groups [Internet]. 2019. Available from: https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups 40 Higgins JPT , Sterne JAC , Savović J , Page MJ , Hróbjartsson A . A revised tool for assessing risk of bias in randomized
+trials In: Chandler J , McKenzie J , Boutron I , Welch V (editors). Cochrane Methods. Cochrane Database Syst Rev .
+2016 ; 10 . 41 Collaboration NCCTC.
+Review manager (RevMan)[computer program] Version 53. Copenhagen Nord Cochrane
+Centre, Cochrane Collab. 2014; 42 Popay J , Roberts H , Sowden A , Petticrew M , Arai L , Rodgers M , et al
+Guidance on the conduct of narrative
+synthesis in systematic reviews.
+A Prod from ESRC methods Program Version.
+2006 ; 1 : b92 . 43 Guyatt GH , Oxman AD , Vist GE , Kunz R , Falck-Ytter Y , Alonso-Coello P , et al
+GRADE: an emerging consensus on
+rating quality of evidence and strength of recommendations .
+BMJ . 2008
+4 ; 336 ( 7650 ): 924
+LP – 926 . 18436948 10.1136/bmj.39489.470347.AD PMC2335261 44 Conrad KJ , Hultman CI , Pope AR , Lyons JS , Baxter WC , Daghestani AN , et al
+Case managed residential care for
+homeless addicted veterans.
+Results of a true experiment. Med Care . 1998
+1 ; 36 ( 1 ): 40 – 53 .
+10.1097/00005650-199801000-00006
+9431330 45 Graham-Jones S , Reilly S , Gaulton E . Tackling the needs of the homeless: a controlled trial
+of health advocacy.
+Health Soc Care Community.
+2004
+5 ; 12 ( 3 ): 221 – 32 .
+10.1111/j.1365-2524.2004.00491.x
+19777712 46 Reilly S , Graham‐Jones S , Gaulton E , Davidson E . Can a health advocate for homeless families reduce
+workload for the primary healthcare team? A controlled
+trial.
+Health Soc Care Community .
+2004 ; 12 ( 1 ): 63 – 74 .
+10.1111/j.1365-2524.2004.00469.x
+14675366 47 Hurlburt MS , Wood PA , Hough RL . Providing independent housing for the homeless mentally
+ill: A novel approach to evaluating long-term longitudinal housing
+patterns . J Community Psychol [Internet].
+1996
+7
+1 ; 24 ( 3 ): 291 – 310 .
+Available from:
+(SICI)1520-6629(199607)24:3%3C291::AID-JCOP8%3E3.0.CO 48 Lapham SC , Hall M , Skipper BJ . Homelessness and substance use among alcohol abusers
+following participation in project H&ART . J
+Addict Dis .
+1995 ; 14 ( 4 ): 41 – 55 .
+10.1300/j069v14n04_03
+8929932 49 Nyamathi A , Flaskerud JH , Leake B , Dixon EL , Lu A . Evaluating the impact of peer, nurse case-managed, and
+standard HIV risk-reduction programs on psychosocial and health-promoting
+behavioral outcomes among homeless women.
+Res Nurs Health.
+2001
+10 ; 24 ( 5 ): 410 – 22 .
+10.1002/nur.1041
+11746070 50 Nyamathi AM , Zhang S , Salem BE , Farabee D , Hall B , Marlow E , et al
+A randomized clinical trial of
+tailored interventions for health promotion and recidivism reduction among
+homeless parolees: outcomes and cost analysis.
+J Exp Criminol .
+2016 ; 12 ( 1 ): 49 – 74 .
+10.1007/s11292-015-9236-9
+27217822 PMC4874341 51 Sosin M , Bruni M , Reidy M . Paths and impacts in the progressive independence model:
+a homelessness and substance abuse intervention in Chicago .
+J Addict Dis .
+1995 ; 14 ( 4 ): 1 – 20 .
+10.1300/j069v14n04_01
+8929930 52 Towe VL , Wiewel EW , Zhong Y , Linnemayr S , Johnson R , Rojas J . A Randomized Controlled Trial of a Rapid Re-housing
+Intervention for Homeless Persons Living with HIV/AIDS: Impact on Housing
+and HIV Medical Outcomes . AIDS Behav .
+2019 ; 1 – 11 . 10.1007/s10461-019-02461-4 30879212 53 Upshur C , Weinreb L , Bharel M , Reed G , Frisard C . A randomized control trial of a chronic care
+intervention for homeless women with alcohol use problems .
+J Subst Abuse Treat . 2015
+4 ; 51 : 19 – 29 .
+10.1016/j.jsat.2014.11.001
+25488504 PMC4346474 54 Weinreb L , Upshur CC , Fletcher-Blake D , Reed G , Frisard C . Managing Depression Among Homeless Mothers: Pilot
+Testing an Adapted Collaborative Care Intervention.
+Prim care companion CNS Disord.
+2016
+4 ; 18 ( 2 ): 10.4088/PCC.15m01907
+27486545 PMC4956430 55 Clarke GN , Herinckx HA , Kinney RF , Paulson RI , Cutler DL , Lewis K , et al
+Psychiatric hospitalizations,
+arrests, emergency room visits, and homelessness of clients with serious and
+persistent mental illness: findings from a randomized trial of two ACT
+programs vs. usual care.
+Ment Health Serv Res .
+2000 ; 2 ( 3 ): 155 – 64 .
+10.1023/a:1010141826867
+11256724 56 Essock SM , Frisman LK , Kontos NJ . Cost‐effectiveness of assertive community treatment
+teams.
+Am J Orthopsychiatry .
+1998 ; 68 ( 2 ): 179 – 90 .
+10.1037/h0080328
+9589757 57 Fletcher TD , Cunningham JL , Calsyn RJ , Morse GA , Klinkenberg WD . Evaluation of treatment programs for dual disorder
+individuals: Modeling longitudinal and mediation effects.
+Adm Policy Ment Heal Ment Heal Serv Res .
+2008 ; 35 ( 4 ): 319 – 36 . 10.1007/s10488-008-0170-2 18506618 58 Lehman AF , Dixon LB , Kernan E , DeForge BR , Postrado LT . A randomized trial of assertive community treatment for
+homeless persons with severe mental illness.
+Arch Gen Psychiatry .
+1997 ; 54 ( 11 ): 1038 – 43 .
+10.1001/archpsyc.1997.01830230076011
+9366661 59 Morse GA , Calsyn RJ , Klinkenberg WD , Helminiak TW , Wolff N , Drake RE , et al
+Treating homeless clients with
+severe mental illness and substance use disorders: costs and
+outcomes.
+Community Ment Health J .
+2006 ; 42 ( 4 ): 377 – 404 .
+10.1007/s10597-006-9050-y
+16897413 60 Morse GA , Calsyn RJ , Klinkenberg WD , Cunningham J , Lemming MR . Integrated treatment for homeless clients with dual
+disorders: a quasi-experimental evaluation.
+J Dual Diagn .
+2008 ; 4 ( 3 ): 219 – 37 . 61 Morse GA , Calsyn RJ , Allen G , Tempethoff B , Smith R . Experimental comparison of the effects of three
+treatment programs for homeless mentally ill people.
+Psychiatr Serv .
+1992 ; 43 ( 10 ): 1005 – 10 . 10.1176/ps.43.10.1005 1398563 62 Morse GA , Calsyn RJ , Klinkenberg WD , Trusty ML , Gerber F , Smith R , et al
+An experimental comparison of three
+types of case management for homeless mentally ill persons.
+Psychiatr Serv.
+1997
+4 ; 48 ( 4 ): 497 – 503 .
+10.1176/ps.48.4.497
+9090733 63 Kenny DA , Calsyn RJ , Morse GA , Klinkenberg WD , Winter JP , Trusty ML . Evaluation of treatment programs for persons with severe
+mental illness: Moderator and mediator effects.
+Eval Rev.
+2004 ; 28 ( 4 ): 294 – 324 .
+10.1177/0193841X04264701
+15245622 64 Braucht GN , Reichardt CS , Geissler LJ , Bormann CA , Kwiatkowski CF , Kirby MW Jr . Effective services for homeless substance
+abusers.
+J Addict Dis .
+1996 ; 14 ( 4 ): 87 – 109 . 10.1300/j069v14n04_06 8929935 65 Burnam MA , Morton SC , McGlynn EA , Petersen LP , Stecher BM , Hayes C , et al
+An experimental evaluation of
+residential and nonresidential treatment for dually diagnosed homeless
+adults.
+J Addict Dis .
+1996 ; 14 ( 4 ): 111 – 34 . 10.1300/j069v14n04_07 8929936 66 Cauce AM , Morgan CJ , Wagner V , Moore E , Sy J , Weeden K , et al
+Effectiveness of intensive case
+management for homeless adolescents: Results of a 3-month
+follow-up.
+J Emot Behav Disord.
+1994 ; 67 Clark C , Rich AR . Outcomes of homeless adults with mental illness in a
+housing program and in case management only.
+Psychiatr Serv.
+2003 ; 54 ( 1 ): 78 – 83 .
+10.1176/appi.ps.54.1.78
+12509671 68 Cox GB , Walker RD , Freng SA , Short BA , Meijer L , Gilchrist L . Outcome of a controlled trial of the effectiveness of
+intensive case management for chronic public inebriates .
+J Stud Alcohol .
+1998 ; 59 ( 5 ): 523 – 32 .
+10.15288/jsa.1998.59.523
+9718104 69 Cox GB , Meijer L , Carr DI , Freng SA . System Alliance and Support (SAS) A Program of Intensive
+Case Management: Seattle . Alcohol Treat Q .
+1993 ; 10 ( 3–4 ): 125 – 38 . 70 Felton CJ , Stastny P , Shern DL , Blanch A , Donahue SA , Knight E , et al
+Consumers as peer specialists on
+intensive case management teams: impact on client outcomes.
+Psychiatr Serv.
+1995 ; 10.1176/ps.46.10.1037 8829785 71 Grace M , Gill PR . Improving outcomes for unemployed and homeless young
+people: Findings of the YP4 clinical controlled trial of joined up case
+management.
+Aust Soc Work.
+2014 ; 67 ( 3 ): 419 – 37 . 72 Korr WS , Joseph A . Housing the homeless mentally ill: Findings from
+Chicago . J Soc Serv Res .
+1996 ; 21 ( 1 ): 53 – 68 . 73 Malte CA , Cox K , Saxon AJ . Providing intensive addiction/housing case management to
+homeless veterans enrolled in addictions treatment: A randomized controlled
+trial.
+Psychol Addict Behav .
+2017 ; 31 ( 3 ): 231
+10.1037/adb0000273
+28481614 74 Marshall M , Lockwood A , Gath D . Social services case-management for long-term mental
+disorders: a randomised controlled trial .
+Lancet .
+1995 ; 345 ( 8947 ): 409 – 12 .
+10.1016/s0140-6736(95)90399-2
+7853949 75 Orwin RG , Sonnefeld LJ , Garrison-Mogren R , Smith NG . Pitfalls in evaluating the effectiveness of case
+management programs for homeless persons: lessons from the NIAAA Community
+Demonstration Program.
+Eval Rev .
+1994 ; 18 ( 2 ): 153 – 207 . 76 Rosenblum A , Nuttbrock L , McQuistion H , Magura S , Joseph H . Medical outreach to homeless substance users in New York
+City: preliminary results.
+Subst Use Misuse.
+2002 ; 37 ( 8–10 ): 1269 – 73 .
+10.1081/ja-120004184
+12180566 77 Shern DL , Tsemberis S , Anthony W , Lovell AM , Richmond L , Felton CJ , et al
+Serving street-dwelling individuals
+with psychiatric disabilities: outcomes of a psychiatric rehabilitation
+clinical trial.
+Am J Public Health .
+2000 ; 90 ( 12 ): 1873
+10.2105/ajph.90.12.1873
+11111259 PMC1446423 78 Stahler G , Shipley TE Jr , Bartelt D , Ducette J , Shandler IW . Evaluating alternative treatments for homeless
+substance-abusing men: outcomes and predictors of success.
+J Addict Dis .
+1996 ; 14 ( 4 ): 151 – 67 . 10.1300/j069v14n04_09 8929938 79 Shumway M , Boccellari A , O’Brien K , Okin RL . Cost-effectiveness of clinical case management for ED
+frequent users: results of a randomized trial.
+Am J Emerg Med.
+2008
+2 ; 26 ( 2 ): 155 – 64 .
+10.1016/j.ajem.2007.04.021
+18272094 80 Toro PA , Rabideau JMP , Bellavia CW , Daeschler C V , Wall DD , Thomas DM , et al
+Evaluating an intervention for
+homeless persons: results of a field experiment.
+J Consult Clin Psychol .
+1997 ; 65 ( 3 ): 476
+10.1037//0022-006x.65.3.476
+9170771 81 de Vet R , Beijersbergen MD , Jonker IE , Lako DAM , van Hemert AM , Herman DB , et al
+Critical Time Intervention for
+Homeless People Making the Transition to Community Living: A Randomized
+Controlled Trial.
+Am J Community Psychol.
+2017
+9 ; 60 ( 1–2 ): 175 – 86 .
+10.1002/ajcp.12150
+28872196 PMC5639358 82 Herman DB , Conover S , Gorroochurn P , Hinterland K , Hoepner L , Susser ES . Randomized trial of critical time intervention to
+prevent homelessness after hospital discharge.
+Psychiatr Serv.
+2011
+7 ; 62 ( 7 ): 713 – 9 .
+10.1176/ps.62.7.pss6207_0713
+21724782 PMC3132151 83 Tomita A , Herman DB . The impact of critical time intervention in reducing
+psychiatric rehospitalization after hospital discharge.
+Psychiatr Serv.
+2012
+9 ; 63 ( 9 ): 935 – 7 .
+10.1176/appi.ps.201100468
+22810163 PMC3989527 84 Lako DAM , Beijersbergen MD , Jonker IE , de Vet R , Herman DB , van Hemert AM , et al
+The effectiveness of critical time
+intervention for abused women leaving women’s shelters: a randomized
+controlled trial.
+Int J Public Health .
+2018 ; 63 ( 4 ): 513 – 23 .
+10.1007/s00038-017-1067-1
+29299613 PMC5938300 85 Shinn M , Samuels J , Fischer SN , Thompkins A , Fowler PJ . Longitudinal Impact of a Family Critical Time
+Intervention on Children in High-Risk Families Experiencing Homelessness: A
+Randomized Trial.
+Am J Community Psychol.
+2015
+12 ; 56 ( 3–4 ): 205 – 16 .
+10.1007/s10464-015-9742-y
+26238278 PMC5126971 86 Samuels J , Fowler PJ , Ault-Brutus A , Tang D-I , Marcal K . Time-Limited Case Management for Homeless Mothers With
+Mental Health Problems: Effects on Maternal Mental Health.
+J Soc Social Work Res.
+2015
+12 ; 6 ( 4 ): 515 – 39 . 87 Susser E , Valencia E , Conover S , Felix A , Tsai W-Y , Wyatt RJ . Preventing recurrent homelessness among mentally ill
+men: a”critical time” intervention after discharge from a
+shelter.
+Am J Public Health .
+1997 ; 87 ( 2 ): 256 – 62 .
+10.2105/ajph.87.2.256
+9103106 PMC1380803 88 Jones K , Colson P , Valencia E , Susser E . A preliminary cost effectiveness analysis of an
+intervention to reduce homelessness among the mentally ill.
+Psychiatr Q .
+1994 ; 65 ( 4 ): 243 – 56 .
+10.1007/bf02354302
+7831412 89 Jones K , Colson PW , Holter MC , Lin S , Valencia E , Susser E , et al
+Cost-effectiveness of critical time
+intervention to reduce homelessness among persons with mental
+illness.
+Psychiatr Serv.
+2003 ; 54 ( 6 ): 884 – 90 .
+10.1176/appi.ps.54.6.884
+12773605 90 Lennon MC , McAllister W , Kuang L , Herman DB . Capturing intervention effects over time: reanalysis of
+a critical time intervention for homeless mentally ill men.
+Am J Public Health.
+2005
+10 ; 95 ( 10 ): 1760 – 6 .
+10.2105/AJPH.2005.064402
+16131636 PMC1449433 91 Herman D , Opler L , Felix A , Valencia E , Wyatt RJ , Susser E . A critical time intervention with mentally ill homeless
+men: impact on psychiatric symptoms.
+J Nerv Ment Dis.
+2000
+3 ; 188 ( 3 ): 135 – 40 .
+10.1097/00005053-200003000-00002
+10749277 92 Okin RL , Boccellari A , Azocar F , Shumway M , O’brien K , Gelb A , et al
+The effects of clinical case
+management on hospital service use among ED frequent users.
+Am J Emerg Med .
+2000 ; 18 ( 5 ): 603 – 8 .
+10.1053/ajem.2000.9292
+10999578 93 Aubry T , Goering P , Veldhuizen S , Adair CE , Bourque J , Distasio J , et al
+A Multiple-City RCT of Housing First
+With Assertive Community Treatment for Homeless Canadians With Serious
+Mental Illness.
+Psychiatr Serv . 2016
+Ma r ; 67 ( 3 ): 275 – 81 .
+10.1176/appi.ps.201400587
+26620289 94 Clark RE , Teague GB , Ricketts SK , Bush PW , Xie H , McGuire TG , et al
+Cost-effectiveness of assertive
+community treatment versus standard case management for persons with
+co-occurring severe mental illness and substance use
+disorders.
+Health Serv Res.
+1998 ; 33 ( 5 Pt
+1 ): 1285
+9865221 PMC1070317 95 Lehman AF , Dixon L , Hoch JS , DeForge B , Kernan E , Frank R . Cost-effectiveness of assertive community treatment for
+homeless persons with severe mental illness.
+Br J Psychiatry .
+1999 ; 174 ( 4 ): 346 – 52 . 10533554 10.1192/bjp.174.4.346 96 Wolff N . Cost-effectiveness evaluation of three approaches to
+case management for homeless mentally ill clients.
+Am J Psychiatry .
+1997 ; 154 : 341 – 8 .
+10.1176/ajp.154.3.341
+9054781 97 Stergiopoulos V , Hwang SW , Gozdzik A , Nisenbaum R , Latimer E , Rabouin D , et al
+Effect of scattered-site housing
+using rent supplements and intensive case management on housing stability
+among homeless adults with mental illness: a randomized
+trial . Jama .
+2015 ; 313 ( 9 ): 905 – 15 .
+10.1001/jama.2015.1163
+25734732 98 Rosenheck R , Kasprow W , Frisman L , Liu-Mares W . Cost-effectiveness of supported housing for homeless
+persons with mental illness.
+Arch Gen Psychiatry.
+2003
+9 ; 60 ( 9 ): 940 – 51 .
+10.1001/archpsyc.60.9.940
+12963676 99 Magwood O , Ymele Leki V , V K , Saad A , Alkhateeb Q , Gebremeskel A , et al
+Trust and personal safety in the
+margins: A systematic review on the acceptability and accessibility of
+health and structural interventions for persons with lived experience of
+homelessness.
+PLOS ONE Press . 10.1371/journal.pone.0226306 PMC6936789 31887152 100 Gagne CA , Finch WL , Myrick KJ , Davis LM . Peer Workers in the Behavioral and Integrated Health
+Workforce: Opportunities and Future Directions.
+Am J Prev Med.
+2018 ; 54 ( 6, Supplement
+3 ): S258 – 66 . 29779550 10.1016/j.amepre.2018.03.010 101 Greene S , Ion A , Kwaramba G , Mwalwanda M , Caswell J , Guzha E , et al
+“Trust Me, It’s Different”:
+Experiences of Peer Case Management of Women Living with HIV in Ontario,
+Canada. Vol. 32 , Canadian Social
+Work Review . 2015
+73
+p. 102 Cyr C , Mckee H , O’Hagan M , Priest R . Making the case for peer support.
+Ment Heal Comm Canada.
+2016 ; 2007 – 16 . 103 Solomon P . Peer support/peer provided services underlying
+processes, benefits, and critical ingredients.
+Psychiatr Rehabil J .
+2004 ; 27 ( 4 ): 392 – 401 .
+10.2975/27.2004.392.401
+15222150 104 Frederick T , Daley M , Zahn W . Peer support work to enhance services for youth experiencing
+homelessness . In: Mental Health & Addiction
+Interventions for Youth Experiencing Homelessness
+Canadian Observatory on Homelessness Press ;
+2018 . 105 Tsai J , Rosenheck RA , Sullivan J , Harkness L . A group-intensive peer support model of case management
+for supported housing.
+Psychol Serv .
+2011 ; 8 ( 3 ): 251 – 9 . 10.1176/appi.ps.201200100 22983658 106 Weissman EM , Covell NH , Kushner M , Irwin J , Essock SM . Implementing peer-assisted case management to help
+homeless veterans with mental illness transition to independent
+housing.
+Community Ment Health J.
+2005
+6 ; 41 ( 3 ): 267 – 76 .
+10.1007/s10597-005-5001-2
+16131006 107 Hwang SW , Tolomiczenko G , Kouyoumdjian FG , Garner RE . Interventions to improve the health of the homeless: a
+systematic review.
+Am J Prev Med .
+2005 ; 29 ( 4 ): 311
+10.1016/j.amepre.2005.06.017
+16242595 108 Mueser KT , Bond GR , Drake RE , Resnick SG . Models of community care for severe mental illness: a
+review of research on case management.
+Schizophr Bull.
+1998 ; 24 ( 1 ): 37 – 74 .
+10.1093/oxfordjournals.schbul.a033314
+9502546 109 Blumenthal D , Anderson G , Burke S , Fulmer T , K. Jha A , Long P . Tailoring Complex-Care Management, Coordination, and
+Integration for High-Need, High-Cost Patients: A Vital Direction for Health
+and Health Care. Vol. 6 , NAM
+Perspectives . 2016 . 110 Kirst M , Im J , Burns T , Baker GR , Goldhar J , O’Campo P , et al
+What works in implementation of
+integrated care programs for older adults with complex needs? A realist
+review.
+Int J Qual Heal care J Int Soc Qual Heal Care.
+2017
+10 ; 29 ( 5 ): 612 – 24 . 10.1093/intqhc/mzx095 PMC5890872 28992156 111 Ouwens M , Wollersheim H , Hermens R , Hulscher M , Grol R . Integrated care programmes for chronically ill patients:
+a review of systematic reviews.
+Int J Qual Heal care J Int Soc Qual Heal Care.
+2005
+4 ; 17 ( 2 ): 141 – 6 . 10.1093/intqhc/mzi016 15665066 112 Kelly AM , Kratz B , Bielski M , Rinehart PM . Implementing Transitions for Youth With Complex Chronic
+Conditions Using the Medical Home Model .
+Pediatrics . 2002
+12 ; 110 (Supplement 3 ): 1322
+LP – 1327 . 12456952 113 The College of Family
+Physicians of Canada. The Patient’s Medical Home Provincial Report Card
+[Internet]. 2019 [cited 2019 Dec 29]. Available from: https://patientsmedicalhome.ca/news/the-patients-medical-home-provincial-report-card-2019/ 114 Crowley RA , Kirschner N . The integration of care for mental health, substance
+abuse, and other behavioral health conditions into primary care: executive
+summary of an American College of Physicians position paper .
+Ann Intern Med . 2015
+8 ; 163 ( 4 ): 298 – 9 .
+10.7326/M15-0510
+26121401 115 Rush B , Fogg B , Nadeau L , Furlong A . On the integration of mental health and substance use
+services and systems: Main report.
+Can Exec Counc Addict.
+2008 ; 116 O’Campo P , Kirst M , Schaefer-McDaniel N , Firestone M , Scott A , McShane K . Community-based services for homeless adults
+experiencing concurrent mental health and substance use disorders: a realist
+approach to synthesizing evidence.
+J Urban Health.
+2009
+11 ; 86 ( 6 ): 965 – 89 .
+10.1007/s11524-009-9392-1
+19760155 PMC2791817 117 Moore GF , Audrey S , Barker M , Bond L , Bonell C , Hardeman W , et al
+Process evaluation of complex
+interventions: Medical Research Council guidance .
+BMJ Br Med J . 2015
+3 ; 350 : h1258 . 25791983 10.1136/bmj.h1258 PMC4366184 10.1371/journal.pone.0230896.r001 Decision Letter 0 Federici Stefano Academic Editor © 2020 Stefano Federici 2020 Stefano Federici This is an open access article distributed under the terms of the
+Creative Commons Attribution License ,
+which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are credited. Submission Version 0 Transfer Alert This paper was transferred from another journal. As a result, its full
+editorial history (including decision letters, peer reviews and author
+responses) may not be present.
+28 Nov 2019
+PONE-D-19-19380
+The Effectiveness of Case-Management Interventions for the Homeless, Vulnerably
+Housed and Persons with Lived Experience: A Systematic Review and Meta-Analysis
+PLOS ONE
+Dear Dr. Pottie,
+Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we
+feel that it has merit but does not fully meet PLOS ONE’s publication criteria as it
+currently stands. Therefore, we invite you to submit a revised version of the
+manuscript that addresses the points raised during the review process.
+The manuscript was reviewed by three reviewers. Although all Reviewers appreciated
+the importance of the subject and the good style of writing, they do raise the
+relevant methodological shortcomings of the manuscript that need to be thoroughly
+reviewed. In particular, Reviewers raise doubts about the correctness of the
+statistical analyses with reference to the meta-analysis. The Reviewers note that
+Discussions also need to be reviewed. Therefore, I suggest that the Authors proceed
+to address all the Reviewers’ comments to make the manuscript suitable for
+publication.
+We would appreciate receiving your revised manuscript by Jan 12 2020 11:59PM. When
+you are ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions
+Needing Revision' folder to locate your manuscript file.
+If you would like to make changes to your financial disclosure, please include your
+updated statement in your cover letter.
+To enhance the reproducibility of your results, we recommend that if applicable you
+deposit your laboratory protocols in protocols.io, where a protocol can be assigned
+its own identifier (DOI) such that it can be cited independently in the future. For
+instructions see: http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols
+Please include the following items when submitting your revised manuscript:
+A rebuttal letter that responds to each point raised by the academic
+editor and reviewer(s). This letter should be uploaded as separate file
+and labeled 'Response to Reviewers'.
+A marked-up copy of your manuscript that highlights changes made to the
+original version. This file should be uploaded as separate file and
+labeled 'Revised Manuscript with Track Changes'.
+An unmarked version of your revised paper without tracked changes. This
+file should be uploaded as separate file and labeled 'Manuscript'.
+Please note while forming your response, if your article is accepted, you may have
+the opportunity to make the peer review history publicly available. The record will
+include editor decision letters (with reviews) and your responses to reviewer
+comments. If eligible, we will contact you to opt in or out.
+We look forward to receiving your revised manuscript.
+Kind regards,
+Stefano Federici, Ph.D.
+Academic Editor
+PLOS ONE
+Journal Requirements:
+When submitting your revision, we need you to address these additional
+requirements.
+Please ensure that your manuscript meets PLOS ONE's style requirements, including
+those for file naming. The PLOS ONE style templates can be found at
+http://www.journals.plos.org/plosone/s/file?id=wjVg/PLOSOne_formatting_sample_main_body.pdf
+and http://www.journals.plos.org/plosone/s/file?id=ba62/PLOSOne_formatting_sample_title_authors_affiliations.pdf
+1. Please upload a copy of Figures 3 &4, to which you refer in your text on page
+36. If the figure is no longer to be included as part of the submission please
+remove all reference to it within the text.
+Additional Editor Comments (if provided):
+The manuscript was reviewed by three reviewers. Although all Reviewers appreciated
+the importance of the subject and the good style of writing, they do raise the
+relevant methodological shortcomings of the manuscript that need to be thoroughly
+reviewed. In particular, Reviewers raise doubts about the correctness of the
+statistical analyses with reference to the meta-analysis. The Reviewers note that
+Discussions also need to be reviewed. Therefore, I suggest that the Authors proceed
+to address all the Reviewers’ comments to make the manuscript suitable for
+publication.
+[Note: HTML markup is below. Please do not edit.]
+Reviewers' comments:
+Reviewer's Responses to Questions
+Comments to the Author
+1. Is the manuscript technically sound, and do the data support the conclusions?
+The manuscript must describe a technically sound piece of scientific research with
+data that supports the conclusions. Experiments must have been conducted rigorously,
+with appropriate controls, replication, and sample sizes. The conclusions must be
+drawn appropriately based on the data presented.
+Reviewer #1: Yes
+Reviewer #2: Partly
+Reviewer #3: Partly
+**********
+2. Has the statistical analysis been performed
+appropriately and rigorously?
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: No
+**********
+3. Have the authors made all data underlying the
+findings in their manuscript fully available?
+The PLOS Data policy requires authors to make all
+data underlying the findings described in their manuscript fully available without
+restriction, with rare exception (please refer to the Data Availability Statement in
+the manuscript PDF file). The data should be provided as part of the manuscript or
+its supporting information, or deposited to a public repository. For example, in
+addition to summary statistics, the data points behind means, medians and variance
+measures should be available. If there are restrictions on publicly sharing
+data—e.g. participant privacy or use of data from a third party—those must be
+specified.
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: Yes
+**********
+4. Is the manuscript presented in an intelligible
+fashion and written in standard English?
+PLOS ONE does not copyedit accepted manuscripts, so the language in submitted
+articles must be clear, correct, and unambiguous. Any typographical or grammatical
+errors should be corrected at revision, so please note any specific errors
+here.
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: Yes
+**********
+5. Review Comments to the Author
+Please use the space provided to explain your answers to the questions above. You may
+also include additional comments for the author, including concerns about dual
+publication, research ethics, or publication ethics. (Please upload your review as
+an attachment if it exceeds 20,000 characters)
+Reviewer #1: This is a review article on case management interventions for persons
+who are homeless or otherwise unstably housed, focused on ACT, ICM, and CTI. The
+effects of these interventions on health and social outcomes are discussed, as well
+as the quality of the evidence surrounding each intervention. These interventions
+are critical for improving care for a very vulnerable population and a systematic
+evaluation of the evidence surrounding these practices is valuable. The article is
+well-written. Some specific comments are offered below.
+Abstract
+• The conclusions of the abstract reflect the need to balance fidelity to an
+intervention’s components (used to achieve outcomes shown in research settings) and
+adaptation to meet the real-world context of under-resourced settings. To that end,
+might be good to add a sentence to the background of the abstract highlighting the
+clinical relevance of this review, i.e., what is the utility of studying these case
+management approaches with regards to real world care.
+• There seems to be a comparison between mainstream case management and three more
+intensive CM models, but mainstream CM is not mentioned in the abstract
+Introduction
+• The first sentence references structural challenges (of which there are many) -
+however, the second sentence describes individual level factors that are barriers to
+care, as opposed to structural challenges.
+• Table 1
+o SCM - is this limited to persons engaging in primary care? I think that routine
+case management happens for many homeless individuals who receive social services
+but who do not receive health care services in primary care settings. A concern for
+throughout the manuscript is that SCM is very challenging to define and very diverse
+across settings and studies.
+o CTI - generally this model is not just with any transition, but the transition
+between an institutional setting to community living
+• Interested to hear more about how the Delphi consensus panel helped prioritize
+interventions of interest - were SCM, ICM, CTI, ACT selected because of this panel?
+A few sentences about this in the methods as opposed to the intro might be
+helpful.
+Results
+• The Hurlbu study (SCM) is a HUD-VASH study, which is a PSH program (I thought these
+were excluded to be part of a separate review)
+• Clark et al (2003) - the comprehensive housing program sounds very much like
+PSH
+• The findings on ACT - findings on hospitalization were mostly positive, which I
+think is consistent with the literature. How does this work juxtaposed with the
+assertion that benefits of ACT on mental health outcomes were minimal -
+hospitalization is generally a proxy for mental health outcomes.
+• Cost effectiveness: how could total cost incurred by SCM clients be greater than
+total cost for ACT clients?
+Discussion
+• Appreciate the recognition at the top of the discussion that the interventions,
+populations, and outcomes were heterogeneous, which makes it hard to analyze the
+data - it would be good to have this sort of statement up front at the end of the
+introduction statement
+• A fundamental question is if SCM is good for a different subgroup of homeless
+people than the more intensive interventions studied. Or, is SCM just too low
+intensity for homeless people, but acceptable for a less vulnerable population? The
+article basically says that more intensive case management is needed for everyone in
+this population - I’m not sure that is true, as there has got to be some match
+between clinical acuity and the acuity of the CM intervention needed; SCM is also
+such a broad and vague term encompassing many different things in studies and in
+real-world settings
+• There is a statement in the discussion that persons with lived experience were
+integrated on the research team - not clear how this took place or in what capacity
+they were involved in these analyses
+Reviewer #2: Thank you for the opportunity to review this interesting manuscript.
+Since I am not an expert in the topic, my comments will focus on the systematic
+review and meta-analysis methodology and reporting.
+Major Concern:
+The results of this systematic review and meta-analysis should focus more on the
+meta-analytic findings. Nearly all of the results presented resort to counting
+p-values or describing the findings from specific studies. The beauty of
+meta-analysis is to move beyond p-counting so that you can show the overall effect
+of a type of intervention. Of the 56 studies in this review, I’m only seeing 3
+studies meta-analyzed, for only two outcomes. No rationale is provided for why a
+meta-analysis was not performed on any other outcomes.
+Even the narrative review results are rudimentary, with very little synthesis
+reported.
+Additional comments:
+1. The protocol has not been published, so reviewers only have the limited methods
+section to use to evaluate the review methods. While the methods appear to be
+rigorous, more detail would be helpful, particularly in the data analysis section.
+Also, the author guidelines for PLOS One state that systematic reviews without
+published protocols should include the protocol in the supplementary material.
+2. Was the protocol registered with a systematic review registry, such as PROSPERO? I
+did not see a PROSPERO registration number mentioned. PLOS One submission guidelines
+require the protocol registry number to be included in the abstract.
+3. Please address in the methods how you managed studies that had multiple
+interventions using the same control group in your meta-analyses.
+4. The PRISMA flow diagram should include a summary of the reasons for exclusion for
+the 214 studies excluded at the full-text review stage in the original search. Don’t
+just make readers go to the supplementary files and then expect the reader to count
+the reasons themselves. While I admire the level of detail you’re including in your
+tables and supplementary files, the whole point of a review is to summarize and
+synthesize for readers.
+5. Table 9 needs a legend that defines the abbreviations for the intervention
+types.
+6. On p. 35, line 189, the word “trivial” may not be the best word choice, as it can
+imply a value judgement. Perhaps something like “equivocal” would be better?
+7. Are Figures 1 and 2 data from just one study? This is not clear from the figures
+alone, as there is no study cited, and forest plots typically imply meta-analytic
+results across studies.
+8. The figures on page 36 are not labeled.
+Reviewer #3: Overall, this is a well-written analysis of case management
+interventions of homeless or vulnerably-housed individuals. This is not my field of
+study, so I cannot comment on the relevance of this review to this field or the
+quality of the qualitative analysis portion, other than to say that it was thorough.
+However, I have some concerns regarding the meta-analysis. It seems improper to use
+a random-effects meta-analysis in a meta-analysis including only 2 or 3 studies. My
+suspicion is that, in practice, your conclusion that ICM reduces number of days
+homeless will be robust to either approach: fixed effects vs. random effects, but it
+would be encouraging to know that the random effects approach has not
+under-estimated the confidence intervals on the pooled effect. I would recommend
+repeating the analyses from the figures on page 36 using a fixed effects approach
+(basically an inverse-variance weighted average of the studies) and indicate whether
+the results were similar or not to the random effects results.
+Minor comments:
+Tables 4-8 should go into a supplemental material file. This is a thorough summary of
+all of these studies and way too much information for the text of the
+manuscript.
+Figures 1 and 2: Are these from a single study? If so, I don't understand why it's
+necessary to present these findings that have been presented elsewhere. I would
+recommend dropping these figures and succinctly summarizing the results in the
+text.
+**********
+6. PLOS authors have the option to publish the peer
+review history of their article ( what does this mean? ). If published, this will
+include your full peer review and any attached files.
+If you choose “no”, your identity will remain anonymous but your review may still be
+made public.
+Do you want your identity to be public for this peer review? For
+information about this choice, including consent withdrawal, please see our
+Privacy Policy .
+Reviewer #1: Yes: Sonya Gabrielian
+Reviewer #2: No
+Reviewer #3: No
+[NOTE: If reviewer comments were submitted as an attachment file, they will be
+attached to this email and accessible via the submission site. Please log into your
+account, locate the manuscript record, and check for the action link "View
+Attachments". If this link does not appear, there are no attachment files to be
+viewed.]
+While revising your submission, please upload your figure files to the Preflight
+Analysis and Conversion Engine (PACE) digital diagnostic tool, https://pacev2.apexcovantage.com/ . PACE helps
+ensure that figures meet PLOS requirements. To use PACE, you must first register as
+a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you
+will find detailed instructions on how to use the tool. If you encounter any issues
+or have any questions when using PACE, please email us at figures@plos.org . Please note that Supporting Information files do not
+need this step.
+10.1371/journal.pone.0230896.r002 Author response to Decision Letter 0 Submission Version 1
+30 Dec 2019
+Kevin Pottie, MD CCFP MCISc FCFP
+85 Primrose Ave, room 307, Ottawa, ON
+kpottie@uottawa.ca
+Re: The Effectiveness of Case-Management Interventions for the Homeless, Vulnerably
+Housed and Persons with Lived Experience: A Systematic Review and Meta-Analysis
+(reference number PONE-D-19-19380)
+Response to editors and peer-reviewers
+________________________________________
+Editorial comments
+Please ensure that your manuscript meets PLOS ONE's style requirements, including
+those for file naming
+Response: Thank you. We have reviewed PLOS ONE’s style requirements and have edited
+our manuscript as necessary.
+Please upload a copy of Figures 3 &4, to which you refer in your text on page 36.
+If the figure is no longer to be included as part of the submission please remove
+all reference to it within the text.
+Response: Figures 3 and 4 are the forest plots representing our pooled meta-analyses.
+We have uploaded them separately as per your request.
+Peer reviewers’ comments
+Reviewer #1
+This is a review article on case management interventions for persons who are
+homeless or otherwise unstably housed, focused on ACT, ICM, and CTI. The effects of
+these interventions on health and social outcomes are discussed, as well as the
+quality of the evidence surrounding each intervention. These interventions are
+critical for improving care for a very vulnerable population and a systematic
+evaluation of the evidence surrounding these practices is valuable. The article is
+well-written. Some specific comments are offered below.
+Response: Thank you for taking the time to review our manuscript and highlight the
+importance of such a comprehensive review of the literature on the effectiveness and
+cost effectiveness of case management interventions among homeless and vulnerably
+housed populations. We have addressed your comments and feedback. Kindly see our
+responses below.
+Abstract
+• The conclusions of the abstract reflect the need to balance fidelity to an
+intervention’s components (used to achieve outcomes shown in research settings) and
+adaptation to meet the real-world context of under-resourced settings. To that end,
+might be good to add a sentence to the background of the abstract highlighting the
+clinical relevance of this review, i.e., what is the utility of studying these case
+management approaches with regards to real world care.
+Response: Thank you for this comment. The definitions of case management models in
+the very heterogeneous literature makes this addition very relevant. This also links
+to your comment below about SCM which we address further. In fact, our conclusions
+reflect the need to better understand the link between intensity and effect,
+especially in complex and variable primary care settings.
+• There seems to be a comparison between mainstream case management and three more
+intensive CM models, but mainstream CM is not mentioned in the abstract
+Response: Thank you for highlighting this discrepancy. We have added to our abstract
+findings of mainstream case management
+Introduction
+• The first sentence references structural challenges (of which there are many) -
+however, the second sentence describes individual level factors that are barriers to
+care, as opposed to structural challenges.
+Response: Thank you, we have amended these sentences to improve clarity.
+• Table 1
+o SCM - is this limited to persons engaging in primary care? I think that routine
+case management happens for many homeless individuals who receive social services
+but who do not receive health care services in primary care settings. A concern for
+throughout the manuscript is that SCM is very challenging to define and very diverse
+across settings and studies.
+Response: Thank you for this comment. We agree that SCM is very heterogeneous. We
+have added additional remarks to that effect on our introduction. SCM is also not
+limited to persons engaging in primary care, although it is common. We have revised
+Table 1 to reflect that SCM may be delivered to persons with complex care needs.
+o CTI - generally this model is not just with any transition, but the transition
+between an institutional setting to community living
+Response: We sought evidence on critical time interventions that aimed to help
+individuals transition from a state of precarious housing and into more stable
+accommodation. As a result of our search, we found evidence on three CTI trials that
+assist individuals transition from shelters to more stable housing as well as one
+trial devising a transition plan after discharge from the hospital. Thank you for
+you comment. We will make this more clear in Table 1 and the results section.
+• Interested to hear more about how the Delphi consensus panel helped prioritize
+interventions of interest - were SCM, ICM, CTI, ACT selected because of this panel?
+A few sentences about this in the methods as opposed to the intro might be
+helpful.
+Response: Thank you for this comment. We have provided additional details in the
+methods (see section “Selection of priority interventions”) regarding the Delphi
+process and the rationale for choosing these models of case management.
+Results
+• The Hurlbut study (SCM) is a HUD-VASH study, which is a PSH program (I thought
+these were excluded to be part of a separate review)
+Response: Thank you. Even though the Hurlburt study is part of the HUD-VASH project.
+The findings of the two publications reported on the added benefits of providing
+case management to participants regardless of their housing arrangements. We sought
+evidence on every study that reported on the benefits (or harms, if found) of case
+management interventions, and thus we have included these publications for that
+purpose.
+• Clark et al (2003) - the comprehensive housing program sounds very much like
+PSH
+Response: You are correct. The comprehensive housing program is very much a
+replication of PSH. However, participants allocated to the other arm of this trial
+are provided with case management services only. We included this study in our
+analysis to assess whether case management only was superior or equivalent to PSH in
+improving our outcomes of interest.
+• The findings on ACT - findings on hospitalization were mostly positive, which I
+think is consistent with the literature. How does this work juxtaposed with the
+assertion that benefits of ACT on mental health outcomes were minimal -
+hospitalization is generally a proxy for mental health outcomes.
+Response: We agree and have rephrase the sentence to reflect the reasonably positive
+effects of ACT interventions in reducing in psychiatric symptoms across studies.
+• Cost effectiveness: how could total cost incurred by SCM clients be greater than
+total cost for ACT clients?
+Response: Thank you for your comments. The total cost of SCM was higher than ACT in
+the case when the studies included all cost components incurred to society (termed
+the ‘societal perspective’). Specifically, the slightly higher cost of SCM was due
+to the fact that SCM clients had nominally more frequent visits to outpatient health
+care and other community services, more arrest episodes, and incurred higher family
+time costs compared to ACT clients. We have clarified this point in the cost and
+cost-effectiveness section.
+Discussion
+• Appreciate the recognition at the top of the discussion that the interventions,
+populations, and outcomes were heterogeneous, which makes it hard to analyze the
+data - it would be good to have this sort of statement up front at the end of the
+introduction statement
+Response: We agree, and have provided two sentences at the end of the introduction to
+highlight the heterogeneity of the interventions at hand.
+• A fundamental question is if SCM is good for a different subgroup of homeless
+people than the more intensive interventions studied. Or, is SCM just too low
+intensity for homeless people, but acceptable for a less vulnerable population? The
+article basically says that more intensive case management is needed for everyone in
+this population - I’m not sure that is true, as there has got to be some match
+between clinical acuity and the acuity of the CM intervention needed; SCM is also
+such a broad and vague term encompassing many different things in studies and in
+real-world settings
+Response: Thank you very much for these thoughtful questions. We agree that the
+definition of SCM is challenging and thus decided to take a broad approach. We
+attempted to distinguish the differences in CM in Table 1. However, comparing SCM to
+more intensive models was not the focus of the review, and indeed such a comparison
+would likely be based on comparable populations - per Table 1, the more intensive
+approaches in fact aimed at specific subsets of homeless popullations. Because of
+all these factors, not to mention that issues of fidelity that you raise, we
+tempered the strength of our conclusions.
+• There is a statement in the discussion that persons with lived experience were
+integrated on the research team - not clear how this took place or in what capacity
+they were involved in these analyses
+Response: Thank you for highlighting the shortage in describing the role of our
+people with lived experience of homelessness in this project. We have provided more
+information regarding this issue in the methods section.
+Reviewer #2: Thank you for the opportunity to review this interesting manuscript.
+Since I am not an expert in the topic, my comments will focus on the systematic
+review and meta-analysis methodology and reporting.
+Response: Thank you for reviewing our work and providing feedback on our methods. An
+important strength of our review is the rigorous methodology we have used in
+screening, data collection and management, data analysis, and reporting processes.
+We have addressed all your comments. Kindly find our responses below.
+Major Concern:
+The results of this systematic review and meta-analysis should focus more on the
+meta-analytic findings. Nearly all of the results presented resort to counting
+p-values or describing the findings from specific studies. The beauty of
+meta-analysis is to move beyond p-counting so that you can show the overall effect
+of a type of intervention. Of the 56 studies in this review, I’m only seeing 3
+studies meta-analyzed, for only two outcomes. No rationale is provided for why a
+meta-analysis was not performed on any other outcomes.
+Response: Thanks, meta-analysis is one of the most robust statistical methods to
+synthesize outcome data to provide a quantitative estimate and we used this method
+whenever outcome data permitted. We attempted to meta-analyze all outcomes, but
+heterogeneity in interventions, outcomes and time-points precluded this for the
+majority of outcomes. We have clarified this in the methods section.
+Even the narrative review results are rudimentary, with very little synthesis
+reported.
+Response: Thank you. It appears we did not clearly describe our synthesis. Given that
+the majority of our synthesis is narrative, we have referred to the SWiM (Synthesis
+Without Meta-Analysis) reporting guidelines (previously named “Improving the Conduct
+and reporting of Narrative Synthesis of Quantitative data (ICONS-Quant)”), which is
+presently under consideration for publication (must be kept confidential). The
+ICONS-Quant items are intended to complement PRISMA. ICONS-Quant relates to the
+methods and reporting of narrative synthesis, while PRISMA relates to the entire
+systematic review process. We have modified our paper to reflect these reporting
+items.
+Additional comments:
+1. The protocol has not been published, so reviewers only have the limited methods
+section to use to evaluate the review methods. While the methods appear to be
+rigorous, more detail would be helpful, particularly in the data analysis section.
+Also, the author guidelines for PLOS One state that systematic reviews without
+published protocols should include the protocol in the supplementary material.
+Response: Thank you for this comment. Our protocol was published during the
+peer-review period. We have updated our reference list and provide a DOI to the
+open-access publication for reviewers to consider. Please see: https://doi.org/10.1002/cl2.1048
+2. Was the protocol registered with a systematic review registry, such as PROSPERO? I
+did not see a PROSPERO registration number mentioned. PLOS One submission guidelines
+require the protocol registry number to be included in the abstract.
+Response: Thank you for this question. We registered our title (2018) and protocol
+(2019) with the Campbell Collaboration, which is considered a systematic review
+registry. We have made this more explicit in our manuscript under “Methods”. We have
+updated our reference list and provide a DOI to the open-access publication for
+reviewers to consider.
+3. Please address in the methods how you managed studies that had multiple
+interventions using the same control group in your meta-analyses.
+Response: Thank you for this comment. We have added the following to our methods
+section to clarify this point: To prevent double-counting of outcomes, individual
+records were carefully screened to identify unique trial studies. Each study was
+then evaluated for potential overlap using study design, enrollment and data
+collection dates, authors and their associated affiliations and the reported
+selection and eligibility criteria in the studies to inform the assessment. Studies
+deemed to be at risk for double-counting were discussed by the research team and
+decisions for inclusion in meta-analysis (and any additional analyses) were
+made.
+4. The PRISMA flow diagram should include a summary of the reasons for exclusion for
+the 214 studies excluded at the full-text review stage in the original search. Don’t
+just make readers go to the supplementary files and then expect the reader to count
+the reasons themselves. While I admire the level of detail you’re including in your
+tables and supplementary files, the whole point of a review is to summarize and
+synthesize for readers.
+Response: Thank you for this comment. We have updates this figure with the following
+information:
+Excluded studies n=214
+Reasons:
+Wrong study design n=51
+Irrelevant outcomes n=8
+Wrong population n=25
+Wrong intervention n=117
+Wrong publication type n=117 10
+Could not be retrieved n=3
+5. Table 9 needs a legend that defines the abbreviations for the intervention
+types.
+Response: Thank you, we have added a legend to this table which defines the
+abbreviations.
+6. On p. 35, line 189, the word “trivial” may not be the best word choice, as it can
+imply a value judgement. Perhaps something like “equivocal” would be better?
+Response: Thank you for this suggestion, we have made the appropriate changes.
+7. Are Figures 1 and 2 data from just one study? This is not clear from the figures
+alone, as there is no study cited, and forest plots typically imply meta-analytic
+results across studies.
+Response: Thank you, these figures have been removed.
+8. The figures on page 36 are not labeled.
+Response: Thank you, we have received feedback against using these forest plots in
+our results section as they come from the same study, and therefore, we have decided
+to replace them with a descriptive synthesis of evidence from these studies.
+Reviewer #3: Overall, this is a well-written analysis of case management
+interventions of homeless or vulnerably-housed individuals. This is not my field of
+study, so I cannot comment on the relevance of this review to this field or the
+quality of the qualitative analysis portion, other than to say that it was thorough.
+However, I have some concerns regarding the meta-analysis. It seems improper to use
+a random-effects meta-analysis in a meta-analysis including only 2 or 3 studies. My
+suspicion is that, in practice, your conclusion that ICM reduces number of days
+homeless will be robust to either approach: fixed effects vs. random effects, but it
+would be encouraging to know that the random effects approach has not
+under-estimated the confidence intervals on the pooled effect. I would recommend
+repeating the analyses from the figures on page 36 using a fixed effects approach
+(basically an inverse-variance weighted average of the studies) and indicate whether
+the results were similar or not to the random effects results.
+Response: Thank you for this comment. As per your suggestion, we have rerun the
+analysis using both a fixed effects model and found that our conclusions were
+unchanged:
+FIXED EFFECT MODEL:
+RANDOM EFFECT MODEL:
+However, we stand behind our original decision to publish the meta-analysis using a
+random effects model due to its consideration of heterogeneity. Under any
+interpretation, a fixed-effect meta-analysis ignores heterogeneity. In the
+meta-analyzed studies of our review, we have conceptual heterogeneity in populations
+(e.g. youth [Grace 2014] vs. mentally ill adults with children [Toro 1997] vs.
+chronic inebriated adults [Cox 1998]) and interventions ( time-limited ICM [Grace
+2014] vs. ICM with job training [Toro 1997] vs long-term ICM [Cox 1998]). Given this
+conceptual heterogeneity, we could not assume that the true effect of intervention
+(in both magnitude and direction) is the same value in every study (i.e. fixed
+across studies). Instead of assuming that the intervention effects are the same, we
+assume that they follow (usually) a normal distribution. The assumption implies that
+the observed differences among study results are due to a combination of the play of
+chance and some genuine variation in the intervention effects.
+Minor comments:
+Tables 4-8 should go into a supplemental material file. This is a thorough summary of
+all of these studies and way too much information for the text of the
+manuscript.
+Response: Thank you for this suggestion, we have moved these tables to supplemental
+material (S4).
+Figures 1 and 2: Are these from a single study? If so, I don't understand why it's
+necessary to present these findings that have been presented elsewhere. I would
+recommend dropping these figures and succinctly summarizing the results in the
+text.
+Response: Thank you for this suggestion, we have removed these figures.
+Attachment Submitted filename: Revision
+1 - Ponka et al. - Response to reviewers Nov
+2019.docx
+Click here for additional data file.
+10.1371/journal.pone.0230896.r003 Decision Letter 1 Federici Stefano Academic Editor © 2020 Stefano Federici 2020 Stefano Federici This is an open access article distributed under the terms of the
+Creative Commons Attribution License ,
+which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are credited. Submission Version 1
+28 Jan 2020
+PONE-D-19-19380R1
+The Effectiveness of Case-Management Interventions for the Homeless, Vulnerably
+Housed and Persons with Lived Experience: A Systematic Review and Meta-Analysis
+PLOS ONE
+Dear Dr. Pottie,
+Thank you for submitting your manuscript to PLOS ONE. After careful consideration, we
+feel that it has merit but does not fully meet PLOS ONE’s publication criteria as it
+currently stands. Therefore, we invite you to submit a revised version of the
+manuscript that addresses the points raised during the review process.
+In this second round of review, I
+invite the author to take more careful consideration of the valuable notes of
+the Reviewers, following their suggestions and responding more fully to the
+objections raised.​
+We would appreciate receiving your revised manuscript by Mar 13 2020 11:59PM. When
+you are ready to submit your revision, log on to https://www.editorialmanager.com/pone/ and select the 'Submissions
+Needing Revision' folder to locate your manuscript file.
+If you would like to make changes to your financial disclosure, please include your
+updated statement in your cover letter.
+To enhance the reproducibility of your results, we recommend that if applicable you
+deposit your laboratory protocols in protocols.io, where a protocol can be assigned
+its own identifier (DOI) such that it can be cited independently in the future. For
+instructions see: http://journals.plos.org/plosone/s/submission-guidelines#loc-laboratory-protocols
+Please include the following items when submitting your revised manuscript:
+A rebuttal letter that responds to each point raised by the academic
+editor and reviewer(s). This letter should be uploaded as separate file
+and labeled 'Response to Reviewers'.
+A marked-up copy of your manuscript that highlights changes made to the
+original version. This file should be uploaded as separate file and
+labeled 'Revised Manuscript with Track Changes'.
+An unmarked version of your revised paper without tracked changes. This
+file should be uploaded as separate file and labeled 'Manuscript'.
+Please note while forming your response, if your article is accepted, you may have
+the opportunity to make the peer review history publicly available. The record will
+include editor decision letters (with reviews) and your responses to reviewer
+comments. If eligible, we will contact you to opt in or out.
+We look forward to receiving your revised manuscript.
+Kind regards,
+Stefano Federici, Ph.D.
+Academic Editor
+PLOS ONE
+Additional Editor Comments (if provided):
+In this second round of review, I invite the author to take more careful
+consideration of the valuable notes of the Reviewers, following their suggestions
+and responding more fully to the objections raised.
+[Note: HTML markup is below. Please do not edit.]
+Reviewers' comments:
+Reviewer's Responses to Questions
+Comments to the Author
+1. If the authors have adequately addressed your comments raised in a previous round
+of review and you feel that this manuscript is now acceptable for publication, you
+may indicate that here to bypass the “Comments to the Author” section, enter your
+conflict of interest statement in the “Confidential to Editor” section, and submit
+your "Accept" recommendation.
+Reviewer #1: All comments have been addressed
+Reviewer #2: (No Response)
+Reviewer #3: (No Response)
+**********
+2. Is the manuscript technically sound, and do the data
+support the conclusions?
+The manuscript must describe a technically sound piece of scientific research with
+data that supports the conclusions. Experiments must have been conducted rigorously,
+with appropriate controls, replication, and sample sizes. The conclusions must be
+drawn appropriately based on the data presented.
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: Yes
+**********
+3. Has the statistical analysis been performed
+appropriately and rigorously?
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: Yes
+**********
+4. Have the authors made all data underlying the
+findings in their manuscript fully available?
+The PLOS Data policy requires authors to make all
+data underlying the findings described in their manuscript fully available without
+restriction, with rare exception (please refer to the Data Availability Statement in
+the manuscript PDF file). The data should be provided as part of the manuscript or
+its supporting information, or deposited to a public repository. For example, in
+addition to summary statistics, the data points behind means, medians and variance
+measures should be available. If there are restrictions on publicly sharing
+data—e.g. participant privacy or use of data from a third party—those must be
+specified.
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: Yes
+**********
+5. Is the manuscript presented in an intelligible
+fashion and written in standard English?
+PLOS ONE does not copyedit accepted manuscripts, so the language in submitted
+articles must be clear, correct, and unambiguous. Any typographical or grammatical
+errors should be corrected at revision, so please note any specific errors
+here.
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: Yes
+**********
+6. Review Comments to the Author
+Please use the space provided to explain your answers to the questions above. You may
+also include additional comments for the author, including concerns about dual
+publication, research ethics, or publication ethics. (Please upload your review as
+an attachment if it exceeds 20,000 characters)
+Reviewer #1: The authors sufficiently addressed the concerns I mentioned in the first
+round of reviews. The only thing missing from the discussion section at this point
+from my perspective is a more nuanced reflection that homeless people have different
+levels of acuity and thus have different levels of need for case management
+intensity. That is, ACT isn't for everyone, ICM isn't for everyone, these are case
+management models needed for certain people with certain functional limitations and
+there should be some effort to match needs to services.
+Reviewer #2: I’d like to thank the authors for their response to the reviewer
+comments. I understand how challenging it is to do a project of this scope.
+The authors’ response to the critique about registering the systematic review is
+somewhat misleading. Publishing a review protocol is not the same as registering the
+protocol. Submitting the title to the Campbell Collaboration is not the same as
+listing the planned review in a publicly accessible registry prior to conducting the
+review. Further, the authors’ wording on p. 5 (lines 86-87) may mislead readers to
+think that this review was done under the auspices or sponsorship of the Campbell
+Collaboration (“…published by the Campbell Collaboration”), but my reading of the
+review protocol is that this was not the case. It might be simpler and more accurate
+to state that the review protocol was not registered, but was published in 2019 (and
+then cite the protocol paper).
+I still think that the authors’ narrative synthesis of results is rather rudimentary,
+but I understand that it can be difficult to write a narrative synthesis without
+falling into the trap of describing things study-by-study.
+I’d like to put in a note of support for the authors’ response to the first comment
+from Reviewer 3. I agree with the authors that a random effects model is the
+appropriate approach for meta-analyzing these types of studies, for the very reasons
+they give in their rationale.
+Ultimately, however, this manuscript is kind of a bait-and-switch. The title tempts a
+reader with a meta-analysis, but then out of the 56 studies included, only 3 studies
+were used for two (related) outcomes for only one of the types of case management. I
+have a genuine concern that the narrative review findings from this manuscript will
+be cited as though they are based on a meta-analysis when in fact they aren’t. While
+I don’t want to take away from the authors the work they did on the small
+meta-analysis in this paper, I also think that it might be more honest to remove
+“and Meta-analysis” from the title, since the overwhelming majority of this review’s
+findings are not based on meta-analysis.
+Reviewer #3: Regarding the fixed effects vs. random effects issue, the problem isn't
+that you don't have heterogeneity. The problem is that it's hard to quantify the
+heterogeneity with only 2-3 studies. The fact that the fixed effects analysis has
+qualitatively similar results should be briefly mentioned in the text and the
+results should be added to supplemental information.
+**********
+7. PLOS authors have the option to publish the peer
+review history of their article ( what does this mean? ). If published, this will
+include your full peer review and any attached files.
+If you choose “no”, your identity will remain anonymous but your review may still be
+made public.
+Do you want your identity to be public for this peer review? For
+information about this choice, including consent withdrawal, please see our
+Privacy Policy .
+Reviewer #1: Yes: Sonya Gabrielian
+Reviewer #2: No
+Reviewer #3: No
+[NOTE: If reviewer comments were submitted as an attachment file, they will be
+attached to this email and accessible via the submission site. Please log into your
+account, locate the manuscript record, and check for the action link "View
+Attachments". If this link does not appear, there are no attachment files to be
+viewed.]
+While revising your submission, please upload your figure files to the Preflight
+Analysis and Conversion Engine (PACE) digital diagnostic tool, https://pacev2.apexcovantage.com/ . PACE helps
+ensure that figures meet PLOS requirements. To use PACE, you must first register as
+a user. Registration is free. Then, login and navigate to the UPLOAD tab, where you
+will find detailed instructions on how to use the tool. If you encounter any issues
+or have any questions when using PACE, please email us at figures@plos.org . Please note that Supporting Information files do not
+need this step.
+10.1371/journal.pone.0230896.r004 Author response to Decision Letter 1 Submission Version 2
+18 Feb 2020
+Ponka et al. Case Management Review (Revision 2) Response to Reviewers Feb 2020
+Reviewer #1: The authors sufficiently addressed the concerns I mentioned in the first
+round of reviews. The only thing missing from the discussion section at this point
+from my perspective is a more nuanced reflection that homeless people have different
+levels of acuity and thus have different levels of need for case management
+intensity. That is, ACT isn't for everyone, ICM isn't for everyone, these are case
+management models needed for certain people with certain functional limitations and
+there should be some effort to match needs to services.
+Response: Thank you for reviewing our manuscript and for your helpful feedback. We
+agree that not all models of case management are appropriate for every individual,
+and that the services provided should be matched to client needs. We have edited our
+discussion section and have included the following: “However, it is likely that a
+dose-response relationship may explain some of our findings, and that as higher
+intensity interventions such as ACT and ICM are more precisely defined, there may be
+greater attention to fidelity in their implementation (19). Alternatively, it is
+possible that lower intensity models work predominantly for homeless populations
+with less acute issues (or for those that are precariously housed), and this would
+suggest the importance of matching the intensity of the intervention with the acuity
+of need.”
+Reviewer #2: I’d like to thank the authors for their response to the reviewer
+comments. I understand how challenging it is to do a project of this scope.
+Response: Thank you for your support.
+The authors’ response to the critique about registering the systematic review is
+somewhat misleading. Publishing a review protocol is not the same as registering the
+protocol. Submitting the title to the Campbell Collaboration is not the same as
+listing the planned review in a publicly accessible registry prior to conducting the
+review. Further, the authors’ wording on p. 5 (lines 86-87) may mislead readers to
+think that this review was done under the auspices or sponsorship of the Campbell
+Collaboration (“…published by the Campbell Collaboration”), but my reading of the
+review protocol is that this was not the case. It might be simpler and more accurate
+to state that the review protocol was not registered, but was published in 2019 (and
+then cite the protocol paper).
+Response: Thank you for this feedback. You are correct; the protocol for this review
+was not registered in a publicly available registry and we agree that the original
+reporting of this in our manuscript may be misleading. We have edited this paragraph
+of the methods section to be explicit about this and provide an explicit statement
+for our reader: “We conducted a systematic review according to a published
+peer-reviewed protocol (29). The protocol was not registered in an open-access
+registry (e.g. PROSPERO) prior to publication”. Thank you for bringing this to our
+attention, this is an important lesson learned for the future.
+I still think that the authors’ narrative synthesis of results is rather rudimentary,
+but I understand that it can be difficult to write a narrative synthesis without
+falling into the trap of describing things study-by-study.
+Response: Thank you for this comment. Despite frequent use and longstanding concerns
+about the validity of narrative synthesis, there has been almost no methodological
+development to promote clearer methods for narrative synthesis, despite its use in
+nearly half of health related systematic reviews. We have attempted to tabulate
+meaningful results (Table 4), a data presentation method suggested by the SWiM
+reporting guidelines, but we do recognize the limited richness of this synthesis. We
+appreciate your understanding.
+I’d like to put in a note of support for the authors’ response to the first comment
+from Reviewer 3. I agree with the authors that a random effects model is the
+appropriate approach for meta-analyzing these types of studies, for the very reasons
+they give in their rationale.
+Response: Thank you very much for this support. We have worked hard to achieve
+methodological rigor in our review and are confident in this decision.
+Ultimately, however, this manuscript is kind of a bait-and-switch. The title tempts a
+reader with a meta-analysis, but then out of the 56 studies included, only 3 studies
+were used for two (related) outcomes for only one of the types of case management. I
+have a genuine concern that the narrative review findings from this manuscript will
+be cited as though they are based on a meta-analysis when in fact they aren’t. While
+I don’t want to take away from the authors the work they did on the small
+meta-analysis in this paper, I also think that it might be more honest to remove
+“and Meta-analysis” from the title, since the overwhelming majority of this review’s
+findings are not based on meta-analysis.
+Response: This is an excellent point. We agree and have removed “and meta-analysis”
+from our title.
+Reviewer #3: Regarding the fixed effects vs. random effects issue, the problem isn't
+that you don't have heterogeneity. The problem is that it's hard to quantify the
+heterogeneity with only 2-3 studies. The fact that the fixed effects analysis has
+qualitatively similar results should be briefly mentioned in the text and the
+results should be added to supplemental information.
+Response: Thank you, this is a good idea. We have added a sentence to our methods
+section stating that we ran these parallel analyses, and have written in the results
+section that findings were unchanged (i.e. not dependent on fixed vs. random effects
+models). We have included these results in Appendix S7. We appreciate your
+constructive feedback.
+Attachment Submitted filename: Revision
+2 - Ponka et al. - Response to Reviewers.docx
+Click here for additional data file.
+10.1371/journal.pone.0230896.r005 Decision Letter 2 Federici Stefano Academic Editor © 2020 Stefano Federici 2020 Stefano Federici This is an open access article distributed under the terms of the
+Creative Commons Attribution License ,
+which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are credited. Submission Version 2
+12 Mar 2020
+The Effectiveness of Case-Management Interventions for the Homeless, Vulnerably
+Housed and Persons with Lived Experience: A Systematic Review
+PONE-D-19-19380R2
+Dear Dr. Pottie,
+We are pleased to inform you that your manuscript has been judged scientifically
+suitable for publication and will be formally accepted for publication once it
+complies with all outstanding technical requirements.
+Within one week, you will receive an e-mail containing information on the amendments
+required prior to publication. When all required modifications have been addressed,
+you will receive a formal acceptance letter and your manuscript will proceed to our
+production department and be scheduled for publication.
+Shortly after the formal acceptance letter is sent, an invoice for payment will
+follow. To ensure an efficient production and billing process, please log into
+Editorial Manager at https://www.editorialmanager.com/pone/ , click the "Update My
+Information" link at the top of the page, and update your user information. If you
+have any billing related questions, please contact our Author Billing department
+directly at authorbilling@plos.org .
+If your institution or institutions have a press office, please notify them about
+your upcoming paper to enable them to help maximize its impact. If they will be
+preparing press materials for this manuscript, you must inform our press team as
+soon as possible and no later than 48 hours after receiving the formal acceptance.
+Your manuscript will remain under strict press embargo until 2 pm Eastern Time on
+the date of publication. For more information, please contact onepress@plos.org .
+With kind regards,
+Stefano Federici, Ph.D.
+Academic Editor
+PLOS ONE
+Additional Editor Comments (optional):
+Reviewers' comments:
+Reviewer's Responses to Questions
+Comments to the Author
+1. If the authors have adequately addressed your comments raised in a previous round
+of review and you feel that this manuscript is now acceptable for publication, you
+may indicate that here to bypass the “Comments to the Author” section, enter your
+conflict of interest statement in the “Confidential to Editor” section, and submit
+your "Accept" recommendation.
+Reviewer #1: All comments have been addressed
+Reviewer #2: All comments have been addressed
+Reviewer #3: All comments have been addressed
+**********
+2. Is the manuscript technically sound, and do the data
+support the conclusions?
+The manuscript must describe a technically sound piece of scientific research with
+data that supports the conclusions. Experiments must have been conducted rigorously,
+with appropriate controls, replication, and sample sizes. The conclusions must be
+drawn appropriately based on the data presented.
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: (No Response)
+**********
+3. Has the statistical analysis been performed
+appropriately and rigorously?
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: (No Response)
+**********
+4. Have the authors made all data underlying the
+findings in their manuscript fully available?
+The PLOS Data policy requires authors to make all
+data underlying the findings described in their manuscript fully available without
+restriction, with rare exception (please refer to the Data Availability Statement in
+the manuscript PDF file). The data should be provided as part of the manuscript or
+its supporting information, or deposited to a public repository. For example, in
+addition to summary statistics, the data points behind means, medians and variance
+measures should be available. If there are restrictions on publicly sharing
+data—e.g. participant privacy or use of data from a third party—those must be
+specified.
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: (No Response)
+**********
+5. Is the manuscript presented in an intelligible
+fashion and written in standard English?
+PLOS ONE does not copyedit accepted manuscripts, so the language in submitted
+articles must be clear, correct, and unambiguous. Any typographical or grammatical
+errors should be corrected at revision, so please note any specific errors
+here.
+Reviewer #1: Yes
+Reviewer #2: Yes
+Reviewer #3: (No Response)
+**********
+6. Review Comments to the Author
+Please use the space provided to explain your answers to the questions above. You may
+also include additional comments for the author, including concerns about dual
+publication, research ethics, or publication ethics. (Please upload your review as
+an attachment if it exceeds 20,000 characters)
+Reviewer #1: (No Response)
+Reviewer #2: (No Response)
+Reviewer #3: (No Response)
+**********
+7. PLOS authors have the option to publish the peer
+review history of their article ( what does this mean? ). If published, this will
+include your full peer review and any attached files.
+If you choose “no”, your identity will remain anonymous but your review may still be
+made public.
+Do you want your identity to be public for this peer review? For
+information about this choice, including consent withdrawal, please see our
+Privacy Policy .
+Reviewer #1: No
+Reviewer #2: No
+Reviewer #3: No
+10.1371/journal.pone.0230896.r006 Acceptance letter Federici Stefano Academic Editor © 2020 Stefano Federici 2020 Stefano Federici This is an open access article distributed under the terms of the
+Creative Commons Attribution License ,
+which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are credited.
+27 Mar 2020
+PONE-D-19-19380R2
+The Effectiveness of Case Management Interventions for the Homeless, Vulnerably
+Housed and Persons with Lived Experience: A Systematic Review.
+Dear Dr. Pottie:
+I am pleased to inform you that your manuscript has been deemed suitable for
+publication in PLOS ONE. Congratulations! Your manuscript is now with our production
+department.
+If your institution or institutions have a press office, please notify them about
+your upcoming paper at this point, to enable them to help maximize its impact. If
+they will be preparing press materials for this manuscript, please inform our press
+team within the next 48 hours. Your manuscript will remain under strict press
+embargo until 2 pm Eastern Time on the date of publication. For more information
+please contact onepress@plos.org .
+For any other questions or concerns, please email plosone@plos.org .
+Thank you for submitting your work to PLOS ONE.
+With kind regards,
+PLOS ONE Editorial Office Staff
+on behalf of
+Prof. Stefano Federici
+Academic Editor
+PLOS ONE
