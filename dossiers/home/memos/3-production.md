@@ -1,6 +1,6 @@
 # Memo 3: How the plan builds homes
 
-Role: decision memo for Espen, fork 3 of the housing design (`../3-design.md`). It also answers the open call on the federal builder of last resort (HOU-9A, 9B or 9C). Status: parts 2 (A-small) and 3 (B) decided by Espen on November 9, 2026 (recorded in PR #135); part 1 re-opened by Espen November 9, 2026, awaiting decision, and revised here. Nothing in part 1 changes until Espen decides. Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
+Role: decision memo for Espen, fork 3 of the housing design (`../3-design.md`). It also answers the open call on the federal builder of last resort (HOU-9A, 9B or 9C). Status: decided by Espen: part 1 option D, part 2 A-small, part 3 B (November 9, 2026; `DEC-2026-11-09-08`, `DEC-2026-11-09-03`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`).
 
 **Part 3 of this memo decides the form and size of the construction money (HOU-3C): about $72 billion of grants to state revolving funds and $300 billion of federal loans.** On October 30 you made it a working choice rather than a settled one (`DEC-2026-10-30-02`), so keeping it as filed is one option there, weighed like the others. The recommendation keeps both channels and both amounts and adds one use: buying and preserving existing buildings.
 
