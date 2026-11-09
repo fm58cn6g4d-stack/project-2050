@@ -79,7 +79,7 @@ Each row sets the plan's figure beside independent ones. "Plan" is section 6's c
 
 ### 1.4 Homes per dollar of capital
 
-When this section was drafted, the plan set no target for homes built or preserved by HOU-3C, HOU-8 and HOU-9A, so neither section 7 nor voters could check the capital against a promise. Espen decided to publish one (`DEC-2026-11-09-10`), and Espen then asked for three numbers. Section 4 proposes them (HOU-3C.04): about 900,000 homes the plan pays for directly, credits included (range 650,000-1,300,000), of which the construction money below is about 500,000 (400,000-700,000); a zoning-reward goal; and a national goal of 15 million homes over 2030-39. This section's rough arithmetic (judgment on every input):
+When this section was drafted, the plan set no target for homes built or preserved by HOU-3C, HOU-8 and HOU-9A, so neither section 7 nor voters could check the capital against a promise. Espen decided to publish one (`DEC-2026-11-09-10`), and Espen then asked for three numbers. Section 4 proposes them (HOU-3C.04): about 900,000 homes the plan pays for directly, credits included (range 630,000-1,300,000), of which the construction money below is about 500,000 (400,000-700,000); a zoning-reward goal; and a national goal of 15 million homes over 2030-39. This section's rough arithmetic (judgment on every input):
 
 | Line | Money | Cost per home used | Homes financed |
 | --- | --- | --- | --- |
@@ -131,8 +131,8 @@ When this section was drafted, the plan set no target for homes built or preserv
 | Subsidy per leased household, FY2030 | $17,000 | $15,800-18,000 from HUD's 2023 figure | Holds; risk upward |
 | Awards leased at steady state, with reissue | 90% | 67% after about two years (EHV); per-search success 57-66% and falling | At risk |
 | Take-up of stage 2 | 85% | 78-88% | Holds |
-| Homes the plan pays for | Proposed: about 900,000 built or preserved, credits included (650,000-1,300,000); construction money's share 500,000 | About 290,000-580,000 from the grants, more with loan-only deals; credits' share from an industry estimate; 0.2-0.5 million net from the capital (arithmetic) | Holds within the range; at risk if costs run high; the credits' share is soft |
-| National homes finished, 2030-39 | Proposed goal: 15 million (13-17 million) | 1.39-1.63 million a year in 2022-25 [EV-HOU-440]; baseline demand about 10 million plus a 1.5-5.5 million shortage [EV-HOU-441] [EV-HOU-442] | Plausible; depends on closing the shortage |
+| Homes the plan pays for | Proposed: about 900,000 built or preserved, credits included (630,000-1,300,000); construction money's share 500,000 | About 290,000-580,000 from the grants, more with loan-only deals; credits' share from an industry estimate; 0.2-0.5 million net from the capital (arithmetic) | Holds within the range; at risk if costs run high; the credits' share is soft |
+| National homes finished, 2030-39 | Proposed goal: 15 million (13-17 million) | 1.39-1.63 million a year in 2022-25 [EV-HOU-440]; holding that pace builds about 6 million more than baseline demand (about 8.7 million in completion terms), against a 1.5-5.5 million shortage [EV-HOU-441] [EV-HOU-442] | Plausible; depends on closing the shortage |
 | Homelessness reduction | Not stated | 0.12-1 fewer homeless person per targeted award | Direction holds; size unknown |
 | Emergency fund | $5 billion a year, 1.4 million households | Value depends on risk targeting | At risk on targeting |
 
