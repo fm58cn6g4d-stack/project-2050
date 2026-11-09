@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 9, 2026 by Claude Code (lead: health direction noted).
+Updated November 9, 2026 by Claude Code (lead: sequence after housing section 7).
 
 ## Standing sessions
 
@@ -96,6 +96,13 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 
 ## Directions for later stages
 
+- **Sequence after housing section 7 (Espen, November 9, 2026: "agreed, go with your recommendation").** Housing goes first, end to end, as the model for the other dossiers:
+  1. the fold-in pass (`DEC-2026-11-09-08` to `-13`);
+  2. section 8;
+  3. section 9;
+  4. the milestone review and Espen's strategic review;
+  5. section 6's proposed budget-model changes, for Espen.
+  Then two dossiers run side by side, the most the board allows: transportation (step 7) and stage D's care work, with health first because it is the largest and settles Medicare for All.
 - **Health (stage D, flagship 2): weigh Medicare for All in full.** Espen, November 9, 2026: "when we get to healthcare in the dossier workflow i want to take a serious look at medicare for all fyi (not just a public option or "medicare for all who want it")". The health dossier treats single-payer as a full design option, given the same evidence, cost, coverage and transition work as a public option, not as a reference alternative. `charter/PLAN.md` (flagship 2 and the health coverage model row) names only a public option; the health session proposes the wording change in its first charter PR (tier 3). The coverage model must be able to score it.
 
 ## Questions for Espen
