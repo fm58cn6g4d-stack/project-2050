@@ -21,7 +21,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
 **Lead handoff (November 9, 2026, about 20:00 UTC)**
-- **Where housing stands.** All nine sections are on main, and every decision is recorded through `DEC-2026-11-09-17`, plus the memo 3b switch to option (b) in #153. Next is the L2/L3 milestone review (row 6), then Espen's strategic review, then section 6's proposed budget-model changes. After that, transportation (step 7) and stage D's health work run side by side ("Directions for later stages").
+- **Where housing stands.** All nine sections are on main, and every decision is recorded through `DEC-2026-11-09-17`, plus the memo 3b switch to option (b) in #153. Next, before the L2/L3 milestone review (row 6): the housing scope addendum Espen asked for ("Directions for later stages", first item), then Espen's strategic review, then section 6's proposed budget-model changes. After that, transportation (step 7) and stage D's health work run side by side ("Directions for later stages").
 - **Open PRs.**
   - #153: the memo 3b switch to option (b); tier 3, approved or under review, needs Espen's label.
   - #155: memo 3b's option (b) written into HOU-2D.01 and section 6. Draft by `session_01UQzgBtwmZTQ5KDasf1JQUB`, which has its own check-in `trig_01LyJSTYyktN1A2v24ymH6N8` to mark it ready after #153.
@@ -124,6 +124,12 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 
 ## Directions for later stages
 
+- **Housing scope, before the milestone review (Espen, November 9, 2026).** Espen is "concerned we have focused too exclusively on low-income households and the actively homeless or those at risk of homelessness, and neglected more robust policy treatments for housing production more broadly... and the ability to buy a home for more middle-class households, especially younger ones". Their asks:
+  - a first-time buyer credit, mortgage-rate reduction, down payment assistance, and low- or zero-interest or forgivable gap or second mortgages;
+  - other creative ideas, including using the construction loan program and federal financing power to make buying or building cheaper;
+  - affordable repair and renovation for homeowners and renters, which crosses with clean power;
+  - helping seniors stay in their homes as they age, under an "age with dignity" frame that crosses with care.
+  None of these has been weighed yet. The dossier has no forks on homeownership finance, broad supply levers beyond the zoning reward and the construction money, owner or renter repair (beyond the neighborhood homes credit and public housing), or aging in place. The lead's recommendation is a section 3 addendum before the milestone review: research, then decision memos, then a fold-in to sections 4-9, under the design lens and with the evidence on buyer subsidies raising prices in tight markets weighed honestly.
 - **Sequence after housing section 7 (Espen, November 9, 2026: "agreed, go with your recommendation").** Housing goes first, end to end, as the model for the other dossiers:
   1. the fold-in pass (`DEC-2026-11-09-08` to `-13`);
   2. section 8;
