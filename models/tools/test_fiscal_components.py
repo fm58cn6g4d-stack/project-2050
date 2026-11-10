@@ -14,23 +14,29 @@ class ComponentTests(unittest.TestCase):
     def setUpClass(cls):
         cls.base=fiscal.read_baseline(HERE.parent/'data/fiscal-baseline.csv')
 
-    def test_total_is_ledger_cost_not_an_additional_claim(self):
-        path=fiscal.row_path(self.base,.56,fiscal.PR.BILLS['HOU-1'],'HOU-1')
-        self.assertAlmostEqual(sum(path[y] for y in range(2030,2040)),560)
+    def mid(self):
+        import csv
+        return float(next(r for r in csv.DictReader(open(HERE.parent/'data/inputs/ledger-bills.csv')) if r['id']=='HOU-1')['cost_mid'])
 
-    def test_full_voucher_increment_survives_2040(self):
-        parts=fiscal.PR.COMPONENTS['HOU-1']
-        base=fiscal.row_path(self.base,parts[0][1],parts[0][2])
-        extra=fiscal.row_path(self.base,parts[1][1],parts[1][2])
-        total=fiscal.row_path(self.base,.56,fiscal.PR.BILLS['HOU-1'],'HOU-1')
-        self.assertAlmostEqual(total[2040]-base[2040],extra[2040])
-        self.assertGreater(extra[2040],extra[2039])
-        self.assertEqual(parts[1][2]['perm'],1)
-        self.assertEqual(parts[1][2]['ramp'],4)
+    def test_total_is_ledger_cost_not_an_additional_claim(self):
+        path=fiscal.row_path(self.base,self.mid(),fiscal.PR.BILLS['HOU-1'],'HOU-1')
+        self.assertAlmostEqual(sum(path[y] for y in range(2030,2040)),self.mid()*1000)
+
+    def test_permanent_rental_help_survives_2040(self):
+        parts={name:(amount,p) for name,amount,p in fiscal.PR.COMPONENTS['HOU-1']}
+        amount,p=parts['hou-4a-one-million-awards-full-fees']
+        path=fiscal.row_path(self.base,amount,p)
+        self.assertGreater(path[2040],path[2039]); self.assertNotIn('end',p)
+
+    def test_time_limited_capital_closes_its_tail(self):
+        parts={name:(amount,p) for name,amount,p in fiscal.PR.COMPONENTS['HOU-1']}
+        amount,p=parts['hou-3c-01-revolving-fund-grants']
+        path=fiscal.row_path(self.base,amount,p)
+        self.assertGreater(path[2040],0); self.assertEqual(path[2041],0)
 
     def test_mismatched_component_allocation_fails(self):
         with self.assertRaises(ValueError):
-            fiscal.row_path(self.base,.47,fiscal.PR.BILLS['HOU-1'],'HOU-1')
+            fiscal.row_path(self.base,self.mid()-.01,fiscal.PR.BILLS['HOU-1'],'HOU-1')
 
 class BookingShapeTests(unittest.TestCase):
     """Optional shapes: a ramp that runs past 2039, an end year after 2039 that closes a tail,

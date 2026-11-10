@@ -13,7 +13,7 @@ class BudgetTests(unittest.TestCase):
     def test_capacity_integration_single_housing_charge(self):
         c=self.d['cases']['mixed']
         housing=[r for r in c['audit'] if r['line']=='HOU-4A PHA administration correction' and r['year'] in M.W]
-        self.assertAlmostEqual(sum(r['primary_outlay_change_bn'] for r in housing),12.2)
+        self.assertAlmostEqual(sum(r['primary_outlay_change_bn'] for r in housing),M.ADOPTION['spending']['housing_base_admin_tn']*1000)
         self.assertAlmostEqual(sum(r['revenue_change_bn'] for r in c['audit'] if r['line']=='IRS yield allowance with smaller capacity budget' and r['year'] in M.W),-250)
         self.assertEqual(M.ADOPTION['spending']['cap_sustained_tn'],.3)
 

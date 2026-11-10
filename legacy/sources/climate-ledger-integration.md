@@ -6,13 +6,13 @@ Before: common outputs rebuilt at `ffe461d32dc0f50f58213bcb5347d49343e46611`. Af
 
 | Measure | Before | After |
 | --- | ---: | ---: |
-| DEC FY2040 GF primary gap ($B) | 71.9 | 71.9 |
-| DEC FY2040 GF primary gap (% GDP) | 0.133 | 0.133 |
-| Recovery mature GF gap (% GDP; negative is headroom) | -0.0083 | -0.0083 |
-| DEC 2056 debt (% GDP) | 155.7 | 156.4 |
-| Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 116.0 |
-| Scenario Q, Q4 annual average ($) | 1,261 | 1,139 |
-| Mixed recovery Q4 FY2039 ($) | -2,906 | -3,054 |
+| DEC FY2040 GF primary gap ($B) | 71.9 | 108.2 |
+| DEC FY2040 GF primary gap (% GDP) | 0.133 | 0.200 |
+| Recovery mature GF gap (% GDP; negative is headroom) | -0.0083 | 0.0938 |
+| DEC 2056 debt (% GDP) | 155.7 | 157.9 |
+| Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 118.0 |
+| Scenario Q, Q4 annual average ($) | 1,261 | 1,158 |
+| Mixed recovery Q4 FY2039 ($) | -2,906 | -3,000 |
 
 The mature-year climate delta is zero in the conservative case, so both maturity measures stay unchanged. Debt rises because early general-fund and capital costs are borrowed, with interest. D4 is not relaxed: DEC still fails maturity; the mixed recovery illustration retains only narrow GF headroom and does not certify all-fund solvency. The mixed recovery tax rates remain illustrative.
 

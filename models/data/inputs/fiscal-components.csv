@@ -1,3 +1,33 @@
-owner,component,mid10,cat,start,ramp,grow,perm,basis
-HOU-1,legacy-housing-title,0.47,out_other_mandatory,2030,2,gdp,0.55,Preserve pre-adoption title path and existing temporary/permanent composition
-HOU-1,additional-600000-voucher-awards,0.09,out_other_mandatory,2030,4,cpi,1.0,Oct 24 adopted one-million total; new recurring assistance remains fully permanent; working price-indexed annual path not an official score
+owner,component,mid10,cat,start,ramp,grow,perm,end,fade,basis
+HOU-1,hou-4a-one-million-awards-full-fees,0.147,out_other_mandatory,2030,5,gdp,1.013,,,"HOU-4A.01-.02: 250,000 awards a year FY2030-33 with lease-up, rent plus fees in full (the legacy fee allowance folded in); permanent; 6-cost.md 1.2"
+HOU-1,hou-4-07-search-help,0.008,out_other_mandatory,2030,3,cpi,1.006,,,HOU-4.07 search help for new awards and moves; permanent; 6-cost.md 1.2
+HOU-1,hou-4d-01-duty-to-house,0.003,out_other_mandatory,2037,1,cpi,0.956,,,"HOU-4D.01 duty to house from 2037 (DEC-2026-11-09-10); permanent, inside the right; 6-cost.md 1.2"
+HOU-1,hou-4-08-stage-3-under-62,0.005,out_other_mandatory,2038,5,cpi,1.746,,,"HOU-4.08 stage 3, disabled renters under 62, from FY2038; about $14B in FY2042; permanent; 6-cost.md 1.2"
+HOU-1,hou-4-08-stage-3-62-and-over,0.005,out_other_mandatory,2039,3,cpi,0.88,,,"HOU-4.08 stage 3, disabled renters 62 and over (DEC-2026-11-10-03); about $13B in FY2041, $14B in FY2042; permanent. Booked from FY2039 (approximation: section 6 starts FY2038); 6-cost.md 1.2"
+HOU-1,hou-1d-04-one-time-start,0.015,out_other_mandatory,2030,1,cpi,0,2032,,"HOU-1D.04 one-time emergency start, spent FY2030-32; 6-cost.md 1.2"
+HOU-1,hou-1d-01-standing-emergency-fund,0.049,out_other_mandatory,2031,1,cpi,0.986,,,"HOU-1D.01-.03 standing emergency fund, $5B a year from FY2031, price-indexed; permanent; 6-cost.md 1.2"
+HOU-1,hou-3c-01-revolving-fund-grants,0.07,out_other_mandatory,2030,1,cpi,0.253,2040,,HOU-3C.01 state revolving fund grants awarded FY2030-37 (DEC-2026-11-09-09); FY2040 tail; borrowed inside the envelope (C21); 6-cost.md 1.2
+HOU-1,hou-3c-02-construction-loan-subsidy,0.014,out_other_mandatory,2030,1,cpi,0.253,2040,,"HOU-3C.02 credit subsidy on $300B of construction loans committed through FY2038, 5% rate pending CBO; FY2040 tail; 6-cost.md 1.2"
+HOU-1,hou-5-01-public-housing-repair,0.057,out_other_mandatory,2030,1,cpi,0.233,2040,,HOU-5.01 public housing repair awarded FY2030-37; FY2040 tail; borrowed inside the envelope (C31); 6-cost.md 1.2
+HOU-1,hou-6-01-zoning-reward,0.025,out_other_mandatory,2031,1,cpi,0.805,2041,,"HOU-6.01 zoning reward (Innovation Fund), paid on finished homes; tails of about $3B in FY2040 and $2B in FY2041 booked as about $2.5B each; 6-cost.md 1.2"
+HOU-1,hou-8-01-social-housing-pilot,0.009,out_other_mandatory,2030,1,cpi,0.983,2040,,"HOU-8.01 social housing pilot equity, about 60,000 homes; FY2040 tail; 6-cost.md 1.2"
+HOU-1,hou-9a-01-federal-builder-capital,0.005,out_other_mandatory,2031,1,cpi,0,,,HOU-9A.01 small federal builder capital (placeholder); time-limited; 6-cost.md 1.2
+HOU-1,hou-4-10-recovery-housing,0.0015,out_other_mandatory,2030,1,cpi,0,2034,,HOU-4.10 recovery housing FY2030-34 (placeholder); 6-cost.md 1.2
+HOU-1,hou-4-12-services-backstop,0.006,out_other_mandatory,2030,1,cpi,1.033,,,"HOU-4.12 HUD services backstop: mandatory FY2030-39, appropriations after (placeholder); continuing; 6-cost.md 1.2"
+HOU-1,hou-4-12-wider-backstop-to-2035,0.006,out_other_mandatory,2030,1,cpi,0,2035,,HOU-4.12 wider backstop through 2035 (DEC-2026-11-09-10; placeholder); 6-cost.md 1.2
+HOU-1,hou-4-06-testing-grants,0.0005,out_other_mandatory,2030,1,cpi,0,2034,,"HOU-4.06 fair housing testing grants, $100M a year FY2030-34 (DEC-2026-11-09-17); 6-cost.md 1.2"
+HOU-1,payment-standards-to-120-percent,0.007,out_other_mandatory,2033,7,gdp,1.025,,,"Payment standards up to 120% where lease-up is low, across HOU-4A, HOU-4D and HOU-4.08 (judgment); permanent; 6-cost.md 1.2"
+HOU-1,inspector-general-set-aside,0.0006,out_other_mandatory,2030,1,cpi,1.0,,,"Inspector general set-aside, $50M a year indexed; permanent; 6-cost.md 1.2"
+HOU-1,federal-administration-set-aside,0.002,out_other_mandatory,2031,8,cpi,1.012,,,"Federal administration, systems and evaluation, 0.5% of program outlays; permanent; 6-cost.md 1.2"
+HOU-1,hou-10-01-down-payment-help,0.028,out_other_mandatory,2030,1,cpi,0.047,2040,,HOU-10.01 down payment help FY2030-39 (DEC-2026-11-09-19); small FY2040 tail; 6-cost.md 1.2
+HOU-1,hou-10-02-fha-premium-cut,0.025,out_other_mandatory,2030,3,gdp,0,,,HOU-10.02 FHA premium cut for loans endorsed through FY2039 (DEC-2026-11-10-03); credit subsidy pending CBO; 6-cost.md 1.2
+HOU-1,hou-11-01-manufactured-home-grants,0.0035,out_other_mandatory,2030,1,cpi,0.759,2040,,"HOU-11.01 manufactured-home community grants FY2030-39 (DEC-2026-11-09-24, -10-01); FY2040 tail; 6-cost.md 1.2"
+HOU-1,hou-12-01-home-repair-fund,0.037,out_other_mandatory,2030,1,cpi,0.287,2040,,"HOU-12.01 home repair fund FY2030-39 with HOU-12.02-.04 inside it (DEC-2026-11-09-25, -10-01); FY2040 tail; 6-cost.md 1.2"
+HOU-1,hou-13-01-property-tax-match,0.0205,out_other_mandatory,2030,5,gdp,1.024,,,HOU-13.01 property-tax match for older owners as states join (DEC-2026-11-09-22); permanent; 6-cost.md 1.2
+HOU-1,hou-13-02-to-04-equity-coordinators-sharing,0.0036,out_other_mandatory,2030,1,cpi,0.86,,,"HOU-13.02-.04 equity protection, service coordinators, home sharing; legal help and coordinators permanent; 6-cost.md 1.2"
+HOU-1,hou-14-01-rural-development-staff,0.0035,out_other_mandatory,2030,1,cpi,0.885,,,HOU-14.01 Rural Development staff and one loan system (DEC-2026-11-10-02); continuing as appropriations; 6-cost.md 1.2
+HOU-1,hou-14-02-section-502-at-scale,0.0035,out_other_mandatory,2030,1,cpi,0.253,2040,,"HOU-14.02 Section 502 at scale, credit subsidy FY2030-39; FY2040 tail; 6-cost.md 1.2"
+HOU-1,hou-14-03-rural-rental-fund-and-vouchers,0.0052,out_other_mandatory,2030,1,cpi,0.783,2040,,"HOU-14.03 rural rental preservation fund and vouchers; fund tail in FY2040 (the vouchers, about $0.06B a year after FY2040, are not continued: approximation); 6-cost.md 1.2"
+HOU-1,hou-14-04-self-help-and-farmworker,0.0023,out_other_mandatory,2030,1,cpi,0.77,2040,,HOU-14.04 self-help and farmworker housing FY2030-39; FY2040 tail; 6-cost.md 1.2
+HOU-1,hou-2d-01-low-income-credit,0.1013,out_other_mandatory,2030,5,gdp,1.016,,,"HOU-2D.01 low-income credit increase with the deep-income and bond-deal boosts (DEC-2026-11-09-08, -18); revenue loss booked in the title (shown as outlays); permanent; pending JCT; 6-cost.md 1.2"
+HOU-1,hou-2d-02-03-trial-credits,0.022,out_other_mandatory,2030,1,gdp,0.533,,0.3,"HOU-2D.02-.03 middle-income and neighborhood homes credits, 2030-34 awards, claims running down to about 2048; revenue loss booked in the title (shown as outlays); pending JCT; 6-cost.md 1.2"
