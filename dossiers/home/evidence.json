@@ -17361,5 +17361,622 @@
   "supports": [
    "dossiers/home/6-cost.md"
   ]
+ },
+ {
+  "id": "EV-HOU-787",
+  "statement": "In a time-and-cost study of 60 high-performing housing agencies, the administrative fees received from July 2013 to June 2014, with an average 75 percent proration, covered 77 percent of the estimated cost of administering the voucher program for the average agency (range 45 to 115 percent); only 2 of the 60 received enough to cover their estimated 2013 costs.",
+  "claim": "data",
+  "figures": [
+   "60",
+   "75",
+   "77",
+   "45",
+   "115",
+   "2"
+  ],
+  "source": "SRC-2400",
+  "anchor": [
+   "During this time period, which includes two different fee rates, the administrative fee proration averaged 75 percent. Only 2 of the 60 PHAs in the study received sufficient fees during this period (with proration) to cover their estimated costs for 2013.",
+   "For the average PHA in the study, the fees received during this period (with proration) covered 77 percent of the estimated cost of administering the program",
+   "Across the 60 PHAs, the percent of costs covered by the fees received (with proration) ranged from 45 to 115 percent."
+  ],
+  "locator": "Executive summary, cost findings (the 2013 costs compared with fees received July 1, 2013 to June 30, 2014)",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HUD PD&R study by Abt Associates (Obama administration), measured by random moment sampling (581,000 responses from more than 900 staff) linked to each agency's full costs. The sample is high performers only, so the costs are what a well-run program costs, not the average agency's. A measurement, not a test of whether more fees would raise performance.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-788",
+  "statement": "Housing Choice Voucher administrative fees have been prorated since 2008: at 90 percent or higher from 2008 to 2010, deepening after 2011 to 69.264 percent in 2013 and 79.769 percent in 2014.",
+  "claim": "data",
+  "figures": [
+   "2008",
+   "90",
+   "2010",
+   "2011",
+   "69.264",
+   "2013",
+   "79.769",
+   "2014"
+  ],
+  "source": "SRC-2400",
+  "anchor": [
+   "Since 2008, HCV administrative fees have been prorated to remain within the amounts authorized under HUD\u2019s appropriations acts. Between 2008 and 2010, the administrative fee proration was 90 percent or higher",
+   "Since 2011, the proration has deepened, dropping to 69.264 in 2013 but rising to 79.769 percent in 2014."
+  ],
+  "locator": "Executive summary, Study Background",
+  "grade": "A",
+  "fact_date": "2014",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HUD's own proration history as reported in its 2015 study. HUD's CY2026 notice estimates 85% [EV-HOU-343].",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-789",
+  "statement": "The high-performing agencies in HUD's fee study spent less than 30 minutes per voucher a year on supportive services and expanding housing opportunities, and reported that they did not have the resources to invest substantial staff time in them, although they valued them.",
+  "claim": "data",
+  "figures": [
+   "30"
+  ],
+  "source": "SRC-2400",
+  "anchor": [
+   "The study estimated that, across all vouchers under lease, the average PHA spent less than 30 minutes per voucher per year providing these types of services.",
+   "The PHAs in the study reported that they did not have the resources to invest substantial staff time in supportive services or expanding housing opportunities, although they valued these activities."
+  ],
+  "locator": "Executive summary, Time on Supportive Services Outside the FSS Program",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "The time is measured; the reason (lack of resources) is the agencies' own report, and agencies are paid by the fees. Same study as EV-HOU-787.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-790",
+  "statement": "A 2025 study of voucher utilization, from interviews at 31 housing agencies and HUD data, found that insufficient administrative fees, largely because rising costs per voucher reduce the number of vouchers generating fees, are a substantial barrier to adopting proven approaches to raising utilization, at a time when best practice calls for more of that spending.",
+  "claim": "analysis",
+  "figures": [
+   "31"
+  ],
+  "source": "SRC-2401",
+  "anchor": [
+   "receiving insufficient administrative fees (largely owing to increasing PUCs that reduce the number of vouchers generating these fees at many PHAs) are a substantial barrier to adopting proven approaches for increasing utilization. PHAs have had to find ways to stretch declining fee revenue at a time when best practices suggest increasing the kind of spending supported by this funding.",
+   "qualitative data derived from interviews with HCV Program experts and key staff at 31 PHAs"
+  ],
+  "locator": "Summary; chapter 8, Headwinds and Opportunities",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "RAND with the Terner Center, peer reviewed, funded by the Cooper Housing Institute. The finding rests on interviews with agency staff, who are paid by the fees, not on a measured effect; it puts the cause mostly on cost growth per voucher, not proration alone. Two of its authors wrote SRC-1444 (EV-HOU-345), so that entry is not independent of it.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-787",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-789",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-791",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-791",
+  "statement": "The housing agency trade groups reported in 2018 a correlation between a higher fee proration one year and more voucher leasing the next: when proration rose from 81.6 percent in 2015, households leased rose by 130,054 the next year, 6 percent; the letter notes that other factors affect leasing too.",
+  "claim": "analysis",
+  "figures": [
+   "81.6",
+   "2015",
+   "130,054",
+   "6"
+  ],
+  "source": "SRC-2402",
+  "anchor": [
+   "We have identified a correlation between a higher administrative fee proration one year and increased voucher leasing the next, although other factors affect leasing too. For example, when the proration was raised from 81.6 percent in 2015, the total number of households leased rose by 130,054 vouchers in the following year, a 6 percent increase."
+  ],
+  "locator": "Letter, page 1",
+  "grade": "C",
+  "fact_date": "2018-04-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Industry letter (CLPHA, NAHRO, PHADA and others), whose members are paid by the fees; a year-to-year correlation in national totals, which other changes (voucher funding, new allocations) also move. Not a measured effect of fees.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-790",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-792",
+  "statement": "Beyond its mandatory rules, federal law lets (does not require) a housing agency or owner deny an applicant whose household member engaged in drug-related, violent or other criminal activity during a reasonable time before admission.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2446",
+  "anchor": [
+   "if the public housing agency or owner of such housing (as applicable) determines that an applicant or any member of the applicant's household is or was, during a reasonable time preceding the date when the applicant household would otherwise be selected for admission, engaged in any drug-related or violent criminal activity"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "42 U.S.C. 13661(c), 2023 edition of the U.S. Code; the ROAD to Housing Act (2026) did not amend it. Subsections (a) and (b) are mandatory: a 3-year bar after a drug-related eviction, waivable, and a bar on current illegal drug users.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-793",
+  "statement": "An owner of federally assisted housing must bar admission of any household that includes a person subject to a lifetime state sex-offender registration requirement.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2447",
+  "anchor": [
+   "an owner of federally assisted housing shall prohibit admission to such housing for any household that includes any individual who is subject to a lifetime registration requirement under a State sex offender registration program."
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "42 U.S.C. 13663(a), 2023 edition; one of the two statutory bans on people with convictions.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-794",
+  "statement": "A public housing agency must permanently bar public housing occupancy and voucher assistance for anyone convicted of manufacturing or producing methamphetamine on the premises of federally assisted housing.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2448",
+  "anchor": [
+   "permanently prohibit occupancy in any public housing dwelling unit by, and assistance under section 1437f of this title for, any person who has been convicted of manufacturing or otherwise producing methamphetamine on the premises"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "42 U.S.C. 1437n(f)(1), 2023 edition; the second statutory ban.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-795",
+  "statement": "HUD stated in 2024 that only two exclusions are statutorily required for people with convictions (lifetime sex-offender registration and methamphetamine production on assisted property), and proposed that agencies consider the recency and relevance of past criminal activity before any discretionary denial.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-2441",
+  "anchor": [
+   "there are only two statutorily\nrequired exclusions for federally assisted housing: persons who are\nsubject to a lifetime registration requirement under a State sex\noffender registration program and persons convicted of producing\nmethamphetamines on federally assisted property.",
+   "The proposed revisions would require that prior to\nany discretionary denial or termination for criminal activity, PHAs and\nassisted housing owners take into consideration multiple sources of\ninformation, including but not limited to the recency and relevance of\nprior criminal activity."
+  ],
+  "grade": "C",
+  "fact_date": "2024-04-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HUD's proposed rule \"Reducing Barriers to HUD-Assisted Housing\" (89 FR 25332), Biden administration. The legal reading matches the statutes (EV-HOU-792 to 794), apart from the drug-eviction and current-drug-use rules, which are not bans on convictions. The rule was withdrawn on January 16, 2025, before taking effect (EV-HOU-796).",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-792",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-793",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-796",
+  "statement": "HUD withdrew its April 2024 proposed rule on criminal-record screening as of January 16, 2025, and said it does not intend to issue a final rule.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "2025"
+  ],
+  "source": "SRC-2442",
+  "anchor": [
+   "The proposed rule published at 89 FR 25332, April 10, 2024, is\nwithdrawn as of January 16, 2025.",
+   "HUD does not intend\nfor a final rule to be issued on this NPRM."
+  ],
+  "grade": "A",
+  "fact_date": "2025-01-16",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Federal Register, January 16, 2025, signed by HUD's acting general counsel in the last days of the Biden administration.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-797",
+  "statement": "HUD's general counsel withdrew guidance documents effective September 25, 2025, among them the April 4, 2016 guidance on applying Fair Housing Act standards to the use of criminal records.",
+  "claim": "data",
+  "figures": [
+   "25",
+   "2025",
+   "4",
+   "2016"
+  ],
+  "source": "SRC-2443",
+  "anchor": [
+   "The withdrawal of the guidance was effective September 25, 2025.",
+   "OGC Guidance Application of Fair Housing April 4, 2016.\nAct Standards to Use of Criminal Records."
+  ],
+  "grade": "A",
+  "fact_date": "2026-07-17",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Federal Register notice of July 17, 2026 (91 FR 44867), second Trump administration. Withdrawing guidance does not change the Fair Housing Act itself.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-798",
+  "statement": "State prisons and the Federal Bureau of Prisons released 453,200 sentenced prisoners in 2023, up from 448,400 in 2022.",
+  "claim": "data",
+  "figures": [
+   "453,200",
+   "448,400"
+  ],
+  "source": "SRC-2437",
+  "anchor": [
+   "States and the FBOP reported a total of 453,200\nreleases of sentenced prisoners from prison in 2023, a\n1% increase (up 4,800) from 448,400 in 2022"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Bureau of Justice Statistics, Prisoners in 2023: Statistical Tables (2025). Prison releases only; jail releases are far more numerous and are not counted here.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-800",
+  "statement": "Family Unification Program vouchers for youth serve people aged 18 to 24 who have left foster care, or will within 90 days, and are homeless or at risk at 16 or older, for up to 36 months; agencies extend them by up to 24 months for youth in a self-sufficiency program or in education or work.",
+  "claim": "data",
+  "figures": [
+   "18",
+   "24",
+   "90",
+   "16",
+   "36"
+  ],
+  "source": "SRC-2407",
+  "anchor": [
+   "for a period not to exceed 36 months, otherwise eligible youths who have attained at least 18 years of age and not more than 24 years of age and who have left foster care, or will leave foster care within 90 days, in accordance with a transition plan described in section 475(5)(H) of the Social Security Act [42 U.S.C. 675(5)(H)], and is homeless or is at risk of becoming homeless at age 16 or older.",
+   "extend the provision of such assistance for up to 24 months beyond the period referred to in paragraph (2)(B)"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "42 U.S.C. 1437f(x), 2023 edition, as amended by the Fostering Stable Housing Opportunities provisions (2020). The ROAD to Housing Act did not change it. HUD's waiver lets youth be referred 180 days before leaving care (Notice PIH 2025-08).",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-801",
+  "statement": "Since FY2020 Congress has appropriated $165 million for new Foster Youth to Independence vouchers; as of June 2026 eligible youth were using only 64 percent of the more than 8,000 available to lease a home.",
+  "claim": "data",
+  "figures": [
+   "2020",
+   "165",
+   "64",
+   "8,000"
+  ],
+  "source": "SRC-2403",
+  "anchor": [
+   "Since fiscal year (FY) 2020, Congress has\nappropriated a total of $165 million for new incremental FYI vouchers.",
+   "eligible youth are utilizing only 64\npercent of the more than 8,000 available FYI vouchers to lease a unit."
+  ],
+  "grade": "A",
+  "fact_date": "2026-06",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HUD request for information, October 30, 2026 (91 FR 68534), second Trump administration, from HUD's Voucher Management System data. The program was renamed the Melania Trump Foster Youth to Independence Initiative in the FY2026 appropriations act.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-803",
+  "statement": "In Ohio's Returning Home pilot, supportive housing for disabled people leaving prison who were homeless or at risk, participants were less likely to be rearrested after a year than a comparison group, but re-incarceration did not differ significantly and the program raised costs by more than $9,500 a person.",
+  "claim": "analysis",
+  "figures": [
+   "1",
+   "9,500"
+  ],
+  "source": "SRC-2440",
+  "anchor": [
+   "individuals in the Returning Home-Ohio (RHO) treatment group had a lower probability of rearrest at the 1-year follow up.",
+   "There was no statistically significant difference between the RHO treatment and comparison groups on the probability of re-incarceration.",
+   "Participation in the program increased costs by more than $9,500 per individual."
+  ],
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "The Justice Department's CrimeSolutions profile of the Urban Institute's quasi-experimental evaluation (121 participants, 118 comparison). One small study; a supportive-housing model, not a voucher. It counts justice costs, not the value of housing.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-804",
+  "statement": "Under the welfare law (PRWORA), an alien who is not a qualified alien is not eligible for any federal public benefit, defined to include any grant, contract or loan provided by a federal agency or with federal appropriated funds.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2417",
+  "anchor": [
+   "an\nalien who is not a qualified alien (as defined in\nsection 1641 of this title) is not eligible for any\nFederal public benefit",
+   "any grant, contract, loan, professional license, or commercial license provided by an\nagency of the United States or by appropriated\nfunds of the United States"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "8 U.S.C. 1611(a) and (c)(1)(A), current code. What counts as a grant to a household rather than to a state is contested (EV-HOU-808, EV-HOU-809).",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-805",
+  "statement": "A nonprofit charitable organization providing a federal, state or local public benefit is not required by the welfare law (PRWORA) to verify an applicant's eligibility.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2420",
+  "anchor": [
+   "a nonprofit charitable organization, in providing any Federal\npublic benefit (as defined in section 1611(c) of\nthis title) or any State or local public benefit\n(as defined in section 1621(c) of this title), is not\nrequired under this chapter to determine, verify,\nor otherwise require proof of eligibility"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "8 U.S.C. 1642(d), current code.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-806",
+  "statement": "The housing law's limits on help for noncitizens apply to a closed list of programs, which includes the Housing Act of 1937 and USDA's direct loan program under section 1472, but not HOME, CDBG or USDA's guaranteed loans.",
+  "claim": "data",
+  "figures": [
+   "1937",
+   "1472"
+  ],
+  "source": "SRC-2410",
+  "anchor": [
+   "the term \u2018\u2018financial assistance\u2019\u2019 means financial assistance\nmade available pursuant to the United States\nHousing Act of 1937",
+   "program under section 1472 of this title or section 1472(c)(5)(D), 1474, 1490a(a)(2)(A), or 1490r of"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "42 U.S.C. 1436a(b)(1), current code. The list continues with sections 1715z and 1715z-1 of title 12, section 101 of the 1965 Act, and sections 1472 and 1490 of title 42 (USDA). HOME, CDBG and the guaranteed loans are not on it (HUD's February 2026 proposed rule lists the covered programs the same way).",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-807",
+  "statement": "The Justice Department's 1997 interim guidance tells a provider required to verify status to begin with a written declaration under penalty of perjury; for qualified aliens, documents or a check with the immigration service follow.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2422",
+  "anchor": [
+   "you should\nbegin by asking the applicant to submit\na written declaration, under penalty of\nperjury"
+  ],
+  "grade": "A",
+  "fact_date": "1997-11-17",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "62 FR 61344, November 17, 1997, Clinton administration; still the operative interim guidance, since final verification rules were proposed in 1998 but never finalized.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-808",
+  "statement": "HUD's November 2025 notice says any grant it administers that no other statute governs is a federal public benefit under the welfare law (PRWORA), and names HOME and CDBG among the covered grant programs; it does not name down payment help.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-2428",
+  "anchor": [
+   "any grants it\nadministers that are not explicitly\ngoverned by another statute are federal\npublic benefits related to housing\nassistance and are subject to the\neligibility requirements under\nPRWORA.",
+   "Covered grant programs\nwith governmental grantees include\nHOME"
+  ],
+  "grade": "C",
+  "fact_date": "2025-11-26",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "90 FR 54363, second Trump administration. It reverses the 1998 reading that block grants to states are not themselves federal public benefits (HHS, 63 FR 41658). A federal court vacated it for twenty states and DC in September 2026 on procedural grounds (EV-HOU-809).",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-809",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-HOU-813",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-809",
+  "statement": "In New York v. Department of Justice, a federal court declared the agencies' notices reinterpreting the welfare law (PRWORA) unlawful under the Administrative Procedure Act and set them aside and vacated them; it separately enjoined the agencies from enforcing them against the plaintiffs, twenty states and DC, and left the agencies free to issue new rules after notice and comment.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2433",
+  "anchor": [
+   "The PRWORA Notices are declared unlawful\nunder the APA and are ordered set aside and vacated.",
+   "Defendants are enjoined from\nimplementing or enforcing the PRWORA Notices or the interpretations contained\ntherein against Plaintiffs by any other means.",
+   "The plaintiffs, who are\ntwenty states and the District of Columbia",
+   "this injunction does not prohibit HHS, ED, DOL, HUD, and their respective\nheads from promulgating new rules related to PRWORA after a period of notice-andcomment rulemaking"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09-21",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "U.S. District Court for the District of Rhode Island, No. 1:25-cv-00345, memorandum and order of September 21, 2026. The vacatur sets the notices aside as rules; only the injunction is limited to the plaintiffs (the court records, at footnote 6, the government's request that vacatur apply only to the named plaintiffs, and does not grant it). The court did not decide the substantive claims against the HUD, HHS, Education and Labor notices. Subject to appeal; appeal status not checked.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-810",
+  "statement": "FHA's 2025 mortgagee letter ended FHA eligibility for non-permanent resident borrowers for case numbers assigned on or after May 25, 2025.",
+  "claim": "data",
+  "figures": [
+   "25",
+   "2025"
+  ],
+  "source": "SRC-2431",
+  "anchor": [
+   "This ML removes the Non-permanent Residents sections in its entirety,\neliminating eligibility for non-permanent resident Borrowers",
+   "must be\nimplemented for FHA case numbers assigned on or after May 25, 2025."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HUD Mortgagee Letter 2025-09, second Trump administration. HUD said no statute or regulation addresses noncitizen eligibility for FHA loans, so a later administration can reverse it by letter.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-811",
+  "statement": "USDA's direct single-family loans require the applicant to be a U.S. citizen or a noncitizen who qualifies as a legal alien, defined by the housing law's noncitizen rule.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2412",
+  "anchor": [
+   "The applicant must be a United States citizen or a noncitizen who qualifies as a legal alien as defined in \u00a7 3550.10 ."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "7 CFR 3550.53(b), eCFR as of November 10, 2026; 3550.10 defines legal alien by Section 214's criteria.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-812",
+  "statement": "USDA's guaranteed single-family loans require applicants to give evidence acceptable to the agency that they are citizens, non-citizen nationals or qualified aliens.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-2414",
+  "anchor": [
+   "Applicants must provide evidence acceptable to the Agency of their status as United States citizens, U.S. non-citizen nationals, or qualified aliens"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "7 CFR 3555.151(b), eCFR as of November 10, 2026; the lender collects the evidence.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-813",
+  "statement": "The Congressional Research Service reports that agency guidance carries the welfare law (PRWORA)'s limits through to the state, local and private providers that deliver federally funded benefits, and that state courts have tended to read the law's catch-all for other state and local benefits narrowly.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-2421",
+  "anchor": [
+   "In other words, PRWORA\u2019s restrictions\ncarry through to state, local, and private benefit providers that deliver federally funded benefits.",
+   "These decisions have tended to read the catchall\nlanguage narrowly, restricting its coverage of non-enumerated state and local benefits."
+  ],
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CRS report R46510 (nonpartisan legal analysis). Whether a property-tax exemption or credit is a \"grant, contract, loan\" or \"similar benefit\" is not settled by any source found.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-799",
+  "statement": "The Prison Policy Initiative estimated from a Justice Department survey that formerly incarcerated people were almost 10 times as likely to be homeless as the general public, and 13 times for people incarcerated more than once.",
+  "claim": "analysis",
+  "figures": [
+   "10",
+   "13"
+  ],
+  "source": "SRC-2449",
+  "anchor": [
+   "formerly incarcerated people are almost 10 times more likely to be homeless than the general public.",
+   "But people who have been incarcerated more than once have rates 13 times higher than the general public."
+  ],
+  "grade": "C",
+  "fact_date": "2018-08",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Advocacy group opposed to mass incarceration (Couloute, 2018), from the Bureau of Justice Statistics' 2008 National Former Prisoner Survey; the report says the survey is not a perfect measure of homelessness. No independent estimate found.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ],
+  "locator": "Report text, introduction and \"The revolving door & homelessness\""
+ },
+ {
+  "id": "EV-HOU-802",
+  "statement": "Between 31 and 46 percent of youth who aged out of foster care in the Midwest study had been homeless at least once by age 26.",
+  "claim": "data",
+  "figures": [
+   "31",
+   "46",
+   "26"
+  ],
+  "source": "SRC-2450",
+  "anchor": [
+   "Between 31% and 46% of our study participants had been homeless at least once by age 26 years."
+  ],
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Dworsky, Napolitano and Courtney, American Journal of Public Health (2013), peer reviewed, from the Midwest Evaluation of the Adult Functioning of Former Foster Youth (Iowa, Wisconsin, Illinois); a bounds estimate.",
+  "supports": [
+   "dossiers/home/4-specification.md"
+  ],
+  "locator": "Abstract, Results"
  }
 ]

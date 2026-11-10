@@ -1,0 +1,1993 @@
+Source: https://www.congress.gov/crs_external_products/R/PDF/R46510/R46510.2.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-11-10
+Original SHA-256: a04c94e38a72b83945fdfc30a973555ad5abd8295626e8ae208b23ea093f7355
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+PRWORA’s Restrictions on Noncitizen
+Eligibility for Federal Public Benefits:
+Legal Issues
+September 3, 2020
+
+Congressional Research Service
+https://crsreports.congress.gov
+R46510
+
+SUMMARY
+
+PRWORA’s Restrictions on Noncitizen
+Eligibility for Federal Public Benefits:
+Legal Issues
+
+R46510
+September 3, 2020
+Ben Harrington
+Legislative Attorney
+
+Title IV of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996
+(PRWORA) restricts the eligibility of non-U.S. nationals (aliens) for many federal benefit
+programs. It applies to federal health care, housing, welfare, unemployment, and retirement
+benefits, as well as many other types of federal benefits. Before PRWORA, individual program statutes established the
+eligibility restrictions for aliens, if any, that applied to particular programs. A major purpose of PRWORA was to establish a
+set of uniform and restrictive eligibility criteria for a broad array of federal benefits. PRWORA also establishes default
+restrictions on alien eligibility for state and local benefits. Those restrictions, which states can override with affirmative
+legislation, are not the subject of this report but may be addressed in future CRS products.
+Under PRWORA’s baseline rule for federal benefits, only “qualified aliens” are eligible for benefits that fall within the
+statute’s definition of “federal public benefit.” Qualified aliens include lawful permanent residents, asylees, refugees, and
+some other groups. This baseline rule, which has some exceptions, bars nonqualified aliens such as holders of Temporary
+Protected Status (TPS), recipients of Deferred Action for Childhood Arrivals (DACA), and nonimmigrants from receiving
+federal public benefits. Beyond the baseline rule, the statute imposes additional restrictions on the eligibility of qualified
+aliens for certain major federal benefit programs, including Temporary Assistance for Needy Families (TANF), Supplemental
+Security Income (SSI), Medicaid, and the Supplemental Nutrition Assistance Program (SNAP).
+Whether PRWORA’s baseline “qualified alien” restriction applies to a particular federal program typically depends on two
+legal questions. The first question is whether the program delivers benefits that constitute “federal public benefits” under the
+PRWORA definition. There is no doubt that TANF, SSI, Medicaid, and SNAP fall within the definition, although this
+certainty comes more from other provisions of PRWORA than the language of the definition itself. By establishing
+specialized eligibility rules for these major programs, PRWORA makes obvious that its restrictions apply to them. Outside of
+these major programs, however, determining whether a given benefit constitutes a “federal public benefit” requires
+interpretation of multiple elements in the PRWORA definition. In the absence of clear guidance on the issue from agencies or
+courts, confusion about the correct interpretation sometimes emerges.
+The second question that often arises is whether PRWORA’s “qualified alien” restriction overrides eligibility rules from
+other statutes. PRWORA provides that its blanket eligibility rules apply “[n]otwithstanding any other provision of law,” but
+the Act did not repeal the sundry preexisting eligibility criteria in specific program statutes. Where these preexisting
+eligibility rules differ from PRWORA, uncertainty may result about which rules govern. Similarly, when Congress creates
+new benefit programs without mentioning PRWORA or establishing clear rules for alien eligibility, confusion can arise as to
+whether the PRWORA restrictions apply. Much case law stands for the proposition that the statutory language
+“notwithstanding any other provision of law” unambiguously overrides inconsistent provisions of other statutes. However,
+some courts have recognized limitations to this proposition, and other principles of statutory interpretation may be invoked in
+favor of the eligibility criteria in specific program statutes. The power of PRWORA’s “notwithstanding” clause to override
+inconsistent provisions of other statutes remains unclear, particularly with respect to later-enacted statutes.
+Federal unemployment benefits and federal student aid programs provide two illustrative examples of the interpretive issues
+that often arise under PRWORA. Both types of benefits, when federally funded, would appear to constitute “federal public
+benefits” under the plain language of the PRWORA definition, although there is little federal agency guidance or caselaw to
+confirm that conclusion. Further, both types of benefits are subject to eligibility rules for aliens that predate PRWORA and
+that are, to varying degrees, broader than the PRWORA “qualified alien” rule. After PRWORA, federal agencies appear to
+have continued applying these earlier eligibility rules. Their legal basis for doing so remains largely unexplained. When
+Congress enacted new types of federal unemployment and student aid benefits in response to the Coronavirus Disease 2019
+(COVID-19) pandemic in 2020, the question of whether PRWORA restricted alien eligibility for the new benefits generated
+confusion and litigation.
+
+Congressional Research Service
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Contents
+What Are the PRWORA Restrictions on Alien Eligibility? ............................................................ 3
+Which Federal Benefit Programs Are Subject to the PRWORA Restrictions? ............................... 5
+PRWORA’s “Federal Public Benefit” Definition ..................................................................... 6
+Category 1: Programs for Which PRWORA Makes Special Provision .............................. 9
+Category 2: Programs That Deliver Enumerated Benefits ................................................ 10
+Category 3: Programs That Deliver Non-enumerated Benefits That Are Arguably
+“Similar” to Enumerated Benefits ................................................................................. 13
+PRWORA’s Interplay with Other Statutes .............................................................................. 16
+Retrospective Application of PRWORA ........................................................................... 16
+Prospective Application of PRWORA .............................................................................. 18
+Case Studies .................................................................................................................................. 19
+Federally Funded Unemployment Insurance Benefits ............................................................ 19
+Federal Unemployment Benefits Created After PRWORA .............................................. 23
+Federal Student Aid ................................................................................................................. 25
+Emergency Financial Aid Under the CARES Act............................................................. 27
+Conclusion ..................................................................................................................................... 30
+
+Appendixes
+Appendix. Glossary ....................................................................................................................... 32
+
+Contacts
+Author Information........................................................................................................................ 34
+
+Congressional Research Service
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+itle IV of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996
+(“PRWORA”),1 codified at 8 U.S.C. §§ 1601–1646, establishes a set of overarching rules
+that restrict the eligibility of non-U.S. nationals (aliens)2 for public benefits.3 These
+restrictions apply to a wide range of federal and state benefits, including health care, housing,
+welfare, unemployment, and retirement benefits, among many others.4
+
+T
+
+Before PRWORA, the authorizing statute for each federal benefit program generally established
+its immigration-related eligibility criteria or lack thereof.5 The statutes for several major federal
+programs—including Supplemental Security Income (SSI), Medicaid, and the version of federal
+welfare that existed before PRWORA (Aid to Families with Dependent Children, or AFDC)—
+limited eligibility to aliens who were “permanently residing [in the United States] under color of
+law,”6 an ill-defined category known by the acronym “PRUCOL.”7 Other program statutes did not
+1 Pub. L. No. 104-193, 110 Stat. 2105, 2260 (1996).
+
+8 U.S.C. § 1101(a)(3) (“The term ‘alien’ means any person not a citizen or national of the United States.”). Some
+have criticized the term as offensive, but it is woven so deeply into PRWORA and the wider body of federal
+immigration statutes that avoiding its use when analyzing them would be difficult. Trump v. Hawaii, 138 S. Ct. 2392,
+2443 n.7 (2018) (Sotomayor, J., dissenting) (“It is important to note . . . that many consider ‘using the term “alien” to
+refer to other human beings’ to be ‘offensive and demeaning.’ I use the term here only where necessary ‘to be
+consistent with the statutory language’ that Congress has chosen and ‘to avoid any confusion in replacing a legal term
+of art with a more appropriate term.’”) (quoting Flores v. United States Citizenship & Immigration Servs., 718 F.3d
+548, 551-552 n. 1 (6th Cir. 2013)); but cf. Barton v. Barr, 140 S. Ct. 1442, 1446 n.2 (2020) (“This opinion uses the term
+‘noncitizen’ as equivalent to the statutory term ‘alien.’”).
+3 See, e.g., Pimentel v. Dreyfus, 670 F.3d 1096, 1099 (9th Cir. 2012) (“[T]he Welfare Reform Act (or ‘PRWORA’) . . .
+dramatically altered alien-eligibility requirements for federal public benefits and for state and local public benefits.”);
+Lewis v. Thompson, 252 F.3d 567, 577 (2d Cir. 2001) (“In the 1996 Welfare Reform Act, Congress altered the terrain
+. . . by imposing sweeping restrictions on aliens’ access to federally sponsored government aid.”). PRWORA is
+sometimes called the “Welfare Reform Act,” see Pimentel, 670 F.3d at 1099; Soskin v. Reinertson, 353 F.3d 1242,
+1245 (10th Cir. 2004), perhaps because, aside from establishing in Title IV the immigration-related eligibility
+restrictions examined in this report, other titles of the Act reformed major federal welfare and nutritional assistance
+programs in ways unrelated to immigration. See Stone v. McGowan, 308 F. Supp. 2d 79, 86 (N.D.N.Y. 2004)
+(“PRWORA replaced the ‘Aid to Families with Dependent Children (“AFDC”)’ program with the ‘Temporary
+Assistance to Needy Families (“TANF”)’ program . . . .”); Arizona v. Shalala, 121 F. Supp. 2d 40, 44–45 (D.D.C.
+2000) (“[PRWORA] drastically altered the federal/state balance as well as the relationship between cash assistance,
+Medicaid, and Food Stamps.”); see generally Christine N. Cimini, The New Contract: Welfare Reform, Devolution, and
+Due Process, 61 MD. L. REV. 246 (2002) (“[T]he Welfare Reform Act was designed to promote job preparation, work
+and marriage among recipients, and to increase administrative flexibility for states.”).
+4 8 U.S.C. §§ 1611, 1621; see Pimentel, 670 F.3d at 1099.
+5 See H.R. REP. NO. 104–725, at 379 (1996) (“Current law limits alien eligibility for most major Federal assistance
+programs, including restrictions on, among other programs, Supplemental Security Income, Aid to Families with
+Dependent Children, housing assistance, and Food Stamps programs. Current law is silent on alienage under, among
+other programs, school lunch and nutrition, the Special Supplemental Food Program for Women, Infants, and Children
+(WIC), Head Start, migrant health centers, and the earned income credit.”); see also, e.g., Mathews v. Diaz, 426 U.S.
+67, 70 (1976) (upholding the constitutionality of 42 U.S.C. § 1395o(2), which denied Medicare Part B eligibility to
+aliens “unless they ha[d] been admitted for permanent residence and also ha[d] resided in the United States for at least
+five years”).
+6 H.R. REP. NO. 104–725, at 379-80 (1996). The Medicaid statute did not establish any eligibility restrictions based on
+immigration status until 1986, when Congress amended it to limit eligibility to PRUCOL aliens. Lewis v. Thompson,
+252 F.3d 567, 573-74 (2d Cir. 2001). Previously, a federal agency had established the PRUCOL requirement by
+regulation, but a federal court held that the regulation violated the statute. Id. at 573.
+7 Lewis, 252 F.3d at 571-72 (2d Cir. 2001) (“PRUCOL . . . is an amorphous and ‘elastic’ [status], but this Court has
+read it to include at least those aliens who are residing in the United States with the INS’s knowledge and permission
+and whom the INS does not contemplate deporting.”); Esparza v. Valdez, 862 F.2d 788, 791-93 (10th Cir. 1988)
+(noting competing federal court, federal agency, and state court interpretations of PRUCOL); cf. 20 C.F.R. §
+416.202(b)(3) (regulation listing seventeen categories of PRUCOL aliens, including one catchall category, for purposes
+of eligibility for supplemental security income).
+2
+
+Congressional Research Service
+
+1
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+establish any eligibility criteria for aliens.8 Sometimes Congress used a single act to amend
+eligibility rules for aliens in the authorizing statutes of multiple programs at once, but the rules
+for each program generally remained in that program’s particular authorizing statute.9 A major
+purpose of PRWORA was to establish a set of restrictive, uniform rules that would apply across a
+broad spectrum of federal benefit programs.10
+PRWORA raises a number of legal issues with respect to federal benefit programs. For the most
+part, these legal issues involve determining which federal programs are governed by the statute’s
+overarching eligibility restrictions. While PRWORA’s applicability is clear for four major federal
+benefit programs—Temporary Assistance for Needy Families (TANF), Supplemental Security
+Income (SSI), Supplemental Nutritional Assistance Program (SNAP), and Medicaid11—its
+applicability to other federal programs is often ambiguous. Often, uncertainty about PRWORA’s
+applicability arises because individual program statutes continue to set forth different
+immigration-related eligibility rules.12 PRWORA provides that its blanket eligibility rules apply
+“[n]otwithstanding any other provision of law,” but the Act did not repeal the sundry preexisting
+eligibility criteria in specific program statutes, such as those for federal student aid programs in
+the Higher Education Act and those for unemployment insurance in the Federal Unemployment
+Tax Act.13 Agencies and courts must therefore determine how the divergent eligibility criteria fit
+together. PRWORA’s applicability is also often unclear where a federal program delivers benefits
+of a type that PRWORA does not reference specifically but that are arguably similar to referenced
+benefit types,14 and where the federal benefits in question were created after PRWORA’s
+enactment.15
+This report explores these legal issues with respect to federal benefit programs. First, the report
+reviews the basic rules that PRWORA establishes for alien eligibility for federal public benefits.
+Second, the report analyzes PRWORA’s definition of “federal public benefit” and examines the
+legal issues that arise when applying the definition to particular federal benefit programs. Third,
+8 H.R. REP. NO. 104–725, at 379 (1996).
+9 See Immigration Reform and Control Act of 1986, Pub. L. No. 99-603, 100 Stat. 3359, 3384-94 (1986) (amending
+
+Social Security Act and housing and education statutes to impose immigration status verification requirements). IRCA
+also imposed a general restriction on federal benefits eligibility for aliens who legalized their status through the
+statute’s major legalization program for aliens who had been unlawfully present since 1982. Id. at 3401 (“Temporary
+disqualification of newly legalized aliens from receiving certain public welfare assistance”). This eligibility restriction
+thus applied across a spectrum of benefit programs, but because it applied only to one category of aliens (those who
+legalized through IRCA), it did not constitute the type of overarching eligibility rule that PRWORA would impose in
+1996. Compare id. with 8 U.S.C. § 1611(a) (“Notwithstanding any other provision of law . . . , an alien who is not a
+qualified alien (as defined in section 1641 of this title) is not eligible for any Federal public benefit . . . .”).
+10 See 8 U.S.C. § 1601 (Statements of national policy concerning welfare and immigration) (stating that “[c]urrent
+eligibility rules for public assistance and unenforceable financial support agreements have proved wholly incapable of
+assuring that individual aliens not burden the public benefits system,” and that “[i]t is a compelling government interest
+to enact new rules for eligibility and sponsorship agreements in order to assure that aliens be self-reliant in accordance
+with national immigration policy”); Korab v. Fink, 797 F.3d 572, 581 (9th Cir. 2014) (“[PRWORA] establishes a
+uniform federal structure for providing welfare benefits to distinct classes of aliens.”).
+11 See infra “Category 1: Programs for Which PRWORA Makes Special Provision.”
+12 See, e.g., Mashiri v. Dep’t of Educ., 724 F.3d 1028, 1033 (9th Cir. 2013) (not resolving whether divergent eligibility
+criteria in Higher Education Act “precluded the application of” PRWORA); see generally infra “Prospective
+Application of PRWORA.”
+13 See 8 U.S.C. § 1611(a).
+14 See infra “Category 3: Programs That Deliver Non-enumerated Benefits That Are Arguably “Similar” to Enumerated
+Benefits.”
+15 See infra “Emergency Financial Aid Under the CARES Act.”
+
+Congressional Research Service
+
+2
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+the report analyzes PRWORA’s interplay with other federal statutes that govern federal public
+benefit programs and that sometimes establish different eligibility rules for aliens for particular
+programs. Finally, the last section of the report examines two case studies—federal
+unemployment benefits and federal student aid benefits—to illustrate the legal issues discussed in
+the previous two sections of the report.
+PRWORA also establishes default restrictions on alien eligibility for state and local benefits.16
+Those restrictions,17 which states can override with affirmative legislation, are not the subject of
+this report but may be addressed in future CRS products.
+
+What Are the PRWORA Restrictions on Alien
+Eligibility?
+As discussed later, PRWORA gives rise to significant legal issues about whether its eligibility
+restrictions for aliens apply to particular federal programs. The eligibility restrictions themselves,
+however, are relatively clear. Once the determination is made that PRWORA restrictions apply to
+a benefit program, the statute does not leave significant ambiguity as to which categories of aliens
+it renders ineligible.
+PRWORA’s framework of eligibility restrictions for federal benefits may be summarized as
+follows (bolded terms are defined in the glossary at the end of the report):
+1. Aliens who are not qualified aliens are not eligible for federal public benefits.18
+a. Exceptions:
+
+
+
+
+
+
+treatment of emergency medical conditions;
+“short-term, non-cash, in-kind emergency disaster relief”;19
+non-cash community assistance programs “such as soup kitchens,
+crisis counseling and intervention, and short-term shelter” specified
+by the Attorney General that are necessary to protect life and safety;
+“lawfully present” aliens are eligible for benefits under Title II of the
+Social Security Act (i.e., retirement, survivors, and disability
+benefits) and for Medicare Part A benefits; and
+
+16 8 U.S.C. § 1621.
+17 PRWORA’s provisions about state benefit programs also raise significant issues of statutory interpretation,
+
+federalism, and constitutional law. Many of these issues concern the reach of the states’ statutory and constitutional
+authority to create their own restrictions on alien eligibility for benefits that they administer. See, e.g., Bruns v.
+Mayhew, 750 F.3d 61, 63 (1st Cir. 2014) (rejecting equal protection challenge to Maine’s termination of state-funded
+health care benefits for aliens ineligible for Medicaid under PRWORA); Korab, 797 F.3d at 583-84 (rejecting equal
+protection challenge to Hawaii’s reduction of state-funded health benefits for certain nonimmigrants ineligible for
+Medicaid under PRWORA); Pimentel v. Dreyfus, 670 F.3d 1096, 1098 (9th Cir. 2012) (rejecting similar challenges to
+Washington State’s termination of state-funded food assistance program for some aliens); but see Aliessa ex. rel. Fayad
+v. Novello, 96 N.Y. 2d 418, 433 (N.Y. 2001) (holding that PRWORA cannot “constitutionally authorize New York to
+determine for itself the extent to which it will discriminate against legal aliens for State Medicaid eligibility”).
+18 8 U.S.C. § 1611(a).
+19 For an analysis of this exception, see Poder in Action v. City of Phoenix, No. CV-20-01429, 2020 WL 5038582, at
+*8-*9 (D. Ariz. Aug. 26, 2020).
+
+Congressional Research Service
+
+3
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+
+
+other exceptions specified in 8 U.S.C. § 1611(b).20
+
+2. Qualified aliens are not eligible for federal means-tested public benefits until five years after
+they enter the United States in a qualified alien status (in other words, there is a five-year
+waiting period for qualified aliens to receive these benefits).21
+a. Exceptions:
+
+
+
+
+
+
+refugees, asylees, lawfully residing veterans and members of the
+Armed Forces, and other categories of aliens described in 8 U.S.C. §
+1613(b);
+certain “assistance and benefits” listed in § 1613(c), including
+treatment of emergency medical conditions and non-cash, short-term
+disaster relief;
+groups described in § 1613(d)—e.g., certain American Indians born in
+Canada—who are seeking SNAP, SSI, or Medicaid.
+
+3. Qualified aliens are not eligible for SSI or SNAP.22 (PRWORA calls these two programs
+“specified federal programs.”)23
+a. Exceptions:
+
+
+
+
+
+
+lawful permanent residents (LPRs) with forty qualifying quarters of
+work history;
+aliens admitted to the United States within the prior seven years as
+refugees, asylees, or in other statuses listed in 8 U.S.C. §
+1612(a)(2)(A);
+for SNAP only, qualified aliens under age 18 and qualified aliens who
+have been in the United States for five years in any status;24 and
+other exceptions listed in 8 U.S.C. § 1612(a)(2).
+
+4. States may impose additional restrictions on qualified alien eligibility for TANF, Medicaid, and
+Social Services Block Grant programs (SSBG).25 (PRWORA calls these three programs
+“designated federal programs.”)26
+a. Exceptions: States may not limit the eligibility of
+
+
+LPRs with forty qualifying quarters of work history;
+
+20 Id. § 1611(b) (exceptions).
+21 Id. § 1613(a).
+22
+
+Id. § 1612(a).
+
+23 Id. § 1612(a)(3).
+24 Under a separate statute, a state may issue SNAP benefits to qualified aliens who are ineligible for the benefits under
+
+§ 1612(a) and § 1613(a), but the state must reimburse the federal government for the benefits. 7 U.S.C. § 2016(i);
+Pimentel v. Dreyfus, 670 F.3d 1096, 1100-01 (9th Cir. 2012).
+25 8 U.S.C. § 1612(b); see Tennessee v. Dep’t of State, 329 F. Supp. 3d 597, 606 (W.D. Tenn. 2018) (“Five years
+following their entry into the United States, qualified aliens may be considered eligible for certain designated federal
+programs, including Medicaid.”), aff’d, 931 F.3d 499 (6th Cir. 2019).
+26 8 U.S.C. § 1612(b)(3).
+
+Congressional Research Service
+
+4
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+
+
+refugees, asylees, and other specified categories of aliens for five
+years (seven years for Medicaid) following their admission to the
+United States in that status;
+
+
+
+other groups of aliens described in 8 U.S.C. § 1612(b)(2).27
+
+Thus, PRWORA establishes one baseline eligibility rule for federal public benefits and a series of
+additional rules for specific categories of federal public benefits (e.g., means-tested federal public
+benefits). The baseline rule, which has important exceptions, is that an alien must fall within one
+of the eight categories listed in the definition of “qualified alien” to be eligible for federal public
+benefits.28 For example, LPRs, asylees, and refugees are “qualified aliens,” but Deferred Action
+for Childhood Arrivals (DACA) recipients and Temporary Protected Status (TPS) holders are
+not.29 For this reason, DACA recipients and TPS holders—to name just two examples of
+nonqualified alien categories—do not qualify for federal public benefits under PRWORA unless
+an exception applies (such as the exception for emergency medical treatment).30
+Moving beyond the baseline rule, even LPRs must wait five years to be eligible for means-tested
+benefits such as Medicaid, TANF, SSI, and SNAP.31 LPRs also must accumulate a ten-year work
+history to be eligible for SSI, SNAP, and (in some states) Medicaid, TANF, and SSBG.32 Other
+categories of qualified aliens, such as asylees and refugees in the country for more than a certain
+number of years who have yet to adjust to LPR status, do not qualify for some of these benefit
+types at all.33
+For more detail about the eligibility rules for major federal benefit programs broken down by
+immigration status, see CRS Report RL33809, Noncitizen Eligibility for Federal Public
+Assistance: Policy Overview, coordinated by Abigail F. Kolker.
+
+Which Federal Benefit Programs Are Subject to the
+PRWORA Restrictions?
+Where the PRWORA eligibility restrictions apply, their consequences for particular categories of
+aliens are rather clear, as described above. Determining whether the restrictions apply to a federal
+benefit program, however, is often the source of legal confusion. This issue turns primarily upon
+27 Id. § 1612(b)(2) (exceptions). A federal district court held in 2018 that the provision in § 1612(b) requiring states to
+
+extend coverage for Medicaid to certain refugees does not violate the Tenth Amendment. See Tennessee v. Dep’t of
+State, 329 F. Supp. 3d 597, 625 (W.D. Tenn. 2018); aff’d on other grounds, 931 F.3d 499 (6th Cir. 2019).
+28 See, e.g., Korab v. Fink, 797 F.3d 572, 575 (9th Cir. 2014); Pimentel v. Dreyfus, 670 F.3d 1096, 1100 (9th Cir. 2012)
+(“Qualified” status is essentially a prerequisite for federal benefits . . . .”). For the groups that fall within the definition
+of qualified alien, see the Glossary in the Appendix.
+29 8 U.S.C. § 1641. For definitions of immigration statuses such a “refugee” and “asylee,” as well as other immigration
+terms, see the United States Citizenship and Immigration Services Glossary, available at
+https://www.uscis.gov/tools/glossary.
+30 See Korab, 797 F.3d at 575 (“The Act renders aliens who are not qualified aliens ineligible for all federal public
+benefits, with only limited exceptions, such as the provision of emergency medical assistance.”).
+31 8 U.S.C. § 1613(a); see, e.g., Odi v. Alexander, 378 F. Supp. 3d 365, 382 (E.D. Pa. 2019) (explaining that an LPR
+who “had not had LPR status for five years . . . was indisputably” barred from Medicaid eligibility under § 1613(a),
+except for emergency treatment).
+32 8 U.S.C. § 1612(a), (b). For Medicaid, a later statute expressly overrides PRWORA to give states the option extend
+coverage to “lawfully residing” children and pregnant women. 42 U.S.C. § 1396b(v)(4)(A) (providing states such
+flexibility “notwithstanding sections 1611(a), 1612(b), 1613, and 1631 of Title 8”).
+33 8 U.S.C. § 1612(a)(2)(A) (providing for refugee and asylee eligibility for SSI and SNAP only during the first seven
+years in such status).
+
+Congressional Research Service
+
+5
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+two questions: (1) whether the program delivers benefits that fit PRWORA’s definition of
+“federal public benefit”; and (2) whether divergent language about alien eligibility in other
+statutes limits or overrides the PRWORA restrictions.
+This section begins by reviewing the “federal public benefit” definition. It then discusses how the
+definition applies to three categories of federal programs: (1) major federal programs for which
+PRWORA makes special provision, such as Medicaid, SNAP, SSI, and TANF; (2) programs that
+deliver benefits enumerated in the “federal public benefit” definition; and (3) programs that
+deliver benefits that are arguably “similar to” the enumerated benefits. The benefits delivered by
+the first category of programs clearly constitute “federal public benefits” governed by PRWORA.
+The second and third categories raise more difficult issues.
+Next, the section reviews the interpretive issues that arise when the PRWORA restrictions conflict
+with or are in tension with eligibility language in other statutes. These interpretive issues come in
+two main varieties: (1) retrospective issues, concerning statutes that predate PRWORA; and (2)
+prospective issues, concerning statutes enacted after PRWORA.
+
+PRWORA’s “Federal Public Benefit” Definition
+PRWORA defines “federal public benefit” as follows:
+(1) Except as provided in paragraph (2), for purposes of this chapter the term “Federal
+public benefit” means—
+(A) any grant, contract, loan, professional license, or commercial license provided by
+an agency of the United States or by appropriated funds of the United States; and
+(B) any retirement, welfare, health, disability, public or assisted housing,
+postsecondary education, food assistance, unemployment benefit, or any other similar
+benefit for which payments or assistance are provided to an individual, household, or
+family eligibility unit by an agency of the United States or by appropriated funds of
+the United States.34
+
+The next paragraph in the statute specifies some benefit types that do not count as federal public
+benefits, such as professional licenses for nonimmigrants admitted to work in that profession.35
+The “federal public benefit” definition requires interpretation because it does not identify the
+specific federal programs that fall within its scope.36 Two federal agencies—the Department of
+Justice (DOJ) and the Department of Health and Human Services (HHS)—have published
+interpretations of the “federal public benefit” definition.37 DOJ and HHS interpret prong (A)
+similarly, but their interpretations of prong (B) differ in some respects.
+Under both agencies’ interpretations of prong (A), it covers programs that provide one of the
+enumerated benefit types (e.g., grants, loans) to individuals through a federal agency or with
+
+34 Id. § 1611(c)(1).
+35 Id. § 1611(c)(2).
+36 Dep’t of Health and Human Servs., Interpretation of “Federal Public Benefit,” 63 Fed. Reg. 41,658, 41,659 (Aug. 4,
+
+1998) (“PRWORA does not identify the specific benefits that are ‘Federal public benefits,’ and the definition in section
+401(c), standing alone, does not provide sufficient guidance for benefit providers to make that determination.”)
+[hereinafter HHS Guidance].
+37 Id.; Dep’t of Justice, Interim Guidance on Verification of Citizenship, Qualified Alien Status and Eligibility Under
+Title IV of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996, 62 Fed. Reg. 61,344 (Nov.
+17, 1997) [hereinafter DOJ Guidance].
+
+Congressional Research Service
+
+6
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+federally appropriated funds.38 Thus, in the words of the DOJ guidance, if a program “provides a
+‘grant,’ ‘contract,’ ‘loan,’ ‘professional license,’ or ‘commercial license’ to an individual, either
+through a U.S. agency or with U.S. appropriated funds, then [the program] provide[s] a ‘federal
+public benefit.’”39
+Prong (B) of the definition is more complicated, primarily because it contains catchall language
+that prong (A) does not. To be a federal public benefit under prong (B), according to the agency
+interpretations, a federal program must meet three elements.40 The benefits that the program
+provides must be (1) one of the enumerated benefit types (e.g., welfare, public housing) or
+“similar” to them; (2) provided by a federal agency or with appropriated federal funds; and (3)
+provided to “an individual, household, or family eligibility unit.”41 Unlike benefits identified
+under prong (A), a program’s benefits do not necessarily fall outside of prong (B) simply because
+they are not enumerated therein.42 Instead, the first element of prong (B) requires an assessment
+of whether a program’s benefits are “similar” to those enumerated in that prong.43 (This catchall
+language is analyzed further below in the subsection titled “Category 3: Programs That Deliver
+Non-enumerated Benefits That Are Arguably “Similar” to Enumerated Benefits.”) As for the third
+element, concerning benefit recipients, the HHS interpretation takes the position that a benefit
+program does not meet it unless the statute authorizing the program has exclusive eligibility
+criteria—that is, unless it “mandate[s] ineligibility” for certain recipients.44 The DOJ
+interpretation does not include this additional gloss about the third element.45 This divergence in
+the agency interpretations could affect decisions about PRWORA’s applicability to federally
+funded, enumerated benefit types that are generally available to broad categories of recipients,
+such as a new form of emergency financial aid that Congress created in 2020 and made generally
+available to higher education students.46 At least one federal court has analyzed this point of
+divergence between the two agency interpretations and rejected the HHS interpretation as
+unpersuasive.47
+38 DOJ Guidance, supra note 37, at 61,361; HHS Guidance, supra note 36, at 41,659.
+39 DOJ Guidance, supra note 37, at 61,361.
+40 Id.; HHS Guidance, supra note 36, at 41,659. The HHS Guidance actually describes a two-part test, but the effect is
+
+the same because it combines two elements of the DOJ test (the provision of benefits to an enumerated category of
+recipient, and provision by a federal agency or with appropriated funds) into a single two-part element. Id.
+41 DOJ Guidance, supra note 37, at 61,361; HHS Guidance, supra note 36, at 41,659. The HHS Guidance actually
+describes the test as having two parts, but the effect is the same because it combines the last two parts of the DOJ test
+into a single element. Id.
+42 DOJ Guidance, supra note 37, at 61,361.
+43 Id. (“If your program provides payments or assistance to an individual, household or family eligibility unit through a
+U.S. agency or by U.S. appropriated funds, but the benefits are not expressly enumerated above, you should consider
+whether the benefits are ‘similar’ to one of the benefits enumerated in (b).”); HHS Guidance, supra note 36, at 41,659.
+44 HHS Guidance, supra note 36, at 41,659 (“[I]n order for a program to be determined to provide benefits to
+‘eligibility units’ the authorizing statute must be interpreted to mandate ineligibility for individuals, households, or
+families that do not meet certain criteria, such as a specified income level or a specified age.”).
+45 DOJ Guidance, supra note 37, at 61,361.
+46 See Oakley v. DeVos, No. 20-cv-03215-YGR, 2020 WL 3268661, at *14 (N.D. Cal. June 17, 2020) (citing HHS
+Guidance); Pls. Reply in Support of Mot. For Prelim. Inj, Oakley v. DeVos, No. 20-cv-03215-YGR, Dkt. no. 21, at 12
+(N.D. Cal. June 1, 2020) (relying on the HHS Guidance to argue that PRWORA does not apply to a form of federally
+funded emergency financial aid that does not contain criteria mandating ineligibility for certain students).
+47 Poder in Action v. City of Phoenix, No. CV-20-01429, 2020 WL 5038582, at *8 (D. Ariz. Aug. 26, 2020) (“Not only
+did HHS fail to explain why a benefit program’s status should turn on whether Congress explicitly laid out the
+eligibility criteria in the statutory text, but HHS’s approach would result in a large number of benefit programs falling
+outside PRWORA’s reach, which would run counter to Congress’s intent in enacting PRWORA.”).
+
+Congressional Research Service
+
+7
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Under the agency interpretations, neither prong of the “federal public benefit” definition
+encompasses benefits provided to public or private entities. As such, grants, loans, and other
+enumerated benefit types provided to those entities—rather than to individuals or households—do
+not themselves count as federal public benefits.48 However, under the DOJ guidance, PRWORA
+still restricts how entities use federal funds to deliver benefits to individuals.49 As DOJ puts it, if
+an entity uses federal grant money “to provide a ‘federal public benefit’—e.g., a ‘loan’ or
+‘welfare’ payment to a poor ‘individual, household or family eligibility unit’—then . . . nonqualified aliens would be ineligible for such benefits.”50 In other words, PRWORA’s restrictions
+carry through to state, local, and private benefit providers that deliver federally funded benefits.51
+At least two federal court decisions support this interpretation.52 The language of the federal
+public benefit definition also appears to support the interpretation, by encompassing benefits
+provided with federal funds even if they are not provided by a federal agency.53 The HHS
+Guidance appears to support the interpretation as well, although it does not address the issue
+thoroughly.54
+Still, the general rule that PRWORA’s restrictions carry through to public and private entities that
+deliver federally funded benefits has an important limitation for “nonprofit, charitable
+organizations.”55 PRWORA does not require such organizations to verify recipient immigration
+status when using federal funds to pay out federal public benefits to individuals or households.56
+The agency interpretations described above were issued as guidance that did not go through the
+notice and comment rulemaking process set forth in the Administrative Procedure Act (APA) for
+agency rules with the force of law.57 As such, the interpretations may not trigger the highest level
+of judicial deference from federal courts.58 Nonetheless, the DOJ and HHS interpretations
+48 DOJ Guidance, supra note 37, at 61,361; HHS Guidance, supra note 36, at 41,659.
+49 DOJ Guidance, supra note 37, at 61,361.
+50 Id. at 61,361-62.
+51
+
+See id.
+
+52 Pimentel v. Dreyfus, 670 F.3d 1096, 1099 n.4 (9th Cir. 2012) (“[A] federally funded benefit is still considered a
+
+‘federal public benefit’ even if administered by a state or local agency.”); Uriostegui v. Alabama Crime Victims Comp.
+Comm’n, No. 2:10-CV-1265-PWG, 2010 WL 11613802, at *14 (N.D. Ala. Nov. 16, 2010), report and
+recommendation adopted, No. 2:10-CV-1265-LSC, 2011 WL 13285298 (N.D. Ala. Jan. 12, 2011).
+53 See 8 U.S.C. § 1611(c)(1)(A), (B) (covering enumerated benefits “provided by an agency of the United States or by
+appropriated funds of the United States”).
+54 HHS Guidance, supra note 36, at 41,661 (“Without prompt issuance of this interpretation, state and local
+governments and other public and private benefit providers will remain confused over how to implement the
+requirements of Title IV of PRWORA.”).
+55 DOJ Guidance, supra note 37, at 61,345-46.
+56 8 U.S.C. § 1642(d) (“[A] nonprofit charitable organization, in providing any Federal public benefit (as defined in
+section 1611(c) of this title) or any State or local public benefit (as defined in section 1621(c) of this title), is not
+required under this chapter to determine, verify, or otherwise require proof of eligibility of any applicant for such
+benefits.”). Other statutes, however, may require such organizations to verify immigration status notwithstanding the
+exception in PRWORA. DOJ Guidance, supra note 37, at 61,346 (“[I]ndependent requirements are not altered by the
+provision exempting nonprofit charitable organizations from [PRWORA]’s verification requirements.”). If an
+organization that falls within the exemption chooses to verify immigration status on its own initiative, then PRWORA
+still prohibits the organization from delivering federal public benefits to nonqualified aliens. Id.
+57 DOJ Guidance, supra note 37, at 61,345; HHS Guidance, supra note 36, at 41,660-61. On APA notice and comment
+requirements, see CRS Report R44356, The Good Cause Exception to Notice and Comment Rulemaking: Judicial
+Review of Agency Action, by Jared P. Cole, at 1.
+58 See CRS Report R44954, Chevron Deference: A Primer, by Valerie C. Brannon and Jared P. Cole, at 5; cf. United
+States v. Mead Corp., 533 U.S. 218, 226-27 (2001) (“[A]dministrative implementation of a particular statutory
+provision qualifies for Chevron deference when it appears that Congress delegated authority to the agency generally to
+
+Congressional Research Service
+
+8
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+represent perhaps the most thorough analysis of the “federal public benefit” definition issued by
+agencies or courts.59 More formal agency interpretations of the “federal public benefit” definition
+are lacking. DOJ proposed regulations to implement the PRWORA eligibility rules, in conformity
+with a provision of the statute that charged DOJ with this responsibility,60 but it never finalized
+them.61 Other agencies have issued regulations reflecting determinations that PRWORA applies to
+particular federal programs, but these regulations do not offer broad interpretations of the “federal
+public benefit” definition.62 Judicial interpretation of the definition has also been sparse, as
+discussed in more detail below.63
+
+Category 1: Programs for Which PRWORA Makes Special Provision
+PRWORA leaves little doubt that the benefits delivered by some major federal programs fall
+within the sweep of its restrictions. In provisions outside of the “federal public benefit” definition,
+PRWORA makes clear that its eligibility framework applies to a set of “specified” or
+“designated” federal programs, including Medicaid, TANF, SSI, SNAP, and SSBG. Specifically,
+PRWORA cites the authorizing statutes for these programs and establishes additional eligibility
+restrictions for them in 8 U.S.C. § 1612 that go beyond the “qualified alien” requirement.64
+These major, federally funded programs deliver benefits enumerated in the “federal public
+benefit” definition and therefore appear to fit within it (e.g., Medicaid delivers “health” benefits;
+TANF delivers “welfare” benefits).65 But because PRWORA creates special eligibility rules for
+these programs, it is not necessary to parse the elements of the “federal public benefit” definition
+to determine that PRWORA restricts eligibility for them.66
+Later statutes may expressly amend or override PRWORA to ease eligibility restrictions for these
+programs.67 Short of such an express exception, however, the PRWORA eligibility rules clearly
+make rules carrying the force of law, and that the agency interpretation claiming deference was promulgated in the
+exercise of that authority.”); see also Poder in Action v. City of Phoenix, No. CV-20-01429, 2020 WL 5038582, at *7
+(D. Ariz. Aug. 26, 2020) (declining to apply Chevron deference to the HHS interpretation). Federal courts might still
+find the reasoning in the agency interpretations persuasive, however. See Uriostegui v. Alabama Crime Victims Comp.
+Comm’n, No. 2:10-CV-1265-PWG, 2010 WL 11613802, at *14 (N.D. Ala. Nov. 16, 2010) (quoting the DOJ Guidance
+with approval), report and recommendation adopted, No. 2:10-CV-1265-LSC, 2011 WL 13285298 (N.D. Ala. Jan. 12,
+2011); Poder in Action, 2020 WL 5038582 at *7 (“[T]he deference owed to HHS’s interpretation (if any) would reach
+only to the extent that the agency's reasoning is persuasive.”) (internal quotation marks omitted).
+59 See Oakley v. DeVos, No. 20-cv-03215-YGR, 2020 WL 3268661, at *14 (N.D. Cal. June 17, 2020) (relying on HHS
+Guidance); Uriostegui, 2011 WL at *14 (relying on DOJ Guidance).
+60 8 U.S.C. § 1641(a).
+61 See Dep’t of Justice, Verification of Eligibility for Public Benefits, 63 Fed. Reg. 41,665 (Aug. 4, 1998).
+62 See 7 C.F.R. § 400.679(d) (providing that nonqualified aliens are not eligible for federal crop insurance benefits due
+to PRWORA); 42 C.F.R. § 436.406 (applying PRWORA rules to Medicaid).
+63 See Mashiri v. Dep’t of Educ., 724 F.3d 1028, 1032 (9th Cir. 2013) (mentioning PRWORA’s eligibility rules without
+determining their impact on federal financial aid programs); infra text at note 180 (discussing lack of case law on
+PRWORA’s applicability to unemployment insurance programs).
+64 8 U.S.C. § 1612(a) (framework of rules for the “specified federal programs” of SSI and SNAP), (b) (framework of
+rules for the “designated federal programs” of TANF, SSBG, and Medicaid).
+65 Id. § 1611(c)(1)(B).
+66 See id. § 1612; HHS Guidance, supra note 36, at 41,658 (stating that Medicaid, SSBG, and TANF, among other
+programs, are “federal public benefits” under PRWORA); id. at 41,660 (explaining that, without the citation to SSBG
+in 8 U.S.C. § 1612, HHS would have harbored doubt about whether some benefits provided through the program
+constituted “federal public benefits”).
+67 E.g., Children’s Health Insurance Program Reauthorization Act of 2009, Pub. L. No. 111-3 § 214(a), 123 Stat. 8, 5657 (2009) (codified at 42 U.S.C. § 1396b(v)(4)(A)) (overriding PRWORA to allow states to grant Medicaid coverage to
+
+Congressional Research Service
+
+9
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+apply to these programs.68 Questions may still arise over the correct outcome under the rules in
+some liminal cases—particularly when the immigration status that an alien holds is unclear.69 But
+there is typically no uncertainty about the foundational point that the PRWORA rules do, in fact,
+apply to these major programs.70
+Conversely, PRWORA also makes clear that its eligibility rules for federal public benefits do not
+apply to some other federal programs that it cites by authorizing statute, such as “the school lunch
+program under the Richard B. Russell National School Lunch Act” and “the school breakfast
+program under section 4 of the Child Nutrition Act of 1966.”71 In a similar vein, PRWORA
+exempts other federal programs from its general eligibility rules and subjects them instead to
+more forgiving eligibility criteria. For example, Section 1611(b) specifies that aliens need not be
+“qualified aliens” to be eligible for retirement, survivors, and disability benefits under Title II of
+the Social Security Act; instead, aliens may be eligible for these benefits if they are “lawfully
+present.”72 Medicare receives the same treatment under PRWORA,73 as do certain railroad
+retirement and unemployment benefits.74 In each case, PRWORA’s impact on the eligibility rules
+is clear.75
+
+Category 2: Programs That Deliver Enumerated Benefits
+Beyond the major federal programs described above that are cited by their authorizing statutes
+and singled out for special treatment in the text of PRWORA, a second category of federal
+programs deliver benefits enumerated in the “federal public benefit” definition. Examples include
+Department of Labor programs that provide unemployment benefits,76 Department of Education
+some nonqualified children and pregnant women); Noncitizen Benefit Clarification and Other Technical Amendments
+Act, Pub. L. No. 105-306, § 2, 112 Stat. 2926, 2927 (1998) (codified at 8 U.S.C. § 1611(b)(5)) (amending PRWORA to
+add an exception allowing nonqualified aliens who were receiving SSI benefits before August 22, 1996, to remain
+eligible for such benefits).
+68 See, e.g., Lewis v. Thompson, 252 F.3d 567, 580-82 (2d Cir. 2001) (holding that PRWORA “unequivocal[ly]”
+renders nonqualified aliens ineligible for Medicaid); City of Chicago v. Shalala, 189 F.3d 598, 601 (7th Cir. 1999) (“In
+§ 402(b) of [PRWORA] [8 U.S.C. § 1612(b)], Congress authorized the states, subject to certain exceptions, to
+determine the eligibility of qualified aliens for three other federal benefit programs: Temporary Assistance for Needy
+Families (‘TANF’), Social Services Block Grants (‘SSBG’), and Medicaid.”); HHS Guidance, supra note 36, at
+41,658-660.
+69 See Taylor v. Barnhart, 399 F.3d 891, 896 (8th Cir. 2005) (considering whether an alien who had been admitted as an
+adoptive child in 1984 but did not have further evidence of status was “lawfully present” for purposes of 8 U.S.C. §
+1611(b)(2)); Joubert v. Barnhart, 396 F. Supp. 2d 1320, 1326 (S.D. Fla. 2005) (analyzing whether an alien was a
+“Cuban and Haitian entrant” for purposes of an exception to the general bar on the eligibility of qualified aliens for
+SSI).
+70 See Lewis, 252 F.3d at 580-82; see generally Andrew Hammond, The Immigration-Welfare Nexus in A New Era?, 22
+LEWIS & CLARK L. REV. 501, 515-16 (2018) (describing post-PRWORA eligibility rules for TANF, Medicaid, SNAP,
+and SSI).
+71 8 U.S.C. § 1615(a).
+72 Id. § 1611(b)(2).
+73 Id. § 1611(b)(3).
+74 Id. § 1611(b)(4).
+75 See Texas v. United States, 809 F.3d 134, 198 (5th Cir. 2015) (explaining that PRWORA permits lawfully present
+aliens to be eligible for Medicare, social security retirement, and social security disability benefits),
+76 See Wimberly v. Labor and Indus. Relat. Comm’n of Missouri, 479 U.S. 511, 514 (1987) (“The Federal
+Unemployment Tax Act (Act), 26 U.S.C. § 3301 et seq., enacted originally as Title IX of the Social Security Act in
+1935, 49 Stat. 639, envisions a cooperative federal-state program of benefits to unemployed workers.”); see generally
+CRS Report RL33362, Unemployment Insurance: Programs and Benefits, by Julie M. Whittaker and Katelin P. Isaacs,
+at 1-2.
+
+Congressional Research Service
+
+10
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+programs that provide federal student aid,77 and Department of Housing and Urban Development
+programs that provide housing benefits.78
+PRWORA’s applicability to programs in this category is not as clear as its applicability to the
+major federal programs in Category 1. To be sure, by delivering enumerated benefits, these
+programs clearly satisfy one element of the “federal public benefit” definition.79 But that
+definition has other elements, as described above. To constitute a “federal public benefit,” an
+enumerated benefit must also be delivered by a federal agency or with federally “appropriated
+funds.”80 Further, for benefits under prong (B) of the definition (e.g., unemployment and housing
+benefits), the benefits must be provided “to an individual, household, or family eligibility unit.”81
+Thus, where PRWORA does not otherwise make clear that it applies to a particular program—as
+in the case of Medicaid, TANF, SSI, and SNAP—assessing whether the program provides
+enumerated benefits that satisfy these additional elements requires interpretation.82 For example,
+one court has expressed doubts about whether a form of federally funded student aid widely
+available to university students during the COVID-19 pandemic satisfied the “individual,
+household, or family eligibility unit” element of prong (B) of the “federal public benefit”
+definition.83 Furthermore, separate questions often arise about whether alien eligibility for
+programs in this category is governed by other statutes that are more specific to the programs,
+rather than by PRWORA.84 With respect to federal housing programs, for instance, doubt has
+persisted over the relationship between PRWORA and the slightly divergent eligibility criteria in
+Section 214 of the Housing and Community Development Act of 1980.85 These significant
+interpretive issues about whether programs in this category are subject to the PRWORA eligibility
+restrictions are explored in more depth below, in the discussion of PRWORA’s interplay with
+other statutes and in the case studies section of this report.
+Resolution of the ambiguity about whether federal programs in this category deliver “federal
+public benefits” often depends upon whether the relevant federal agency promulgates regulations
+or other guidance on the topic. Where an agency specifies by regulation or guidance that
+PRWORA’s “qualified alien” restriction applies, the ambiguity often ends there.86 The HHS
+Guidance examined above, for example, lists thirty-one HHS programs that the agency has
+77 See 20 U.S.C. § 1070; see generally CRS Report R43351, The Higher Education Act (HEA): A Primer, by Alexandra
+
+Hegji, at 9 (“Title IV of the HEA contains nine parts that authorize a broad array of programs and provisions to assist
+students and their families in gaining access to and financing a postsecondary education.”).
+78 See 42 U.S.C. § 1436a; see CRS Report R46462, Noncitizen Eligibility for Federal Housing Programs, by Maggie
+McCarty and Abigail F. Kolker, at 7.
+79 See 8 U.S.C. § 1611(c)(1); DOJ Guidance, supra note 37, at 61,361.
+80 See 8 U.S.C. § 1611(c)(1)(A); DOJ Guidance, supra note 37, at 61,361.
+81 See 8 U.S.C. § 1611(c)(1)(B); DOJ Guidance, supra note 37, at 61,361.
+82 See HHS Guidance, supra note 36, at 41,659 (commenting that the federal public benefit definition requires
+interpretation because it does not specify the particular programs to which it applies).
+83 See Oakley v. DeVos, No. 20-cv-03215-YGR, 2020 WL 3268661, at *14 (N.D. Cal. June 17, 2020) (“HEERF relief
+is targeted toward [universities] to provide aid to their students, not directed to individual eligibility units. These
+characteristics suggest that HEERF does not meet the definition of ‘Federal public benefit’ in Section 1611(a).”)
+84 See, e.g., Mashiri v. Dep’t of Educ., 724 F.3d 1028, 1033 (9th Cir. 2013) (not resolving whether divergent eligibility
+criteria for federal student aid in Higher Education Act “precluded the application of” PRWORA).
+85 Compare 8 U.S.C. §§ 1611, 1642 (qualified alien rule), with 42 U.S.C. § 1436a (eligibility criteria for certain federal
+housing assistance programs); see CRS Report R46462, Noncitizen Eligibility for Federal Housing Programs, by
+Maggie McCarty and Abigail F. Kolker, at 7 (“The inconsistent statutory treatment of certain categories of noncitizens
+between Section 214 and PRWORA has led some to call for statutory changes.”).
+86 See, e.g., HHS Guidance, supra note 36, at 41,658.
+
+Congressional Research Service
+
+11
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+determined deliver “federal public benefits” within the meaning of § 1611(c).87 In a more targeted
+action, the Department of Agriculture issued a bulletin taking the position that only “qualified
+aliens” are eligible for the federal crop insurance program.88 The agency reasoned that the
+benefits are delivered in the form of “contracts that are supported by appropriated funds” and
+therefore fell within prong (A) of the federal public benefit definition.89 The agency later revised
+its program regulations to conform to this interpretation.90 Such agency interpretations, supported
+by legal reasoning, have brought a level of clarity to how PRWORA affects these specific
+programs.91 Even if an agency’s interpretation of how PRWORA applies to a federal program is
+challenged in court, which appears uncommon, the challenge may produce case law that itself
+clarifies the applicable eligibility rules.92
+On the other hand, when agency guidance imposes immigration-related eligibility rules that
+appear to derive from PRWORA, but does not clearly explain the legal reasoning behind the
+rules, unresolved questions may linger about how PRWORA applies and what limitations it
+imposes.93 Similarly, where an agency remains silent about PRWORA’s impact on a federal
+program’s eligibility rules for aliens, significant doubt may persist about whether it applies.94
+Such doubt becomes particularly relevant to Congress when it seeks to create new benefits of a
+similar nature to be administered by the same agency; unless the new legislation addresses alien
+eligibility expressly, at the time of enactment Congress will not know with certainty which
+categories of aliens will be eligible for the new benefits.95
+87 HHS Guidance, supra note 36, at 41,658.
+88 Dep’t of Agric., Bulletin No: MGR-05-008, Eligibility for Federal Crop Insurance Benefits for Non-Citizens without
+
+a Social Security Number, at 2 (May 26, 2005), https://www.ag-risk.org/FCICDOCU/MGRBUL/2005/m05008.pdf.
+89 Id.
+90 7 C.F.R. § 400.679(d); see Dep’t of Agric., General Administrative Regulations; Mutual Consent Cancellation; Food
+Security Act of 1985, Implementation; Denial of Benefits; and Ineligibility for Programs Under the Federal Crop
+Insurance Act, 79 Fed. Reg. 2075, 2080 (Jan. 13, 2014) (issuance of final rule).
+91 See, e.g., 45 C.F.R. § 1370.5(d) (“All [Family Violence Prevention and Services Act]-funded services must be
+provided without requiring documentation of immigration status because HHS has determined that FVPSA-funded
+services do not fall within the definition of federal public benefit that would require verification of immigration
+status.”); Leslye Orloff, Lifesaving Welfare Safety Net Access for Battered Immigrant Women and Children:
+Accomplishments and Next Steps, 7 WM. & MARY J. WOMEN & L. 597, 623 n.224 (2001) (explaining that “[a]ny HHSfunded program not on the list is not a federal public benefit”).
+92 See Uriostegui v. Alabama Crime Victims Comp. Comm’n, No. 2:10-CV-1265-PWG, 2010 WL 11613802, at *12
+(N.D. Ala. Nov. 16, 2010) (rejecting DOJ interpretation of PRWORA’s applicability to a federally funded victim’s
+compensation program), report and recommendation adopted, No. 2:10-CV-1265-LSC, 2011 WL 13285298 (N.D. Ala.
+Jan. 12, 2011); cf. Washington v. DeVos, -- F. Supp. 3d -- , 2020 WL 4275041, at *6 (E.D. Wash. July 24, 2020)
+(“Congress’s inconsistent language in Section 18004 of the CARES Act is too ambiguous to demonstrate a ‘clear and
+manifest’ intent to override the longstanding and generally applicable PRWORA bar.”); Oakley v. DeVos, -- F. Supp.
+3d --, 2020 WL 3268661, at *15-16 (N.D. Cal. June 17, 2020) (in contrast to Washington, holding that 8 U.S.C. § 1611
+likely does not restrict eligibility for the emergency financial aid grants).
+93 E.g., DEP’T OF EDUC., FEDERAL STUDENT AID HANDBOOK 2019-20, at 1-41 (stating that aliens granted withholding of
+removal are ineligible for federal student aid, without explaining apparent tension with the classification of such aliens
+as “qualified aliens” under 8 U.S.C. § 1641(b)(5)) [hereinafter Federal Student Aid Handbook],
+https://ifap.ed.gov/sites/default/files/attachments/2019-08/1920FSAHbkVol1Master.pdf; SMALL BUS. ADMIN.,
+DISASTER ASSISTANCE PROGRAM, STANDARD OPERATING PROC. 50 30 9, at 19 (May 31, 2018) (stating that alien-owned
+business entities ineligible for economic injury disaster loans (EIDL) if a nonqualified alien owns twenty percent or
+more of the entity, without explaining whether this rule is based in PRWORA or, if so, why the agency determined that
+PRWORA applies to business entities).
+94 See infra “Federally Funded Unemployment Insurance Benefits.”
+95 Compare Oakley, 2020 WL 3268661, at *15-16 (holding that PRWORA likely does not restrict emergency financial
+aid under the CARES Act), with Washington, 2020 WL 4275041, at *6 (holding that PRWORA does restrict eligibility
+
+Congressional Research Service
+
+12
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Category 3: Programs That Deliver Non-enumerated Benefits That Are
+Arguably “Similar” to Enumerated Benefits
+A third category of federal programs do not receive specialized treatment under PRWORA, do
+not deliver benefits of a type enumerated in the “federal public benefit” definition (such as
+“welfare” or “unemployment benefits”), but do deliver benefits of a type that are arguably
+“similar” to the enumerated benefit types.96 Examples from federal case law include federally
+funded victim’s compensation programs97 and life insurance benefits for the survivors of federal
+employees.98 Whether the benefits delivered by such programs constitute “federal public benefits”
+under PRWORA is often unclear.
+Sometimes, language from other parts of PRWORA helps to resolve such questions. For example,
+the Federal Emergency Management Agency (FEMA) administers some federal programs that
+deliver cash assistance for people affected by disasters.99 Examples include the Individuals and
+Households Program, through which FEMA may provide grants directly to individuals and
+households after a disaster,100 and the Disaster Unemployment Assistance program.101 PRWORA
+does not cite either program by their authorizing statutes or create specialized eligibility rules for
+them. Nor does PRWORA’s definition of “federal public benefits” include disaster relief benefits
+in its list of enumerated benefit types.102 Yet there has not been confusion on the point that
+PRWORA does, in fact, restrict eligibility for these cash assistance programs. This is because 8
+U.S.C. § 1611(b) provides that the baseline eligibility rule restricting federal public benefits to
+“qualified aliens” does not apply to “[s]hort-term, non-cash, in-kind emergency disaster relief.”103
+By carving out “non-cash” disaster assistance from the baseline eligibility restriction for federal
+public benefits, PRWORA implies that the restriction does apply to other forms of disaster relief
+(including cash assistance).104 FEMA has interpreted PRWORA this way—to bar nonqualified
+aliens from eligibility for disaster relief paid in cash—and the interpretation does not appear to
+have generated disagreement.105
+for the financial aid); see infra “Emergency Financial Aid Under the CARES Act.”
+96 See 8 U.S.C. § 1611(c).
+97 Uriostegui v. Alabama Crime Victims Comp. Comm’n, No. 2:10-CV-1265-PWG, 2010 WL 11613802, at *14 (N.D.
+Ala. Nov. 16, 2010), report and recommendation adopted, No. 2:10-CV-1265-LSC, 2011 WL 13285298 (N.D. Ala.
+Jan. 12, 2011).
+98 Herrera v. Metro. Life Ins. Co., No. 11-CV-1901, 2011 WL 6415058, at *9 (S.D.N.Y. Dec. 19, 2011).
+99 See generally CRS Report R46014, FEMA Individual Assistance Programs: An Overview, by Elizabeth M. Webster.
+100 See Barbosa v. Dep’t of Homeland Sec., 916 F.3d 1068, 1069 (D.C. Cir. 2019); CRS Report R44619, FEMA
+Disaster Housing: The Individuals and Households Program—Implementation and Potential Issues for Congress, by
+Shawn Reese.
+101 See Maleche v. Solis, 692 F. Supp. 2d 679, 683 (S.D. Tex. 2010).
+102 8 U.S.C. § 1611(c).
+103 Id. § 1611(b)(1)(B).
+104
+See id.
+105 See Fed. Emergency Mgmt. Agency, FACT SHEET: Citizenship Status and Eligibility for Disaster Assistance FAQ
+(Nov. 15, 2019) (“[Y]ou must be a U.S. citizen, non-citizen national or Qualified Alien to be eligible for Disaster
+Unemployment Assistance.”), https://www.fema.gov/news-release/20200220/fact-sheet-citizenship-status-andeligibility-disaster-assistance-faq; cf. Coal. of Fla. Farmworker Orgs., Inc. v. Fed. Emergency Mgmt. Agency, No. 0680143-CIV, 2007 WL 9701970, at *2 (S.D. Fla. Sept. 12, 2007) (explaining without deciding on the merits the question
+whether PRWORA renders nonqualified aliens ineligible for temporary housing assistance—as opposed to emergency
+disaster shelter—under Section 408 of the Stafford Act). Separately, the Small Business Administration (SBA) appears
+to interpret PRWORA to restrict the eligibility even of business entities for federally funded disaster loans. The
+agency’s standard operating procedure for disaster loans states that “[i]f any member, partner, or shareholder, owning
+
+Congressional Research Service
+
+13
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Where other provisions of PRWORA do not clarify the reach of the catchall language, agencies
+and courts must determine whether benefits from a program in this category are “similar” to the
+enumerated benefit types in 8 U.S.C. § 1611(c). Many different considerations might inform that
+determination, and, as a result, federal case law in this area is varied. In one case, a federal district
+court held that a victim’s compensation program in Alabama that delivers cash payments to some
+victims of violent crime is subject to the PRWORA eligibility restrictions, meaning that
+nonqualified aliens are not eligible for the program.106 The program is administered by a state
+agency, but sixty percent of the cash payments are funded by federal grants authorized by the
+Victims of Crime Act of 1980.107 The court reasoned that cash payments for victim compensation
+“cushion the economic blow that often results when a claimant becomes a ‘victim’ of a particular
+unfortunate occurrence,” similar to enumerated benefit types in the “federal public benefit”
+definition (such as unemployment and disability benefits).108
+In a different case, a federal district court held that life insurance proceeds from a postal
+employee’s Federal Employee Group Life Insurance (FEGLI) policy were not a “federal public
+benefit,” such that PRWORA did not bar an employee’s nonqualified alien beneficiary from
+receiving such proceeds.109 The court acknowledged that a FEGLI policy might be considered a
+“contract” within the meaning of 8 U.S.C. § 1611(c)(1).110 However, the court concluded that the
+proceeds were not a federal public benefit because the legislative history of PRWORA indicated
+that Congress intended it to restrict only benefits available to the general public, not aspects of
+individual employee compensation packages.111 Further, the court reasoned that even if the
+FEGLI policy was a federal public benefit, it was a benefit provided to the federal employee
+(who, in this case, was a citizen not barred from eligibility by PRWORA) and not to the
+nonqualified alien beneficiary.112
+These two district court decisions do not directly conflict with each other, given that one concerns
+victim’s compensation and the other concerns life insurance proceeds. Yet the courts took
+different approaches to interpreting the reach of the federal public benefits definition. In the
+victim’s compensation case, the court seemed to read the “similar” clause as establishing a
+presumption that public benefits fall within PRWORA’s sweep.113 The list of benefits enumerated
+20 percent or more of the applicant business is in the USA they must be a qualified alien.” Small Business Admin,
+Disaster Assistance Program, SOP 50 30 9 (May 31, 2018), https://www.sba.gov/sites/default/files/201806/SOP%2050%2030%209-FINAL.PDF. The extent to which PRWORA restricts benefits received by business entities
+would appear to be an open question. See 8 U.S.C. § 1611(a) (“[A]n alien who is not a qualified alien (as defined in
+section 1641 of this title) is not eligible for any Federal public benefit . . . .”) (emphasis added).
+106 Uriostegui v. Alabama Crime Victims Comp. Comm’n, No. 2:10-CV-1265-PWG, 2010 WL 11613802, at *15 (N.D.
+Ala. Nov. 16, 2010), report and recommendation adopted, No. 2:10-CV-1265-LSC, 2011 WL 13285298 (N.D. Ala.
+Jan. 12, 2011).
+107 Id. at *2.
+108 Id. at *15. The New Jersey Supreme Court reached a different conclusion on the related issue of whether victim’s
+compensation payments constituted a “state or local public benefit” under 8 U.S.C. § 1621(c). Caballero v. Martinez,
+897 A.2d 1026, 1031 n.1 (N.J. 2006). Although the parties in the litigation did not dispute the issue, the court reasoned
+in a footnote that victim’s compensation payments “are not similar to the need-based benefits enumerated in §
+1621(c)(1)(B), such as retirement and welfare assistance, which the statute cites as examples of benefits covered by
+PRWORA.” Id.
+109 Herrera v. Metro. Life Ins. Co., No. 11-CV-1901, 2011 WL 6415058, at *9 (S.D.N.Y. Dec. 19, 2011).
+110 Id. at *8.
+111 Id. at *9.
+112 Id. at *8.
+113 Uriostegui, 2010 WL 11613802 at *15.
+
+Congressional Research Service
+
+14
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+in 8 U.S.C. § 1611(c)(2) are “quite broad in their variety,” the court reasoned, meaning that nonenumerated benefit types such as victim’s compensation cannot readily be distinguished from
+them.114 In contrast, the court in the FEGLI case read PRWORA’s structure and legislative
+history to give the federal public benefits definition a more limited scope.115 Congress intended
+the statute’s eligibility restrictions to cover only publicly available “welfare” programs such as
+SSI and food stamps, the court reasoned, not more narrowly targeted programs such as FEGLI.116
+Under that line of reasoning, victim’s compensation might not be considered to fit within the
+“similar” clause.117 Because the “similar” clause itself gives limited direction as to the range of
+benefits it covers, future courts may continue to take varied approaches in interpreting it.
+State and federal courts have grappled with the related issue of whether non-enumerated benefits
+fall within the definition of “state or local public benefit” under 8 U.S.C. § 1621(c).118 The “state
+or local public benefit” definition tracks the “federal public benefit” definition and has the same
+catchall language for “similar” benefits.119 These decisions have tended to read the catchall
+language narrowly, restricting its coverage of non-enumerated state and local benefits.120 Future
+CRS products may analyze these cases in more depth. For purposes of this report about
+PRWORA’s restrictions on federal public benefits, these state cases provide further examples of
+the interpretive challenge posed by PRWORA’s catchall language for “similar” benefit types.
+
+114 Id.
+115 Herrera, 2011 WL 6415058 at *9.
+116 Id.
+117 See id.
+118 See Equal Access Educ. v. Merten, 305 F. Supp. 2d 585, 605 n.18 (E.D. Va. 2004) (“It is clear . . . that PRWORA
+
+does not consider mere admission or attendance at a public post-secondary institution to be a public benefit.”); City
+Plan Dev., Inc. v. Office of Labor Comm’r, 117 P.3d 182, 190 (Nev. 2005) (holding that payment of prevailing wage
+under a public works contract does not constitute a state or local public benefit); Matter of MH2015-002490, 422 P.3d
+1043, 1047 (Ariz. Ct. App. 2018) (holding that court-ordered psychiatric treatment is not a state or local public benefit
+under § 1621(c)); Rajeh v. Steel City Corp., 813 N.E.2d 697, 706-07 (Ohio Ct. App. 2004) (holding that workers’
+compensation is not a state or local public benefit); Cnty. of Alameda v. Agustin, No. HF05217109, 2007 WL
+2759474, at *3 (Cal. Ct. App. Sept. 24, 2007) (unpublished) (holding that child support collection services are not a
+state or local public benefit).
+119 See 8 U.S.C. § 1621(c).
+120 See Matter of MH2015-002490, 422 P.3d at 1046-47 (interpreting PRWORA to apply only to benefits “for which an
+individual voluntarily applies,” and rejecting interpretations that would read the statute more broadly on the ground that
+they would produce “absurd results”); Rajeh, 813 N.E. at 707 (emphasizing that Congress “chose not to include
+workers’ compensation” on the list of enumerated benefits, and reasoning that “[t]o refuse to allow illegal aliens injured
+on the job to recover from the Workers’ Compensation Fund would be to encourage the hiring of illegal aliens and
+downgrade workplace safety”).
+
+Congressional Research Service
+
+15
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Framework for Determining Whether PRWORA Applies to a Particular Federal
+Benefit Program
+1. Does PRWORA cite the program by authorizing statute and create specialized eligibility rules for it?
+
+
+If yes, PRWORA applies. (E.g., Medicaid, SNAP, SSI, TANF.) Congress may carve out exceptions in
+later legislation.
+2. If PRWORA does not cite the program, are the benefits that the program provides enumerated in the federal
+public benefits definition at § 1611(c)(1) and not exempted from its reach?
+
+
+If yes, agency guidance may clarify whether PRWORA restrictions apply. Absent agency guidance,
+unresolved legal questions may persist, and the program might continue to follow differing eligibility
+rules in its authorizing statute.
+3. If neither (1) nor (2), PRWORA applies only if the program provides benefits “similar” to the enumerated
+benefit types in § 1611(c)(1)(B) (e.g., welfare, unemployment).
+
+
+Agency guidance or case law may analyze the issue. Otherwise, the answer will be subject to
+interpretation, and opinions may differ.
+
+PRWORA’s Interplay with Other Statutes
+Even if a federal program delivers benefits that meet the definition of “federal public benefit,”
+questions often arise about whether a more specific statute governing the program displaces
+PRWORA’s “qualified alien” rule. These interpretive issues come in two main varieties:
+retrospective issues (concerning divergent eligibility rules in statutes that predate PRWORA) and
+prospective issues (concerning later statutes).
+
+Retrospective Application of PRWORA
+Before PRWORA, an array of federal statutes established alien eligibility rules for particular
+types of federal benefits. There was no overarching eligibility rule—instead, statutes specific to
+particular programs imposed the eligibility restrictions for aliens, if any.121 The Medicaid statute,
+for example, generally denied eligibility to non-PRUCOL aliens (i.e., aliens not “permanently
+residing under color of law”).122 The Federal Unemployment Tax Act (FUTA) generally limited
+eligibility for unemployment insurance to aliens with work authorization.123
+PRWORA did not expressly repeal the eligibility criteria in these preexisting program statutes.124
+However, PRWORA does provide that its baseline “qualified alien” requirement applies
+“[n]otwithstanding any other provision of law.”125 Similarly, PRWORA states that the specialized
+eligibility rules for major federal programs (Medicaid, TANF, SSI, and SNAP) apply
+“notwithstanding any other provision of law.”126 Typically, federal courts interpret
+121 See H.R. REP. NO. 104–725, at 379 (1996) (“Current law limits alien eligibility for most major Federal assistance
+
+programs, including restrictions on, among other programs, Supplemental Security Income, Aid to Families with
+Dependent Children, housing assistance, and Food Stamps programs. Current law is silent on alienage under, among
+other programs, school lunch and nutrition, the Special Supplemental Food Program for Women, Infants, and Children
+(WIC), Head Start, migrant health centers, and the earned income credit.”)
+122 42 U.S.C.A. § 1396b(v)(3); see Lewis v. Thompson, 252 F.3d 567, 574 (2d Cir. 2001) (describing legislative
+history).
+123 26 U.S.C. § 3304(a)(14)(A); see infra “Federally Funded Unemployment Insurance Benefits.”
+124 See 8 U.S.C. § 1611(c); see, e.g., 42 U.S.C. § 1396b(v)(3).
+125 8 U.S.C. § 1611(c).
+126 Id. § 1612(a)(1), (b)(1); see also id. § 1613(a) (“notwithstanding” clause for restrictions on federal means-tested
+public benefits).
+
+Congressional Research Service
+
+16
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+“notwithstanding” clauses of this variety to override inconsistent provisions in other statutes.127
+This general rule of interpretation may have limits, however. In particular, case law in the U.S.
+Court of Appeals for the Ninth Circuit instructs that “the phrase ‘notwithstanding any other law’
+should not always be read literally.”128 Under that case law, courts may read a “notwithstanding
+clause” to have more limited effect based on “its context and its history.”129
+For the major federal programs described above in Category 1—Medicaid, SSI, TANF, and
+SNAP—it is well settled that the “notwithstanding” clauses in PRWORA override divergent
+eligibility criteria in the more specific statutes that govern these programs. Federal agencies have
+come to this conclusion,130 and courts have agreed.131 As explained previously, because PRWORA
+cites these programs by their authorizing statutes and develops specialized eligibility rules
+specifically for them, PRWORA makes clear that its eligibility rules apply to them.132 This clarity
+holds even in the face of divergent rules in preexisting statutes.133
+However, the clarity does not hold for other federal programs that appear to deliver “federal
+public benefits” but are not the subject of specialized rules under PRWORA. When an earlier and
+more specific statute establishes differing eligibility criteria for such programs, there can be
+confusion about whether PRWORA overrides those criteria.134 Prime examples include federal
+unemployment insurance,135 federal student aid,136 and federal housing programs.137 PrePRWORA statutes for each of these benefit types establish eligibility rules for aliens that differ
+from PRWORA to varying degrees.138 On the one hand, the “notwithstanding” clause in Section
+1611 could be interpreted to override these earlier rules.139 On the other hand, a different canon of
+127 See Cisneros v. Alpine Ridge Group, 508 U.S. 10, 17-18 (1993) (“[T]he use of such a ‘notwithstanding’ clause
+
+clearly signals the drafter’s intention that the provisions of the ‘notwithstanding’ section override conflicting provisions
+of any other section.”); Field v. Napolitano, 663 F.3d 505, 511 (1st Cir. 2011).
+128 Ordlock v. C.I.R., 533 F.3d 1136, 1143 (9th Cir. 2008); Or. Nat’l Res. Council v. Thomas, 92 F.3d 792, 796 (9th
+Cir. 1996).
+129
+Ordlock, 533 F.3d at 1144 (“Because it is unlikely that Congress intended the ‘notwithstanding any other rule law of
+law’ phrase to be a broad, catch-all preemption clause, we examine its context and its history of the phrase to derive its
+meaning.”).
+130 See HHS Guidance, supra note 36, at 41,658 (stating that Medicaid, SSBG, and TANF, among other programs, are
+“federal public benefits” under PRWORA).
+131 Lewis v. Thompson, 252 F.3d 567, 580-82 (2d Cir. 2001) (holding that PRWORA “unequivocal[ly]” renders
+nonqualified aliens ineligible for Medicaid); City of Chicago v. Shalala, 189 F.3d 598, 601 (7th Cir. 1999) (“In §
+402(b) of [PRWORA] [8 U.S.C. § 1612(b)], Congress authorized the states, subject to certain exceptions, to determine
+the eligibility of qualified aliens for three other federal benefit programs: Temporary Assistance for Needy Families
+(‘TANF’), Social Services Block Grants (‘SSBG’), and Medicaid.”).
+132 See supra “Category 1: Programs for Which PRWORA Makes Special Provision.”
+133 See Lewis, 252 F.3d at 581 (explaining the preexisting eligibility criteria for aliens in the Medicaid statute are
+“clearly trumped” by PRWORA).
+134 Mashiri v. Dep’t of Educ., 724 F.3d 1028, 1033 (9th Cir. 2013) (not resolving whether divergent eligibility criteria
+in Higher Education Act “precluded the application of” PRWORA).
+135
+See infra “Federally Funded Unemployment Insurance Benefits.”
+136 See Mashiri, 724 F.3d at 1033; infra “Federal Student Aid.”
+137 See CRS Report R46462, Noncitizen Eligibility for Federal Housing Programs, by Maggie McCarty and Abigail F.
+Kolker, at 7 (“The inconsistent statutory treatment of certain categories of noncitizens between Section 214 and
+PRWORA has led some to call for statutory changes.”).
+138 20 U.S.C. § 1091(a)(5)(eligibility criteria for Higher Education Act student aid); 26 U.S.C. § 3304(a)(14)(A)
+(eligibility criteria for unemployment insurance); 42 U.S.C. § 1436a (eligibility criteria for certain federal housing
+assistance programs).
+139 See Cisneros v. Alpine Ridge Group, 508 U.S. 10, 17-18 (1993).
+
+Congressional Research Service
+
+17
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+statutory interpretation—the general/specific canon—provides that a more specific statute
+governs over a conflicting general statute.140 Because PRWORA sweeps more broadly than the
+program-specific statutes that prescribe divergent eligibility criteria, the argument can be made
+that the program-specific statute prevails under the general/specific canon.141 Two specific
+examples of this problem of statutory interpretation—concerning federal unemployment
+insurance and federal student aid—are analyzed below in the case studies section.142
+
+Prospective Application of PRWORA
+A different issue of statutory interpretation arises when Congress creates new benefits that appear
+to constitute “federal public benefits” under the PRWORA definition. If the new law that creates
+the benefits does not clarify whether they are subject to PRWORA’s restrictions on alien
+eligibility, thorny questions may emerge about whether Congress intended PRWORA to apply.
+Congress may carve out exceptions to an existing statutory rule expressly or, more rarely, by
+implication.143 There is no question that PRWORA does not apply in instances where Congress
+overrides it expressly in a later statute.144 Thus, where Congress legislated in 2009 to allow states
+to provide Medicaid coverage to “lawfully residing” pregnant women and children
+“notwithstanding” PRWORA, it made clear that PRWORA does not limit eligibility for this
+federally funded health benefit.145
+Courts disfavor reading statutes to repeal earlier laws by implication, but Congress may
+nonetheless override PRWORA implicitly by creating eligibility criteria in a later statute that
+conflict irreconcilably with the PRWORA criteria.146 It is rather clear, for instance, that PRWORA
+does not restrict alien eligibility for the health benefits authorized in the Patient Protection and
+Affordable Care Act (ACA) of 2010.147 The ACA does not override PRWORA expressly but does
+extend eligibility to “lawfully present” aliens, a more expansive category than “qualified aliens”
+under PRWORA.148
+140 See RadLAX Gateway Hotel, LLC v. Amalgamated Bank, 566 U.S. 639, 645 (2012) (“The general/specific canon is
+
+perhaps most frequently applied to statutes in which a general permission or prohibition is contradicted by a specific
+prohibition or permission. To eliminate the contradiction, the specific provision is construed as an exception to the
+general one.”); CRS Report R45153, Statutory Interpretation: Theories, Tools, and Trends, by Valerie C. Brannon, at
+55 (“Where two laws conflict, the specific governs the general (generalia specialibus non derogant). That is, a
+precisely drawn, detailed statute pre-empts more general remedies, and conversely, a statute dealing with a narrow,
+precise, and specific subject is not submerged by a later enacted statute covering a more generalized spectrum.”)
+(citations and quotation marks omitted).
+141 See RadLAX Gateway Hotel, 566 U.S. at 645; see also Noerand v. Devos, -- F. Supp. 3d --, 2020 WL 4274559, at *7
+(D. Mass. July 24, 2020) (relying on the general/specific canon to conclude that language in a later-enacted benefits
+statute overrides the PRWORA eligibility restrictions for aliens).
+142 See infra “Case Studies.”
+143 See United States v. Fausto, 484 U.S. 439, 676 (1988) (“[I]t can be strongly presumed that Congress will
+specifically address language on the statute books that it wishes to change.”); Radzanower v. Touche Ross & Co., 426
+U.S. 148, 153-54 (1976).
+144 See Hagen v. Utah, 501 U.S. 399, 416 (1994) (discussing Congress’s power to expressly repeal any earlier statutes).
+145 Children’s Health Insurance Program Reauthorization Act of 2009, Pub. L. No. 111-3 § 214(a), 123 Stat. 8, 56-57
+(codified at 42 U.S.C. § 1396b(v)(4)(A)).
+146 See Garfield v. Ocwen Loan Servicing, LLC, 811 F.3d 86, 89 (2d Cir. 2016) (“‘In the absence of some affirmative
+showing of an intention to repeal, the only permissible justification for a repeal by implication is when the earlier and
+later statutes are irreconcilable.’”) (quoting Morton v. Mancari, 417 U.S. 535, 550 (1974)).
+147 See Pub. L. No. 111-148, 124 Stat. 119 (2010).
+148 Compare id. at 142, 184 (codified at 42 U.S.C. §§ 18001, 18032), with 8 U.S.C. § 1611 (restricting access to federal
+
+Congressional Research Service
+
+18
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Where a later benefit statute is silent about PRWORA and does not impose immigration-related
+eligibility criteria that conflict with PRWORA, the argument that it overrides PRWORA
+implicitly might be less persuasive but could still find support.149 In recent litigation over benefits
+created in response to the COVID-19 pandemic, plaintiffs have had mixed success in arguing that
+language in a new benefit statute may create an “irreconcilable conflict” with PRWORA even if
+the new statute is silent about alien eligibility for the benefits in question.150 These issues are
+analyzed in more depth in the case studies below.151 The key point, at least under current case law,
+is that PRWORA’s applicability to newly enacted federal public benefits often will not be clear
+unless the new statute addresses PRWORA expressly or establishes express rules for alien
+eligibility.152
+
+Case Studies
+This section explores two illustrative examples of types of federal benefits that have generated
+unresolved questions and doubt about PRWORA’s applicability: federally funded unemployment
+insurance benefits, and federal student aid programs.
+
+Federally Funded Unemployment Insurance Benefits
+For the federal-state unemployment insurance (UI) system overseen by the U.S. Department of
+Labor (DOL),153 confusion about the applicability of PRWORA exists in law more than in
+practice. DOL and state labor agencies continue to apply eligibility rules for aliens that predate
+public benefits, including health benefits, to “qualified aliens”); see 45 C.F.R. §§ 152.2, 155.20 (defining “lawfully
+present” for ACA purposes to include several categories of nonqualified aliens, including nonimmigrants, TPS
+recipients, and deferred action recipients other than DACA recipients); Geoffrey Heeren, The Status of Nonstatus, 64
+AM. U. L. REV. 1115, 1181 n. 276 (2015) (“The Department of Health and Human Services (HHS) has not included the
+Affordable Care Act (ACA) in the definition of either ‘federal public benefit’ or ‘federal means-tested public benefit’
+in the only notices that it has published on the issue . . . . As a result, the ACA is not subject to the restrictions on alien
+access to benefits contained in the PRWORA.”).
+149 See Garfield, 811 F.3d at 89 (discussing limited grounds for finding implicit repeal); cf. Ill. Nat’l Guard v. FLRA,
+854 F.2d 1396, 1404-05 (D.C. Cir. 1988) (explaining that the presumption again repeals by implication has most force
+“when it is urged that a specific statute has been repealed by a later but more general one”).
+150 Compare Oakley v. Devos, -- F. Supp. 3d --, 2020 WL 3268661, at *15-16 (N.D. Cal. June 17, 2020) (holding that
+PRWORA likely does not restrict emergency financial aid under the CARES Act), and Noerand v. Devos, -- F. Supp.
+3d -- , 2020 WL 4274559, at *7 (D. Mass. July 24, 2020) (similar), with Washington v. Devos, -- F. Supp. 3d -- , 2020
+WL 4275041, at *6 (E.D. Wash July 24, 2020) (holding that PRWORA does restrict eligibility for the financial aid),
+and Poder in Action v. City of Phoenix, No. CV-20-01429, 2020 WL 5038582, at *5 (D. Ariz. Aug. 26, 2020)
+(“Section 5001 [of the CARES Act] cannot be said to evince a ‘clear and manifest’ intention to override PRWORA. Its
+silence as to who may receive [Coronavirus Relief Fund] funds, although perhaps creating some ambiguity, can easily
+be viewed as acquiescence to PRWORA’s longstanding limitations.”); see infra “Emergency Financial Aid Under the
+CARES Act.”
+151 See infra “Emergency Financial Aid Under the CARES Act.”
+152 See Washington, 2020 WL 4275041 at *6 (reasoning that “statutory language discrepancies” between PRWORA
+and a new benefits statute “are more likely attributable to inartful drafting under the constraints of a global pandemic
+rather than any clearly expressed intent to override a longstanding provision of federal law with an overarching
+‘notwithstanding’ clause”).
+153 See Wimberly v. Labor and Indus. Relat. Comm’n of Missouri, 479 U.S. 511, 514 (1987) (“The Federal
+Unemployment Tax Act (Act), 26 U.S.C. § 3301 et seq., enacted originally as Title IX of the Social Security Act in
+1935, 49 Stat. 639, envisions a cooperative federal-state program of benefits to unemployed workers.”); see generally
+CRS Report RL33362, Unemployment Insurance: Programs and Benefits, by Julie M. Whittaker and Katelin P. Isaacs,
+at 1-2 [hereinafter RL33362].
+
+Congressional Research Service
+
+19
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+PRWORA, even—judging by the limited available information—for UI benefits paid in whole or
+in part with federal funds. Little published analysis explains how this practice comports with
+PRWORA.
+The UI system is governed by the Federal Unemployment Tax Act (FUTA).154 DOL has statutory
+responsibility for ensuring that state UI systems meet the “minimum federal standards” set forth
+in FUTA.155 The states administer the UI programs and deliver benefits to individuals, but the
+federal government pays the states’ administrative expenses.156 State payroll taxes are the
+exclusive source of funding for regular UI benefits.157 Federal payroll taxes partially or fully fund
+other kinds of UI benefits—such as “extended benefits”—that become available primarily during
+times of high unemployment.158
+Since 1977, FUTA has established the following immigration-related eligibility restrictions for UI
+benefits:
+[C]ompensation shall not be payable on the basis of services performed by an alien unless
+such alien is an individual who was lawfully admitted for permanent residence at the time
+such services were performed, was lawfully present for purposes of performing such
+services, or was permanently residing in the United States under color of law at the time
+such services were performed (including an alien who was lawfully present in the United
+States as a result of the application of the provisions of section 212(d)(5) of the Immigration
+and Nationality Act) . . . .159
+
+Under these criteria, alien eligibility for UI benefits turns mainly on employment authorization.160
+If an alien had employment authorization at the time she performed past work, then she was
+“lawfully present for purposes of performing” such past work and is not barred from UI eligibility
+under this FUTA provision.161 (Under other aspects of unemployment law, the alien must also
+have work authorization at the time she applies for and receives UI benefits.162) Many categories
+154 Wimberly, 479 U.S. at 514.
+155 Id.
+156 Id. at 515; see RL33362, supra note 153, at 2.
+157 See CRS Report RS22077, Unemployment Compensation (UC) and the Unemployment Trust Fund (UTF): Funding
+
+UC Benefits, by Julie M. Whittaker, at 1.
+158 Id.; Paschal v. Jackson, 936 F.2d 940, 941 (7th Cir. 1991) (“[T]he extended benefits (‘EB’) program . . . pays
+benefits during periods of sufficiently high unemployment to claimants who have exhausted their regular benefits.”).
+159 26 U.S.C. § 3304(a)(14)(A); see Pub. L. No. 95-19, 91 Stat. 39 (1977) (adopting current language). Congress first
+added immigration-related eligibility criteria to FUTA one year earlier, in 1976, but the original criteria did not create
+eligibility for aliens who were “lawfully present for purposes of performing such services.” See Pub. L. 94-566, 90 Stat.
+2667 (1976).
+160 Sudomir v. McMahon, 767 F.2d 1456, 1464 (9th Cir. 1985) (“The legislative history indicates that Congress
+intended to extend benefits to nonresident aliens who are lawfully present to work in the United States for temporary
+periods while excluding illegal aliens from coverage.”); see also Texas v. United States, 809 F.3d 134, 166 (5th Cir.
+2015) (explaining that deferred action programs generally trigger UI eligibility).
+161
+Sudomir, 767 F.2d at 1464. FUTA establishes “minimum standards” for state UI systems and, as such, may not
+prohibit states from creating stricter immigration-related eligibility criteria for UI benefits. See Wimberly v. Labor and
+Indus. Relat. Comm’n of Missouri, 479 U.S. 511, 514 (1987). State authority to create stricter criteria may have other
+limitations, however, including from constitutional law principles and from PRWORA itself. See Arizona Dream Act
+Coal. v. Brewer, 855 F.3d 957, 972 (9th Cir. 2017) (“[S]tates may not directly regulate immigration, and the power to
+classify aliens for immigration purposes is committed to the political branches of the Federal Government.”) (citations
+and quotation marks omitted); 8 U.S.C. § 1622(b) (cabining state authority to limit eligibility of qualified aliens for
+state public benefits).
+162 See, e.g., Claim of Graif, 250 A.D.2d 1012, 1013 (N.Y. Ct. App. 3d Dep’t 1998) (“Claimant . . . was not, at the time
+of her application [for unemployment benefits], legally authorized to work in the United States and, therefore, could not
+
+Congressional Research Service
+
+20
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+of aliens who are not “qualified aliens” under PRWORA are eligible for employment
+authorization.163 Such categories include DACA recipients, TPS holders, and aliens with
+nonimmigrant work visas.164 Thus, the FUTA eligibility criteria are broader than PRWORA.
+For UI benefits funded in part or in full by the federal government, does PRWORA override the
+FUTA criteria, such that only “qualified aliens” are eligible for the benefits? No federal case law
+or agency interpretation addresses this question authoritatively. In 1998, DOL issued guidance to
+state agencies expressing the view that PRWORA restricts federally funded UI benefits.165 Such
+benefits are “federal public benefits” and are available only to “U.S. nationals and qualified
+aliens” under 8 U.S.C. § 1611(c), according to the guidance.166 However, more recent DOL
+guidance about alien eligibility for UI benefits mentions only FUTA, not PRWORA.167
+Whether PRWORA restricts eligibility for federally funded UI benefits turns on two primary
+issues: first, whether such benefits are “federal public benefits” under the PRWORA definition;168
+and second, whether the FUTA eligibility criteria for aliens applies instead of PRWORA.169
+With respect to the first issue, federally funded UI benefits plainly satisfy two elements of prong
+(B) of the “federal public benefit” definition. The benefits are enumerated in the definition—they
+are “unemployment benefits”—and are also delivered to “individuals.”170 Yet prong (B) has a
+third element: it encompasses only benefits provided “by an agency of the United States or by
+appropriated funds of the United States.”171 State agencies, not DOL, provide federally funded UI
+benefits directly to individuals, so the benefits probably are not “provided by an agency of the
+United States.”172 As for the funding stream, the federal share of the special UI benefits available
+during periods of high unemployment, such as “extended benefits,” often comes from federal
+employer taxes deposited into a dedicated trust fund in the federal treasury.173 Questions could
+be considered legally ‘available for work’ as required for a claim for unemployment insurance benefits.”); see also
+Dep’t of Labor, Comparison of State Unemployment Insurance Laws, at 5-29 (2019) (“The Middle Class Tax Relief
+and Job Creation Act of 2012 (Public Law 112-96) added an explicit statutory requirement to Federal law that
+individuals must be able to work, available for work, and actively seeking work to be eligible for regular
+unemployment compensation.”), https://oui.doleta.gov/unemploy/pdf/uilawcompar/2019/complete.pdf [hereinafter
+DOL Comparison of State Unemployment Laws].
+163 Compare 8 U.S.C. § 1641(b), (c) (listing categories of “qualified aliens”), with 8 C.F.R. § 274a.12 (Classes of aliens
+authorized to accept employment).
+164 See 8 C.F.R. § 274a.12(a)(12), (b)(9)-(16), (c)(14).
+165 Dep’t of Labor, Unemployment Ins. Program Letter No. 47-98 (Sept. 22, 1998),
+https://oui.doleta.gov/dmstree/uipl/uipl98/uipl_4798.htm.
+166 Id. (“[U]nemployment benefits payable under all Federal unemployment compensation programs (UCFE, UCX,
+DUA, TRA) and joint Federal/State programs, including extended benefits (EB), are ‘Federal public benefits’ [under 8
+U.S.C. § 1611(c)].”).
+167 DOL Comparison of State Unemployment Laws, supra note 162, at 5-42.
+168 See supra “PRWORA’s “Federal Public Benefit” Definition.”
+169 See supra “PRWORA’s Interplay with Other Statutes.”
+170 See 8 U.S.C. § 1611(c)(1)(B); DOJ Guidance, supra note 37, at 61,361 (explaining three-element test for “federal
+public benefit” definition under prong (B)).
+171 See 8 U.S.C. § 1611(c)(1)(B); DOJ Guidance, supra note 37, at 61,361. If federally funded UI benefits are not
+“federal public benefits,” they may still meet the definition of “state public benefit” and thus be subject to PRWORA’s
+default restrictions for such benefits. See 8 U.S.C. § 1621(c)(1), (3) (defining “state public benefit” to exclude any
+“federal public benefit”).
+172 See Wimberly v. Labor and Indus. Relat. Comm’n of Missouri, 479 U.S. 511, 514-15 (1987); see RL33362, supra
+note 153, at 2.
+173 See CRS Report RS22077, Unemployment Compensation (UC) and the Unemployment Trust Fund (UTF): Funding
+
+Congressional Research Service
+
+21
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+arise about whether such funds constitute “appropriated funds” within the meaning of §
+1611(c).174 By way of contrast, Disaster Unemployment Assistance (DUA), which is also
+administered through state agencies under DOL supervision, is funded through traditional
+appropriations and thus clearly satisfies this element of the definition.175 DOL and FEMA have
+taken clear positions that PRWORA restricts eligibility for DUA.176
+Second, one could argue that the FUTA eligibility criteria override the stricter PRWORA criteria
+under the general/specific canon of statutory construction, which provides that a more specific
+statute governs over a conflicting general statute.177 Because FUTA addresses noncitizen
+eligibility for unemployment insurance specifically, a court might interpret the broader FUTA
+criteria to govern over the more general and restrictive PRWORA criteria.178 The
+“notwithstanding” clause at the beginning of § 1611 of PRWORA might undermine this
+argument—as it suggests that the provision’s eligibility restrictions are meant to override
+inconsistent statutes—but the point remains that the interplay of the FUTA and PRWORA criteria
+is subject to statutory interpretation.179
+There is not any federal case law or other authoritative source of legal interpretation that analyzes
+and resolves these legal issues about the applicability of PRWORA to federal UI programs. State
+unemployment agencies appear to apply the broader eligibility rules from FUTA to federally
+funded UI benefits.180 However, the legal basis for this general bureaucratic practice remains
+uncertain and subject to the unexplored legal issues discussed above.
+UC Benefits, by Julie M. Whittaker, at 1.
+174 See 3 GOV’T ACCOUNTABILITY OFFICE, PRINCIPLES OF FEDERAL APPROPRIATIONS LAW 15-237 (3d ed. 2008)
+(explaining that GAO takes the position that “revolving funds” operate with appropriated funds even though they are
+not funded through the annual appropriations process, but noting countervailing caselaw in the Federal Circuit); but cf.
+Uriostegui v. Alabama Crime Victims Comp. Comm’n, No. 2:10-CV-1265-PWG, 2010 WL 11613802, at *16 (N.D.
+Ala. Nov. 16, 2010) (suggesting that unemployment insurance is funded by “appropriated funds” within the meaning of
+PRWORA even though “it is not funded by general tax revenues but rather by special payroll taxes on employers,
+employees, or both”) (N.D. Ala. Nov. 16, 2010), report and recommendation adopted, No. 2:10-CV-1265-LSC, 2011
+WL 13285298 (N.D. Ala. Jan. 12, 2011).
+175 See CRS Report RS22022, Disaster Unemployment Assistance (DUA), by Julie M. Whittaker, at 1; see also
+Maleche v. Solis, 692 F. Supp. 2d 679, 683-84 (S.D. Tex. 2010) (discussing structure of DUA program, including
+administration by state agencies under DOL supervision).
+176 Dep’t of Labor, Disaster Unemployment Assistance Program, 68 Fed. Reg. 10.932, 10,935 (Mar. 6, 2003) (“[O]nly
+aliens falling within the definition of ‘qualified aliens’ are eligible for federal public benefits, which include benefits
+under the DUA program. Therefore, DUA payments to other than qualified aliens are prohibited.”); Federal Emergency
+Management Agency, FACT SHEET: Citizenship Status and Eligibility for Disaster Assistance FAQ (Nov. 15, 2019)
+(“[Y]ou must be a U.S. citizen, non-citizen national or Qualified Alien to be eligible for Disaster Unemployment
+Assistance.”), https://www.fema.gov/news-release/20200220/fact-sheet-citizenship-status-and-eligibility-disasterassistance-faq.
+177 See RadLAX Gateway Hotel, LLC v. Amalgamated Bank, 566 U.S. 639, 645 (2012) (“The general/specific canon is
+perhaps most frequently applied to statutes in which a general permission or prohibition is contradicted by a specific
+prohibition or permission. To eliminate the contradiction, the specific provision is construed as an exception to the
+general one.”); CRS Report R45153, Statutory Interpretation: Theories, Tools, and Trends, by Valerie C. Brannon, at
+55.
+178 See RadLAX Gateway Hotel, 566 U.S. at 645.
+179 See Lake Cnty. Rehabilitation Ctr., Inc. v. Shalala, 854 F. Supp. 1329, 1340-41 (N.D. Ind. 1994) (rejecting
+application of the general/specific canon where it would render a “notwithstanding” clause in the general statute
+“devoid of any meaning”); see generally Cisneros v. Alpine Ridge Group, 508 U.S. 10, 17-18 (1993) (discussing power
+of a “notwithstanding” clause to override inconsistent provisions); United States v. Novak, 476 F.3d 1041, 1046 (9th
+Cir. 2007) (en banc) (“[W]e have determined the reach of each such ‘notwithstanding’ clause by taking into account the
+whole of the statutory context in which it appears.”).
+180 See DOL Comparison of State Unemployment Laws, supra note 162, at 5-42 (mentioning only FUTA eligibility
+
+Congressional Research Service
+
+22
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Federal Unemployment Benefits Created After PRWORA
+Recently, questions have arisen about PRWORA’s applicability to new types of federally funded
+unemployment benefits. The Coronavirus Aid, Relief, and Economic Security (CARES) Act of
+2020 authorized various forms of federally funded unemployment benefits outside of FUTA,
+including Pandemic Unemployment Assistance (PUA), Federal Pandemic Unemployment
+Compensation (FPUC), and Pandemic Emergency Unemployment Compensation (PEUC).181
+DOL’s extensive guidance about these CARES Act benefit programs does not address
+PRWORA.182 It is possible that DOL has concluded that PRWORA does not apply to the
+programs, but DOL has not publicized any such conclusion.183 With DOL silent on the issue, state
+labor agencies appear to apply the broader FUTA criteria to the CARES Act benefits, although the
+evidence of bureaucratic practice at the state level is far from conclusive.184 At least one exception
+has emerged: in the Commonwealth of the Northern Mariana Islands, the local labor agency has
+taken the position that PRWORA does restrict eligibility for the CARES Act benefits.185
+The CARES Act unemployment benefits would appear to constitute “federal public benefits”
+under the plain language of the PRWORA definition. That definition covers “unemployment”
+benefits that are delivered to individuals and that are federally funded.186 Unlike UI benefits under
+FUTA, the CARES Act benefits are funded by appropriations provisions in the CARES Act, not
+
+criteria for aliens, not PRWORA).
+181 Pub. L. No. 116-136, §§ 2102, 2104, 2107 (2020); see CRS In Focus IF11475, Unemployment Insurance Provisions
+in the CARES Act, by Katelin P. Isaacs and Julie M. Whittaker.
+182 See Dep’t of Labor, Unemployment Insurance Program Letter No. 23-20, at 8 (May 11, 2020) (directing states to
+implement immigration status verification functions “for the PEUC and PUA programs in the same manner as for the
+regular UI programs,” without mentioning PRWORA), https://wdr.doleta.gov/directives/attach/UIPL/UIPL_23-20.pdf;
+see also Dep’t of Labor, Unemployment Insurance Program Letter No. 17-20, Change I, at I-3 (May 13, 2020)
+(discussing state obligation to “re-verify an alien’s work authorization when considering [a] PEUC claim” and
+mentioning “qualified alien status,” but apparently only in reference to work authorization),
+https://wdr.doleta.gov/directives/attach/UIPL/UIPL_17-20_Change-1.pdf; Dep’t of Labor, Unemployment Insurance
+Program Letter No. 16-20, Change 1, at II-1 (Apr. 27, 2020) (addressing FUTA eligibility requirements with respect to
+PUA but not mentioning PRWORA), https://wdr.doleta.gov/directives/attach/UIPL/UIPL_16-20_Change_1.pdf.
+183 See, e.g., Dep’t of Labor, Unemployment Insurance Program Letter No. 23-20, at 8 (May 11, 2020); but cf. Iva
+Maurin, No PUA for CWs, SAIPAN TRIBUNE (Aug. 10, 2020) (describing letter from DOL to a Member of Congress, in
+which DOL takes the position that PRWORA limits eligibility for PUA to qualified aliens),
+https://www.saipantribune.com/index.php/no-pua-for-cws/.
+184 See, e.g., State of Delaware Dep’t of Labor, Unemployment Benefits FAQs (May 4, 2020) (covering PUA, FPUC,
+and PEUC eligibility, and explaining that alien eligibility requires work authorization), https://dol.delaware.gov/uifaqs/;
+State of Wisconsin Dep’t of Workforce Development, Unemployment COVID-19 Public Information (June 24, 2020)
+(similar), https://dwd.wisconsin.gov/covid19/public/ui.htm; South Carolina Dep’t of Employment & Workforce,
+Unemployment Insurance During COVID-19, at 10 (July 1, 2020) (discussing only the work authorization
+requirement), https://dew.sc.gov/docs/default-source/covid-faq/ui-during-covid-19.pdf?sfvrsn=de1c442_2.
+185 Commonwealth of the Northern Mariana Islands, Office of the Governor, Pandemic Unemployment Assistance
+(PUA) and Federal Pandemic Unemployment Compensation (FPUC) available for Workers and Self-Employed
+Individuals in the CNMI (June 10, 2020) (restricting PUA and FPUC eligibility to qualified aliens under PRWORA),
+https://governor.gov.mp/news/press-releases/pandemic-unemployment-assistance-pua-and-federal-pandemicunemployment-compensation-fpuc-available-for-workers-and-self-employed-individuals-in-the-cnmi/; see also Iva
+Maurin, SAIPAN TRIBUNE, “Congress Needed to Extend PUA benefits to CWs” (June 23, 2020),
+https://www.saipantribune.com/index.php/congress-needed-to-extend-pua-benefits-to-cws/.
+186 8 U.S.C. § 1611(c).
+
+Congressional Research Service
+
+23
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+through federal employer taxes.187 Thus, the CARES Act benefits appear to meet every element of
+the PRWORA definition.188
+One might argue, nonetheless, that the CARES Act expresses an intent that the PRWORA
+restrictions should not apply to the new unemployment benefits—in other words, that the CARES
+Act repeals PRWORA by implication on this issue.189 For PUA, for instance, the CARES Act
+defines “covered individuals” to generally include people who are not eligible for other
+unemployment benefits and who are out of work due to COVID-19.190 The Act does not set forth
+any immigration-related restrictions for PUA.191 It disqualifies people from PUA coverage based
+on ability to telework and receipt of paid leave benefits, but not based on immigration status.192
+On the one hand, this language could be interpreted to confer eligibility on workers affected by
+COVID-19 regardless of immigration status.193 On the other hand, the statute that created the
+DUA program—which served as the model for PUA—contains similarly broad eligibility
+language, but federal agencies have long interpreted it to fall within PRWORA’s restrictions.194
+The language may also not be seen by reviewing courts to create an “irreconcilable conflict”
+sufficient to override the PRWORA rules by implication.195
+After the enactment of the CARES Act, commentators expressed doubts about whether PRWORA
+would restrict the benefits.196 Unless DOL or a federal court weighs in on PRWORA’s
+
+187 See Pub. L. No. 116-136, 134 Stat. 281, 316 (authorizing the transfer of funds from the general fund of the Treasury
+
+to fund PUA payments to states), 320 (appropriating funds from the general fund of the Treasury to pay for FPUC
+payments to states), 326 (appropriating funds from the general fund of the Treasury to pay for PEUC payments to
+states).
+188 See DOJ Guidance, supra note 37, at 61,361 (explaining three-element test for “federal public benefit” definition
+under prong (B)).
+189 See supra “Prospective Application of PRWORA.”
+190 Pub. L. No. 116-136, 134 Stat. 281, 313-14.
+191 Id.
+192 Id.
+193 See id.
+194 See id; 42 U.S.C. § 5177(a) (“The President is authorized to provide to any individual unemployed as a result of a
+major disaster such benefit assistance as he deems appropriate while such individual is unemployed for the weeks of
+such unemployment with respect to which the individual is not entitled to any other unemployment compensation
+. . . .”). See also supra note 176 (citing agency authorities declaring that PRWORA applies to DUA).
+195 See Garfield v. Ocwen Loan Servicing, LLC, 811 F.3d 86, 89 (2d Cir. 2016); Christina S. Ho, Budgeting on
+Autopilot: Do Sequestration and the Independent Payment Advisory Board Lock-in Status Quo Majority Advantage?,
+50 TULSA L. REV. 695, 713 (2015) (“The implied repeals doctrine construes a subsequent statute as repealing an earlier
+statute if the two are in irreconcilable conflict. This principle is congruent with the ‘last-in-time rule,’ which provides
+that if there is no way to give effect to two statutory provisions, then the last-in-time will be favored. Under this
+doctrine, . . . ‘notwithstanding’ statutes do not have force against Congress’ clear attempts to override, and must often
+cede even in the face of Congress’ later implied decisions to override.”).
+196 See Nat’l Immigration Law Ctr., Understanding the Impact of Key Provisions of COVID-19 Relief Bills on
+Immigrant Communities, at 9 (May 27, 2020) (“The U.S. Department of Labor has not yet clarified the eligibility
+criteria that will apply to the new programs created by the CARES Act. It is possible that the Department of Labor will
+apply a more restrictive set of eligibility criteria to these programs, such as those used in the Disaster Unemployment
+Assistance Program (DUA).”), https://www.nilc.org/issues/economic-support/impact-of-covid19-relief-bills-onimmigrant-communities/; Nat’l Employment Law Project, Immigrant Workers’ Eligibility for Unemployment
+Insurance (Mar. 31, 2020) (“It is not yet clear whether [PRWORA’s eligibility restrictions] will apply to benefits under
+the temporary Pandemic Unemployment Assistance program established by Congress in the Coronavirus Aid, Relief,
+and Economic Security (CARES) Act.”), https://www.nelp.org/publication/immigrant-workers-eligibilityunemployment-insurance/; see also CRS Legal Sidebar LSB10442, Recovery Rebates and Unemployment
+Compensation under the CARES Act: Immigration-Related Eligibility Criteria, by Ben Harrington (April 7, 2020).
+
+Congressional Research Service
+
+24
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+applicability to PUA and other new unemployment benefits authorized by the CARES Act, such
+legal uncertainty may persist.
+
+Federal Student Aid
+The U.S. Department of Education (ED) has woven PRWORA into its guidance to institutions of
+higher education about eligibility rules for federal student aid programs authorized by Title IV of
+the Higher Education Act (referred to here as HEA programs).197 ED guidance specifies particular
+categories of aliens who are eligible to participate in HEA programs.198 These categories
+generally track the categories of “qualified aliens” under PRWORA, but not perfectly.199
+However, the guidance does not explain the legal basis for the eligibility categories—it mentions
+PRWORA only in passing200—and the relevant regulations continue to cite different immigrantrelated eligibility criteria in the HEA itself.201 As a result, courts have expressed confusion about
+whether PRWORA overrides the HEA criteria.202 This confusion exists even though PRWORA
+cites the HEA programs by authorizing statute at one point, to make clear that the additional
+restrictions for “federal means-tested public benefits” do not apply to the HEA programs.203
+(PRWORA does not create specialized rules for the HEA programs, as it does for SSI, SNAP,
+TANF, Medicaid, and SSBG.)204
+Section 484 of the HEA establishes the following immigration-related eligibility criteria:
+(a) In general In order to receive any grant, loan, or work assistance under this subchapter,
+a student must—
+....
+(5) be a citizen or national of the United States, a permanent resident of the United
+States, or able to provide evidence from the Immigration and Naturalization Service
+that he or she is in the United States for other than a temporary purpose with the
+intention of becoming a citizen or permanent resident; . . . . 205
+
+These criteria have been in the HEA since 1986.206 Since the enactment of PRWORA in 1996,
+Congress has made amendments to the HEA criteria that concern citizens of the Freely Associated
+States (Micronesia, Palau, and the Marshall Islands), but has not otherwise amended the
+criteria.207 The outer boundaries of the language granting eligibility to aliens “in the United States
+for other than a temporary purpose with the intention of becoming a citizen or permanent
+197 See 20 U.S.C. § 1091(a)(5).
+198 See Federal Student Aid Handbook, supra note 93, Vol. 1, at 34.
+199 Compare id. at 34-41, with 8 U.S.C. § 1641(b), (c); see infra note 211.
+200 Federal Student Aid Handbook, supra note 93, Vol. 1, at 41 (mentioning PRWORA in connection with U-visa
+
+holders).
+201 34 C.F.R. § 668.33.
+202 See Mashiri v. Dep’t of Educ., 724 F.3d 1028, 1033 (9th Cir. 2013) (declining to decide how PRWORA and HEA
+criteria interact).
+203 8 U.S.C. § 1613(c)(2)(H).
+204 See id. § 1612.
+205 20 U.S.C. § 1091(a)(5).
+206 An Act to reauthorize and revise the Higher Education Act of 1965, and for other purposes, Pub. L. No. 99–498, 100
+Stat. 1268, 1480 (1986).
+207 See, e.g., Pub. L. No. 110–315 (2008) (deleting “citizen of any of the Freely Associated States” from the eligibility
+criteria).
+
+Congressional Research Service
+
+25
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+resident” are not well defined.208 It seems likely, however, that this language would grant
+eligibility to at least some aliens who are not “qualified aliens” under PRWORA.209 Thus, as in
+the case of unemployment insurance, the eligibility criteria in the HEA for federal student aid
+appear broader than PRWORA.
+In contrast to the approach taken by DOL in determining alien eligibility for UI, ED appears to
+have taken efforts to conform its guidance on eligibility for financial aid programs under the HEA
+to PRWORA. The Federal Student Aid Handbook is an annual guide to HEA student aid
+programs that ED publishes for financial aid administrators in higher education.210 With two
+discrepancies, the Handbook identifies only those categories of aliens who are “qualified aliens”
+under PRWORA as eligible for HEA student aid programs.211 Similarly, the Department’s
+application form for federal student aid—the Free Application for Federal Student Aid
+(FAFSA)—defines “eligible noncitizen” in a way that closely tracks the PRWORA definition of
+“qualified alien.”212 Thus, PRWORA apparently forms the foundation for the Department’s
+guidance.213
+However, some lack of clarity on this point remains. The existence of the two discrepancies
+between the guidance and PRWORA, along with certain statements by ED, indicate that ED may
+blend the HEA eligibility rules with the PRWORA rules to some extent.214 Further, the guidance
+does not fully explain the legal basis for the eligibility restrictions it describes—the Federal
+Student Aid Handbook mentions PRWORA at one point, but only to explain the ineligibility of
+208 See Mashiri, 724 F.3d at 1033 (holding that status as asylum applicant does not satisfy the HEA criteria, without
+
+providing general interpretation of the statutory standard); Department of Education Reply Brief, Mashiri v. Dep’t of
+Educ., 2010 WL 1229084 (S.D. Cal. Feb. 22, 2010) (“[T]here is no definitive interpretation of this broad language,
+which could literally include all persons unlawfully present in the United States who plan to stay until someday
+legalized . . . .”); but cf. Dep’t of Educ., Interim Final Rule, Eligibility of Students at Institutions of Higher Education
+for Funds under the Coronavirus Aid, Relief, and Economic Security (CARES) Act,
+https://www2.ed.gov/about/offices/list/ope/caresactifreligibility6112020.pdf, at 9 n.1 (contending that the HEA
+eligibility standards are “similar in most respects” to the PRWORA standards, such that “there is little remaining
+application for the prohibition in 8 U.S.C. 1611 once [HEA] eligibility requirements have been applied”).
+209 See Mashiri, 724 F.3d at 1032-33 (analyzing HEA eligibility criteria separately after determining that an alien
+clearly did not qualify for federal student aid under PRWORA); Federal Student Aid Handbook, supra note 93, Vol. 1,
+at 41 (regarding U-visa holders).
+210 Federal Student Aid Handbook, supra note 93, at AVG-1.
+211 Id., Vol. 1, at 30, 34-42. The Handbook states that aliens who have been granted withholding of removal are not
+eligible for HEA programs, id. at 41, but such aliens are “qualified aliens” under PRWORA. 8 U.S.C. § 1641(b)(5).
+The Handbook also states that Citizens of the Freely Associated States are eligible for some HEA programs, including
+Pell Grants. Federal Student Aid Handbook, supra note 93, Vol. 1, at 30. These aliens are not “qualified aliens” under
+PRWORA. 8 U.S.C. § 1641(b). The latter discrepancy appears to arise from express eligibility rules included in
+statutory implementations of the United States’ compacts with the Freely Associated States. See 48 U.S.C. § 1905(h)(5)
+(establishing eligibility for certain federal educational grants); Federal Student Aid Handbook, supra note 93, Vol. 1, at
+30 (discussing eligibility rules under statutes amending the compacts).
+212 Dep’t of Educ., Free Application for Federal Student Aid, at 9 (July 1, 2020–June 30, 2021),
+https://studentaid.gov/sites/default/files/2020-21-fafsa.pdf. The notable discrepancy with the PRWORA “qualified
+alien” definition is, again, that the FAFSA does not include aliens granted withholding of removal on the list of eligible
+noncitizens. See id.
+213 See Dep’t of Educ., Interim Final Rule, Eligibility of Students at Institutions of Higher Education for Funds under
+the Coronavirus Aid, Relief, and Economic Security (CARES) Act, 85 Fed. Reg. 36494, 36497 (June 17, 2020) (stating
+that verification systems for Title IV HEA financial aid programs ensure “compliance with the independent statutory
+restriction found in 8 U.S.C. 1611”) [hereinafter ED CARES Act IFR].
+214 Id. at 36496 n.1 (suggesting that the Department applies HEA rules and PRWORA rules together); Federal Student
+Aid Handbook, supra note 93, Vol. 1, at 41 (rendering aliens granted withholding of removal, who are qualified aliens
+under PRWORA, ineligible for HEA federal student aid).
+
+Congressional Research Service
+
+26
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+one discrete category of aliens (U visa holders).215 It does not cite PRWORA as the authority for
+the overall framework of eligibility restrictions in the guidance.216 The Department’s regulation
+on alien eligibility continues to track the criteria from HEA § 484.217
+Federal case law reflects confusion about which set of immigration-related eligibility rules govern
+HEA financial aid programs: PRWORA, the program-specific criteria in HEA § 484, or both. In a
+2013 Ninth Circuit case, a student argued that HEA § 484 governed because it is the more
+specific statute.218 The Ninth Circuit declined to resolve the issue, holding instead that the student
+was ineligible for financial aid under either statute—in other words, that he did not meet even the
+more forgiving eligibility criteria of HEA § 484.219 In a different case, the Eleventh Circuit in
+dicta cited HEA § 484 as the statute that “set[s] the eligibility standard for federal student aid.”220
+No court has resolved whether PRWORA renders a nonqualified alien ineligible for federal
+student aid even if he or she would be eligible under HEA § 484.221 The ED guidance suggests
+that PRWORA would bar eligibility in such a case, given that it generally tracks the PRWORA
+eligibility rules and cites PRWORA to explain the disqualification of aliens with U visa status,222
+but the federal cases show that the question remains open.223
+
+Emergency Financial Aid Under the CARES Act
+More recently, confusion over the applicable eligibility rules for aliens has extended into a new
+form of federal student aid authorized by the CARES Act. Section 18004 of that Act creates the
+Higher Education Emergency Relief Fund (HEERF) to distribute funds to institutions of higher
+education for costs related to COVID-19.224 Section 18004 does not mention PRWORA or
+otherwise address the subject of alien eligibility.225 It does, however, articulate general parameters
+not related to immigration for how institutions may use HEERF funds, including a requirement
+that universities use at least half of their funds on emergency financial aid grants for students:
+[A]n institution of higher education . . . may use the funds received to cover any costs
+associated with significant changes to the delivery of instruction due to the coronavirus, so
+long as such costs do not include payment to contractors for the provision of pre-enrollment
+recruitment activities; endowments; or capital outlays associated with facilities related to
+athletics, sectarian instruction, or religious worship. Institutions of higher education shall
+use no less than 50 percent of such funds to provide emergency financial aid grants to
+students for expenses related to the disruption of campus operations due to coronavirus
+
+215 Federal Student Aid Handbook, supra note 93, Vol. 1, at 41.
+216 Id. at 34-42.
+217 34 C.F.R. § 668.33.
+218 Mashiri v. Dep’t of Educ., 724 F.3d 1028, 1032-33 (9th Cir. 2013).
+219 Id. at 1033 (“Even if this statute [HEA § 484] precluded the application of 8 U.S.C. § 1641, none of the documents
+
+Mashiri provided during the eligibility verification process could conceivably show the statute’s required nontemporary purpose.”)
+220 Estrada v. Becker, 917 F.3d 1298, 1304 (11th Cir. 2019).
+221 See Mashiri, 724 F.3d at 1033 (leaving the question open).
+222 Federal Student Aid Handbook, supra note 93, Vol. 1, at 41.
+223 See Mashiri, 724 F.3d at 1033.
+224 See Pub. L. No. 116-136, § 18004, 134 Stat. 281, 567 (2020) (codified at 20 U.S.C. § 3401 Note).
+225 See id.
+
+Congressional Research Service
+
+27
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+(including eligible expenses under a student’s cost of attendance, such as food, housing,
+course materials, technology, health care, and child care). 226
+
+Soon after enactment, some universities expressed uncertainty about whether DACA recipients
+and other nonqualified aliens were eligible for the emergency financial aid grants under Section
+18004.227 In other words, schools were confused about whether PRWORA restricted the
+emergency financial aid.228 ED issued guidance on April 22, 2020, about one month after
+enactment of the CARES Act, stating that “[o]nly students who are or could be eligible to
+participate in programs under Section 484 of the HEA may receive emergency financial aid
+grants” under the CARES Act.229 The guidance noted that, to be eligible for the HEA programs, a
+student must be a U.S. citizen or “eligible noncitizen.”230 This CARES Act guidance did not
+mention PRWORA.231 However, by invoking the Department’s immigration-related eligibility
+rules for HEA student aid programs, which as described above appear to be based on PRWORA,
+the April 2020 CARES Act guidance seemed to indicate that the Department was interpreting the
+PRWORA restrictions to apply to the new emergency financial aid grants as well.232 In other
+words, because the restrictions in ED’s HEA guidance generally come from PRWORA, the
+immigration restrictions in ED’s CARES Act guidance also appeared to be based on
+PRWORA.233
+One month later, after lawsuits challenging the April 2020 guidance had been filed, the
+Department issued new guidance on its website that expressly cited PRWORA as a source of
+eligibility restrictions for the emergency financial aid.234 Then, in June 2020, the Department
+issued an interim final rule reiterating its position that only students eligible to participate in HEA
+programs were eligible to receive HEERF funds.235 In the preamble to the rule, ED argues mainly
+that HEA § 484 limits eligibility for HEERF funds.236 But the preamble also reaffirms ED’s
+
+226
+
+Id. § 18004(c) (Uses of Funds).
+
+227 Lilah Burke, Still in Limbo?, INSIDE HIGHER ED (Apr. 14, 2020) (“[S]ome in higher education have questioned
+
+whether the aid will be available to students who immigrated to the U.S. illegally as children, many of whom have
+received work authorization and relief from deportation from the Deferred Action for Childhood Arrivals program.
+Though the CARES Act does not specify that students must be eligible for federal financial aid (which DACA
+recipients are not), existing law signed in the 1990s specifies that those who immigrated illegally are ineligible for
+federal benefits.”), https://www.insidehighered.com/news/2020/04/14/stimulus-benefits-unclear-daca-students.
+228 See id. (mentioning “existing law signed in the 1990s”).
+229 Dep’t of Educ., Frequently Asked Questions about the Emergency Financial Aid Grants to Students under Section
+18004 of the Coronavirus Aid, Relief, and Economic Security (CARES) Act (Apr. 22, 2020),
+https://www2.ed.gov/about/offices/list/ope/heerfstudentfaqs.pdf.
+230 Id.
+231 Id.
+232 See id.
+233 See id.
+234 Dep’t of Educ., Updated Statement 5/21/2020 (“The underlying statutory terms in the CARES Act are legally
+binding, as are any other applicable statutory terms, such as the restriction in 8 U.S.C. § 1611 on eligibility for Federal
+public benefits including such grants [under CARES Act sec. 18004].”),
+https://www2.ed.gov/about/offices/list/ope/caresact.html.
+235 ED CARES Act IFR, supra note 213, at 36947 (“For purposes of the phrases ‘grants to students’ and ‘emergency
+financial aid grants to students’ in sections 18004(a)(2), (a)(3), and (c) of the CARES Act, ‘student’ is defined as an
+individual who is, or could be, eligible under section 484 of the HEA, to participate in programs under title IV of the
+HEA.”)
+236 Id. at 36945-47.
+
+Congressional Research Service
+
+28
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+stance that PRWORA prohibits nonqualified aliens from receiving HEERF funds and concludes
+that the HEA and PRWORA limitations are “similar in most respects.”237
+Lawsuits filed in federal district court have challenged ED’s position that students are not eligible
+for the emergency financial aid if they are not eligible for HEA programs.238 The lawsuits remain
+pending. They argue that HEA limitations do not apply to HEERF—which was enacted as an
+independent statute and not as an amendment to the HEA—and that Congress did not specify any
+other immigration-related eligibility restrictions.239 Instead, in the plaintiffs’ view, the general
+parameters quoted above on “Uses of Funds” in Section 18004 of the CARES Act establish the
+only applicable restrictions on how the funds can be used.240 The plaintiffs also rely on a formula
+in the statute that allocates funds based on the number of full-time, nonremote students at an
+institution.241 Because the statute does not exclude students from the allocation formula based on
+immigration status, the plaintiffs argue that the students should not be barred from receiving
+benefits based on immigration status, either.242
+ED has argued in response that PRWORA restricts eligibility for emergency financial aid through
+HEERF to “qualified aliens.”243 The emergency financial aid comes in the form of “grants” and
+thus deliver “federal public benefits” within the meaning of 8 U.S.C. § 1611, the Department
+argues.244 (ED also argues in the lawsuits, as in the preamble to the June interim final rule, that
+the eligibility restrictions from HEA § 484 apply to the HEERF funds.245 In the preliminary stages
+of the ongoing lawsuits, ED has lost that argument.246 This report about PRWORA does not
+explore whether the HEA applies to the HEERF funds.)
+Thus far in the lawsuits, federal district courts have disagreed about PRWORA’s applicability.
+The District of Massachusetts and Eastern District of California held in preliminary rulings that
+plaintiffs were likely to succeed on the merits of their argument that “the specific, one-time
+emergency disbursement of HEERF Assistance in the CARES Act is not subject to the more
+general prohibition in the earlier statute [PRWORA].”247 In other words, according to these
+courts, the CARES Act overrides PRWORA by authorizing students to receive the HEERF grants
+and not specifying restrictions based on immigration status.248 In contrast, the Eastern District of
+237 Id. at 36946.
+238 See Oakley v. DeVos, -- F. Supp. 3d --, 2020 WL 3268661, at *13 (N.D. Cal. June 17, 2020); Washington v. DeVos,
+
+-- F. Supp. 3d -- , 2020 WL 4275041, at *1 (E.D. Wash. July 24, 2020); Noerand v. Devos, -- F. Supp. 3d --, 2020 WL
+4274559, at *1 (D. Mass. July 24, 2020).
+239 See Oakley, 2020 WL 3268661 at *7.
+240 See id.
+241 See Pub. L. No. 116-136, § 18004(a), 134 Stat. 281, 567 (2020).
+242 See Oakley, 2020 WL 3268661 at *15.
+243 Id. at *13 (“[D]efendants raise the argument that plaintiffs cannot prevail on the relief they seek here for the
+independent reason that, regardless of whether title IV’s eligibility criteria apply, 8 U.S.C. section 1611 bars most noncitizens (i.e., those not considered ‘qualified aliens’ under the statute) from receiving ‘Federal public benefits.’”);
+Washington, 2020 WL 4275041 at *6; Noerand, 2020 WL 4274559 at *6.
+244 See ED CARES Act IFR, supra note 213, at 36496. ED also argues that HEERF grants are federal public benefits
+under prong (B) of the definition, because they are “postsecondary education” benefits paid with appropriated federal
+funds. Id.
+245 See Washington, 2020 WL 4275041 at *2-3.
+246 Id. (“[T]he limited incorporation of certain provisions of Title IV [of the HEA] into the CARES Act does not imply
+a general Congressional intent to subject all CARES Act HEERF funds to the restrictions in Title IV.”); Oakley, 2020
+WL 3268661 at *11.
+247 Oakley, 2020 WL 3268661 at *15; Noerand, 2020 WL 4274559 at *7.
+248 Noerand, 2020 WL 4274559 at *7 (“Section 18004 of the CARES Act is a specific statutory enactment in which
+
+Congressional Research Service
+
+29
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Washington held at summary judgment that PRWORA does restrict the HEERF grants.249 The
+CARES Act language about student eligibility, in this court’s view, “is too ambiguous to
+demonstrate a ‘clear and manifest’ intent to override the longstanding and generally applicable
+PRWORA bar.”250
+As the lawsuits progress, they could generate useful precedent for analyzing PRWORA’s
+applicability to newly created benefit programs. If Congress is silent about PRWORA and about
+immigration-related eligibility criteria when creating a new benefit program that fits the definition
+of “federal public benefit,” does PRWORA apply? Will courts interpret later statutes to override
+PRWORA by implication, even if the statutes do not establish immigration-related criteria that
+directly conflict with PRWORA? Even if the lawsuits do clarify these questions, however, the
+lawsuits do not have potential to resolve the legal questions described above about the
+retrospective application of PRWORA’s notwithstanding clause with respect to the preexisting
+HEA criteria for federal financial aid programs.251 In other words, the HEERF lawsuits may
+resolve questions about the prospective application of PRWORA, but not the retrospective
+application of it.
+
+Conclusion
+Determining whether PRWORA restricts alien eligibility for specific federal benefit programs
+triggers two main interpretive issues: (1) whether the benefits in question are “federal public
+benefits” under the PRWORA definition, and (2) whether the PRWORA eligibility restrictions
+apply notwithstanding countervailing eligibility language in more specific program statutes.
+Other than for Medicaid, TANF, SSI, and SNAP—the major programs that are the subject of
+specialized rules under PRWORA—these questions often blend together to create confusion
+about PRWORA’s applicability to particular federal programs. This confusion tends to persist
+where federal agencies do not issue definitive guidance on PRWORA. Federally funded
+unemployment insurance benefits under FUTA and federal student aid under the Higher
+Education Act are prime examples of this phenomenon.
+Issues about PRWORA’s applicability to new benefit programs have become particularly salient
+during the COVID-19 pandemic. When Congress creates a new federal benefit program without
+specifying rules for alien eligibility, PRWORA’s inherent ambiguities often make it difficult to
+predict what eligibility rules will apply in practice. Federal agencies may take different
+approaches to similar issues. The federal benefits authorized by the CARES Act are a case in
+point. Whereas DOL remained mostly silent about whether PRWORA restricts eligibility for the
+new types of federally funded unemployment benefits authorized by the Act, the Department of
+Education has taken the position that PRWORA bars nonqualified aliens from receiving
+emergency financial aid under the same Act. As a result, even though unemployment and
+postsecondary education benefits receive similar treatment under PRWORA, these two types of
+CARES Act benefits appear to be subject to different eligibility rules in practice. Congress may
+see fit to leave eligibility issues to agency interpretation in this fashion. If Congress wants clarity
+about the immigration-related rules that will govern new benefit programs, its options are to state
+expressly in the authorizing legislation whether PRWORA applies, expressly establish
+Congress unambiguously directed certain aid to a plainly defined group of people. In these circumstances, to the extent
+that the CARES Act directs a federal public benefit, it constitutes a statutory exception to Section 1611’s general denial
+of federal public benefits.”).
+249 Washington, 2020 WL 4275041 at *6.
+250 Id.
+251 See id. (not addressing the interplay between HEA § 484 and PRWORA).
+
+Congressional Research Service
+
+30
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+immigration-related eligibility criteria that differ from PRWORA in the authorizing legislation, or
+both. Alternatively, Congress could repeal PRWORA or amend it to expressly limit its
+prospective applicability, leaving new benefit statutes as the only source of immigration-related
+eligibility restrictions for the benefits they create.
+
+Congressional Research Service
+
+31
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Appendix. Glossary
+Qualified Alien
+
+Federal Public Benefit
+
+Aliens who fall within one of the following categories enumerated in 8 U.S.C. §
+1641(b) and (c):
+
+
+lawful permanent residents;
+
+
+
+asylees;
+
+
+
+refugees;
+
+
+
+aliens paroled into the United States under 8 U.S.C. § 1182(d)(5)
+for a period of at least one year;
+
+
+
+aliens granted withholding of removal under 8 U.S.C. §
+1231(b)(3), or its predecessor statute, 8 U.S.C. § 1253 (for aliens
+placed into deportation proceedings before April 1, 1997);252
+
+
+
+aliens granted conditional entry under 8 U.S.C. § 1153(a)(7), as in
+effect before April 1, 1980;
+
+
+
+Cuban and Haitian entrants, as defined in § 501(e) of the Refugee
+Education Assistance Act of 1980;253 and
+
+
+
+certain abused spouses and children described in 8 U.S.C. §
+1641(c)(1)-(3); victims of a severe form of trafficking in persons
+who have acquired or set forth a prima facie case for T visa
+nonimmigrant status.
+
+Defined as follows in 8 U.S.C. § 1611(c):
+(1) Except as provided in paragraph (2), for purposes of this chapter the
+term “Federal public benefit” means(A) any grant, contract, loan, professional license, or commercial
+license provided by an agency of the United States or by appropriated
+funds of the United States; and
+(B) any retirement, welfare, health, disability, public or assisted
+housing, postsecondary education, food assistance, unemployment
+benefit, or any other similar benefit for which payments or assistance
+are provided to an individual, household, or family eligibility unit by an
+agency of the United States or by appropriated funds of the United
+States.
+(2) Such term shall not apply(A) to any contract, professional license, or commercial license for a
+nonimmigrant whose visa for entry is related to such employment in
+the United States, or to a citizen of a freely associated state, if section
+141 of the applicable compact of free association approved in Public
+Law 99–239 or 99–658 (or a successor provision) is in effect;
+(B) with respect to benefits for an alien who as a work authorized
+nonimmigrant or as an alien lawfully admitted for permanent residence
+under the Immigration and Nationality Act [8 U.S.C. §§ 1101 et seq.]
+qualified for such benefits and for whom the United States under
+reciprocal treaty agreements is required to pay benefits, as
+determined by the Attorney General, after consultation with the
+Secretary of State; or
+(C) to the issuance of a professional license to, or the renewal of a
+professional license by, a foreign national not physically present in the
+United States.
+
+252 See Yousefi v. INS, 260 F.3d 318, 322 n.2 (4th Cir. 2001) (“The withholding of deportation provision, appearing in
+
+INA § 243(h) and codified at 8 U.S.C. § 1253(h), was repealed. A similar form of relief is still available, however,
+under the current INA § 241(b)(3).”) (citations omitted).
+253 Pub. L. No. 96-422, 94 Stat. 1799 (1980).
+
+Congressional Research Service
+
+32
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Federal Means-Tested
+Public Benefit
+
+PRWORA does not define this term. The bill that originally passed in the House
+contained the following definition:
+[A] public benefit (including cash, medical, housing, and food assistance and
+social services) of the Federal Government in which the eligibility of an
+individual, household, or family eligibility unit for benefits, or the amount of
+such benefits, or both are determined on the basis of income, resources, or
+financial need of the individual, household, or unit.254
+Due to a point of order, Congress omitted the definition from the final version
+of the Act. The Conference Report states that “[i]t is the intent of conferees
+that th[e] definition be presumed to be in place for purposes of this title.”255
+Federal agency guidance has identified the following programs as delivering
+federal means-tested public benefits: TANF,256 Medicaid,257 SSI,258 and SNAP.259
+The Child Health Insurance Program (CHIP) also appears to be considered a
+federal means-tested public benefit,260 although, notwithstanding PRWORA,
+states have the option to provide CHIP and Medicaid to “lawfully residing”
+children and pregnant women.261
+
+Specified Federal
+Programs
+
+SSI and SNAP.262
+
+Designated Federal
+Programs
+
+TANF, SSBG, and Medicaid.263
+
+254 H.R. REP. NO. 104–725, at 381-82 (1996).
+255 Id.
+256 Dep’t of Health and Human Servs., Personal Responsibility and Work Opportunity Reconciliation Act of 1996
+
+(PRWORA): Interpretation of “Federal Means-Tested Public Benefit”, 62 Fed. Reg. 45256, 45257 (Aug. 26, 1997)
+(“[T]he HHS programs that constitute ‘Federal means-tested public benefits’ under PRWORA are Medicaid and
+TANF.”).
+257 Id.
+258 Soc. Sec. Admin, Personal Responsibility and Work Opportunity Reconciliation Act of 1996: Federal Means-Tested
+Public Benefits Paid by the Social Security Administration, 62 Fed. Reg. 45284, 45284-85 (Aug. 26, 1997) (“The
+Social Security Administration announces that, of the programs it administers, only supplemental security income
+benefits under title XVI of the Social Security Act are ‘Federal means-tested public benefits’ for purposes of
+[PRWORA].”).
+259 Food and Nutrition Service, U.S. Dep’t of Agric., Federal Means-Tested Public Benefits, 63 Fed. Reg. 36653, 36653
+(July 7, 1998) (“This notice announces that the Food Stamp Program and the food assistance block grant programs in
+Puerto Rico, the Commonwealth of the Northern Marianna Islands and American Samoa are Federal means-tested
+programs.”); see also Garnett v. Zeilinger, 313 F. Supp. 3d 147, 151 n.1 (D.D.C. 2018) (“The program’s name was
+changed from its original name, the ‘Food Stamp Program,’ to SNAP in 2008. See Food, Conservation, and Energy Act
+of 2008, Pub. L. No. 110–234, § 4001, 122 Stat. 923, 1092.”).
+260 See Exec. Order 13880, Collecting Information about Citizenship Status in Connection with the Decennial Census,
+84 Fed. Reg. 33821, 33823 (July 16, 2019) (“Aliens who are “qualified aliens”—that is, lawful permanent residents,
+persons granted asylum, and certain other legal immigrants—are, with limited exceptions, ineligible to receive benefits
+through Temporary Assistance for Needy Families, Medicaid, and State Children’s Health Insurance Program for 5
+years after entry into the United States (8 U.S.C. 1613(a).”).
+261 Children’s Health Insurance Program Reauthorization Act of 2009, Pub. L. No. 111-3 § 214(a), 123 Stat. 8, 56-57
+(codified at 42 U.S.C. § 1396b(v)(4)(A)).
+262 8 U.S.C. § 1612(a)(3).
+263 Id. § 1612(b)(3).
+
+Congressional Research Service
+
+33
+
+PRWORA’s Restrictions on Noncitizen Eligibility for Federal Public Benefits: Legal Issues
+
+Author Information
+Ben Harrington
+Legislative Attorney
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R46510 · VERSION 2 · NEW
+
+34
+
+

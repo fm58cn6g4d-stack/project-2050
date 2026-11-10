@@ -168,7 +168,7 @@ The milestone review asked for a staffing number and a hiring path for each new 
 | Audits of the new programs | HUD's inspector general | About 200 | — | From 2030 | The $50 million a year set-aside |
 
 - **Is the money there?** At HUD, the peak is about 1,250 federal staff for the plan's programs, around 2037-40, at about $200,000 each with benefits and systems: about $0.25 billion a year. The 0.5% set-aside gives about $0.2 billion in FY2032, when about 800 are needed, and about $0.4 billion by FY2040 (`6-cost.md`, 1.2), so it covers them, with room for systems and evaluation (this section's arithmetic). The federal staff are a small share of the work; the housing agencies' caseworkers are the large one. Full fees pay for them: 8.1% of the subsidy is about $1,400-1,700 a leased household a year in the 2030s, about $170,000-200,000 for each caseworker's 120 households, with overhead (this section's arithmetic; `6-cost.md`, 1.1).
-- **The test.** The delivery office publishes HUD's hiring each quarter against the path above. If a program's office is below 75% of its path at mid-year, the next ramp step in the table below waits a year, and the money stays available until spent.
+- **The test** (proposed; this section's judgment, not decided). The delivery office publishes HUD's hiring each quarter against the path above. If a program's office is below 75% of its path at mid-year, the next ramp step in the table below waits a year, and the money stays available until spent.
 
 **What moves a year if hiring lags, and what never moves.**
 
