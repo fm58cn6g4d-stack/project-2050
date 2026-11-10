@@ -29,7 +29,10 @@ Health comes first, because its choice (single-payer, a public option or a stage
 | | 4. Specification: `4-specification.md`, `provisions.json` (40 provisions: HLT-1, 2, 6, 7, 8 and RTS-2). The 2029 reconciliation act restores coverage; the Medicare for All Act of 2029 builds one public plan in waves (2031; 2033-35) to the January 1, 2035 endpoint | Draft (stage D, step 4, PR 1) |
 | | 5. Delivery: `5-delivery.md`. CMS runs the plan from records; the timeline to 2035; remedies; states' roles; rural delivery | Draft (step 4, PR 1) |
 | | 6. Cost: `6-cost.md`, on the coverage model with `tools/health_path.py`. About $25.7 trillion over FY2030-39 and $4.7 trillion in FY2040 net federal cost before the employer contribution (about $20.1 trillion and $3.7 trillion with it at 65%); exploratory, not a score | Draft (step 4, PR 1) |
-| | 7-9: validation, what would change our minds, the public case | Next (step 4, PR 2) |
+| | 7. Validation: `7-validation.md`. Against CBO, Urban and the Lancet; what the models miss; household cost by income; objections; signs of failure | Draft (step 4, PR 2) |
+| | 8. What would change our minds: `8-change-our-minds.md`. Triggers by choice, political and legal events (the rules reform; the states' payment and coercion), hard stops | Draft (step 4, PR 2) |
+| | 9. The public case: `9-public-case.md`. Brief, messages, hard questions, can say / can't say, source table; only from sections 1-8 | Draft (step 4, PR 2) |
+| | Health milestone review (independent, try to break) | Next, in a fresh session |
 | **B. Care at home for all ages** | 1-3, building on health's choice; the legacy long-term-care direction of October 26 (an all-age home-support benefit) is weighed as an option; meets housing's aging-in-place work (`dossiers/home/memos/12-aging-in-place.md`) and shared rule 7 | Later |
 | **C. Child care and pre-K** | 1-3 (FAM-2 and its options) | Later |
 | **D. The care workforce** | 1-3, across health, home care and child care; meets shared rule 8 | Later |
@@ -41,7 +44,7 @@ Sections 4-9 are written once per dossier where the parts can share them, or per
 - `1-problem.md`, `2-what-works.md` (health, sections 1-2).
 - `evidence.json`: EV-CAR-001 to 050 (the 2029 baseline), 100 to 141 (the problem), 200 to 268 (what works), 270 to 316 (the S. 1506 comparison), 330 to 350 (sections 4-6). Sources SRC-3000 to 3399 are reserved for care.
 - `3-design.md` and `memos/1-architecture.md` to `5-provider-payment.md` (health, section 3).
-- `4-specification.md`, `provisions.json`, `5-delivery.md`, `6-cost.md` (health, sections 4-6); `tools/health_path.py` prices the decided path on the coverage model. Evidence EV-CAR-330 to 350 (sources SRC-3281 to 3295) back them.
+- `4-specification.md`, `provisions.json`, `5-delivery.md`, `6-cost.md`, `7-validation.md`, `8-change-our-minds.md`, `9-public-case.md` (health, sections 4-9); `tools/health_path.py` prices the decided path on the coverage model. Evidence EV-CAR-330 to 350 (sources SRC-3281 to 3295) back them.
 - `research-s1506-comparison.md` (stage D, step 3c): the design against the Medicare for All Act of 2025 (S. 1506, H.R. 3069), the employer wave re-examined, memo 3 confirmed; its arithmetic in `tools/employer_wave.py`. Evidence EV-CAR-270 to 316 (block 270-329 reserved for this note); sources SRC-3260 to 3280.
 
 ## Shared rules care is likely to own or touch
