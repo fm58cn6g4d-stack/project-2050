@@ -1,8 +1,8 @@
 # Care you can count on, part A (health): L2/L3 milestone review
 
-Role: the independent milestone review of the care dossier's health part (`charter/PLAN.md` 3.2 and 5, "Review"; `charter/STANDARDS.md`, "Milestone review"), board row D-4r. The reviewer wrote none of the dossier. It tries to break the work on four fronts (weak evidence, missing populations, optimistic assumptions, cheaper alternatives), applies the design lens (`DEC-2026-11-09-13`), checks the fiscal-rule report against `DEC-2026-11-10-05`, checks internal consistency across sections 1-9, `provisions.json` and `agenda/agenda.csv`, and checks section 9 against sections 1-8. Status: current, as of main at commit `5371d3a` (November 10, 2026, after #220 and #222). Reviewer: Claude Code, `session_01UQzgBupQZyXMABBVLAHyji`. It changes nothing in the dossier: every fix below is a later step, which the lead assigns.
+Role: the independent milestone review of the care dossier's health part (`charter/PLAN.md` 3.2 and 5, "Review"; `charter/STANDARDS.md`, "Milestone review"), board row D-4r. The reviewer wrote none of the dossier. It tries to break the work on four fronts (weak evidence, missing populations, optimistic assumptions, cheaper alternatives), applies the design lens (`DEC-2026-11-09-13`), checks the fiscal-rule report against `DEC-2026-11-10-05`, checks internal consistency across sections 1-9, `provisions.json` and `agenda/agenda.csv`, and checks section 9 against sections 1-8. Status: current, as of main at commit `5371d3a` (November 10, 2026, after #220 and #222), updated for `DEC-2026-11-10-13` (#223), which Espen decided while the review was in progress. Reviewer: Claude Code, `session_01UQzgBupQZyXMABBVLAHyji`. It changes nothing in the dossier: every fix below is a later step, which the lead assigns.
 
-Espen's decisions (`DEC-2026-11-09-07`, `DEC-2026-11-10-09`, `-11`, `-12`) are settled. Where a decided choice has a consequence the dossier does not show, this review says so; it does not argue the choice. Board question 0i (the hospital transition fund, HLT-7.15) is with Espen and is not decided or re-argued here. Under `DEC-2026-11-10-07`, a clearly bounded uncertainty is not a defect, and every investigation asked for below names the decision it informs and whether it blocks that decision now.
+Espen's decisions (`DEC-2026-11-09-07`, `DEC-2026-11-10-09`, `-11`, `-12`, `-13`) are settled. Where a decided choice has a consequence the dossier does not show, this review says so; it does not argue the choice. Board question 0i (the hospital transition fund, HLT-7.15) was decided yes, as recommended, in `DEC-2026-11-10-13` (#223). The dossier, written before that answer, still marks HLT-7.15 "for Espen" (C-7). Under `DEC-2026-11-10-07`, a clearly bounded uncertainty is not a defect, and every investigation asked for below names the decision it informs and whether it blocks that decision now.
 
 ## Verdicts
 
@@ -18,14 +18,14 @@ Espen's decisions (`DEC-2026-11-09-07`, `DEC-2026-11-10-09`, `-11`, `-12`) are s
 2. **The entitlement is silent on the territories** (M-1). That is about 3.5 million residents of Puerto Rico, Guam, the U.S. Virgin Islands, the Northern Mariana Islands and American Samoa, whose Medicaid is capped today. The coverage model leaves them out, and nothing says so. Eligibility is an L3 element, and "every resident" (point 3) does not settle it.
 3. **Section 9 does not say how large the new taxes are** (E-1). Section 6 says about $2.4 trillion a year at full scale in 2032 and $3.7 trillion in FY2040, after the employer contribution. Section 7 calls it "far larger than any other dossier's" and cites Vermont, whose plan stopped when its tax became visible. The brief says only "new taxes fill the rest". This carries forward the standing reviewer's open note on #222.
 
-**What can reach L3 once those land.** Every provision can, apart from HLT-7.15, which waits on Espen's question 0i. None is held back by an unspecified parameter. The open items (people without status, IHS funding, TRICARE's purchased care, the copay schedule, the cohort order) are bounded working choices or other owners' decisions.
+**What can reach L3 once those land.** Every provision can, HLT-7.15 included, now that `DEC-2026-11-10-13` has decided it (C-7). None is held back by an unspecified parameter. The open items (people without status, IHS funding, TRICARE's purchased care, the copay schedule, the cohort order) are bounded working choices or other owners' decisions.
 
 ## How this review was done
 
 - Read the charter (standards, the board's stage D rows and question 0i, plan section 3.2's levels, `DEC-2026-11-10-05`, `-07`, `-09`, `-11` and `-12`), the template, and both earlier milestone reviews as models. Read sections 3-9 in full, the memo status lines, the README, `tools/health_path.py` and the coverage model's card and inputs where section 6 relies on them. Sections 1-2 and `research-s1506-comparison.md` were read for the claims sections 3-9 draw on.
 - A Sonnet subagent ran the mechanical checks. The reviewer checked what it reported before using it, and re-ran the figures it doubted.
   - **IDs.** Every EV-CAR ID cited in the dossier exists (240 entries). Every source is in `library/catalog.csv`. Every HLT provision is cited in section 4, and every DEC ID cited exists. Nine entries are never cited: EV-CAR-003, 004, 036, 053, 054, 057, 058, 059 and 334. That is harmless, but 334 belongs to the 330-350 block written for sections 4-6.
-  - **Statuses.** In `provisions.json`, 39 provisions are decided or adopted from the S. 1506 comparison. HLT-7.15 is "recommended; for Espen", consistently in sections 4, 6, 8 and the README. Nothing decided is still "proposed".
+  - **Statuses.** In `provisions.json`, 39 provisions are decided or adopted from the S. 1506 comparison. HLT-7.15 is "recommended; for Espen", consistently in sections 4, 6, 8 and the README. That was right on main at `5371d3a`, but it is now stale under `DEC-2026-11-10-13` (C-7). Nothing else decided is still "proposed".
   - **Sums.** Every table in section 6 re-adds. The one exception is part 5, where the legacy FY2040 rows sum to $570 billion against the $569 billion printed (C-6). The sensitivity table (part 6) was re-run row by row with parameter overrides, and every row matches.
   - **Models.** `health_path.py` reproduces section 6, as follows:
     - FY2030-39: $25,681 billion;
@@ -55,6 +55,7 @@ Each decision the brief listed, checked against section 4, `provisions.json`, se
 | VA, TRICARE and IHS kept alongside (`-11`, 5) | HLT-7.24; `5-delivery.md:87` | Faithful in the specification. The model counts TRICARE and veterans' coverage inside employer coverage, which moves into the plan (F-4) |
 | No duplicative private coverage at the endpoint (`-12`, 1) | HLT-7.23; `5-delivery.md:49` | Faithful. Its legal basis is asserted without register entries (W-2) |
 | Ownership kept, with targeted guardrails (`-12`, 2) | HLT-7.27; `4-specification.md:141` | Faithful. Section 3 and memo 5's status line do not cite `-12` (C-1, C-3) |
+| Hospital transition fund (`-13`, board 0i) | HLT-7.15; `6-cost.md`, part 3 | The design matches what was decided: the five-year glide, about $100 billion over FY2033-38 with rural and sole providers first, and a three-year revenue floor. Its status lines still read "for Espen" and its cost "contingent" (C-7) |
 
 ## 2. Findings
 
@@ -62,7 +63,7 @@ IDs: F fiscal, M missing populations, O optimistic assumptions, A cheaper altern
 
 ### F. The fiscal-rule report (`DEC-2026-11-10-05`) and the money
 
-**The report itself follows `DEC-2026-11-10-05`.** Section 6 reports the yearly path, the permanent FY2040 cost ($4,743 billion before the contribution, $3,668 billion after it) and the plan-wide margin both ways (`6-cost.md:120-131`). It does not treat health's gap as a defect. It splits the spending line ($5,800 billion in FY2040) from the revenue lines (the exclusion, $1,057 billion; the contribution, $1,075 billion) and never adds them together. Its one question for Espen (HLT-7.15) is one where the options reach different hospitals at different cost. That is the kind of question the rule sends to Espen. The findings below are about the inputs to that report, not its form.
+**The report itself follows `DEC-2026-11-10-05`.** Section 6 reports the yearly path, the permanent FY2040 cost ($4,743 billion before the contribution, $3,668 billion after it) and the plan-wide margin both ways (`6-cost.md:120-131`). It does not treat health's gap as a defect. It splits the spending line ($5,800 billion in FY2040) from the revenue lines (the exclusion, $1,057 billion; the contribution, $1,075 billion) and never adds them together. Its one question for Espen (HLT-7.15, now decided in `DEC-2026-11-10-13`) was one where the options reach different hospitals at different cost. That is the kind of question the rule sends to Espen. The findings below are about the inputs to that report, not its form.
 
 **F-1. The states' payment: three sections, three mechanisms, and a legal obstacle. Blocking.**
 - **What the sections say:**
@@ -240,6 +241,17 @@ Section 4's burden table (`4-specification.md:149-158`) does what the template a
   - HLT-7.22 and HLT-7.26 carry FEHB's employer money twice (F-4).
 - **C-5. Never-cited entries.** EV-CAR-334 is never cited; cite it or drop it.
 - **C-6. The legacy FY2040 sum.** `6-cost.md:123` prints $569 billion for rows that sum to $570 billion.
+- **C-7. HLT-7.15 is decided** (`DEC-2026-11-10-13`), but the dossier still treats it as open. Mark it decided in each of these places:
+  - `4-specification.md`: lines 7, 76, 157 and 187;
+  - `provisions.json`: HLT-7.15's status and `decisions`;
+  - `5-delivery.md`: lines 45 and 80 ("if Espen approves", "if approved");
+  - `6-cost.md`: lines 64, 71, 99, 139 and 174. Line 64 moves the fund from contingent to firm. Line 71's all-in total then becomes about $25.7 trillion, not "$25.6 trillion; with the transition fund, about $25.7 trillion";
+  - `7-validation.md:74` ("recommended");
+  - `8-change-our-minds.md:13`;
+  - `9-public-case.md`: lines 46 and 68. The can't-say row on the fund as "settled" is reversed, and the hospital answer can now say the fund is decided;
+  - `README.md:61`, the open question.
+
+  This is a record fix. Section 9's change is part of step 3, because a decided protection can now be promised.
 
 ## For Espen
 
@@ -250,7 +262,7 @@ Nothing new. No finding is a real fork:
 
 If the enforceable form of the states' payment, or covering the territories, turns out to cost materially more, that is a money question for the financing settlement under `DEC-2026-11-10-05`. It would come to Espen only as such.
 
-Board question 0i (the hospital transition fund) stays with Espen. This review found nothing that changes its framing. The national-average basis is stated, and hospital-level data is planned before the fund's formula is set.
+Board question 0i (the hospital transition fund) was decided while this review was in progress (`DEC-2026-11-10-13`). This review found nothing that undercuts the answer. The national-average basis is stated, and hospital-level data is planned before the fund's formula is set. C-7 carries the decision through the dossier.
 
 ## What the next steps should do (for the lead)
 
@@ -268,6 +280,7 @@ In order. Steps 1 to 3 clear the blockers.
 3. **Section 9** (E-1, E-2), after steps 1 and 2 and step 4's numbers if those land first.
    - Give the new taxes' size in the brief and in the tax answer, with a can-say row.
    - Make the source-table and tag fixes; give the hospital answer's Medicare gains; put "unless Congress votes to delay it" beside 2031.
+   - Reverse the transition fund's "can't say" row now that it is decided (C-7).
    - Tier: Most capable.
 4. **Section 6's basis** (F-2, F-3, F-4 items 3 and 5, C-6).
    - Put fiscal-year phasing in `health_path.py`, and re-run sections 4, 6, 7 and the README from it.
@@ -287,10 +300,11 @@ In order. Steps 1 to 3 clear the blockers.
    - Check EV-CAR-338, 343 and 344 against their originals.
    - Settle RTS-2.02's scope list.
    - Tier: Standard (Most capable for the RTS-2 scope).
-7. **Record fixes** (C-1 to C-5).
+7. **Record fixes** (C-1 to C-7).
    - Bring section 3 up to date with "Decided" lines.
    - Update the README status and agenda list.
    - Write `memos/README.md` and memo 4 and 5's status lines.
    - Fix HLT-7.14's label; cite or drop EV-CAR-334.
+   - Mark HLT-7.15 decided throughout (C-7).
    - Tier: Standard (Light for the README and memo lines). It can share a PR with step 6.
-8. **A short L3 re-check** by a reviewer, limited to F-1, M-1, E-1 and F-2's re-run. Then the lead moves the health rows (HLT-1, 2, 6, 7, 8, A1, A2, A4 and RTS-2) to L3 in `agenda/agenda.csv` and the README. HLT-7.15 moves when Espen answers question 0i.
+8. **A short L3 re-check** by a reviewer, limited to F-1, M-1, E-1 and F-2's re-run. Then the lead moves the health rows (HLT-1, 2, 6, 7, 8, A1, A2, A4 and RTS-2) to L3 in `agenda/agenda.csv` and the README.
