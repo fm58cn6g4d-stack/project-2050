@@ -159,7 +159,7 @@ Section 4's lens note (`4-specification.md:199-217`) does what the lens asks. It
 
 ### 7. Internal consistency
 
-**C-1. README's status line contradicts itself.** Not blocking. `README.md:3` says the items are "at L2 (decided)" and then "every item is at L1 in `agenda/agenda.csv`". The second sentence is stale: the agenda has them at L2. Also note, not fixed here: `README.md:27` gives care's source range as SRC-3000 to 3299; it is 3000 to 3499.
+**C-1. README's status line contradicts itself.** Not blocking. `README.md:3` says the items are "at L2 (decided)" and then "every item is at L1 in `agenda/agenda.csv`". The second sentence is stale: the agenda has them at L2. Also note, not fixed here: `README.md:27` gives care's source range as SRC-3000 to 3299; it is 3000 to 3399 (`dossiers/care/README.md:39`, the one home for care's range; board row D2 agrees). The board's handoff notes say 3499 (`charter/PROGRESS.md:47`); that line should follow care's README too.
 
 **C-2. Section 3 still reads as a batch to send.** Not blocking. These lines are in the future tense of the memo round: "The six are sent together as one batch" (`3-design.md:13`), "None is adopted by silence" (`:14`, `:142`), and "Recommendation" in each fork. The status line and the closing "None open" record the decision. One "Decided: `DEC-2026-11-10-08`" line under each fork and point, as housing's C-1 asked, would make the record read right.
 
@@ -211,7 +211,7 @@ In order; each is small.
 1. **Section 6 and the template: the offset** (F-1, F-2).
    - Report FY2040 as spending plus the unbooked offset, and correct the share-of-margin row, `6-cost.md:75-79` and `:128`.
    - Give the share and the booked yearly path.
-   - Correct the template's "One basis for each fiscal figure" rule, which says MR6 is booked.
+   - In the template's "One basis for each fiscal figure" rule, correct only the claim that MR6 is booked. Its point that a figure including the offset is labeled so and never added to a spending line stays true.
    - Tier: Most capable. One routine PR. It unblocks step 3.
 2. **Budget model: book MR6 on the general fund in the base, as CX is** (F-1).
    - Run the plan-wide total and report the new FY2040 balance to the lead.
