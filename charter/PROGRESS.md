@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 9, 2026 by Claude Code (lead: reviewer handover; rows R1 and 6a started).
+Updated November 10, 2026 by Claude Code (lead handoff).
 
 ## Standing sessions
 
@@ -10,11 +10,12 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBwqphpchudhq51her6` | Project 2050: lead | November 9 |
+| Lead | `session_01UQzgBuj6qYPfkf6a7uYH69` | Project 2050: lead | November 10 |
 | Reviewer | `session_01UQzgBsqHbGYJ5i5GLpEhWu` | Project 2050: reviewer | November 9; woken by the reviewer scheduled task `trig_01FZTMijXSFbmgJQqdmwxtkN` (older tasks `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex is out of review credits for now, so the Claude review is the one the gate counts |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions**
+- Lead `session_01UQzgBwqphpchudhq51her6`: housing section 3 addendum (memos 9-12, `DEC-2026-11-09-19` to `-25`), the USDA rural and ROAD funding work, two reviewer handovers; November 9 to 10.
 - Lead `session_01UQzgBx6gAsCr9hXdHVxrQy`: stage A reset, stage B, stage C housing through section 9, and the budget side quest coordination; October 28 to November 9.
 - Reviewer `session_01UQzgBvvXhR1anmPFd9zr4d`: PRs #157 to #169; November 9.
 - Reviewer `session_01UQzgBsenKA1Ueo3vzQwHFw`: PRs #141 to #156; November 9.
@@ -22,20 +23,22 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - Reviewer `session_01UQzgBtEveznkR76gmgDdVm`: PRs #133 to #144; November 9.
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
-**Lead handoff (November 9, 2026, about 20:00 UTC)**
-- **Where housing stands.** All nine sections are on main, and every decision is recorded through `DEC-2026-11-09-17`, plus the memo 3b switch to option (b) in #153. Next, before the L2/L3 milestone review (row 6): the housing scope addendum Espen asked for ("Directions for later stages", first item; rows 4h, 4i, 6a, 6b), then Espen's strategic review, then section 6's proposed budget-model changes. After that, transportation (step 7) and stage D's health work run side by side ("Directions for later stages").
-- **Open PRs at handoff** (#153, #155, #156, #157): all merged November 9.
-- **Workers, all idle or finishing; report-back is the lead:**
-  - `session_01UQzgBtwmZTQ5KDasf1JQUB` (memo 3 part 1, memo 3b, #155);
-  - `session_01UQzgBwRKJvQz9cAvT8dCS6` (doubled-up research, #146 pricing, #156);
-  - `session_01UQzgBwnaVpTtzWXrB1h7T9` (fold-ins, production targets);
-  - `session_01UQzgBtvEGzaBz5teTRf5im` (section 8);
-  - `session_01UQzgBwhTRTNETarTTSN1jB` (section 9);
-  - the earlier housing section authors are idle.
-- **Scheduled check-ins bound to the lead:** none.
-- **Still proposed, not decided:** each state's share of the direct production count (an allocation rule for the milestone review) and the rural high-cost credit boost (a small question for Espen at the milestone review).
-- **How Espen works.** They answer in whichever session is in front of them, worker sessions included. Verify their words in that session's events, then record a `DEC-` entry; only Espen applies `espen-approved`. Apply the design lens (`DEC-2026-11-09-13`) to every recommendation. Keep updates short and plain, with clear asks.
-- **Reviewer context.** Each reviewer has filled its context in about 12 hours of heavy review. Check `get_session` at each board update and hand over before 600,000 tokens.
+**Lead handoff (November 10, 2026, about 00:05 UTC)** from `session_01UQzgBwqphpchudhq51her6` (context near 600,000 tokens).
+- **Done November 9 evening.** The housing section 3 addendum is complete. It covers memos 9-12 (homebuying, broad supply, repair, aging in place), decided as `DEC-2026-11-09-19` to `-25` and folded into sections 4-8 (#164, #166, #167, #169). Housing is now about $0.77 trillion over FY2030-39, and FY2040 fails the fiscal rule by about $26 billion on permanent lines ($36 billion with tails); FY2041 passes. Espen's USDA rural direction and the ROAD funding direction are under "Directions for later stages".
+- **Open PRs, each with its author and the current reviewer:**
+  - #171: R1, `dossiers/foundations/rural-delivery.md`, by `session_01UQzgBvWByAs3q58xbKZE5R`.
+  - #172: 6a, the ROAD funding map, by `session_01UQzgBuensvNj3gHoEFpwwg`. It carries **four questions for Espen**, sent to them November 9 in the lead session; they had not answered at handoff. On a yes, record a `DEC-` entry (tier 3).
+  - #173: 6b, the section 9 update, by `session_01UQzgBwhTRTNETarTTSN1jB`.
+- **Next, in order:**
+  1. When #171 merges, start row 4j (housing memo 13, USDA rural housing: bigger programs *and* broader eligibility, such as the 504 age limit, income limits and the rural definition), reading R1. Then Espen decides, the memo is folded in, and section 9 gets a small update.
+  2. **Section 7 is stale.** 3.6 still calls the 140% limit and the 3% FHA line "proposed", and 5.3-5.4 still quote $0.65 trillion, $90 billion and $20-28 billion (flagged by #173's author). It needs a small tier-2 fix against section 6 and `DEC-2026-11-09-24`/`-25`.
+  3. The L2/L3 milestone review (row 6), then Espen's strategic review.
+- **Reviewer.** `session_01UQzgBsqHbGYJ5i5GLpEhWu` since November 9 at 23:38, so its context is still low. Codex is out of review credits, so the Claude review is the one the gate counts. Ask the reviewer by `review-request` for every PR you open.
+- **Lessons.**
+  - The gate's "merging now" can come before an out-of-date check. Report a merge only on the closed event.
+  - #157 merged before a late commit landed. Check that a handoff branch's last commit is on main.
+  - Update a PR's branch with GitHub's update rather than pushing, so approvals carry over.
+- **Scheduled check-ins bound to the lead:** none pending (both one-shots fired).
 
 ## Now
 
