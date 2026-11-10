@@ -26,13 +26,13 @@ In January 2029, CBO expects 36.6 million people uninsured (CBO, 2026) [EV-CAR-0
 
 **B. A staged path to single-payer, with the endpoint written into the 2029 law (recommended).**
 - *What it is:* the same first steps as A (restoration, then the public plan with automatic enrollment), plus Medicare's age lowered to 60 in 2031 and 50 in 2035, children enrolled, and every remaining group moved into one Medicare program by a date set in the 2029 statute (2037 as the working date). Each stage starts on its date unless Congress votes to delay it. Memo 2 sets the order.
-- *For people:* about 11 to 14 million uninsured in 2032, falling to the single-payer level (about 3.6 million, mostly people not yet enrolled) once the endpoint is reached (the coverage model). People see the system change in steps they can plan around.
-- *Cost:* about $250 billion a year of new federal spending in 2032, rising as groups move, to single-payer's level by 2037-39. Over FY2030-39 about $21 trillion on a straight-line path to the endpoint (the coverage model's stylized path), against about $27 trillion for C. The tax that pays for it rises in steps too, which the financing settlement sets.
+- *For people:* about 11 to 14 million uninsured in 2032, falling to the single-payer level (about 3.6 million, people not yet enrolled or not covered because of immigration status: section 3, point 3) once the endpoint is reached (the coverage model). People see the system change in steps they can plan around.
+- *Cost:* about $250 billion a year of new federal spending in 2032 while only the first wave has moved, rising as groups move, to single-payer's level at the endpoint. Over FY2030-39: about $26 trillion if the path reaches single-payer in 2037, about $21 trillion if it reaches it in 2040 (project arithmetic on the coverage model's growth path, moving in a straight line from 2030), against about $27 trillion for C. Moving employer groups last (memo 2) puts most of the cost in the final years, so the 2037 path lands between those two figures. The endpoint date is therefore mainly a choice about money in the 2030s: by FY2040 every single-payer path costs about $5 trillion a year (project arithmetic). The tax that pays for it rises in steps too, which the financing settlement sets.
 - *Why recommended:* it puts single-payer into law while each step is small enough to build, staff and pay for; it tests the payment rates (memo 5) and Medicare's capacity on younger groups before everyone moves; and it gives the financing settlement a decade, not two years, to replace premiums with taxes. The main risk is that a later Congress stops the path; writing the stages as automatic, rather than as later votes, is the defense.
 
 **C. Single-payer Medicare for All, enacted in 2029 and in force by about 2033.**
 - *What it is:* one public plan for every resident, comprehensive benefits and no premiums, replacing private insurance for covered services, phased in over about four years after enactment.
-- *For people:* about 3.6 million uninsured in 2032 (the coverage model), essentially people not yet enrolled. No premiums, deductibles or networks. The household money that now goes to premiums and out-of-pocket costs, about $1.7 trillion in 2032, and employers' $1.5 trillion, are replaced by taxes (the coverage model).
+- *For people:* about 3.6 million uninsured in 2032 (the coverage model): people not yet enrolled or not covered because of immigration status (section 3, point 3). No premiums, deductibles or networks. The household money that now goes to premiums and out-of-pocket costs, about $1.7 trillion in 2032, and employers' $1.5 trillion, are replaced by taxes (the coverage model).
 - *Cost:* about $3.3 trillion a year of new federal spending in 2032 at full scale (the coverage model; CBO's comparable range, grown to 2032, is about $1.7 to $3.3 trillion, and the model runs high against it), about $27 trillion over FY2030-39 with a 2032-35 phase-in. National spending changes from about $140 billion less to about $45 billion more, depending on payment rates and long-term care (the coverage model).
 - *Risks:* new taxes on the scale of the premiums they replace, about $3.3 trillion in 2032, enacted at once; demand outrunning supply, with longer waits (CBO, 2020) [EV-CAR-219]; about 600,000 insurance jobs and many more in billing to transition (Bureau of Labor Statistics, 2026; Economic Policy Institute, 2020) [EV-CAR-233] [EV-CAR-232]; and the legislative risk of passing it all in one Congress. Taiwan shows a fast launch can work (Reinhardt, BMJ, 2008) [EV-CAR-250]; Vermont shows how one can fail on the tax (VTDigger, 2014) [EV-CAR-245].
 
@@ -48,7 +48,7 @@ In January 2029, CBO expects 36.6 million people uninsured (CBO, 2026) [EV-CAR-0
 | --- | --- | --- | --- | --- |
 | Uninsured | 14.5 million | 11.4-14.0 million, then about 3.6 million at the endpoint | 3.6 million | Not modeled; near A to C |
 | New federal cost, 2032 | about $240 billion | about $250 billion, rising to C's level by the endpoint | about $3.3 trillion | Not modeled |
-| FY2030-39 federal | about $2.6 trillion | about $21 trillion (straight-line path) | about $27 trillion | Not modeled |
+| FY2030-39 federal | about $2.6 trillion | about $21-26 trillion (endpoint 2040 or 2037) | about $27 trillion | Not modeled |
 | National spending | about flat | about flat, then C's | about $140 billion less to $45 billion more | Lower |
 | Premiums and deductibles | Stay | Fall as groups move | End | Stay, lower |
 | Ready to launch | 2031 | 2031 first stage | About 2033 | Untested |
@@ -64,4 +64,4 @@ In January 2029, CBO expects 36.6 million people uninsured (CBO, 2026) [EV-CAR-0
 ## Questions for you
 
 1. Which shape: A, B (recommended), C or D?
-2. If B: is 2037 the right working date for the endpoint, or do you want the date left for the financing settlement?
+2. If B: is 2037 the right working date for the endpoint (about $26 trillion over FY2030-39), a later date such as 2040 (about $21 trillion), or the date left for the financing settlement?
