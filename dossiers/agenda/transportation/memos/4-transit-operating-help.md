@@ -42,7 +42,7 @@ Should federal money help pay to operate transit in large cities, and if so, how
 
 **C. Larger: $70 billion.**
 - *For people:* room for service increases, not just keeping service.
-- *For the budget:* the average draw rises to 0.196% of GDP, with a peak year of 0.223% (the plan's model) [EV-MOV-210].
+- *For the budget:* the average draw rises to 0.196% of GDP, with an all-in peak year of 0.223% (including sec. 1112's grants), against 0.208% all-in for the base design (the plan's model) [EV-MOV-210].
 
 **D. B's money with lighter conditions (recommended).**
 - **Keep conditions 1, 2 and 3.**
