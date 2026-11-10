@@ -1,0 +1,2365 @@
+Source: https://www2.census.gov/library/publications/2026/demo/p60-291.pdf
+Publisher: Census Bureau
+Retrieved: 2026-11-10
+Original SHA-256: 06bae3fca01ac02d48a5dba33655b4147176142a210ce2ef5225def2ea906d1a
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Health Insurance Coverage in the United States: 2025
+Current Population Reports
+By Lisa N. Bunch and Halelujha Ketema
+Issued September 2026
+P60-291
+
+Acknowledgments
+Lisa N. Bunch and Halelujha Ketema prepared this report under the direction of
+Brian E. Glassman, acting chief of the Health and Disability Statistics Branch.
+Liana E. Fox, assistant division chief for Economic Characteristics in the Social,
+Economic, and Housing Statistics Division, provided overall direction.
+Preeti Vaghela, with the assistance of Ryan Flint, Richard Lee, Lorelai De Vos,
+and Eric S. Park, under the supervision of Karen Bradwell, chief of the Current
+Population Survey Programming Branch, and Roselyn Rosal Tineo of the
+Demographic Programs Directorate—Survey Operations (ADDP-SO), processed
+the 2026 Current Population Survey Annual Social and Economic Supplement (CPS
+ASEC) file.
+Adam W. Reilly, with the assistance of Kirk E. Davis, Raymond E. Dowdy, and
+Marguerite McDaniel, programmed and produced the historical, detailed, and
+publication tables under the direction of Hung X. Pham, chief of the Tabulation and
+Applications Branch, Demographic Surveys Division.
+Weimin Zhang, under the direction of Casey Goldvale and Jinhee Hong, all of the
+Demographic Statistical Methods Division, conducted statistical review.
+Brian Kincel, Roselyn Rosal Tineo, and Roberto Marrero Cases, all of ADDP-SO,
+provided overall direction for survey implementation. Arpit Rupakhetee and
+Johanna Rupp, both of the Information Technology Directorate, prepared and
+programmed the computer-assisted interviewing instrument used to conduct the
+CPS ASEC.
+Steven Brown, Stephen Gibson, and Daphanie Smallwood, all of the Graphic
+and Editorial Services Branch, Public Information Office, provided publication
+management, graphic design and composition, editorial review, and Section 508
+compliance for print and electronic media under the direction of Christine Geter,
+editorial section chief, and Corey Beasley, chief of the Graphic and Editorial
+Services Branch.
+The authors also would like to thank the U.S. Census Bureau field representatives
+and telephone interviewers who conducted the interviews that provided the data
+used in this report. Without their dedication, the preparation of this report or any
+report from the Current Population Survey would be impossible.
+We wish Tim Marshall and David Hornick, both responsible for CPS ASEC
+processing, and Kirk Davis, responsible for table creation, all the best in their
+retirements. We also thank and wish a happy retirement to David Waddington, who
+oversaw the Income, Poverty, and Health Insurance in the United States reports as
+the division chief for the Social, Economic, and Housing Statistics Division.
+
+Health Insurance Coverage
+in the United States: 2025
+
+Issued September 2026
+P60-291
+
+U.S. Census Bureau
+George Cook,
+Performing the Duties of the Director
+
+Suggested Citation
+Lisa N. Bunch and Halelujha Ketema,
+U.S. Census Bureau,
+Current Population Reports,
+P60-291,
+Health Insurance Coverage
+in the United States: 2025,
+U.S. Government Publishing Office,
+Washington, DC,
+September 2026.
+
+U.S. CENSUS BUREAU
+George Cook,
+Performing the Duties of the Director
+Michael Lachanski,
+Deputy Director for Data, Policy, and Science
+Karen Battle,
+Acting Associate Director for Demographic Programs
+Lynda Laughlin,
+Acting Chief, Social, Economic, and Housing Statistics Division
+
+Contents
+INTRODUCTION. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+1
+
+HIGHLIGHTS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+1
+
+ESTIMATES OF HEALTH INSURANCE COVERAGE IN THE
+UNITED STATES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+1
+
+What Is Health Insurance Coverage?. . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+2
+
+HEALTH INSURANCE COVERAGE BY TYPE AND SELECTED
+CHARACTERISTICS. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Health Insurance Coverage by Age . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Private Coverage by Age . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Public Coverage by Age. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Private and Public Health Insurance Coverage by Selected
+Characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Uninsured Rates for Children and Working-Age Adults by Selected
+Characteristics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Children Under the Age of 19. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Working-Age Adults 19 to 64 Years Old. . . . . . . . . . . . . . . . . . . . . . . . 
+
+2
+2
+4
+4
+4
+4
+7
+8
+
+ESTIMATES OF HEALTH INSURANCE COVERAGE: 2013 TO 2025. . 
+Overall Coverage Rate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8
+8
+
+SUMMARY. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+10
+
+ENDNOTES. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+11
+
+TABLES
+Table 1.
+
+Number of People by Health Insurance Coverage Status
+and Type: 2024 and 2025. . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3
+
+Figure 1.
+
+Percentage of People by Type of Health Insurance
+Coverage: 2024 and 2025. . . . . . . . . . . . . . . . . . . . . . . . 
+
+3
+
+Figure 2.
+
+Percentage of People With Selected Coverage Types and
+Uninsured by Age Group: 2024 and 2025 . . . . . . . . . . . 
+
+5
+
+Figure 3.
+
+Health Insurance Coverage Type by Selected
+Characteristics: 2024 and 2025 . . . . . . . . . . . . . . . . . . . 
+
+6
+
+Figure 4.
+
+Percentage of People Without Health Insurance Coverage
+by Age Group: 2024 and 2025. . . . . . . . . . . . . . . . . . . . 
+
+7
+
+Figure 5.
+
+Percentage of Children Under the Age of 19 Without
+Health Insurance Coverage by Selected Characteristics:
+2024 and 2025. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+8
+
+Percentage of Adults Ages 19 to 64 Without Health
+Insurance Coverage by Selected Characteristics:
+2024 and 2025. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9
+
+Percentage of People Without Health Insurance
+Coverage: 2013 to 2025. . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+10
+
+FIGURES
+
+Figure 6.
+
+Figure 7.
+
+U.S. Census Bureau
+
+Health Insurance Coverage in the United States: 2025 iii
+
+APPENDIX. ADDITIONAL INFORMATION
+Source and Accuracy of the Estimates. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+CPS ASEC Modernization. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Business Cycles—Recessions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Accessing Health Insurance Data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Other Sources of Health Insurance Data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Questions and Comments. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+12
+13
+13
+13
+14
+14
+
+ONLINE TABLES
+(Available at <www.census.gov/library/publications/2026/demo/p60-291.html>.)
+Table 1.
+
+Number of People by Health Insurance Coverage Status and Type: 2024 and 2025
+
+Table 2.
+
+Health Insurance Coverage Status and Type of Coverage—All Persons by Age and Sex: 2017 to
+2025
+
+Table 3.
+
+Percentage of People by Health Insurance Coverage Status and Type by Selected Characteristics:
+2024 and 2025
+
+Table 4.
+
+Health Insurance Coverage Status and Type by Age and Selected Characteristics: 2024 and 2025
+
+Table 5.
+
+Percentage of Children Under the Age of 19 and Adults Ages 19 to 64 Without Health Insurance
+Coverage by Selected Characteristics: 2024 and 2025
+
+Table 6.
+
+Uninsured Rate: 2013 to 2025
+
+Table 7.
+
+Percentage of Children Under the Age of 19 and Adults Ages 19 to 64 Without Health Insurance
+Coverage by Income-to-Poverty Ratio and Medicaid Expansion Status of State: 2024 and 2025
+
+Table 8.
+
+Health Insurance Coverage by Type and Income-to-Poverty Ratio for Children Under the Age of 19
+and Adults Ages 19 to 64: 2024 and 2025
+
+iv Health Insurance Coverage in the United States: 2025
+
+U.S. Census Bureau
+
+Health Insurance Coverage in the United States: 2025
+INTRODUCTION
+The U.S. Census Bureau collects
+data and publishes estimates
+on health insurance coverage to
+evaluate national trends in access
+to health care. Health insurance
+reduces exposure to financial
+risks from unexpected medical
+expenses, offers a means for
+financing an individual’s health
+care expenses, and provides more
+economic stability for people and
+families. From year to year, the
+prevalence of health insurance
+coverage and the distribution of
+coverage types may change due
+to economic trends, shifts in the
+demographic composition of the
+population (such as population
+aging), and policy changes that
+affect access to care.
+The estimates in this report
+are based on data collected in
+the 2026 and earlier Current
+Population Survey Annual Social
+and Economic Supplements (CPS
+ASEC) conducted by the Census
+Bureau. This report presents
+statistics on health insurance
+coverage in the United States
+in 2025 and changes in health
+insurance coverage rates between
+2024 and 2025.* Estimates for
+2024 in this report may not match
+those published last year due to
+* The U.S. Census Bureau has reviewed
+this data product to ensure appropriate
+access, use, and disclosure avoidance
+protection of the confidential source
+data used to produce this product
+(Data Management System [DMS]
+number: P-7534374 and Disclosure
+Review Board [DRB] approval number:
+CBDRB-FY26-0281). To further protect
+respondent privacy, all estimates in
+this report have undergone additional
+rounding. As a result, details may not
+sum to totals. All comparative statements
+have undergone statistical testing and are
+statistically significant at the 90 percent
+confidence level unless otherwise noted.
+
+U.S. Census Bureau
+
+the implementation of Vintage
+2025 population controls.1
+This report is released alongside
+two other reports focused on
+household income and poverty in
+the United States. These estimates
+can be found in “Income in the
+United States: 2025” and “Poverty
+in the United States: 2025.”2
+
+HIGHLIGHTS
+• In 2025, 26.7 million people (7.9
+percent) were uninsured for
+the entire year, not statistically
+different from 2024 (Table 1 and
+Figure 1). 3, 4
+• Of the subtypes of health
+insurance coverage,
+employment-based insurance
+was the most common,
+covering 53.5 percent of the
+population for some or all of
+the calendar year, followed
+by Medicare (20.1 percent),
+Medicaid (17.1 percent),
+direct-purchase coverage
+(10.5 percent), TRICARE
+(2.8 percent), and VA and
+CHAMPVA coverage (1.2
+percent). 5
+• The share of individuals
+covered by public health
+insurance was 35.8 percent in
+2025, not statistically different
+from 2024. While Medicare
+coverage increased by 0.6
+percentage points, Medicaid
+coverage decreased by 0.5
+percentage points.
+• Public coverage for adults
+ages 19 to 64 declined by 0.5
+percentage points in 2025 to
+17.3 percent. This was driven
+by a 0.6 percentage-point
+decrease in Medicaid coverage
+for adults ages 19 to 64
+(Figure 2).6
+
+• In 2025, 41.5 percent of
+adults age 65 and older held
+private coverage, down 2.8
+percentage points from 2024.
+This decrease was driven by a
+1.5 percentage-point drop in
+employment-based coverage
+and a 1.4 percentage-point
+drop in direct-purchase
+coverage for adults age 65 and
+older.7
+
+ESTIMATES OF HEALTH
+INSURANCE COVERAGE IN
+THE UNITED STATES
+This report classifies health
+insurance coverage into three
+different categories: overall
+coverage, private coverage,
+and public coverage (refer to
+the “What Is Health Insurance
+Coverage?” text box). In the CPS
+ASEC, people are considered
+insured if they were covered
+by any type of health insurance
+for some or all of the previous
+calendar year. People are
+considered uninsured if they
+were not covered by any type of
+insurance for the entire year. 8, 9
+In 2025, 26.7 million people (7.9
+percent) were uninsured for the
+entire year (Table 1 and Figure
+1). That means most people (92.1
+percent) had health insurance
+coverage at some point during
+the calendar year. More people
+had private health insurance (65.7
+percent) than public coverage
+(35.8 percent).
+There were no statistically
+significant changes in private
+coverage, public coverage, or the
+uninsured rate between 2024 and
+2025.
+
+Health Insurance Coverage in the United States: 2025 1
+
+Employment-based insurance
+was the most common subtype
+of health insurance in the civilian
+noninstitutionalized population
+(53.5 percent), followed by
+Medicare (20.1 percent), Medicaid
+(17.1 percent), direct-purchase
+insurance (10.5 percent),
+TRICARE (2.8 percent), and
+VA and CHAMPVA health care (1.2
+percent).10
+There were no significant changes
+between 2024 and 2025 in
+any of the subtypes of private
+health insurance (employmentbased coverage, direct-purchase
+coverage, and TRICARE
+coverage).
+Of the subtypes of public health
+insurance, Medicare coverage
+increased by 0.6 percentage
+points to 20.1 percent in 2025.
+The increase in the Medicare
+rate was due, in part, to growth
+in the number of people age
+65 and older.11 The increase in
+Medicare coverage was offset by
+a decline in Medicaid coverage
+by 0.5 percentage points, which
+resulted in no change in the public
+coverage rate between 2024 and
+2025.
+
+HEALTH INSURANCE
+COVERAGE BY TYPE AND
+SELECTED CHARACTERISTICS
+Health Insurance Coverage by Age
+Age is associated with the
+likelihood that a person has health
+insurance coverage, as well as
+with health coverage type. In
+general, older adults (age 65
+and older) and children (under
+the age of 19) are more likely to
+have health insurance coverage
+than those ages 19 to 64, in part
+because their age makes them
+eligible for certain public health
+insurance programs. Medicare
+
+What Is Health Insurance Coverage?
+Health insurance coverage in the Current Population Survey
+Annual Social and Economic Supplement (CPS ASEC) refers to
+comprehensive coverage at any time during the calendar year for
+the civilian noninstitutionalized population of the United States.1
+For reporting purposes, the U.S. Census Bureau broadly classifies
+health insurance coverage as private insurance or public insurance.
+Private Coverage
+• Employment-based: Plan provided through an employer or
+union.
+• Direct-purchase: Coverage purchased directly from an insurance
+company, or through a federal or state Marketplace (e.g.,
+healthcare.gov).
+• TRICARE: Coverage through TRICARE, formerly known as
+Civilian Health and Medical Program of the Uniformed Services.
+Public Coverage
+• Medicare: Federal program that helps to pay health care costs
+for people age 65 and older and for certain people under the
+age of 65 with long-term disabilities.
+• Medicaid: This report uses the term “Medicaid” to include the
+specific Medicaid government program and other programs for
+low-income individuals administered by the states, such as the
+Children’s Health Insurance Program (CHIP) and Basic Health
+Programs.
+• VA and CHAMPVA: Care provided by the Department of
+Veterans Affairs, the military, and the Civilian Health and Medical
+Program of the Department of Veterans Affairs.
+Additionally, people are considered uninsured if they only had
+coverage through the Indian Health Service (IHS), as IHS coverage
+is not considered comprehensive.
+
+1
+Comprehensive health insurance covers basic health care needs. This definition
+excludes single-service plans such as accident, dental, disability, prescription
+medicine, or vision plans.
+
+provides health coverage benefits
+for most adults age 65 and older.
+Children under the age of 19 may
+qualify for coverage through
+Medicaid or the Children’s Health
+Insurance Program (CHIP), or they
+may be covered as dependents
+on a parent or guardian’s health
+
+2 Health Insurance Coverage in the United States: 2025
+
+insurance plan.12 Additionally, the
+Patient Protection and Affordable
+Care Act (ACA) extended
+coverage through a parent or
+guardian’s plan to children and
+young adults until the age of 26.13
+
+U.S. Census Bureau
+
+Table 1.
+
+Number of People by Health Insurance Coverage Status and Type: 2024 and 2025
+(Numbers in thousands. Margins of error in thousands. Population as of March of the following year. Information on
+confidentiality protection, sampling error, nonsampling error, and definitions is available at <https://www2.census.gov/
+programs-surveys/cps/techdocs/cpsmar26.pdf>)
+20241
+Coverage type
+Total . . . . . . . . . . . . . . . 
+Any health plan3 . . . . . . . . . . . . 
+Any private plan. . . . . . . . . . . . 
+Employment-based. . . . . . . 
+Direct-purchase . . . . . . . . . . 
+Marketplace coverage. . . 
+TRICARE . . . . . . . . . . . . . . . . 
+Any public plan . . . . . . . . . . . . 
+Medicare. . . . . . . . . . . . . . . . . 
+Medicaid. . . . . . . . . . . . . . . . . 
+VA and CHAMPVA4 . . . . . . . 
+Uninsured5 . . . . . . . . . . . . . . . . . 
+
+2025
+
+Number
+
+Margin of
+error2 (±)
+
+336,800
+309,900
+222,100
+180,500
+36,260
+14,480
+9,585
+120,800
+65,740
+59,220
+3,873
+26,940
+
+153
+635
+1,362
+1,295
+767
+535
+510
+1,067
+435
+1,042
+221
+622
+
+Number
+
+Margin of
+error2 (±)
+
+Year-to-year
+change
+(2025 less 2024)
+
+337,900
+311,200
+222,000
+180,700
+35,530
+14,260
+9,294
+121,100
+67,910
+57,800
+4,212
+26,670
+
+139
+779
+1,453
+1,432
+817
+553
+521
+1,147
+478
+1,063
+253
+764
+
+*1,108
+*1,376
+–97
+219
+–737
+–230
+–291
+340
+*2,165
+*–1,418
+339
+–268
+
+* An asterisk preceding an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1
+Estimates for 2024 may not match those published last year due to the implementation of Vintage 2025 population controls.
+2
+A margin of error (MOE) is a measure of an estimate’s variability. The larger the MOE in relation to the size of the estimate, the less reliable
+the estimate. This number, when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table
+are based on standard errors calculated using replicate weights.
+3
+The estimates by type of coverage are not mutually exclusive; people can be covered by more than one type of health insurance during
+the year.
+4
+Includes CHAMPVA (Civilian Health and Medical Program of the Department of Veterans Affairs), as well as care provided by the Department
+of Veterans Affairs (VA) and the military.
+5
+In the CPS ASEC, individuals are considered to be uninsured if they did not have health insurance coverage for the entire calendar year.
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements (CPS ASEC; Data
+Management System [DMS] number: P-7534374 and Disclosure Review Board [DRB] approval number: CBDRB-FY26-0281).
+
+Figure 1.
+
+Percentage of People by Type of Health Insurance Coverage: 2024 and 2025
+Change: 2024 to 2025
+
+Type of Coverage in 2025
+Uninsured
+With health insurance
+Any private plan
+Employment-based
+Direct-purchase
+Marketplace
+TRICARE
+Any public plan
+Medicare
+Medicaid
+VA and CHAMPVA1
+
+–0.1
+
+7.9
+
+92.1
+65.7
+53.5
+
+10.5
+4.2
+2.8
+
+20.1
+17.1
+1.2
+
+0.1
+–0.2
+–0.1
+–0.3
+–0.1
+–0.1
+Z
+
+35.8
+
+0.6
+–0.5
+0.1
+Denotes a statistically significant change
+
+Z Rounds to zero.
+1
+Includes CHAMPVA (Civilian Health and Medical Program of the Department of Veterans Affairs), as well as care provided by the
+Department of Veterans Affairs (VA) and the military.
+Note: Population as of March of the following year. The estimates by type of coverage are not mutually exclusive; people can be covered
+by more than one type of health insurance during the year. Margins of error and other related estimates are available in Table 2 at
+<www.census.gov/library/publications/2026/demo/p60-291.html>. Information on confidentiality protection, sampling error, nonsampling
+error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements (CPS ASEC).
+(Data Management System [DMS] number: P-7534374 and Disclosure Review Board [DRB] approval number: CBDRB-FY26-0281).
+
+U.S. Census Bureau
+
+Health Insurance Coverage in the United States: 2025 3
+
+Private Coverage by Age
+Figure 2 shows health insurance
+coverage rates by major age
+category. While there were no
+significant changes to private
+coverage rates for children under
+the age of 19 and adults ages 19 to
+64, private coverage declined 2.8
+percentage points for adults age
+65 and older between 2024 and
+2025. This decrease was driven
+by a 1.5 percentage-point drop
+in employment-based coverage
+and a 1.4 percentage-point drop
+in direct-purchase coverage for
+adults age 65 and older.14
+Public Coverage by Age
+In 2025, about one-third of
+children under the age of 19
+had public health coverage
+(33.7 percent), compared with
+17.3 percent of adults ages 19
+to 64. Most adults age 65 and
+older (94.3 percent) held public
+coverage.
+Between 2024 and 2025, the
+public coverage rate decreased
+by 0.5 percentage points for
+
+adults ages 19 to 64, driven by a
+0.6 percentage-point decrease in
+Medicaid coverage.
+
+decreases in public coverage for
+all workers and for adults with no
+disability.17
+
+For adults age 65 and older, 7.4
+percent held Medicaid coverage at
+some point in 2025, an increase of
+0.7 percentage points from 2024.
+
+Uninsured Rates for Children and
+Working-Age Adults by Selected
+Characteristics
+
+Private and Public Health
+Insurance Coverage by Selected
+Characteristics
+Figure 3 examines private and
+public coverage by selected
+characteristics. Overall, neither
+private nor public health insurance
+rates changed significantly
+between 2024 and 2025. Private
+health insurance coverage
+declined for non-Hispanic White
+individuals and native-born
+individuals between 2024 and
+2025.15 For people of all ages,
+there were no significant changes
+for the other groups displayed in
+Figure 3.16
+Among adults ages 19 to 64, the
+public coverage rate decreased
+by 0.5 percentage points between
+2024 and 2025, with significant
+
+4 Health Insurance Coverage in the United States: 2025
+
+For children under the age of 19
+and working-age adults ages 19
+to 64, health insurance coverage
+status and coverage type vary.
+While people age 65 and older
+have nearly universal health
+insurance coverage (due to
+access to Medicare), those under
+the age of 65 are more likely to
+have variability in their type and
+continuity of coverage over time.
+Figure 4 presents the uninsured
+rates for 2024 and 2025 by age
+group. Among working-age adults
+ages 19 to 64, those ages 19 to 25
+had the highest uninsured rate
+(14.5 percent) in 2025, and those
+ages 45 to 64 had the lowest (8.6
+percent). Overall, the uninsured
+rate for adults decreased as age
+increased.
+
+U.S. Census Bureau
+
+Figure 2.
+
+Percentage of People With Selected Coverage Types and Uninsured by Age Group:
+2024 and 2025
+
+Uninsured
+
+5.8
+
+–0.3
+
+Private
+
+63.7
+
+Employment-based
+Direct-purchase
+TRICARE
+
+0.9
+0.8
+
+55.4
+0.2
+
+6.2
+–0.2
+
+2.8
+
+Public
+Medicaid
+Other public1
+
+Change: 2024 to 2025
+
+Type of Coverage by Age in 2025
+
+UNDER 19 YEARS
+
+33.7
+
+–0.6
+
+33.1
+
+–0.7
+0.1
+
+0.8
+
+19 TO 64 YEARS
+Uninsured
+
+Z
+
+11.0
+
+Private
+
+9.5
+
+–0.1
+17.3
+
+–0.5
+0.1
+
+3.2
+
+Medicaid
+VA and CHAMPVA2
+
+–0.2
+
+2.5
+
+Public
+Medicare
+
+0.4
+
+63.6
+
+Direct-purchase
+TRICARE
+
+0.4
+
+74.5
+
+Employment-based
+
+–0.6
+
+14.2
+
+0.1
+
+1.2
+
+65 YEARS AND OLDER
+Uninsured
+
+–0.1
+
+0.9
+
+Private
+
+41.5
+
+Employment-based
+Direct-purchase
+TRICARE
+
+–1.4
+
+3.4
+
+Medicare
+
+VA and CHAMPVA2
+
+–1.5
+
+18.4
+
+Public
+
+Medicaid
+
+–2.8
+
+20.5
+
+0.1
+94.3
+
+0.1
+
+94.1
+
+Z
+0.7
+
+7.4
+2.3
+
+0.1
+Denotes a statistically
+significant change
+
+Z Rounds to zero.
+1
+Other public includes Medicare, Civilian Health and Medical Program of the Department of Veterans Affairs (CHAMPVA), and care
+provided by the Department of Veterans Affairs (VA) and the military.
+2
+Includes CHAMPVA, as well as care provided by the VA and the military.
+Note: Population as of March of the following year. The estimates by type of coverage are not mutually exclusive; people can be covered
+by more than one type of health insurance during the year. Margins of error and other related estimates are available in Table 2 at
+<www.census.gov/library/publications/2026/demo/p60-291.html>. Information on confidentiality protection, sampling error, nonsampling
+error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements (CPS ASEC). (Data
+Management System [DMS] number: P-7534374 and Disclosure Review Board [DRB] approval number: CBDRB-FY26-0281).
+
+U.S. Census Bureau
+
+Health Insurance Coverage in the United States: 2025 5
+
+Figure 3.
+
+Health Insurance Coverage Type by Selected Characteristics: 2024 and 2025
+(In percent)
+
+Health Insurance Coverage in 2025
+Public
+
+TOTAL
+
+Change: 2024 to 2025
+
+Private
+
+35.8
+
+Public
+
+65.7
+
+Private
+
+–0.2
+
+Z
+
+Race and Hispanic Origin
+White, not Hispanic
+
+36.4
+
+Black
+
+71.6
+
+41.5
+
+Asian
+
+55.1
+
+–0.8
+
+–0.6
+
+25.9
+
+73.9
+35.1
+
+Hispanic (any race)
+
+–0.9
+
+0.2
+0.3
+
+52.7
+
+–0.1
+1.1
+
+Z
+
+Nativity
+Native-born
+
+36.5
+
+Foreign-born
+
+67.2
+
+32.3
+
+–0.6
+
+–0.2
+
+57.2
+
+0.8
+
+0.9
+
+Medicaid Expansion Status1
+Expansion state
+
+37.3
+
+Nonexpansion state
+
+32.1
+
+TOTAL, 19 TO 64 YEARS
+
+66.1
+
+Z
+
+64.6
+
+–0.1
+
+17.3
+
+74.5
+
+Z
+–0.8
+
+–0.5
+
+0.4
+
+–0.4
+
+0.1
+
+Work Experience
+All workers
+
+11.3
+
+Worked full-time, year-round
+Worked less than full-time,
+year-round
+Did not work
+
+7.5
+
+80.8
+85.5
+22.3
+
+67.4
+40.6
+
+–0.2
+
+–0.1
+
+–0.3
+
+–0.2
+
+49.7
+
+–0.5
+
+49.3
+
+–0.5
+
+0.9
+
+Disability Status2
+49.0
+
+With a disability
+With no disability
+
+14.5
+
+76.6
+
+–0.4
+
+–0.6
+
+0.5
+
+–0.4
+
+0.3
+
+–0.5
+
+0.2
+
+Marital Status
+Married3
+Not married
+
+12.3
+
+83.4
+22.6
+
+65.0
+
+Denotes a statistically
+significant change
+Z Rounds to zero.
+1 Indicates residence in one of the 40 expansion states and the District of Columbia, or 10 nonexpansion states. The states that had not
+expanded Medicaid as of January 1, 2025, are AL, FL, GA, KS, MS, SC, TN, TX, WI, and WY. For more information, refer to
+<www.medicaid.gov/state-overviews>.
+2 The sum of those with and without a disability does not equal the total because disability status is not defined for individuals in the
+U.S. armed forces.
+3 The combined category “married” includes three individual categories: “married, civilian spouse present,” “married, U.S. armed forces
+spouse present,” and “married, spouse absent."
+Note: Population as of March of the following year. The estimates by type of coverage are not mutually exclusive; people can be
+covered by more than one type of health insurance during the year. Margins of error and other related estimates are available in Tables
+3 and 4 at <www.census.gov/library/publications/2026/demo/p60-291.html>. Information on confidentiality protection, sampling
+error, nonsampling error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements (CPS ASEC). (Data
+Management System [DMS] number: P-7534374 and Disclosure Review Board [DRB] approval number: CBDRB-FY26-0281).
+
+6 Health Insurance Coverage in the United States: 2025
+
+U.S. Census Bureau
+
+Figure 4.
+
+Percentage of People Without Health Insurance Coverage by Age Group: 2024 and 2025
+14.5 14.5
+
+20241
+
+2025
+
+13.0 13.3
+10.7 10.8
+8.7
+
+8.6
+
+6.1 5.8
+
+1.0 0.9
+Under 19 years
+
+19 to 25 years
+
+26 to 34 years
+
+35 to 44 years
+
+45 to 64 years
+
+65 years and older
+
+1
+Estimates for 2024 may not match those published last year due to the implementation of Vintage 2025 population controls.
+Note: There are no statistically significant changes between 2024 and 2025 presented in this figure.
+Population as of March of the following year. Margins of error and other related estimates are available in Table 2 at
+<www.census.gov/library/publications/2026/demo/p60-291.html>. Information on confidentiality protection, sampling error,
+nonsampling error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements (CPS ASEC).
+(Data Management System [DMS] number: P-7534374 and Disclosure Review Board [DRB] approval number: CBDRB-FY26-0281).
+
+Children Under the Age of 19
+In 2025, 5.8 percent of children
+under the age of 19 did not have
+health insurance, which was not
+statistically different from 2024.
+Health insurance coverage rates
+for children under the age of 19 in
+
+U.S. Census Bureau
+
+2025 differed by several factors,
+including race and Hispanic origin,
+nativity, and region (Figure 5).18
+The uninsured rate in 2025 for
+children under the age of 19 in the
+Northeast (2.6 percent) decreased
+by 1.8 percentage points from
+
+2024.19 This was the lowest rate
+among all regions. For children
+under the age of 19 in the West,
+the uninsured rate increased by 1.1
+percentage points to 5.5 percent
+in 2025. 20
+
+Health Insurance Coverage in the United States: 2025 7
+
+Figure 5.
+
+Percentage of Children Under the Age of 19 Without Health Insurance Coverage
+by Selected Characteristics: 2024 and 2025
+Change: 2024 to 2025
+
+Uninsured Rate in 2025
+
+TOTAL
+
+5.8
+
+–0.3
+
+Race and Hispanic Origin
+White, not Hispanic
+
+4.2
+
+Black
+Asian
+
+0.1
+0.3
+
+6.0
+–0.7
+
+3.6
+
+Hispanic (any race)
+
+–0.7
+
+9.4
+
+Nativity
+Native-born
+
+–0.1
+
+5.3
+–2.7
+
+16.1
+
+Foreign born
+Naturalized citizen
+
+9.6
+
+Not a citizen
+
+-0.5
+18.3
+
+–2.8
+
+Region
+Northeast
+Midwest
+
+–1.8
+
+2.6
+
+South
+West
+
+–0.3
+
+4.5
+8.0
+
+–0.4
+1.1
+
+5.5
+Denotes a statistically
+significant change
+
+Note: Population as of March of the following year. Margins of error and other related estimates are available in Table 5 at
+<www.census.gov/library/publications/2026/demo/p60-291.html>. Information on confidentiality protection, sampling error, nonsampling
+error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements (CPS ASEC). (Data
+Management System [DMS] number: P-7534374 and Disclosure Review Board [DRB] approval number: CBDRB-FY26-0281).
+
+Working-Age Adults 19 to 64 Years
+Old
+Working-age adults ages 19 to 64
+may have different health insurance
+coverage from other age groups,
+in part because they only qualify
+for public coverage under limited
+circumstances. In 2025, 11.0 percent
+of adults ages 19 to 64 did not have
+health insurance coverage, which
+was not statistically different from
+the rate in 2024 (Figure 6).
+Between 2024 and 2025, the
+uninsured rate for native-born
+working-age adults increased
+by 0.6 percentage points to 8.9
+percent, while the uninsured rate
+for foreign-born working-age
+
+adults decreased by 1.2 percentage
+points to 19.4 percent. Among
+foreign-born working-age adults,
+the uninsured rate for naturalized
+citizens (9.4 percent) increased,
+and the rate for noncitizens (28.9
+percent) decreased. 21
+For adults ages 19 to 64 living in
+the Northeast, the uninsured rate
+decreased by 1.0 percentage point
+between 2024 and 2025.
+
+ESTIMATES OF HEALTH
+INSURANCE COVERAGE: 2013
+TO 2025
+
+state policy provide important
+context for coverage levels
+and changes within social and
+demographic groups. Overall, the
+uninsured rate declined from 2013–
+2016 and 2020–2022; increased
+from 2017 to 2018; and did not
+significantly change year-to-year
+across the other years (Figure
+7). 22 In 2025, the uninsured rate
+continued to remain near historic
+lows at 7.9 percent and was not
+significantly different from the rate
+in 2024. 23
+
+Overall Coverage Rate
+Economic trends, demographic
+shifts, and changes in federal and
+
+8 Health Insurance Coverage in the United States: 2025
+
+U.S. Census Bureau
+
+Figure 6.
+
+Percentage of Adults Ages 19 to 64 Without Health Insurance Coverage by Selected
+Characteristics: 2024 and 2025
+Change: 2024 to 2025
+
+Uninsured Rate in 2025
+TOTAL
+
+11.0
+
+Z
+
+Race and Hispanic Origin
+White, not Hispanic
+
+6.9
+
+0.1
+
+Black
+Asian
+
+13.1
+
+1.0
+
+6.8
+
+Z
+21.8
+
+Hispanic (any race)
+
+–1.1
+
+Nativity
+Native-born
+
+8.9
+
+0.6
+19.4
+
+Foreign-born
+Naturalized citizen
+
+–1.2
+
+9.4
+
+1.1
+
+Not a citizen
+
+28.9
+
+–2.1
+
+Work Experience
+All workers
+
+10.2
+
+0.2
+
+Worked full-time, year-round
+
+9.0
+
+0.2
+
+Worked less than full-time,
+year-round
+
+13.9
+
+Did not work
+
+14.1
+
+0.5
+
+–0.6
+
+Marital Status
+Married1
+
+7.5
+
+Z
+
+Widowed
+
+12.4
+
+Divorced
+
+12.0
+
+–0.3
+0.6
+17.4
+
+Separated
+
+–1.5
+
+15.2
+
+Never married
+
+0.1
+
+Region
+Northeast
+Midwest
+
+5.8
+
+–1.0
+9.3
+
+South
+West
+
+0.3
+14.7
+
+10.1
+
+0.3
+0.2
+Denotes a statistically
+significant change
+
+Z Rounds to zero.
+1
+The combined category “married” includes three individual categories: “married, civilian spouse present,” “married, U.S. armed forces
+spouse present,” and “married, spouse absent."
+Note: Population as of March of the following year. Margins of error and other related estimates are available in Table 5 at
+<www.census.gov/library/publications/2026/demo/p60-291.html>. Information on confidentiality protection, sampling error, nonsampling
+error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements (CPS ASEC). (Data
+Management System [DMS] number: P-7534374 and Disclosure Review Board [DRB] approval number: CBDRB-FY26-0281).
+
+U.S. Census Bureau
+
+Health Insurance Coverage in the United States: 2025 9
+
+Figure 7.
+
+Percentage of People Without Health Insurance Coverage: 2013 to 2025
+Recession
+
+25
+
+20
+
+15
+
+13.3
+
+10
+
+7.9
+
+5
+
+0
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+20191
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+1
+The U.S. Census Bureau recommends using caution when making health insurance comparisons between calendar year coverage in 2019
+(collected in 2020) and other years: <www.census.gov/content/dam/Census/library/working-papers/2023/demo/sehsd-wp-2023-27.pdf>.
+
+Note: Population as of March of the following year. The data for 2017 and beyond reflect the implementation of an updated processing
+system. The data points are placed at the midpoints of the respective years. Information on recessions is available in the report appendix.
+Margins of error and other related estimates are available in Table 6 at <www.census.gov/library/publications/2026/demo/p60-291.html>.
+Information on confidentially protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2018 Annual Social and Economic Supplement Bridge File and 2014 to 2026
+Annual Social and Economic Supplements (CPS ASEC). (Data Management System [DMS] number: P-7534374 and Disclosure Review
+Board [DRB] approval number: CBDRB-FY26-0281).
+
+SUMMARY
+In 2025, the overall uninsured,
+private coverage, and public
+coverage rates did not
+significantly change from 2024.
+There were changes in some
+types of insurance for the total
+population. For example, the
+overall Medicaid coverage rate
+
+decreased by 0.5 percentage
+points, offsetting the 0.6
+percentage-point Medicare
+coverage increase. Overall, private
+coverage continued to be more
+prevalent than public coverage.
+People in some social and
+demographic groups experienced
+changes in their coverage rates
+
+10 Health Insurance Coverage in the United States: 2025
+
+between 2024 and 2025. The
+public coverage rate for adults
+ages 19 to 64 decreased by 0.5
+percentage points, driven by a
+decrease in Medicaid coverage for
+this group. 24 Additionally, private
+coverage dropped for adults age
+65 and older, driven by declines in
+employment-based coverage and
+direct-purchase coverage.
+
+U.S. Census Bureau
+
+ENDNOTES
+1
+Additional details are available at
+<www.census.gov/library/workingpapers/2026/demo/sehsd-wp2026-16.
+html>.
+2
+Melissa Kollar and Zach Scherer,
+“Income in the United States: 2025,”
+Current Population Reports, P60-289,
+U.S. Census Bureau, Washington, DC,
+September 2026, <www.census.gov/
+library/publications/2026/demo/p60289.html>, and Christina Bijou and Emily
+A. Shrider, “Poverty in the United States:
+2025,” Current Population Reports, P60290, U.S. Census Bureau, Washington,
+DC, September 2026, <www.census.gov/
+library/publications/2026/demo/p60-290.
+html>.
+3
+The margin of error for the uninsured
+rate in 2025 was 0.2.
+⁴ Estimates of health insurance coverage
+status and coverage type for all people
+and by age and sex for 2024 and 2025 are
+available in Table 2 at <www.census.gov/
+library/publications/2026/demo/p60-291.
+html>.
+5
+Some people have more than one
+coverage type during the calendar year.
+6
+Between 2024 and 2025, the estimated
+percentage-point change of adults ages
+19 to 64 with public coverage was not
+statistically different from the estimated
+percentage-point change of adults ages 19
+to 64 with Medicaid coverage.
+7
+Between 2024 and 2025, the estimated
+percentage-point change of adults age
+65 and older with employment-based
+coverage was not statistically different
+from the estimated percentage-point
+change of adults age 65 and older with
+direct-purchase coverage.
+8
+Infants born after the calendaryear reference period are excluded from
+estimates in this report.
+9
+The CPS ASEC also includes a
+measure of health insurance coverage
+held at the time of the interview. Although
+this measure of coverage cannot predict
+coverage in a given calendar year, it offers
+a snapshot of health insurance coverage
+early in the year when CPS ASEC data
+are collected. Additional statistics for this
+health coverage can be found in Table
+H-02 at <www.census.gov/data/tables/
+time-series/demo/income-poverty/cps-hi/
+hi.html>.
+10
+The final category includes CHAMPVA
+(Civilian Health and Medical Program of the
+Department of Veterans Affairs) coverage
+and care provided by the Department of
+Veterans Affairs (VA) and the military.
+11
+The estimated proportion of the
+population age 65 and older with Medicare
+coverage did not statistically change
+between 2024 and 2025. The estimated
+percentage of the U.S. population age 65
+and older, however, increased between
+2024 and 2025.
+
+U.S. Census Bureau
+
+12
+CHIP is a public assistance program
+that provides health insurance to children
+in families with income too high to qualify
+for Medicaid, but who may not be able to
+afford private health insurance.
+13
+Information on the Patient Protection
+and Affordable Care Act (ACA) is available
+online at <www.hhs.gov/healthcare/aboutthe-aca/index.html> and <www.govinfo.
+gov/content/pkg/PLAW-111publ148/pdf/
+PLAW-111publ148.pdf>.
+14
+Although most people age 65 and
+older held coverage through Medicare,
+44.7 percent of people age 65 and older
+reported holding more than one type of
+coverage concurrently for some or all of
+calendar year 2025.
+15
+Federal surveys give respondents the
+option of reporting more than one race.
+Therefore, two basic ways of defining a
+race group are possible. A group, such
+as Asian, may be defined as those who
+reported Asian and no other race (the
+race-alone or single-race concept) or
+as those who reported Asian regardless
+of whether they also reported another
+race (the race-alone-or-in-combination
+concept). The body of this report (text and
+figures) shows data using the first approach
+(race alone). The online tables show data
+using both approaches. Primary use of the
+single-race population does not imply that
+it is the preferred method of presenting or
+analyzing data. The Census Bureau uses a
+variety of approaches. In this report, the
+terms “White, not Hispanic” and “nonHispanic White” are used interchangeably
+and refer to people who are not Hispanic
+and who reported White and no other
+race. This report uses non-Hispanic White
+as the comparison group for other race
+and Hispanic origin groups. Since Hispanic
+individuals may be any race, data in this
+report for the Hispanic population overlap
+with data for race groups. Data users
+should be aware that the different race and
+Hispanic origin populations consist of many
+distinct groups that differ in socioeconomic
+characteristics, culture, and nativity,
+which may affect the interpretation of
+aggregate results. Data identifying Hispanic
+individuals were first collected in 1972 and
+for Asian and Pacific Islander individuals
+in 1987. More information is available at
+<www.census.gov/programs-surveys/cps.
+html>. Asian households are a relatively
+small proportion of the CPS ASEC sample.
+Further, the CPS ASEC does not use
+separate population controls for weighting
+the Asian sample to national totals.
+Together, these factors contribute to the
+large variances surrounding estimates for
+this group. As a result, the CPS ASEC may
+be unable to detect statistically significant
+differences between some estimates for the
+Asian population.
+
+16
+Private and public health insurance
+coverage rates by select characteristics
+for 2024 and 2025 are available in
+Table 3 at <www.census.gov/library/
+publications/2026/demo/p60-291.html>.
+17
+Private and public health insurance
+coverage rates by select characteristics
+for 2024 and 2025 are available in
+Table 4 at <www.census.gov/library/
+publications/2026/demo/p60-291.html>.
+18
+Information on how the
+U.S. Census Bureau defines each region
+is available at <www.census.gov/
+glossary/?term=Region>.
+19
+Uninsured rates for children under the
+age of 19 and adults ages 19 to 64 by select
+characteristics for 2024 and 2025 are
+available in Table 5 at <www.census.gov/
+library/publications/2026/demo/p60-291.
+html>.
+20
+In 2025, the uninsured rate for all
+children under the age of 19 was not
+statistically different from the uninsured
+rate for children under the age of 19 living
+in the West.
+21
+In 2025, the uninsured rate for
+native-born adults ages 19 to 64 was not
+statistically different from the uninsured
+rate for naturalized citizens ages 19 to 64.
+22
+The series presented begins with data
+from 2013 after the implementation of the
+redesigned 2014 CPS ASEC questionnaire.
+For more information on the 2014 CPS
+ASEC redesign and for CPS ASEC health
+insurance data prior to 2013, refer to
+<www.census.gov/topics/health/healthinsurance/guidance/cpsasec-redesign.
+html> and <www.census.gov/topics/
+health/health-insurance/data.html>.
+Figure 7 includes a series break after 2017,
+when an updated processing system was
+introduced for the CPS ASEC. Comparisons
+of health insurance coverage between
+calendar year coverage in 2019 (collected
+in 2020) and other years are not included.
+The U.S. Census Bureau recommends using
+caution when making health insurance
+coverage comparisons between 2019 and
+other years. The uninsured rates between
+2018 and 2020 were not statistically
+different. Comparisons between 2018 and
+2020 estimates use 2010 Census-based
+population controls. More information is
+available at <www.census.gov/content/
+dam/Census/library/working-papers/2023/
+demo/sehsd-wp-2023-27.pdf>.
+23
+Uninsured rates for all people and by
+select characteristics for 2013 to 2025 are
+available in Table 6 at <www.census.gov/
+library/publications/2026/demo/p60-291.
+html>.
+24
+Between 2024 and 2025, the
+estimated percentage-point change of all
+people with Medicaid coverage was not
+statistically different from the estimated
+percentage-point change of adults ages 19
+to 64 with public coverage.
+
+Health Insurance Coverage in the United States: 2025 11
+
+Appendix. Additional Information
+SOURCE AND ACCURACY OF
+THE ESTIMATES
+The Current Population Survey
+(CPS) is the longest-running
+survey conducted by the
+U.S. Census Bureau. The CPS is a
+household survey primarily used
+to collect employment data. The
+sample universe for the basic CPS
+consists of the resident civilian
+noninstitutionalized population
+of the United States. People in
+institutions, such as prisons, longterm care hospitals, and nursing
+homes are not eligible to be
+interviewed in the CPS. Students
+living in dormitories are included
+in the estimates only if information
+about them is reported in an
+interview at their parents’ home.
+Since the CPS is a household
+survey, people who are homeless
+and not living in shelters are not
+included in the sample.
+The CPS Annual Social and
+Economic Supplement (CPS
+ASEC), the source for the
+estimates in this report, collects
+data in February, March, and
+April each year, asking detailed
+questions categorizing income
+into over 50 sources. The key
+purpose of the survey is to
+provide timely and comprehensive
+estimates of income, poverty,
+and health insurance, and to
+measure change in these nationallevel estimates. The survey is
+the official source of national
+poverty estimates calculated
+in accordance with the Office
+of Management and Budget’s
+Statistical Policy Directive 14.
+The CPS ASEC collects data in
+the 50 states and the District
+of Columbia; these data do not
+
+represent residents of Puerto
+Rico or the U.S. Island Areas.1 The
+2026 CPS ASEC sample consists
+of about 88,000 addresses.
+The CPS ASEC includes military
+personnel who live in a household
+with at least one civilian adult,
+regardless of whether they live onor off-post. All other U.S. armed
+forces personnel are excluded.
+The estimates in this report
+are controlled to March 2026
+independent national population
+estimates by age, sex, race, and
+Hispanic origin. Beginning with
+the data for 2020, population
+estimates are based on 2020
+Census population counts and are
+updated annually after accounting
+for births, deaths, emigration, and
+immigration.
+All 2024 estimates in this report
+and accompanying tables have
+been updated to incorporate
+Vintage 2025 population
+estimates and may not match
+previously published estimates.
+More information on the effect
+on 2024 estimates is available
+at <www.census.gov/library/
+working-papers/2026/demo/
+sehsd-wp2026-16.html> and
+details on the Vintage 2025
+population estimate methodology
+are available at <https://www2.
+census.gov/programs-surveys/
+popest/technical-documentation/
+methodology/2020-2025/
+methods-statement-v2025.pdf>.
+The estimates in this report (which
+may be shown in the text and
+figures) and in the accompanying
+online tables available at
+<www.census.gov/library/
+publications/2026/demo/p60291.html> are based on responses
+
+12 Health Insurance Coverage in the United States: 2025
+
+from a sample of the population
+and may differ from actual values
+because of sampling variability
+or other factors. As a result,
+apparent differences between the
+estimates for two or more groups
+may not be statistically significant.
+All comparative statements have
+undergone statistical testing and
+are statistically significant at the
+90 percent confidence level unless
+otherwise noted.
+In this report and the
+accompanying online tables,
+the variances of estimates were
+calculated using replication
+methods. For estimates prior to
+2010, or as noted in historical
+tables, the Generalized Variance
+Function (GVF) method was used.
+More information on replicate
+weights, standard errors, income
+top-coding and data swapping on
+the public-use file, and changes to
+the CPS ASEC data file from the
+prior year is available at <https://
+www2.census.gov/programssurveys/cps/techdocs/cpsmar26.
+pdf>.
+Nonresponse Bias in the CPS
+ASEC
+The Census Bureau administers
+the CPS ASEC each year between
+February and April by telephone
+and in-person interviews, with
+most data collected in March.
+Although the 2026 CPS ASEC
+was collected using standard
+procedures, response rates are
+still lower than they were before
+the pandemic. The weighted
+response rate for the 2026 CPS
+ASEC was 61.3 percent, compared
+to 62.0 percent for the previous
+year.
+
+U.S. Census Bureau
+
+Since response rates remain below
+prepandemic levels, examining
+how respondents differ from
+nonrespondents is important,
+as this difference could affect
+the accuracy of the estimates.
+For more details on how sample
+differences and the associated
+nonresponse bias affect income
+and official poverty estimates,
+refer to the Research Matters blog,
+“Using Administrative Data to
+Evaluate Nonresponse Bias in the
+2026 Current Population Survey
+Annual Social and Economic
+Supplement,” available at <www.
+census.gov/newsroom/blogs/
+research-matters/2026/09/
+evaluating-nonresponse-bias.
+html>.
+
+Business Cycles—Recessions
+Peak month
+
+Year
+
+Trough month
+
+Year
+
+November
+
+1948
+
+October
+
+1949
+
+July
+
+1953
+
+May
+
+1954
+
+August
+
+1957
+
+April
+
+1958
+
+April
+
+1960
+
+February
+
+1961
+
+December
+
+1969
+
+November
+
+1970
+
+November
+
+1973
+
+March
+
+1975
+
+January
+
+1980
+
+July
+
+1980
+
+July
+
+1981
+
+November
+
+1982
+
+July
+
+1990
+
+March
+
+1991
+
+March
+
+2001
+
+November
+
+2001
+
+December
+
+2007
+
+June
+
+2009
+
+February
+
+2020
+
+April
+
+2020
+
+Source: National Bureau of Economic Research, <www.nber.org/
+research/data/us-business-cycle-expansions-and-contractions>.
+
+CPS ASEC MODERNIZATION
+The Census Bureau has begun
+a multiyear effort to modernize
+many of its surveys, including the
+CPS. Part of this involves adding
+an Internet Self-Response (ISR)
+mode to the CPS and then the CPS
+ASEC.
+This project requires extensive
+review and testing to ensure
+that ISR is a viable collection
+mode for the CPS ASEC and that
+changes do not negatively affect
+the reliability and comparability
+of the estimates. The project
+schedule seeks to align the CPS
+ASEC modernization effort
+with that of the CPS to maintain
+continuity. However, the schedule
+and activities may change to
+accommodate funding availability,
+discovery of issues during
+testing and analysis, and project
+reprioritization.
+More information about the
+ASEC modernization project and
+timeline is available on the Census
+Bureau’s CPS ASEC Modernization
+
+U.S. Census Bureau
+
+Efforts webpage at <www.census.
+gov/programs-surveys/cps/about/
+modernization/asecmodernization.
+html> or by email at <demo.asec.
+modernization@census.gov>.
+
+BUSINESS CYCLES—
+RECESSIONS
+Business cycle peaks and troughs
+used to delineate the beginning
+and end of recessions, as shown
+in the text box “Business Cycles—
+Recessions,” are determined by
+the National Bureau of Economic
+Research (NBER), a private
+research organization. The data
+points in the time-series figures
+in this report use July as a
+reference. According to the NBER
+chronology, the most recent peak
+occurred in February 2020. The
+most recent trough occurred in
+April 2020. More information on
+business cycle dating is available
+at <www.nber.org/research/
+business-cycle-dating>.
+
+ACCESSING HEALTH
+INSURANCE DATA
+Additional CPS ASEC Estimates
+Additional estimates from the
+CPS ASEC are available on the
+Census Bureau’s health insurance
+websites. The websites include
+detailed and historical tables,
+press releases, briefings, and
+working papers. The websites may
+be accessed through the Census
+Bureau’s homepage at <www.
+census.gov> or directly at <www.
+census.gov/topics/health/healthinsurance.html>.
+Public-Use Microdata
+Public-use CPS ASEC microdata
+are available for data users of all
+skill levels.
+Data users can create custom
+statistics from public-use
+microdata files using the
+Microdata Access Tool (MDAT)
+available at <https://data.census.
+gov/mdat>.
+
+Health Insurance Coverage in the United States: 2025 13
+
+Microdata for the current CPS
+ASEC and earlier years are
+available online at <www.census.
+gov/data/datasets/time-series/
+demo/cps/cps-asec.html>.
+Technical methods have been
+applied to CPS microdata to avoid
+disclosing respondents’ identities.
+
+health insurance coverage for
+all geographic areas, including
+census tracts and block groups,
+are available by pooling 5 years
+of ACS data. Health insurance
+estimates from the ACS are
+available at <https://data.census.
+gov/>.
+
+OTHER SOURCES OF HEALTH
+INSURANCE DATA
+
+Small Area Health Insurance
+Estimates
+
+The Census Bureau recommends
+that people use the CPS ASEC for
+timely and thorough estimates
+of national health insurance
+coverage. However, the Census
+Bureau produces other data that
+are appropriate for subnational
+areas and longitudinal analysis.
+The American Community
+Survey (ACS) and the Small
+Area Health Insurance Estimates
+(SAHIE) program can be used
+for subnational health insurance
+estimates, while the Survey of
+Income and Program Participation
+(SIPP) provides monthly and
+longitudinal estimates.
+
+The SAHIE program uses
+statistical models to produce
+estimates of health insurance for
+states and all counties.
+
+American Community Survey
+The ACS is an ongoing survey
+that collects comprehensive
+information on social, economic,
+and housing topics. Due to
+its large sample size, the ACS
+provides estimates at many levels
+of geography and for smaller
+population groups.
+The Census Bureau presents
+annual estimates of health
+insurance coverage by state
+and other smaller geographic
+areas based on data collected in
+the ACS. Single-year estimates
+from the ACS are available for
+geographic areas with populations
+of 65,000 or more. Estimates of
+
+SAHIE methodology combines
+data from a variety of sources
+including administrative records,
+population estimates, and current
+surveys to provide consistent and
+reliable single-year estimates.
+In general, SAHIE estimates
+have lower variances than ACS
+estimates, but are released later
+because they incorporate these
+additional data into their models.
+Estimates from this program are
+available at <www.census.gov/
+programs-surveys/sahie.html>.
+Survey of Income and Program
+Participation
+The SIPP provides both monthly
+and longitudinal data about health
+insurance coverage, including
+sources of coverage, changes
+in coverage status, and plans
+at the individual, family, and
+household levels by following
+the same respondents over time.
+Whereas the CPS ASEC provides
+reliable estimates of the net
+change from 1 year to the next in
+the overall distribution of health
+insurance coverage for the whole
+population, it cannot show how
+these characteristics change
+
+14 Health Insurance Coverage in the United States: 2025
+
+for the same person, family, or
+household. By collecting monthly
+data for the same respondents
+over multiple years, the SIPP
+makes it possible to observe
+how health insurance coverage
+changes at the individual level.
+This yields insights into the
+dynamic nature of these coverage
+transitions, as well as changes in
+health insurance status of
+U.S. residents. Estimates from
+these data are available at
+<www.census.gov/programssurveys/sipp/library.html> and
+<www.census.gov/programssurveys/sipp/data.html>.
+
+QUESTIONS AND COMMENTS
+For questions and assistance with
+health insurance data, contact
+the U.S. Census Bureau Customer
+Service Center at 1-800-923-8282
+(toll-free), or search your topic of
+interest using the Census Bureau’s
+“Question and Answer Center” at
+<www.census.gov/help>.
+The Census Bureau also welcomes
+the comments and advice of data
+and report users. If you have
+suggestions or comments on this
+report, please email Liana Fox at
+<liana.e.fox@census.gov> or
+write to:
+Liana E. Fox
+Assistant Division Chief for
+Economic Characteristics Social,
+Economic, and Housing Statistics
+Division
+U.S. Census Bureau
+Washington, DC 20233-8500
+
+ENDNOTE
+1
+U.S. Island Areas include American
+Samoa, Guam, the Commonwealth of
+the Northern Mariana Islands, and the
+U.S. Virgin Islands.
+
+U.S. Census Bureau
+
+P60-291
+
+Health Insurance Coverage in the United States: 2025
+
+Current Population Reports
+
+U.S. Census Bureau
+
+
