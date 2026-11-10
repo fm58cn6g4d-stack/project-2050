@@ -709,7 +709,8 @@
       "DEC-2026-11-09-03",
       "DEC-2026-11-09-09",
       "DEC-2026-11-09-10",
-      "DEC-2026-11-09-19"
+      "DEC-2026-11-09-19",
+      "DEC-2026-11-10-01"
     ],
     "parameters": "About $72B awarded FY2030-37 so it is spent by 2039: $3B 2030, $5B 2031, $10B a year 2032-33, $11B a year 2034-37 (yearly split judgment); 20% state match; at least 30% grants or forgivable loans for ELI homes; acquisition and preservation eligible; tribal share through tribes (HOU-4.13; proposed 5%)",
     "eligibility": "States",
@@ -722,7 +723,7 @@
       {
         "vehicle": "appropriations",
         "kind": "discretionary",
-        "note": "ROAD sec. 210 RESIDE at about $50M FY2027, $100M FY2028 and FY2029; proposed, for Espen (road-funding.md); FY2029 counted inside the $72B"
+        "note": "ROAD sec. 210 RESIDE at about $50M FY2027, $100M FY2028 and FY2029; decided, DEC-2026-11-10-01 (road-funding.md); FY2029 counted inside the $72B"
       }
     ],
     "agency": "HUD with state housing finance agencies",
@@ -971,9 +972,10 @@
     "status": "decided",
     "decisions": [
       "DEC-2026-11-09-04",
-      "DEC-2026-11-09-20"
+      "DEC-2026-11-09-20",
+      "DEC-2026-11-10-01"
     ],
-    "parameters": "Plan's money into ROAD sec. 208 fund; states and regions eligible; pay for homes finished; count lower-cost homes; raise $10M cap; remove 2033 end; Build Now kept, studied by 2032; also rewards single-stair buildings to six stories, equal treatment and real-property titling of manufactured homes, small lots, no parking minimums, state infill exemptions from state environmental review, and condo defect-liability reform (memo 10 part 1 B); $30B is the fund's total FY2030-39, including any yearly appropriation (proposed); up to about $1B for ROAD secs. 102, 207 and 209 grants, folded in by the regular bill (proposed)",
+    "parameters": "Plan's money into ROAD sec. 208 fund; states and regions eligible; pay for homes finished; count lower-cost homes; raise $10M cap; remove 2033 end; Build Now kept, studied by 2032; also rewards single-stair buildings to six stories, equal treatment and real-property titling of manufactured homes, small lots, no parking minimums, state infill exemptions from state environmental review, and condo defect-liability reform (memo 10 part 1 B); $30B is the fund's total FY2029-39, including any yearly appropriation and the FY2029 bridge (DEC-2026-11-10-01); up to about $1B for ROAD secs. 102, 207 and 209 grants, folded in by the regular bill (DEC-2026-11-10-01)",
     "eligibility": "States, regions, localities, tribes",
     "vehicle": [
       {
@@ -989,7 +991,7 @@
       {
         "vehicle": "appropriations",
         "kind": "discretionary",
-        "note": "FY2027-28 asks of $200M a year (authorized level) and a FY2029 bridge of about $270M with the planning, pattern-book and single-stair grants; proposed, for Espen (road-funding.md); FY2029 counted inside the $30B"
+        "note": "FY2027-28 asks of $200M a year (authorized level) and a FY2029 bridge of about $270M with the planning, pattern-book and single-stair grants; decided, DEC-2026-11-10-01 (road-funding.md); FY2029 counted inside the $30B"
       }
     ],
     "agency": "HUD",
@@ -1324,9 +1326,10 @@
     "status": "decided (memo 10 part 2 B); grant amount decided by Espen (DEC-2026-11-09-24)",
     "decisions": [
       "DEC-2026-11-09-20",
-      "DEC-2026-11-09-24"
+      "DEC-2026-11-09-24",
+      "DEC-2026-11-10-01"
     ],
-    "parameters": "Fannie Mae and Freddie Mac buy chattel loans under the duty to serve, with mortgage-like protections; real-property titling on owned land rewarded through HOU-6.01; PRICE community grants funded at $350M a year FY2030-39 and extended past 2033; FY2029 bridge counted inside the total (proposed)",
+    "parameters": "Fannie Mae and Freddie Mac buy chattel loans under the duty to serve, with mortgage-like protections; real-property titling on owned land rewarded through HOU-6.01; PRICE community grants funded at $350M a year FY2030-38 and $150M FY2039 (FY2039 amended by DEC-2026-11-10-01) and extended past 2033; FY2029 bridge of $200M counted inside the $3.5B total (DEC-2026-11-10-01)",
     "eligibility": "Manufactured-home buyers and owners; residents and nonprofits buying their communities",
     "vehicle": [
       {
@@ -1342,7 +1345,7 @@
       {
         "vehicle": "appropriations",
         "kind": "discretionary",
-        "note": "PRICE at $100M FY2027 and FY2028, $200M FY2029; proposed, for Espen (road-funding.md); FY2029 counted inside the $3.5B"
+        "note": "PRICE at $100M FY2027 and FY2028, $200M FY2029; decided, DEC-2026-11-10-01 (road-funding.md); FY2029 counted inside the $3.5B"
       }
     ],
     "agency": "FHFA; HUD",
@@ -1428,9 +1431,10 @@
     "decisions": [
       "DEC-2026-11-09-21",
       "DEC-2026-11-09-22",
-      "DEC-2026-11-09-25"
+      "DEC-2026-11-09-25",
+      "DEC-2026-11-10-01"
     ],
-    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (decided, DEC-2026-11-09-25); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (decided, DEC-2026-11-09-25); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030 then $4B a year FY2031-39 (decided, DEC-2026-11-09-25); published counts and reviews, no set-asides; FY2029 bridge through the sec. 202 pilot counted inside the total (proposed)",
+    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (decided, DEC-2026-11-09-25); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (decided, DEC-2026-11-09-25); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030, $4B a year FY2031-38 and $3.7B FY2039 (decided, DEC-2026-11-09-25; FY2039 amended by DEC-2026-11-10-01); published counts and reviews, no set-asides; FY2029 bridge of $300M through the sec. 202 pilot counted inside the $38B total (DEC-2026-11-10-01)",
     "eligibility": "Owner-occupants at or below 120% AMI, heirs in residence included, by signed statement or enrollment in SNAP, Medicaid, SSI, LIHEAP or Weatherization; no credit or tax-current test",
     "vehicle": [
       {
@@ -1446,7 +1450,7 @@
       {
         "vehicle": "appropriations",
         "kind": "discretionary",
-        "note": "ROAD sec. 202 pilot at about $100M FY2027, $150M FY2028, $300M FY2029; proposed, for Espen (road-funding.md); FY2029 counted inside the $38B"
+        "note": "ROAD sec. 202 pilot at about $100M FY2027, $150M FY2028, $300M FY2029; decided, DEC-2026-11-10-01 (road-funding.md); FY2029 counted inside the $38B"
       }
     ],
     "agency": "HUD (CPD) with CDBG and HOME grantees; HUD ONAP and tribes",

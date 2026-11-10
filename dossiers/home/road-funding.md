@@ -1,6 +1,6 @@
 # Funding the ROAD to Housing Act
 
-Role: the housing dossier's funding map for the ROAD to Housing Act (Public Law 119-101; provision map in `road-act.md`). For each ROAD program the plan relies on or would gain from, it gives the plan provision it feeds, its authorization, its FY2027 status, a recommended funding level, and where to win the money: in FY2027-28 appropriations under divided government, or in the FY2029-30 catch-up. It also flags ROAD authorities that end before the plan's money arrives, and says where plan money already funds a ROAD channel so nothing is counted twice. Status: draft (stage C, board row 6a), as of November 9, 2026. The FY2027-28 asks are the narrow 2027-28 exception in `charter/STANDARDS.md` (`DEC-2026-10-29-01`); they serve the 2029 plan and change none of its decisions. Amounts are this note's judgment unless they cite the register; each is **proposed, for Espen**.
+Role: the housing dossier's funding map for the ROAD to Housing Act (Public Law 119-101; provision map in `road-act.md`). For each ROAD program the plan relies on or would gain from, it gives the plan provision it feeds, its authorization, its FY2027 status, a recommended funding level, and where to win the money: in FY2027-28 appropriations under divided government, or in the FY2029-30 catch-up. It also flags ROAD authorities that end before the plan's money arrives, and says where plan money already funds a ROAD channel so nothing is counted twice. Status: draft (stage C, board row 6a), as of November 9, 2026; its four questions were decided by Espen on November 10, 2026, as recommended (`DEC-2026-11-10-01`). The FY2027-28 asks are the narrow 2027-28 exception in `charter/STANDARDS.md` (`DEC-2026-10-29-01`); they serve the 2029 plan and change none of its decisions. Amounts are this note's judgment unless they cite the register; Espen adopted them as recommended (`DEC-2026-11-10-01`).
 
 Why: Espen, November 9, 2026: "we need to make sure dems are fully funding ROAD to Housing, whether that starts in 2027-28 divided government or 2029 playing catchup".
 
@@ -10,7 +10,7 @@ Why: Espen, November 9, 2026: "we need to make sure dems are fully funding ROAD 
 2. **The 2027-28 asks are small, so they are winnable.** About $0.5 billion in FY2027 and $0.6 billion in FY2028 for the ROAD programs themselves, against HUD's $84 billion of gross FY2026 appropriations, before offsets [EV-HOU-753]. Each ask is a level Congress already authorized, or a pilot the Act set up, in a law that passed 85-5 and 358-32 [EV-HOU-204] [EV-HOU-205]. The bigger fight is defensive: holding HOME, CDBG and the public housing capital grants at FY2026 levels, since ROAD's programs and the plan's repair fund run through those grantees.
 3. **The plan's own money already funds the three biggest ROAD channels from FY2030:** the Innovation Fund (HOU-6.01, $30 billion), the whole-home repair pilot, which the home repair fund replaces (HOU-12.01, $38 billion), and PRICE (HOU-11.01, $3.5 billion). So the catch-up needs no new R2 money. What it needs is a bridge in FY2029 appropriations, so the channels are running when R2's money lands, and three authorities kept alive.
 4. **Three deadlines fall before or soon after the plan's money:** CDBG-DR's program authority ends July 11, 2029; the Emergency Solutions Grants shelter-cap waiver, with its bar on sweeps, covers only FY2027-2030 grants; and the planning grants, the repair pilot and RESIDE end in 2031. None of these needs money to extend. CDBG-DR's extension cannot ride reconciliation, since it has no budget effect: it goes in a FY2028 appropriations act, a disaster supplemental, or a regular bill before July 2029.
-5. **Count each dollar once.** Proposed, for Espen: write HOU-6.01, HOU-12.01 and HOU-11.01 as total program levels that include any ROAD money Congress appropriates first. Then a 2027-28 win lowers the plan's cost and never adds to it. Count the FY2029 bridge, about $0.87 billion, inside those same totals and HOU-3C.01's (option A, recommended, no new money in all) rather than on top (option B). Both add a little inside FY2030-39 (about +$0.4 billion and +$0.8 billion), since the bridge spends in FY2030-32. Either way, housing's FY2040 gap stays at about $26 billion on permanent lines ($36 billion with tails; `6-cost.md`, 2.9).
+5. **Count each dollar once** (decided, `DEC-2026-11-10-01`): write HOU-6.01, HOU-12.01 and HOU-11.01 as total program levels that include any ROAD money Congress appropriates first. Then a 2027-28 win lowers the plan's cost and never adds to it. Count the FY2029 bridge, about $0.87 billion, inside those same totals and HOU-3C.01's (option A, decided, no new money in all) rather than on top (option B). Both add a little inside FY2030-39 (about +$0.4 billion and +$0.8 billion), since the bridge spends in FY2030-32. Either way, housing's FY2040 gap stays at about $26 billion on permanent lines ($36 billion with tails; `6-cost.md`, 2.9).
 
 ## 1. Where FY2027 stands (November 9, 2026)
 
@@ -26,7 +26,7 @@ Why: Espen, November 9, 2026: "we need to make sure dems are fully funding ROAD 
 
 ## 2. The map
 
-"Feeds" names the plan provision. **2027-28** is an ask for FY2027 and FY2028 appropriations; **2029-30** is the catch-up: FY2029 appropriations (written by the new Congress in early 2029), R1 or R2. Amounts are budget authority a year, proposed, for Espen.
+"Feeds" names the plan provision. **2027-28** is an ask for FY2027 and FY2028 appropriations; **2029-30** is the catch-up: FY2029 appropriations (written by the new Congress in early 2029), R1 or R2. Amounts are budget authority a year, decided as recommended (`DEC-2026-11-10-01`).
 
 ### 2.1 ROAD programs the plan relies on
 
@@ -73,11 +73,11 @@ Millions of dollars of budget authority; the holds are FY2026 levels less the Ho
 
 ## 3. Overlap: where plan money already funds a ROAD channel
 
-| ROAD channel | Plan money that funds it | Rule so nothing is counted twice (proposed, for Espen) |
+| ROAD channel | Plan money that funds it | Rule so nothing is counted twice (decided, `DEC-2026-11-10-01`) |
 | --- | --- | --- |
 | Sec. 208 Innovation Fund | HOU-6.01: $30 billion of budget authority, FY2030-39 (`6-cost.md`, 1.2) | HOU-6.01's $30 billion is the fund's **total** for FY2030-39, counting any yearly appropriation that continues. Up to about $1 billion of it may pay for the planning grants (sec. 207), pattern books (sec. 209) and single-stair grants (sec. 102), so they need no money of their own after FY2029 |
 | Sec. 202 whole-home repair pilot | HOU-12.01: $38 billion, FY2030-39, which replaces the pilot (`4-specification.md`, HOU-12.01) | The pilot's FY2027-28 money is spent before HOU-12.01 starts and is not part of it; its FY2029 bridge counts inside the $38 billion under option A (section 4). From FY2030 there is one fund, not two |
-| Sec. 304 PRICE | HOU-11.01: $350 million a year, FY2030-39 | Same rule as HOU-6.01: a total, not an addition to any yearly appropriation |
+| Sec. 304 PRICE | HOU-11.01: $3.5 billion over FY2029-39: the FY2029 bridge's $200 million, $350 million a year in FY2030-38 and $150 million in FY2039 (`DEC-2026-11-10-01`) | Same rule as HOU-6.01: a total, not an addition to any yearly appropriation |
 | Sec. 210 RESIDE | HOU-3C.01's revolving-fund grants | RESIDE gets no plan money; conversions are one use of HOU-3C.01 |
 | Sec. 212 RAD | HOU-5.01's repair money | RAD needs no money; HOU-5.01 is measured above the FY2026 capital grants (`6-cost.md`, 1.2) |
 
@@ -93,8 +93,8 @@ Millions of dollars of budget authority; the holds are FY2026 levels less the Ho
 4. **Regular bills in 2029.** CDBG-DR's extension, if 2027-28 did not pass it, before July 11, 2029; HOU-4.09's permanent no-sweeps condition, replacing sec. 503's FY2030 limit; HOU-6.01's changes to the Innovation Fund, which already remove its 2033 end, with the planning grants, pattern books and single-stair grants folded into it; HOU-11.01's extension of PRICE past 2033 (already in section 4).
 
 **Two ways to count the bridge** (for Espen; `6-cost.md`, 2.10):
-- **A. Inside the plan's money (recommended).** The bridge counts toward the four programs' totals: each program's R2 budget authority falls by its bridge amount, taken from its last years. Total budget authority is unchanged. But spending shifts earlier: the bridge spends mostly in FY2030-32, inside the window, while the cut to the last years' money would have spent partly in FY2039 and partly in FY2040-42. Net (this note's arithmetic, on section 6's spend-out rates): FY2030-39 outlays about +$0.4 billion (0.3-0.8), and the FY2040-42 tails about −$0.4 billion, about −$0.3 billion of it in FY2040. The permanent lines do not change.
-  Under A, HOU-12.01's decided FY2039 amount falls from $4 billion to $3.7 billion (`DEC-2026-11-09-25`) and HOU-11.01's from $350 million to $150 million (`DEC-2026-11-09-24`). A yes therefore amends those decisions and needs its own `DEC-` entry, with the tier-3 route for the follow-up.
+- **A. Inside the plan's money (decided, `DEC-2026-11-10-01`).** The bridge counts toward the four programs' totals: each program's R2 budget authority falls by its bridge amount, taken from its last years. Total budget authority is unchanged. But spending shifts earlier: the bridge spends mostly in FY2030-32, inside the window, while the cut to the last years' money would have spent partly in FY2039 and partly in FY2040-42. Net (this note's arithmetic, on section 6's spend-out rates): FY2030-39 outlays about +$0.4 billion (0.3-0.8), and the FY2040-42 tails about −$0.4 billion, about −$0.3 billion of it in FY2040. The permanent lines do not change.
+  Under A, HOU-12.01's decided FY2039 amount falls from $4 billion to $3.7 billion (`DEC-2026-11-09-25`) and HOU-11.01's from $350 million to $150 million (`DEC-2026-11-09-24`). Espen's yes amends those decisions; the amendment is recorded as `DEC-2026-11-10-01`.
 - **B. On top.** About +$0.87 billion of FY2029 budget authority, about 5% spent in FY2029 and the rest over FY2030-32 (judgment). Housing's FY2030-39 total rises by about $0.8 billion, to about $0.77 trillion still. FY2040 does not change, and no decided amount changes.
 - **So the options cost nearly the same inside the window** (about +$0.4 billion against +$0.8 billion). A's real advantage is about $0.9 billion less money in all and a smaller FY2040-42 tail; B's is that it leaves the decided amounts alone.
 
@@ -122,11 +122,11 @@ The plan's money arrives from FY2030 (R2, signed about October 2029 to January 2
 - **Whether section 1202** ("no additional funds are authorized") gives an opening for a House point of order against appropriating the "only if appropriated" programs. House rules bar unauthorized appropriations in general bills, but the majority usually waives that rule; from 2027 the majority is Democratic (this note's reading, not checked against the parliamentarian).
 - **The next stopgap**, due by December 11, 2026, and any FY2027 Senate bills: recheck in early 2027 (evidence entries EV-HOU-750 to 757 carry a February 2027 recheck date).
 
-## Questions for Espen
+## Decided
 
-Each is yes or no, and nothing is adopted until you answer.
+Espen answered all four on November 10, 2026: "yes to all four as recommended" (`DEC-2026-11-10-01`).
 
-1. **The 2027-28 asks:** about $0.5 billion in FY2027 and $0.6 billion in FY2028 for the ROAD programs (section 2.3), with the Innovation Fund first, and holding HOME, CDBG and the public housing capital grants at FY2026 levels as the main defensive fight. Recommendation: yes.
-2. **The "total" rule:** HOU-6.01, HOU-12.01 and HOU-11.01 are total program levels that include any ROAD money appropriated first, so a 2027-28 win lowers the plan's cost. Recommendation: yes.
-3. **The FY2029 bridge:** about $0.87 billion in FY2029 appropriations, counted inside the plan's existing money (option A) rather than as new money (option B). Recommendation: A. A yes lowers the decided FY2039 amounts of the repair fund and PRICE by the bridge amounts, so it would be recorded as a new decision.
-4. **CDBG-DR:** push to extend it past July 11, 2029 in 2027-28, at no cost. Recommendation: yes.
+1. **The 2027-28 asks:** about $0.5 billion in FY2027 and $0.6 billion in FY2028 for the ROAD programs (section 2.3), with the Innovation Fund first, and holding HOME, CDBG and the public housing capital grants at FY2026 levels as the main defensive fight.
+2. **The "total" rule:** HOU-6.01, HOU-12.01 and HOU-11.01 are total program levels that include any ROAD money appropriated first, so a 2027-28 win lowers the plan's cost.
+3. **The FY2029 bridge:** about $0.87 billion in FY2029 appropriations, counted inside the plan's existing money (option A). The decided FY2039 amounts fall: the repair fund from $4 billion to $3.7 billion and PRICE from $350 million to $150 million. The Innovation Fund's $270 million and RESIDE's $100 million come out of HOU-6.01's and HOU-3C.01's last years in the same way. Those years' split was this dossier's judgment, not a decision, so no decided amount changes there.
+4. **CDBG-DR:** push to extend it past July 11, 2029 in 2027-28, at no cost.
