@@ -1,0 +1,953 @@
+Source: https://www.govinfo.gov/content/pkg/USCOURTS-rid-1_25-cv-00345/pdf/USCOURTS-rid-1_25-cv-00345-1.pdf
+Publisher: U.S. District Court for the District of Rhode Island (via GPO)
+Retrieved: 2026-11-10
+Original SHA-256: ab0be47f9c110b2d150b5a66053f71dd88c760f316746f75c176ec29559b84dd
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 1 of 25 PageID #:
+
+UNITED STATES DISTRICT COURT
+FOR THE DISTRICT OF RHODE ISLAND
+STATE OF NEW YORK, et al.,
+Plaintiff,
+v.
+U.S. DEPARTMENT OF JUSTICE, et
+al.,
+Defendant.
+
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+C.A. No. 1:25-cv-00345-MSM-PAS
+
+MEMORANDUM AND ORDER
+Mary S. McElroy, United States District Judge.
+This case centers around Title IV of the Personal Responsibility and Work
+Opportunity Reconciliation Act of 1996 (“PRWORA”), which prohibits some categories
+of noncitizens from receiving certain defined federal, state, or local public benefits. 8
+U.S.C. §§ 1611(a), 1621(a). Shortly after PRWORA’s enactment, relevant federal
+agencies issued guidance interpreting this prohibition as excluding various programs,
+including those that constitute “widely available services.” See, e.g., 61 Fed. Reg.
+45,985 (Aug. 30, 1996). But beginning in July 2025, these agencies took an aboutface by issuing new notices that purport to reinterpret PRWORA as applying to a
+swath of federal programs that had previously been excluded. The plaintiffs, who are
+twenty states and the District of Columbia (collectively, “Plaintiffs”), challenge these
+new interpretations of PRWORA as unlawful.
+Before the Court is the Plaintiffs’ Motion for Summary Judgment (ECF No.
+91). Also before the Court is the Cross-Motion to Dismiss and for Summary Judgment
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 2 of 25 PageID #:
+
+(ECF No. 99) of the defendants: the U.S. Department of Justice (“DOJ”), the U.S.
+Department of Health and Human Services (“HHS”), the U.S. Department of
+Education (“ED”), the U.S. Department of Labor (“DOL”), the U.S. Department of
+Housing and Urban Development (“HUD”), and their respective heads (collectively,
+“Defendants”). For the following reasons, the Court GRANTS Plaintiffs’ Motion for
+Summary Judgment and DENIES Defendants’ Cross-Motion.
+I.
+
+BACKGROUND
+
+The Court reviewed most of the relevant factual and legal background behind
+this case in its September 10, 2025, Memorandum and Order granting the Plaintiffs’
+Motion for Preliminary Injunction. (ECF No. 64) (hereinafter, “PI Order”). In short,
+at issue here are agency interpretations of what constitutes a “federal public benefit”
+or a “State or local public benefit” under PRWORA. See 8 U.S.C. §§ 1611(a), 1621(a).
+PRWORA defines “federal public benefit” as including the following:
+(A) any grant, contract, loan, professional license, or commercial license
+provided by an agency of the United States or by appropriated funds of
+the United States; and
+(B) any retirement, welfare, health, disability, public or assisted
+housing, postsecondary education, food assistance, unemployment
+benefit, or any other similar benefit for which payments or assistance
+are provided to an individual, household, or family eligibility unit by an
+agency of the United States or by appropriated funds of the United
+States.
+
+Id. § 1611(c)(1); see also id. § 1621(c)(1) (defining “State or local public benefit”
+similarly). Ineligible noncitizens are prohibited from receiving benefits that fall
+within this definition. Id. §§ 1611(a), 1621(a); see also id. § 1641 (defining categories
+of noncitizens to whom PRWORA does not apply).
+
+2
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 3 of 25 PageID #:
+
+The broad definition outlined above is limited by several exceptions.
+
+In
+
+addition to enumerated exemptions for services like emergency medical care and
+public health assistance for immunizations, see id. § 1611(b)(1)(A)–(C), (E), PRWORA
+exempts the following:
+Programs, services, or assistance (such as soup kitchens, crisis
+counseling and intervention, and short-term shelter) specified by the
+Attorney General, in the Attorney General’s sole and unreviewable
+discretion after consultation with appropriate Federal agencies and
+departments, which (i) deliver in-kind services at the community level,
+including through public or private nonprofit agencies; (ii) do not
+condition the provision of assistance, the amount of assistance provided,
+or the cost of assistance provided on the individual recipient’s income or
+resources; and (iii) are necessary for the protection of life or safety.
+
+Id. § 1611(b)(1)(D); see id. § 1621(b)(4) (similarly excluding such services from the
+definition of “State or local public benefit”). In other words, PRWORA does not
+prohibit otherwise unqualified or ineligible noncitizens from receiving benefits
+specified by the Attorney General as falling under this so-called “Life/Safety
+Exemption.” PRWORA also includes the following rule of statutory construction:
+“Nothing in this chapter may be construed as addressing alien eligibility for a basic
+public education as determined by the Supreme Court of the United States under
+
+Plyler v. Doe (457 U.S. 202) (1982).” 8 U.S.C. § 1643(a)(2).
+Shortly after PRWORA’s enactment, federal agencies issued notices
+interpreting its exemptions. DOJ issued a regulation construing the statute as not
+applying to “widely available services” and specifying some programs like victim
+services, short-term homeless centers, and soup kitchens as exempt from PRWORA
+under the Life/Safety Exemption. 61 Fed. Reg. at 45,985. ED and HHS issued notices
+
+3
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 4 of 25 PageID #:
+
+interpreting PRWORA as not applying to certain categories of education programs.
+
+See ECF No. 4-6; .63 Fed. Reg. 41,658, 41,659 (Aug. 4, 1998). HUD and DOJ issued
+various guidance documents explaining that many HUD programs are not “federal
+public benefits” within the meaning of PRWORA, and that some HUD programs fall
+within the Life/Safety Exemption. See ECF Nos. 92-2 through 92-6. And DOL issued
+guidance as recently as 2024 explaining that some workforce development services
+are not federal public benefits covered by PRWORA. (ECF No. 4-4 at 3–4.)
+On February 19, 2025, the President issued Executive Order 14218, entitled
+“Ending Taxpayer Subsidization of Open Borders.”
+
+90 Fed. Reg. 10,581.
+
+This
+
+executive order in part directs federal agencies to “align” their programs with
+PRWORA’s requirements. Id. In response, in July 2025, DOJ, HHS, ED, and DOL
+all issued new notices purporting to alter their interpretation and implementation of
+PRWORA (the “PRWORA Notices”). Through the PRWORA Notices, these agencies
+revoked prior Life/Safety Exemptions, narrowed their interpretations of other
+exemptions, and identified newly covered federal public benefits.
+
+Id. at 32,023,
+
+32,025 (DOJ); 31,234-35, 31,235-37l (HHS); 30,899, 30,900 (ED); 30,900 (DOL).
+These agencies did not undertake any period of notice and comment before issuing
+the July 2025 PRWORA Notices.
+After these agencies issued the July 2025 PRWORA Notices, Plaintiffs filed
+suit, challenging the Notices under both the Administrative Procedure Act (“APA”)
+
+4
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 5 of 25 PageID #:
+
+and the Spending Clause of the United States Constitution. (ECF No. 1.) 1 Plaintiffs
+then moved for a preliminary injunction against Defendants’ implementation and
+enforcement of the PRWORA Notices, which the Court granted in the PI Order. In
+the PI Order, the Court determined that (1) HHS, ED, and DOL’s PRWORA Notices
+are final agency action reviewable under the APA, see PI Order at 11–14; (2) HHS,
+ED, and DOL’s PRWORA Notices implemented legislative rules and were thus
+subject to notice-and-comment rulemaking, id. at 25–26; and (3) the PRWORA
+Notices pose irreparable harm to Plaintiffs, based in part on the impracticality and
+financial cost of complying with Defendants’ expansion of PRWORA, id. at 48–56.
+The Court consequently enjoined Defendants from enforcing or implementing the
+PRWORA Notices against Plaintiffs. Id. at 59–60.
+Following the PI Order, the parties agreed to proceed directly to summary
+judgment. (ECF No. 67.) Apart from the parties’ submission of a more complete
+administrative record and additional declarations from Plaintiffs regarding the
+negative impact posed by the PRWORA Notices, only two things have substantively
+changed since the PI Order.
+First, on November 26, 2025, HUD published its own PRWORA Notice. See 90
+Fed. Reg. 54,363 (Nov. 26, 2025). As with the other agencies’ notices, HUD did not
+engage in notice and comment rulemaking before issuing its PRWORA Notice. See
+
+id. HUD’s PRWORA Notice identifies twelve programs related to public or assisted
+
+1 Plaintiffs’ original Complaint did not include their present APA claims against DOJ
+
+and the Attorney General, which were added through their Second Amended
+Complaint following the PI Order. (ECF No. 68).
+5
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 6 of 25 PageID #:
+
+housing that HUD now interprets as included within PROWRA’s definition of “federal
+public benefits.” Id. Plaintiffs then filed a Third Amended Complaint including
+claims against HUD based on its PRWORA Notice, and Defendants agreed to stay
+enforcement of that notice pending the outcome of this case. (ECF Nos. 76; 80; 102.)2
+Second, on March 18, 2026, DOL rescinded its PRWORA Notice. See DOL:
+Training and Employment Guidance Letter No. 10-23, Change 3 (Mar. 18, 2026).
+DOL explained that “[i]n order to facilitate further consideration and implementation
+of PRWORA requirements, and to obtain input from interested stakeholders, [DOL]
+will engage in notice-and-comment rulemaking via publication in the Federal
+
+Register.” Id. at 3. Defendants have not stated whether this notice-and-comment
+rulemaking period has yet begun.
+In a sworn declaration, Plaintiffs assert they sent Defendants’ counsel a
+proposed stipulation under which Defendants would:
+[A]gree that, regardless of the outcome of this litigation, including on
+any appeal, they will never enforce or in any way apply the DOL
+PRWORA Notice or the interpretations of PRWORA expressed in that
+Notice until DOL has promulgated a final rule after having undertaken
+notice-and-comment rulemaking via publication in the Federal Register
+relating to the scope of the term ‘Federal public benefit’ under PRWORA.
+
+On April 30, 2026, HUD issued a Notice of Proposed Rulemaking (“NPRM”)
+regarding the HOME Investment Partnerships Program. 91 Fed. Reg. 23,194 (April
+30, 2026). Section III of this NPRM “reminds HOME program recipients that grants
+must be administered in accordance with all applicable immigration restrictions and
+requirements,” including PRWORA. Id. at 23,201. The parties have stipulated that
+Plaintiffs will not challenge Section III of that NPRM in this litigation, and that HUD
+will not “apply or enforce PRWORA’s immigration status verification requirements
+in the Plaintiff States as to, inter alia, the HOME program” before this Court’s
+judgment on this case. (ECF No. 108 at 2.)
+2
+
+6
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 7 of 25 PageID #:
+
+(ECF No. 101 ¶ 7.) According to Plaintiffs, on April 2, 2026, Defendants confirmed
+that they would not sign the proposed stipulation. Yet in a footnote in their Reply in
+Support of their Cross-Motion for Summary Judgment, Defendants state that:
+DOL agrees that, regardless of the outcome of this litigation, including
+on any appeal, DOL will never enforce or in any way apply the DOL
+PRWORA Notice or the interpretations of PRWORA expressed in that
+Notice, in Plaintiff States and their localities, until DOL has
+promulgated a final rule after having undertaken notice-and-comment
+rulemaking via publication in the Federal Register relating to the scope
+of the term “Federal public benefit” under PRWORA.
+(ECF No. 104 at 10 n.1) (emphasis added). While Defendants state in that footnote
+that “DOL will work in good faith with Plaintiffs to file a stipulation to that effect,”
+no such stipulation has been filed since that brief was filed on April 17, 2026.
+II.
+
+STANDARD OF REVIEW
+
+A motion for summary judgment requires the moving party to show “that there
+is no genuine dispute as to any material fact and the movant is entitled to judgment
+as a matter of law.” Fed. R. Civ. P. 56(a). A fact is material if it “might affect the
+outcome of the suit under the governing law.” Anderson v. Liberty Lobby, Inc., 477
+U.S. 242, 248 (1986). In ruling on a motion for summary judgment, “[a]ll reasonable
+inferences are to be drawn in favor of the party opposing summary judgment,” and
+“all disputed facts are viewed in the light most favorable” to that party. O’Connor v.
+
+Steeves, 994 F.2d 905, 907 (1st Cir. 1993).
+
+“Where the parties cross-move for
+
+summary judgment, the court must examine each motion separately, drawing
+inferences against each movant in turn.” Vazquez-Velazquez v. P.R. Highways &
+
+Transp. Auth., 73 F.4th 44, 51 (1st Cir. 2023) (cleaned up).
+
+7
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 8 of 25 PageID #:
+
+“[T]he summary judgment rubric has a ‘special twist in the administrative law
+context.’” Bos. Redevelopment Auth. v. Natl. Park Serv., 838 F.3d 42, 47 (1st Cir.
+2016) (quoting Assoc’d Fisheries of Me., Inc. v. Daley, 127 F.3d 104, 109 (1st Cir.
+1997)). “In that context, a motion for summary judgment is simply a vehicle to tee
+up a case for judicial review and, thus, an inquiring court must review an agency
+action not to determine whether a dispute of fact remains but, rather, to determine
+whether the agency action was arbitrary and capricious.”
+
+Id.
+
+In making that
+
+determination, “the court shall review the whole record or those parts of it cited by a
+party.” 5 U.S.C. § 706.
+III.
+
+DISCUSSION
+
+Plaintiffs’ Third Amended Complaint asserts six causes of action against
+Defendants. First, under Count I, Plaintiffs allege that all Defendants other than
+DOJ and the Attorney General violated the APA’s procedural requirements by issuing
+the PRWORA Notices without first undergoing notice and comment rulemaking.
+(ECF No. 76 ¶¶ 192–203.) Second, under Counts II, III, and V, Plaintiffs claim that
+Defendants substantively violated the APA because the PRWORA Notices are
+arbitrary and capricious and contrary to law. Id. ¶¶ 204–26, 238–46. Third, under
+Count IV, Plaintiffs allege that Defendants violated the Spending Clause by failing
+to provide “fair notice” of changes to federal funding conditions and by acting in an
+impermissibly coercive manner through the PRWORA Notices.
+
+Id. ¶¶ 227–37.
+
+Fourth, under Count VI, Plaintiffs seek a declaratory judgment that, to the extent
+that the PRWORA Notices require them to verify immigration status for participants
+
+8
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+<pageID>
+
+Page 9 of 25 PageID #:
+
+in programs newly identified as federal public benefits, the Notices violate the APA
+because the Attorney General has not promulgated the regulations described in 8
+U.S.C. § 1642(a). Id. ¶¶ 247–26. In addition to this declaratory judgment, Plaintiffs
+ask the Court to vacate the PRWORA Notices, declare them unlawful, order them
+stayed with respect to Plaintiffs, and permanently enjoin Defendants from
+implementing them against Plaintiffs. Id. at 54–55. “Prayer for Relief.”
+Plaintiffs now seek summary judgment on all Counts. (ECF No. 91.) In
+response, Defendants first raise two threshold challenges to Plaintiffs’ claims against
+DOL and DOJ, arguing that (1) Plaintiffs’ claims against DOL are moot because it
+rescinded its PRWORA Notice; and (2) DOJ’s PRWORA Notice is unreviewable under
+the APA because it involves decisions that are statutorily committed to the Attorney
+General’s discretion. (ECF No. 99 at 17 n.1, 24–27.) Defendants then argue that
+Plaintiffs’ APA, Spending Clause, and declaratory judgment claims are otherwise
+meritless. Id. at 27–54.
+The Court proceeds by first addressing Plaintiffs’ claims against ED, HHS,
+DOL, HUD, and their respective administrators, before turning to Plaintiffs’ claims
+against DOJ and the Attorney General.
+A.
+
+Plaintiffs’ Claims Against DOL Are Not Moot
+
+Article III, Section 2, Clause 1 of the United States Constitution extends the
+judicial power of federal courts to “Cases” and “Controversies.” The Supreme Court
+has “repeatedly held that an ‘actual controversy’ must exist not only ‘at the time the
+complaint is filed,’ but through ‘all stages’ of the litigation.” Already, LLC v. Nike,
+
+9
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 10 of 25 PageID
+
+Inc., 568 U.S. 85, 90–91 (2013) (quoting Alvarez v. Smith, 558 U.S. 87, 92 (2009)).
+When “events in the world overtake those in the courtroom, and a complaining party
+manages to secure outside of litigation all the relief he might have won in it . . . a
+federal court must dismiss the case as moot.” Fed. Bureau of Investigation v. Fikre,
+601 U.S. 234, 240–41 (2024).
+However, a defendant may not “‘automatically moot a case’ by the simple
+expedient of suspending its challenged conduct after it is sued.” Id. (quoting Already,
+568 U.S. at 91). Instead, “a defendant’s voluntary cessation of a challenged practice
+will moot a case only if the defendant can show that the practice cannot be reasonably
+expected to recur.” Id. at 241 (quoting Friends of the Earth, Inc., v. Laidlaw Env’t
+
+Services (TOC), Inc., 528 U.S. 167, 189 (2000)) (internal quotation marks omitted).
+This is a “formidable burden.” Id. (quoting Friends of the Earth, 528 U.S. at 190).
+Defendants argue that Plaintiffs’ claims against DOL are moot following DOL’s
+rescission of its own PRWORA Notice because “a live dispute no longer exists.” (ECF
+No. 104 at 8.) They claim that DOL has “provided Plaintiffs with the relief sought,”
+and that the voluntary cessation doctrine is inapplicable here because the rescission
+means that there can be no reasonable expectation that the challenged conduct by
+DOL will recur. Id. at 9. Essentially, they contend that, because they have rescinded
+the DOL PRWORA Notice and agreed not to enforce its interpretations until after
+notice-and-comment rulemaking, there is nothing left for this Court to do. Id. at 10.
+Defendants have submitted that, “regardless of the outcome of this litigation,” DOL
+will not enforce or apply its PRWORA Notice or the interpretations contained “until
+
+10
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 11 of 25 PageID
+
+DOL has promulgated a final rule after having undertaken notice-and-comment
+rulemaking via publication in the Federal Register relating to the scope of the term
+‘Federal public benefit’ under PRWORA.” Id. at 10 n.1.
+DOL’s rescission of its PRWORA Notice and its indication that it will not
+enforce its PRWORA Notice against Plaintiffs weigh in favor of Plaintiffs’ claims
+against DOL being moot. But four considerations suggest that Defendants have not
+met the “formidable burden” of overcoming the voluntary cessation doctrine: (1)
+Defendants have not denied that, despite DOL’s rescission of its PRWORA Notice, its
+prior PRWORA interpretation remains withdrawn, see ECF No. 104 at 9; (2) the
+Executive Order underpinning DOL’s PRWORA Notice remains in effect; (3)
+notwithstanding their briefing footnote stating DOL’s agreement not to apply its
+PRWORA Notice until after notice-and-comment, Defendants apparently previously
+refused to stipulate to this effect, and have not yet done so; and (4) Defendants have
+not indicated that DOL has yet begun notice-and-comment rulemaking on their
+proposed reinterpretation of PRWORA.
+Under these circumstances, it cannot be said that Defendants have shown that
+the conduct challenged by Plaintiffs “cannot be reasonably expected to recur.” So the
+Court concludes that Plaintiffs’ claims against DOL are, under the voluntary
+cessation doctrine, not moot.
+B.
+
+HHS, ED, DOL, and HUD’s PRWORA Notices Are Procedurally Invalid
+
+Before a federal agency adopts a rule it usually must first publish the proposed
+rule the Federal Register and allow interested parties an opportunity to submit
+
+11
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 12 of 25 PageID
+
+comments and other information about the proposed change. N.H. Hosp. Ass’n v.
+
+Azar, 887 F.3d 62, 70 (1st Cir. 2018). Rules adopted without following this procedure
+are invalid.
+
+Id. Still, “exempted from this requirement are ‘interpretive rules,
+
+general statements of policy, or rules of agency organization, procedure, or practice.’”
+
+Id. (quoting 5 U.S.C. § 553(b) (emphasis added)).
+Plaintiffs’ procedural claims against HHS, ED, DOL, and HUD center around
+whether those agencies’ PRWORA Notices are “interpretive” or “legislative” (i.e.,
+substantive) rules. An interpretive rule is issued “merely to advise the public of the
+agency’s construction of the statutes and rules which it administers.” Azar, 887 F.3d
+at 70 (quoting Perez v. Mortg. Bankers Ass’n, 575 U.S. 92, 97 (2015)). These rules
+“do not have the force and effect of law” but “nevertheless may have a substantial
+impact on regulated entities.” Id. In contrast, a legislative rule “creates rights,
+assigns duties, or imposes obligations, the basic tenor of which is not already outlined
+in the law itself.” Id. A rule is legislative if adds to a statute or adopts a new position
+that is inconsistent with then existing law or policy. Mendoza v. Perez, 754 F.3d
+1002, 1021 (D.C. Cir. 2014).
+
+Azar outlines five considerations that are relevant to determining whether a
+rule is interpretive or legislative. 887 F.3d 62 at 71–74. First, if the statutory text
+suggests that Congress has left a substantive policy choice to an agency, that weighs
+in favor of the agency’s choice requiring notice and comment. Id. at 71. Second, an
+agency’s explanation in adopting its policy may indicate whether it is making a
+substantive policy judgment—requiring notice and comment—as opposed to merely
+
+12
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 13 of 25 PageID
+
+an interpretive one. Id. at 71–72. Third, if the new policy conflicts with another rule
+having the force of law, it is likely a legislative rule. Id. at 73. Fourth, where a rule
+fills a “gap” within the statutory and regulatory scheme, it is likely a legislative rule.
+
+Id. Fifth, pragmatic considerations, such as substantial practical effects of the rule
+on stakeholders, may weigh in favor of the rule being legislative. Id. at 73–74.
+In the PI Order, the Court weighed these considerations with respect to the
+PRWORA Notices by ED, HHS, and DOL, and concluded that those three PRWORA
+Notices were legislative rules requiring notice and comment under the APA. See PI
+Order at 25–26. Defendants have identified nothing new within the administrative
+record that would disturb the Court’s conclusion in the PI Order. Defendants’ CrossMotion for Summary Judgment reiterates essentially the same objections they raised
+in opposition to Plaintiffs’ requested preliminary injunction, and it does not
+meaningfully engage with this Court’s review of the factors outlined in Azar. See
+ECF No. 99 at 27–30. Absent any change in the law or the facts before the Court that
+would upset its findings in the PI Order, the Court maintains its conclusion that the
+ED, HHS, and DOL PRWORA Notices are legislative rules.
+As the PI Order predated HUD’s PRWORA Notice, the Court must separately
+analyze whether that Notice was also a legislative rule. The Court’s reasoning in the
+PI Order as to the first, fourth, and fifth Azar considerations applies in essentially
+the same way to HUD’s Notice: while the text of PRWORA supports Defendants’
+position that the HUD Notice is merely interpreting the term “federal public benefit,”
+the Notice’s fit within the statutory scheme represents a major departure from HUD’s
+
+13
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 14 of 25 PageID
+
+prior application of the statute, and the Notice poses significant practical implications
+for the administration of HUD programs. See generally ECF No. 92 (Plaintiffs’
+declarations explaining the practical implications posed by HUD’s PRWORA Notice).
+As was the case with ED and HHS, the second Azar consideration—HUD’s
+explanation for its PRWORA Notice—weighs in favor of the Notice being interpretive
+because HUD primarily relied on canons of statutory interpretation to determine the
+meaning of “federal public benefit.” See 90 Fed. Reg. 54363, 54,364. But the third
+
+Azar consideration heavily favors a finding that the Notice is legislative because it
+deviates from three decades of past practice by (1) reversing HUD’s stance on whether
+grants to States are federal public benefits; and (2) vastly expanding the range of
+programs subject to verification under PRWORA. See id.
+As the Court determined in the PI Order, existing precedent “suggests that the
+last three [Azar] factors should be given more weight than the first two.” PI Order,
+at 25 (citing Azar, 887 F.3d at 74; Shalala v. Guernsey Mem’l Hosp., 514 U.S. 87, 100
+(1995); Appalachian Power Co. v. EPA, 208 F.3d 1015, 1024 (D.C. Cir. 2000)). As
+those three factors all heavily favor a finding that HUD’s PRWORA Notice is
+legislative, the Court concludes that HUD’s Notice is also a legislative rule.
+Because ED, HHS, DOL, and HUD’s PRWORA Notices are all legislative rules,
+and because those agencies did not engage in notice-and-comment rulemaking prior
+to issuing those Notices, the Notices violate the procedural requirements of the APA
+and are, consequently, “procedurally invalid.”
+
+See Azar, 887 F.3d at 70.
+
+The
+
+remaining question is whether the Court should reach the substantive merits of
+
+14
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 15 of 25 PageID
+
+Plaintiffs’ APA, Spending Clause, and Declaratory Judgment Act claims against
+those agencies and their respective heads. Although the First Circuit declined in
+
+Azar to reach the substantive merits of an APA challenge to a rule found to be
+procedurally invalid, it did not explain its reasoning. See id. at 77.
+The First Circuit does not appear to have otherwise weighed in on whether,
+having determined agency action to be procedurally invalid, a court should resolve
+substantive claims against that action as well. Other courts have. The D.C. Circuit
+has explained “two competing interests”: on the one hand, courts should avoid
+“prejudging the notice and comment process, the very purpose of which is to give
+interested parties the opportunity to participate in rulemaking and to ensure that
+the agency has before it all relevant information”; on the other hand, should a court
+vacate agency action without resolving substantive claims, it could “exacerbate”
+injuries caused by delays resulting from that action. Nat. Res. Def. Council v. EPA,
+643 F.3d 311, 321 (D.C. Cir. 2011); accord Iowa League of Cities v. EPA, 711 F.3d
+844, 877 (8th Cir. 2013).
+
+Weighing these considerations in Natural Resources
+
+Defense Council, the D.C. Circuit ultimately only decided a substantive challenge to
+an agency action that violated plain statutory language and D.C. Circuit precedent,
+for which “nothing would be gained by postponing a decision on the merits.” 643 F.3d
+at 322.
+The Court already found in the PI Order that HHS, ED, and DOL’s PRWORA
+Notices are arbitrary and capricious. PI Order at 26–32. Should these agencies,
+along with HUD, properly undertake the notice-and-comment process, they will have
+
+15
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 16 of 25 PageID
+
+an opportunity to address the defects that led to the Court’s conclusion. Given that
+vacatur of the PRWORA Notices should restore the status quo that existed before the
+issuance of those Notices, and with regard for “the interest in preserving the integrity
+of the notice and comment process,” the Court concludes that it should not decide
+Plaintiffs’ substantive APA, Spending Clause, and Declaratory Judgment claims
+against the ED, HHS, DOL, and HUD PRWORA Notices at this time. 3
+C.
+
+DOJ’s Notice is Judicially Reviewable and Contrary to Law
+
+DOJ’s PRWORA Notice pronounces the Attorney General’s decision “not to
+except any benefits from PRWORA” under the Life/Safety Exemption provided in 8
+U.S.C. § 1611(b)(1)(D). 90 Fed. Reg. at 32,026 (emphasis added). The Attorney
+General made this decision based on the conclusion that “the benefits of creating
+additional exceptions to PRWORA, beyond those set forth in the statute itself, are
+outweighed by the risks of creating incentives for unlawful migration.” Id.
+In their Motion for Summary Judgment, Plaintiffs argue that this violates
+the APA because it is contrary to law. 4 See ECF No. 91 at 69–70; see also 5 U.S.C. §
+706(2)(A) (empowering courts reviewing APA challenges to “hold unlawful and set
+
+3 The Court also found in the PI Order that ED’s Notice is contrary to law, that HHS
+
+and DOL’s Notices are both likely contrary to law, and that HHS, ED, and DOL’s
+Notices all likely violate the Spending Clause. PI Order at 32–48. Should
+Defendants, following notice-and-comment rulemaking, promulgate new notices that
+share these substantive defects, they will be vulnerable to Plaintiffs’ substantive
+challenges at that time.
+4 Plaintiffs do not advance their claim that DOJ’s PRWORA Notice was arbitrary and
+capricious, as alleged in Count V of their Third Amended Complaint. See ECF No.
+100 at 14 n.3 (“Plaintiffs have not moved for summary judgment on the basis that the
+DOJ PRWORA Notice is arbitrary and capricious, however, only that it is contrary to
+law.”)
+16
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 17 of 25 PageID
+
+aside agency action” found to be “not in accordance with law”). According to Plaintiffs,
+while Section 1611(b)(1)(D) provides the Attorney General discretion to “specif[y]”
+which programs fall within the Life/Safety Exemption, it “does not allow the Attorney
+General to decide whether programs that do meet those criteria should be excepted.”
+(ECF No. 91 at 82) (emphasis in original). Thus, because DOJ’s PRWORA Notice
+asserts that the Attorney General categorically decided not to exempt any
+programs—and did so for extra-statutory reasons related to immigration
+enforcement—Plaintiffs claim that the Notice is contrary to law and thus violates the
+APA.
+Defendants’ arguments in response are related.
+
+First, they contend that
+
+Plaintiffs’ claims against DOJ challenge decisions that are statutorily committed to
+the Attorney General’s discretion and are thus unreviewable under the APA. (ECF
+No. 99 at 24–27.) According to Defendants, Plaintiffs’ reading of Section 1611(b)(1)(D)
+is wrong: the Life/Safety Exemption “identifies the kinds of programs the Attorney
+General may except, but it does not prescribe that or how that authority must be
+exercised.” Id. at 26. Therefore, the “sole and unreviewable discretion” afforded to
+the Attorney General extends to whether to exempt any programs under the
+Life/Safety Exemption. See id. Defendants contend that this means that, should the
+Court nevertheless find that DOJ’s PRWORA Notice is reviewable, Plaintiffs’ claim
+that it is contrary to law is meritless. Id. at 40–43. Defendants also argue that, under
+
+Loper Bright Enterprises v. Raimondo, the Court must “respect the delegation” of
+
+17
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 18 of 25 PageID
+
+authority granted to the Attorney General by Section 1611(b)(1)(D). Id. at 43 (quoting
+603 U.S. 369, 413 (2024)).
+The APA embodies a “basic presumption of judicial review” for challenges to
+agency action. Dept. of Homeland Sec. v. Regents of the U. of California, 591 U.S. 1,
+16 (2020) (quoting Abbott Lab’ys v. Gardner, 387 U.S. 136, 140 (1967)).
+
+That
+
+presumption can be rebutted by a showing that (1) a relevant statute precludes
+review, or, as argued by Defendants here, (2) the “agency action is committed to
+agency discretion by law.” 5 U.S.C § 701(a); see Regents, 591 U.S. at 17. “[T]o honor
+the presumption of review,” the Supreme Court has “read the exception in § 701(a)(2)
+quite narrowly, restricting it to ‘those rare circumstances where the relevant statute
+is drawn so that a court would have no meaningful standard against which to judge
+the agency’s exercise of discretion.’” Weyerhaeuser Co. v. U.S. Fish and Wildlife
+
+Serv., 586 U.S. 9, 23 (2018) (quoting Lincoln v. Vigil, 508 U.S. 182, 191 (1993)).
+Defendants cite Bernardo ex rel. M & K Eng’g, Inc. v. Johnson, 814 F.3d 481
+(1st Cir. 2016), as underscoring their position regarding the reviewability of DOJ’s
+PRWORA Notice. (ECF No. 99 at 25.) There, the First Circuit determined that a
+provision in the Immigration and Nationality Act that expressly precluded judicial
+review of certain discretionary decisions by the Attorney General or the Secretary of
+Homeland Security falls within the exception to APA review provided by 5 U.S.C. §
+701(a)(1). Bernardo, 814 F.3d at 484. But the First Circuit’s decision in Bernardo
+was expressly based on § 701(a)(1), and not on § 701(a)(2). Id. at 484 n.2. Bernardo
+therefore provides little insight into whether § 701(a)(2) applies here.
+
+18
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 19 of 25 PageID
+
+Instead, the critical question here appears to be one of statutory interpretation:
+that is, whether Section 1611(b)(1)(D)’s use of the term “specif[y]” is a directive to the
+Attorney General to identify those programs that meet the criteria of the Life/Safety
+Exemption, or whether it is a grant of authority to the Attorney General to choose
+whether programs that meet those criteria will be exempted.
+
+Under the first
+
+interpretation, preferred by the Plaintiffs, the “sole and unreviewable discretion”
+given to the Attorney General is presumably intended by Congress to prohibit
+challenges to whether an individual program meets the criteria of the exception. If
+that interpretation is correct, then the Attorney General’s decision to refuse to
+exempt any programs under the Life/Safety Exemption is not one that is “committed
+to agency discretion by law.”
+On this question, Gundy v. United States, 588 U.S. 128 (2019), is instructive.
+There, the Supreme Court considered the meaning of a provision in the Sex Offender
+Registration and Notification Act (“SORNA”) that gives the Attorney General “the
+authority to specify the applicability of the requirements of this subchapter to sex
+offenders convicted before the enactment of this chapter . . . .” 34 U.S.C. § 20913(d)
+(emphasis added). The petitioner in Gundy was convicted of a sex offense before
+SORNA’s enactment and was subsequently convicted of failing to register as a sex
+offender, as required by an interim rule issued by the Attorney General under Section
+20913(d). 588 U.S. at 134 (plurality opinion). The petitioner argued that Section
+20913(d) was an unconstitutional delegation of legislative power to the Attorney
+General because it empowers the Attorney General “to do whatever he wants as to
+
+19
+
+Case 1:25-cv-00345-MSM-PAS
+
+pre-Act offenders.”
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Id. at 140.
+
+Page 20 of 25 PageID
+
+A plurality of the Supreme Court disagreed,
+
+determining that the challenged provision grants the Attorney General authority to
+“specify how to apply SORNA” to pre-Act offenders, and not the authority to “specify
+
+whether to Apply SORNA” to those individuals. Id. at 144 (emphasis in original).
+The Court found support for this interpretation from SORNA’s structure, its
+legislative history, and the fact that “no Attorney General has used (or, apparently,
+thought to use) § 20913(d) in any more expansive way.” Id. at 141–44.
+Here, PRWORA’s structure, its legislative history, and DOJ’s longstanding
+prior interpretation of the Life/Safety Exemption all support Plaintiffs interpretation
+of the discretion afforded the Attorney General by 8 U.S.C. § 1611(b)(1)(D).
+Structurally, PRWORA contains many enumerated exemptions for services related
+to emergency needs.
+
+See, e.g., 8 U.S.C. §§ 1611(b)(1)(A)–(C) (exemptions for
+
+emergency medical aid, disaster relief, and communicable disease treatment); 1615
+(exemptions for emergency food aid); 1641(c) (extending access to services to “battered
+aliens”). These exemptions suggest that Congress was concerned about ensuring that
+PRWORA would not be interpreted in a way that would deprive noncitizens of access
+to life-saving services. It is therefore unlikely that Congress could have intended,
+through Section 1611(b)(1)(D), to endow the Attorney General with discretion to
+categorically deny access to all life-saving programs that would otherwise qualify
+under the Life/Safety Exemption.
+The legislative history of PRWORA provides some support to this view of
+Congress’s intent. In December 1995, the conference committee for the first iteration
+
+20
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 21 of 25 PageID
+
+of the bill explained that, under the Life/Safety Exemption, “even these ‘not qualified’
+aliens may continue to receive . . . programs specified by the Attorney General as
+necessary to protect life and safety, such as soup kitchens and crisis counseling.” 141
+Cong. Rec. H15431 (Dec. 21, 1995) (Conference Report printed in Congressional
+Record). And in July 1996, the conference report stated without qualification that this
+provision exempts “community programs necessary for the protection of life or
+safety.” H.R. Rep. No. 104-725, at 379 (July 30, 1996) (Conf. Rep.). Absent from the
+legislative record is any suggestion that Congress intended to empower the Attorney
+General to choose to categorically deny access to these kinds of services to noncitizens,
+let alone any indication that the Attorney General should weigh incentives for
+unlawful immigration in doing so.
+DOJ’s longstanding prior interpretations of PRWORA align with Plaintiffs’
+reading of Section 1611(b)(1)(D).
+
+In a notice issued the day after PRWORA’s
+
+enactment, the Attorney General acknowledged that PRWORA “authorizes the
+Attorney General to establish limited exceptions” to the statute’s prohibitions and
+proceeded to identify various programs as being “[i]ncluded within the specified
+programs, services or assistance determined to be necessary for the protection of life
+and safety.” 61 Fed. Reg. at 45,985; see also 66 Fed. Reg. 3613, 3616 (Jan. 16, 2001)
+(same). At no point between PRWORA’s enactment in 1996 and DOJ’s July 2025
+PRWORA Notice did DOJ or the Attorney General claim the discretion to decline to
+exempt all programs that would otherwise meet the criteria outlined in Section
+1611(b)(1)(D). While the Court is not bound by these past interpretations, they
+
+21
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 22 of 25 PageID
+
+certainly merit “very great respect.” Loper Bright, 603 U.S. at 386; see also id. (noting
+that such respect has been historically thought “especially warranted when an
+Executive Branch interpretation was issued roughly contemporaneously with
+enactment of the statute and remained consistent over time.”).
+Defendants do not dispute the similarity between the statutory text
+interpreted in Gundy and the PRWORA provision at issue here. See ECF No. 99 at
+41–42. Instead, they propose that the Supreme Court’s holding in Gundy was driven
+largely by the statutory purpose at issue there: the development of a national sex
+registry, which would be undermined by a grant of discretion to the Attorney General
+to refuse to apply SORNA’s requirements to pre-SORNA sex offenders. Id. They
+argue that the Court should similarly base its reading of the Life/Safety Exemption
+on Congress’s expression of PRWORA’s purpose as being to promote “self-sufficiency.”
+
+Id. at 42 (quoting 8 U.S.C. § 1601). But this argument is unavailing: not only is
+Defendants’ representation of the Supreme Court’s analysis in Gundy inaccurate, see
+588 U.S. at 141 (explaining the Supreme Court’s holistic approach to statutory
+interpretation), but it also presupposes that PRWORA’s stated purpose of promoting
+“self-sufficiency” somehow supports cutting off access to life-saving services to
+noncitizens. This is surely not so, as made clear by the many other exemptions for
+emergency and similar services enumerated throughout PRWORA.
+Based on the above analysis, the Court concludes that 8 U.S.C. § 1611(b)(1)(D)
+bestows the Attorney General with discretion to identify which programs qualify
+under the Life/Safety Exemption, not the discretion to decline whether to identify any
+
+22
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 23 of 25 PageID
+
+such programs. Plaintiffs’ APA claim against DOJ and the Attorney General is
+therefore not a challenge to agency action that is “committed to agency discretion by
+law,” see 5 U.S.C § 701(a)(2), because PRWORA does not commit to the Attorney
+General the kind of wholesale discretion asserted in DOJ’s PRWORA Notice. And
+because the Attorney General’s decision to categorically refuse to apply the
+Life/Safety Exemption to any qualifying programs exceeds the discretion granted by
+PRWORA, that decision is necessarily contrary to law. 5 See City of Providence v.
+
+Barr, 954 F.3d 23, 31 (1st Cir. 2020).
+D.
+
+Remedy
+
+Having concluded that ED, HHS, DOL, and HUD’s PRWORA Notices are
+procedurally invalid, and that DOJ’s PRWORA Notice is contrary to law, the Court
+now turns to the question of the appropriate remedy. Plaintiffs request the Court to
+(1) vacate the PRWORA Notices; (2) permanently enjoin Defendants from
+implementing or enforcing the PRWORA Notices against Plaintiffs by any other
+
+5 Because the Court concludes that DOJ’s PRWORA Notice is contrary to law, it need
+
+not reach Plaintiffs’ Spending Clause and Declaratory Judgment claims against that
+Notice at this time, notwithstanding the likely merit of those claims. See PI Order
+at 47–48 (concluding that, as with ED, HHS, and DOL’s PRWORA Notices, DOJ’s
+Notice likely violates the Spending Clause); City of Fresno v. Turner, No. 25-CV07070-RS, 2025 WL 2721390, at *11 (N.D. Cal. Sept. 23, 2025) (“PRWORA only
+requires state immigration status verification systems twenty-four months after the
+Attorney General promulgates certain final regulations, and so far only interim
+guidance and proposed rules have been issued.”); Martin Luther King, Jr. Cnty. v.
+Turner, 798 F. Supp. 3d 1224, 1250 n.9 (W.D. Wash. Aug. 12, 2025) (explaining that
+PRWORA “does not require grant recipients to verify eligibility until the U.S.
+Attorney General has promulgated regulations implementing a verification
+requirement . . . . The Attorney General is yet to promulgate a final regulation
+implementing a verification requirement”).
+
+23
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 24 of 25 PageID
+
+means; and (3) issue a declaratory judgment that the PRWORA Notices are unlawful.
+(ECF No. 91 at 94–95.)
+In response, Defendants first propose that vacatur is not appropriate here. But
+as Defendants themselves acknowledge, “the First Circuit has recognized vacatur as
+an available remedy under the APA” (ECF No. 99 at 58 n.6) (citing Am. Pub. Health
+
+Ass’n v. Nat’l Institutes of Health, 145 F.4th 39, 50 (1st Cir. 2025)); see also Illinois
+v. Noem, 813 F. Supp. 3d 282, 309–10 (D.R.I. 2025) (rejecting similar claims against
+vacatur as a remedy). As the Court has found that Defendants’ actions violated the
+APA, it follows that the appropriate remedy is to vacate those actions. 6
+Apart from reiterating their previous objections to injunctive relief in this case,
+Defendants also argue that Plaintiffs’ proposed injunction is impermissibly vague and
+untethered from “any specific claim or specific alleged injury.” (ECF No. 99 at 59)
+(citing Fed. R. Civ. P. 65(d)(1)(C); City of Los Angeles v. Lyons, 461 U.S. 95, 101–02
+(1983)). The Court disagrees. Enjoining Defendants from attempting to enforce the
+PRWORA Notices against Plaintiffs “by any other means” is necessary to prevent
+Defendants from taking an end-run around vacatur through alternative agency
+
+6 In Defendants’ Reply in Support of their Cross-Motion for Summary Judgment, they
+
+suggest remand without vacatur as an appropriate alternative remedy. (ECF No.
+104 at 29–30.) Plaintiffs propose a Sur-Reply that contends that this argument was
+waived because it was not expressly included in Defendants’ Cross-Motion for
+Summary Judgment, and that it is otherwise meritless under the relevant test. (ECF
+No. 105-1.) The Court agrees that Defendants failed to include any argument for
+remand in their Cross-Motion for Summary Judgment, which instead proposes that
+“any equitable remedy applied in the nature of vacatur should apply only to the
+named Plaintiffs in this case.” See ECF No. 99 at 59 (emphasis added). Defendants’
+argument in favor of remand is therefore waived. See Brox v. Woods Hole, 164 F.4th
+37, 43 (1st Cir. 2026).
+24
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 114 Filed 09/21/26
+#: <pageID>
+
+Page 25 of 25 PageID
+
+actions. Further, as Plaintiffs explain, their proposed injunction “would not prohibit
+Defendants from promulgating new, different rules to cure the many defects of the
+vacated PRWORA Notices.” (ECF No. 91 at 95.) As the Court has already found the
+PRWORA Notices pose irreparable harm to Plaintiffs, and because the other factors
+reviewed in the PI Order continue to favor equitable relief, the Court concludes the
+permanent injunction requested by Plaintiffs is justified. See PI Order at 48–58.
+IV.
+
+CONCLUSION
+
+For the reasons provided above, the Court GRANTS Plaintiffs’ Motion for
+Summary Judgment (ECF No. 91) and DENIES Defendants’ Cross-Motion for
+Summary Judgment (ECF No. 99). The PRWORA Notices are declared unlawful
+under the APA and are ordered set aside and vacated. Defendants are enjoined from
+implementing or enforcing the PRWORA Notices or the interpretations contained
+therein against Plaintiffs by any other means. Consistent with the Court’s reasoning
+above, this injunction does not prohibit HHS, ED, DOL, HUD, and their respective
+heads from promulgating new rules related to PRWORA after a period of notice-andcomment rulemaking as required under the APA.
+IT IS SO ORDERED.
+
+_________________________________
+Mary S. McElroy
+United States District Judge
+September 21, 2026
+
+25
+
+

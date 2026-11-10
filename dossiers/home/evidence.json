@@ -17361,5 +17361,155 @@
   "supports": [
    "dossiers/home/6-cost.md"
   ]
+ },
+ {
+  "id": "EV-HOU-787",
+  "statement": "In a time-and-cost study of 60 high-performing housing agencies, the administrative fees received from July 2013 to June 2014, with an average 75 percent proration, covered 77 percent of the estimated cost of administering the voucher program for the average agency (range 45 to 115 percent); only 2 of the 60 received enough to cover their estimated 2013 costs.",
+  "claim": "data",
+  "figures": [
+   "60",
+   "75",
+   "77",
+   "45",
+   "115",
+   "2",
+   "2013",
+   "2014"
+  ],
+  "source": "SRC-2400",
+  "anchor": [
+   "During this time period, which includes two different fee rates, the administrative fee proration averaged 75 percent. Only 2 of the 60 PHAs in the study received sufficient fees during this period (with proration) to cover their estimated costs for 2013.",
+   "For the average PHA in the study, the fees received during this period (with proration) covered 77 percent of the estimated cost of administering the program",
+   "Across the 60 PHAs, the percent of costs covered by the fees received (with proration) ranged from 45 to 115 percent."
+  ],
+  "locator": "Executive summary, cost findings (the 2013 costs compared with fees received July 1, 2013 to June 30, 2014)",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HUD PD&R study by Abt Associates (Obama administration), measured by random moment sampling (581,000 responses from more than 900 staff) linked to each agency's full costs. The sample is high performers only, so the costs are what a well-run program costs, not the average agency's. A measurement, not a test of whether more fees would raise performance.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-788",
+  "statement": "Housing Choice Voucher administrative fees have been prorated since 2008: at 90 percent or higher from 2008 to 2010, deepening after 2011 to 69.264 percent in 2013 and 79.769 percent in 2014.",
+  "claim": "data",
+  "figures": [
+   "2008",
+   "90",
+   "2010",
+   "2011",
+   "69.264",
+   "2013",
+   "79.769",
+   "2014"
+  ],
+  "source": "SRC-2400",
+  "anchor": [
+   "Since 2008, HCV administrative fees have been prorated to remain within the amounts authorized under HUD’s appropriations acts. Between 2008 and 2010, the administrative fee proration was 90 percent or higher",
+   "Since 2011, the proration has deepened, dropping to 69.264 in 2013 but rising to 79.769 percent in 2014."
+  ],
+  "locator": "Executive summary, Study Background",
+  "grade": "A",
+  "fact_date": "2014",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HUD's own proration history as reported in its 2015 study. HUD's CY2026 notice estimates 85% [EV-HOU-343].",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-789",
+  "statement": "The 60 high-performing agencies spent less than 30 minutes per voucher a year on supportive services and expanding housing opportunities, and reported that they did not have the resources to invest substantial staff time in them, although they valued them.",
+  "claim": "data",
+  "figures": [
+   "60",
+   "30"
+  ],
+  "source": "SRC-2400",
+  "anchor": [
+   "The study estimated that, across all vouchers under lease, the average PHA spent less than 30 minutes per voucher per year providing these types of services.",
+   "The PHAs in the study reported that they did not have the resources to invest substantial staff time in supportive services or expanding housing opportunities, although they valued these activities."
+  ],
+  "locator": "Executive summary, Time on Supportive Services Outside the FSS Program",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "The time is measured; the reason (lack of resources) is the agencies' own report, and agencies are paid by the fees. Same study as EV-HOU-787.",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-790",
+  "statement": "A 2025 study of voucher utilization, from interviews at 31 housing agencies and HUD data, found that insufficient administrative fees, largely because rising costs per voucher reduce the number of vouchers generating fees, are a substantial barrier to adopting proven approaches to raising utilization, at a time when best practice calls for more of that spending.",
+  "claim": "analysis",
+  "figures": [
+   "2025",
+   "31"
+  ],
+  "source": "SRC-2401",
+  "anchor": [
+   "receiving insufficient administrative fees (largely owing to increasing PUCs that reduce the number of vouchers generating these fees at many PHAs) are a substantial barrier to adopting proven approaches for increasing utilization. PHAs have had to find ways to stretch declining fee revenue at a time when best practices suggest increasing the kind of spending supported by this funding.",
+   "qualitative data derived from interviews with HCV Program experts and key staff at 31 PHAs"
+  ],
+  "locator": "Summary; chapter 8, Headwinds and Opportunities",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "RAND with the Terner Center, peer reviewed, funded by the Cooper Housing Institute. The finding rests on interviews with agency staff, who are paid by the fees, not on a measured effect; it puts the cause mostly on cost growth per voucher, not proration alone. Two of its authors wrote SRC-1444 (EV-HOU-345), so that entry is not independent of it.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-787",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-789",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-HOU-791",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-791",
+  "statement": "The housing agency trade groups reported in 2018 a correlation between a higher fee proration one year and more voucher leasing the next: when proration rose from 81.6 percent in 2015, households leased rose by 130,054 the next year, 6 percent; the letter notes that other factors affect leasing too.",
+  "claim": "analysis",
+  "figures": [
+   "2018",
+   "81.6",
+   "2015",
+   "130,054",
+   "6"
+  ],
+  "source": "SRC-2402",
+  "anchor": [
+   "We have identified a correlation between a higher administrative fee proration one year and increased voucher leasing the next, although other factors affect leasing too. For example, when the proration was raised from 81.6 percent in 2015, the total number of households leased rose by 130,054 vouchers in the following year, a 6 percent increase."
+  ],
+  "locator": "Letter, page 1",
+  "grade": "C",
+  "fact_date": "2018-04-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Industry letter (CLPHA, NAHRO, PHADA and others), whose members are paid by the fees; a year-to-year correlation in national totals, which other changes (voucher funding, new allocations) also move. Not a measured effect of fees.",
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-790",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
  }
 ]

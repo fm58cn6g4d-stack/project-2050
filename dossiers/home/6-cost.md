@@ -185,6 +185,7 @@ The table leaves out the duty to house (section 2.5) and stage 2's wider entry (
 ### 2.4 Full housing agency fees and administration
 
 - **Fees in full, never prorated, with an issuance fee** (section 5, 2.2) are inside HOU-4A, HOU-4D and HOU-4.08: about $12 billion, $7 billion and $1 billion over the window. That is 8.1% of the subsidy plus $750 an award.
+- The evidence on whether short fees hurt agency performance is in question 8: fees cover less than well-run programs cost [EV-HOU-787], but no study measures the effect on lease-up.
 - If "in full" means the unprorated rate and the legacy allowance was set at prorated rates, the fee is about 9.5%. That adds about $2.5 billion over the window and $0.7 billion a year at maturity (this section's arithmetic; inside the high case).
 - **HUD's own staff** are in the agency rebuild (CAP-7S) and the sustained increase (CAP-7), not here (section 4, HOU-4A.02). CAP-7 is a legacy working choice whose agency shares are not yet set, so HUD's staffing after the surge has no settled line (section 5, 2.1).
 - Section 5's set-aside of each new mandatory program for federal administration, systems and evaluation is priced as added money: 0.5% of housing's program outlays, about $2.4 billion over the window (judgment; section 1.2). If it is carved out of the programs instead, it adds nothing and buys slightly less help.
@@ -412,6 +413,7 @@ The milestone review found the FY2041 pass fragile (`review-milestone.md`, O-3).
 | Stage 3's older group at the voucher holders' 67% disability share rather than 47% | Section 2.12 | Fails by about $13 billion | +$5.5 billion |
 | Capital spent more slowly (below) | This section | Fails by about $13 billion | +$6 billion of tails |
 | FHA's lower premium renewed after its review | Section 2.12 | Fails by about $10 billion | +$3 billion |
+| Stage 1 houses fewer doubled-up families than section 2.7 assumed, since literal homelessness fills the million (section 2.12): the wider entry's stock nearer the research note's 0.4-0.7 million than 0.3 million | Sections 2.7, 2.12 | Fails by about $10-15 billion | +$3-8 billion |
 | Placement homes under the duty to house costing more than an average voucher; HOU-4.12 and HOU-9A's placeholders | Sections 2.3, 2.5; section 1.2 | Unpriced | Up |
 | Lease-up at 75% rather than 90% | Section 1.4 | About balanced | About −$13 billion, but it means help not delivered |
 
@@ -423,10 +425,10 @@ The milestone review found the FY2041 pass fragile (`review-milestone.md`, O-3).
 
 | | Central spend-out | Slower spend-out | Difference |
 | --- | --- | --- | --- |
-| HOU-3C.01 grants, FY2030-39 | 70 | 63 | −7 |
-| HOU-5.01 public housing repair, FY2030-39 | 57 | 52 | −4 |
-| HOU-3C.02 loan subsidy, FY2030-39 | 14.6 | 13.8 | −1 |
-| HOU-12.01 repair fund, FY2030-39 | 37 | 35 | −2 |
+| HOU-3C.01 grants, FY2030-39 | 69.8 | 63.2 | −6.6 |
+| HOU-5.01 public housing repair, FY2030-39 | 56.5 | 52.2 | −4.3 |
+| HOU-3C.02 loan subsidy, FY2030-39 | 14.6 | 13.8 | −0.8 |
+| HOU-12.01 repair fund, FY2030-39 | 36.6 | 35.0 | −1.6 |
 | **Window outlays** | | | **about −$13 billion** |
 | Tails: FY2040 / FY2041 / FY2042 | 5.2 / 0 / 0 | 10.9 / 5.7 / 1.8 | +5.8 / +5.7 / +1.8 |
 
@@ -518,7 +520,12 @@ Each is yes or no, and none is adopted until you answer. Questions 1 and 5 are d
 5. **Should the last two years of construction and repair money be awarded earlier, so it is spent by FY2039?** The amounts stay as you decided. Otherwise about $16 billion of capital spending falls in FY2040, the first year the rule tests, after the borrowing envelope closes. Recommendation: yes. **Decided (`DEC-2026-11-09-09`): yes; the last capital is awarded so it is spent by 2039, and slight FY2040 overshoots are acceptable at this stage.** Section 4 moves the grants' and repair money's last awards to FY2037 and the loans' last commitments to FY2038; about $8 billion of capital still spends in FY2040 (section 3.3).
 6. **Does the zoning reward (HOU-6.01) end with the FY2030-39 money?** Section 4 removes the Innovation Fund's 2033 end date but sets no money after 2039. Continuing at the same scale would be about $3 billion a year at maturity. Recommendation: yes, it ends unless renewed on its results. **Decided (`DEC-2026-11-10-03`): yes.**
 7. **Should the central estimate for stage 2 assume 85% of eligible families apply, rather than memo 2's full sign-up?** The rule's tests use the central figure. Full sign-up is the high case: about $142 billion through 2039 rather than $81 billion. No evidence on take-up of a housing right is in the register. Recommendation: yes, with full sign-up reported as the cautious reading (budget choice 2). **Decided (`DEC-2026-11-10-03`): yes** ("i doubt that many sign up, but who knows").
-8. **Should "fees in full" mean HUD's unprorated rate?** HUD now pays agencies 85% of their fees (HUD's 2026 fee notice) [EV-HOU-343]. The unprorated rate costs about $2.5 billion more over the window than the legacy allowance. Recommendation: yes. **Still open:** Espen asked first whether the evidence shows a need (`DEC-2026-11-10-03`); the next fix step registers that evidence and puts the question back.
+8. **Should housing agencies get their fees for the new awards in full, at HUD's unprorated rate? (Still open; yes or no.)** You asked first whether the evidence shows a need (`DEC-2026-11-10-03`). What it shows:
+   - **Fees fall short of what a well-run program costs.** HUD's 2015 study timed the work at 60 high-performing agencies: the fees they received in 2013-14, cut to about 75% of the formula, covered 77% of their costs, and only 2 of the 60 were covered in full [EV-HOU-787]. Fees have been cut every year since 2008 [EV-HOU-788]; HUD expects 85% for 2026 [EV-HOU-343].
+   - **The work that gets cut is the work that leases vouchers.** Those agencies spent under 30 minutes a voucher a year on extra help and finding homes, and said they lacked the money for more [EV-HOU-789]. RAND's 2025 study, from 31 agencies, calls short fees "a substantial barrier" to the practices that raise lease-up, such as landlord outreach and search help [EV-HOU-790]. The agencies' trade groups report more leasing the year after fees rise [EV-HOU-791].
+   - **What it does not show.** No study measures how much full fees raise lease-up. The reports of harm come from agencies, which are paid by the fees, and the trade groups' link is a year-to-year correlation. Emergency Housing Vouchers had full fees and extra service money and still reached only 67% leased after two years [EV-HOU-343] [EV-HOU-345]. So full fees look necessary for the staff work the plan asks of agencies, but not enough by themselves.
+   - **Cost:** about $2.5 billion more over FY2030-39 and $0.7 billion a year at maturity, if the legacy 8.1% allowance was set at prorated rates (section 2.4). It is inside the high case, so it does not move the central figures.
+   - **The choice:** yes, the new awards' fees are paid at the full rate, never prorated; or no, they follow the regular fee and its proration. The earlier recommendation was yes; on this evidence that is a reasonable judgment, not a proven effect (grades: the cost study B, the rest C).
 
 9. **The parameters memos 9 and 10 left open** (`DEC-2026-11-09-19`, `-20`; section 4, HOU-10 and HOU-11), **decided by Espen, November 9, 2026** ("yes to all four as recommended", and counseling as point 5; `DEC-2026-11-09-24`):
    - *Down payment help's income limit:* 140% of area median income, and 160% in high-cost areas (places where FHA's loan limit is above its floor). The 160% is above the 135-150% range you named; 150% keeps every limit inside it. 140% is the limit the plan's neighborhood homes credit already uses for buyers, so the two buyer programs share one number. 135% or 150% would move the cost not at all (the money is a fixed yearly amount) but would change how quickly it runs out and how many buyers are drawn in who could not otherwise buy.
