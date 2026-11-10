@@ -1,0 +1,4534 @@
+[
+ {
+  "id": "EV-CAR-001",
+  "statement": "The reconciliation law's work-requirement section (71119) makes community engagement a condition of Medicaid eligibility beginning not later than the first quarter that begins after December 31, 2026, or an earlier date a state chooses by waiver or state plan.",
+  "claim": "data",
+  "figures": [
+   "71119",
+   "December 31, 2026"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71119. <<NOTE: Time periods.>> REQUIREMENT FOR STATES TO",
+   "first quarter that begins after December 31, 2026, or, at the"
+  ],
+  "grade": "A",
+  "fact_date": "2027",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-002",
+  "statement": "A person meets the community engagement test for a month by working at least 80 hours, doing 80 hours of community service, joining a work program for 80 hours, attending school at least half-time, or combining activities for 80 hours; an income of at least the federal minimum wage times 80 hours also counts.",
+  "claim": "data",
+  "figures": [
+   "80 hours",
+   "80"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "``(A) The individual works not less than 80 hours.",
+   "``(D) The individual is enrolled in an educational",
+   "``(F) The individual has a monthly income that is",
+   "under section 6 of the Fair Labor Standards Act of 1938,",
+   "multiplied by 80 hours."
+  ],
+  "grade": "A",
+  "fact_date": "2027",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-003",
+  "statement": "The requirement applies to expansion-group adults (or equivalent waiver-expansion adults) who have attained age 19 and are under 65, are not pregnant, and are not on Medicare.",
+  "claim": "data",
+  "figures": [
+   "19",
+   "65"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "``(bb) has attained the age",
+   "of 19 and is under 65 years of",
+   "(I) who is eligible to enroll (or"
+  ],
+  "grade": "A",
+  "fact_date": "2027",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-004",
+  "statement": "Mandatory exclusions from the work requirement include Indians and Urban Indians, parents or caregivers of a dependent child 13 years of age and under or of a disabled person, veterans rated totally disabled, the medically frail, people in addiction treatment, and people meeting SNAP or TANF work rules.",
+  "claim": "data",
+  "figures": [
+   "13"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "child 13 years of age and under or a",
+   "``(IV) who is a veteran with a",
+   "``(V) who is medically frail or",
+   "``(VII) who is participating in a",
+   "``(aa) is an Indian or an"
+  ],
+  "grade": "A",
+  "fact_date": "2027",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-005",
+  "statement": "The Secretary may exempt a state that shows a good faith effort to comply, but an exemption expires not later than December 31, 2028 and cannot be renewed past that date.",
+  "claim": "data",
+  "figures": [
+   "December 31, 2028"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "``(11) <<NOTE: Determinations.>> Special implementation",
+   "(A) shall expire not later than December 31, 2028,"
+  ],
+  "grade": "A",
+  "fact_date": "2028",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-006",
+  "statement": "For redeterminations scheduled on or after the first day of the first quarter that begins after December 31, 2026, states must redetermine expansion-adult eligibility once every 6 months (section 71107); the requirement does not apply to Indians and Urban Indians.",
+  "claim": "data",
+  "figures": [
+   "71107",
+   "December 31, 2026",
+   "6 months"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71107. ELIGIBILITY REDETERMINATIONS.",
+   "first quarter that begins after December 31, 2026,",
+   "every 6 months for the following individuals:",
+   "``(ii) Exemption.--The requirements described"
+  ],
+  "grade": "A",
+  "fact_date": "2027",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-007",
+  "statement": "Section 71112 cuts retroactive Medicaid coverage to the month before application for expansion adults and the second month before application for others, for applications made on or after the first day of the first quarter that begins after December 31, 2026; the old rule reached back to the third month.",
+  "claim": "data",
+  "figures": [
+   "71112",
+   "December 31, 2026"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71112. REDUCING STATE MEDICAID COSTS.",
+   "the third month before the month in which the recipient makes",
+   "in or after the second month before the month in which",
+   "application made on or after the first day of the first quarter that",
+   "begins after December 31, 2026."
+  ],
+  "grade": "A",
+  "fact_date": "2027",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-008",
+  "statement": "Beginning on October 1, 2026, federal Medicaid payment is barred for people who are not citizens or nationals, lawful permanent residents, Cuban and Haitian entrants, or residents under a Compact of Free Association (section 71109); emergency Medicaid is excepted.",
+  "claim": "data",
+  "figures": [
+   "71109",
+   "October 1, 2026"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71109. ALIEN MEDICAID ELIGIBILITY.",
+   "paragraphs of this subsection, beginning on October 1, 2026, except as",
+   "provided in paragraphs (2) and (4), in no event shall payment be made to"
+  ],
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-009",
+  "statement": "Beginning on October 1, 2026, the federal match for emergency Medicaid care for non-qualifying immigrants cannot exceed the state's regular matching rate, ending the expansion-rate match (section 71110).",
+  "claim": "data",
+  "figures": [
+   "71110",
+   "October 1, 2026"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71110. EXPANSION FMAP FOR EMERGENCY MEDICAID.",
+   "and (z), beginning on October 1, 2026, the Federal medical assistance"
+  ],
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-010",
+  "statement": "Beginning October 1, 2028, states must charge cost sharing above $0 to expansion adults with income over the poverty line, capped at $35 per item or service and 5 percent of family income, with primary care, mental health and substance use services excluded; no premiums may be charged (section 71120).",
+  "claim": "data",
+  "figures": [
+   "71120",
+   "October 1, 2028",
+   "$0",
+   "$35",
+   "5 percent"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71120. <<NOTE: Time periods.>> MODIFYING COST SHARING",
+   "``(1) Premiums.--Beginning October 1, 2028, the State plan",
+   "individual exceed $35.",
+   "in the family may not exceed 5 percent of the",
+   "(in an amount greater than $0)",
+   "health care services, substance use disorder"
+  ],
+  "grade": "A",
+  "fact_date": "2028-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-011",
+  "statement": "Provider-tax limits (section 71115) start with fiscal years beginning on or after October 1, 2026, and the safe-harbor threshold for expansion states falls to 5.5 percent in fiscal year 2028, 5 percent in fiscal year 2029, 4.5 percent in 2030, 4 percent in 2031, and 3.5 percent from fiscal year 2032.",
+  "claim": "data",
+  "figures": [
+   "71115",
+   "October 1, 2026",
+   "5.5 percent",
+   "5 percent",
+   "4.5 percent",
+   "4 percent",
+   "3.5 percent",
+   "2028",
+   "2029",
+   "2030",
+   "2031",
+   "2032"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71115. <<NOTE: Time periods.>> PROVIDER TAXES.",
+   "years beginning on or after October 1, 2026, the applicable",
+   "``(I) for fiscal year 2028, 5.5 percent;",
+   "``(II) for fiscal year 2029, 5 percent;",
+   "``(III) for fiscal year 2030, 4.5 percent;",
+   "``(IV) for fiscal year 2031, 4 percent; and",
+   "``(V) for fiscal year 2032 and each subsequent",
+   "fiscal year, 3.5 percent."
+  ],
+  "grade": "A",
+  "fact_date": "2028",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-012",
+  "statement": "State directed payments (section 71116) are capped at 100 percent of Medicare rates in expansion states and 110 percent elsewhere, and grandfathered payments are reduced by 10 percentage points each year beginning with the rating period on or after January 1, 2028.",
+  "claim": "data",
+  "figures": [
+   "71116",
+   "100",
+   "110 percent",
+   "10 percentage points",
+   "January 1, 2028"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71116. <<NOTE: 42 USC 1396a note.>> STATE DIRECTED PAYMENTS.",
+   "such plan) of such State under title XIX of such Act, 100",
+   "percent of the specified total published Medicare payment rate",
+   "paragraph (1), 110 percent of the specified total published",
+   "January 1, 2028, the total amount of such payment shall be reduced by 10",
+   "percentage points each year until the total payment rate for such"
+  ],
+  "grade": "A",
+  "fact_date": "2028",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-013",
+  "statement": "Section 71114 limits the extra expansion FMAP incentive to states that begin covering all expansion adults before January 1, 2026, so a state that expands later gets no incentive.",
+  "claim": "data",
+  "figures": [
+   "71114",
+   "January 1, 2026"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71114. SUNSETTING INCREASED FMAP INCENTIVE.",
+   "individuals prior to January 1, 2026.''."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-014",
+  "statement": "The law bars the Secretary from implementing, administering or enforcing the Medicare Savings Program enrollment rule (section 71101) and the Medicaid, CHIP and Basic Health Program streamlining rule (section 71102) until September 30, 2034.",
+  "claim": "data",
+  "figures": [
+   "71101",
+   "71102",
+   "September 30, 2034"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71101. <<NOTE: Time periods.>> MORATORIUM ON IMPLEMENTATION",
+   "SEC. 71102. <<NOTE: Time period.>> MORATORIUM ON IMPLEMENTATION",
+   "section and ending September 30, 2034, implement, administer, or enforce"
+  ],
+  "grade": "A",
+  "fact_date": "2034",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-015",
+  "statement": "The Rural Health Transformation Program (section 71401) appropriates $10,000,000,000 a year for each of fiscal years 2026 through 2030, with unobligated funds returned to the Treasury as of October 1, 2032.",
+  "claim": "data",
+  "figures": [
+   "71401",
+   "$10,000,000,000",
+   "2026",
+   "2030",
+   "October 1, 2032"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71401. <<NOTE: Time periods.>> RURAL HEALTH TRANSFORMATION",
+   "``(i) $10,000,000,000 for fiscal year 2026;",
+   "``(v) $10,000,000,000 for fiscal year 2030.",
+   "that are unexpended or unobligated as of October",
+   "1, 2032, shall be returned to the Treasury of the"
+  ],
+  "grade": "A",
+  "fact_date": "2030",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-016",
+  "statement": "Section 71301 limits the premium tax credit to citizens and lawfully present immigrants who are permanent residents, Cuban and Haitian entrants, or Compact of Free Association residents, with the verification amendments applying to plan years beginning on or after January 1, 2027 and the credit change to taxable years beginning after December 31, 2026.",
+  "claim": "data",
+  "figures": [
+   "71301",
+   "January 1, 2027",
+   "December 31, 2026"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71301. PERMITTING PREMIUM TAX CREDIT ONLY FOR CERTAIN",
+   "plan years beginning on or after January 1, 2027.",
+   "apply to taxable years beginning after December 31, 2026."
+  ],
+  "grade": "A",
+  "fact_date": "2027",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-017",
+  "statement": "Section 71303 withholds the premium tax credit for any month before the Exchange verifies household income, immigration status, coverage status and residence, and requires a pre-enrollment verification process starting not later than August 1, for taxable years beginning after December 31, 2027.",
+  "claim": "data",
+  "figures": [
+   "71303",
+   "August 1",
+   "December 31, 2027"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71303. REQUIRING VERIFICATION OF ELIGIBILITY FOR PREMIUM TAX",
+   "beginning not later than August 1, verify with the",
+   "by this section shall apply to taxable years beginning after December",
+   "31, 2027."
+  ],
+  "grade": "A",
+  "fact_date": "2028",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-018",
+  "statement": "Section 71304 denies the premium tax credit for plans entered through an income-based special enrollment period, applying to plan years beginning after December 31, 2025, and section 71305 removes the cap on repaying excess advance credits for taxable years beginning after December 31, 2025.",
+  "claim": "data",
+  "figures": [
+   "71304",
+   "71305",
+   "December 31, 2025"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71304. DISALLOWING PREMIUM TAX CREDIT IN CASE OF CERTAIN",
+   "by this section shall apply with respect to plan years beginning after",
+   "December 31, 2025.",
+   "SEC. 71305. ELIMINATING LIMITATION ON RECAPTURE OF ADVANCE PAYMENT",
+   "31, 2025."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-019",
+  "statement": "Section 71202 gives a one-year 2.5 percent increase to Medicare physician fee schedule payments for services furnished on or after January 1, 2026 and before January 1, 2027; the law adds no increase for later years.",
+  "claim": "data",
+  "figures": [
+   "71202",
+   "2.5 percent",
+   "January 1, 2026",
+   "January 1, 2027"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71202. TEMPORARY PAYMENT INCREASE UNDER THE MEDICARE",
+   "``(F) such services furnished on or after January 1,",
+   "2026, and before January 1, 2027, by 2.5 percent.''; and"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 119-21, signed July 4, 2025 by President Trump (second Trump administration) after a Republican-majority Congress passed it on party lines; primary text as published by the Government Publishing Office.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-020",
+  "statement": "CBO projects the uninsured population rising from 26.6 million in 2025 to 36.6 million in 2029, or 10.4 percent of the population.",
+  "claim": "analysis",
+  "figures": [
+   "26.6",
+   "2025",
+   "36.6",
+   "2029",
+   "10.4"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "| | 2025a | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 |",
+   "| Uninsuredb | 26.6 | 30.0 | 34.1 | 35.3 | 36.6 |",
+   "| Share of the population that is uninsured (percent) | 7.6 | 8.6 | 9.7 | 10.1 | 10.4 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says; 2025 values are marked preliminary. Uninsured counts include people with only Medicare Part A or B and some short-term plan enrollees. The totals are levels, not the effect of any one law.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-038",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-037",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-021",
+  "statement": "CBO projects adults made eligible for Medicaid by the ACA falling from 15.5 million in 2025 to 11.1 million in 2029, and total Medicaid and CHIP enrollment from 80.5 million to 74.3 million.",
+  "claim": "analysis",
+  "figures": [
+   "15.5",
+   "11.1",
+   "80.5",
+   "74.3",
+   "2025",
+   "2029"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "| | 2025a | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 |",
+   "| Adults made eligible for Medicaid by the ACA | 15.5 | 15.3 | 13.8 | 12.6 | 11.1 |",
+   "| Subtotal | 80.5 | 80.5 | 78.4 | 76.5 | 74.3 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says; 2025 values are marked preliminary. Medicaid counts are enrollees with full benefits, with people enrolled in more than one state counted once.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-038",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-022",
+  "statement": "CBO projects ACA marketplace enrollment falling from 22.4 million in 2025 to 12.8 million in 2029, of whom 10.0 million are subsidized (down from 20.9 million in 2025).",
+  "claim": "analysis",
+  "figures": [
+   "22.4",
+   "12.8",
+   "10.0",
+   "20.9",
+   "2025",
+   "2029"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "| | 2025a | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 |",
+   "| Subsidized | 20.9 | 13.4 | 10.3 | 9.7 | 10.0 |",
+   "| Subtotal, purchased through ACA marketplaces | 22.4 | 16.9 | 13.1 | 12.5 | 12.8 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says; 2025 values are marked preliminary. The baseline includes the expiry of the expanded premium tax credit after 2025 and the 2025 reconciliation law; the 2029 rebound from 12.5 million in 2028 is attributed to CHIP funding falling in the baseline.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-034",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-030",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-023",
+  "statement": "CBO's timelines show community engagement requirements effective in 2027 and fully phased in by 2030, six-month redeterminations effective in 2027 and fully phased in by 2029, provider-tax changes phased in by 2032 and state directed payment changes by 2031.",
+  "claim": "analysis",
+  "figures": [
+   "2027",
+   "2030",
+   "2029",
+   "2032",
+   "2031"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "| Community engagement requirements | 2027 | 2030 |",
+   "| Six-month eligibility redeterminations | 2027 | 2029 |",
+   "| Changes to provider taxes | 2026 | 2032 |",
+   "| Changes to state directed payments | 2026 | 2031 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says; 2025 values are marked preliminary. CBO expects gradual implementation as states prepare, so effects on enrollment emerge over time.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-001",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-006",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-024",
+  "statement": "CBO assumes no additional states will expand Medicaid, mainly because starting in 2028 the reconciliation law limits states' ability to finance the program through provider taxes.",
+  "claim": "analysis",
+  "figures": [
+   "2028"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "incorporate the assumption that no additional states will expand Medicaid in the",
+   "future, mainly because, starting in 2028, the 2025 reconciliation act will limit the ability of"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says; 2025 values are marked preliminary. This is a modelling assumption, not a finding; CBO says savings would be smaller if more states expanded.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-011",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-025",
+  "statement": "CRS reports CBO's estimate that the law's Medicaid provisions cut federal outlays by $989.7 billion over FY2025 to FY2034 and raise the number of uninsured by 7.5 million in FY2034.",
+  "claim": "analysis",
+  "figures": [
+   "$989.7 billion",
+   "FY2025",
+   "FY2034",
+   "7.5 million"
+  ],
+  "source": "SRC-3001",
+  "anchor": [
+   "CBO estimates the Medicaid provisions in P.L. 119-21 will reduce federal outlays by $989.7 billion and reduce revenues by $25.9 billion over the 10-year period from FY2025 to FY2034.",
+   "The Medicaid provisions are estimated to increase the number of individuals without health insurance by 7.5 million in FY2034."
+  ],
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Research Service, August 18, 2025; nonpartisan legislative-branch summary of CBO's July 2025 estimates relative to CBO's January 2025 baseline. The 7.5 million is the net figure after interactions.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-038",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-026",
+  "statement": "CBO estimates the community engagement requirement alone reduces federal Medicaid outlays by $325.6 billion from FY2025 to FY2034.",
+  "claim": "analysis",
+  "figures": [
+   "$325.6 billion",
+   "FY2025",
+   "FY2034"
+  ],
+  "source": "SRC-3001",
+  "anchor": "CBO estimates this provision will reduce federal Medicaid outlays by $325.6 billion from FY2025 to FY2034.",
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Research Service, August 18, 2025, reporting CBO's estimate for section 71119; nonpartisan; relative to CBO's January 2025 baseline.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-043",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-027",
+  "statement": "CRS's summary says the community engagement requirements apply beginning December 31, 2026, or sooner at state option, which is looser than the statute's start in the first quarter that begins after December 31, 2026.",
+  "claim": "analysis",
+  "figures": [
+   "December 31, 2026"
+  ],
+  "source": "SRC-3001",
+  "anchor": "In general, the Medicaid community engagement requirements apply beginning December 31, 2026, or sooner at state option.",
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Research Service, August 18, 2025; a secondary summary. The enrolled text (section 71119) says 'the first day of the first quarter that begins after December 31, 2026', so the statute governs; the summary is shorthand.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-001",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-028",
+  "statement": "CBO projected that without an extension the number of uninsured people would rise by 2.2 million in 2026, by 3.7 million in 2027, and by 3.8 million on average in each year over 2026 to 2034 because the enhanced premium tax credit expired.",
+  "claim": "analysis",
+  "figures": [
+   "2.2 million",
+   "3.7 million",
+   "3.8 million",
+   "2026",
+   "2027",
+   "2034"
+  ],
+  "source": "SRC-3002",
+  "anchor": "number of uninsured people will rise by 2.2 million in 2026, by 3.7 million in 2027, and by 3.8 million, on average, in each year over the 2026-2034 period.",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Research Service FAQ updated December 10, 2025, quoting CBO; nonpartisan; a CBO projection made before the credits expired and not a count of actual outcomes.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-037",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-029",
+  "statement": "CBO and JCT estimated a permanent extension of the enhanced premium tax credit would add about $350 billion to deficits and raise the number of people with health insurance by 3.6 million in 2030 and 3.8 million in 2035.",
+  "claim": "analysis",
+  "figures": [
+   "$350 billion",
+   "3.6 million",
+   "2030",
+   "3.8 million",
+   "2035"
+  ],
+  "source": "SRC-3002",
+  "anchor": [
+   "Taken together, the permanent extension would add approximately $350 billion to the budget deficit for that time period.",
+   "the number of people with health insurance would increase by 3.6 million in 2030 and by 3.8 million in 2035."
+  ],
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Research Service FAQ updated December 10, 2025, quoting CBO and JCT's September 2025 estimate; nonpartisan.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-203",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-030",
+  "statement": "During the 2026 open enrollment period 23.1 million consumers selected or were automatically re-enrolled in Exchange plans, about 1.2 million fewer than in 2025, a 5% decrease.",
+  "claim": "data",
+  "figures": [
+   "23.1 million",
+   "2026",
+   "1.2 million",
+   "5%",
+   "2025"
+  ],
+  "source": "SRC-3003",
+  "anchor": [
+   "Total Plan Selections: During the 2026 OEP, 23.1 million consumers selected or",
+   "HealthCare.gov platform and SBEs. About 1.2 million fewer consumers signed up",
+   "for coverage during the 2026 OEP compared to the 2025 OEP, a 5% decrease."
+  ],
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "CMS (Centers for Medicare & Medicaid Services), second Trump administration, report released March 27, 2026; official administrative data, but the report calls the 2025 reconciliation law the 'Working Families Tax Cut Legislation' and frames results favorably (press release: 'near record high'). Plan selections are sign-ups, not paid-up (effectuated) enrollment.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-031",
+  "statement": "CMS reports that program integrity actions taken in 2025 removed advance premium tax credits for nearly 1.5 million people in HealthCare.gov states, and states that the enhanced subsidies expired at the end of 2025.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "1.5 million"
+  ],
+  "source": "SRC-3003",
+  "anchor": [
+   "As a result of program integrity actions taken in 2025, APTC was removed for nearly 1.5 million",
+   "2025. However, these enhanced APTC subsidies expired at the end of 2025. Additionally, certain non-citizens"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "CMS (Centers for Medicare & Medicaid Services), second Trump administration, report released March 27, 2026; official administrative data, but the report calls the 2025 reconciliation law the 'Working Families Tax Cut Legislation' and frames results favorably (press release: 'near record high'). Plan selections are sign-ups, not paid-up (effectuated) enrollment. The 1.5 million figure is CMS's own characterization of 'improper' enrollment; KFF reports some legitimately enrolled people also lost coverage.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-032",
+  "statement": "The Consolidated Appropriations Act, 2026 (enacted February 3, 2026) extended Medicare telehealth flexibilities through December 31, 2027 (section 6209).",
+  "claim": "data",
+  "figures": [
+   "2026",
+   "FEB. 3, 2026",
+   "December 31, 2027",
+   "6209"
+  ],
+  "source": "SRC-3004",
+  "anchor": [
+   "PUBLIC LAW 119–75—FEB. 3, 2026",
+   "SEC. 6209. EXTENSION OF CERTAIN TELEHEALTH FLEXIBILITIES.",
+   "30, 2026’’ and inserting ‘‘ending December 31, 2027’’; and"
+  ],
+  "grade": "A",
+  "fact_date": "2027-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law (H.R. 7148), Division J health care extenders. A pre-2029 expiry: telehealth flexibilities lapse before the plan's start unless Congress acts.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-033",
+  "statement": "Section 6401 of the 2026 appropriations law funds community health centers only for fiscal year 2026 and then for the period from October 1, 2026 through December 31, 2026, so mandatory funding has no authorization after that in this law.",
+  "claim": "data",
+  "figures": [
+   "6401",
+   "2026",
+   "$1,159,452,055",
+   "October 1, 2026",
+   "December 31, 2026"
+  ],
+  "source": "SRC-3004",
+  "anchor": [
+   "SEC. 6401. EXTENSION FOR COMMUNITY HEALTH CENTERS, NATIONAL",
+   "‘‘(K) $1,159,452,055 for the period beginning on October",
+   "1, 2026, and ending on December 31, 2026; and’’."
+  ],
+  "grade": "A",
+  "fact_date": "2026-12",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-11",
+  "context": "Enacted law (P.L. 119-75). I found no later extension in the September 2026 continuing resolution (P.L. 119-103) text, but did not review every appropriation; check whether Congress acted in the December 2026 funding deadline.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-034",
+  "statement": "KFF reports effectuated marketplace enrollment fell for the first time in seven years, from 21.8 million the year before to 19.2 million in 2026, and could fall as low as 17.5 million.",
+  "claim": "analysis",
+  "figures": [
+   "seven years",
+   "21.8 million",
+   "19.2 million",
+   "2026",
+   "17.5 million"
+  ],
+  "source": "SRC-3005",
+  "anchor": [
+   "Effectuated enrollment in Marketplace plans fell for the first time in seven years, from 21.8 million last year to 19.2 million in 2026",
+   "potentially as low as 17.5 million"
+  ],
+  "locator": "Recent Issues and Looking Ahead",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "KFF, nonpartisan health policy research and polling organization, October 6, 2026; its explainers are generally favorable to coverage expansion in emphasis but cite CMS and CBO data. Effectuated means paid-up. HHS figures cited by CNBC give 22.1 million in February 2025 and 19.2 million in February 2026, so the 2025 baseline differs by source.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-030",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-035",
+  "statement": "KFF finds net premium payments rose 58% on average (against a projected 114%) while deductibles rose 37%, about $1,000 per person, as many enrollees bought down to lower-coverage plans.",
+  "claim": "analysis",
+  "figures": [
+   "58%",
+   "114%",
+   "37%",
+   "$1,000"
+  ],
+  "source": "SRC-3005",
+  "anchor": "On net, premium payments increased 58% on average (as opposed to 114%), but deductibles increased by 37% or about $1,000 more per person",
+  "locator": "Recent Issues and Looking Ahead",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "KFF, nonpartisan health policy research and polling organization, October 6, 2026; its explainers are generally favorable to coverage expansion in emphasis but cite CMS and CBO data. The 114% was KFF's 2025 projection for people staying in the same plan; the 58% is the realized average after plan switching and dropouts.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-031",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-036",
+  "statement": "KFF reports the July 2025 reconciliation law did not address the expiring enhanced premium tax credits and that Republicans in Congress blocked Democratic efforts to extend them before they expired.",
+  "claim": "analysis",
+  "figures": [
+   "July 2025"
+  ],
+  "source": "SRC-3005",
+  "anchor": [
+   "The reconciliation law enacted in July 2025 did not address the expiring enhanced premium tax credits.",
+   "Late last year, Republicans in Congress blocked efforts by Democrats to extend the tax credits before they expired"
+  ],
+  "locator": "Key Developments",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "KFF, nonpartisan health policy research and polling organization, October 6, 2026; its explainers are generally favorable to coverage expansion in emphasis but cite CMS and CBO data.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-040",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-039",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-037",
+  "statement": "KFF reports CBO projected the reconciliation law's ACA provisions alone would raise the number of uninsured by 2.1 million by 2034, and that with the Medicaid changes and the credit expiry the increase topped 14 million.",
+  "claim": "analysis",
+  "figures": [
+   "2.1 million",
+   "2034",
+   "14 million"
+  ],
+  "source": "SRC-3005",
+  "anchor": [
+   "projected that the reconciliation law’s ACA provisions alone would",
+   "increase the number of uninsured by 2.1 million by 2034",
+   "the estimated increase in the uninsured by 2034 topped 14 million people."
+  ],
+  "locator": "Recent Issues and Looking Ahead",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF, nonpartisan health policy research and polling organization, October 6, 2026; its explainers are generally favorable to coverage expansion in emphasis but cite CMS and CBO data. The 14 million adds CBO's 10 million for the law and about 4.2 million for the credit expiry, from separate CBO estimates; it excludes the effect of the June 2025 marketplace rule.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-038",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-038",
+  "statement": "Georgetown CCF's reading of CBO's coverage table is that the reconciliation law raises the number of uninsured by 5.2 million in 2027, 6.8 million in 2028, 8.6 million in 2029, and 10 million by 2034.",
+  "claim": "analysis",
+  "figures": [
+   "5.2 million",
+   "2027",
+   "6.8 million",
+   "2028",
+   "8.6 million",
+   "2029",
+   "10 million",
+   "2034"
+  ],
+  "source": "SRC-3006",
+  "anchor": "will significantly rise to 5.2 million in 2027, jump to 6.8 million in 2028, jump again to 8.6 million in 2029 and then steadily grow to 10 million by 2034.",
+  "locator": "second bullet",
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Georgetown University Center for Children and Families, August 14, 2025; a center-left policy research group that opposed the cuts, summarizing CBO's data release; the CBO workbook itself (61367-Uninsured-Data.xlsx) could not be fetched. Figures are changes relative to CBO's January 2025 baseline and exclude the credit expiry.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-025",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-039",
+  "statement": "On Jan. 8 the House passed a three-year extension of the enhanced premium tax credits by 230 to 196, while a Senate bill to extend them failed to get the 60 votes needed.",
+  "claim": "analysis",
+  "figures": [
+   "230",
+   "196",
+   "60"
+  ],
+  "source": "SRC-3007",
+  "anchor": [
+   "On Jan. 8, after a procedural vote the day before, this legislation passed the House (230 to 196) and advanced to the Senate.",
+   "ultimately failed to garner the 60 votes necessary to proceed through the Senate."
+  ],
+  "locator": "intro",
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Association of State and Territorial Health Officials, January 20, 2026 policy update; a nonprofit of state public health officials; contemporaneous, so it predates the later evidence that the Senate did not act. The House vote was not followed by enactment (see CNBC and KFF entries).",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-040",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-040",
+  "statement": "As of November 2026 the Republican-led Congress had not extended the enhanced credits, and at least 11 states fund extra marketplace premium help.",
+  "claim": "analysis",
+  "figures": [
+   "11"
+  ],
+  "source": "SRC-3008",
+  "anchor": [
+   "but the Republican-led Congress opted not to extend them.",
+   "At least 11 states are providing funding to Obamacare enrollees to reduce their monthly insurance premiums"
+  ],
+  "locator": "body",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-15",
+  "context": "CNBC, November 9, 2026 news report; for-profit news outlet; cites KFF and HHS. Congress could still act in a lame-duck session, so this is the status on the date read, not a forecast.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-036",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-041",
+  "statement": "CMS's work-requirement interim final rule took effect on July 31, 2026, and under it CMS will approve initial good faith effort exemptions for a period not to exceed 6 months.",
+  "claim": "data",
+  "figures": [
+   "July 31, 2026",
+   "6 months"
+  ],
+  "source": "SRC-0888",
+  "anchor": [
+   "DATES: Effective date: These regulations are effective on July 31, 2026.",
+   "CMS will approve initial good faith effort exemptions for a period not to exceed 6 months."
+  ],
+  "locator": "DATES; 42 CFR 435.560(c)(1)",
+  "grade": "A",
+  "fact_date": "2026-07",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CMS, second Trump administration, interim final rule with comment period, Federal Register 2026; official text; CMS applies the label 'Working Families Tax Cut' to the 2025 law. Exemptions cannot run past December 31, 2028 under the statute.",
+  "supports": [
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-042",
+  "statement": "CMS estimated in its burden analysis that about 10 states would need to request a good faith exemption and that it would approve about 2.",
+  "claim": "analysis",
+  "figures": [
+   "10",
+   "2"
+  ],
+  "source": "SRC-0888",
+  "anchor": [
+   "Ultimately, we estimate that approximately 10 States will",
+   "of the approximately 10 States that we expect to apply, we will approve approximately 2 States for a good faith effort exemption."
+  ],
+  "locator": "Collection of Information requirements, burden estimate",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CMS, second Trump administration, interim final rule with comment period, Federal Register 2026; official text; CMS applies the label 'Working Families Tax Cut' to the 2025 law. A paperwork-burden planning figure, not a decision; individual requests are judged on their merits. By late October 2026 at least one state (California) had asked.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-045",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-043",
+  "statement": "CMS projects the community engagement requirement reduces Medicaid enrollment by 2.3 million individuals in FY 2027 and by 3.1 to 3.3 million in later years, cutting federal Medicaid spending by $350.3 billion over 10 years.",
+  "claim": "analysis",
+  "figures": [
+   "2.3 million",
+   "FY 2027",
+   "3.1 to 3.3 million",
+   "$350.3 billion",
+   "10 years"
+  ],
+  "source": "SRC-0888",
+  "anchor": [
+   "We project that enrollment would be reduced by 2.3 million individuals in FY 2027",
+   "between 3.1 to 3.3 million individuals in subsequent years.",
+   "spending would be reduced by $350.3 billion over the next 10 years"
+  ],
+  "locator": "Regulatory Impact Analysis, Table 41",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CMS, second Trump administration, interim final rule with comment period, Federal Register 2026; official text; CMS applies the label 'Working Families Tax Cut' to the 2025 law. The agency's own estimate under its rule; the administration has a stake in framing the policy. CBO's comparable figure is $325.6 billion over FY2025 to FY2034 (different window and baseline).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-026",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-044",
+  "statement": "KFF's tracker says the reconciliation law requires 44 states including DC to apply work requirements to expansion adults and certain 1115 waiver enrollees starting January 1, 2027.",
+  "claim": "analysis",
+  "figures": [
+   "44",
+   "1115",
+   "January 1, 2027"
+  ],
+  "source": "SRC-0887",
+  "anchor": "requires 44 states (including DC) to condition Medicaid eligibility for adults in the Affordable Care Act (ACA) Medicaid expansion group and certain enrollees in 1115 waiver programs on meeting work requirements starting January 1, 2027.",
+  "locator": "Overview",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-15",
+  "context": "KFF, nonpartisan health policy organization, updated November 3, 2026; KFF reads the start as January 1, 2027, consistent with the statute's first-quarter-after-December-31-2026 language; some states started earlier (Nebraska per CMS).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-001",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-045",
+  "statement": "MACPAC staff reported on October 29, 2026 that stakeholders said no states had officially requested a good faith exemption and that on October 1, 2026 five Governors asked HHS to delay work requirements.",
+  "claim": "analysis",
+  "figures": [
+   "October 29, 2026",
+   "October 1, 2026"
+  ],
+  "source": "SRC-3009",
+  "anchor": [
+   "October 29, 2026",
+   "these requests, and no states have officially requested an exemption",
+   "• On October 1, 2026, five Governors sent a letter to the U.S."
+  ],
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-15",
+  "context": "Medicaid and CHIP Payment and Access Commission, a nonpartisan federal advisory body, staff presentation of stakeholder interviews; secondhand. California's request, filed afterward, shows the status moves quickly.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-046",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-046",
+  "statement": "California's Department of Health Care Services asked CMS for a six-month good faith exemption through June 30, 2027, saying proceeding on time would put approximately 4.8 million Medi-Cal expansion members at risk of incorrect eligibility determinations.",
+  "claim": "data",
+  "figures": [
+   "June 30, 2027",
+   "4.8 million"
+  ],
+  "source": "SRC-3010",
+  "anchor": [
+   "Accordingly, DHCS is requesting a good faith effort exemption through June 30, 2027.",
+   "approximately 4.8 million Medi-Cal expansion members"
+  ],
+  "locator": "Section I and Section IV",
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-15",
+  "context": "California Department of Health Care Services, October 2026 request to CMS; a state agency with a stake (it blames the federal rule's requirements for delay). A request, not an approval; CMS had not published decisions when last checked.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-047",
+  "statement": "CBO notes that in August 2025 a Maryland federal district court stayed some provisions of the 2025 marketplace integrity rule, and CBO assumes a two-year delay in baseline projections for provisions under district court review.",
+  "claim": "analysis",
+  "figures": [
+   "August 2025"
+  ],
+  "source": "SRC-0850",
+  "anchor": [
+   "In August 2025, the U.S. District Court in Maryland issued a stay that delays",
+   "CBO assumes a two-year delay in baseline projections that are under district court review."
+  ],
+  "locator": "p. 4",
+  "grade": "C",
+  "fact_date": "2025-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Budget Office letter to Senate Democratic leaders, September 18, 2025; nonpartisan. The case is City of Columbus v. Kennedy; the rule is HHS's June 2025 Marketplace Integrity and Affordability final rule (second Trump administration). Later litigation status was not checked.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-048",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-048",
+  "statement": "KFF says many of the Trump administration's stricter marketplace enrollment and eligibility requirements, and other changes in a 2026 regulation, are on hold because of pending litigation but could lead to further enrollment decline if implemented.",
+  "claim": "analysis",
+  "figures": [
+   "2026"
+  ],
+  "source": "SRC-3005",
+  "anchor": "Many of these requirements, as well as other changes included in a 2026 regulation, are on hold due to pending litigation but could lead to further enrollment decline if implemented.",
+  "locator": "Key Developments",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF, nonpartisan health policy research and polling organization, October 6, 2026; its explainers are generally favorable to coverage expansion in emphasis but cite CMS and CBO data.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-047",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-049",
+  "statement": "CBO estimated that repealing the 2025 law's marketplace sections would raise the number of people with health insurance by 2.8 million in 2030 and 2.9 million in 2035 and add $271.9 billion to deficits over 2026 to 2035.",
+  "claim": "analysis",
+  "figures": [
+   "2.8 million",
+   "2030",
+   "2.9 million",
+   "2035",
+   "$271.9 billion",
+   "2026"
+  ],
+  "source": "SRC-0850",
+  "anchor": [
+   "would increase deficits by $271.9 billion over the 2026–2035 period.",
+   "CBO estimates that the number of people with health insurance would increase by 2.8 million in 2030 and by 2.9 million in 2035."
+  ],
+  "locator": "p. 8",
+  "grade": "C",
+  "fact_date": "2025-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Budget Office letter, September 18, 2025; nonpartisan; the estimate is for repeal and is therefore the mirror image of the law's marketplace effect, net of interactions.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-037",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-050",
+  "statement": "CBO says section 71303 effectively requires people to actively affirm eligibility information from 2028 and ends automatic re-enrollment with advance credits; repealing it would raise health insurance by 900,000.",
+  "claim": "analysis",
+  "figures": [
+   "71303",
+   "2028",
+   "900,000"
+  ],
+  "source": "SRC-0850",
+  "anchor": [
+   "Beginning in 2028, section 71303 effectively will",
+   "require people to actively affirm certain eligibility information",
+   "If the section was repealed, people could be automatically reenrolled in coverage",
+   "the number of people with health insurance would increase by 900,000 in"
+  ],
+  "locator": "pp. 10 to 11",
+  "grade": "C",
+  "fact_date": "2025-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Budget Office letter, September 18, 2025; nonpartisan. 'Ends automatic re-enrollment' is a paraphrase of CBO's description of the law's effect; KFF similarly says it could effectively end autorenewals from 2028.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-017",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-100",
+  "statement": "In 2025, 26.7 million people (7.9 percent) were uninsured for the entire year, not statistically different from 2024.",
+  "claim": "data",
+  "figures": [
+   "26.7 million",
+   "7.9 percent"
+  ],
+  "source": "SRC-3100",
+  "anchor": "In 2025, 26.7 million people (7.9\npercent) were uninsured for\nthe entire year, not statistically\ndifferent from 2024",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau, September 2026, second Trump administration. CPS ASEC counts people uninsured for the whole calendar year, so it runs lower than point-in-time surveys. The year covered (2025) precedes the end of the enhanced marketplace subsidies and the Medicaid changes in H.R. 1; 2024 figures were re-based to Vintage 2025 population controls.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-101",
+  "statement": "Among adults ages 19 to 64, those ages 19 to 25 had the highest uninsured rate (14.5 percent) in 2025, and those ages 45 to 64 had the lowest (8.6 percent).",
+  "claim": "data",
+  "figures": [
+   "14.5 percent",
+   "8.6 percent"
+  ],
+  "source": "SRC-3100",
+  "anchor": "those ages 19 to 25\nhad the highest uninsured rate\n(14.5 percent) in 2025, and those\nages 45 to 64 had the lowest (8.6\npercent)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau, September 2026, second Trump administration; CPS ASEC.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-102",
+  "statement": "In 2025, 11.0 percent of adults ages 19 to 64 did not have health insurance coverage, against 5.8 percent of children under 19.",
+  "claim": "data",
+  "figures": [
+   "11.0 percent",
+   "5.8 percent"
+  ],
+  "source": "SRC-3100",
+  "anchor": [
+   "In 2025, 11.0 percent\nof adults ages 19 to 64 did not have\nhealth insurance coverage",
+   "In 2025, 5.8 percent of children\nunder the age of 19 did not have\nhealth insurance"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau, September 2026, second Trump administration; CPS ASEC.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-103",
+  "statement": "Among foreign-born working-age adults, the uninsured rate was 28.9 percent for noncitizens and 9.4 percent for naturalized citizens in 2025, while the rate for all adults ages 19 to 64 was 11.0 percent.",
+  "claim": "data",
+  "figures": [
+   "28.9 percent",
+   "9.4 percent",
+   "11.0 percent"
+  ],
+  "source": "SRC-3100",
+  "anchor": [
+   "Among\nforeign-born working-age adults,\nthe uninsured rate for naturalized\ncitizens (9.4 percent) increased,\nand the rate for noncitizens (28.9\npercent) decreased",
+   "In 2025, 11.0 percent\nof adults ages 19 to 64 did not have\nhealth insurance coverage"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau, September 2026, second Trump administration. Immigration enforcement and survey nonresponse may affect noncitizen estimates; the report does not discuss this.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-104",
+  "statement": "In 2025, 8.3% of Americans of all ages (28.0 million people) did not have health insurance, and 11.6% of working-age Americans (ages 18-64) were uninsured.",
+  "claim": "data",
+  "figures": [
+   "8.3%",
+   "28.0 million",
+   "11.6%"
+  ],
+  "source": "SRC-3102",
+  "anchor": [
+   "In 2025, 8.3% of Americans of all ages (28.0 million people) did not have health insurance",
+   "11.6% of working-age Americans (those ages 18–64), did not have health insurance in 2025"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-05-31",
+  "context": "NCHS press release 2026-05-28, second Trump administration (CDC/HHS). NHIS measures coverage at the time of interview, so it runs higher than the Census figure of 7.9 percent; the two measure different things.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-105",
+  "statement": "In 2025 more than 1 in 5 Hispanic adults ages 18-64 (21.9%) lacked health insurance, against 11.3% of Black, 8.5% of White and 4.9% of Asian non-Hispanic adults.",
+  "claim": "data",
+  "figures": [
+   "21.9%",
+   "11.3%",
+   "8.5%",
+   "4.9%"
+  ],
+  "source": "SRC-3102",
+  "anchor": "more than 1 in 5 Hispanic adults ages 18–64 (21.9%) lacked health insurance, a greater percentage than Black, non-Hispanic adults (11.3%); White, non-Hispanic adults (8.5%) and Asian, non-Hispanic adults (4.9%)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-05-31",
+  "context": "NCHS press release 2026-05-28, second Trump administration (CDC/HHS); NHIS.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-106",
+  "statement": "Adults ages 18-64 in states that had not expanded Medicaid were almost twice as likely to be uninsured (18.1%) in 2025 as those in expansion states (9.0%).",
+  "claim": "data",
+  "figures": [
+   "18.1%",
+   "9.0%"
+  ],
+  "source": "SRC-3102",
+  "anchor": "Adults ages 18–64 who live in states that had not expanded Medicaid were almost twice as likely to be uninsured (18.1%) in 2025 compared to those living in states that had expanded Medicaid (9.0%)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-05-31",
+  "context": "NCHS press release 2026-05-28, second Trump administration (CDC/HHS); NHIS. A difference between groups of states, not a causal estimate of expansion.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-107",
+  "statement": "In 2026, 46 percent of working-age adults were inadequately insured: 11 percent were uninsured, 12 percent had a coverage gap during the year, and 23 percent were underinsured.",
+  "claim": "data",
+  "figures": [
+   "46 percent",
+   "11 percent",
+   "12 percent",
+   "23 percent"
+  ],
+  "source": "SRC-3111",
+  "anchor": "Nearly half of working-age adults, 46 percent, were inadequately insured in 2026: 11 percent were uninsured, 12 percent had a coverage gap during the year, and 23 percent were underinsured, meaning they had coverage but their plan didn’t provide affordable access to care.",
+  "locator": "Key findings",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2028-10-01",
+  "context": "Commonwealth Fund (private foundation), published 2026-10-22; SSRS telephone and online survey of 9,360 adults, May-July 2026. The Fund favors coverage expansion; the underinsurance threshold (out-of-pocket costs or deductible at 5 to 10 percent of income) is the Fund's own definition. Survey fielded after the end of the enhanced marketplace subsidies and before the H.R. 1 Medicaid changes.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-108",
+  "statement": "The Commonwealth Fund survey found the uninsured rate for working-age adults rose from 8.9 percent in 2024 to 11.2 percent in 2026, with marketplace and individual coverage falling from 8.5 percent to 6.4 percent.",
+  "claim": "analysis",
+  "figures": [
+   "8.9 percent",
+   "11.2 percent",
+   "8.5 percent",
+   "6.4 percent"
+  ],
+  "source": "SRC-3111",
+  "anchor": [
+   "The uninsured rate for working-age adults increased from 8.9 percent in 2024 to 11.2 percent in 2026.",
+   "from 8.5 percent in 2024 to 6.4 percent in 2026"
+  ],
+  "locator": "Main text, uninsured rates",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2028-10-01",
+  "context": "Commonwealth Fund survey, 2026-10-22. The Fund notes its estimate runs above federal surveys; it is the only source in this batch that already reflects the 2026 loss of enhanced marketplace subsidies, and it contrasts with the flat federal 2025 figures (EV-CAR-100, EV-CAR-104), which cover an earlier year.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-100",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-104",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-109",
+  "statement": "In 2026, 30 percent of working-age adults insured all year were underinsured, including 29 percent of people with employer-sponsored insurance and half of people in marketplace plans.",
+  "claim": "data",
+  "figures": [
+   "30 percent",
+   "29 percent"
+  ],
+  "source": "SRC-3111",
+  "anchor": "In 2026, 30 percent of working-age adults who were insured all year were underinsured by this definition. This includes 29 percent of people with employer-sponsored insurance and half of people in marketplace plans.",
+  "locator": "Main text, underinsurance",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2028-10-01",
+  "context": "Commonwealth Fund, 2026-10-22; Fund-defined measure of underinsurance.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-110",
+  "statement": "The share of working-age adults who delayed or avoided health care because of cost rose from 46 percent in 2022 to 50 percent in 2026.",
+  "claim": "data",
+  "figures": [
+   "46 percent",
+   "50 percent"
+  ],
+  "source": "SRC-3111",
+  "anchor": "More people delayed or avoided getting health care because of the cost, with the rate climbing from 46 percent in 2022 to 50 percent in 2026.",
+  "locator": "Key findings",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2028-10-01",
+  "context": "Commonwealth Fund survey, 2026-10-22.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-111",
+  "statement": "Annual premiums for employer-sponsored family health coverage reached $28,303 in 2026, 5% higher than in 2025.",
+  "claim": "data",
+  "figures": [
+   "$28,303",
+   "5%"
+  ],
+  "source": "SRC-3112",
+  "anchor": "Annual premiums for employer-sponsored family health coverage reached $28,303 this year, 5% higher than in 2025.",
+  "locator": "Summary",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-22",
+  "context": "KFF Employer Health Benefits Survey, published 2026-10-22, 1,937 firms; nonpartisan. Survey estimate, not administrative data.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-112",
+  "statement": "On average, covered workers contributed $7,471 toward the cost of family coverage in 2026.",
+  "claim": "data",
+  "figures": [
+   "$7,471"
+  ],
+  "source": "SRC-3112",
+  "anchor": "On average, covered workers contributed $7,471 toward the cost of family coverage.",
+  "locator": "Summary",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-22",
+  "context": "KFF Employer Health Benefits Survey, 2026-10-22.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-113",
+  "statement": "The average deductible among covered workers in a plan with a general annual deductible was $1,955 for single coverage in 2026.",
+  "claim": "data",
+  "figures": [
+   "$1,955"
+  ],
+  "source": "SRC-3112",
+  "anchor": "The average deductible among covered workers in a plan with a general annual deductible was $1,955 for single coverage.",
+  "locator": "Summary",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-22",
+  "context": "KFF Employer Health Benefits Survey, 2026-10-22.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-114",
+  "statement": "KFF reports that, heading into 2027, forecasts again project employer premium increases approaching double digits.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3112",
+  "anchor": "Heading into 2027, forecasts are again projecting premium increases approaching double digits.",
+  "locator": "Summary",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-22",
+  "context": "KFF, 2026-10-22, reporting third-party forecasts, not its own projection; no numeric forecast is quoted.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-115",
+  "statement": "About three in ten adults (28%) skipped or postponed needed health care in the past 12 months because of cost, and roughly six in ten uninsured adults (62%) did so.",
+  "claim": "data",
+  "figures": [
+   "28%",
+   "62%"
+  ],
+  "source": "SRC-3113",
+  "anchor": [
+   "Roughly three in ten adults (28%) say that they have skipped or postponed getting needed health care in the past 12 months because of the cost.",
+   "roughly six in ten (62%) uninsured adults say they have skipped or postponed getting the health care they needed due to cost"
+  ],
+  "locator": "Key points",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-23",
+  "context": "KFF brief updated 2026-10-23 from the KFF Survey of Health Access and Caregiving; nonpartisan. The NHIS-based figure for 2024 is lower (17 percent, KFF analysis) because it measures delay or non-receipt more narrowly.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-116",
+  "statement": "CFPB research shows $88 billion in medical debt on consumer credit records as of June 2021.",
+  "claim": "data",
+  "figures": [
+   "$88 billion",
+   "June 2021"
+  ],
+  "source": "SRC-3108",
+  "anchor": "CFPB research shows $88 billion in medical debt on consumer credit records as of June\n2021.",
+  "locator": "Executive Summary",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CFPB, March 2022, Biden administration; analysis of the CFPB Consumer Credit Panel. The report says the true total is likely higher because not all medical debt in collections reaches the credit bureaus.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-117",
+  "statement": "As of 2021, 58 percent of all third-party debt collection tradelines on credit records were for medical debt, the most common collection type.",
+  "claim": "data",
+  "figures": [
+   "58 percent"
+  ],
+  "source": "SRC-3108",
+  "anchor": "As of 2021, 58 percent of all third-party debt collection tradelines were for medical debt,\nmaking medical debt the most common debt collection tradeline on credit records.",
+  "locator": "Executive Summary",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CFPB, March 2022, Biden administration; Consumer Credit Panel.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-118",
+  "statement": "A KFF poll found about 41% of adults have health care debt, which KFF Health News and NPR reported as more than 100 million people in America.",
+  "claim": "analysis",
+  "figures": [
+   "100 million",
+   "41%"
+  ],
+  "source": "SRC-3115",
+  "anchor": "more than 100 million people in America ― including 41% of adults ― beset by a health care system that is systematically pushing patients into debt on a mass scale",
+  "locator": "Opening paragraphs",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF Health News and NPR, 2022-06-16, journalism built on a KFF survey of 2,375 adults. The 100 million is a journalistic extrapolation from the 41% share; the survey counts any money owed for medical or dental bills, including credit-card and family loans, a much broader measure than the CFPB credit-report figure. Data are from early 2022.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-116",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-119",
+  "statement": "A Census Bureau analysis of the 2020 Survey of Income and Program Participation found that 17% of households owed medical debt in 2019.",
+  "claim": "data",
+  "figures": [
+   "17%",
+   "2019"
+  ],
+  "source": "SRC-3114",
+  "anchor": "A recent Census Bureau analysis of data from the 2020 Survey of Income and Program Participation (SIPP) on medical debt at the household level found 17% of households owed medical debt in 2019.",
+  "locator": "Section on measuring health care debt",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Reported by KFF (2022-06-16); the Census analysis itself was not retrieved, so this is a secondhand citation of official data.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-120",
+  "statement": "NHE grew 7.2% to $5.3 trillion in 2024, or $15,474 per person, and accounted for 18.0% of Gross Domestic Product (GDP).",
+  "claim": "data",
+  "figures": [
+   "7.2%",
+   "$5.3 trillion",
+   "$15,474",
+   "18.0%"
+  ],
+  "source": "SRC-3104",
+  "anchor": "NHE grew 7.2% to $5.3 trillion in 2024, or $15,474 per person, and accounted for 18.0% of Gross Domestic Product (GDP).",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "CMS Office of the Actuary, National Health Expenditure Accounts, 2024 data released December 2025, second Trump administration. The 2025 NHE is due around December 2026 and was not available.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-121",
+  "statement": "Private health insurance spending reached $1,644.6 billion in 2024 (31 percent of NHE), Medicare $1,118.0 billion (21 percent), Medicaid $931.7 billion (18 percent), and out-of-pocket spending $556.6 billion (11 percent).",
+  "claim": "data",
+  "figures": [
+   "$1,644.6 billion",
+   "31 percent",
+   "$1,118.0 billion",
+   "21 percent",
+   "$931.7 billion",
+   "18 percent",
+   "$556.6 billion",
+   "11 percent"
+  ],
+  "source": "SRC-3104",
+  "anchor": [
+   "Medicare spending grew 7.8% to $1,118.0 billion in 2024, or 21 percent of total NHE.",
+   "Medicaid spending grew 6.6% to $931.7 billion in 2024, or 18 percent of total NHE.",
+   "Private health insurance spending grew 8.8% to $1,644.6 billion in 2024, or 31 percent of total NHE.",
+   "Out of pocket spending grew 5.9% to $556.6 billion in 2024, or 11 percent of total NHE."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "CMS Office of the Actuary, second Trump administration.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-122",
+  "statement": "CMS projects NHE growth to average 5.4 percent a year over 2025-34 against 4.1 percent for GDP, raising health spending from 18.0 percent of GDP in 2024 to 20.6 percent in 2034.",
+  "claim": "analysis",
+  "figures": [
+   "5.4 percent",
+   "4.1 percent",
+   "18.0 percent",
+   "20.6 percent"
+  ],
+  "source": "SRC-3104",
+  "anchor": "Over 2025-34 average NHE growth (5.4 percent) is projected to outpace that of average Gross Domestic Product (GDP) growth (4.1 percent), resulting in an increase in the health spending share of GDP from 18.0 percent in 2024 to 20.6 percent in 2034.",
+  "grade": "C",
+  "fact_date": "2034",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-15",
+  "context": "CMS Office of the Actuary projection (published June 2026, second Trump administration), a current-law baseline that includes H.R. 1; an agency projection, not data. No independent projection from another publisher was read for this batch.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-120",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-123",
+  "statement": "CMS projects the insured share of the population at 90.5 percent in 2034, compared with 91.8 percent in 2024.",
+  "claim": "analysis",
+  "figures": [
+   "90.5 percent",
+   "91.8 percent"
+  ],
+  "source": "SRC-3104",
+  "anchor": "The insured share of the population is expected to be 90.5 percent in 2034, compared to 91.8 percent in 2024.",
+  "grade": "C",
+  "fact_date": "2034",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-15",
+  "context": "CMS Office of the Actuary projection, second Trump administration, under current law including H.R. 1.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-107",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-124",
+  "statement": "The United States spends $14 885 per capita on health, more than the OECD average of $5 967 (USD PPP).",
+  "claim": "data",
+  "figures": [
+   "$14 885",
+   "$5 967"
+  ],
+  "source": "SRC-3106",
+  "anchor": "The United States spends $14 885 per capita on health, more than the OECD average of $5 967\n(USD PPP).",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-15",
+  "context": "OECD Health at a Glance 2025 country note (November 2025, CC BY 4.0); OECD Health Statistics from national sources. The OECD figure includes capital spending, so it differs from the Peterson-KFF consumption-only figure.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-125",
+  "statement": "The United States health spending equals 17.2% of GDP, compared with 9.3% on average in the OECD.",
+  "claim": "data",
+  "figures": [
+   "17.2%",
+   "9.3%"
+  ],
+  "source": "SRC-3106",
+  "anchor": "This is equal to 17.2% of GDP, compared to 9.3% on average in the OECD.",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-15",
+  "context": "OECD, November 2025, CC BY 4.0. CMS reports 18.0% of GDP for the same year on its own accounting (EV-CAR-120); the difference is definitional.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-126",
+  "statement": "Life expectancy in the United States was 78.4 years, 2.7 years below the OECD average.",
+  "claim": "data",
+  "figures": [
+   "78.4 years",
+   "2.7 years"
+  ],
+  "source": "SRC-3106",
+  "anchor": "In the United States, life expectancy was 78.4 years, 2.7 years below the OECD average.",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-15",
+  "context": "OECD country note, November 2025; refers to 2023 data. CDC final 2024 data show 79.0 years (EV-CAR-139), so the gap is somewhat smaller on newer data.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-127",
+  "statement": "Preventable mortality was 217 per 100 000 in the United States, above the OECD average of 145, and treatable mortality was 95 per 100 000, above the OECD average of 77.",
+  "claim": "data",
+  "figures": [
+   "217",
+   "145",
+   "95",
+   "77"
+  ],
+  "source": "SRC-3106",
+  "anchor": "Preventable mortality was 217 per 100 000 in the United States (higher than the OECD average of\n145); with treatable mortality at 95 per 100 000 (higher than the OECD average of 77).",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-15",
+  "context": "OECD country note, November 2025. Preventable and treatable mortality are the OECD components of avoidable mortality.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-128",
+  "statement": "In 2024 the U.S. spent 17.2% of GDP on health, substantially more than peer countries, which average 11.2% of GDP.",
+  "claim": "analysis",
+  "figures": [
+   "17.2%",
+   "11.2%"
+  ],
+  "source": "SRC-3121",
+  "anchor": "In 2024, the U.S. spent 17.2% of GDP on health – still substantially higher than peer countries, which average 11.2% of GDP.",
+  "locator": "Health consumption as percent of GDP",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-11",
+  "context": "Peterson-KFF Health System Tracker, published 2026-03-11; KFF analysis of OECD data for 11 comparable countries and CMS data for the U.S. Uses health consumption spending, which excludes investment.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-125",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-129",
+  "statement": "The U.S. spends nearly twice as much on health care per person as peer nations ($13,432 vs. $7,393), while utilization is generally lower, so higher prices rather than higher utilization explain the gap.",
+  "claim": "analysis",
+  "figures": [
+   "$13,432",
+   "$7,393"
+  ],
+  "source": "SRC-3122",
+  "anchor": [
+   "The U.S. spends nearly twice as much on health care per person as peer nations ($13,432 vs. $7,393 per person), meanwhile health care utilization in the U.S. — from doctor visits to surgeries — is generally lower than in other wealthy countries.",
+   "higher prices – as opposed to higher utilization – explain the United States’ high health spending relative to other high-income countries"
+  ],
+  "locator": "Opening summary",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-09-04",
+  "context": "KFF/Peterson-KFF Health System Tracker, updated 2025-09-04; KFF analysis of OECD data for 11 peer countries. The price-versus-use attribution is KFF's interpretation.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-131",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-124",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-130",
+  "statement": "Commonwealth Fund's Mirror, Mirror 2024 ranks the United States last overall among the countries compared, with Australia, the Netherlands and the United Kingdom the top three.",
+  "claim": "analysis",
+  "figures": [
+   "2024"
+  ],
+  "source": "SRC-3123",
+  "anchor": "The United States ranks last overall (Exhibits 1 and 2). The three top-performing countries in 2024 are Australia, the Netherlands, and the United Kingdom.",
+  "locator": "Key findings and Exhibit 1",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Commonwealth Fund, 2024-09-19. A composite index of 70 measures in five domains with the Fund's own weighting; the Fund favors universal coverage. The same report ranks the U.S. second on care process, so the overall rank hides strengths.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-126",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-127",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-131",
+  "statement": "Across all hospital inpatient and outpatient services in 2022, employers and private insurers paid on average 254 percent of what Medicare would have paid for the same services at the same facilities.",
+  "claim": "analysis",
+  "figures": [
+   "254 percent",
+   "2022"
+  ],
+  "source": "SRC-3116",
+  "anchor": "employers and private insurers paid on average 254 percent of what Medicare would have paid for the same services at the same facilities in 2022",
+  "locator": "Key Findings",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-10",
+  "recheck": "2027-05-13",
+  "context": "RAND Corporation, Round 5 report, 2024-05-13; employer-led study, not peer reviewed. It covers about 6 percent of commercial hospital spending, from 12 state all-payer claims databases and self-insured employers, and excludes Maryland. Medicare-based benchmarks are a yardstick, not a measure of cost.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-129",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-132",
+  "statement": "U.S. insurers and providers spent $812 billion on administration in 2017, $2497 per capita or 34.2% of national health expenditures, versus $551 per capita (17.0%) in Canada.",
+  "claim": "analysis",
+  "figures": [
+   "$812 billion",
+   "$2497",
+   "34.2%",
+   "$551",
+   "17.0%"
+  ],
+  "source": "SRC-3117",
+  "anchor": "U.S. insurers and providers spent $812 billion on administration, amounting to $2497 per capita (34.2% of national health expenditures) versus $551 per capita (17.0%) in Canada",
+  "locator": "Abstract, Results",
+  "grade": "B",
+  "fact_date": "2017",
+  "checked": "2026-11-10",
+  "recheck": "2028-01-07",
+  "context": "Annals of Internal Medicine, 2020-01-07, peer reviewed (Himmelstein, Campbell, Woolhandler). Data are from 2017. The authors are single-payer advocates; the estimate counts a wide set of administrative functions. Other estimates (McKinsey, CBO) were not read for this batch. The abstract notes accounting categories differ somewhat between the two countries.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-217",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-133",
+  "statement": "In 2025, 55 percent of eligible Medicare beneficiaries enrolled in Medicare Advantage, up from 37 percent in 2018, with about 34.9 million enrollees and an estimated $537 billion in plan payments.",
+  "claim": "data",
+  "figures": [
+   "55 percent",
+   "37 percent",
+   "34.9 million",
+   "$537 billion"
+  ],
+  "source": "SRC-3107",
+  "anchor": "In 2025, 55 percent of eligible Medicare\nbeneficiaries enrolled in MA, up from 54 percent in 2024 and 37 percent\nin 2018. In 2025, the MA program included 5,492 plan options offered by\n164 organizations, enrolled about 34.9 million beneficiaries, and paid MA\nplans an estimated $537 billion",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-15",
+  "context": "MedPAC (nonpartisan congressional advisory commission), March 12 2026; counts based on CMS enrollment files, excluding beneficiaries without both Part A and Part B.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-134",
+  "statement": "In 2026, 55% of eligible Medicare beneficiaries, 35.2 million out of 64.2 million with both Parts A and B, are enrolled in Medicare Advantage.",
+  "claim": "data",
+  "figures": [
+   "55%",
+   "35.2 million",
+   "64.2 million"
+  ],
+  "source": "SRC-3120",
+  "anchor": "In 2026, more than half (55%) of eligible Medicare beneficiaries – 35.2 million out of 64.2 million Medicare beneficiaries with both Medicare Parts A and B – are enrolled in Medicare Advantage plans",
+  "locator": "Key takeaways",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-05",
+  "context": "KFF analysis of CMS enrollment files, published 2026-06-05; nonpartisan. Newer than the MedPAC 2025 count.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-135",
+  "statement": "MedPAC estimates that in 2026 Medicare will spend 14 percent, a projected $76 billion, more for Medicare Advantage enrollees than it would if they were in fee-for-service Medicare.",
+  "claim": "analysis",
+  "figures": [
+   "14 percent",
+   "$76 billion",
+   "2026"
+  ],
+  "source": "SRC-3107",
+  "anchor": "We estimate that Medicare will spend 14 percent—a projected $76 billion—\nmore for MA enrollees in 2026 than it would spend if those beneficiaries were\nenrolled in FFS Medicare",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-15",
+  "context": "MedPAC, March 12 2026. The Commission says this is not an estimate of plan profit; the extra funds supplemental benefits. The estimate follows from favorable selection and coding intensity and depends on MedPAC's method. It is lower than last year's 20 percent estimate (EV-CAR-136) because the V28 risk model finished phasing in.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-267",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-136",
+  "statement": "MedPAC projected in 2025 that Medicare would spend 20 percent more on Medicare Advantage enrollees than on similar enrollees in fee-for-service Medicare.",
+  "claim": "analysis",
+  "figures": [
+   "20 percent",
+   "2025"
+  ],
+  "source": "SRC-3107",
+  "anchor": "Last year, we projected that in 2025, Medicare would spend 20 percent more\non MA enrollees than on similar enrollees in FFS Medicare.",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-15",
+  "context": "MedPAC, March 2026 report restating its March 2025 estimate. The method changed in the 2026 report (end-stage renal disease enrollees now included), so the 20 and 14 percent figures are not strictly comparable.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-137",
+  "statement": "Traditional Medicare has no annual limit on out-of-pocket spending for Part A and Part B services, while Medicare Advantage plans must cap in-network costs at no more than $9,250 in 2026.",
+  "claim": "data",
+  "figures": [
+   "$9,250",
+   "2026"
+  ],
+  "source": "SRC-3119",
+  "anchor": [
+   "Traditional Medicare does not include an annual limit on how much beneficiaries pay out-of-pocket for Part A and Part B services.",
+   "In 2026, this limit may not exceed $9,250 for in-network services"
+  ],
+  "locator": "Section: Traditional Medicare has No Out-of-Pocket Limit",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-09",
+  "context": "KFF, 2026-10-09; nonpartisan description of program rules, a secondary source for law. Most traditional Medicare beneficiaries hold Medigap or retiree coverage, which KFF says averaged $2,604 a year in premiums in 2023 (not quoted here).",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-138",
+  "statement": "Medicaid pays for more than two-thirds of long-term care delivered in home- and community-based settings, and in all years since 2016 at least 0.5 million people have been on waiting or interest lists, with almost 650,000 in 2026.",
+  "claim": "data",
+  "figures": [
+   "two-thirds",
+   "0.5 million",
+   "650,000",
+   "2016",
+   "2026"
+  ],
+  "source": "SRC-3118",
+  "anchor": [
+   "Medicaid is the primary payer for long-term care (LTC) in the U.S. and pays for more than two-thirds of the LTC delivered in home- and community-based settings.",
+   "In all years since 2016, there have been at least 0.5 million people on waiting lists or interest lists, with a total of almost 650,000 in 2026."
+  ],
+  "locator": "Opening and key takeaways",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-05",
+  "context": "KFF 24th survey of state Medicaid home care officials (April-August 2026), published 2026-10-05; nonpartisan. Florida and South Carolina did not respond, and prior-year answers were substituted. KFF says waiting lists are an incomplete measure of unmet need and are not comparable across states. The earlier 2025 count was over 600,000.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-139",
+  "statement": "Life expectancy at birth in the United States was 79.0 years in 2024, an increase of 0.6 year from 78.4 in 2023.",
+  "claim": "data",
+  "figures": [
+   "79.0 years",
+   "0.6 year",
+   "78.4"
+  ],
+  "source": "SRC-3109",
+  "anchor": "In 2024, life expectancy at birth was 79.0 years for the total U.S. population—an increase of 0.6 year from 78.4 in 2023",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-31",
+  "context": "NCHS Data Brief 548, January 2026, second Trump administration (CDC/HHS); final death-certificate data. A record high; the 2025 figure was not yet released.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-140",
+  "statement": "The U.S. maternal mortality rate for 2024 was 17.9 deaths per 100,000 live births (649 deaths), not significantly lower than 18.6 in 2023.",
+  "claim": "data",
+  "figures": [
+   "649",
+   "17.9 deaths per 100,000 live births",
+   "18.6"
+  ],
+  "source": "SRC-3110",
+  "anchor": [
+   "In 2024, 649 women died of maternal causes in the United States, compared with 669 in 2023",
+   "The maternal mortality rate for 2024, 17.9 deaths per 100,000 live births, was not significantly lower than the rate of 18.6 in 2023"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-01",
+  "context": "NCHS Health E-Stat 113, March 2026, second Trump administration (CDC/HHS); vital statistics. Maternal deaths are those within 42 days of the end of pregnancy; counts are small and year-to-year changes are often not significant.",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-141",
+  "statement": "In 2024 the maternal mortality rate for Black non-Hispanic women was 44.8 deaths per 100,000 live births, significantly higher than for White (14.2), Hispanic (12.1) and Asian (18.1) women.",
+  "claim": "data",
+  "figures": [
+   "44.8",
+   "14.2",
+   "12.1",
+   "18.1"
+  ],
+  "source": "SRC-3110",
+  "anchor": "the maternal mortality rate for Black non-Hispanic (subsequently, Black) women was 44.8 deaths per 100,000 live births, which was significantly higher than the rates for White non-Hispanic (subsequently, White) (14.2), Hispanic (12.1), and Asian non-Hispanic (subsequently, Asian) (18.1) women",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-01",
+  "context": "NCHS Health E-Stat 113, March 2026, second Trump administration (CDC/HHS).",
+  "supports": [
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-200",
+  "statement": "A peer-reviewed study of linked survey and death records found that the ACA Medicaid expansions reduced annual mortality among near-elderly adults by 0.132 percentage points, a 9.4% reduction over the sample mean.",
+  "claim": "analysis",
+  "figures": [
+   "0.132 percentage point",
+   "9.4%"
+  ],
+  "source": "SRC-3211",
+  "anchor": "Individuals in expansion states experienced a 0.132 percentage point decline in annual mortality, a 9.4% reduction over the sample mean, as a result of the Medicaid expansions.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Miller, Johnson and Wherry, QJE August 2021; difference-in-differences comparing expansion and non-expansion states, near-elderly low-income adults, effect grows over time. Observational, not randomized; the Oregon lottery found no detectable change in measured physical health in two years (a shorter window and a different population).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-201",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-201",
+  "statement": "In the randomized Oregon lottery, Medicaid coverage produced no statistically significant improvement in measured physical health in the first two years, but lowered the share screening positive for depression by 9.15 percentage points and almost eliminated catastrophic out-of-pocket medical spending.",
+  "claim": "analysis",
+  "figures": [
+   "9.15 percentage points"
+  ],
+  "source": "SRC-3212",
+  "anchor": [
+   "Medicaid coverage generated no statistically significant improvements in measured physical health outcomes in the first two years, but did generate increased health care use, higher rates of diabetes detection and management, lower rates of depression, and lower financial strain.",
+   "Medicaid coverage decreased the probability of screening positive for depression (-9.15 percentage points; 95% CI: -16.70 to -1.60; P=0.018)"
+  ],
+  "locator": "abstract of NEJM 2013 as quoted on NBER publications page",
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Baicker, Finkelstein and colleagues, NEJM 368:1713-1722, May 2013; random assignment by state lottery in 2008, about 12,000 adults surveyed roughly two years later. Critics read the null on blood pressure, cholesterol and glycated hemoglobin as evidence that coverage alone moves physical health slowly; the authors say confidence intervals rule out some effects found in earlier observational studies.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-200",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-202",
+  "statement": "The Oregon experiment found that Medicaid cut the chance of having to borrow money or skip other bills because of medical expenses by 14.2 percentage points from a base of 24.4, and cut catastrophic out-of-pocket spending by 4.5 percentage points from a base of 5.5.",
+  "claim": "analysis",
+  "figures": [
+   "14.2 percentage points",
+   "24.4",
+   "4.5 percentage points",
+   "5.5"
+  ],
+  "source": "SRC-3213",
+  "anchor": [
+   "reducing the chances of having out-of-pocket expenditures that exceeded 30 percent of income by 4.5 percentage points, relative to a base of 5.5)",
+   "by 14.2 percentage points, relative to a base of 24.4)"
+  ],
+  "locator": "Key Findings, Financial hardship",
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Author-written summary of the NEJM 2013 results (Baicker, May 2013); randomized lottery, outcomes about two years after the lottery. Financial-strain results are the strongest and best-replicated Oregon finding.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-116",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-203",
+  "statement": "Urban Institute projected that, without extension of the enhanced premium tax credits, 4.8 million more people would be uninsured in 2026, after Marketplace plan selections reached a record of over 24 million for 2025.",
+  "claim": "analysis",
+  "figures": [
+   "4.8 million",
+   "over 24 million",
+   "2026",
+   "2025"
+  ],
+  "source": "SRC-3214",
+  "anchor": [
+   "Marketplace enrollment steadily increased, reaching a new high of over 24 million plan selections for 2025.",
+   "Without enhanced PTCs, we project that 4.8 million more people will be uninsured in 2026 relative to a policy that extends enhanced PTCs, an increase in the uninsured population of 21 percent."
+  ],
+  "locator": "summary and bullets",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Urban Institute microsimulation, September 17, 2025, made while Congress debated an extension. Projection, not observed data; compare CBO's lower figure and KFF's 2026 sign-up counts.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-204",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-205",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-204",
+  "statement": "CRS reported that CBO projects the uninsured population would increase by 2.2 million in 2026 without an extension of the enhanced premium tax credits, and that subsidized exchange enrollment rose 137% between 2020 and 2025.",
+  "claim": "analysis",
+  "figures": [
+   "2.2 million",
+   "2026",
+   "137%",
+   "2020",
+   "2025"
+  ],
+  "source": "SRC-3205",
+  "anchor": [
+   "CBO projects that the uninsured population would increase by 2.2 million in 2026 without an extension for that year.",
+   "Overall, subsidized exchange enrollment more than doubled between 2020 and 2025, increasing by 137% during this time period."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Research Service FAQ updated December 10, 2025; nonpartisan summary of CBO and JCT estimates. CBO's single-year 2026 figure (2.2 million) is smaller than its multi-year average (3.8 million) and than Urban's 4.8 million.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-203",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-205",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-205",
+  "statement": "KFF reported that 2026 Open Enrollment plan sign-ups fell by over a million to 23.1 million, the sharpest single-year drop since the Marketplaces launched, and that effectuated enrollment could fall to about 17.5 million in 2026 from 22.3 million in 2025.",
+  "claim": "analysis",
+  "figures": [
+   "23.1 million",
+   "17.5 million",
+   "22.3 million",
+   "2026",
+   "2025"
+  ],
+  "source": "SRC-3215",
+  "anchor": [
+   "Plan sign-ups fell by over a million to 23.1 million people during the 2026 Open Enrollment Period, the sharpest single-year drop since the ACA Marketplaces launched.",
+   "average monthly effectuated ACA Marketplace enrollment could fall to about 17.5 million people in 2026 and could be as low as 16.5 million people, down from 22.3 million people in 2025."
+  ],
+  "locator": "key findings bullets",
+  "grade": "C",
+  "fact_date": "2026-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-05-19",
+  "context": "KFF analysis of reported sign-ups and payments, May 19, 2026, the first observed response to expiry of the enhanced credits. The 17.5 million figure is a KFF projection from partial data; KFF says it closely matches CBO's roughly 25% contraction.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-204",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-203",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-206",
+  "statement": "Shepard and Wagner found that removing auto-enrollment in the Massachusetts Commonwealth Care exchange, which added one extra step, reduced enrollment by 33 percent and differentially excluded young, healthy and economically disadvantaged people.",
+  "claim": "analysis",
+  "figures": [
+   "33 percent"
+  ],
+  "source": "SRC-3216",
+  "anchor": "This minor ordeal has a major impact, reducing enrollment by 33 percent and differentially excluding young, healthy, and economically disadvantaged people.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "American Economic Review, March 2025; natural experiment in 2010 affecting part of the Massachusetts pre-ACA exchange population, which was low-income and eligible for fully subsidized plans. May not transfer to groups who must pay premiums.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-207",
+  "statement": "CBO projected that if Medicare eligibility were lowered to 60 without automatic enrollment, 53 percent of newly eligible people would enroll in Parts A and B, versus about 82 percent of people ages 65 to 69 in 2019.",
+  "claim": "analysis",
+  "figures": [
+   "53 percent",
+   "82 percent",
+   "2019"
+  ],
+  "source": "SRC-3204",
+  "anchor": [
+   "CBO and JCT analyzed a policy that would lower the age of Medicare eligibility from 65 to 60.",
+   "53 percent of people newly eligible for Medicare would enroll in Parts A and B, 34 percent would enroll in Part A only, and 13 percent would not enroll in any Medicare coverage.",
+   "in 2019, about 82 percent of people ages 65 to 69 enrolled in Parts A and B"
+  ],
+  "grade": "C",
+  "fact_date": "2022-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CBO with JCT staff, May 2022 (nonpartisan). The gap is explained in the text by two things: workers aged 60 to 64 often have employer coverage, and people under 62 would not be automatically enrolled or have premiums withheld. Excerpt only; the cost estimate itself was not read.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-209",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-208",
+  "statement": "CBO projected that 70 percent of the 1.3 million uninsured people newly eligible at age 60 would take up Medicare Parts A and B in 2031, and roughly 80 percent of those taking up coverage would otherwise have no Medicaid or subsidized nongroup option.",
+  "claim": "analysis",
+  "figures": [
+   "70 percent",
+   "1.3 million",
+   "2031",
+   "80 percent"
+  ],
+  "source": "SRC-3204",
+  "anchor": [
+   "CBO and JCT analyzed a policy that would lower the age of Medicare eligibility from 65 to 60.",
+   "70 percent of the 1.3 million people who are uninsured under current law and would be newly eligible for Medicare would take up Medicare Parts A and B in 2031.",
+   "Roughly 80 percent of those that would take up coverage under the policy are not eligible for Medicaid or a subsidized nongroup plan under current law"
+  ],
+  "grade": "C",
+  "fact_date": "2022-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CBO and JCT, May 2022. Shows a staged lower-age path reaches a small uninsured group (1.3 million) and mostly displaces employer or nongroup coverage, not uninsurance.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-209",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-209",
+  "statement": "Urban Institute estimated that of 12.0 million people ages 60 to 64 with employer coverage, 9.2 million (77 percent) would keep it with Medicare Part A added, and 2.8 million (23 percent) would drop it, mostly for comprehensive Medicare.",
+  "claim": "analysis",
+  "figures": [
+   "12.0 million",
+   "9.2 million",
+   "77 percent",
+   "2.8 million",
+   "23 percent",
+   "2023"
+  ],
+  "source": "SRC-3217",
+  "anchor": [
+   "We estimate that of the 12.0 million people ages 60 to 64 enrolled in employer-sponsored insurance in the baseline for 2023—which assumes the Marketplace subsidies available under the American Rescue Plan Act have been extended and made permanent—9.2 million, or 77 percent, would keep their current coverage with the added benefit of Medicare Part A",
+   "The remaining 2.8 million, or 23 percent, would drop their employer-sponsored coverage, with most switching to comprehensive Medicare."
+  ],
+  "locator": "executive summary",
+  "grade": "C",
+  "fact_date": "2022-06",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Urban Institute, June 2022 (nonpartisan). Baseline assumes ARPA subsidies are permanent, which is not current law in 2029; results should be re-run on the 2029 baseline.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-207",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-210",
+  "statement": "KFF counted at least 25,198,000 Medicaid enrollees disenrolled during the unwinding as of September 12, 2024, and found that 69% of those disenrolled lost coverage for paperwork or procedural reasons.",
+  "claim": "data",
+  "figures": [
+   "25,198,000",
+   "69%",
+   "September 12, 2024"
+  ],
+  "source": "SRC-3218",
+  "anchor": [
+   "As of September 12, 2024, at least 25,198,000 Medicaid enrollees had been disenrolled during the unwinding of the continuous enrollment provision.",
+   "Among those who were disenrolled, nearly seven in ten (69%) were disenrolled for paperwork or procedural reasons while three in ten (31%) were determined ineligible."
+  ],
+  "locator": "bullets at top of tracker page",
+  "grade": "A",
+  "fact_date": "2024-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF compilation of state-reported unwinding data (states report to CMS; reporting differs by state). Procedural share depends on the denominator: KFF notes the rate falls to about one-fifth if all initiated renewals are used (its Sept 2023 explainer gave 73% vs 20%). KFF says many procedurally disenrolled people may still be eligible, but that is not measured here.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-211",
+  "statement": "At the end of the unwinding, KFF found over 56 million people had coverage renewed, over 25 million were disenrolled (a 31% disenrollment rate), and 61% of renewals were completed through automated ex parte processes.",
+  "claim": "data",
+  "figures": [
+   "56 million",
+   "25 million",
+   "31%",
+   "61%"
+  ],
+  "source": "SRC-3219",
+  "anchor": [
+   "over 56 million people had their coverage renewed and over 25 million people have been disenrolled",
+   "the overall disenrollment rate during the unwinding was 31%",
+   "among those who retained coverage, over six in ten (61%) were renewed through ex parte, or automated, processes."
+  ],
+  "locator": "summary paragraph",
+  "grade": "A",
+  "fact_date": "2024-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF, September 18, 2024; state-reported data, some cases still pending. Evidence that automated renewal protects coverage and that paperwork drives loss when it is missing.",
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-212",
+  "statement": "In Arkansas, work requirements were associated with a 13.2 percentage point larger decline in Medicaid or marketplace coverage among adults 30 to 49 than among other age groups, and a 7.1 percentage point rise in the uninsured.",
+  "claim": "analysis",
+  "figures": [
+   "13.2 percentage points",
+   "7.1 percentage points",
+   "30 to 49"
+  ],
+  "source": "SRC-3220",
+  "anchor": [
+   "the percentage of respondents with Medicaid or marketplace coverage declined by 13.2 percentage points (95% confidence interval [CI], −23.3 to −3.2) more among Arkansans 30 to 49 years of age relative to other age groups in the state",
+   "an increase of 7.1 percentage points"
+  ],
+  "locator": "Results, Table 2 text",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Sommers et al., NEJM June 2019; telephone survey late 2018 with Kentucky, Louisiana and Texas as comparison states; first 6 months of the policy. Confidence interval is wide (-23.3 to -3.2).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-214",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-213",
+  "statement": "The Arkansas study found no significant change in employment associated with work requirements and that more than 95% of targeted people already met the requirement or should have been exempt.",
+  "claim": "analysis",
+  "figures": [
+   "95%"
+  ],
+  "source": "SRC-3220",
+  "anchor": "We found no significant changes in employment associated with the policy, and more than 95% of persons who were targeted by the policy already met the requirement or should have been exempt.",
+  "locator": "Conclusion",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "NEJM June 2019. The authors say their confidence intervals are wide enough that policy-relevant employment changes cannot be ruled out; supporters of work requirements argue the longer-run and national effects differ. Study covers the first 6 months only.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-214",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-214",
+  "statement": "KFF reported that in Arkansas about two thirds of enrollees were data matched, about 70% of those who had to report neither obtained an exemption nor reported compliance, and over 18,000 people lost coverage.",
+  "claim": "analysis",
+  "figures": [
+   "70%",
+   "18,000"
+  ],
+  "source": "SRC-3221",
+  "anchor": "Among those who had to actively report, about 70% did not obtain an exemption or report compliance, ultimately resulting in over 18,000 people losing coverage.",
+  "locator": "Data Matching bullet",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF, May 20, 2025 (nonpartisan), summarizing state waiver experience while Congress considered a national work requirement. Arkansas state reports are the underlying source.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-212",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-215",
+  "statement": "Georgia's Pathways program, the only Medicaid work requirement applied at application, had 13,369 people enrolled at some point in two years, 8,077 still active two years in, and cost about $110 million through June 2025, with health care benefits about 31% of costs.",
+  "claim": "analysis",
+  "figures": [
+   "13,369",
+   "8,077",
+   "$110 million",
+   "31%"
+  ],
+  "source": "SRC-3222",
+  "anchor": [
+   "About 13,369 total Georgians had been enrolled in the Pathways to Coverage program at some point during the first two years, which accounts for cumulative enrollment. Only 8,077 of those Georgians were still actively enrolled",
+   "Through June 2025 the Pathways to Coverage program cost taxpayers about $110 million",
+   "Health care benefits accounted for about 31% of total costs from program approval through the end of year two."
+  ],
+  "locator": "summary paragraphs",
+  "grade": "C",
+  "fact_date": "2025-06",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Georgia Budget and Policy Institute, October 2025; the institute favors Medicaid expansion (stake). It cites state financial documents; the figures were not checked against those documents here. The state's own reporting and defense of the program were not read.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-212",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-216",
+  "statement": "CBO's report on single-payer design described design choices and trade-offs but did not address every issue in implementing and transitioning to such a system, and did not analyze the budgetary effects of any specific proposal.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3200",
+  "anchor": "The report does not address all of the issues involved in designing, implementing, and transitioning to a single-payer system, nor does it analyze the budgetary effects of any specific proposal.",
+  "grade": "C",
+  "fact_date": "2019-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CBO, May 2019, requested by House Budget Committee Chairman Yarmuth; qualitative. Its numerical work came later (Dec 2020 working paper, 2022 testimony).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-223",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-217",
+  "statement": "CBO staff told the House Budget Committee that the federal cost of administering Medicare was 1.4 percent of Medicare expenditures in 2017, about 6 percent including Medicare Advantage and Part D plans, versus about 12 percent for private insurers.",
+  "claim": "analysis",
+  "figures": [
+   "1.4 percent",
+   "2017",
+   "6 percent",
+   "12 percent"
+  ],
+  "source": "SRC-3201",
+  "anchor": [
+   "administering the Medicare program accounted for 1.4 percent of\ntotal Medicare expenditures in 2017.",
+   "for about 6 percent of its expenditures. By comparison, private\ninsurers' administrative costs averaged about 12 percent in\n2017."
+  ],
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CBO testimony in a House Budget Committee hearing held by the Democratic majority, 2019. The same testimony adds that coordination of care and fraud control could add administrative costs under single-payer. Different scope of \"administrative\" cost for Medicare (federal cost only) versus insurers (including profit).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-234",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-218",
+  "statement": "CBO projected that five illustrative single-payer options would raise federal health subsidies by $1.5 trillion to $3.0 trillion in 2030 and change total national health expenditures by between a decrease of $0.7 trillion and an increase of $0.3 trillion.",
+  "claim": "analysis",
+  "figures": [
+   "$1.5 trillion",
+   "$3.0 trillion",
+   "2030",
+   "$0.7 trillion",
+   "$0.3 trillion"
+  ],
+  "source": "SRC-3202",
+  "anchor": [
+   "CBO projects that federal subsidies for health care would be $1.5 trillion to $3.0 trillion higher in 2030 under the illustrative single-payer options than they would be in that year under current law.",
+   "The single-payer options would change total national health expenditures (NHE) in 2030 by amounts ranging from a decrease of $0.7 trillion to an increase of $0.3 trillion."
+  ],
+  "grade": "C",
+  "fact_date": "2020-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CBO working paper 2020-08 and blog, December 2020 (nonpartisan, Medicare fee-for-service based; CBO did not score a specific bill). Payment rates, cost sharing and long-term care coverage drive the range; CBO says its estimates are inherently uncertain. Compare Urban (NHE up), Galvani and PERI (NHE down).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-222",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-230",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-231",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-227",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-219",
+  "statement": "CBO projected that under its single-payer options the increase in demand for health care would exceed the increase in supply, leaving more unmet demand than under current law, with delays and forgone care, particularly under lower cost sharing and lower payment rates.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3202",
+  "anchor": [
+   "The increase in demand for health care would exceed the increase in supply, resulting in more unmet demand compared with the amount under current law, CBO projects.",
+   "The increase in unmet demand would correspond to greater congestion in the health care system—including delays and forgone care—particularly under the illustrative options that include lower cost sharing and lower payment rates."
+  ],
+  "grade": "C",
+  "fact_date": "2020-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CBO, December 2020. Supporters argue supply would adjust and CBO also says the amount of care used would rise; RAND builds in a similar supply constraint.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-228",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-220",
+  "statement": "CBO told the Senate Budget Committee that a lower-rate scenario (hospital rates 13 percent lower, physician rates 7 percent lower, drug prices 23 percent lower) would cut national health expenditures by 9 percent and federal subsidies by 12 percent relative to a higher-rate scenario, but reduce supply by 2 percent.",
+  "claim": "analysis",
+  "figures": [
+   "13 percent",
+   "7 percent",
+   "23 percent",
+   "9 percent",
+   "12 percent",
+   "2 percent"
+  ],
+  "source": "SRC-3203",
+  "anchor": [
+   "In the lower-rate scenario, rates would be 13 percent lower for hospitals and 7 percent lower for physicians, on average. Also, prices for prescription drugs would be 23 percent lower, on average.",
+   "National health expenditures would be 9 percent lower.",
+   "Federal subsidies for health care would be 12 percent lower.",
+   "The supply of personal health care would be 2 percent lower, with the demand for such care roughly unchanged."
+  ],
+  "grade": "C",
+  "fact_date": "2022-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CBO Director Swagel, May 12, 2022, before a committee chaired by Senator Sanders. CBO had not analyzed Sanders' S. 1129. Shows that provider payment rates, not coverage, dominate cost.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-226",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-221",
+  "statement": "CBO told the Senate Budget Committee that, if a single-payer system were financed by a payroll or income tax, GDP would be approximately 1 percent to 10 percent lower by 2030 than under current law, and that all of its single-payer estimates are inherently uncertain.",
+  "claim": "analysis",
+  "figures": [
+   "1 percent",
+   "10 percent",
+   "2030"
+  ],
+  "source": "SRC-3203",
+  "anchor": [
+   "Gross domestic product (GDP) would be approximately 1 percent to 10 percent lower by 2030 than the amount projected under current law",
+   "I want to emphasize that all of CBO’s estimates of the effects of a single-payer system are inherently uncertain."
+  ],
+  "grade": "C",
+  "fact_date": "2022-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CBO testimony, May 12, 2022. The range depends on option and tax type; supporters point out that employer and household premiums would fall, and that CBO also found non-health consumption would rise for lower-income households.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-230",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-222",
+  "statement": "Urban Institute estimated that an \"enhanced\" single-payer system would raise federal spending by $34.0 trillion over 10 years ($2.8 trillion in 2020) and national health spending by about $720 billion in 2020, with no one uninsured and no cost sharing.",
+  "claim": "analysis",
+  "figures": [
+   "$34.0 trillion",
+   "$2.8 trillion",
+   "$720 billion",
+   "2020"
+  ],
+  "source": "SRC-3223",
+  "anchor": "National spending on health care would grow by about $720 billion in 2020. Federal government spending would increase by $2.8 trillion in 2020 or $34.0 trillion over 10 years.",
+  "locator": "Reform 8, bullets",
+  "grade": "C",
+  "fact_date": "2019-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Urban Institute, October 2019 (HIPSM microsimulation, 2020-2029). Enhanced design covers undocumented immigrants and adds dental, vision, hearing and long-term services, with providers paid rates closer to Medicare. Urban did not model financing.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-226",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-230",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-234",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-223",
+  "statement": "Urban Institute explained that its $34 trillion federal increase is offset by a $27 trillion decrease in spending by individuals, employers and state governments, so national health spending would rise by $7 trillion over 10 years, from $52 trillion to $59 trillion.",
+  "claim": "analysis",
+  "figures": [
+   "$34 trillion",
+   "$27 trillion",
+   "$7 trillion",
+   "$52 to $59 trillion"
+  ],
+  "source": "SRC-3224",
+  "anchor": "federal spending would increase by $34 trillion over 10 years, but health spending by individuals, employers, and state governments would decrease by $27 trillion, so national health spending would increase by $7 trillion over the same 10-year period, from $52 to $59 trillion.",
+  "locator": "Urban Wire text",
+  "grade": "C",
+  "fact_date": "2019-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Urban Institute blog, October 16, 2019, written to stop people comparing federal cost with national spending. Compare Galvani (13% savings) and PERI (about 10% savings), which reach the opposite sign on national spending.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-230",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-231",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-218",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-224",
+  "statement": "Urban Institute estimated that a single-payer \"lite\" design with income-based cost sharing and fewer new benefits would lower national health spending by $209.5 billion (6 percent) in 2020 and raise federal spending by $17.6 trillion over 10 years.",
+  "claim": "analysis",
+  "figures": [
+   "$209.5 billion",
+   "6 percent",
+   "$17.6 trillion",
+   "2020"
+  ],
+  "source": "SRC-3223",
+  "anchor": "National spending on health care would decrease by $209.5 billion, or 6 percent, in 2020. Federal government spending would increase by $1.5 trillion in 2020 or $17.6 trillion over 10 years.",
+  "locator": "Reform 7, bullets",
+  "grade": "C",
+  "fact_date": "2019-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Urban Institute, October 2019. Shows design matters: the same model gives a spending rise for the enhanced design and a fall for the lite design, which leaves 10.8 million undocumented immigrants uncovered.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-218",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-225",
+  "statement": "Urban Institute estimated that a hybrid reform with improved ACA subsidies, auto-enrollment backup, a public option and capped provider payment rates would cover 25.6 million otherwise uninsured people and cut national health spending by $22.6 billion (0.6 percent) in 2020, while raising federal spending by $1.5 trillion over 10 years.",
+  "claim": "analysis",
+  "figures": [
+   "25.6 million",
+   "$22.6 billion",
+   "0.6 percent",
+   "2020",
+   "$1.5 trillion"
+  ],
+  "source": "SRC-3223",
+  "anchor": [
+   "This reform plan achieves universal coverage for people legally present in the US, covering 25.6 million people who would otherwise be uninsured.",
+   "National spending on health care would decrease modestly, by $22.6 billion or 0.6 percent, compared with current law in 2020. Federal government spending would increase by $122.1 billion in 2020 or $1.5 trillion over 10 years."
+  ],
+  "locator": "Reform 5/6 bullets",
+  "grade": "C",
+  "fact_date": "2019-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Urban Institute, October 2019. This is a bundle (subsidies, a mandate with auto-enrollment, a public option and rate caps), not a public option alone, and it leaves 6.6 million undocumented immigrants uncovered. Cannot be read as the effect of a public option by itself.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-208",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-226",
+  "statement": "Mercatus Center estimated that the Medicare for All Act would increase federal budget commitments by about $32.6 trillion over 2022-2031, assuming provider payments more than 40 percent lower than private insurance rates.",
+  "claim": "analysis",
+  "figures": [
+   "$32.6 trillion",
+   "2022–2031",
+   "40 percent"
+  ],
+  "source": "SRC-3225",
+  "anchor": [
+   "increase federal budget commitments by approximately $32.6 trillion during its first 10 years of full implementation (2022–2031), assuming enactment in 2018",
+   "reimbursed at rates more than 40 percent lower than those currently paid by private health insurance"
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2018-07",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Blahous, Mercatus Center, July 2018, modeling the Sanders 2017 bill. Mercatus describes its figure as conservative because it assumes the bill's savings are achieved. A related Mercatus essay notes the same paper implied national spending about $2 trillion lower over 10 years if those assumptions held. Free-market think tank; supporters dispute it.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-222",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-231",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-220",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-234",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-227",
+  "statement": "Blahous compared his estimate with CBO's and reported that CBO's federal cost for Option 3 is $2.20 trillion lower than his lower-bound estimate, with about a quarter of the gap coming from different current-law national health expenditure baselines.",
+  "claim": "analysis",
+  "figures": [
+   "$2.20 trillion",
+   "24.9–26.5 percent"
+  ],
+  "source": "SRC-3226",
+  "anchor": [
+   "CBO’s federal cost score for Option 3 is $2.20 trillion lower than my lower-bound estimate, even though CBO uses payment rate assumptions that are slightly higher than mine.",
+   "Differences between CBO’s and my estimates of NHE under current law account for 24.9–26.5 percent of the total difference between our estimates"
+  ],
+  "locator": "Table 2 discussion",
+  "grade": "C",
+  "fact_date": "2021-04",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Mercatus Center brief, April 2021, by the author of the 2018 estimate; the author argues CBO's options 3 and 4 understate costs. Shows two credible estimators differing by trillions, so the cost range is wide.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-218",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-228",
+  "statement": "RAND estimated that a Medicare for All plan with long-term care benefits and no cost sharing would raise total health expenditures by 1.8 percent to $3.89 trillion in 2019, but by 9.8 percent to $4.20 trillion if there were no supply constraint.",
+  "claim": "analysis",
+  "figures": [
+   "1.8 percent",
+   "$3.89 trillion",
+   "2019",
+   "9.8 percent",
+   "$4.20 trillion"
+  ],
+  "source": "SRC-3227",
+  "anchor": [
+   "We estimate that total health expenditures under a Medicare for All plan that provides comprehensive coverage and long-term care benefits would be $3.89 trillion in 2019 (assuming such a plan was in place for all of the year), or a 1.8 percent increase relative to expenditures under current law.",
+   "If there were no supply constraint, we estimate that total health expenditures would increase by 9.8 percent to $4.20 trillion."
+  ],
+  "locator": "Top-Line Findings",
+  "grade": "C",
+  "fact_date": "2019-04",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "RAND research report RR-3106, April 2019; extrapolated from earlier RAND analyses (including New York) rather than a new microsimulation. The 1.8% result depends on assuming unmet demand equals half of new demand.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-219",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-222",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-229",
+  "statement": "RAND estimated that federal health spending would rise 221 percent, from $1,090.0 billion to $3,498.7 billion in 2019 under Medicare for All, while administrative spending would fall 27.3 percent from $580.8 billion to $422.1 billion.",
+  "claim": "analysis",
+  "figures": [
+   "221 percent",
+   "$1,090.0 billion",
+   "$3,498.7 billion",
+   "2019",
+   "27.3 percent",
+   "$580.8 billion",
+   "$422.1 billion"
+  ],
+  "source": "SRC-3227",
+  "anchor": [
+   "We estimate that federal health care spending would increase by 221 percent under Medicare for All relative to current law, from $1,090.0 billion to $3,498.7 billion.",
+   "Administrative spending falls from $580.8 billion to $422.1 billion, a reduction of 27.3 percent.",
+   "Table 1. Medicare for All: Changes in U.S. Health Care Spending, 2019 (in Billions)"
+  ],
+  "locator": "Tables 2 and 3 discussion",
+  "grade": "C",
+  "fact_date": "2019-04",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "RAND, April 2019. Administrative savings of 27.3% are smaller than PERI and Galvani assume.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-217",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-230",
+  "statement": "Galvani and colleagues calculated in The Lancet that a single-payer system would likely save 13% of national health-care expenditure, more than US$450 billion annually, and would save more than 68 000 lives a year.",
+  "claim": "analysis",
+  "figures": [
+   "13%",
+   "450 billion",
+   "68 000"
+  ],
+  "source": "SRC-3228",
+  "anchor": [
+   "we calculate that a single-payer, universal health-care system is likely to lead to a 13% savings in national health-care expenditure, equivalent to more than US$450 billion annually (based on the value of the US$ in 2017).",
+   "we estimate that ensuring health-care access for all Americans would save more than 68 000 lives and 1·73 million life-years every year compared with the status quo."
+  ],
+  "locator": "Summary",
+  "grade": "C",
+  "fact_date": "2020-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Lancet, Feb 15, 2020, Yale authors, funded by endowment and foundation grants (see source row). The lives-saved figure assumes uninsured mortality converges to insured mortality; the Oregon randomized trial found no detectable change in measured physical health within two years. CBO and Urban reach the opposite sign on national spending for generous designs.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-223",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-218",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-201",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-221",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-222",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-231",
+  "statement": "PERI estimated that Medicare for All could reduce total health care spending by nearly 10 percent, to $2.93 trillion, from about $3.24 trillion spent on personal health care in 2017.",
+  "claim": "analysis",
+  "figures": [
+   "10 percent",
+   "$2.93 trillion",
+   "$3.24 trillion",
+   "2017"
+  ],
+  "source": "SRC-3229",
+  "anchor": [
+   "As of 2017, the U.S. was spending about $3.24 trillion on personal health care",
+   "Medicare for All could reduce total health care spending in the U.S. by nearly 10 percent, to $2.93 trillion"
+  ],
+  "locator": "introduction",
+  "grade": "C",
+  "fact_date": "2018-11",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Pollin et al., PERI at UMass Amherst, November 2018; authors favor the reform; modeled savings from administration, drug prices and provider fees. Mercatus and Urban reach higher national and federal costs for Sanders-type bills.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-223",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-226",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-232",
+  "statement": "EPI wrote that Pollin and colleagues' 1.8 million potentially redundant health insurance and billing administration jobs is a gross, not net, figure, and that if those workers transitioned over a four-year phase-in it would raise national layoffs by about 2% (21.5 million workers were laid off in 2018).",
+  "claim": "analysis",
+  "figures": [
+   "1.8 million",
+   "2%",
+   "21.5 million",
+   "2018"
+  ],
+  "source": "SRC-3230",
+  "anchor": [
+   "up to 1.8 million jobs in the health insurance and billing administration sector",
+   "If the 1.8 million workers that Pollin et al. (2018) identify as potentially being displaced by M4A were forced to transition over the four-year phase-in commonly identified with M4A plans, this would increase the national rate of layoffs by about 2%.",
+   "21.5 million workers were laid off in 2018"
+  ],
+  "locator": "summary",
+  "grade": "C",
+  "fact_date": "2020-03",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Economic Policy Institute, March 2020, a labor-aligned think tank sympathetic to the reform; it does say policymakers should support displaced workers. The 1.8 million figure includes administrative staff at hospitals and physician offices, not only insurers.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-233",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-233",
+  "statement": "BLS counted 601.8 thousand jobs in direct health and medical insurance carriers in 2025 and projected 622.6 thousand in 2035.",
+  "claim": "data",
+  "figures": [
+   "601.8",
+   "622.6",
+   "2025",
+   "2035"
+  ],
+  "source": "SRC-3210",
+  "anchor": [
+   "Employment by industry, occupation, and percent distribution, 2025 and projected 2035 .",
+   "Total, all occupations\n00-0000\nSummary\n601.8\n100.0\n0.4\n622.6"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-09-01",
+  "context": "BLS Employment Projections matrix, industry 524114; official data and baseline projection with no policy change. Counts the insurance carriers only; billing and administration staff in provider offices are in other industries.",
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-234",
+  "statement": "A systematic review of 22 single-payer cost analyses found that 19 (86%) predicted net savings in the first year (median 3.46% of total costs), but it also excluded two widely publicized studies that found net costs.",
+  "claim": "analysis",
+  "figures": [
+   "22",
+   "19 (86%)",
+   "3.46%"
+  ],
+  "source": "SRC-3231",
+  "anchor": [
+   "Our search yielded economic analyses of the cost of 22 single-payer plans over the past 30 years.",
+   "We found that 19 (86%) of the analyses predicted net savings (median net result was a savings of 3.46% of total costs) in the first year of program operation",
+   "we excluded 2 widely publicized studies [20, 24], both of which found net costs, on the grounds that these studies made assumptions that included private insurance intermediaries (i.e., not a single-payer) or lacked technical detail for evaluation."
+  ],
+  "locator": "Methods and findings; Discussion",
+  "grade": "B",
+  "fact_date": "2020-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Cai et al., PLOS Medicine, January 2020 (UC authors; peer reviewed). The review says the studies were too heterogeneous for formal meta-analysis; net cost or savings in year one ranged from +7.2% to -15.5%. It measures national spending, not federal cost, and so does not contradict Urban's federal increase.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-222",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-226",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-235",
+  "statement": "Washington's own Health Care Authority reported that in 2025 its Cascade Select public option silver plans were the lowest-premium qualified health plans in 26 of 39 counties (down from 31 in 2024), and that public option premiums were meaningfully lower than non-public option premiums in zero counties.",
+  "claim": "analysis",
+  "figures": [
+   "26 of 39 counties",
+   "31",
+   "2024",
+   "zero",
+   "2025"
+  ],
+  "source": "SRC-3232",
+  "anchor": [
+   "2025 Public Option Progress Snapshot",
+   "Public option silver plans are lowest-premium QHPs in 26 of 39 counties, down from 31 counties in 2024.",
+   "Public option premiums in zero counties are “meaningfully lower” than non-public option premiums."
+  ],
+  "locator": "Public Option Progress Snapshot",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Washington State Health Care Authority slide deck, 2025 progress snapshot; self-report by the agency that runs the program, candid about a shortfall. The same deck says the program is the fastest-growing plan for a second year and that the 160% of Medicare aggregate provider reimbursement cap is the main lever.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-240",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-236",
+  "statement": "Washington's Cascade Care law capped aggregate provider reimbursement in Cascade Select plans at 160% of Medicare; Cascade Select launched in 2021, and every hospital is required to contract with at least one Cascade Select plan.",
+  "claim": "data",
+  "figures": [
+   "160%",
+   "2021"
+  ],
+  "source": "SRC-3232",
+  "anchor": [
+   "Capped aggregate provider reimbursement at 160% of Medicare",
+   "Cascade Select launched in 2021",
+   "Every hospital is required to contract with at least one Cascade Select plan"
+  ],
+  "locator": "slide \"Washington State Cascade Select Overview\"",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Washington Health Care Authority summary of RCW 41.05.405 and SB 5377 (2021). Statutory design: a cap on aggregate rates, not a fee schedule, and a hospital participation rule.",
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-237",
+  "statement": "Washington's exchange reported that 94,000 customers were in a Cascade Select public option plan, up 50% from 2024, out of 309,000 customers who selected qualified health plans.",
+  "claim": "data",
+  "figures": [
+   "94,000",
+   "50%",
+   "309,000"
+  ],
+  "source": "SRC-3233",
+  "anchor": [
+   "309,000 customers selected QHPs.",
+   "94,000 customers are in a Cascade Select public option plan, up 50% from 2024."
+  ],
+  "locator": "enrollment highlights",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-01",
+  "context": "Washington Health Benefit Exchange open enrollment preview, March 13, 2025; administrative counts. Mathematica notes the public option captured only about 1 percent of exchange enrollment in its first year (2021).",
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-238",
+  "statement": "Washington's Health Care Authority proposed legislation to set a hospital-specific rate cap at 135% of Medicare for public option plans and tie state subsidies to public option enrollment, noting over 115,000 enrollees as of February 2026.",
+  "claim": "analysis",
+  "figures": [
+   "135%",
+   "115,000",
+   "February 2026"
+  ],
+  "source": "SRC-3234",
+  "anchor": [
+   "Adjust reference pricing structure to incorporate a hospital-specific rate cap at 135% of Medicare, excluding children’s hospitals and certain other small or rural hospitals.",
+   "over 115,000 enrollees selecting plans as of February 2026"
+  ],
+  "locator": "proposed changes 3 and 4; background",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "Washington Health Care Authority proposal, 2026 (agency request; not law). It signals that the state judges the 160% aggregate cap too loose to produce meaningfully lower premiums.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-239",
+  "statement": "Colorado's Division of Insurance reported that 132,791 people enrolled in the Colorado Option in 2025 open enrollment, 47% of selections on Connect for Health Colorado, up from 13.7% in 2023 and 34% in 2024.",
+  "claim": "data",
+  "figures": [
+   "132,791",
+   "47%",
+   "13.7%",
+   "34%",
+   "2023",
+   "2024"
+  ],
+  "source": "SRC-3235",
+  "anchor": [
+   "132,791 people enrolling in the Colorado Option during the open enrollment period that just concluded, representing 47% of all selections for 2025 on Connect for Health Colorado.",
+   "In its first year, 2023, Colorado Option enrollment made up 13.7% of selections on Connect for Health. In 2024, that share jumped to 34%"
+  ],
+  "locator": "press release text",
+  "grade": "A",
+  "fact_date": "2025-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-23",
+  "context": "Colorado Division of Insurance press release, January 23, 2025, issued with the Governor; administrative counts but promotional framing. Mathematica (for the same agency) gives the same 47% figure.",
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-240",
+  "statement": "The Colorado Option law set premium rate reduction targets of at least 5 percent for 2023, 10 percent for 2024 and 15 percent for 2025 relative to 2021 premiums in the same county, adjusted for medical inflation, with a 20% reimbursement rate reduction target negotiated through public hearings.",
+  "claim": "data",
+  "figures": [
+   "5-percent",
+   "2023",
+   "10-percent",
+   "2024",
+   "15-percent",
+   "2025",
+   "2021",
+   "20%"
+  ],
+  "source": "SRC-3236",
+  "anchor": [
+   "2023 PRR Target: At least a 5-percent reduction in premiums relative to the premiums offered by the carrier in the same county in 2021, adjusted for medical inflation",
+   "2024 PRR Target: At least a 10-percent reduction in premiums relative to the premiums offered by the carrier in the same county in 2021, adjusted for medical inflation",
+   "2025 PRR Target: At least a 15-percent reduction in premiums relative to the premiums offered by the carrier in the same county in 2021, adjusted for medical inflation",
+   "Reimbursement Rate Reduction Target (through public hearing process): 20% from Plan Year 2024 negotiated rate"
+  ],
+  "locator": "Exhibit II.3",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "Mathematica report for the Colorado Division of Insurance (date approximate); the targets are statutory (C.R.S. 10-16-1304). The same report reports 15 percent lower out-of-pocket spending for enrollees but only carrier-reported premium reductions, and that settlements were negotiated rather than litigated.",
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-241",
+  "statement": "The Colorado Association of Health Plans reported that hospitals said Colorado hospitals expected to lose $125 million this year because of what they characterize as inadequate reimbursements, and that a Brown University Health Affairs study found the Colorado Option reduced the average marketplace premium by $101 a month compared with 2020.",
+  "claim": "analysis",
+  "figures": [
+   "$125 million",
+   "$101",
+   "2020"
+  ],
+  "source": "SRC-3237",
+  "anchor": [
+   "Colorado hospitals expect to lose $125 million this year due to what they characterize as inadequate reimbursements, according to the provider group.",
+   "The Colorado Option has reduced the average marketplace premium by $101 a month compared with 2020, according to a Brown University study published in the journal Health Affairs on Jan. 15."
+  ],
+  "locator": "news summary",
+  "grade": "C",
+  "fact_date": "2025-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-29",
+  "context": "Colorado Association of Health Plans (insurer trade group), January 29, 2025, relaying the hospital association's loss estimate and the Brown/Health Affairs finding. The $125 million is a hospital-industry claim, not independently verified; the Brown study itself was not read here.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-240",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-242",
+  "statement": "KFF Health News reported that 10,762 people enrolled in Nevada's Battle Born State Plans in the first open enrollment, under a third of the roughly 35,000 state officials had projected, among 104,000 marketplace purchasers.",
+  "claim": "analysis",
+  "figures": [
+   "10,762",
+   "35,000",
+   "104,000"
+  ],
+  "source": "SRC-3238",
+  "anchor": [
+   "State officials projected ahead of open enrollment that about 35,000 people would purchase the public option plans. Of the 104,000 people who had purchased a plan on the state marketplace as of mid-January, 10,762 had enrolled in one of the public option plans",
+   "less than a third of what state officials had projected"
+  ],
+  "locator": "news article",
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-19",
+  "context": "KFF Health News, Feb 19, 2026. Nevada officials say the projection predated a 26% average individual-market rate increase and loss of enhanced subsidies. Nevada law requires 15% premium reductions over four years against a benchmark silver plan.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-243",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-243",
+  "statement": "United States of Care reported that in plan year 2026 the average gross premium for Nevada's Battle Born State Plans was approximately 4.7% lower, and non-public option marketplace plans were about 4.6% lower than they would have been without the public option.",
+  "claim": "analysis",
+  "figures": [
+   "4.7%",
+   "4.6%",
+   "2026"
+  ],
+  "source": "SRC-3239",
+  "anchor": [
+   "in plan year 2026 (the first plan year in which Nevada’s public option was available), the average total (gross) premium for Battle Born State Plans was approximately 4.7% lower",
+   "non-public option Marketplace plans – which are about 4.6% lower in 2026 than they would have been without the public option"
+  ],
+  "locator": "Improving Premium Affordability",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-09-01",
+  "context": "United States of Care issue brief (an advocacy group favoring public options), September 2026; counterfactual claim of 4.6% is an estimate whose method was not checked. Same brief says Colorado Option plans save $14 to $33 per month in 2026.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-242",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-244",
+  "statement": "Vermont's Green Mountain Care financing report, submitted by Governor Shumlin on December 30, 2014, estimated an 11.5 percent payroll tax on employers plus an income-based public premium rising to 9.5 percent of income, capped at $27,500, to replace private premiums.",
+  "claim": "analysis",
+  "figures": [
+   "11.5 percent",
+   "9.5 percent",
+   "$27,500",
+   "December 30, 2014"
+  ],
+  "source": "SRC-3240",
+  "anchor": [
+   "We estimated the payroll tax at 11.5 percent for the preferred policy choices we are including in this report. Additionally, to fully fund GMC, the highest-income Vermonters would pay 9.5 percent of income through a public premium, up to a maximum of $27,500",
+   "Submitted by Governor Peter Shumlin to the Vermont State Legislature December 30, 2014"
+  ],
+  "locator": "Executive summary and chapter on taxes",
+  "grade": "C",
+  "fact_date": "2014-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "State of Vermont report, Dec 30, 2014 (the administration of a single-payer supporter). It is the state's own financing estimate, and the governor then declined to pursue the plan. Taxes would replace employer and household premiums, so net burden is lower than the gross rates suggest; the report also did not cost the small-business transition.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-245",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-245",
+  "statement": "VTDigger reported that Governor Shumlin would not pursue single payer after modeling showed the price tag was $2.6 billion, not the $1.6 billion to $2.2 billion originally believed.",
+  "claim": "analysis",
+  "figures": [
+   "$2.6 billion",
+   "$1.6 billion to $2.2 billion"
+  ],
+  "source": "SRC-3241",
+  "anchor": "The price tag for a publicly financed universal health care system turned out to be $2.6 billion, not the $1.6 billion to $2.2 billion that Shumlin and his team originally believed.",
+  "locator": "news article",
+  "grade": "C",
+  "fact_date": "2014-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "VTDigger news report, Dec 17, 2014. Journalistic account of a government announcement; the $2.6 billion is the administration's figure. Vermont is a small state with a 94% actuarial value benefit and limited ability to raise tax without cross-border effects.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-244",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-246",
+  "statement": "Healthcare Finance News reported that the Green Mountain Care Board considered the \"hundreds of millions of dollars\" in predicted administrative savings \"not practical to achieve\" and that expected federal waiver funding was now less than half of the $267 million first expected.",
+  "claim": "analysis",
+  "figures": [
+   "hundreds of millions of dollars",
+   "$267 million"
+  ],
+  "source": "SRC-3242",
+  "anchor": [
+   "The \"hundreds of millions of dollars\" in administrative savings that were predicted are now considered by the Green Mountain Care Board \"not practical to achieve.\"",
+   "less than half of the $267 million initially expected"
+  ],
+  "locator": "news article",
+  "grade": "C",
+  "fact_date": "2014-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Healthcare Finance News (trade publication), December 18, 2014. Shows what went wrong in Vermont: admin savings and federal funding came in below assumption. Supporters of single payer say Vermont could not use federal Medicare and ERISA dollars and was too small.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-244",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-247",
+  "statement": "California's Senate Appropriations staff estimated SB 562 (2017) would cost about $400 billion per year, with about $200 billion in existing funding and about $200 billion in new tax revenue needed, roughly a 15% payroll tax if raised that way.",
+  "claim": "analysis",
+  "figures": [
+   "$400 billion",
+   "$200 billion",
+   "15%",
+   "2017"
+  ],
+  "source": "SRC-3243",
+  "anchor": [
+   "SB 562 would create a universal, single-payer health care system in California.",
+   "Version: April 17, 2017",
+   "Total annual costs of about $400 billion per year, including all covered health care services and administrative costs, at full enrollment.",
+   "About $200 billion in additional tax revenues would be needed to pay for the remainder of the total program cost. Assuming that this cost was raised through a new payroll tax (with no cap on wages subject to the tax), the additional payroll tax rate would be about 15% of earned income."
+  ],
+  "locator": "Fiscal Impact",
+  "grade": "C",
+  "fact_date": "2017-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Senate Appropriations Committee staff fiscal summary, May 22, 2017, for SB 562 by Senator Lara. It warns estimates are \"subject to enormous uncertainty\" and notes employers and employees already spend $100 to $150 billion on coverage, so new spending would be $50 to $100 billion. PERI's competing estimate was $331 billion.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-248",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-248",
+  "statement": "CHBRP reported that PERI estimated SB 562 would cost $331 billion as of 2017 and cut overall costs by about 18%, versus the Senate Appropriations Committee's estimate of about $400 billion.",
+  "claim": "analysis",
+  "figures": [
+   "$331 billion",
+   "2017",
+   "18%",
+   "$400 billion"
+  ],
+  "source": "SRC-3244",
+  "anchor": [
+   "The Senate Committee on Appropriations analysis predicted total annual costs of about $400 billion per year",
+   "The authors (Pollin, et al., 2017) estimated that through implementation of Healthy California (SB 562), overall costs of providing full health care coverage to all Californians could fall by about 18% relative to spending levels under the existing system.",
+   "PERI, on the other hand, estimated, \"The overall annual costs of this single-payer system for California would be $331 billion as of 2017,\""
+  ],
+  "locator": "Abbreviated Analysis, Policy Context",
+  "grade": "C",
+  "fact_date": "2021-04",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "California Health Benefits Review Program (University of California, legislature-mandated), April 2021; reports both estimates. PERI authors favor single payer; Appropriations staff are nonpartisan. The two differ in how much spending on administration, drug prices and provider fees falls.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-247",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-249",
+  "statement": "AB 1400, California's single-payer bill, died in January 2022 without a floor vote after its author concluded it lacked the votes; it did not say how the system would be paid for, and an analysis estimated California would spend about $517 billion on health care in 2022.",
+  "claim": "analysis",
+  "figures": [
+   "$517 billion",
+   "2022"
+  ],
+  "source": "SRC-3245",
+  "anchor": [
+   "It became clear that we did not have the votes necessary for passage, and I decided the best course of action is to not put AB 1400 for a vote today,",
+   "California is on pace to spend about $517 billion on health care in 2022, according to an analysis by a commission established by Gov. Gavin Newsom to study universal health care."
+  ],
+  "locator": "news article",
+  "grade": "C",
+  "fact_date": "2022-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Associated Press story on NPR, Jan 31, 2022. Reports business and insurance industry pressure and that debate was dominated by cost. The $517 billion is from the Healthy California for All Commission.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-250",
+  "statement": "Uwe Reinhardt wrote in the BMJ that overnight health insurance coverage in Taiwan jumped from roughly 57% of the population before 1 March 1995 to virtually the entire population, and that the insurance bureau's administrative budget was 1.5% of total spending.",
+  "claim": "analysis",
+  "figures": [
+   "57%",
+   "1 March 1995",
+   "1.5%"
+  ],
+  "source": "SRC-3246",
+  "anchor": [
+   "Overnight, health insurance coverage in Taiwan jumped from roughly 57% of the population before 1 March 1995 to virtually the entire population.",
+   "the Bureau of National Health Insurance, which now accounts for only an inadequate 1.5% of total spending on the health insurance system"
+  ],
+  "locator": "text",
+  "grade": "C",
+  "fact_date": "2008",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "BMJ, Jan 2008, by Uwe Reinhardt (Princeton economist, a single-payer sympathizer). It also finds Taiwan underfunds its system by perhaps 1-2% of GDP; see the next entry. Taiwan's system is a mostly tax-and-premium financed model with a small, rich-by-assumption administrative budget.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-252",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-251",
+  "statement": "The same BMJ article said Taiwan could much improve its health system by allocating an additional 1-2% of GDP to health care and that patients' own spending was still higher than in most European nations.",
+  "claim": "analysis",
+  "figures": [
+   "1-2%"
+  ],
+  "source": "SRC-3246",
+  "anchor": [
+   "Taiwan could much improve its health system by allocating an additional, say, 1-2% of its gross domestic product to health care.",
+   "Some of the additional funds could be used to reduce patients' own spending, which is still higher than that in most European nations."
+  ],
+  "locator": "text",
+  "grade": "C",
+  "fact_date": "2008",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Same source as above; a qualification from a supporter. Low administrative cost and low spending are partly a result of tight global budgets and underfunding.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-252",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-252",
+  "statement": "Cheng wrote that by the end of 1995, 90 percent of Taiwan's then 21 million residents were enrolled, and that NHI administrative cost was 0.87 percent of total NHI expenditure in 2018.",
+  "claim": "analysis",
+  "figures": [
+   "90 percent",
+   "21 million",
+   "1995",
+   "0.87 percent",
+   "2018"
+  ],
+  "source": "SRC-3247",
+  "anchor": [
+   "by the end of 1995, 90 percent of Taiwan’s then 21 million residents were enrolled.",
+   "NHI’s administrative cost accounted for 0.87 percent of the total NHI expenditure in 2018."
+  ],
+  "locator": "article text",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Milken Institute Review, May 2020, by Tsung-mei Cheng (who favors the Taiwan model). Administrative share uses NHI expenditure as denominator; compare Reinhardt's 1.5% and the journal overview's \"under 2%\".",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-250",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-253",
+  "statement": "The Fraser Institute's 2024 survey found physicians reported a median wait of 30.0 weeks from GP referral to treatment in Canada, up from 27.7 weeks in 2023, based on 1,973 responses and a 17.0% response rate.",
+  "claim": "analysis",
+  "figures": [
+   "30.0 weeks",
+   "27.7",
+   "1,973",
+   "17.0%",
+   "2024"
+  ],
+  "source": "SRC-3248",
+  "anchor": [
+   "In 2024, physicians across Canada reported a median wait time of 30.0 weeks between a referral from a GP and receipt of treatment. Up from 27.7 in 2023.",
+   "A total of 1,973 responses were received across the 12 specialties surveyed—a response rate of 17.0%."
+  ],
+  "locator": "key findings; methodology",
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-12-01",
+  "context": "Fraser Institute, December 2024 (market-oriented think tank, critic of Canada's single-payer model). The survey takes the median of specialist physicians' self-reported waits for elective care; the report itself warns of low responses in some provinces. Government data (CIHI) measure benchmark attainment instead.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-254",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-254",
+  "statement": "CIHI reported that in 2024, 68% of hip replacements and 61% of knee replacements in Canada were done within the recommended 6 months and 69% of cataract surgeries within 112 days, all below 2019 levels for hip and knee.",
+  "claim": "data",
+  "figures": [
+   "68%",
+   "61%",
+   "69%",
+   "2024",
+   "2019"
+  ],
+  "source": "SRC-3249",
+  "anchor": "In 2024, compared with previous years, more patients across Canada received hip (68%) and knee (61%) replacements within the recommended 6 months and cataract surgeries (69%) within the recommended 112 days. However, for hip and knee replacements, these percentages remain below 2019 (pre–COVID-19 pandemic) levels.",
+  "locator": "Key findings",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Canadian Institute for Health Information, June 12, 2025; official data from provincial systems, with differing provincial reporting definitions. Shows long waits for some elective procedures in a single-payer system, but also 26% more hip replacements than in 2019.",
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-255",
+  "statement": "The Commonwealth Fund reported that Switzerland (since 1996) and the Netherlands (since 2006) reach universal coverage through an individual mandate to buy private basic insurance, with uninsured rates of about 1.5 percent and below 1 percent, about 40 percent of residents receiving premium assistance, and risk equalization among insurers.",
+  "claim": "analysis",
+  "figures": [
+   "1996",
+   "2006",
+   "1.5 percent",
+   "1 percent",
+   "40 percent"
+  ],
+  "source": "SRC-3250",
+  "anchor": [
+   "the individual mandate in the Netherlands took effect in 2006",
+   "uninsured rates are low (estimated at about 1.5 percent of the population in the Netherlands and below 1 percent in Switzerland)",
+   "Both countries subsidize premiums for low-income households, with about 40 percent receiving such premium assistance.",
+   "The Swiss have operated with a mandate since 1996."
+  ],
+  "locator": "Executive summary",
+  "grade": "C",
+  "fact_date": "2009",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Commonwealth Fund report, 2009 (a foundation favoring universal coverage); data are 15 years old and both systems have since changed. Both require open enrollment, community rating and risk equalization, which a U.S. market-based reform would also need.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-125",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-256",
+  "statement": "The Commonwealth Fund's Germany profile reported that health insurance has been mandatory since 2007, about 86 percent of the population is in statutory competing nonprofit sickness funds, funds are paid by a risk-adjusted capitation formula, and higher earners can opt out to private insurance.",
+  "claim": "analysis",
+  "figures": [
+   "2007",
+   "86 percent",
+   "80 chronic and serious illnesses"
+  ],
+  "source": "SRC-3251",
+  "anchor": [
+   "Approximately 86 percent of the population is en-rolled in statutory health insurance",
+   "A risk-adjusted capitation formula is used, accounting for age, sex, and morbidity from 80 chronic and serious illnesses.",
+   "The final step toward universal health coverage occurred in 2007"
+  ],
+  "locator": "Overview; Financing",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Commonwealth Fund International Health Care System Profiles (2020 edition; figures c. 2019). Germany combines mandate, regulated competing funds, a central health fund and an opt-out for higher earners; the page text has a hyphenation artifact \"en-rolled\".",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-125",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-257",
+  "statement": "The Commonwealth Fund reported that Australia's Medicare covers 100% of the population, that about half of Australians also buy private supplementary insurance, and that the government pays a rebate toward premiums and charges a tax penalty on higher-income households that do not purchase private insurance.",
+  "claim": "analysis",
+  "figures": [
+   "100%"
+  ],
+  "source": "SRC-3252",
+  "anchor": [
+   "Approximately half of Australians buy private supplementary insurance to pay for private hospital care, dental services, and other services. The federal government pays a rebate toward this premium and also charges a tax penalty on higher-income households that do not take up private insurance.",
+   "Public coverage: 100%"
+  ],
+  "locator": "Health System Overview: Australia",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Commonwealth Fund overview, December 2020; the 46% (private hospital) and 55% (general treatment) figures appear in the same page. A newer 2026 Commonwealth Fund Australia page exists that was read only in part (it lists 55% private insurance coverage).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-125",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-258",
+  "statement": "The Commonwealth Fund's Mirror, Mirror 2024 ranked Australia, the Netherlands and the United Kingdom as the top three of 10 countries and the United States last overall, while the U.S. ranked second on care process.",
+  "claim": "analysis",
+  "figures": [
+   "10",
+   "2024"
+  ],
+  "source": "SRC-3253",
+  "anchor": [
+   "Goal: Compare health system performance in 10 countries, including the United States",
+   "The United States ranks last overall (Exhibits 1 and 2). The three top-performing countries in 2024 are Australia, the Netherlands, and the United Kingdom.",
+   "even the U.S., with the lowest-ranked health system, ranks second in the care process domain."
+  ],
+  "locator": "Key findings",
+  "grade": "C",
+  "fact_date": "2024-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Commonwealth Fund, Sept 2024 (70 measures, five domains, 10 countries). The report cautions that differences between most countries are small and every country has weaknesses. The Fund advocates coverage expansion. Top-three include a multi-payer system (Netherlands), a tax-financed public system (UK) and a hybrid (Australia), so the ranking does not favor one design.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-130",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-259",
+  "statement": "CMS's evaluation of the Maryland All-Payer Model (2014-2018) found total Medicare expenditures declined by 2.8% and hospital expenditures by 4.1%, driven by a 17.2% reduction in outpatient department expenditures, and commercial hospital expenditure growth was 6.1% slower.",
+  "claim": "analysis",
+  "figures": [
+   "2.8%",
+   "4.1%",
+   "17.2%",
+   "6.1%",
+   "2014-2018"
+  ],
+  "source": "SRC-3206",
+  "anchor": [
+   "Final Evaluation Report (2014-2018)",
+   "Total Medicare expenditures\ndeclined by 2.8% and hospital\nexpenditures declined by 4.1%",
+   "A 17.2% reduction in outpatient",
+   "Commercial insurance had 6.1% slower growth in total hospital"
+  ],
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CMS Innovation Center summary of an independent RTI evaluation (publication year approximate). CMS also reports that growth in total commercial expenditures did not slow. Maryland sets uniform all-payer hospital rates and a global budget, which resembles the price-setting part of any single-payer or public option design.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-262",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-260",
+  "statement": "CMS reported that the Maryland Total Cost of Care Model reduced Medicare fee-for-service spending by 2.1% and hospital admissions by 16.2% during 2019–2022, reduced total Medicare spending by $689 million from 2019 to 2021, and that its primary care program cost CMS about $96 million annually without significant offsetting savings.",
+  "claim": "analysis",
+  "figures": [
+   "2.1%",
+   "16.2%",
+   "$689 million",
+   "$96 million",
+   "2019",
+   "2021"
+  ],
+  "source": "SRC-3208",
+  "anchor": [
+   "Evaluation of the First Four Years (2019–2022)",
+   "During the MD TCOC period, the model reduced Medicare fee-for-service spending by 2.1%, reduced hospital\nadmissions by 16.2%, and reduced disparities in several quality measures. From 2019 to 2021, the model reduced\ntotal Medicare spending—including non-claims payments—by $689 million.",
+   "MDPCP cost CMS about $96 million"
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CMS Innovation Center summary of Mathematica evaluation, 2024; effects of all changes since 2014 combined, and the summary notes effects on total spending have gotten smaller since 2019. Savings accrue to Medicare, not to commercial payers.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-262",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-261",
+  "statement": "CMS noted that Maryland committed to $2 billion in Medicare savings over 8 years under its Total Cost of Care Model, and that the model increased non-hospital spending substantially in 2021, lessening total Medicare savings that year.",
+  "claim": "analysis",
+  "figures": [
+   "$2 billion",
+   "8 years",
+   "2021"
+  ],
+  "source": "SRC-3207",
+  "anchor": [
+   "committing to $2 billion in\nMedicare savings over 8 years",
+   "However, the Model increased non-hospital spending substantially in 2021, lessening overall Medicare\nsavings that year."
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CMS Innovation Center summary of Mathematica's three-year evaluation, 2022. Cuts hospital spending but total savings can be eroded as spending shifts outside the hospital global budget.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-262",
+  "statement": "A Health Affairs difference-in-differences study estimated that Oregon's October 2019 hospital payment cap for its state employee plan saved $107.5 million (4 percent of plan spending) in the first two years, though inpatient facility prices fell significantly only in the second year.",
+  "claim": "analysis",
+  "figures": [
+   "$107.5 million",
+   "4 percent",
+   "October 2019",
+   "−$2,774.20"
+  ],
+  "source": "SRC-3254",
+  "anchor": [
+   "We estimated $107.5 million (or 4 percent of total plan spending) in savings to the state employee plan during the first two years.",
+   "In October 2019, the Oregon state employee health insurance plan instituted a cap on hospital payments.",
+   "was associated with a significant reduction in the second year after implementation (−$2,774.20)"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2024-03",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Murray, Brown, Miller, Norton and Ryan, Health Affairs, March 2024; peer reviewed, Oregon All Payer All Claims 2014-21. The cap is 200% of Medicare in network; the study finds no significant inpatient price reduction across the whole post period.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-265",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-263",
+  "statement": "Health Affairs commentary reported that Oregon's cap at 200 percent of Medicare saves the state around $50 million annually, all 24 network hospitals stayed in network, and the policy did not raise prices in the non-state employee commercial market; Washington has since become the second state to adopt a similar cap.",
+  "claim": "analysis",
+  "figures": [
+   "200 percent",
+   "$50 million",
+   "24"
+  ],
+  "source": "SRC-3256",
+  "anchor": [
+   "cap the amount that the state’s employee health plan would pay hospitals at 200 percent of Medicare rates for in-network services and 185 percent for out-of-network services.",
+   "saving the state of Oregon around $50 million annually since its implementation. To date, all 24 hospitals that were in the plan’s network prior to the policy have remained in-network",
+   "This policy did not lead to higher prices among the non-state employee commercial market.",
+   "the State of Washington joined Oregon to become the second state to adopt an across-the-board cap on hospital payments"
+  ],
+  "locator": "article text",
+  "grade": "C",
+  "fact_date": "2025-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Health Affairs Forefront commentary (Hostert), Oct 2025; not peer reviewed, summarizing studies. Policy is a cap for state employee plans only, not all-payer.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-265",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-264",
+  "statement": "A Health Affairs simulation estimated that payment caps at 200 percent of Medicare would have saved state employee plans an average of $150.2 million per state in 2022 ($7.1 billion nationally) while commercial hospital operating margins would fall from an average of 42.7 percent to 41.7 percent.",
+  "claim": "analysis",
+  "figures": [
+   "200 percent",
+   "$150.2 million",
+   "2022",
+   "$7.1 billion",
+   "42.7 percent",
+   "41.7 percent"
+  ],
+  "source": "SRC-3255",
+  "anchor": "payment caps set at 200 percent of Medicare rates would have saved state employee plans an average of $150.2 million per state in 2022 (0.35 percent of state expenditures), leading to aggregate savings of $7.1 billion nationally. Commercial hospital operating margins would remain healthy under this cap, falling from an average of 42.7 percent to 41.7 percent.",
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2024-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Murray, Whaley, Fuse Brown and Ryan, Health Affairs, December 2024; simulation of caps, not observed outcomes; hospital operating margins include non-patient revenue; hospital associations dispute that margin metric.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-265",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-265",
+  "statement": "An independent analysis for NASHP estimated that Montana's state employee plan saved $47.8 million on hospital services from state fiscal year 2017 to 2019 by moving to reference-based pricing at 220-225 percent of Medicare for inpatient and 230-250 percent for outpatient services, with no evidence of hospital closures.",
+  "claim": "analysis",
+  "figures": [
+   "$47.8 million",
+   "2017",
+   "2019",
+   "220 to 225 percent",
+   "230 to 250 percent"
+  ],
+  "source": "SRC-3257",
+  "anchor": [
+   "the shift to reimbursing hospitals as a multiple of Medicare rates generated as much as $47.8 million in inpatient and outpatient savings for the plan from state fiscal year (SFY) 2017 to SFY 2019.",
+   "the health plan established a range of 220 to 225 percent and 230 to 250 percent for inpatient and outpatient hospital services, respectively.",
+   "there was no evidence of hospital closure or induced utilization to offset lower rates."
+  ],
+  "locator": "Background and findings",
+  "grade": "C",
+  "fact_date": "2021-04",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "NASHP, April 2021, analysis by Optumas, counterfactual built from historic cost-to-charge ratios, so modeled; the statement about no closures comes from state plan reports. Before the policy the plan paid 191 to 322 percent of Medicare for inpatient care.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-262",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-266",
+  "statement": "MedPAC estimated that in 2025 Medicare will spend 20 percent more for Medicare Advantage enrollees than if they were in fee-for-service, about $84 billion, of which about $40 billion is coding intensity and $44 billion favorable selection.",
+  "claim": "analysis",
+  "figures": [
+   "20 percent",
+   "$84 billion",
+   "$40 billion",
+   "$44 billion",
+   "2025"
+  ],
+  "source": "SRC-3209",
+  "anchor": [
+   "In 2025, we estimate that Medicare will spend 20 percent more for MA",
+   "under FFS Medicare, or $44 billion of the $84 billion in higher total payments",
+   "projected $40 billion of the $84 billion in higher total payments to MA plans."
+  ],
+  "grade": "C",
+  "fact_date": "2025-03",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "MedPAC, March 2025 report to Congress (independent congressional advisory commission). MedPAC says the extra payments fund supplemental benefits and are not an estimate of plan profit. Insurers contest its method (AHIP, Better Medicare Alliance). Relevance: shows how a public/private payment design leaks money.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-267",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-135",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1-problem.md",
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-267",
+  "statement": "AHIP, the health insurers' trade association, published an article in May 2025 titled \"CMS Effectively Rebuts MedPAC Estimates on Coding Intensity in Medicare Advantage\" and restated that MedPAC measured coding intensity at about 16% above comparable fee-for-service beneficiaries in its March 2025 report.",
+  "claim": "analysis",
+  "figures": [
+   "16%",
+   "2025"
+  ],
+  "source": "SRC-3258",
+  "anchor": [
+   "CMS Effectively Rebuts MedPAC Estimates on Coding Intensity in Medicare",
+   "In its March 2025 Report, MedPAC measured coding intensity in MA at about 16% above comparable FFS beneficiaries."
+  ],
+  "locator": "article headline and opening",
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "AHIP (insurer trade association; financial stake in Medicare Advantage payment), May 1, 2025. Only the headline and opening sentence were read; the CMS rebuttal itself (a second Trump administration CMS comment, 2025) was not reached.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-266",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-268",
+  "statement": "Card, Dobkin and Maestas found a nearly 1-percentage-point drop in 7-day mortality at age 65 for severely ill emergency hospital admissions, equivalent to a 20% reduction in deaths, and the gap persisted for at least 9 months.",
+  "claim": "analysis",
+  "figures": [
+   "1-percentage-point",
+   "7-day",
+   "20%",
+   "9 months",
+   "65"
+  ],
+  "source": "SRC-3259",
+  "anchor": "We estimate a nearly 1-percentage-point drop in 7-day mortality for patients at age 65, equivalent to a 20% reduction in deaths for this severely ill patient group. The mortality gap persists for at least 9 months after admission.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2009",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Card, Dobkin and Maestas, QJE 2009; California hospital discharge data linked to death records, regression discontinuity at the Medicare eligibility age. Applies to severely ill patients admitted through the emergency department; effects on healthy people not estimated. Supports the lower-age-eligibility option, though other coverage changes also occur at 65.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/care/2-what-works.md",
+   "dossiers/care/3-design.md"
+  ]
+ }
+]
