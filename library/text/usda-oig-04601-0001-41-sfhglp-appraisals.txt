@@ -1,0 +1,1129 @@
+Source: https://www.oig.usda.gov/sites/default/files/reports/2024-11/04601-0001-41.pdf
+Publisher: USDA Office of Inspector General
+Retrieved: 2026-11-09
+Original SHA-256: 1ea2575bc18fece780e8e2814274ae87879071caca62d476097c90ce289b78fa
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+United States Department of Agriculture
+
+Single Family Housing Guaranteed
+Loan Program Appraisals
+
+Audit 04601-0001-41
+June 2020
+
+OFFICE OF INSPECTOR GENERAL
+
+IMPORTANT NOTICE
+This audit report contains sensitive information that has been redacted for public release, due to privacy
+concerns.
+
+Single Family Housing Guaranteed Loan
+Program Appraisals
+Audit Report 04601-0001-41
+OIG reviewed RHS’ SFHGLP controls to determine whether it adequately ensured
+lenders’ and appraisers’ compliance with agency and USPAP requirements.
+
+OBJECTIVE
+
+Our objective was to determine
+whether RHS had adequate
+and effective controls in place to
+ensure lenders and appraisers
+complied with agency and
+USPAP requirements prior to
+guaranteeing a loan.
+
+REVIEWED
+We reviewed relevant laws,
+regulations, policies, and
+procedures; interviewed key
+personnel from the national
+and State offices and approved
+lenders; and selected and
+reviewed a non-statistical
+sample of appraisals and
+appraisal review documents for
+completeness and compliance
+with USPAP, RHS policy, and
+Federal regulations.
+
+RECOMMENDS
+We recommend that RHS
+develop and implement:
+(1) an oversight function for
+administrative appraisal
+reviews; (2) additional controls
+for pre-closing technical
+appraisal reviews; (3) a formal
+process to identify common
+deficiencies found during
+technical appraisal reviews; and
+(4) processes to communicate
+deficiencies found during
+technical appraisal reviews.
+
+WHAT OIG FOUND
+
+The Department of Agriculture’s (USDA) Single
+Family Housing Guaranteed Loan Program (SFHGLP)
+guarantees loans made by approved lenders to eligible
+applicants. SFHGLP provides low- and moderate-income
+households with an opportunity to own decent, safe, and
+sanitary dwellings in eligible rural areas by guaranteeing
+loans issued to eligible applicants through private sector
+lenders. USDA’s Rural Housing Service (RHS), an
+agency within Rural Development, administers SFHGLP
+through national, State, and local area offices. SFHGLP
+loans require no down payment and have low up-front
+costs. In fiscal years 2016–2018, SFHGLP provided
+366,619 loan guarantees valued at over $52.5 billion.
+RHS had controls in place to assess whether appraisals
+met agency and Uniform Standards of Professional
+Appraisal Practice (USPAP) requirements prior to
+guaranteeing a SFHGLP loan. However, we determined
+that additional controls were needed to enhance
+the quality of appraisals the agency receives. We
+assessed 44 administrative appraisal reviews and
+found 22 (50 percent) reviews in which administrative
+reviewers selected inaccurate or questionable responses
+for appraisal reviews and/or did not complete the
+appropriate version of the form. Additionally, we found
+that RHS issued four conditional commitments for over
+$814,000 in SFHGLP loan guarantees for properties
+that did not have SFHGLP-compliant appraisals. We
+also found that RHS did not effectively communicate
+the results of its pre-closing technical appraisal reviews
+and quality control reviews (QCRs) to help ensure RHS
+receives SFHGLP-compliant appraisal reports. As a
+result, RHS may continue to risk accepting appraisals
+that may not be suitable for the agency’s use and issuing
+conditional commitments for those properties.
+We accepted management decision on 3 of the
+5 recommendations. Further action from the agency is
+needed before management decision can be reached on
+the remaining recommendations.
+
+United States Department of Agriculture
+Office of Inspector General
+Washington, D.C. 20250
+
+DATE:
+
+June 24, 2020
+
+AUDIT
+NUMBER:
+
+04601-0001-41
+
+TO:
+
+Bruce W. Lammers
+Administrator
+Rural Housing Service
+
+ATTN:
+
+Gary Bojes
+Acting Chief Risk Officer
+Rural Development
+
+FROM:
+
+Gil H. Harden
+Assistant Inspector General for Audit
+
+SUBJECT:
+
+RHS’ Single Family Housing Guaranteed Loan Program Appraisals
+
+This report presents the results of the subject review. Your written response to the official draft
+is included in its entirety at the end of the report. We have incorporated excerpts from your
+response, and the Office of Inspector General’s (OIG) position, into the relevant sections of the
+report. Based on your written response, we are accepting management decision on
+Recommendations 3, 4, and 5. Please follow your internal agency procedures in forwarding final
+action correspondence to the Office of the Chief Financial Officer (OCFO).
+Based on your written response, management decision has not been reached on
+Recommendations 1 and 2. The information needed to reach management decision on the
+recommendations is set forth in the OIG Position section following the recommendations. In
+accordance with Departmental Regulation 1720-1, please furnish a reply within 60 days
+describing the corrective action taken or planned, and the timeframe for implementing the
+recommendations for which management decision has not been reached. Please note that the
+regulation requires management decision to be reached on all recommendations within 6 months
+from report issuance, and final action to be taken within 1 year of each management decision to
+prevent being listed in the Department’s annual Agency Financial Report. For agencies other
+than the Office of the Chief Financial Officer (OCFO), please follow your internal agency
+procedures in forwarding final action correspondence to OCFO.
+
+Bruce W. Lammers
+
+2
+
+We appreciate the courtesies and cooperation extended to us by members of your staff during our
+audit fieldwork and subsequent discussions. This report contains publicly available information
+and will be posted in its entirety to our website (http://www.usda.gov/oig) in the near future.
+
+Table of Contents
+Background and Objectives .........................................................................1
+Section 1: SFHGLP—Administrative Appraisal Reviews .............................5
+Finding 1: RHS Needs an Oversight Function Over its Administrative
+Appraisal Review Process ............................................................................5
+Recommendation 1.............................................................................7
+Section 2: SFHGLP—Technical Appraisal Reviews .....................................8
+Finding 2: RHS Needs to Strengthen Controls Over its Pre-Closing Technical
+Appraisal Review Process ............................................................................8
+Recommendation 2........................................................................... 10
+Finding 3: RHS Needs to Effectively Communicate its Technical Appraisal
+Review Results .......................................................................................... 11
+Recommendation 3........................................................................... 13
+Recommendation 4........................................................................... 13
+Recommendation 5........................................................................... 14
+Scope and Methodology............................................................................. 15
+Abbreviations ........................................................................................... 18
+Exhibit A: Summary of Monetary Results ................................................. 19
+Exhibit B: Audit Sites Visited.................................................................... 20
+Agency’s Response .................................................................................... 21
+
+Background and Objectives
+Background
+The Department of Agriculture’s (USDA) Rural Development helps improve the economy and
+quality of life in rural America by providing various financial programs. The Housing Act of
+1949, as amended, authorizes USDA to guarantee loans made by approved lenders to eligible
+applicants through the Single Family Housing Guaranteed Loan Program (SFHGLP).1 SFHGLP
+provides low- and moderate-income households with an opportunity to own decent, safe, and
+sanitary dwellings in eligible rural areas by guaranteeing loans issued to eligible applicants by
+agency-approved private sector lenders. These loans require no down payment and have low upfront costs. The program provides a 90 percent loan note guarantee to approved lenders in order
+to reduce the risk to lenders of extending 100 percent loans to eligible rural homebuyers.
+SFHGLP loan guarantees are available for new loans and refinancing existing loans. Eligible
+applicants may build, rehabilitate, improve, or relocate a dwelling in an eligible rural area.
+SFHGLP has grown from a commitment authority of approximately $3 billion in 2007 to
+$24 billion in 2018. SFHGLP provided 366,619 loan guarantees valued at over
+$52.5 billion in fiscal years (FYs) 2016–2018. The Rural Housing Service (RHS), an agency
+within Rural Development, administers SFHGLP through its national office in Washington,
+D.C., and its network of State and area offices. To qualify for a loan guarantee, approved lenders
+must ensure that each borrower is income-eligible and has the ability to repay the loan.2 Lenders
+are also responsible for acquiring property appraisals as well as originating, underwriting,
+servicing, and liquidating the loans. RHS staff are responsible for reviewing loan applications,
+including property appraisals, to verify that the proposed loan guarantees made to lenders for
+eligible borrowers meet agency requirements.
+Approved lenders must ensure appraisals are completed by a qualified and competent appraiser
+that is independent, objective, and licensed or certified, as appropriate, in the State in which the
+property is located.3 In addition, lenders are responsible for examining all appraisals for
+integrity, accuracy, and thoroughness, prior to submission of a complete loan application
+package to RHS.4 A high quality appraisal that is completed by a qualified, independent, and
+objective appraiser is key to ensuring adequate security for the proposed loan. The appraiser
+must complete appraisals that comply with the current edition of the Uniform Standards of
+Professional Appraisal Practice (USPAP), including its reporting requirements, to the agency.5
+1
+
+Section 502(h) of Housing Act of 1949, Pub. L. No. 81-171, 63 Stat., as amended by the Cranston-Gonzalez
+National Affordable Housing Act, Pub. L. No. 101-625, 104 Stat. 4085.
+2
+At the time of loan approval, the household’s adjusted income must not exceed the applicable moderate income
+limit, which is the greater of: (1) 115 percent of the U.S median family income ; (2) the average of the State-wide
+and State non-metro median family income; or (3) 115/80ths of the area low-income limit adjusted for household
+size for the county or Metropolitan Statistical Area (MSA) where the property is, or will be, located.
+3
+USDA-Rural Development, HB-1-3555 SFH Guaranteed Loan Program Technical Handbook, § 12.5,
+“Residential Appraisal Reports” (March 2016).
+4
+USDA-Rural Development, HB-1-3555 SFH Guaranteed Loan Program Technical Handbook, § 12.5,
+“Residential Appraisal Reports” (March 2016).
+5
+Ibid.
+AUDIT REPORT 04601-0001-41
+
+1
+
+The purpose of USPAP is to promote and maintain a high level of public trust in appraisal
+practices by establishing requirements for appraisers to follow. USPAP contains a set of
+standards related to appraisal development, reporting, and review.6
+To assess whether RHS receives acceptable appraisals from approved lenders, the agency
+conducts administrative appraisal reviews and, if warranted, technical appraisal reviews. These
+internal control methods assist RHS with verifying the acceptability and credibility of the
+property’s appraisal.
+Administrative Appraisal Reviews
+RHS performs an administrative appraisal review on all submitted appraisals prior to the
+issuance of a conditional commitment to the lender.7 RHS administrative appraisal
+reviews are conducted by in-house RHS staff (“administrative reviewers”).
+Administrative reviewers document their opinions and conclusions for each submitted
+appraisal via Rural Development 1922-15 form entitled Administrative Appraisal Review.
+An administrative reviewer determines if there are inconsistencies in the appraisal report
+that need to be addressed or if a technical appraisal review should be completed. If there
+is a deficiency with regard to an appraisal, the administrative reviewer is required to
+communicate the deficiency to the lender. These deficiencies should include any item
+that may affect loan security, value conclusions, or unacceptable property conditions.8
+Technical Appraisal Reviews
+RHS conducts two types of technical appraisal reviews: pre-closing technical appraisal
+reviews and technical appraisal quality control reviews (QCRs).9 Both types of reviews
+are conducted by regional agency appraisers who are required to follow current USPAP
+standards. These appraisers are licensed appraisers employed by Rural Development
+who have met the required qualifications in education, training, and experience to
+estimate the value of property.10
+
+6
+
+Appraisal Standards Board, Uniform Standards of Professional Appraisal Practice (2016-2017 edition and 2018–
+2019 edition).
+7
+A SFHGLP conditional commitment is an agreement that a proposed loan will be guaranteed if all conditions and
+requirements established by Rural Development are met.
+8
+Loan security is the collateral, such as the subject property, that can be used as payment to the lender if the
+borrower does not pay back the loan. The value conclusion is the appraiser’s opinion of the value of the subject
+property. Unacceptable property conditions include those conditions that do not meet agency guidelines, including
+ensuring the property is in a properly designated rural area and that the property does not include buildings that are
+designed principally to be income-producing.
+9
+For the purposes of this report, a pre-closing technical appraisal review is a technical appraisal review conducted
+by RHS prior to the agency issuance of a conditional commitment to guarantee the property being appraised.
+10
+USDA-Rural Development, HB-1-3555 SFH Guaranteed Loan Program Technical Handbook, § 12.5,
+“Residential Appraisal Reports” (March 2016).
+
+2
+
+AUDIT REPORT 04601-0001-41
+
+Pre-closing Technical Appraisal Reviews
+At the request of an administrative reviewer or other RHS staff, RHS performs a
+pre-closing technical appraisal review for either of the following reasons:
+(1) when the administrative reviewer identifies an appraisal-related concern or
+issue during the administrative appraisal review process, or (2) when any
+deficiency identified in the administrative appraisal review cannot or will not be
+addressed by the submitting lender. Technical appraisal reviews are in-depth
+reviews of whether an appraisal report is complete, the methods and techniques
+used were appropriate, and the conclusions in the appraisal were supported and
+credible.
+In each pre-closing technical review, a regional agency appraiser determines if
+there is any deficiency in the appraisal report that may affect the appraisal’s
+compliance with USPAP and/or agency requirements. Additionally, a regional
+agency appraiser is to determine whether this deficiency might affect the
+appraisal’s stated property value. Regional agency appraisers document their
+conclusions in an Appraisal Review Report.11 If a regional agency appraiser
+determines an appraisal is not adequate, the lender is informed of needed
+corrections prior to RHS’ issuance of the conditional commitment for loan
+guarantee. Once informed, the lender is required to correct or complete any
+appraisal returned by the agency for corrective action. The lender is responsible
+for communicating and initiating corrective action with the appraiser hired by the
+lender.
+Technical Appraisal Quality Control Reviews
+In addition to pre-closing technical appraisal reviews, RHS routinely conducts
+quality control reviews (QCR) of selected appraisals. QCRs are technical
+appraisal reviews completed by regional agency appraisers and these reviews
+occur after loans have been closed and subsequently guaranteed by the agency.
+Specifically, similar to a pre-closing technical appraisal review, a QCR
+determines whether:
+(1) the appraisal was complete based on agency requirements;
+(2) the content, analysis, and conclusions in the report were in compliance with
+USPAP and agency requirements;
+(3) the methods and techniques used in the appraisal were appropriate;
+(4) the opinions and conclusions in the appraisal were supported, credible, and
+clearly reasoned; and
+(5) the appraisal was acceptable for use by the agency.
+Appraisals chosen for QCRs are randomly selected from RHS’ approved
+obligated loans from the prior month. During our scope period, the applicable
+11
+
+The Appraisal Review Report was developed by RHS in August 2015 to document the results of its technical
+appraisal reviews.
+AUDIT REPORT 04601-0001-41
+
+3
+
+version of the RHS handbook required the agency to conduct QCRs on a
+minimum of 5 percent of its approved obligated loans.12 This 5 percent threshold
+was selected to achieve a representative sample of lenders and appraisers. QCRs
+provide a method of internal control to ensure RHS receives appraisals that are in
+compliance with USPAP and agency requirements.
+
+Objective
+Our objective was to determine whether RHS had adequate and effective controls in place to
+ensure lenders and appraisers complied with agency and USPAP requirements prior to
+guaranteeing a loan.
+
+12
+
+USDA-Rural Development, HB-1-3555 SFH Guaranteed Loan Program Technical Handbook, § 12.5,
+“Residential Appraisal Reports” (March 2016).
+
+4
+
+AUDIT REPORT 04601-0001-41
+
+Section 1: SFHGLP—Administrative Appraisal Reviews
+Finding 1: RHS Needs an Oversight Function Over its Administrative
+Appraisal Review Process
+We found that RHS did not monitor the quality of its administrative appraisal reviews to detect
+inconsistencies. Specifically, 22 of the 4413 (50 percent) administrative appraisal reviews we
+assessed had instances where administrative reviewers selected inaccurate or questionable
+responses on the administrative appraisal review form and/or did not complete the appropriate
+version of the form.14 These discrepancies were not identified because RHS did not have an
+oversight function to review the quality and accuracy of its administrative appraisal reviews. As
+a result, the agency risks accepting SFHGLP appraisals that are not in compliance with agency
+requirements. Implementing an oversight function could reduce this risk and ensure RHS
+monitors the effectiveness of its administrative appraisal review process.
+RHS guidance requires the agency to complete an administrative appraisal review form for all
+appraisals submitted to SFHGLP.15 According to USDA’s regulation on internal controls for all
+programs, all managers directing or controlling resources are responsible for establishing,
+maintaining, evaluating, improving, and reporting on controls for their assigned areas.16
+To determine the acceptability of an appraisal for SFHGLP and ensure compliance with agency
+requirements, administrative reviewers conduct administrative appraisal reviews on all appraisals
+associated with SFHGLP applications. Administrative reviewers document their analysis of each
+appraisal report by selecting corresponding responses on the administrative appraisal review
+form. The review form consists of appraisal related questions, such as the following:
+·
+·
+·
+·
+
+Does the appraisal report correctly identify and describe the subject property?17
+Was the sales history of the subject property reported?
+Did the appraisal include three comparable properties that sold within the last
+12 months?
+Do the comparable properties appear to be similar to the property being appraised and
+are from the same or lik e market?
+
+In our review of 44 SFHGLP administrative appraisal reviews conducted by
+State offices,
+we found instances where administrative reviewers provided responses that were inaccurate,
+questionable, and/or incomplete as a result of using the wrong administrative appraisal review
+form. For example, we found the following:
+13
+
+The applicable State office visited could not locate the administrative appraisal review completed for 1 of the
+45 sample appraisals we selected. Therefore, we did not assess the responses associated with that administrative
+appraisal review.
+14
+The administrative reviewers completed the 2010 version (revised May 2010) of the form instead of the required
+2017 version (effective August 2017).
+15
+USDA-Rural Development, HB-1-3555 SFH Guaranteed Loan Program Technical Handbook, § 12.5,
+“Residential Appraisal Reports” (March 2016).
+16
+USDA Departmental Regulation 1110-002, Management’s Responsibility for Internal Control (June 2013).
+17
+“Subject property” refers to the property being appraised.
+AUDIT REPORT 04601-0001-41
+
+5
+
+(1) For almost 32 percent of the administrative appraisal reviews,18 administrative reviewers
+did not use the most current version of the administrative appraisal review form.19
+Consequently, these administrative reviewers did not provide additional appraisal-related
+information that was required in the updated form, such as whether certain adjustments20
+in the appraisal report were documented, supported, and explained. Adjustment
+explanations and support assist the reviewer in understanding the rationale for the
+adjustment and method used to calculate the adjustment amount.
+
+(2) Approximately 67 percent of applicable21 administrative appraisal review forms
+contained inaccurate and/or questionable responses related to (1) whether comparable
+sales concession22 adjustments, or lack of adjustments, were supported by analysis within
+the appraisal report; or (2) if adjustments were made when the appraiser indicated that
+concessions were not common.
+For example, in two appraisal reviews, the administrative reviewer selected “not
+applicable” regarding sales concession adjustments; however, we found evidence that the
+appraisal reports included comparable sales concessions with associated explanations for
+adjustments or lack of adjustments. Sales concession adjustments can impact the sales
+price of comparable properties, ultimately impacting the appraised subject property value.
+A lack of oversight for RHS’ administrative appraisal review process affected the agency’s
+ability to identify the issues we found in our review. During our scope period, the agency relied
+on periodic administrative appraisal review training to ensure the accuracy and quality of its
+18
+
+We identified this issue with approximately 32 percent (14 of the 44) administrative appraisal reviews we assessed
+for this audit.
+19
+During our scope period, FYs 2016–2018, RHS updated its administrative appraisal review form in June 2017,
+effective August 2017.
+20
+An appraiser develops a value indication for a property by comparing the subject property with similar properties,
+called comparable sales. The sale prices of the co mparable properties indicate a range in which the subject property
+value indication will fall. The appraiser applies dollar adjustments to the sale price of each comparable property for
+price-influencing dissimilarities between the comparable and the subject property to derive the range. Through this
+procedure, the appraiser arrives at an opinion of value.
+21
+Based on information in the associated appraisals, the sales’ concession question was applicable to 12 of the
+44 administrative appraisal review forms we assessed. We determined that 8 of these 12 administrative appraisal
+review forms contained inaccurate and/or questionable responses.
+22
+A sales concession is a cash or noncash contribution that is provided by the seller, or other third party, to th e
+transaction and subsequently reduces the purchaser’s cost to acquire the property. In developing an opinion of value
+for a property, an appraiser must take into consideration the effect of any sales concessions on the value of that
+property.
+
+6
+
+AUDIT REPORT 04601-0001-41
+
+administrative appraisal reviews. However, the agency agreed to implement oversight over its
+administrative appraisal review process. In October 2019, agency officials informed us that, as
+part of the agency’s restructuring, a quality assurance group will be established to include a
+review of administrative appraisal reviews. An oversight function could increase RHS’
+assurance that administrative reviewers accurately assess SFHGLP appraisals and accept
+appraisals that comply with agency requirements. Therefore, we recommend that RHS develop
+and implement an oversight function to periodically assess the quality and accuracy of its
+administrative appraisal reviews and establish the frequency of its oversight activities.
+
+Recommendation 1
+Develop and implement an oversight function to assess the quality and accuracy of RHS’
+administrative appraisal reviews and establish the frequency of its oversight activities.
+
+Agency Response
+In its April 24, 2020, response, RHS stated:
+The QA branch will assess the quality and accuracy of administrative appraisal reviews
+in its ongoing evaluations. The QA branch will accomplish its aim by developing an
+administrative appraisal review guide that will be used as a training tool for decision
+makers in the OPD. A SharePoint page will also be developed to track the reviews and
+gather data.
+
+OIG Position
+We do not accept management decision for this recommendation. To achieve management
+decision, RHS needs to specify the frequency in which the agency plans on conducting
+assessments of administrative appraisal reviews.
+
+AUDIT REPORT 04601-0001-41
+
+7
+
+Section 2: SFHGLP—Technical Appraisal Reviews
+Finding 2: RHS Needs to Strengthen Controls Over its Pre-Closing Technical
+Appraisal Review Process
+We found that RHS issued conditional commitments for SFHGLP loan guarantees on properties
+that did not have appraisals that met applicable regulations and program requirements.23
+Specifically, we found that RHS issued four conditional commitments, totaling over $814,000,
+for SFHGLP loan guarantees on properties without acceptable appraisals. For appraisals that
+underwent pre-closing technical reviews, this issue occurred because RHS did not have sufficient
+controls to prevent the issuance of conditional commitments for loan guarantees with unresolved
+appraisal deficiencies.24 As a result, the agency may continue to issue conditional commitments
+for loan guarantees on properties for which appraisals are not acceptable for the agency’s use.
+Furthermore, RHS may be vulnerable to potential loss claims due to appraisals that are not
+credible, supported, or clearly reasoned.
+The SFHGLP regulations require program appraisals to be conducted in accordance with
+USPAP.25 The SFHGLP Technical Handbook requires the lender to correct or complete any
+appraisal found deficient prior to the issuance of a conditional commitment for loan guarantee by
+the agency.26 The SFHGLP Technical Handbook also states, “[e]xceptions to any requirement of
+this handbook, or 7 C.F.R. Part 3555, can be approved in individual cases by the
+Administrator.”27
+In our evaluation of appraisal reviews at the RHS State offices, we found instances where preclosing technical appraisal reviews noted deficiencies with the appraisal, but administrative
+reviewers had not followed agency policy and procedures to ensure noted deficiencies were
+resolved prior to issuing the conditional commitment.
+During our appraisal and loan file review, we found the following:
+(1) In
+
+, we found two examples
+
+23
+
+The conditional commitment is issued prior to the loan note guarantee. The loan note guarantee constitutes an
+obligation supported by the full faith and credit of the United States. Ultimately, loan note guarantees were issued
+for all four conditional commitments discussed in this finding.
+24
+Our audit sample included completing analysis on 12 pre-closing technical appraisal reviews
+25
+
+7 Code Federal of Regulations (C.F.R.) § 3555.107 (d)(1).
+USDA Rural Development, HB-1-3555 SFH Guaranteed Loan Program Technical Handbook, § 12.5, “Agency
+Review” (March 2016).
+27
+USDA Rural Development, HB-1-3555 SFH Guaranteed Loan Program Technical Handbook, § 1.9, “Exception
+Authority” (March 2016).
+26
+
+8
+
+AUDIT REPORT 04601-0001-41
+
+In the second example, an administrative reviewer similarly
+
+(2) In
+
+, we found two examples
+8
+
+In the second example, the
+
+During our review of loan guarantee files and appraisals at this State, we did not find any
+documentation for these two cases indicating that an exception to program requirements
+was requested by RHS staff, or granted by the Administrator.
+
+28
+
+In one of these examples,
+
+AUDIT REPORT 04601-0001-41
+
+9
+
+Pre-closing technical appraisal reviews are critical to preserving the quality of the SFHGLP
+portfolio and any reported deficiencies should be resolved prior to the agency issuing a
+conditional commitment for loan guarantee. The agency’s completion of pre-closing technical
+appraisal reviews prior to issuance of conditional commitments for loan guarantees helps ensure
+that RHS identifies unsound appraisals prior to the extension of any financial commitment; and
+supports the reduction of agency exposure regarding higher risk loans. In conclusion, for
+appraisals that undergo pre-closing technical appraisal reviews, we recommend that RHS
+develop and implement controls to prevent the issuance of conditional commitments for loan
+guarantees prior to regional agency appraisers’ determinations that appraisals are acceptable.
+
+Recommendation 2
+Develop and implement controls for pre-closing technical appraisal reviews to prevent the
+issuance of conditional commitments for loan guarantees prior to regional agency appraisers’
+determinations that appraisals are acceptable.
+
+Agency Response
+In its April 24, 2020, response, RHS stated:
+Controls were implemented by removing loan making authority from 47 different State
+Offices and establishing the OSFHGLP. The OPD developed desk procedures designed
+to ensure that all agency guidelines are being followed when issuing conditional
+commitments and loan note guarantees. The OPD will amend its origination desk
+procedures by adding language that prohibits the issuance of conditional commitments
+prior to the resolution of an appraisal technical desk review conducted by a regional staff
+appraiser.
+
+OIG Position
+We do not accept management decision for this recommendation. Language that prohibited the
+issuance of a conditional commitment prior to the resolution of a pre-closing technical appraisal
+review was included in the USDA-Rural Development, HB-1-3555 SFH Guaranteed Loan
+Program Technical Handbook during our scope period. However, we identified four examples
+of conditional commitments that were issued by RHS despite this language. To achieve
+management decision, RHS needs to develop and implement controls that would prevent the
+issuance of conditional commitments, such as the examples we cited in the finding, prior to
+regional agency appraisers’ determinations that appraisals are acceptable.
+
+10
+
+AUDIT REPORT 04601-0001-41
+
+Finding 3: RHS Needs to Effectively Communicate its Technical Appraisal
+Review Results
+RHS did not effectively communicate the results of its pre-closing technical appraisal reviews
+and QCRs to help ensure RHS receives SFHGLP appraisal reports that comply with agency and
+USPAP requirements. This occurred because the agency had not established a formal process to:
+(1) effectively identify and communicate common deficiencies found during its pre-closing
+technical appraisal reviews and QCRs to all lenders and administrative reviewers; and (2) share
+specific QCR results with the responsible lenders and administrative reviewers. As a result,
+appraisers hired by lenders may continue to submit appraisals not acceptable for RHS’ use,
+thereby potentially impacting property value determinations.29, 30
+RHS program guidance states that technical appraisal reviewers “provide a method of internal
+control by the appraisal review staff and ensure that appraisals received are in compliance with
+USPAP and agency requirements.”31, 32
+Identification and Communication of Trends and Common Deficiencies Noted During
+Pre-closing Technical Appraisal Reviews and QCRs
+We found that RHS used an informal mechanism to compile deficiencies found during its
+QCRs, but did not similarly compile deficiencies identified during its pre-closing
+technical appraisal reviews. For example, in FY 2017, the agency developed a
+spreadsheet to document QCR results and identify common appraisal deficiencies.
+However, the agency had not established a formal process to: (1) analyze and compile the
+results of pre-closing technical appraisal reviews and QCRs; and (2) communicate
+identified trends and common deficiencies to all approved lenders and administrative
+reviewers.
+Pre-closing technical appraisal reviews and QCRs are intended to ensure that RHS
+receives appraisals that comply with USPAP and agency requirements. The compiled
+results of pre-closing technical appraisal reviews and QCRs could help the agency
+identify common deficiencies and implement actions to improve the overall quality of
+appraisals, identify deficiencies that impact property value determinations, and reduce the
+number of appraisals submitted with similar deficiencies. Agency actions could include
+periodically sharing these deficiencies with all approved lenders and administrative
+reviewers to educate them and provide an opportunity to implement corrective actions to
+prevent similar deficiencies. Therefore, we recommend that RHS develop a formal
+
+29
+
+A regional agency appraiser may deem an appraisal not acceptable due to a lack of detail, explanation, or
+completeness. For example, an appraisal could be deemed not acceptable for lack of support for adjustments to a
+subject property value.
+30
+For the purpose of this audit, the term “acceptable” appraisal means that the app raisal complied with agency
+requirements, including USPAP and other agency-specific SFHGLP regulations and policies. The term “not
+acceptable” indicates an appraisal did not comply with agency requirements.
+31
+7 C.F.R. § 3555.107 (d)(1).
+32
+USDA Rural Development, HB-1-3555 SFH Guaranteed Loan Program Technical Handbook, § 12.5, “Agency
+Review” (March 2016).
+AUDIT REPORT 04601-0001-41
+
+11
+
+process to (1) identify and communicate common deficiencies found during its technical
+appraisal reviews and (2) establish the frequency of communicating identified common
+deficiencies to all approved lenders and administrative reviewers.
+Communication of Specific QCR Results to the Responsible Lender and Administrative
+Reviewer
+RHS policy requires communicating specific pre-closing technical appraisal review
+concerns to the applicable lenders. However, we found that the agency had not
+established a process to share specific QCR results with responsible lenders and
+administrative reviewers.
+As part of a QCR, the regional agency appraisers must document, in an Appraisal Review
+Report, the deficiencies found and their reason(s) for determining that an appraisal was
+not acceptable.33 In our review of QCR results,34 we found that regional agency
+appraisers concluded that nearly 26 percent of appraisals were not acceptable for use by
+the agency.35 Regional agency appraisers deemed these appraisals not acceptable for
+various reasons, such as lack of support for large variances between actual and effective
+age for the subject property and inadequate explanations for comparable sales
+adjustments. Although deficiencies were documented during these QCRs, we found that
+RHS did not communicate specific QCR results to the responsible lenders and
+administrative reviewers following the completion of its monthly QCRs.
+In addition to sharing common deficiencies with all lenders and administrative reviewers,
+communicating specific deficiencies identified through QCRs to responsible lenders and
+administrative reviewers could be an important and beneficial mechanism for the agency.
+This information could provide lenders an opportunity to mitigate similar appraisal
+deficiencies in the future by sharing results with its hired appraisers. Additionally,
+communicating QCR results to the responsible administrative reviewers could assist them
+with identifying potential appraisal issues or concerns during their administrative
+appraisal review that warrant a referral to a regional agency appraiser for a pre-closing
+technical appraisal review.
+RHS officials acknowledged that QCR results were not communicated to lenders and/or
+administrative reviewers. To maximize the impact and utility of the QCR results, RHS
+should communicate the individual review results to the responsible lenders and
+administrative reviewers as part of the regional agency appraisers’ QCR process. To
+ensure success in this action, we recommend that (1) RHS develop and implement a
+process to share all “not acceptable” QCR results with the responsible lender and
+
+33
+
+Standard Operating Procedure, “Single Family Housing Guaranteed Loan Program (SFHGLP) Quality Control
+Appraisal Review Assignment” Revision July 2017.
+34
+During our scope period (FY 2016–FY 2018), there were 12,826 QCR results that noted a determination of either
+acceptable or not acceptable appraisals. Of the 12,826 QCRs, 3,311 were deemed not acceptable.
+35
+An appraisal may be found not acceptable by a regional agency appraiser for many different reasons, which may
+not impact the appraised value of the subject property. However, all appraisals are required to comply with agency
+requirements, regardless of whether the property’s appraised value was affected.
+
+12
+
+AUDIT REPORT 04601-0001-41
+
+administrative reviewer and (2) establish the frequency of communicating all “not
+acceptable” QCR results to the responsible lender and administrative reviewer.
+Technical appraisal reviews are a key internal control to ensure RHS receives the highest quality
+appraisals. RHS can further strengthen its technical appraisal review processes and the quality of
+appraisals it receives in the future by (1) identifying and communicating common deficiencies
+found during technical appraisal reviews, and (2) communicating all “not acceptable” QCR
+results to responsible lenders and administrative reviewers. In October 2019, agency officials
+stated that they planned to initiate actions related to the issues noted in this finding.
+
+Recommendation 3
+Develop and implement a formal process to identify common deficiencies found during preclosing technical appraisal reviews and QCRs.
+
+Agency Response
+In its April 24, 2020, response, RHS stated:
+The RD Program Support Staff Appraisal team will formalize a process to identify
+common deficiencies found during the review process for both pre-closing technical
+appraisal reviews and Quality Control Reviews. The Appraisal team will formally
+develop methods for collection of data on common deficiencies for both pre-closing and
+quality control reviews. The data collection will be shared with the QA Division and
+posted on the SharePoint page referenced in the agency’s response to recommendation 1.
+RHS provided an estimated completion date of September 30, 2020, for this action.
+
+OIG Position
+We accept management decision for this recommendation.
+
+Recommendation 4
+Develop and implement a process, including the frequency of communication, to share common
+deficiencies found during pre-closing technical appraisal reviews and QCRs with all approved
+lenders and administrative reviewers.
+
+Agency Response
+In its April 24, 2020, response, RHS stated:
+The RD Appraisal team will report quarterly the common deficiencies found during preclosing and QCR technical appraisal reviews to program leadership, supervisors of
+administrative reviewers, and all approved lenders. Report will be generated from the
+data collected in Recommendation 3.
+AUDIT REPORT 04601-0001-41
+
+13
+
+RHS provided an estimated completion date of September 30, 2020, for this action.
+
+OIG Position
+We accept management decision for this recommendation.
+
+Recommendation 5
+Develop and implement a process, including the frequency of communication, to share all “not
+acceptable” QCR results with the responsible lender and administrative reviewer.
+
+Agency Response
+In its April 24, 2020, response, RHS stated:
+The RD Appraisal team will report the deficiencies found during QCR technical appraisal
+reviews of all appraisals, found to be “Not Acceptable,” to supervisors of administrative
+reviewers and the individual approved lenders. Reporting will be completed on at least a
+monthly basis.
+RHS provided an estimated completion date of September 30, 2020, for this action.
+
+OIG Position
+We accept management decision for this recommendation.
+
+14
+
+AUDIT REPORT 04601-0001-41
+
+Scope and Methodology
+We conducted a nationwide audit of RHS’ controls over its SFHGLP appraisal and appraisal
+review process. The scope of our audit work covered all appraisals and appraisal reviews
+completed during FYs 2016–2018 for RHS’ SFHGLP. To accomplish our objectives, we
+performed fieldwork at the RHS national office, located in Washington, D.C.,
+State offices,
+and
+approved lender sites. For specific locations we visited, see Exhibit B. We performed
+our audit fieldwork from December 2018 through February 2020.
+We non-statistically selected
+the
+
+States and
+
+approved lenders for review. 36 Our selection of
+
+We selected one lender from each visited State
+primarily based on its high issuance of loan guarantees during the scope period. We used loan
+guarantee and technical appraisal information provided by RHS to non-statistically select
+appraisal reviews to review for each State.37 Specifically, we sampled 76 appraisal reviews
+primarily based on the following:38, 39
+·
+·
+·
+·
+·
+
+highest appraised subject property values;
+whether a regional agency appraiser deemed the appraisal acceptable during his/her
+QCR;
+whether a regional agency appraiser deemed the appraisal not acceptable during his/her
+QCR;
+appraisals that were administratively reviewed and referred to a regional agency appraiser
+for a pre-closing technical appraisal review; and
+technical appraisal reviews, both pre-closing and QCR, completed by the regional agency
+appraiser assigned to the State visited.
+
+The conditional commitments associated with these 76 appraisal reviews totaled approximately
+$11.6 million.
+To assess the selected appraisals and appraisal reviews, we used the USPAP and the SFHGLP
+Technical Handbooks. Specifically, we used the versions of the USPAP and the SFHGLP
+
+36
+Rural Development has 47 State offices. The
+States selected for review completed
+percent of the RHS
+SFHGLP appraisals for FY2016–FY2018.
+37
+RHS obtained this information from its SharePoint® site and the Guaranteed Loan System (GLS). RHS’
+SharePoint® site contains information related to the agency’s technical appraisal reviews and includes pre -closing
+technical appraisal review requests by SFHGLP staff as well as post-closing appraisal technical review results. The
+Guaranteed Loan System is the agency’s automated loan accounting system for RHS guaranteed rural housing loans.
+38
+We sampled 45 administrative appraisal reviews and 31 technical appraisal reviews. We analyzed 44 of
+the administrative appraisal reviews and all 31 technical appraisal reviews, including their corresponding
+documentation. Of the 45 administrative appraisal reviews selected in our sample, one of the completed
+administrative appraisal review forms could not be located. For this administrative appraisal review, we completed
+our analysis by using supporting documentation provided by RHS.
+39
+The
+State offices we visited,
+, had a total of
+appraisals completed during
+FYs 2016–2018. Those
+State offices had a total of
+technical appraisal reviews, including pre -closing
+technical appraisal reviews and QCRs, completed during FYs 2016–2018.
+
+AUDIT REPORT 04601-0001-41
+
+15
+
+Technical Handbooks that were in effect during FYs 2016–2018, the time covered by the our
+scope period.
+In developing the findings for this report, we performed the following steps and procedures:
+At RHS’ national office, we:
+·
+·
+
+·
+
+reviewed the pertinent laws, regulations, policies, and procedures related to appraisals
+and appraisal reviews;
+interviewed key personnel, including the SFH Guaranteed Loan Division director and
+senior staff appraiser, to gain an understanding of their roles and responsibilities related
+to appraisals and appraisal reviews; and
+ascertained the adequacy and effectiveness of RHS’ reviews, oversight, and monitoring
+related to appraisals and appraisal reviews.
+
+At RHS’ State offices, we:
+·
+
+·
+·
+
+interviewed key personnel at the State office, including the SFH program director and
+regional appraiser, to determine their roles and responsibilities related to appraisals and
+appraisal reviews;
+ascertained the adequacy and effectiveness of RHS’ reviews, oversight, and monitoring
+related to appraisals and appraisal reviews; and
+selected and reviewed a non-statistical sample of appraisals and appraisal review
+documents for completeness and compliance with the USPAP and RHS policy and
+regulations.
+
+At selected approved lenders, we:
+·
+·
+
+reviewed policies and procedures developed by the lender to obtain appraisals and
+appraisal reviews for an SFHGLP loan guarantee; and
+interviewed key personnel, including the chief operating officers and compliance staff, to
+understand the process for a lender to obtain an appraisal review for an SFHGLP loan
+guarantee.
+
+During the course of our audit, we did not solely rely on information from any agency
+information systems. While we conducted limited verification of information generated by the
+agency’s Guaranteed Loan System and SharePoint® site data, we make no representation
+regarding the adequacy of these systems as a whole or the information generated from them
+because evaluating the effectiveness of the information systems (or information technology
+controls) was not one of the audit objectives. We used data from these systems to nonstatistically select appraisals and appraisal reviews for review. However, we solely relied on
+documentation, not system-generated information, to support the conclusions in this report.
+We conducted this performance audit in accordance with Generally Accepted Government
+Auditing Standards. Those standards require that we plan and perform the audit to obtain
+sufficient, appropriate evidence to provide a reasonable basis for our findings and conclusions
+
+16
+
+AUDIT REPORT 04601-0001-41
+
+based on our audit objective. We believe that the evidence obtained provides a reasonable basis
+for our findings and conclusions based on our audit objective.
+
+AUDIT REPORT 04601-0001-41
+
+17
+
+Abbreviations
+C.F.R. ........................ Code of Federal Regulations
+FY ............................. fiscal year
+OIG............................ Office of Inspector General
+OMB.......................... Office of Management and Budget
+QCR .......................... quality control review
+RHS ........................... Rural Housing Service
+SFH ........................... single family housing
+SFHGLP .................... Single Family Housing Guaranteed Loan Program
+USDA ........................ U.S. Department of Agriculture
+USPAP ...................... Uniform Standards of Professional Appraisal Practice
+
+18
+
+AUDIT REPORT 04601-0001-41
+
+Exhibit A: Summary of Monetary Results
+Exhibit A summarizes the monetary results for our audit report by finding and recommendation
+number.
+
+Finding
+
+Recommendation
+
+Description
+
+Amount
+
+Category
+
+2
+
+2
+
+Value of RHS
+guaranteed
+SFHGLP loans
+issued without
+ensuring
+appraisals met
+applicable
+regulations and
+program
+requirements.40
+
+$814,604
+
+Questioned
+Costs/Loans, No
+Recovery
+
+Total Monetary Results
+
+$814,604
+
+40
+
+Loan note guarantees, which constitute an obligation supported by the full faith and credit o f the United States,
+were issued for all four conditional commitments discussed in Finding 2.
+AUDIT REPORT 04601-0001-41
+
+19
+
+Exhibit B: Audit Sites Visited
+This exhibit shows the name and location of all visited RHS offices and lender sites.
+
+SITE NAME
+
+LOCATION
+
+RHS National Office
+
+Washington, D.C.
+
+20
+
+AUDIT REPORT 04601-0001-41
+
+Agency’s Response
+
+AGENCY’S
+RESPONSE TO AUDIT REPORT
+
+AUDIT REPORT 04601-0001-41
+
+21
+
+Rural Development
+Bruce W. Lammers
+Administrator
+
+TO:
+
+Rural Housing Service
+1400 Independence Ave, SW
+Room 5014-S
+Washington, D.C. 20250
+
+Gil H. Harden
+Assistant Inspector General for Audit
+Office of Inspector General
+
+FROM:
+
+Bruce W. Lammers
+Administrator
+Rural Housing Service
+
+Telephone: (202) 692-0268
+
+SUBJECT: OIG Audit: Official Draft Response – RHS Single Family Housing
+Guaranteed Loan Program Appraisals - Audit# 04601-0001-41
+Rural Development appreciates the opportunity to submit our responses to the
+recommendations in the subject Official Draft report dated April 14, 2020.
+The agency recently completed a reorganization which created the Office of the
+Single Family Housing Guaranteed Loan Program (OSFHGLP). One of the primary
+objectives driving the creation of the OSFHGLP is to execute program operations in
+a uniform and consistent fashion. The loan making activities, including
+administrative appraisal reviews, were previously performed by the State Offices.
+They are now consolidated into two Origination Processing Divisions (OPD).
+The OSFHGLP includes an independent Quality Assurance branch (QA) which
+reviews the production of loan originations in an ongoing sampling basis. The
+purpose is to ensure that the decision makers in the OPD are consistently following
+agency guidelines.
+Recommendation 1
+Develop and implement an oversight function to assess the quality and accuracy of
+RHS’ administrative appraisal reviews and establish the frequency of its oversight
+activities.
+Agency Response:
+The QA branch will assess the quality and accuracy of administrative appraisal
+reviews in its ongoing evaluations. The QA branch will accomplish its aim by
+developing an administrative appraisal review guide that will be used as a training
+tool for decision makers in the OPD. A SharePoint page will also be developed to
+track the reviews and gather data.
+
+USDA is an equal opportunity lender, provider, and employer.
+
+Page 2
+
+Estimated Completion Date:
+August 30, 2020
+Recommendation 2
+Develop and implement controls for pre-closing technical appraisal reviews to prevent the issuance
+of conditional commitments for loan guarantees prior to regional agency appraisers’
+determinations that appraisals are acceptable.
+Agency Response:
+Controls were implemented by removing loan making authority from 47 different State Offices
+and establishing the OSFHGLP. The OPD developed desk procedures designed to ensure that all
+agency guidelines are being followed when issuing conditional commitments and loan note
+guarantees. The OPD will amend its origination desk procedures by adding language that prohibits
+the issuance of conditional commitments prior to the resolution of an appraisal technical desk
+review conducted by a regional staff appraiser.
+Estimated Completion Date:
+September 30, 2020
+Recommendation 3
+Develop and implement a formal process to identify common deficiencies found during preclosing technical appraisal reviews and Quality Control Reviews (QCR).
+Agency Response:
+The RD Program Support Staff Appraisal team will formalize a process to identify common
+deficiencies found during the review process for both pre-closing technical appraisal reviews and
+Quality Control Reviews. The Appraisal team will formally develop methods for collection of
+data on common deficiencies for both pre-closing and quality control reviews. The data collection
+will be shared with the QA Division and posted on the SharePoint page referenced in the agency’s
+response to recommendation 1.
+Estimated Completion Date:
+September 30, 2020
+
+Page 3
+
+Recommendation 4
+Develop and implement a process, including the frequency of communication, to share common
+deficiencies found during pre-closing technical appraisal reviews and QCRs with all approved
+lenders and administrative reviewers.
+Agency Response:
+The RD Appraisal team will report quarterly the common deficiencies found during pre-closing
+and QCR technical appraisal reviews to program leadership, supervisors of administrative
+reviewers, and all approved lenders. Report will be generated from the data collected in
+Recommendation 3.
+Estimated Completion Date:
+September 30, 2020
+Recommendation 5
+Develop and implement a process, including the frequency of communication, to share all “not
+acceptable” QCR results with the responsible lender and administrative reviewer.
+Agency Response:
+The RD Appraisal team will report the deficiencies found during QCR technical appraisal reviews
+of all appraisals, found to be “Not Acceptable”, to supervisors of administrative reviewers and the
+individual approved lenders. Reporting will be completed on at least a monthly basis.
+Estimated Completion Date:
+September 30, 2020
+
+Learn more about USDA OIG
+Visit our website: www.usda.gov/oig
+Follow us on Twitter: @OIGUSDA
+Report Suspected Wrongdoing in USDA Programs
+OIG Hotline: www.usda.gov/oig/hotline.htm
+Local / Washington, D.C. (202) 690-1622
+Outside D.C. (800) 424-9121
+TTY (Call Collect) (202) 690-1202
+Bribery / Assault
+(202) 720-7257 (24 hours)
+
+In accordance with Federal civil rights law and U.S. Department of Agriculture
+(USDA) civil rights regulations and policies, USDA, its Agencies, offices,
+employees, and institutions participating in or administering USDA programs
+are prohibited from discriminating based on race, color, national origin, religion,
+sex, gender identity (including gender expression), sexual orientation, disability,
+age, marital status, family/parental status, income derived from a public
+assistance program, political beliefs, or reprisal or retaliation for prior civil rights
+activity, in any program or activity conducted or funded by USDA (not all bases
+apply to all programs). Remedies and complaint filing deadlines vary by
+program or incident.
+Persons with disabilities who require alternative means of communication for
+program information (e.g., braille, large print, audiotape, American Sign
+Language, etc.) should contact the responsible Agency or USDA’s TARGET
+Center at (202) 720-2600 (voice and TTY) or contact USDA through the Federal
+
+Relay Service at (800) 877-8339. Additionally, program information may be made
+available in languages other than English.
+To file a program discrimination complaint, complete the USDA Program
+Discrimination Complaint Form, AD-3027, found online at How to File a Program
+Discrimination Complaint and at any USDA office or write a letter addressed to
+USDA and provide in the letter all of the information requested in the form. To
+request a copy of the complaint form, call (866) 632-9992. Submit your completed
+form or letter to USDA by: (1) mail: U.S. Department of Agriculture, Office of the
+Assistant Secretary for Civil Rights, 1400 Independence Avenue, SW, Washington,
+D.C. 20250-9410; (2) fax: (202) 690-7442; or (3) email: program.intake@usda.gov.
+USDA is an equal opportunity provider, employer, and lender.
+All photographs on the front and back covers are from USDA’s Flickr site and are in
+the public domain. They do not depict any particular audit or investigation.
+
+
