@@ -46,6 +46,9 @@ echo "== 6d. surge funding";  python3 "$TOOLS"/test_capacity_funding.py
                                cp "$TOOLS"/capacity-funding.py "$BUILD"/; python3 capacity-funding.py
 echo "== 6e. budget benchmarks and model card (budget B4)"
 P2050_BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_benchmarks.py 2>&1 | tail -1
+echo "== 6f. health coverage model (tests, then results and model card)"
+python3 -W ignore::ResourceWarning "$TOOLS"/health-coverage/test_model.py 2>&1 | tail -1
+python3 "$TOOLS"/health-coverage/model.py --out "$BUILD/health-coverage"
 echo "== 7. dashboard data";   python3 "$TOOLS"/dashboard-data.py >/dev/null
 echo "== 8. consistency check"; cp "$TOOLS"/check-project.py "$TOOLS"/window.py "$BUILD"/; python3 check-project.py
 
@@ -89,6 +92,9 @@ OUT=(
   'budget-benchmarks.md|models/tools/budget/benchmarks.md'
   'budget-benchmarks.json|models/tools/budget/benchmarks.json'
   'budget-model-card.md|models/tools/budget/MODEL-CARD.md'
+  'health-coverage/results.json|models/tools/health-coverage/results.json'
+  'health-coverage/results.md|models/tools/health-coverage/results.md'
+  'health-coverage/MODEL-CARD.md|models/tools/health-coverage/MODEL-CARD.md'
   'recovery-budget.md|legacy/index/recovery-budget.md'
   'recovery-budget.json|models/data/recovery-budget.json'
   'recovery-budget-paths.csv|models/data/recovery-budget-paths.csv'
