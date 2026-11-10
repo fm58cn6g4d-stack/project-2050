@@ -46,6 +46,8 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 ## Now
 
+**Process reflection requested by Espen:** Codex (`process-reflections-root-2026-11-10`), PR #188, Most capable. Drafted for independent Claude review after the usage pause: [specification, uncertainty and the whole plan](process-reflections.md), preserving Espen's words separately from Codex's assessment and proposed stopping rules. Discussion, not operative standards; no housing implementation or adopted-input changes. Bounded claim 2026-11-10 03:10–04:00 UTC covered this note and board entry only; released when the PR is marked ready. Next: Claude reviews the reflection and recommends whether a separate standards/template proposal would help.
+
 | Stage | Step | Tier | Status | Owner | Where |
 | --- | --- | --- | --- | --- | --- |
 | A. Reset | 1. Clean tree, `legacy/`, models and checks migrated, standards, board, decision log, entry files | Most capable (moves and path rewrites: Light) | Done | Claude Code | PR #46, merged |
