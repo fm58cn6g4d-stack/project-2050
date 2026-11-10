@@ -3,14 +3,14 @@
     "id": "HOU-4.01",
     "title": "Shared rules for all housing help",
     "agenda": "HOU-4",
-    "status": "decided by reference (shared-rules.md working answers)",
+    "status": "decided by reference (shared-rules.md working answers); screening rule proposed, for Espen",
     "decisions": [
       "DEC-2026-11-09-02",
       "DEC-2026-11-09-05",
       "DEC-2026-11-09-10",
       "DEC-2026-11-10-03"
     ],
-    "parameters": "Income, income lines, immigrant eligibility, verification, conditions and residency, kept in one place; no work or treatment condition; no residency rules; mixed-status families keep prorated help indefinitely, with the right not to contend status, written into Section 214; HUD's February 2026 proposed rule withdrawn or rescinded; voucher rent ignores the value of free or capped child care (a standard child care deduction per child in care, set yearly by area, for families whose care FAM-2 makes free or caps; DEC-2026-11-10-03)",
+    "parameters": "Income, income lines, immigrant eligibility, verification, conditions and residency, kept in one place; no work or treatment condition; no residency rules; mixed-status families keep prorated help indefinitely, with the right not to contend status, written into Section 214; HUD's February 2026 proposed rule withdrawn or rescinded; voucher rent ignores the value of free or capped child care (a standard child care deduction per child in care, set yearly by area, for families whose care FAM-2 makes free or caps; DEC-2026-11-10-03); owner and buyer programs (HOU-10.01, HOU-10.02, HOU-12, HOU-13.01, HOU-14.02) follow current law's immigrant-eligibility defaults, checking only the buyer or owner of record through records the agency can query (working answers for the immigration flagship's table); proposed, for Espen: the new awards use only the criminal-record screening federal law requires (the two statutory bans and the mandatory drug rules), not the discretionary authority in 42 U.S.C. 13661(c)",
     "eligibility": "All households under HOU-4, HOU-4A, HOU-4D, HOU-1D",
     "vehicle": [
       {
@@ -35,7 +35,23 @@
       "EV-HOU-189",
       "EV-HOU-233",
       "EV-HOU-402",
-      "EV-HOU-403"
+      "EV-HOU-403",
+      "EV-HOU-792",
+      "EV-HOU-793",
+      "EV-HOU-794",
+      "EV-HOU-795",
+      "EV-HOU-796",
+      "EV-HOU-797",
+      "EV-HOU-804",
+      "EV-HOU-805",
+      "EV-HOU-806",
+      "EV-HOU-807",
+      "EV-HOU-808",
+      "EV-HOU-809",
+      "EV-HOU-810",
+      "EV-HOU-811",
+      "EV-HOU-812",
+      "EV-HOU-813"
     ],
     "sources": [],
     "cost_source": "none",
@@ -87,7 +103,7 @@
     "id": "HOU-4.03",
     "title": "Order of reach",
     "agenda": "HOU-4",
-    "status": "decided; the 2040s route's date and pace proposed, for Espen",
+    "status": "decided; the 2040s route's date and pace proposed, for Espen; reentry, foster youth and screening additions from the milestone review, partly proposed, for Espen",
     "decisions": [
       "DEC-2026-11-09-06",
       "DEC-2026-11-09-01",
@@ -97,7 +113,7 @@
       "DEC-2026-11-09-14",
       "DEC-2026-11-10-03"
     ],
-    "parameters": "Stage 1 people with no home of their own: literally homeless, and families with children doubled up, shown by their own word or a school record, no deadline test and no cap; order by local need-based intake, counts published yearly, a two-year imbalance triggers review (DEC-2026-11-09-12); stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters of any age from 2038 (62 and over included, DEC-2026-11-10-03); stage 1 expected to take the whole million, so stage 2 starts with HOU-4D.01 in 2034; within stage: severity, youngest children, date; older non-disabled renters reconsidered once the care program is scoped; within stages 2 and 3, memo 2's order is national guidance and local need-based intake decides; a stated route for the 2040s (DEC-2026-11-10-03): ELI renters with worst case needs outside stages 1-3 (single adults and others not disabled, older renters not disabled) and families with children at 30-50% of AMI with worst case needs, enrollment proposed from 2042 at up to 400,000 a year, stated in the regular bill and funded only with its financing (date and pace proposed, for Espen)",
+    "parameters": "Stage 1 people with no home of their own: literally homeless, and families with children doubled up, shown by their own word or a school record, no deadline test and no cap; order by local need-based intake, counts published yearly, a two-year imbalance triggers review (DEC-2026-11-09-12); stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters of any age from 2038 (62 and over included, DEC-2026-11-10-03); stage 1 expected to take the whole million, so stage 2 starts with HOU-4D.01 in 2034; within stage: severity, youngest children, date; older non-disabled renters reconsidered once the care program is scoped; within stages 2 and 3, memo 2's order is national guidance and local need-based intake decides; a stated route for the 2040s (DEC-2026-11-10-03): ELI renters with worst case needs outside stages 1-3 (single adults and others not disabled, older renters not disabled) and families with children at 30-50% of AMI with worst case needs, enrollment proposed from 2042 at up to 400,000 a year, stated in the regular bill and funded only with its financing (date and pace proposed, for Espen); people leaving prison, jail, hospitals, treatment or other institutions, and youth leaving foster care, with no home to go to count as without a home and may apply up to 90 days (foster youth 180 days) before leaving; proposed, for Espen: those leaving to a couch also count for 12 months; a foster youth voucher ending at its time limit with no other home leads to a turnover award",
     "eligibility": "As stated; local preferences allowed, no residency rules",
     "vehicle": [
       {
@@ -115,7 +131,13 @@
       "EV-HOU-026",
       "EV-HOU-109",
       "EV-HOU-114",
-      "EV-HOU-189"
+      "EV-HOU-189",
+      "EV-HOU-798",
+      "EV-HOU-799",
+      "EV-HOU-800",
+      "EV-HOU-801",
+      "EV-HOU-802",
+      "EV-HOU-803"
     ],
     "sources": [],
     "cost_source": "none",
@@ -257,7 +279,7 @@
       "DEC-2026-11-09-14",
       "DEC-2026-11-10-03"
     ],
-    "parameters": "Enrollment from 2038; vouchers or awards attached to reserved accessible homes; HCBS offered, never a condition; pace with care flagship and section 6; SSI, SSDI or Medicaid disability coverage counts as proof of disability; disabled renters 62 and over included; severe problems shown by the household's own statement, checked after award; for people 62 and over without an SSI, SSDI or Medicaid disability record, the voucher program's current verification",
+    "parameters": "Enrollment from 2038; vouchers or awards attached to reserved accessible homes; HCBS offered, never a condition; pace with care flagship and section 6; SSI, SSDI or Medicaid disability coverage counts as proof of disability; disabled renters 62 and over included; severe problems shown by the household's own statement, checked after award; for people 62 and over without an SSI, SSDI or Medicaid disability record, the voucher program's current verification; honest errors corrected, not punished (HOU-4D.01, item 8)",
     "eligibility": "Unassisted ELI renter households with severe problems and a member of any age with a long-term disability (definition with care flagship)",
     "vehicle": [
       {
@@ -549,7 +571,7 @@
       "DEC-2026-11-09-14",
       "DEC-2026-11-10-03"
     ],
-    "parameters": "Enrollment opens 2034, up to 300,000 a year; a right from 2037; $135B is an estimate, not a cap; exit at 80% of AMI (youngest-child rule judgment); duty to house from 2037: search help and landlord recruitment, and an offer of an attached home or a reissued voucher with a higher payment standard when a search fails (offer within 60 days, continuing until housed); decisions within 30 days or deemed approved, with checks after award; private right of action with attorney's fees; tribal share (HOU-4.13)",
+    "parameters": "Enrollment opens 2034, up to 300,000 a year; a right from 2037; $135B is an estimate, not a cap; exit at 80% of AMI (youngest-child rule judgment); duty to house from 2037: search help and landlord recruitment, and an offer of an attached home or a reissued voucher with a higher payment standard when a search fails (offer within 60 days, continuing until housed); decisions within 30 days or deemed approved, with checks after award; private right of action with attorney's fees; tribal share (HOU-4.13); honest errors found in checks after award are corrected from the next month, never repaid by the household; help ends only for fraud after notice and a hearing (also for stages 1 and 3)",
     "eligibility": "Unassisted ELI renter households with a child under 18 and severe problems; from 2034 also families with children with no home of their own (doubled up or homeless; DEC-2026-11-09-12)",
     "vehicle": [
       {
