@@ -17858,7 +17858,7 @@
  },
  {
   "id": "EV-HOU-810",
-  "statement": "FHA's 2025 mortgagee letter ended FHA eligibility for non-permanent resident borrowers for case numbers assigned on or after May 25, 2025.",
+  "statement": "FHA's 2025 mortgagee letter ended FHA eligibility for non-permanent resident borrowers for case numbers assigned on or after May 25, 2025; citizens of Micronesia, the Marshall Islands and Palau remain eligible on the same terms as U.S. citizens.",
   "claim": "data",
   "figures": [
    "25",
@@ -17867,7 +17867,8 @@
   "source": "SRC-2431",
   "anchor": [
    "This ML removes the Non-permanent Residents sections in its entirety,\neliminating eligibility for non-permanent resident Borrowers",
-   "must be\nimplemented for FHA case numbers assigned on or after May 25, 2025."
+   "must be\nimplemented for FHA case numbers assigned on or after May 25, 2025.",
+   "A Borrower with citizenship in the Federated States of Micronesia,\nthe Republic of the Marshall Islands, or the Republic of Palau may\nbe eligible for FHA-insured financing provided the Borrower\nsatisfies the same requirements, terms, and conditions as those for\nU.S. citizens."
   ],
   "grade": "A",
   "fact_date": "2025",
