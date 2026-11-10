@@ -30,5 +30,6 @@ The leading number in each name is CBO's publication ID; the file names are othe
 | `62044-2026-LTBO.xlsx` | 2026 long-term budget outlook supplemental data |
 | `62556-2026-Additional-Info.xlsx` | Additional information (2026) |
 | `62556-2026-Long-Term-Social-Security-Projections.xlsx` | Long-term Social Security projections (2026) |
+| `58421-tax-offsets.pdf` | CBO's Use of the Income and Payroll Tax Offset in Its Budget Projections and Cost Estimates (October 2022); uploaded November 10, 2026 |
 
 CBO also publishes machine-readable datasets at github.com/US-CBO/cbo-data (`catalog.json`); prefer those where they cover the same series.
