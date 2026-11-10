@@ -145,7 +145,7 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 
 ### 1.11 The 2040 fiscal gap sent to the financing settlement (`DEC-2026-11-09-09`)
 
-- **Main uncertainty.** Whether the financing settlement closes a gap that is still moving. FY2040 fails by about $20 billion on permanent lines, or $28 billion with the capital tail, stage 2's wider entry included (about $8 billion of it). The high case fails FY2040 and FY2041, and probably FY2042 (`6-cost.md`, 3.3).
+- **Main uncertainty.** Whether the financing settlement closes a gap that is still moving. FY2040 fails by about $26.4 billion on permanent lines, or $37 billion with the capital tail, stage 2's wider entry included (about $8 billion of it); FY2041 passes by only about $11 billion. The high case fails FY2040 and FY2041, and probably FY2042 (`6-cost.md`, 3.3).
 - **What would change our minds.**
   - Housing's FY2040 path more than $10 billion above section 6's central on a new estimate (section 7's threshold). Section 6's central now includes stage 2's wider entry, whose high case alone is about $16 billion above its central.
   - The settlement does not cover housing's share when it is drafted.
@@ -156,7 +156,7 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 
 ### 1.12 Tribal housing set-asides (`DEC-2026-11-09-10`; HOU-4.13)
 
-- **Main uncertainty.** Whether the set-asides match the need. They are shares of decided amounts: 3% of the emergency fund and of new-award money, and 5% of the revolving-fund grants, about $13 billion over FY2030-39 (`DEC-2026-11-09-16`; `6-cost.md`, 2.6). Tribal needs are mostly physical condition and crowding, at 23% and 16% of households against 5% and 2% nationally [EV-HOU-406], and vouchers pay rent rather than repair homes. The register has no count of tribal homes needing repair or replacement. At $150,000-300,000 a home, the grant share repairs or builds roughly 12,000-24,000 homes (`7-validation.md`, 4.2).
+- **Main uncertainty.** Whether the set-asides match the need. They are shares of decided amounts: 3% of the emergency fund and of new-award money, and 5% of the revolving-fund grants, about $14 billion over FY2030-39 (`DEC-2026-11-09-16`; `6-cost.md`, 2.6). Tribal needs are mostly physical condition and crowding, at 23% and 16% of households against 5% and 2% nationally [EV-HOU-406], and vouchers pay rent rather than repair homes. The register has no count of tribal homes needing repair or replacement. At $150,000-300,000 a home, the grant share repairs or builds roughly 12,000-24,000 homes (`7-validation.md`, 4.2).
 - **What would change our minds.**
   - The 2032 need report (HOU-4.13, item 4; `DEC-2026-11-09-16`) finds the need well above what the set-asides deliver. That would argue for added investment, as Espen's direction asks.
   - Tribal set-asides unspent after three years, or a tribal lease rate on rental awards more than 10 points below urban areas (section 7's threshold for rural places, applied here to tribal areas). That would mean the form or the administration is wrong, not the amount.

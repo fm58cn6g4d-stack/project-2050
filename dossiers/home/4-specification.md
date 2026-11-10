@@ -45,7 +45,7 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-3C.01 | State housing revolving funds: about $72 billion of grants, awarded by 2037 | Decided (memo 3 part 3 B; timing `DEC-2026-11-09-09`) | R2, mandatory (borrowed inside the D4-B envelope, C21) |
 | HOU-3C.02 | Federal construction and acquisition loans: $300 billion, committed by 2038 | Decided (memo 3 part 3 B; timing `DEC-2026-11-09-09`) | R2 (credit subsidy) |
 | HOU-3C.03 | Lasting affordability, attached help and accessible homes in plan-financed buildings | Decided (memo 3 part 3 B; memo 1 B; memo 2 condition; tax-credit homes `DEC-2026-11-09-08`) | R2 (grant and loan conditions) |
-| HOU-3C.04 | Published production targets: homes the plan pays for, homes in zoning-reward places, and a national goal | Decided (`DEC-2026-11-09-10`; three numbers `DEC-2026-11-09-14`; the numbers `DEC-2026-11-09-17`) | Regular bill (the targets); R2 (reporting conditions) |
+| HOU-3C.04 | Published production targets: homes the plan pays for, homes in zoning-reward places, and a national goal | Decided (`DEC-2026-11-09-10`; three numbers `DEC-2026-11-09-14`; the numbers `DEC-2026-11-09-17`); each state's share of the count is answered by Espen, recorded in #183 | Regular bill (the targets); R2 (reporting conditions) |
 | HOU-5.01 | Public housing repair | Legacy working choice; timing `DEC-2026-11-09-09` | R2, mandatory (C31) |
 | HOU-5.02 | Repair first, one-for-one replacement and a right to return with no re-screening | Decided (point 6) | Regular bill; R2 (conditions on the repair money) |
 | HOU-6.01 | The zoning reward through the ROAD to Housing Act's Innovation Fund | Decided (memo 4 B) | R2 (money); regular bill (who may apply, what is paid for) |
@@ -53,7 +53,7 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-7B.01 | The investor limit left as enacted | Decided (point 8) | None |
 | HOU-8.01 | Social housing pilot | Legacy working choice | R2 (through HOU-3C.02 and a small equity grant) |
 | HOU-9A.01 | A small federal builder from 2029 | Decided (memo 3 part 2, A-small) | Regular bill (the corporation); R2 (capital and loan authority) |
-| HOU-2D.01 | A bigger low-income credit with the boost for the poorest renters | Decided (memo 3 part 1 D, `DEC-2026-11-09-08`) | R2 (revenue) |
+| HOU-2D.01 | A bigger low-income credit with the boost for the poorest renters | Decided (memo 3 part 1 D, `DEC-2026-11-09-08`); the rural high-cost boost is answered by Espen, recorded in #183 | R2 (revenue) |
 | HOU-2D.02 | A middle-income credit in high-cost areas, a 2030-34 trial | Decided (`DEC-2026-11-09-08`) | R2 (revenue) |
 | HOU-2D.03 | The neighborhood homes credit, a 2030-34 trial | Decided (`DEC-2026-11-09-08`) | R2 (revenue) |
 | HOU-2D.04 | Permanent affordability for every rental home the plan pays for | Decided (`DEC-2026-11-09-08`) | R2 (credit conditions); regular bill |
@@ -964,7 +964,7 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 | Point 7: no residency rules | HOU-4.01, HOU-4.03 | R2 (conditions); regular bill | — | None |
 | Point 8: investor limit as enacted | HOU-7B.01 | None | Through 2042; revisit after 2037 | None |
 | Fork 7: construction workforce | Interactions, check 8 | — | — | — |
-| `DEC-2026-11-09-09`: FY2040 gap to the financing settlement; capital spent by 2039 | HOU-3C.01, HOU-3C.02, HOU-5.01 (timing) | — | Awards end 2037-38 | FY2040: about $90 billion of permanent cost, with stage 2's wider entry; the capital tail falls from about $16 billion to about $8 billion (`6-cost.md`, 3.3) |
+| `DEC-2026-11-09-09`: FY2040 gap to the financing settlement; capital spent by 2039 | HOU-3C.01, HOU-3C.02, HOU-5.01 (timing) | — | Awards end 2037-38 | FY2040: about $96 billion of permanent cost, with stage 2's wider entry; the capital tail falls from about $16 billion to about $8 billion (`6-cost.md`, 3.3) |
 | `DEC-2026-11-09-10`: duty to house from 2037 | HOU-4D.01, HOU-4.07 | R2 | From 2037 | About $3 billion in FY2037-39 (placements) |
 | `DEC-2026-11-09-10`: production targets (three numbers, Espen in session November 9) | HOU-3C.04 | Regular bill; R2 (reporting) | 2030-39 | None |
 | `DEC-2026-11-09-10`: mixed-status protection; repeal of HUD's proposed rule | HOU-4.01 | Executive action (January 2029); regular bill | From 2029 | None against current law |
@@ -989,7 +989,7 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 | Memo 13, day one | HOU-14.06 | Executive action and rule | 2029 | None |
 
 **Consistency notes.**
-- **Totals.** The ledger's housing title ($0.56 trillion midpoint: the $0.47 trillion title and $0.09 trillion of vouchers) predates every section 3 decision. It still carries HOU-1A, HOU-2A and HOU-6's separate fund as filed. HOU-4D is carried outside the ledger in `recovery-adoption.json`. Section 6 rebuilds them from this section's provisions: about $0.65 trillion over FY2030-39 (central, with option D's credits) and about $90 billion a year of permanent cost in FY2040, with stage 2's wider entry under `DEC-2026-11-09-12`. Its ledger and model changes are tier-3 proposals (`6-cost.md`, 5).
+- **Totals.** The ledger's housing title ($0.56 trillion midpoint: the $0.47 trillion title and $0.09 trillion of vouchers) predates every section 3 decision. It still carries HOU-1A, HOU-2A and HOU-6's separate fund as filed. HOU-4D is carried outside the ledger in `recovery-adoption.json`. Section 6 rebuilds them from this section's provisions: about $0.78 trillion over FY2030-39 (central, with option D's credits and memos 9-13) and about $96 billion a year of permanent cost in FY2040, with stage 2's wider entry under `DEC-2026-11-09-12`. Its ledger and model changes are tier-3 proposals (`6-cost.md`, 5).
 - **Regular-bill items.** HOU-4.01's definitions and mixed-status protection, HOU-4.02's data rules and enforcement bar, HOU-4.05, HOU-4.06, HOU-4.09, HOU-4.11, HOU-4.13's NAHASDA rules, HOU-1D.03's privacy rules, HOU-3C.04's target, HOU-5.02, HOU-6.01's eligibility changes, HOU-6.02 and HOU-9A.01's corporation. With the legacy floor bill (ledger row HOU-7), they make one housing regular bill. Its floor time is a section 5 question.
 - **Still open for Espen.** Whether HOU-1A's construction gap money is dropped or added to HOU-3C (HOU-1D.04).
 - **Proposed, for Espen** (parameters the decisions leave open): each state's share of the direct production count (HOU-3C.04), and the low-income credit's high-cost boost for rural areas (HOU-2D.01; the tribal boost is decided). Memos 11 and 12's amounts are decided (`DEC-2026-11-09-25`). Espen decided the other parameters this section had proposed in `DEC-2026-11-09-14`, `-16` and `-17`.
