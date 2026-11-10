@@ -6279,7 +6279,7 @@
   "fact_date": "2025-12-04",
   "checked": "2026-11-10",
   "recheck": "2027-06-30",
-  "context": "Cecil G. Sheps Center for Health Services Research, University of North Carolina at Chapel Hill; tracker page marked updated 12/4/25 and revised as hospitals close, so the totals change. A converted closure ends inpatient services but keeps some other care. The reviewer checks the quotation on the page, where the figures sit under the headings 'since 2010' and the closure types.",
+  "context": "Cecil G. Sheps Center for Health Services Research, University of North Carolina at Chapel Hill; tracker page marked updated 12/4/25 and revised as hospitals close, so the totals change. A converted closure ends inpatient services but keeps some other care. The reviewer checks the quotation on the page, where the figures sit under the headings 'since 2010' and the closure types. Checked against the original on 2026-11-10.",
   "supports": [
    "dossiers/care/4-specification.md"
   ]
@@ -6328,7 +6328,7 @@
   "fact_date": "2022-01",
   "checked": "2026-11-10",
   "recheck": "2027-01-20",
-  "context": "Congressional Budget Office, report of January 20, 2022; nonpartisan; a review of published studies from 2010 to 2020 plus CBO's own analysis, so the ratio is a literature average and the market-power finding is CBO's reading of that literature. CBO also found that providers' share of Medicare and Medicaid patients is not related to the prices they negotiate, which contests the 'cost shifting' explanation. CBO's site refused the download tools (403) on 2026-11-10; read through a full-text fetch.",
+  "context": "Congressional Budget Office, report of January 20, 2022; nonpartisan; a review of published studies from 2010 to 2020 plus CBO's own analysis, so the ratio is a literature average and the market-power finding is CBO's reading of that literature. CBO also found that providers' share of Medicare and Medicaid patients is not related to the prices they negotiate, which contests the 'cost shifting' explanation. Checked against the original on 2026-11-10.",
   "supports": [
    "dossiers/care/6-cost.md"
   ],
@@ -6389,7 +6389,7 @@
   "fact_date": "2007-12",
   "checked": "2026-11-10",
   "recheck": "2027-06-30",
-  "context": "Guterman and Drake, Commonwealth Fund issue brief, May 2009; a private foundation, nonpartisan, with a track record of advocating an end to the wait; the figure is from 2007 state-level data and is stale, as KFF's 2024 analysis (next entry) says the current count is unknown. Treat as order of magnitude only.",
+  "context": "Guterman and Drake, Commonwealth Fund issue brief, May 2009; a private foundation, nonpartisan, with a track record of advocating an end to the wait; the figure is from 2007 state-level data and is stale, as KFF's 2024 analysis (next entry) says the current count is unknown. Treat as order of magnitude only. Checked against the original on 2026-11-10.",
   "supports": [
    "dossiers/care/6-cost.md"
   ]
@@ -6413,7 +6413,7 @@
   "fact_date": "2024-10",
   "checked": "2026-11-10",
   "recheck": "2027-10-24",
-  "context": "KFF (health policy research and polling nonprofit), October 24, 2024, using SSA and CMS data; nonpartisan. The unknown count is why the Commonwealth Fund figure above is the only direct count of the waiting-period population found.",
+  "context": "KFF (health policy research and polling nonprofit), October 24, 2024, using SSA and CMS data; nonpartisan. The unknown count is why the Commonwealth Fund figure above is the only direct count of the waiting-period population found. Checked against the original on 2026-11-10.",
   "supports": [
    "dossiers/care/6-cost.md"
   ]
@@ -6437,7 +6437,7 @@
   "fact_date": "2009-03",
   "checked": "2026-11-10",
   "recheck": "2027-06-30",
-  "context": "Livermore, Stapleton and Claypool, Mathematica Policy Research, Center for Studying Disability Policy, March 30, 2009; 2006 dollars and 2006 Medicare spending, so well out of date for a 2029 plan; the brief also lists offsetting benefits (lower Medicaid spending for states). No independent corroborating estimate was read: a Medicare Rights Center fact sheet cites a CBO option of $113 billion over ten years, but CBO's original was not reachable.",
+  "context": "Livermore, Stapleton and Claypool, Mathematica Policy Research, Center for Studying Disability Policy, March 30, 2009; 2006 dollars and 2006 Medicare spending, so well out of date for a 2029 plan; the brief also lists offsetting benefits (lower Medicaid spending for states). No independent corroborating estimate was read: a Medicare Rights Center fact sheet cites a CBO option of $113 billion over ten years, but CBO's original was not reachable. Checked against the original on 2026-11-10.",
   "supports": [
    "dossiers/care/6-cost.md"
   ]
@@ -6889,6 +6889,175 @@
   "context": "CRS report R47601 (June 22, 2023), reading the Consolidated Appropriations Act, 2023 (EV-CAR-361, EV-CAR-359). It states the law as of its date; Congress may act before fiscal year 2028. CRS's own text says 'December 2023' for the Act, which was approved December 29, 2022; the date is taken from the Act itself.",
   "supports": [
    "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-363",
+  "statement": "In 1944 the Supreme Court held that insurance transacted across state lines is commerce among the several States: the Commerce Clause power of Congress to regulate other trades conducted across state lines reaches the business of insurance, and the Court would not make an exception for it.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3304",
+  "anchor": [
+   "Surely, therefore, a heavy burden is on him who asserts\nthat the plenary power which the Commerce Clause grants\nto Congress to regulate \"Commerce among the several\nStates\" does not include the power to regulate trading in\ninsurance to the same extent that it includes power to regulate other trades or businesses conducted across state\nlines",
+   "No commercial enterprise of any kind which\nconducts its activities across state lines has been held to be\nwholly beyond the regulatory power of Congress under\nthe Commerce Clause. We cannot make an exception of\nthe business of insurance."
+  ],
+  "grade": "A",
+  "locator": "Opinion of Black, J., Part I (syllabus point 1 gives p. 539 for the holding)",
+  "fact_date": "1944-06-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Supreme Court of the United States, United States v. South-Eastern Underwriters Association, 322 U.S. 533 (decided June 5, 1944), opinion of Justice Black for the Court, as printed in the U.S. Reports (Library of Congress copy). Primary law; the Court's opinion is a government work. The case held that a fire insurance company that conducts a substantial part of its business across state lines is subject to Congress's commerce power and to the Sherman Act. Congress answered it with the McCarran-Ferguson Act (EV-CAR-364). Text is from a scan, so some characters (for example a stray '0' for a period) are artifacts.",
+  "supports": [
+   "dossiers/care/4-specification.md",
+   "dossiers/care/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-364",
+  "statement": "Under the McCarran-Ferguson Act, no Act of Congress is to be construed to invalidate, impair, or supersede any State law enacted to regulate the business of insurance unless the Act specifically relates to the business of insurance.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3305",
+  "anchor": [
+   "No Act of Congress shall be construed to invalidate, impair, or supersede any law enacted by any State for the purpose of regulating the business of insurance, or which imposes a fee or tax upon such business, unless such Act specifically relates to the business of insurance"
+  ],
+  "grade": "A",
+  "locator": "15 U.S.C. 1012(b)",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Section 2(b) of the McCarran-Ferguson Act (Mar. 9, 1945, ch. 20, 59 Stat. 34), as codified at 15 U.S.C. 1012(b), U.S. Code 2024 edition as published by GPO. The statute's words are 'any law enacted by any State for the purpose of regulating the business of insurance, or which imposes a fee or tax upon such business'. The proviso that follows applies the Sherman, Clayton and Federal Trade Commission Acts to insurance to the extent State law does not regulate it. Enacted in response to United States v. South-Eastern Underwriters Association (EV-CAR-363).",
+  "supports": [
+   "dossiers/care/4-specification.md",
+   "dossiers/care/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-365",
+  "statement": "A State may elect by law to prohibit abortion coverage in qualified health plans offered through its Exchange, and a qualified health plan that covers abortions for which federal funds are not permitted may not use premium tax credits or cost-sharing reductions to pay for them and must collect a separate payment for that coverage and keep it in a separate allocation account.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3306",
+  "anchor": [
+   "A State may elect to prohibit abortion coverage in qualified health plans offered through an Exchange in such State if such State enacts a law to provide for such prohibition.",
+   "(i) The credit under section 36B of title 26 (and the amount (if any) of the advance payment of the credit under section 18082 of this title).\n(ii) Any cost-sharing reduction under section 18071 of this title (and the amount (if any) of the advance payment of the reduction under section 18082 of this title).",
+   "(II) all payments described in subparagraph (B)(i)(II) into a separate account that consists solely of such payments and that is used exclusively to pay for services described in paragraph (1)(B)(i)."
+  ],
+  "grade": "A",
+  "locator": "42 U.S.C. 18023(a)(1), (b)(2)(A) and (b)(2)(C)(ii)",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Section 1303 of the Patient Protection and Affordable Care Act, as codified at 42 U.S.C. 18023, U.S. Code 2024 edition as published by GPO. The 'abortions for which public funding is prohibited' are defined in (b)(1)(B)(i) by the Department of Health and Human Services funding limits in force six months before the plan year, so the segregation rule follows the Hyde-type exceptions as they stand. Section 18023(b)(1) also leaves coverage of such abortions to the issuer and (b)(4) bars discrimination against providers unwilling to provide or refer for abortions.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-366",
+  "statement": "In the Commerce, Justice, Science appropriations act for fiscal year 2026, none of the funds appropriated under the Department of Justice title (which funds the Bureau of Prisons) may pay for an abortion except where the mother's life would be endangered or in the case of rape or incest, and the Director of the Bureau of Prisons keeps the obligation to provide escort services for a female inmate to receive such service outside the federal facility.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3307",
+  "anchor": [
+   "SEC. 202. None of the funds appropriated by this title shall\nbe available to pay for an abortion, except where the life of the\nmother would be endangered if the fetus were carried to term,\nor in the case of rape or incest: Provided, That should this prohibition be declared unconstitutional by a court of competent jurisdiction, this section shall be null and void.",
+   "SEC. 204. Nothing in the preceding section shall remove the\nobligation of the Director of the Bureau of Prisons to provide escort\nservices necessary for a female inmate to receive such service outside the Federal facility"
+  ],
+  "grade": "A",
+  "locator": "Division A (Commerce, Justice, Science), Title II General Provisions, Department of Justice, secs. 202 and 204",
+  "fact_date": "2026-01-23",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Public Law 119-74 (January 23, 2026), the consolidated appropriations act for fiscal year 2026, as published by GPO; Division A is the Commerce, Justice, Science act and Title II covers the Department of Justice, including the Bureau of Prisons. This is the most recent enacted CJS act: it applies through fiscal year 2026, and the fiscal year 2027 continuing resolution (Public Law 119-103, SRC-2200) continues fiscal year 2026 terms to December 11, 2026. Section 202 is a Department-wide limit that reaches federal prisoners; 'such service' in sec. 204 refers to the abortion in the preceding section's context. Appropriations limits last only for the fiscal year unless re-enacted.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-367",
+  "statement": "In the Consolidated Appropriations Act, 2026, none of the funds appropriated under the Peace Corps heading may be used to pay for abortions, and a separate section of an earlier act applies notwithstanding that limit.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3004",
+  "anchor": [
+   "none of the funds appropriated under this heading shall be used\nto pay for abortions: Provided further, That notwithstanding the\nprevious proviso, section 614 of division E of Public Law 113–\n76 shall apply to funds appropriated under this heading."
+  ],
+  "grade": "A",
+  "locator": "Division F (National Security, Department of State, and Related Programs), Title III, Peace Corps heading",
+  "fact_date": "2026-02-03",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Public Law 119-75 (February 3, 2026), the further consolidated appropriations act for fiscal year 2026, as published by GPO; the most recent enacted text of this limit, used instead of the fiscal year 2024 act (Public Law 118-47, SRC-3281). The proviso names section 614 of division E of Public Law 113-76, which this entry does not quote, so the exact exceptions it allows are not shown here. The fiscal year 2027 continuing resolution (SRC-2200) carries fiscal year 2026 terms to December 11, 2026. Appropriations limits last only for the fiscal year unless re-enacted.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-368",
+  "statement": "Title X of the Public Health Service Act provides that none of the funds appropriated under the subchapter on population research and voluntary family planning programs shall be used in programs where abortion is a method of family planning.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3308",
+  "anchor": [
+   "None of the funds appropriated under this subchapter shall be used in programs where abortion is a method of family planning."
+  ],
+  "grade": "A",
+  "locator": "42 U.S.C. 300a-6 (Public Health Service Act sec. 1008)",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Section 1008 of Title X, added December 24, 1970 and unchanged since, as codified at 42 U.S.C. 300a-6, U.S. Code 2024 edition as published by GPO. A permanent authorization-law limit, not an annual appropriations rider.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-369",
+  "statement": "The Helms amendment bars use of funds made available to carry out the foreign assistance subchapter on population planning and health to pay for the performance of abortions as a method of family planning or to motivate or coerce any person to practice abortions.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3309",
+  "anchor": [
+   "(1) None of the funds made available to carry out subchapter I of this chapter may be used to pay for the performance of abortions as a method of family planning or to motivate or coerce any person to practice abortions."
+  ],
+  "grade": "A",
+  "locator": "22 U.S.C. 2151b(f)(1)",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Section 104(f)(1) of the Foreign Assistance Act of 1961 (the Helms amendment), as codified at 22 U.S.C. 2151b(f)(1), U.S. Code 2024 edition as published by GPO. The saved section is the whole of 22 U.S.C. 2151b; paragraphs (2) and (3) cover involuntary sterilization and biomedical research on abortion methods. The statute's own text is a limit on abortion 'as a method of family planning'.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-370",
+  "statement": "The Congressional Budget Office estimated that eliminating the Medicare waiting period for people on disability, in 2011, would cost the federal government a net $6.8 billion in the first year and $110 billion through 2019.",
+  "claim": "analysis",
+  "figures": [
+   "$6.8 billion",
+   "$110 billion",
+   "2011",
+   "2019"
+  ],
+  "source": "SRC-3293",
+  "anchor": [
+   "The Congressional Budget Office (CBO) estimates that doing so in 2011 would result in a net cost to the federal government of $6.8 billion in the first year and $110 billion through 2019."
+  ],
+  "grade": "C",
+  "locator": "Web version, paragraph beginning 'Of course, eliminating the Medicare waiting period would have a cost'",
+  "fact_date": "2009-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Congressional Budget Office (nonpartisan) estimate of about 2009, quoted in Guterman and Drake, Commonwealth Fund issue brief, May 2009; the project read the brief, not CBO's own document, and the Commonwealth Fund is a private foundation with a record of advocating an end to the wait. The brief says the estimate includes a $32 billion reduction in the federal share of Medicaid and $3 billion in added tax revenue but does not count lower State Medicaid spending. Pre-ACA and pre-2010 baseline, so out of date for a 2029 plan. About $12 billion a year on average is the same order as the Mathematica estimate in EV-CAR-344.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-344",
+    "stance": "supports"
+   }
   ]
  }
 ]
