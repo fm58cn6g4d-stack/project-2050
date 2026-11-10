@@ -6440,6 +6440,12 @@
   "context": "Livermore, Stapleton and Claypool, Mathematica Policy Research, Center for Studying Disability Policy, March 30, 2009; 2006 dollars and 2006 Medicare spending, so well out of date for a 2029 plan; the brief also lists offsetting benefits (lower Medicaid spending for states). No independent corroborating estimate was read: a Medicare Rights Center fact sheet cites a CBO option of $113 billion over ten years, but CBO's original was not reachable. Checked against the original on 2026-11-10.",
   "supports": [
    "dossiers/care/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-370",
+    "stance": "supports"
+   }
   ]
  },
  {
