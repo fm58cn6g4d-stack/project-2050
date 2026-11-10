@@ -23,7 +23,7 @@ dossiers/<name>/
   restatement-log.md   what the conversion dropped or kept by reference on purpose
 ```
 
-**Reserve ID ranges first.** Before drafting evidence, the README names the dossier's evidence code and a block of source IDs no other dossier uses (for example SRC-3500 to 3599 for transportation, with care at 3000 to 3299). `library/build_catalog.py` assigns the next free number, so two dossiers drafting at once will collide without a reservation. Transportation's first block collided with care's and had to be renumbered in review.
+**Reserve ID ranges first.** Before drafting evidence, the README names the dossier's evidence code and a block of source IDs no other dossier uses (for example SRC-3500 to 3599 for transportation); check the other active dossiers' READMEs for the blocks already reserved. `library/build_catalog.py` assigns the next free number, so two dossiers drafting at once will collide without a reservation. Transportation's first block collided with care's and had to be renumbered in review.
 
 Sections are written in order. A section is added when it is drafted; the README lists what exists.
 
