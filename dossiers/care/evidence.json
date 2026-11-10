@@ -1411,6 +1411,392 @@
   ]
  },
  {
+  "id": "EV-CAR-051",
+  "statement": "CBO projects that in 2032 the population of 355.2 million includes 37.2 million uninsured people, 70.8 million with Medicare, 70.7 million with Medicaid and CHIP (9.9 million of them adults made eligible by the ACA, 29.6 million children in Medicaid and 3.5 million in CHIP), 169.5 million with employment-based coverage, 11.4 million with subsidized and 3.0 million with unsubsidized marketplace plans, 4.3 million buying nongroup coverage outside the marketplaces, 1.0 million in the Basic Health Program and 6.8 million with other coverage, and that 19.6 million people have more than one source of coverage.",
+  "claim": "analysis",
+  "figures": [
+   "2032",
+   "355.2",
+   "37.2",
+   "70.8",
+   "70.7",
+   "9.9",
+   "29.6",
+   "3.5",
+   "169.5",
+   "11.4",
+   "3.0",
+   "4.3",
+   "1.0",
+   "6.8",
+   "19.6"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "| | 2025a | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | Total, 2026–2036 |",
+   "| Total population | 348.6 | 349.4 | 350.3 | 351.2 | 352.2 | 353.3 | 354.3 | 355.2 | 356.1 | 356.9 | 357.7 | 358.5 |",
+   "| Uninsuredb | 26.6 | 30.0 | 34.1 | 35.3 | 36.6 | 36.8 | 37.2 | 37.2 | 37.2 | 37.3 | 37.4 | 37.4 |",
+   "| Medicarec | 62.8 | 64.2 | 65.6 | 67.0 | 68.3 | 69.3 | 70.1 | 70.8 | 71.5 | 72.3 | 73.0 | 73.6 |",
+   "| Adults made eligible for Medicaid by the ACA | 15.5 | 15.3 | 13.8 | 12.6 | 11.1 | 10.5 | 10.1 | 9.9 | 9.8 | 9.7 | 9.6 | 9.4 |",
+   "| Children in Medicaid | 30.2 | 29.9 | 29.3 | 28.8 | 28.6 | 29.1 | 29.8 | 29.6 | 29.3 | 28.9 | 28.6 | 28.3 |",
+   "| CHIP | 7.3 | 7.3 | 7.2 | 7.1 | 6.8 | 5.5 | 3.6 | 3.5 | 3.4 | 3.3 | 3.2 | 3.1 |",
+   "| Subtotal | 80.5 | 80.5 | 78.4 | 76.5 | 74.3 | 72.7 | 71.1 | 70.7 | 70.4 | 69.9 | 69.4 | 69.0 |",
+   "| Employment-based coveragee | 165.5 | 166.5 | 167.2 | 168.1 | 168.4 | 168.9 | 169.2 | 169.5 | 169.8 | 170.1 | 170.5 | 170.7 |",
+   "| Subsidized | 20.9 | 13.4 | 10.3 | 9.7 | 10.0 | 10.3 | 11.1 | 11.4 | 11.3 | 11.5 | 11.6 | 11.7 |",
+   "| Unsubsidized | 1.6 | 3.5 | 2.8 | 2.7 | 2.8 | 2.9 | 3.0 | 3.0 | 3.2 | 3.1 | 3.2 | 3.2 |",
+   "| Purchased outside ACA marketplaces | 3.0 | 3.1 | 3.8 | 4.0 | 4.1 | 4.2 | 4.3 | 4.3 | 4.5 | 4.4 | 4.5 | 4.6 |",
+   "| Basic Health Programg | 1.8 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |",
+   "| Other coverageh | 8.4 | 8.0 | 7.4 | 7.0 | 6.9 | 6.8 | 6.8 | 6.8 | 6.8 | 6.8 | 6.8 | 6.8 |",
+   "| People with multiple sources of coveragei | 22.5 | 20.8 | 20.2 | 20.1 | 20.2 | 19.8 | 19.6 | 19.6 | 19.6 | 19.6 | 19.6 | 19.6 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says. Added for the health coverage model (models/tools/health-coverage), which uses the 2032 column. Counts are average monthly enrollment; people with more than one source are counted under each, so the sources sum to more than the population. Uninsured counts include 0.8 million people with only Medicare Part A or B.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-020",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-056",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-052",
+  "statement": "CBO projects net federal subsidies for health insurance of 2,837 billion dollars in 2030, 3,139 billion in 2032 and 3,913 billion in 2036; in 2032 these are 1,511 billion for Medicare, 763 billion for Medicaid and CHIP (132 billion of it for adults made eligible by the ACA), 680 billion for employment-based coverage (the tax exclusion and related items), 116 billion for the premium tax credit and related spending, and 69 billion for supplemental or partial benefits.",
+  "claim": "analysis",
+  "figures": [
+   "2,837",
+   "2030",
+   "3,139",
+   "2032",
+   "3,913",
+   "2036",
+   "1,511",
+   "763",
+   "132",
+   "680",
+   "116",
+   "69"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "| | 2025a | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | Total, 2026–2036 |",
+   "| Medicareb | 977 | 1,051 | 1,128 | 1,190 | 1,272 | 1,342 | 1,422 | 1,511 | 1,622 | 1,735 | 1,841 | 1,952 | 16,066 |",
+   "| Adults made eligible for Medicaid by the ACA | 144 | 153 | 148 | 145 | 134 | 132 | 131 | 132 | 137 | 141 | 145 | 150 | 1,549 |",
+   "| Subtotal | 629 | 668 | 685 | 702 | 708 | 723 | 737 | 763 | 796 | 826 | 858 | 892 | 8,359 |",
+   "| Subtotal | n.a. | 478 | 515 | 548 | 580 | 612 | 645 | 680 | 716 | 755 | 796 | 840 | 7,166 |",
+   "| Subtotal | n.a. | 117 | 90 | 85 | 89 | 97 | 108 | 116 | 120 | 127 | 135 | 144 | 1,227 |",
+   "| Other federal subsidies associated with supplemental or partial benefitsi | n.a. | 51 | 54 | 56 | 59 | 62 | 65 | 69 | 73 | 77 | 81 | 86 | 733 |",
+   "| Net subsidies | n.a. | 2,365 | 2,471 | 2,581 | 2,708 | 2,837 | 2,978 | 3,139 | 3,328 | 3,520 | 3,711 | 3,913 | 33,550 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says. Added for the health coverage model (models/tools/health-coverage), which uses the 2032 column. Fiscal years; net of related payments to the government. Subsidies include forgone revenue (the employer-coverage tax exclusion), so they are wider than federal outlays. Discretionary outlays for veterans, FEHB and TRICARE are excluded.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-053",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-056",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-053",
+  "statement": "CBO projects the average federal subsidy per subsidized enrollee in 2036 at 26920 dollars for Medicare, 13070 for Medicaid and CHIP, 4990 for employment-based coverage and 11500 for nongroup coverage and the Basic Health Program.",
+  "claim": "analysis",
+  "figures": [
+   "2036",
+   "26920",
+   "13070",
+   "4990",
+   "11500"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "**Average Federal Subsidy per Subsidized Enrollee, by Source of Coverage, 2036**",
+   "| Medicare | 26920 |",
+   "| Medicaid and CHIP | 13070 |",
+   "| Employment-based coverage | 4990 |",
+   "| Nongroup coverage and the Basic Health Program | 11500 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says. Added for the health coverage model (models/tools/health-coverage), which uses the 2032 column. Calendar-year 2036 averages over subsidized enrollees only; used by the model as a cross-check on its 2032 per-person federal amounts, not as an input.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-052",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-054",
+  "statement": "CBO projects that in 2036, among people younger than 65 with income below 150 percent of the federal poverty level (78 million people), 42 million have Medicaid or CHIP, 13.5 million employment-based coverage, 4 million nongroup coverage and 14.5 million are uninsured; among the 93 million with income of 150 to 400 percent, 54 million have employment-based coverage, 17 million Medicaid or CHIP, 9 million nongroup coverage and 14 million are uninsured; among the 109 million above 400 percent, 97 million have employment-based coverage, 7 million nongroup coverage and 4 million are uninsured.",
+  "claim": "analysis",
+  "figures": [
+   "2036",
+   "150",
+   "7",
+   "78",
+   "4",
+   "42",
+   "13.5",
+   "14.5",
+   "14",
+   "93",
+   "9",
+   "400",
+   "54",
+   "17",
+   "109",
+   "97"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "**Health Insurance Coverage for People Younger Than 65, by Income, 2036**",
+   "For people younger than 65, sources of health insurance coverage are strongly associated",
+   "**Less than 150% of the FPL (Total: 78 million)**\n| Category | Millions of people |\n| --- | --- |\n| Medicare | 3.5 |\n| Medicaid and CHIP | 42 |\n| Employment-based coverage | 13.5 |\n| Nongroup coverage and the Basic Health Program | 4 |\n| Other coverage | 2.5 |\n| Uninsured | 14.5 |",
+   "**150% to 400% of the FPL (Total: 93 million)**\n| Category | Millions of people |\n| --- | --- |\n| Medicare | 1.5 |\n| Medicaid and CHIP | 17 |\n| Employment-based coverage | 54 |\n| Nongroup coverage and the Basic Health Program | 9 |\n| Other coverage | 1 |\n| Uninsured | 14 |",
+   "**More than 400% of the FPL (Total: 109 million)**\n| Category | Millions of people |\n| --- | --- |\n| Medicare | 0.5 |\n| Medicaid and CHIP | 2 |\n| Employment-based coverage | 97 |\n| Nongroup coverage and the Basic Health Program | 7 |\n| Other coverage | 0.5 |\n| Uninsured | 4 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says. Added for the health coverage model (models/tools/health-coverage), which uses the 2032 column. Three income groups only, for 2036 and for people younger than 65 (Medicare counts here are people under 65 with disabilities). The model splits these into its four bands with labeled assumptions.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-051",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-055",
+  "statement": "CMS reports 2024 national health spending of 1,634.7 billion dollars on hospitals, 1,109.7 billion on physician and clinical services, 467.0 billion on prescription drugs and 590.5 billion from other third party payers and public health activity.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "1,634.7",
+   "1,109.7",
+   "467.0",
+   "590.5"
+  ],
+  "source": "SRC-3104",
+  "anchor": [
+   "Hospital expenditures grew 8.9% to $1,634.7 billion in 2024, slower than the 10.6% growth in 2023.",
+   "Physician and clinical services expenditures grew 8.1% to $1,109.7 billion in 2024, faster growth than the 7.4% in 2023.",
+   "Prescription drug spending increased 7.9% to $467.0 billion in 2024, slower than the 10.8% growth in 2023.",
+   "Other Third Party Payers and Programs and Public Health Activity spending declined 7.0% in 2024 to $590.5 billion, or 11 percent of total NHE."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "CMS Office of the Actuary, National Health Expenditure Accounts, 2024 data released December 2025; complements EV-CAR-120 and EV-CAR-121, which give the payer lines. The fact sheet text does not give the total on the payer lines, so the model derives the remainder.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-056",
+  "statement": "CMS projects that over 2025 to 2034 national health spending grows 5.4 percent a year on average, Medicare 7.7 percent a year and both Medicaid and private health insurance 5.0 percent a year, that the insured share of the population is 90.5 percent in 2034, and that the federal share of spending rises from 31 percent to 33 percent.",
+  "claim": "analysis",
+  "figures": [
+   "2025",
+   "2034",
+   "5.4",
+   "7.7",
+   "5.0",
+   "90.5",
+   "31",
+   "33"
+  ],
+  "source": "SRC-3104",
+  "anchor": [
+   "Over 2025-34 average NHE growth (5.4 percent) is projected to outpace that of average Gross Domestic Product (GDP) growth (4.1 percent), resulting in an increase in the health spending share of GDP from 18.0 percent in 2024 to 20.6 percent in 2034.",
+   "Medicare spending is expected to grow the fastest among major sources of funding over 2025-34, at 7.7 percent per year on average. (In contrast, both Medicaid spending and private health insurance (PHI) spending are expected to grow 5.0 percent per year on average over 2025-34.)",
+   "The insured share of the population is expected to be 90.5 percent in 2034, compared to 91.8 percent in 2024.",
+   "The federal government-sponsored share of NHE is expected to continue to increase from 31 percent in 2024 to 33 percent in 2034."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "CMS Office of the Actuary projections of national health expenditures, 2025 to 2034, published before the 2025 reconciliation law could be fully reflected and before the 2026 credit expiry; they will differ from CBO on coverage and Medicaid growth. No second publisher is linked: CBO publishes subsidies, not national spending. Re-check when CMS releases the 2025 data around December 2026.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-120",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-057",
+  "statement": "CMS reports that per person personal health care spending in 2020 was 22,356 dollars for people 65 and older, 4,217 dollars for children and 9,154 dollars for working-age people, against 10,191 dollars nationally.",
+  "claim": "data",
+  "figures": [
+   "22,356",
+   "4,217",
+   "9,154",
+   "10,191"
+  ],
+  "source": "SRC-3104",
+  "anchor": [
+   "Per person personal health care spending for the 65 and older population was $22,356 in 2020, over 5 times higher than spending per child ($4,217) and almost 2.5 times the spending per working-age person ($9,154).",
+   "Medicaid expenditures per enrollee were highest in North Dakota ($12,314) and lowest in Georgia ($4,754) in 2020.",
+   "In 2020, per capita personal health care spending ranged from $7,522 in Utah to $14,007 in New York. Per capita spending in New York state was 37 percent higher than the national average ($10,191) while spending in Utah was about 26 percent lower."
+  ],
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "CMS Office of the Actuary, NHE by age and sex, 2020. The national average of 10,191 dollars is quoted in the state-of-residence summary. The model uses the age gradient only to scale the cost of covering people aged 50 to 64 and children; a current-year age table would replace it.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-058",
+  "statement": "CBO projects that of 37.4 million uninsured people in 2036, 6.1 million are eligible for Medicaid or CHIP, 16.9 million are eligible for other subsidized coverage and 14.5 million are not eligible for subsidized coverage.",
+  "claim": "analysis",
+  "figures": [
+   "37.4",
+   "2036",
+   "6.1",
+   "16.9",
+   "14.5"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "##### Eligibility for Subsidized Coverage Among the Uninsured Population, 2036",
+   "| Total uninsured population | 37.4 |\n| Eligible for Medicaid or CHIP | 6.1 |\n| Made eligible for Medicaid by the ACA | 3.3 |",
+   "| Eligible for subsidized coverage other than Medicaid or CHIP | 16.9 |",
+   "| Not eligible for subsidized coverage | 14.5 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says. Added for the health coverage model (models/tools/health-coverage), which uses the 2032 column. 2036 values, current law: the 4.3 million lost to community engagement requirements and 5.8 million with immigration status are inside the not-eligible group. Used for the share of the uninsured whom an auto-enrolled public plan could reach.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-020",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-059",
+  "statement": "CBO states that in 2026 the federal poverty guideline begins at 15,960 dollars of income for a single person in most states and increases by 5,680 dollars for each additional person in a household.",
+  "claim": "data",
+  "figures": [
+   "2026",
+   "15,960",
+   "5,680"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "In most states, the FPL in 2026 begins at $15,960 of modified adjusted",
+   "gross income for a single person and increases by $5,680 for each additional person in a household."
+  ],
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says. Added for the health coverage model (models/tools/health-coverage), which uses the 2032 column. CBO restating the HHS guideline; the model uses it to turn income bands into dollars for the premium tax credit schedule.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-060",
+  "statement": "CBO describes federal funding as about two-thirds of all Medicaid and CHIP funding, with states financing the remainder.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3000",
+  "anchor": [
+   "The federal government provides about two-thirds of all funding, and states finance the remainder."
+  ],
+  "grade": "B",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says. Added for the health coverage model (models/tools/health-coverage), which uses the 2032 column. A general description of the matching rules; the share is higher for adults made eligible by the ACA and lower for some other groups.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-061",
+  "statement": "CBO projects that annual spending per Medicare Advantage enrollee will be 7 percent higher, on average, than spending per fee-for-service enrollee with Parts A and B, that Medicare Advantage will account for 54 percent of Part A and B spending in 2026 and 61 percent in 2036, and that in 2032 spending is 20900 dollars per Medicare Advantage enrollee and 19500 dollars per fee-for-service enrollee.",
+  "claim": "analysis",
+  "figures": [
+   "7",
+   "54",
+   "2026",
+   "61",
+   "2036",
+   "2032",
+   "20900",
+   "19500"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "54 percent in 2026 to 61 percent in 2036. Over that period, annual spending per MA enrollee is projected",
+   "to be 7 percent higher, on average, than spending per FFS enrollee with both Part A and Part B coverage.",
+   "| 2032 | 20900 | 19500 |"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Congressional Budget Office with the Joint Committee on Taxation staff, report published July 2026 on the February 2026 baseline; nonpartisan; projections assume current law and are uncertain, as the report itself says. Added for the health coverage model (models/tools/health-coverage), which uses the 2032 column. CBO notes that its estimate includes supplemental benefits financed through plan rebates and excludes categories always paid through fee-for-service. MedPAC estimates a larger gap (EV-CAR-135).",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-135",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-266",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
   "id": "EV-CAR-100",
   "statement": "In 2025, 26.7 million people (7.9 percent) were uninsured for the entire year, not statistically different from 2024.",
   "claim": "data",
