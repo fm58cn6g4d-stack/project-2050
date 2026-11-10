@@ -1,0 +1,2189 @@
+[
+ {
+  "id": "EV-MOV-001",
+  "statement": "CBO's September 2026 cost estimate says H.R. 8870 would provide $470.7 billion in contract authority over 2027-2031 and authorize $109 billion for other programs over 2026-2031, and that the current surface transportation authorization, as extended by the Continuing Appropriations and Extensions Act, 2027, expires on December 11, 2026.",
+  "claim": "data",
+  "figures": [
+   "$470.7 billion",
+   "$109 billion",
+   "December 11, 2026",
+   "2027-2031",
+   "2026-2031"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "The most recent authorization for surface transportation (divisions A, B, and C of the Infrastructure Investment and Jobs Act, 2021, subsequently extended in division C of the Continuing Appropriations and Extensions Act, 2027) expires on December 11, 2026.",
+   "Over the 2027-2031 period, H.R. 8870 would provide $470.7 billion in contract authority that would be subject to obligation limitations.",
+   "Those authorizations would total $109 billion over the 2026-2031 period."
+  ],
+  "locator": "Basis of Estimate: Direct Spending (Contract Authority) and Spending Subject to Appropriation (Other Authorized Programs)",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-11",
+  "note": "The two amounts sum to about $580 billion (470.7 + 109 = 579.7; project arithmetic, not a CBO total); the 109 covers 2026-2031 and CBO notes most of it falls in 2027-2031. Press accounts of the committee also give 'roughly $580 billion' for FY2027-31. Re-check at the December 11, 2026 expiry or on any further extension.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-002",
+  "statement": "CBO's June 2026 baseline projects a cumulative Highway Trust Fund shortfall beginning in 2027 for the transit account ($2,921 million) and in 2028 for the highway account ($11,914 million), reaching $45,189 million and $86,010 million by 2031, and notes that some taxes credited to the fund, including all but 4.3 cents of the federal tax on motor fuels, are scheduled to expire on September 30, 2028.",
+  "claim": "analysis",
+  "figures": [
+   "2,921",
+   "11,914",
+   "45,189",
+   "86,010",
+   "4.3 cents",
+   "September 30, 2028"
+  ],
+  "source": "SRC-3001",
+  "anchor": [
+   "Actual, 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036",
+   "Cumulative Shortfall Highway Account n.a. n.a. n.a. -11,914 -36,770 -61,427 -86,010",
+   "Transit Account n.a. n.a. -2,921 -13,910 -24,361 -34,730 -45,189",
+   "Some of the taxes that are credited to the Highway Trust Fund are scheduled to expire on September 30, 2028, including the taxes on tires and all but 4.3 cents of the federal tax on motor fuels."
+  ],
+  "locator": "Highway Trust Fund Accounts table, Memorandum: Cumulative Shortfall rows (cells shown space-separated; columns are fiscal years 2025 actual to 2036) and footnote c",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "CBO is nonpartisan and scores the bill as ordered reported by the House Committee on Transportation and Infrastructure (a bipartisan bill); it is a projection under Deficit Control Act baseline rules, not a forecast of what Congress will do. The baseline assumes, by statute, that obligations are paid in full and expiring taxes keep being collected after FY2028, so the shortfall rows show what would be missing, not a legal default.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-015",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-MOV-131",
+    "stance": "supports"
+   }
+  ],
+  "note": "Exhaustion year is read from the first year of a cumulative shortfall: transit in 2027 (end-of-year balance $8,173 million in 2026, none in 2027), highway in 2028 (end-of-year balance $13,013 million in 2027). Through 2036 the shortfalls reach $221,400 million (highway) and $96,468 million (transit) in the same table. Next scheduled CBO baseline is early 2027. Graded C as credible secondary analysis, as the housing register grades CBO projections.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-003",
+  "statement": "On May 22, 2026, the House Transportation and Infrastructure Committee marked up and approved the BUILD America 250 Act by a vote of 62 to 2.",
+  "claim": "data",
+  "figures": [
+   "62 to 2",
+   "May 22, 2026"
+  ],
+  "source": "SRC-3002",
+  "anchor": "On May 22, 2026, the Committee marked up and approved the BUILD America 250 Act – Building Unrivaled Infrastructure and Long-term Development for America’s 250 th Act by a vote of 62 to 2.",
+  "grade": "A",
+  "fact_date": "2026-05-22",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-03",
+  "context": "The committee's own page (Republican-led majority; the bill is the joint product of the Chairman and Ranking Member). The vote is a recorded fact; the page's descriptions of the bill are advocacy and are not used.",
+  "note": "CBO's estimate (SRC-3000) describes the bill as H.R. 8870 'as ordered reported ... on May 22, 2026'. The committee's press release of the same day (DocumentID=410054) does not state the tally. The 119th Congress ends January 3, 2027, when an unpassed bill lapses.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-004",
+  "statement": "The Internal Revenue Code appropriates to the Highway Trust Fund amounts equivalent to the listed taxes received in the Treasury before October 1, 2028, and, for tax liability incurred before that date, those received before July 1, 2029.",
+  "claim": "data",
+  "figures": [
+   "October 1, 2028",
+   "July 1, 2029"
+  ],
+  "source": "SRC-3003",
+  "anchor": [
+   "There are hereby appropriated to the Highway Trust Fund amounts equivalent to the taxes received in the Treasury before October 1, 2028, under the following provisions—",
+   "There are hereby appropriated to the Highway Trust Fund amounts equivalent to the taxes which are received in the Treasury after September 30, 2028, and before July 1, 2029, and which are attributable to liability for tax incurred before October 1, 2028, under the provisions described in paragraph (1)."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-11",
+  "note": "26 U.S.C. 9503(b)(1) and (b)(2), 2024 edition (dates set by Pub. L. 117-58, section 80102(e)). Primary law. Confirm against the current Code before publication; Congress can extend the dates in a reauthorization (the authorization itself expires December 11, 2026).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-005",
+  "statement": "FHWA estimates an investment backlog of $1.1 trillion, of which $852 billion is for existing assets, and that addressing all cost-beneficial investments would take $151.1 billion a year in capital spending by all levels of government, 31.3 percent more than the $115.1 billion a year spent on average from 2014 to 2018; the scenarios run through 2038.",
+  "claim": "analysis",
+  "figures": [
+   "$1.1 trillion",
+   "$852 billion",
+   "$151.1 billion",
+   "31.3 percent",
+   "$115.1 billion"
+  ],
+  "source": "SRC-3005",
+  "anchor": [
+   "The Improve Conditions and Performance scenario seeks to identify the level of capital\ninvestment needed to address all potential investments estimated to be cost-beneficial.",
+   "investment associated with this scenario is\n$151.1 billion, 31.3 percent higher than the",
+   "• The Sustain 2014–2018 Spending scenario assumes that capital spending by all levels of\ngovernment is sustained through 2038 at the average annual level from 2014 to 2018\n($115.1 billion)",
+   "The $1.1 trillion backlog includes $237 billion",
+   "existing assets. This $852 billion Highway"
+  ],
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "FHWA and FTA, 25th Conditions and Performance Report to Congress (2024), Biden administration. A model estimate in constant 2018 dollars from 2018 data, before the IIJA's funding; it counts only cost-beneficial investments, so it is not a measure of all wants. Written before the second Trump administration; the successor edition (26th) has not been found.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-010",
+    "stance": "supports"
+   }
+  ],
+  "note": "The $852 billion is FHWA's 'Highway Repair Backlog'; the $1.1 trillion includes $237 billion for expansion. Text version is column-interleaved, so the anchors are single-column fragments of the Highlights page. Poor pavement share is EV-MOV-017.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-006",
+  "statement": "In the 2026 National Bridge Inventory table, 41,148 of 624,939 bridges were in poor condition, 268,737 good and 315,054 fair.",
+  "claim": "data",
+  "figures": [
+   "41,148",
+   "624,939",
+   "268,737",
+   "315,054"
+  ],
+  "source": "SRC-3006",
+  "anchor": [
+   "All Bridges\nState\nBridge Counts\nBridge Area (Square Feet)\nAll\nGood\nFair\nPoor",
+   "TOTALS\n624,939\n268,737\n315,054\n41,148"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-08-04",
+  "note": "Count basis, not deck-area weighted. 41,148 / 624,939 is 6.6 percent (project arithmetic; the table gives no percentage). The 2025 table (EV-MOV-018) had 41,685 of 624,193 (6.7 percent). Method: the 2026 table reports bridge area in square feet (2025: square meters) and no longer carries the '10-Year Rule does not apply' line. The table is conditions as submitted by states by June of the year.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-007",
+  "statement": "NHTSA's early estimate is that 36,640 people died in motor vehicle traffic crashes in 2025, about 6.7 percent fewer than the 39,254 reported for 2024, with a fatality rate of 1.10 per 100 million vehicle miles traveled (down from 1.19); estimated pedestrian deaths fell 8 percent.",
+  "claim": "data",
+  "figures": [
+   "36,640",
+   "6.7 percent",
+   "39,254",
+   "1.10",
+   "1.19",
+   "8 percent"
+  ],
+  "source": "SRC-3008",
+  "anchor": [
+   "That report shows an estimated 36,640\npeople died in motor vehicle traffic crashes in 2025, a decrease of about 6.7 percent as compared to 39,254\nfatalities reported to have occurred in 2024. The estimated fatality rate for 2025 is 1.10 fatalities per 100 million\nVMT, down from the report rate of 1.19 fatalities per 100 million VMT in 2024.",
+   "Total estimated pedestrian fatalities decreased 8 percent."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-30",
+  "context": "NHTSA, U.S. DOT, second Trump administration (summary dated July 2026). Counts are an early projection from Early Notification data, monthly fatality counts and partial FARS data, not final FARS.",
+  "note": "A projection, replaced by final 2025 FARS data (expected after this register's re-check date). The brief gives percent changes by sub-category but no pedestrian count in extractable text (counts sit in charts); do not restate a pedestrian count from this source. No change in method or schedule seen compared with earlier NHTSA early-estimate briefs, but the 2025 lapse in federal appropriations and staffing changes are not addressed in the brief.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-008",
+  "statement": "BTS estimates that rising highway construction costs reduced the economic value of IIJA funding by 32 percent from FY 2022 to 2025, with highway construction costs up 63 percent from FY 2021 to 2025.",
+  "claim": "analysis",
+  "figures": [
+   "32 percent",
+   "63 percent"
+  ],
+  "source": "SRC-3009",
+  "anchor": [
+   "The most recent National Highway Construction Cost Index (NHCCI) data show that increases in highway construction costs reduced IIJA funds by 32 percent from FY 2022 to 2025.",
+   "Overall, highway construction costs grew 63 percent from FY 2021 to 2025 [FHWA n.d.], which has reduced the amount of highway infrastructure that funding recipients can buy."
+  ],
+  "locator": "Summary text, first page of the brief (June 2026)",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "BTS, U.S. DOT, second Trump administration; presented as that administration's analysis. It rests on FHWA's National Highway Construction Cost Index (a measured series). The 32 percent is BTS's own calculation: authorized highway funds multiplied by one minus (2021 index divided by the year's index), per the brief's note to Figure 1.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-132",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-MOV-133",
+    "stance": "supports"
+   }
+  ],
+  "note": "I did not reproduce the 32 percent from the index values. The brief's other lines show a different measure: a 63 percent cost rise from FY2021 to 2025 alone implies a larger loss for FY2025 by that formula, so the dossier should say which measure it uses. The brief updates BTS's 2024 brief on a calendar-year basis; this version moved to fiscal years and its embedded PDF title still reads '30%... 2022 to 2024'. Cost index growth slowed to 0.6 percent in FY2025.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-009",
+  "statement": "A GAO survey (December 2024 to March 2025) found that 23 percent of awardees (49 of 213 respondents) for selected fiscal year 2022 discretionary IIJA grant programs had no signed grant agreement; in DOT's 2023 analysis of fiscal year 2019 BUILD/RAISE grants, 31 of 32 projects changed between selection and signing, 75 percent changing the budget and 69 percent the completion date by 6 months or more.",
+  "claim": "data",
+  "figures": [
+   "23 percent",
+   "49 of 213",
+   "31 of the 32",
+   "75 percent",
+   "69 percent"
+  ],
+  "source": "SRC-3010",
+  "anchor": [
+   "Approximately 23 percent of surveyed awardees for\nselected fiscal year 2022 discretionary grant programs reported that they did\nnot have a signed grant agreement when they responded to GAO’s survey from\nDecember 2024 to March 2025.",
+   "at the time they submitted our survey, 23 percent (49 of 213) of\nrespondents indicated they did not have a signed grant agreement.",
+   "in DOT’s 2023 analysis of BUILD/RAISE grants,\nDOT found that 31 of the 32 projects analyzed in the fiscal year 2019 funding\nround changed from when DOT selected the application to when DOT signed the\ngrant agreement. Of these, 75 percent changed the budget, and 69 percent\nchanged the completion date by 6 months or more."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "GAO is the nonpartisan legislative-branch auditor. The counts are GAO's survey results (an estimate for the 23 percent; 49 of 213 is the respondent count) and a DOT analysis GAO reports; GAO's findings on causes and recommendations are analysis and are not used here.",
+  "note": "The survey covers selected fiscal year 2022 discretionary programs, not all IIJA grants. The 31 of 32 figure is DOT's 2023 analysis of an earlier (FY2019) round, reported by GAO. GAO-25-107166 also finds DOT had obligated more than half of available IIJA grant funding as of April 2025.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-010",
+  "statement": "The National Academies' 2018 study of the Interstate System estimated that renewing and modernizing it would take $45–$70 billion a year in combined state and federal spending over the next 20 years, two to three times the recent $20–$25 billion a year.",
+  "claim": "analysis",
+  "figures": [
+   "$45–$70 billion",
+   "$20–$25 billion"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "Recent combined state and federal capital spending on the Interstates has been $20–$25 billion annually.",
+   "Thus, an approximation of the total state and federal spending needed to renew and modernize the Interstates over the next 20 years averages $45–$70 billion per year.",
+   "The figures in this range are two to three times higher than current spending levels"
+  ],
+  "locator": "Summary (as printed in the NAP brochure of the Summary): first quotation on its summary page, second and third on p. 18",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Consensus committee of the Transportation Research Board, National Academies, convened at Congress's request (FAST Act); peer-reviewed. Interstate system only, 2014 spending in 2016 dollars, and the committee says the range excludes interchange reconstruction and resilience costs. Four years older than the IIJA.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-005",
+    "stance": "supports"
+   }
+  ],
+  "note": "Special Report 329. The address in the request (nap.nationalacademies.org/26472) is the Japanese-language edition; the English original is NAP 25334 (doi 10.17226/25334). Quotations read through the Exa tool in the NAP brochure, not in the full report; the reviewer should check them against the report's Summary.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-011",
+  "statement": "Transportation was the largest economic-sector source of U.S. greenhouse gas emissions in 2022, at 28.4 percent of the total.",
+  "claim": "data",
+  "figures": [
+   "28.4 percent"
+  ],
+  "source": "SRC-3012",
+  "anchor": "Using this categorization, transportation activities accounted for the largest portion (28.4 percent) of total U.S.\ngreenhouse gas emissions in 2022.",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-15",
+  "context": "EPA, April 2024 (Biden administration), the latest final Inventory (1990-2022) I could reach; EPA's inventory page as fetched 2026-11-10 lists the 1990-2023 report only as a draft for public comment (docket EPA-HQ-OAR-2024-0591), so the 2023 shares are not available from EPA here.",
+  "note": "Direct emissions by economic sector, gross emissions. When electricity use is allocated to end-use sectors transportation is 28.5 percent and still first (same chapter). Check whether EPA publishes a final 1990-2023 or 1990-2024 Inventory; the release schedule has been irregular since 2025.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-012",
+  "statement": "In 2024 the United States had 4,208,454 miles of public roads: counties owned 1,538,381 rural and 261,778 urban miles and towns, townships and municipalities owned 522,219 rural and 805,284 urban miles, while state highway agencies owned 659,843 rural and 167,565 urban miles.",
+  "claim": "data",
+  "figures": [
+   "4,208,454",
+   "1,538,381",
+   "261,778",
+   "522,219",
+   "805,284",
+   "659,843",
+   "167,565"
+  ],
+  "source": "SRC-3013",
+  "anchor": [
+   "Public Road Length - 2024\nMiles By Ownership",
+   "STATE\nHIGHWAY\nAGENCY\nCOUNTY\nTOWN,\nTOWNSHIP,\nMUNICIPAL (1)",
+   "U.S. Total\n659,843\n1,538,381\n522,219\n79,395\n156,484\n2,956,322\n167,565\n261,778\n805,284\n11,580\n5,337\n1,251,544\n588\n4,208,454"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "note": "Local governments (counties plus towns, townships and municipalities) own 3,127,662 miles, about 74.3 percent of the U.S. total (project arithmetic from the row above; FHWA's table gives no share). The row is the 50 states and D.C.; the 'Grand Total' with Puerto Rico is 4,228,430. Column order in the saved text is the table's rural group (state, county, municipal, other jurisdictions, federal, total) then the urban group, then unreported and total, and the rural and urban columns sum to the totals. The 2025 table was not posted at the 2026-11-10 check (the 2024 table was posted October 17, 2025).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-013",
+  "statement": "In 2025, transportation was 16.5 percent of average annual consumer-unit expenditures of $81,905, the second-largest share after housing (33.9 percent, or $27,790).",
+  "claim": "data",
+  "figures": [
+   "16.5 percent",
+   "$81,905",
+   "33.9 percent",
+   "$27,790"
+  ],
+  "source": "SRC-3014",
+  "anchor": [
+   "Average annual expenditures for all consumer units in 2025 were $81,905",
+   "On average, consumer units spent $27,790 on housing in 2025, which was 33.9 percent of total average annual expenditures. The next largest shares of total expenditures were transportation (16.5 percent), food (13.0 percent), and personal insurance and pensions (12.4 percent)."
+  ],
+  "locator": "Consumer Expenditures--2025 news release, USDL-26-1619, October 29, 2026: first and third paragraphs of the text",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-09-30",
+  "context": "BLS, U.S. Department of Labor, second Trump administration. Method note in the release: the 2025 lapse in federal appropriations stopped Consumer Expenditure Survey collection in October and November 2025, and BLS used a weight adjustment for the missing data.",
+  "note": "Transportation includes vehicle purchases, gasoline, insurance and public transportation (BLS category). The release's Table 1 shows transportation at $13,492 for 2025 (read through the Exa tool; not quoted because the anchor limit applies).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-014",
+  "statement": "Atlas Public Policy reports that by early 2025 more than $526 million of NEVI funding had been obligated and contracts had been awarded for nearly 4,000 DC fast-charging ports at 990 locations, and that in January 2026 Congress rescinded just over $503 million of NEVI funding across 30 states and territories.",
+  "claim": "data",
+  "figures": [
+   "$526 million",
+   "4,000",
+   "990",
+   "$503 million",
+   "30 states and territories"
+  ],
+  "source": "SRC-3015",
+  "anchor": [
+   "By early 2025, more than $526 million had been obligated and contracts had been awarded for nearly 4,000 direct current fast charging (DCFC) ports at 990 locations.",
+   "in January 2026, Congress passed a budget law that rescinded just over $503 million in NEVI funding across 30 states and territories."
+  ],
+  "locator": "Introduction (second paragraph) of the HTML page for the July 2026 fact sheet",
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-31",
+  "context": "Atlas Public Policy is a research and analytics group focused on clean-energy and EV-charging policy, with a stake in NEVI continuing; its counts compile state and federal records. Stakeholder data, not official data.",
+  "note": "Incomplete against the request: the fact-sheet PDF returned 'not found' and the HTML page gave only its introduction, so the current obligated total, ports under contract in July 2026 and the unspent balance were not read. A search-result snippet mentions about $4 billion still available and about $739 million 'already'; it was not read in context and is not used. Pair with FHWA or GAO NEVI data before relying on it.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-015",
+  "statement": "CBO's baseline projects cumulative Highway Trust Fund shortfalls at the end of 2031 of $86.0 billion for the highway account and $45.2 billion for the transit account, rising under the House committee bill to $99.5 billion and $48.2 billion.",
+  "claim": "analysis",
+  "figures": [
+   "$86.0 billion",
+   "$45.2 billion",
+   "$99.5 billion",
+   "$48.2 billion"
+  ],
+  "source": "SRC-3000",
+  "anchor": [
+   "CBO’s baseline projections for HTF accounts anticipate cumulative shortfalls of $86.0 billion at the end of 2031 for the highway account and of $45.2 billion for the transit account.",
+   "CBO estimates that under the bill, the cumulative shortfall at the end of 2031 would be $99.5 billion for the highway account and $48.2 billion for the transit account"
+  ],
+  "locator": "Basis of Estimate: Status of the Highway Trust Fund Under H.R. 8870, first and third paragraphs",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "CBO is nonpartisan and scores the bill as ordered reported by the House Committee on Transportation and Infrastructure (a bipartisan bill); it is a projection under Deficit Control Act baseline rules, not a forecast of what Congress will do. CBO excludes the bill's electric and plug-in hybrid vehicle fee revenue from these projections, and its baseline shortfall figures match the June 2026 baseline table (EV-MOV-002).",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-002",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-MOV-131",
+    "stance": "supports"
+   }
+  ],
+  "note": "Same publisher as EV-MOV-002, so the checker will not count it as independent corroboration. Graded C as credible secondary analysis, as the housing register grades CBO projections.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-016",
+  "statement": "Under current law the federal excise tax on gasoline (18.3 cents per gallon) and on diesel fuel and kerosene (24.3 cents) falls to 4.3 cents per gallon after September 30, 2028.",
+  "claim": "data",
+  "figures": [
+   "18.3 cents",
+   "24.3 cents",
+   "4.3 cents",
+   "September 30, 2028"
+  ],
+  "source": "SRC-3004",
+  "anchor": [
+   "(i) in the case of gasoline other than aviation gasoline, 18.3 cents per gallon,",
+   "(iii) in the case of diesel fuel or kerosene, 24.3 cents per gallon.",
+   "The rates of tax specified in clauses (i) and (iii) of subsection (a)(2)(A) shall be 4.3 cents per gallon after September 30, 2028."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-11",
+  "note": "26 U.S.C. 4081(a)(2)(A) and (d)(1), 2024 edition (the Leaking Underground Storage Tank financing rate adds 0.1 cent under (a)(2)(B)). Primary law; confirm against the current Code before publication.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-017",
+  "statement": "FHWA reports that the share of Federal-aid highway pavement mileage with poor ride quality rose from 15.8 percent to 22.6 percent between 2008 and 2018, while the share weighted by vehicle miles traveled rose from 14.6 percent to 15.2 percent.",
+  "claim": "data",
+  "figures": [
+   "15.8 percent",
+   "22.6 percent",
+   "14.6 percent",
+   "15.2 percent"
+  ],
+  "source": "SRC-3005",
+  "anchor": "basis worsened more significantly during the 2008–2018 period (rising from 15.8 percent to\n22.6 percent) than ride quality measured on a VMT-weighted basis (rising from 14.6 percent\nto 15.2 percent).",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "FHWA and FTA, 25th Conditions and Performance Report (2024), Biden administration; 2018 is the latest year in this edition. The report notes poor-ride-quality data are affected by changes in reporting instructions beginning in 2010.",
+  "note": "The report adds that weighted by lane miles the poor share improved (19.8 percent at the start of the period; the end value falls across a page break and is not quoted).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-018",
+  "statement": "In the 2025 National Bridge Inventory table, 41,685 of 624,193 bridges were in poor condition, 272,779 good and 309,729 fair.",
+  "claim": "data",
+  "figures": [
+   "41,685",
+   "624,193",
+   "272,779",
+   "309,729"
+  ],
+  "source": "SRC-3007",
+  "anchor": [
+   "All Bridges\nState\nBridge Counts\nBridge Area (Square Meters)\nAll\nGood\nFair\nPoor",
+   "TOTALS\n624,193\n272,779\n309,729\n41,685"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-31",
+  "note": "Prior-year comparison for EV-MOV-006 (the 2026 table supersedes it). 41,685 / 624,193 is 6.7 percent (project arithmetic). Guam did not submit 2025 data.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-200",
+  "statement": "As chosen, the Moving America Act of 2031 authorizes $936.57B over FY2032-36; dedicated receipts cover $545.84B and the general fund pays $390.73B, or 0.180% of GDP a year, falling to 0.026% by FY2042-46.",
+  "claim": "analysis",
+  "figures": [
+   "$936.57B",
+   "$545.84B",
+   "$390.73B",
+   "0.180%",
+   "0.026%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "The Moving America Act of 2031 authorizes **$936.57B** over FY2032-36 for highways, highway safety, public transportation and intercity passenger rail. Users pay for repair and the nation pays to build. Dedicated receipts cover **$545.84B**, and the general fund pays **$390.73B**, or **0.180% of GDP** a year. By FY2042-46 the draw falls to 0.026%.",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/3-size-and-split.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-201",
+  "statement": "For a 25-mpg car driven 12,000 miles, the chosen fuel-tax path raises the federal fuel tax from $88 a year to $105 in FY2030, $142 in FY2032 and $225 in FY2036.",
+  "claim": "analysis",
+  "figures": [
+   "$88",
+   "$105",
+   "$142",
+   "$225"
+  ],
+  "source": "SRC-0032",
+  "anchor": "For a 25-mpg car driven 12,000 miles, federal fuel tax goes from $88 today to $105 in FY2030, $142 in FY2032 and $225 in FY2036.",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/1-who-pays-for-roads.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-202",
+  "statement": "With no pauses, gasoline tax reaches 62.0 cents nominal in FY2039, 48.4 cents in 2029 dollars, against 45.3 cents for the 1993 rate in 2029 dollars.",
+  "claim": "analysis",
+  "figures": [
+   "62.0",
+   "48.4",
+   "45.3",
+   "2039",
+   "2029",
+   "1993"
+  ],
+  "source": "SRC-0032",
+  "anchor": "With no pauses, gasoline reaches 62.0¢ nominal in FY2039, the last step: 48.4¢ in 2029 dollars, against 45.3¢ for the 1993 rate in 2029 dollars.",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/1-who-pays-for-roads.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-203",
+  "statement": "Indexing alone, without the fuel-tax steps, leaves the general-fund draw at 0.267% of GDP and renewal coverage in FY2042-46 at 62 / 42 / 75 percent; 2-cent steps give 0.209% and 85 / 88 / 111; three pauses give 0.204%, recovered later.",
+  "claim": "analysis",
+  "figures": [
+   "0.267%",
+   "0.209%",
+   "0.204%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "Indexing only: draw 0.267%, renewal coverage FY2042-46 62 / 42 / 75. 2¢ steps: 0.209%, 85 / 88 / 111. Three pauses: 0.204%, recovered later",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/1-who-pays-for-roads.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-204",
+  "statement": "Under the clean-vehicle charge, an electric car pays 0.64 cents a mile in FY2031 ($77 a year at 12,000 miles), 1.17 cents in FY2036 ($141, the same as a 40-mpg hybrid) and 1.84 cents in FY2046 ($221, against $267 for the hybrid and $427 for a 25-mpg car).",
+  "claim": "analysis",
+  "figures": [
+   "0.64",
+   "$77",
+   "12,000",
+   "1.17",
+   "$141",
+   "1.84",
+   "$221",
+   "$267",
+   "$427"
+  ],
+  "source": "SRC-0032",
+  "anchor": "A car pays 0.64¢ a mile in FY2031 ($77 a year at 12,000 miles), 1.17¢ in FY2036 ($141, the same as a 40-mpg hybrid) and 1.84¢ in FY2046 ($221, against $267 for the hybrid and $427 for a 25-mpg car).",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/1-who-pays-for-roads.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-205",
+  "statement": "Pegging the clean-vehicle charge to a 25-mpg car, with plug-ins at 50%, would raise about $5.7B more in FY2032-36.",
+  "claim": "analysis",
+  "figures": [
+   "$5.7B",
+   "50%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "Pegging to 25 mpg with plug-ins at 50% would raise about $5.7B more in FY2032-36",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/1-who-pays-for-roads.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-206",
+  "statement": "Without the fossil transition premium, FY2042-46 draws 0.065% of GDP instead of 0.026%, and renewal coverage is 89 / 96 / 104 instead of 95 / 109 / 135; the FY2042-46 premium receipts ($124.8B) are an upper bound, since the model has no demand response.",
+  "claim": "analysis",
+  "figures": [
+   "0.065%",
+   "0.026%",
+   "$124.8B"
+  ],
+  "source": "SRC-0032",
+  "anchor": "Without it, FY2042-46 draws 0.065% instead of 0.026% and renewal coverage is 89 / 96 / 104 instead of 95 / 109 / 135. The FY2042-46 receipts ($124.8B) are an upper bound, since the model has no demand response.",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/1-who-pays-for-roads.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-207",
+  "statement": "A weight-distance charge at a 2-cent average, rather than as chosen, raises the draw to 0.185% of GDP on average and an all-in peak of 0.213%.",
+  "claim": "analysis",
+  "figures": [
+   "0.185%",
+   "0.213%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "At a 2¢ average: draw 0.185% avg, all-in peak 0.213%",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/2-trucks-rail-air.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-208",
+  "statement": "Rail diesel and the aviation surcharge are rail's only dedicated receipts outside the split, $36.2B in FY2032-36; without them rail coverage roughly halves. The dropped corridor surcharge was about $1B.",
+  "claim": "analysis",
+  "figures": [
+   "$36.2B",
+   "$1B"
+  ],
+  "source": "SRC-0032",
+  "anchor": "Rail's only dedicated receipts outside the split, $36.2B in FY2032-36. Without them rail coverage roughly halves. The surcharge was about $1B with its own machinery and an airline fight",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/2-trucks-rail-air.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-209",
+  "statement": "The heavy-vehicle use tax has been flat, capped at $550 and unindexed since 1982.",
+  "claim": "data",
+  "figures": [
+   "$550",
+   "1982"
+  ],
+  "source": "SRC-0032",
+  "anchor": "the use tax has been flat, capped at $550 and unindexed since 1982",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/2-trucks-rail-air.md"
+  ],
+  "note": "A statutory fact (26 U.S.C. 4481) as the legacy file states it; replace with the Code text when section 4 cites it."
+ },
+ {
+  "id": "EV-MOV-210",
+  "statement": "Transit operating help at scenario C ($70.00B) raises the average draw to 0.196% of GDP with an all-in peak of 0.223%; scenario A (none) gives 0.164% and 0.193%. Scenario B is $35.00B.",
+  "claim": "analysis",
+  "figures": [
+   "$35.00B",
+   "$70.00B",
+   "0.196%",
+   "0.223%",
+   "0.164%",
+   "0.193%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "Transit operating tier: scenario B, $35.00B | Scenario C, $70.00B; or A, none | C: draw 0.196% avg, all-in peak 0.223%. A: 0.164%, all-in 0.193%",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/4-transit-operating-help.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-211",
+  "statement": "Keeping the first split permanently, rather than moving it, leaves transit with $5.9B it cannot spend while highway renewal coverage sits at 80% in FY2042-46; with the move nothing is stranded. The split does not change the total general-fund draw.",
+  "claim": "analysis",
+  "figures": [
+   "$5.9B",
+   "80%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "Kept, before the fossil premium: transit piles up $5.9B it cannot spend while highway renewal coverage sits at 80% in FY2042-46. With the move: 89 / 96 / 104, nothing stranded. The split does not change the total general-fund draw",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/3-size-and-split.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-212",
+  "statement": "Interstate and Bridge Renewal costs $30.77B over FY2032-36; each $2B a year more adds about 0.005 points to the draw, and its new money starts at zero because FY2032 has no room under the benchmark.",
+  "claim": "analysis",
+  "figures": [
+   "$30.77B",
+   "$2B",
+   "0.005"
+  ],
+  "source": "SRC-0032",
+  "anchor": "$30.77B over FY2032-36. Each $2B a year more adds about 0.005 points to the draw. New money starts at zero because FY2032 has no room",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/3-size-and-split.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-213",
+  "statement": "The 0.206% of GDP benchmark restates FY2026's peak general-fund draw on surface transportation ($60.4 billion, or 0.192 percent of GDP, plus annual rail and transit capital appropriations); no statute or CBO rule sets it.",
+  "claim": "analysis",
+  "figures": [
+   "$60.4 billion",
+   "0.192",
+   "0.206"
+  ],
+  "source": "SRC-0180",
+  "anchor": [
+   "$36.8 billion of Division J advance appropriations plus IIJA's Highway Trust Fund transfer annualized at $23.6 billion — **$60.4 billion, or 0.192 percent of GDP.**",
+   "restates that same peak as **0.206 percent of GDP**, and 0.206 percent is the figure used from here on. Congress carried it for five years with bipartisan votes, so it has evidence behind it. **But it is a benchmark, not a limit.** Neither CBO nor any statute sets it"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/3-size-and-split.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-214",
+  "statement": "The fix-it-first conditions (states below condition targets shift money to preservation; a lifecycle test for projects over $100M adding lanes; a 70% federal share, 80% on the Interstate, for new general-purpose lanes) cost the federal budget nothing; state DOTs will resist strings on formula money.",
+  "claim": "analysis",
+  "figures": [
+   "$100M",
+   "70%",
+   "80%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "States below their condition targets shift NHPP to preservation; a lifecycle test for projects over $100M adding lanes; federal share 70% (Interstate 80%) for new general-purpose lanes | H.R. 8870's biennial review only | No federal cost. State DOTs and ARTBA will resist strings on formula money",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/5-conditions-on-states.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-215",
+  "statement": "The resilience, clean-fuel and freight set-asides take about $2.6B a year of formula money out of state discretion; restoring the Carbon Reduction Program as new money would add about $1.3B a year.",
+  "claim": "analysis",
+  "figures": [
+   "$2.6B",
+   "$1.3B"
+  ],
+  "source": "SRC-0032",
+  "anchor": "the set-asides take about $2.6B a year of formula money out of State discretion. CRP as new money would add about $1.3B a year",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/5-conditions-on-states.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-216",
+  "statement": "The Charging Gap Program costs $2.63B over FY2032-36 from formula money, with no new federal money; paying by auction and for uptime is untested at federal scale for charging.",
+  "claim": "analysis",
+  "figures": [
+   "$2.63B"
+  ],
+  "source": "SRC-0032",
+  "anchor": "$2.63B over FY2032-36, no new federal money. Auction-and-performance payment is untested at federal scale for charging",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-217",
+  "statement": "Obligating each reconciliation package in its enactment year would put $35B of rail obligations into a half-year and leave rail at $13.3B in FY2031, a $26.7B cliff into FY2032.",
+  "claim": "analysis",
+  "figures": [
+   "$35B",
+   "$13.3B",
+   "$26.7B"
+  ],
+  "source": "SRC-0032",
+  "anchor": "Enactment-year timing puts $35B of rail obligations into a half-year and leaves rail at $13.3B in FY2031, a $26.7B cliff into FY2032",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-218",
+  "statement": "Placing renewal top-ups by fiscal year, rather than as chosen, would make the 2030 act add about $27.5B to deficits and fail the Byrd out-year test without offsets; as placed, both acts reduce deficits.",
+  "claim": "analysis",
+  "figures": [
+   "$27.5B"
+  ],
+  "source": "SRC-0032",
+  "anchor": "By fiscal year the 2030 act would add about $27.5B to deficits and fail the Byrd out-year test without offsets. As placed, both acts reduce deficits",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-219",
+  "statement": "Three gas-price pauses would cost about $53.3B of FY2032-36 receipts; the solvency backstop is capped at $25B over FY2032-36.",
+  "claim": "analysis",
+  "figures": [
+   "$25B",
+   "$53.3B"
+  ],
+  "source": "SRC-0032",
+  "anchor": "plus a capped solvency backstop** ($25B over FY2032-36) for accounts that run short when steps pause | A hard GDP trigger | A trigger buys no CBO credit unless projected to fire. Three pauses cost about $53.3B of FY2032-36 receipts",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/1-who-pays-for-roads.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-220",
+  "statement": "As chosen, transit operating help runs $6.0B rising to $8.0B a year for urbanized areas of 200,000 or more, apportioned 50% on vehicle revenue hours, 30% on trips and 20% on low-income residents, capped at 25% of each area's net operating cost; on 2024 NTD data the first-year tier is 11.9% of national net operating cost.",
+  "claim": "analysis",
+  "figures": [
+   "$6.0B",
+   "$8.0B",
+   "200,000",
+   "50%",
+   "30%",
+   "20%",
+   "25%",
+   "11.9%"
+  ],
+  "source": "SRC-0032",
+  "anchor": [
+   "The new 5307(i) runs $6.0B rising to $8.0B a year for urbanized areas of 200,000 or more. Funds are apportioned 50% on vehicle revenue hours, 30% on trips and 20% on low-income residents, and each area is capped at 25% of its net operating cost.",
+   "On 2024 NTD data the first-year tier is 11.9% of national net operating cost."
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/4-transit-operating-help.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-221",
+  "statement": "The drafted operating-tier conditions require state and local operating support of at least the average of the 3 preceding fiscal years, increased with consumer prices; vehicle revenue hours of at least 95 percent of the average for fiscal years 2028 through 2030; a preventive-maintenance share no higher than in fiscal years 2027 through 2029; and a published plan where cost per vehicle revenue hour rises, over 3 consecutive fiscal years, more than 1.5 percentage points above the Employment Cost Index for state and local workers.",
+  "claim": "analysis",
+  "figures": [
+   "3",
+   "95 percent",
+   "2028",
+   "2030",
+   "2027",
+   "1.5",
+   "2029"
+  ],
+  "source": "SRC-0182",
+  "anchor": [
+   "less than the average of such support for the 3 preceding fiscal",
+   "vehicle revenue hours will be not less than 95 percent of the",
+   "average for fiscal years 2028 through 2030;",
+   "will not exceed the average share so applied in fiscal years 2027",
+   "through 2029.",
+   "hour has increased, over 3 consecutive fiscal years, at an annual rate",
+   "more than 1.5 percentage points above the Employment Cost Index for"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/4-transit-operating-help.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-222",
+  "statement": "As chosen, division D authorizes $254.03B over FY2032-36, plus up to $25.00B of readiness reserve, contingent; $160.83B is renewal from the Intercity Passenger Rail Account and $93.20B is expansion.",
+  "claim": "analysis",
+  "figures": [
+   "$254.03B",
+   "$25.00B",
+   "$160.83B",
+   "$93.20B"
+  ],
+  "source": "SRC-0032",
+  "anchor": "Division D authorizes **$254.03B** over FY2032-36, plus up to $25.00B of readiness reserve, contingent. Of the total, $160.83B is renewal from the Intercity Passenger Rail Account and $93.20B is expansion",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/6-passenger-rail.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-223",
+  "statement": "Division D spends $59.95B on the core network, $160.45B on corridor development and $33.63B on titles IV-XIII.",
+  "claim": "analysis",
+  "figures": [
+   "$59.95B",
+   "$160.45B",
+   "$33.63B"
+  ],
+  "source": "SRC-0032",
+  "anchor": [
+   "| II | Core network: NEC base and capital, National Network, long-distance, national fleet, stations and ADA | $59.95B | Renewal |",
+   "| III | Corridor development: 301-306 renewal; 303, 310, 311, 312 expansion | $160.45B |",
+   "| IV-XIII | Accountability, commissions, access, industrial base, credit, permitting, operating support, competition, fleet pool, night network | $33.63B |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/6-passenger-rail.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-224",
+  "statement": "Under the drafted section 303, the Tier 1 high-speed program is $55.00B; the federal share may not exceed 50 percent, no project under $1,000,000,000 is eligible, and no corridor may take more than $14,000,000,000.",
+  "claim": "analysis",
+  "figures": [
+   "$55.00B",
+   "50 percent",
+   "$1,000,000,000",
+   "$14,000,000,000"
+  ],
+  "source": "SRC-0032",
+  "anchor": [
+   "### Sec. 303 and the Tier 1 allocation at $55.00B",
+   "(d) TERMS.—The Federal share of a project may not exceed 50 percent. No",
+   "project with a total cost of less than $1,000,000,000 is eligible.",
+   "(e) CORRIDOR LIMIT.—Not more than $14,000,000,000 of amounts appropriated by"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/6-passenger-rail.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-225",
+  "statement": "The rail division projects three to five corridors with a completed environmental record when it is enacted; in March 2026, 0 corridors had a Step 3 obligation.",
+  "claim": "analysis",
+  "figures": [
+   "0"
+  ],
+  "source": "SRC-0180",
+  "anchor": [
+   "That is the honest answer to how many corridors can clear a section 303 or 302 gate on the day ARCA is enacted: three to five with a completed environmental record",
+   "| Step 3 obligated | 0 | 1-2 | 10-14 |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/6-passenger-rail.md"
+  ],
+  "note": "The March 2026 count is the legacy file's reading of FRA's Corridor ID status report, not yet traced to FRA; section 2 replaces it with FRA's own figure if needed."
+ },
+ {
+  "id": "EV-MOV-226",
+  "statement": "The first fallback tier cuts the Moving America Act to $865.02B and the average general-fund draw to 0.147% of GDP.",
+  "claim": "analysis",
+  "figures": [
+   "$865.02B",
+   "0.147%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "| First | — | −$27.00B → $194.42B | −$44.55B → $209.48B | **$865.02B** | 0.147% |",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/memos/3-size-and-split.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-100",
+  "statement": "FTA's National Transit Database totals show U.S. transit agencies reported $70.1 billion in operating expenses and $12.0 billion in fares earned in 2025, against $50.7 billion and $16.1 billion in 2019.",
+  "claim": "data",
+  "figures": [
+   "$70.1 billion",
+   "$12.0 billion",
+   "$50.7 billion",
+   "$16.1 billion"
+  ],
+  "rounded": [
+   {
+    "figure": "$70.1 billion",
+    "value": "70119170791",
+    "scale": 1e-09,
+    "places": 1
+   },
+   {
+    "figure": "$12.0 billion",
+    "value": "12014009930",
+    "scale": 1e-09,
+    "places": 1
+   },
+   {
+    "figure": "$50.7 billion",
+    "value": "50733632762",
+    "scale": 1e-09,
+    "places": 1
+   },
+   {
+    "figure": "$16.1 billion",
+    "value": "16069887831",
+    "scale": 1e-09,
+    "places": 1
+   }
+  ],
+  "source": "SRC-3100",
+  "anchor": [
+   "\"2025\",\"Fares\",\"12014009930\"",
+   "\"2019\",\"Fares\",\"16069887831\"",
+   "\"2025\",\"Operating Expenses\",\"70119170791\"",
+   "\"2019\",\"Operating Expenses\",\"50733632762\""
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-15",
+  "context": "FTA, U.S. DOT, second Trump administration, 2026. National Transit Database figures are reported by agencies and compiled by FTA; they are nominal dollars, and each agency reports on its own fiscal year (July-June, calendar or federal), so a 'year' mixes fiscal years. The totals are sums the project asked the FTA data portal to compute over every agency-mode row in the 2025 time-series dataset (SRC-3100). I did not check whether FTA changed the method or the release schedule for the 2025 data.",
+  "note": "Project arithmetic from the same rows: fares are about 25% below 2019 in nominal dollars (12,014,009,930 / 16,069,887,831 = 0.75) while operating expenses are about 38% above (70,119,170,791 / 50,733,632,762 = 1.38), so fares covered about 17% of operating expenses in 2025 against about 32% in 2019. The real-dollar comparison is EV-MOV-102 (CRS). FTA's National Transit Summaries and Trends (transit.dot.gov) returned 403 to the script and could not be saved; this dataset is the same NTD source.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-101",
+  "statement": "FTA's National Transit Database totals show 8.05 billion unlinked passenger trips (boardings) in 2025, against 9.88 billion in 2019.",
+  "claim": "data",
+  "figures": [
+   "8.05 billion",
+   "9.88 billion"
+  ],
+  "rounded": [
+   {
+    "figure": "8.05 billion",
+    "value": "8050799881",
+    "scale": 1e-09,
+    "places": 2
+   },
+   {
+    "figure": "9.88 billion",
+    "value": "9879910957",
+    "scale": 1e-09,
+    "places": 2
+   }
+  ],
+  "source": "SRC-3100",
+  "anchor": [
+   "\"2025\",\"Unlinked Passenger Trips\",\"8050799881\"",
+   "\"2019\",\"Unlinked Passenger Trips\",\"9879910957\""
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-15",
+  "context": "FTA, U.S. DOT, second Trump administration, 2026. Agency-reported counts compiled by FTA; each agency reports on its own fiscal year. Unlinked trips count every boarding, so a trip with a transfer counts twice. Totals are the project's query over the 2025 time-series dataset (SRC-3100); I did not check for changes in method or schedule.",
+  "note": "Project arithmetic: 8,050,799,881 / 9,879,910,957 = 0.815, so 2025 boardings were about 81% of 2019. CRS (EV-MOV-102) gives 81% for the final quarter of 2025 against the final quarter of 2019, from the American Public Transportation Association's ridership report, a trade group of transit agencies. The CRS 2025 annual figure is about 8.1 billion trips against about 10.0 billion in 2018 and 2019 (CRS text, not anchored here); the small gap with FTA's 9.88 billion is not explained in either source.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-102",
+  "statement": "CRS reports that total transit fare revenue in 2024 was about $11.8 billion, down from $20.2 billion in 2019 (inflation-adjusted 2025 dollars), that the average fare per trip fell from $2.03 in 2019 to $1.53 in 2024, and that ridership in the final quarter of 2025 was 81% of the final quarter of 2019.",
+  "claim": "data",
+  "figures": [
+   "$11.8 billion",
+   "$20.2 billion",
+   "$2.03",
+   "$1.53",
+   "81%"
+  ],
+  "source": "SRC-3101",
+  "anchor": [
+   "In the final quarter of 2025, total public transit ridership was 81% compared with the final quarter of 2019.",
+   "the average fare per trip declined from $2.03 in 2019 to $1.53 in 2024, the most recent year data are available (in inflation-adjusted 2025 dollars). Consequently, total fare revenue collected in 2024 was about $11.8 billion, down from $20.2 billion in 2019 (in inflation-adjusted 2025 dollars)."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "CRS is the nonpartisan research arm of Congress (report updated September 2, 2026). The ridership comparison is drawn from the American Public Transportation Association's ridership report (the report's Figure 3 source), and APTA is a trade group of transit agencies; the fare figures are stated to rest on FTA data. A secondary restatement, so graded C; EV-MOV-100 and EV-MOV-101 give the primary FTA totals.",
+  "note": "Average fare per trip and fare revenue are in 2025 dollars; EV-MOV-100 gives nominal totals. The two measures agree in direction (2024 fares well below 2019).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-103",
+  "statement": "CRS reports that Congress provided $69.5 billion in emergency general-fund money to transit agencies for the pandemic ($25 billion in FY2020 in the CARES Act, $14 billion in FY2021 in the Consolidated Appropriations Act, 2021, and $30.5 billion in FY2021 in the American Rescue Plan Act), and that the federal share of transit operating expenses was 8% in 2019 and 17% in 2024 (16% and 24% of all transit funding).",
+  "claim": "data",
+  "figures": [
+   "$69.5 billion",
+   "$25 billion",
+   "$14 billion",
+   "$30.5 billion",
+   "8%",
+   "17%",
+   "16%",
+   "24%"
+  ],
+  "source": "SRC-3101",
+  "anchor": [
+   "Additionally, $69.5 billion in emergency funding from the general fund was provided to transit agencies in response to the COVID-19 pandemic.",
+   "$25 billion was provided in FY2020 in the Coronavirus Aid, Relief, and Economic Security Act (CARES Act; P.L. 116-136 ), $14 billion was provided in FY2021 in the Consolidated Appropriations Act, 2021 ( P.L. 116-260 ), and $30.5 billion was provided in FY2021 in the American Rescue Plan Act of 2021",
+   "in 2019, prior to the disruptions related to the COVID-19 pandemic, the federal government provided 16% of public transit funding overall, that is 42% of capital expenses and 8% of operating expenses. In 2024, the federal share was 24% overall, that is 39% of capital expenses and 17% of operating expenses."
+  ],
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "CRS, nonpartisan; the federal-share figures are stated to come from FTA data and the appropriations from the three public laws, so this is a secondary restatement of official data. CRS's footnote names the second law as the Consolidated Appropriations Act, 2021 (P.L. 116-260); the transit relief in it is commonly called CRRSAA, and GAO's text in SRC-3121 uses that name.",
+  "note": "The federal share of capital expenses was 42% in 2019 and 39% in 2024. The $69.5 billion is about five times the roughly $12 billion of federal transit support in 2019 (CRS, R47900, not catalogued). The relief funds could pay operating costs at a 100% federal share; the ordinary maximum federal share for operating costs is 50%.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-104",
+  "statement": "FHWA and FTA's Conditions and Performance report estimates a transit reinvestment backlog of $101 billion in 2018 (constant 2018 dollars), growing from $101.4 billion to $106.2 billion by 2038 if 2014-2018 spending is sustained, and that reaching and keeping a state of good repair would take $20.3 billion a year, roughly 50 percent more than current asset preservation spending of $13.5 billion a year.",
+  "claim": "analysis",
+  "figures": [
+   "$101 billion",
+   "$101.4 billion",
+   "$106.2 billion",
+   "$20.3 billion",
+   "50 percent",
+   "$13.5 billion"
+  ],
+  "source": "SRC-3005",
+  "anchor": [
+   "the magnitude of the $101-billion\ninvestment required to replace them\n(referred to as the reinvestment backlog)",
+   "Sustain 2014–2018 Spending Scenario",
+   "current size of the SGR backlog, with the\nbacklog growing from $101.4 billion in 2018\nto $106.2 billion in 2038.",
+   "required to immediately attain and maintain SGR for the next 20 years, $20.3 billion per\nyear, is roughly 50 percent higher than current asset preservation expenditures of $13.5\nbillion per year."
+  ],
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "FHWA and FTA, 25th Conditions and Performance Report to Congress (2024), Biden administration. A model estimate (the TERM model) from 2018 data, before the IIJA and the pandemic; state of good repair means every asset is within its average service life, and the benchmark is not subject to a cost-benefit test, so it measures preservation need, not what is worth building. The successor (26th) edition has not been found.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-105",
+    "stance": "supports"
+   }
+  ],
+  "note": "Same report as EV-MOV-005 and EV-MOV-017 (highways). The reinvestment backlog is the near-term cost of replacing assets past their useful life. 'Sustain 2014-2018 spending' assumes preservation spending stays at the 2014-2018 average. CRS (EV-MOV-105) restates the same estimate in 2025 dollars, so it corroborates the figure's reporting, not the model; an independent estimate of transit repair need has not been found.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-105",
+  "statement": "CRS, summarizing DOT's Conditions and Performance report, puts the transit reinvestment backlog at $127.8 billion in 2018 (in 2025 dollars), about 9% of the total value of transit assets, rising to $133.9 billion by 2038 if actual spending continued.",
+  "claim": "analysis",
+  "figures": [
+   "$127.8 billion",
+   "9%",
+   "$133.9 billion"
+  ],
+  "source": "SRC-3101",
+  "anchor": [
+   "DOT estimated the reinvestment backlog to be $127.8 billion in 2018 (in 2025 dollars), about 9% of the total value of transit assets.",
+   "If that level of spending were continued in the 20-year period from 2019 through 2038, DOT estimated that the condition of transit systems would marginally decline through 2038, and the backlog would increase from $127.8 billion to $133.9 billion (in 2025 dollars)"
+  ],
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "CRS, nonpartisan, restating the DOT Conditions and Performance report (2024, Biden administration) and converting dollars to 2025. It adds no independent estimate: the backlog and the scenarios are DOT's model results.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-104",
+    "stance": "supports"
+   }
+  ],
+  "note": "The two reports give the same finding in different dollars ($101 billion in 2018 dollars; $127.8 billion in 2025 dollars). CRS also reports the share of buses and rail vehicles not in a state of good repair rising from 11% to 15% and from 4% to 9% between 2008 and 2018 (same section, not anchored here).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-106",
+  "statement": "Amtrak reports that in FY2025 it carried 34.5 million customer trips, had an adjusted operating result of ($598.4 million), and recovered 87% of operating costs with ticket sales, payments from state partners and agencies, and other operating revenue.",
+  "claim": "data",
+  "figures": [
+   "34.5 million",
+   "$598.4 million",
+   "87%"
+  ],
+  "source": "SRC-3102",
+  "anchor": [
+   "providing 34.5 million customer trips",
+   "Adjusted operating earnings improved by 15.1% over FY 2024 to ($598.4 million)",
+   "Amtrak recovered 87% of operating costs in FY 2025 with ticket sales, payments from state partners and agencies, and other operating revenue."
+  ],
+  "locator": "Fiscal Year 2025 Highlights (first two bullets, p. 1); the 87% sentence is in the Network, Financial Performance, Infrastructure Assets section (listed at p. 2 in the contents)",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "Amtrak is a federally chartered corporation, not a federal agency, that depends on annual appropriations, so it has a stake in how its results read. 'Adjusted operating earnings' is Amtrak's own measure; it excludes items (depreciation and other non-cash and planning costs) that the Eno Center describes in EV-MOV-107. Preliminary FY2025 results (October 2024 to September 2025).",
+  "note": "Amtrak's FY2026 Grant and Legislative Request (FY2024 results: 32.8 million trips, adjusted operating earnings ($705.2 million), cost recovery 84%) was read but is not anchored here. Trains reports that the later FY2027 report restates the FY2025 operating loss as $607.8 million (not anchored). The Daily Long-Distance Study (EV-MOV-110) is a separate document from FRA, not Amtrak.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-107",
+  "statement": "The Eno Center for Transportation reports that Amtrak's overall FY2025 operating loss was $1.76 billion (against $1.81 billion in FY2024), that its adjusted operating loss was $598.4 million, and that its cost recovery ratio rose from 83.7 percent in 2024 to 86.8 percent in 2025.",
+  "claim": "analysis",
+  "figures": [
+   "$1.76 billion",
+   "$1.81 billion",
+   "$598.4 million",
+   "83.7 percent",
+   "86.8 percent"
+  ],
+  "source": "SRC-3103",
+  "anchor": [
+   "The passenger railroad posted an overall operating loss of $1.76 billion, which was $49 million less than the $1.81 billion loss it had shown for fiscal 2024.",
+   "The adjusted operating loss was $598.4 million",
+   "The cost recovery ratio went from 83.7 percent in 2024 to 86.8 percent in 2025, which was welcome news."
+  ],
+  "locator": "First, third and last paragraphs of the Eno article of December 5, 2025 ('Amtrak Reports Smaller Losses, Higher Ridership in FY 2025')",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "Eno is a nonpartisan transportation policy think tank. Its point is that Amtrak asks Congress for money against the 'adjusted' loss, which excludes about a billion dollars a year of depreciation, $364 million in capital planning costs and other items.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-106",
+    "stance": "qualifies"
+   }
+  ],
+  "note": "Qualifies EV-MOV-106: the same adjusted figure ($598.4 million) but a larger loss, about three times as big, when the excluded items are counted. The two cost-recovery figures differ slightly (Amtrak 87%, Eno 86.8%).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-108",
+  "statement": "FRA announced in December 2023 that it had selected 69 corridors across 44 states for the Corridor Identification and Development Program: 15 existing routes to upgrade, 47 new or extended routes and 7 new high-speed rail projects.",
+  "claim": "data",
+  "figures": [
+   "69",
+   "44",
+   "15",
+   "47",
+   "7"
+  ],
+  "source": "SRC-3104",
+  "anchor": [
+   "FRA is announcing 69 corridor selections across 44 states through the Corridor Identification and Development (Corridor ID) Program",
+   "aims to upgrade 15 existing rail routes, add or extend service on 47 new routes, and advance 7 new high-speed rail projects"
+  ],
+  "locator": "Press release of December 8, 2023, paragraphs 2 and 4",
+  "grade": "A",
+  "fact_date": "2023-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "FRA, U.S. DOT, Biden administration (a press release, so the framing is the administration's); the counts are plain selection data. The program's later status is EV-MOV-109.",
+  "note": "Each selected corridor was initially awarded $500,000 for Step 1 (scope, schedule and cost estimate for a service development plan) per FRA's program page, which was last updated December 18, 2025 and lists no later selections. 15 + 47 + 7 = 69. The program has three steps: scope, service development plan, then project development (NEPA and preliminary engineering).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-109",
+  "statement": "In a September 26, 2026 interview reported by Trains, FRA Administrator David Fink said the agency is 'looking at all of the corridors trying to decide what [will happen] going forward' in the Corridor ID Program, and that since the Trump administration took over FRA has '22% less people' and its development group '37% less people'.",
+  "claim": "data",
+  "figures": [
+   "22%",
+   "37%"
+  ],
+  "source": "SRC-3105",
+  "anchor": [
+   "In an interview on the Sept. 26 inaugural run of the Amtrak Cascades Airo equipment, Fink was asked about the status of another IIJA creation",
+   "looking at all of the corridors trying to decide what [will happen] going forward",
+   "the FRA has 22% less people and the development group has 37% less people"
+  ],
+  "locator": "Trains analysis of November 4, 2026, paragraph quoting the Fink interview (search excerpt)",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "The speaker is the FRA Administrator in the second Trump administration; his account of agency staffing and of the program's status is presented as the administration's view, and Trains is a trade-press outlet. Only the excerpt was read. An advocacy group (High Speed Rail Alliance, October 26, 2026) says the program 'stalled in early 2025' and may be scaled back; that is not anchored here.",
+  "note": "Virginia's DRPT says it completed Step 1 for two corridors by July 2026 and expects FRA to advance them to Step 2 in fall 2026 once Step 2 funds are obligated (state agency page, not catalogued). No FRA statement of how many corridors have entered Step 2 was found.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-110",
+  "statement": "FRA's January 2025 Amtrak Daily Long-Distance Service Study estimates that its network of selected preferred route options could add 23,200 long-distance route miles, serve 61 additional metropolitan statistical areas and reach 39 million more people.",
+  "claim": "analysis",
+  "figures": [
+   "23,200",
+   "61",
+   "39 million"
+  ],
+  "source": "SRC-3106",
+  "anchor": [
+   "+61Number of Additional MSAs Served +39 millionAdditional U.S. Population Served",
+   "23,200Long-Distance Route Miles Added"
+  ],
+  "locator": "Figure ES-4, Potential Benefits of the Network of Selected Preferred Route Options (executive summary, p. ES-14)",
+  "grade": "C",
+  "fact_date": "2025-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "FRA, U.S. DOT, report to Congress dated January 2025 (Biden administration; required by IIJA section 22214). The report says the selected options 'are not FRA proposals for service', are conceptual, and that FRA is not recommending advancing any of them without more assessment. The figures are the study's own planning estimates, with no independent check.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-111",
+    "stance": "qualifies"
+   }
+  ],
+  "note": "The number of selected preferred route options is not in the passages I could read (the report's chapter 5 was not reached). News coverage reports 15 (for example Fast Company and Texas Rail Advocates, January 2025); I did not anchor it. Three long-distance routes in the study were selected into the Corridor ID Program separately: the Cardinal and Sunset Limited (both to daily service) and the North Coast Hiawatha.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-111",
+  "statement": "FRA's January 2025 Amtrak Daily Long-Distance Service Study states that there is no sustained financial support or program to construct or operate the selected preferred route options, and that existing intercity passenger rail grant programs are not structured to meet the funding needs of new long-distance service.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3106",
+  "anchor": [
+   "there is no sustained financial support or program to construct or operate the selected preferred route options identified in the Final Report",
+   "the scope and scale of these passenger rail grant programs are insufficient to fund capital needs for the existing national network and are not structured to meet the significant funding needs associated with new long-distance passenger rail service."
+  ],
+  "locator": "Chapter 1, section 1.4 (Relationship of Study to FRA Project Lifecycle), paragraph introducing Figure 1-5; Executive Summary ES.2, Funding Challenges",
+  "grade": "A",
+  "fact_date": "2025-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "FRA, U.S. DOT, report to Congress dated January 2025 (Biden administration). A statement of the program position when the report was written; it is not a statement of current law. Whether any funding program has been created since was not checked.",
+  "note": "The study adds that the existing long-distance routes receive no state or local operating contributions and that the federal government would need to commit to annual operating funds for new routes (same Funding Challenges passage, not anchored).",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-112",
+  "statement": "The Transport Politic counts 47 projects on FTA's November 2026 Capital Investment Grants dashboard and says only one project has received a grant since January 20, 2025.",
+  "claim": "data",
+  "figures": [
+   "47"
+  ],
+  "source": "SRC-3107",
+  "anchor": [
+   "Of the 47 projects on FTA's Nov 2026 Capital Investment Grants dashboard",
+   "only one project has received a grant since Jan 20, 2025."
+  ],
+  "locator": "Opening paragraph under 'Status During the Second Trump Administration'",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "The Transport Politic is an independent transit-policy site that transcribes FTA's monthly dashboards into a tracker; its page is critical of the second Trump administration's CIG policy. The count is a transcription of an FTA document, not an FTA statement.",
+  "note": "Requested: the FTA September 2026 dashboard (updated September 11, 2026). I read its PDF; it lists 47 project rows by my count and states no total count and no combined cost, and some costs are ranges or TBD ($360-$590 million, $5,400-$6,100 million) so a clean sum is not possible; no combined cost is given here. The one grant since January 20, 2025, per the tracker: Vermont Ave BRT, Los Angeles, $149.9 million, awarded September 1, 2026.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-113",
+  "statement": "The Transport Politic reports that 30 of the 47 projects on FTA's November 2026 dashboard were expected to get their grant under the second Trump administration and have since seen that date slip, by a median of 12 months since January 2025 (22.5 months since their first estimate).",
+  "claim": "analysis",
+  "figures": [
+   "30",
+   "47",
+   "12 months",
+   "22.5 months"
+  ],
+  "source": "SRC-3107",
+  "anchor": [
+   "Of the 47 projects on FTA's Nov 2026 Capital Investment Grants dashboard, 30 were expected to get their grant under the second Trump administration and have since seen that date slip, by a median of 12 months since January 2025 (22.5 months since their first estimate)."
+  ],
+  "locator": "Opening paragraph under 'Status During the Second Trump Administration'",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "The tracker's own calculation from FTA's dashboard dates. It states its method: it compares each project's earliest estimated grant date on or after the last dashboard before January 20, 2025 with its latest estimate, placing season-level dates mid-period, so a vague date made more precise can read as a slip. The site's text is critical of the administration. Presented as one source's view until a second, independent calculation is found.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-112",
+    "stance": "supports"
+   }
+  ],
+  "note": "The linked entry is the same publisher's count, so this analysis has no independent corroboration yet; the dossier should present it as one source's view. FTA's dashboard dates themselves are FTA-reported estimates by project sponsors.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-114",
+  "statement": "Duranton and Turner (2011) estimate that vehicle-kilometers traveled on US metropolitan interstate highways rise about one-for-one with lane-kilometers (elasticity 1.03 in their preferred instrumental-variable estimate; 0.86 by OLS and 1.00 in first differences), and find no evidence that provision of public transportation affects driving.",
+  "claim": "analysis",
+  "figures": [
+   "1.03",
+   "0.86",
+   "1.00"
+  ],
+  "source": "SRC-3108",
+  "anchor": [
+   "VKT increases proportionately to roadway lane kilometers for interstate highways and probably slightly less rapidly for other types of roads.",
+   "Our estimates of the elasticity of MSA interstate highway VKT with respect to lane kilometers are 0.86 in OLS, 1.00 in first difference, and 1.03 with IV.",
+   "We find no evidence that the provision of public transportation affects VKT."
+  ],
+  "locator": "Abstract (first and third sentences); concluding section, 'Our estimates of the elasticity ...' (preferred estimate: Table 6, panel A, column 3)",
+  "grade": "B",
+  "fact_date": "2011",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Peer-reviewed (American Economic Review), US data for metropolitan areas 1983-2003; the strongest result is for interstate highways, and the authors' estimates for other major urban roads are lower and less reliably identified (0.67 to 0.89 by OLS). Authors Duranton and Turner are economists whose other work on road pricing and congestion is not independent of this paper.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-115",
+    "stance": "supports"
+   }
+  ],
+  "note": "The headline 'about one-for-one' means new capacity is filled by new driving (more driving by residents, more commercial traffic and migration), so added lanes do not relieve congestion. It describes interstate highways in large metropolitan areas; it does not say a particular local project will fail to help.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-115",
+  "statement": "Handy and Boarnet's 2014 review for the California Air Resources Board finds short-run elasticities of vehicle travel with respect to highway capacity of 0.3 to 0.6 and long-run elasticities mostly from 0.6 to just over 1.0, and concludes the best long-run estimate is an elasticity close to 1.0.",
+  "claim": "analysis",
+  "figures": [
+   "0.3",
+   "0.6",
+   "1.0"
+  ],
+  "source": "SRC-3109",
+  "anchor": [
+   "Elasticity estimates of the short-run effect of increased highway capacity range from 0.3 to 0.6,",
+   "Estimates of the long-run effect of increased highway capacity are considerably higher, mostly falling into the range from 0.6 to just over 1.0.",
+   "the best estimate for the long run effect of highway capacity on VMT is an elasticity close to 1.0"
+  ],
+  "locator": "Policy brief, 'Effect Size' section (page 2 of the PDF, dated 9/30/2014)",
+  "grade": "C",
+  "fact_date": "2014",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "A literature review prepared for a California state agency by two university researchers (Handy, UC Davis; Boarnet, USC) with a stake in no particular project. It reviews Duranton and Turner (2011) among its studies, so it shares an evidence base with EV-MOV-114 but is a separate team and publisher. It qualifies the headline: short-run effects are smaller, effects are larger when congestion is high, and one study found a lower short-run estimate of 0.1.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-114",
+    "stance": "supports"
+   }
+  ],
+  "note": "The brief's conclusion is limited to congested metropolitan areas and limited-access highways. A 2025 UC Davis brief on the same topic is on the California Air Resources Board site and was not read.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-116",
+  "statement": "Oregon DOT reports 1,160 vehicles enrolled in its OReGO road usage charge program as of June 30, 2026, and that participants pay 2 cents per mile and receive a credit for fuel tax paid.",
+  "claim": "data",
+  "figures": [
+   "1,160",
+   "2 cents"
+  ],
+  "source": "SRC-3110",
+  "anchor": [
+   "1,160 vehicles as of June 30, 2026",
+   "Participants currently pay 2 cents per mile, receive credit for fuel tax paid"
+  ],
+  "locator": "Slides 'Program Size' and 'Paying By the Mile with OReGO Operational Voluntary Program' (slide numbers not shown in the text read)",
+  "grade": "A",
+  "fact_date": "2026-06",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-01",
+  "context": "Oregon DOT describing its own program, so a stake in how it reads. OReGO has been voluntary since July 2015, open to vehicles rated 20 miles per gallon or better, with a waiver of the supplemental registration fee for vehicles rated 40 or better and electric vehicles.",
+  "note": "Earlier counts: 701 active vehicles in December 2020 (Oregon Legislature document, not catalogued) and 1,307 vehicles ever enrolled by December 2016 (ODOT 2017 report, not catalogued). The 2025 task force report says Oregon, Utah and Virginia operate active programs. See EV-MOV-117 for the mandatory program Oregon enacted in 2025.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-117",
+  "statement": "Oregon's HB 3991 (2025) establishes a mandatory passenger-vehicle road usage charge phased in from July 1, 2027 (non-new electric vehicles at registration renewal), January 1, 2028 (new electric vehicles) and July 1, 2028 (new and renewing hybrids), with a flat annual fee of $340 as an alternative to paying per mile.",
+  "claim": "data",
+  "figures": [
+   "July 1, 2027",
+   "January 1, 2028",
+   "July 1, 2028",
+   "$340"
+  ],
+  "source": "SRC-3110",
+  "anchor": [
+   "HB 3991 (2025) - Mandatory RUC Provisions",
+   "Non-new EVs (at next reg. renewal) July 1, 2027",
+   "New EVs (at point of sale) January 1, 2028",
+   "New and renewing hybrids (PHEV & HEV) July 1, 2028",
+   "Drivers can elect to pay a flat annual RUC fee of $340/yr in lieu of paying per mile"
+  ],
+  "locator": "Slide 'HB 3991 (2025) - Mandatory RUC Provisions'",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-01",
+  "context": "ODOT staff summarizing a statute in a presentation; the statute itself was not read, so the dates and fee should be checked against the enrolled bill. Graded C for that reason.",
+  "note": "The slide also says vehicles paying the charge are not subject to the supplemental registration fees based on efficiency. The 2025 task force report (SRC-3111) says a road usage charge will cost more to collect than the fuels tax and 'will not produce significant net revenue in the near future'; see EV-MOV-118.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-118",
+  "statement": "Oregon DOT staff told the Road User Fee Task Force in April 2024 that fuel tax collection costs are approximately 0.3% and weight-mile tax collection costs approximately 11 percent, and that road usage charge costs were hard to estimate for a small, early-stage program but initially likely higher than the weight-mile program's.",
+  "claim": "data",
+  "figures": [
+   "0.3%",
+   "11 percent"
+  ],
+  "source": "SRC-3115",
+  "anchor": [
+   "fuel tax collection costs are approximately 0.3% and weight-mile tax collection costs are approximately 11 percent",
+   "initial costs are likely to be higher than the weight-mile program"
+  ],
+  "locator": "Minutes, discussion of collection costs (Task Force questions to ODOT Finance)",
+  "grade": "C",
+  "fact_date": "2024-04",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-01",
+  "context": "ODOT staff answers recorded in draft minutes (not yet approved when posted); percentages are stated as rounded approximations without a base year or definition of what counts as a cost. Agency describing its own programs.",
+  "note": "The 2025 task force report (SRC-3111, Report to the Oregon Legislative Assembly) says the fuels tax is 'extremely inexpensive to collect' because a handful of wholesalers remit almost all of it, and that a road usage charge 'will be comparatively more expensive to administer than the fuels tax'. Utah's projected ratio is EV-MOV-120.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-119",
+  "statement": "Utah DOT reported that 9,703 vehicles were enrolled in its road usage charge program in July 2025, a 45% increase from July 2024.",
+  "claim": "data",
+  "figures": [
+   "9,703",
+   "45%"
+  ],
+  "source": "SRC-3112",
+  "anchor": [
+   "IN JUL 2025 THERE WERE 9,703 Vehicles Enrolled",
+   "45% increase from July 2024 to July 2025"
+  ],
+  "locator": "Slide 'RUC Program Enrollment Growth' (data updated through July 2025)",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-01",
+  "context": "Utah DOT describing its own program in a report to a legislative committee. The deck shows 9,166 of the enrolled vehicles are electric; the program became voluntary and EV-only in 2024.",
+  "note": "Utah's per-mile rate was 1.25 cents in 2026 with an annual cap of $180, rising to 1.5 cents and $280 in 2027, indexed to consumer prices (UDOT program history page, not catalogued). Utah launched its program in 2020.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-120",
+  "statement": "Utah DOT projected for FY27, under current program parameters, that its road usage charge program would spend $668 thousand, 14.2% of its revenue.",
+  "claim": "analysis",
+  "figures": [
+   "$668K",
+   "14.2%"
+  ],
+  "source": "SRC-3112",
+  "anchor": [
+   "FY27 Growth Scenario #1",
+   "RUC Expenses = $668K RUC Exp/Rev Ratio = 14.2%"
+  ],
+  "locator": "Slide 'FY27 Growth Scenario #1: Remove Payment Cap', first column (current program parameters)",
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-01",
+  "context": "A projection by the agency that runs the program, under assumptions in the deck (71,000 flat-fee customers, 23,000 per-mile customers, a $210 cap and a 1.47 cent rate); not a measured result. The text is a flattened slide, so the column assignment should be checked against the original slide.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-118",
+    "stance": "supports"
+   }
+  ],
+  "note": "Another Utah scenario in the same deck, with most electric vehicle owners on per-mile billing, gives 7.8% of revenue. The deck also reports a 66% cost reduction from FY24 to FY25 after a program redesign. Oregon DOT's roughly 0.3% for the fuel tax is EV-MOV-118; both states' figures show per-mile collection costing far more than fuel tax collection.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-121",
+  "statement": "Oregon's weight-mile tax applies to commercial vehicles over 26,000 pounds and is based on vehicle configuration and miles traveled on Oregon's public roads; it raised about $252 million in FY 2013, 15% of ODOT's revenues, from roughly 277,000 registered trucks.",
+  "claim": "data",
+  "figures": [
+   "26,000",
+   "$252 million",
+   "15%",
+   "277,000"
+  ],
+  "source": "SRC-3113",
+  "anchor": [
+   "responsible for registering commercial vehicles weighing more than 26,000 pounds, and administering Oregon's weight-mile tax",
+   "Proceeds from the weight-mile tax totaled approximately $252 million during FY 2013, or 15% of total revenues for ODOT.",
+   "Approximately 277,000 trucks are currently registered to operate in Oregon and are subject to the weight-mile tax.",
+   "The weight-mile tax is based on two factors: a vehicle's configuration and the miles traveled on public roads in Oregon."
+  ],
+  "locator": "Background, 'The Motor Carrier Transportation Division administers Oregon's weight-mile tax for commercial motor carriers' (report p. 2)",
+  "grade": "A",
+  "fact_date": "2013",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Oregon Secretary of State's independent Audits Division, December 2013, in a report on a vendor pilot; used here only for its description of the tax and its FY2013 revenue, which is more than a decade old.",
+  "note": "Statutory rates depend on declared weight and, above 80,000 pounds, on axles. Vermont's Agency of Transportation (January 2025, not catalogued) lists four states with weight-distance taxes on heavy trucks: Connecticut, New York, New Mexico and Oregon. ODOT's draft minutes (EV-MOV-118) put current collection cost near 11 percent.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-122",
+  "statement": "A 2021 study for Oregon DOT estimated weight-mile tax evasion in 2016-2018 at 8.63 to 11.33 percent of revenue collected using truck screening data, 8.13 to 10.66 percent using International Registration Plan filings, and 5.09 to 7.15 percent using International Fuel Tax Agreement returns.",
+  "claim": "analysis",
+  "figures": [
+   "8.63",
+   "11.33",
+   "8.13",
+   "10.66",
+   "5.09",
+   "7.15"
+  ],
+  "source": "SRC-3114",
+  "anchor": [
+   "average annual WMT evasion estimates ranging from 8.63 percent to 11.33 percent of total revenue collected from 2016 to 2018",
+   "potential WMT revenue evasion rates ranging from 8.13 to 10.66 percent",
+   "the minimum average annual revenue evasion rate was estimated to be 5.09 percent, and the maximum average annual revenue evasion rate was 7.15 percent"
+  ],
+  "locator": "Technical Report Documentation Page, abstract (item 16)",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "A university research team (Kentucky Transportation Center) under contract to ODOT Research Section, not peer reviewed; three methods that depend on matching vehicle screening, registration and fuel-tax records to tax returns. The authors prefer the screening-data method for its advantages (collected by ODOT rather than self-reported). The abstract box in the PDF extracts out of order, so the quoted wording is the same abstract as in TRB's TRID record 1888288.",
+  "corroboration": [],
+  "note": "No independent estimate of Oregon evasion was found, so this has no corroboration yet. The study says the previous measurement was more than 15 years earlier. Revenue and collection cost, not evasion, were the entries asked for on administration cost (EV-MOV-118).",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-123",
+  "statement": "ITEP counted 26 states plus D.C. with variable-rate gas taxes in July 2025: 8 states with rates tied only to fuel prices and 18 states plus D.C. with rates connected to the cost of funding the network (typically inflation indexing), against 24 states with fixed-rate taxes.",
+  "claim": "data",
+  "figures": [
+   "26",
+   "8",
+   "18",
+   "24"
+  ],
+  "source": "SRC-3116",
+  "anchor": [
+   "Figure 1 highlights the 26 states, plus D.C., that levy variable-rate gas taxes.",
+   "a fixed-rate tax that does not change over time (as is done in 24 states today)",
+   "a variable-rate tax calculated as a percentage of fuel prices (8 states)",
+   "a variable-rate tax with some connection to the cost of funding the transportation network (18 states plus D.C.)",
+   "Typically, this takes the form of inflation indexing"
+  ],
+  "locator": "'National Landscape of State Gas Tax Designs' (bulleted list and Figure 1)",
+  "grade": "C",
+  "fact_date": "2025-07",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "ITEP is a tax policy think tank that favors indexing the gas tax; its counts of states are data, its preference for design is not evidence. Two of the 18 states (Nebraska, New Jersey) link rates to revenue or spending targets, not inflation.",
+  "note": "NCSL reports the same 26 states and D.C. (EV-MOV-124). A January 2025 Vermont Agency of Transportation slide (not catalogued) counts a narrower 13 states that index their excise tax to CPI or a construction cost index, plus Colorado from 2032, and 10 states plus D.C. with price-based variable taxes; the count depends on how 'indexing' is defined.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-124",
+  "statement": "NCSL reports that, as of May 2025, 26 states and Washington, D.C. have a variable-rate gas tax that adjusts, to some degree, with inflation or prices without regular legislative action, and that 35 states and D.C. have enacted gas tax increases since 2013.",
+  "claim": "data",
+  "figures": [
+   "26",
+   "35"
+  ],
+  "source": "SRC-3117",
+  "anchor": [
+   "26 states and Washington, D.C., have a variable-rate gas tax that adjusts, to some degree, with inflation or prices without regular legislative action.",
+   "Since 2013, 35 states and Washington, D.C., have enacted legislation to increase their state gas taxes."
+  ],
+  "locator": "Introduction and 'Variable Rate Gas Taxes' summary (updated May 28, 2025)",
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "NCSL is the bipartisan association of state legislatures; its count cites ITEP, so it confirms ITEP's list but is not an independent count. The same page lists the structure state by state (CPI, construction cost index, fuel prices, population, vehicle efficiency).",
+  "note": "'Variable-rate' here includes taxes that move with fuel prices, not only inflation indexing; the page's table shows which states index to CPI (for example Florida, Illinois, Rhode Island, Virginia, D.C.) or to a highway construction cost index (Alabama, Minnesota, Mississippi; Colorado from 2032-33).",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-125",
+  "statement": "The Transit Costs Project, from a database of more than 900 projects in 59 countries, finds the United States is the sixth most expensive country in the world to build rapid-rail transit, and attributes the 8-to-12-times premium of New York's Second Avenue Subway over a composite low-cost baseline to physical structures, labor, and procurement and soft costs.",
+  "claim": "analysis",
+  "figures": [
+   "900",
+   "59",
+   "8 to 12 times"
+  ],
+  "source": "SRC-3118",
+  "anchor": [
+   "our database (Transit Costs Project n.d.) of more than 900 projects in 59 countries, including Hong Kong, the United States is the sixth most expensive country in the world to build rapid-rail transit infrastructure.",
+   "The five countries with greater average costs than the United States are building projects that are more than 65% tunneled.",
+   "Phase 1 of New York's Second Avenue Subway is 8 to 12 times more expensive than our composite baseline case.",
+   "The three primary factors are as follows: Physical Structures, Labor, and Procurement and Soft Costs."
+  ],
+  "locator": "Transit Costs Study Final Report, overview: the paragraphs on the database and Figure 1, and on the three primary factors",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "A university research project (NYU Marron Institute) that argues for adopting low-cost countries' practices; its cost-driver multipliers come from case studies and its own estimates, and the authors say the New York premium range (8 to 12) is imprecise. The per-kilometer comparison is in a chart the text does not carry, so no per-kilometer figure is anchored; the text notes the US has only 37% of track tunneled, against more than 65% for the five costlier countries.",
+  "corroboration": [],
+  "note": "No independent source on US transit construction costs has been added yet; the International Union of Railways or a GAO report on New Starts costs could serve. Main causes named by the study: oversized stations (about 2 times the cost), lack of standardized design, labor use (40-60% of hard costs in the Northeast against 19-30% in low-cost cases), procurement culture and soft costs. The premium multipliers are the study's, not measured prices.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-126",
+  "statement": "FHWA's Proven Safety Countermeasures booklet states that converting a two-way stop-controlled intersection to a roundabout reduces fatal and injury crashes by 82% and converting a signalized intersection to a roundabout reduces them by 78%.",
+  "claim": "analysis",
+  "figures": [
+   "82%",
+   "78%"
+  ],
+  "source": "SRC-3119",
+  "anchor": [
+   "Two-Way Stop-Controlled Intersection to a Roundabout 82% reduction in fatal and injury crashes.",
+   "Signalized Intersection to a Roundabout 78% reduction in fatal and injury crashes."
+  ],
+  "locator": "Roundabouts page of the booklet (Safety Benefits box; footnote cites the AASHTO Highway Safety Manual, 2010)",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "FHWA Office of Safety, booklet FHWA-SA-21 series, published 2021 under the Biden administration; an agency's own statement of effect sizes drawn from crash modification factors in the Highway Safety Manual, so graded as analysis. The percentages describe before-and-after changes at converted intersections, and applicability depends on site conditions.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-127",
+    "stance": "supports"
+   }
+  ],
+  "note": "Same publisher as the linked entry, so no independent corroboration yet; an independent evaluation (for example an Insurance Institute for Highway Safety roundabout study or the Highway Safety Manual itself) should be added before the dossier relies on it. FHWA's online page for roundabouts (highways.dot.gov) shows the same two percentages.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-127",
+  "statement": "FHWA states that a Road Diet (converting a four-lane undivided road to fewer lanes with a center turn lane) produces a crash reduction of 19 to 47 percent.",
+  "claim": "analysis",
+  "figures": [
+   "19 to 47 percent"
+  ],
+  "source": "SRC-3120",
+  "anchor": [
+   "The resulting benefits include a crash reduction of 19 to 47 percent, reduced vehicle speed differential, improved mobility and access by all road users"
+  ],
+  "locator": "Road Diets (Roadway Reconfiguration) page, paragraph on resulting benefits",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "FHWA Office of Safety web page, undated, served in 2026 (second Trump administration site); an agency's own summary of earlier safety studies, graded analysis. The FHWA Road Diet Informational Guide's conclusion gives the same range as what practitioners can expect, depending on prior crash history, installation details and urban or rural setting.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-126",
+    "stance": "supports"
+   }
+  ],
+  "note": "Same publisher as the linked entry; no independent corroboration yet. The page's 'proven safety countermeasure' designation is FHWA's own.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-128",
+  "statement": "GAO's survey of 31 commuter rail systems found that 17 were still using federal COVID-19 relief funding in FY2023, that the relief laws let recipients spend it on a wide array of payroll and operating expenses, and that the systems' operating costs rose about 28 percent in nominal terms (9 percent after inflation) from FY2019 to FY2023.",
+  "claim": "data",
+  "figures": [
+   "31",
+   "17",
+   "28 percent",
+   "9 percent"
+  ],
+  "source": "SRC-3121",
+  "anchor": [
+   "Slightly more than half of systems (17) reported in our survey they were still using federal COVID-19 relief funding in FY 2023.",
+   "The laws gave recipients flexibilities to use the funding for a wide array of payroll and operating expenses",
+   "Across all 31 systems, operating costs increased about 28 percent in nominal terms, and 9 percent after adjusting for inflation.",
+   "operating costs increased from FY 2019 to FY 2023"
+  ],
+  "locator": "Introduction (relief laws' flexibilities) and the section on commuter rail funding (about pp. 19-20; footnote 28)",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "GAO, nonpartisan legislative-branch auditor (2025). It covers 31 commuter rail systems only, not transit generally, so it cannot be read as the national picture. Systems reported on their own relief use; 15 of the 22 that responded by February 2025 said they had spent all available relief funding.",
+  "note": "No GAO report found that covers all transit agencies' use of the $69.5 billion; GAO-21-105202 (2021) reports 22 interviewed agencies used CARES grants for operating costs (not anchored). CRS gives the relief totals (EV-MOV-103). The ridership comparison in this GAO report for commuter rail is not used here.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-129",
+  "statement": "In the Mineta Transportation Institute's 2024 national survey (2,522 respondents), 74% supported raising the federal gas tax by 10 cents per gallon if the revenue were dedicated to maintenance (35% if spent for 'transportation' generally), 51% supported replacing the gas tax with a mileage fee whose rate varies with a vehicle's pollution, and 39% supported a flat-rate mileage fee on all travel.",
+  "claim": "data",
+  "figures": [
+   "74%",
+   "10 cents",
+   "35%",
+   "51%",
+   "39%",
+   "2,522"
+  ],
+  "source": "SRC-3122",
+  "anchor": [
+   "A nationally representative sample of 2,522 respondents completed the online survey",
+   "74% of respondents supported increasing the federal gas tax by 10 cents per gallon if the revenue would be dedicated to maintenance.",
+   "only 35% supported the rate increase if the money were spent more generically \"for transportation.\"",
+   "A majority of respondents (51%) supported replacing the gas tax with a mileage fee where the rate would vary according to the vehicle's pollution emissions",
+   "Support for this option was only 39%."
+  ],
+  "locator": "Report abstract (sample size, 74%) and the research brief's 'Gas Taxes' and 'Mileage Fees' findings (35%, 51%, 39%)",
+  "grade": "C",
+  "fact_date": "2024-05",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-31",
+  "context": "University transportation institute's annual online survey (fifteenth year; February 7 to March 12, 2024); public opinion depends on the stated purpose and the fee design, as the authors stress. Support is for the tested wording, not an indication a vote would pass. The 2025 edition (EV-MOV-134) is newer.",
+  "note": "Support for a flat-rate mileage fee rose from 22% in 2010 to 39% in 2024 and for the pollution-rate version from 33% to 51% (research brief). 64% supported lower mileage-fee rates for low-income drivers (press release; the report abstract says 62%). The Moving America project's link transweb.sjsu.edu/node/4576 resolves to the same report. The sixteenth-year survey (December 2025) is EV-MOV-134; use it for the latest figures.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-130",
+  "statement": "The European Court of Auditors found that the EU high-speed rail lines it audited cost on average 25 million euro per km (excluding tunnelling), that aggregate cost overruns were 5.7 billion euro at project level and 25.1 billion euro at line level (44% and 78%), that trains ran at only about 45% of design speed, and that three of seven completed lines carried far fewer passengers than the benchmark of nine million a year.",
+  "claim": "data",
+  "figures": [
+   "25 million euro",
+   "5.7 billion euro",
+   "25.1 billion euro",
+   "44%",
+   "78%",
+   "45%"
+  ],
+  "source": "SRC-3123",
+  "anchor": [
+   "lines we audited cost 25 million euro per km (not taking into account the more expensive tunnelling projects)",
+   "Aggregate cost overruns for the lines and projects we audited were 5.7 billion euro at project level, and 25.1 billion euro at line level (44 % and 78 %, respectively).",
+   "trains run on average at only around 45 % of the line's design speed on the lines audited",
+   "on three of the seven completed high-speed lines we audited, the number of passengers carried was far lower."
+  ],
+  "locator": "Executive summary, paragraphs VI and VII; main text on speed, passenger numbers and cost",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "An independent EU audit institution (2018), covering about 5,000 km of lines (about half the EU's high-speed network) in six member states, with data to 2016-2017; a skeptical audit that finds some very-high-speed lines were not needed, so it is evidence on cost-efficiency and not a verdict on high-speed rail in general. Costs are in euros as reported by the audited projects, not adjusted to US dollars or today's prices.",
+  "note": "The same report finds the cost per minute of travel time saved ranges up to 369 million euro (Stuttgart-Munich), that four of ten lines exceed 100 million euro per minute saved, and that nine of 14 lines and connections lacked enough potential passengers. The 25 million euro per km excludes tunnelling, and the report says costs are rising. It is not a US comparison; no US high-speed rail cost per kilometer was added.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-131",
+  "statement": "CRFB, restating CBO's February 2026 baseline, says the Highway Trust Fund will run out of reserves in FY2028 and that the law then calls for spending to match revenue, which it estimates as a 40% immediate cut to highway spending.",
+  "claim": "analysis",
+  "figures": [
+   "40%"
+  ],
+  "source": "SRC-3124",
+  "anchor": [
+   "CBO estimates the Highway Trust Fund will run out of reserves in FY 2028",
+   "The result would be a 40% immediate cut to highway spending"
+  ],
+  "locator": "Section 'Major Trust Funds Are Approaching Insolvency'",
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "CRFB is a nonpartisan fiscal-policy advocacy group that favors deficit reduction and trust fund reform. Its insolvency year is CBO's, not its own projection; the 40% cut is CRFB's own estimate, and CBO's baseline assumes by statute that the fund keeps paying. A separate CRFB estimate (March 17, 2026, not anchored) puts the insolvency date at about July 2028 before any gas tax holiday. The Penn Wharton Budget Model was searched and no 2026 Highway Trust Fund projection by it was found.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-002",
+    "stance": "supports"
+   }
+  ],
+  "note": "Independent in publisher but not in method: it adds a read of consequences to CBO's numbers, so it corroborates EV-MOV-002 and EV-MOV-015 as a restatement, not as a second projection. A truly independent estimate of the fund's balance (for example Penn Wharton, Tax Foundation or a state DOT association) is still needed.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-132",
+  "statement": "FHWA's National Highway Construction Cost Index (2003 Q1 = 1) was 2.04 in 2021 Q2, reached 3.36 in 2024 Q3, was 3.31 in 2025 Q3 and was 3.13 in 2026 Q1.",
+  "claim": "data",
+  "figures": [
+   "2.04",
+   "3.36",
+   "3.31",
+   "3.13"
+  ],
+  "rounded": [
+   {
+    "figure": "2.04",
+    "value": "2.036274797",
+    "scale": 1,
+    "places": 2
+   },
+   {
+    "figure": "3.36",
+    "value": "3.362867071",
+    "scale": 1,
+    "places": 2
+   },
+   {
+    "figure": "3.31",
+    "value": "3.30651334",
+    "scale": 1,
+    "places": 2
+   },
+   {
+    "figure": "3.13",
+    "value": "3.134822428",
+    "scale": 1,
+    "places": 2
+   }
+  ],
+  "source": "SRC-3125",
+  "anchor": [
+   "\"2003 Q1\",\"1\",\"1.011968272\"",
+   "\"2021 Q2\",\"2.036274797\",\"2.014311442\"",
+   "\"2024 Q3\",\"3.362867071\",\"3.258769913\"",
+   "\"2025 Q3\",\"3.30651334\",\"3.230251247\"",
+   "\"2026 Q1\",\"3.134822428\",\"3.165451056\""
+  ],
+  "grade": "A",
+  "fact_date": "2026-03",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-15",
+  "context": "FHWA Office of Transportation Policy Studies, second Trump administration; a measured price index built from the winning bid prices on state projects. Values are the portal's current vintage (data updated 2026-09-09) and are revised: Eno cites a peak of 3.3079 in 2025 Q3 (EV-MOV-133), against 3.3065 here.",
+  "note": "Project arithmetic from the same series: 3.3065 / 2.0363 = 1.62, so costs were about 62% higher in 2025 Q3 than in 2021 Q2, and 2026 Q1 is about 54% above 2021 Q2. This is the index BTS used for EV-MOV-008, which reports a 63 percent rise across fiscal-year averages for FY2021-FY2025; the measure here is quarterly and on a calendar basis, so the figures differ slightly. The index is a price index for roadway construction, not total project cost.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-133",
+  "statement": "The Eno Center re-bases FHWA's cost index to April-June 2021 and finds the raw index has risen 58.8 percent to the October-December 2025 adjusted level, and estimates that rising costs cut the buying power of $270 billion in IIJA-era FHWA obligations by $87.6 billion, or 32 percent.",
+  "claim": "analysis",
+  "figures": [
+   "58.8 percent",
+   "$270 billion",
+   "$87.6 billion",
+   "32 percent"
+  ],
+  "source": "SRC-3126",
+  "anchor": [
+   "the raw cost index has risen 58.8 percent since that time (from a rebased 1.0000 to the October-December 2025 adjusted 1.5584).",
+   "in the April-June 2021, NHCCI had doubled to 2.0363",
+   "Under the IIJA to date, there have been $270 billion in such FHWA obligations (excluding the emergency relief program).",
+   "the total amount of obligations drops below $183 billion, a reduction of $87.6 billion, or 32 percent, of the buying power of the funding provided to FHWA by the IIJA to date."
+  ],
+  "locator": "Article of July 2, 2026, paragraphs on the rebased index and the table of buying power",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-15",
+  "context": "Eno is a nonpartisan transportation think tank. Its arithmetic uses FHWA's own index and FHWA obligations from usaspending.gov, so it is an independent calculation on the same data, not a second measure of costs. Eno's description mixes 'raw' and 'adjusted' values in the same sentence, which should be checked against its table.",
+  "corroboration": [
+   {
+    "evidence": "EV-MOV-132",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-MOV-008",
+    "stance": "supports"
+   }
+  ],
+  "note": "Reaches the same 32 percent as BTS (EV-MOV-008) by a different base (April-June 2021) and a different spending base, so the match supports the order of magnitude, not the exact figure; the two should not be added together or treated as separate confirmations of one number.",
+  "supports": [
+   "dossiers/agenda/transportation/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-134",
+  "statement": "In the Mineta Transportation Institute's 2025 national survey (2,539 respondents), 75% supported raising the federal gas tax by 10 cents per gallon if the revenue were dedicated to maintenance, against 38% for the base case in which the money is spent 'for transportation'; 51% supported a mileage fee whose rate varies with a vehicle's pollution and 44% supported a flat-rate mileage fee.",
+  "claim": "data",
+  "figures": [
+   "75%",
+   "10 cents",
+   "38%",
+   "51%",
+   "44%",
+   "2,539"
+  ],
+  "source": "SRC-3127",
+  "anchor": [
+   "A nationally representative sample of 2,539 respondents completed the online survey from February 3 to February 27, 2025.",
+   "75% of respondents supported increasing the federal gas tax by 10 cents per gallon if the revenue would be dedicated to maintenance",
+   "Only 38% supported the “base case” option presented, which was a 10¢-per-gallon gas tax increase.",
+   "A majority of respondents (51%) supported replacing the gas tax with a green-rate mileage fee where the rate would vary according to the vehicle’s pollution emissions.",
+   "only 44% supported a mileage fee with a flat rate for all drivers."
+  ],
+  "locator": "Report abstract (sample size, 75%) and the year-16 research brief, 'Gas Tax Findings' and 'Mileage Fee Findings' (38%, 51%, 44%)",
+  "grade": "C",
+  "fact_date": "2025-02",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-31",
+  "context": "University transportation institute's annual online survey (sixteenth year; February 3 to 27, 2025), the latest edition found; public opinion depends on the stated purpose and fee design, as the authors stress. Support is for the tested wording, not a prediction of a vote. Same research team as the 2024 edition (EV-MOV-129), so the two are one series, not independent confirmation of each other. A 2026 edition may be due; I did not find one.",
+  "note": "Compared with 2024 (EV-MOV-129): the maintenance-dedicated gas tax increase 74% to 75%, the base case 35% to 38%, the flat-rate mileage fee 39% to 44%, the pollution-rate fee 51% in both. The brief reports 63% support for lower mileage-fee rates for low-income drivers and 74% preference for paying a mileage fee in small installments.",
+  "supports": [
+   "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ }
+]
