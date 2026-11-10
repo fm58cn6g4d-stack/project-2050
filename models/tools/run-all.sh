@@ -65,6 +65,10 @@ PUBLIC_STORY_REPORT_ONLY=1 python3 "$TOOLS"/public-product/story/test_story.py 2
 echo "== 8e. registry (agenda, library catalog, charter IDs, evidence and provisions, references)"
 python3 "$ROOT"/models/registry/check.py
 python3 "$ROOT"/models/registry/test_registry.py 2>&1 | tail -1
+# Restatement check (charter/PLAN.md 4): a report, never a failure. Lists what each legacy file a dossier
+# replaces says that the dossier no longer does (models/registry/restatement.py; maps in dossiers/**/restatement.json).
+python3 "$ROOT"/models/registry/test_restatement.py 2>&1 | tail -1
+python3 "$ROOT"/models/registry/restatement.py --all || true
 python3 "$ROOT"/library/test_fetch_public.py 2>&1 | tail -1
 
 python3 "$TOOLS"/climate-integration-report.py
