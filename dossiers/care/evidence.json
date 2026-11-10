@@ -6586,5 +6586,309 @@
   "supports": [
    "dossiers/care/4-specification.md"
   ]
+ },
+ {
+  "id": "EV-CAR-351",
+  "statement": "In the Chief Justice's opinion in NFIB v. Sebelius, the Medicaid expansion was held unconstitutionally coercive: a State that declined it stood to lose not a small part but all of its existing Medicaid funding, 'a gun to the head', and the threatened loss of over 10 percent of a State's overall budget left States with no real option but to accept.",
+  "claim": "data",
+  "figures": [
+   "10"
+  ],
+  "source": "SRC-3296",
+  "anchor": [
+   "is a gun to the head. Section 1396c of the Medicaid Act pro­\nvides that if a State’s Medicaid plan does not comply with\nthe Act’s requirements, the Secretary of Health and Human\nServices may declare that “further payments will not be\nmade to the State.”",
+   "A State that opts\nout of the Affordable Care Act’s expansion in health care\ncoverage thus stands to lose not merely “a relatively small\npercentage” of its existing Medicaid funding, but all of it.",
+   "The threatened loss of over 10 percent of a State’s overall\nbudget, in contrast, is economic dragooning that leaves the\nStates with no real option but to acquiesce in the Medicaid\nexpansion."
+  ],
+  "grade": "A",
+  "locator": "Opinion of Roberts, C. J., Part IV-B, pp. 581-582",
+  "fact_date": "2012-06-28",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Supreme Court of the United States, National Federation of Independent Business v. Sebelius, 567 U.S. 519 (June 28, 2012), opinion of Chief Justice Roberts on the Spending Clause question, as printed in the U.S. Reports (Library of Congress copy). Primary law; the Court's opinion is a government work. The Court's holding is that the threat to existing funds is unconstitutional, not that the expansion itself is; later states' decisions to expand or not follow from the remedy (EV-CAR-352).",
+  "supports": [
+   "dossiers/care/8-change-our-minds.md",
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-352",
+  "statement": "The remedy for the coercion was to bar the Federal Government from withholding existing Medicaid funds from States that refuse the expansion, not to strike down the rest of the Affordable Care Act; Justice Ginsburg, writing separately, agreed with the Chief Justice that this was the appropriate remedy, rather than scrapping the expansion.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3296",
+  "anchor": [
+   "The remedy for that constitutional vi­\nolation is to preclude the Federal Government from imposing\nsuch a sanction. That remedy does not require striking\ndown other portions of the Affordable Care Act.",
+   "A majority of the Court, however, buys the argument that\nprospective withholding of funds formerly available exceeds\nCongress’ spending power. Given that holding, I entirely\nagree with The Chief Justice as to the appropriate rem­\nedy. It is to bar the withholding found impermissible—not,\nas the joint dissenters would have it, to scrap the expansion\naltogether"
+  ],
+  "grade": "A",
+  "locator": "Opinion of Roberts, C. J., p. 587; opinion of Ginsburg, J., p. 625",
+  "fact_date": "2012-06-28",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Same opinion as EV-CAR-351 (567 U.S. 519). The Chief Justice's holding on remedy is cited by Justice Ginsburg as 'ante, at 585'; the page numbers given here are those of the printed U.S. Reports pages on which the quoted passages fall in the saved text. In practice the holding leaves a State free to decline the expansion while keeping its existing Medicaid funding, which the 2012-era Secretary's authority under 42 U.S.C. 1396c cannot be used to take away.",
+  "supports": [
+   "dossiers/care/8-change-our-minds.md",
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-353",
+  "statement": "Each of the 50 States and the District of Columbia must pay the Secretary each month from January 2006 a product of a base-year per-person drug amount, the number of full-benefit dual-eligible individuals and a phase-down factor that was 90 percent in 2006 and is 75 percent after December 2014 (the Part D 'clawback').",
+  "claim": "data",
+  "figures": [
+   "50",
+   "2006",
+   "90",
+   "75",
+   "December 2014"
+  ],
+  "source": "SRC-3297",
+  "anchor": [
+   "Each of the 50 States and the District of Columbia for each month beginning with January 2006 shall provide for payment under this subsection to the Secretary of the product of—",
+   "(A) in 2006 is 90 percent;",
+   "(J) after December 2014, is 75 percent."
+  ],
+  "grade": "A",
+  "locator": "42 U.S.C. 1396u-5(c)(1)(A) and (c)(5)",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Section 1935(c) of the Social Security Act as codified at 42 U.S.C. 1396u-5(c), U.S. Code 2023 edition as published by GPO. The factor falls by steps between 2006 and 2014 (88 1/3 percent in 2007 and so on). The amount in paragraph (2) is the state's base-year drug spending per full-benefit dual eligible, times 100 percent minus the state's federal medical assistance percentage, grown by a drug-spending growth factor; the section names the payment a phased-down State contribution, popularly the clawback.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-354",
+  "statement": "A State that fails to pay the clawback owes interest, and the amount owed with interest is immediately offset against federal Medicaid payments otherwise due to the State.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3297",
+  "anchor": [
+   "If a State fails to pay to the Secretary an amount required under subparagraph (A), interest shall accrue on such amount at the rate provided under section 1396b(d)(5) of this title. The amount so owed and applicable interest shall be immediately offset against amounts otherwise payable to the State under section 1396b(a) of this title"
+  ],
+  "grade": "A",
+  "locator": "42 U.S.C. 1396u-5(c)(1)(C)",
+  "fact_date": "2023",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Same section as EV-CAR-353 (2023 edition). The offset is against payments under section 1903(a) of the Act (42 U.S.C. 1396b(a)); interest runs at the rate in section 1903(d)(5). Section 1396u-5(e) is cross-referenced as a limit; its text was not examined here.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-355",
+  "statement": "The Congressional Research Service described the clawback formula in 2004: the monthly payment is the state's base-year per-person Part D-covered drug spending for full-benefit duals times one minus its federal match, enrollment and an annual adjustment factor of 90 percent for 2006, declining to 75 percent for 2015 and later years, designed to approximate what the state share of Medicaid drug spending for duals would have been without Part D.",
+  "claim": "analysis",
+  "figures": [
+   "90",
+   "2006",
+   "75",
+   "2015"
+  ],
+  "source": "SRC-3298",
+  "anchor": [
+   "Annual adjustment factor\n=\n90% for 2006, declining to 75% for 2015 and later years",
+   "The phased-down payment formula is designed to approximate what the state\nshare of Medicaid spending on prescription drugs for dual eligibles would have been\nin the absence of the new Medicare Part D benefit",
+   "(the factor is 90% for 2006 and gradually\ndeclines to 75% for years after 2014)."
+  ],
+  "grade": "C",
+  "locator": "Table 1 and following paragraph, pp. 2-3",
+  "fact_date": "2004-06-23",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CRS report RL32440 (Congressional Research Service, June 23, 2004, before the benefit began); nonpartisan. It restates section 1935(c) of the Social Security Act and adds that the formula is meant to approximate states' former share of costs. 'Later years' in its table is stated as 2015 on, in the following paragraph as after 2014, matching the statute (EV-CAR-353). The Supreme Court's 2006 refusal to hear the states' original action Texas v. Leavitt (No. 135, Original) was not found in a primary source and is not recorded.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-353",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-356",
+  "statement": "The 2020 Island Areas Censuses counted 153,836 people in Guam, 87,146 in the U.S. Virgin Islands, 49,710 in American Samoa and 47,329 in the Northern Mariana Islands.",
+  "claim": "data",
+  "figures": [
+   "153,836",
+   "87,146",
+   "49,710",
+   "47,329",
+   "2020"
+  ],
+  "source": "SRC-3299",
+  "anchor": [
+   "The combined population of the territories of American Samoa, Guam, the Commonwealth of the Northern Mariana Islands (CNMI) and the U.S. Virgin Islands was just under 339,000, according to the first results of the 2020 Island Areas Censuses released today.",
+   "Located in the south-central Pacific, American Samoa had the second smallest population of the four Island Areas at 49,710 people",
+   "Located in the western Pacific, CNMI had the smallest population of the four U.S. Island Areas at 47,329 people",
+   "Located in the western Pacific and southern part of the Marianas Archipelago, Guam had the largest population of the four U.S. Island Areas at 153,836 people.",
+   "Located in the Caribbean, USVI had the second largest population of the four U.S. Island Areas at 87,146 people"
+  ],
+  "grade": "A",
+  "locator": "Census Bureau story, 'First 2020 Census United States Island Areas Data Released Today', sections for each Island Area",
+  "fact_date": "2020-04-01",
+  "checked": "2026-11-10",
+  "recheck": "2030-04-01",
+  "context": "U.S. Census Bureau, release of October 28, 2021 on the 2020 Census Island Areas counts (census date April 1, 2020). The anchor lines give the counts; the date is the census reference date and is not repeated in each anchor, so the reviewer should confirm it in the original story. Puerto Rico is in the separate estimate (EV-CAR-357).",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-357",
+  "statement": "The Census Bureau's Vintage 2025 estimate puts Puerto Rico's resident population at about 3.2 million on July 1, 2025.",
+  "claim": "data",
+  "figures": [],
+  "rounded": [
+   {
+    "figure": "3.2 million",
+    "value": "3184835",
+    "scale": 1e-06,
+    "places": 1
+   }
+  ],
+  "source": "SRC-3300",
+  "anchor": [
+   "Puerto Rico: April 1, 2020\n to July 1, 2025",
+   "row 3 |  = Population Estimate (as of July 1)",
+   "row 62 |  = 3285874\nrow 62 |  = 3281591\nrow 62 |  = 3262731\nrow 62 |  = 3220148\nrow 62 |  = 3203794\nrow 62 |  = 3202521\nrow 62 |  = 3184835"
+  ],
+  "grade": "A",
+  "locator": "Table NST-EST2025-POP, Puerto Rico row (last value is July 1, 2025)",
+  "fact_date": "2025-07-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-01",
+  "context": "Census Bureau Vintage 2025 state and Puerto Rico population estimates workbook; the saved text lists one cell per line, so the row holds the April 1, 2020 estimates base (3285874) followed by the July 1 estimates for 2020 to 2025 in column order; the exact figure is 3184835 (displayed rounded). The next vintage is due late 2026.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-358",
+  "statement": "Medicaid in the territories is subject to annual federal capped funding; once a territory reaches its cap it bears the full cost of Medicaid services, and the territories' federal matching rate had been set at 55 percent since July 1, 2011 before the increases in recent laws.",
+  "claim": "data",
+  "figures": [
+   "55",
+   "July 1, 2011"
+  ],
+  "source": "SRC-3301",
+  "anchor": [
+   "The Medicaid programs in the territories are subject to annual federal capped funding.",
+   "once the cap is reached, the territories assume the full cost of Medicaid\nservices.",
+   "By contrast, the FMAP rates for the territories have been set at 55% since\nJuly 1, 2011;"
+  ],
+  "grade": "A",
+  "locator": "Summary and 'FMAP Rate' section, pp. 1-3",
+  "fact_date": "2023-06-22",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CRS report R47601 (Congressional Research Service, June 22, 2023); nonpartisan summary of the Social Security Act section 1108(g) caps and the matching rate. The cap is sometimes called the section 1108 allotment. The matching rate has since been raised by law (EV-CAR-359).",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-359",
+  "statement": "For fiscal year 2027, HHS's notice sets the federal medical assistance percentage at 83 percent for the Virgin Islands, Guam, the Northern Mariana Islands and American Samoa, permanently, and at 76 percent for Puerto Rico through September 30, 2027; the statutory rate for these territories is otherwise 55 percent.",
+  "claim": "data",
+  "figures": [
+   "83",
+   "76",
+   "September 30, 2027",
+   "55"
+  ],
+  "source": "SRC-3302",
+  "anchor": [
+   "Section 1905(b) further specifies that the FMAP for Puerto Rico,\nthe Virgin Islands, Guam, the Northern Mariana Islands, and American\nSamoa shall be 55 percent.",
+   "However, section 5101(b) of Division FF of the Consolidated\nAppropriations Act, 2023 (Pub. L. 117-328) amended section 1905(ff) of\nthe Act to provide that the FMAP for the Virgin Islands, Guam, the\nNorthern Mariana Islands, and American Samoa shall be 83 percent\npermanently, and that the FMAP for Puerto Rico shall be 76 percent\nthrough September 30, 2027."
+  ],
+  "grade": "A",
+  "locator": "Federal Register notice 2025-21332, Supplementary Information",
+  "fact_date": "2025-11-28",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-01",
+  "context": "HHS Office of the Secretary notice published November 28, 2025 (Trump administration, second term), setting the matching percentages for October 1, 2026 through September 30, 2027; it applies the Consolidated Appropriations Act, 2023 (Pub. L. 117-328) and does not itself change the rates. The next notice is due in late 2026, and Puerto Rico's 76 percent expires after fiscal year 2027 without further law.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-360",
+  "statement": "The MACPAC fact sheet explains that, unlike the open-ended financing of the states, Medicaid in the territories has an annual ceiling on federal financial participation (the section 1108 allotment), beyond which territories generally pay with local funds, and that the territories' federal matching rate was set by statute at 55 percent.",
+  "claim": "data",
+  "figures": [
+   "55",
+   "1108"
+  ],
+  "source": "SRC-3303",
+  "anchor": [
+   "rather than having an open-ended financing structure, Medicaid in the territories operates with an annual\nceiling on federal financial participation, referred to as the Section 1108 cap or Section 1108 allotment (§\n1108(g) of the Act).",
+   "The FMAP for the territories is set statutorily at 55 percent"
+  ],
+  "grade": "A",
+  "locator": "Overview, p. 1; 'Federal medical assistance percentage', p. 5",
+  "fact_date": "2021-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "MACPAC (Medicaid and CHIP Payment and Access Commission, a nonpartisan congressional advisory commission), 'Medicaid and CHIP in the Territories' fact sheet, February 2021; it predates the Consolidated Appropriations Act, 2023 and its allotment table (FYs 2019-2022) and matching rates were later changed (EV-CAR-359, EV-CAR-361). Page numbers are approximate. Independent corroboration of EV-CAR-358.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-361",
+  "statement": "The Consolidated Appropriations Act, 2023 set Puerto Rico's annual Medicaid allotment at $3,275,000,000 for fiscal year 2023, $3,325,000,000 for 2024, $3,475,000,000 for 2025, $3,645,000,000 for 2026 and $3,825,000,000 for 2027, with an additional $300,000,000 each year if the Secretary certifies that Puerto Rico meets a condition on payment rates.",
+  "claim": "data",
+  "figures": [
+   "$3,275,000,000",
+   "$3,325,000,000",
+   "$3,475,000,000",
+   "$3,645,000,000",
+   "$3,825,000,000",
+   "$300,000,000"
+  ],
+  "source": "SRC-3287",
+  "anchor": [
+   "``(A) For fiscal year 2023, $3,275,000,000.\n``(B) For fiscal year 2024, $3,325,000,000.\n``(C) For fiscal year 2025, $3,475,000,000.",
+   "``(D) For fiscal year 2026, $3,645,000,000.\n``(E) For fiscal year 2027, $3,825,000,000.",
+   "increased by $300,000,000 if the\nSecretary certifies that"
+  ],
+  "grade": "A",
+  "locator": "Division FF, Title V, sec. 5101(a), new SSA sec. 1108(g)(11)-(12)",
+  "fact_date": "2022-12-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted law: Public Law 117-328, approved December 29, 2022 (Biden administration), section 5101 of Division FF; the saved GPO text is the same document as SRC-3287. From fiscal year 2028 the section ties the amount to the pre-2020 base grown by medical inflation, a large reduction (EV-CAR-362). The $300,000,000 add-on's condition (a payment floor for providers through a directed payment plan) is cut off in the anchor; read the section for it.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-362",
+  "statement": "Under law as of June 2023, Puerto Rico's Medicaid funding and matching rate were set to fall from fiscal year 2028: the rate reverts to 55 percent and the annual cap is cut significantly.",
+  "claim": "data",
+  "figures": [
+   "2028",
+   "55"
+  ],
+  "source": "SRC-3301",
+  "anchor": [
+   "Under current law, Puerto Rico is to receive a significant reduction in annual federal capped funding for Medicaid\nin FY2028 and subsequent years.",
+   "Puerto Rico’s FMAP rate is to revert back to 55% for FY2028 and subsequent\nyears."
+  ],
+  "grade": "A",
+  "locator": "Summary, 'Puerto Rico vs. the Other Territories', p. 2",
+  "fact_date": "2023-06-22",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CRS report R47601 (June 22, 2023), reading the Consolidated Appropriations Act, 2023 (EV-CAR-361, EV-CAR-359). It states the law as of its date; Congress may act before fiscal year 2028. CRS's own text says 'December 2023' for the Act, which was approved December 29, 2022; the date is taken from the Act itself.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
  }
 ]
