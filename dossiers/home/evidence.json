@@ -17089,19 +17089,16 @@
  },
  {
   "id": "EV-HOU-774",
-  "statement": "USDA projects Section 515 preservation needs above $30 billion between December 2025 and 2050, about $1.2 billion a year; in 2025 it obligated just under $8.0 million to preserve three projects with 134 units.",
+  "statement": "USDA projects preservation needs for its rural rental portfolio above $30 billion between December 2025 and 2050, about $1.2 billion a year.",
   "source": "SRC-2131",
-  "anchor": [
-   "projected preservation demand of the\nportfolio exceeding $30 billion between December 2025 and 2050 ($1.2 billion per year).",
-   "In 2025, RD obligated just under $8.0 million to preserve three projects totaling 134 units in the\nSection 515 Rural Rental Housing Direct Loan program."
-  ],
+  "anchor": "projected preservation demand of the\nportfolio exceeding $30 billion between December 2025 and 2050 ($1.2 billion per year).",
   "locator": "Multifamily Housing preservation, FY2025",
   "claim": "analysis",
-  "grade": "A",
+  "grade": "C",
   "fact_date": "2026",
   "checked": "2026-11-10",
   "recheck": "2027-11-10",
-  "context": "USDA budget justification for FY2027 (second Trump administration). The $30 billion is the agency's projection, an analysis; no independent estimate is in the register. The obligations are records.",
+  "context": "USDA budget justification for FY2027 (second Trump administration). The agency's own projection, an analysis; GAO's exit estimate (EV-HOU-783) points the same way. The 2025 obligations are EV-HOU-784.",
   "figures": [],
   "supports": [
    "dossiers/home/memos/13-rural.md"
@@ -17279,19 +17276,19 @@
  },
  {
   "id": "EV-HOU-783",
-  "statement": "GAO found that between 2028 and 2050 over 90 percent of USDA's rural rental properties and units could leave the program, about 13,000 properties with 407,000 units, and that about 60 percent of properties with maturing mortgages left in 2014 through 2017.",
+  "statement": "GAO reported that RHS's own data suggest over 90 percent of its rural rental properties and units, about 13,000 properties with 407,000 units, could leave the program between 2028 and 2050; GAO found the estimating tool lacked sufficient controls.",
   "source": "SRC-2148",
   "anchor": [
-   "between 2028 and 2050, over 90 percent of RHS's properties and units could exit the program (about 13,000 properties with 407,000 units)",
-   "about 60 percent of properties with maturing mortgages exited the program between 2014 through 2017"
+   "RHS data suggest that a smaller number of properties could exit RHS's program in the near term, but between 2028 and 2050, over 90 percent of RHS's properties and units could exit the program (about 13,000 properties with 407,000 units)",
+   "RHS lacked sufficient controls"
   ],
   "locator": "What GAO Found (report summary page)",
   "claim": "analysis",
-  "grade": "A",
+  "grade": "C",
   "fact_date": "2018-05-17",
   "checked": "2026-11-10",
   "recheck": "2027-11-10",
-  "context": "GAO, May 2018. The exit dates are estimates from RHS's preservation tool, which GAO found lacked data controls; an analysis. Read through a fetch tool, since gao.gov blocks agent downloads; the reviewer should check the quotation against the original.",
+  "context": "GAO, May 2018, reporting RHS's estimate from its preservation tool; an analysis. Read through a fetch tool, since gao.gov blocks agent downloads; the reviewer checked the quotations against the original (PR #177). The historical exits are EV-HOU-785.",
   "figures": [],
   "supports": [
    "dossiers/home/memos/13-rural.md"
@@ -17301,6 +17298,40 @@
     "evidence": "EV-HOU-774",
     "stance": "supports"
    }
+  ]
+ },
+ {
+  "id": "EV-HOU-784",
+  "statement": "In 2025 USDA obligated just under $8.0 million to preserve three Section 515 projects with 134 units.",
+  "source": "SRC-2131",
+  "anchor": "In 2025, RD obligated just under $8.0 million to preserve three projects totaling 134 units in the\nSection 515 Rural Rental Housing Direct Loan program.",
+  "locator": "Multifamily Housing preservation, FY2025",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA budget justification for FY2027 (second Trump administration). Obligations are records.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-785",
+  "statement": "GAO found that about 60 percent of USDA rural rental properties with maturing mortgages left the program from 2014 through 2017.",
+  "source": "SRC-2148",
+  "anchor": "about 60 percent of properties with maturing mortgages exited the program between 2014 through 2017",
+  "locator": "What GAO Found (report summary page)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2018-05-17",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "GAO, May 2018, from RHS loan records. Read through a fetch tool; checked against the original by the reviewer (PR #177).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
   ]
  }
 ]
