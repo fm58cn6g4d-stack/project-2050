@@ -66,6 +66,19 @@ class RestatementTests(unittest.TestCase):
         self.assertEqual(len(reports), 1)
         self.assertEqual(reports[0]['missing'], [])
 
+    def test_map_and_log_are_not_results(self):
+        # A wide result glob also matches the map and the log; neither may make a token read as carried over.
+        root = self.tree('A-23 $55B FY2032-36 MR1 3 1000 0.18', log='- `91,000` the pilot ends')
+        (root / 'd/restatement.json').write_text(json.dumps(
+            {'note': 'mentions A-23 and 91,000', 'pairs': [{'source': 'legacy/old.md', 'result': ['d/*'],
+                                                        'accounted': ['d/log.md']}]}))
+        r = restatement.run_map(root, 'd/restatement.json', limit=None)[0]
+        self.assertEqual(r['results'], ['d/1.md'])
+        self.assertEqual(([m['token'] for m in r['missing']], [m['token'] for m in r['accounted']]), ([], ['91000']))
+
+    def test_leading_zeros_are_ignored(self):
+        self.assertEqual([restatement.norm(n) for n in ('07', '0.50', '007.10', '0')], ['7', '0.5', '7.1', '0'])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -17,7 +17,10 @@ What counts:
 - policy IDs: hyphenated IDs (A-23, MOV-29, HOU-4A.01, DEC-2026-10-30-02) and every agenda ID in
   agenda/agenda.csv that the source names (MR1, R2);
 - numbers: every other run of digits, with thousands commas and trailing decimal zeros dropped, so
-  "$55.00B" in the source matches "$55B" in the result and "1,000" matches "1000". Numbers inside IDs,
+  "$55.00B" in the source matches "$55B" in the result, "1,000" matches "1000" and "07" matches "7".
+  Matching is set-wide: a token counts as carried over if it appears anywhere in the result files, not
+  necessarily in the same statement, so the report finds what was dropped, not what was changed.
+  The map file and the accounted files are never counted as results. Numbers inside IDs,
   link targets and bare URLs are ignored.
 
 A restatement map (JSON) lists the pairs for one dossier:
@@ -39,11 +42,12 @@ TICKED = re.compile(r'`([^`\n]+)`')
 
 
 def norm(number):
-    """'1,000' -> '1000'; '55.00' -> '55'; '0.180' -> '0.18'."""
+    """'1,000' -> '1000'; '55.00' -> '55'; '0.180' -> '0.18'; '07' -> '7'."""
     n = number.replace(',', '')
     if '.' in n:
         n = n.rstrip('0').rstrip('.')
-    return n
+    whole, dot, frac = n.partition('.')
+    return (whole.lstrip('0') or '0') + dot + frac
 
 
 def agenda_ids(root):
@@ -137,11 +141,14 @@ def run_map(root, map_path, limit):
     spec = json.loads((root / map_path).read_text())
     reports = []
     for pair in spec.get('pairs', []):
-        results = expand(root, pair.get('result', []))
+        accounted = expand(root, pair.get('accounted', []))
+        # The map and the accounted files are not the restatement: a token in them must not read as carried over.
+        skip = {(root / map_path).resolve()} | {p.resolve() for p in accounted}
+        results = [p for p in expand(root, pair.get('result', [])) if p.resolve() not in skip]
         if not (root / pair['source']).exists():
             print(f"{map_path}: source {pair['source']} not found")
             continue
-        r = compare(root, pair['source'], results, expand(root, pair.get('accounted', [])))
+        r = compare(root, pair['source'], results, accounted)
         print_report(root, r, limit)
         reports.append(r)
     return reports
