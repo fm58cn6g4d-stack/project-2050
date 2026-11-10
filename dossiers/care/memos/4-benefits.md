@@ -19,7 +19,7 @@ Role: decision memo for Espen, fork 4 of the health design (`../3-design.md`). S
 
 **B. Comprehensive benefits with no cost sharing.** Hospital, doctor, prescription drugs, mental health and addiction care, maternity, dental, vision and hearing; no premiums, deductibles or copays.
 - *For people:* the simplest possible system to use: no bills, no networks, nothing to check. Matches the design lens fully.
-- *Cost:* the most use of care. In the coverage model, cost sharing of 1% to 6% of spending moves the single plan's federal cost by about $300 billion a year in 2032 (from about $3.4 trillion to $3.1 trillion), so no cost sharing sits at the top of that range.
+- *Cost:* the most use of care. In the coverage model, cost sharing of 1% to 6% of spending moves the single plan's federal cost by about $300 billion a year in 2032 (from about $3.6 trillion to $3.25 trillion), so no cost sharing sits at the top of that range.
 - *Risk:* demand outruns supply at first (CBO, 2020) [EV-CAR-219], so waits grow unless the workforce and rates keep up (memo 5).
 
 **C. Comprehensive benefits with small, income-related cost sharing (recommended).** The benefits in B; no cost sharing for anyone below 200% of the poverty line, and for primary care, prevention, maternity, mental health and chronic-condition drugs for everyone; small fixed copays for other services above that line, with a low yearly cap (a working figure of $1,000 per person).

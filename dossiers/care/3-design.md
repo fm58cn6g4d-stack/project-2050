@@ -30,13 +30,13 @@ Section 1, part 8: the enhanced credits expired and were not extended; the 2025 
 | --- | --- | --- | --- | --- |
 | Current law in 2029 | 37.2 million | — | — | — |
 | Restore only (point 1 below) | 23.6 million | about $190 billion | about $2.1 trillion | about +$60 billion |
-| A. Public option | 14.5 million | about $240 billion | about $2.6 trillion | about flat |
-| B. Staged path (2032 status) | about 11.4 million with children in the first wave (14.0 million without) | about $250 billion, rising to C's by the endpoint | endpoint 2037: about $16-26 trillion; 2040: about $3-21 trillion (project arithmetic; the lower end is nearer memo 2's order, which moves employer groups last) | about flat, then C's |
-| C. Single-payer | 3.6 million | about $3.3 trillion | about $27 trillion (2032-35 phase-in) | about −$140 billion to +$45 billion |
+| A. Public option | 14.5 million | about $240 billion | about $2.6 trillion | about flat (+$15 billion) |
+| B. Staged path (2032 status) | about 11.4 million with children in the first wave (14.0 million without) | about $250 billion, rising to C's by the endpoint | endpoint 2037: about $17-28 trillion; 2040: about $3-22 trillion (project arithmetic; the lower end is nearer memo 2's order, which moves employer groups last) | about $40-80 billion lower, then C's |
+| C. Single-payer | 3.6 million | about $3.4-3.5 trillion | about $28-29 trillion (2032-35 phase-in) | about −$130 billion to +$95 billion |
 
 - These are exploratory. The model runs high against CBO's 2020 single-payer range (its card explains why) and misses CBO's cost of permanent enhanced credits; both are reported, not tuned away.
 - Single-payer's federal cost replaces about $1.7 trillion of household premiums and out-of-pocket costs and about $1.5 trillion of employer premiums in 2032. Who pays the new taxes is the financing settlement's decision, under D3.
-- FY2040 permanent cost (`DEC-2026-11-10-05`): section 6 will report it from the model once Espen chooses; on the model's growth path, single-payer's net federal cost (and any staged path once it reaches the endpoint) would be about $5 trillion in FY2040, and the public option's about $0.4 trillion (project arithmetic, to be confirmed in section 6).
+- FY2040 permanent cost (`DEC-2026-11-10-05`): section 6 will report it from the model once Espen chooses; on the model's growth path, single-payer's net federal cost (and any staged path once it reaches the endpoint) would be about $5.5 trillion in FY2040, and the public option's about $0.4 trillion (project arithmetic, to be confirmed in section 6).
 
 ## Recommended without a memo: seven yes-or-no points
 
@@ -87,7 +87,7 @@ From `dossiers/shared-rules.md`; working answers, not decisions of other owners.
 
 One answer per item; each is decided on its own.
 
-1. **Memo 1, the shape:** A (public option), B (staged path to single-payer with the endpoint in law; recommended), C (single-payer by about 2033) or D (universal multi-payer)? If B, is the endpoint 2037 (about $16-26 trillion over FY2030-39) or later, such as 2040 (about $3-21 trillion)?
+1. **Memo 1, the shape:** A (public option), B (staged path to single-payer with the endpoint in law; recommended), C (single-payer by about 2033) or D (universal multi-payer)? If B, is the endpoint 2037 (about $17-28 trillion over FY2030-39) or later, such as 2040 (about $3-22 trillion)?
 2. **Memo 2, the transition:** order by payer with children first (recommended), by age, or all at once? Yes to the five protections?
 3. **Memo 3, the money's plumbing:** B (keep public streams, states' maintenance of effort, employer contribution; recommended), A or C?
 4. **Memo 4, benefits:** C (comprehensive, small capped copays above 200% of poverty; recommended), A, B or D? Long-term care in part B?

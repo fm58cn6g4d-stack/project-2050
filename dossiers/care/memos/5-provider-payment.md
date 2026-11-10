@@ -2,7 +2,7 @@
 
 Role: decision memo for Espen, fork 5 of the health design (`../3-design.md`). Status: for Espen's decision. Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
 
-**This memo decides the payment rates of the public plan (memo 1's A), of each stage (B), or of the single plan (C), and how fast they move.** It also covers Medicare Advantage while it exists. It is the most consequential number in the design: in the coverage model, moving the single plan's rate from 1.0 to 1.4 times Medicare moves the federal cost from about $2.5 trillion to $4.7 trillion a year in 2032.
+**This memo decides the payment rates of the public plan (memo 1's A), of each stage (B), or of the single plan (C), and how fast they move.** It also covers Medicare Advantage while it exists. It is the most consequential number in the design: in the coverage model, moving the single plan's rate from 1.0 to 1.4 times Medicare moves the federal cost from about $2.7 trillion to $4.9 trillion a year in 2032.
 
 ## Why it matters
 
@@ -14,12 +14,12 @@ Role: decision memo for Espen, fork 5 of the health design (`../3-design.md`). S
 ## The options
 
 **A. Medicare's rates from the start.**
-- *Cost:* the lowest; the coverage model's single plan at 1.0 times Medicare costs about $2.5 trillion a year in new federal spending in 2032, and national spending falls.
+- *Cost:* the lowest; the coverage model's single plan at 1.0 times Medicare costs about $2.7 trillion a year in new federal spending in 2032, and national spending falls.
 - *Risk:* hospitals that depend on commercial payments lose most; supply falls, and rural and safety-net hospitals are most exposed. Mercatus's $32.6 trillion estimate already assumes payments more than 40% below private rates (Mercatus Center, 2018) [EV-CAR-226], so its cost would be higher still if rates had to rise to keep hospitals open.
 
 **B. A glide path to a target just above Medicare, with global budgets where markets are thin (recommended).**
 - *How:* rates start at a blend near today's average across payers and move over five years to about 1.15 times Medicare for hospitals (doctors at Medicare's rates plus primary-care and rural add-ons); rural, critical-access and safety-net hospitals get fixed yearly global budgets during and after the move, on Maryland's model (CMS evaluation, 2020) [EV-CAR-259]; drug prices are negotiated for all drugs, extending the 2022 law's Medicare negotiation.
-- *Cost:* the coverage model's project-central single plan uses 1.15 times Medicare: about $3.3 trillion a year in new federal spending in 2032, with national spending about $45 billion higher (long-term care included). The public option's rate in A or B's early stages would start at about 1.2 to 1.6 times Medicare and move toward the same target.
+- *Cost:* the coverage model's project-central single plan uses 1.15 times Medicare: about $3.5 trillion a year in new federal spending in 2032, with national spending about $95 billion higher (long-term care included). The public option's rate in A or B's early stages would start at about 1.2 to 1.6 times Medicare and move toward the same target.
 - *Why:* it captures most of the price gap the evidence identifies, protects the hospitals most at risk, and gives providers years to adjust; it is the design CBO's analysis suggests limits the supply loss (CBO, 2022) [EV-CAR-220].
 
 **C. All-payer rate setting without a single payer.** A national version of Maryland: every payer pays the same regulated rate, set state by state.

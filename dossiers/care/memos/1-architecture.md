@@ -28,17 +28,17 @@ In January 2029, CBO expects 36.6 million people uninsured (CBO, 2026) [EV-CAR-0
 - *What it is:* the same first steps as A (restoration, then the public plan with automatic enrollment), plus Medicare's age lowered to 60 in 2031 and 50 in 2035, children enrolled, and every remaining group moved into one Medicare program by a date set in the 2029 statute (2037 as the working date). Each stage starts on its date unless Congress votes to delay it. Memo 2 sets the order.
 - *For people:* about 11 to 14 million uninsured in 2032, falling to the single-payer level (about 3.6 million, people not yet enrolled or not covered because of immigration status: section 3, point 3) once the endpoint is reached (the coverage model). People see the system change in steps they can plan around.
 - *Cost:* about $250 billion a year of new federal spending in 2032, while only memo 2's first wave (the uninsured, the individual market, children, Medicare at 60) has moved; it rises as Medicaid and then employer groups move, to single-payer's level at the endpoint. Over FY2030-39 the total depends mostly on when employer groups move, since they carry most of the cost (project arithmetic on the coverage model's growth path, to be priced on memo 2's order in section 6):
-  - endpoint 2037: between about $16 trillion (everyone else moves in 2037) and about $26 trillion (a straight line from 2030, an upper bound); memo 2's order, with employer groups last, sits toward the lower figure, plus the Medicaid wave's cost, not yet priced;
-  - endpoint 2040: between about $3 trillion and $21 trillion on the same two readings, again toward the lower figure on memo 2's order;
-  - single-payer at once (C): about $27 trillion.
-  By FY2040 every single-payer path costs about $5 trillion a year (project arithmetic), so the endpoint date is mainly a choice about money in the 2030s. The tax that pays for it rises in steps too, which the financing settlement sets.
+  - endpoint 2037: between about $17 trillion (everyone else moves in 2037) and about $28 trillion (a straight line from 2030, an upper bound); memo 2's order, with employer groups last, sits toward the lower figure, plus the Medicaid wave's cost, not yet priced;
+  - endpoint 2040: between about $3 trillion and $22 trillion on the same two readings, again toward the lower figure on memo 2's order;
+  - single-payer at once (C): about $28-29 trillion.
+  By FY2040 every single-payer path costs about $5.5 trillion a year (project arithmetic), so the endpoint date is mainly a choice about money in the 2030s. The tax that pays for it rises in steps too, which the financing settlement sets.
 - *Why recommended:* it puts single-payer into law while each step is small enough to build, staff and pay for; it tests the payment rates (memo 5) and Medicare's capacity on younger groups before everyone moves; and it gives the financing settlement a decade, not two years, to replace premiums with taxes. The main risk is that a later Congress stops the path; writing the stages as automatic, rather than as later votes, is the defense.
 
 **C. Single-payer Medicare for All, enacted in 2029 and in force by about 2033.**
 - *What it is:* one public plan for every resident, comprehensive benefits and no premiums, replacing private insurance for covered services, phased in over about four years after enactment.
 - *For people:* about 3.6 million uninsured in 2032 (the coverage model): people not yet enrolled or not covered because of immigration status (section 3, point 3). No premiums, deductibles or networks. The household money that now goes to premiums and out-of-pocket costs, about $1.7 trillion in 2032, and employers' $1.5 trillion, are replaced by taxes (the coverage model).
-- *Cost:* about $3.3 trillion a year of new federal spending in 2032 at full scale (the coverage model; CBO's comparable range, grown to 2032, is about $1.7 to $3.3 trillion, and the model runs high against it), about $27 trillion over FY2030-39 with a 2032-35 phase-in. National spending changes from about $140 billion less to about $45 billion more, depending on payment rates and long-term care (the coverage model).
-- *Risks:* new taxes on the scale of the premiums they replace, about $3.3 trillion in 2032, enacted at once; demand outrunning supply, with longer waits (CBO, 2020) [EV-CAR-219]; about 600,000 insurance jobs and many more in billing to transition (Bureau of Labor Statistics, 2026; Economic Policy Institute, 2020) [EV-CAR-233] [EV-CAR-232]; and the legislative risk of passing it all in one Congress. Taiwan shows a fast launch can work (Reinhardt, BMJ, 2008) [EV-CAR-250]; Vermont shows how one can fail on the tax (VTDigger, 2014) [EV-CAR-245].
+- *Cost:* about $3.4-3.5 trillion a year of new federal spending in 2032 at full scale (the coverage model; CBO's comparable range, grown to 2032, is about $1.7 to $3.3 trillion, and the model runs high against it), about $28-29 trillion over FY2030-39 with a 2032-35 phase-in. National spending changes from about $130 billion less to about $95 billion more, depending on payment rates and long-term care (the coverage model).
+- *Risks:* new taxes on the scale of the premiums they replace, about $3.5 trillion in 2032, enacted at once; demand outrunning supply, with longer waits (CBO, 2020) [EV-CAR-219]; about 600,000 insurance jobs and many more in billing to transition (Bureau of Labor Statistics, 2026; Economic Policy Institute, 2020) [EV-CAR-233] [EV-CAR-232]; and the legislative risk of passing it all in one Congress. Taiwan shows a fast launch can work (Reinhardt, BMJ, 2008) [EV-CAR-250]; Vermont shows how one can fail on the tax (VTDigger, 2014) [EV-CAR-245].
 
 **D. Universal coverage through automatic enrollment and all-payer rates, keeping private insurers.**
 - *What it is:* everyone is automatically enrolled in a default public plan unless they have other coverage; private and employer plans continue but every payer pays hospitals the same regulated rates, on the Maryland model; no single payer.
@@ -51,9 +51,9 @@ In January 2029, CBO expects 36.6 million people uninsured (CBO, 2026) [EV-CAR-0
 | | A. Public option | B. Staged (2032 status) | C. Single-payer | D. Universal multi-payer |
 | --- | --- | --- | --- | --- |
 | Uninsured | 14.5 million | about 11.4 million with children in the first wave (14.0 million without), then about 3.6 million at the endpoint | 3.6 million | Not modeled; near A to C |
-| New federal cost, 2032 | about $240 billion | about $250 billion, rising to C's level by the endpoint | about $3.3 trillion | Not modeled |
-| FY2030-39 federal | about $2.6 trillion | endpoint 2037: about $16-26 trillion; 2040: about $3-21 trillion (lower end nearer memo 2's order) | about $27 trillion | Not modeled |
-| National spending | about flat | about flat, then C's | about $140 billion less to $45 billion more | Not modeled; lower prices for every payer |
+| New federal cost, 2032 | about $240 billion | about $250 billion, rising to C's level by the endpoint | about $3.4-3.5 trillion | Not modeled |
+| FY2030-39 federal | about $2.6 trillion | endpoint 2037: about $17-28 trillion; 2040: about $3-22 trillion (lower end nearer memo 2's order) | about $28-29 trillion | Not modeled |
+| National spending | about flat | about $40-80 billion lower, then C's | about $130 billion less to $95 billion more | Not modeled; lower prices for every payer |
 | Premiums and deductibles | Stay | Fall as groups move | End | Stay, lower |
 | Ready to launch | 2031 | 2031 first stage | About 2033 | Untested |
 
@@ -68,4 +68,4 @@ In January 2029, CBO expects 36.6 million people uninsured (CBO, 2026) [EV-CAR-0
 ## Questions for you
 
 1. Which shape: A, B (recommended), C or D?
-2. If B: is 2037 the right working date for the endpoint (about $16-26 trillion over FY2030-39), a later date such as 2040 (about $3-21 trillion), or the date left for the financing settlement? Section 6 will price the date you pick on memo 2's order.
+2. If B: is 2037 the right working date for the endpoint (about $17-28 trillion over FY2030-39), a later date such as 2040 (about $3-22 trillion), or the date left for the financing settlement? Section 6 will price the date you pick on memo 2's order.

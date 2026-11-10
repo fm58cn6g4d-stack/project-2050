@@ -7,14 +7,14 @@ Role: decision memo for Espen, fork 3 of the health design (`../3-design.md`). S
 ## The money today, and the amount to be financed
 
 - In 2024, private insurance paid $1,644.6 billion of national health spending, Medicare $1,118.0 billion, Medicaid $931.7 billion, and people $556.6 billion out of pocket (CMS, 2025) [EV-CAR-121].
-- Under single-payer (memo 1, C) in 2032, the coverage model finds the federal government would carry about $3.3 trillion more a year, while households stop paying about $1.7 trillion in premiums and out-of-pocket costs and employers about $1.5 trillion in premiums. The total flowing through the system changes little; who pays it changes completely.
+- Under single-payer (memo 1, C) in 2032, the coverage model finds the federal government would carry about $3.4-3.5 trillion more a year, while households stop paying about $1.7 trillion in premiums and out-of-pocket costs and employers about $1.5 trillion in premiums. The total flowing through the system changes little; who pays it changes completely.
 - Under the public option (A) or the staged path in its early years (B), the amount is about $240-260 billion a year in 2032 (the coverage model).
 
 ## The options
 
 **A. New dedicated revenue only.** Every existing private flow ends when people move; the gap is filled by taxes the settlement chooses, into a single health trust fund.
 - *For:* simplest to explain; one fund.
-- *Against:* the largest new tax, about $3.3 trillion a year at full scale, with no credit for money states and employers already spend. Vermont's plan stopped when its full tax became visible (VTDigger, 2014; State of Vermont, 2014) [EV-CAR-245] [EV-CAR-244].
+- *Against:* the largest new tax, about $3.5 trillion a year at full scale, with no credit for money states and employers already spend. Vermont's plan stopped when its full tax became visible (VTDigger, 2014; State of Vermont, 2014) [EV-CAR-245] [EV-CAR-244].
 
 **B. Keep the existing public streams and replace premiums with contributions (recommended).**
 - *Medicare's streams stay:* the payroll tax for hospital insurance, the premiums and general revenue that fund doctors' and drug coverage, all folded into one fund. Under a staged path, the hospital trust fund is kept whole as the legacy design required (D4; `legacy/domains/domain-health.md`).
