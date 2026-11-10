@@ -24,7 +24,7 @@ Role: the transportation dossier, converted from the legacy Moving America desig
 | 8. What would change our minds | Draft (PR 3): `8-change-our-minds.md`. For each decision, the uncertainty, a threshold, who sees it and when, and the fallback; political and legal events; the fallback tiers; three hard stops; when the evidence arrives |
 | 9. The public case | Draft (PR 3): `9-public-case.md`. A brief, the case in one paragraph, seven messages with the line each must not cross, hard questions, composite stories, a can-say list and a source table; only from sections 1-8 |
 
-Evidence register: `evidence.json` (EV-MOV-001 to 099 section 1; 100 to 199 transit, rail and section 2; 200 to 299 project estimates from the legacy model). Source IDs numbered 3500 to 3599 are reserved for this dossier (the care dossier has SRC-3000 to 3499, as the board reserves them in `charter/PROGRESS.md`). Provisions: `provisions.json`, IDs under the agenda's MOV- rows (from section 4).
+Evidence register: `evidence.json` (EV-MOV-001 to 099 section 1; 100 to 199 transit, rail and section 2; 200 to 299 project estimates from the legacy model). Source IDs numbered 3500 to 3599 are reserved for this dossier (the care dossier has SRC-3000 to 3399, per `dossiers/care/README.md`, the one home for care's range). Provisions: `provisions.json`, IDs under the agenda's MOV- rows (from section 4).
 
 ## Open questions for Espen
 
