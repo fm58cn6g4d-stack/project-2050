@@ -1,0 +1,2932 @@
+Source: https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813829
+Publisher: National Highway Traffic Safety Administration
+Retrieved: 2026-11-10 (copy uploaded by Espen)
+Original SHA-256: e8b72e6457fa492e31e03844a09071614fcc124f1301c03270727f724ac25865
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+DOT HS 813 829
+
+A Brief Statistical Summary
+
+1
+
+July 2026
+
+Early Estimates of Motor Vehicle Traffic Fatalities and
+Fatality Rate by Sub-Categories in 2025
+Introduction and Summary
+
+The National Highway Traffic Safety Administration recently issued a projection report of traffic fatalities and the
+fatality rate per 100 million vehicle miles traveled (VMT) for 2025 (Early Estimate of Motor Vehicle Traffic
+Fatalities and Fatality Rate in 2025, Report No. DOT HS 813 800). That report shows an estimated 36,640
+people died in motor vehicle traffic crashes in 2025, a decrease of about 6.7 percent as compared to 39,254
+fatalities reported to have occurred in 2024. The estimated fatality rate for 2025 is 1.10 fatalities per 100 million
+VMT, down from the report rate of 1.19 fatalities per 100 million VMT in 2024.
+This NHTSA report is being issued after conducting a special analysis of the fatalities and the fatality rates per
+100 million VMT by key sub-categories in 2025. The analysis is based on ratio-adjusted estimates of 2025 fatal
+crash data coded thus far into NHTSA’s Fatality Analysis Reporting System (FARS), as described in the Data and
+Methodology section.
+There are decreases across almost all sub-categories. The trends of traffic fatalities in 2025 as compared to 2024
+in the key sub-categories are summarized as follows.
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+on rural interstates (up 1%), urban interstates (down 10%), and urban arterials (down 12%)
+at night (down 8%)
+during weekends (down 7%)
+during out-of-State travel (down 11%)
+in newer (vehicle age <10 years) passenger vehicles (down 12%)
+in passenger vehicle rollover crashes (down 11%)
+ejected (down 13%)
+in single-vehicle crashes (down 7%)
+in roadway departure crashes (down 9%)
+in speeding-related crashes (down 11%)
+in the 65-and-older age group (down 0%)
+males (down 6%) and females (down 7%)
+unrestrained passenger vehicle occupants (down 13%)
+drivers (down 5%) and passengers (down 12%)
+passenger vehicle occupants (down 10%)
+motorcyclists (down 8%)
+pedestrians (down 8%)
+pedalcyclists (up 4%)
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+•
+•
+
+2
+
+in crashes each involving at least one large truck (down 7%)
+nonoccupant (down 5%)
+
+Additionally, the trend of the total fatality rate per 100 million VMT in 2025, as we have already seen in recent
+years, was strongly driven by the trends in the fatality rates per 100 million VMT on rural arterials, rural
+local/collector/street roadways, and urban arterials.
+
+Data and Methodology
+
+NHTSA uses the Early Notification (EN) data and Monthly Fatality Counts (MFCs) data for the early estimate of
+motor vehicle traffic fatalities every month. However, EN data and MFCs do not include detailed crash
+characteristics and information necessary to compute fatality counts and fatality rates by sub-categories.
+NHTSA’s FARS data includes such detailed information but is incomplete at this point since not every case has
+been entered into FARS. This analysis adjusts fatal crash cases currently coded for 2025 into NHTSA’s FARS
+and scales it up to the most recent estimates of fatality counts in 2025 (see cited 2025 early estimates report
+above, DOT HS 813 800).
+The estimates of fatalities by sub-categories are carried out in two steps. The first step is to inflate current 2025
+total cases coded into NHTSA’s FARS data (FARS_25) to the estimated total fatalities (F_Est_25) that are from
+the early estimated fatalities based on latest EN and MFC data. In general, the inflation rate (IR) is calculated by
+the formula here.
+𝐼𝐼𝐼𝐼 =
+
+𝐹𝐹_𝐸𝐸𝐸𝐸𝐸𝐸_25
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹_25
+
+𝐼𝐼𝐼𝐼𝑚𝑚𝑚𝑚 =
+
+𝐹𝐹_𝐸𝐸𝐸𝐸𝐸𝐸_25𝑚𝑚𝑚𝑚
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹_25𝑚𝑚𝑚𝑚
+
+Inflation rates are computed for each month (m) and region (r) for a total of 120 inflation rates (12 months × 10
+regions).
+
+Generally, the earlier the crash month the smaller the inflation rate as the data has relatively stabilized. In the
+second step, the inflation rate (IRmr) is then used as the weight in the frequency calculation for the estimate of
+fatalities by each sub-category variable. For instance, to compute the estimated male fatalities in month m and
+region r, the count of male fatalities in FARS, FARS_25 (Sexmale) mr, is weighted by the inflation rate IRmr as
+follows, F_Est_25 (Sexmale) mr = FARS_25 (Sexmale) mr × IRmr.
+For a different interpretation, the estimated number of male fatalities in month m and region r can also be seen as
+the estimated fatalities in month m and region r multiplied by the fraction of male fatalities in FARS data
+(FARS_25) for month m and region r.
+F_Est_25 (Sexmale) mr = 𝐹𝐹_𝐸𝐸𝐸𝐸𝐸𝐸_25𝑚𝑚𝑚𝑚 × �
+
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹_25(𝑆𝑆𝑆𝑆𝑆𝑆𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚 )𝑚𝑚𝑚𝑚
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹_25𝑚𝑚𝑚𝑚
+
+�
+
+The two metrics NHTSA mainly examined are the relative proportion of fatalities in each level of the subcategory variables (i.e., the percentage distribution of fatalities) or the percentage of the total fatalities, and the
+estimated fatality counts (fatalities) and the percentage change in fatalities from 2024 to 2025 for each level of the
+sub-category variables.
+Estimated fatalities by sub-categories may vary due to the continuous updating of 2025 FARS data (FARS_25mr),
+especially for several sub-category variables (speeding, roadway departure, and rollover, etc. 1) that may take extra
+time to report and code (see “Limitations” section). However, since the results (the percentage distribution of
+fatalities or the percentage of the total fatalities) have been nearly identical in each of the 3 months prior to
+publication, the estimates are relatively stable.
+1
+
+Further adjustments of the fatalities associated with these three factors, pedestrian fatalities, pedalcyclist fatalities, passenger vehicle
+occupant fatalities who were unrestrained and who were ejected, and the large-truck-related crash fatalities were made in this report.
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+3
+
+Results
+
+This report examines the same major factors that NHTSA previously reviewed and investigated in 2025, the
+results of which were published in Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by SubCategories for the First Half (January-June) of 2025 (DOT HS 813 768). These factors are considered key to
+roadway traffic safety. The alcohol impaired-driving factor, which is based on both reported and imputed blood
+alcohol concentration (BAC) values, has a significant reporting lag and is therefore not included in this report.
+The study results of projected fatalities for 2025 compared with the reported fatalities during 2024 are presented
+below. The data results for 2024 are from the FARS 2024 Annual Report File (ARF). Since the unknown values
+are proportionally imputed based on the distribution of observed counts (univariate imputation) in this study, the
+fatality counts for certain categories may not reflect the 2024 reported counts published in Overview of Motor
+Vehicle Traffic Crashes in 2024, April 2026, DOT HS 813 791.
+Note that beginning in 2020 NHTSA changed to vPIC-based 2 vehicle classifications for data extractions, analysis,
+projections, and reporting. Also, prior to 2022 motorized bicycles were collected as motor vehicles in FARS and
+their operators and passengers were captured as motorists. Beginning in 2022, FARS is no longer collecting
+motorized bicycles as motor vehicles. Consequently, operators and passengers of motorized bicycles will be
+captured as pedalcyclists when involved in motor vehicle traffic crashes. Single-vehicle crashes involving
+motorized bicycles will no longer be captured.
+Fatalities
+The findings for the trends of sub-category variables are based on the comparison of two metrics.
+1. The percentage distribution of fatalities in each level of the sub-category variables or the percentage of total
+fatalities, between the same month of 2024 3 and 2025 (labeled by [24] and [25] in the comparison of 2-year
+results).
+2. The estimated fatality counts (fatalities) and the percentage change in fatalities from 2024 to 2025 for each
+level of the sub-category variables.
+In 2025 total fatalities decreased in all months from January to December, compared to the corresponding months
+in 2024 (Table 1). The findings are summarized as follows (see Tables 1 and 2 and Figure 1 for details).
+Roadway and Environmental Factors
+• In most months of 2025 (except for June and July), the proportion of fatalities occurring in rural areas
+was higher than it was in the corresponding months of 2024. Total estimated fatalities decreased 2 percent
+and 10 percent in rural and urban areas, respectively, from 2024 to 2025 (Figure 1).
+Table 1 specifically shows the total estimated fatalities on urban interstate and urban arterial roads
+decreased 10 percent and 12 percent, respectively, from 2024 to 2025. However, total estimated fatalities
+on rural interstate increased 1 percent from 2024 to 2025.
+• In most months of 2025 the proportion of fatalities occurring during the nighttime (6 p.m. to 5:59 a.m.)
+was higher than it was in the corresponding months of 2024 (Figure 1). Total estimated fatalities during
+daytime and nighttime decreased by 5 percent and 8 percent, respectively, from 2024 to 2025.
+• Figure 1 shows the proportion of estimated fatalities occurring on weekends (6:00 p.m. Friday to
+5:59 a.m. Monday) was notably higher in August 2025 than in August 2024 (47% [25] versus 42% [24]).
+Total estimated fatalities decreased by 7 percent during both weekdays and weekends from 2024 to 2025.
+• In January and May 2025, the proportion of passenger vehicle (PV) occupant fatalities that occurred
+during out-of-State travel was higher than in the corresponding months of 2024 (Figure 1), indicating that
+a larger proportion of people traveled long distances by car during these two months of 2025, compared to
+
+2
+
+NHTSA’s Product Information Catalog and Vehicle Listing (vPIC) is a consolidated platform that presents data collected within
+manufacturer-reported data from vPIC’s legislation, 49 CFR, Parts 551–595, for use in a variety of modern tools.
+
+3
+
+The year 2024 was a leap year and February 29, 2024, was the leap day.
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+4
+
+the same months of 2024. Total estimated passenger vehicle occupant fatalities that occurred during outof-State travel decreased 11 percent from 2024 to 2025.
+Vehicle-Related Characteristics
+• The estimated PV occupant fatalities decreased 9 percent in older vehicles (vehicle age ≥ 10 years) from
+2024 to 2025 (Figure 1). Note that the estimated PV occupant fatalities in newer vehicles (vehicle age < 10
+years) decreased 12 percent.
+• The estimated PV occupant fatalities in rollover crashes decreased 11 percent from 2024 to 2025 (Table 2).
+• As displayed in Figure 1, the estimated fatally injured PV occupants who were ejected, as a proportion of
+all fatalities, increased in November 2025 compared to November 2024 (21% [25] versus 19% [24]).
+Total estimated fatalities for PV occupants who were ejected decreased 13 percent from 2024 to 2025.
+This is highly correlated with a similar decrease (13%) in estimated unrestrained PV occupant fatalities,
+as described in the person-related characteristics section.
+• As shown in Table 1, total estimated fatalities in single-vehicle crashes decreased 7 percent from 2024 to
+2025. Note that the estimated fatalities in multi-vehicle crashes decreased 6 percent.
+• Total estimated fatalities in roadway departure crashes and on-roadway crashes decreased 9 percent and
+4 percent from 2024 to 2025, as shown in Table 1.
+• The speeding-related fatalities decreased 11 percent from 2024 to 2025 (Table 2).
+Person-Related Characteristics
+• As shown in Table 1, total estimated traffic fatalities decreased for all age groups from 2024 to 2025, with
+the largest decrease (13%) for the 25-34 age group, and the smallest decrease (0%) for people 65 and
+older.
+• As displayed in Table 1, the total estimated fatalities decreased 6 percent and 7 percent for males and
+females from 2024 to 2025.
+• As shown in Figure 1, total estimated unrestrained PV occupant fatalities decreased 13 percent from 2024
+to 2025.
+Fatalities by Person Type and in Crashes Involving Large Trucks 4
+As shown in Table 2, the following results for the percentage change of estimated fatalities from 2024 to 2025 are
+observed.
+•
+•
+•
+•
+•
+•
+•
+•
+
+4
+
+Total estimated driver fatalities decreased 5 percent.
+Total estimated passenger fatalities decreased 12 percent.
+Total estimated PV occupant fatalities decreased 10 percent.
+Total estimated motorcyclist fatalities decreased 8 percent.
+Total estimated pedestrian fatalities decreased 8 percent.
+Total estimated pedalcyclist fatalities increased 4 percent.
+Total estimated fatalities in crashes involving at least one large truck decreased 7 percent.
+Total estimated nonoccupant fatalities decreased 5 percent.
+
+A large truck is defined as any medium or heavy truck, excluding buses and motor homes, with a gross vehicle weight rating greater than
+10,000 lb. These include both commercial and non-commercial large trucks.
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+5
+
+Table 1. Relative Proportion of Fatalities by Roadway Function Class, Age Group, Sex, and
+Crash Type for 2024–2025
+Fatalities
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+Total
+
+2024
+
+2,729 2,710 3,135 3,185 3,461 3,461 3,366 3,611 3,528 3,620 3,292 3,156
+
+39,254
+
+2025
+
+2,690 2,465 2,965 2,915 3,090 3,050 3,310 3,520 3,225 3,405 3,055 2,950
+
+36,640
+
+%
+change
+-7%
+
+Roadway Function Class
+2024
+Rural
+Interstate 2025
+
+5%
+
+4%
+
+5%
+
+5%
+
+4%
+
+4%
+
+6%
+
+5%
+
+5%
+
+5%
+
+4%
+
+5%
+
+1,806
+
+2024
+
+4%
+
+5%
+
+5%
+
+8%
+
+8%
+
+8%
+
+5%
+
+5%
+
+4%
+
+5%
+
+6%
+
+5%
+
+5%
+
+5%
+
+6%
+
+1,823
+
+8%
+
+8%
+
+8%
+
+8%
+
+8%
+
+8%
+
+8%
+
+9%
+
+7%
+
+3,134
+
+8%
+
+8%
+
+9%
+
+8%
+
+8%
+
+10%
+
+8%
+
+7%
+
+7%
+
+6%
+
+6%
+
+6%
+
+2,813
+
+Rural
+Arterial
+
+2024 18%
+2025 19%
+
+18%
+
+18%
+
+18%
+
+18%
+
+20%
+
+20%
+
+19%
+
+19%
+
+19%
+
+18%
+
+20%
+
+7,352
+
+19%
+
+17%
+
+18%
+
+20%
+
+19%
+
+20%
+
+20%
+
+21%
+
+22%
+
+22%
+
+21%
+
+7,260
+
+Urban
+Arterial
+
+2024 42%
+
+42%
+
+41%
+
+41%
+
+39%
+
+37%
+
+36%
+
+37%
+
+39%
+
+38%
+
+40%
+
+40%
+
+15,394
+
+Rural
+Collector/
+Local
+Urban
+Collector/
+Local
+
+2025 40%
+
+41%
+
+39%
+
+37%
+
+37%
+
+36%
+
+35%
+
+34%
+
+36%
+
+35%
+
+38%
+
+39%
+
+13,551
+
+2024 15%
+
+15%
+
+15%
+
+17%
+
+19%
+
+20%
+
+19%
+
+19%
+
+19%
+
+19%
+
+17%
+
+17%
+
+6,958
+
+2025 16%
+
+16%
+
+18%
+
+19%
+
+19%
+
+19%
+
+19%
+
+21%
+
+20%
+
+19%
+
+17%
+
+17%
+
+6,763
+
+2024 12%
+
+12%
+
+13%
+
+12%
+
+11%
+
+12%
+
+11%
+
+12%
+
+11%
+
+12%
+
+12%
+
+11%
+
+4,610
+
+2025 13%
+
+11%
+
+13%
+
+12%
+
+12%
+
+13%
+
+13%
+
+12%
+
+11%
+
+12%
+
+11%
+
+12%
+
+4,430
+
+Urban
+Interstate 2025
+
++1%
+-10%
+-1%
+-12%
+-3%
+-4%
+
+Age Group
+<15
+15–24
+25–34
+35–44
+45–54
+55–64
+65+
+
+2024
+
+3%
+
+3%
+
+3%
+
+3%
+
+3%
+
+2%
+
+3%
+
+3%
+
+2%
+
+3%
+
+3%
+
+2%
+
+1,037
+
+2025
+
+2%
+
+2%
+
+3%
+
+3%
+
+3%
+
+3%
+
+3%
+
+2%
+
+2%
+
+2%
+
+3%
+
+2%
+
+918
+
+2024 16%
+
+17%
+
+17%
+
+17%
+
+18%
+
+19%
+
+18%
+
+17%
+
+18%
+
+16%
+
+16%
+
+15%
+
+6,658
+
+2025 16%
+
+15%
+
+17%
+
+17%
+
+18%
+
+18%
+
+18%
+
+17%
+
+16%
+
+16%
+
+17%
+
+14%
+
+6,113
+
+2024 17%
+
+19%
+
+18%
+
+19%
+
+17%
+
+18%
+
+16%
+
+19%
+
+17%
+
+18%
+
+16%
+
+18%
+
+6,956
+
+2025 16%
+
+17%
+
+17%
+
+17%
+
+16%
+
+17%
+
+17%
+
+17%
+
+17%
+
+16%
+
+16%
+
+17%
+
+6,065
+
+2024 17%
+
+16%
+
+16%
+
+16%
+
+15%
+
+16%
+
+17%
+
+15%
+
+16%
+
+15%
+
+17%
+
+16%
+
+6,283
+
+2025 17%
+
+16%
+
+16%
+
+16%
+
+15%
+
+17%
+
+16%
+
+16%
+
+15%
+
+14%
+
+16%
+
+14%
+
+5,715
+
+2024 13%
+
+13%
+
+13%
+
+13%
+
+13%
+
+12%
+
+13%
+
+12%
+
+12%
+
+13%
+
+13%
+
+12%
+
+4,988
+
+2025 11%
+
+13%
+
+12%
+
+13%
+
+12%
+
+13%
+
+12%
+
+14%
+
+13%
+
+14%
+
+12%
+
+13%
+
+4,672
+
+2024 13%
+
+13%
+
+13%
+
+13%
+
+13%
+
+13%
+
+13%
+
+14%
+
+14%
+
+14%
+
+13%
+
+14%
+
+5,272
+
+2025 14%
+
+14%
+
+14%
+
+14%
+
+13%
+
+13%
+
+14%
+
+14%
+
+14%
+
+15%
+
+13%
+
+16%
+
+5,117
+
+2024 20%
+
+20%
+
+20%
+
+19%
+
+20%
+
+19%
+
+20%
+
+20%
+
+21%
+
+21%
+
+23%
+
+23%
+
+8,060
+
+2025 24%
+
+22%
+
+21%
+
+21%
+
+22%
+
+19%
+
+21%
+
+21%
+
+22%
+
+23%
+
+24%
+
+24%
+
+8,039
+
+-12%
+-8%
+-13%
+-9%
+-6%
+-3%
+-0%
+
+Sex
+Male
+Female
+
+2024 71%
+
+72%
+
+73%
+
+72%
+
+72%
+
+72%
+
+73%
+
+74%
+
+74%
+
+73%
+
+72%
+
+69%
+
+28,461
+
+2025 71%
+
+72%
+
+72%
+
+73%
+
+73%
+
+73%
+
+73%
+
+73%
+
+73%
+
+73%
+
+73%
+
+72%
+
+26,623
+
+2024 29%
+
+28%
+
+27%
+
+28%
+
+28%
+
+28%
+
+27%
+
+26%
+
+26%
+
+27%
+
+28%
+
+31%
+
+10,793
+
+2025 29%
+
+28%
+
+28%
+
+27%
+
+27%
+
+27%
+
+27%
+
+27%
+
+27%
+
+27%
+
+27%
+
+28%
+
+10,017
+
+-6%
+-7%
+
+Crash Type 1: Single- Versus Multi-Vehicle
+MultiVehicle
+
+2024 44%
+
+47%
+
+45%
+
+47%
+
+49%
+
+47%
+
+48%
+
+46%
+
+47%
+
+45%
+
+43%
+
+44%
+
+18,030
+
+2025 46%
+
+46%
+
+47%
+
+49%
+
+49%
+
+48%
+
+46%
+
+45%
+
+46%
+
+46%
+
+44%
+
+44%
+
+16,991
+
+SingleVehicle
+
+2024 56%
+
+53%
+
+55%
+
+53%
+
+51%
+
+53%
+
+52%
+
+54%
+
+53%
+
+55%
+
+57%
+
+56%
+
+21,224
+
+2025 54%
+
+54%
+
+53%
+
+51%
+
+51%
+
+52%
+
+54%
+
+55%
+
+54%
+
+54%
+
+56%
+
+56%
+
+19,649
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+-6%
+-7%
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+Fatalities
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+2024 47%
+
+47%
+
+48%
+
+46%
+
+48%
+
+49%
+
+48%
+
+45%
+
+44%
+
+2025 47%
+
+47%
+
+47%
+
+44%
+
+47%
+
+45%
+
+44%
+
+45%
+
+2024 53%
+On
+Roadway 2025 53%
+
+53%
+
+52%
+
+54%
+
+52%
+
+51%
+
+52%
+
+53%
+
+53%
+
+56%
+
+53%
+
+55%
+
+56%
+
+Oct
+
+6
+
+Nov
+
+Dec
+
+Total
+
+45%
+
+45%
+
+49%
+
+18,348
+
+44%
+
+45%
+
+45%
+
+49%
+
+16,672
+
+55%
+
+56%
+
+55%
+
+55%
+
+51%
+
+20,906
+
+55%
+
+56%
+
+55%
+
+55%
+
+51%
+
+19,968
+
+%
+change
+
+Crash Type 2: Roadway-Departure-Related
+Departure
+
+-9%
+-4%
+
+Notes: The last two columns contain fatalities and percentage change from 2024 to 2025. Unknown cases are proportionally imputed.
+Numbers in red/blue indicate the increase/decrease in the month (or the year) of 2025 as compared to the same month (or the year) of 2024
+(in black).
+Source: 2024 FARS ARF and 2025 statistical projections.
+
+Table 2. Fatalities by Person Type, in Large-Truck-Related/Speeding-Related/PV Occupant in
+Rollover Crashes, as a Percentage of Total Fatalities for 2024–2025
+Fatalities
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+Total
+
+2024
+
+2,729 2,710 3,135 3,185 3,461 3,461 3,366 3,611 3,528 3,620 3,292 3,156 39,254
+
+2025
+
+2,690 2,465 2,965 2,915 3,090 3,050 3,310 3,520 3,225 3,405 3,055 2,950 36,640
+2024 53%
+
+53%
+
+51%
+
+49%
+
+48%
+
+47%
+
+46%
+
+45%
+
+45%
+
+46%
+
+45%
+
+49%
+
+18,686
+
+2025 57%
+
+54%
+
+49%
+
+48%
+
+46%
+
+46%
+
+45%
+
+46%
+
+47%
+
+47%
+
+48%
+
+51%
+
+17,705
+
+2024 14%
+
+15%
+
+15%
+
+14%
+
+16%
+
+15%
+
+15%
+
+14%
+
+13%
+
+14%
+
+14%
+
+15%
+
+5,746
+
+2025 14%
+
+13%
+
+14%
+
+14%
+
+16%
+
+14%
+
+15%
+
+14%
+
+12%
+
+13%
+
+14%
+
+13%
+
+5,051
+
+2024 64%
+
+63%
+
+59%
+
+58%
+
+57%
+
+57%
+
+55%
+
+54%
+
+53%
+
+55%
+
+59%
+
+64%
+
+22,713
+
+2025 66%
+
+62%
+
+58%
+
+58%
+
+56%
+
+54%
+
+53%
+
+52%
+
+52%
+
+53%
+
+54%
+
+55%
+
+20,490
+
+PV Occupant 2024 15%
+Rollover
+2025 16%
+
+16%
+
+18%
+
+16%
+
+16%
+
+17%
+
+15%
+
+16%
+
+14%
+
+15%
+
+15%
+
+16%
+
+6,250
+
+16%
+
+15%
+
+16%
+
+15%
+
+16%
+
+15%
+
+16%
+
+15%
+
+16%
+
+15%
+
+16%
+
+5,581
+
+Driver
+Passenger
+PV Occupant
+
+2024
+
+7%
+
+10%
+
+14%
+
+17%
+
+19%
+
+21%
+
+21%
+
+21%
+
+20%
+
+17%
+
+11%
+
+8%
+
+6,228
+
+2025
+
+6%
+
+10%
+
+14%
+
+18%
+
+19%
+
+21%
+
+20%
+
+21%
+
+19%
+
+16%
+
+12%
+
+9%
+
+5,758
+
+2024 23%
+
+20%
+
+18%
+
+18%
+
+15%
+
+13%
+
+15%
+
+15%
+
+17%
+
+19%
+
+22%
+
+22%
+
+7,080
+
+2025 20%
+
+19%
+
+19%
+
+16%
+
+15%
+
+15%
+
+15%
+
+16%
+
+17%
+
+19%
+
+22%
+
+23%
+
+6,529
+
+2024
+
+2%
+
+3%
+
+2%
+
+2%
+
+2%
+
+3%
+
+3%
+
+3%
+
+3%
+
+3%
+
+3%
+
+2%
+
+1,103
+
+2025
+
+2%
+
+3%
+
+2%
+
+3%
+
+3%
+
+3%
+
+4%
+
+3%
+
+4%
+
+3%
+
+3%
+
+3%
+
+1,148
+
+2024 15%
+Involving
+Large Trucks 2025 15%
+
+14%
+
+12%
+
+14%
+
+13%
+
+13%
+
+15%
+
+14%
+
+14%
+
+14%
+
+13%
+
+13%
+
+5,340
+
+14%
+
+15%
+
+13%
+
+13%
+
+14%
+
+13%
+
+13%
+
+14%
+
+13%
+
+13%
+
+14%
+
+4,982
+
+2024 29%
+
+28%
+
+29%
+
+30%
+
+31%
+
+30%
+
+29%
+
+29%
+
+29%
+
+27%
+
+27%
+
+28%
+
+11,288
+
+2025 27%
+
+28%
+
+27%
+
+28%
+
+27%
+
+28%
+
+27%
+
+28%
+
+27%
+
+28%
+
+27%
+
+28%
+
+10,035
+
+2024 26%
+
+24%
+
+22%
+
+21%
+
+18%
+
+17%
+
+19%
+
+20%
+
+22%
+
+23%
+
+26%
+
+25%
+
+8,553
+
+2025 23%
+
+23%
+
+23%
+
+20%
+
+19%
+
+19%
+
+20%
+
+20%
+
+22%
+
+24%
+
+27%
+
+27%
+
+8,097
+
+Motorcyclist
+Pedestrian
+Pedalcyclist
+
+Speeding
+Related
+Nonoccupant
+
+%
+change
+-7%
+-5%
+-12%
+-10%
+-11%
+-8%
+-8%
++4%
+-7%
+-11%
+-5%
+
+Notes: The last two columns contain fatalities and percentage change from 2024 to 2025. Unknown cases are proportionally imputed.
+Numbers in red/blue indicate the increase/decrease in the month (or the year) of 2025 as compared to the same month (or the year) of 2024
+(in black).
+Source: 2024 FARS ARF and 2025 statistical projections.
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+7
+
+Figure 1. Relative Proportion of Total Fatalities by Rural/Urban, Time of Day, Day of the Week,
+and PV Occupant Fatalities by Vehicle Travel Pattern, Vehicle Age, Ejection Status, and
+Restraint Use for 2024–2025
+Proportion of Fatalities in Rural Areas by Month
+2024
+
+Proportion (%)
+
+55%
+
+47%
+45%
+
+35%
+
+43%
+39% 40% 40%
+
+44% 44% 45%
+42%
+
+44%
+
+42%
+
+2025
+
+46% 46%
+
+43% 42% 42%
+
+39%
+37% 37% 38%
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+44% 43%
+
+39%
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+42%
+
+Rural
+
+Urban
+
+2024 16,116
+
+23,138
+
+2025 15,846
+
+20,794
+
+% chg
+
+-10%
+
+-2%
+
+Dec
+
+Proportion of Fatalities That Occurred During the Nighttime by Month
+
+Proportion (%)
+
+60%
+
+50%
+
+40%
+
+2024
+56%
+
+52%
+
+Jan
+
+54%
+
+55%
+
+2025
+
+55%
+54% 53% 53%
+53%
+53% 53% 53% 53%
+
+54% 55% 53% 53% 53% 53% 53%
+
+53%
+50%
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+52%
+
+Nov
+
+51%
+
+Daytime Nighttime
+2024 18,140
+
+21,114
+
+2025 17,312
+
+19,328
+
+% chg
+
+-8%
+
+-5%
+
+Dec
+
+Proportion of Fatalities That Occurred on Weekend by Month
+2024
+
+Proportion (%)
+
+50%
+
+40%
+
+46%
+
+38%
+37%
+
+30%
+
+Jan
+
+40%
+43%
+39%
+
+44%
+40%
+39%
+
+2025
+
+47%
+44%
+44%
+
+40%
+
+40%
+
+44%
+
+44%
+40%
+42%
+
+39%
+
+40%
+
+40%
+
+Weekday Weekend
+40%
+
+42%
+
+2024 23,098
+
+16,156
+
+2025 21,549
+
+15,091
+
+% chg
+
+-7%
+
+-7%
+
+In-State
+
+Out-ofState
+
+2024 20,567
+
+2,146
+
+2025 18,582
+
+1,908
+
+% chg
+
+-11%
+
+35%
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+Proportion of PV Occupant Fatalities During Out-of-State Travel by Month
+2024
+
+Proportion (%)
+
+15%
+10%
+5%
+0%
+
+9%
+
+7%
+
+Jan
+
+9%
+
+10% 10%
+
+9%
+
+9%
+
+Feb
+
+Mar
+
+8%
+
+Apr
+
+11%
+
+12%
+9%
+
+9%
+
+May
+
+9%
+
+Jun
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+11%
+
+Jul
+
+10%
+10%
+
+Aug
+
+2025
+10%
+
+9%
+
+9%
+
+9%
+
+9%
+
+9%
+
+Sep
+
+Oct
+
+Nov
+
+10%
+8%
+
+-10%
+
+Dec
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+8
+
+Proportion of PV Occupant Fatalities in Older Vehicles (Age ≥ 10 Yrs.) by Month
+2024
+
+Proportion (%)
+
+70%
+
+60%
+
+50%
+
+65%
+
+64% 63%
+
+66%
+62% 64%
+
+64%
+63% 63% 63% 64% 62%
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+64% 64%
+
+61%
+
+Jun
+
+Jul
+
+64%
+
+Aug
+
+2025
+
+63% 61%
+62%
+
+Sep
+
+64%
+
+61% 60% 61%
+
+Oct
+
+Nov
+
+Newer
+Vehicle
+
+Older
+Vehicle
+
+2024 8,515
+
+14,198
+
+2025 7,510
+
+12,980
+
+% chg
+
+-9%
+
+63%
+
+-12%
+
+Dec
+
+Proportion of PV Occupant Ejection Fatalities by Month
+2024
+2025
+
+Proportion (%)
+
+30%
+
+20%
+
+10%
+
+19%
+
+19%
+
+Proportion (%)
+
+21% 20%
+
+19% 19%
+
+21%
+
+20%
+
+20% 20%
+
+19% 19% 19% 19%
+
+18% 19% 19% 19%
+
+Jan
+
+Mar
+
+May
+
+Sep
+
+Feb
+
+Apr
+
+Jun
+
+Jul
+
+Aug
+
+Oct
+
+Nov
+
+NonEjection Ejection
+2024 4,494
+
+18,219
+
+2025 3,931
+
+16,559
+
+% chg
+
+-13%
+
+-9%
+
+Used
+
+Not Used
+
+2024 11,719
+
+10,994
+
+2025 10,943
+
+9,546
+
+% chg
+
+-13%
+
+Dec
+
+Proportion of PV Unrestrainted Occupant Fatalities by Month
+2024
+2025
+
+49%
+
+50% 51%
+
+48% 48%
+40%
+
+20% 20%
+
+22%
+
+18% 18%
+
+60%
+
+50%
+
+21%
+
+Jan
+
+Feb
+
+49%
+
+49% 49%
+48% 49%
+
+49%
+46%
+Mar
+
+46%
+
+48% 49% 48%
+
+46% 46% 46%
+44% 46% 46%
+45%
+44%
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+-7%
+
+Dec
+
+Notes: The text box in the chart contains fatality counts and the percentage change from 2024 to 2025. Unknown cases are
+proportionally imputed.
+Source: 2024 FARS ARF and 2025 statistical projections.
+
+Fatality Rate
+The total fatality rate per 100 million VMT is broken down by roadway function class: rural versus urban
+interstates, arterials, local/collector/streets. The results shown in Figure 2 indicate that the trend of the total
+fatality rate per 100 million VMT from January to December 2025, as seen in recent years, is mainly driven by
+the fatality rate per 100 million VMT on rural arterials, rural local/collector/street roadways, and urban
+arterials, based on the magnitude of the fatality rate by roadway function class. Overall, the estimated fatality
+rates per 100 million VMT for 2024 and 2025 are 1.19 and 1.10.
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+9
+
+Figure 2. Total Fatality Rate per 100 Million VMT and the Fatality Rate per 100 Million VMT by
+Roadway Function Class for 2024–2025
+Total Fatality Rate 2024
+
+Total Fatality Rate 2025
+
+1.40
+1.20
+1.00
+0.80
+
+1.10
+
+1.12
+
+1.06
+
+May
+
+Jun
+
+1.03
+
+1.06
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+0.58 0.53 0.66
+
+0.67 0.63
+
+1.11
+Jul
+
+Rural Interstate 2025
+
+0.65 0.63 0.63 0.67 0.65 0.61 0.74 0.72 0.71 0.71 0.61 0.69
+0.51 0.70 0.78 0.64 0.75 0.63 0.80
+
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+Rural Arterial 2024
+
+Fatality Rate
+
+1.05
+
+1.07
+
+3.50
+3.00
+2.50
+2.00
+1.50
+1.00
+0.50
+0.00
+-0.50
+
+Rural Arterial 2025
+3.50
+3.00
+
+2.00
+1.50
+1.00
+
+1.69 1.73
+
+1.77 1.92 1.83 1.83
+
+1.52 1.56 1.68 1.59 1.72
+
+1.91 1.91 1.89 1.94
+
+2.03
+1.89 1.91
+
+2.08
+
+1.92
+
+0.50
+0.00
+
+Rural Local/Collector 2025
+
+1.17
+
+1.16
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+1.11
+Dec
+
+Urban Interstate 2025
+
+0.50 0.52 0.50 0.51 0.53 0.60 0.53 0.57 0.59 0.55 0.62 0.50
+0.50 0.48 0.51 0.48 0.49 0.53 0.52 0.45 0.46 0.43 0.42 0.40
+
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+
+1.50
+
+Urban Arterial 2025
+
+1.00
+
+1.31 1.33 1.35 1.35 1.32 1.29 1.20 1.35 1.43 1.36
+
+1.45 1.37
+
+1.20 1.18 1.18 1.09 1.11 1.09 1.13 1.19 1.20 1.19 1.29 1.23
+
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+
+Urban Local/Collector 2024
+
+2.50
+2.00 1.72 1.65
+1.66 1.69
+
+1.85 1.85
+
+2.07 2.21 2.01
+
+1.71 1.89 1.79 1.83 1.96
+
+2.18 2.25 2.19
+
+Urban Local/Collector 2025
+
+2.34
+
+2.16 2.06
+
+3.00
+2.00 1.99
+
+1.89 1.77
+
+Fatality Rate
+
+Fatality Rate
+
+1.15
+
+3.50
+
+3.00
+
+1.00
+
+2.00
+
+0.00
+
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+
+3.50
+
+1.50
+
+1.19
+
+1.19
+
+2.50
+
+0.50
+
+Rural Local/Collector 2024
+
+1.25
+
+Urban Arterial 2024
+
+3.00
+1.69 1.66 1.70 1.66
+
+1.25
+
+Urban Interstate 2024
+
+3.50
+2.50
+
+1.29
+
+1.23
+
+1.15
+
+Fatality Rate
+
+Fatality Rate
+
+3.50
+3.00
+2.50
+2.00
+1.50
+1.00
+0.50
+0.00
+-0.50
+
+1.14
+
+1.05
+
+Rural Interstate 2024
+
+1.22
+
+1.18
+
+1.16
+
+Fatality Rate
+
+Fatality Rate
+
+1.60
+
+2.50
+2.00
+1.50
+1.00
+
+0.50
+
+0.50
+
+0.00
+
+0.00
+
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+
+0.80 0.80 0.86 0.89 0.81 0.92 0.82 0.88 0.90 0.92 0.90 0.80
+0.78
+
+0.68 0.82 0.82 0.74 0.86 0.91 0.90 0.79 0.87 0.81 0.77
+
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+
+Note: Unknown cases are proportionally imputed.
+Source: 2024 FARS ARF and 2025 statistical projections. Federal Highway Administration December 2025 Traffic Volume Trends for
+2024 and 2025 VMT.
+
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+NHTSA’s National Center for Statistics and Analysis
+
+Crash●Stats: Early Estimates of Motor Vehicle Traffic Fatalities and Fatality Rate by Sub-Categories in 2025
+
+10
+
+Limitations
+
+In this study the fatal crashes currently coded for 2025 into NHTSA’s FARS are used as a basis for constructing
+the gross estimates of traffic fatalities by sub-categories. The results from this analysis can be affected by the
+factor, the traditional FARS identification and reporting lag issue (e.g., reporting and coding of speeding-related,
+roadway departure, and rollover crashes). The estimates for the month and the sub-categories for regions with
+higher inflation rate (IRmr) are more likely to affect the sensitivity of the overall projections. Also, these
+calculations assume that the cases not yet coded into 2025 FARS are similar in the sub-categories to those that are
+already in the 2025 FARS. In short, the estimated results are subject to small changes as more information gets
+coded into these cases as well as when more cases are entered into 2025 FARS (FARS_25mr). These results may
+also change slightly as the FARS ARF and Final File for 2025 (in other words, replace F_Est_25mr with the actual
+data) are available within the next 2 years.
+
+Suggested APA format citation for this report:
+National Center for Statistics and Analysis. (2026, July). Early estimates of motor vehicle traffic fatalities and
+fatality rate by sub-categories in 2025 (Crash•Stats Brief Statistical Summary. Report No. DOT HS 813 829).
+National Highway Traffic Safety Administration. https://doi.org/10.21949/1xef-8147
+
+For questions regarding the information presented in this
+report, please contact NCSARequests@dot.gov. This
+Crash•Stats and other general information on traffic
+safety can be found at https://crashstats.nhtsa.dot.gov.
+U.S. Department of Transportation
+1200 New Jersey Avenue SE, Washington, DC 20590
+
+NHTSA’s National Center for Statistics and Analysis
+16991-070126-v3
+
+
