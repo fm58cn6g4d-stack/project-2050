@@ -51,7 +51,7 @@ Outcomes checked: OUT-05 (emissions and a prepared country), OUT-11 (the fiscal 
    - True of any fuel tax. The steps are small (3 cents a year), pause when prices spike, and pay for repair that drivers already pay for in vehicle damage.
    - Polls show 74-75% support when the money is dedicated to maintenance [EV-MOV-129] [EV-MOV-134].
    - The fairness test is run plan-wide.
-2. **"A per-mile charge means tracking where I drive."** It doesn't: the charge reads the odometer only, location data is barred by law, readings are tax return information, and they are destroyed after three years (division A sec. 111).
+2. **"A per-mile charge means tracking where I drive."** It doesn't: the charge reads the odometer only, readings are tax return information from the first day, and the 2031 bill bars location data and destroys readings after three years (division A sec. 111).
 3. **"Trucking already pays its share."** The heavy-vehicle use tax is flat at $550 and unindexed since 1984 [EV-MOV-209]. A weight-distance charge prices the damage, as Oregon's does [EV-MOV-121].
 4. **"Federal money for transit operations rewards waste."**
    - The tier pays a capped share (no area above 25% of net cost).
@@ -66,7 +66,7 @@ Outcomes checked: OUT-05 (emissions and a prepared country), OUT-11 (the fiscal 
 ## 6. Signs of failure
 
 - **Collection.** The clean-vehicle or weight-distance charge costs more than 10% to collect two years after start (GAO's review).
-- **Pauses.** Price pauses defer three or more steps, so the backstop is drawn [EV-MOV-219].
+- **Pauses.** Price pauses defer three or more steps. The $25B backstop is drawn and exhausted (three pauses delay about $53.3B [EV-MOV-219]), and the remaining shortfall falls on expansion programs under sec. 108(c)(2).
 - **Transit service.** Areas covering more than a fifth of riders fall below the service floor.
 - **Rail.** Less than half of Tier 1 money is obligated by FY2034.
 - **Repair.** Poor-condition pavement or bridge shares rise for two years in more than ten states despite the repair reports.

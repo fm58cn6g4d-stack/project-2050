@@ -17,7 +17,7 @@ Meanwhile:
 1. **Keep the money flowing.** Extend today's fuel taxes for one year, so the trust fund doesn't hit a cliff in 2028. This is a bipartisan step in 2027-28.
 2. **Make users pay for repair** (2029).
    - The gas tax rises with prices, plus ten small 3-cent steps that pause when gas prices spike.
-   - Electric cars pay by the mile, at what an efficient gas car pays, read from the odometer at registration. No tracking, no location data.
+   - Electric cars pay by the mile, at what an efficient gas car pays, read from the odometer at registration. No tracking device, and by law no location data (the full privacy rules start in 2031; see the hard questions).
 3. **Make the heaviest trucks pay for the damage they do** (2030).
    - A charge by weight and miles replaces a flat $550 tax that hasn't changed since 1984 (the Internal Revenue Code, 26 U.S.C. 4481) [EV-MOV-209].
    - Railroads and air travelers pay small taxes toward passenger rail.
@@ -47,7 +47,7 @@ We've let the roads and rails run on a 1993 tax that loses value every year and 
 | --- | --- | --- |
 | "Fix it first." Repair is paid before anything new | Repair backlog of $1.1 trillion (FHWA) [EV-MOV-005]; 41,148 poor bridges [EV-MOV-006] | Don't say the plan clears the backlog; it narrows it |
 | "A few cents at a time, and never when gas spikes" | The steps and pause (memo 1); support of 74-75% for a repair-dedicated increase (Mineta Transportation Institute) [EV-MOV-129] [EV-MOV-134] | Don't say gas taxes won't go up. Say how much: $88 to $225 a year for a typical car by 2036 [EV-MOV-201] |
-| "Electric cars pay their share, and nobody tracks you" | Odometer only; location data barred (section 4) | Don't promise zero cost: an electric car pays $141 in 2036 [EV-MOV-204] |
+| "Electric cars pay their share, and nobody tracks you" | Odometer only from 2030; the location-data bar and deletion rules from October 1, 2031 (section 4, MOV-31.11) | Don't promise zero cost: an electric car pays $141 in 2036 [EV-MOV-204] |
 | "The trucks that wear out the roads pay for them" | The $550 flat tax, unchanged since 1984 [EV-MOV-209] | Don't say trucks pay nothing today |
 | "Keep the buses and trains running" | Fares a quarter below 2019, relief spent [EV-MOV-100] [EV-MOV-103] | Don't say the operating help fills every system's gap; it is shared out by a formula |
 | "Build rail where it works, and pay only when it's ready" | Gates, caps and stages (memo 6); European overruns [EV-MOV-130] | Don't promise high-speed rail by a date |
@@ -56,7 +56,7 @@ We've let the roads and rails run on a 1993 tax that loses value every year and 
 ## Hard questions, plain answers
 
 - **"Isn't a gas tax increase a tax on working people?"** It costs a typical driver about $137 a year more by 2036 [EV-MOV-201], or about 37 cents a day. It pauses when prices spike, and every cent goes to repair first. The plan's fairness test is run across the whole plan.
-- **"Will the government track my car?"** No. The law bars location data. The charge reads only the odometer, and the readings are destroyed after three years.
+- **"Will the government track my car?"** No. The charge reads only the odometer, and the readings are private tax information from the first day. The 2031 law adds an outright ban on collecting location data and deletes readings after three years; the plan would rather pass those rules before the charge starts in October 2030, in a standalone privacy bill.
 - **"Why should my taxes pay for city transit?"** Most of the money goes to roads. Transit's operating help is a capped share, and cities and states have to keep paying their part.
 - **"Isn't high-speed rail a boondoggle?"** Badly planned rail can be, as Europe's auditors found [EV-MOV-130]. That is why the plan pays in stages, after independent review, with local money committed first.
 - **"What if Congress doesn't pass a highway bill before 2029?"** Then the plan writes one itself in 2029-30 (section 3, point 1).

@@ -36,7 +36,7 @@ How should drivers pay to keep roads and bridges in repair from 2029 on: higher 
   - Ten steps of 3 cents (in 2029 dollars), one a year.
   - A step is deferred, not lost, in any year gas averages over $4.00 or rose over 20%.
 - **Electric cars** pay per mile at what a 40-mpg gas car pays in fuel tax.
-  - The odometer is read at registration; no location data.
+  - The odometer is read at registration, and the readings are private tax information from the start. The outright bar on collecting location data, and deletion after three years, come with the 2031 bill (October 1, 2031), a year after the charge begins.
   - Plug-in hybrids pay 30% of the car rate.
 - **The premium.** From FY2040 to FY2044, five more 2-cent steps on gasoline and diesel only.
 - *For drivers:*

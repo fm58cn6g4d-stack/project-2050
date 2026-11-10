@@ -77,7 +77,7 @@ None of this stops an administration from slowing work it opposes. It does make 
 
 ## 6. Remedies
 
-- **Taxpayers.** Per-mile charge readings are tax return information, with the Internal Revenue Code's remedies for disclosure (sec. 111). Readings are destroyed after three years, and location data is barred.
+- **Taxpayers.** Per-mile charge readings are tax return information, with the Internal Revenue Code's remedies for disclosure, from the charge's first day. From the charge's start on October 1, 2030, the 2029 act defines it by odometer readings only and the readings are tax return information; the bar on collecting location data, the three-year deletion and the private right of action are in the 2031 bill and apply from October 1, 2031, unless a standalone privacy bill passes first, as Draft 2 proposes (sec. 111, MOV-31.11).
 - **States and sponsors.** Executed agreements can be terminated only after notice, a cure period and judicial review (section 4 above).
 - **Riders.** The service floor is a grant condition. An area that drops below 95% of its FY2028-30 service hours loses the operating tier for that year.
 - **The public.** Each state's condition trend, each large lane-adding project's lifecycle analysis, and each transit area's preventive-maintenance share and cost per service hour are published every year. FHWA and FTA review the outliers (memos 4 and 5).

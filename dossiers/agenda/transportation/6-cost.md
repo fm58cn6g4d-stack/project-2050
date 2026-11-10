@@ -104,7 +104,7 @@ Each line changes one choice, holding the rest; the average draw is for FY2032-3
 | No transit operating help | 0.164% | 0.010% | 356.7 |
 | No fossil premium | 0.180% | 0.065% | 390.7 |
 
-The largest risk to the cost is revenue, not spending. Price pauses delay receipts, which the capped $25B backstop covers [EV-MOV-219], and the model's lack of a demand response overstates the steps' and the premium's yield.
+The largest risk to the cost is revenue, not spending. Price pauses delay receipts, and the capped $25B backstop covers only part of it: three pauses would delay about $53.3B of FY2032-36 receipts against a $25B cap [EV-MOV-219]. The remaining roughly $28B is handled as Draft 2's sec. 108(c)(2) provides: once the backstop is exhausted, any shortfall in an account reduces its expansion programs first and its renewal programs only after those reach zero; sec. 105 and 106(e) amounts and executed agreements are not reduced. The deferred steps then resume, so the receipts return in later years, and the settlement decides whether to cover the gap from the general fund in the meantime. The model's lack of a demand response also overstates the steps' and the premium's yield.
 
 ## 5. Fit with the fairness test (D3)
 
