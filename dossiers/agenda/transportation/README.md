@@ -1,6 +1,6 @@
 # Dossier: transportation (wave two; the reference dossier)
 
-Role: the transportation dossier, converted from the legacy Moving America design as the reference example of a finished dossier (`charter/PLAN.md` 3.1). Status: in progress, stage C step 7: sections 1-9 drafted; the memo set decided as recommended (`DEC-2026-11-10-08`). Level: MOV-28 to MOV-31 and MR1 to MR6 are at L2 (decided) in `agenda/agenda.csv`, L3 after the milestone review's fixes and re-check (`review-milestone.md`); the target is L3, with priority pieces at L4.
+Role: the transportation dossier, converted from the legacy Moving America design as the reference example of a finished dossier (`charter/PLAN.md` 3.1). Status: in progress, stage C step 7: sections 1-9 drafted; the memo set decided as recommended (`DEC-2026-11-10-08`). Level: MOV-28 to MOV-31 and MR1 to MR6 are at L3 (specified) in `agenda/agenda.csv`, after the milestone review (`review-milestone.md`), its fixes (#208, #209, #210, #211) and the L3 re-check; priority pieces go on to L4.
 
 **What it brings together:** highways and highway safety, public transportation, intercity passenger rail, and the Surface Transportation Trust Fund that pays for them, carried by four laws: a 2028 extension (a labeled 2027-28 exception), the 2029 and 2030 reconciliation acts, and the Moving America Act of 2031.
 

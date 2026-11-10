@@ -7,7 +7,7 @@ Role: section 6 of the transportation dossier. It prices the provisions of secti
 - **Conventions.** The project's budget conventions (`models/tools/budget/CONVENTIONS.md`): nominal dollars by fiscal year, deficit effects positive for a cost, the common window FY2030-39 (`ASM-WINDOW`).
 - **Increment.** The ledger counts what the plan adds above CBO's baseline (`ASM-INCREMENT`). For transportation that means:
   - the general-fund lines: the 2029 and 2030 packages, the renewal top-ups and the 2031 bill's expansion appropriations;
-  - the new dedicated revenue, credited to the trust fund net of the standard 25% income and payroll tax offset (MR6, a scoring convention). The offset itself falls on the general fund and is not yet booked (section 3).
+  - the new dedicated revenue, credited to the trust fund net of the standard 25% income and payroll tax offset (MR6, a scoring convention). The offset itself falls on the general fund, where the budget model books it as MR6 (section 3).
 - **Two models.**
   - The transportation model (`models/tools/transportation/moving_america.py`) computes programs, receipts by source and the general-fund draw year by year. It has no demand response, so revenue from the steps and the premium is an upper bound [EV-MOV-206].
   - The budget model (`models/tools/budget/provisions.py`) books the ledger amounts on profiles (`models/data/inputs/fiscal-profiles.csv`).
@@ -37,18 +37,18 @@ Over FY2032-36 the 2031 bill authorizes $936.57B. Dedicated receipts cover $545.
 
 On the transportation model's own path. These are the plan's figures (grade D, project estimate). The draw is the general fund's share of the surface program's trust-fund, package and expansion lines (not sec. 1112's grants or the readiness reserve, below), not the increment over CBO's baseline:
 
-| FY | Program ($B) | Dedicated receipts ($B) | General fund ($B) | % of GDP | 25% offset, not yet booked ($B) | Booked by the budget model ($B) |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2029 | 119.0 | 50.0 | 69.0 | 0.194% | 0.0 | — |
-| 2030 | 141.6 | 58.6 | 83.1 | 0.225% | 2.2 | 29.3 |
-| 2032 | 164.2 | 84.3 | 79.9 | 0.200% | 7.5 | 54.7 |
-| 2036 | 207.5 | 135.6 | 71.9 | 0.153% | 18.0 | 63.5 |
-| 2037 | 196.1 | 147.0 | 49.1 | 0.100% | 20.8 | 38.0 |
-| 2040 | 209.7 | 180.7 | 29.0 | 0.053% | 29.0 | 22.1 |
-| 2044 | 234.8 | 220.8 | 14.0 | 0.022% | 38.7 | 25.6 |
-| 2046 | 245.3 | 231.7 | 13.6 | 0.019% | 41.1 | 27.5 |
+| FY | Program ($B) | Dedicated receipts ($B) | General fund ($B) | % of GDP | 25% offset, model ($B) | Spending booked by the budget model ($B) | Offset booked (MR6, $B) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2029 | 119.0 | 50.0 | 69.0 | 0.194% | 0.0 | — | — |
+| 2030 | 141.6 | 58.6 | 83.1 | 0.225% | 2.2 | 29.3 | 2.0 |
+| 2032 | 164.2 | 84.3 | 79.9 | 0.200% | 7.5 | 54.7 | 6.8 |
+| 2036 | 207.5 | 135.6 | 71.9 | 0.153% | 18.0 | 63.5 | 16.3 |
+| 2037 | 196.1 | 147.0 | 49.1 | 0.100% | 20.8 | 38.0 | 18.9 |
+| 2040 | 209.7 | 180.7 | 29.0 | 0.053% | 29.0 | 22.1 | 25.1 |
+| 2044 | 234.8 | 220.8 | 14.0 | 0.022% | 38.7 | 25.6 | 29.1 |
+| 2046 | 245.3 | 231.7 | 13.6 | 0.019% | 41.1 | 27.5 | 31.3 |
 
-Sources: `Model().allocate(t)` in `moving_america.py` for the first four figures; the offset is `Model().cbo_basis(t)` less `allocate(t)`; the booked column is the budget model's MOV-29, MOV-30 and MOV-31 lines together (`provisions.py`, `score_all`, unified basis, on the profiles in `fiscal-profiles.csv`), whose window starts in FY2030. All run on November 10, 2026. The booked column is the increment over CBO's baseline, spread evenly over each act's window; the model's draw is the general fund's share of the program, timed as obligated (section 3, "Why the booked figure is lower"). The two paths cross: the booked path is below the model's in FY2030-36, when the packages and top-ups are paid, and above it from FY2037 on, as the booked successor grows with GDP while the model's draw falls with the premium. Section 3 also shows CBO's net basis, which adds the offset. The period averages match `golden/report.txt`: 0.180% in FY2032-36, 0.067% in FY2037-41, 0.026% in FY2042-46.
+Sources: `Model().allocate(t)` in `moving_america.py` for the first four figures; the offset is `Model().cbo_basis(t)` less `allocate(t)`; the booked spending column is the budget model's MOV-29, MOV-30 and MOV-31 lines together, and the booked offset its MR6 line (`provisions.py`, `score_all`, unified basis, on the profiles in `fiscal-profiles.csv`; MR6 booked by #209), whose window starts in FY2030. All run on November 10, 2026. The booked column is the increment over CBO's baseline, spread evenly over each act's window; the model's draw is the general fund's share of the program, timed as obligated (section 3, "Why the booked figure is lower"). The two paths cross: the booked path is below the model's in FY2030-36, when the packages and top-ups are paid, and above it from FY2037 on, as the booked successor grows with GDP while the model's draw falls with the premium. Section 3 also shows CBO's net basis, which adds the offset. The period averages match `golden/report.txt`: 0.180% in FY2032-36, 0.067% in FY2037-41, 0.026% in FY2042-46.
 
 By FY2042-46, users cover 95% of highway renewal and all of transit's and rail's [EV-MOV-200] [EV-MOV-206].
 
@@ -70,18 +70,19 @@ Under `DEC-2026-11-10-05`, the dossier reports its fiscal-rule effect and passes
 | Measure | As the budget model books it | On the transportation model's path |
 | --- | --- | --- |
 | FY2030-39, general-fund lines (MOV-29, -30, -31) | **$473.0 billion** (0.257 + 0.091 + 0.125 trillion), outlays spread over the window | The same lines, timed as obligated: packages in FY2029-31, top-ups and expansion in FY2032-36 |
-| FY2030-39, new dedicated revenue | About $0.39 trillion (the surface trust fund channel, net of the offset) | $290.0B + $95.0B over each act's window |
+| FY2030-39, new dedicated revenue | About $0.51 trillion gross in the surface trust fund channel; the offset is booked separately on the general fund (MR6) | $290.0B + $95.0B over each act's window |
 | Permanent cost in FY2040, spending | **$22.1 billion**: a 30% tail on the reconciliation lines plus a successor authorization at 30% of MOV-31's run rate (`fiscal-profiles.csv`) | **$29.0 billion** (0.053% of GDP), the general fund's share of the program that year (excluding sec. 1112's grants and the reserve), falling to $14.0 billion by FY2044 as the premium phases in |
-| The 25% offset (MR6), FY2040 | **Not yet booked; booking pending Espen's approval (#209).** On main, MR6's channel is the surface trust fund and it is on the revenue menu, not in the budget model's base (`ledger-revenue.csv`; `models/data/budget/provisions.csv`), so neither the ledger's general-fund total nor the fiscal model counts it. #209 books it on the general fund in the base, as CX is, at **$25.1 billion** in FY2040 | **$29.0 billion** (0.053% of GDP), rising from $2.2 billion in FY2030; $141.8 billion over FY2030-39 ($128.3 billion over each act's window in the ledger's MR6) |
-| FY2040 general-fund effect, spending plus offset | **$47.2 billion** ($22.1 billion + $25.1 billion with #209's booking; $51.1 billion at the model's $29.0 billion offset) | **$58.0 billion** (0.105% of GDP), the CBO-net basis below |
-| Share of the plan-wide margin, FY2040 | The plan-wide shortfall the housing close-out reported, $50.8 billion (`models/data/recovery-budget-paths.csv`, case `mixed`, `agenda_gf_primary_bn`; `dossiers/home/6-cost.md`), includes transportation's $22.1 billion of spending, about 44% of it, and leaves out the offset. With the offset as #209 books it ($25.1 billion), the budget model's run puts the shortfall at $75.9 billion, and transportation's $47.2 billion ($22.1 + $25.1) about 62% of it (FY2041: short $33.4 billion; FY2042: margin $10.7 billion) | With the model's spending path as well, the shortfall would be about $86.7 billion, and transportation's $58.0 billion about two-thirds of it |
+| The 25% offset (MR6), FY2040 | **$25.1 billion, booked** on the general fund in the budget model's base, as the carbon fee's identical offset (CX) is (#209; `ledger-revenue.csv`); $128.4 billion over FY2030-39 | **$29.0 billion** (0.053% of GDP), rising from $2.2 billion in FY2030; $141.8 billion over FY2030-39 ($128.3 billion over each act's window in the ledger's MR6) |
+| FY2040 general-fund effect, spending plus offset | **$47.2 billion** ($22.1 billion + $25.1 billion) | **$58.0 billion** (0.105% of GDP), the CBO-net basis below |
+| Share of the plan-wide margin, FY2040 | The plan-wide FY2040 balance is **$75.9 billion short** (`models/data/recovery-budget-paths.csv`, case `mixed`, `agenda_gf_primary_bn`), and transportation's $47.2 billion is about 62% of it. FY2041 is $33.4 billion short and FY2042 has a $10.7 billion margin. Before the offset was booked, the FY2040 shortfall was $50.8 billion (the housing close-out, `dossiers/home/6-cost.md`) | With the model's spending path as well, the shortfall would be about $86.7 billion, and transportation's $58.0 billion about two-thirds of it |
 
-The $75.9 billion is #209's run of the budget model, pending Espen's approval. The model-path figure ($86.7 billion) is this section's arithmetic: the reported $50.8 billion plus the unbooked amounts at the model's $29.0 billion offset, before interest. **The two offset figures differ by about $4 billion in FY2040** ($25.1 billion booked against $29.0 billion on the model's path) because the booking scales MR6 to the ledger's window totals and grows it with GDP after 2039, the convention CX uses, while the model computes 25% of each year's gross receipts. Reconciling them goes to the budget model's step that puts each bill in its own CBO window (B6 item 4), with the spending gap.
+The $75.9 billion is the budget model's run with MR6 booked (#209). The model-path figure ($86.7 billion) is this section's arithmetic: the $75.9 billion plus the $6.9 billion spending gap and the $3.9 billion offset gap, before interest. **The two offset figures differ by about $4 billion in FY2040** ($25.1 billion booked against $29.0 billion on the model's path) because the booking scales MR6 to the ledger's window totals and grows it with GDP after 2039, the convention CX uses, while the model computes 25% of each year's gross receipts. Reconciling them goes to the budget model's step that puts each bill in its own CBO window (B6 item 4), with the spending gap.
 
-**The figure reported to the settlement: in FY2040, $22.1 to $29.0 billion of spending (booked, and on the model's path) plus the 25% income and payroll tax offset, not yet booked ($25.1 billion as #209 books it, $29.0 billion on the model's path): $47.2 to $58.0 billion in all, about 0.09% to 0.11% of GDP.**
+**The figure reported to the settlement: in FY2040, $22.1 to $29.0 billion of spending (booked, and on the model's path) plus the 25% income and payroll tax offset ($25.1 billion booked, $29.0 billion on the model's path): $47.2 to $58.0 billion in all, about 0.09% to 0.11% of GDP.**
 - **Spending.** The first row counts spending only, booked and on the model's path, a gap of about $7 billion.
-- **The offset.** It is lower income and payroll tax receipts on the new excises. Those receipts go to the general fund (and Social Security), not to the trust fund, and the transportation model credits the trust fund with gross receipts and spends them. So the general fund bears the offset. Its ledger line, MR6 (`models/data/inputs/ledger-revenue.csv`), books it on the trust fund's channel, which nets it against equal outlays, and the budget model leaves MR6 out of its base. It is therefore not yet booked; booking pending Espen's approval (#209, step 2 of the milestone review's fixes, `review-milestone.md`, F-1): MR6 on the general fund in the base, as the carbon fee's identical offset (CX) is.
-- **No double count.** Until step 2 lands, the offset is reported here on its own line. A figure that includes it (the CBO-net basis below) is labeled so and is never added to a spending line.
+- **The offset.** It is lower income and payroll tax receipts on the new excises. Those receipts go to the general fund (and Social Security), not to the trust fund, and the transportation model credits the trust fund with gross receipts and spends them. So the general fund bears the offset. Its ledger line, MR6 (`models/data/inputs/ledger-revenue.csv`), books it on the general fund in the budget model's base, as the carbon fee's identical offset (CX) is (#209, step 2 of the milestone review's fixes, `review-milestone.md`, F-1). Until then it sat on the trust fund's channel, outside the plan-wide totals.
+- **The 25% rate is a working assumption that may slightly overstate the offset.** JCT's yearly offset rate has run 21% to 25% recently (24.3% in 2022), against the flat 25% used here, and CBO books the whole offset on-budget (CBO, 2022, publication 58421; to be catalogued). At 24.3%, the FY2040 offset would be about $0.7 billion lower on the booked figure. No transportation choice turns on it.
+- **No double count.** The offset is reported on its own line. A figure that includes it (the CBO-net basis below) is labeled so and is never added to a spending line.
 
 The model's CBO-net basis (`Model().cbo_basis(t)`) is the general fund's draw **with the offset included**, about $29 billion of the $58.0 billion in FY2040:
 
@@ -134,4 +135,4 @@ None for Espen; each is a question about money that stays with the settlement or
 1. **The 2028 extension's transfer** has a working range (up to about $131 billion, scoring at little or nothing against CBO's baseline; section 1). It is sized when the extension is drafted, on the baseline case then known.
 2. **FY2040 booking of spending** ($22.1 billion booked; $29.0 billion on the model's spending path). For the budget model owner, with B6 item 4; a tier-3 inputs change if adopted.
 3. **The 2030 act's window.** Rescore on FY2031-40 if it rides the FY2031 resolution (R3), as the ledger notes.
-4. **The offset (MR6)** is not a question but a correction: $29.0 billion in FY2040 on the model's path ($25.1 billion as #209 books it), not yet booked; booking pending Espen's approval (#209), a tier-3 inputs change because it touches `models/data/inputs/`.
+4. **The offset (MR6)** is booked (#209): $25.1 billion in FY2040, against $29.0 billion on the model's path. The gap goes to B6 item 4 with the spending gap.
