@@ -1,0 +1,564 @@
+Source: https://www.cdc.gov/nchs/data/hestat/hestat113.htm
+Publisher: Centers for Disease Control and Prevention
+Retrieved: 2026-11-10
+Original SHA-256: 5d131d9caf7a414174000f771321b4a18669aa20af773931cc4d1fcc2510331c
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Maternal Mortality Rates in the United States, 2024
+Skip directly to site content
+Skip directly to search
+Español |
+Other Languages
+An official website of the United States government Here's how you know
+Official websites use .gov
+A .gov website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Maternal Mortality Rates in the United States, 2024
+Print
+Minus
+Related Pages
+NCHS Health E-Stat 113, March 2026
+by Donna L. Hoyert, Ph.D.
+PDF Version [PDF – 291 KB]
+This report presents maternal mortality for 2024 based on data from the National Vital Statistics System (NVSS) ( 1 ). A maternal death is defined as “the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and the site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management, but not from accidental or incidental causes” ( 2 ). Maternal mortality rates—the number of maternal deaths per 100,000 live births—are shown in this report by age group and race and Hispanic origin.
+In 2024, 649 women died of maternal causes in the United States, compared with 669 in 2023 ( 1 ) ( Figure 1 , Table ). The maternal mortality rate for 2024, 17.9 deaths per 100,000 live births, was not significantly lower than the rate of 18.6 in 2023.
+In 2024, the maternal mortality rate for Black non-Hispanic (subsequently, Black) women was 44.8 deaths per 100,000 live births, which was significantly higher than the rates for White non-Hispanic (subsequently, White) (14.2), Hispanic (12.1), and Asian non-Hispanic (subsequently, Asian) (18.1) women ( Figure 2 , Table ). The observed decreases in 2024 for Black, White, and Hispanic women and the increase for Asian women were not significant.
+In 2024, maternal mortality rates were 13.7 deaths per 100,000 live births for women younger than age 25, 16.5 for those ages 25–39, and 62.3 for those age 40 and older ( Figure 3 , Table ). The rate for women age 40 and older was five times higher than the rate for women younger than age 25. Differences in the rates between women younger than age 25 and ages 25–39 compared with women age 40 and older were significant, while differences between women younger than age 25 and ages 25–39 were not. The observed decrease for women ages 25–39 and the increases for women younger than age 25 and age 40 and older between 2023 and 2024 were not significant.
+On This Page
+Data source and methods
+References
+Suggested citation
+Figures
+Table
+Article Metrics
+Suggested Citation [?]
+Data source and methods
+Data are from the NVSS mortality file ( 3 ). Consistent with previous reports, the number of maternal deaths does not include all deaths of pregnant women or of recently pregnant women, but only those deaths with the underlying cause of death assigned to International Statistical Classification of Diseases, 10th Revision codes A34, O00–O95, and O98–O99. Maternal mortality rates are per 100,000 live births. Births are based on data from the NVSS natality file. Maternal mortality rates fluctuate from year to year because of the relatively small number of these events, and possibly because of issues with the accuracy of reporting maternal deaths on death certificates ( 4 ). Efforts to improve data quality are ongoing, and these data will continue to be evaluated for possible errors. Data are shown for only the largest race and Hispanic-origin groups for which statistically reliable rates can be calculated, and numbers and rates are suppressed for those groups for which statistically reliable rates cannot be calculated ( 5 ). Additional details and data on provisional maternal mortality rates are available ( 6 , 7 ).
+Top of Page
+References
+Hoyert DL. Maternal mortality rates in the United States, 2023. NCHS Health E-Stats. 2025 Feb;1–7. DOI: https://dx.doi.org/10.15620/cdc/174577 .
+World Health Organization. International statistical classification of diseases and related health problems, 10th revision. 2008 ed. 2009.
+Xu JQ, Murphy SL, Kochanek KD, Arias E. Mortality in the United States, 2024. NCHS Data Brief. 2026 Jan;(548):1–14. DOI: https://dx.doi.org/10.15620/cdc/174641 .
+Hoyert DL, Miniño AM. Maternal mortality in the United States: Changes in coding, publication, and data release, 2018. Natl Vital Stat Rep. 2020 Jan 30;69(2):1–18.
+Xu JQ, Murphy SL, Kochanek KD, Arias E. Deaths: Final data for 2022. Natl Vital Stat Rep. 2025 Jun 10;74(4):1–138. DOI: https://dx.doi.org/10.15620/cdc/174588 .
+National Center for Health Statistics. Maternal mortality. Available from: https://www.cdc.gov/nchs/maternal-mortality/index.htm .
+National Center for Health Statistics. Provisional maternal mortality rates. Available from: https://www.cdc.gov/nchs/nvss/vsrr/provisional-maternal-deaths-rates.htm .
+Top of Page
+Suggested citation
+Hoyert DL. Maternal mortality rates in the United States, 2024. NCHS Health E-Stats. 2026 Mar;(113):1–7. DOI: https://dx.doi.org/10.15620/cdc/174651 .
+Top of Page
+Figures
+View Larger
+Close
+Download Image [PNG]
+View Larger
+Close
+Download Image [PNG]
+View Larger
+Close
+Download Image [PNG]
+Table
+Table. Number of live births and maternal deaths, and maternal mortality rate, by race and Hispanic origin and age: United States, 2018–2024
+Race and Hispanic origin and age
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+Number of live births
+Total 1
+3,791,712
+3,747,540
+3,613,647
+3,664,292
+3,667,758
+3,596,017
+3,628,934
+Younger than 25
+907,782
+877,803
+825,403
+797,334
+784,299
+759,713
+750,800
+25–39
+2,756,974
+2,739,976
+2,658,445
+2,731,223
+2,738,802
+2,689,250
+2,725,743
+40 and older
+126,956
+129,761
+129,799
+135,735
+144,657
+147,054
+152,391
+Asian, non-Hispanic 2
+240,798
+238,769
+219,068
+213,813
+218,994
+215,738
+226,860
+Younger than 25
+16,338
+15,071
+12,993
+11,149
+11,002
+10,352
+10,025
+25–39
+211,331
+210,177
+193,139
+189,405
+193,025
+190,128
+200,513
+40 and older
+13,129
+13,521
+12,936
+13,259
+14,967
+15,258
+16,322
+Black, non-Hispanic 2
+552,029
+548,075
+529,811
+517,889
+511,439
+491,494
+473,377
+Younger than 25
+176,243
+169,853
+159,541
+149,435
+140,498
+131,977
+123,063
+25–39
+358,276
+360,206
+351,648
+349,170
+349,740
+337,697
+327,982
+40 and older
+17,510
+18,016
+18,622
+19,284
+21,201
+21,820
+22,332
+White, non-Hispanic 2
+1,956,413
+1,915,912
+1,843,432
+1,887,656
+1,840,739
+1,787,051
+1,783,156
+Younger than 25
+391,829
+374,129
+348,666
+336,792
+324,604
+309,033
+301,335
+25–39
+1,504,888
+1,480,595
+1,433,839
+1,486,249
+1,449,365
+1,410,849
+1,412,086
+40 and older
+59,696
+61,188
+60,927
+64,615
+66,770
+67,169
+69,735
+Hispanic
+886,210
+886,467
+866,713
+885,916
+937,421
+945,200
+984,092
+Younger than 25
+275,553
+270,948
+258,635
+255,806
+264,310
+266,416
+274,850
+25–39
+579,553
+584,109
+576,690
+597,703
+637,735
+642,429
+672,341
+40 and older
+31,104
+31,410
+31,388
+32,407
+35,376
+36,355
+36,901
+Number of maternal deaths
+Total 1
+658
+754
+861
+1,205
+817
+669
+649
+Younger than 25
+96
+111
+114
+163
+113
+95
+103
+25–39
+458
+544
+607
+854
+578
+486
+451
+40 and older
+104
+98
+140
+188
+126
+88
+95
+Asian, non-Hispanic 2
+32
+33
+27
+36
+29
+23
+41
+Younger than 25
+*
+*
+*
+*
+*
+*
+*
+25–39
+25
+28
+20
+24
+21
+17
+34
+40 and older
+*
+*
+*
+*
+*
+*
+*
+Black, non-Hispanic 2
+206
+241
+293
+362
+253
+247
+212
+Younger than 25
+27
+32
+46
+62
+44
+37
+35
+25–39
+137
+179
+198
+242
+172
+181
+144
+40 and older
+42
+30
+49
+58
+37
+29
+33
+White, non-Hispanic 2
+291
+343
+352
+503
+350
+259
+254
+Younger than 25
+41
+49
+40
+57
+35
+26
+30
+25–39
+207
+248
+253
+364
+259
+195
+183
+40 and older
+43
+46
+59
+82
+56
+38
+41
+Hispanic
+105
+112
+158
+248
+158
+117
+119
+Younger than 25
+21
+23
+20
+36
+25
+27
+31
+25–39
+72
+71
+111
+184
+108
+77
+75
+40 and older
+12
+18
+27
+28
+25
+13
+13
+Maternal mortality rate 3
+Total 1
+17.4
+20.1
+23.8
+32.9
+22.3
+18.6
+17.9
+Younger than 25
+10.6
+12.6
+13.8
+20.4
+14.4
+12.5
+13.7
+25–39
+16.6
+19.9
+22.8
+31.3
+21.1
+18.1
+16.5
+40 and older
+81.9
+75.5
+107.9
+138.5
+87.1
+59.8
+62.3
+Asian, non-Hispanic 2
+13.3
+13.8
+12.3
+16.8
+13.2
+10.7
+18.1
+Younger than 25
+*
+*
+*
+*
+*
+*
+*
+25–39
+11.8
+13.3
+10.4
+12.7
+10.9
+8.9
+17.0
+40 and older
+*
+*
+*
+*
+*
+*
+*
+Black, non-Hispanic 2
+37.3
+44.0
+55.3
+69.9
+49.5
+50.3
+44.8
+Younger than 25
+15.3
+18.8
+28.8
+41.5
+31.3
+28.0
+28.4
+25–39
+38.2
+49.7
+56.3
+69.3
+49.2
+53.6
+43.9
+40 and older
+239.9
+166.5
+263.1
+300.8
+174.5
+132.9
+147.8
+White, non-Hispanic 2
+14.9
+17.9
+19.1
+26.6
+19.0
+14.5
+14.2
+Younger than 25
+10.5
+13.1
+11.5
+16.9
+10.8
+8.4
+10.0
+25–39
+13.8
+16.8
+17.6
+24.5
+17.9
+13.8
+13.0
+40 and older
+72.0
+75.2
+96.8
+126.9
+83.9
+56.6
+58.8
+Hispanic
+11.8
+12.6
+18.2
+28.0
+16.9
+12.4
+12.1
+Younger than 25
+7.6
+8.5
+7.7
+14.1
+9.5
+10.1
+11.3
+25–39
+12.4
+12.2
+19.2
+30.8
+16.9
+12.0
+11.2
+40 and older
+38.6
+57.3
+86.0
+86.4
+70.7
+35.8
+35.2
+* Estimate does not meet National Center for Health Statistics standards of reliability.
+1 Total includes deaths for race and Hispanic-origin groups not shown separately, including women of multiple races and origin not stated.
+2 Race groups are single race.
+3 Maternal mortality rates are deaths per 100,000 live births.
+NOTES: Maternal causes are those assigned to categories A34, O00–O95, and O98–O99 of the International Classification of Diseases, 10th Revision . Maternal deaths occur while pregnant or within 42 days of being pregnant. People of Hispanic origin may be of any race.
+SOURCES: National Center for Health Statistics, National Vital Statistics System, mortality and natality data files.
+Top of Page
+Last Reviewed: March 4, 2026 Source: National Center for Health Statistics
+SAS
+stats
