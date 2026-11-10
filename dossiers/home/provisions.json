@@ -718,6 +718,11 @@
         "vehicle": "R2",
         "kind": "mandatory",
         "note": "borrowed inside the D4-B envelope (C21)"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "ROAD sec. 210 RESIDE at about $50M FY2027, $100M FY2028 and FY2029; proposed, for Espen (road-funding.md); FY2029 counted inside the $72B"
       }
     ],
     "agency": "HUD with state housing finance agencies",
@@ -728,7 +733,8 @@
       "EV-HOU-119",
       "EV-HOU-024",
       "EV-HOU-215",
-      "EV-HOU-226"
+      "EV-HOU-226",
+      "EV-HOU-229"
     ],
     "sources": [],
     "cost_source": "6-cost.md: $70B outlays FY2030-39, about $2B in FY2040; legacy grant channel about $0.06T of HOU-3C's $0.075T midpoint, borrowed under C21; inside ledger title 0.47",
@@ -967,7 +973,7 @@
       "DEC-2026-11-09-04",
       "DEC-2026-11-09-20"
     ],
-    "parameters": "Plan's money into ROAD sec. 208 fund; states and regions eligible; pay for homes finished; count lower-cost homes; raise $10M cap; remove 2033 end; Build Now kept, studied by 2032; also rewards single-stair buildings to six stories, equal treatment and real-property titling of manufactured homes, small lots, no parking minimums, state infill exemptions from state environmental review, and condo defect-liability reform (memo 10 part 1 B)",
+    "parameters": "Plan's money into ROAD sec. 208 fund; states and regions eligible; pay for homes finished; count lower-cost homes; raise $10M cap; remove 2033 end; Build Now kept, studied by 2032; also rewards single-stair buildings to six stories, equal treatment and real-property titling of manufactured homes, small lots, no parking minimums, state infill exemptions from state environmental review, and condo defect-liability reform (memo 10 part 1 B); $30B is the fund's total FY2030-39, including any yearly appropriation (proposed); up to about $1B for ROAD secs. 102, 207 and 209 grants, folded in by the regular bill (proposed)",
     "eligibility": "States, regions, localities, tribes",
     "vehicle": [
       {
@@ -979,6 +985,11 @@
         "vehicle": "regular bill",
         "kind": "none",
         "note": "eligibility and award rules"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "FY2027-28 asks of $200M a year (authorized level) and a FY2029 bridge of about $270M with the planning, pattern-book and single-stair grants; proposed, for Espen (road-funding.md); FY2029 counted inside the $30B"
       }
     ],
     "agency": "HUD",
@@ -996,7 +1007,9 @@
       "EV-HOU-590",
       "EV-HOU-592",
       "EV-HOU-596",
-      "EV-HOU-598"
+      "EV-HOU-598",
+      "EV-HOU-751",
+      "EV-HOU-754"
     ],
     "sources": [],
     "cost_source": "legacy about $0.03T inside ledger title",
@@ -1313,7 +1326,7 @@
       "DEC-2026-11-09-20",
       "DEC-2026-11-09-24"
     ],
-    "parameters": "Fannie Mae and Freddie Mac buy chattel loans under the duty to serve, with mortgage-like protections; real-property titling on owned land rewarded through HOU-6.01; PRICE community grants funded at $350M a year FY2030-39 and extended past 2033",
+    "parameters": "Fannie Mae and Freddie Mac buy chattel loans under the duty to serve, with mortgage-like protections; real-property titling on owned land rewarded through HOU-6.01; PRICE community grants funded at $350M a year FY2030-39 and extended past 2033; FY2029 bridge counted inside the total (proposed)",
     "eligibility": "Manufactured-home buyers and owners; residents and nonprofits buying their communities",
     "vehicle": [
       {
@@ -1325,6 +1338,11 @@
         "vehicle": "R2",
         "kind": "mandatory",
         "note": "PRICE grants, time-limited"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "PRICE at $100M FY2027 and FY2028, $200M FY2029; proposed, for Espen (road-funding.md); FY2029 counted inside the $3.5B"
       }
     ],
     "agency": "FHFA; HUD",
@@ -1335,7 +1353,8 @@
       "EV-HOU-577",
       "EV-HOU-578",
       "EV-HOU-219",
-      "EV-HOU-220"
+      "EV-HOU-220",
+      "EV-HOU-754"
     ],
     "sources": [],
     "cost_source": "Section 6, 2.8: about $3.5B FY2030-39 (2-5); GSE credit risk unpriced",
@@ -1411,7 +1430,7 @@
       "DEC-2026-11-09-22",
       "DEC-2026-11-09-25"
     ],
-    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (decided, DEC-2026-11-09-25); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (decided, DEC-2026-11-09-25); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030 then $4B a year FY2031-39 (decided, DEC-2026-11-09-25); published counts and reviews, no set-asides",
+    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (decided, DEC-2026-11-09-25); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (decided, DEC-2026-11-09-25); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030 then $4B a year FY2031-39 (decided, DEC-2026-11-09-25); published counts and reviews, no set-asides; FY2029 bridge through the sec. 202 pilot counted inside the total (proposed)",
     "eligibility": "Owner-occupants at or below 120% AMI, heirs in residence included, by signed statement or enrollment in SNAP, Medicaid, SSI, LIHEAP or Weatherization; no credit or tax-current test",
     "vehicle": [
       {
@@ -1423,6 +1442,11 @@
         "vehicle": "regular bill",
         "kind": "none",
         "note": "wage rule and heirs' eligibility if reconciliation cannot carry them"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "ROAD sec. 202 pilot at about $100M FY2027, $150M FY2028, $300M FY2029; proposed, for Espen (road-funding.md); FY2029 counted inside the $38B"
       }
     ],
     "agency": "HUD (CPD) with CDBG and HOME grantees; HUD ONAP and tribes",
@@ -1442,7 +1466,8 @@
       "EV-HOU-660",
       "EV-HOU-661",
       "EV-HOU-230",
-      "EV-HOU-676"
+      "EV-HOU-676",
+      "EV-HOU-753"
     ],
     "sources": [],
     "cost_source": "Section 6, 2.9: $38B BA, about $37B of outlays FY2030-39 (25-54), time-limited; tail about $1.2B in FY2040",
