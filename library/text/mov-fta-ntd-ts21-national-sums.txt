@@ -1,0 +1,41 @@
+Source: https://data.transportation.gov/resource/npsm-38gk.csv?$select=report_year,field,sum(value)%20as%20national_total&$where=field%20in%20(%27Fares%27,%27Operating%20Expenses%27,%27Unlinked%20Passenger%20Trips%27)&$group=report_year,field&$order=field,report_year
+Publisher: Federal Transit Administration
+Retrieved: 2026-11-10
+Original SHA-256: 3353701222ffaefedd0820fe0842f9f3bd491ebfcd8c9ca9402f5a359e346849
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+"report_year","field","national_total"
+"2015","Fares","15651757427"
+"2016","Fares","15790096376"
+"2017","Fares","15839096429"
+"2018","Fares","15890638761"
+"2019","Fares","16069887831"
+"2020","Fares","9028822646"
+"2021","Fares","6306363866"
+"2022","Fares","8937825088"
+"2023","Fares","10456994891"
+"2024","Fares","11327987081"
+"2025","Fares","12014009930"
+"2015","Operating Expenses","44409270072"
+"2016","Operating Expenses","46428872191"
+"2017","Operating Expenses","46527339182"
+"2018","Operating Expenses","48431217690"
+"2019","Operating Expenses","50733632762"
+"2020","Operating Expenses","49660152320"
+"2021","Operating Expenses","49706061866"
+"2022","Operating Expenses","53696418450"
+"2023","Operating Expenses","60516773643"
+"2024","Operating Expenses","65627595304"
+"2025","Operating Expenses","70119170791"
+"2015","Unlinked Passenger Trips","10495872929"
+"2016","Unlinked Passenger Trips","10368949785"
+"2017","Unlinked Passenger Trips","10063268326"
+"2018","Unlinked Passenger Trips","9863114001"
+"2019","Unlinked Passenger Trips","9879910957"
+"2020","Unlinked Passenger Trips","5937829015"
+"2021","Unlinked Passenger Trips","4469241092"
+"2022","Unlinked Passenger Trips","5959028710"
+"2023","Unlinked Passenger Trips","6988415933"
+"2024","Unlinked Passenger Trips","7669135219"
+"2025","Unlinked Passenger Trips","8050799881"

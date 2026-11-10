@@ -1,0 +1,7759 @@
+Source: https://www.epa.gov/system/files/documents/2024-04/us-ghg-inventory-2024-chapter-2-trends.pdf
+Publisher: U.S. Environmental Protection Agency
+Retrieved: 2026-11-10
+Original SHA-256: 8448baee869cd910398f7cf61a7a126dc8abbd2ae73c9e05cb48833546e1373b
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+2. Trends in Greenhouse Gas Emissions
+and Removals
+2.1 Overview of U.S. Greenhouse Gas
+Emissions and Sinks Trends
+In 2022, total gross U.S. greenhouse gas emissions were 6,343.2 million metric tons of carbon dioxide equivalent
+(MMT CO2 Eq.). 1 Total gross U.S. emissions decreased by 3.0 percent from 1990 to 2022, down from a high of 15.2
+percent above 1990 levels in 2007. Gross emissions increased from 2021 to 2022 by 0.2 percent (14.4 MMT CO2
+Eq.). Net emissions (i.e., including sinks) were 5,489.0 MMT CO2 Eq. in 2022. Overall, net emissions increased by
+1.3 percent from 2021 to 2022 and decreased by 16.7 percent from 2005 levels, as shown in Table 2-1. Between
+2021 and 2022, the increase in total greenhouse gas emissions was driven largely by an increase in CO2 emissions
+from fossil fuel combustion across most end-use sectors due in part to increased energy use from the continued
+rebound of economic activity after the height of the COVID-19 pandemic. The CO2 emissions from fossil fuel
+combustion increased by 1.0 percent from 2021 to 2022, including a 5.0 percent increase in residential sector
+emissions, 8.9 percent increase in commercial sector emissions, 0.1 percent decrease in transportation sector
+emissions, 2.6 percent increase in industrial emissions, and 0.6 percent decrease in electric power sector
+emissions. Carbon sequestration in the Land Use, Land-Use Change, and Forestry (LULUCF) sector offset 14.5
+percent of total emissions in 2022.
+69F
+
+Figure 2-1 and Figure 2-2 illustrate the overall trend in total U.S. emissions and sinks since 1990, by gas and by
+annual percentage changes relative to the previous year.
+
+1 The gross emissions total presented in this report for the United States excludes emissions and sinks from removals from
+
+LULUCF. The net emissions total presented in this report for the United States includes emissions and sinks from removals from
+LULUCF.
+
+Trends
+
+2-1
+
+Figure 2-1: U.S. Greenhouse Gas Emissions and Sinks by Gas
+
+a The term “flux” is used to describe the exchange of CO
+
+2 to and from the atmosphere, with net flux being either positive or
+negative depending on the overall balance. Removal and long-term storage of CO2 from the atmosphere is also referred to as
+“carbon sequestration.”
+
+Figure 2-2: Annual Percentage Change in Gross U.S. Greenhouse Gas Emissions Relative to
+the Previous Year
+
+2-2 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Emissions and Sinks by Gas
+Figure 2-3 illustrates the relative contribution of each gas to total gross U.S. greenhouse gas emissions in 2022, in
+CO2 equivalents (i.e., weighted by global warming potential). The primary greenhouse gas emitted by human
+activities in the United States is CO2, representing 79.7 percent of total greenhouse gas emissions. The largest
+source of CO2—and of overall greenhouse gas emissions—is fossil fuel combustion, primarily from transportation
+and power generation. Methane (CH4) emissions account for 11.1 percent of emissions. The major sources of
+methane include enteric fermentation associated with domestic livestock, natural gas systems, and decomposition
+of waste in landfills. Agricultural soil management, wastewater treatment, stationary sources of fuel combustion,
+and manure management are the major sources of N 2O emissions. Ozone depleting substance (ODS) substitute
+emissions were the primary contributor to aggregate hydrofluorocarbon (HFC) emissions. Perfluorocarbon (PFC)
+emissions were attributable primarily to fluorochemical production and electronics manufacturing. Electrical
+equipment accounted for most sulfur hexafluoride (SF6) emissions. Nitrogen trifluoride (NF3) emissions were
+approximately evenly split between electronics manufacturing and fluorochemical production.
+
+Figure 2-3: 2022 Gross Total U.S. Greenhouse Gas Emissions by Gas (Percentages based on
+MMT CO2 Eq.)
+
+Note: Emissions and removals from LULUCF are excluded from the figure above.
+
+From 1990 to 2022, total emissions of CO2 decreased by 1.5 percent (78.6 MMT CO2 Eq.), total emissions of
+methane (CH4) decreased by 19.4 percent (169.3 MMT CO2 Eq.), and total emissions of nitrous oxide (N2O)
+decreased by 4.5 percent (18.4 MMT CO2 Eq.). During the same period, emissions of fluorinated gases including
+HFCs, PFCs, SF6, and NF3 rose by 57.9 percent (72.7 MMT CO2 Eq.). Rapidly growing emissions of HFCs drove this
+trend, overwhelming decreases in emissions of PFCs and SF6. Despite being emitted in smaller quantities relative to
+the other principal greenhouse gases, emissions of HFCs, PFCs, SF6, and NF3 are significant because many of them
+have extremely high global warming potentials (GWPs), and, in the cases of PFCs, SF 6, and NF3, very long
+atmospheric lifetimes. U.S. greenhouse gas emissions were partly offset by carbon sequestration in managed
+forests, trees in urban areas, agricultural soils, landfilled yard trimmings, and coastal wetlands. These were
+estimated to offset 14.5 percent (921.8 MMT CO2 Eq.) of total gross emissions in 2022.
+Table 2-1 provides information on trends in emissions and sinks from all U.S. anthropogenic sources and sinks in
+weighted units of MMT CO2 Eq., while unweighted gas emissions and sinks in kilotons (kt) are provided in Table
+2-2.
+
+Trends
+
+2-3
+
+Table 2-1: Recent Trends in U.S. Greenhouse Gas Emissions and Sinks by Gas (MMT CO2 Eq.)
+Gas/Source
+CO2
+Fossil Fuel Combustion
+Transportation
+Electric Power Sector
+Industrial
+Residential
+Commercial
+U.S. Territories
+Non-Energy Use of Fuels
+Cement Production
+Iron and Steel Production &
+Metallurgical Coke Production
+Natural Gas Systems
+Petrochemical Production
+Petroleum Systems
+Ammonia Production
+Incineration of Waste
+Lime Production
+Other Process Uses of Carbonates
+Urea Consumption for Non-Agricultural
+Purposes
+Urea Fertilization
+Carbon Dioxide Consumption
+Liming
+Coal Mining
+Glass Production
+Soda Ash Production
+Titanium Dioxide Production
+Aluminum Production
+Ferroalloy Production
+Zinc Production
+Phosphoric Acid Production
+Lead Production
+Carbide Production and Consumption
+Abandoned Oil and Gas Wells
+Substitution of Ozone Depleting
+Substances
+Magnesium Production and Processing
+Biomass and Biodiesel Consumptiona
+International Bunker Fuelsb
+CH₄c
+Enteric Fermentation
+Natural Gas Systems
+Landfills
+Manure Management
+Coal Mining
+Petroleum Systems
+Wastewater Treatment
+Rice Cultivation
+Stationary Combustion
+Abandoned Oil and Gas Wells
+Abandoned Underground Coal Mines
+Mobile Combustion
+Composting
+Field Burning of Agricultural Residues
+Anaerobic Digestion at Biogas Facilities
+
+1990
+5,131.6
+4,752.2
+1,468.9
+1,820.0
+876.5
+338.6
+228.3
+20.0
+99.1
+33.5
+
+2005
+6,126.9
+5,744.1
+1,858.6
+2,400.1
+847.6
+358.9
+227.1
+51.9
+125.0
+46.2
+
+2018
+5,362.2
+4,988.2
+1,813.1
+1,753.4
+810.5
+338.9
+246.3
+25.9
+118.4
+39.0
+
+2019
+5,234.5
+4,852.6
+1,816.6
+1,606.7
+809.8
+342.9
+251.7
+24.8
+106.5
+40.9
+
+2020
+4,689.0
+4,341.7
+1,572.8
+1,439.6
+762.0
+314.8
+229.3
+23.3
+97.8
+40.7
+
+2021
+5,017.2
+4,654.3
+1,753.5
+1,540.9
+780.5
+318.0
+237.5
+23.8
+111.6
+41.3
+
+2022
+5,053.0
+4,699.4
+1,751.3
+1,531.7
+801.1
+334.1
+258.7
+22.6
+102.8
+41.9
+
+104.7
+32.4
+20.1
+9.6
+14.4
+12.9
+11.7
+7.1
+
+70.1
+26.3
+26.9
+10.2
+10.2
+13.3
+14.6
+8.5
+
+42.9
+32.8
+27.2
+34.8
+12.7
+13.3
+13.1
+7.9
+
+43.1
+38.5
+28.5
+45.5
+12.4
+12.9
+12.1
+9.0
+
+37.7
+36.7
+27.9
+28.9
+13.0
+12.9
+11.3
+9.0
+
+41.9
+35.8
+30.7
+24.1
+12.2
+12.5
+11.9
+8.6
+
+40.7
+36.5
+28.8
+22.0
+12.6
+12.4
+12.2
+10.4
+
+3.8
+2.4
+1.5
+4.7
+4.6
+2.3
+1.4
+1.2
+6.8
+2.2
+0.6
+1.5
+0.5
+0.2
++
+
+3.7
+3.5
+1.4
+4.4
+4.2
+2.4
+1.7
+1.8
+4.1
+1.4
+1.0
+1.3
+0.6
+0.2
++
+
+6.1
+4.9
+4.1
+2.2
+3.1
+2.0
+1.7
+1.5
+1.5
+2.1
+1.0
+0.9
+0.5
+0.2
++
+
+6.2
+5.0
+4.9
+2.2
+3.0
+1.9
+1.8
+1.3
+1.9
+1.6
+1.0
+0.9
+0.5
+0.2
++
+
+5.8
+5.1
+5.0
+2.9
+2.2
+1.9
+1.5
+1.3
+1.7
+1.4
+1.0
+0.9
+0.5
+0.2
++
+
+6.6
+5.2
+5.0
+2.4
+2.5
+2.0
+1.7
+1.5
+1.5
+1.6
+1.0
+0.9
+0.4
+0.2
++
+
+7.1
+5.3
+5.0
+3.3
+2.5
+2.0
+1.7
+1.5
+1.4
+1.3
+0.9
+0.8
+0.4
+0.2
++
+
++
+0.1
+237.9
+103.6
+871.7
+183.1
+218.8
+197.8
+39.1
+108.1
+49.4
+22.7
+18.9
+9.7
+7.8
+8.1
+7.2
+0.4
+0.5
++
+
++
++
+245.4
+113.3
+795.4
+188.2
+210.1
+147.7
+55.0
+71.5
+48.2
+22.7
+20.6
+8.8
+8.2
+7.4
+4.3
+2.1
+0.6
++
+
++
++
+336.0
+124.3
+771.5
+196.8
+190.3
+126.3
+67.7
+59.1
+59.0
+21.4
+19.9
+9.6
+8.4
+6.9
+2.8
+2.5
+0.6
++
+
++
++
+333.1
+113.6
+754.3
+197.3
+188.7
+128.7
+66.7
+53.0
+52.2
+21.1
+15.6
+9.8
+8.5
+6.6
+2.9
+2.5
+0.7
++
+
++
++
+295.7
+69.6
+735.3
+196.3
+180.3
+124.1
+66.9
+46.2
+53.3
+21.0
+18.6
+8.0
+8.5
+6.5
+2.5
+2.6
+0.6
++
+
++
++
+303.0
+80.2
+720.5
+196.5
+174.6
+122.0
+66.4
+44.7
+48.6
+20.7
+18.3
+8.0
+8.6
+6.3
+2.6
+2.6
+0.6
++
+
++
++
+305.4
+98.2
+702.4
+192.6
+173.1
+119.8
+64.7
+43.6
+39.6
+20.8
+18.9
+8.6
+8.5
+6.3
+2.6
+2.6
+0.6
++
+
+2-4 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Carbide Production and Consumption
+Ferroalloy Production
+Iron and Steel Production &
+Metallurgical Coke Production
+Petrochemical Production
+Incineration of Waste
+International Bunker Fuelsb
+N2Oc
+Agricultural Soil Management
+Stationary Combustion
+Wastewater Treatment
+Manure Management
+Mobile Combustion
+Nitric Acid Production
+N2O from Product Uses
+Adipic Acid Production
+Composting
+Caprolactam, Glyoxal, and Glyoxylic
+Acid Production
+Incineration of Waste
+Electronics Industry
+Field Burning of Agricultural Residues
+Natural Gas Systems
+Petroleum Systems
+International Bunker Fuelsb
+HFCs
+Substitution of Ozone Depleting
+Substances
+Fluorochemical Production
+Electronics Industry
+Magnesium Production and Processing
+PFCs
+Fluorochemical Production
+Electronics Industry
+Aluminum Production
+SF6 and PFCs from Other Product Use
+Substitution of Ozone Depleting
+Substances
+Electrical Equipment
+SF₆
+Electrical Equipment
+Magnesium Production and Processing
+Electronics Industry
+SF6 and PFCs from Other Product Use
+Fluorochemical Production
+NF₃
+Electronics Industry
+Fluorochemical Production
+Total Gross Emissions (Sources)
+LULUCF Emissionsc
+CH4
+N2O
+LULUCF Carbon Stock Changee
+LULUCF Sector Net Totalf
+Net Emissions (Sources and Sinks)
++ Does not exceed 0.05 MMT CO2 Eq.
+NO (Not Occurring)
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
++
+0.2
+408.2
+288.8
+22.3
+14.8
+13.4
+38.4
+10.8
+3.8
+13.5
+0.3
+
++
++
++
+0.1
+419.2
+294.1
+30.5
+18.1
+15.2
+37.0
+10.1
+3.8
+6.3
+1.5
+
++
++
++
+0.1
+439.5
+333.4
+25.1
+21.2
+16.6
+17.7
+8.5
+3.8
+9.3
+1.8
+
++
++
++
+0.1
+416.4
+315.6
+22.2
+21.6
+16.8
+19.1
+8.9
+3.8
+4.7
+1.8
+
++
++
++
+0.1
+391.2
+292.1
+20.5
+22.3
+16.9
+16.1
+8.3
+3.8
+7.4
+1.8
+
++
++
++
+0.1
+398.2
+298.0
+22.0
+22.1
+17.1
+16.8
+7.9
+3.8
+6.6
+1.8
+
++
++
++
+0.1
+389.7
+290.8
+24.7
+21.9
+17.0
+16.7
+8.6
+3.8
+2.1
+1.8
+
+1.5
+0.4
++
+0.2
++
++
+0.8
+47.7
+
+1.9
+0.3
+0.1
+0.2
++
++
+0.9
+121.7
+
+1.3
+0.4
+0.2
+0.2
++
++
+1.0
+163.9
+
+1.2
+0.4
+0.2
+0.2
++
++
+0.9
+168.2
+
+1.1
+0.3
+0.3
+0.2
++
++
+0.5
+170.3
+
+1.2
+0.4
+0.3
+0.2
++
++
+0.6
+177.0
+
+1.3
+0.3
+0.3
+0.2
+0.2
++
+0.8
+182.8
+
+0.3
+47.3
+0.2
+0.0
+39.5
+17.5
+2.5
+19.3
+0.1
+
+99.5
+22.1
+0.2
+0.0
+10.2
+4.0
+3.0
+3.1
+0.1
+
+157.9
+5.7
+0.3
+0.1
+7.4
+2.9
+2.9
+1.4
+0.2
+
+162.1
+5.7
+0.3
+0.1
+7.3
+3.0
+2.6
+1.4
+0.2
+
+166.2
+3.8
+0.3
+0.1
+6.6
+2.5
+2.5
+1.4
+0.2
+
+172.6
+4.0
+0.4
++
+6.3
+2.6
+2.6
+0.9
+0.1
+
+178.1
+4.3
+0.3
++
+6.7
+3.0
+2.7
+0.8
+0.2
+
+0.0
+0.0
+37.9
+24.7
+5.6
+0.5
+1.3
+5.8
+0.3
++
+0.3
+6,536.9
+58.0
+53.1
+4.8
+(1,034.7)
+(976.7)
+5,560.2
+
++
++
+20.2
+11.8
+3.0
+0.8
+1.3
+3.3
+1.0
+0.4
+0.6
+7,494.6
+68.9
+58.5
+10.3
+(976.6)
+(907.7)
+6,586.9
+
++
+0.0
+7.6
+5.0
+1.1
+0.8
+0.8
++
+0.7
+0.5
+0.1
+6,752.7
+62.8
+55.5
+7.3
+(978.3)
+(915.5)
+5,837.3
+
++
++
+8.4
+6.1
+0.9
+0.8
+0.6
++
+1.1
+0.5
+0.6
+6,590.1
+58.0
+52.5
+5.5
+(921.6)
+(863.6)
+5,726.6
+
++
++
+8.1
+5.9
+0.9
+0.8
+0.5
++
+1.3
+0.6
+0.7
+6,001.8
+68.4
+59.3
+9.1
+(972.8)
+(904.4)
+5,097.4
+
++
++
+8.5
+6.0
+1.2
+0.9
+0.4
++
+1.1
+0.6
+0.5
+6,328.8
+72.9
+62.1
+10.7
+(983.4)
+(910.6)
+5,418.2
+
++
++
+7.6
+5.1
+1.1
+0.8
+0.6
++
+1.1
+0.6
+0.5
+6,343.2
+67.6
+58.4
+9.1
+(921.8)
+(854.2)
+5,489.0
+
+Trends
+
+2-5
+
+a Emissions from biomass and biofuel consumption are not included specifically in Energy sector totals. Net carbon fluxes from
+
+changes in biogenic carbon reservoirs are accounted for in the estimates for LULUCF.
+b Emissions from international bunker fuels are not included in totals.
+c LULUCF emissions of CH
+
+4 and N2O are reported separately from gross emissions totals. LULUCF emissions include the CH 4
+and N2O emissions reported for peatlands remaining peatlands, forest fires, drained organic soils, grassland fires, and coastal
+wetlands remaining coastal wetlands; CH4 emissions from land converted to coastal wetlands, flooded land remaining
+flooded land, and land converted to flooded land; and N2O emissions from forest soils and settlement soils. Refer to Table
+2-8 for a breakout of emissions and removals for LULUCF by gas and source category.
+d Small amounts of PFC emissions from this source are included under HFCs due to confidential business information.
+e LULUCF carbon stock change is the net carbon stock change from the following categories: forest land remaining forest land,
+land converted to forest land, cropland remaining cropland, land converted to cropland, grassland remaining grassland, land
+converted to grassland, wetlands remaining wetlands, land converted to wetlands, settlements remaining settlements, and
+land converted to settlements. Refer to Table 2-8 for a breakout of emissions and removals for LULUCF by gas and source
+category.
+f The LULUCF sector net total is the net sum of all LULUCF CH and N O emissions to the atmosphere plus LULUCF net carbon
+4
+2
+stock changes.
+Notes: Total (gross) emissions are presented without LULUCF. Net emissions are presented with LULUCF. Totals may not sum
+due to independent rounding. Parentheses indicate negative values or sequestration.
+
+Table 2-2: Recent Trends in U.S. Greenhouse Gas Emissions and Sinks by Gas (kt)
+Gas/Source
+CO2
+Fossil Fuel Combustion
+Transportation
+Electric Power Sector
+Industrial
+Residential
+Commercial
+U.S. Territories
+Non-Energy Use of Fuels
+Cement Production
+Iron and Steel Production &
+Metallurgical Coke
+Production
+Natural Gas Systems
+Petrochemical Production
+Petroleum Systems
+Ammonia Production
+Incineration of Waste
+Lime Production
+Other Process Uses of
+Carbonates
+Urea Consumption for NonAgricultural Purposes
+Urea Fertilization
+Carbon Dioxide Consumption
+Liming
+Coal Mining
+Glass Production
+Soda Ash Production
+Titanium Dioxide Production
+Aluminum Production
+Ferroalloy Production
+Zinc Production
+Phosphoric Acid Production
+
+1990
+5,131,650
+4,752,232
+1,468,944
+1,819,951
+876,468
+338,568
+228,293
+20,010
+99,104
+33,484
+
+2005
+6,126,864
+5,744,134
+1,858,552
+2,400,057
+847,640
+358,898
+227,130
+51,857
+124,988
+46,194
+
+2018
+5,362,191
+4,988,198
+1,813,135
+1,753,432
+810,472
+338,940
+246,297
+25,923
+118,382
+38,971
+
+2019
+5,234,488
+4,852,631
+1,816,636
+1,606,721
+809,807
+342,905
+251,749
+24,813
+106,474
+40,896
+
+2020
+4,688,969
+4,341,710
+1,572,820
+1,439,566
+761,986
+314,795
+229,264
+23,279
+97,757
+40,688
+
+2021
+5,017,202
+4,654,265
+1,753,546
+1,540,933
+780,453
+318,034
+237,528
+23,772
+111,624
+41,312
+
+2022
+5,053,019
+4,699,403
+1,751,286
+1,531,680
+801,064
+334,065
+258,733
+22,575
+102,808
+41,884
+
+104,740
+32,427
+20,075
+9,585
+14,404
+12,900
+11,700
+
+70,082
+26,312
+26,882
+10,210
+10,234
+13,254
+14,552
+
+42,863
+32,768
+27,200
+34,777
+12,669
+13,339
+13,106
+
+43,095
+38,525
+28,483
+45,498
+12,401
+12,948
+12,112
+
+37,724
+36,719
+27,926
+28,937
+13,006
+12,921
+11,299
+
+41,873
+35,780
+30,656
+24,140
+12,192
+12,476
+11,870
+
+40,672
+36,470
+28,788
+21,967
+12,610
+12,357
+12,208
+
+7,103
+
+8,472
+
+7,938
+
+8,973
+
+9,012
+
+8,583
+
+10,384
+
+3,784
+2,417
+1,472
+4,690
+4,606
+2,263
+1,431
+1,195
+6,831
+2,152
+632
+1,529
+
+3,653
+3,504
+1,375
+4,351
+4,169
+2,402
+1,655
+1,755
+4,142
+1,392
+1,030
+1,342
+
+6,113
+4,936
+4,130
+2,240
+3,139
+1,989
+1,714
+1,541
+1,455
+2,063
+999
+937
+
+6,150
+5,034
+4,870
+2,203
+2,992
+1,940
+1,792
+1,340
+1,880
+1,598
+1,026
+909
+
+5,805
+5,132
+4,970
+2,887
+2,197
+1,858
+1,461
+1,340
+1,748
+1,377
+977
+901
+
+6,600
+5,229
+4,990
+2,387
+2,455
+1,969
+1,714
+1,474
+1,541
+1,567
+1,007
+874
+
+7,053
+5,327
+5,000
+3,268
+2,474
+1,956
+1,704
+1,474
+1,446
+1,327
+947
+840
+
+2-6 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Gas/Source
+Lead Production
+Carbide Production and
+Consumption
+Abandoned Oil and Gas Wells
+Substitution of Ozone
+Depleting Substances
+Magnesium Production and
+Processing
+Biomass and Biodiesel
+Consumptiona
+International Bunker Fuelsb
+CH₄c
+Enteric Fermentation
+Natural Gas Systems
+Landfills
+Manure Management
+Coal Mining
+Petroleum Systems
+Wastewater Treatment
+Rice Cultivation
+Stationary Combustion
+Abandoned Oil and Gas Wells
+Abandoned Underground Coal
+Mines
+Mobile Combustion
+Composting
+Field Burning of Agricultural
+Residues
+Anaerobic Digestion at Biogas
+Facilities
+Carbide Production and
+Consumption
+Ferroalloy Production
+Iron and Steel Production &
+Metallurgical Coke
+Production
+Petrochemical Production
+Incineration of Waste
+International Bunker Fuelsb
+N2Oc
+Agricultural Soil Management
+Stationary Combustion
+Wastewater Treatment
+Manure Management
+Mobile Combustion
+Nitric Acid Production
+N2O from Product Uses
+Adipic Acid Production
+Composting
+Caprolactam, Glyoxal, and
+Glyoxylic Acid Production
+Incineration of Waste
+Electronics Industry
+
+1990
+516
+
+2005
+553
+
+2018
+527
+
+2019
+531
+
+2020
+450
+
+2021
+439
+
+2022
+428
+
+243
+7
+
+213
+7
+
+184
+8
+
+175
+8
+
+154
+8
+
+172
+8
+
+210
+8
+
++
+
+1
+
+3
+
+3
+
+4
+
+4
+
+4
+
+129
+
+4
+
+2
+
+2
+
+3
+
+3
+
+3
+
+237,946
+103,634
+31,131
+6,539
+7,813
+7,063
+1,398
+3,860
+1,765
+811
+677
+345
+279
+
+245,421
+113,328
+28,408
+6,722
+7,505
+5,275
+1,964
+2,552
+1,723
+809
+735
+313
+294
+
+335,971
+124,279
+27,553
+7,028
+6,795
+4,512
+2,418
+2,110
+2,108
+763
+711
+344
+301
+
+333,057
+113,632
+26,941
+7,045
+6,741
+4,595
+2,382
+1,892
+1,865
+755
+558
+351
+302
+
+295,695
+69,638
+26,262
+7,010
+6,439
+4,431
+2,390
+1,648
+1,904
+748
+664
+285
+303
+
+303,014
+80,180
+25,731
+7,017
+6,235
+4,359
+2,373
+1,595
+1,737
+738
+653
+286
+306
+
+305,417
+98,241
+25,084
+6,878
+6,183
+4,277
+2,312
+1,558
+1,415
+743
+674
+307
+303
+
+288
+258
+15
+
+264
+154
+75
+
+247
+101
+90
+
+237
+102
+91
+
+232
+91
+92
+
+224
+92
+92
+
+225
+93
+92
+
+19
+
+23
+
+22
+
+23
+
+22
+
+22
+
+22
+
++
+
++
+
++
+
+1
+
++
+
++
+
++
+
+1
+1
+
++
++
+
++
+1
+
++
++
+
++
++
+
++
++
+
++
++
+
+1
++
++
+7
+1,540
+1,090
+84
+56
+50
+145
+41
+14
+51
+1
+
+1
++
++
+5
+1,582
+1,110
+115
+68
+57
+140
+38
+14
+24
+6
+
++
++
++
+4
+1,658
+1,258
+95
+80
+63
+67
+32
+14
+35
+7
+
++
++
++
+4
+1,571
+1,191
+84
+81
+63
+72
+34
+14
+18
+7
+
++
++
++
+3
+1,476
+1,102
+78
+84
+64
+61
+31
+14
+28
+7
+
++
++
++
+3
+1,503
+1,124
+83
+83
+65
+63
+30
+14
+25
+7
+
++
++
++
+3
+1,471
+1,097
+93
+83
+64
+63
+33
+14
+8
+7
+
+6
+2
++
+
+7
+1
++
+
+5
+1
+1
+
+5
+1
+1
+
+4
+1
+1
+
+5
+1
+1
+
+5
+1
+1
+
+Trends
+
+2-7
+
+Gas/Source
+1990
+2005
+2018
+2019
+2020
+2021
+2022
+Field Burning of Agricultural
+Residues
+1
+1
+1
+1
+1
+1
+1
+Natural Gas Systems
++
++
++
++
++
++
+1
+Petroleum Systems
++
++
++
++
++
++
++
+International Bunker Fuelsb
+3
+3
+4
+3
+2
+2
+3
+HFCs
+M
+M
+M
+M
+M
+M
+M
+Substitution of Ozone
+Depleting Substances
+M
+M
+M
+M
+M
+M
+M
+Fluorochemical Production
+M
+M
+M
+M
+M
+M
+M
+Electronics Industry
+M
+M
+M
+M
+M
+M
+M
+Magnesium Production and
+Processing
+0
+0
++
++
++
++
++
+PFCs
+M
+M
+M
+M
+M
+M
+M
+Fluorochemical Production
+M
+M
+M
+M
+M
+M
+M
+Electronics Industry
+M
+M
+M
+M
+M
+M
+M
+Aluminum Production
+M
+M
+M
+M
+M
+M
+M
+SF6 and PFCs from Other
+Product Use
+101
+83
+178
+173
+167
+138
+172
+Substitution of Ozone
+Depleting Substances
++
++
++
++
++
++
++
+Electrical Equipment
++
++
+0
++
++
++
++
+SF₆
+2
+1
++
++
++
++
++
+Electrical Equipment
+1
+1
++
++
++
++
++
+Magnesium Production and
+Processing
++
++
++
++
++
++
++
+Electronics Industry
++
++
++
++
++
++
++
+SF6 and PFCs from Other
+Product Use
++
++
++
++
++
++
++
+Fluorochemical Production
++
++
++
++
++
++
++
+NF₃
++
++
++
++
++
++
++
+Electronics Industry
++
++
++
++
++
++
++
+Fluorochemical Production
++
++
++
++
++
++
++
++ Does not exceed 0.5 kt.
+M (Mixture of multiple gases)
+NO (Not Occurring)
+a Emissions from biomass and biofuel consumption are not included specifically in Energy sector totals. Net carbon fluxes
+from changes in biogenic carbon reservoirs are accounted for in the estimates for LULUCF.
+b Emissions from international bunker fuels are not included in totals.
+c LULUCF emissions of LULUCF CH and N O are reported separately from gross emissions totals. Refer to Table 2-8 for a
+4
+2
+breakout of emissions and removals for LULUCF by gas and source category.
+d Small amounts of PFC emissions from this source are included under HFCs due to confidential business information.
+Notes: Totals by gas may not sum due to independent rounding. Parentheses indicate negative values or sequestration.
+
+Emissions and Sinks by UNFCCC/IPCC Sector
+Emissions and removals of all gases can be summed from each source and sink category into a set of five sectors
+defined by the Paris Agreement and UNFCCC reporting guidelines and methodological framework provided by the
+Intergovernmental Panel on Climate Change (IPCC). Figure 2-4 and Table 2-3 illustrate that over the 33-year period
+of 1990 to 2022, total emissions from the Energy and Waste sectors decreased by 3.4 percent (181.2 MMT CO2 Eq.)
+and 29.3 percent (69.1 MMT CO2 Eq.), respectively. Emissions from Industrial Processes and Product Use and
+Agriculture grew by 3.9 percent (14.4 MMT CO2 Eq.) and 7.7 percent (42.2 MMT CO2 Eq.), respectively. Over the
+same period, total carbon sequestration in the LULUCF sector decreased by 12.5 percent (122.5 MMT CO2), and
+emissions from the LULUCF sector increased by 16.5 percent (9.6 MMT CO2 Eq.).
+
+2-8 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Figure 2-4: U.S. Greenhouse Gas Emissions and Sinks by IPCC Sector
+
+Table 2-3: Recent Trends in U.S. Greenhouse Gas Emissions and Sinks by UNFCCC/IPCC
+Sector/Category (MMT CO2 Eq.)
+UNFCCC/IPCC Sector/Category
+Energy
+Fossil Fuel Combustion
+Natural Gas Systems
+Non-Energy Use of Fuels
+Petroleum Systems
+Coal Mining
+Stationary Combustiona
+Mobile Combustion
+Incineration of Waste
+Abandoned Oil and Gas Wells
+Abandoned Underground Coal Mines
+Biomass and Biodiesel Consumptionb
+International Bunker Fuelsc
+Industrial Processes and Product Use
+Substitution of Ozone Depleting
+Substances
+Cement Production
+Iron and Steel Production &
+Metallurgical Coke Production
+Petrochemical Production
+Ammonia Production
+Lime Production
+Other Process Uses of Carbonates
+Nitric Acid Production
+Fluorochemical Production
+
+1990
+5,381.0
+4,752.2
+251.2
+99.1
+59.0
+112.7
+32.0
+45.6
+13.3
+7.8
+8.1
+237.9
+104.6
+368.8
+
+2005
+6,349.5
+5,744.1
+236.5
+125.0
+58.5
+75.6
+39.3
+41.3
+13.6
+8.2
+7.4
+245.4
+114.3
+371.3
+
+2018
+5,570.0
+4,988.2
+223.0
+118.4
+93.8
+62.2
+34.7
+20.5
+13.7
+8.4
+6.9
+336.0
+125.3
+367.2
+
+2019
+5,422.4
+4,852.6
+227.3
+106.5
+97.8
+56.0
+32.0
+21.9
+13.3
+8.5
+6.6
+333.1
+114.6
+371.9
+
+2020
+4,862.6
+4,341.7
+217.0
+97.8
+82.3
+48.3
+28.5
+18.7
+13.3
+8.5
+6.5
+295.7
+70.3
+367.9
+
+2021
+5,173.3
+4,654.3
+210.4
+111.6
+72.8
+47.1
+30.1
+19.4
+12.8
+8.6
+6.3
+303.0
+80.9
+381.6
+
+2022
+5,199.8
+4,699.4
+209.7
+102.8
+61.6
+46.1
+33.3
+19.3
+12.7
+8.5
+6.3
+305.4
+99.1
+383.2
+
+0.3
+33.5
+
+99.5
+46.2
+
+157.9
+39.0
+
+162.1
+40.9
+
+166.2
+40.7
+
+172.7
+41.3
+
+178.1
+41.9
+
+104.8
+20.1
+14.4
+11.7
+7.1
+10.8
+70.9
+
+70.1
+26.9
+10.2
+14.6
+8.5
+10.1
+30.0
+
+42.9
+27.2
+12.7
+13.1
+7.9
+8.5
+8.7
+
+43.1
+28.5
+12.4
+12.1
+9.0
+8.9
+9.3
+
+37.7
+27.9
+13.0
+11.3
+9.0
+8.3
+6.9
+
+41.9
+30.7
+12.2
+11.9
+8.6
+7.9
+7.1
+
+40.7
+28.8
+12.6
+12.2
+10.4
+8.6
+7.8
+
+Trends
+
+2-9
+
+Urea Consumption for Non-Agricultural
+Purposes
+3.8
+3.7
+6.1
+6.2
+5.8
+6.6
+7.1
+Electrical Equipment
+24.7
+11.9
+5.0
+6.1
+5.9
+6.0
+5.1
+Carbon Dioxide Consumption
+1.5
+1.4
+4.1
+4.9
+5.0
+5.0
+5.0
+Electronics Industry
+3.3
+4.5
+4.8
+4.5
+4.5
+4.8
+4.7
+3.8
+3.8
+3.8
+3.8
+3.8
+3.8
+3.8
+N2O from Product Uses
+Aluminum Production
+26.1
+7.2
+2.9
+3.3
+3.2
+2.5
+2.2
+Adipic Acid Production
+13.5
+6.3
+9.3
+4.7
+7.4
+6.6
+2.1
+Glass Production
+2.3
+2.4
+2.0
+1.9
+1.9
+2.0
+2.0
+Soda Ash Production
+1.4
+1.7
+1.7
+1.8
+1.5
+1.7
+1.7
+Titanium Dioxide Production
+1.2
+1.8
+1.5
+1.3
+1.3
+1.5
+1.5
+Ferroalloy Production
+2.2
+1.4
+2.1
+1.6
+1.4
+1.6
+1.3
+Caprolactam, Glyoxal, and Glyoxylic
+Acid Production
+1.5
+1.9
+1.3
+1.2
+1.1
+1.2
+1.3
+Magnesium Production and Processing
+5.7
+3.0
+1.1
+1.0
+0.9
+1.2
+1.2
+Zinc Production
+0.6
+1.0
+1.0
+1.0
+1.0
+1.0
+0.9
+Phosphoric Acid Production
+1.5
+1.3
+0.9
+0.9
+0.9
+0.9
+0.8
+1.4
+1.5
+0.9
+0.8
+0.7
+0.5
+0.8
+SF6 and PFCs from Other Product Use
+Lead Production
+0.5
+0.6
+0.5
+0.5
+0.5
+0.4
+0.4
+Carbide Production and Consumption
+0.3
+0.2
+0.2
+0.2
+0.2
+0.2
+0.2
+Agriculture
+551.1
+581.8
+642.4
+620.1
+599.7
+604.8
+593.4
+Agricultural Soil Management
+288.8
+294.1
+333.4
+315.6
+292.1
+298.0
+290.8
+Enteric Fermentation
+183.1
+188.2
+196.8
+197.3
+196.3
+196.5
+192.6
+Manure Management
+52.5
+70.2
+84.3
+83.5
+83.8
+83.6
+81.7
+Rice Cultivation
+18.9
+20.6
+19.9
+15.6
+18.6
+18.3
+18.9
+Urea Fertilization
+2.4
+3.5
+4.9
+5.0
+5.1
+5.2
+5.3
+Liming
+4.7
+4.4
+2.2
+2.2
+2.9
+2.4
+3.3
+Field Burning of Agricultural Residues
+0.7
+0.8
+0.8
+0.9
+0.8
+0.8
+0.8
+Waste
+235.9
+192.0
+173.2
+175.8
+171.7
+169.2
+166.9
+Landfills
+197.8
+147.7
+126.3
+128.7
+124.1
+122.0
+119.8
+Wastewater Treatment
+37.5
+40.7
+42.5
+42.7
+43.2
+42.7
+42.7
+Composting
+0.7
+3.6
+4.3
+4.3
+4.4
+4.4
+4.4
+Anaerobic Digestion at Biogas Facilities
++
++
++
++
++
++
++
+Total Gross Emissionsd (Sources)
+7,494.6
+6,752.7
+6,590.1
+6,001.8
+6,328.8
+6,343.2
+6,536.9
+(976.7)
+(907.7)
+LULUCF Sector Net Totale
+(915.5)
+(863.6)
+(904.4)
+(910.6)
+(854.2)
+Forest Land
+(1,069.0)
+(960.2)
+(963.8)
+(907.3)
+(946.6)
+(924.2)
+(872.0)
+Cropland
+40.4
+2.9
+14.2
+12.0
+20.5
+2.9
+3.4
+59.8
+46.7
+Grassland
+54.9
+54.3
+45.8
+36.0
+39.6
+Wetlands
+44.0
+41.2
+38.9
+38.9
+38.8
+38.8
+38.8
+(51.9)
+(38.1)
+Settlements
+(59.7)
+(61.4)
+(63.0)
+(64.1)
+(64.1)
+5,560.2
+6,586.9
+5,097.4
+5,418.2
+5,489.0
+Net Emission (Sources and Sinks)f
+5,837.3
+5,726.6
++ Does not exceed 0.05 MMT CO2 Eq.
+a Includes CH and N O emissions from fuel combustion.
+4
+2
+b Emissions from biomass and biofuel consumption are not included specifically in summing Energy sector totals. Net carbon
+fluxes from changes in biogenic carbon reservoirs are accounted for in the estimates for LULUCF.
+c Emissions from international bunker fuels are not included in totals.
+d Total emissions without LULUCF.
+e
+LULUCF emissions of CH4 and N2O are reported separately from gross emissions totals. LULUCF emissions include the CH4
+and N2O emissions reported for peatlands remaining peatlands, forest fires, drained organic soils, grassland fires, and
+coastal wetlands remaining coastal wetlands; CH4 emissions from land converted to coastal wetlands, flooded land
+remaining flooded land, and land converted to flooded land; and N2O emissions from forest soils and settlement soils. Refer
+to Table 2-8 for a breakout of emissions and removals for LULUCF by gas and source category.
+f Net emissions with LULUCF.
+Notes: Total (gross) emissions are presented without LULUCF. Net emissions are presented with LULUCF. Totals may not sum
+due to independent rounding. Parentheses indicate negative values or sequestration.
+
+2-10 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Energy
+Emissions from energy-related activities come from two main categories: 1) direct emissions associated with fuel
+use (i.e., fossil fuel combustion, non-energy use of fossil fuels and waste combustion), and 2) fugitive emissions
+mainly from coal, natural gas, and oil production. Energy emissions also include some categories that are not
+added to Energy sector totals but are instead presented as memo items, including international bunker fuels and
+biomass emissions. Energy-related activities, primarily fossil fuel combustion, accounted for the vast majority of
+U.S. CO2 emissions from 1990 through 2022. Fossil fuel combustion is the largest source of energy-related
+emissions, with CO2 being the primary gas emitted (see Figure 2-5). Due to their relative importance, fossil fuel
+combustion-related CO2 emissions are considered in detail in the Energy chapter (see Chapter 3).
+In 2022, 83.0 percent of the energy used in the United States on a Btu basis was produced through the combustion
+of fossil fuels. The remaining 17.0 percent came from other energy sources such as hydropower, biomass, nuclear,
+wind, and solar energy. A discussion of specific trends related to CO 2 and other greenhouse gas emissions from
+energy use is presented here with more detail in the Energy chapter. Energy-related activities are also responsible
+for CH4 and N2O emissions (40.2 percent and 10.8 percent of gross total U.S. emissions of each gas, respectively).2
+Table 2-4 presents greenhouse gas emissions from the Energy chapter by source and gas.
+
+Figure 2-5: Trends in Energy Sector Greenhouse Gas Sources
+
+2 The contribution of energy non-CO2 emissions is based on gross totals so excludes LULUCF methane (CH4) and nitrous oxide
+
+(N2O) emissions. The contribution of energy-related CH4 and N2O including LULUCF non-CO2 emissions, is 37.1 percent and 9.8
+percent, respectively.
+Trends
+
+2-11
+
+Table 2-4: Emissions from Energy by Gas (MMT CO2 Eq.)3
+Percent
+Change
+Since
+1990
+-0.7%
+-1.1%
+19.2%
+-15.8%
+-8.6%
+-1.3%
+13.3%
+12.8%
+3.7%
+12.5%
+129.2%
+-4.2%
+-46.3%
+13.0%
+-9.2%
+-5.2%
+1783.2%
+100.0%
+-19.8%
+-31.0%
+-20.9%
+-59.6%
+-19.8%
+-10.8%
+8.8%
+-21.8%
+
+Gas/Source
+1990
+2005
+2018
+2019
+2020
+2021
+2022
+CO2
+4,910.9
+5,923.1
+5,190.6
+5,059.1
+4,520.2
+4,840.7
+4,875.5
+Fossil Fuel Combustion
+4,752.2
+5,744.1
+4,988.2
+4,852.6
+4,341.7
+4,654.3
+4,699.4
+Transportation
+1,468.9
+1,858.6
+1,813.1
+1,816.6
+1,572.8
+1,753.5
+1,751.3
+Electricity Generation
+1,820.0
+2,400.1
+1,753.4
+1,606.7
+1,439.6
+1,540.9
+1,531.7
+Industrial
+876.5
+847.6
+810.5
+809.8
+762.0
+780.5
+801.1
+Residential
+338.6
+358.9
+338.9
+342.9
+314.8
+318.0
+334.1
+Commercial
+228.3
+227.1
+246.3
+251.7
+229.3
+237.5
+258.7
+U.S. Territories
+20.0
+51.9
+25.9
+24.8
+23.3
+23.8
+22.6
+Non-Energy Use of Fuels
+99.1
+125.0
+118.4
+106.5
+97.8
+111.6
+102.8
+Natural Gas Systems
+32.4
+26.3
+32.8
+38.5
+36.7
+35.8
+36.5
+Petroleum Systems
+9.6
+10.2
+34.8
+45.5
+28.9
+24.1
+22.0
+Incineration of Waste
+12.9
+13.3
+13.3
+12.9
+12.9
+12.5
+12.4
+Coal Mining
+4.6
+4.2
+3.1
+3.0
+2.2
+2.5
+2.5
+Abandoned Oil and Gas Wells
++
++
++
++
++
++
++
+Biomass-Wooda
+215.2
+206.9
+220.0
+217.7
+190.6
+192.5
+195.3
+International Bunker Fuelsb
+103.6
+113.3
+124.3
+113.6
+69.6
+80.2
+98.2
+Biofuels-Ethanola
+4.2
+22.9
+81.9
+82.6
+71.8
+79.1
+79.6
+Biofuels-Biodiesela
+0.0
+0.9
+17.9
+17.1
+17.7
+16.1
+15.6
+Biomass-MSWa
+18.5
+14.7
+16.1
+15.7
+15.6
+15.3
+14.9
+CH4
+409.0
+358.5
+336.2
+321.7
+305.3
+293.3
+282.4
+Natural Gas Systems
+218.8
+210.1
+190.3
+188.7
+180.3
+174.6
+173.1
+Coal Mining
+108.1
+71.5
+59.1
+53.0
+46.2
+44.7
+43.6
+Petroleum Systems
+49.4
+48.2
+59.0
+52.2
+53.3
+48.6
+39.6
+Stationary Combustion
+9.7
+8.8
+9.6
+9.8
+8.0
+8.0
+8.6
+Abandoned Oil and Gas Wells
+7.8
+8.2
+8.4
+8.5
+8.5
+8.6
+8.5
+Abandoned Underground
+8.1
+7.4
+6.9
+6.6
+6.5
+6.3
+6.3
+Coal Mines
+Mobile Combustion
+7.2
+4.3
+2.8
+2.9
+2.5
+2.6
+2.6
+-63.8%
+Incineration of Waste
++
++
++
++
++
++
++
+-17.9%
+International Bunker Fuelsb
+0.2
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+-51.8%
+N2O
+61.2
+67.9
+43.2
+41.6
+37.1
+39.2
+41.9
+-31.5%
+Stationary Combustion
+22.3
+30.5
+25.1
+22.2
+20.5
+22.0
+24.7
+10.6%
+Mobile Combustion
+38.4
+37.0
+17.7
+19.1
+16.1
+16.8
+16.7
+-56.5%
+Incineration of Waste
+0.4
+0.3
+0.4
+0.4
+0.3
+0.4
+0.3
+-17.9%
+Natural Gas Systems
++
++
++
++
++
++
+0.2 3,204.7%
+Petroleum Systems
++
++
++
++
++
++
++
+282.0%
+International Bunker Fuelsb
+0.8
+0.9
+1.0
+0.9
+0.5
+0.6
+0.8
+1.4%
+Total
+5,381.0
+6,349.5
+5,570.0
+5,422.4
+4,862.6
+5,173.3
+5,199.8
+-3.4%
++ Does not exceed 0.05 MMT CO2 Eq.
+a Emissions from biomass and biofuel consumption are not included specifically in Energy sector totals. Net carbon fluxes
+from changes in biogenic carbon reservoirs are accounted for in the estimates for LULUCF.
+b Emissions from international bunker fuels are not included in totals. These values are presented for informational purposes
+only, in line with the 2006 IPCC Guidelines, the Paris Agreement and the UNFCCC reporting obligations.
+Note: Totals may not sum due to independent rounding.
+
+3 The full time series data is available in Common Reporting Tables (CRTs) included in the U.S. Paris Agreement and UNFCCC
+
+submission and in CSV format available at https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-andsinks.
+
+2-12 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Fossil Fuel Combustion CO2 Emissions
+As the largest contributor to U.S. greenhouse gas emissions, CO2 from fossil fuel combustion has accounted for
+approximately 74.6 percent of CO2-equivalent total gross emissions on average across the time series. Within the
+United States, fossil fuel combustion accounted for 93.0 percent of CO2 emissions in 2022. Emissions from this
+source category include CO2 associated with the combustion of fossil fuels (coal, natural gas, and petroleum) for
+energy use. Fossil fuel combustion CO2 emissions decreased by 1.1 percent (52.8 MMT CO2 Eq.) from 1990 to 2022
+and were responsible for most of the decrease in national emissions during this period. Similarly, CO 2 emissions
+from fossil fuel combustion have decreased by 18.2 percent (1,044.7 MMT CO2 Eq.) since 2005. From 2021 to
+2022, these emissions increased by 1.0 percent (45.1 MMT CO2 Eq.).
+Historically, changes in emissions from fossil fuel combustion have been the main factor influencing U.S. emission
+trends. Changes in CO2 emissions from fossil fuel combustion since 1990 are affected by many long-term and
+short-term factors, including population and economic growth, energy price fluctuations and market trends,
+technological changes, carbon intensity of energy fuel choices, and seasonal temperatures. On an annual basis, the
+overall consumption and mix of fossil fuels in the United States fluctuates in response to changes in general
+economic conditions, overall energy prices, the relative price of different fuels, weather, and the availability of
+non-fossil alternatives. For example, coal consumption for electric power is influenced by factors such as the
+relative price of coal and alternative sources, the ability to switch fuels, and longer-term trends in coal markets.
+Fossil fuel combustion CO2 emissions also depend on the type of fuel consumed or energy used and its carbon
+intensity. Producing a unit of heat or electricity using natural gas instead of coal, for example, reduces CO 2
+emissions because of the lower carbon content of natural gas (see Table 3-12 in Chapter 3 for more detail on
+electricity generation by source and see Table A-19 in Annex 2.1 for more detail on the carbon content coefficient
+of different fossil fuels).
+Overall CO2 emissions from electric power generation decreased by 36.2 percent from 2005 to 2022 (see Figure
+2-7), reflecting the continued shift in the share of electric power generation from coal to natural gas and
+renewables since 2005. Carbon dioxide emissions from coal combustion for electric power generation gradually
+increased between 1990 and 2007, then began to decrease at a faster rate from 2008 to 2022. Carbon dioxide
+emissions from natural gas combustion for electric power generation remained relatively constant, with a slight
+increase between 1990 and 2009, then began to consistently increase between 2010 and 2022.
+Petroleum use is another major driver of CO2 emissions from fossil fuel combustion, particularly in the
+transportation sector, which has represented the largest source of CO 2 emissions from fossil fuel combustion since
+2017. Emissions from petroleum consumption for transportation (including bunker fuels) decreased by 0.1 percent
+from 2021 to 2022. Fuel economy of light-duty vehicles is an important factor in transportation sector CO2
+emissions trends. The decline in new light-duty vehicle fuel economy between 1990 and 2004 reflected the
+increasing market share of light-duty trucks, which grew from about 29.6 percent of new vehicle sales in 1990 to
+48.0 percent in 2004. Starting in 2005, average new vehicle fuel economy began to increase while light-duty VMT
+grew only modestly for much of the period and has slowed the rate of increase of CO 2 emissions.
+Trends in CO2 emissions from fossil fuel combustion by end-use sector are presented in Table 2-5 and Figure 2-6
+based on the underlying U.S. energy consumer data collected by the U.S. Energy Information Administration (EIA).
+Figure 2-7 further describes trends in direct and indirect CO2 emissions from fossil fuel combustion by end-use
+sector. Estimates of CO2 emissions from fossil fuel combustion are calculated from these EIA “end-use sectors”
+based on total fuel consumption and appropriate fuel properties described below. 4
+•
+
+Transportation. EIA’s fuel consumption data for the transportation sector consists of all vehicles whose
+primary purpose is transporting people and/or goods from one physical location to another.
+
+•
+
+Electric Power. EIA’s fuel consumption data for the electric power sector are composed of electricity-only
+and combined-heat-and-power (CHP) plants within the North American Industry Classification System
+(NAICS) 22 category whose primary business is to sell electricity, or electricity and heat, to the public.
+
+4 Additional analysis and refinement of the EIA data is further explained in the Energy chapter of this report.
+
+Trends
+
+2-13
+
+(Non-utility power producers are included in this sector as long as they meet the electric power sector
+definition.)
+•
+
+Industry. EIA statistics for the industrial sector include fossil fuel consumption that occurs in the fields of
+manufacturing, agriculture, mining, and construction. EIA’s fuel consumption data for the industrial sector
+consist of all facilities and equipment used for producing, processing, or assembling goods. (EIA includes
+generators that produce electricity and/or useful thermal output primarily to support on-site industrial
+activities in this sector.)
+
+•
+
+Residential. EIA’s fuel consumption data for the residential sector consist of living quarters for private
+households.
+
+•
+
+Commercial. EIA’s fuel consumption data for the commercial sector consist of service-providing facilities
+and equipment from private and public organizations and businesses. (EIA includes generators that
+produce electricity and/or useful thermal output primarily to support the activities at commercial
+establishments in this sector.)
+
+Table 2-5: CO2 Emissions from Fossil Fuel Combustion by End-Use Sector (MMT CO2 Eq.)
+End-Use Sector
+1990
+2005
+2018
+2019
+2020
+2021
+2022
+Transportation
+1,472.0
+1,863.3
+1,817.9
+1,821.4
+1,576.9
+1,758.6
+1,757.4
+Combustion
+1,468.9
+1,858.6
+1,813.1
+1,816.6
+1,572.8
+1,753.5
+1,751.3
+Electricity
+3.0
+4.7
+4.8
+4.8
+4.1
+5.0
+6.1
+Industrial
+1,562.9
+1,584.0
+1,311.8
+1,275.3
+1,171.8
+1,225.6
+1,238.0
+Combustion
+876.5
+847.6
+810.5
+809.8
+762.0
+780.5
+801.1
+Electricity
+686.4
+736.3
+501.3
+465.5
+409.8
+445.1
+437.0
+Residential
+931.3
+1,214.9
+981.2
+926.7
+860.1
+890.3
+899.4
+Combustion
+338.6
+358.9
+338.9
+342.9
+314.8
+318.0
+334.1
+Electricity
+592.7
+856.0
+642.3
+583.7
+545.3
+572.2
+565.3
+Commercial
+766.0
+1,030.1
+851.3
+804.4
+709.6
+756.1
+782.0
+Combustion
+228.3
+227.1
+246.3
+251.7
+229.3
+237.5
+258.7
+Electricity
+537.7
+803.0
+605.0
+552.7
+480.3
+518.5
+523.3
+U.S. Territoriesa
+20.0
+51.9
+25.9
+24.8
+23.3
+23.8
+22.6
+Total
+4,752.2
+5,744.1
+4,988.2
+4,852.6
+4,341.7
+4,654.3
+4,699.4
+Electric Power
+1,820.0
+2,400.1
+1,753.4
+1,606.7
+1,439.6
+1,540.9
+1,531.7
+a Fuel consumption by U.S. Territories (i.e., American Samoa, Guam, Puerto Rico, U.S. Virgin Islands, Wake Island, and other
+outlying U.S. Pacific Islands) is included in this report.
+Notes: Combustion-related emissions from electric power are allocated based on aggregate national electricity use by each
+end-use sector. Totals may not sum due to independent rounding.
+
+2-14 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Figure 2-6: Trends in CO2 Emissions from Fossil Fuel Combustion by End-Use Sector and Fuel
+Type
+
+Note: Fossil fuel combustion for electric power also includes emissions of less than 0.5 MMT CO2 Eq. from geothermal-based
+generation. Although not technically a fossil fuel, geothermal energy-related CO2 emissions are included for reporting
+purposes. The source of CO2 is non-condensable gases in subterranean heated water.
+
+Trends
+
+2-15
+
+Figure 2-7: Trends in End-Use Sector Emissions of CO2 from Fossil Fuel Combustion
+
+Electric power was the second largest end-use emitter of CO2 in 2022 (surpassed by transportation in 2017);
+electric power generators used 30.5 percent of U.S. energy from fossil fuels and emitted 32.6 percent of the CO2
+from fossil fuel combustion in 2022. CO2 emissions from the fossil fuel combustion in the electric power sector
+decreased by 0.6 percent between 2021 and 2022 due to changes in the mix of electric generation resources.
+Between 2021 and 2022 overall electricity generation increased by 3 percent, coal electricity generation decreased
+by 10.2 percent, natural gas generation increased by 4.0 percent, and renewable energy generation increased by
+7.6 percent. Changes in electricity demand and the carbon intensity of fuels used for electric power generation
+have a significant impact on CO2 emissions. Carbon dioxide emissions from fossil fuel combustion from the electric
+power sector have decreased by 15.8 percent since 1990, and the carbon intensity of the electric power sector, in
+terms of CO2 Eq. per QBtu input, has decreased by 27.6 percent during that same timeframe. This decoupling of
+electric power generation and the resulting CO2 emissions is shown below in Figure 2-8.
+
+2-16 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Figure 2-8: Electric Power Generation (Billion kWh) and Emissions (MMT CO2 Eq.)
+
+Electric power CO2 emissions can also be allocated to the end-use sectors that use electricity, as presented in Table
+2-5. With electricity CO2 emissions allocated to end-use sectors, the transportation end-use sector represents the
+largest source of fossil fuel combustion emissions accounting for 1,757.4 MMT CO2 Eq. in 2022 or 37.4 percent of
+total CO2 emissions from fossil fuel combustion, a 0.1 percent decrease since 2021. The industrial end-use sector
+accounted for 26.3 percent of CO2 emissions from fossil fuel combustion when including allocated electricity
+emissions, an increase of 1.0 percent since 2021. From 2021 to 2022, total energy use in the industrial sector
+increased by 1.8 percent due to an increase in total industrial production and manufacturing output. The
+residential and commercial end-use sectors accounted for 19.1 and 16.6 percent, respectively, of CO2 emissions
+from fossil fuel combustion when including allocated electricity emissions. Both of these end-use sectors were
+heavily reliant on electricity for meeting building-related energy needs, with electricity use for lighting, heating, air
+conditioning, and operating appliances contributing 62.9 and 66.9 percent of emissions from the residential and
+commercial end-use sectors, respectively. From 2021 to 2022, an increase in heating degree days (7.9 percent)
+increased energy demand for heating in the residential and commercial sectors; also, a 4.3 percent increase in
+cooling degree days compared to 2021 increased demand for air conditioning in the residential and commercial
+sectors. As a result, CO2 emissions from the residential and commercial end-use sectors when including allocated
+electricity emissions increased by 1.0 and 3.4 percent since 2021, respectively.
+
+Other Energy Sector Trends
+Energy sector emissions increased by 0.5 percent since 2021 and decreased by 3.4 percent since 1990. Other
+notable trends in emissions from energy source categories (Figure 2-6 and Figure 2-7) over the 33-year period from
+1990 through 2022 included the following:
+
+Trends
+
+2-17
+
+•
+
+Emissions (CH4, CO2, and N2O) from oil and gas systems decreased by 13.0 percent (38.8 MMT CO2 Eq.)
+since 1990 and decreased by 4.2 percent (11.8 MMT CO2 Eq.) from 2021 to 2022. Natural gas systems CH4
+emissions have decreased by 20.9 percent (45.7 MMT CO2 Eq.) since 1990, due to a decrease in emissions
+from the distribution, transmission and storage, processing, and exploration segments. The decrease in
+distribution emissions is due mainly to reduced emissions from pipeline and distribution station leaks, and
+the decrease in transmission and storage emissions is due mainly to reduced compressor station
+emissions (including emissions from compressors and leaks). Over the same time period (i.e., since 1990),
+methane emissions from the natural gas production segment increased due to increased gathering and
+boosting emissions. Between 2021 and 2022, methane emissions from natural gas systems decreased 0.8
+percent, due to a decrease in emissions from production segment pneumatic controllers. Petroleum
+systems CH4 emissions decreased by 19.8 percent (9.8 MMT CO2 Eq.) since 1990 and 18.5 percent
+between 2021 and 2022. This decrease is due primarily to decreases in emissions from offshore platforms,
+tanks, and pneumatic controllers. Carbon dioxide emissions from natural gas and petroleum systems
+increased by 39.1 percent (16.4 MMT CO2) from 1990 to 2022 and decreased by 2.5 percent between
+2021 and 2022. This increase since 1990 is due primarily to increases in the production segment, where
+emissions from associated gas flaring, tanks, and miscellaneous production flaring have increased over
+time. The decrease in emissions between 2021 and 2022 and is also due primarily to the production
+segment, where flaring emissions decreased for associated gas and tanks.
+
+•
+
+Methane emissions from coal mining decreased by 59.6 percent (64.4 MMT CO2 Eq.) from 1990 through
+2022 and by 2.3 percent between 2021 and 2022 primarily due to a decrease in the number of active
+mines and annual coal production over the 1990 to 2022 time period. Between 2021 and 2022, the
+number of mines and coal production increased.
+
+•
+
+Nitrous oxide emissions from mobile combustion decreased by 56.5 percent (21.7 MMT CO2 Eq.) from
+1990 through 2022 and by 0.7 percent (0.1 MMT CO2 Eq.) between 2021 and 2022, primarily as a result of
+national vehicle criteria pollutant emissions standards and emission control technologies for on-road
+vehicles.
+
+•
+
+Nitrous oxide emissions from stationary combustion were the third largest source of anthropogenic N2O
+emissions in 2022, accounting for 6.3 percent of N2O emissions and 0.4 percent of total gross U.S.
+greenhouse gas emissions in 2022. Stationary combustion emissions peaked in 2007 and have steadily
+decreased since then.
+
+•
+
+Carbon dioxide emissions from non-energy uses of fossil fuels increased by 3.7 percent (3.7 MMT CO2 Eq.)
+from 1990 through 2022 but decreased by 7.9 percent (8.8 MMT CO2 Eq.) between 2021 and 2022.
+Emissions from non-energy uses of fossil fuels were 102.8 MMT CO2 Eq. in 2022, which constituted 2.0
+percent of total national CO2 emissions, approximately the same proportion as in 1990.
+
+•
+
+Carbon dioxide emissions from incineration of waste decreased slightly by 4.2 percent (0.5 MMT CO2 Eq.)
+from 1990 through 2022, as the volume of scrap tires and other fossil carbon-containing materials in
+waste decreased. Emissions decreased 0.9 percent (0.1 MMT CO2 Eq.) between 2021 and 2022, consistent
+with trends across the time series.
+
+Industrial Processes and Product Use
+Greenhouse gases can be generated and emitted by industry in two different ways. First, they are generated and
+emitted as the byproducts of many non-energy-related industrial activities. For example, industrial processes can
+chemically or physically transform raw materials, which often release waste gases such as CO2, CH4, N2O, and
+fluorinated gases (e.g., HFC-23). In the case of byproduct emissions, the emissions are generated by an industrial
+process itself, and are not directly a result of energy consumed during the process.
+Second, industrial manufacturing processes and use by end-consumers also release HFCs, PFCs, SF6, and NF3 and
+other man-made compounds. In addition to the use of HFCs and some PFCs as substitutes for ozone depleting
+substances (ODS), fluorinated compounds such as HFCs, PFCs, SF 6, NF3, and others are also emitted through use by
+
+2-18 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+a number of other industrial sources in the United States. These industries include the electronics industry,
+electrical equipment, and magnesium metal production and processing. In addition, N 2O is used in and emitted by
+the electronics industry and anesthetic and aerosol applications, PFCs and SF6 are emitted from other product use,
+and CO2 is consumed and emitted through various end-use applications.
+Emission sources in the Industrial Processes and Product Use (IPPU) chapter accounted for 6.0 percent of U.S.
+greenhouse gas emissions in 2022. Emissions from the IPPU sector increased by 3.9 percent from 1990 to 2022.
+The use of HFCs as substitutes for ODS is the largest source of emissions in this sector, contributing 46.5 percent of
+IPPU emissions in 2022 and driving growth since 1990. From 2021 to 2022, total emissions from IPPU increased 0.4
+percent between 2021 and 2022. Despite the sectoral increase in emissions, emissions from adipic acid production
+decreased by almost 70 percent, emissions from ferroalloy production decreased by over 10 percent, and
+emissions from aluminum production, petrochemical production and zinc production decreased by between 5 and
+10 percent. Figure 2-9 presents greenhouse gas emissions from IPPU by source category.
+
+Figure 2-9: Trends in Industrial Processes and Product Use Sector Greenhouse Gas Sources
+
+Table 2-6: Emissions from Industrial Processes and Product Use (MMT CO 2 Eq.)
+
+CO2
+Cement Production
+Iron and Steel Production &
+Metallurgical Coke Production
+Iron and Steel Production
+Metallurgical Coke Production
+Petrochemical Production
+Ammonia Production
+
+1990
+213.7
+33.5
+
+2005
+195.9
+46.2
+
+2018
+164.4
+39.0
+
+2019
+168.2
+40.9
+
+2020
+160.7
+40.7
+
+2021
+168.8
+41.3
+
+2022
+168.9
+41.9
+
+Percent
+Change
+Since 1990
+-20.9%
+25.1%
+
+104.7
+99.1
+5.6
+20.1
+14.4
+
+70.1
+66.2
+3.9
+26.9
+10.2
+
+42.9
+41.6
+1.3
+27.2
+12.7
+
+43.1
+40.1
+3.0
+28.5
+12.4
+
+37.7
+35.4
+2.3
+27.9
+13.0
+
+41.9
+38.6
+3.2
+30.7
+12.2
+
+40.7
+37.7
+3.0
+28.8
+12.6
+
+-61.2%
+-62.0%
+-47.3%
+43.4%
+-12.5%
+
+Trends
+
+2-19
+
+Lime Production
+Other Process Uses of
+Carbonates
+Urea Consumption for NonAgricultural Purposes
+Carbon Dioxide Consumption
+Glass Production
+Soda Ash Production
+Titanium Dioxide Production
+Aluminum Production
+Ferroalloy Production
+Zinc Production
+Phosphoric Acid Production
+Lead Production
+Carbide Production and
+Consumption
+Substitution of Ozone Depleting
+Substancesa
+Magnesium Production and
+Processing
+CH4
+Carbide Production and
+Consumption
+Ferroalloy Production
+Iron and Steel Production &
+Metallurgical Coke Production
+Petrochemical Production
+N2O
+Nitric Acid Production
+N2O from Product Uses
+Adipic Acid Production
+Caprolactam, Glyoxal, and
+Glyoxylic Acid Production
+Electronics Industry
+HFCs
+Substitution of Ozone Depleting
+Substancesa
+Fluorochemical Production
+Electronics Industry
+Magnesium Production and
+Processing
+PFCs
+Fluorochemical Production
+Electronics Industry
+Aluminum Production
+SF6 and PFCs from Other Product
+Use
+Substitution of Ozone Depleting
+Substancesa
+Electrical Equipment
+SF6
+Electrical Equipment
+Magnesium Production and
+Processing
+Electronics Industry
+
+11.7
+
+14.6
+
+13.1
+
+12.1
+
+11.3
+
+11.9
+
+12.2
+
+4.3%
+
+7.1
+
+8.5
+
+7.9
+
+9.0
+
+9.0
+
+8.6
+
+10.4
+
+46.2%
+
+3.8
+1.5
+2.3
+1.4
+1.2
+6.8
+2.2
+0.6
+1.5
+0.5
+
+3.7
+1.4
+2.4
+1.7
+1.8
+4.1
+1.4
+1.0
+1.3
+0.6
+
+6.1
+4.1
+2.0
+1.7
+1.5
+1.5
+2.1
+1.0
+0.9
+0.5
+
+6.2
+4.9
+1.9
+1.8
+1.3
+1.9
+1.6
+1.0
+0.9
+0.5
+
+5.8
+5.0
+1.9
+1.5
+1.3
+1.7
+1.4
+1.0
+0.9
+0.5
+
+6.6
+5.0
+2.0
+1.7
+1.5
+1.5
+1.6
+1.0
+0.9
+0.4
+
+7.1
+5.0
+2.0
+1.7
+1.5
+1.4
+1.3
+0.9
+0.8
+0.4
+
+86.4%
+239.7%
+-13.6%
+19.0%
+23.3%
+-78.8%
+-38.3%
+49.9%
+-45.0%
+-17.1%
+
+0.2
+
+0.2
+
+0.2
+
+0.2
+
+0.2
+
+0.2
+
+0.2
+
+-13.7%
+
++
+
++
+
++
+
++
+
++
+
++
+
++
+
+28,664.2%
+
+0.1
+0.1
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
+-97.7%
+-48.9%
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
++
++
+
+-38.5%
+-45.2%
+
++
++
+29.6
+10.8
+3.8
+13.5
+
++
++
+22.2
+10.1
+3.8
+6.3
+
++
++
+23.1
+8.5
+3.8
+9.3
+
++
++
+18.7
+8.9
+3.8
+4.7
+
++
++
+20.8
+8.3
+3.8
+7.4
+
++
++
+19.7
+7.9
+3.8
+6.6
+
++
++
+16.1
+8.6
+3.8
+2.1
+
+-67.8%
+-21.7%
+-45.7%
+-20.2%
+-0.4%
+-84.5%
+
+1.5
++
+47.7
+
+1.9
+0.1
+121.7
+
+1.3
+0.2
+163.9
+
+1.2
+0.2
+168.2
+
+1.1
+0.3
+170.3
+
+1.2
+0.3
+177.0
+
+1.3
+0.3
+182.8
+
+-10.5%
+720.0%
+282.9%
+
+0.3
+47.3
+0.2
+
+99.5
+22.1
+0.2
+
+157.9
+5.7
+0.3
+
+162.1
+5.7
+0.3
+
+166.2
+3.8
+0.3
+
+172.6
+4.0
+0.4
+
+178.1
+4.3
+0.3
+
+70,357.0%
+-90.9%
+74.0%
+
+NO
+39.5
+17.5
+2.5
+19.3
+
+NO
+10.2
+4.0
+3.0
+3.1
+
+0.1
+7.4
+2.9
+2.9
+1.4
+
+0.1
+7.3
+3.0
+2.6
+1.4
+
+0.1
+6.6
+2.5
+2.5
+1.4
+
++
+6.3
+2.6
+2.6
+0.9
+
++
+6.7
+3.0
+2.7
+0.8
+
+100.0%
+-83.1%
+-83.1%
+7.8%
+-96.1%
+
+0.1
+
+0.1
+
+0.2
+
+0.2
+
+0.2
+
+0.1
+
+0.2
+
+39.4%
+
+NO
++
+37.9
+24.7
+
++
++
+20.2
+11.8
+
++
+NO
+7.6
+5.0
+
++
++
+8.4
+6.1
+
++
++
+8.1
+5.9
+
++
++
+8.5
+6.0
+
++
++
+7.6
+5.1
+
+100.0%
+-99.2%
+-80.0%
+-79.4%
+
+5.6
+0.5
+
+3.0
+0.8
+
+1.1
+0.8
+
+0.9
+0.8
+
+0.9
+0.8
+
+1.2
+0.9
+
+1.1
+0.8
+
+-80.0%
+47.0%
+
+2-20 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+SF6 and PFCs from Other Product
+Use
+Fluorochemical Production
+
+1.3
+5.8
+0.3
++
+0.3
+368.8
+
+1.3
+3.3
+1.0
+0.4
+0.6
+371.3
+
+0.8
++
+0.7
+0.5
+0.1
+367.2
+
+0.6
++
+1.1
+0.5
+0.6
+371.9
+
+0.5
++
+1.3
+0.6
+0.7
+367.9
+
+0.4
++
+1.1
+0.6
+0.5
+381.6
+
+0.6
++
+1.1
+0.6
+0.5
+383.2
+
+NF3
+Electronics Industry
+Fluorochemical Production
+Total
++ Does not exceed 0.05 MMT CO2 Eq.
+NO (Not Occurring)
+a Small amounts of PFC emissions from this source are included under HFCs due to confidential business information.
+Note: Totals may not sum due to independent rounding.
+
+-53.0%
+-100.0%
+238.3%
+1313.8%
+72.7%
+3.9%
+
+IPPU sector emissions increased 0.4 percent since 2021 and 3.9 percent since 1990. Some significant trends in U.S.
+emissions from IPPU source categories over the 33-year period from 1990 through 2022 included the following:
+•
+
+HFC and PFC emissions resulting from the substitution of ODS (e.g., chlorofluorocarbons [CFCs]) increased
+from small amounts in 1990 to 178.1 MMT CO2 Eq. in 2022 (an increase of 70,357 percent).
+
+•
+
+Combined CO2 and CH4 emissions from iron and steel production and metallurgical coke production
+decreased by 2.9 percent from 2021 to 2022 to 40.7 MMT CO2 Eq. and declined overall by 61.2 percent
+(64.1 MMT CO2 Eq.) from 1990 through 2022, due to restructuring of the industry. The trend in the United
+States has been a shift toward fewer integrated steel mills and more electric arc furnaces (EAFs). EAFs use
+scrap steel as their main input and generally have lower on-site emissions.
+
+•
+
+Carbon dioxide emissions from petrochemical production increased by 43.4 percent between 1990 and
+2022, from 20.1 MMT CO2 Eq. to 28.8 MMT CO2 Eq. The increase in emissions is largely driven by the
+production of ethylene more than doubling over that period.
+
+•
+
+Carbon dioxide emissions from ammonia production have decreased by 12.5 percent (1.8 MMT CO2 Eq.)
+since 1990. Ammonia production relies on natural gas as both a feedstock and a fuel, and as such, market
+fluctuations and volatility in natural gas prices affect the production of ammonia from year to year.
+Emissions from ammonia production have increased since 2016, due to the addition of new ammonia
+production facilities and new production units at existing facilities. Agricultural demands continue to drive
+demand for nitrogen fertilizers and the need for new ammonia production capacity.
+
+•
+
+Carbon dioxide emissions from cement production increased by 25.1 percent (8.4 MMT CO 2 Eq.) from
+1990 through 2022. Emissions rose from 1990 through 2006 and then fell until 2009, due to a decrease in
+demand for construction materials during the economic recession. Since 2010, CO2 emissions from
+cement production have risen by 33.2 percent.
+
+•
+
+HFC, PFC, SF6, and NF3 emissions from fluorochemical production decreased by 89.0 percent (63.2 MMT
+CO2 Eq.) from 1990 to 2022 due to a reduction in the HFC-23 emission rate from HCFC-22 production (kg
+HFC-23 emitted/kg HCFC-22 produced), the imposition of emissions controls at production facilities, and a
+decrease in SF6 production due to the cessation of production at the major SF 6 production facility in 2010.
+
+•
+
+PFC emissions from aluminum production decreased by 96.1 percent (18.5 MMT CO2 Eq.) from 1990 to
+2022, due to both industry emission reduction efforts and lower domestic aluminum production.
+
+•
+
+SF6 emissions from electrical equipment decreased by 79.4 percent (19.6 MMT CO2 Eq.) from 1990 to
+2022 due to a sharp increase in the price of SF6 during the 1990s and industry emission reduction efforts.
+
+Agriculture
+Agricultural activities contribute directly to emissions of greenhouse gases through a variety of processes,
+including the following source categories: enteric fermentation in domestic livestock, livestock manure
+management, rice cultivation, agricultural soil management, liming, urea fertilization, and field burning of
+agricultural residues. Methane and N2O are the primary greenhouse gases emitted by agricultural activities, with
+
+Trends
+
+2-21
+
+small amounts of CO2 also emitted.5 Carbon stock changes from agricultural soils are included in the LULUCF
+sector.
+In 2022, agricultural activities were responsible for emissions of 593.4 MMT CO2 Eq., or 9.4 percent of total U.S.
+greenhouse gas emissions. Agricultural soil management activities, such as the application of synthetic and organic
+fertilizers, deposition of livestock manure, and growing N-fixing plants, were the largest contributors to
+agricultural-related emissions (49.0 percent) and were the largest source of U.S. N2O emissions in 2022, accounting
+for 74.6 percent. Methane emissions from enteric fermentation and manure management represented 27.4
+percent and 9.2 percent of total CH4 emissions from anthropogenic activities, respectively, in 2022. Carbon dioxide
+emissions from the application of crushed limestone and dolomite (i.e., soil liming) and urea fertilization
+represented 0.2 percent of total CO2 emissions from anthropogenic activities. Figure 2-10 and Table 2-7 illustrate
+agricultural greenhouse gas emissions by source and gas.
+
+Figure 2-10: Trends in Agriculture Sector Greenhouse Gas Sources
+
+5 The contribution of agriculture non-CO2 emissions is based on gross totals and excludes LULUCF methane (CH4) and nitrous
+
+oxide (N2O) emissions. The contribution of agriculture CH4 and N2O including LULUCF non-CO2 emissions, is 40.5 percent and
+48.3 percent, respectively.
+
+2-22 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Table 2-7: Emissions from Agriculture (MMT CO2 Eq.)
+
+1990
+7.1
+2.4
+4.7
+241.7
+183.1
+39.1
+18.9
+
+2005
+7.9
+3.5
+4.4
+264.4
+188.2
+55.0
+20.6
+
+2018
+7.2
+4.9
+2.2
+285.0
+196.8
+67.7
+19.9
+
+2019
+7.2
+5.0
+2.2
+280.2
+197.3
+66.7
+15.6
+
+2020
+8.0
+5.1
+2.9
+282.4
+196.3
+66.9
+18.6
+
+2021
+7.6
+5.2
+2.4
+281.8
+196.5
+66.4
+18.3
+
+2022
+8.6
+5.3
+3.3
+276.8
+192.6
+64.7
+18.9
+
+Percent
+Change
+Since
+1990
+21.0%
+120.4%
+-30.3%
+14.5%
+5.2%
+65.3%
+-0.4%
+
+0.5
+302.3
+288.8
+13.4
+
+0.6
+309.5
+294.1
+15.2
+
+0.6
+350.2
+333.4
+16.6
+
+0.7
+332.6
+315.6
+16.8
+
+0.6
+309.2
+292.1
+16.9
+
+0.6
+315.3
+298.0
+17.1
+
+0.6
+308.0
+290.8
+17.0
+
+14.4%
+1.9%
+0.7%
+27.2%
+
+0.2
+0.2
+Total
+551.1
+581.8
+Note: Totals may not sum due to independent rounding.
+
+0.2
+642.4
+
+0.2
+620.1
+
+0.2
+599.7
+
+0.2
+604.8
+
+0.2
+593.4
+
+15.5%
+7.7%
+
+Gas/Source
+CO2
+Urea Fertilization
+Liming
+CH4
+Enteric Fermentation
+Manure Management
+Rice Cultivation
+Field Burning of Agricultural
+Residues
+N2O
+Agricultural Soil Management
+Manure Management
+Field Burning of Agricultural
+Residues
+
+Agriculture sector emissions decreased by 1.9 percent since 2021 and increased by 7.7 percent since 1990. Some
+significant trends in U.S. emissions from Agriculture source categories (Figure 2-10) over the 33-year time series
+from 1990 through 2022 included the following:
+•
+
+Agricultural soils are the largest anthropogenic source of agriculture-related emissions and of N2O
+emissions in the United States, accounting for 74.6 percent of N2O emissions and 4.6 percent of total
+emissions in the United States in 2022. Annual N2O emissions from agricultural soils fluctuated between
+1990 and 2022, and overall emissions were 0.7 percent (2.0 MMT CO2 Eq.) higher in 2022 than in 1990.
+Year-to-year fluctuations are largely a reflection of annual variation in weather patterns, synthetic
+fertilizer use, and crop production.
+
+•
+
+Enteric fermentation is the largest anthropogenic source of CH 4 emissions in the United States. In 2022,
+enteric fermentation CH4 emissions were 27.4 percent of total CH4 emissions, which represents an
+increase of 5.2 percent (9.5 MMT CO2 Eq.) since 1990. This increase in emissions from enteric
+fermentation from 1990 to 2022 generally follows the increasing trends in cattle populations. For
+example, from 1990 to 1995, emissions increased and then generally decreased from 1996 to 2004,
+mainly due to fluctuations in beef cattle populations and increased digestibility of feed for feedlot cattle.
+Emissions increased from 2005 to 2007, as both dairy and beef populations increased. Research indicates
+that the feed digestibility of dairy cow diets decreased during this period. Emissions decreased again from
+2008 to 2014 as beef cattle populations again decreased. Emissions increased from 2014 to 2022,
+consistent with an increase in beef cattle population over those same years. CH4 emissions from enteric
+fermentation decreased by 2.0 percent (3.9 MMT CO2 Eq.) from 2021 to 2022, however, largely driven by
+a decrease in beef cattle populations.
+
+•
+
+Manure management is the fourth largest anthropogenic source of CH4 and N2O emissions in the United
+States and accounted for 13.8 percent of Agriculture sector emissions in 2022. Emissions from manure
+management increased by 55.6 percent between 1990 and 2022. This includes an increase of 65.3 percent
+(25.6 MMT CO2 Eq.) for CH4 and an increase of 27.2 percent (3.6 MMT CO2 Eq.) for N2O. The majority of
+the increase observed in CH4 emissions resulted from swine and dairy cattle manure, where emissions
+increased by 37.2 and 108.7 percent, respectively, from 1990 to 2022. From 2021 to 2022, CH4 emissions
+from manure management decreased by 2.6 percent, mainly due to minor shifts in the animal populations
+and the resultant effects on manure management system allocations.
+
+Trends
+
+2-23
+
+•
+
+Liming and urea fertilization are the only sources of CO2 emissions reported in the Agriculture sector. All
+other CO2 emissions and removals (e.g., carbon stock changes from the management of croplands) are
+included in the LULUCF sector. Liming emissions increased by 36.9 percent relative to 2021 and decreased
+by 30.3 percent (1.4 MMT CO2 Eq.) relative to 1990, while urea fertilization emissions increased by 1.9
+percent relative to 2021 and 120.4 percent (2.9 MMT CO2 Eq.) relative to 1990.
+
+Land Use, Land-Use Change, and Forestry
+When humans alter the terrestrial biosphere through land use, changes in land use, and land management
+practices, they also influence the carbon stock fluxes on these lands and cause emissions of CH 4 and N2O. Overall,
+managed land is a net sink for CO2 (carbon sequestration) in the United States. The primary driver of fluxes on
+managed lands is from management of forest lands, but also includes trees in settlements (i.e., urban areas),
+afforestation, conversion of forest lands to settlements and croplands, the management of croplands and
+grasslands, flooded lands, and the landfilling of yard trimmings and food scraps. The main drivers for net forest
+sequestration include net forest growth, increasing forest area, and a net accumulation of carbon stocks in
+harvested wood pools. The net sequestration in settlements remaining settlements is driven primarily by carbon
+stock gains in urban forests (i.e., settlement trees) through net tree growth and increased urban area, as well as
+long-term accumulation of carbon in landfills from additions of yard trimmings and food scraps.
+The LULUCF sector in 2022 resulted in a net increase in carbon stocks (i.e., net CO2 removals) of 921.8 MMT CO2
+Eq. (Table 2-8). 6 This represents an offset of 14.5 percent of total (i.e., gross) greenhouse gas emissions in 2022.
+Emissions of CH4 and N2O from LULUCF activities in 2022 were 67.6 MMT CO2 Eq. and represented 1.2 percent of
+net greenhouse gas emissions. 7 Between 1990 and 2022, total net carbon sequestration in the LULUCF sector
+decreased by 10.9 percent, primarily due to a decrease in the rate of net carbon accumulation in forests and
+cropland remaining cropland, as well as an increase in CO2 emissions from land converted to settlements.
+71F
+
+72F
+
+Flooded land remaining flooded land was the largest source of CH4 emissions from LULUCF and the fifth largest
+source overall of net CH4 emissions in 2022, totaling 44.2 MMT CO2 Eq. (1,579 kt of CH4). Forest fires were the
+second largest source of CH4 emissions from LULUCF in 2022, totaling 9.1 MMT CO2 Eq. (327 kt of CH4). Forest fires
+were the largest source of N2O emissions from LULUCF in 2022, totaling 5.7 MMT CO2 Eq. (22 kt of N2O). Figure
+2-11 and Table 2-8 illustrate LULUCF emissions and removals by land-use category and gas.
+
+6 LULUCF carbon stock change is the net carbon stock change from the following categories: forest land remaining forest land,
+
+land converted to forest land, cropland remaining cropland, land converted to cropland, grassland remaining grassland, land
+converted to grassland, wetlands remaining wetlands, land converted to wetlands, settlements remaining settlements, and
+land converted to settlements.
+7 LULUCF emissions include the CH4 and N2O emissions reported for peatlands remaining peatlands, forest fires, drained
+
+organic soils, grassland fires, and coastal wetlands remaining coastal wetlands; CH4 emissions from flooded land remaining
+flooded land, land converted to flooded land, and land converted to coastal wetlands; and N2O emissions from forest soils and
+settlement soils.
+2-24 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Figure 2-11: Trends in Emissions and Removals (Net CO2 Flux) from Land Use, Land-Use
+Change, and Forestry
+
+Table 2-8: U.S. Greenhouse Gas Emissions and Removals (Net Flux) from Land Use, Land-Use
+Change, and Forestry (MMT CO2 Eq.)
+
+Land-Use Category
+Forest Land Remaining Forest Land
+Changes in Forest Carbon Stocksa
+Non-CO2 Emissions from Forest
+Firesb
+N2O Emissions from Forest Soilsc
+Non-CO2 Emissions from Drained
+Organic Soilsd
+Land Converted to Forest Land
+Changes in Forest Carbon Stockse
+Cropland Remaining Cropland
+Changes in Mineral and Organic Soil
+Carbon Stocks
+Land Converted to Cropland
+Changes in all Ecosystem Carbon
+Stocksf
+Grassland Remaining Grassland
+
+1990
+(968.8)
+(974.8)
+
+2005
+(860.1)
+(876.0)
+
+2018
+(863.4)
+(873.5)
+
+2019
+(807.0)
+(813.2)
+
+2020
+(846.3)
+(862.0)
+
+2021
+(823.9)
+(844.2)
+
+2022
+(771.7)
+(787.0)
+
+Percent
+Change
+Since
+1990
+-20.3%
+-19.3%
+
+5.8
+0.1
+
+15.4
+0.4
+
+9.7
+0.4
+
+5.7
+0.4
+
+15.3
+0.4
+
+19.9
+0.4
+
+14.8
+0.4
+
+153.9%
+455.1%
+
+0.1
+(100.2)
+(100.2)
+(5.0)
+
+0.1
+(100.2)
+(100.2)
+(31.6)
+
+0.1
+(100.4)
+(100.4)
+(17.8)
+
+0.1
+(100.3)
+(100.3)
+(19.4)
+
+0.1
+(100.3)
+(100.3)
+(8.8)
+
+0.1
+(100.3)
+(100.3)
+(32.0)
+
+0.1
+(100.3)
+(100.3)
+(31.7)
+
+0.0%
+0.1%
+0.1%
+529.0%
+
+(5.0)
+45.4
+
+(31.6)
+34.5
+
+(17.8)
+31.9
+
+(19.4)
+31.4
+
+(8.8)
+29.3
+
+(32.0)
+34.9
+
+(31.7)
+35.1
+
+529.0%
+-22.7%
+
+45.4
+24.6
+
+34.5
+24.9
+
+31.9
+29.7
+
+31.4
+28.9
+
+29.3
+17.1
+
+34.9
+11.5
+
+35.1
+14.0
+
+-22.7%
+-43.1%
+
+Trends
+
+2-25
+
+Changes in Mineral and Organic Soil
+Carbon Stocks
+24.4
+24.1
+28.6
+28.5
+16.1
+10.6
+13.4
+-45.2%
+Non-CO2 Emissions from Grassland
+Firesg
+0.2
+0.8
+1.1
+0.3
+1.1
+0.9
+0.6 184.1%
+Land Converted to Grassland
+35.3
+21.8
+25.2
+25.4
+28.7
+24.5
+25.6
+-27.3%
+Changes in all Ecosystem Carbon
+Stocksf
+35.3
+21.8
+25.2
+25.4
+28.7
+24.5
+25.6
+-27.3%
+Wetlands Remaining Wetlands
+36.8
+39.4
+38.2
+38.1
+38.1
+38.1
+38.1
+3.6%
+Changes in Organic Soil Carbon
+Stocks in Peatlands
+1.1
+1.1
+0.7
+0.6
+0.6
+0.5
+0.6
+-45.7%
+Non-CO2 Emissions from Peatlands
+Remaining Peatlands
++
++
++
++
++
++
++
+-47.0%
+Changes in Biomass, DOM, and Soil
+Carbon Stocks in Coastal Wetlands
+(10.8)
+(10.1)
+(11.1)
+(11.1)
+(11.1)
+(11.1)
+(11.1)
+2.8%
+CH4 Emissions from Coastal
+Wetlands Remaining Coastal
+Wetlands
+4.2
+4.2
+4.3
+4.3
+4.3
+4.3
+4.3
+3.4%
+N2O Emissions from Coastal
+Wetlands Remaining Coastal
+Wetlands
+0.1
+0.2
+0.1
+0.1
+0.1
+0.1
+0.1
+14.9%
+CH4 Emissions from Flooded Land
+Remaining Flooded Land
+42.3
+44.0
+44.2
+44.2
+44.2
+44.2
+44.2
+4.7%
+Land Converted to Wetlands
+7.2
+1.8
+0.7
+0.7
+0.7
+0.7
+0.7
+-90.3%
+Changes in Biomass, DOM, and Soil
+Carbon Stocks in Land Converted
+to Coastal Wetlands
+0.5
+0.5
+(+)
+(+)
+(+)
+(+)
+(+)
+-97.0%
+CH4 Emissions from Land Converted
+to Coastal Wetlands
+0.3
+0.3
+0.2
+0.2
+0.2
+0.2
+0.2
+-38.9%
+Changes in Land Converted to
+Flooded Land
+3.6
+0.6
+0.3
+0.3
+0.3
+0.3
+0.3
+-91.7%
+CH4 Emissions from Land Converted
+to Flooded Land
+2.9
+0.4
+0.2
+0.2
+0.2
+0.2
+0.2
+-92.6%
+Settlements Remaining Settlements
+(109.1) (115.2)
+(131.0)
+(131.5)
+(131.8)
+(132.3) (132.3)
+21.2%
+Changes in Organic Soil Carbon
+Stocks
+9.9
+10.1
+14.4
+14.6
+15.1
+15.4
+15.4
+56.0%
+Changes in Settlement Tree Carbon
+Stocks
+(96.6) (117.0)
+(134.4)
+(135.6)
+(136.7)
+(137.8) (138.5)
+43.4%
+N2O Emissions from Settlement
+Soilsh
+2.1
+3.1
+2.4
+2.5
+2.5
+2.5
+2.5
+22.8%
+Changes in Yard Trimming and Food
+Scrap Carbon Stocks in Landfills
+(24.5)
+(11.4)
+(13.4)
+(13.1)
+(12.8)
+(12.5)
+(11.8)
+-52.0%
+Land Converted to Settlements
+57.2
+77.1
+71.4
+70.2
+68.8
+68.2
+68.2
+19.1%
+Changes in all Ecosystem Carbon
+Stocksf
+57.2
+77.1
+71.4
+70.2
+68.8
+68.2
+68.2
+19.1%
+LULUCF Carbon Stock Changei
+(1,034.7) (976.6)
+(978.3)
+(921.6)
+(972.8)
+(983.4) (921.8)
+-10.9%
+LULUCF Emissionsj
+58.0
+68.9
+62.8
+58.0
+68.4
+72.9
+67.6
+16.5%
+CH4
+53.1
+58.5
+55.5
+52.5
+59.3
+62.1
+58.4
+10.0%
+N2O
+4.8
+10.3
+7.3
+5.5
+9.1
+10.7
+9.1
+88.3%
+LULUCF Sector Net Totalk
+(976.7) (907.7)
+(915.5)
+(863.6)
+(904.4)
+(910.6) (854.2)
+-12.5%
++ Absolute value does not exceed 0.05 MMT CO2 Eq.
+a Includes the net changes to carbon stocks stored in all forest ecosystem pools (estimates include carbon stock changes from
+drained organic soils from both forest land remaining forest land and land converted to forest land) and harvested wood
+products.
+b Estimates include emissions from fires on both forest land remaining forest land and land converted to forest land.
+c Estimates include emissions from N fertilizer additions on both forest land remaining forest land and land converted to
+forest land.
+
+2-26 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+d Estimates include CH
+
+4 and N2O emissions from drained organic soils on both forest land remaining forest land and land
+converted to forest land. Carbon stock changes from drained organic soils are included with the forest land remaining forest
+land forest ecosystem pools.
+e Includes the net changes to carbon stocks stored in all forest ecosystem pools.
+f Includes changes in mineral and organic soil carbon stocks for all land use conversions to cropland, grassland, and
+settlements. Also includes aboveground/belowground biomass, dead wood, and litter carbon stock changes for conversion
+of forest land to cropland, grassland, and settlements.
+g Estimates include CH and N O emissions from fires on both grassland remaining grassland and land converted to grassland.
+4
+2
+h Estimates include N O emissions from N fertilizer additions on both settlements remaining settlements and land converted
+2
+to settlements because it is not possible to separate the activity data at this time.
+i LULUCF carbon stock change includes any carbon stock gains and losses from all land use and land-use conversion
+categories.
+j LULUCF emissions subtotal includes the CH and N O emissions reported for peatlands remaining peatlands, forest fires,
+4
+2
+drained organic soils, grassland fires, and coastal wetlands remaining coastal wetlands; CH4 emissions from flooded land
+remaining flooded land, and land converted to flooded land, and land converted to coastal wetlands; and N 2O emissions
+from forest soils and settlement soils. Emissions values are included in land-use category rows.
+k The LULUCF sector net total is the net sum of all LULUCF CH and N O emissions to the atmosphere plus LULUCF net carbon
+4
+2
+stock changes in units of MMT CO2 Eq.
+Notes: Totals may not sum due to independent rounding. Parentheses indicate net sequestration.
+
+Overall CH4 and N2O emissions from LULUCF decreased by 7.3 percent from 2021 and increased by 16.5 percent
+since 1990 while total net sequestration decreased by 10.9 percent since 1990 and 6.3 percent from 2021. Other
+trends from 1990 to 2022 in emissions from LULUCF categories (Figure 2-11) over the 33-year period included the
+following:
+•
+
+Annual carbon sequestration by forest land (i.e., annual carbon stock accumulation in the five ecosystem
+carbon pools and harvested wood products for forest land remaining forest land and land converted to
+forest land) has decreased by 17.5 percent since 1990. This is primarily due to decreased carbon stock
+gains in land converted to forest land and the harvested wood products pools within forest land
+remaining forest land.
+
+•
+
+Annual carbon sequestration from settlements remaining settlements (which includes organic soils,
+settlement trees, and landfilled yard trimmings and food scraps) has increased by 21.2 percent over the
+period from 1990 to 2022. This is primarily due to an increase in urbanized land area in the United States
+with trees growing on it.
+
+•
+
+Annual emissions from land converted to settlements increased by 19.1 percent from 1990 to 2022 due
+primarily to carbon stock losses from forest land converted to settlements and mineral soils carbon stocks
+from grassland converted to settlements.
+
+Waste
+Waste management and treatment activities are sources of CH4 and N2O emissions (see Figure 2-12 and Table 2-9).
+Overall, emission sources accounted for in the Waste chapter generated 166.9 MMT CO2 Eq., or 2.6 percent of total
+U.S. greenhouse gas emissions in 2022. In 2022, landfills were the largest source of waste emissions, accounting
+for 71.8 percent of waste-related emissions. Landfills are also the third-largest source of U.S. anthropogenic CH4
+emissions, generating 119.8 MMT CO2 Eq. and accounting for 17.1 percent of total U.S. CH4 emissions in 2022. 8
+Additionally, wastewater treatment generated emissions of 42.7 MMT CO 2 Eq. and accounted for 25.6 percent of
+waste emissions, 3.0 percent of U.S. CH4 emissions, and 5.6 percent of U.S. N2O emissions in 2022. Emissions of
+CH4 and N2O from composting are also accounted for in this chapter, generating emissions of 2.6 MMT CO 2 Eq. and
+1.8 MMT CO2 Eq., accounting for 1.5 and 1.1 percent of Waste sector emissions, respectively. Anaerobic digestion
+73F
+
+8 Landfills also store carbon, due to incomplete degradation of organic materials such as wood products and yard trimmings, as
+
+described in the Land Use, Land-Use Change, and Forestry chapter.
+
+Trends
+
+2-27
+
+at biogas facilities generated CH4 emissions of less than 0.05 MMT CO2 Eq., accounting for less than 0.05 percent of
+emissions from the Waste sector.
+
+Figure 2-12: Trends in Waste Sector Greenhouse Gas Sources
+
+Table 2-9: Emissions from Waste (MMT CO2 Eq.)
+
+Gas/Source
+1990
+2005
+CH4
+220.9
+172.4
+Landfills
+197.8
+147.7
+Wastewater Treatment
+22.7
+22.7
+Composting
+0.4
+2.1
+Anaerobic Digestion at
+Biogas Facilities
++
++
+N2O
+15.1
+19.5
+Wastewater Treatment
+14.8
+18.1
+Composting
+0.3
+1.5
+235.9
+192.0
+Total
++ Does not exceed 0.05 MMT CO2 Eq.
+Note: Totals may not sum due to independent rounding.
+
+2018
+150.2
+126.3
+21.4
+2.5
+
+2019
+152.4
+128.7
+21.1
+2.5
+
+2020
+147.6
+124.1
+21.0
+2.6
+
+2021
+145.3
+122.0
+20.7
+2.6
+
+2022
+143.2
+119.8
+20.8
+2.6
+
+Percent
+Change
+Since
+1990
+(35.2%)
+(39.4%)
+(8.4%)
+504.8%
+
++
+23.0
+21.2
+1.8
+173.2
+
++
+23.4
+21.6
+1.8
+175.8
+
++
+24.1
+22.3
+1.8
+171.7
+
++
+23.9
+22.1
+1.8
+169.2
+
++
+23.7
+21.9
+1.8
+166.9
+
+1,109.3%
+57.4%
+48.2%
+504.8%
+(29.3%)
+
+Waste sector emissions decreased by 1.4 percent since 2021 and 29.3 percent since 1990. Some notable trends in
+U.S. emissions from Waste source categories (Figure 2-12) over the 33-year period from 1990 through 2022
+included the following:
+•
+
+Net CH4 emissions from landfills decreased by 78.0 MMT CO2 Eq. (39.4 percent), with small increases
+occurring in interim years. This downward trend in emissions coincided with increased landfill gas
+
+2-28 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+collection and control systems, and a reduction of decomposable materials (i.e., paper and paperboard,
+food scraps, and yard trimmings) discarded in municipal solid waste (MSW) landfills over the time series.
+•
+
+CH4 and N2O emissions from wastewater treatment decreased by 8.4 percent (1.9 MMT CO2 Eq.) and
+increased by 48.2 percent (7.1 MMT CO2 Eq.), respectively. Methane emissions from domestic wastewater
+treatment have decreased since 1999 due to decreasing percentages of wastewater being treated in
+anaerobic systems, including reduced use of on-site septic systems and central anaerobic treatment
+systems. N2O emissions from wastewater treatment processes gradually increased across the time series
+as a result of increasing U.S. population and protein consumption.
+
+•
+
+Combined CH4 and N2O emissions from composting have increased by 504.8 percent (3.7 MMT CO2 Eq.)
+since 1990. The growth in composting since the 1990s is attributable to primarily four factors: (1) the
+enactment of legislation by state and local governments that discouraged the disposal of yard trimmings
+and food waste in landfills; (2) an increase in yard trimming collection and yard trimming drop-off sites
+provided by local solid waste management districts; (3) an increased awareness of the environmental
+benefits of composting; and (4) loans or grant programs to establish or expand composting infrastructure.
+
+2.2 Emissions and Sinks by Economic
+Sector
+In addition to the Paris Agreement and UNFCCC reporting sectors and methods defined by the IPCC, this report
+also characterizes gross emissions according to commonly used economic sector categories: residential,
+commercial, industry, transportation, electric power, and agriculture. Emissions from U.S. Territories are reported
+as their own end-use sector due to a lack of specific consumption data for the individual end-use sectors within
+U.S. Territories. See Box 2-1 for more information on how economic sectors are defined. For more information on
+trends in the LULUCF sector, see Section 2.1.
+Using this categorization, transportation activities accounted for the largest portion (28.4 percent) of total U.S.
+greenhouse gas emissions in 2022. Emissions from electric power accounted for the second largest portion (24.9
+percent), while emissions from industry accounted for the third-largest portion (22.9 percent) of total U.S.
+greenhouse gas emissions in 2022. Emissions from industry have in general declined over the past decade due to a
+number of factors, including structural changes in the U.S. economy (i.e., shifts from a manufacturing-based to a
+service-based economy), fuel switching, and efficiency improvements.
+The remaining 23.8 percent of U.S. greenhouse gas emissions were contributed by, in order of magnitude, the
+agriculture, commercial, and residential sectors, plus emissions from U.S. Territories. Activities related to
+agriculture accounted for 10.0 percent of emissions; unlike other economic sectors, agricultural sector emissions
+were dominated by N2O emissions from agricultural soil management and CH4 emissions from enteric
+fermentation, rather than CO2 from fossil fuel combustion. An increasing amount of carbon is stored in agricultural
+soils each year, but this carbon sequestration is assigned to the LULUCF sector rather than the agriculture
+economic sector. The commercial and residential sectors accounted for roughly 7.3 percent and 6.2 percent of
+greenhouse gas emissions, respectively, and U.S. Territories accounted for 0.4 percent of emissions; emissions
+from these sectors primarily consisted of CO2 emissions from fossil fuel combustion. Carbon dioxide was also
+emitted and sequestered (in the form of carbon) by a variety of activities related to forest management practices,
+tree planting in urban areas, the management of agricultural soils, landfilling of yard trimmings, and changes in
+carbon stocks in coastal wetlands. Table 2-10 presents a detailed breakdown of emissions from each of these
+economic sectors by source category, as they are defined in this report. Figure 2-13 shows the trend in emissions
+by sector from 1990 to 2022.
+
+Trends
+
+2-29
+
+Figure 2-13: U.S. Greenhouse Gas Emissions Allocated to Economic Sectors
+
+Note: Emissions and removals from Land Use, Land-Use Change, and Forestry are excluded from figure above. Excludes U.S.
+Territories.
+
+Table 2-10: U.S. Greenhouse Gas Emissions Allocated to Economic Sectors (MMT CO 2 Eq. and
+Percent of Total in 2022)
+
+Sector/Source
+Transportation
+CO2 from Fossil Fuel
+Combustion
+Substitution of Ozone
+Depleting Substances
+Mobile Combustionb
+Non-Energy Use of Fuels
+Electric Power Industry
+CO2 from Fossil Fuel
+Combustion
+Stationary Combustionb
+Incineration of Waste
+Other Process Uses of
+Carbonates
+Electrical Equipment
+Industry
+CO2 from Fossil Fuel
+Combustion
+Natural Gas Systems
+Non-Energy Use of Fuels
+Petroleum Systems
+Coal Mining
+Cement Production
+Iron and Steel
+Production
+Substitution of Ozone
+Depleting Substances
+
+1990
+1,521.4
+
+2005
+1,965.9
+
+2018
+1,871.6
+
+2019
+1,874.6
+
+2020
+1,625.3
+
+2021
+1,805.5
+
+2022
+1,801.5
+
+Percent of
+Total
+Emissionsa
+28.4%
+
+1,468.9
+
+1,858.6
+
+1,813.1
+
+1,816.6
+
+1,572.8
+
+1,753.5
+
+1,751.3
+
+27.6%
+
++
+40.6
+11.8
+1,880.2
+
+63.1
+34.1
+10.2
+2,457.4
+
+35.5
+13.7
+9.2
+1,799.2
+
+34.0
+15.1
+8.8
+1,650.8
+
+32.5
+12.2
+7.8
+1,482.2
+
+31.2
+12.7
+8.0
+1,584.4
+
+29.6
+12.2
+8.4
+1,577.5
+
+0.5%
+0.2%
+0.1%
+24.9%
+
+1,820.0
+18.7
+13.3
+
+2,400.1
+27.7
+13.6
+
+1,753.4
+23.1
+13.7
+
+1,606.7
+20.2
+13.3
+
+1,439.6
+18.9
+13.3
+
+1,540.9
+20.4
+12.8
+
+1,531.7
+22.9
+12.7
+
+24.1%
+0.4%
+0.2%
+
+3.6
+24.7
+1,723.3
+
+4.2
+11.9
+1,587.3
+
+4.0
+5.0
+1,541.9
+
+4.5
+6.1
+1,531.8
+
+4.5
+5.9
+1,435.9
+
+4.3
+6.0
+1,455.8
+
+5.2
+5.1
+1,452.5
+
+0.1%
+0.1%
+22.9%
+
+833.1
+251.2
+83.9
+59.0
+112.7
+33.5
+
+796.8
+236.5
+107.2
+58.5
+75.6
+46.2
+
+770.7
+223.0
+108.9
+93.8
+62.2
+39.0
+
+770.1
+227.3
+97.4
+97.8
+56.0
+40.9
+
+722.9
+217.0
+89.9
+82.3
+48.3
+40.7
+
+740.7
+210.4
+103.5
+72.8
+47.1
+41.3
+
+761.8
+209.7
+94.3
+61.6
+46.1
+41.9
+
+12.0%
+3.3%
+1.5%
+1.0%
+0.7%
+0.7%
+
+104.8
+
+70.1
+
+42.9
+
+43.1
+
+37.7
+
+41.9
+
+40.7
+
+0.6%
+
++
+
+8.0
+
+31.9
+
+33.1
+
+33.9
+
+32.2
+
+33.4
+
+0.5%
+
+2-30 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Petrochemical
+Production
+Landfills (Industrial)
+Ammonia Production
+Lime Production
+Nitric Acid Production
+Abandoned Oil and Gas
+Wells
+Fluorochemical
+Production
+Wastewater Treatment
+Urea Consumption for
+Non-Agricultural
+Purposes
+Abandoned
+Underground Coal
+Mines
+Mobile Combustionb
+Other Process Uses of
+Carbonates
+Carbon Dioxide
+Consumption
+Electronics Industry
+N2O from Product Uses
+Stationary Combustionb
+Aluminum Production
+Adipic Acid Production
+Glass Production
+Soda Ash Production
+Titanium Dioxide
+Production
+Ferroalloy Production
+Caprolactam, Glyoxal,
+and Glyoxylic Acid
+Production
+Magnesium Production
+and Processing
+Zinc Production
+Phosphoric Acid
+Production
+SF6 and PFCs from Other
+Product Use
+Lead Production
+Carbide Production and
+Consumption
+Agriculture
+N2O from Agricultural
+Soil Management
+Enteric Fermentation
+Manure Management
+CO2 from Fossil Fuel
+Combustion
+Rice Cultivation
+Urea Fertilization
+Liming
+
+20.1
+12.2
+14.4
+11.7
+10.8
+
+26.9
+16.1
+10.2
+14.6
+10.1
+
+27.2
+18.7
+12.7
+13.1
+8.5
+
+28.5
+18.8
+12.4
+12.1
+8.9
+
+27.9
+18.9
+13.0
+11.3
+8.3
+
+30.7
+18.9
+12.2
+11.9
+7.9
+
+28.8
+18.9
+12.6
+12.2
+8.6
+
+0.5%
+0.3%
+0.2%
+0.2%
+0.1%
+
+7.8
+
+8.2
+
+8.4
+
+8.5
+
+8.5
+
+8.6
+
+8.5
+
+0.1%
+
+70.9
+6.6
+
+30.0
+7.1
+
+8.7
+7.5
+
+9.3
+7.6
+
+6.9
+7.6
+
+7.1
+7.6
+
+7.8
+7.7
+
++%
++%
+
+3.8
+
+3.7
+
+6.1
+
+6.2
+
+5.8
+
+6.6
+
+7.1
+
++%
+
+8.1
+3.6
+
+7.4
+5.6
+
+6.9
+5.5
+
+6.6
+5.6
+
+6.5
+5.3
+
+6.3
+5.5
+
+6.3
+5.9
+
++%
++%
+
+3.6
+
+4.2
+
+4.0
+
+4.5
+
+4.5
+
+4.3
+
+5.2
+
++%
+
+1.5
+3.3
+3.8
+4.8
+26.1
+13.5
+2.3
+1.4
+
+1.4
+4.5
+3.8
+4.5
+7.2
+6.3
+2.4
+1.7
+
+4.1
+4.8
+3.8
+3.9
+2.9
+9.3
+2.0
+1.7
+
+4.9
+4.5
+3.8
+3.8
+3.3
+4.7
+1.9
+1.8
+
+5.0
+4.5
+3.8
+3.6
+3.2
+7.4
+1.9
+1.5
+
+5.0
+4.8
+3.8
+3.6
+2.5
+6.6
+2.0
+1.7
+
+5.0
+4.7
+3.8
+3.5
+2.2
+2.1
+2.0
+1.7
+
++%
++%
++%
++%
++%
++%
++%
++%
+
+1.2
+2.2
+
+1.8
+1.4
+
+1.5
+2.1
+
+1.3
+1.6
+
+1.3
+1.4
+
+1.5
+1.6
+
+1.5
+1.3
+
++%
++%
+
+1.5
+
+1.9
+
+1.3
+
+1.2
+
+1.1
+
+1.2
+
+1.3
+
++%
+
+5.7
+0.6
+
+3.0
+1.0
+
+1.1
+1.0
+
+1.0
+1.0
+
+0.9
+1.0
+
+1.2
+1.0
+
+1.2
+0.9
+
++%
++%
+
+1.5
+
+1.3
+
+0.9
+
+0.9
+
+0.9
+
+0.9
+
+0.8
+
++%
+
+1.4
+0.5
+
+1.5
+0.6
+
+0.9
+0.5
+
+0.8
+0.5
+
+0.7
+0.5
+
+0.5
+0.4
+
+0.8
+0.4
+
++%
++%
+
+0.3
+595.9
+
+0.2
+634.3
+
+0.2
+683.5
+
+0.2
+661.0
+
+0.2
+640.0
+
+0.2
+645.9
+
+0.2
+634.0
+
++%
+10.0%
+
+288.8
+183.1
+52.5
+
+294.1
+188.2
+70.2
+
+333.4
+196.8
+84.3
+
+315.6
+197.3
+83.5
+
+292.1
+196.3
+83.8
+
+298.0
+196.5
+83.6
+
+290.8
+192.6
+81.7
+
+4.6%
+3.0%
+1.3%
+
+43.4
+18.9
+2.4
+4.7
+
+50.8
+20.6
+3.5
+4.4
+
+39.8
+19.9
+4.9
+2.2
+
+39.7
+15.6
+5.0
+2.2
+
+39.1
+18.6
+5.1
+2.9
+
+39.8
+18.3
+5.2
+2.4
+
+39.3
+18.9
+5.3
+3.3
+
+0.6%
+0.3%
+0.1%
+0.1%
+
+Trends
+
+2-31
+
+Mobile Combustionb
+1.4
+1.6
+1.2
+1.2
+1.2
+1.2
+1.2
++%
+Field Burning of
+Agricultural Residues
+0.7
+0.8
+0.8
+0.9
+0.8
+0.8
+0.8
++%
+Stationary Combustionb
+0.1
++
+0.1
+0.1
+0.1
+0.1
+0.1
++%
+Commercial
+447.0
+418.9
+453.5
+462.6
+436.9
+443.7
+463.7
+7.3%
+CO2 from Fossil Fuel
+Combustion
+228.3
+227.1
+246.3
+251.7
+229.3
+237.5
+258.7
+4.1%
+Landfills (Municipal)
+185.5
+131.6
+107.7
+109.9
+105.2
+103.1
+100.9
+1.6%
+Substitution of Ozone
+Depleting Substances
++
+21.4
+58.5
+59.8
+60.8
+61.9
+62.9
+1.0%
+Wastewater Treatment
+30.9
+33.6
+35.0
+35.1
+35.6
+35.1
+35.0
+0.6%
+Composting
+0.7
+3.6
+4.3
+4.3
+4.4
+4.4
+4.4
+0.1%
+Stationary Combustionb
+1.5
+1.5
+1.7
+1.7
+1.6
+1.6
+1.7
+0.0%
+Anaerobic Digestion at
+Biogas Facilities
++
++
++
++
++
++
++
++%
+Residential
+345.6
+371.2
+376.8
+384.2
+358.0
+369.6
+391.3
+6.2%
+CO2 from Fossil Fuel
+Combustion
+338.6
+358.9
+338.9
+342.9
+314.8
+318.0
+334.1
+5.3%
+Substitution of Ozone
+Depleting Substances
+0.2
+7.0
+31.9
+35.1
+39.0
+47.3
+52.2
+0.8%
+Stationary Combustionb
+6.8
+5.3
+6.0
+6.2
+4.2
+4.2
+5.0
+0.1%
+U.S. Territories
+23.4
+59.7
+26.3
+25.1
+23.4
+23.9
+22.7
+0.4%
+CO2 from Fossil Fuel
+Combustion
+20.0
+51.9
+25.9
+24.8
+23.3
+23.8
+22.6
+0.4%
+Non-Energy Use of Fuels
+3.4
+7.6
+0.2
+0.2
+0.1
+0.1
+0.1
++%
+Stationary Combustionb
+0.1
+0.2
+0.1
+0.1
+0.1
+0.1
+0.1
++%
+Total Gross Emissions
+(Sources)
+6,536.9
+7,494.6
+6,752.7
+6,590.1
+6,001.8
+6,328.8
+6,343.2
+100.0%
+LULUCF Sector Net Totalc
+(976.7)
+(907.7)
+(915.5)
+(863.6)
+(904.4)
+(910.6)
+(854.2)
+(13.5%)
+Net Emissions (Sources
+and Sinks)
+5,560.2
+6,586.9
+5,837.3
+5,726.6
+5,097.4
+5,418.2
+5,489.0
+86.5%
++ Does not exceed 0.05 MMT CO2 Eq. or 0.05 percent.
+a Percent of total (gross) emissions excluding emissions from LULUCF for 2022.
+b Includes CH and N O emissions from fuel combustion.
+4
+2
+c The LULUCF sector net total is the net sum of all LULUCF CH and N O emissions to the atmosphere plus LULUCF net carbon
+4
+2
+stock changes.
+Notes: Total gross emissions presented are without LULUCF. Total net emissions are presented with LULUCF. Totals may not
+sum due to independent rounding. Parentheses indicate negative values or sequestration.
+
+Box 2-1: Methodology for Aggregating Emissions by Economic Sector
+In presenting the economic sectors in the annual Inventory of U.S. Greenhouse Gas Emissions and Sinks, the
+Inventory expands upon the standard sectors common for reporting under the Paris Agreement and the
+UNFCCC. Discussing greenhouse gas emissions relevant to U.S.-specific economic sectors improves
+communication of the report’s findings.
+The electric power economic sector includes CO2, CH4 and N2O emissions from the combustion of fossil fuels that
+are included in the EIA electric power sector. Carbon dioxide, CH4, and N2O emissions from waste incineration
+are included in the electric power economic sector, as the majority of MSW is combusted in plants that produce
+electricity. The electric power economic sector also includes SF6 from electrical equipment, and a portion of CO2
+from other process uses of carbonates (from pollution control equipment installed in electric power plants).
+The transportation economic sector includes CO2 emissions from the combustion of fossil fuels that are included
+in the EIA transportation fuel-consuming sector. (Additional analyses and refinement of the EIA data are further
+explained in the Energy chapter of this report.) Emissions of CH 4 and N2O from mobile combustion are also
+
+2-32 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+apportioned to the transportation economic sector based on the EIA transportation fuel-consuming sector.
+Emissions of ODS substitutes are apportioned to the transportation economic sector based on emissions from
+refrigerated transport and motor vehicle air-conditioning systems. Finally, CO2 emissions from non-energy uses
+of fossil fuels identified as lubricants for transportation vehicles are included in the transportation economic
+sector.
+The industry economic sector includes CO2 emissions from the combustion of fossil fuels that are included in the
+EIA industrial fuel-consuming sector, minus the agricultural use of fuel explained below. The CH 4 and N2O
+emissions from stationary and mobile combustion are also apportioned to the industry economic sector based
+on the EIA industrial fuel-consuming sector, minus emissions apportioned to the agriculture economic sector.
+Emissions of ODS substitutes are apportioned based on their specific end-uses within the source category, with
+most emissions falling within the industry economic sector. Finally, CH4 emissions from industrial landfills and
+CH4 and N2O from industrial wastewater treatment are included in the industry economic sector.
+Additionally, all process-related emissions from sources with methods considered within the IPCC IPPU sector
+are apportioned to the industry economic sector. This includes the process-related emissions (i.e., emissions
+from the actual process to make the material, not from fuels to power the plant) from activities such as cement
+production, iron and steel production and metallurgical coke production, and ammonia production.
+Additionally, fugitive emissions from energy production sources, such as natural gas systems, coal mining, and
+petroleum systems are included in the industry economic sector. A portion of CO2 from other process uses of
+carbonates (from pollution control equipment installed in large industrial facilities) is also included in the
+industry economic sector. Finally, all remaining CO2 emissions from non-energy uses of fossil fuels are assumed
+to be industrial in nature (besides the lubricants for transportation vehicles specified above) and are attributed
+to the industry economic sector.
+The agriculture economic sector includes CO2 emissions from the combustion of fossil fuels that are based on
+supplementary sources of agriculture fuel use data, because EIA includes agriculture equipment in the industrial
+fuel-consuming sector. Agriculture fuel use estimates are obtained from U.S. Department of Agriculture survey
+data, in combination with EIA Fuel Oil and Kerosene Sales (FOKS) data (EIA 1991 through 2022). Agricultural
+operations are based on annual energy expense data from the Agricultural Resource Management Survey
+(ARMS) conducted by the National Agricultural Statistics Service (NASS) of the USDA. NASS collects information
+on farm production expenditures including expenditures on diesel fuel, gasoline, LP gas, natural gas, and
+electricity use on the farm with the annual ARMS. A USDA publication (USDA/NASS 2023) shows national totals,
+as well as selected States and ARMS production regions. These supplementary data are subtracted from the
+industrial fuel use reported by EIA to obtain agriculture fuel use. Carbon dioxide emissions from fossil fuel
+combustion, and CH4 and N2O emissions from stationary and mobile combustion, are then apportioned to the
+agriculture economic sector based on agricultural fuel use.
+The other IPCC Agriculture emission source categories apportioned to the agriculture economic sector include
+N2O emissions from agricultural soils, CH4 from enteric fermentation, CH4 and N2O from manure management,
+CH4 from rice cultivation, CO2 emissions from liming and urea application, and CH4 and N2O from field burning of
+agricultural residues.
+The residential economic sector includes CO2 emissions from the combustion of fossil fuels that are included in
+the EIA residential fuel-consuming sector. Stationary combustion emissions of CH 4 and N2O are also based on
+the EIA residential fuel-consuming sector. Emissions of ODS substitutes are apportioned to the residential
+economic sector based on emissions from residential air-conditioning systems. N2O emissions from the
+application of fertilizers to developed land (termed “settlements” by the IPCC) are also included in the
+residential economic sector.
+The commercial economic sector includes CO2 emissions from the combustion of fossil fuels that are included in
+the EIA commercial fuel-consuming sector. Emissions of CH4 and N2O from mobile combustion are also
+apportioned to the commercial economic sector based on the EIA commercial fuel-consuming sector. Emissions
+of ODS substitutes are apportioned to the commercial economic sector based on emissions from commercial
+refrigeration/air-conditioning systems. Public works sources, including direct CH4 from municipal landfills, CH4
+
+Trends
+
+2-33
+
+from anaerobic digestion at biogas facilities, CH4 and N2O from domestic wastewater treatment, and
+composting, are also included in the commercial economic sector.
+
+Emissions with Electricity Distributed to Economic Sectors
+It is also useful to view greenhouse gas emissions from economic sectors with emissions related to electric power
+distributed into end-use categories (i.e., emissions from the electric power sector are allocated to the economic
+end-use sectors in which the electricity is used). For example, greenhouse gas emissions from some economic
+sectors, i.e., commercial and residential and industry, increase substantially when indirect emissions from
+electricity end-use are included, due to the relatively large share of electricity use by buildings (75 percent of the
+electricity generated in the United States for heating, ventilation, and air conditioning; lighting; and appliances,
+etc.)9 and use of electricity for powering industrial machinery.
+The generation, transmission, and distribution of electricity directly accounted for 24.9 percent of total U.S.
+greenhouse gas emissions in 2022. Electric power-related emissions decreased by 16.1 percent since 1990 mainly
+due to fuel switching in the electric power sector. From 2021 to 2022, electric power-related emissions decreased
+by 0.4 percent. Between 2021 and 2022, the consumption of natural gas and petroleum for electric power
+generation increased by 7.6 percent and 18.9 percent, respectively, while the consumption of coal decreased by
+6.4 percent. Electric power-related emissions are still lower than pre-pandemic 2019 levels. Table 2-11 provides a
+detailed summary of emissions from electric power-related activities.
+From 2021 to 2022, electricity sales to the residential end-use sector increased by 2.6 percent. Electricity sales to
+the commercial end-use and industrial sectors increased by 4.7 percent and 2.0 percent, respectively. Overall,
+from 2021 to 2022, the amount of electricity retail sales (in kWh) increased by 3.2 percent.
+
+Table 2-11: Electric Power-Related Greenhouse Gas Emissions (MMT CO2 Eq.)
+Gas/Fuel Type or Source
+CO2
+Fossil Fuel Combustion
+Coal
+Natural Gas
+Petroleum
+Geothermal
+Incineration of Waste
+Other Process Uses of Carbonates
+CH4
+Stationary Sourcesa
+Incineration of Waste
+N2O
+Stationary Sourcesa
+Incineration of Waste
+SF6
+Electrical Equipment
+CF4
+Electrical Equipment
+Total
++ Does not exceed 0.05 MMT CO2 Eq.
+
+1990
+1,836.4
+1,820.0
+1,546.5
+175.4
+97.5
+0.5
+12.9
+3.6
+0.5
+0.5
++
+18.6
+18.2
+0.4
+24.7
+24.7
++
++
+1,880.2
+
+2005
+2,417.5
+2,400.1
+1,982.8
+318.9
+98.0
+0.5
+13.3
+4.2
+1.0
+1.0
++
+27.1
+26.7
+0.3
+11.8
+11.8
++
++
+2,457.4
+
+2018
+1,770.7
+1,753.4
+1,152.9
+577.9
+22.2
+0.4
+13.3
+4.0
+1.4
+1.4
++
+22.1
+21.7
+0.4
+5.0
+5.0
++
++
+1,799.2
+
+2019
+1,624.2
+1,606.7
+973.5
+616.6
+16.2
+0.4
+12.9
+4.5
+1.4
+1.4
++
+19.1
+18.8
+0.4
+6.1
+6.1
++
++
+1,650.8
+
+2020
+1,457.0
+1,439.6
+788.2
+634.8
+16.2
+0.4
+12.9
+4.5
+1.4
+1.4
++
+17.9
+17.5
+0.3
+5.9
+5.9
++
++
+1,482.2
+
+2021
+1,557.7
+1,540.9
+910.1
+612.8
+17.7
+0.4
+12.5
+4.3
+1.4
+1.4
++
+19.4
+19.0
+0.4
+6.0
+6.0
++
++
+1,584.4
+
+2022
+1,549.2
+1,531.7
+851.5
+659.3
+20.5
+0.4
+12.4
+5.2
+1.3
+1.3
++
+21.9
+21.6
+0.3
+5.1
+5.1
++
++
+1,577.5
+
+9 See https://www.nrel.gov/news/features/2023/nrel-researcher-reveal-how-buildings-across-the-united-states-do-and-could-
+
+use-energy.html#:~:text=Buildings%20are%20responsible%20for%2040,buildings%20stock%20is%20also%20essential.
+
+2-34 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+a Includes only stationary combustion emissions related to the generation of electricity.
+
+Note: Totals may not sum due to independent rounding.
+
+To distribute electricity emissions among economic end-use sectors, emissions from the source categories
+assigned to the electric power sector were allocated to the residential, commercial, industry, transportation, and
+agriculture economic sectors according to each economic sector’s share of retail sales of electricity (EIA 2020;
+USDA/NASS 2023). These source categories include CO2 from fossil fuel combustion, CH4 and N2O from stationary
+combustion, incineration of waste, other process uses of carbonates, and SF6 from electrical equipment. Note that
+only 50 percent of the emissions from other process uses of carbonates were associated with electric power and
+distributed as described; the remaining emissions from other process uses of carbonates were attributed to the
+industry economic end-use sector.10
+When emissions from electricity use are distributed among these economic end-use sectors, 2022 emissions from
+industrial activities account for the largest share of total U.S. greenhouse gas emissions (29.5 percent), followed
+closely by emissions from transportation (28.5 percent). Emissions from the commercial and residential sectors
+also increase substantially when emissions from electricity are included (15.8 and 15.3 percent, respectively). In all
+economic end-use sectors except agriculture, CO2 accounts for more than 78 percent of greenhouse gas emissions,
+primarily from the combustion of fossil fuels. Table 2-12 presents a detailed breakdown of emissions from each of
+these economic sectors, with emissions from electric power distributed to them. Figure 2-14 shows the trend in
+these emissions by sector from 1990 to 2022.
+
+Figure 2-14: U.S. Greenhouse Gas Emissions with Electricity-Related Emissions Distributed to
+Economic Sectors
+
+Note: Emissions and removals from Land Use, Land-Use Change, and Forestry are excluded from figure above. Excludes U.S.
+Territories.
+
+Table 2-12: U.S. Greenhouse Gas Emissions by Economic Sector and Gas with ElectricityRelated Emissions Distributed (MMT CO2 Eq.) and Percent of Total in 2022
+Emissions by Gas
+Industry
+Direct Emissions
+
+1990
+2,397.3
+1,723.3
+
+2005
+2,302.9
+1,587.3
+
+2018
+2,017.1
+1,541.9
+
+2019
+1,974.8
+1,531.8
+
+2020
+1,823.5
+1,435.9
+
+2021
+1,877.8
+1,455.8
+
+2022
+1,872.9
+1,452.5
+
+Percenta
+29.5%
+22.9%
+
+10 Emissions were not distributed to U.S. Territories, since the electric power sector only includes emissions related to the
+
+generation of electricity in the 50 states and the District of Columbia.
+
+Trends
+
+2-35
+
+CO2
+CH4
+N2O
+HFCs, PFCs, SF6 and NF3
+Electricity-Related
+CO2
+CH4
+N2O
+SF6
+Transportation
+Direct Emissions
+CO2
+CH4
+N2O
+HFCsb
+Electricity-Related
+CO2
+CH4
+N2O
+SF6
+Residential
+Direct Emissions
+CO2
+CH4
+N2O
+SF6
+Electricity-Related
+CO2
+CH4
+N2O
+SF6
+Commercial
+Direct Emissions
+CO2
+CH4
+N2O
+HFCs
+Electricity-Related
+CO2
+CH4
+N2O
+SF6
+Agriculture
+Direct Emissions
+CO2
+CH4
+N2O
+Electricity-Related
+CO2
+CH4
+N2O
+SF6
+U.S. Territories
+Total Gross Emissions
+(Sources)
+LULUCF Sector Net Totalc
+Net Emissions (Sources
+and Sinks)
+
+1,173.8
+413.3
+35.7
+100.6
+674.0
+658.3
+0.2
+6.7
+8.8
+1,524.6
+1,521.4
+1,480.8
+6.4
+34.3
++
+3.1
+3.1
++
++
++
+958.0
+345.6
+338.6
+5.9
+0.9
+0.2
+612.4
+598.1
+0.2
+6.1
+8.0
+1,002.5
+447.0
+228.3
+203.6
+15.1
++
+555.5
+542.6
+0.1
+5.5
+7.3
+631.1
+595.9
+50.5
+241.9
+303.5
+35.2
+34.3
++
+0.3
+0.5
+23.4
+
+1,136.4
+371.2
+29.8
+49.8
+715.6
+704.0
+0.3
+7.9
+3.5
+1,970.8
+1,965.9
+1,868.7
+3.1
+31.0
+63.1
+4.8
+4.8
++
+0.1
++
+1,247.7
+371.2
+358.9
+4.5
+0.8
+7.0
+876.5
+862.2
+0.3
+9.7
+4.2
+1,241.1
+418.9
+227.1
+150.9
+19.4
+21.4
+822.2
+808.9
+0.3
+9.1
+4.0
+672.6
+634.3
+58.7
+264.6
+311.0
+38.3
+37.7
++
+0.4
+0.2
+59.7
+
+1,110.7
+352.2
+30.3
+48.6
+475.3
+467.7
+0.4
+5.8
+1.3
+1,876.5
+1,871.6
+1,822.3
+1.7
+12.1
+35.5
+4.9
+4.8
++
+0.1
++
+1,035.9
+376.8
+338.9
+5.1
+0.8
+31.9
+659.1
+648.6
+0.5
+8.1
+1.8
+1,074.3
+453.5
+246.3
+125.9
+22.8
+58.5
+620.8
+611.0
+0.5
+7.6
+1.7
+722.7
+683.5
+47.0
+285.2
+351.3
+39.2
+38.6
++
+0.5
+0.1
+26.3
+
+1,118.3
+337.7
+26.0
+49.8
+443.0
+435.9
+0.4
+5.1
+1.6
+1,879.5
+1,874.6
+1,825.5
+1.7
+13.4
+34.0
+4.9
+4.9
++
+0.1
++
+984.0
+384.2
+342.9
+5.3
+0.8
+35.1
+599.7
+590.1
+0.5
+6.9
+2.2
+1,030.5
+462.6
+251.7
+127.8
+23.2
+59.8
+567.8
+558.7
+0.5
+6.6
+2.1
+696.3
+661.0
+46.9
+280.4
+333.7
+35.2
+34.7
++
+0.4
+0.1
+25.1
+
+1,036.9
+323.3
+27.6
+48.1
+387.6
+381.0
+0.4
+4.7
+1.5
+1,629.5
+1,625.3
+1,580.6
+1.4
+10.7
+32.5
+4.2
+4.1
++
+0.1
++
+919.5
+358.0
+314.8
+3.6
+0.6
+39.0
+561.5
+551.9
+0.5
+6.8
+2.2
+931.5
+436.9
+229.3
+122.9
+23.9
+60.8
+494.6
+486.2
+0.5
+6.0
+2.0
+674.4
+640.0
+47.1
+282.6
+310.3
+34.4
+33.8
++
+0.4
+0.1
+23.4
+
+1,071.1
+311.3
+26.8
+46.5
+422.0
+414.9
+0.4
+5.2
+1.6
+1,810.6
+1,805.5
+1,761.6
+1.5
+11.2
+31.2
+5.2
+5.1
++
+0.1
++
+958.0
+369.6
+318.0
+3.6
+0.6
+47.3
+588.4
+578.5
+0.5
+7.2
+2.2
+976.8
+443.7
+237.5
+120.5
+23.7
+61.9
+533.2
+524.2
+0.5
+6.5
+2.0
+681.6
+645.9
+47.4
+282.0
+316.4
+35.7
+35.1
++
+0.4
+0.1
+23.9
+
+1,080.8
+299.8
+23.6
+48.3
+420.3
+412.8
+0.3
+5.8
+1.4
+1,807.8
+1,801.5
+1,759.7
+1.5
+10.7
+29.6
+6.3
+6.2
++
+0.1
++
+973.5
+391.3
+334.1
+4.3
+0.7
+52.2
+582.2
+571.8
+0.5
+8.1
+1.9
+1,002.6
+463.7
+258.7
+118.5
+23.6
+62.9
+539.0
+529.3
+0.4
+7.5
+1.7
+663.6
+634.0
+47.9
+277.0
+309.1
+29.7
+29.2
++
+0.4
+0.1
+22.7
+
+17.0%
+4.7%
+0.4%
+0.8%
+6.6%
+6.5%
++%
+0.1%
++%
+28.5%
+28.4%
+27.7%
++%
+0.2%
+0.5%
+0.1%
+0.1%
++%
++%
++%
+15.3%
+6.2%
+5.3%
+0.1%
++%
+0.8%
+9.2%
+9.0%
++%
+0.1%
++%
+15.8%
+7.3%
+4.1%
+1.9%
+0.4%
+1.0%
+8.5%
+8.3%
++%
+0.1%
++%
+10.5%
+10.0%
+0.8%
+4.4%
+4.9%
+0.5%
+0.5%
++%
++%
++%
+0.4%
+
+6,536.9
+(976.7)
+
+7,494.6
+(907.7)
+
+6,752.7
+(915.5)
+
+6,590.1
+(863.6)
+
+6,001.8
+(904.4)
+
+6,328.8
+(910.6)
+
+6,343.2
+(854.2)
+
+100.0%
+(13.5%)
+
+5,560.2
+
+6,586.9
+
+5,837.3
+
+5,726.6
+
+5,097.4
+
+5,418.2
+
+5,489.0
+
+86.5%
+
+2-36 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
++ Does not exceed 0.05 MMT CO2 Eq. or 0.05 percent.
+a Percent of total (gross) emissions excluding emissions from LULUCF for the year 2022.
+b Includes primarily HFC-134a.
+c The LULUCF sector net total is the net sum of all LULUCF CH and N O emissions to the atmosphere plus LULUCF net carbon
+4
+2
+stock changes.
+Notes: Total gross emissions are presented without LULUCF. Net emissions are presented with LULUCF. Emissions from
+electric power are allocated based on aggregate electricity use in each end-use sector. Totals may not sum due to
+independent rounding.
+
+Industry
+The industry economic sector includes CO2 emissions from fossil fuel combustion from all manufacturing facilities,
+in aggregate, and with the distribution of electricity-related emissions (e.g., powering industrial machinery),
+accounted for 29.5 percent of U.S. greenhouse gas emissions in 2022. This end-use sector also includes emissions
+that are produced as a byproduct of the non-energy-related industrial process activities. The variety of activities
+producing these non-energy-related emissions includes CH4 emissions from petroleum and natural gas systems,
+fugitive CH4 and CO2 emissions from coal mining, byproduct CO2 emissions from cement production, and HFC, PFC,
+SF6, and NF3 byproduct emissions from the electronics industry, to name a few.
+Since 1990, industry sector emissions have declined by 21.9 percent. The decline has occurred both in direct
+emissions and indirect emissions associated with electricity use. Structural changes within the U.S. economy that
+led to shifts in industrial output away from energy-intensive manufacturing products to less energy-intensive
+products (e.g., shifts from producing steel to computer equipment) have had a significant effect on industrial
+emissions.
+
+Transportation
+When electricity-related emissions are distributed to economic end-use sectors, transportation activities
+accounted for 28.5 percent of U.S. greenhouse gas emissions in 2022. The largest sources of transportation
+greenhouse gas emissions in 2022 were light-duty trucks, which include sport utility vehicles, pickup trucks, and
+minivans (36.5 percent); medium- and heavy-duty trucks (22.9 percent); passenger cars (20.4 percent); commercial
+aircraft (7.2 percent); pipelines (3.8 percent); ships and boats (2.8 percent); other aircraft (2.0 percent), and rail
+(2.0 percent). These figures include direct CO2, CH4, and N2O emissions from fossil fuel combustion used in
+transportation, indirect emissions from electricity use, and emissions from non-energy use (i.e., lubricants) used in
+transportation, as well as HFC emissions from mobile air conditioners and refrigerated transport allocated to these
+vehicle types.
+From 1990 to 2022, total transportation emissions from fossil fuel combustion increased by 19.4 percent due, in
+large part, to increased demand for travel. From 2021 to 2022, emissions decreased by 0.1 percent. Vehicle miles
+traveled (VMT) by light-duty motor vehicles (passenger cars and light-duty trucks) increased by 46.7 percent from
+1990 to 2022 as a result of a confluence of factors including population growth, economic growth, urban sprawl,
+and periods of low fuel prices. The primary driver of transportation-related emissions was CO2 from fossil fuel
+combustion, which increased by 19.4 percent from 1990 to 2022 when including electricity. This rise in CO2
+emissions, combined with an increase in HFCs from close to zero emissions in 1990 to 29.6 MMT CO2 Eq. in 2022,
+led to an increase in overall greenhouse gas emissions from transportation activities of 18.6 percent.
+The decline in new light-duty vehicle fuel economy between 1990 and 2004 reflected the increasing market share
+of light-duty trucks, which grew from approximately 29.6 percent of new vehicle sales in 1990 to 48.0 percent in
+2004. Starting in 2005, average new vehicle fuel economy began to increase while light-duty VMT grew only
+modestly between 2005 and 2013. Light-duty VMT grew by less than one percent or declined each year between
+2005 and 2013, then grew at a faster rate until 2016 (2.6 percent from 2014 to 2015, and 2.5 percent from 2015 to
+2016). Since 2016, the rate of light-duty VMT growth has slowed to one percent or less each year. Average new
+vehicle fuel economy has increased almost every year since 2005, while light-duty truck market share decreased to
+
+Trends
+
+2-37
+
+33.0 percent in 2009 and has since varied from year to year between 35.6 and 63.1 percent. Light-duty truck
+market share was about 63.1 percent of new vehicles in model year 2022 (EPA 2023b).
+Table 2-13 provides a detailed summary of greenhouse gas emissions from transportation-related activities with
+electricity-related emissions included in the totals. Historically, the majority of electricity use in the transportation
+sector was for rail transport. However, more recently there has been increased electricity use in on-road electric
+and plug-in hybrid vehicles. Despite this increase, almost all of the energy used for transportation was supplied by
+petroleum-based products, with more than half being related to gasoline consumption in automobiles and other
+highway vehicles. Other fuel uses, especially diesel fuel for freight trucks and jet fuel for aircraft, accounted for the
+remainder. Indirect emissions from electricity are less than 1 percent of direct emissions in the transportation
+sector. For a more detailed breakout of emissions by fuel type by vehicle see Table A-93 in Annex 3.
+
+Figure 2-15: Trends in Transportation-Related Greenhouse Gas Emissions
+
+Table 2-13: Transportation-Related Greenhouse Gas Emissions (MMT CO2 Eq.)
+Gas/Vehicle Type
+Passenger Cars
+CO2
+CH4
+N2O
+HFCs
+Light-Duty Trucks
+CO2
+CH4
+N2O
+HFCs
+
+1990
+648.4
+622.2
+3.8
+22.5
+0.0
+302.4
+292.1
+1.5
+8.7
+0.0
+
+2005
+564.4
+521.1
+1.2
+13.3
+28.8
+659.3
+614.0
+1.0
+14.0
+30.2
+
+2018
+398.7
+386.5
+0.3
+2.5
+9.4
+720.6
+699.0
+0.6
+4.6
+16.4
+
+2-38 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+2019
+395.5
+384.2
+0.3
+2.6
+8.4
+711.7
+690.1
+0.6
+5.6
+15.4
+
+2020
+341.7
+331.9
+0.3
+2.0
+7.6
+615.3
+596.2
+0.5
+4.4
+14.2
+
+2021
+374.2
+365.0
+0.3
+1.9
+7.0
+671.7
+654.0
+0.5
+4.2
+13.0
+
+2022
+369.5
+361.0
+0.2
+1.7
+6.6
+660.2
+644.5
+0.5
+3.8
+11.4
+
+Medium- and Heavy-Duty Trucks
+234.5
+391.0
+406.5
+409.3
+386.7
+417.0
+413.1
+CO2
+233.1
+386.2
+397.9
+400.3
+377.8
+407.7
+403.6
+CH4
+0.5
+0.2
+0.1
+0.1
+0.1
+0.1
+0.1
+N2O
+1.0
+1.5
+2.8
+3.0
+2.7
+3.0
+3.1
+HFCs
+0.0
+3.2
+5.6
+5.8
+6.1
+6.3
+6.3
+Buses
+13.3
+17.8
+24.9
+25.3
+24.0
+26.1
+26.3
+CO2
+13.2
+17.5
+24.3
+24.7
+23.4
+25.6
+25.7
+CH4
++
++
++
++
++
++
++
+N2O
+0.1
+0.1
+0.2
+0.2
+0.2
+0.2
+0.2
+HFCs
+0.0
+0.2
+0.4
+0.4
+0.4
+0.4
+0.4
+Motorcycles
+3.4
+5.0
+7.4
+7.5
+6.7
+7.5
+7.6
+CO2
+3.4
+4.9
+7.3
+7.4
+6.6
+7.4
+7.4
+CH4
++
++
++
++
++
++
++
+N2O
++
++
+0.1
+0.1
+0.1
+0.1
+0.1
+Commercial Aircrafta
+110.8
+133.8
+130.7
+137.8
+92.0
+120.0
+130.8
+CO2
+109.9
+132.7
+129.6
+136.7
+91.3
+119.0
+129.7
+CH4
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+N2O
+0.9
+1.1
+1.1
+1.1
+0.7
+1.0
+1.1
+Other Aircraftb
+78.0
+59.5
+44.6
+45.6
+31.0
+35.5
+37.0
+CO2
+77.3
+59.0
+44.2
+45.2
+30.7
+35.1
+36.7
+CH4
+0.1
+0.1
++
++
++
++
++
+N2O
+0.6
+0.5
+0.4
+0.4
+0.2
+0.3
+0.3
+Ships and Boatsc
+47.0
+45.5
+41.1
+40.0
+32.2
+50.7
+49.9
+CO2
+46.3
+44.3
+36.9
+35.5
+27.5
+45.4
+44.4
+CH4
+0.4
+0.5
+0.5
+0.4
+0.4
+0.5
+0.5
+N2O
+0.2
+0.2
+0.2
+0.2
+0.1
+0.3
+0.3
+HFCs
+0.0
+0.5
+3.6
+3.9
+4.2
+4.5
+4.8
+Rail
+39.0
+51.4
+42.5
+39.7
+34.2
+35.5
+35.6
+CO2
+38.5
+50.8
+41.9
+39.1
+33.7
+34.9
+35.0
+CH4
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+N2O
+0.3
+0.4
+0.3
+0.3
+0.3
+0.3
+0.3
+HFCs
+0.0
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+Other Emissions from Electric
+Powerd
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+Pipelinese
+36.0
+32.8
+50.3
+58.3
+58.0
+64.4
+69.3
+CO2
+36.0
+32.8
+50.3
+58.3
+58.0
+64.4
+69.3
+Lubricants
+11.8
+10.2
+9.2
+8.8
+7.8
+8.0
+8.4
+CO2
+11.8
+10.2
+9.2
+8.8
+7.8
+8.0
+8.4
+Total Transportation
+1,524.6
+1,970.8
+1,876.5
+1,879.5
+1,629.5
+1,810.6
+1,807.8
+International Bunker Fuelsf
+54.7
+44.6
+32.4
+26.2
+22.7
+22.7
+25.3
+Ethanol CO2g
+4.1
+21.6
+78.6
+78.7
+68.1
+75.4
+75.0
+Biodiesel CO2g
+0.0
+0.9
+17.9
+17.1
+17.7
+16.1
+15.6
++ Does not exceed 0.05 MMT CO2 Eq.
+a Consists of emissions from jet fuel consumed by domestic operations of commercial aircraft (no bunkers).
+b Consists of emissions from jet fuel and aviation gasoline consumption by general aviation and military aircraft.
+c Fluctuations in emission estimates are associated with fluctuations in reported fuel consumption and may reflect issues with
+data sources.
+d Other emissions from electric power are a result of waste incineration (as the majority of MSW is combusted in “trash-tosteam” electric power plants), electrical equipment, and a portion of other process uses of carbonates (from pollution
+control equipment installed in electric power plants).
+e CO estimates reflect natural gas used to power pipelines, but not electricity. While the operation of pipelines produces CH
+2
+4
+and N2O, these emissions are not directly attributed to pipelines in the Inventory.
+f Emissions from International Bunker Fuels include emissions from both civilian and military activities; these emissions are
+not included in the transportation totals.
+
+Trends
+
+2-39
+
+g Ethanol and biodiesel CO
+
+2 estimates are presented for informational purposes only. See Section 3.11 and the estimates in
+LULUCF (see Chapter 6), in line with IPCC methodological guidance and reporting obligations under the Paris Agreement and
+the UNFCCC, for more information on ethanol and biodiesel.
+Notes: Passenger cars and light-duty trucks include vehicles typically used for personal travel and less than 8,500 lbs;
+medium- and heavy-duty trucks include vehicles larger than 8,500 lbs. HFC emissions primarily reflect HFC-134a. Totals may
+not sum due to independent rounding.
+
+Residential
+The residential end-use sector, including electricity-related emissions, accounted for 15.3 percent of U.S.
+greenhouse gas emissions in 2022. This sector is heavily reliant on electricity for meeting energy needs, with
+electricity use for building-related activities like lighting, heating, air conditioning, and operating appliances. The
+remaining emissions were largely due to the direct consumption of natural gas and petroleum products, primarily
+for heating and cooking needs. Emissions from the residential sector have generally been increasing since 1990,
+and annual variations are often correlated with short-term fluctuations in energy use caused by weather
+conditions, rather than prevailing economic conditions. In the long term, the residential sector is also affected by
+population growth, migration trends toward warmer areas, and changes in housing and building attributes (e.g.,
+larger sizes and improved insulation). A shift toward energy-efficient products and more stringent energy
+efficiency standards for household equipment has also contributed to recent trends in energy demand in
+households.
+
+Commercial
+The commercial end-use sector, including electricity-related emissions, accounted for 15.8 percent of U.S.
+greenhouse gas emissions in 2022. Like the residential sector it is heavily reliant on electricity for meeting energy
+needs, with electricity use for building-related activities like lighting, heating, air conditioning, and operating
+appliances. The remaining emissions were largely due to the direct consumption of natural gas and petroleum
+products, primarily for heating and cooking needs. Energy-related emissions from the commercial sector have
+generally been increasing since 1990, and annual variations are often correlated with short-term fluctuations in
+energy use caused by weather conditions, rather than prevailing economic conditions. Decreases in energy-related
+emissions in the commercial sector in recent years can be largely attributed to an overall reduction in energy use
+driven by a reduction in heating degree days and increases in energy efficiency.
+Municipal landfills and wastewater treatment are included in the commercial sector, with landfill emissions
+decreasing since 1990 and wastewater treatment emissions increasing slightly.
+
+Agriculture
+The agriculture end-use sector accounted for 10.5 percent of U.S. greenhouse gas emissions in 2022 when
+electricity-related emissions are distributed, and includes a variety of processes, including enteric fermentation in
+domestic livestock, livestock manure management, and agricultural soil management. In 2022, agricultural soil
+management was the largest source of N2O emissions, and enteric fermentation was the largest source of CH 4
+emissions in the United States. This sector also includes small amounts of CO 2 emissions from fossil fuel
+combustion by motorized farm equipment such as tractors. Indirect emissions from electricity use in agricultural
+activities (e.g., powering buildings and equipment) are about 5 percent of direct emissions.
+
+Box 2-2: Trends in Various U.S. Greenhouse Gas Emissions-Related Data
+Total (gross) greenhouse gas emissions can be compared to other economic and social indices to highlight
+changes over time. These comparisons include: (1) aggregate energy use, because energy-related activities are
+the largest sources of emissions; (2) energy use per capita as a measure of efficiency; (3) emissions per unit of
+total gross domestic product as a measure of national economic activity; and (4) emissions per capita.
+
+2-40 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Table 2-14 provides data on various statistics related to U.S. greenhouse gas emissions normalized to 1990 as a
+baseline year. These values represent the relative change in each statistic since 1990. Greenhouse gas emissions
+in the United States have decreased at an average annual rate of 0.1 percent since 1990, although changes from
+year to year have been significantly larger. This growth rate is slightly slower than that for total energy use,
+overall gross domestic product (GDP) and national population (see Table 2-14 and Figure 2-16). The direction of
+these trends started to change after 2005, when greenhouse gas emissions, total energy use and associated
+fossil fuel consumption began to peak. Greenhouse gas emissions in the United States have decreased at an
+average annual rate of 0.9 percent since 2005. Since 2005, GDP, and national population, generally continued to
+increase, and energy use has decreased slightly, noting 2020 was impacted by the COVID-19 pandemic.
+
+Table 2-14: Recent Trends in Various U.S. Data (Index 1990 = 100)
+
+Variable
+1990
+2005
+2018
+Greenhouse Gas
+Emissionsb
+100
+115
+103
+Energy Usec
+100
+119
+118
+GDPd
+100
+159
+201
+Populatione
+100
+118
+130
+a Average annual growth rate.
+b Gross total GWP-weighted values.
+c Energy-content-weighted values (EIA 2024).
+d GDP in chained 2017 dollars (BEA 2024).
+e U.S. Census Bureau (2024).
+
+2019
+
+2020
+
+2021
+
+2022
+
+Avg. Annual
+Change
+Since 1990a
+
+101
+117
+206
+131
+
+92
+107
+201
+132
+
+97
+113
+213
+132
+
+97
+115
+217
+133
+
+-0.1%
+0.5%
+2.5%
+0.9%
+
+Avg. Annual
+Change
+Since 2005a
+-0.9%
+-0.2%
+1.9%
+0.7%
+
+Figure 2-16: U.S. Greenhouse Gas Emissions Per Capita and Per Dollar of Gross Domestic
+Product
+
+Source: BEA (2024), U.S. Census Bureau (2024), and gross emission estimates in this report.
+
+Trends
+
+2-41
+
+2.3 Precursor Greenhouse Gas Emissions
+(CO, NOx, NMVOCs, and SO2)
+The reporting requirements of the Paris Agreement and the UNFCCC 11 request that information be provided on
+emissions of compounds that are precursors to greenhouse gases, which include carbon monoxide (CO), nitrogen
+oxides (NOx), non-methane volatile organic compounds (NMVOCs), and sulfur dioxide (SO 2). These gases are not
+direct greenhouse gases, but can indirectly impact Earth’s radiative balance, by altering the concentrations of
+other greenhouse gases (e.g., tropospheric ozone) and atmospheric aerosol (e.g., particulate sulfate). Carbon
+monoxide is produced when carbon-containing fuels are combusted incompletely in energy, transportation, and
+industrial processes, and is also emitted from practices such as agricultural burning and waste disposal and
+treatment. Anthropogenic sources of nitrogen oxides (i.e., NO and NO 2) are primarily fossil fuel combustion (for
+energy, transportation, industrial process) and agricultural burning. Anthropogenic sources of NMVOCs, which
+include hundreds of organic compounds that participate in atmospheric chemical reactions (propane, butane,
+xylene, toluene, ethane, and many others)—are emitted primarily from transportation, industrial processes, oil
+and natural gas production, waste practices, agricultural burning, and non-industrial consumption of organic
+solvents. In the United States, SO2 is primarily emitted from coal combustion for electric power generation and the
+metals industry.
+75F
+
+As noted above and summarized in Chapter 6 of IPCC (2021), these compounds can have important indirect effects
+on Earth’s radiative balance. For example, reactions between NMVOCs and NO x in the presence of sunlight lead to
+formation of tropospheric ozone, a greenhouse gas. Concentrations of NMVOCs, NO x, and CO can also impact the
+abundance and lifetime of primary greenhouse gases. This largely occurs by altering the atmospheric
+concentrations of the hydroxyl radical (OH), which is the main sink for atmospheric CH4. For example, NOx
+emissions can lead to increases in O3 concentrations and subsequent OH production, which will increase the
+amount of OH molecules that are available to destroy CH4. In contrast, NMVOCs and CO can both react directly
+with OH, leading to lower OH concentrations, a longer atmospheric lifetime of CH 4, and a decrease in CO2
+production (i.e., CO+OH→ CO2). Changes in atmospheric CH4 can also feedback on background concentrations of
+tropospheric O3. Other indirect impacts include the formation of sulfate and nitrate aerosol from emissions of NO x
+and SO2, both of which have a net negative impact on radiative forcing.
+Since 1970, the United States has published triennial estimates of emissions of CO, NO x, NMVOCs, and SO2 (EPA
+2023a), which are regulated under the Clean Air Act. Emissions of each of these precursor greenhouse gases has
+decreased significantly since 1990 as a result of implementation of Clean Air Act programs, as well as technological
+improvements. 12 Precursor emission estimates for this report for 1990 through 2022 were obtained from data
+published on EPA’s National Emissions Inventory (NEI) Air Pollutants Emissions Trends Data website (EPA 2023a).
+For Table 2-15, NEI-reported emissions of CO, NOx, SO2, and NMVOCs are recategorized from NEI Emissions
+Inventory System (EIS) source categories to those more closely aligned with reporting sectors and categories under
+the Paris Agreement and the UNFCCC, based on the crosswalk detailed in Annex 6.3. Table 2-15 shows that fuel
+combustion accounts for the majority of emissions of these precursors. Industrial processes—such as the
+manufacture of chemical and allied products, metals processing, and industrial uses of solvents—are also
+significant sources of CO, NOx, and NMVOCs. Precursor emissions from Agriculture and LULUCF categories are
+estimated separately and therefore are not taken from EPA (2023a).
+76F
+
+11 See paragraph 51 of Annex to 18/CMA.1 available online at:
+
+https://unfccc.int/sites/default/files/resource/CMA2018_03a02E.pdf.
+12 More information is available online at: https://www.epa.gov/clean-air-act-overview/progress-cleaning-air-and-improvingpeoples-health and https://gispub.epa.gov/neireport/2017/.
+
+2-42 Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990–2022
+
+Table 2-15: Emissions of NOx, CO, NMVOCs, and SO2 (kt)
+Gas/Activity
+1990
+2005
+2018
+2019
+2020
+2021
+2022
+NOx
+22,896
+19,754
+8,064
+7,639
+6,879
+6,996
+6,589
+Energy
+21,966
+18,863
+7,384
+7,048
+6,235
+6,308
+5,964
+IPPU
+774
+672
+461
+440
+393
+403
+389
+Agriculture
+16
+18
+17
+18
+17
+18
+19
+LULUCF
+56
+149
+130
+61
+158
+190
+142
+Waste
+84
+51
+73
+73
+76
+76
+75
+CO
+133,549
+76,691
+38,656
+36,234
+38,911
+41,677
+38,853
+Energy
+124,713
+64,455
+30,760
+30,349
+28,427
+28,845
+28,173
+IPPU
+4,099
+1,701
+1,022
+1,011
+855
+902
+897
+Agriculture
+407
+480
+433
+468
+446
+480
+501
+LULUCF
+3,301
+8,877
+5,259
+3,224
+7,841
+10,107
+7,939
+Waste
+1,028
+1,178
+1,182
+1,182
+1,342
+1,343
+1,343
+NMVOCs
+20,918
+12,708
+8,987
+8,804
+9,040
+9,454
+9,325
+Energy
+13,067
+8,694
+5,506
+5,444
+5,306
+5,568
+5,442
+IPPU
+6,982
+3,668
+3,119
+2,996
+3,366
+3,508
+3,505
+Agriculture
++
+194
+206
+208
+196
+206
+206
+LULUCF
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+Waste
+870
+152
+156
+157
+173
+172
+172
+SO2
+20,924
+13,108
+2,001
+1,676
+1,471
+1,621
+1,522
+Energy
+19,400
+12,312
+1,643
+1,344
+1,173
+1,315
+1,229
+IPPU
+1,488
+776
+335
+309
+266
+274
+261
+Agriculture
++
+0
+0
+0
++
++
++
+LULUCF
+NA
+NA
+NA
+NA
+NA
+NA
+NA
+Waste
+36
+20
+23
+23
+33
+32
+31
++ Does not exceed 0.5 kt.
+NA (Not Available)
+Note: Totals by gas may not sum due to independent rounding.
+Source: (EPA 2023a) except for estimates from forest fires, grassland fires, and field burning of agricultural residues. Emission
+categories from EPA (2023a) are aggregated into sectors and categories reported under the Paris Agreement and the
+UNFCCC as shown in Table ES-3.
+
+Trends
+
+2-43
+
+
