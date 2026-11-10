@@ -45,7 +45,7 @@ The project specifies a core of defining commitments first, to a professional st
 | # | Flagship | What it brings together |
 | --- | --- | --- |
 | 1 | **A secure floor for every household** | Monthly child benefit, income support and participation help, paid leave, Social Security protection |
-| 2 | **Care you can count on** | Health coverage restored and extended, a public option, care at home for all ages, child care and pre-K, the care workforce |
+| 2 | **Care you can count on** | Health coverage restored and extended to everyone, by single-payer Medicare for All, a public option or a staged path between them (weighed in full in the care dossier), care at home for all ages, child care and pre-K, the care workforce |
 | 3 | **A home you can keep** | Rental help as a guarantee, building and repair, zoning incentives |
 | 4 | **Clean, affordable power and a prepared country** | Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition |
 | 5 | **Fair pay and real power at work** | Labor law, wage floors, sectoral standards, support when jobs change |
@@ -111,7 +111,7 @@ The models are also a professional product: validated analytical and policymakin
 | Core model | Serves | Built from |
 | --- | --- | --- |
 | **Household model:** taxes, benefits, poverty and distribution for real household types | Flagships 1, 2, 3, 5 and 6; the fairness test | The incidence model and the child-poverty microsimulation, unified |
-| **Health coverage model:** coverage, premiums, out-of-pocket costs and federal cost under restoration, the public option and Medicare changes | Flagship 2 | New, starting simple and benchmarked to CBO's coverage estimates |
+| **Health coverage model:** coverage, premiums, out-of-pocket costs and federal cost under restoration, a public option, single-payer Medicare for All, staged paths between them and Medicare changes | Flagship 2 | New, starting simple and benchmarked to CBO's coverage estimates |
 | **Federal budget model:** costs, revenues, the fiscal rule, trust funds | Every dossier; fair financing | The ledger, fiscal, recovery-budget and fund models |
 | **Energy and climate model:** emissions, prices, bills, dividends | Flagship 4 | The carbon model and the climate portfolio tools |
 | **Housing model:** assistance reach, rents, supply | Flagship 3 | New, small and evidence-based |
