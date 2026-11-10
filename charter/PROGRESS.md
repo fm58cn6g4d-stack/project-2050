@@ -10,11 +10,13 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBuj6qYPfkf6a7uYH69` | Project 2050: lead | November 10 |
-| Reviewer | `session_01UQzgBuFWeZrsZdcaG9sMkZ` | Project 2050: reviewer | November 10; woken by the reviewer scheduled task `trig_015EmnThrjyxP9fc1C1M1TQx` (older tasks `trig_01FZTMijXSFbmgJQqdmwxtkN`, `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex reviews again; ask it by PR comment where its review matters (budget model milestones) |
+| Lead | `session_01UQzgBtSLEoy7fgPMAW76LL` | Project 2050: lead | November 10 (from about 06:20 UTC) |
+| Reviewer | `session_01UQzgBwM92trGLhKkGBSjEP` | Project 2050: reviewer | November 10, about 06:12 UTC; woken by the reviewer scheduled task `trig_012Z7PTs2E1GqeqJcmybLXc6` (older tasks `trig_015EmnThrjyxP9fc1C1M1TQx`, `trig_01FZTMijXSFbmgJQqdmwxtkN`, `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex reviews again; ask it by PR comment where its review matters (budget model milestones) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions**
+- Lead `session_01UQzgBuj6qYPfkf6a7uYH69`: housing close-out (ROAD funding, memo 13, the milestone review and its fixes, the model booking), the two process rules (`DEC-2026-11-10-05`, `-07`), the start of transportation and stage D care; November 10.
+- Reviewer `session_01UQzgBuFWeZrsZdcaG9sMkZ`: PRs #183 to #204; November 10.
 - Lead `session_01UQzgBwqphpchudhq51her6`: housing section 3 addendum (memos 9-12, `DEC-2026-11-09-19` to `-25`), the USDA rural and ROAD funding work, two reviewer handovers; November 9 to 10.
 - Lead `session_01UQzgBx6gAsCr9hXdHVxrQy`: stage A reset, stage B, stage C housing through section 9, and the budget side quest coordination; October 28 to November 9.
 - Reviewer `session_01UQzgBsqHbGYJ5i5GLpEhWu`: PRs #171 to #182; November 9 to 10.
@@ -24,22 +26,27 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - Reviewer `session_01UQzgBtEveznkR76gmgDdVm`: PRs #133 to #144; November 9.
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
-**Lead handoff (November 10, 2026, about 00:05 UTC)** from `session_01UQzgBwqphpchudhq51her6` (context near 600,000 tokens).
-- **Done November 9 evening.** The housing section 3 addendum is complete. It covers memos 9-12 (homebuying, broad supply, repair, aging in place), decided as `DEC-2026-11-09-19` to `-25` and folded into sections 4-8 (#164, #166, #167, #169). Housing is now about $0.77 trillion over FY2030-39, and FY2040 fails the fiscal rule by about $26 billion on permanent lines ($36 billion with tails); FY2041 passes. Espen's USDA rural direction and the ROAD funding direction are under "Directions for later stages".
-- **Open PRs, each with its author and the current reviewer:**
-  - #171: R1, `dossiers/foundations/rural-delivery.md`, by `session_01UQzgBvWByAs3q58xbKZE5R`.
-  - #172: 6a, the ROAD funding map, by `session_01UQzgBuensvNj3gHoEFpwwg`. It carries **four questions for Espen**, sent to them November 9 in the lead session; they had not answered at handoff. On a yes, record a `DEC-` entry (tier 3).
-  - #173: 6b, the section 9 update, by `session_01UQzgBwhTRTNETarTTSN1jB`.
-- **Next** (updated November 10 after housing fix step 7, #193): transportation (step 7) and stage D health, side by side. Housing is closed for this stage (L3 passed, #194); Espen's strategic review of housing is done (November 10, no changes). The November 9 items (row 4j, the section 7 refresh, the milestone review) are done.
-- **Still proposed, not decided** (carried from the November 9 note; both since answered by Espen, recorded in #183): each state's share of the direct production count and the rural high-cost credit boost. The full list of open housing items is under "Questions for Espen", item 1f.
-- **How Espen works.** They answer in whichever session is in front of them, worker sessions included. Verify their words in that session's events, then record a `DEC-` entry; only Espen applies `espen-approved`. Apply the design lens (`DEC-2026-11-09-13`) to every recommendation. Keep updates short and plain, with clear asks.
-- **Reviewer.** `session_01UQzgBsqHbGYJ5i5GLpEhWu` since November 9 at 23:38 (now `session_01UQzgBuFWeZrsZdcaG9sMkZ`, see Standing sessions). Codex reviews again. Ask the reviewer by `review-request` for every PR you open.
+**Lead handoff (November 10, 2026, about 06:20 UTC)** from `session_01UQzgBuj6qYPfkf6a7uYH69` (context past 600,000 tokens).
+- **Done November 10.** Housing closed for this stage: L3 passed (#194), Espen's strategic review done with no changes. Decisions `DEC-2026-11-10-01` to `-08` are recorded, including two project-wide rules in `charter/STANDARDS.md`: "Fiscal rule in dossiers: report, don't gate" (`-05`) and "What needs an answer now" (`-07`). Transportation's design is decided (`-08`, OUT-12 added); flagship 2's wording now weighs Medicare for All in full (#195).
+- **Active workers (report-back: the lead):**
+  - `session_01UQzgBwXNwbx5kD8HeRqJxn`, transportation row 7. #203 (sections 4-9) is in re-review. Then PR 4 (template fixes, on `claude/template-fixes`), then row 7r, the milestone review, which needs a fresh independent session. Context about 585,000: give 7r and anything after PR 4 to new sessions.
+  - `session_01UQzgBteuY7VHnyGhjMpgaF`, care, health first. #202 (health memo set) waits for #204 (coverage model fixes) and the reviewer's re-review. Context about 510,000: once Espen answers, record the DECs, then brief a fresh session for health sections 4-9.
+- **Waiting on Espen:** the health memo set in #202 (five memos and seven yes-or-no points). Espen will read and answer on the morning of November 11. Use the corrected figures: single payer about $3.4-3.5 trillion a year in 2032; the staged path $17-28 trillion (2037 endpoint) or $3-22 trillion (2040) over FY2030-39; about $5.5 trillion a year by FY2040. Record the answers in one tier-3 PR.
+- **Espen's exploratory idea**, a rural health service under USDA RD, is yes-or-no point 7(f) in #202. The memo recommends scaling USDA's existing Community Facilities program and using its offices as a front door, not a new service. It was framed as exploration, not a commitment.
+- **How Espen works.** They answer in whichever session is in front of them, worker sessions included. Verify their words in that session's events, then record a `DEC-` entry; only Espen applies `espen-approved`. Apply the design lens (`DEC-2026-11-09-13`) to every recommendation. Keep updates short and plain, with clear asks. Espen asked for more speed and efficiency (November 10).
 - **Lessons.**
-  - The gate's "merging now" can come before an out-of-date check. Report a merge only on the closed event.
-  - #157 merged before a late commit landed. Check that a handoff branch's last commit is on main.
-  - Update a PR's branch with GitHub's update rather than pushing, so approvals carry over.
-  - Work efficiently (Espen, November 10): one PR at a time on overlapping files (the board included), each started from main after the last merges; the mid-tier model for mechanical fixes and fold-ins; reuse a live session that holds the context; batch Espen's decisions into one tier-3 PR; the lead relies on workers' done messages rather than watching every PR.
-- **Scheduled check-ins bound to the lead:** none pending (both one-shots fired).
+  - Report a merge only on the closed event, or `merged: true`.
+  - Update a PR's branch with GitHub's update rather than pushing, so approvals carry over. When the update tool refuses with a head mismatch, ask the PR's author to update it.
+  - With two dossiers merging often, tier-3 PRs fall behind within minutes. Espen labels when ready and tells the lead, and the lead updates the branch at once; the label carries over.
+  - Work efficiently (Espen, November 10):
+    - one PR at a time on overlapping files (the board included), each started from main after the last merges;
+    - the mid-tier model, or subagents, for mechanical work;
+    - reuse a live session that holds the context;
+    - batch Espen's decisions into one tier-3 PR per round;
+    - the lead relies on workers' done messages rather than watching every PR.
+  - Reserve source and evidence ID ranges per dossier: care has SRC-3000 to 3499, transportation SRC-3500 to 3599.
+  - Each standing session fills its context in about 6 to 12 hours of heavy work. Check `get_session` at each board update and hand over before 600,000 tokens.
+- **Scheduled check-ins bound to the lead:** none pending.
 
 ## Now
 
