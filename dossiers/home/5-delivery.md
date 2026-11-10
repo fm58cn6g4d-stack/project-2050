@@ -139,6 +139,18 @@ ERA built about 740 grantees almost from nothing in 2021 [SRC-1068], spent about
 4. **The tax match starts in FY2031,** so states can pass laws in their 2030 sessions. Treasury publishes the standards in 2029-30; a state files its relief law and its 2028 spending base, and the match follows.
 5. **Legal help and coordinators** run through HUD's existing housing counseling and multifamily grant channels from FY2030 and FY2031.
 
+### 2.9 The rural channel (memo 13)
+
+**What the record shows.** Rural Development's own staff take and decide applications in state offices (Congressional Research Service) [EV-HOU-778], but its staff fell to about 3,058 in FY2026 and USDA plans to keep that level [EV-HOU-777]. Money went unspent: House members warned that about $232 million of FY2026's direct home loan money could expire [EV-HOU-780]. Its single-family loan system is a mainframe [EV-HOU-782].
+
+**Fixes and order.**
+1. **Day one, January 2029 (HOU-14.06).** USDA restores the 80% loan limit, packaging fees and single approval by handbook, keeps origination local, offers rent help before maturing mortgages, and starts the rulemaking that drops Section 504's age, assets and repayment rules. None waits for R2.
+2. **Hiring first (HOU-14.01).** Hiring starts with R2's money in FY2030 and reaches about 5,000 staff by FY2032. Loan levels (HOU-14.02) rise on the same path, so money does not outrun the people who lend it.
+3. **The rural repair door (HOU-12.01, item 11).** USDA and HUD sign an interagency agreement within 90 days of R2; USDA's share flows by transfer once its offices have repair specialists in place. Until then states run the whole rural share, so no owner waits on the agreement.
+4. **One loan system in stages.** Single-family first, by FY2032; the old system runs in parallel until the new one passes a test of its records.
+5. **The rural map (HOU-14.05).** USDA publishes the new map and the count of places and people gaining and losing eligibility before it takes effect, then each year for five years. The map takes effect only when the loan system checks addresses against it. No household loses help in the change.
+6. **Published speed.** Quarterly decision times by state from 2029, so the claim that local offices deliver can be checked.
+
 ## 3. Timeline, 2029-2038
 
 ### The vehicles in the calendar

@@ -201,6 +201,19 @@ Outcomes the triggers protect: OUT-04 (a home people can keep), OUT-02 (planning
 - **What we'd do instead.** Waits: shift money toward grantees that spend it and add contractor help. Reach: guidance on order of need, not a quota. Rents: a longer term for repeat borrowers. Tax match: simpler standards or a higher match rate in early years. Older-adult track: keep the repairs, drop the visits, and leave the clinical part to care.
 - **Kind.** Review. None of these ends a household's help once given.
 
+### 1.16 The rural channel (memo 13; HOU-14.01 to .06, HOU-12.01 item 11, HOU-10.01 item 10)
+
+- **Main uncertainties.** Whether USDA can hire back to about 5,000 staff in three years; whether a new loan system works on time [EV-HOU-782]; whether direct loans at scale stay current, given that nearly a fifth were behind in 2025 [EV-HOU-701]; whether nonprofit buyers exist for maturing rental properties [EV-HOU-783]; who gains and who loses under the single rural test, which no count yet shows. No causal study measures what the programs add [EV-HOU-702].
+- **What would change our minds.**
+  - *Staff:* fewer than 4,500 staff by FY2033, or a third of the year's loan money unused two years running (judgment).
+  - *Speed:* fewer than half of decisions within 90 days in more than a third of states after FY2032 (judgment).
+  - *Delinquency:* direct loan delinquency above its March 2025 level after FY2034 [EV-HOU-701].
+  - *Rentals:* more than a fifth of maturing units leaving in a year after FY2032 (judgment).
+  - *Rural test:* any place or household recorded as losing eligibility.
+- **Who sees it, when.** USDA's quarterly speed reports from 2029, its yearly loan, rental and eligibility counts, and GAO's July 2027 technology report.
+- **What we'd do instead.** Staff or speed: slow the loan-level path and move money toward the state offices that spend it. Delinquency: more servicing staff and earlier modification before more lending. Rentals: more money in the fund and more HOU-3C purchases. Rural test: restore eligibility at once under HOU-14.05's hold-harmless.
+- **Kind.** Review. None of these ends a household's help once given.
+
 ## 2. Political and legal events
 
 | Event | Signal and source | Threshold | What we'd do instead | Kind |
